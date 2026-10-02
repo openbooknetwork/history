@@ -1,0 +1,1 @@
+Balkan devletleri birkaç hafta içinde Selanik dahil Osmanlı Avrupası’nın neredeyse tamamını alır. Mustafa Kemal, Boğazlara giden hattı tutan Bolayır Kolordusu’nda Gelibolu Yarımadası’nda görev yapar. Temmuz 1913’te, İkinci Balkan Savaşı’nda Osmanlı kuvvetleri Edirne’yi geri alır. İki yıl sonra önem kazanacak olan yarımadanın arazisini öğrenir.

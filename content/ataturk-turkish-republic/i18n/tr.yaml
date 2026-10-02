@@ -1,0 +1,1304 @@
+# tr strings for the story "ataturk-turkish-republic".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language; harita build --strict turns them into errors. Regenerate with: harita i18n tr
+
+# 1881 – 1914: The making of an officer
+groups.officer.title: "1881 – 1914: Bir subayın yetişmesi"
+
+# 1915 – 1918: The Great War
+groups.great-war.title: "1915 – 1918: Büyük Savaş"
+
+# 1919 – 1923: The War of Independence
+groups.independence.title: "1919 – 1923: Kurtuluş Savaşı"
+
+# 1919
+groups.1919.title: "1919"
+
+# May
+groups.may.title: "Mayıs"
+
+# 1920
+groups.1920.title: "1920"
+
+# 1921
+groups.1921.title: "1921"
+
+# Sakarya
+groups.sakarya.title: "Sakarya"
+
+# 1922
+groups.1922.title: "1922"
+
+# The Great Offensive
+groups.great-offensive.title: "Büyük Taarruz"
+
+# 1923
+groups.1923.title: "1923"
+
+# 1923 – 1938: Epilogue
+groups.epilogue.title: "1923 – 1938: Sonsöz"
+
+# Anzac beachhead at Arıburnu, 1915
+zones.anzac.name: "Arıburnu’nda Anzak çıkarma bölgesi, 1915"
+
+# Allied (British) occupation of İstanbul and the Straits
+zones.british.name: "İtilaf (İngiliz) işgali: İstanbul ve Boğazlar"
+
+# French occupation zone (Cilicia)
+zones.french.name: "Fransız işgal bölgesi (Kilikya)"
+
+# Greek occupation zone, 1919
+zones.greek1919.name: "Yunan işgal bölgesi, 1919"
+
+# Greek occupation zone, summer 1920
+zones.greek1920.name: "Yunan işgal bölgesi, 1920 yazı"
+
+# Allied beachhead at Cape Helles, 1915
+zones.helles.name: "Seddülbahir’de İtilaf çıkarma bölgesi, 1915"
+
+# Italian occupation zone
+zones.italian.name: "İtalyan işgal bölgesi"
+
+# Ottoman Europe lost in the Balkan Wars, 1912 to 1913
+zones.rumelia-lost.name: "Balkan Savaşları’nda kaybedilen Osmanlı Avrupası, 1912–1913"
+
+# Allied beachhead at Suvla Bay, August 1915
+zones.suvla.name: "Suvla Koyu’nda İtilaf çıkarma bölgesi, Ağustos 1915"
+
+# Borders of the Republic of Türkiye under the Treaty of Lausanne, 1923
+zones.turkey-1923.name: "Lozan Antlaşması ile Türkiye Cumhuriyeti sınırları, 1923"
+
+# The Great Offensive, 26 August to 9 September 1922
+routes.great-offensive-route.name: "Büyük Taarruz, 26 Ağustos – 9 Eylül 1922"
+
+# Mustafa Kemal, May to September 1919
+routes.kemal-1919.name: "Mustafa Kemal, Mayıs–Eylül 1919"
+
+# Sivas to Ankara, December 1919
+routes.sivas-ankara.name: "Sivas’tan Ankara’ya, Aralık 1919"
+
+# İstanbul
+markers.istanbul.label: "İstanbul"
+
+# Allied fleet arrives, 13 Nov 1918
+markers.istanbul.note: "İtilaf donanması gelir, 13 Kasım 1918"
+
+# İzmir
+markers.izmir.label: "İzmir"
+
+# Greek landing, 15 May 1919
+markers.izmir.note: "Yunan çıkarması, 15 Mayıs 1919"
+
+# Antalya
+markers.antalya.label: "Antalya"
+
+# Italian landing, 28 Mar 1919
+markers.antalya.note: "İtalyan çıkarması, 28 Mart 1919"
+
+# Adana
+markers.adana.label: "Adana"
+
+# French occupation, Dec 1918
+markers.adana.note: "Fransız işgali, Aralık 1918"
+
+# Samsun
+markers.samsun.label: "Samsun"
+
+# Mustafa Kemal lands, 19 May 1919
+markers.samsun.note: "Mustafa Kemal karaya çıkar, 19 Mayıs 1919"
+
+# Amasya
+markers.amasya.label: "Amasya"
+
+# Circular, 22 Jun 1919
+markers.amasya.note: "Genelge, 22 Haziran 1919"
+
+# Erzurum
+markers.erzurum.label: "Erzurum"
+
+# Congress, 23 Jul to 7 Aug 1919
+markers.erzurum.note: "Kongre, 23 Temmuz–7 Ağustos 1919"
+
+# Sivas
+markers.sivas.label: "Sivas"
+
+# Congress, 4 to 11 Sep 1919
+markers.sivas.note: "Kongre, 4–11 Eylül 1919"
+
+# Ankara
+markers.ankara.label: "Ankara"
+
+# Grand National Assembly, 23 Apr 1920
+markers.ankara.note: "Büyük Millet Meclisi, 23 Nisan 1920"
+
+# İstanbul
+markers.istanbul-1920.label: "İstanbul"
+
+# Formal occupation, 16 Mar 1920
+markers.istanbul-1920.note: "Resmî işgal, 16 Mart 1920"
+
+# Bursa
+markers.bursa.label: "Bursa"
+
+# Taken by Greek army, 8 Jul 1920
+markers.bursa.note: "Yunan ordusu ele geçirir, 8 Temmuz 1920"
+
+# Selanik
+markers.salonica.label: "Selanik"
+
+# Born 1881
+markers.salonica.note: "Doğum, 1881"
+
+# Manastır
+markers.monastir.label: "Manastır"
+
+# Military high school, 1896 to 1899
+markers.monastir.note: "Askerî idadi, 1896 – 1899"
+
+# İstanbul
+markers.istanbul-war-college.label: "İstanbul"
+
+# War College, 1899 to 1905
+markers.istanbul-war-college.note: "Harbiye, 1899 – 1905"
+
+# Damascus
+markers.damascus.label: "Şam"
+
+# Vatan ve Hürriyet, 1906
+markers.damascus.note: "Vatan ve Hürriyet, 1906"
+
+# Derna
+markers.derna.label: "Derne"
+
+# Command, March 1912
+markers.derna.note: "Komuta, Mart 1912"
+
+# Bolayır
+markers.bolayir.label: "Bolayır"
+
+# Gallipoli line, 1912 to 1913
+markers.bolayir.note: "Gelibolu hattı, 1912 – 1913"
+
+# Edirne
+markers.edirne.label: "Edirne"
+
+# Retaken, 22 July 1913
+markers.edirne.note: "Geri alındı, 22 Temmuz 1913"
+
+# Sofia
+markers.sofia.label: "Sofya"
+
+# Military attaché, 1913 to 1915
+markers.sofia.note: "Ataşemiliter, 1913 – 1915"
+
+# Arıburnu
+markers.gallipoli-landing.label: "Arıburnu"
+
+# 57th Regiment, 25 April 1915
+markers.gallipoli-landing.note: "57. Alay, 25 Nisan 1915"
+
+# Suvla
+markers.suvla.label: "Anafartalar"
+
+# Allied landing, 6 August 1915
+markers.suvla.note: "İtilaf çıkarması, 6 Ağustos 1915"
+
+# Conkbayırı
+markers.chunuk-bair.label: "Conkbayırı"
+
+# Counterattack, 10 August 1915
+markers.chunuk-bair.note: "Karşı great-offensive-route, 10 Ağustos 1915"
+
+# Bitlis
+markers.bitlis.label: "Bitlis"
+
+# Retaken, 8 August 1916
+markers.bitlis.note: "Geri alındı, 8 Ağustos 1916"
+
+# Nablus
+markers.nablus.label: "Nablus"
+
+# Megiddo offensive, 19 September 1918
+markers.nablus.note: "Megiddo taarruzu, 19 Eylül 1918"
+
+# Aleppo
+markers.aleppo.label: "Halep"
+
+# Seventh Army holds at Katma, 26 October 1918
+markers.aleppo.note: "Yedinci Ordu Katma’da tutunur, 26 Ekim 1918"
+
+# Mudros
+markers.mudros.label: "Mondros"
+
+# Armistice, 30 October 1918
+markers.mudros.note: "Mütareke, 30 Ekim 1918"
+
+# Kars
+markers.kars.label: "Kars"
+
+# Taken, 30 October 1920
+markers.kars.note: "Alındı, 30 Ekim 1920"
+
+# Gyumri
+markers.gyumri.label: "Gümrü"
+
+# Treaty, 3 December 1920
+markers.gyumri.note: "Antlaşma, 3 Aralık 1920"
+
+# İnönü
+markers.inonu.label: "İnönü"
+
+# Battles, January and March 1921
+markers.inonu.note: "Muharebeler, Ocak ve Mart 1921"
+
+# Sakarya
+markers.sakarya.label: "Sakarya"
+
+# Battle, 23 August to 13 September 1921
+markers.sakarya.note: "Muharebe, 23 Ağustos – 13 Eylül 1921"
+
+# Dumlupınar
+markers.dumlupinar.label: "Dumlupınar"
+
+# Decisive battle, 30 August 1922
+markers.dumlupinar.note: "Başkomutanlık Meydan Muharebesi, 30 Ağustos 1922"
+
+# İzmir
+markers.izmir-1922.label: "İzmir"
+
+# Liberated, 9 September 1922
+markers.izmir-1922.note: "Kurtuluş, 9 Eylül 1922"
+
+# Mudanya
+markers.mudanya.label: "Mudanya"
+
+# Armistice, 11 October 1922
+markers.mudanya.note: "Mütareke, 11 Ekim 1922"
+
+# Ankara
+markers.ankara-1923.label: "Ankara"
+
+# Capital and Republic, October 1923
+markers.ankara-1923.note: "Başkent ve Cumhuriyet, Ekim 1923"
+
+# Dolmabahçe
+markers.dolmabahce.label: "Dolmabahçe"
+
+# 10 November 1938
+markers.dolmabahce.note: "10 Kasım 1938"
+
+# Eskişehir
+markers.eskisehir.label: "Eskişehir"
+
+# Taken by Greek army, 19 July 1921
+markers.eskisehir.note: "Yunan ordusu alır, 19 Temmuz 1921"
+
+# Alagöz
+markers.alagoz.label: "Alagöz"
+
+# Headquarters during Sakarya
+markers.alagoz.note: "Sakarya’da karargâh"
+
+# Akşehir
+markers.aksehir.label: "Akşehir"
+
+# Front headquarters, August 1922
+markers.aksehir.note: "Cephe karargâhı, Ağustos 1922"
+
+# Afyon
+markers.afyon.label: "Afyon"
+
+# Taken, 27 August 1922
+markers.afyon.note: "Alındı, 27 Ağustos 1922"
+
+# Kocatepe
+markers.kocatepe.label: "Kocatepe"
+
+# Dawn, 26 August 1922
+markers.kocatepe.note: "Şafak, 26 Ağustos 1922"
+
+# Selanik
+markers.salonica-1912.label: "Selanik"
+
+# Taken by Greece, 8 November 1912
+markers.salonica-1912.note: "Yunanistan alır, 8 Kasım 1912"
+
+# Çatalca
+markers.catalca.label: "Çatalca"
+
+# Bulgarian advance stopped, November 1912
+markers.catalca.note: "Bulgar ilerleyişi durdurulur, Kasım 1912"
+
+# Ottoman Empire
+battles.gallipoli.sides.0.name: "Osmanlı İmparatorluğu"
+
+# Otto Liman von Sanders
+battles.gallipoli.sides.0.commanders.0: "Otto Liman von Sanders"
+
+# Esat Pasha
+battles.gallipoli.sides.0.commanders.1: "Esat Paşa"
+
+# Mustafa Kemal
+battles.gallipoli.sides.0.commanders.2: "Mustafa Kemal"
+
+# Vehip Pasha
+battles.gallipoli.sides.0.commanders.3: "Vehip Paşa"
+
+# About 315,000 over the campaign
+battles.gallipoli.sides.0.strength: "Harekât boyunca yaklaşık 315.000"
+
+# About 250,000, of them 56,000 dead
+battles.gallipoli.sides.0.casualties: "Yaklaşık 250.000, 56.000’i ölü"
+
+# British Empire and France
+battles.gallipoli.sides.1.name: "Britanya İmparatorluğu ve Fransa"
+
+# Ian Hamilton
+battles.gallipoli.sides.1.commanders.0: "Ian Hamilton"
+
+# William Birdwood
+battles.gallipoli.sides.1.commanders.1: "William Birdwood"
+
+# Charles Monro
+battles.gallipoli.sides.1.commanders.2: "Charles Monro"
+
+# About 490,000 over the campaign
+battles.gallipoli.sides.1.strength: "Harekât boyunca yaklaşık 490.000"
+
+# About 250,000, of them 56,000 dead
+battles.gallipoli.sides.1.casualties: "Yaklaşık 250.000, 56.000’i ölü"
+
+# Gallipoli campaign
+battles.gallipoli.name: "Çanakkale Muharebeleri"
+
+# 25 April 1915 – 9 January 1916
+battles.gallipoli.date: "25 Nisan 1915 – 9 Ocak 1916"
+
+# Ottoman victory, Allied evacuation
+battles.gallipoli.result: "Osmanlı zaferi, İtilaf tahliyesi"
+
+# Grand National Assembly
+battles.inonu.sides.0.name: "Türkiye Büyük Millet Meclisi"
+
+# İsmet Pasha
+battles.inonu.sides.0.commanders.0: "İsmet Paşa"
+
+# Refet Pasha
+battles.inonu.sides.0.commanders.1: "Refet Paşa"
+
+# About 34,000 in the second battle
+battles.inonu.sides.0.strength: "İkinci muharebede yaklaşık 34.000"
+
+# About 11,000 in the second battle
+battles.inonu.sides.0.casualties: "İkinci muharebede yaklaşık 11.000"
+
+# Kingdom of Greece
+battles.inonu.sides.1.name: "Yunanistan Krallığı"
+
+# Anastasios Papoulas
+battles.inonu.sides.1.commanders.0: "Anastasios Papulas"
+
+# About 41,000 in the second battle
+battles.inonu.sides.1.strength: "İkinci muharebede yaklaşık 41.000"
+
+# About 4,000 in the second battle
+battles.inonu.sides.1.casualties: "İkinci muharebede yaklaşık 4.000"
+
+# First and Second Battles of İnönü
+battles.inonu.name: "Birinci ve İkinci İnönü Muharebeleri"
+
+# 6–11 January and 23 March – 1 April 1921
+battles.inonu.date: "6–11 Ocak ve 23 Mart – 1 Nisan 1921"
+
+# Greek advance stopped both times
+battles.inonu.result: "Yunan ilerleyişi iki kez durduruldu"
+
+# Grand National Assembly
+battles.kutahya-eskisehir.sides.0.name: "Türkiye Büyük Millet Meclisi"
+
+# İsmet Pasha
+battles.kutahya-eskisehir.sides.0.commanders.0: "İsmet Paşa"
+
+# Mustafa Kemal
+battles.kutahya-eskisehir.sides.0.commanders.1: "Mustafa Kemal"
+
+# About 122,000
+battles.kutahya-eskisehir.sides.0.strength: "Yaklaşık 122.000"
+
+# About 40,000 killed, wounded, missing or deserted
+battles.kutahya-eskisehir.sides.0.casualties: "Yaklaşık 40.000 ölü, yaralı, kayıp veya firari"
+
+# Kingdom of Greece
+battles.kutahya-eskisehir.sides.1.name: "Yunanistan Krallığı"
+
+# Anastasios Papoulas
+battles.kutahya-eskisehir.sides.1.commanders.0: "Anastasios Papulas"
+
+# King Constantine I
+battles.kutahya-eskisehir.sides.1.commanders.1: "Kral I. Konstantinos"
+
+# About 126,000
+battles.kutahya-eskisehir.sides.1.strength: "Yaklaşık 126.000"
+
+# About 8,000
+battles.kutahya-eskisehir.sides.1.casualties: "Yaklaşık 8.000"
+
+# Battle of Kütahya–Eskişehir
+battles.kutahya-eskisehir.name: "Kütahya–Eskişehir Muharebeleri"
+
+# 10–24 July 1921
+battles.kutahya-eskisehir.date: "10–24 Temmuz 1921"
+
+# Greek victory, Turkish retreat to the Sakarya
+battles.kutahya-eskisehir.result: "Yunan zaferi, Türk ordusu Sakarya’ya çekildi"
+
+# Grand National Assembly
+battles.sakarya.sides.0.name: "Türkiye Büyük Millet Meclisi"
+
+# Mustafa Kemal Pasha
+battles.sakarya.sides.0.commanders.0: "Mustafa Kemal Paşa"
+
+# Fevzi Pasha
+battles.sakarya.sides.0.commanders.1: "Fevzi Paşa"
+
+# İsmet Pasha
+battles.sakarya.sides.0.commanders.2: "İsmet Paşa"
+
+# About 96,000 men, 169 guns
+battles.sakarya.sides.0.strength: "Yaklaşık 96.000 asker, 169 top"
+
+# 5,713 killed, 18,480 wounded, 14,268 missing or captured
+battles.sakarya.sides.0.casualties: "5.713 ölü, 18.480 yaralı, 14.268 kayıp veya esir"
+
+# Kingdom of Greece
+battles.sakarya.sides.1.name: "Yunanistan Krallığı"
+
+# King Constantine I
+battles.sakarya.sides.1.commanders.0: "Kral I. Konstantinos"
+
+# Anastasios Papoulas
+battles.sakarya.sides.1.commanders.1: "Anastasios Papulas"
+
+# About 120,000 men, 286 guns
+battles.sakarya.sides.1.strength: "Yaklaşık 120.000 asker, 286 top"
+
+# 3,758 killed, 18,955 wounded, 354 missing
+battles.sakarya.sides.1.casualties: "3.758 ölü, 18.955 yaralı, 354 kayıp"
+
+# Battle of Sakarya
+battles.sakarya.name: "Sakarya Meydan Muharebesi"
+
+# 23 August – 13 September 1921
+battles.sakarya.date: "23 Ağustos – 13 Eylül 1921"
+
+# Turkish victory, end of the Greek advance
+battles.sakarya.result: "Türk zaferi, Yunan ilerleyişinin sonu"
+
+# Grand National Assembly
+battles.great-offensive.sides.0.name: "Türkiye Büyük Millet Meclisi"
+
+# Mustafa Kemal Pasha
+battles.great-offensive.sides.0.commanders.0: "Mustafa Kemal Paşa"
+
+# Fevzi Pasha
+battles.great-offensive.sides.0.commanders.1: "Fevzi Paşa"
+
+# İsmet Pasha
+battles.great-offensive.sides.0.commanders.2: "İsmet Paşa"
+
+# Nureddin Pasha
+battles.great-offensive.sides.0.commanders.3: "Nureddin Paşa"
+
+# About 208,000 men, 323 guns
+battles.great-offensive.sides.0.strength: "Yaklaşık 208.000 asker, 323 top"
+
+# 2,318 killed, 9,360 wounded, 1,697 missing
+battles.great-offensive.sides.0.casualties: "2.318 ölü, 9.360 yaralı, 1.697 kayıp"
+
+# Kingdom of Greece
+battles.great-offensive.sides.1.name: "Yunanistan Krallığı"
+
+# Georgios Hatzianestis
+battles.great-offensive.sides.1.commanders.0: "Yeorgios Hacianestis"
+
+# Nikolaos Trikoupis
+battles.great-offensive.sides.1.commanders.1: "Nikolaos Trikupis"
+
+# About 225,000 men in Anatolia, 348 guns
+battles.great-offensive.sides.1.strength: "Anadolu’da yaklaşık 225.000 asker, 348 top"
+
+# About 50,000 killed, wounded or captured
+battles.great-offensive.sides.1.casualties: "Yaklaşık 50.000 ölü, yaralı veya esir"
+
+# Great Offensive and Battle of Dumlupınar
+battles.great-offensive.name: "Büyük Taarruz ve Başkomutanlık Meydan Muharebesi"
+
+# 26 August – 18 September 1922
+battles.great-offensive.date: "26 Ağustos – 18 Eylül 1922"
+
+# Decisive Turkish victory, Greek army leaves Anatolia
+battles.great-offensive.result: "Kesin Türk zaferi, Yunan ordusu Anadolu’dan çekildi"
+
+# The house in Selanik where Mustafa was born, today the Atatürk Museum in Thessaloniki
+images.salonica-birth-house.caption: "Mustafa’nın doğduğu Selanik’teki ev, bugün Selanik Atatürk Evi Müzesi"
+
+# Salonica from the sea, 1898
+images.salonica-1898.caption: "Denizden Selanik, 1898"
+
+# The military high school at Manastır in the 1890s
+images.monastir-school.caption: "1890’larda Manastır Askerî İdadisi"
+
+# Manastır, today’s Bitola, 1915
+images.monastir-town.caption: "Manastır, bugünkü Bitola, 1915"
+
+# Mustafa Kemal on graduating from the Staff College as a staff captain, 11 January 1905
+images.war-college-1905.caption: "Mustafa Kemal Erkân-ı Harbiye’den kurmay yüzbaşı olarak mezun olurken, 11 Ocak 1905"
+
+# Mustafa Kemal (centre) with fellow Fifth Army officers in Beirut, 15 July 1906
+images.damascus-1906.caption: "Mustafa Kemal (ortada) Beşinci Ordu subaylarıyla Beyrut’ta, 15 Temmuz 1906"
+
+# Officers of the Fifth Army, Beirut, 1906
+images.beirut-officers-1906.caption: "Beşinci Ordu subayları, Beyrut, 1906"
+
+# Staff Major Mustafa Kemal dictating orders in front of Bedouin fighters, Tripolitania, 1912
+images.derna-bedouin.caption: "Kurmay Binbaşı Mustafa Kemal mücahit Bedevi kuvvetleri önünde emirlerini yazdırırken, Trablusgarp, 1912"
+
+# Mustafa Kemal with the Red Crescent delegation at Derna, 1912
+images.derna-red-crescent.caption: "Mustafa Kemal Derne’de Kızılay heyetiyle, 1912"
+
+# Mustafa Kemal in the Tripolitanian war, 1912
+images.tripolitania-1912.caption: "Mustafa Kemal Trablusgarp Savaşı’nda, 1912"
+
+# Staff Lieutenant Colonel Mustafa Kemal with friends in Sofia, 1914
+images.sofia-1914.caption: "Kurmay Yarbay Mustafa Kemal arkadaşlarıyla Sofya’da, 1914"
+
+# Mustafa Kemal in janissary costume at a ball in Sofia, May 1914
+images.sofia-janissary.caption: "Mustafa Kemal Sofya’da bir baloda yeniçeri kıyafetiyle, Mayıs 1914"
+
+# Australian troops landing at Anzac Cove, 25 April 1915
+images.anzac-landing.caption: "Avustralya birlikleri Arıburnu’na çıkıyor, 25 Nisan 1915"
+
+# An Ottoman regimental flag at Kanlısırt, 1915
+images.lone-pine-flag.caption: "Kanlısırt’ta bir Osmanlı alay sancağı, 1915"
+
+# Anzac Cove on the morning of 25 April 1915, HMS Bacchante offshore
+images.anzac-cove-bacchante.caption: "25 Nisan 1915 sabahı Arıburnu, açıkta HMS Bacchante"
+
+# Mustafa Kemal, commander of the Anafartalar Group, with his officers, 1915
+images.suvla-group.caption: "Anafartalar Grubu Komutanı Mustafa Kemal subaylarıyla, 1915"
+
+# Mustafa Kemal and his comrades at Anafartalar, in Servet-i Fünun, 6 January 1916
+images.suvla-press-1916.caption: "Mustafa Kemal ve silah arkadaşları Anafartalar’da, Servet-i Fünun, 6 Ocak 1916"
+
+# Troops landing on C Beach, Suvla Bay, 7 August 1915. Painting by Norman Wilkinson
+images.suvla-landing.caption: "Suvla Koyu C Plajı’na çıkarma, 7 Ağustos 1915. Norman Wilkinson’ın tablosu"
+
+# Mustafa Kemal Pasha, commander of the 16th Corps, at Bitlis, 16 November 1916
+images.bitlis-1916.caption: "16. Kolordu Komutanı Mustafa Kemal Paşa Bitlis’te, 16 Kasım 1916"
+
+# Mustafa Kemal Pasha in Diyarbakır, 1916
+images.diyarbakir-1916.caption: "Mustafa Kemal Paşa Diyarbakır’da, 1916"
+
+# Mustafa Kemal Pasha with Liman von Sanders at Adana on taking over the Yıldırım Army Group, 31 October 1918
+images.adana-1918.caption: "Mustafa Kemal Paşa, Yıldırım Orduları Grubu komutasını devraldığı Liman von Sanders ile Adana’da, 31 Ekim 1918"
+
+# Mustafa Kemal Pasha as commander of the Yıldırım armies, 1918
+images.yildirim-1918.caption: "Yıldırım Orduları Kumandanı Mustafa Kemal Paşa, 1918"
+
+# HMS Agamemnon, on which the armistice was signed at Mudros
+images.agamemnon.caption: "Mütarekenin Mondros’ta üzerinde imzalandığı HMS Agamemnon"
+
+# HMS Agamemnon in Mudros Bay
+images.agamemnon-mudros.caption: "HMS Agamemnon Mondros Koyu’nda"
+
+# Greek evzones in İzmir as the Greek population welcomes them, 15 May 1919
+images.izmir-1919.caption: "Rum halkının karşıladığı Yunan evzon askerleri İzmir’de, 15 Mayıs 1919"
+
+# The steamer Bandırma, which carried Mustafa Kemal to Samsun
+images.samsun-1919.caption: "Mustafa Kemal’i Samsun’a götüren Bandırma Vapuru"
+
+# The War Ministry’s letter appointing Mustafa Kemal Inspector of the Ninth Army, 1919
+images.samsun-appointment.caption: "Harbiye Nezareti’nin Mustafa Kemal’i 9. Ordu Müfettişliği’ne atama yazısı, 1919"
+
+# Mustafa Kemal Pasha in Erzurum during preparations for the congress, 5 July 1919
+images.erzurum-1919.caption: "Erzurum Kongresi hazırlıkları sırasında Mustafa Kemal Paşa Erzurum’da, 5 Temmuz 1919"
+
+# Mustafa Kemal Pasha with delegates of the Sivas Congress, September 1919
+images.sivas-1919.caption: "Mustafa Kemal Paşa Sivas Kongresi delegeleriyle, Eylül 1919"
+
+# Rauf, Mustafa Kemal and Ahmet Rüstem at the Sivas Congress, 1919
+images.sivas-rauf.caption: "Rauf Bey, Mustafa Kemal ve Ahmet Rüstem Sivas Kongresi’nde, 1919"
+
+# Prayers in front of the Assembly building on its opening day, Ankara, 23 April 1920
+images.ankara-1920.caption: "Meclis binasının önünde açılış günü duası, Ankara, 23 Nisan 1920"
+
+# British occupation troops marching in Beyoğlu, İstanbul
+images.istanbul-occupation-1920.caption: "İngiliz işgal birlikleri Beyoğlu’nda, İstanbul"
+
+# Mustafa Kemal in Ankara, July 1920
+images.ankara-1920-july.caption: "Mustafa Kemal Ankara’da, Temmuz 1920"
+
+# Eleftherios Venizelos signing the Treaty of Sèvres, August 1920
+images.sevres-signing.caption: "Elefterios Venizelos Sevr Antlaşması’nı imzalarken, Ağustos 1920"
+
+# The room at the Sèvres porcelain works where the treaty was signed, 1920
+images.sevres-room.caption: "Sevr porselen fabrikasında antlaşmanın imzalandığı salon, 1920"
+
+# The partition laid down by the Treaty of Sèvres, 10 August 1920
+images.sevres-map.caption: "Sevr Antlaşması’nın öngördüğü paylaşım, 10 Ağustos 1920"
+
+# Kâzım Karabekir on the Pasinler plain, 1918
+images.karabekir-1918.caption: "Kâzım Karabekir Pasinler ovasında, 1918"
+
+# The house in Gyumri where the treaty was signed on 2 December 1920
+images.gyumri-house.caption: "Gümrü’de antlaşmanın 2 Aralık 1920’de imzalandığı ev"
+
+# Mustafa Kemal Pasha and İsmet Pasha inspecting troops after the Second Battle of İnönü, 1921
+images.inonu-inspection.caption: "Mustafa Kemal Paşa ve İsmet Paşa İkinci İnönü Muharebesi’nden sonra askerleri teftişte, 1921"
+
+# Greek soldiers in a trench near Afyonkarahisar, July 1921
+images.afyon-greek-trench-1921.caption: "Afyonkarahisar yakınında siperde Yunan askerleri, Temmuz 1921"
+
+# Greek troops in Eskişehir, July 1921
+images.greek-eskisehir-1921.caption: "Yunan birlikleri Eskişehir’de, Temmuz 1921"
+
+# Parade of the Greek III Army Corps in Eskişehir, 1921
+images.greek-parade-eskisehir.caption: "Yunan III. Kolordusu’nun Eskişehir’de geçit töreni, 1921"
+
+# A Turkish heavy gun captured by the Greek army at Eskişehir, summer 1921
+images.captured-gun-eskisehir.caption: "Yunan ordusunun Eskişehir’de ele geçirdiği bir Türk ağır topu, 1921 yazı"
+
+# At the Duatepe observation hill near Polatlı during the Battle of Sakarya, 10 September 1921. Colourised
+images.sakarya-duatepe.caption: "Sakarya Meydan Muharebesi sırasında Polatlı yakınındaki Duatepe gözetleme tepesinde, 10 Eylül 1921. Renklendirilmiş"
+
+# Mustafa Kemal with his aide Salih Bozok during the Battle of Sakarya, 1921
+images.sakarya-salih-bozok.caption: "Mustafa Kemal yaveri Salih Bozok ile Sakarya Meydan Muharebesi sırasında, 1921"
+
+# Greek infantry advancing towards Polatlı, August 1921
+images.sakarya-greek-advance.caption: "Polatlı yönünde ilerleyen Yunan piyadesi, Ağustos 1921"
+
+# Greek evzones of the 1/38 Regiment advancing on Turkish positions, August 1921
+images.sakarya-evzones.caption: "Türk mevzilerine ilerleyen 1/38. Evzon Alayı, Ağustos 1921"
+
+# Field Marshal Gazi Mustafa Kemal Pasha, Ankara, 4 December 1921
+images.field-marshal-1921.caption: "Müşir Gazi Mustafa Kemal Paşa, Ankara, 4 Aralık 1921"
+
+# Mustafa Kemal Pasha with Henry Franklin-Bouillon, the French negotiator of the Ankara Agreement, İzmir, 28 September 1922
+images.franklin-bouillon.caption: "Mustafa Kemal Paşa, Ankara İtilafnamesi’nin Fransız müzakerecisi Henry Franklin-Bouillon ile, İzmir, 28 Eylül 1922"
+
+# Generals and officers waiting for Mustafa Kemal at Akşehir station before the Great Offensive, August 1922
+images.aksehir-station.caption: "Büyük Taarruz öncesinde Akşehir istasyonunda Mustafa Kemal’i bekleyen general ve subaylar, Ağustos 1922"
+
+# Turkish artillerymen before the Great Offensive, 1922
+images.artillerymen-1922.caption: "Büyük Taarruz öncesinde Türk topçuları, 1922"
+
+# Exercise of the First Army at Ilgın, 1 April 1922
+images.ilgin-exercise.caption: "Birinci Ordu’nun Ilgın’da tatbikatı, 1 Nisan 1922"
+
+# Mustafa Kemal at Kocatepe on the morning of 26 August 1922
+images.kocatepe-1922.caption: "Mustafa Kemal Kocatepe’de, 26 Ağustos 1922 sabahı"
+
+# Mustafa Kemal and three officers at Kocatepe, Afyonkarahisar, 26 August 1922
+images.kocatepe-officers.caption: "Mustafa Kemal ve üç subay Kocatepe’de, Afyonkarahisar, 26 Ağustos 1922"
+
+# Greek soldiers near Afyonkarahisar, 29 August 1922
+images.greek-afyon-1922.caption: "Afyonkarahisar yakınında Yunan askerleri, 29 Ağustos 1922"
+
+# General Trikoupis led away by Turkish soldiers after his capture, September 1922
+images.trikoupis-pow.caption: "General Trikupis esir alındıktan sonra Türk askerleri arasında, Eylül 1922"
+
+# Turkish infantry in a trench during the War of Independence
+images.turkish-trench-1922.caption: "Kurtuluş Savaşı’nda siperde Türk piyadesi"
+
+# Captured Greek generals at the Kırşehir prisoner camp, 1922
+images.greek-generals-pow.caption: "Kırşehir esir kampında esir Yunan generalleri, 1922"
+
+# Turkish cavalry entering İzmir, 9 September 1922
+images.izmir-cavalry.caption: "Türk süvari birlikleri İzmir’e girerken, 9 Eylül 1922"
+
+# Mustafa Kemal Pasha in İzmir the day after the city was retaken, 10 September 1922
+images.izmir-mustafa-kemal.caption: "Mustafa Kemal Paşa İzmir’in kurtuluşunun ertesi günü şehirde, 10 Eylül 1922"
+
+# The fire of İzmir seen from an Italian ship, 14 September 1922
+images.smyrna-fire.caption: "İzmir yangını bir İtalyan gemisinden, 14 Eylül 1922"
+
+# The house in Mudanya where the armistice was signed
+images.mudanya-house.caption: "Mudanya’da mütarekenin imzalandığı ev"
+
+# The former sultan Mehmed VI arriving in Malta on a British warship, 9 December 1922
+images.mehmed-vi-malta.caption: "Eski padişah VI. Mehmed bir İngiliz savaş gemisiyle Malta’ya varırken, 9 Aralık 1922"
+
+# The Grand National Assembly building, Ankara, December 1922. Autochrome by Frédéric Gadmer
+images.assembly-1922.caption: "Büyük Millet Meclisi binası, Ankara, Aralık 1922. Frédéric Gadmer’in otokromu"
+
+# The Turkish delegation led by İsmet Pasha after signing the Treaty of Lausanne, 24 July 1923
+images.lausanne-delegation.caption: "İsmet Paşa başkanlığındaki Türk heyeti Lozan Antlaşması’nı imzaladıktan sonra, 24 Temmuz 1923"
+
+# İsmet Pasha and the Turkish delegation at Lausanne, 1922 to 1923
+images.lausanne-ismet-delegation.caption: "İsmet Paşa ve Türk heyeti Lozan’da, 1922–1923"
+
+# İsmet Pasha at the Lausanne conference
+images.lausanne-ismet.caption: "İsmet Paşa Lozan Konferansı’nda"
+
+# Mustafa Kemal, President of the Grand National Assembly, Ankara, December 1922. Autochrome by Frédéric Gadmer
+images.mustafa-kemal-1922.caption: "Büyük Millet Meclisi Reisi Mustafa Kemal, Ankara, Aralık 1922. Frédéric Gadmer’in otokromu"
+
+# The second Assembly building in Ankara, where the Republic was proclaimed
+images.second-assembly-building.caption: "Cumhuriyet’in ilan edildiği Ankara’daki ikinci Meclis binası"
+
+# Mustafa Kemal’s residence at Çankaya near Ankara, December 1922
+images.cankaya-1922.caption: "Mustafa Kemal’in Ankara yakınındaki Çankaya’daki konutu, Aralık 1922"
+
+# Atatürk introducing the new alphabet in Kayseri, 20 September 1928
+images.alphabet-1928.caption: "Atatürk Kayseri’de yeni harfleri tanıtırken, 20 Eylül 1928"
+
+# Atatürk’s funeral procession leaving Dolmabahçe, 19 November 1938
+images.funeral-1938.caption: "Atatürk’ün cenaze alayı Dolmabahçe’den ayrılırken, 19 Kasım 1938"
+
+# Atatürk, İsmet İnönü and Fevzi Çakmak leaving the Assembly, 29 October 1929
+images.assembly-1929.caption: "Atatürk, İsmet İnönü ve Fevzi Çakmak Meclis’ten çıkarken, 29 Ekim 1929"
+
+# 1881
+pages.salonica.date: "1881"
+
+# Born in Selanik
+pages.salonica.title: "Selanik’te doğuş"
+
+# 1896 to 1899
+pages.monastir.date: "1896 – 1899"
+
+# Military high school at Manastır
+pages.monastir.title: "Manastır Askerî İdadisi"
+
+# 1899 to 1905
+pages.war-college.date: "1899 – 1905"
+
+# War College and Staff College in İstanbul
+pages.war-college.title: "İstanbul’da Harbiye ve Erkân-ı Harbiye"
+
+# 1905 to 1907
+pages.damascus.date: "1905 – 1907"
+
+# Damascus and the first secret society
+pages.damascus.title: "Şam ve ilk gizli cemiyet"
+
+# December 1911 to October 1912
+pages.tripolitania.date: "Aralık 1911 – Ekim 1912"
+
+# Tobruk and Derna
+pages.tripolitania.title: "Tobruk ve Derne"
+
+# November 1912 to July 1913
+pages.balkan-wars.date: "Kasım 1912 – Temmuz 1913"
+
+# The Balkan Wars, Gallipoli and Edirne
+pages.balkan-wars.title: "Balkan Savaşları, Gelibolu ve Edirne"
+
+# October 1913 to January 1915
+pages.sofia.date: "Ekim 1913 – Ocak 1915"
+
+# Military attaché in Sofia
+pages.sofia.title: "Sofya’da ataşemiliter"
+
+# 25 April 1915
+pages.gallipoli-landing.date: "25 Nisan 1915"
+
+# Arıburnu: the landing at Gallipoli
+pages.gallipoli-landing.title: "Arıburnu: Çanakkale’ye çıkarma"
+
+# 6 to 10 August 1915
+pages.suvla.date: "6 – 10 Ağustos 1915"
+
+# Anafartalar and Conkbayırı
+pages.suvla.title: "Anafartalar ve Conkbayırı"
+
+# August 1916
+pages.caucasus-front.date: "Ağustos 1916"
+
+# Muş and Bitlis, the Caucasus front
+pages.caucasus-front.title: "Muş ve Bitlis, Kafkas Cephesi"
+
+# September to October 1918
+pages.syrian-front.date: "Eylül – Ekim 1918"
+
+# The Syrian front and the retreat to Aleppo
+pages.syrian-front.title: "Suriye Cephesi ve Halep’e çekiliş"
+
+# 30 October to 13 November 1918
+pages.mudros.date: "30 Ekim – 13 Kasım 1918"
+
+# Mudros and the Allied fleet in İstanbul
+pages.mudros.title: "Mondros ve İtilaf donanması İstanbul’da"
+
+# 15 to 19 May 1919
+pages.occupation.date: "15–19 Mayıs 1919"
+
+# Occupation, and the landing at Samsun
+pages.occupation.title: "İşgal ve Samsun’a çıkış"
+
+# 22 June to 11 September 1919
+pages.congresses.date: "22 Haziran – 11 Eylül 1919"
+
+# Amasya, Erzurum, Sivas
+pages.congresses.title: "Amasya, Erzurum, Sivas"
+
+# 27 December 1919 to 8 July 1920
+pages.ankara.date: "27 Aralık 1919 – 8 Temmuz 1920"
+
+# Ankara, the Assembly, and the Greek advance
+pages.ankara.title: "Ankara, Meclis ve Yunan ilerleyişi"
+
+# 10 August 1920
+pages.sevres.date: "10 Ağustos 1920"
+
+# The Treaty of Sèvres
+pages.sevres.title: "Sevr Antlaşması"
+
+# September to December 1920
+pages.gyumri.date: "Eylül – Aralık 1920"
+
+# The Eastern front and the Treaty of Gümrü
+pages.gyumri.title: "Doğu Cephesi ve Gümrü Antlaşması"
+
+# January to April 1921
+pages.inonu.date: "Ocak – Nisan 1921"
+
+# First and Second İnönü
+pages.inonu.title: "Birinci ve İkinci İnönü"
+
+# 10 July to 5 August 1921
+pages.kutahya-eskisehir.date: "10 Temmuz – 5 Ağustos 1921"
+
+# Kütahya and Eskişehir, the retreat to the Sakarya
+pages.kutahya-eskisehir.title: "Kütahya ve Eskişehir, Sakarya’ya çekiliş"
+
+# 23 August to 13 September 1921
+pages.sakarya.date: "23 Ağustos – 13 Eylül 1921"
+
+# The battle on the Sakarya
+pages.sakarya.title: "Sakarya Meydan Muharebesi"
+
+# 19 September 1921
+pages.field-marshal.date: "19 Eylül 1921"
+
+# Field marshal and Gazi
+pages.field-marshal.title: "Mareşal ve Gazi"
+
+# 20 October 1921
+pages.ankara-agreement.date: "20 Ekim 1921"
+
+# The Ankara Agreement with France
+pages.ankara-agreement.title: "Fransa ile Ankara İtilafnamesi"
+
+# June to August 1922
+pages.preparation.date: "Haziran – Ağustos 1922"
+
+# The year of preparation
+pages.preparation.title: "Hazırlık yılı"
+
+# 26 to 27 August 1922
+pages.afyon.date: "26 – 27 Ağustos 1922"
+
+# Kocatepe and the breakthrough at Afyon
+pages.afyon.title: "Kocatepe ve Afyon’da yarma"
+
+# 30 August 1922
+pages.dumlupinar.date: "30 Ağustos 1922"
+
+# Dumlupınar, the commander in chief's battle
+pages.dumlupinar.title: "Dumlupınar, Başkomutanlık Meydan Muharebesi"
+
+# 1 to 18 September 1922
+pages.izmir-retaken.date: "1 – 18 Eylül 1922"
+
+# The pursuit to İzmir
+pages.izmir-retaken.title: "İzmir’e takip"
+
+# 11 October 1922
+pages.mudanya.date: "11 Ekim 1922"
+
+# The Armistice of Mudanya
+pages.mudanya.title: "Mudanya Mütarekesi"
+
+# 1 November 1922
+pages.sultanate.date: "1 Kasım 1922"
+
+# The sultanate is abolished
+pages.sultanate.title: "Saltanatın kaldırılması"
+
+# 24 July 1923
+pages.lausanne.date: "24 Temmuz 1923"
+
+# The Treaty of Lausanne
+pages.lausanne.title: "Lozan Antlaşması"
+
+# 13 to 29 October 1923
+pages.republic.date: "13 – 29 Ekim 1923"
+
+# Ankara becomes the capital, the Republic is proclaimed
+pages.republic.title: "Ankara başkent olur, Cumhuriyet ilan edilir"
+
+# 1923 to 1938
+pages.reforms.date: "1923 – 1938"
+
+# The reforms and the end
+pages.reforms.title: "Devrimler ve son"
+
+# Atatürk and the Turkish Republic
+story.title: "Atatürk ve Türkiye Cumhuriyeti"
+
+# From a Salonica childhood through Gallipoli and the War of Independence to the founding of the Republic in 1923, as a map that moves with the story.
+story.summary: "Selanik’teki çocukluktan Çanakkale’ye, Kurtuluş Savaşı’ndan 1923’te Cumhuriyet’in kuruluşuna, hikâyeyle birlikte hareket eden bir harita."
+
+# Citations and credits. Shown in the source language unless translated here; never counted as missing.
+
+# Wikimedia Commons, Kemal Cenk Sarioglu from Istanbul, Turkey, CC BY-SA 2.0 (Ataturk-birth-house.jpg)
+images.salonica-birth-house.credit: ""
+
+# Wikimedia Commons, Miller, William, 1864-1945, No restrictions (Travels and politics in the Near East (1898) (14761304036).jpg)
+images.salonica-1898.credit: ""
+
+# Wikimedia Commons, Unkwon, Public domain (Monastir Military High School.jpg)
+images.monastir-school.credit: ""
+
+# Wikimedia Commons, Agence Rol. Agence photographique (commanditaire), Public domain (Vue de Monastir (i. e. Bitola en Macédoine) - btv1b6909159m.jpg)
+images.monastir-town.credit: ""
+
+# Wikimedia Commons, Unknown authorUnknown author, Public domain (Atatürk as a alumni of Ottoman Military Academy, 1905.jpg)
+images.war-college-1905.credit: ""
+
+# Wikimedia Commons, Unknown authorUnknown author, Public domain ((15 July 1906) Beirut, Mustafa Kemal Atatürk with Lütfi Müfit Özdeş.jpg)
+images.damascus-1906.credit: ""
+
+# Wikimedia Commons, Unknown authorUnknown author, CC BY-SA 4.0 ((15 July 1906 Beirut) Mustafa Kemal Atatürk and military companions.jpg)
+images.beirut-officers-1906.credit: ""
+
+# Wikimedia Commons, Unknown authorUnknown author, Public domain (Kurmay Binbaşı Mustafa Kemal (Atatürk), Mücahit Bedevi Kuvvetleri önünde emirlerini yazdırırken. Trablusgarp.png)
+images.derna-bedouin.credit: ""
+
+# Wikimedia Commons, Unknown authorUnknown author, Public domain (Derne'de Kızılay Heyeti.png)
+images.derna-red-crescent.credit: ""
+
+# Wikimedia Commons, Unknown authorUnknown author, Public domain (Atatürk Trablusgarp'ta.jpg)
+images.tripolitania-1912.credit: ""
+
+# Wikimedia Commons, Unknown authorUnknown author, Public domain (Kurmay Yarbay Mustafa Kemal arkadaşlarıyla, Sofya, Bulgaristan, 1914.png)
+images.sofia-1914.credit: ""
+
+# Wikimedia Commons, Photograph Archive of Turkish Armed Forces, Public domain (Yeniçeri Atatürk.JPG)
+images.sofia-janissary.credit: ""
+
+# Wikimedia Commons, Published by Brookes, Public domain (Landing of Australian troops at ANZAC Cove, 25 April 1915 slnsw.jpg)
+images.anzac-landing.credit: ""
+
+# Wikimedia Commons, Unknown photographer, Ottoman Army, Public domain (Ottoman regimental flag at Kanlisirt.jpg)
+images.lone-pine-flag.credit: ""
+
+# Wikimedia Commons, Photograph by C.E.W. Bean, Public domain (Anzac Cove and HMS Bacchante 25 April 1915.jpg)
+images.anzac-cove-bacchante.credit: ""
+
+# Wikimedia Commons, Shaolin128~commonswiki, Public domain (Ataturk13.JPG)
+images.suvla-group.credit: ""
+
+# Wikimedia Commons, Servet-i Fünun Dergisi, Public domain (Serveti funun-1916-01-06-1 Anafartalar Mustafa Kemal.jpg)
+images.suvla-press-1916.credit: ""
+
+# Wikimedia Commons, Norman Wilkinson, Public domain (Troops landing on 'C' beach, Suvla Bay, 7th August 1915.jpg)
+images.suvla-landing.credit: ""
+
+# Wikimedia Commons, Unknown authorUnknown author, Public domain (16. Kolordu Komutanı Mustafa Kemal Paşa, Bitlis, 16 Kasım 1916.png)
+images.bitlis-1916.credit: ""
+
+# Wikimedia Commons, Unknown authorUnknown author, Public domain (Ataturk-1916-Diyarbakir.JPG)
+images.diyarbakir-1916.credit: ""
+
+# Wikimedia Commons, Unknown authorUnknown author, Public domain (Mustafa Kemal Paşa, Adana, 31 Ekim 1918.png)
+images.adana-1918.credit: ""
+
+# Wikimedia Commons, Unknown authorUnknown author, Public domain (Mustafa Kemal Pasha, Yıldırım Orduları Kumandanı, 1918.jpg)
+images.yildirim-1918.credit: ""
+
+# Wikimedia Commons, Unknown photographer, Public domain (HMS Agamemnon LOC ggbain 18554.jpg)
+images.agamemnon.credit: ""
+
+# Wikimedia Commons, Public domain (Agamemnon at Mudros.jpg)
+images.agamemnon-mudros.credit: ""
+
+# Wikimedia Commons, Unknown authorUnknown author, Public domain (Izmir15Mayis1919.jpg)
+images.izmir-1919.credit: ""
+
+# Wikimedia Commons, Public domain (Bandırma Vapuru.png)
+images.samsun-1919.credit: ""
+
+# Wikimedia Commons, Harbiye Nezareti, Public domain (Mustafa Kemal'in 9. Ordu Müfettişliği'ne tayin yazısı.JPG)
+images.samsun-appointment.credit: ""
+
+# Wikimedia Commons, Unknown authorUnknown author, Public domain (Mustafa Kemal Paşa, Erzurum, 5 Temmuz 1919.png)
+images.erzurum-1919.credit: ""
+
+# Wikimedia Commons, Unknown authorUnknown author, Public domain (Delegates of the Sivas Congress-1.jpg)
+images.sivas-1919.credit: ""
+
+# Wikimedia Commons, Published by Turkey and many other sources., Public domain (Rauf Orbay, Kemal Atatürk and Rüstem Bilinski at the Sivas Congress (1919).png)
+images.sivas-rauf.credit: ""
+
+# Wikimedia Commons, Unknown authorUnknown author, Public domain (Prayers in the front of BMM large.jpg)
+images.ankara-1920.credit: ""
+
+# Wikimedia Commons, NA, Public domain (British occupation troops marching in Beyoglu.jpg)
+images.istanbul-occupation-1920.credit: ""
+
+# Wikimedia Commons, Unknown authorUnknown author, Public domain (Mustafa Kemal Ankara’da, Temmuz 1920.png)
+images.ankara-1920-july.credit: ""
+
+# Wikimedia Commons, Agence de presse Meurisse, Public domain (Venizelos signing the Treaty of Sevres.jpeg)
+images.sevres-signing.credit: ""
+
+# Wikimedia Commons, Agence de presse Meurisse. Agence photographique (commanditaire), Public domain (Manufacture Nationale de Sèvres - intérieur de la salle où sera signée la paix avec la Turquie - btv1b9033986p.jpg)
+images.sevres-room.credit: ""
+
+# Wikimedia Commons, Sura Shukurlu, CC BY-SA 4.0 (Sevr müqaviləsi 1920.jpg)
+images.sevres-map.credit: ""
+
+# Wikimedia Commons, Public domain (Karabekir at Pasinler plain in 1918, cropped.jpg)
+images.karabekir-1918.credit: ""
+
+# Wikimedia Commons, Well-read MountainMan, CC BY-SA 4.0 (Дом 97 по улице Горганян.jpg)
+images.gyumri-house.credit: ""
+
+# Wikimedia Commons, Unknown authorUnknown author, Public domain (Kemal Paşa ve İsmet Paşa II. İnönü Muharebesi'nden sonra askerleri teftişte.png)
+images.inonu-inspection.credit: ""
+
+# Wikimedia Commons, Agence Rol, Public domain (Grecs en action (soldats dans une tranchée) à Afion Karahissar (i. e. Afyonkarahisar).jpg)
+images.afyon-greek-trench-1921.credit: ""
+
+# Wikimedia Commons, Greek Army, Public domain (Dorylaio.JPG)
+images.greek-eskisehir-1921.credit: ""
+
+# Wikimedia Commons, Unknown authorUnknown author, Public domain (Eski-Séhir. Une filée du 3ime Corps d' Armée.jpg)
+images.greek-parade-eskisehir.credit: ""
+
+# Wikimedia Commons, Unknown authorUnknown author, Public domain (VARI-LAFYRO-ESKI.jpg)
+images.captured-gun-eskisehir.credit: ""
+
+# Wikimedia Commons, Sfisek, CC BY-SA 3.0 (Battle of Sakarya 1921.jpg)
+images.sakarya-duatepe.credit: ""
+
+# Wikimedia Commons, NA, Public domain (Mustafa Kemal & Salih.jpg)
+images.sakarya-salih-bozok.credit: ""
+
+# Wikimedia Commons, Greek Army, Public domain (GreekAdvancePolatli.jpg)
+images.sakarya-greek-advance.credit: ""
+
+# Wikimedia Commons, Greek Army, Public domain (Greek Evzones of the 1-38 Evzones Regiment advance towards Turkish positions, 1921.jpg)
+images.sakarya-evzones.credit: ""
+
+# Wikimedia Commons, Unknown authorUnknown author, Public domain (Müşir Gazi Mustafa Kemal Paşa, Ankara, 4 Aralık 1921.png)
+images.field-marshal-1921.credit: ""
+
+# Wikimedia Commons, Unknown authorUnknown author, Public domain (Atatürk Fransız diplomat Franklin Bouillon ile, İzmir, 28 Eylül 1922.png)
+images.franklin-bouillon.credit: ""
+
+# Wikimedia Commons, NA, Public domain (Akshehir Station before the Great Offensive.jpg)
+images.aksehir-station.credit: ""
+
+# Wikimedia Commons, NA, Public domain (Turkish artillerymen before the Great Offensive.jpg)
+images.artillerymen-1922.credit: ""
+
+# Wikimedia Commons, NA, Public domain (Military exercise at Ilgın 1 April 1922.jpg)
+images.ilgin-exercise.credit: ""
+
+# Wikimedia Commons, The original uploader was Volki16 at Turkish Wikipedia., Public domain (Kocatepe1922.jpg)
+images.kocatepe-1922.credit: ""
+
+# Wikimedia Commons, Unknown authorUnknown author, Public domain (Kocatepe, Afyonkarahisar, 26 Ağustos 1922.png)
+images.kocatepe-officers.credit: ""
+
+# Wikimedia Commons, Greek Army, Public domain (Greek soldiers at Afyon Karahisar, 1922.jpg)
+images.greek-afyon-1922.credit: ""
+
+# Wikimedia Commons, Unknown authorUnknown author, Public domain (General Trikoupis POW 1922.jpg)
+images.trikoupis-pow.credit: ""
+
+# Wikimedia Commons, NA, Public domain (Turkish infantry in trench.jpg)
+images.turkish-trench-1922.credit: ""
+
+# Wikimedia Commons, T.C., Public domain (Greek POW generals.jpg)
+images.greek-generals-pow.credit: ""
+
+# Wikimedia Commons, Umberto gs, Public domain (Türk süvari birliklerinin İzmire girişi.jpg)
+images.izmir-cavalry.credit: ""
+
+# Wikimedia Commons, Genelkurmay ATASE Daire Başkanlığı (Foto Film Merkezi Komutanlığı), Public domain (Mustafa Kemal Pasha in Izmir (September 10, 1922).jpg)
+images.izmir-mustafa-kemal.credit: ""
+
+# Wikimedia Commons, Unknown authorUnknown author, Public domain (Great Fire of Smyrna.jpg)
+images.smyrna-fire.credit: ""
+
+# Wikimedia Commons, Chapultepec, Public domain (Mudanya 02.jpg)
+images.mudanya-house.credit: ""
+
+# Wikimedia Commons, Grand Studio, Malta; The Grand Studio, owned first by J.Mallia and later by F. Tabone was based since late Victorian times in Kingsway, Valletta. Its activities included portraiture and current events. Everett Collection, cf. alamy, Public domain (Former Ottoman Sultan Mehmed VI arrives in Malta on a British warship. 9 Dec 1922.jpg)
+images.mehmed-vi-malta.credit: ""
+
+# Wikimedia Commons, Gadmer Frédéric, CC BY-SA 4.0 (Turquie, Angora, Palais de la Gde Assemblée - A37028.jpg)
+images.assembly-1922.credit: ""
+
+# Wikimedia Commons, Unknown authorUnknown author, Public domain (Lausanne 2.jpg)
+images.lausanne-delegation.credit: ""
+
+# Wikimedia Commons, Agence de presse Meurisse. Agence photographique (commanditaire), Public domain (Lausanne - la délégation turque - Ismet Pacha - btv1b90539548.jpg)
+images.lausanne-ismet-delegation.credit: ""
+
+# Wikimedia Commons, Agence de presse Meurisse. Agence photographique (commanditaire), Public domain (La Conférence de Lausanne - Ismet Pacha (gros plan magnesium) - btv1b9053943g.jpg)
+images.lausanne-ismet.credit: ""
+
+# Wikimedia Commons, Gadmer Frédéric, CC BY-SA 4.0 (Le Maréchal Mustafa Kemal, Président de la Grande Assemblée Nationale et Commandant en chef de l'armée (avec son kalpak sur la tête) - A37088.jpg)
+images.mustafa-kemal-1922.credit: ""
+
+# Wikimedia Commons, Cetorhinus, CC BY-SA 3.0 (II. TBMM Binası.JPG)
+images.second-assembly-building.credit: ""
+
+# Wikimedia Commons, Gadmer Frédéric, CC BY-SA 4.0 (La résidence de Mustafa Kemal Cankaya (près d'Ankara) - A37099.jpg)
+images.cankaya-1922.credit: ""
+
+# Wikimedia Commons, Presidency of the Republic of Turkey, Public domain (Mustafa Kemal harf devriminde.jpg)
+images.alphabet-1928.credit: ""
+
+# Wikimedia Commons, SALTOnline, No restrictions (Atatürk's Funeral, November 19, 1938. (16221077935).jpg)
+images.funeral-1938.credit: ""
+
+# Wikimedia Commons, Unknown authorUnknown author, Public domain (Atatürk TBMM'den çıkarken.jpg)
+images.assembly-1929.credit: ""
+
+# Andrew Mango, Atatürk (1999).
+pages.salonica.sources.0: ""
+
+# Andrew Mango, Atatürk (1999).
+pages.monastir.sources.0: ""
+
+# Andrew Mango, Atatürk (1999).
+pages.war-college.sources.0: ""
+
+# Andrew Mango, Atatürk (1999).
+pages.damascus.sources.0: ""
+
+# Andrew Mango, Atatürk (1999).
+pages.tripolitania.sources.0: ""
+
+# Andrew Mango, Atatürk (1999).
+pages.balkan-wars.sources.0: ""
+
+# Andrew Mango, Atatürk (1999).
+pages.sofia.sources.0: ""
+
+# Andrew Mango, Atatürk (1999).
+pages.gallipoli-landing.sources.0: ""
+
+# Andrew Mango, Atatürk (1999).
+pages.suvla.sources.0: ""
+
+# Andrew Mango, Atatürk (1999).
+pages.caucasus-front.sources.0: ""
+
+# Andrew Mango, Atatürk (1999).
+pages.syrian-front.sources.0: ""
+
+# Andrew Mango, Atatürk (1999).
+pages.mudros.sources.0: ""
+
+# Mustafa Kemal Atatürk, Nutuk (1927), opening chapter.
+pages.occupation.sources.0: ""
+
+# Andrew Mango, Atatürk (1999), ch. 10.
+pages.occupation.sources.1: ""
+
+# Erik J. Zürcher, Turkey: A Modern History (1993), ch. 9.
+pages.occupation.sources.2: ""
+
+# Mustafa Kemal Atatürk, Nutuk (1927), sections on the Amasya circular and the two congresses.
+pages.congresses.sources.0: ""
+
+# Andrew Mango, Atatürk (1999), ch. 11 and 12.
+pages.congresses.sources.1: ""
+
+# Stanford J. Shaw, From Empire to Republic, vol. 2 (2000).
+pages.congresses.sources.2: ""
+
+# Andrew Mango, Atatürk (1999), ch. 13 and 14.
+pages.ankara.sources.0: ""
+
+# Michael Llewellyn-Smith, Ionian Vision: Greece in Asia Minor 1919 to 1922 (1973).
+pages.ankara.sources.1: ""
+
+# Erik J. Zürcher, Turkey: A Modern History (1993), ch. 9.
+pages.ankara.sources.2: ""
+
+# Andrew Mango, Atatürk (1999).
+pages.sevres.sources.0: ""
+
+# Andrew Mango, Atatürk (1999).
+pages.gyumri.sources.0: ""
+
+# Andrew Mango, Atatürk (1999).
+pages.inonu.sources.0: ""
+
+# Andrew Mango, Atatürk (1999).
+pages.kutahya-eskisehir.sources.0: ""
+
+# Mustafa Kemal Atatürk, Nutuk (1927).
+pages.kutahya-eskisehir.sources.1: ""
+
+# Andrew Mango, Atatürk (1999).
+pages.sakarya.sources.0: ""
+
+# Mustafa Kemal Atatürk, Nutuk (1927).
+pages.sakarya.sources.1: ""
+
+# Andrew Mango, Atatürk (1999).
+pages.field-marshal.sources.0: ""
+
+# Mustafa Kemal Atatürk, Nutuk (1927).
+pages.field-marshal.sources.1: ""
+
+# Andrew Mango, Atatürk (1999).
+pages.ankara-agreement.sources.0: ""
+
+# Andrew Mango, Atatürk (1999).
+pages.preparation.sources.0: ""
+
+# Mustafa Kemal Atatürk, Nutuk (1927).
+pages.preparation.sources.1: ""
+
+# Andrew Mango, Atatürk (1999).
+pages.afyon.sources.0: ""
+
+# Mustafa Kemal Atatürk, Nutuk (1927).
+pages.afyon.sources.1: ""
+
+# Andrew Mango, Atatürk (1999).
+pages.dumlupinar.sources.0: ""
+
+# Mustafa Kemal Atatürk, Nutuk (1927).
+pages.dumlupinar.sources.1: ""
+
+# Andrew Mango, Atatürk (1999).
+pages.izmir-retaken.sources.0: ""
+
+# Mustafa Kemal Atatürk, Nutuk (1927).
+pages.izmir-retaken.sources.1: ""
+
+# Andrew Mango, Atatürk (1999).
+pages.mudanya.sources.0: ""
+
+# Andrew Mango, Atatürk (1999).
+pages.sultanate.sources.0: ""
+
+# Andrew Mango, Atatürk (1999).
+pages.lausanne.sources.0: ""
+
+# Andrew Mango, Atatürk (1999).
+pages.republic.sources.0: ""
+
+# Andrew Mango, Atatürk (1999).
+pages.reforms.sources.0: ""

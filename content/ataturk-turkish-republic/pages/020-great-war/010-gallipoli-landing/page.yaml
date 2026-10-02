@@ -1,0 +1,23 @@
+when: { from: 1915-04-25, to: 1915-05 }
+date: "25 April 1915"
+title: "Arıburnu: the landing at Gallipoli"
+bbox: [25.9, 39.95, 26.9, 40.5]
+zones: [anzac, helles]
+routes: []
+markers: [gallipoli-landing]
+battle: gallipoli
+sources:
+  - "Andrew Mango, Atatürk (1999)."
+images:
+  anzac-landing:
+    file: anzac-landing.jpg
+    caption: "Australian troops landing at Anzac Cove, 25 April 1915"
+    credit: "Wikimedia Commons, Published by Brookes, Public domain (Landing of Australian troops at ANZAC Cove, 25 April 1915 slnsw.jpg)"
+  lone-pine-flag:
+    file: lone-pine-flag.jpg
+    caption: "An Ottoman regimental flag at Kanlısırt, 1915"
+    credit: "Wikimedia Commons, Unknown photographer, Ottoman Army, Public domain (Ottoman regimental flag at Kanlisirt.jpg)"
+  anzac-cove-bacchante:
+    file: anzac-cove-bacchante.jpg
+    caption: "Anzac Cove on the morning of 25 April 1915, HMS Bacchante offshore"
+    credit: "Wikimedia Commons, Photograph by C.E.W. Bean, Public domain (Anzac Cove and HMS Bacchante 25 April 1915.jpg)"

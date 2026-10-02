@@ -1,0 +1,14 @@
+{
+  "name": "atlas",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "harita build",
+    "dev": "harita dev"
+  },
+  "dependencies": {
+    "@openhistoryatlas/harita": "^0.2.0",
+    "js-yaml": "^5.4.2"
+  },
+  "description": "Open History Atlas: step-through history maps, an educational project"
+}

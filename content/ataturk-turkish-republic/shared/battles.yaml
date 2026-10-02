@@ -1,0 +1,93 @@
+# Battles shown as cards on the map. Figures follow the English Wikipedia infoboxes; review before publishing.
+gallipoli:
+  lnglat: [26.28, 40.24]
+  name: Gallipoli campaign
+  date: "25 April 1915 – 9 January 1916"
+  result: "Ottoman victory, Allied evacuation"
+  source: https://en.wikipedia.org/wiki/Gallipoli_campaign
+  images: [anzac-landing, suvla-group, suvla-landing]
+  sides:
+    - name: Ottoman Empire
+      color: "#b8333a"
+      commanders: [Otto Liman von Sanders, Esat Pasha, Mustafa Kemal, Vehip Pasha]
+      strength: "About 315,000 over the campaign"
+      casualties: "About 250,000, of them 56,000 dead"
+    - name: British Empire and France
+      color: entente
+      commanders: [Ian Hamilton, William Birdwood, Charles Monro]
+      strength: "About 490,000 over the campaign"
+      casualties: "About 250,000, of them 56,000 dead"
+inonu:
+  lnglat: [30.13, 39.82]
+  name: First and Second Battles of İnönü
+  date: "6–11 January and 23 March – 1 April 1921"
+  result: "Greek advance stopped both times"
+  source: https://en.wikipedia.org/wiki/Second_Battle_of_İnönü
+  images: [inonu-inspection, afyon-greek-trench-1921]
+  sides:
+    - name: Grand National Assembly
+      color: "#b8333a"
+      commanders: [İsmet Pasha, Refet Pasha]
+      strength: "About 34,000 in the second battle"
+      casualties: "About 11,000 in the second battle"
+    - name: Kingdom of Greece
+      color: greek
+      commanders: [Anastasios Papoulas]
+      strength: "About 41,000 in the second battle"
+      casualties: "About 4,000 in the second battle"
+kutahya-eskisehir:
+  lnglat: [30.52, 39.78]
+  name: Battle of Kütahya–Eskişehir
+  date: "10–24 July 1921"
+  result: "Greek victory, Turkish retreat to the Sakarya"
+  source: https://en.wikipedia.org/wiki/Battle_of_Kütahya–Eskişehir
+  images: [greek-eskisehir-1921, greek-parade-eskisehir]
+  sides:
+    - name: Grand National Assembly
+      color: "#b8333a"
+      commanders: [İsmet Pasha, Mustafa Kemal]
+      strength: "About 122,000"
+      casualties: "About 40,000 killed, wounded, missing or deserted"
+    - name: Kingdom of Greece
+      color: greek
+      commanders: [Anastasios Papoulas, King Constantine I]
+      strength: "About 126,000"
+      casualties: "About 8,000"
+sakarya:
+  lnglat: [32.14, 39.58]
+  name: Battle of Sakarya
+  date: "23 August – 13 September 1921"
+  result: "Turkish victory, end of the Greek advance"
+  source: https://en.wikipedia.org/wiki/Battle_of_Sakarya
+  images: [sakarya-salih-bozok, sakarya-duatepe, sakarya-greek-advance]
+  front: [[31.65, 40.25], [31.80, 40.00], [31.95, 39.75], [32.05, 39.50], [31.85, 39.30], [31.60, 39.15]]
+  sides:
+    - name: Grand National Assembly
+      color: "#b8333a"
+      commanders: [Mustafa Kemal Pasha, Fevzi Pasha, İsmet Pasha]
+      strength: "About 96,000 men, 169 guns"
+      casualties: "5,713 killed, 18,480 wounded, 14,268 missing or captured"
+    - name: Kingdom of Greece
+      color: greek
+      commanders: [King Constantine I, Anastasios Papoulas]
+      strength: "About 120,000 men, 286 guns"
+      casualties: "3,758 killed, 18,955 wounded, 354 missing"
+great-offensive:
+  lnglat: [30.35, 38.65]
+  name: Great Offensive and Battle of Dumlupınar
+  date: "26 August – 18 September 1922"
+  result: "Decisive Turkish victory, Greek army leaves Anatolia"
+  source: https://en.wikipedia.org/wiki/Battle_of_Dumlupınar
+  images: [kocatepe-1922, trikoupis-pow, greek-afyon-1922]
+  front: [[29.90, 38.52], [30.20, 38.48], [30.50, 38.55], [30.75, 38.62], [31.05, 38.80]]
+  sides:
+    - name: Grand National Assembly
+      color: "#b8333a"
+      commanders: [Mustafa Kemal Pasha, Fevzi Pasha, İsmet Pasha, Nureddin Pasha]
+      strength: "About 208,000 men, 323 guns"
+      casualties: "2,318 killed, 9,360 wounded, 1,697 missing"
+    - name: Kingdom of Greece
+      color: greek
+      commanders: [Georgios Hatzianestis, Nikolaos Trikoupis]
+      strength: "About 225,000 men in Anatolia, 348 guns"
+      casualties: "About 50,000 killed, wounded or captured"

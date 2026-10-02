@@ -1,0 +1,228 @@
+# Markers that pages switch on by id. lnglat is [longitude, latitude].
+# icon: flag, anchor, star, scroll, congress, building. image: an image id from any page.
+istanbul:
+  lnglat: [28.97, 41.01]
+  icon: flag
+  color: british
+  label: İstanbul
+  note: "Allied fleet arrives, 13 Nov 1918"
+izmir:
+  lnglat: [27.14, 38.42]
+  icon: anchor
+  color: greek
+  image: izmir-1919
+  label: İzmir
+  note: "Greek landing, 15 May 1919"
+antalya:
+  lnglat: [30.71, 36.90]
+  icon: anchor
+  color: italian
+  label: Antalya
+  note: "Italian landing, 28 Mar 1919"
+adana:
+  lnglat: [35.32, 37.00]
+  icon: flag
+  color: french
+  label: Adana
+  note: "French occupation, Dec 1918"
+samsun:
+  lnglat: [36.33, 41.29]
+  icon: star
+  image: samsun-1919
+  label: Samsun
+  note: "Mustafa Kemal lands, 19 May 1919"
+amasya:
+  lnglat: [35.83, 40.65]
+  icon: scroll
+  label: Amasya
+  note: "Circular, 22 Jun 1919"
+erzurum:
+  lnglat: [41.27, 39.90]
+  icon: congress
+  image: erzurum-1919
+  label: Erzurum
+  note: "Congress, 23 Jul to 7 Aug 1919"
+sivas:
+  lnglat: [37.02, 39.75]
+  icon: congress
+  image: sivas-1919
+  label: Sivas
+  note: "Congress, 4 to 11 Sep 1919"
+ankara:
+  lnglat: [32.85, 39.93]
+  icon: building
+  image: ankara-1920
+  label: Ankara
+  note: "Grand National Assembly, 23 Apr 1920"
+istanbul-1920:
+  lnglat: [28.97, 41.01]
+  icon: flag
+  color: british
+  label: İstanbul
+  note: "Formal occupation, 16 Mar 1920"
+bursa:
+  lnglat: [29.06, 40.19]
+  icon: flag
+  color: greek
+  label: Bursa
+  note: "Taken by Greek army, 8 Jul 1920"
+salonica:
+  lnglat: [22.94, 40.64]
+  icon: star
+  label: "Selanik"
+  note: "Born 1881"
+monastir:
+  lnglat: [21.33, 41.03]
+  icon: scroll
+  label: "Manastır"
+  note: "Military high school, 1896 to 1899"
+istanbul-war-college:
+  lnglat: [28.99, 41.05]
+  icon: building
+  label: "İstanbul"
+  note: "War College, 1899 to 1905"
+damascus:
+  lnglat: [36.29, 33.51]
+  icon: congress
+  label: "Damascus"
+  note: "Vatan ve Hürriyet, 1906"
+derna:
+  lnglat: [22.64, 32.77]
+  icon: flag
+  label: "Derna"
+  note: "Command, March 1912"
+bolayir:
+  lnglat: [26.65, 40.5]
+  icon: flag
+  label: "Bolayır"
+  note: "Gallipoli line, 1912 to 1913"
+edirne:
+  lnglat: [26.56, 41.68]
+  icon: flag
+  label: "Edirne"
+  note: "Retaken, 22 July 1913"
+sofia:
+  lnglat: [23.32, 42.7]
+  icon: scroll
+  label: "Sofia"
+  note: "Military attaché, 1913 to 1915"
+gallipoli-landing:
+  lnglat: [26.28, 40.24]
+  icon: star
+  label: "Arıburnu"
+  note: "57th Regiment, 25 April 1915"
+suvla:
+  lnglat: [26.27, 40.31]
+  icon: anchor
+  color: entente
+  label: "Suvla"
+  note: "Allied landing, 6 August 1915"
+chunuk-bair:
+  lnglat: [26.3, 40.25]
+  icon: star
+  label: "Conkbayırı"
+  note: "Counterattack, 10 August 1915"
+bitlis:
+  lnglat: [42.11, 38.4]
+  icon: flag
+  label: "Bitlis"
+  note: "Retaken, 8 August 1916"
+nablus:
+  lnglat: [35.26, 32.22]
+  icon: flag
+  color: british
+  label: "Nablus"
+  note: "Megiddo offensive, 19 September 1918"
+aleppo:
+  lnglat: [37.16, 36.2]
+  icon: star
+  label: "Aleppo"
+  note: "Seventh Army holds at Katma, 26 October 1918"
+mudros:
+  lnglat: [25.26, 39.87]
+  icon: anchor
+  color: british
+  label: "Mudros"
+  note: "Armistice, 30 October 1918"
+kars:
+  lnglat: [43.1, 40.6]
+  icon: flag
+  label: "Kars"
+  note: "Taken, 30 October 1920"
+gyumri:
+  lnglat: [43.84, 40.79]
+  icon: scroll
+  label: "Gyumri"
+  note: "Treaty, 3 December 1920"
+inonu:
+  lnglat: [30.13, 39.82]
+  icon: star
+  label: "İnönü"
+  note: "Battles, January and March 1921"
+sakarya:
+  lnglat: [32.14, 39.58]
+  icon: star
+  label: "Sakarya"
+  note: "Battle, 23 August to 13 September 1921"
+dumlupinar:
+  lnglat: [30, 38.84]
+  icon: star
+  label: "Dumlupınar"
+  note: "Decisive battle, 30 August 1922"
+izmir-1922:
+  lnglat: [27.14, 38.42]
+  icon: star
+  label: "İzmir"
+  note: "Liberated, 9 September 1922"
+mudanya:
+  lnglat: [28.88, 40.37]
+  icon: scroll
+  label: "Mudanya"
+  note: "Armistice, 11 October 1922"
+ankara-1923:
+  lnglat: [32.85, 39.93]
+  icon: building
+  label: "Ankara"
+  note: "Capital and Republic, October 1923"
+dolmabahce:
+  lnglat: [29, 41.04]
+  icon: building
+  label: "Dolmabahçe"
+  note: "10 November 1938"
+eskisehir:
+  lnglat: [30.52, 39.78]
+  icon: flag
+  color: greek
+  label: "Eskişehir"
+  note: "Taken by Greek army, 19 July 1921"
+alagoz:
+  lnglat: [32.26, 39.63]
+  icon: star
+  label: "Alagöz"
+  note: "Headquarters during Sakarya"
+aksehir:
+  lnglat: [31.42, 38.36]
+  icon: star
+  label: "Akşehir"
+  note: "Front headquarters, August 1922"
+afyon:
+  lnglat: [30.54, 38.76]
+  icon: flag
+  label: "Afyon"
+  note: "Taken, 27 August 1922"
+kocatepe:
+  lnglat: [30.35, 38.65]
+  icon: star
+  label: "Kocatepe"
+  note: "Dawn, 26 August 1922"
+salonica-1912:
+  lnglat: [22.94, 40.64]
+  icon: flag
+  color: lost
+  label: Selanik
+  note: "Taken by Greece, 8 November 1912"
+catalca:
+  lnglat: [28.46, 41.14]
+  icon: shield
+  label: Çatalca
+  note: "Bulgarian advance stopped, November 1912"

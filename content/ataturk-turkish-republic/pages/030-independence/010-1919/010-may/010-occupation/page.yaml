@@ -1,0 +1,25 @@
+when: { from: 1919-05-15, to: 1919-05-19 }
+date: "15 to 19 May 1919"
+title: "Occupation, and the landing at Samsun"
+# Map view for this page: [west, south, east, north].
+bbox: [25.5, 35.6, 43.5, 42.6]
+zones: [british, greek1919, italian, french]
+routes: []
+markers: [istanbul, izmir, antalya, adana, samsun]
+sources:
+  - "Mustafa Kemal Atatürk, Nutuk (1927), opening chapter."
+  - "Andrew Mango, Atatürk (1999), ch. 10."
+  - "Erik J. Zürcher, Turkey: A Modern History (1993), ch. 9."
+images:
+  izmir-1919:
+    file: izmir-1919.jpg
+    caption: "Greek evzones in İzmir as the Greek population welcomes them, 15 May 1919"
+    credit: "Wikimedia Commons, Unknown authorUnknown author, Public domain (Izmir15Mayis1919.jpg)"
+  samsun-1919:
+    file: samsun-1919.jpg
+    caption: "The steamer Bandırma, which carried Mustafa Kemal to Samsun"
+    credit: "Wikimedia Commons, Public domain (Bandırma Vapuru.png)"
+  samsun-appointment:
+    file: samsun-appointment.jpg
+    caption: "The War Ministry’s letter appointing Mustafa Kemal Inspector of the Ninth Army, 1919"
+    credit: "Wikimedia Commons, Harbiye Nezareti, Public domain (Mustafa Kemal'in 9. Ordu Müfettişliği'ne tayin yazısı.JPG)"

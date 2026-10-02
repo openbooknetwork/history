@@ -1,0 +1,1 @@
+The Balkan states take almost all of Ottoman Europe in weeks, Selanik included. Mustafa Kemal serves on the Gallipoli peninsula with the Bolayır corps that holds the line to the straits. In July 1913, in the Second Balkan War, Ottoman forces retake Edirne. He learns the peninsula's ground that will matter two years later.

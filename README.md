@@ -1,22 +1,39 @@
 # Open History Atlas
 
-Stories for step-through history maps, built with [harita](https://github.com/openhistoryatlas/harita). The framework README documents
-the content formats. Each folder under content/ is one story and builds to its own page. The site is published at
-https://openhistoryatlas.org from the main branch by GitHub Actions.
+Stories for step-through history maps, published at https://openhistoryatlas.org. A free educational
+project. The maps are built with [harita](https://github.com/openhistoryatlas/harita), whose README
+documents the content formats. Each folder under `content/` is one story and builds to its own page.
+
+## Work on it
 
 ```
-npm install            # installs @openhistoryatlas/harita from npm
-npm run dev            # watch, rebuild, serve at http://localhost:8080/
-npm run build          # one build into dist/
-open dist/index.html
+npm install                 # installs @openhistoryatlas/harita from npm
+npm run dev                 # watch, rebuild, serve at http://localhost:8080/
+npm run build -- --strict   # the build the release runs: fails on a missing translation
 ```
+
+## Release
+
+The site goes live from a release tag. GitHub Actions builds `dist/` and publishes it to GitHub Pages at
+the custom domain; there is no deploy from `main` and nothing to click.
+
+```
+npm version minor && git push --follow-tags
+```
+
+## Layout
 
 - `site.yaml` names the main page and orders the stories on it.
-- `content/<story>/` holds one story: pages, texts per language, zones, routes, markers, images.
-  Current stories: `ataturk-turkish-republic`, `usa`.
-- `geo/` holds one hillshade raster per map region and its bounding box: `hillshade.png` for Türkiye,
-  `hillshade-us.png` for eastern North America. `harita hillshade --bbox w,s,e,n` makes a new one.
-- `dist/` is build output.
+- `content/<story>/` holds one story: pages, texts per language, zones, routes, markers, battles, images.
+  Current story: `ataturk-turkish-republic`.
+- `content/<story>/i18n/<lang>.yaml` and `i18n/<lang>.yaml` hold the translations; English is inline.
+  Refresh a language with `npx harita i18n <lang>`.
+- `plugins/emblems/` holds story specific map drawings, such as the crescent and star on the 1923 pages.
+  Harita loads them by the `kind` named in a page's `emblem` field.
+- `geo/` holds the hillshade raster and its bounding box. `npx harita hillshade --bbox w,s,e,n` makes one
+  for a new region.
+- `scripts/` holds the photo search helper below.
+- `dist/` is build output and `content/<story>/.candidates/` is photo review material; both are ignored.
 
 ## Photographs
 
@@ -29,5 +46,3 @@ credit that names the author, the licence and the Commons page.
 ```
 node scripts/fetch-candidates.mjs ataturk-turkish-republic --limit 6
 ```
-
-The `.candidates/` folder is ignored by git.

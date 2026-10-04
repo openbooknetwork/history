@@ -1,0 +1,32 @@
+date: "April to 7 May 1781"
+title: "Pensacola: the siege lines"
+bbox: [-87.25088, 30.41337, -87.20712, 30.44955]
+zones: []
+routes: []
+markers: [pensacola-siege-ezpeleta, pensacola-siege-campbell, pensacola-siege-town]
+sources: ['John W. Caughey, Bernardo de Gálvez in Louisiana, 1776–1783 (1998).', 'Bernardo de Gálvez, Diario de las operaciones de la expedición contra la plaza de Panzacola (1781).']
+emblem:
+  kind: battle-plan
+  works:
+    - {side: spanish, path: [[-87.24254, 30.44005], [-87.23838, 30.43689], [-87.23577, 30.43553], [-87.23317, 30.43327], [-87.23056, 30.43191]], width: 50, id: approach, name: The Spanish approach trenches and covered road}
+    - {side: spanish, path: [[-87.23265, 30.4301], [-87.23004, 30.43282]], width: 70, id: batteries, name: Spanish batteries facing the Crescent}
+  units:
+    - {side: held, type: camp, at: [-87.2165, 30.4197], width: 260, depth: 220, facing: 0, id: fort-george, name: 'Fort George, an earthwork with a palisade'}
+    - {side: held, type: camp, at: [-87.21713, 30.4235], width: 150, depth: 150, facing: 0, id: prince-of-wales, name: The Prince of Wales Redoubt}
+    - {side: held, type: camp, at: [-87.22379, 30.42829], width: 190, depth: 190, facing: 0, id: crescent, name: 'The Queen’s Redoubt, which the Spanish call the Crescent'}
+    - {side: held, type: infantry, at: [-87.21442, 30.42133], width: 320, depth: 110, facing: 315, id: garrison, name: 'Campbell’s garrison: regulars, Waldeck troops and Loyalists'}
+    - {side: spanish, type: camp, at: [-87.24567, 30.43191], width: 600, depth: 420, facing: 0, id: spanish-camp, name: The Spanish camp}
+    - {side: spanish, type: infantry, at: [-87.23786, 30.43101], width: 600, depth: 120, facing: 135, id: spanish-army, name: 'Spanish army under Ezpeleta, about 8,000 after 19 April'}
+    - {side: '#17a2a2', type: infantry, at: [-87.24411, 30.4396], width: 400, depth: 100, facing: 135, id: french-troops, name: French troops landed from the Havana squadron}
+  arrows:
+    - {side: '#8d6e63', path: [[-87.23004, 30.44955], [-87.23421, 30.44322], [-87.23681, 30.43915]], width: 70, id: choctaw-attacks, name: 'Choctaw warriors attack the siege works, 19 and 24 April'}
+    - {side: held, path: [[-87.22431, 30.42929], [-87.22848, 30.43146]], width: 60, id: sortie, name: 'A sortie from the Crescent is driven back, 26 April'}
+    - {side: spanish, path: [[-87.23108, 30.43146], [-87.22535, 30.42893]], width: 60, id: bombardment, name: 'The Spanish batteries open fire, 30 April'}
+  clashes:
+    - {at: [-87.22879, 30.43164], size: 90}
+    - {at: [-87.23713, 30.4387], size: 90}
+images:
+  pensacola-planas-plan:
+    file: pensacola-planas-plan.jpg
+    caption: "Spanish plan of Pensacola, Fort George and the British works under attack, drawn by Francisco de Planas, May 1781"
+    credit: "Wikimedia Commons, Francisco de Planas, CC BY 4.0 (Ar.J-T.1-C.4 79.jpg)"

@@ -1,0 +1,27 @@
+date: "Spring 255 BC"
+title: "The armies deploy"
+bbox: [10.00301, 36.82761, 10.06334, 36.87623]
+zones: []
+routes: []
+markers: [regulus-deployment-regulus, regulus-deployment-xanthippus, regulus-deployment-elephants, regulus-deployment-cavalry]
+sources: ['Polybius, Histories, book 1, 33.', 'John Lazenby, The First Punic War (1996).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: rome, type: camp, at: [10.04072, 36.84136], width: 450, depth: 450, facing: 315, id: roman-camp, name: Roman camp}
+    - {side: carthage, type: camp, at: [10.01809, 36.8596], width: 500, depth: 500, facing: 135, id: carthaginian-camp, name: Carthaginian camp}
+    - {side: rome, type: infantry, at: [10.03397, 36.8468], width: 1100, depth: 400, facing: 315, id: legions, name: 'Roman legions under Regulus, drawn up deep, 15,000 infantry'}
+    - {side: rome, type: light, at: [10.03198, 36.8484], width: 1100, depth: 50, facing: 315, id: skirmishers, name: Roman skirmishers}
+    - {side: rome, type: cavalry, at: [10.02809, 36.84232], width: 170, depth: 90, facing: 315, id: roman-cavalry, name: 'Roman cavalry, 500 split between the wings'}
+    - {side: rome, type: cavalry, at: [10.03953, 36.85154], width: 170, depth: 90, facing: 315, id: roman-cavalry, name: 'Roman cavalry, 500 split between the wings'}
+    - {side: carthage, type: infantry, at: [10.02484, 36.85416], width: 600, depth: 200, facing: 135, id: phalanx, name: Carthaginian citizen phalanx under Xanthippus}
+    - {side: carthage, type: infantry, at: [10.0204, 36.85058], width: 480, depth: 200, facing: 135, id: mercenaries, name: Veterans from Sicily and new mercenaries}
+    - {side: carthage, type: infantry, at: [10.02929, 36.85774], width: 480, depth: 200, facing: 135, id: mercenaries, name: Veterans from Sicily and new mercenaries}
+    - {side: carthage, type: cavalry, at: [10.01611, 36.84648], width: 520, depth: 220, facing: 135, id: carthaginian-cavalry, name: 'Carthaginian cavalry, 4,000 on both wings'}
+    - {side: carthage, type: cavalry, at: [10.03437, 36.86119], width: 520, depth: 220, facing: 135, id: carthaginian-cavalry, name: 'Carthaginian cavalry, 4,000 on both wings'}
+    - {side: carthage, type: elephants, at: [10.02698, 36.85243], width: 1500, depth: 90, facing: 135, count: 18, id: elephants, name: 100 elephants in a single line}
+images:
+  regulus-golitsyn-plan:
+    file: regulus-golitsyn-plan.jpg
+    caption: "Plan of the battle near Tunis in Nikolai Golitsyn’s history of war, German edition, 1874"
+    credit: "Wikimedia Commons, Nikolai Sergeyevich Golitsyn, Public domain (Battle of Bagradas.jpg)"

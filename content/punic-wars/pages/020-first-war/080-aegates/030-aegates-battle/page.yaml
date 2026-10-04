@@ -1,0 +1,30 @@
+date: "10 March 241 BC"
+title: "Battle off the Aegates"
+bbox: [12.14872, 37.95643, 12.29686, 38.03333]
+zones: []
+routes: []
+markers: [aegates-battle-falto, aegates-battle-losses, aegates-battle-hanno]
+sources: ['Polybius, Histories, book 1, 61.', 'John Lazenby, The First Punic War (1996).', 'Adrian Goldsworthy, The Fall of Carthage (2006).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: rome, type: ships, at: [12.2547, 38.01523], width: 1500, depth: 450, count: 6, rows: 1, facing: 270, id: roman-fleet, name: 'The Roman line under Falto, about 200 quinqueremes'}
+    - {side: rome, type: ships, at: [12.25584, 38.00166], width: 1500, depth: 450, count: 6, rows: 1, facing: 270, id: roman-fleet, name: 'The Roman line under Falto, about 200 quinqueremes'}
+    - {side: rome, type: ships, at: [12.2547, 37.98809], width: 1500, depth: 450, count: 6, rows: 1, facing: 270, id: roman-fleet, name: 'The Roman line under Falto, about 200 quinqueremes'}
+    - {side: carthage, type: ships, at: [12.2376, 38.01433], width: 1500, depth: 900, count: 10, rows: 2, facing: 90, id: carthaginian-fleet, name: 'Hanno’s ships, laden with grain and short of marines'}
+    - {side: carthage, type: ships, at: [12.23646, 38.00076], width: 1500, depth: 900, count: 10, rows: 2, facing: 90, id: carthaginian-fleet, name: 'Hanno’s ships, laden with grain and short of marines'}
+    - {side: carthage, type: ships, at: [12.2376, 37.98719], width: 1400, depth: 900, count: 9, rows: 2, facing: 90, id: carthaginian-fleet, name: 'Hanno’s ships, laden with grain and short of marines'}
+  arrows:
+    - {side: rome, path: [[12.25242, 38.01071], [12.23931, 38.01026]], width: 150, id: rams, name: The Romans ram the laden ships}
+    - {side: rome, path: [[12.25356, 37.99533], [12.23817, 37.99488]], width: 150, id: rams, name: The Romans ram the laden ships}
+    - {side: carthage, path: [[12.23475, 38.008], [12.2, 38.00347], [12.1624, 37.99623]], width: 150, style: dashed, id: escape, name: The wind turns and the rest of the Carthaginian fleet escapes under sail}
+    - {side: carthage, path: [[12.23532, 37.98628], [12.2, 37.98176], [12.1624, 37.97543]], width: 150, style: dashed, id: escape, name: The wind turns and the rest of the Carthaginian fleet escapes under sail}
+  clashes:
+    - [12.24672, 38.01252]
+    - [12.24729, 37.99985]
+    - [12.24672, 37.98809]
+images:
+  aegates-rostrum:
+    file: aegates-rostrum.jpg
+    caption: "Bronze rams recovered from the site of the battle, shown in the Carthago exhibition at the Colosseum in Rome, 2019"
+    credit: "Wikimedia Commons, Jamie Heath, CC BY-SA 2.0 (Carthago exhibition - Aegadi Rams (49340681036).jpg)"

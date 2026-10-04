@@ -1,0 +1,38 @@
+when: {from: '1778-06-28'}
+date: "28 June 1778, afternoon"
+title: "Monmouth: Combs Hill and the parsonage"
+bbox: [-74.335, 40.248, -74.29, 40.282]
+zones: []
+routes: []
+markers: [monmouth-parsonage-greene, monmouth-parsonage-cilley, monmouth-parsonage-parsonage]
+sources: ['Mark Edward Lender and Garry Wheeler Stone, Fatal Sunday (2016).', 'Joseph G. Bilby and Katherine Bilby Jenkins, Monmouth Court House (2010).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-74.338, 40.2555], [-74.328, 40.2588], [-74.3165, 40.2625], [-74.309, 40.2598], [-74.3, 40.2572], [-74.29, 40.2555]], width: 30, id: middle-brook, name: Spotswood Middle Brook}
+    - {path: [[-74.333, 40.2845], [-74.318, 40.2795], [-74.303, 40.2755], [-74.29, 40.2722]], width: 25, id: north-brook, name: Spotswood North Brook}
+  works:
+    - {path: [[-74.3582, 40.2973], [-74.345, 40.288], [-74.333, 40.278], [-74.3225, 40.2672], [-74.3165, 40.2625], [-74.305, 40.2612], [-74.29, 40.2608], [-74.2738, 40.2601]], width: 16, id: englishtown-road, name: The road from Englishtown to Monmouth Court House}
+    - {path: [[-74.2738, 40.2601], [-74.262, 40.268], [-74.25, 40.276]], width: 16, id: middletown-road, name: The road to Middletown}
+  units:
+    - {side: usa, type: infantry, at: [-74.3272, 40.2732], width: 600, depth: 120, facing: 120, id: stirling, name: Stirling’s wing on the American left}
+    - {side: usa, type: infantry, at: [-74.3248, 40.2688], width: 600, depth: 130, facing: 115, id: main-body, name: Washington’s main body on Perrine’s Hill}
+    - {side: usa, type: infantry, at: [-74.3165, 40.251], width: 420, depth: 110, facing: 40, id: combs-hill, name: Greene with Woodford’s brigade and guns on Combs Hill}
+    - {side: usa, type: infantry, at: [-74.3178, 40.2745], width: 220, depth: 70, facing: 95, id: cilley, name: Cilley’s battalion of 350 picked men}
+    - {side: usa, type: infantry, at: [-74.3085, 40.2577], width: 300, depth: 80, facing: 100, id: wayne, name: Wayne’s 400 Pennsylvanians}
+    - {side: held, type: infantry, at: [-74.3078, 40.2738], width: 260, depth: 80, facing: 270, id: 42nd, name: The 42nd Highlanders in the orchard}
+    - {side: held, type: infantry, at: [-74.3038, 40.2574], width: 300, depth: 90, facing: 280, id: grenadiers, name: 'The 1st Grenadier Battalion, left exposed'}
+    - {side: held, type: infantry, at: [-74.3003, 40.2552], width: 220, depth: 80, facing: 285, id: 33rd, name: The 33rd Foot comes up in support}
+  arrows:
+    - {side: usa, path: [[-74.3166, 40.2743], [-74.3102, 40.2739]], width: 60, id: cilley-attack, name: Cilley drives the Highlanders from the orchard}
+    - {side: held, path: [[-74.3068, 40.2734], [-74.2985, 40.2702]], width: 55, id: 42nd-retreat, name: The Highlanders’ fighting retreat, style: dashed}
+    - {side: usa, path: [[-74.3172, 40.2636], [-74.3155, 40.2612], [-74.3098, 40.2584]], width: 65, id: wayne-attack, name: Wayne crosses the bridge at 16:45}
+    - {side: usa, path: [[-74.3082, 40.2567], [-74.3065, 40.2536]], width: 55, id: wayne-back, name: The Pennsylvanians fall back to the parsonage, style: dashed}
+  clashes:
+    - [-74.3093, 40.2738]
+    - [-74.3062, 40.2576]
+images:
+  monmouth-du-chesnoy-map:
+    file: monmouth-du-chesnoy-map.jpg
+    caption: "Map of the Battle of Monmouth drawn by Michel Capitaine du Chesnoy, aide to Lafayette, 1778"
+    credit: "Wikimedia Commons, Michel Capitaine du Chesnoy, Public domain (Monmouth-map.jpg)"

@@ -1,0 +1,33 @@
+when: { from: 1915-04-25 }
+date: "25 April 1915, afternoon and evening"
+title: "Arıburnu: the counterattack"
+bbox: [26.2335, 40.215, 26.3105, 40.268]
+zones: []
+routes: []
+markers: [gallipoli-landing-afternoon-kemal, gallipoli-landing-afternoon-beachhead]
+sources:
+  - "C. E. W. Bean, The Story of Anzac, volume 1 (1921)."
+  - "Andrew Mango, Atatürk (1999)."
+emblem:
+  kind: battle-plan
+  works:
+    - {side: british, path: [[26.2715, 40.2548], [26.2743, 40.2516], [26.279, 40.2496], [26.28, 40.247], [26.279, 40.242], [26.278, 40.237], [26.2765, 40.232], [26.2745, 40.229]], width: 45, id: anzac-line, name: 'The Anzac line at nightfall, under two miles long'}
+  units:
+    - {side: british, type: infantry, at: [26.276, 40.2475], width: 900, depth: 110, facing: 90, id: anzac-north, name: Australians and New Zealanders from Walker’s Ridge to Pope’s Hill}
+    - {side: british, type: infantry, at: [26.276, 40.234], width: 900, depth: 110, facing: 90, id: anzac-south, name: Australians on the western slope of the 400 Plateau and Bolton’s Ridge}
+    - {side: republic, type: infantry, at: [26.2837, 40.2565], width: 400, depth: 140, facing: 240, id: fifty-seventh, name: What is left of the 57th Regiment on Baby 700}
+    - {side: republic, type: infantry, at: [26.2875, 40.2625], width: 600, depth: 150, facing: 215, id: seventy-second, name: '72nd Regiment, attacking from the north at 16.30'}
+    - {side: republic, type: infantry, at: [26.2885, 40.2445], width: 500, depth: 140, facing: 270, id: seventy-seventh, name: 'Two battalions of the 77th Regiment, between the 57th and the 27th'}
+    - {side: republic, type: infantry, at: [26.2875, 40.2345], width: 900, depth: 140, facing: 270, id: twenty-seventh, name: '27th Regiment, on the 400 Plateau'}
+  arrows:
+    - {side: republic, path: [[26.287, 40.26], [26.284, 40.2575], [26.2805, 40.2545]], width: 70, id: seventy-second-attack, name: The 72nd Regiment drives on towards the Nek}
+    - {side: republic, path: [[26.287, 40.236], [26.284, 40.2355], [26.281, 40.2352]], width: 70, id: plateau-attack, name: The 27th and 77th Regiments retake most of the 400 Plateau}
+    - {side: british, path: [[26.283, 40.255], [26.279, 40.2528], [26.2753, 40.2518]], width: 60, id: baby-700-lost, name: The Australians and New Zealanders fall back from Baby 700, style: dashed}
+  clashes:
+    - [26.279, 40.2522]
+    - [26.2815, 40.236]
+images:
+  ariburnu-first-trench:
+    file: ariburnu-first-trench.jpg
+    caption: "Australian soldiers in their first trench above Anzac Cove, 25 April 1915"
+    credit: "Wikimedia Commons, unknown author, Public domain (Australian trench Anzac Cove 25 April 1915.JPG)"

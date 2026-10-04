@@ -1,0 +1,26 @@
+date: "249 BC, dawn"
+title: "Dawn off Drepana"
+bbox: [12.4488, 37.93254, 12.52294, 38.02922]
+zones: []
+routes: []
+markers: [lilybaeum-approach-drepana, lilybaeum-approach-adherbal, lilybaeum-approach-van, lilybaeum-approach-pulcher]
+sources: ['Polybius, Histories, book 1, 49 to 50.', 'John Lazenby, The First Punic War (1996).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: rome, type: ships, at: [12.49905, 38.00423], width: 220, depth: 1200, count: 7, rows: 7, facing: 16, id: roman-van, name: 'The Roman vanguard, ordered back to form a line'}
+    - {side: rome, type: ships, at: [12.49206, 37.98982], width: 260, depth: 1500, count: 8, rows: 8, facing: 16, id: roman-column, name: 'The Roman fleet, strung out along the coast'}
+    - {side: rome, type: ships, at: [12.4886, 37.97367], width: 260, depth: 1500, count: 8, rows: 8, facing: 16, id: roman-column, name: 'The Roman fleet, strung out along the coast'}
+    - {side: rome, type: ships, at: [12.48054, 37.95857], width: 260, depth: 1500, count: 8, rows: 8, facing: 16, id: roman-column, name: 'The Roman fleet, strung out along the coast'}
+    - {side: rome, type: ships, at: [12.47839, 37.9487], width: 120, depth: 160, count: 1, rows: 1, facing: 16, id: flagship, name: 'Pulcher’s flagship, near the rear'}
+    - {side: carthage, type: ships, at: [12.4942, 38.01051], width: 700, depth: 500, count: 10, rows: 2, facing: 286, id: carthaginian-fleet, name: 'Adherbal’s fleet leaving the harbour, 100 to 130 ships'}
+  arrows:
+    - {side: carthage, path: [[12.50125, 38.01032], [12.49209, 38.01287], [12.48183, 38.00909], [12.47524, 37.99741], [12.47264, 37.98201], [12.47098, 37.96921]], width: 120, id: adherbal-out, name: Adherbal passes the Roman van and turns south in open water}
+    - {side: rome, path: [[12.49615, 38.00771], [12.49122, 38.00554], [12.49059, 38.00051]], width: 60, id: van-turns, name: The leading Roman ships turn back and foul those behind}
+  clashes:
+    - {at: [12.49489, 38.00094], size: 110}
+images:
+  lilybaeum-drepana-view:
+    file: lilybaeum-drepana-view.jpg
+    caption: "Trapani, ancient Drepana, on its sickle-shaped peninsula seen from Erice, with the Aegates Islands beyond"
+    credit: "Wikimedia Commons, Berthold Werner, CC BY-SA 4.0 (Trapani BW 2025-04-30 12-08-03.jpg)"

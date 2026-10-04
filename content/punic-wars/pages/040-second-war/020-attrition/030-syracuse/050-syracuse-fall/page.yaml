@@ -1,0 +1,38 @@
+date: "Autumn 212 BC"
+title: "The fall of Achradina and Ortygia"
+bbox: [15.2, 37.04, 15.33, 37.12]
+zones: []
+routes: []
+markers: [syracuse-fall-moeriscus, syracuse-fall-archimedes, syracuse-fall-marcellus]
+sources: ['Livy, History of Rome, book 25, 30 to 31.', 'Plutarch, Life of Marcellus.']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[15.2, 37.044], [15.22, 37.048], [15.24, 37.052], [15.26, 37.0545], [15.274, 37.0565], [15.281, 37.058]], width: 45, id: anapus, name: The river Anapus}
+  works:
+    - {side: neutral, width: 30, path: [[15.2186, 37.0832], [15.2265, 37.087], [15.238, 37.0915], [15.251, 37.096], [15.262, 37.1], [15.272, 37.1035], [15.281, 37.1072]], id: north-wall, name: The north wall of Epipolae}
+    - {side: neutral, width: 30, path: [[15.281, 37.1072], [15.295, 37.1035], [15.301, 37.098], [15.305, 37.087], [15.303, 37.076], [15.2995, 37.068]], id: sea-wall, name: The sea wall of Tyche and Achradina}
+    - {side: neutral, width: 30, path: [[15.2186, 37.0832], [15.228, 37.08], [15.24, 37.0775], [15.252, 37.0755], [15.262, 37.0735], [15.271, 37.0705], [15.284, 37.0655]], id: south-wall, name: The south wall of Epipolae}
+    - {side: neutral, width: 30, path: [[15.2855, 37.0675], [15.287, 37.0745], [15.29, 37.0815], [15.296, 37.0855], [15.3045, 37.086]], id: achradina-wall, name: The wall of Achradina}
+    - {side: neutral, width: 30, path: [[15.2895, 37.0668], [15.2945, 37.0665], [15.2975, 37.0625], [15.2965, 37.0575], [15.293, 37.0545], [15.2895, 37.0565], [15.288, 37.061], [15.2895, 37.0668]], id: ortygia-wall, name: The walls of Ortygia}
+  units:
+    - {side: rome, type: infantry, at: [15.2885, 37.0935], width: 950, depth: 320, facing: 170, id: tyche, name: Roman troops in Tyche}
+    - {side: rome, type: infantry, at: [15.2785, 37.0755], width: 800, depth: 320, facing: 110, id: diversion, name: Marcellus’s diversion against Achradina}
+    - {side: rome, type: ships, at: [15.2838, 37.0548], width: 520, depth: 330, facing: 70, count: 3, id: ortygia-landing, name: Roman troops carried by ship to Ortygia}
+    - {side: syracuse, type: infantry, at: [15.2975, 37.0775], width: 700, depth: 240, facing: 320, id: last-defenders, name: The last defenders of Achradina}
+  arrows:
+    - {side: rome, path: [[15.288, 37.0905], [15.2915, 37.0845], [15.295, 37.0805]], width: 90, id: into-achradina, name: The Romans break into Achradina}
+    - {side: rome, path: [[15.2835, 37.0565], [15.2865, 37.0585], [15.2895, 37.0593]], width: 80, id: moeriscus-gate, name: Landing at the gate Moeriscus opens}
+    - {side: rome, path: [[15.2905, 37.0625], [15.2945, 37.0675], [15.2965, 37.0725]], width: 80, id: from-ortygia, name: From Ortygia into Achradina}
+  clashes:
+    - [15.2945, 37.0815]
+    - {at: [15.2898, 37.0595], size: 110}
+images:
+  syracuse-archimedes-death:
+    file: syracuse-archimedes-death.jpg
+    caption: "Archimedes and a Roman soldier, a mosaic long thought Roman and now dated to the 18th century"
+    credit: "Wikimedia Commons, Public domain (Archimedes before his death with the Roman soldier, Roman mosaic.jpg)"
+  syracuse-marcellus-denarius:
+    file: syracuse-marcellus-denarius.png
+    caption: "Denarius of about 50 BC honouring Marcellus, with his head and the three-legged emblem of Sicily"
+    credit: "Wikimedia Commons, Public domain (Denarius Publius Cornelius Lentulus Marcellinus 3.png)"

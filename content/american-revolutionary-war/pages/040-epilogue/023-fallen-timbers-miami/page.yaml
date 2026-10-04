@@ -1,0 +1,25 @@
+when: {from: '1794-08-20', to: '1794-08-26'}
+date: "20 to 26 August 1794"
+title: "Fallen Timbers: the gates of Fort Miami"
+bbox: [-83.71957, 41.52117, -83.60584, 41.60689]
+zones: []
+routes: []
+markers: [fallen-timbers-miami-campbell, fallen-timbers-miami-wayne, fallen-timbers-miami-mckee, fallen-timbers-miami-battlefield]
+sources: ['Alan D. Gaff, Bayonets in the Wilderness: Anthony Wayne’s Legion in the Old Northwest (2004).', 'John Sugden, Blue Jacket: Warrior of the Shawnees (2000).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-83.735, 41.495], [-83.712, 41.515], [-83.692, 41.533], [-83.672, 41.549], [-83.652, 41.562], [-83.634, 41.5735], [-83.61, 41.588], [-83.585, 41.605]], width: 260, id: maumee, name: The Maumee River}
+  units:
+    - {side: held, type: camp, at: [-83.63308, 41.57612], width: 230, depth: 230, facing: 0, id: fort-miami, name: 'Fort Miami, its gates shut against the warriors'}
+    - {side: usa, type: camp, at: [-83.64828, 41.57235], width: 500, depth: 380, facing: 0, id: wayne-camp, name: 'Wayne’s camp in sight of the fort, 20 to 23 August'}
+    - {side: usa, type: cavalry, at: [-83.66949, 41.55891], width: 300, depth: 90, facing: 45, id: dragoons, name: The dragoons riding down the fleeing warriors}
+  arrows:
+    - {side: '#8d6e63', path: [[-83.68137, 41.5538], [-83.66185, 41.56211], [-83.64403, 41.57171], [-83.63639, 41.57554]], width: 110, id: run-for-fort, name: The warriors run for Fort Miami and find the gates shut, style: dashed}
+    - {side: '#8d6e63', path: [[-83.6347, 41.58002], [-83.63215, 41.58962], [-83.63045, 41.59857]], width: 110, id: swan-creek, name: The survivors go on north to Swan Creek, style: dashed}
+    - {side: usa, path: [[-83.68307, 41.54996], [-83.67119, 41.55763]], width: 90, id: pursuit, name: The dragoons pursue across the open ground beyond the ravine}
+images:
+  fort-miamis-earthworks:
+    file: fort-miamis-earthworks.jpg
+    caption: "The earthworks of Fort Miami on the Maumee at Maumee, Ohio, today"
+    credit: "Wikimedia Commons, Nyttend, Public domain (Fort Miamis earthworks.jpg)"

@@ -1,0 +1,34 @@
+date: "Spring 206 BC"
+title: "The wings broken"
+bbox: [-5.97284, 37.49298, -5.90716, 37.54002]
+zones: []
+routes: []
+markers: [ilipa-wings-scipio, ilipa-wings-silanus, ilipa-wings-africans, ilipa-wings-elephants]
+sources: ['Polybius, Histories, book 11, 23 to 24.', 'Livy, History of Rome, book 28, 15.', 'Adrian Goldsworthy, The Fall of Carthage (2006).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-5.82, 37.61], [-5.84, 37.598], [-5.87, 37.581], [-5.9, 37.564], [-5.93, 37.549], [-5.96, 37.533], [-5.985, 37.517], [-6, 37.495]], width: 110, id: baetis, name: The river Baetis}
+  units:
+    - {side: carthage, type: camp, at: [-5.96605, 37.5165], width: 1200, depth: 900, facing: 90, id: carth-camp, name: Hasdrubal Gisco’s camp}
+    - {side: rome, type: camp, at: [-5.91395, 37.5165], width: 1100, depth: 900, facing: 270, id: roman-camp, name: Scipio’s camp}
+    - {side: carthage, type: cavalry, at: [-5.94815, 37.49976], width: 450, depth: 200, facing: 90, id: carth-cavalry, name: 'Carthaginian cavalry, trampled by their own elephants'}
+    - {side: carthage, type: infantry, at: [-5.94725, 37.5061], width: 900, depth: 250, facing: 90, id: carth-iberians, name: 'Carthaginian Iberians, struck at an angle'}
+    - {side: carthage, type: infantry, at: [-5.94793, 37.5165], width: 1300, depth: 300, facing: 90, id: africans, name: 'The Africans, unable to move'}
+    - {side: carthage, type: infantry, at: [-5.94725, 37.5269], width: 900, depth: 250, facing: 90, id: carth-iberians, name: 'Carthaginian Iberians, struck at an angle'}
+    - {side: carthage, type: cavalry, at: [-5.94815, 37.53324], width: 450, depth: 200, facing: 90, id: carth-cavalry, name: 'Carthaginian cavalry, trampled by their own elephants'}
+    - {side: rome, type: infantry, at: [-5.94227, 37.50474], width: 850, depth: 220, facing: 285, id: left-legions, name: Legions under Silanus and Marcius}
+    - {side: rome, type: infantry, at: [-5.94227, 37.52826], width: 850, depth: 220, facing: 255, id: right-legions, name: Legions under Scipio}
+    - {side: rome, type: infantry, at: [-5.93264, 37.5165], width: 1300, depth: 200, facing: 270, id: roman-iberians, name: 'Scipio’s Iberians, holding back'}
+  arrows:
+    - {side: rome, path: [[-5.9357, 37.5269], [-5.93717, 37.53188], [-5.9417, 37.53143]], width: 100, id: wheel, name: The legions turn outwards and wheel back into line}
+    - {side: rome, path: [[-5.9357, 37.5061], [-5.93717, 37.50112], [-5.9417, 37.50157]], width: 100, id: wheel, name: The legions turn outwards and wheel back into line}
+    - {side: rome, path: [[-5.9366, 37.53505], [-5.94453, 37.53776], [-5.95133, 37.53505]], width: 90, id: outflank, name: Cavalry and velites go round against the elephants}
+    - {side: rome, path: [[-5.9366, 37.49795], [-5.94453, 37.49524], [-5.95133, 37.49795]], width: 90, id: outflank, name: Cavalry and velites go round against the elephants}
+    - {side: carthage, path: [[-5.95019, 37.5165], [-5.95982, 37.5165]], width: 110, style: dashed, id: retreat, name: The army falls back towards its camp}
+  clashes:
+    - [-5.94498, 37.52781]
+    - [-5.94498, 37.50519]
+    - [-5.94997, 37.53324]
+    - [-5.94997, 37.49976]
+images: {}

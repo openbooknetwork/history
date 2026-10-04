@@ -1,21 +1,31 @@
 # Commons search terms per page id, used by scripts/fetch-candidates.mjs.
-# A page can also list exact file names under `files:` when they are known.
+# A page can also list exact file names under `files:` when they are known, and Wikipedia articles under
+# `articles:`, whose Commons images all join the candidates.
 ataturk-turkish-republic:
   salonica: ["Atatürk House Thessaloniki", "Mustafa Kemal child Selanik", "Thessaloniki 1890s port"]
   monastir: ["Mustafa Kemal Manastır askeri idadi", "Bitola military high school Ottoman", "Monastir 1900"]
   war-college: ["Mekteb-i Harbiye Istanbul 1900","Ottoman Military Academy Pangaltı Harbiye","Erkan-ı Harbiye Mektebi Ottoman staff college","Mustafa Kemal 1905 kurmay yüzbaşı","Harbiye Nezareti Beyazıt Istanbul 1900s"]
   damascus: ["Mustafa Kemal Şam 1906", "Mustafa Kemal Damascus 1906 Vatan ve Hürriyet", "Damascus 1900s Ottoman"]
+  action-army:
+    articles: ["Young Turk Revolution", "31 March Incident", "Action Army"]
+    queries: ["Hareket Ordusu 1909", "Action Army Constantinople 1909", "Resneli Niyazi 1908", "Mustafa Kemal 1909"]
   tripolitania: ["Mustafa Kemal Derne 1912", "Mustafa Kemal Trablusgarp 1912", "Italo-Turkish War 1912 Derna Ottoman officers"]
   balkan-wars: ["Bolayır 1913 Osmanlı","Edirne 1913 Ottoman army recapture","Enver Bey Edirne July 1913","Balkan War 1912 Ottoman soldiers Çatalca","Gelibolu 1913","Mustafa Kemal 1913"]
   sofia: ["Mustafa Kemal Sofya 1914", "Mustafa Kemal Sofia attaché 1914 yeniçeri kıyafeti", "Sofia 1914"]
   gallipoli-landing: ["Anzac Cove landing 25 April 1915", "Mustafa Kemal 1915 Arıburnu", "57th Regiment Gallipoli 1915"]
   suvla: ["Mustafa Kemal Anafartalar 1915", "Chunuk Bair August 1915", "Suvla Bay landing August 1915"]
   caucasus-front: ["Mustafa Kemal 1916 Diyarbakır", "Mustafa Kemal Bitlis 1916", "Caucasus campaign 1916 Ottoman"]
+  seventh-army:
+    articles: ["Yildirim Army Group", "Mehmed VI"]
+    queries: ["Mustafa Kemal Vahdettin Almanya 1917", "Mustafa Kemal Karlsbad 1918", "Mustafa Kemal Yedinci Ordu 1917", "Yıldırım Orduları Halep 1917"]
   syrian-front: ["Mustafa Kemal Yıldırım Orduları 1918", "Mustafa Kemal Halep 1918", "Megiddo 1918 Ottoman retreat"]
   mudros: ["Armistice of Mudros 1918", "Allied fleet Constantinople November 1918", "Agamemnon Mudros 1918"]
   occupation: ["Greek landing Smyrna 15 May 1919", "Mustafa Kemal Samsun 1919", "Bandırma vapuru 1919"]
   congresses: ["Sivas Congress 1919", "Erzurum Congress 1919", "Mustafa Kemal Amasya 1919"]
   ankara: ["Grand National Assembly opening 23 April 1920", "Mustafa Kemal Ankara 1920", "Occupation of Constantinople 16 March 1920"]
+  greek-offensive:
+    articles: ["Greek Summer Offensive"]
+    queries: ["Greek army Bursa July 1920", "Greek army Edirne July 1920", "Greek army Uşak 1920", "Greek army Balıkesir 1920"]
   sevres: ["Treaty of Sèvres signing 1920", "Sèvres 1920 Ottoman delegation"]
   gyumri: ["Kazım Karabekir 1920 Kars", "Treaty of Gümrü 1920", "Kars 1920 Turkish army"]
   inonu: ["İsmet Pasha İnönü 1921", "Battle of İnönü 1921", "Western Front 1921 Turkish army"]
@@ -32,3 +42,206 @@ ataturk-turkish-republic:
   lausanne: ["İsmet İnönü Lausanne 1923","Lausanne conference 1923 delegates","Lozan Barış Antlaşması 1923 heyet","Treaty of Lausanne signing ceremony 1923"]
   republic: ["Proclamation of the Republic 29 October 1923", "Mustafa Kemal 1923 Ankara", "Ankara 1923 Grand National Assembly building"]
   reforms: ["Atatürk alphabet 1928 blackboard", "Atatürk funeral 1938 Dolmabahçe", "Atatürk 1930s"]
+  hatay:
+    articles: ["Hatay State", "Sanjak of Alexandretta", "Tayfur Sökmen"]
+    queries: ["Hatay Devleti 1938", "Antakya 1938", "İskenderun 1938", "Turkish troops Alexandretta July 1938", "Hatay 1939 Anavatana katılma", "Tayfur Sökmen"]
+american-revolutionary-war:
+  peace-of-paris:
+    articles: ["Treaty of Paris (1763)", "Royal Proclamation of 1763", "Pontiac's War"]
+    queries: ["Proclamation of 1763 map", "Treaty of Paris 1763", "North America 1763 map British"]
+  stamp-act:
+    articles: ["Stamp Act 1765", "Stamp Act Congress", "Sugar Act", "Sons of Liberty"]
+    queries: ["Stamp Act 1765 stamp", "Stamp Act Congress 1765", "Stamp Act riot Boston 1765"]
+  boston-massacre:
+    articles: ["Boston Massacre", "Townshend Acts"]
+    queries: ["Boston Massacre Paul Revere engraving", "Boston Massacre 1770"]
+  tea-party:
+    articles: ["Boston Tea Party", "Tea Act"]
+    queries: ["Boston Tea Party 1773 engraving", "Destruction of tea Boston harbor 1773"]
+  coercive-acts:
+    articles: ["Intolerable Acts", "Quebec Act", "Boston Port Act"]
+    queries: ["Boston Port Act 1774", "Quebec Act 1774 map", "Thomas Gage portrait"]
+  first-congress:
+    articles: ["First Continental Congress", "Carpenters' Hall", "Suffolk Resolves", "Continental Association"]
+    queries: ["Carpenters' Hall Philadelphia", "First Continental Congress 1774"]
+  lexington:
+    articles: ["Battles of Lexington and Concord", "Midnight ride of Paul Revere"]
+    queries: ["Battle of Lexington 1775 Doolittle", "Concord North Bridge 1775", "Lexington Green"]
+  bunker-hill:
+    articles: ["Battle of Bunker Hill", "Capture of Fort Ticonderoga", "Second Continental Congress"]
+    queries: ["Battle of Bunker Hill Trumbull", "Fort Ticonderoga 1775", "Washington takes command Cambridge 1775"]
+  canada:
+    articles: ["Battle of Quebec (1775)", "Invasion of Quebec (1775)", "Arnold's expedition to Quebec", "Siege of Fort St. Jean"]
+    queries: ["Death of Montgomery Quebec Trumbull", "Arnold expedition Quebec 1775", "Quebec 1775 siege"]
+  boston:
+    articles: ["Siege of Boston", "Fortification of Dorchester Heights", "Common Sense", "Knox Expedition"]
+    queries: ["Dorchester Heights 1776", "Evacuation of Boston 1776", "Common Sense Thomas Paine 1776 title page"]
+  canada-retreat:
+    articles: ["Battle of Trois-Rivières", "Battle of Valcour Island"]
+    queries: ["Battle of Valcour Island 1776", "Retreat from Quebec 1776", "Lake Champlain 1776 gunboat Philadelphia"]
+  declaration:
+    articles: ["United States Declaration of Independence", "Lee Resolution", "Committee of Five", "Battle of Sullivan's Island"]
+    queries: ["Declaration of Independence Trumbull", "Declaration of Independence 1776 Dunlap broadside", "Independence Hall Philadelphia"]
+  new-york:
+    articles: ["Battle of Long Island", "New York and New Jersey campaign", "Great Fire of New York (1776)", "Battle of White Plains", "Battle of Fort Washington"]
+    queries: ["Battle of Long Island 1776", "Great Fire of New York 1776", "Fort Washington 1776"]
+  trenton:
+    articles: ["Battle of Trenton", "Washington's crossing of the Delaware River", "Battle of Princeton"]
+    queries: ["Washington Crossing the Delaware Leutze", "Battle of Trenton 1776", "Battle of Princeton 1777 Mercer"]
+  saratoga:
+    articles: ["Battles of Saratoga", "Saratoga campaign", "Siege of Fort Ticonderoga (1777)", "Battle of Oriskany", "Battle of Bennington"]
+    queries: ["Surrender of General Burgoyne Trumbull", "Battle of Saratoga 1777", "Battle of Bennington 1777"]
+  philadelphia:
+    articles: ["Battle of Brandywine", "Battle of Germantown", "Valley Forge", "Articles of Confederation"]
+    queries: ["Battle of Brandywine 1777", "Valley Forge 1777 winter", "Articles of Confederation 1777 page"]
+  french-alliance:
+    articles: ["Treaty of Alliance (1778)", "Battle of Monmouth", "Battle of Rhode Island", "Molly Pitcher"]
+    queries: ["Treaty of Alliance 1778 France", "Battle of Monmouth 1778 Molly Pitcher", "Siege of Newport 1778 d'Estaing"]
+  south-and-west:
+    articles: ["Capture of Savannah", "Siege of Savannah", "Siege of Fort Vincennes", "Battle of Stony Point"]
+    queries: ["Siege of Savannah 1779", "George Rogers Clark Vincennes 1779", "Stony Point 1779"]
+  spain-west-florida:
+    articles: ["Bernardo de Gálvez", "Siege of Pensacola", "Battle of Fort Charlotte"]
+    queries: ["Bernardo de Galvez Pensacola 1781", "Siege of Pensacola 1781", "Galvez Baton Rouge 1779"]
+  charleston-camden:
+    articles: ["Siege of Charleston", "Battle of Camden", "Battle of Kings Mountain"]
+    queries: ["Siege of Charleston 1780", "Battle of Camden 1780", "Battle of Kings Mountain 1780", "Benedict Arnold West Point 1780 André"]
+  cowpens-guilford:
+    articles: ["Battle of Cowpens", "Race to the Dan", "Battle of Guilford Court House"]
+    queries: ["Battle of Cowpens 1781 Ranney", "Battle of Guilford Court House 1781", "Articles of Confederation ratification 1781"]
+  yorktown:
+    articles: ["Siege of Yorktown", "Battle of the Chesapeake", "Yorktown campaign"]
+    queries: ["Surrender of Lord Cornwallis Trumbull", "Siege of Yorktown 1781", "Battle of the Chesapeake 1781"]
+  peace:
+    articles: ["Treaty of Paris (1783)", "Newburgh Conspiracy", "Evacuation Day (New York)", "George Washington's resignation as commander-in-chief"]
+    queries: ["Treaty of Paris 1783 Benjamin West", "Evacuation Day New York 1783", "Washington resigning commission Annapolis 1783 Trumbull"]
+  confederation:
+    articles: ["Shays's Rebellion", "Annapolis Convention (1786)", "Congress of the Confederation"]
+    queries: ["Shays' Rebellion 1787", "Annapolis Convention 1786", "Federal Hall New York 1789"]
+  convention:
+    articles: ["Constitutional Convention (United States)", "Scene at the Signing of the Constitution of the United States", "Northwest Ordinance"]
+    queries: ["Scene at the Signing of the Constitution Christy", "Constitution of the United States 1787 page one", "Northwest Ordinance 1787"]
+  first-three:
+    articles: ["History of the United States Constitution", "The Federalist Papers", "Anti-Federalism"]
+    queries: ["Delaware ratification 1787", "Pennsylvania ratifying convention 1787", "Federalist Papers 1788 title page"]
+  five-more:
+    articles: ["Massachusetts Compromise", "Anti-Federalist Papers"]
+    queries: ["Massachusetts ratifying convention 1788", "Centinel 1788 pillars ratification cartoon"]
+  ninth-state:
+    articles: ["Virginia Ratifying Convention", "Grand Federal Procession"]
+    queries: ["Virginia ratifying convention 1788", "New York ratifying convention Poughkeepsie 1788", "Federal ship Hamilton parade 1788"]
+  first-government:
+    articles: ["First inauguration of George Washington", "Federal Hall", "1st United States Congress"]
+    queries: ["Washington inauguration Federal Hall 1789", "Federal Hall Wall Street 1789"]
+  last-two:
+    articles: ["Hillsborough Convention", "Fayetteville Convention"]
+    queries: ["Rhode Island ratification 1790 Newport", "North Carolina ratification Fayetteville 1789"]
+  southwest-territory:
+    articles: ["Southwest Territory", "Residence Act"]
+    queries: ["William Blount portrait", "Rocky Mount Tennessee", "Residence Act 1790"]
+  new-states:
+    articles: ["United States Bill of Rights", "Vermont Republic", "Southwest Territory", "Residence Act", "L'Enfant Plan"]
+    queries: ["Bill of Rights 1791 document", "Vermont statehood 1791", "Washington DC plan L'Enfant 1791"]
+  frontier-1794:
+    articles: ["Battle of Fallen Timbers", "Treaty of Greenville", "Jay Treaty", "Pinckney's Treaty"]
+    queries: ["Treaty of Greenville 1795 painting", "Battle of Fallen Timbers 1794", "Washington DC 1800 Capitol"]
+punic-wars:
+  carthage:
+    articles: ["Ancient Carthage", "Carthage", "Phoenicia"]
+    queries: ["Punic ports Carthage", "Byrsa Punic quarter Carthage", "Tophet Carthage stele", "Carthage coin Tanit horse"]
+  italy:
+    articles: ["Pyrrhic War", "Roman Republic", "Magna Graecia"]
+    queries: ["Pyrrhus of Epirus bust", "Roman Republic Italy 264 BC map", "Via Appia Rome republic"]
+  messana:
+    articles: ["Mamertines", "Battle of Messana", "Hiero II of Syracuse", "Appius Claudius Caudex"]
+    queries: ["Hiero II coin Syracuse", "Mamertini coin Messana", "Strait of Messina"]
+  agrigentum:
+    articles: ["Battle of Agrigentum"]
+    queries: ["Valley of the Temples Agrigento", "Temple of Concordia Agrigento", "Akragas Agrigentum"]
+  mylae:
+    articles: ["Battle of Mylae", "Corvus (boarding device)", "Gaius Duilius", "Quinquereme"]
+    queries: ["Columna rostrata Duilius", "corvus boarding", "Roman quinquereme model", "Milazzo"]
+  ecnomus:
+    articles: ["Battle of Cape Ecnomus"]
+    queries: ["Ecnomus 256 BC naval battle", "Marsala Punic ship", "Licata Sicily"]
+  regulus:
+    articles: ["Marcus Atilius Regulus", "Battle of Adys", "Battle of Tunis", "Xanthippus of Carthage"]
+    queries: ["Departure of Regulus painting", "Regulus returning to Carthage", "Kerkouane Punic town", "Kelibia fort"]
+  panormus:
+    articles: ["Battle of Panormus", "War elephant"]
+    queries: ["Metellus elephant denarius", "Carthaginian war elephant coin", "Palermo Panormus Punic"]
+  lilybaeum:
+    articles: ["Siege of Lilybaeum (250–241 BC)", "Battle of Drepana", "Battle of Phintias"]
+    queries: ["Lilybaeum Marsala", "Trapani Drepanum", "Erice", "Claudius Pulcher sacred chickens"]
+  aegates:
+    articles: ["Battle of the Aegates", "Treaty of Lutatius", "Gaius Lutatius Catulus"]
+    queries: ["Egadi rostrum bronze ram", "Battle of the Aegates", "Favignana Egadi islands"]
+  mercenary-war:
+    articles: ["Mercenary War", "Battle of the Saw", "Hamilcar Barca", "Hanno the Great"]
+    queries: ["Salammbô Rochegrosse", "Hamilcar Barca coin", "Mercenary War Carthage"]
+  sardinia:
+    articles: ["Corsica et Sardinia", "Sardinia"]
+    queries: ["Tharros", "Nora Pula Sardinia ruins", "Sant'Antioco tophet", "Aleria Corsica Roman"]
+  iberia:
+    articles: ["Carthaginian Iberia", "Hasdrubal the Fair", "Cartagena, Spain", "Ebro Treaty"]
+    queries: ["Barcid shekel Hispania", "Hamilcar Barca", "Hannibal swearing enmity to Rome", "Hasdrubal the Fair coin"]
+  telamon:
+    articles: ["Battle of Telamon", "Cisalpine Gaul", "Gauls"]
+    queries: ["Battle of Telamon 225 BC", "Talamone", "Celtic warrior statue Gaul"]
+  saguntum:
+    articles: ["Siege of Saguntum", "Sagunto"]
+    queries: ["Sagunto castle", "Siege of Saguntum painting", "Sagunto Roman theatre"]
+  alps:
+    articles: ["Hannibal's crossing of the Alps", "Battle of the Rhône Crossing", "Hannibal"]
+    queries: ["Turner Hannibal crossing the Alps snow storm", "Hannibal elephants Rhône crossing", "Hannibal bust Naples", "Hannibal Alps fresco Capitoline"]
+  trebia:
+    articles: ["Battle of Ticinus", "Battle of the Trebia", "Publius Cornelius Scipio"]
+    queries: ["Battle of the Trebia 218 BC", "Trebbia river", "Ticino river Pavia"]
+  trasimene:
+    articles: ["Battle of Lake Trasimene", "Gaius Flaminius"]
+    queries: ["Lake Trasimeno Tuoro", "Battle of Lake Trasimene painting", "Sanguineto Trasimeno"]
+  fabius:
+    articles: ["Fabian strategy", "Quintus Fabius Maximus Verrucosus", "Battle of Ager Falernus", "Battle of Geronium"]
+    queries: ["Quintus Fabius Maximus Cunctator statue", "Fabius Maximus Schönbrunn", "Hannibal oxen torches"]
+  cannae:
+    articles: ["Battle of Cannae", "Gaius Terentius Varro", "Lucius Aemilius Paullus (consul 219 BC)"]
+    queries: ["Battle of Cannae", "Death of Aemilius Paullus Cannae", "Canne della Battaglia", "Hannibal counting rings Cannae Slodtz"]
+  capua:
+    articles: ["Battle of Capua", "Siege of Capua (211 BC)", "Capua", "Battle of Nola (216 BC)"]
+    queries: ["Santa Maria Capua Vetere amphitheatre", "Capua Hannibal", "Capua coin"]
+  syracuse:
+    articles: ["Siege of Syracuse (213–212 BC)", "Archimedes", "Marcus Claudius Marcellus", "Hieronymus of Syracuse"]
+    queries: ["Death of Archimedes mosaic", "Archimedes claw ship Syracuse", "Euryalus fortress Syracuse", "Marcellus Archimedes"]
+  ebro:
+    articles: ["Battle of Cissa", "Battle of Ebro River", "Battle of Dertosa", "Battle of the Upper Baetis", "Gnaeus Cornelius Scipio Calvus"]
+    queries: ["Tarragona Roman walls Tarraco", "Torre dels Escipions Tarragona", "Ebro delta"]
+  new-carthage:
+    articles: ["Battle of Cartagena (209 BC)", "Scipio Africanus", "Battle of Baecula"]
+    queries: ["Scipio Africanus bust", "Continence of Scipio painting", "Cartagena Punic wall"]
+  metaurus:
+    articles: ["Battle of the Metaurus", "Hasdrubal Barca", "Gaius Claudius Nero", "Marcus Livius Salinator"]
+    queries: ["Battle of the Metaurus", "Tiepolo Hannibal head of Hasdrubal", "Metauro river"]
+  ilipa:
+    articles: ["Battle of Ilipa", "Mago Barca", "Hasdrubal Gisco"]
+    queries: ["Italica Santiponce ruins", "Alcalá del Río", "Scipio Africanus Spain"]
+  great-plains:
+    articles: ["Battle of Utica (203 BC)", "Battle of the Great Plains", "Battle of Cirta", "Masinissa", "Syphax", "Sophonisba"]
+    queries: ["Sophonisba poison painting", "Masinissa coin", "Syphax coin", "Utica Tunisia ruins"]
+  zama:
+    articles: ["Battle of Zama", "Gaius Laelius", "Second Punic War"]
+    queries: ["Battle of Zama Cornelis Cort", "Battle of Zama Giulio Romano", "Scipio Hannibal meeting Zama", "Battle of Zama tapestry"]
+  hannibal-exile:
+    articles: ["Roman–Seleucid War", "Hannibal"]
+    queries: ["Hannibal tomb Gebze", "Antiochus III bust", "Hannibal Libyssa"]
+  masinissa:
+    articles: ["Cato the Elder", "Carthago delenda est", "Numidia", "Masinissa"]
+    queries: ["Cato the Elder bust", "Medracen Numidian mausoleum", "Dougga Numidian mausoleum"]
+  siege-of-carthage:
+    articles: ["Third Punic War", "Battle of Carthage (c. 149 BC)", "Hasdrubal the Boetharch"]
+    queries: ["Siege of Carthage 149 BC", "Carthage harbour Punic", "Carthage Punic walls"]
+  fall-of-carthage:
+    articles: ["Scipio Aemilianus", "Salting the earth", "Battle of Corinth (146 BC)"]
+    queries: ["Destruction of Carthage painting", "Scipio Aemilianus ruins of Carthage", "Last day of Corinth Robert-Fleury"]
+  africa-province:
+    articles: ["Africa (Roman province)", "Utica, Tunisia"]
+    queries: ["Antonine Baths Carthage", "Roman Carthage ruins", "Africa Proconsularis map"]

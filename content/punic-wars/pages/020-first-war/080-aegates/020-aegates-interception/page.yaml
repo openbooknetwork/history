@@ -1,0 +1,24 @@
+date: "9 to 10 March 241 BC"
+title: "The Romans intercept"
+bbox: [12.05186, 37.93834, 12.37093, 38.03785]
+zones: []
+routes: []
+markers: [aegates-interception-hiera, aegates-interception-phorbantia, aegates-interception-hanno, aegates-interception-falto, aegusa-241]
+sources: ['Polybius, Histories, book 1, 60.', 'John Lazenby, The First Punic War (1996).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: carthage, type: ships, at: [12.16354, 38.00166], width: 1800, depth: 900, count: 12, rows: 2, facing: 75, id: carthaginian-fleet, name: 'Hanno’s fleet under sail, about 250 ships laden with grain'}
+    - {side: carthage, type: ships, at: [12.15898, 37.98176], width: 1800, depth: 900, count: 12, rows: 2, facing: 75, id: carthaginian-fleet, name: 'Hanno’s fleet under sail, about 250 ships laden with grain'}
+    - {side: carthage, type: ships, at: [12.16354, 37.96186], width: 1500, depth: 900, count: 10, rows: 2, facing: 75, id: carthaginian-fleet, name: 'Hanno’s fleet under sail, about 250 ships laden with grain'}
+    - {side: rome, type: ships, at: [12.27407, 38.01523], width: 1500, depth: 450, count: 6, rows: 1, facing: 270, id: roman-fleet, name: 'The Roman fleet under Falto in a single line, masts left ashore'}
+    - {side: rome, type: ships, at: [12.27521, 38.00166], width: 1500, depth: 450, count: 6, rows: 1, facing: 270, id: roman-fleet, name: 'The Roman fleet under Falto in a single line, masts left ashore'}
+    - {side: rome, type: ships, at: [12.27407, 37.98809], width: 1500, depth: 450, count: 6, rows: 1, facing: 270, id: roman-fleet, name: 'The Roman fleet under Falto in a single line, masts left ashore'}
+  arrows:
+    - {side: carthage, path: [[12.09403, 37.97181], [12.12593, 37.98176], [12.14986, 37.99171]], width: 220, id: hanno-sails, name: Hanno sails east before the west wind}
+    - {side: rome, path: [[12.31395, 37.95462], [12.29686, 37.97271], [12.28091, 37.99262]], width: 220, id: romans-row-out, name: The Romans row out from Aegusa into the wind}
+images:
+  aegates-leutemann:
+    file: aegates-leutemann.jpg
+    caption: "Victory of the Roman fleet over the Carthaginians off the Aegates, illustration by Heinrich Leutemann, about 1880"
+    credit: "Wikimedia Commons, Heinrich Leutemann, Public domain (Heinrich Leutemann - Victory of the Roman fleet over the Carthaginians at the Battle of the Aegates Islands.jpg)"

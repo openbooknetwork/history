@@ -1,0 +1,38 @@
+date: "October 202 BC"
+title: "The armies deploy"
+bbox: [9.42022, 36.27267, 9.47595, 36.32513]
+zones: []
+routes: []
+markers: [zama-deploy-scipio, zama-deploy-masinissa, zama-deploy-laelius, zama-deploy-elephants, zama-deploy-lines, zama-deploy-hannibal]
+sources: ['Polybius, Histories, book 15, 9 to 11.', 'Livy, History of Rome, book 30, 32 to 33.', 'John Lazenby, Hannibal’s War (1978).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: rome, type: infantry, at: [9.44296, 36.29098], width: 230, depth: 90, facing: 90, id: hastati, name: 'Hastati, maniples in columns with open lanes'}
+    - {side: rome, type: infantry, at: [9.44296, 36.29415], width: 230, depth: 90, facing: 90, id: hastati, name: 'Hastati, maniples in columns with open lanes'}
+    - {side: rome, type: infantry, at: [9.44296, 36.29732], width: 230, depth: 90, facing: 90, id: hastati, name: 'Hastati, maniples in columns with open lanes'}
+    - {side: rome, type: infantry, at: [9.44296, 36.30048], width: 230, depth: 90, facing: 90, id: hastati, name: 'Hastati, maniples in columns with open lanes'}
+    - {side: rome, type: infantry, at: [9.44296, 36.30365], width: 230, depth: 90, facing: 90, id: hastati, name: 'Hastati, maniples in columns with open lanes'}
+    - {side: rome, type: infantry, at: [9.44296, 36.30682], width: 230, depth: 90, facing: 90, id: hastati, name: 'Hastati, maniples in columns with open lanes'}
+    - {side: rome, type: infantry, at: [9.4414, 36.29098], width: 230, depth: 90, facing: 90, id: principes, name: Principes straight behind the hastati}
+    - {side: rome, type: infantry, at: [9.4414, 36.29415], width: 230, depth: 90, facing: 90, id: principes, name: Principes straight behind the hastati}
+    - {side: rome, type: infantry, at: [9.4414, 36.29732], width: 230, depth: 90, facing: 90, id: principes, name: Principes straight behind the hastati}
+    - {side: rome, type: infantry, at: [9.4414, 36.30048], width: 230, depth: 90, facing: 90, id: principes, name: Principes straight behind the hastati}
+    - {side: rome, type: infantry, at: [9.4414, 36.30365], width: 230, depth: 90, facing: 90, id: principes, name: Principes straight behind the hastati}
+    - {side: rome, type: infantry, at: [9.4414, 36.30682], width: 230, depth: 90, facing: 90, id: principes, name: Principes straight behind the hastati}
+    - {side: rome, type: infantry, at: [9.43961, 36.2989], width: 2000, depth: 110, facing: 90, id: triarii, name: Triarii}
+    - {side: rome, type: light, at: [9.4443, 36.2989], width: 2000, depth: 60, facing: 90, id: velites, name: Velites in the lanes}
+    - {side: numidia, type: cavalry, at: [9.44229, 36.28397], width: 700, depth: 200, facing: 90, id: masinissa, name: 'Masinissa’s 4,000 Numidian horsemen'}
+    - {side: rome, type: cavalry, at: [9.44229, 36.31337], width: 450, depth: 180, facing: 90, id: laelius, name: 'Laelius with 1,500 Roman and Italian cavalry'}
+    - {side: carthage, type: elephants, at: [9.45288, 36.2989], width: 2200, depth: 80, facing: 270, count: 20, id: elephants, name: '80 elephants, about 30 m apart'}
+    - {side: carthage, type: light, at: [9.45399, 36.2989], width: 2200, depth: 60, facing: 270, id: skirmishers, name: Carthaginian skirmishers}
+    - {side: carthage, type: infantry, at: [9.45544, 36.2989], width: 2200, depth: 150, facing: 270, id: first-line, name: 'First line: 12,000 mercenaries, Ligurians, Gauls, Balearic slingers and Moors'}
+    - {side: carthage, type: infantry, at: [9.45767, 36.2989], width: 2200, depth: 150, facing: 270, id: second-line, name: 'Second line: Carthaginian and African levies'}
+    - {side: carthage, type: infantry, at: [9.46101, 36.2989], width: 2600, depth: 200, facing: 270, id: veterans, name: 'Third line: Hannibal’s veterans from Italy'}
+    - {side: carthage, type: cavalry, at: [9.45589, 36.28397], width: 650, depth: 200, facing: 270, id: numidian-cavalry, name: 'Hannibal’s Numidian cavalry, facing Masinissa'}
+    - {side: carthage, type: cavalry, at: [9.45589, 36.31383], width: 500, depth: 180, facing: 270, id: carth-cavalry, name: 'Carthaginian cavalry, facing Laelius'}
+images:
+  zama-tapestry:
+    file: zama-tapestry.jpg
+    caption: "The battle of Zama, Gobelins tapestry made for Louis XIV after designs by Giulio Romano, 1686 to 1689, Louvre"
+    credit: "Wikimedia Commons, Tangopaso, Public domain (La bataille de Zama (Tapisserie, Louvre, OA 5394).jpg)"

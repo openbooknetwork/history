@@ -1,4 +1,4 @@
-Ağustosta İtilaf kuvvetleri Suvla Koyu’na yeniden çıkar ve Sarı Bayır sırtlarına yönelir. 8 Ağustos’ta Mustafa Kemal’e kuzey kesimin tamamını kapsayan Anafartalar Grubu komutanlığı verilir. 10 Ağustos’taki Conkbayırı karşı taarruzu saldıranları sırttan atar. Cephe donar; İtilaf kuvvetleri aralık ve ocakta tahliye edilir. Yarımadadan ünlü bir albay olarak ayrılır.
+Ağustosta İtilaf kuvvetleri Arıburnu kesiminden Sarı Bayır sırtlarına saldırır ve kuzeyde Suvla Koyu’na yeni bir kuvvet çıkarır. 8 Ağustos’ta Mustafa Kemal’e kuzey kesimin tamamını kapsayan Anafartalar Grubu komutanlığı verilir. 10 Ağustos’taki Conkbayırı karşı taarruzu saldıranları sırttan atar. Cephe bundan sonra, İtilaf kuvvetlerinin Aralık 1915’te Suvla ve Arıburnu’nu, Ocak 1916’da Seddülbahir’i boşaltmasına kadar değişmez.
 
 @image suvla-group
 

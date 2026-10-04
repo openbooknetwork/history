@@ -1,0 +1,37 @@
+date: "June 207 BC"
+title: "Nero’s flank march"
+bbox: [12.9645, 43.76632, 13.02095, 43.7984]
+zones: []
+routes: []
+markers: [metaurus-nero-nero, metaurus-nero-elephants, metaurus-nero-hasdrubal, metaurus-nero-gauls]
+sources: ['Polybius, Histories, book 11, 1 to 3.', 'Livy, History of Rome, book 27, 48 to 49.', 'Dexter Hoyos, Hannibal’s Dynasty (2003).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[12.87, 43.735], [12.9, 43.748], [12.93, 43.76], [12.955, 43.772], [12.975, 43.785], [12.995, 43.795], [13.02, 43.812], [13.045, 43.829], [13.068, 43.842]], width: 60, id: metaurus, name: The river Metaurus}
+  works:
+    - {side: neutral, path: [[13.00045, 43.78517], [13.00359, 43.78607], [13.0067, 43.78639], [13.01017, 43.78744]], width: 45, id: ravine, name: The ravine in front of the Gauls}
+  units:
+    - {side: carthage, type: infantry, at: [12.98527, 43.78372], width: 560, depth: 260, facing: 165, id: iberians, name: 'Iberians, attacked in front and flank'}
+    - {side: carthage, type: infantry, at: [12.99356, 43.78533], width: 620, depth: 240, facing: 165, id: ligurians, name: Ligurians in the centre}
+    - {side: carthage, type: infantry, at: [13.00432, 43.78865], width: 720, depth: 150, facing: 165, id: gauls, name: Gauls on the hill behind the ravine}
+    - {side: carthage, type: elephants, at: [12.99092, 43.78201], width: 700, depth: 70, facing: 165, count: 6, id: elephants, name: Elephants loose among both armies}
+    - {side: rome, type: infantry, at: [12.98715, 43.78071], width: 820, depth: 220, facing: 345, id: livius, name: Livius with the Roman left}
+    - {side: rome, type: infantry, at: [12.99676, 43.78258], width: 720, depth: 200, facing: 345, id: porcius, name: Porcius with the centre}
+    - {side: rome, type: infantry, at: [13.00763, 43.78105], width: 420, depth: 200, facing: 345, id: nero-rest, name: 'The rest of Nero’s wing, facing the ravine'}
+    - {side: rome, type: infantry, at: [12.97932, 43.78237], width: 300, depth: 180, facing: 75, id: nero-flank, name: 'Nero with half his men, on the Iberian flank'}
+  arrows:
+    - {side: rome, path: [[13.00656, 43.77803], [13.00075, 43.77456], [12.9913, 43.77225], [12.98148, 43.77268], [12.9761, 43.77678], [12.97617, 43.78045], [12.97722, 43.78177]], width: 110, id: nero-march, name: Nero leads half his men behind the Roman line}
+    - {side: carthage, path: [[12.97736, 43.78386], [12.97396, 43.78432], [12.97097, 43.7844]], width: 90, style: dashed, id: cavalry-flight, name: The Carthaginian cavalry is driven off}
+    - {side: rome, path: [[12.97854, 43.7796], [12.97524, 43.78157], [12.97243, 43.7829]], width: 90, id: cavalry-pursuit, name: The Roman cavalry pursues}
+    - {side: carthage, path: [[12.9864, 43.78553], [12.98486, 43.78692], [12.98287, 43.78812]], width: 80, style: dashed, id: iberians-break, name: The Iberians give way}
+  clashes:
+    - [12.98588, 43.78206]
+    - [12.9942, 43.78358]
+    - [12.98124, 43.78275]
+    - {at: [12.99111, 43.78148], size: 120}
+images:
+  metaurus-uccello:
+    file: metaurus-uccello.jpg
+    caption: "Battle on the banks of a river, probably the battle of the Metaurus, panel painting attributed to Paolo Uccello, 15th century"
+    credit: "Wikimedia Commons, Paolo Uccello, Public domain (BATTLE ON THE BANKS OF A RIVER, PROBABLY THE BATTLE OF THE METAURUS (207 BCE).jpg)"

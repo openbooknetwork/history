@@ -1,0 +1,3 @@
+Without written orders, Major General Frangou, commander of the Greek 1st Division, takes his own and the 7th Division west towards Dumlupınar in the night of 27 to 28 August. General Trikoupis keeps the larger part of the I and II Corps in place overnight and only starts west at 5.00 on 28 August. A gap opens between the two Greek groups.
+
+The Turkish First Army and the cavalry follow. The exposed column of the Greek 4th Division is caught at 7.00 and broken, while the uncommitted Greek 9th Division mauls the Turkish 2nd Cavalry Division, which tries to block its road west. Trikoupis's group spends the night around Olucak, and Frangou's group reaches the positions at Dumlupınar by 5.00 on 29 August.

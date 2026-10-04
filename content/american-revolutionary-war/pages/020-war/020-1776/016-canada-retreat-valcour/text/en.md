@@ -1,0 +1,5 @@
+Arnold waits for the British in the narrow strait between Valcour Island and the western shore of Lake Champlain, where their stronger fleet will find it hard to bring all its guns to bear. His 15 vessels, galleys, schooners and gundalows with about 74 guns, lie in a crescent across the strait. Carleton’s fleet under Captain Thomas Pringle, with the ship sloop Inflexible, two schooners and 28 gunboats, sails south past the island before it sees them.
+
+@image valcour-american-line-randle
+
+Arnold sends out Congress and Royal Savage to draw the British in. Royal Savage cannot work back against the wind, runs aground on the southern tip of the island and is burned. From about 12:30 p.m. the gunboats and the schooner Carleton fight the American line at close range all afternoon. Philadelphia sinks at about 6:30 p.m., and a British gunboat blows up. At sunset Inflexible comes up the strait and silences most of the American guns, and Native allies of the British land on the island and the shore.

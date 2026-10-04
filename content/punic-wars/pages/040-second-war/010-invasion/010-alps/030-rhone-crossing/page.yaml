@@ -1,0 +1,32 @@
+date: "Late September 218 BC, the fifth day"
+title: "The crossing"
+bbox: [4.72001, 43.9912, 4.85249, 44.1278]
+zones: []
+routes: []
+markers: [rhone-crossing-hannibal, rhone-crossing-cavalry, rhone-crossing-hanno, rhone-crossing-camp, rhone-crossing-gauls]
+sources: ['Polybius, Histories, book 3, 43.', 'Livy, History of Rome, book 21, 27 to 28.']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[4.79875, 43.95049], [4.7925, 44.00477], [4.785, 44.05], [4.76875, 44.08619], [4.74875, 44.12237], [4.73751, 44.14951]], width: 500, id: rhone, name: The Rhône}
+  units:
+    - {side: carthage, type: camp, at: [4.74375, 44.04729], width: 1200, depth: 900, facing: 0, id: camp, name: Hannibal’s camp on the west bank}
+    - {side: carthage, type: infantry, at: [4.76125, 44.04729], width: 3000, depth: 400, facing: 90, id: infantry, name: 'Carthaginian infantry, about 38,000, waiting to cross'}
+    - {side: carthage, type: cavalry, at: [4.7575, 44.07081], width: 800, depth: 250, facing: 90, id: cavalry, name: 'Carthaginian cavalry, about 8,000'}
+    - {side: carthage, type: ships, at: [4.779, 44.06357], width: 1600, depth: 450, facing: 90, count: 6, id: cavalry-boats, name: 'Large boats upstream, horses swimming behind'}
+    - {side: carthage, type: ships, at: [4.78575, 44.04367], width: 2600, depth: 900, facing: 90, count: 12, rows: 2, id: boats, name: Canoes and boats carrying the infantry}
+    - {side: gauls, type: infantry, at: [4.79812, 44.05], width: 3200, depth: 400, facing: 270, id: volcae, name: The Volcae at the river bank}
+    - {side: gauls, type: camp, at: [4.825, 44.04729], width: 900, depth: 700, facing: 0, id: volcae-camp, name: 'Camp of the Volcae, set on fire'}
+    - {side: carthage, type: infantry, at: [4.83124, 44.05814], width: 600, depth: 250, facing: 270, id: hanno, name: Hanno’s detachment}
+  arrows:
+    - {side: carthage, path: [[4.82874, 44.05633], [4.80275, 44.05362]], width: 150, id: hanno-attack, name: Hanno attacks the Volcae from behind}
+    - {side: carthage, path: [[4.83374, 44.05995], [4.82874, 44.05271]], width: 110, id: camp-fire, name: Hanno’s men set fire to the Gallic camp}
+    - {side: gauls, path: [[4.80125, 44.04095], [4.815, 44.02648], [4.83749, 44.0111]], width: 130, style: dashed, id: volcae-flight, name: The Volcae scatter}
+  clashes:
+    - [4.7935, 44.05995]
+    - {at: [4.80162, 44.05362], size: 180}
+images:
+  rhone-rijksmuseum:
+    file: rhone-rijksmuseum.jpg
+    caption: "Hannibal’s army and elephants crossing the Rhône on boats and rafts, Italian etching of about 1565 to 1630, Rijksmuseum"
+    credit: "Wikimedia Commons, Rijksmuseum, CC0 (De olifanten van Hannibal steken de rivier de Rhône over, RP-P-OB-37.731.jpg)"

@@ -1,0 +1,33 @@
+date: "Spring 255 BC"
+title: "Elephants and cavalry"
+bbox: [10.00301, 36.82761, 10.06334, 36.87623]
+zones: []
+routes: []
+markers: [regulus-elephants-left, regulus-elephants-elephants, regulus-elephants-horse]
+sources: ['Polybius, Histories, book 1, 34.', 'John Lazenby, The First Punic War (1996).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: rome, type: camp, at: [10.04072, 36.84136], width: 450, depth: 450, facing: 315, id: roman-camp, name: Roman camp}
+    - {side: carthage, type: camp, at: [10.01809, 36.8596], width: 500, depth: 500, facing: 135, id: carthaginian-camp, name: Carthaginian camp}
+    - {side: rome, type: infantry, at: [10.03325, 36.8493], width: 900, depth: 450, facing: 315, id: legions, name: 'Roman legions, thrown into confusion by the elephants'}
+    - {side: rome, type: infantry, at: [10.0204, 36.84648], width: 330, depth: 250, facing: 315, id: roman-left, name: 'The Roman left, probably Latin allies, past the end of the elephant line'}
+    - {side: carthage, type: elephants, at: [10.03087, 36.85122], width: 1100, depth: 90, facing: 135, count: 13, id: elephants, name: The elephants charge into the legions}
+    - {side: carthage, type: infantry, at: [10.02484, 36.85416], width: 600, depth: 200, facing: 135, id: phalanx, name: Carthaginian citizen phalanx under Xanthippus}
+    - {side: carthage, type: infantry, at: [10.02929, 36.85774], width: 480, depth: 200, facing: 135, id: mercenaries, name: Veterans and mercenaries on the Carthaginian left}
+    - {side: carthage, type: cavalry, at: [10.02841, 36.83657], width: 420, depth: 200, facing: 45, id: carthaginian-cavalry, name: 'Carthaginian cavalry, turning on the Roman rear'}
+    - {side: carthage, type: cavalry, at: [10.04667, 36.85128], width: 420, depth: 200, facing: 225, id: carthaginian-cavalry, name: 'Carthaginian cavalry, turning on the Roman rear'}
+  arrows:
+    - {side: rome, path: [[10.02873, 36.84181], [10.03302, 36.83708], [10.03794, 36.83209]], width: 70, style: dashed, id: roman-horse-flees, name: The Roman horsemen are swept from the field}
+    - {side: rome, path: [[10.04016, 36.85102], [10.04603, 36.84757], [10.05223, 36.8436]], width: 70, style: dashed, id: roman-horse-flees, name: The Roman horsemen are swept from the field}
+    - {side: carthage, path: [[10.01952, 36.85128], [10.01785, 36.85365], [10.01666, 36.85589]], width: 80, style: dashed, id: right-breaks, name: The mercenaries of the Carthaginian right break and flee to their camp}
+    - {side: rome, path: [[10.0192, 36.84744], [10.0173, 36.85128], [10.01611, 36.85454]], width: 80, id: roman-left-pursues, name: The Roman left pursues them to the camp}
+    - {side: carthage, path: [[10.02944, 36.83829], [10.03016, 36.8422], [10.03087, 36.84456]], width: 80, id: cavalry-returns, name: Carthaginian cavalry return to attack the Roman flank}
+  clashes:
+    - [10.03357, 36.85288]
+    - [10.02881, 36.84904]
+images:
+  regulus-elephant-statuette:
+    file: regulus-elephant-statuette.jpg
+    caption: "Terracotta statuette of a war elephant with a tower, found at Pompeii"
+    credit: "Wikimedia Commons, Jona Lendering, Public domain (Pompeii, Statuette of a war elephant.jpg)"

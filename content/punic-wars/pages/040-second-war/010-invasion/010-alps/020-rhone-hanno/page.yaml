@@ -1,0 +1,29 @@
+date: "Late September 218 BC"
+title: "Hanno goes upstream"
+bbox: [4.72001, 43.9912, 4.85249, 44.1278]
+zones: []
+routes: []
+markers: [rhone-hanno-hannibal, rhone-hanno-boats, rhone-hanno-hanno, rhone-hanno-volcae, rhone-hanno-signal]
+sources: ['Polybius, Histories, book 3, 42.', 'Livy, History of Rome, book 21, 26 to 27.', 'John Lazenby, Hannibal’s War (1978).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[4.79875, 43.95049], [4.7925, 44.00477], [4.785, 44.05], [4.76875, 44.08619], [4.74875, 44.12237], [4.73751, 44.14951]], width: 500, id: rhone, name: The Rhône}
+  units:
+    - {side: carthage, type: camp, at: [4.74375, 44.04729], width: 1200, depth: 900, facing: 0, id: camp, name: Hannibal’s camp on the west bank}
+    - {side: carthage, type: infantry, at: [4.76125, 44.04729], width: 3000, depth: 400, facing: 90, id: infantry, name: 'Carthaginian infantry, about 38,000, waiting to cross'}
+    - {side: carthage, type: cavalry, at: [4.7575, 44.07081], width: 800, depth: 250, facing: 90, id: cavalry, name: 'Carthaginian cavalry, about 8,000'}
+    - {side: carthage, type: elephants, at: [4.7525, 44.02829], width: 700, depth: 140, facing: 90, id: elephants, name: The 37 elephants}
+    - {side: carthage, type: ships, at: [4.77375, 44.05], width: 3000, depth: 360, facing: 90, count: 12, rows: 2, id: boats, name: Boats and rafts bought and built for the crossing}
+    - {side: gauls, type: infantry, at: [4.79875, 44.05], width: 3500, depth: 400, facing: 270, id: volcae, name: 'The Volcae, lining the east bank'}
+    - {side: gauls, type: cavalry, at: [4.80125, 44.07352], width: 700, depth: 220, facing: 270, id: volcae-cavalry, name: Gallic horsemen of the Volcae}
+    - {side: gauls, type: camp, at: [4.825, 44.04729], width: 900, depth: 700, facing: 0, id: volcae-camp, name: Camp of the Volcae}
+    - {side: carthage, type: infantry, at: [4.84249, 44.05724], width: 600, depth: 250, facing: 270, id: hanno, name: 'Hanno’s detachment, in position at dawn'}
+  arrows:
+    - {side: carthage, path: [[4.7475, 44.07081], [4.74126, 44.09523], [4.73001, 44.1278]], width: 140, id: hanno-march, name: 'Hanno’s night march: upstream, across, and back down the east bank'}
+    - {side: carthage, path: [[4.76375, 44.1278], [4.805, 44.10609], [4.83249, 44.07895], [4.84124, 44.06086]], width: 140, id: hanno-march, name: 'Hanno’s night march: upstream, across, and back down the east bank'}
+images:
+  rhone-osuna-warrior:
+    file: rhone-osuna-warrior.jpg
+    caption: "An Iberian warrior with a falcata and an oval shield, relief from Osuna, 2nd or 1st century BC, National Archaeological Museum of Spain"
+    credit: "Wikimedia Commons, unknown sculptor, Public domain (Relieve de Osuna (M.A.N. Madrid) 03.jpg)"

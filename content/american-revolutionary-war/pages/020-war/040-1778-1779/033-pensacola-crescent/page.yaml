@@ -1,0 +1,32 @@
+date: "8 to 10 May 1781"
+title: "Pensacola: the Crescent explodes"
+bbox: [-87.25088, 30.41337, -87.20712, 30.44955]
+zones: []
+routes: []
+markers: [pensacola-crescent-magazine, pensacola-crescent-campbell, pensacola-crescent-ezpeleta]
+sources: ['John W. Caughey, Bernardo de Gálvez in Louisiana, 1776–1783 (1998).', 'Bernardo de Gálvez, Diario de las operaciones de la expedición contra la plaza de Panzacola (1781).']
+emblem:
+  kind: battle-plan
+  works:
+    - {side: spanish, path: [[-87.24254, 30.44005], [-87.23838, 30.43689], [-87.23577, 30.43553], [-87.23317, 30.43327], [-87.23056, 30.43191]], width: 50, id: approach, name: The Spanish approach trenches and covered road}
+    - {side: spanish, path: [[-87.23265, 30.4301], [-87.23004, 30.43282]], width: 70, id: batteries, name: Spanish batteries facing the Crescent}
+    - {side: spanish, path: [[-87.22483, 30.42766], [-87.22275, 30.42748]], width: 60, id: guns-in-crescent, name: Spanish guns and howitzers hauled into the Crescent}
+  units:
+    - {side: held, type: camp, at: [-87.2165, 30.4197], width: 260, depth: 220, facing: 0, id: fort-george, name: 'Fort George, an earthwork with a palisade'}
+    - {side: held, type: camp, at: [-87.21713, 30.4235], width: 150, depth: 150, facing: 0, id: prince-of-wales, name: The Prince of Wales Redoubt}
+    - {side: spanish, type: camp, at: [-87.22379, 30.42829], width: 190, depth: 190, facing: 0, id: crescent, name: 'The wrecked Crescent, in Spanish hands from 8 May'}
+    - {side: held, type: infantry, at: [-87.21442, 30.42133], width: 320, depth: 110, facing: 315, id: garrison, name: 'Campbell’s garrison: regulars, Waldeck troops and Loyalists'}
+    - {side: spanish, type: camp, at: [-87.24567, 30.43191], width: 600, depth: 420, facing: 0, id: spanish-camp, name: The Spanish camp}
+    - {side: spanish, type: light, at: [-87.22848, 30.43083], width: 400, depth: 60, facing: 135, id: light-infantry, name: Ezpeleta’s light infantry}
+  arrows:
+    - {side: spanish, path: [[-87.229, 30.43101], [-87.22483, 30.42884]], width: 70, id: storm-crescent, name: Ezpeleta leads the light infantry into the wrecked Crescent}
+    - {side: spanish, path: [[-87.22296, 30.42766], [-87.21817, 30.42395]], width: 60, id: fire-on-forts, name: The guns in the Crescent fire on the Prince of Wales Redoubt and Fort George}
+    - {side: spanish, path: [[-87.22275, 30.4273], [-87.21775, 30.4207]], width: 60, id: fire-on-forts, name: The guns in the Crescent fire on the Prince of Wales Redoubt and Fort George}
+    - {side: held, path: [[-87.21681, 30.42024], [-87.22119, 30.42621]], width: 50, id: fort-george-replies, name: Fort George’s guns reply and are overwhelmed}
+  clashes:
+    - {at: [-87.22379, 30.42829], size: 260}
+images:
+  pensacola-explosion-ponce:
+    file: pensacola-explosion-ponce.jpg
+    caption: "The explosion of the British magazine during the siege of Pensacola, wash drawing by Nicolas Ponce, 1784"
+    credit: "Wikimedia Commons, Nicolas Ponce, Public domain (Prise de Pensacola.jpg)"

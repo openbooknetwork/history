@@ -1,0 +1,3 @@
+Benjamin Lincoln tüccarların parasıyla toplanan 3.000 milisle Worcester’dan batıya yürür. Shays’in ve Day’in adamları Amherst’te yeniden toplanır, sonra ondan uzaklaşmak için kuzeye ve doğuya yönelir, yol boyunca tüccarlardan erzak alır, bazılarını rehin tutar ve Petersham’da kamp kurar.
+
+Lincoln 2 Şubat’ta Petersham’a yaklaşık 32 km uzaklıktaki Pelham’a varır. 3 Şubat gecesi ordusunu sert bir kar fırtınası içinde yürütür ve sabah erkenden Petersham’a ulaşır. İsyancılar ileri karakollarını bile toplayamadan dağılır. Lincoln 150 esir aldığını bildirir, tarihçi Leonard Richards bu sayıdan kuşku duyar. Önderlerin çoğu New Hampshire’a ve Vermont’a kaçar.

@@ -1,4 +1,4 @@
-Şam’da süvari birliğiyle Havran’daki Dürzi ayaklanmalarına karşı görev yapar ve taşranın nasıl yönetildiğini görür. 1906’da Vatan ve Hürriyet adlı küçük bir gizli cemiyet kurar, bir şubesini açmak için gizlice Selanik’e gider. 1907’de Makedonya’ya atanır ve İttihat ve Terakki Cemiyeti’ne katılır.
+Şam’da Havran’daki bir süvari alayında görev yapar. 1906’da birkaç subay arkadaşıyla Vatan adlı gizli bir cemiyet kurar. Gizlice Selanik’e gider ve orada Vatan ve Hürriyet adıyla bir şube açar. 1907’de Makedonya’ya atanır ve İttihat ve Terakki Cemiyeti’ne katılır.
 
 @image damascus-1906
 

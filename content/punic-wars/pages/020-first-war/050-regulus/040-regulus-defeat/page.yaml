@@ -1,0 +1,33 @@
+date: "Spring 255 BC"
+title: "The Roman army destroyed"
+bbox: [10.00301, 36.82761, 10.06334, 36.87623]
+zones: []
+routes: []
+markers: [regulus-defeat-xanthippus, regulus-defeat-romans, regulus-defeat-regulus, regulus-defeat-escape]
+sources: ['Polybius, Histories, book 1, 34.', 'John Lazenby, The First Punic War (1996).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: rome, type: camp, at: [10.04072, 36.84136], width: 450, depth: 450, facing: 315, id: roman-camp, name: Roman camp}
+    - {side: carthage, type: camp, at: [10.01809, 36.8596], width: 500, depth: 500, facing: 135, id: carthaginian-camp, name: Carthaginian camp}
+    - {side: rome, type: infantry, at: [10.03206, 36.84834], width: 800, depth: 500, facing: 315, id: legions, name: 'Roman infantry, packed together and surrounded'}
+    - {side: carthage, type: elephants, at: [10.03087, 36.8493], width: 600, depth: 90, facing: 135, count: 7, id: elephants, name: The elephants trample through the Roman ranks}
+    - {side: carthage, type: infantry, at: [10.02762, 36.85192], width: 1100, depth: 200, facing: 135, id: phalanx, name: 'The Carthaginian phalanx, sent forward by Xanthippus'}
+    - {side: carthage, type: cavalry, at: [10.02722, 36.84354], width: 320, depth: 200, facing: 45, id: carthaginian-cavalry, name: Carthaginian cavalry on the Roman flanks and rear}
+    - {side: carthage, type: cavalry, at: [10.03802, 36.85224], width: 320, depth: 200, facing: 225, id: carthaginian-cavalry, name: Carthaginian cavalry on the Roman flanks and rear}
+    - {side: carthage, type: cavalry, at: [10.03691, 36.84443], width: 600, depth: 150, facing: 315, id: carthaginian-cavalry, name: Carthaginian cavalry on the Roman flanks and rear}
+  arrows:
+    - {side: carthage, path: [[10.02897, 36.85467], [10.03206, 36.85217]], width: 80, id: phalanx-advance, name: The phalanx attacks}
+    - {side: carthage, path: [[10.02421, 36.85083], [10.0273, 36.84834]], width: 80, id: phalanx-advance, name: The phalanx attacks}
+    - {side: rome, path: [[10.03651, 36.84859], [10.04627, 36.84712], [10.05461, 36.84616]], width: 70, style: dashed, id: regulus-breakout, name: Regulus fights his way out and is caught with 500 men}
+    - {side: rome, path: [[10.01571, 36.85704], [10.02167, 36.86695], [10.03635, 36.87175]], width: 70, style: dashed, id: escape, name: 'The 2,000 men of the Roman left escape towards Aspis'}
+  clashes:
+    - [10.02968, 36.85026]
+    - [10.02865, 36.84507]
+    - [10.03611, 36.85109]
+    - [10.03445, 36.84642]
+images:
+  regulus-ahenobarbus:
+    file: regulus-ahenobarbus.jpg
+    caption: "Two Roman soldiers of the Republic with mail shirts and oval shields, from the altar of Domitius Ahenobarbus, late 2nd century BC, Louvre"
+    credit: "Wikimedia Commons, unknown sculptor, Public domain (Altar Domitius Ahenobarbus Louvre n3 (cropped).jpg)"

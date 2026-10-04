@@ -1,0 +1,33 @@
+date: "256 BC"
+title: "The wedge and the line"
+bbox: [13.80999, 37.00021, 13.99175, 37.13008]
+zones: []
+routes: []
+markers: [ecnomus-approach-consuls, ecnomus-approach-transports, ecnomus-approach-left, ecnomus-approach-hamilcar, ecnomus-approach-hanno]
+sources: ['Polybius, Histories, book 1, 26 to 27.', 'John Lazenby, The First Punic War (1996).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: rome, type: ships, at: [13.9077, 37.067], width: 220, depth: 400, facing: 290, count: 2, rows: 1, id: sixes, name: The consuls’ two sixes at the point of the wedge}
+    - {side: rome, type: ships, at: [13.91207, 37.06794], width: 320, depth: 400, facing: 290, count: 2, rows: 1, id: first-squadron, name: 'First Roman squadron under Vulso, in echelon'}
+    - {side: rome, type: ships, at: [13.91645, 37.06887], width: 320, depth: 400, facing: 290, count: 2, rows: 1, id: first-squadron, name: 'First Roman squadron under Vulso, in echelon'}
+    - {side: rome, type: ships, at: [13.92083, 37.0698], width: 320, depth: 400, facing: 290, count: 2, rows: 1, id: first-squadron, name: 'First Roman squadron under Vulso, in echelon'}
+    - {side: rome, type: ships, at: [13.9252, 37.07074], width: 320, depth: 400, facing: 290, count: 2, rows: 1, id: first-squadron, name: 'First Roman squadron under Vulso, in echelon'}
+    - {side: rome, type: ships, at: [13.92958, 37.07167], width: 320, depth: 400, facing: 290, count: 2, rows: 1, id: first-squadron, name: 'First Roman squadron under Vulso, in echelon'}
+    - {side: rome, type: ships, at: [13.93395, 37.07261], width: 320, depth: 400, facing: 290, count: 2, rows: 1, id: first-squadron, name: 'First Roman squadron under Vulso, in echelon'}
+    - {side: rome, type: ships, at: [13.9103, 37.06403], width: 320, depth: 400, facing: 290, count: 2, rows: 1, id: second-squadron, name: 'Second Roman squadron under Regulus, in echelon'}
+    - {side: rome, type: ships, at: [13.91291, 37.06105], width: 320, depth: 400, facing: 290, count: 2, rows: 1, id: second-squadron, name: 'Second Roman squadron under Regulus, in echelon'}
+    - {side: rome, type: ships, at: [13.91551, 37.05807], width: 320, depth: 400, facing: 290, count: 2, rows: 1, id: second-squadron, name: 'Second Roman squadron under Regulus, in echelon'}
+    - {side: rome, type: ships, at: [13.91812, 37.0551], width: 320, depth: 400, facing: 290, count: 2, rows: 1, id: second-squadron, name: 'Second Roman squadron under Regulus, in echelon'}
+    - {side: rome, type: ships, at: [13.92072, 37.05212], width: 320, depth: 400, facing: 290, count: 2, rows: 1, id: second-squadron, name: 'Second Roman squadron under Regulus, in echelon'}
+    - {side: rome, type: ships, at: [13.92333, 37.04914], width: 320, depth: 400, facing: 290, count: 2, rows: 1, id: second-squadron, name: 'Second Roman squadron under Regulus, in echelon'}
+    - {side: rome, type: ships, at: [13.9426, 37.05679], width: 2600, depth: 450, facing: 290, count: 12, rows: 1, id: third-squadron, name: 'Third Roman squadron, towing the horse transports'}
+    - {side: neutral, type: ships, at: [13.95053, 37.05447], width: 2600, depth: 600, facing: 290, count: 14, rows: 2, id: transports, name: Transports carrying the horses}
+    - {side: rome, type: ships, at: [13.96005, 37.05169], width: 3000, depth: 450, facing: 290, count: 14, rows: 1, id: fourth-squadron, name: 'Fourth Roman squadron in line abreast, guarding the rear'}
+    - {side: carthage, type: ships, at: [13.89838, 37.08609], width: 3000, depth: 450, facing: 110, count: 12, rows: 1, id: carthaginian-left, name: 'Carthaginian left, the landward wing, advanced'}
+    - {side: carthage, type: ships, at: [13.8625, 37.06771], width: 3000, depth: 450, facing: 110, count: 12, rows: 1, id: carthaginian-centre, name: Carthaginian centre under Hamilcar}
+    - {side: carthage, type: ships, at: [13.8498, 37.03966], width: 3400, depth: 450, facing: 110, count: 14, rows: 1, id: hanno, name: 'Carthaginian right under Hanno, the fastest ships'}
+  arrows:
+    - {side: rome, path: [[13.90453, 37.06793], [13.89183, 37.07164]], width: 140, id: wedge-advance, name: The Roman wedge drives at the Carthaginian centre}
+    - {side: carthage, path: [[13.86673, 37.06647], [13.87731, 37.06338]], width: 140, id: carthaginian-advance, name: The Carthaginian line advances}
+images: {}

@@ -1,0 +1,32 @@
+when: {from: '1776-06-28'}
+date: "28 June 1776, morning"
+title: "Sullivan’s Island: the fleet against the fort"
+bbox: [-79.9, 32.734, -79.795, 32.79]
+zones: []
+routes: []
+markers: [declaration-fort-sullivan-moultrie, declaration-fort-sullivan-parker, declaration-fort-sullivan-clinton, declaration-fort-sullivan-lee, declaration-fort-sullivan-charleston]
+sources: ['David Lee Russell, Victory on Sullivan’s Island (2002).', 'Christopher Ward, The War of the Revolution (1952).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-79.816, 32.765], [-79.8115, 32.771], [-79.8065, 32.779]], width: 260, id: breach-inlet, name: 'Breach Inlet, deeper than the British expected'}
+  works:
+    - {side: usa, path: [[-79.85330118783448, 32.76212151257463], [-79.85169881216554, 32.76212151257463], [-79.85169881216554, 32.76347848742537], [-79.85330118783448, 32.76347848742537], [-79.85330118783448, 32.76212151257463]], width: 20, id: fort-sullivan, name: 'Fort Sullivan, palmetto logs filled with sand, 31 guns'}
+    - {side: usa, path: [[-79.8185, 32.768], [-79.8165, 32.7735]], width: 60, id: thomson-works, name: Thomson’s entrenchment at the north end of the island}
+  units:
+    - {side: usa, type: infantry, at: [-79.8525, 32.7628], width: 190, depth: 150, facing: 180, id: moultrie, name: Moultrie’s 435 men of the 2nd South Carolina and the 4th South Carolina Artillery}
+    - {side: held, type: ships, at: [-79.853, 32.7578], width: 280, depth: 1400, rows: 4, count: 4, facing: 90, id: parker-line, name: 'Bristol, Experiment, Active and Solebay, anchored about 400 yards off the fort'}
+    - {side: held, type: ships, at: [-79.846, 32.742], width: 240, depth: 600, rows: 2, count: 2, facing: 90, id: thunder, name: 'The bomb vessel Thunder and Friendship, about a mile and a half off'}
+    - {side: usa, type: infantry, at: [-79.8205, 32.7712], width: 500, depth: 160, facing: 45, id: thomson, name: 'Colonel William Thomson’s riflemen and guns, more than 750 men'}
+    - {side: held, type: infantry, at: [-79.801, 32.78], width: 700, depth: 200, facing: 225, id: clinton, name: 'Clinton’s 2,200 troops on Long Island'}
+  arrows:
+    - {side: held, path: [[-79.805, 32.776], [-79.81, 32.7735], [-79.814, 32.7718]], width: 110, id: clinton-boats, name: Clinton’s boats try to cross the inlet}
+    - {side: held, path: [[-79.815, 32.769], [-79.8095, 32.77], [-79.8045, 32.7735]], width: 90, style: dashed, id: clinton-back, name: Driven back by grapeshot and rifle fire}
+  clashes:
+    - {at: [-79.853, 32.7605], size: 160}
+    - {at: [-79.816, 32.7712], size: 140}
+images:
+  charleston-bar-plan-1776:
+    file: charleston-bar-plan-1776.jpg
+    caption: "Plan of Charleston bar and harbour with the attack on Fort Sullivan on 28 June 1776, published by Sayer and Bennett, London, 1776"
+    credit: "Wikimedia Commons, Robert Sayer and John Bennett, Public domain (An exact plan of Charles Town bar and harbour. From an actual survey. With the attack of Fort Sullivan, on the 28th of June 1776, by His Majesty's squadron commanded by Sir Peter Parker. RMG F0218.tiff)"

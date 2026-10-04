@@ -1,0 +1,3 @@
+Yazılı emir almayan Yunan 1. Tümen Komutanı Tümgeneral Frangu, 27’yi 28 Ağustos’a bağlayan gece kendi tümenini ve 7. Tümen’i batıya, Dumlupınar’a doğru götürür. General Trikupis ise I. ve II. Kolordu’nun büyük bölümünü gece boyunca yerinde tutar ve ancak 28 Ağustos saat 5.00’te batıya yola çıkar. İki Yunan grubu arasında bir boşluk açılır.
+
+Türk Birinci Ordusu ve süvari onları izler. Yunan 4. Tümeni’nin açıkta kalan kolu saat 7.00’de baskına uğrar ve dağılır, o ana dek savaşa girmemiş Yunan 9. Tümeni ise batıya giden yolunu kesmeye çalışan Türk 2. Süvari Tümeni’ne ağır kayıplar verdirir. Trikupis grubu geceyi Olucak çevresinde geçirir, Frangu grubu da 29 Ağustos saat 5.00’e kadar Dumlupınar’daki mevzilere ulaşır.

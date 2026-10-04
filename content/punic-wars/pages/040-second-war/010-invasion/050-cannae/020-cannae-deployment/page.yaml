@@ -1,0 +1,27 @@
+date: "2 August 216 BC, morning"
+title: "The armies deploy"
+bbox: [16.07961, 41.28177, 16.15049, 41.33937]
+zones: []
+routes: []
+markers: [cannae-deploy-paullus, cannae-deploy-servilius, cannae-deploy-varro, cannae-deploy-hasdrubal, cannae-deploy-hannibal, cannae-deploy-hanno]
+sources: ['Polybius, Histories, book 3, 113 to 114.', 'Livy, History of Rome, book 22, 46.', 'Adrian Goldsworthy, Cannae (2001).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[16.10584, 41.27469], [16.11667, 41.28402], [16.1275, 41.29335], [16.13642, 41.29975], [16.14602, 41.30708], [16.16028, 41.31915]], width: 70, id: aufidus, name: The river Aufidus}
+  units:
+    - {side: rome, type: cavalry, at: [16.12537, 41.29524], width: 500, depth: 220, facing: 60, id: roman-cavalry, name: 'Roman cavalry under Paullus, 2,400'}
+    - {side: rome, type: infantry, at: [16.11485, 41.30631], width: 2100, depth: 500, facing: 60, id: roman-infantry, name: Legions and allied infantry under Servilius Geminus}
+    - {side: rome, type: light, at: [16.11868, 41.30798], width: 2000, depth: 70, facing: 60, id: velites, name: 'Roman light infantry, the velites'}
+    - {side: rome, type: cavalry, at: [16.10713, 41.3186], width: 800, depth: 240, facing: 60, id: allied-cavalry, name: 'Allied cavalry under Varro, 4,800'}
+    - {side: carthage, type: cavalry, at: [16.13698, 41.30354], width: 480, depth: 260, facing: 240, id: hasdrubal, name: 'Iberian and Gallic cavalry under Hasdrubal, 6,000 to 7,000'}
+    - {side: carthage, type: infantry, at: [16.13537, 41.30765], width: 420, depth: 320, facing: 240, id: libyans, name: Libyan infantry with captured Roman arms}
+    - {side: carthage, type: infantry, at: [16.12845, 41.31382], width: 1300, depth: 220, facing: 240, id: centre, name: Gauls and Iberians under Hannibal and Mago, bow: 280}
+    - {side: carthage, type: infantry, at: [16.12485, 41.32143], width: 420, depth: 320, facing: 240, id: libyans, name: Libyan infantry with captured Roman arms}
+    - {side: carthage, type: cavalry, at: [16.12, 41.32579], width: 800, depth: 260, facing: 240, id: numidians, name: 'Numidian cavalry under Hanno, 3,000 to 4,000'}
+    - {side: carthage, type: light, at: [16.12462, 41.31214], width: 2600, depth: 70, facing: 240, id: skirmishers, name: Balearic slingers and javelinmen}
+images:
+  cannae-ruins:
+    file: cannae-ruins.jpg
+    caption: "Ruins on the citadel hill of Canne della Battaglia, the site of ancient Cannae"
+    credit: "Wikimedia Commons, Roberto Ragno, CC BY-SA 3.0 (Canne della Battaglia.jpg)"

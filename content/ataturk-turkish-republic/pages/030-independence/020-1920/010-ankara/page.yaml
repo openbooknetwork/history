@@ -1,10 +1,10 @@
-when: { from: 1919-12-27, to: 1920-07-08 }
-date: "27 December 1919 to 8 July 1920"
-title: "Ankara, the Assembly, and the Greek advance"
+when: { from: 1919-12-27, to: 1920-04-23 }
+date: "27 December 1919 to 23 April 1920"
+title: "Ankara and the Grand National Assembly"
 bbox: [25.5, 36.0, 40.5, 42.2]
-zones: [british, greek1920, italian, french]
-routes: [kemal-1919, sivas-ankara]
-markers: [istanbul-1920, ankara, bursa]
+zones: [british, greek1919, italian, french]
+routes: [kemal-1919, kemal-1919-back, sivas-ankara]
+markers: [istanbul-1920, ankara]
 sources:
   - "Andrew Mango, Atatürk (1999), ch. 13 and 14."
   - "Michael Llewellyn-Smith, Ionian Vision: Greece in Asia Minor 1919 to 1922 (1973)."
@@ -13,12 +13,8 @@ images:
   ankara-1920:
     file: ankara-1920.jpg
     caption: "Prayers in front of the Assembly building on its opening day, Ankara, 23 April 1920"
-    credit: "Wikimedia Commons, Unknown authorUnknown author, Public domain (Prayers in the front of BMM large.jpg)"
+    credit: "Wikimedia Commons, Unknown author, Public domain (Prayers in the front of BMM large.jpg)"
   istanbul-occupation-1920:
     file: istanbul-occupation-1920.jpg
     caption: "British occupation troops marching in Beyoğlu, İstanbul"
     credit: "Wikimedia Commons, NA, Public domain (British occupation troops marching in Beyoglu.jpg)"
-  ankara-1920-july:
-    file: ankara-1920-july.jpg
-    caption: "Mustafa Kemal in Ankara, July 1920"
-    credit: "Wikimedia Commons, Unknown authorUnknown author, Public domain (Mustafa Kemal Ankara’da, Temmuz 1920.png)"

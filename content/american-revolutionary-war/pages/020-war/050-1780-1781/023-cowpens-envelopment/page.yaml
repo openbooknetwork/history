@@ -1,0 +1,33 @@
+when: '1781-01-17'
+date: "17 January 1781, about 8 am"
+title: "Cowpens: the double envelopment"
+bbox: [-81.82532, 35.12433, -81.80085, 35.14448]
+zones: []
+routes: []
+markers: [cowpens-envelopment-howard, cowpens-envelopment-washington, cowpens-envelopment-pickens, cowpens-envelopment-71st, cowpens-envelopment-tarleton]
+sources: ['Lawrence E. Babits, A Devil of a Whipping (1998).', 'John Buchanan, The Road to Guilford Courthouse (1997).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: usa, type: infantry, at: [-81.81476, 35.13629], width: 260, depth: 80, facing: 135, id: continentals, name: 'Howard’s Continentals, charging with the bayonet'}
+    - {side: usa, type: infantry, at: [-81.81748, 35.13507], width: 160, depth: 70, facing: 165, id: virginia-militia, name: 'Virginia militia, turned about'}
+    - {side: usa, type: cavalry, at: [-81.81056, 35.13616], width: 130, depth: 80, facing: 245, id: washington, name: William Washington’s dragoons in the British rear}
+    - {side: usa, type: infantry, at: [-81.8181, 35.13085], width: 200, depth: 70, facing: 55, id: pickens, name: 'Pickens’s militia, back from behind the hill'}
+    - {side: held, type: infantry, at: [-81.81383, 35.13501], width: 400, depth: 80, facing: 315, id: british-line, name: 'British infantry, collapsing and surrendering'}
+    - {side: held, type: infantry, at: [-81.81662, 35.13194], width: 150, depth: 80, facing: 345, id: 71st, name: '71st Highlanders, surrounded'}
+    - {side: held, type: cavalry, at: [-81.808, 35.13213], width: 160, depth: 80, facing: 315, id: legion-cavalry, name: 'British Legion cavalry, 200, kept for the pursuit'}
+  arrows:
+    - {side: usa, path: [[-81.81569, 35.13731], [-81.81414, 35.1359]], width: 45, id: bayonet-charge, name: Howard’s Continentals charge with the bayonet and take the guns}
+    - {side: usa, path: [[-81.81383, 35.14013], [-81.81033, 35.13827], [-81.81049, 35.13648]], width: 40, id: washington-envelops, name: Washington’s dragoons strike the British right and rear}
+    - {side: usa, path: [[-81.816, 35.14013], [-81.81981, 35.13802], [-81.82105, 35.13456], [-81.81856, 35.13136]], width: 40, id: pickens-circle, name: Pickens’s militia circle the hill and strike the 71st in flank and rear}
+    - {side: usa, path: [[-81.81709, 35.13501], [-81.81662, 35.13296]], width: 35, id: virginians-turn, name: The Virginia militia turn on the Highlanders}
+    - {side: held, path: [[-81.80769, 35.13187], [-81.80435, 35.1313]], width: 40, id: legion-flees, name: The Legion cavalry ride off and Tarleton escapes with about 40 horsemen, style: dashed}
+  clashes:
+    - {at: [-81.81445, 35.13565], size: 60}
+    - {at: [-81.81724, 35.13143], size: 60}
+    - {at: [-81.81142, 35.13635], size: 55}
+images:
+  cowpens-troiani:
+    file: cowpens-troiani.jpg
+    caption: "The Battle of Cowpens, painting by Don Troiani for the National Guard"
+    credit: "Wikimedia Commons, The National Guard, Public domain (The Battle of Cowpens by Don Troiani (cropped).jpg)"

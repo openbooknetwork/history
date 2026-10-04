@@ -1,0 +1,36 @@
+date: "22 or 23 December 218 BC, dawn"
+title: "The Numidian lure"
+bbox: [9.52125, 44.94096, 9.64572, 45.04228]
+zones: []
+routes: []
+markers: [trebia-lure-numidians, trebia-lure-sempronius, trebia-lure-mago, trebia-lure-hannibal]
+sources: ['Polybius, Histories, book 3, 71 to 72.', 'Livy, History of Rome, book 21, 54 to 55.']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[9.61905, 45.07846], [9.61143, 45.04228], [9.60572, 45.01514], [9.6, 44.988], [9.59809, 44.96086], [9.59682, 44.93372], [9.59682, 44.90658]], width: 110, id: trebia, name: The river Trebia}
+  units:
+    - {side: rome, type: camp, at: [9.63556, 44.97714], width: 800, depth: 800, facing: 0, id: roman-camp, name: Roman camp on the low hill east of the river}
+    - {side: carthage, type: camp, at: [9.53268, 44.98076], width: 900, depth: 900, facing: 0, id: carthage-camp, name: Carthaginian camp on high ground west of the river}
+    - {side: carthage, type: infantry, at: [9.5619, 44.988], width: 1300, depth: 250, facing: 90, id: gauls, name: 'Gauls in the centre, about 8,000'}
+    - {side: carthage, type: infantry, at: [9.5619, 44.99931], width: 1100, depth: 300, facing: 90, id: africans-iberians, name: African and Iberian infantry}
+    - {side: carthage, type: infantry, at: [9.5619, 44.97669], width: 1100, depth: 300, facing: 90, id: africans-iberians, name: African and Iberian infantry}
+    - {side: carthage, type: elephants, at: [9.56253, 45.00609], width: 350, depth: 110, facing: 90, count: 4, id: elephants, name: Elephants at both ends of the infantry}
+    - {side: carthage, type: elephants, at: [9.56253, 44.96991], width: 350, depth: 110, facing: 90, count: 4, id: elephants, name: Elephants at both ends of the infantry}
+    - {side: carthage, type: cavalry, at: [9.5619, 45.01288], width: 900, depth: 300, facing: 90, id: cavalry, name: 'Carthaginian cavalry, about 10,000 on the two wings'}
+    - {side: carthage, type: cavalry, at: [9.5619, 44.96312], width: 900, depth: 300, facing: 90, id: cavalry, name: 'Carthaginian cavalry, about 10,000 on the two wings'}
+    - {side: carthage, type: light, at: [9.56825, 44.988], width: 4600, depth: 70, facing: 90, id: skirmishers, name: Balearic slingers and spearmen}
+    - {side: carthage, type: cavalry, at: [9.57523, 44.99433], width: 900, depth: 200, facing: 90, id: numidians, name: 'Numidian cavalry, drawing the Romans on'}
+    - {side: rome, type: infantry, at: [9.58031, 44.988], width: 3800, depth: 450, facing: 270, id: roman-army, name: 'The Roman army after wading the river, wet and unfed'}
+    - {side: rome, type: cavalry, at: [9.58793, 44.98257], width: 1500, depth: 220, facing: 270, id: roman-cavalry, name: Roman cavalry}
+    - {side: carthage, type: cavalry, at: [9.58095, 44.95272], width: 500, depth: 200, facing: 0, id: mago, name: 'Mago with 2,000 men hidden in a watercourse'}
+  arrows:
+    - {side: carthage, path: [[9.62159, 44.99162], [9.59619, 44.99388], [9.57841, 44.99433]], width: 120, id: numidian-withdrawal, name: The Numidians fall back across the river}
+    - {side: rome, path: [[9.62921, 45.00157], [9.58349, 45.00157]], width: 160, id: roman-crossing, name: The Romans wade the icy river}
+    - {side: rome, path: [[9.62921, 44.988], [9.58349, 44.988]], width: 160, id: roman-crossing, name: The Romans wade the icy river}
+    - {side: rome, path: [[9.62921, 44.97443], [9.58349, 44.97443]], width: 160, id: roman-crossing, name: The Romans wade the icy river}
+images:
+  trebia-river:
+    file: trebia-river.jpg
+    caption: "The Trebbia at Rivergaro, south of the battlefield"
+    credit: "Wikimedia Commons, Dani4P, CC BY-SA 3.0 (Fiume Trebbia a Rivergaro.JPG)"

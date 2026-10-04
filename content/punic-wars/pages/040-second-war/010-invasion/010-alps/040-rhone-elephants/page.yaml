@@ -1,0 +1,29 @@
+date: "Late September 218 BC"
+title: "The elephants cross"
+bbox: [4.72001, 43.9912, 4.85249, 44.1278]
+zones: []
+routes: []
+markers: [rhone-elephants-rafts, rhone-elephants-numidians, rhone-elephants-romans, rhone-elephants-march]
+sources: ['Polybius, Histories, book 3, 44 to 47.', 'Livy, History of Rome, book 21, 28 to 32.']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[4.79875, 43.95049], [4.7925, 44.00477], [4.785, 44.05], [4.76875, 44.08619], [4.74875, 44.12237], [4.73751, 44.14951]], width: 500, id: rhone, name: The Rhône}
+  units:
+    - {side: carthage, type: camp, at: [4.81375, 44.05271], width: 1200, depth: 900, facing: 0, id: camp, name: Carthaginian camp on the east bank}
+    - {side: carthage, type: infantry, at: [4.81625, 44.07081], width: 1800, depth: 300, facing: 0, id: army, name: 'The infantry, marching north'}
+    - {side: carthage, type: cavalry, at: [4.80625, 44.02919], width: 1200, depth: 250, facing: 180, id: cavalry, name: Cavalry covering the crossing to the south}
+    - {side: carthage, type: elephants, at: [4.78575, 44.04729], width: 450, depth: 150, facing: 90, count: 4, id: elephants-rafts, name: Elephants ferried on earth-covered rafts}
+    - {side: carthage, type: elephants, at: [4.76875, 44.04729], width: 1000, depth: 150, facing: 90, count: 8, id: elephants-waiting, name: Elephants waiting on the west bank}
+  arrows:
+    - {side: carthage, path: [[4.805, 44.02557], [4.8075, 44.00929], [4.80875, 43.99753]], width: 110, id: numidian-scouts, name: 500 Numidian horsemen ride south to scout}
+    - {side: rome, path: [[4.81875, 43.9912], [4.81375, 43.99663]], width: 110, id: roman-scouts, name: '300 of Scipio’s cavalry, scouting north'}
+    - {side: rome, path: [[4.81875, 43.99934], [4.8275, 44.01834], [4.82625, 44.03914]], width: 90, style: dashed, id: roman-pursuit, name: The Roman horsemen chase the Numidians to the camp and turn back}
+    - {side: carthage, path: [[4.81375, 44.08076], [4.79625, 44.10066], [4.775, 44.1269]], width: 160, id: march-north, name: Hannibal marches north up the Rhône}
+  clashes:
+    - {at: [4.81062, 43.99572], size: 170}
+images:
+  alps-rhone-motte:
+    file: alps-rhone-motte.jpg
+    caption: "Hannibal’s elephants crossing the Rhône on rafts, painting by Henri Motte, 1878"
+    credit: "Wikimedia Commons, Henri Motte, Public domain (Hannibal's army crossing the Rhone.jpg)"

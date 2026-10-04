@@ -1,0 +1,28 @@
+when: {from: '1775-04-19'}
+date: "19 April 1775, dawn"
+title: "Lexington: the green at dawn"
+bbox: [-71.23737, 42.44277, -71.22163, 42.45411]
+zones: []
+routes: []
+markers: [lexington-green-parker, lexington-green-pitcairn, lexington-green-smith, lexington-green-buckman]
+sources: ['David Hackett Fischer, Paul Revere’s Ride (1994).', 'Allen French, The Day of Concord and Lexington (1925).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: usa, type: infantry, at: [-71.2308, 42.4494], width: 110, depth: 30, facing: 129, id: militia, name: 'Lexington training band under Captain John Parker, 77 men'}
+    - {side: held, type: infantry, at: [-71.22904, 42.44922], width: 90, depth: 30, facing: 277.8911624451589, id: advance-guard, name: 'Advance guard under Lieutenant Jesse Adair, turning onto the common'}
+    - {side: held, type: infantry, at: [-71.23008, 42.44769], width: 110, depth: 35, facing: 337.76051491994923, id: pitcairn-companies, name: Three light companies halted by Major John Pitcairn}
+    - {side: held, type: infantry, at: [-71.22622, 42.44641], width: 40, depth: 200, facing: 309, id: grenadiers, name: Grenadier companies under Lieutenant Colonel Francis Smith}
+  arrows:
+    - {side: held, path: [[-71.22728, 42.44746], [-71.22813, 42.44826], [-71.22866, 42.44892]], width: 22, id: regulars-advance, name: The advance guard turns onto the common}
+    - {side: held, path: [[-71.22747, 42.44728], [-71.22857, 42.44742], [-71.22954, 42.44754]], width: 22, id: pitcairn-left, name: Pitcairn leads three companies to the left and halts}
+    - {side: held, path: [[-71.22946, 42.44912], [-71.23038, 42.44932]], width: 18, id: bayonet-charge, name: The regulars fire and charge with the bayonet}
+    - {side: usa, path: [[-71.23123, 42.44937], [-71.23333, 42.44981]], width: 18, style: dashed, id: militia-disperse, name: The militia disperse under fire}
+    - {side: usa, path: [[-71.23081, 42.44975], [-71.23185, 42.45102]], width: 18, style: dashed, id: militia-disperse, name: The militia disperse under fire}
+  clashes:
+    - {at: [-71.23022, 42.44919], size: 40}
+images:
+  lexington-battle-green:
+    file: lexington-battle-green.jpg
+    caption: "Lexington Battle Green, where the militia stood on the morning of 19 April 1775"
+    credit: "Wikimedia Commons, John Phelan, CC BY 3.0 (Lexington Battle Green, Lexington MA.jpg)"

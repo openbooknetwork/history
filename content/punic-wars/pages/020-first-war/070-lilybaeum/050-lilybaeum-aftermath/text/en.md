@@ -1,0 +1,3 @@
+Shortly after the battle Carthalo joins Adherbal with 70 ships. Adherbal brings his squadron up to 100 and sends him to Lilybaeum, where he burns several Roman ships. Later in the year Carthalo meets a Roman supply convoy of 800 transports with 120 warships off Phintias and harries it until a storm sinks every ship but two.
+
+Pulcher is recalled to Rome and tried for treason. He is convicted of the lesser charge of sacrilege over the chickens, narrowly escapes a death sentence and goes into exile. Unchallenged at sea, Carthage lays up most of its fleet, and Rome’s next large fleet sails only in 242 BC.

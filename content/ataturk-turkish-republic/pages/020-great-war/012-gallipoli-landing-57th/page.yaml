@@ -1,0 +1,33 @@
+when: { from: 1915-04-25 }
+date: "25 April 1915, morning"
+title: "Arıburnu: the 57th Regiment"
+bbox: [26.2335, 40.215, 26.3105, 40.268]
+zones: []
+routes: []
+markers: [gallipoli-landing-57th-kemal, gallipoli-landing-57th-baby-700]
+sources:
+  - "C. E. W. Bean, The Story of Anzac, volume 1 (1921)."
+  - "Andrew Mango, Atatürk (1999)."
+emblem:
+  kind: battle-plan
+  units:
+    - {side: british, type: infantry, at: [26.279, 40.242], width: 1500, depth: 120, facing: 90, id: anzac-second-ridge, name: 'Australians on the second ridge, from Pope’s Hill to the 400 Plateau'}
+    - {side: british, type: infantry, at: [26.2833, 40.2552], width: 300, depth: 100, facing: 60, id: anzac-baby-700, name: Australians on Baby 700}
+    - {side: british, type: infantry, at: [26.278, 40.252], width: 250, depth: 90, facing: 60, id: anzac-nek, name: Australians at the Nek and Russell’s Top}
+    - {side: republic, type: infantry, at: [26.2885, 40.2535], width: 330, depth: 120, facing: 230, id: first-battalion, name: '1st Battalion, 57th Regiment: against Baby 700 and Mortar Ridge'}
+    - {side: republic, type: infantry, at: [26.2935, 40.2585], width: 330, depth: 120, facing: 270, id: second-battalion, name: '2nd Battalion, 57th Regiment: round to the west of Baby 700'}
+    - {side: republic, type: infantry, at: [26.295, 40.249], width: 300, depth: 120, facing: 260, id: third-battalion, name: '3rd Battalion, 57th Regiment, in reserve'}
+    - {side: republic, type: light, at: [26.2925, 40.2448], width: 200, depth: 50, facing: 270, id: battery, name: Mountain battery on the knoll}
+    - {side: republic, type: infantry, at: [26.2915, 40.2345], width: 900, depth: 130, facing: 270, id: twenty-seventh, name: 27th Regiment on Gun Ridge}
+  arrows:
+    - {side: republic, path: [[26.2905, 40.255], [26.2875, 40.2553], [26.2847, 40.2556]], width: 70, id: attack-baby-700, name: The 1st Battalion attacks Baby 700}
+    - {side: republic, path: [[26.29, 40.2522], [26.2883, 40.2512], [26.287, 40.2503]], width: 60, id: attack-mortar-ridge, name: And Mortar Ridge}
+    - {side: republic, path: [[26.2915, 40.26], [26.2875, 40.2615], [26.283, 40.26], [26.2825, 40.2568]], width: 70, id: round-the-west, name: The 2nd Battalion circles round to the west}
+  clashes:
+    - [26.284, 40.2557]
+    - [26.287, 40.2505]
+images:
+  ariburnu-kemal-1915:
+    file: ariburnu-kemal-1915.jpg
+    caption: "Mustafa Kemal on the Gallipoli front, 1915"
+    credit: "Wikimedia Commons, unknown author, Public domain (Mustafa Kemal in Gallipoli.jpg)"

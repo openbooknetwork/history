@@ -1,0 +1,32 @@
+date: "256 BC"
+title: "The Roman centre returns"
+bbox: [13.80999, 37.00021, 13.99175, 37.13008]
+zones: []
+routes: []
+markers: [ecnomus-victory-left, ecnomus-victory-vulso, ecnomus-victory-regulus, ecnomus-victory-hanno, ecnomus-victory-hamilcar]
+sources: ['Polybius, Histories, book 1, 28.', 'John Lazenby, The First Punic War (1996).', 'Adrian Goldsworthy, The Fall of Carthage (2006).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: carthage, type: ships, at: [13.94627, 37.08604], width: 2600, depth: 350, facing: 20, count: 11, rows: 1, id: carthaginian-left, name: Carthaginian landward squadron}
+    - {side: rome, type: ships, at: [13.94838, 37.09072], width: 2600, depth: 350, facing: 200, count: 12, rows: 1, id: third-squadron, name: 'Third Roman squadron, in shallow water facing out to sea'}
+    - {side: rome, type: ships, at: [13.94461, 37.08239], width: 2400, depth: 350, facing: 20, count: 10, rows: 1, id: vulso, name: 'Vulso’s squadron, attacking from the sea'}
+    - {side: carthage, type: ships, at: [13.95312, 37.03638], width: 2000, depth: 350, facing: 20, count: 9, rows: 1, id: hanno, name: Hanno’s seaward squadron}
+    - {side: rome, type: ships, at: [13.95147, 37.03273], width: 2000, depth: 350, facing: 20, count: 9, rows: 1, id: regulus, name: 'Regulus’s squadron, attacking Hanno from his open side'}
+    - {side: rome, type: ships, at: [13.96005, 37.05169], width: 3000, depth: 450, facing: 290, count: 14, rows: 1, id: fourth-squadron, name: 'Fourth Roman squadron, hampered by the transports'}
+    - {side: neutral, type: ships, at: [13.94914, 37.06065], width: 2600, depth: 700, facing: 290, count: 12, rows: 2, id: transports, name: 'Transports, cast off and drifting'}
+  arrows:
+    - {side: carthage, path: [[13.8476, 37.07977], [13.83693, 37.08], [13.82837, 37.07962]], width: 130, style: dashed, id: centre-flees, name: Hamilcar’s centre breaks and flees}
+    - {side: rome, path: [[13.85809, 37.0844], [13.89194, 37.08509], [13.93146, 37.08508]], width: 140, id: vulso-returns, name: Vulso rows back to the landward fight}
+    - {side: rome, path: [[13.8527, 37.0725], [13.88827, 37.05054], [13.93865, 37.03484]], width: 140, id: regulus-returns, name: Regulus rows back against Hanno}
+    - {side: rome, path: [[13.95788, 37.0297], [13.97308, 37.05269], [13.95828, 37.0782]], width: 110, id: regulus-on, name: Regulus moves on against the landward squadron}
+    - {side: carthage, path: [[13.94058, 37.03909], [13.9074, 37.02666], [13.86124, 37.03053]], width: 120, style: dashed, id: hanno-withdraws, name: Hanno withdraws with the ships that can get away}
+  clashes:
+    - [13.94542, 37.08417]
+    - [13.94746, 37.08868]
+    - [13.95228, 37.03451]
+images:
+  ecnomus-saint-aubin-detail:
+    file: ecnomus-saint-aubin-detail.jpg
+    caption: "Boarding and ramming at Ecnomus, a detail of Gabriel de Saint-Aubin’s drawing of about 1763"
+    credit: "Wikimedia Commons, Gabriel de Saint-Aubin, Public domain (The Naval Battle Near Ecnomus (256 BC) (cropped 2).jpg)"

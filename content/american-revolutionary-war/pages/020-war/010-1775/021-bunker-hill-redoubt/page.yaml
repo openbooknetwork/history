@@ -1,0 +1,36 @@
+when: {from: '1775-06-16'}
+date: "16 to 17 June 1775"
+title: "Bunker Hill: the redoubt on Breed’s Hill"
+bbox: [-71.07119, 42.36762, -71.04837, 42.38327]
+zones: []
+routes: []
+markers: [bunker-hill-redoubt-prescott, bunker-hill-redoubt-putnam, bunker-hill-redoubt-stark, bunker-hill-redoubt-howe, bunker-hill-redoubt-pigot, bunker-hill-redoubt-copps-hill]
+sources: ['Richard M. Ketchum, Decisive Day: The Battle for Bunker Hill (1999).', 'Nathaniel Philbrick, Bunker Hill (2013).']
+emblem:
+  kind: battle-plan
+  water:
+    - {area: [[-71.07431, 42.38169], [-71.06845, 42.38272], [-71.06246, 42.3814], [-71.05809, 42.37979], [-71.05385, 42.37802], [-71.05087, 42.37642], [-71.05243, 42.37333], [-71.03747, 42.36837], [-71.02896, 42.37934], [-71.03843, 42.38341], [-71.04433, 42.38124], [-71.0696, 42.39209], [-71.07684, 42.38277]], id: mystic, name: The Mystic River}
+    - {area: [[-71.0745, 42.37999], [-71.07, 42.37712], [-71.06552, 42.37384], [-71.06056, 42.37118], [-71.05629, 42.37144], [-71.05243, 42.37333], [-71.03747, 42.36837], [-71.04367, 42.36038], [-71.05501, 42.36596], [-71.05701, 42.36847], [-71.06122, 42.36708], [-71.065, 42.36396], [-71.06945, 42.36696], [-71.07364, 42.37242], [-71.07737, 42.37757], [-71.07787, 42.38144]], id: charles, name: 'The Charles River, between Charlestown and Boston'}
+  works:
+    - {side: usa, path: [[-71.0613, 42.3762], [-71.06093, 42.37667], [-71.0603, 42.3764], [-71.06067, 42.37593], [-71.0613, 42.3762]], width: 12, id: redoubt, name: 'The redoubt on Breed’s Hill, about 40 metres on a side'}
+    - {side: usa, path: [[-71.06047, 42.37651], [-71.0597, 42.37739]], width: 10, id: breastwork, name: The breastwork dug at daylight}
+    - {side: usa, path: [[-71.06144, 42.37856], [-71.05996, 42.38045]], width: 8, id: rail-fence, name: 'The rail fence, packed with hay'}
+    - {side: usa, path: [[-71.05996, 42.38045], [-71.05978, 42.38079]], width: 12, id: stone-wall, name: Stark’s stone wall down the beach to the water}
+  units:
+    - {side: usa, type: infantry, at: [-71.0608, 42.3763], width: 46, depth: 36, facing: 120, id: prescott, name: Prescott’s Massachusetts men in the redoubt}
+    - {side: usa, type: infantry, at: [-71.05982, 42.37687], width: 110, depth: 30, facing: 120, id: breastwork-men, name: Defenders of the breastwork}
+    - {side: usa, type: infantry, at: [-71.06106, 42.37944], width: 190, depth: 30, facing: 120, id: knowlton, name: Knowlton’s Connecticut men at the rail fence}
+    - {side: usa, type: infantry, at: [-71.06033, 42.38038], width: 60, depth: 30, facing: 120, id: stark, name: New Hampshire men under John Stark and James Reed}
+    - {side: usa, type: infantry, at: [-71.06549, 42.38002], width: 220, depth: 90, facing: 120, id: putnam, name: Men gathering on Bunker Hill under Israel Putnam}
+    - {side: held, type: infantry, at: [-71.05378, 42.37412], width: 300, depth: 80, facing: 300, id: howe, name: 'Howe’s grenadiers and light infantry, about 1,500, landed at Moulton’s Point'}
+    - {side: held, type: light, at: [-71.0535, 42.37703], width: 220, depth: 40, facing: 300, id: light-forward, name: Light infantry pushed forward along the Mystic side}
+    - {side: held, type: infantry, at: [-71.0588, 42.372], width: 260, depth: 60, facing: 341.0362113839836, id: pigot, name: Pigot’s regiments and marines gathering south of Charlestown}
+    - {side: held, type: ships, at: [-71.05889, 42.37026], width: 140, depth: 140, facing: 90, count: 1, id: somerset, name: 'HMS Somerset, 68 guns'}
+    - {side: held, type: ships, at: [-71.05338, 42.37102], width: 120, depth: 120, facing: 300, count: 1, id: lively, name: 'HMS Lively, which opens fire at dawn'}
+  arrows:
+    - {side: held, path: [[-71.05368, 42.36467], [-71.05249, 42.36855], [-71.05257, 42.37297]], width: 40, id: boats, name: Howe’s force crosses by boat to Moulton’s Point}
+images:
+  prescott-statue:
+    file: prescott-statue.jpg
+    caption: "Statue of Colonel William Prescott by William Wetmore Story, 1881, in Charlestown, photographed about 1900 to 1906"
+    credit: "Wikimedia Commons, Detroit Publishing Co., Public domain (Statue of william prescott in charlestown massachusetts.jpg)"

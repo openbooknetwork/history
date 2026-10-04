@@ -1,0 +1,31 @@
+date: "Spring 215 BC"
+title: "Ibera: the wings enveloped"
+bbox: [0.48642, 40.73272, 0.55402, 40.81595]
+zones: []
+routes: []
+markers: [ebro-env-hasdrubal, ebro-env-camp, ebro-env-libyans]
+sources: ['Livy, History of Rome, book 23, 29.', 'John Lazenby, Hannibal’s War (1978).', 'Nigel Bagnall, The Punic Wars (1990).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[0.49, 40.93], [0.505, 40.87], [0.52, 40.83], [0.528, 40.8], [0.545, 40.77], [0.56, 40.74], [0.578, 40.71], [0.62, 40.7]], width: 130, id: ebro, name: The river Ebro}
+  units:
+    - {side: rome, type: infantry, at: [0.50836, 40.76501], width: 600, depth: 300, facing: 180, id: allies, name: Italian allied infantry}
+    - {side: rome, type: infantry, at: [0.52852, 40.76501], width: 600, depth: 300, facing: 180, id: allies, name: Italian allied infantry}
+    - {side: rome, type: infantry, at: [0.50836, 40.7576], width: 600, depth: 260, facing: 0, id: legions, name: 'The legions, turned back from the pursuit'}
+    - {side: rome, type: infantry, at: [0.52852, 40.7576], width: 600, depth: 260, facing: 0, id: legions, name: 'The legions, turned back from the pursuit'}
+    - {side: carthage, type: infantry, at: [0.50836, 40.76131], width: 600, depth: 320, facing: 0, id: africans-poeni, name: 'Africans and Poeni, caught between two Roman lines'}
+    - {side: carthage, type: infantry, at: [0.52852, 40.76131], width: 600, depth: 320, facing: 0, id: africans-poeni, name: 'Africans and Poeni, caught between two Roman lines'}
+    - {side: carthage, type: camp, at: [0.51844, 40.73815], width: 700, depth: 700, facing: 0, id: camp, name: Carthaginian camp with its treasury}
+  arrows:
+    - {side: rome, path: [[0.51488, 40.76393], [0.5137, 40.75986], [0.51014, 40.75805]], width: 110, id: legions-wheel, name: The legions wheel onto the Africans and Poeni}
+    - {side: rome, path: [[0.522, 40.76393], [0.52319, 40.75986], [0.52674, 40.75805]], width: 110, id: legions-wheel, name: The legions wheel onto the Africans and Poeni}
+    - {side: carthage, path: [[0.49768, 40.76529], [0.49531, 40.75624], [0.49294, 40.74629]], width: 130, style: dashed, id: cavalry-flight, name: Hasdrubal’s cavalry and elephants leave the field}
+    - {side: carthage, path: [[0.53742, 40.76529], [0.53861, 40.75624], [0.54038, 40.74629]], width: 130, style: dashed, id: cavalry-flight, name: Hasdrubal’s cavalry and elephants leave the field}
+    - {side: rome, path: [[0.51844, 40.75488], [0.51844, 40.74177]], width: 110, id: camp-attack, name: The Romans take the Carthaginian camp}
+  clashes:
+    - [0.50836, 40.7633]
+    - [0.50836, 40.75932]
+    - [0.52852, 40.7633]
+    - [0.52852, 40.75932]
+images: {}

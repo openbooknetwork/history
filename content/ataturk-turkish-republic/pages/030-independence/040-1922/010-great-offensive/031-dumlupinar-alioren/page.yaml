@@ -1,0 +1,31 @@
+when: { from: 1922-08-30 }
+date: "30 August 1922"
+title: "Dumlupınar: the battle at Alıören"
+bbox: [29.88, 38.86, 30.2, 39.01]
+zones: []
+routes: []
+markers: [dumlupinar-alioren-kemal, dumlupinar-alioren-alioren, dumlupinar-alioren-calkoy]
+sources:
+  - "Michael Llewellyn-Smith, Ionian Vision: Greece in Asia Minor, 1919–1922 (1973)."
+  - "Andrew Mango, Atatürk (1999)."
+  - "Mustafa Kemal Atatürk, Nutuk (1927)."
+emblem:
+  kind: battle-plan
+  units:
+    - {side: greek, type: infantry, at: [30.035, 38.938], width: 4500, depth: 1800, facing: 270, id: trikoupis-group, name: 'Trikoupis group: 7,000 infantry fit to fight, crowded together'}
+    - {side: greek, type: light, at: [30.06, 38.925], width: 3500, depth: 400, facing: 270, id: stragglers, name: '10,000 to 15,000 disorganised men, largely unarmed'}
+    - {side: republic, type: cavalry, at: [29.982, 38.96], width: 2500, depth: 900, facing: 110, id: fourteenth-cavalry, name: 'Turkish 14th Cavalry Division, blocking the road at 13.30'}
+    - {side: republic, type: infantry, at: [30.085, 38.903], width: 5000, depth: 1300, facing: 320, id: fourth-corps, name: 'Turkish IV Corps, pressing from the east and south'}
+    - {side: republic, type: infantry, at: [30.04, 38.985], width: 5000, depth: 1300, facing: 180, id: sixth-corps, name: 'Turkish VI Corps, attacking from the north'}
+  arrows:
+    - {side: republic, path: [[30.09, 38.91], [30.07, 38.92], [30.055, 38.928]], width: 700, id: fourth-corps-attack, name: The IV Corps attacks}
+    - {side: republic, path: [[30.04, 38.975], [30.038, 38.962], [30.036, 38.95]], width: 700, id: sixth-corps-attack, name: The VI Corps attacks}
+    - {side: greek, path: [[30.015, 38.94], [29.97, 38.935], [29.92, 38.925]], width: 700, id: night-march-west, name: 'At 20.30 the survivors march west, leaving guns and wounded', style: dashed}
+  clashes:
+    - {at: [30.008, 38.944], size: 700}
+    - {at: [30.06, 38.93], size: 700}
+images:
+  dumlupinar-relief:
+    file: dumlupinar-relief.jpg
+    caption: "The Battle of Dumlupınar, relief by Zühtü Müridoğlu at Anıtkabir, Ankara"
+    credit: "Wikimedia Commons, Ail Subway, CC BY-SA 4.0 (Başkomutanlık Meydan Muharebesi Rölyefi.jpg)"

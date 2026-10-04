@@ -1,0 +1,30 @@
+when: {from: '1775-04-19'}
+date: "19 April 1775, morning"
+title: "Concord: the North Bridge"
+bbox: [-71.35835, 42.45895, -71.3441, 42.47388]
+zones: []
+routes: []
+markers: [lexington-north-bridge-buttrick, lexington-north-bridge-barrett, lexington-north-bridge-laurie, lexington-north-bridge-smith, lexington-north-bridge-town]
+sources: ['David Hackett Fischer, Paul Revere’s Ride (1994).', 'Allen French, The Day of Concord and Lexington (1925).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-71.35543, 42.4585], [-71.35384, 42.46257], [-71.3519, 42.46619], [-71.3508, 42.4689], [-71.34995, 42.47207], [-71.34861, 42.47614], [-71.34678, 42.47885]], width: 40, id: concord-river, name: 'The Concord River, in spring flood'}
+  works:
+    - {side: neutral, path: [[-71.35099, 42.46877], [-71.35061, 42.46903]], width: 14, id: north-bridge, name: The North Bridge}
+  units:
+    - {side: usa, type: infantry, at: [-71.35324, 42.4698], width: 24, depth: 230, facing: 122.94460733252947, id: militia-column, name: 'Minutemen and militia under Major John Buttrick, at least 400, the Acton company in front'}
+    - {side: usa, type: infantry, at: [-71.35567, 42.47116], width: 220, depth: 50, facing: 122.17570439549405, id: militia-hill, name: Militia still on the hill with Colonel James Barrett}
+    - {side: held, type: infantry, at: [-71.34944, 42.46881], width: 34, depth: 140, facing: 270, id: laurie, name: 'Three light companies under Captain Walter Laurie, about 95 men, formed for street firing'}
+    - {side: held, type: infantry, at: [-71.34794, 42.4642], width: 50, depth: 120, facing: 347.3091231002465, id: smith-grenadiers, name: Two grenadier companies brought up by Smith}
+  arrows:
+    - {side: usa, path: [[-71.35208, 42.46917], [-71.35131, 42.46901]], width: 20, id: militia-advance, name: The militia advance on the bridge}
+    - {side: held, path: [[-71.34843, 42.46876], [-71.34761, 42.46709], [-71.34715, 42.46501]], width: 22, style: dashed, id: light-companies-flee, name: The light companies break and run for the town}
+    - {side: held, path: [[-71.34727, 42.46121], [-71.34776, 42.46311], [-71.34867, 42.46619]], width: 22, id: smith-comes-up, name: 'Smith comes up from the town, too late'}
+  clashes:
+    - {at: [-71.35053, 42.4689], size: 45}
+images:
+  concord-north-bridge-merrill:
+    file: concord-north-bridge-merrill.jpg
+    caption: "The fight at the North Bridge, 19 April 1775, painting by Frank T. Merrill, 1909"
+    credit: "Wikimedia Commons, Frank T. Merrill, Public domain (Frank T Merrill 1909 North Bridge Concord 19 April 1775.jpg)"

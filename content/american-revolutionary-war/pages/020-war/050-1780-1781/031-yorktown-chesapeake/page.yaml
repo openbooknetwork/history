@@ -1,0 +1,28 @@
+when: '1781-09-05'
+date: "5 September 1781"
+title: "Yorktown: the battle off the Capes"
+bbox: [-75.92609, 36.89705, -75.80136, 36.97304]
+zones: []
+routes: []
+markers: [yorktown-chesapeake-degrasse, yorktown-chesapeake-bougainville, yorktown-chesapeake-graves, yorktown-chesapeake-drake, yorktown-chesapeake-hood]
+sources: ['John Grainger, The Battle of Yorktown, 1781: A Reassessment (2005).', 'Alfred Thayer Mahan, The Influence of Sea Power upon History, 1660–1783 (1890).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: '#17a2a2', type: ships, at: [-75.84496, 36.92066], width: 260, depth: 2100, facing: 80, id: french-van, name: French van under Bougainville, count: 8, rows: 8}
+    - {side: '#17a2a2', type: ships, at: [-75.86934, 36.91722], width: 260, depth: 2100, facing: 80, id: french-centre, name: French centre under de Grasse in the Ville de Paris, count: 8, rows: 8}
+    - {side: '#17a2a2', type: ships, at: [-75.89373, 36.9137], width: 260, depth: 2100, facing: 80, id: french-rear, name: 'French rear, the last ships out of the bay', count: 8, rows: 8}
+    - {side: held, type: ships, at: [-75.84339, 36.9345], width: 260, depth: 2100, facing: 110, id: british-van, name: 'British van under Drake, now leading after the fleet wears', count: 8, rows: 8}
+    - {side: held, type: ships, at: [-75.86552, 36.94102], width: 260, depth: 2100, facing: 110, id: british-centre, name: British centre under Graves in the London, count: 8, rows: 8}
+    - {side: held, type: ships, at: [-75.88777, 36.94753], width: 260, depth: 2100, facing: 110, id: british-rear, name: 'British rear under Hood, too far off to engage', count: 8, rows: 8}
+  arrows:
+    - {side: '#17a2a2', path: [[-76.06319, 36.92329], [-76.02386, 36.93776], [-75.96767, 36.92871], [-75.91486, 36.91243]], width: 220, id: french-sortie, name: The French cut their cables and sail out of Lynnhaven Bay with the noon tide}
+    - {side: held, path: [[-75.81597, 37.02551], [-75.87777, 36.98933], [-75.91486, 36.9649], [-75.90362, 36.95314]], width: 220, id: british-wear, name: 'The British come down from the north-east and wear to sail east, about 2 pm'}
+  clashes:
+    - {at: [-75.8362, 36.92736], size: 300}
+    - {at: [-75.86316, 36.92917], size: 220}
+images:
+  chesapeake-graves-plan:
+    file: chesapeake-graves-plan.jpg
+    caption: "A Representation of the Sea Fight on the 5th of September 1781 between Rear Admiral Graves and the Count de Grasse, engraving in the Political Magazine, London, 1782"
+    credit: "Wikimedia Commons, William Graves, Public domain (Virgrinia Capes 1781.jpg)"

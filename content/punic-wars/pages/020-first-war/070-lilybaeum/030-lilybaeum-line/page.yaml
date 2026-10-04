@@ -1,0 +1,27 @@
+date: "249 BC, morning"
+title: "The line against the shore"
+bbox: [12.4488, 37.93254, 12.52294, 38.02922]
+zones: []
+routes: []
+markers: [lilybaeum-line-adherbal, lilybaeum-line-pulcher, lilybaeum-line-five, lilybaeum-approach-drepana]
+sources: ['Polybius, Histories, book 1, 50 to 51.', 'John Lazenby, The First Punic War (1996).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: rome, type: ships, at: [12.49653, 37.99727], width: 1300, depth: 220, count: 9, rows: 1, facing: 286, id: roman-line, name: 'The Roman line, with the shore close behind it'}
+    - {side: rome, type: ships, at: [12.49182, 37.98423], width: 1300, depth: 220, count: 9, rows: 1, facing: 286, id: roman-line, name: 'The Roman line, with the shore close behind it'}
+    - {side: rome, type: ships, at: [12.48711, 37.97119], width: 1300, depth: 220, count: 9, rows: 1, facing: 286, id: roman-line, name: 'The Roman line, with the shore close behind it'}
+    - {side: rome, type: ships, at: [12.48397, 37.96249], width: 120, depth: 160, count: 1, rows: 1, facing: 286, id: flagship, name: Pulcher’s flagship}
+    - {side: carthage, type: ships, at: [12.48558, 37.99977], width: 1400, depth: 220, count: 9, rows: 1, facing: 106, id: carthaginian-line, name: 'Adherbal’s line, to seaward of the Romans'}
+    - {side: carthage, type: ships, at: [12.48087, 37.98672], width: 1400, depth: 220, count: 9, rows: 1, facing: 106, id: carthaginian-line, name: 'Adherbal’s line, to seaward of the Romans'}
+    - {side: carthage, type: ships, at: [12.47615, 37.97368], width: 1400, depth: 220, count: 9, rows: 1, facing: 106, id: carthaginian-line, name: 'Adherbal’s line, to seaward of the Romans'}
+    - {side: carthage, type: ships, at: [12.47613, 37.95721], width: 500, depth: 260, count: 5, rows: 1, facing: 106, id: five-ships, name: Five Carthaginian ships cutting off the way to Lilybaeum}
+  arrows:
+    - {side: carthage, path: [[12.48512, 37.99423], [12.49279, 37.99248]], width: 90, id: rams, name: Carthaginian ships ram and back water}
+    - {side: carthage, path: [[12.47946, 37.97857], [12.48713, 37.97683]], width: 90, id: rams, name: Carthaginian ships ram and back water}
+    - {side: carthage, path: [[12.4687, 37.95467], [12.47418, 37.95672]], width: 70, id: five-ships-move, name: Five ships get south of the Roman flagship}
+  clashes:
+    - [12.49417, 37.99499]
+    - [12.48851, 37.97934]
+    - [12.48411, 37.96716]
+images: {}

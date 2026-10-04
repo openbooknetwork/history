@@ -1,0 +1,39 @@
+when: {from: '1781-10-11', to: '1781-10-14'}
+date: "11 to 14 October 1781"
+title: "Yorktown: Redoubts 9 and 10"
+bbox: [-76.52731, 37.21186, -76.48444, 37.25935]
+zones: []
+routes: []
+markers: [yorktown-redoubts-hamilton, yorktown-redoubts-deux-ponts, yorktown-redoubts-town]
+sources: ['Jerome A. Greene, The Guns of Independence (2005).', 'Brendan Morrissey, Yorktown 1781: The World Turned Upside Down (1997).']
+emblem:
+  kind: battle-plan
+  works:
+    - {side: held, path: [[-76.52392, 37.24488], [-76.52167, 37.24081], [-76.51885, 37.23583], [-76.5149, 37.23176], [-76.51095, 37.22923], [-76.507, 37.22841], [-76.50362, 37.23004], [-76.50294, 37.23185]], width: 45, id: inner-works, name: The British inner works round the town}
+    - {side: '#17a2a2', path: [[-76.52449, 37.23402], [-76.51997, 37.22679], [-76.51377, 37.22362], [-76.50869, 37.22226]], width: 40, id: first-parallel-french, name: 'The first parallel, French half, opened on the night of 6 October'}
+    - {side: usa, path: [[-76.50869, 37.22226], [-76.50192, 37.22154], [-76.49628, 37.22389], [-76.49403, 37.22525]], width: 40, id: first-parallel-american, name: 'The first parallel, American half, reaching the York River'}
+    - {side: '#17a2a2', path: [[-76.51941, 37.2286], [-76.51433, 37.2257], [-76.50869, 37.22443]], width: 40, id: second-parallel-french, name: 'The second parallel, dug on the night of 11 October'}
+    - {side: usa, path: [[-76.50869, 37.22443], [-76.50328, 37.22407]], width: 40, id: second-parallel-american, name: 'The second parallel, stopped short by Redoubts 9 and 10'}
+  units:
+    - {side: held, type: camp, at: [-76.52223, 37.24171], width: 130, depth: 130, facing: 0, id: fusiliers, name: The Fusiliers’ Redoubt}
+    - {side: held, type: camp, at: [-76.5013, 37.22661], width: 80, depth: 80, facing: 0, id: redoubt-9, name: 'Redoubt 9, held by 120 British and Germans'}
+    - {side: held, type: camp, at: [-76.49967, 37.22914], width: 70, depth: 70, facing: 0, id: redoubt-10, name: 'Redoubt 10, held by about 70 men'}
+    - {side: held, type: infantry, at: [-76.51433, 37.23583], width: 900, depth: 160, facing: 225, id: garrison, name: Cornwallis’s army inside the inner works}
+    - {side: usa, type: infantry, at: [-76.50215, 37.22371], width: 140, depth: 50, facing: 0, id: hamilton, name: 'American light infantry under Alexander Hamilton, 400'}
+    - {side: '#17a2a2', type: infantry, at: [-76.50474, 37.22335], width: 140, depth: 50, facing: 0, id: deux-ponts, name: 'French troops of the Royal Deux-Ponts Regiment, 400'}
+    - {side: held, type: camp, at: [-76.49572, 37.25076], width: 280, depth: 200, facing: 0, id: gloucester, name: The British post at Gloucester Point}
+    - {side: '#17a2a2', type: infantry, at: [-76.49685, 37.25754], width: 600, depth: 90, facing: 180, id: choisy, name: 'Lauzun’s Legion and Virginia militia under Choisy, blocking Gloucester'}
+  arrows:
+    - {side: usa, path: [[-76.50181, 37.22407], [-76.49978, 37.2286]], width: 55, id: storm-10, name: Hamilton’s light infantry storm Redoubt 10 with the bayonet}
+    - {side: usa, path: [[-76.50113, 37.22407], [-76.4973, 37.22679], [-76.49865, 37.22932]], width: 40, id: laurens, name: John Laurens goes round to the rear of Redoubt 10}
+    - {side: '#17a2a2', path: [[-76.50452, 37.22371], [-76.50158, 37.22615]], width: 55, id: storm-9, name: The French hack through the abatis and take Redoubt 9}
+    - {side: '#17a2a2', path: [[-76.52392, 37.23402], [-76.52268, 37.24054]], width: 50, id: feint, name: A French feint against the Fusiliers’ Redoubt at 6:30 pm}
+  clashes:
+    - {at: [-76.5013, 37.22661], size: 90}
+    - {at: [-76.49967, 37.22914], size: 90}
+    - {at: [-76.52234, 37.24081], size: 70}
+images:
+  yorktown-redoubt-9:
+    file: yorktown-redoubt-9.jpg
+    caption: "French troops storming Redoubt 9 at Yorktown, illustration in Washington, the Man of Action, 1914"
+    credit: "Wikimedia Commons, unknown author, No restrictions (Washington, the man of action (1914) (14589531120).jpg)"

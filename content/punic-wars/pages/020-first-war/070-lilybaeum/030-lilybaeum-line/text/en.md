@@ -1,0 +1,3 @@
+Adherbal forms his fleet in a line parallel to the Romans and to seaward of them. Five of his ships get south of Pulcher’s flagship, angled towards the shore, and cut off the Roman fleet from its way back to Lilybaeum. The Romans form a line facing west with the coast close behind them, which keeps them from being outflanked.
+
+The Carthaginian ships are lighter and handier, their crews are more experienced, and the Romans have given up the corvus. A Carthaginian ship getting the worse of a fight can back water and pull away, while a Roman ship that follows it exposes its flanks. With the shore at their backs the Romans can only keep a tight formation, and through the day the Carthaginians pick off exposed ships and ram them.

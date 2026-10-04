@@ -1,0 +1,28 @@
+when: '1781-01-17'
+date: "17 January 1781, dawn"
+title: "Cowpens: Morgan’s three lines"
+bbox: [-81.82532, 35.12433, -81.80085, 35.14448]
+zones: []
+routes: []
+markers: [cowpens-lines-morgan, cowpens-lines-pickens, cowpens-lines-riflemen, cowpens-lines-washington, cowpens-lines-tarleton]
+sources: ['Lawrence E. Babits, A Devil of a Whipping (1998).', 'John Buchanan, The Road to Guilford Courthouse (1997).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: usa, type: light, at: [-81.81351, 35.13475], width: 460, depth: 60, facing: 135, id: riflemen, name: 'Picked riflemen under McDowell and Cunningham, about 150'}
+    - {side: usa, type: infantry, at: [-81.81476, 35.13578], width: 380, depth: 60, facing: 135, id: pickens, name: 'Pickens’s militia, about 300, ordered to fire two volleys and fall back'}
+    - {side: usa, type: infantry, at: [-81.81553, 35.13718], width: 260, depth: 80, facing: 135, id: continentals, name: 'Howard’s main line: Continentals from Maryland and Delaware'}
+    - {side: usa, type: infantry, at: [-81.81748, 35.13558], width: 160, depth: 70, facing: 135, id: virginia-militia, name: Virginia militia and state troops on the right of the main line}
+    - {side: usa, type: cavalry, at: [-81.81631, 35.13987], width: 120, depth: 80, facing: 135, id: washington, name: 'William Washington’s dragoons and mounted militia, about 180'}
+    - {side: held, type: infantry, at: [-81.81087, 35.13258], width: 420, depth: 80, facing: 315, id: british-line, name: 'Legion infantry, 7th Foot and light companies, with two 3-pounders'}
+    - {side: held, type: cavalry, at: [-81.80854, 35.1345], width: 70, depth: 70, facing: 315, id: british-dragoons, name: Dragoons of the 17th and the Legion on the flanks}
+    - {side: held, type: cavalry, at: [-81.8132, 35.13066], width: 70, depth: 70, facing: 315, id: british-dragoons, name: Dragoons of the 17th and the Legion on the flanks}
+    - {side: held, type: infantry, at: [-81.81165, 35.12976], width: 150, depth: 80, facing: 315, id: 71st, name: 71st Highlanders under McArthur in reserve}
+    - {side: held, type: cavalry, at: [-81.808, 35.13213], width: 160, depth: 80, facing: 315, id: legion-cavalry, name: 'British Legion cavalry, 200, kept for the pursuit'}
+  arrows:
+    - {side: held, path: [[-81.80629, 35.1288], [-81.80878, 35.13085]], width: 50, id: tarleton-arrives, name: Tarleton arrives along the Green River Road before sunrise}
+images:
+  cowpens-monument:
+    file: cowpens-monument.jpg
+    caption: "The monument on the field of Cowpens"
+    credit: "Wikimedia Commons, Vidor at English Wikipedia, Public domain (BattleofCowpensMonument.JPG)"

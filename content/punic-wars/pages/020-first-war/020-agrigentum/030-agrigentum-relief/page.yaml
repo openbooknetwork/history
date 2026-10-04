@@ -1,0 +1,38 @@
+date: "Winter 262 – 261 BC"
+title: "Hanno’s relief army"
+bbox: [13.50708, 37.26229, 13.62114, 37.33195]
+zones: []
+routes: []
+markers: [agrigentum-relief-hanno, agrigentum-relief-numidians, agrigentum-relief-romans, agrigentum-relief-garrison]
+sources: ['Polybius, Histories, book 1, 18 to 19.', 'Diodorus Siculus, Library of History, book 23.', 'John Lazenby, The First Punic War (1996).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[13.55112, 37.32652], [13.55846, 37.31386], [13.56185, 37.303], [13.56411, 37.29395], [13.56975, 37.28581], [13.57879, 37.27767], [13.58274, 37.27315]], width: 60, id: hypsas, name: The river Hypsas}
+    - {path: [[13.61775, 37.3229], [13.61267, 37.31024], [13.61097, 37.30029], [13.60476, 37.28943], [13.59291, 37.28038], [13.58274, 37.27315]], width: 60, id: akragas, name: The river Akragas}
+    - {path: [[13.58274, 37.27315], [13.57935, 37.26862], [13.57484, 37.2632]], width: 80, id: rivers-to-sea, name: 'The joined rivers, flowing to the sea'}
+  works:
+    - {side: carthage, width: 70, path: [[13.57032, 37.31295], [13.57935, 37.31521], [13.58952, 37.31612], [13.59968, 37.30933], [13.60194, 37.3039], [13.60138, 37.29667], [13.59516, 37.28943], [13.58613, 37.28943], [13.57709, 37.28988], [13.57032, 37.29169], [13.56637, 37.29938], [13.56806, 37.30662], [13.57032, 37.31295]], id: walls, name: The walls of Agrigentum}
+    - {side: rome, width: 45, path: [[13.55903, 37.32652], [13.58274, 37.32788], [13.6042, 37.32471], [13.61606, 37.31386], [13.61662, 37.29757], [13.61041, 37.28491], [13.59516, 37.27631], [13.57709, 37.27541], [13.56241, 37.27948], [13.55056, 37.29214], [13.5483, 37.30752], [13.55225, 37.31928], [13.55903, 37.32652]], id: siege-lines, name: 'Roman siege lines, a ring of ditches round the city'}
+  units:
+    - {side: rome, type: camp, at: [13.57879, 37.28084], width: 500, depth: 500, facing: 0, id: south-camp, name: 'Roman camp south of the city, by the temple of Asklepios'}
+    - {side: rome, type: camp, at: [13.54547, 37.30571], width: 550, depth: 550, facing: 0, id: west-camp, name: Roman camp west of the city}
+    - {side: rome, type: camp, at: [13.58274, 37.32788], width: 160, depth: 160, facing: 0, id: forts, name: Small Roman forts on the siege lines}
+    - {side: rome, type: camp, at: [13.61606, 37.31386], width: 160, depth: 160, facing: 0, id: forts, name: Small Roman forts on the siege lines}
+    - {side: rome, type: camp, at: [13.59516, 37.27631], width: 160, depth: 160, facing: 0, id: forts, name: Small Roman forts on the siege lines}
+    - {side: rome, type: camp, at: [13.55056, 37.29214], width: 160, depth: 160, facing: 0, id: forts, name: Small Roman forts on the siege lines}
+    - {side: carthage, type: camp, at: [13.51837, 37.31838], width: 600, depth: 600, facing: 0, id: toros, name: Hanno’s camp on the hill of Toros}
+    - {side: carthage, type: infantry, at: [13.51668, 37.29757], width: 1500, depth: 300, facing: 90, id: relief-army, name: Hanno’s relief army with mercenaries and elephants}
+    - {side: carthage, type: cavalry, at: [13.53587, 37.30752], width: 400, depth: 150, facing: 90, id: numidians, name: Numidian cavalry}
+    - {side: rome, type: cavalry, at: [13.53249, 37.30119], width: 450, depth: 160, facing: 270, id: roman-cavalry, name: Roman cavalry}
+  arrows:
+    - {side: carthage, path: [[13.5195, 37.30933], [13.52853, 37.31114], [13.53418, 37.30888]], width: 110, id: numidian-charge, name: The Numidians ride at the Roman cavalry}
+    - {side: carthage, path: [[13.53475, 37.30617], [13.5274, 37.30526], [13.52006, 37.3021]], width: 110, id: numidian-feint, name: The Numidians turn back in a feigned retreat}
+    - {side: rome, path: [[13.54039, 37.30164], [13.52966, 37.29983], [13.5195, 37.29802]], width: 110, id: roman-pursuit, name: The Roman cavalry pursues onto the Carthaginian column}
+  clashes:
+    - [13.51882, 37.29893]
+images:
+  agrigentum-valley:
+    file: agrigentum-valley.jpg
+    caption: "The ridge of the Valley of the Temples, where the southern wall of Akragas ran, with the Temple of Concordia"
+    credit: "Wikimedia Commons, Cayambe, CC BY-SA 4.0 (Valle dei Templi – towards Temple of Concordia.jpg)"

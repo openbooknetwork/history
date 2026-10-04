@@ -1,0 +1,37 @@
+when: {from: '1777-01-03'}
+date: "3 January 1777"
+title: "Princeton: Mercer and Mawhood"
+bbox: [-74.7, 40.312, -74.652, 40.352]
+zones: []
+routes: []
+markers: [trenton-princeton-mercer, trenton-princeton-washington, trenton-princeton-mawhood, trenton-princeton-hamilton]
+sources: ['David Hackett Fischer, Washington’s Crossing (2004).', 'Richard M. Ketchum, The Winter Soldiers (1973).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-74.712, 40.338], [-74.7, 40.3315], [-74.691, 40.326], [-74.683, 40.3205], [-74.673, 40.3165], [-74.66, 40.3145]], width: 30, id: stony-brook, name: Stony Brook}
+  works:
+    - {path: [[-74.695, 40.3185], [-74.6885, 40.3245], [-74.681, 40.33], [-74.672, 40.3365], [-74.664, 40.343], [-74.6593, 40.347]], width: 14, id: post-road, name: The Post Road from Trenton}
+  units:
+    - {side: usa, type: infantry, at: [-74.6815, 40.3268], width: 300, depth: 70, facing: 315, id: mercer, name: 'Mercer’s brigade, about 350, in Clarke’s orchard'}
+    - {side: held, type: infantry, at: [-74.685, 40.33], width: 400, depth: 90, facing: 135, id: mawhood, name: Mawhood with the 17th and 55th Foot and two guns}
+    - {side: usa, type: infantry, at: [-74.6775, 40.3235], width: 500, depth: 100, facing: 315, id: cadwalader, name: 'Cadwalader’s 1,100 militia, rallied by Washington'}
+    - {side: usa, type: infantry, at: [-74.6745, 40.3265], width: 300, depth: 70, facing: 300, id: virginians, name: Virginia Continentals and Hand’s riflemen}
+    - {side: usa, type: infantry, at: [-74.6728, 40.329], width: 250, depth: 70, facing: 270, id: hitchcock, name: Hitchcock’s New Englanders turn the British flank}
+    - {side: usa, type: infantry, at: [-74.6665, 40.333], width: 400, depth: 90, facing: 20, id: sullivan, name: 'Sullivan’s division: St. Clair’s and Sherman’s brigades'}
+    - {side: held, type: infantry, at: [-74.662, 40.341], width: 300, depth: 70, facing: 200, id: 40th, name: The 40th Foot and part of the 55th at the ravine}
+    - {side: held, type: camp, at: [-74.6593, 40.3487], width: 140, depth: 60, facing: 0, id: nassau-hall, name: 'Nassau Hall, where 194 British soldiers surrender'}
+  arrows:
+    - {side: held, path: [[-74.6842, 40.3291], [-74.682, 40.3276]], width: 40, id: mawhood-charge, name: Mawhood’s bayonet charge}
+    - {side: usa, path: [[-74.6806, 40.3261], [-74.6782, 40.3244]], width: 40, id: mercer-rout, name: Mercer’s men break, style: dashed}
+    - {side: usa, path: [[-74.6764, 40.3251], [-74.6815, 40.3283]], width: 50, id: washington-advance, name: Washington leads the line to within thirty yards}
+    - {side: held, path: [[-74.6856, 40.3289], [-74.6882, 40.3255], [-74.6935, 40.321]], width: 40, id: mawhood-escape, name: Mawhood breaks out over the Stony Brook bridge, style: dashed}
+    - {side: usa, path: [[-74.666, 40.335], [-74.6612, 40.344]], width: 50, id: sullivan-advance, name: Sullivan drives into the town}
+  clashes:
+    - [-74.683, 40.3285]
+    - [-74.66, 40.3475]
+images:
+  princeton-peale:
+    file: princeton-peale.jpg
+    caption: "The Battle of Princeton, painting by James Peale, about 1782, with Washington’s headquarters flag"
+    credit: "Wikimedia Commons, James Peale, Public domain (The Battle of Princeton by James Peale.jpg)"

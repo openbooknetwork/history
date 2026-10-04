@@ -1,0 +1,22 @@
+when: {from: '1775-05-10', to: '1775-07-03'}
+date: "May to July 1775"
+title: "Ticonderoga, the Second Congress and Bunker Hill"
+bbox: [-77, 39, -69, 44.5]
+zones: [colonies-1763, quebec-1774, nova-scotia, boston-held]
+routes: []
+markers: [ticonderoga, philadelphia-1775, cambridge-1775]
+battle: bunker-hill
+sources: ['Robert Middlekauff, The Glorious Cause (2005).', 'David McCullough, 1776 (2005).']
+images:
+  ticonderoga-allen:
+    file: ticonderoga-allen.jpg
+    caption: "Ethan Allen demanding the surrender of Fort Ticonderoga, 10 May 1775, illustration by John Steeple Davis, 1875"
+    credit: "Wikimedia Commons, John Steeple Davis (1844-1917), Public domain (EthanAllenTiconderogaByJSDavis.jpeg)"
+  bunker-hill-trumbull:
+    file: bunker-hill-trumbull.jpg
+    caption: "The Death of General Warren at the Battle of Bunker's Hill, 17 June 1775, painting by John Trumbull, 1786"
+    credit: "Wikimedia Commons, John Trumbull, Public domain (The Battle of Bunker's Hill Bridgeman Images.jpg)"
+  bunker-hill-sketch-1775:
+    file: bunker-hill-sketch-1775.jpg
+    caption: "A sketch of the action on the Charlestown peninsula, 17 June 1775, engraved by Jefferys and Faden, London, August 1775"
+    credit: "Wikimedia Commons, Jefferys and Faden, Public domain (Sketch of the Battle of Bunker Hill, printed in August 1775.jpg)"

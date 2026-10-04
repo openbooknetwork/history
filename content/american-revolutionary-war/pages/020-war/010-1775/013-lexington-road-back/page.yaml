@@ -1,0 +1,36 @@
+when: {from: '1775-04-19'}
+date: "19 April 1775, afternoon"
+title: "Concord: the road back to Charlestown"
+bbox: [-71.37, 42.325, -71.045, 42.475]
+zones: []
+routes: []
+markers: [lexington-road-back-percy, lexington-road-back-heath, lexington-road-back-meriam, lexington-road-back-charlestown, concord]
+sources: ['David Hackett Fischer, Paul Revere’s Ride (1994).', 'Allen French, The Day of Concord and Lexington (1925).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-71.19, 42.364], [-71.153, 42.37], [-71.122, 42.3695], [-71.096, 42.36], [-71.076, 42.364], [-71.064, 42.37]], width: 220, id: charles, name: The Charles River}
+    - {path: [[-71.135, 42.423], [-71.105, 42.406], [-71.082, 42.396], [-71.064, 42.388], [-71.045, 42.38]], width: 260, id: mystic, name: The Mystic River}
+  units:
+    - {side: held, type: infantry, at: [-71.256, 42.4472], width: 300, depth: 1800, facing: 100, id: smith-column, name: 'Smith’s column, short of ammunition'}
+    - {side: held, type: infantry, at: [-71.224, 42.4452], width: 1500, depth: 380, facing: 280, id: percy-brigade, name: 'Percy’s brigade, about 1,000 men with two guns, on the high ground at Lexington'}
+    - {side: usa, type: light, at: [-71.3225, 42.4618], width: 1440, depth: 320, facing: 180, id: militia-meriams, name: Militia at Meriam’s Corner}
+    - {side: usa, type: light, at: [-71.2935, 42.4575], width: 1600, depth: 320, facing: 190, id: militia-lincoln, name: Militia along the road through Lincoln}
+    - {side: usa, type: light, at: [-71.16, 42.4185], width: 1920, depth: 320, facing: 215, id: militia-menotomy, name: Militia in the houses of Menotomy}
+    - {side: usa, type: light, at: [-71.152, 42.411], width: 1920, depth: 320, facing: 35, id: militia-menotomy, name: Militia in the houses of Menotomy}
+    - {side: usa, type: light, at: [-71.124, 42.3985], width: 1440, depth: 320, facing: 240, id: militia-cambridge, name: Militia at Watson’s Corner}
+    - {side: usa, type: infantry, at: [-71.089, 42.395], width: 1600, depth: 360, facing: 220, id: pickering, name: 'Salem and Marblehead militia under Timothy Pickering, halted on Winter Hill'}
+  arrows:
+    - {side: held, path: [[-71.3462, 42.4602], [-71.3233, 42.4593], [-71.3125, 42.4562], [-71.2933, 42.4547], [-71.27, 42.4494]], width: 220, style: dashed, id: smith-retreat, name: Smith’s column falls back from Concord}
+    - {side: held, path: [[-71.064, 42.3545], [-71.0735, 42.3385], [-71.105, 42.343], [-71.1215, 42.368], [-71.118, 42.3765], [-71.142, 42.405], [-71.164, 42.418], [-71.2, 42.433], [-71.214, 42.4405]], width: 200, id: percy-march, name: Percy marches out of Boston by the Neck and Cambridge}
+    - {side: held, path: [[-71.212, 42.4395], [-71.184, 42.4245], [-71.159, 42.415], [-71.1405, 42.404], [-71.1205, 42.3935], [-71.115, 42.3872], [-71.095, 42.383], [-71.0745, 42.3818], [-71.0665, 42.3792]], width: 230, style: dashed, id: percy-retreat, name: Percy’s column withdraws to Charlestown}
+  clashes:
+    - {at: [-71.3233, 42.4593], size: 350}
+    - {at: [-71.2933, 42.4547], size: 350}
+    - {at: [-71.159, 42.415], size: 400}
+    - {at: [-71.1205, 42.3935], size: 350}
+images:
+  percys-rescue-doolittle:
+    file: percys-rescue-doolittle.jpg
+    caption: "Percy’s brigade covers Smith’s column at Lexington, plate IV of Amos Doolittle’s engravings after Ralph Earl, 1775"
+    credit: "Wikimedia Commons, Amos Doolittle after Ralph Earl, Public domain (Percy's Rescue at Lexington Detail.jpg)"

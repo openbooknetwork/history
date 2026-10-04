@@ -1,0 +1,3 @@
+Adherbal donanmasını Romalılara paralel ve onların deniz tarafında bir hat halinde dizer. Gemilerinden beşi Pulcher’in amiral gemisinin güneyine geçer, kıyıya doğru açılanır ve Roma donanmasının Lilybaeum’a dönüş yolunu keser. Romalılar arkalarını kıyıya vererek batıya bakan bir hat kurar, bu da kuşatılmalarını önler.
+
+Kartaca gemileri daha hafif ve çeviktir, mürettebatı daha deneyimlidir, Romalılar da corvus’u bırakmıştır. Çarpışmada zor duruma düşen bir Kartaca gemisi geri kürek çekip uzaklaşabilir, onu izleyen Roma gemisi ise yanlarını açık bırakır. Arkaları kıyıya dayalı Romalılar ancak sıkı bir düzende kalabilir, Kartacalılar da gün boyu açıkta kalan gemileri tek tek seçip mahmuzlar.

@@ -1,0 +1,42 @@
+when: {from: '1775-06-17'}
+date: "17 June 1775, afternoon"
+title: "Bunker Hill: the first two attacks"
+bbox: [-71.0676, 42.37016, -71.05174, 42.38209]
+zones: []
+routes: []
+markers: [bunker-hill-attacks-charlestown, bunker-hill-attacks-abercrombie, bunker-hill-attacks-stark, bunker-hill-attacks-pigot]
+sources: ['Richard M. Ketchum, Decisive Day: The Battle for Bunker Hill (1999).', 'Nathaniel Philbrick, Bunker Hill (2013).']
+emblem:
+  kind: battle-plan
+  water:
+    - {area: [[-71.07431, 42.38169], [-71.06845, 42.38272], [-71.06246, 42.3814], [-71.05809, 42.37979], [-71.05385, 42.37802], [-71.05087, 42.37642], [-71.05243, 42.37333], [-71.03747, 42.36837], [-71.02896, 42.37934], [-71.03843, 42.38341], [-71.04433, 42.38124], [-71.0696, 42.39209], [-71.07684, 42.38277]], id: mystic, name: The Mystic River}
+    - {area: [[-71.0745, 42.37999], [-71.07, 42.37712], [-71.06552, 42.37384], [-71.06056, 42.37118], [-71.05629, 42.37144], [-71.05243, 42.37333], [-71.03747, 42.36837], [-71.04367, 42.36038], [-71.05501, 42.36596], [-71.05701, 42.36847], [-71.06122, 42.36708], [-71.065, 42.36396], [-71.06945, 42.36696], [-71.07364, 42.37242], [-71.07737, 42.37757], [-71.07787, 42.38144]], id: charles, name: 'The Charles River, between Charlestown and Boston'}
+  works:
+    - {side: usa, path: [[-71.0613, 42.3762], [-71.06093, 42.37667], [-71.0603, 42.3764], [-71.06067, 42.37593], [-71.0613, 42.3762]], width: 12, id: redoubt, name: 'The redoubt on Breed’s Hill, about 40 metres on a side'}
+    - {side: usa, path: [[-71.06047, 42.37651], [-71.0597, 42.37739]], width: 10, id: breastwork, name: The breastwork dug at daylight}
+    - {side: usa, path: [[-71.06144, 42.37856], [-71.05996, 42.38045]], width: 8, id: rail-fence, name: 'The rail fence, packed with hay'}
+    - {side: usa, path: [[-71.05996, 42.38045], [-71.05978, 42.38079]], width: 12, id: stone-wall, name: Stark’s stone wall down the beach to the water}
+  units:
+    - {side: usa, type: infantry, at: [-71.0608, 42.3763], width: 46, depth: 36, facing: 120, id: prescott, name: Prescott’s Massachusetts men in the redoubt}
+    - {side: usa, type: infantry, at: [-71.05982, 42.37687], width: 110, depth: 30, facing: 120, id: breastwork-men, name: Defenders of the breastwork}
+    - {side: usa, type: infantry, at: [-71.06106, 42.37944], width: 190, depth: 30, facing: 120, id: knowlton, name: Knowlton’s Connecticut men at the rail fence}
+    - {side: usa, type: infantry, at: [-71.06033, 42.38038], width: 60, depth: 30, facing: 120, id: stark, name: New Hampshire men under John Stark and James Reed}
+    - {side: usa, type: infantry, at: [-71.06549, 42.38002], width: 220, depth: 90, facing: 120, id: putnam, name: 'Men on Bunker Hill under Putnam, many of whom never go forward'}
+    - {side: held, type: infantry, at: [-71.0552, 42.37881], width: 40, depth: 240, facing: 300, id: light-infantry, name: Light infantry in column along the beach}
+    - {side: held, type: infantry, at: [-71.05925, 42.37866], width: 280, depth: 34, facing: 300, id: grenadiers, name: 'Grenadiers, four deep, against the rail fence'}
+    - {side: held, type: infantry, at: [-71.05907, 42.37472], width: 300, depth: 40, facing: 321.0310358983291, id: pigot, name: 'Pigot’s 5th, 38th, 43rd, 47th and 52nd and the marines against the redoubt'}
+  arrows:
+    - {side: held, path: [[-71.05668, 42.37944], [-71.05925, 42.38046]], width: 36, id: beach-attack, name: The light infantry attack Stark’s wall}
+    - {side: held, path: [[-71.05946, 42.37875], [-71.06051, 42.37921]], width: 36, id: fence-attack, name: The grenadiers attack the fence}
+    - {side: held, path: [[-71.05937, 42.37506], [-71.06042, 42.37589]], width: 36, id: redoubt-attack, name: Pigot’s attack on the redoubt}
+    - {side: held, path: [[-71.05755, 42.3794], [-71.05343, 42.37711], [-71.05221, 42.3747]], width: 30, id: light-flee, name: 'Light companies break, some running back to the boats', style: dashed}
+  clashes:
+    - {at: [-71.05971, 42.3806], size: 45}
+    - {at: [-71.06066, 42.37937], size: 45}
+    - {at: [-71.06048, 42.37595], size: 45}
+    - {at: [-71.05964, 42.37685], size: 45}
+images:
+  bunker-hill-burning-charlestown:
+    file: bunker-hill-burning-charlestown.jpg
+    caption: "View of the attack on Bunker’s Hill with the burning of Charlestown, engraving by Lodge after Millar, 1783"
+    credit: "Wikimedia Commons, Lodge after Millar, Public domain (AttackBunkerHill.jpg)"

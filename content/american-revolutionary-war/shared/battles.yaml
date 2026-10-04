@@ -1,0 +1,322 @@
+# Battles shown as cards on the map. lnglat is [longitude, latitude].
+# Figures follow the English Wikipedia infoboxes as of October 2026. Springfield comes from the article text.
+
+# --- 1775 ---
+lexington-concord:
+  lnglat: [-71.2308, 42.4494]
+  name: "Battles of Lexington and Concord"
+  date: "19 April 1775"
+  result: "American victory, British retreat to Boston"
+  source: https://en.wikipedia.org/wiki/Battles_of_Lexington_and_Concord
+  images: [lexington-doolittle, concord-doolittle, concord-north-bridge-merrill, percys-rescue-doolittle]
+  sides:
+    - name: "Massachusetts militia"
+      color: usa
+      commanders: ["John Parker", "James Barrett", "William Heath"]
+      strength: "77 at Lexington, 3,960 by the end of the day"
+      casualties: "49 killed, 39 wounded, 5 missing"
+    - name: "Great Britain"
+      color: held
+      commanders: ["Francis Smith", "John Pitcairn", "Hugh Percy"]
+      strength: "700 from Boston, 1,500 by the end of the day"
+      casualties: "73 killed, 174 wounded, 53 missing"
+bunker-hill:
+  lnglat: [-71.0608, 42.3763]
+  name: "Battle of Bunker Hill"
+  date: "17 June 1775"
+  result: "British victory at heavy cost"
+  source: https://en.wikipedia.org/wiki/Battle_of_Bunker_Hill
+  images: [bunker-hill-trumbull, bunker-hill-sketch-1775, bunker-hill-burning-charlestown, bunker-hill-pyle]
+  sides:
+    - name: "New England militia"
+      color: usa
+      commanders: ["William Prescott", "Israel Putnam", "Joseph Warren", "John Stark"]
+      strength: "About 2,400"
+      casualties: "138 killed, 305 wounded, 30 captured"
+    - name: "Great Britain"
+      color: held
+      commanders: ["William Howe", "Robert Pigot", "Henry Clinton"]
+      strength: "Over 3,000"
+      casualties: "226 killed, 828 wounded"
+quebec-1775:
+  lnglat: [-71.204, 46.8135]
+  name: "Battle of Quebec"
+  date: "31 December 1775"
+  result: "British victory, Quebec stays British"
+  source: https://en.wikipedia.org/wiki/Battle_of_Quebec_(1775)
+  images: [montgomery-trumbull, sault-au-matelot, quebec-plan-1776, quebec-le-rouge-1777, daniel-morgan-peale]
+  sides:
+    - name: "Continental Army"
+      color: usa
+      commanders: ["Richard Montgomery", "Benedict Arnold", "Daniel Morgan"]
+      strength: "1,200"
+      casualties: "50 killed, 34 wounded, 431 captured or missing"
+    - name: "Great Britain"
+      color: held
+      commanders: ["Guy Carleton", "Allan Maclean"]
+      strength: "1,800"
+      casualties: "5 killed, 14 wounded"
+
+# --- 1776 ---
+sullivans-island:
+  lnglat: [-79.8525, 32.7628]
+  name: "Battle of Sullivan’s Island"
+  date: "28 June 1776"
+  result: "South Carolina victory, the British fleet withdraws"
+  source: https://en.wikipedia.org/wiki/Battle_of_Sullivan%27s_Island
+  images: [fort-moultrie-white, fort-sullivan-1776, charleston-bar-plan-1776, jasper-flag-oertel]
+  sides:
+    - name: "South Carolina"
+      color: usa
+      commanders: ["Charles Lee", "William Moultrie", "Francis Marion"]
+      strength: "435 militia and 31 cannon in the fort"
+      casualties: "12 killed, 25 wounded"
+    - name: "Great Britain"
+      color: held
+      commanders: ["Peter Parker", "Henry Clinton"]
+      strength: "2,200 infantry and 9 warships"
+      casualties: "91 killed, 170 wounded, one frigate run aground"
+valcour-island:
+  lnglat: [-73.4255, 44.6105]
+  name: "Battle of Valcour Island"
+  date: "11 October 1776"
+  result: "British victory, Carleton withdraws to Canada for the winter"
+  source: https://en.wikipedia.org/wiki/Battle_of_Valcour_Island
+  images: [valcour-gilder, valcour-map-1776, valcour-american-line-randle, congress-galley-1776]
+  sides:
+    - name: "United States"
+      color: usa
+      commanders: ["Benedict Arnold"]
+      strength: "1 sloop, 2 schooners, 4 row galleys, 8 gundalows"
+      casualties: "80 killed or wounded, 120 captured, 1 schooner and 1 gundalow lost"
+    - name: "Great Britain"
+      color: held
+      commanders: ["Guy Carleton", "Thomas Pringle"]
+      strength: "1 ship sloop, 2 schooners, 1 radeau, 1 gundalow, 28 gunboats"
+      casualties: "40 killed or wounded, 1 gunboat lost"
+long-island:
+  lnglat: [-73.968, 40.665]
+  name: "Battle of Long Island"
+  date: "27 August 1776"
+  result: "British victory, Washington withdraws to Manhattan"
+  source: https://en.wikipedia.org/wiki/Battle_of_Long_Island
+  images: [long-island-chappel, long-island-1776, battle-pass-1866, vechte-cortelyou-house, retreat-from-long-island]
+  sides:
+    - name: "United States"
+      color: usa
+      commanders: ["George Washington", "Israel Putnam", "John Sullivan", "William Alexander"]
+      strength: "10,000"
+      casualties: "300 killed, 800 wounded, 1,079 captured or missing"
+    - name: "Great Britain and Hesse-Kassel"
+      color: held
+      commanders: ["William Howe", "Charles Cornwallis", "Henry Clinton"]
+      strength: "20,000"
+      casualties: "64 killed, 293 wounded, 31 missing"
+trenton:
+  lnglat: [-74.7655, 40.2225]
+  name: "Battle of Trenton"
+  date: "26 December 1776"
+  result: "American victory, the Hessian garrison captured"
+  source: https://en.wikipedia.org/wiki/Battle_of_Trenton
+  images: [hessians-trumbull, delaware-leutze, trenton-wiederhold-plan, princeton-peale]
+  sides:
+    - name: "United States"
+      color: usa
+      commanders: ["George Washington", "Nathanael Greene", "John Sullivan"]
+      strength: "2,400"
+      casualties: "5 wounded, 2 dead of exposure on the march"
+    - name: "Hesse-Kassel"
+      color: held
+      commanders: ["Johann Rall"]
+      strength: "1,500"
+      casualties: "22 killed, 83 wounded, 800–900 captured"
+
+# --- 1777 ---
+saratoga:
+  lnglat: [-73.6445, 43.0135]
+  name: "Battles of Saratoga"
+  date: "19 September and 7 October 1777"
+  result: "American victory, Burgoyne surrenders on 17 October"
+  source: https://en.wikipedia.org/wiki/Battles_of_Saratoga
+  images: [burgoyne-surrender, saratoga-will, saratoga-freemans-farm, saratoga-fraser-burial]
+  sides:
+    - name: "United States"
+      color: usa
+      commanders: ["Horatio Gates", "Benedict Arnold", "Benjamin Lincoln", "Daniel Morgan"]
+      strength: "9,000 in the first battle, over 15,000 at the surrender"
+      casualties: "90 killed, 240 wounded"
+    - name: "Great Britain"
+      color: held
+      commanders: ["John Burgoyne", "Simon Fraser", "William Phillips", "Friedrich Adolf Riedesel"]
+      strength: "7,200 in the first battle, 6,600 in the second"
+      casualties: "440 killed, 695 wounded, 6,222 captured"
+brandywine:
+  lnglat: [-75.5945, 39.9055]
+  name: "Battle of Brandywine"
+  date: "11 September 1777"
+  result: "British victory, the road to Philadelphia open"
+  source: https://en.wikipedia.org/wiki/Battle_of_Brandywine
+  images: [brandywine-1777, brandywine-vanderlyn, brandywine-osborne-hill, brandywine-pyle]
+  sides:
+    - name: "United States"
+      color: usa
+      commanders: ["George Washington", "Nathanael Greene", "John Sullivan", "Marquis de Lafayette"]
+      strength: "14,600"
+      casualties: "250 killed, 600 wounded, 400 captured"
+    - name: "Great Britain and Hesse-Kassel"
+      color: held
+      commanders: ["William Howe", "Charles Cornwallis", "Wilhelm von Knyphausen"]
+      strength: "15,500"
+      casualties: "93 killed, 488 wounded, 6 missing"
+
+# --- 1778 to 1779 ---
+monmouth:
+  lnglat: [-74.3165, 40.2625]
+  name: "Battle of Monmouth"
+  date: "28 June 1778"
+  result: "Inconclusive, Clinton reaches New York"
+  source: https://en.wikipedia.org/wiki/Battle_of_Monmouth
+  images: [monmouth-leutze, molly-pitcher, monmouth-chappel, monmouth-du-chesnoy-map]
+  sides:
+    - name: "United States"
+      color: usa
+      commanders: ["George Washington", "Charles Lee"]
+      strength: "14,300"
+      casualties: "370 by the official count, about 500 by estimates"
+    - name: "Great Britain"
+      color: held
+      commanders: ["Henry Clinton"]
+      strength: "17,660"
+      casualties: "358 by the official count, up to 1,134 by estimates"
+savannah-1779:
+  lnglat: [-81.0998, 32.0756]
+  name: "Siege of Savannah"
+  date: "16 September – 18 October 1779"
+  result: "British victory, the allied assault of 9 October fails"
+  source: https://en.wikipedia.org/wiki/Siege_of_Savannah
+  images: [savannah-keller, savannah-plan, savannah-pulaski, savannah-moncrief-plan]
+  sides:
+    - name: "United States and France"
+      color: usa
+      commanders: ["Benjamin Lincoln", "Comte d’Estaing", "Casimir Pulaski"]
+      strength: "7,722 troops and 42 ships"
+      casualties: "244 killed, 584 wounded, 120 captured"
+    - name: "Great Britain"
+      color: held
+      commanders: ["Augustine Prevost", "John Maitland"]
+      strength: "4,813 troops and 8 vessels"
+      casualties: "40 killed, 63 wounded, 52 missing"
+
+# --- 1780 to 1781 ---
+pensacola-1781:
+  lnglat: [-87.2165, 30.4197]
+  name: "Siege of Pensacola"
+  date: "9 March – 10 May 1781"
+  result: "Spanish and French victory, West Florida passes to Spain"
+  source: https://en.wikipedia.org/wiki/Siege_of_Pensacola
+  images: [pensacola-1781, pensacola-planas-plan, pensacola-explosion-ponce, galvez-portrait]
+  sides:
+    - name: "Spain and France"
+      color: spanish
+      commanders: ["Bernardo de Gálvez", "José Solano y Bote", "François-Aymar de Monteil"]
+      strength: "7,400 regulars and militia, 10,000 sailors and marines, 21 ships"
+      casualties: "95 killed, 202 wounded"
+    - name: "Great Britain"
+      color: held
+      commanders: ["John Campbell"]
+      strength: "1,300 regulars, rangers and militia, 500 native allies"
+      casualties: "155 killed, 105 wounded, 1,113 captured"
+charleston-1780:
+  lnglat: [-79.94, 32.79]
+  name: "Siege of Charleston"
+  date: "29 March – 12 May 1780"
+  result: "British victory, Lincoln surrenders his army"
+  source: https://en.wikipedia.org/wiki/Siege_of_Charleston
+  images: [charleston-siege-engraving, charleston-des-barres, charleston-1780-plan, charleston-chappel-battery]
+  sides:
+    - name: "United States"
+      color: usa
+      commanders: ["Benjamin Lincoln", "William Moultrie"]
+      strength: "6,577 regulars, sailors and militia"
+      casualties: "89 killed, 138 wounded, 5,466 captured"
+    - name: "Great Britain and Hesse-Kassel"
+      color: held
+      commanders: ["Henry Clinton", "Charles Cornwallis", "Mariot Arbuthnot"]
+      strength: "12,847 soldiers, 4,500 sailors, 14 warships"
+      casualties: "99 killed, 117 wounded on land and at sea"
+cowpens:
+  lnglat: [-81.81328, 35.13456]
+  name: "Battle of Cowpens"
+  date: "17 January 1781"
+  result: "American victory, Tarleton’s force destroyed"
+  source: https://en.wikipedia.org/wiki/Battle_of_Cowpens
+  images: [cowpens-ranney, cowpens-troiani, tarleton-reynolds]
+  sides:
+    - name: "United States"
+      color: usa
+      commanders: ["Daniel Morgan"]
+      strength: "1,887–1,912"
+      casualties: "25 killed, 124 wounded"
+    - name: "Great Britain"
+      color: held
+      commanders: ["Banastre Tarleton"]
+      strength: "1,150 and 2 guns"
+      casualties: "110 killed, 229 wounded, 629 captured or missing, both guns lost"
+yorktown:
+  lnglat: [-76.50, 37.23]
+  name: "Siege of Yorktown"
+  date: "28 September – 19 October 1781"
+  result: "American and French victory, Cornwallis surrenders"
+  source: https://en.wikipedia.org/wiki/Siege_of_Yorktown
+  images: [yorktown-couder, yorktown-verger, redoubt-10-lami, yorktown-blarenberghe, cornwallis-surrender]
+  sides:
+    - name: "United States and France"
+      color: usa
+      commanders: ["George Washington", "Comte de Rochambeau", "Marquis de Lafayette", "Comte de Grasse"]
+      strength: "8,000–9,000 Americans, 10,800 French and 29 warships"
+      casualties: "88 killed, 301 wounded"
+    - name: "Great Britain"
+      color: held
+      commanders: ["Charles Cornwallis", "Charles O’Hara"]
+      strength: "8,000–9,000, fewer than 3,000 of them German"
+      casualties: "142–309 killed, 326–595 wounded, 7,416–7,685 captured"
+
+# --- 1787 ---
+springfield:
+  lnglat: [-72.58, 42.1084]
+  name: "Shays’ Rebellion at Springfield"
+  date: "25 January 1787"
+  result: "Militia victory, the rebels scatter"
+  source: https://en.wikipedia.org/wiki/Shays%27s_Rebellion
+  images: [shays-shattuck, shepard-portrait, shays-map-stiles]
+  sides:
+    - name: "Massachusetts militia"
+      color: usa
+      commanders: ["William Shepard"]
+      strength: "1,200"
+      casualties: "None"
+    - name: "Shays’ rebels"
+      color: "#8d6e63"
+      commanders: ["Daniel Shays", "Eli Parsons"]
+      strength: "About 1,500"
+      casualties: "4 killed, 20 wounded"
+
+# --- 1794 ---
+fallen-timbers:
+  lnglat: [-83.6975, 41.5442]
+  name: "Battle of Fallen Timbers"
+  date: "20 August 1794"
+  result: "United States victory, followed by the Treaty of Greenville"
+  source: https://en.wikipedia.org/wiki/Battle_of_Fallen_Timbers
+  images: [fallen-timbers-zogbaum, fallen-timbers-davis, turkey-foot-rock, fort-miamis-earthworks]
+  sides:
+    - name: "United States"
+      color: usa
+      commanders: ["Anthony Wayne", "James Wilkinson", "Charles Scott"]
+      strength: "3,000"
+      casualties: "33 killed, 100 wounded"
+    - name: "Northwestern Confederacy"
+      color: "#8d6e63"
+      commanders: ["Blue Jacket", "Little Turtle", "Buckongahelas"]
+      strength: "1,300"
+      casualties: "25–40 killed"

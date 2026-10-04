@@ -1,0 +1,43 @@
+date: "213 BC"
+title: "Archimedes against the assault"
+bbox: [15.2, 37.04, 15.33, 37.12]
+zones: []
+routes: []
+markers: [syracuse-assault-marcellus, syracuse-assault-archimedes, syracuse-assault-appius, syracuse-assault-achradina, syracuse-assault-ortygia]
+sources: ['Polybius, Histories, book 8, 3 to 7.', 'Livy, History of Rome, book 24, 33 to 34.', 'Plutarch, Life of Marcellus.']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[15.2, 37.044], [15.22, 37.048], [15.24, 37.052], [15.26, 37.0545], [15.274, 37.0565], [15.281, 37.058]], width: 45, id: anapus, name: The river Anapus}
+  works:
+    - {side: neutral, width: 30, path: [[15.2186, 37.0832], [15.2265, 37.087], [15.238, 37.0915], [15.251, 37.096], [15.262, 37.1], [15.272, 37.1035], [15.281, 37.1072]], id: north-wall, name: The north wall of Epipolae}
+    - {side: neutral, width: 30, path: [[15.281, 37.1072], [15.295, 37.1035], [15.301, 37.098], [15.305, 37.087], [15.303, 37.076], [15.2995, 37.068]], id: sea-wall, name: The sea wall of Tyche and Achradina}
+    - {side: neutral, width: 30, path: [[15.2186, 37.0832], [15.228, 37.08], [15.24, 37.0775], [15.252, 37.0755], [15.262, 37.0735], [15.271, 37.0705], [15.284, 37.0655]], id: south-wall, name: The south wall of Epipolae}
+    - {side: neutral, width: 30, path: [[15.2855, 37.0675], [15.287, 37.0745], [15.29, 37.0815], [15.296, 37.0855], [15.3045, 37.086]], id: achradina-wall, name: The wall of Achradina}
+    - {side: neutral, width: 30, path: [[15.2895, 37.0668], [15.2945, 37.0665], [15.2975, 37.0625], [15.2965, 37.0575], [15.293, 37.0545], [15.2895, 37.0565], [15.288, 37.061], [15.2895, 37.0668]], id: ortygia-wall, name: The walls of Ortygia}
+  units:
+    - {side: syracuse, type: camp, at: [15.2195, 37.0828], width: 260, depth: 200, facing: 270, id: euryalus, name: 'The Euryalus fort, held by the Syracusans'}
+    - {side: rome, type: ships, at: [15.3205, 37.0825], width: 2000, depth: 950, facing: 270, count: 12, rows: 2, id: roman-fleet, name: Marcellus’s fleet of 60 quinqueremes}
+    - {side: rome, type: ships, at: [15.3108, 37.0835], width: 800, depth: 330, facing: 270, count: 4, id: sambucae, name: Eight quinqueremes lashed in pairs to carry the sambucae}
+    - {side: rome, type: infantry, at: [15.2675, 37.1078], width: 1000, depth: 300, facing: 160, id: appius, name: Roman infantry under Appius Claudius}
+    - {side: rome, type: camp, at: [15.252, 37.1065], width: 420, depth: 300, facing: 160, id: appius-camp, name: Camp of Appius Claudius}
+    - {side: syracuse, type: infantry, at: [15.2975, 37.0805], width: 1000, depth: 260, facing: 90, id: achradina-defenders, name: 'Syracusans on the sea wall, with Archimedes’s engines'}
+    - {side: syracuse, type: infantry, at: [15.271, 37.099], width: 700, depth: 240, facing: 340, id: hexapylon-defenders, name: Syracusans at the Hexapylon}
+  arrows:
+    - {side: rome, path: [[15.3125, 37.0905], [15.3085, 37.0895]], width: 70, id: sea-assault, name: The ships attack the sea wall}
+    - {side: rome, path: [[15.3125, 37.0765], [15.3085, 37.0775]], width: 70, id: sea-assault, name: The ships attack the sea wall}
+    - {side: rome, path: [[15.2665, 37.1058], [15.2685, 37.1042]], width: 70, id: land-assault, name: Appius Claudius attacks the Hexapylon}
+  clashes:
+    - [15.3072, 37.0898]
+    - [15.3075, 37.0835]
+    - [15.3068, 37.0772]
+    - {at: [15.2695, 37.1038], size: 120}
+images:
+  syracuse-archimedes-claw:
+    file: syracuse-archimedes-claw.jpg
+    caption: "The claw of Archimedes lifting a Roman ship, wall painting by Giulio Parigi, about 1600"
+    credit: "Wikimedia Commons, Giulio Parigi, Public domain (Parigi griffe.jpg)"
+  syracuse-archimedes-defences:
+    file: syracuse-archimedes-defences.jpg
+    caption: "Archimedes Directing the Defences of Syracuse, painting by Thomas Ralph Spence, 1895"
+    credit: "Wikimedia Commons, Thomas Ralph Spence, Public domain (Archimedes Directing the Defenses of Syracuse.jpg)"

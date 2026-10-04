@@ -1,0 +1,32 @@
+date: "225 BC"
+title: "The fight for the hill"
+bbox: [11.11601, 42.55973, 11.22958, 42.6476]
+zones: []
+routes: []
+markers: [telamon-hill-regulus, telamon-hill-papus, telamon-hill-boii, telamon-hill-gaesatae, telamon-hill-booty]
+sources: ['Polybius, Histories, book 2, 27 to 28.']
+emblem:
+  kind: battle-plan
+  works:
+    - {side: gauls, path: [[11.18233, 42.60369], [11.17291, 42.61201]], width: 70, id: wagons, name: Gallic wagons and chariots on the flanks}
+    - {side: gauls, path: [[11.15709, 42.58799], [11.14767, 42.59631]], width: 70, id: wagons, name: Gallic wagons and chariots on the flanks}
+  units:
+    - {side: gauls, type: infantry, at: [11.16249, 42.60222], width: 2400, depth: 400, facing: 320, id: boii-taurisci, name: 'Boii and Taurisci, facing Regulus'}
+    - {side: gauls, type: infantry, at: [11.16751, 42.59778], width: 2400, depth: 400, facing: 140, id: gaesatae-insubres, name: 'Gaesatae and Insubres, facing Papus'}
+    - {side: gauls, type: cavalry, at: [11.17157, 42.61531], width: 600, depth: 200, facing: 320, id: gallic-cavalry, name: 'Gallic cavalry, sent to take the hill'}
+    - {side: gauls, type: infantry, at: [11.18966, 42.60707], width: 320, depth: 120, facing: 140, id: plunder, name: Guard over the plunder on a second hill}
+    - {side: rome, type: infantry, at: [11.14382, 42.61871], width: 2600, depth: 350, facing: 140, id: regulus-legions, name: Legions of Regulus’s army}
+    - {side: rome, type: light, at: [11.14657, 42.61629], width: 2400, depth: 70, facing: 140, id: regulus-velites, name: Velites of Regulus’s army}
+    - {side: rome, type: cavalry, at: [11.16982, 42.62248], width: 550, depth: 200, facing: 160, id: regulus-cavalry, name: Regulus with his cavalry on the hill}
+    - {side: rome, type: infantry, at: [11.18696, 42.5806], width: 2600, depth: 350, facing: 320, id: papus-legions, name: Legions of Papus’s army}
+    - {side: rome, type: light, at: [11.18422, 42.58302], width: 2400, depth: 70, facing: 320, id: papus-velites, name: Velites of Papus’s army}
+  arrows:
+    - {side: rome, path: [[11.15567, 42.62372], [11.16348, 42.62386], [11.16817, 42.62323]], width: 120, id: regulus-ride, name: Regulus leads his cavalry to the hill}
+    - {side: rome, path: [[11.19755, 42.58954], [11.20388, 42.60647], [11.18866, 42.62062], [11.17608, 42.62047]], width: 120, id: papus-cavalry, name: Papus sends his cavalry to help on the hill}
+  clashes:
+    - {at: [11.17088, 42.61901], size: 200}
+images:
+  telamon-plan-folard:
+    file: telamon-plan-folard.jpg
+    caption: "The Gauls enclosed between two Roman armies at Telamon, plate from the French edition of Polybius by Jean-Charles de Folard, about 1728"
+    credit: "Wikimedia Commons, unknown engraver, Public domain (Battle of Telamon - The Gauls captured between two Roman armies.jpg)"

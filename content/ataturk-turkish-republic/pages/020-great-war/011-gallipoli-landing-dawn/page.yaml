@@ -1,0 +1,31 @@
+when: { from: 1915-04-25 }
+date: "25 April 1915, dawn"
+title: "Arıburnu: the landing at dawn"
+bbox: [26.2335, 40.215, 26.3105, 40.268]
+zones: []
+routes: []
+markers: [gallipoli-landing-dawn-brigade, gallipoli-landing-dawn-sefik, gallipoli-landing-dawn-kabatepe]
+sources:
+  - "C. E. W. Bean, The Story of Anzac, volume 1 (1921)."
+  - "Andrew Mango, Atatürk (1999)."
+emblem:
+  kind: battle-plan
+  units:
+    - {side: british, type: ships, at: [26.2465, 40.2465], width: 1600, depth: 500, facing: 90, id: tows, name: Steam pinnaces towing the boats of the covering force, count: 12, rows: 2}
+    - {side: british, type: infantry, at: [26.276, 40.2515], width: 450, depth: 140, facing: 75, id: eleventh-battalion, name: '11th Battalion, towards Russell’s Top and the Nek'}
+    - {side: british, type: infantry, at: [26.2745, 40.2462], width: 450, depth: 140, facing: 95, id: tenth-battalion, name: '10th Battalion, on Plugge’s Plateau'}
+    - {side: british, type: infantry, at: [26.2755, 40.2405], width: 500, depth: 140, facing: 110, id: ninth-battalion, name: '9th and 12th Battalions, towards the 400 Plateau'}
+    - {side: republic, type: light, at: [26.279, 40.2495], width: 300, depth: 60, facing: 270, id: turkish-platoon, name: 'A platoon of the 2nd Battalion, 27th Regiment, falling back'}
+    - {side: republic, type: light, at: [26.2665, 40.258], width: 200, depth: 50, facing: 270, id: fishermans-hut, name: A second platoon at the Fisherman’s Hut}
+  arrows:
+    - {side: british, path: [[26.252, 40.2505], [26.261, 40.2495], [26.2675, 40.2485]], width: 70, id: first-wave, name: 'The first six companies land at Arıburnu, about 4.30'}
+    - {side: british, path: [[26.252, 40.243], [26.2625, 40.244], [26.2695, 40.2448]], width: 70, id: second-wave, name: The second six companies land while it is still dark}
+    - {side: british, path: [[26.2765, 40.2525], [26.28, 40.254], [26.2835, 40.2555]], width: 60, id: to-baby-700, name: Small parties push on to Baby 700}
+    - {side: british, path: [[26.2775, 40.24], [26.28, 40.2375], [26.2815, 40.235]], width: 60, id: to-400-plateau, name: Towards the 400 Plateau}
+    - {side: republic, path: [[26.2825, 40.249], [26.2875, 40.2475], [26.2925, 40.2455]], width: 50, id: platoon-falls-back, name: The Turkish platoon withdraws inland, style: dashed}
+    - {side: republic, path: [[26.3085, 40.219], [26.3005, 40.226], [26.2945, 40.233]], width: 90, id: sefik-march, name: Mehmet Şefik’s 27th Regiment marches from Eceabat}
+images:
+  ariburnu-sunrise:
+    file: ariburnu-sunrise.jpg
+    caption: "Boats of the 6th and 7th Battalions leave the beach at Arıburnu at sunrise, 25 April 1915, with the heights of Conkbayırı beyond"
+    credit: "Wikimedia Commons, Australian War Memorial collection, No restrictions (The landing at Anzac, 25 April 1915 (3461450491).jpg)"

@@ -1,11 +1,9 @@
-Six months after the Armistice of Mudros, Allied troops hold İstanbul and the Straits, French forces sit in Cilicia, and Italian units have landed at Antalya. On 15 May 1919 a Greek army lands at İzmir under Allied cover.
+Six months after the Armistice of Mudros, Allied troops hold İstanbul and the Straits. British troops hold Antep, Maraş and Urfa, French troops hold Cilicia, and Italian troops have landed at Antalya. On 15 May 1919 a Greek army lands at İzmir under the cover of Allied warships.
 
 @image izmir-1919
 
-Four days later Mustafa Kemal Pasha steps ashore at Samsun as Inspector of the Ninth Army, with orders to demobilise the remaining Ottoman units in Anatolia. He does the opposite.
+Four days later, on 19 May, Mustafa Kemal Pasha lands at Samsun as Inspector of the Ninth Army. His orders are to restore order in the region and to supervise what remains of the Ottoman army there. He uses the post to organise resistance to the occupation.
 
 @image samsun-1919
-
-This page shows the map at rest: occupation zones as tinted areas, landings as anchors, and the Samsun landing as the starting point of the route that the next pages follow.
 
 @image samsun-appointment

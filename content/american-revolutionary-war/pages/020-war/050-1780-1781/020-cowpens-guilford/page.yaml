@@ -1,0 +1,26 @@
+when: {from: '1781-01-17', to: '1781-03-15'}
+date: "January to March 1781"
+title: "Cowpens, Guilford Court House, and the Articles in force"
+bbox: [-83.5, 31.5, -75.5, 38]
+zones: [states-1776, quebec-1774, nova-scotia, new-york-held, savannah-held, charleston-held]
+routes: [cornwallis-1781]
+markers: [guilford, philadelphia-1781]
+battle: cowpens
+sources: ['Robert Middlekauff, The Glorious Cause (2005).', 'John Ferling, Almost a Miracle (2007).', 'Lawrence E. Babits, A Devil of a Whipping (1998).']
+images:
+  cowpens-ranney:
+    file: cowpens-ranney.jpg
+    caption: "The Battle of Cowpens, 17 January 1781, painting by William Ranney, 1845"
+    credit: "Wikimedia Commons, William Ranney, Public domain (Cowpens.jpg)"
+  tarleton-reynolds:
+    file: tarleton-reynolds.jpg
+    caption: "Banastre Tarleton, portrait by Joshua Reynolds, 1782"
+    credit: "Wikimedia Commons, Joshua Reynolds, Public domain (Banastre-Tarleton-by-Joshua-Reynolds.jpg)"
+  guilford-mcbarron:
+    file: guilford-mcbarron.jpg
+    caption: "The Battle of Guilford Court House, 15 March 1781, painting by H. Charles McBarron Jr. for the United States Army"
+    credit: "Wikimedia Commons, H. Charles McBarron Jr., Public domain (Battle of Guilford Courthouse 15 March 1781.jpg)"
+  articles-of-confederation:
+    file: articles-of-confederation.jpg
+    caption: "First page of the Articles of Confederation as sent to the states in November 1777"
+    credit: "Wikimedia Commons, United States government, Public domain (Articles page1.jpg)"

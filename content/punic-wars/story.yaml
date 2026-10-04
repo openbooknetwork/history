@@ -1,0 +1,38 @@
+# One story: a timeline shown on one map.
+id: punic-wars
+title: "The Punic Wars"
+summary: "Three wars between Rome and Carthage, from the crossing to Messana in 264 BC through Hannibal’s invasion of Italy to the destruction of Carthage in 146 BC."
+cover: cover.jpg              # Henri Motte, Hannibal’s elephants crossing the Rhône, 1878; shown on the main page
+span: "264 – 146 BC"          # BC years cannot go in a page's when, so the card's date line is written out
+languages: [en, tr]
+default_language: en
+labels:
+  countries: false
+
+# Map extent for the border data and the opening view: [west, south, east, north]. Reaches Iberia, the Alps,
+# Greece and Asia Minor; the borders are cut 5° beyond it, which takes Turkey to Antioch for Hannibal's exile.
+extent: [-10, 29.5, 34, 47]
+# Countries whose land the zones are clipped to. Natural Earth names.
+land: [Portugal, Spain, Gibraltar, Andorra, France, Monaco, Italy, San Marino, Vatican, Malta, Switzerland, Morocco, Algeria, Tunisia, Libya, Greece, Albania,
+  Macedonia, Bulgaria, Turkey]
+# Countries drawn with borders. Everything else inside the extent is left out.
+countries: [Portugal, Spain, Gibraltar, Andorra, France, Monaco, Switzerland, Liechtenstein, Germany, Austria, Italy, San Marino, Vatican, Malta,
+  Slovenia, Croatia, Bosnia and Herz., Montenegro, Serbia, Kosovo, Albania, Macedonia, Greece, Bulgaria, Romania, Hungary, Turkey, Cyprus,
+  Morocco, Algeria, Tunisia, Libya, Egypt, Lebanon, Syria, Israel, Palestine, Jordan, N. Cyprus]
+
+# Zone families. A zone subtracts every zone from a family with a lower priority number.
+# Zones in the same family never cut each other, so one family can hold several dated shapes.
+families:
+  other:    { priority: 0, color: "#7f8c8d", color_dark: "#aab7b8", pattern: dots }  # Messana under the Mamertines, Massalia, Bithynia
+  syracuse: { priority: 1, color: "#2f7fb5", color_dark: "#6fb2e6" }                 # the kingdom of Hiero II in eastern Sicily
+  hannibal: { priority: 1, color: "#8e5fc2", color_dark: "#b48ee0", pattern: hatch } # Italian cities on Hannibal's side after Cannae
+  rome:     { priority: 2, color: "#b03a2e", color_dark: "#e8695c" }                 # Rome and its Italian allies, later its provinces
+  carthage: { priority: 3, color: "#6a3d9a", color_dark: "#a98bd6" }                 # Carthage and its territory
+  numidia:  { priority: 4, color: "#c78a1c", color_dark: "#f0b54a", pattern: dots }  # the Numidian kingdoms
+  gauls:    { priority: 4, color: "#8a6a3f", color_dark: "#c4a173", pattern: cross } # Cisalpine Gaul
+  macedon:  { priority: 5, color: "#2e8b57", color_dark: "#5fcf8f", pattern: hatch } # Macedon
+  seleucid: { priority: 5, color: "#1f8a8a", color_dark: "#4fc4c4" }                 # the Seleucid kingdom of Antiochus III
+# Corner rounding passes applied to every hand drawn zone before the clip.
+smoothing: 4
+# Battle plans are drawn at the scale of the field, a few kilometres across.
+max_zoom: 14

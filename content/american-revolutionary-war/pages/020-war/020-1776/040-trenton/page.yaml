@@ -1,0 +1,22 @@
+when: {from: '1776-12-26', to: '1777-01-06'}
+date: "26 December 1776 to 6 January 1777"
+title: "Trenton and Princeton"
+bbox: [-75.3, 39.9, -73.9, 40.95]
+zones: [states-1776, new-york-held]
+routes: [washington-1776]
+markers: [princeton, morristown]
+battle: trenton
+sources: ['Robert Middlekauff, The Glorious Cause (2005).', 'David McCullough, 1776 (2005).', 'David Hackett Fischer, Washington’s Crossing (2004).']
+images:
+  delaware-leutze:
+    file: delaware-leutze.jpg
+    caption: "Washington Crossing the Delaware, painting by Emanuel Leutze, 1851"
+    credit: "Wikimedia Commons, Emanuel Leutze, CC0 (Washington Crossing the Delaware MET DP258220.jpg)"
+  hessians-trumbull:
+    file: hessians-trumbull.jpg
+    caption: "The Capture of the Hessians at Trenton, 26 December 1776, painting by John Trumbull"
+    credit: "Wikimedia Commons, John Trumbull, Public domain (The Capture of the Hessians at Trenton December 26 1776.jpeg)"
+  mercer-trumbull:
+    file: mercer-trumbull.jpg
+    caption: "The Death of General Mercer at the Battle of Princeton, 3 January 1777, painting by John Trumbull"
+    credit: "Wikimedia Commons, John Trumbull, Public domain (The Death of General Mercer at the Battle of Princeton January 3 1777.jpeg)"

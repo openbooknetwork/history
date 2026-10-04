@@ -1,0 +1,3 @@
+During the night the Turkish VI Corps of the Second Army reaches the north of Trikoupis's group, while the V Cavalry Corps and the IV Corps come between it and Frangou's group at Dumlupınar. When Trikoupis moves west on the morning of 29 August, his columns run into Turkish units on every side.
+
+His 9th Division attacks to open the road to Dumlupınar and is thrown onto the defensive by the IV Corps, while the Turks attack the 12th Division on his eastern flank. The fighting at Hamurköy and İlbulak Dağ lasts all day with heavy losses on both sides. At 23.00 the Greek group breaks away and marches through the dark towards Çalköy, losing its order as units mix.

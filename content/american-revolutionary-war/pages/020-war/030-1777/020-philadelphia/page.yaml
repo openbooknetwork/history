@@ -1,0 +1,26 @@
+when: {from: '1777-08-25', to: '1778-06-19'}
+date: "August 1777 to June 1778"
+title: "Brandywine, Philadelphia and Valley Forge"
+bbox: [-77.5, 38.5, -73.5, 41]
+zones: [states-1776, quebec-1774, nova-scotia, new-york-held, philadelphia-held]
+routes: [howe-1777]
+markers: [philadelphia-1777, germantown, york-1777, valley-forge]
+battle: brandywine
+sources: ['Robert Middlekauff, The Glorious Cause (2005).', 'John Ferling, Almost a Miracle (2007).']
+images:
+  brandywine-1777:
+    file: brandywine-1777.jpg
+    caption: "The American battery firing on Brandywine heights, 11 September 1777, watercolour by William Augustus West"
+    credit: "Wikimedia Commons, William Augustus West, Public domain (The Battery of the Rebels opened on Brandywine heights the 11th of September 1777 in the county of Birmingham.jpg)"
+  brandywine-vanderlyn:
+    file: brandywine-vanderlyn.jpg
+    caption: "Washington and Lafayette at the Battle of Brandywine, painting by John Vanderlyn"
+    credit: "Wikimedia Commons, John Vanderlyn, Public domain (Washington and Lafayette at the Battle of Brandywine.jpg)"
+  germantown-della-gatta:
+    file: germantown-della-gatta.jpg
+    caption: "The Battle of Germantown, 4 October 1777, painting by Xavier della Gatta, 1782"
+    credit: "Wikimedia Commons, Xavier della Gatta, Public domain (Battle of Germantown.jpg)"
+  steuben-valley-forge:
+    file: steuben-valley-forge.png
+    caption: "Baron von Steuben drilling troops at Valley Forge, painting by Edwin Austin Abbey"
+    credit: "Wikimedia Commons, Edwin Austin Abbey, Public domain (Baron Steuben drilling troops at Valley Forge by E A Abbey.png)"

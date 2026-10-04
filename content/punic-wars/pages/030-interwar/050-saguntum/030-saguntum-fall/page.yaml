@@ -1,0 +1,32 @@
+date: "219 BC"
+title: "The fall of Saguntum"
+bbox: [-0.30018, 39.65679, -0.24765, 39.69207]
+zones: []
+routes: []
+markers: [saguntum-fall-maharbal, saguntum-fall-tower, saguntum-fall-sappers, saguntum-fall-fire]
+sources: ['Livy, History of Rome, book 21, 11 to 15 and 18.', 'Polybius, Histories, book 3, 17 and 20 to 21.']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-0.30952, 39.69343], [-0.29201, 39.68981], [-0.2745, 39.68827], [-0.25699, 39.68682], [-0.23948, 39.68501], [-0.22081, 39.68393]], width: 60, id: palancia, name: The river Palancia}
+  works:
+    - {side: neutral, path: [[-0.28138, 39.67938], [-0.28082, 39.67965], [-0.28012, 39.6799], [-0.27929, 39.68011], [-0.27836, 39.68029], [-0.27734, 39.68043], [-0.27625, 39.68052], [-0.27512, 39.68057], [-0.27399, 39.68058], [-0.27286, 39.68053], [-0.27177, 39.68044], [-0.27074, 39.68031], [-0.26979, 39.68013], [-0.26896, 39.67992], [-0.26824, 39.67968], [-0.26767, 39.67941], [-0.26725, 39.67912], [-0.267, 39.67881], [-0.26691, 39.6785], [-0.267, 39.67819], [-0.26725, 39.67788], [-0.26767, 39.67759], [-0.26824, 39.67732], [-0.26896, 39.67708], [-0.26979, 39.67687], [-0.27074, 39.67669], [-0.27177, 39.67656], [-0.27286, 39.67647], [-0.27399, 39.67642], [-0.27512, 39.67643], [-0.27625, 39.67648], [-0.27734, 39.67657], [-0.27836, 39.67671], [-0.27929, 39.67689], [-0.28012, 39.6771], [-0.28082, 39.67735], [-0.28138, 39.67762]], width: 45, id: walls, name: 'The walls of Saguntum, breached at the west'}
+    - {side: neutral, path: [[-0.27952, 39.68031], [-0.27882, 39.6785], [-0.27952, 39.67669]], width: 40, id: inner-wall, name: The inner wall built behind the breach}
+    - {side: carthage, path: [[-0.28967, 39.68528], [-0.29201, 39.6785], [-0.28851, 39.67199], [-0.2745, 39.67036], [-0.26049, 39.67199], [-0.25699, 39.6785], [-0.25933, 39.68528]], width: 50, id: siege-lines, name: Carthaginian siege lines}
+  units:
+    - {side: neutral, type: infantry, at: [-0.2731, 39.6785], width: 650, depth: 150, facing: 180, id: saguntines, name: The Saguntines behind the inner wall}
+    - {side: carthage, type: camp, at: [-0.28909, 39.66267], width: 700, depth: 600, facing: 0, id: camp, name: Carthaginian camp on the plain}
+    - {side: carthage, type: infantry, at: [-0.28104, 39.6785], width: 280, depth: 150, facing: 90, id: breach, name: Carthaginians in the breach}
+    - {side: carthage, type: infantry, at: [-0.28792, 39.6785], width: 500, depth: 220, facing: 90, id: west-assault, name: Carthaginian assault force at the western corner}
+    - {side: carthage, type: infantry, at: [-0.2745, 39.669], width: 600, depth: 200, facing: 0, id: south-assault, name: Troops under Maharbal on the south side}
+  arrows:
+    - {side: carthage, path: [[-0.28652, 39.6785], [-0.28267, 39.6785]], width: 150, id: breach-attack, name: Through the breach towards the inner wall}
+    - {side: carthage, path: [[-0.2745, 39.67], [-0.2745, 39.67624]], width: 110, id: south-attack, name: Attack on the southern wall}
+  clashes:
+    - [-0.27917, 39.6785]
+    - [-0.2745, 39.67642]
+images:
+  saguntum-last-day:
+    file: saguntum-last-day.jpg
+    caption: "The Last Day of Saguntum, painting by Francisco Domingo Marqués, 1869"
+    credit: "Wikimedia Commons, Joan Gené, CC BY-SA 4.0 (L'Enigma Iber - Últim dia de Sagunt.jpg)"

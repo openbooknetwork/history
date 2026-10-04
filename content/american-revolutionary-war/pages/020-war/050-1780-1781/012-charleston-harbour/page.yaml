@@ -1,0 +1,34 @@
+date: "1 April to 7 May 1780"
+title: "Charleston: the harbour and the neck"
+bbox: [-79.97611, 32.74522, -79.84787, 32.82664]
+zones: []
+routes: []
+markers: [charleston-harbour-lincoln, charleston-harbour-clinton, charleston-harbour-arbuthnot, charleston-harbour-whipple]
+sources: ['Carl P. Borick, A Gallant Defense: The Siege of Charleston, 1780 (2003).', 'John Buchanan, The Road to Guilford Courthouse (1997).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-79.9729, 32.78955], [-79.96756, 32.79588], [-79.96115, 32.80176], [-79.95955, 32.81126], [-79.96168, 32.82483], [-79.96649, 32.83207]], width: 700, id: ashley, name: The Ashley River}
+    - {path: [[-79.95527, 32.80022], [-79.94512, 32.80031], [-79.9355, 32.8004], [-79.9309, 32.80031]], width: 30, id: canal, name: The canal in front of the American lines}
+  works:
+    - {side: usa, path: [[-79.95581, 32.7995], [-79.94939, 32.79968], [-79.94191, 32.79977], [-79.9371, 32.79986], [-79.9339, 32.79977], [-79.93069, 32.79959]], width: 50, id: american-lines, name: 'The American lines across the neck, where Marion Square is today'}
+    - {side: held, path: [[-79.95634, 32.80638], [-79.94726, 32.80628], [-79.93871, 32.80619], [-79.93176, 32.80601]], width: 40, id: first-parallel, name: 'First British parallel, opened on 1 April, 800 yards from the lines'}
+    - {side: held, path: [[-79.95474, 32.80384], [-79.94512, 32.80375], [-79.9355, 32.80366], [-79.93197, 32.80357]], width: 40, id: second-parallel, name: Second British parallel}
+    - {side: held, path: [[-79.9526, 32.80158], [-79.94405, 32.80149], [-79.9355, 32.8014], [-79.93229, 32.80131]], width: 40, id: third-parallel, name: 'Third British parallel, at the canal by 6 May'}
+  units:
+    - {side: usa, type: camp, at: [-79.93657, 32.79887], width: 220, depth: 160, facing: 0, id: hornwork, name: The hornwork at the centre of the lines}
+    - {side: usa, type: infantry, at: [-79.94298, 32.79715], width: 1600, depth: 130, facing: 0, id: garrison, name: 'Lincoln’s garrison, Continentals and militia, about 5,500'}
+    - {side: held, type: infantry, at: [-79.94405, 32.8099], width: 1800, depth: 160, facing: 180, id: besiegers, name: 'Clinton’s army in the siege lines, British and Hessian'}
+    - {side: usa, type: camp, at: [-79.85699, 32.759], width: 280, depth: 280, facing: 0, id: fort-moultrie, name: 'Fort Moultrie on Sullivan’s Island, surrenders on 7 May'}
+    - {side: held, type: camp, at: [-79.9, 32.752], width: 240, depth: 240, facing: 0, id: fort-johnson, name: 'Fort Johnson, a British battery on James Island'}
+    - {side: held, type: ships, at: [-79.89382, 32.76738], width: 1600, depth: 450, facing: 300, id: arbuthnot, name: Arbuthnot’s squadron in the harbour, count: 10, rows: 2}
+    - {side: usa, type: ships, at: [-79.91787, 32.79045], width: 1800, depth: 160, facing: 0, id: whipple, name: 'Whipple’s ships, sunk across the mouth of the Cooper', count: 8}
+    - {side: held, type: infantry, at: [-79.87565, 32.79091], width: 700, depth: 140, facing: 220, id: cornwallis, name: Cornwallis east of the Cooper from 23 April}
+  arrows:
+    - {side: held, path: [[-79.83291, 32.72441], [-79.85642, 32.74793], [-79.87886, 32.75924], [-79.88955, 32.76512]], width: 140, id: arbuthnot-run, name: 'Arbuthnot runs 14 ships past Fort Moultrie, 8 April'}
+    - {side: held, path: [[-79.90985, 32.85378], [-79.88955, 32.82302], [-79.87779, 32.79543]], width: 140, id: cornwallis-cross, name: Cornwallis crosses the Cooper and comes down the east bank}
+images:
+  charleston-chappel-battery:
+    file: charleston-chappel-battery.jpg
+    caption: "British siege guns before Charleston in 1780, the city across the water behind them, engraving after Alonzo Chappel, 1862"
+    credit: "Wikimedia Commons, Alonzo Chappel, Public domain (Sullivans-island-1050x777.jpg)"

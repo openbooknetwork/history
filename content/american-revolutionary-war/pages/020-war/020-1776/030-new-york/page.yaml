@@ -1,0 +1,26 @@
+when: {from: '1776-08-27', to: '1776-12-08'}
+date: "August to December 1776"
+title: "New York falls, and the retreat across New Jersey"
+bbox: [-75.3, 39.9, -72.6, 41.3]
+zones: [states-1776, new-york-held]
+routes: [washington-1776]
+markers: [new-york-1776, white-plains, fort-washington, trenton]
+battle: long-island
+sources: ['Robert Middlekauff, The Glorious Cause (2005).', 'David McCullough, 1776 (2005).']
+images:
+  long-island-chappel:
+    file: long-island-chappel.jpg
+    caption: "The Battle of Long Island, 27 August 1776, painting by Alonzo Chappel, 1858"
+    credit: "Wikimedia Commons, Alonzo Chappel, Public domain (Battle of Long Island, 1858.jpg)"
+  long-island-1776:
+    file: long-island-1776.jpg
+    caption: "The British attack on Long Island, detail of a map published by John Bowles, 1776"
+    credit: "Wikimedia Commons, Bowles, John, Public domain (Battle of Long Island (crop).jpg)"
+  new-york-fire-1776:
+    file: new-york-fire-1776.jpg
+    caption: "The great fire of New York, September 1776, engraving by Franz Xaver Habermann"
+    credit: "Wikimedia Commons, Franz Xaver Habermann, Public domain (NYC fire 1776.jpg)"
+  fort-washington-davies:
+    file: fort-washington-davies.jpg
+    caption: "The British attack on Fort Washington, 16 November 1776, watercolour by Thomas Davies, a Royal Artillery officer"
+    credit: "Wikimedia Commons, Thomas Davies, Public domain (View of the Attack Against Fort Washington.jpeg)"

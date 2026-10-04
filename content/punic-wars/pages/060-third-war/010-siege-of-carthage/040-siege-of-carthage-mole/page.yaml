@@ -1,0 +1,42 @@
+date: "147 BC"
+title: "The mole and the new channel"
+bbox: [10.294, 36.83, 10.334, 36.862]
+zones: []
+routes: []
+markers: [carthage-mole-mole, carthage-mole-channel, carthage-mole-fleet, carthage-mole-quay, carthage-mole-byrsa]
+sources: ['Appian, The Punic Wars, 121 to 126.', 'Adrian Goldsworthy, The Fall of Carthage (2006).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[10.313, 36.8485], [10.31332, 36.84846], [10.31362, 36.84836], [10.31387, 36.8482], [10.31407, 36.848], [10.31419, 36.84776], [10.31423, 36.8475], [10.31419, 36.84724], [10.31407, 36.847], [10.31387, 36.8468], [10.31362, 36.84664], [10.31332, 36.84654], [10.313, 36.8465], [10.31268, 36.84654], [10.31238, 36.84664], [10.31213, 36.8468], [10.31193, 36.847], [10.31181, 36.84724], [10.31177, 36.8475], [10.31181, 36.84776], [10.31193, 36.848], [10.31213, 36.8482], [10.31238, 36.84836], [10.31268, 36.84846], [10.313, 36.8485]], width: 110, id: naval-harbour, name: The circular naval harbour}
+    - {area: [[10.31087, 36.84207], [10.31379, 36.84207], [10.31379, 36.84569], [10.31087, 36.84569]], id: merchant-harbour, name: The merchant harbour}
+    - {path: [[10.31255, 36.84569], [10.31283, 36.8465]], width: 50, id: passage, name: The passage between the harbours}
+    - {path: [[10.31255, 36.84207], [10.31356, 36.84117], [10.31491, 36.84026]], width: 60, id: old-entrance, name: The old harbour entrance}
+    - {path: [[10.31468, 36.84804], [10.31637, 36.84786], [10.31884, 36.84777]], width: 55, id: new-channel, name: The new channel cut to the open sea}
+  works:
+    - {side: neutral, width: 45, path: [[10.33601, 36.89183], [10.34241, 36.8864], [10.34735, 36.88025], [10.34499, 36.87464], [10.34017, 36.86876], [10.33018, 36.86017], [10.32277, 36.85383], [10.31878, 36.8504], [10.31732, 36.8475], [10.31536, 36.84388], [10.3139, 36.84117]], id: sea-wall, name: The sea wall}
+    - {side: neutral, width: 45, path: [[10.3139, 36.84117], [10.30514, 36.84062], [10.29392, 36.84135], [10.28045, 36.84361]], id: lake-wall, name: The wall along the Lake of Tunis}
+    - {side: neutral, width: 40, path: [[10.31019, 36.85582], [10.31083, 36.85575], [10.31143, 36.85556], [10.31194, 36.85524], [10.31233, 36.85483], [10.31258, 36.85435], [10.31266, 36.85383], [10.31258, 36.85332], [10.31233, 36.85284], [10.31194, 36.85243], [10.31143, 36.85211], [10.31083, 36.85191], [10.31019, 36.85184], [10.30955, 36.85191], [10.30896, 36.85211], [10.30845, 36.85243], [10.30805, 36.85284], [10.30781, 36.85332], [10.30772, 36.85383], [10.30781, 36.85435], [10.30805, 36.85483], [10.30845, 36.85524], [10.30896, 36.85556], [10.30955, 36.85575], [10.31019, 36.85582]], id: byrsa, name: 'The Byrsa, the citadel'}
+    - {side: neutral, width: 90, path: [[10.31564, 36.84162], [10.31727, 36.84433], [10.31861, 36.8466]], id: quay, name: The broad quay in front of the harbour wall}
+    - {side: rome, width: 80, path: [[10.31109, 36.83257], [10.31412, 36.83574], [10.31637, 36.83845], [10.31749, 36.84008]], id: mole, name: Scipio’s mole across the harbour entrance}
+    - {side: rome, width: 50, path: [[10.31682, 36.84243], [10.31822, 36.84479]], id: brick-wall, name: The Roman brick wall on the quay}
+  units:
+    - {side: carthage, type: ships, at: [10.32479, 36.84859], width: 900, depth: 520, facing: 90, count: 10, rows: 2, id: new-fleet, name: 'The new Carthaginian fleet, 50 triremes and small craft'}
+    - {side: rome, type: ships, at: [10.33231, 36.84614], width: 1300, depth: 520, facing: 270, count: 12, rows: 2, id: roman-fleet, name: The Roman fleet}
+    - {side: carthage, type: ships, at: [10.32018, 36.84497], width: 500, depth: 230, facing: 90, count: 4, id: trapped-ships, name: Carthaginian ships caught against the sea wall}
+    - {side: rome, type: ships, at: [10.31884, 36.8371], width: 600, depth: 260, facing: 300, count: 4, id: mole-ships, name: Roman ships by the mole}
+  arrows:
+    - {side: carthage, path: [[10.31884, 36.84786], [10.32086, 36.84822], [10.3222, 36.8485]], width: 70, id: sortie, name: The new fleet sails out through the channel}
+    - {side: rome, path: [[10.32849, 36.84524], [10.32366, 36.84515], [10.32176, 36.84501]], width: 80, id: roman-attack, name: The Romans fall on the ships at the sea wall}
+  clashes:
+    - [10.3286, 36.8475]
+    - [10.32153, 36.84501]
+images:
+  carthage-ports-1942:
+    file: carthage-ports-1942.jpg
+    caption: "The Punic harbours of Carthage from the air in 1942, the rectangular merchant harbour and the circular naval harbour"
+    credit: "Wikimedia Commons, unknown photographer, Public domain (Carthage view.jpg)"
+  carthage-naval-harbour:
+    file: carthage-naval-harbour.jpg
+    caption: "The circular naval harbour of Carthage today"
+    credit: "Wikimedia Commons, Emna Mizouni, CC BY-SA 4.0 (Punic Harbour 1.JPG)"

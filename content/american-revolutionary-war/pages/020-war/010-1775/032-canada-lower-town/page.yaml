@@ -1,0 +1,35 @@
+when: {from: '1775-12-31'}
+date: "31 December 1775"
+title: "Quebec: the barricades of the Lower Town"
+bbox: [-71.25025, 46.78958, -71.22103, 46.82105]
+zones: []
+routes: []
+markers: [canada-lower-town-montgomery, canada-lower-town-arnold, canada-lower-town-morgan, canada-lower-town-caldwell]
+sources: ['Justin H. Smith, Our Struggle for the Fourteenth Colony (1907).', 'Mark R. Anderson, The Battle for the Fourteenth Colony (2013).']
+emblem:
+  kind: battle-plan
+  water:
+    - {area: [[-71.22443, 46.81672], [-71.22911, 46.81753], [-71.23521, 46.81782], [-71.24324, 46.81765], [-71.25325, 46.8173], [-71.25555, 46.83021], [-71.22081, 46.83314], [-71.21816, 46.81826]], id: st-charles, name: The St Charles estuary}
+  works:
+    - {side: held, path: [[-71.22836, 46.80651], [-71.23204, 46.80852], [-71.23493, 46.81059], [-71.23512, 46.81279], [-71.23406, 46.8159], [-71.23099, 46.81677], [-71.22695, 46.81671]], width: 60, id: walls, name: The walls of the Upper Town}
+    - {side: held, path: [[-71.22655, 46.81674], [-71.22594, 46.81558]], width: 44, id: first-barricade, name: The first barricade at the Sault-au-Matelot}
+    - {side: held, path: [[-71.22728, 46.81406], [-71.22635, 46.81333]], width: 44, id: second-barricade, name: 'The second barricade, held by Caldwell'}
+    - {side: held, path: [[-71.23264, 46.80454], [-71.23174, 46.80401]], width: 52, id: pres-de-ville, name: The blockhouse and palisades at Près-de-Ville}
+  units:
+    - {side: usa, type: infantry, at: [-71.23663, 46.80037], width: 50, depth: 260, facing: 218, id: montgomery, name: 'Montgomery’s column, falling back to the Plains of Abraham under Campbell'}
+    - {side: usa, type: infantry, at: [-71.22686, 46.8151], width: 70, depth: 150, facing: 183, id: morgan, name: 'Morgan’s men, past the first barricade and held at the second'}
+    - {side: held, type: infantry, at: [-71.22691, 46.81308], width: 120, depth: 50, facing: 13, id: caldwell, name: 'Caldwell’s militia, Royal Highland Emigrants and the 7th Foot at the second barricade'}
+    - {side: held, type: infantry, at: [-71.23159, 46.81732], width: 60, depth: 220, facing: 83, id: laws, name: Captain Laws with 500 men out of the Palace Gate}
+    - {side: usa, type: infantry, at: [-71.23517, 46.81762], width: 50, depth: 120, facing: 88, id: dearborn, name: 'Dearborn’s company, cut off and captured'}
+  arrows:
+    - {side: usa, path: [[-71.23436, 46.80177], [-71.2397, 46.79779], [-71.24504, 46.79382]], width: 64, style: dashed, id: montgomery-retreat, name: Campbell leads the column back after Montgomery is killed}
+    - {side: held, path: [[-71.23305, 46.817], [-71.22954, 46.81709], [-71.22745, 46.81666]], width: 64, id: laws-sortie, name: Laws retakes the first barricade behind Morgan}
+  clashes:
+    - {at: [-71.23239, 46.80426], size: 96}
+    - {at: [-71.22682, 46.8137], size: 96}
+    - {at: [-71.22625, 46.81616], size: 72}
+images:
+  daniel-morgan-peale:
+    file: daniel-morgan-peale.jpg
+    caption: "Daniel Morgan, who led Arnold’s column after Arnold was wounded, portrait by Charles Willson Peale, about 1794"
+    credit: "Wikimedia Commons, Charles Willson Peale, Public domain (DanielMorgan.jpeg)"

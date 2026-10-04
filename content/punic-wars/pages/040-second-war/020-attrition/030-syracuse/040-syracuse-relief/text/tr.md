@@ -1,0 +1,3 @@
+Hippokrates ve Kartacalı general Himilko ordularını Anapos Nehri’ne getirir ve kentin güneyinde, Olympos Zeus’u tapınağının yakınında konaklar. Bomilkar komutasındaki bir Kartaca donanması Büyük Liman’a erzak getirir. Hippokrates Roma hatlarına saldırır, Epikydes de Akhradina’dan bir çıkış yapar. İki saldırı da püskürtülür.
+
+Sonbaharda nehrin yanındaki alçak ve bataklık arazide veba baş gösterir. Hastalık iki orduyu da vurur, ama bataklığın yanında açıkta konaklayan Kartacalılar en ağır kaybı verir. Himilko ve Hippokrates ölür, orduları dağılır. Bomilkar’ın daha büyük bir donanmayla yaptığı sonraki girişim de savaşa varmadan sona erer.

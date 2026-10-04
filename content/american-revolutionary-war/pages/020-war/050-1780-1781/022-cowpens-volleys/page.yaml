@@ -1,0 +1,28 @@
+when: '1781-01-17'
+date: "17 January 1781, about 7 am"
+title: "Cowpens: the militia fall back"
+bbox: [-81.82532, 35.12433, -81.80085, 35.14448]
+zones: []
+routes: []
+markers: [cowpens-volleys-pickens, cowpens-volleys-howard, cowpens-volleys-tarleton, cowpens-volleys-mcarthur]
+sources: ['Lawrence E. Babits, A Devil of a Whipping (1998).', 'John Buchanan, The Road to Guilford Courthouse (1997).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: usa, type: infantry, at: [-81.81375, 35.13981], width: 220, depth: 70, facing: 135, id: pickens, name: 'Pickens’s militia, falling back round the left as ordered'}
+    - {side: usa, type: infantry, at: [-81.81553, 35.13718], width: 260, depth: 80, facing: 135, id: continentals, name: 'Howard’s main line: Continentals from Maryland and Delaware'}
+    - {side: usa, type: infantry, at: [-81.81841, 35.13635], width: 160, depth: 70, facing: 135, id: virginia-militia, name: 'Virginia militia, withdrawing after a misheard order'}
+    - {side: usa, type: cavalry, at: [-81.81282, 35.13904], width: 120, depth: 80, facing: 105, id: washington, name: William Washington’s dragoons}
+    - {side: held, type: infantry, at: [-81.81414, 35.13526], width: 440, depth: 80, facing: 315, id: british-line, name: British infantry advancing in line}
+    - {side: held, type: infantry, at: [-81.81654, 35.13213], width: 150, depth: 80, facing: 345, id: 71st, name: 71st Highlanders moving round the American right}
+    - {side: held, type: cavalry, at: [-81.808, 35.13213], width: 160, depth: 80, facing: 315, id: legion-cavalry, name: 'British Legion cavalry, 200, kept for the pursuit'}
+  arrows:
+    - {side: usa, path: [[-81.8132, 35.13706], [-81.81235, 35.13929], [-81.81468, 35.14083]], width: 45, id: pickens-back, name: Pickens’s militia fire two volleys and file off around the left, style: dashed}
+    - {side: held, path: [[-81.81002, 35.13571], [-81.81165, 35.13872]], width: 35, id: ogilvie, name: Ogilvie’s dragoons charge the retreating militia}
+    - {side: usa, path: [[-81.81616, 35.13987], [-81.81344, 35.13968]], width: 35, id: washington-charge, name: Washington’s dragoons drive them back}
+    - {side: held, path: [[-81.81188, 35.12996], [-81.81522, 35.13079], [-81.81608, 35.13162]], width: 40, id: 71st-flank, name: The 71st is sent round the American right}
+    - {side: usa, path: [[-81.81763, 35.13571], [-81.81825, 35.13622]], width: 30, id: virginians-back, name: The Virginia militia begin to withdraw, style: dashed}
+  clashes:
+    - {at: [-81.81188, 35.13878], size: 60}
+    - {at: [-81.81507, 35.13603], size: 60}
+images: {}

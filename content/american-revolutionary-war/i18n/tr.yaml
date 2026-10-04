@@ -1,0 +1,4550 @@
+# tr strings for the story "american-revolutionary-war".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# 1763 – 1775: The road to war
+groups.road-to-war.title: "1763 – 1775: Savaşa giden yol"
+
+# 1775 – 1783: The War of Independence
+groups.war.title: "1775 – 1783: Bağımsızlık Savaşı"
+
+# 1775
+groups.1775.title: "1775"
+
+# 1776
+groups.1776.title: "1776"
+
+# 1777
+groups.1777.title: "1777"
+
+# 1778 – 1779
+groups.1778-1779.title: "1778 – 1779"
+
+# 1780 – 1781
+groups.1780-1781.title: "1780 – 1781"
+
+# 1782 – 1783
+groups.1782-1783.title: "1782 – 1783"
+
+# 1783 – 1790: Confederation and Constitution
+groups.constitution.title: "1783 – 1790: Konfederasyon ve Anayasa"
+
+# 1790 – 1800: Epilogue
+groups.epilogue.title: "1790 – 1800: Sonsöz"
+
+# Boston under siege, 1775 to 1776
+zones.boston-held.name: "Kuşatma altındaki Boston, 1775 – 1776"
+
+# British North America, 1783
+zones.canada-1783.name: "İngiliz Kuzey Amerikası, 1783"
+
+# Charleston and the Lowcountry, British 1780 to 1782
+zones.charleston-held.name: "Charleston ve kıyı bölgesi, İngiliz 1780 – 1782"
+
+# The thirteen colonies, 1763
+zones.colonies-1763.name: "On üç koloni, 1763"
+
+# Connecticut
+zones.ct.name: "Connecticut"
+
+# Delaware
+zones.de.name: "Delaware"
+
+# East and West Florida, British 1763 to 1783
+zones.florida-british.name: "Doğu ve Batı Florida, İngiliz 1763 – 1783"
+
+# East Florida, British
+zones.florida-east-1781.name: "Doğu Florida, İngiliz"
+
+# West Florida, taken by Spain 1779 to 1781
+zones.florida-west-1781.name: "Batı Florida, İspanya 1779 – 1781 arasında aldı"
+
+# Georgia
+zones.ga.name: "Georgia"
+
+# Kentucky, 1792
+zones.ky.name: "Kentucky, 1792"
+
+# Spanish Louisiana
+zones.louisiana-spanish.name: "İspanyol Louisiana’sı"
+
+# Massachusetts, with Maine
+zones.ma.name: "Massachusetts, Maine ile"
+
+# Maryland
+zones.md.name: "Maryland"
+
+# North Carolina
+zones.nc-1796.name: "Kuzey Carolina"
+
+# North Carolina, with Tennessee
+zones.nc.name: "Kuzey Carolina, Tennessee ile"
+
+# New York, British 1776 to 1783
+zones.new-york-held.name: "New York, İngiliz 1776 – 1783"
+
+# Newport, British 1776 to 1779
+zones.newport-held.name: "Newport, İngiliz 1776 – 1779"
+
+# New Hampshire
+zones.nh.name: "New Hampshire"
+
+# New Jersey
+zones.nj.name: "New Jersey"
+
+# Northwest Territory, 1787
+zones.northwest-1787.name: "Kuzeybatı Toprakları, 1787"
+
+# Nova Scotia
+zones.nova-scotia.name: "Nova Scotia"
+
+# New York
+zones.ny.name: "New York"
+
+# Pennsylvania
+zones.pa.name: "Pennsylvania"
+
+# Philadelphia, British 1777 to 1778
+zones.philadelphia-held.name: "Philadelphia, İngiliz 1777 – 1778"
+
+# Province of Quebec, 1763
+zones.quebec-1763.name: "Quebec Eyaleti, 1763"
+
+# Province of Quebec after the Quebec Act, 1774
+zones.quebec-1774.name: "Quebec Yasası sonrası Quebec Eyaleti, 1774"
+
+# Indian Reserve, 1763
+zones.reserve-1763.name: "Yerli Bölgesi, 1763"
+
+# Indian Reserve south of the Ohio, 1774
+zones.reserve-1774.name: "Ohio’nun güneyinde Yerli Bölgesi, 1774"
+
+# Rhode Island
+zones.ri.name: "Rhode Island"
+
+# Savannah and coastal Georgia, British 1778 to 1782
+zones.savannah-held.name: "Savannah ve Georgia kıyısı, İngiliz 1778 – 1782"
+
+# South Carolina
+zones.sc.name: "Güney Carolina"
+
+# Southwest Territory, 1790
+zones.southwest-1790.name: "Güneybatı Toprakları, 1790"
+
+# Spanish Louisiana and Florida, 1783
+zones.spanish-1783.name: "İspanyol Louisiana’sı ve Florida, 1783"
+
+# The thirteen united states, 1776
+zones.states-1776.name: "On üç birleşik eyalet, 1776"
+
+# Tennessee, 1796
+zones.tn.name: "Tennessee, 1796"
+
+# The Union before ratification
+zones.union-1787.name: "Onay öncesi Birlik"
+
+# The United States, Treaty of Paris 1783
+zones.usa-1783.name: "Amerika Birleşik Devletleri, 1783 Paris Antlaşması"
+
+# The United States, 1787
+zones.usa-1787.name: "Amerika Birleşik Devletleri, 1787"
+
+# Virginia
+zones.va-1792.name: "Virginia"
+
+# Virginia, with Kentucky
+zones.va.name: "Virginia, Kentucky ile"
+
+# Vermont, 1791
+zones.vt.name: "Vermont, 1791"
+
+# Arnold, through the Maine woods, 1775
+routes.arnold-1775.name: "Arnold, Maine ormanlarından, 1775"
+
+# Burgoyne, Canada to Saratoga, 1777
+routes.burgoyne-1777.name: "Burgoyne, Kanada’dan Saratoga’ya, 1777"
+
+# Cornwallis, Charleston to Yorktown, 1780 to 1781
+routes.cornwallis-1781.name: "Cornwallis, Charleston’dan Yorktown’a, 1780 – 1781"
+
+# De Grasse, from the Caribbean to the Chesapeake, 1781
+routes.de-grasse-1781.name: "De Grasse, Karayipler’den Chesapeake’e, 1781"
+
+# Howe, by sea to the Chesapeake and Philadelphia, 1777
+routes.howe-1777.name: "Howe, denizden Chesapeake’e ve Philadelphia’ya, 1777"
+
+# Montgomery, Ticonderoga to Quebec, 1775
+routes.montgomery-1775.name: "Montgomery, Ticonderoga’dan Quebec’e, 1775"
+
+# American retreat from Quebec to Ticonderoga, May to July 1776
+routes.retreat-1776.name: "Quebec’ten Ticonderoga’ya Amerikan çekilişi, Mayıs – Temmuz 1776"
+
+# St. Leger, Oswego to Fort Stanwix, 1777
+routes.st-leger-1777.name: "St. Leger, Oswego’dan Fort Stanwix’e, 1777"
+
+# Washington’s retreat across New Jersey, November to December 1776
+routes.washington-1776.name: "Washington’ın New Jersey boyunca geri çekilişi, Kasım – Aralık 1776"
+
+# Washington and Rochambeau, Hudson to Yorktown, 1781
+routes.washington-1781.name: "Washington ve Rochambeau, Hudson’dan Yorktown’a, 1781"
+
+# Besieged in Pontiac’s War, summer 1763
+markers.fort-pitt.note: "Pontiac Savaşı’nda kuşatıldı, 1763 yazı"
+
+# Taken 1759, ceded by France 1763
+markers.quebec-1763.note: "1759’da alındı, Fransa 1763’te bıraktı"
+
+# Capital of British East Florida, 1763
+markers.st-augustine.note: "İngiliz Doğu Florida’sının merkezi, 1763"
+
+# Ceded by France to Spain, 1762
+markers.new-orleans.note: "Fransa İspanya’ya bıraktı, 1762"
+
+# Stamp Act riots, August 1765
+markers.boston-1765.note: "Pul Yasası ayaklanmaları, Ağustos 1765"
+
+# Stamp Act Congress, 7 to 25 October 1765
+markers.new-york-1765.note: "Pul Yasası Kongresi, 7 – 25 Ekim 1765"
+
+# Boston Massacre, 5 March 1770
+markers.boston-1770.note: "Boston Katliamı, 5 Mart 1770"
+
+# Tea Party, 16 December 1773
+markers.boston-1773.note: "Çay Partisi, 16 Aralık 1773"
+
+# Port closed, 1 June 1774
+markers.boston-1774.note: "Liman kapatıldı, 1 Haziran 1774"
+
+# First Continental Congress, 5 September to 26 October 1774
+markers.philadelphia-1774.note: "Birinci Kıta Kongresi, 5 Eylül – 26 Ekim 1774"
+
+# First shots, dawn 19 April 1775
+markers.lexington.note: "İlk kurşunlar, 19 Nisan 1775 şafağı"
+
+# North Bridge, 19 April 1775
+markers.concord.note: "Kuzey Köprüsü, 19 Nisan 1775"
+
+# Besieged, April 1775 to March 1776
+markers.boston-1775.note: "Kuşatma, Nisan 1775 – Mart 1776"
+
+# Taken by Allen and Arnold, 10 May 1775
+markers.ticonderoga.note: "Allen ve Arnold aldı, 10 Mayıs 1775"
+
+# Second Continental Congress opens, 10 May 1775
+markers.philadelphia-1775.note: "İkinci Kıta Kongresi açıldı, 10 Mayıs 1775"
+
+# 17 June 1775
+markers.bunker-hill.note: "17 Haziran 1775"
+
+# Washington takes command, 3 July 1775
+markers.cambridge-1775.note: "Washington komutayı aldı, 3 Temmuz 1775"
+
+# Taken by Montgomery, 13 November 1775
+markers.montreal-1775.note: "Montgomery aldı, 13 Kasım 1775"
+
+# Assault fails, 31 December 1775
+markers.quebec-1775.note: "Saldırı başarısız, 31 Aralık 1775"
+
+# British evacuate, 17 March 1776
+markers.boston-1776.note: "İngilizler boşalttı, 17 Mart 1776"
+
+# Fortified overnight, 4 March 1776
+markers.dorchester.note: "Bir gecede tahkim edildi, 4 Mart 1776"
+
+# British fleet withdraws here, March 1776
+markers.halifax.note: "İngiliz donanması buraya çekildi, Mart 1776"
+
+# British attack repulsed at Sullivan’s Island, 28 June 1776
+markers.charleston-1776.note: "İngiliz saldırısı Sullivan Adası’nda püskürtüldü, 28 Haziran 1776"
+
+# Declaration of Independence, 4 July 1776
+markers.philadelphia-1776.note: "Bağımsızlık Bildirgesi, 4 Temmuz 1776"
+
+# Battle of Long Island, 27 August 1776
+markers.brooklyn.note: "Long Island Muharebesi, 27 Ağustos 1776"
+
+# Occupied, 15 September 1776
+markers.new-york-1776.note: "İşgal edildi, 15 Eylül 1776"
+
+# 28 October 1776
+markers.white-plains.note: "28 Ekim 1776"
+
+# Falls with 2,800 men, 16 November 1776
+markers.fort-washington.note: "2.800 askerle düştü, 16 Kasım 1776"
+
+# 26 December 1776
+markers.trenton.note: "26 Aralık 1776"
+
+# 3 January 1777
+markers.princeton.note: "3 Ocak 1777"
+
+# Winter quarters, January 1777
+markers.morristown.note: "Kışlak, Ocak 1777"
+
+# Abandoned to Burgoyne, 6 July 1777
+markers.ticonderoga-1777.note: "Burgoyne’a bırakıldı, 6 Temmuz 1777"
+
+# 6 August 1777
+markers.oriskany.note: "6 Ağustos 1777"
+
+# 16 August 1777
+markers.bennington.note: "16 Ağustos 1777"
+
+# Burgoyne surrenders, 17 October 1777
+markers.saratoga.note: "Burgoyne teslim oldu, 17 Ekim 1777"
+
+# 11 September 1777
+markers.brandywine.note: "11 Eylül 1777"
+
+# Occupied, 26 September 1777
+markers.philadelphia-1777.note: "İşgal edildi, 26 Eylül 1777"
+
+# 4 October 1777
+markers.germantown.note: "4 Ekim 1777"
+
+# Congress adopts the Articles of Confederation, 15 November 1777
+markers.york-1777.note: "Kongre Konfederasyon Maddeleri’ni kabul etti, 15 Kasım 1777"
+
+# Winter camp, December 1777 to June 1778
+markers.valley-forge.note: "Kış kampı, Aralık 1777 – Haziran 1778"
+
+# 28 June 1778
+markers.monmouth.note: "28 Haziran 1778"
+
+# Franco-American siege fails, August 1778
+markers.newport-1778.note: "Fransız-Amerikan kuşatması başarısız, Ağustos 1778"
+
+# Taken 29 December 1778, allied assault fails 9 October 1779
+markers.savannah-1778.note: "29 Aralık 1778’de alındı, müttefik saldırısı 9 Ekim 1779’da başarısız"
+
+# Clark takes Fort Sackville, 25 February 1779
+markers.vincennes.note: "Clark, Fort Sackville’i aldı, 25 Şubat 1779"
+
+# Wayne’s night assault, 16 July 1779
+markers.stony-point.note: "Wayne’in gece baskını, 16 Temmuz 1779"
+
+# Surrenders with 5,000 men, 12 May 1780
+markers.charleston-1780.note: "5.000 askerle teslim oldu, 12 Mayıs 1780"
+
+# Gates routed, 16 August 1780
+markers.camden.note: "Gates bozguna uğradı, 16 Ağustos 1780"
+
+# Arnold’s treason uncovered, 25 September 1780
+markers.west-point.note: "Arnold’un ihaneti ortaya çıktı, 25 Eylül 1780"
+
+# 7 October 1780
+markers.kings-mountain.note: "7 Ekim 1780"
+
+# Morgan defeats Tarleton, 17 January 1781
+markers.cowpens.note: "Morgan, Tarleton’ı yendi, 17 Ocak 1781"
+
+# 15 March 1781
+markers.guilford.note: "15 Mart 1781"
+
+# Articles of Confederation in force, 1 March 1781
+markers.philadelphia-1781.note: "Konfederasyon Maddeleri yürürlükte, 1 Mart 1781"
+
+# 8 September 1781
+markers.eutaw-springs.note: "8 Eylül 1781"
+
+# Battle of the Chesapeake, 5 September 1781
+markers.capes.note: "Chesapeake Deniz Muharebesi, 5 Eylül 1781"
+
+# Allied armies gather, September 1781
+markers.williamsburg.note: "Müttefik ordular toplandı, Eylül 1781"
+
+# Cornwallis surrenders, 19 October 1781
+markers.yorktown.note: "Cornwallis teslim oldu, 19 Ekim 1781"
+
+# Washington faces down the officers, 15 March 1783
+markers.newburgh.note: "Washington subayları yatıştırdı, 15 Mart 1783"
+
+# Evacuation Day, 25 November 1783
+markers.new-york-1783.note: "Tahliye Günü, 25 Kasım 1783"
+
+# Washington resigns his commission, 23 December 1783
+markers.annapolis-1783.note: "Washington komutanlığı bıraktı, 23 Aralık 1783"
+
+# Congress sits here from January 1785
+markers.new-york-1785.note: "Kongre Ocak 1785’ten itibaren burada toplandı"
+
+# Annapolis Convention, 11 to 14 September 1786
+markers.annapolis-1786.note: "Annapolis Toplantısı, 11 – 14 Eylül 1786"
+
+# Shays’ men attack the armory, 25 January 1787
+markers.springfield.note: "Shays’in adamları cephaneliğe saldırdı, 25 Ocak 1787"
+
+# Constitutional Convention, 25 May to 17 September 1787
+markers.philadelphia-1787.note: "Anayasa Kurultayı, 25 Mayıs – 17 Eylül 1787"
+
+# Northwest Ordinance 13 July 1787, Marietta founded April 1788
+markers.marietta.note: "Kuzeybatı Kararnamesi 13 Temmuz 1787, Marietta kuruldu Nisan 1788"
+
+# Delaware ratifies, 7 December 1787
+markers.dover.note: "Delaware onayladı, 7 Aralık 1787"
+
+# Pennsylvania ratifies, 12 December 1787
+markers.philadelphia-ratifies.note: "Pennsylvania onayladı, 12 Aralık 1787"
+
+# New Jersey ratifies, 18 December 1787
+markers.trenton-1787.note: "New Jersey onayladı, 18 Aralık 1787"
+
+# Georgia ratifies, 2 January 1788
+markers.augusta.note: "Georgia onayladı, 2 Ocak 1788"
+
+# Connecticut ratifies, 9 January 1788
+markers.hartford.note: "Connecticut onayladı, 9 Ocak 1788"
+
+# Massachusetts ratifies, 6 February 1788
+markers.boston-1788.note: "Massachusetts onayladı, 6 Şubat 1788"
+
+# Maryland ratifies, 28 April 1788
+markers.annapolis-1788.note: "Maryland onayladı, 28 Nisan 1788"
+
+# South Carolina ratifies, 23 May 1788
+markers.charleston-1788.note: "Güney Carolina onayladı, 23 Mayıs 1788"
+
+# New Hampshire ratifies, the ninth state, 21 June 1788
+markers.concord-nh.note: "New Hampshire onayladı, dokuzuncu eyalet, 21 Haziran 1788"
+
+# Virginia ratifies, 25 June 1788
+markers.richmond.note: "Virginia onayladı, 25 Haziran 1788"
+
+# New York ratifies, 26 July 1788
+markers.poughkeepsie.note: "New York onayladı, 26 Temmuz 1788"
+
+# Washington leaves for New York, 16 April 1789
+markers.mount-vernon.note: "Washington New York’a yola çıktı, 16 Nisan 1789"
+
+# Washington inaugurated at Federal Hall, 30 April 1789
+markers.new-york-1789.note: "Washington Federal Hall’da yemin etti, 30 Nisan 1789"
+
+# North Carolina ratifies, 21 November 1789
+markers.fayetteville.note: "Kuzey Carolina onayladı, 21 Kasım 1789"
+
+# Rhode Island ratifies, the last of the thirteen, 29 May 1790
+markers.newport-1790.note: "Rhode Island onayladı, on üçün sonuncusu, 29 Mayıs 1790"
+
+# Vermont ratifies 10 January 1791, the 14th state on 4 March
+markers.bennington-1791.note: "Vermont 10 Ocak 1791’de onayladı, 4 Mart’ta 14. eyalet"
+
+# Kentucky conventions, the 15th state on 1 June 1792
+markers.danville.note: "Kentucky kurultayları, 1 Haziran 1792’de 15. eyalet"
+
+# Tennessee convention, January 1796, the 16th state on 1 June 1796
+markers.knoxville.note: "Tennessee kurultayı, Ocak 1796, 1 Haziran 1796’da 16. eyalet"
+
+# Capital, December 1790 to 1800
+markers.philadelphia-1790.note: "Başkent, Aralık 1790 – 1800"
+
+# Government moves to the new capital, November 1800
+markers.washington-dc.note: "Hükûmet yeni başkente taşındı, Kasım 1800"
+
+# Relieved by British ships, 6 May 1776
+markers.quebec-1776.note: "İngiliz gemileri kuşatmayı kaldırdı, 6 Mayıs 1776"
+
+# American attack fails, 8 June 1776
+markers.trois-rivieres.note: "Amerikan saldırısı başarısız, 8 Haziran 1776"
+
+# Held by Carleton, 17 October to 2 November 1776
+markers.crown-point-1776.note: "Carleton’ın elinde, 17 Ekim – 2 Kasım 1776"
+
+# Taken by Gálvez, 21 September 1779
+markers.baton-rouge.note: "Gálvez aldı, 21 Eylül 1779"
+
+# Taken by Gálvez, 14 March 1780
+markers.mobile.note: "Gálvez aldı, 14 Mart 1780"
+
+# Seat of the Southwest Territory, 1790
+markers.rocky-mount.note: "Güneybatı Toprakları’nın merkezi, 1790"
+
+# Capital district, Residence Act of 16 July 1790
+markers.potomac-1790.note: "Başkent bölgesi, 16 Temmuz 1790 İkamet Yasası"
+
+# Treaty of Greenville, 3 August 1795
+markers.greenville.note: "Greenville Antlaşması, 3 Ağustos 1795"
+
+# Handed over by Britain, July 1796
+markers.detroit-1796.note: "İngiltere teslim etti, Temmuz 1796"
+
+# Massachusetts militia
+battles.lexington-concord.sides.0.name: "Massachusetts milisleri"
+
+# 77 at Lexington, 3,960 by the end of the day
+battles.lexington-concord.sides.0.strength: "Lexington’da 77, gün sonunda 3.960"
+
+# 49 killed, 39 wounded, 5 missing
+battles.lexington-concord.sides.0.casualties: "49 ölü, 39 yaralı, 5 kayıp"
+
+# Great Britain
+battles.lexington-concord.sides.1.name: "Büyük Britanya"
+
+# 700 from Boston, 1,500 by the end of the day
+battles.lexington-concord.sides.1.strength: "Boston’dan 700, gün sonunda 1.500"
+
+# 73 killed, 174 wounded, 53 missing
+battles.lexington-concord.sides.1.casualties: "73 ölü, 174 yaralı, 53 kayıp"
+
+# Battles of Lexington and Concord
+battles.lexington-concord.name: "Lexington ve Concord Muharebeleri"
+
+# 19 April 1775
+battles.lexington-concord.date: "19 Nisan 1775"
+
+# American victory, British retreat to Boston
+battles.lexington-concord.result: "Amerikan zaferi, İngilizler Boston’a çekilir"
+
+# New England militia
+battles.bunker-hill.sides.0.name: "New England milisleri"
+
+# About 2,400
+battles.bunker-hill.sides.0.strength: "Yaklaşık 2.400"
+
+# 138 killed, 305 wounded, 30 captured
+battles.bunker-hill.sides.0.casualties: "138 ölü, 305 yaralı, 30 esir"
+
+# Great Britain
+battles.bunker-hill.sides.1.name: "Büyük Britanya"
+
+# Over 3,000
+battles.bunker-hill.sides.1.strength: "3.000’den fazla"
+
+# 226 killed, 828 wounded
+battles.bunker-hill.sides.1.casualties: "226 ölü, 828 yaralı"
+
+# Battle of Bunker Hill
+battles.bunker-hill.name: "Bunker Hill Muharebesi"
+
+# 17 June 1775
+battles.bunker-hill.date: "17 Haziran 1775"
+
+# British victory at heavy cost
+battles.bunker-hill.result: "Ağır kayıplı İngiliz zaferi"
+
+# Continental Army
+battles.quebec-1775.sides.0.name: "Kıta Ordusu"
+
+# 1,200
+battles.quebec-1775.sides.0.strength: "1.200"
+
+# 50 killed, 34 wounded, 431 captured or missing
+battles.quebec-1775.sides.0.casualties: "50 ölü, 34 yaralı, 431 esir veya kayıp"
+
+# Great Britain
+battles.quebec-1775.sides.1.name: "Büyük Britanya"
+
+# 1,800
+battles.quebec-1775.sides.1.strength: "1.800"
+
+# 5 killed, 14 wounded
+battles.quebec-1775.sides.1.casualties: "5 ölü, 14 yaralı"
+
+# Battle of Quebec
+battles.quebec-1775.name: "Quebec Muharebesi"
+
+# 31 December 1775
+battles.quebec-1775.date: "31 Aralık 1775"
+
+# British victory, Quebec stays British
+battles.quebec-1775.result: "İngiliz zaferi, Quebec İngilizlerde kalır"
+
+# South Carolina
+battles.sullivans-island.sides.0.name: "Güney Carolina"
+
+# 435 militia and 31 cannon in the fort
+battles.sullivans-island.sides.0.strength: "Kalede 435 milis ve 31 top"
+
+# 12 killed, 25 wounded
+battles.sullivans-island.sides.0.casualties: "12 ölü, 25 yaralı"
+
+# Great Britain
+battles.sullivans-island.sides.1.name: "Büyük Britanya"
+
+# 2,200 infantry and 9 warships
+battles.sullivans-island.sides.1.strength: "2.200 piyade ve 9 savaş gemisi"
+
+# 91 killed, 170 wounded, one frigate run aground
+battles.sullivans-island.sides.1.casualties: "91 ölü, 170 yaralı, bir firkateyn karaya oturdu"
+
+# Battle of Sullivan’s Island
+battles.sullivans-island.name: "Sullivan Adası Muharebesi"
+
+# 28 June 1776
+battles.sullivans-island.date: "28 Haziran 1776"
+
+# South Carolina victory, the British fleet withdraws
+battles.sullivans-island.result: "Güney Carolina zaferi, İngiliz filosu çekilir"
+
+# United States
+battles.valcour-island.sides.0.name: "Birleşik Devletler"
+
+# 1 sloop, 2 schooners, 4 row galleys, 8 gundalows
+battles.valcour-island.sides.0.strength: "1 şalopa, 2 uskuna, 4 kürekli kadırga, 8 gundalow"
+
+# 80 killed or wounded, 120 captured, 1 schooner and 1 gundalow lost
+battles.valcour-island.sides.0.casualties: "80 ölü ve yaralı, 120 esir, 1 uskuna ve 1 gundalow kaybı"
+
+# Great Britain
+battles.valcour-island.sides.1.name: "Büyük Britanya"
+
+# 1 ship sloop, 2 schooners, 1 radeau, 1 gundalow, 28 gunboats
+battles.valcour-island.sides.1.strength: "1 gemi tipi şalopa, 2 uskuna, 1 top salı, 1 gundalow, 28 gambot"
+
+# 40 killed or wounded, 1 gunboat lost
+battles.valcour-island.sides.1.casualties: "40 ölü ve yaralı, 1 gambot kaybı"
+
+# Battle of Valcour Island
+battles.valcour-island.name: "Valcour Adası Muharebesi"
+
+# 11 October 1776
+battles.valcour-island.date: "11 Ekim 1776"
+
+# British victory, Carleton withdraws to Canada for the winter
+battles.valcour-island.result: "İngiliz zaferi, Carleton kışı geçirmek için Kanada’ya çekilir"
+
+# United States
+battles.long-island.sides.0.name: "Birleşik Devletler"
+
+# 10,000
+battles.long-island.sides.0.strength: "10.000"
+
+# 300 killed, 800 wounded, 1,079 captured or missing
+battles.long-island.sides.0.casualties: "300 ölü, 800 yaralı, 1.079 esir veya kayıp"
+
+# Great Britain and Hesse-Kassel
+battles.long-island.sides.1.name: "Büyük Britanya ve Hessen-Kassel"
+
+# 20,000
+battles.long-island.sides.1.strength: "20.000"
+
+# 64 killed, 293 wounded, 31 missing
+battles.long-island.sides.1.casualties: "64 ölü, 293 yaralı, 31 kayıp"
+
+# Battle of Long Island
+battles.long-island.name: "Long Island Muharebesi"
+
+# 27 August 1776
+battles.long-island.date: "27 Ağustos 1776"
+
+# British victory, Washington withdraws to Manhattan
+battles.long-island.result: "İngiliz zaferi, Washington Manhattan’a çekilir"
+
+# United States
+battles.trenton.sides.0.name: "Birleşik Devletler"
+
+# 2,400
+battles.trenton.sides.0.strength: "2.400"
+
+# 5 wounded, 2 dead of exposure on the march
+battles.trenton.sides.0.casualties: "5 yaralı, yürüyüşte soğuktan 2 ölü"
+
+# Hesse-Kassel
+battles.trenton.sides.1.name: "Hessen-Kassel"
+
+# 1,500
+battles.trenton.sides.1.strength: "1.500"
+
+# 22 killed, 83 wounded, 800–900 captured
+battles.trenton.sides.1.casualties: "22 ölü, 83 yaralı, 800–900 esir"
+
+# Battle of Trenton
+battles.trenton.name: "Trenton Muharebesi"
+
+# 26 December 1776
+battles.trenton.date: "26 Aralık 1776"
+
+# American victory, the Hessian garrison captured
+battles.trenton.result: "Amerikan zaferi, Hessen garnizonu esir alınır"
+
+# United States
+battles.saratoga.sides.0.name: "Birleşik Devletler"
+
+# 9,000 in the first battle, over 15,000 at the surrender
+battles.saratoga.sides.0.strength: "İlk muharebede 9.000, teslimde 15.000’den fazla"
+
+# 90 killed, 240 wounded
+battles.saratoga.sides.0.casualties: "90 ölü, 240 yaralı"
+
+# Great Britain
+battles.saratoga.sides.1.name: "Büyük Britanya"
+
+# 7,200 in the first battle, 6,600 in the second
+battles.saratoga.sides.1.strength: "İlk muharebede 7.200, ikincide 6.600"
+
+# 440 killed, 695 wounded, 6,222 captured
+battles.saratoga.sides.1.casualties: "440 ölü, 695 yaralı, 6.222 esir"
+
+# Battles of Saratoga
+battles.saratoga.name: "Saratoga Muharebeleri"
+
+# 19 September and 7 October 1777
+battles.saratoga.date: "19 Eylül ve 7 Ekim 1777"
+
+# American victory, Burgoyne surrenders on 17 October
+battles.saratoga.result: "Amerikan zaferi, Burgoyne 17 Ekim’de teslim olur"
+
+# United States
+battles.brandywine.sides.0.name: "Birleşik Devletler"
+
+# 14,600
+battles.brandywine.sides.0.strength: "14.600"
+
+# 250 killed, 600 wounded, 400 captured
+battles.brandywine.sides.0.casualties: "250 ölü, 600 yaralı, 400 esir"
+
+# Great Britain and Hesse-Kassel
+battles.brandywine.sides.1.name: "Büyük Britanya ve Hessen-Kassel"
+
+# 15,500
+battles.brandywine.sides.1.strength: "15.500"
+
+# 93 killed, 488 wounded, 6 missing
+battles.brandywine.sides.1.casualties: "93 ölü, 488 yaralı, 6 kayıp"
+
+# Battle of Brandywine
+battles.brandywine.name: "Brandywine Muharebesi"
+
+# 11 September 1777
+battles.brandywine.date: "11 Eylül 1777"
+
+# British victory, the road to Philadelphia open
+battles.brandywine.result: "İngiliz zaferi, Philadelphia yolu açılır"
+
+# United States
+battles.monmouth.sides.0.name: "Birleşik Devletler"
+
+# 14,300
+battles.monmouth.sides.0.strength: "14.300"
+
+# 370 by the official count, about 500 by estimates
+battles.monmouth.sides.0.casualties: "Resmî sayıma göre 370, tahminlere göre yaklaşık 500"
+
+# Great Britain
+battles.monmouth.sides.1.name: "Büyük Britanya"
+
+# 17,660
+battles.monmouth.sides.1.strength: "17.660"
+
+# 358 by the official count, up to 1,134 by estimates
+battles.monmouth.sides.1.casualties: "Resmî sayıma göre 358, tahminlere göre 1.134’e kadar"
+
+# Battle of Monmouth
+battles.monmouth.name: "Monmouth Muharebesi"
+
+# 28 June 1778
+battles.monmouth.date: "28 Haziran 1778"
+
+# Inconclusive, Clinton reaches New York
+battles.monmouth.result: "Sonuçsuz, Clinton New York’a ulaşır"
+
+# United States and France
+battles.savannah-1779.sides.0.name: "Birleşik Devletler ve Fransa"
+
+# 7,722 troops and 42 ships
+battles.savannah-1779.sides.0.strength: "7.722 asker ve 42 gemi"
+
+# 244 killed, 584 wounded, 120 captured
+battles.savannah-1779.sides.0.casualties: "244 ölü, 584 yaralı, 120 esir"
+
+# Great Britain
+battles.savannah-1779.sides.1.name: "Büyük Britanya"
+
+# 4,813 troops and 8 vessels
+battles.savannah-1779.sides.1.strength: "4.813 asker ve 8 gemi"
+
+# 40 killed, 63 wounded, 52 missing
+battles.savannah-1779.sides.1.casualties: "40 ölü, 63 yaralı, 52 kayıp"
+
+# Siege of Savannah
+battles.savannah-1779.name: "Savannah Kuşatması"
+
+# 16 September – 18 October 1779
+battles.savannah-1779.date: "16 Eylül – 18 Ekim 1779"
+
+# British victory, the allied assault of 9 October fails
+battles.savannah-1779.result: "İngiliz zaferi, 9 Ekim’deki müttefik saldırısı başarısız olur"
+
+# Spain and France
+battles.pensacola-1781.sides.0.name: "İspanya ve Fransa"
+
+# 7,400 regulars and militia, 10,000 sailors and marines, 21 ships
+battles.pensacola-1781.sides.0.strength: "7.400 düzenli asker ve milis, 10.000 denizci ve deniz piyadesi, 21 gemi"
+
+# 95 killed, 202 wounded
+battles.pensacola-1781.sides.0.casualties: "95 ölü, 202 yaralı"
+
+# Great Britain
+battles.pensacola-1781.sides.1.name: "Büyük Britanya"
+
+# 1,300 regulars, rangers and militia, 500 native allies
+battles.pensacola-1781.sides.1.strength: "1.300 düzenli asker, korucu ve milis, 500 yerli müttefik"
+
+# 155 killed, 105 wounded, 1,113 captured
+battles.pensacola-1781.sides.1.casualties: "155 ölü, 105 yaralı, 1.113 esir"
+
+# Siege of Pensacola
+battles.pensacola-1781.name: "Pensacola Kuşatması"
+
+# 9 March – 10 May 1781
+battles.pensacola-1781.date: "9 Mart – 10 Mayıs 1781"
+
+# Spanish and French victory, West Florida passes to Spain
+battles.pensacola-1781.result: "İspanyol ve Fransız zaferi, Batı Florida İspanya’ya geçer"
+
+# United States
+battles.charleston-1780.sides.0.name: "Birleşik Devletler"
+
+# 6,577 regulars, sailors and militia
+battles.charleston-1780.sides.0.strength: "6.577 düzenli asker, denizci ve milis"
+
+# 89 killed, 138 wounded, 5,466 captured
+battles.charleston-1780.sides.0.casualties: "89 ölü, 138 yaralı, 5.466 esir"
+
+# Great Britain and Hesse-Kassel
+battles.charleston-1780.sides.1.name: "Büyük Britanya ve Hessen-Kassel"
+
+# 12,847 soldiers, 4,500 sailors, 14 warships
+battles.charleston-1780.sides.1.strength: "12.847 asker, 4.500 denizci, 14 savaş gemisi"
+
+# 99 killed, 117 wounded on land and at sea
+battles.charleston-1780.sides.1.casualties: "Karada ve denizde 99 ölü, 117 yaralı"
+
+# Siege of Charleston
+battles.charleston-1780.name: "Charleston Kuşatması"
+
+# 29 March – 12 May 1780
+battles.charleston-1780.date: "29 Mart – 12 Mayıs 1780"
+
+# British victory, Lincoln surrenders his army
+battles.charleston-1780.result: "İngiliz zaferi, Lincoln ordusuyla teslim olur"
+
+# United States
+battles.cowpens.sides.0.name: "Birleşik Devletler"
+
+# 1,887–1,912
+battles.cowpens.sides.0.strength: "1.887–1.912"
+
+# 25 killed, 124 wounded
+battles.cowpens.sides.0.casualties: "25 ölü, 124 yaralı"
+
+# Great Britain
+battles.cowpens.sides.1.name: "Büyük Britanya"
+
+# 1,150 and 2 guns
+battles.cowpens.sides.1.strength: "1.150 asker ve 2 top"
+
+# 110 killed, 229 wounded, 629 captured or missing, both guns lost
+battles.cowpens.sides.1.casualties: "110 ölü, 229 yaralı, 629 esir veya kayıp, iki top kaybı"
+
+# Battle of Cowpens
+battles.cowpens.name: "Cowpens Muharebesi"
+
+# 17 January 1781
+battles.cowpens.date: "17 Ocak 1781"
+
+# American victory, Tarleton’s force destroyed
+battles.cowpens.result: "Amerikan zaferi, Tarleton’ın kuvveti yok edilir"
+
+# United States and France
+battles.yorktown.sides.0.name: "Birleşik Devletler ve Fransa"
+
+# 8,000–9,000 Americans, 10,800 French and 29 warships
+battles.yorktown.sides.0.strength: "8.000–9.000 Amerikalı, 10.800 Fransız ve 29 savaş gemisi"
+
+# 88 killed, 301 wounded
+battles.yorktown.sides.0.casualties: "88 ölü, 301 yaralı"
+
+# Great Britain
+battles.yorktown.sides.1.name: "Büyük Britanya"
+
+# 8,000–9,000, fewer than 3,000 of them German
+battles.yorktown.sides.1.strength: "8.000–9.000, bunların 3.000’den azı Alman"
+
+# 142–309 killed, 326–595 wounded, 7,416–7,685 captured
+battles.yorktown.sides.1.casualties: "142–309 ölü, 326–595 yaralı, 7.416–7.685 esir"
+
+# Siege of Yorktown
+battles.yorktown.name: "Yorktown Kuşatması"
+
+# 28 September – 19 October 1781
+battles.yorktown.date: "28 Eylül – 19 Ekim 1781"
+
+# American and French victory, Cornwallis surrenders
+battles.yorktown.result: "Amerikan ve Fransız zaferi, Cornwallis teslim olur"
+
+# Massachusetts militia
+battles.springfield.sides.0.name: "Massachusetts milisleri"
+
+# 1,200
+battles.springfield.sides.0.strength: "1.200"
+
+# None
+battles.springfield.sides.0.casualties: "Yok"
+
+# Shays’ rebels
+battles.springfield.sides.1.name: "Shays’in isyancıları"
+
+# About 1,500
+battles.springfield.sides.1.strength: "Yaklaşık 1.500"
+
+# 4 killed, 20 wounded
+battles.springfield.sides.1.casualties: "4 ölü, 20 yaralı"
+
+# Shays’ Rebellion at Springfield
+battles.springfield.name: "Springfield’da Shays İsyanı"
+
+# 25 January 1787
+battles.springfield.date: "25 Ocak 1787"
+
+# Militia victory, the rebels scatter
+battles.springfield.result: "Milis zaferi, isyancılar dağılır"
+
+# United States
+battles.fallen-timbers.sides.0.name: "Birleşik Devletler"
+
+# 3,000
+battles.fallen-timbers.sides.0.strength: "3.000"
+
+# 33 killed, 100 wounded
+battles.fallen-timbers.sides.0.casualties: "33 ölü, 100 yaralı"
+
+# Northwestern Confederacy
+battles.fallen-timbers.sides.1.name: "Kuzeybatı Konfederasyonu"
+
+# 1,300
+battles.fallen-timbers.sides.1.strength: "1.300"
+
+# 25–40 killed
+battles.fallen-timbers.sides.1.casualties: "25–40 ölü"
+
+# Battle of Fallen Timbers
+battles.fallen-timbers.name: "Fallen Timbers Muharebesi"
+
+# 20 August 1794
+battles.fallen-timbers.date: "20 Ağustos 1794"
+
+# United States victory, followed by the Treaty of Greenville
+battles.fallen-timbers.result: "Amerikan zaferi, ardından Greenville Antlaşması"
+
+# The British provinces in North America as laid down by the proclamation of October 1763, engraved by John Gibson
+images.proclamation-map-1763.caption: "Ekim 1763 bildirgesine göre Kuzey Amerika’daki İngiliz eyaletleri, John Gibson’ın gravürü"
+
+# The Royal Proclamation of 7 October 1763
+images.royal-proclamation-1763.caption: "7 Ekim 1763 tarihli Kraliyet Bildirgesi"
+
+# Indians giving a talk to Colonel Henry Bouquet in the Ohio country, October 1764, engraving after Benjamin West
+images.bouquet-1764.caption: "Yerliler Ohio’da Albay Henry Bouquet ile görüşüyor, Ekim 1764. Benjamin West’ten gravür"
+
+# Proof sheet of one penny stamps for the Stamp Act, 1765
+images.stamp-proof-1765.caption: "Pul Yasası için basılan bir penilik pulların prova baskısı, 1765"
+
+# The Stamp Act riots in Boston, engraving published by John Cassell, 1865
+images.stamp-act-riots.caption: "Boston’da Pul Yasası ayaklanmaları, John Cassell’in yayımladığı gravür, 1865"
+
+# The Repeal, or the Funeral of Miss Ame-Stamp, British cartoon on the repeal of the Stamp Act, 1766
+images.stamp-act-repeal.caption: "“The Repeal, or the Funeral of Miss Ame-Stamp”, Pul Yasası’nın kaldırılmasını cenaze alayı olarak gösteren İngiliz karikatürü, 1766"
+
+# British troops landing at Boston in 1768, coloured reproduction of an engraving by Paul Revere
+images.boston-1768.caption: "1768’de Boston’a çıkan İngiliz birlikleri, Paul Revere’in gravürünün renkli röprodüksiyonu"
+
+# The Bloody Massacre in King Street, 5 March 1770, engraving by Paul Revere after Henry Pelham
+images.boston-massacre-revere.caption: "King Street’teki katliam, 5 Mart 1770. Henry Pelham’dan Paul Revere’in gravürü"
+
+# The Destruction of Tea at Boston Harbor, lithograph by Nathaniel Currier, 1846
+images.tea-party-currier.caption: "Boston limanında çayın imhası, Nathaniel Currier’in taş baskısı, 1846"
+
+# Americans throwing the tea into Boston harbour, engraving by W. D. Cooper, 1789
+images.tea-party-1789.caption: "Amerikalılar çayı Boston limanına atıyor, W. D. Cooper’ın gravürü, 1789"
+
+# General Thomas Gage, governor of Massachusetts from 1774, portrait by John Singleton Copley, about 1768
+images.gage-copley.caption: "1774’ten itibaren Massachusetts valisi olan General Thomas Gage, John Singleton Copley’nin portresi, 1768 dolayları"
+
+# The Bostonians in Distress, British mezzotint on the closing of the port, 1774
+images.bostonians-distress.caption: "“The Bostonians in Distress”, limanın kapatılması üzerine İngiliz mezzotinti, 1774"
+
+# The Able Doctor, or America Swallowing the Bitter Draught, cartoon on the Coercive Acts from The London Magazine, 1774
+images.able-doctor-1774.caption: "“The Able Doctor, or America Swallowing the Bitter Draught”, The London Magazine’de yayımlanan Zorlayıcı Yasalar karikatürü, 1774"
+
+# Carpenters' Hall in Philadelphia, where the First Continental Congress met in 1774
+images.carpenters-hall.caption: "Birinci Kıta Kongresi’nin 1774’te toplandığı Philadelphia’daki Carpenters’ Hall"
+
+# The Continental Association, adopted by the Congress on 20 October 1774
+images.continental-association.caption: "Kongrenin 20 Ekim 1774’te kabul ettiği Kıta Birliği metni"
+
+# Paul Revere, one of the riders who warned the militia, portrait by John Singleton Copley, 1768
+images.revere-copley.caption: "Milisleri uyaran atlılardan Paul Revere, John Singleton Copley’nin portresi, 1768"
+
+# The Battle of Lexington, 19 April 1775, engraving by Amos Doolittle after Ralph Earl, 1775
+images.lexington-doolittle.caption: "Lexington Muharebesi, 19 Nisan 1775. Ralph Earl’den Amos Doolittle’ın gravürü, 1775"
+
+# The engagement at the North Bridge in Concord, plate III of Amos Doolittle's engravings of December 1775, in a 1903 reprint
+images.concord-doolittle.caption: "Concord’daki Kuzey Köprüsü çatışması, Amos Doolittle’ın Aralık 1775 tarihli gravür dizisinin üçüncü levhası, 1903 baskısı"
+
+# 77 militiamen
+markers.lexington-green-parker.note: "77 milis"
+
+# Three companies halt on the left
+markers.lexington-green-pitcairn.note: "Üç bölük solda durur"
+
+# The grenadiers on the road
+markers.lexington-green-smith.note: "Yoldaki grenadiyerler"
+
+# The militia wait here at night
+markers.lexington-green-buckman.note: "Milisler geceyi burada bekler"
+
+# Lexington Battle Green, where the militia stood on the morning of 19 April 1775
+images.lexington-battle-green.caption: "Milislerin 19 Nisan 1775 sabahı dizildiği Lexington çayırı"
+
+# Lead the column, Davis is killed
+markers.lexington-north-bridge-buttrick.note: "Kolu yönetirler, Davis ölür"
+
+# Commands the militia
+markers.lexington-north-bridge-barrett.note: "Milislerin komutanı"
+
+# About 95 regulars
+markers.lexington-north-bridge-laurie.note: "95 kadar asker"
+
+# Two grenadier companies
+markers.lexington-north-bridge-smith.note: "İki grenadiyer bölüğü"
+
+# Gun carriages burned in the square
+markers.lexington-north-bridge-town.note: "Meydanda top kızakları yakılır"
+
+# The fight at the North Bridge, 19 April 1775, painting by Frank T. Merrill, 1909
+images.concord-north-bridge-merrill.caption: "Kuzey Köprüsü’ndeki çarpışma, 19 Nisan 1775, Frank T. Merrill’in tablosu, 1909"
+
+# Guns drive the militia back
+markers.lexington-road-back-percy.note: "Toplar milisleri geri püskürtür"
+
+# A ring of skirmishers
+markers.lexington-road-back-heath.note: "Bir avcı halkası"
+
+# The firing begins again
+markers.lexington-road-back-meriam.note: "Ateş yeniden başlar"
+
+# Under the guns of the Somerset
+markers.lexington-road-back-charlestown.note: "Somerset’in topları altında"
+
+# Percy’s brigade covers Smith’s column at Lexington, plate IV of Amos Doolittle’s engravings after Ralph Earl, 1775
+images.percys-rescue-doolittle.caption: "Percy’nin tugayı Lexington’da Smith’in kolunu korur, Amos Doolittle’ın Ralph Earl’den gravürlerinin IV. levhası, 1775"
+
+# Ethan Allen demanding the surrender of Fort Ticonderoga, 10 May 1775, illustration by John Steeple Davis, 1875
+images.ticonderoga-allen.caption: "Ethan Allen Fort Ticonderoga’nın teslimini istiyor, 10 Mayıs 1775. John Steeple Davis’in çizimi, 1875"
+
+# The Death of General Warren at the Battle of Bunker's Hill, 17 June 1775, painting by John Trumbull, 1786
+images.bunker-hill-trumbull.caption: "Bunker Hill Muharebesi’nde General Warren’ın ölümü, 17 Haziran 1775. John Trumbull’un tablosu, 1786"
+
+# A sketch of the action on the Charlestown peninsula, 17 June 1775, engraved by Jefferys and Faden, London, August 1775
+images.bunker-hill-sketch-1775.caption: "17 Haziran 1775’te Charlestown yarımadasındaki çarpışmanın krokisi, Jefferys ve Faden’in gravürü, Londra, Ağustos 1775"
+
+# About 1,200 men dig overnight
+markers.bunker-hill-redoubt-prescott.note: "1.200 kadar kişi gece boyunca kazar"
+
+# On Bunker Hill
+markers.bunker-hill-redoubt-putnam.note: "Bunker Hill’de"
+
+# The fence to the Mystic
+markers.bunker-hill-redoubt-stark.note: "Mystic’e uzanan çit"
+
+# Asks Boston for more troops
+markers.bunker-hill-redoubt-howe.note: "Boston’dan takviye ister"
+
+# The left wing
+markers.bunker-hill-redoubt-pigot.note: "Sol kanat"
+
+# British battery in Boston
+markers.bunker-hill-redoubt-copps-hill.note: "Boston’daki İngiliz bataryası"
+
+# Statue of Colonel William Prescott by William Wetmore Story, 1881, in Charlestown, photographed about 1900 to 1906
+images.prescott-statue.caption: "Albay William Prescott’un William Wetmore Story’nin yaptığı heykeli, 1881, Charlestown, 1900 – 1906 dolaylarında çekilmiş fotoğraf"
+
+# Set on fire by the navy
+markers.bunker-hill-attacks-charlestown.note: "Donanma tarafından ateşe verilir"
+
+# Grenadier commander, mortally wounded
+markers.bunker-hill-attacks-abercrombie.note: "Grenadiyer komutanı, ölümcül yaralanır"
+
+# Holds fire to 50 paces
+markers.bunker-hill-attacks-stark.note: "50 adıma kadar ateş etmez"
+
+# Retreats after 30 minutes
+markers.bunker-hill-attacks-pigot.note: "30 dakika sonra geri çekilir"
+
+# View of the attack on Bunker’s Hill with the burning of Charlestown, engraving by Lodge after Millar, 1783
+images.bunker-hill-burning-charlestown.caption: "Bunker Hill’e saldırı ve Charlestown’un yanışı, Millar’dan Lodge’un gravürü, 1783"
+
+# Killed in the retreat
+markers.bunker-hill-third-attack-warren.note: "Geri çekilirken ölür"
+
+# Killed in the last volleys
+markers.bunker-hill-third-attack-pitcairn.note: "Son yaylımlarda ölür"
+
+# Among the last to leave
+markers.bunker-hill-third-attack-prescott.note: "En son çıkanlardan"
+
+# Rallies the walking wounded
+markers.bunker-hill-third-attack-clinton.note: "Yürüyebilen yaralıları toplar"
+
+# Under fire from the ships
+markers.bunker-hill-third-attack-neck.note: "Gemilerin ateşi altında"
+
+# British regulars climb Breed’s Hill, painting by Howard Pyle, 1897
+images.bunker-hill-pyle.caption: "İngiliz askerleri Breed’s Hill’e tırmanıyor, Howard Pyle’ın tablosu, 1897"
+
+# Plan of Quebec and its surroundings during the American siege and blockade, 1776
+images.quebec-plan-1776.caption: "Amerikan kuşatması ve ablukası sırasında Quebec ve çevresinin planı, 1776"
+
+# The Death of General Montgomery in the Attack on Quebec, 31 December 1775, painting by John Trumbull, 1786
+images.montgomery-trumbull.caption: "Quebec saldırısında General Montgomery’nin ölümü, 31 Aralık 1775. John Trumbull’un tablosu, 1786"
+
+# Canadian militia and British soldiers repulse the American assault at Sault-au-Matelot, painting by Charles William Jefferys, 1916
+images.sault-au-matelot.caption: "Kanadalı milisler ve İngiliz askerleri Sault-au-Matelot’daki Amerikan saldırısını püskürtüyor, Charles William Jefferys’in resmi, 1916"
+
+# From Wolfe’s Cove, about 300 men
+markers.canada-assault-montgomery.note: "Wolfe’s Cove’dan, 300 kadar kişi"
+
+# From Saint-Roch, about 600 men
+markers.canada-assault-arnold.note: "Saint-Roch’tan, 600 kadar kişi"
+
+# Bells ring the alarm
+markers.canada-assault-carleton.note: "Çanlar alarm verir"
+
+# Rockets give the signal
+markers.canada-assault-brown.note: "İşaret fişekleri"
+
+# The siege and attack of Quebec in 1775 and 1776 on a French map by Georges Louis Le Rouge, 1777
+images.quebec-le-rouge-1777.caption: "Georges Louis Le Rouge’un Fransızca haritasında 1775 – 1776 Quebec kuşatması ve saldırısı, 1777"
+
+# Killed by grapeshot at the blockhouse
+markers.canada-lower-town-montgomery.note: "Blokhausta saçmayla ölür"
+
+# Wounded, hands over to Morgan
+markers.canada-lower-town-arnold.note: "Yaralanır, komutayı Morgan’a bırakır"
+
+# Surrenders by 10 a.m.
+markers.canada-lower-town-morgan.note: "Saat 10’a kadar teslim olur"
+
+# Holds the second barricade
+markers.canada-lower-town-caldwell.note: "İkinci barikatı tutar"
+
+# Daniel Morgan, who led Arnold’s column after Arnold was wounded, portrait by Charles Willson Peale, about 1794
+images.daniel-morgan-peale.caption: "Arnold yaralanınca kolun komutasını alan Daniel Morgan, Charles Willson Peale’in portresi, 1794 dolayları"
+
+# Title page of Common Sense by Thomas Paine, 1776
+images.common-sense.caption: "Thomas Paine’in Sağduyu (Common Sense) adlı kitapçığının kapağı, 1776"
+
+# Henry Knox's teams hauling the cannon from Ticonderoga to Boston in the winter of 1775 to 1776, later illustration
+images.knox-artillery.caption: "Henry Knox’un ekipleri Ticonderoga’daki topları 1775–1776 kışında Boston’a taşıyor, sonraki dönemden bir çizim"
+
+# Boston and the heights of Dorchester, a British view drawn on 24 January 1776
+images.boston-dorchester-1776.caption: "Boston ve Dorchester tepeleri, 24 Ocak 1776’da çizilmiş bir İngiliz görünümü"
+
+# The battle of Valcour Island, October 1776, watercolour by Henry Gilder
+images.valcour-gilder.caption: "Valcour Adası muharebesi, Ekim 1776. Henry Gilder’ın suluboyası"
+
+# The attack on Benedict Arnold's fleet at Valcour Island, 11 October 1776, map published by William Faden, 1776
+images.valcour-map-1776.caption: "Benedict Arnold’un filosuna Valcour Adası’nda yapılan saldırı, 11 Ekim 1776. William Faden’in yayımladığı harita, 1776"
+
+# On the galley Congress, west of Valcour Island
+markers.canada-retreat-valcour-arnold.note: "Congress kadırgasında, Valcour Adası’nın batısında"
+
+# Command the British fleet
+markers.canada-retreat-valcour-pringle.note: "İngiliz filosunun komutanları"
+
+# Sinks at about 6:30 p.m.
+markers.canada-retreat-valcour-philadelphia.note: "Saat 18.30 dolaylarında batar"
+
+# The American vessels in Valcour Bay before the battle, watercolour by Charles Randle, 1776
+images.valcour-american-line-randle.caption: "Savaştan önce Valcour Koyu’ndaki Amerikan tekneleri, Charles Randle’ın suluboya resmi, 1776"
+
+# The fleet slips away, night of 11 October
+markers.canada-retreat-escape-valcour.note: "Filo 11 Ekim gecesi sıyrılır"
+
+# Providence and Jersey sunk
+markers.canada-retreat-escape-schuyler.note: "Providence ve Jersey batırılır"
+
+# Washington strikes her colours
+markers.canada-retreat-escape-split-rock.note: "Washington sancağını indirir"
+
+# Arnold burns Congress
+markers.canada-retreat-escape-arnolds-bay.note: "Arnold, Congress’i yakar"
+
+# The galley Congress, Arnold’s flagship, with the sloop Enterprise at Valcour Island
+images.congress-galley-1776.caption: "Valcour Adası’nda Arnold’ın amiral gemisi Congress kadırgası ve Enterprise slupu"
+
+# Declaration of Independence, painting by John Trumbull, 1818. The committee of five presents its draft to Congress
+images.declaration-trumbull.caption: "Bağımsızlık Bildirgesi, John Trumbull’un tablosu, 1818. Beşler komitesi taslağını Kongreye sunuyor"
+
+# The Declaration as first printed by John Dunlap in Philadelphia, July 1776
+images.dunlap-broadside.caption: "Bildirgenin John Dunlap tarafından Philadelphia’da yapılan ilk baskısı, Temmuz 1776"
+
+# The Battle of Fort Moultrie on Sullivan's Island, 28 June 1776, painting by John Blake White, 1826
+images.fort-moultrie-white.caption: "Sullivan Adası’nda Fort Moultrie Muharebesi, 28 Haziran 1776. John Blake White’ın tablosu, 1826"
+
+# Plan of the attack on Fort Sullivan by a British squadron on 28 June 1776, drawn by Thomas James of the Royal Artillery, engraved by William Faden
+images.fort-sullivan-1776.caption: "Bir İngiliz filosunun 28 Haziran 1776’da Fort Sullivan’a saldırısının planı. Kraliyet Topçusu’ndan Thomas James’in çizimi, William Faden’in gravürü"
+
+# Holds the fort
+markers.declaration-fort-sullivan-moultrie.note: "Kaleyi tutar"
+
+# Opens broadsides at about 10 a.m.
+markers.declaration-fort-sullivan-parker.note: "Saat 10 dolaylarında borda ateşi açar"
+
+# Cannot cross the inlet
+markers.declaration-fort-sullivan-clinton.note: "Geçidi aşamaz"
+
+# At Haddrell’s Point
+markers.declaration-fort-sullivan-lee.note: "Haddrell’s Point’te"
+
+# Across the harbour
+markers.declaration-fort-sullivan-charleston.note: "Limanın karşı yakasında"
+
+# Plan of Charleston bar and harbour with the attack on Fort Sullivan on 28 June 1776, published by Sayer and Bennett, London, 1776
+images.charleston-bar-plan-1776.caption: "28 Haziran 1776’da Fort Sullivan’a yapılan saldırıyla Charleston sığlığı ve limanının planı, Sayer ve Bennett, Londra, 1776"
+
+# Raises the fallen flag
+markers.declaration-frigates-jasper.note: "Düşen sancağı yeniden diker"
+
+# Burned by her crew next morning
+markers.declaration-frigates-actaeon.note: "Ertesi sabah tayfası tarafından yakılır"
+
+# 40 killed, 71 wounded, Parker hurt
+markers.declaration-frigates-bristol.note: "40 ölü, 71 yaralı, Parker yaralı"
+
+# Sergeant William Jasper raises the fallen flag on the fort’s wall, engraving after Johannes Oertel, 1858
+images.jasper-flag-oertel.caption: "Çavuş William Jasper kalenin duvarında düşen sancağı yeniden dikiyor, Johannes Oertel’den gravür, 1858"
+
+# The Battle of Long Island, 27 August 1776, painting by Alonzo Chappel, 1858
+images.long-island-chappel.caption: "Long Island Muharebesi, 27 Ağustos 1776. Alonzo Chappel’ın tablosu, 1858"
+
+# The British attack on Long Island, detail of a map published by John Bowles, 1776
+images.long-island-1776.caption: "Long Island’a İngiliz saldırısı, John Bowles’un yayımladığı bir haritadan ayrıntı, 1776"
+
+# The great fire of New York, September 1776, engraving by Franz Xaver Habermann
+images.new-york-fire-1776.caption: "New York’taki büyük yangın, Eylül 1776. Franz Xaver Habermann’ın gravürü"
+
+# The British attack on Fort Washington, 16 November 1776, watercolour by Thomas Davies, a Royal Artillery officer
+images.fort-washington-davies.caption: "Fort Washington’a İngiliz saldırısı, 16 Kasım 1776. Kraliyet Topçusu subayı Thomas Davies’in suluboyası"
+
+# The tavern keeper is made to guide
+markers.new-york-night-march-howard.note: "Meyhaneci kılavuzluğa zorlanır"
+
+# Leads the light infantry in front
+markers.new-york-night-march-clinton.note: "Öndeki hafif piyadeyi yönetir"
+
+# Commands on Long Island
+markers.new-york-night-march-putnam.note: "Long Island’daki komutan"
+
+# First shots, about 11 p.m.
+markers.new-york-night-march-red-lion.note: "İlk kurşunlar, saat 23 dolayları"
+
+# Hessian camp
+markers.new-york-night-march-flatbush.note: "Hessen ordugâhı"
+
+# Howard’s Tavern near the Jamaica Pass, where the British column took the tavern keeper as a guide
+images.howards-tavern-1776.caption: "İngiliz kolunun meyhaneciyi kılavuz olarak aldığı, Jamaica Geçidi yakınındaki Howard’s Tavern"
+
+# Captured
+markers.new-york-flank-sullivan.note: "Esir düşer"
+
+# Battle Hill, most of his men taken
+markers.new-york-flank-parsons.note: "Battle Hill, adamlarının çoğu esir"
+
+# Two signal guns at 9 a.m.
+markers.new-york-flank-howe.note: "Saat 9’da iki işaret topu"
+
+# Hessians
+markers.new-york-flank-de-heister.note: "Hessenliler"
+
+# Battle Pass, the Flatbush Pass held by Sullivan’s men, lithograph by Hayward and Lepine, 1866
+images.battle-pass-1866.caption: "Sullivan’ın adamlarının tuttuğu Flatbush Geçidi, Battle Pass, Hayward ve Lepine’in taşbaskısı, 1866"
+
+# The Vechte–Cortelyou House
+markers.new-york-maryland-house.note: "Vechte–Cortelyou Evi"
+
+# Stirling surrenders to the Hessians
+markers.new-york-maryland-stirling.note: "Stirling Hessenlilere teslim olur"
+
+# Watches from Cobble Hill
+markers.new-york-maryland-washington.note: "Cobble Hill’den izler"
+
+# The Vechte–Cortelyou House, the Old Stone House where the Maryland troops attacked, photograph by John L. Pierrepont
+images.vechte-cortelyou-house.caption: "Maryland birliklerinin saldırdığı Vechte–Cortelyou Evi, Eski Taş Ev, John L. Pierrepont’un fotoğrafı"
+
+# Leaves on the last boat
+markers.new-york-evacuation-washington.note: "Son tekneyle ayrılır"
+
+# Called in too early, sent back
+markers.new-york-evacuation-mifflin.note: "Yanlışlıkla erken çağrılır, geri gönderilir"
+
+# All ashore by 7 a.m.
+markers.new-york-evacuation-manhattan.note: "Saat 7’ye kadar hepsi karada"
+
+# The American retreat from Long Island, painting published by the Werner Company, 1899
+images.retreat-from-long-island.caption: "Amerikalıların Long Island’dan çekilişi, Werner Company’nin yayımladığı tablo, 1899"
+
+# Washington Crossing the Delaware, painting by Emanuel Leutze, 1851
+images.delaware-leutze.caption: "Washington Delaware’i geçiyor, Emanuel Leutze’nin tablosu, 1851"
+
+# The Capture of the Hessians at Trenton, 26 December 1776, painting by John Trumbull
+images.hessians-trumbull.caption: "Trenton’da Hessenlilerin esir alınması, 26 Aralık 1776. John Trumbull’un tablosu"
+
+# The Death of General Mercer at the Battle of Princeton, 3 January 1777, painting by John Trumbull
+images.mercer-trumbull.caption: "Princeton Muharebesi’nde General Mercer’in ölümü, 3 Ocak 1777. John Trumbull’un tablosu"
+
+# Crosses at McConkey’s Ferry
+markers.trenton-crossing-washington.note: "McConkey Geçidi’nden karşıya geçer"
+
+# The columns part here
+markers.trenton-crossing-birmingham.note: "Kollar burada ayrılır"
+
+# Hessian garrison of Trenton
+markers.trenton-crossing-rall.note: "Trenton’ın Hessen garnizonu"
+
+# Kept back by the ice
+markers.trenton-crossing-ewing.note: "Buz yüzünden geçemez"
+
+# The Passage of the Delaware, painting by Thomas Sully, 1819, Museum of Fine Arts, Boston
+images.trenton-sully.caption: "Thomas Sully’nin tablosu Delaware’in Geçilişi, 1819, Boston Güzel Sanatlar Müzesi"
+
+# Directs the attack from the high ground
+markers.trenton-attack-washington.note: "Saldırıyı yüksek yerden yönetir"
+
+# Guns at the head of the streets
+markers.trenton-attack-knox.note: "Caddelerin başında toplar"
+
+# Forms in King Street
+markers.trenton-attack-rall.note: "King Caddesi’nde düzen alır"
+
+# Plan of the battle drawn by Andreas Wiederholdt, the Hessian officer commanding the outpost on the Pennington road, published 1884
+images.trenton-wiederhold-plan.caption: "Pennington yolundaki ileri karakolun komutanı Hessen subayı Andreas Wiederholdt’un çizdiği savaş planı, 1884’te yayımlandı"
+
+# Mortally wounded
+markers.trenton-surrender-rall.note: "Ölümcül yara alır"
+
+# Bayonets against wet muskets
+markers.trenton-surrender-stark.note: "Islak tüfeklere karşı süngü"
+
+# With about 1,000 muskets
+markers.trenton-surrender-prisoners.note: "Yaklaşık 1.000 tüfekle birlikte"
+
+# The surrender of the Hessian troops to Washington after the Battle of Trenton, copy of a nineteenth century lithograph
+images.trenton-hessian-surrender.caption: "Trenton Muharebesi’nden sonra Hessen birliklerinin Washington’a teslim oluşu, on dokuzuncu yüzyıldan bir taş baskının kopyası"
+
+# Waits for the morning
+markers.trenton-assunpink-cornwallis.note: "Sabahı bekler"
+
+# Leaves 500 men at the fires
+markers.trenton-assunpink-washington.note: "Ateşlerin başında 500 kişi bırakır"
+
+# General George Washington at Trenton on the night of 2 January 1777, painting by John Trumbull, 1792
+images.trenton-trumbull-assunpink.caption: "2 Ocak 1777 gecesi Trenton’da General George Washington, John Trumbull’un tablosu, 1792"
+
+# Mortally wounded
+markers.trenton-princeton-mercer.note: "Ölümcül yara alır"
+
+# Rallies the militia
+markers.trenton-princeton-washington.note: "Milisleri toplar"
+
+# Escapes across Stony Brook
+markers.trenton-princeton-mawhood.note: "Stony Brook’un ötesine kaçar"
+
+# Three guns fire on Nassau Hall
+markers.trenton-princeton-hamilton.note: "Üç top Nassau Hall’u döver"
+
+# The Battle of Princeton, painting by James Peale, about 1782, with Washington’s headquarters flag
+images.princeton-peale.caption: "Princeton Muharebesi, James Peale’in tablosu, 1782 dolayları, Washington’ın karargâh bayrağıyla"
+
+# The battle at Saratoga on 19 September 1777, German engraving published by Johann Martin Will
+images.saratoga-will.caption: "19 Eylül 1777’de Saratoga’daki muharebe, Johann Martin Will’in yayımladığı Alman gravürü"
+
+# The Surrender of General Burgoyne at Saratoga, 17 October 1777, painting by John Trumbull
+images.burgoyne-surrender.caption: "General Burgoyne’un Saratoga’da teslim oluşu, 17 Ekim 1777. John Trumbull’un tablosu"
+
+# Three columns at 10 am
+markers.saratoga-advance-burgoyne.note: "Saat onda üç kol"
+
+# Waits behind the works
+markers.saratoga-advance-gates.note: "Tahkimatın arkasında bekler"
+
+# A Loyalist’s clearing
+markers.saratoga-advance-freeman.note: "Sadık bir çiftçinin açıklığı"
+
+# The battlefield in Saratoga National Historical Park, Stillwater, New York
+images.saratoga-battlefield.caption: "New York, Stillwater’daki Saratoga Ulusal Tarih Parkı’nda savaş alanı"
+
+# Rallies the 62nd
+markers.saratoga-freemans-farm-phillips.note: "62. alayı toparlar"
+
+# Riflemen in the woods
+markers.saratoga-freemans-farm-morgan.note: "Ormanda tüfekçiler"
+
+# Arrives from the river
+markers.saratoga-freemans-farm-riedesel.note: "Nehirden gelir"
+
+# The fields of Freeman’s Farm today, with the park’s marker for the battle of 19 September
+images.saratoga-freemans-farm.caption: "Freeman Çiftliği’nin tarlaları bugün, parkın 19 Eylül muharebesi için diktiği levhayla"
+
+# Shot in both legs, taken
+markers.saratoga-bemis-heights-acland.note: "İki bacağından vurulur, esir düşer"
+
+# Mortally wounded
+markers.saratoga-bemis-heights-fraser.note: "Ölümcül yara alır"
+
+# Burgoyne halts here
+markers.saratoga-bemis-heights-wheatfield.note: "Burgoyne burada durur"
+
+# The John Neilson house inside the American lines on Bemis Heights, drawing by Benson John Lossing, 1851
+images.saratoga-neilson-house.caption: "Bemis Tepeleri’ndeki Amerikan hatlarının içindeki John Neilson evi, Benson John Lossing’in çizimi, 1851"
+
+# Leg broken in the redoubt
+markers.saratoga-redoubts-arnold.note: "Tabyada bacağı kırılır"
+
+# Killed
+markers.saratoga-redoubts-breymann.note: "Öldürülür"
+
+# Holds his redoubt
+markers.saratoga-redoubts-balcarres.note: "Tabyasını tutar"
+
+# The burial of General Simon Fraser after the battle, after a painting by John Graham, about 1800
+images.saratoga-fraser-burial.caption: "General Simon Fraser’in muharebeden sonra gömülüşü, John Graham’ın tablosundan, 1800 dolayları"
+
+# Arms laid down, 17 October
+markers.saratoga-surrender-convention.note: "17 Ekim’de silahlar bırakılır"
+
+# Accepts Burgoyne’s sword
+markers.saratoga-surrender-gates.note: "Burgoyne’un kılıcını kabul eder"
+
+# British plan of the position Burgoyne’s army took at Saratoga and held until the convention was signed, 1777
+images.saratoga-position-plan.caption: "Burgoyne’un ordusunun Saratoga’da alıp anlaşma imzalanana kadar tuttuğu mevzinin İngiliz planı, 1777"
+
+# The American battery firing on Brandywine heights, 11 September 1777, watercolour by William Augustus West
+images.brandywine-1777.caption: "11 Eylül 1777’de Brandywine tepelerinde ateş açan Amerikan bataryası, William Augustus West’in suluboyası"
+
+# Washington and Lafayette at the Battle of Brandywine, painting by John Vanderlyn
+images.brandywine-vanderlyn.caption: "Brandywine Muharebesi’nde Washington ve Lafayette, John Vanderlyn’in tablosu"
+
+# The Battle of Germantown, 4 October 1777, painting by Xavier della Gatta, 1782
+images.germantown-della-gatta.caption: "Germantown Muharebesi, 4 Ekim 1777. Xavier della Gatta’nın tablosu, 1782"
+
+# Baron von Steuben drilling troops at Valley Forge, painting by Edwin Austin Abbey
+images.steuben-valley-forge.caption: "Baron von Steuben Valley Forge’da askerleri eğitiyor, Edwin Austin Abbey’nin tablosu"
+
+# Expects the attack at the ford
+markers.brandywine-flank-washington.note: "Saldırıyı geçitte bekler"
+
+# Flank march from 5 am
+markers.brandywine-flank-howe.note: "Sabah beşten itibaren kuşatma yürüyüşü"
+
+# Pushes along the Great Road
+markers.brandywine-flank-knyphausen.note: "Büyük Yol boyunca ilerler"
+
+# Quakers at worship
+markers.brandywine-flank-meeting-house.note: "Kuveykırlar ibadette"
+
+# The house near Chadds Ford that served as Washington’s headquarters at Brandywine
+images.brandywine-headquarters.caption: "Chadds Geçidi yakınında, Brandywine’da Washington’ın karargâhı olarak kullanılan ev"
+
+# Wounded in the leg
+markers.brandywine-birmingham-lafayette.note: "Bacağından yaralanır"
+
+# On Osborne’s Hill
+markers.brandywine-birmingham-howe.note: "Osborne Tepesi’nde"
+
+# The view from Osborne’s Hill along Birmingham Road towards the American positions
+images.brandywine-osborne-hill.caption: "Osborne Tepesi’nden Birmingham Yolu boyunca Amerikan mevzilerine bakış"
+
+# Holds the road for an hour
+markers.brandywine-chadds-ford-greene.note: "Yolu bir saat tutar"
+
+# Loses most of his guns
+markers.brandywine-chadds-ford-wayne.note: "Toplarının çoğunu kaybeder"
+
+# Knox places guns here
+markers.brandywine-chadds-ford-dilworth.note: "Knox burada top mevzilendirir"
+
+# The Nation Makers, Continental soldiers at Brandywine, painting by Howard Pyle, 1903, Brandywine River Museum
+images.brandywine-pyle.caption: "Ulusu Kuranlar: Brandywine’da Kıta askerleri, Howard Pyle’ın tablosu, 1903, Brandywine River Müzesi"
+
+# Washington Rallying the Troops at Monmouth, 28 June 1778, painting by Emanuel Leutze, 1857
+images.monmouth-leutze.caption: "Washington Monmouth’ta birlikleri topluyor, 28 Haziran 1778. Emanuel Leutze’nin tablosu, 1857"
+
+# The legendary Molly Pitcher at Monmouth, Currier and Ives print, 1876
+images.molly-pitcher.caption: "Efsanevi Molly Pitcher Monmouth’ta, Currier ve Ives baskısı, 1876"
+
+# The French squadron entering Narragansett Bay off Newport, 1778, drawing by Pierre Ozanne
+images.newport-ozanne.caption: "Fransız filosu Newport önünde Narragansett Körfezi’ne giriyor, 1778. Pierre Ozanne’ın çizimi"
+
+# Plans to envelop the rearguard
+markers.monmouth-lee-lee.note: "Artçıyı kuşatmayı planlar"
+
+# Clinton’s camp the night before
+markers.monmouth-lee-courthouse.note: "Bir önceki gece Clinton’ın kampı"
+
+# Turns his first division back
+markers.monmouth-lee-clinton.note: "Birinci tümenini geri döndürür"
+
+# Main body from Englishtown
+markers.monmouth-lee-washington.note: "Englishtown’dan gelen ana kuvvet"
+
+# Charles Lee, major general of the Continental Army, engraving by Johann Michael Probst
+images.monmouth-charles-lee.caption: "Kıta Ordusu tümgenerali Charles Lee, Johann Michael Probst’un gravürü"
+
+# Meets Lee, takes command
+markers.monmouth-perrine-washington.note: "Lee’yle karşılaşır, komutayı alır"
+
+# Killed at the bridge
+markers.monmouth-perrine-monckton.note: "Köprüde öldürülür"
+
+# Holds the hedgerow
+markers.monmouth-perrine-lee.note: "Çit sırasını tutar"
+
+# The Battle of Monmouth, engraving by Robert Hinshelwood after Alonzo Chappel
+images.monmouth-chappel.caption: "Monmouth Muharebesi, Alonzo Chappel’den Robert Hinshelwood’un gravürü"
+
+# Guns on Combs Hill
+markers.monmouth-parsonage-greene.note: "Combs Tepesi’nde toplar"
+
+# Drives the Highlanders
+markers.monmouth-parsonage-cilley.note: "İskoçları püskürtür"
+
+# Wayne’s men fall back here
+markers.monmouth-parsonage-parsonage.note: "Wayne’in adamları buraya çekilir"
+
+# Map of the Battle of Monmouth drawn by Michel Capitaine du Chesnoy, aide to Lafayette, 1778
+images.monmouth-du-chesnoy-map.caption: "Lafayette’in yaveri Michel Capitaine du Chesnoy’nın çizdiği Monmouth Muharebesi haritası, 1778"
+
+# The French and American assault on Savannah, 9 October 1779, illustration by Arthur I. Keller
+images.savannah-keller.caption: "Fransız ve Amerikan kuvvetlerinin Savannah’a saldırısı, 9 Ekim 1779. Arthur I. Keller’ın çizimi"
+
+# Plan of the siege of Savannah and the French and American attack of 9 October 1779, published 1784
+images.savannah-plan.caption: "Savannah kuşatmasının ve 9 Ekim 1779’daki Fransız ve Amerikan saldırısının planı, 1784"
+
+# George Rogers Clark's march to Vincennes through the flooded Wabash country, February 1779, twentieth century painting
+images.clark-vincennes.caption: "George Rogers Clark’ın su basmış Wabash ülkesinden Vincennes’e yürüyüşü, Şubat 1779. Yirminci yüzyıl resmi"
+
+# Asks for 24 hours, then refuses
+markers.savannah-siege-prevost.note: "24 saat ister, sonra reddeder"
+
+# Lands guns from the fleet
+markers.savannah-siege-destaing.note: "Donanmadan top çıkarır"
+
+# Joins the French
+markers.savannah-siege-lincoln.note: "Fransızlara katılır"
+
+# Plan of Savannah with the defence works and the works of the besiegers, 9 October 1779, drawn by James Moncrief
+images.savannah-moncrief-plan.caption: "Savunma hatlarını ve kuşatanların mevzilerini gösteren Savannah planı, 9 Ekim 1779, James Moncrief’in çizimi"
+
+# Wounded twice
+markers.savannah-assault-destaing.note: "İki kez yaralanır"
+
+# Mortally wounded
+markers.savannah-assault-pulaski.note: "Ölümcül yara alır"
+
+# Plants a flag on the trench
+markers.savannah-assault-stedingk.note: "Sipere bayrak diker"
+
+# Casimir Pulaski at Savannah, painting by Stanisław Kaczor-Batowski, 1931
+images.savannah-pulaski.caption: "Savannah’da Casimir Pulaski, Stanisław Kaczor-Batowski’nin tablosu, 1931"
+
+# Filled with the dead
+markers.savannah-repulse-ditch.note: "Ölülerle dolu"
+
+# 244 killed, 584 wounded, 120 captured
+markers.savannah-repulse-losses.note: "244 ölü, 584 yaralı, 120 esir"
+
+# Charles Henri, comte d’Estaing, portrait by Jean-Baptiste Le Brun, 1769
+images.savannah-destaing.caption: "Comte d’Estaing Charles Henri, Jean-Baptiste Le Brun’ün portresi, 1769"
+
+# Bernardo de Gálvez, governor of Louisiana, portrait by an unknown painter
+images.galvez-portrait.caption: "Louisiana valisi Bernardo de Gálvez, kimliği bilinmeyen bir ressamın portresi"
+
+# West Florida on a map by Bernard Romans, 1776
+images.west-florida-romans.caption: "Bernard Romans’ın haritasında Batı Florida, 1776"
+
+# The capture of Pensacola, May 1781, engraving by Bertaux and Ponce after Lausan, 1783
+images.pensacola-1781.caption: "Pensacola’nın alınışı, Mayıs 1781. Lausan’dan Bertaux ve Ponce’un gravürü, 1783"
+
+# Runs the channel, 18 March
+markers.pensacola-landing-galvez.note: "Kanaldan geçer, 18 Mart"
+
+# Hibernia Regiment on the island
+markers.pensacola-landing-oneill.note: "Adada Hibernia Alayı"
+
+# Refuses to enter, sails home
+markers.pensacola-landing-calvo.note: "Girmeyi reddeder, geri döner"
+
+# Capital of West Florida
+markers.pensacola-landing-town.note: "Batı Florida’nın merkezi"
+
+# Commands after Gálvez is wounded
+markers.pensacola-siege-ezpeleta.note: "Gálvez yaralanınca komutayı alır"
+
+# Holds Fort George
+markers.pensacola-siege-campbell.note: "Fort George’u tutar"
+
+# The town below Fort George
+markers.pensacola-siege-town.note: "Fort George’un altındaki kasaba"
+
+# Spanish plan of Pensacola, Fort George and the British works under attack, drawn by Francisco de Planas, May 1781
+images.pensacola-planas-plan.caption: "Pensacola’nın, Fort George’un ve saldırı altındaki İngiliz tahkimatının İspanyol planı, Francisco de Planas’ın çizimi, Mayıs 1781"
+
+# Magazine explodes, 57 killed, 8 May
+markers.pensacola-crescent-magazine.note: "Cephanelik patlar, 57 ölü, 8 Mayıs"
+
+# Surrenders, 10 May
+markers.pensacola-crescent-campbell.note: "Teslim olur, 10 Mayıs"
+
+# Light infantry
+markers.pensacola-crescent-ezpeleta.note: "Hafif piyade"
+
+# The explosion of the British magazine during the siege of Pensacola, wash drawing by Nicolas Ponce, 1784
+images.pensacola-explosion-ponce.caption: "Pensacola kuşatmasında İngiliz cephaneliğinin patlaması, Nicolas Ponce’un lavi çizimi, 1784"
+
+# The siege of Charleston, 1780, engraving after a painting by Alonzo Chappel
+images.charleston-siege-engraving.caption: "Charleston kuşatması, 1780. Alonzo Chappel’ın tablosundan gravür"
+
+# Plan of the British investment of Charleston in 1780
+images.charleston-1780-plan.caption: "İngiliz ordusunun 1780’de Charleston’ı kuşatmasının planı"
+
+# The death of de Kalb at the Battle of Camden, 16 August 1780, engraving after Alonzo Chappel
+images.camden-chappel.caption: "Camden Muharebesi’nde de Kalb’in ölümü, 16 Ağustos 1780. Alonzo Chappel’dan gravür"
+
+# The Battle of Kings Mountain, 7 October 1780, nineteenth century engraving
+images.kings-mountain.caption: "Kings Mountain Muharebesi, 7 Ekim 1780. On dokuzuncu yüzyıl gravürü"
+
+# Arbuthnot’s squadron runs past Fort Moultrie into the harbour, 8 April
+routes.arbuthnot-1780.name: "Arbuthnot’un filosu Fort Moultrie’nin önünden limana girer, 8 Nisan"
+
+# Clinton’s army through the sea islands and over the Ashley, February to March 1780
+routes.clinton-1780.name: "Clinton’ın ordusu deniz adalarından geçip Ashley’yi aşar, Şubat – Mart 1780"
+
+# Cornwallis crosses the Cooper and holds the east bank, 23 April
+routes.cornwallis-1780.name: "Cornwallis Cooper’ı geçer ve doğu yakasını tutar, 23 Nisan"
+
+# Tarleton and Ferguson ride to Monck’s Corner, 14 April
+routes.tarleton-1780.name: "Tarleton ve Ferguson Monck’s Corner’a gider, 14 Nisan"
+
+# The army ashore by 12 February
+markers.charleston-approach-simmons.note: "Ordu 12 Şubat’a kadar karaya çıkar"
+
+# American cavalry routed, 14 April
+markers.charleston-approach-moncks-corner.note: "Amerikan süvarisi bozguna uğrar, 14 Nisan"
+
+# Passed by the fleet, 8 April
+markers.charleston-approach-moultrie.note: "Filo önünden geçer, 8 Nisan"
+
+# Lincoln’s army behind its lines
+markers.charleston-approach-city.note: "Lincoln’ün ordusu hatlarının ardında"
+
+# A sketch of the operations before Charlestown, the capital of South Carolina, by Joseph F. W. Des Barres, 1780
+images.charleston-des-barres.caption: "Güney Carolina’nın merkezi Charlestown önündeki harekâtın krokisi, Joseph F. W. Des Barres, 1780"
+
+# About 5,500 men in the lines
+markers.charleston-harbour-lincoln.note: "Hatlarda yaklaşık 5.500 kişi"
+
+# Opens the siege, 1 April
+markers.charleston-harbour-clinton.note: "Kuşatmayı açar, 1 Nisan"
+
+# Into the harbour, 8 April
+markers.charleston-harbour-arbuthnot.note: "Limana girer, 8 Nisan"
+
+# Sinks his ships in the Cooper
+markers.charleston-harbour-whipple.note: "Gemilerini Cooper’da batırır"
+
+# British siege guns before Charleston in 1780, the city across the water behind them, engraving after Alonzo Chappel, 1862
+images.charleston-chappel-battery.caption: "1780’de Charleston önündeki İngiliz kuşatma topları, arkada suyun öte yanında kent, Alonzo Chappel’den gravür, 1862"
+
+# Surrenders 3,371 men
+markers.charleston-surrender-lincoln.note: "3.371 askeri teslim eder"
+
+# Houses burn, 11 May
+markers.charleston-surrender-fires.note: "Evler yanar, 11 Mayıs"
+
+# Refuses the honours of war
+markers.charleston-surrender-clinton.note: "Savaş onurlarını reddeder"
+
+# The Battle of Cowpens, 17 January 1781, painting by William Ranney, 1845
+images.cowpens-ranney.caption: "Cowpens Muharebesi, 17 Ocak 1781. William Ranney’nin tablosu, 1845"
+
+# Banastre Tarleton, portrait by Joshua Reynolds, 1782
+images.tarleton-reynolds.caption: "Banastre Tarleton, Joshua Reynolds’ın portresi, 1782"
+
+# The Battle of Guilford Court House, 15 March 1781, painting by H. Charles McBarron Jr. for the United States Army
+images.guilford-mcbarron.caption: "Guilford Court House Muharebesi, 15 Mart 1781. H. Charles McBarron Jr.’ın ABD Ordusu için yaptığı resim"
+
+# First page of the Articles of Confederation as sent to the states in November 1777
+images.articles-of-confederation.caption: "Konfederasyon Maddeleri’nin Kasım 1777’de eyaletlere gönderilen metninin ilk sayfası"
+
+# On the hill behind the main line
+markers.cowpens-lines-morgan.note: "Ana hattın arkasındaki tepede"
+
+# Two volleys, then fall back
+markers.cowpens-lines-pickens.note: "İki yaylım ateşi, sonra geri çekilme"
+
+# Riflemen in front
+markers.cowpens-lines-riflemen.note: "Önde tüfekçiler"
+
+# Cavalry behind the hill
+markers.cowpens-lines-washington.note: "Tepenin arkasında süvari"
+
+# About 1,150 men
+markers.cowpens-lines-tarleton.note: "Yaklaşık 1.150 kişi"
+
+# The monument on the field of Cowpens
+images.cowpens-monument.caption: "Cowpens savaş alanındaki anıt"
+
+# Falls back as planned
+markers.cowpens-volleys-pickens.note: "Plana göre geri çekilir"
+
+# Turns the right, the order is misheard
+markers.cowpens-volleys-howard.note: "Sağı döndürür, emir yanlış anlaşılır"
+
+# Takes it for a rout
+markers.cowpens-volleys-tarleton.note: "Bunu bozgun sanır"
+
+# 71st Highlanders
+markers.cowpens-volleys-mcarthur.note: "71. İskoç Alayı"
+
+# Charge bayonets
+markers.cowpens-envelopment-howard.note: "Süngü hücumu"
+
+# Into the British rear
+markers.cowpens-envelopment-washington.note: "İngilizlerin arkasına"
+
+# Round the hill to the right
+markers.cowpens-envelopment-pickens.note: "Tepeyi dolanıp sağa"
+
+# Surrounded, they surrender
+markers.cowpens-envelopment-71st.note: "Kuşatılıp teslim olurlar"
+
+# Escapes with about 40 men
+markers.cowpens-envelopment-tarleton.note: "Yaklaşık 40 kişiyle kaçar"
+
+# The Battle of Cowpens, painting by Don Troiani for the National Guard
+images.cowpens-troiani.caption: "Cowpens Muharebesi, Don Troiani’nin Ulusal Muhafız için yaptığı tablo"
+
+# The naval battle off the Chesapeake, 5 September 1781, painting by Théodore Gudin
+images.chesapeake-gudin.caption: "Chesapeake açıklarındaki deniz muharebesi, 5 Eylül 1781. Théodore Gudin’in tablosu"
+
+# The siege of Yorktown, October 1781, painting by Auguste Couder, 1836
+images.yorktown-couder.caption: "Yorktown kuşatması, Ekim 1781. Auguste Couder’in tablosu, 1836"
+
+# The storming of Redoubt 10 on the night of 14 October 1781, painting by Eugène Lami, 1840
+images.redoubt-10-lami.caption: "14 Ekim 1781 gecesi 10 numaralı tabyaya hücum, Eugène Lami’nin tablosu, 1840"
+
+# The Surrender of Lord Cornwallis at Yorktown, 19 October 1781, painting by John Trumbull, 1820
+images.cornwallis-surrender.caption: "Lord Cornwallis’in Yorktown’da teslim oluşu, 19 Ekim 1781. John Trumbull’un tablosu, 1820"
+
+# 24 ships of the line
+markers.yorktown-chesapeake-degrasse.note: "24 hat gemisi"
+
+# French van, at close range
+markers.yorktown-chesapeake-bougainville.note: "Fransız öncüsü, yakın mesafede"
+
+# 19 ships of the line
+markers.yorktown-chesapeake-graves.note: "19 hat gemisi"
+
+# British van, badly damaged
+markers.yorktown-chesapeake-drake.note: "İngiliz öncüsü, ağır hasarlı"
+
+# Rear, a few shots fired
+markers.yorktown-chesapeake-hood.note: "Artçı, birkaç atış"
+
+# A Representation of the Sea Fight on the 5th of September 1781 between Rear Admiral Graves and the Count de Grasse, engraving in the Political Magazine, London, 1782
+images.chesapeake-graves-plan.caption: "Tuğamiral Graves ile Kont de Grasse arasındaki 5 Eylül 1781 deniz savaşının tasviri, Political Magazine’de gravür, Londra, 1782"
+
+# Cornwallis’s headquarters
+markers.yorktown-parallel-town.note: "Cornwallis’in karargâhı"
+
+# French army on the left
+markers.yorktown-parallel-rochambeau.note: "Solda Fransız ordusu"
+
+# Americans on the right
+markers.yorktown-parallel-washington.note: "Sağda Amerikalılar"
+
+# Tarleton and the Legion
+markers.yorktown-parallel-gloucester.note: "Tarleton ve Lejyon"
+
+# American soldiers at the siege of Yorktown, among them a soldier of the 1st Rhode Island Regiment, watercolour by Jean-Baptiste-Antoine de Verger, 1781
+images.yorktown-verger.caption: "Yorktown kuşatmasında, aralarında 1. Rhode Island Alayı’ndan bir askerin de bulunduğu Amerikan askerleri, Jean-Baptiste-Antoine de Verger’nin suluboyası, 1781"
+
+# Redoubt 10
+markers.yorktown-redoubts-hamilton.note: "10 numaralı tabya"
+
+# Redoubt 9
+markers.yorktown-redoubts-deux-ponts.note: "9 numaralı tabya"
+
+# Shelled from three sides after the 14th
+markers.yorktown-redoubts-town.note: "14’ünden sonra üç yandan dövülür"
+
+# French troops storming Redoubt 9 at Yorktown, illustration in Washington, the Man of Action, 1914
+images.yorktown-redoubt-9.caption: "Yorktown’da 9 numaralı tabyaya saldıran Fransız askerleri, Washington, the Man of Action kitabından resim, 1914"
+
+# Terms settled, 18 October
+markers.yorktown-surrender-moore-house.note: "Koşullar kararlaştırılır, 18 Ekim"
+
+# Arms laid down, 19 October
+markers.yorktown-surrender-field.note: "Silahlar bırakılır, 19 Ekim"
+
+# A squall stops the crossing, 16 October
+markers.yorktown-surrender-squall.note: "Bir bora geçişi durdurur, 16 Ekim"
+
+# Leads the British out for Cornwallis
+markers.yorktown-surrender-ohara.note: "Cornwallis yerine İngilizleri dışarı çıkarır"
+
+# The siege of Yorktown, with the British army marching out between the French and American lines, painting by Louis Nicolas van Blarenberghe
+images.yorktown-blarenberghe.caption: "Yorktown kuşatması, Fransız ve Amerikan hatları arasından çıkan İngiliz ordusuyla, Louis Nicolas van Blarenberghe’nin tablosu"
+
+# The American peace commissioners John Jay, John Adams, Benjamin Franklin, Henry Laurens and William Temple Franklin, unfinished painting by Benjamin West, 1783
+images.treaty-paris-west.caption: "Amerikan barış heyeti: John Jay, John Adams, Benjamin Franklin, Henry Laurens ve William Temple Franklin. Benjamin West’in tamamlanmamış tablosu, 1783"
+
+# The last page of the Treaty of Paris with the signatures, 3 September 1783
+images.treaty-paris-1783.caption: "Paris Antlaşması’nın imzaları taşıyan son sayfası, 3 Eylül 1783"
+
+# General George Washington Resigning His Commission at Annapolis, 23 December 1783, painting by John Trumbull
+images.washington-resigns-trumbull.caption: "General George Washington Annapolis’te görevini bırakıyor, 23 Aralık 1783. John Trumbull’un tablosu"
+
+# Daniel Shays and Job Shattuck, woodcut on the cover of Bickerstaff's Boston Almanack, 1787
+images.shays-shattuck.caption: "Daniel Shays ve Job Shattuck, Bickerstaff’s Boston Almanack’ın kapağındaki ağaç baskı, 1787"
+
+# Ezra Stiles's map of the places of Shays' Rebellion in western Massachusetts, 1787
+images.shays-map-stiles.caption: "Ezra Stiles’ın Batı Massachusetts’teki Shays İsyanı yerlerini gösteren haritası, 1787"
+
+# Holds the armory
+markers.springfield-arsenal-shepard.note: "Cephaneliği tutar"
+
+# Attacks from the east
+markers.springfield-arsenal-shays.note: "Doğudan saldırır"
+
+# Waits for the 26th
+markers.springfield-arsenal-day.note: "26’sını bekler"
+
+# Intercepted by Shepard’s men
+markers.springfield-arsenal-message.note: "Shepard’ın adamlarınca ele geçirilir"
+
+# William Shepard, the militia general who held the Springfield armory
+images.shepard-portrait.caption: "Springfield cephaneliğini tutan milis generali William Shepard"
+
+# Lincoln follows by Hadley and Pelham and marches through the snow to Petersham, 3 to 4 February
+routes.lincoln-1787-petersham.name: "Lincoln Hadley ve Pelham üzerinden izler ve karda Petersham’a yürür, 3 – 4 Şubat"
+
+# Lincoln marches west from Worcester to Springfield with 3,000 militia, late January 1787
+routes.lincoln-1787-west.name: "Lincoln 3.000 milisle Worcester’dan batıya, Springfield’a yürür, Ocak 1787 sonu"
+
+# The rebels fall back by Amherst to Petersham
+routes.rebels-1787.name: "İsyancılar Amherst üzerinden Petersham’a çekilir"
+
+# Lincoln’s army gathers, 19 January
+markers.springfield-petersham-worcester.note: "Lincoln’ün ordusu toplanır, 19 Ocak"
+
+# The rebels regroup
+markers.springfield-petersham-amherst.note: "İsyancılar yeniden toplanır"
+
+# Lincoln arrives, 2 February
+markers.springfield-petersham-pelham.note: "Lincoln varır, 2 Şubat"
+
+# Rebels surprised at dawn, 4 February
+markers.springfield-petersham-petersham.note: "İsyancılar şafakta baskına uğrar, 4 Şubat"
+
+# The Northwest Ordinance, printed for Congress in July 1787
+images.northwest-ordinance.caption: "Kuzeybatı Kararnamesi, Temmuz 1787’de Kongre için basılan metin"
+
+# Scene at the Signing of the Constitution of the United States, painting by Howard Chandler Christy, 1940
+images.signing-christy.caption: "Amerika Birleşik Devletleri Anayasası’nın imzalanması, Howard Chandler Christy’nin tablosu, 1940"
+
+# The first page of the Constitution as signed on 17 September 1787
+images.constitution-page-1.caption: "17 Eylül 1787’de imzalanan Anayasa’nın ilk sayfası"
+
+# Title page of the first collected edition of The Federalist, 1788
+images.federalist-1788.caption: "The Federalist’in ilk toplu baskısının kapak sayfası, 1788"
+
+# The Pennsylvania State House in Philadelphia, now Independence Hall, painting by Ferdinand Richardt, 1858 to 1863
+images.state-house-richardt.caption: "Philadelphia’daki Pennsylvania Eyalet Binası, bugünkü Independence Hall. Ferdinand Richardt’ın tablosu, 1858–1863"
+
+# John Hancock, president of the Massachusetts ratifying convention, portrait by John Singleton Copley, 1765
+images.hancock-copley.caption: "Massachusetts onay kurultayının başkanı John Hancock, John Singleton Copley’nin portresi, 1765"
+
+# Samuel Adams, portrait by John Singleton Copley, about 1772
+images.samuel-adams-copley.caption: "Samuel Adams, John Singleton Copley’nin portresi, 1772 dolayları"
+
+# Patrick Henry, who led the opposition at the Virginia convention, portrait by George Bagby Matthews after Thomas Sully, about 1891
+images.patrick-henry.caption: "Virginia kurultayında muhalefete önderlik eden Patrick Henry, Thomas Sully’den George Bagby Matthews’in portresi, 1891 dolayları"
+
+# The federal ship Hamilton in the New York parade for the Constitution, 23 July 1788, later engraving
+images.federal-procession-1788.caption: "New York’ta Anayasa için düzenlenen geçit töreninde Hamilton federal gemisi, 23 Temmuz 1788. Sonraki dönemden gravür"
+
+# The inauguration of George Washington at Federal Hall, 30 April 1789, painting by Ramon de Elorriaga, about 1898
+images.inauguration-elorriaga.caption: "George Washington’ın Federal Hall’da yemin töreni, 30 Nisan 1789. Ramon de Elorriaga’nın tablosu, 1898 dolayları"
+
+# Federal Hall in New York with Washington taking the oath on the balcony, engraving by Amos Doolittle, 1790
+images.federal-hall-doolittle.caption: "New York’taki Federal Hall ve balkonda yemin eden Washington, Amos Doolittle’ın gravürü, 1790"
+
+# William Blount, governor of the Southwest Territory, etching by Albert Rosenthal, 1888
+images.william-blount.caption: "Güneybatı Toprakları valisi William Blount, Albert Rosenthal’ın gravürü, 1888"
+
+# Rocky Mount, the first seat of the territory's government, print by Allen Ross Pittman
+images.rocky-mount-pittman.caption: "Toprakların ilk yönetim merkezi Rocky Mount, Allen Ross Pittman’ın baskısı"
+
+# The Residence Act of 16 July 1790
+images.residence-act.caption: "16 Temmuz 1790 tarihli İkamet Yasası"
+
+# The twelve amendments proposed by Congress on 25 September 1789. Ten were ratified as the Bill of Rights
+images.bill-of-rights.caption: "Kongrenin 25 Eylül 1789’da önerdiği on iki değişiklik. Bunların onu Haklar Bildirgesi olarak onaylandı"
+
+# Pierre Charles L'Enfant's plan for the federal city on the Potomac, 1791, in an 1887 copy
+images.lenfant-plan.caption: "Pierre Charles L’Enfant’ın Potomac kıyısındaki federal şehir planı, 1791. 1887 tarihli kopya"
+
+# The Battle of Fallen Timbers, 20 August 1794, illustration by R. F. Zogbaum, 1895
+images.fallen-timbers-zogbaum.caption: "Fallen Timbers Muharebesi, 20 Ağustos 1794. R. F. Zogbaum’un çizimi, 1895"
+
+# The negotiations for the Treaty of Greenville, 1795, painting by an unidentified artist
+images.greenville-painting.caption: "Greenville Antlaşması görüşmeleri, 1795. Kimliği bilinmeyen bir ressamın tablosu"
+
+# Thomas Pinckney, who negotiated the treaty with Spain, portrait by John Trumbull, 1791
+images.pinckney-trumbull.caption: "İspanya ile antlaşmayı müzakere eden Thomas Pinckney, John Trumbull’un portresi, 1791"
+
+# Daniel Smith's map of the State of Tennessee, 1796
+images.tennessee-1796.caption: "Daniel Smith’in Tennessee haritası, 1796"
+
+# Brings up the artillery
+markers.fallen-timbers-ambush-wayne.note: "Topçuyu öne getirir"
+
+# About 1,500 warriors in the timber
+markers.fallen-timbers-ambush-blue-jacket.note: "Devrik ağaçlarda yaklaşık 1.500 savaşçı"
+
+# Forms two ranks
+markers.fallen-timbers-ambush-hamtramck.note: "İki sıra halinde dizer"
+
+# Right wing by the river
+markers.fallen-timbers-ambush-wilkinson.note: "Nehir yanında sağ kanat"
+
+# At the battle of Fallen Timbers, 1794, illustration by John Steeple Davis, about 1891
+images.fallen-timbers-davis.caption: "Fallen Timbers Muharebesi’nde, 1794, John Steeple Davis’in resmi, 1891 dolayları"
+
+# Shot dead on the rock
+markers.fallen-timbers-charge-turkey-foot.note: "Kayanın üstünde vurularak ölür"
+
+# Killed in the charge
+markers.fallen-timbers-charge-campbell.note: "Hücumda ölür"
+
+# Through the swamp
+markers.fallen-timbers-charge-todd.note: "Bataklığın içinden"
+
+# Charge with the bayonet
+markers.fallen-timbers-charge-wayne.note: "Süngü hücumu"
+
+# Turkey Foot Rock on the bank of the Maumee near Toledo, postcard, 1909
+images.turkey-foot-rock.caption: "Toledo yakınında Maumee kıyısındaki Turkey Foot Kayası, kartpostal, 1909"
+
+# Keeps the gates shut
+markers.fallen-timbers-miami-campbell.note: "Kapıları kapalı tutar"
+
+# Rides alone along the walls
+markers.fallen-timbers-miami-wayne.note: "Tek başına surların boyunca dolaşır"
+
+# Burned by Wayne’s men
+markers.fallen-timbers-miami-mckee.note: "Wayne’in adamlarınca yakılır"
+
+# An hour and ten minutes
+markers.fallen-timbers-miami-battlefield.note: "Bir saat on dakika"
+
+# The earthworks of Fort Miami on the Maumee at Maumee, Ohio, today
+images.fort-miamis-earthworks.caption: "Maumee, Ohio’da Maumee kıyısındaki Fort Miami’nin toprak tahkimatı, bugün"
+
+# February to October 1763
+pages.peace-of-paris.date: "Şubat – Ekim 1763"
+
+# The Peace of Paris and the Proclamation Line
+pages.peace-of-paris.title: "Paris Barışı ve Kraliyet Bildirgesi hattı"
+
+# 1764 to 1766
+pages.stamp-act.date: "1764 – 1766"
+
+# The Sugar Act, the Stamp Act and the first congress
+pages.stamp-act.title: "Şeker Yasası, Pul Yasası ve ilk kongre"
+
+# 1767 to 1770
+pages.boston-massacre.date: "1767 – 1770"
+
+# The Townshend duties and the Boston Massacre
+pages.boston-massacre.title: "Townshend vergileri ve Boston Katliamı"
+
+# 16 December 1773
+pages.tea-party.date: "16 Aralık 1773"
+
+# The Boston Tea Party
+pages.tea-party.title: "Boston Çay Partisi"
+
+# March to June 1774
+pages.coercive-acts.date: "Mart – Haziran 1774"
+
+# The Coercive Acts and the Quebec Act
+pages.coercive-acts.title: "Zorlayıcı Yasalar ve Quebec Yasası"
+
+# 5 September to 26 October 1774
+pages.first-congress.date: "5 Eylül – 26 Ekim 1774"
+
+# The First Continental Congress
+pages.first-congress.title: "Birinci Kıta Kongresi"
+
+# 19 April 1775
+pages.lexington.date: "19 Nisan 1775"
+
+# Lexington and Concord
+pages.lexington.title: "Lexington ve Concord"
+
+# 19 April 1775, dawn
+pages.lexington-green.date: "19 Nisan 1775, şafak"
+
+# Lexington: the green at dawn
+pages.lexington-green.title: "Lexington: şafakta çayır"
+
+# Lexington training band under Captain John Parker, 77 men
+emblems.lexington-green.militia: "Yüzbaşı John Parker komutasındaki Lexington milis bölüğü, 77 kişi"
+
+# Advance guard under Lieutenant Jesse Adair, turning onto the common
+emblems.lexington-green.advance-guard: "Teğmen Jesse Adair komutasındaki öncü birlik, çayıra dönerken"
+
+# Three light companies halted by Major John Pitcairn
+emblems.lexington-green.pitcairn-companies: "Binbaşı John Pitcairn’in durdurduğu üç hafif bölük"
+
+# Grenadier companies under Lieutenant Colonel Francis Smith
+emblems.lexington-green.grenadiers: "Yarbay Francis Smith komutasındaki grenadiyer bölükleri"
+
+# The advance guard turns onto the common
+emblems.lexington-green.regulars-advance: "Öncü birlik çayıra döner"
+
+# Pitcairn leads three companies to the left and halts
+emblems.lexington-green.pitcairn-left: "Pitcairn üç bölüğü sola götürür ve durdurur"
+
+# The regulars fire and charge with the bayonet
+emblems.lexington-green.bayonet-charge: "Askerler ateş açar ve süngü hücumuna geçer"
+
+# The militia disperse under fire
+emblems.lexington-green.militia-disperse: "Milisler ateş altında dağılır"
+
+# 19 April 1775, morning
+pages.lexington-north-bridge.date: "19 Nisan 1775, sabah"
+
+# Concord: the North Bridge
+pages.lexington-north-bridge.title: "Concord: Kuzey Köprüsü"
+
+# The Concord River, in spring flood
+emblems.lexington-north-bridge.concord-river: "İlkbahar taşkınındaki Concord Nehri"
+
+# The North Bridge
+emblems.lexington-north-bridge.north-bridge: "Kuzey Köprüsü"
+
+# Minutemen and militia under Major John Buttrick, at least 400, the Acton company in front
+emblems.lexington-north-bridge.militia-column: "Binbaşı John Buttrick komutasında en az 400 minuteman ve milis, önde Acton bölüğü"
+
+# Militia still on the hill with Colonel James Barrett
+emblems.lexington-north-bridge.militia-hill: "Albay James Barrett ile tepede kalan milisler"
+
+# Three light companies under Captain Walter Laurie, about 95 men, formed for street firing
+emblems.lexington-north-bridge.laurie: "Yüzbaşı Walter Laurie komutasında sokak ateşi düzenine girmiş üç hafif bölük, 95 kadar kişi"
+
+# Two grenadier companies brought up by Smith
+emblems.lexington-north-bridge.smith-grenadiers: "Smith’in getirdiği iki grenadiyer bölüğü"
+
+# The militia advance on the bridge
+emblems.lexington-north-bridge.militia-advance: "Milisler köprüye ilerler"
+
+# The light companies break and run for the town
+emblems.lexington-north-bridge.light-companies-flee: "Hafif bölükler bozulup kente kaçar"
+
+# Smith comes up from the town, too late
+emblems.lexington-north-bridge.smith-comes-up: "Smith kentten gelir, ama geç kalmıştır"
+
+# 19 April 1775, afternoon
+pages.lexington-road-back.date: "19 Nisan 1775, öğleden sonra"
+
+# Concord: the road back to Charlestown
+pages.lexington-road-back.title: "Concord: Charlestown’a dönüş yolu"
+
+# The Charles River
+emblems.lexington-road-back.charles: "Charles Nehri"
+
+# The Mystic River
+emblems.lexington-road-back.mystic: "Mystic Nehri"
+
+# Smith’s column, short of ammunition
+emblems.lexington-road-back.smith-column: "Cephanesi azalan Smith’in kolu"
+
+# Percy’s brigade, about 1,000 men with two guns, on the high ground at Lexington
+emblems.lexington-road-back.percy-brigade: "Percy’nin tugayı, iki toplu yaklaşık 1.000 kişi, Lexington’daki yüksek arazide"
+
+# Militia at Meriam’s Corner
+emblems.lexington-road-back.militia-meriams: "Meriam’s Corner’daki milisler"
+
+# Militia along the road through Lincoln
+emblems.lexington-road-back.militia-lincoln: "Lincoln’den geçen yol boyunca milisler"
+
+# Militia in the houses of Menotomy
+emblems.lexington-road-back.militia-menotomy: "Menotomy’nin evlerindeki milisler"
+
+# Militia at Watson’s Corner
+emblems.lexington-road-back.militia-cambridge: "Watson’s Corner’daki milisler"
+
+# Salem and Marblehead militia under Timothy Pickering, halted on Winter Hill
+emblems.lexington-road-back.pickering: "Timothy Pickering komutasında Winter Hill’de duran Salem ve Marblehead milisleri"
+
+# Smith’s column falls back from Concord
+emblems.lexington-road-back.smith-retreat: "Smith’in kolu Concord’dan geri çekilir"
+
+# Percy marches out of Boston by the Neck and Cambridge
+emblems.lexington-road-back.percy-march: "Percy, Boğaz ve Cambridge üzerinden Boston’dan çıkar"
+
+# Percy’s column withdraws to Charlestown
+emblems.lexington-road-back.percy-retreat: "Percy’nin kolu Charlestown’a çekilir"
+
+# May to July 1775
+pages.bunker-hill.date: "Mayıs – Temmuz 1775"
+
+# Ticonderoga, the Second Congress and Bunker Hill
+pages.bunker-hill.title: "Ticonderoga, İkinci Kongre ve Bunker Hill"
+
+# 16 to 17 June 1775
+pages.bunker-hill-redoubt.date: "16 – 17 Haziran 1775"
+
+# Bunker Hill: the redoubt on Breed’s Hill
+pages.bunker-hill-redoubt.title: "Bunker Hill: Breed’s Hill’deki tabya"
+
+# The Mystic River
+emblems.bunker-hill-redoubt.mystic: "Mystic Nehri"
+
+# The Charles River, between Charlestown and Boston
+emblems.bunker-hill-redoubt.charles: "Charlestown ile Boston arasındaki Charles Nehri"
+
+# The redoubt on Breed’s Hill, about 40 metres on a side
+emblems.bunker-hill-redoubt.redoubt: "Breed’s Hill’deki tabya, bir kenarı 40 metre kadar"
+
+# The breastwork dug at daylight
+emblems.bunker-hill-redoubt.breastwork: "Gün ağarınca kazılan göğüs siperi"
+
+# The rail fence, packed with hay
+emblems.bunker-hill-redoubt.rail-fence: "Samanla doldurulmuş çit"
+
+# Stark’s stone wall down the beach to the water
+emblems.bunker-hill-redoubt.stone-wall: "Stark’ın kumsal boyunca suya inen taş duvarı"
+
+# Prescott’s Massachusetts men in the redoubt
+emblems.bunker-hill-redoubt.prescott: "Prescott’un tabyadaki Massachusettslı adamları"
+
+# Defenders of the breastwork
+emblems.bunker-hill-redoubt.breastwork-men: "Göğüs siperinin savunucuları"
+
+# Knowlton’s Connecticut men at the rail fence
+emblems.bunker-hill-redoubt.knowlton: "Knowlton’ın çitteki Connecticutlı adamları"
+
+# New Hampshire men under John Stark and James Reed
+emblems.bunker-hill-redoubt.stark: "John Stark ve James Reed komutasındaki New Hampshire’lılar"
+
+# Men gathering on Bunker Hill under Israel Putnam
+emblems.bunker-hill-redoubt.putnam: "Israel Putnam komutasında Bunker Hill’de toplanan adamlar"
+
+# Howe’s grenadiers and light infantry, about 1,500, landed at Moulton’s Point
+emblems.bunker-hill-redoubt.howe: "Howe’un Moulton’s Point’e çıkan grenadiyer ve hafif piyadesi, 1.500 kadar"
+
+# Light infantry pushed forward along the Mystic side
+emblems.bunker-hill-redoubt.light-forward: "Mystic tarafında öne sürülen hafif piyade"
+
+# Pigot’s regiments and marines gathering south of Charlestown
+emblems.bunker-hill-redoubt.pigot: "Charlestown’un güneyinde toplanan Pigot’nun alayları ve deniz piyadeleri"
+
+# HMS Somerset, 68 guns
+emblems.bunker-hill-redoubt.somerset: "68 toplu HMS Somerset"
+
+# HMS Lively, which opens fire at dawn
+emblems.bunker-hill-redoubt.lively: "Şafakta ateş açan HMS Lively"
+
+# Howe’s force crosses by boat to Moulton’s Point
+emblems.bunker-hill-redoubt.boats: "Howe’un kuvveti sandallarla Moulton’s Point’e geçer"
+
+# 17 June 1775, afternoon
+pages.bunker-hill-attacks.date: "17 Haziran 1775, öğleden sonra"
+
+# Bunker Hill: the first two attacks
+pages.bunker-hill-attacks.title: "Bunker Hill: ilk iki saldırı"
+
+# The Mystic River
+emblems.bunker-hill-attacks.mystic: "Mystic Nehri"
+
+# The Charles River, between Charlestown and Boston
+emblems.bunker-hill-attacks.charles: "Charlestown ile Boston arasındaki Charles Nehri"
+
+# The redoubt on Breed’s Hill, about 40 metres on a side
+emblems.bunker-hill-attacks.redoubt: "Breed’s Hill’deki tabya, bir kenarı 40 metre kadar"
+
+# The breastwork dug at daylight
+emblems.bunker-hill-attacks.breastwork: "Gün ağarınca kazılan göğüs siperi"
+
+# The rail fence, packed with hay
+emblems.bunker-hill-attacks.rail-fence: "Samanla doldurulmuş çit"
+
+# Stark’s stone wall down the beach to the water
+emblems.bunker-hill-attacks.stone-wall: "Stark’ın kumsal boyunca suya inen taş duvarı"
+
+# Prescott’s Massachusetts men in the redoubt
+emblems.bunker-hill-attacks.prescott: "Prescott’un tabyadaki Massachusettslı adamları"
+
+# Defenders of the breastwork
+emblems.bunker-hill-attacks.breastwork-men: "Göğüs siperinin savunucuları"
+
+# Knowlton’s Connecticut men at the rail fence
+emblems.bunker-hill-attacks.knowlton: "Knowlton’ın çitteki Connecticutlı adamları"
+
+# New Hampshire men under John Stark and James Reed
+emblems.bunker-hill-attacks.stark: "John Stark ve James Reed komutasındaki New Hampshire’lılar"
+
+# Men on Bunker Hill under Putnam, many of whom never go forward
+emblems.bunker-hill-attacks.putnam: "Putnam ile Bunker Hill’deki adamlar, çoğu öne hiç gitmez"
+
+# Light infantry in column along the beach
+emblems.bunker-hill-attacks.light-infantry: "Kumsal boyunca kol halinde hafif piyade"
+
+# Grenadiers, four deep, against the rail fence
+emblems.bunker-hill-attacks.grenadiers: "Çite karşı dört sıra dizilmiş grenadiyerler"
+
+# Pigot’s 5th, 38th, 43rd, 47th and 52nd and the marines against the redoubt
+emblems.bunker-hill-attacks.pigot: "Pigot’nun 5., 38., 43., 47. ve 52. alayları ile deniz piyadeleri tabyaya karşı"
+
+# The light infantry attack Stark’s wall
+emblems.bunker-hill-attacks.beach-attack: "Hafif piyade Stark’ın duvarına saldırır"
+
+# The grenadiers attack the fence
+emblems.bunker-hill-attacks.fence-attack: "Grenadiyerler çite saldırır"
+
+# Pigot’s attack on the redoubt
+emblems.bunker-hill-attacks.redoubt-attack: "Pigot’nun tabyaya saldırısı"
+
+# Light companies break, some running back to the boats
+emblems.bunker-hill-attacks.light-flee: "Hafif bölükler bozulur, bazıları sandallara kaçar"
+
+# 17 June 1775, evening
+pages.bunker-hill-third-attack.date: "17 Haziran 1775, akşam"
+
+# Bunker Hill: the third attack
+pages.bunker-hill-third-attack.title: "Bunker Hill: üçüncü saldırı"
+
+# The Mystic River
+emblems.bunker-hill-third-attack.mystic: "Mystic Nehri"
+
+# The Charles River, between Charlestown and Boston
+emblems.bunker-hill-third-attack.charles: "Charlestown ile Boston arasındaki Charles Nehri"
+
+# The redoubt on Breed’s Hill, about 40 metres on a side
+emblems.bunker-hill-third-attack.redoubt: "Breed’s Hill’deki tabya, bir kenarı 40 metre kadar"
+
+# The breastwork dug at daylight
+emblems.bunker-hill-third-attack.breastwork: "Gün ağarınca kazılan göğüs siperi"
+
+# The rail fence, packed with hay
+emblems.bunker-hill-third-attack.rail-fence: "Samanla doldurulmuş çit"
+
+# Stark’s stone wall down the beach to the water
+emblems.bunker-hill-third-attack.stone-wall: "Stark’ın kumsal boyunca suya inen taş duvarı"
+
+# About 150 defenders left in the redoubt, almost out of powder
+emblems.bunker-hill-third-attack.prescott: "Tabyada kalan 150 kadar savunucu, barutları tükenmek üzere"
+
+# Knowlton’s and Stark’s men, withdrawing in order
+emblems.bunker-hill-third-attack.knowlton: "Düzen içinde çekilen Knowlton ve Stark’ın adamları"
+
+# Putnam tries to rally the retreating men on Bunker Hill
+emblems.bunker-hill-third-attack.putnam: "Putnam geri çekilenleri Bunker Hill’de toplamaya çalışır"
+
+# Grenadiers in column, packs left behind
+emblems.bunker-hill-third-attack.grenadier-column: "Sırt çantalarını bırakmış, kol halinde grenadiyerler"
+
+# Pigot’s men in column against the redoubt
+emblems.bunker-hill-third-attack.pigot-column: "Pigot’nun adamları kol halinde tabyaya karşı"
+
+# A column against the breastwork
+emblems.bunker-hill-third-attack.breastwork-column: "Göğüs siperine karşı bir kol"
+
+# A feint against the rail fence
+emblems.bunker-hill-third-attack.fence-feint: "Çite karşı bir aldatma saldırısı"
+
+# Clinton’s reinforcements, about 400 of the 2nd Marines and the 63rd
+emblems.bunker-hill-third-attack.clinton: "Clinton’ın takviyesi, 2. Deniz Piyade ve 63. Alay’dan 400 kadar kişi"
+
+# HMS Glasgow firing on the Neck
+emblems.bunker-hill-third-attack.glasgow: "Boğazı döven HMS Glasgow"
+
+# Clinton crosses from Boston
+emblems.bunker-hill-third-attack.clinton-crossing: "Clinton Boston’dan karşıya geçer"
+
+# The defenders fall back over Bunker Hill to the Neck
+emblems.bunker-hill-third-attack.redoubt-retreat: "Savunucular Bunker Hill üzerinden Boğaz’a çekilir"
+
+# Stark and Knowlton cover the retreat
+emblems.bunker-hill-third-attack.fence-retreat: "Stark ve Knowlton geri çekilmeyi korur"
+
+# September to December 1775
+pages.canada.date: "Eylül – Aralık 1775"
+
+# The invasion of Canada
+pages.canada.title: "Kanada seferi"
+
+# 31 December 1775, before dawn
+pages.canada-assault.date: "31 Aralık 1775, şafaktan önce"
+
+# Quebec: the attack in the snowstorm
+pages.canada-assault.title: "Quebec: kar fırtınasında saldırı"
+
+# The St Charles estuary
+emblems.canada-assault.st-charles: "St. Charles halici"
+
+# The walls of the Upper Town
+emblems.canada-assault.walls: "Yukarı Şehir’in surları"
+
+# The first barricade at the Sault-au-Matelot
+emblems.canada-assault.first-barricade: "Sault-au-Matelot’daki ilk barikat"
+
+# The second barricade, held by Caldwell
+emblems.canada-assault.second-barricade: "Caldwell’in tuttuğu ikinci barikat"
+
+# The blockhouse and palisades at Près-de-Ville
+emblems.canada-assault.pres-de-ville: "Près-de-Ville’deki blokhaus ve şarampoller"
+
+# Montgomery’s column, about 300 New York troops, along the shore from Wolfe’s Cove
+emblems.canada-assault.montgomery: "Montgomery’nin kolu, 300 kadar New Yorklu asker, Wolfe’s Cove’dan kıyı boyunca"
+
+# Arnold’s column, about 600 men with Morgan’s riflemen in front, from Saint-Roch
+emblems.canada-assault.arnold: "Arnold’ın kolu, önde Morgan’ın tüfekçileriyle 600 kadar kişi, Saint-Roch’tan"
+
+# Jacob Brown’s feint at the Cape Diamond redoubt
+emblems.canada-assault.brown: "Jacob Brown’un Cape Diamond tabyasına aldatma saldırısı"
+
+# James Livingston’s Canadiens, a feint at the Saint-Jean gate
+emblems.canada-assault.livingston: "James Livingston’ın Kanadalıları, Saint-Jean kapısına aldatma saldırısı"
+
+# Carleton’s garrison in the Upper Town, about 1,800 regulars, militia and sailors
+emblems.canada-assault.garrison: "Carleton’ın Yukarı Şehir’deki garnizonu, 1.800 kadar asker, milis ve denizci"
+
+# Montgomery leads his column from Wolfe’s Cove towards Près-de-Ville
+emblems.canada-assault.montgomery-route: "Montgomery kolunu Wolfe’s Cove’dan Près-de-Ville’e götürür"
+
+# Arnold passes under the walls by the Palace Gate towards the Sault-au-Matelot
+emblems.canada-assault.arnold-route: "Arnold, Palais Kapısı yanındaki surların altından Sault-au-Matelot’ya geçer"
+
+# 31 December 1775
+pages.canada-lower-town.date: "31 Aralık 1775"
+
+# Quebec: the barricades of the Lower Town
+pages.canada-lower-town.title: "Quebec: Aşağı Şehir’in barikatları"
+
+# The St Charles estuary
+emblems.canada-lower-town.st-charles: "St. Charles halici"
+
+# The walls of the Upper Town
+emblems.canada-lower-town.walls: "Yukarı Şehir’in surları"
+
+# The first barricade at the Sault-au-Matelot
+emblems.canada-lower-town.first-barricade: "Sault-au-Matelot’daki ilk barikat"
+
+# The second barricade, held by Caldwell
+emblems.canada-lower-town.second-barricade: "Caldwell’in tuttuğu ikinci barikat"
+
+# The blockhouse and palisades at Près-de-Ville
+emblems.canada-lower-town.pres-de-ville: "Près-de-Ville’deki blokhaus ve şarampoller"
+
+# Montgomery’s column, falling back to the Plains of Abraham under Campbell
+emblems.canada-lower-town.montgomery: "Campbell komutasında Abraham Ovası’na çekilen Montgomery’nin kolu"
+
+# Morgan’s men, past the first barricade and held at the second
+emblems.canada-lower-town.morgan: "İlk barikatı geçip ikincide durdurulan Morgan’ın adamları"
+
+# Caldwell’s militia, Royal Highland Emigrants and the 7th Foot at the second barricade
+emblems.canada-lower-town.caldwell: "İkinci barikatta Caldwell’in milisleri, Royal Highland Emigrants ve 7. Alay"
+
+# Captain Laws with 500 men out of the Palace Gate
+emblems.canada-lower-town.laws: "Palais Kapısı’ndan 500 kişiyle çıkan Yüzbaşı Laws"
+
+# Dearborn’s company, cut off and captured
+emblems.canada-lower-town.dearborn: "Yolu kesilip esir alınan Dearborn’un bölüğü"
+
+# Campbell leads the column back after Montgomery is killed
+emblems.canada-lower-town.montgomery-retreat: "Montgomery ölünce Campbell kolu geri götürür"
+
+# Laws retakes the first barricade behind Morgan
+emblems.canada-lower-town.laws-sortie: "Laws, Morgan’ın arkasındaki ilk barikatı geri alır"
+
+# January to March 1776
+pages.boston.date: "Ocak – Mart 1776"
+
+# Common Sense, and the British leave Boston
+pages.boston.title: "Sağduyu ve İngilizlerin Boston’dan ayrılışı"
+
+# May to November 1776
+pages.canada-retreat.date: "Mayıs – Kasım 1776"
+
+# The retreat from Canada and Valcour Island
+pages.canada-retreat.title: "Kanada’dan çekiliş ve Valcour Adası"
+
+# 11 October 1776
+pages.canada-retreat-valcour.date: "11 Ekim 1776"
+
+# Valcour Island: the line in the strait
+pages.canada-retreat-valcour.title: "Valcour Adası: boğazdaki hat"
+
+# Lake Champlain
+emblems.canada-retreat-valcour.lake-champlain: "Champlain Gölü"
+
+# Arnold’s 15 vessels in a crescent across the strait, about 74 guns
+emblems.canada-retreat-valcour.american-line: "Arnold’ın boğazın enine hilal biçiminde dizilmiş 15 teknesi, 74 kadar top"
+
+# British gunboats, 28 in all, each with one cannon
+emblems.canada-retreat-valcour.gunboats: "İngiliz top tekneleri, toplam 28, her biri tek toplu"
+
+# The schooner Carleton, 12 guns, badly damaged
+emblems.canada-retreat-valcour.carleton: "12 toplu Carleton uskunası, ağır hasarlı"
+
+# The ship sloop Inflexible, 18 guns, which comes up at sunset
+emblems.canada-retreat-valcour.inflexible: "Gün batarken gelen 18 toplu Inflexible slupu"
+
+# Thunderer and Maria, held back by the headwind
+emblems.canada-retreat-valcour.thunderer-maria: "Karşı rüzgâr yüzünden geride kalan Thunderer ve Maria"
+
+# Royal Savage, aground on the island and burned
+emblems.canada-retreat-valcour.royal-savage: "Adada karaya oturup yakılan Royal Savage"
+
+# Native allies of the British landed on the island
+emblems.canada-retreat-valcour.native-island: "İngilizlerin adaya çıkan yerli müttefikleri"
+
+# Native allies of the British on the western shore
+emblems.canada-retreat-valcour.native-shore: "İngilizlerin batı kıyısındaki yerli müttefikleri"
+
+# Carleton’s fleet sails south past the island, then turns up into the strait
+emblems.canada-retreat-valcour.british-approach: "Carleton’ın filosu adanın yanından güneye geçer, sonra boğaza döner"
+
+# 11 to 13 October 1776
+pages.canada-retreat-escape.date: "11 – 13 Ekim 1776"
+
+# Valcour Island: the escape
+pages.canada-retreat-escape.title: "Valcour Adası: kaçış"
+
+# Lake Champlain
+emblems.canada-retreat-escape.lake-champlain: "Champlain Gölü"
+
+# The British fleet, catching up as the wind changes
+emblems.canada-retreat-escape.british-fleet: "Rüzgâr dönünce yetişen İngiliz filosu"
+
+# The galley Washington, which strikes her colours with 110 men
+emblems.canada-retreat-escape.washington: "110 kişiyle sancağını indiren Washington kadırgası"
+
+# Congress and the smaller craft, run aground and burned in Arnold’s Bay
+emblems.canada-retreat-escape.burned-at-arnolds-bay: "Arnold Koyu’nda karaya oturtulup yakılan Congress ve küçük tekneler"
+
+# Trumbull, New York, Enterprise and Revenge, safe at Crown Point
+emblems.canada-retreat-escape.escaped: "Crown Point’e sağ salim varan Trumbull, New York, Enterprise ve Revenge"
+
+# Arnold’s fleet slips past the British at night and makes for Crown Point
+emblems.canada-retreat-escape.american-escape: "Arnold’ın filosu gece İngilizlerin yanından sıyrılıp Crown Point’e yönelir"
+
+# The British fleet pursues on 12 and 13 October
+emblems.canada-retreat-escape.british-pursuit: "İngiliz filosu 12 ve 13 Ekim’de kovalar"
+
+# About 200 men reach Crown Point overland
+emblems.canada-retreat-escape.overland: "200 kadar kişi kara yoluyla Crown Point’e ulaşır"
+
+# 7 June to 4 July 1776
+pages.declaration.date: "7 Haziran – 4 Temmuz 1776"
+
+# The Declaration of Independence
+pages.declaration.title: "Bağımsızlık Bildirgesi"
+
+# 28 June 1776, morning
+pages.declaration-fort-sullivan.date: "28 Haziran 1776, sabah"
+
+# Sullivan’s Island: the fleet against the fort
+pages.declaration-fort-sullivan.title: "Sullivan Adası: filo kaleye karşı"
+
+# Breach Inlet, deeper than the British expected
+emblems.declaration-fort-sullivan.breach-inlet: "İngilizlerin sandığından derin çıkan Breach Inlet"
+
+# Fort Sullivan, palmetto logs filled with sand, 31 guns
+emblems.declaration-fort-sullivan.fort-sullivan: "Fort Sullivan, içi kumla dolu palmetto kütükleri, 31 top"
+
+# Thomson’s entrenchment at the north end of the island
+emblems.declaration-fort-sullivan.thomson-works: "Thomson’ın adanın kuzey ucundaki siperi"
+
+# Moultrie’s 435 men of the 2nd South Carolina and the 4th South Carolina Artillery
+emblems.declaration-fort-sullivan.moultrie: "Moultrie’nin 2. South Carolina Alayı ve 4. South Carolina Topçusu’ndan 435 kişisi"
+
+# Bristol, Experiment, Active and Solebay, anchored about 400 yards off the fort
+emblems.declaration-fort-sullivan.parker-line: "Kaleden 400 yarda kadar açıkta demirleyen Bristol, Experiment, Active ve Solebay"
+
+# The bomb vessel Thunder and Friendship, about a mile and a half off
+emblems.declaration-fort-sullivan.thunder: "Bir buçuk mil kadar açıktaki Thunder havan gemisi ve Friendship"
+
+# Colonel William Thomson’s riflemen and guns, more than 750 men
+emblems.declaration-fort-sullivan.thomson: "Albay William Thomson’ın tüfekçileri ve topları, 750’den fazla kişi"
+
+# Clinton’s 2,200 troops on Long Island
+emblems.declaration-fort-sullivan.clinton: "Clinton’ın Long Island’daki 2.200 askeri"
+
+# Clinton’s boats try to cross the inlet
+emblems.declaration-fort-sullivan.clinton-boats: "Clinton’ın sandalları geçidi geçmeye çalışır"
+
+# Driven back by grapeshot and rifle fire
+emblems.declaration-fort-sullivan.clinton-back: "Saçma ve tüfek ateşiyle geri püskürtülür"
+
+# 28 June 1776, afternoon and night
+pages.declaration-frigates.date: "28 Haziran 1776, öğleden sonra ve gece"
+
+# Sullivan’s Island: the frigates aground
+pages.declaration-frigates.title: "Sullivan Adası: karaya oturan fırkateynler"
+
+# Breach Inlet, deeper than the British expected
+emblems.declaration-frigates.breach-inlet: "İngilizlerin sandığından derin çıkan Breach Inlet"
+
+# Fort Sullivan, palmetto logs filled with sand, 31 guns
+emblems.declaration-frigates.fort-sullivan: "Fort Sullivan, içi kumla dolu palmetto kütükleri, 31 top"
+
+# Thomson’s entrenchment at the north end of the island
+emblems.declaration-frigates.thomson-works: "Thomson’ın adanın kuzey ucundaki siperi"
+
+# Moultrie’s garrison, firing slowly to save powder
+emblems.declaration-frigates.moultrie: "Barutu korumak için yavaş ateş eden Moultrie’nin garnizonu"
+
+# Bristol and Experiment, battered by the fort’s guns
+emblems.declaration-frigates.parker-line: "Kalenin toplarıyla dövülen Bristol ve Experiment"
+
+# Thunder, her mortars broken from their mounts
+emblems.declaration-frigates.thunder: "Havanları kızaklarından kopmuş Thunder"
+
+# Sphinx, Syren and Actaeon, aground on the Middle Ground
+emblems.declaration-frigates.frigates: "Middle Ground sığlığına oturan Sphinx, Syren ve Actaeon"
+
+# The frigates sent round the shoals to rake the fort
+emblems.declaration-frigates.frigates-route: "Kaleyi yandan dövmek için sığlıkların çevresinden gönderilen fırkateynler"
+
+# Lee sends powder from the mainland
+emblems.declaration-frigates.powder: "Lee anakaradan barut gönderir"
+
+# The fleet withdraws out of range at about 9 p.m.
+emblems.declaration-frigates.withdrawal: "Filo saat 21 dolaylarında menzil dışına çekilir"
+
+# August to December 1776
+pages.new-york.date: "Ağustos – Aralık 1776"
+
+# New York falls, and the retreat across New Jersey
+pages.new-york.title: "New York düşer, New Jersey boyunca geri çekiliş"
+
+# Night of 26 to 27 August 1776
+pages.new-york-night-march.date: "26 – 27 Ağustos 1776 gecesi"
+
+# Long Island: the night march
+pages.new-york-night-march.title: "Long Island: gece yürüyüşü"
+
+# Gowanus Creek and Brouwer’s millpond, about 80 yards wide
+emblems.new-york-night-march.gowanus-creek: "Gowanus Deresi ve Brouwer değirmen göleti, 80 yarda kadar genişlikte"
+
+# The American lines on Brooklyn Heights, from Gowanus Creek to Wallabout Bay
+emblems.new-york-night-march.brooklyn-lines: "Gowanus Deresi’nden Wallabout Koyu’na Brooklyn Heights’taki Amerikan hatları"
+
+# About 6,000 men in the Brooklyn lines under Israel Putnam
+emblems.new-york-night-march.putnam: "Israel Putnam komutasında Brooklyn hatlarındaki 6.000 kadar kişi"
+
+# Stirling’s men on the Gowanus Road, about 1,600 by dawn
+emblems.new-york-night-march.stirling: "Stirling’in Gowanus Yolu’ndaki adamları, şafakta 1.600 kadar"
+
+# Sullivan with about 1,000 men at the Flatbush Pass
+emblems.new-york-night-march.sullivan: "Flatbush Geçidi’nde 1.000 kadar kişiyle Sullivan"
+
+# About 800 men at the Bedford Pass
+emblems.new-york-night-march.bedford-pass: "Bedford Geçidi’nde 800 kadar kişi"
+
+# Five militia officers on horseback, the only guard of the Jamaica Pass
+emblems.new-york-night-march.jamaica-patrol: "Jamaica Geçidi’nin tek bekçisi, atlı beş milis subayı"
+
+# James Grant’s two brigades, about 4,000 British troops
+emblems.new-york-night-march.grant: "James Grant’in iki tugayı, 4.000 kadar İngiliz askeri"
+
+# Hessians under Leopold von Heister at Flatbush
+emblems.new-york-night-march.de-heister: "Leopold von Heister komutasında Flatbush’taki Hessenliler"
+
+# The main army, about 10,000 under Clinton, Cornwallis, Howe and Percy, two miles long
+emblems.new-york-night-march.main-column: "Clinton, Cornwallis, Howe ve Percy komutasında 10.000 kadar kişilik, iki mil uzunluğundaki ana ordu"
+
+# The night march by New Lots to the Jamaica Pass, from 9 p.m.
+emblems.new-york-night-march.night-march: "Saat 21’den itibaren New Lots üzerinden Jamaica Geçidi’ne gece yürüyüşü"
+
+# Through the pass at dawn, then west towards Bedford
+emblems.new-york-night-march.next-morning: "Şafakta geçidi aşıp batıya, Bedford’a doğru"
+
+# Grant’s attack up the Gowanus Road from about 1 a.m.
+emblems.new-york-night-march.grant-attack: "Grant’in saat 1 dolaylarından itibaren Gowanus Yolu’ndan saldırısı"
+
+# 27 August 1776, morning
+pages.new-york-flank.date: "27 Ağustos 1776, sabah"
+
+# Long Island: the flank turned
+pages.new-york-flank.title: "Long Island: kanat çevrilir"
+
+# Gowanus Creek and Brouwer’s millpond, about 80 yards wide
+emblems.new-york-flank.gowanus-creek: "Gowanus Deresi ve Brouwer değirmen göleti, 80 yarda kadar genişlikte"
+
+# The American lines on Brooklyn Heights, from Gowanus Creek to Wallabout Bay
+emblems.new-york-flank.brooklyn-lines: "Gowanus Deresi’nden Wallabout Koyu’na Brooklyn Heights’taki Amerikan hatları"
+
+# The Brooklyn lines, where Sullivan’s men take refuge
+emblems.new-york-flank.putnam: "Sullivan’ın adamlarının sığındığı Brooklyn hatları"
+
+# Stirling holds Grant for four hours
+emblems.new-york-flank.stirling: "Stirling, Grant’i dört saat durdurur"
+
+# About 300 men under Parsons on Battle Hill
+emblems.new-york-flank.parsons: "Battle Hill’de Parsons komutasındaki 300 kadar kişi"
+
+# Sullivan’s men, caught between the Hessians and the British
+emblems.new-york-flank.sullivan: "Hessenlilerle İngilizler arasında kalan Sullivan’ın adamları"
+
+# Grant’s brigades on the Gowanus Road
+emblems.new-york-flank.grant: "Gowanus Yolu’ndaki Grant’in tugayları"
+
+# The Hessians attack up the Flatbush Pass at 9 a.m.
+emblems.new-york-flank.de-heister: "Saat 9’da Flatbush Geçidi’ne saldıran Hessenliler"
+
+# Howe’s main army, through the Jamaica Pass, comes down behind the heights
+emblems.new-york-flank.main-column: "Jamaica Geçidi’ni aşıp tepelerin arkasından inen Howe’un ana ordusu"
+
+# The Hessians attack up the Flatbush Pass
+emblems.new-york-flank.hessian-attack: "Hessenliler Flatbush Geçidi’ne saldırır"
+
+# The British come down on Sullivan from behind
+emblems.new-york-flank.rear-attack: "İngilizler Sullivan’a arkadan saldırır"
+
+# Cornwallis marches west behind Stirling
+emblems.new-york-flank.cornwallis: "Cornwallis Stirling’in arkasından batıya yürür"
+
+# Most of Sullivan’s men reach the Brooklyn lines
+emblems.new-york-flank.sullivan-retreat: "Sullivan’ın adamlarının çoğu Brooklyn hatlarına ulaşır"
+
+# 27 August 1776, about noon
+pages.new-york-maryland.date: "27 Ağustos 1776, öğle dolayları"
+
+# Long Island: the Maryland 400
+pages.new-york-maryland.title: "Long Island: Maryland 400"
+
+# Gowanus Creek and Brouwer’s millpond, about 80 yards wide
+emblems.new-york-maryland.gowanus-creek: "Gowanus Deresi ve Brouwer değirmen göleti, 80 yarda kadar genişlikte"
+
+# The American lines on Brooklyn Heights, from Gowanus Creek to Wallabout Bay
+emblems.new-york-maryland.brooklyn-lines: "Gowanus Deresi’nden Wallabout Koyu’na Brooklyn Heights’taki Amerikan hatları"
+
+# Over 2,000 British with two guns at the Vechte–Cortelyou House
+emblems.new-york-maryland.british-at-house: "Vechte–Cortelyou Evi’nde iki toplu 2.000’i aşkın İngiliz"
+
+# About 260 Marylanders under Stirling and Mordecai Gist
+emblems.new-york-maryland.maryland: "Stirling ve Mordecai Gist komutasında 260 kadar Marylandlı"
+
+# Grant, reinforced by 2,000 marines
+emblems.new-york-maryland.grant: "2.000 deniz piyadesiyle takviye edilen Grant"
+
+# Hessians closing in from the east
+emblems.new-york-maryland.hessians: "Doğudan yaklaşan Hessenliler"
+
+# Defenders in the Brooklyn lines
+emblems.new-york-maryland.lines-garrison: "Brooklyn hatlarındaki savunucular"
+
+# The Marylanders attack the house twice
+emblems.new-york-maryland.maryland-attack: "Marylandlılar eve iki kez saldırır"
+
+# Stirling’s men cross the creek and the marsh to the lines
+emblems.new-york-maryland.crossing: "Stirling’in adamları dereyi ve bataklığı geçip hatlara ulaşır"
+
+# Night of 29 to 30 August 1776
+pages.new-york-evacuation.date: "29 – 30 Ağustos 1776 gecesi"
+
+# Long Island: the crossing to Manhattan
+pages.new-york-evacuation.title: "Long Island: Manhattan’a geçiş"
+
+# The American lines on Brooklyn Heights, from Gowanus Creek to Wallabout Bay
+emblems.new-york-evacuation.brooklyn-lines: "Gowanus Deresi’nden Wallabout Koyu’na Brooklyn Heights’taki Amerikan hatları"
+
+# British siege trenches, dug closer each day
+emblems.new-york-evacuation.british-trenches: "Her gün biraz daha yaklaşan İngiliz kuşatma siperleri"
+
+# Howe’s army before the lines
+emblems.new-york-evacuation.howe: "Hatların önündeki Howe’un ordusu"
+
+# Mifflin’s rearguard, keeping the campfires burning
+emblems.new-york-evacuation.mifflin: "Kamp ateşlerini yanık tutan Mifflin’in artçısı"
+
+# John Glover’s Marblehead men row the army across
+emblems.new-york-evacuation.glover-boats: "John Glover’ın Marbleheadlı adamları orduyu kürekle karşıya geçirir"
+
+# The army leaves the lines for the Brooklyn ferry
+emblems.new-york-evacuation.to-the-ferry: "Ordu hatlardan Brooklyn iskelesine iner"
+
+# 9,000 men cross the East River, night of 29 to 30 August
+emblems.new-york-evacuation.crossing: "9.000 kişi 29 – 30 Ağustos gecesi East River’ı geçer"
+
+# 26 December 1776 to 6 January 1777
+pages.trenton.date: "26 Aralık 1776 – 6 Ocak 1777"
+
+# Trenton and Princeton
+pages.trenton.title: "Trenton ve Princeton"
+
+# Night of 25 to 26 December 1776
+pages.trenton-crossing.date: "25 – 26 Aralık 1776 gecesi"
+
+# Trenton: the crossing
+pages.trenton-crossing.title: "Trenton: geçiş"
+
+# The Delaware River
+emblems.trenton-crossing.delaware: "Delaware Nehri"
+
+# Assunpink Creek
+emblems.trenton-crossing.assunpink: "Assunpink Deresi"
+
+# Durham boats rowed across by Glover’s Marblehead men
+emblems.trenton-crossing.durham-boats: "Glover’ın Marbleheadlı denizcilerinin kürek çektiği Durham tekneleri"
+
+# Washington’s main force, 2,400 men, landed by 3 am
+emblems.trenton-crossing.main-force: "Saat üçe kadar karaya çıkan Washington’ın ana kuvveti, 2.400 kişi"
+
+# Rall’s Hessian brigade, 1,500, in winter quarters
+emblems.trenton-crossing.rall-brigade: "Kışlakta Rall’ın Hessen tugayı, 1.500 kişi"
+
+# Ewing’s 700 militia, kept back by the ice
+emblems.trenton-crossing.ewing: "Buz yüzünden geçemeyen Ewing’in 700 milisi"
+
+# Greene’s division, with Washington, by the Bear Tavern road and then the Scotch and Pennington roads
+emblems.trenton-crossing.greene-column: "Greene’in tümeni, Washington’la birlikte, Bear Tavern yolundan, sonra Scotch ve Pennington yollarından"
+
+# Sullivan’s division by the River road
+emblems.trenton-crossing.sullivan-column: "Nehir yolundan Sullivan’ın tümeni"
+
+# 26 December 1776, 8 am
+pages.trenton-attack.date: "26 Aralık 1776, sabah 8"
+
+# Trenton: the attack
+pages.trenton-attack.title: "Trenton: saldırı"
+
+# The Delaware River
+emblems.trenton-attack.delaware: "Delaware Nehri"
+
+# Assunpink Creek
+emblems.trenton-attack.assunpink: "Assunpink Deresi"
+
+# King Street
+emblems.trenton-attack.king-street: "King Caddesi"
+
+# Queen Street, over the Assunpink bridge
+emblems.trenton-attack.queen-street: "Assunpink köprüsünden geçen Queen Caddesi"
+
+# The Pennington road
+emblems.trenton-attack.pennington-road: "Pennington yolu"
+
+# The River road
+emblems.trenton-attack.river-road: "Nehir yolu"
+
+# The road to Princeton
+emblems.trenton-attack.princeton-road: "Princeton yolu"
+
+# Greene’s division: Stephen’s, Mercer’s and Stirling’s brigades
+emblems.trenton-attack.greene: "Greene’in tümeni: Stephen’ın, Mercer’ın ve Stirling’in tugayları"
+
+# American guns firing down King and Queen streets
+emblems.trenton-attack.guns: "King ve Queen caddelerini döven Amerikan topları"
+
+# Mercer’s men firing from the houses along King Street
+emblems.trenton-attack.mercer: "King Caddesi boyunca evlerden ateş eden Mercer’ın adamları"
+
+# Hand’s riflemen and the German Battalion block the Princeton road
+emblems.trenton-attack.hand: "Hand’in tüfekçileri ve Alman Taburu Princeton yolunu keser"
+
+# Sullivan’s division, with Stark, from the River road
+emblems.trenton-attack.sullivan: "Nehir yolundan gelen Sullivan’ın tümeni, Stark’la birlikte"
+
+# Sullivan’s men holding the Assunpink bridge
+emblems.trenton-attack.bridge-guard: "Assunpink köprüsünü tutan Sullivan’ın adamları"
+
+# Rall regiment and part of the Lossberg regiment in King Street
+emblems.trenton-attack.rall: "King Caddesi’nde Rall alayı ve Lossberg alayının bir bölümü"
+
+# Knyphausen regiment at the lower end of Queen Street
+emblems.trenton-attack.knyphausen: "Queen Caddesi’nin aşağı ucunda Knyphausen alayı"
+
+# Greene overruns the outpost on the Pennington road
+emblems.trenton-attack.greene-advance: "Greene Pennington yolundaki ileri karakolu ezer"
+
+# Sullivan enters by the River road
+emblems.trenton-attack.sullivan-advance: "Sullivan Nehir yolundan girer"
+
+# Rall’s attack up King Street, broken by the guns
+emblems.trenton-attack.rall-attack: "Rall’ın King Caddesi’nden yukarı saldırısı, toplarla dağıtılır"
+
+# The jägers run, some swimming the Assunpink
+emblems.trenton-attack.jagers: "Jägerler kaçar, bazıları Assunpink’i yüzerek geçer"
+
+# 26 December 1776, 9 am
+pages.trenton-surrender.date: "26 Aralık 1776, sabah 9"
+
+# Trenton: the Hessians surrender
+pages.trenton-surrender.title: "Trenton: Hessenliler teslim olur"
+
+# The Delaware River
+emblems.trenton-surrender.delaware: "Delaware Nehri"
+
+# Assunpink Creek
+emblems.trenton-surrender.assunpink: "Assunpink Deresi"
+
+# King Street
+emblems.trenton-surrender.king-street: "King Caddesi"
+
+# Queen Street, over the Assunpink bridge
+emblems.trenton-surrender.queen-street: "Assunpink köprüsünden geçen Queen Caddesi"
+
+# The Pennington road
+emblems.trenton-surrender.pennington-road: "Pennington yolu"
+
+# The River road
+emblems.trenton-surrender.river-road: "Nehir yolu"
+
+# The road to Princeton
+emblems.trenton-surrender.princeton-road: "Princeton yolu"
+
+# Greene’s division on the high ground north of the field
+emblems.trenton-surrender.greene: "Tarlanın kuzeyindeki yüksek yerde Greene’in tümeni"
+
+# Hand’s riflemen closing from the east
+emblems.trenton-surrender.hand: "Doğudan yaklaşan Hand’in tüfekçileri"
+
+# The guns, retaken and turned on the Hessians
+emblems.trenton-surrender.guns: "Geri alınıp Hessenlilere çevrilen toplar"
+
+# Sullivan’s men with Stark
+emblems.trenton-surrender.stark: "Stark’la birlikte Sullivan’ın adamları"
+
+# The Assunpink bridge, held by Sullivan’s men
+emblems.trenton-surrender.bridge-guard: "Sullivan’ın adamlarının tuttuğu Assunpink köprüsü"
+
+# Rall and Lossberg regiments, surrounded in the field
+emblems.trenton-surrender.rall: "Tarlada kuşatılan Rall ve Lossberg alayları"
+
+# Knyphausen regiment, cut off at the Assunpink
+emblems.trenton-surrender.knyphausen: "Assunpink’te çevrilen Knyphausen alayı"
+
+# The Hessians try to retake the town and stall under fire from three sides
+emblems.trenton-surrender.counterattack: "Hessenliler kenti geri almaya çalışır ve üç yandan gelen ateşle durur"
+
+# Stark’s bayonet charge
+emblems.trenton-surrender.stark-charge: "Stark’ın süngü hücumu"
+
+# The Knyphausen regiment marches for the bridge and finds it held
+emblems.trenton-surrender.knyphausen-turn: "Knyphausen alayı köprüye yürür ve köprüyü tutulmuş bulur"
+
+# 2 January 1777
+pages.trenton-assunpink.date: "2 Ocak 1777"
+
+# Trenton: Assunpink Creek
+pages.trenton-assunpink.title: "Trenton: Assunpink Deresi"
+
+# The Delaware River
+emblems.trenton-assunpink.delaware: "Delaware Nehri"
+
+# Assunpink Creek
+emblems.trenton-assunpink.assunpink: "Assunpink Deresi"
+
+# King Street
+emblems.trenton-assunpink.king-street: "King Caddesi"
+
+# Queen Street, over the Assunpink bridge
+emblems.trenton-assunpink.queen-street: "Assunpink köprüsünden geçen Queen Caddesi"
+
+# The Pennington road
+emblems.trenton-assunpink.pennington-road: "Pennington yolu"
+
+# The River road
+emblems.trenton-assunpink.river-road: "Nehir yolu"
+
+# The road to Princeton
+emblems.trenton-assunpink.princeton-road: "Princeton yolu"
+
+# Washington’s army, about 6,000, behind the Assunpink
+emblems.trenton-assunpink.american-line: "Assunpink’in arkasında Washington’ın ordusu, yaklaşık 6.000 kişi"
+
+# Guns covering the bridge
+emblems.trenton-assunpink.bridge-guns: "Köprüyü koruyan toplar"
+
+# Cornwallis’s army, about 8,000, in Trenton
+emblems.trenton-assunpink.cornwallis: "Cornwallis’in Trenton’daki ordusu, yaklaşık 8.000 kişi"
+
+# Washington’s detachments fall back after a day of skirmishing
+emblems.trenton-assunpink.delaying: "Washington’ın müfrezeleri gün boyu çarpıştıktan sonra geri çekilir"
+
+# Three attempts to force the bridge
+emblems.trenton-assunpink.bridge-attacks: "Köprüyü geçmek için üç girişim"
+
+# The night march to Princeton by the Quaker Bridge road
+emblems.trenton-assunpink.night-march: "Quaker Bridge yolundan Princeton’a gece yürüyüşü"
+
+# 3 January 1777
+pages.trenton-princeton.date: "3 Ocak 1777"
+
+# Princeton: Mercer and Mawhood
+pages.trenton-princeton.title: "Princeton: Mercer ve Mawhood"
+
+# Stony Brook
+emblems.trenton-princeton.stony-brook: "Stony Brook"
+
+# The Post Road from Trenton
+emblems.trenton-princeton.post-road: "Trenton’dan gelen Posta Yolu"
+
+# Mercer’s brigade, about 350, in Clarke’s orchard
+emblems.trenton-princeton.mercer: "Clarke’ın meyve bahçesinde Mercer’ın tugayı, yaklaşık 350 kişi"
+
+# Mawhood with the 17th and 55th Foot and two guns
+emblems.trenton-princeton.mawhood: "17. ve 55. alaylar ve iki topla Mawhood"
+
+# Cadwalader’s 1,100 militia, rallied by Washington
+emblems.trenton-princeton.cadwalader: "Washington’ın topladığı Cadwalader’ın 1.100 milisi"
+
+# Virginia Continentals and Hand’s riflemen
+emblems.trenton-princeton.virginians: "Virginia Kıta askerleri ve Hand’in tüfekçileri"
+
+# Hitchcock’s New Englanders turn the British flank
+emblems.trenton-princeton.hitchcock: "Hitchcock’un New Englandlıları İngiliz kanadını çevirir"
+
+# Sullivan’s division: St. Clair’s and Sherman’s brigades
+emblems.trenton-princeton.sullivan: "Sullivan’ın tümeni: St. Clair’in ve Sherman’ın tugayları"
+
+# The 40th Foot and part of the 55th at the ravine
+emblems.trenton-princeton.40th: "Dere yatağında 40. alay ve 55. alayın bir bölümü"
+
+# Nassau Hall, where 194 British soldiers surrender
+emblems.trenton-princeton.nassau-hall: "194 İngiliz askerinin teslim olduğu Nassau Hall"
+
+# Mawhood’s bayonet charge
+emblems.trenton-princeton.mawhood-charge: "Mawhood’un süngü hücumu"
+
+# Mercer’s men break
+emblems.trenton-princeton.mercer-rout: "Mercer’ın adamları bozulur"
+
+# Washington leads the line to within thirty yards
+emblems.trenton-princeton.washington-advance: "Washington hattı otuz yarda mesafeye kadar ilerletir"
+
+# Mawhood breaks out over the Stony Brook bridge
+emblems.trenton-princeton.mawhood-escape: "Mawhood Stony Brook köprüsünden yarıp çıkar"
+
+# Sullivan drives into the town
+emblems.trenton-princeton.sullivan-advance: "Sullivan kente dalar"
+
+# June to October 1777
+pages.saratoga.date: "Haziran – Ekim 1777"
+
+# Burgoyne’s campaign and Saratoga
+pages.saratoga.title: "Burgoyne’un seferi ve Saratoga"
+
+# 19 September 1777, morning
+pages.saratoga-advance.date: "19 Eylül 1777, sabah"
+
+# Saratoga: three columns
+pages.saratoga-advance.title: "Saratoga: üç kol"
+
+# The Hudson River
+emblems.saratoga-advance.hudson: "Hudson Nehri"
+
+# Mill Creek
+emblems.saratoga-advance.mill-creek: "Mill Deresi"
+
+# The American fortifications on Bemis Heights
+emblems.saratoga-advance.american-works: "Bemis Tepeleri’ndeki Amerikan tahkimatı"
+
+# Fraser’s right column: light infantry, grenadiers and the 24th Foot
+emblems.saratoga-advance.fraser: "Fraser’in sağ kolu: hafif piyade, grenadiyerler ve 24. alay"
+
+# Hamilton’s centre column: the 9th, 20th, 21st and 62nd Foot, with Burgoyne
+emblems.saratoga-advance.hamilton: "Hamilton’ın merkez kolu: 9., 20., 21. ve 62. alaylar, Burgoyne’la birlikte"
+
+# Riedesel’s left column: the Germans and the 47th Foot, with the guns and the boats
+emblems.saratoga-advance.riedesel: "Riedesel’in sol kolu: Almanlar ve 47. alay, toplar ve teknelerle"
+
+# Gates’s right wing behind the works
+emblems.saratoga-advance.gates: "Tahkimatın arkasında Gates’in sağ kanadı"
+
+# Arnold’s left wing: Poor’s and Learned’s brigades
+emblems.saratoga-advance.arnold: "Arnold’un sol kanadı: Poor’un ve Learned’ın tugayları"
+
+# Morgan’s riflemen and Dearborn’s light infantry
+emblems.saratoga-advance.morgan: "Morgan’ın tüfekçileri ve Dearborn’un hafif piyadesi"
+
+# Fraser swings west to turn the American left
+emblems.saratoga-advance.fraser-march: "Fraser Amerikan solunu çevirmek için batıya döner"
+
+# Hamilton’s column crosses a ravine towards the clearing
+emblems.saratoga-advance.hamilton-march: "Hamilton’ın kolu bir vadiyi geçip açıklığa yönelir"
+
+# Riedesel on the river road, held up by obstacles
+emblems.saratoga-advance.riedesel-march: "Engellerle yavaşlayan Riedesel nehir yolunda"
+
+# Morgan goes north to the clearing
+emblems.saratoga-advance.morgan-advance: "Morgan kuzeye, açıklığa gider"
+
+# 19 September 1777, afternoon
+pages.saratoga-freemans-farm.date: "19 Eylül 1777, öğleden sonra"
+
+# Saratoga: Freeman’s Farm
+pages.saratoga-freemans-farm.title: "Saratoga: Freeman Çiftliği"
+
+# The Hudson River
+emblems.saratoga-freemans-farm.hudson: "Hudson Nehri"
+
+# Mill Creek
+emblems.saratoga-freemans-farm.mill-creek: "Mill Deresi"
+
+# The American fortifications on Bemis Heights
+emblems.saratoga-freemans-farm.american-works: "Bemis Tepeleri’ndeki Amerikan tahkimatı"
+
+# The 21st Foot, right of Hamilton’s line
+emblems.saratoga-freemans-farm.21st: "Hamilton’ın hattının sağında 21. alay"
+
+# The 62nd Foot, cut down to the size of a company
+emblems.saratoga-freemans-farm.62nd: "Bir bölük büyüklüğüne inen 62. alay"
+
+# The 20th Foot, brought in by Phillips
+emblems.saratoga-freemans-farm.20th: "Phillips’in öne sürdüğü 20. alay"
+
+# The 9th Foot in reserve
+emblems.saratoga-freemans-farm.9th: "Yedekte 9. alay"
+
+# Fraser’s light infantry and grenadiers on the American left
+emblems.saratoga-freemans-farm.fraser: "Amerikan solundaki Fraser’in hafif piyadesi ve grenadiyerleri"
+
+# Morgan’s riflemen, shooting down officers and gunners
+emblems.saratoga-freemans-farm.morgan: "Subayları ve topçuları vuran Morgan’ın tüfekçileri"
+
+# The 1st and 3rd New Hampshire
+emblems.saratoga-freemans-farm.new-hampshire: "1. ve 3. New Hampshire alayları"
+
+# Poor’s brigade: New York, the 1st Canadian and Connecticut militia
+emblems.saratoga-freemans-farm.poor: "Poor’un tugayı: New York alayları, 1. Kanada Alayı ve Connecticut milisleri"
+
+# Learned’s brigade, sent against Fraser
+emblems.saratoga-freemans-farm.learned: "Fraser’e karşı gönderilen Learned’ın tugayı"
+
+# Riedesel’s Germans strike the American right
+emblems.saratoga-freemans-farm.riedesel: "Riedesel’in Almanları Amerikan sağına vurur"
+
+# Riedesel comes up from the river late in the afternoon
+emblems.saratoga-freemans-farm.riedesel-march: "Riedesel öğleden sonra geç saatte nehirden gelir"
+
+# Reinforcements from the works
+emblems.saratoga-freemans-farm.reinforcements: "Tahkimattan gelen takviyeler"
+
+# 7 October 1777, afternoon
+pages.saratoga-bemis-heights.date: "7 Ekim 1777, öğleden sonra"
+
+# Saratoga: Bemis Heights
+pages.saratoga-bemis-heights.title: "Saratoga: Bemis Tepeleri"
+
+# Mill Creek
+emblems.saratoga-bemis-heights.mill-creek: "Mill Deresi"
+
+# The American fortifications on Bemis Heights
+emblems.saratoga-bemis-heights.american-works: "Bemis Tepeleri’ndeki Amerikan tahkimatı"
+
+# The Breymann redoubt
+emblems.saratoga-bemis-heights.breymann-redoubt: "Breymann tabyası"
+
+# The Balcarres redoubt at Freeman’s Farm
+emblems.saratoga-bemis-heights.balcarres-redoubt: "Freeman Çiftliği’ndeki Balcarres tabyası"
+
+# British grenadiers under Acland, the left of the line
+emblems.saratoga-bemis-heights.grenadiers: "Hattın solunda Acland komutasındaki İngiliz grenadiyerleri"
+
+# German detachments in the centre
+emblems.saratoga-bemis-heights.germans: "Merkezdeki Alman müfrezeleri"
+
+# Fraser’s light troops and the 24th Foot, the right
+emblems.saratoga-bemis-heights.fraser: "Sağda Fraser’in hafif birlikleri ve 24. alay"
+
+# Canadians and native warriors on the right flank
+emblems.saratoga-bemis-heights.canadians: "Sağ kanattaki Kanadalılar ve yerli savaşçılar"
+
+# Poor’s brigade holds its fire
+emblems.saratoga-bemis-heights.poor: "Poor’un tugayı ateşini tutar"
+
+# Learned’s brigade in the centre
+emblems.saratoga-bemis-heights.learned: "Merkezde Learned’ın tugayı"
+
+# Morgan’s riflemen on the far left
+emblems.saratoga-bemis-heights.morgan: "En solda Morgan’ın tüfekçileri"
+
+# Ten Broeck’s 1,200 New York militia in reserve
+emblems.saratoga-bemis-heights.ten-broeck: "Yedekte Ten Broeck’in 1.200 New York milisi"
+
+# Acland’s bayonet charge
+emblems.saratoga-bemis-heights.acland-charge: "Acland’ın süngü hücumu"
+
+# Poor’s men fire at close range and rout the grenadiers
+emblems.saratoga-bemis-heights.poor-attack: "Poor’un adamları yakından ateş eder ve grenadiyerleri bozguna uğratır"
+
+# Morgan sweeps aside the Canadians and engages Fraser
+emblems.saratoga-bemis-heights.morgan-attack: "Morgan Kanadalıları süpürür ve Fraser’le çarpışır"
+
+# 7 October 1777, evening
+pages.saratoga-redoubts.date: "7 Ekim 1777, akşam"
+
+# Saratoga: the redoubts
+pages.saratoga-redoubts.title: "Saratoga: tabyalar"
+
+# Mill Creek
+emblems.saratoga-redoubts.mill-creek: "Mill Deresi"
+
+# The American fortifications on Bemis Heights
+emblems.saratoga-redoubts.american-works: "Bemis Tepeleri’ndeki Amerikan tahkimatı"
+
+# The Breymann redoubt
+emblems.saratoga-redoubts.breymann-redoubt: "Breymann tabyası"
+
+# The Balcarres redoubt at Freeman’s Farm
+emblems.saratoga-redoubts.balcarres-redoubt: "Freeman Çiftliği’ndeki Balcarres tabyası"
+
+# Breymann’s 300 Germans
+emblems.saratoga-redoubts.breymann: "Breymann’ın 300 Alman askeri"
+
+# Balcarres’s light infantry, who hold their redoubt
+emblems.saratoga-redoubts.balcarres: "Tabyalarını tutan Balcarres’ın hafif piyadesi"
+
+# Canadians between the redoubts
+emblems.saratoga-redoubts.canadians: "Tabyalar arasındaki Kanadalılar"
+
+# Poor’s brigade, led by Arnold against the Balcarres redoubt
+emblems.saratoga-redoubts.poor: "Arnold’un Balcarres tabyasına sürdüğü Poor’un tugayı"
+
+# Learned’s brigade
+emblems.saratoga-redoubts.learned: "Learned’ın tugayı"
+
+# Morgan’s riflemen
+emblems.saratoga-redoubts.morgan: "Morgan’ın tüfekçileri"
+
+# The attack on the Balcarres redoubt, beaten back
+emblems.saratoga-redoubts.balcarres-attack: "Balcarres tabyasına geri püskürtülen saldırı"
+
+# Arnold leads Learned’s men through the gap into the rear of the Breymann redoubt
+emblems.saratoga-redoubts.arnold-charge: "Arnold, Learned’ın adamlarını boşluktan Breymann tabyasının arkasına götürür"
+
+# Morgan’s riflemen come round the far side
+emblems.saratoga-redoubts.morgan-flank: "Morgan’ın tüfekçileri öbür yandan dolanır"
+
+# 8 to 17 October 1777
+pages.saratoga-surrender.date: "8 – 17 Ekim 1777"
+
+# Saratoga: the surrender
+pages.saratoga-surrender.title: "Saratoga: teslim"
+
+# The Hudson River
+emblems.saratoga-surrender.hudson: "Hudson Nehri"
+
+# Fish Creek
+emblems.saratoga-surrender.fish-creek: "Fish Deresi"
+
+# The American fortifications on Bemis Heights
+emblems.saratoga-surrender.american-works: "Bemis Tepeleri’ndeki Amerikan tahkimatı"
+
+# Burgoyne’s camp on the heights at Saratoga, about 6,000 men
+emblems.saratoga-surrender.burgoyne-camp: "Burgoyne’un Saratoga’daki tepelerde kurduğu kamp, yaklaşık 6.000 kişi"
+
+# Gates’s army south of Fish Creek
+emblems.saratoga-surrender.gates: "Fish Deresi’nin güneyinde Gates’in ordusu"
+
+# Morgan’s riflemen to the west
+emblems.saratoga-surrender.morgan: "Batıda Morgan’ın tüfekçileri"
+
+# American troops on the east bank of the Hudson
+emblems.saratoga-surrender.east-bank: "Hudson’ın doğu yakasındaki Amerikan birlikleri"
+
+# Burgoyne’s retreat by night, 8 to 9 October
+emblems.saratoga-surrender.retreat: "Burgoyne’un gece çekilişi, 8 – 9 Ekim"
+
+# Gates follows
+emblems.saratoga-surrender.pursuit: "Gates peşinden gelir"
+
+# August 1777 to June 1778
+pages.philadelphia.date: "Ağustos 1777 – Haziran 1778"
+
+# Brandywine, Philadelphia and Valley Forge
+pages.philadelphia.title: "Brandywine, Philadelphia ve Valley Forge"
+
+# 11 September 1777, morning
+pages.brandywine-flank.date: "11 Eylül 1777, sabah"
+
+# Brandywine: the flank march
+pages.brandywine-flank.title: "Brandywine: kuşatma yürüyüşü"
+
+# Brandywine Creek
+emblems.brandywine-flank.brandywine: "Brandywine Deresi"
+
+# The West Branch, crossed at Trimble’s Ford
+emblems.brandywine-flank.west-branch: "Trimble Geçidi’nden geçilen Batı Kol"
+
+# The East Branch, crossed at Jefferis Ford
+emblems.brandywine-flank.east-branch: "Jefferis Geçidi’nden geçilen Doğu Kol"
+
+# The Great Road from Kennett Square to Chester
+emblems.brandywine-flank.great-road: "Kennett Square’den Chester’a Büyük Yol"
+
+# Greene’s division at Chadds Ford, with Washington
+emblems.brandywine-flank.greene: "Chadds Geçidi’nde Greene’in tümeni, Washington’la birlikte"
+
+# Wayne’s division and the artillery at the ford
+emblems.brandywine-flank.wayne: "Geçitte Wayne’in tümeni ve topçu"
+
+# Maxwell’s light infantry, skirmishing on the Great Road
+emblems.brandywine-flank.maxwell: "Büyük Yol’da çarpışan Maxwell’in hafif piyadesi"
+
+# Armstrong’s 1,000 Pennsylvania militia at Pyle’s Ford
+emblems.brandywine-flank.armstrong: "Armstrong’un Pyle Geçidi’ndeki 1.000 Pennsylvania milisi"
+
+# Sullivan’s division above Chadds Ford
+emblems.brandywine-flank.sullivan: "Chadds Geçidi’nin yukarısında Sullivan’ın tümeni"
+
+# Stirling’s and Stephen’s divisions on the high ground
+emblems.brandywine-flank.stirling-stephen: "Yüksek yerde Stirling’in ve Stephen’ın tümenleri"
+
+# Hazen’s brigade at Buffington’s and Wistar’s fords
+emblems.brandywine-flank.hazen: "Buffington ve Wistar geçitlerinde Hazen’in tugayı"
+
+# Knyphausen’s column, about 6,800 British and Germans
+emblems.brandywine-flank.knyphausen: "Knyphausen’in kolu, yaklaşık 6.800 İngiliz ve Alman"
+
+# The Queen’s Rangers in the vanguard
+emblems.brandywine-flank.rangers: "Öncüde Queen’s Rangers"
+
+# Knyphausen marches east along the Great Road from 5:30 am
+emblems.brandywine-flank.knyphausen-march: "Knyphausen sabah 5.30’dan itibaren Büyük Yol boyunca doğuya yürür"
+
+# Howe and Cornwallis, about 9,000 men, march 17 miles round the fords
+emblems.brandywine-flank.flank-march: "Howe ve Cornwallis, yaklaşık 9.000 kişiyle, geçitlerin çevresinden dolanarak 17 mil yürür"
+
+# 11 September 1777, 4 pm
+pages.brandywine-birmingham.date: "11 Eylül 1777, saat 16"
+
+# Brandywine: Birmingham Hill
+pages.brandywine-birmingham.title: "Brandywine: Birmingham Tepesi"
+
+# Brandywine Creek
+emblems.brandywine-birmingham.brandywine: "Brandywine Deresi"
+
+# The West Branch, crossed at Trimble’s Ford
+emblems.brandywine-birmingham.west-branch: "Trimble Geçidi’nden geçilen Batı Kol"
+
+# The East Branch, crossed at Jefferis Ford
+emblems.brandywine-birmingham.east-branch: "Jefferis Geçidi’nden geçilen Doğu Kol"
+
+# The Great Road from Kennett Square to Chester
+emblems.brandywine-birmingham.great-road: "Kennett Square’den Chester’a Büyük Yol"
+
+# The Brigade of Guards
+emblems.brandywine-birmingham.guards: "Muhafız Tugayı"
+
+# British grenadiers in the centre
+emblems.brandywine-birmingham.grenadiers: "Merkezdeki İngiliz grenadiyerleri"
+
+# British light infantry and the jägers
+emblems.brandywine-birmingham.light-infantry: "İngiliz hafif piyadesi ve jägerler"
+
+# Hessian grenadiers and the 4th Brigade in reserve
+emblems.brandywine-birmingham.reserve: "Yedekte Hessen grenadiyerleri ve 4. Tugay"
+
+# Sullivan’s division with de Borre’s brigade, caught forming
+emblems.brandywine-birmingham.sullivan: "Düzene girerken yakalanan Sullivan’ın tümeni ve de Borre’nin tugayı"
+
+# Stirling’s division
+emblems.brandywine-birmingham.stirling: "Stirling’in tümeni"
+
+# American battery on the knoll
+emblems.brandywine-birmingham.battery: "Tepecikteki Amerikan bataryası"
+
+# Stephen’s division
+emblems.brandywine-birmingham.stephen: "Stephen’ın tümeni"
+
+# Knyphausen waiting across the ford
+emblems.brandywine-birmingham.knyphausen: "Geçidin karşısında bekleyen Knyphausen"
+
+# Greene’s division, still at Chadds Ford
+emblems.brandywine-birmingham.greene: "Hâlâ Chadds Geçidi’nde bekleyen Greene’in tümeni"
+
+# The Guards rout de Borre’s brigade
+emblems.brandywine-birmingham.guards-attack: "Muhafızlar de Borre’nin tugayını bozguna uğratır"
+
+# The grenadiers’ bayonet charge
+emblems.brandywine-birmingham.grenadier-charge: "Grenadiyerlerin süngü hücumu"
+
+# Light infantry and jägers drive Stephen back
+emblems.brandywine-birmingham.light-attack: "Hafif piyade ve jägerler Stephen’ı geri sürer"
+
+# Sullivan’s division breaks
+emblems.brandywine-birmingham.sullivan-rout: "Sullivan’ın tümeni bozulur"
+
+# 11 September 1777, evening
+pages.brandywine-chadds-ford.date: "11 Eylül 1777, akşam"
+
+# Brandywine: Chadds Ford and Dilworth
+pages.brandywine-chadds-ford.title: "Brandywine: Chadds Geçidi ve Dilworth"
+
+# Brandywine Creek
+emblems.brandywine-chadds-ford.brandywine: "Brandywine Deresi"
+
+# The West Branch, crossed at Trimble’s Ford
+emblems.brandywine-chadds-ford.west-branch: "Trimble Geçidi’nden geçilen Batı Kol"
+
+# The East Branch, crossed at Jefferis Ford
+emblems.brandywine-chadds-ford.east-branch: "Jefferis Geçidi’nden geçilen Doğu Kol"
+
+# The Great Road from Kennett Square to Chester
+emblems.brandywine-chadds-ford.great-road: "Kennett Square’den Chester’a Büyük Yol"
+
+# Knyphausen’s column, across Chadds Ford
+emblems.brandywine-chadds-ford.knyphausen: "Chadds Geçidi’ni geçmiş Knyphausen’in kolu"
+
+# Greene’s division and the remains of three divisions, south of Dilworth
+emblems.brandywine-chadds-ford.greene: "Dilworth’ün güneyinde Greene’in tümeni ve üç tümenin kalıntıları"
+
+# Weedon’s brigade on the road outside Dilworth
+emblems.brandywine-chadds-ford.weedon: "Dilworth dışındaki yolda Weedon’ın tugayı"
+
+# British grenadiers and the 4th Brigade pressing from Birmingham
+emblems.brandywine-chadds-ford.pursuit: "Birmingham’dan bastıran İngiliz grenadiyerleri ve 4. Tugay"
+
+# Knyphausen crosses at Chadds Ford
+emblems.brandywine-chadds-ford.knyphausen-crossing: "Knyphausen Chadds Geçidi’nden karşıya geçer"
+
+# Wayne and Maxwell break and lose most of their guns
+emblems.brandywine-chadds-ford.wayne-retreat: "Wayne ve Maxwell bozulur ve toplarının çoğunu kaybeder"
+
+# Armstrong’s militia leave Pyle’s Ford
+emblems.brandywine-chadds-ford.armstrong-retreat: "Armstrong’un milisleri Pyle Geçidi’ni bırakır"
+
+# The pursuit, held for nearly an hour
+emblems.brandywine-chadds-ford.british-pursuit: "Yaklaşık bir saat durdurulan takip"
+
+# At dark the army retreats to Chester
+emblems.brandywine-chadds-ford.retreat-chester: "Hava kararınca ordu Chester’a çekilir"
+
+# February to August 1778
+pages.french-alliance.date: "Şubat – Ağustos 1778"
+
+# The French alliance, Monmouth and Newport
+pages.french-alliance.title: "Fransız ittifakı, Monmouth ve Newport"
+
+# 28 June 1778, morning
+pages.monmouth-lee.date: "28 Haziran 1778, sabah"
+
+# Monmouth: Lee’s advance
+pages.monmouth-lee.title: "Monmouth: Lee’nin ilerleyişi"
+
+# Spotswood Middle Brook
+emblems.monmouth-lee.middle-brook: "Spotswood Middle Brook"
+
+# Spotswood North Brook
+emblems.monmouth-lee.north-brook: "Spotswood North Brook"
+
+# The road from Englishtown to Monmouth Court House
+emblems.monmouth-lee.englishtown-road: "Englishtown’dan Monmouth Adliyesi’ne giden yol"
+
+# The road to Middletown
+emblems.monmouth-lee.middletown-road: "Middletown yolu"
+
+# British rearguard: light infantry, dragoons and the Queen’s Rangers
+emblems.monmouth-lee.rearguard: "İngiliz artçısı: hafif piyade, dragonlar ve Queen’s Rangers"
+
+# Clinton’s first division turns back: the Guards
+emblems.monmouth-lee.guards: "Clinton’ın geri dönen birinci tümeni: Muhafızlar"
+
+# Clinton’s first division turns back: the Grenadiers
+emblems.monmouth-lee.grenadiers: "Clinton’ın geri dönen birinci tümeni: Grenadiyerler"
+
+# Wayne’s lead element, about 550 men and four guns
+emblems.monmouth-lee.wayne: "Wayne’in öncü birliği, yaklaşık 550 kişi ve dört top"
+
+# Scott’s and Maxwell’s detachments, out of touch with Lee
+emblems.monmouth-lee.scott-maxwell: "Lee ile bağlantısı kopan Scott’ın ve Maxwell’in müfrezeleri"
+
+# Lafayette on the right
+emblems.monmouth-lee.lafayette: "Sağda Lafayette"
+
+# Jackson’s regiment by the North Brook
+emblems.monmouth-lee.jackson: "North Brook kıyısında Jackson’ın alayı"
+
+# The Guards march west
+emblems.monmouth-lee.guards-advance: "Muhafızlar batıya yürür"
+
+# The Grenadiers strike at the American right
+emblems.monmouth-lee.grenadier-advance: "Grenadiyerler Amerikan sağına saldırır"
+
+# Lee’s vanguard falls back across the Spotswood Middle Brook
+emblems.monmouth-lee.retreat: "Lee’nin öncüsü Spotswood Middle Brook’un ötesine çekilir"
+
+# Washington’s main body from Englishtown
+emblems.monmouth-lee.main-body: "Washington’ın Englishtown’dan gelen ana kuvveti"
+
+# Greene takes Woodford’s brigade south to cover the right
+emblems.monmouth-lee.greene-woodford: "Greene sağ kanadı korumak için Woodford’un tugayını güneye götürür"
+
+# 28 June 1778, noon
+pages.monmouth-perrine.date: "28 Haziran 1778, öğle"
+
+# Monmouth: Washington’s line
+pages.monmouth-perrine.title: "Monmouth: Washington’ın hattı"
+
+# Spotswood Middle Brook
+emblems.monmouth-perrine.middle-brook: "Spotswood Middle Brook"
+
+# Spotswood North Brook
+emblems.monmouth-perrine.north-brook: "Spotswood North Brook"
+
+# The road from Englishtown to Monmouth Court House
+emblems.monmouth-perrine.englishtown-road: "Englishtown’dan Monmouth Adliyesi’ne giden yol"
+
+# The road to Middletown
+emblems.monmouth-perrine.middletown-road: "Middletown yolu"
+
+# Stirling’s wing on the American left
+emblems.monmouth-perrine.stirling: "Amerikan solunda Stirling’in kanadı"
+
+# Washington’s main body on Perrine’s Hill
+emblems.monmouth-perrine.main-body: "Perrine Tepesi’nde Washington’ın ana kuvveti"
+
+# Wayne’s men, driven from the Point of Woods, re-forming above the bridge
+emblems.monmouth-perrine.wayne: "Point of Woods’tan sürülüp köprünün üstünde yeniden düzene giren Wayne’in adamları"
+
+# Lee’s four guns and two battalions, pushed back to a hedgerow
+emblems.monmouth-perrine.lee: "Bir çit sırasına kadar geri itilen Lee’nin dört topu ve iki taburu"
+
+# The Guards and the dragoons
+emblems.monmouth-perrine.guards: "Muhafızlar ve dragonlar"
+
+# The Grenadiers
+emblems.monmouth-perrine.grenadiers: "Grenadiyerler"
+
+# The 42nd Highlanders and the 3rd Brigade, north of the brook
+emblems.monmouth-perrine.42nd: "Derenin kuzeyinde 42. İskoç Alayı ve 3. Tugay"
+
+# Monckton’s grenadier battalion, over the bridge and stopped
+emblems.monmouth-perrine.monckton: "Köprüyü geçip durdurulan Monckton’ın grenadiyer taburu"
+
+# The Guards and dragoons drive Wayne from the Point of Woods within ten minutes
+emblems.monmouth-perrine.guards-attack: "Muhafızlar ve dragonlar on dakikada Wayne’i Point of Woods’tan çıkarır"
+
+# The Grenadiers push Lee’s guns back
+emblems.monmouth-perrine.grenadier-advance: "Grenadiyerler Lee’nin toplarını geri iter"
+
+# The Highlanders chase Scott’s men
+emblems.monmouth-perrine.42nd-advance: "İskoçlar Scott’ın adamlarını kovalar"
+
+# Part of Scott’s detachment falls back into Stirling’s line
+emblems.monmouth-perrine.scott-retreat: "Scott’ın müfrezesinin bir bölümü Stirling’in hattına çekilir"
+
+# Wayne and Lee fall back across the bridge
+emblems.monmouth-perrine.wayne-back: "Wayne ve Lee köprünün ötesine çekilir"
+
+# 28 June 1778, afternoon
+pages.monmouth-parsonage.date: "28 Haziran 1778, öğleden sonra"
+
+# Monmouth: Combs Hill and the parsonage
+pages.monmouth-parsonage.title: "Monmouth: Combs Tepesi ve papaz evi"
+
+# Spotswood Middle Brook
+emblems.monmouth-parsonage.middle-brook: "Spotswood Middle Brook"
+
+# Spotswood North Brook
+emblems.monmouth-parsonage.north-brook: "Spotswood North Brook"
+
+# The road from Englishtown to Monmouth Court House
+emblems.monmouth-parsonage.englishtown-road: "Englishtown’dan Monmouth Adliyesi’ne giden yol"
+
+# The road to Middletown
+emblems.monmouth-parsonage.middletown-road: "Middletown yolu"
+
+# Stirling’s wing on the American left
+emblems.monmouth-parsonage.stirling: "Amerikan solunda Stirling’in kanadı"
+
+# Washington’s main body on Perrine’s Hill
+emblems.monmouth-parsonage.main-body: "Perrine Tepesi’nde Washington’ın ana kuvveti"
+
+# Greene with Woodford’s brigade and guns on Combs Hill
+emblems.monmouth-parsonage.combs-hill: "Combs Tepesi’nde Woodford’un tugayı ve toplarla Greene"
+
+# Cilley’s battalion of 350 picked men
+emblems.monmouth-parsonage.cilley: "Cilley’nin 350 seçme askerden oluşan taburu"
+
+# Wayne’s 400 Pennsylvanians
+emblems.monmouth-parsonage.wayne: "Wayne’in 400 Pennsylvanialısı"
+
+# The 42nd Highlanders in the orchard
+emblems.monmouth-parsonage.42nd: "Meyve bahçesinde 42. İskoç Alayı"
+
+# The 1st Grenadier Battalion, left exposed
+emblems.monmouth-parsonage.grenadiers: "Açıkta kalan 1. Grenadiyer Taburu"
+
+# The 33rd Foot comes up in support
+emblems.monmouth-parsonage.33rd: "33. alay yardıma gelir"
+
+# Cilley drives the Highlanders from the orchard
+emblems.monmouth-parsonage.cilley-attack: "Cilley İskoçları meyve bahçesinden çıkarır"
+
+# The Highlanders’ fighting retreat
+emblems.monmouth-parsonage.42nd-retreat: "İskoçların çarpışarak geri çekilişi"
+
+# Wayne crosses the bridge at 16:45
+emblems.monmouth-parsonage.wayne-attack: "Wayne saat 16.45’te köprüyü geçer"
+
+# The Pennsylvanians fall back to the parsonage
+emblems.monmouth-parsonage.wayne-back: "Pennsylvanialılar papaz evine çekilir"
+
+# December 1778 to October 1779
+pages.south-and-west.date: "Aralık 1778 – Ekim 1779"
+
+# The war moves south, and west to the Ohio
+pages.south-and-west.title: "Savaş güneye ve batıda Ohio’ya kayar"
+
+# 16 September to 8 October 1779
+pages.savannah-siege.date: "16 Eylül – 8 Ekim 1779"
+
+# Savannah: the siege
+pages.savannah-siege.title: "Savannah: kuşatma"
+
+# The Savannah River
+emblems.savannah-siege.river: "Savannah Nehri"
+
+# Swamp west of the town
+emblems.savannah-siege.swamp: "Kentin batısındaki bataklık"
+
+# The British lines and redoubts, built by Moncrief
+emblems.savannah-siege.british-lines: "Moncrief’in kurduğu İngiliz hatları ve tabyaları"
+
+# The French siege trenches and batteries
+emblems.savannah-siege.siege-works: "Fransız kuşatma siperleri ve bataryaları"
+
+# The Spring Hill redoubt
+emblems.savannah-siege.spring-hill: "Spring Hill tabyası"
+
+# Prevost’s garrison of regulars, Loyalists and militia
+emblems.savannah-siege.garrison: "Prevost’un düzenli askerler, Sadıklar ve milislerden oluşan garnizonu"
+
+# The Rose, scuttled to block the channel
+emblems.savannah-siege.rose: "Kanalı kapatmak için batırılan Rose"
+
+# D’Estaing’s French troops
+emblems.savannah-siege.french: "D’Estaing’in Fransız birlikleri"
+
+# Lincoln’s Continentals and militia
+emblems.savannah-siege.americans: "Lincoln’ün Kıta askerleri ve milisleri"
+
+# Maitland’s men from Beaufort reach the town by the unguarded creeks
+emblems.savannah-siege.maitland: "Maitland’ın Beaufort’tan gelen adamları korunmasız derelerden kente ulaşır"
+
+# 9 October 1779, dawn
+pages.savannah-assault.date: "9 Ekim 1779, şafak"
+
+# Savannah: Spring Hill
+pages.savannah-assault.title: "Savannah: Spring Hill"
+
+# The Savannah River
+emblems.savannah-assault.river: "Savannah Nehri"
+
+# Swamp west of the town
+emblems.savannah-assault.swamp: "Kentin batısındaki bataklık"
+
+# The British lines and redoubts, built by Moncrief
+emblems.savannah-assault.british-lines: "Moncrief’in kurduğu İngiliz hatları ve tabyaları"
+
+# The French siege trenches and batteries
+emblems.savannah-assault.siege-works: "Fransız kuşatma siperleri ve bataryaları"
+
+# The Spring Hill redoubt
+emblems.savannah-assault.spring-hill: "Spring Hill tabyası"
+
+# Maitland’s 71st Foot and militia riflemen
+emblems.savannah-assault.defenders: "Maitland’ın 71. alayı ve milis tüfekçileri"
+
+# The rest of Prevost’s garrison
+emblems.savannah-assault.garrison: "Prevost’un garnizonunun geri kalanı"
+
+# D’Estaing’s first column
+emblems.savannah-assault.destaing-column: "D’Estaing’in birinci kolu"
+
+# Stedingk’s column
+emblems.savannah-assault.stedingk-column: "Stedingk’in kolu"
+
+# American Continentals with the assault
+emblems.savannah-assault.american-column: "Saldırıya katılan Amerikan Kıta askerleri"
+
+# Pulaski’s cavalry
+emblems.savannah-assault.pulaski: "Pulaski’nin süvarisi"
+
+# The assault on the Spring Hill redoubt
+emblems.savannah-assault.assault: "Spring Hill tabyasına saldırı"
+
+# Stedingk reaches the last trench
+emblems.savannah-assault.stedingk-assault: "Stedingk son sipere ulaşır"
+
+# Pulaski’s charge
+emblems.savannah-assault.pulaski-charge: "Pulaski’nin hücumu"
+
+# A feint against the eastern works
+emblems.savannah-assault.feint: "Doğudaki hatlara karşı bir oyalama saldırısı"
+
+# 9 to 17 October 1779
+pages.savannah-repulse.date: "9 – 17 Ekim 1779"
+
+# Savannah: the repulse
+pages.savannah-repulse.title: "Savannah: geri püskürtme"
+
+# The Savannah River
+emblems.savannah-repulse.river: "Savannah Nehri"
+
+# Swamp west of the town
+emblems.savannah-repulse.swamp: "Kentin batısındaki bataklık"
+
+# The British lines and redoubts, built by Moncrief
+emblems.savannah-repulse.british-lines: "Moncrief’in kurduğu İngiliz hatları ve tabyaları"
+
+# The French siege trenches and batteries
+emblems.savannah-repulse.siege-works: "Fransız kuşatma siperleri ve bataryaları"
+
+# The Spring Hill redoubt
+emblems.savannah-repulse.spring-hill: "Spring Hill tabyası"
+
+# Maitland’s 71st Foot and militia riflemen
+emblems.savannah-repulse.defenders: "Maitland’ın 71. alayı ve milis tüfekçileri"
+
+# Prevost’s garrison
+emblems.savannah-repulse.garrison: "Prevost’un garnizonu"
+
+# The French back in their camp
+emblems.savannah-repulse.french: "Kamplarına dönen Fransızlar"
+
+# Lincoln’s army
+emblems.savannah-repulse.americans: "Lincoln’ün ordusu"
+
+# The defenders drive the assault back
+emblems.savannah-repulse.counterattack: "Savunanlar saldırıyı geri püskürtür"
+
+# The French columns fall back after an hour
+emblems.savannah-repulse.french-retreat: "Fransız kolları bir saat sonra geri çekilir"
+
+# The Americans fall back
+emblems.savannah-repulse.american-retreat: "Amerikalılar geri çekilir"
+
+# June 1779 to May 1781
+pages.spain-west-florida.date: "Haziran 1779 – Mayıs 1781"
+
+# Spain enters the war and takes West Florida
+pages.spain-west-florida.title: "İspanya savaşa girer ve Batı Florida’yı alır"
+
+# 9 to 28 March 1781
+pages.pensacola-landing.date: "9 – 28 Mart 1781"
+
+# Pensacola: Gálvez forces the channel
+pages.pensacola-landing.title: "Pensacola: Gálvez kanalı zorlar"
+
+# O’Neill’s guns at the island’s undefended battery
+emblems.pensacola-landing.oneill-battery: "O’Neill’in adanın savunmasız bataryasına yerleştirdiği toplar"
+
+# The expedition from Havana under Calvo, outside the bar
+emblems.pensacola-landing.havana-fleet: "Calvo komutasında Havana’dan gelen sefer kuvveti, sığlığın dışında"
+
+# San Ramón, 64 guns, aground in the channel
+emblems.pensacola-landing.san-ramon: "Kanalda karaya oturan 64 toplu San Ramón"
+
+# Spanish troops landed on Santa Rosa Island
+emblems.pensacola-landing.santa-rosa: "Santa Rosa Adası’na çıkan İspanyol askerleri"
+
+# Gálveztown and the Louisiana ships inside the bay, then the fleet on 19 March
+emblems.pensacola-landing.louisiana-ships: "Körfezin içinde Gálveztown ve Louisiana gemileri, 19 Mart’ta da filo"
+
+# The British battery at the Barrancas Coloradas
+emblems.pensacola-landing.barrancas: "Barrancas Coloradas’taki İngiliz bataryası"
+
+# The Spanish army on the mainland from 24 March, with the troops from Mobile
+emblems.pensacola-landing.spanish-army: "24 Mart’tan itibaren anakaradaki İspanyol ordusu, Mobile’dan gelen birliklerle"
+
+# Gálvez takes the Gálveztown through the channel under fire, 18 March
+emblems.pensacola-landing.galveztown: "Gálvez ateş altında Gálveztown’ı kanaldan geçirir, 18 Mart"
+
+# The army crosses to the mainland, 24 March
+emblems.pensacola-landing.to-mainland: "Ordu anakaraya geçer, 24 Mart"
+
+# Troops from Mobile join the army
+emblems.pensacola-landing.from-mobile: "Mobile’dan gelen birlikler orduya katılır"
+
+# About 400 Choctaw allies of the British attack, 28 March
+emblems.pensacola-landing.choctaw: "İngilizlerin müttefiki yaklaşık 400 Choctaw savaşçısı saldırır, 28 Mart"
+
+# April to 7 May 1781
+pages.pensacola-siege.date: "Nisan – 7 Mayıs 1781"
+
+# Pensacola: the siege lines
+pages.pensacola-siege.title: "Pensacola: kuşatma hatları"
+
+# The Spanish approach trenches and covered road
+emblems.pensacola-siege.approach: "İspanyol yaklaşma siperleri ve üstü kapalı yol"
+
+# Spanish batteries facing the Crescent
+emblems.pensacola-siege.batteries: "Hilal’e bakan İspanyol bataryaları"
+
+# Fort George, an earthwork with a palisade
+emblems.pensacola-siege.fort-george: "Çitle çevrili bir toprak tahkimat olan Fort George"
+
+# The Prince of Wales Redoubt
+emblems.pensacola-siege.prince-of-wales: "Prince of Wales Tabyası"
+
+# The Queen’s Redoubt, which the Spanish call the Crescent
+emblems.pensacola-siege.crescent: "İspanyolların Hilal dediği Queen’s Tabyası"
+
+# Campbell’s garrison: regulars, Waldeck troops and Loyalists
+emblems.pensacola-siege.garrison: "Campbell’ın garnizonu: düzenli askerler, Waldeck birlikleri ve Kralcılar"
+
+# The Spanish camp
+emblems.pensacola-siege.spanish-camp: "İspanyol kampı"
+
+# Spanish army under Ezpeleta, about 8,000 after 19 April
+emblems.pensacola-siege.spanish-army: "Ezpeleta komutasındaki İspanyol ordusu, 19 Nisan’dan sonra yaklaşık 8.000"
+
+# French troops landed from the Havana squadron
+emblems.pensacola-siege.french-troops: "Havana filosundan karaya çıkan Fransız askerleri"
+
+# Choctaw warriors attack the siege works, 19 and 24 April
+emblems.pensacola-siege.choctaw-attacks: "Choctaw savaşçıları kuşatma hatlarına saldırır, 19 ve 24 Nisan"
+
+# A sortie from the Crescent is driven back, 26 April
+emblems.pensacola-siege.sortie: "Hilal’den yapılan bir çıkış geri püskürtülür, 26 Nisan"
+
+# The Spanish batteries open fire, 30 April
+emblems.pensacola-siege.bombardment: "İspanyol bataryaları ateşe başlar, 30 Nisan"
+
+# 8 to 10 May 1781
+pages.pensacola-crescent.date: "8 – 10 Mayıs 1781"
+
+# Pensacola: the Crescent explodes
+pages.pensacola-crescent.title: "Pensacola: Hilal havaya uçar"
+
+# The Spanish approach trenches and covered road
+emblems.pensacola-crescent.approach: "İspanyol yaklaşma siperleri ve üstü kapalı yol"
+
+# Spanish batteries facing the Crescent
+emblems.pensacola-crescent.batteries: "Hilal’e bakan İspanyol bataryaları"
+
+# Spanish guns and howitzers hauled into the Crescent
+emblems.pensacola-crescent.guns-in-crescent: "Hilal’e taşınan İspanyol topları ve obüsleri"
+
+# Fort George, an earthwork with a palisade
+emblems.pensacola-crescent.fort-george: "Çitle çevrili bir toprak tahkimat olan Fort George"
+
+# The Prince of Wales Redoubt
+emblems.pensacola-crescent.prince-of-wales: "Prince of Wales Tabyası"
+
+# The wrecked Crescent, in Spanish hands from 8 May
+emblems.pensacola-crescent.crescent: "8 Mayıs’tan beri İspanyolların elindeki yıkık Hilal"
+
+# Campbell’s garrison: regulars, Waldeck troops and Loyalists
+emblems.pensacola-crescent.garrison: "Campbell’ın garnizonu: düzenli askerler, Waldeck birlikleri ve Kralcılar"
+
+# The Spanish camp
+emblems.pensacola-crescent.spanish-camp: "İspanyol kampı"
+
+# Ezpeleta’s light infantry
+emblems.pensacola-crescent.light-infantry: "Ezpeleta’nın hafif piyadesi"
+
+# Ezpeleta leads the light infantry into the wrecked Crescent
+emblems.pensacola-crescent.storm-crescent: "Ezpeleta hafif piyadeyi yıkık Hilal’e sokar"
+
+# The guns in the Crescent fire on the Prince of Wales Redoubt and Fort George
+emblems.pensacola-crescent.fire-on-forts: "Hilal’deki toplar Prince of Wales Tabyası’nı ve Fort George’u döver"
+
+# Fort George’s guns reply and are overwhelmed
+emblems.pensacola-crescent.fort-george-replies: "Fort George’un topları karşılık verir ve susturulur"
+
+# May to October 1780
+pages.charleston-camden.date: "Mayıs – Ekim 1780"
+
+# Charleston, Camden and Kings Mountain
+pages.charleston-camden.title: "Charleston, Camden ve Kings Mountain"
+
+# February to April 1780
+pages.charleston-approach.date: "Şubat – Nisan 1780"
+
+# Charleston: Clinton closes in
+pages.charleston-approach.title: "Charleston: Clinton çemberi daraltır"
+
+# 1 April to 7 May 1780
+pages.charleston-harbour.date: "1 Nisan – 7 Mayıs 1780"
+
+# Charleston: the harbour and the neck
+pages.charleston-harbour.title: "Charleston: liman ve kara boyu"
+
+# The Ashley River
+emblems.charleston-harbour.ashley: "Ashley Nehri"
+
+# The canal in front of the American lines
+emblems.charleston-harbour.canal: "Amerikan hatlarının önündeki kanal"
+
+# The American lines across the neck, where Marion Square is today
+emblems.charleston-harbour.american-lines: "Bugünkü Marion Meydanı’nın yerinde kara boyunu kesen Amerikan hatları"
+
+# First British parallel, opened on 1 April, 800 yards from the lines
+emblems.charleston-harbour.first-parallel: "1 Nisan’da hatların 730 m önünde açılan birinci İngiliz paraleli"
+
+# Second British parallel
+emblems.charleston-harbour.second-parallel: "İkinci İngiliz paraleli"
+
+# Third British parallel, at the canal by 6 May
+emblems.charleston-harbour.third-parallel: "6 Mayıs’ta kanala ulaşan üçüncü İngiliz paraleli"
+
+# The hornwork at the centre of the lines
+emblems.charleston-harbour.hornwork: "Hatların ortasındaki boynuz tabya"
+
+# Lincoln’s garrison, Continentals and militia, about 5,500
+emblems.charleston-harbour.garrison: "Lincoln’ün garnizonu, Kıta Ordusu askerleri ve milisler, yaklaşık 5.500"
+
+# Clinton’s army in the siege lines, British and Hessian
+emblems.charleston-harbour.besiegers: "Kuşatma hatlarındaki Clinton ordusu, İngilizler ve Hessenliler"
+
+# Fort Moultrie on Sullivan’s Island, surrenders on 7 May
+emblems.charleston-harbour.fort-moultrie: "Sullivan’s Adası’ndaki Fort Moultrie, 7 Mayıs’ta teslim olur"
+
+# Fort Johnson, a British battery on James Island
+emblems.charleston-harbour.fort-johnson: "James Adası’ndaki İngiliz bataryası Fort Johnson"
+
+# Arbuthnot’s squadron in the harbour
+emblems.charleston-harbour.arbuthnot: "Limandaki Arbuthnot filosu"
+
+# Whipple’s ships, sunk across the mouth of the Cooper
+emblems.charleston-harbour.whipple: "Cooper’ın ağzında batırılan Whipple gemileri"
+
+# Cornwallis east of the Cooper from 23 April
+emblems.charleston-harbour.cornwallis: "23 Nisan’dan itibaren Cooper’ın doğusunda Cornwallis"
+
+# Arbuthnot runs 14 ships past Fort Moultrie, 8 April
+emblems.charleston-harbour.arbuthnot-run: "Arbuthnot 14 gemiyi Fort Moultrie’nin önünden geçirir, 8 Nisan"
+
+# Cornwallis crosses the Cooper and comes down the east bank
+emblems.charleston-harbour.cornwallis-cross: "Cornwallis Cooper’ı geçer ve doğu yakasından iner"
+
+# 11 and 12 May 1780
+pages.charleston-surrender.date: "11 – 12 Mayıs 1780"
+
+# Charleston: the surrender
+pages.charleston-surrender.title: "Charleston: teslim"
+
+# The Ashley River
+emblems.charleston-surrender.ashley: "Ashley Nehri"
+
+# The canal in front of the American lines
+emblems.charleston-surrender.canal: "Amerikan hatlarının önündeki kanal"
+
+# The American lines across the neck, where Marion Square is today
+emblems.charleston-surrender.american-lines: "Bugünkü Marion Meydanı’nın yerinde kara boyunu kesen Amerikan hatları"
+
+# First British parallel, opened on 1 April, 800 yards from the lines
+emblems.charleston-surrender.first-parallel: "1 Nisan’da hatların 730 m önünde açılan birinci İngiliz paraleli"
+
+# Second British parallel
+emblems.charleston-surrender.second-parallel: "İkinci İngiliz paraleli"
+
+# Third British parallel, at the canal by 6 May
+emblems.charleston-surrender.third-parallel: "6 Mayıs’ta kanala ulaşan üçüncü İngiliz paraleli"
+
+# The hornwork at the centre of the lines
+emblems.charleston-surrender.hornwork: "Hatların ortasındaki boynuz tabya"
+
+# Lincoln’s garrison, Continentals and militia, about 5,500
+emblems.charleston-surrender.garrison: "Lincoln’ün garnizonu, Kıta Ordusu askerleri ve milisler, yaklaşık 5.500"
+
+# Clinton’s army in the siege lines, British and Hessian
+emblems.charleston-surrender.besiegers: "Kuşatma hatlarındaki Clinton ordusu, İngilizler ve Hessenliler"
+
+# Heated shot fired into the city, 11 May
+emblems.charleston-surrender.heated-shot: "Kente kızgın gülle atılır, 11 Mayıs"
+
+# The garrison marches out of the hornwork and lays down its arms, 12 May
+emblems.charleston-surrender.march-out: "Garnizon boynuz tabyadan çıkar ve silah bırakır, 12 Mayıs"
+
+# January to March 1781
+pages.cowpens-guilford.date: "Ocak – Mart 1781"
+
+# Cowpens, Guilford Court House, and the Articles in force
+pages.cowpens-guilford.title: "Cowpens, Guilford Court House ve Maddeler yürürlükte"
+
+# 17 January 1781, dawn
+pages.cowpens-lines.date: "17 Ocak 1781, şafak"
+
+# Cowpens: Morgan’s three lines
+pages.cowpens-lines.title: "Cowpens: Morgan’ın üç hattı"
+
+# Picked riflemen under McDowell and Cunningham, about 150
+emblems.cowpens-lines.riflemen: "McDowell ve Cunningham komutasında yaklaşık 150 seçme tüfekçi"
+
+# Pickens’s militia, about 300, ordered to fire two volleys and fall back
+emblems.cowpens-lines.pickens: "Pickens’in milisleri, yaklaşık 300, iki yaylım ateşi açıp geri çekilme emriyle"
+
+# Howard’s main line: Continentals from Maryland and Delaware
+emblems.cowpens-lines.continentals: "Howard’ın ana hattı: Maryland ve Delaware’den Kıta Ordusu askerleri"
+
+# Virginia militia and state troops on the right of the main line
+emblems.cowpens-lines.virginia-militia: "Ana hattın sağında Virginia milisleri ve eyalet birlikleri"
+
+# William Washington’s dragoons and mounted militia, about 180
+emblems.cowpens-lines.washington: "William Washington’ın dragonları ve atlı milisler, yaklaşık 180"
+
+# Legion infantry, 7th Foot and light companies, with two 3-pounders
+emblems.cowpens-lines.british-line: "Lejyon piyadesi, 7. Piyade Alayı ve hafif bölükler, iki 3 librelik topla"
+
+# Dragoons of the 17th and the Legion on the flanks
+emblems.cowpens-lines.british-dragoons: "Kanatlarda 17. Alay’ın ve Lejyonun dragonları"
+
+# 71st Highlanders under McArthur in reserve
+emblems.cowpens-lines.71st: "Yedekte McArthur komutasındaki 71. İskoç Alayı"
+
+# British Legion cavalry, 200, kept for the pursuit
+emblems.cowpens-lines.legion-cavalry: "Takip için bekletilen 200 kişilik İngiliz Lejyonu süvarisi"
+
+# Tarleton arrives along the Green River Road before sunrise
+emblems.cowpens-lines.tarleton-arrives: "Tarleton güneş doğmadan Green River yolundan gelir"
+
+# 17 January 1781, about 7 am
+pages.cowpens-volleys.date: "17 Ocak 1781, saat yedi dolayları"
+
+# Cowpens: the militia fall back
+pages.cowpens-volleys.title: "Cowpens: milisler geri çekilir"
+
+# Pickens’s militia, falling back round the left as ordered
+emblems.cowpens-volleys.pickens: "Emir gereği soldan dolanarak geri çekilen Pickens milisleri"
+
+# Howard’s main line: Continentals from Maryland and Delaware
+emblems.cowpens-volleys.continentals: "Howard’ın ana hattı: Maryland ve Delaware’den Kıta Ordusu askerleri"
+
+# Virginia militia, withdrawing after a misheard order
+emblems.cowpens-volleys.virginia-militia: "Yanlış anlaşılan bir emirle geri çekilen Virginia milisleri"
+
+# William Washington’s dragoons
+emblems.cowpens-volleys.washington: "William Washington’ın dragonları"
+
+# British infantry advancing in line
+emblems.cowpens-volleys.british-line: "Hat halinde ilerleyen İngiliz piyadesi"
+
+# 71st Highlanders moving round the American right
+emblems.cowpens-volleys.71st: "Amerikan sağını dolanan 71. İskoç Alayı"
+
+# British Legion cavalry, 200, kept for the pursuit
+emblems.cowpens-volleys.legion-cavalry: "Takip için bekletilen 200 kişilik İngiliz Lejyonu süvarisi"
+
+# Pickens’s militia fire two volleys and file off around the left
+emblems.cowpens-volleys.pickens-back: "Pickens’in milisleri iki yaylım ateşi açar ve soldan dolanarak çekilir"
+
+# Ogilvie’s dragoons charge the retreating militia
+emblems.cowpens-volleys.ogilvie: "Ogilvie’nin dragonları çekilen milislere hücum eder"
+
+# Washington’s dragoons drive them back
+emblems.cowpens-volleys.washington-charge: "Washington’ın dragonları onları geri sürer"
+
+# The 71st is sent round the American right
+emblems.cowpens-volleys.71st-flank: "71. Alay Amerikan sağını dolanmaya gönderilir"
+
+# The Virginia militia begin to withdraw
+emblems.cowpens-volleys.virginians-back: "Virginia milisleri geri çekilmeye başlar"
+
+# 17 January 1781, about 8 am
+pages.cowpens-envelopment.date: "17 Ocak 1781, saat sekiz dolayları"
+
+# Cowpens: the double envelopment
+pages.cowpens-envelopment.title: "Cowpens: çifte kuşatma"
+
+# Howard’s Continentals, charging with the bayonet
+emblems.cowpens-envelopment.continentals: "Süngü hücumuna kalkan Howard’ın Kıta Ordusu askerleri"
+
+# Virginia militia, turned about
+emblems.cowpens-envelopment.virginia-militia: "Geri dönen Virginia milisleri"
+
+# William Washington’s dragoons in the British rear
+emblems.cowpens-envelopment.washington: "İngilizlerin arkasında William Washington’ın dragonları"
+
+# Pickens’s militia, back from behind the hill
+emblems.cowpens-envelopment.pickens: "Tepenin arkasından geri gelen Pickens milisleri"
+
+# British infantry, collapsing and surrendering
+emblems.cowpens-envelopment.british-line: "Dağılan ve teslim olan İngiliz piyadesi"
+
+# 71st Highlanders, surrounded
+emblems.cowpens-envelopment.71st: "Kuşatılmış 71. İskoç Alayı"
+
+# British Legion cavalry, 200, kept for the pursuit
+emblems.cowpens-envelopment.legion-cavalry: "Takip için bekletilen 200 kişilik İngiliz Lejyonu süvarisi"
+
+# Howard’s Continentals charge with the bayonet and take the guns
+emblems.cowpens-envelopment.bayonet-charge: "Howard’ın Kıta Ordusu askerleri süngüyle hücum eder ve topları alır"
+
+# Washington’s dragoons strike the British right and rear
+emblems.cowpens-envelopment.washington-envelops: "Washington’ın dragonları İngilizlerin sağına ve arkasına çarpar"
+
+# Pickens’s militia circle the hill and strike the 71st in flank and rear
+emblems.cowpens-envelopment.pickens-circle: "Pickens’in milisleri tepeyi dolanır ve 71. Alay’a yandan ve arkadan saldırır"
+
+# The Virginia militia turn on the Highlanders
+emblems.cowpens-envelopment.virginians-turn: "Virginia milisleri İskoçlara döner"
+
+# The Legion cavalry ride off and Tarleton escapes with about 40 horsemen
+emblems.cowpens-envelopment.legion-flees: "Lejyon süvarisi alanı terk eder, Tarleton yaklaşık 40 atlıyla kaçar"
+
+# August to October 1781
+pages.yorktown.date: "Ağustos – Ekim 1781"
+
+# Yorktown
+pages.yorktown.title: "Yorktown"
+
+# 5 September 1781
+pages.yorktown-chesapeake.date: "5 Eylül 1781"
+
+# Yorktown: the battle off the Capes
+pages.yorktown-chesapeake.title: "Yorktown: Burunlar açığındaki deniz savaşı"
+
+# French van under Bougainville
+emblems.yorktown-chesapeake.french-van: "Bougainville komutasındaki Fransız öncüsü"
+
+# French centre under de Grasse in the Ville de Paris
+emblems.yorktown-chesapeake.french-centre: "Ville de Paris’teki de Grasse komutasındaki Fransız merkezi"
+
+# French rear, the last ships out of the bay
+emblems.yorktown-chesapeake.french-rear: "Fransız artçısı, körfezden son çıkan gemiler"
+
+# British van under Drake, now leading after the fleet wears
+emblems.yorktown-chesapeake.british-van: "Filonun kavançasından sonra öne geçen Drake komutasındaki İngiliz öncüsü"
+
+# British centre under Graves in the London
+emblems.yorktown-chesapeake.british-centre: "London gemisindeki Graves komutasındaki İngiliz merkezi"
+
+# British rear under Hood, too far off to engage
+emblems.yorktown-chesapeake.british-rear: "Hood komutasındaki İngiliz artçısı, çarpışmaya girmek için fazla uzakta"
+
+# The French cut their cables and sail out of Lynnhaven Bay with the noon tide
+emblems.yorktown-chesapeake.french-sortie: "Fransızlar halatlarını keser ve öğle gelgitiyle Lynnhaven Koyu’ndan çıkar"
+
+# The British come down from the north-east and wear to sail east, about 2 pm
+emblems.yorktown-chesapeake.british-wear: "İngilizler kuzeydoğudan gelir ve saat iki dolaylarında kavança edip doğuya döner"
+
+# 28 September to 10 October 1781
+pages.yorktown-parallel.date: "28 Eylül – 10 Ekim 1781"
+
+# Yorktown: the first parallel
+pages.yorktown-parallel.title: "Yorktown: birinci paralel"
+
+# The British inner works round the town
+emblems.yorktown-parallel.inner-works: "Kasabanın çevresindeki İngiliz iç tahkimatı"
+
+# The first parallel, French half, opened on the night of 6 October
+emblems.yorktown-parallel.first-parallel-french: "Birinci paralelin 6 Ekim gecesi açılan Fransız yarısı"
+
+# The first parallel, American half, reaching the York River
+emblems.yorktown-parallel.first-parallel-american: "Birinci paralelin York Nehri’ne uzanan Amerikan yarısı"
+
+# The Fusiliers’ Redoubt
+emblems.yorktown-parallel.fusiliers: "Fusiliers Tabyası"
+
+# Redoubt 9, held by British and Germans
+emblems.yorktown-parallel.redoubt-9: "İngilizlerin ve Almanların tuttuğu 9 numaralı tabya"
+
+# Redoubt 10, near the river
+emblems.yorktown-parallel.redoubt-10: "Nehrin yakınındaki 10 numaralı tabya"
+
+# Cornwallis’s army inside the inner works
+emblems.yorktown-parallel.garrison: "İç tahkimatın içindeki Cornwallis ordusu"
+
+# British ships in the river, among them Guadeloupe and Charon
+emblems.yorktown-parallel.british-ships: "Nehirdeki, aralarında Guadeloupe ve Charon’un da bulunduğu İngiliz gemileri"
+
+# The British post at Gloucester Point
+emblems.yorktown-parallel.gloucester: "Gloucester Point’teki İngiliz mevzisi"
+
+# Lauzun’s Legion and Virginia militia under Choisy, blocking Gloucester
+emblems.yorktown-parallel.choisy: "Choisy komutasında Gloucester’ı kapatan Lauzun Lejyonu ve Virginia milisleri"
+
+# Rochambeau’s French army, about 7,800
+emblems.yorktown-parallel.french-army: "Rochambeau’nun Fransız ordusu, yaklaşık 7.800"
+
+# Continentals and militia under Washington, about 11,000
+emblems.yorktown-parallel.american-army: "Washington komutasında Kıta Ordusu askerleri ve milisler, yaklaşık 11.000"
+
+# The allied batteries open fire on 9 October
+emblems.yorktown-parallel.allied-batteries: "Müttefik bataryaları 9 Ekim’de ateşe başlar"
+
+# French guns drive the Guadeloupe across the river and set the Charon on fire
+emblems.yorktown-parallel.fire-on-ships: "Fransız topları Guadeloupe’u nehrin karşısına sürer ve Charon’u ateşe verir"
+
+# Tarleton’s foragers run into Lauzun’s Legion, 3 October
+emblems.yorktown-parallel.tarleton-gloucester: "Tarleton’ın erzak birliği Lauzun Lejyonu’na rastlar, 3 Ekim"
+
+# 11 to 14 October 1781
+pages.yorktown-redoubts.date: "11 – 14 Ekim 1781"
+
+# Yorktown: Redoubts 9 and 10
+pages.yorktown-redoubts.title: "Yorktown: 9 ve 10 numaralı tabyalar"
+
+# The British inner works round the town
+emblems.yorktown-redoubts.inner-works: "Kasabanın çevresindeki İngiliz iç tahkimatı"
+
+# The first parallel, French half, opened on the night of 6 October
+emblems.yorktown-redoubts.first-parallel-french: "Birinci paralelin 6 Ekim gecesi açılan Fransız yarısı"
+
+# The first parallel, American half, reaching the York River
+emblems.yorktown-redoubts.first-parallel-american: "Birinci paralelin York Nehri’ne uzanan Amerikan yarısı"
+
+# The second parallel, dug on the night of 11 October
+emblems.yorktown-redoubts.second-parallel-french: "11 Ekim gecesi kazılan ikinci paralel"
+
+# The second parallel, stopped short by Redoubts 9 and 10
+emblems.yorktown-redoubts.second-parallel-american: "9 ve 10 numaralı tabyalarda kesilen ikinci paralel"
+
+# The Fusiliers’ Redoubt
+emblems.yorktown-redoubts.fusiliers: "Fusiliers Tabyası"
+
+# Redoubt 9, held by 120 British and Germans
+emblems.yorktown-redoubts.redoubt-9: "120 İngiliz ve Alman askerinin tuttuğu 9 numaralı tabya"
+
+# Redoubt 10, held by about 70 men
+emblems.yorktown-redoubts.redoubt-10: "Yaklaşık 70 kişinin tuttuğu 10 numaralı tabya"
+
+# Cornwallis’s army inside the inner works
+emblems.yorktown-redoubts.garrison: "İç tahkimatın içindeki Cornwallis ordusu"
+
+# American light infantry under Alexander Hamilton, 400
+emblems.yorktown-redoubts.hamilton: "Alexander Hamilton komutasında 400 Amerikan hafif piyadesi"
+
+# French troops of the Royal Deux-Ponts Regiment, 400
+emblems.yorktown-redoubts.deux-ponts: "Royal Deux-Ponts Alayı’ndan 400 Fransız askeri"
+
+# The British post at Gloucester Point
+emblems.yorktown-redoubts.gloucester: "Gloucester Point’teki İngiliz mevzisi"
+
+# Lauzun’s Legion and Virginia militia under Choisy, blocking Gloucester
+emblems.yorktown-redoubts.choisy: "Choisy komutasında Gloucester’ı kapatan Lauzun Lejyonu ve Virginia milisleri"
+
+# Hamilton’s light infantry storm Redoubt 10 with the bayonet
+emblems.yorktown-redoubts.storm-10: "Hamilton’ın hafif piyadesi süngüyle 10 numaralı tabyaya saldırır"
+
+# John Laurens goes round to the rear of Redoubt 10
+emblems.yorktown-redoubts.laurens: "John Laurens 10 numaralı tabyanın arkasına dolanır"
+
+# The French hack through the abatis and take Redoubt 9
+emblems.yorktown-redoubts.storm-9: "Fransızlar engelleri keserek 9 numaralı tabyayı alır"
+
+# A French feint against the Fusiliers’ Redoubt at 6:30 pm
+emblems.yorktown-redoubts.feint: "Akşam altı buçukta Fusiliers Tabyası’na Fransız oyalama saldırısı"
+
+# 15 to 19 October 1781
+pages.yorktown-surrender.date: "15 – 19 Ekim 1781"
+
+# Yorktown: the surrender
+pages.yorktown-surrender.title: "Yorktown: teslim"
+
+# The British inner works round the town
+emblems.yorktown-surrender.inner-works: "Kasabanın çevresindeki İngiliz iç tahkimatı"
+
+# The first parallel, French half, opened on the night of 6 October
+emblems.yorktown-surrender.first-parallel-french: "Birinci paralelin 6 Ekim gecesi açılan Fransız yarısı"
+
+# The first parallel, American half, reaching the York River
+emblems.yorktown-surrender.first-parallel-american: "Birinci paralelin York Nehri’ne uzanan Amerikan yarısı"
+
+# The second parallel, dug on the night of 11 October
+emblems.yorktown-surrender.second-parallel-french: "11 Ekim gecesi kazılan ikinci paralel"
+
+# The second parallel, stopped short by Redoubts 9 and 10
+emblems.yorktown-surrender.second-parallel-american: "9 ve 10 numaralı tabyalarda kesilen ikinci paralel"
+
+# The second parallel, carried to the river through the taken redoubts
+emblems.yorktown-surrender.second-parallel-river: "Alınan tabyalardan nehre uzatılan ikinci paralel"
+
+# The Fusiliers’ Redoubt
+emblems.yorktown-surrender.fusiliers: "Fusiliers Tabyası"
+
+# Redoubt 9, in allied hands
+emblems.yorktown-surrender.redoubt-9: "Müttefiklerin elindeki 9 numaralı tabya"
+
+# Redoubt 10, in allied hands
+emblems.yorktown-surrender.redoubt-10: "Müttefiklerin elindeki 10 numaralı tabya"
+
+# The British post at Gloucester Point
+emblems.yorktown-surrender.gloucester: "Gloucester Point’teki İngiliz mevzisi"
+
+# Lauzun’s Legion and Virginia militia under Choisy, blocking Gloucester
+emblems.yorktown-surrender.choisy: "Choisy komutasında Gloucester’ı kapatan Lauzun Lejyonu ve Virginia milisleri"
+
+# The British army marching out to lay down its arms, 19 October
+emblems.yorktown-surrender.march-out: "Silah bırakmak için dışarı çıkan İngiliz ordusu, 19 Ekim"
+
+# The French army lining the road
+emblems.yorktown-surrender.french-line: "Yol boyunca dizilen Fransız ordusu"
+
+# The American army lining the road
+emblems.yorktown-surrender.american-line: "Yol boyunca dizilen Amerikan ordusu"
+
+# Abercromby’s 350 spike six guns in the allied lines, night of 15 October
+emblems.yorktown-surrender.abercromby: "Abercromby’nin 350 askeri müttefik hatlarında altı topu çiviler, 15 Ekim gecesi"
+
+# French troops drive the sortie back
+emblems.yorktown-surrender.french-drive-back: "Fransız askerleri çıkışı geri püskürtür"
+
+# One wave of boats crosses to Gloucester Point on the night of 16 October
+emblems.yorktown-surrender.boats: "16 Ekim gecesi kayıkların bir dalgası Gloucester Point’e geçer"
+
+# The British march out between the allied lines to Surrender Field
+emblems.yorktown-surrender.to-surrender-field: "İngilizler müttefik hatları arasından Teslim Alanı’na yürür"
+
+# November 1782 to December 1783
+pages.peace.date: "Kasım 1782 – Aralık 1783"
+
+# The Treaty of Paris
+pages.peace.title: "Paris Antlaşması"
+
+# 1784 to 1787
+pages.confederation.date: "1784 – 1787"
+
+# The Confederation years
+pages.confederation.title: "Konfederasyon yılları"
+
+# 25 January 1787
+pages.springfield-arsenal.date: "25 Ocak 1787"
+
+# Springfield: the attack on the arsenal
+pages.springfield-arsenal.title: "Springfield: cephaneliğe saldırı"
+
+# The Connecticut River
+emblems.springfield-arsenal.connecticut: "Connecticut Nehri"
+
+# Shepard’s two cannon, loaded with grapeshot
+emblems.springfield-arsenal.guns: "Saçmayla doldurulmuş iki Shepard topu"
+
+# The federal armory and its arsenal
+emblems.springfield-arsenal.armory: "Federal cephanelik ve silah deposu"
+
+# Shepard’s militia, 1,200, armed from the arsenal
+emblems.springfield-arsenal.shepard: "Cephanelikteki silahlarla donatılmış 1.200 kişilik Shepard milisi"
+
+# Daniel Shays’s men, from the east by the road from Palmer
+emblems.springfield-arsenal.shays: "Doğudan, Palmer yolundan gelen Daniel Shays’in adamları"
+
+# Eli Parsons’s men, from Chicopee in the north
+emblems.springfield-arsenal.parsons: "Kuzeyde Chicopee’den gelen Eli Parsons’ın adamları"
+
+# Luke Day’s men in West Springfield, not ready until the 26th
+emblems.springfield-arsenal.day: "West Springfield’da 26’sına kadar hazır olamayan Luke Day’in adamları"
+
+# Shays advances on the armory, expecting Day’s support
+emblems.springfield-arsenal.shays-advance: "Shays Day’in desteğini bekleyerek cephaneliğe ilerler"
+
+# Parsons comes down from the north
+emblems.springfield-arsenal.parsons-advance: "Parsons kuzeyden iner"
+
+# Warning shots over their heads, then grapeshot
+emblems.springfield-arsenal.grapeshot: "Başlarının üstünden uyarı atışı, sonra saçma"
+
+# The rebels flee north
+emblems.springfield-arsenal.flight: "İsyancılar kuzeye kaçar"
+
+# 26 January to 4 February 1787
+pages.springfield-petersham.date: "26 Ocak – 4 Şubat 1787"
+
+# Springfield: Lincoln’s march to Petersham
+pages.springfield-petersham.title: "Springfield: Lincoln’ün Petersham yürüyüşü"
+
+# 25 May to 17 September 1787
+pages.convention.date: "25 Mayıs – 17 Eylül 1787"
+
+# The Philadelphia Convention and the Northwest Ordinance
+pages.convention.title: "Philadelphia Kurultayı ve Kuzeybatı Kararnamesi"
+
+# 7 to 18 December 1787
+pages.first-three.date: "7 – 18 Aralık 1787"
+
+# Delaware, Pennsylvania and New Jersey ratify
+pages.first-three.title: "Delaware, Pennsylvania ve New Jersey onaylar"
+
+# January to May 1788
+pages.five-more.date: "Ocak – Mayıs 1788"
+
+# Georgia, Connecticut, Massachusetts, Maryland and South Carolina
+pages.five-more.title: "Georgia, Connecticut, Massachusetts, Maryland ve Güney Carolina"
+
+# 21 June to 26 July 1788
+pages.ninth-state.date: "21 Haziran – 26 Temmuz 1788"
+
+# New Hampshire makes nine, then Virginia and New York
+pages.ninth-state.title: "New Hampshire dokuzuncu olur, ardından Virginia ve New York"
+
+# March to September 1789
+pages.first-government.date: "Mart – Eylül 1789"
+
+# The first government
+pages.first-government.title: "İlk hükûmet"
+
+# November 1789 to May 1790
+pages.last-two.date: "Kasım 1789 – Mayıs 1790"
+
+# North Carolina and Rhode Island complete the thirteen
+pages.last-two.title: "Kuzey Carolina ve Rhode Island on üçü tamamlar"
+
+# December 1789 to December 1790
+pages.southwest-territory.date: "Aralık 1789 – Aralık 1790"
+
+# The Southwest Territory and a site for the capital
+pages.southwest-territory.title: "Güneybatı Toprakları ve başkentin yeri"
+
+# 1791 to 1792
+pages.new-states.date: "1791 – 1792"
+
+# Vermont, the Bill of Rights and Kentucky
+pages.new-states.title: "Vermont, Haklar Bildirgesi ve Kentucky"
+
+# 1794 to 1800
+pages.frontier-1794.date: "1794 – 1800"
+
+# Frontier treaties, Tennessee and the new capital
+pages.frontier-1794.title: "Sınır antlaşmaları, Tennessee ve yeni başkent"
+
+# 20 August 1794, morning
+pages.fallen-timbers-ambush.date: "20 Ağustos 1794, sabah"
+
+# Fallen Timbers: the ambush
+pages.fallen-timbers-ambush.title: "Fallen Timbers: pusu"
+
+# The Maumee River
+emblems.fallen-timbers-ambush.maumee: "Maumee Nehri"
+
+# The swamp on the Legion’s left
+emblems.fallen-timbers-ambush.swamp: "Lejyonun solundaki bataklık"
+
+# The fallen timber, trees blown down by a storm
+emblems.fallen-timbers-ambush.timber: "Bir fırtınanın devirdiği ağaçlar"
+
+# Odawa and Potawatomi under Little Otter and Egushawa
+emblems.fallen-timbers-ambush.odawa: "Little Otter ve Egushawa komutasında Odavalar ve Potavatomiler"
+
+# Wyandot, Lenape and Canadian militia
+emblems.fallen-timbers-ambush.wyandot: "Wyandotlar, Lenapeler ve Kanadalı milisler"
+
+# Wilkinson’s right wing, the 1st and 3rd sub-legions, 800 yards long
+emblems.fallen-timbers-ambush.wilkinson: "Wilkinson’ın sağ kanadı, 1. ve 3. alt lejyonlar, 730 m uzunluğunda"
+
+# Hamtramck’s left wing, the 2nd and 4th sub-legions, in two ranks
+emblems.fallen-timbers-ambush.hamtramck: "Hamtramck’ın sol kanadı, 2. ve 4. alt lejyonlar, iki sıra halinde"
+
+# Dragoons and artillery in the centre of the column
+emblems.fallen-timbers-ambush.centre: "Kolun ortasında dragonlar ve topçu"
+
+# Light infantry sent ahead of each wing
+emblems.fallen-timbers-ambush.light-infantry: "Her kanadın önüne gönderilen hafif piyade"
+
+# Kentucky mounted militia under Charles Scott and Robert Todd
+emblems.fallen-timbers-ambush.kentucky: "Charles Scott ve Robert Todd komutasında Kentucky atlı milisleri"
+
+# The mounted Kentucky vanguard scatters under the first volley
+emblems.fallen-timbers-ambush.kentucky-flee: "Atlı Kentucky öncüsü ilk yaylım ateşinde dağılır"
+
+# Warriors pursue into the Legion’s left in hand to hand fighting
+emblems.fallen-timbers-ambush.warriors-pursue: "Savaşçılar göğüs göğüse çarpışarak Lejyonun soluna dalar"
+
+# The artillery comes up and fires grapeshot
+emblems.fallen-timbers-ambush.grapeshot: "Topçu öne gelir ve saçma atar"
+
+# 20 August 1794
+pages.fallen-timbers-charge.date: "20 Ağustos 1794"
+
+# Fallen Timbers: the bayonet charge
+pages.fallen-timbers-charge.title: "Fallen Timbers: süngü hücumu"
+
+# The Maumee River
+emblems.fallen-timbers-charge.maumee: "Maumee Nehri"
+
+# The swamp on the Legion’s left
+emblems.fallen-timbers-charge.swamp: "Lejyonun solundaki bataklık"
+
+# The ravine on the road to Fort Miami
+emblems.fallen-timbers-charge.ravine: "Fort Miami yolundaki yarlık"
+
+# The fallen timber, trees blown down by a storm
+emblems.fallen-timbers-charge.timber: "Bir fırtınanın devirdiği ağaçlar"
+
+# Odawa and Potawatomi, falling back
+emblems.fallen-timbers-charge.odawa: "Geri çekilen Odavalar ve Potavatomiler"
+
+# Wyandot, Lenape and Canadians, in a heavy exchange of fire
+emblems.fallen-timbers-charge.wyandot: "Yoğun bir ateşe tutuşan Wyandotlar, Lenapeler ve Kanadalılar"
+
+# Wilkinson’s infantry advancing in support of the dragoons
+emblems.fallen-timbers-charge.wilkinson: "Dragonları desteklemek için ilerleyen Wilkinson piyadesi"
+
+# Hamtramck’s left wing advancing at trail arms
+emblems.fallen-timbers-charge.hamtramck: "Silahlar elde ilerleyen Hamtramck’ın sol kanadı"
+
+# Captain Robert Campbell’s dragoons
+emblems.fallen-timbers-charge.dragoons: "Yüzbaşı Robert Campbell’ın dragonları"
+
+# Robert Todd’s brigade of Kentucky militia
+emblems.fallen-timbers-charge.kentucky: "Robert Todd’un Kentucky milis tugayı"
+
+# Campbell’s dragoons charge first, sabres drawn, and Campbell is killed
+emblems.fallen-timbers-charge.dragoon-charge: "Campbell’ın dragonları kılıçlar çekili ilk hücum eder, Campbell ölür"
+
+# Todd’s Kentuckians cross the swamp and turn the Canadians’ flank
+emblems.fallen-timbers-charge.todd-flank: "Todd’un Kentuckylileri bataklığı geçer ve Kanadalıların yanını çevirir"
+
+# The Odawa and Potawatomi fall back to the ravine
+emblems.fallen-timbers-charge.odawa-back: "Odavalar ve Potavatomiler yarlığa çekilir"
+
+# The confederacy cannot re-form in the broken ground
+emblems.fallen-timbers-charge.wyandot-back: "Konfederasyon engebeli arazide yeniden düzene giremez"
+
+# 20 to 26 August 1794
+pages.fallen-timbers-miami.date: "20 – 26 Ağustos 1794"
+
+# Fallen Timbers: the gates of Fort Miami
+pages.fallen-timbers-miami.title: "Fallen Timbers: Fort Miami’nin kapıları"
+
+# The Maumee River
+emblems.fallen-timbers-miami.maumee: "Maumee Nehri"
+
+# Fort Miami, its gates shut against the warriors
+emblems.fallen-timbers-miami.fort-miami: "Kapılarını savaşçılara kapatan Fort Miami"
+
+# Wayne’s camp in sight of the fort, 20 to 23 August
+emblems.fallen-timbers-miami.wayne-camp: "Kaleyi gören Wayne kampı, 20 – 23 Ağustos"
+
+# The dragoons riding down the fleeing warriors
+emblems.fallen-timbers-miami.dragoons: "Kaçan savaşçıları biçen dragonlar"
+
+# The warriors run for Fort Miami and find the gates shut
+emblems.fallen-timbers-miami.run-for-fort: "Savaşçılar Fort Miami’ye koşar ve kapıları kapalı bulur"
+
+# The survivors go on north to Swan Creek
+emblems.fallen-timbers-miami.swan-creek: "Kurtulanlar kuzeye, Swan Creek’e gider"
+
+# The dragoons pursue across the open ground beyond the ravine
+emblems.fallen-timbers-miami.pursuit: "Dragonlar yarlığın ötesindeki açık arazide takip eder"
+
+# The American Revolution
+story.title: "Amerikan Devrimi"
+
+# From the Proclamation Line of 1763 through Lexington, the Declaration and Yorktown to the Constitution and the thirteen ratifications.
+story.summary: "1763 Kraliyet Bildirgesi’nden Lexington’a, Bağımsızlık Bildirgesi ve Yorktown’dan Anayasa’ya ve on üç eyaletin onayına."
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Dorchester Heights
+markers.dorchester.label: "Dorchester Tepeleri"
+
+# The Capes
+markers.capes.label: "Burunlar"
+
+# Marquis de Lafayette
+battles.brandywine.sides.0.commanders.3: "Marki de Lafayette"
+
+# Comte d’Estaing
+battles.savannah-1779.sides.0.commanders.1: "Kont d’Estaing"
+
+# Comte de Rochambeau
+battles.yorktown.sides.0.commanders.1: "Kont de Rochambeau"
+
+# Marquis de Lafayette
+battles.yorktown.sides.0.commanders.2: "Marki de Lafayette"
+
+# Comte de Grasse
+battles.yorktown.sides.0.commanders.3: "Kont de Grasse"
+
+# Buckman Tavern
+markers.lexington-green-buckman.label: "Buckman Meyhanesi"
+
+# Buttrick and Davis
+markers.lexington-north-bridge-buttrick.label: "Buttrick ve Davis"
+
+# Heath and Warren
+markers.lexington-road-back-heath.label: "Heath ve Warren"
+
+# Knowlton and Stark
+markers.bunker-hill-redoubt-stark.label: "Knowlton ve Stark"
+
+# Charlestown Neck
+markers.bunker-hill-third-attack-neck.label: "Charlestown Boğazı"
+
+# Pringle and Carleton
+markers.canada-retreat-valcour-pringle.label: "Pringle ve Carleton"
+
+# Valcour Island
+markers.canada-retreat-escape-valcour.label: "Valcour Adası"
+
+# Schuyler Island
+markers.canada-retreat-escape-schuyler.label: "Schuyler Adası"
+
+# Arnold’s Bay
+markers.canada-retreat-escape-arnolds-bay.label: "Arnold Koyu"
+
+# Old Stone House
+markers.new-york-maryland-house.label: "Eski Taş Ev"
+
+# Stirling and Gist
+markers.new-york-maryland-stirling.label: "Stirling ve Gist"
+
+# 896 prisoners
+markers.trenton-surrender-prisoners.label: "896 esir"
+
+# Freeman’s Farm
+markers.saratoga-advance-freeman.label: "Freeman Çiftliği"
+
+# Barber’s wheat field
+markers.saratoga-bemis-heights-wheatfield.label: "Barber’ın buğday tarlası"
+
+# The convention
+markers.saratoga-surrender-convention.label: "Anlaşma"
+
+# Howe and Cornwallis
+markers.brandywine-flank-howe.label: "Howe ve Cornwallis"
+
+# Old Kennett meeting house
+markers.brandywine-flank-meeting-house.label: "Eski Kennett ibadethanesi"
+
+# Monmouth Court House
+markers.monmouth-lee-courthouse.label: "Monmouth Adliyesi"
+
+# Parsonage
+markers.monmouth-parsonage-parsonage.label: "Papaz evi"
+
+# The Spring Hill ditch
+markers.savannah-repulse-ditch.label: "Spring Hill hendeği"
+
+# Allied losses
+markers.savannah-repulse-losses.label: "Müttefik kayıpları"
+
+# The Crescent
+markers.pensacola-crescent-magazine.label: "Hilal"
+
+# Simmons Island
+markers.charleston-approach-simmons.label: "Simmons Adası"
+
+# McDowell and Cunningham
+markers.cowpens-lines-riflemen.label: "McDowell ve Cunningham"
+
+# 71st Highlanders
+markers.cowpens-envelopment-71st.label: "71. İskoç Alayı"
+
+# Moore House
+markers.yorktown-surrender-moore-house.label: "Moore Evi"
+
+# Surrender Field
+markers.yorktown-surrender-field.label: "Teslim Alanı"
+
+# York River
+markers.yorktown-surrender-squall.label: "York Nehri"
+
+# Day’s message
+markers.springfield-arsenal-message.label: "Day’in mesajı"
+
+# McKee’s trading post
+markers.fallen-timbers-miami-mckee.label: "McKee’nin ticaret evi"

@@ -1,0 +1,25 @@
+date: "Autumn 217 BC, night"
+title: "The oxen with torches"
+bbox: [14.49509, 41.16581, 14.58939, 41.20562]
+zones: []
+routes: []
+markers: [fabius-oxen-fabius, fabius-oxen-cattle, fabius-oxen-detachment, fabius-oxen-hannibal]
+sources: ['Polybius, Histories, book 3, 93 to 94.', 'Livy, History of Rome, book 22, 16 to 18.', 'Adrian Goldsworthy, The Fall of Carthage (2006).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: rome, type: camp, at: [14.52255, 41.19205], width: 900, depth: 900, facing: 0, id: fabius-camp, name: Fabius’s camp above the pass}
+    - {side: rome, type: infantry, at: [14.52255, 41.18553], width: 1400, depth: 220, facing: 180, id: fabius-army, name: 'Fabius’s army, standing at arms in the dark'}
+    - {side: carthage, type: camp, at: [14.50464, 41.17305], width: 800, depth: 800, facing: 0, id: camp, name: Hannibal’s camp}
+    - {side: carthage, type: light, at: [14.53627, 41.18988], width: 900, depth: 130, facing: 300, id: oxen, name: '2,000 oxen with burning wood tied to their horns'}
+    - {side: carthage, type: light, at: [14.5315, 41.18734], width: 700, depth: 130, facing: 300, id: oxen, name: '2,000 oxen with burning wood tied to their horns'}
+    - {side: carthage, type: infantry, at: [14.56969, 41.183], width: 230, depth: 2300, facing: 90, id: army, name: 'Hannibal’s army, through the pass'}
+    - {side: carthage, type: infantry, at: [14.54141, 41.18571], width: 500, depth: 160, facing: 320, id: escort, name: Light infantry driving the oxen}
+  arrows:
+    - {side: carthage, path: [[14.50882, 41.17576], [14.52076, 41.18029], [14.52971, 41.18508]], width: 130, id: oxen-drive, name: The oxen are driven up the ridge}
+    - {side: rome, path: [[14.55179, 41.18463], [14.54463, 41.18725], [14.53806, 41.18933]], width: 130, id: detachment, name: The Roman detachment leaves the pass to chase the lights}
+    - {side: carthage, path: [[14.51061, 41.17079], [14.52852, 41.17649], [14.54702, 41.18137], [14.58521, 41.183]], width: 210, id: army-march, name: The army marches through the unguarded pass}
+    - {side: carthage, path: [[14.54606, 41.18191], [14.54009, 41.18725]], width: 100, id: escort-attack, name: The light infantry attacks the Roman detachment}
+  clashes:
+    - {at: [14.53627, 41.18933], size: 200}
+images: {}

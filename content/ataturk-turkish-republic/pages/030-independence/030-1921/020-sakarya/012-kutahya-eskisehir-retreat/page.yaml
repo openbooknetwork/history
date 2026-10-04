@@ -1,0 +1,31 @@
+when: { from: 1921-07-16 }
+date: "16 to 25 July 1921"
+title: "Eskişehir: the withdrawal to the Sakarya"
+bbox: [29.25, 38.55, 32.3, 40.15]
+zones: []
+routes: []
+markers: [kutahya-eskisehir-retreat-kemal, kutahya-eskisehir-retreat-kutahya, eskisehir]
+sources:
+  - "Michael Llewellyn-Smith, Ionian Vision: Greece in Asia Minor, 1919–1922 (1973)."
+  - "Andrew Mango, Atatürk (1999)."
+  - "Mustafa Kemal Atatürk, Nutuk (1927)."
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[32, 39.2], [32.02, 39.3], [31.98, 39.4], [31.99, 39.48], [31.96, 39.56], [31.97, 39.64], [31.98, 39.7], [31.95, 39.76], [31.92, 39.81], [31.86, 39.86], [31.84, 39.92]], width: 1200, id: sakarya-river, name: The Sakarya river}
+  units:
+    - {side: greek, type: infantry, at: [30.35, 39.62], width: 35000, depth: 7000, facing: 30, id: greek-main, name: 'The Greek main body, wheeling north on Eskişehir'}
+    - {side: greek, type: infantry, at: [30.1, 39.88], width: 25000, depth: 6000, facing: 120, id: greek-feint, name: The Greek feint towards the Turkish right}
+    - {side: republic, type: infantry, at: [31.92, 39.62], width: 55000, depth: 6000, facing: 270, id: sakarya-line, name: 'The Western Front behind the Sakarya, about 80 km from Ankara'}
+  arrows:
+    - {side: greek, path: [[30.15, 39.82], [30.3, 39.8], [30.42, 39.79]], width: 4000, id: feint, name: 'The feint towards Eskişehir, 16 July'}
+    - {side: greek, path: [[30.4, 39.66], [30.48, 39.72], [30.52, 39.76]], width: 4500, id: eskisehir-falls, name: Eskişehir falls}
+    - {side: republic, path: [[30.7, 39.76], [31.15, 39.72], [31.62, 39.66]], width: 6000, id: withdrawal-north, name: İsmet breaks contact and withdraws east, style: dashed}
+    - {side: republic, path: [[30.8, 39.35], [31.25, 39.42], [31.65, 39.5]], width: 6000, id: withdrawal-south, name: The southern units fall back to the Sakarya, style: dashed}
+  clashes:
+    - {at: [30.52, 39.76], size: 6000}
+images:
+  eskisehir-flags-1921:
+    file: eskisehir-flags-1921.jpg
+    caption: "King Constantine I decorates the war flags of Greek regiments at Eskişehir, 18 July 1921"
+    credit: "Wikimedia Commons, Hellenic Army History Directorate, Public domain (Greek Flags 1921.jpg)"

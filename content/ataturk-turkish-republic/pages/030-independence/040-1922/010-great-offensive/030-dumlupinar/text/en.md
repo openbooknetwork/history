@@ -1,6 +1,8 @@
-The main Greek force, retreating west, is caught around Dumlupınar on 30 August and surrounded. Mustafa Kemal directs the battle in person from the hill of Zafertepe. Most of the Greek army of Asia Minor is destroyed as a fighting force that day; General Trikoupis, just appointed its commander, is captured three days later not yet knowing of his promotion. The date becomes Victory Day.
+The main Greek force retreating west from Afyon, the Trikoupis Group, is surrounded near Dumlupınar on 29 August and destroyed on 30 August. Mustafa Kemal directs the battle in person from the hill of Zafertepe. The Greek III Corps and other units escape towards the coast.
 
 @image trikoupis-pow
+
+General Trikoupis is captured on 2 September. Brought before Mustafa Kemal, he learns from him that he has been appointed Greek commander in chief. 30 August is commemorated in Türkiye as Victory Day.
 
 @image turkish-trench-1922
 

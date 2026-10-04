@@ -1,0 +1,39 @@
+when: {from: '1776-12-26'}
+date: "26 December 1776, 9 am"
+title: "Trenton: the Hessians surrender"
+bbox: [-74.788, 40.205, -74.74, 40.241]
+zones: []
+routes: []
+markers: [trenton-surrender-rall, trenton-surrender-stark, trenton-surrender-prisoners]
+sources: ['David Hackett Fischer, Washington’s Crossing (2004).', 'Richard M. Ketchum, The Winter Soldiers (1973).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-74.912, 40.338], [-74.886, 40.313], [-74.868, 40.2965], [-74.838, 40.264], [-74.818, 40.25], [-74.797, 40.236], [-74.783, 40.226], [-74.778, 40.2195], [-74.7765, 40.207], [-74.771, 40.195], [-74.764, 40.183]], width: 220, id: delaware, name: The Delaware River}
+    - {path: [[-74.73, 40.226], [-74.741, 40.2232], [-74.749, 40.2207], [-74.756, 40.2178], [-74.7605, 40.2158], [-74.766, 40.2125], [-74.771, 40.21], [-74.7752, 40.2088]], width: 35, id: assunpink, name: Assunpink Creek}
+  works:
+    - {path: [[-74.7637, 40.2264], [-74.7663, 40.2207], [-74.769, 40.215]], width: 14, id: king-street, name: King Street}
+    - {path: [[-74.7637, 40.2264], [-74.7621, 40.2212], [-74.7605, 40.2158], [-74.7598, 40.2135]], width: 14, id: queen-street, name: 'Queen Street, over the Assunpink bridge'}
+    - {path: [[-74.7637, 40.2264], [-74.77, 40.233], [-74.776, 40.24]], width: 14, id: pennington-road, name: The Pennington road}
+    - {path: [[-74.788, 40.236], [-74.78, 40.229], [-74.774, 40.2215]], width: 14, id: river-road, name: The River road}
+    - {path: [[-74.7637, 40.2264], [-74.756, 40.233], [-74.748, 40.24]], width: 14, id: princeton-road, name: The road to Princeton}
+  units:
+    - {side: usa, type: infantry, at: [-74.757, 40.2302], width: 500, depth: 120, facing: 180, id: greene, name: Greene’s division on the high ground north of the field}
+    - {side: usa, type: light, at: [-74.752, 40.2275], width: 300, depth: 45, facing: 250, id: hand, name: Hand’s riflemen closing from the east}
+    - {side: usa, type: light, at: [-74.764, 40.2278], width: 260, depth: 45, facing: 120, id: guns, name: 'The guns, retaken and turned on the Hessians'}
+    - {side: usa, type: infantry, at: [-74.7618, 40.2207], width: 300, depth: 100, facing: 110, id: stark, name: Sullivan’s men with Stark}
+    - {side: usa, type: infantry, at: [-74.76, 40.2146], width: 200, depth: 80, facing: 0, id: bridge-guard, name: 'The Assunpink bridge, held by Sullivan’s men'}
+    - {side: '#9c6b30', type: infantry, at: [-74.757, 40.2244], width: 300, depth: 120, facing: 290, id: rall, name: 'Rall and Lossberg regiments, surrounded in the field'}
+    - {side: '#9c6b30', type: infantry, at: [-74.757, 40.2182], width: 200, depth: 80, facing: 170, id: knyphausen, name: 'Knyphausen regiment, cut off at the Assunpink'}
+  arrows:
+    - {side: '#9c6b30', path: [[-74.7575, 40.2252], [-74.7612, 40.2274]], width: 50, id: counterattack, name: The Hessians try to retake the town and stall under fire from three sides}
+    - {side: usa, path: [[-74.7605, 40.2202], [-74.7584, 40.2187]], width: 60, id: stark-charge, name: Stark’s bayonet charge}
+    - {side: '#9c6b30', path: [[-74.7582, 40.2172], [-74.7598, 40.2156]], width: 45, id: knyphausen-turn, name: The Knyphausen regiment marches for the bridge and finds it held, style: dashed}
+  clashes:
+    - [-74.7592, 40.2262]
+    - [-74.7579, 40.2193]
+images:
+  trenton-hessian-surrender:
+    file: trenton-hessian-surrender.jpg
+    caption: "The surrender of the Hessian troops to Washington after the Battle of Trenton, copy of a nineteenth century lithograph"
+    credit: "Wikimedia Commons, unknown author, Public domain (Surrender of the Hessian Troops to General Washington, after The Battle of Trenton. December 1776. Copy of lithograph, 1 - NARA - 532880.tif)"

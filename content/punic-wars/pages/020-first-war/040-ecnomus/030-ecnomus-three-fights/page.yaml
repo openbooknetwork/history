@@ -1,0 +1,34 @@
+date: "256 BC"
+title: "Three separate fights"
+bbox: [13.80999, 37.00021, 13.99175, 37.13008]
+zones: []
+routes: []
+markers: [ecnomus-fights-hamilcar, ecnomus-fights-consuls, ecnomus-fights-third, ecnomus-fights-transports, ecnomus-fights-hanno]
+sources: ['Polybius, Histories, book 1, 27 to 28.', 'John Lazenby, The First Punic War (1996).', 'Adrian Goldsworthy, The Fall of Carthage (2006).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: rome, type: ships, at: [13.85597, 37.08502], width: 1600, depth: 400, facing: 290, count: 7, rows: 1, id: first-squadron, name: First Roman squadron under Vulso}
+    - {side: rome, type: ships, at: [13.85058, 37.07312], width: 1600, depth: 400, facing: 290, count: 7, rows: 1, id: second-squadron, name: Second Roman squadron under Regulus}
+    - {side: carthage, type: ships, at: [13.84841, 37.0805], width: 3000, depth: 400, facing: 110, count: 12, rows: 1, id: carthaginian-centre, name: 'Carthaginian centre under Hamilcar, turned about to fight'}
+    - {side: carthage, type: ships, at: [13.94627, 37.08604], width: 2600, depth: 350, facing: 20, count: 11, rows: 1, id: carthaginian-left, name: Carthaginian landward squadron}
+    - {side: rome, type: ships, at: [13.94838, 37.09072], width: 2600, depth: 350, facing: 200, count: 12, rows: 1, id: third-squadron, name: 'Third Roman squadron, in shallow water facing out to sea'}
+    - {side: neutral, type: ships, at: [13.94914, 37.06065], width: 2600, depth: 700, facing: 290, count: 12, rows: 2, id: transports, name: 'Transports, cast off and drifting'}
+    - {side: rome, type: ships, at: [13.96005, 37.05169], width: 3000, depth: 450, facing: 290, count: 14, rows: 1, id: fourth-squadron, name: 'Fourth Roman squadron, hampered by the transports'}
+    - {side: carthage, type: ships, at: [13.95312, 37.03638], width: 2000, depth: 350, facing: 20, count: 9, rows: 1, id: hanno, name: Hanno’s seaward squadron}
+  arrows:
+    - {side: carthage, path: [[13.8725, 37.06863], [13.85847, 37.07467], [13.84654, 37.08008]], width: 130, id: hamilcar-falls-back, name: 'Hamilcar’s centre falls back, drawing the consuls on'}
+    - {side: rome, path: [[13.89981, 37.06546], [13.87866, 37.07165], [13.85751, 37.07783]], width: 140, id: consuls-pursue, name: The consuls follow the Carthaginian centre}
+    - {side: rome, path: [[13.94414, 37.06019], [13.94723, 37.07758], [13.94795, 37.08844]], width: 120, style: dashed, id: third-to-shore, name: The third squadron casts off the transports and retreats to the shore}
+    - {side: carthage, path: [[13.89838, 37.08609], [13.91905, 37.08679], [13.93598, 37.08713]], width: 120, id: left-attacks, name: The Carthaginian landward wing falls on the third squadron}
+    - {side: carthage, path: [[13.8498, 37.03966], [13.89115, 37.03045], [13.93278, 37.02982], [13.9476, 37.03608]], width: 130, id: hanno-attacks, name: Hanno attacks the fourth squadron at the rear}
+  clashes:
+    - [13.85354, 37.08573]
+    - [13.84815, 37.07383]
+    - [13.94742, 37.08859]
+    - [13.95416, 37.03868]
+images:
+  ecnomus-punic-keel:
+    file: ecnomus-punic-keel.jpg
+    caption: "The keel of the Punic warship found off Marsala, 3rd century BC"
+    credit: "Wikimedia Commons, Ekem, CC BY-SA 3.0 (Punic.keel.JPG)"

@@ -1,0 +1,21 @@
+when: {from: '1776-01-10', to: '1776-03-17'}
+date: "January to March 1776"
+title: "Common Sense, and the British leave Boston"
+bbox: [-72, 41.5, -62.5, 45.5]
+zones: [colonies-1763, quebec-1774, nova-scotia]
+routes: []
+markers: [dorchester, boston-1776, halifax]
+sources: ['Robert Middlekauff, The Glorious Cause (2005).', 'David McCullough, 1776 (2005).']
+images:
+  common-sense:
+    file: common-sense.jpg
+    caption: "Title page of Common Sense by Thomas Paine, 1776"
+    credit: "Wikimedia Commons, Thomas Paine, Public domain (Common sense; addressed to the inhabitants of America, on the following interesting subjects LCCN2006681076.jpg)"
+  knox-artillery:
+    file: knox-artillery.jpg
+    caption: "Henry Knox's teams hauling the cannon from Ticonderoga to Boston in the winter of 1775 to 1776, later illustration"
+    credit: "Wikimedia Commons, Unknown author, Public domain (Siegeofbostonartillery.jpg)"
+  boston-dorchester-1776:
+    file: boston-dorchester-1776._24th.jpg
+    caption: "Boston and the heights of Dorchester, a British view drawn on 24 January 1776"
+    credit: "Wikimedia Commons, Scan by NYPL, Public domain (View of Boston shewing the heights of Dorchester, taken from Mount Whoredom. 24th Janry 1776. No. 1 (NYPL Hades-1847064-4024016).jpg)"

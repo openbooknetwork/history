@@ -1,0 +1,31 @@
+date: "264 – 263 BC"
+title: "The Carthaginians withdraw"
+bbox: [15.50128, 38.14596, 15.64187, 38.23823]
+zones: []
+routes: []
+markers: [messana-hanno-claudius, messana-hanno-carthaginians, messana-hanno-city]
+sources: ['Polybius, Histories, book 1, 12 and 16.', 'John Lazenby, The First Punic War (1996).', 'Adrian Goldsworthy, The Fall of Carthage (2006).']
+emblem:
+  kind: battle-plan
+  works:
+    - {side: neutral, path: [[15.56243, 38.20476], [15.54757, 38.20431], [15.54128, 38.19571], [15.543, 38.18486], [15.551, 38.17898], [15.55843, 38.17898]], width: 70, id: walls, name: The walls of Messana}
+  units:
+    - {side: rome, type: infantry, at: [15.54586, 38.21109], width: 1000, depth: 200, facing: 0, id: roman-legions, name: Roman legions under Appius Claudius}
+    - {side: rome, type: cavalry, at: [15.53786, 38.21109], width: 300, depth: 150, facing: 0, id: roman-cavalry, name: Roman cavalry}
+    - {side: rome, type: cavalry, at: [15.55363, 38.21109], width: 260, depth: 150, facing: 0, id: roman-cavalry, name: Roman cavalry}
+    - {side: carthage, type: infantry, at: [15.54586, 38.21363], width: 1100, depth: 220, facing: 180, id: carthaginian-infantry, name: Carthaginian infantry and mercenaries under Hanno}
+    - {side: carthage, type: cavalry, at: [15.53728, 38.21363], width: 320, depth: 160, facing: 180, id: carthaginian-cavalry, name: Carthaginian cavalry}
+    - {side: carthage, type: cavalry, at: [15.55454, 38.21363], width: 300, depth: 160, facing: 180, id: carthaginian-cavalry, name: Carthaginian cavalry}
+    - {side: carthage, type: camp, at: [15.55157, 38.22647], width: 600, depth: 600, facing: 0, id: carthaginian-camp, name: Carthaginian camp north of the city}
+  arrows:
+    - {side: carthage, path: [[15.54471, 38.21697], [15.531, 38.22647], [15.51271, 38.23371]], width: 140, style: dashed, id: carthaginian-retreat, name: The Carthaginians fall back to nearby towns}
+    - {side: carthage, path: [[15.53557, 38.21652], [15.523, 38.22104], [15.50699, 38.22285]], width: 110, style: dashed, id: carthaginian-retreat, name: The Carthaginians fall back to nearby towns}
+  clashes:
+    - [15.54586, 38.21263]
+    - [15.53763, 38.21263]
+    - [15.55409, 38.21263]
+images:
+  messana-pelorus:
+    file: messana-pelorus.jpg
+    caption: "Cape Pelorus, the north-eastern tip of Sicily, and the narrowest part of the strait, seen from the International Space Station"
+    credit: "Wikimedia Commons, NASA, Public domain (Strait of Messina - NASA.jpg)"

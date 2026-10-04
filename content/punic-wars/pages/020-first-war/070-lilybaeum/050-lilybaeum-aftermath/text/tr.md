@@ -1,0 +1,3 @@
+Savaştan kısa süre sonra Karthalo 70 gemiyle Adherbal’e katılır. Adherbal onun filosunu 100 gemiye tamamlar ve onu Lilybaeum’a gönderir, Karthalo orada birkaç Roma gemisini yakar. Yılın ilerleyen aylarında Karthalo, Phintias açıklarında 120 savaş gemisinin eşlik ettiği 800 nakliye gemilik bir Roma ikmal konvoyuyla karşılaşır ve onu, bir fırtına iki gemi dışında hepsini batırana dek hırpalar.
+
+Pulcher Roma’ya geri çağrılır ve vatana ihanetle yargılanır. Tavuklar yüzünden daha hafif bir suç olan dine saygısızlıktan mahkûm olur, ölüm cezasından kıl payı kurtulur ve sürgüne gider. Denizde karşısında rakip kalmayan Kartaca donanmasının çoğunu hizmet dışı bırakır, Roma’nın bir sonraki büyük donanması ancak MÖ 242’de denize açılır.

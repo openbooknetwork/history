@@ -1,0 +1,5 @@
+Havana’dan gelen sefer kuvveti 9 Mart 1781’de Pensacola Körfezi’nin girişine ulaşır. Yanında, aralarında Arturo O’Neill komutasındaki İrlandalı Hibernia Alayı’ndan 319 askerin de bulunduğu yaklaşık 1.300 düzenli asker vardır. Askerler körfezin önündeki set adası Santa Rosa’ya çıkar. O’Neill’in adamları adanın savunmasız bataryasına top yerleştirir ve körfeze sığınan İngiliz gemilerini uzaklaştırır.
+
+Donanmayı içeri sokmak daha zordur. 64 toplu San Ramón kanalda karaya oturur, filo komutanı José Calvo de Irazabal da Barrancas Coloradas bataryasının topları altından başka gemi geçirmeyi reddeder. 18 Mart’ta Gálvez, kendi yetkisi altındaki Louisiana gemilerinden Gálveztown’a biner ve onu kanaldan geçirir. Öteki Louisiana gemileri etkisiz İngiliz ateşi altında onu izler, filonun geri kalanı da ertesi gün körfeze girer.
+
+Calvo, San Ramón ile Havana’ya döner. 24 Mart’ta ordu anakaraya geçer ve Mobile’dan gelen birlikler ona katılır. 28 Mart’ta O’Neill’in keşif birlikleri İngilizlerin müttefiki yaklaşık 400 Choctaw savaşçısının saldırısını püskürtür.

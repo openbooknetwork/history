@@ -1,0 +1,28 @@
+date: "11 to 13 October 1776"
+title: "Valcour Island: the escape"
+bbox: [-73.62, 44, -73.12, 44.66]
+zones: []
+routes: []
+markers: [canada-retreat-escape-valcour, canada-retreat-escape-schuyler, canada-retreat-escape-split-rock, canada-retreat-escape-arnolds-bay, crown-point-1776]
+sources: ['James L. Nelson, Benedict Arnold’s Navy (2006).', 'Justin H. Smith, Our Struggle for the Fourteenth Colony (1907).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-73.395, 44.7], [-73.375, 44.62], [-73.35, 44.52], [-73.335, 44.42], [-73.33, 44.33], [-73.325, 44.27]], width: 8000, id: lake-champlain, name: Lake Champlain}
+    - {path: [[-73.325, 44.27], [-73.345, 44.2], [-73.37, 44.14], [-73.4, 44.085], [-73.425, 44.035]], width: 2200, id: lake-champlain, name: Lake Champlain}
+  units:
+    - {side: held, type: ships, at: [-73.336, 44.315], width: 2600, depth: 2600, facing: 175, count: 6, rows: 2, id: british-fleet, name: 'The British fleet, catching up as the wind changes'}
+    - {side: usa, type: ships, at: [-73.32, 44.262], width: 900, depth: 900, facing: 180, count: 1, id: washington, name: 'The galley Washington, which strikes her colours with 110 men'}
+    - {side: usa, type: ships, at: [-73.345, 44.16], width: 2400, depth: 1200, facing: 90, count: 5, id: burned-at-arnolds-bay, name: 'Congress and the smaller craft, run aground and burned in Arnold’s Bay'}
+    - {side: usa, type: ships, at: [-73.415, 44.055], width: 2400, depth: 1200, facing: 200, count: 4, id: escaped, name: 'Trumbull, New York, Enterprise and Revenge, safe at Crown Point'}
+  arrows:
+    - {side: usa, path: [[-73.425, 44.61], [-73.43, 44.585], [-73.385, 44.545], [-73.35, 44.505], [-73.335, 44.4], [-73.33, 44.3], [-73.345, 44.2], [-73.35, 44.172]], width: 900, style: dashed, id: american-escape, name: Arnold’s fleet slips past the British at night and makes for Crown Point}
+    - {side: held, path: [[-73.385, 44.59], [-73.34, 44.47], [-73.318, 44.35]], width: 900, id: british-pursuit, name: The British fleet pursues on 12 and 13 October}
+    - {side: usa, path: [[-73.36, 44.15], [-73.395, 44.1], [-73.42, 44.05]], width: 600, style: dashed, id: overland, name: About 200 men reach Crown Point overland}
+  clashes:
+    - {at: [-73.325, 44.275], size: 1400}
+images:
+  congress-galley-1776:
+    file: congress-galley-1776.jpg
+    caption: "The galley Congress, Arnold’s flagship, with the sloop Enterprise at Valcour Island"
+    credit: "Wikimedia Commons, U.S. Naval Historical Center, Public domain (USS Congress (1776).jpg)"

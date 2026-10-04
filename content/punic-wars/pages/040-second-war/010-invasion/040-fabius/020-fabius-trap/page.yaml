@@ -1,0 +1,30 @@
+date: "Summer and autumn 217 BC"
+title: "Hannibal hemmed in"
+bbox: [13.85, 41.0, 14.65, 41.33]
+zones: []
+routes: []
+markers: [fabius-trap-fabius, fabius-trap-minucius, fabius-trap-pass, fabius-trap-hannibal, fabius-trap-mancinus, casilinum-217]
+sources: ['Polybius, Histories, book 3, 92.', 'Livy, History of Rome, book 22, 15 to 16.', 'Adrian Goldsworthy, The Fall of Carthage (2006).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[14.47, 41.21], [14.4, 41.18], [14.33, 41.15], [14.27, 41.13], [14.213, 41.106], [14.15, 41.08], [14.06, 41.05], [13.98, 41.04], [13.94, 41.03]], width: 260, id: volturnus, name: The river Volturnus}
+  units:
+    - {side: rome, type: camp, at: [13.985, 41.218], width: 2600, depth: 2600, facing: 0, id: fabius-camp, name: Fabius’s main army near Mount Massicus}
+    - {side: rome, type: camp, at: [14.075, 41.262], width: 1900, depth: 1900, facing: 0, id: minucius-camp, name: 'Minucius’s camp, watching the roads north'}
+    - {side: rome, type: camp, at: [14.14, 41.21], width: 1200, depth: 1200, facing: 0, id: garrisons, name: Roman garrisons closing the exits of the plain}
+    - {side: rome, type: camp, at: [14.213, 41.112], width: 1200, depth: 1200, facing: 0, id: garrisons, name: Roman garrisons closing the exits of the plain}
+    - {side: rome, type: infantry, at: [14.545, 41.19], width: 2200, depth: 700, facing: 270, id: pass-detachment, name: '4,000 Romans holding the Callicula pass'}
+    - {side: carthage, type: camp, at: [14.08, 41.13], width: 2600, depth: 2600, facing: 0, id: camp, name: Hannibal’s camp in the plain}
+    - {side: carthage, type: light, at: [14, 41.085], width: 5000, depth: 450, facing: 200, id: foragers, name: Foraging parties plundering the plain}
+    - {side: carthage, type: light, at: [14.175, 41.165], width: 4200, depth: 450, facing: 30, id: foragers, name: Foraging parties plundering the plain}
+    - {side: carthage, type: cavalry, at: [14.035, 41.16], width: 2600, depth: 700, facing: 330, id: carthalo, name: Carthaginian cavalry under Carthalo}
+  arrows:
+    - {side: carthage, path: [[14.64, 41.18], [14.53, 41.225], [14.33, 41.31], [14.2, 41.245], [14.1, 41.155]], width: 700, id: entry, name: Hannibal enters the Falernian plain through the Callicula pass}
+  clashes:
+    - {at: [14.01, 41.182], size: 900}
+images:
+  fabius-plain:
+    file: fabius-plain.jpg
+    caption: "The Falernian plain near Cancello ed Arnone, with Mount Massicus, the Mons Massicus of the ancient writers, behind"
+    credit: "Wikimedia Commons, Joel Bellviure, CC BY-SA 4.0 (Ager Falernus and Monte Massico, 2024.jpg)"

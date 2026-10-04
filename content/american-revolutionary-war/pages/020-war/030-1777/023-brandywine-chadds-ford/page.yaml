@@ -1,0 +1,35 @@
+when: {from: '1777-09-11'}
+date: "11 September 1777, evening"
+title: "Brandywine: Chadds Ford and Dilworth"
+bbox: [-75.62, 39.85, -75.545, 39.912]
+zones: []
+routes: []
+markers: [brandywine-chadds-ford-greene, brandywine-chadds-ford-wayne, brandywine-chadds-ford-dilworth]
+sources: ['Michael C. Harris, Brandywine (2014).', 'Thomas J. McGuire, The Philadelphia Campaign, volume 1 (2006).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-75.633, 39.926], [-75.618, 39.915], [-75.606, 39.903], [-75.598, 39.89], [-75.594, 39.879], [-75.5915, 39.8718], [-75.588, 39.858], [-75.583, 39.84], [-75.578, 39.82], [-75.575, 39.802], [-75.572, 39.79]], width: 45, id: brandywine, name: Brandywine Creek}
+    - {path: [[-75.703, 39.931], [-75.687, 39.923], [-75.665, 39.9215], [-75.645, 39.9235], [-75.633, 39.926]], width: 32, id: west-branch, name: 'The West Branch, crossed at Trimble’s Ford'}
+    - {path: [[-75.642, 39.962], [-75.636, 39.939], [-75.633, 39.926]], width: 32, id: east-branch, name: 'The East Branch, crossed at Jefferis Ford'}
+  works:
+    - {path: [[-75.7106, 39.8445], [-75.665, 39.857], [-75.64, 39.863], [-75.5915, 39.8718], [-75.565, 39.873], [-75.552, 39.871]], width: 18, id: great-road, name: The Great Road from Kennett Square to Chester}
+  units:
+    - {side: held, type: infantry, at: [-75.5862, 39.8708], width: 700, depth: 220, facing: 90, id: knyphausen, name: 'Knyphausen’s column, across Chadds Ford'}
+    - {side: usa, type: infantry, at: [-75.5655, 39.8925], width: 650, depth: 140, facing: 330, id: greene, name: 'Greene’s division and the remains of three divisions, south of Dilworth'}
+    - {side: usa, type: light, at: [-75.5705, 39.8975], width: 220, depth: 50, facing: 330, id: weedon, name: Weedon’s brigade on the road outside Dilworth}
+    - {side: held, type: infantry, at: [-75.5805, 39.9015], width: 700, depth: 160, facing: 150, id: pursuit, name: British grenadiers and the 4th Brigade pressing from Birmingham}
+  arrows:
+    - {side: held, path: [[-75.6015, 39.8712], [-75.5895, 39.8712]], width: 140, id: knyphausen-crossing, name: Knyphausen crosses at Chadds Ford}
+    - {side: usa, path: [[-75.5845, 39.8665], [-75.5715, 39.865], [-75.5565, 39.866]], width: 110, id: wayne-retreat, name: Wayne and Maxwell break and lose most of their guns, style: dashed}
+    - {side: usa, path: [[-75.571, 39.8065], [-75.5585, 39.818]], width: 90, id: armstrong-retreat, name: Armstrong’s militia leave Pyle’s Ford, style: dashed}
+    - {side: held, path: [[-75.5815, 39.9], [-75.5728, 39.896]], width: 100, id: british-pursuit, name: 'The pursuit, held for nearly an hour'}
+    - {side: usa, path: [[-75.5625, 39.888], [-75.5555, 39.8775], [-75.5505, 39.8745]], width: 120, id: retreat-chester, name: At dark the army retreats to Chester, style: dashed}
+  clashes:
+    - [-75.5895, 39.8705]
+    - [-75.5698, 39.8952]
+images:
+  brandywine-pyle:
+    file: brandywine-pyle.jpg
+    caption: "The Nation Makers, Continental soldiers at Brandywine, painting by Howard Pyle, 1903, Brandywine River Museum"
+    credit: "Wikimedia Commons, Howard Pyle, Public domain (PyleNationmakersPre1911.jpg)"

@@ -1,4 +1,4 @@
-Mustafa is born in Selanik, today's Thessaloniki, in 1881, the son of Ali Rıza, a customs official turned timber merchant, and Zübeyde. The city is the Ottoman Empire's window on Europe: a port of Turks, Greeks, Jews, Bulgarians and Levantines, with railways, consulates and newspapers.
+Mustafa is born in Selanik, today's Thessaloniki, in 1881. His father, Ali Rıza, is a minor official who later becomes a timber merchant, and his mother is Zübeyde. Selanik is the largest port of the Ottoman Balkans, with Muslim, Jewish, Greek and Bulgarian communities and a railway to Europe.
 
 @image salonica-birth-house
 

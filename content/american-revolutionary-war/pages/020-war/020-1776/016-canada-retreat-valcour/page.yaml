@@ -1,0 +1,32 @@
+date: "11 October 1776"
+title: "Valcour Island: the line in the strait"
+bbox: [-73.462, 44.58, -73.372, 44.64]
+zones: []
+routes: []
+markers: [canada-retreat-valcour-arnold, canada-retreat-valcour-pringle, canada-retreat-valcour-philadelphia]
+sources: ['James L. Nelson, Benedict Arnold’s Navy (2006).', 'Justin H. Smith, Our Struggle for the Fourteenth Colony (1907).']
+emblem:
+  kind: battle-plan
+  water:
+    - {area: [[-73.455, 44.7], [-73.455, 44.68], [-73.446, 44.66], [-73.441, 44.645], [-73.434, 44.632], [-73.436, 44.62], [-73.441, 44.605], [-73.446, 44.59], [-73.452, 44.575], [-73.46, 44.56], [-73.398, 44.56], &ref_1 [-73.399, 44.595], [-73.411, 44.6], [-73.415, 44.613], [-73.411, 44.629], &ref_0 [-73.398, 44.64], [-73.398, 44.7]], id: lake-champlain, name: Lake Champlain}
+    - {area: [[-73.398, 44.7], *ref_0, [-73.386, 44.632], [-73.38, 44.617], [-73.386, 44.602], *ref_1, [-73.398, 44.56], [-73.3, 44.56], [-73.3, 44.7]], id: lake-champlain, name: Lake Champlain}
+  units:
+    - {side: usa, type: ships, at: [-73.4255, 44.6105], width: 1500, depth: 220, facing: 180, count: 13, bow: -220, id: american-line, name: 'Arnold’s 15 vessels in a crescent across the strait, about 74 guns'}
+    - {side: held, type: ships, at: [-73.4245, 44.602], width: 1300, depth: 330, facing: 0, count: 16, rows: 2, id: gunboats, name: 'British gunboats, 28 in all, each with one cannon'}
+    - {side: held, type: ships, at: [-73.417, 44.6045], width: 200, depth: 200, facing: 330, count: 1, id: carleton, name: 'The schooner Carleton, 12 guns, badly damaged'}
+    - {side: held, type: ships, at: [-73.42, 44.5935], width: 260, depth: 260, facing: 350, count: 1, id: inflexible, name: 'The ship sloop Inflexible, 18 guns, which comes up at sunset'}
+    - {side: held, type: ships, at: [-73.393, 44.586], width: 500, depth: 260, facing: 330, count: 2, id: thunderer-maria, name: 'Thunderer and Maria, held back by the headwind'}
+    - {side: usa, type: ships, at: [-73.404, 44.5975], width: 200, depth: 200, facing: 200, count: 1, id: royal-savage, name: 'Royal Savage, aground on the island and burned'}
+    - {side: '#8d6e3f', type: light, at: [-73.412, 44.617], width: 500, depth: 80, facing: 270, id: native-island, name: Native allies of the British landed on the island}
+    - {side: '#8d6e3f', type: light, at: [-73.442, 44.601], width: 500, depth: 80, facing: 90, id: native-shore, name: Native allies of the British on the western shore}
+  arrows:
+    - {side: held, path: [[-73.36, 44.665], [-73.366, 44.625], [-73.378, 44.597], [-73.4, 44.586], [-73.418, 44.59]], width: 160, id: british-approach, name: 'Carleton’s fleet sails south past the island, then turns up into the strait'}
+  clashes:
+    - {at: [-73.425, 44.6065], size: 200}
+    - {at: [-73.418, 44.6075], size: 160}
+    - {at: [-73.432, 44.606], size: 160}
+images:
+  valcour-american-line-randle:
+    file: valcour-american-line-randle.jpg
+    caption: "The American vessels in Valcour Bay before the battle, watercolour by Charles Randle, 1776"
+    credit: "Wikimedia Commons, Charles Randle, Public domain (Valcour canadianarchive c013202k.jpg)"

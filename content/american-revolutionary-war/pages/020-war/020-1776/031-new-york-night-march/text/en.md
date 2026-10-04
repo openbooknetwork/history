@@ -1,0 +1,5 @@
+From 22 August the British land at Gravesend Bay, and by the 25th they have about 20,000 men on Long Island, Hessians among them. The Americans hold the wooded Guan Heights in front of their Brooklyn lines, with Lord Stirling on the Gowanus Road, John Sullivan at the Flatbush and Bedford passes, and Israel Putnam with about 6,000 men in the fortified lines on Brooklyn Heights. The Jamaica Pass, farthest to the east, is watched by five militia officers on horseback.
+
+@image howards-tavern-1776
+
+Local Loyalists tell Clinton about the pass. At 9 p.m. on 26 August about 10,000 men under Clinton, Cornwallis, Howe and Hugh Percy march out of Flatlands, their campfires left burning, and head north-east and then north through the night. Near Howard’s Tavern they force the tavern keeper to guide them, capture the five officers without a shot, and by dawn they are through the pass. Meanwhile James Grant’s 4,000 British and Hessian troops attack up the Gowanus Road at about 1 a.m. to hold the Americans’ attention.

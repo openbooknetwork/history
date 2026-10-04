@@ -2,7 +2,7 @@ The Greek army's full summer offensive opens on 10 July 1921 with superior numbe
 
 @image greek-eskisehir-1921
 
-On 5 August the Assembly passes the commander in chief law, giving Mustafa Kemal its own powers for three months. He answers with the "national obligations" decree: every household gives the army a share of what it has, from food to underwear.
+On 5 August the Assembly passes the commander in chief law, which gives Mustafa Kemal its own powers for three months. He issues the "national obligations" orders: each household must give the army a share of its food and cloth, and one set of underwear and a pair of sandals.
 
 @image greek-parade-eskisehir
 

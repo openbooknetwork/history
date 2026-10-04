@@ -1,0 +1,33 @@
+when: { from: 1915-08-06 }
+date: "6 to 8 August 1915"
+title: "Anafartalar: the August offensive"
+bbox: [26.229, 40.24, 26.339, 40.335]
+zones: []
+routes: []
+markers: [suvla-offensive-lala-baba, suvla-offensive-apex, suvla-offensive-971]
+sources:
+  - "Christopher Pugsley, Gallipoli: The New Zealand Story (1984)."
+  - "Andrew Mango, Atatürk (1999)."
+emblem:
+  kind: battle-plan
+  water:
+    - {area: [[26.246, 40.3], [26.25, 40.305], [26.258, 40.304], [26.264, 40.301], [26.265, 40.295], [26.26, 40.29], [26.252, 40.288], [26.247, 40.292]], id: salt-lake, name: 'The salt lake behind Suvla Bay, mostly dry in August'}
+  units:
+    - {side: british, type: ships, at: [26.23, 40.2795], width: 1400, depth: 400, facing: 90, id: b-beach-ships, name: Destroyers and lighters off B Beach, count: 6}
+    - {side: british, type: ships, at: [26.2225, 40.3105], width: 900, depth: 350, facing: 110, id: a-beach-ships, name: Destroyers in Suvla Bay, count: 4}
+    - {side: british, type: infantry, at: [26.2515, 40.2835], width: 700, depth: 150, facing: 70, id: eleventh-division, name: 'British 11th Division, round Lala Baba'}
+    - {side: british, type: infantry, at: [26.264, 40.3065], width: 700, depth: 150, facing: 100, id: thirty-fourth-brigade, name: '34th Brigade, between the beach and the salt lake'}
+    - {side: british, type: infantry, at: [26.279, 40.3255], width: 800, depth: 140, facing: 90, id: manchesters, name: 11th Manchesters on the Kireçtepe ridge}
+    - {side: republic, type: light, at: [26.282, 40.293], width: 1200, depth: 70, facing: 270, id: willmer, name: Major Willmer’s small detachment}
+    - {side: british, type: infantry, at: [26.3025, 40.2522], width: 280, depth: 100, facing: 100, id: wellingtons, name: 'Wellington Battalion on the summit of Conkbayırı, 8 August'}
+    - {side: republic, type: infantry, at: [26.2945, 40.257], width: 900, depth: 150, facing: 250, id: nineteenth-division, name: Mustafa Kemal’s 19th Division on Düztepe and Kılıçbayır}
+  arrows:
+    - {side: british, path: [[26.277, 40.262], [26.285, 40.26], [26.292, 40.256], [26.298, 40.2535]], width: 80, id: right-column, name: Right assaulting column up the spur to the Apex}
+    - {side: british, path: [[26.279, 40.269], [26.292, 40.27], [26.304, 40.266], [26.311, 40.261]], width: 80, id: left-column, name: Left assaulting column towards Hill Q and Kocaçimen Tepe}
+    - {side: british, path: [[26.239, 40.279], [26.247, 40.2815]], width: 70, id: b-beach, name: 'The landing at B Beach, night of 6 August'}
+    - {side: british, path: [[26.227, 40.3085], [26.236, 40.3075]], width: 70, id: a-beach, name: The landing at A Beach}
+images:
+  suvla-wilkinson:
+    file: suvla-wilkinson.jpg
+    caption: "The landing in Suvla Bay, early morning, 7 August 1915, painting by Norman Wilkinson"
+    credit: "Wikimedia Commons, Norman Wilkinson, Public domain (The Landing in Suvla Bay- Early Morning, 7th August 1915 Art.IWMART2451.jpg)"

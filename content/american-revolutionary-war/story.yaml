@@ -1,0 +1,31 @@
+# One story: a timeline shown on one map.
+id: american-revolutionary-war
+title: "The American Revolution"
+summary: "From the Proclamation Line of 1763 through Lexington, the Declaration and Yorktown to the Constitution and the thirteen ratifications."
+cover: cover.jpg              # Trumbull's Declaration of Independence, 1818, shown on the main page
+languages: [en, tr]
+default_language: en
+
+# Map extent for the border data and the opening view: [west, south, east, north]. Reaches the Mississippi, Florida, Quebec and Nova Scotia.
+extent: [-97, 24.5, -59, 50]
+# Countries whose land the zones are clipped to. Natural Earth names.
+land: [United States of America, Canada]
+# Countries drawn with borders. Everything else inside the extent is left out.
+countries: [United States of America, Canada, Mexico, Cuba, Bahamas, Bermuda]
+
+# Zone families. A zone subtracts every zone from a family with a lower priority number.
+# Zones in the same family never cut each other, so one family can hold several dated shapes.
+families:
+  held:      { priority: 0, color: "#c62828", color_dark: "#ff6b6b", pattern: cross }   # British-held ground during the war
+  ratified:  { priority: 1, color: "#1f5fbf", color_dark: "#5aa0ff" }                   # states that have ratified the Constitution
+  territory: { priority: 2, color: "#1e8c6e", color_dark: "#4fd1a8", pattern: hatch }   # the Northwest Territory
+  pending:   { priority: 3, color: "#8c8c8c", color_dark: "#bdbdbd", pattern: dots }    # the Union where the Constitution is not yet ratified
+  usa:       { priority: 3, color: "#2d7dd2", color_dark: "#6fb6ff" }                   # the United States
+  colonies:  { priority: 4, color: "#e07b24", color_dark: "#ffa149" }                   # the thirteen colonies under the Crown
+  crown:     { priority: 5, color: "#8e44ad", color_dark: "#c38fe0" }                   # other British possessions: Quebec, Nova Scotia, the Floridas
+  reserve:   { priority: 6, color: "#4f9d3a", color_dark: "#8fd36f", pattern: hatch }   # the Indian Reserve of 1763
+  spanish:   { priority: 7, color: "#d4a017", color_dark: "#f2c94c", pattern: dots }               # Spanish Louisiana and Florida
+# Corner rounding passes applied to every hand drawn zone before the clip.
+smoothing: 4
+# Battle plans are drawn at the scale of the field, a few kilometres across.
+max_zoom: 16

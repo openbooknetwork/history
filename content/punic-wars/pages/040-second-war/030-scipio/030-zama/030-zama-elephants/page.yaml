@@ -1,0 +1,43 @@
+date: "October 202 BC"
+title: "The elephants and the cavalry"
+bbox: [9.42022, 36.27267, 9.47595, 36.32513]
+zones: []
+routes: []
+markers: [zama-elephants-lanes, zama-elephants-masinissa, zama-elephants-laelius, zama-elephants-velites]
+sources: ['Polybius, Histories, book 15, 12.', 'Livy, History of Rome, book 30, 33.', 'Adrian Goldsworthy, The Fall of Carthage (2006).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: rome, type: infantry, at: [9.44296, 36.29098], width: 230, depth: 90, facing: 90, id: hastati, name: 'Hastati, maniples in columns with open lanes'}
+    - {side: rome, type: infantry, at: [9.44296, 36.29415], width: 230, depth: 90, facing: 90, id: hastati, name: 'Hastati, maniples in columns with open lanes'}
+    - {side: rome, type: infantry, at: [9.44296, 36.29732], width: 230, depth: 90, facing: 90, id: hastati, name: 'Hastati, maniples in columns with open lanes'}
+    - {side: rome, type: infantry, at: [9.44296, 36.30048], width: 230, depth: 90, facing: 90, id: hastati, name: 'Hastati, maniples in columns with open lanes'}
+    - {side: rome, type: infantry, at: [9.44296, 36.30365], width: 230, depth: 90, facing: 90, id: hastati, name: 'Hastati, maniples in columns with open lanes'}
+    - {side: rome, type: infantry, at: [9.44296, 36.30682], width: 230, depth: 90, facing: 90, id: hastati, name: 'Hastati, maniples in columns with open lanes'}
+    - {side: rome, type: infantry, at: [9.4414, 36.29098], width: 230, depth: 90, facing: 90, id: principes, name: Principes straight behind the hastati}
+    - {side: rome, type: infantry, at: [9.4414, 36.29415], width: 230, depth: 90, facing: 90, id: principes, name: Principes straight behind the hastati}
+    - {side: rome, type: infantry, at: [9.4414, 36.29732], width: 230, depth: 90, facing: 90, id: principes, name: Principes straight behind the hastati}
+    - {side: rome, type: infantry, at: [9.4414, 36.30048], width: 230, depth: 90, facing: 90, id: principes, name: Principes straight behind the hastati}
+    - {side: rome, type: infantry, at: [9.4414, 36.30365], width: 230, depth: 90, facing: 90, id: principes, name: Principes straight behind the hastati}
+    - {side: rome, type: infantry, at: [9.4414, 36.30682], width: 230, depth: 90, facing: 90, id: principes, name: Principes straight behind the hastati}
+    - {side: rome, type: infantry, at: [9.43961, 36.2989], width: 2000, depth: 110, facing: 90, id: triarii, name: Triarii}
+    - {side: carthage, type: elephants, at: [9.44753, 36.30207], width: 900, depth: 80, facing: 270, count: 7, id: elephants, name: Elephants charging the Roman infantry}
+    - {side: carthage, type: infantry, at: [9.45254, 36.2989], width: 2200, depth: 150, facing: 270, id: first-line, name: 'First line: 12,000 mercenaries, Ligurians, Gauls, Balearic slingers and Moors'}
+    - {side: carthage, type: infantry, at: [9.45477, 36.2989], width: 2200, depth: 150, facing: 270, id: second-line, name: 'Second line: Carthaginian and African levies'}
+    - {side: carthage, type: infantry, at: [9.46101, 36.2989], width: 2600, depth: 200, facing: 270, id: veterans, name: 'Third line: Hannibal’s veterans from Italy'}
+    - {side: numidia, type: cavalry, at: [9.44809, 36.28171], width: 600, depth: 200, facing: 135, id: masinissa, name: Masinissa charges the disordered Numidians}
+    - {side: rome, type: cavalry, at: [9.44809, 36.31564], width: 450, depth: 180, facing: 45, id: laelius, name: Laelius charges the Carthaginian cavalry}
+  arrows:
+    - {side: carthage, path: [[9.44809, 36.29573], [9.44229, 36.29573], [9.43638, 36.29573]], width: 70, id: lanes, name: Elephants run down the lanes}
+    - {side: carthage, path: [[9.44809, 36.30523], [9.44229, 36.30523], [9.43638, 36.30523]], width: 70, id: lanes, name: Elephants run down the lanes}
+    - {side: carthage, path: [[9.45031, 36.29166], [9.4531, 36.28759], [9.457, 36.28352]], width: 80, style: dashed, id: elephants-turn, name: Elephants turn back through their own cavalry}
+    - {side: numidia, path: [[9.45087, 36.28216], [9.45812, 36.28126], [9.46926, 36.279]], width: 110, id: masinissa-pursuit, name: Masinissa drives the Numidian horse from the field}
+    - {side: rome, path: [[9.45087, 36.31518], [9.45812, 36.31654], [9.46926, 36.3188]], width: 100, id: laelius-pursuit, name: Laelius sweeps the Carthaginian cavalry away}
+  clashes:
+    - [9.44385, 36.29098]
+    - [9.4453, 36.31383]
+images:
+  zama-cort:
+    file: zama-cort.jpg
+    caption: "The battle between Scipio and Hannibal at Zama, engraving by Cornelis Cort after Giulio Romano, 1550 to 1578"
+    credit: "Wikimedia Commons, Cornelis Cort after Giulio Romano, CC0 (The Battle Between Scipio and Hannibal at Zama MET DP874322.jpg)"

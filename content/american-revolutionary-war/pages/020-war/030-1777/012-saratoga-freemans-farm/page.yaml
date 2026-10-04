@@ -1,0 +1,37 @@
+date: "19 September 1777, afternoon"
+title: "Saratoga: Freeman’s Farm"
+bbox: [-73.662, 43.002, -73.62, 43.026]
+zones: []
+routes: []
+markers: [saratoga-freemans-farm-phillips, saratoga-freemans-farm-morgan, saratoga-freemans-farm-riedesel]
+sources: ['Richard M. Ketchum, Saratoga (1997).', 'Rupert Furneaux, The Battle of Saratoga (1971).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-73.572, 43.125], [-73.577, 43.1], [-73.585, 43.075], [-73.595, 43.05], [-73.607, 43.025], [-73.6145, 43.005], [-73.62, 42.985], [-73.625, 42.965]], width: 200, id: hudson, name: The Hudson River}
+    - {path: [[-73.662, 43.0067], [-73.648, 43.0054], [-73.635, 43.007], [-73.624, 43.008], [-73.6165, 43.0086]], width: 25, id: mill-creek, name: Mill Creek}
+  works:
+    - {side: usa, path: [[-73.6195, 43.0003], [-73.627, 43.0022], [-73.6335, 43.0038], [-73.6405, 43.0018], [-73.6445, 42.9975]], width: 45, id: american-works, name: The American fortifications on Bemis Heights}
+  units:
+    - {side: held, type: infantry, at: [-73.6463, 43.0152], width: 220, depth: 60, facing: 180, id: 21st, name: 'The 21st Foot, right of Hamilton’s line'}
+    - {side: held, type: infantry, at: [-73.6436, 43.0155], width: 220, depth: 60, facing: 180, id: 62nd, name: 'The 62nd Foot, cut down to the size of a company'}
+    - {side: held, type: infantry, at: [-73.6409, 43.0152], width: 220, depth: 60, facing: 180, id: 20th, name: 'The 20th Foot, brought in by Phillips'}
+    - {side: held, type: infantry, at: [-73.6436, 43.0182], width: 220, depth: 60, facing: 180, id: 9th, name: The 9th Foot in reserve}
+    - {side: held, type: infantry, at: [-73.6545, 43.0172], width: 350, depth: 90, facing: 150, id: fraser, name: Fraser’s light infantry and grenadiers on the American left}
+    - {side: usa, type: light, at: [-73.6468, 43.0112], width: 300, depth: 60, facing: 0, id: morgan, name: 'Morgan’s riflemen, shooting down officers and gunners'}
+    - {side: usa, type: infantry, at: [-73.6428, 43.0108], width: 280, depth: 70, facing: 0, id: new-hampshire, name: The 1st and 3rd New Hampshire}
+    - {side: usa, type: infantry, at: [-73.6385, 43.0112], width: 320, depth: 70, facing: 345, id: poor, name: 'Poor’s brigade: New York, the 1st Canadian and Connecticut militia'}
+    - {side: usa, type: infantry, at: [-73.6525, 43.0118], width: 320, depth: 70, facing: 30, id: learned, name: 'Learned’s brigade, sent against Fraser'}
+    - {side: '#9c6b30', type: infantry, at: [-73.6358, 43.0142], width: 280, depth: 80, facing: 235, id: riedesel, name: Riedesel’s Germans strike the American right}
+  arrows:
+    - {side: '#9c6b30', path: [[-73.6205, 43.0235], [-73.6295, 43.0185], [-73.6345, 43.0152]], width: 90, id: riedesel-march, name: Riedesel comes up from the river late in the afternoon}
+    - {side: usa, path: [[-73.6402, 43.0045], [-73.6418, 43.0085]], width: 70, id: reinforcements, name: Reinforcements from the works}
+  clashes:
+    - [-73.6436, 43.0132]
+    - [-73.6372, 43.0128]
+    - [-73.6532, 43.0146]
+images:
+  saratoga-freemans-farm:
+    file: saratoga-freemans-farm.jpg
+    caption: "The fields of Freeman’s Farm today, with the park’s marker for the battle of 19 September"
+    credit: "Wikimedia Commons, unknown author, CC BY-SA 2.5 (Saratoga-freeman.jpg)"

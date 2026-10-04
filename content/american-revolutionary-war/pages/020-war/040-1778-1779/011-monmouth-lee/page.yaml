@@ -1,0 +1,35 @@
+when: {from: '1778-06-28'}
+date: "28 June 1778, morning"
+title: "Monmouth: Lee’s advance"
+bbox: [-74.362, 40.243, -74.255, 40.3]
+zones: []
+routes: []
+markers: [monmouth-lee-lee, monmouth-lee-courthouse, monmouth-lee-clinton, monmouth-lee-washington]
+sources: ['Mark Edward Lender and Garry Wheeler Stone, Fatal Sunday (2016).', 'Joseph G. Bilby and Katherine Bilby Jenkins, Monmouth Court House (2010).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-74.338, 40.2555], [-74.328, 40.2588], [-74.3165, 40.2625], [-74.309, 40.2598], [-74.3, 40.2572], [-74.29, 40.2555]], width: 30, id: middle-brook, name: Spotswood Middle Brook}
+    - {path: [[-74.333, 40.2845], [-74.318, 40.2795], [-74.303, 40.2755], [-74.29, 40.2722]], width: 25, id: north-brook, name: Spotswood North Brook}
+  works:
+    - {path: [[-74.3582, 40.2973], [-74.345, 40.288], [-74.333, 40.278], [-74.3225, 40.2672], [-74.3165, 40.2625], [-74.305, 40.2612], [-74.29, 40.2608], [-74.2738, 40.2601]], width: 16, id: englishtown-road, name: The road from Englishtown to Monmouth Court House}
+    - {path: [[-74.2738, 40.2601], [-74.262, 40.268], [-74.25, 40.276]], width: 16, id: middletown-road, name: The road to Middletown}
+  units:
+    - {side: held, type: infantry, at: [-74.2652, 40.2668], width: 600, depth: 150, facing: 245, id: rearguard, name: 'British rearguard: light infantry, dragoons and the Queen’s Rangers'}
+    - {side: held, type: infantry, at: [-74.2782, 40.2682], width: 450, depth: 160, facing: 255, id: guards, name: 'Clinton’s first division turns back: the Guards'}
+    - {side: held, type: infantry, at: [-74.2792, 40.2618], width: 450, depth: 160, facing: 265, id: grenadiers, name: 'Clinton’s first division turns back: the Grenadiers'}
+    - {side: usa, type: infantry, at: [-74.2862, 40.264], width: 500, depth: 120, facing: 70, id: wayne, name: 'Wayne’s lead element, about 550 men and four guns'}
+    - {side: usa, type: infantry, at: [-74.2948, 40.2665], width: 700, depth: 140, facing: 90, id: scott-maxwell, name: 'Scott’s and Maxwell’s detachments, out of touch with Lee'}
+    - {side: usa, type: infantry, at: [-74.2888, 40.2565], width: 500, depth: 120, facing: 70, id: lafayette, name: Lafayette on the right}
+    - {side: usa, type: infantry, at: [-74.2925, 40.2728], width: 300, depth: 100, facing: 90, id: jackson, name: Jackson’s regiment by the North Brook}
+  arrows:
+    - {side: held, path: [[-74.2762, 40.2688], [-74.2882, 40.2688]], width: 120, id: guards-advance, name: The Guards march west}
+    - {side: held, path: [[-74.2772, 40.2614], [-74.2912, 40.2592]], width: 120, id: grenadier-advance, name: The Grenadiers strike at the American right}
+    - {side: usa, path: [[-74.2965, 40.2635], [-74.3065, 40.2622], [-74.316, 40.2627]], width: 140, id: retreat, name: Lee’s vanguard falls back across the Spotswood Middle Brook, style: dashed}
+    - {side: usa, path: [[-74.352, 40.293], [-74.337, 40.2805], [-74.3265, 40.2705]], width: 160, id: main-body, name: Washington’s main body from Englishtown}
+    - {side: usa, path: [[-74.3315, 40.2765], [-74.3305, 40.2625], [-74.3185, 40.2535]], width: 110, id: greene-woodford, name: Greene takes Woodford’s brigade south to cover the right}
+images:
+  monmouth-charles-lee:
+    file: monmouth-charles-lee.jpg
+    caption: "Charles Lee, major general of the Continental Army, engraving by Johann Michael Probst"
+    credit: "Wikimedia Commons, Johann Michael Probst, Public domain (Charles Lee Esq'r. - major general of the Continental-Army in America.jpg)"

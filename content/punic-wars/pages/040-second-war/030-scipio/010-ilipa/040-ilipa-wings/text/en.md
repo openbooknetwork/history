@@ -1,0 +1,3 @@
+Near the enemy line the legions on each wing turn outwards, march to the flank and wheel back into line, so that they strike the Carthaginian Iberians at an angle. Scipio leads the right wing, Silanus and Lucius Marcius the left. The cavalry and velites go round further still against the elephants and cavalry, and the elephants, driven wild by javelins and trumpets, trample their own horsemen.
+
+The Africans in the centre cannot turn to help the wings without exposing themselves to the Roman Iberians facing them, and stand idle. When the wings break, the whole army falls back towards its camp, first in order and then in flight once Scipio sends his Iberians after it. Polybius writes that only a sudden downpour stops the Romans from storming the camp.

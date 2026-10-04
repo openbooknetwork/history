@@ -1,19 +1,24 @@
 // Search Wikimedia Commons for each page's queries and download candidate photos for review.
-//   node scripts/fetch-candidates.mjs [story] [--limit 6] [--pages a,b]   (--pages refetches those pages)
-// Reads scripts/image-queries.yaml, writes content/<story>/.candidates/<page>/ and .candidates/index.yaml.
+//   node scripts/fetch-candidates.mjs [story] [--limit 6] [--pages a,b] [--queries file]   (--pages refetches those pages)
+// Reads scripts/image-queries.yaml or the --queries file, writes content/<story>/.candidates/<page>/ and .candidates/index.yaml.
 import fs from 'fs';
 import path from 'path';
 import * as yaml from 'js-yaml';
 
 const story = process.argv[2] && !process.argv[2].startsWith('--') ? process.argv[2] : 'ataturk-turkish-republic';
-const limit = Number(process.argv[process.argv.indexOf('--limit') + 1]) || 6;
-const only = process.argv.includes('--pages') ? process.argv[process.argv.indexOf('--pages') + 1].split(',') : null;
-const queries = yaml.load(fs.readFileSync('scripts/image-queries.yaml', 'utf8'))[story];
-if (!queries) { console.error(`no queries for story "${story}" in scripts/image-queries.yaml`); process.exit(2); }
+const arg = name => process.argv.includes(name) ? process.argv[process.argv.indexOf(name) + 1] : null;
+const limit = Number(arg('--limit')) || 6;
+const only = arg('--pages')?.split(',') ?? null;
+const queriesFile = arg('--queries') ?? 'scripts/image-queries.yaml';
+const queries = yaml.load(fs.readFileSync(queriesFile, 'utf8'))[story];
+if (!queries) { console.error(`no queries for story "${story}" in ${queriesFile}`); process.exit(2); }
 const outDir = path.join('content', story, '.candidates');
 fs.mkdirSync(outDir, { recursive: true });
 
 const API = 'https://commons.wikimedia.org/w/api.php';
+const BITMAP = /\.(jpe?g|png|tiff?)$/i;
+// An article is a Wikipedia URL or an English Wikipedia title
+const articleApi = a => { const m = a.match(/^https?:\/\/([a-z-]+)\.wikipedia\.org\/wiki\/([^?#]+)/); return m ? [`https://${m[1]}.wikipedia.org/w/api.php`, decodeURIComponent(m[2]).replace(/_/g, ' ')] : ['https://en.wikipedia.org/w/api.php', a]; };
 const headers = { 'User-Agent': 'harita-image-fetch/0.1 (history map build; contact via repo)' };
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 // Commons answers 429 when asked too fast: wait as told, or doubling from two seconds, up to six tries
@@ -28,7 +33,7 @@ async function get(url) {
     throw new Error(`${res.status} for ${url}`);
   }
 }
-const api = async params => (await get(API + '?' + new URLSearchParams({ format: 'json', ...params }))).json();
+const api = async (params, base = API) => (await get(base + '?' + new URLSearchParams({ format: 'json', ...params }))).json();
 const strip = s => String(s ?? '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
 
 // resume: pages already in index.yaml are kept and skipped
@@ -42,27 +47,44 @@ for (const [page, spec] of Object.entries(queries)) {
   if (index[page]) { console.log(`${page}: done earlier, skipping`); continue; }
   const terms = Array.isArray(spec) ? spec : spec.queries ?? [];
   const files = Array.isArray(spec) ? [] : spec.files ?? [];
+  const articles = Array.isArray(spec) ? [] : spec.articles ?? [];
   const titles = [...files.map(f => f.startsWith('File:') ? f : 'File:' + f)];
-  for (const q of terms) {
-    const r = await api({ action: 'query', list: 'search', srsearch: `${q} filetype:bitmap`, srnamespace: 6, srlimit: limit * 2 });
-    for (const hit of r.query?.search ?? []) if (/\.(jpe?g|png|tiff?)$/i.test(hit.title)) titles.push(hit.title);
+  // Every bitmap an article uses. Files local to Wikipedia, usually non-free, have no Commons record and drop out below.
+  for (const a of articles) {
+    const [base, title] = articleApi(a);
+    const r = await api({ action: 'query', prop: 'images', titles: title, imlimit: 'max', redirects: 1 }, base);
+    const pages = Object.values(r.query?.pages ?? {});
+    if (!pages.length || pages.some(p => 'missing' in p)) console.log(`  no article "${title}"`);
+    for (const p of pages) for (const im of p.images ?? []) if (BITMAP.test(im.title)) titles.push(im.title);
     await sleep(1000);
   }
-  const picked = [...new Set(titles)].filter(t => !seen.has(t)).slice(0, limit * Math.max(1, terms.length));
+  for (const q of terms) {
+    const r = await api({ action: 'query', list: 'search', srsearch: `${q} filetype:bitmap`, srnamespace: 6, srlimit: limit * 2 });
+    const hits = (r.query?.search ?? []).map(h => h.title).filter(t => BITMAP.test(t) && !seen.has(t) && !titles.includes(t));
+    titles.push(...hits.slice(0, limit));
+    await sleep(1000);
+  }
+  const picked = [...new Set(titles)].filter(t => !seen.has(t));
   if (!picked.length) { console.log(`${page}: nothing found`); continue; }
-  const info = await api({ action: 'query', prop: 'imageinfo', titles: picked.join('|'), iiprop: 'url|extmetadata|size', iiurlwidth: 1200 });
+  const infoPages = [];
+  for (let i = 0; i < picked.length; i += 50) { // the API takes at most 50 titles per call
+    const info = await api({ action: 'query', prop: 'imageinfo', titles: picked.slice(i, i + 50).join('|'), iiprop: 'url|extmetadata|size', iiurlwidth: 1200 });
+    infoPages.push(...Object.values(info.query?.pages ?? {}));
+  }
   const dir = path.join(outDir, page);
   fs.mkdirSync(dir, { recursive: true });
   index[page] = [];
   let n = 0;
-  for (const p of Object.values(info.query?.pages ?? {})) {
+  for (const p of infoPages) {
     const ii = p.imageinfo?.[0]; if (!ii) continue;
     const meta = ii.extmetadata ?? {};
     const license = strip(meta.LicenseShortName?.value);
-    const file = `${String(++n).padStart(2, '0')}-${p.title.replace(/^File:/, '').replace(/[^\w.-]+/g, '_').slice(0, 80)}`;
-    const name = file.replace(/\.(tiff?|png)$/i, '.jpg');
+    // The extension comes from the downloaded thumbnail, so a long title cut to 80 characters keeps one
+    const url = ii.thumburl ?? ii.url, ext = path.extname(new URL(url).pathname).toLowerCase();
+    const base = p.title.replace(/^File:/, '').replace(/\.\w+$/, '').replace(/[^\w.-]+/g, '_').slice(0, 80);
+    const name = `${String(++n).padStart(2, '0')}-${base}${ext}`;
     try {
-      const img = await get(ii.thumburl ?? ii.url);
+      const img = await get(url);
       fs.writeFileSync(path.join(dir, name), Buffer.from(await img.arrayBuffer()));
     } catch (e) { console.log(`  skip ${p.title}: ${e.message}`); continue; }
     seen.add(p.title);

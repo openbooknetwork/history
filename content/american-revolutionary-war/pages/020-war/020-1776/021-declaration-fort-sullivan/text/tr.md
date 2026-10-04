@@ -1,0 +1,5 @@
+Fort Sullivan, dört mil kadar uzunluğundaki kumluk Sullivan Adası’nın güney ucundan Charleston limanına giren kanalı korur. Yalnızca denize bakan duvarı tamamlanmıştır, içi kumla doldurulmuş palmetto kütüklerinden yapılmıştır ve 31 top taşır. Albay William Moultrie onu 2. South Carolina Alayı ile 4. South Carolina Topçusu’ndan 435 kişiyle savunur. Charleston’da komutayı tutan General Charles Lee kaleye mezbaha demiştir.
+
+@image charleston-bar-plan-1776
+
+Saat 9 dolaylarında Amiral Peter Parker’ın filosu ilerler. 50 toplu Bristol ve Experiment, Active ve Solebay ile birlikte kaleden 400 yarda kadar açıkta demirler ve borda ateşine başlar, Thunder havan gemisi ise bir buçuk mil kadar uzaktan ateş eder. Süngerimsi palmetto kütükleri gülleleri parçalanmadan emer, barutu az olan Moultrie’nin topçuları yavaş ateş eder ve iki büyük gemiyi hedef alır. Kuzeydeki Long Island’da General Henry Clinton’ın 2.200 askeri sandallarla geçidi geçmeye çalışır ve Albay William Thomson’ın tüfekçileri ile topları tarafından geri püskürtülür.

@@ -1,0 +1,26 @@
+when: {from: '1776-12-26'}
+date: "Night of 25 to 26 December 1776"
+title: "Trenton: the crossing"
+bbox: [-74.905, 40.195, -74.735, 40.315]
+zones: []
+routes: []
+markers: [trenton-crossing-washington, trenton-crossing-birmingham, trenton-crossing-rall, trenton-crossing-ewing]
+sources: ['David Hackett Fischer, Washington’s Crossing (2004).', 'Richard M. Ketchum, The Winter Soldiers (1973).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-74.912, 40.338], [-74.886, 40.313], [-74.868, 40.2965], [-74.838, 40.264], [-74.818, 40.25], [-74.797, 40.236], [-74.783, 40.226], [-74.778, 40.2195], [-74.7765, 40.207], [-74.771, 40.195], [-74.764, 40.183]], width: 220, id: delaware, name: The Delaware River}
+    - {path: [[-74.73, 40.226], [-74.741, 40.2232], [-74.749, 40.2207], [-74.756, 40.2178], [-74.7605, 40.2158], [-74.766, 40.2125], [-74.771, 40.21], [-74.7752, 40.2088]], width: 60, id: assunpink, name: Assunpink Creek}
+  units:
+    - {side: usa, type: ships, at: [-74.866, 40.2958], width: 500, depth: 260, facing: 120, id: durham-boats, name: Durham boats rowed across by Glover’s Marblehead men, count: 6, rows: 2}
+    - {side: usa, type: infantry, at: [-74.8575, 40.2925], width: 700, depth: 250, facing: 150, id: main-force, name: 'Washington’s main force, 2,400 men, landed by 3 am'}
+    - {side: '#9c6b30', type: infantry, at: [-74.764, 40.221], width: 700, depth: 400, facing: 0, id: rall-brigade, name: 'Rall’s Hessian brigade, 1,500, in winter quarters'}
+    - {side: usa, type: infantry, at: [-74.7845, 40.2055], width: 400, depth: 120, facing: 90, id: ewing, name: 'Ewing’s 700 militia, kept back by the ice'}
+  arrows:
+    - {side: usa, path: [[-74.852, 40.29], [-74.836, 40.286], [-74.826, 40.275], [-74.814, 40.2645], [-74.798, 40.2615], [-74.785, 40.2505], [-74.772, 40.2365], [-74.767, 40.2305]], width: 170, id: greene-column, name: 'Greene’s division, with Washington, by the Bear Tavern road and then the Scotch and Pennington roads'}
+    - {side: usa, path: [[-74.816, 40.2628], [-74.81, 40.2505], [-74.7895, 40.2365], [-74.7775, 40.2262], [-74.7735, 40.2222]], width: 170, id: sullivan-column, name: Sullivan’s division by the River road}
+images:
+  trenton-sully:
+    file: trenton-sully.jpeg
+    caption: "The Passage of the Delaware, painting by Thomas Sully, 1819, Museum of Fine Arts, Boston"
+    credit: "Wikimedia Commons, Thomas Sully, Public domain (1819 Passage OfThe Delaware byThomasSully MFABoston.jpeg)"

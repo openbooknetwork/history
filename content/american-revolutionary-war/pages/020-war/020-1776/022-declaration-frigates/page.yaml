@@ -1,0 +1,31 @@
+when: {from: '1776-06-28'}
+date: "28 June 1776, afternoon and night"
+title: "Sullivan’s Island: the frigates aground"
+bbox: [-79.9, 32.734, -79.795, 32.79]
+zones: []
+routes: []
+markers: [declaration-frigates-jasper, declaration-frigates-actaeon, declaration-frigates-bristol]
+sources: ['David Lee Russell, Victory on Sullivan’s Island (2002).', 'Christopher Ward, The War of the Revolution (1952).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-79.816, 32.765], [-79.8115, 32.771], [-79.8065, 32.779]], width: 260, id: breach-inlet, name: 'Breach Inlet, deeper than the British expected'}
+  works:
+    - {side: usa, path: [[-79.85330118783448, 32.76212151257463], [-79.85169881216554, 32.76212151257463], [-79.85169881216554, 32.76347848742537], [-79.85330118783448, 32.76347848742537], [-79.85330118783448, 32.76212151257463]], width: 20, id: fort-sullivan, name: 'Fort Sullivan, palmetto logs filled with sand, 31 guns'}
+    - {side: usa, path: [[-79.8185, 32.768], [-79.8165, 32.7735]], width: 60, id: thomson-works, name: Thomson’s entrenchment at the north end of the island}
+  units:
+    - {side: usa, type: infantry, at: [-79.8525, 32.7628], width: 190, depth: 150, facing: 180, id: moultrie, name: 'Moultrie’s garrison, firing slowly to save powder'}
+    - {side: held, type: ships, at: [-79.853, 32.7578], width: 280, depth: 1400, rows: 4, count: 4, facing: 90, id: parker-line, name: 'Bristol and Experiment, battered by the fort’s guns'}
+    - {side: held, type: ships, at: [-79.846, 32.742], width: 240, depth: 600, rows: 2, count: 2, facing: 90, id: thunder, name: 'Thunder, her mortars broken from their mounts'}
+    - {side: held, type: ships, at: [-79.8745, 32.7585], width: 240, depth: 900, rows: 3, count: 3, facing: 300, id: frigates, name: 'Sphinx, Syren and Actaeon, aground on the Middle Ground'}
+  arrows:
+    - {side: held, path: [[-79.85, 32.744], [-79.864, 32.75], [-79.871, 32.756]], width: 120, id: frigates-route, name: The frigates sent round the shoals to rake the fort}
+    - {side: usa, path: [[-79.876, 32.782], [-79.865, 32.774], [-79.856, 32.766]], width: 90, id: powder, name: Lee sends powder from the mainland}
+    - {side: held, path: [[-79.853, 32.755], [-79.852, 32.748], [-79.848, 32.742]], width: 110, style: dashed, id: withdrawal, name: The fleet withdraws out of range at about 9 p.m.}
+  clashes:
+    - {at: [-79.853, 32.7605], size: 180}
+images:
+  jasper-flag-oertel:
+    file: jasper-flag-oertel.jpg
+    caption: "Sergeant William Jasper raises the fallen flag on the fort’s wall, engraving after Johannes Oertel, 1858"
+    credit: "Wikimedia Commons, Johannes Oertel, Public domain (Battle of Sullivans Island.jpg)"

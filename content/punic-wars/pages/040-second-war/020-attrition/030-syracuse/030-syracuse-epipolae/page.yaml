@@ -1,0 +1,35 @@
+date: "Spring 212 BC"
+title: "The festival of Artemis"
+bbox: [15.2, 37.04, 15.33, 37.12]
+zones: []
+routes: []
+markers: [syracuse-epipolae-escalade, syracuse-epipolae-marcellus, syracuse-epipolae-epicydes, syracuse-epipolae-euryalus]
+sources: ['Livy, History of Rome, book 25, 23 to 25.', 'Plutarch, Life of Marcellus.', 'Dexter Hoyos, Mastering the West (2015).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[15.2, 37.044], [15.22, 37.048], [15.24, 37.052], [15.26, 37.0545], [15.274, 37.0565], [15.281, 37.058]], width: 45, id: anapus, name: The river Anapus}
+  works:
+    - {side: neutral, width: 30, path: [[15.2186, 37.0832], [15.2265, 37.087], [15.238, 37.0915], [15.251, 37.096], [15.262, 37.1], [15.272, 37.1035], [15.281, 37.1072]], id: north-wall, name: The north wall of Epipolae}
+    - {side: neutral, width: 30, path: [[15.281, 37.1072], [15.295, 37.1035], [15.301, 37.098], [15.305, 37.087], [15.303, 37.076], [15.2995, 37.068]], id: sea-wall, name: The sea wall of Tyche and Achradina}
+    - {side: neutral, width: 30, path: [[15.2186, 37.0832], [15.228, 37.08], [15.24, 37.0775], [15.252, 37.0755], [15.262, 37.0735], [15.271, 37.0705], [15.284, 37.0655]], id: south-wall, name: The south wall of Epipolae}
+    - {side: neutral, width: 30, path: [[15.2855, 37.0675], [15.287, 37.0745], [15.29, 37.0815], [15.296, 37.0855], [15.3045, 37.086]], id: achradina-wall, name: The wall of Achradina}
+    - {side: neutral, width: 30, path: [[15.2895, 37.0668], [15.2945, 37.0665], [15.2975, 37.0625], [15.2965, 37.0575], [15.293, 37.0545], [15.2895, 37.0565], [15.288, 37.061], [15.2895, 37.0668]], id: ortygia-wall, name: The walls of Ortygia}
+  units:
+    - {side: syracuse, type: camp, at: [15.2195, 37.0828], width: 260, depth: 200, facing: 270, id: euryalus, name: 'The Euryalus fort, held by the Syracusans'}
+    - {side: rome, type: infantry, at: [15.2885, 37.0935], width: 950, depth: 320, facing: 170, id: tyche, name: Roman troops in Tyche}
+    - {side: rome, type: infantry, at: [15.2725, 37.0815], width: 850, depth: 320, facing: 120, id: neapolis, name: Roman troops in Neapolis under Marcellus}
+    - {side: rome, type: camp, at: [15.2805, 37.0868], width: 380, depth: 300, facing: 120, id: roman-camp, name: Roman camp on Epipolae}
+    - {side: syracuse, type: infantry, at: [15.2965, 37.0775], width: 800, depth: 260, facing: 320, id: epicydes, name: Syracusans under Epicydes in Achradina}
+    - {side: syracuse, type: infantry, at: [15.2928, 37.0605], width: 320, depth: 140, facing: 0, id: ortygia-garrison, name: The garrison of Ortygia}
+  arrows:
+    - {side: rome, path: [[15.2795, 37.1102], [15.2795, 37.1078], [15.281, 37.1052]], width: 60, id: escalade, name: The storming party climbs the wall near Trogilus}
+    - {side: rome, path: [[15.258, 37.1068], [15.267, 37.1052], [15.2715, 37.1022], [15.278, 37.0975], [15.2855, 37.0955]], width: 90, id: army-enters, name: The army follows over the wall into Tyche}
+    - {side: rome, path: [[15.2715, 37.0995], [15.2705, 37.092], [15.2715, 37.0855]], width: 80, id: into-neapolis, name: The Romans move into Neapolis}
+  clashes:
+    - {at: [15.2808, 37.1062], size: 110}
+images:
+  syracuse-euryalus:
+    file: syracuse-euryalus.jpg
+    caption: "The Euryalus fort at the western end of Epipolae, with the bastion that carried its catapults"
+    credit: "Wikimedia Commons, Giovanni Dall’Orto, Attribution (0932 - Siracusa - Castello Eurialo - Bastione e Pentapylon - Foto Giovanni Dall'Orto - 17-Oct-2008.jpg)"

@@ -1,0 +1,28 @@
+when: { from: 1921-07-10 }
+date: "July 1921"
+title: "Kütahya: the Greek summer offensive"
+bbox: [29.25, 38.55, 32.3, 40.15]
+zones: []
+routes: []
+markers: [kutahya-eskisehir-offensive-constantine, kutahya-eskisehir-offensive-ismet, kutahya-eskisehir-offensive-kutahya, kutahya-eskisehir-offensive-eskisehir]
+sources:
+  - "Michael Llewellyn-Smith, Ionian Vision: Greece in Asia Minor, 1919–1922 (1973)."
+  - "Andrew Mango, Atatürk (1999)."
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[32, 39.2], [32.02, 39.3], [31.98, 39.4], [31.99, 39.48], [31.96, 39.56], [31.97, 39.64], [31.98, 39.7], [31.95, 39.76], [31.92, 39.81], [31.86, 39.86], [31.84, 39.92]], width: 1200, id: sakarya-river, name: The Sakarya river}
+  units:
+    - {side: republic, type: infantry, at: [30.3, 39.78], width: 30000, depth: 6000, facing: 290, id: turkish-north, name: 'Western Front, main body before Eskişehir'}
+    - {side: republic, type: infantry, at: [30.1, 39.38], width: 25000, depth: 6000, facing: 250, id: turkish-kutahya, name: Western Front units at Kütahya}
+    - {side: republic, type: infantry, at: [30.55, 38.85], width: 22000, depth: 5000, facing: 240, id: turkish-afyon, name: Western Front units at Afyon}
+    - {side: greek, type: infantry, at: [29.55, 38.8], width: 35000, depth: 7000, facing: 70, id: greek-south, name: Greek southern group from Uşak}
+    - {side: greek, type: infantry, at: [30.02, 39.95], width: 30000, depth: 6000, facing: 135, id: greek-north, name: Greek northern group by Bozüyük}
+  arrows:
+    - {side: greek, path: [[29.8, 38.78], [30.15, 38.76], [30.45, 38.78]], width: 5000, id: to-afyon, name: The southern group takes Afyon}
+    - {side: greek, path: [[29.75, 38.95], [29.88, 39.18], [30, 39.36]], width: 5000, id: to-kutahya, name: And then Kütahya}
+    - {side: greek, path: [[30.12, 39.42], [30.3, 39.58], [30.45, 39.7]], width: 4000, id: turn-north, name: The Greeks prepare to turn north along the railway}
+  clashes:
+    - {at: [30.4, 38.8], size: 6000}
+    - {at: [29.98, 39.4], size: 6000}
+images: {}

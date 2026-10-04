@@ -1,0 +1,34 @@
+date: "21 June 217 BC"
+title: "The Roman army destroyed"
+bbox: [12.00165, 43.18057, 12.16063, 43.22852]
+zones: []
+routes: []
+markers: [trasimene-end-flaminius, trasimene-end-vanguard, trasimene-end-lake, trasimene-end-gauls]
+sources: ['Polybius, Histories, book 3, 84 to 86.', 'Livy, History of Rome, book 22, 6 to 7.', 'Adrian Goldsworthy, The Fall of Carthage (2006).']
+emblem:
+  kind: battle-plan
+  water:
+    - {area: [[12.022, 43.168], [12.025, 43.18], [12.045, 43.19], [12.07, 43.195], [12.095, 43.196], [12.118, 43.193], [12.135, 43.187], [12.155, 43.176], [12.178, 43.16], [12.195, 43.14], [12.2, 43.115], [12.19, 43.09], [12.165, 43.072], [12.13, 43.063], [12.09, 43.065], [12.06, 43.078], [12.045, 43.1], [12.04, 43.125], [12.03, 43.15]], id: lake, name: 'Lake Trasimene, its north shore further north than today'}
+  units:
+    - {side: rome, type: infantry, at: [12.05095, 43.1946], width: 320, depth: 200, facing: 180, id: roman-groups, name: Roman groups cut off and cut down along the shore}
+    - {side: rome, type: infantry, at: [12.06204, 43.19595], width: 360, depth: 220, facing: 10, id: roman-groups, name: Roman groups cut off and cut down along the shore}
+    - {side: rome, type: infantry, at: [12.07252, 43.19686], width: 420, depth: 240, facing: 0, id: roman-groups, name: Roman groups cut off and cut down along the shore}
+    - {side: rome, type: infantry, at: [12.08299, 43.19758], width: 320, depth: 200, facing: 20, id: roman-groups, name: Roman groups cut off and cut down along the shore}
+    - {side: rome, type: infantry, at: [12.15386, 43.18555], width: 450, depth: 250, facing: 60, id: vanguard, name: 'The Roman vanguard of 6,000, broken out to the east'}
+    - {side: carthage, type: cavalry, at: [12.04171, 43.19369], width: 550, depth: 250, facing: 90, id: cavalry, name: Carthaginian cavalry}
+    - {side: carthage, type: infantry, at: [12.07067, 43.2012], width: 2600, depth: 250, facing: 185, id: gauls, name: Gauls}
+    - {side: carthage, type: infantry, at: [12.09717, 43.20075], width: 900, depth: 300, facing: 230, id: africans-iberians, name: African and Iberian infantry}
+  arrows:
+    - {side: rome, path: [[12.09963, 43.19867], [12.11627, 43.19523], [12.13352, 43.19143], [12.15016, 43.18691]], width: 150, id: vanguard-breakout, name: The vanguard breaks out to the east}
+    - {side: rome, path: [[12.05711, 43.19433], [12.05157, 43.18555]], width: 100, style: dashed, id: into-lake, name: Fugitives driven into the lake}
+    - {side: rome, path: [[12.07806, 43.19613], [12.0793, 43.19007]], width: 100, style: dashed, id: into-lake, name: Fugitives driven into the lake}
+    - {side: carthage, path: [[12.04541, 43.19279], [12.0528, 43.1889]], width: 110, id: cavalry-drive, name: The cavalry drives men into the lake}
+  clashes:
+    - [12.06204, 43.19749]
+    - [12.07252, 43.19849]
+    - [12.08299, 43.19912]
+images:
+  trasimene-flaminius:
+    file: trasimene-flaminius.jpg
+    caption: "The Gaul Ducarius kills the consul Flaminius at Lake Trasimene, painting by Joseph-Noël Sylvestre, 1882"
+    credit: "Wikimedia Commons, Joseph-Noël Sylvestre, Public domain (Sylvestre Ducar decapite Flaminius (Trasimene).jpg)"

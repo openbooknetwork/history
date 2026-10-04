@@ -1,0 +1,3 @@
+Hasdrubal, Panormus’un hemen güneyinde denize ulaşan Oreto vadisinden aşağı ilerler ve ordusunun bir bölümünü nehrin karşısına, kent surlarına doğru gönderir. Nehirle sur arasındaki arazi, bir kısmı Roma kuşatmasından kalma, bir kısmı kentin savunmasına ait toprak tabyalarla kesilmiştir. Bunlar Romalılara siper olur ve fillerin hareketini engeller.
+
+Filler karşıya geçince Metellus hafif piyadesini, hayvanları hedef alma emriyle onları karşılamaya gönderir. Kentliler cirit demetlerini kentin depolarından surların dibine taşır, böylece hafif piyadenin cirit sıkıntısı çekmesi önlenir. Metellus ordusunun geri kalanını geçit yerinin yukarısındaki bir kapının yanında gizli tutar ve çarpışmaya oradan taze asker sürer.

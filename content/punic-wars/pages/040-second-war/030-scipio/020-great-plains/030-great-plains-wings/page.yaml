@@ -1,0 +1,34 @@
+date: "203 BC"
+title: "The battle on the Great Plains"
+bbox: [8.9149, 36.60348, 8.9731, 36.65052]
+zones: []
+routes: []
+markers: [great-plains-wings-iberians, great-plains-wings-hastati, great-plains-wings-laelius, great-plains-wings-masinissa, great-plains-wings-hasdrubal]
+sources: ['Polybius, Histories, book 14, 7 to 8.', 'Livy, History of Rome, book 30, 7 to 8.', 'Nigel Bagnall, The Punic Wars (1990).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[8.84, 36.57], [8.88, 36.585], [8.915, 36.598], [8.944, 36.607], [8.975, 36.613], [9.01, 36.618], [9.05, 36.622]], width: 90, id: bagradas, name: The river Bagradas}
+  units:
+    - {side: carthage, type: infantry, at: [8.9393, 36.627], width: 520, depth: 200, facing: 90, id: iberians, name: 'Iberians, 4,000 newly arrived from Carthage'}
+    - {side: carthage, type: infantry, at: [8.93225, 36.62022], width: 600, depth: 150, facing: 90, id: carth-infantry, name: Carthaginian infantry on the right}
+    - {side: carthage, type: infantry, at: [8.93225, 36.63378], width: 600, depth: 150, facing: 90, id: numidian-infantry, name: Syphax’s Numidian infantry on the left}
+    - {side: rome, type: infantry, at: [8.94534, 36.627], width: 700, depth: 90, facing: 270, id: hastati, name: Hastati of the two Roman legions}
+    - {side: rome, type: infantry, at: [8.94702, 36.627], width: 700, depth: 90, facing: 270, id: principes, name: Principes}
+    - {side: rome, type: infantry, at: [8.9487, 36.627], width: 700, depth: 90, facing: 270, id: triarii, name: Triarii}
+    - {side: rome, type: infantry, at: [8.9384, 36.61886], width: 700, depth: 260, facing: 270, id: allied-legions, name: An allied legion on each wing}
+    - {side: rome, type: infantry, at: [8.9384, 36.63514], width: 700, depth: 260, facing: 270, id: allied-legions, name: An allied legion on each wing}
+    - {side: numidia, type: cavalry, at: [8.93393, 36.61388], width: 500, depth: 150, facing: 270, id: masinissa, name: Masinissa’s Numidian cavalry}
+    - {side: rome, type: cavalry, at: [8.93393, 36.64012], width: 500, depth: 150, facing: 270, id: laelius, name: Roman cavalry under Laelius}
+  arrows:
+    - {side: carthage, path: [[8.93079, 36.62022], [8.92609, 36.61931], [8.92049, 36.61841]], width: 100, style: dashed, id: infantry-flight, name: The Carthaginian and Numidian infantry flee}
+    - {side: carthage, path: [[8.93079, 36.63378], [8.92609, 36.63469], [8.92049, 36.63559]], width: 100, style: dashed, id: infantry-flight, name: The Carthaginian and Numidian infantry flee}
+    - {side: carthage, path: [[8.93113, 36.61479], [8.92385, 36.61343], [8.91714, 36.61253]], width: 90, style: dashed, id: cavalry-flight, name: The cavalry on both Carthaginian wings breaks}
+    - {side: carthage, path: [[8.93113, 36.63921], [8.92385, 36.64057], [8.91714, 36.64147]], width: 90, style: dashed, id: cavalry-flight, name: The cavalry on both Carthaginian wings breaks}
+  clashes:
+    - [8.94109, 36.627]
+images:
+  numidian-horseman:
+    file: numidian-horseman.png
+    caption: "A Numidian horseman, from Theodore Ayrault Dodge’s history of Hannibal, 1891"
+    credit: "Wikimedia Commons, Theodore Ayrault Dodge, Public domain (Numidian cavalry.png)"

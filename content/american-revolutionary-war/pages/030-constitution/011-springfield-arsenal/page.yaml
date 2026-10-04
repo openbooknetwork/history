@@ -1,0 +1,32 @@
+when: '1787-01-25'
+date: "25 January 1787"
+title: "Springfield: the attack on the arsenal"
+bbox: [-72.62601, 42.09664, -72.54004, 42.14278]
+zones: []
+routes: []
+markers: [springfield-arsenal-shepard, springfield-arsenal-shays, springfield-arsenal-day, springfield-arsenal-message]
+sources: ['Leonard L. Richards, Shays’s Rebellion: The American Revolution’s Final Battle (2002).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-72.59635, 42.1464], [-72.59756, 42.12649], [-72.59877, 42.1084], [-72.59962, 42.09393]], width: 350, id: connecticut, name: The Connecticut River}
+  works:
+    - {side: usa, path: [[-72.576, 42.10921], [-72.576, 42.10722]], width: 60, id: guns, name: 'Shepard’s two cannon, loaded with grapeshot'}
+  units:
+    - {side: usa, type: camp, at: [-72.58, 42.1084], width: 240, depth: 200, facing: 0, id: armory, name: The federal armory and its arsenal}
+    - {side: usa, type: infantry, at: [-72.57722, 42.10822], width: 520, depth: 90, facing: 90, id: shepard, name: 'Shepard’s militia, 1,200, armed from the arsenal'}
+    - {side: '#8d6e63', type: infantry, at: [-72.5685, 42.10786], width: 160, depth: 520, facing: 270, id: shays, name: 'Daniel Shays’s men, from the east by the road from Palmer'}
+    - {side: '#8d6e63', type: infantry, at: [-72.58242, 42.12197], width: 160, depth: 420, facing: 180, id: parsons, name: 'Eli Parsons’s men, from Chicopee in the north'}
+    - {side: '#8d6e63', type: infantry, at: [-72.61633, 42.10569], width: 320, depth: 160, facing: 90, id: day, name: 'Luke Day’s men in West Springfield, not ready until the 26th'}
+  arrows:
+    - {side: '#8d6e63', path: [[-72.54246, 42.10433], [-72.56365, 42.1075]], width: 90, id: shays-advance, name: 'Shays advances on the armory, expecting Day’s support'}
+    - {side: '#8d6e63', path: [[-72.58363, 42.14097], [-72.58278, 42.12468]], width: 80, id: parsons-advance, name: Parsons comes down from the north}
+    - {side: usa, path: [[-72.5754, 42.10822], [-72.5708, 42.10795]], width: 70, id: grapeshot, name: 'Warning shots over their heads, then grapeshot'}
+    - {side: '#8d6e63', path: [[-72.56789, 42.11066], [-72.57031, 42.12287], [-72.57334, 42.13735]], width: 90, id: flight, name: The rebels flee north, style: dashed}
+  clashes:
+    - {at: [-72.57177, 42.10786], size: 120}
+images:
+  shepard-portrait:
+    file: shepard-portrait.jpg
+    caption: "William Shepard, the militia general who held the Springfield armory"
+    credit: "Wikimedia Commons, Wmshprd, CC BY-SA 3.0 (Major General William shepard.jpg)"

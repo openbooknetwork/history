@@ -1,0 +1,3 @@
+Benjamin Lincoln marches west from Worcester with the 3,000 militia raised with merchants’ money. Shays’s and Day’s men regroup at Amherst, then move north and east away from him, taking supplies and hostages from merchants on the way, and camp at Petersham.
+
+Lincoln reaches Pelham, about 20 miles (32 km) from Petersham, on 2 February. On the night of 3 February he marches his army through a bitter snowstorm and reaches Petersham early in the morning. The rebels scatter without time to call in their outposts. Lincoln reports 150 prisoners, a figure the historian Leonard Richards questions, and most of the leaders escape to New Hampshire and Vermont.

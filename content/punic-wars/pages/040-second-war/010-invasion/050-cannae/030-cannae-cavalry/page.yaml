@@ -1,0 +1,32 @@
+date: "2 August 216 BC"
+title: "The cavalry battle"
+bbox: [16.07961, 41.28177, 16.15049, 41.33937]
+zones: []
+routes: []
+markers: [cannae-cav-paullus, cannae-cav-hasdrubal, cannae-cav-varro, cannae-cav-hannibal]
+sources: ['Polybius, Histories, book 3, 115.', 'Livy, History of Rome, book 22, 47.', 'Adrian Goldsworthy, Cannae (2001).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[16.10584, 41.27469], [16.11667, 41.28402], [16.1275, 41.29335], [16.13642, 41.29975], [16.14602, 41.30708], [16.16028, 41.31915]], width: 70, id: aufidus, name: The river Aufidus}
+  units:
+    - {side: rome, type: infantry, at: [16.12106, 41.30902], width: 2100, depth: 500, facing: 60, id: roman-infantry, name: 'Roman and allied infantry, pressing forward'}
+    - {side: rome, type: cavalry, at: [16.10972, 41.31973], width: 800, depth: 220, facing: 60, id: allied-cavalry, name: Allied cavalry under Varro}
+    - {side: carthage, type: cavalry, at: [16.12719, 41.29864], width: 480, depth: 240, facing: 330, id: hasdrubal, name: Hasdrubal’s cavalry after breaking the Roman horse}
+    - {side: carthage, type: infantry, at: [16.13537, 41.30765], width: 420, depth: 320, facing: 240, id: libyans, name: 'Libyan infantry, still waiting'}
+    - {side: carthage, type: infantry, at: [16.12452, 41.3121], width: 1300, depth: 220, facing: 240, id: centre, name: 'Gauls and Iberians, giving ground step by step'}
+    - {side: carthage, type: infantry, at: [16.12485, 41.32143], width: 420, depth: 320, facing: 240, id: libyans, name: 'Libyan infantry, still waiting'}
+    - {side: carthage, type: cavalry, at: [16.11193, 41.32227], width: 800, depth: 240, facing: 240, id: numidians, name: 'Numidian cavalry, holding the allied horse'}
+  arrows:
+    - {side: rome, path: [[16.12509, 41.29615], [16.11675, 41.29116], [16.10827, 41.28599]], width: 110, id: roman-cavalry-flight, name: The Roman cavalry flees along the river, style: dashed}
+    - {side: carthage, path: [[16.12392, 41.29805], [16.11201, 41.29828], [16.10412, 41.30319], [16.10081, 41.31114], [16.10506, 41.3177]], width: 120, id: hasdrubal-ride, name: Hasdrubal rides behind the Roman army}
+    - {side: rome, path: [[16.10513, 41.32086], [16.09415, 41.32077], [16.08296, 41.32006]], width: 110, id: allied-flight, name: The allied cavalry breaks and flees, style: dashed}
+  clashes:
+    - [16.12576, 41.30794]
+    - [16.12097, 41.31421]
+    - {at: [16.11075, 41.32092], size: 200}
+images:
+  cannae-illumination:
+    file: cannae-illumination.jpg
+    caption: "The battle of Cannae in a French manuscript of Livy, illumination of about 1390 to 1400"
+    credit: "Wikimedia Commons, follower of the Luçon Master or Ravenelle Master, Public domain (The battle of Cannae.jpg)"

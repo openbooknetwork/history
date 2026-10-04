@@ -1,0 +1,31 @@
+when: {from: '1775-12-31'}
+date: "31 December 1775, before dawn"
+title: "Quebec: the attack in the snowstorm"
+bbox: [-71.25025, 46.78958, -71.22103, 46.82105]
+zones: []
+routes: []
+markers: [canada-assault-montgomery, canada-assault-arnold, canada-assault-carleton, canada-assault-brown]
+sources: ['Justin H. Smith, Our Struggle for the Fourteenth Colony (1907).', 'Mark R. Anderson, The Battle for the Fourteenth Colony (2013).']
+emblem:
+  kind: battle-plan
+  water:
+    - {area: [[-71.22443, 46.81672], [-71.22911, 46.81753], [-71.23521, 46.81782], [-71.24324, 46.81765], [-71.25325, 46.8173], [-71.25555, 46.83021], [-71.22081, 46.83314], [-71.21816, 46.81826]], id: st-charles, name: The St Charles estuary}
+  works:
+    - {side: held, path: [[-71.22836, 46.80651], [-71.23204, 46.80852], [-71.23493, 46.81059], [-71.23512, 46.81279], [-71.23406, 46.8159], [-71.23099, 46.81677], [-71.22695, 46.81671]], width: 60, id: walls, name: The walls of the Upper Town}
+    - {side: held, path: [[-71.22655, 46.81674], [-71.22594, 46.81558]], width: 44, id: first-barricade, name: The first barricade at the Sault-au-Matelot}
+    - {side: held, path: [[-71.22728, 46.81406], [-71.22635, 46.81333]], width: 44, id: second-barricade, name: 'The second barricade, held by Caldwell'}
+    - {side: held, path: [[-71.23264, 46.80454], [-71.23174, 46.80401]], width: 52, id: pres-de-ville, name: The blockhouse and palisades at Près-de-Ville}
+  units:
+    - {side: usa, type: infantry, at: [-71.23929, 46.79833], width: 40, depth: 420, facing: 38, id: montgomery, name: 'Montgomery’s column, about 300 New York troops, along the shore from Wolfe’s Cove'}
+    - {side: usa, type: infantry, at: [-71.23914, 46.81729], width: 40, depth: 520, facing: 88, id: arnold, name: 'Arnold’s column, about 600 men with Morgan’s riflemen in front, from Saint-Roch'}
+    - {side: usa, type: light, at: [-71.23043, 46.80513], width: 220, depth: 50, facing: 53, id: brown, name: Jacob Brown’s feint at the Cape Diamond redoubt}
+    - {side: usa, type: light, at: [-71.23721, 46.81211], width: 220, depth: 50, facing: 73, id: livingston, name: 'James Livingston’s Canadiens, a feint at the Saint-Jean gate'}
+    - {side: held, type: infantry, at: [-71.23117, 46.81212], width: 260, depth: 120, facing: 253, id: garrison, name: 'Carleton’s garrison in the Upper Town, about 1,800 regulars, militia and sailors'}
+  arrows:
+    - {side: usa, path: [[-71.24775, 46.79208], [-71.24232, 46.79556], [-71.23658, 46.80007], [-71.23342, 46.80326]], width: 72, id: montgomery-route, name: Montgomery leads his column from Wolfe’s Cove towards Près-de-Ville}
+    - {side: usa, path: [[-71.23514, 46.81742], [-71.23056, 46.81721], [-71.22752, 46.81706]], width: 72, id: arnold-route, name: Arnold passes under the walls by the Palace Gate towards the Sault-au-Matelot}
+images:
+  quebec-le-rouge-1777:
+    file: quebec-le-rouge-1777.jpg
+    caption: "The siege and attack of Quebec in 1775 and 1776 on a French map by Georges Louis Le Rouge, 1777"
+    credit: "Wikimedia Commons, Georges Louis Le Rouge, Public domain (Quebec1775FrenchMap.jpg)"

@@ -1,0 +1,31 @@
+date: "Spring and summer 219 BC"
+title: "The first assaults"
+bbox: [-0.30018, 39.65679, -0.24765, 39.69207]
+zones: []
+routes: []
+markers: [saguntum-assault-hannibal, saguntum-assault-town, saguntum-assault-camp]
+sources: ['Livy, History of Rome, book 21, 7 to 8.', 'Polybius, Histories, book 3, 17.']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-0.30952, 39.69343], [-0.29201, 39.68981], [-0.2745, 39.68827], [-0.25699, 39.68682], [-0.23948, 39.68501], [-0.22081, 39.68393]], width: 60, id: palancia, name: The river Palancia}
+  works:
+    - {side: neutral, path: [[-0.26691, 39.6785], [-0.26703, 39.67814], [-0.26737, 39.67779], [-0.26793, 39.67746], [-0.26869, 39.67716], [-0.26962, 39.67691], [-0.27071, 39.6767], [-0.27191, 39.67654], [-0.27318, 39.67645], [-0.2745, 39.67642], [-0.27582, 39.67645], [-0.27709, 39.67654], [-0.27829, 39.6767], [-0.27938, 39.67691], [-0.28031, 39.67716], [-0.28107, 39.67746], [-0.28163, 39.67779], [-0.28197, 39.67814], [-0.28209, 39.6785], [-0.28197, 39.67886], [-0.28163, 39.67921], [-0.28107, 39.67954], [-0.28031, 39.67984], [-0.27938, 39.68009], [-0.27829, 39.6803], [-0.27709, 39.68046], [-0.27582, 39.68055], [-0.2745, 39.68058], [-0.27318, 39.68055], [-0.27191, 39.68046], [-0.27071, 39.6803], [-0.26962, 39.68009], [-0.26869, 39.67984], [-0.26793, 39.67954], [-0.26737, 39.67921], [-0.26703, 39.67886], [-0.26691, 39.6785]], width: 45, id: walls, name: The walls of Saguntum}
+    - {side: carthage, path: [[-0.28967, 39.68528], [-0.29201, 39.6785], [-0.28851, 39.67199], [-0.2745, 39.67036], [-0.26049, 39.67199], [-0.25699, 39.6785], [-0.25933, 39.68528]], width: 50, id: siege-lines, name: Carthaginian siege lines}
+  units:
+    - {side: neutral, type: infantry, at: [-0.2745, 39.6785], width: 800, depth: 150, facing: 180, id: saguntines, name: The Saguntines defending their walls}
+    - {side: carthage, type: camp, at: [-0.28909, 39.66267], width: 700, depth: 600, facing: 0, id: camp, name: Carthaginian camp on the plain}
+    - {side: carthage, type: infantry, at: [-0.28792, 39.6785], width: 500, depth: 220, facing: 90, id: west-assault, name: Hannibal’s main assault on the western corner}
+    - {side: carthage, type: infantry, at: [-0.2745, 39.669], width: 600, depth: 200, facing: 0, id: south-assault, name: Carthaginian attack from the south}
+    - {side: carthage, type: infantry, at: [-0.26108, 39.6785], width: 500, depth: 220, facing: 270, id: east-assault, name: Carthaginian attack from the east}
+  arrows:
+    - {side: carthage, path: [[-0.28652, 39.6785], [-0.28197, 39.6785]], width: 150, id: west-attack, name: Rams and siege works against the western corner}
+    - {side: carthage, path: [[-0.2745, 39.67], [-0.2745, 39.67624]], width: 110, id: south-attack, name: Attack on the southern wall}
+    - {side: carthage, path: [[-0.26248, 39.6785], [-0.26703, 39.6785]], width: 110, id: east-attack, name: Attack on the eastern wall}
+  clashes:
+    - [-0.2822, 39.6785]
+images:
+  saguntum-citadel:
+    file: saguntum-citadel.jpg
+    caption: "The castle and citadel on the ridge of Sagunto"
+    credit: "Wikimedia Commons, Pieter van Everdingen, CC BY-SA 4.0 (Sagunto - Castle & Citadel - 20200225 PvE (Q2892716).jpg)"

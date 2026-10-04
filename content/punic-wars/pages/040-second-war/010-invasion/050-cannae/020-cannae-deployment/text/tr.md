@@ -1,0 +1,5 @@
+2 Ağustos sabahı Varro orduyu Aufidus kıyısındaki ovada savaş düzenine sokar, Roma sağ kanadını nehir korur. Paullus komutasındaki 2.400 kişilik Roma süvarisi sağda nehrin yanında, Varro komutasındaki 4.800 müttefik süvari solda durur. Merkezde Gnaeus Servilius Geminus komutasında lejyonlar ve müttefik piyade yer alır. Manipüller her zamankinden daha sık ve daha derin dizilir, amaç Kartaca merkezini ağırlıkla yarmaktır. Bu yüzden cepheleri daha kısa olan Kartaca hattından geniş değildir.
+
+@image cannae-ruins
+
+Hannibal da sol kanadını nehre dayar. Orada Hasdrubal 6.000 ile 7.000 arası İber ve Galyalı süvariye, sağda ise Hanno 3.000 ile 4.000 arası Numidyalıya komuta eder. Merkezde Galyalılar ve İberler bölük bölük dönüşümlü dizilir, Hannibal ve kardeşi Mago da onların arasındadır. Polybios’a göre Hannibal bu bölükleri ileri sürer ve hat Romalılara doğru hilal biçiminde kabarır. Ele geçirilmiş Roma silahlarıyla donanmış Libyalı piyade ise hattın iki ucunda geride durur. Balear sapancıları ve cirit atıcılar iki ordunun piyadesinin önünde perde oluşturur.

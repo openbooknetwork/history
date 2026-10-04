@@ -1,0 +1,3 @@
+Hasdrubal advances down the valley of the Oreto, which reaches the sea just south of Panormus, and sends part of his army across the river towards the city wall. The ground between the river and the wall is cut by earthworks, some left from the Roman siege and some part of the city’s defences, which give cover to the Romans and hamper the elephants.
+
+Once the elephants are across, Metellus sends his light infantry out to meet them with orders to aim at the animals. Townspeople carry bundles of javelins from the city’s stores to the foot of the walls, so the skirmishers never run short. Metellus keeps the rest of his army out of sight by a gate upstream from the crossing and feeds fresh men into the skirmish from there.

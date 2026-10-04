@@ -1,0 +1,40 @@
+date: "22 or 23 December 218 BC"
+title: "The cavalry on the wings"
+bbox: [9.52125, 44.94096, 9.64572, 45.04228]
+zones: []
+routes: []
+markers: [trebia-wings-roman-cavalry, trebia-wings-cavalry, trebia-wings-elephants, trebia-wings-gauls]
+sources: ['Polybius, Histories, book 3, 72 to 73.', 'Adrian Goldsworthy, The Fall of Carthage (2006).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[9.61905, 45.07846], [9.61143, 45.04228], [9.60572, 45.01514], [9.6, 44.988], [9.59809, 44.96086], [9.59682, 44.93372], [9.59682, 44.90658]], width: 110, id: trebia, name: The river Trebia}
+  units:
+    - {side: rome, type: camp, at: [9.63556, 44.97714], width: 800, depth: 800, facing: 0, id: roman-camp, name: Roman camp on the low hill east of the river}
+    - {side: carthage, type: camp, at: [9.53268, 44.98076], width: 900, depth: 900, facing: 0, id: carthage-camp, name: Carthaginian camp on high ground west of the river}
+    - {side: carthage, type: infantry, at: [9.56444, 44.988], width: 1300, depth: 250, facing: 90, id: gauls, name: 'Gauls in the centre, about 8,000'}
+    - {side: carthage, type: infantry, at: [9.56444, 44.99931], width: 1100, depth: 300, facing: 90, id: africans-iberians, name: African and Iberian infantry}
+    - {side: carthage, type: infantry, at: [9.56444, 44.97669], width: 1100, depth: 300, facing: 90, id: africans-iberians, name: African and Iberian infantry}
+    - {side: carthage, type: elephants, at: [9.56507, 45.00609], width: 350, depth: 110, facing: 90, count: 4, id: elephants, name: Elephants at both ends of the infantry}
+    - {side: carthage, type: elephants, at: [9.56507, 44.96991], width: 350, depth: 110, facing: 90, count: 4, id: elephants, name: Elephants at both ends of the infantry}
+    - {side: carthage, type: cavalry, at: [9.58476, 45.01785], width: 900, depth: 300, facing: 90, id: cavalry, name: 'Carthaginian cavalry, routing the Roman horse'}
+    - {side: carthage, type: cavalry, at: [9.58476, 44.95815], width: 900, depth: 300, facing: 90, id: cavalry, name: 'Carthaginian cavalry, routing the Roman horse'}
+    - {side: carthage, type: light, at: [9.56761, 45.01469], width: 700, depth: 70, facing: 315, id: skirmishers, name: Light troops attacking the Roman flanks}
+    - {side: carthage, type: light, at: [9.56761, 44.96131], width: 700, depth: 70, facing: 225, id: skirmishers, name: Light troops attacking the Roman flanks}
+    - {side: rome, type: infantry, at: [9.57015, 44.988], width: 1600, depth: 450, facing: 270, id: legions, name: Four Roman legions}
+    - {side: rome, type: infantry, at: [9.57015, 45.00338], width: 1700, depth: 400, facing: 270, id: allies, name: Allied infantry}
+    - {side: rome, type: infantry, at: [9.57015, 44.97262], width: 1700, depth: 400, facing: 270, id: allies, name: Allied infantry}
+    - {side: rome, type: light, at: [9.57714, 44.988], width: 3600, depth: 70, facing: 270, id: velites, name: 'Velites, withdrawn behind the line'}
+  arrows:
+    - {side: rome, path: [[9.57206, 45.01423], [9.59492, 45.01514], [9.61905, 45.01785]], width: 120, style: dashed, id: roman-cavalry-flight, name: The Roman cavalry is driven off}
+    - {side: rome, path: [[9.57206, 44.96177], [9.59492, 44.96086], [9.61905, 44.95815]], width: 120, style: dashed, id: roman-cavalry-flight, name: The Roman cavalry is driven off}
+    - {side: carthage, path: [[9.56888, 45.01469], [9.57142, 45.01197]], width: 90, id: flank-attack, name: Light troops attack the Roman flanks}
+    - {side: carthage, path: [[9.56888, 44.96131], [9.57142, 44.96403]], width: 90, id: flank-attack, name: Light troops attack the Roman flanks}
+  clashes:
+    - [9.56685, 44.99569]
+    - [9.56685, 44.98031]
+images:
+  trebia-slinger:
+    file: trebia-slinger.jpg
+    caption: "A Balearic slinger with a spare sling round his head and a bag of stones, modern drawing by Johnny Shumate"
+    credit: "Wikimedia Commons, Johnny Shumate, Public domain (Balearic Slinger.jpg)"

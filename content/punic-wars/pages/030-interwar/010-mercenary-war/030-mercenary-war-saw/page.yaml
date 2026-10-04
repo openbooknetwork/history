@@ -1,0 +1,34 @@
+date: "238 BC"
+title: "The destruction at the Saw"
+bbox: [10.04865, 36.39286, 10.15135, 36.43809]
+zones: []
+routes: []
+markers: [mercenary-war-saw-leaders, mercenary-war-saw-rebels, mercenary-war-saw-hamilcar, mercenary-war-trap-saw]
+sources: ['Polybius, Histories, book 1, 85.', 'Dexter Hoyos, Truceless War: Carthage’s Fight for Survival, 241 to 237 BC (2007).']
+emblem:
+  kind: battle-plan
+  works:
+    - {side: carthage, path: [[10.06316, 36.39919], [10.06428, 36.41638], [10.07432, 36.42452], [10.1, 36.42633], [10.12568, 36.42452], [10.13572, 36.41638], [10.13684, 36.39919]], width: 40, id: carthaginian-lines, name: Carthaginian fortified positions closing the way out}
+  units:
+    - {side: rebels, type: infantry, at: [10.0866, 36.40417], width: 1000, depth: 500, facing: 0, id: rebels, name: 'The starving rebels, without their leaders'}
+    - {side: rebels, type: infantry, at: [10.1, 36.40507], width: 1300, depth: 500, facing: 0, id: rebels, name: 'The starving rebels, without their leaders'}
+    - {side: rebels, type: infantry, at: [10.1134, 36.40417], width: 1000, depth: 500, facing: 0, id: rebels, name: 'The starving rebels, without their leaders'}
+    - {side: carthage, type: elephants, at: [10.1, 36.41141], width: 1500, depth: 80, facing: 180, count: 15, id: elephants, name: 'The elephants, in front of the Carthaginian army'}
+    - {side: carthage, type: infantry, at: [10.1, 36.41502], width: 1700, depth: 300, facing: 180, id: hamilcar, name: Hamilcar’s division}
+    - {side: carthage, type: infantry, at: [10.07097, 36.40779], width: 900, depth: 300, facing: 90, id: hannibal, name: Hannibal’s division}
+    - {side: carthage, type: cavalry, at: [10.13014, 36.40779], width: 900, depth: 300, facing: 270, id: naravas, name: Numidian cavalry under Naravas}
+  arrows:
+    - {side: carthage, path: [[10.08884, 36.41322], [10.08772, 36.40733]], width: 110, id: attack, name: 'The whole Carthaginian army attacks, the elephants in front'}
+    - {side: carthage, path: [[10.1, 36.41367], [10.1, 36.40824]], width: 110, id: attack, name: 'The whole Carthaginian army attacks, the elephants in front'}
+    - {side: carthage, path: [[10.11116, 36.41322], [10.11228, 36.40733]], width: 110, id: attack, name: 'The whole Carthaginian army attacks, the elephants in front'}
+    - {side: carthage, path: [[10.07656, 36.40779], [10.08046, 36.40553]], width: 100, id: flank-attack, name: The other divisions close in from the sides}
+    - {side: carthage, path: [[10.12456, 36.40779], [10.11954, 36.40553]], width: 100, id: flank-attack, name: The other divisions close in from the sides}
+  clashes:
+    - [10.08772, 36.40715]
+    - [10.1, 36.40797]
+    - [10.11228, 36.40715]
+images:
+  mercenary-war-elephants:
+    file: mercenary-war-elephants.png
+    caption: "Carthaginian elephants against rebel troops in the Mercenary War, modern illustration by Giuseppe Rava"
+    credit: "Wikimedia Commons, Giuseppe Rava, CC0 (Rebelion-de-los-mercenarios--elefantes-cartagineses-combatiendo-contra-numidas-1536x757.png)"

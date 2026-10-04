@@ -1,0 +1,3 @@
+The two armies camp about 8 km apart on a plain near Ibera, and for several days only their skirmishers meet. Then both march out on the same day, each about 25,000 strong. The Romans probably put their two legions in the centre with an allied legion on each side, and the cavalry on the wings.
+
+Hasdrubal puts his Iberian infantry in the centre, African heavy infantry on their left and the heavy infantry Livy calls Poeni, probably militia from the Carthaginian towns of Iberia, on their right. Libyan and Iberian cavalry hold the left wing and Numidians the right. About 20 elephants stand in front of the infantry, behind a screen of Balearic slingers and African light infantry.

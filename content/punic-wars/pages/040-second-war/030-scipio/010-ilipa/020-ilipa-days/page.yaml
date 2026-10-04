@@ -1,0 +1,33 @@
+date: "Spring 206 BC"
+title: "Days of waiting"
+bbox: [-5.97284, 37.49298, -5.90716, 37.54002]
+zones: []
+routes: []
+markers: [ilipa-days-africans, ilipa-days-iberians, ilipa-days-legions, ilipa-days-allies]
+sources: ['Polybius, Histories, book 11, 21 to 22.', 'Livy, History of Rome, book 28, 14.']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-5.82, 37.61], [-5.84, 37.598], [-5.87, 37.581], [-5.9, 37.564], [-5.93, 37.549], [-5.96, 37.533], [-5.985, 37.517], [-6, 37.495]], width: 110, id: baetis, name: The river Baetis}
+  units:
+    - {side: carthage, type: camp, at: [-5.96605, 37.5165], width: 1200, depth: 900, facing: 90, id: carth-camp, name: Hasdrubal Gisco’s camp}
+    - {side: rome, type: camp, at: [-5.91395, 37.5165], width: 1100, depth: 900, facing: 270, id: roman-camp, name: Scipio’s camp}
+    - {side: carthage, type: cavalry, at: [-5.94736, 37.49931], width: 500, depth: 200, facing: 90, id: carth-cavalry, name: Carthaginian cavalry on the wings}
+    - {side: carthage, type: elephants, at: [-5.94487, 37.49931], width: 500, depth: 70, facing: 90, count: 6, id: elephants, name: Elephants beside the cavalry}
+    - {side: carthage, type: infantry, at: [-5.94793, 37.5061], width: 900, depth: 250, facing: 90, id: carth-iberians, name: Iberians on the Carthaginian wings}
+    - {side: carthage, type: infantry, at: [-5.94793, 37.5165], width: 1300, depth: 300, facing: 90, id: africans, name: 'African infantry, Hasdrubal’s best troops'}
+    - {side: carthage, type: infantry, at: [-5.94793, 37.5269], width: 900, depth: 250, facing: 90, id: carth-iberians, name: Iberians on the Carthaginian wings}
+    - {side: carthage, type: cavalry, at: [-5.94736, 37.53369], width: 500, depth: 200, facing: 90, id: carth-cavalry, name: Carthaginian cavalry on the wings}
+    - {side: carthage, type: elephants, at: [-5.94487, 37.53369], width: 500, depth: 70, facing: 90, count: 6, id: elephants, name: Elephants beside the cavalry}
+    - {side: carthage, type: light, at: [-5.94544, 37.5165], width: 1200, depth: 60, facing: 90, id: carth-light, name: Carthaginian light troops}
+    - {side: rome, type: infantry, at: [-5.93207, 37.5061], width: 1000, depth: 200, facing: 270, id: roman-iberians, name: Scipio’s Iberian allies on the wings}
+    - {side: rome, type: infantry, at: [-5.93207, 37.5165], width: 1300, depth: 350, facing: 270, id: legions, name: The legions in the centre}
+    - {side: rome, type: infantry, at: [-5.93207, 37.5269], width: 1000, depth: 200, facing: 270, id: roman-iberians, name: Scipio’s Iberian allies on the wings}
+    - {side: rome, type: cavalry, at: [-5.92811, 37.5061], width: 600, depth: 150, facing: 270, id: roman-cavalry, name: Roman cavalry behind the wings}
+    - {side: rome, type: cavalry, at: [-5.92811, 37.5269], width: 600, depth: 150, facing: 270, id: roman-cavalry, name: Roman cavalry behind the wings}
+    - {side: rome, type: light, at: [-5.9349, 37.5165], width: 1200, depth: 60, facing: 270, id: velites, name: The velites in front}
+images:
+  ilipa-aerial:
+    file: ilipa-aerial.jpg
+    caption: "Aerial view of Alcalá del Río on the Guadalquivir, near the site of ancient Ilipa"
+    credit: "Wikimedia Commons, Jose A., CC BY 2.0 (Vista aérea - Alcalá del Río.jpg)"

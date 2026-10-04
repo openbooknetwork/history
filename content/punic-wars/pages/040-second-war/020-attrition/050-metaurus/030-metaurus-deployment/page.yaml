@@ -1,0 +1,28 @@
+date: "June 207 BC, morning"
+title: "The armies deploy"
+bbox: [12.9645, 43.76632, 13.02095, 43.7984]
+zones: []
+routes: []
+markers: [metaurus-deploy-iberians, metaurus-deploy-ligurians, metaurus-deploy-gauls, metaurus-deploy-livius, metaurus-deploy-porcius, metaurus-deploy-nero]
+sources: ['Polybius, Histories, book 11, 1.', 'Livy, History of Rome, book 27, 48.', 'Dexter Hoyos, Mastering the West (2015).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[12.87, 43.735], [12.9, 43.748], [12.93, 43.76], [12.955, 43.772], [12.975, 43.785], [12.995, 43.795], [13.02, 43.812], [13.045, 43.829], [13.068, 43.842]], width: 60, id: metaurus, name: The river Metaurus}
+  works:
+    - {side: neutral, path: [[13.00045, 43.78517], [13.00359, 43.78607], [13.0067, 43.78639], [13.01017, 43.78744]], width: 45, id: ravine, name: The ravine in front of the Gauls}
+  units:
+    - {side: carthage, type: cavalry, at: [12.97852, 43.78315], width: 320, depth: 120, facing: 165, id: carth-cavalry, name: Hasdrubal’s few cavalry}
+    - {side: carthage, type: infantry, at: [12.98511, 43.78415], width: 600, depth: 260, facing: 165, id: iberians, name: Iberian veterans in deep ranks}
+    - {side: carthage, type: infantry, at: [12.99343, 43.78568], width: 620, depth: 240, facing: 165, id: ligurians, name: Ligurians in deep ranks}
+    - {side: carthage, type: infantry, at: [13.00432, 43.78865], width: 720, depth: 150, facing: 165, id: gauls, name: Gauls on the hill behind the ravine}
+    - {side: carthage, type: elephants, at: [12.98997, 43.78285], width: 1100, depth: 70, facing: 165, count: 10, id: elephants, name: Ten elephants in front of the line}
+    - {side: rome, type: cavalry, at: [12.98129, 43.77564], width: 420, depth: 140, facing: 345, id: roman-cavalry, name: Roman cavalry on the left}
+    - {side: rome, type: infantry, at: [12.98863, 43.77669], width: 820, depth: 220, facing: 345, id: livius, name: Livius with the Roman left}
+    - {side: rome, type: infantry, at: [12.99824, 43.77856], width: 720, depth: 200, facing: 345, id: porcius, name: Porcius with the centre}
+    - {side: rome, type: infantry, at: [13.00786, 43.78044], width: 820, depth: 220, facing: 345, id: nero, name: Nero with the Roman right}
+images:
+  metaurus-plan:
+    file: metaurus-plan.png
+    caption: "Plan of the battle of the Metaurus from a history of 1871, with Nero’s march round the rear of the Roman line"
+    credit: "Wikimedia Commons, Hugh Jass, Public domain (The Battle of the Metaurus.png)"

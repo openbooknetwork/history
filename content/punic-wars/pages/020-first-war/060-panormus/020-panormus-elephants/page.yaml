@@ -1,0 +1,29 @@
+date: "Late summer 250 BC"
+title: "The elephants at the walls"
+bbox: [13.34145, 38.08181, 13.39168, 38.12343]
+zones: []
+routes: []
+markers: [panormus-elephants-city, panormus-elephants-metellus, panormus-elephants-skirmishers, panormus-elephants-hasdrubal]
+sources: ['Polybius, Histories, book 1, 40.', 'John Lazenby, The First Punic War (1996).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[13.31, 38.06], [13.325, 38.072], [13.34, 38.083], [13.352, 38.092], [13.362, 38.099], [13.372, 38.103], [13.382, 38.105], [13.391, 38.105]], width: 60, id: oreto, name: The river Oreto}
+  works:
+    - {side: rome, path: [[13.35001, 38.11], [13.36942, 38.11076], [13.36999, 38.12071], [13.35058, 38.12198], [13.35001, 38.11]], width: 45, id: walls, name: The walls of Panormus}
+    - {side: rome, path: [[13.35686, 38.10823], [13.36371, 38.10787]], width: 25, id: earthworks, name: Earthworks between the river and the walls}
+    - {side: rome, path: [[13.36542, 38.10814], [13.37284, 38.10886]], width: 25, id: earthworks, name: Earthworks between the river and the walls}
+    - {side: rome, path: [[13.37456, 38.10805], [13.37855, 38.10732]], width: 25, id: earthworks, name: Earthworks between the river and the walls}
+  units:
+    - {side: carthage, type: infantry, at: [13.37056, 38.09629], width: 1600, depth: 300, facing: 335, id: carthaginian-army, name: 'Hasdrubal’s army, 30,000 men'}
+    - {side: carthage, type: infantry, at: [13.37056, 38.10551], width: 900, depth: 200, facing: 330, id: vanguard, name: Carthaginian infantry across the river}
+    - {side: carthage, type: elephants, at: [13.36714, 38.10741], width: 900, depth: 80, facing: 330, count: 12, id: elephants, name: Elephants driven into the earthworks}
+    - {side: rome, type: light, at: [13.36485, 38.10913], width: 1100, depth: 50, facing: 150, id: skirmishers, name: 'Roman light infantry, aiming at the elephants'}
+    - {side: rome, type: infantry, at: [13.3523, 38.10904], width: 600, depth: 260, facing: 120, id: legions, name: 'Metellus with his legions, out of sight by a gate'}
+  arrows:
+    - {side: carthage, path: [[13.37284, 38.09791], [13.37227, 38.10126], [13.37136, 38.10407]], width: 90, id: crossing, name: Part of the Carthaginian army crosses the Oreto}
+    - {side: rome, path: [[13.362, 38.11574], [13.362, 38.11094]], width: 40, id: javelins, name: Townspeople carry javelins from the city’s stores to the walls}
+    - {side: rome, path: [[13.36657, 38.11619], [13.36657, 38.1113]], width: 40, id: javelins, name: Townspeople carry javelins from the city’s stores to the walls}
+  clashes:
+    - [13.36542, 38.10841]
+images: {}

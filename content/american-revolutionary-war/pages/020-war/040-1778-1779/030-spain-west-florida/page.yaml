@@ -1,0 +1,22 @@
+when: {from: '1779-06-21', to: '1781-05-10'}
+date: "June 1779 to May 1781"
+title: "Spain enters the war and takes West Florida"
+bbox: [-95, 26.5, -78, 35.5]
+zones: [states-1776, new-york-held, savannah-held, louisiana-spanish, florida-west-1781, florida-east-1781]
+routes: []
+markers: [new-orleans, baton-rouge, mobile]
+battle: pensacola-1781
+sources: ['Robert Middlekauff, The Glorious Cause (2005).', 'John Ferling, Almost a Miracle (2007).']
+images:
+  galvez-portrait:
+    file: galvez-portrait.jpg
+    caption: "Bernardo de Gálvez, governor of Louisiana, portrait by an unknown painter"
+    credit: "Wikimedia Commons, Unknown author, Public domain (Portrait of Bernardo de Gálvez.jpg)"
+  west-florida-romans:
+    file: west-florida-romans.jpg
+    caption: "West Florida on a map by Bernard Romans, 1776"
+    credit: "Wikimedia Commons, Bernard Romans, Public domain (BritishWestFlorida1776.jpg)"
+  pensacola-1781:
+    file: pensacola-1781.jpg
+    caption: "The capture of Pensacola, May 1781, engraving by Bertaux and Ponce after Lausan, 1783"
+    credit: "Wikimedia Commons, Lausan (artist), Bertaux and Ponce (engravers), Public domain (CaptureOfPensacola1781.jpg)"

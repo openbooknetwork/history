@@ -1,0 +1,39 @@
+when: {from: '1778-06-28'}
+date: "28 June 1778, noon"
+title: "Monmouth: Washington’s line"
+bbox: [-74.335, 40.248, -74.29, 40.282]
+zones: []
+routes: []
+markers: [monmouth-perrine-washington, monmouth-perrine-monckton, monmouth-perrine-lee]
+sources: ['Mark Edward Lender and Garry Wheeler Stone, Fatal Sunday (2016).', 'Joseph G. Bilby and Katherine Bilby Jenkins, Monmouth Court House (2010).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-74.338, 40.2555], [-74.328, 40.2588], [-74.3165, 40.2625], [-74.309, 40.2598], [-74.3, 40.2572], [-74.29, 40.2555]], width: 30, id: middle-brook, name: Spotswood Middle Brook}
+    - {path: [[-74.333, 40.2845], [-74.318, 40.2795], [-74.303, 40.2755], [-74.29, 40.2722]], width: 25, id: north-brook, name: Spotswood North Brook}
+  works:
+    - {path: [[-74.3582, 40.2973], [-74.345, 40.288], [-74.333, 40.278], [-74.3225, 40.2672], [-74.3165, 40.2625], [-74.305, 40.2612], [-74.29, 40.2608], [-74.2738, 40.2601]], width: 16, id: englishtown-road, name: The road from Englishtown to Monmouth Court House}
+    - {path: [[-74.2738, 40.2601], [-74.262, 40.268], [-74.25, 40.276]], width: 16, id: middletown-road, name: The road to Middletown}
+  units:
+    - {side: usa, type: infantry, at: [-74.3272, 40.2732], width: 600, depth: 120, facing: 120, id: stirling, name: Stirling’s wing on the American left}
+    - {side: usa, type: infantry, at: [-74.3248, 40.2688], width: 600, depth: 130, facing: 115, id: main-body, name: Washington’s main body on Perrine’s Hill}
+    - {side: usa, type: infantry, at: [-74.3202, 40.2664], width: 250, depth: 80, facing: 125, id: wayne, name: 'Wayne’s men, driven from the Point of Woods, re-forming above the bridge'}
+    - {side: usa, type: light, at: [-74.313, 40.2557], width: 220, depth: 50, facing: 80, id: lee, name: 'Lee’s four guns and two battalions, pushed back to a hedgerow'}
+    - {side: held, type: infantry, at: [-74.303, 40.2592], width: 420, depth: 110, facing: 255, id: guards, name: The Guards and the dragoons}
+    - {side: held, type: infantry, at: [-74.304, 40.2546], width: 420, depth: 110, facing: 270, id: grenadiers, name: The Grenadiers}
+    - {side: held, type: infantry, at: [-74.3048, 40.273], width: 320, depth: 90, facing: 265, id: 42nd, name: 'The 42nd Highlanders and the 3rd Brigade, north of the brook'}
+    - {side: held, type: infantry, at: [-74.3172, 40.2632], width: 220, depth: 80, facing: 300, id: monckton, name: 'Monckton’s grenadier battalion, over the bridge and stopped'}
+  arrows:
+    - {side: held, path: [[-74.3052, 40.2594], [-74.3122, 40.2608]], width: 70, id: guards-attack, name: The Guards and dragoons drive Wayne from the Point of Woods within ten minutes}
+    - {side: held, path: [[-74.3058, 40.2549], [-74.3113, 40.2556]], width: 70, id: grenadier-advance, name: The Grenadiers push Lee’s guns back}
+    - {side: held, path: [[-74.3025, 40.2742], [-74.3082, 40.2735]], width: 60, id: 42nd-advance, name: The Highlanders chase Scott’s men}
+    - {side: usa, path: [[-74.309, 40.2722], [-74.3205, 40.2728]], width: 55, id: scott-retreat, name: Part of Scott’s detachment falls back into Stirling’s line, style: dashed}
+    - {side: usa, path: [[-74.3098, 40.2588], [-74.3148, 40.2614], [-74.3188, 40.2652]], width: 60, id: wayne-back, name: Wayne and Lee fall back across the bridge, style: dashed}
+  clashes:
+    - [-74.3185, 40.2648]
+    - [-74.312, 40.2557]
+images:
+  monmouth-chappel:
+    file: monmouth-chappel.jpg
+    caption: "The Battle of Monmouth, engraving by Robert Hinshelwood after Alonzo Chappel"
+    credit: "Wikimedia Commons, Robert Hinshelwood after Alonzo Chappel, Public domain (Battle of Monmouth (NYPL b13075520-422191) cropped.jpg)"

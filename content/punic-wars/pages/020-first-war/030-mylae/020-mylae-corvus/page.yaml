@@ -1,0 +1,25 @@
+date: "260 BC"
+title: "The corvus"
+bbox: [15.1288, 38.25562, 15.24325, 38.32619]
+zones: []
+routes: []
+markers: [mylae-corvus-duilius, mylae-corvus-hannibal, mylae-corvus-main, mylae-corvus-cape]
+sources: ['Polybius, Histories, book 1, 22 to 23.', 'John Lazenby, The First Punic War (1996).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: rome, type: ships, at: [15.1906, 38.29], width: 3200, depth: 500, facing: 270, count: 18, rows: 2, id: roman-fleet, name: 'Roman fleet under Duilius, with a corvus on every ship'}
+    - {side: carthage, type: ships, at: [15.18562, 38.29], width: 2000, depth: 250, facing: 90, count: 10, rows: 1, id: vanguard, name: 'Carthaginian vanguard under Hannibal Gisco, the fastest ships'}
+    - {side: carthage, type: ships, at: [15.16084, 38.29], width: 3600, depth: 500, facing: 90, count: 18, rows: 2, id: main-fleet, name: 'The rest of the Carthaginian fleet, 130 ships in all'}
+  arrows:
+    - {side: carthage, path: [[15.16542, 38.28367], [15.18316, 38.28367]], width: 120, id: onrush, name: The Carthaginians race at the Roman fleet without forming a line}
+    - {side: carthage, path: [[15.16542, 38.29633], [15.18316, 38.29633]], width: 120, id: onrush, name: The Carthaginians race at the Roman fleet without forming a line}
+  clashes:
+    - [15.18705, 38.28276]
+    - [15.18705, 38.29]
+    - [15.18705, 38.29724]
+images:
+  mylae-corvus:
+    file: mylae-corvus.png
+    caption: "A reconstruction of the corvus raised at the bow of a Roman warship, from a Swedish book on inventions, 1926"
+    credit: "Wikimedia Commons, unknown author, Public domain (Corvus änterbrygga.png)"

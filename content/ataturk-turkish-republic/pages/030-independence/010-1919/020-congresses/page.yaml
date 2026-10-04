@@ -2,8 +2,8 @@ when: { from: 1919-06-22, to: 1919-09-11 }
 date: "22 June to 11 September 1919"
 title: "Amasya, Erzurum, Sivas"
 bbox: [33.0, 38.6, 43.0, 42.0]
-zones: [british, greek1919, italian, french]
-routes: [kemal-1919]
+zones: [british, british-south-1919, greek1919, italian, french-1919]
+routes: [kemal-1919, kemal-1919-back]
 markers: [samsun, amasya, erzurum, sivas]
 sources:
   - "Mustafa Kemal Atatürk, Nutuk (1927), sections on the Amasya circular and the two congresses."
@@ -13,11 +13,11 @@ images:
   erzurum-1919:
     file: erzurum-1919.jpg
     caption: "Mustafa Kemal Pasha in Erzurum during preparations for the congress, 5 July 1919"
-    credit: "Wikimedia Commons, Unknown authorUnknown author, Public domain (Mustafa Kemal Paşa, Erzurum, 5 Temmuz 1919.png)"
+    credit: "Wikimedia Commons, Unknown author, Public domain (Mustafa Kemal Paşa, Erzurum, 5 Temmuz 1919.png)"
   sivas-1919:
     file: sivas-1919.jpg
     caption: "Mustafa Kemal Pasha with delegates of the Sivas Congress, September 1919"
-    credit: "Wikimedia Commons, Unknown authorUnknown author, Public domain (Delegates of the Sivas Congress-1.jpg)"
+    credit: "Wikimedia Commons, Unknown author, Public domain (Delegates of the Sivas Congress-1.jpg)"
   sivas-rauf:
     file: sivas-rauf.jpg
     caption: "Rauf, Mustafa Kemal and Ahmet Rüstem at the Sivas Congress, 1919"

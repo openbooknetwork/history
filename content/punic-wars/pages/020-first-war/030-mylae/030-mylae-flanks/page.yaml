@@ -1,0 +1,27 @@
+date: "260 BC"
+title: "The attack on the flanks"
+bbox: [15.1288, 38.25562, 15.24325, 38.32619]
+zones: []
+routes: []
+markers: [mylae-flanks-captured, mylae-flanks-north, mylae-flanks-south, mylae-flanks-duilius, mylae-flanks-cape]
+sources: ['Polybius, Histories, book 1, 23.', 'John Lazenby, The First Punic War (1996).', 'Adrian Goldsworthy, The Fall of Carthage (2006).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: rome, type: ships, at: [15.1906, 38.29], width: 3200, depth: 500, facing: 270, count: 18, rows: 2, id: roman-fleet, name: 'Roman fleet under Duilius, with a corvus on every ship'}
+    - {side: neutral, type: ships, at: [15.18562, 38.29], width: 2000, depth: 250, facing: 90, count: 10, rows: 1, id: captured, name: 'The first 30 Carthaginian ships, taken with the flagship'}
+    - {side: carthage, type: ships, at: [15.18946, 38.30809], width: 1400, depth: 300, facing: 180, count: 7, rows: 1, id: flank-squadron, name: Carthaginian ships attacking the flank}
+    - {side: carthage, type: ships, at: [15.1969, 38.28095], width: 1400, depth: 300, facing: 270, count: 7, rows: 1, id: rear-squadron, name: Carthaginian ships going round to the rear}
+  arrows:
+    - {side: carthage, path: [[15.1597, 38.29814], [15.16542, 38.3099], [15.18145, 38.31081]], width: 120, id: flank-attack, name: Carthaginian ships swing wide to the flank}
+    - {side: carthage, path: [[15.1597, 38.28186], [15.16771, 38.26648], [15.1906, 38.26557], [15.19804, 38.27281]], width: 120, id: rear-attack, name: Carthaginian ships go round to the rear}
+    - {side: carthage, path: [[15.18488, 38.31171], [15.16084, 38.31443], [15.13566, 38.31171]], width: 120, style: dashed, id: escape, name: The surviving Carthaginian ships break off and escape}
+    - {side: carthage, path: [[15.20033, 38.27372], [15.18831, 38.26196], [15.15855, 38.26196], [15.13566, 38.26738]], width: 120, style: dashed, id: escape, name: The surviving Carthaginian ships break off and escape}
+  clashes:
+    - [15.1906, 38.30556]
+    - [15.19426, 38.28095]
+images:
+  mylae-duilius-column:
+    file: mylae-duilius-column.jpg
+    caption: "The column of Gaius Duilius with the rams of captured ships, as reconstructed in an engraving published in Rome in 1575"
+    credit: "Wikimedia Commons, anonymous, CC0 (Speculum Romanae Magnificentiae- Column of Duilius MET DP870466.jpg)"

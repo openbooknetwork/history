@@ -1,4 +1,4 @@
-Mustafa, 1881’de Selanik’te doğar. Babası gümrük memurluğundan kereste ticaretine geçen Ali Rıza Efendi, annesi Zübeyde Hanım’dır. Şehir, Osmanlı İmparatorluğu’nun Avrupa’ya açılan penceresidir: Türklerin, Rumların, Yahudilerin, Bulgarların ve Levantenlerin yaşadığı, demiryolu, konsolosluk ve gazeteleriyle bir liman kenti.
+Mustafa, 1881’de Selanik’te doğar. Babası, küçük bir memurken kereste ticaretine geçen Ali Rıza Efendi, annesi Zübeyde Hanım’dır. Selanik, Osmanlı Balkanları’nın en büyük limanıdır. Kentte Müslüman, Yahudi, Rum ve Bulgar toplulukları yaşar ve Avrupa’ya demiryolu bağlantısı vardır.
 
 @image salonica-birth-house
 

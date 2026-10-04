@@ -1,0 +1,649 @@
+# Markers that pages switch on by id. lnglat is [longitude, latitude].
+# icon: a Lucide icon name. color: a family, or leave out for the accent colour.
+
+# --- Before 264 BC ---
+carthage-270:
+  lnglat: [10.32, 36.85]
+  icon: landmark
+  color: carthage
+  label: "Carthage"
+  note: "Founded from Tyre, by tradition in 814 BC"
+utica-270:
+  lnglat: [10.06, 37.06]
+  icon: anchor
+  color: carthage
+  label: "Utica"
+  note: "The oldest Phoenician town in Africa"
+gades-270:
+  lnglat: [-6.29, 36.53]
+  icon: anchor
+  color: carthage
+  label: "Gades"
+  note: "Phoenician port beyond the strait"
+lilybaeum-270:
+  lnglat: [12.44, 37.80]
+  icon: castle
+  color: carthage
+  label: "Lilybaeum"
+  note: "Carthage’s fortress in western Sicily"
+karalis-270:
+  lnglat: [9.11, 39.22]
+  icon: anchor
+  color: carthage
+  label: "Karalis"
+  note: "Carthaginian port in Sardinia"
+ebusus-270:
+  lnglat: [1.43, 38.91]
+  icon: anchor
+  color: carthage
+  label: "Ebusus"
+  note: "Carthaginian colony on Ibiza"
+rome-270:
+  lnglat: [12.48, 41.89]
+  icon: landmark
+  color: rome
+  label: "Rome"
+  note: "Head of the Italian alliance"
+ariminum-268:
+  lnglat: [12.57, 44.06]
+  icon: landmark
+  color: rome
+  label: "Ariminum"
+  note: "Latin colony, 268 BC"
+heraclea-280:
+  lnglat: [16.68, 40.21]
+  icon: flag
+  color: macedon
+  label: "Heraclea"
+  note: "Pyrrhus defeats the Romans, 280 BC"
+asculum-279:
+  lnglat: [15.56, 41.21]
+  icon: flag
+  color: macedon
+  label: "Asculum"
+  note: "Pyrrhus defeats the Romans again, 279 BC"
+beneventum-275:
+  lnglat: [14.78, 41.13]
+  icon: flag
+  color: rome
+  label: "Beneventum"
+  note: "Pyrrhus’s last battle in Italy, 275 BC"
+tarentum-272:
+  lnglat: [17.24, 40.47]
+  icon: landmark
+  label: "Tarentum"
+  note: "Greek city, surrenders to Rome in 272 BC"
+
+# --- 264 – 241 BC: The First Punic War ---
+syracuse-264:
+  lnglat: [15.29, 37.07]
+  icon: crown
+  color: syracuse
+  label: "Syracuse"
+  note: "Hiero II, allied to Rome from 263 BC"
+rhegium-264:
+  lnglat: [15.65, 38.11]
+  icon: anchor
+  color: rome
+  label: "Rhegium"
+  note: "Roman ally on the Italian side of the strait"
+syracuse-262:
+  lnglat: [15.29, 37.07]
+  icon: crown
+  color: syracuse
+  label: "Syracuse"
+  note: "Roman ally, supplies the army before Agrigentum"
+lilybaeum-262:
+  lnglat: [12.44, 37.80]
+  icon: castle
+  color: carthage
+  label: "Lilybaeum"
+  note: "Carthage’s fortress in western Sicily"
+lipara-260:
+  lnglat: [14.96, 38.47]
+  icon: anchor
+  color: carthage
+  label: "Lipara"
+  note: "The first 17 Roman warships captured in the harbour"
+panormus-260:
+  lnglat: [13.36, 38.12]
+  icon: ship
+  color: carthage
+  label: "Panormus"
+  note: "Base of the Carthaginian fleet"
+heraclea-minoa-256:
+  lnglat: [13.28, 37.39]
+  icon: ship
+  color: carthage
+  label: "Heraclea Minoa"
+  note: "The Carthaginian fleet gathers, 350 warships"
+lilybaeum-256:
+  lnglat: [12.44, 37.80]
+  icon: castle
+  color: carthage
+  label: "Lilybaeum"
+  note: "The Carthaginian fleet takes on soldiers as marines"
+aspis-256:
+  lnglat: [11.09, 36.85]
+  icon: castle
+  color: rome
+  label: "Aspis"
+  note: "Taken by the Romans after their landing, 256 BC"
+adys-256:
+  lnglat: [10.17, 36.61]
+  icon: flag
+  color: rome
+  label: "Adys"
+  note: "Regulus defeats a Carthaginian army, late 256 BC"
+carthage-255:
+  lnglat: [10.32, 36.85]
+  icon: landmark
+  color: carthage
+  label: "Carthage"
+  note: "Refuses the peace terms of Regulus"
+lilybaeum-250:
+  lnglat: [12.44, 37.80]
+  icon: castle
+  color: carthage
+  label: "Lilybaeum"
+  note: "Hasdrubal marches out from here, summer 250 BC"
+thermae-252:
+  lnglat: [13.70, 37.98]
+  icon: landmark
+  color: rome
+  label: "Thermae"
+  note: "Taken by the Romans, 252 BC"
+lilybaeum-249:
+  lnglat: [12.44, 37.80]
+  icon: castle
+  color: carthage
+  label: "Lilybaeum"
+  note: "Besieged by Rome from 250 BC"
+aegusa-250:
+  lnglat: [12.33, 37.93]
+  icon: ship
+  color: carthage
+  label: "Aegusa"
+  note: "Fifty Carthaginian ships wait for a west wind"
+phintias-249:
+  lnglat: [13.94, 37.10]
+  icon: ship
+  color: carthage
+  label: "Phintias"
+  note: "Carthalo defeats a Roman fleet, a storm wrecks the rest, 249 BC"
+eryx-244:
+  lnglat: [12.59, 38.04]
+  icon: flag
+  color: carthage
+  label: "Eryx"
+  note: "Hamilcar Barca holds out on the mountain"
+drepana-241:
+  lnglat: [12.51, 38.02]
+  icon: castle
+  color: carthage
+  label: "Drepana"
+  note: "Besieged until the peace of 241 BC"
+lilybaeum-241:
+  lnglat: [12.44, 37.80]
+  icon: castle
+  color: carthage
+  label: "Lilybaeum"
+  note: "Besieged until the peace of 241 BC"
+aegusa-241:
+  lnglat: [12.33, 37.93]
+  icon: ship
+  color: rome
+  label: "Aegusa"
+  note: "The Roman fleet anchors here the night before the battle"
+
+# --- 241 – 218 BC: Between the wars ---
+carthage-241:
+  lnglat: [10.32, 36.85]
+  icon: landmark
+  color: carthage
+  label: "Carthage"
+  note: "Blockaded by the rebels, 239 – 238 BC"
+sicca-241:
+  lnglat: [8.71, 36.18]
+  icon: flag
+  label: "Sicca"
+  note: "The unpaid army is sent here, 241 BC"
+tunis-238:
+  lnglat: [10.18, 36.80]
+  icon: castle
+  label: "Tunis"
+  note: "Rebel base, besieged by Hamilcar in 238 BC"
+utica-240:
+  lnglat: [10.06, 37.06]
+  icon: castle
+  label: "Utica"
+  note: "Besieged by the rebels, joins them in 239 BC"
+hippo-240:
+  lnglat: [9.87, 37.27]
+  icon: castle
+  label: "Hippo"
+  note: "Besieged by the rebels, joins them in 239 BC"
+leptis-parva-238:
+  lnglat: [10.88, 35.67]
+  icon: flag
+  color: carthage
+  label: "Leptis Parva"
+  note: "Matho’s army is destroyed nearby, 238 BC"
+karalis-238:
+  lnglat: [9.11, 39.22]
+  icon: anchor
+  color: carthage
+  label: "Karalis"
+  note: "Main Carthaginian port of Sardinia"
+tharros-238:
+  lnglat: [8.44, 39.87]
+  icon: anchor
+  color: carthage
+  label: "Tharros"
+  note: "Punic town on the west coast"
+sulci-238:
+  lnglat: [8.45, 39.06]
+  icon: anchor
+  color: carthage
+  label: "Sulci"
+  note: "Punic town on the island of Sant’Antioco"
+alalia-238:
+  lnglat: [9.51, 42.11]
+  icon: anchor
+  color: carthage
+  label: "Alalia"
+  note: "Main town of Corsica, Carthaginian since about 535 BC"
+rome-238:
+  lnglat: [12.48, 41.89]
+  icon: landmark
+  color: rome
+  label: "Rome"
+  note: "Threatens war and takes both islands"
+carthage-238:
+  lnglat: [10.32, 36.85]
+  icon: landmark
+  color: carthage
+  label: "Carthage"
+  note: "Gives up the islands and pays 1,200 talents more"
+gades-237:
+  lnglat: [-6.29, 36.53]
+  icon: anchor
+  color: carthage
+  label: "Gades"
+  note: "Hamilcar lands, probably in summer 237 BC"
+sierra-morena-237:
+  lnglat: [-4.2, 38.3]
+  icon: pickaxe
+  color: carthage
+  label: "Sierra Morena"
+  note: "Silver and gold mines"
+akra-leuke-235:
+  lnglat: [-0.48, 38.35]
+  icon: castle
+  color: carthage
+  label: "Akra Leuke"
+  note: "Founded by Hamilcar, probably in 235 BC"
+new-carthage-227:
+  lnglat: [-0.98, 37.60]
+  icon: landmark
+  color: carthage
+  label: "New Carthage"
+  note: "Founded by Hasdrubal the Fair, about 227 BC"
+ebro-226:
+  lnglat: [0.60, 40.80]
+  icon: scroll-text
+  label: "Ebro"
+  note: "Limit of Carthaginian expansion under the treaty of 226 BC"
+ariminum-225:
+  lnglat: [12.57, 44.06]
+  icon: flag
+  color: rome
+  label: "Ariminum"
+  note: "The army of the consul Aemilius Papus"
+faesulae-225:
+  lnglat: [11.29, 43.81]
+  icon: flag
+  label: "Faesulae"
+  note: "The Gauls defeat a Roman army, 225 BC"
+pisae-225:
+  lnglat: [10.40, 43.72]
+  icon: anchor
+  color: rome
+  label: "Pisae"
+  note: "The consul Atilius Regulus lands from Sardinia"
+rome-225:
+  lnglat: [12.48, 41.89]
+  icon: landmark
+  color: rome
+  label: "Rome"
+  note: "Calls up its Italian allies, 225 BC"
+new-carthage-219:
+  lnglat: [-0.98, 37.60]
+  icon: landmark
+  color: carthage
+  label: "New Carthage"
+  note: "Hannibal winters here, 219 – 218 BC"
+ebro-219:
+  lnglat: [0.60, 40.80]
+  icon: scroll-text
+  label: "Ebro"
+  note: "The treaty line of 226 BC"
+
+# --- 218 – 201 BC: The Second Punic War ---
+massalia-218:
+  lnglat: [5.37, 43.30]
+  icon: anchor
+  color: rome
+  label: "Massalia"
+  note: "Scipio’s army lands, September 218 BC"
+traversette-218:
+  lnglat: [7.07, 44.70]
+  icon: mountain
+  label: "Col de la Traversette"
+  note: "One of the passes proposed for the crossing"
+taurini-218:
+  lnglat: [7.68, 45.07]
+  icon: castle
+  label: "Taurini"
+  note: "Their chief town falls after a three-day siege"
+ticinus-218:
+  lnglat: [9.05, 45.20]
+  icon: flag
+  color: carthage
+  label: "Ticinus"
+  note: "Hannibal’s cavalry defeats Scipio, late November 218 BC"
+placentia-218:
+  lnglat: [9.69, 45.05]
+  icon: castle
+  color: rome
+  label: "Placentia"
+  note: "Roman colony founded in 218 BC, the Roman army camps nearby"
+arretium-217:
+  lnglat: [11.88, 43.46]
+  icon: flag
+  color: rome
+  label: "Arretium"
+  note: "The army of the consul Flaminius, spring 217 BC"
+ariminum-217:
+  lnglat: [12.57, 44.06]
+  icon: flag
+  color: rome
+  label: "Ariminum"
+  note: "The army of the consul Servilius Geminus"
+casilinum-217:
+  lnglat: [14.21, 41.11]
+  icon: castle
+  color: rome
+  label: "Casilinum"
+  note: "Fabius holds the crossing of the Volturnus"
+geronium-217:
+  lnglat: [14.85, 41.74]
+  icon: tent
+  color: carthage
+  label: "Geronium"
+  note: "Hannibal’s winter quarters, 217 – 216 BC"
+canusium-216:
+  lnglat: [16.07, 41.22]
+  icon: castle
+  color: rome
+  label: "Canusium"
+  note: "Survivors gather here after the battle"
+venusia-216:
+  lnglat: [15.81, 40.96]
+  icon: castle
+  color: rome
+  label: "Venusia"
+  note: "Varro escapes here with 70 horsemen"
+emporion-218:
+  lnglat: [3.12, 42.13]
+  icon: anchor
+  label: "Emporion"
+  note: "Greek port where Gnaeus Scipio lands, autumn 218 BC"
+tarraco-218:
+  lnglat: [1.25, 41.12]
+  icon: flag
+  color: rome
+  label: "Tarraco"
+  note: "Roman base after the victory at Cissa, 218 BC"
+new-carthage-218:
+  lnglat: [-0.98, 37.60]
+  icon: landmark
+  color: carthage
+  label: "New Carthage"
+  note: "Capital of Carthaginian Iberia"
+saguntum-212:
+  lnglat: [-0.27, 39.68]
+  icon: castle
+  color: rome
+  label: "Saguntum"
+  note: "Retaken by the Scipios, 212 BC"
+castulo-211:
+  lnglat: [-3.63, 38.04]
+  icon: castle
+  label: "Castulo"
+  note: "Publius Scipio is killed nearby, 211 BC"
+ilorca-211:
+  lnglat: [-1.70, 37.68]
+  icon: flag
+  label: "Ilorca"
+  note: "Gnaeus Scipio is killed, 211 BC"
+nola-216:
+  lnglat: [14.53, 40.93]
+  icon: castle
+  color: rome
+  label: "Nola"
+  note: "Holds out against Hannibal, 216 – 214 BC"
+tarentum-212:
+  lnglat: [17.24, 40.47]
+  icon: castle
+  color: carthage
+  label: "Tarentum"
+  note: "Taken by Hannibal in 212 BC, except the citadel"
+rome-211:
+  lnglat: [12.48, 41.89]
+  icon: landmark
+  color: rome
+  label: "Rome"
+  note: "Hannibal marches to the city, 211 BC"
+leontini-214:
+  lnglat: [15.00, 37.29]
+  icon: landmark
+  color: syracuse
+  label: "Leontini"
+  note: "Hieronymus is killed here, 214 BC"
+agrigentum-212:
+  lnglat: [13.58, 37.31]
+  icon: castle
+  color: carthage
+  label: "Agrigentum"
+  note: "Retaken by Himilco during the siege"
+tarraco-210:
+  lnglat: [1.25, 41.12]
+  icon: flag
+  color: rome
+  label: "Tarraco"
+  note: "Scipio arrives with reinforcements, late 210 BC"
+gades-209:
+  lnglat: [-6.29, 36.53]
+  icon: anchor
+  color: carthage
+  label: "Gades"
+  note: "Carthaginian base in Iberia after 209 BC"
+baecula-208:
+  lnglat: [-3.12, 38.01]
+  icon: flag
+  color: carthage
+  label: "Baecula"
+  note: "Scipio defeats Hasdrubal Barca, 208 BC"
+sena-207:
+  lnglat: [13.22, 43.71]
+  icon: flag
+  color: rome
+  label: "Sena"
+  note: "Livius’s camp, where Nero joins him"
+grumentum-207:
+  lnglat: [15.92, 40.28]
+  icon: flag
+  color: rome
+  label: "Grumentum"
+  note: "Nero fights Hannibal here, then marches north"
+italica-206:
+  lnglat: [-6.04, 37.44]
+  icon: landmark
+  color: rome
+  label: "Italica"
+  note: "Founded by Scipio, about 206 BC"
+gades-206:
+  lnglat: [-6.29, 36.53]
+  icon: anchor
+  color: rome
+  label: "Gades"
+  note: "Shuts its gates to Mago and goes over to Rome, 206 BC"
+utica-204:
+  lnglat: [10.06, 37.06]
+  icon: castle
+  label: "Utica"
+  note: "Besieged by Scipio from 204 BC"
+tunis-203:
+  lnglat: [10.18, 36.80]
+  icon: flag
+  color: rome
+  label: "Tunis"
+  note: "Scipio’s camp in sight of Carthage, 203 BC"
+carthage-203:
+  lnglat: [10.32, 36.85]
+  icon: landmark
+  color: carthage
+  label: "Carthage"
+  note: "Recalls Hannibal and Mago from Italy, 203 BC"
+cirta-203:
+  lnglat: [6.61, 36.36]
+  icon: crown
+  color: numidia
+  label: "Cirta"
+  note: "Syphax’s capital, taken 203 BC"
+hadrumetum-203:
+  lnglat: [10.64, 35.83]
+  icon: anchor
+  color: carthage
+  label: "Hadrumetum"
+  note: "Hannibal’s base after his return from Italy, 203 BC"
+carthage-201:
+  lnglat: [10.32, 36.85]
+  icon: landmark
+  color: carthage
+  label: "Carthage"
+  note: "Accepts Rome’s terms, spring 201 BC"
+
+# --- 201 – 149 BC: After Zama ---
+carthage-196:
+  lnglat: [10.32, 36.85]
+  icon: landmark
+  color: carthage
+  label: "Carthage"
+  note: "Hannibal elected suffete, 196 BC"
+ephesus-195:
+  lnglat: [27.34, 37.94]
+  icon: crown
+  color: macedon
+  label: "Ephesus"
+  note: "Hannibal joins Antiochus III, 195 BC"
+side-190:
+  lnglat: [31.39, 36.77]
+  icon: ship
+  color: macedon
+  label: "Side"
+  note: "The Rhodians defeat Hannibal’s fleet, 190 BC"
+magnesia-190:
+  lnglat: [27.43, 38.61]
+  icon: flag
+  color: rome
+  label: "Magnesia"
+  note: "The Romans defeat Antiochus III, winter 190 to 189 BC"
+libyssa-183:
+  lnglat: [29.43, 40.80]
+  icon: landmark
+  label: "Libyssa"
+  note: "Hannibal’s death, 183 to 181 BC"
+cirta-201:
+  lnglat: [6.61, 36.37]
+  icon: crown
+  color: numidia
+  label: "Cirta"
+  note: "Capital of Masinissa’s kingdom"
+thugga-150:
+  lnglat: [9.22, 36.42]
+  icon: landmark
+  color: numidia
+  label: "Thugga"
+  note: "Numidian town, present-day Dougga"
+carthage-151:
+  lnglat: [10.32, 36.85]
+  icon: landmark
+  color: carthage
+  label: "Carthage"
+  note: "Pays the last instalment of the indemnity, 151 BC"
+rome-153:
+  lnglat: [12.48, 41.89]
+  icon: landmark
+  color: rome
+  label: "Rome"
+  note: "Cato calls for the destruction of Carthage"
+
+# --- 149 – 146 BC: The Third Punic War ---
+utica-149:
+  lnglat: [10.06, 37.06]
+  icon: anchor
+  color: rome
+  label: "Utica"
+  note: "Sides with Rome, Roman landing, 149 BC"
+hippo-148:
+  lnglat: [9.87, 37.27]
+  icon: castle
+  color: carthage
+  label: "Hippo"
+  note: "Holds out against the consul Piso, 148 BC"
+aspis-148:
+  lnglat: [11.10, 36.85]
+  icon: castle
+  color: carthage
+  label: "Aspis"
+  note: "Holds out against the consul Piso, 148 BC"
+nepheris-149:
+  lnglat: [10.38, 36.64]
+  icon: flag
+  color: carthage
+  label: "Nepheris"
+  note: "Camp of Hasdrubal’s field army, 149 to 147 BC"
+byrsa-146:
+  lnglat: [10.323, 36.853]
+  icon: castle
+  color: carthage
+  label: "Byrsa"
+  note: "The citadel and the temple of Eshmoun, the last stand"
+ports-146:
+  lnglat: [10.325, 36.845]
+  icon: anchor
+  color: carthage
+  label: "Punic harbours"
+  note: "Scipio’s mole and the assault, spring 146 BC"
+
+# --- After 146 BC: Epilogue ---
+utica-146:
+  lnglat: [10.06, 37.06]
+  icon: landmark
+  color: rome
+  label: "Utica"
+  note: "Seat of the Roman governor of Africa"
+cirta-146:
+  lnglat: [6.61, 36.37]
+  icon: crown
+  color: numidia
+  label: "Cirta"
+  note: "Capital of the Numidian kingdom"
+carthage-29:
+  lnglat: [10.32, 36.85]
+  icon: landmark
+  color: rome
+  label: "Carthage"
+  note: "Roman colony founded by Augustus, 29 BC"

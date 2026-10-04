@@ -1,0 +1,35 @@
+date: "209 BC, afternoon"
+title: "Across the lagoon"
+bbox: [-1.0045, 37.5885, -0.9645, 37.6195]
+zones: []
+routes: []
+markers: [new-carthage-2-five-hundred, new-carthage-2-gate, new-carthage-2-feint, new-carthage-2-defenders]
+sources: ['Polybius, Histories, book 10, 14 to 15.', 'Livy, History of Rome, book 26, 45 to 46.', 'J. H. Richardson, The Romans and the lagoon at New Carthage, in Historia (2018).']
+emblem:
+  kind: battle-plan
+  water:
+    - {area: [[-0.9965, 37.6058], [-0.993, 37.6052], [-0.99, 37.6049], [-0.9868, 37.6048], [-0.9835, 37.6047], [-0.98, 37.6045], [-0.977, 37.6042], [-0.9735, 37.6048], [-0.97, 37.6062], [-0.9678, 37.6085], [-0.9672, 37.6112], [-0.9688, 37.6142], [-0.9725, 37.6168], [-0.978, 37.6182], [-0.984, 37.6186], [-0.9895, 37.6178], [-0.994, 37.616], [-0.9975, 37.6132], [-0.9995, 37.61], [-0.999, 37.6075]], id: lagoon, name: The lagoon north of the city}
+    - {area: [[-1.002, 37.5985], [-0.999, 37.5982], [-0.996, 37.5978], [-0.993, 37.5973], [-0.99, 37.597], [-0.9868, 37.5967], [-0.9835, 37.5966], [-0.98, 37.5967], [-0.977, 37.5971], [-0.9745, 37.5978], [-0.972, 37.5983], [-0.9695, 37.5987], [-0.9672, 37.598], [-0.9662, 37.596], [-0.9672, 37.5938], [-0.97, 37.5922], [-0.975, 37.5908], [-0.98, 37.59], [-0.986, 37.5896], [-0.992, 37.5895], [-0.998, 37.5902], [-1.003, 37.592]], id: harbour, name: The harbour bay}
+    - {path: [[-0.9952, 37.6052], [-0.9958, 37.602], [-0.996, 37.5982]], width: 70, id: channel, name: The channel between the lagoon and the bay}
+  works:
+    - {side: carthage, path: [[-0.97556, 37.601], [-0.97563, 37.60145], [-0.97583, 37.60189], [-0.97617, 37.60232], [-0.97663, 37.60272], [-0.9772, 37.60309], [-0.97789, 37.60343], [-0.97867, 37.60373], [-0.97953, 37.60398], [-0.98046, 37.60418], [-0.98145, 37.60432], [-0.98246, 37.60441], [-0.9835, 37.60444], [-0.98454, 37.60441], [-0.98555, 37.60432], [-0.98654, 37.60418], [-0.98747, 37.60398], [-0.98833, 37.60373], [-0.98911, 37.60343], [-0.9898, 37.60309], [-0.99037, 37.60272], [-0.99083, 37.60232], [-0.99117, 37.60189], [-0.99137, 37.60145], [-0.99144, 37.601], [-0.99137, 37.60055], [-0.99117, 37.60011], [-0.99083, 37.59968], [-0.99037, 37.59928], [-0.9898, 37.59891], [-0.98911, 37.59857], [-0.98833, 37.59827], [-0.98747, 37.59802], [-0.98654, 37.59782], [-0.98555, 37.59768], [-0.98454, 37.59759], [-0.9835, 37.59756], [-0.98246, 37.59759], [-0.98145, 37.59768], [-0.98046, 37.59782], [-0.97953, 37.59802], [-0.97867, 37.59827], [-0.97789, 37.59857], [-0.9772, 37.59891], [-0.97663, 37.59928], [-0.97617, 37.59968], [-0.97583, 37.60011], [-0.97563, 37.60055], [-0.97556, 37.601]], width: 45, id: city-wall, name: 'The city wall, about 3.7 km'}
+  units:
+    - {side: rome, type: camp, at: [-0.96676, 37.60147], width: 380, depth: 300, facing: 270, id: roman-camp, name: Scipio’s camp on the isthmus}
+    - {side: rome, type: infantry, at: [-0.97435, 37.60129], width: 220, depth: 110, facing: 270, id: testudo, name: Legionaries under shields at the east gate}
+    - {side: rome, type: ships, at: [-0.98354, 37.59577], width: 1000, depth: 160, facing: 0, count: 10, id: laelius, name: Laelius’s fleet of 35 galleys}
+    - {side: rome, type: infantry, at: [-0.99896, 37.60256], width: 220, depth: 80, facing: 90, id: feint, name: Roman troops at the western channel}
+    - {side: carthage, type: infantry, at: [-0.97662, 37.60111], width: 300, depth: 60, facing: 90, id: gate-defenders, name: Defenders at the east gate}
+    - {side: carthage, type: infantry, at: [-0.98354, 37.59821], width: 600, depth: 50, facing: 180, id: south-defenders, name: Defenders on the south wall}
+  arrows:
+    - {side: rome, path: [[-0.98263, 37.61776], [-0.98297, 37.61296], [-0.98286, 37.60681], [-0.98195, 37.60482]], width: 70, id: lagoon-crossing, name: Five hundred picked men wade across the lagoon}
+    - {side: rome, path: [[-0.98093, 37.60419], [-0.97855, 37.604], [-0.97628, 37.60256]], width: 60, id: north-wall, name: Over the empty north wall to the gate}
+    - {side: rome, path: [[-0.98263, 37.59577], [-0.98263, 37.59758]], width: 60, id: galley-attack, name: The galleys attack the south wall again}
+    - {side: rome, path: [[-0.99805, 37.60256], [-0.99635, 37.60256]], width: 50, id: feint-attack, name: The feint at the western channel}
+  clashes:
+    - {at: [-0.97537, 37.60129], size: 90}
+    - {at: [-0.98263, 37.59758], size: 90}
+images:
+  new-carthage-furnius:
+    file: new-carthage-furnius.jpg
+    caption: "The capture of Carthago Nova, engraving by Pieter Furnius in a 16th century series on the story of Scipio Africanus"
+    credit: "Wikimedia Commons, Pieter Furnius, CC BY 4.0 (The story of Scipio Africanus The conquest of Carthago Nova in Spain (Strenuitas) PK-1891-P-6.jpg)"

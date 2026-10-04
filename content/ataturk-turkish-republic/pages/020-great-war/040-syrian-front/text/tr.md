@@ -1,4 +1,4 @@
-Ağustos 1918’de Yedinci Ordu komutanı olarak Filistin cephesine döner; 19 Eylül’de Allenby’nin Megiddo taarruzuyla karşılaşır. Osmanlı hattı çöker. Ordusundan kalanları Şam üzerinden kuzeye, Halep’e getirir ve 26 Ekim’de şehrin kuzeyinde, aşağı yukarı bugünkü Türkiye sınırında, Katma’da bir hat tutar.
+Ağustos 1918’de Yedinci Ordu komutanı olarak Filistin cephesine döner. 19 Eylül’de Allenby’nin Megiddo taarruzu Osmanlı hattını yarar. Ordusundan kalanları Şam üzerinden kuzeye, Halep’e getirir ve 26 Ekim’de şehrin kuzeyinde, bugünkü Türkiye–Suriye sınırına yakın Katma’da bir hat tutar.
 
 @image adana-1918
 

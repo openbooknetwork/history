@@ -1,0 +1,5 @@
+Fort Sullivan guards the channel into Charleston harbour from the southern end of Sullivan’s Island, a sandy island about four miles long. Only its seaward wall is finished, palmetto logs filled with sand, mounting 31 guns. Colonel William Moultrie holds it with 435 men of the 2nd South Carolina Regiment and the 4th South Carolina Artillery. General Charles Lee, who commands in Charleston, has called it a slaughter pen.
+
+@image charleston-bar-plan-1776
+
+At about 9 a.m. Admiral Peter Parker’s squadron moves in. The 50-gun Bristol and Experiment, with Active and Solebay, anchor about 400 yards off the fort and open broadsides, while the bomb vessel Thunder fires from about a mile and a half. The spongy palmetto logs absorb the shot instead of splintering, and Moultrie’s gunners, short of powder, fire slowly and aim at the two large ships. On Long Island to the north, General Henry Clinton’s 2,200 troops try to cross the inlet in boats and are driven back by Colonel William Thomson’s riflemen and guns.

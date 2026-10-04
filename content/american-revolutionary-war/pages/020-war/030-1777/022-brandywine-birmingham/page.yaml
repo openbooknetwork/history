@@ -1,0 +1,40 @@
+when: {from: '1777-09-11'}
+date: "11 September 1777, 4 pm"
+title: "Brandywine: Birmingham Hill"
+bbox: [-75.628, 39.866, -75.565, 39.928]
+zones: []
+routes: []
+markers: [brandywine-birmingham-lafayette, brandywine-birmingham-howe]
+sources: ['Michael C. Harris, Brandywine (2014).', 'Thomas J. McGuire, The Philadelphia Campaign, volume 1 (2006).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-75.633, 39.926], [-75.618, 39.915], [-75.606, 39.903], [-75.598, 39.89], [-75.594, 39.879], [-75.5915, 39.8718], [-75.588, 39.858], [-75.583, 39.84], [-75.578, 39.82], [-75.575, 39.802], [-75.572, 39.79]], width: 45, id: brandywine, name: Brandywine Creek}
+    - {path: [[-75.703, 39.931], [-75.687, 39.923], [-75.665, 39.9215], [-75.645, 39.9235], [-75.633, 39.926]], width: 32, id: west-branch, name: 'The West Branch, crossed at Trimble’s Ford'}
+    - {path: [[-75.642, 39.962], [-75.636, 39.939], [-75.633, 39.926]], width: 32, id: east-branch, name: 'The East Branch, crossed at Jefferis Ford'}
+  works:
+    - {path: [[-75.7106, 39.8445], [-75.665, 39.857], [-75.64, 39.863], [-75.5915, 39.8718], [-75.565, 39.873], [-75.552, 39.871]], width: 18, id: great-road, name: The Great Road from Kennett Square to Chester}
+  units:
+    - {side: held, type: infantry, at: [-75.6022, 39.9112], width: 500, depth: 120, facing: 175, id: guards, name: The Brigade of Guards}
+    - {side: held, type: infantry, at: [-75.5958, 39.9122], width: 550, depth: 120, facing: 180, id: grenadiers, name: British grenadiers in the centre}
+    - {side: held, type: light, at: [-75.5882, 39.9112], width: 500, depth: 70, facing: 190, id: light-infantry, name: British light infantry and the jägers}
+    - {side: held, type: infantry, at: [-75.5985, 39.9188], width: 600, depth: 140, facing: 180, id: reserve, name: Hessian grenadiers and the 4th Brigade in reserve}
+    - {side: usa, type: infantry, at: [-75.6012, 39.9035], width: 500, depth: 110, facing: 0, id: sullivan, name: 'Sullivan’s division with de Borre’s brigade, caught forming'}
+    - {side: usa, type: infantry, at: [-75.5945, 39.9025], width: 500, depth: 110, facing: 0, id: stirling, name: Stirling’s division}
+    - {side: usa, type: light, at: [-75.5913, 39.9032], width: 140, depth: 40, facing: 0, id: battery, name: American battery on the knoll}
+    - {side: usa, type: infantry, at: [-75.5878, 39.903], width: 500, depth: 110, facing: 10, id: stephen, name: Stephen’s division}
+    - {side: held, type: infantry, at: [-75.6195, 39.8708], width: 800, depth: 260, facing: 90, id: knyphausen, name: Knyphausen waiting across the ford}
+    - {side: usa, type: infantry, at: [-75.5845, 39.873], width: 700, depth: 200, facing: 270, id: greene, name: 'Greene’s division, still at Chadds Ford'}
+  arrows:
+    - {side: held, path: [[-75.6025, 39.9095], [-75.6016, 39.905]], width: 90, id: guards-attack, name: The Guards rout de Borre’s brigade}
+    - {side: held, path: [[-75.5958, 39.9105], [-75.5947, 39.9043]], width: 90, id: grenadier-charge, name: The grenadiers’ bayonet charge}
+    - {side: held, path: [[-75.5882, 39.9098], [-75.5879, 39.9047]], width: 80, id: light-attack, name: Light infantry and jägers drive Stephen back}
+    - {side: usa, path: [[-75.6015, 39.9015], [-75.5985, 39.8935]], width: 80, id: sullivan-rout, name: Sullivan’s division breaks, style: dashed}
+  clashes:
+    - [-75.5946, 39.9056]
+    - [-75.5881, 39.9056]
+images:
+  brandywine-osborne-hill:
+    file: brandywine-osborne-hill.jpg
+    caption: "The view from Osborne’s Hill along Birmingham Road towards the American positions"
+    credit: "Wikimedia Commons, Djmaschek, CC BY-SA 3.0 (Brandywine Osborne's Hill View.jpg)"

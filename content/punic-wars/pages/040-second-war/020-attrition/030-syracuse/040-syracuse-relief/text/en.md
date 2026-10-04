@@ -1,0 +1,3 @@
+Hippocrates and the Carthaginian general Himilco bring their army to the river Anapus and camp near the temple of Olympian Zeus, south of the city. A Carthaginian fleet under Bomilcar brings supplies into the Great Harbour. Hippocrates attacks the Roman lines while Epicydes makes a sortie from Achradina, and both attacks are beaten off.
+
+In the autumn a plague breaks out in the low, marshy ground by the river. It strikes both armies, but the Carthaginians, camped in the open by the marsh, suffer most. Himilco and Hippocrates die and their army breaks up, and Bomilcar’s later attempt to bring a larger fleet ends without a battle.

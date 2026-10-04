@@ -1,0 +1,5 @@
+The expedition from Havana arrives off the entrance to Pensacola Bay on 9 March 1781 with about 1,300 regulars, among them 319 men of the Irish Hibernia Regiment under Arturo O’Neill. Troops land on Santa Rosa Island, the barrier island in front of the bay. O’Neill’s men set up guns at its undefended battery and drive off the British ships sheltering in the bay.
+
+Bringing the fleet in proves harder. The 64-gun San Ramón grounds in the channel, and the fleet commander, José Calvo de Irazabal, refuses to send more ships in under the guns of the Barrancas Coloradas battery. On 18 March Gálvez boards the Gálveztown, one of the Louisiana ships under his own authority, and sails her through the channel. The other Louisiana ships follow under ineffective British fire, and the rest of the fleet enters the next day.
+
+Calvo sails back to Havana in the San Ramón. On 24 March the army moves to the mainland, where troops from Mobile join it. On 28 March O’Neill’s scouts beat off an attack by about 400 Choctaw allies of the British.

@@ -1,0 +1,41 @@
+when: {from: '1775-06-17'}
+date: "17 June 1775, evening"
+title: "Bunker Hill: the third attack"
+bbox: [-71.07741, 42.37064, -71.05322, 42.38625]
+zones: []
+routes: []
+markers: [bunker-hill-third-attack-warren, bunker-hill-third-attack-pitcairn, bunker-hill-third-attack-prescott, bunker-hill-third-attack-clinton, bunker-hill-third-attack-neck]
+sources: ['Richard M. Ketchum, Decisive Day: The Battle for Bunker Hill (1999).', 'Nathaniel Philbrick, Bunker Hill (2013).']
+emblem:
+  kind: battle-plan
+  water:
+    - {area: [[-71.07431, 42.38169], [-71.06845, 42.38272], [-71.06246, 42.3814], [-71.05809, 42.37979], [-71.05385, 42.37802], [-71.05087, 42.37642], [-71.05243, 42.37333], [-71.03747, 42.36837], [-71.02896, 42.37934], [-71.03843, 42.38341], [-71.04433, 42.38124], [-71.0696, 42.39209], [-71.07684, 42.38277]], id: mystic, name: The Mystic River}
+    - {area: [[-71.0745, 42.37999], [-71.07, 42.37712], [-71.06552, 42.37384], [-71.06056, 42.37118], [-71.05629, 42.37144], [-71.05243, 42.37333], [-71.03747, 42.36837], [-71.04367, 42.36038], [-71.05501, 42.36596], [-71.05701, 42.36847], [-71.06122, 42.36708], [-71.065, 42.36396], [-71.06945, 42.36696], [-71.07364, 42.37242], [-71.07737, 42.37757], [-71.07787, 42.38144]], id: charles, name: 'The Charles River, between Charlestown and Boston'}
+  works:
+    - {side: usa, path: [[-71.0613, 42.3762], [-71.06093, 42.37667], [-71.0603, 42.3764], [-71.06067, 42.37593], [-71.0613, 42.3762]], width: 12, id: redoubt, name: 'The redoubt on Breed’s Hill, about 40 metres on a side'}
+    - {side: usa, path: [[-71.06047, 42.37651], [-71.0597, 42.37739]], width: 10, id: breastwork, name: The breastwork dug at daylight}
+    - {side: usa, path: [[-71.06144, 42.37856], [-71.05996, 42.38045]], width: 8, id: rail-fence, name: 'The rail fence, packed with hay'}
+    - {side: usa, path: [[-71.05996, 42.38045], [-71.05978, 42.38079]], width: 12, id: stone-wall, name: Stark’s stone wall down the beach to the water}
+  units:
+    - {side: usa, type: infantry, at: [-71.0608, 42.3763], width: 40, depth: 30, facing: 120, id: prescott, name: 'About 150 defenders left in the redoubt, almost out of powder'}
+    - {side: usa, type: infantry, at: [-71.0612, 42.3795], width: 190, depth: 22, facing: 120, id: knowlton, name: 'Knowlton’s and Stark’s men, withdrawing in order'}
+    - {side: usa, type: infantry, at: [-71.06549, 42.38002], width: 200, depth: 70, facing: 120, id: putnam, name: Putnam tries to rally the retreating men on Bunker Hill}
+    - {side: held, type: infantry, at: [-71.05879, 42.37617], width: 40, depth: 200, facing: 275.003511005998, id: grenadier-column, name: 'Grenadiers in column, packs left behind'}
+    - {side: held, type: infantry, at: [-71.0599, 42.37492], width: 40, depth: 200, facing: 334.2755230204386, id: pigot-column, name: Pigot’s men in column against the redoubt}
+    - {side: held, type: infantry, at: [-71.05859, 42.37734], width: 40, depth: 160, facing: 254.63391794444374, id: breastwork-column, name: A column against the breastwork}
+    - {side: held, type: light, at: [-71.0594, 42.37883], width: 200, depth: 40, facing: 300, id: fence-feint, name: A feint against the rail fence}
+    - {side: held, type: infantry, at: [-71.06132, 42.37255], width: 220, depth: 50, facing: 5.8491995459321515, id: clinton, name: 'Clinton’s reinforcements, about 400 of the 2nd Marines and the 63rd'}
+    - {side: held, type: ships, at: [-71.07363, 42.37805], width: 120, depth: 120, facing: 40, count: 1, id: glasgow, name: HMS Glasgow firing on the Neck}
+  arrows:
+    - {side: held, path: [[-71.05858, 42.36741], [-71.06003, 42.3697], [-71.06105, 42.37181]], width: 34, id: clinton-crossing, name: Clinton crosses from Boston}
+    - {side: usa, path: [[-71.0614, 42.37635], [-71.06341, 42.37836], [-71.06579, 42.38001], [-71.07097, 42.38129], [-71.07451, 42.38125]], width: 34, id: redoubt-retreat, name: The defenders fall back over Bunker Hill to the Neck, style: dashed}
+    - {side: usa, path: [[-71.0614, 42.37969], [-71.06451, 42.38092], [-71.06924, 42.3817], [-71.07356, 42.38157]], width: 34, id: fence-retreat, name: Stark and Knowlton cover the retreat, style: dashed}
+  clashes:
+    - {at: [-71.0608, 42.3763], size: 70}
+    - {at: [-71.05976, 42.377], size: 45}
+    - {at: [-71.07447, 42.38102], size: 60}
+images:
+  bunker-hill-pyle:
+    file: bunker-hill-pyle.jpg
+    caption: "British regulars climb Breed’s Hill, painting by Howard Pyle, 1897"
+    credit: "Wikimedia Commons, Howard Pyle, Public domain (Bunker Hill by Pyle.jpg)"

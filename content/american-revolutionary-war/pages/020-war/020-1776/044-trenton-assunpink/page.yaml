@@ -1,0 +1,34 @@
+when: {from: '1777-01-02'}
+date: "2 January 1777"
+title: "Trenton: Assunpink Creek"
+bbox: [-74.79, 40.2, -74.723, 40.245]
+zones: []
+routes: []
+markers: [trenton-assunpink-cornwallis, trenton-assunpink-washington]
+sources: ['David Hackett Fischer, Washington’s Crossing (2004).', 'Richard M. Ketchum, The Winter Soldiers (1973).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-74.912, 40.338], [-74.886, 40.313], [-74.868, 40.2965], [-74.838, 40.264], [-74.818, 40.25], [-74.797, 40.236], [-74.783, 40.226], [-74.778, 40.2195], [-74.7765, 40.207], [-74.771, 40.195], [-74.764, 40.183]], width: 220, id: delaware, name: The Delaware River}
+    - {path: [[-74.73, 40.226], [-74.741, 40.2232], [-74.749, 40.2207], [-74.756, 40.2178], [-74.7605, 40.2158], [-74.766, 40.2125], [-74.771, 40.21], [-74.7752, 40.2088]], width: 35, id: assunpink, name: Assunpink Creek}
+  works:
+    - {path: [[-74.7637, 40.2264], [-74.7663, 40.2207], [-74.769, 40.215]], width: 14, id: king-street, name: King Street}
+    - {path: [[-74.7637, 40.2264], [-74.7621, 40.2212], [-74.7605, 40.2158], [-74.7598, 40.2135]], width: 14, id: queen-street, name: 'Queen Street, over the Assunpink bridge'}
+    - {path: [[-74.7637, 40.2264], [-74.77, 40.233], [-74.776, 40.24]], width: 14, id: pennington-road, name: The Pennington road}
+    - {path: [[-74.788, 40.236], [-74.78, 40.229], [-74.774, 40.2215]], width: 14, id: river-road, name: The River road}
+    - {path: [[-74.7637, 40.2264], [-74.756, 40.233], [-74.748, 40.24]], width: 14, id: princeton-road, name: The road to Princeton}
+  units:
+    - {side: usa, type: infantry, at: [-74.749, 40.2183], width: 1800, depth: 200, facing: 335, id: american-line, name: 'Washington’s army, about 6,000, behind the Assunpink'}
+    - {side: usa, type: light, at: [-74.7603, 40.214], width: 160, depth: 40, facing: 0, id: bridge-guns, name: Guns covering the bridge}
+    - {side: held, type: infantry, at: [-74.762, 40.2238], width: 900, depth: 300, facing: 160, id: cornwallis, name: 'Cornwallis’s army, about 8,000, in Trenton'}
+  arrows:
+    - {side: usa, path: [[-74.742, 40.2405], [-74.756, 40.2292], [-74.7598, 40.2192]], width: 70, id: delaying, name: Washington’s detachments fall back after a day of skirmishing, style: dashed}
+    - {side: held, path: [[-74.7628, 40.2203], [-74.7607, 40.2166]], width: 70, id: bridge-attacks, name: Three attempts to force the bridge}
+    - {side: usa, path: [[-74.741, 40.2158], [-74.7345, 40.2108], [-74.7265, 40.2118]], width: 90, id: night-march, name: The night march to Princeton by the Quaker Bridge road}
+  clashes:
+    - [-74.7609, 40.2171]
+images:
+  trenton-trumbull-assunpink:
+    file: trenton-trumbull-assunpink.jpeg
+    caption: "General George Washington at Trenton on the night of 2 January 1777, painting by John Trumbull, 1792"
+    credit: "Wikimedia Commons, John Trumbull, Public domain (General George Washington at Trenton by John Trumbull.jpeg)"

@@ -1,0 +1,40 @@
+when: {from: '1776-12-26'}
+date: "26 December 1776, 8 am"
+title: "Trenton: the attack"
+bbox: [-74.788, 40.205, -74.74, 40.241]
+zones: []
+routes: []
+markers: [trenton-attack-washington, trenton-attack-knox, trenton-attack-rall]
+sources: ['David Hackett Fischer, Washington’s Crossing (2004).', 'Richard M. Ketchum, The Winter Soldiers (1973).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-74.912, 40.338], [-74.886, 40.313], [-74.868, 40.2965], [-74.838, 40.264], [-74.818, 40.25], [-74.797, 40.236], [-74.783, 40.226], [-74.778, 40.2195], [-74.7765, 40.207], [-74.771, 40.195], [-74.764, 40.183]], width: 220, id: delaware, name: The Delaware River}
+    - {path: [[-74.73, 40.226], [-74.741, 40.2232], [-74.749, 40.2207], [-74.756, 40.2178], [-74.7605, 40.2158], [-74.766, 40.2125], [-74.771, 40.21], [-74.7752, 40.2088]], width: 35, id: assunpink, name: Assunpink Creek}
+  works:
+    - {path: [[-74.7637, 40.2264], [-74.7663, 40.2207], [-74.769, 40.215]], width: 14, id: king-street, name: King Street}
+    - {path: [[-74.7637, 40.2264], [-74.7621, 40.2212], [-74.7605, 40.2158], [-74.7598, 40.2135]], width: 14, id: queen-street, name: 'Queen Street, over the Assunpink bridge'}
+    - {path: [[-74.7637, 40.2264], [-74.77, 40.233], [-74.776, 40.24]], width: 14, id: pennington-road, name: The Pennington road}
+    - {path: [[-74.788, 40.236], [-74.78, 40.229], [-74.774, 40.2215]], width: 14, id: river-road, name: The River road}
+    - {path: [[-74.7637, 40.2264], [-74.756, 40.233], [-74.748, 40.24]], width: 14, id: princeton-road, name: The road to Princeton}
+  units:
+    - {side: usa, type: infantry, at: [-74.766, 40.2305], width: 600, depth: 150, facing: 160, id: greene, name: 'Greene’s division: Stephen’s, Mercer’s and Stirling’s brigades'}
+    - {side: usa, type: light, at: [-74.764, 40.2278], width: 260, depth: 45, facing: 190, id: guns, name: American guns firing down King and Queen streets}
+    - {side: usa, type: light, at: [-74.7686, 40.2222], width: 240, depth: 45, facing: 100, id: mercer, name: Mercer’s men firing from the houses along King Street}
+    - {side: usa, type: light, at: [-74.756, 40.232], width: 420, depth: 55, facing: 200, id: hand, name: Hand’s riflemen and the German Battalion block the Princeton road}
+    - {side: usa, type: infantry, at: [-74.772, 40.2228], width: 400, depth: 120, facing: 140, id: sullivan, name: 'Sullivan’s division, with Stark, from the River road'}
+    - {side: usa, type: infantry, at: [-74.76, 40.2146], width: 200, depth: 80, facing: 0, id: bridge-guard, name: Sullivan’s men holding the Assunpink bridge}
+    - {side: '#9c6b30', type: infantry, at: [-74.7671, 40.2192], width: 220, depth: 80, facing: 15, id: rall, name: Rall regiment and part of the Lossberg regiment in King Street}
+    - {side: '#9c6b30', type: infantry, at: [-74.7612, 40.2186], width: 180, depth: 80, facing: 0, id: knyphausen, name: Knyphausen regiment at the lower end of Queen Street}
+  arrows:
+    - {side: usa, path: [[-74.7705, 40.2372], [-74.7668, 40.2322]], width: 70, id: greene-advance, name: Greene overruns the outpost on the Pennington road}
+    - {side: usa, path: [[-74.7805, 40.2298], [-74.7738, 40.2242]], width: 70, id: sullivan-advance, name: Sullivan enters by the River road}
+    - {side: '#9c6b30', path: [[-74.7668, 40.2204], [-74.7651, 40.2244]], width: 50, id: rall-attack, name: 'Rall’s attack up King Street, broken by the guns'}
+    - {side: '#9c6b30', path: [[-74.7742, 40.2252], [-74.7695, 40.2155], [-74.7663, 40.2104]], width: 45, id: jagers, name: 'The jägers run, some swimming the Assunpink', style: dashed}
+  clashes:
+    - [-74.7652, 40.2252]
+images:
+  trenton-wiederhold-plan:
+    file: trenton-wiederhold-plan.jpg
+    caption: "Plan of the battle drawn by Andreas Wiederholdt, the Hessian officer commanding the outpost on the Pennington road, published 1884"
+    credit: "Wikimedia Commons, Andreas Wiederholdt, Public domain (The Hessians - Wiederhold's plan of the Battle of Trenton.jpg)"

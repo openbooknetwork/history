@@ -1,0 +1,18 @@
+when: {from: '1776-05-06', to: '1776-11-02'}
+date: "May to November 1776"
+title: "The retreat from Canada and Valcour Island"
+bbox: [-75.5, 42.8, -70.5, 47.2]
+zones: [colonies-1763, quebec-1774, nova-scotia]
+routes: [retreat-1776]
+markers: [quebec-1776, trois-rivieres, crown-point-1776]
+battle: valcour-island
+sources: ['Mark R. Anderson, The Battle for the Fourteenth Colony (2013).', 'Robert Middlekauff, The Glorious Cause (2005).']
+images:
+  valcour-gilder:
+    file: valcour-gilder.jpg
+    caption: "The battle of Valcour Island, October 1776, watercolour by Henry Gilder"
+    credit: "Wikimedia Commons, Henry Gilder (1743-1808), Public domain (Battle of Valcour Island, 1776 RCIN 734022.jpg)"
+  valcour-map-1776:
+    file: valcour-map-1776.jpg
+    caption: "The attack on Benedict Arnold's fleet at Valcour Island, 11 October 1776, map published by William Faden, 1776"
+    credit: "Wikimedia Commons, William Faden, CC BY-SA 4.0 (Battle of Valcour Island (Oct 11, 1776).jpg)"

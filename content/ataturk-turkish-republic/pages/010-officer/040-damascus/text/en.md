@@ -1,4 +1,4 @@
-In Damascus he serves with the cavalry against Druze unrest in the Hauran and sees how the provinces are run. In 1906 he founds a small secret society, Vatan ve Hürriyet, Fatherland and Freedom, and travels in secret to Selanik to open a branch there. In 1907 he is posted back to Macedonia and joins the Committee of Union and Progress.
+In Damascus he serves with a cavalry regiment in the Hauran. In 1906 he and a few fellow officers form a secret society, Vatan, Fatherland. He travels in secret to Selanik and starts a branch there under the name Vatan ve Hürriyet, Fatherland and Freedom. In 1907 he is posted back to Macedonia and joins the Committee of Union and Progress.
 
 @image damascus-1906
 

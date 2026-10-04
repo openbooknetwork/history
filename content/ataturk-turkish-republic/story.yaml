@@ -1,7 +1,7 @@
 # One story: a timeline shown on one map.
 id: ataturk-turkish-republic
 title: "Atatürk and the Turkish Republic"
-summary: From a Salonica childhood through Gallipoli and the War of Independence to the founding of the Republic in 1923, as a map that moves with the story.
+summary: From a Salonica childhood through Gallipoli and the War of Independence to the founding of the Republic in 1923.
 cover: cover.jpg              # Mustafa Kemal at Kocatepe, 26 August 1922; shown on the main page
 languages: [en, tr]
 default_language: en
@@ -12,8 +12,6 @@ extent: [18, 30.5, 46, 44]
 land: [Turkey, Greece, Bulgaria, Macedonia, Albania, Serbia, Kosovo, Montenegro]   # the Balkan Wars page needs the lost European provinces
 # Countries drawn with borders. Everything else inside the extent is left out.
 countries: [Turkey, Greece, Bulgaria, Romania, Ukraine, Russia, Georgia, Armenia, Azerbaijan, Iran, Iraq, Syria, Lebanon, Israel, Palestine, Jordan, Egypt, Libya, Cyprus, N. Cyprus, Moldova, Macedonia, Serbia, Albania, Montenegro, Kosovo, Bosnia and Herz.]
-# Shared hillshade raster, relative to the repo's geo/ folder.
-hillshade: hillshade.png
 
 # Zone families. A zone subtracts every zone from a family with a lower priority number.
 # Zones in the same family never cut each other, so one family can hold several dated shapes.
@@ -24,9 +22,12 @@ families:
   italian: { priority: 3, color: "#4e7a3f", color_dark: "#83b06f" }
   greek:   { priority: 4, color: "#2f6a9f", color_dark: "#6fa3d6" }
   lost:    { priority: 5, color: "#6e6a66", color_dark: "#a19b94" }   # territory the empire lost
-  republic: { priority: 6, color: "#c8102e", color_dark: "#e63946" }   # the Republic's own borders
+  hatay:   { priority: 6, color: "#c8102e", color_dark: "#e63946", pattern: hatch }   # joined the Republic in 1939
+  republic: { priority: 7, color: "#c8102e", color_dark: "#e63946" }   # the Republic's own borders
 # Corner rounding passes applied to every hand drawn zone before the clip.
 smoothing: 4
 
 # Country names on the map. Natural Earth names unless overridden here.
 labels: { countries: true }
+# Battle plans are drawn at the scale of the field, a few kilometres across.
+max_zoom: 14

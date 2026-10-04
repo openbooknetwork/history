@@ -1,0 +1,37 @@
+date: "Late summer 250 BC"
+title: "The elephants break"
+bbox: [13.34145, 38.08181, 13.39168, 38.12343]
+zones: []
+routes: []
+markers: [panormus-rout-elephants, panormus-rout-metellus, panormus-rout-flight]
+sources: ['Polybius, Histories, book 1, 40.', 'John Lazenby, The First Punic War (1996).', 'Nigel Bagnall, The Punic Wars (1999).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[13.31, 38.06], [13.325, 38.072], [13.34, 38.083], [13.352, 38.092], [13.362, 38.099], [13.372, 38.103], [13.382, 38.105], [13.391, 38.105]], width: 60, id: oreto, name: The river Oreto}
+  works:
+    - {side: rome, path: [[13.35001, 38.11], [13.36942, 38.11076], [13.36999, 38.12071], [13.35058, 38.12198], [13.35001, 38.11]], width: 45, id: walls, name: The walls of Panormus}
+    - {side: rome, path: [[13.35686, 38.10823], [13.36371, 38.10787]], width: 25, id: earthworks, name: Earthworks between the river and the walls}
+    - {side: rome, path: [[13.36542, 38.10814], [13.37284, 38.10886]], width: 25, id: earthworks, name: Earthworks between the river and the walls}
+    - {side: rome, path: [[13.37456, 38.10805], [13.37855, 38.10732]], width: 25, id: earthworks, name: Earthworks between the river and the walls}
+  units:
+    - {side: carthage, type: infantry, at: [13.37284, 38.10461], width: 800, depth: 250, facing: 330, id: vanguard, name: 'Carthaginian infantry, thrown into disorder by the elephants'}
+    - {side: carthage, type: elephants, at: [13.3717, 38.09954], width: 700, depth: 80, facing: 150, count: 9, id: elephants, name: The elephants panic and turn back through their own infantry}
+    - {side: carthage, type: infantry, at: [13.36999, 38.0952], width: 1300, depth: 300, facing: 335, id: carthaginian-army, name: The rest of Hasdrubal’s army}
+    - {side: rome, type: light, at: [13.36485, 38.10913], width: 1100, depth: 50, facing: 150, id: skirmishers, name: Roman light infantry}
+    - {side: rome, type: infantry, at: [13.35458, 38.10714], width: 500, depth: 260, facing: 100, id: legions, name: 'Metellus’s legions, out of the gate'}
+  arrows:
+    - {side: carthage, path: [[13.36828, 38.10678], [13.36999, 38.10307], [13.37227, 38.09764]], width: 70, style: dashed, id: elephants-turn, name: The elephants stampede back}
+    - {side: rome, path: [[13.358, 38.10696], [13.36314, 38.10588], [13.36794, 38.10497]], width: 100, id: metellus-attacks, name: Metellus attacks the Carthaginian left flank}
+    - {side: carthage, path: [[13.36771, 38.09629], [13.35858, 38.09086], [13.34602, 38.08407]], width: 90, style: dashed, id: flight, name: The Carthaginian army flees up the valley}
+  clashes:
+    - [13.36839, 38.10479]
+images:
+  panormus-denarius:
+    file: panormus-denarius.jpg
+    caption: "A silver denarius of Metellus Scipio, 47 to 46 BC, with the elephant the Caecilii Metelli took as their emblem after Panormus"
+    credit: "Wikimedia Commons, PHGCOM, Public domain (Silver denarius of Metellus Scipio 47 46 BCE.jpg)"
+  panormus-selinus:
+    file: panormus-selinus.jpg
+    caption: "The temple of Hera at Selinus, the Greek city on the south coast of Sicily that Carthage abandoned and destroyed after Panormus"
+    credit: "Wikimedia Commons, Chiara Marra, CC BY 2.0 (Selinunte42.jpg)"

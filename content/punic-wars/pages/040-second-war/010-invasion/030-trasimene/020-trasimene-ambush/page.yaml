@@ -1,0 +1,25 @@
+date: "Night of 20 to 21 June 217 BC"
+title: "The ambush is laid"
+bbox: [12.00165, 43.18057, 12.16063, 43.22852]
+zones: []
+routes: []
+markers: [trasimene-ambush-camp, trasimene-ambush-cavalry, trasimene-ambush-gauls, trasimene-ambush-africans, trasimene-ambush-flaminius]
+sources: ['Polybius, Histories, book 3, 83.', 'Livy, History of Rome, book 22, 4.', 'Adrian Goldsworthy, The Fall of Carthage (2006).']
+emblem:
+  kind: battle-plan
+  water:
+    - {area: [[12.022, 43.168], [12.025, 43.18], [12.045, 43.19], [12.07, 43.195], [12.095, 43.196], [12.118, 43.193], [12.135, 43.187], [12.155, 43.176], [12.178, 43.16], [12.195, 43.14], [12.2, 43.115], [12.19, 43.09], [12.165, 43.072], [12.13, 43.063], [12.09, 43.065], [12.06, 43.078], [12.045, 43.1], [12.04, 43.125], [12.03, 43.15]], id: lake, name: 'Lake Trasimene, its north shore further north than today'}
+  units:
+    - {side: rome, type: camp, at: [12.01151, 43.19143], width: 650, depth: 650, facing: 0, id: roman-camp, name: Flaminius’s camp by the lake}
+    - {side: carthage, type: camp, at: [12.1212, 43.20138], width: 700, depth: 600, facing: 0, id: camp, name: 'Hannibal’s camp, in view of the Romans'}
+    - {side: carthage, type: cavalry, at: [12.0337, 43.21133], width: 1000, depth: 300, facing: 180, id: cavalry, name: 'Carthaginian cavalry, hidden near the entrance'}
+    - {side: carthage, type: infantry, at: [12.07437, 43.21676], width: 2200, depth: 300, facing: 180, id: gauls, name: 'Gauls, hidden behind the hills'}
+    - {side: carthage, type: infantry, at: [12.10764, 43.21133], width: 1500, depth: 350, facing: 200, id: africans-iberians, name: African and Iberian infantry near the camp}
+    - {side: carthage, type: light, at: [12.12859, 43.19686], width: 1000, depth: 80, facing: 250, id: light, name: Light infantry beyond the camp}
+  arrows:
+    - {side: carthage, path: [[12.11627, 43.20455], [12.09901, 43.22174], [12.0682, 43.22535], [12.04725, 43.21902]], width: 150, id: night-march, name: The army moves by night into hiding behind the hills}
+images:
+  trasimene-vatican-map:
+    file: trasimene-vatican-map.jpg
+    caption: "The battle of Lake Trasimene on the map of the territory of Perugia in the Gallery of Maps of the Vatican, added by Pietro Oldrado in 1597"
+    credit: "Wikimedia Commons, Pietro Oldrado, Public domain (Battaglia del lago Trasimeno (Galleria delle carte geografiche).jpg)"

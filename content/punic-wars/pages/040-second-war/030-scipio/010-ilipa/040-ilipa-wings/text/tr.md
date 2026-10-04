@@ -1,0 +1,3 @@
+Düşman hattına yaklaşınca her kanattaki lejyonlar dışa döner, yana doğru yürür ve yeniden hat düzenine girerek Kartaca İberlerine çapraz bir açıyla çarpar. Sağ kanadı Scipio, sol kanadı Silanus ile Lucius Marcius yönetir. Süvari ve velitler daha da geniş bir yay çizerek fillere ve süvariye saldırır. Ciritler ve borularla çılgına dönen filler kendi atlılarını çiğner.
+
+Merkezdeki Afrikalılar, karşılarındaki Roma İberlerine yanlarını açmadan kanatlara yardım için dönemez ve boşta bekler. Kanatlar bozulunca bütün ordu önce düzenli, Scipio İberlerini peşlerine salınca da kaçarak kampına doğru çekilir. Polybios, Romalıların kampa saldırmasını yalnızca ani bir sağanağın engellediğini yazar.

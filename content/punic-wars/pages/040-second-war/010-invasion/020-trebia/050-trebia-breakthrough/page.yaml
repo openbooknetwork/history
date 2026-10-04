@@ -1,0 +1,36 @@
+date: "22 or 23 December 218 BC"
+title: "The Roman centre breaks through"
+bbox: [9.52125, 44.94096, 9.64572, 45.04228]
+zones: []
+routes: []
+markers: [trebia-breakthrough-sempronius, trebia-breakthrough-gauls, trebia-breakthrough-flanks, placentia-218]
+sources: ['Polybius, Histories, book 3, 74 to 75.', 'Livy, History of Rome, book 21, 56.', 'Paul Erdkamp, in A Companion to the Punic Wars (2011).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[9.61905, 45.07846], [9.61143, 45.04228], [9.60572, 45.01514], [9.6, 44.988], [9.59809, 44.96086], [9.59682, 44.93372], [9.59682, 44.90658]], width: 110, id: trebia, name: The river Trebia}
+  units:
+    - {side: rome, type: camp, at: [9.63556, 44.97714], width: 800, depth: 800, facing: 0, id: roman-camp, name: Roman camp on the low hill east of the river}
+    - {side: carthage, type: camp, at: [9.53268, 44.98076], width: 900, depth: 900, facing: 0, id: carthage-camp, name: Carthaginian camp on high ground west of the river}
+    - {side: carthage, type: infantry, at: [9.56444, 44.99931], width: 1100, depth: 300, facing: 90, id: africans-iberians, name: African and Iberian infantry}
+    - {side: carthage, type: infantry, at: [9.56444, 44.97669], width: 1100, depth: 300, facing: 90, id: africans-iberians, name: African and Iberian infantry}
+    - {side: rome, type: infantry, at: [9.55745, 44.988], width: 1200, depth: 450, facing: 270, id: legions, name: 'About 10,000 legionaries, through the Gallic centre'}
+    - {side: rome, type: infantry, at: [9.57206, 45.00383], width: 1100, depth: 350, facing: 270, id: allies, name: 'Allied infantry, attacked on the flanks'}
+    - {side: rome, type: infantry, at: [9.57206, 44.97217], width: 1100, depth: 350, facing: 270, id: allies, name: 'Allied infantry, attacked on the flanks'}
+    - {side: carthage, type: cavalry, at: [9.58158, 44.99705], width: 900, depth: 220, facing: 270, id: cavalry, name: Carthaginian cavalry in the Roman rear}
+    - {side: carthage, type: cavalry, at: [9.58158, 44.97895], width: 900, depth: 220, facing: 270, id: cavalry, name: Carthaginian cavalry in the Roman rear}
+  arrows:
+    - {side: carthage, path: [[9.553, 44.98529], [9.54411, 44.98167], [9.53649, 44.97895]], width: 110, style: dashed, id: gauls-flight, name: The Gauls of the centre break}
+    - {side: rome, path: [[9.57333, 45.0079], [9.58857, 45.01152], [9.61143, 45.01333]], width: 110, style: dashed, id: flank-flight, name: The Roman flanks break towards the river}
+    - {side: rome, path: [[9.57333, 44.9681], [9.58857, 44.96448], [9.60889, 44.96357]], width: 110, style: dashed, id: flank-flight, name: The Roman flanks break towards the river}
+    - {side: rome, path: [[9.553, 44.99433], [9.5619, 45.01243], [9.5873, 45.0269], [9.62159, 45.04047]], width: 160, id: march-placentia, name: 'Sempronius leads 10,000 men to Placentia'}
+  clashes:
+    - [9.57523, 45.00383]
+    - [9.57523, 44.97217]
+    - [9.5671, 44.99931]
+    - [9.5671, 44.97669]
+images:
+  trebia-folard:
+    file: trebia-folard.jpg
+    caption: "The battle of the Trebia, plate from the French edition of Polybius by Jean-Charles de Folard, about 1728"
+    credit: "Wikimedia Commons, unknown engraver, Public domain (Battle of Trebbia, 217 BC (Histoire de Polybe, Volume 4).jpg)"

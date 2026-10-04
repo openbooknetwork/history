@@ -1,0 +1,3 @@
+North Carolina’s first convention met at Hillsborough from 21 July to 4 August 1788 and voted 184 to 84 neither to ratify nor to reject the Constitution until a bill of rights was added. With the amendments on their way from Congress, a second convention at Fayetteville ratifies on 21 November 1789, 194 to 77.
+
+Rhode Island, which sent no one to Philadelphia and rejected the Constitution in a referendum in 1788, holds out longest. Congress threatens to treat it as a foreign country for trade. The convention at Newport ratifies on 29 May 1790 by two votes, 34 to 32. All thirteen states that declared independence are now under the Constitution.

@@ -1,0 +1,31 @@
+when: { from: 1915-08-10 }
+date: "10 August 1915"
+title: "Conkbayırı: the counterattack"
+bbox: [26.282, 40.243, 26.319, 40.267]
+zones: []
+routes: []
+markers: [suvla-conkbayiri-kemal, suvla-conkbayiri-baldwin, suvla-conkbayiri-apex]
+sources:
+  - "Christopher Pugsley, Gallipoli: The New Zealand Story (1984)."
+  - "Andrew Mango, Atatürk (1999)."
+emblem:
+  kind: battle-plan
+  units:
+    - {side: british, type: infantry, at: [26.3022, 40.2522], width: 280, depth: 80, facing: 100, id: lancashires, name: '6th South Lancashires on the summit, overrun'}
+    - {side: british, type: light, at: [26.3, 40.2532], width: 250, depth: 60, facing: 100, id: wiltshires, name: '5th Wiltshires below the summit, scattered'}
+    - {side: british, type: infantry, at: [26.3015, 40.2572], width: 500, depth: 140, facing: 120, id: baldwin, name: 'Baldwin’s brigade at the Farm, about 3,000 men'}
+    - {side: british, type: light, at: [26.297, 40.2541], width: 200, depth: 60, facing: 90, id: apex-guns, name: New Zealand machine guns at the Apex}
+    - {side: republic, type: infantry, at: [26.308, 40.2515], width: 900, depth: 160, facing: 275, id: kemal-battalions, name: 'Six battalions led by Mustafa Kemal, attacking at dawn'}
+  arrows:
+    - {side: republic, path: [[26.306, 40.252], [26.303, 40.2522], [26.2995, 40.253]], width: 90, id: over-the-summit, name: Over the summit to the Pinnacle}
+    - {side: republic, path: [[26.3055, 40.254], [26.304, 40.2558], [26.302, 40.2572]], width: 90, id: down-to-the-farm, name: Down the northern slope onto the Farm}
+    - {side: british, path: [[26.3, 40.2575], [26.297, 40.2585], [26.294, 40.259]], width: 60, id: farm-survivors, name: Survivors fall back to Cheshire Ridge, style: dashed}
+  clashes:
+    - {at: [26.3022, 40.2522], size: 70}
+    - {at: [26.298, 40.2538], size: 70}
+    - {at: [26.3015, 40.2572], size: 70}
+images:
+  chunuk-bair-brown:
+    file: chunuk-bair-brown.jpg
+    caption: "The Battle of Chunuk Bair, painting by Ion Brown, 1990, commissioned for the 75th anniversary of the campaign"
+    credit: "Wikimedia Commons, Ion Brown, CC BY-SA 4.0 (Battle-of-chunuk-bair.jpg)"

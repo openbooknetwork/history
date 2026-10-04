@@ -1,0 +1,36 @@
+date: "7 October 1777, afternoon"
+title: "Saratoga: Bemis Heights"
+bbox: [-73.67, 42.999, -73.635, 43.025]
+zones: []
+routes: []
+markers: [saratoga-bemis-heights-acland, saratoga-bemis-heights-fraser, saratoga-bemis-heights-wheatfield]
+sources: ['Richard M. Ketchum, Saratoga (1997).', 'Rupert Furneaux, The Battle of Saratoga (1971).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-73.662, 43.0067], [-73.648, 43.0054], [-73.635, 43.007], [-73.624, 43.008], [-73.6165, 43.0086]], width: 25, id: mill-creek, name: Mill Creek}
+  works:
+    - {side: usa, path: [[-73.6195, 43.0003], [-73.627, 43.0022], [-73.6335, 43.0038], [-73.6405, 43.0018], [-73.6445, 42.9975]], width: 45, id: american-works, name: The American fortifications on Bemis Heights}
+    - {side: '#9c6b30', path: [[-73.6522, 43.0188], [-73.6488, 43.0188], [-73.6488, 43.0212], [-73.6522, 43.0212], [-73.6522, 43.0188]], width: 35, id: breymann-redoubt, name: The Breymann redoubt}
+    - {side: held, path: [[-73.6465, 43.0148], [-73.6418, 43.0148], [-73.6418, 43.0176], [-73.6465, 43.0176], [-73.6465, 43.0148]], width: 35, id: balcarres-redoubt, name: The Balcarres redoubt at Freeman’s Farm}
+  units:
+    - {side: held, type: infantry, at: [-73.6478, 43.0094], width: 320, depth: 80, facing: 180, id: grenadiers, name: 'British grenadiers under Acland, the left of the line'}
+    - {side: '#9c6b30', type: infantry, at: [-73.6518, 43.0098], width: 320, depth: 80, facing: 180, id: germans, name: German detachments in the centre}
+    - {side: held, type: infantry, at: [-73.6562, 43.0104], width: 360, depth: 80, facing: 190, id: fraser, name: 'Fraser’s light troops and the 24th Foot, the right'}
+    - {side: held, type: light, at: [-73.6612, 43.0112], width: 260, depth: 50, facing: 210, id: canadians, name: Canadians and native warriors on the right flank}
+    - {side: usa, type: infantry, at: [-73.6468, 43.0042], width: 380, depth: 90, facing: 350, id: poor, name: Poor’s brigade holds its fire}
+    - {side: usa, type: infantry, at: [-73.6525, 43.0038], width: 420, depth: 90, facing: 0, id: learned, name: Learned’s brigade in the centre}
+    - {side: usa, type: light, at: [-73.6628, 43.0062], width: 320, depth: 60, facing: 40, id: morgan, name: Morgan’s riflemen on the far left}
+    - {side: usa, type: infantry, at: [-73.6525, 43.0008], width: 500, depth: 90, facing: 0, id: ten-broeck, name: 'Ten Broeck’s 1,200 New York militia in reserve'}
+  arrows:
+    - {side: held, path: [[-73.6476, 43.0084], [-73.6472, 43.0058]], width: 45, id: acland-charge, name: Acland’s bayonet charge}
+    - {side: usa, path: [[-73.6462, 43.0051], [-73.6466, 43.0083]], width: 60, id: poor-attack, name: Poor’s men fire at close range and rout the grenadiers}
+    - {side: usa, path: [[-73.6618, 43.0078], [-73.6596, 43.0098], [-73.6575, 43.0103]], width: 60, id: morgan-attack, name: Morgan sweeps aside the Canadians and engages Fraser}
+  clashes:
+    - [-73.6472, 43.0066]
+    - [-73.659, 43.0101]
+images:
+  saratoga-neilson-house:
+    file: saratoga-neilson-house.jpg
+    caption: "The John Neilson house inside the American lines on Bemis Heights, drawing by Benson John Lossing, 1851"
+    credit: "Wikimedia Commons, Benson John Lossing, Public domain (John Neilson House, Bemis Heights, Stillwater, Saratoga County, NY.jpg)"

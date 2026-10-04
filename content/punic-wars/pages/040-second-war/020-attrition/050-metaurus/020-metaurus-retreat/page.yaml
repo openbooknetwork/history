@@ -1,0 +1,22 @@
+date: "June 207 BC, night"
+title: "The second trumpet"
+bbox: [12.9, 43.68, 13.27, 43.86]
+zones: []
+routes: []
+markers: [metaurus-retreat-hasdrubal, metaurus-retreat-romans, sena-207]
+sources: ['Livy, History of Rome, book 27, 46 to 47.', 'Bernard W. Henderson, The Campaign of the Metaurus, in English Historical Review (1898).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[12.87, 43.735], [12.9, 43.748], [12.93, 43.76], [12.955, 43.772], [12.975, 43.785], [12.995, 43.795], [13.02, 43.812], [13.045, 43.829], [13.068, 43.842]], width: 60, id: metaurus, name: The river Metaurus}
+  units:
+    - {side: rome, type: camp, at: [13.207, 43.705], width: 900, depth: 700, facing: 345, id: roman-camp, name: The Roman camp near Sena}
+    - {side: carthage, type: camp, at: [13.196, 43.714], width: 600, depth: 500, facing: 165, id: hasdrubal-camp, name: Hasdrubal’s camp}
+  arrows:
+    - {side: carthage, path: [[13.19, 43.72], [13.14, 43.755], [13.08, 43.79], [13.045, 43.805], [13.01, 43.795], [12.99, 43.786]], width: 260, id: night-march, name: Hasdrubal’s night march towards a ford}
+    - {side: rome, path: [[13.2, 43.7], [13.14, 43.73], [13.07, 43.765], [13.02, 43.772]], width: 260, id: pursuit, name: The Romans follow at first light}
+images:
+  metaurus-fano:
+    file: metaurus-fano.jpg
+    caption: "The lower Metauro near its mouth at Fano, the ancient Fanum Fortunae"
+    credit: "Wikimedia Commons, Wikiubik, CC BY-SA 4.0 (Mangroviacomiomachia al Ponte Metauro Fano 03.jpg)"

@@ -1,7 +1,7 @@
-After the military middle school in Selanik, where a teacher gives him the second name Kemal, Mustafa Kemal moves to the military high school at Manastır, today's Bitola. The town sits in the heart of Ottoman Macedonia, where Bulgarian, Greek and Serbian bands fight over villages and the state's weakness is visible every day.
+At the military middle school in Selanik a mathematics teacher, by the usual account, gives him the second name Kemal. Mustafa Kemal then moves to the military high school at Manastır, today's Bitola. The town lies in the middle of Ottoman Macedonia, where Bulgarian, Greek and Serbian armed bands contest the countryside.
 
 @image monastir-school
 
-Here he reads Namık Kemal, learns French, and watches the 1897 war with Greece from close by.
+Here he reads the poet Namık Kemal and learns French.
 
 @image monastir-town

@@ -1,0 +1,526 @@
+# Markers that pages switch on by id. lnglat is [longitude, latitude].
+# icon: flag, anchor, star, scroll, congress, building. color: a family, or leave out for the accent colour.
+
+# --- 1763 to 1775 ---
+fort-pitt:
+  lnglat: [-80.00, 40.44]
+  icon: flag
+  color: crown
+  label: "Fort Pitt"
+  note: "Besieged in Pontiac’s War, summer 1763"
+quebec-1763:
+  lnglat: [-71.21, 46.81]
+  icon: flag
+  color: crown
+  label: "Quebec"
+  note: "Taken 1759, ceded by France 1763"
+st-augustine:
+  lnglat: [-81.31, 29.90]
+  icon: flag
+  color: crown
+  label: "St. Augustine"
+  note: "Capital of British East Florida, 1763"
+new-orleans:
+  lnglat: [-90.07, 29.95]
+  icon: anchor
+  color: spanish
+  label: "New Orleans"
+  note: "Ceded by France to Spain, 1762"
+boston-1765:
+  lnglat: [-71.06, 42.36]
+  icon: star
+  label: "Boston"
+  note: "Stamp Act riots, August 1765"
+new-york-1765:
+  lnglat: [-74.01, 40.71]
+  icon: congress
+  label: "New York"
+  note: "Stamp Act Congress, 7 to 25 October 1765"
+boston-1770:
+  lnglat: [-71.06, 42.36]
+  icon: star
+  label: "Boston"
+  note: "Boston Massacre, 5 March 1770"
+boston-1773:
+  lnglat: [-71.05, 42.355]
+  icon: anchor
+  label: "Boston"
+  note: "Tea Party, 16 December 1773"
+boston-1774:
+  lnglat: [-71.05, 42.355]
+  icon: anchor
+  color: crown
+  label: "Boston"
+  note: "Port closed, 1 June 1774"
+philadelphia-1774:
+  lnglat: [-75.15, 39.95]
+  icon: congress
+  label: "Philadelphia"
+  note: "First Continental Congress, 5 September to 26 October 1774"
+
+# --- 1775 ---
+lexington:
+  lnglat: [-71.23, 42.45]
+  icon: star
+  label: "Lexington"
+  note: "First shots, dawn 19 April 1775"
+concord:
+  lnglat: [-71.35, 42.46]
+  icon: star
+  label: "Concord"
+  note: "North Bridge, 19 April 1775"
+boston-1775:
+  lnglat: [-71.05, 42.355]
+  icon: flag
+  color: held
+  label: "Boston"
+  note: "Besieged, April 1775 to March 1776"
+ticonderoga:
+  lnglat: [-73.39, 43.84]
+  icon: flag
+  label: "Fort Ticonderoga"
+  note: "Taken by Allen and Arnold, 10 May 1775"
+philadelphia-1775:
+  lnglat: [-75.15, 39.95]
+  icon: congress
+  label: "Philadelphia"
+  note: "Second Continental Congress opens, 10 May 1775"
+bunker-hill:
+  lnglat: [-71.06, 42.38]
+  icon: star
+  color: held
+  label: "Bunker Hill"
+  note: "17 June 1775"
+cambridge-1775:
+  lnglat: [-71.12, 42.37]
+  icon: building
+  label: "Cambridge"
+  note: "Washington takes command, 3 July 1775"
+montreal-1775:
+  lnglat: [-73.57, 45.50]
+  icon: flag
+  label: "Montreal"
+  note: "Taken by Montgomery, 13 November 1775"
+quebec-1775:
+  lnglat: [-71.21, 46.81]
+  icon: star
+  color: crown
+  label: "Quebec"
+  note: "Assault fails, 31 December 1775"
+
+# --- 1776 ---
+boston-1776:
+  lnglat: [-71.05, 42.355]
+  icon: flag
+  label: "Boston"
+  note: "British evacuate, 17 March 1776"
+dorchester:
+  lnglat: [-71.05, 42.32]
+  icon: star
+  label: "Dorchester Heights"
+  note: "Fortified overnight, 4 March 1776"
+halifax:
+  lnglat: [-63.57, 44.65]
+  icon: anchor
+  color: crown
+  label: "Halifax"
+  note: "British fleet withdraws here, March 1776"
+charleston-1776:
+  lnglat: [-79.93, 32.78]
+  icon: anchor
+  label: "Charleston"
+  note: "British attack repulsed at Sullivan’s Island, 28 June 1776"
+philadelphia-1776:
+  lnglat: [-75.15, 39.95]
+  icon: scroll
+  label: "Philadelphia"
+  note: "Declaration of Independence, 4 July 1776"
+brooklyn:
+  lnglat: [-73.97, 40.67]
+  icon: star
+  color: held
+  label: "Brooklyn"
+  note: "Battle of Long Island, 27 August 1776"
+new-york-1776:
+  lnglat: [-74.01, 40.71]
+  icon: flag
+  color: held
+  label: "New York"
+  note: "Occupied, 15 September 1776"
+white-plains:
+  lnglat: [-73.76, 41.03]
+  icon: star
+  color: held
+  label: "White Plains"
+  note: "28 October 1776"
+fort-washington:
+  lnglat: [-73.94, 40.85]
+  icon: flag
+  color: held
+  label: "Fort Washington"
+  note: "Falls with 2,800 men, 16 November 1776"
+trenton:
+  lnglat: [-74.76, 40.22]
+  icon: star
+  label: "Trenton"
+  note: "26 December 1776"
+princeton:
+  lnglat: [-74.66, 40.35]
+  icon: star
+  label: "Princeton"
+  note: "3 January 1777"
+morristown:
+  lnglat: [-74.48, 40.80]
+  icon: building
+  label: "Morristown"
+  note: "Winter quarters, January 1777"
+
+# --- 1777 ---
+ticonderoga-1777:
+  lnglat: [-73.39, 43.84]
+  icon: flag
+  color: held
+  label: "Fort Ticonderoga"
+  note: "Abandoned to Burgoyne, 6 July 1777"
+oriskany:
+  lnglat: [-75.37, 43.16]
+  icon: star
+  label: "Oriskany"
+  note: "6 August 1777"
+bennington:
+  lnglat: [-73.30, 42.93]
+  icon: star
+  label: "Bennington"
+  note: "16 August 1777"
+saratoga:
+  lnglat: [-73.63, 43.00]
+  icon: star
+  label: "Saratoga"
+  note: "Burgoyne surrenders, 17 October 1777"
+brandywine:
+  lnglat: [-75.59, 39.87]
+  icon: star
+  color: held
+  label: "Brandywine"
+  note: "11 September 1777"
+philadelphia-1777:
+  lnglat: [-75.15, 39.95]
+  icon: flag
+  color: held
+  label: "Philadelphia"
+  note: "Occupied, 26 September 1777"
+germantown:
+  lnglat: [-75.17, 40.03]
+  icon: star
+  label: "Germantown"
+  note: "4 October 1777"
+york-1777:
+  lnglat: [-76.73, 39.96]
+  icon: congress
+  label: "York"
+  note: "Congress adopts the Articles of Confederation, 15 November 1777"
+valley-forge:
+  lnglat: [-75.44, 40.10]
+  icon: building
+  label: "Valley Forge"
+  note: "Winter camp, December 1777 to June 1778"
+
+# --- 1778 to 1779 ---
+monmouth:
+  lnglat: [-74.30, 40.26]
+  icon: star
+  label: "Monmouth"
+  note: "28 June 1778"
+newport-1778:
+  lnglat: [-71.31, 41.49]
+  icon: anchor
+  color: held
+  label: "Newport"
+  note: "Franco-American siege fails, August 1778"
+savannah-1778:
+  lnglat: [-81.09, 32.08]
+  icon: flag
+  color: held
+  label: "Savannah"
+  note: "Taken 29 December 1778, allied assault fails 9 October 1779"
+vincennes:
+  lnglat: [-87.53, 38.68]
+  icon: star
+  label: "Vincennes"
+  note: "Clark takes Fort Sackville, 25 February 1779"
+stony-point:
+  lnglat: [-73.98, 41.24]
+  icon: star
+  label: "Stony Point"
+  note: "Wayne’s night assault, 16 July 1779"
+
+# --- 1780 to 1781 ---
+charleston-1780:
+  lnglat: [-79.93, 32.78]
+  icon: flag
+  color: held
+  label: "Charleston"
+  note: "Surrenders with 5,000 men, 12 May 1780"
+camden:
+  lnglat: [-80.61, 34.25]
+  icon: star
+  color: held
+  label: "Camden"
+  note: "Gates routed, 16 August 1780"
+west-point:
+  lnglat: [-73.96, 41.39]
+  icon: building
+  label: "West Point"
+  note: "Arnold’s treason uncovered, 25 September 1780"
+kings-mountain:
+  lnglat: [-81.38, 35.14]
+  icon: star
+  label: "Kings Mountain"
+  note: "7 October 1780"
+cowpens:
+  lnglat: [-81.82, 35.14]
+  icon: star
+  label: "Cowpens"
+  note: "Morgan defeats Tarleton, 17 January 1781"
+guilford:
+  lnglat: [-79.85, 36.13]
+  icon: star
+  label: "Guilford Court House"
+  note: "15 March 1781"
+philadelphia-1781:
+  lnglat: [-75.15, 39.95]
+  icon: scroll
+  label: "Philadelphia"
+  note: "Articles of Confederation in force, 1 March 1781"
+eutaw-springs:
+  lnglat: [-80.30, 33.43]
+  icon: star
+  label: "Eutaw Springs"
+  note: "8 September 1781"
+capes:
+  lnglat: [-75.90, 36.90]
+  icon: anchor
+  label: "The Capes"
+  note: "Battle of the Chesapeake, 5 September 1781"
+williamsburg:
+  lnglat: [-76.71, 37.27]
+  icon: building
+  label: "Williamsburg"
+  note: "Allied armies gather, September 1781"
+yorktown:
+  lnglat: [-76.51, 37.24]
+  icon: star
+  label: "Yorktown"
+  note: "Cornwallis surrenders, 19 October 1781"
+
+# --- 1782 to 1783 ---
+newburgh:
+  lnglat: [-74.01, 41.50]
+  icon: building
+  label: "Newburgh"
+  note: "Washington faces down the officers, 15 March 1783"
+new-york-1783:
+  lnglat: [-74.01, 40.71]
+  icon: flag
+  label: "New York"
+  note: "Evacuation Day, 25 November 1783"
+annapolis-1783:
+  lnglat: [-76.49, 38.98]
+  icon: building
+  label: "Annapolis"
+  note: "Washington resigns his commission, 23 December 1783"
+
+# --- 1784 to 1790 ---
+new-york-1785:
+  lnglat: [-74.01, 40.71]
+  icon: congress
+  label: "New York"
+  note: "Congress sits here from January 1785"
+annapolis-1786:
+  lnglat: [-76.49, 38.98]
+  icon: congress
+  label: "Annapolis"
+  note: "Annapolis Convention, 11 to 14 September 1786"
+springfield:
+  lnglat: [-72.59, 42.10]
+  icon: star
+  label: "Springfield"
+  note: "Shays’ men attack the armory, 25 January 1787"
+philadelphia-1787:
+  lnglat: [-75.15, 39.95]
+  icon: congress
+  label: "Philadelphia"
+  note: "Constitutional Convention, 25 May to 17 September 1787"
+marietta:
+  lnglat: [-81.45, 39.41]
+  icon: building
+  label: "Marietta"
+  note: "Northwest Ordinance 13 July 1787, Marietta founded April 1788"
+dover:
+  lnglat: [-75.52, 39.16]
+  icon: scroll
+  color: ratified
+  label: "Dover"
+  note: "Delaware ratifies, 7 December 1787"
+philadelphia-ratifies:
+  lnglat: [-75.15, 39.95]
+  icon: scroll
+  color: ratified
+  label: "Philadelphia"
+  note: "Pennsylvania ratifies, 12 December 1787"
+trenton-1787:
+  lnglat: [-74.76, 40.22]
+  icon: scroll
+  color: ratified
+  label: "Trenton"
+  note: "New Jersey ratifies, 18 December 1787"
+augusta:
+  lnglat: [-81.97, 33.47]
+  icon: scroll
+  color: ratified
+  label: "Augusta"
+  note: "Georgia ratifies, 2 January 1788"
+hartford:
+  lnglat: [-72.68, 41.76]
+  icon: scroll
+  color: ratified
+  label: "Hartford"
+  note: "Connecticut ratifies, 9 January 1788"
+boston-1788:
+  lnglat: [-71.06, 42.36]
+  icon: scroll
+  color: ratified
+  label: "Boston"
+  note: "Massachusetts ratifies, 6 February 1788"
+annapolis-1788:
+  lnglat: [-76.49, 38.98]
+  icon: scroll
+  color: ratified
+  label: "Annapolis"
+  note: "Maryland ratifies, 28 April 1788"
+charleston-1788:
+  lnglat: [-79.93, 32.78]
+  icon: scroll
+  color: ratified
+  label: "Charleston"
+  note: "South Carolina ratifies, 23 May 1788"
+concord-nh:
+  lnglat: [-71.54, 43.21]
+  icon: scroll
+  color: ratified
+  label: "Concord"
+  note: "New Hampshire ratifies, the ninth state, 21 June 1788"
+richmond:
+  lnglat: [-77.44, 37.54]
+  icon: scroll
+  color: ratified
+  label: "Richmond"
+  note: "Virginia ratifies, 25 June 1788"
+poughkeepsie:
+  lnglat: [-73.92, 41.70]
+  icon: scroll
+  color: ratified
+  label: "Poughkeepsie"
+  note: "New York ratifies, 26 July 1788"
+mount-vernon:
+  lnglat: [-77.09, 38.71]
+  icon: star
+  label: "Mount Vernon"
+  note: "Washington leaves for New York, 16 April 1789"
+new-york-1789:
+  lnglat: [-74.01, 40.71]
+  icon: building
+  label: "New York"
+  note: "Washington inaugurated at Federal Hall, 30 April 1789"
+fayetteville:
+  lnglat: [-78.88, 35.05]
+  icon: scroll
+  color: ratified
+  label: "Fayetteville"
+  note: "North Carolina ratifies, 21 November 1789"
+newport-1790:
+  lnglat: [-71.31, 41.49]
+  icon: scroll
+  color: ratified
+  label: "Newport"
+  note: "Rhode Island ratifies, the last of the thirteen, 29 May 1790"
+
+# --- 1791 to 1800 ---
+bennington-1791:
+  lnglat: [-73.20, 42.88]
+  icon: scroll
+  color: ratified
+  label: "Bennington"
+  note: "Vermont ratifies 10 January 1791, the 14th state on 4 March"
+danville:
+  lnglat: [-84.77, 37.65]
+  icon: scroll
+  color: ratified
+  label: "Danville"
+  note: "Kentucky conventions, the 15th state on 1 June 1792"
+knoxville:
+  lnglat: [-83.92, 35.96]
+  icon: scroll
+  color: ratified
+  label: "Knoxville"
+  note: "Tennessee convention, January 1796, the 16th state on 1 June 1796"
+philadelphia-1790:
+  lnglat: [-75.15, 39.95]
+  icon: building
+  label: "Philadelphia"
+  note: "Capital, December 1790 to 1800"
+washington-dc:
+  lnglat: [-77.04, 38.90]
+  icon: building
+  label: "Washington"
+  note: "Government moves to the new capital, November 1800"
+quebec-1776:
+  lnglat: [-71.21, 46.81]
+  icon: flag
+  color: crown
+  label: "Quebec"
+  note: "Relieved by British ships, 6 May 1776"
+trois-rivieres:
+  lnglat: [-72.55, 46.34]
+  icon: star
+  label: "Trois-Rivières"
+  note: "American attack fails, 8 June 1776"
+crown-point-1776:
+  lnglat: [-73.43, 44.03]
+  icon: flag
+  color: crown
+  label: "Crown Point"
+  note: "Held by Carleton, 17 October to 2 November 1776"
+baton-rouge:
+  lnglat: [-91.19, 30.45]
+  icon: star
+  color: spanish
+  label: "Baton Rouge"
+  note: "Taken by Gálvez, 21 September 1779"
+mobile:
+  lnglat: [-88.04, 30.69]
+  icon: star
+  color: spanish
+  label: "Mobile"
+  note: "Taken by Gálvez, 14 March 1780"
+rocky-mount:
+  lnglat: [-82.31, 36.43]
+  icon: congress
+  color: territory
+  label: "Rocky Mount"
+  note: "Seat of the Southwest Territory, 1790"
+potomac-1790:
+  lnglat: [-77.04, 38.89]
+  icon: congress
+  label: "Potomac"
+  note: "Capital district, Residence Act of 16 July 1790"
+greenville:
+  lnglat: [-84.63, 40.1]
+  icon: scroll
+  label: "Greenville"
+  note: "Treaty of Greenville, 3 August 1795"
+detroit-1796:
+  lnglat: [-83.05, 42.33]
+  icon: flag
+  label: "Detroit"
+  note: "Handed over by Britain, July 1796"

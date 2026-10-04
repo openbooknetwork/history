@@ -1,0 +1,26 @@
+date: "9 to 28 March 1781"
+title: "Pensacola: Gálvez forces the channel"
+bbox: [-87.37, 30.27, -87.18, 30.45]
+zones: []
+routes: []
+markers: [pensacola-landing-galvez, pensacola-landing-oneill, pensacola-landing-calvo, pensacola-landing-town]
+sources: ['John W. Caughey, Bernardo de Gálvez in Louisiana, 1776–1783 (1998).', 'Bernardo de Gálvez, Diario de las operaciones de la expedición contra la plaza de Panzacola (1781).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: spanish, type: ships, at: [-87.335, 30.296], width: 2600, depth: 700, facing: 30, id: havana-fleet, name: 'The expedition from Havana under Calvo, outside the bar', count: 10, rows: 2}
+    - {side: spanish, type: ships, at: [-87.305, 30.331], width: 220, depth: 380, facing: 30, id: san-ramon, name: 'San Ramón, 64 guns, aground in the channel', count: 1}
+    - {side: spanish, type: infantry, at: [-87.268, 30.332], width: 1600, depth: 140, facing: 0, id: santa-rosa, name: Spanish troops landed on Santa Rosa Island}
+    - {side: spanish, type: ships, at: [-87.235, 30.372], width: 2000, depth: 500, facing: 60, id: louisiana-ships, name: 'Gálveztown and the Louisiana ships inside the bay, then the fleet on 19 March', count: 8, rows: 2}
+    - {side: held, type: camp, at: [-87.304, 30.353], width: 260, depth: 260, facing: 0, id: barrancas, name: The British battery at the Barrancas Coloradas}
+    - {side: spanish, type: infantry, at: [-87.285, 30.392], width: 1400, depth: 200, facing: 60, id: spanish-army, name: 'The Spanish army on the mainland from 24 March, with the troops from Mobile'}
+  works:
+    - {side: spanish, path: [[-87.295, 30.3335], [-87.288, 30.3365]], width: 90, id: oneill-battery, name: O’Neill’s guns at the island’s undefended battery}
+  arrows:
+    - {side: spanish, path: [[-87.325, 30.312], [-87.301, 30.339], [-87.272, 30.356], [-87.245, 30.368]], width: 160, id: galveztown, name: 'Gálvez takes the Gálveztown through the channel under fire, 18 March'}
+    - {side: spanish, path: [[-87.255, 30.336], [-87.258, 30.358], [-87.272, 30.38]], width: 120, id: to-mainland, name: 'The army crosses to the mainland, 24 March'}
+    - {side: spanish, path: [[-87.42, 30.43], [-87.36, 30.415], [-87.31, 30.4]], width: 120, id: from-mobile, name: Troops from Mobile join the army}
+    - {side: '#8d6e63', path: [[-87.25, 30.448], [-87.268, 30.425], [-87.276, 30.406]], width: 110, id: choctaw, name: 'About 400 Choctaw allies of the British attack, 28 March'}
+  clashes:
+    - {at: [-87.278, 30.401], size: 230}
+images: {}

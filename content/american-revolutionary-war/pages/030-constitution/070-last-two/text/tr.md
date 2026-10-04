@@ -1,0 +1,3 @@
+Kuzey Carolina’nın ilk kurultayı 21 Temmuz – 4 Ağustos 1788 arasında Hillsborough’da toplanmış ve bir haklar bildirgesi eklenene kadar Anayasa’yı ne onaylamaya ne reddetmeye 184’e 84 oyla karar vermişti. Değişiklikler Kongre’den yoldayken Fayetteville’deki ikinci kurultay 21 Kasım 1789’da 194’e 77 oyla onaylar.
+
+Philadelphia’ya kimseyi göndermeyen ve 1788’de bir halk oylamasında Anayasa’yı reddeden Rhode Island en uzun direnendir. Kongre onu ticarette yabancı ülke muamelesi yapmakla tehdit eder. Newport’taki kurultay 29 Mayıs 1790’da iki oy farkla, 34’e 32, onaylar. Bağımsızlık ilan eden on üç eyaletin tamamı artık Anayasa altındadır.

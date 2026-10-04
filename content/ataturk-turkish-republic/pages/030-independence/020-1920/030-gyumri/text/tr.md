@@ -1,5 +1,7 @@
-Kâzım Karabekir’in Doğu Ordusu eylül sonunda Ermenistan Cumhuriyeti’ne karşı harekete geçer, Sarıkamış’ı ve 30 Ekim’de Kars’ı alır. 3 Aralık 1920’de imzalanan Gümrü Antlaşması, Ankara hükûmetinin ilk uluslararası antlaşmasıdır. Doğu sınırını belirler ve doğudaki tümenleri batı için serbest bırakır.
+Eylül 1920 sonunda Kâzım Karabekir’in Doğu Cephesi Ermenistan Cumhuriyeti’ne karşı harekete geçer. Sarıkamış’ı, ardından 30 Ekim’de Kars’ı ve kasımda Gümrü’yü alır. Harekât, doğudaki tümenleri batıdaki savaş için serbest bırakır.
 
 @image karabekir-1918
+
+Gümrü Antlaşması 3 Aralık 1920’de imzalanır. Ermenistan Kars’tan vazgeçer ve Sevr Antlaşması’nı tanımadığını bildirir. Ermeni hükûmeti bir gün önce yönetimi Sovyetlere bırakmıştır ve antlaşma hiçbir zaman onaylanmaz. Sınırı Ekim 1921’deki Kars Antlaşması belirler.
 
 @image gyumri-house

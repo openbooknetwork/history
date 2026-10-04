@@ -1,0 +1,27 @@
+date: "Spring 215 BC"
+title: "Ibera: the armies deploy"
+bbox: [0.48642, 40.73272, 0.55402, 40.81595]
+zones: []
+routes: []
+markers: [ebro-deploy-ibera, ebro-deploy-scipios, ebro-deploy-hasdrubal, ebro-deploy-numidians]
+sources: ['Livy, History of Rome, book 23, 28 to 29.', 'John Lazenby, Hannibal’s War (1978).', 'Adrian Goldsworthy, The Fall of Carthage (2006).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[0.49, 40.93], [0.505, 40.87], [0.52, 40.83], [0.528, 40.8], [0.545, 40.77], [0.56, 40.74], [0.578, 40.71], [0.62, 40.7]], width: 130, id: ebro, name: The river Ebro}
+  units:
+    - {side: rome, type: cavalry, at: [0.49768, 40.77388], width: 600, depth: 220, facing: 180, id: roman-cavalry, name: Roman and allied Iberian cavalry}
+    - {side: rome, type: infantry, at: [0.50717, 40.77433], width: 560, depth: 300, facing: 180, id: allies, name: Italian allied infantry}
+    - {side: rome, type: infantry, at: [0.51429, 40.77433], width: 560, depth: 300, facing: 180, id: legions, name: Two Roman legions under Gnaeus and Publius Scipio}
+    - {side: rome, type: infantry, at: [0.52141, 40.77433], width: 560, depth: 300, facing: 180, id: legions, name: Two Roman legions under Gnaeus and Publius Scipio}
+    - {side: rome, type: infantry, at: [0.52852, 40.77433], width: 560, depth: 300, facing: 180, id: allies, name: Italian allied infantry}
+    - {side: rome, type: cavalry, at: [0.53742, 40.77388], width: 600, depth: 220, facing: 180, id: allied-cavalry, name: Italian allied cavalry}
+    - {side: rome, type: light, at: [0.51785, 40.77225], width: 2400, depth: 60, facing: 180, id: velites, name: Velites}
+    - {side: carthage, type: cavalry, at: [0.49768, 40.76212], width: 600, depth: 240, facing: 0, id: carthage-cavalry, name: Libyan and Iberian cavalry}
+    - {side: carthage, type: infantry, at: [0.50836, 40.76167], width: 650, depth: 330, facing: 0, id: africans, name: African infantry}
+    - {side: carthage, type: infantry, at: [0.51844, 40.76212], width: 900, depth: 260, facing: 0, id: iberians, name: Iberian infantry in the centre}
+    - {side: carthage, type: infantry, at: [0.52852, 40.76167], width: 650, depth: 330, facing: 0, id: poeni, name: 'Punic infantry, the Poeni'}
+    - {side: carthage, type: cavalry, at: [0.53742, 40.76212], width: 600, depth: 240, facing: 0, id: numidians, name: Numidian light cavalry}
+    - {side: carthage, type: elephants, at: [0.51844, 40.76447], width: 2100, depth: 140, facing: 0, count: 7, id: elephants, name: About 20 elephants before the centre}
+    - {side: carthage, type: light, at: [0.51844, 40.76592], width: 2700, depth: 60, facing: 0, id: skirmishers, name: Light infantry}
+images: {}

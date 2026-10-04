@@ -1,0 +1,36 @@
+when: {from: '1777-09-11'}
+date: "11 September 1777, morning"
+title: "Brandywine: the flank march"
+bbox: [-75.725, 39.795, -75.548, 39.95]
+zones: []
+routes: []
+markers: [brandywine-flank-washington, brandywine-flank-howe, brandywine-flank-knyphausen, brandywine-flank-meeting-house]
+sources: ['Michael C. Harris, Brandywine (2014).', 'Thomas J. McGuire, The Philadelphia Campaign, volume 1 (2006).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-75.633, 39.926], [-75.618, 39.915], [-75.606, 39.903], [-75.598, 39.89], [-75.594, 39.879], [-75.5915, 39.8718], [-75.588, 39.858], [-75.583, 39.84], [-75.578, 39.82], [-75.575, 39.802], [-75.572, 39.79]], width: 45, id: brandywine, name: Brandywine Creek}
+    - {path: [[-75.703, 39.931], [-75.687, 39.923], [-75.665, 39.9215], [-75.645, 39.9235], [-75.633, 39.926]], width: 32, id: west-branch, name: 'The West Branch, crossed at Trimble’s Ford'}
+    - {path: [[-75.642, 39.962], [-75.636, 39.939], [-75.633, 39.926]], width: 32, id: east-branch, name: 'The East Branch, crossed at Jefferis Ford'}
+  works:
+    - {path: [[-75.7106, 39.8445], [-75.665, 39.857], [-75.64, 39.863], [-75.5915, 39.8718], [-75.565, 39.873], [-75.552, 39.871]], width: 18, id: great-road, name: The Great Road from Kennett Square to Chester}
+  units:
+    - {side: usa, type: infantry, at: [-75.5845, 39.873], width: 900, depth: 220, facing: 270, id: greene, name: 'Greene’s division at Chadds Ford, with Washington'}
+    - {side: usa, type: infantry, at: [-75.5875, 39.8652], width: 700, depth: 200, facing: 270, id: wayne, name: Wayne’s division and the artillery at the ford}
+    - {side: usa, type: light, at: [-75.633, 39.861], width: 700, depth: 80, facing: 260, id: maxwell, name: 'Maxwell’s light infantry, skirmishing on the Great Road'}
+    - {side: usa, type: infantry, at: [-75.5695, 39.8035], width: 800, depth: 160, facing: 270, id: armstrong, name: 'Armstrong’s 1,000 Pennsylvania militia at Pyle’s Ford'}
+    - {side: usa, type: infantry, at: [-75.5925, 39.8885], width: 650, depth: 180, facing: 270, id: sullivan, name: Sullivan’s division above Chadds Ford}
+    - {side: usa, type: infantry, at: [-75.5805, 39.8835], width: 1000, depth: 200, facing: 270, id: stirling-stephen, name: Stirling’s and Stephen’s divisions on the high ground}
+    - {side: usa, type: infantry, at: [-75.6095, 39.9125], width: 450, depth: 140, facing: 270, id: hazen, name: Hazen’s brigade at Buffington’s and Wistar’s fords}
+    - {side: held, type: infantry, at: [-75.6545, 39.8592], width: 900, depth: 300, facing: 75, id: knyphausen, name: 'Knyphausen’s column, about 6,800 British and Germans'}
+    - {side: '#5b8c3a', type: light, at: [-75.6425, 39.8622], width: 350, depth: 60, facing: 75, id: rangers, name: The Queen’s Rangers in the vanguard}
+  arrows:
+    - {side: held, path: [[-75.7045, 39.8465], [-75.68, 39.853], [-75.663, 39.8575]], width: 220, id: knyphausen-march, name: Knyphausen marches east along the Great Road from 5:30 am}
+    - {side: held, path: [[-75.704, 39.8495], [-75.701, 39.875], [-75.692, 39.905], [-75.687, 39.9225], [-75.662, 39.934], [-75.637, 39.939], [-75.616, 39.932], [-75.603, 39.922]], width: 260, id: flank-march, name: 'Howe and Cornwallis, about 9,000 men, march 17 miles round the fords'}
+  clashes:
+    - {at: [-75.6362, 39.8628], size: 200}
+images:
+  brandywine-headquarters:
+    file: brandywine-headquarters.jpg
+    caption: "The house near Chadds Ford that served as Washington’s headquarters at Brandywine"
+    credit: "Wikimedia Commons, Sdwelch1031, CC BY 3.0 (Brandywine Battlefield Washington Headquarters.jpg)"

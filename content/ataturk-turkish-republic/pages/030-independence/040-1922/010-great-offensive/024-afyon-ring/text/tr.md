@@ -1,0 +1,3 @@
+Gece boyunca İkinci Ordu’nun VI. Kolordusu Trikupis grubunun kuzeyine ulaşır, V. Süvari Kolordusu ile IV. Kolordu da bu grupla Dumlupınar’daki Frangu grubunun arasına girer. Trikupis 29 Ağustos sabahı batıya hareket ettiğinde kolları her yanda Türk birlikleriyle karşılaşır.
+
+Dumlupınar yolunu açmak için saldıran 9. Tümeni IV. Kolordu karşısında savunmaya düşer, Türkler de doğu kanadındaki 12. Tümen’e saldırır. Hamurköy ve İlbulak Dağı’ndaki çarpışma gün boyu sürer ve iki taraf da ağır kayıp verir. Saat 23.00’te Yunan grubu çarpışmayı keser ve karanlıkta Çalköy’e doğru yürür, birlikler birbirine karıştıkça düzenini yitirir.

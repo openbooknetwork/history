@@ -1,0 +1,28 @@
+date: "October 202 BC"
+title: "The last line"
+bbox: [9.42022, 36.27267, 9.47595, 36.32513]
+zones: []
+routes: []
+markers: [zama-final-romans, zama-final-masinissa, zama-final-laelius, zama-final-hannibal]
+sources: ['Polybius, Histories, book 15, 14.', 'Livy, History of Rome, book 30, 34 to 35.', 'Adrian Goldsworthy, The Fall of Carthage (2006).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: rome, type: infantry, at: [9.45344, 36.28669], width: 1000, depth: 160, facing: 90, id: wings, name: Principes and triarii on the wings}
+    - {side: rome, type: infantry, at: [9.45344, 36.2989], width: 1600, depth: 160, facing: 90, id: hastati, name: Hastati in the centre}
+    - {side: rome, type: infantry, at: [9.45344, 36.31111], width: 1000, depth: 160, facing: 90, id: wings, name: Principes and triarii on the wings}
+    - {side: carthage, type: infantry, at: [9.45633, 36.2989], width: 3600, depth: 200, facing: 270, id: veterans, name: Hannibal’s veterans and the men rallied from the first two lines}
+  arrows:
+    - {side: numidia, path: [[9.47484, 36.27538], [9.46592, 36.28352], [9.45812, 36.29076]], width: 120, id: masinissa-return, name: Masinissa returns and charges the rear}
+    - {side: rome, path: [[9.47484, 36.32242], [9.46592, 36.31428], [9.45812, 36.30704]], width: 120, id: laelius-return, name: Laelius returns and charges the rear}
+    - {side: carthage, path: [[9.46035, 36.30071], [9.46703, 36.30523], [9.47484, 36.31066]], width: 70, style: dashed, id: hannibal-escape, name: Hannibal escapes with a few horsemen}
+  clashes:
+    - [9.45477, 36.28895]
+    - [9.45477, 36.30342]
+    - [9.45767, 36.29166]
+    - [9.45767, 36.30614]
+images:
+  zama-plaquette:
+    file: zama-plaquette.jpg
+    caption: "Scenes from the battle of Zama, relief plaquette, probably French, 17th century, Metropolitan Museum of Art"
+    credit: "Wikimedia Commons, Metropolitan Museum of Art, CC0 (Scenes from the Battle of Zama MET 149866.jpg)"

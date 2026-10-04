@@ -1,0 +1,29 @@
+date: "264 BC"
+title: "The crossing and the Syracusans"
+bbox: [15.50128, 38.14596, 15.64187, 38.23823]
+zones: []
+routes: []
+markers: [messana-hiero-claudius, messana-hiero-hiero, messana-hiero-carthaginians, messana-hiero-city]
+sources: ['Polybius, Histories, book 1, 11 to 12.', 'John Lazenby, The First Punic War (1996).']
+emblem:
+  kind: battle-plan
+  works:
+    - {side: neutral, path: [[15.56243, 38.20476], [15.54757, 38.20431], [15.54128, 38.19571], [15.543, 38.18486], [15.551, 38.17898], [15.55843, 38.17898]], width: 70, id: walls, name: The walls of Messana}
+  units:
+    - {side: rome, type: infantry, at: [15.53557, 38.17581], width: 1000, depth: 200, facing: 225, id: roman-legions, name: Two Roman legions under Appius Claudius}
+    - {side: syracuse, type: infantry, at: [15.53323, 38.17396], width: 1100, depth: 220, facing: 45, id: syracusan-infantry, name: Syracusan infantry under Hiero II}
+    - {side: syracuse, type: cavalry, at: [15.53894, 38.17124], width: 300, depth: 150, facing: 45, id: syracusan-cavalry, name: Syracusan cavalry}
+    - {side: syracuse, type: camp, at: [15.51728, 38.16134], width: 500, depth: 500, facing: 0, id: hiero-camp, name: Hiero’s camp on a hill outside the city}
+    - {side: carthage, type: infantry, at: [15.55157, 38.22014], width: 1000, depth: 220, facing: 180, id: carthaginian-army, name: 'Carthaginian army under Hanno, camped north of the city'}
+    - {side: carthage, type: camp, at: [15.55157, 38.22647], width: 600, depth: 600, facing: 0, id: carthaginian-camp, name: Carthaginian camp north of the city}
+  arrows:
+    - {side: rome, path: [[15.63387, 38.17672], [15.59843, 38.18757], [15.57214, 38.19571]], width: 150, id: crossing, name: Appius Claudius crosses the strait by night}
+    - {side: rome, path: [[15.54471, 38.18757], [15.54014, 38.18124], [15.53786, 38.17762]], width: 110, id: roman-attack, name: The Romans march out against the Syracusans}
+    - {side: syracuse, path: [[15.52071, 38.15953], [15.51728, 38.14505], [15.51842, 38.12787]], width: 120, style: dashed, id: syracusan-retreat, name: Hiero withdraws to Syracuse}
+  clashes:
+    - [15.5343, 38.17481]
+images:
+  messana-hiero-coin:
+    file: messana-hiero-coin.png
+    caption: "Hiero II of Syracuse wearing a diadem, on a bronze coin of his reign"
+    credit: "Wikimedia Commons, Stella, CC BY-SA 4.0 (Moneta Gerone II.png)"

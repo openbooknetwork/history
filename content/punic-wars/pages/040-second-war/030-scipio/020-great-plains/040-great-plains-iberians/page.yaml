@@ -1,0 +1,28 @@
+date: "203 BC"
+title: "The Iberians surrounded"
+bbox: [8.9149, 36.60348, 8.9731, 36.65052]
+zones: []
+routes: []
+markers: [great-plains-iberians-iberians, great-plains-iberians-columns, great-plains-iberians-scipio]
+sources: ['Polybius, Histories, book 14, 8.', 'Livy, History of Rome, book 30, 8.', 'Adrian Goldsworthy, The Fall of Carthage (2006).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[8.84, 36.57], [8.88, 36.585], [8.915, 36.598], [8.944, 36.607], [8.975, 36.613], [9.01, 36.618], [9.05, 36.622]], width: 90, id: bagradas, name: The river Bagradas}
+  units:
+    - {side: carthage, type: infantry, at: [8.9393, 36.627], width: 520, depth: 200, facing: 90, id: iberians, name: 'The Iberians, surrounded'}
+    - {side: rome, type: infantry, at: [8.94154, 36.627], width: 700, depth: 90, facing: 270, id: hastati, name: The hastati hold the front}
+    - {side: rome, type: infantry, at: [8.93773, 36.6317], width: 600, depth: 120, facing: 200, id: columns, name: Principes and triarii on the flanks}
+    - {side: rome, type: infantry, at: [8.93773, 36.6223], width: 600, depth: 120, facing: 340, id: columns, name: Principes and triarii on the flanks}
+  arrows:
+    - {side: rome, path: [[8.94702, 36.62971], [8.94568, 36.63288], [8.9412, 36.63424], [8.93818, 36.63261]], width: 100, id: columns-march, name: The principes and triarii march round both flanks}
+    - {side: rome, path: [[8.94702, 36.62429], [8.94568, 36.62112], [8.9412, 36.61976], [8.93818, 36.62139]], width: 100, id: columns-march, name: The principes and triarii march round both flanks}
+  clashes:
+    - [8.94064, 36.627]
+    - [8.93885, 36.62999]
+    - [8.93885, 36.62401]
+images:
+  syphax-coin:
+    file: syphax-coin.png
+    caption: "A coin of Syphax, king of the western Numidians and ally of Carthage"
+    credit: "Wikimedia Commons, unknown author, CC BY 4.0 (Coin of Syphax.png)"

@@ -1,0 +1,3 @@
+The Romans sail along the coast in four squadrons. The first two, under Vulso on the right and Regulus on the left, are each drawn up in echelon, so that together they form a wedge with the consuls’ two sixes at its point. The third squadron follows in line, towing the transports that carry the horses, and the fourth, in line abreast, guards the rear.
+
+The Carthaginians come on in a single line abreast of three squadrons, with their left, landward wing advanced. Hamilcar commands the centre and Hanno the seaward right, with the fastest ships of the fleet. Both fleets sight each other and advance.

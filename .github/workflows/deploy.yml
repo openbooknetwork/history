@@ -21,6 +21,12 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
+      # the elevation tiles harita downloads on the first build of an area, kept between runs
+      - uses: actions/cache@v4
+        with:
+          path: .cache/harita
+          key: elevation-${{ hashFiles('content/*/story.yaml', 'content/*/pages/**/page.yaml') }}
+          restore-keys: elevation-
       - run: npm run build
       - run: cp CNAME dist/CNAME
       # enables Pages with the Actions source on first use, so no setting has to be flipped by hand

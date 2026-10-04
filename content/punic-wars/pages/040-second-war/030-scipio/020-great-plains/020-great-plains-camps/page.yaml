@@ -1,0 +1,29 @@
+date: "Spring 203 BC, night"
+title: "The burning of the camps"
+bbox: [9.93, 36.92, 10.2, 37.14]
+zones: []
+routes: []
+markers: [great-plains-camps-numidian, great-plains-camps-carthaginian, great-plains-camps-laelius, great-plains-camps-scipio, utica-204]
+sources: ['Polybius, Histories, book 14, 1 to 6.', 'Livy, History of Rome, book 30, 3 to 6.', 'Adrian Goldsworthy, The Fall of Carthage (2006).']
+emblem:
+  kind: battle-plan
+  water:
+    - {area: [[10.07, 37.05], [10.085, 37.075], [10.11, 37.09], [10.12, 37.1], [10.135, 37.12], [10.17, 37.15], [10.22, 37.165], [10.26, 37.15], [10.26, 37.06], [10.22, 36.99], [10.16, 36.96], [10.11, 36.96], [10.085, 36.985], [10.07, 37.02]], id: gulf, name: The ancient gulf of Utica}
+    - {path: [[9.9, 36.84], [9.95, 36.88], [10, 36.92], [10.05, 36.955], [10.09, 36.97]], width: 120, id: bagradas, name: The river Bagradas}
+  units:
+    - {side: rome, type: camp, at: [10.1, 37.105], width: 900, depth: 700, facing: 225, id: castra-cornelia, name: 'Castra Cornelia, Scipio’s camp'}
+    - {side: carthage, type: camp, at: [10.04, 36.99], width: 900, depth: 700, facing: 45, id: hasdrubal-camp, name: 'Hasdrubal’s camp, timber huts behind earth ramparts'}
+    - {side: carthage, type: camp, at: [9.995, 36.975], width: 1300, depth: 900, facing: 45, id: syphax-camp, name: 'Syphax’s camp, huts of reed and thatch'}
+  arrows:
+    - {side: rome, path: [[10.095, 37.095], [10.065, 37.035], [10.04, 37]], width: 220, id: scipio-attack, name: Scipio storms the Carthaginian camp}
+    - {side: numidia, path: [[10.09, 37.1], [10.045, 37.065], [10.01, 37.02], [9.998, 36.985]], width: 220, id: laelius-masinissa, name: Laelius and Masinissa fire the Numidian camp}
+    - {side: carthage, path: [[10.05, 36.985], [10.1, 36.95], [10.16, 36.93], [10.22, 36.92]], width: 180, style: dashed, id: hasdrubal-flight, name: 'Hasdrubal escapes to Carthage with 2,500 men'}
+    - {side: carthage, path: [[9.985, 36.968], [9.96, 36.955], [9.94, 36.94]], width: 160, style: dashed, id: syphax-flight, name: Syphax escapes with a few horsemen}
+  clashes:
+    - {at: [10.04, 36.99], size: 350}
+    - {at: [9.995, 36.975], size: 350}
+images:
+  syphax-receives-scipio:
+    file: syphax-receives-scipio.jpg
+    caption: "Syphax receiving Scipio on his earlier visit to Numidia in 206 BC, fresco by Alessandro Allori, about 1578 to 1582, Medici villa at Poggio a Caiano"
+    credit: "Wikimedia Commons, Alessandro Allori, CC BY-SA 3.0 (Allori, Siface di Numidia che riceve Scipione, 1578-82 ca. 07.JPG)"

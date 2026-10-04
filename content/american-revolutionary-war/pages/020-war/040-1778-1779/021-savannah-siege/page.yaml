@@ -1,0 +1,28 @@
+date: "16 September to 8 October 1779"
+title: "Savannah: the siege"
+bbox: [-81.116, 32.056, -81.064, 32.092]
+zones: []
+routes: []
+markers: [savannah-siege-prevost, savannah-siege-destaing, savannah-siege-lincoln]
+sources: ['Alexander A. Lawrence, Storm over Savannah (1951).', 'Franklin B. Hough, The Siege of Savannah (1866).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-81.125, 32.0905], [-81.112, 32.0872], [-81.1, 32.0845], [-81.09, 32.0833], [-81.078, 32.0826], [-81.065, 32.0815]], width: 260, id: river, name: The Savannah River}
+    - {area: [[-81.112, 32.0818], [-81.1045, 32.0812], [-81.1028, 32.0782], [-81.1052, 32.0742], [-81.1125, 32.0748]], id: swamp, name: Swamp west of the town}
+  works:
+    - {side: held, path: [[-81.1005, 32.0812], [-81.0995, 32.0758], [-81.0975, 32.0722], [-81.092, 32.0705], [-81.086, 32.0708], [-81.0815, 32.0728], [-81.079, 32.0765], [-81.0785, 32.0812]], width: 40, id: british-lines, name: 'The British lines and redoubts, built by Moncrief'}
+    - {side: '#2a9d8f', path: [[-81.0955, 32.0672], [-81.089, 32.0662], [-81.0828, 32.0676]], width: 35, id: siege-works, name: The French siege trenches and batteries}
+  units:
+    - {side: held, type: camp, at: [-81.0995, 32.0758], width: 110, depth: 90, facing: 0, id: spring-hill, name: The Spring Hill redoubt}
+    - {side: held, type: infantry, at: [-81.0905, 32.0745], width: 1100, depth: 180, facing: 180, id: garrison, name: 'Prevost’s garrison of regulars, Loyalists and militia'}
+    - {side: held, type: ships, at: [-81.08, 32.0829], width: 160, depth: 60, facing: 90, id: rose, name: 'The Rose, scuttled to block the channel', count: 1}
+    - {side: '#2a9d8f', type: infantry, at: [-81.09, 32.06], width: 1200, depth: 250, facing: 0, id: french, name: D’Estaing’s French troops}
+    - {side: usa, type: infantry, at: [-81.078, 32.0645], width: 700, depth: 200, facing: 330, id: americans, name: Lincoln’s Continentals and militia}
+  arrows:
+    - {side: held, path: [[-81.066, 32.0885], [-81.0745, 32.0838], [-81.08, 32.0808]], width: 90, id: maitland, name: Maitland’s men from Beaufort reach the town by the unguarded creeks}
+images:
+  savannah-moncrief-plan:
+    file: savannah-moncrief-plan.jpg
+    caption: "Plan of Savannah with the defence works and the works of the besiegers, 9 October 1779, drawn by James Moncrief"
+    credit: "Wikimedia Commons, James Moncrief and John Wilson, Public domain (Savannah, 1779 RCIN 734052.jpg)"

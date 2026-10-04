@@ -1,0 +1,36 @@
+when: {from: '1781-10-15', to: '1781-10-19'}
+date: "15 to 19 October 1781"
+title: "Yorktown: the surrender"
+bbox: [-76.52731, 37.21186, -76.48444, 37.25935]
+zones: []
+routes: []
+markers: [yorktown-surrender-moore-house, yorktown-surrender-field, yorktown-surrender-squall, yorktown-surrender-ohara]
+sources: ['Jerome A. Greene, The Guns of Independence (2005).', 'Brendan Morrissey, Yorktown 1781: The World Turned Upside Down (1997).']
+emblem:
+  kind: battle-plan
+  works:
+    - {side: held, path: [[-76.52392, 37.24488], [-76.52167, 37.24081], [-76.51885, 37.23583], [-76.5149, 37.23176], [-76.51095, 37.22923], [-76.507, 37.22841], [-76.50362, 37.23004], [-76.50294, 37.23185]], width: 45, id: inner-works, name: The British inner works round the town}
+    - {side: '#17a2a2', path: [[-76.52449, 37.23402], [-76.51997, 37.22679], [-76.51377, 37.22362], [-76.50869, 37.22226]], width: 40, id: first-parallel-french, name: 'The first parallel, French half, opened on the night of 6 October'}
+    - {side: usa, path: [[-76.50869, 37.22226], [-76.50192, 37.22154], [-76.49628, 37.22389], [-76.49403, 37.22525]], width: 40, id: first-parallel-american, name: 'The first parallel, American half, reaching the York River'}
+    - {side: '#17a2a2', path: [[-76.51941, 37.2286], [-76.51433, 37.2257], [-76.50869, 37.22443]], width: 40, id: second-parallel-french, name: 'The second parallel, dug on the night of 11 October'}
+    - {side: usa, path: [[-76.50869, 37.22443], [-76.50328, 37.22407]], width: 40, id: second-parallel-american, name: 'The second parallel, stopped short by Redoubts 9 and 10'}
+    - {side: usa, path: [[-76.50328, 37.22407], [-76.50068, 37.22606], [-76.4991, 37.22841], [-76.49843, 37.22896]], width: 40, id: second-parallel-river, name: 'The second parallel, carried to the river through the taken redoubts'}
+  units:
+    - {side: held, type: camp, at: [-76.52223, 37.24171], width: 130, depth: 130, facing: 0, id: fusiliers, name: The Fusiliers’ Redoubt}
+    - {side: usa, type: camp, at: [-76.5013, 37.22661], width: 80, depth: 80, facing: 0, id: redoubt-9, name: 'Redoubt 9, in allied hands'}
+    - {side: usa, type: camp, at: [-76.49967, 37.22914], width: 70, depth: 70, facing: 0, id: redoubt-10, name: 'Redoubt 10, in allied hands'}
+    - {side: held, type: camp, at: [-76.49572, 37.25076], width: 280, depth: 200, facing: 0, id: gloucester, name: The British post at Gloucester Point}
+    - {side: '#17a2a2', type: infantry, at: [-76.49685, 37.25754], width: 600, depth: 90, facing: 180, id: choisy, name: 'Lauzun’s Legion and Virginia militia under Choisy, blocking Gloucester'}
+    - {side: held, type: infantry, at: [-76.50632, 37.22045], width: 70, depth: 1100, facing: 180, id: march-out, name: 'The British army marching out to lay down its arms, 19 October'}
+    - {side: '#17a2a2', type: infantry, at: [-76.50959, 37.2191], width: 1100, depth: 45, facing: 90, id: french-line, name: The French army lining the road}
+    - {side: usa, type: infantry, at: [-76.50316, 37.2191], width: 1100, depth: 45, facing: 270, id: american-line, name: The American army lining the road}
+  arrows:
+    - {side: held, path: [[-76.50565, 37.22896], [-76.50407, 37.22461]], width: 45, id: abercromby, name: 'Abercromby’s 350 spike six guns in the allied lines, night of 15 October'}
+    - {side: '#17a2a2', path: [[-76.50632, 37.22262], [-76.50474, 37.22416]], width: 40, id: french-drive-back, name: French troops drive the sortie back}
+    - {side: held, path: [[-76.51038, 37.23583], [-76.50249, 37.24307], [-76.49628, 37.24895]], width: 50, id: boats, name: One wave of boats crosses to Gloucester Point on the night of 16 October}
+    - {side: held, path: [[-76.50632, 37.22724], [-76.50632, 37.21367]], width: 50, id: to-surrender-field, name: The British march out between the allied lines to Surrender Field}
+images:
+  yorktown-blarenberghe:
+    file: yorktown-blarenberghe.jpg
+    caption: "The siege of Yorktown, with the British army marching out between the French and American lines, painting by Louis Nicolas van Blarenberghe"
+    credit: "Wikimedia Commons, Louis Nicolas van Blarenberghe, Public domain (Louis Nicolas van Blarenberghe - The siege of Yorktown (1781).jpg)"

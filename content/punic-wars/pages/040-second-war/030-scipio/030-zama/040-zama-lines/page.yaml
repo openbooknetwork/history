@@ -1,0 +1,27 @@
+date: "October 202 BC"
+title: "The first two lines"
+bbox: [9.42022, 36.27267, 9.47595, 36.32513]
+zones: []
+routes: []
+markers: [zama-lines-first, zama-lines-second, zama-lines-principes, zama-lines-hannibal]
+sources: ['Polybius, Histories, book 15, 13.', 'Livy, History of Rome, book 30, 34.', 'Adrian Goldsworthy, The Fall of Carthage (2006).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: rome, type: infantry, at: [9.44831, 36.2989], width: 2000, depth: 100, facing: 90, id: hastati, name: Hastati against the Carthaginian lines}
+    - {side: rome, type: infantry, at: [9.44652, 36.2989], width: 2000, depth: 100, facing: 90, id: principes, name: 'Principes, sent in behind the hastati'}
+    - {side: rome, type: infantry, at: [9.44296, 36.2989], width: 2000, depth: 110, facing: 90, id: triarii, name: Triarii}
+    - {side: carthage, type: infantry, at: [9.4502, 36.2989], width: 2100, depth: 150, facing: 270, id: second-line, name: 'Second line: Carthaginian and African levies'}
+    - {side: carthage, type: infantry, at: [9.46101, 36.2989], width: 2600, depth: 200, facing: 270, id: veterans, name: 'Hannibal’s veterans, waiting fresh'}
+  arrows:
+    - {side: carthage, path: [[9.44875, 36.29076], [9.45087, 36.28759], [9.45756, 36.28578]], width: 90, style: dashed, id: first-line-flight, name: The broken first line escapes round the second}
+    - {side: carthage, path: [[9.44875, 36.30704], [9.45087, 36.31021], [9.45756, 36.31202]], width: 90, style: dashed, id: first-line-flight, name: The broken first line escapes round the second}
+  clashes:
+    - [9.44926, 36.29347]
+    - [9.44926, 36.2989]
+    - [9.44926, 36.30433]
+images:
+  zama-aldegrever:
+    file: zama-aldegrever.jpg
+    caption: "Hannibal fighting Scipio, engraving by Heinrich Aldegrever, 1538"
+    credit: "Wikimedia Commons, Rijksmuseum, CC0 (Hannibal vechtend tegen Scipio Hanibal pu cor Scipio (titel op object), RP-P-OB-2688.jpg)"

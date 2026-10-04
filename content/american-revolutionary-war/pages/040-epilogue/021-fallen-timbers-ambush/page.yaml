@@ -1,0 +1,37 @@
+when: '1794-08-20'
+date: "20 August 1794, morning"
+title: "Fallen Timbers: the ambush"
+bbox: [-83.72466, 41.52501, -83.66525, 41.56979]
+zones: []
+routes: []
+markers: [fallen-timbers-ambush-wayne, fallen-timbers-ambush-blue-jacket, fallen-timbers-ambush-hamtramck, fallen-timbers-ambush-wilkinson]
+sources: ['Alan D. Gaff, Bayonets in the Wilderness: Anthony Wayne’s Legion in the Old Northwest (2004).', 'John Sugden, Blue Jacket: Warrior of the Shawnees (2000).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-83.735, 41.495], [-83.712, 41.515], [-83.692, 41.533], [-83.672, 41.549], [-83.652, 41.562], [-83.634, 41.5735], [-83.61, 41.588], [-83.585, 41.605]], width: 260, id: maumee, name: The Maumee River}
+    - {area: [[-83.71235, 41.54964], [-83.71583, 41.55316], [-83.71193, 41.55661], [-83.70709, 41.55424]], id: swamp, name: The swamp on the Legion’s left}
+  units:
+    - {side: neutral, type: light, at: [-83.69665, 41.54484], width: 1900, depth: 60, facing: 45, id: timber, name: 'The fallen timber, trees blown down by a storm'}
+    - {side: neutral, type: light, at: [-83.69529, 41.54586], width: 1900, depth: 60, facing: 45, id: timber, name: 'The fallen timber, trees blown down by a storm'}
+    - {side: neutral, type: light, at: [-83.69394, 41.54689], width: 1900, depth: 60, facing: 45, id: timber, name: 'The fallen timber, trees blown down by a storm'}
+    - {side: '#8d6e63', type: infantry, at: [-83.69147, 41.54298], width: 700, depth: 110, facing: 225, id: odawa, name: Odawa and Potawatomi under Little Otter and Egushawa}
+    - {side: '#8d6e63', type: infantry, at: [-83.69971, 41.54919], width: 700, depth: 110, facing: 225, id: wyandot, name: 'Wyandot, Lenape and Canadian militia'}
+    - {side: usa, type: infantry, at: [-83.6975, 41.53588], width: 730, depth: 70, facing: 45, id: wilkinson, name: 'Wilkinson’s right wing, the 1st and 3rd sub-legions, 800 yards long'}
+    - {side: usa, type: infantry, at: [-83.70599, 41.54228], width: 650, depth: 90, facing: 45, id: hamtramck, name: 'Hamtramck’s left wing, the 2nd and 4th sub-legions, in two ranks'}
+    - {side: usa, type: cavalry, at: [-83.70429, 41.53716], width: 220, depth: 70, facing: 45, id: centre, name: Dragoons and artillery in the centre of the column}
+    - {side: usa, type: light, at: [-83.69597, 41.53704], width: 520, depth: 50, facing: 45, id: light-infantry, name: Light infantry sent ahead of each wing}
+    - {side: usa, type: light, at: [-83.70446, 41.54343], width: 480, depth: 50, facing: 45, id: light-infantry, name: Light infantry sent ahead of each wing}
+    - {side: usa, type: cavalry, at: [-83.71617, 41.54676], width: 400, depth: 80, facing: 45, id: kentucky, name: Kentucky mounted militia under Charles Scott and Robert Todd}
+  arrows:
+    - {side: usa, path: [[-83.69555, 41.54375], [-83.70259, 41.54356], [-83.70633, 41.54292]], width: 70, id: kentucky-flee, name: The mounted Kentucky vanguard scatters under the first volley, style: dashed}
+    - {side: '#8d6e63', path: [[-83.69343, 41.54343], [-83.69937, 41.54279], [-83.70319, 41.54247]], width: 70, id: warriors-pursue, name: Warriors pursue into the Legion’s left in hand to hand fighting}
+    - {side: usa, path: [[-83.7037, 41.53761], [-83.69691, 41.54183]], width: 60, id: grapeshot, name: The artillery comes up and fires grapeshot}
+  clashes:
+    - {at: [-83.69521, 41.54401], size: 90}
+    - {at: [-83.7037, 41.54273], size: 80}
+images:
+  fallen-timbers-davis:
+    file: fallen-timbers-davis.jpg
+    caption: "At the battle of Fallen Timbers, 1794, illustration by John Steeple Davis, about 1891"
+    credit: "Wikimedia Commons, John Steeple Davis, Public domain (At the battle of Fallen Timbers, 1794.jpg)"

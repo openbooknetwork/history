@@ -1,0 +1,33 @@
+date: "2 August 216 BC, afternoon"
+title: "The encirclement"
+bbox: [16.07961, 41.28177, 16.15049, 41.33937]
+zones: []
+routes: []
+markers: [cannae-enc-libyans-left, cannae-enc-libyans-right, cannae-enc-hasdrubal, cannae-enc-romans, cannae-enc-numidians]
+sources: ['Polybius, Histories, book 3, 115 to 116.', 'Livy, History of Rome, book 22, 47 to 49.', 'Adrian Goldsworthy, Cannae (2001).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[16.10584, 41.27469], [16.11667, 41.28402], [16.1275, 41.29335], [16.13642, 41.29975], [16.14602, 41.30708], [16.16028, 41.31915]], width: 70, id: aufidus, name: The river Aufidus}
+  units:
+    - {side: rome, type: infantry, at: [16.12617, 41.31282], width: 1500, depth: 750, facing: 60, id: roman-infantry, name: 'Roman and allied infantry, enclosed', bow: 300}
+    - {side: carthage, type: infantry, at: [16.13156, 41.31517], width: 1500, depth: 200, facing: 240, id: centre, name: 'Gauls and Iberians, bent back into a pocket', bow: -300}
+    - {side: carthage, type: infantry, at: [16.13332, 41.30508], width: 650, depth: 280, facing: 330, id: libyans, name: 'Libyan infantry, turned inwards on the flanks'}
+    - {side: carthage, type: infantry, at: [16.12089, 41.32138], width: 650, depth: 280, facing: 150, id: libyans, name: 'Libyan infantry, turned inwards on the flanks'}
+    - {side: carthage, type: cavalry, at: [16.11789, 41.3092], width: 1300, depth: 220, facing: 60, id: hasdrubal, name: 'Hasdrubal’s cavalry, closing the rear'}
+  arrows:
+    - {side: carthage, path: [[16.13261, 41.30602], [16.13033, 41.309]], width: 110, id: libyan-attack, name: The Libyans attack both flanks}
+    - {side: carthage, path: [[16.12161, 41.32044], [16.12388, 41.31746]], width: 110, id: libyan-attack, name: The Libyans attack both flanks}
+    - {side: carthage, path: [[16.12212, 41.30583], [16.12555, 41.30785]], width: 100, id: rear-attack, name: Hasdrubal’s cavalry charges the Roman rear}
+    - {side: carthage, path: [[16.11614, 41.31366], [16.12017, 41.3149]], width: 100, id: rear-attack, name: Hasdrubal’s cavalry charges the Roman rear}
+    - {side: carthage, path: [[16.09742, 41.32011], [16.08718, 41.32086], [16.07961, 41.32173]], width: 90, id: numidian-pursuit, name: The Numidians pursue the allied cavalry}
+  clashes:
+    - [16.13342, 41.31599]
+    - [16.13204, 41.30676]
+    - [16.12217, 41.31969]
+    - [16.12069, 41.31042]
+images:
+  cannae-paullus:
+    file: cannae-paullus.jpg
+    caption: "The Death of Paulus Aemilius at the Battle of Cannae, painting by John Trumbull, 1773"
+    credit: "Wikimedia Commons, John Trumbull, Public domain (The Death of Paulus Aemilius at the Battle of Cannae (Yale University Art Gallery scan).jpg)"

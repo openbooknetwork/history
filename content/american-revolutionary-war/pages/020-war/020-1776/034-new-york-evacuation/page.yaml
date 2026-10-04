@@ -1,0 +1,25 @@
+when: {from: '1776-08-29'}
+date: "Night of 29 to 30 August 1776"
+title: "Long Island: the crossing to Manhattan"
+bbox: [-74.015, 40.673, -73.96, 40.714]
+zones: []
+routes: []
+markers: [new-york-evacuation-washington, new-york-evacuation-mifflin, new-york-evacuation-manhattan]
+sources: ['Barnet Schecter, The Battle for New York (2002).', 'John J. Gallagher, The Battle of Brooklyn 1776 (1995).', 'David McCullough, 1776 (2005).']
+emblem:
+  kind: battle-plan
+  works:
+    - {side: usa, path: [[-73.9905, 40.68], [-73.984, 40.6855], [-73.9785, 40.6905], [-73.9735, 40.6965], [-73.9705, 40.701]], width: 70, id: brooklyn-lines, name: 'The American lines on Brooklyn Heights, from Gowanus Creek to Wallabout Bay'}
+    - {side: held, path: [[-73.9845, 40.6775], [-73.9785, 40.6825], [-73.9725, 40.6875], [-73.968, 40.693]], width: 60, id: british-trenches, name: 'British siege trenches, dug closer each day'}
+  units:
+    - {side: held, type: infantry, at: [-73.969, 40.683], width: 1600, depth: 300, facing: 315, id: howe, name: Howe’s army before the lines}
+    - {side: usa, type: light, at: [-73.979, 40.6875], width: 1200, depth: 80, facing: 135, id: mifflin, name: 'Mifflin’s rearguard, keeping the campfires burning'}
+    - {side: usa, type: ships, at: [-73.999, 40.706], width: 450, depth: 550, facing: 300, count: 8, rows: 2, id: glover-boats, name: John Glover’s Marblehead men row the army across}
+  arrows:
+    - {side: usa, path: [[-73.982, 40.69], [-73.989, 40.696], [-73.9935, 40.7015]], width: 140, style: dashed, id: to-the-ferry, name: The army leaves the lines for the Brooklyn ferry}
+    - {side: usa, path: [[-73.9945, 40.703], [-73.9985, 40.7065], [-74.003, 40.708]], width: 160, id: crossing, name: '9,000 men cross the East River, night of 29 to 30 August'}
+images:
+  retreat-from-long-island:
+    file: retreat-from-long-island.jpg
+    caption: "The American retreat from Long Island, painting published by the Werner Company, 1899"
+    credit: "Wikimedia Commons, The Werner Company, Public domain (U.S. Army - Artillery Retreat from Long Island 1776.jpg)"

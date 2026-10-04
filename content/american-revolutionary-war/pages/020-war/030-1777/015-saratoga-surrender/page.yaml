@@ -1,0 +1,27 @@
+date: "8 to 17 October 1777"
+title: "Saratoga: the surrender"
+bbox: [-73.68, 42.985, -73.555, 43.125]
+zones: []
+routes: []
+markers: [saratoga-surrender-convention, saratoga-surrender-gates]
+sources: ['Richard M. Ketchum, Saratoga (1997).', 'Rupert Furneaux, The Battle of Saratoga (1971).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-73.572, 43.125], [-73.577, 43.1], [-73.585, 43.075], [-73.595, 43.05], [-73.607, 43.025], [-73.6145, 43.005], [-73.62, 42.985], [-73.625, 42.965]], width: 200, id: hudson, name: The Hudson River}
+    - {path: [[-73.645, 43.114], [-73.625, 43.108], [-73.605, 43.102], [-73.59, 43.0995], [-73.5785, 43.0995]], width: 50, id: fish-creek, name: Fish Creek}
+  works:
+    - {side: usa, path: [[-73.6195, 43.0003], [-73.627, 43.0022], [-73.6335, 43.0038], [-73.6405, 43.0018], [-73.6445, 42.9975]], width: 45, id: american-works, name: The American fortifications on Bemis Heights}
+  units:
+    - {side: held, type: camp, at: [-73.5885, 43.1055], width: 1300, depth: 900, facing: 180, id: burgoyne-camp, name: 'Burgoyne’s camp on the heights at Saratoga, about 6,000 men'}
+    - {side: usa, type: infantry, at: [-73.5925, 43.0915], width: 1600, depth: 220, facing: 0, id: gates, name: Gates’s army south of Fish Creek}
+    - {side: usa, type: light, at: [-73.612, 43.111], width: 900, depth: 80, facing: 80, id: morgan, name: Morgan’s riflemen to the west}
+    - {side: usa, type: infantry, at: [-73.5675, 43.0995], width: 1100, depth: 160, facing: 290, id: east-bank, name: American troops on the east bank of the Hudson}
+  arrows:
+    - {side: held, path: [[-73.629, 43.022], [-73.612, 43.045], [-73.6, 43.072], [-73.591, 43.094]], width: 160, id: retreat, name: 'Burgoyne’s retreat by night, 8 to 9 October', style: dashed}
+    - {side: usa, path: [[-73.637, 43.012], [-73.626, 43.04], [-73.613, 43.068], [-73.6005, 43.0858]], width: 180, id: pursuit, name: Gates follows}
+images:
+  saratoga-position-plan:
+    file: saratoga-position-plan.jpg
+    caption: "British plan of the position Burgoyne’s army took at Saratoga and held until the convention was signed, 1777"
+    credit: "Wikimedia Commons, unknown author, Public domain (Battle of Saratoga map, September 10, 1777.jpg)"

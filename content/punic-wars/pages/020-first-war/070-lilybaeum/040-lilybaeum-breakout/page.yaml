@@ -1,0 +1,26 @@
+date: "249 BC, afternoon"
+title: "The Roman fleet destroyed"
+bbox: [12.4488, 37.93254, 12.52294, 38.02922]
+zones: []
+routes: []
+markers: [lilybaeum-breakout-aground, lilybaeum-breakout-captured, lilybaeum-breakout-pulcher, lilybaeum-approach-drepana]
+sources: ['Polybius, Histories, book 1, 51.', 'John Lazenby, The First Punic War (1996).', 'Adrian Goldsworthy, The Fall of Carthage (2006).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: rome, type: ships, at: [12.49702, 37.99434], width: 700, depth: 220, count: 4, rows: 1, facing: 286, id: roman-line, name: What is left of the Roman line}
+    - {side: rome, type: ships, at: [12.49222, 37.97943], width: 600, depth: 220, count: 4, rows: 1, facing: 286, id: roman-line, name: What is left of the Roman line}
+    - {side: rome, type: ships, at: [12.49867, 37.98644], width: 500, depth: 150, count: 3, rows: 1, facing: 106, id: aground, name: Roman ships run aground by their crews}
+    - {side: rome, type: ships, at: [12.47189, 37.94547], width: 380, depth: 420, count: 6, rows: 2, facing: 196, id: pulcher, name: Pulcher with the 30 ships that survive}
+    - {side: carthage, type: ships, at: [12.49176, 37.99554], width: 1200, depth: 240, count: 7, rows: 1, facing: 106, id: carthaginian-line, name: 'Adherbal’s fleet, closing in'}
+    - {side: carthage, type: ships, at: [12.48759, 37.98237], width: 1200, depth: 240, count: 7, rows: 1, facing: 106, id: carthaginian-line, name: 'Adherbal’s fleet, closing in'}
+    - {side: carthage, type: ships, at: [12.48265, 37.97032], width: 1000, depth: 240, count: 6, rows: 1, facing: 106, id: carthaginian-line, name: 'Adherbal’s fleet, closing in'}
+    - {side: carthage, type: ships, at: [12.47613, 37.95721], width: 500, depth: 260, count: 5, rows: 1, facing: 106, id: five-ships, name: Five Carthaginian ships to the south}
+  arrows:
+    - {side: carthage, path: [[12.49128, 37.99094], [12.49544, 37.98999]], width: 80, id: closing, name: The Carthaginians pick off and ram the exposed ships}
+    - {side: carthage, path: [[12.48669, 37.97693], [12.49119, 37.9759]], width: 80, id: closing, name: The Carthaginians pick off and ram the exposed ships}
+    - {side: rome, path: [[12.48397, 37.96249], [12.47269, 37.95753], [12.47182, 37.9502], [12.47353, 37.93851]], width: 90, style: dashed, id: pulcher-breaks-out, name: Pulcher breaks out to the south}
+  clashes:
+    - [12.49448, 37.99257]
+    - [12.48951, 37.97817]
+images: {}

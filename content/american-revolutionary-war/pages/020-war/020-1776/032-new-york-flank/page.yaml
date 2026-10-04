@@ -1,0 +1,37 @@
+when: {from: '1776-08-27'}
+date: "27 August 1776, morning"
+title: "Long Island: the flank turned"
+bbox: [-74.045, 40.6, -73.875, 40.708]
+zones: []
+routes: []
+markers: [new-york-flank-sullivan, new-york-flank-parsons, new-york-flank-howe, new-york-flank-de-heister]
+sources: ['Barnet Schecter, The Battle for New York (2002).', 'John J. Gallagher, The Battle of Brooklyn 1776 (1995).', 'David McCullough, 1776 (2005).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-74.006, 40.665], [-73.999, 40.6705], [-73.9935, 40.6745], [-73.9885, 40.677]], width: 140, id: gowanus-creek, name: 'Gowanus Creek and Brouwer’s millpond, about 80 yards wide'}
+  works:
+    - {side: usa, path: [[-73.9905, 40.68], [-73.984, 40.6855], [-73.9785, 40.6905], [-73.9735, 40.6965], [-73.9705, 40.701]], width: 110, id: brooklyn-lines, name: 'The American lines on Brooklyn Heights, from Gowanus Creek to Wallabout Bay'}
+  units:
+    - {side: usa, type: infantry, at: [-73.981, 40.6925], width: 1400, depth: 400, facing: 150, id: putnam, name: 'The Brooklyn lines, where Sullivan’s men take refuge'}
+    - {side: usa, type: infantry, at: [-73.9965, 40.6605], width: 900, depth: 250, facing: 200, id: stirling, name: Stirling holds Grant for four hours}
+    - {side: usa, type: infantry, at: [-73.9905, 40.656], width: 300, depth: 140, facing: 220, id: parsons, name: About 300 men under Parsons on Battle Hill}
+    - {side: usa, type: infantry, at: [-73.969, 40.668], width: 700, depth: 250, facing: 160, id: sullivan, name: 'Sullivan’s men, caught between the Hessians and the British'}
+    - {side: held, type: infantry, at: [-74.008, 40.6505], width: 900, depth: 300, facing: 25, id: grant, name: Grant’s brigades on the Gowanus Road}
+    - {side: '#3d8b62', type: infantry, at: [-73.962, 40.6575], width: 1100, depth: 320, facing: 340, id: de-heister, name: The Hessians attack up the Flatbush Pass at 9 a.m.}
+    - {side: held, type: infantry, at: [-73.95, 40.68], width: 2000, depth: 380, facing: 240, id: main-column, name: 'Howe’s main army, through the Jamaica Pass, comes down behind the heights'}
+  arrows:
+    - {side: '#3d8b62', path: [[-73.96, 40.661], [-73.965, 40.665]], width: 230, id: hessian-attack, name: The Hessians attack up the Flatbush Pass}
+    - {side: held, path: [[-73.955, 40.677], [-73.964, 40.673], [-73.968, 40.672]], width: 230, id: rear-attack, name: The British come down on Sullivan from behind}
+    - {side: held, path: [[-73.948, 40.683], [-73.97, 40.681], [-73.984, 40.6745]], width: 230, id: cornwallis, name: Cornwallis marches west behind Stirling}
+    - {side: usa, path: [[-73.972, 40.6705], [-73.976, 40.679], [-73.979, 40.687]], width: 200, style: dashed, id: sullivan-retreat, name: Most of Sullivan’s men reach the Brooklyn lines}
+  clashes:
+    - {at: [-73.9665, 40.664], size: 250}
+    - {at: [-73.97, 40.6715], size: 250}
+    - {at: [-73.9985, 40.656], size: 220}
+    - {at: [-73.992, 40.6545], size: 180}
+images:
+  battle-pass-1866:
+    file: battle-pass-1866.jpg
+    caption: "Battle Pass, the Flatbush Pass held by Sullivan’s men, lithograph by Hayward and Lepine, 1866"
+    credit: "Wikimedia Commons, Hayward and Lepine, Public domain (Brooklyn Museum - Battle Pass Vally Grove - Hayward and Lepine.jpg)"

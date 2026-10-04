@@ -1,0 +1,35 @@
+when: { from: 1921-08-26 }
+date: "26 August to 2 September 1921"
+title: "Sakarya: the assault on the heights"
+bbox: [31.45, 39.08, 32.75, 39.92]
+zones: []
+routes: []
+markers: [sakarya-heights-cal-dagi, sakarya-heights-haymana, alagoz]
+sources:
+  - "Lord Kinross, Atatürk: The Rebirth of a Nation (1964)."
+  - "Andrew Mango, Atatürk (1999)."
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[32, 39.12], [32, 39.2], [32.03, 39.27], [32.02, 39.32], [31.98, 39.4], [31.99, 39.48], [31.96, 39.56], [31.97, 39.64], [31.98, 39.7], [31.95, 39.76], [31.92, 39.81], [31.86, 39.86], [31.84, 39.92]], width: 700, id: sakarya-river, name: 'The Sakarya, steep banked, with two bridges on this front'}
+    - {path: [[32.45, 39.25], [32.35, 39.24], [32.27, 39.27], [32.19, 39.29], [32.1, 39.32], [32.02, 39.33]], width: 450, id: gok-river, name: 'The Gök, shallow, joining the Sakarya from the east'}
+  units:
+    - {side: republic, type: infantry, at: [32.06, 39.725], width: 17000, depth: 3500, facing: 265, id: north-sector, name: 'Turkish infantry on the hills east of the Sakarya, northern sector'}
+    - {side: republic, type: infantry, at: [32.06, 39.555], width: 14000, depth: 3500, facing: 255, id: centre-sector, name: 'Turkish infantry in the centre, before Polatlı'}
+    - {side: republic, type: infantry, at: [32.26, 39.5], width: 20000, depth: 3000, facing: 200, id: second-line, name: 'Turkish second line, between Polatlı and Haymana'}
+    - {side: greek, type: infantry, at: [32.08, 39.38], width: 12000, depth: 3500, facing: 10, id: greek-left, name: 'Greek divisions across the Gök, the western wing'}
+    - {side: greek, type: infantry, at: [32.25, 39.36], width: 14000, depth: 3500, facing: 0, id: greek-centre, name: The Greek main effort in the centre}
+    - {side: greek, type: infantry, at: [32.45, 39.3], width: 12000, depth: 3500, facing: 20, id: greek-right, name: Greek divisions on the eastern wing}
+    - {side: greek, type: infantry, at: [31.87, 39.6], width: 14000, depth: 3000, facing: 85, id: greek-river, name: Greek divisions facing the river front}
+  arrows:
+    - {side: greek, path: [[32.08, 39.36], [32.07, 39.4], [32.06, 39.43]], width: 3500, id: cal-dagi, name: 'The Greeks storm Çal Dağı, taken on 2 September'}
+    - {side: greek, path: [[32.25, 39.38], [32.24, 39.42], [32.22, 39.45]], width: 4000, id: centre-push, name: The centre pushes 16 km through the second line}
+    - {side: republic, path: [[32.55, 39.34], [32.53, 39.2], [32.35, 39.12], [32.1, 39.12]], width: 1400, id: cavalry-raids, name: Turkish cavalry raids the Greek supply lines}
+  clashes:
+    - {at: [32.06, 39.44], size: 3500}
+    - {at: [32.22, 39.46], size: 3500}
+images:
+  sakarya-greek-cover:
+    file: sakarya-greek-cover.jpg
+    caption: "A Greek platoon of the 3rd Division waits in cover for the order to attack near Toydemir, about 29 August 1921"
+    credit: "Wikimedia Commons, Greek Army, Public domain (GreekInfantryWaitinginCover.jpg)"

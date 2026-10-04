@@ -1,0 +1,3 @@
+İki ordu Ibera yakınındaki bir ovada birbirinden yaklaşık 8 km uzakta kamp kurar ve birkaç gün boyunca yalnızca hafif birlikleri çarpışır. Sonra ikisi de aynı gün, her biri yaklaşık 25.000 kişiyle dışarı çıkar. Romalılar büyük olasılıkla iki lejyonlarını merkeze, her iki yanına birer müttefik lejyonu, süvariyi de kanatlara yerleştirir.
+
+Hasdrubal İber piyadesini merkeze, Afrikalı ağır piyadeyi onların soluna, Livius’un Poeni dediği ve büyük olasılıkla İberya’daki Kartaca kentlerinden toplanmış milis olan ağır piyadeyi de sağlarına koyar. Libyalı ve İber süvari sol kanadı, Numidyalılar sağ kanadı tutar. Yaklaşık 20 fil, Balear sapancıları ve Afrikalı hafif piyadeden oluşan bir perdenin arkasında, piyadenin önünde durur.

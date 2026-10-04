@@ -1,0 +1,36 @@
+when: {from: '1781-09-28', to: '1781-10-10'}
+date: "28 September to 10 October 1781"
+title: "Yorktown: the first parallel"
+bbox: [-76.52731, 37.21186, -76.48444, 37.25935]
+zones: []
+routes: []
+markers: [yorktown-parallel-town, yorktown-parallel-rochambeau, yorktown-parallel-washington, yorktown-parallel-gloucester]
+sources: ['Jerome A. Greene, The Guns of Independence (2005).', 'Brendan Morrissey, Yorktown 1781: The World Turned Upside Down (1997).']
+emblem:
+  kind: battle-plan
+  works:
+    - {side: held, path: [[-76.52392, 37.24488], [-76.52167, 37.24081], [-76.51885, 37.23583], [-76.5149, 37.23176], [-76.51095, 37.22923], [-76.507, 37.22841], [-76.50362, 37.23004], [-76.50294, 37.23185]], width: 45, id: inner-works, name: The British inner works round the town}
+    - {side: '#17a2a2', path: [[-76.52449, 37.23402], [-76.51997, 37.22679], [-76.51377, 37.22362], [-76.50869, 37.22226]], width: 40, id: first-parallel-french, name: 'The first parallel, French half, opened on the night of 6 October'}
+    - {side: usa, path: [[-76.50869, 37.22226], [-76.50192, 37.22154], [-76.49628, 37.22389], [-76.49403, 37.22525]], width: 40, id: first-parallel-american, name: 'The first parallel, American half, reaching the York River'}
+  units:
+    - {side: held, type: camp, at: [-76.52223, 37.24171], width: 130, depth: 130, facing: 0, id: fusiliers, name: The Fusiliers’ Redoubt}
+    - {side: held, type: camp, at: [-76.5013, 37.22661], width: 80, depth: 80, facing: 0, id: redoubt-9, name: 'Redoubt 9, held by British and Germans'}
+    - {side: held, type: camp, at: [-76.49967, 37.22914], width: 70, depth: 70, facing: 0, id: redoubt-10, name: 'Redoubt 10, near the river'}
+    - {side: held, type: infantry, at: [-76.51433, 37.23583], width: 900, depth: 160, facing: 225, id: garrison, name: Cornwallis’s army inside the inner works}
+    - {side: held, type: ships, at: [-76.51377, 37.24533], width: 700, depth: 200, facing: 90, id: british-ships, name: 'British ships in the river, among them Guadeloupe and Charon', count: 6}
+    - {side: held, type: camp, at: [-76.49572, 37.25076], width: 280, depth: 200, facing: 0, id: gloucester, name: The British post at Gloucester Point}
+    - {side: '#17a2a2', type: infantry, at: [-76.49685, 37.25754], width: 600, depth: 90, facing: 180, id: choisy, name: 'Lauzun’s Legion and Virginia militia under Choisy, blocking Gloucester'}
+    - {side: '#17a2a2', type: infantry, at: [-76.51828, 37.21638], width: 1000, depth: 200, facing: 0, id: french-army, name: 'Rochambeau’s French army, about 7,800'}
+    - {side: usa, type: infantry, at: [-76.49967, 37.21548], width: 900, depth: 200, facing: 0, id: american-army, name: 'Continentals and militia under Washington, about 11,000'}
+  arrows:
+    - {side: '#17a2a2', path: [[-76.51715, 37.22407], [-76.51377, 37.2304]], width: 70, id: allied-batteries, name: The allied batteries open fire on 9 October}
+    - {side: usa, path: [[-76.50362, 37.22208], [-76.50587, 37.22724]], width: 70, id: allied-batteries, name: The allied batteries open fire on 9 October}
+    - {side: '#17a2a2', path: [[-76.52336, 37.23357], [-76.51715, 37.24352]], width: 60, id: fire-on-ships, name: French guns drive the Guadeloupe across the river and set the Charon on fire}
+    - {side: held, path: [[-76.49572, 37.25212], [-76.49628, 37.25528]], width: 50, id: tarleton-gloucester, name: 'Tarleton’s foragers run into Lauzun’s Legion, 3 October'}
+  clashes:
+    - {at: [-76.49628, 37.25573], size: 110}
+images:
+  yorktown-verger:
+    file: yorktown-verger.jpg
+    caption: "American soldiers at the siege of Yorktown, among them a soldier of the 1st Rhode Island Regiment, watercolour by Jean-Baptiste-Antoine de Verger, 1781"
+    credit: "Wikimedia Commons, Jean Baptiste Antoine de Verger, Public domain (Soldiers at the siege of Yorktown (1781), by Jean-Baptiste-Antoine DeVerger.png)"

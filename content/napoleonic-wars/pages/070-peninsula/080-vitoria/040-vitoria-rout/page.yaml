@@ -1,0 +1,38 @@
+date: "21 June 1813, evening"
+when: {from: '1813-06-21'}
+title: "The rout"
+bbox: [-2.84, 42.755, -2.59, 42.905]
+zones: []
+routes: []
+markers: [vitoria-rout-guns, vitoria-rout-wagons, vitoria-rout-town]
+sources: ['Ian Fletcher, Vittoria 1813: Wellington Sweeps the French from Spain (2005).', 'Michael Glover, The Peninsular War 1807–1814 (2001).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-2.59, 42.89], [-2.62, 42.886], [-2.645, 42.879], [-2.664, 42.874], [-2.69, 42.871], [-2.715, 42.866], [-2.737, 42.86], [-2.75, 42.856], [-2.756, 42.846], [-2.752, 42.837], [-2.745, 42.832], [-2.752, 42.828], [-2.765, 42.83], [-2.775, 42.826], [-2.79, 42.822], [-2.805, 42.818], [-2.815, 42.81], [-2.82, 42.795], [-2.826, 42.78], [-2.832, 42.765], [-2.838, 42.75]], width: 50, id: zadorra, name: The river Zadorra}
+  works:
+    - {side: neutral, path: [[-2.84, 42.755], [-2.829, 42.766], [-2.81, 42.785], [-2.79, 42.8], [-2.765, 42.812], [-2.752, 42.82], [-2.735, 42.826], [-2.722, 42.83], [-2.7, 42.838], [-2.672, 42.847]], width: 25, id: burgos-road, name: The road from Burgos through the La Puebla defile to Vitoria}
+    - {side: neutral, path: [[-2.672, 42.847], [-2.68, 42.86], [-2.69, 42.872], [-2.705, 42.89], [-2.72, 42.91]], width: 25, id: bilbao-road, name: The road to Bilbao}
+    - {side: neutral, path: [[-2.672, 42.847], [-2.655, 42.862], [-2.636, 42.886], [-2.615, 42.905]], width: 25, id: bayonne-road, name: The road to Bayonne and France}
+    - {side: neutral, path: [[-2.672, 42.847], [-2.64, 42.848], [-2.6, 42.85], [-2.56, 42.853]], width: 25, id: salvatierra-road, name: The road to Salvatierra and Pamplona}
+  units:
+    - {side: france, type: infantry, at: [-2.71733, 42.83072], width: 2500, depth: 250, facing: 270, id: zuazo, name: 'Gazan and d’Erlon on the ridge of Zuazo, breaking'}
+    - {side: france, type: artillery, at: [-2.72285, 42.83072], width: 1500, depth: 120, facing: 270, id: zuazo-guns, name: 'The French field artillery, abandoned on the ridge', count: 10}
+    - {side: france, type: camp, at: [-2.6524, 42.84971], width: 1100, depth: 700, facing: 270, id: convoy, name: 'Joseph’s wagon train, “the loot of a kingdom”'}
+    - {side: france, type: infantry, at: [-2.66587, 42.86962], width: 1400, depth: 220, facing: 0, id: reille, name: 'Reille’s two divisions, holding off Graham'}
+    - {side: france, type: cavalry, at: [-2.61931, 42.84248], width: 800, depth: 160, facing: 270, id: rearguard, name: The 3rd Hussars and 15th Dragoons covering the retreat}
+    - {side: britain, type: infantry, at: [-2.73449, 42.8271], width: 3000, depth: 250, facing: 90, id: allied-line, name: 'The 4th, Light, 3rd and 7th Divisions in one line'}
+    - {side: britain, type: infantry, at: [-2.74796, 42.81081], width: 1200, depth: 250, facing: 60, id: hill, name: Hill’s column}
+    - {side: britain, type: infantry, at: [-2.6769, 42.88409], width: 600, depth: 1300, facing: 180, id: graham, name: Graham’s column above the Zadorra}
+    - {side: spain, type: infantry, at: [-2.63647, 42.88861], width: 700, depth: 200, facing: 200, id: longa, name: Longa’s Spaniards astride the Bayonne road}
+  arrows:
+    - {side: britain, path: [[-2.73265, 42.8271], [-2.72714, 42.82845], [-2.7204, 42.82981]], width: 140, id: zuazo-attack, name: The allied line takes the Zuazo ridge}
+    - {side: france, path: [[-2.71243, 42.83343], [-2.6867, 42.83614], [-2.6573, 42.84067], [-2.62544, 42.84429], [-2.59358, 42.8479]], width: 170, id: french-flight, name: Gazan’s and d’Erlon’s men flee by the Salvatierra road, style: dashed}
+    - {side: france, path: [[-2.66097, 42.86781], [-2.64014, 42.86057], [-2.61074, 42.85243]], width: 120, id: reille-retreat, name: Reille falls back last, style: dashed}
+  clashes:
+    - [-2.72162, 42.82936]
+images:
+  vitoria-auction:
+    file: vitoria-auction.jpg
+    caption: "British soldiers auction loot taken at Vitoria, painting by William Barnes Wollen, 1895"
+    credit: "Wikimedia Commons, William Barnes Wollen, Public domain (Auction after Vitoria.jpg)"

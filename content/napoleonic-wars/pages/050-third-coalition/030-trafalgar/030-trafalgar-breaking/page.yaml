@@ -1,0 +1,28 @@
+date: "21 October 1805, noon"
+when: {from: '1805-10-21', to: '1805-10-21'}
+title: "Breaking the line"
+bbox: [-6.26906, 36.20477, -6.14208, 36.29523]
+zones: []
+routes: []
+markers: [trafalgar-breaking-victory, trafalgar-breaking-bucentaure, trafalgar-breaking-sovereign, trafalgar-breaking-santa-ana]
+sources: ['Mark Adkin, The Trafalgar Companion (2005).', 'Tim Clayton and Phil Craig, Trafalgar: The Men, the Battle, the Storm (2004).', 'Roy Adkins, Trafalgar: The Biography of a Battle (2004).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: france, type: ships, at: [-6.20395, 36.28392], width: 130, depth: 1950.4907235103683, facing: 330.6422464572087, count: 9, rows: 9, id: allied-van, name: 'The allied van under Dumanoir, at the head of the line after the turn'}
+    - {side: france, type: ships, at: [-6.19625, 36.2699], width: 130, depth: 1158.3475298890226, facing: 341.73711005780586, count: 6, rows: 6, id: allied-centre, name: The allied centre with Villeneuve in Bucentaure and the Santísima Trinidad}
+    - {side: france, type: ships, at: [-6.19256, 36.25588], width: 130, depth: 1708.0611998696063, facing: 354.43126292202334, count: 8, rows: 8, id: allied-rear-centre, name: 'Redoutable, Neptune and the ships astern of the flagship down to Álava’s Santa Ana'}
+    - {side: france, type: ships, at: [-6.19514, 36.23304], width: 130, depth: 3168.3343076696074, facing: 15.708637829015743, count: 10, rows: 10, id: allied-rear, name: 'The allied rear and Gravina’s squadron, French and Spanish ships'}
+    - {side: britain, type: ships, at: [-6.2087, 36.26566], width: 130, depth: 3000, facing: 95, count: 12, rows: 12, id: weather-column, name: Nelson’s column follows Victory into the gap}
+    - {side: britain, type: ships, at: [-6.21149, 36.25041], width: 130, depth: 3750, facing: 100, count: 15, rows: 15, id: lee-column, name: 'Collingwood’s column follows Royal Sovereign, Belleisle second'}
+  arrows:
+    - {side: britain, path: [[-6.22562, 36.26719], [-6.21448, 36.27081], [-6.20223, 36.2699], [-6.19261, 36.26447]], width: 150, id: nelson-feint, name: 'Victory feints towards the van, then turns for the centre'}
+    - {side: britain, path: [[-6.22005, 36.24457], [-6.2078, 36.24638], [-6.19148, 36.24747]], width: 150, id: collingwood-attack, name: Royal Sovereign breaks the line astern of Santa Ana}
+  clashes:
+    - {at: [-6.19094, 36.26447], size: 220}
+    - {at: [-6.18981, 36.24747], size: 220}
+images:
+  trafalgar-breaking-sovereign:
+    file: trafalgar-breaking-sovereign.jpg
+    caption: "HMS Royal Sovereign rakes the stern of the Spanish flagship Santa Ana, painting by John Wilson Carmichael, 1856"
+    credit: "Wikimedia Commons, James Wilson Carmichael, Public domain (John Wilson Carmichael - The opening engagement at Trafalgar; H.M.S. 'Royal Sovereign' raking the stern of the Spanish flagship 'Santa Ana'.jpg)"

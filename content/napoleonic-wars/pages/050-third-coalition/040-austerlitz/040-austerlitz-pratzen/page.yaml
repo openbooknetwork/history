@@ -1,0 +1,36 @@
+date: "2 December 1805, 9 to 11 a.m."
+when: {from: '1805-12-02', to: '1805-12-02'}
+title: "Soult takes the Pratzen"
+bbox: [16.69, 49.084, 16.835, 49.2]
+zones: []
+routes: []
+markers: [austerlitz-pratzen-heights, austerlitz-pratzen-vandamme, austerlitz-pratzen-kutuzov, austerlitz-pratzen-napoleon]
+sources: ['David G. Chandler, The Campaigns of Napoleon (1966).', 'Ian Castle, Austerlitz 1805: The Fate of Empires (2002).', 'Scott Bowden, Napoleon and Austerlitz (1997).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[16.727, 49.178], [16.727, 49.168], [16.731, 49.16], [16.733, 49.15], [16.729, 49.142], [16.727, 49.132], [16.728, 49.122], [16.724, 49.113], [16.719, 49.105], [16.715, 49.099], [16.709, 49.092], [16.699, 49.085]], width: 40, id: goldbach, name: The Goldbach stream}
+    - {path: [[16.761, 49.2], [16.755, 49.19], [16.755, 49.178], [16.753, 49.166], [16.748, 49.158], [16.741, 49.153], [16.735, 49.149], [16.731, 49.147]], width: 30, id: bosenitz, name: The Bosenitz stream}
+    - {area: [[16.727, 49.0975], [16.74, 49.0995], [16.757, 49.099], [16.772, 49.0965], [16.771, 49.0925], [16.752, 49.0912], [16.735, 49.0922], [16.726, 49.0945]], id: satschan-pond, name: 'The Satschan pond, frozen'}
+  units:
+    - {side: france, type: infantry, at: [16.7584, 49.1343], width: 1300, depth: 300, facing: 110, id: saint-hilaire, name: Saint-Hilaire’s division on the Pratzen}
+    - {side: france, type: infantry, at: [16.776, 49.1513], width: 1300, depth: 300, facing: 100, id: vandamme, name: Vandamme’s division at the Staré Vinohrady}
+    - {side: france, type: infantry, at: [16.76486, 49.17133], width: 1300, depth: 350, facing: 100, id: bernadotte, name: Bernadotte’s I Corps crosses the Bosenitz to support Vandamme}
+    - {side: russia, type: infantry, at: [16.7762, 49.1343], width: 600, depth: 1100, facing: 290, id: fourth-column, name: The fourth column and Austrian battalions fight for the heights}
+    - {side: russia, type: infantry, at: [16.793, 49.1477], width: 500, depth: 900, facing: 280, id: vinohrady-battalions, name: Allied battalions broken at the Staré Vinohrady}
+    - {side: france, type: infantry, at: [16.71102, 49.11671], width: 900, depth: 250, facing: 90, id: davout, name: Davout’s III Corps and Legrand’s division hold the Goldbach}
+    - {side: russia, type: infantry, at: [16.73161, 49.114], width: 600, depth: 1100, facing: 270, id: langeron, name: Langeron and Przybyszewski in Sokolnitz}
+    - {side: russia, type: infantry, at: [16.73035, 49.1017], width: 500, depth: 1000, facing: 275, id: dokhturov, name: Kienmayer and Dokhturov about Telnitz}
+  arrows:
+    - {side: france, path: [[16.744, 49.1545], [16.75, 49.145], [16.7555, 49.137]], width: 180, id: saint-hilaire-attack, name: Saint-Hilaire climbs the Pratzen from Puntowitz}
+    - {side: france, path: [[16.756, 49.1595], [16.765, 49.1555], [16.7725, 49.1515]], width: 180, id: vandamme-attack, name: Vandamme advances on the Staré Vinohrady}
+    - {side: france, path: [[16.73464, 49.17314], [16.74838, 49.17314], [16.75525, 49.17178]], width: 150, id: bernadotte-advance, name: Bernadotte comes up on Vandamme’s left}
+  clashes:
+    - [16.7672, 49.1343]
+    - [16.7845, 49.1495]
+    - [16.72406, 49.114]
+images:
+  austerlitz-pratzen-cairn:
+    file: austerlitz-pratzen-cairn.jpg
+    caption: "The Cairn of Peace, the memorial to the dead of the battle on the summit of the Pratzen"
+    credit: "Wikimedia Commons, Kirk, CC BY-SA 3.0 (Mohyla miru 1.jpg)"

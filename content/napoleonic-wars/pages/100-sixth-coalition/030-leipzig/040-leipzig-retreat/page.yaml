@@ -1,0 +1,44 @@
+date: "19 October 1813"
+when: {from: '1813-10-19'}
+title: "The retreat over the Elster"
+bbox: [12.25996, 51.23597, 12.51161, 51.3988]
+zones: []
+routes: []
+markers: [leipzig-19-bridge, leipzig-19-poniatowski, leipzig-19-swedes]
+sources: ['David G. Chandler, The Campaigns of Napoleon (1966).', 'Digby Smith, 1813 Leipzig: Napoleon and the Battle of the Nations (2001).', 'Peter Hofschröer, Leipzig 1813: The Battle of the Nations (2012).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[12.315, 51.215], [12.322, 51.25], [12.33, 51.28], [12.338, 51.305], [12.348, 51.325], [12.357, 51.34], [12.348, 51.35], [12.328, 51.36], [12.305, 51.37], [12.27, 51.38], [12.235, 51.39]], width: 60, id: elster, name: The White Elster}
+    - {path: [[12.395, 51.225], [12.392, 51.25], [12.387, 51.275], [12.389, 51.29], [12.38, 51.302], [12.372, 51.315], [12.367, 51.33], [12.366, 51.345], [12.352, 51.351]], width: 45, id: pleisse, name: The Pleisse}
+    - {path: [[12.505, 51.392], [12.49, 51.383], [12.465, 51.376], [12.44, 51.372], [12.42, 51.366], [12.4, 51.358], [12.383, 51.354], [12.366, 51.349]], width: 40, id: parthe, name: The Parthe}
+  works:
+    - {side: neutral, path: [[12.368, 51.344], [12.377, 51.3455], [12.383, 51.343], [12.384, 51.338], [12.379, 51.3355], [12.37, 51.336], [12.367, 51.34], [12.368, 51.344]], width: 70, id: leipzig, name: 'Leipzig, the walled old town'}
+  units:
+    - {side: france, type: infantry, at: [12.39369, 51.34271], width: 1100, depth: 250, facing: 90, id: rearguard, name: 'The rearguard: VII, VIII and XI Corps in the suburbs'}
+    - {side: france, type: infantry, at: [12.37931, 51.35131], width: 1100, depth: 250, facing: 15, id: rearguard, name: 'The rearguard: VII, VIII and XI Corps in the suburbs'}
+    - {side: france, type: infantry, at: [12.38794, 51.33095], width: 1100, depth: 250, facing: 180, id: rearguard, name: 'The rearguard: VII, VIII and XI Corps in the suburbs'}
+    - {side: france, type: infantry, at: [12.28872, 51.31919], width: 450, depth: 2500, facing: 245, id: retreat, name: 'The army retreats on the road to Weissenfels, over 100,000'}
+    - {side: prussia, type: infantry, at: [12.37931, 51.36985], width: 1800, depth: 450, facing: 180, id: silesia, name: Blücher’s Army of Silesia}
+    - {side: sweden, type: infantry, at: [12.43108, 51.34633], width: 1600, depth: 450, facing: 265, id: north, name: 'Charles John’s Army of the North, with the Swedish jägers'}
+    - {side: russia, type: infantry, at: [12.42245, 51.31738], width: 1600, depth: 450, facing: 305, id: bennigsen, name: Bennigsen’s Russians}
+    - {side: austria, type: infantry, at: [12.38794, 51.30653], width: 1600, depth: 450, facing: 0, id: austrians, name: Austrians of the Army of Bohemia}
+  arrows:
+    - {side: france, path: [[12.37069, 51.34136], [12.35774, 51.34045], [12.33761, 51.33864], [12.32036, 51.33367], [12.30741, 51.32643]], width: 260, id: retreat-west, name: The retreat over the Elster bridge to Lindenau, style: dashed}
+    - {side: prussia, path: [[12.37931, 51.36714], [12.37931, 51.3599], [12.37931, 51.35402]], width: 200, id: silesia-attack, name: Blücher’s troops break in at the Halle gate}
+    - {side: sweden, path: [[12.42605, 51.34588], [12.41383, 51.34452], [12.40304, 51.34317]], width: 200, id: north-attack, name: Russians and Swedes attack at the Grimma gate}
+    - {side: russia, path: [[12.41814, 51.31965], [12.40664, 51.32462], [12.39657, 51.33005]], width: 180, id: bennigsen-attack, name: Bennigsen attacks from the south-east}
+    - {side: austria, path: [[12.38794, 51.30924], [12.38794, 51.31919], [12.38794, 51.32869]], width: 180, id: austrian-attack, name: The Austrians attack from the south}
+  clashes:
+    - [12.37931, 51.35339]
+    - [12.40304, 51.34271]
+    - [12.38794, 51.32933]
+images:
+  leipzig-retreat-vernet:
+    file: leipzig-retreat-vernet.jpg
+    caption: "The French retreat after the battle of Leipzig, 19 October 1813, print after Carle Vernet, early 19th century"
+    credit: "Wikimedia Commons, Carle Vernet, Public domain (Napoleon.Leipzig.jpg)"
+  leipzig-poniatowski:
+    file: leipzig-poniatowski.jpg
+    caption: "The death of Prince Józef Poniatowski in the Elster, painting by Horace Vernet, 1816"
+    credit: "Wikimedia Commons, Horace Vernet, Public domain (Horace Vernet - Death of Prince Poniatowski.jpg)"

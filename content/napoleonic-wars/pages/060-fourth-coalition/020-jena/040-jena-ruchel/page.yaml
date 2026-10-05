@@ -1,0 +1,36 @@
+date: "14 October 1806, afternoon"
+when: {from: '1806-10-14'}
+title: "The Prussian line breaks"
+bbox: [11.41442, 50.924, 11.57987, 50.99819]
+zones: []
+routes: []
+markers: [jena-ruchel-ruchel, jena-ruchel-murat, jena-ruchel-saxons, jena-ruchel-napoleon]
+sources: ['David G. Chandler, The Campaigns of Napoleon (1966).', 'F. Loraine Petre, Napoleon’s Conquest of Prussia 1806 (1907).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: france, type: infantry, at: [11.4672, 50.96471], width: 1300, depth: 300, facing: 270, id: ney-lannes, name: Ney’s and Lannes’s corps in the centre}
+    - {side: france, type: infantry, at: [11.47861, 50.98552], width: 1300, depth: 300, facing: 240, id: soult, name: Soult’s IV Corps turning the Prussian left}
+    - {side: france, type: infantry, at: [11.45864, 50.94119], width: 1300, depth: 300, facing: 290, id: augereau, name: Augereau’s VII Corps turning the Prussian right}
+    - {side: france, type: cavalry, at: [11.44723, 50.97286], width: 1000, depth: 300, facing: 290, id: murat, name: Murat’s cavalry reserve}
+    - {side: france, type: infantry, at: [11.52139, 50.95838], width: 800, depth: 350, facing: 270, id: guard, name: The Imperial Guard in reserve}
+    - {side: prussia, type: infantry, at: [11.43225, 50.97738], width: 1800, depth: 250, facing: 100, id: ruchel, name: 'Rüchel’s corps, 15,000, arriving from Weimar'}
+    - {side: prussia, type: infantry, at: [11.44081, 50.93757], width: 1000, depth: 300, facing: 110, id: saxons, name: 'The Saxon division, cut off on the right'}
+  arrows:
+    - {side: france, path: [[11.50428, 50.9819], [11.4836, 50.98507]], width: 130, id: general-attack, name: The general attack at 1 p.m.}
+    - {side: france, path: [[11.49572, 50.96471], [11.47147, 50.96471]], width: 130, id: general-attack, name: The general attack at 1 p.m.}
+    - {side: france, path: [[11.48716, 50.94481], [11.46292, 50.94165]], width: 130, id: general-attack, name: The general attack at 1 p.m.}
+    - {side: prussia, path: [[11.45721, 50.96019], [11.43582, 50.96652], [11.41585, 50.96743]], width: 120, id: hohenlohe-rout, name: Hohenlohe’s army flees towards Weimar, style: dashed}
+    - {side: france, path: [[11.44081, 50.97376], [11.43439, 50.97376], [11.41585, 50.97105]], width: 120, id: murat-pursuit, name: Murat pursues towards Weimar}
+  clashes:
+    - {at: [11.43938, 50.97557], size: 220}
+    - [11.45008, 50.93893]
+images:
+  jena-ruchel-murat:
+    file: jena-ruchel-murat.jpg
+    caption: "Murat leads a charge at Jena, painting by Henri-Georges Chartier, 1895"
+    credit: "Wikimedia Commons, Henri-Georges Chartier, Public domain (Chartier-Murat at Jena.jpg)"
+  jena-ruchel-detaille:
+    file: jena-ruchel-detaille.jpg
+    caption: "French troops present captured Prussian standards to Napoleon on the evening of Jena, painting by Édouard Detaille, late 19th century"
+    credit: "Wikimedia Commons, Édouard Detaille, Public domain (Detaille-Le Soir D'Jena.jpg)"

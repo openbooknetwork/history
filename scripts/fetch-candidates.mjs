@@ -1,6 +1,7 @@
 // Search Wikimedia Commons for each page's queries and download candidate photos for review.
-//   node scripts/fetch-candidates.mjs [story] [--limit 6] [--pages a,b] [--queries file]   (--pages refetches those pages)
+//   node scripts/fetch-candidates.mjs [story] [--limit 6] [--pages a,b] [--queries file] [--out name]   (--pages refetches those pages)
 // Reads scripts/image-queries.yaml or the --queries file, writes content/<story>/.candidates/<page>/ and .candidates/index.yaml.
+// --out writes into .candidates/<name>/ instead, so agents fetching at the same time keep separate index files.
 import fs from 'fs';
 import path from 'path';
 import * as yaml from 'js-yaml';
@@ -12,19 +13,21 @@ const only = arg('--pages')?.split(',') ?? null;
 const queriesFile = arg('--queries') ?? 'scripts/image-queries.yaml';
 const queries = yaml.load(fs.readFileSync(queriesFile, 'utf8'))[story];
 if (!queries) { console.error(`no queries for story "${story}" in ${queriesFile}`); process.exit(2); }
-const outDir = path.join('content', story, '.candidates');
+const outDir = path.join('content', story, '.candidates', arg('--out') ?? '');
 fs.mkdirSync(outDir, { recursive: true });
 
 const API = 'https://commons.wikimedia.org/w/api.php';
 const BITMAP = /\.(jpe?g|png|tiff?)$/i;
 // An article is a Wikipedia URL or an English Wikipedia title
 const articleApi = a => { const m = a.match(/^https?:\/\/([a-z-]+)\.wikipedia\.org\/wiki\/([^?#]+)/); return m ? [`https://${m[1]}.wikipedia.org/w/api.php`, decodeURIComponent(m[2]).replace(/_/g, ' ')] : ['https://en.wikipedia.org/w/api.php', a]; };
-const headers = { 'User-Agent': 'harita-image-fetch/0.1 (history map build; contact via repo)' };
+// Wikimedia asks for a contact in the user agent and throttles unnamed clients harder
+const headers = { 'User-Agent': 'OpenHistoryAtlas-image-fetch/0.2 (https://github.com/openhistoryatlas/atlas)' };
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 // Commons answers 429 when asked too fast: wait as told, or doubling from two seconds, up to six tries
 async function get(url) {
   for (let attempt = 0; ; attempt++) {
-    const res = await fetch(url, { headers });
+    // a dropped connection is retried like a 5xx
+    const res = await fetch(url, { headers }).catch(e => { if (attempt >= 6) throw e; return { ok: false, status: 599, headers: new Headers() }; });
     if (res.ok) return res;
     if ((res.status === 429 || res.status >= 500) && attempt < 6) {
       const wait = Number(res.headers.get('retry-after')) * 1000 || 2000 * 2 ** attempt;
@@ -68,7 +71,7 @@ for (const [page, spec] of Object.entries(queries)) {
   if (!picked.length) { console.log(`${page}: nothing found`); continue; }
   const infoPages = [];
   for (let i = 0; i < picked.length; i += 50) { // the API takes at most 50 titles per call
-    const info = await api({ action: 'query', prop: 'imageinfo', titles: picked.slice(i, i + 50).join('|'), iiprop: 'url|extmetadata|size', iiurlwidth: 1200 });
+    const info = await api({ action: 'query', prop: 'imageinfo', titles: picked.slice(i, i + 50).join('|'), iiprop: 'url|extmetadata|size', iiurlwidth: 1280 }); // a standard thumbnail step, Wikimedia throttles other widths
     infoPages.push(...Object.values(info.query?.pages ?? {}));
   }
   const dir = path.join(outDir, page);

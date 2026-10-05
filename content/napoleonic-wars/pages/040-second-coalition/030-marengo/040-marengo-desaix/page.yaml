@@ -1,0 +1,38 @@
+date: "14 June 1800, evening"
+when: {from: '1800-06-14'}
+title: "Desaix and Kellermann"
+bbox: [8.63693, 44.85665, 8.77259, 44.92631]
+zones: []
+routes: []
+markers: [marengo-desaix-desaix, marengo-desaix-kellermann, marengo-desaix-marmont, marengo-desaix-zach, marengo-desaix-san-giuliano]
+sources: ['David G. Chandler, The Campaigns of Napoleon (1966).', 'David Hollins, The Battle of Marengo 1800 (2000).', 'Gregory Fremont-Barnes, The French Revolutionary Wars (2001).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[8.585, 44.845], [8.605, 44.865], [8.622, 44.885], [8.633, 44.896], [8.645, 44.902], [8.641, 44.911], [8.643, 44.92], [8.652, 44.932], [8.665, 44.945]], width: 80, id: bormida, name: The river Bormida}
+    - {path: [[8.668, 44.862], [8.671, 44.875], [8.6725, 44.886], [8.673, 44.898], [8.676, 44.91]], width: 25, id: fontanone, name: The Fontanone stream}
+  units:
+    - {side: france, type: infantry, at: [8.73202, 44.87882], width: 1200, depth: 250, facing: 270, id: boudet, name: 'Boudet’s division under Desaix, 6,000'}
+    - {side: france, type: light, at: [8.72695, 44.87927], width: 600, depth: 60, facing: 270, id: ninth-light, name: The 9th Light Infantry}
+    - {side: france, type: artillery, at: [8.72948, 44.88379], width: 500, depth: 50, facing: 270, id: marmont, name: Marmont’s massed guns, count: 8}
+    - {side: france, type: cavalry, at: [8.72505, 44.88877], width: 350, depth: 150, facing: 210, id: kellermann, name: 'Kellermann’s heavy cavalry, about 400'}
+    - {side: france, type: infantry, at: [8.73582, 44.89555], width: 1500, depth: 200, facing: 270, id: lannes, name: 'Lannes, Monnier and the rallied troops'}
+    - {side: austria, type: infantry, at: [8.72213, 44.87945], width: 400, depth: 150, facing: 90, id: saint-julien, name: Saint-Julien’s leading brigade}
+    - {side: austria, type: infantry, at: [8.71655, 44.88053], width: 500, depth: 250, facing: 90, id: lattermann, name: Lattermann’s grenadiers under Zach}
+    - {side: austria, type: artillery, at: [8.71617, 44.88632], width: 400, depth: 50, facing: 90, id: batteries, name: Three Austrian batteries north of the road, count: 6}
+    - {side: austria, type: cavalry, at: [8.70983, 44.88424], width: 350, depth: 150, facing: 90, id: liechtenstein, name: The Liechtenstein dragoons}
+    - {side: austria, type: infantry, at: [8.70793, 44.90822], width: 700, depth: 200, facing: 90, id: ott, name: 'Ott’s corps, hesitating in the north'}
+    - {side: austria, type: infantry, at: [8.69652, 44.86298], width: 700, depth: 200, facing: 120, id: oreilly, name: 'O’Reilly’s division, too far south'}
+  arrows:
+    - {side: france, path: [[8.72314, 44.88877], [8.71997, 44.88605], [8.71807, 44.88198]], width: 130, id: kellermann-charge, name: Kellermann charges the grenadiers in the flank}
+    - {side: france, path: [[8.73012, 44.87882], [8.72695, 44.87909], [8.72416, 44.87927]], width: 120, id: boudet-attack, name: Boudet’s division throws back Saint-Julien}
+    - {side: austria, path: [[8.713, 44.88108], [8.69271, 44.88334], [8.66102, 44.88831], [8.64834, 44.89736]], width: 110, id: austrian-flight, name: The Austrian centre flees back to the Bormida, style: dashed}
+    - {side: austria, path: [[8.70476, 44.90731], [8.68004, 44.90641], [8.65087, 44.90279]], width: 100, id: ott-back, name: Ott fights his way back to the bridgehead, style: dashed}
+  clashes:
+    - [8.72441, 44.87927]
+    - [8.71871, 44.88216]
+images:
+  marengo-broc:
+    file: marengo-broc.jpg
+    caption: "The death of Desaix at Marengo, painting by Jean Broc, 1806"
+    credit: "Wikimedia Commons, Jean Broc, Public domain (Jean Broc - \"Death of general Desaix\".jpg)"

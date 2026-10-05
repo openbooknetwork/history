@@ -1,0 +1,48 @@
+date: "7 September 1812, about 9 am to 2 pm"
+title: "The great redoubt and Uvarov’s raid"
+bbox: [35.765, 55.478, 35.885, 55.553]
+zones: []
+routes: []
+markers: [borodino-noon-yermolov, borodino-noon-uvarov, borodino-noon-eugene]
+sources: ['Alexander Mikaberidze, The Battle of Borodino: Napoleon Against Kutuzov (2007).', 'Christopher Duffy, Borodino and the War of 1812 (1972).', 'Richard K. Riehn, 1812: Napoleon’s Russian Campaign (1990).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[35.72, 55.518], [35.76, 55.517], [35.79, 55.519], [35.808, 55.522], [35.821, 55.526], [35.833, 55.533], [35.845, 55.541], [35.858, 55.549], [35.868, 55.556]], width: 40, id: kolocha, name: The Kolocha}
+    - {path: [[35.85, 55.506], [35.843, 55.511], [35.834, 55.516], [35.826, 55.522]], width: 25, id: semyonovka, name: The Semyonovka brook}
+    - {path: [[35.79, 55.567], [35.83, 55.562], [35.868, 55.556], [35.9, 55.553]], width: 90, id: moskva, name: The Moskva}
+  works:
+    - {side: russia, path: [[35.83234, 55.50889], [35.82986, 55.50771], [35.83234, 55.50653]], width: 30, id: fleches, name: 'The Bagration flèches, three open earthworks'}
+    - {side: russia, path: [[35.83424, 55.50618], [35.83176, 55.505], [35.83424, 55.50382]], width: 30, id: fleches, name: 'The Bagration flèches, three open earthworks'}
+    - {side: russia, path: [[35.83583, 55.50347], [35.83335, 55.50229], [35.83583, 55.50111]], width: 30, id: fleches, name: 'The Bagration flèches, three open earthworks'}
+    - {side: russia, path: [[35.84159, 55.52145], [35.83825, 55.5209], [35.8381, 55.5191], [35.84159, 55.51855]], width: 40, id: redoubt, name: 'The great redoubt, later named after Raevsky, with 19 heavy guns'}
+  units:
+    - {side: client, type: infantry, at: [35.829, 55.5215], width: 1000, depth: 400, facing: 90, id: eugene, name: Broussier’s and Morand’s divisions of Eugène’s corps}
+    - {side: client, type: infantry, at: [35.808, 55.531], width: 1000, depth: 350, facing: 320, id: eugene-rear, name: 'Part of Eugène’s corps, turned back to face the raid'}
+    - {side: france, type: infantry, at: [35.829, 55.503], width: 1000, depth: 400, facing: 85, id: davout, name: Davout’s and Ney’s corps on the flèches}
+    - {side: france, type: cavalry, at: [35.826, 55.5125], width: 700, depth: 300, facing: 85, id: montbrun, name: 'Montbrun’s cavalry corps, filling the gap under fire'}
+    - {side: france, type: infantry, at: [35.778, 55.503], width: 1400, depth: 500, facing: 90, id: guard, name: 'The Imperial Guard, in reserve'}
+    - {side: rhine, type: infantry, at: [35.806, 55.49], width: 1000, depth: 400, facing: 80, id: poniatowski, name: Poniatowski’s Poles and Junot’s Westphalians}
+    - {side: russia, type: infantry, at: [35.849, 55.52], width: 1100, depth: 400, facing: 265, id: raevsky, name: Raevsky’s corps and Yermolov’s reinforcements}
+    - {side: russia, type: infantry, at: [35.856, 55.505], width: 1300, depth: 450, facing: 265, id: second-army, name: 'The 2nd Army behind Semyonovskaya, under Dokhturov'}
+    - {side: russia, type: infantry, at: [35.864, 55.521], width: 1000, depth: 400, facing: 250, id: ostermann, name: 'Ostermann-Tolstoy’s corps, moving to the centre'}
+    - {side: russia, type: cavalry, at: [35.788, 55.533], width: 1500, depth: 350, facing: 200, id: uvarov, name: 'Uvarov’s cavalry and Platov’s Cossacks, about 8,000 with 12 guns'}
+    - {side: russia, type: infantry, at: [35.823, 55.489], width: 1000, depth: 400, facing: 275, id: baggovut, name: 'Baggovut’s corps on the left, in place of Tuchkov'}
+    - {side: russia, type: infantry, at: [35.866, 55.537], width: 1800, depth: 500, facing: 255, id: barclay, name: Barclay’s 1st Army on the right}
+  arrows:
+    - {side: client, path: [[35.8325, 55.5215], [35.8385, 55.5205]], width: 170, id: bonnamy-attack, name: Bonnamy’s brigade breaks into the redoubt}
+    - {side: russia, path: [[35.8455, 55.5175], [35.8415, 55.5192]], width: 160, id: yermolov-counterattack, name: Yermolov retakes the redoubt with the bayonet}
+    - {side: russia, path: [[35.846, 55.545], [35.83, 55.5475], [35.81, 55.5445], [35.796, 55.5365]], width: 220, id: uvarov-raid, name: Uvarov and Platov cross the Kolocha and ride round the French left}
+    - {side: russia, path: [[35.8645, 55.5155], [35.8575, 55.519]], width: 150, id: ostermann-march, name: Ostermann-Tolstoy reinforces the centre}
+  clashes:
+    - {at: [35.8395, 55.52], size: 220}
+    - {at: [35.8005, 55.5335], size: 200}
+images:
+  borodino-raevsky-battery:
+    file: borodino-raevsky-battery.jpg
+    caption: "The great redoubt during the battle, detail of Franz Roubaud’s panorama of Borodino, 1912"
+    credit: "Wikimedia Commons, Franz Roubaud, Public domain (Battery of Raevsky.jpg)"
+  borodino-hess:
+    file: borodino-hess.jpg
+    caption: "The battle of Borodino, painting by Peter von Hess, 1843"
+    credit: "Wikimedia Commons, Peter von Hess, Public domain (Peter von Hess 002.jpg)"

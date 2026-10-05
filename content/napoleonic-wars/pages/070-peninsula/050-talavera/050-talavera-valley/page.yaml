@@ -1,0 +1,41 @@
+date: "28 July 1809, evening"
+when: {from: '1809-07-28'}
+title: "The charge in the valley"
+bbox: [-4.84774, 39.93911, -4.74598, 40.03334]
+zones: []
+routes: []
+markers: [talavera-valley-twenty-third, talavera-valley-anson, talavera-valley-joseph, talavera-valley-town]
+sources: ['Charles Oman, A History of the Peninsular War, vol. II (1903).', 'Andrew Field, Talavera: Wellington’s First Victory in Spain (2006).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-4.74, 39.945], [-4.78, 39.948], [-4.81, 39.953], [-4.835, 39.956], [-4.87, 39.952], [-4.9, 39.947]], width: 140, id: tagus, name: The Tagus}
+    - {path: [[-4.82285, 39.95358], [-4.81848, 39.96101], [-4.81158, 39.97351], [-4.80469, 39.98602], [-4.79881, 39.99399], [-4.79355, 40.00118], [-4.78844, 40.00937], [-4.78102, 40.0198]], width: 35, id: portina, name: The Portiña stream}
+  works:
+    - {side: britain, path: [[-4.81185, 39.98273], [-4.81085, 39.98486]], width: 90, id: redoubt, name: 'The redoubt in the centre, with four light guns'}
+    - {side: neutral, path: [[-4.7978, 40.00671], [-4.7967, 40.01169], [-4.79394, 40.01621]], width: 60, id: ravine, name: A hidden ravine across the valley}
+  units:
+    - {side: britain, type: infantry, at: [-4.80783, 39.99364], width: 1300, depth: 220, facing: 110, id: sherbrooke, name: 'Sherbrooke’s 1st Division, 6,000: the Guards, Cameron and the King’s German Legion'}
+    - {side: britain, type: infantry, at: [-4.80401, 40.00412], width: 800, depth: 220, facing: 110, id: hill, name: 'Hill’s 2nd Division on the Medellín, 3,900'}
+    - {side: spain, type: infantry, at: [-4.798, 40.02216], width: 700, depth: 200, facing: 110, id: bassecourt, name: Bassecourt’s Spanish division on the Sierra de Segurilla}
+    - {side: spain, type: cavalry, at: [-4.81051, 40.01942], width: 600, depth: 160, facing: 110, id: alburquerque, name: Alburquerque’s Spanish cavalry}
+    - {side: britain, type: cavalry, at: [-4.8017, 40.01165], width: 300, depth: 120, facing: 110, id: hussars, name: The 1st Hussars of the King’s German Legion}
+    - {side: britain, type: cavalry, at: [-4.77702, 40.01242], width: 250, depth: 100, facing: 130, id: twenty-third, name: The 23rd Light Dragoons among Beaumont’s horsemen}
+    - {side: france, type: square, at: [-4.79049, 40.00898], width: 220, depth: 220, facing: 290, id: ruffin, name: Ruffin’s infantry in squares}
+    - {side: france, type: square, at: [-4.78648, 40.01219], width: 220, depth: 220, facing: 290, id: ruffin, name: Ruffin’s infantry in squares}
+    - {side: france, type: infantry, at: [-4.78343, 40.00411], width: 600, depth: 200, facing: 290, id: villatte, name: One of Villatte’s brigades}
+    - {side: france, type: cavalry, at: [-4.77367, 40.01292], width: 500, depth: 150, facing: 290, id: beaumont, name: 'Beaumont’s light cavalry, 1,000'}
+    - {side: france, type: artillery, at: [-4.78659, 39.99874], width: 550, depth: 110, facing: 290, id: cascajal-guns, name: Thirty French guns on the Cascajal, count: 8}
+    - {side: france, type: infantry, at: [-4.77063, 39.97837], width: 1300, depth: 300, facing: 290, id: reserve, name: 'King Joseph’s reserve: Latour-Maubourg’s dragoons and the Madrid garrison, never committed'}
+  arrows:
+    - {side: france, path: [[-4.78163, 40.00265], [-4.78559, 40.00616], [-4.78844, 40.00937]], width: 110, id: ruffin-advance, name: Victor pushes Ruffin into the valley}
+    - {side: britain, path: [[-4.80346, 40.01455], [-4.7961, 40.01297], [-4.78523, 40.01088], [-4.77852, 40.01188]], width: 120, id: twenty-third-charge, name: The 23rd Light Dragoons gallop through the ravine and past the squares}
+    - {side: britain, path: [[-4.77822, 40.01517], [-4.78663, 40.01849], [-4.79735, 40.01958]], width: 100, id: twenty-third-escape, name: The 23rd cut their way out, style: dashed}
+    - {side: britain, path: [[-4.80446, 40.01243], [-4.80255, 40.01199]], width: 90, id: hussars-advance, name: The German hussars advance at a steady pace}
+  clashes:
+    - [-4.77539, 40.01244]
+images:
+  talavera-medal:
+    file: talavera-medal.jpg
+    caption: "Medal for Wellesley’s victory at Talavera by Louis Lafitte, 1809"
+    credit: "Wikimedia Commons, Louis Lafitte, CC0 (Penning voor de overwinning door Arthur Wellesley, de Hertog van Wellington van de slag bij Talavera in 1809 1809 barcode 800000087818.jpg)"

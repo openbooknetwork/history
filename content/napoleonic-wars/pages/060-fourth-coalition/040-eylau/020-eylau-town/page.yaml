@@ -1,0 +1,31 @@
+date: "7 February 1807"
+when: {from: '1807-02-07'}
+title: "The fight for the town"
+bbox: [20.57468, 54.34416, 20.7193, 54.4191]
+zones: []
+routes: []
+markers: [eylau-town-barclay, eylau-town-bagration, eylau-town-soult, eylau-town-eylau]
+sources: ['F. Loraine Petre, Napoleon’s Campaign in Poland 1806–1807 (1901).', 'David G. Chandler, The Campaigns of Napoleon (1966).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: france, type: infantry, at: [20.6227, 54.38633], width: 1400, depth: 300, facing: 58, id: soult, name: Soult’s IV Corps}
+    - {side: france, type: cavalry, at: [20.60488, 54.39793], width: 1000, depth: 250, facing: 58, id: murat, name: Murat’s cavalry}
+    - {side: france, type: infantry, at: [20.633, 54.36984], width: 1300, depth: 300, facing: 58, id: augereau, name: Augereau’s VII Corps coming up}
+    - {side: france, type: infantry, at: [20.60766, 54.37655], width: 900, depth: 350, facing: 58, id: guard, name: The Imperial Guard}
+    - {side: russia, type: infantry, at: [20.64331, 54.38748], width: 700, depth: 300, facing: 238, id: barclay, name: Barclay de Tolly’s rearguard holding the town}
+    - {side: russia, type: infantry, at: [20.64446, 54.40603], width: 1800, depth: 300, facing: 238, id: russian-right, name: Bennigsen’s right wing}
+    - {side: russia, type: infantry, at: [20.66048, 54.3927], width: 1600, depth: 300, facing: 238, id: russian-centre, name: Bennigsen’s centre}
+    - {side: russia, type: infantry, at: [20.67536, 54.37789], width: 1500, depth: 300, facing: 238, id: russian-left, name: Bennigsen’s left wing}
+  arrows:
+    - {side: russia, path: [[20.62123, 54.37406], [20.64102, 54.37597], [20.65933, 54.38268]], width: 120, id: bagration-retreat, name: Bagration’s rearguard falls back to the main army, style: dashed}
+    - {side: france, path: [[20.62614, 54.38652], [20.63669, 54.38772]], width: 130, id: french-assault, name: The French storm the town in the evening}
+    - {side: france, path: [[20.59915, 54.36917], [20.60586, 54.37482]], width: 120, id: french-approach, name: The French reach the plateau about 2 p.m.}
+  clashes:
+    - [20.63472, 54.387]
+    - {at: [20.64077, 54.38388], size: 200}
+images:
+  eylau-town-cemetery:
+    file: eylau-town-cemetery.jpg
+    caption: "The fight for the churchyard at Eylau, painting by Jean-Antoine-Siméon Fort, 19th century"
+    credit: "Wikimedia Commons, Jean-Antoine-Siméon Fort, Public domain (Battle of Eylau 1807 - attack of the cemetery, by Jean-Antoine-Siméon.jpg)"

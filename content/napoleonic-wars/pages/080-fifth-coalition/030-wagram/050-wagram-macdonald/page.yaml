@@ -1,0 +1,44 @@
+date: "6 July 1809, afternoon"
+title: "MacDonald’s column"
+bbox: [16.43, 48.18, 16.7, 48.335]
+zones: []
+routes: []
+markers: [wagram-aft-macdonald, wagram-aft-walther, wagram-aft-lasalle, wagram-aft-charles, wagram-aft-john]
+sources: ['Gunther E. Rothenberg, The Emperor’s Last Victory: Napoleon and the Battle of Wagram (2004).', 'John H. Gill, 1809: Thunder on the Danube, volume III: Wagram and Znaim (2010).', 'Ian Castle, Aspern and Wagram 1809 (1990).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[16.43, 48.226], [16.452, 48.219], [16.468, 48.215], [16.481, 48.211], [16.493, 48.205], [16.507, 48.199], [16.526, 48.1955], [16.548, 48.1915], [16.57, 48.184], [16.59, 48.172]], width: 110, id: danube-arm, name: An arm of the Danube between the Lobau and the left bank}
+    - {path: [[16.548, 48.33], [16.556, 48.312], [16.567, 48.297], [16.585, 48.288], [16.602, 48.281], [16.62, 48.2745], [16.637, 48.267], [16.647, 48.257], [16.652, 48.245], [16.66, 48.232], [16.672, 48.22]], width: 50, id: russbach, name: 'The Russbach stream, below the Wagram plateau'}
+  units:
+    - {side: austria, type: infantry, at: [16.455, 48.257], width: 2000, depth: 500, facing: 140, id: klenau, name: 'VI Corps under Klenau, falling back on Leopoldau'}
+    - {side: austria, type: infantry, at: [16.483, 48.27], width: 2200, depth: 600, facing: 80, id: kollowrat, name: 'III Corps under Kollowrat, firing into the column’s left'}
+    - {side: austria, type: infantry, at: [16.513, 48.288], width: 2000, depth: 600, facing: 200, id: grenadiers, name: 'Grenadiers of the reserve, firing into the column’s right'}
+    - {side: austria, type: infantry, at: [16.545, 48.312], width: 2200, depth: 600, facing: 170, id: bellegarde, name: 'I Corps under Bellegarde, retreating'}
+    - {side: austria, type: infantry, at: [16.595, 48.312], width: 2200, depth: 600, facing: 160, id: hohenzollern, name: 'II Corps under Hohenzollern, retreating'}
+    - {side: austria, type: infantry, at: [16.642, 48.312], width: 2200, depth: 600, facing: 150, id: rosenberg, name: 'IV Corps under Rosenberg, retreating towards Bockfliess'}
+    - {side: client, type: square, at: [16.503, 48.273], width: 800, depth: 550, facing: 290, id: macdonald, name: 'MacDonald’s column, 23 battalions, about 8,000 men'}
+    - {side: rhine, type: infantry, at: [16.522, 48.264], width: 1500, depth: 400, facing: 290, id: wrede, name: 'Wrede’s Bavarian division, about 5,500, with the Young Guard'}
+    - {side: france, type: infantry, at: [16.478, 48.236], width: 2500, depth: 600, facing: 330, id: massena, name: 'Masséna’s corps, retaking Essling and Aspern'}
+    - {side: client, type: infantry, at: [16.565, 48.29], width: 1800, depth: 500, facing: 0, id: pacthod, name: Pacthod’s division and the Italian Royal Guard}
+    - {side: france, type: infantry, at: [16.603, 48.293], width: 2400, depth: 600, facing: 350, id: oudinot, name: 'II Corps under Oudinot, on the plateau'}
+    - {side: france, type: infantry, at: [16.65, 48.292], width: 2400, depth: 600, facing: 320, id: davout, name: 'III Corps under Davout, on the plateau'}
+  arrows:
+    - {side: client, path: [[16.535, 48.262], [16.52, 48.268], [16.509, 48.272]], width: 400, id: macdonald-advance, name: MacDonald’s column marches on Süssenbrunn and stops towards 2 pm}
+    - {side: france, path: [[16.6, 48.268], [16.6, 48.287]], width: 220, id: oudinot-attack, name: 'Oudinot storms Baumersdorf without orders, about 1 pm'}
+    - {side: client, path: [[16.572, 48.272], [16.567, 48.285]], width: 200, id: pacthod-attack, name: Pacthod takes Deutsch-Wagram}
+    - {side: france, path: [[16.47, 48.242], [16.461, 48.251]], width: 220, id: massena-pursuit, name: Masséna drives Klenau back to Leopoldau}
+    - {side: austria, path: [[16.55, 48.317], [16.535, 48.326]], width: 220, id: austrian-retreat, name: The Austrian army withdraws north-west in good order from 2:30 pm, style: dashed}
+  clashes:
+    - {at: [16.5, 48.274], size: 300}
+    - {at: [16.601, 48.289], size: 300}
+    - {at: [16.459, 48.253], size: 300}
+images:
+  wagram-vernet:
+    file: wagram-vernet.jpg
+    caption: "Napoleon at the battle of Wagram, painting by Horace Vernet, 1836"
+    credit: "Wikimedia Commons, Horace Vernet, Public domain (Napoleon Wagram.jpg)"
+  wagram-fort:
+    file: wagram-fort.jpg
+    caption: "The decisive attack at Wagram, painting by Siméon Fort"
+    credit: "Wikimedia Commons, Siméon Fort, Public domain (Decisive attack at Wagram.jpg)"

@@ -1,0 +1,39 @@
+date: "16 November 1796"
+when: '1796-11-16'
+title: "The second day on the dikes"
+bbox: [11.19313, 45.30905, 11.30562, 45.39228]
+zones: []
+routes: []
+markers: [arcole-dikes-brabeck, arcole-dikes-sticker, arcole-dikes-brigido, arcole-dikes-mittrowsky, arcole-dikes-albaredo]
+sources: ['David G. Chandler, The Campaigns of Napoleon (1966).', 'Martin Boycott-Brown, The Road to Rivoli: Napoleon’s First Campaign (2001).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[11.17, 45.366], [11.2, 45.359], [11.225, 45.35], [11.243, 45.342], [11.256, 45.335], [11.264, 45.327], [11.27, 45.318], [11.276, 45.31], [11.287, 45.302], [11.305, 45.297]], width: 130, id: adige, name: The river Adige}
+    - {path: [[11.271, 45.4], [11.273, 45.385], [11.275, 45.37], [11.2745, 45.357], [11.272, 45.347], [11.269, 45.337], [11.2655, 45.3265]], width: 35, id: alpone, name: 'The Alpone, about 20 yards wide'}
+  works:
+    - {side: neutral, path: [[11.2495, 45.3405], [11.258, 45.3462], [11.266, 45.3512], [11.2728, 45.3562]], width: 30, id: dike-arcole, name: The dike road from Ronco to the bridge of Arcole}
+    - {side: neutral, path: [[11.2478, 45.3412], [11.236, 45.352], [11.226, 45.364], [11.214, 45.378]], width: 30, id: dike-belfiore, name: The dike road to Belfiore}
+    - {side: neutral, path: [[11.2685, 45.3275], [11.2715, 45.337], [11.2745, 45.347], [11.2765, 45.355]], width: 30, id: dike-east, name: The dike on the east bank of the Alpone}
+    - {side: france, path: [[11.2477, 45.3383], [11.2493, 45.3397]], width: 40, id: pontoons, name: Andréossy’s pontoon bridge at Ronco}
+  units:
+    - {side: france, type: infantry, at: [11.2205, 45.3705], width: 180, depth: 700, facing: 320, id: massena, name: 'Masséna’s division, chasing Provera back to Belfiore'}
+    - {side: france, type: infantry, at: [11.2635, 45.3495], width: 150, depth: 650, facing: 38, id: augereau, name: Augereau’s division on the dike}
+    - {side: austria, type: infantry, at: [11.2085, 45.3845], width: 500, depth: 220, facing: 140, id: provera, name: 'Provera’s six battalions, thrown back to Belfiore'}
+    - {side: austria, type: infantry, at: [11.2712, 45.3635], width: 140, depth: 600, facing: 190, id: sticker, name: Sticker’s four battalions on the western dike of the Alpone}
+    - {side: austria, type: infantry, at: [11.2772, 45.3485], width: 130, depth: 650, facing: 200, id: brigido, name: Brigido’s four battalions on the eastern dike}
+    - {side: austria, type: infantry, at: [11.2805, 45.3585], width: 350, depth: 250, facing: 225, id: mittrowsky, name: Mittrowsky’s main body in Arcole}
+    - {side: austria, type: infantry, at: [11.2795, 45.3215], width: 300, depth: 150, facing: 230, id: albaredo-guard, name: Two Austrian battalions guarding Albaredo}
+  arrows:
+    - {side: austria, path: [[11.2125, 45.381], [11.218, 45.3755]], width: 120, id: provera-attack, name: Provera attacks from Belfiore}
+    - {side: france, path: [[11.2665, 45.3515], [11.2705, 45.3545]], width: 130, id: arcole-attacks, name: Repeated French attacks on Arcole fail}
+    - {side: france, path: [[11.2645, 45.3105], [11.2715, 45.3165]], width: 100, id: albaredo-attempt, name: The attempt to cross at Albaredo fails}
+  clashes:
+    - {at: [11.2195, 45.3745], size: 150}
+    - {at: [11.273, 45.3558], size: 140}
+    - {at: [11.2745, 45.3195], size: 120}
+images:
+  arcole-ronco:
+    file: arcole-ronco.png
+    caption: "French troops crossing the Adige at Ronco during the battle, painting by Louis-Albert-Ghislain Bacler d’Albe, 1803"
+    credit: "Wikimedia Commons, Louis-Albert-Ghislain Bacler d'Albe, Public domain (Arcola cruce del rio Adigio en Ronco.png)"

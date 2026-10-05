@@ -1,0 +1,31 @@
+date: "20 September 1792, afternoon"
+when: '1792-09-20'
+title: "The Prussian advance halts"
+bbox: [4.71371, 49.05407, 4.79463, 49.10473]
+zones: []
+routes: []
+markers: [valmy-attack-kellermann, valmy-attack-wagons, valmy-attack-brunswick, valmy-attack-lalune]
+sources: ['T. C. W. Blanning, The French Revolutionary Wars 1787–1802 (1996).', 'Owen Connelly, The Wars of the French Revolution and Napoleon (2005).', 'Munro Price, The Fall of the French Monarchy (2002).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: france, type: artillery, at: [4.76446, 49.0803], width: 600, depth: 70, facing: 265, id: french-guns, name: French batteries on the windmill hill, count: 10}
+    - {side: france, type: infantry, at: [4.7683, 49.08211], width: 1400, depth: 260, facing: 265, id: kellermann-centre, name: 'Kellermann’s infantry on the windmill hill, in two lines'}
+    - {side: france, type: infantry, at: [4.76514, 49.06809], width: 1100, depth: 220, facing: 250, id: french-left, name: French left wing towards the Châlons road}
+    - {side: france, type: infantry, at: [4.7816, 49.09749], width: 900, depth: 220, facing: 285, id: french-right, name: French right wing on Mont Yvron}
+    - {side: france, type: infantry, at: [4.78777, 49.07804], width: 1300, depth: 240, facing: 265, id: beurnonville, name: Troops of Beurnonville behind Kellermann}
+    - {side: france, type: artillery, at: [4.76377, 49.08844], width: 350, depth: 70, facing: 265, id: french-reserve-guns, name: Guns brought up by Kellermann, count: 6}
+    - {side: prussia, type: artillery, at: [4.73291, 49.07759], width: 1100, depth: 70, facing: 85, id: prussian-guns, name: 'Prussian artillery, 54 guns', count: 12}
+    - {side: prussia, type: infantry, at: [4.73058, 49.07759], width: 2600, depth: 160, facing: 85, id: prussian-first-line, name: 'Prussian infantry, first line'}
+    - {side: prussia, type: infantry, at: [4.72263, 49.07759], width: 2400, depth: 160, facing: 85, id: prussian-second-line, name: 'Prussian infantry, second line'}
+    - {side: prussia, type: cavalry, at: [4.72606, 49.05995], width: 700, depth: 220, facing: 70, id: prussian-cavalry, name: Prussian cavalry by the inn of La Lune}
+    - {side: prussia, type: cavalry, at: [4.72537, 49.09523], width: 600, depth: 220, facing: 95, id: prussian-cavalry-north, name: Prussian cavalry on the northern wing}
+  arrows:
+    - {side: prussia, path: [[4.72578, 49.07035], [4.73195, 49.07035]], width: 150, id: prussian-advance, name: The Prussian infantry advances about 200 yards and halts}
+    - {side: prussia, path: [[4.72578, 49.08482], [4.73195, 49.08482]], width: 150, id: prussian-advance, name: The Prussian infantry advances about 200 yards and halts}
+    - {side: france, path: [[4.78229, 49.09025], [4.77337, 49.0898], [4.76583, 49.08844]], width: 110, id: guns-forward, name: Kellermann brings up more guns}
+images:
+  valmy-kellermann:
+    file: valmy-kellermann.jpg
+    caption: "François Christophe de Kellermann, later Marshal and Duke of Valmy, portrait after Antoine Ansiaux, 1834"
+    credit: "Wikimedia Commons, After Antoine Ansiaux, Public domain (Marechal-Kellermann.jpg)"

@@ -1,0 +1,40 @@
+date: "21 July 1798, afternoon"
+when: {from: '1798-07-21'}
+title: "The squares and the Mamluk charge"
+bbox: [31.17298, 30.06674, 31.23526, 30.10745]
+zones: []
+routes: []
+markers: [pyramids-squares-bonaparte, pyramids-squares-desaix, pyramids-squares-murad, pyramids-squares-embabeh, pyramids-squares-ibrahim]
+sources: ['David G. Chandler, The Campaigns of Napoleon (1966).', 'Andrew Roberts, Napoleon: A Life (2015).', 'Paul Strathern, Napoleon in Egypt (2008).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[31.233, 30.035], [31.228, 30.05], [31.222, 30.065], [31.219, 30.08], [31.218, 30.095], [31.213, 30.11], [31.203, 30.125], [31.19, 30.14]], width: 350, id: nile, name: The Nile}
+  works:
+    - {side: ottoman, path: [[31.21637, 30.0823], [31.2119, 30.0832], [31.20869, 30.08085], [31.20806, 30.07714], [31.20983, 30.07434], [31.21367, 30.07343], [31.2172, 30.07425]], width: 35, id: embabeh-works, name: Entrenchments around Embabeh}
+  units:
+    - {side: france, type: square, at: [31.18491, 30.08845], width: 275, depth: 90, facing: 180, id: desaix, name: Desaix’s division in square}
+    - {side: france, type: square, at: [31.19114, 30.09162], width: 275, depth: 90, facing: 180, id: reynier, name: Reynier’s division in square}
+    - {side: france, type: square, at: [31.19737, 30.09478], width: 275, depth: 90, facing: 180, id: dugua, name: 'Dugua’s division in square, with Bonaparte'}
+    - {side: france, type: square, at: [31.2036, 30.09795], width: 275, depth: 90, facing: 180, id: vial, name: Vial’s division in square}
+    - {side: france, type: square, at: [31.20983, 30.10112], width: 275, depth: 90, facing: 180, id: bon, name: 'Bon’s division in square, by the Nile'}
+    - {side: france, type: infantry, at: [31.17972, 30.08257], width: 250, depth: 120, facing: 180, id: biktil, name: Desaix’s detachment at Biktil}
+    - {side: ottoman, type: cavalry, at: [31.19581, 30.0794], width: 1600, depth: 250, facing: 0, id: mamluks, name: 'Mamluk cavalry under Murad Bey, about 6,000'}
+    - {side: ottoman, type: infantry, at: [31.21325, 30.07868], width: 520, depth: 380, facing: 0, id: embabeh, name: 'Infantry in Embabeh, fellahin levies and Ottoman troops'}
+    - {side: ottoman, type: artillery, at: [31.21222, 30.08239], width: 420, depth: 60, facing: 0, id: embabeh-guns, name: Murad’s guns in Embabeh, count: 8}
+    - {side: ottoman, type: infantry, at: [31.22851, 30.07579], width: 1500, depth: 400, facing: 270, id: ibrahim, name: Ibrahim Bey’s army on the east bank}
+  arrows:
+    - {side: ottoman, path: [[31.19945, 30.08103], [31.19841, 30.08755], [31.19789, 30.09343]], width: 110, id: charge, name: Ayyub Bey leads the Mamluk charge against the squares}
+    - {side: ottoman, path: [[31.19322, 30.08103], [31.19218, 30.08574], [31.19166, 30.09026]], width: 110, id: charge, name: Ayyub Bey leads the Mamluk charge against the squares}
+    - {side: ottoman, path: [[31.18803, 30.08085], [31.18647, 30.08393], [31.18543, 30.08709]], width: 110, id: charge, name: Ayyub Bey leads the Mamluk charge against the squares}
+    - {side: ottoman, path: [[31.18751, 30.07959], [31.18388, 30.08076], [31.18128, 30.08212]], width: 90, id: biktil-charge, name: Mamluks charge the detachment at Biktil}
+  clashes:
+    - {at: [31.19758, 30.09406], size: 110}
+    - {at: [31.19135, 30.09089], size: 110}
+    - {at: [31.18512, 30.08773], size: 110}
+    - {at: [31.18097, 30.08239], size: 90}
+images:
+  pyramids-lejeune:
+    file: pyramids-lejeune.jpg
+    caption: "The Battle of the Pyramids, painting by Louis-François Lejeune, 1808"
+    credit: "Wikimedia Commons, Louis-François, Baron Lejeune, Public domain (Louis-François Baron Lejeune 001.jpg)"

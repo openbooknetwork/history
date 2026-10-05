@@ -1,0 +1,42 @@
+date: "1 August 1798, 18:00 to 19:30"
+when: {from: '1798-08-01'}
+title: "Round the head of the French line"
+bbox: [30.08683, 31.30593, 30.15972, 31.36862]
+zones: []
+routes: []
+markers: [nile-van-goliath, nile-van-nelson, nile-van-brueys, nile-van-villeneuve, nile-van-culloden, nile-van-island]
+sources: ['Oliver Warner, The Battle of the Nile (1960).', 'William James, The Naval History of Great Britain, volume 2 (1827).', 'Noel Mostert, The Line upon a Wind (2007).']
+emblem:
+  kind: battle-plan
+  works:
+    - {side: '#c9b88a', path: [[30.09687, 31.35295], [30.1032, 31.35071], [30.11011, 31.34899]], width: 480, id: shoals, name: Shoals of Aboukir Bay}
+    - {side: '#c9b88a', path: [[30.10282, 31.34655], [30.10766, 31.33792], [30.11435, 31.33088], [30.12313, 31.32308], [30.13205, 31.3154], [30.13904, 31.3099]], width: 300, id: shoals, name: Shoals of Aboukir Bay}
+  units:
+    - {side: france, type: camp, at: [30.10401, 31.35001], width: 140, depth: 140, facing: 315, id: island-fort, name: 'Fort on Aboukir Island, with French guns and mortars'}
+    - {side: france, type: ships, at: [30.1235, 31.33325], width: 94, depth: 1010, count: 5, rows: 5, facing: 315, id: van, name: 'French van: Guerrier, Conquérant, Spartiate, Aquilon and Peuple Souverain'}
+    - {side: france, type: ships, at: [30.13079, 31.32852], width: 94, depth: 580, count: 3, rows: 3, facing: 315, id: centre, name: 'French centre: Franklin, Orient with Brueys, and Tonnant'}
+    - {side: france, type: ships, at: [30.13629, 31.32225], width: 94, depth: 1010, count: 5, rows: 5, facing: 315, id: rear, name: 'French rear under Villeneuve: Heureux, Mercure, Guillaume Tell, Généreux and Timoléon'}
+    - {side: france, type: ships, at: [30.12826, 31.32493], width: 70, depth: 1950, count: 4, rows: 4, facing: 315, id: frigates, name: 'French frigates inshore: Sérieuse, Artémise, Diane and Justice'}
+    - {side: britain, type: ships, at: [30.12223, 31.33229], width: 94, depth: 1110, count: 5, rows: 5, facing: 315, id: inshore, name: 'Goliath, Zealous, Audacious, Theseus and Orion, inside the French line'}
+    - {side: britain, type: ships, at: [30.12651, 31.33309], width: 94, depth: 580, count: 3, rows: 3, facing: 315, id: nelson, name: 'Vanguard with Nelson, Minotaur and Defence, on the seaward side'}
+    - {side: britain, type: ships, at: [30.13357, 31.3288], width: 94, depth: 480, count: 2, rows: 2, facing: 315, id: centre-attack, name: 'Bellerophon and Majestic, against the French centre'}
+    - {side: britain, type: ships, at: [30.1139, 31.34943], width: 94, depth: 150, count: 1, rows: 1, facing: 315, id: culloden, name: 'Culloden under Troubridge, aground on the shoal'}
+    - {side: britain, type: ships, at: [30.1097, 31.36239], width: 94, depth: 400, count: 2, rows: 2, facing: 315, id: stragglers, name: 'Swiftsure and Alexander, still coming up'}
+  arrows:
+    - {side: britain, path: [[30.11733, 31.35519], [30.11881, 31.34304], [30.11755, 31.33683], [30.12, 31.33319], [30.12238, 31.33114]], width: 110, id: goliath-track, name: Goliath leads five ships round the head of the line and down its landward side}
+    - {side: britain, path: [[30.1203, 31.35647], [30.12253, 31.34368], [30.12521, 31.3351]], width: 110, id: nelson-track, name: 'Vanguard, Minotaur and Defence anchor on the seaward side'}
+    - {side: britain, path: [[30.12439, 31.35615], [30.1296, 31.34016], [30.13272, 31.33069]], width: 110, id: centre-track, name: Bellerophon and Majestic sail on to the French centre}
+  clashes:
+    - {at: [30.12015, 31.3351], size: 110}
+    - {at: [30.12346, 31.3345], size: 110}
+    - {at: [30.12454, 31.33133], size: 110}
+    - {at: [30.13157, 31.32919], size: 110}
+images:
+  nile-whitcombe:
+    file: nile-whitcombe.jpg
+    caption: "The Battle of the Nile, painting by Thomas Whitcombe, 1799"
+    credit: "Wikimedia Commons, Thomas Whitcombe, Public domain (Thomas Whitcombe - The Battle of the Nile 1798 (cropped).jpg)"
+  nile-pocock:
+    file: nile-pocock.jpg
+    caption: "The Battle of the Nile, 1 August 1798, painting by Nicholas Pocock, 1808"
+    credit: "Wikimedia Commons, Nicholas Pocock, Public domain (Pocock's Battle of the Nile.jpg)"

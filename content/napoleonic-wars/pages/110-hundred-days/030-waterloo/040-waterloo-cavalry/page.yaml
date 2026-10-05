@@ -1,0 +1,46 @@
+date: "18 June 1815, 16:00 to 18:00"
+when: {from: '1815-06-18'}
+title: "The cavalry charges and La Haye Sainte"
+bbox: [4.37703, 50.64956, 4.45783, 50.69298]
+zones: []
+routes: []
+markers: [waterloo-18-ney, waterloo-18-ompteda, waterloo-18-wellington-squares]
+sources: ['Alessandro Barbero, The Battle: A New History of Waterloo (2003).', 'William Siborne, The Waterloo Campaign, 1815 (1848).', 'Tim Clayton, Waterloo: Four Days that Changed Europe’s Destiny (2014).']
+emblem:
+  kind: battle-plan
+  works:
+    - {side: neutral, path: [[4.38128, 50.67923], [4.39404, 50.67969], [4.40396, 50.67969], [4.414, 50.679], [4.42381, 50.67941], [4.43231, 50.68014], [4.44223, 50.68122], [4.45216, 50.68213]], width: 25, id: ohain-road, name: The sunken Ohain road along the ridge}
+    - {side: neutral, path: [[4.40821, 50.69751], [4.4115, 50.6855], [4.414, 50.679], [4.41587, 50.6767], [4.4131, 50.6628], [4.41049, 50.655], [4.408, 50.646]], width: 25, id: brussels-road, name: The road from Charleroi to Brussels}
+    - {side: britain, path: [[4.39361, 50.67109], [4.39701, 50.67109], [4.39701, 50.66946], [4.39361, 50.66946], [4.39361, 50.67109]], width: 30, id: hougoumont, name: 'Hougoumont, the château, garden and orchard'}
+    - {side: britain, path: [[4.41466, 50.67702], [4.41573, 50.67702], [4.41573, 50.67634], [4.41466, 50.67634], [4.41466, 50.67702]], width: 25, id: la-haye-sainte, name: 'La Haye Sainte, held by 400 light infantry of the King’s German Legion'}
+    - {side: britain, path: [[4.43189, 50.68005], [4.43316, 50.68005], [4.43316, 50.67937], [4.43189, 50.67937], [4.43189, 50.68005]], width: 25, id: papelotte, name: 'Papelotte, fortified and garrisoned'}
+  units:
+    - {side: britain, type: square, at: [4.39829, 50.68077], width: 120, depth: 120, facing: 180, id: squares, name: 'Allied infantry in squares, with the gunners sheltering in them'}
+    - {side: britain, type: square, at: [4.40183, 50.68258], width: 120, depth: 120, facing: 180, id: squares, name: 'Allied infantry in squares, with the gunners sheltering in them'}
+    - {side: britain, type: square, at: [4.40538, 50.68077], width: 120, depth: 120, facing: 180, id: squares, name: 'Allied infantry in squares, with the gunners sheltering in them'}
+    - {side: britain, type: square, at: [4.40892, 50.68258], width: 120, depth: 120, facing: 180, id: squares, name: 'Allied infantry in squares, with the gunners sheltering in them'}
+    - {side: britain, type: square, at: [4.41246, 50.68077], width: 120, depth: 120, facing: 180, id: squares, name: 'Allied infantry in squares, with the gunners sheltering in them'}
+    - {side: france, type: cavalry, at: [4.40112, 50.67932], width: 400, depth: 140, facing: 10, id: french-cavalry, name: 'Milhaud’s, Kellermann’s and the Guard’s cavalry, about 9,000'}
+    - {side: france, type: cavalry, at: [4.40892, 50.67914], width: 400, depth: 140, facing: 10, id: french-cavalry, name: 'Milhaud’s, Kellermann’s and the Guard’s cavalry, about 9,000'}
+    - {side: france, type: infantry, at: [4.40112, 50.67172], width: 700, depth: 200, facing: 10, id: bachelu, name: 'Bachelu’s division and a regiment of Foy’s, 6,500, driven back'}
+    - {side: france, type: infantry, at: [4.41601, 50.67489], width: 300, depth: 150, facing: 0, id: derlon-lhs, name: d’Erlon’s rallied troops take La Haye Sainte}
+    - {side: france, type: infantry, at: [4.44082, 50.66313], width: 900, depth: 300, facing: 80, id: lobau, name: Lobau’s VI Corps facing the Prussians}
+    - {side: prussia, type: infantry, at: [4.45287, 50.66403], width: 1000, depth: 300, facing: 260, id: bulow, name: Bülow’s IV Corps comes out of the Bois de Paris}
+  arrows:
+    - {side: france, path: [[4.40538, 50.66992], [4.40538, 50.67353], [4.40538, 50.67806]], width: 170, id: cavalry-charge, name: The cavalry charges between Hougoumont and La Haye Sainte}
+    - {side: france, path: [[4.41601, 50.67082], [4.41573, 50.67308], [4.41544, 50.6758]], width: 140, id: lhs-attack, name: The attack on La Haye Sainte}
+    - {side: prussia, path: [[4.45003, 50.66385], [4.4479, 50.66349], [4.44578, 50.66313]], width: 160, id: bulow-attack, name: Bülow attacks Lobau}
+    - {side: prussia, path: [[4.45145, 50.6672], [4.44861, 50.67082], [4.44578, 50.67399]], width: 140, id: frichermont-attack, name: The Prussian 15th Brigade takes Frichermont}
+  clashes:
+    - [4.40538, 50.68014]
+    - [4.4153, 50.67616]
+    - [4.44507, 50.66313]
+images:
+  waterloo-cuirassiers:
+    file: waterloo-cuirassiers.jpg
+    caption: "French cuirassiers charging the British squares at Waterloo, painting by Henri Félix Emmanuel Philippoteaux, 1874"
+    credit: "Wikimedia Commons, Henri Félix Emmanuel Philippoteaux, Public domain (Charge of the French Cuirassiers at Waterloo.jpg)"
+  waterloo-ney:
+    file: waterloo-ney.jpg
+    caption: "Marshal Ney and his staff leading the cavalry at Waterloo, by Louis Dumoulin"
+    credit: "Wikimedia Commons, Louis Dumoulin, Public domain (Marechal Ney à Waterloo.jpg)"

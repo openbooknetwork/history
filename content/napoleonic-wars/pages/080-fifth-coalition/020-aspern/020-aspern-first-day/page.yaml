@@ -1,0 +1,41 @@
+date: "21 May 1809"
+title: "The first day"
+bbox: [16.44125, 48.19044, 16.56388, 48.25027]
+zones: []
+routes: []
+markers: [aspern-day1-molitor, aspern-day1-lannes, aspern-day1-bessieres, aspern-day1-hiller, aspern-day1-rosenberg, aspern-day1-charles]
+sources: ['John H. Gill, 1809: Thunder on the Danube, volume II: The Fall of Vienna and the Battle of Aspern (2009).', 'Gunther E. Rothenberg, Napoleon’s Great Adversary: Archduke Charles and the Austrian Army, 1792–1814 (1995).', 'Ian Castle, Aspern and Wagram 1809 (1990).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[16.43, 48.226], [16.452, 48.219], [16.468, 48.215], [16.481, 48.211], [16.493, 48.205], [16.507, 48.199], [16.526, 48.1955], [16.548, 48.1915], [16.57, 48.184], [16.59, 48.172]], width: 110, id: danube-arm, name: An arm of the Danube between the Lobau and the left bank}
+  works:
+    - {side: france, path: [[16.49979, 48.19732], [16.50064, 48.20053]], width: 45, id: bridge, name: The French bridge from the Lobau to the left bank}
+  units:
+    - {side: france, type: infantry, at: [16.47971, 48.2196], width: 700, depth: 380, facing: 10, id: molitor, name: 'Molitor’s division in Aspern, four regiments'}
+    - {side: france, type: infantry, at: [16.48626, 48.21379], width: 900, depth: 200, facing: 10, id: legrand, name: 'The divisions of Legrand and Carra Saint-Cyr, coming up to Aspern'}
+    - {side: france, type: cavalry, at: [16.50105, 48.21801], width: 1800, depth: 260, facing: 10, id: bessieres, name: 'Bessières’s cavalry, about 7,000'}
+    - {side: france, type: infantry, at: [16.52201, 48.2133], width: 800, depth: 380, facing: 10, id: boudet, name: 'Boudet’s division in Essling, under Lannes'}
+    - {side: austria, type: infantry, at: [16.46315, 48.22431], width: 1100, depth: 300, facing: 115, id: hiller, name: 'First column, VI Corps under Hiller'}
+    - {side: austria, type: infantry, at: [16.48084, 48.22911], width: 1500, depth: 300, facing: 190, id: bellegarde, name: 'Second column, I Corps under Bellegarde'}
+    - {side: austria, type: infantry, at: [16.49953, 48.22783], width: 1100, depth: 300, facing: 220, id: hohenzollern, name: 'Third column, II Corps under Hohenzollern'}
+    - {side: austria, type: cavalry, at: [16.51948, 48.22823], width: 1500, depth: 280, facing: 190, id: liechtenstein, name: Reserve cavalry under Liechtenstein}
+    - {side: austria, type: infantry, at: [16.52171, 48.23669], width: 1400, depth: 300, facing: 190, id: grenadiers, name: Grenadier divisions of the reserve}
+    - {side: austria, type: infantry, at: [16.52235, 48.22244], width: 1100, depth: 300, facing: 190, id: dedovich, name: 'Fourth column, part of IV Corps under Dedovich'}
+    - {side: austria, type: infantry, at: [16.54051, 48.2134], width: 1000, depth: 300, facing: 270, id: rosenberg, name: 'Fifth column, IV Corps under Rosenberg'}
+  arrows:
+    - {side: austria, path: [[16.48044, 48.2276], [16.48001, 48.22232]], width: 130, id: aspern-assault, name: 'The Austrians storm Aspern, which changes hands six times'}
+    - {side: austria, path: [[16.46529, 48.2236], [16.47387, 48.22084]], width: 130, id: aspern-assault, name: 'The Austrians storm Aspern, which changes hands six times'}
+    - {side: austria, path: [[16.52196, 48.22093], [16.522, 48.21587]], width: 120, id: essling-attacks, name: Rosenberg attacks Essling three times from 6 pm}
+    - {side: austria, path: [[16.53823, 48.21358], [16.52859, 48.21335]], width: 120, id: essling-attacks, name: Rosenberg attacks Essling three times from 6 pm}
+    - {side: france, path: [[16.50477, 48.21913], [16.50967, 48.22737]], width: 140, id: bessieres-charge, name: Bessières’s cavalry charges the Austrian centre}
+  clashes:
+    - [16.48031, 48.22191]
+    - [16.47475, 48.22055]
+    - [16.52257, 48.21544]
+    - [16.50995, 48.22789]
+images:
+  aspern-cormon:
+    file: aspern-cormon.jpg
+    caption: "French troops in the battle of Aspern-Essling, painting by Fernand Cormon"
+    credit: "Wikimedia Commons, Fernand Cormon, Public domain (Fernand Cormon 005.jpg)"

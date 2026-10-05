@@ -1,0 +1,7 @@
+By dawn on 15 November the engineers of Colonel Antoine-François Andréossy have a pontoon bridge across the Adige at Ronco. Augereau’s division crosses first and turns north-east along the dike towards Arcole, and Masséna’s follows and takes the dike north-west towards Belfiore to cover the left. Colonel Wenzel Brigido holds Arcole with two battalions and two guns, and their fire from across the Alpone stops Augereau’s leading demi-brigade under General Louis André Bon.
+
+Augereau sends in the demi-brigades of Verdier and Verne, and at midday Austrian reinforcements under General Anton Ferdinand Mittrowsky reach Arcole. Bon, Verdier, Verne and Lannes are wounded, and the attack stalls with the men sheltering behind the dike. Bonaparte takes a flag and stands in the open on the dike about 55 paces from the bridge. Several of his staff are hit and his aide-de-camp Jean-Baptiste Muiron is killed, until an officer drags Bonaparte out of the line of fire and he ends up in the muddy ditch.
+
+@image arcole-gros
+
+On the left the brigades of Brabeck and Gavasini advance from Belfiore against the pontoon bridge. They meet Masséna near Bionde and are driven back beyond Belfiore after Brabeck’s men fire on Gavasini’s by mistake. In the evening General Jean Joseph Guieu crosses the Adige by boat at Albaredo with two demi-brigades and drives the Austrians out of Arcole. At midnight Bonaparte, fearing that Davidovich will fall on his rear, recalls Guieu and pulls most of his troops back across the Adige, keeping a bridgehead on the far bank.

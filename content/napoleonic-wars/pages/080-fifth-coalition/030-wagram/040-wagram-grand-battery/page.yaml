@@ -1,0 +1,40 @@
+date: "6 July 1809, 11 am to 1 pm"
+title: "The grand battery"
+bbox: [16.43, 48.18, 16.7, 48.335]
+zones: []
+routes: []
+markers: [wagram-noon-lauriston, wagram-noon-bessieres, wagram-noon-massena, wagram-noon-nordmann, wagram-noon-tower]
+sources: ['Gunther E. Rothenberg, The Emperor’s Last Victory: Napoleon and the Battle of Wagram (2004).', 'John H. Gill, 1809: Thunder on the Danube, volume III: Wagram and Znaim (2010).', 'Ian Castle, Aspern and Wagram 1809 (1990).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[16.43, 48.226], [16.452, 48.219], [16.468, 48.215], [16.481, 48.211], [16.493, 48.205], [16.507, 48.199], [16.526, 48.1955], [16.548, 48.1915], [16.57, 48.184], [16.59, 48.172]], width: 110, id: danube-arm, name: An arm of the Danube between the Lobau and the left bank}
+    - {path: [[16.548, 48.33], [16.556, 48.312], [16.567, 48.297], [16.585, 48.288], [16.602, 48.281], [16.62, 48.2745], [16.637, 48.267], [16.647, 48.257], [16.652, 48.245], [16.66, 48.232], [16.672, 48.22]], width: 50, id: russbach, name: 'The Russbach stream, below the Wagram plateau'}
+  units:
+    - {side: austria, type: infantry, at: [16.497, 48.222], width: 2400, depth: 500, facing: 150, id: klenau, name: 'VI Corps under Klenau, near Essling'}
+    - {side: austria, type: infantry, at: [16.478, 48.266], width: 2500, depth: 600, facing: 110, id: kollowrat, name: 'III Corps under Kollowrat, driven back by the guns'}
+    - {side: austria, type: infantry, at: [16.505, 48.288], width: 2200, depth: 600, facing: 140, id: grenadiers, name: 'Grenadiers of the reserve in squares, with Liechtenstein’s cavalry'}
+    - {side: austria, type: infantry, at: [16.547, 48.297], width: 2400, depth: 600, facing: 185, id: bellegarde, name: I Corps under Bellegarde}
+    - {side: austria, type: infantry, at: [16.605, 48.293], width: 2600, depth: 600, facing: 160, id: hohenzollern, name: II Corps under Hohenzollern}
+    - {side: austria, type: infantry, at: [16.652, 48.292], width: 2400, depth: 600, facing: 125, id: rosenberg, name: 'IV Corps under Rosenberg, forming a new line on the plateau'}
+    - {side: france, type: artillery, at: [16.512, 48.269], width: 2200, depth: 220, facing: 300, id: grand-battery, name: 'Grand battery under Lauriston, 84 guns by Masséna’s count', count: 18}
+    - {side: france, type: infantry, at: [16.528, 48.236], width: 700, depth: 1500, facing: 195, id: massena, name: Masséna’s corps marching south in columns}
+    - {side: client, type: infantry, at: [16.545, 48.272], width: 2000, depth: 600, facing: 300, id: eugene, name: 'Army of Italy, with MacDonald forming up'}
+    - {side: france, type: infantry, at: [16.603, 48.266], width: 2400, depth: 600, facing: 0, id: oudinot, name: 'II Corps under Oudinot, waiting for orders'}
+    - {side: france, type: infantry, at: [16.632, 48.261], width: 1800, depth: 500, facing: 0, id: gudin, name: Gudin’s and Puthod’s divisions of III Corps}
+    - {side: france, type: infantry, at: [16.672, 48.276], width: 1800, depth: 500, facing: 290, id: friant, name: Friant’s and Morand’s divisions with the cavalry of Montbrun and Grouchy}
+  arrows:
+    - {side: france, path: [[16.535, 48.27], [16.533, 48.258], [16.531, 48.244]], width: 260, id: massena-march, name: Masséna’s corps marches 8 km south to Essling}
+    - {side: france, path: [[16.524, 48.276], [16.513, 48.283]], width: 220, id: nansouty-charge, name: Nansouty’s cuirassiers and carabiniers charge near Süssenbrunn}
+    - {side: france, path: [[16.632, 48.265], [16.636, 48.273]], width: 220, id: davout-front, name: Gudin and Puthod storm Markgrafneusiedl}
+    - {side: france, path: [[16.664, 48.279], [16.652, 48.283]], width: 220, id: davout-flank, name: Friant and Morand climb the plateau from the east}
+    - {side: austria, path: [[16.648, 48.297], [16.635, 48.318]], width: 220, id: rosenberg-retreat, name: 'Rosenberg falls back towards Bockfliess, about 1 pm', style: dashed}
+  clashes:
+    - {at: [16.513, 48.285], size: 300}
+    - {at: [16.637, 48.274], size: 300}
+    - {at: [16.656, 48.284], size: 300}
+images:
+  wagram-drouot:
+    file: wagram-drouot.jpg
+    caption: "Antoine Drouot with the guns of the Guard at Wagram, by Paul Émile Léon Perboyre, 1913"
+    credit: "Wikimedia Commons, Paul Émile Léon Perboyre, Public domain (Drouot at Wagram.jpg)"

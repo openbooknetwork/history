@@ -1,0 +1,44 @@
+date: "21 June 1813, morning"
+when: {from: '1813-06-21'}
+title: "Hill at La Puebla"
+bbox: [-2.84, 42.755, -2.59, 42.905]
+zones: []
+routes: []
+markers: [vitoria-puebla-hill, vitoria-puebla-cadogan, vitoria-puebla-wellington, vitoria-puebla-jourdan, vitoria-puebla-subijana, vitoria-puebla-town]
+sources: ['Ian Fletcher, Vittoria 1813: Wellington Sweeps the French from Spain (2005).', 'Michael Glover, The Peninsular War 1807–1814 (2001).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-2.59, 42.89], [-2.62, 42.886], [-2.645, 42.879], [-2.664, 42.874], [-2.69, 42.871], [-2.715, 42.866], [-2.737, 42.86], [-2.75, 42.856], [-2.756, 42.846], [-2.752, 42.837], [-2.745, 42.832], [-2.752, 42.828], [-2.765, 42.83], [-2.775, 42.826], [-2.79, 42.822], [-2.805, 42.818], [-2.815, 42.81], [-2.82, 42.795], [-2.826, 42.78], [-2.832, 42.765], [-2.838, 42.75]], width: 50, id: zadorra, name: The river Zadorra}
+  works:
+    - {side: neutral, path: [[-2.84, 42.755], [-2.829, 42.766], [-2.81, 42.785], [-2.79, 42.8], [-2.765, 42.812], [-2.752, 42.82], [-2.735, 42.826], [-2.722, 42.83], [-2.7, 42.838], [-2.672, 42.847]], width: 25, id: burgos-road, name: The road from Burgos through the La Puebla defile to Vitoria}
+    - {side: neutral, path: [[-2.672, 42.847], [-2.68, 42.86], [-2.69, 42.872], [-2.705, 42.89], [-2.72, 42.91]], width: 25, id: bilbao-road, name: The road to Bilbao}
+    - {side: neutral, path: [[-2.672, 42.847], [-2.655, 42.862], [-2.636, 42.886], [-2.615, 42.905]], width: 25, id: bayonne-road, name: The road to Bayonne and France}
+    - {side: neutral, path: [[-2.672, 42.847], [-2.64, 42.848], [-2.6, 42.85], [-2.56, 42.853]], width: 25, id: salvatierra-road, name: The road to Salvatierra and Pamplona}
+  units:
+    - {side: france, type: infantry, at: [-2.79085, 42.78548], width: 600, depth: 150, facing: 225, id: maransin, name: 'Maransin’s brigade, sent up the heights'}
+    - {side: france, type: infantry, at: [-2.77737, 42.79182], width: 900, depth: 200, facing: 225, id: villatte, name: 'Villatte’s reserve division, committed on the heights'}
+    - {side: france, type: infantry, at: [-2.76512, 42.81262], width: 2500, depth: 250, facing: 270, id: gazan, name: 'Gazan’s Army of the South: Leval, Daricau and Conroux'}
+    - {side: france, type: infantry, at: [-2.72836, 42.82619], width: 2000, depth: 220, facing: 270, id: derlon, name: 'D’Erlon’s Army of the Centre in second line: Darmagnac and Cassagne'}
+    - {side: france, type: infantry, at: [-2.66465, 42.86871], width: 1600, depth: 220, facing: 0, id: reille, name: Reille’s Army of Portugal holding the river north of Vitoria}
+    - {side: france, type: infantry, at: [-2.69283, 42.88138], width: 800, depth: 200, facing: 330, id: sarrut, name: Sarrut’s division guarding the Bilbao road}
+    - {side: britain, type: infantry, at: [-2.80065, 42.77915], width: 900, depth: 200, facing: 45, id: heights, name: Morillo’s Spanish division and Cadogan’s brigade on the heights}
+    - {side: britain, type: infantry, at: [-2.7884, 42.80177], width: 900, depth: 220, facing: 70, id: stewart, name: 'Stewart’s 2nd Division, taking Subijana'}
+    - {side: britain, type: infantry, at: [-2.78595, 42.83886], width: 1500, depth: 250, facing: 90, id: right-centre, name: 'Wellington’s right centre: the Light and 4th Divisions on the north bank'}
+    - {side: britain, type: infantry, at: [-2.75287, 42.83524], width: 400, depth: 150, facing: 135, id: kempt, name: 'Kempt’s brigade of the Light Division, across the river'}
+    - {side: britain, type: infantry, at: [-2.78227, 42.86419], width: 1300, depth: 250, facing: 110, id: dalhousie, name: 'Dalhousie’s left centre, the 3rd and 7th Divisions, crossing Monte Arrato'}
+    - {side: britain, type: infantry, at: [-2.71733, 42.90128], width: 600, depth: 1400, facing: 150, id: graham, name: 'Graham’s column, 20,000, coming round Monte Arrato'}
+  arrows:
+    - {side: britain, path: [[-2.82148, 42.76739], [-2.81168, 42.77282], [-2.80433, 42.77734]], width: 130, id: morillo-climb, name: Morillo’s Spaniards climb the Heights of La Puebla}
+    - {side: france, path: [[-2.77737, 42.79815], [-2.78472, 42.79182], [-2.79146, 42.78684]], width: 110, id: maransin-attack, name: Maransin tries to drive Morillo off the heights}
+    - {side: britain, path: [[-2.81658, 42.78367], [-2.80188, 42.79363], [-2.79207, 42.79996]], width: 130, id: stewart-advance, name: Stewart’s 2nd Division advances up the plain}
+    - {side: britain, path: [[-2.77492, 42.83886], [-2.76389, 42.83705], [-2.75593, 42.83524]], width: 100, id: kempt-crossing, name: Kempt crosses the Zadorra at the bend}
+    - {side: britain, path: [[-2.74306, 42.91304], [-2.73081, 42.90852], [-2.72223, 42.9049]], width: 150, id: graham-march, name: Graham marches round the north of Monte Arrato}
+  clashes:
+    - [-2.79697, 42.78277]
+    - [-2.78411, 42.80358]
+images:
+  vitoria-print:
+    file: vitoria-print.jpg
+    caption: "The Battle of Vitoria, coloured print by William Heath and Thomas Sutherland, A.S.K. Brown collection"
+    credit: "Wikimedia Commons, Dageno, CC BY-SA 4.0 (Batalla de Vitoria Battle of Vitoria, by Heath & Sutherland, A.S.K. Brown collection.jpg)"

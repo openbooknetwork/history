@@ -1,0 +1,39 @@
+date: "16 June 1815, 19:00 to 22:00"
+when: {from: '1815-06-16'}
+title: "Ligny: the Guard breaks the centre"
+bbox: [4.51782, 50.4805, 4.63085, 50.54744]
+zones: []
+routes: []
+markers: [ligny-16-blucher-fall, ligny-16-gneisenau]
+sources: ['William Siborne, The Waterloo Campaign, 1815 (1848).', 'Peter Hofschröer, 1815: The Waterloo Campaign. The German Victory (1999).', 'John Hussey, Waterloo: The Campaign of 1815, Volume 1 (2017).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[4.515, 50.502], [4.53, 50.51], [4.545, 50.517], [4.556, 50.5215], [4.568, 50.521], [4.5814, 50.5195], [4.593, 50.522], [4.603, 50.527], [4.612, 50.533]], width: 25, id: ligny-stream, name: The Ligny stream}
+  units:
+    - {side: france, type: infantry, at: [4.58352, 50.52708], width: 1200, depth: 400, facing: 10, id: guard, name: 'The Old Guard and Gérard’s IV Corps, through Ligny'}
+    - {side: france, type: cavalry, at: [4.59694, 50.52573], width: 800, depth: 300, facing: 10, id: milhaud, name: Milhaud’s cuirassiers on the right of the Guard}
+    - {side: france, type: artillery, at: [4.57857, 50.51216], width: 1000, depth: 120, facing: 5, id: guard-artillery, name: 'The Guard artillery above Ligny, 60 guns', count: 12}
+    - {side: france, type: infantry, at: [4.54961, 50.52301], width: 1500, depth: 350, facing: 330, id: vandamme, name: Vandamme’s corps and the Young Guard at Saint-Amand}
+    - {side: france, type: infantry, at: [4.57434, 50.49316], width: 1200, depth: 350, facing: 20, id: lobau, name: Lobau’s VI Corps arrives east of Fleurus}
+    - {side: france, type: cavalry, at: [4.61813, 50.50492], width: 1600, depth: 350, facing: 59, id: grouchy, name: Grouchy’s cavalry facing Thielmann}
+    - {side: prussia, type: infantry, at: [4.585, 50.53477], width: 2300, depth: 300, facing: 202, id: prussian-line, name: Zieten’s and Pirch’s corps form a new line between Brye and Sombreffe}
+    - {side: prussia, type: cavalry, at: [4.56868, 50.53116], width: 700, depth: 250, facing: 150, id: roder, name: Röder’s reserve cavalry of the I Corps}
+    - {side: prussia, type: infantry, at: [4.61248, 50.5203], width: 1800, depth: 400, facing: 239, id: thielmann, name: Thielmann’s III Corps holds Sombreffe}
+  arrows:
+    - {side: france, path: [[4.5814, 50.51487], [4.58253, 50.5203], [4.58352, 50.52482]], width: 220, id: guard-assault, name: The Guard storms Ligny}
+    - {side: france, path: [[4.59482, 50.51578], [4.59553, 50.5203], [4.59666, 50.52392]], width: 180, id: milhaud-charge, name: Milhaud’s cuirassiers charge}
+    - {side: prussia, path: [[4.57151, 50.53025], [4.57504, 50.52935], [4.57857, 50.52889]], width: 160, id: roder-charge, name: 'Röder’s counter-charge, led by Blücher'}
+    - {side: prussia, path: [[4.57575, 50.5402], [4.57222, 50.54382], [4.56868, 50.55106]], width: 200, id: prussian-retreat, name: The Prussians fall back on Tilly, style: dashed}
+  clashes:
+    - [4.57744, 50.52889]
+    - [4.59694, 50.52772]
+images:
+  ligny-blucher-rescue:
+    file: ligny-blucher-rescue.jpg
+    caption: "Blücher under his fallen horse, rescued by his aide Nostitz, painting by Clemens Otto Fikentscher, about 1862"
+    credit: "Wikimedia Commons, Clemens Otto Fikentscher, Public domain (Blüchers Rettung durch seinen Adjudanten Nostiz bei Quatre-Bras.jpg)"
+  ligny-gneisenau:
+    file: ligny-gneisenau.jpg
+    caption: "Gneisenau at the battle of Ligny, by Richard Knötel, 1900"
+    credit: "Wikimedia Commons, Richard Knötel, Public domain (Gneisenau at the Battle of Ligny, by Richard Knötel.jpg)"

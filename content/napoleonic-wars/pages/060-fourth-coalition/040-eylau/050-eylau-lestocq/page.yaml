@@ -1,0 +1,35 @@
+date: "8 February 1807, afternoon and evening"
+when: {from: '1807-02-08'}
+title: "Davout, L’Estocq and Ney"
+bbox: [20.57468, 54.34416, 20.7193, 54.4191]
+zones: []
+routes: []
+markers: [eylau-lestocq-davout, eylau-lestocq-lestocq, eylau-lestocq-ney, eylau-lestocq-bennigsen]
+sources: ['F. Loraine Petre, Napoleon’s Campaign in Poland 1806–1807 (1901).', 'David G. Chandler, The Campaigns of Napoleon (1966).', 'Christopher Summerville, Napoleon’s Polish Gamble: Eylau and Friedland 1807 (2005).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: france, type: infantry, at: [20.67814, 54.38211], width: 1300, depth: 300, facing: 328, id: davout, name: 'Davout’s III Corps, about 15,000'}
+    - {side: france, type: infantry, at: [20.69645, 54.38882], width: 1300, depth: 300, facing: 328, id: davout, name: 'Davout’s III Corps, about 15,000'}
+    - {side: france, type: artillery, at: [20.68958, 54.37137], width: 700, depth: 300, facing: 328, id: davout-guns, name: Davout’s battery on the heights of Klein Sausgarten, count: 8}
+    - {side: france, type: infantry, at: [20.65524, 54.38225], width: 1000, depth: 300, facing: 8, id: st-hilaire, name: Saint-Hilaire’s division}
+    - {side: france, type: infantry, at: [20.62957, 54.37818], width: 900, depth: 300, facing: 58, id: guard, name: 'The Imperial Guard, kept in reserve'}
+    - {side: france, type: infantry, at: [20.61486, 54.40906], width: 1000, depth: 300, facing: 98, id: ney, name: 'Ney’s leading division, arriving about 7 p.m.'}
+    - {side: russia, type: infantry, at: [20.68198, 54.39045], width: 1800, depth: 300, facing: 148, id: russian-left, name: 'The Russian left, bent back'}
+    - {side: russia, type: infantry, at: [20.66048, 54.3927], width: 1600, depth: 300, facing: 238, id: russian-centre, name: The Russian centre}
+    - {side: russia, type: infantry, at: [20.64298, 54.40656], width: 1800, depth: 300, facing: 238, id: russian-right, name: The Russian right}
+    - {side: prussia, type: infantry, at: [20.7115, 54.39433], width: 700, depth: 250, facing: 238, id: lestocq, name: 'L’Estocq’s Prussians, about 6,000'}
+    - {side: russia, type: artillery, at: [20.68828, 54.40076], width: 600, depth: 300, facing: 148, id: yermolov, name: Yermolov’s 36 guns, count: 8}
+  arrows:
+    - {side: france, path: [[20.70544, 54.37185], [20.69106, 54.38364]], width: 130, id: davout-attack, name: Davout drives in the Russian left}
+    - {side: prussia, path: [[20.60619, 54.41548], [20.64986, 54.42401], [20.68926, 54.41605], [20.71011, 54.39649]], width: 130, id: lestocq-march, name: L’Estocq marches behind the Russian army and falls on Davout’s right}
+    - {side: france, path: [[20.58085, 54.41366], [20.60979, 54.4104]], width: 120, id: ney-arrival, name: Ney arrives on the French left}
+  clashes:
+    - [20.70692, 54.39265]
+    - [20.67748, 54.38614]
+    - [20.6281, 54.40858]
+images:
+  eylau-lestocq-gros:
+    file: eylau-lestocq-gros.jpg
+    caption: "Napoleon on the battlefield of Eylau the day after the battle, painting by Antoine-Jean Gros, 1808"
+    credit: "Wikimedia Commons, Antoine-Jean Gros, Public domain (Gros, Napoleon at Eylau.jpg)"

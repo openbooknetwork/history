@@ -1,0 +1,50 @@
+date: "7 September 1812, 6 to 11:30 am"
+title: "The flèches"
+bbox: [35.765, 55.478, 35.885, 55.553]
+zones: []
+routes: []
+markers: [borodino-morn-davout, borodino-morn-bagration, borodino-morn-eugene, borodino-morn-tuchkov]
+sources: ['Alexander Mikaberidze, The Battle of Borodino: Napoleon Against Kutuzov (2007).', 'Christopher Duffy, Borodino and the War of 1812 (1972).', 'Richard K. Riehn, 1812: Napoleon’s Russian Campaign (1990).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[35.72, 55.518], [35.76, 55.517], [35.79, 55.519], [35.808, 55.522], [35.821, 55.526], [35.833, 55.533], [35.845, 55.541], [35.858, 55.549], [35.868, 55.556]], width: 40, id: kolocha, name: The Kolocha}
+    - {path: [[35.85, 55.506], [35.843, 55.511], [35.834, 55.516], [35.826, 55.522]], width: 25, id: semyonovka, name: The Semyonovka brook}
+    - {path: [[35.79, 55.567], [35.83, 55.562], [35.868, 55.556], [35.9, 55.553]], width: 90, id: moskva, name: The Moskva}
+  works:
+    - {side: russia, path: [[35.83234, 55.50889], [35.82986, 55.50771], [35.83234, 55.50653]], width: 30, id: fleches, name: 'The Bagration flèches, three open earthworks'}
+    - {side: russia, path: [[35.83424, 55.50618], [35.83176, 55.505], [35.83424, 55.50382]], width: 30, id: fleches, name: 'The Bagration flèches, three open earthworks'}
+    - {side: russia, path: [[35.83583, 55.50347], [35.83335, 55.50229], [35.83583, 55.50111]], width: 30, id: fleches, name: 'The Bagration flèches, three open earthworks'}
+    - {side: russia, path: [[35.84159, 55.52145], [35.83825, 55.5209], [35.8381, 55.5191], [35.84159, 55.51855]], width: 40, id: redoubt, name: 'The great redoubt, later named after Raevsky, with 19 heavy guns'}
+  units:
+    - {side: france, type: artillery, at: [35.814, 55.51], width: 1500, depth: 200, facing: 95, id: grand-battery, name: 'French grand battery, 102 guns', count: 16}
+    - {side: france, type: infantry, at: [35.824, 55.5015], width: 1000, depth: 400, facing: 85, id: davout, name: 'I Corps under Davout, the divisions of Compans, Dessaix and Friant'}
+    - {side: france, type: infantry, at: [35.822, 55.5115], width: 1000, depth: 400, facing: 100, id: ney, name: 'III Corps under Ney, which retakes the flèches'}
+    - {side: client, type: infantry, at: [35.812, 55.524], width: 1100, depth: 400, facing: 95, id: eugene, name: 'IV Corps under Eugène, with Italian and French divisions'}
+    - {side: rhine, type: infantry, at: [35.796, 55.49], width: 1000, depth: 400, facing: 85, id: poniatowski, name: 'V Corps of Poles under Poniatowski, about 10,000'}
+    - {side: france, type: infantry, at: [35.781, 55.505], width: 1400, depth: 500, facing: 90, id: guard, name: 'The Imperial Guard, 18,500, in reserve'}
+    - {side: russia, type: infantry, at: [35.841, 55.503], width: 1000, depth: 400, facing: 265, id: bagration, name: 'Bagration’s 2nd Army, the divisions of Vorontsov and Neverovsky'}
+    - {side: russia, type: infantry, at: [35.856, 55.508], width: 1100, depth: 450, facing: 265, id: reserves, name: 'Guard regiments, grenadiers and guns sent by Barclay'}
+    - {side: russia, type: infantry, at: [35.849, 55.52], width: 1100, depth: 400, facing: 265, id: raevsky, name: 'VII Corps under Raevsky, behind the great redoubt'}
+    - {side: russia, type: infantry, at: [35.865, 55.536], width: 2000, depth: 500, facing: 255, id: barclay, name: 'Barclay’s 1st Army on the right, along the Kolocha'}
+    - {side: russia, type: infantry, at: [35.821, 55.49], width: 1000, depth: 400, facing: 270, id: tuchkov, name: 'III Corps under Tuchkov, half of it militia'}
+  arrows:
+    - {side: france, path: [[35.8275, 55.501], [35.8315, 55.5025]], width: 170, id: davout-attack, name: 'Davout storms the flèches, 6 to 7:30 am'}
+    - {side: france, path: [[35.8255, 55.5105], [35.8305, 55.508]], width: 170, id: ney-attack, name: Ney’s corps retakes the flèches}
+    - {side: russia, path: [[35.8385, 55.5035], [35.835, 55.504]], width: 140, id: bagration-counterattack, name: Bagration’s counterattacks}
+    - {side: client, path: [[35.8155, 55.524], [35.8205, 55.5245]], width: 150, id: borodino-attack, name: Eugène takes Borodino from the Russian Guard jägers}
+    - {side: rhine, path: [[35.7995, 55.49], [35.8165, 55.49]], width: 150, id: utitsa-attack, name: Poniatowski attacks Utitsa}
+  clashes:
+    - {at: [35.8325, 55.503], size: 200}
+    - {at: [35.831, 55.508], size: 200}
+    - {at: [35.8215, 55.5245], size: 180}
+    - {at: [35.818, 55.49], size: 180}
+images:
+  borodino-roubaud-fleches:
+    file: borodino-roubaud-fleches.jpg
+    caption: "The fighting at the Bagration flèches, detail of Franz Roubaud’s panorama of Borodino, 1912"
+    credit: "Wikimedia Commons, Franz Roubaud, Public domain (Roubaud fleshes.jpg)"
+  borodino-bagration:
+    file: borodino-bagration.jpg
+    caption: "Bagration leading an attack at Borodino, by Nikolai Samokish"
+    credit: "Wikimedia Commons, Nikolai Samokish, Public domain (General Pyotr Bagration advances at Borodino.jpg)"

@@ -1,0 +1,45 @@
+date: "1 August 1798, 19:30 to 22:00"
+when: {from: '1798-08-01'}
+title: "The loss of L’Orient"
+bbox: [30.08683, 31.30593, 30.15972, 31.36862]
+zones: []
+routes: []
+markers: [nile-orient-orient, nile-orient-brueys, nile-orient-nelson, nile-orient-van, nile-orient-bellerophon]
+sources: ['Oliver Warner, The Battle of the Nile (1960).', 'William James, The Naval History of Great Britain, volume 2 (1827).', 'Roy and Lesley Adkins, The War for All the Oceans (2006).']
+emblem:
+  kind: battle-plan
+  works:
+    - {side: '#c9b88a', path: [[30.09687, 31.35295], [30.1032, 31.35071], [30.11011, 31.34899]], width: 480, id: shoals, name: Shoals of Aboukir Bay}
+    - {side: '#c9b88a', path: [[30.10282, 31.34655], [30.10766, 31.33792], [30.11435, 31.33088], [30.12313, 31.32308], [30.13205, 31.3154], [30.13904, 31.3099]], width: 300, id: shoals, name: Shoals of Aboukir Bay}
+  units:
+    - {side: france, type: camp, at: [30.10401, 31.35001], width: 140, depth: 140, facing: 315, id: island-fort, name: 'Fort on Aboukir Island, with French guns and mortars'}
+    - {side: france, type: ships, at: [30.1227, 31.33394], width: 94, depth: 795, count: 4, rows: 4, facing: 315, id: van, name: 'Guerrier, Conquérant, Spartiate and Aquilon, taken by 21:25'}
+    - {side: france, type: ships, at: [30.12999, 31.3292], width: 94, depth: 365, count: 2, rows: 2, facing: 315, id: centre, name: 'Franklin and Orient, Orient on fire from 21:00'}
+    - {side: france, type: ships, at: [30.13212, 31.3225], width: 94, depth: 550, count: 3, rows: 3, facing: 315, id: drifting, name: 'Tonnant, Heureux and Mercure, cables cut, drifting south'}
+    - {side: france, type: ships, at: [30.13789, 31.32087], width: 94, depth: 580, count: 3, rows: 3, facing: 315, id: rear, name: 'Villeneuve’s ships: Guillaume Tell, Généreux and Timoléon'}
+    - {side: france, type: ships, at: [30.13049, 31.32301], width: 70, depth: 1350, count: 3, rows: 3, facing: 315, id: frigates, name: 'French frigates: Artémise, Diane and Justice'}
+    - {side: britain, type: ships, at: [30.12223, 31.33229], width: 94, depth: 1110, count: 5, rows: 5, facing: 315, id: inshore, name: 'Zealous, Goliath, Audacious, Theseus and Orion'}
+    - {side: britain, type: ships, at: [30.1271, 31.33271], width: 94, depth: 720, count: 3, rows: 3, facing: 315, id: nelson, name: 'Vanguard, Minotaur and Defence'}
+    - {side: britain, type: ships, at: [30.13235, 31.32986], width: 94, depth: 370, count: 2, rows: 2, facing: 315, id: swiftsure, name: 'Swiftsure and Alexander, arrived in the dark, engage Orient'}
+    - {side: britain, type: ships, at: [30.12684, 31.33037], width: 94, depth: 150, count: 1, rows: 1, facing: 225, id: leander, name: 'Leander in the gap, raking Franklin and Orient'}
+    - {side: britain, type: ships, at: [30.1345, 31.32711], width: 94, depth: 150, count: 1, rows: 1, facing: 315, id: majestic, name: 'Majestic, her captain killed, against Tonnant and Heureux'}
+    - {side: britain, type: ships, at: [30.14655, 31.32468], width: 94, depth: 150, count: 1, rows: 1, facing: 315, id: bellerophon, name: 'Bellerophon, dismasted, out of the battle'}
+    - {side: britain, type: ships, at: [30.1139, 31.34943], width: 94, depth: 150, count: 1, rows: 1, facing: 315, id: culloden, name: 'Culloden, still aground'}
+  arrows:
+    - {side: britain, path: [[30.13257, 31.33005], [30.13941, 31.32749], [30.14566, 31.32506]], width: 100, id: bellerophon-drift, name: 'Bellerophon cuts her cables and drifts away, 20:20', style: dashed}
+    - {side: britain, path: [[30.11881, 31.35647], [30.12811, 31.34144], [30.13235, 31.33165]], width: 110, id: swiftsure-track, name: Swiftsure and Alexander come up in the dark}
+    - {side: france, path: [[30.13205, 31.32666], [30.13131, 31.325], [30.13116, 31.32385]], width: 90, id: drift, name: 'Tonnant, Heureux and Mercure cut their cables to escape the burning Orient', style: dashed}
+  clashes:
+    - {at: [30.13079, 31.32992], size: 110}
+    - {at: [30.13361, 31.32647], size: 110}
+    - {at: [30.12803, 31.33011], size: 110}
+    - {at: [30.13079, 31.32852], size: 260}
+images:
+  nile-arnald:
+    file: nile-arnald.jpg
+    caption: "The destruction of L’Orient at the Battle of the Nile, painting by George Arnald, 1825 to 1827"
+    credit: "Wikimedia Commons, George Arnald, Public domain (The Battle of the Nile.jpg)"
+  nile-luny:
+    file: nile-luny.jpg
+    caption: "The Battle of the Nile at 10 pm on 1 August 1798, painting by Thomas Luny, 1834"
+    credit: "Wikimedia Commons, Thomas Luny, Public domain (Luny Thomas Battle Of The Nile August 1st 1798 At 10pm.jpg)"

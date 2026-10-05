@@ -1,0 +1,5 @@
+19 Temmuz şafağında Dupont’un General Théodore Chabert komutasındaki öncüsü, Bailén’e birkaç kilometre kala Reding’in önde giden birliklerine çarpar. Reding iki tümenini derin yarlarla bölünmüş zeytinliklerin arasında 20 topla bir hat halinde dizer. Chabert 3.000 askeriyle saldırır ve ağır kayıplarla geri püskürtülür. Dupont, Castaños’u durdurmak için General Barbou’nun tümenini Rumblar Çayı kıyısına yerleştirir ve geri kalan bütün birliklerini ileri sürer.
+
+@image bailen-reding
+
+Castaños’un her an arkasından yetişmesini bekleyen Dupont birliklerini geldikleri sırayla savaşa sokar ve yedek ayırmaz. Chabert ve General Duprès bir piyade tugayı ve atlı avcılarla Valon Muhafızlarının tuttuğu İspanyol sol kanadına saldırır, ama hiç ilerleyemez. Duprès ölümcül yara alır, Fransız topları da daha ağır İspanyol topçusu tarafından susturulur. Öbür kanatta zırhlı süvari bir İspanyol piyade alayını çiğner ve topçuları kılıçtan geçirir. Ama İspanyol hattı uzar, ateşini sürdürür ve onları topları bırakmaya zorlar.

@@ -1,0 +1,38 @@
+date: "17 November 1796"
+when: '1796-11-17'
+title: "Arcole falls"
+bbox: [11.19313, 45.30905, 11.30562, 45.39228]
+zones: []
+routes: []
+markers: [arcole-alp-guides, arcole-alp-robert, arcole-alp-pontoons, arcole-alp-arcole, arcole-alp-schubirz]
+sources: ['David G. Chandler, The Campaigns of Napoleon (1966).', 'Martin Boycott-Brown, The Road to Rivoli: Napoleon’s First Campaign (2001).', 'Digby Smith, The Napoleonic Wars Data Book (1998).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[11.17, 45.366], [11.2, 45.359], [11.225, 45.35], [11.243, 45.342], [11.256, 45.335], [11.264, 45.327], [11.27, 45.318], [11.276, 45.31], [11.287, 45.302], [11.305, 45.297]], width: 130, id: adige, name: The river Adige}
+    - {path: [[11.271, 45.4], [11.273, 45.385], [11.275, 45.37], [11.2745, 45.357], [11.272, 45.347], [11.269, 45.337], [11.2655, 45.3265]], width: 35, id: alpone, name: 'The Alpone, about 20 yards wide'}
+  works:
+    - {side: neutral, path: [[11.2495, 45.3405], [11.258, 45.3462], [11.266, 45.3512], [11.2728, 45.3562]], width: 30, id: dike-arcole, name: The dike road from Ronco to the bridge of Arcole}
+    - {side: neutral, path: [[11.2478, 45.3412], [11.236, 45.352], [11.226, 45.364], [11.214, 45.378]], width: 30, id: dike-belfiore, name: The dike road to Belfiore}
+    - {side: neutral, path: [[11.2685, 45.3275], [11.2715, 45.337], [11.2745, 45.347], [11.2765, 45.355]], width: 30, id: dike-east, name: The dike on the east bank of the Alpone}
+    - {side: france, path: [[11.2477, 45.3383], [11.2493, 45.3397]], width: 40, id: pontoons, name: Andréossy’s pontoon bridge at Ronco}
+    - {side: france, path: [[11.2652, 45.3296], [11.2687, 45.3288]], width: 35, id: alpone-bridge, name: Pontoon bridge over the Alpone near its mouth}
+  units:
+    - {side: france, type: infantry, at: [11.2782, 45.3555], width: 300, depth: 200, facing: 20, id: augereau, name: 'Augereau’s division, entering Arcole from the south'}
+    - {side: france, type: infantry, at: [11.2712, 45.3545], width: 140, depth: 500, facing: 40, id: massena, name: Masséna’s reinforcements and Robert’s demi-brigades on the western dike}
+    - {side: france, type: infantry, at: [11.2185, 45.3745], width: 160, depth: 600, facing: 320, id: massena-belfiore, name: 'Masséna’s troops at Belfiore, beating Provera again'}
+    - {side: austria, type: infantry, at: [11.2795, 45.3655], width: 400, depth: 220, facing: 190, id: mittrowsky, name: 'Mittrowsky’s troops, driven out of Arcole'}
+    - {side: austria, type: infantry, at: [11.2775, 45.3795], width: 600, depth: 220, facing: 190, id: schubirz, name: 'Schübirz’s brigade, covering the retreat'}
+  arrows:
+    - {side: france, path: [[11.2695, 45.331], [11.2735, 45.342], [11.2768, 45.352]], width: 130, id: augereau-advance, name: Augereau crosses the Alpone and fights north along the eastern dike}
+    - {side: france, path: [[11.229, 45.3605], [11.236, 45.352], [11.2465, 45.3435], [11.258, 45.3462], [11.2665, 45.3515]], width: 120, id: massena-ambush, name: Masséna comes back from the west and ambushes the Austrians on the dike}
+    - {side: france, path: [[11.296, 45.3155], [11.2885, 45.325], [11.2795, 45.334]], width: 90, id: legnago, name: A battalion and cavalry from Legnago join Augereau}
+    - {side: austria, path: [[11.2135, 45.385], [11.235, 45.39], [11.262, 45.394], [11.29, 45.395]], width: 110, id: provera-escape, name: Provera’s division escapes east, style: dashed}
+  clashes:
+    - {at: [11.2785, 45.3605], size: 160}
+    - {at: [11.2165, 45.379], size: 140}
+images:
+  arcole-thevenin:
+    file: arcole-thevenin.jpg
+    caption: "Augereau at the bridge of Arcole on 15 November 1796, painting by Charles Thévenin, 1798"
+    credit: "Wikimedia Commons, Charles Thévenin, Public domain (Charles Thévenin - Augereau au pont d'Arcole.jpg)"

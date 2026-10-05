@@ -1,0 +1,37 @@
+date: "October to 30 November 1793"
+when: {from: '1793-10-01', to: '1793-11-30'}
+title: "Bonaparte's batteries"
+bbox: [5.85609, 43.07591, 5.99387, 43.15642]
+zones: []
+routes: []
+markers: [toulon-bat-bonaparte, toulon-bat-ohara, toulon-bat-mulgrave, toulon-bat-dugommier, toulon-bat-hood, toulon-bat-faron]
+sources: ['Robert Forczyk, Toulon 1793: Napoleon’s First Great Victory (2005).', 'Bernard Ireland, The Fall of Toulon (2005).']
+emblem:
+  kind: battle-plan
+  works:
+    - {side: britain, path: [[5.8910313991830305, 43.09255256015922], [5.894968600816969, 43.09255256015922], [5.894968600816969, 43.09544743984078], [5.8910313991830305, 43.09544743984078], [5.8910313991830305, 43.09255256015922]], width: 45, id: fort-mulgrave, name: 'Fort Mulgrave, “Little Gibraltar”'}
+    - {side: britain, path: [[5.9010156995915155, 43.100276280079605], [5.902984300408485, 43.100276280079605], [5.902984300408485, 43.10172371992039], [5.9010156995915155, 43.10172371992039], [5.9010156995915155, 43.100276280079605]], width: 45, id: eguillette, name: Fort de l’Éguillette}
+    - {side: britain, path: [[5.905015699591515, 43.094276280079605], [5.906984300408484, 43.094276280079605], [5.906984300408484, 43.09572371992039], [5.905015699591515, 43.09572371992039], [5.905015699591515, 43.094276280079605]], width: 45, id: balaguier, name: Fort de Balaguier}
+    - {side: britain, path: [[5.903646586938334, 43.136004885109465], [5.906353413061667, 43.136004885109465], [5.906353413061667, 43.137995114890536], [5.903646586938334, 43.137995114890536], [5.903646586938334, 43.136004885109465]], width: 45, id: malbousquet, name: Fort Malbousquet}
+    - {side: britain, path: [[5.938400511836213, 43.148823955129366], [5.941599488163788, 43.148823955129366], [5.941599488163788, 43.15117604487063], [5.938400511836213, 43.15117604487063], [5.938400511836213, 43.148823955129366]], width: 45, id: faron, name: Allied forts on Mont Faron}
+  units:
+    - {side: france, type: artillery, at: [5.895, 43.143], width: 220, depth: 60, facing: 115, id: convention-battery, name: The Convention battery on the heights of Arènes, count: 6}
+    - {side: france, type: artillery, at: [5.8845, 43.0985], width: 170, depth: 50, facing: 125, id: jacobin-battery, name: The Jacobin battery on the ridge of l’Evescat, count: 4}
+    - {side: france, type: artillery, at: [5.8855, 43.0895], width: 170, depth: 50, facing: 55, id: men-without-fear, name: The battery of the Men Without Fear, count: 4}
+    - {side: france, type: infantry, at: [5.869, 43.106], width: 1300, depth: 260, facing: 110, id: french-west, name: 'Republican western division, 17,000 by the end of September'}
+    - {side: france, type: infantry, at: [5.982, 43.143], width: 1100, depth: 260, facing: 270, id: lapoype, name: 'La Poype’s eastern division, detached from the Army of Italy'}
+    - {side: britain, type: infantry, at: [5.8935, 43.0943], width: 160, depth: 110, facing: 260, id: mulgrave-garrison, name: 'British, Spanish and Neapolitan garrison of Fort Mulgrave'}
+    - {side: britain, type: infantry, at: [5.9015, 43.1408], width: 380, depth: 140, facing: 300, id: ohara, name: 'Allied sortie under O’Hara, driven back'}
+    - {side: britain, type: ships, at: [5.921, 43.121], width: 1300, depth: 500, facing: 0, id: hood-fleet, name: British ships under Hood in the inner roadstead, count: 8, rows: 2}
+    - {side: spain, type: ships, at: [5.966, 43.092], width: 1300, depth: 450, facing: 0, id: langara-fleet, name: Spanish ships under Lángara in the outer roadstead, count: 7, rows: 2}
+  arrows:
+    - {side: britain, path: [[5.9035, 43.1418], [5.8995, 43.1432], [5.8965, 43.1438]], width: 110, id: sortie, name: O’Hara’s sortie overruns the Convention battery}
+    - {side: britain, path: [[5.896, 43.142], [5.8985, 43.1405], [5.9005, 43.14]], width: 100, id: sortie-back, name: The Allies are driven back, style: dashed}
+    - {side: france, path: [[5.876, 43.15], [5.886, 43.147], [5.8935, 43.1445]], width: 110, id: counterattack, name: Counterattack led by Dugommier and Bonaparte}
+  clashes:
+    - {at: [5.896, 43.1435], size: 170}
+images:
+  toulon-himely:
+    file: toulon-himely.jpg
+    caption: "The siege of Toulon on the morning of 30 November 1793, watercolour by Sigismond Himely, 1839"
+    credit: "Wikimedia Commons, Sigismond Himely, Public domain (Vue générale du siège de Toulon le 30 novembre 1793.jpg)"

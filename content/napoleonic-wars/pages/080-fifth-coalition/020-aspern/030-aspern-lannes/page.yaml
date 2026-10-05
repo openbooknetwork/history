@@ -1,0 +1,39 @@
+date: "22 May 1809, morning"
+title: "Lannes attacks the centre"
+bbox: [16.44125, 48.19044, 16.56388, 48.25027]
+zones: []
+routes: []
+markers: [aspern-day2-lannes, aspern-day2-charles, aspern-day2-massena, aspern-day2-bridge]
+sources: ['John H. Gill, 1809: Thunder on the Danube, volume II: The Fall of Vienna and the Battle of Aspern (2009).', 'Gunther E. Rothenberg, Napoleon’s Great Adversary: Archduke Charles and the Austrian Army, 1792–1814 (1995).', 'Ian Castle, Aspern and Wagram 1809 (1990).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[16.43, 48.226], [16.452, 48.219], [16.468, 48.215], [16.481, 48.211], [16.493, 48.205], [16.507, 48.199], [16.526, 48.1955], [16.548, 48.1915], [16.57, 48.184], [16.59, 48.172]], width: 110, id: danube-arm, name: An arm of the Danube between the Lobau and the left bank}
+  works:
+    - {side: france, path: [[16.49979, 48.19732], [16.50064, 48.20053]], width: 45, id: bridge, name: The French bridge from the Lobau to the left bank}
+  units:
+    - {side: france, type: infantry, at: [16.47971, 48.2196], width: 800, depth: 400, facing: 10, id: massena, name: Masséna’s divisions of Legrand and Carra Saint-Cyr in Aspern}
+    - {side: france, type: infantry, at: [16.51187, 48.2227], width: 1100, depth: 260, facing: 10, id: saint-hilaire, name: 'Saint-Hilaire’s division, leading on the right'}
+    - {side: france, type: infantry, at: [16.49329, 48.22233], width: 1500, depth: 280, facing: 10, id: oudinot, name: 'Oudinot’s grenadiers, the divisions of Tharreau and Claparède'}
+    - {side: france, type: cavalry, at: [16.49778, 48.21077], width: 1700, depth: 240, facing: 10, id: bessieres, name: 'Bessières’s cavalry, whose charges are driven back'}
+    - {side: france, type: infantry, at: [16.52201, 48.2133], width: 800, depth: 380, facing: 10, id: boudet, name: Boudet’s division in Essling}
+    - {side: france, type: infantry, at: [16.50143, 48.20356], width: 900, depth: 260, facing: 10, id: guard, name: 'Two divisions of the Imperial Guard, guarding the bridgehead'}
+    - {side: austria, type: infantry, at: [16.46998, 48.22948], width: 1400, depth: 300, facing: 150, id: hiller, name: 'Hiller’s and Bellegarde’s columns, driven out of Aspern'}
+    - {side: austria, type: infantry, at: [16.49601, 48.23266], width: 1500, depth: 300, facing: 190, id: hohenzollern, name: 'II Corps under Hohenzollern, with the Zach regiment'}
+    - {side: austria, type: infantry, at: [16.51448, 48.23002], width: 1300, depth: 300, facing: 190, id: grenadiers, name: 'The reserve grenadiers, brought forward by Charles'}
+    - {side: austria, type: cavalry, at: [16.52788, 48.23413], width: 1300, depth: 260, facing: 190, id: liechtenstein, name: Reserve cavalry under Liechtenstein}
+    - {side: austria, type: infantry, at: [16.53649, 48.21893], width: 1300, depth: 300, facing: 220, id: rosenberg, name: IV Corps under Rosenberg}
+  arrows:
+    - {side: france, path: [[16.51222, 48.22404], [16.51367, 48.228]], width: 150, id: lannes-attack, name: 'Lannes attacks the centre in echelon, shortly after 7 am'}
+    - {side: france, path: [[16.49366, 48.22375], [16.49547, 48.23061]], width: 150, id: lannes-attack, name: 'Lannes attacks the centre in echelon, shortly after 7 am'}
+    - {side: austria, path: [[16.4715, 48.22746], [16.47543, 48.22314]], width: 120, id: aspern-attack, name: The Austrians attack Aspern again}
+  clashes:
+    - [16.51374, 48.22827]
+    - [16.49556, 48.23097]
+    - [16.47603, 48.22279]
+    - [16.52809, 48.21561]
+images:
+  aspern-krafft-flag:
+    file: aspern-krafft-flag.jpg
+    caption: "Archduke Charles with the colour of the Zach regiment at Aspern, painting by Johann Peter Krafft"
+    credit: "Wikimedia Commons, Johann Peter Krafft, Public domain (Johann Peter Krafft 003.jpg)"

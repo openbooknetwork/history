@@ -1,0 +1,40 @@
+date: "15 November 1796"
+when: '1796-11-15'
+title: "The first day at the bridge"
+bbox: [11.19313, 45.30905, 11.30562, 45.39228]
+zones: []
+routes: []
+markers: [arcole-bridge-bonaparte, arcole-bridge-ronco, arcole-bridge-arcole, arcole-bridge-albaredo, arcole-bridge-belfiore]
+sources: ['David G. Chandler, The Campaigns of Napoleon (1966).', 'Martin Boycott-Brown, The Road to Rivoli: Napoleon’s First Campaign (2001).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[11.17, 45.366], [11.2, 45.359], [11.225, 45.35], [11.243, 45.342], [11.256, 45.335], [11.264, 45.327], [11.27, 45.318], [11.276, 45.31], [11.287, 45.302], [11.305, 45.297]], width: 130, id: adige, name: The river Adige}
+    - {path: [[11.271, 45.4], [11.273, 45.385], [11.275, 45.37], [11.2745, 45.357], [11.272, 45.347], [11.269, 45.337], [11.2655, 45.3265]], width: 35, id: alpone, name: 'The Alpone, about 20 yards wide'}
+  works:
+    - {side: neutral, path: [[11.2495, 45.3405], [11.258, 45.3462], [11.266, 45.3512], [11.2728, 45.3562]], width: 30, id: dike-arcole, name: The dike road from Ronco to the bridge of Arcole}
+    - {side: neutral, path: [[11.2478, 45.3412], [11.236, 45.352], [11.226, 45.364], [11.214, 45.378]], width: 30, id: dike-belfiore, name: The dike road to Belfiore}
+    - {side: neutral, path: [[11.2685, 45.3275], [11.2715, 45.337], [11.2745, 45.347], [11.2765, 45.355]], width: 30, id: dike-east, name: The dike on the east bank of the Alpone}
+    - {side: france, path: [[11.2477, 45.3383], [11.2493, 45.3397]], width: 40, id: pontoons, name: Andréossy’s pontoon bridge at Ronco}
+  units:
+    - {side: france, type: infantry, at: [11.2665, 45.3512], width: 150, depth: 650, facing: 45, id: augereau, name: 'Augereau’s division on the dike before the bridge, about 6,000'}
+    - {side: france, type: infantry, at: [11.231, 45.358], width: 180, depth: 750, facing: 330, id: massena, name: 'Masséna’s division on the dike to Belfiore, about 7,900'}
+    - {side: france, type: infantry, at: [11.2415, 45.3315], width: 450, depth: 180, facing: 30, id: reserve, name: 'French reserve at Ronco, 2,600 infantry with cavalry'}
+    - {side: austria, type: infantry, at: [11.2795, 45.3575], width: 320, depth: 200, facing: 225, id: brigido, name: Brigido’s two battalions in Arcole}
+    - {side: austria, type: artillery, at: [11.2762, 45.3555], width: 90, depth: 45, facing: 225, id: arcole-guns, name: Two Austrian guns at the bridge, count: 2}
+    - {side: austria, type: infantry, at: [11.2795, 45.3655], width: 500, depth: 220, facing: 195, id: mittrowsky, name: 'Mittrowsky’s reinforcements, arriving at midday'}
+    - {side: austria, type: infantry, at: [11.2085, 45.3845], width: 600, depth: 220, facing: 140, id: brabeck, name: 'Brabeck’s and Gavasini’s brigades, driven back beyond Belfiore'}
+  arrows:
+    - {side: france, path: [[11.268, 45.3528], [11.2712, 45.3549]], width: 130, id: bridge-attack, name: Augereau’s attacks on the bridge stall}
+    - {side: austria, path: [[11.212, 45.3805], [11.2195, 45.3725], [11.2255, 45.3655]], width: 120, id: brabeck-attack, name: Brabeck and Gavasini advance against the pontoon bridge}
+    - {side: austria, path: [[11.2235, 45.3685], [11.217, 45.3765], [11.2105, 45.3825]], width: 110, id: brabeck-flight, name: The Austrians fire on each other and fall back, style: dashed}
+    - {side: france, path: [[11.2665, 45.3105], [11.2765, 45.3185], [11.2805, 45.333], [11.2805, 45.354]], width: 110, id: guieu, name: Guieu crosses at Albaredo in the evening and takes Arcole}
+    - {side: austria, path: [[11.2805, 45.385], [11.2805, 45.3705]], width: 110, id: mittrowsky-arrives, name: Mittrowsky marches down to Arcole}
+  clashes:
+    - {at: [11.2732, 45.3556], size: 140}
+    - {at: [11.2272, 45.3635], size: 150}
+images:
+  arcole-gros:
+    file: arcole-gros.jpg
+    caption: "Bonaparte at the bridge of Arcole, painting by Antoine-Jean Gros, about 1801"
+    credit: "Wikimedia Commons, Antoine-Jean Gros, Public domain (1801 Antoine-Jean Gros - Bonaparte on the Bridge at Arcole.jpg)"

@@ -1,0 +1,34 @@
+date: "26 – 27 November 1812"
+title: "The bridges at Studienka"
+bbox: [28.27, 54.272, 28.455, 54.358]
+zones: []
+routes: []
+markers: [berezina-bridges-eble, berezina-bridges-oudinot, berezina-bridges-partouneaux]
+sources: ['David G. Chandler, The Campaigns of Napoleon (1966).', 'Adam Zamoyski, Moscow 1812: Napoleon’s Fatal March (2004).', 'Paul Britten Austin, 1812: The Great Retreat (1996).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[28.335, 54.4], [28.345, 54.37], [28.352, 54.345], [28.355, 54.326], [28.36, 54.305], [28.375, 54.285], [28.4, 54.265], [28.44, 54.248], [28.48, 54.235], [28.505, 54.225]], width: 70, id: berezina, name: 'The Berezina, 20 to 30 metres wide and full of drifting ice'}
+  works:
+    - {side: france, path: [[28.35284, 54.32727], [28.35716, 54.32736]], width: 50, id: bridges, name: 'Eblé’s two bridges at Studienka, for infantry and for guns'}
+    - {side: france, path: [[28.35284, 54.32473], [28.35716, 54.32482]], width: 50, id: bridges, name: 'Eblé’s two bridges at Studienka, for infantry and for guns'}
+  units:
+    - {side: france, type: infantry, at: [28.33646, 54.30986], width: 1500, depth: 400, facing: 190, id: oudinot, name: 'II Corps under Oudinot, about 7,000, facing south'}
+    - {side: france, type: infantry, at: [28.32722, 54.32343], width: 1000, depth: 350, facing: 250, id: guard, name: 'Napoleon and the Imperial Guard, across by midday on 27 November'}
+    - {side: france, type: infantry, at: [28.39118, 54.32971], width: 1400, depth: 400, facing: 270, id: davout, name: 'The corps of Davout and Eugène, waiting to cross'}
+    - {side: france, type: infantry, at: [28.39272, 54.31433], width: 1600, depth: 400, facing: 140, id: victor, name: 'IX Corps under Victor, covering the crossing'}
+    - {side: france, type: square, at: [28.41338, 54.28474], width: 450, depth: 350, facing: 30, id: partouneaux, name: 'Partouneaux’s division, cut off at Staroi-Borisov'}
+    - {side: other, type: light, at: [28.36962, 54.32383], width: 1400, depth: 400, facing: 270, id: stragglers, name: 'Stragglers and civilians, some 40,000', count: 7}
+    - {side: russia, type: infantry, at: [28.43186, 54.29424], width: 1800, depth: 500, facing: 220, id: wittgenstein, name: 'Wittgenstein’s army, about 30,000'}
+    - {side: russia, type: infantry, at: [28.332, 54.28124], width: 1300, depth: 350, facing: 10, id: chaplits, name: 'Chaplits’s division of Chichagov’s army, returning north'}
+  arrows:
+    - {side: france, path: [[28.36654, 54.32836], [28.3473, 54.3269], [28.33646, 54.31212]], width: 150, id: oudinot-crossing, name: Oudinot crosses at 1 pm on 26 November}
+    - {side: russia, path: [[28.45342, 54.3069], [28.44033, 54.29921]], width: 170, id: wittgenstein-advance, name: Wittgenstein closes in from the north-east}
+    - {side: russia, path: [[28.332, 54.27581], [28.332, 54.27943]], width: 140, id: chaplits-return, name: Chaplits marches back towards Brili}
+  clashes:
+    - {at: [28.41877, 54.28745], size: 200}
+images:
+  berezina-studienka:
+    file: berezina-studienka.jpg
+    caption: "Studienka, the place of the crossing, lithograph after Barthélemy Lauvergne, 1840"
+    credit: "Wikimedia Commons, Léon Sabatier / Barthélemy Lauvergne, Public domain (Studzionka, Biarezina. Студзёнка, Бярэзіна (Lauvergne, 1840).jpg)"

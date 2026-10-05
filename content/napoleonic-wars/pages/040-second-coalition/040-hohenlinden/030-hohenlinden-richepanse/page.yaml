@@ -1,0 +1,38 @@
+date: "3 December 1800, midday and afternoon"
+when: {from: '1800-12-03'}
+title: "Richepanse in the Austrian rear"
+bbox: [11.96433, 48.07496, 12.13536, 48.2188]
+zones: []
+routes: []
+markers: [hohenlinden-richepanse-richepanse, hohenlinden-richepanse-john, hohenlinden-richepanse-ney, hohenlinden-richepanse-decaen, hohenlinden-richepanse-kollowrat]
+sources: ['James R. Arnold, Marengo & Hohenlinden: Napoleon’s Rise to Power (2005).', 'Gaston Bodart, Militär-historisches Kriegs-Lexikon (1908).', 'Digby Smith, The Napoleonic Wars Data Book (1998).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: france, type: infantry, at: [12.09361, 48.15186], width: 500, depth: 120, facing: 270, id: richepanse, name: 'Richepanse’s 48th Line, attacking west along the road'}
+    - {side: france, type: infantry, at: [12.10978, 48.14824], width: 450, depth: 150, facing: 90, id: eighth-line, name: 'The 8th Line and 1st Chasseurs, holding off Liechtenstein’s cavalry'}
+    - {side: france, type: infantry, at: [12.09227, 48.13648], width: 400, depth: 150, facing: 0, id: drouet, name: 'Drouet’s brigade, coming north to the road'}
+    - {side: france, type: infantry, at: [12.09765, 48.10663], width: 1200, depth: 250, facing: 90, id: decaen, name: 'Decaen’s division, attacking Riesch'}
+    - {side: france, type: infantry, at: [12.03301, 48.16633], width: 1300, depth: 250, facing: 150, id: ney, name: 'Ney’s division, swinging south against Kollowrat'}
+    - {side: france, type: infantry, at: [12.02493, 48.15548], width: 1300, depth: 250, facing: 90, id: grouchy, name: 'Grouchy’s division, attacking from the front'}
+    - {side: austria, type: infantry, at: [12.05725, 48.15683], width: 400, depth: 3000, facing: 270, id: kollowrat, name: 'Kollowrat’s column, hemmed in on three sides'}
+    - {side: austria, type: infantry, at: [12.08419, 48.15186], width: 250, depth: 120, facing: 270, id: wrede, name: 'Wrede’s two Bavarian battalions, overrun'}
+    - {side: austria, type: cavalry, at: [12.12055, 48.15276], width: 450, depth: 150, facing: 270, id: liechtenstein, name: Liechtenstein’s cavalry division}
+    - {side: austria, type: infantry, at: [12.12324, 48.09848], width: 1200, depth: 300, facing: 270, id: riesch, name: 'Riesch’s column, driven back to the heights of Albaching'}
+    - {side: austria, type: infantry, at: [12.07341, 48.18352], width: 900, depth: 300, facing: 270, id: latour, name: 'Latour’s column, falling back to Isen'}
+  arrows:
+    - {side: france, path: [[12.09159, 48.15186], [12.0889, 48.15186], [12.08621, 48.15186]], width: 140, id: richepanse-attack, name: Richepanse turns west into the Austrian rear}
+    - {side: france, path: [[12.02089, 48.17357], [12.03032, 48.16814], [12.04244, 48.16226]], width: 150, id: ney-attack, name: Ney attacks Kollowrat from the north}
+    - {side: france, path: [[12.08688, 48.10934], [12.099, 48.10572], [12.11247, 48.10301]], width: 140, id: decaen-attack, name: Decaen drives Riesch back}
+    - {side: austria, path: [[12.06803, 48.1609], [12.07341, 48.17357], [12.07745, 48.18714]], width: 140, id: kollowrat-flight, name: Kollowrat’s column breaks up in flight, style: dashed}
+    - {side: austria, path: [[12.07072, 48.18714], [12.06533, 48.1989], [12.0586, 48.21157]], width: 120, id: latour-retreat, name: Latour retreats to Isen, style: dashed}
+  clashes:
+    - [12.08621, 48.15186]
+    - [12.04379, 48.16]
+    - {at: [12.11516, 48.10165], size: 160}
+    - [12.11584, 48.15005]
+images:
+  hohenlinden-schopin:
+    file: hohenlinden-schopin.jpg
+    caption: "Moreau, with Grouchy and Ney, meets Richepanse at the end of the battle, painting by Henri Frédéric Schopin, 1836"
+    credit: "Wikimedia Commons, Henri Frédéric Schopin, Public domain (Bataille de Hohenlinden.jpg)"

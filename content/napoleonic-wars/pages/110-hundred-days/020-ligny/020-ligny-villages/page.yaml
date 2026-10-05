@@ -1,0 +1,42 @@
+date: "16 June 1815, 14:30 to 19:00"
+when: {from: '1815-06-16'}
+title: "Ligny: the fight for the villages"
+bbox: [4.51782, 50.4805, 4.63085, 50.54744]
+zones: []
+routes: []
+markers: [ligny-16-napoleon, ligny-16-blucher, ligny-16-girard]
+sources: ['William Siborne, The Waterloo Campaign, 1815 (1848).', 'Peter Hofschröer, 1815: The Waterloo Campaign. The German Victory (1999).', 'John Hussey, Waterloo: The Campaign of 1815, Volume 1 (2017).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[4.515, 50.502], [4.53, 50.51], [4.545, 50.517], [4.556, 50.5215], [4.568, 50.521], [4.5814, 50.5195], [4.593, 50.522], [4.603, 50.527], [4.612, 50.533]], width: 25, id: ligny-stream, name: The Ligny stream}
+  units:
+    - {side: france, type: infantry, at: [4.54961, 50.51713], width: 1500, depth: 350, facing: 330, id: vandamme, name: 'Vandamme’s III Corps with Girard’s division, attacking Saint-Amand'}
+    - {side: france, type: infantry, at: [4.57999, 50.51623], width: 1300, depth: 350, facing: 5, id: gerard, name: 'Gérard’s IV Corps, attacking Ligny'}
+    - {side: france, type: infantry, at: [4.53336, 50.50854], width: 900, depth: 300, facing: 340, id: young-guard, name: 'Duhesme’s Young Guard, sent to the left'}
+    - {side: france, type: infantry, at: [4.56868, 50.49768], width: 1200, depth: 400, facing: 15, id: guard, name: The Old Guard and the Guard cavalry in reserve before Fleurus}
+    - {side: france, type: cavalry, at: [4.61813, 50.50492], width: 1600, depth: 350, facing: 59, id: grouchy, name: Grouchy’s cavalry facing Sombreffe and Tongrinne}
+    - {side: france, type: infantry, at: [4.5263, 50.49949], width: 400, depth: 1300, facing: 60, id: derlon, name: 'd’Erlon’s I Corps, seen at 17:00, turns back towards Quatre Bras'}
+    - {side: prussia, type: infantry, at: [4.55526, 50.52482], width: 1300, depth: 300, facing: 150, id: zieten, name: Zieten’s I Corps in Saint-Amand and Ligny}
+    - {side: prussia, type: infantry, at: [4.58281, 50.52437], width: 1100, depth: 300, facing: 185, id: zieten, name: Zieten’s I Corps in Saint-Amand and Ligny}
+    - {side: prussia, type: infantry, at: [4.55456, 50.53885], width: 1600, depth: 400, facing: 172, id: pirch, name: 'Pirch’s II Corps behind the villages, by Brye'}
+    - {side: prussia, type: infantry, at: [4.61248, 50.5203], width: 1800, depth: 400, facing: 239, id: thielmann, name: 'Thielmann’s III Corps, from Sombreffe to Tongrinne'}
+  arrows:
+    - {side: france, path: [[4.54961, 50.51867], [4.55102, 50.52075], [4.55201, 50.52256]], width: 160, id: vandamme-attack, name: Vandamme’s attacks on Saint-Amand}
+    - {side: france, path: [[4.57999, 50.51804], [4.58069, 50.52075], [4.58211, 50.52283]], width: 160, id: gerard-attack, name: Gérard’s attacks on Ligny}
+    - {side: prussia, path: [[4.55032, 50.53658], [4.54325, 50.53297], [4.5376, 50.52844]], width: 160, id: blucher-attack, name: Blücher’s counter-attack on the French left}
+    - {side: france, path: [[4.53478, 50.51035], [4.53619, 50.51668], [4.53689, 50.52573]], width: 150, id: young-guard-attack, name: The Young Guard throws the Prussians back}
+    - {side: france, path: [[4.52489, 50.49361], [4.52065, 50.48773], [4.51782, 50.4823]], width: 150, id: derlon-return, name: d’Erlon’s corps marches back towards Quatre Bras, style: dashed}
+  clashes:
+    - [4.55201, 50.52066]
+    - [4.5814, 50.52057]
+    - [4.53689, 50.52754]
+images:
+  ligny-ferme-en-haut:
+    file: ligny-ferme-en-haut.jpg
+    caption: "Fighting outside the Ferme d’en Haut at Ligny, by Richard Knötel"
+    credit: "Wikimedia Commons, Richard Knötel, Public domain (Fighting outside Ferme d'en-Haut, Ligny by Richard Knötel.jpeg)"
+  ligny-schmeling:
+    file: ligny-schmeling.jpg
+    caption: "Lieutenant von Schmeling at the bridge by the farm of En Bas at Ligny, engraving after Adalbert von Roessler, 1899"
+    credit: "Wikimedia Commons, Adalbert von Roessler, Public domain (Lieutenant von Schmeling at the bridge next to En Bas Farm by Adalbert von Roessler (engraving 1899).jpeg)"

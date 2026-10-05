@@ -1,0 +1,36 @@
+date: "21 October 1805, afternoon"
+when: {from: '1805-10-21', to: '1805-10-21'}
+title: "The mêlée"
+bbox: [-6.26906, 36.20477, -6.14208, 36.29523]
+zones: []
+routes: []
+markers: [trafalgar-melee-nelson, trafalgar-melee-villeneuve, trafalgar-melee-redoutable, trafalgar-melee-achille, trafalgar-melee-dumanoir]
+sources: ['Mark Adkin, The Trafalgar Companion (2005).', 'Tim Clayton and Phil Craig, Trafalgar: The Men, the Battle, the Storm (2004).', 'Roy Adkins, Trafalgar: The Biography of a Battle (2004).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: britain, type: ships, at: [-6.19666, 36.26493], width: 900, depth: 1300, facing: 95, count: 9, rows: 3, id: weather-column, name: 'Victory, Temeraire, Neptune, Conqueror, Leviathan and the rest of Nelson’s column'}
+    - {side: france, type: ships, at: [-6.18608, 36.26583], width: 600, depth: 1100, facing: 0, count: 6, rows: 3, id: allied-centre, name: 'Bucentaure, Redoutable and the Santísima Trinidad, isolated and taken'}
+    - {side: britain, type: ships, at: [-6.19777, 36.24141], width: 1100, depth: 1700, facing: 100, count: 12, rows: 4, id: lee-column, name: Collingwood’s column among the allied rear}
+    - {side: france, type: ships, at: [-6.18608, 36.2405], width: 700, depth: 1600, facing: 10, count: 9, rows: 3, id: allied-rear, name: 'Santa Ana, Fougueux, Algésiras and the rest of the allied rear, overwhelmed'}
+    - {side: france, type: ships, at: [-6.20557, 36.28709], width: 400, depth: 900, facing: 200, count: 4, rows: 2, id: dumanoir, name: 'Dumanoir’s four ships, which sail away to the south-west'}
+    - {side: france, type: ships, at: [-6.17438, 36.28347], width: 400, depth: 900, facing: 20, count: 6, rows: 3, id: allied-van, name: 'The rest of the allied van, making for Cádiz'}
+    - {side: france, type: ships, at: [-6.17104, 36.22377], width: 500, depth: 1100, facing: 30, count: 8, rows: 3, id: gravina, name: Gravina’s ships escaping towards Cádiz}
+  arrows:
+    - {side: france, path: [[-6.21003, 36.28347], [-6.22896, 36.26357], [-6.2401, 36.23643], [-6.24901, 36.2102]], width: 140, id: dumanoir-escape, name: Dumanoir breaks off with four ships, style: dashed}
+    - {side: france, path: [[-6.1677, 36.22919], [-6.15767, 36.25], [-6.1521, 36.27895], [-6.14876, 36.29342]], width: 140, id: gravina-retreat, name: Eleven allied ships get away to Cádiz, style: dashed}
+  clashes:
+    - [-6.19109, 36.26493]
+    - [-6.19165, 36.27035]
+    - [-6.1922, 36.24141]
+    - [-6.19165, 36.24729]
+    - [-6.19109, 36.23462]
+images:
+  trafalgar-melee-dighton:
+    file: trafalgar-melee-dighton.jpg
+    caption: "The fall of Nelson on the deck of HMS Victory, painting by Denis Dighton, about 1825"
+    credit: "Wikimedia Commons, Denis Dighton, Public domain (The Fall of Nelson, Battle of Trafalgar, 21 October 1805.jpg)"
+  trafalgar-melee-devis:
+    file: trafalgar-melee-devis.jpg
+    caption: "The death of Nelson in the cockpit of HMS Victory, painting by Arthur William Devis"
+    credit: "Wikimedia Commons, Arthur William Devis, Public domain (DeathofNelsonDevis.jpg)"

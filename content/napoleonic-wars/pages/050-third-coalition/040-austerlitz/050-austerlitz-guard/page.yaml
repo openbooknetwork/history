@@ -1,0 +1,40 @@
+date: "2 December 1805, late morning"
+when: {from: '1805-12-02', to: '1805-12-02'}
+title: "The Guards and the northern flank"
+bbox: [16.69, 49.084, 16.835, 49.2]
+zones: []
+routes: []
+markers: [austerlitz-guard-constantine, austerlitz-guard-4th-line, austerlitz-guard-kutuzov, austerlitz-guard-murat, austerlitz-guard-lannes]
+sources: ['David G. Chandler, The Campaigns of Napoleon (1966).', 'Ian Castle, Austerlitz 1805: The Fate of Empires (2002).', 'Scott Bowden, Napoleon and Austerlitz (1997).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[16.727, 49.178], [16.727, 49.168], [16.731, 49.16], [16.733, 49.15], [16.729, 49.142], [16.727, 49.132], [16.728, 49.122], [16.724, 49.113], [16.719, 49.105], [16.715, 49.099], [16.709, 49.092], [16.699, 49.085]], width: 40, id: goldbach, name: The Goldbach stream}
+    - {path: [[16.761, 49.2], [16.755, 49.19], [16.755, 49.178], [16.753, 49.166], [16.748, 49.158], [16.741, 49.153], [16.735, 49.149], [16.731, 49.147]], width: 30, id: bosenitz, name: The Bosenitz stream}
+    - {area: [[16.727, 49.0975], [16.74, 49.0995], [16.757, 49.099], [16.772, 49.0965], [16.771, 49.0925], [16.752, 49.0912], [16.735, 49.0922], [16.726, 49.0945]], id: satschan-pond, name: 'The Satschan pond, frozen'}
+  units:
+    - {side: france, type: infantry, at: [16.786, 49.146], width: 1200, depth: 300, facing: 45, id: vandamme, name: 'Vandamme’s division, a battalion of the 4th Line broken'}
+    - {side: russia, type: infantry, at: [16.799, 49.157], width: 1100, depth: 350, facing: 225, id: russian-guard, name: The Russian Imperial Guard under Grand Duke Constantine}
+    - {side: france, type: cavalry, at: [16.768, 49.152], width: 900, depth: 250, facing: 70, id: guard-cavalry, name: The heavy cavalry of the Imperial Guard}
+    - {side: france, type: infantry, at: [16.775, 49.162], width: 1100, depth: 300, facing: 110, id: drouet, name: Drouet’s division of Bernadotte’s corps on the flank}
+    - {side: france, type: infantry, at: [16.76, 49.128], width: 1300, depth: 300, facing: 110, id: saint-hilaire, name: Saint-Hilaire’s division holds the Pratzen}
+    - {side: france, type: infantry, at: [16.777, 49.175], width: 1000, depth: 300, facing: 80, id: caffarelli, name: Caffarelli’s division halts Liechtenstein’s charges}
+    - {side: russia, type: cavalry, at: [16.793, 49.178], width: 1000, depth: 300, facing: 260, id: liechtenstein, name: Liechtenstein’s heavy cavalry}
+    - {side: france, type: cavalry, at: [16.77, 49.168], width: 900, depth: 250, facing: 60, id: cuirassiers, name: The cuirassier divisions of Nansouty and d’Hautpoul}
+    - {side: france, type: infantry, at: [16.785, 49.19], width: 1300, depth: 300, facing: 90, id: suchet, name: Lannes’s V Corps advances along the road to Olmütz}
+    - {side: russia, type: infantry, at: [16.805, 49.188], width: 1300, depth: 350, facing: 275, id: bagration, name: 'Bagration’s advance guard, driven off the field'}
+  arrows:
+    - {side: russia, path: [[16.7965, 49.1545], [16.7935, 49.1522], [16.7905, 49.1502]], width: 170, id: guard-attack, name: Constantine counterattacks Vandamme}
+    - {side: france, path: [[16.7705, 49.1525], [16.781, 49.1565], [16.7935, 49.1585]], width: 160, id: guard-cavalry-charge, name: The Guard cavalry charges the Russian Guard}
+    - {side: france, path: [[16.7725, 49.169], [16.781, 49.1725], [16.789, 49.176]], width: 150, id: cuirassier-charge, name: Murat sends in the cuirassiers}
+    - {side: france, path: [[16.787, 49.19], [16.797, 49.189]], width: 160, id: lannes-advance, name: Lannes drives Bagration back along the road}
+    - {side: russia, path: [[16.807, 49.189], [16.825, 49.193]], width: 140, id: bagration-retreat, name: Bagration withdraws, style: dashed}
+  clashes:
+    - [16.792, 49.151]
+    - [16.787, 49.177]
+    - [16.796, 49.189]
+images:
+  austerlitz-guard-eagle:
+    file: austerlitz-guard-eagle.jpg
+    caption: "The cavalry of the Russian Guard takes the eagle of the French 4th Line, painting by Bogdan Willewalde, 1884"
+    credit: "Wikimedia Commons, Bogdan Willewalde, Public domain (Willewalde - Czar's Guard capture 4th line regiment's standard at Austerlitz.jpg)"

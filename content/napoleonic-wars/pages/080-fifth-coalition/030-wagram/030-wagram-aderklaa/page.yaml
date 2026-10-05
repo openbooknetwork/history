@@ -1,0 +1,38 @@
+date: "6 July 1809, 4 to 10 am"
+title: "Aderklaa"
+bbox: [16.43, 48.18, 16.7, 48.335]
+zones: []
+routes: []
+markers: [wagram-morn-massena, wagram-morn-bernadotte, wagram-morn-klenau, wagram-morn-rosenberg, wagram-morn-lobau]
+sources: ['Gunther E. Rothenberg, The Emperor’s Last Victory: Napoleon and the Battle of Wagram (2004).', 'John H. Gill, 1809: Thunder on the Danube, volume III: Wagram and Znaim (2010).', 'Ian Castle, Aspern and Wagram 1809 (1990).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[16.43, 48.226], [16.452, 48.219], [16.468, 48.215], [16.481, 48.211], [16.493, 48.205], [16.507, 48.199], [16.526, 48.1955], [16.548, 48.1915], [16.57, 48.184], [16.59, 48.172]], width: 110, id: danube-arm, name: An arm of the Danube between the Lobau and the left bank}
+    - {path: [[16.548, 48.33], [16.556, 48.312], [16.567, 48.297], [16.585, 48.288], [16.602, 48.281], [16.62, 48.2745], [16.637, 48.267], [16.647, 48.257], [16.652, 48.245], [16.66, 48.232], [16.672, 48.22]], width: 50, id: russbach, name: 'The Russbach stream, below the Wagram plateau'}
+  units:
+    - {side: austria, type: infantry, at: [16.5, 48.222], width: 2400, depth: 500, facing: 150, id: klenau, name: 'VI Corps under Klenau, about 14,000, in Aspern and Essling'}
+    - {side: austria, type: infantry, at: [16.488, 48.259], width: 2500, depth: 600, facing: 120, id: kollowrat, name: 'III Corps under Kollowrat, between Süssenbrunn and Breitenlee'}
+    - {side: austria, type: cavalry, at: [16.512, 48.287], width: 2400, depth: 600, facing: 150, id: liechtenstein, name: Liechtenstein’s grenadiers and cavalry}
+    - {side: austria, type: infantry, at: [16.547, 48.294], width: 2400, depth: 600, facing: 185, id: bellegarde, name: 'I Corps under Bellegarde, holding Aderklaa'}
+    - {side: austria, type: infantry, at: [16.605, 48.293], width: 2600, depth: 600, facing: 160, id: hohenzollern, name: II Corps under Hohenzollern}
+    - {side: austria, type: infantry, at: [16.645, 48.278], width: 2600, depth: 600, facing: 170, id: rosenberg, name: 'IV Corps under Rosenberg, back on its position'}
+    - {side: france, type: infantry, at: [16.527, 48.273], width: 2300, depth: 600, facing: 15, id: massena, name: 'Masséna’s divisions of Carra Saint-Cyr, Molitor and Legrand'}
+    - {side: france, type: infantry, at: [16.536, 48.206], width: 1200, depth: 350, facing: 330, id: boudet, name: 'Boudet’s division, about 4,600, falling back to the bridges'}
+    - {side: client, type: infantry, at: [16.567, 48.27], width: 2400, depth: 600, facing: 0, id: eugene, name: Army of Italy under Eugène}
+    - {side: france, type: infantry, at: [16.603, 48.266], width: 2400, depth: 600, facing: 0, id: oudinot, name: II Corps under Oudinot}
+    - {side: france, type: infantry, at: [16.632, 48.247], width: 2400, depth: 600, facing: 345, id: davout, name: III Corps under Davout}
+    - {side: france, type: infantry, at: [16.567, 48.236], width: 2400, depth: 700, facing: 330, id: guard, name: Imperial Guard and the cavalry reserve}
+  arrows:
+    - {side: austria, path: [[16.632, 48.254], [16.64, 48.273]], width: 220, id: rosenberg-repulsed, name: Rosenberg’s attack at 5 am is thrown back, style: dashed}
+    - {side: austria, path: [[16.452, 48.262], [16.47, 48.24], [16.485, 48.227]], width: 240, id: klenau-march, name: Klenau takes Aspern and enters Essling at about 10 am}
+    - {side: austria, path: [[16.532, 48.29], [16.531, 48.278]], width: 200, id: aderklaa-counterattack, name: Charles drives the French out of Aderklaa}
+    - {side: rhine, path: [[16.538, 48.268], [16.548, 48.256], [16.556, 48.244]], width: 200, id: saxon-flight, name: The Saxons flee towards Raasdorf, style: dashed}
+  clashes:
+    - {at: [16.531, 48.282], size: 300}
+    - {at: [16.516, 48.216], size: 300}
+images:
+  wagram-aderklaa:
+    file: wagram-aderklaa.png
+    caption: "The French 4th Line storming Aderklaa, drawing by L. Mas"
+    credit: "Wikimedia Commons, L. Mas, Public domain (Battle of Wagram - 4th Line Regiment storms Aderklaa.png)"

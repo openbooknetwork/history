@@ -1,0 +1,7 @@
+Karl saat 10.00 sularında köprünün koptuğunu öğrenince bütün hat boyunca yeni bir saldırı emri verir. Hiller’in ve Bellegarde’ın kolları Aspern’e yeniden saldırır ve saat 13.00’ten kısa bir süre sonra bitkin düşen Fransızlar köyü kesin olarak bırakır. Saat 14.00 sularında Karl Fransız merkezine karşı yaklaşık 150 top yığar, orada bir top güllesi Lannes’ın bacağını parçalar. Lannes dokuz gün sonra bu yaradan ölür.
+
+@image aspern-lannes
+
+Rosenberg’in kolordusu ve Karl’ın bizzat yönettiği grenadiyerler Boudet’yi Essling’den çıkarır, yalnızca Boudet’nin birkaç yüz kişiyle tuttuğu taş ambar ellerinde kalır. Napolyon köyü geri almak için General Georges Mouton’u Genç Muhafız taburlarıyla gönderir, General Jean Rapp da Muhafız’dan iki tabur daha getirir. Rapp’ın önerisiyle yalnızca geri çekilmeyi korumak yerine hücum eder ve Essling’i süngüyle temizlerler, Rosenberg de Gross-Enzersdorf’a doğru çekilir.
+
+Takviyesi ve cephanesi kalmayan Napolyon köprübaşından vazgeçer, ordu da gece boyunca Lobau’ya çekilir. Karl takip etmez ve son Fransız birlikleri 23 Mayıs’a kadar sol kıyıyı terk eder. Fransızlar 20.000 ile 23.000 arası ölü ve yaralı ile 3.000 esir kaybeder, aralarında Lannes ile generaller Saint-Hilaire ve Jean-Louis-Brigitte Espagne de vardır, Avusturyalılar ise yaklaşık 19.000 ölü ve yaralı ile 700 esir kaybeder. Bu, Napolyon’un 1799’dan bu yana kendi komutasındaki büyük bir muharebede uğradığı ilk yenilgidir, bülteni ise yalnızca 4.100 ölü ve yaralıyı kabul eder.

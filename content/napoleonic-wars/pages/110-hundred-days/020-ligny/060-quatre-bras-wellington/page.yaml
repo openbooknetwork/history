@@ -1,0 +1,40 @@
+date: "16 June 1815, 17:00 to 21:00"
+when: {from: '1815-06-16'}
+title: "Quatre Bras: Wellington holds the crossroads"
+bbox: [4.41935, 50.53974, 4.48725, 50.58497]
+zones: []
+routes: []
+markers: [quatre-bras-17-ney, quatre-bras-17-kellermann, quatre-bras-17-69th, quatre-bras-17-wellington]
+sources: ['William Siborne, The Waterloo Campaign, 1815 (1848).', 'Peter Hofschröer, Waterloo 1815: Quatre Bras and Ligny (2005).', 'Bernard Cornwell, Waterloo: The History of Four Days, Three Armies and Three Battles (2015).']
+emblem:
+  kind: battle-plan
+  works:
+    - {side: neutral, path: [[4.44198, 50.53974], [4.44694, 50.5515], [4.45203, 50.56199], [4.4533, 50.5714], [4.45542, 50.58226], [4.45754, 50.59311]], width: 25, id: brussels-road, name: The road from Charleroi to Brussels}
+    - {side: neutral, path: [[4.41935, 50.57954], [4.43633, 50.57502], [4.4533, 50.5714], [4.47027, 50.56914], [4.48725, 50.56733]], width: 25, id: namur-road, name: The road from Nivelles to Namur}
+    - {side: neutral, path: [[4.45139, 50.56158], [4.45266, 50.56158], [4.45266, 50.5624], [4.45139, 50.5624], [4.45139, 50.56158]], width: 20, id: gemioncourt, name: Gemioncourt farm}
+    - {side: neutral, path: [[4.4364, 50.5576], [4.43767, 50.5576], [4.43767, 50.55842], [4.4364, 50.55842], [4.4364, 50.5576]], width: 20, id: pierrepont, name: Pierrepont farm}
+    - {side: neutral, path: [[4.47232, 50.56557], [4.4736, 50.56557], [4.4736, 50.56638], [4.47232, 50.56638], [4.47232, 50.56557]], width: 20, id: piraumont, name: Piraumont}
+  units:
+    - {side: france, type: cavalry, at: [4.44906, 50.55331], width: 500, depth: 250, facing: 10, id: kellermann, name: 'Kellermann’s cuirassiers, driven back from the crossroads'}
+    - {side: france, type: infantry, at: [4.4632, 50.55919], width: 1300, depth: 300, facing: 0, id: reille, name: Foy’s and Bachelu’s divisions}
+    - {side: france, type: infantry, at: [4.4335, 50.55512], width: 900, depth: 300, facing: 20, id: jerome, name: 'Jérôme’s division, driven from the Bossu wood'}
+    - {side: france, type: cavalry, at: [4.41935, 50.55873], width: 500, depth: 250, facing: 60, id: pire, name: Piré’s lancers}
+    - {side: britain, type: infantry, at: [4.43916, 50.56145], width: 900, depth: 250, facing: 190, id: guards, name: Cooke’s Guards Division clears the Bossu wood}
+    - {side: britain, type: infantry, at: [4.44835, 50.56823], width: 700, depth: 200, facing: 190, id: halkett, name: Halkett’s brigade of Alten’s 3rd Division}
+    - {side: britain, type: infantry, at: [4.44057, 50.57683], width: 900, depth: 250, facing: 160, id: alten, name: 'Alten’s 3rd Division, arrived from Nivelles at 17:00'}
+    - {side: britain, type: infantry, at: [4.46674, 50.56642], width: 1300, depth: 250, facing: 180, id: picton, name: Picton’s division}
+    - {side: britain, type: infantry, at: [4.45754, 50.57366], width: 500, depth: 200, facing: 190, id: brunswick, name: Brunswickers at the crossroads}
+    - {side: britain, type: artillery, at: [4.45471, 50.57004], width: 220, depth: 80, facing: 180, id: allied-guns, name: Allied guns at the crossroads, count: 4}
+  arrows:
+    - {side: france, path: [[4.44976, 50.55512], [4.45118, 50.56235], [4.45047, 50.56688]], width: 160, id: kellermann-charge, name: Kellermann’s cuirassiers charge to the crossroads}
+    - {side: france, path: [[4.42148, 50.55919], [4.42784, 50.56009], [4.43279, 50.561]], width: 140, id: pire-charge, name: Piré’s lancers catch the Guards as they leave the wood}
+    - {side: britain, path: [[4.44198, 50.57547], [4.44128, 50.56869], [4.43986, 50.56326]], width: 160, id: guards-advance, name: The Guards advance through the Bossu wood}
+    - {side: britain, path: [[4.46674, 50.56507], [4.46603, 50.56281], [4.46532, 50.561]], width: 140, id: allied-advance, name: The allies push the French back}
+  clashes:
+    - [4.45005, 50.56742]
+    - [4.43279, 50.561]
+images:
+  quatre-bras-butler:
+    file: quatre-bras-butler.jpg
+    caption: "The 28th Regiment in square at Quatre Bras, painting by Elizabeth Thompson, Lady Butler, 1875"
+    credit: "Wikimedia Commons, Elizabeth Thompson, Lady Butler, Public domain (Butler Lady Quatre Bras 1815.jpg)"

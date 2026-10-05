@@ -1,0 +1,41 @@
+date: "14 October 1806, 7 to 10 a.m."
+when: {from: '1806-10-14'}
+title: "Hassenhausen"
+bbox: [11.57957, 51.09086, 11.72267, 51.14876]
+zones: []
+routes: []
+markers: [auerstedt-hassenhausen-davout, auerstedt-hassenhausen-friant, auerstedt-hassenhausen-brunswick, auerstedt-hassenhausen-blucher]
+sources: ['John Gallaher, The Iron Marshal: A Biography of Louis N. Davout (2018).', 'F. Loraine Petre, Napoleon’s Conquest of Prussia 1806 (1907).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[11.693, 51.085], [11.696, 51.095], [11.703, 51.105], [11.709, 51.115], [11.718, 51.125], [11.721, 51.135], [11.724, 51.142], [11.74, 51.148], [11.76, 51.151]], width: 70, id: saale, name: The Saale}
+    - {path: [[11.56, 51.1], [11.585, 51.098], [11.605, 51.093], [11.62, 51.093], [11.635, 51.0996], [11.65, 51.103], [11.665, 51.1045], [11.68, 51.107], [11.698, 51.11]], width: 40, id: ilm, name: The Ilm}
+    - {path: [[11.638, 51.14], [11.63, 51.135], [11.632, 51.13], [11.63, 51.125], [11.632, 51.12], [11.637, 51.113], [11.638, 51.105], [11.636, 51.0998]], width: 25, id: lissbach, name: The Lissbach}
+  units:
+    - {side: france, type: infantry, at: [11.66829, 51.118], width: 1300, depth: 300, facing: 270, id: gudin, name: Gudin’s division holding Hassenhausen}
+    - {side: france, type: square, at: [11.66257, 51.12931], width: 260, depth: 260, facing: 270, id: friant, name: Friant’s division in squares}
+    - {side: france, type: square, at: [11.66257, 51.13338], width: 260, depth: 260, facing: 270, id: friant, name: Friant’s division in squares}
+    - {side: france, type: square, at: [11.66257, 51.13745], width: 260, depth: 260, facing: 270, id: friant, name: Friant’s division in squares}
+    - {side: france, type: artillery, at: [11.66901, 51.12569], width: 450, depth: 300, facing: 270, id: french-guns, name: The 12-pounder guns, count: 5}
+    - {side: france, type: cavalry, at: [11.66901, 51.10805], width: 700, depth: 250, facing: 270, id: french-cavalry, name: French cavalry on Gudin’s left}
+    - {side: france, type: cavalry, at: [11.67402, 51.14333], width: 500, depth: 220, facing: 270, id: chasseurs, name: French chasseurs held behind a hill}
+    - {side: prussia, type: infantry, at: [11.66257, 51.118], width: 1400, depth: 200, facing: 90, id: schmettau, name: Schmettau’s division attacking Hassenhausen}
+    - {side: prussia, type: infantry, at: [11.65756, 51.13247], width: 1200, depth: 200, facing: 90, id: wartensleben, name: Wartensleben’s division}
+    - {side: prussia, type: cavalry, at: [11.63967, 51.14423], width: 1100, depth: 250, facing: 110, id: blucher, name: 'Blücher’s cavalry, put to flight'}
+    - {side: prussia, type: cavalry, at: [11.65541, 51.10624], width: 900, depth: 250, facing: 90, id: prussian-cavalry, name: Wartensleben’s cavalry on the Prussian right}
+  arrows:
+    - {side: france, path: [[11.71981, 51.13519], [11.69835, 51.12614], [11.67259, 51.11981]], width: 130, id: gudin-march, name: Gudin’s division climbs from Kösen}
+    - {side: france, path: [[11.71695, 51.137], [11.6869, 51.13519], [11.66758, 51.13338]], width: 130, id: friant-march, name: Friant comes up on Gudin’s right}
+    - {side: prussia, path: [[11.6454, 51.14243], [11.6547, 51.13881], [11.65999, 51.137]], width: 120, id: blucher-charge, name: Blücher charges Friant’s squares}
+    - {side: france, path: [[11.67044, 51.14333], [11.65684, 51.14469], [11.64325, 51.14469]], width: 110, id: chasseurs-charge, name: The chasseurs put Blücher’s cavalry to flight}
+    - {side: prussia, path: [[11.64826, 51.12433], [11.65684, 51.12162], [11.66472, 51.12026]], width: 110, id: wartensleben-attack, name: Two of Wartensleben’s regiments attack Hassenhausen}
+  clashes:
+    - [11.66507, 51.118]
+    - [11.65985, 51.13202]
+    - [11.66114, 51.13655]
+images:
+  auerstedt-hassenhausen-knotel:
+    file: auerstedt-hassenhausen-knotel.jpg
+    caption: "The wounded Duke of Brunswick led from the field among retreating Prussians, by Richard Knötel, 1895"
+    credit: "Wikimedia Commons, Richard Knötel, Public domain (Doppelschlacht bei Jena und Auerstadt.jpg)"

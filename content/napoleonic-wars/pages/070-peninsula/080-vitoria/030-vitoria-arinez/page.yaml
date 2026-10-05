@@ -1,0 +1,45 @@
+date: "21 June 1813, noon to afternoon"
+when: {from: '1813-06-21'}
+title: "Graham arrives, Arinez falls"
+bbox: [-2.84, 42.755, -2.59, 42.905]
+zones: []
+routes: []
+markers: [vitoria-arinez-graham, vitoria-arinez-picton, vitoria-arinez-longa, vitoria-arinez-arinez, vitoria-arinez-town]
+sources: ['Ian Fletcher, Vittoria 1813: Wellington Sweeps the French from Spain (2005).', 'Michael Glover, The Peninsular War 1807–1814 (2001).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-2.59, 42.89], [-2.62, 42.886], [-2.645, 42.879], [-2.664, 42.874], [-2.69, 42.871], [-2.715, 42.866], [-2.737, 42.86], [-2.75, 42.856], [-2.756, 42.846], [-2.752, 42.837], [-2.745, 42.832], [-2.752, 42.828], [-2.765, 42.83], [-2.775, 42.826], [-2.79, 42.822], [-2.805, 42.818], [-2.815, 42.81], [-2.82, 42.795], [-2.826, 42.78], [-2.832, 42.765], [-2.838, 42.75]], width: 50, id: zadorra, name: The river Zadorra}
+  works:
+    - {side: neutral, path: [[-2.84, 42.755], [-2.829, 42.766], [-2.81, 42.785], [-2.79, 42.8], [-2.765, 42.812], [-2.752, 42.82], [-2.735, 42.826], [-2.722, 42.83], [-2.7, 42.838], [-2.672, 42.847]], width: 25, id: burgos-road, name: The road from Burgos through the La Puebla defile to Vitoria}
+    - {side: neutral, path: [[-2.672, 42.847], [-2.68, 42.86], [-2.69, 42.872], [-2.705, 42.89], [-2.72, 42.91]], width: 25, id: bilbao-road, name: The road to Bilbao}
+    - {side: neutral, path: [[-2.672, 42.847], [-2.655, 42.862], [-2.636, 42.886], [-2.615, 42.905]], width: 25, id: bayonne-road, name: The road to Bayonne and France}
+    - {side: neutral, path: [[-2.672, 42.847], [-2.64, 42.848], [-2.6, 42.85], [-2.56, 42.853]], width: 25, id: salvatierra-road, name: The road to Salvatierra and Pamplona}
+  units:
+    - {side: france, type: infantry, at: [-2.74429, 42.81805], width: 2000, depth: 250, facing: 270, id: gazan, name: 'Gazan’s army, falling back on Arinez'}
+    - {side: france, type: infantry, at: [-2.73326, 42.83524], width: 1500, depth: 220, facing: 315, id: derlon, name: 'D’Erlon’s army, facing Picton'}
+    - {side: france, type: infantry, at: [-2.75654, 42.79905], width: 900, depth: 200, facing: 225, id: villatte, name: 'Villatte and Maransin, drawing back from the heights'}
+    - {side: france, type: infantry, at: [-2.66587, 42.86962], width: 1400, depth: 220, facing: 0, id: reille, name: Reille holding the bridges north of Vitoria against Graham}
+    - {side: france, type: infantry, at: [-2.69283, 42.8669], width: 800, depth: 200, facing: 0, id: sarrut, name: 'Sarrut’s division, driven back across the river'}
+    - {side: client, type: infantry, at: [-2.63892, 42.88319], width: 700, depth: 180, facing: 0, id: royal-guard, name: Joseph’s Spanish Royal Guard}
+    - {side: britain, type: infantry, at: [-2.6769, 42.88409], width: 600, depth: 1300, facing: 180, id: graham, name: Graham’s column above the Zadorra}
+    - {side: spain, type: infantry, at: [-2.63402, 42.89314], width: 700, depth: 200, facing: 200, id: longa, name: Longa’s Spanish division}
+    - {side: britain, type: infantry, at: [-2.74306, 42.84971], width: 1300, depth: 250, facing: 150, id: picton, name: 'Picton’s 3rd and Dalhousie’s 7th Divisions, south of the river'}
+    - {side: britain, type: infantry, at: [-2.76144, 42.82619], width: 1500, depth: 250, facing: 90, id: cole-light, name: Cole’s 4th and the Light Division}
+    - {side: britain, type: infantry, at: [-2.7786, 42.80267], width: 1400, depth: 250, facing: 60, id: hill, name: 'Hill’s column: the 2nd Division and Morillo’s Spaniards'}
+  arrows:
+    - {side: britain, path: [[-2.6965, 42.89223], [-2.69038, 42.88138], [-2.68609, 42.87414]], width: 130, id: graham-attack, name: Graham drives Sarrut back across the river and attacks the bridges}
+    - {side: spain, path: [[-2.62422, 42.90309], [-2.63157, 42.89404], [-2.63708, 42.8859]], width: 110, id: longa-attack, name: Longa defeats the Royal Guard and cuts the Bayonne road}
+    - {side: britain, path: [[-2.75287, 42.86238], [-2.74674, 42.85605], [-2.73816, 42.84429]], width: 130, id: picton-crossing, name: 'Picton crosses the Zadorra and loses 1,800 men'}
+    - {side: britain, path: [[-2.7786, 42.83886], [-2.77002, 42.83162], [-2.76389, 42.8271]], width: 110, id: cole-crossing, name: Cole’s 4th Division crosses further west}
+    - {side: britain, path: [[-2.75899, 42.82619], [-2.75287, 42.82348], [-2.74796, 42.82077]], width: 130, id: arinez-attack, name: 'The 4th, Light, 3rd and 7th Divisions take Arinez'}
+  clashes:
+    - [-2.68425, 42.87323]
+    - [-2.63769, 42.885]
+    - [-2.73694, 42.84157]
+    - [-2.74735, 42.81986]
+images:
+  vitoria-diorama:
+    file: vitoria-diorama.jpg
+    caption: "Model of the battle in the Armoury Museum of Álava in Vitoria-Gasteiz, photographed in 2008"
+    credit: "Wikimedia Commons, Zarateman, Public domain (Vitoria - Museo de Armeria 06.JPG)"

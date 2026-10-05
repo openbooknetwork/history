@@ -13,7 +13,7 @@ after every edit to it.
 
 1. `node scripts/check-story.mjs <story> [page ids]` checks pages, markers, battles, routes and battle plans.
 2. `scripts/story-root.sh <story> <port>` builds that story alone in `.cache/<story>-root` and serves it on the
-   port. Rerun it to rebuild.
+   port. Rerun it to rebuild. Agents building at the same time pass a root name of their own as a third argument.
 3. `node scripts/screenshot.mjs http://localhost:<port>/<story>/ <out dir> <page ids>` captures pages in
    headless Chrome. `SHOT_HOVER=<lon>,<lat>` shows a battle unit's hover label, `SHOT_SCHEME=light` the light
    theme. Open the capture of every page you changed.

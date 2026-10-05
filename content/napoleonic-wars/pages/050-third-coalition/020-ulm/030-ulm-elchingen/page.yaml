@@ -1,0 +1,35 @@
+date: "14 October 1805"
+when: {from: '1805-10-14', to: '1805-10-14'}
+title: "Ney crosses at Elchingen"
+bbox: [9.94, 48.375, 10.13, 48.5]
+zones: []
+routes: []
+markers: [ulm-elchingen-abbey, ulm-elchingen-ney, ulm-elchingen-riesch, ulm-elchingen-ulm]
+sources: ['Frederick W. Kagan, The End of the Old Order: Napoleon and Europe, 1801–1805 (2006).', 'Gunther E. Rothenberg, Napoleon’s Great Adversaries: The Archduke Charles and the Austrian Army, 1792–1814 (1982).', 'Digby Smith, The Napoleonic Wars Data Book (1998).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[9.94, 48.386], [9.97, 48.391], [9.99, 48.395], [10.005, 48.398], [10.02, 48.405], [10.032, 48.418], [10.048, 48.428], [10.068, 48.434], [10.09, 48.437], [10.115, 48.438], [10.135, 48.44]], width: 110, id: danube, name: The Danube}
+  works:
+    - {side: neutral, path: [[10.0932, 48.4315], [10.0928, 48.4395]], width: 40, id: elchingen-bridge, name: 'The Elchingen bridge, partly dismantled'}
+  units:
+    - {side: austria, type: infantry, at: [10.07976, 48.45149], width: 1600, depth: 400, facing: 160, id: riesch, name: 'Riesch’s corps on the heights of Elchingen, 8,000 to 15,000'}
+    - {side: austria, type: cavalry, at: [10.0608, 48.44787], width: 900, depth: 300, facing: 150, id: riesch-cavalry, name: 'Riesch’s cavalry, which drives back the 39th Line'}
+    - {side: france, type: infantry, at: [10.09466, 48.44515], width: 1100, depth: 300, facing: 340, id: loison, name: 'Loison’s division: Villatte’s and Roguet’s brigades, with the 6th Light'}
+    - {side: france, type: cavalry, at: [10.102, 48.4485], width: 800, depth: 250, facing: 300, id: colbert, name: Colbert’s cavalry}
+    - {side: france, type: infantry, at: [10.105, 48.421], width: 1200, depth: 300, facing: 0, id: malher, name: 'Malher’s division, crossing further east'}
+    - {side: france, type: infantry, at: [10.06958, 48.47443], width: 1000, depth: 250, facing: 200, id: dupont, name: 'Dupont’s division, coming from the north-east'}
+  arrows:
+    - {side: france, path: [[10.093, 48.42355], [10.093, 48.43893], [10.09331, 48.44244]], width: 170, id: loison-crossing, name: Villatte’s elite companies cross the bridge}
+    - {side: france, path: [[10.09466, 48.44696], [10.0906, 48.45149], [10.08383, 48.4551]], width: 150, id: abbey-attack, name: 'The 6th Light, led by Ney, takes the abbey and Ober-Elchingen'}
+    - {side: france, path: [[10.125, 48.428], [10.125, 48.439], [10.113, 48.4435]], width: 150, id: malher-sweep, name: Malher sweeps west along the north bank}
+    - {side: austria, path: [[10.06757, 48.4542], [10.03948, 48.45229], [10.01504, 48.42795], [10.00718, 48.41843]], width: 150, id: riesch-retreat, name: Riesch retreats into the woods and back to Ulm, style: dashed}
+    - {side: france, path: [[10.06958, 48.47172], [10.074, 48.4635], [10.077, 48.4575]], width: 140, id: dupont-advance, name: Dupont closes from the north-east}
+  clashes:
+    - [10.08654, 48.44968]
+    - [10.07164, 48.44515]
+images:
+  ulm-elchingen-rugendas:
+    file: ulm-elchingen-rugendas.jpg
+    caption: "The battle of Elchingen, 14 October 1805, by Johann Lorenz Rugendas, about 1810"
+    credit: "Wikimedia Commons, Johann Lorenz Rugendas, Public domain (Battle of Elchingen in 1805 (J. L. Rugendas II).jpg)"

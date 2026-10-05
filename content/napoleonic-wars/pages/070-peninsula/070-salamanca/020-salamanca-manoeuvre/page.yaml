@@ -1,0 +1,33 @@
+date: "22 July 1812, morning to afternoon"
+when: {from: '1812-07-22'}
+title: "Marmont’s march to the west"
+bbox: [-5.69792, 40.85255, -5.58148, 40.91407]
+zones: []
+routes: []
+markers: [salamanca-manoeuvre-marmont, salamanca-manoeuvre-village, salamanca-manoeuvre-greater]
+sources: ['Rory Muir, Salamanca, 1812 (2001).', 'Ian Fletcher, Salamanca 1812: Wellington Crushes Marmont (1997).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: france, type: infantry, at: [-5.67534, 40.88014], width: 250, depth: 900, facing: 270, id: thomieres, name: 'Thomières’s division leading the march west, 4,300'}
+    - {side: france, type: cavalry, at: [-5.68604, 40.87562], width: 200, depth: 500, facing: 270, id: curto, name: 'Curto’s light cavalry, 1,900'}
+    - {side: france, type: infantry, at: [-5.65752, 40.88014], width: 250, depth: 900, facing: 270, id: maucune, name: 'Maucune’s division on the march, 5,000'}
+    - {side: france, type: infantry, at: [-5.64207, 40.87698], width: 300, depth: 1000, facing: 270, id: brenier-clauzel, name: 'Brenier’s and Clauzel’s divisions following, 10,600'}
+    - {side: france, type: infantry, at: [-5.62425, 40.87833], width: 700, depth: 200, facing: 0, id: bonet, name: 'Bonet’s division by the Greater Arapile, 6,400'}
+    - {side: france, type: artillery, at: [-5.6195, 40.8815], width: 450, depth: 100, facing: 0, id: arapile-guns, name: A battery of 40 guns on the Greater Arapile, count: 8}
+    - {side: france, type: infantry, at: [-5.63495, 40.86974], width: 1000, depth: 220, facing: 0, id: sarrut-boyer, name: Sarrut’s division and Boyer’s dragoons in reserve}
+    - {side: france, type: infantry, at: [-5.61356, 40.89688], width: 1600, depth: 220, facing: 270, id: foy-ferey, name: 'Foy’s and Ferey’s divisions on the short side of the French L, 10,300'}
+    - {side: britain, type: infantry, at: [-5.6896, 40.90231], width: 300, depth: 1000, facing: 180, id: pakenham, name: 'Pakenham’s 3rd Division and D’Urban’s Portuguese cavalry, coming up from Salamanca'}
+    - {side: britain, type: infantry, at: [-5.65871, 40.89326], width: 1100, depth: 220, facing: 180, id: leith, name: 'Leith’s 5th Division, hidden behind the ridge, 6,700'}
+    - {side: britain, type: infantry, at: [-5.6397, 40.89281], width: 900, depth: 220, facing: 180, id: cole, name: 'Cole’s 4th Division near Los Arapiles, 5,200'}
+    - {side: britain, type: cavalry, at: [-5.6694, 40.89869], width: 600, depth: 160, facing: 180, id: le-marchant, name: 'Le Marchant’s heavy cavalry brigade, 1,000'}
+    - {side: britain, type: infantry, at: [-5.6492, 40.90321], width: 1600, depth: 220, facing: 180, id: clinton-hope, name: 'The 6th and 7th Divisions in second line, 10,600'}
+    - {side: britain, type: infantry, at: [-5.63019, 40.90412], width: 1400, depth: 220, facing: 90, id: campbell-alten, name: The 1st and Light Divisions on the short side of the allied L}
+  arrows:
+    - {side: france, path: [[-5.62306, 40.87426], [-5.64207, 40.87245], [-5.66227, 40.87381], [-5.68128, 40.87426]], width: 140, id: french-march, name: Marmont sends his divisions west along the ridge}
+    - {side: britain, path: [[-5.6896, 40.91316], [-5.6896, 40.90773]], width: 140, id: pakenham-march, name: The 3rd Division marches to the western end of the valley}
+images:
+  salamanca-arapiles:
+    file: salamanca-arapiles.jpg
+    caption: "The Greater and Lesser Arapiles seen from Wellington’s position, photographed in 2012"
+    credit: "Wikimedia Commons, Jquereda, CC BY-SA 3.0 (Arapil Grande y Arapil Chico.JPG)"

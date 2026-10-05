@@ -1,0 +1,33 @@
+date: "11 October 1805"
+when: {from: '1805-10-11', to: '1805-10-11'}
+title: "Haslach-Jungingen"
+bbox: [9.94, 48.375, 10.13, 48.5]
+zones: []
+routes: []
+markers: [ulm-haslach-dupont, ulm-haslach-mack, ulm-haslach-albeck, ulm-haslach-ulm, ulm-haslach-ney]
+sources: ['Robert Goetz, 1805: Austerlitz: Napoleon and the Destruction of the Third Coalition (2005).', 'Frederick W. Kagan, The End of the Old Order: Napoleon and Europe, 1801–1805 (2006).', 'Digby Smith, The Napoleonic Wars Data Book (1998).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[9.94, 48.386], [9.97, 48.391], [9.99, 48.395], [10.005, 48.398], [10.02, 48.405], [10.032, 48.418], [10.048, 48.428], [10.068, 48.434], [10.09, 48.437], [10.115, 48.438], [10.135, 48.44]], width: 110, id: danube, name: The Danube}
+  units:
+    - {side: france, type: infantry, at: [9.99339, 48.453], width: 500, depth: 250, facing: 200, id: 9th-light, name: 'The 9th Light in Jungingen, holding the church'}
+    - {side: france, type: infantry, at: [10.02594, 48.45319], width: 1200, depth: 250, facing: 210, id: dupont, name: 'Dupont’s division, the 32nd and 96th Line, 4,000 to 6,000 in all'}
+    - {side: france, type: cavalry, at: [10.04761, 48.45681], width: 700, depth: 250, facing: 210, id: tilly, name: 'Tilly’s cavalry, about 900'}
+    - {side: austria, type: infantry, at: [9.98282, 48.43652], width: 1500, depth: 400, facing: 20, id: austrian-left, name: 'Austrian columns under Mack and Schwarzenberg, about 25,000 in all'}
+    - {side: austria, type: infantry, at: [10.01801, 48.43109], width: 1300, depth: 400, facing: 30, id: austrian-left, name: 'Austrian columns under Mack and Schwarzenberg, about 25,000 in all'}
+    - {side: austria, type: cavalry, at: [9.963, 48.449], width: 1400, depth: 350, facing: 60, id: austrian-cavalry, name: 'Austrian cavalry, held back by the woods north of Dupont'}
+    - {side: france, type: infantry, at: [10.075, 48.418], width: 1500, depth: 350, facing: 0, id: ney-south, name: 'Loison’s and Malher’s divisions of Ney’s corps, ordered to the south bank'}
+  arrows:
+    - {side: austria, path: [[9.98282, 48.43923], [9.99135, 48.44667], [9.99271, 48.45164]], width: 160, id: austrian-attack, name: The Austrians attack Jungingen and Haslach}
+    - {side: austria, path: [[10.01801, 48.43381], [10.01781, 48.44414], [10.02323, 48.45048]], width: 160, id: austrian-attack, name: The Austrians attack Jungingen and Haslach}
+    - {side: france, path: [[10.02323, 48.45183], [10.01375, 48.44324], [10.00968, 48.43781]], width: 150, id: dupont-attack, name: Dupont attacks rather than retreat}
+    - {side: france, path: [[10.03677, 48.45862], [10.04925, 48.47081], [10.06145, 48.47986]], width: 140, id: dupont-withdraws, name: Dupont withdraws to Albeck at nightfall, style: dashed}
+  clashes:
+    - [9.99339, 48.45029]
+    - [10.01781, 48.44867]
+images:
+  ulm-haslach-dupont:
+    file: ulm-haslach-dupont.jpg
+    caption: "General Pierre Dupont de l’Étang, engraving by Forestier"
+    credit: "Wikimedia Commons, Forestier, Public domain (General Pierre Dupont de l'Étang.jpg)"

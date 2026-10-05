@@ -1,0 +1,31 @@
+date: "22 July 1812, dusk"
+when: {from: '1812-07-22'}
+title: "Ferey’s rearguard"
+bbox: [-5.69792, 40.85255, -5.58148, 40.91407]
+zones: []
+routes: []
+markers: [salamanca-ferey-ferey, salamanca-ferey-hulse, salamanca-ferey-foy, salamanca-ferey-greater]
+sources: ['Rory Muir, Salamanca, 1812 (2001).', 'Ian Fletcher, Salamanca 1812: Wellington Crushes Marmont (1997).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: france, type: infantry, at: [-5.60881, 40.86793], width: 1300, depth: 120, facing: 330, id: ferey, name: 'Ferey’s seven battalions in a line three deep, along the hillside', bow: 150}
+    - {side: france, type: square, at: [-5.61831, 40.86476], width: 160, depth: 160, facing: 0, id: ferey-squares, name: Battalions in square covering Ferey’s flanks}
+    - {side: france, type: square, at: [-5.5993, 40.872], width: 160, depth: 160, facing: 0, id: ferey-squares, name: Battalions in square covering Ferey’s flanks}
+    - {side: france, type: artillery, at: [-5.60881, 40.86612], width: 250, depth: 80, facing: 330, id: ferey-guns, name: Ferey’s divisional battery, count: 4}
+    - {side: france, type: infantry, at: [-5.59217, 40.86069], width: 800, depth: 200, facing: 270, id: foy, name: 'Foy’s division, covering the retreat'}
+    - {side: britain, type: infantry, at: [-5.61356, 40.87562], width: 1300, depth: 220, facing: 150, id: clinton, name: 'Clinton’s 6th Division: Hulse’s and Hinde’s brigades, then Rezende’s Portuguese'}
+    - {side: britain, type: infantry, at: [-5.62782, 40.86612], width: 900, depth: 220, facing: 90, id: leith, name: 'Leith’s 5th Division, pressing the French left'}
+    - {side: britain, type: infantry, at: [-5.63138, 40.88602], width: 1200, depth: 220, facing: 180, id: reserve-divisions, name: 'The 1st, 4th and 7th Divisions after the counterattack'}
+  arrows:
+    - {side: britain, path: [[-5.61415, 40.87924], [-5.61297, 40.87426], [-5.61059, 40.87019]], width: 140, id: clinton-attack, name: The 6th Division attacks Ferey’s line in the dusk}
+    - {side: britain, path: [[-5.63138, 40.86522], [-5.62425, 40.86612], [-5.61772, 40.86703]], width: 120, id: leith-flank, name: The 5th Division presses Ferey’s left}
+    - {side: france, path: [[-5.60168, 40.86431], [-5.59098, 40.85707], [-5.58207, 40.85346]], width: 160, id: french-retreat, name: The French retreat through the woods towards Alba de Tormes, style: dashed}
+  clashes:
+    - [-5.60999, 40.86974]
+    - [-5.61712, 40.86657]
+images:
+  salamanca-monument:
+    file: salamanca-monument.jpg
+    caption: "Monument to the battle on the Greater Arapile, photographed in 2019"
+    credit: "Wikimedia Commons, Alta Falisa, CC BY-SA 4.0 (Los Arapiles 22 July 1812.jpg)"

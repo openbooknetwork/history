@@ -1,0 +1,36 @@
+date: "8 February 1807, morning"
+when: {from: '1807-02-08'}
+title: "Augereau in the snowstorm"
+bbox: [20.57468, 54.34416, 20.7193, 54.4191]
+zones: []
+routes: []
+markers: [eylau-augereau-augereau, eylau-augereau-napoleon, eylau-augereau-battery, eylau-augereau-davout]
+sources: ['F. Loraine Petre, Napoleon’s Campaign in Poland 1806–1807 (1901).', 'David G. Chandler, The Campaigns of Napoleon (1966).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: russia, type: infantry, at: [20.64446, 54.40603], width: 1800, depth: 300, facing: 238, id: russian-right, name: The Russian right}
+    - {side: russia, type: infantry, at: [20.66048, 54.3927], width: 1600, depth: 300, facing: 238, id: russian-centre, name: The Russian centre}
+    - {side: russia, type: infantry, at: [20.67536, 54.37789], width: 1500, depth: 300, facing: 238, id: russian-left, name: The Russian left}
+    - {side: russia, type: artillery, at: [20.64985, 54.39414], width: 1300, depth: 300, facing: 238, id: battery, name: The Russian centre battery of 70 guns, count: 12}
+    - {side: russia, type: infantry, at: [20.67176, 54.40004], width: 1400, depth: 300, facing: 238, id: russian-reserve, name: The Russian reserve}
+    - {side: france, type: infantry, at: [20.6232, 54.39611], width: 900, depth: 300, facing: 58, id: leval, name: Leval’s division of Soult’s corps at the windmill knoll}
+    - {side: france, type: infantry, at: [20.63088, 54.37866], width: 900, depth: 250, facing: 58, id: augereau, name: The survivors of Augereau’s VII Corps}
+    - {side: france, type: square, at: [20.63652, 54.39726], width: 240, depth: 240, facing: 58, id: fourteenth, name: 'The 14th Line, fighting where it stands'}
+    - {side: france, type: infantry, at: [20.62973, 54.3729], width: 700, depth: 300, facing: 58, id: guard, name: Battalions of the Imperial Guard}
+    - {side: france, type: infantry, at: [20.66097, 54.37262], width: 1000, depth: 300, facing: 58, id: st-hilaire, name: Saint-Hilaire’s division of Soult’s corps}
+    - {side: france, type: infantry, at: [20.6868, 54.35861], width: 1300, depth: 300, facing: 328, id: davout, name: Davout’s III Corps arriving from the south}
+  arrows:
+    - {side: france, path: [[20.64249, 54.37118], [20.64494, 54.38168], [20.64568, 54.39208]], width: 130, id: augereau-attack, name: Augereau’s corps loses its way in the blizzard}
+    - {side: france, path: [[20.64535, 54.38983], [20.63399, 54.38086]], width: 110, id: augereau-retreat, name: Augereau falls back on Eylau, style: dashed}
+    - {side: russia, path: [[20.65933, 54.38268], [20.64421, 54.37981]], width: 110, id: column-attack, name: 'A Russian column of about 5,000 reaches the edge of Eylau'}
+    - {side: france, path: [[20.63235, 54.37386], [20.64134, 54.37823]], width: 110, id: guard-counterattack, name: The Guard stops the column}
+    - {side: france, path: [[20.69269, 54.34797], [20.68778, 54.35684]], width: 120, id: davout-approach, name: Davout comes up against the Russian left}
+  clashes:
+    - [20.64669, 54.39352]
+    - [20.64288, 54.379]
+images:
+  eylau-augereau-bennigsen:
+    file: eylau-augereau-bennigsen.jpg
+    caption: "Levin von Bennigsen, the Russian commander at Eylau, portrait by Peter Edward Stroehling, about 1810 to 1815"
+    credit: "Wikimedia Commons, Peter Edward Stroehling, Public domain (L.A.Bennigsen by P.E.Stroehling (c.1810-15, Royal coll.).jpg)"

@@ -1,0 +1,38 @@
+date: "19 July 1808, afternoon"
+when: {from: '1808-07-19'}
+title: "Vedel’s attack and the surrender"
+bbox: [-3.86047, 38.07319, -3.71779, 38.14466]
+zones: []
+routes: []
+markers: [bailen-vedel-vedel, bailen-vedel-knoll, bailen-vedel-soler, bailen-vedel-dupont, bailen-vedel-town]
+sources: ['Maximilien Sébastien Foy, History of the War in the Peninsula under Napoleon, vol. II (1827).', 'Charles Oman, A History of the Peninsular War, vol. I (1902).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-3.83878, 38.1528], [-3.84334, 38.132], [-3.8422, 38.11435], [-3.85019, 38.09852], [-3.86389, 38.07772]], width: 50, id: rumblar, name: 'The Rumblar, a tributary of the Guadalquivir'}
+  works:
+    - {path: [[-3.87416, 38.10486], [-3.8422, 38.11435], [-3.81709, 38.10983], [-3.79655, 38.10576], [-3.776, 38.094], [-3.7566, 38.10576], [-3.73263, 38.11571], [-3.70523, 38.12385]], width: 20, id: highway, name: The highway from Andújar through Bailén to the Sierra Morena}
+  units:
+    - {side: spain, type: infantry, at: [-3.7897, 38.11119], width: 2000, depth: 220, facing: 297, id: spanish-right, name: 'Reding’s line, facing Dupont'}
+    - {side: spain, type: infantry, at: [-3.76116, 38.09762], width: 1100, depth: 200, facing: 45, id: coupigny, name: 'Coupigny’s division, turned to face Vedel'}
+    - {side: spain, type: infantry, at: [-3.75717, 38.10531], width: 350, depth: 120, facing: 45, id: ordenes, name: The Órdenes Militares regiment under Soler at San Cristóbal}
+    - {side: spain, type: infantry, at: [-3.85476, 38.11119], width: 1200, depth: 250, facing: 100, id: lapena, name: Lapeña’s division of Castaños’s army}
+    - {side: france, type: infantry, at: [-3.8091, 38.10847], width: 1700, depth: 250, facing: 115, id: dupont-corps, name: Dupont’s corps under the truce}
+    - {side: france, type: infantry, at: [-3.8365, 38.11526], width: 900, depth: 220, facing: 290, id: barbou, name: Barbou’s division at the Rumblar}
+    - {side: france, type: infantry, at: [-3.74461, 38.12114], width: 450, depth: 160, facing: 225, id: cassagne, name: Cassagne’s legion on the captured knoll}
+    - {side: france, type: cavalry, at: [-3.7526, 38.11526], width: 400, depth: 130, facing: 45, id: boussart, name: 'Boussart’s dragoons, round the knoll'}
+    - {side: france, type: infantry, at: [-3.74518, 38.10893], width: 400, depth: 180, facing: 235, id: roche, name: 'Roche’s column, held at San Cristóbal'}
+    - {side: france, type: infantry, at: [-3.72349, 38.12566], width: 700, depth: 220, facing: 225, id: vedel-reserve, name: Dufour’s brigade and Lagrange’s cuirassiers}
+  arrows:
+    - {side: france, path: [[-3.69952, 38.13561], [-3.7098, 38.13109], [-3.71779, 38.12747]], width: 160, id: vedel-march, name: Vedel’s division comes down the road from La Carolina}
+    - {side: france, path: [[-3.73034, 38.12657], [-3.73719, 38.12385], [-3.7429, 38.12186]], width: 120, id: cassagne-attack, name: Cassagne’s legion storms the knoll}
+    - {side: france, path: [[-3.73491, 38.12566], [-3.73833, 38.12023], [-3.74518, 38.11662], [-3.75032, 38.11571]], width: 100, id: boussart-ride, name: Boussart’s dragoons ride round the knoll}
+    - {side: france, path: [[-3.73947, 38.11119], [-3.74518, 38.10893], [-3.75488, 38.10621]], width: 110, id: roche-attack, name: Roche’s attack on San Cristóbal fails}
+  clashes:
+    - [-3.74575, 38.12069]
+    - [-3.75545, 38.10621]
+images:
+  bailen-surrender:
+    file: bailen-surrender.jpg
+    caption: "The Surrender of Bailén, Dupont before Castaños, painting by José Casado del Alisal, 1864, Prado Museum"
+    credit: "Wikimedia Commons, José Casado del Alisal, Public domain (La Rendición de Bailén (Casado del Alisal).jpg)"

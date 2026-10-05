@@ -1,0 +1,39 @@
+date: "22 July 1812, late afternoon"
+when: {from: '1812-07-22'}
+title: "The French left destroyed"
+bbox: [-5.69792, 40.85255, -5.58148, 40.91407]
+zones: []
+routes: []
+markers: [salamanca-attack-thomieres, salamanca-attack-le-marchant, salamanca-attack-marmont, salamanca-attack-greater]
+sources: ['Rory Muir, Salamanca, 1812 (2001).', 'Ian Fletcher, Salamanca 1812: Wellington Crushes Marmont (1997).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: france, type: infantry, at: [-5.67891, 40.87517], width: 700, depth: 220, facing: 0, id: thomieres, name: 'Thomières’s division, routed'}
+    - {side: france, type: square, at: [-5.66108, 40.87969], width: 180, depth: 180, facing: 0, id: maucune, name: Maucune’s division in squares}
+    - {side: france, type: square, at: [-5.65574, 40.87924], width: 180, depth: 180, facing: 0, id: maucune, name: Maucune’s division in squares}
+    - {side: france, type: infantry, at: [-5.64445, 40.87607], width: 800, depth: 220, facing: 0, id: brenier-clauzel, name: Brenier’s and Clauzel’s divisions}
+    - {side: france, type: infantry, at: [-5.62425, 40.87833], width: 700, depth: 200, facing: 0, id: bonet, name: 'Bonet’s division by the Greater Arapile, 6,400'}
+    - {side: france, type: artillery, at: [-5.6195, 40.8815], width: 450, depth: 100, facing: 0, id: arapile-guns, name: A battery of 40 guns on the Greater Arapile, count: 8}
+    - {side: france, type: infantry, at: [-5.63495, 40.86974], width: 1000, depth: 220, facing: 0, id: sarrut-boyer, name: Sarrut’s division and Boyer’s dragoons in reserve}
+    - {side: britain, type: infantry, at: [-5.67772, 40.8815], width: 900, depth: 200, facing: 180, id: pakenham, name: 'Pakenham’s 3rd Division in line, two deep'}
+    - {side: britain, type: infantry, at: [-5.65871, 40.88421], width: 1100, depth: 200, facing: 180, id: leith, name: Leith’s 5th Division in line}
+    - {side: britain, type: cavalry, at: [-5.64742, 40.86974], width: 500, depth: 160, facing: 45, id: le-marchant, name: Le Marchant’s brigade among the broken French battalions}
+    - {side: britain, type: infantry, at: [-5.63257, 40.88783], width: 900, depth: 220, facing: 180, id: cole, name: 'Cole’s 4th Division, driven back'}
+    - {side: britain, type: infantry, at: [-5.62722, 40.89055], width: 400, depth: 150, facing: 180, id: pack, name: 'Pack’s Portuguese brigade, 2,600'}
+  arrows:
+    - {side: britain, path: [[-5.68722, 40.89236], [-5.68247, 40.88602], [-5.6795, 40.87833]], width: 130, id: pakenham-attack, name: The 3rd Division attacks the head of the French column}
+    - {side: britain, path: [[-5.65871, 40.89236], [-5.65871, 40.88783], [-5.65847, 40.88105]], width: 130, id: leith-attack, name: The 5th Division beats Maucune in a musketry duel}
+    - {side: britain, path: [[-5.66584, 40.89597], [-5.66108, 40.88512], [-5.65574, 40.87743], [-5.65158, 40.87381]], width: 120, id: le-marchant-charge, name: Le Marchant’s charge breaks eight battalions}
+    - {side: britain, path: [[-5.63376, 40.89055], [-5.62782, 40.88557], [-5.62485, 40.8806]], width: 110, id: cole-attack, name: Cole attacks Bonet and is driven back}
+    - {side: britain, path: [[-5.62663, 40.88964], [-5.62306, 40.88467], [-5.62045, 40.88259]], width: 90, id: pack-attack, name: Pack’s Portuguese climb the Greater Arapile and are repulsed}
+  clashes:
+    - [-5.67891, 40.87924]
+    - [-5.65871, 40.88105]
+    - [-5.62485, 40.88014]
+    - {at: [-5.62069, 40.88286], size: 110}
+images:
+  salamanca-pakenham:
+    file: salamanca-pakenham.jpg
+    caption: "The charge of Pakenham’s 3rd Division, painting by Richard Caton Woodville Jr., 1890"
+    credit: "Wikimedia Commons, Richard Caton Woodville Jr., Public domain (Charge of Pakenham's Third Division.jpg)"

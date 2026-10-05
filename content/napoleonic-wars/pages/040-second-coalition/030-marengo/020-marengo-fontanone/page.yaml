@@ -1,0 +1,39 @@
+date: "14 June 1800, morning"
+when: {from: '1800-06-14'}
+title: "The Austrian attack on the Fontanone"
+bbox: [8.63693, 44.85665, 8.77259, 44.92631]
+zones: []
+routes: []
+markers: [marengo-fontanone-melas, marengo-fontanone-hadik, marengo-fontanone-victor, marengo-fontanone-lannes, marengo-fontanone-ott, marengo-fontanone-castel-ceriolo]
+sources: ['David G. Chandler, The Campaigns of Napoleon (1966).', 'David Hollins, The Battle of Marengo 1800 (2000).', 'James R. Arnold, Marengo & Hohenlinden: Napoleon’s Rise to Power (2005).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[8.585, 44.845], [8.605, 44.865], [8.622, 44.885], [8.633, 44.896], [8.645, 44.902], [8.641, 44.911], [8.643, 44.92], [8.652, 44.932], [8.665, 44.945]], width: 80, id: bormida, name: The river Bormida}
+    - {path: [[8.668, 44.862], [8.671, 44.875], [8.6725, 44.886], [8.673, 44.898], [8.676, 44.91]], width: 25, id: fontanone, name: The Fontanone stream}
+  units:
+    - {side: france, type: infantry, at: [8.67674, 44.88877], width: 900, depth: 200, facing: 270, id: gardanne, name: 'Gardanne’s division of Victor’s corps, fallen back behind the stream'}
+    - {side: france, type: infantry, at: [8.67699, 44.87882], width: 900, depth: 200, facing: 270, id: chambarlhac, name: Chambarlhac’s division of Victor’s corps}
+    - {side: france, type: cavalry, at: [8.68067, 44.86841], width: 400, depth: 150, facing: 270, id: kellermann, name: Kellermann’s heavy cavalry brigade}
+    - {side: france, type: infantry, at: [8.68574, 44.89917], width: 900, depth: 200, facing: 270, id: lannes, name: 'Lannes’s corps, Watrin’s division'}
+    - {side: austria, type: infantry, at: [8.66546, 44.8856], width: 1500, depth: 300, facing: 90, id: centre, name: 'Hadik’s and Kaim’s divisions under Melas, attacking across the Fontanone'}
+    - {side: austria, type: infantry, at: [8.65531, 44.88786], width: 800, depth: 250, facing: 90, id: morzin, name: Morzin’s grenadier division}
+    - {side: austria, type: artillery, at: [8.66964, 44.88967], width: 300, depth: 50, facing: 90, id: battery, name: Frimont’s battery along the stream, count: 6}
+    - {side: austria, type: infantry, at: [8.66165, 44.86796], width: 800, depth: 200, facing: 150, id: oreilly, name: 'O’Reilly’s division and Frimont’s advance guard, about 4,500'}
+    - {side: austria, type: infantry, at: [8.69652, 44.9141], width: 150, depth: 800, facing: 60, id: ott, name: 'Ott’s column, 7,500, marching on Castel Ceriolo'}
+  arrows:
+    - {side: austria, path: [[8.66799, 44.8856], [8.67217, 44.8856], [8.67496, 44.8856]], width: 140, id: hadik-attack, name: Hadik and then Kaim attack across the Fontanone and are thrown back}
+    - {side: austria, path: [[8.66038, 44.86977], [8.66546, 44.8666], [8.66926, 44.86479]], width: 120, id: oreilly-advance, name: O’Reilly pushes south towards La Stortiglione}
+    - {side: austria, path: [[8.64834, 44.90279], [8.66609, 44.90822], [8.68638, 44.91364], [8.70666, 44.91907]], width: 120, id: ott-march, name: 'Ott marches north-east and takes Castel Ceriolo, 11:30'}
+    - {side: austria, path: [[8.66419, 44.87248], [8.67179, 44.87067], [8.6775, 44.86932]], width: 100, id: pilatti, name: Pilatti’s dragoons try to cross at the southern end and are thrown back by Kellermann}
+    - {side: france, path: [[8.71934, 44.90279], [8.70286, 44.90098], [8.68954, 44.89962]], width: 120, id: lannes-arrives, name: Lannes arrives on Victor’s right}
+  clashes:
+    - [8.67522, 44.8856]
+    - [8.67496, 44.88922]
+    - {at: [8.67877, 44.86914], size: 130}
+    - {at: [8.71002, 44.9198], size: 130}
+images:
+  marengo-melas:
+    file: marengo-melas.jpg
+    caption: "Michael von Melas, portrait of the 19th century"
+    credit: "Wikimedia Commons, Unknown author, Public domain (Michael von Melas.jpg)"

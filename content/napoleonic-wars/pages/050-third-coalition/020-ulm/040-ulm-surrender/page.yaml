@@ -1,0 +1,31 @@
+date: "15 to 20 October 1805"
+when: {from: '1805-10-15', to: '1805-10-20'}
+title: "Mack surrenders at Ulm"
+bbox: [9.94, 48.375, 10.13, 48.5]
+zones: []
+routes: []
+markers: [ulm-surrender-mack, ulm-surrender-napoleon, ulm-surrender-werneck]
+sources: ['David G. Chandler, The Campaigns of Napoleon (1966).', 'F. N. Maude, The Ulm Campaign, 1805 (1912).', 'Alistair Horne, Napoleon: Master of Europe, 1805–1807 (1979).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[9.94, 48.386], [9.97, 48.391], [9.99, 48.395], [10.005, 48.398], [10.02, 48.405], [10.032, 48.418], [10.048, 48.428], [10.068, 48.434], [10.09, 48.437], [10.115, 48.438], [10.135, 48.44]], width: 110, id: danube, name: The Danube}
+  units:
+    - {side: austria, type: camp, at: [9.99, 48.4025], width: 1300, depth: 800, facing: 180, id: mack, name: 'Mack’s army shut up in Ulm, 23,000 to 25,000 men'}
+    - {side: france, type: infantry, at: [9.99906, 48.42295], width: 1500, depth: 300, facing: 190, id: ney, name: Ney’s VI Corps on the Michelsberg}
+    - {side: france, type: artillery, at: [9.995, 48.41752], width: 700, depth: 160, facing: 180, id: french-guns, name: French batteries bombard Ulm, count: 6}
+    - {side: france, type: infantry, at: [9.958, 48.415], width: 1300, depth: 300, facing: 130, id: lannes, name: Lannes’s V Corps north-west of the city}
+    - {side: france, type: infantry, at: [10.012, 48.386], width: 1500, depth: 300, facing: 315, id: marmont, name: Marmont’s II Corps and the Imperial Guard south of the Danube}
+    - {side: france, type: cavalry, at: [10.08178, 48.49524], width: 1000, depth: 250, facing: 30, id: murat, name: Murat’s cavalry and Dupont pursue Werneck}
+  arrows:
+    - {side: france, path: [[10.0153, 48.43381], [10.00583, 48.42747]], width: 160, id: ney-storms, name: 'Ney’s troops storm the camps on the Michelsberg, 15 October'}
+    - {side: france, path: [[10.08855, 48.49976], [10.11, 48.505]], width: 150, id: murat-pursuit, name: Murat’s pursuit towards Heidenheim and Trochtelfingen}
+    - {side: austria, path: [[10.00418, 48.40252], [10.04212, 48.45328], [10.07093, 48.49705]], width: 130, id: ferdinand-escapes, name: 'Archduke Ferdinand leaves Ulm with the cavalry, 14 October', style: dashed}
+    - {side: france, path: [[9.975, 48.375], [9.985, 48.383]], width: 140, id: soult-approach, name: Soult closes the road to the Tyrol from Memmingen}
+  clashes:
+    - [10.00041, 48.42024]
+images:
+  ulm-surrender-thevenin:
+    file: ulm-surrender-thevenin.jpg
+    caption: "Napoleon receives the capitulation of General Mack at Ulm, 20 October 1805, painting by Charles Thévenin"
+    credit: "Wikimedia Commons, Charles Thévenin, Public domain (Charles Thévenin - Reddition de la ville d'Ulm.jpg)"

@@ -1,0 +1,35 @@
+date: "14 October 1806, 6 to 10 a.m."
+when: {from: '1806-10-14'}
+title: "Lannes attacks in the fog"
+bbox: [11.41442, 50.924, 11.57987, 50.99819]
+zones: []
+routes: []
+markers: [jena-fog-lannes, jena-fog-napoleon, jena-fog-soult, jena-fog-augereau, jena-fog-tauentzien, jena-fog-hohenlohe]
+sources: ['David G. Chandler, The Campaigns of Napoleon (1966).', 'F. Loraine Petre, Napoleon’s Conquest of Prussia 1806 (1907).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: france, type: infantry, at: [11.51854, 50.96743], width: 1200, depth: 300, facing: 270, id: suchet, name: Suchet’s division of Lannes’s V Corps}
+    - {side: france, type: infantry, at: [11.52425, 50.95114], width: 1100, depth: 300, facing: 270, id: gazan, name: Gazan’s division of Lannes’s V Corps}
+    - {side: france, type: infantry, at: [11.56276, 50.9421], width: 800, depth: 350, facing: 300, id: guard, name: The Imperial Guard on the Landgrafenberg}
+    - {side: france, type: infantry, at: [11.54493, 50.98235], width: 1000, depth: 300, facing: 315, id: st-hilaire, name: Saint-Hilaire’s division of Soult’s IV Corps}
+    - {side: france, type: infantry, at: [11.53423, 50.93757], width: 1300, depth: 300, facing: 280, id: augereau, name: Augereau’s VII Corps coming up the Mühltal}
+    - {side: prussia, type: infantry, at: [11.51284, 50.96833], width: 1400, depth: 250, facing: 100, id: tauentzien, name: 'Tauentzien’s advance guard, driven back'}
+    - {side: prussia, type: infantry, at: [11.5378, 50.98688], width: 1000, depth: 250, facing: 135, id: prussian-left, name: 'Prussian troops on the left, cut off by Saint-Hilaire'}
+    - {side: prussia, type: infantry, at: [11.47861, 50.962], width: 2200, depth: 250, facing: 90, id: grawert, name: Grawert’s division forming in front of Vierzehnheiligen}
+    - {side: prussia, type: cavalry, at: [11.46577, 50.95295], width: 800, depth: 250, facing: 90, id: prussian-cavalry, name: Prussian cavalry}
+    - {side: prussia, type: infantry, at: [11.46149, 50.94119], width: 1500, depth: 300, facing: 110, id: saxons, name: The Saxon division on Hohenlohe’s right}
+  arrows:
+    - {side: france, path: [[11.55705, 50.94843], [11.54279, 50.95657], [11.52282, 50.96652]], width: 130, id: lannes-attack, name: Lannes attacks in the fog}
+    - {side: france, path: [[11.55277, 50.94119], [11.53994, 50.94662], [11.52853, 50.95069]], width: 130, id: lannes-attack, name: Lannes attacks in the fog}
+    - {side: france, path: [[11.57844, 50.95929], [11.56418, 50.97014], [11.54921, 50.97964]], width: 130, id: st-hilaire-attack, name: Saint-Hilaire climbs from the Saale valley}
+    - {side: france, path: [[11.57844, 50.92672], [11.56133, 50.93305], [11.54136, 50.93667]], width: 130, id: augereau-march, name: Augereau marches up the Mühltal from Jena}
+    - {side: prussia, path: [[11.54421, 50.95657], [11.53138, 50.96381], [11.5164, 50.96788]], width: 110, id: tauentzien-retreat, name: Tauentzien falls back towards Vierzehnheiligen, style: dashed}
+  clashes:
+    - [11.51555, 50.96788]
+    - {at: [11.54136, 50.98462], size: 200}
+images:
+  jena-fog-meissonier:
+    file: jena-fog-meissonier.jpg
+    caption: "Napoleon at the battle of Jena, painting by Ernest Meissonier, 19th century"
+    credit: "Wikimedia Commons, Jean-Louis-Ernest Meissonier, Public domain (Jena 1806.jpg)"

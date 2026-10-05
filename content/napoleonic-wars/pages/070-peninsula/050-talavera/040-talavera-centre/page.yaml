@@ -1,0 +1,42 @@
+date: "28 July 1809, afternoon"
+when: {from: '1809-07-28'}
+title: "The attack on the centre"
+bbox: [-4.84774, 39.93911, -4.74598, 40.03334]
+zones: []
+routes: []
+markers: [talavera-centre-wellesley, talavera-centre-lapisse, talavera-centre-guards, talavera-centre-town]
+sources: ['Charles Oman, A History of the Peninsular War, vol. II (1903).', 'Andrew Field, Talavera: Wellington’s First Victory in Spain (2006).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-4.74, 39.945], [-4.78, 39.948], [-4.81, 39.953], [-4.835, 39.956], [-4.87, 39.952], [-4.9, 39.947]], width: 140, id: tagus, name: The Tagus}
+    - {path: [[-4.82285, 39.95358], [-4.81848, 39.96101], [-4.81158, 39.97351], [-4.80469, 39.98602], [-4.79881, 39.99399], [-4.79355, 40.00118], [-4.78844, 40.00937], [-4.78102, 40.0198]], width: 35, id: portina, name: The Portiña stream}
+  works:
+    - {side: britain, path: [[-4.81185, 39.98273], [-4.81085, 39.98486]], width: 90, id: redoubt, name: 'The redoubt in the centre, with four light guns'}
+  units:
+    - {side: spain, type: infantry, at: [-4.81851, 39.97257], width: 2400, depth: 300, facing: 110, id: cuesta, name: 'Cuesta’s Spanish army, 28,000 infantry, behind walls and olive groves'}
+    - {side: spain, type: cavalry, at: [-4.81809, 39.98352], width: 350, depth: 120, facing: 110, id: el-rey, name: The Spanish cavalry regiment El Rey}
+    - {side: britain, type: infantry, at: [-4.81126, 39.9869], width: 550, depth: 200, facing: 110, id: campbell, name: 'Alexander Campbell’s 4th Division, 3,000'}
+    - {side: britain, type: infantry, at: [-4.81468, 39.99604], width: 1200, depth: 200, facing: 110, id: sherbrooke, name: 'The Guards, the Germans and Cameron’s brigade, rallying'}
+    - {side: britain, type: infantry, at: [-4.80825, 39.99328], width: 700, depth: 180, facing: 110, id: forty-eighth, name: 'The 48th Foot and Mackenzie’s brigade, filling the gap'}
+    - {side: britain, type: infantry, at: [-4.80401, 40.00412], width: 800, depth: 220, facing: 110, id: hill, name: 'Hill’s 2nd Division on the Medellín, 3,900'}
+    - {side: france, type: infantry, at: [-4.80287, 39.97877], width: 700, depth: 220, facing: 290, id: leval, name: 'Leval’s German and Dutch division, beaten off'}
+    - {side: france, type: infantry, at: [-4.80262, 39.98592], width: 900, depth: 220, facing: 290, id: sebastiani, name: 'Sébastiani’s division, second line'}
+    - {side: france, type: infantry, at: [-4.79956, 39.99372], width: 900, depth: 220, facing: 290, id: lapisse, name: 'Lapisse’s division, second line'}
+    - {side: france, type: infantry, at: [-4.78073, 40.0072], width: 800, depth: 220, facing: 290, id: ruffin, name: 'Ruffin’s survivors and one of Villatte’s brigades, moving north'}
+    - {side: france, type: artillery, at: [-4.78659, 39.99874], width: 550, depth: 110, facing: 290, id: cascajal-guns, name: Thirty French guns on the Cascajal, count: 8}
+  arrows:
+    - {side: france, path: [[-4.80452, 39.97923], [-4.81065, 39.98211]], width: 110, id: leval-attack, name: Leval attacks the 4th Division and the Spaniards}
+    - {side: france, path: [[-4.80427, 39.98638], [-4.80754, 39.98923]], width: 110, id: centre-attack, name: Lapisse and Sébastiani attack the 1st Division}
+    - {side: france, path: [[-4.80121, 39.99419], [-4.80502, 39.99458]], width: 110, id: centre-attack, name: Lapisse and Sébastiani attack the 1st Division}
+    - {side: britain, path: [[-4.79951, 39.98986], [-4.80427, 39.99168], [-4.81323, 39.99516]], width: 110, id: guards-rout, name: 'The Guards pursue too far and are routed, losing 500 men', style: dashed}
+    - {side: britain, path: [[-4.81748, 39.99539], [-4.80965, 39.99348]], width: 120, id: forty-eighth-advance, name: Wellesley brings up the 48th Foot}
+  clashes:
+    - [-4.80888, 39.9819]
+    - [-4.80479, 39.98845]
+    - [-4.8023, 39.99372]
+images:
+  talavera-staff:
+    file: talavera-staff.jpg
+    caption: "Wellesley and his staff at Talavera, painting of the British school, 19th century, National Trust"
+    credit: "Wikimedia Commons, British School, Public domain (British School - The Duke of Wellington with His Staff at Talavera, 1809 - 1219960 - National Trust.jpg)"

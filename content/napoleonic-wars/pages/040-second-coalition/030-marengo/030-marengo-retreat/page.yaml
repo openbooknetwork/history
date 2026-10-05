@@ -1,0 +1,37 @@
+date: "14 June 1800, afternoon"
+when: {from: '1800-06-14'}
+title: "The French give way"
+bbox: [8.63693, 44.85665, 8.77259, 44.92631]
+zones: []
+routes: []
+markers: [marengo-retreat-marengo, marengo-retreat-melas, marengo-retreat-zach, marengo-retreat-guard, marengo-retreat-bonaparte]
+sources: ['David G. Chandler, The Campaigns of Napoleon (1966).', 'David Hollins, The Battle of Marengo 1800 (2000).', 'Gregory Fremont-Barnes, The French Revolutionary Wars (2001).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[8.585, 44.845], [8.605, 44.865], [8.622, 44.885], [8.633, 44.896], [8.645, 44.902], [8.641, 44.911], [8.643, 44.92], [8.652, 44.932], [8.665, 44.945]], width: 80, id: bormida, name: The river Bormida}
+    - {path: [[8.668, 44.862], [8.671, 44.875], [8.6725, 44.886], [8.673, 44.898], [8.676, 44.91]], width: 25, id: fontanone, name: The Fontanone stream}
+  units:
+    - {side: france, type: infantry, at: [8.70159, 44.87927], width: 1400, depth: 250, facing: 270, id: victor, name: 'Victor’s corps, falling back through the vines'}
+    - {side: france, type: infantry, at: [8.70793, 44.89148], width: 1000, depth: 200, facing: 270, id: lannes, name: 'Lannes’s corps, falling back with Victor'}
+    - {side: france, type: infantry, at: [8.73202, 44.91183], width: 800, depth: 200, facing: 300, id: monnier, name: 'Monnier’s division, driven back to the north-east'}
+    - {side: france, type: infantry, at: [8.7111, 44.90415], width: 220, depth: 80, facing: 330, id: guard, name: 'Infantry of the Consular Guard, against Schellenberg’s column'}
+    - {side: france, type: cavalry, at: [8.70159, 44.87022], width: 400, depth: 150, facing: 270, id: kellermann, name: 'Kellermann’s cavalry, covering the left'}
+    - {side: austria, type: infantry, at: [8.68067, 44.88696], width: 900, depth: 250, facing: 90, id: centre, name: Kaim’s division and Lattermann’s grenadiers in Marengo}
+    - {side: austria, type: infantry, at: [8.69018, 44.88108], width: 300, depth: 900, facing: 100, id: zach, name: Zach’s pursuit column forming around Spinetta}
+    - {side: austria, type: infantry, at: [8.67496, 44.86298], width: 700, depth: 200, facing: 150, id: oreilly, name: 'O’Reilly’s division, past La Stortiglione'}
+    - {side: austria, type: infantry, at: [8.70666, 44.91048], width: 150, depth: 700, facing: 180, id: ott, name: 'Schellenberg’s column of Ott’s corps, moving south'}
+    - {side: austria, type: cavalry, at: [8.70159, 44.90098], width: 400, depth: 150, facing: 90, id: frimont, name: Frimont’s cavalry}
+  arrows:
+    - {side: france, path: [[8.68384, 44.88741], [8.69271, 44.88379], [8.69842, 44.88062]], width: 130, id: victor-withdraws, name: Victor and Lannes fall back south-east to the vines, style: dashed}
+    - {side: france, path: [[8.70476, 44.87927], [8.71554, 44.87791], [8.72695, 44.87701]], width: 130, id: retreat, name: The French fall back about 3 km towards San Giuliano, style: dashed}
+    - {side: austria, path: [[8.70286, 44.90143], [8.70666, 44.90279], [8.70983, 44.90369]], width: 110, id: frimont-charge, name: 'Frimont’s cavalry falls on the Consular Guard, about 16:00'}
+    - {side: austria, path: [[8.7073, 44.91726], [8.70704, 44.915], [8.70679, 44.9141]], width: 110, id: ott-south, name: Schellenberg’s column advances south from Castel Ceriolo}
+  clashes:
+    - [8.70996, 44.90442]
+    - {at: [8.72695, 44.90867], size: 130}
+images:
+  marengo-lejeune:
+    file: marengo-lejeune.jpg
+    caption: "The Battle of Marengo, painting by Louis-François Lejeune, 1801"
+    credit: "Wikimedia Commons, Louis-François, Baron Lejeune, Public domain (Lejeune - Bataille de Marengo.jpg)"

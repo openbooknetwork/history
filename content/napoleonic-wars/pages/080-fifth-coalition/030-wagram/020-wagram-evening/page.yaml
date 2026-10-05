@@ -1,0 +1,40 @@
+date: "5 July 1809, evening"
+title: "The evening attacks"
+bbox: [16.43, 48.18, 16.7, 48.335]
+zones: []
+routes: []
+markers: [wagram-eve-charles, wagram-eve-macdonald, wagram-eve-oudinot, wagram-eve-bernadotte, wagram-eve-davout]
+sources: ['Gunther E. Rothenberg, The Emperor’s Last Victory: Napoleon and the Battle of Wagram (2004).', 'John H. Gill, 1809: Thunder on the Danube, volume III: Wagram and Znaim (2010).', 'Ian Castle, Aspern and Wagram 1809 (1990).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[16.43, 48.226], [16.452, 48.219], [16.468, 48.215], [16.481, 48.211], [16.493, 48.205], [16.507, 48.199], [16.526, 48.1955], [16.548, 48.1915], [16.57, 48.184], [16.59, 48.172]], width: 110, id: danube-arm, name: An arm of the Danube between the Lobau and the left bank}
+    - {path: [[16.548, 48.33], [16.556, 48.312], [16.567, 48.297], [16.585, 48.288], [16.602, 48.281], [16.62, 48.2745], [16.637, 48.267], [16.647, 48.257], [16.652, 48.245], [16.66, 48.232], [16.672, 48.22]], width: 50, id: russbach, name: 'The Russbach stream, below the Wagram plateau'}
+  units:
+    - {side: austria, type: infantry, at: [16.45, 48.255], width: 2200, depth: 500, facing: 150, id: klenau, name: VI Corps under Klenau}
+    - {side: austria, type: infantry, at: [16.47, 48.295], width: 2500, depth: 600, facing: 150, id: kollowrat, name: III Corps under Kollowrat}
+    - {side: austria, type: cavalry, at: [16.53, 48.306], width: 2500, depth: 600, facing: 175, id: liechtenstein, name: 'Liechtenstein’s reserve, grenadiers and cavalry'}
+    - {side: austria, type: infantry, at: [16.566, 48.306], width: 2400, depth: 600, facing: 165, id: bellegarde, name: 'I Corps under Bellegarde, about 22,000'}
+    - {side: austria, type: infantry, at: [16.605, 48.293], width: 2600, depth: 600, facing: 160, id: hohenzollern, name: 'II Corps under Hohenzollern, with 68 guns'}
+    - {side: austria, type: infantry, at: [16.645, 48.278], width: 2600, depth: 600, facing: 170, id: rosenberg, name: 'IV Corps under Rosenberg, with Nordmann’s advance guard'}
+    - {side: france, type: infantry, at: [16.5, 48.246], width: 3000, depth: 600, facing: 340, id: massena, name: IV Corps under Masséna}
+    - {side: rhine, type: infantry, at: [16.535, 48.272], width: 2000, depth: 500, facing: 10, id: bernadotte, name: IX Corps of Saxons under Bernadotte}
+    - {side: client, type: infantry, at: [16.567, 48.27], width: 2400, depth: 600, facing: 0, id: eugene, name: 'Army of Italy under Eugène, with MacDonald’s and Grenier’s corps'}
+    - {side: france, type: infantry, at: [16.603, 48.266], width: 2400, depth: 600, facing: 0, id: oudinot, name: II Corps under Oudinot}
+    - {side: france, type: infantry, at: [16.632, 48.246], width: 2400, depth: 600, facing: 340, id: davout, name: III Corps under Davout}
+    - {side: france, type: infantry, at: [16.565, 48.237], width: 2400, depth: 700, facing: 0, id: guard, name: 'Imperial Guard and the cavalry reserve, around Raasdorf'}
+  arrows:
+    - {side: france, path: [[16.6, 48.27], [16.601, 48.286]], width: 220, id: oudinot-attack, name: Oudinot attacks Baumersdorf and is thrown back}
+    - {side: client, path: [[16.572, 48.274], [16.575, 48.287], [16.578, 48.299]], width: 240, id: macdonald-attack, name: MacDonald climbs the plateau east of Deutsch-Wagram}
+    - {side: rhine, path: [[16.537, 48.276], [16.55, 48.29], [16.56, 48.298]], width: 220, id: bernadotte-attack, name: The Saxons attack Deutsch-Wagram at about 9 pm}
+    - {side: france, path: [[16.635, 48.25], [16.639, 48.27]], width: 220, id: davout-attack, name: Davout attacks Markgrafneusiedl and stops at 10 pm}
+  clashes:
+    - {at: [16.601, 48.288], size: 300}
+    - {at: [16.578, 48.301], size: 300}
+    - {at: [16.56, 48.3], size: 300}
+    - {at: [16.641, 48.273], size: 300}
+images:
+  wagram-roehn:
+    file: wagram-roehn.jpg
+    caption: "Napoleon’s bivouac on the battlefield of Wagram in the night of 5 to 6 July 1809, painting by Adolphe Roehn, 1810"
+    credit: "Wikimedia Commons, Adolphe Roehn, Public domain (Napoleon bivouac Wagram.jpg)"

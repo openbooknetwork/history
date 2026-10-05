@@ -1,0 +1,48 @@
+date: "18 June 1815, 13:00 to 15:00"
+when: {from: '1815-06-18'}
+title: "D’Erlon’s attack and the heavy cavalry"
+bbox: [4.37703, 50.64956, 4.45783, 50.69298]
+zones: []
+routes: []
+markers: [waterloo-18-picton, waterloo-18-ponsonby, waterloo-18-prussians]
+sources: ['Alessandro Barbero, The Battle: A New History of Waterloo (2003).', 'William Siborne, The Waterloo Campaign, 1815 (1848).', 'Tim Clayton, Waterloo: Four Days that Changed Europe’s Destiny (2014).']
+emblem:
+  kind: battle-plan
+  works:
+    - {side: neutral, path: [[4.38128, 50.67923], [4.39404, 50.67969], [4.40396, 50.67969], [4.414, 50.679], [4.42381, 50.67941], [4.43231, 50.68014], [4.44223, 50.68122], [4.45216, 50.68213]], width: 25, id: ohain-road, name: The sunken Ohain road along the ridge}
+    - {side: neutral, path: [[4.40821, 50.69751], [4.4115, 50.6855], [4.414, 50.679], [4.41587, 50.6767], [4.4131, 50.6628], [4.41049, 50.655], [4.408, 50.646]], width: 25, id: brussels-road, name: The road from Charleroi to Brussels}
+    - {side: britain, path: [[4.39361, 50.67109], [4.39701, 50.67109], [4.39701, 50.66946], [4.39361, 50.66946], [4.39361, 50.67109]], width: 30, id: hougoumont, name: 'Hougoumont, the château, garden and orchard'}
+    - {side: britain, path: [[4.41466, 50.67702], [4.41573, 50.67702], [4.41573, 50.67634], [4.41466, 50.67634], [4.41466, 50.67702]], width: 25, id: la-haye-sainte, name: 'La Haye Sainte, held by 400 light infantry of the King’s German Legion'}
+    - {side: britain, path: [[4.43189, 50.68005], [4.43316, 50.68005], [4.43316, 50.67937], [4.43189, 50.67937], [4.43189, 50.68005]], width: 25, id: papelotte, name: 'Papelotte, fortified and garrisoned'}
+  units:
+    - {side: france, type: infantry, at: [4.41487, 50.67462], width: 450, depth: 160, facing: 0, id: derlon, name: 'd’Erlon’s I Corps, four divisions in columns, about 14,000'}
+    - {side: france, type: infantry, at: [4.4231, 50.67742], width: 280, depth: 220, facing: 0, id: derlon, name: 'd’Erlon’s I Corps, four divisions in columns, about 14,000'}
+    - {side: france, type: infantry, at: [4.42877, 50.67788], width: 280, depth: 220, facing: 0, id: derlon, name: 'd’Erlon’s I Corps, four divisions in columns, about 14,000'}
+    - {side: france, type: infantry, at: [4.43515, 50.67779], width: 280, depth: 220, facing: 0, id: derlon, name: 'd’Erlon’s I Corps, four divisions in columns, about 14,000'}
+    - {side: france, type: cavalry, at: [4.40935, 50.67616], width: 300, depth: 140, facing: 20, id: cuirassiers, name: Cuirassiers covering d’Erlon’s left}
+    - {side: france, type: artillery, at: [4.42522, 50.66901], width: 1600, depth: 100, facing: 355, id: grand-battery, name: 'The grand battery, 80 guns', count: 16}
+    - {side: france, type: cavalry, at: [4.43727, 50.66811], width: 600, depth: 200, facing: 300, id: milhaud, name: Milhaud’s cuirassiers and Jaquinot’s lancers counter-charge}
+    - {side: france, type: infantry, at: [4.44223, 50.66132], width: 700, depth: 300, facing: 70, id: lobau, name: Lobau’s VI Corps moves to face the Prussians}
+    - {side: britain, type: infantry, at: [4.42381, 50.68095], width: 1100, depth: 150, facing: 180, id: picton, name: 'Picton’s division: Kempt’s and Pack’s brigades'}
+    - {side: britain, type: infantry, at: [4.40935, 50.68077], width: 600, depth: 200, facing: 180, id: alten, name: Alten’s 3rd Division}
+    - {side: britain, type: cavalry, at: [4.41176, 50.67127], width: 500, depth: 150, facing: 180, id: household, name: The Household Brigade under Somerset}
+    - {side: britain, type: cavalry, at: [4.42735, 50.67109], width: 500, depth: 150, facing: 180, id: union, name: 'The Union Brigade under Ponsonby, among the guns'}
+  arrows:
+    - {side: britain, path: [[4.41034, 50.68394], [4.40991, 50.67851], [4.41147, 50.67263]], width: 160, id: household-charge, name: The Household Brigade charges}
+    - {side: britain, path: [[4.42239, 50.68394], [4.42593, 50.67941], [4.42707, 50.67236]], width: 160, id: union-charge, name: The Union Brigade charges through d’Erlon’s columns}
+    - {side: france, path: [[4.43444, 50.66874], [4.43231, 50.66982], [4.43061, 50.67073]], width: 140, id: milhaud-charge, name: The French counter-charge}
+    - {side: france, path: [[4.41955, 50.65906], [4.42948, 50.65951], [4.43869, 50.66087]], width: 140, id: lobau-move, name: Lobau marches to the right}
+  clashes:
+    - [4.42522, 50.67923]
+    - [4.4316, 50.67941]
+    - [4.40991, 50.67724]
+    - {at: [4.42806, 50.66982], size: 180}
+images:
+  waterloo-scotland-forever:
+    file: waterloo-scotland-forever.jpg
+    caption: "“Scotland Forever!”, the charge of the Scots Greys, painting by Elizabeth Thompson, Lady Butler, 1881"
+    credit: "Wikimedia Commons, Elizabeth Thompson, Lady Butler, Public domain (Scotland Forever!.jpg)"
+  waterloo-ewart:
+    file: waterloo-ewart.jpg
+    caption: "Sergeant Charles Ewart of the Scots Greys takes the eagle of the 45th Line, painting by Richard Ansdell, 1847"
+    credit: "Wikimedia Commons, Richard Ansdell, CC BY-SA 3.0 (Richard Ansdell — The Fight For The Standard.jpg)"

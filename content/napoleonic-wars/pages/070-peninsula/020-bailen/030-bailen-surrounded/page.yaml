@@ -1,0 +1,38 @@
+date: "19 July 1808, 10 am to noon"
+when: {from: '1808-07-19'}
+title: "Dupont surrounded"
+bbox: [-3.86047, 38.07319, -3.71779, 38.14466]
+zones: []
+routes: []
+markers: [bailen-surrounded-dupont, bailen-surrounded-sailors, bailen-surrounded-lapena, bailen-surrounded-cruz, bailen-surrounded-town]
+sources: ['Maximilien Sébastien Foy, History of the War in the Peninsula under Napoleon, vol. II (1827).', 'Charles Oman, A History of the Peninsular War, vol. I (1902).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-3.83878, 38.1528], [-3.84334, 38.132], [-3.8422, 38.11435], [-3.85019, 38.09852], [-3.86389, 38.07772]], width: 50, id: rumblar, name: 'The Rumblar, a tributary of the Guadalquivir'}
+  works:
+    - {path: [[-3.87416, 38.10486], [-3.8422, 38.11435], [-3.81709, 38.10983], [-3.79655, 38.10576], [-3.776, 38.094], [-3.7566, 38.10576], [-3.73263, 38.11571], [-3.70523, 38.12385]], width: 20, id: highway, name: The highway from Andújar through Bailén to the Sierra Morena}
+  units:
+    - {side: spain, type: infantry, at: [-3.7897, 38.11119], width: 2000, depth: 220, facing: 297, id: spanish-right, name: 'The Spanish right under Reding, Swiss regulars and militia'}
+    - {side: spain, type: infantry, at: [-3.80511, 38.08722], width: 2300, depth: 220, facing: 297, id: spanish-left, name: 'The Spanish left under Coupigny, the Walloon Guards'}
+    - {side: spain, type: artillery, at: [-3.79826, 38.09807], width: 700, depth: 90, facing: 297, id: spanish-guns, name: 'Spanish artillery, raking the French columns', count: 7}
+    - {side: spain, type: infantry, at: [-3.78627, 38.09943], width: 600, depth: 160, facing: 295, id: swiss, name: 'Swiss regiments of Dupont’s corps, gone over to the Spaniards'}
+    - {side: spain, type: light, at: [-3.82508, 38.1329], width: 1100, depth: 150, facing: 180, id: cruz, name: 'Cruz Mourgeón’s 2,000 sharpshooters among the rocks'}
+    - {side: spain, type: infantry, at: [-3.85476, 38.11119], width: 1200, depth: 250, facing: 100, id: lapena, name: Lapeña’s division of Castaños’s army}
+    - {side: france, type: infantry, at: [-3.80454, 38.1139], width: 800, depth: 220, facing: 115, id: guard-attack, name: Pannetier’s brigade and the 300 Sailors of the Guard}
+    - {side: france, type: infantry, at: [-3.8091, 38.09943], width: 900, depth: 180, facing: 115, id: chabert, name: 'Chabert’s and Duprès’s troops, spent'}
+    - {side: france, type: cavalry, at: [-3.8091, 38.12385], width: 450, depth: 140, facing: 115, id: cuirassiers, name: Dupont’s cuirassiers}
+    - {side: france, type: infantry, at: [-3.8365, 38.11526], width: 900, depth: 220, facing: 290, id: barbou, name: 'Barbou’s division at the Rumblar, facing Castaños'}
+  arrows:
+    - {side: france, path: [[-3.81138, 38.11345], [-3.7994, 38.113], [-3.78741, 38.11255]], width: 150, id: third-attack, name: The third attack breaks the first Spanish line and is driven back}
+    - {side: spain, path: [[-3.8091, 38.10576], [-3.79769, 38.10305], [-3.78799, 38.10033]], width: 100, id: swiss-defect, name: The Swiss regiments change sides}
+    - {side: spain, path: [[-3.8365, 38.15371], [-3.83193, 38.14376], [-3.82622, 38.13516]], width: 110, id: cruz-descent, name: Cruz Mourgeón comes down from the hills along the Rumblar}
+    - {side: spain, path: [[-3.87074, 38.10757], [-3.85704, 38.11028]], width: 120, id: lapena-arrival, name: Lapeña arrives behind Barbou}
+  clashes:
+    - [-3.79027, 38.11255]
+    - [-3.84563, 38.1139]
+images:
+  bailen-capitulation:
+    file: bailen-capitulation.jpg
+    caption: "French officers at the capitulation of Bailén, painting by Maurice Orange, 1906"
+    credit: "Wikimedia Commons, Maurice Orange, Public domain (Capitulation at Bailen.jpg)"

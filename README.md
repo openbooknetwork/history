@@ -43,7 +43,8 @@ move the chosen files into the page's `images/` folder, and add them to `page.ya
 credit that names the author, the licence and the Commons page.
 
 A page entry can also list Wikipedia articles under `articles:`, and every Commons image those articles
-use joins the candidates. `--queries <file>` reads the entries from another file.
+use joins the candidates. `--queries <file>` reads the entries from another file, and `--out <name>` writes into
+`.candidates/<name>/` so that two fetches at once keep separate index files.
 
 ```
 node scripts/fetch-candidates.mjs ataturk-turkish-republic --limit 6

@@ -1,0 +1,40 @@
+date: "28 November 1812"
+title: "Battle on both banks"
+bbox: [28.27, 54.272, 28.455, 54.358]
+zones: []
+routes: []
+markers: [berezina-banks-ney, berezina-banks-wittgenstein, berezina-banks-guns]
+sources: ['David G. Chandler, The Campaigns of Napoleon (1966).', 'Adam Zamoyski, Moscow 1812: Napoleon’s Fatal March (2004).', 'Paul Britten Austin, 1812: The Great Retreat (1996).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[28.335, 54.4], [28.345, 54.37], [28.352, 54.345], [28.355, 54.326], [28.36, 54.305], [28.375, 54.285], [28.4, 54.265], [28.44, 54.248], [28.48, 54.235], [28.505, 54.225]], width: 70, id: berezina, name: 'The Berezina, 20 to 30 metres wide and full of drifting ice'}
+  works:
+    - {side: france, path: [[28.35284, 54.32727], [28.35716, 54.32736]], width: 50, id: bridges, name: 'Eblé’s two bridges at Studienka, one of them breaking under the crowd'}
+    - {side: france, path: [[28.35284, 54.32473], [28.35716, 54.32482]], width: 50, id: bridges, name: 'Eblé’s two bridges at Studienka, one of them breaking under the crowd'}
+  units:
+    - {side: france, type: infantry, at: [28.33338, 54.30624], width: 1600, depth: 400, facing: 190, id: ney, name: 'Oudinot’s and Ney’s corps with the Poles, under Ney after Oudinot is wounded'}
+    - {side: france, type: cavalry, at: [28.3149, 54.30262], width: 700, depth: 300, facing: 170, id: doumerc, name: Doumerc’s cuirassiers}
+    - {side: france, type: infantry, at: [28.32722, 54.32343], width: 1000, depth: 350, facing: 250, id: guard, name: The Imperial Guard}
+    - {side: russia, type: infantry, at: [28.32892, 54.28576], width: 1800, depth: 450, facing: 10, id: chaplits, name: 'Chaplits, reinforced with infantry from Chichagov'}
+    - {side: france, type: infantry, at: [28.38348, 54.31976], width: 1600, depth: 400, facing: 110, id: victor, name: 'IX Corps under Victor, holding the east bank'}
+    - {side: russia, type: infantry, at: [28.40657, 54.31614], width: 2000, depth: 500, facing: 290, id: wittgenstein, name: 'Wittgenstein’s army, attacking from 5 am'}
+    - {side: russia, type: artillery, at: [28.38502, 54.33876], width: 700, depth: 160, facing: 220, id: russian-guns, name: Russian guns firing on the bridges from 1 pm, count: 6}
+    - {side: other, type: light, at: [28.36962, 54.32564], width: 1400, depth: 400, facing: 270, id: stragglers, name: Stragglers and civilians crowding to the bridges, count: 7}
+  arrows:
+    - {side: russia, path: [[28.32892, 54.28848], [28.32815, 54.293]], width: 170, id: chaplits-attack, name: Chaplits pushes the French back towards Brili}
+    - {side: france, path: [[28.3149, 54.30398], [28.31506, 54.29029]], width: 150, id: doumerc-charge, name: Doumerc’s cuirassiers charge and drive the Russians back}
+    - {side: russia, path: [[28.39888, 54.31705], [28.3881, 54.31931]], width: 170, id: wittgenstein-attack, name: Wittgenstein pushes Victor back in eight hours of fighting}
+  clashes:
+    - {at: [28.32815, 54.2939], size: 220}
+    - {at: [28.31429, 54.29164], size: 180}
+    - {at: [28.38733, 54.31949], size: 220}
+images:
+  berezina-dutch:
+    file: berezina-dutch.jpg
+    caption: "Dutch soldiers at the Berezina, by Jan Hoynck van Papendrecht, 1910"
+    credit: "Wikimedia Commons, Jan Hoynck van Papendrecht, Public domain (Dutch Soldiers at the Battle of Berezina.jpg)"
+  berezina-adam:
+    file: berezina-adam.jpg
+    caption: "The crossing of the Berezina, lithograph by Victor Adam"
+    credit: "Wikimedia Commons, Victor Adam, Public domain (Biarezina. Бярэзіна (V. Adam, 1801-50).jpg)"

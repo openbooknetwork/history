@@ -1,0 +1,34 @@
+date: "14 January 1797, afternoon"
+when: '1797-01-14'
+title: "Lusignan's column"
+bbox: [10.74529, 45.5319, 10.86591, 45.61241]
+zones: []
+routes: []
+markers: [rivoli-lus-lusignan, rivoli-lus-brune, rivoli-lus-rey, rivoli-lus-victor, rivoli-lus-alvinczi]
+sources: ['David G. Chandler, The Campaigns of Napoleon (1966).', 'Digby Smith, The Napoleonic Wars Data Book (1998).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[10.872, 45.63], [10.862, 45.62], [10.858, 45.61], [10.851, 45.6], [10.845, 45.592], [10.836, 45.585], [10.828, 45.578], [10.823, 45.571], [10.8265, 45.563], [10.831, 45.557], [10.826, 45.55], [10.817, 45.543], [10.81, 45.537], [10.803, 45.53]], width: 80, id: adige, name: The river Adige in its gorge}
+  units:
+    - {side: france, type: artillery, at: [10.8128, 45.5812], width: 340, depth: 60, facing: 85, id: french-guns, name: French guns at the head of the defile, count: 8}
+    - {side: france, type: infantry, at: [10.8015, 45.5915], width: 1500, depth: 220, facing: 15, id: joubert, name: Joubert’s division on the heights}
+    - {side: france, type: infantry, at: [10.8115, 45.5625], width: 700, depth: 200, facing: 180, id: brune, name: Brune’s brigade and the 18th demi-brigade}
+    - {side: france, type: infantry, at: [10.8005, 45.5445], width: 900, depth: 240, facing: 20, id: rey, name: 'Rey’s division, coming up from Castelnuovo'}
+    - {side: france, type: infantry, at: [10.8132, 45.5452], width: 450, depth: 200, facing: 0, id: victor, name: Victor’s reserve brigade}
+    - {side: austria, type: infantry, at: [10.8095, 45.5545], width: 700, depth: 260, facing: 0, id: lusignan, name: 'Lusignan’s column, crushed'}
+    - {side: austria, type: infantry, at: [10.7965, 45.6055], width: 1100, depth: 260, facing: 190, id: koblos-lipthay, name: 'Alvinczi’s columns, back on the slopes of Monte Baldo'}
+    - {side: austria, type: infantry, at: [10.8455, 45.5985], width: 140, depth: 700, facing: 215, id: quosdanovich, name: 'Quosdanovich’s column, back in the Adige valley'}
+  arrows:
+    - {side: france, path: [[10.8015, 45.5475], [10.8055, 45.5515]], width: 120, id: rey-attack, name: Rey falls on Lusignan’s rear}
+    - {side: france, path: [[10.8132, 45.5475], [10.8115, 45.5518]], width: 110, id: victor-attack, name: Victor attacks}
+    - {side: austria, path: [[10.8035, 45.5555], [10.7855, 45.5575], [10.7655, 45.5565], [10.7505, 45.5535]], width: 110, id: lusignan-flight, name: 'Lusignan flees west with fewer than 2,000 men', style: dashed}
+    - {side: austria, path: [[10.7945, 45.5965], [10.7962, 45.6035]], width: 110, id: alvinczi-retreat, name: Alvinczi’s battalions fall back, style: dashed}
+  clashes:
+    - {at: [10.8105, 45.5585], size: 150}
+    - {at: [10.8075, 45.5515], size: 150}
+images:
+  rivoli-detaille:
+    file: rivoli-detaille.jpg
+    caption: "General Bonaparte and his staff review Austrian prisoners in Italy, painting by Édouard Detaille, 1883"
+    credit: "Wikimedia Commons, Édouard Detaille, Public domain (Detaille Bonaparte in Italy 1797.jpg)"

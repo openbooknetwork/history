@@ -1,0 +1,44 @@
+date: "18 June 1815, morning to 13:00"
+when: {from: '1815-06-18'}
+title: "The attack on Hougoumont"
+bbox: [4.37703, 50.64956, 4.45783, 50.69298]
+zones: []
+routes: []
+markers: [waterloo-18-napoleon, waterloo-18-wellington, waterloo-18-bauduin]
+sources: ['Alessandro Barbero, The Battle: A New History of Waterloo (2003).', 'William Siborne, The Waterloo Campaign, 1815 (1848).', 'Tim Clayton, Waterloo: Four Days that Changed Europe’s Destiny (2014).']
+emblem:
+  kind: battle-plan
+  works:
+    - {side: neutral, path: [[4.38128, 50.67923], [4.39404, 50.67969], [4.40396, 50.67969], [4.414, 50.679], [4.42381, 50.67941], [4.43231, 50.68014], [4.44223, 50.68122], [4.45216, 50.68213]], width: 25, id: ohain-road, name: The sunken Ohain road along the ridge}
+    - {side: neutral, path: [[4.40821, 50.69751], [4.4115, 50.6855], [4.414, 50.679], [4.41587, 50.6767], [4.4131, 50.6628], [4.41049, 50.655], [4.408, 50.646]], width: 25, id: brussels-road, name: The road from Charleroi to Brussels}
+    - {side: britain, path: [[4.39361, 50.67109], [4.39701, 50.67109], [4.39701, 50.66946], [4.39361, 50.66946], [4.39361, 50.67109]], width: 30, id: hougoumont, name: 'Hougoumont, the château, garden and orchard'}
+    - {side: britain, path: [[4.41466, 50.67702], [4.41573, 50.67702], [4.41573, 50.67634], [4.41466, 50.67634], [4.41466, 50.67702]], width: 25, id: la-haye-sainte, name: 'La Haye Sainte, held by 400 light infantry of the King’s German Legion'}
+    - {side: britain, path: [[4.43189, 50.68005], [4.43316, 50.68005], [4.43316, 50.67937], [4.43189, 50.67937], [4.43189, 50.68005]], width: 25, id: papelotte, name: 'Papelotte, fortified and garrisoned'}
+  units:
+    - {side: britain, type: infantry, at: [4.39758, 50.68104], width: 1000, depth: 200, facing: 180, id: allied-right, name: 'Wellington’s right wing, with the British Foot Guards'}
+    - {side: britain, type: infantry, at: [4.40935, 50.68077], width: 600, depth: 200, facing: 180, id: alten, name: Alten’s 3rd Division in the centre}
+    - {side: britain, type: infantry, at: [4.4231, 50.68059], width: 1100, depth: 200, facing: 180, id: picton, name: 'Picton’s division with Kempt’s and Pack’s brigades, and Bylandt’s brigade in front'}
+    - {side: britain, type: cavalry, at: [4.41034, 50.68439], width: 500, depth: 150, facing: 180, id: heavy-cavalry, name: 'Uxbridge’s heavy cavalry, the Household and Union Brigades'}
+    - {side: britain, type: cavalry, at: [4.42239, 50.68439], width: 500, depth: 150, facing: 180, id: heavy-cavalry, name: 'Uxbridge’s heavy cavalry, the Household and Union Brigades'}
+    - {side: france, type: infantry, at: [4.39971, 50.66403], width: 1600, depth: 300, facing: 10, id: reille, name: 'Reille’s II Corps, 13,000 infantry'}
+    - {side: france, type: infantry, at: [4.39475, 50.66711], width: 450, depth: 160, facing: 5, id: jerome, name: Jérôme’s division attacks Hougoumont}
+    - {side: france, type: infantry, at: [4.42664, 50.66539], width: 2000, depth: 300, facing: 0, id: derlon, name: 'd’Erlon’s I Corps, 16,000 infantry'}
+    - {side: france, type: artillery, at: [4.42522, 50.66901], width: 1600, depth: 100, facing: 355, id: grand-battery, name: 'The grand battery, 80 guns', count: 16}
+    - {side: france, type: cavalry, at: [4.42806, 50.66087], width: 1200, depth: 250, facing: 0, id: milhaud, name: Milhaud’s cuirassiers behind d’Erlon}
+    - {side: france, type: infantry, at: [4.41884, 50.65861], width: 700, depth: 300, facing: 0, id: lobau, name: 'Lobau’s VI Corps, 6,000'}
+    - {side: france, type: infantry, at: [4.40254, 50.65589], width: 900, depth: 400, facing: 0, id: guard, name: 'The Imperial Guard, 13,000 infantry'}
+  arrows:
+    - {side: france, path: [[4.39475, 50.66783], [4.39489, 50.66856], [4.39517, 50.66919]], width: 120, id: bauduin-attack, name: Bauduin’s brigade clears the wood}
+    - {side: france, path: [[4.39191, 50.66765], [4.39092, 50.66982], [4.39319, 50.67163]], width: 110, id: soye-attack, name: The second attack reaches the north gate}
+  clashes:
+    - {at: [4.39517, 50.66919], size: 120}
+    - {at: [4.39375, 50.67145], size: 120}
+images:
+  waterloo-hougoumont-dighton:
+    file: waterloo-hougoumont-dighton.jpg
+    caption: "The château of Hougoumont during the battle, painting by Denis Dighton, 1815"
+    credit: "Wikimedia Commons, Denis Dighton, Public domain (Castle of Hougoumont during the Battle of Waterloo.jpg)"
+  waterloo-hougoumont-ruins:
+    file: waterloo-hougoumont-ruins.jpg
+    caption: "The interior of Hougoumont after the battle, plate from William Mudford’s account of the campaign, 1817"
+    credit: "Wikimedia Commons, William Mudford, Public domain (Plate R from 'An Historical Account of the Campaign in the Netherlands' by William Mudford (1817).jpg)"

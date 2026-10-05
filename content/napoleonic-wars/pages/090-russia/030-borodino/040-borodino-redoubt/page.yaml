@@ -1,0 +1,47 @@
+date: "7 September 1812, 2 to 6 pm"
+title: "The fall of the great redoubt"
+bbox: [35.765, 55.478, 35.885, 55.553]
+zones: []
+routes: []
+markers: [borodino-aft-caulaincourt, borodino-aft-redoubt, borodino-aft-guard, borodino-aft-napoleon]
+sources: ['Alexander Mikaberidze, The Battle of Borodino: Napoleon Against Kutuzov (2007).', 'Christopher Duffy, Borodino and the War of 1812 (1972).', 'Richard K. Riehn, 1812: Napoleon’s Russian Campaign (1990).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[35.72, 55.518], [35.76, 55.517], [35.79, 55.519], [35.808, 55.522], [35.821, 55.526], [35.833, 55.533], [35.845, 55.541], [35.858, 55.549], [35.868, 55.556]], width: 40, id: kolocha, name: The Kolocha}
+    - {path: [[35.85, 55.506], [35.843, 55.511], [35.834, 55.516], [35.826, 55.522]], width: 25, id: semyonovka, name: The Semyonovka brook}
+    - {path: [[35.79, 55.567], [35.83, 55.562], [35.868, 55.556], [35.9, 55.553]], width: 90, id: moskva, name: The Moskva}
+  works:
+    - {side: russia, path: [[35.83234, 55.50889], [35.82986, 55.50771], [35.83234, 55.50653]], width: 30, id: fleches, name: 'The Bagration flèches, three open earthworks'}
+    - {side: russia, path: [[35.83424, 55.50618], [35.83176, 55.505], [35.83424, 55.50382]], width: 30, id: fleches, name: 'The Bagration flèches, three open earthworks'}
+    - {side: russia, path: [[35.83583, 55.50347], [35.83335, 55.50229], [35.83583, 55.50111]], width: 30, id: fleches, name: 'The Bagration flèches, three open earthworks'}
+    - {side: russia, path: [[35.84159, 55.52145], [35.83825, 55.5209], [35.8381, 55.5191], [35.84159, 55.51855]], width: 40, id: redoubt, name: 'The great redoubt, later named after Raevsky, with 19 heavy guns'}
+  units:
+    - {side: client, type: infantry, at: [35.83, 55.5205], width: 1100, depth: 400, facing: 90, id: eugene, name: 'The divisions of Broussier, Morand and Gérard'}
+    - {side: france, type: cavalry, at: [35.8395, 55.5085], width: 800, depth: 300, facing: 20, id: caulaincourt, name: Watier’s cuirassiers under Caulaincourt}
+    - {side: rhine, type: cavalry, at: [35.8265, 55.5135], width: 600, depth: 250, facing: 60, id: thielmann, name: Saxon and Polish cavalry under Thielmann}
+    - {side: france, type: infantry, at: [35.846, 55.5015], width: 1000, depth: 400, facing: 90, id: davout, name: Davout’s and Ney’s corps on the Semyonovskaya heights}
+    - {side: france, type: infantry, at: [35.778, 55.503], width: 1400, depth: 500, facing: 90, id: guard, name: 'The Imperial Guard, kept back by Napoleon'}
+    - {side: rhine, type: infantry, at: [35.81, 55.49], width: 1000, depth: 400, facing: 80, id: poniatowski, name: Poniatowski’s Poles at Utitsa}
+    - {side: russia, type: infantry, at: [35.8405, 55.52], width: 260, depth: 180, facing: 260, id: likhachyov, name: 'The 24th Division under Likhachyov, overrun in the redoubt'}
+    - {side: russia, type: square, at: [35.866, 55.508], width: 1300, depth: 450, facing: 265, id: russian-guard, name: 'The Russian Guard in squares, under fire from 4 to 6 pm'}
+    - {side: russia, type: cavalry, at: [35.855, 55.5165], width: 800, depth: 300, facing: 260, id: guard-cavalry, name: 'The Russian Guard cavalry, which stops the French beyond the redoubt'}
+    - {side: russia, type: infantry, at: [35.865, 55.526], width: 1000, depth: 400, facing: 250, id: ostermann, name: Ostermann-Tolstoy’s corps}
+    - {side: russia, type: infantry, at: [35.83, 55.488], width: 1000, depth: 400, facing: 275, id: baggovut, name: Baggovut’s corps}
+  arrows:
+    - {side: client, path: [[35.8335, 55.5205], [35.8385, 55.5202]], width: 190, id: eugene-assault, name: Eugène’s divisions storm the redoubt from the front at 2 pm}
+    - {side: france, path: [[35.8405, 55.511], [35.8435, 55.516], [35.8425, 55.5188]], width: 170, id: caulaincourt-charge, name: Caulaincourt charges the open back of the redoubt and is killed}
+    - {side: rhine, path: [[35.829, 55.5145], [35.8385, 55.5185]], width: 150, id: thielmann-charge, name: Thielmann’s horsemen break into the redoubt from behind}
+    - {side: russia, path: [[35.852, 55.517], [35.845, 55.518]], width: 160, id: guard-cavalry-charge, name: The Russian Guard cavalry stops the French advance}
+  clashes:
+    - {at: [35.8405, 55.5202], size: 240}
+    - {at: [35.8465, 55.5178], size: 200}
+images:
+  borodino-cuirassiers:
+    file: borodino-cuirassiers.jpg
+    caption: "French cuirassiers charging into the great redoubt, painting by Albrecht Adam"
+    credit: "Wikimedia Commons, Albrecht Adam, Public domain (Adam-Borodino French cuirassiers.jpg)"
+  borodino-vereshchagin:
+    file: borodino-vereshchagin.jpg
+    caption: "Napoleon at Borodino, painting by Vasily Vereshchagin, 1897"
+    credit: "Wikimedia Commons, Vasily Vereshchagin, Public domain (Vereshagin.Napoleon near Borodino.jpg)"

@@ -1,0 +1,23 @@
+date: "July 1813 to April 1814"
+when: {from: '1813-07-01', to: '1814-04-17'}
+title: "Into France"
+bbox: [-2.7, 42.2, 2.4, 45.0]
+camera: false
+zones: [france-1813, spain-1813]
+routes: [soult-pyrenees-1813, wellington-bidassoa-1813, wellington-1814, soult-1814, beresford-1814]
+markers: [toulouse-sorauren, toulouse-san-sebastian, toulouse-orthez, toulouse-bordeaux]
+battle: toulouse
+sources: ['Charles Oman, A History of the Peninsular War, vol. VII (1930).', 'John Fortescue, A History of the British Army, vol. X (1920).', 'David Gates, The Spanish Ulcer: A History of the Peninsular War (2001).']
+images:
+  toulouse-pyrenees:
+    file: toulouse-pyrenees.jpg
+    caption: "The Battle of the Pyrenees, 28 July 1813, print after William Heath, 1814 to 1815"
+    credit: "Wikimedia Commons, William Heath, Public domain (Battle of the Pyrenees, July 28th 1813 - Fonds Ancely - B315556101 A HEATH 035 (cropped).jpg)"
+  toulouse-nivelle:
+    file: toulouse-nivelle.jpg
+    caption: "The Battle of the Nivelle, 10 November 1813, print after William Heath, 1814 to 1815"
+    credit: "Wikimedia Commons, William Heath, Public domain (Battle of Nivelle - November 10th 1813 - Fonds Ancely - B315556101 A HEATH 029.jpg)"
+  toulouse-inniskilling:
+    file: toulouse-inniskilling.jpg
+    caption: "The 27th (Inniskilling) Regiment of Foot at Toulouse, painting by Richard Simkin, about 1900"
+    credit: "Wikimedia Commons, Richard Simkin, Public domain (The 27th (Inniskilling) Regiment of Foot at Toulouse, April 1814.jpg)"

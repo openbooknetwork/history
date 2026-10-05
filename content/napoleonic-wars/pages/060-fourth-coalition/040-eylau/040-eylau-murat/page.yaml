@@ -1,0 +1,40 @@
+date: "8 February 1807, midday"
+when: {from: '1807-02-08'}
+title: "Murat’s charge"
+bbox: [20.57468, 54.34416, 20.7193, 54.4191]
+zones: []
+routes: []
+markers: [eylau-murat-murat, eylau-murat-dhautpoul, eylau-murat-grouchy]
+sources: ['F. Loraine Petre, Napoleon’s Campaign in Poland 1806–1807 (1901).', 'David G. Chandler, The Campaigns of Napoleon (1966).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: russia, type: infantry, at: [20.64446, 54.40603], width: 1800, depth: 300, facing: 238, id: russian-right, name: The Russian right}
+    - {side: russia, type: infantry, at: [20.66048, 54.3927], width: 1600, depth: 300, facing: 238, id: russian-centre, name: 'The Russian centre, broken by the charge'}
+    - {side: russia, type: infantry, at: [20.67536, 54.37789], width: 1500, depth: 300, facing: 238, id: russian-left, name: The Russian left}
+    - {side: russia, type: infantry, at: [20.66964, 54.40033], width: 1400, depth: 250, facing: 238, id: russian-second, name: The second Russian line}
+    - {side: russia, type: infantry, at: [20.68664, 54.40656], width: 1400, depth: 300, facing: 238, id: russian-reserve, name: The Russian reserves}
+    - {side: france, type: cavalry, at: [20.6788, 54.40368], width: 900, depth: 250, facing: 58, id: dhautpoul, name: 'D’Hautpoul’s cuirassiers, stopped before the Russian reserves'}
+    - {side: france, type: cavalry, at: [20.66277, 54.38288], width: 800, depth: 250, facing: 58, id: grouchy, name: Grouchy’s dragoons}
+    - {side: france, type: cavalry, at: [20.65819, 54.40253], width: 700, depth: 250, facing: 58, id: guard-cavalry, name: The Guard cavalry in the second wave}
+    - {side: france, type: infantry, at: [20.62957, 54.37818], width: 900, depth: 300, facing: 58, id: guard, name: The Imperial Guard}
+    - {side: france, type: infantry, at: [20.63448, 54.38211], width: 900, depth: 250, facing: 58, id: augereau, name: The survivors of Augereau’s corps}
+    - {side: france, type: infantry, at: [20.66097, 54.37262], width: 1000, depth: 300, facing: 58, id: st-hilaire, name: Saint-Hilaire’s division}
+    - {side: france, type: infantry, at: [20.68255, 54.36772], width: 1300, depth: 300, facing: 328, id: davout, name: Davout’s III Corps deploying}
+  arrows:
+    - {side: france, path: [[20.63104, 54.38192], [20.65508, 54.39179], [20.67618, 54.40272]], width: 140, id: dhautpoul-charge, name: D’Hautpoul’s cuirassiers ride through both Russian lines}
+    - {side: france, path: [[20.63513, 54.37808], [20.65688, 54.37645], [20.66121, 54.38177]], width: 130, id: grouchy-charge, name: Grouchy’s dragoons scatter the Russian cavalry}
+    - {side: france, path: [[20.6245, 54.38806], [20.65623, 54.40181]], width: 120, id: guard-cavalry-charge, name: The Guard cavalry charges in the second wave}
+  clashes:
+    - [20.6577, 54.39275]
+    - [20.66768, 54.39961]
+    - [20.66538, 54.38383]
+images:
+  eylau-murat-charge:
+    file: eylau-murat-charge.jpg
+    caption: "The cavalry charge at Eylau, painting by Jean-Antoine-Siméon Fort, 19th century"
+    credit: "Wikimedia Commons, Jean-Antoine-Siméon Fort, Public domain (Battle of Eylau 1807 by Jean-Antoine-Siméon.jpg)"
+  eylau-murat-woodville:
+    file: eylau-murat-woodville.jpg
+    caption: "Horse grenadiers of the Imperial Guard charging in the snow at Eylau, painting by Richard Caton Woodville, 1913"
+    credit: "Wikimedia Commons, Richard Caton Woodville Jr., Public domain (Maréchal Ney à Eylau.jpg)"

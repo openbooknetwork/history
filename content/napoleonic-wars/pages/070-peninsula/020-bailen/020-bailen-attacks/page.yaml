@@ -1,0 +1,38 @@
+date: "19 July 1808, dawn to 10 am"
+when: {from: '1808-07-19'}
+title: "Dupont attacks"
+bbox: [-3.86047, 38.07319, -3.71779, 38.14466]
+zones: []
+routes: []
+markers: [bailen-attacks-reding, bailen-attacks-dupont, bailen-attacks-dupres, bailen-attacks-town]
+sources: ['Maximilien Sébastien Foy, History of the War in the Peninsula under Napoleon, vol. II (1827).', 'Charles Oman, A History of the Peninsular War, vol. I (1902).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-3.83878, 38.1528], [-3.84334, 38.132], [-3.8422, 38.11435], [-3.85019, 38.09852], [-3.86389, 38.07772]], width: 50, id: rumblar, name: 'The Rumblar, a tributary of the Guadalquivir'}
+  works:
+    - {path: [[-3.87416, 38.10486], [-3.8422, 38.11435], [-3.81709, 38.10983], [-3.79655, 38.10576], [-3.776, 38.094], [-3.7566, 38.10576], [-3.73263, 38.11571], [-3.70523, 38.12385]], width: 20, id: highway, name: The highway from Andújar through Bailén to the Sierra Morena}
+  units:
+    - {side: spain, type: infantry, at: [-3.7897, 38.11119], width: 2000, depth: 220, facing: 297, id: spanish-right, name: 'The Spanish right under Reding, Swiss regulars and militia'}
+    - {side: spain, type: infantry, at: [-3.80511, 38.08722], width: 2300, depth: 220, facing: 297, id: spanish-left, name: 'The Spanish left under Coupigny, held by the Walloon Guards'}
+    - {side: spain, type: artillery, at: [-3.79826, 38.09807], width: 700, depth: 90, facing: 297, id: spanish-guns, name: 'Spanish artillery, 20 guns', count: 7}
+    - {side: spain, type: infantry, at: [-3.77315, 38.10576], width: 450, depth: 150, facing: 45, id: bailen-garrison, name: A few battalions left to hold Bailén}
+    - {side: france, type: infantry, at: [-3.80282, 38.10938], width: 650, depth: 180, facing: 115, id: chabert, name: 'Chabert’s vanguard, 3,000 men'}
+    - {side: france, type: cavalry, at: [-3.81538, 38.08993], width: 450, depth: 140, facing: 115, id: dupres, name: Duprès with the chasseurs à cheval}
+    - {side: france, type: cavalry, at: [-3.80339, 38.12023], width: 450, depth: 140, facing: 115, id: cuirassiers, name: Dupont’s cuirassiers}
+    - {side: france, type: artillery, at: [-3.80853, 38.10259], width: 300, depth: 80, facing: 115, id: french-guns, name: 'French batteries, knocked out by the Spanish guns', count: 4}
+    - {side: france, type: camp, at: [-3.82508, 38.11028], width: 700, depth: 300, facing: 115, id: convoy, name: 'Dupont’s wagons, laden with the loot of Córdoba'}
+    - {side: france, type: infantry, at: [-3.8365, 38.11526], width: 900, depth: 220, facing: 290, id: barbou, name: Barbou’s division covering the rear at the Rumblar}
+  arrows:
+    - {side: france, path: [[-3.81024, 38.10893], [-3.79997, 38.10956], [-3.79198, 38.11046]], width: 130, id: chabert-attack, name: 'Chabert’s first attack, thrown back'}
+    - {side: france, path: [[-3.8131, 38.08993], [-3.80967, 38.08902], [-3.80682, 38.08812]], width: 110, id: dupres-attack, name: Chabert and Duprès attack the Walloon Guards}
+    - {side: france, path: [[-3.80168, 38.11933], [-3.79883, 38.10847], [-3.79746, 38.09988]], width: 110, id: cuirassier-charge, name: The cuirassiers break into the Spanish guns and are driven out}
+  clashes:
+    - [-3.79221, 38.11056]
+    - [-3.80705, 38.08812]
+    - [-3.79746, 38.09898]
+images:
+  bailen-reding:
+    file: bailen-reding.jpg
+    caption: "General Theodor von Reding, portrait by an unknown artist, private collection"
+    credit: "Wikimedia Commons, unknown author, CC BY-SA 4.0 (Theodor Reding von Biberegg.jpg)"

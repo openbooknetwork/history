@@ -1,0 +1,37 @@
+date: "22 July 1812, evening"
+when: {from: '1812-07-22'}
+title: "Clauzel’s counterattack"
+bbox: [-5.69792, 40.85255, -5.58148, 40.91407]
+zones: []
+routes: []
+markers: [salamanca-clauzel-clauzel, salamanca-clauzel-beresford, salamanca-clauzel-greater]
+sources: ['Rory Muir, Salamanca, 1812 (2001).', 'Ian Fletcher, Salamanca 1812: Wellington Crushes Marmont (1997).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: france, type: infantry, at: [-5.63495, 40.88964], width: 900, depth: 220, facing: 0, id: clauzel, name: 'Clauzel’s division, counterattacking'}
+    - {side: france, type: infantry, at: [-5.62544, 40.88874], width: 700, depth: 220, facing: 0, id: bonet, name: 'Bonet’s division, counterattacking'}
+    - {side: france, type: cavalry, at: [-5.64564, 40.88783], width: 500, depth: 150, facing: 0, id: boyer, name: 'Boyer’s dragoons, 1,500'}
+    - {side: france, type: infantry, at: [-5.65514, 40.87517], width: 800, depth: 220, facing: 0, id: sarrut, name: 'Sarrut’s division, shoring up the broken left'}
+    - {side: france, type: artillery, at: [-5.6195, 40.8815], width: 450, depth: 100, facing: 0, id: arapile-guns, name: A battery of 40 guns on the Greater Arapile, count: 8}
+    - {side: france, type: infantry, at: [-5.61356, 40.89688], width: 1600, depth: 220, facing: 270, id: foy-ferey, name: 'Foy’s and Ferey’s divisions on the short side of the French L, 10,300'}
+    - {side: britain, type: infantry, at: [-5.63613, 40.89688], width: 800, depth: 200, facing: 180, id: cole, name: The survivors of Cole’s 4th Division}
+    - {side: britain, type: infantry, at: [-5.63851, 40.9014], width: 1200, depth: 220, facing: 180, id: clinton, name: 'Clinton’s 6th Division in second line, 5,500'}
+    - {side: britain, type: infantry, at: [-5.65099, 40.89145], width: 350, depth: 150, facing: 90, id: spry, name: Spry’s Portuguese brigade of the 5th Division}
+    - {side: britain, type: infantry, at: [-5.66465, 40.88421], width: 1300, depth: 220, facing: 180, id: leith-pakenham, name: The 3rd and 5th Divisions after breaking the French left}
+    - {side: britain, type: infantry, at: [-5.63257, 40.90954], width: 900, depth: 200, facing: 135, id: first, name: 'The 1st Division, moving to the centre'}
+    - {side: britain, type: infantry, at: [-5.65396, 40.90593], width: 900, depth: 200, facing: 45, id: seventh, name: 'The 7th Division, moving to the centre'}
+    - {side: britain, type: infantry, at: [-5.62722, 40.89055], width: 400, depth: 150, facing: 180, id: pack, name: 'Pack’s Portuguese brigade, 2,600'}
+  arrows:
+    - {side: france, path: [[-5.63495, 40.8815], [-5.63554, 40.88964], [-5.63673, 40.89643]], width: 140, id: clauzel-attack, name: Clauzel and Bonet strike Cole and the 6th Division}
+    - {side: britain, path: [[-5.65396, 40.89326], [-5.64683, 40.891], [-5.64089, 40.89009]], width: 110, id: spry-attack, name: Spry’s brigade attacks the French flank}
+    - {side: britain, path: [[-5.62544, 40.91316], [-5.63138, 40.91045]], width: 100, id: first-move, name: Wellington brings over the 1st Division}
+    - {side: britain, path: [[-5.66346, 40.91135], [-5.65633, 40.90683]], width: 100, id: seventh-move, name: Wellington brings over the 7th Division}
+  clashes:
+    - [-5.63613, 40.89552]
+    - [-5.64267, 40.89055]
+images:
+  salamanca-heath:
+    file: salamanca-heath.jpg
+    caption: "The Battle of Salamanca, 22 July 1812, print after William Heath, 1815"
+    credit: "Wikimedia Commons, William Heath, Public domain (Battle of Salamanca, 22nd July 1812 (cropped).jpg)"

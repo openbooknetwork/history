@@ -1,0 +1,13 @@
+// 1793: the execution of the king, the defeats and revolts of spring, the victories of the autumn.
+import { writePlan } from './lib.mjs';
+
+writePlan('pages/020-first-coalition/030-coalition-1793', {
+  markers: {
+    'coalition-1793-paris': { lnglat: [2.32, 48.866], icon: 'skull', label: 'Paris', note: 'Louis XVI executed, 21 January' },
+    'coalition-1793-neerwinden': { lnglat: [5.06, 50.76], icon: 'swords', color: 'austria', label: 'Neerwinden', note: 'Coburg beats Dumouriez, 18 March' },
+    'coalition-1793-vendee': { lnglat: [-1.2, 46.75], icon: 'flag', label: 'Vendée', note: 'Royalist revolt from March' },
+    'coalition-1793-mainz': { lnglat: [8.27, 50.0], icon: 'castle', color: 'prussia', label: 'Mainz', note: 'Surrenders to the Prussians, 23 July' },
+    'coalition-1793-hondschoote': { lnglat: [2.58, 50.98], icon: 'swords', color: 'france', label: 'Hondschoote', note: 'York beaten, 6 to 8 September' },
+    'coalition-1793-wattignies': { lnglat: [4.02, 50.2], icon: 'swords', color: 'france', label: 'Wattignies', note: 'Maubeuge relieved, 16 October' },
+  },
+});

@@ -1,0 +1,48 @@
+date: "18 June 1815, 18:00 to 21:00"
+when: {from: '1815-06-18'}
+title: "Plancenoit and the Imperial Guard"
+bbox: [4.37703, 50.64956, 4.45783, 50.69298]
+zones: []
+routes: []
+markers: [waterloo-18-ney-guard, waterloo-18-napoleon-leaves, waterloo-18-belle-alliance]
+sources: ['Alessandro Barbero, The Battle: A New History of Waterloo (2003).', 'William Siborne, The Waterloo Campaign, 1815 (1848).', 'Tim Clayton, Waterloo: Four Days that Changed Europe’s Destiny (2014).']
+emblem:
+  kind: battle-plan
+  works:
+    - {side: neutral, path: [[4.38128, 50.67923], [4.39404, 50.67969], [4.40396, 50.67969], [4.414, 50.679], [4.42381, 50.67941], [4.43231, 50.68014], [4.44223, 50.68122], [4.45216, 50.68213]], width: 25, id: ohain-road, name: The sunken Ohain road along the ridge}
+    - {side: neutral, path: [[4.40821, 50.69751], [4.4115, 50.6855], [4.414, 50.679], [4.41587, 50.6767], [4.4131, 50.6628], [4.41049, 50.655], [4.408, 50.646]], width: 25, id: brussels-road, name: The road from Charleroi to Brussels}
+    - {side: britain, path: [[4.39361, 50.67109], [4.39701, 50.67109], [4.39701, 50.66946], [4.39361, 50.66946], [4.39361, 50.67109]], width: 30, id: hougoumont, name: 'Hougoumont, the château, garden and orchard'}
+    - {side: britain, path: [[4.41466, 50.67702], [4.41573, 50.67702], [4.41573, 50.67634], [4.41466, 50.67634], [4.41466, 50.67702]], width: 25, id: la-haye-sainte, name: 'La Haye Sainte, held by 400 light infantry of the King’s German Legion'}
+    - {side: britain, path: [[4.43189, 50.68005], [4.43316, 50.68005], [4.43316, 50.67937], [4.43189, 50.67937], [4.43189, 50.68005]], width: 25, id: papelotte, name: 'Papelotte, fortified and garrisoned'}
+  units:
+    - {side: france, type: infantry, at: [4.41105, 50.67806], width: 220, depth: 180, facing: 350, id: middle-guard, name: 'Five battalions of the Middle Guard, led by Ney'}
+    - {side: france, type: infantry, at: [4.40396, 50.67851], width: 220, depth: 180, facing: 345, id: middle-guard, name: 'Five battalions of the Middle Guard, led by Ney'}
+    - {side: france, type: infantry, at: [4.39971, 50.6776], width: 220, depth: 180, facing: 345, id: middle-guard, name: 'Five battalions of the Middle Guard, led by Ney'}
+    - {side: france, type: infantry, at: [4.41317, 50.67172], width: 400, depth: 150, facing: 350, id: old-guard, name: Three battalions of the Old Guard in reserve}
+    - {side: france, type: infantry, at: [4.43018, 50.66087], width: 600, depth: 300, facing: 90, id: plancenoit-guard, name: The Young Guard and two Old Guard battalions in Plancenoit}
+    - {side: france, type: infantry, at: [4.43585, 50.67444], width: 600, depth: 200, facing: 30, id: durutte, name: Durutte’s division falls back from Papelotte}
+    - {side: britain, type: infantry, at: [4.40396, 50.68095], width: 450, depth: 70, facing: 180, id: maitland, name: '1,500 British Foot Guards under Peregrine Maitland'}
+    - {side: britain, type: infantry, at: [4.39545, 50.67896], width: 300, depth: 70, facing: 90, id: colborne, name: Colborne’s 52nd Light Infantry wheels onto the flank}
+    - {side: britain, type: infantry, at: [4.41105, 50.6805], width: 500, depth: 150, facing: 180, id: chasse, name: Chassé’s Dutch division}
+    - {side: prussia, type: infantry, at: [4.44011, 50.68077], width: 1000, depth: 250, facing: 220, id: zieten, name: Zieten’s I Corps at Papelotte and Smohain}
+    - {side: prussia, type: infantry, at: [4.44294, 50.65951], width: 900, depth: 300, facing: 270, id: bulow-pirch, name: Bülow’s and Pirch’s brigades storm Plancenoit}
+  arrows:
+    - {side: france, path: [[4.40538, 50.67037], [4.40467, 50.67444], [4.40396, 50.6776]], width: 200, id: guard-advance, name: The Middle Guard climbs the ridge}
+    - {side: britain, path: [[4.40396, 50.68059], [4.40396, 50.67996], [4.40396, 50.67941]], width: 160, id: maitland-volley, name: Maitland’s Guards rise and fire}
+    - {side: britain, path: [[4.39616, 50.67896], [4.39758, 50.6786], [4.39857, 50.67815]], width: 140, id: colborne-attack, name: The 52nd attacks the chasseurs in the flank}
+    - {side: britain, path: [[4.41105, 50.67978], [4.41105, 50.67932], [4.41105, 50.67896]], width: 150, id: chasse-charge, name: Chassé’s bayonet charge}
+    - {side: prussia, path: [[4.4394, 50.65996], [4.43656, 50.6606], [4.43415, 50.66078]], width: 160, id: plancenoit-attack, name: The Prussians take Plancenoit for the last time}
+  clashes:
+    - [4.41105, 50.67905]
+    - [4.40396, 50.67941]
+    - [4.43401, 50.66087]
+    - [4.43585, 50.6758]
+images:
+  waterloo-plancenoit:
+    file: waterloo-plancenoit.jpg
+    caption: "The storming of Plancenoit, painting by Ludwig Elsholtz, 1843"
+    credit: "Wikimedia Commons, Ludwig Elsholtz, Public domain (Ludwig Elsholtz Erstürmung von Planchenois.jpg)"
+  waterloo-maclise:
+    file: waterloo-maclise.jpg
+    caption: "The meeting of Wellington and Blücher after the battle of Waterloo, by Daniel Maclise, 1861"
+    credit: "Wikimedia Commons, Daniel Maclise, Public domain (The Meeting of Wellington and Blücher after the Battle of Waterloo,1861.jpg)"

@@ -1,0 +1,47 @@
+# One story: a timeline shown on one map.
+id: napoleonic-wars
+title: "The French Revolutionary and Napoleonic Wars"
+summary: "The wars of the French Republic and of Napoleon against the coalitions of Europe, from Valmy in 1792 through Austerlitz, Spain and Russia to Waterloo in 1815."
+cover: cover.jpg              # François Gérard, The Battle of Austerlitz, 1810, shown on the main page
+span: "1792 – 1815"
+languages: [en, tr]
+default_language: en
+labels:
+  countries: false
+
+# Map extent for the border data and the opening view: [west, south, east, north]. Reaches Ireland and Portugal,
+# Moscow, Egypt and Syria.
+extent: [-11, 29, 40, 60]
+# Countries whose land the zones are clipped to. Natural Earth names.
+land: [Portugal, Spain, Gibraltar, Andorra, France, Monaco, Belgium, Luxembourg, Netherlands, Germany, Switzerland, Liechtenstein, Austria, Italy,
+  San Marino, Vatican, Malta, Czechia, Slovakia, Hungary, Slovenia, Croatia, Bosnia and Herz., Serbia, Montenegro, Kosovo, Albania, Macedonia,
+  Greece, Bulgaria, Romania, Moldova, Ukraine, Belarus, Poland, Lithuania, Latvia, Estonia, Russia, Finland, Åland, Sweden, Norway, Denmark,
+  United Kingdom, Ireland, Isle of Man, Jersey, Guernsey, Turkey, Cyprus, N. Cyprus, Syria, Lebanon, Israel, Palestine, Jordan, Egypt, Libya,
+  Tunisia, Algeria, Morocco]
+# Countries drawn with borders. Everything else inside the extent is left out.
+countries: [Portugal, Spain, Gibraltar, Andorra, France, Monaco, Belgium, Luxembourg, Netherlands, Germany, Switzerland, Liechtenstein, Austria,
+  Italy, San Marino, Vatican, Malta, Czechia, Slovakia, Hungary, Slovenia, Croatia, Bosnia and Herz., Serbia, Montenegro, Kosovo, Albania,
+  Macedonia, Greece, Bulgaria, Romania, Moldova, Ukraine, Belarus, Poland, Lithuania, Latvia, Estonia, Russia, Finland, Åland, Sweden, Norway,
+  Denmark, United Kingdom, Ireland, Isle of Man, Jersey, Guernsey, Turkey, Cyprus, N. Cyprus, Syria, Lebanon, Israel, Palestine, Jordan, Egypt,
+  Libya, Tunisia, Algeria, Morocco, Saudi Arabia, Iraq, Georgia]
+
+# Zone families. A zone subtracts every zone from a family with a lower priority number.
+# Zones in the same family never cut each other, so one family can hold several dated shapes.
+families:
+  france:   { priority: 0, color: "#1f4e9c", color_dark: "#5b8ee0" }                  # the French Republic, then the Empire
+  client:   { priority: 1, color: "#4a90c8", color_dark: "#82bdf0", pattern: hatch }  # sister republics and Bonaparte kingdoms
+  rhine:    { priority: 2, color: "#7a5fb5", color_dark: "#a98bd6", pattern: dots }   # Confederation of the Rhine, Duchy of Warsaw
+  britain:  { priority: 3, color: "#c0392b", color_dark: "#ef6b5b" }                  # Great Britain and Ireland
+  spain:    { priority: 4, color: "#b03a7a", color_dark: "#e07ab0" }                  # Spain
+  portugal: { priority: 5, color: "#8d6e63", color_dark: "#c4a69a", pattern: hatch }  # Portugal
+  sweden:   { priority: 6, color: "#1aa3b8", color_dark: "#5fd3e6" }                  # Sweden
+  prussia:  { priority: 7, color: "#3d4a5c", color_dark: "#9aa8bd" }                  # Prussia
+  austria:  { priority: 8, color: "#d4a017", color_dark: "#f2c94c" }                  # the Habsburg monarchy
+  ottoman:  { priority: 9, color: "#8e3b46", color_dark: "#d9707f", pattern: cross }  # the Ottoman Empire
+  russia:   { priority: 10, color: "#2e8b57", color_dark: "#5fcf8f" }                 # Russia
+  other:    { priority: 11, color: "#a39171", color_dark: "#cbbb93", pattern: dots }  # smaller and neutral states
+  water:    { priority: 9, color: "#5b9bd5", color_dark: "#2c5d87" }                  # rivers and lakes on the battle plans, no zones
+# Corner rounding passes applied to every hand drawn zone before the clip.
+smoothing: 4
+# Battle plans are drawn at the scale of the field, a few kilometres across.
+max_zoom: 14

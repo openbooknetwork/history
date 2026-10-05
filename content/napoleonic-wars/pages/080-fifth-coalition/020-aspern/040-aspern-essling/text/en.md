@@ -1,0 +1,7 @@
+When Charles learns at about 10 am that the bridge has broken, he orders a new attack along the whole line. Hiller’s and Bellegarde’s columns storm Aspern again, and shortly after 1 pm the exhausted French give up the village for good. At about 2 pm Charles masses about 150 guns against the French centre, where a cannonball shatters Lannes’s leg. He dies of the wound nine days later.
+
+@image aspern-lannes
+
+Rosenberg’s corps and grenadiers led by Charles drive Boudet out of Essling, except for a stone granary that Boudet holds with a few hundred men. Napoleon sends General Georges Mouton with battalions of the Young Guard to retake the village, and General Jean Rapp follows with two more battalions of the Guard. On Rapp’s advice they charge instead of only covering a withdrawal, clear Essling with the bayonet, and Rosenberg falls back towards Gross-Enzersdorf.
+
+Without reinforcements or ammunition, Napoleon gives up the bridgehead, and the army withdraws to the Lobau during the night. Charles does not pursue, and the last French troops leave the left bank by 23 May. The French lose between 20,000 and 23,000 killed and wounded and 3,000 captured, among them Lannes and the generals Saint-Hilaire and Jean-Louis-Brigitte Espagne, and the Austrians about 19,000 killed and wounded and 700 captured. It is Napoleon’s first defeat in a major battle under his own command since 1799, and his bulletin admits only 4,100 killed and wounded.

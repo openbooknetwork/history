@@ -1,0 +1,34 @@
+date: "May 1799"
+when: {from: '1799-05', to: '1799-05-20'}
+title: "The breach"
+bbox: [35.06387, 32.91263, 35.08955, 32.93163]
+zones: []
+routes: []
+markers: [acre-breach-breach, acre-breach-wall, acre-breach-rhodes, acre-breach-camp]
+sources: ['David G. Chandler, The Campaigns of Napoleon (1966).', 'Paul Strathern, Napoleon in Egypt (2008).', 'Steven Englund, Napoleon: A Political Life (2005).']
+emblem:
+  kind: battle-plan
+  works:
+    - {side: ottoman, path: [[35.0669, 32.9262], [35.0735, 32.9262], [35.075, 32.9188]], width: 25, id: walls, name: 'The land walls of Acre, strengthened by Jezzar Pasha'}
+    - {side: france, path: [[35.08484, 32.92376], [35.08228, 32.92484], [35.08056, 32.92566], [35.07853, 32.9252], [35.07703, 32.92647]], width: 18, id: trenches, name: French trenches}
+    - {side: france, path: [[35.07521, 32.92855], [35.07628, 32.92683], [35.07703, 32.92484], [35.07757, 32.9224]], width: 18, id: trenches, name: French trenches}
+    - {side: ottoman, path: [[35.06997, 32.92602], [35.07157, 32.9252], [35.07286, 32.92412], [35.07361, 32.92358]], width: 22, id: inner-wall, name: Second wall built behind the breach by Farhi and Phélippeaux}
+  units:
+    - {side: france, type: camp, at: [35.0858, 32.9236], width: 350, depth: 260, facing: 270, id: camp, name: 'French camp on Tell al-Fukhar, later called Napoleon’s Hill'}
+    - {side: france, type: artillery, at: [35.07671, 32.92765], width: 160, depth: 45, facing: 235, id: siege-guns, name: 'Siege guns landed by Perrée at Jaffa, seven pieces', count: 7}
+    - {side: france, type: infantry, at: [35.07532, 32.92683], width: 60, depth: 140, facing: 225, id: columns, name: French assault columns}
+    - {side: france, type: infantry, at: [35.07596, 32.92566], width: 60, depth: 140, facing: 250, id: columns, name: French assault columns}
+    - {side: ottoman, type: infantry, at: [35.06943, 32.92321], width: 260, depth: 130, facing: 45, id: garrison, name: 'Garrison, with British sailors and marines, behind the second wall'}
+    - {side: ottoman, type: infantry, at: [35.07157, 32.92186], width: 200, depth: 100, facing: 45, id: rhodes, name: Ottoman reinforcements from Rhodes}
+    - {side: britain, type: ships, at: [35.07243, 32.91489], width: 40, depth: 250, count: 2, rows: 2, facing: 315, id: smith, name: Tigre and Theseus under Sidney Smith}
+  arrows:
+    - {side: france, path: [[35.07628, 32.92747], [35.07478, 32.92674], [35.07371, 32.92625]], width: 100, id: storm, name: 'The French storm the breach, 8 May'}
+    - {side: ottoman, path: [[35.06654, 32.9158], [35.06922, 32.91851], [35.07115, 32.92113]], width: 80, id: landing, name: Ottoman reinforcements from Rhodes land in the harbour}
+  clashes:
+    - {at: [35.0735, 32.9262], size: 130}
+    - {at: [35.07222, 32.92566], size: 90}
+images:
+  acre-breach-sutherland:
+    file: acre-breach-sutherland.jpg
+    caption: "The defence of the breach at Acre, 8 May 1799, aquatint by Thomas Sutherland, 1815"
+    credit: "Wikimedia Commons, Thomas Sutherland, Public domain (Thomas Sutherland - Defence of the breach at St Jean dAcre May 8th 1799 1815.jpg)"

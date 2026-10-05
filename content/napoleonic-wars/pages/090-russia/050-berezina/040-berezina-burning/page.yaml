@@ -1,0 +1,32 @@
+date: "29 November 1812"
+title: "The bridges burn"
+bbox: [28.27, 54.272, 28.455, 54.358]
+zones: []
+routes: []
+markers: [berezina-burning-eble, berezina-burning-stragglers, berezina-burning-gaina]
+sources: ['David G. Chandler, The Campaigns of Napoleon (1966).', 'Adam Zamoyski, Moscow 1812: Napoleon’s Fatal March (2004).', 'Paul Britten Austin, 1812: The Great Retreat (1996).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[28.335, 54.4], [28.345, 54.37], [28.352, 54.345], [28.355, 54.326], [28.36, 54.305], [28.375, 54.285], [28.4, 54.265], [28.44, 54.248], [28.48, 54.235], [28.505, 54.225]], width: 70, id: berezina, name: 'The Berezina, 20 to 30 metres wide and full of drifting ice'}
+    - {area: [[28.288, 54.336], [28.298, 54.333], [28.309, 54.335], [28.316, 54.339], [28.313, 54.345], [28.303, 54.348], [28.292, 54.346], [28.285, 54.341]], id: gaina, name: The Gaina swamp on the road to Zembin}
+  works:
+    - {side: france, path: [[28.35284, 54.32727], [28.35716, 54.32736]], width: 50, id: bridges, name: 'The bridges, set on fire at 8:30 am on 29 November'}
+    - {side: france, path: [[28.35284, 54.32473], [28.35716, 54.32482]], width: 50, id: bridges, name: 'The bridges, set on fire at 8:30 am on 29 November'}
+    - {side: france, path: [[28.297, 54.346], [28.303, 54.334]], width: 40, id: gaina-bridges, name: 'Three bridges over the Gaina swamp, destroyed behind the army'}
+  units:
+    - {side: france, type: infantry, at: [28.31182, 54.32886], width: 1500, depth: 400, facing: 290, id: army, name: The Grande Armée marching west to Zembin and Vilnius}
+    - {side: france, type: infantry, at: [28.33338, 54.32071], width: 1000, depth: 350, facing: 120, id: victor, name: 'Victor’s corps, across at 10 pm on 28 November'}
+    - {side: other, type: light, at: [28.36962, 54.32564], width: 1400, depth: 400, facing: 270, id: stragglers, name: Tens of thousands of stragglers and civilians left on the east bank, count: 7}
+    - {side: russia, type: cavalry, at: [28.38502, 54.33514], width: 1000, depth: 300, facing: 250, id: cossacks, name: Cossacks taking prisoners}
+    - {side: russia, type: infantry, at: [28.39272, 54.32067], width: 1800, depth: 450, facing: 290, id: wittgenstein, name: 'Wittgenstein’s army, without means to cross'}
+    - {side: russia, type: infantry, at: [28.32892, 54.28576], width: 1800, depth: 450, facing: 10, id: chaplits, name: 'Chaplits, held off on the west bank'}
+  arrows:
+    - {side: france, path: [[28.33338, 54.32343], [28.3226, 54.32705], [28.29797, 54.33157]], width: 180, id: retreat, name: The army marches west on the road to Zembin, style: dashed}
+    - {side: russia, path: [[28.3804, 54.33333], [28.3727, 54.3279]], width: 150, id: cossack-attack, name: Cossacks and Wittgenstein’s troops round up those left behind}
+  clashes: []
+images:
+  berezina-suchodolski:
+    file: berezina-suchodolski.jpg
+    caption: "The crossing of the Berezina, painting by January Suchodolski, 1866"
+    credit: "Wikimedia Commons, January Suchodolski, Public domain (National Museum in Poznan - Przejście przez Berezynę.JPG)"

@@ -1,0 +1,48 @@
+date: "17 – 18 October 1813"
+when: {from: '1813-10-17', to: '1813-10-18'}
+title: "The allies close the ring"
+bbox: [12.25996, 51.23597, 12.51161, 51.3988]
+zones: []
+routes: []
+markers: [leipzig-18-napoleon, leipzig-18-raevsky, leipzig-18-bogue, leipzig-18-charles-john]
+sources: ['David G. Chandler, The Campaigns of Napoleon (1966).', 'Digby Smith, 1813 Leipzig: Napoleon and the Battle of the Nations (2001).', 'Peter Hofschröer, Leipzig 1813: The Battle of the Nations (2012).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[12.315, 51.215], [12.322, 51.25], [12.33, 51.28], [12.338, 51.305], [12.348, 51.325], [12.357, 51.34], [12.348, 51.35], [12.328, 51.36], [12.305, 51.37], [12.27, 51.38], [12.235, 51.39]], width: 60, id: elster, name: The White Elster}
+    - {path: [[12.395, 51.225], [12.392, 51.25], [12.387, 51.275], [12.389, 51.29], [12.38, 51.302], [12.372, 51.315], [12.367, 51.33], [12.366, 51.345], [12.352, 51.351]], width: 45, id: pleisse, name: The Pleisse}
+    - {path: [[12.505, 51.392], [12.49, 51.383], [12.465, 51.376], [12.44, 51.372], [12.42, 51.366], [12.4, 51.358], [12.383, 51.354], [12.366, 51.349]], width: 40, id: parthe, name: The Parthe}
+  works:
+    - {side: neutral, path: [[12.368, 51.344], [12.377, 51.3455], [12.383, 51.343], [12.384, 51.338], [12.379, 51.3355], [12.37, 51.336], [12.367, 51.34], [12.368, 51.344]], width: 70, id: leipzig, name: 'Leipzig, the walled old town'}
+  units:
+    - {side: france, type: infantry, at: [12.39369, 51.29567], width: 1500, depth: 300, facing: 160, id: poniatowski, name: Poniatowski and Augereau between Connewitz and Dölitz}
+    - {side: france, type: infantry, at: [12.41958, 51.31015], width: 1500, depth: 400, facing: 165, id: probstheida, name: French infantry and the Imperial Guard at Probstheida}
+    - {side: france, type: infantry, at: [12.44259, 51.32643], width: 1500, depth: 350, facing: 100, id: macdonald, name: Macdonald’s XI Corps between Stötteritz and Mölkau}
+    - {side: rhine, type: infantry, at: [12.45409, 51.34498], width: 1000, depth: 300, facing: 90, id: saxons, name: 'Saxons of Reynier’s VII Corps at Paunsdorf, 5,400'}
+    - {side: france, type: infantry, at: [12.42245, 51.35357], width: 2000, depth: 350, facing: 60, id: ney, name: Ney’s troops at Sellerhausen and Schönefeld}
+    - {side: france, type: infantry, at: [12.30022, 51.32643], width: 1200, depth: 350, facing: 250, id: bertrand, name: Bertrand’s IV Corps opens the road to Weissenfels}
+    - {side: austria, type: infantry, at: [12.40807, 51.28301], width: 1500, depth: 400, facing: 340, id: hessen-homburg, name: Hessen-Homburg’s Austrians before Dölitz and Lössnig}
+    - {side: russia, type: infantry, at: [12.43108, 51.29748], width: 1800, depth: 500, facing: 345, id: barclay, name: 'Barclay de Tolly’s Russians and Prussians, about 60,000'}
+    - {side: russia, type: infantry, at: [12.47278, 51.31015], width: 1800, depth: 400, facing: 290, id: bennigsen, name: Bennigsen’s Army of Poland at Holzhausen and Zuckelhausen}
+    - {side: sweden, type: infantry, at: [12.48429, 51.35086], width: 1800, depth: 450, facing: 270, id: charles-john, name: 'Charles John’s Army of the North, with the British rocket troop'}
+    - {side: russia, type: infantry, at: [12.42389, 51.37438], width: 1500, depth: 400, facing: 210, id: langeron, name: Langeron’s Russians}
+  arrows:
+    - {side: russia, path: [[12.42821, 51.3002], [12.42461, 51.30427], [12.42102, 51.30743]], width: 220, id: barclay-assault, name: Barclay’s assaults on Probstheida}
+    - {side: sweden, path: [[12.47135, 51.34905], [12.46703, 51.34724], [12.46272, 51.34588]], width: 180, id: paunsdorf-attack, name: The Army of the North attacks Paunsdorf}
+    - {side: russia, path: [[12.42173, 51.37212], [12.41886, 51.36804], [12.4167, 51.36443]], width: 180, id: langeron-attack, name: Langeron storms Schönefeld}
+    - {side: rhine, path: [[12.4584, 51.34814], [12.46559, 51.35176], [12.47206, 51.35312]], width: 150, id: saxons-defect, name: The Saxons go over to the allies}
+    - {side: france, path: [[12.32467, 51.33729], [12.30598, 51.33095], [12.28153, 51.321], [12.26284, 51.31377]], width: 200, id: bertrand-west, name: Bertrand clears the road west}
+  clashes:
+    - [12.4203, 51.30743]
+    - [12.40016, 51.28934]
+    - [12.4167, 51.36352]
+    - [12.462, 51.34543]
+images:
+  leipzig-sauerweid-1844:
+    file: leipzig-sauerweid-1844.jpg
+    caption: "The battle of Leipzig, painting by Alexander von Sauerweid, 1844"
+    credit: "Wikimedia Commons, Alexander von Sauerweid, Public domain (Sauerweid A.I. Battle of Leipzig, from 2 to 7 october 1813.jpg)"
+  leipzig-hungarians:
+    file: leipzig-hungarians.jpg
+    caption: "The charge of the 19th Hungarian Infantry Regiment at Leipzig, painting by Fritz Neumann, 19th century"
+    credit: "Wikimedia Commons, Fritz Neumann, Public domain (A 19. magyar gyalogezred rohama a lipcsei csataban (1813).JPG)"

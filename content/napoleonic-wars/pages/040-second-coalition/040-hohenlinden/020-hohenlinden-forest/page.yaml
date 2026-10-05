@@ -1,0 +1,37 @@
+date: "3 December 1800, morning"
+when: {from: '1800-12-03'}
+title: "Out of the forest"
+bbox: [11.96433, 48.07496, 12.13536, 48.2188]
+zones: []
+routes: []
+markers: [hohenlinden-forest-moreau, hohenlinden-forest-grouchy, hohenlinden-forest-john, hohenlinden-forest-richepanse, hohenlinden-forest-riesch]
+sources: ['James R. Arnold, Marengo & Hohenlinden: Napoleon’s Rise to Power (2005).', 'Gaston Bodart, Militär-historisches Kriegs-Lexikon (1908).', 'Gunther E. Rothenberg, Napoleon’s Great Adversaries: The Archduke Charles and the Austrian Army, 1792–1814 (1982).']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: france, type: infantry, at: [12.00204, 48.18895], width: 1000, depth: 250, facing: 90, id: bastoul, name: 'Bastoul’s division of Grenier’s corps, 6,300'}
+    - {side: france, type: infantry, at: [12.00339, 48.17267], width: 1300, depth: 250, facing: 90, id: ney, name: 'Ney’s division of Grenier’s corps, 9,600'}
+    - {side: france, type: infantry, at: [12.01416, 48.15864], width: 1300, depth: 250, facing: 90, id: grouchy, name: 'Grouchy’s division, 8,600, astride the road'}
+    - {side: france, type: cavalry, at: [11.98588, 48.16633], width: 600, depth: 200, facing: 90, id: hautpoul, name: 'D’Hautpoul’s heavy cavalry in reserve, 1,700'}
+    - {side: france, type: infantry, at: [12.03436, 48.11296], width: 300, depth: 1500, facing: 45, id: richepanse, name: 'Richepanse’s division, 10,700, marching north-east'}
+    - {side: france, type: infantry, at: [11.998, 48.09306], width: 300, depth: 1300, facing: 45, id: decaen, name: 'Decaen’s division, 10,100, following from Ebersberg'}
+    - {side: austria, type: infantry, at: [12.05321, 48.15774], width: 400, depth: 3600, facing: 270, id: kollowrat, name: 'Kollowrat’s column, 20,000, with Archduke John, on the road from Haag'}
+    - {side: austria, type: infantry, at: [12.06937, 48.17538], width: 900, depth: 300, facing: 270, id: latour, name: 'Latour’s column, 10,800, held up on the forest tracks'}
+    - {side: austria, type: infantry, at: [12.02359, 48.18352], width: 1200, depth: 300, facing: 270, id: schwarzenberg, name: Schwarzenberg’s division of Kienmayer’s column}
+    - {side: austria, type: infantry, at: [12.11651, 48.09939], width: 1200, depth: 300, facing: 270, id: riesch, name: 'Riesch’s column, 13,300, at Albaching'}
+    - {side: austria, type: infantry, at: [12.04783, 48.1211], width: 250, depth: 120, facing: 270, id: grenadiers, name: Two grenadier battalions sent by Kollowrat to find Riesch}
+  arrows:
+    - {side: france, path: [[12.00473, 48.15864], [12.01416, 48.15819], [12.02493, 48.15774]], width: 160, id: grouchy-attack, name: Grouchy counterattacks as the Austrians leave the trees}
+    - {side: austria, path: [[12.05793, 48.21247], [12.04109, 48.1989], [12.02897, 48.18714]], width: 150, id: kienmayer, name: Kienmayer comes down from Isen}
+    - {side: austria, path: [[12.01483, 48.18352], [12.01012, 48.18262], [12.00716, 48.18171]], width: 130, id: schwarzenberg-attack, name: Schwarzenberg attacks Bastoul and Ney}
+    - {side: france, path: [[11.9778, 48.07858], [12.00339, 48.09396], [12.02359, 48.10572]], width: 150, id: richepanse-march, name: Richepanse marches north-east from Ebersberg}
+    - {side: austria, path: [[12.05321, 48.14553], [12.05052, 48.13377], [12.0485, 48.12291]], width: 110, id: grenadiers-march, name: The grenadiers run into Richepanse and cut his column in two}
+  clashes:
+    - [12.02763, 48.15819]
+    - [12.00608, 48.18171]
+    - {at: [12.04513, 48.11974], size: 160}
+images:
+  hohenlinden-richepanse-march:
+    file: hohenlinden-richepanse-march.jpg
+    caption: "Richepanse’s column in the snow-covered forest at Hohenlinden, engraving after Raffet and Breyer, 1845"
+    credit: "Wikimedia Commons, Raffet and Breyer, Public domain (Battle of Hohenlinden March of Richpanse.jpg)"

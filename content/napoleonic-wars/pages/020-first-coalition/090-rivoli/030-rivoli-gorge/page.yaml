@@ -1,0 +1,38 @@
+date: "14 January 1797, late morning"
+when: '1797-01-14'
+title: "The fight at the gorge"
+bbox: [10.74529, 45.5319, 10.86591, 45.61241]
+zones: []
+routes: []
+markers: [rivoli-gorge-lasalle, rivoli-gorge-murat, rivoli-gorge-quosdanovich]
+sources: ['David G. Chandler, The Campaigns of Napoleon (1966).', 'Martin Boycott-Brown, The Road to Rivoli: Napoleon’s First Campaign (2001).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[10.872, 45.63], [10.862, 45.62], [10.858, 45.61], [10.851, 45.6], [10.845, 45.592], [10.836, 45.585], [10.828, 45.578], [10.823, 45.571], [10.8265, 45.563], [10.831, 45.557], [10.826, 45.55], [10.817, 45.543], [10.81, 45.537], [10.803, 45.53]], width: 80, id: adige, name: The river Adige in its gorge}
+  units:
+    - {side: france, type: artillery, at: [10.8128, 45.5812], width: 340, depth: 60, facing: 85, id: french-guns, name: 15 French guns at the head of the defile, count: 8}
+    - {side: france, type: infantry, at: [10.8158, 45.5788], width: 320, depth: 160, facing: 60, id: leclerc, name: Leclerc’s brigade}
+    - {side: france, type: infantry, at: [10.8235, 45.5895], width: 420, depth: 200, facing: 190, id: san-marco, name: Joubert’s men firing into the column from San Marco}
+    - {side: france, type: infantry, at: [10.8045, 45.5865], width: 700, depth: 200, facing: 15, id: vial, name: 'Vial’s brigade, driven back'}
+    - {side: france, type: infantry, at: [10.7915, 45.5905], width: 800, depth: 160, facing: 10, id: joubert-west, name: Joubert’s thinned line on the Trambasore heights}
+    - {side: france, type: infantry, at: [10.8105, 45.5625], width: 300, depth: 220, facing: 180, id: eighteenth, name: 'Masséna’s 18th demi-brigade, sent against Lusignan'}
+    - {side: austria, type: infantry, at: [10.8222, 45.5818], width: 130, depth: 600, facing: 275, id: quosdanovich, name: 'Quosdanovich’s column in the defile, dragoons at its head'}
+    - {side: austria, type: artillery, at: [10.8355, 45.5785], width: 260, depth: 60, facing: 255, id: vukassovich-guns, name: 'Vukassovich’s batteries on the east bank, opposite Osteria', count: 5}
+    - {side: austria, type: infantry, at: [10.8125, 45.5945], width: 700, depth: 260, facing: 200, id: ocskay, name: 'Ocskay’s column, attacking from San Marco'}
+    - {side: austria, type: infantry, at: [10.7935, 45.5975], width: 1100, depth: 260, facing: 190, id: koblos-lipthay, name: Alvinczi’s battalions on the Trambasore heights}
+    - {side: austria, type: infantry, at: [10.8125, 45.5565], width: 900, depth: 240, facing: 0, id: lusignan, name: 'Lusignan’s column south of Rivoli, across the French retreat'}
+  arrows:
+    - {side: france, path: [[10.8165, 45.5795], [10.8195, 45.5808]], width: 110, id: leclerc-attack, name: Leclerc attacks the column from the front}
+    - {side: austria, path: [[10.8255, 45.582], [10.8295, 45.5825], [10.834, 45.5855]], width: 100, id: dragoons-flight, name: The Austrian dragoons stampede back through their own infantry, style: dashed}
+    - {side: austria, path: [[10.8105, 45.5925], [10.8075, 45.5895]], width: 120, id: ocskay-attack, name: Ocskay drives back Vial}
+    - {side: france, path: [[10.7965, 45.5855], [10.8005, 45.5915], [10.8055, 45.5945]], width: 100, id: murat, name: Murat’s cavalry charges Ocskay’s flank at midday}
+    - {side: france, path: [[10.8115, 45.5735], [10.8107, 45.5645]], width: 110, id: eighteenth-march, name: The 18th demi-brigade marches against Lusignan}
+  clashes:
+    - {at: [10.8195, 45.5814], size: 140}
+    - {at: [10.8075, 45.5895], size: 140}
+images:
+  rivoli-reuss:
+    file: rivoli-reuss.jpg
+    caption: "The French drive Prince Reuss’s troops back into the gorge at Rivoli, engraving, 19th century"
+    credit: "Wikimedia Commons, unknown author, Public domain (Bataille de Rivoli ag1.jpg)"

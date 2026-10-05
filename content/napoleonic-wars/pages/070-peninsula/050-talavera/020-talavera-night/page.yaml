@@ -1,0 +1,41 @@
+date: "27 July 1809, evening and night"
+when: {from: '1809-07-27'}
+title: "Night attack on the Medellín"
+bbox: [-4.84774, 39.93911, -4.74598, 40.03334]
+zones: []
+routes: []
+markers: [talavera-night-hill, talavera-night-ninth, talavera-night-panic, talavera-night-town, talavera-night-medellin, talavera-night-cascajal]
+sources: ['Charles Oman, A History of the Peninsular War, vol. II (1903).', 'Andrew Field, Talavera: Wellington’s First Victory in Spain (2006).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-4.74, 39.945], [-4.78, 39.948], [-4.81, 39.953], [-4.835, 39.956], [-4.87, 39.952], [-4.9, 39.947]], width: 140, id: tagus, name: The Tagus}
+    - {path: [[-4.82285, 39.95358], [-4.81848, 39.96101], [-4.81158, 39.97351], [-4.80469, 39.98602], [-4.79881, 39.99399], [-4.79355, 40.00118], [-4.78844, 40.00937], [-4.78102, 40.0198]], width: 35, id: portina, name: The Portiña stream}
+  works:
+    - {side: britain, path: [[-4.81185, 39.98273], [-4.81085, 39.98486]], width: 90, id: redoubt, name: 'The redoubt in the centre, with four light guns'}
+  units:
+    - {side: spain, type: infantry, at: [-4.81851, 39.97257], width: 2400, depth: 300, facing: 110, id: cuesta, name: 'Cuesta’s Spanish army, 28,000 infantry, behind walls and olive groves'}
+    - {side: britain, type: infantry, at: [-4.81126, 39.9869], width: 550, depth: 200, facing: 110, id: campbell, name: 'Alexander Campbell’s 4th Division, 3,000'}
+    - {side: britain, type: infantry, at: [-4.80843, 39.99236], width: 1000, depth: 220, facing: 110, id: sherbrooke, name: Sherbrooke’s Guards and Cameron’s brigade}
+    - {side: britain, type: infantry, at: [-4.80972, 39.99995], width: 450, depth: 160, facing: 110, id: low, name: 'Löw’s brigade of the King’s German Legion, routed and rallying'}
+    - {side: britain, type: infantry, at: [-4.80346, 40.00396], width: 700, depth: 200, facing: 110, id: hill, name: 'Hill’s 2nd Division, Stewart’s brigade on the summit'}
+    - {side: britain, type: infantry, at: [-4.81858, 39.9957], width: 900, depth: 200, facing: 110, id: mackenzie, name: 'Mackenzie’s 3rd Division, back from the outposts'}
+    - {side: france, type: infantry, at: [-4.78248, 39.99952], width: 900, depth: 220, facing: 290, id: ruffin, name: 'Ruffin’s division of Victor’s I Corps, 5,300'}
+    - {side: france, type: infantry, at: [-4.77212, 39.99901], width: 900, depth: 220, facing: 290, id: villatte, name: 'Villatte’s division of Victor’s I Corps, 6,100'}
+    - {side: france, type: infantry, at: [-4.78564, 39.98885], width: 1000, depth: 220, facing: 290, id: lapisse, name: 'Lapisse’s division of Victor’s I Corps, 6,900'}
+    - {side: france, type: infantry, at: [-4.78044, 39.97872], width: 1000, depth: 240, facing: 290, id: sebastiani, name: 'Sébastiani’s IV Corps, coming up from the Alberche'}
+    - {side: france, type: cavalry, at: [-4.80187, 39.96501], width: 900, depth: 200, facing: 290, id: milhaud, name: 'Milhaud’s dragoons, 2,350, facing the Spanish army'}
+  arrows:
+    - {side: france, path: [[-4.78489, 39.99971], [-4.79225, 40.00129], [-4.80091, 40.00277]], width: 120, id: ninth-light, name: The 9th Light climbs the Medellín in the dark}
+    - {side: france, path: [[-4.78388, 40.00183], [-4.78664, 40.0079], [-4.78753, 40.01393]], width: 100, id: ruffin-astray, name: Ruffin’s other two regiments lose their way}
+    - {side: britain, path: [[-4.80892, 40.00694], [-4.80601, 40.00516], [-4.80244, 40.00348]], width: 110, id: stewart-counter, name: Stewart’s brigade retakes the summit}
+    - {side: britain, path: [[-4.80496, 39.99813], [-4.8076, 39.99916]], width: 90, id: low-rout, name: Löw’s brigade is routed, style: dashed}
+    - {side: spain, path: [[-4.81929, 39.97568], [-4.8267, 39.97584], [-4.83561, 39.97545]], width: 120, id: spanish-panic, name: 'Four Spanish battalions flee, nearly 2,000 men', style: dashed}
+  clashes:
+    - [-4.8016, 40.00315]
+    - {at: [-4.80418, 39.9982], size: 120}
+images:
+  talavera-victor:
+    file: talavera-victor.jpg
+    caption: "Marshal Claude Victor, portrait by Antoine-Jean Gros"
+    credit: "Wikimedia Commons, Antoine-Jean Gros, Public domain (Claude-Victor Perrin.jpg)"

@@ -1,0 +1,36 @@
+date: "2 and 3 August 1798"
+when: {from: '1798-08-02', to: '1798-08-03'}
+title: "Villeneuve escapes"
+bbox: [30.08683, 31.30593, 30.15972, 31.36862]
+zones: []
+routes: []
+markers: [nile-morning-villeneuve, nile-morning-zealous, nile-morning-heureux, nile-morning-timoleon, nile-morning-artemise]
+sources: ['Oliver Warner, The Battle of the Nile (1960).', 'William James, The Naval History of Great Britain, volume 2 (1827).', 'N. A. M. Rodger, The Command of the Ocean (2004).']
+emblem:
+  kind: battle-plan
+  works:
+    - {side: '#c9b88a', path: [[30.09687, 31.35295], [30.1032, 31.35071], [30.11011, 31.34899]], width: 480, id: shoals, name: Shoals of Aboukir Bay}
+    - {side: '#c9b88a', path: [[30.10282, 31.34655], [30.10766, 31.33792], [30.11435, 31.33088], [30.12313, 31.32308], [30.13205, 31.3154], [30.13904, 31.3099]], width: 300, id: shoals, name: Shoals of Aboukir Bay}
+  units:
+    - {side: france, type: camp, at: [30.10401, 31.35001], width: 140, depth: 140, facing: 315, id: island-fort, name: 'Fort on Aboukir Island, with French guns and mortars'}
+    - {side: france, type: ships, at: [30.1243, 31.33256], width: 94, depth: 1225, count: 6, rows: 6, facing: 315, id: prizes, name: 'Prizes: Guerrier, Conquérant, Spartiate, Aquilon, Peuple Souverain and Franklin'}
+    - {side: france, type: ships, at: [30.1296, 31.31905], width: 94, depth: 350, count: 2, rows: 2, facing: 315, id: aground, name: 'Heureux and Mercure, aground on the shoal, surrender'}
+    - {side: france, type: ships, at: [30.13491, 31.31371], width: 94, depth: 400, count: 2, rows: 2, facing: 315, id: ashore, name: 'Tonnant, run ashore, and Timoléon, burned by her crew'}
+    - {side: france, type: ships, at: [30.15023, 31.33136], width: 94, depth: 800, count: 4, rows: 4, facing: 45, id: escape, name: 'Villeneuve escapes with Guillaume Tell, Généreux and the frigates Justice and Diane'}
+    - {side: britain, type: ships, at: [30.12528, 31.33427], width: 94, depth: 1210, count: 6, rows: 6, facing: 315, id: fleet, name: 'Vanguard, Minotaur, Defence, Swiftsure, Audacious and Orion, at anchor by the prizes'}
+    - {side: britain, type: ships, at: [30.13123, 31.32174], width: 94, depth: 750, count: 5, rows: 5, facing: 315, id: southern, name: 'Alexander, Majestic, Goliath, Theseus and Leander, against the French rear'}
+    - {side: britain, type: ships, at: [30.14707, 31.33728], width: 94, depth: 150, count: 1, rows: 1, facing: 45, id: zealous, name: 'Zealous, pursuing alone'}
+    - {side: britain, type: ships, at: [30.14692, 31.32436], width: 94, depth: 150, count: 1, rows: 1, facing: 315, id: bellerophon, name: 'Bellerophon, under repair'}
+    - {side: britain, type: ships, at: [30.1139, 31.34943], width: 94, depth: 150, count: 1, rows: 1, facing: 315, id: culloden, name: 'Culloden, still aground'}
+  arrows:
+    - {side: france, path: [[30.13785, 31.32167], [30.14373, 31.32481], [30.14782, 31.32896], [30.15265, 31.3344]], width: 120, id: escape, name: 'Villeneuve takes his four ships out to sea, 11:00'}
+    - {side: britain, path: [[30.12513, 31.33632], [30.1374, 31.33792], [30.14559, 31.33664]], width: 100, id: zealous-pursuit, name: Zealous pursues and is driven off}
+    - {side: britain, path: [[30.1322, 31.32577], [30.13146, 31.32385], [30.13131, 31.32244]], width: 100, id: southern-attack, name: The British ships attack the stranded French}
+  clashes:
+    - {at: [30.13064, 31.31994], size: 110}
+    - {at: [30.14856, 31.33472], size: 110}
+images:
+  nile-tonnant:
+    file: nile-tonnant.jpg
+    caption: "Tonnant at the Battle of the Nile, painting by Louis Le Breton, 19th century"
+    credit: "Wikimedia Commons, Louis Le Breton, Public domain (Tonnant LeBreton PX8975.jpg)"

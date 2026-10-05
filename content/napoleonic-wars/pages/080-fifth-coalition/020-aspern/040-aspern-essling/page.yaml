@@ -1,0 +1,35 @@
+date: "22 May 1809, afternoon"
+title: "Essling and the retreat"
+bbox: [16.44125, 48.19044, 16.56388, 48.25027]
+zones: []
+routes: []
+markers: [aspern-day2-lannes-wounded, aspern-day2-granary, aspern-day2-rapp, aspern-day2-battery]
+sources: ['John H. Gill, 1809: Thunder on the Danube, volume II: The Fall of Vienna and the Battle of Aspern (2009).', 'Gunther E. Rothenberg, Napoleon’s Great Adversary: Archduke Charles and the Austrian Army, 1792–1814 (1995).', 'Ian Castle, Aspern and Wagram 1809 (1990).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[16.43, 48.226], [16.452, 48.219], [16.468, 48.215], [16.481, 48.211], [16.493, 48.205], [16.507, 48.199], [16.526, 48.1955], [16.548, 48.1915], [16.57, 48.184], [16.59, 48.172]], width: 110, id: danube-arm, name: An arm of the Danube between the Lobau and the left bank}
+  works:
+    - {side: france, path: [[16.49979, 48.19732], [16.50064, 48.20053]], width: 45, id: bridge, name: The French bridge from the Lobau to the left bank}
+  units:
+    - {side: france, type: infantry, at: [16.48529, 48.21271], width: 900, depth: 240, facing: 10, id: massena, name: 'Masséna’s corps, driven out of Aspern'}
+    - {side: france, type: infantry, at: [16.5007, 48.21667], width: 1700, depth: 280, facing: 10, id: lannes-corps, name: 'Lannes’s corps, holding the centre under the Austrian guns'}
+    - {side: france, type: square, at: [16.5212, 48.21284], width: 180, depth: 160, facing: 10, id: granary, name: Boudet with a few hundred men in the granary of Essling}
+    - {side: france, type: infantry, at: [16.51659, 48.21091], width: 600, depth: 220, facing: 10, id: young-guard, name: 'Young Guard battalions under Mouton, and Rapp’s two battalions'}
+    - {side: austria, type: infantry, at: [16.47861, 48.22065], width: 1000, depth: 420, facing: 160, id: hiller, name: Hiller’s and Bellegarde’s troops in Aspern}
+    - {side: austria, type: artillery, at: [16.50484, 48.22721], width: 2400, depth: 160, facing: 190, id: great-battery, name: About 150 Austrian guns massed against the French centre, count: 22}
+    - {side: austria, type: infantry, at: [16.49344, 48.2359], width: 1500, depth: 300, facing: 190, id: hohenzollern, name: II Corps under Hohenzollern}
+    - {side: austria, type: infantry, at: [16.54672, 48.21359], width: 1100, depth: 300, facing: 270, id: rosenberg, name: 'Rosenberg’s corps and grenadiers, falling back from Essling'}
+  arrows:
+    - {side: austria, path: [[16.47228, 48.22782], [16.4765, 48.22301]], width: 130, id: aspern-attack, name: 'Hiller and Bellegarde take Aspern for good, after 1 pm'}
+    - {side: france, path: [[16.51443, 48.21052], [16.51973, 48.21246]], width: 110, id: guard-charge, name: Mouton and Rapp retake Essling with the bayonet}
+    - {side: austria, path: [[16.52778, 48.21445], [16.54402, 48.21372]], width: 140, id: rosenberg-retreat, name: Rosenberg falls back towards Gross-Enzersdorf, style: dashed}
+    - {side: france, path: [[16.48693, 48.21114], [16.49866, 48.20343], [16.49951, 48.19782]], width: 160, id: french-retreat, name: The French withdraw to the Lobau during the night, style: dashed}
+  clashes:
+    - [16.48417, 48.21677]
+    - [16.52186, 48.21276]
+images:
+  aspern-lannes:
+    file: aspern-lannes.jpg
+    caption: "Lannes mortally wounded at Essling, painting by Paul-Émile Boutigny, 1894"
+    credit: "Wikimedia Commons, Paul-Émile Boutigny, Public domain (Lannes mortally wounded at Essling (E. Boutigny).jpg)"

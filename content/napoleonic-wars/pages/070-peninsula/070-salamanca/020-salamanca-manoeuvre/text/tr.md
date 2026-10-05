@@ -1,0 +1,5 @@
+22 Temmuz sabahı Marmont’un tümenleri Salamanca’nın güneydoğusuna gelir ve L biçimli bir sırtın köşesindeki dik bir tepe olan Büyük Arapil’i tutar. Marmont batıdaki bir sırtta Wellington’ın 7. Tümeni’ni ve onun ötesinde bir toz bulutunu görür, bunu geri çekilen bir ordunun artçısı sanır. İngiliz sağ kanadını dolanmak için tümenlerini vadinin güneyindeki sırt boyunca batıya gönderir. En önde Curto’nun hafif süvarisiyle Thomières, ardından Maucune, Brenier ve Clauzel yürür, Foy ve Ferey ise L’nin Büyük Arapil’den kuzeye uzanan kısa kenarını tutar.
+
+@image salamanca-arapiles
+
+Wellington’ın ordusunun büyük bölümü vadinin kuzey yakasındaki sırtların gerisinde gizlidir, Pakenham’ın 3. Tümeni ve D’Urban’ın Portekiz süvarisi de Salamanca’dan vadinin batı ucuna gelir. Yürüyüş sürdükçe Marmont’un öncü tümeni ordusunun geri kalanından gittikçe uzaklaşır. Wellington ardından 3. Tümen’e Fransız kolunun başına saldırma emrini verir, 5. ve 4. Tümenleri de arkalarında 7. ve 6. Tümenlerle birlikte Fransız hattının uzun kenarına gönderir.

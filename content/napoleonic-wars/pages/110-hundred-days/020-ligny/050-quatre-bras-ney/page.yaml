@@ -1,0 +1,46 @@
+date: "16 June 1815, 14:00 to 16:30"
+when: {from: '1815-06-16'}
+title: "Quatre Bras: Ney attacks"
+bbox: [4.41935, 50.53974, 4.48725, 50.58497]
+zones: []
+routes: []
+markers: [quatre-bras-16-ney, quatre-bras-16-wellington, quatre-bras-16-brunswick, quatre-bras-16-bossu]
+sources: ['William Siborne, The Waterloo Campaign, 1815 (1848).', 'Peter Hofschröer, Waterloo 1815: Quatre Bras and Ligny (2005).', 'Bernard Cornwell, Waterloo: The History of Four Days, Three Armies and Three Battles (2015).']
+emblem:
+  kind: battle-plan
+  works:
+    - {side: neutral, path: [[4.44198, 50.53974], [4.44694, 50.5515], [4.45203, 50.56199], [4.4533, 50.5714], [4.45542, 50.58226], [4.45754, 50.59311]], width: 25, id: brussels-road, name: The road from Charleroi to Brussels}
+    - {side: neutral, path: [[4.41935, 50.57954], [4.43633, 50.57502], [4.4533, 50.5714], [4.47027, 50.56914], [4.48725, 50.56733]], width: 25, id: namur-road, name: The road from Nivelles to Namur}
+    - {side: neutral, path: [[4.45139, 50.56158], [4.45266, 50.56158], [4.45266, 50.5624], [4.45139, 50.5624], [4.45139, 50.56158]], width: 20, id: gemioncourt, name: Gemioncourt farm}
+    - {side: neutral, path: [[4.4364, 50.5576], [4.43767, 50.5576], [4.43767, 50.55842], [4.4364, 50.55842], [4.4364, 50.5576]], width: 20, id: pierrepont, name: Pierrepont farm}
+    - {side: neutral, path: [[4.47232, 50.56557], [4.4736, 50.56557], [4.4736, 50.56638], [4.47232, 50.56638], [4.47232, 50.56557]], width: 20, id: piraumont, name: Piraumont}
+  units:
+    - {side: france, type: artillery, at: [4.45471, 50.55376], width: 350, depth: 100, facing: 0, id: battery, name: Ney’s battery of 22 guns, count: 6}
+    - {side: france, type: infantry, at: [4.46674, 50.55919], width: 900, depth: 300, facing: 350, id: bachelu, name: 'Bachelu’s division, east of the road'}
+    - {side: france, type: infantry, at: [4.45259, 50.55919], width: 800, depth: 300, facing: 0, id: foy, name: Foy’s division at Gemioncourt}
+    - {side: france, type: infantry, at: [4.43279, 50.55466], width: 900, depth: 300, facing: 20, id: jerome, name: Prince Jérôme’s 6th Division}
+    - {side: france, type: cavalry, at: [4.46249, 50.54878], width: 600, depth: 250, facing: 0, id: pire, name: Piré’s light cavalry}
+    - {side: britain, type: infantry, at: [4.44198, 50.56462], width: 700, depth: 300, facing: 190, id: nassau, name: Saxe-Weimar’s Nassauers in the Bossu wood}
+    - {side: britain, type: infantry, at: [4.45259, 50.56507], width: 600, depth: 250, facing: 180, id: bylandt, name: Bylandt’s Dutch-Belgian brigade}
+    - {side: britain, type: infantry, at: [4.46674, 50.56642], width: 1300, depth: 250, facing: 180, id: picton, name: 'Picton’s British 5th Division, with Pack’s 42nd and 44th'}
+    - {side: britain, type: infantry, at: [4.44976, 50.57321], width: 600, depth: 250, facing: 190, id: brunswick, name: The Brunswick corps}
+    - {side: britain, type: cavalry, at: [4.45966, 50.57366], width: 450, depth: 200, facing: 180, id: merlen, name: Van Merlen’s Dutch light cavalry}
+  arrows:
+    - {side: france, path: [[4.45259, 50.56073], [4.45259, 50.56235], [4.45259, 50.56371]], width: 140, id: foy-attack, name: Foy attacks Gemioncourt}
+    - {side: france, path: [[4.4335, 50.5562], [4.43633, 50.55964], [4.43916, 50.56281]], width: 140, id: jerome-attack, name: Jérôme drives the Nassauers into the wood}
+    - {side: france, path: [[4.46674, 50.56073], [4.46674, 50.56281], [4.46674, 50.56507]], width: 140, id: bachelu-attack, name: Bachelu attacks Picton}
+    - {side: britain, path: [[4.45896, 50.57249], [4.45754, 50.56778], [4.45542, 50.56145]], width: 130, id: merlen-charge, name: 'The Prince of Orange leads van Merlen’s charge, thrown back'}
+    - {side: britain, path: [[4.44906, 50.57185], [4.44835, 50.56914], [4.44764, 50.56688]], width: 110, id: brunswick-charge, name: 'The Duke of Brunswick’s charge, which fails', style: dashed}
+  clashes:
+    - [4.45259, 50.56303]
+    - [4.43845, 50.56281]
+    - [4.46674, 50.56416]
+images:
+  quatre-bras-wollen:
+    file: quatre-bras-wollen.jpg
+    caption: "The battle of Quatre Bras, painting by William Barnes Wollen, 1894"
+    credit: "Wikimedia Commons, William Barnes Wollen, Public domain (Wollen, Battle of Quatre Bras.jpg)"
+  quatre-bras-brunswickers:
+    file: quatre-bras-brunswickers.jpg
+    caption: "The Brunswickers at Quatre Bras, by Richard Knötel, 1899"
+    credit: "Wikimedia Commons, Richard Knötel, Public domain (Quatrebras1815.jpg)"

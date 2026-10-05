@@ -10,7 +10,8 @@
 //   clashes: [[lon, lat], ...]           or [{ at: [lon, lat], size: 250 }]
 //
 // Unit types: infantry (block with an X), cavalry (block with one diagonal), light (a loose row of squares),
-// elephants (a row of discs), ships (a line of hulls, `count`, `rows`), camp (a square ring).
+// elephants (a row of discs), ships (a line of hulls, `count`, `rows`), camp (a square ring), square (an infantry
+// square, drawn as a camp), artillery (a row of guns, a wheel with a barrel towards the enemy, `count`).
 // `facing` is the compass bearing the unit faces. `width` runs along its front, `depth` front to back.
 // `bow` bends the front: positive pushes the centre towards the enemy, negative draws it back.
 // `side` is a family of the story, one of the colours below, or a hex colour. Arrows curve through their points;
@@ -40,14 +41,16 @@ export default function battlePlan(spec, { families = {} } = {}) {
   const feats = [];
   const add = (rings, props) => { const closed = rings.filter(r => r.length >= 3).map(r => { const ll = r.map(toLL); ll.push(ll[0]); return ll; }); if (closed.length) feats.push({ type: 'Feature', properties: props, geometry: { type: 'Polygon', coordinates: closed } }); };
 
+  // a story with a `water` family colours water per theme, for stories whose sides are blue
+  const wet = families.water ? { family: 'water', color: families.water.color } : { color: WATER };
   for (const w of water) {
-    if (w.area) add([w.area.map(toM)], { color: WATER, ...label(w) });
-    else if (w.path) add([ribbon(smooth(w.path.map(toM)), w.width ?? 80, w.width ?? 80)], { color: WATER, ...label(w) });
+    if (w.area) add([w.area.map(toM)], { ...wet, ...label(w) });
+    else if (w.path) add([ribbon(smooth(w.path.map(toM)), w.width ?? 80, w.width ?? 80)], { ...wet, ...label(w) });
     else fail('a water entry needs path or area');
   }
   for (const w of works) add([ribbon(w.path.map(toM), w.width ?? 40, w.width ?? 40)], { ...look(w.side ?? 'neutral'), ...label(w) });
   // a named row of pieces gets an undrawn footprint, so the reader can point at the gaps as well as the pieces
-  const gappy = new Set(['light', 'elephants', 'ships']);
+  const gappy = new Set(['light', 'elephants', 'ships', 'artillery']);
   for (const u of units) {
     if (u.name != null && gappy.has(u.type)) add([footprint(u, toM)], { ...look(u.side), ...label(u), hit: true });
     for (const rings of unitShapes(u, toM)) add(rings, { ...look(u.side), ...label(u) });
@@ -78,7 +81,7 @@ function unitShapes(u, toM) {
     return [[A, B, O], [B, C, O], [C, E, O], [E, A, O]].map(t => [place(inset(t, [0, gap, gap]))]);
   if (type === 'cavalry') // two triangles split by one diagonal
     return [[[A, B, C], [0, 0, gap]], [[A, C, E], [gap, 0, 0]]].map(([t, o]) => [place(inset(t, o))]);
-  if (type === 'camp') { const t = Math.min(W, D) * 0.14; return [[place([A, B, C, E]), place([[-w + t, -d + t], [-w + t, d - t], [w - t, d - t], [w - t, -d + t]])]]; }
+  if (type === 'camp' || type === 'square') { const t = Math.min(W, D) * 0.14; return [[place([A, B, C, E]), place([[-w + t, -d + t], [-w + t, d - t], [w - t, d - t], [w - t, -d + t]])]]; }
   if (type === 'light') {
     const s = D * 0.45, n = u.count ?? Math.max(3, Math.round(W / (s * 2.2)));
     return [...Array(n)].map((_, i) => { const x = -w + s / 2 + i * (W - s) / Math.max(1, n - 1), y = (i % 2 ? -1 : 1) * D * 0.18; return [place([[x - s / 2, y - s / 2], [x + s / 2, y - s / 2], [x + s / 2, y + s / 2], [x - s / 2, y + s / 2]])]; });
@@ -86,6 +89,11 @@ function unitShapes(u, toM) {
   if (type === 'elephants') {
     const r = D * 0.42, n = u.count ?? Math.max(3, Math.round(W / (r * 3)));
     return [...Array(n)].map((_, i) => { const x = -w + r + i * (W - 2 * r) / Math.max(1, n - 1); return [place([...Array(16)].map((_, k) => [x + r * Math.cos(k * Math.PI / 8), r * Math.sin(k * Math.PI / 8)]))]; });
+  }
+  if (type === 'artillery') {
+    const r = D * 0.26, n = u.count ?? Math.max(2, Math.round(W / (r * 4.5))), bw = r * 0.6, y = -d + r;
+    return [...Array(n)].flatMap((_, i) => { const x = n === 1 ? 0 : -w + r + i * (W - 2 * r) / (n - 1);
+      return [[place([...Array(16)].map((_, k) => [x + r * Math.cos(k * Math.PI / 8), y + r * Math.sin(k * Math.PI / 8)]))], [place([[x - bw / 2, y + r * 0.7], [x + bw / 2, y + r * 0.7], [x + bw / 2, d], [x - bw / 2, d]])]]; });
   }
   if (type === 'ships') {
     const n = u.count ?? 6, rows = u.rows ?? 1, cols = Math.ceil(n / rows), L = Math.min(D / rows * 0.85, W / cols * 1.6), beam = L * 0.3;
@@ -97,7 +105,7 @@ function unitShapes(u, toM) {
     }
     return out;
   }
-  fail(`unknown unit type "${type}", use infantry, cavalry, light, elephants, ships or camp`);
+  fail(`unknown unit type "${type}", use infantry, cavalry, light, artillery, elephants, ships, camp or square`);
 }
 
 // the rectangle a unit stands in, placed and bent like the unit

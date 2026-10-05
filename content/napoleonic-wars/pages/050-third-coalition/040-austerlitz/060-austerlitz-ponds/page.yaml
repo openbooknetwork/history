@@ -1,0 +1,35 @@
+date: "2 December 1805, afternoon"
+when: {from: '1805-12-02', to: '1805-12-02'}
+title: "The allied left breaks"
+bbox: [16.69, 49.084, 16.835, 49.2]
+zones: []
+routes: []
+markers: [austerlitz-ponds-pond, austerlitz-ponds-buxhoeveden, austerlitz-ponds-napoleon, austerlitz-ponds-davout]
+sources: ['David G. Chandler, The Campaigns of Napoleon (1966).', 'Ian Castle, Austerlitz 1805: The Fate of Empires (2002).', 'Scott Bowden, Napoleon and Austerlitz (1997).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[16.727, 49.178], [16.727, 49.168], [16.731, 49.16], [16.733, 49.15], [16.729, 49.142], [16.727, 49.132], [16.728, 49.122], [16.724, 49.113], [16.719, 49.105], [16.715, 49.099], [16.709, 49.092], [16.699, 49.085]], width: 40, id: goldbach, name: The Goldbach stream}
+    - {path: [[16.761, 49.2], [16.755, 49.19], [16.755, 49.178], [16.753, 49.166], [16.748, 49.158], [16.741, 49.153], [16.735, 49.149], [16.731, 49.147]], width: 30, id: bosenitz, name: The Bosenitz stream}
+    - {area: [[16.727, 49.0975], [16.74, 49.0995], [16.757, 49.099], [16.772, 49.0965], [16.771, 49.0925], [16.752, 49.0912], [16.735, 49.0922], [16.726, 49.0945]], id: satschan-pond, name: 'The Satschan pond, frozen'}
+  units:
+    - {side: france, type: infantry, at: [16.74259, 49.12214], width: 1100, depth: 300, facing: 235, id: saint-hilaire, name: Saint-Hilaire’s division comes down from the Pratzen}
+    - {side: france, type: infantry, at: [16.71239, 49.11671], width: 900, depth: 300, facing: 90, id: davout, name: Davout’s III Corps attacks from the Goldbach}
+    - {side: france, type: infantry, at: [16.77758, 49.11646], width: 1100, depth: 300, facing: 200, id: vandamme, name: Vandamme’s division on the heights of Augezd}
+    - {side: france, type: artillery, at: [16.77347, 49.11012], width: 600, depth: 150, facing: 200, id: augezd-guns, name: French guns firing on the pond, count: 6}
+    - {side: russia, type: infantry, at: [16.72749, 49.1149], width: 500, depth: 600, facing: 270, id: langeron, name: 'The allied columns at Sokolnitz, broken'}
+    - {side: russia, type: cavalry, at: [16.71388, 49.09265], width: 700, depth: 250, facing: 20, id: oreilly, name: Kienmayer’s O’Reilly light cavalry covers the retreat}
+  arrows:
+    - {side: france, path: [[16.76, 49.131], [16.752, 49.127], [16.7465, 49.1245]], width: 170, id: saint-hilaire-descent, name: Saint-Hilaire attacks Sokolnitz from the heights}
+    - {side: france, path: [[16.776, 49.131], [16.7772, 49.125], [16.7776, 49.1195]], width: 160, id: vandamme-south, name: Vandamme turns south to the heights of Augezd}
+    - {side: russia, path: [[16.73446, 49.1017], [16.74088, 49.10274], [16.74912, 49.0946], [16.75323, 49.08645]], width: 160, id: flight-ponds, name: Dokhturov’s men escape over the frozen pond, style: dashed}
+    - {side: russia, path: [[16.72074, 49.1008], [16.71251, 49.09356], [16.70291, 49.08723]], width: 140, id: flight-telnitz, name: Kienmayer and Langeron flee south, style: dashed}
+    - {side: russia, path: [[16.73161, 49.11129], [16.74465, 49.11374], [16.757, 49.10379], [16.78033, 49.09384]], width: 140, id: flight-augezd, name: Przybyszewski’s men fall back past Augezd, style: dashed}
+  clashes:
+    - [16.73229, 49.11807]
+    - [16.72063, 49.11536]
+images:
+  austerlitz-ponds-gerard:
+    file: austerlitz-ponds-gerard.jpg
+    caption: "General Rapp brings captured standards and prisoners to Napoleon at Austerlitz, painting by François Gérard, 1810"
+    credit: "Wikimedia Commons, François Gérard, Public domain (La bataille d'Austerlitz. 2 decembre 1805 (François Gérard).jpg)"

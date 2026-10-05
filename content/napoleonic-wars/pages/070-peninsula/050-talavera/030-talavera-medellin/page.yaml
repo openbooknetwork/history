@@ -1,0 +1,39 @@
+date: "28 July 1809, dawn"
+when: {from: '1809-07-28'}
+title: "Ruffin’s second attack"
+bbox: [-4.84774, 39.93911, -4.74598, 40.03334]
+zones: []
+routes: []
+markers: [talavera-medellin-hill, talavera-medellin-ruffin, talavera-medellin-guns, talavera-medellin-town, talavera-medellin-medellin, talavera-medellin-cascajal]
+sources: ['Charles Oman, A History of the Peninsular War, vol. II (1903).', 'Andrew Field, Talavera: Wellington’s First Victory in Spain (2006).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-4.74, 39.945], [-4.78, 39.948], [-4.81, 39.953], [-4.835, 39.956], [-4.87, 39.952], [-4.9, 39.947]], width: 140, id: tagus, name: The Tagus}
+    - {path: [[-4.82285, 39.95358], [-4.81848, 39.96101], [-4.81158, 39.97351], [-4.80469, 39.98602], [-4.79881, 39.99399], [-4.79355, 40.00118], [-4.78844, 40.00937], [-4.78102, 40.0198]], width: 35, id: portina, name: The Portiña stream}
+  works:
+    - {side: britain, path: [[-4.81185, 39.98273], [-4.81085, 39.98486]], width: 90, id: redoubt, name: 'The redoubt in the centre, with four light guns'}
+  units:
+    - {side: spain, type: infantry, at: [-4.81851, 39.97257], width: 2400, depth: 300, facing: 110, id: cuesta, name: 'Cuesta’s Spanish army, 28,000 infantry, behind walls and olive groves'}
+    - {side: britain, type: infantry, at: [-4.81126, 39.9869], width: 550, depth: 200, facing: 110, id: campbell, name: 'Alexander Campbell’s 4th Division, 3,000'}
+    - {side: britain, type: infantry, at: [-4.80783, 39.99364], width: 1300, depth: 220, facing: 110, id: sherbrooke, name: 'Sherbrooke’s 1st Division, 6,000: the Guards, Cameron and the King’s German Legion'}
+    - {side: britain, type: infantry, at: [-4.80401, 40.00412], width: 800, depth: 220, facing: 110, id: hill, name: 'Hill’s 2nd Division on the Medellín, 3,900'}
+    - {side: spain, type: infantry, at: [-4.798, 40.02216], width: 700, depth: 200, facing: 110, id: bassecourt, name: Bassecourt’s Spanish division on the Sierra de Segurilla}
+    - {side: britain, type: cavalry, at: [-4.80551, 40.01417], width: 450, depth: 140, facing: 110, id: anson, name: 'Anson’s light cavalry brigade, 900'}
+    - {side: france, type: infantry, at: [-4.79528, 40.00147], width: 650, depth: 160, facing: 290, id: ruffin, name: 'Ruffin’s three regiments in column, breaking'}
+    - {side: france, type: artillery, at: [-4.78659, 39.99874], width: 550, depth: 110, facing: 290, id: cascajal-guns, name: Thirty French guns on the Cascajal, count: 8}
+    - {side: france, type: infantry, at: [-4.77507, 39.99936], width: 900, depth: 220, facing: 290, id: villatte, name: 'Villatte’s division of Victor’s I Corps, 6,100'}
+    - {side: france, type: infantry, at: [-4.78564, 39.98885], width: 1000, depth: 220, facing: 290, id: lapisse, name: 'Lapisse’s division of Victor’s I Corps, 6,900'}
+    - {side: france, type: infantry, at: [-4.78595, 39.98027], width: 1000, depth: 240, facing: 290, id: sebastiani, name: 'Sébastiani’s division of the IV Corps, 8,100'}
+    - {side: france, type: cavalry, at: [-4.80187, 39.96501], width: 900, depth: 200, facing: 290, id: milhaud, name: 'Milhaud’s dragoons, 2,350, facing the Spanish army'}
+  arrows:
+    - {side: france, path: [[-4.78379, 39.9994], [-4.78949, 40.00052], [-4.79795, 40.00242]], width: 150, id: ruffin-attack, name: Ruffin’s columns climb the Medellín}
+    - {side: britain, path: [[-4.80299, 40.00364], [-4.79913, 40.00256], [-4.79675, 40.00179]], width: 130, id: bayonet-charge, name: The 29th and 48th Foot fire and charge with the bayonet}
+    - {side: france, path: [[-4.79395, 40.00033], [-4.78994, 39.99824], [-4.78594, 39.99615]], width: 120, id: ruffin-flight, name: Ruffin’s columns break and run, style: dashed}
+  clashes:
+    - [-4.79748, 40.00209]
+images:
+  talavera-hartmann:
+    file: talavera-hartmann.jpg
+    caption: "The positions of the two armies on 28 July 1809, map drawn by George Hartmann, 1809"
+    credit: "Wikimedia Commons, George Hartmann, Public domain (Position of the 2 armies during the greatest part of the 28th July and at the attack on the center of the British & Spanish line at about 2 o'clock p.m. LOC 2010589558.jpg)"

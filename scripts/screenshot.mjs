@@ -1,6 +1,7 @@
 // Screenshots story pages in headless Chrome through the DevTools protocol and prints the pages' console errors.
 //   node scripts/screenshot.mjs <story url> <out dir> <page id> [page id ...]
-// Env: SHOT_W/SHOT_H (1400x900), SHOT_WAIT ms after each hash change (6000), SHOT_SCHEME light|dark (dark),
+// Env: SHOT_W/SHOT_H (1400x900), SHOT_WAIT ms after each page change (6000), SHOT_SCHEME light|dark (dark),
+// SHOT_LANG to show the pages in another of the story's languages,
 // SHOT_HOVER=<lon>,<lat> to point the mouse at that place first, which shows a battle unit's hover label.
 import { spawn } from 'child_process';
 import fs from 'fs';
@@ -27,9 +28,13 @@ await send('Runtime.enable');
 await send('Page.enable'); await send('Page.bringToFront'); await send('Emulation.setFocusEmulationEnabled', { enabled: true });
 await send('Emulation.setDeviceMetricsOverride', { width: W, height: H, deviceScaleFactor: 1, mobile: false });
 await send('Emulation.setEmulatedMedia', { features: [{ name: 'prefers-color-scheme', value: process.env.SHOT_SCHEME ?? 'dark' }] });
-for (const [i, id] of ids.entries()) {
-  if (i === 0) { await send('Page.navigate', { url: base + '#' + id }); await sleep(wait + 3000); }
-  else { await send('Runtime.evaluate', { expression: `location.hash = ${JSON.stringify(id)}` }); await sleep(wait); }
+// the story loads once, then the page's own go() steps to each page in place
+await send('Page.navigate', { url: base }); await sleep(3000);
+if (process.env.SHOT_LANG) await send('Runtime.evaluate', { expression: `setLang(${JSON.stringify(process.env.SHOT_LANG)})` });
+for (const id of ids) {
+  const found = (await send('Runtime.evaluate', { expression: `(i => { if (i >= 0) go(i); return i >= 0; })(PAGES.findIndex(p => p.id === ${JSON.stringify(id)}))`, returnByValue: true })).result.result.value;
+  if (!found) { console.log(`no page ${id}`); continue; }
+  await sleep(wait);
   if (process.env.SHOT_HOVER) {
     const expr = `(() => { const r = ML.map.getContainer().getBoundingClientRect(), p = ML.map.project([${process.env.SHOT_HOVER}]); return [r.left + p.x, r.top + p.y]; })()`;
     const [x, y] = (await send('Runtime.evaluate', { expression: expr, returnByValue: true })).result.result.value;

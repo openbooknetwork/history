@@ -5,6 +5,8 @@ import { frame, writePlan } from './lib.mjs';
 
 const f = frame([10.1, 36.42], 90), P = f.p;
 const G = 'pages/030-interwar/010-mercenary-war';
+// the rebels have no family in this story, so their blocks take a colour of their own
+const REBELS = '#9a7a50';
 const bbox = f.box([[-4600, -2000], [4600, 3000]], 0);
 const unit = (side, type, u, w, width, depth, facing, extra = {}) => ({ side, type, at: P(u, w), width, depth, facing, ...extra });
 const arrow = (side, pts, width = 120, style, extra = {}) => ({ side, path: f.path(pts), width, ...(style ? { style } : {}), ...extra });
@@ -28,16 +30,16 @@ writePlan(`${G}/020-mercenary-war-trap`, {
   emblem: {
     works: [lines],
     units: [
-      unit('rebels', 'infantry', -1600, 1300, 1300, 500, 0, nm('rebels', 'The rebel army under Spendius, Autaritus and Zarzas, more than 40,000 men')),
-      unit('rebels', 'infantry', 0, 1150, 1600, 600, 0, nm('rebels', 'The rebel army under Spendius, Autaritus and Zarzas, more than 40,000 men')),
-      unit('rebels', 'infantry', 1600, 1300, 1300, 500, 0, nm('rebels', 'The rebel army under Spendius, Autaritus and Zarzas, more than 40,000 men')),
-      unit('rebels', 'cavalry', -2600, 1650, 450, 200, 0, nm('rebel-cavalry', 'Rebel cavalry')),
+      unit(REBELS, 'infantry', -1600, 1300, 1300, 500, 0, nm('rebels', 'The rebel army under Spendius, Autaritus and Zarzas, more than 40,000 men')),
+      unit(REBELS, 'infantry', 0, 1150, 1600, 600, 0, nm('rebels', 'The rebel army under Spendius, Autaritus and Zarzas, more than 40,000 men')),
+      unit(REBELS, 'infantry', 1600, 1300, 1300, 500, 0, nm('rebels', 'The rebel army under Spendius, Autaritus and Zarzas, more than 40,000 men')),
+      unit(REBELS, 'cavalry', -2600, 1650, 450, 200, 0, nm('rebel-cavalry', 'Rebel cavalry')),
       unit('carthage', 'infantry', 0, -1050, 1600, 300, 180, nm('hamilcar', 'Hamilcar’s division')),
       unit('carthage', 'elephants', 0, -820, 1300, 80, 180, { count: 14, ...nm('elephants', 'Carthaginian elephants') }),
       unit('carthage', 'infantry', -3700, 900, 1100, 300, 90, nm('hannibal', 'Second division under Hannibal, Hamilcar’s deputy')),
       unit('carthage', 'cavalry', 3750, 900, 1000, 300, 270, nm('naravas', 'Numidian cavalry under Naravas')),
     ],
-    arrows: [arrow('rebels', [[-4300, -1900], [-2700, -400], [-1300, 500]], 120, undefined, nm('rebels-march', 'The rebels move against the hills of the Saw'))],
+    arrows: [arrow(REBELS, [[-4300, -1900], [-2700, -400], [-1300, 500]], 120, undefined, nm('rebels-march', 'The rebels move against the hills of the Saw'))],
   },
   markers: {
     'mercenary-war-trap-saw': mark(0, 2750, 'The Saw', 'Hills named for their jagged outline', null, 'mountain'),
@@ -54,9 +56,9 @@ writePlan(`${G}/030-mercenary-war-saw`, {
   emblem: {
     works: [lines],
     units: [
-      unit('rebels', 'infantry', -1200, 1750, 1000, 500, 0, nm('rebels', 'The starving rebels, without their leaders')),
-      unit('rebels', 'infantry', 0, 1650, 1300, 500, 0, nm('rebels', 'The starving rebels, without their leaders')),
-      unit('rebels', 'infantry', 1200, 1750, 1000, 500, 0, nm('rebels', 'The starving rebels, without their leaders')),
+      unit(REBELS, 'infantry', -1200, 1750, 1000, 500, 0, nm('rebels', 'The starving rebels, without their leaders')),
+      unit(REBELS, 'infantry', 0, 1650, 1300, 500, 0, nm('rebels', 'The starving rebels, without their leaders')),
+      unit(REBELS, 'infantry', 1200, 1750, 1000, 500, 0, nm('rebels', 'The starving rebels, without their leaders')),
       unit('carthage', 'elephants', 0, 950, 1500, 80, 180, { count: 15, ...nm('elephants', 'The elephants, in front of the Carthaginian army') }),
       unit('carthage', 'infantry', 0, 550, 1700, 300, 180, nm('hamilcar', 'Hamilcar’s division')),
       unit('carthage', 'infantry', -2600, 1350, 900, 300, 90, nm('hannibal', 'Hannibal’s division')),

@@ -1,7 +1,7 @@
 // Toulon, 1793. The Republicans besiege the port from the west (Ollioules, La Seyne) and the east (La Valette); the
 // key is the hill of Le Caire, where the Allies build Fort Mulgrave above the forts of l'Éguillette and Balaguier
 // that command the passage between the inner and outer roadsteads.
-// Positions are [lon, lat] fitted to the Natural Earth coast the map draws (node scripts/coast.mjs France 5.82 43.03 6.0
+// Positions are [lon, lat] fitted to the Natural Earth coast the map draws (npx harita coast France 5.82 43.03 6.0
 // 43.17), which runs the north shore of the inner roadstead along 43.13; forts and batteries keep their places
 // relative to that shore.
 import { frame, writePlan } from './lib.mjs';

@@ -1,6 +1,6 @@
 // Acre, 20 March to 20 May 1799. The old city stands on a peninsula, closed by land walls on the north and east.
 // The French camp on Tell al-Fukhar, 1.1 km east of the north-east corner, and attack that corner. The walls follow
-// the coast the map draws (scripts/coast.mjs Israel), which runs a little east of the real one.
+// the coast the map draws (npx harita coast Israel), which runs a little east of the real one.
 // Frame: origin on the north-east corner of the walls, u north, w east.
 import { frame, writePlan } from './lib.mjs';
 

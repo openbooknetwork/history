@@ -10,9 +10,9 @@ emblem:
   works:
     - {side: carthage, path: [[10.06316, 36.39919], [10.06428, 36.41638], [10.07432, 36.42452], [10.1, 36.42633], [10.12568, 36.42452], [10.13572, 36.41638], [10.13684, 36.39919]], width: 40, id: carthaginian-lines, name: Carthaginian fortified positions closing the way out}
   units:
-    - {side: rebels, type: infantry, at: [10.0866, 36.40417], width: 1000, depth: 500, facing: 0, id: rebels, name: 'The starving rebels, without their leaders'}
-    - {side: rebels, type: infantry, at: [10.1, 36.40507], width: 1300, depth: 500, facing: 0, id: rebels, name: 'The starving rebels, without their leaders'}
-    - {side: rebels, type: infantry, at: [10.1134, 36.40417], width: 1000, depth: 500, facing: 0, id: rebels, name: 'The starving rebels, without their leaders'}
+    - {side: '#9a7a50', type: infantry, at: [10.0866, 36.40417], width: 1000, depth: 500, facing: 0, id: rebels, name: 'The starving rebels, without their leaders'}
+    - {side: '#9a7a50', type: infantry, at: [10.1, 36.40507], width: 1300, depth: 500, facing: 0, id: rebels, name: 'The starving rebels, without their leaders'}
+    - {side: '#9a7a50', type: infantry, at: [10.1134, 36.40417], width: 1000, depth: 500, facing: 0, id: rebels, name: 'The starving rebels, without their leaders'}
     - {side: carthage, type: elephants, at: [10.1, 36.41141], width: 1500, depth: 80, facing: 180, count: 15, id: elephants, name: 'The elephants, in front of the Carthaginian army'}
     - {side: carthage, type: infantry, at: [10.1, 36.41502], width: 1700, depth: 300, facing: 180, id: hamilcar, name: Hamilcar’s division}
     - {side: carthage, type: infantry, at: [10.07097, 36.40779], width: 900, depth: 300, facing: 90, id: hannibal, name: Hannibal’s division}

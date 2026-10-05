@@ -10,16 +10,16 @@ emblem:
   works:
     - {side: carthage, path: [[10.06316, 36.39919], [10.06428, 36.41638], [10.07432, 36.42452], [10.1, 36.42633], [10.12568, 36.42452], [10.13572, 36.41638], [10.13684, 36.39919]], width: 40, id: carthaginian-lines, name: Carthaginian fortified positions closing the way out}
   units:
-    - {side: rebels, type: infantry, at: [10.08214, 36.40824], width: 1300, depth: 500, facing: 0, id: rebels, name: 'The rebel army under Spendius, Autaritus and Zarzas, more than 40,000 men'}
-    - {side: rebels, type: infantry, at: [10.1, 36.4096], width: 1600, depth: 600, facing: 0, id: rebels, name: 'The rebel army under Spendius, Autaritus and Zarzas, more than 40,000 men'}
-    - {side: rebels, type: infantry, at: [10.11786, 36.40824], width: 1300, depth: 500, facing: 0, id: rebels, name: 'The rebel army under Spendius, Autaritus and Zarzas, more than 40,000 men'}
-    - {side: rebels, type: cavalry, at: [10.07097, 36.40507], width: 450, depth: 200, facing: 0, id: rebel-cavalry, name: Rebel cavalry}
+    - {side: '#9a7a50', type: infantry, at: [10.08214, 36.40824], width: 1300, depth: 500, facing: 0, id: rebels, name: 'The rebel army under Spendius, Autaritus and Zarzas, more than 40,000 men'}
+    - {side: '#9a7a50', type: infantry, at: [10.1, 36.4096], width: 1600, depth: 600, facing: 0, id: rebels, name: 'The rebel army under Spendius, Autaritus and Zarzas, more than 40,000 men'}
+    - {side: '#9a7a50', type: infantry, at: [10.11786, 36.40824], width: 1300, depth: 500, facing: 0, id: rebels, name: 'The rebel army under Spendius, Autaritus and Zarzas, more than 40,000 men'}
+    - {side: '#9a7a50', type: cavalry, at: [10.07097, 36.40507], width: 450, depth: 200, facing: 0, id: rebel-cavalry, name: Rebel cavalry}
     - {side: carthage, type: infantry, at: [10.1, 36.4295], width: 1600, depth: 300, facing: 180, id: hamilcar, name: Hamilcar’s division}
     - {side: carthage, type: elephants, at: [10.1, 36.42742], width: 1300, depth: 80, facing: 180, count: 14, id: elephants, name: Carthaginian elephants}
     - {side: carthage, type: infantry, at: [10.0587, 36.41186], width: 1100, depth: 300, facing: 90, id: hannibal, name: 'Second division under Hannibal, Hamilcar’s deputy'}
     - {side: carthage, type: cavalry, at: [10.14186, 36.41186], width: 1000, depth: 300, facing: 270, id: naravas, name: Numidian cavalry under Naravas}
   arrows:
-    - {side: rebels, path: [[10.052, 36.43719], [10.06986, 36.42362], [10.08549, 36.41548]], width: 120, id: rebels-march, name: The rebels move against the hills of the Saw}
+    - {side: '#9a7a50', path: [[10.052, 36.43719], [10.06986, 36.42362], [10.08549, 36.41548]], width: 120, id: rebels-march, name: The rebels move against the hills of the Saw}
 images:
   mercenary-war-hamilcar:
     file: mercenary-war-hamilcar.jpg

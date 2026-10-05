@@ -4,27 +4,34 @@ Working notes for coding agents in this repository. `README.md` covers the proje
 
 ## Battle plans
 
-Every battle in the stories is drawn as phase pages by the `battle-plan` emblem
-(`plugins/emblems/battle-plan.mjs`), laid out by one generator per battle in `content/<story>/.plans/`. Read
+Every battle in the stories is drawn as phase pages by the `battle-plan` emblem that harita ships, laid out by
+one generator per battle in `content/<story>/.plans/`. Read
 `content/punic-wars/.plans/README.md` before drawing a battle or changing one, and rerun the battle's generator
 after every edit to it.
 
+## Page ids
+
+A page's id is its folder name without the number, and it is part of the page's URL, `/<story>/<lang>/<id>/`. A
+released page keeps its id, so links and search results to it keep working. Renumber the folder to move it.
+
 ## Checking a story
 
-1. `node scripts/check-story.mjs <story> [page ids]` checks pages, markers, battles, routes and battle plans.
-2. `scripts/story-root.sh <story> <port>` builds that story alone in `.cache/<story>-root` and serves it on the
-   port. Rerun it to rebuild. Agents building at the same time pass a root name of their own as a third argument.
+1. `npx harita check <story> [page ids]` reads the pages, texts, images, markers, battles, routes and battle plans,
+   and prints every problem it finds.
+2. `npx harita dev --story <story> --out .cache/<story>-site --port <port>` builds that story alone into the folder,
+   serves it on the port and rebuilds it on every save. Agents building at the same time each pass an `--out` of
+   their own.
 3. `node scripts/screenshot.mjs http://localhost:<port>/<story>/ <out dir> <page ids>` captures pages in
    headless Chrome. `SHOT_HOVER=<lon>,<lat>` shows a battle unit's hover label, `SHOT_SCHEME=light` the light
-   theme. Open the capture of every page you changed.
+   theme, `SHOT_LANG=tr` the Turkish pages. Open the capture of every page you changed.
 
 A story is done when the check prints ok and `npm run build -- --strict` builds every story.
 
 ## Translations
 
 `npx harita i18n tr --story <story>` adds an empty key for every new English string to the story's
-`i18n/tr.yaml`, with the English as a comment above it. Fill each one. The command builds every story it can
-see, so while another story is half edited, run it inside `.cache/<story>-root`.
+`i18n/tr.yaml`, with the English as a comment above it. Fill each one. With `--story` the command builds only that
+story.
 
 ## Agents working in parallel
 

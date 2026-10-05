@@ -1,5 +1,5 @@
-// The generators in this folder use the shared plan helpers, bound to this story. See scripts/plans.mjs.
+// The generators in this folder use harita's plan helpers, bound to this story.
 import { fileURLToPath } from 'url';
-import { planWriter } from '../../../scripts/plans.mjs';
-export { frame } from '../../../scripts/plans.mjs';
+import { planWriter } from '@openhistoryatlas/harita/plans';
+export { frame } from '@openhistoryatlas/harita/plans';
 export const writePlan = planWriter(fileURLToPath(new URL('..', import.meta.url)));

@@ -3,7 +3,7 @@
 Every battle in this story is a header in the nav with an overview page and two to four phase pages. The
 overview page keeps the battle id, the battle card and the routes of the campaign. The phase pages show
 the armies on the field at one moment each, drawn by the `battle-plan` emblem
-(`plugins/emblems/battle-plan.mjs`, its header lists every parameter).
+(built into harita: the "Battle plans" section of harita's README lists every parameter and unit type).
 
 Cannae is the model: `pages/040-second-war/010-invasion/050-cannae/` and `.plans/cannae.mjs`. Read both
 before writing a battle.
@@ -31,7 +31,7 @@ and the next page, with a `when` that keeps the order or none where the nav runs
 ## Generators
 
 Each battle has `.plans/<id>.mjs`, run with `node .plans/<id>.mjs` from the story folder. It lays the field
-out in a local frame and calls `writePlan` per page (`lib.mjs` binds the shared `scripts/plans.mjs` to this
+out in a local frame and calls `writePlan` per page (`lib.mjs` binds `@openhistoryatlas/harita/plans` to this
 story), which writes the emblem and bbox into `page.yaml`, the page's own markers into `markers.yaml`, routes
 into `routes/`, and the page's `markers` and `routes` lists. The generator owns those keys: change the
 generator and rerun it.
@@ -41,7 +41,7 @@ generator and rerun it.
   facings.
 - Real geography: put the frame on the real site, from the article's coordinates. Rivers, lakes,
   lagoons and harbours that matter are drawn as `water` from their real course. The map shows coasts and
-  relief only. `node scripts/coast.mjs <country> w s e n` prints the coast the map draws, to fit water and
+  relief only. `npx harita coast <country> w s e n` prints the coast the map draws, to fit water and
   walls to it.
 - Sizes are real: a legion's front is about 500 to 600 m, a consular army's infantry 1.5 to 2.5 km,
   ships a few hundred metres per squadron row. This story's `max_zoom` is 14, so a phase bbox of 4 to 12 km
@@ -53,7 +53,7 @@ generator and rerun it.
   who it is, the commander and the strength where known ("Roman cavalry under Paullus, 2,400"). Pieces that
   share an id highlight together, such as two wings of one body. Turkish goes under `emblems.<page id>.<id>`.
 - Sides take one colour each: a family of the story (`rome`, `carthage`, ... in the story's own colours for
-  each theme), or `iberians`, `rebels`, `neutral` from the plugin, or a hex colour. Allies take their side's
+  each theme), `neutral` for grey, or a hex colour. Allies take their side's
   colour. Numidians fighting for Rome are `numidia`, so Masinissa stands out at Zama.
 - At most about 12 units, 6 markers, 5 arrows and 4 clashes on one phase page. Fewer is better.
 - Units of one side must not overlap. Leave 50 to 100 m between two lines in contact and mark the contact

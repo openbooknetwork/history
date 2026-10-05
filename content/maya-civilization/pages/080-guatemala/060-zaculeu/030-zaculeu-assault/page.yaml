@@ -1,0 +1,37 @@
+date: "1525"
+title: "The fight at the northern entrance"
+bbox: [-91.50155, 15.33154, -91.48199, 15.35054]
+zones: []
+routes: []
+markers: [zaculeu-assault-gonzalo, zaculeu-assault-mam, zaculeu-assault-kaybil]
+sources: ['W. George Lovell, Conquest and Survival in Colonial Guatemala (3rd ed. 2005), p. 62.', 'Patricia del Águila Flores, Zaculeu: ciudad postclásica en las tierras altas mayas de Guatemala (2007), pp. 10 to 11.']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-91.4967, 15.3574], [-91.4952, 15.3538], [-91.4929, 15.3502], [-91.4914, 15.3465], [-91.4885, 15.3429], [-91.4899, 15.3393], [-91.4937, 15.3364], [-91.4974, 15.3342], [-91.4998, 15.3322], [-91.5022, 15.3312], [-91.5045, 15.3306]], width: 30, id: selegua, name: The Selegua River}
+  works:
+    - {side: neutral, path: [[-91.4972, 15.3337], [-91.4952, 15.3326], [-91.4925, 15.3317], [-91.4897, 15.3323]], width: 45, style: trench, id: ravines, name: Deep ravines on the south and east of Zaculeu}
+    - {side: neutral, path: [[-91.4897, 15.3323], [-91.4893, 15.3343], [-91.4903, 15.3362]], width: 45, style: trench, id: ravines, name: Deep ravines on the south and east of Zaculeu}
+    - {side: highland, path: [[-91.4939, 15.3356], [-91.4917, 15.3357]], width: 25, style: wall, id: north-wall, name: Fortified structure across three quarters of the northern neck}
+    - {side: highland, path: [[-91.4943, 15.3361], [-91.4912, 15.3362]], width: 20, style: trench, id: north-ditch, name: Walls and ditches on the northern approach}
+  units:
+    - {side: highland, type: fort, at: [-91.4927, 15.3338], width: 300, depth: 300, facing: 0, id: zaculeu, name: 'Zaculeu, the fortress of Kayb''il B''alam'}
+    - {side: highland, type: infantry, at: [-91.4932, 15.3393], width: 500, depth: 100, facing: 350, id: mam, name: 'Mam warriors holding the northern approaches, part of an army of about 6,000 from Huehuetenango, Zaculeu, Cuilco and Ixtahuacán'}
+    - {side: spain, type: infantry, at: [-91.4927, 15.34122], width: 105, depth: 42, facing: 170, id: infantry, name: 'Spanish infantry, 80 men'}
+    - {side: spain, type: cavalry, at: [-91.48879, 15.34194], width: 105, depth: 42, facing: 195, id: cavalry, name: 'Spanish cavalry, 40 horsemen'}
+    - {side: spain, type: cavalry, at: [-91.4968, 15.34194], width: 105, depth: 42, facing: 160, id: cavalry, name: 'Spanish cavalry, 40 horsemen'}
+    - {side: nahua, type: infantry, at: [-91.4927, 15.3438], width: 420, depth: 90, facing: 175, id: allies, name: 'Mexican and K''iche'' allies, about 2,000'}
+  arrows:
+    - {side: spain, path: [[-91.48897, 15.34158], [-91.49084, 15.34027]], width: 40, id: charges, name: Repeated charges of the Spanish cavalry}
+    - {side: spain, path: [[-91.49666, 15.34158], [-91.49549, 15.33959]], width: 40, id: charges, name: Repeated charges of the Spanish cavalry}
+    - {side: highland, path: [[-91.4922, 15.3352], [-91.4918, 15.3372], [-91.4921, 15.3385]], width: 40, id: sortie, name: 'About 2,000 warriors come out of Zaculeu to reinforce them'}
+    - {side: highland, path: [[-91.4945, 15.3386], [-91.4952, 15.3368], [-91.4942, 15.3354]], width: 40, id: withdraw, name: Kayb'il B'alam withdraws his army behind the walls, style: dashed}
+  clashes:
+    - {at: [-91.4927, 15.34043], size: 60}
+    - {at: [-91.49014, 15.33959], size: 60}
+    - {at: [-91.49624, 15.33923], size: 60}
+images:
+  zaculeu-assault-ravine:
+    file: zaculeu-assault-ravine.jpg
+    caption: "The ravine on the south side of Zaculeu"
+    credit: "Wikimedia Commons, Simon Burchell, CC BY-SA 4.0 (Zaculeu 53.jpg)"

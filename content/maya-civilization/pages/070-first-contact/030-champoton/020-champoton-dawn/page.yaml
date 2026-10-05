@@ -1,0 +1,34 @@
+date: "1517, at dawn"
+title: "Surrounded at dawn"
+bbox: [-90.75439, 19.32782, -90.74011, 19.34138]
+zones: []
+routes: []
+markers: [champoton-dawn-cordoba, champoton-dawn-moch-couoh, champoton-dawn-town, champoton-dawn-captives, champoton-dawn-ships]
+sources:
+  - "Inga Clendinnen, Ambivalent Conquests: Maya and Spaniard in Yucatan, 1517 to 1570 (2nd ed. 2003), pp. 10 to 13."
+  - "Robert J. Sharer and Loa P. Traxler, The Ancient Maya (6th ed. 2006), p. 759."
+  - "Bernal Díaz del Castillo, The Conquest of New Spain, tr. J. M. Cohen (1963), pp. 22 to 26."
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-90.7416, 19.34349], [-90.73898, 19.34182], [-90.73579, 19.34053], [-90.73229, 19.33889], [-90.72826, 19.33788]], width: 60, id: river, name: The Champotón River}
+  units:
+    - {side: spain, type: infantry, at: [-90.74746, 19.33403], width: 80, depth: 36, facing: 129, id: party, name: Hernández de Córdoba’s landing party at the wells}
+    - {side: spain, type: ships, at: [-90.74853, 19.33486], width: 90, depth: 50, facing: 309, id: boats, name: The ships’ boats on the beach, count: 3}
+    - {side: spain, type: ships, at: [-90.75324, 19.33731], width: 200, depth: 60, facing: 309, id: ships, name: 'Two ships and the brigantine at anchor, kept off by the shallows', count: 3}
+    - {side: chontal, type: infantry, at: [-90.74598, 19.33289], width: 420, depth: 90, facing: 309, id: warriors, name: 'Warriors of Champotón under Moch Couoh, with spears and clubs'}
+    - {side: chontal, type: archers, at: [-90.74531, 19.33238], width: 480, depth: 30, facing: 309, id: archers, name: Archers and slingers}
+    - {side: chontal, type: infantry, at: [-90.74841, 19.33284], width: 200, depth: 60, facing: 39, id: wings, name: Warriors of Champotón closing on the flank}
+    - {side: chontal, type: infantry, at: [-90.74643, 19.33516], width: 200, depth: 60, facing: 219, id: wings, name: Warriors of Champotón closing on the flank}
+  arrows:
+    - {side: chontal, path: [[-90.74631, 19.33315], [-90.74737, 19.33396]], width: 24, id: attack, name: The Maya close in with spears and clubs}
+    - {side: chontal, path: [[-90.74218, 19.33649], [-90.74344, 19.33559], [-90.74454, 19.33458]], width: 28, id: reinforcements, name: Fresh squadrons from the town}
+  clashes:
+    - {at: [-90.74665, 19.3334], size: 40}
+    - {at: [-90.74798, 19.33342], size: 40}
+    - {at: [-90.74694, 19.33464], size: 40}
+images:
+  champoton-dawn-bernal-diaz:
+    file: champoton-dawn-bernal-diaz.jpg
+    caption: "Title page of Bernal Díaz del Castillo’s Historia verdadera de la conquista de la Nueva España, engraved by Jean de Courbes, Madrid, 1632"
+    credit: "Wikimedia Commons, Jean de Courbes, Public domain (Bernal Diaz del Castillo Historia verdadera de la conquista de la Nueva España 1632.jpg)"

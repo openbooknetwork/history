@@ -1,0 +1,33 @@
+date: "12 February 1524"
+title: "The Llanos de Urbina"
+bbox: [-91.5261, 14.7648, -91.4309, 14.8575]
+zones: []
+routes: []
+markers: [xelaju-urbina-alvarado, xelaju-urbina-tecun, xelaju-urbina-xelaju]
+sources: ['Pedro de Alvarado, third letter to Cortés, 11 April 1524.', 'Matthew Restall and Florine Asselbergs, Invading Guatemala (2007), pp. 9, 30.', "Mariano Cornejo Sam, Q'antel (Cantel): patrimonio cultural-histórico del pueblo de Nuestra Señora de la Asunción Cantel (2009), pp. 269 to 270."]
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-91.4568, 14.8851], [-91.4572, 14.8793], [-91.4624, 14.8706], [-91.4691, 14.8623], [-91.4747, 14.8536], [-91.4769, 14.8478], [-91.4785, 14.8431], [-91.4762, 14.8413], [-91.4702, 14.8409], [-91.4643, 14.8409], [-91.4617, 14.8352], [-91.4591, 14.8294], [-91.4557, 14.8236], [-91.4535, 14.8178], [-91.4539, 14.8149], [-91.4501, 14.8091], [-91.4542, 14.8033], [-91.4576, 14.7979], [-91.4635, 14.7975], [-91.4687, 14.7946], [-91.4728, 14.7903], [-91.4784, 14.7878], [-91.4843, 14.7859], [-91.4903, 14.7834], [-91.4925, 14.7783], [-91.4935, 14.7765]], width: 30, id: samala, name: The Samalá River}
+    - {path: [[-91.533, 14.8862], [-91.5244, 14.8851], [-91.5148, 14.8851], [-91.5059, 14.8847], [-91.4996, 14.8826], [-91.494, 14.8833], [-91.4929, 14.8757], [-91.4869, 14.8703], [-91.4884, 14.8616], [-91.4921, 14.8532], [-91.4951, 14.8507], [-91.4988, 14.8471], [-91.4996, 14.8442], [-91.497, 14.8424], [-91.494, 14.8438], [-91.4881, 14.8453], [-91.4851, 14.8471], [-91.4791, 14.8431], [-91.4762, 14.8413]], width: 18, id: xekikel, name: 'The Xekik''el River, named for the blood of the battle'}
+  units:
+    - {side: kiche, type: infantry, at: [-91.44052, 14.83458], width: 1000, depth: 220, facing: 200, id: kiche-army, name: K'iche' army under one of the four lords of Q'umarkaj}
+    - {side: kiche, type: archers, at: [-91.44221, 14.83191], width: 900, depth: 204, facing: 200, id: kiche-archers, name: K'iche' archers}
+    - {side: spain, type: cavalry, at: [-91.44469, 14.82528], width: 510, depth: 204, facing: 20, id: cavalry, name: Spanish cavalry under Alvarado}
+    - {side: spain, type: infantry, at: [-91.44736, 14.82209], width: 510, depth: 204, facing: 20, id: infantry, name: Spanish infantry}
+    - {side: nahua, type: infantry, at: [-91.45197, 14.82564], width: 510, depth: 204, facing: 20, id: allies, name: Mexican allies}
+  arrows:
+    - {side: spain, path: [[-91.44565, 14.82668], [-91.44387, 14.83144]], width: 140, id: charge, name: 'The Spanish wait until the K''iche'' are within bowshot, then charge'}
+    - {side: kiche, path: [[-91.438, 14.83523], [-91.43498, 14.84225], [-91.43226, 14.84899]], width: 150, id: kiche-flight, name: The K'iche' army breaks and flees, style: dashed}
+    - {side: spain, path: [[-91.4542, 14.8278], [-91.4628, 14.8392], [-91.482, 14.8415], [-91.4985, 14.8395], [-91.5125, 14.8365]], width: 130, id: to-xelaju, name: The army crosses the valley to Xelajú and finds it deserted}
+  clashes:
+    - {at: [-91.44127, 14.82782], size: 280}
+images:
+  xelaju-urbina-plain:
+    file: xelaju-urbina-plain.jpg
+    caption: "The Llanos de Urbina, a plain near Cantel in Quetzaltenango"
+    credit: "Wikimedia Commons, Simon Burchell, CC BY-SA 4.0 (Llanos de Urbina 01.JPG)"
+  xelaju-urbina-duel:
+    file: xelaju-urbina-duel.jpg
+    caption: "Actors as Pedro de Alvarado and Tecun Uman in a 2021 film of the Diario de Centro América"
+    credit: "Wikimedia Commons, Diario de Centro América, CC BY 3.0 (UmánVsAlvarado1.png)"

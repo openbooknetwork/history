@@ -1,0 +1,31 @@
+date: "1517, morning"
+title: "The retreat to the boats"
+bbox: [-90.75439, 19.32782, -90.74011, 19.34138]
+zones: []
+routes: []
+markers: [champoton-boats-losses, champoton-boats-casks, champoton-boats-ships]
+sources:
+  - "Inga Clendinnen, Ambivalent Conquests: Maya and Spaniard in Yucatan, 1517 to 1570 (2nd ed. 2003), pp. 10 to 13."
+  - "Robert J. Sharer and Loa P. Traxler, The Ancient Maya (6th ed. 2006), p. 759."
+  - "Bernal Díaz del Castillo, The Conquest of New Spain, tr. J. M. Cohen (1963), pp. 22 to 26."
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-90.7416, 19.34349], [-90.73898, 19.34182], [-90.73579, 19.34053], [-90.73229, 19.33889], [-90.72826, 19.33788]], width: 60, id: river, name: The Champotón River}
+  units:
+    - {side: spain, type: ships, at: [-90.75113, 19.33511], width: 90, depth: 50, facing: 309, id: boats, name: 'The overloaded boats, survivors clinging to the gunwales', count: 3}
+    - {side: spain, type: ships, at: [-90.75324, 19.33731], width: 200, depth: 60, facing: 309, id: ships, name: 'Two ships and the brigantine at anchor, kept off by the shallows', count: 3}
+    - {side: chontal, type: irregular, at: [-90.74856, 19.33604], width: 260, depth: 50, facing: 309, id: waders, name: Warriors wading into the sea after the boats}
+    - {side: chontal, type: infantry, at: [-90.74731, 19.33392], width: 420, depth: 90, facing: 309, id: warriors, name: Warriors of Champotón on the beach}
+    - {side: chontal, type: archers, at: [-90.74657, 19.33335], width: 480, depth: 30, facing: 309, id: archers, name: Archers and slingers}
+  arrows:
+    - {side: spain, path: [[-90.74739, 19.33397], [-90.74853, 19.33392], [-90.7507, 19.3349]], width: 26, id: breakout, name: The Spaniards cut their way to the boats, style: dashed}
+    - {side: spain, path: [[-90.75139, 19.33531], [-90.75215, 19.33601], [-90.753, 19.33701]], width: 26, id: escape, name: The boats make for the ships, style: dashed}
+    - {side: chontal, path: [[-90.74938, 19.33551], [-90.75022, 19.33546], [-90.75076, 19.33541]], width: 26, id: pursuit, name: The warriors wade in after the boats}
+  clashes:
+    - {at: [-90.74813, 19.33432], size: 40}
+images:
+  champoton-boats-beach:
+    file: champoton-boats-beach.jpg
+    caption: "Fishing boats on the beach at Champotón, 2015"
+    credit: "Wikimedia Commons, AlejandroLinaresGarcia, CC BY-SA 4.0 (Champoton002.JPG)"

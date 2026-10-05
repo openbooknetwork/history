@@ -1,0 +1,35 @@
+date: "1525, until mid-October"
+title: "The relief army and the surrender"
+bbox: [-91.50155, 15.33154, -91.48199, 15.35054]
+zones: []
+routes: []
+markers: [zaculeu-siege-salazar, zaculeu-siege-gonzalo, zaculeu-siege-kaybil]
+sources: ['W. George Lovell, Conquest and Survival in Colonial Guatemala (3rd ed. 2005), pp. 62 to 64.', "Robert M. Carmack, Kik'aslemaal le K'iche'aab': historia social de los K'iche's (2001), p. 39.", 'Adrián Recinos, Pedro de Alvarado: conquistador de México y Guatemala (2nd ed. 1986), p. 110.']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-91.4967, 15.3574], [-91.4952, 15.3538], [-91.4929, 15.3502], [-91.4914, 15.3465], [-91.4885, 15.3429], [-91.4899, 15.3393], [-91.4937, 15.3364], [-91.4974, 15.3342], [-91.4998, 15.3322], [-91.5022, 15.3312], [-91.5045, 15.3306]], width: 30, id: selegua, name: The Selegua River}
+  works:
+    - {side: neutral, path: [[-91.4972, 15.3337], [-91.4952, 15.3326], [-91.4925, 15.3317], [-91.4897, 15.3323]], width: 45, style: trench, id: ravines, name: Deep ravines on the south and east of Zaculeu}
+    - {side: neutral, path: [[-91.4897, 15.3323], [-91.4893, 15.3343], [-91.4903, 15.3362]], width: 45, style: trench, id: ravines, name: Deep ravines on the south and east of Zaculeu}
+    - {side: highland, path: [[-91.4939, 15.3356], [-91.4917, 15.3357]], width: 25, style: wall, id: north-wall, name: Fortified structure across three quarters of the northern neck}
+    - {side: highland, path: [[-91.4943, 15.3361], [-91.4912, 15.3362]], width: 20, style: trench, id: north-ditch, name: Walls and ditches on the northern approach}
+  units:
+    - {side: highland, type: fort, at: [-91.4927, 15.3338], width: 300, depth: 300, facing: 0, id: zaculeu, name: 'Zaculeu under siege, its defenders starving'}
+    - {side: spain, type: camp, at: [-91.4927, 15.3405], width: 220, depth: 120, facing: 180, id: siege, name: Spanish siege lines under Antonio de Salazar}
+    - {side: nahua, type: infantry, at: [-91.4885, 15.338], width: 260, depth: 70, facing: 225, id: allies-siege, name: Mexican and K'iche' allies on the siege lines}
+    - {side: highland, type: irregular, at: [-91.4862, 15.34781], width: 900, depth: 200, facing: 205, id: relief, name: 'Mam relief army from the Cuchumatanes, about 8,000'}
+    - {side: spain, type: cavalry, at: [-91.4882, 15.34421], width: 120, depth: 42, facing: 25, id: cavalry, name: Spanish cavalry under Gonzalo de Alvarado}
+    - {side: spain, type: infantry, at: [-91.48991, 15.34447], width: 160, depth: 50, facing: 25, id: foot, name: Spanish and allied foot soldiers}
+  arrows:
+    - {side: spain, path: [[-91.49223, 15.34113], [-91.4913, 15.34248], [-91.49009, 15.34411]], width: 40, id: march, name: Gonzalo de Alvarado marches north to meet the relief army}
+    - {side: spain, path: [[-91.488, 15.34461], [-91.48674, 15.34705]], width: 40, id: charges, name: Repeated charges of the Spanish cavalry}
+    - {side: highland, path: [[-91.48562, 15.34882], [-91.48488, 15.34972], [-91.48413, 15.35036]], width: 50, id: relief-flight, name: The relief army breaks and is destroyed, style: dashed}
+  clashes:
+    - {at: [-91.48741, 15.34575], size: 60}
+    - {at: [-91.48906, 15.34624], size: 60}
+images:
+  zaculeu-siege-cuchumatanes:
+    file: zaculeu-siege-cuchumatanes.jpg
+    caption: "Huehuetenango and its valley from the Cuchumatanes mountains"
+    credit: "Wikimedia Commons, George Revline, CC BY-SA 2.0 (Huehuetenango desde los Cuchumatanes.jpg)"

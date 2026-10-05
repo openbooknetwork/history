@@ -1,0 +1,26 @@
+date: "1525"
+title: "The Mam army from Malacatán"
+bbox: [-91.50186, 15.22712, -91.4851, 15.2434]
+zones: []
+routes: []
+markers: [zaculeu-malacatan-gonzalo, zaculeu-malacatan-canil, zaculeu-malacatan-town]
+sources: ['W. George Lovell, Conquest and Survival in Colonial Guatemala (3rd ed. 2005), p. 61.', 'Francis Gall, Los Gonzalo de Alvarado, conquistadores de Guatemala (1967), p. 39.']
+emblem:
+  kind: battle-plan
+  units:
+    - {side: highland, type: infantry, at: [-91.493, 15.2335], width: 600, depth: 120, facing: 75, id: mam, name: 'Mam army from Malacatán, 5,000 warriors in battle formation'}
+    - {side: spain, type: cavalry, at: [-91.48955, 15.2344], width: 120, depth: 40, facing: 255, id: cavalry, name: 'Spanish cavalry, 40 horsemen under Gonzalo de Alvarado'}
+    - {side: spain, type: infantry, at: [-91.48751, 15.23522], width: 90, depth: 36, facing: 255, id: infantry, name: 'Spanish infantry, 80 men'}
+    - {side: nahua, type: infantry, at: [-91.48676, 15.23268], width: 300, depth: 80, facing: 255, id: allies, name: 'Mexican and K''iche'' allies, about 2,000'}
+  arrows:
+    - {side: highland, path: [[-91.49804, 15.23291], [-91.49609, 15.23309], [-91.49402, 15.23314]], width: 34, id: mam-advance, name: The Mam advance across the plain}
+    - {side: spain, path: [[-91.48983, 15.23433], [-91.49239, 15.23366]], width: 30, id: charge, name: The Spanish cavalry charges and throws the Mam into disorder}
+    - {side: highland, path: [[-91.49393, 15.23621], [-91.49533, 15.23938], [-91.49626, 15.24119]], width: 34, id: mam-flight, name: The survivors flee to the hills, style: dashed}
+    - {side: spain, path: [[-91.49479, 15.23029], [-91.49693, 15.23101], [-91.49893, 15.23237]], width: 30, id: to-town, name: Gonzalo de Alvarado enters Malacatán unopposed}
+  clashes:
+    - {at: [-91.49109, 15.234], size: 52}
+images:
+  zaculeu-malacatan-horsemen:
+    file: zaculeu-malacatan-horsemen.jpg
+    caption: "Horsemen with lances in Diego Muñoz Camargo’s History of Tlaxcala, about 1585"
+    credit: "Wikimedia Commons, Diego Muñoz Camargo, Public domain (LienzoTlaxcalaJinetes.jpg)"

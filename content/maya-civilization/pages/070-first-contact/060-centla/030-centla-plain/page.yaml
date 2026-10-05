@@ -1,0 +1,38 @@
+date: "14 March 1519, morning"
+when: 1519-03-14
+title: "The foot on the plain"
+bbox: [-92.6451, 18.47523, -92.6309, 18.48879]
+zones: []
+routes: []
+markers: [centla-plain-tabscoob, centla-plain-foot, centla-plain-cortes]
+sources:
+  - "Bernal Díaz del Castillo, The Conquest of New Spain, tr. J. M. Cohen (1963), pp. 74 to 76."
+  - "Cipriano Aurelio Cabrera Bernat, Viajeros en Tabasco: Textos (1987), p. 111."
+  - "Ana Luisa Izquierdo, Acalán y la Chontalpa en el siglo XVI: su geografía política (1997), p. 178."
+emblem:
+  kind: battle-plan
+  water:
+    - {area: [[-92.64443, 18.48396], [-92.64319, 18.48515], [-92.64146, 18.48376], [-92.63992, 18.48085], [-92.63975, 18.47902], [-92.64115, 18.47875], [-92.64296, 18.48085]], id: marsh, name: Swamp on the plain}
+  units:
+    - {side: spain, type: infantry, at: [-92.638, 18.484], width: 90, depth: 40, facing: 150, id: foot, name: The Spanish foot with crossbows and muskets}
+    - {side: spain, type: artillery, at: [-92.6378, 18.48367], width: 80, depth: 30, facing: 150, id: guns, name: Spanish guns, count: 3}
+    - {side: chontal, type: infantry, at: [-92.63674, 18.48192], width: 560, depth: 120, facing: 330, id: army, name: 'The Chontal army, 40,000 by Cortés and Bernal Díaz'}
+    - {side: chontal, type: infantry, at: [-92.64009, 18.48285], width: 200, depth: 80, facing: 60, id: flanks, name: Chontal squadrons on the flank}
+    - {side: chontal, type: infantry, at: [-92.63591, 18.48515], width: 200, depth: 80, facing: 240, id: flanks, name: Chontal squadrons on the flank}
+    - {side: chontal, type: irregular, at: [-92.63876, 18.48525], width: 320, depth: 70, facing: 150, id: rear, name: Chontal squadrons closing behind}
+    - {side: spain, type: cavalry, at: [-92.64037, 18.47778], width: 80, depth: 32, facing: 120, id: horse, name: Cortés and the horsemen}
+  arrows:
+    - {side: chontal, path: [[-92.63703, 18.48239], [-92.63772, 18.48353]], width: 24, id: attack, name: The Chontal attack from every side}
+    - {side: chontal, path: [[-92.63976, 18.48303], [-92.63839, 18.48378]], width: 24, id: attack, name: The Chontal attack from every side}
+    - {side: chontal, path: [[-92.63624, 18.48497], [-92.63761, 18.48422]], width: 24, id: attack, name: The Chontal attack from every side}
+    - {side: spain, path: [[-92.64452, 18.48719], [-92.64472, 18.48426], [-92.64366, 18.48088], [-92.64185, 18.47843], [-92.64088, 18.47782]], width: 30, id: ride, name: The horsemen ride round to come up behind the Chontal}
+  clashes:
+    - {at: [-92.63724, 18.48275], size: 42}
+    - {at: [-92.63933, 18.48327], size: 42}
+    - {at: [-92.63667, 18.48473], size: 42}
+    - {at: [-92.63834, 18.48456], size: 42}
+images:
+  centla-plain-solis:
+    file: centla-plain-solis.jpg
+    caption: "Cortés fights the Indians of Tabasco, engraving by Juan Moreno Tejada after Ildefonso Vergaz in Antonio de Solís’s Historia de la conquista de México, Madrid, 1783"
+    credit: 'Wikimedia Commons, Fondo Antiguo de la Biblioteca de la Universidad de Sevilla, CC BY 2.0 (Historia de la conquista de México (1783) "Pelea Cortes con los Indios de Tabasco y consigue de ellos una completa Victoria" (21719133954).jpg)'

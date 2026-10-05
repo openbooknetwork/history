@@ -1,0 +1,45 @@
+# One story: a timeline shown on one map.
+id: maya-civilization
+title: "The Maya"
+summary: "The Maya of southern Mexico and Central America, from the first cities of the Preclassic through the Classic kingdoms and their wars to the Spanish conquest, which ended at Nojpetén in 1697."
+span: "c. 1000 BC – AD 1697"  # BC years cannot go in a page's when, so the card's date line is written out
+languages: [en, tr]
+default_language: en
+labels:
+  countries: false
+
+# Map extent for the border data and the opening view: [west, south, east, north]. Reaches Teotihuacan and Mexico
+# City in the west, western Cuba in the east and the Pacific coast of El Salvador in the south.
+extent: [-99.5, 13, -85, 22.5]
+# Countries whose land the zones are clipped to. Natural Earth names.
+land: [Mexico, Guatemala, Belize, Honduras, El Salvador, Cuba]
+# Countries drawn with borders. Everything else inside the extent is left out.
+countries: [Mexico, Guatemala, Belize, Honduras, El Salvador, Nicaragua, Costa Rica, Cuba, Cayman Is.,
+  United States of America]
+
+# Zone families. A zone subtracts every zone from a family with a lower priority number.
+# Zones in the same family never cut each other, so one family can hold several dated shapes.
+families:
+  spain:     { priority: 0, color: "#b03a7a", color_dark: "#e07ab0" }                  # Spanish rule: Cuba, New Spain, Guatemala, Yucatán
+  mexico:    { priority: 0, color: "#3d4a5c", color_dark: "#9aa8bd" }                  # Mexico after independence
+  britain:   { priority: 0, color: "#a0522d", color_dark: "#d98b5f" }                  # British Honduras
+  nahua:     { priority: 1, color: "#6b8e23", color_dark: "#a3c45a" }                  # Teotihuacan, the Aztec Empire, the Nahua allies of the Spanish
+  tikal:     { priority: 1, color: "#2f6fb0", color_dark: "#6fa6e0" }                  # Tikal (Mutul) and its allies
+  kaanul:    { priority: 1, color: "#b5352a", color_dark: "#e8695c" }                  # the Kaanul kingdom of Dzibanche and Calakmul, and its vassals
+  mayapan:   { priority: 1, color: "#1f8a8a", color_dark: "#4fc4c4" }                  # Chichen Itza, then the League of Mayapan
+  kiche:     { priority: 1, color: "#a0461e", color_dark: "#e07a4a" }                  # the K'iche' kingdom of Q'umarkaj
+  cruzob:    { priority: 1, color: "#c0392b", color_dark: "#ef6b5b", pattern: hatch }  # the Maya of Chan Santa Cruz in the Caste War
+  kingdom:   { priority: 2, color: "#8a7f5c", color_dark: "#c4b78f", pattern: dots }   # other Classic kingdoms
+  xiu:       { priority: 2, color: "#2e8b57", color_dark: "#5fcf8f" }                  # Maní and the western provinces of Yucatán
+  kaqchikel: { priority: 2, color: "#d4a017", color_dark: "#f2c94c" }                  # the Kaqchikel kingdom of Iximche
+  cocom:     { priority: 3, color: "#6a3d9a", color_dark: "#a98bd6" }                  # Sotuta under the Cocom
+  highland:  { priority: 3, color: "#7f8c8d", color_dark: "#aab7b8", pattern: dots }   # Tz'utujil, Mam, Poqomam and other highland peoples
+  eastern:   { priority: 4, color: "#c78a1c", color_dark: "#f0b54a", pattern: hatch }  # Cupul, Cochuah, Ecab, Chetumal and the other eastern provinces
+  chontal:   { priority: 5, color: "#8a5a2b", color_dark: "#c79063" }                  # the Chontal Maya: Potonchán, Acalan, Champotón, Campeche
+  itza:      { priority: 6, color: "#1aa3b8", color_dark: "#5fd3e6", pattern: cross }  # the Itza kingdom of Nojpetén and the Kowoj
+  lowland:   { priority: 7, color: "#7d8b3a", color_dark: "#b5c46a", pattern: dots }   # unconquered lowland peoples: Kejache, Lakandon Ch'ol, Manche Ch'ol
+  water:     { priority: 9, color: "#5b9bd5", color_dark: "#2c5d87" }                  # rivers and lakes on the battle plans, no zones
+# Corner rounding passes applied to every hand drawn zone before the clip.
+smoothing: 4
+# Battle plans are drawn at the scale of the field: the island of Nojpetén is about 500 m across.
+max_zoom: 16

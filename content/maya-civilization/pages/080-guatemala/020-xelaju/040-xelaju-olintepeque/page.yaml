@@ -1,0 +1,30 @@
+date: "18 February 1524"
+title: "The battle of Olintepeque"
+bbox: [-91.5346, 14.8276, -91.4728, 14.8878]
+zones: []
+routes: []
+markers: [xelaju-olintepeque-alvarado, xelaju-olintepeque-kiche, xelaju-olintepeque-town, xelaju-olintepeque-xelaju]
+sources: ['Robert J. Sharer and Loa P. Traxler, The Ancient Maya (6th ed. 2006), pp. 764 to 765.', 'Thomas T. Veblen, Native Population Decline in Totonicapan, Guatemala (1977), p. 488.', 'Francisco Antonio de Fuentes y Guzmán, Recordación florida (1690, ed. 1882), vol. 1, p. 49.']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-91.4568, 14.8851], [-91.4572, 14.8793], [-91.4624, 14.8706], [-91.4691, 14.8623], [-91.4747, 14.8536], [-91.4769, 14.8478], [-91.4785, 14.8431], [-91.4762, 14.8413], [-91.4702, 14.8409], [-91.4643, 14.8409], [-91.4617, 14.8352], [-91.4591, 14.8294], [-91.4557, 14.8236], [-91.4535, 14.8178], [-91.4539, 14.8149], [-91.4501, 14.8091], [-91.4542, 14.8033], [-91.4576, 14.7979], [-91.4635, 14.7975], [-91.4687, 14.7946], [-91.4728, 14.7903], [-91.4784, 14.7878], [-91.4843, 14.7859], [-91.4903, 14.7834], [-91.4925, 14.7783], [-91.4935, 14.7765]], width: 30, id: samala, name: The Samalá River}
+    - {path: [[-91.533, 14.8862], [-91.5244, 14.8851], [-91.5148, 14.8851], [-91.5059, 14.8847], [-91.4996, 14.8826], [-91.494, 14.8833], [-91.4929, 14.8757], [-91.4869, 14.8703], [-91.4884, 14.8616], [-91.4921, 14.8532], [-91.4951, 14.8507], [-91.4988, 14.8471], [-91.4996, 14.8442], [-91.497, 14.8424], [-91.494, 14.8438], [-91.4881, 14.8453], [-91.4851, 14.8471], [-91.4791, 14.8431], [-91.4762, 14.8413]], width: 18, id: xekikel, name: 'The Xekik''el River, named for the blood of the battle'}
+  units:
+    - {side: kiche, type: infantry, at: [-91.50299, 14.8745], width: 1500, depth: 260, facing: 200, id: kiche-army, name: 'K''iche'' army from Q''umarkaj, 30,000 by a K''iche'' account'}
+    - {side: spain, type: cavalry, at: [-91.5058, 14.8645], width: 335, depth: 135, facing: 20, id: cavalry, name: Spanish cavalry under Alvarado}
+    - {side: spain, type: infantry, at: [-91.50865, 14.8607], width: 335, depth: 135, facing: 20, id: infantry, name: Spanish infantry}
+    - {side: nahua, type: infantry, at: [-91.51874, 14.86427], width: 420, depth: 135, facing: 20, id: allies, name: Mexican allies}
+    - {side: nahua, type: infantry, at: [-91.49574, 14.86099], width: 420, depth: 135, facing: 20, id: allies, name: Mexican allies}
+  arrows:
+    - {side: spain, path: [[-91.50578, 14.86546], [-91.50346, 14.8734]], width: 150, id: charge, name: The Spanish cavalry charges}
+    - {side: nahua, path: [[-91.51843, 14.86512], [-91.51501, 14.87161], [-91.50999, 14.87657]], width: 120, id: allies-advance, name: The Mexican allies attack the flank}
+    - {side: kiche, path: [[-91.4998, 14.87499], [-91.49357, 14.88135], [-91.48729, 14.8849]], width: 180, id: kiche-flight, name: 'The K''iche'' break and flee, with many nobles among the dead', style: dashed}
+  clashes:
+    - {at: [-91.50043, 14.8704], size: 200}
+    - {at: [-91.51397, 14.87702], size: 200}
+images:
+  xelaju-olintepeque-tecun-uman:
+    file: xelaju-olintepeque-tecun-uman.jpg
+    caption: "Statue of Tecun Uman in Quetzaltenango"
+    credit: "Wikimedia Commons, El Torrito, CC BY 3.0 (Tecun Uman.jpg)"

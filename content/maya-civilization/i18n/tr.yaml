@@ -1,0 +1,3092 @@
+# tr strings for the story "maya-civilization".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Before AD 250: the Preclassic
+groups.preclassic.title: "MS 250 öncesi: Preklasik dönem"
+
+# AD 250 – 556: the Early Classic
+groups.early-classic.title: "MS 250 – 556: Erken Klasik dönem"
+
+# AD 556 – 695: Tikal and the Kaanul kingdom
+groups.classic-wars.title: "MS 556 – 695: Tikal ile Kaanul krallığı"
+
+# AD 695 – 810: the Late Classic
+groups.late-classic.title: "MS 695 – 810: Geç Klasik dönem"
+
+# AD 800 – 1100: collapse in the south, Chichen Itza in the north
+groups.collapse.title: "MS 800 – 1100: güneyde çöküş, kuzeyde Chichen Itza"
+
+# c. 1220 – 1502: Mayapan and the highland kingdoms
+groups.postclassic.title: "1220 dolayı – 1502: Mayapan ve dağlık bölgenin krallıkları"
+
+# 1502 – 1519: the first Spaniards
+groups.first-contact.title: "1502 – 1519: ilk İspanyollar"
+
+# Battle of Champotón, 1517
+groups.champoton.title: "Champotón Muharebesi, 1517"
+
+# Battle of Centla, 1519
+groups.centla.title: "Centla Muharebesi, 1519"
+
+# 1523 – 1530: the conquest of the highlands
+groups.guatemala.title: "1523 – 1530: dağlık bölgenin fethi"
+
+# Battles of Xelajú, 1524
+groups.xelaju.title: "Xelajú Muharebeleri, 1524"
+
+# Siege of Zaculeu, 1525
+groups.zaculeu.title: "Zaculeu Kuşatması, 1525"
+
+# 1527 – 1562: the conquest of Yucatán
+groups.yucatan.title: "1527 – 1562: Yucatán’ın fethi"
+
+# 1525 – 1697: the Itza kingdom
+groups.peten.title: "1525 – 1697: Itza krallığı"
+
+# Fall of Nojpetén, 1697
+groups.nojpeten.title: "Nojpetén’in düşüşü, 1697"
+
+# After 1697
+groups.epilogue.title: "1697 sonrası"
+
+# Acalan
+zones.acalan-1500.name: "Acalan"
+
+# Aguateca, seat of the Dos Pilas kings after 761
+zones.aguateca-761.name: "Aguateca, 761’den sonra Dos Pilas krallarının merkezi"
+
+# Bonampak, under Yaxchilan
+zones.bonampak-790.name: "Bonampak, Yaxchilan’a bağlı"
+
+# British Honduras
+zones.britain-1860.name: "İngiliz Hondurası"
+
+# Can Pech and Champotón
+zones.campeche-1500.name: "Can Pech ve Champotón"
+
+# Cancuén, subject to the Kaanul
+zones.cancuen-656.name: "Cancuén, Kaanul’a bağlı"
+
+# Cancuén
+zones.cancuen-770.name: "Cancuén"
+
+# Can Pech (Campeche)
+zones.canpech-1517.name: "Can Pech (Campeche)"
+
+# Ah Canul and Chakan
+zones.canul-1500.name: "Ah Canul ve Chakan"
+
+# Caracol, allied with Tikal in 553
+zones.caracol-553.name: "Caracol, 553’te Tikal’in müttefiki"
+
+# Caracol, allied with the Kaanul
+zones.caracol-562.name: "Caracol, Kaanul’un müttefiki"
+
+# Champotón (Chakan Putum)
+zones.champoton-1517.name: "Champotón (Chakan Putum)"
+
+# Chetumal
+zones.chetumal-1500.name: "Chetumal"
+
+# Chichen Itza and its domain
+zones.chichen-1000.name: "Chichen Itza ve egemenlik alanı"
+
+# Chichen Itza
+zones.chichen-900.name: "Chichen Itza"
+
+# Chikinchel and Tazes
+zones.chikinchel-1500.name: "Chikinchel ve Tazes"
+
+# Coba, in decline
+zones.coba-1000.name: "Coba, gerilemekte"
+
+# Coba
+zones.coba-900.name: "Coba"
+
+# Cochuah and Uaymil
+zones.cochuah-1500.name: "Cochuah ve Uaymil"
+
+# Copán, refounded from Tikal in 426
+zones.copan-426.name: "Copán, 426’da Tikal’den yeniden kuruldu"
+
+# Copán, an old ally of Tikal
+zones.copan-738.name: "Copán, Tikal’in eski müttefiki"
+
+# Cozumel
+zones.cozumel-1517.name: "Cozumel"
+
+# Chan Santa Cruz, the Maya state of the Talking Cross
+zones.cruzob-1860.name: "Chan Santa Cruz, Konuşan Haç’ın Maya devleti"
+
+# Spanish Cuba, from 1511
+zones.cuba-1511.name: "İspanyol Küba’sı, 1511’den itibaren"
+
+# Cupul
+zones.cupul-1500.name: "Cupul"
+
+# Pipil of Cuzcatlan
+zones.cuzcatlan-1500.name: "Cuzcatlan Pipilleri"
+
+# Dos Pilas, subject to the Kaanul from 648
+zones.dos-pilas-648.name: "Dos Pilas, 648’den itibaren Kaanul’a bağlı"
+
+# Ecab and Cozumel
+zones.ecab-1500.name: "Ecab ve Cozumel"
+
+# Ecab
+zones.ecab-1517.name: "Ecab"
+
+# Ecab and Cozumel, under Spanish rule
+zones.ecab-1546.name: "Ecab ve Cozumel, İspanyol yönetiminde"
+
+# Ek' Balam
+zones.ek-balam-900.name: "Ek' Balam"
+
+# El Perú (Waka'), allied with Tikal
+zones.el-peru-378.name: "El Perú (Waka'), Tikal’in müttefiki"
+
+# El Perú (Waka')
+zones.el-peru-550.name: "El Perú (Waka')"
+
+# El Perú (Waka'), allied with the Kaanul
+zones.el-peru-650.name: "El Perú (Waka'), Kaanul’un müttefiki"
+
+# El Perú, Kaanul ally, defeated in 743
+zones.el-peru-743.name: "El Perú, Kaanul’un müttefiki, 743’te yenildi"
+
+# New Spain and Spanish Guatemala, from July 1524
+zones.guatemala-1524.name: "Yeni İspanya ve İspanyol Guatemala’sı, Temmuz 1524’ten itibaren"
+
+# Spanish Guatemala, Chiapas and Verapaz
+zones.guatemala-1618.name: "İspanyol Guatemala’sı, Chiapas ve Verapaz"
+
+# Itza kingdom of Nojpetén
+zones.itza-1500.name: "Nojpetén merkezli Itza Krallığı"
+
+# Itza, still unconquered
+zones.itza-1697.name: "Henüz boyun eğmemiş Itzalar"
+
+# Kaanul kingdom of Dzibanche
+zones.kaanul-550.name: "Dzibanche merkezli Kaanul Krallığı"
+
+# Kaanul kingdom of Dzibanche and Calakmul
+zones.kaanul-599.name: "Dzibanche ve Calakmul’deki Kaanul Krallığı"
+
+# Kaanul kingdom of Calakmul
+zones.kaanul-636.name: "Calakmul merkezli Kaanul Krallığı"
+
+# Kaqchikel kingdom of Iximche
+zones.kaqchikel-1500.name: "Iximche merkezli Kaqchikel Krallığı"
+
+# Kaqchikel of Iximche, allied with Alvarado
+zones.kaqchikel-1524.name: "Iximche Kaqchikelleri, Alvarado’nun müttefiki"
+
+# Kaqchikel in revolt, 1524 – 1530
+zones.kaqchikel-revolt.name: "Ayaklanan Kaqchikeller, 1524 – 1530"
+
+# Kejache
+zones.kejache-1525.name: "Kejache"
+
+# K'iche' kingdom under K'iq'ab
+zones.kiche-1450.name: "K'iq'ab yönetiminde K'iche' Krallığı"
+
+# K'iche' kingdom of Q'umarkaj
+zones.kiche-1500.name: "Q'umarkaj merkezli K'iche' Krallığı"
+
+# Kowoj
+zones.kowoj-1525.name: "Kowoj"
+
+# La Corona (Sak Nikte')
+zones.la-corona-550.name: "La Corona (Sak Nikte')"
+
+# La Corona (Sak Nikte'), allied with the Kaanul
+zones.la-corona-650.name: "La Corona (Sak Nikte'), Kaanul’un müttefiki"
+
+# Lakandon Ch'ol
+zones.lakandon-1525.name: "Lakandon Ch'olleri"
+
+# Mam kingdom of Zaculeu
+zones.mam-1450.name: "Zaculeu merkezli Mam Krallığı"
+
+# Manche Ch'ol
+zones.manche-1525.name: "Manche Ch'olleri"
+
+# Maní, under the Tutul Xiu
+zones.mani-1500.name: "Maní, Tutul Xiu yönetiminde"
+
+# Maní, allied with Spain from 1542
+zones.mani-1542.name: "Maní, 1542’den itibaren İspanya’nın müttefiki"
+
+# Maní, the Xiu province under Spanish rule
+zones.mani-1562.name: "Maní, İspanyol yönetiminde Xiu eyaleti"
+
+# League of Mayapan
+zones.mayapan-1300.name: "Mayapan Birliği"
+
+# Mexico, with the states of Yucatán and Campeche
+zones.mexico-1860.name: "Meksika, Yucatán ve Campeche eyaletleriyle"
+
+# El Mirador and the cities of the Mirador Basin
+zones.mirador-300bc.name: "El Mirador ve Mirador Havzası kentleri"
+
+# Naranjo, subject to the Kaanul from 546
+zones.naranjo-546.name: "Naranjo, 546’dan itibaren Kaanul’a bağlı"
+
+# Naranjo, at war with Caracol
+zones.naranjo-626.name: "Naranjo, Caracol ile savaşta"
+
+# Naranjo, subject to the Kaanul
+zones.naranjo-650.name: "Naranjo, Kaanul’a bağlı"
+
+# Naranjo under Lady Six Sky, allied with the Kaanul
+zones.naranjo-682.name: "Lady Six Sky yönetiminde Naranjo, Kaanul’un müttefiki"
+
+# Naranjo, Kaanul ally, defeated in 744
+zones.naranjo-744.name: "Naranjo, Kaanul’un müttefiki, 744’te yenildi"
+
+# New Spain, to Soconusco
+zones.new-spain-1524.name: "Soconusco’ya kadar Yeni İspanya"
+
+# Palenque (B'aakal)
+zones.palenque-599.name: "Palenque (B'aakal)"
+
+# Palenque under Pakal, allied with Tikal
+zones.palenque-650.name: "Pakal yönetiminde Palenque, Tikal’in müttefiki"
+
+# Ceh Pech, Ah Kin Chel and Hocaba
+zones.pech-1500.name: "Ceh Pech, Ah Kin Chel ve Hocaba"
+
+# Spanish garrison at Nojpetén, from 1697
+zones.peten-1697.name: "Nojpetén’deki İspanyol garnizonu, 1697’den itibaren"
+
+# Piedras Negras (Yokib)
+zones.piedras-negras-650.name: "Piedras Negras (Yokib)"
+
+# Pipil of Izcuintepeque (Panatacat)
+zones.pipil-1500.name: "Izcuintepeque (Panatacat) Pipilleri"
+
+# Poqomam
+zones.poqomam-1450.name: "Poqomamlar"
+
+# Potonchán and the Chontal of Tabasco
+zones.potonchan-1517.name: "Potonchán ve Tabasco Chontalları"
+
+# Quiriguá, vassal of Copán
+zones.quirigua-426.name: "Quiriguá, Copán’a bağlı"
+
+# Quiriguá, backed by Calakmul
+zones.quirigua-738.name: "Quiriguá, Calakmul’un desteğiyle"
+
+# Cupul, Cochuah, Tazes, Chikinchel, Uaymil and Chetumal, in revolt
+zones.revolt-1546.name: "Ayaklanan Cupul, Cochuah, Tazes, Chikinchel, Uaymil ve Chetumal"
+
+# Seibal
+zones.seibal-770.name: "Seibal"
+
+# Sotuta, under the Cocom
+zones.sotuta-1500.name: "Sotuta, Cocom yönetiminde"
+
+# Sotuta, in revolt from November 1546
+zones.sotuta-1546.name: "Sotuta, Kasım 1546’dan itibaren ayaklanmada"
+
+# New Spain, with the K'iche' lands taken in 1524
+zones.spain-1524.name: "Yeni İspanya ve 1524’te alınan K'iche' toprakları"
+
+# Campeche and Champotón, Montejo’s base, 1531 – 1535
+zones.spain-1531.name: "Campeche ve Champotón, Montejo’nun üssü, 1531 – 1535"
+
+# Spanish Yucatán, 1542
+zones.spain-1542.name: "İspanyol Yucatán’ı, 1542"
+
+# Spanish Yucatán, 1546
+zones.spain-1546.name: "İspanyol Yucatán’ı, 1546"
+
+# Spanish Yucatán
+zones.spain-1562.name: "İspanyol Yucatán’ı"
+
+# Teotihuacan and its valley
+zones.teotihuacan-378.name: "Teotihuacan ve vadisi"
+
+# Kingdom of Tikal (Mutul)
+zones.tikal-300.name: "Tikal Krallığı (Mutul)"
+
+# Tikal and Uaxactun, taken by Siyaj K'ak' in 378
+zones.tikal-378.name: "Tikal ve Uaxactun, 378’de Siyaj K'ak’ın eline geçti"
+
+# Kingdom of Tikal (Mutul)
+zones.tikal-426.name: "Tikal Krallığı (Mutul)"
+
+# Toniná
+zones.tonina-650.name: "Toniná"
+
+# Tz'utujil kingdom of Atitlan
+zones.tzutujil-1450.name: "Atitlan merkezli Tz'utujil Krallığı"
+
+# Uaxactun
+zones.uaxactun-300.name: "Uaxactun"
+
+# Uxmal and the Puuc cities
+zones.uxmal-900.name: "Uxmal ve Puuc kentleri"
+
+# Ah Canul, Chakan, Ceh Pech, Ah Kin Chel and Hocaba
+zones.xiu-1517.name: "Ah Canul, Chakan, Ceh Pech, Ah Kin Chel ve Hocaba"
+
+# Xoconochco, Aztec province from 1486
+zones.xoconochco-1500.name: "Xoconochco, 1486’dan itibaren Aztek eyaleti"
+
+# Yaxchilan (Pa' Chan)
+zones.yaxchilan-700.name: "Yaxchilan (Pa' Chan)"
+
+# Spanish Yucatán and Tabasco
+zones.yucatan-1618.name: "İspanyol Yucatán’ı ve Tabasco"
+
+# Likely home of Proto-Mayan
+markers.cuchumatanes-2000bc.note: "Proto-Mayacanın olası yurdu"
+
+# Highest peak, 4,220 m
+markers.tajumulco-2000bc.note: "En yüksek doruk, 4.220 m"
+
+# Farming villages, about 1800 BC
+markers.soconusco-1800bc.note: "Tarım köyleri, MÖ 1800 dolayı"
+
+# River of the southern lowlands
+markers.usumacinta-2000bc.note: "Güney alçak bölgenin ırmağı"
+
+# Jade in its middle valley
+markers.motagua-2000bc.note: "Orta vadisinde yeşim"
+
+# Forest and fourteen lakes
+markers.peten-lakes-2000bc.note: "Orman ve on dört göl"
+
+# Dry plain, water from cenotes
+markers.yucatan-cenotes-2000bc.note: "Kurak düzlük, su cenotelerden"
+
+# Farming village from 1200 BC
+markers.cuello-1200bc.note: "MÖ 1200’den bir tarım köyü"
+
+# Lake Atitlán and the volcanoes Tolimán and Atitlán in the highlands of Guatemala, 2014
+images.maya-area-atitlan.caption: "Guatemala dağlık bölgesinde Atitlán Gölü ile Tolimán ve Atitlán volkanları, 2014"
+
+# The canyon of the Usumacinta near Tenosique, Tabasco, 2012
+images.maya-area-usumacinta.caption: "Tabasco’da Tenosique yakınında Usumacinta kanyonu, 2012"
+
+# Cenote Zací at Valladolid, Yucatán, a sinkhole open to the water table in the limestone of the northern lowlands, 2012
+images.maya-area-cenote.caption: "Yucatán’da Valladolid’deki Zací cenotesi, kuzey alçak bölgenin kireçtaşında yeraltı suyuna açılan bir çöküntü kuyusu, 2012"
+
+# Earthen platform, 1000 – 800 BC
+markers.aguada-fenix-1000bc.note: "Toprak platform, MÖ 1000 – 800"
+
+# Settled about 900 BC
+markers.seibal-900bc.note: "MÖ 900 dolayında yerleşim"
+
+# Olmec centre, declines about 900 BC
+markers.san-lorenzo-1000bc.note: "Olmek merkezi, MÖ 900 dolayında geriler"
+
+# Olmec centre, 900 – 400 BC
+markers.la-venta-900bc.note: "Olmek merkezi, MÖ 900 – 400"
+
+# Aguada Fénix in a lidar image: the platform of about 1000 – 800 BC with the causeways and wings around it
+images.first-villages-aguada-fenix.caption: "Lidar görüntüsünde Aguada Fénix: MÖ 1000 – 800 dolayına ait platform ve çevresindeki yükseltilmiş yollar ile kanatlar"
+
+# Olmec jade celts, axe blades for offerings, the largest engraved with an Olmec supernatural, Metropolitan Museum of Art
+images.first-villages-olmec-celts.caption: "Adak için yapılmış Olmek yeşim baltaları, en büyüğüne bir Olmek doğaüstü varlığı kazınmış, Metropolitan Sanat Müzesi"
+
+# The south face of the Great Pyramid of La Venta, Tabasco, built of earth and clay
+images.first-villages-la-venta.caption: "Tabasco’da La Venta’nın topraktan ve kilden yapılmış Büyük Piramidi’nin güney yüzü"
+
+# La Danta, about 72 m high
+markers.el-mirador-300bc.note: "La Danta, 72 m kadar"
+
+# Monumental platforms, 8th century BC
+markers.nakbe-750bc.note: "Anıtsal platformlar, MÖ 8. yüzyıl"
+
+# Large Preclassic city
+markers.calakmul-300bc.note: "Büyük Preklasik kent"
+
+# Sizeable city by 350 BC
+markers.tikal-350bc.note: "MÖ 350’de büyük bir kent"
+
+# Walled city of perhaps 10,000
+markers.cival-500bc.note: "Belki 10.000 kişilik surlu kent"
+
+# El Tigre, left, and La Danta, right, rising above the forest of the Mirador Basin
+images.mirador-tigre-danta.caption: "Mirador Havzası’nın ormanından yükselen El Tigre (solda) ve La Danta (sağda)"
+
+# The top of La Danta at El Mirador, seen from the air
+images.mirador-la-danta.caption: "El Mirador’da La Danta’nın tepesi, havadan"
+
+# Stucco masks on the Jaguar Paw Temple, Structure 34, at El Mirador
+images.mirador-jaguar-paw.caption: "El Mirador’da Jaguar Pençesi Tapınağı’ndaki (Yapı 34) alçı maskeler"
+
+# Earliest Maya writing, about 300 BC
+markers.san-bartolo-300bc.note: "En eski Maya yazısı, MÖ 300 dolayı"
+
+# Royal tomb, 350 – 300 BC
+markers.ko-350bc.note: "Kraliyet mezarı, MÖ 350 – 300"
+
+# Thrones of rulers with captives
+markers.kaminaljuyu-300bc.note: "Tutsaklı hükümdar tahtları"
+
+# Stela 5, AD 126
+markers.takalik-abaj-126.note: "Stel 5, MS 126"
+
+# Carved stelae, 850 – 100 BC
+markers.izapa-300bc.note: "Oyma steller, MÖ 850 – 100"
+
+# Replica of the west wall mural of San Bartolo, painted around 100 BC, in the Miraflores museum, Guatemala City
+images.san-bartolo-mural.caption: "San Bartolo’nun MÖ 100 dolayında yapılmış batı duvarı resminin Guatemala City’deki Miraflores müzesinde bulunan kopyası"
+
+# Monument 65 from Kaminaljuyu: three seated rulers, each between two bound captives, Late Preclassic
+images.san-bartolo-kaminaljuyu-65.caption: "Kaminaljuyu’dan Anıt 65: her biri iki bağlı tutsağın arasında oturan üç hükümdar, Geç Preklasik dönem"
+
+# Stela 5 at Takalik Abaj, with two rulers either side of a column of Long Count dates, the later in AD 126
+images.san-bartolo-takalik-stela-5.caption: "Takalik Abaj’daki Stel 5, bir sütun Uzun Sayım tarihinin iki yanında iki hükümdar, sonraki tarih MS 126"
+
+# Walled, abandoned by about 150
+markers.el-mirador-150.note: "Surlanır, 150 dolayında terk edilir"
+
+# Survives into the Classic
+markers.calakmul-200.note: "Klasik döneme ulaşır"
+
+# Rich burials from the 1st century
+markers.tikal-100.note: "1. yüzyıldan zengin mezarlar"
+
+# Almost empty by about 300
+markers.seibal-300.note: "300 dolayında neredeyse boş"
+
+# Old traditions end
+markers.kaminaljuyu-200.note: "Eski gelenekler sona erer"
+
+# Stela 2 at El Mirador, a Late Preclassic monument
+images.preclassic-collapse-mirador-stela-2.caption: "El Mirador’da Geç Preklasik döneme ait Stel 2"
+
+# The mounds of Kaminaljuyu outside Guatemala City, photograph by Alfred Maudslay, 1890s
+images.preclassic-collapse-kaminaljuyu-1890.caption: "Guatemala City dışında Kaminaljuyu höyükleri, Alfred Maudslay’in fotoğrafı, 1890’lar"
+
+# The Lost World Pyramid at Tikal, part of an E Group begun in the Preclassic
+images.preclassic-collapse-lost-world.caption: "Tikal’de, Preklasik dönemde başlanan bir E Grubu’nun parçası olan Kayıp Dünya Piramidi"
+
+# Stela 29, AD 292
+markers.tikal-292.note: "Stel 29, MS 292"
+
+# Stela 9, AD 328
+markers.uaxactun-328.note: "Stel 9, MS 328"
+
+# Dynasty founded, 331
+markers.caracol-331.note: "Hanedanın kuruluşu, 331"
+
+# Kings from the mid-4th century
+markers.el-peru-350.note: "4. yüzyıl ortasından krallar"
+
+# The emblem glyph of Tikal, the title holy lord of Mutul, on a stela in the Tikal museum
+images.tikal-emblem-glyph.caption: "Tikal müzesindeki bir stelde Tikal’in amblem glifi, Mutul’un kutsal efendisi unvanı"
+
+# The North Acropolis of Tikal, burial place of its kings from the Late Preclassic, seen from the Central Acropolis
+images.tikal-north-acropolis.caption: "Geç Preklasik dönemden başlayarak krallarının gömüldüğü Tikal Kuzey Akropolisi, Orta Akropolis’ten"
+
+# Stela 26 from the North Acropolis of Tikal, which names Chak Tok Ich'aak I
+images.tikal-stela-26.caption: "Tikal Kuzey Akropolisi’nden, I. Chak Tok Ich'aak’ın adını taşıyan Stel 26"
+
+# Siyaj K'ak' from the west to El Perú and Tikal, January AD 378
+routes.siyaj-kak-378.name: "Siyaj K'ak’ın batıdan El Perú’ya ve Tikal’e yürüyüşü, Ocak MS 378"
+
+# Siyaj K'ak' arrives, 8 January
+markers.el-peru-378.note: "Siyaj K'ak' gelir, 8 Ocak"
+
+# Chak Tok Ich'aak I dies, 16 January
+markers.tikal-378.note: "I. Chak Tok Ich'aak ölür, 16 Ocak"
+
+# Siyaj K'ak' becomes king
+markers.uaxactun-378.note: "Siyaj K'ak' kral olur"
+
+# Tikal outpost under Yax Nuun Ahiin
+markers.rio-azul-400.note: "Yax Nuun Ahiin döneminde Tikal’in ileri karakolu"
+
+# The back of Tikal Stela 31, whose text records the arrival of Siyaj K'ak' at El Perú and Tikal in January 378
+images.entrada-stela-31-back.caption: "Yazıtı Siyaj K'ak’ın Ocak 378’de El Perú’ya ve Tikal’e gelişini kaydeden Tikal Stel 31’in arka yüzü"
+
+# Teotihuacan in the Valley of Mexico, seen from the Pyramid of the Moon, with the Pyramid of the Sun on the left
+images.entrada-teotihuacan.caption: "Meksika Vadisi’nde Teotihuacan, Ay Piramidi’nden, solda Güneş Piramidi"
+
+# Yax Nuun Ahiin I as a Teotihuacan warrior on the side of Tikal Stela 31, cast in the National Museum of Anthropology, Mexico City
+images.entrada-yax-nuun-ahiin.caption: "Tikal Stel 31’in yan yüzünde Teotihuacan savaşçısı olarak I. Yax Nuun Ahiin, Mexico City Ulusal Antropoloji Müzesi’ndeki kalıp"
+
+# K'inich Yax K'uk' Mo' founds a dynasty
+markers.copan-426.note: "K'inich Yax K'uk' Mo' hanedan kurar"
+
+# Tok Casper installed, 426
+markers.quirigua-426.note: "Tok Casper tahta çıkarılır, 426"
+
+# Source of jade
+markers.motagua-jade-426.note: "Yeşim kaynağı"
+
+# Names K'uk' Mo' in 406
+markers.tikal-426.note: "406’da K'uk' Mo’yu anar"
+
+# Great eruption, about 431
+markers.ilopango-431.note: "Büyük patlama, 431 dolayı"
+
+# Altar Q at Copán, carved in the 8th century with the sixteen kings of the dynasty of K'inich Yax K'uk' Mo'
+images.copan-altar-q.caption: "Copán’da 8. yüzyılda K'inich Yax K'uk' Mo’nun hanedanının on altı kralıyla oyulmuş Sunak Q"
+
+# A 7th-century incense burner from Copán thought to show K'inich Yax K'uk' Mo' with the goggles of Teotihuacan
+images.copan-yax-kuk-mo.caption: "Copán’dan, K'inich Yax K'uk' Mo’yu Teotihuacan gözlükleriyle gösterdiği düşünülen 7. yüzyıldan bir tütsü kabı"
+
+# The Ilopango caldera, 8 by 11 km, with pale deposits of the great eruption in the foreground
+images.copan-ilopango.caption: "8 km’ye 11 km’lik Ilopango kalderası, önde büyük patlamanın açık renkli çökelleri"
+
+# Kaanul seat, stairway of 495
+markers.dzibanche-495.note: "Kaanul merkezi, 495 tarihli merdiven"
+
+# Captures a Kaanul vassal, 537
+markers.yaxchilan-537.note: "Bir Kaanul vasalını tutsak alır, 537"
+
+# Aj Wosal enthroned, 546
+markers.naranjo-546.note: "Aj Wosal tahta çıkar, 546"
+
+# Wak Chan K'awiil king, 537
+markers.tikal-537.note: "Wak Chan K'awiil kral olur, 537"
+
+# Yajaw Te' K'inich II, 553
+markers.caracol-553.note: "II. Yajaw Te' K'inich, 553"
+
+# The Temple of the Owl and the Temple of the Cormorants at Dzibanche, seen from the air
+images.kaanul-dzibanche-temples.caption: "Dzibanche’de Baykuş Tapınağı ile Karabatak Tapınağı, havadan"
+
+# Bound captives with their names on the hieroglyphic stairway of the Building of the Captives at Dzibanche
+images.kaanul-dzibanche-captives.caption: "Dzibanche’deki Tutsaklar Yapısı’nın hiyeroglif merdiveninde adlarıyla birlikte bağlı tutsaklar"
+
+# The snake head emblem glyph of the Kaanul kings, drawing by Harri Kettunen
+images.kaanul-emblem-glyph.caption: "Kaanul krallarının yılan başı biçimindeki amblem glifi, Harri Kettunen’in çizimi"
+
+# Yajaw Te' K'inich II, king 553
+markers.caracol-562.note: "Yajaw Te' K'inich II, kral 553"
+
+# Kaanul vassal since 546
+markers.naranjo-562.note: "546’dan beri Kaanul vasalı"
+
+# Ally of the Kaanul kings
+markers.el-peru-562.note: "Kaanul krallarının müttefiki"
+
+# Seat of the Kaanul kings
+markers.dzibanche-562.note: "Kaanul krallarının merkezi"
+
+# Caracol and the Kaanul kingdom
+battles.tikal-562.sides.0.name: "Caracol ve Kaanul krallığı"
+
+# Tikal
+battles.tikal-562.sides.1.name: "Tikal"
+
+# Star war against Tikal
+battles.tikal-562.name: "Tikal’e karşı yıldız savaşı"
+
+# April AD 562
+battles.tikal-562.date: "Nisan MS 562"
+
+# Caracol and Kaanul victory, Tikal’s king probably sacrificed
+battles.tikal-562.result: "Caracol ve Kaanul zaferi, Tikal kralı büyük olasılıkla kurban edilir"
+
+# Caana, the largest building at Caracol, Belize
+images.caracol-caana.caption: "Caracol’un en büyük yapısı Caana, Belize"
+
+# A Maya vessel with a battle scene, 600 – 900, from the Nebaj region of Guatemala, Cleveland Museum of Art
+images.caracol-battle-vessel.caption: "Guatemala’nın Nebaj bölgesinden savaş sahneli bir Maya kabı, 600 – 900, Cleveland Sanat Müzesi"
+
+# A stucco mask and a band of glyphs beside a tomb on the summit of Caana at Caracol
+images.caracol-caana-mask.caption: "Caracol’da Caana’nın tepesindeki bir mezarın yanında alçı bir maske ve glif şeridi"
+
+# Lakam Chak, ally of Uneh Chan
+markers.santa-elena-599.note: "Uneh Chan’ın müttefiki Lakam Chak"
+
+# Stelae name Uneh Chan, 593
+markers.calakmul-593.note: "Steller Uneh Chan’ı anar, 593"
+
+# Stela 4 shows Uneh Chan
+markers.caracol-583.note: "Stel 4 Uneh Chan’ı gösterir"
+
+# Uneh Chan, Kaanul king 579 – 611
+markers.dzibanche-599.note: "Uneh Chan, Kaanul kralı 579 – 611"
+
+# Kaanul kingdom and Santa Elena
+battles.palenque-599.sides.0.name: "Kaanul krallığı ve Santa Elena"
+
+# Palenque
+battles.palenque-599.sides.1.name: "Palenque"
+
+# Sack of Palenque
+battles.palenque-599.name: "Palenque’nin yağmalanması"
+
+# 23 April AD 599
+battles.palenque-599.date: "23 Nisan MS 599"
+
+# Kaanul victory and sack of Palenque, repeated on 7 April AD 611
+battles.palenque-599.result: "Kaanul zaferi ve Palenque’nin yağmalanması, 7 Nisan MS 611’de yinelenir"
+
+# The Palace at Palenque with its tower, seen from the west
+images.palenque-599-palace.caption: "Palenque’deki Saray ve kulesi, batıdan görünüm"
+
+# A stucco relief in the Palace at Palenque, drawn by Ricardo Almendáriz for the expedition of Antonio del Río in 1787
+images.palenque-599-almendariz.caption: "Palenque Sarayı’ndaki alçı bir kabartma, Ricardo Almendáriz’in Antonio del Río seferi için 1787’de yaptığı çizim"
+
+# K'inich Janaab Pakal, king 615 – 683
+markers.palenque-615.note: "K'inich Janaab Pakal, kral 615 – 683"
+
+# Tributary of Palenque from 628
+markers.santa-elena-628.note: "628’den itibaren Palenque’ye haraç öder"
+
+# Pipa', defeated by Pakal 659
+markers.pomona-659.note: "Pipa', 659’da Pakal’e yenilir"
+
+# Captures a Palenque official, 628
+markers.piedras-negras-628.note: "Bir Palenque görevlisini esir alır, 628"
+
+# The Oval Palace Tablet at Palenque: Sak K'uk' hands her son Pakal the crown on the day he becomes king
+images.pakal-oval-tablet.caption: "Palenque’deki Oval Saray Tableti: Sak K'uk', kral olduğu gün oğlu Pakal’e tacı verir"
+
+# The Temple of the Inscriptions at Palenque, Pakal’s funerary pyramid
+images.pakal-temple-inscriptions.caption: "Palenque’deki Yazıtlar Tapınağı, Pakal’in mezar piramidi"
+
+# The jade mosaic mask from Pakal’s tomb, National Museum of Anthropology, Mexico City
+images.pakal-jade-mask.caption: "Pakal’in mezarından çıkan yeşim mozaik maske, Ulusal Antropoloji Müzesi, Meksiko"
+
+# K'an II, king 618 – 658
+markers.caracol-626.note: "K'an II, kral 618 – 658"
+
+# Frieze built for Aj Wosal
+markers.holmul-600.note: "Aj Wosal için yapılan friz"
+
+# Naranjo’s king held captive here
+markers.calakmul-631.note: "Naranjo kralı burada esir tutulur"
+
+# Caracol and the Kaanul kingdom
+battles.naranjo-631.sides.0.name: "Caracol ve Kaanul krallığı"
+
+# Naranjo
+battles.naranjo-631.sides.1.name: "Naranjo"
+
+# Star war against Naranjo
+battles.naranjo-631.name: "Naranjo’ya karşı yıldız savaşı"
+
+# AD 631
+battles.naranjo-631.date: "MS 631"
+
+# Caracol and Kaanul victory, Naranjo back under Kaanul rule
+battles.naranjo-631.result: "Caracol ve Kaanul zaferi, Naranjo yeniden Kaanul egemenliğine girer"
+
+# Restored buildings at Naranjo, Petén, Guatemala, 2014
+images.naranjo-631-ruins.caption: "Naranjo’da restore edilmiş yapılar, Petén, Guatemala, 2014"
+
+# The "star war" glyph as written on the Naranjo Hieroglyphic Stairway for the war of 631
+images.naranjo-631-star-war-glyph.caption: "Naranjo Hiyeroglifli Merdiveni’nde 631 savaşı için yazılmış \"yıldız savaşı\" glifi"
+
+# Yuknoom Ch'een II, king 636 – 686
+markers.calakmul-636.note: "Yuknoom Ch'een II, kral 636 – 686"
+
+# Second branch of the Kaanul kings
+markers.dzibanche-636.note: "Kaanul krallarının ikinci kolu"
+
+# Defeated by Calakmul, 657
+markers.tikal-657.note: "657’de Calakmul’a yenilir"
+
+# K'inich Bahlam, Kaanul vassal
+markers.el-peru-686.note: "K'inich Bahlam, Kaanul vasalı"
+
+# Marries a Kaanul princess, 679
+markers.la-corona-679.note: "Bir Kaanul prensesiyle evlilik, 679"
+
+# Kaanul envoy oversees a rite, 685
+markers.piedras-negras-685.note: "Kaanul elçisi bir töreni yönetir, 685"
+
+# Kings installed 656 and 677
+markers.cancuen-656.note: "656 ve 677’de kral atanır"
+
+# Structure II at Calakmul above the forest
+images.yuknoom-cheen-structure-2.caption: "Calakmul’da ormanın üzerinde yükselen II. Yapı"
+
+# A relief from La Corona showing Yuknoom Ch'een II as a ballplayer on a visit in 635, National Museum of Archaeology and Ethnology, Guatemala City
+images.yuknoom-cheen-la-corona.caption: "Yuknoom Ch'een II’yi 635’teki bir ziyarette top oyuncusu olarak gösteren La Corona kabartması, Ulusal Arkeoloji ve Etnoloji Müzesi, Guatemala Kenti"
+
+# Seat of B'alaj Chan K'awiil
+markers.dos-pilas-648.note: "B'alaj Chan K'awiil’in merkezi"
+
+# Tajal Mo' captured here, 664
+markers.machaquila-664.note: "Tajal Mo' burada esir alınır, 664"
+
+# Refuge of B'alaj Chan K'awiil, 650
+markers.aguateca-650.note: "B'alaj Chan K'awiil’in sığınağı, 650"
+
+# Dos Pilas
+battles.dos-pilas-679.sides.0.name: "Dos Pilas"
+
+# Tikal
+battles.dos-pilas-679.sides.1.name: "Tikal"
+
+# Victory of Dos Pilas over Tikal
+battles.dos-pilas-679.name: "Dos Pilas’ın Tikal’e karşı zaferi"
+
+# April AD 679
+battles.dos-pilas-679.date: "Nisan MS 679"
+
+# Dos Pilas victory, probably with Kaanul help
+battles.dos-pilas-679.result: "Dos Pilas zaferi, büyük olasılıkla Kaanul desteğiyle"
+
+# Dos Pilas in 2002, with thatched shelters over its carved monuments
+images.dos-pilas-site.caption: "2002’de Dos Pilas, oymalı anıtlarının üzerinde sazdan sundurmalarla"
+
+# A Late Classic relief of a bound captive from Dos Pilas
+images.dos-pilas-captive.caption: "Dos Pilas’tan bağlı bir esiri gösteren Geç Klasik kabartma"
+
+# Warriors leading captives on a Maya vessel with a battle scene, 600 – 900, Nebaj region, Cleveland Museum of Art
+images.dos-pilas-battle-vessel.caption: "Savaş sahneli bir Maya kabında esir götüren savaşçılar, 600 – 900, Nebaj bölgesi, Cleveland Sanat Müzesi"
+
+# Lady Six Sky, from 682
+markers.naranjo-682.note: "Lady Six Sky, 682’den itibaren"
+
+# Defeated by Naranjo, 680
+markers.caracol-680.note: "680’de Naranjo’ya yenilir"
+
+# Jasaw Chan K'awiil I, king from 682
+markers.tikal-682.note: "Jasaw Chan K'awiil I, 682’den itibaren kral"
+
+# Naranjo Stela 24: Lady Six Sky stands on a captive from K'inichil Kab
+images.lady-six-sky-stela-24.caption: "Naranjo Stel 24: Lady Six Sky, K'inichil Kab’lı bir esirin üzerinde durur"
+
+# The name glyphs of Lady Six Sky on Naranjo Stela 24, drawing by Arqueogato after Ian Graham
+images.lady-six-sky-name-glyphs.caption: "Naranjo Stel 24’te Lady Six Sky’ın ad glifleri, Ian Graham’dan Arqueogato çizimi"
+
+# A temple at Naranjo under restoration, 2014
+images.lady-six-sky-naranjo-temple.caption: "Naranjo’da restorasyondaki bir tapınak, 2014"
+
+# Yuknoom Yich'aak K'ahk', king from 686
+markers.calakmul-695.note: "Yuknoom Yich'aak K'ahk', 686’dan itibaren kral"
+
+# Visited by Yich'aak K'ahk' in 696
+markers.la-corona-696.note: "696’da Yich'aak K'ahk' ziyaret eder"
+
+# Tikal
+battles.tikal-695.sides.0.name: "Tikal"
+
+# Kaanul kingdom
+battles.tikal-695.sides.1.name: "Kaanul krallığı"
+
+# Tikal’s victory over Calakmul
+battles.tikal-695.name: "Tikal’in Calakmul’a karşı zaferi"
+
+# August AD 695
+battles.tikal-695.date: "Ağustos MS 695"
+
+# Tikal victory, the image of the Calakmul god Yajaw Maan captured
+battles.tikal-695.result: "Tikal zaferi, Calakmul tanrısı Yajaw Maan’ın tasviri ele geçirilir"
+
+# Temple I at Tikal, the funerary pyramid of Jasaw Chan K'awiil I
+images.tikal-695-temple-i.caption: "Tikal’deki I. Tapınak, Jasaw Chan K'awiil I’in mezar piramidi"
+
+# Jasaw Chan K'awiil I on Tikal Stela 16, dedicated in 711, in a drawing
+images.tikal-695-stela-16.caption: "711’de dikilen Tikal Stel 16’da Jasaw Chan K'awiil I, çizim"
+
+# A jade mosaic funerary mask from Calakmul, attributed to Yuknoom Yich'aak K'ahk'
+images.tikal-695-calakmul-mask.caption: "Calakmul’dan, Yuknoom Yich'aak K'ahk’a atfedilen yeşim mozaik mezar maskesi"
+
+# Shield Jaguar crowned, 681
+markers.yaxchilan-681.note: "Kalkan Jaguar tahta çıkar, 681"
+
+# Captures a Yaxchilan sajal, 726
+markers.piedras-negras-726.note: "Yaxchilanlı bir sajalı esir alır, 726"
+
+# River trade route
+markers.usumacinta-726.note: "Nehir ticaret yolu"
+
+# Its lord captured, 729
+markers.lacanha-729.note: "Beyi esir alınır, 729"
+
+# At times under Yaxchilan
+markers.bonampak-729.note: "Zaman zaman Yaxchilan’a bağlı"
+
+# Lintel 24 of Structure 23 at Yaxchilan: Lady K'abal Xook draws a rope through her tongue before Itzamnaaj Bahlam III, British Museum
+images.yaxchilan-lintel-24.caption: "Yaxchilan’daki Yapı 23’ün Lento 24’ü: Leydi K'abal Xook, Itzamnaaj Bahlam III’ün önünde dilinden bir ip geçirir, British Museum, Londra"
+
+# Lintel 16 from Yaxchilan: Yaxun B'alam IV, spear in hand, stands over a seated captive, British Museum
+images.yaxchilan-lintel-16.caption: "Yaxchilan’dan Lento 16: elinde mızrağıyla Yaxun B'alam IV oturan bir esirin önünde durur, British Museum, Londra"
+
+# Ballcourt dedicated, 6 January 738
+markers.copan-738.note: "Top sahası açılır, 6 Ocak 738"
+
+# Jade sources
+markers.motagua-738.note: "Yeşim yatakları"
+
+# Quiriguá
+battles.copan-738.sides.0.name: "Quiriguá"
+
+# Copán
+battles.copan-738.sides.1.name: "Copán"
+
+# Quiriguá’s victory over Copán
+battles.copan-738.name: "Quiriguá’nın Copán’a karşı zaferi"
+
+# 27 April – 3 May AD 738
+battles.copan-738.date: "27 Nisan – 3 Mayıs MS 738"
+
+# Quiriguá victory, Uaxaclajuun Ub'aah K'awiil captured and beheaded
+battles.copan-738.result: "Quiriguá zaferi, Uaxaclajuun Ub'aah K'awiil esir alınıp başı kesilir"
+
+# Stela H at Copán, raised in 730, with Uaxaclajuun Ub'aah K'awiil in the costume of the maize god
+images.copan-738-stela-h.caption: "Copán’da 730’da dikilen Stel H: mısır tanrısı kılığında Uaxaclajuun Ub'aah K'awiil"
+
+# Stela E at Quiriguá, dedicated in 771, under its protective roof, 2014
+images.copan-738-quirigua-stela-e.caption: "Quiriguá’da 771’de adanan Stel E, koruyucu çatısının altında, 2014"
+
+# Tikal’s campaign against El Perú, 743
+routes.yikin-743.name: "Tikal’in El Perú seferi, 743"
+
+# Tikal’s campaign against Naranjo, 744
+routes.yikin-744.name: "Tikal’in Naranjo seferi, 744"
+
+# Temple IV, lintels dated 741
+markers.tikal-743.note: "Tapınak IV, lentoları 741 tarihli"
+
+# A lord shown bound at Tikal
+markers.calakmul-736.note: "Bir beyi Tikal’de bağlı gösterilir"
+
+# King captured, 744
+markers.naranjo-744.note: "Kralı esir alınır, 744"
+
+# Still allied with Calakmul
+markers.dos-pilas-743.note: "Hâlâ Calakmul’un müttefiki"
+
+# Tikal
+battles.el-peru-743.sides.0.name: "Tikal"
+
+# El Perú (Waka')
+battles.el-peru-743.sides.1.name: "El Perú (Waka')"
+
+# Tikal’s victory over El Perú
+battles.el-peru-743.name: "Tikal’in El Perú’ya karşı zaferi"
+
+# AD 743
+battles.el-peru-743.date: "MS 743"
+
+# Tikal victory, El Perú becomes a vassal of Tikal
+battles.el-peru-743.result: "Tikal zaferi, El Perú Tikal’in vasalı olur"
+
+# The top of Temple IV at Tikal above the forest, 2006
+images.tikal-743-temple-iv.caption: "Tikal’de Tapınak IV’ün ormanın üstünde yükselen tepesi, 2006"
+
+# Lintel 3 of Temple IV at Tikal, carved in sapodilla wood, Museum der Kulturen, Basel
+images.tikal-743-lintel-3.caption: "Tikal’de Tapınak IV’ün sakız ağacından oyulmuş Lento 3’ü, Museum der Kulturen, Basel"
+
+# Its king flees, 761
+markers.dos-pilas-761.note: "Kralı kaçar, 761"
+
+# 4.8 km of walls, burned c. 800
+markers.aguateca-800.note: "4,8 km sur, 800 dolayında yakılır"
+
+# Three moats across the peninsula
+markers.punta-de-chimino-800.note: "Yarımadanın boynunda üç hendek"
+
+# Independent again, 771
+markers.seibal-771.note: "Yeniden bağımsız, 771"
+
+# Royal court killed, c. 800
+markers.cancuen-800.note: "Saray halkı öldürülür, 800 dolayı"
+
+# A stela in front of a temple on the main plaza of Aguateca, 2006
+images.petexbatun-aguateca.caption: "Aguateca’nın ana meydanında bir tapınağın önündeki stel, 2006"
+
+# Panel 3 from Cancuén, 795: Tajal Chan Ahk on his throne between two lesser lords, National Museum of Archaeology and Ethnology, Guatemala City
+images.petexbatun-cancuen.caption: "Cancuén’den Pano 3, 795: tahtında iki bağlı bey arasında oturan Tajal Chan Ahk, Ulusal Arkeoloji ve Etnoloji Müzesi, Guatemala Kenti"
+
+# Temple of the Murals, c. 790
+markers.bonampak-790.note: "Duvar Resimleri Tapınağı, 790 dolayı"
+
+# Overlord of Bonampak
+markers.yaxchilan-790.note: "Bonampak’ın efendisi"
+
+# Musicians on the murals of Room 1 at Bonampak
+images.bonampak-room-1.caption: "Bonampak’ta Oda 1’in duvar resimlerinde müzisyenler"
+
+# The battle on the walls of Room 2 at Bonampak, in the reproduction at the National Museum of Anthropology, Mexico City
+images.bonampak-room-2.caption: "Bonampak’ta Oda 2’nin duvarlarındaki muharebe, Meksiko’daki Ulusal Antropoloji Müzesi’nde bulunan kopyada"
+
+# Last inscriptions, 810
+markers.quirigua-810.note: "Son yazıtlar, 810"
+
+# Last king crowned, 822
+markers.copan-822.note: "Son kral tahta çıkar, 822"
+
+# Seventeen stelae, 849 – 889
+markers.seibal-849.note: "On yedi stel, 849 – 889"
+
+# Last stela, 869
+markers.tikal-869.note: "Son stel, 869"
+
+# Last stela, 899 or 909
+markers.calakmul-909.note: "Son stel, 899 ya da 909"
+
+# Last Long Count date, 909
+markers.tonina-909.note: "Son Uzun Sayım tarihi, 909"
+
+# Sediments record a 9th-century drought
+markers.chichancanab-900.note: "Tortular 9. yüzyıl kuraklığını kaydeder"
+
+# A plaster cast of Seibal Stela 10, raised by Wat'ul Chatel in 849, Peabody Museum, Harvard University
+images.collapse-seibal-stela-10.caption: "Wat'ul Chatel’in 849’da diktiği Seibal Stel 10’un alçı kalıbı, Peabody Müzesi, Harvard Üniversitesi"
+
+# The acropolis of Toniná, Chiapas, built in terraces up a hillside, 2007
+images.collapse-tonina.caption: "Chiapas’ta Toniná’nın bir yamaca teraslar halinde kurulmuş akropolü, 2007"
+
+# The causeway from Coba to Yaxuna, about 100 km
+routes.sacbe-coba-yaxuna.name: "Coba’dan Yaxuna’ya giden yol, yaklaşık 100 km"
+
+# The causeway from Uxmal to Kabah, 18 km
+routes.sacbe-uxmal-kabah.name: "Uxmal’dan Kabah’a giden yol, 18 km"
+
+# Ballcourt dedicated, 901
+markers.uxmal-901.note: "Top sahası adanır, 901"
+
+# Palace of the Masks
+markers.kabah-879.note: "Maskeler Sarayı"
+
+# About 10,000 people, c. 900
+markers.sayil-900.note: "900 dolayında 10.000 kadar kişi"
+
+# Palace date of 862
+markers.labna-862.note: "Sarayda 862 tarihi"
+
+# Ukit Kan Le'k Tok' crowned, 770
+markers.ek-balam-770.note: "Ukit Kan Le'k Tok' tahta çıkar, 770"
+
+# Some 50,000 inhabitants
+markers.coba-800.note: "50.000 kadar nüfus"
+
+# The Governor’s Palace at Uxmal: plain lower walls under a frieze of stone mosaic
+images.puuc-uxmal.caption: "Uxmal’da Vali Sarayı: taş mozaikten bir frizin altında yalın alt duvarlar"
+
+# Masks of the rain god Chaac on the Codz Poop, the Palace of the Masks, at Kabah
+images.puuc-kabah.caption: "Kabah’ta Maskeler Sarayı Codz Poop’un cephesinde yağmur tanrısı Chaac’ın maskeleri"
+
+# Dated texts, 832 – 998
+markers.chichen-itza-998.note: "Tarihli yazıtlar, 832 – 998"
+
+# Port of Chichen Itza
+markers.isla-cerritos-900.note: "Chichen Itza’nın limanı"
+
+# Dependency of Coba, declines
+markers.yaxuna-950.note: "Coba’ya bağlı, geriler"
+
+# Loses territory, 10th century
+markers.coba-950.note: "10. yüzyılda toprak kaybeder"
+
+# The Temple of Kukulcán, El Castillo, at Chichen Itza
+images.chichen-itza-castillo.caption: "Chichen Itza’da Kukulcán Tapınağı, El Castillo"
+
+# The Great Ball Court of Chichen Itza, 2010
+images.chichen-itza-ball-court.caption: "Chichen Itza’nın Büyük Top Sahası, 2010"
+
+# Walled capital of the league
+markers.mayapan-1300.note: "Birliğin surlarla çevrili başkenti"
+
+# Its Castillo copied at Mayapan
+markers.chichen-itza-1220.note: "Castillo’su Mayapan’da taklit edilir"
+
+# Trade partner of Mayapan
+markers.cozumel-1300.note: "Mayapan’ın ticaret ortağı"
+
+# Home of Mayapan’s mercenaries
+markers.tabasco-1300.note: "Mayapan’ın paralı askerlerinin yurdu"
+
+# Temples like those of Mayapan
+markers.zacpeten-1300.note: "Mayapan’dakilere benzeyen tapınaklar"
+
+# Source of Mayapan’s obsidian
+markers.el-chayal-1300.note: "Mayapan’ın obsidyen kaynağı"
+
+# The Temple of Kukulcan at Mayapan, 2020
+images.mayapan-kukulcan.caption: "Mayapan’da Kukulcan Tapınağı, 2020"
+
+# Remains of a painted mural at the foot of the Temple of Kukulcan, Mayapan, 2022
+images.mayapan-mural.caption: "Mayapan’da Kukulcan Tapınağı’nın eteğinde boyalı bir duvar resminin kalıntıları, 2022"
+
+# K'iche' capital, founded about 1400
+markers.qumarkaj-1400.note: "K'iche' başkenti, 1400 dolaylarında kuruldu"
+
+# K'iq'ab defeats the K'oja
+markers.sacapulas-1425.note: "K'iq'ab K'ojaları yener"
+
+# Capital of the Mam
+markers.zaculeu-1425.note: "Mamların başkenti"
+
+# Conquered by K'iq'ab
+markers.rabinal-1450.note: "K'iq'ab tarafından fethedildi"
+
+# Conquered by K'iq'ab
+markers.quetzaltenango-1450.note: "K'iq'ab tarafından fethedildi"
+
+# Western limit of the kingdom
+markers.okos-1450.note: "Krallığın batı sınırı"
+
+# Southern limit of the kingdom
+markers.escuintla-1450.note: "Krallığın güney sınırı"
+
+# The Temple of Tohil at Q'umarkaj, drawn by Frederick Catherwood in 1840
+images.kiche-tohil.caption: "Q'umarkaj’da Tohil Tapınağı, Frederick Catherwood’un 1840’ta yaptığı çizim"
+
+# The remains of the Temple of Awilix at Q'umarkaj, 2006
+images.kiche-awilix.caption: "Q'umarkaj’da Awilix Tapınağı’nın kalıntıları, 2006"
+
+# The first page of the Popol Vuh in the copy by Francisco Ximénez, Newberry Library, Chicago
+images.kiche-popol-vuh.caption: "Francisco Ximénez’in kopyasında Popol Vuh’un ilk sayfası, Newberry Kütüphanesi, Chicago"
+
+# Sacked and burned, 1441
+markers.mayapan-1441.note: "1441’de yağmalanıp yakıldı"
+
+# Seat of the Xiu
+markers.mani-1441.note: "Xiuların merkezi"
+
+# Province of the surviving Cocom
+markers.sotuta-1441.note: "Sağ kalan Cocom’un eyaleti"
+
+# Capital of Cupul
+markers.saci-1450.note: "Cupul’un başkenti"
+
+# Fought over by Cupul and Chikinchel
+markers.salt-beds-1450.note: "Cupul ile Chikinchel’in çekiştiği yer"
+
+# Capital of a Caribbean province
+markers.chetumal-1450.note: "Karayip kıyısındaki bir eyaletin başkenti"
+
+# Province on the Gulf coast
+markers.campeche-1450.note: "Körfez kıyısında bir eyalet"
+
+# A page of the Book of Chilam Balam of Chumayel, a Yucatec Maya chronicle in Latin letters, Princeton University Library
+images.fall-of-mayapan-chumayel.caption: "Latin harfleriyle Yucatek Maya dilinde yazılmış bir kronik olan Chumayel Chilam Balam Kitabı’ndan bir sayfa, Princeton Üniversitesi Kütüphanesi"
+
+# A map of the province of Maní drawn in 1557, with its towns set in a circle, in a copy by Frederick Catherwood, 1842
+images.fall-of-mayapan-mani-map.caption: "1557’de çizilen, kasabalarını bir daire üzerinde gösteren Maní eyaleti haritası, Frederick Catherwood’un kopyası, 1842"
+
+# Kaqchikel capital from about 1470
+markers.iximche-1470.note: "1470 dolaylarından beri Kaqchikel başkenti"
+
+# Tz'utujil capital on Lake Atitlán
+markers.chiaa-1490.note: "Atitlán Gölü’nde Tz'utujil başkenti"
+
+# Aztec province paying in cacao
+markers.xoconochco-1500.note: "Kakaoyla haraç ödeyen Aztek eyaleti"
+
+# Temples and plazas of Iximche near Tecpán, 2009
+images.iximche-ruins.caption: "Tecpán yakınında Iximche’nin tapınakları ve meydanları, 2009"
+
+# Zaculeu, the capital of the Mam near Huehuetenango, as restored in the late 1940s
+images.iximche-zaculeu.caption: "Huehuetenango yakınında Mamların başkenti Zaculeu, 1940’ların sonundaki onarımdan sonraki haliyle"
+
+# Columbus’s fourth voyage to Guanaja and along the coast of Honduras, July – September 1502
+routes.columbus-1502.name: "Kolomb’un dördüncü seferi: Guanaja ve Honduras kıyısı, Temmuz – Eylül 1502"
+
+# Maya canoe trade along the coast of Yucatán, from Xicalango to Nito
+routes.maya-canoes-1500.name: "Xicalango’dan Nito’ya, Yucatán kıyısı boyunca Maya kano ticareti"
+
+# Walled port above the Caribbean
+markers.tulum-1500.note: "Karayip’e bakan surlu liman"
+
+# Shrine of the goddess Ixchel
+markers.cozumel-1500.note: "Tanrıça Ixchel’in tapınağı"
+
+# Chontal Maya trading town
+markers.xicalango-1500.note: "Chontal Maya ticaret kasabası"
+
+# Cacao growers and traders
+markers.chetumal-1500.note: "Kakao üreticileri ve tüccarları"
+
+# Port on the Dulce River
+markers.nito-1500.note: "Dulce Irmağı üzerinde liman"
+
+# Columbus meets a trading canoe
+markers.guanaja-1502.note: "Kolomb bir ticaret kanosuyla karşılaşır"
+
+# The Temple of the Wind God, left, and the Castillo, right, on the cliffs of Tulum above the Caribbean, 2016
+images.sea-trade-tulum.caption: "Tulum’da Karayip Denizi’ne bakan yarların üstünde Rüzgâr Tanrısı Tapınağı (solda) ve Castillo (sağda), 2016"
+
+# Canoes off a coastal town on a mural in the Temple of the Warriors at Chichen Itza, copy by Ann Axtell Morris, 1931
+images.sea-trade-canoe-mural.caption: "Chichen Itza’daki Savaşçılar Tapınağı’nın bir duvar resminde kıyı kasabası açıklarında kanolar, Ann Axtell Morris’in kopyası, 1931"
+
+# Survivors seized, Valdivia sacrificed, 1511
+markers.uaymil-1511.note: "Kazazedeler yakalanır, Valdivia kurban edilir, 1511"
+
+# Aguilar, slave of the batab
+markers.xamanha-1511.note: "Aguilar, batab’ın kölesi"
+
+# Guerrero, war captain of Nachan Can
+markers.chetumal-1514.note: "Guerrero, Nachan Can’ın savaş komutanı"
+
+# Ambush at Cape Catoche, 1517
+markers.ecab-1517.note: "Catoche Burnu’nda pusu, 1517"
+
+# Maya ruins of Xamanha, the town of Aguilar’s master, at Playa del Carmen, Quintana Roo
+images.shipwreck-xamanha.caption: "Aguilar’ın efendisinin kenti Xamanha’nın Playa del Carmen’deki Maya kalıntıları, Quintana Roo"
+
+# Monument to Gonzalo Guerrero in Maya dress on the Paseo de Montejo, Mérida
+images.shipwreck-guerrero.caption: "Mérida’da Paseo de Montejo’daki, Gonzalo Guerrero’yu Maya giysileri içinde gösteren anıt"
+
+# Hernández de Córdoba’s voyage from Cuba to Campeche, February – March 1517
+routes.cordoba-1517.name: "Hernández de Córdoba’nın Küba’dan Campeche’ye deniz yolculuğu, Şubat – Mart 1517"
+
+# The fleet sails, 8 February 1517
+markers.jaruco-1517.note: "Filo yola çıkar, 8 Şubat 1517"
+
+# Leaves Cuba, 20 February 1517
+markers.san-antonio-1517.note: "Küba’dan ayrılır, 20 Şubat 1517"
+
+# Gran Cairo by Sharer and Traxler
+markers.isla-mujeres-1517.note: "Sharer ile Traxler’e göre Gran Cairo"
+
+# Lázaro, warned off, 22 March 1517
+markers.campeche-1517.note: "Lázaro, İspanyollar gitmeleri için uyarılır, 22 Mart 1517"
+
+# Expedition from Cuba
+battles.catoche-1517.sides.0.name: "Küba’dan gelen sefer"
+
+# About 110 men, with 15 crossbows and 10 muskets ashore
+battles.catoche-1517.sides.0.strength: "110 kadar adam, karada 15 arbalet ve 10 tüfekle"
+
+# 13 wounded by arrows, 2 of whom die
+battles.catoche-1517.sides.0.casualties: "Oklarla yaralanan 13 kişi, bunlardan 2’si ölür"
+
+# Ecab
+battles.catoche-1517.sides.1.name: "Ecab"
+
+# 2 captured
+battles.catoche-1517.sides.1.casualties: "2 tutsak"
+
+# Battle of Cape Catoche
+battles.catoche-1517.name: "Catoche Burnu Muharebesi"
+
+# 5 March 1517
+battles.catoche-1517.date: "5 Mart 1517"
+
+# The Spanish beat off the ambush and return to their ships
+battles.catoche-1517.result: "İspanyollar pusuyu püskürtüp gemilerine döner"
+
+# Cape Catoche, the northeastern tip of Yucatán, from the air, with Holbox Island behind
+images.cordoba-1517-catoche.caption: "Yucatán’ın kuzeydoğu ucundaki Catoche Burnu havadan, arkada Holbox Adası"
+
+# Idols of Campeche and Yucatán as Bernard Picart drew them from Spanish accounts, in Cérémonies et coutumes religieuses, Amsterdam, 1723
+images.cordoba-1517-campeche-idols.caption: "Bernard Picart’ın İspanyol anlatılarına dayanarak çizdiği Campeche ve Yucatán putları, Cérémonies et coutumes religieuses, Amsterdam, 1723"
+
+# Hernández de Córdoba sails on from Campeche to Champotón, 1517
+routes.cordoba-champoton-1517.name: "Hernández de Córdoba Campeche’den Champotón’a yoluna devam eder, 1517"
+
+# Expedition from Cuba
+battles.champoton-1517.sides.0.name: "Küba’dan gelen sefer"
+
+# About 110 men
+battles.champoton-1517.sides.0.strength: "110 kadar adam"
+
+# 57 lost by Bernal Díaz, 2 of them captured, and 5 dead of wounds later
+battles.champoton-1517.sides.0.casualties: "Bernal Díaz’a göre 57 kayıp, bunların 2’si tutsak, sonradan 5 kişi daha yaralarından ölür"
+
+# Champotón
+battles.champoton-1517.sides.1.name: "Champotón"
+
+# Battle of Champotón (1517)
+battles.champoton-1517.name: "Champotón Muharebesi (1517)"
+
+# 1517
+battles.champoton-1517.date: "1517"
+
+# Maya victory
+battles.champoton-1517.result: "Maya zaferi"
+
+# The mouth of the Champotón River at Champotón, Campeche, 2014
+images.champoton-river-mouth.caption: "Campeche’de Champotón Irmağı’nın Champotón’daki ağzı, 2014"
+
+# A Maya warrior in a quilted armour tunic with a flexible shield, figurine from Jaina Island, Campeche, 550 – 850, Walters Art Museum, Baltimore
+images.champoton-warrior.caption: "Kapitone zırhlı ve esnek kalkanlı bir Maya savaşçısı, Campeche’deki Jaina Adası’ndan bir figürin, 550 – 850, Walters Sanat Müzesi, Baltimore"
+
+# Hit by many arrows
+markers.champoton-dawn-cordoba.note: "Çok sayıda okla yaralanır"
+
+# Lord of Champotón
+markers.champoton-dawn-moch-couoh.note: "Champotón beyi"
+
+# Chakán Putum
+markers.champoton-dawn-town.note: "Chakán Putum"
+
+# Taken alive
+markers.champoton-dawn-captives.note: "Canlı yakalanırlar"
+
+# Two ships and a brigantine
+markers.champoton-dawn-ships.note: "İki gemi ve bir brigantin"
+
+# Title page of Bernal Díaz del Castillo’s Historia verdadera de la conquista de la Nueva España, engraved by Jean de Courbes, Madrid, 1632
+images.champoton-dawn-bernal-diaz.caption: "Bernal Díaz del Castillo’nun Historia verdadera de la conquista de la Nueva España adlı kitabının Jean de Courbes’un oyduğu başlık sayfası, Madrid, 1632"
+
+# 57 lost, by Bernal Díaz
+markers.champoton-boats-losses.note: "Bernal Díaz’a göre 57 kayıp"
+
+# Left on the beach
+markers.champoton-boats-casks.note: "Kumsalda kalır"
+
+# Brigantine burned after the battle
+markers.champoton-boats-ships.note: "Brigantin çarpışmadan sonra yakılır"
+
+# Fishing boats on the beach at Champotón, 2015
+images.champoton-boats-beach.caption: "Champotón’da kumsaldaki balıkçı tekneleri, 2015"
+
+# Juan de Grijalva’s voyage from Cuba to the Pánuco River, 1518
+routes.grijalva-1518.name: "Juan de Grijalva’nın Küba’dan Pánuco Irmağı’na deniz yolculuğu, 1518"
+
+# The fleet sails, 8 April 1518
+markers.matanzas-1518.note: "Filo yola çıkar, 8 Nisan 1518"
+
+# Landfall, 3 May 1518
+markers.cozumel-1518.note: "Filo varır, 3 Mayıs 1518"
+
+# Seen from the ships
+markers.tulum-1518.note: "Gemilerden görülür"
+
+# Grijalva turns back north
+markers.ascension-1518.note: "Grijalva kuzeye geri döner"
+
+# Shelled and taken, 1518
+markers.campeche-1518.note: "Topa tutulup alınır, 1518"
+
+# Tabscoob meets Grijalva, 8 June 1518
+markers.potonchan-1518.note: "Tabscoob Grijalva ile buluşur, 8 Haziran 1518"
+
+# Expedition from Cuba
+battles.champoton-1518.sides.0.name: "Küba’dan gelen sefer"
+
+# About 240 men
+battles.champoton-1518.sides.0.strength: "240 kadar adam"
+
+# 1 to 7 killed, 50 to 60 wounded
+battles.champoton-1518.sides.0.casualties: "1 ile 7 arası ölü, 50 ile 60 arası yaralı"
+
+# Champotón
+battles.champoton-1518.sides.1.name: "Champotón"
+
+# About 200 killed, Moch Couoh among them
+battles.champoton-1518.sides.1.casualties: "Aralarında Moch Couoh’un da bulunduğu 200 kadar ölü"
+
+# Battle of Champotón (1518)
+battles.champoton-1518.name: "Champotón Muharebesi (1518)"
+
+# 1518
+battles.champoton-1518.date: "1518"
+
+# Spanish victory
+battles.champoton-1518.result: "İspanyol zaferi"
+
+# Juan de Grijalva in a medallion on the title page of the second Década of Antonio de Herrera’s Historia general, Madrid, 1601
+images.grijalva-portrait.caption: "Antonio de Herrera’nın Historia general’inin ikinci Década’sının başlık sayfasındaki bir madalyonda Juan de Grijalva, Madrid, 1601"
+
+# Tulum, a walled town on the east coast of Yucatán, from the air, 2015
+images.grijalva-tulum.caption: "Yucatán’ın doğu kıyısında surlarla çevrili bir kent olan Tulum, havadan, 2015"
+
+# Moctezuma receives news of Grijalva’s Spaniards on the coast, Florentine Codex, Book XII, folio 5r, about 1577, Biblioteca Medicea Laurenziana, Florence
+images.grijalva-moctezuma.caption: "Moctezuma kıyıdaki Grijalva’nın İspanyollarının haberini alır, Floransa Kodeksi, XII. kitap, 5r yaprağı, 1577 dolayı, Biblioteca Medicea Laurenziana, Floransa"
+
+# Gerónimo de Aguilar crosses to Cozumel, 1519
+routes.aguilar-1519.name: "Gerónimo de Aguilar Cozumel’e geçer, 1519"
+
+# Cortés’s fleet from Cuba to Cozumel, February 1519
+routes.cortes-1519.name: "Cortés’in filosunun Küba’dan Cozumel’e yolculuğu, Şubat 1519"
+
+# Cortés’s fleet, February 1519
+markers.cozumel-1519.note: "Cortés’in filosu, Şubat 1519"
+
+# Chief town of the island
+markers.san-gervasio-1519.note: "Adanın başlıca kasabası"
+
+# Hernán Cortés drawn by Christoph Weiditz in Spain in 1529, Germanisches Nationalmuseum, Nuremberg
+images.cozumel-1519-cortes.caption: "Christoph Weiditz’in 1529’da İspanya’da çizdiği Hernán Cortés, Germanisches Nationalmuseum, Nürnberg"
+
+# A temple at San Gervasio, the main Maya town of Cozumel and a sanctuary of Ixchel, 2015
+images.cozumel-1519-san-gervasio.caption: "Cozumel’in başlıca Maya kenti ve bir Ixchel tapınağı olan San Gervasio’da bir tapınak, 2015"
+
+# Gerónimo de Aguilar presented to Cortés after eight years as a slave, engraving in Antonio de Solís’s Historia de la conquista de Méjico, Madrid, 1851
+images.cozumel-1519-aguilar.caption: "Sekiz yıllık kölelikten sonra Cortés’in huzuruna çıkarılan Gerónimo de Aguilar, Antonio de Solís’in Historia de la conquista de Méjico adlı kitabında bir gravür, Madrid, 1851"
+
+# Cortés’s fleet from Cozumel to the Grijalva River, March 1519
+routes.cortes-tabasco-1519.name: "Cortés’in filosunun Cozumel’den Grijalva Irmağı’na yolculuğu, Mart 1519"
+
+# Capital of Tabscoob
+markers.potonchan-1519.note: "Tabscoob’un başkenti"
+
+# Nahua port, rival of Potonchán
+markers.xicalango-1519.note: "Potonchán’ın rakibi Nahua limanı"
+
+# Cortés’s expedition
+battles.centla-1519.sides.0.name: "Cortés’in seferi"
+
+# 410 Spaniards
+battles.centla-1519.sides.0.strength: "410 İspanyol"
+
+# 2 killed, 70 wounded
+battles.centla-1519.sides.0.casualties: "2 ölü, 70 yaralı"
+
+# Chontal Maya of Potonchán
+battles.centla-1519.sides.1.name: "Potonchán Chontal Mayaları"
+
+# 40,000 by Cortés and Bernal Díaz, 10,000 to 13,000 by Izquierdo
+battles.centla-1519.sides.1.strength: "Cortés ile Bernal Díaz’a göre 40.000, Izquierdo’ya göre 10.000 ile 13.000 arası"
+
+# More than 800 dead by Bernal Díaz
+battles.centla-1519.sides.1.casualties: "Bernal Díaz’a göre 800’den fazla ölü"
+
+# Battle of Centla
+battles.centla-1519.name: "Centla Muharebesi"
+
+# 14 March 1519
+battles.centla-1519.date: "14 Mart 1519"
+
+# Spanish victory
+battles.centla-1519.result: "İspanyol zaferi"
+
+# The Grijalva River near its mouth at Frontera, Centla, Tabasco, 2014
+images.centla-river.caption: "Tabasco’nun Centla ilçesinde, ağzına yakın Frontera’da Grijalva Irmağı, 2014"
+
+# River and swamps in the Pantanos de Centla reserve, Tabasco, 2008
+images.centla-swamps.caption: "Tabasco’daki Pantanos de Centla koruma alanında ırmak ve bataklıklar, 2008"
+
+# The Spaniards fight the Chontal before Tabasco, painting from a series on the conquest of Mexico, second half of the 17th century
+images.centla-painting.caption: "İspanyollar Tabasco önünde Chontallarla çarpışır, Meksika’nın fethi üzerine bir dizinin tablosu, 17. yüzyılın ikinci yarısı"
+
+# Loses a shoe in the mud
+markers.centla-potonchan-cortes.note: "Çamurda bir ayakkabısını yitirir"
+
+# 100 soldiers by the road
+markers.centla-potonchan-avila.note: "Yoldan ilerleyen 100 asker"
+
+# Spanish camp, 12 March
+markers.centla-potonchan-palmares.note: "İspanyol kampı, 12 Mart"
+
+# Main square with three temples
+markers.centla-potonchan-town.note: "Üç tapınaklı ana meydan"
+
+# Spanish boats and Chontal canoes fighting on the river at Tabasco, engraving in the Historia de la Marina Real Española, Madrid, 1854
+images.centla-potonchan-canoes.caption: "Tabasco’da ırmakta çarpışan İspanyol sandalları ve Chontal kanoları, Historia de la Marina Real Española’da bir gravür, Madrid, 1854"
+
+# Chontal army from eight provinces
+markers.centla-plain-tabscoob.note: "Sekiz eyaletten gelen Chontal ordusu"
+
+# Over seventy wounded at first
+markers.centla-plain-foot.note: "İlk saldırıda yetmişten fazla yaralı"
+
+# With the horsemen
+markers.centla-plain-cortes.note: "Atlılarla birlikte"
+
+# Cortés fights the Indians of Tabasco, engraving by Juan Moreno Tejada after Ildefonso Vergaz in Antonio de Solís’s Historia de la conquista de México, Madrid, 1783
+images.centla-plain-solis.caption: "Cortés Tabasco yerlileriyle çarpışır, Antonio de Solís’in Historia de la conquista de México adlı kitabında Ildefonso Vergaz’ın çizimine göre Juan Moreno Tejada’nın gravürü, Madrid, 1783"
+
+# The horsemen take the Chontal in the rear
+markers.centla-horse-cortes.note: "Atlılar Chontallara arkadan saldırır"
+
+# More than 800, by Bernal Díaz
+markers.centla-horse-dead.note: "Bernal Díaz’a göre 800’den fazla"
+
+# Two killed, about seventy wounded
+markers.centla-horse-foot.note: "İki ölü, yetmiş kadar yaralı"
+
+# Cortés and a few horsemen decide the battle of Tabasco, lithograph by Carlos Múgica in the Historia de la Marina Real Española, Madrid, 1854
+images.centla-horse-cortes.caption: "Cortés ve birkaç atlı Tabasco savaşının sonucunu belirler, Carlos Múgica’nın Historia de la Marina Real Española’daki taşbaskısı, Madrid, 1854"
+
+# Malintzin interprets for Cortés as lords bring food at Xaltelolco, from a copy of the Lienzo de Tlaxcala of about 1550
+images.centla-horse-malintzin.caption: "Xaltelolco’da beyler yiyecek getirirken Malintzin Cortés için tercümanlık eder, 1550 dolayına ait Lienzo de Tlaxcala’nın bir kopyasından"
+
+# Alvarado’s march from Tenochtitlan to Xetulul, November 1523 – February 1524
+routes.alvarado-1524.name: "Alvarado’nun Tenochtitlan’dan Xetulul’e yürüyüşü, Kasım 1523 – Şubat 1524"
+
+# Alvarado sets out, late 1523
+markers.tenochtitlan-1523.note: "Alvarado yola çıkar, 1523 sonu"
+
+# 1,600 warriors join
+markers.tepeaca-1523.note: "1.600 savaşçı katılır"
+
+# The army crosses the isthmus
+markers.tehuantepec-1523.note: "Ordu kıstağı geçer"
+
+# K'iche' and Kaqchikel envoys, 1522
+markers.tuxpan-1522.note: "K'iche' ve Kaqchikel elçileri, 1522"
+
+# Receives Alvarado in peace
+markers.soconusco-1524.note: "Alvarado’yu barışla karşılar"
+
+# K'iche' fail to stop the crossing
+markers.samala-1524.note: "K'iche'ler geçişi engelleyemez"
+
+# Spain and its Mexican allies
+battles.xetulul-1524.sides.0.name: "İspanya ve Meksikalı müttefikleri"
+
+# 180 cavalry, 300 infantry and thousands of Mexican allies at the start of the campaign
+battles.xetulul-1524.sides.0.strength: "Seferin başında 180 süvari, 300 piyade ve binlerce Meksikalı müttefik"
+
+# Many wounded by K'iche' archers
+battles.xetulul-1524.sides.0.casualties: "K'iche' okçularının yaraladığı çok sayıda kişi"
+
+# K'iche' kingdom of Q'umarkaj
+battles.xetulul-1524.sides.1.name: "Q'umarkaj’daki K'iche' krallığı"
+
+# Battle of Xetulul
+battles.xetulul-1524.name: "Xetulul Muharebesi"
+
+# 8 February 1524
+battles.xetulul-1524.date: "8 Şubat 1524"
+
+# Spanish victory
+battles.xetulul-1524.result: "İspanyol zaferi"
+
+# Pedro de Alvarado in armour, a portrait by Tomás Povedano of 1906, Archivo General de Indias, Seville
+images.alvarado-1524-portrait.caption: "Tomás Povedano’nun 1906’da yaptığı portrede zırhlı Pedro de Alvarado, Archivo General de Indias, Sevilla"
+
+# Tlaxcalan warriors fighting beside a Spanish horseman, a scene of the 16th-century Lienzo de Tlaxcala
+images.alvarado-1524-tlaxcalans.caption: "16. yüzyıldan Lienzo de Tlaxcala’da bir İspanyol atlının yanında savaşan Tlaxcalalı savaşçılar"
+
+# Title page of Bernal Díaz del Castillo’s Historia verdadera de la conquista de la Nueva España, printed in Madrid in 1632, John Carter Brown Library
+images.alvarado-1524-bernal-diaz.caption: "Bernal Díaz del Castillo’nun 1632’de Madrid’de basılan Historia verdadera de la conquista de la Nueva España adlı kitabının başlık sayfası, John Carter Brown Kütüphanesi"
+
+# Alvarado’s march from Xetulul up the Samalá to Xelajú, 9 – 12 February 1524
+routes.alvarado-xelaju-1524.name: "Alvarado’nun Xetulul’den Samalá’yı izleyerek Xelajú’ya yürüyüşü, 9 – 12 Şubat 1524"
+
+# The K'iche' army marches from Q'umarkaj by way of Tzijbachaj, February 1524
+routes.kiche-1524.name: "K'iche' ordusu Q'umarkaj’dan Tzijbachaj üzerinden yürür, Şubat 1524"
+
+# Taken on 8 February 1524
+markers.zapotitlan-1524.note: "8 Şubat 1524’te alınır"
+
+# Now Totonicapán
+markers.tzijbachaj-1524.note: "Bugünkü Totonicapán"
+
+# Capital of the K'iche' kingdom
+markers.qumarkaj-1524.note: "K'iche' krallığının başkenti"
+
+# Spain and its Mexican allies
+battles.xelaju-1524.sides.0.name: "İspanya ve Meksikalı müttefikleri"
+
+# 180 cavalry, 300 infantry and thousands of Mexican allies at the start of the campaign
+battles.xelaju-1524.sides.0.strength: "Seferin başında 180 süvari, 300 piyade ve binlerce Meksikalı müttefik"
+
+# K'iche' kingdom of Q'umarkaj
+battles.xelaju-1524.sides.1.name: "Q'umarkaj’daki K'iche' krallığı"
+
+# 30,000 by the account of a grandson of the K'iche' king
+battles.xelaju-1524.sides.1.strength: "K'iche' kralının bir torununun anlatımına göre 30.000"
+
+# Heavy, with many nobles killed
+battles.xelaju-1524.sides.1.casualties: "Ağır, ölenler arasında çok sayıda soylu"
+
+# Battles of Xelajú
+battles.xelaju-1524.name: "Xelajú Muharebeleri"
+
+# 12 and 18 February 1524
+battles.xelaju-1524.date: "12 ve 18 Şubat 1524"
+
+# Spanish victory, the K'iche' sue for peace
+battles.xelaju-1524.result: "İspanyol zaferi, K'iche'ler barış ister"
+
+# The main square of Quetzaltenango and the mountains around the valley, photographed by Eadweard Muybridge in 1875
+images.xelaju-quetzaltenango-1875.caption: "Eadweard Muybridge’in 1875’te çektiği fotoğrafta Quetzaltenango’nun ana meydanı ve vadiyi çevreleyen dağlar"
+
+# A Spanish horseman and Tlaxcalan warriors against the K'iche' at Quetzaltenango, from the 16th-century Lienzo de Tlaxcala in its 1892 reproduction
+images.xelaju-lienzo.caption: "16. yüzyıldan Lienzo de Tlaxcala’nın 1892 baskısında, Quetzaltenango’da K'iche'lere karşı bir İspanyol atlı ve Tlaxcalalı savaşçılar"
+
+# Ambushed and driven back
+markers.xelaju-pass-allies.note: "Pusuya düşüp geri püskürtülürler"
+
+# Charges with the horsemen
+markers.xelaju-pass-alvarado.note: "Atlılarla hücum eder"
+
+# Scattered by the cavalry
+markers.xelaju-pass-kiche.note: "Süvari hücumuyla dağılırlar"
+
+# K'iche' town
+markers.xelaju-pass-xelaju.note: "K'iche' kasabası"
+
+# The gorge of the Samalá River at Chicovix, Cantel, Quetzaltenango
+images.xelaju-pass-samala.caption: "Quetzaltenango’da, Cantel’e bağlı Chicovix’te Samalá Nehri’nin boğazı"
+
+# Charges at bowshot
+markers.xelaju-urbina-alvarado.note: "Ok menzilinde hücum eder"
+
+# Killed here, by local tradition
+markers.xelaju-urbina-tecun.note: "Yerel geleneğe göre burada ölür"
+
+# Found deserted
+markers.xelaju-urbina-xelaju.note: "Boşalmış bulunur"
+
+# The Llanos de Urbina, a plain near Cantel in Quetzaltenango
+images.xelaju-urbina-plain.caption: "Quetzaltenango’da Cantel yakınındaki bir ova olan Llanos de Urbina"
+
+# Actors as Pedro de Alvarado and Tecun Uman in a 2021 film of the Diario de Centro América
+images.xelaju-urbina-duel.caption: "Diario de Centro América’nın 2021 tarihli bir filminde Pedro de Alvarado ve Tecun Uman rollerindeki oyuncular"
+
+# Spanish horse and foot
+markers.xelaju-olintepeque-alvarado.note: "İspanyol süvarisi ve piyadesi"
+
+# Many nobles among the dead
+markers.xelaju-olintepeque-kiche.note: "Ölenler arasında çok sayıda soylu"
+
+# Renamed Xequiquel, "bathed in blood"
+markers.xelaju-olintepeque-town.note: "Xequiquel, \"kanla yıkanmış\" adını alır"
+
+# K'iche' town
+markers.xelaju-olintepeque-xelaju.note: "K'iche' kasabası"
+
+# Statue of Tecun Uman in Quetzaltenango
+images.xelaju-olintepeque-tecun-uman.caption: "Quetzaltenango’da Tecun Uman heykeli"
+
+# Alvarado’s march from Xelajú to Q'umarkaj, February – March 1524
+routes.alvarado-qumarkaj-1524.name: "Alvarado’nun Xelajú’dan Q'umarkaj’a yürüyüşü, Şubat – Mart 1524"
+
+# Quetzaltenango
+markers.xelaju-1524.note: "Quetzaltenango"
+
+# First church in Guatemala
+markers.salcaja-1524.note: "Guatemala’nın ilk kilisesi"
+
+# Kings and city burnt, March 1524
+markers.utatlan-1524.note: "Krallar ve şehir yakılır, Mart 1524"
+
+# Kaqchikel capital
+markers.iximche-1524.note: "Kaqchikel başkenti"
+
+# Mam king Kayb'il B'alam
+markers.zaculeu-1524.note: "Mam kralı Kayb'il B'alam"
+
+# The early colonial church of La Conquistadora in Salcajá
+images.qumarkaj-salcaja.caption: "Salcajá’daki erken sömürge dönemi kilisesi La Conquistadora"
+
+# The ruin of the Temple of Tohil at Q'umarkaj, near Santa Cruz del Quiché
+images.qumarkaj-tohil.caption: "Santa Cruz del Quiché yakınındaki Q'umarkaj’da Tohil Tapınağı’nın kalıntısı"
+
+# Alvarado’s march from Iximche to Lake Atitlán, April 1524
+routes.alvarado-atitlan-1524.name: "Alvarado’nun Iximche’den Atitlán Gölü’ne yürüyüşü, Nisan 1524"
+
+# Spain and the Kaqchikel
+battles.atitlan-1524.sides.0.name: "İspanya ve Kaqchikeller"
+
+# 60 cavalry, 150 Spanish infantry and Kaqchikel warriors
+battles.atitlan-1524.sides.0.strength: "60 süvari, 150 İspanyol piyade ve Kaqchikel savaşçıları"
+
+# Tz'utujil kingdom
+battles.atitlan-1524.sides.1.name: "Tz'utujil krallığı"
+
+# Battle of Lake Atitlán
+battles.atitlan-1524.name: "Atitlán Gölü Muharebesi"
+
+# 18 April 1524
+battles.atitlan-1524.date: "18 Nisan 1524"
+
+# Spanish and Kaqchikel victory, the Tz'utujil submit
+battles.atitlan-1524.result: "İspanyol ve Kaqchikel zaferi, Tz'utujiller boyun eğer"
+
+# Lake Atitlán with the volcanoes Atitlán, Tolimán and San Pedro, from left to right
+images.atitlan-lake.caption: "Atitlán Gölü ile soldan sağa Atitlán, Tolimán ve San Pedro yanardağları"
+
+# A Spanish horseman and Tlaxcalan warriors against the Tz'utujil at Tecpan Atitlan, from the 16th-century Lienzo de Tlaxcala in its 1892 reproduction
+images.atitlan-lienzo.caption: "16. yüzyıldan Lienzo de Tlaxcala’nın 1892 baskısında, Tecpan Atitlan’da Tz'utujillere karşı bir İspanyol atlı ve Tlaxcalalı savaşçılar"
+
+# Santiago founded, July 1524
+markers.santiago-1524.note: "Santiago kurulur, Temmuz 1524"
+
+# Spanish town, abandoned 1527
+markers.tecpan-1524.note: "İspanyol kasabası, 1527’de terk edilir"
+
+# Spanish capital from 1527
+markers.ciudad-vieja-1527.note: "1527’den itibaren İspanyol başkenti"
+
+# Kaqchikel of Iximche resettled, 1530
+markers.solola-1530.note: "Iximche Kaqchikelleri buraya yerleştirilir, 1530"
+
+# The ruins of Iximche, the Kaqchikel capital, at Tecpán
+images.iximche-revolt-ruins.caption: "Tecpán’da Kaqchikel başkenti Iximche’nin kalıntıları"
+
+# Pits set with stakes on the roads of Guatemala, a detail of the Lienzo de Quauhquechollan, painted about 1530 by Nahua allies of the Spanish from Quauhquechollan, Casa de Alfeñique museum, Puebla
+images.iximche-revolt-quauhquechollan.caption: "Guatemala yollarında içine kazık dikilmiş çukurlar, Quauhquechollanlı Nahua müttefiklerin 1530 dolayında yaptığı Lienzo de Quauhquechollan’dan bir ayrıntı, Casa de Alfeñique müzesi, Puebla"
+
+# A Spanish horseman and Tlaxcalan warriors fighting at Quauhtemallan, the Nahuatl name of Iximche, from the 16th-century Lienzo de Tlaxcala in its 1892 reproduction
+images.iximche-revolt-lienzo.caption: "16. yüzyıldan Lienzo de Tlaxcala’nın 1892 baskısında, Iximche’nin Nahuatlca adı olan Quauhtemallan’da savaşan bir İspanyol atlı ve Tlaxcalalı savaşçılar"
+
+# Gonzalo de Alvarado’s march from Tecpán to Zaculeu, July 1525
+routes.gonzalo-alvarado-1525.name: "Gonzalo de Alvarado’nun Tecpán’dan Zaculeu’ya yürüyüşü, Temmuz 1525"
+
+# Gonzalo de Alvarado sets out, July 1525
+markers.tecpan-1525.note: "Gonzalo de Alvarado yola çıkar, Temmuz 1525"
+
+# Supply base
+markers.totonicapan-1525.note: "İkmal üssü"
+
+# Taken after a four-hour battle
+markers.momostenango-1525.note: "Dört saatlik bir çarpışmadan sonra alınır"
+
+# Mam army of 5,000 beaten
+markers.malacatan-1525.note: "5.000 kişilik Mam ordusu yenilir"
+
+# Mam town of Xinabahul, found deserted
+markers.huehuetenango-1525.note: "Mam kasabası Xinabahul, boşalmış bulunur"
+
+# Spain and its Mexican and K'iche' allies
+battles.zaculeu-1525.sides.0.name: "İspanya ile Meksikalı ve K'iche' müttefikleri"
+
+# 40 cavalry, 80 Spanish infantry and about 2,000 Mexican and K'iche' allies
+battles.zaculeu-1525.sides.0.strength: "40 süvari, 80 İspanyol piyade ve yaklaşık 2.000 Meksikalı ve K'iche' müttefik"
+
+# Mam
+battles.zaculeu-1525.sides.1.name: "Mamlar"
+
+# 6,000 warriors in Zaculeu by Lovell, 5,000 people by another account, and a relief army of 8,000
+battles.zaculeu-1525.sides.1.strength: "Lovell’e göre Zaculeu’da 6.000 savaşçı, başka bir anlatıma göre 5.000 kişi, ayrıca 8.000 kişilik bir yardım ordusu"
+
+# 1,800 dead found in the fortress
+battles.zaculeu-1525.sides.1.casualties: "Kalede bulunan 1.800 ölü"
+
+# Siege of Zaculeu
+battles.zaculeu-1525.name: "Zaculeu Kuşatması"
+
+# 1525, surrender in mid-October
+battles.zaculeu-1525.date: "1525, Ekim ortasında teslim"
+
+# Spanish victory, Kayb'il B'alam surrenders
+battles.zaculeu-1525.result: "İspanyol zaferi, Kayb'il B'alam teslim olur"
+
+# A temple pyramid at Zaculeu, Huehuetenango
+images.zaculeu-temple.caption: "Huehuetenango’da Zaculeu’daki bir tapınak piramidi"
+
+# The ruins of Zaculeu in 1950, during their restoration by the United Fruit Company
+images.zaculeu-1950.caption: "United Fruit Company’nin onarımı sürerken 1950’de Zaculeu kalıntıları"
+
+# Kills Canil Acab with his lance
+markers.zaculeu-malacatan-gonzalo.note: "Canil Acab’ı mızrağıyla öldürür"
+
+# Mam leader, killed
+markers.zaculeu-malacatan-canil.note: "Mam önderi, öldürülür"
+
+# Only the sick and elderly remain
+markers.zaculeu-malacatan-town.note: "Yalnızca hastalar ve yaşlılar kalır"
+
+# Horsemen with lances in Diego Muñoz Camargo’s History of Tlaxcala, about 1585
+images.zaculeu-malacatan-horsemen.caption: "Diego Muñoz Camargo’nun 1585 dolayında yazdığı Tlaxcala Tarihi’nde mızraklı atlılar"
+
+# Attacks the northern entrance
+markers.zaculeu-assault-gonzalo.note: "Kuzey girişine saldırır"
+
+# Hold, then fall back
+markers.zaculeu-assault-mam.note: "Önce direnir, sonra geri çekilirler"
+
+# Withdraws behind the walls
+markers.zaculeu-assault-kaybil.note: "Surların arkasına çekilir"
+
+# The ravine on the south side of Zaculeu
+images.zaculeu-assault-ravine.caption: "Zaculeu’nun güney yanındaki derin vadi"
+
+# Holds the siege
+markers.zaculeu-siege-salazar.note: "Kuşatmayı sürdürür"
+
+# Breaks the relief army
+markers.zaculeu-siege-gonzalo.note: "Yardım ordusunu dağıtır"
+
+# Surrenders in mid-October 1525
+markers.zaculeu-siege-kaybil.note: "Ekim 1525’in ortasında teslim olur"
+
+# Huehuetenango and its valley from the Cuchumatanes mountains
+images.zaculeu-siege-cuchumatanes.caption: "Cuchumatanes dağlarından Huehuetenango ve vadisi"
+
+# Montejo’s landing at Xelha and march north to Conil, 1527
+routes.montejo-1527.name: "Montejo’nun Xelha’ya çıkışı ve kuzeyde Conil’e yürüyüşü, 1527"
+
+# Montejo’s march from Conil to Chauaca and Aké, spring 1528
+routes.montejo-1528.name: "Montejo’nun Conil’den Chauaca ve Aké’ye yürüyüşü, 1528 baharı"
+
+# Montejo’s return to Xelha by Sisia and Loche, 1528
+routes.montejo-return-1528.name: "Montejo’nun Sisia ve Loche üzerinden Xelha’ya dönüşü, 1528"
+
+# Montejo’s voyage south to Chaktumal, 1528
+routes.montejo-voyage-1528.name: "Montejo’nun güneyde Chaktumal’a deniz yolculuğu, 1528"
+
+# Aj Naum Pat receives Montejo
+markers.cozumel-1527.note: "Aj Naum Pat Montejo’yu karşılar"
+
+# First Spanish town, 1527
+markers.xelha-1527.note: "İlk İspanyol kasabası, 1527"
+
+# Spanish base from 1528
+markers.xamanha-1528.note: "1528’den itibaren İspanyol üssü"
+
+# Local lords swear loyalty
+markers.belma-1527.note: "Yerel beyler bağlılık yemini eder"
+
+# 5,000 houses, two months’ halt
+markers.conil-1527.note: "5.000 ev, iki aylık mola"
+
+# Maya attack the Spanish, 1528
+markers.chauaca-1528.note: "Mayalar İspanyollara saldırır, 1528"
+
+# Guerrero refuses to return
+markers.chaktumal-1528.note: "Guerrero dönmeyi reddeder"
+
+# Spain
+battles.ake-1528.sides.0.name: "İspanya"
+
+# 125 men
+battles.ake-1528.sides.0.strength: "125 kişi"
+
+# Maya of Chauaca and Aké
+battles.ake-1528.sides.1.name: "Chauaca ve Aké Mayaları"
+
+# More than 1,200 killed
+battles.ake-1528.sides.1.casualties: "1.200’den fazla ölü"
+
+# Battle of Aké
+battles.ake-1528.name: "Aké Muharebesi"
+
+# Spring 1528
+battles.ake-1528.date: "1528 baharı"
+
+# Spanish victory, the neighbouring Maya lords submit
+battles.ake-1528.result: "İspanyol zaferi, çevredeki Maya beyleri boyun eğer"
+
+# Los Murciélagos, a building at San Gervasio, the chief Maya site on Cozumel
+images.montejo-1527-san-gervasio.caption: "Cozumel’deki başlıca Maya yerleşimi San Gervasio’da Los Murciélagos yapısı"
+
+# Maya ruins at Xel-Há on the east coast of the peninsula
+images.montejo-1527-xel-ha.caption: "Yarımadanın doğu kıyısında Xel-Há’daki Maya kalıntıları"
+
+# The coat of arms and signature of Francisco de Montejo, from the Nobiliario de conquistadores de Indias, Madrid, 1892
+images.montejo-1527-arms.caption: "Francisco de Montejo’nun arması ve imzası, Nobiliario de conquistadores de Indias, Madrid, 1892"
+
+# Dávila’s march from Campeche to Chetumal, 1531
+routes.davila-1531.name: "Dávila’nın Campeche’den Chetumal’a yürüyüşü, 1531"
+
+# Montejo the Younger’s march to Chichen Itza, 1532
+routes.montejo-younger-1532.name: "Genç Montejo’nun Chichen Itza’ya yürüyüşü, 1532"
+
+# Montejo the Younger’s retreat to Dzilam, 1533
+routes.montejo-younger-1533.name: "Genç Montejo’nun Dzilam’a çekilişi, 1533"
+
+# Dávila arrives, late 1530
+markers.champoton-1530.note: "Dávila varır, 1530 sonu"
+
+# Montejo’s base from 1531
+markers.campeche-1531.note: "1531’den itibaren Montejo’nun üssü"
+
+# The Xiu receive Dávila
+markers.mani-1531.note: "Xiu’lar Dávila’yı karşılar"
+
+# Besieged, abandoned in 1532
+markers.villa-real-1531.note: "Kuşatma altına alınır, 1532’de terk edilir"
+
+# At Chichen Itza, besieged 1533
+markers.chichen-itza-1532.note: "Chichen Itza’da, 1533’te kuşatma altına alınır"
+
+# Namux Chel shelters the Spanish
+markers.dzilam-1533.note: "Namux Chel İspanyolları barındırır"
+
+# Statues of Francisco de Montejo and his son Francisco de Montejo the Younger on the Paseo de Montejo in Mérida, set up in 2010
+images.montejo-1531-monument.caption: "Mérida’da Paseo de Montejo üzerinde, 2010’da dikilen Francisco de Montejo ve oğlu Genç Francisco de Montejo heykelleri"
+
+# El Castillo at Chichen Itza, overgrown, photographed by Teobert Maler in 1892
+images.montejo-1531-chichen-itza.caption: "Chichen Itza’da bitkilerle kaplı El Castillo, Teobert Maler’in 1892’de çektiği fotoğraf"
+
+# Maní, the seat of the Xiu rulers, photographed by Teobert Maler in 1890
+images.montejo-1531-mani.caption: "Xiu hükümdarlarının merkezi Maní, Teobert Maler’in 1890’da çektiği fotoğraf"
+
+# The Nephew’s advance through the Canul towns to T'ho, 1541
+routes.montejo-nephew-1541.name: "Yeğen’in Canul kasabalarından geçerek T'ho’ya ilerleyişi, 1541"
+
+# Montejo the Younger’s move from Champotón to Campeche, 1540
+routes.montejo-younger-1540.name: "Genç Montejo’nun Champotón’dan Campeche’ye geçişi, 1540"
+
+# Tutul Xiu’s journey to Mérida, January 1542
+routes.tutul-xiu-1542.name: "Tutul Xiu’nun Mérida’ya yolculuğu, Ocak 1542"
+
+# Montejo the Younger joins his cousin
+markers.champoton-1540.note: "Genç Montejo kuzenine katılır"
+
+# Founded 4 October 1540
+markers.campeche-1540.note: "4 Ekim 1540’ta kurulur"
+
+# Chief town of the Canul
+markers.calkini-1541.note: "Canul’ların başlıca kasabası"
+
+# Founded on T'ho, 6 January 1542
+markers.merida-1542.note: "T'ho üzerinde kurulur, 6 Ocak 1542"
+
+# Tutul Xiu, baptised Melchor
+markers.mani-1542.note: "Tutul Xiu, Melchor adıyla vaftiz edilir"
+
+# Diego de Landa’s plan of a Maya building at T'ho, on the site where the Franciscans built their convent in Mérida, from his Relación of about 1566
+images.tho-landa-sketch.caption: "Diego de Landa’nın, T'ho’da Fransiskenlerin sonradan Mérida’daki manastırlarını kurduğu yerdeki bir Maya yapısının planı, 1566 dolayında yazdığı Relación’dan"
+
+# The cathedral of San Ildefonso on the main square of Mérida, built in 1562 – 1598 with stone from the buildings of T'ho
+images.tho-cathedral.caption: "Mérida’nın ana meydanında, 1562 – 1598 yıllarında T'ho yapılarının taşlarıyla inşa edilen San Ildefonso Katedrali"
+
+# The Cocom and Cupul march on Mérida, June 1542
+routes.cocom-1542.name: "Cocom’lar ve Cupul’lar Mérida’ya yürür, Haziran 1542"
+
+# Montejo the Younger’s campaign against Sotuta, 1542
+routes.montejo-younger-1542.name: "Genç Montejo’nun Sotuta seferi, 1542"
+
+# Seat of Nachi Cocom
+markers.sotuta-1542.note: "Nachi Cocom’un merkezi"
+
+# Spain and the Xiu
+battles.merida-1542.sides.0.name: "İspanya ve Xiu’lar"
+
+# Cocom of Sotuta and Cupul
+battles.merida-1542.sides.1.name: "Sotuta Cocom’ları ve Cupul’lar"
+
+# 40,000 by the bachiller Valencia
+battles.merida-1542.sides.1.strength: "Bachiller Valencia’ya göre 40.000"
+
+# Battle of T'ho
+battles.merida-1542.name: "T'ho Muharebesi"
+
+# 11 June 1542
+battles.merida-1542.date: "11 Haziran 1542"
+
+# Spanish and Xiu victory
+battles.merida-1542.result: "İspanyol ve Xiu zaferi"
+
+# A Spanish soldier in armour with a halberd, standing on two heads, on the portal of the Casa de Montejo in Mérida
+images.merida-1542-conquistador.caption: "Mérida’daki Casa de Montejo’nun kapısında, elinde teber, iki başın üzerinde duran zırhlı bir İspanyol askeri"
+
+# The portal of the Casa de Montejo on the main square of Mérida, the house of Francisco de Montejo the Younger, finished in 1549
+images.merida-1542-casa-de-montejo.caption: "Mérida’nın ana meydanında, Genç Francisco de Montejo’nun 1549’da tamamlanan evi Casa de Montejo’nun kapısı"
+
+# Álvarez and Tamayo Pacheco relieve Valladolid, November 1546
+routes.alvarez-1546.name: "Álvarez ve Tamayo Pacheco Valladolid’i kurtarır, Kasım 1546"
+
+# The Bracamonte brothers march against Sotuta, 1546
+routes.bracamonte-1546.name: "Bracamonte kardeşler Sotuta’ya yürür, 1546"
+
+# The Spanish advance through Cochuah and Uaymil to Bacalar, early 1547
+routes.spanish-1547.name: "İspanyolların Cochuah ve Uaymil üzerinden Bacalar’a ilerleyişi, 1547 başı"
+
+# Valladolid founded here, May 1543
+markers.chauaca-1543.note: "Valladolid burada kurulur, Mayıs 1543"
+
+# Besieged for two weeks, 1546
+markers.valladolid-1546.note: "İki hafta kuşatma altında kalır, 1546"
+
+# Montejo arrives, December 1546
+markers.merida-1546.note: "Montejo gelir, Aralık 1546"
+
+# The Cocom join the rising
+markers.sotuta-1546.note: "Cocom’lar ayaklanmaya katılır"
+
+# Besieged, relieved early 1547
+markers.bacalar-1547.note: "Kuşatma altına alınır, 1547 başında kurtarılır"
+
+# A Spanish encomendero beats a man of Tepetlaoztoc, near Mexico City, in the Codex Kingsborough, a complaint against encomenderos of about 1555, British Museum
+images.revolt-1546-kingsborough.caption: "Kingsborough Kodeksi’nde bir İspanyol encomenderonun Mexico City yakınlarındaki Tepetlaoztoc’tan bir adamı dövmesi, encomenderolara karşı 1555 dolayında yazılmış bir şikâyet, British Museum"
+
+# The church of San Servacio on the main square of Valladolid, first built in 1545 and rebuilt in 1706
+images.revolt-1546-san-servacio.caption: "Valladolid’in ana meydanında, ilk kez 1545’te yapılan ve 1706’da yeniden inşa edilen San Servacio Kilisesi"
+
+# Auto-da-fé, 12 July 1562
+markers.mani-1562.note: "Auto-da-fé, 12 Temmuz 1562"
+
+# Landa’s mission of San Antonio
+markers.izamal-1562.note: "Landa’nın San Antonio misyonu"
+
+# Bishop Toral arrives, 14 August 1562
+markers.merida-1562.note: "Piskopos Toral gelir, 14 Ağustos 1562"
+
+# Its lord Juan Pech punished
+markers.mama-1562.note: "Beyi Juan Pech cezalandırılır"
+
+# Its lord Francisco Pacab punished
+markers.oxkutzcab-1562.note: "Beyi Francisco Pacab cezalandırılır"
+
+# Its lord Diego Uz punished
+markers.tekax-1562.note: "Beyi Diego Uz cezalandırılır"
+
+# A portrait of Diego de Landa as bishop of Yucatán, by an unknown painter
+images.landa-portrait.caption: "Yucatán piskoposu Diego de Landa’nın ressamı bilinmeyen bir portresi"
+
+# The Franciscan convent of San Miguel Arcángel at Maní, where Landa held the auto-da-fé of 1562
+images.landa-mani.caption: "Landa’nın 1562’de auto-da-fé düzenlediği Maní’deki San Miguel Arcángel Fransisken manastırı"
+
+# A page from the Venus table of the Dresden Codex, one of the surviving Maya books, Saxon State and University Library, Dresden
+images.landa-dresden-codex.caption: "Günümüze ulaşan Maya kitaplarından Dresden Kodeksi’nin Venüs tablosundan bir sayfa, Saksonya Eyalet ve Üniversite Kütüphanesi, Dresden"
+
+# Cortés’s march from Acalan across Petén to Nito, March to April 1525
+routes.cortes-1525.name: "Cortés’in Acalan’dan Petén üzerinden Nito’ya yürüyüşü, Mart – Nisan 1525"
+
+# Island capital of Aj Kan Ek'
+markers.nojpeten-1525.note: "Aj Kan Ek'in ada başkenti"
+
+# Capital of Acalan
+markers.itzamkanac-1525.note: "Acalan’ın başkenti"
+
+# Maya town on the Macal River
+markers.tipu-1525.note: "Macal Irmağı üzerinde Maya kasabası"
+
+# Lake Petén Itzá from space, with the island of Flores, once Nojpetén, by its southern shore
+images.itza-kingdom-lake.caption: "Uzaydan Petén Itzá Gölü, güney kıyısının yanında bir zamanlar Nojpetén olan Flores adası"
+
+# Postclassic temples on the island of Topoxté in Lake Yaxhá, in the Kowoj lands east of the Itza
+images.itza-kingdom-topoxte.caption: "Itzaların doğusundaki Kowoj topraklarında, Yaxhá Gölü’ndeki Topoxté adasında Postklasik tapınaklar"
+
+# El Tigre in southern Campeche, the site of Itzamkanac, capital of Acalan
+images.itza-kingdom-el-tigre.caption: "Güney Campeche’de, Acalan’ın başkenti Itzamkanac’ın yeri olan El Tigre"
+
+# Fuensalida and Orbita from Mérida by Bacalar and Tipuj to Nojpetén, 1618
+routes.fuensalida-1618.name: "Fuensalida ile Orbita’nın Mérida’dan Bacalar ve Tipuj üzerinden Nojpetén’e yolculuğu, 1618"
+
+# The friars set out, 1618
+markers.merida-1618.note: "Keşişler yola çıkar, 1618"
+
+# Its alcalde escorts the friars
+markers.bacalar-1618.note: "Alcaldesi keşişlere eşlik eder"
+
+# Christian Maya town
+markers.tipu-1618.note: "Hristiyan Maya kasabası"
+
+# Friars expelled, 1619
+markers.nojpeten-1618.note: "Keşişler kovulur, 1619"
+
+# Mirones killed, 27 January 1624
+markers.sakalum-1624.note: "Mirones öldürülür, 27 Ocak 1624"
+
+# Fernando Kamal’s 150 archers
+markers.oxkutzcab-1624.note: "Fernando Kamal’ın 150 okçusu"
+
+# Lake Bacalar, beside the Spanish town of Salamanca de Bacalar in southern Quintana Roo
+images.missions-bacalar.caption: "Güney Quintana Roo’da, İspanyol kasabası Salamanca de Bacalar’ın yanındaki Bacalar Gölü"
+
+# The island of Flores, once Nojpetén, seen from the peninsula to its north, photograph by Claudio Urrutia, 1897
+images.missions-flores-1897.caption: "Bir zamanlar Nojpetén olan Flores adası, kuzeyindeki yarımadadan, Claudio Urrutia’nın fotoğrafı, 1897"
+
+# The road from Campeche towards Lake Petén Itzá, 1695 to 1696
+routes.camino-real-1695.name: "Campeche’den Petén Itzá Gölü’ne doğru yol, 1695 – 1696"
+
+# Díaz de Velasco from Cahabón to Lake Petén Itzá, March to April 1695
+routes.diaz-de-velasco-1695.name: "Díaz de Velasco’nun Cahabón’dan Petén Itzá Gölü’ne yürüyüşü, Mart – Nisan 1695"
+
+# The road begins, 1695
+markers.campeche-1695.note: "Yol başlar, 1695"
+
+# Fort and base of the road
+markers.chuntuki-1695.note: "Kale ve yolun üssü"
+
+# Zubiaur’s party attacked, 2 February 1696
+markers.chich-1696.note: "Zubiaur’un birliğine saldırı, 2 Şubat 1696"
+
+# Díaz de Velasco sets out, 1695
+markers.cahabon-1695.note: "Díaz de Velasco yola çıkar, 1695"
+
+# Forest of northern Petén seen from the ruins of El Tintal, near Chuntuki
+images.ursua-road-el-tintal.caption: "Chuntuki yakınındaki El Tintal kalıntılarından kuzey Petén ormanı"
+
+# Andrés de Avendaño’s map of Lake Petén Itzá, about 1696, as printed by Philip Ainsworth Means in 1917
+images.ursua-road-avendano-map.caption: "Andrés de Avendaño’nun 1696 dolaylarında çizdiği Petén Itzá Gölü haritası, Philip Ainsworth Means’in 1917 baskısından"
+
+# Ursúa’s march from Campeche to Ch'ich', 23 January to 26 February 1697
+routes.ursua-1697.name: "Ursúa’nın Campeche’den Ch'ich'e yürüyüşü, 23 Ocak – 26 Şubat 1697"
+
+# Capital of Kan Ek'
+markers.nojpeten-1697.note: "Kan Ek'in başkenti"
+
+# Ursúa’s camp from 26 February
+markers.chich-1697.note: "26 Şubat’tan itibaren Ursúa’nın kampı"
+
+# Chak'an Itza, against the Spanish
+markers.chakan-1697.note: "Chak'an Itzaları, İspanyollara karşı"
+
+# Spanish expedition from Yucatán
+battles.nojpeten-1697.sides.0.name: "Yucatán’dan gelen İspanyol seferi"
+
+# 108 soldiers on the galeota, about 235 at the lake
+battles.nojpeten-1697.sides.0.strength: "Galeotada 108 asker, gölde 235 kadar"
+
+# Several wounded
+battles.nojpeten-1697.sides.0.casualties: "Birkaç yaralı"
+
+# Itza of Nojpetén
+battles.nojpeten-1697.sides.1.name: "Nojpetén Itzaları"
+
+# Many killed in the fighting and drowned
+battles.nojpeten-1697.sides.1.casualties: "Çarpışmada ölen ve boğulan çok sayıda kişi"
+
+# Fall of Nojpetén
+battles.nojpeten-1697.name: "Nojpetén’in düşüşü"
+
+# 13 March 1697
+battles.nojpeten-1697.date: "13 Mart 1697"
+
+# Spanish victory, end of the Itza kingdom
+battles.nojpeten-1697.result: "İspanyol zaferi, Itza krallığının sonu"
+
+# Flores, the town on the island of Nojpetén, from the air, 2019
+images.nojpeten-flores.caption: "Nojpetén adasındaki kasaba Flores, havadan, 2019"
+
+# Canoes on the shore of Lake Petén Itzá facing Flores, photograph printed by Philip Ainsworth Means in 1917
+images.nojpeten-plate-iii.caption: "Petén Itzá Gölü’nün Flores’e bakan kıyısında kanolar, Philip Ainsworth Means’in 1917’de yayımladığı bir fotoğraf"
+
+# 108 soldiers on the galeota
+markers.nojpeten-galley-ursua.note: "Galeotada 108 asker"
+
+# An arc about 600 m long
+markers.nojpeten-galley-arc.note: "600 m kadar uzanan bir yay"
+
+# Defenders on shore and roofs
+markers.nojpeten-galley-town.note: "Savunanlar kıyıda ve damlarda"
+
+# Dugout canoes on the southern shore of the island of Flores, photograph by Claudio Urrutia, 1897
+images.nojpeten-galley-canoes.caption: "Flores adasının güney kıyısında oyma kanolar, Claudio Urrutia’nın fotoğrafı, 1897"
+
+# Raised on the highest point
+markers.nojpeten-landing-standard.note: "En yüksek noktaya dikilir"
+
+# Many killed or drowned
+markers.nojpeten-landing-dead.note: "Çoğu öldürülür ya da boğulur"
+
+# The island of Flores from Lake Petén Itzá, with the church on its highest point, 2017
+images.nojpeten-landing-island.caption: "Petén Itzá Gölü’nden Flores adası ve en yüksek noktasındaki kilise, 2017"
+
+# The castillo of Mayapan in Yucatán, which the largest temple of Nojpetén resembled
+images.nojpeten-landing-mayapan.caption: "Yucatán’daki Mayapan castillosu, Nojpetén’in en büyük tapınağı buna benzer"
+
+# Garrison, fortress-prison finished 1700
+markers.remedios-1697.note: "Garnizon, 1700’de biten kale-hapishane"
+
+# Mission town, Itza still spoken
+markers.san-jose-1702.note: "Misyon kasabası, Itzaca hâlâ konuşulur"
+
+# Kowoj town on Lake Salpetén
+markers.zacpeten-1697.note: "Salpetén Gölü’nde Kowoj kasabası"
+
+# The Castillo de Arismendi in Flores, the Spanish fortress-prison finished in 1700
+images.after-nojpeten-castillo.caption: "Flores’te, 1700’de tamamlanan İspanyol kale-hapishanesi Castillo de Arismendi"
+
+# The cathedral of Nuestra Señora de los Remedios y San Pablo on the summit of Flores, 2002
+images.after-nojpeten-church.caption: "Flores’in tepesindeki Nuestra Señora de los Remedios y San Pablo katedrali, 2002"
+
+# Stephens and Catherwood’s journey from Belize to Copán, Palenque and Uxmal, 1839 – 1840
+routes.stephens-1839.name: "Stephens ile Catherwood’un Belize’den Copán, Palenque ve Uxmal’e yolculuğu, 1839 – 1840"
+
+# Stephens and Catherwood land, 1839
+markers.belize-1839.note: "Stephens ve Catherwood karaya çıkar, 1839"
+
+# Bought by Stephens for 50 dollars
+markers.copan-1839.note: "Stephens 50 dolara satın alır"
+
+# Catherwood draws two stelae
+markers.quirigua-1840.note: "Catherwood iki steli çizer"
+
+# Reached on 11 May 1840
+markers.palenque-1840.note: "11 Mayıs 1840’ta varılır"
+
+# Visited in 1840 and 1841
+markers.uxmal-1840.note: "1840 ve 1841’de ziyaret edilir"
+
+# Described in the 1843 book
+markers.chichen-itza-1842.note: "1843 tarihli kitapta anlatılır"
+
+# First detailed description, 1843
+markers.tulum-1842.note: "İlk ayrıntılı tanım, 1843"
+
+# A stela at Copán, drawn by Frederick Catherwood, Metropolitan Museum of Art, New York
+images.rediscovery-copan-stela.caption: "Copán’da bir stel, Frederick Catherwood’un çizimi, Metropolitan Sanat Müzesi, New York"
+
+# The Palace at Palenque, engraved after a drawing by Frederick Catherwood for Stephens’s Incidents of Travel of 1841
+images.rediscovery-palenque.caption: "Palenque’deki Saray, Frederick Catherwood’un Stephens’ın 1841 tarihli Incidents of Travel kitabı için yaptığı çizimden gravür"
+
+# El Castillo at Tulum, a lithograph from Catherwood’s Views of Ancient Monuments, 1844
+images.rediscovery-tulum.caption: "Tulum’da El Castillo, Catherwood’un Views of Ancient Monuments kitabından bir litografi, 1844"
+
+# Ay shot 1847, abandoned 1848
+markers.valladolid-1847.note: "Ay 1847’de vurulur, 1848’de terk edilir"
+
+# Chi and Pat attack, 30 July 1847
+markers.tepich-1847.note: "Chi ile Pat saldırır, 30 Temmuz 1847"
+
+# Held by the Yucatecan government
+markers.merida-1848.note: "Yucatán hükümetinin elinde kalır"
+
+# Walled city held against the Maya
+markers.campeche-1848.note: "Mayalara karşı tutulan surlu kent"
+
+# Shrine of the talking cross
+markers.chan-santa-cruz-1850.note: "Konuşan haçın tapınağı"
+
+# Taken by the Maya, 1848
+markers.bacalar-1848.note: "1848’de Mayalar alır"
+
+# Sells guns to Chan Santa Cruz
+markers.belize-1850.note: "Chan Santa Cruz’a silah satar"
+
+# A scene of the Caste War, an oil painting by an unknown artist of about 1850
+images.caste-war-painting.caption: "Kast Savaşı’ndan bir sahne, ressamı bilinmeyen, 1850 dolayından kalma bir yağlıboya resim"
+
+# A bastion of the fort of San Felipe at Bacalar, built in 1729 – 1733
+images.caste-war-bacalar.caption: "Bacalar’da 1729 – 1733 yıllarında yapılan San Felipe kalesinin bir burcu"
+
+# The sanctuary of the talking cross at Felipe Carrillo Puerto, the former Chan Santa Cruz
+images.caste-war-talking-cross.caption: "Eski adı Chan Santa Cruz olan Felipe Carrillo Puerto’da konuşan haçın tapınağı"
+
+# Proskouriakoff reads its stelae, 1960
+markers.piedras-negras-1960.note: "Proskouriakoff stellerini okur, 1960"
+
+# King list rebuilt, December 1973
+markers.palenque-1973.note: "Kral listesi yeniden kurulur, Aralık 1973"
+
+# Knorozov visits, 1990
+markers.tikal-1990.note: "Knorozov’un ziyareti, 1990"
+
+# Lidar maps 60,000 structures, 2018
+markers.lidar-2018.note: "Lidar 60.000 yapıyı haritalar, 2018"
+
+# Monument to Knorozov, 2018
+markers.merida-2018.note: "Knorozov anıtı, 2018"
+
+# The page of Landa’s Relación de las cosas de Yucatán with his "alphabet" of Maya signs, in the copy of about 1660 in the Real Academia de la Historia, Madrid
+images.decipherment-landa-alphabet.caption: "Landa’nın Relación de las cosas de Yucatán’ında Maya işaretlerinden oluşan \"alfabe\"sinin yer aldığı sayfa, 1660 dolayında yapılan kopya, Real Academia de la Historia, Madrid"
+
+# Stela 14 of Piedras Negras, a new king seated in a niche, the scene that marks an accession on its stelae
+images.decipherment-piedras-negras.caption: "Piedras Negras Stel 14, bir nişte oturan yeni kral, kentin stellerinde tahta çıkışı gösteren sahne"
+
+# The monument to Yuri Knorozov with his cat Asya in Mérida, unveiled in 2018
+images.decipherment-knorozov.caption: "Mérida’da 2018’de açılan, Yuri Knorozov’u kedisi Asya ile gösteren anıt"
+
+# About 800,000 speakers
+markers.yucatan-2000.note: "Yaklaşık 800.000 konuşur"
+
+# About a million speakers
+markers.quiche-2000.note: "Yaklaşık bir milyon konuşur"
+
+# About 800,000 speakers
+markers.alta-verapaz-2000.note: "Yaklaşık 800.000 konuşur"
+
+# 478,000 speakers
+markers.huehuetenango-2000.note: "478.000 konuşur"
+
+# 265,000 and 215,000 speakers
+markers.chiapas-2000.note: "265.000 ve 215.000 konuşur"
+
+# Birthplace of Rigoberta Menchú, 1959
+markers.laj-chimel-1959.note: "Rigoberta Menchú’nün doğduğu yer, 1959"
+
+# Embassy fire 1980, peace 1996
+markers.guatemala-city-1980.note: "Büyükelçilik yangını 1980, barış 1996"
+
+# Ixil Maya women in Nebaj, El Quiché, Guatemala, 2007
+images.maya-today-ixil-women.caption: "Guatemala’nın El Quiché bölgesindeki Nebaj’da Ixil Mayası kadınlar, 2007"
+
+# Q'eqchi' Maya carry the remains of their relatives after an exhumation at Cambayal, Alta Verapaz, Guatemala, 2012
+images.maya-today-exhumation.caption: "Guatemala’nın Alta Verapaz bölgesindeki Cambayal’da mezarlar açıldıktan sonra yakınlarının kalıntılarını taşıyan Q'eqchi' Mayaları, 2012"
+
+# Rigoberta Menchú at a march in Guatemala City, 2009
+images.maya-today-menchu.caption: "Guatemala City’de bir yürüyüşte Rigoberta Menchú, 2009"
+
+# c. 2000 – 1000 BC
+pages.maya-area.date: "MÖ 2000 – 1000 dolayı"
+
+# The Maya area
+pages.maya-area.title: "Maya bölgesi"
+
+# c. 1000 – 700 BC
+pages.first-villages.date: "MÖ 1000 – 700 dolayı"
+
+# The first villages and plazas
+pages.first-villages.title: "İlk köyler ve meydanlar"
+
+# c. 600 BC – AD 150
+pages.mirador.date: "MÖ 600 dolayı – MS 150"
+
+# El Mirador
+pages.mirador.title: "El Mirador"
+
+# c. 400 BC – AD 100
+pages.san-bartolo.date: "MÖ 400 dolayı – MS 100"
+
+# Writing and kingship
+pages.san-bartolo.title: "Yazı ve krallık"
+
+# c. AD 100 – 250
+pages.preclassic-collapse.date: "MS 100 – 250 dolayı"
+
+# The end of the Preclassic cities
+pages.preclassic-collapse.title: "Preklasik kentlerin sonu"
+
+# c. AD 90 – 378
+pages.tikal.date: "MS 90 dolayı – 378"
+
+# Tikal and the Classic kingdoms
+pages.tikal.title: "Tikal ve Klasik krallıklar"
+
+# AD 378
+pages.entrada.date: "MS 378"
+
+# The arrival of Siyaj K'ak'
+pages.entrada.title: "Siyaj K'ak’ın gelişi"
+
+# AD 426 – 437
+pages.copan.date: "MS 426 – 437"
+
+# Copán and Quiriguá
+pages.copan.title: "Copán ve Quiriguá"
+
+# AD 537 – 553
+pages.kaanul.date: "MS 537 – 553"
+
+# The Kaanul kingdom
+pages.kaanul.title: "Kaanul krallığı"
+
+# AD 556 – 562
+pages.caracol.date: "MS 556 – 562"
+
+# Caracol defeats Tikal
+pages.caracol.title: "Caracol Tikal’i yeniyor"
+
+# AD 599 – 612
+pages.palenque-599.date: "MS 599 – 612"
+
+# The Kaanul attacks on Palenque
+pages.palenque-599.title: "Kaanul’un Palenque saldırıları"
+
+# AD 615 – 683
+pages.pakal.date: "MS 615 – 683"
+
+# Pakal at Palenque
+pages.pakal.title: "Palenque’de Pakal"
+
+# AD 626 – 636
+pages.naranjo-631.date: "MS 626 – 636"
+
+# Caracol and Naranjo
+pages.naranjo-631.title: "Caracol ve Naranjo"
+
+# AD 636 – 686
+pages.yuknoom-cheen.date: "MS 636 – 686"
+
+# Yuknoom Ch'een the Great
+pages.yuknoom-cheen.title: "Büyük Yuknoom Ch'een"
+
+# AD 648 – 679
+pages.dos-pilas.date: "MS 648 – 679"
+
+# Dos Pilas against Tikal
+pages.dos-pilas.title: "Dos Pilas Tikal’e karşı"
+
+# AD 680 – 698
+pages.lady-six-sky.date: "MS 680 – 698"
+
+# Lady Six Sky at Naranjo
+pages.lady-six-sky.title: "Naranjo’da Lady Six Sky"
+
+# AD 682 – 695
+pages.tikal-695.date: "MS 682 – 695"
+
+# Tikal defeats Calakmul
+pages.tikal-695.title: "Tikal Calakmul’u yeniyor"
+
+# AD 681 – 768
+pages.yaxchilan.date: "MS 681 – 768"
+
+# Shield Jaguar and Bird Jaguar
+pages.yaxchilan.title: "Kalkan Jaguar ve Kuş Jaguar"
+
+# AD 724 – 738
+pages.copan-738.date: "MS 724 – 738"
+
+# Quiriguá captures the king of Copán
+pages.copan-738.title: "Quiriguá’nın Copán kralını esir alışı"
+
+# AD 734 – 744
+pages.tikal-743.date: "MS 734 – 744"
+
+# Tikal’s last victories
+pages.tikal-743.title: "Tikal’in son zaferleri"
+
+# AD 761 – c. 810
+pages.petexbatun.date: "MS 761 – 810 dolayı"
+
+# The Petexbatún wars
+pages.petexbatun.title: "Petexbatún savaşları"
+
+# c. AD 790
+pages.bonampak.date: "MS 790 dolayı"
+
+# The murals of Bonampak
+pages.bonampak.title: "Bonampak duvar resimleri"
+
+# AD 800 – 909
+pages.collapse.date: "MS 800 – 909"
+
+# The Classic Maya collapse
+pages.collapse.title: "Klasik Maya çöküşü"
+
+# c. AD 800 – 1000
+pages.puuc.date: "MS 800 dolayı – 1000"
+
+# Uxmal and the Puuc cities
+pages.puuc.title: "Uxmal ve Puuc kentleri"
+
+# AD 832 – c. 1100
+pages.chichen-itza.date: "MS 832 – 1100 dolayı"
+
+# Chichen Itza
+pages.chichen-itza.title: "Chichen Itza"
+
+# c. 1220 – 1441
+pages.mayapan.date: "1220 dolayı – 1441"
+
+# Mayapan
+pages.mayapan.title: "Mayapan"
+
+# c. 1400 – 1475
+pages.kiche.date: "1400 dolayı – 1475"
+
+# The K'iche' kingdom
+pages.kiche.title: "K'iche' krallığı"
+
+# 1441 – 1500
+pages.fall-of-mayapan.date: "1441 – 1500"
+
+# The fall of Mayapan
+pages.fall-of-mayapan.title: "Mayapan’ın düşüşü"
+
+# c. 1470 – 1521
+pages.iximche.date: "1470 dolayı – 1521"
+
+# The Kaqchikel at Iximche
+pages.iximche.title: "Iximche’de Kaqchikeller"
+
+# 1502
+pages.sea-trade.date: "1502"
+
+# Tulum, Cozumel and the sea trade
+pages.sea-trade.title: "Tulum, Cozumel ve deniz ticareti"
+
+# 1511 – 1519
+pages.shipwreck.date: "1511 – 1519"
+
+# Aguilar and Guerrero
+pages.shipwreck.title: "Aguilar ve Guerrero"
+
+# February – March 1517
+pages.cordoba-1517.date: "Şubat – Mart 1517"
+
+# Hernández de Córdoba
+pages.cordoba-1517.title: "Hernández de Córdoba"
+
+# 1517
+pages.champoton.date: "1517"
+
+# Water at Champotón
+pages.champoton.title: "Champotón’da su"
+
+# The Champotón River
+emblems.champoton-dawn.river: "Champotón Irmağı"
+
+# Hernández de Córdoba’s landing party at the wells
+emblems.champoton-dawn.party: "Kuyuların başında Hernández de Córdoba’nın karaya çıkan birliği"
+
+# The ships’ boats on the beach
+emblems.champoton-dawn.boats: "Kumsaldaki gemi sandalları"
+
+# Two ships and the brigantine at anchor, kept off by the shallows
+emblems.champoton-dawn.ships: "Sığlıklar yüzünden açıkta demirli iki gemi ve brigantin"
+
+# Warriors of Champotón under Moch Couoh, with spears and clubs
+emblems.champoton-dawn.warriors: "Moch Couoh komutasında, mızrak ve sopalarla donanmış Champotón savaşçıları"
+
+# Archers and slingers
+emblems.champoton-dawn.archers: "Okçular ve sapancılar"
+
+# Warriors of Champotón closing on the flank
+emblems.champoton-dawn.wings: "Yandan yaklaşan Champotón savaşçıları"
+
+# The Maya close in with spears and clubs
+emblems.champoton-dawn.attack: "Mayalar mızrak ve sopalarla yakın dövüşe girer"
+
+# Fresh squadrons from the town
+emblems.champoton-dawn.reinforcements: "Kentten gelen yeni birlikler"
+
+# 1517, at dawn
+pages.champoton-dawn.date: "1517, şafak"
+
+# Surrounded at dawn
+pages.champoton-dawn.title: "Şafakta etrafı sarılmış"
+
+# The Champotón River
+emblems.champoton-boats.river: "Champotón Irmağı"
+
+# The overloaded boats, survivors clinging to the gunwales
+emblems.champoton-boats.boats: "Kenarlarına sağ kalanların tutunduğu aşırı yüklü sandallar"
+
+# Two ships and the brigantine at anchor, kept off by the shallows
+emblems.champoton-boats.ships: "Sığlıklar yüzünden açıkta demirli iki gemi ve brigantin"
+
+# Warriors wading into the sea after the boats
+emblems.champoton-boats.waders: "Sandalların peşinden denize giren savaşçılar"
+
+# Warriors of Champotón on the beach
+emblems.champoton-boats.warriors: "Kumsaldaki Champotón savaşçıları"
+
+# Archers and slingers
+emblems.champoton-boats.archers: "Okçular ve sapancılar"
+
+# The Spaniards cut their way to the boats
+emblems.champoton-boats.breakout: "İspanyollar savaşçıların arasından sandallara yol açar"
+
+# The boats make for the ships
+emblems.champoton-boats.escape: "Sandallar gemilere yönelir"
+
+# The warriors wade in after the boats
+emblems.champoton-boats.pursuit: "Savaşçılar sandalların peşinden denize girer"
+
+# 1517, morning
+pages.champoton-boats.date: "1517, sabah"
+
+# The retreat to the boats
+pages.champoton-boats.title: "Sandallara çekiliş"
+
+# 1518
+pages.grijalva.date: "1518"
+
+# Juan de Grijalva
+pages.grijalva.title: "Juan de Grijalva"
+
+# February – March 1519
+pages.cozumel-1519.date: "Şubat – Mart 1519"
+
+# Cortés at Cozumel
+pages.cozumel-1519.title: "Cortés Cozumel’de"
+
+# 12 March 1519
+pages.centla.date: "12 Mart 1519"
+
+# Cortés reaches Tabasco
+pages.centla.title: "Cortés Tabasco’ya varır"
+
+# The Tabasco River, named the Grijalva by the Spanish
+emblems.centla-potonchan.river: "İspanyolların Grijalva adını verdiği Tabasco Irmağı"
+
+# Swamps beside the town
+emblems.centla-potonchan.swamps: "Kentin yanındaki bataklıklar"
+
+# Wall of thick timbers round the town
+emblems.centla-potonchan.palisade: "Kenti çeviren kalın kütüklerden duvar"
+
+# The ships’ boats, with crossbowmen and musketeers
+emblems.centla-potonchan.boats: "Arbaletçi ve tüfekçi taşıyan gemi sandalları"
+
+# Cortés and the main body, in water up to the waist
+emblems.centla-potonchan.cortes: "Cortés ve ana birlik, bellerine kadar suda"
+
+# Chontal warriors on the bank
+emblems.centla-potonchan.bank-warriors: "Kıyıdaki Chontal savaşçıları"
+
+# Chontal war canoes
+emblems.centla-potonchan.canoes: "Chontal savaş kanoları"
+
+# Warriors of Potonchán inside the wall
+emblems.centla-potonchan.garrison: "Duvarın içindeki Potonchán savaşçıları"
+
+# Alonso de Ávila with 100 soldiers
+emblems.centla-potonchan.avila: "100 askeriyle Alonso de Ávila"
+
+# Cortés takes the boats upriver
+emblems.centla-potonchan.upriver: "Cortés sandalları ırmağın yukarısına götürür"
+
+# Ávila marches by the road to the rear of the town
+emblems.centla-potonchan.avila-road: "Ávila yoldan kentin arkasına yürür"
+
+# The canoes close in, shooting arrows
+emblems.centla-potonchan.canoe-attack: "Kanolar ok atarak yaklaşır"
+
+# 13 March 1519
+pages.centla-potonchan.date: "13 Mart 1519"
+
+# The taking of Potonchán
+pages.centla-potonchan.title: "Potonchán’ın alınışı"
+
+# Swamp on the plain
+emblems.centla-plain.marsh: "Ovadaki bataklık"
+
+# The Spanish foot with crossbows and muskets
+emblems.centla-plain.foot: "Arbalet ve tüfekli İspanyol piyadesi"
+
+# Spanish guns
+emblems.centla-plain.guns: "İspanyol topları"
+
+# The Chontal army, 40,000 by Cortés and Bernal Díaz
+emblems.centla-plain.army: "Cortés ile Bernal Díaz’a göre 40.000 kişilik Chontal ordusu"
+
+# Chontal squadrons on the flank
+emblems.centla-plain.flanks: "Yandaki Chontal birlikleri"
+
+# Chontal squadrons closing behind
+emblems.centla-plain.rear: "Arkadan yaklaşan Chontal birlikleri"
+
+# Cortés and the horsemen
+emblems.centla-plain.horse: "Cortés ve atlılar"
+
+# The Chontal attack from every side
+emblems.centla-plain.attack: "Chontallar her yandan saldırır"
+
+# The horsemen ride round to come up behind the Chontal
+emblems.centla-plain.ride: "Atlılar Chontalların arkasına çıkmak için dolanır"
+
+# 14 March 1519, morning
+pages.centla-plain.date: "14 Mart 1519, sabah"
+
+# The foot on the plain
+pages.centla-plain.title: "Ovadaki piyade"
+
+# Swamp on the plain
+emblems.centla-horse.marsh: "Ovadaki bataklık"
+
+# The Spanish foot pressing forward
+emblems.centla-horse.foot: "İleri bastıran İspanyol piyadesi"
+
+# Cortés and the horsemen charge the Chontal rear
+emblems.centla-horse.horse: "Cortés ve atlılar Chontalların arkasına hücum eder"
+
+# The Chontal army breaking
+emblems.centla-horse.army: "Düzeni bozulan Chontal ordusu"
+
+# Chontal squadrons in flight
+emblems.centla-horse.flanks: "Kaçan Chontal birlikleri"
+
+# The horsemen come up behind the Chontal
+emblems.centla-horse.charge: "Atlılar Chontalların arkasından gelir"
+
+# The foot press forward
+emblems.centla-horse.advance: "Piyade ileri bastırır"
+
+# The Chontal flee
+emblems.centla-horse.flight: "Chontallar kaçar"
+
+# 14 March 1519
+pages.centla-horse.date: "14 Mart 1519"
+
+# Cortés’s horsemen
+pages.centla-horse.title: "Cortés’in atlıları"
+
+# November 1523 – February 1524
+pages.alvarado-1524.date: "Kasım 1523 – Şubat 1524"
+
+# Alvarado marches into Guatemala
+pages.alvarado-1524.title: "Alvarado Guatemala’ya yürür"
+
+# 9 – 18 February 1524
+pages.xelaju.date: "9 – 18 Şubat 1524"
+
+# The road to Xelajú
+pages.xelaju.title: "Xelajú yolu"
+
+# The Samalá River
+emblems.xelaju-pass.samala: "Samalá Nehri"
+
+# The Xekik'el River, named for the blood of the battle
+emblems.xelaju-pass.xekikel: "Adını muharebenin kanından alan Xekik'el Nehri"
+
+# K'iche' walls of stone slabs and ditches set with stakes, by the Título K'oyoi
+emblems.xelaju-pass.barricade: "Título K'oyoi’ye göre K'iche'lerin taş levhalardan duvarları ve kazıklı hendekleri"
+
+# K'iche' warriors in ambush above the pass
+emblems.xelaju-pass.kiche-ambush: "Geçidin üstünde pusuda bekleyen K'iche' savaşçıları"
+
+# Tlaxcalan, Cholulan and other Mexican allies, driven back down the road
+emblems.xelaju-pass.allies: "Yoldan aşağı geri püskürtülen Tlaxcalalı, Cholulalı ve öteki Meksikalı müttefikler"
+
+# Spanish cavalry under Alvarado
+emblems.xelaju-pass.cavalry: "Alvarado komutasında İspanyol süvarisi"
+
+# Spanish infantry, crossbowmen and musketeers
+emblems.xelaju-pass.infantry: "İspanyol piyadesi, arbaletçiler ve tüfekçiler"
+
+# The Mexican allies are driven back down the road
+emblems.xelaju-pass.allies-back: "Meksikalı müttefikler yoldan aşağı geri püskürtülür"
+
+# The Spanish cavalry charges up the pass
+emblems.xelaju-pass.charge: "İspanyol süvarisi geçitten yukarı hücum eder"
+
+# The K'iche' scatter before the horses
+emblems.xelaju-pass.kiche-scatter: "K'iche'ler atların önünde dağılır"
+
+# 12 February 1524
+pages.xelaju-pass.date: "12 Şubat 1524"
+
+# The ambush in the pass
+pages.xelaju-pass.title: "Geçitteki pusu"
+
+# The Samalá River
+emblems.xelaju-urbina.samala: "Samalá Nehri"
+
+# The Xekik'el River, named for the blood of the battle
+emblems.xelaju-urbina.xekikel: "Adını muharebenin kanından alan Xekik'el Nehri"
+
+# K'iche' army under one of the four lords of Q'umarkaj
+emblems.xelaju-urbina.kiche-army: "Q'umarkaj’ın dört beyinden birinin komutasında K'iche' ordusu"
+
+# K'iche' archers
+emblems.xelaju-urbina.kiche-archers: "K'iche' okçuları"
+
+# Spanish cavalry under Alvarado
+emblems.xelaju-urbina.cavalry: "Alvarado komutasında İspanyol süvarisi"
+
+# Spanish infantry
+emblems.xelaju-urbina.infantry: "İspanyol piyadesi"
+
+# Mexican allies
+emblems.xelaju-urbina.allies: "Meksikalı müttefikler"
+
+# The Spanish wait until the K'iche' are within bowshot, then charge
+emblems.xelaju-urbina.charge: "İspanyollar K'iche'lerin ok menziline girmesini bekler, sonra hücum eder"
+
+# The K'iche' army breaks and flees
+emblems.xelaju-urbina.kiche-flight: "K'iche' ordusu bozulup kaçar"
+
+# The army crosses the valley to Xelajú and finds it deserted
+emblems.xelaju-urbina.to-xelaju: "Ordu vadiyi geçerek Xelajú’ya varır ve kasabayı boşalmış bulur"
+
+# 12 February 1524
+pages.xelaju-urbina.date: "12 Şubat 1524"
+
+# The Llanos de Urbina
+pages.xelaju-urbina.title: "Llanos de Urbina"
+
+# The Samalá River
+emblems.xelaju-olintepeque.samala: "Samalá Nehri"
+
+# The Xekik'el River, named for the blood of the battle
+emblems.xelaju-olintepeque.xekikel: "Adını muharebenin kanından alan Xekik'el Nehri"
+
+# K'iche' army from Q'umarkaj, 30,000 by a K'iche' account
+emblems.xelaju-olintepeque.kiche-army: "Bir K'iche' anlatımına göre 30.000 kişilik, Q'umarkaj’dan gelen K'iche' ordusu"
+
+# Spanish cavalry under Alvarado
+emblems.xelaju-olintepeque.cavalry: "Alvarado komutasında İspanyol süvarisi"
+
+# Spanish infantry
+emblems.xelaju-olintepeque.infantry: "İspanyol piyadesi"
+
+# Mexican allies
+emblems.xelaju-olintepeque.allies: "Meksikalı müttefikler"
+
+# The Spanish cavalry charges
+emblems.xelaju-olintepeque.charge: "İspanyol süvarisi hücum eder"
+
+# The Mexican allies attack the flank
+emblems.xelaju-olintepeque.allies-advance: "Meksikalı müttefikler yandan saldırır"
+
+# The K'iche' break and flee, with many nobles among the dead
+emblems.xelaju-olintepeque.kiche-flight: "K'iche'ler bozulup kaçar, ölenler arasında çok sayıda soylu vardır"
+
+# 18 February 1524
+pages.xelaju-olintepeque.date: "18 Şubat 1524"
+
+# The battle of Olintepeque
+pages.xelaju-olintepeque.title: "Olintepeque Muharebesi"
+
+# February – April 1524
+pages.qumarkaj.date: "Şubat – Nisan 1524"
+
+# The burning of Q'umarkaj
+pages.qumarkaj.title: "Q'umarkaj’ın yakılışı"
+
+# April 1524
+pages.atitlan.date: "Nisan 1524"
+
+# The Tz'utujil of Lake Atitlán
+pages.atitlan.title: "Atitlán Gölü’nün Tz'utujilleri"
+
+# July 1524 – May 1530
+pages.iximche-revolt.date: "Temmuz 1524 – Mayıs 1530"
+
+# Santiago and the Kaqchikel revolt
+pages.iximche-revolt.title: "Santiago ve Kaqchikel ayaklanması"
+
+# July – October 1525
+pages.zaculeu.date: "Temmuz – Ekim 1525"
+
+# Gonzalo de Alvarado marches on the Mam
+pages.zaculeu.title: "Gonzalo de Alvarado Mamların üzerine yürür"
+
+# Mam army from Malacatán, 5,000 warriors in battle formation
+emblems.zaculeu-malacatan.mam: "Malacatán’dan gelen, savaş düzenindeki 5.000 savaşçılık Mam ordusu"
+
+# Spanish cavalry, 40 horsemen under Gonzalo de Alvarado
+emblems.zaculeu-malacatan.cavalry: "İspanyol süvarisi, Gonzalo de Alvarado komutasında 40 atlı"
+
+# Spanish infantry, 80 men
+emblems.zaculeu-malacatan.infantry: "İspanyol piyadesi, 80 kişi"
+
+# Mexican and K'iche' allies, about 2,000
+emblems.zaculeu-malacatan.allies: "Meksikalı ve K'iche' müttefikler, yaklaşık 2.000 kişi"
+
+# The Mam advance across the plain
+emblems.zaculeu-malacatan.mam-advance: "Mamlar ovada ilerler"
+
+# The Spanish cavalry charges and throws the Mam into disorder
+emblems.zaculeu-malacatan.charge: "İspanyol süvarisi hücum eder ve Mam saflarını dağıtır"
+
+# The survivors flee to the hills
+emblems.zaculeu-malacatan.mam-flight: "Sağ kalanlar tepelere kaçar"
+
+# Gonzalo de Alvarado enters Malacatán unopposed
+emblems.zaculeu-malacatan.to-town: "Gonzalo de Alvarado Malacatán’a karşı koyan olmadan girer"
+
+# 1525
+pages.zaculeu-malacatan.date: "1525"
+
+# The Mam army from Malacatán
+pages.zaculeu-malacatan.title: "Malacatán’dan gelen Mam ordusu"
+
+# The Selegua River
+emblems.zaculeu-assault.selegua: "Selegua Nehri"
+
+# Deep ravines on the south and east of Zaculeu
+emblems.zaculeu-assault.ravines: "Zaculeu’nun güneyindeki ve doğusundaki derin vadiler"
+
+# Fortified structure across three quarters of the northern neck
+emblems.zaculeu-assault.north-wall: "Kuzeydeki kara boynunun dörtte üçünü kaplayan tahkimli yapı"
+
+# Walls and ditches on the northern approach
+emblems.zaculeu-assault.north-ditch: "Kuzey yaklaşımındaki duvarlar ve hendekler"
+
+# Zaculeu, the fortress of Kayb'il B'alam
+emblems.zaculeu-assault.zaculeu: "Kayb'il B'alam’ın kalesi Zaculeu"
+
+# Mam warriors holding the northern approaches, part of an army of about 6,000 from Huehuetenango, Zaculeu, Cuilco and Ixtahuacán
+emblems.zaculeu-assault.mam: "Kuzey yaklaşımlarını tutan Mam savaşçıları, Huehuetenango, Zaculeu, Cuilco ve Ixtahuacán’dan gelen yaklaşık 6.000 kişilik ordunun parçası"
+
+# Spanish infantry, 80 men
+emblems.zaculeu-assault.infantry: "İspanyol piyadesi, 80 kişi"
+
+# Spanish cavalry, 40 horsemen
+emblems.zaculeu-assault.cavalry: "İspanyol süvarisi, 40 atlı"
+
+# Mexican and K'iche' allies, about 2,000
+emblems.zaculeu-assault.allies: "Meksikalı ve K'iche' müttefikler, yaklaşık 2.000 kişi"
+
+# Repeated charges of the Spanish cavalry
+emblems.zaculeu-assault.charges: "İspanyol süvarisinin art arda hücumları"
+
+# About 2,000 warriors come out of Zaculeu to reinforce them
+emblems.zaculeu-assault.sortie: "Zaculeu’dan çıkan yaklaşık 2.000 savaşçı onlara destek verir"
+
+# Kayb'il B'alam withdraws his army behind the walls
+emblems.zaculeu-assault.withdraw: "Kayb'il B'alam ordusunu surların arkasına çeker"
+
+# 1525
+pages.zaculeu-assault.date: "1525"
+
+# The fight at the northern entrance
+pages.zaculeu-assault.title: "Kuzey girişindeki çarpışma"
+
+# The Selegua River
+emblems.zaculeu-siege.selegua: "Selegua Nehri"
+
+# Deep ravines on the south and east of Zaculeu
+emblems.zaculeu-siege.ravines: "Zaculeu’nun güneyindeki ve doğusundaki derin vadiler"
+
+# Fortified structure across three quarters of the northern neck
+emblems.zaculeu-siege.north-wall: "Kuzeydeki kara boynunun dörtte üçünü kaplayan tahkimli yapı"
+
+# Walls and ditches on the northern approach
+emblems.zaculeu-siege.north-ditch: "Kuzey yaklaşımındaki duvarlar ve hendekler"
+
+# Zaculeu under siege, its defenders starving
+emblems.zaculeu-siege.zaculeu: "Kuşatma altındaki Zaculeu ve açlık çeken savunanları"
+
+# Spanish siege lines under Antonio de Salazar
+emblems.zaculeu-siege.siege: "Antonio de Salazar komutasında İspanyol kuşatma hatları"
+
+# Mexican and K'iche' allies on the siege lines
+emblems.zaculeu-siege.allies-siege: "Kuşatma hatlarındaki Meksikalı ve K'iche' müttefikler"
+
+# Mam relief army from the Cuchumatanes, about 8,000
+emblems.zaculeu-siege.relief: "Cuchumatanes dağlarından gelen Mam yardım ordusu, yaklaşık 8.000 kişi"
+
+# Spanish cavalry under Gonzalo de Alvarado
+emblems.zaculeu-siege.cavalry: "Gonzalo de Alvarado komutasında İspanyol süvarisi"
+
+# Spanish and allied foot soldiers
+emblems.zaculeu-siege.foot: "İspanyol ve müttefik piyadeler"
+
+# Gonzalo de Alvarado marches north to meet the relief army
+emblems.zaculeu-siege.march: "Gonzalo de Alvarado yardım ordusunu karşılamak için kuzeye yürür"
+
+# Repeated charges of the Spanish cavalry
+emblems.zaculeu-siege.charges: "İspanyol süvarisinin art arda hücumları"
+
+# The relief army breaks and is destroyed
+emblems.zaculeu-siege.relief-flight: "Yardım ordusu bozulup yok edilir"
+
+# 1525, until mid-October
+pages.zaculeu-siege.date: "1525, Ekim ortasına kadar"
+
+# The relief army and the surrender
+pages.zaculeu-siege.title: "Yardım ordusu ve teslim"
+
+# 1527 – 1528
+pages.montejo-1527.date: "1527 – 1528"
+
+# Montejo’s first campaign
+pages.montejo-1527.title: "Montejo’nun ilk seferi"
+
+# 1531 – 1535
+pages.montejo-1531.date: "1531 – 1535"
+
+# Campeche and Chichen Itza
+pages.montejo-1531.title: "Campeche ve Chichen Itza"
+
+# 1540 – 1542
+pages.tho.date: "1540 – 1542"
+
+# Mérida on the ruins of T'ho
+pages.tho.title: "T'ho’nun kalıntıları üzerinde Mérida"
+
+# 11 June 1542
+pages.merida-1542.date: "11 Haziran 1542"
+
+# The attack on Mérida
+pages.merida-1542.title: "Mérida’ya saldırı"
+
+# 1546 – 1547
+pages.revolt-1546.date: "1546 – 1547"
+
+# The great Maya revolt
+pages.revolt-1546.title: "Büyük Maya ayaklanması"
+
+# 1562
+pages.landa.date: "1562"
+
+# Landa and the auto-da-fé of Maní
+pages.landa.title: "Landa ve Maní’deki auto-da-fé"
+
+# Lake Petén Itzá
+emblems.itza-kingdom.lake: "Petén Itzá Gölü"
+
+# 1525
+pages.itza-kingdom.date: "1525"
+
+# The Itza kingdom and Cortés
+pages.itza-kingdom.title: "Itza krallığı ve Cortés"
+
+# Lake Petén Itzá
+emblems.missions.lake: "Petén Itzá Gölü"
+
+# 1618 – 1624
+pages.missions.date: "1618 – 1624"
+
+# Friars at Nojpetén
+pages.missions.title: "Nojpetén’de keşişler"
+
+# Lake Petén Itzá
+emblems.ursua-road.lake: "Petén Itzá Gölü"
+
+# 1695 – 1696
+pages.ursua-road.date: "1695 – 1696"
+
+# The road from Yucatán
+pages.ursua-road.title: "Yucatán’dan gelen yol"
+
+# Lake Petén Itzá
+emblems.nojpeten.lake: "Petén Itzá Gölü"
+
+# December 1696 – 12 March 1697
+pages.nojpeten.date: "Aralık 1696 – 12 Mart 1697"
+
+# Ursúa at the lake
+pages.nojpeten.title: "Ursúa gölde"
+
+# Lake Petén Itzá
+emblems.nojpeten-galley.lake: "Petén Itzá Gölü"
+
+# Ursúa’s galeota: 108 soldiers, two priests, AjChan and at least five guns
+emblems.nojpeten-galley.galeota: "Ursúa’nın galeotası: 108 asker, iki rahip, AjChan ve en az beş top"
+
+# Itza war canoes in an arc across the approach, about 600 m from shore to shore
+emblems.nojpeten-galley.arc: "Yaklaşma yolunun önünde, kıyıdan kıyıya 600 m kadar bir yay çizen Itza savaş kanoları"
+
+# Canoes putting out from the island to surround the galeota
+emblems.nojpeten-galley.shore-canoes: "Galeotayı çevirmek için adadan açılan kanolar"
+
+# Itza archers crowding the shore of the island
+emblems.nojpeten-galley.shore: "Adanın kıyısına doluşan Itza okçuları"
+
+# Warriors on the roofs of Nojpetén
+emblems.nojpeten-galley.town: "Nojpetén’in damlarındaki savaşçılar"
+
+# The galeota is rowed east from Ch'ich' and through the arc
+emblems.nojpeten-galley.row: "Galeota Ch'ich'ten doğuya ve yayın içinden kürek çekilerek geçer"
+
+# More canoes put out from the shore
+emblems.nojpeten-galley.put-out: "Kıyıdan yeni kanolar açılır"
+
+# 13 March 1697, morning
+pages.nojpeten-galley.date: "13 Mart 1697, sabah"
+
+# The galley crosses the lake
+pages.nojpeten-galley.title: "Galeota gölü geçer"
+
+# Lake Petén Itzá
+emblems.nojpeten-landing.lake: "Petén Itzá Gölü"
+
+# The galeota at the shore of Nojpetén, its guns firing on the town
+emblems.nojpeten-landing.galeota: "Nojpetén kıyısındaki galeota, topları kenti döver"
+
+# Ursúa’s soldiers take the town
+emblems.nojpeten-landing.soldiers: "Ursúa’nın askerleri kenti alır"
+
+# Itza survivors making for the forest
+emblems.nojpeten-landing.survivors: "Ormana yönelen sağ kalan Itzalar"
+
+# The soldiers go ashore and storm the town
+emblems.nojpeten-landing.land: "Askerler karaya çıkar ve kente saldırır"
+
+# The Itza swim for the mainland, and many drown
+emblems.nojpeten-landing.swim: "Itzalar yüzerek anakaraya geçmeye çalışır, birçoğu boğulur"
+
+# The canoes flee from the gunfire
+emblems.nojpeten-landing.canoes-flee: "Kanolar ateşten kaçar"
+
+# 13 March 1697
+pages.nojpeten-landing.date: "13 Mart 1697"
+
+# The fall of Nojpetén
+pages.nojpeten-landing.title: "Nojpetén’in düşüşü"
+
+# Lake Petén Itzá
+emblems.after-nojpeten.lake: "Petén Itzá Gölü"
+
+# 1697 – 1708
+pages.after-nojpeten.date: "1697 – 1708"
+
+# After Nojpetén
+pages.after-nojpeten.title: "Nojpetén’den sonra"
+
+# 1839 – 1842
+pages.rediscovery.date: "1839 – 1842"
+
+# Stephens and Catherwood
+pages.rediscovery.title: "Stephens ve Catherwood"
+
+# 1847 – 1901
+pages.caste-war.date: "1847 – 1901"
+
+# The Caste War of Yucatán
+pages.caste-war.title: "Yucatán Kast Savaşı"
+
+# 1952 – 2018
+pages.decipherment.date: "1952 – 2018"
+
+# Reading the inscriptions
+pages.decipherment.title: "Yazıtları okumak"
+
+# 1960 – 1996
+pages.maya-today.date: "1960 – 1996"
+
+# The Maya today
+pages.maya-today.title: "Günümüzde Mayalar"
+
+# c. 1000 BC – AD 1697
+story.span: "MÖ 1000 dolayı – MS 1697"
+
+# The Maya of southern Mexico and Central America, from the first cities of the Preclassic through the Classic kingdoms and their wars to the Spanish conquest, which ended at Nojpetén in 1697.
+story.summary: "Güney Meksika ve Orta Amerika’nın Mayaları: Preklasik dönemin ilk kentlerinden Klasik krallıklara ve savaşlarına, 1697’de Nojpetén’de sona eren İspanyol fethine kadar."
+
+# The Maya
+story.title: "Mayalar"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Northern lowlands
+markers.yucatan-cenotes-2000bc.label: "Kuzey alçak bölge"
+
+# Middle Motagua
+markers.motagua-jade-426.label: "Orta Motagua"
+
+# Sky Witness or K'ahk' Ti' Ch'ich'
+battles.tikal-562.sides.0.commanders.1: "Sky Witness ya da K'ahk' Ti' Ch'ich'"
+
+# The 36th king of Naranjo
+battles.naranjo-631.sides.1.commanders.0: "Naranjo’nun 36. kralı"
+
+# Middle Motagua
+markers.motagua-738.label: "Orta Motagua"
+
+# Lake Chichancanab
+markers.chichancanab-900.label: "Chichancanab Gölü"
+
+# Okos River
+markers.okos-1450.label: "Okos Irmağı"
+
+# Salt beds
+markers.salt-beds-1450.label: "Tuzlalar"
+
+# Uaymil coast
+markers.uaymil-1511.label: "Uaymil kıyısı"
+
+# Cape San Antonio
+markers.san-antonio-1517.label: "San Antonio Burnu"
+
+# Two Spaniards
+markers.champoton-dawn-captives.label: "İki İspanyol"
+
+# The fleet
+markers.champoton-dawn-ships.label: "Filo"
+
+# Spanish losses
+markers.champoton-boats-losses.label: "İspanyol kayıpları"
+
+# Water casks
+markers.champoton-boats-casks.label: "Su fıçıları"
+
+# The fleet
+markers.champoton-boats-ships.label: "Filo"
+
+# Ascension Bay
+markers.ascension-1518.label: "Ascensión Koyu"
+
+# Spanish foot
+markers.centla-plain-foot.label: "İspanyol piyadesi"
+
+# Chontal dead
+markers.centla-horse-dead.label: "Chontal ölüleri"
+
+# Spanish foot
+markers.centla-horse-foot.label: "İspanyol piyadesi"
+
+# Samalá River
+markers.samala-1524.label: "Samalá Nehri"
+
+# Mexican allies
+markers.xelaju-pass-allies.label: "Meksikalı müttefikler"
+
+# K'iche' warriors
+markers.xelaju-pass-kiche.label: "K'iche' savaşçıları"
+
+# K'iche' army
+markers.xelaju-olintepeque-kiche.label: "K'iche' ordusu"
+
+# Mam warriors
+markers.zaculeu-assault-mam.label: "Mam savaşçıları"
+
+# Francisco de Montejo the Younger
+battles.merida-1542.sides.0.commanders.0: "Genç Francisco de Montejo"
+
+# Itza canoes
+markers.nojpeten-galley-arc.label: "Itza kanoları"
+
+# Ursúa’s standard
+markers.nojpeten-landing-standard.label: "Ursúa’nın sancağı"
+
+# Itza dead
+markers.nojpeten-landing-dead.label: "Itza ölüleri"
+
+# Maya Biosphere Reserve
+markers.lidar-2018.label: "Maya Biyosfer Rezervi"
+
+# Yucatec Maya
+markers.yucatan-2000.label: "Yucatek Mayacası"
+
+# Tzotzil and Tzeltal
+markers.chiapas-2000.label: "Tzotzil ve Tzeltal"

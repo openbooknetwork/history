@@ -36,16 +36,27 @@ npm version minor && git push --follow-tags
 
 ## Photographs
 
-`scripts/fetch-candidates.mjs` searches Wikimedia Commons with the terms in `scripts/image-queries.yaml`,
-one entry per page id, and downloads candidate photos with their author and licence into
-`content/<story>/.candidates/<page>/`, plus an `index.yaml` describing each file. Review the candidates,
-move the chosen files into the page's `images/` folder, and add them to `page.yaml` with a caption and a
-credit that names the author, the licence and the Commons page.
+`scripts/fetch-candidates.mjs` searches Wikimedia Commons with the terms in a queries file and downloads
+candidate photos with their author and licence into `content/<story>/.candidates/<page>/`, plus an `index.yaml`
+describing each file. Review the candidates, move the chosen files into the page's `images/` folder, and add
+them to `page.yaml` with a caption and a credit that names the author, the licence and the Commons page.
 
-A page entry can also list Wikipedia articles under `articles:`, and every Commons image those articles
-use joins the candidates. `--queries <file>` reads the entries from another file, and `--out <name>` writes into
+The queries file holds one entry per page id under the story id. An entry is a list of Commons search terms, or
+a map with the terms under `queries:`, Wikipedia articles under `articles:` and exact Commons file names under
+`files:`. Every Commons image an article uses joins the candidates. An article is an English Wikipedia title or
+a Wikipedia URL in any language.
+
+```yaml
+maya-civilization:
+  maya-area: ["Petén rainforest aerial", "Usumacinta River", "Yucatán cenote"]
+  first-villages:
+    queries: ["Aguada Fénix lidar", "Ceibal E Group"]
+    articles: ["Aguada Fénix", "Seibal", "Olmecs"]
+```
+
+Keep the file in `.cache/`, which git ignores, and pass it with `--queries`. `--out <name>` writes into
 `.candidates/<name>/` so that two fetches at once keep separate index files.
 
 ```
-node scripts/fetch-candidates.mjs ataturk-turkish-republic --limit 6
+node scripts/fetch-candidates.mjs maya-civilization --queries .cache/image-queries.yaml --limit 6
 ```

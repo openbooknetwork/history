@@ -1,0 +1,38 @@
+date: "13 March 1519"
+when: 1519-03-13
+title: "The taking of Potonchán"
+bbox: [-92.66905, 18.51512, -92.65484, 18.52869]
+zones: []
+routes: []
+markers: [centla-potonchan-cortes, centla-potonchan-avila, centla-potonchan-palmares, centla-potonchan-town]
+sources:
+  - "Bernal Díaz del Castillo, The Conquest of New Spain, tr. J. M. Cohen (1963), pp. 68 to 71."
+  - "Cipriano Aurelio Cabrera Bernat, Viajeros en Tabasco: Textos (1987), pp. 42 to 45."
+  - "Manuel Gil y Sáenz, Compendio histórico, geográfico y estadístico del Estado de Tabasco (2nd ed. 1979), p. 80."
+emblem:
+  kind: battle-plan
+  water:
+    - {area: [[-92.67199, 18.50743], [-92.66858, 18.51467], [-92.6655, 18.521], [-92.66422, 18.52914], [-92.663, 18.536], [-92.66441, 18.54362], [-92.66631, 18.55085], [-92.67805, 18.55085], [-92.67805, 18.50743]], id: river, name: 'The Tabasco River, named the Grijalva by the Spanish'}
+    - {area: [[-92.66242, 18.52507], [-92.66346, 18.52914], [-92.66242, 18.53321], [-92.65863, 18.53412], [-92.65532, 18.53186], [-92.65484, 18.52733], [-92.65768, 18.52507]], id: swamps, name: Swamps beside the town}
+    - {area: [[-92.66432, 18.51648], [-92.66593, 18.51241], [-92.66005, 18.51195], [-92.65437, 18.51286], [-92.65389, 18.51602], [-92.65863, 18.51693]], id: swamps, name: Swamps beside the town}
+  works:
+    - {side: chontal, path: [[-92.65911, 18.51756], [-92.66308, 18.51801], [-92.66384, 18.521], [-92.66318, 18.52399], [-92.65986, 18.52462], [-92.6574, 18.52399], [-92.65674, 18.521], [-92.6574, 18.51829], [-92.65911, 18.51756]], width: 12, id: palisade, name: Wall of thick timbers round the town}
+  units:
+    - {side: spain, type: ships, at: [-92.66716, 18.52154], width: 220, depth: 40, facing: 90, id: boats, name: 'The ships’ boats, with crossbowmen and musketeers', count: 6}
+    - {side: spain, type: infantry, at: [-92.66612, 18.52154], width: 140, depth: 32, facing: 90, id: cortes, name: 'Cortés and the main body, in water up to the waist'}
+    - {side: chontal, type: infantry, at: [-92.66479, 18.52154], width: 320, depth: 60, facing: 270, id: bank-warriors, name: Chontal warriors on the bank}
+    - {side: chontal, type: ships, at: [-92.6682, 18.51783], width: 260, depth: 40, facing: 60, id: canoes, name: Chontal war canoes, count: 5}
+    - {side: chontal, type: infantry, at: [-92.66062, 18.521], width: 380, depth: 120, facing: 270, id: garrison, name: Warriors of Potonchán inside the wall}
+    - {side: spain, type: infantry, at: [-92.65569, 18.52371], width: 80, depth: 32, facing: 240, id: avila, name: Alonso de Ávila with 100 soldiers}
+  arrows:
+    - {side: spain, path: [[-92.66716, 18.54362], [-92.66716, 18.53457], [-92.66744, 18.52552], [-92.66725, 18.52263]], width: 34, id: upriver, name: Cortés takes the boats upriver}
+    - {side: spain, path: [[-92.66337, 18.54452], [-92.65626, 18.54181], [-92.65247, 18.53547], [-92.65437, 18.52914], [-92.65513, 18.52607], [-92.65551, 18.52417]], width: 34, id: avila-road, name: Ávila marches by the road to the rear of the town}
+    - {side: chontal, path: [[-92.66792, 18.5182], [-92.66711, 18.52037]], width: 30, id: canoe-attack, name: 'The canoes close in, shooting arrows'}
+  clashes:
+    - {at: [-92.66552, 18.52154], size: 42}
+    - {at: [-92.65655, 18.5235], size: 42}
+images:
+  centla-potonchan-canoes:
+    file: centla-potonchan-canoes.jpg
+    caption: "Spanish boats and Chontal canoes fighting on the river at Tabasco, engraving in the Historia de la Marina Real Española, Madrid, 1854"
+    credit: "Wikimedia Commons, unknown engraver, Public domain (A055a160 0514.jpg)"

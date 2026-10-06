@@ -1,0 +1,22 @@
+date: "May 878"
+title: "Fourteen days before the stronghold"
+sources: ['Asser, Life of King Alfred, chapter 56.', 'Anglo-Saxon Chronicle, entry for 878.']
+bbox: [-2.14881, 51.24615, -2.10216, 51.28008]
+emblem:
+  kind: battle-plan
+  units:
+    - {side: danes, type: fort, at: [-2.1435, 51.2637], width: 330, depth: 330, facing: 0, id: bratton-camp, name: 'Bratton Camp, held by the surviving Danes for fourteen days'}
+    - {side: english, type: camp, at: [-2.1369, 51.26208], width: 300, depth: 200, facing: 291, id: alfred-camp, name: Alfred’s army camped before the gates of the stronghold}
+  arrows:
+    - {side: danes, path: [[-2.13058, 51.25592], [-2.13518, 51.259], [-2.14063, 51.26235]], width: 50, id: flight, name: The Danes break and flee to their stronghold, style: dashed}
+    - {side: english, path: [[-2.12441, 51.2552], [-2.13015, 51.25837], [-2.13475, 51.26099]], width: 50, id: pursuit, name: 'Alfred pursues them to the gates, killing those he finds outside'}
+markers: [edington-siege-field, edington-siege-guthrum, edington-siege-alfred, edington-siege-village]
+images:
+  edington-siege-hoare:
+    file: edington-siege-hoare.jpg
+    caption: "Bratton Camp in Sir Richard Colt Hoare’s Ancient History of South Wiltshire, 1812"
+    credit: "Wikimedia Commons, Sir Richard Colt Hoare, Public domain (Bratton Camp, in Richard Colt Hoare's Ancient History of South Wiltshire.jpg)"
+  edington-siege-banks:
+    file: edington-siege-banks.jpg
+    caption: "The double banks and ditches at the south-west corner of Bratton Camp"
+    credit: "Wikimedia Commons, Ethan Doyle White, CC BY-SA 4.0 (Bivallate Bank and Ditches at the Southwest Corner of Bratton Castle (I).jpg)"

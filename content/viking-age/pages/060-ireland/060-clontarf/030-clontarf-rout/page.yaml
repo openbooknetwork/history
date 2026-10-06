@@ -1,0 +1,46 @@
+date: "Good Friday, 23 April 1014, evening"
+title: "The rout at high tide"
+sources: ['Annals of Ulster, entry for 1014.', 'Seán Duffy, Brian Boru and the Battle of Clontarf (2013), pp. 209 to 220.', 'Njáls saga, chapter 157.']
+bbox: [-6.258, 53.35, -6.188, 53.38]
+emblem:
+  kind: battle-plan
+  land:
+    - {area: [[-6.2112, 53.3598], [-6.2029, 53.3594], [-6.1978, 53.3585], [-6.1939, 53.3573], [-6.185, 53.3592], [-6.18, 53.3612], [-6.176, 53.3636], [-6.165, 53.368], [-6.15, 53.378], [-6.14, 53.385], [-6.133, 53.392], [-6.151, 53.387], [-6.158, 53.385]]}
+  water:
+    - {id: bay, name: 'Dublin Bay and the mouth of the Liffey, with the shore of 1014', area: [[-6.256, 53.3488], [-6.2535, 53.3492], [-6.2505, 53.35], [-6.2488, 53.3522], [-6.246, 53.3546], [-6.244, 53.3565], [-6.2412, 53.3585], [-6.2392, 53.3602], [-6.2405, 53.3614], [-6.2425, 53.3618], [-6.242, 53.3622], [-6.2365, 53.3625], [-6.233, 53.363], [-6.2298, 53.3638], [-6.2236, 53.3629], [-6.219, 53.362], [-6.2125, 53.3598], [-6.2029, 53.3594], [-6.1978, 53.3585], [-6.1939, 53.3573], [-6.185, 53.3592], [-6.18, 53.3612], [-6.176, 53.3636], [-6.17, 53.364], [-6.17, 53.33], [-6.2087, 53.33], [-6.2103, 53.3328], [-6.2126, 53.3343], [-6.219, 53.3378], [-6.225, 53.341], [-6.2314, 53.3417], [-6.237, 53.3424], [-6.244, 53.344], [-6.248, 53.3452], [-6.253, 53.3459], [-6.2575, 53.3462], [-6.259, 53.3472]]}
+    - {id: flood, name: The evening flood tide fills the mouth of the Tolka, area: [[-6.2485, 53.3648], [-6.245, 53.3645], [-6.241, 53.364], [-6.237, 53.364], [-6.233, 53.3644], [-6.2298, 53.3638], [-6.2365, 53.3625], [-6.2392, 53.3602], [-6.244, 53.3616], [-6.248, 53.3635]]}
+    - {id: liffey, name: The Liffey, width: 150, path: [[-6.29, 53.347], [-6.2837, 53.3467], [-6.278, 53.346], [-6.2723, 53.3453], [-6.268, 53.3456], [-6.2638, 53.3462], [-6.26, 53.347], [-6.256, 53.3476], [-6.253, 53.3478]]}
+    - {id: tolka, name: The Tolka, width: 50, path: [[-6.272, 53.373], [-6.2658, 53.3725], [-6.2628, 53.3713], [-6.2577, 53.3687], [-6.2533, 53.3681], [-6.2509, 53.3667], [-6.2474, 53.3642], [-6.2426, 53.3621], [-6.2395, 53.3608]]}
+  works:
+    - {side: neutral, path: [[-6.2458, 53.36244], [-6.2442, 53.36376]], width: 30, id: dubgall-bridge, name: 'Dubgall’s Bridge, which Seán Duffy places on the Tolka'}
+    - {side: neutral, path: [[-6.2385, 53.3598], [-6.233, 53.3606], [-6.227, 53.3612]], width: 25, style: trench, id: weir, name: 'The fishing weir of Clontarf, where Toirdelbach drowns, at an approximate place'}
+  units:
+    - {side: celts, type: camp, at: [-6.21771, 53.37623], width: 240, depth: 200, facing: 195, id: tent, name: 'Brian’s tent, where Brodir kills him'}
+    - {side: celts, type: infantry, at: [-6.23095, 53.37274], width: 450, depth: 120, facing: 195, id: meath, name: Máel Sechnaill and the men of Meath. The Annals of the Four Masters say that he completes the rout}
+    - {side: norse, type: irregular, at: [-6.23078, 53.36438], width: 420, depth: 110, facing: 15, id: dubliners, name: 'The men of Dublin, cut down by the men of Connacht. By the Cogad 20 of them survive'}
+    - {side: norse, type: irregular, at: [-6.22076, 53.36239], width: 520, depth: 110, facing: 15, id: leinster, name: 'The Leinstermen break. Máel Mórda, king of Leinster, is killed'}
+    - {side: norse, type: irregular, at: [-6.21022, 53.36051], width: 520, depth: 110, facing: 15, id: foreigners, name: The Vikings from overseas break and make for their ships}
+    - {side: norse, type: ships, at: [-6.20941, 53.35289], width: 800, depth: 400, facing: 150, id: fleet, name: The rising tide carries the ships away from the shore, count: 8, rows: 2}
+    - {side: celts, type: infantry, at: [-6.22798, 53.36543], width: 450, depth: 150, facing: 195, id: connacht, name: The men of Connacht. By the Cogad 100 of them survive}
+    - {side: celts, type: infantry, at: [-6.21937, 53.36376], width: 560, depth: 150, facing: 195, id: munster, name: The men of Munster}
+    - {side: celts, type: infantry, at: [-6.2096, 53.36191], width: 520, depth: 150, facing: 195, id: dal-gcais, name: The Dál gCais under Murchad drive the Vikings into the sea}
+  arrows:
+    - {side: norse, path: [[-6.21046, 53.35998], [-6.21115, 53.35878], [-6.2121, 53.35735]], width: 60, id: foreigners-flight, name: 'The Vikings flee into the sea towards their ships, and many drown', style: dashed}
+    - {side: norse, path: [[-6.22099, 53.36187], [-6.22846, 53.3626], [-6.23573, 53.36377], [-6.24345, 53.36567]], width: 60, id: leinster-flight, name: 'The Leinstermen make for the wood, and the tide cuts them off at the mouth of the Tolka', style: dashed}
+    - {side: norse, path: [[-6.23135, 53.36485], [-6.238, 53.3652], [-6.245, 53.3631], [-6.253, 53.358], [-6.26, 53.3545]], width: 60, id: dublin-flight, name: 'The last men of Dublin flee by Dubgall’s Bridge towards the town, and few reach it', style: dashed}
+    - {side: celts, path: [[-6.20991, 53.36121], [-6.2108, 53.35957]], width: 60, id: pursuit, name: Murchad’s men follow the Vikings into the water}
+    - {side: norse, path: [[-6.20545, 53.36002], [-6.20071, 53.36366], [-6.20181, 53.36993], [-6.21051, 53.37488], [-6.21582, 53.37593]], width: 50, id: brodir, name: Brodir and a few followers slip away from the fight and come on Brian’s tent}
+  clashes:
+    - {at: [-6.20997, 53.36108], size: 100}
+    - {at: [-6.21538, 53.37586], size: 90}
+    - {at: [-6.245, 53.3631], size: 90}
+markers: [clontarf-rout-brian, clontarf-rout-brodir, clontarf-rout-murchad, clontarf-rout-sigurd, clontarf-rout-toirdelbach, clontarf-rout-wood]
+images:
+  clontarf-rout-njala:
+    file: clontarf-rout-njala.jpg
+    caption: "A page of Njáls saga in Möðruvallabók, an Icelandic manuscript written about 1350"
+    credit: "Wikimedia Commons, GDK, Public domain (Möðruvallabók f13r.jpg)"
+  clontarf-rout-armagh:
+    file: clontarf-rout-armagh.jpg
+    caption: "The plaque on St Patrick’s Cathedral in Armagh marking the place where Brian Boru was buried"
+    credit: "Wikimedia Commons, Stephen B Calvert Clariosophic, CC BY-SA 3.0 (St Patrick's (COI) Cathedral, Armagh 087.jpg)"

@@ -1,0 +1,38 @@
+date: "23–25 April 971"
+title: "The battle before the walls"
+sources: ["Leo the Deacon, The History, translated by Alice-Mary Talbot and Denis F. Sullivan (2005).", "John Skylitzes, Synopsis of Histories.", "Warren Treadgold, A History of the Byzantine State and Society (1997), p. 509."]
+bbox: [27.25116, 44.10401, 27.2837, 44.13432]
+emblem:
+  kind: battle-plan
+  water:
+    - {id: danube, name: The Danube, area: [[27.235, 44.1131], [27.2419, 44.1136], [27.2467, 44.1152], [27.2517, 44.117], [27.2537, 44.1177], [27.2581, 44.1203], [27.2591, 44.1216], [27.26, 44.122], [27.2622, 44.1229], [27.2632, 44.1237], [27.2649, 44.1242], [27.2671, 44.1246], [27.2688, 44.1249], [27.2723, 44.1248], [27.2738, 44.1244], [27.2761, 44.1234], [27.2776, 44.1224], [27.2787, 44.1216], [27.2794, 44.1208], [27.28, 44.1196], [27.2806, 44.1184], [27.2817, 44.1168], [27.2836, 44.1139], [27.2861, 44.112], [27.2886, 44.1107], [27.2914, 44.1097], [27.2977, 44.1101], [27.2994, 44.113], [27.2934, 44.1122], [27.2892, 44.1133], [27.2873, 44.1148], [27.2855, 44.1175], [27.2848, 44.1193], [27.2845, 44.1207], [27.284, 44.1217], [27.2834, 44.1228], [27.2825, 44.1242], [27.2818, 44.125], [27.2805, 44.126], [27.2803, 44.1264], [27.2807, 44.1267], [27.2856, 44.1283], [27.2879, 44.1277], [27.291, 44.1293], [27.2945, 44.1295], [27.2985, 44.1431], [27.2941, 44.142], [27.2908, 44.1406], [27.2877, 44.1394], [27.2834, 44.1375], [27.2806, 44.1365], [27.2771, 44.1345], [27.2734, 44.133], [27.2725, 44.1326], [27.2695, 44.1313], [27.2675, 44.1306], [27.2647, 44.1295], [27.2633, 44.1289], [27.2618, 44.1283], [27.2597, 44.1281], [27.2556, 44.1264], [27.2511, 44.1242], [27.2484, 44.1232], [27.2397, 44.1202], [27.235, 44.119], [27.235, 44.1131]]}
+  works:
+    - {side: neutral, path: [[27.2595, 44.1219], [27.26156, 44.1226], [27.26388, 44.12351], [27.26515, 44.12313], [27.26541, 44.12206], [27.26558, 44.12117], [27.26516, 44.12079], [27.26343, 44.12017], [27.26137, 44.11965], [27.26015, 44.11965], [27.25916, 44.11996], [27.25854, 44.12043], [27.2595, 44.1219]], width: 18, style: wall, id: wall, name: The walls of Dorostolon on the bank of the Danube}
+  units:
+    - {side: rus, type: infantry, at: [27.26255, 44.11613], width: 1500, depth: 70, facing: 157, id: rus, name: 'Sviatoslav’s Rus'' and Bulgarians in a wall of shields, 60,000 in the army by Leo the Deacon'}
+    - {side: byzantium, type: infantry, at: [27.26333, 44.1148], width: 1000, depth: 90, facing: 337, id: infantry, name: 'Byzantine heavy infantry, 15,000 in the army by Leo the Deacon'}
+    - {side: byzantium, type: knights, at: [27.25463, 44.11203], width: 380, depth: 110, facing: 337, id: cavalry, name: 'Byzantine armoured cavalry on both wings, 13,000 horsemen in the army by Leo the Deacon'}
+    - {side: byzantium, type: knights, at: [27.27213, 44.1174], width: 380, depth: 110, facing: 337, id: cavalry, name: 'Byzantine armoured cavalry on both wings, 13,000 horsemen in the army by Leo the Deacon'}
+    - {side: byzantium, type: archers, at: [27.2638, 44.11401], width: 1100, depth: 60, facing: 337, id: archers, name: Byzantine archers and slingers shooting over the front line}
+    - {side: byzantium, type: camp, at: [27.25971, 44.10592], width: 300, depth: 300, facing: 337, id: camp, name: 'Byzantine camp on a low rise, with a ditch and a rampart set with spears hung with shields'}
+    - {side: byzantium, type: ships, at: [27.27506, 44.12916], width: 520, depth: 300, facing: 240, id: fleet, name: 'Byzantine fleet of fire-bearing warships and grain transports, 300 ships in all', count: 6, rows: 2}
+    - {side: rus, type: ships, at: [27.26718, 44.12419], width: 300, depth: 90, facing: 330, id: boats, name: 'Rus'' boats drawn up on the bank under the walls, out of reach of the Greek fire', count: 5}
+  arrows:
+    - {side: byzantium, path: [[27.25318, 44.11217], [27.25325, 44.11298], [27.25449, 44.11366]], width: 120, id: charge, name: Towards evening Tzimiskes sends in all his cavalry}
+    - {side: byzantium, path: [[27.27299, 44.11825], [27.27214, 44.11878], [27.27061, 44.1186]], width: 120, id: charge, name: Towards evening Tzimiskes sends in all his cavalry}
+    - {side: rus, path: [[27.26231, 44.11655], [27.26078, 44.11775], [27.26343, 44.12017]], width: 110, id: flight, name: The Rus' break and flee into the town, style: dashed}
+    - {side: byzantium, path: [[27.28245, 44.13296], [27.27869, 44.13133], [27.27607, 44.12961]], width: 110, id: fleet-arrival, name: 'The fleet comes up the Danube and closes the river, 25 April'}
+  clashes:
+    - {at: [27.25833, 44.11405], size: 90}
+    - {at: [27.26294, 44.11546], size: 90}
+    - {at: [27.26755, 44.11688], size: 90}
+markers: [dorostolon-walls-sviatoslav, dorostolon-walls-tzimiskes, dorostolon-walls-camp, dorostolon-walls-fleet, dorostolon-walls-town]
+images:
+  dorostolon-walls-site:
+    file: dorostolon-walls-site.jpg
+    caption: "Remains of the fortress of Durostorum on the bank of the Danube at Silistra, photographed in 2018"
+    credit: "Wikimedia Commons, Carole Raddato, CC BY-SA 2.0 (Fortress on the Danube at Durostorum (Moesia Inferior), Silistra, Bulgaria), (41160582835).jpg)"
+  dorostolon-walls-skylitzes:
+    file: dorostolon-walls-skylitzes.jpg
+    caption: "Byzantine and Rus' horsemen at Dorostolon, where the unhorsed Theodore of Mistheia shields himself with a Rus' warrior, a miniature of the Madrid Skylitzes, 12th century"
+    credit: "Wikimedia Commons, unknown artist, Public domain (MadridSkylitzesScythAsAShieldFol170v.jpg)"

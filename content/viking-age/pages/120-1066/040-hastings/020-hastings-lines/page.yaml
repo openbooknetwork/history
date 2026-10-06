@@ -1,0 +1,39 @@
+date: "14 October 1066, from about 9 in the morning"
+title: "The first attacks"
+bbox: [0.47248, 50.9056, 0.5012, 50.9209]
+routes: []
+markers: [hastings-lines-harold, hastings-lines-william, hastings-lines-alan, hastings-lines-fitzosbern]
+sources: ['Christopher Gravett, Hastings 1066: The Fall of Saxon England (1992), pp. 59 to 67.', 'Matthew Bennett, Campaigns of the Norman Conquest (2001), pp. 40 to 42.', 'M. K. Lawson, The Battle of Hastings: 1066 (2002), pp. 190 to 192.']
+map_sources:
+  - text: "Streams and ponds: © OpenStreetMap contributors, ODbL"
+    url: https://www.openstreetmap.org/copyright
+emblem:
+  kind: battle-plan
+  water:
+    - {area: [[0.487, 50.9112], [0.4852, 50.9108], [0.4835, 50.9105], [0.4818, 50.91], [0.481, 50.909], [0.4795, 50.9085], [0.4776, 50.9086], [0.4766, 50.9078], [0.477, 50.9068], [0.4785, 50.9075], [0.48, 50.9077], [0.4818, 50.908], [0.4826, 50.909], [0.484, 50.9093], [0.4855, 50.9099], [0.4872, 50.9103]], id: marsh, name: Wet ground along the stream at the foot of the slope}
+    - {path: [[0.48708, 50.91084], [0.486, 50.91058], [0.48513, 50.9104], [0.4842, 50.91], [0.48323, 50.90984], [0.4825, 50.90961], [0.4819, 50.9095], [0.48175, 50.9091], [0.48154, 50.90873], [0.48105, 50.9085], [0.4803, 50.9082], [0.4794, 50.90807], [0.4783, 50.90813], [0.4777, 50.90811], [0.47699, 50.9074]], width: 18, id: stream, name: 'The stream across the field, perhaps the Sandlacu, “sandy water”, that gave Orderic Vitalis the name Senlac'}
+  units:
+    - {side: english, type: infantry, width: 700, depth: 70, facing: 170, id: english, name: 'English shield wall under Harold, housecarls and fyrd on foot: 7,000 to 8,000 by Gravett and Marren, 5,000 to 13,000 in the modern estimates Lawson surveys, 400,000 by Wace', at: [0.488, 50.9143]}
+    - {side: normans, type: archers, width: 860, depth: 40, facing: 350, id: archers, name: 'Norman archers with a few crossbowmen and slingers, about a quarter of the army by Gravett', at: [0.48806, 50.91201]}
+    - {side: normans, type: infantry, width: 260, depth: 60, facing: 350, id: bretons, name: 'Breton division under Alan the Red, with men of Anjou, Poitou and Maine: spearmen on foot', at: [0.48433, 50.90875]}
+    - {side: normans, type: infantry, width: 320, depth: 60, facing: 350, id: normans, name: 'Norman division under Duke William: spearmen on foot. William’s army: 7,000 to 8,000 by Bennett, 7,500 by Gravett, 10,000 by Marren, 10,000 to 12,000 by Lawson, 14,000 to 150,000 by writers of the time', at: [0.48894, 50.91091]}
+    - {side: normans, type: infantry, width: 260, depth: 60, facing: 350, id: french, name: 'French division under William fitzOsbern and Eustace of Boulogne, with men of Picardy, Boulogne and Flanders: spearmen on foot', at: [0.49371, 50.91145]}
+    - {side: normans, type: cavalry, width: 200, depth: 70, facing: 350, id: breton-horse, name: Breton horsemen, at: [0.48461, 50.90777]}
+    - {side: normans, type: cavalry, width: 260, depth: 70, facing: 350, id: norman-horse, name: 'Norman horsemen round the duke. William’s horsemen, 1,000 to 2,000 by Bennett, 3,000 by Marren', at: [0.48924, 50.90985]}
+    - {side: normans, type: cavalry, width: 200, depth: 70, facing: 350, id: french-horse, name: French and Flemish horsemen, at: [0.49401, 50.91038]}
+  arrows:
+    - {side: normans, path: [[0.48801, 50.91219], [0.48806, 50.91408]], width: 38, id: archers-volley, name: 'The archers shoot uphill, and their arrows strike the shields or fly over the ridge'}
+    - {side: normans, path: [[0.48426, 50.90901], [0.48419, 50.91084], [0.48413, 50.91364]], width: 38, id: foot-attack, name: 'The foot attack the shield wall and are met by spears, axes and stones'}
+    - {side: normans, path: [[0.48879, 50.91145], [0.48722, 50.91398]], width: 38, id: foot-attack, name: 'The foot attack the shield wall and are met by spears, axes and stones'}
+    - {side: normans, path: [[0.49356, 50.91198], [0.49227, 50.91455]], width: 38, id: foot-attack, name: 'The foot attack the shield wall and are met by spears, axes and stones'}
+    - {side: normans, path: [[0.48915, 50.91016], [0.49142, 50.91083], [0.491, 50.91234], [0.49017, 50.91431]], width: 38, id: horse-attack, name: The horsemen ride up in support and are thrown back}
+  clashes:
+    - {at: [0.48419, 50.91341], size: 55}
+    - {at: [0.48728, 50.91376], size: 55}
+    - {at: [0.49023, 50.91409], size: 55}
+    - {at: [0.49233, 50.91433], size: 55}
+images:
+  hastings-lines-shield-wall:
+    file: hastings-lines-shield-wall.jpg
+    caption: "Norman horsemen ride against the English shield wall, a scene of the Bayeux Tapestry, about 1070"
+    credit: "Wikimedia Commons, unknown embroiderers, Public domain (Bayeuxtapestryscene52.jpg)"

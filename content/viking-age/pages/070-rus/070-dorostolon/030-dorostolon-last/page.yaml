@@ -1,0 +1,32 @@
+date: "July 971"
+title: "The last battle and the peace"
+sources: ["Leo the Deacon, The History, translated by Alice-Mary Talbot and Denis F. Sullivan (2005), pp. 192 to 199.", "John Skylitzes, Synopsis of Histories.", "Julian Romane, Byzantium Triumphant: The Military History of the Byzantines 959–1025 (2015)."]
+bbox: [27.25116, 44.10401, 27.2837, 44.13432]
+emblem:
+  kind: battle-plan
+  water:
+    - {id: danube, name: The Danube, area: [[27.235, 44.1131], [27.2419, 44.1136], [27.2467, 44.1152], [27.2517, 44.117], [27.2537, 44.1177], [27.2581, 44.1203], [27.2591, 44.1216], [27.26, 44.122], [27.2622, 44.1229], [27.2632, 44.1237], [27.2649, 44.1242], [27.2671, 44.1246], [27.2688, 44.1249], [27.2723, 44.1248], [27.2738, 44.1244], [27.2761, 44.1234], [27.2776, 44.1224], [27.2787, 44.1216], [27.2794, 44.1208], [27.28, 44.1196], [27.2806, 44.1184], [27.2817, 44.1168], [27.2836, 44.1139], [27.2861, 44.112], [27.2886, 44.1107], [27.2914, 44.1097], [27.2977, 44.1101], [27.2994, 44.113], [27.2934, 44.1122], [27.2892, 44.1133], [27.2873, 44.1148], [27.2855, 44.1175], [27.2848, 44.1193], [27.2845, 44.1207], [27.284, 44.1217], [27.2834, 44.1228], [27.2825, 44.1242], [27.2818, 44.125], [27.2805, 44.126], [27.2803, 44.1264], [27.2807, 44.1267], [27.2856, 44.1283], [27.2879, 44.1277], [27.291, 44.1293], [27.2945, 44.1295], [27.2985, 44.1431], [27.2941, 44.142], [27.2908, 44.1406], [27.2877, 44.1394], [27.2834, 44.1375], [27.2806, 44.1365], [27.2771, 44.1345], [27.2734, 44.133], [27.2725, 44.1326], [27.2695, 44.1313], [27.2675, 44.1306], [27.2647, 44.1295], [27.2633, 44.1289], [27.2618, 44.1283], [27.2597, 44.1281], [27.2556, 44.1264], [27.2511, 44.1242], [27.2484, 44.1232], [27.2397, 44.1202], [27.235, 44.119], [27.235, 44.1131]]}
+  works:
+    - {side: neutral, path: [[27.2595, 44.1219], [27.26156, 44.1226], [27.26388, 44.12351], [27.26515, 44.12313], [27.26541, 44.12206], [27.26558, 44.12117], [27.26516, 44.12079], [27.26343, 44.12017], [27.26137, 44.11965], [27.26015, 44.11965], [27.25916, 44.11996], [27.25854, 44.12043], [27.2595, 44.1219]], width: 18, style: wall, id: wall, name: The walls of Dorostolon on the bank of the Danube}
+  units:
+    - {side: rus, type: infantry, at: [27.26664, 44.11149], width: 1200, depth: 70, facing: 157, id: rus, name: 'Sviatoslav’s army, out of the town with the gates shut behind it'}
+    - {side: byzantium, type: infantry, at: [27.26752, 44.10999], width: 900, depth: 90, facing: 337, id: romanos-peter, name: 'Byzantine troops under the patrikios Romanos and the stratopedarch Peter, who fall back and draw the Rus'' onto the open plain'}
+    - {side: byzantium, type: cavalry, at: [27.2646, 44.11263], width: 800, depth: 100, facing: 157, id: skleros, name: 'Bardas Skleros’s division, sent round to cut the Rus'' off from the town'}
+    - {side: byzantium, type: knights, at: [27.27504, 44.11407], width: 300, depth: 110, facing: 247, id: tzimiskes, name: John Tzimiskes with a fresh unit of horsemen}
+    - {side: byzantium, type: camp, at: [27.25971, 44.10592], width: 300, depth: 300, facing: 337, id: camp, name: 'Byzantine camp on a low rise, with a ditch and a rampart set with spears hung with shields'}
+    - {side: byzantium, type: ships, at: [27.27506, 44.12916], width: 520, depth: 300, facing: 240, id: fleet, name: 'Byzantine fleet of fire-bearing warships and grain transports, 300 ships in all', count: 6, rows: 2}
+    - {side: rus, type: ships, at: [27.26718, 44.12419], width: 300, depth: 90, facing: 330, id: boats, name: 'Rus'' boats drawn up on the bank under the walls, out of reach of the Greek fire', count: 5}
+  arrows:
+    - {side: byzantium, path: [[27.26325, 44.10799], [27.25839, 44.10817], [27.25789, 44.11018], [27.25977, 44.11115]], width: 110, id: skleros-ride, name: Bardas Skleros rides round the Rus' flank to cut them off from the town}
+    - {side: byzantium, path: [[27.27912, 44.11453], [27.27721, 44.11454], [27.27591, 44.11433]], width: 100, id: tzimiskes-charge, name: Tzimiskes leads a fresh charge of horsemen}
+    - {side: rus, path: [[27.26414, 44.11111], [27.26333, 44.11342], [27.26288, 44.11741], [27.26343, 44.12017]], width: 110, id: return, name: The Rus' fight their way back into the town, style: dashed}
+  clashes:
+    - {at: [27.26705, 44.11078], size: 90}
+    - {at: [27.26508, 44.11182], size: 90}
+    - {at: [27.27397, 44.11374], size: 90}
+markers: [dorostolon-last-sviatoslav, dorostolon-last-skleros, dorostolon-last-tzimiskes, dorostolon-last-romanos, dorostolon-last-peace]
+images:
+  dorostolon-last-feast:
+    file: dorostolon-last-feast.jpg
+    caption: "Sviatoslav's warriors burn their dead by the Danube after a battle at Dorostolon, a painting by Henryk Siemiradzki, 1884"
+    credit: "Wikimedia Commons, Henryk Siemiradzki, Public domain (BelagerungvonDorostolon.jpg)"

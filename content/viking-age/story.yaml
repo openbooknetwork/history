@@ -1,0 +1,53 @@
+# One story: a timeline shown on one map.
+id: viking-age
+title: "The Viking Age"
+summary: "The raiders, traders and settlers of Scandinavia, from the raid on Lindisfarne in 793 through the Danelaw, Normandy, the Rus' and the North Atlantic to the battles of 1066."
+cover: cover.jpg              # Nicholas Roerich, Guests from Overseas, 1901; shown on the main page
+span: "793 – 1066"
+languages: [en, tr]
+default_language: en
+labels:
+  countries: false
+
+# Map extent for the border data and the opening view: [west, south, east, north]. Reaches Baffin Island and New Brunswick in the west,
+# the Caspian in the east, Baghdad in the south and the North Cape.
+extent: [-78, 32, 58, 71.5]
+# Countries whose land the zones are clipped to. Natural Earth names.
+land: [Canada, Greenland, Iceland, Faeroe Is., Norway, Sweden, Åland, Finland, Denmark, United Kingdom, Isle of Man, Jersey,
+  Guernsey, Ireland, Portugal, Spain, Gibraltar, Andorra, France, Monaco, Belgium, Luxembourg, Netherlands, Germany, Switzerland,
+  Liechtenstein, Austria, Italy, San Marino, Vatican, Malta, Czechia, Slovakia, Hungary, Slovenia, Croatia, Bosnia and Herz., Serbia,
+  Montenegro, Kosovo, Albania, Macedonia, Greece, Bulgaria, Romania, Moldova, Ukraine, Belarus, Poland, Lithuania, Latvia, Estonia,
+  Russia, Kazakhstan, Georgia, Armenia, Azerbaijan, Turkmenistan, Uzbekistan, Iran, Iraq, Turkey, Cyprus, N. Cyprus, Syria, Lebanon,
+  Israel, Palestine, Jordan, Saudi Arabia, Morocco, Algeria, Tunisia, Libya]
+# Countries drawn with borders. Everything else inside the extent is left out.
+countries: [Canada, United States of America, St. Pierre and Miquelon, Greenland, Iceland, Faeroe Is., Norway, Sweden, Åland, Finland,
+  Denmark, United Kingdom, Isle of Man, Jersey, Guernsey, Ireland, Portugal, Spain, Gibraltar, Andorra, France, Monaco, Belgium,
+  Luxembourg, Netherlands, Germany, Switzerland, Liechtenstein, Austria, Italy, San Marino, Vatican, Malta, Czechia, Slovakia, Hungary,
+  Slovenia, Croatia, Bosnia and Herz., Serbia, Montenegro, Kosovo, Albania, Macedonia, Greece, Bulgaria, Romania, Moldova, Ukraine,
+  Belarus, Poland, Lithuania, Latvia, Estonia, Russia, Kazakhstan, Georgia, Armenia, Azerbaijan, Turkmenistan, Uzbekistan, Iran, Iraq,
+  Turkey, Cyprus, N. Cyprus, Syria, Lebanon, Israel, Palestine, Jordan, Saudi Arabia, Morocco, Algeria, Tunisia, Libya]
+
+# Zone families. A zone subtracts every zone from a family with a lower priority number.
+# Zones in the same family never cut each other, so one family can hold several dated shapes.
+families:
+  danes:     { priority: 0, color: "#b5352a", color_dark: "#e8695c" }                   # the Danes: Denmark, the Danelaw, Cnut's England
+  norway:    { priority: 0, color: "#2f6fb0", color_dark: "#6fa6e0" }                   # the Norwegians: Norway and the Norwegian kings' lands
+  swedes:    { priority: 0, color: "#d4a017", color_dark: "#f2c94c" }                   # the Svear and the Götar, then Sweden
+  rus:       { priority: 0, color: "#1f8a8a", color_dark: "#4fc4c4" }                   # the Rus', then Kievan Rus'
+  norse:     { priority: 1, color: "#6a3d9a", color_dark: "#a98bd6", pattern: hatch }   # Norse realms overseas: York, Dublin, the Isles, Orkney, Iceland, Greenland
+  normans:   { priority: 1, color: "#c78a1c", color_dark: "#f0b54a", pattern: hatch }   # Normandy
+  english:   { priority: 2, color: "#3d7a2a", color_dark: "#7cc160" }                   # Wessex, then the kingdom of England
+  anglo:     { priority: 3, color: "#a0522d", color_dark: "#d98b5f", pattern: dots }    # the other Anglo-Saxon kingdoms: Northumbria, Mercia, East Anglia
+  celts:     { priority: 3, color: "#2e8b57", color_dark: "#5fcf8f", pattern: dots }    # Irish, Pictish, Scottish, Welsh, Cornish and Breton kingdoms
+  franks:    { priority: 4, color: "#7a6a53", color_dark: "#b8a68a" }                   # the Carolingian empire, West and East Francia, the German kingdom
+  byzantium: { priority: 4, color: "#6b2d6b", color_dark: "#c27ac2" }                   # the Byzantine Empire
+  islam:     { priority: 4, color: "#6b8e23", color_dark: "#a3c45a", pattern: cross }   # the Abbasid Caliphate, the Emirate of Córdoba, the Caspian emirates
+  bulgaria:  { priority: 5, color: "#b03a7a", color_dark: "#e07ab0", pattern: hatch }   # the First Bulgarian Empire
+  steppe:    { priority: 5, color: "#9a6a8a", color_dark: "#cf9cbf", pattern: dots }    # the Khazars, the Volga Bulgars, the Pechenegs
+  other:     { priority: 6, color: "#7f8c8d", color_dark: "#aab7b8", pattern: dots }    # Slavs, Balts, Finns, Sámi and other peoples
+  water:     { priority: 9, color: "#5b9bd5", color_dark: "#2c5d87" }                   # rivers and lakes on the battle plans, no zones
+# Corner rounding passes applied to every hand drawn zone before the clip.
+smoothing: 4
+# Battle plans are drawn at the scale of the field: the bridge at Stamford Bridge and the causeway at Maldon are a few
+# hundred metres across.
+max_zoom: 16

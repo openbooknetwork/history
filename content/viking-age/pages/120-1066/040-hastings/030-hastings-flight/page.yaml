@@ -1,0 +1,33 @@
+date: "14 October 1066, morning"
+title: "The Breton flight"
+bbox: [0.47248, 50.9056, 0.5012, 50.9209]
+routes: []
+markers: [hastings-flight-william, hastings-flight-hillock, hastings-flight-harold]
+sources: ['Matthew Bennett, Campaigns of the Norman Conquest (2001), p. 42.', 'Christopher Gravett, Hastings 1066: The Fall of Saxon England (1992), pp. 65 to 73.', 'Peter Marren, 1066: The Battles of York, Stamford Bridge & Hastings (2004), pp. 127 to 128.']
+map_sources:
+  - text: "Streams and ponds: © OpenStreetMap contributors, ODbL"
+    url: https://www.openstreetmap.org/copyright
+emblem:
+  kind: battle-plan
+  water:
+    - {area: [[0.487, 50.9112], [0.4852, 50.9108], [0.4835, 50.9105], [0.4818, 50.91], [0.481, 50.909], [0.4795, 50.9085], [0.4776, 50.9086], [0.4766, 50.9078], [0.477, 50.9068], [0.4785, 50.9075], [0.48, 50.9077], [0.4818, 50.908], [0.4826, 50.909], [0.484, 50.9093], [0.4855, 50.9099], [0.4872, 50.9103]], id: marsh, name: Wet ground along the stream at the foot of the slope}
+    - {path: [[0.48708, 50.91084], [0.486, 50.91058], [0.48513, 50.9104], [0.4842, 50.91], [0.48323, 50.90984], [0.4825, 50.90961], [0.4819, 50.9095], [0.48175, 50.9091], [0.48154, 50.90873], [0.48105, 50.9085], [0.4803, 50.9082], [0.4794, 50.90807], [0.4783, 50.90813], [0.4777, 50.90811], [0.47699, 50.9074]], width: 18, id: stream, name: 'The stream across the field, perhaps the Sandlacu, “sandy water”, that gave Orderic Vitalis the name Senlac'}
+  units:
+    - {side: english, type: infantry, width: 520, depth: 70, facing: 170, id: english, name: The English shield wall holds the ridge, at: [0.48926, 50.91444]}
+    - {side: english, type: irregular, width: 170, depth: 70, facing: 117.74680538727466, id: pursuers, name: Men of the English right who follow the Bretons down the slope and rally on a hillock, at: [0.47851, 50.91122]}
+    - {side: normans, type: infantry, width: 260, depth: 60, facing: 350, id: bretons, name: 'The Breton division, fallen back beyond the wet ground', at: [0.48367, 50.90748]}
+    - {side: normans, type: infantry, width: 320, depth: 60, facing: 350, id: normans, name: Norman division, at: [0.48894, 50.91091]}
+    - {side: normans, type: infantry, width: 260, depth: 60, facing: 350, id: french, name: French division, at: [0.49371, 50.91145]}
+    - {side: normans, type: cavalry, width: 220, depth: 70, facing: 295.21759296819266, id: norman-horse, name: 'Norman horsemen under William, turned on the pursuers', at: [0.48006, 50.91075]}
+    - {side: normans, type: cavalry, width: 200, depth: 70, facing: 350, id: french-horse, name: French and Flemish horsemen, at: [0.49401, 50.91038]}
+  arrows:
+    - {side: normans, path: [[0.48419, 50.90928], [0.48399, 50.90843], [0.48357, 50.90783]], width: 38, id: breton-flight, name: The Breton division gives way and falls back across the wet ground, style: dashed}
+    - {side: english, path: [[0.48394, 50.91329], [0.48285, 50.91097], [0.48032, 50.91068], [0.47851, 50.91122]], width: 38, id: pursuit, name: Part of the English right follows them down the slope}
+    - {side: normans, path: [[0.48832, 50.91002], [0.4849, 50.90982], [0.48045, 50.91064]], width: 38, id: william-charge, name: William shows that he is alive and leads the horsemen against the pursuers}
+  clashes:
+    - {at: [0.47929, 50.91099], size: 55}
+images:
+  hastings-flight-fallen:
+    file: hastings-flight-fallen.jpg
+    caption: "HIC CECIDERUNT SIMUL ANGLI ET FRANCI, “here English and French fall together”, a scene of the Bayeux Tapestry, about 1070"
+    credit: "Wikimedia Commons, unknown embroiderers, Public domain (Bayeuxtapestryscene53.jpg)"

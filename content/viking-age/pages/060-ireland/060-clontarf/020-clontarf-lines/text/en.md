@@ -1,0 +1,7 @@
+By the Cogad, the army of Dublin marches out at dawn and is joined at Clontarf by the fleet in Dublin Bay, which comes in on the morning high tide. The Vikings from overseas under Brodir, Sigurd and a champion called Plait form the front, followed by the men of Dublin under Sigtrygg’s brother Dubgall and Gilla Ciaráin, and then by the Leinstermen under Máel Mórda. Sigtrygg stays in Dublin with enough men to hold it and watches the battle from the walls with his wife Sláine, Brian’s daughter.
+
+@image clontarf-lines-1905
+
+At the front of Brian’s army stand the Dál gCais, Brian’s own people, under his son Murchad and Murchad’s fifteen-year-old son Toirdelbach. Behind them come the other men of Munster under Mothla, king of the Déisi, and Magnus, king of Uí Liatháin, and then the men of Connacht. Máel Sechnaill and the men of Meath come last, and the Cogad says that he has agreed with the Dubliners that neither will attack the other. The annals record no notable man of Meath among the dead.
+
+The battle opens with Plait and Domnall mac Eimín, a Scottish ally of Brian, who fight between the lines and kill each other. The fighting lasts all day from first light. The men of Connacht fight the men of Dublin, and Murchad and the Dál gCais fight the Vikings from overseas. The Vikings wear mail and the Irish do not, but the Irish gain the upper hand through their numbers and the small spears they throw.

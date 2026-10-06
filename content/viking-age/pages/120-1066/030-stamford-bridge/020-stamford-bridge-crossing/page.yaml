@@ -1,0 +1,31 @@
+date: "25 September 1066"
+title: "The fight at the bridge"
+bbox: [-0.93054, 53.98163, -0.8954, 53.9961]
+routes: []
+markers: [stamford-bridge-crossing-harold, stamford-bridge-crossing-west, stamford-bridge-crossing-bridge, stamford-bridge-crossing-harald]
+sources: ['Anglo-Saxon Chronicle, manuscript C, year 1066.', 'Henry of Huntingdon, The History of the English People 1000–1154, tr. Diana Greenway (2009), p. 25.', 'Snorri Sturluson, King Harald’s Saga, tr. Magnus Magnusson and Hermann Pálsson (1966), p. 149.']
+map_sources:
+  - text: "River Derwent: © OpenStreetMap contributors, ODbL"
+    url: https://www.openstreetmap.org/copyright
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-0.89311, 54.00008], [-0.89426, 53.99933], [-0.89668, 53.99859], [-0.89783, 53.99852], [-0.89895, 53.99883], [-0.89921, 53.99912], [-0.89919, 53.99953], [-0.89947, 53.99969], [-0.89984, 53.99972], [-0.90082, 53.9993], [-0.90134, 53.99879], [-0.90369, 53.99869], [-0.9051, 53.99812], [-0.90748, 53.99753], [-0.90955, 53.99631], [-0.91134, 53.99576], [-0.91189, 53.99543], [-0.91211, 53.99484], [-0.91175, 53.9937], [-0.91185, 53.99311], [-0.91206, 53.99266], [-0.91252, 53.99225], [-0.91324, 53.99203], [-0.91448, 53.99205], [-0.91515, 53.99188], [-0.91596, 53.99145], [-0.91718, 53.99102], [-0.92031, 53.99007], [-0.92308, 53.98874], [-0.92363, 53.98837], [-0.92442, 53.9875], [-0.92497, 53.98624], [-0.92615, 53.9851], [-0.9275, 53.98433], [-0.92791, 53.98383], [-0.92782, 53.98301], [-0.92712, 53.9812], [-0.92705, 53.98039], [-0.92822, 53.97852], [-0.92882, 53.97599]], width: 30, id: derwent, name: The river Derwent}
+  works:
+    - {side: neutral, path: [[-0.91455, 53.99236], [-0.91445, 53.9917]], width: 18, id: bridge, name: 'The wooden bridge over the Derwent, upstream of the present bridge'}
+  units:
+    - {side: norway, type: irregular, width: 200, depth: 60, facing: 270, id: west-bank, name: 'Norwegians on the west bank, many without their mail', at: [-0.91588, 53.99321]}
+    - {side: english, type: infantry, width: 350, depth: 100, facing: 90, id: english, name: 'The English army under Harold Godwinson, housecarls and thegns', at: [-0.91824, 53.99339]}
+    - {side: english, type: infantry, width: 120, depth: 420, facing: 95, id: english-column, name: 'The rest of the English army, coming down the road from York', at: [-0.92458, 53.99397]}
+    - {side: norway, type: infantry, width: 750, depth: 70, facing: 302, id: shield-wall, name: The Norwegian army forms a shield wall on the rising ground east of the river, bow: 60, at: [-0.90472, 53.98841]}
+  arrows:
+    - {side: english, path: [[-0.93054, 53.9942], [-0.92902, 53.99409], [-0.92795, 53.99402]], width: 40, id: english-advance, name: The English army comes down the road from York}
+    - {side: norway, path: [[-0.91542, 53.99284], [-0.91473, 53.9923], [-0.91427, 53.99176], [-0.9119, 53.99076], [-0.90992, 53.99013]], width: 35, id: west-bank-flight, name: Survivors flee over the bridge to the east bank, style: dashed}
+    - {side: norway, path: [[-0.9038, 53.98927], [-0.90228, 53.98479], [-0.90289, 53.98163]], width: 30, id: messengers, name: 'By Snorri’s account, riders go to the ships at Riccall for help'}
+  clashes:
+    - {at: [-0.91691, 53.9933], size: 50}
+images:
+  stamford-bridge-crossing-derwent:
+    file: stamford-bridge-crossing-derwent.jpg
+    caption: "The Derwent at Stamford Bridge, seen from the old railway viaduct, 2009"
+    credit: "Wikimedia Commons, DS Pugh, CC BY-SA 2.0 (Derwent in Stamford Bridge - geograph.org.uk - 1323992.jpg)"

@@ -1,0 +1,22 @@
+date: "May 878"
+title: "The shield wall at Ethandun"
+sources: ['Asser, Life of King Alfred, chapter 56.', 'Anglo-Saxon Chronicle, entry for 878.']
+bbox: [-2.14881, 51.24615, -2.10216, 51.28008]
+emblem:
+  kind: battle-plan
+  units:
+    - {side: danes, type: fort, at: [-2.1435, 51.2637], width: 330, depth: 330, facing: 0, id: bratton-camp, name: 'Bratton Camp, an Iron Age hillfort, the Danish stronghold by tradition'}
+    - {side: danes, type: infantry, at: [-2.128, 51.2552], width: 800, depth: 70, facing: 180, id: danes, name: 'Guthrum’s army, the whole Viking army by Asser, about 4,000 by modern estimates'}
+    - {side: english, type: infantry, at: [-2.128, 51.25393], width: 820, depth: 85, facing: 0, id: west-saxons, name: 'Alfred’s army in the dense shield wall of Asser’s account, the men of Somerset, Wiltshire and western Hampshire, 2,000 to 6,000 by modern estimates'}
+  arrows:
+    - {side: english, path: [[-2.13733, 51.24661], [-2.13489, 51.24977], [-2.13259, 51.25294]], width: 60, id: advance, name: Alfred’s army comes up from Iley Oak at dawn}
+  clashes:
+    - {at: [-2.13173, 51.2546], size: 100}
+    - {at: [-2.128, 51.2546], size: 100}
+    - {at: [-2.12427, 51.2546], size: 100}
+markers: [edington-shield-wall-guthrum, edington-shield-wall-alfred, edington-shield-wall-village, edington-shield-wall-camp]
+images:
+  edington-shield-wall-asser:
+    file: edington-shield-wall-asser.png
+    caption: "The first page of Asser’s Life of King Alfred, from a facsimile drawn in 1722 of the Cotton manuscript, which burned in 1731"
+    credit: "Wikimedia Commons, Asser, Public domain (Asser facsimile.png)"

@@ -62,7 +62,7 @@ so the plans draw small forces larger.
 ## Real ground
 
 Put the frame on the real site. Rivers, lakes and the shore are drawn as `water` from their real course.
-`npx harita coast Mexico w s e n` prints the coast the map draws. Lake Petén Itzá, the Grijalva and Champotón
+`./node_modules/.bin/harita coast Mexico w s e n` prints the coast the map draws. Lake Petén Itzá, the Grijalva and Champotón
 rivers and the ravines of Zaculeu are not on the base map: draw them from the best coordinates you have, and
 keep the island of Nojpetén at its real size, about 500 by 350 m.
 

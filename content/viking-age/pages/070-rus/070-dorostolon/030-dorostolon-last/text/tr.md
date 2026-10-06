@@ -1,0 +1,7 @@
+Kuşatma üç ay sürer. Ruslar kentin çevresine bir hendek kazar ve yiyecek toplamak için geceleri teknelerle dışarı çıkar, nehir kıyısında erzak toplayan Bizans askerlerini öldürür. Bizans makineleri surları döver, Ruslar bu makinelere karşı yaptıkları bir çıkışta imparatorun akrabası İoannis Kurkuas’ı öldürür ve başını bir kuleden gösterir. Bir başka çıkışta Rus komutanı İkmor, imparatorun muhafızları arasında hizmet eden son Girit emirinin oğlu Anemas’ın elinde can verir.
+
+@image dorostolon-last-feast
+
+Temmuz sonunda Svyatoslav ordusunu bir kez daha dışarı çıkarır ve kapıları arkasından kapattırır. İoannis Skilicis’in anlatımına göre Çimiskis, patrikios Romanos ile stratopedarhis Petros’a geri çekilerek Rusları açık düzlüğe çekmelerini, Vardas Skliros’a da dolaşarak Rusların kentle bağlantısını kesmesini emreder. Diyakoz Leon, bir fırtınanın Rusların yüzüne toz savurduğunu ve Anemas’ın Svyatoslav’ın üzerine atılıp onu atından düşürdüğünü anlatır. Svyatoslav’ı zırhı kurtarır, Anemas ise öldürülür.
+
+Ruslar savaşarak kente geri dönmeyi başarır. Leon 15.000 Rus ölüsü ve ele geçirilen 20.000 kalkana karşılık 350 Bizans ölüsü sayar, Bizanslılar düşenlerin arasında silahlı kadınlar da bulur. Ertesi gün Svyatoslav barış ister: Ruslar Bulgaristan’ı, tutsaklarını ve ganimetlerini bırakır, imparatorluğa bir daha saldırmayacaklarına yemin eder, imparator da geriye kalan 22.000 adamın her birine iki ölçek tahıl verir. Leon nehir kıyısındaki görüşmeyi anlatır: Svyatoslav adamlarıyla birlikte kürek çekerek, sade beyaz giysiler içinde bir tekneyle gelir.

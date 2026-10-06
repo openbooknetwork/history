@@ -1,0 +1,18 @@
+nisa-1062:
+  lnglat: [12.867, 56.683]
+  name: "Battle of Niså"
+  date: "9 August 1062"
+  result: "Norwegian victory, Sweyn escapes"
+  source: https://en.wikipedia.org/wiki/Battle_of_Nis%C3%A5
+  images: [hardrada-nisa, hardrada-coin]
+  sides:
+    - name: "Kingdom of Norway"
+      color: norway
+      commanders: ["Harald Hardrada", "Haakon Ivarsson"]
+      strength: "150 ships"
+      casualties: "Unknown"
+    - name: "Kingdom of Denmark"
+      color: danes
+      commanders: ["Sweyn Estridsson", "Finn Arnesson"]
+      strength: "300 ships by the sagas, fewer than Harald’s by Saxo"
+      casualties: "70 ships cleared of men, Finn Arnesson captured"

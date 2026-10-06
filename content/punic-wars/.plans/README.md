@@ -41,7 +41,7 @@ generator and rerun it.
   facings.
 - Real geography: put the frame on the real site, from the article's coordinates. Rivers, lakes,
   lagoons and harbours that matter are drawn as `water` from their real course. The map shows coasts and
-  relief only. `npx harita coast <country> w s e n` prints the coast the map draws, to fit water and
+  relief only. `./node_modules/.bin/harita coast <country> w s e n` prints the coast the map draws, to fit water and
   walls to it.
 - Sizes are real: a legion's front is about 500 to 600 m, a consular army's infantry 1.5 to 2.5 km,
   ships a few hundred metres per squadron row. This story's `max_zoom` is 14, so a phase bbox of 4 to 12 km

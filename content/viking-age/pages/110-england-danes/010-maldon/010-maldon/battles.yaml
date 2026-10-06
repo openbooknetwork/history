@@ -1,0 +1,17 @@
+maldon-991:
+  lnglat: [0.70236, 51.71641]
+  name: "Battle of Maldon"
+  date: "10 or 11 August 991"
+  result: "Viking victory, Byrhtnoth killed"
+  source: https://en.wikipedia.org/wiki/Battle_of_Maldon
+  images: [maldon-pearse, maldon-aerial]
+  sides:
+    - name: "English"
+      color: english
+      commanders: ["Byrhtnoth"]
+      strength: "Byrhtnoth’s household troops and the Essex levy, about 300 and at most 700 by Cyril Hart’s estimate"
+      casualties: "Byrhtnoth killed with many of his household troops"
+    - name: "Vikings"
+      color: norway
+      commanders: ["Olaf, possibly Olaf Tryggvason"]
+      strength: "93 ships by the Anglo-Saxon Chronicle, 2,000 to 4,000 men by modern estimates"

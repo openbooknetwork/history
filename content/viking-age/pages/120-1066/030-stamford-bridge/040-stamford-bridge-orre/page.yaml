@@ -1,0 +1,31 @@
+date: "25 September 1066"
+title: "Orri’s storm"
+bbox: [-0.93054, 53.98163, -0.8954, 53.9961]
+routes: []
+markers: [stamford-bridge-orre-orri, stamford-bridge-orre-harold]
+sources: ['Michael Swanton (ed. and tr.), The Anglo-Saxon Chronicles (2nd ed. 2000), p. 199.', 'Snorri Sturluson, King Harald’s Saga, tr. Magnus Magnusson and Hermann Pálsson (1966).', 'Kelly DeVries, The Norwegian Invasion of England in 1066 (1999).']
+map_sources:
+  - text: "River Derwent: © OpenStreetMap contributors, ODbL"
+    url: https://www.openstreetmap.org/copyright
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[-0.89311, 54.00008], [-0.89426, 53.99933], [-0.89668, 53.99859], [-0.89783, 53.99852], [-0.89895, 53.99883], [-0.89921, 53.99912], [-0.89919, 53.99953], [-0.89947, 53.99969], [-0.89984, 53.99972], [-0.90082, 53.9993], [-0.90134, 53.99879], [-0.90369, 53.99869], [-0.9051, 53.99812], [-0.90748, 53.99753], [-0.90955, 53.99631], [-0.91134, 53.99576], [-0.91189, 53.99543], [-0.91211, 53.99484], [-0.91175, 53.9937], [-0.91185, 53.99311], [-0.91206, 53.99266], [-0.91252, 53.99225], [-0.91324, 53.99203], [-0.91448, 53.99205], [-0.91515, 53.99188], [-0.91596, 53.99145], [-0.91718, 53.99102], [-0.92031, 53.99007], [-0.92308, 53.98874], [-0.92363, 53.98837], [-0.92442, 53.9875], [-0.92497, 53.98624], [-0.92615, 53.9851], [-0.9275, 53.98433], [-0.92791, 53.98383], [-0.92782, 53.98301], [-0.92712, 53.9812], [-0.92705, 53.98039], [-0.92822, 53.97852], [-0.92882, 53.97599]], width: 30, id: derwent, name: The river Derwent}
+  works:
+    - {side: neutral, path: [[-0.91455, 53.99236], [-0.91445, 53.9917]], width: 18, id: bridge, name: 'The wooden bridge over the Derwent, upstream of the present bridge'}
+  units:
+    - {side: norway, type: infantry, width: 450, depth: 70, facing: 302, id: shield-wall, name: 'What remains of the shield wall, round Harald’s banner Land-waster', bow: 80, at: [-0.90368, 53.98803]}
+    - {side: english, type: infantry, width: 900, depth: 100, facing: 122, id: english, name: English army under Harold Godwinson, at: [-0.90543, 53.98868]}
+    - {side: norway, type: infantry, width: 300, depth: 70, facing: 32, id: orri, name: 'Eystein Orri’s men from the ships at Riccall, in mail, a third of the army', at: [-0.90977, 53.98457]}
+  arrows:
+    - {side: norway, path: [[-0.91264, 53.98185], [-0.91134, 53.98307], [-0.91017, 53.98419]], width: 40, id: orri-run, name: 'Eystein Orri’s men come up at a run from Riccall, about 26 km away'}
+    - {side: norway, path: [[-0.90977, 53.98457], [-0.90859, 53.98568]], width: 40, id: orri-storm, name: 'Orri’s storm: the counter-attack nearly breaks the English line'}
+    - {side: norway, path: [[-0.9035, 53.98868], [-0.89922, 53.98515], [-0.898, 53.98208]], width: 40, id: flight, name: 'The Norwegians break and flee towards the ships, some drown crossing rivers', style: dashed}
+  clashes:
+    - {at: [-0.90498, 53.98851], size: 50}
+    - {at: [-0.90928, 53.98503], size: 50}
+images:
+  stamford-bridge-orre-memorial:
+    file: stamford-bridge-orre-memorial.jpg
+    caption: "The battlefield memorial at the end of Whiterose Drive, Stamford Bridge, on the anniversary in 2013"
+    credit: "Wikimedia Commons, Æthelred, CC BY-SA 3.0 (Stamford Bridge Battlefield Memorial.jpg)"

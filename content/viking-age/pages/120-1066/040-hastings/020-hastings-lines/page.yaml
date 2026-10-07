@@ -22,7 +22,7 @@ emblem:
     - {side: normans, type: cavalry, width: 260, depth: 70, facing: 350, id: norman-horse, name: 'Norman horsemen round the duke. William’s horsemen, 1,000 to 2,000 by Bennett, 3,000 by Marren', at: [0.48924, 50.90985]}
     - {side: normans, type: cavalry, width: 200, depth: 70, facing: 350, id: french-horse, name: French and Flemish horsemen, at: [0.49401, 50.91038]}
   arrows:
-    - {side: normans, path: [[0.48801, 50.91219], [0.48806, 50.91408]], width: 38, id: archers-volley, name: 'The archers shoot uphill, and their arrows strike the shields or fly over the ridge'}
+    - {side: normans, path: [[0.48801, 50.91219], [0.48806, 50.91408]], width: 38, id: archers-volley, name: 'The archers shoot uphill, and their arrows strike the shields or fly over the ridge', style: fire}
     - {side: normans, path: [[0.48426, 50.90901], [0.48419, 50.91084], [0.48413, 50.91364]], width: 38, id: foot-attack, name: 'The foot attack the shield wall and are met by spears, axes and stones'}
     - {side: normans, path: [[0.48879, 50.91145], [0.48722, 50.91398]], width: 38, id: foot-attack, name: 'The foot attack the shield wall and are met by spears, axes and stones'}
     - {side: normans, path: [[0.49356, 50.91198], [0.49227, 50.91455]], width: 38, id: foot-attack, name: 'The foot attack the shield wall and are met by spears, axes and stones'}

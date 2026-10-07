@@ -56,7 +56,7 @@ writePlan(`${G}/020-hastings-lines`, {
     ...ground,
     units: [wall1, archers1, bretons1, normans1, french1, bretonHorse1, normanHorse1, frenchHorse1].map(draw),
     arrows: [
-      arrow('normans', [front(archers1), hit(0)], 'archers-volley', 'The archers shoot uphill, and their arrows strike the shields or fly over the ridge'),
+      arrow('normans', [front(archers1), hit(0)], 'archers-volley', 'The archers shoot uphill, and their arrows strike the shields or fly over the ridge', 'fire'),
       arrow('normans', [front(bretons1), [-330, 330], hit(-280)], 'foot-attack', 'The foot attack the shield wall and are met by spears, axes and stones'),
       arrow('normans', [front(normans1, 30), hit(-60)], 'foot-attack', 'The foot attack the shield wall and are met by spears, axes and stones'),
       arrow('normans', [front(french1, 30), hit(300)], 'foot-attack', 'The foot attack the shield wall and are met by spears, axes and stones'),

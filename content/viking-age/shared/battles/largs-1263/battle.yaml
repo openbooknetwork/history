@@ -1,0 +1,18 @@
+lnglat: [-4.8679, 55.7926]
+name: "Battle of Largs"
+date: "2 October 1263"
+result: "Scottish victory, the Norwegians fall back to their ships"
+source: https://en.wikipedia.org/wiki/Battle_of_Largs
+images: [largs-hole-8b9f46, largs-eirspennill-22c227]
+families:
+  celts: { color: "#2e8b57", color_dark: "#5fcf8f" }
+  norway: { color: "#2f6fb0", color_dark: "#6fa6e0" }
+sides:
+  - name: "Kingdom of Scotland"
+    color: celts
+    commanders: ["Alexander of Dundonald, Steward of Scotland"]
+    strength: "About 500 mounted men and foot soldiers by Hákonar saga"
+  - name: "Kingdom of Norway"
+    color: norway
+    commanders: ["Haakon IV", "Ogmund Crouchdance"]
+    strength: "700 to 800 men on the beach and 200 on the mound by Hákonar saga"

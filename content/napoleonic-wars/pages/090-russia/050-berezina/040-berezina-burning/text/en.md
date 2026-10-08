@@ -1,6 +1,6 @@
 At about 10 pm on 28 November Victor’s corps crosses, and three hours later the bridges are clear of formed troops. Most of the stragglers on the east bank stay by their fires for the night. Eblé has orders to burn the bridges at 7 am on 29 November, waits until 8:30 and then sets them alight, leaving tens of thousands of stragglers and civilians on the east bank.
 
-@image berezina-suchodolski
+@image berezina-suchodolski-b18224
 
 Cossacks and Wittgenstein’s troops take prisoner those left behind, but without bridges Wittgenstein cannot follow. The French march west on the road to Zembin and Vilnius and destroy three bridges over the Gaina swamp behind them, so that Chaplits cannot pursue.
 

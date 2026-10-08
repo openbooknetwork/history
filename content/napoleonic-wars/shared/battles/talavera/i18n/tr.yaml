@@ -1,0 +1,30 @@
+# tr strings for the battle "talavera".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Britain and Spain
+battle.sides.0.name: "Britanya ve İspanya"
+
+# 55,634 and 60 guns: 20,641 British, 34,993 Spanish
+battle.sides.0.strength: "55.634 asker ve 60 top: 20.641 İngiliz, 34.993 İspanyol"
+
+# British 5,363 to 6,268, Spanish several hundred to 1,200
+battle.sides.0.casualties: "İngilizler 5.363 ile 6.268 arası, İspanyollar birkaç yüz ile 1.200 arası"
+
+# French Empire
+battle.sides.1.name: "Fransız İmparatorluğu"
+
+# 46,138 and 80 guns
+battle.sides.1.strength: "46.138 asker ve 80 top"
+
+# 7,268 to 7,389 killed, wounded or captured, 17 guns
+battle.sides.1.casualties: "7.268 ile 7.389 arası ölü, yaralı ya da esir, 17 top"
+
+# Battle of Talavera
+battle.name: "Talavera Muharebesi"
+
+# 27 – 28 July 1809
+battle.date: "27 – 28 Temmuz 1809"
+
+# French attacks repulsed, French withdraw
+battle.result: "Fransız saldırıları püskürtülür, Fransızlar çekilir"

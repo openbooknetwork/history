@@ -1,0 +1,47 @@
+# tr strings for the battle "borodino".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# French Empire and its allies
+battle.sides.0.name: "Fransız İmparatorluğu ve müttefikleri"
+
+# 103,000 to 135,000, about 109,500 engaged
+battle.sides.0.strength: "103.000 ile 135.000 arası, yaklaşık 109.500’ü çarpışmaya girer"
+
+# 30,000 to 42,000 killed, wounded or missing, among them 49 generals
+battle.sides.0.casualties: "30.000 ile 42.000 arası ölü, yaralı ya da kayıp, aralarında 49 general"
+
+# Russian Empire
+battle.sides.1.name: "Rus İmparatorluğu"
+
+# 125,000 to 160,000, about 122,200 engaged
+battle.sides.1.strength: "125.000 ile 160.000 arası, yaklaşık 122.200’ü çarpışmaya girer"
+
+# 40,000 to 53,000 killed, wounded or missing, among them 29 generals
+battle.sides.1.casualties: "40.000 ile 53.000 arası ölü, yaralı ya da kayıp, aralarında 29 general"
+
+# Battle of Borodino
+battle.name: "Borodino Muharebesi"
+
+# 7 September 1812
+battle.date: "7 Eylül 1812"
+
+# French tactical victory, strategically indecisive
+battle.result: "Fransızların taktik zaferi, stratejik olarak sonuçsuz"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Napoleon
+battle.sides.0.commanders.0: "Napolyon"
+
+# Mikhail Kutuzov
+battle.sides.1.commanders.0: "Mihail Kutuzov"
+
+# Nikolay Raevsky
+battle.sides.1.commanders.3: "Nikolay Rayevski"
+
+# Nikolay Tuchkov
+battle.sides.1.commanders.5: "Nikolay Tuçkov"
+
+# Matvei Platov
+battle.sides.1.commanders.6: "Matvey Platov"

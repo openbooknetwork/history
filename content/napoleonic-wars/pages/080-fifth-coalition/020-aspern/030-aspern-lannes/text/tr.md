@@ -4,4 +4,4 @@ Aspern’de çarpışmalar şafaktan önce yoğun sis içinde yeniden başlar ve
 
 Saat 7.00’den kısa bir süre sonra Lannes kademeli düzende Avusturya merkezine ilerler, sağda Saint-Hilaire öndedir, Oudinot’nun Jean Tharreau ve Michel Claparède komutasındaki tümenleri merkezde ve solda onu izler. Ağır ateş altında Avusturya cephesi sarsılır, ta ki Karl yedekteki grenadiyerleri öne sürüp Zach piyade alayını bizzat toparlayana kadar. Fransızlar durdurulur, Bessières’in süvari hücumları da geri püskürtülür. Saat 8.00 ile 9.00 arasında Lobau köprüsü yeniden kopar ve Napolyon iki köyün hattına doğru adım adım geri çekilme emri verir.
 
-@image aspern-krafft-flag
+@image aspern-krafft-flag-2c64e0

@@ -1,0 +1,20 @@
+lnglat: [10.1, 36.40824]
+name: "Battle of the Saw"
+date: "238 BC"
+result: "Carthaginian victory"
+source: https://en.wikipedia.org/wiki/Battle_of_the_Saw
+images: [mercenary-war-elephants-8e4001, mercenary-war-salammbo-6312ed, mercenary-war-hamilcar-439076]
+families:
+  carthage: { color: "#6a3d9a", color_dark: "#a98bd6" }
+  gauls: { color: "#8a6a3f", color_dark: "#c4a173" }
+sides:
+  - name: "Carthage"
+    color: carthage
+    commanders: ["Hamilcar Barca", "Naravas"]
+    strength: "20,000 – 30,000"
+    casualties: "Light"
+  - name: "Rebel army"
+    color: gauls
+    commanders: ["Spendius", "Zarzas", "Autaritus"]
+    strength: "50,000"
+    casualties: "All killed"

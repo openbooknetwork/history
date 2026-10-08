@@ -1,0 +1,16 @@
+lnglat: [-2.165, 52.598]
+name: "Battle of Tettenhall"
+date: "5 August 910"
+result: "Mercian and West Saxon victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Tettenhall
+images: [tettenhall-penny-155120, tettenhall-aethelflaed-ddaf03]
+families:
+  english: { color: "#3d7a2a", color_dark: "#7cc160" }
+  danes: { color: "#b5352a", color_dark: "#e8695c" }
+sides:
+  - name: "Mercians and West Saxons"
+    color: english
+  - name: "Northumbrian Danes"
+    color: danes
+    commanders: ["Eowils", "Halfdan", "Ingwær"]
+    casualties: "Three kings and thousands of men killed"

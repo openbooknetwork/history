@@ -1,0 +1,30 @@
+# tr strings for the battle "zurich".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# French Republic
+battle.sides.0.name: "Fransız Cumhuriyeti"
+
+# 35,448
+battle.sides.0.strength: "35.448"
+
+# About 4,000 killed or wounded
+battle.sides.0.casualties: "Yaklaşık 4.000 ölü ya da yaralı"
+
+# Russia and the Habsburg monarchy
+battle.sides.1.name: "Rusya ve Habsburg Monarşisi"
+
+# 27,116 Russians, by the official list
+battle.sides.1.strength: "Resmî listeye göre 27.116 Rus"
+
+# At least 8,000 killed, wounded or captured
+battle.sides.1.casualties: "En az 8.000 ölü, yaralı ya da esir"
+
+# Second Battle of Zurich
+battle.name: "İkinci Zürih Muharebesi"
+
+# 25 – 26 September 1799
+battle.date: "25 – 26 Eylül 1799"
+
+# French victory
+battle.result: "Fransız zaferi"

@@ -1,0 +1,18 @@
+lnglat: [8.94176, 36.627]
+name: "Battle of the Great Plains"
+date: "203 BC"
+result: "Roman victory"
+source: https://en.wikipedia.org/wiki/Battle_of_the_Great_Plains
+images: [numidian-horseman-6023b7, syphax-coin-e1c5c0, utica-ruins-aef0fe, syphax-receives-scipio-360bc9]
+families:
+  rome: { color: "#b03a2e", color_dark: "#e8695c" }
+  carthage: { color: "#6a3d9a", color_dark: "#a98bd6" }
+sides:
+  - name: "Rome and Masinissa’s Numidians"
+    color: rome
+    commanders: ["Publius Cornelius Scipio", "Masinissa", "Gaius Laelius"]
+    strength: "About 20,000"
+  - name: "Carthage and Syphax’s Numidians"
+    color: carthage
+    commanders: ["Hasdrubal Gisco", "Syphax"]
+    strength: "About 30,000"

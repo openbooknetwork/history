@@ -2,12 +2,12 @@ Klasik dönemin başlangıcı, alçak bölge Mayalarının Uzun Sayım ile tarih
 
 Stel 29 aynı zamanda Tikal’in amblem glifini taşıyan en eski anıttır. Amblem glifi bir krallık adına eklenen kraliyet unvanıdır, k'uhul ajaw, “kutsal efendi”. Tikal için bu ad Mutul’dur. Steller kralı unvanları, ataları ve işleriyle birlikte gösterir.
 
-@image tikal-emblem-glyph
+@image tikal-emblem-glyph-9c38a2
 
 Tikal kralları sıralarını kurucu Yax Ehb Xook’tan başlayarak sayar, Yax Ehb Xook MS 90 dolayında hüküm sürer. Kuzey Akropolis’in derinliklerindeki Geç Preklasik döneme ait bir mezar, Mezar 85, onunla ilişkilendirilir. 317’de bir kadın, Lady Unen Bahlam, hükümdar olarak bir k'atun bitiş törenine başkanlık eder. Bugünkü Belize’deki Caracol, hanedanının Te' K'ab Chaak tarafından kuruluşunu 331’e tarihler. El Perú’daki Stel 15 bu krallığın hükümdarlarını 4. yüzyılın ortasından başlayarak sayar.
 
-@image tikal-north-acropolis
+@image tikal-north-acropolis-d71ae8
 
 Tikal’in on dördüncü kralı I. Chak Tok Ich'aak 360’ta tahta çıkar. Stel 39 onu 376’daki k'atun bitişinde bağlı bir tutsağın üzerinde dururken gösterir, adı Stel 26’da da geçer. Klasik dönemin başlarında Uaxactun, Tikal’den tutsaklar aldığını kaydeder.
 
-@image tikal-stela-26
+@image tikal-stela-26-ee018d

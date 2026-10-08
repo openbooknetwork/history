@@ -1,0 +1,30 @@
+# tr strings for the battle "acre".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Ottoman Empire and Great Britain
+battle.sides.0.name: "Osmanlı Devleti ve Büyük Britanya"
+
+# 5,000 in the garrison, 2 British ships of the line
+battle.sides.0.strength: "Garnizonda 5.000 kişi, 2 İngiliz hat gemisi"
+
+# About 2,000
+battle.sides.0.casualties: "Yaklaşık 2.000"
+
+# French Republic
+battle.sides.1.name: "Fransız Cumhuriyeti"
+
+# 12,000 to 13,000
+battle.sides.1.strength: "12.000 ile 13.000 arası"
+
+# 4,000 to 4,500
+battle.sides.1.casualties: "4.000 ile 4.500 arası"
+
+# Siege of Acre
+battle.name: "Akka Kuşatması"
+
+# 20 March – 21 May 1799
+battle.date: "20 Mart – 21 Mayıs 1799"
+
+# Ottoman and British victory
+battle.result: "Osmanlı ve İngiliz zaferi"

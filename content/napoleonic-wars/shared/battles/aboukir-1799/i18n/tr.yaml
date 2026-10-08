@@ -1,0 +1,30 @@
+# tr strings for the battle "aboukir-1799".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# French Republic
+battle.sides.0.name: "Fransız Cumhuriyeti"
+
+# 9,000 infantry, 1,000 cavalry, 17 guns
+battle.sides.0.strength: "9.000 piyade, 1.000 süvari, 17 top"
+
+# 220 killed, 600 wounded
+battle.sides.0.casualties: "220 ölü, 600 yaralı"
+
+# Ottoman Empire and Great Britain
+battle.sides.1.name: "Osmanlı Devleti ve Büyük Britanya"
+
+# 20,000 and 30 guns, by Bonaparte’s and Bourrienne’s estimates
+battle.sides.1.strength: "Bonaparte’ın ve Bourrienne’in tahminlerine göre 20.000 asker ve 30 top"
+
+# 2,000 killed, 11,000 drowned, 5,000 captured, 2,000 missing
+battle.sides.1.casualties: "2.000 ölü, 11.000 boğulan, 5.000 esir, 2.000 kayıp"
+
+# Battle of Abukir
+battle.name: "Ebukır Muharebesi"
+
+# 25 July 1799
+battle.date: "25 Temmuz 1799"
+
+# French victory
+battle.result: "Fransız zaferi"

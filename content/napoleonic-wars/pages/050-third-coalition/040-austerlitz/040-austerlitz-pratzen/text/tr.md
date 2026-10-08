@@ -1,6 +1,6 @@
 Saat 9 sularında Napolyon “Sert bir darbe ve savaş biter” sözleriyle saldırı emrini verir. Saint-Hilaire’in tümeni sisin örtüsü altında Puntowitz’ten Pratzen’e tırmanır, Vandamme’ın tümeni de onun solunda Staré Vinohrady’ye, Eski Bağlar’a doğru ilerler. Tepeye vardıklarında güneş sisi yarar ve tepedeki Ruslar karşılarında büyük Fransız kollarını bulur.
 
-@image austerlitz-pratzen-cairn
+@image austerlitz-pratzen-cairn-20354b
 
 Dördüncü kolla birlikte bulunan Kutuzov kolun geri kalan taburlarını savaşa sürer, Avusturya birlikleri de çarpışmaya katılır. Bir saati aşan çarpışmadan sonra Saint-Hilaire’in askerleri yamaçtan aşağı püskürtülür, ardından süngüyle yeniden saldırır ve tepeleri temizler. Kuzeyde Vandamme’ın avcıları ve yaylım ateşleri Staré Vinohrady’de birkaç müttefik taburunu dağıtır.
 

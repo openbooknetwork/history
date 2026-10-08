@@ -2,6 +2,6 @@ Gece Fransız istihkâmcıları dubaları Alpone’ye yüzdürür ve derenin ağ
 
 Saat 15.00’te büyük bir Avusturya kolu Arcole’den taşar ve Robert’in birliklerini geri sürer. Bunu gören Augereau’nun askerleri de geri çekilir ve saat 16.00’ya kadar Alpone’yi yeniden geçerler. Bunun üzerine Masséna takviyelerle batıdan gelir, batı setindeki Avusturyalılara pusu kurar ve onları Arcole’e doğru geri sürer. Augereau yeniden karşıya geçer ve saat 17.00 dolaylarında iki tümen çarpışarak köye girer. Bir teğmen ile 25 Muhafız (Guides) Avusturyalıların gerisine at sürüp borazan çalarak saldırıya yardım eder.
 
-@image arcole-thevenin
+@image arcole-thevenin-e1bc6f
 
 Fransızlar ana yola doğru kuzeye ilerler, orada Schübirz’in tugayı onları durdururken Provera’nın tümeni doğuya kaçar. Fransızlar 3.500 ölü ve yaralı ile 1.300 esir kaybeder, General Robert ölümcül biçimde yaralanır. Avusturyalılar 2.200 ölü ve yaralı kaybeder, 4.000 askerleri esir düşer, 11 topları da ele geçirilir. Aynı gün Davidovich Vaubois’yı Rivoli’den atar, ama Bonaparte ona döner ve onu Adige boyunca geri sürer, 23 Kasım’da Alvinczi de Brenta’ya çekilir.

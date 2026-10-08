@@ -4,4 +4,4 @@ Taş döşeli yolda Kollowrat en hızlı ilerleyendir ve saat 7.00’de öncüs�
 
 Latour ve Riesch orman yollarında çok geride kalır, Riesch ancak 9.30’da Albaching’e varır. Bu sırada Richepanse’ın tümeni Ebersberg’den kuzeydoğuya, Riesch’in önünden geçerek yürür. St. Christoph yakınında Kollowrat’ın gönderdiği iki grenadiyer taburu Richepanse’ın kolunu ikiye böler. Richepanse, Drouet’nin tugayını onlarla çarpışmaya bırakır ve öncü tugayıyla kuzeye devam eder.
 
-@image hohenlinden-richepanse-march
+@image hohenlinden-richepanse-march-e603ab

@@ -1,0 +1,50 @@
+# tr strings for the battle "great-offensive".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Grand National Assembly
+battle.sides.0.name: "Türkiye Büyük Millet Meclisi"
+
+# 98,670–103,000 infantry, 5,286 cavalry, 323 guns
+battle.sides.0.strength: "98.670–103.000 piyade, 5.286 süvari, 323 top"
+
+# 2,318 killed, 9,360 wounded, 1,697 missing, 101 captured
+battle.sides.0.casualties: "2.318 ölü, 9.360 yaralı, 1.697 kayıp, 101 esir"
+
+# Kingdom of Greece
+battle.sides.1.name: "Yunanistan Krallığı"
+
+# 130,000 infantry, 1,300 cavalry, 348 guns
+battle.sides.1.strength: "130.000 piyade, 1.300 süvari, 348 top"
+
+# 35,000 killed or wounded and 15,000 captured by 7 September
+battle.sides.1.casualties: "7 Eylül’e kadar 35.000 ölü ve yaralı, 15.000 esir"
+
+# Great Offensive and Battle of Dumlupınar
+battle.name: "Büyük Taarruz ve Başkomutanlık Meydan Muharebesi"
+
+# 26 August – 18 September 1922
+battle.date: "26 Ağustos – 18 Eylül 1922"
+
+# Decisive Turkish victory, Greek army leaves Anatolia
+battle.result: "Kesin Türk zaferi, Yunan ordusu Anadolu’dan çekildi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Mustafa Kemal Pasha
+battle.sides.0.commanders.0: "Mustafa Kemal Paşa"
+
+# Fevzi Pasha
+battle.sides.0.commanders.1: "Fevzi Paşa"
+
+# İsmet Pasha
+battle.sides.0.commanders.2: "İsmet Paşa"
+
+# Nureddin Pasha
+battle.sides.0.commanders.3: "Nureddin Paşa"
+
+# Georgios Hatzianestis
+battle.sides.1.commanders.0: "Yeorgios Hacianestis"
+
+# Nikolaos Trikoupis
+battle.sides.1.commanders.1: "Nikolaos Trikupis"

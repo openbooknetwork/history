@@ -1,0 +1,20 @@
+lnglat: [15.282, 37.085]
+name: "Siege of Syracuse"
+date: "Spring 213 – Autumn 212 BC"
+result: "Roman victory, Syracuse sacked"
+source: https://en.wikipedia.org/wiki/Siege_of_Syracuse_(213%E2%80%93212_BC)
+images: [syracuse-archimedes-defences-b192b1, syracuse-archimedes-claw-e7de4d, syracuse-euryalus-55b1d6, syracuse-archimedes-death-62c5c6]
+families:
+  rome: { color: "#b03a2e", color_dark: "#e8695c" }
+  syracuse: { color: "#2f7fb5", color_dark: "#6fb2e6" }
+sides:
+  - name: "Roman Republic"
+    color: rome
+    commanders: ["Marcus Claudius Marcellus", "Appius Claudius Pulcher"]
+    strength: "16,000–18,000"
+    casualties: "Heavy"
+  - name: "Syracuse and Carthage"
+    color: syracuse
+    commanders: ["Epicydes", "Hippocrates", "Himilco", "Bomilcar"]
+    strength: "21,000–25,000"
+    casualties: "Over 5,000, and many civilians"

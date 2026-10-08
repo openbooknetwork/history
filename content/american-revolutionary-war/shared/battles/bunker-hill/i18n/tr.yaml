@@ -1,0 +1,30 @@
+# tr strings for the battle "bunker-hill".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# New England militia
+battle.sides.0.name: "New England milisleri"
+
+# About 2,400
+battle.sides.0.strength: "Yaklaşık 2.400"
+
+# 138 killed, 305 wounded, 30 captured
+battle.sides.0.casualties: "138 ölü, 305 yaralı, 30 esir"
+
+# Great Britain
+battle.sides.1.name: "Büyük Britanya"
+
+# Over 3,000
+battle.sides.1.strength: "3.000’den fazla"
+
+# 226 killed, 828 wounded
+battle.sides.1.casualties: "226 ölü, 828 yaralı"
+
+# Battle of Bunker Hill
+battle.name: "Bunker Hill Muharebesi"
+
+# 17 June 1775
+battle.date: "17 Haziran 1775"
+
+# British victory at heavy cost
+battle.result: "Ağır kayıplı İngiliz zaferi"

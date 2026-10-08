@@ -4,4 +4,4 @@ On the paved road Kollowrat moves fastest, and at 7:00 his advance guard meets G
 
 Latour and Riesch fall far behind on the forest tracks, and Riesch reaches Albaching only at 9:30. Richepanse’s division meanwhile marches north-east from Ebersberg across Riesch’s front. Near St. Christoph two grenadier battalions sent by Kollowrat cut his column in two, and Richepanse leaves Drouet’s brigade to fight them and goes on north with his leading brigade.
 
-@image hohenlinden-richepanse-march
+@image hohenlinden-richepanse-march-e603ab

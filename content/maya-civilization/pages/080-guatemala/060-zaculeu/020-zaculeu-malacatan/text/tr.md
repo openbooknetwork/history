@@ -2,6 +2,6 @@ Momostenango’nun düşmesinin ertesi günü Gonzalo de Alvarado 40 atlısı, 8
 
 İspanyol süvarisi hücum eder ve Mam saflarını dağıtır, piyade ve müttefikler hücumdan sağ kalan savaşçıları kılıçtan geçirir. Gonzalo de Alvarado Mam komutanı Canil Acab’ı mızrağıyla öldürür ve onun ölümüyle Mam ordusunun direnişi kırılır. Sağ kalanlar tepelere kaçar.
 
-@image zaculeu-malacatan-horsemen
+@image zaculeu-malacatan-horsemen-a266dc
 
 Alvarado Malacatán’a karşı koyan olmadan girer ve orada yalnızca hastaları ve yaşlıları bulur. Kasabanın önderlerinden ulaklar tepelerden iner ve kayıtsız şartsız teslim olmayı önerir, Alvarado bunu kabul eder.

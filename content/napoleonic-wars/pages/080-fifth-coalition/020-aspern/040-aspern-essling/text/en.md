@@ -1,6 +1,6 @@
 When Charles learns at about 10 am that the bridge has broken, he orders a new attack along the whole line. Hiller’s and Bellegarde’s columns storm Aspern again, and shortly after 1 pm the exhausted French give up the village for good. At about 2 pm Charles masses about 150 guns against the French centre, where a cannonball shatters Lannes’s leg. He dies of the wound nine days later.
 
-@image aspern-lannes
+@image aspern-lannes-aba50e
 
 Rosenberg’s corps and grenadiers led by Charles drive Boudet out of Essling, except for a stone granary that Boudet holds with a few hundred men. Napoleon sends General Georges Mouton with battalions of the Young Guard to retake the village, and General Jean Rapp follows with two more battalions of the Guard. On Rapp’s advice they charge instead of only covering a withdrawal, clear Essling with the bayonet, and Rosenberg falls back towards Gross-Enzersdorf.
 

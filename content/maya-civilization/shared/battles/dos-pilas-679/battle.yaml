@@ -1,0 +1,16 @@
+lnglat: [-89.6236, 17.2219]
+name: "Victory of Dos Pilas over Tikal"
+date: "April AD 679"
+result: "Dos Pilas victory, probably with Kaanul help"
+source: https://en.wikipedia.org/wiki/Second_Tikal%E2%80%93Calakmul_War
+images: [dos-pilas-battle-vessel-1e3d04, dos-pilas-captive-b7c820]
+families:
+  kaanul: { color: "#b5352a", color_dark: "#e8695c" }
+  tikal: { color: "#2f6fb0", color_dark: "#6fa6e0" }
+sides:
+  - name: "Dos Pilas"
+    color: kaanul
+    commanders: ["B'alaj Chan K'awiil"]
+  - name: "Tikal"
+    color: tikal
+    commanders: ["Nuun Ujol Chaak"]

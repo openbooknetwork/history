@@ -1,0 +1,38 @@
+# tr strings for the battle "paris-1814".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Russia, Austria and Prussia
+battle.sides.0.name: "Rusya, Avusturya ve Prusya"
+
+# 100,000–145,500
+battle.sides.0.strength: "100.000–145.500"
+
+# 6,705–9,000
+battle.sides.0.casualties: "6.705–9.000"
+
+# French Empire
+battle.sides.1.name: "Fransız İmparatorluğu"
+
+# 37,526–42,000
+battle.sides.1.strength: "37.526–42.000"
+
+# 5,000–9,300, 126 guns
+battle.sides.1.casualties: "5.000–9.300, 126 top"
+
+# Battle of Paris
+battle.name: "Paris Muharebesi"
+
+# 30 – 31 March 1814
+battle.date: "30 – 31 Mart 1814"
+
+# Coalition victory
+battle.result: "Koalisyon zaferi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Alexander I
+battle.sides.0.commanders.0: "I. Aleksandr"
+
+# Frederick William III
+battle.sides.0.commanders.2: "III. Friedrich Wilhelm"

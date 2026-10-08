@@ -1,0 +1,17 @@
+lnglat: [-1.0803, 53.9583]
+name: "Battle of York"
+date: "21 March 867"
+result: "Viking victory, both Northumbrian kings killed"
+source: https://en.wikipedia.org/wiki/Battle_of_York_(867)
+images: [great-army-north-2a64bd, great-army-fleet-d7b9c3]
+families:
+  danes: { color: "#b5352a", color_dark: "#e8695c" }
+  anglo: { color: "#a0522d", color_dark: "#d98b5f" }
+sides:
+  - name: "Great Heathen Army"
+    color: danes
+    commanders: ["Ivar the Boneless", "Ubba"]
+  - name: "Kingdom of Northumbria"
+    color: anglo
+    commanders: ["Ælla", "Osberht"]
+    casualties: "Both kings killed"

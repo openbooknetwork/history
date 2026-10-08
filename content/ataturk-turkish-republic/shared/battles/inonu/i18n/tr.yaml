@@ -1,0 +1,41 @@
+# tr strings for the battle "inonu".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Grand National Assembly
+battle.sides.0.name: "Türkiye Büyük Millet Meclisi"
+
+# 6,000 in the first battle, 15,000 in the second
+battle.sides.0.strength: "Birinci muharebede 6.000, ikincide 15.000"
+
+# About 500 in the first battle, about 3,900 in the second
+battle.sides.0.casualties: "Birinci muharebede yaklaşık 500, ikincide yaklaşık 3.900"
+
+# Kingdom of Greece
+battle.sides.1.name: "Yunanistan Krallığı"
+
+# 18,000 in the first battle, 30,000 in the second
+battle.sides.1.strength: "Birinci muharebede 18.000, ikincide 30.000"
+
+# About 180 in the first battle, about 4,300 in the second
+battle.sides.1.casualties: "Birinci muharebede yaklaşık 180, ikincide yaklaşık 4.300"
+
+# First and Second Battles of İnönü
+battle.name: "Birinci ve İkinci İnönü Muharebeleri"
+
+# 6–11 January and 23 March – 1 April 1921
+battle.date: "6–11 Ocak ve 23 Mart – 1 Nisan 1921"
+
+# Greek advance stopped both times
+battle.result: "Yunan ilerleyişi iki kez durduruldu"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# İsmet Pasha
+battle.sides.0.commanders.0: "İsmet Paşa"
+
+# Refet Pasha
+battle.sides.0.commanders.1: "Refet Paşa"
+
+# Anastasios Papoulas
+battle.sides.1.commanders.0: "Anastasios Papulas"

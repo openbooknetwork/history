@@ -2,8 +2,8 @@ Napolyon’un 80 topluk büyük bataryası öğleye doğru ateş açar. Saat 13.
 
 Bylandt’ın hattı çözülür, Picton bir karşı saldırı emri verirken ölür ve Fransızlar gömük yol boyunca çitleri aşar. Bunun üzerine Uxbridge sırtın arkasından İngiliz ağır süvarisini, Lord Edward Somerset komutasındaki Household Tugayı ile Sir William Ponsonby komutasındaki Union Tugayı’ndan yaklaşık 2.000 atlıyı hücuma kaldırır. Bunlar La Haye Sainte yanındaki zırhlı süvarileri bozguna uğratır, d’Erlon’un kollarını dağıtır ve 105. ile 45. Hat Alaylarının kartallarını ele geçirir.
 
-@image waterloo-scotland-forever
+@image waterloo-scotland-forever-fdd7c6
 
 Denetimden çıkan Union Tugayı büyük bataryanın içine kadar dalar, orada Milhaud’nun zırhlı süvarileri ile Jaquinot’nun mızraklı süvarileri karşı hücuma geçer ve Ponsonby öldürülür. İki tugay gün boyunca yaklaşık 1.200 asker kaybeder, d’Erlon’un kolordusu bu saldırıda 2.000’i aşkını esir olmak üzere 3.000 kişi kaybeder. Kolordu ancak saat 16.00’ya kadar yeniden toparlanabilir.
 
-@image waterloo-ewart
+@image waterloo-ewart-e39884

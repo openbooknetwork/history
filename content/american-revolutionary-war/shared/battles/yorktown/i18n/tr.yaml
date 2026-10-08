@@ -1,0 +1,41 @@
+# tr strings for the battle "yorktown".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# United States and France
+battle.sides.0.name: "Birleşik Devletler ve Fransa"
+
+# 8,000–9,000 Americans, 10,800 French and 29 warships
+battle.sides.0.strength: "8.000–9.000 Amerikalı, 10.800 Fransız ve 29 savaş gemisi"
+
+# 88 killed, 301 wounded
+battle.sides.0.casualties: "88 ölü, 301 yaralı"
+
+# Great Britain
+battle.sides.1.name: "Büyük Britanya"
+
+# 8,000–9,000, fewer than 3,000 of them German
+battle.sides.1.strength: "8.000–9.000, bunların 3.000’den azı Alman"
+
+# 142–309 killed, 326–595 wounded, 7,416–7,685 captured
+battle.sides.1.casualties: "142–309 ölü, 326–595 yaralı, 7.416–7.685 esir"
+
+# Siege of Yorktown
+battle.name: "Yorktown Kuşatması"
+
+# 28 September – 19 October 1781
+battle.date: "28 Eylül – 19 Ekim 1781"
+
+# American and French victory, Cornwallis surrenders
+battle.result: "Amerikan ve Fransız zaferi, Cornwallis teslim olur"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Comte de Rochambeau
+battle.sides.0.commanders.1: "Kont de Rochambeau"
+
+# Marquis de Lafayette
+battle.sides.0.commanders.2: "Marki de Lafayette"
+
+# Comte de Grasse
+battle.sides.0.commanders.3: "Kont de Grasse"

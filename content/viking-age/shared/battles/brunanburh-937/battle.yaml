@@ -1,0 +1,23 @@
+lnglat: [-2.985, 53.33]
+name: "Battle of Brunanburh"
+date: "937"
+result: "English victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Brunanburh
+images: [brunanburh-aethelstan-23bed1, brunanburh-penny-5699a2]
+families:
+  english: { color: "#3d7a2a", color_dark: "#7cc160" }
+  norse: { color: "#6a3d9a", color_dark: "#a98bd6" }
+  celts: { color: "#2e8b57", color_dark: "#5fcf8f" }
+sides:
+  - name: "Kingdom of England"
+    color: english
+    commanders: ["Æthelstan", "Edmund"]
+    casualties: "Heavy, among them two cousins of Æthelstan"
+  - name: "Kingdom of Dublin"
+    color: norse
+    commanders: ["Olaf Guthfrithson"]
+    casualties: "Five kings and seven earls, by the Brunanburh poem"
+  - name: "Alba and Strathclyde"
+    color: celts
+    commanders: ["Constantine II", "Owain"]
+    casualties: "A son of Constantine"

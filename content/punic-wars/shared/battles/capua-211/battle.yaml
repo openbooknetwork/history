@@ -1,0 +1,18 @@
+lnglat: [14.25, 41.0833]
+name: "Siege of Capua"
+date: "211 BC"
+result: "Roman victory, fall of Capua"
+source: https://en.wikipedia.org/wiki/Siege_of_Capua_(211_BC)
+images: [capua-hannibal-coin-420fe1, capua-amphitheatre-2179f2, capua-bronze-coin-6ec519]
+families:
+  rome: { color: "#b03a2e", color_dark: "#e8695c" }
+  carthage: { color: "#6a3d9a", color_dark: "#a98bd6" }
+sides:
+  - name: "Roman Republic"
+    color: rome
+    commanders: ["Quintus Fulvius Flaccus", "Appius Claudius Pulcher", "Gaius Claudius Nero"]
+    casualties: "Unknown"
+  - name: "Carthage and Capua"
+    color: carthage
+    commanders: ["Hannibal", "Bostar", "Hanno, son of Bomilcar"]
+    casualties: "Unknown"

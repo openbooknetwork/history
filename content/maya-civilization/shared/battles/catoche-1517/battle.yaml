@@ -1,0 +1,18 @@
+lnglat: [-87.16, 21.58]
+name: "Battle of Cape Catoche"
+date: "5 March 1517"
+result: "The Spanish beat off the ambush and return to their ships"
+source: https://en.wikipedia.org/wiki/Francisco_Hern%C3%A1ndez_de_C%C3%B3rdoba_(Yucat%C3%A1n_conquistador)
+images: [cordoba-1517-catoche-d4d37a]
+families:
+  spain: { color: "#b03a7a", color_dark: "#e07ab0" }
+  eastern: { color: "#c78a1c", color_dark: "#f0b54a" }
+sides:
+  - name: "Expedition from Cuba"
+    color: spain
+    commanders: ["Francisco Hernández de Córdoba"]
+    strength: "About 110 men, with 15 crossbows and 10 muskets ashore"
+    casualties: "13 wounded by arrows, 2 of whom die"
+  - name: "Ecab"
+    color: eastern
+    casualties: "2 captured"

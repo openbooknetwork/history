@@ -1,0 +1,19 @@
+lnglat: [-90.735, 19.345]
+name: "Battle of Champotón (1518)"
+date: "1518"
+result: "Spanish victory"
+source: https://en.wikipedia.org/wiki/Spanish_conquest_of_Yucat%C3%A1n
+images: [grijalva-portrait-13208a]
+families:
+  spain: { color: "#b03a7a", color_dark: "#e07ab0" }
+  chontal: { color: "#8a5a2b", color_dark: "#c79063" }
+sides:
+  - name: "Expedition from Cuba"
+    color: spain
+    commanders: ["Juan de Grijalva"]
+    strength: "About 240 men"
+    casualties: "1 to 7 killed, 50 to 60 wounded"
+  - name: "Champotón"
+    color: chontal
+    commanders: ["Moch Couoh"]
+    casualties: "About 200 killed, Moch Couoh among them"

@@ -4,6 +4,6 @@ Mayıs 1773 Çay Yasası, Doğu Hindistan Şirketi’nin çayı Townshend vergis
 
 16 Aralık gecesi, Old South Toplantı Evi’ndeki birkaç bin kişilik toplantının ardından, Mohawk kılığına girmiş adamlar Griffin Rıhtımı’nda Dartmouth, Eleanor ve Beaver gemilerine çıkar. Şirketin 9.659 sterlin değer biçtiği yaklaşık 340 sandık çayı limana dökerler. New York ve Philadelphia’ya giden çay gemileri daha sonra geri çevrilir.
 
-@image tea-party-currier
+@image tea-party-currier-b6d17f
 
-@image tea-party-1789
+@image tea-party-1789-129a5e

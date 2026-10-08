@@ -1,0 +1,30 @@
+# tr strings for the battle "bussaco".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Britain and Portugal
+battle.sides.0.name: "Britanya ve Portekiz"
+
+# 32,000 to 35,765, or 52,272 on the ridge by another count
+battle.sides.0.strength: "32.000 ile 35.765 arası, başka bir hesaba göre sırtta 52.272"
+
+# 1,252 to 1,356 killed or wounded
+battle.sides.0.casualties: "1.252 ile 1.356 arası ölü ya da yaralı"
+
+# French Empire
+battle.sides.1.name: "Fransız İmparatorluğu"
+
+# 45,774 to 58,000, or 65,050 by another count
+battle.sides.1.strength: "45.774 ile 58.000 arası, başka bir hesaba göre 65.050"
+
+# 2,456 to 4,500 killed or wounded
+battle.sides.1.casualties: "2.456 ile 4.500 arası ölü ya da yaralı"
+
+# Battle of Bussaco
+battle.name: "Bussaco Muharebesi"
+
+# 27 September 1810
+battle.date: "27 Eylül 1810"
+
+# Anglo-Portuguese victory, the position then turned by Masséna
+battle.result: "İngiliz-Portekiz zaferi, mevzi ardından Masséna tarafından dolanılır"

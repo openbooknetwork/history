@@ -1,6 +1,6 @@
 On 12 February 1524 the army climbs the gorge of the Samalá towards the pass into the valley of Xelajú. In the pass K'iche' warriors ambush the Mexican allies and drive them back down the road.
 
-@image xelaju-pass-samala
+@image xelaju-pass-samala-f6ab3e
 
 Alvarado sends the Spanish cavalry forward. The K'iche' have never seen horses, and the charge comes as a shock to them. The horsemen scatter the warriors in the pass, and the army climbs on towards the open ground of the valley.
 

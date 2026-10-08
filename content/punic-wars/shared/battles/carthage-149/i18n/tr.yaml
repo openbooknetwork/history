@@ -1,0 +1,30 @@
+# tr strings for the battle "carthage-149".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Roman Republic
+battle.sides.0.name: "Roma Cumhuriyeti"
+
+# 36,000 to 46,000 infantry, 4,000 cavalry
+battle.sides.0.strength: "36.000 – 46.000 piyade, 4.000 süvari"
+
+# Unknown
+battle.sides.0.casualties: "Bilinmiyor"
+
+# Carthage
+battle.sides.1.name: "Kartaca"
+
+# 30,000 soldiers and about 60,000 armed civilians
+battle.sides.1.strength: "30.000 asker ve yaklaşık 60.000 silahlı sivil"
+
+# 50,000 enslaved
+battle.sides.1.casualties: "50.000 kişi köleleştirildi"
+
+# Siege of Carthage
+battle.name: "Kartaca Kuşatması"
+
+# 149 – spring 146 BC
+battle.date: "MÖ 149 – 146 ilkbaharı"
+
+# Roman victory, Carthage destroyed
+battle.result: "Roma zaferi, Kartaca yıkılır"

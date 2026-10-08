@@ -4,4 +4,4 @@ Fransız saldırıları burada sona erer, Joseph ve Jourdan yedeklerini hiç sav
 
 Wellesley’ye Talavera Vikontu Wellington unvanı verilir. Soult 30.000 kişiyle arkasından güneye inerken 4 Ağustos’ta Talavera’dan ayrılır, 20 Ağustos’a kadar da bütün ordusu dağların gerisine çekilmiş olur.
 
-@image talavera-medal
+@image talavera-medal-42f045

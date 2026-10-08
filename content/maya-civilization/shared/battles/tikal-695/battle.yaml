@@ -1,0 +1,16 @@
+lnglat: [-89.6236, 17.2219]
+name: "Tikal’s victory over Calakmul"
+date: "August AD 695"
+result: "Tikal victory, the image of the Calakmul god Yajaw Maan captured"
+source: https://en.wikipedia.org/wiki/Second_Tikal%E2%80%93Calakmul_War
+images: [tikal-695-temple-i-e385ec, tikal-695-calakmul-mask-00de28]
+families:
+  tikal: { color: "#2f6fb0", color_dark: "#6fa6e0" }
+  kaanul: { color: "#b5352a", color_dark: "#e8695c" }
+sides:
+  - name: "Tikal"
+    color: tikal
+    commanders: ["Jasaw Chan K'awiil I"]
+  - name: "Kaanul kingdom"
+    color: kaanul
+    commanders: ["Yuknoom Yich'aak K'ahk'"]

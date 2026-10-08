@@ -1,0 +1,30 @@
+# tr strings for the battle "trenton".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# United States
+battle.sides.0.name: "Birleşik Devletler"
+
+# 2,400
+battle.sides.0.strength: "2.400"
+
+# 5 wounded, 2 dead of exposure on the march
+battle.sides.0.casualties: "5 yaralı, yürüyüşte soğuktan 2 ölü"
+
+# Hesse-Kassel
+battle.sides.1.name: "Hessen-Kassel"
+
+# 1,500
+battle.sides.1.strength: "1.500"
+
+# 22 killed, 83 wounded, 800–900 captured
+battle.sides.1.casualties: "22 ölü, 83 yaralı, 800–900 esir"
+
+# Battle of Trenton
+battle.name: "Trenton Muharebesi"
+
+# 26 December 1776
+battle.date: "26 Aralık 1776"
+
+# American victory, the Hessian garrison captured
+battle.result: "Amerikan zaferi, Hessen garnizonu esir alınır"

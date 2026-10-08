@@ -1,0 +1,24 @@
+# tr strings for the battle "champoton-1517".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Expedition from Cuba
+battle.sides.0.name: "Küba’dan gelen sefer"
+
+# About 110 men
+battle.sides.0.strength: "110 kadar adam"
+
+# 57 lost by Bernal Díaz, 2 of them captured, and 5 dead of wounds later
+battle.sides.0.casualties: "Bernal Díaz’a göre 57 kayıp, bunların 2’si tutsak, sonradan 5 kişi daha yaralarından ölür"
+
+# Champotón
+battle.sides.1.name: "Champotón"
+
+# Battle of Champotón (1517)
+battle.name: "Champotón Muharebesi (1517)"
+
+# 1517
+battle.date: "1517"
+
+# Maya victory
+battle.result: "Maya zaferi"

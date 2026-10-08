@@ -2,6 +2,6 @@
 
 Kanolardaki ve kıyıdaki savaşçılar öyle çok ok atar ki İspanyollar belden suyun içinde, çamura saplanmış hâlde kalır. Cortés çamurda bir ayakkabısını yitirir. İspanyollar tüfeklerini ateşler, kıyı yamacına tırmanır ve savunanları kalın kütüklerden yapılmış bir duvara kadar geri sürer, sonra duvarı yararlar. Ávila kentin arka yanından girer ve savunanlar ormana kaçar.
 
-@image centla-potonchan-canoes
+@image centla-potonchan-canoes-f4c926
 
 Cortés, salonlar ve üç tapınakla çevrili ana meydanda, büyük bir ceiba ağacına kılıcıyla üç kez vurarak toprakları kral adına sahiplenir. Ardından Pedro de Alvarado ile Francisco de Lugo’yu 100’er askerle iç kesimlere gönderir. Lugo Chontal birliklerine rastlar, Alvarado yardımına gelir ve ikisi birlikte onları püskürtür. Bir tutsak Chontalların saldırmaya hazırlandığını söyler ve Cortés atları gemilerden karaya çıkarttırır.

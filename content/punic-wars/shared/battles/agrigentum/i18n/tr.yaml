@@ -1,0 +1,35 @@
+# tr strings for the battle "agrigentum".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Roman Republic
+battle.sides.0.name: "Roma Cumhuriyeti"
+
+# 40,000 to 100,000 soldiers and labourers
+battle.sides.0.strength: "40.000 ile 100.000 arası asker ve işçi"
+
+# 15,000 to 30,540 dead
+battle.sides.0.casualties: "15.000 ile 30.540 arası ölü"
+
+# Carthage
+battle.sides.1.name: "Kartaca"
+
+# 31,500 to 56,000 men, 30 to 60 elephants, and the garrison
+battle.sides.1.strength: "31.500 ile 56.000 arası asker, 30 ile 60 arası fil ve garnizon"
+
+# 3,200 killed, 4,000 captured, 25,000 inhabitants enslaved
+battle.sides.1.casualties: "3.200 ölü, 4.000 esir, 25.000 kent sakini köleleştirildi"
+
+# Battle of Agrigentum
+battle.name: "Agrigentum Muharebesi"
+
+# 262 – 261 BC
+battle.date: "MÖ 262 – 261"
+
+# Roman victory, Agrigentum taken
+battle.result: "Roma zaferi, Agrigentum alınır"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Hanno, son of Hannibal
+battle.sides.1.commanders.0: "Hannibal oğlu Hanno"

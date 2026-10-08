@@ -1,0 +1,30 @@
+# tr strings for the battle "saratoga".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# United States
+battle.sides.0.name: "Birleşik Devletler"
+
+# 9,000 in the first battle, over 15,000 at the surrender
+battle.sides.0.strength: "İlk muharebede 9.000, teslimde 15.000’den fazla"
+
+# 90 killed, 240 wounded
+battle.sides.0.casualties: "90 ölü, 240 yaralı"
+
+# Great Britain
+battle.sides.1.name: "Büyük Britanya"
+
+# 7,200 in the first battle, 6,600 in the second
+battle.sides.1.strength: "İlk muharebede 7.200, ikincide 6.600"
+
+# 440 killed, 695 wounded, 6,222 captured
+battle.sides.1.casualties: "440 ölü, 695 yaralı, 6.222 esir"
+
+# Battles of Saratoga
+battle.name: "Saratoga Muharebeleri"
+
+# 19 September and 7 October 1777
+battle.date: "19 Eylül ve 7 Ekim 1777"
+
+# American victory, Burgoyne surrenders on 17 October
+battle.result: "Amerikan zaferi, Burgoyne 17 Ekim’de teslim olur"

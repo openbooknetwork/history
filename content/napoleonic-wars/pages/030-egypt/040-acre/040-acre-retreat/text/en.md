@@ -1,6 +1,6 @@
 The army leaves Acre at night to hide its withdrawal and abandons the gun horses. Bonaparte and his officers hand their horses over for the sick and wounded, and Bonaparte walks. The plague patients in the hospital on Mount Carmel are taken to Jaffa and Tantura, and from Jaffa the sick are sent on in three groups, by sea to Damietta and by land to Gaza and El Arish.
 
-@image acre-carmel-monument
+@image acre-carmel-monument-a41971
 
 On the way the army strips the country of crops and livestock and burns the villages, sparing only Gaza. At Jaffa Bonaparte proposes that plague patients who cannot be moved, between 15 and 50 by different accounts, be given a fatal dose of opium. His doctors refuse, and whether it is done remains disputed.
 

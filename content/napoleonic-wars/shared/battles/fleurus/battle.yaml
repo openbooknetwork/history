@@ -1,0 +1,20 @@
+lnglat: [4.533, 50.483]
+name: "Battle of Fleurus"
+date: "26 June 1794"
+result: "French victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Fleurus_(1794)
+images: [fleurus-mauzaisse-a0e1bb]
+families:
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+  austria: { color: "#d4a017", color_dark: "#f2c94c" }
+sides:
+  - name: "French Republic"
+    color: "france"
+    commanders: ["Jean-Baptiste Jourdan", "Jean-Baptiste Kléber", "Louis Antoine de Saint-Just"]
+    strength: "70,000 infantry, 12,000 cavalry, 100 guns, 1 balloon"
+    casualties: "About 5,000"
+  - name: "Habsburg monarchy and the Dutch Republic"
+    color: "austria"
+    commanders: ["Prince Josias of Coburg", "William of Orange"]
+    strength: "45,000 infantry, 14,000 cavalry, 111 guns"
+    casualties: "About 5,000 by traditional estimates, 1,586 by Digby Smith"

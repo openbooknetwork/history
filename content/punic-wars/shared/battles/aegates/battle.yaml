@@ -1,0 +1,20 @@
+lnglat: [12.24672, 38.00076]
+name: "Battle of the Aegates"
+date: "10 March 241 BC"
+result: "Roman victory, Treaty of Lutatius"
+source: https://en.wikipedia.org/wiki/Battle_of_the_Aegates
+images: [aegates-leutemann-c620bb, aegates-rostrum-31dc75, aegates-favignana-fc8ed0]
+families:
+  rome: { color: "#b03a2e", color_dark: "#e8695c" }
+  carthage: { color: "#6a3d9a", color_dark: "#a98bd6" }
+sides:
+  - name: "Roman Republic"
+    color: rome
+    commanders: ["Gaius Lutatius Catulus", "Quintus Valerius Falto"]
+    strength: "About 200 quinqueremes"
+    casualties: "30 ships sunk, 50 damaged"
+  - name: "Carthage"
+    color: carthage
+    commanders: ["Hanno"]
+    strength: "About 250 quinqueremes"
+    casualties: "50 ships sunk, 70 captured, 10,000 men captured"

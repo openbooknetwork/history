@@ -1,0 +1,30 @@
+# tr strings for the battle "marengo".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# French Republic
+battle.sides.0.name: "Fransız Cumhuriyeti"
+
+# 22,000 and 15 guns at first, 28,000 in all
+battle.sides.0.strength: "Başta 22.000 asker ve 15 top, toplam 28.000"
+
+# 5,600 to about 7,000
+battle.sides.0.casualties: "5.600 ile yaklaşık 7.000 arası"
+
+# Habsburg monarchy
+battle.sides.1.name: "Habsburg Monarşisi"
+
+# 30,000 and 100 guns
+battle.sides.1.strength: "30.000 asker ve 100 top"
+
+# 6,000 killed or wounded and 8,000 captured. Modern count: 963 killed, 5,518 wounded, 2,921 captured
+battle.sides.1.casualties: "6.000 ölü ya da yaralı ve 8.000 esir. Yeni bir hesap: 963 ölü, 5.518 yaralı, 2.921 esir"
+
+# Battle of Marengo
+battle.name: "Marengo Muharebesi"
+
+# 14 June 1800
+battle.date: "14 Haziran 1800"
+
+# French victory
+battle.result: "Fransız zaferi"

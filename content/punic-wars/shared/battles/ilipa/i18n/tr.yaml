@@ -1,0 +1,38 @@
+# tr strings for the battle "ilipa".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Roman Republic
+battle.sides.0.name: "Roma Cumhuriyeti"
+
+# 48,000 (Polybius) or 55,000 (Livy)
+battle.sides.0.strength: "48.000 (Polybios) ya da 55.000 (Livius)"
+
+# 7,000 killed
+battle.sides.0.casualties: "7.000 ölü"
+
+# Carthage
+battle.sides.1.name: "Kartaca"
+
+# 74,000 with 32 elephants (Polybius) or 54,500 (Livy)
+battle.sides.1.strength: "74.000 ve 32 fil (Polybios) ya da 54.500 (Livius)"
+
+# Over 48,500 killed or captured
+battle.sides.1.casualties: "48.500’den fazla ölü ya da esir"
+
+# Battle of Ilipa
+battle.name: "Ilipa Muharebesi"
+
+# Spring 206 BC
+battle.date: "MÖ 206 ilkbaharı"
+
+# Roman victory, end of Carthaginian rule in Iberia
+battle.result: "Roma zaferi, İberya’da Kartaca egemenliğinin sonu"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Hasdrubal Gisco
+battle.sides.1.commanders.0: "Hasdrubal Giskon"
+
+# Mago Barca
+battle.sides.1.commanders.1: "Mago Barka"

@@ -1,0 +1,17 @@
+lnglat: [-89.624, 20.967]
+name: "Battle of T'ho"
+date: "11 June 1542"
+result: "Spanish and Xiu victory"
+source: https://en.wikipedia.org/wiki/Nachi_Cocom
+images: [merida-1542-conquistador-022558]
+families:
+  spain: { color: "#b03a7a", color_dark: "#e07ab0" }
+  cocom: { color: "#6a3d9a", color_dark: "#a98bd6" }
+sides:
+  - name: "Spain and the Xiu"
+    color: spain
+    commanders: ["Francisco de Montejo the Younger"]
+  - name: "Cocom of Sotuta and Cupul"
+    color: cocom
+    commanders: ["Nachi Cocom"]
+    strength: "40,000 by the bachiller Valencia"

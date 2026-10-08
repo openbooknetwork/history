@@ -1,0 +1,30 @@
+# tr strings for the battle "hohenlinden".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# French Republic
+battle.sides.0.name: "Fransız Cumhuriyeti"
+
+# 53,595 with 99 guns
+battle.sides.0.strength: "53.595 asker ve 99 top"
+
+# 2,500 to 3,000 killed or wounded
+battle.sides.0.casualties: "2.500 ile 3.000 arası ölü ya da yaralı"
+
+# Habsburg monarchy and Bavaria
+battle.sides.1.name: "Habsburg Monarşisi ve Bavyera"
+
+# 60,261 with 214 guns
+battle.sides.1.strength: "60.261 asker ve 214 top"
+
+# 13,550 to 15,500, of them 11,860 Austrians and 1,868 Bavarians
+battle.sides.1.casualties: "13.550 ile 15.500 arası, bunların 11.860’ı Avusturyalı, 1.868’i Bavyeralı"
+
+# Battle of Hohenlinden
+battle.name: "Hohenlinden Muharebesi"
+
+# 3 December 1800
+battle.date: "3 Aralık 1800"
+
+# French victory
+battle.result: "Fransız zaferi"

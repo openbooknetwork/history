@@ -1,0 +1,35 @@
+# tr strings for the battle "the-saw".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Carthage
+battle.sides.0.name: "Kartaca"
+
+# 20,000 – 30,000
+battle.sides.0.strength: "20.000 – 30.000"
+
+# Light
+battle.sides.0.casualties: "Hafif"
+
+# Rebel army
+battle.sides.1.name: "İsyancı ordu"
+
+# 50,000
+battle.sides.1.strength: "50.000"
+
+# All killed
+battle.sides.1.casualties: "Tamamı öldürüldü"
+
+# Battle of the Saw
+battle.name: "Testere Muharebesi"
+
+# 238 BC
+battle.date: "MÖ 238"
+
+# Carthaginian victory
+battle.result: "Kartaca zaferi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Hamilcar Barca
+battle.sides.0.commanders.0: "Hamilkar Barka"

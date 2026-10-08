@@ -1,0 +1,27 @@
+# tr strings for the battle "catoche-1517".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Expedition from Cuba
+battle.sides.0.name: "Küba’dan gelen sefer"
+
+# About 110 men, with 15 crossbows and 10 muskets ashore
+battle.sides.0.strength: "110 kadar adam, karada 15 arbalet ve 10 tüfekle"
+
+# 13 wounded by arrows, 2 of whom die
+battle.sides.0.casualties: "Oklarla yaralanan 13 kişi, bunlardan 2’si ölür"
+
+# Ecab
+battle.sides.1.name: "Ecab"
+
+# 2 captured
+battle.sides.1.casualties: "2 tutsak"
+
+# Battle of Cape Catoche
+battle.name: "Catoche Burnu Muharebesi"
+
+# 5 March 1517
+battle.date: "5 Mart 1517"
+
+# The Spanish beat off the ambush and return to their ships
+battle.result: "İspanyollar pusuyu püskürtüp gemilerine döner"

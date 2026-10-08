@@ -4,8 +4,8 @@ Dumouriez plans an invasion of the Austrian Netherlands, where he expects the po
 
 On 11 July the Assembly declares the nation in danger. An allied army, mostly Prussian, gathers at Koblenz on the Rhine under the Duke of Brunswick. On 25 July Brunswick issues a manifesto that threatens Paris with “unforgettable vengeance” if the royal family is harmed. The news reaches Paris on 1 August.
 
-@image war-1792-brunswick
+@image war-1792-brunswick-96afdd
 
 On 10 August the Paris National Guard and fédérés from Marseille and Brittany storm the Tuileries Palace, defended by the Swiss Guards. Hundreds of the guards and about 400 of the attackers are killed. The royal family takes refuge with the Assembly, which suspends the king and calls elections for a National Convention.
 
-@image war-1792-tuileries
+@image war-1792-tuileries-14b483

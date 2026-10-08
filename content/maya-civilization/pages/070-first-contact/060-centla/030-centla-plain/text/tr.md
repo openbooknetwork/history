@@ -4,4 +4,4 @@ Chontal ordusu savanda büyük tüy sorguçları, davulları ve borularıyla, y�
 
 Chontallar İspanyol piyadesini her yandan kuşatır ve ilk saldırıları yetmişten fazla İspanyolu yaralar. İspanyollar bir saat kadar saflarını korur ve toplarını ve arbaletlerini kalabalık savaşçı kütlesine ateşler, ama onları geri çekilmeye zorlayamazlar.
 
-@image centla-plain-solis
+@image centla-plain-solis-c2fbe1

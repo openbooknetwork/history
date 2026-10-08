@@ -1,0 +1,30 @@
+# tr strings for the battle "sullivans-island".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# South Carolina
+battle.sides.0.name: "Güney Carolina"
+
+# 435 militia and 31 cannon in the fort
+battle.sides.0.strength: "Kalede 435 milis ve 31 top"
+
+# 12 killed, 25 wounded
+battle.sides.0.casualties: "12 ölü, 25 yaralı"
+
+# Great Britain
+battle.sides.1.name: "Büyük Britanya"
+
+# 2,200 infantry and 9 warships
+battle.sides.1.strength: "2.200 piyade ve 9 savaş gemisi"
+
+# 91 killed, 170 wounded, one frigate run aground
+battle.sides.1.casualties: "91 ölü, 170 yaralı, bir firkateyn karaya oturdu"
+
+# Battle of Sullivan’s Island
+battle.name: "Sullivan Adası Muharebesi"
+
+# 28 June 1776
+battle.date: "28 Haziran 1776"
+
+# South Carolina victory, the British fleet withdraws
+battle.result: "Güney Carolina zaferi, İngiliz filosu çekilir"

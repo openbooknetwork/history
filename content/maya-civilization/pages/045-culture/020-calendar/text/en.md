@@ -2,12 +2,12 @@ From AD 292 the kings of the lowlands date their monuments in the Long Count, a 
 
 Each date also names its day in two cycles that run side by side. The tzolk'in of 260 days joins the numbers 1 to 13 to twenty day names, and the haab' of 365 days has eighteen months of 20 days and five unlucky days, the wayeb. The same pair of names returns only after 52 years, the Calendar Round, and Stela C at Quiriguá, raised in 775, gives the day of creation as 4 Ajaw 8 Kumk'u.
 
-@image calendar-quirigua-stela-c
+@image calendar-quirigua-stela-c-0500ee
 
 From the late 5th century kings raise a stela at the end of each k'atun, and often at its half and quarter. The texts tell of the king dancing and letting his blood at these ceremonies, and the stela itself is bound in cloth. Tikal builds twin pyramid groups for the k'atun endings, and Calakmul raises at least 166 stelae, more than any other Maya city. The last Long Count date, a k'atun ending in January 909, is carved on Monument 101 at Toniná.
 
-@image calendar-twin-pyramid
+@image calendar-twin-pyramid-c602b0
 
 Scribes follow the cycles of the moon and the planets. In the 8th century they cover the walls of a room at Xultun with lunar tables and long spans of time, and one formula is signed by Sak Tahn Waax, the only Classic Maya astronomer known by name. They also write folding books on paper made from fig bark, most of which Spanish priests destroy after the conquest. Four survive: the Dresden Codex, with tables of eclipses and of the cycles of Venus and Mars, the Madrid Codex of almanacs for priests, the Paris Codex of prophecies for the k'atuns, and the fragmentary Maya Codex of Mexico, the only one still in the Americas.
 
-@image calendar-dresden-codex
+@image calendar-dresden-codex-b670f3

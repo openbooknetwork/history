@@ -1,0 +1,20 @@
+lnglat: [12.18, 51.22]
+name: "Battle of Lützen"
+date: "2 May 1813"
+result: "French victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Lützen_(1813)
+images: [germany-1813-lutzen-33ccb5, germany-1813-bautzen-2e6db8]
+families:
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+  prussia: { color: "#3d4a5c", color_dark: "#9aa8bd" }
+sides:
+  - name: "French Empire"
+    color: "france"
+    commanders: ["Napoleon", "Michel Ney", "Auguste de Marmont", "Henri Gatien Bertrand", "Jacques MacDonald"]
+    strength: "78,000–145,000, 372 guns"
+    casualties: "19,655–22,000"
+  - name: "Russia and Prussia"
+    color: "prussia"
+    commanders: ["Peter Wittgenstein", "Gebhard Leberecht von Blücher", "Ludwig Yorck von Wartenburg", "Gerhard von Scharnhorst"]
+    strength: "70,000–96,000, 552 guns"
+    casualties: "11,500–30,000"

@@ -1,0 +1,20 @@
+lnglat: [-8.4125, 43.3325]
+name: "Battle of Corunna"
+date: "16 January 1809"
+result: "British repulse the attack and embark, French take Corunna"
+source: https://en.wikipedia.org/wiki/Battle_of_Corunna
+images: [corunna-battle-8eeef9, corunna-moore-ea3dc7, corunna-somosierra-090f73]
+families:
+  britain: { color: "#c0392b", color_dark: "#ef6b5b" }
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+sides:
+  - name: "United Kingdom"
+    color: "britain"
+    commanders: ["John Moore", "David Baird", "John Hope"]
+    strength: "15,000 infantry, 1,000 cavalry, 9 to 12 guns"
+    casualties: "800 to 900 killed or wounded, 300 missing, 6 transports lost"
+  - name: "French Empire"
+    color: "france"
+    commanders: ["Jean-de-Dieu Soult"]
+    strength: "12,000 infantry, 3,200 cavalry, 20 guns"
+    casualties: "600 to 700 killed or wounded, 200 to 300 captured"

@@ -1,6 +1,6 @@
 Dupont’nun tümeni Posthenen’den hızla ilerler, Fransız süvarisi Rus süvarisini ırmak kıyısına yığılmış piyadelerinin üzerine geri sürer ve General Sénarmont çok sayıda topu misket atımı mesafesine kadar ileri getirir. Misket ateşi birkaç dakika içinde Rus sol kanadını dağıtır ve Ney’in piyadesi kaçanları alevler içindeki Friedland’in sokaklarına kadar kovalar.
 
-@image friedland-alle-detaille
+@image friedland-alle-detaille-0b1b30
 
 Kasabanın yandığını gören Lannes ile Mortier piyadelerini Rus merkezine ve sağ kanadına sürer. Dupont değirmen deresini sığ bir yerinden geçer ve Rus merkezinin sol yanına saldırır. Merkez direnir ama geri itilir. Pek çok Rus Alle’yi geçmeye çalışırken boğulur. Sağ kanat Allenburg yolundan kuzeye kurtulur, çünkü sol kanattaki Fransız süvarisi takip emri almasına karşın yerinden kıpırdamaz.
 

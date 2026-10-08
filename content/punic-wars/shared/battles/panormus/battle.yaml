@@ -1,0 +1,20 @@
+lnglat: [13.36657, 38.10624]
+name: "Battle of Panormus"
+date: "250 BC"
+result: "Roman victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Panormus
+images: [panormus-battle-a8b687, panormus-denarius-317b2d]
+families:
+  rome: { color: "#b03a2e", color_dark: "#e8695c" }
+  carthage: { color: "#6a3d9a", color_dark: "#a98bd6" }
+sides:
+  - name: "Roman Republic"
+    color: rome
+    commanders: ["Lucius Caecilius Metellus"]
+    strength: "2 legions and 2 allied alae, 16,000 to 20,000 men"
+    casualties: "Unknown, but light"
+  - name: "Carthage"
+    color: carthage
+    commanders: ["Hasdrubal"]
+    strength: "30,000 men, 60 to 142 elephants"
+    casualties: "Heavy, the elephants captured"

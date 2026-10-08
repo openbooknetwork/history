@@ -1,0 +1,30 @@
+# tr strings for the battle "auerstedt".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# French Empire
+battle.sides.0.name: "Fransız İmparatorluğu"
+
+# 26,000
+battle.sides.0.strength: "26.000"
+
+# 7,052 killed and wounded
+battle.sides.0.casualties: "7.052 ölü ve yaralı"
+
+# Prussia
+battle.sides.1.name: "Prusya"
+
+# 64,000
+battle.sides.1.strength: "64.000"
+
+# 13,000 to 15,000
+battle.sides.1.casualties: "13.000 – 15.000"
+
+# Battle of Auerstedt
+battle.name: "Auerstedt Muharebesi"
+
+# 14 October 1806
+battle.date: "14 Ekim 1806"
+
+# French victory
+battle.result: "Fransız zaferi"

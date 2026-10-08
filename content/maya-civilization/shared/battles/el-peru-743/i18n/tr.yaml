@@ -1,0 +1,18 @@
+# tr strings for the battle "el-peru-743".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Tikal
+battle.sides.0.name: "Tikal"
+
+# El Perú (Waka')
+battle.sides.1.name: "El Perú (Waka')"
+
+# Tikal’s victory over El Perú
+battle.name: "Tikal’in El Perú’ya karşı zaferi"
+
+# AD 743
+battle.date: "MS 743"
+
+# Tikal victory, El Perú becomes a vassal of Tikal
+battle.result: "Tikal zaferi, El Perú Tikal’in vasalı olur"

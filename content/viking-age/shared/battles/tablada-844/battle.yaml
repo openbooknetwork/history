@@ -1,0 +1,17 @@
+lnglat: [-6.0, 37.36]
+name: "Battle of Tablada"
+date: "11 or 17 November 844"
+result: "Victory of the Emirate of Córdoba"
+source: https://en.wikipedia.org/wiki/Viking_raid_on_Seville
+images: [seville-dirham-e7b956, seville-mosque-5db9d8]
+families:
+  danes: { color: "#b5352a", color_dark: "#e8695c" }
+  islam: { color: "#6b8e23", color_dark: "#a3c45a" }
+sides:
+  - name: "Vikings from Francia"
+    color: danes
+    strength: "80 ships and 16,000 men by early Muslim accounts"
+    casualties: "500 to 1,000 killed, 400 captured and 30 ships burned by Muslim accounts"
+  - name: "Emirate of Córdoba"
+    color: islam
+    commanders: ["Isa ibn Shuhayd", "Musa ibn Musa al-Qasi"]

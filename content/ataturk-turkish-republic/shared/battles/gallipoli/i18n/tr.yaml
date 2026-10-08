@@ -1,0 +1,38 @@
+# tr strings for the battle "gallipoli".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Ottoman Empire
+battle.sides.0.name: "Osmanlı İmparatorluğu"
+
+# 250,000–315,500 over the campaign
+battle.sides.0.strength: "Harekât boyunca 250.000–315.500"
+
+# 255,268–289,160, of them 56,938–87,000 dead
+battle.sides.0.casualties: "255.268–289.160, bunların 56.938–87.000’i ölü"
+
+# British Empire and France
+battle.sides.1.name: "Britanya İmparatorluğu ve Fransa"
+
+# 489,000–550,000 over the campaign
+battle.sides.1.strength: "Harekât boyunca 489.000–550.000"
+
+# 252,000–300,000, of them 43,000–61,398 dead
+battle.sides.1.casualties: "252.000–300.000, bunların 43.000–61.398’i ölü"
+
+# Gallipoli campaign
+battle.name: "Çanakkale Muharebeleri"
+
+# 19 February 1915 – 9 January 1916
+battle.date: "19 Şubat 1915 – 9 Ocak 1916"
+
+# Ottoman victory, Allied evacuation
+battle.result: "Osmanlı zaferi, İtilaf tahliyesi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Esat Pasha
+battle.sides.0.commanders.1: "Esat Paşa"
+
+# Vehip Pasha
+battle.sides.0.commanders.3: "Vehip Paşa"

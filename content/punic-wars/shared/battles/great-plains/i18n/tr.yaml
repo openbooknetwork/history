@@ -1,0 +1,29 @@
+# tr strings for the battle "great-plains".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Rome and Masinissa’s Numidians
+battle.sides.0.name: "Roma ve Masinissa’nın Numidyalıları"
+
+# About 20,000
+battle.sides.0.strength: "Yaklaşık 20.000"
+
+# Carthage and Syphax’s Numidians
+battle.sides.1.name: "Kartaca ve Syphax’ın Numidyalıları"
+
+# About 30,000
+battle.sides.1.strength: "Yaklaşık 30.000"
+
+# Battle of the Great Plains
+battle.name: "Büyük Ovalar Muharebesi"
+
+# 203 BC
+battle.date: "MÖ 203"
+
+# Roman victory
+battle.result: "Roma zaferi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Hasdrubal Gisco
+battle.sides.1.commanders.0: "Hasdrubal Giskon"

@@ -1,0 +1,20 @@
+lnglat: [16.7625, 49.128]
+name: "Battle of Austerlitz"
+date: "2 December 1805"
+result: "French victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Austerlitz
+images: [austerlitz-ponds-gerard-4c448e, austerlitz-bivouac-df8e2e, austerlitz-guard-eagle-efe529, austerlitz-kutuzov-1c891e]
+families:
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+  russia: { color: "#2e8b57", color_dark: "#5fcf8f" }
+sides:
+  - name: "French Empire"
+    color: "france"
+    commanders: ["Napoleon", "Jean-de-Dieu Soult", "Louis-Nicolas Davout", "Jean Lannes", "Jean-Baptiste Bernadotte", "Joachim Murat", "Jean-Baptiste Bessières"]
+    strength: "65,000 to 75,000"
+    casualties: "8,569 to 9,288: 1,288 to 1,537 dead, 6,708 to 6,991 wounded, 573 to 760 captured or missing"
+  - name: "Russia and Austria"
+    color: "russia"
+    commanders: ["Alexander I", "Mikhail Kutuzov", "Francis II", "Franz von Weyrother", "Friedrich Wilhelm von Buxhoeveden", "Pyotr Bagration", "Grand Duke Constantine"]
+    strength: "73,000 to 89,000"
+    casualties: "27,000 to 36,000: 15,000 to 16,000 killed or wounded, 12,000 to 20,000 captured, 186 guns and 45 standards"

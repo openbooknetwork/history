@@ -1,0 +1,30 @@
+# tr strings for the battle "corunna".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# United Kingdom
+battle.sides.0.name: "Birleşik Krallık"
+
+# 15,000 infantry, 1,000 cavalry, 9 to 12 guns
+battle.sides.0.strength: "15.000 piyade, 1.000 süvari, 9 ile 12 arası top"
+
+# 800 to 900 killed or wounded, 300 missing, 6 transports lost
+battle.sides.0.casualties: "800 ile 900 arası ölü ya da yaralı, 300 kayıp, 6 nakliye gemisi"
+
+# French Empire
+battle.sides.1.name: "Fransız İmparatorluğu"
+
+# 12,000 infantry, 3,200 cavalry, 20 guns
+battle.sides.1.strength: "12.000 piyade, 3.200 süvari, 20 top"
+
+# 600 to 700 killed or wounded, 200 to 300 captured
+battle.sides.1.casualties: "600 ile 700 arası ölü ya da yaralı, 200 ile 300 arası esir"
+
+# Battle of Corunna
+battle.name: "Corunna Muharebesi"
+
+# 16 January 1809
+battle.date: "16 Ocak 1809"
+
+# British repulse the attack and embark, French take Corunna
+battle.result: "İngilizler saldırıyı püskürtüp gemilere biner, Fransızlar Corunna’yı alır"

@@ -1,0 +1,20 @@
+lnglat: [-2.74, 42.83]
+name: "Battle of Vitoria"
+date: "21 June 1813"
+result: "Coalition victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Vitoria
+images: [vitoria-jones-8bb2c9, vitoria-print-e6b245, vitoria-auction-732da3, vitoria-wellington-fd26dc]
+families:
+  britain: { color: "#c0392b", color_dark: "#ef6b5b" }
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+sides:
+  - name: "Britain, Portugal and Spain"
+    color: "britain"
+    commanders: ["Marquess of Wellington", "Sir Thomas Graham", "Sir Rowland Hill", "Sir Thomas Picton", "Francisco de Longa"]
+    strength: "81,000 to 90,000 and 96 guns: 57,000 British, 16,000 Portuguese, 8,000 Spanish"
+    casualties: "5,158: 3,675 British, 921 Portuguese, 562 Spanish"
+  - name: "French Empire and Bonapartist Spain"
+    color: "france"
+    commanders: ["Joseph Bonaparte", "Jean-Baptiste Jourdan", "Honoré Gazan", "Comte d’Erlon", "Honoré Reille"]
+    strength: "57,000 to 60,000 and 153 guns"
+    casualties: "756 killed, 4,414 wounded, 2,800 captured, 151 guns lost"

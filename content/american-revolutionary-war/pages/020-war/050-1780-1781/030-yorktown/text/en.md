@@ -2,12 +2,12 @@ Cornwallis spends the summer raiding Virginia and in August fortifies Yorktown o
 
 De Grasse arrives first. On 5 September he fights the British fleet off the Virginia Capes, and the British fleet returns to New York, leaving the bay to the French. About 19,000 French and American troops, militia included, gather at Williamsburg and open the siege on 28 September. Redoubts 9 and 10 fall to night assaults on 14 October. On 19 October Cornwallis surrenders more than 7,000 men.
 
-@image chesapeake-gudin
+@image chesapeake-gudin-98f6c6
 
-@image yorktown-couder
+@image yorktown-couder-e4b2d4
 
-@image redoubt-10-lami
+@image redoubt-10-lami-1939d7
 
-@image cornwallis-surrender
+@image cornwallis-surrender-812632
 
 On 8 September, in South Carolina, Greene fights the British at Eutaw Springs. When the news of Yorktown reaches London, Lord North is reported to have said, “Oh God, it is all over.”

@@ -1,0 +1,29 @@
+# tr strings for the battle "cynwit-878".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# West Saxons of Devon
+battle.sides.0.name: "Devon’un Batı Saksonları"
+
+# Viking army from Dyfed
+battle.sides.1.name: "Dyfed’den gelen Viking ordusu"
+
+# 23 ships
+battle.sides.1.strength: "23 gemi"
+
+# 840 killed by the Anglo-Saxon Chronicle
+battle.sides.1.casualties: "Anglo-Sakson Kroniği’ne göre 840 ölü"
+
+# Battle of Cynwit
+battle.name: "Cynwit Muharebesi"
+
+# 878
+battle.date: "878"
+
+# West Saxon victory, the Viking leader killed and the Raven banner taken
+battle.result: "Batı Sakson zaferi, Viking komutanı öldürülür ve Kuzgun sancağı ele geçirilir"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Odda, ealdorman of Devon
+battle.sides.0.commanders.0: "Devon ealdormanı Odda"

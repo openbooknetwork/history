@@ -1,0 +1,16 @@
+lnglat: [-89.0403, 15.2694]
+name: "Quiriguá’s victory over Copán"
+date: "27 April – 3 May AD 738"
+result: "Quiriguá victory, Uaxaclajuun Ub'aah K'awiil captured and beheaded"
+source: https://en.wikipedia.org/wiki/Quirigu%C3%A1
+images: [copan-738-quirigua-stela-e-bec65d, copan-738-stela-h-df98de]
+families:
+  kaanul: { color: "#b5352a", color_dark: "#e8695c" }
+  tikal: { color: "#2f6fb0", color_dark: "#6fa6e0" }
+sides:
+  - name: "Quiriguá"
+    color: kaanul
+    commanders: ["K'ak' Tiliw Chan Yopaat"]
+  - name: "Copán"
+    color: tikal
+    commanders: ["Uaxaclajuun Ub'aah K'awiil"]

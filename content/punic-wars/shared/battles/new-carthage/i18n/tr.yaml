@@ -1,0 +1,30 @@
+# tr strings for the battle "new-carthage".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Roman Republic
+battle.sides.0.name: "Roma Cumhuriyeti"
+
+# 27,500, with 35 galleys
+battle.sides.0.strength: "27.500, 35 kadırgayla"
+
+# Unknown
+battle.sides.0.casualties: "Bilinmiyor"
+
+# Carthage
+battle.sides.1.name: "Kartaca"
+
+# Over 3,000, of them 2,000 civilian levies
+battle.sides.1.strength: "3.000’den fazla, bunların 2.000’i sivillerden toplanmış"
+
+# All killed or captured
+battle.sides.1.casualties: "Tümü öldürüldü ya da esir alındı"
+
+# Battle of New Carthage
+battle.name: "Yeni Kartaca Muharebesi"
+
+# Early 209 BC
+battle.date: "MÖ 209 başları"
+
+# Roman victory, New Carthage taken
+battle.result: "Roma zaferi, Yeni Kartaca alındı"

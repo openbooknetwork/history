@@ -1,0 +1,30 @@
+# tr strings for the battle "eylau".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# French Empire
+battle.sides.0.name: "Fransız İmparatorluğu"
+
+# 75,000 with Davout and Ney, 300 guns
+battle.sides.0.strength: "Davout ve Ney ile 75.000, 300 top"
+
+# 15,000 to 29,643
+battle.sides.0.casualties: "15.000 – 29.643"
+
+# Russia and Prussia
+battle.sides.1.name: "Rusya ve Prusya"
+
+# 67,000 Russians and 9,000 Prussians, 400 guns
+battle.sides.1.strength: "67.000 Rus ve 9.000 Prusyalı, 400 top"
+
+# 15,000 to 26,000
+battle.sides.1.casualties: "15.000 – 26.000"
+
+# Battle of Eylau
+battle.name: "Eylau Muharebesi"
+
+# 7 – 8 February 1807
+battle.date: "7 – 8 Şubat 1807"
+
+# Inconclusive, the Russians withdraw
+battle.result: "Sonuçsuz, Ruslar çekilir"

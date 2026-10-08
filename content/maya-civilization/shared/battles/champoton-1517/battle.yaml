@@ -1,0 +1,18 @@
+lnglat: [-90.74672, 19.33346]
+name: "Battle of Champotón (1517)"
+date: "1517"
+result: "Maya victory"
+source: https://en.wikipedia.org/wiki/Francisco_Hern%C3%A1ndez_de_C%C3%B3rdoba_(Yucat%C3%A1n_conquistador)
+images: [champoton-river-mouth-a6b2d9, champoton-warrior-ac7a21]
+families:
+  spain: { color: "#b03a7a", color_dark: "#e07ab0" }
+  chontal: { color: "#8a5a2b", color_dark: "#c79063" }
+sides:
+  - name: "Expedition from Cuba"
+    color: spain
+    commanders: ["Francisco Hernández de Córdoba"]
+    strength: "About 110 men"
+    casualties: "57 lost by Bernal Díaz, 2 of them captured, and 5 dead of wounds later"
+  - name: "Champotón"
+    color: chontal
+    commanders: ["Moch Couoh"]

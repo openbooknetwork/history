@@ -1,0 +1,41 @@
+# tr strings for the battle "aspern".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Austrian Empire
+battle.sides.0.name: "Avusturya İmparatorluğu"
+
+# 98,000, 292 guns
+battle.sides.0.strength: "98.000, 292 top"
+
+# About 23,000 killed, wounded and captured
+battle.sides.0.casualties: "Yaklaşık 23.000 ölü, yaralı ve esir"
+
+# French Empire
+battle.sides.1.name: "Fransız İmparatorluğu"
+
+# 80,000
+battle.sides.1.strength: "80.000"
+
+# 20,000 to 23,000 killed, wounded and captured, 3 guns
+battle.sides.1.casualties: "20.000 ile 23.000 arası ölü, yaralı ve esir, 3 top"
+
+# Battle of Aspern-Essling
+battle.name: "Aspern-Essling Muharebesi"
+
+# 21 – 22 May 1809
+battle.date: "21 – 22 Mayıs 1809"
+
+# Austrian victory
+battle.result: "Avusturya zaferi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Archduke Charles
+battle.sides.0.commanders.0: "Arşidük Karl"
+
+# Johann I of Liechtenstein
+battle.sides.0.commanders.5: "Lihtenştaynlı I. Johann"
+
+# Napoleon
+battle.sides.1.commanders.0: "Napolyon"

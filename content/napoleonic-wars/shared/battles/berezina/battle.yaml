@@ -1,0 +1,20 @@
+lnglat: [28.3544, 54.3247]
+name: "Battle of the Berezina"
+date: "26 – 29 November 1812"
+result: "Inconclusive, the French escape across the river"
+source: https://en.wikipedia.org/wiki/Battle_of_Berezina
+images: [berezina-suchodolski-b18224, berezina-adam-a94ad9, berezina-dutch-7d742c]
+families:
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+  russia: { color: "#2e8b57", color_dark: "#5fcf8f" }
+sides:
+  - name: "French Empire"
+    color: "france"
+    commanders: ["Napoleon", "Nicolas Oudinot", "Claude-Victor Perrin", "Michel Ney"]
+    strength: "About 36,000 effectives, at least 40,000 stragglers, 250 to 300 guns"
+    casualties: "50,000 to 60,000, of them 20,000 to 30,000 combatants and 30,000 non-combatants"
+  - name: "Russian Empire"
+    color: "russia"
+    commanders: ["Peter Wittgenstein", "Pavel Chichagov", "Yefim Chaplits"]
+    strength: "61,500 to 64,000, with Chichagov 31,500 and Wittgenstein 30,000"
+    casualties: "10,000 killed, 10,000 wounded"

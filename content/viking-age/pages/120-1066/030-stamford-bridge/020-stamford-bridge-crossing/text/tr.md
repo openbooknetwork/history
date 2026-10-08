@@ -1,6 +1,6 @@
 İngiliz ordusu York yolundan gelir ve Derwent’in batı yakasındaki, çoğu zırhsız Norveçlilerin üzerine çullanır. Kılıçtan geçirilmeyenler köprüden doğu yakasına kaçar.
 
-@image stamford-bridge-crossing-derwent
+@image stamford-bridge-crossing-derwent-fd0020
 
 Anglo-Sakson Kroniği’nin C elyazmasına sonradan eklenen bir pasaj, köprüyü İngiliz ordusuna karşı tek başına tutan bir Norveçliden söz eder. Ona atılan bir cirit ıskalanır, köprünün altına giren bir İngiliz ise mızrağını aşağıdan, zırh gömleğinin altından saplar. 12. yüzyılda yazan Huntingdonlu Henry, adamın baltasıyla 40’tan fazla İngilizi öldürdüğünü, geçidi dokuzuncu saate kadar tuttuğunu ve onu öldürenin yanına bir kayıkla vardığını ekler.
 

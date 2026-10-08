@@ -2,6 +2,6 @@ In July 1917 Mustafa Kemal is given the Seventh Army, part of the Yıldırım Ar
 
 In December he travels by train with the heir to the throne, Vahdettin, on a state visit to Germany. He visits the Western Front and tells Kaiser Wilhelm II and his generals that the Central Powers will lose the war. In the summer of 1918 he is treated for illness in Vienna and Karlsbad. While he is there, Mehmed V dies and Vahdettin becomes Sultan Mehmed VI on 4 July 1918.
 
-@image karlsbad-1918
+@image karlsbad-1918-4f6fcc
 
-@image mehmed-vi-1918
+@image mehmed-vi-1918-70d14d

@@ -1,0 +1,20 @@
+lnglat: [12.4854, 37.98287]
+name: "Battle of Drepana"
+date: "249 BC"
+result: "Carthaginian victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Drepana
+images: [lilybaeum-drepana-view-4568c2, lilybaeum-chickens-442f25, lilybaeum-capo-boeo-866174]
+families:
+  carthage: { color: "#6a3d9a", color_dark: "#a98bd6" }
+  rome: { color: "#b03a2e", color_dark: "#e8695c" }
+sides:
+  - name: "Carthage"
+    color: carthage
+    commanders: ["Adherbal"]
+    strength: "100 to 130 ships"
+    casualties: "None recorded"
+  - name: "Roman Republic"
+    color: rome
+    commanders: ["Publius Claudius Pulcher"]
+    strength: "At least 123 ships"
+    casualties: "93 ships captured, more sunk, 20,000 men killed or captured"

@@ -1,0 +1,30 @@
+# tr strings for the battle "centla-1519".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Cortés’s expedition
+battle.sides.0.name: "Cortés’in seferi"
+
+# 410 Spaniards
+battle.sides.0.strength: "410 İspanyol"
+
+# 2 killed, 70 wounded
+battle.sides.0.casualties: "2 ölü, 70 yaralı"
+
+# Chontal Maya of Potonchán
+battle.sides.1.name: "Potonchán Chontal Mayaları"
+
+# 40,000 by Cortés and Bernal Díaz, 10,000 to 13,000 by Izquierdo
+battle.sides.1.strength: "Cortés ile Bernal Díaz’a göre 40.000, Izquierdo’ya göre 10.000 ile 13.000 arası"
+
+# More than 800 dead by Bernal Díaz
+battle.sides.1.casualties: "Bernal Díaz’a göre 800’den fazla ölü"
+
+# Battle of Centla
+battle.name: "Centla Muharebesi"
+
+# 14 March 1519
+battle.date: "14 Mart 1519"
+
+# Spanish victory
+battle.result: "İspanyol zaferi"

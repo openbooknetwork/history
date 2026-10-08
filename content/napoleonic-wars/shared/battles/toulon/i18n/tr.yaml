@@ -1,0 +1,30 @@
+# tr strings for the battle "toulon".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# French Republic
+battle.sides.0.name: "Fransız Cumhuriyeti"
+
+# 32,000
+battle.sides.0.strength: "32.000"
+
+# 1,700 killed or wounded
+battle.sides.0.casualties: "1.700 ölü ya da yaralı"
+
+# Royalists, Britain, Spain, Naples and Sardinia
+battle.sides.1.name: "Kralcılar, Britanya, İspanya, Napoli ve Sardinya"
+
+# 22,000 to 23,000 men, 74 ships
+battle.sides.1.strength: "22.000 – 23.000 asker, 74 gemi"
+
+# 4,600, of whom 2,500 captured
+battle.sides.1.casualties: "4.600, bunların 2.500’ü esir"
+
+# Siege of Toulon
+battle.name: "Toulon Kuşatması"
+
+# 29 August – 19 December 1793
+battle.date: "29 Ağustos – 19 Aralık 1793"
+
+# French Republican victory
+battle.result: "Fransız Cumhuriyeti zaferi"

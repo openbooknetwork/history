@@ -1,0 +1,20 @@
+lnglat: [9.56761, 44.988]
+name: "Battle of the Trebia"
+date: "22 or 23 December 218 BC"
+result: "Carthaginian victory"
+source: https://en.wikipedia.org/wiki/Battle_of_the_Trebia
+images: [trebia-ticino-mirys-cbbb9a, trebia-river-01e786, trebia-folard-66c8d2, trebia-memorial-4f613e]
+families:
+  rome: { color: "#b03a2e", color_dark: "#e8695c" }
+  carthage: { color: "#6a3d9a", color_dark: "#a98bd6" }
+sides:
+  - name: "Roman Republic"
+    color: rome
+    commanders: ["Tiberius Sempronius Longus"]
+    strength: "40,000: 36,000 infantry, 4,000 cavalry"
+    casualties: "20,000 killed, many captured"
+  - name: "Carthage"
+    color: carthage
+    commanders: ["Hannibal"]
+    strength: "40,000, with 11,000 cavalry and about 30 elephants"
+    casualties: "Several thousand infantry, a few cavalry, several elephants"

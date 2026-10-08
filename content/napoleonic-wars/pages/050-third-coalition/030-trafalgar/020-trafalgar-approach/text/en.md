@@ -1,6 +1,6 @@
 At dawn on 21 October the British fleet is about 34 km north-west of Cape Trafalgar, with the combined fleet between it and the cape. At 6 a.m. Nelson orders his ships to prepare for battle. They form two columns, the weather column under Nelson in HMS Victory to the north and the lee column under Collingwood in HMS Royal Sovereign to the south. With the wind behind them they set every sail, but in the light breeze the approach takes hours.
 
-@image trafalgar-approach-pocock
+@image trafalgar-approach-pocock-5e241a
 
 At 8 a.m. Villeneuve orders the fleet to wear together and head back for Cádiz. The turn reverses his line, so that Dumanoir’s rear division now leads, and in the light, shifting wind it takes the inexperienced crews nearly an hour and a half. The combined fleet ends up in an uneven crescent about 8 km long, heading north, with the slower ships to leeward, nearer the shore.
 

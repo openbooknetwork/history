@@ -1,6 +1,6 @@
 Hasdrubal Barka kışı Galya’da geçirir ve MÖ 207 ilkbaharında Alpler’i, on yıl önceki Hannibal’den daha hızlı, kısmen ağabeyinin ordusunun açtığı yollardan aşar. Galyalılar ona yol verir, birçoğu da ordusuna katılır. İberya’da yetiştirilmiş savaş fillerini de getirir. Placentia’yı boşuna kuşatır, sonra Adriyatik kıyısı boyunca güneye iner.
 
-@image metaurus-river
+@image metaurus-river-9e73d4
 
 MÖ 207 yılının iki konsülünden Gaius Claudius Nero güneyde Hannibal’in karşısındadır. Marcus Livius Salinator ise Hasdrubal’in önünden Sena’ya kadar çekilir ve orada pretor Lucius Porcius Licinus iki lejyonla ona katılır. Hasdrubal, Hannibal’le güney Umbria’da buluşmak için ulaklar gönderir, ama ulaklar yakalanır ve mektubu Nero’ya getirilir.
 

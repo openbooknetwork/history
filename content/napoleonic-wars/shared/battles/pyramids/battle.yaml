@@ -1,0 +1,20 @@
+lnglat: [31.19893, 30.08121]
+name: "Battle of the Pyramids"
+date: "21 July 1798"
+result: "French victory"
+source: https://en.wikipedia.org/wiki/Battle_of_the_Pyramids
+images: [pyramids-watteau-aa75bc, pyramids-lejeune-19b81c, pyramids-gros-1765d4]
+families:
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+  ottoman: { color: "#8e3b46", color_dark: "#d9707f" }
+sides:
+  - name: "French Republic"
+    color: "france"
+    commanders: ["Napoleon Bonaparte", "Louis Desaix", "Jean Reynier", "Charles Dugua", "Honoré Vial", "Louis André Bon"]
+    strength: "20,000 to 25,000"
+    casualties: "29 killed, 260 wounded"
+  - name: "Mamluks of Egypt"
+    color: "ottoman"
+    commanders: ["Murad Bey", "Ibrahim Bey", "Ayyub Bey"]
+    strength: "21,000 to 50,000, with 6,000 or more cavalry"
+    casualties: "Several thousand to 10,000 killed or wounded"

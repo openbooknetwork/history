@@ -1,0 +1,30 @@
+# tr strings for the battle "friedland".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# French Empire
+battle.sides.0.name: "Fransız İmparatorluğu"
+
+# 80,000, 65,000 engaged, 118 guns
+battle.sides.0.strength: "80.000, 65.000’i savaşa giren, 118 top"
+
+# 8,000 to 10,000
+battle.sides.0.casualties: "8.000 – 10.000"
+
+# Russian Empire
+battle.sides.1.name: "Rus İmparatorluğu"
+
+# 46,000 to 60,000, 120 guns
+battle.sides.1.strength: "46.000 – 60.000, 120 top"
+
+# 20,000 to 40,000 killed, wounded and captured, 80 guns
+battle.sides.1.casualties: "20.000 – 40.000 ölü, yaralı ve esir, 80 top"
+
+# Battle of Friedland
+battle.name: "Friedland Muharebesi"
+
+# 14 June 1807
+battle.date: "14 Haziran 1807"
+
+# French victory
+battle.result: "Fransız zaferi"

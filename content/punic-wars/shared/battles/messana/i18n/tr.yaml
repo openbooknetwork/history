@@ -1,0 +1,35 @@
+# tr strings for the battle "messana".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Roman Republic
+battle.sides.0.name: "Roma Cumhuriyeti"
+
+# 9,000
+battle.sides.0.strength: "9.000"
+
+# 1,340
+battle.sides.0.casualties: "1.340"
+
+# Carthage and Syracuse
+battle.sides.1.name: "Kartaca ve Siraküza"
+
+# 12,000 cavalry, hoplites and mercenaries
+battle.sides.1.strength: "12.000 süvari, hoplit ve paralı asker"
+
+# 6,000
+battle.sides.1.casualties: "6.000"
+
+# Battle of Messana
+battle.name: "Messana Muharebesi"
+
+# 264 BC
+battle.date: "MÖ 264"
+
+# Roman victory
+battle.result: "Roma zaferi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Hiero II
+battle.sides.1.commanders.1: "II. Hieron"

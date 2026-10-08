@@ -1,0 +1,35 @@
+# tr strings for the battle "montmirail".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# French Empire
+battle.sides.0.name: "Fransız İmparatorluğu"
+
+# 13,000–20,000
+battle.sides.0.strength: "13.000–20.000"
+
+# 2,000–2,100
+battle.sides.0.casualties: "2.000–2.100"
+
+# Russia and Prussia
+battle.sides.1.name: "Rusya ve Prusya"
+
+# 23,000–27,000, 106 guns
+battle.sides.1.strength: "23.000–27.000, 106 top"
+
+# 3,700–4,000, 9–26 guns
+battle.sides.1.casualties: "3.700–4.000, 9–26 top"
+
+# Battle of Montmirail
+battle.name: "Montmirail Muharebesi"
+
+# 11 February 1814
+battle.date: "11 Şubat 1814"
+
+# French victory
+battle.result: "Fransız zaferi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Napoleon
+battle.sides.0.commanders.0: "Napolyon"

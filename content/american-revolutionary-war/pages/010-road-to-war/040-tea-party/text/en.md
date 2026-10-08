@@ -4,6 +4,6 @@ Seven ships carry the tea: four to Boston and one each to New York, Philadelphia
 
 On the night of 16 December, after a meeting of several thousand at the Old South Meeting House, men disguised as Mohawks board the Dartmouth, the Eleanor and the Beaver at Griffin’s Wharf. They throw about 340 chests of tea, valued by the company at £9,659, into the harbour. The tea ships for New York and Philadelphia are later turned back.
 
-@image tea-party-currier
+@image tea-party-currier-b6d17f
 
-@image tea-party-1789
+@image tea-party-1789-129a5e

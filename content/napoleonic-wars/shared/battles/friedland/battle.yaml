@@ -1,0 +1,20 @@
+lnglat: [20.989, 54.4455]
+name: "Battle of Friedland"
+date: "14 June 1807"
+result: "French victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Friedland
+images: [friedland-ney-meissonier-b9f581, friedland-lannes-vernet-83d2c2, friedland-alle-detaille-0b1b30]
+families:
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+  russia: { color: "#2e8b57", color_dark: "#5fcf8f" }
+sides:
+  - name: "French Empire"
+    color: "france"
+    commanders: ["Napoleon", "Jean Lannes", "Michel Ney", "Édouard Mortier", "Claude Victor-Perrin", "Emmanuel de Grouchy", "Alexandre-Antoine de Sénarmont"]
+    strength: "80,000, 65,000 engaged, 118 guns"
+    casualties: "8,000 to 10,000"
+  - name: "Russian Empire"
+    color: "russia"
+    commanders: ["Levin von Bennigsen", "Pyotr Bagration", "Andrei Gorchakov"]
+    strength: "46,000 to 60,000, 120 guns"
+    casualties: "20,000 to 40,000 killed, wounded and captured, 80 guns"

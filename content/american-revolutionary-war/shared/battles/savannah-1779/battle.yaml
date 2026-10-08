@@ -1,0 +1,20 @@
+lnglat: [-81.0998, 32.0756]
+name: "Siege of Savannah"
+date: "16 September – 18 October 1779"
+result: "British victory, the allied assault of 9 October fails"
+source: https://en.wikipedia.org/wiki/Siege_of_Savannah
+images: [savannah-keller-6ff2d0, savannah-plan-46275a, savannah-pulaski-eb53a1, savannah-moncrief-plan-d16493]
+families:
+  usa: { color: "#2d7dd2", color_dark: "#6fb6ff" }
+  held: { color: "#c62828", color_dark: "#ff6b6b" }
+sides:
+  - name: "United States and France"
+    color: usa
+    commanders: ["Benjamin Lincoln", "Comte d’Estaing", "Casimir Pulaski"]
+    strength: "7,722 troops and 42 ships"
+    casualties: "244 killed, 584 wounded, 120 captured"
+  - name: "Great Britain"
+    color: held
+    commanders: ["Augustine Prevost", "John Maitland"]
+    strength: "4,813 troops and 8 vessels"
+    casualties: "40 killed, 63 wounded, 52 missing"

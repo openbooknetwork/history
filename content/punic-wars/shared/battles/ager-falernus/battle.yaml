@@ -1,0 +1,20 @@
+lnglat: [14.55, 41.18]
+name: "Battle of Ager Falernus"
+date: "September 217 BC"
+result: "Carthaginian victory, Hannibal’s army leaves the valley"
+source: https://en.wikipedia.org/wiki/Battle_of_Ager_Falernus
+images: [fabius-plain-59eed2, fabius-statue-f154ba, fabius-samnium-map-ad941b]
+families:
+  carthage: { color: "#6a3d9a", color_dark: "#a98bd6" }
+  rome: { color: "#b03a2e", color_dark: "#e8695c" }
+sides:
+  - name: "Carthage"
+    color: carthage
+    commanders: ["Hannibal"]
+    strength: "2,000 light infantry, Iberian infantry, 2,000 oxen"
+    casualties: "Light"
+  - name: "Roman Republic"
+    color: rome
+    commanders: ["Quintus Fabius Maximus"]
+    strength: "4,000 infantry"
+    casualties: "1,000 killed"

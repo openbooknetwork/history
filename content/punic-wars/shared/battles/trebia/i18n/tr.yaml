@@ -1,0 +1,30 @@
+# tr strings for the battle "trebia".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Roman Republic
+battle.sides.0.name: "Roma Cumhuriyeti"
+
+# 40,000: 36,000 infantry, 4,000 cavalry
+battle.sides.0.strength: "40.000: 36.000 piyade, 4.000 süvari"
+
+# 20,000 killed, many captured
+battle.sides.0.casualties: "20.000 ölü, çok sayıda esir"
+
+# Carthage
+battle.sides.1.name: "Kartaca"
+
+# 40,000, with 11,000 cavalry and about 30 elephants
+battle.sides.1.strength: "40.000, bunların 11.000’i süvari, yaklaşık 30 fil"
+
+# Several thousand infantry, a few cavalry, several elephants
+battle.sides.1.casualties: "Birkaç bin piyade, az sayıda süvari, birkaç fil"
+
+# Battle of the Trebia
+battle.name: "Trebia Muharebesi"
+
+# 22 or 23 December 218 BC
+battle.date: "22 ya da 23 Aralık MÖ 218"
+
+# Carthaginian victory
+battle.result: "Kartaca zaferi"

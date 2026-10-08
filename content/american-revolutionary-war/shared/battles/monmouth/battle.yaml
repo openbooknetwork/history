@@ -1,0 +1,20 @@
+lnglat: [-74.3165, 40.2625]
+name: "Battle of Monmouth"
+date: "28 June 1778"
+result: "Inconclusive, Clinton reaches New York"
+source: https://en.wikipedia.org/wiki/Battle_of_Monmouth
+images: [monmouth-leutze-76f5cc, molly-pitcher-9e7149, monmouth-chappel-2f4cb2, monmouth-du-chesnoy-map-3f5dcf]
+families:
+  usa: { color: "#2d7dd2", color_dark: "#6fb6ff" }
+  held: { color: "#c62828", color_dark: "#ff6b6b" }
+sides:
+  - name: "United States"
+    color: usa
+    commanders: ["George Washington", "Charles Lee"]
+    strength: "14,300"
+    casualties: "370 by the official count, about 500 by estimates"
+  - name: "Great Britain"
+    color: held
+    commanders: ["Henry Clinton"]
+    strength: "17,660"
+    casualties: "358 by the official count, up to 1,134 by estimates"

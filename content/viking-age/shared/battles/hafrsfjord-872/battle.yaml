@@ -1,0 +1,16 @@
+lnglat: [5.6714, 58.9414]
+name: "Battle of Hafrsfjord"
+date: "Between 872 and 900"
+result: "Victory for Harald Fairhair"
+source: https://en.wikipedia.org/wiki/Battle_of_Hafrsfjord
+images: [hafrsfjord-balling-e2763c, hafrsfjord-swords-fa0105]
+families:
+  norway: { color: "#2f6fb0", color_dark: "#6fa6e0" }
+  other: { color: "#7f8c8d", color_dark: "#aab7b8" }
+sides:
+  - name: "Harald Fairhair"
+    color: norway
+    commanders: ["Harald Fairhair"]
+  - name: "Hordaland, Rogaland and Agder"
+    color: other
+    commanders: ["Eirik of Hordaland, killed", "Sulke of Rogaland, killed", "Kjotve the Rich"]

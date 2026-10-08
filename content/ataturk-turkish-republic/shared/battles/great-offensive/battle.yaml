@@ -1,0 +1,20 @@
+lnglat: [30.35, 38.65]
+name: Great Offensive and Battle of Dumlupınar
+date: "26 August – 18 September 1922"
+result: "Decisive Turkish victory, Greek army leaves Anatolia"
+source: https://en.wikipedia.org/wiki/Battle_of_Dumlupınar
+images: [kocatepe-1922-0a869a, kocatepe-dawn-1922-e75a6a, dumlupinar-relief-d08fbc, trikoupis-pow-b43b78, greek-afyon-1922-794ec4]
+front: [[29.90, 38.52], [30.20, 38.48], [30.50, 38.55], [30.75, 38.62], [31.05, 38.80]]
+families:
+  greek: { color: "#2f6a9f", color_dark: "#6fa3d6" }
+sides:
+  - name: Grand National Assembly
+    color: "#b8333a"
+    commanders: [Mustafa Kemal Pasha, Fevzi Pasha, İsmet Pasha, Nureddin Pasha]
+    strength: "98,670–103,000 infantry, 5,286 cavalry, 323 guns"
+    casualties: "2,318 killed, 9,360 wounded, 1,697 missing, 101 captured"
+  - name: Kingdom of Greece
+    color: greek
+    commanders: [Georgios Hatzianestis, Nikolaos Trikoupis]
+    strength: "130,000 infantry, 1,300 cavalry, 348 guns"
+    casualties: "35,000 killed or wounded and 15,000 captured by 7 September"

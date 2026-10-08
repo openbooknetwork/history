@@ -1,0 +1,32 @@
+# tr strings for the battle "constantinople-860".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Byzantine Empire
+battle.sides.0.name: "Bizans İmparatorluğu"
+
+# The army and fleet away from the city
+battle.sides.0.strength: "Ordu ve donanma kentten uzakta"
+
+# Rus'
+battle.sides.1.name: "Ruslar"
+
+# About 200 ships
+battle.sides.1.strength: "Yaklaşık 200 gemi"
+
+# Rus' attack on Constantinople
+battle.name: "Rusların Konstantinopolis saldırısı"
+
+# 18 June – 4 August 860
+battle.date: "18 Haziran – 4 Ağustos 860"
+
+# The Rus' plunder the suburbs and withdraw
+battle.result: "Ruslar kent dışındaki mahalleleri yağmalayıp çekilir"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Michael III, away in Asia Minor
+battle.sides.0.commanders.0: "III. Mihail, Küçük Asya’da"
+
+# Askold and Dir, by the Primary Chronicle
+battle.sides.1.commanders.0: "Askold ile Dir, Geçmiş Yılların Hikâyesi’ne göre"

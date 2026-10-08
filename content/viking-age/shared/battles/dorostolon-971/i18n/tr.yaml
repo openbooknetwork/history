@@ -1,0 +1,44 @@
+# tr strings for the battle "dorostolon-971".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Byzantine Empire
+battle.sides.0.name: "Bizans İmparatorluğu"
+
+# 28,000–30,000 men and 300 ships
+battle.sides.0.strength: "28.000–30.000 asker ve 300 gemi"
+
+# 350 dead in the last battle, by Leo the Deacon
+battle.sides.0.casualties: "Diyakoz Leon’a göre son muharebede 350 ölü"
+
+# Rus' and Bulgarian allies
+battle.sides.1.name: "Ruslar ve Bulgar müttefikleri"
+
+# 60,000 by Leo the Deacon, 30,000 by Julian Romane
+battle.sides.1.strength: "Diyakoz Leon’a göre 60.000, Julian Romane’a göre 30.000"
+
+# 15,000 dead in the last battle by Leo the Deacon, 22,000 left at the peace
+battle.sides.1.casualties: "Diyakoz Leon’a göre son muharebede 15.000 ölü, barışta geriye 22.000 kişi"
+
+# Siege of Dorostolon
+battle.name: "Dorostolon Kuşatması"
+
+# 23 April – late July 971
+battle.date: "23 Nisan – Temmuz sonu 971"
+
+# Byzantine victory, Sviatoslav gives up Bulgaria
+battle.result: "Bizans zaferi, Svyatoslav Bulgaristan’dan vazgeçer"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# John I Tzimiskes
+battle.sides.0.commanders.0: "I. İoannis Çimiskis"
+
+# Bardas Skleros
+battle.sides.0.commanders.1: "Vardas Skliros"
+
+# Sviatoslav (wounded)
+battle.sides.1.commanders.0: "Svyatoslav (yaralı)"
+
+# Ikmor (killed)
+battle.sides.1.commanders.1: "İkmor (ölü)"

@@ -1,0 +1,20 @@
+lnglat: [11.511, 50.962]
+name: "Battle of Jena"
+date: "14 October 1806"
+result: "French victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Jena–Auerstedt
+images: [jena-vernet-3acf08, jena-napoleon-ff5946, jena-vierzehnheiligen-detaille-dcc49d, jena-ruchel-murat-a98346]
+families:
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+  prussia: { color: "#3d4a5c", color_dark: "#9aa8bd" }
+sides:
+  - name: "French Empire"
+    color: "france"
+    commanders: ["Napoleon", "Jean Lannes", "Jean-de-Dieu Soult", "Michel Ney", "Pierre Augereau", "Joachim Murat"]
+    strength: "96,000 at hand, about 40,000 engaged"
+    casualties: "5,000 to 6,000"
+  - name: "Prussia and Saxony"
+    color: "prussia"
+    commanders: ["Prince of Hohenlohe", "Ernst von Rüchel", "Bogislav von Tauentzien", "Julius von Grawert"]
+    strength: "About 40,000 under Hohenlohe and 15,000 under Rüchel"
+    casualties: "26,000 to 27,000 killed, wounded and captured, 7,200 of them Saxons, and 150 guns"

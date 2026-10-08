@@ -2,8 +2,8 @@ Sotuta’nın Cocom’ları, Maní’nin Xiu’larının eski düşmanıdır. 15
 
 11 Haziran 1542’de, Aziz Barnabas yortusunda, Mayalar Mérida’ya saldırır. 1639’da fethin bir anlatısını yazan bachiller Valencia 40.000 savaşçıdan söz eder. Genç Montejo’nun İspanyolları ve Xiu müttefikleri kasabayı tutar. Kayıplar ağırdır ve Mayalar geri çekilir. Valencia’yı izleyen López de Cogolludo muharebeyi Haziran 1541’e, Mérida’nın kuruluşundan önceye koyar.
 
-@image merida-1542-conquistador
+@image merida-1542-conquistador-022558
 
 Nachi Cocom muharebeden sağ çıkar. Genç Montejo ardından Sotuta’ya girer ve kısa bir seferde onu yener. Nachi Cocom Juan Cocom adıyla vaftiz edilir, Kastilya kralına bağlılık yemini eder ve canı ile halkı içindeki mevkii bağışlanır. Mayalar yer yer yeniden ayaklanır ama Mérida’yı artık tehdit etmez.
 
-@image merida-1542-casa-de-montejo
+@image merida-1542-casa-de-montejo-44edd4

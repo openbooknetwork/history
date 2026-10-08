@@ -1,6 +1,6 @@
 Karl saat 10.00 sularında köprünün koptuğunu öğrenince bütün hat boyunca yeni bir saldırı emri verir. Hiller’in ve Bellegarde’ın kolları Aspern’e yeniden saldırır ve saat 13.00’ten kısa bir süre sonra bitkin düşen Fransızlar köyü kesin olarak bırakır. Saat 14.00 sularında Karl Fransız merkezine karşı yaklaşık 150 top yığar, orada bir top güllesi Lannes’ın bacağını parçalar. Lannes dokuz gün sonra bu yaradan ölür.
 
-@image aspern-lannes
+@image aspern-lannes-aba50e
 
 Rosenberg’in kolordusu ve Karl’ın bizzat yönettiği grenadiyerler Boudet’yi Essling’den çıkarır, yalnızca Boudet’nin birkaç yüz kişiyle tuttuğu taş ambar ellerinde kalır. Napolyon köyü geri almak için General Georges Mouton’u Genç Muhafız taburlarıyla gönderir, General Jean Rapp da Muhafız’dan iki tabur daha getirir. Rapp’ın önerisiyle yalnızca geri çekilmeyi korumak yerine hücum eder ve Essling’i süngüyle temizlerler, Rosenberg de Gross-Enzersdorf’a doğru çekilir.
 

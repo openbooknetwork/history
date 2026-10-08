@@ -4,8 +4,8 @@ In June a British fleet lands French émigrés in Brittany to support the royali
 
 A new constitution, the Constitution of the Year III, gives executive power to five Directors and legislative power to two councils, the Council of Five Hundred and the Council of Ancients. In early October royalist sections of Paris rise against the Convention, which gives its defence to Paul Barras. Barras calls in Bonaparte, who has Joachim Murat bring 40 guns from the plain of Sablons. On 13 Vendémiaire, 5 October 1795, the guns fire grapeshot into the royalist assault of 7,000 men, and about 300 royalists are killed.
 
-@image directory-vendemiaire
+@image directory-vendemiaire-d9411a
 
 The Convention holds its last session on 25 October, and the Directory governs from the next day, with Barras among the five Directors. Bonaparte becomes commander of the Army of the Interior. In March 1796 he marries Joséphine de Beauharnais, and two days later leaves Paris to take command of the Army of Italy.
 
-@image directory-barras
+@image directory-barras-6f76bf

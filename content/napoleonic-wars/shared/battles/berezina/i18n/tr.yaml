@@ -1,0 +1,41 @@
+# tr strings for the battle "berezina".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# French Empire
+battle.sides.0.name: "Fransız İmparatorluğu"
+
+# About 36,000 effectives, at least 40,000 stragglers, 250 to 300 guns
+battle.sides.0.strength: "Yaklaşık 36.000 savaşan asker, en az 40.000 başıboş asker, 250 ile 300 arası top"
+
+# 50,000 to 60,000, of them 20,000 to 30,000 combatants and 30,000 non-combatants
+battle.sides.0.casualties: "50.000 ile 60.000 arası, bunların 20.000 ile 30.000’i asker, 30.000’i sivil"
+
+# Russian Empire
+battle.sides.1.name: "Rus İmparatorluğu"
+
+# 61,500 to 64,000, with Chichagov 31,500 and Wittgenstein 30,000
+battle.sides.1.strength: "61.500 ile 64.000 arası, Çiçagov 31.500 ve Wittgenstein 30.000"
+
+# 10,000 killed, 10,000 wounded
+battle.sides.1.casualties: "10.000 ölü, 10.000 yaralı"
+
+# Battle of the Berezina
+battle.name: "Berezina Muharebesi"
+
+# 26 – 29 November 1812
+battle.date: "26 – 29 Kasım 1812"
+
+# Inconclusive, the French escape across the river
+battle.result: "Sonuçsuz, Fransızlar nehri geçerek kurtulur"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Napoleon
+battle.sides.0.commanders.0: "Napolyon"
+
+# Pavel Chichagov
+battle.sides.1.commanders.1: "Pavel Çiçagov"
+
+# Yefim Chaplits
+battle.sides.1.commanders.2: "Yefim Çaplits"

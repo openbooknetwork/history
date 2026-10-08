@@ -1,6 +1,6 @@
 The English army comes down the road from York and falls on the Norwegians on the west bank of the Derwent, many of them without mail. Those who are not cut down flee over the bridge to the east bank.
 
-@image stamford-bridge-crossing-derwent
+@image stamford-bridge-crossing-derwent-fd0020
 
 A passage added later to manuscript C of the Anglo-Saxon Chronicle tells of a single Norwegian who holds the bridge against the English army. A javelin thrown at him misses, and an Englishman comes under the bridge and spears him from below, under his mail coat. Henry of Huntingdon, writing in the 12th century, adds that the man kills more than 40 Englishmen with his axe and holds the crossing until the ninth hour, and that his killer reaches him in a boat.
 

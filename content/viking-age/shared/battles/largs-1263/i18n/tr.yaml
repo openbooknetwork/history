@@ -1,0 +1,32 @@
+# tr strings for the battle "largs-1263".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Kingdom of Scotland
+battle.sides.0.name: "İskoçya Krallığı"
+
+# About 500 mounted men and foot soldiers by Hákonar saga
+battle.sides.0.strength: "Hákonar saga’ya göre yaklaşık 500 atlı ve piyadeler"
+
+# Kingdom of Norway
+battle.sides.1.name: "Norveç Krallığı"
+
+# 700 to 800 men on the beach and 200 on the mound by Hákonar saga
+battle.sides.1.strength: "Hákonar saga’ya göre kumsalda 700 ila 800, tepecikte 200 kişi"
+
+# Battle of Largs
+battle.name: "Largs Muharebesi"
+
+# 2 October 1263
+battle.date: "2 Ekim 1263"
+
+# Scottish victory, the Norwegians fall back to their ships
+battle.result: "İskoç zaferi, Norveçliler gemilerine çekilir"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Alexander of Dundonald, Steward of Scotland
+battle.sides.0.commanders.0: "İskoçya Kâhyası Dundonaldlı Alexander"
+
+# Haakon IV
+battle.sides.1.commanders.0: "IV. Haakon"

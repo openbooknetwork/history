@@ -1,0 +1,30 @@
+# tr strings for the battle "toulouse".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Britain, Portugal and Spain
+battle.sides.0.name: "Britanya, Portekiz ve İspanya"
+
+# 49,446: 39,910 British and Portuguese, 9,536 Spanish
+battle.sides.0.strength: "49.446: 39.910 İngiliz ve Portekizli, 9.536 İspanyol"
+
+# 4,558 to 5,500: at least 2,103 British, 1,922 Spanish, 533 Portuguese
+battle.sides.0.casualties: "4.558 ile 5.500 arası: en az 2.103 İngiliz, 1.922 İspanyol, 533 Portekizli"
+
+# French Empire
+battle.sides.1.name: "Fransız İmparatorluğu"
+
+# 42,043
+battle.sides.1.strength: "42.043"
+
+# 2,700 to 3,236
+battle.sides.1.casualties: "2.700 ile 3.236 arası"
+
+# Battle of Toulouse
+battle.name: "Toulouse Muharebesi"
+
+# 10 April 1814
+battle.date: "10 Nisan 1814"
+
+# Soult leaves Toulouse to the allies, both sides claim victory
+battle.result: "Soult Toulouse’u müttefiklere bırakır, iki taraf da zafer kazandığını söyler"

@@ -1,0 +1,20 @@
+lnglat: [-3.79883, 38.10124]
+name: "Battle of Bailén"
+date: "16 – 19 July 1808"
+result: "Spanish victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Bailén
+images: [bailen-surrender-ae8b9d, bailen-castanos-011213, bailen-capitulation-0471e3, bailen-reding-b7a4b3]
+families:
+  spain: { color: "#b03a7a", color_dark: "#e07ab0" }
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+sides:
+  - name: "Spain"
+    color: "spain"
+    commanders: ["Francisco Javier Castaños", "Theodor von Reding"]
+    strength: "29,770 to 30,000"
+    casualties: "1,000 killed or wounded"
+  - name: "French Empire"
+    color: "france"
+    commanders: ["Pierre Dupont de l’Étang", "Dominique Vedel"]
+    strength: "20,000 to 24,430"
+    casualties: "3,000 killed or wounded, 17,000 captured"

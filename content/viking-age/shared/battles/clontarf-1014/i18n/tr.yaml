@@ -1,0 +1,30 @@
+# tr strings for the battle "clontarf-1014".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Brian Boru, high king of Ireland
+battle.sides.0.name: "İrlanda yüksek kralı Brian Boru"
+
+# 5,000 men
+battle.sides.0.strength: "5.000 kişi"
+
+# 4,000 dead
+battle.sides.0.casualties: "4.000 ölü"
+
+# Dublin, Leinster, Orkney and Man
+battle.sides.1.name: "Dublin, Leinster, Orkney ve Man"
+
+# About 7,000 men
+battle.sides.1.strength: "Yaklaşık 7.000 kişi"
+
+# About 6,000 dead
+battle.sides.1.casualties: "Yaklaşık 6.000 ölü"
+
+# Battle of Clontarf
+battle.name: "Clontarf Muharebesi"
+
+# Good Friday, 23 April 1014
+battle.date: "Kutsal Cuma, 23 Nisan 1014"
+
+# Victory of Brian’s army, Brian killed
+battle.result: "Brian’ın ordusunun zaferi, Brian öldürüldü"

@@ -1,0 +1,30 @@
+# tr strings for the battle "vimeiro".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Britain and Portugal
+battle.sides.0.name: "Britanya ve Portekiz"
+
+# 17,000 to 20,500, 18 to 19 guns
+battle.sides.0.strength: "17.000 ile 20.500 arası, 18 ile 19 arası top"
+
+# 135 killed, 593 wounded, 51 missing
+battle.sides.0.casualties: "135 ölü, 593 yaralı, 51 kayıp"
+
+# French Empire
+battle.sides.1.name: "Fransız İmparatorluğu"
+
+# 13,000 to 14,000, 23 to 24 guns
+battle.sides.1.strength: "13.000 ile 14.000 arası, 23 ile 24 arası top"
+
+# 370 to 450 killed, 1,630 to 1,710 wounded, 13 guns lost
+battle.sides.1.casualties: "370 ile 450 arası ölü, 1.630 ile 1.710 arası yaralı, 13 top"
+
+# Battle of Vimeiro
+battle.name: "Vimeiro Muharebesi"
+
+# 21 August 1808
+battle.date: "21 Ağustos 1808"
+
+# Anglo-Portuguese victory
+battle.result: "İngiliz-Portekiz zaferi"

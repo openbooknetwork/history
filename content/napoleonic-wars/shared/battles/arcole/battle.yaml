@@ -1,0 +1,20 @@
+lnglat: [11.2775, 45.357]
+name: "Battle of Arcole"
+date: "15 – 17 November 1796"
+result: "French victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Arcole
+images: [arcole-vernet-327290, arcole-gros-8d6b85, arcole-thevenin-e1bc6f, arcole-ronco-96cdeb]
+families:
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+  austria: { color: "#d4a017", color_dark: "#f2c94c" }
+sides:
+  - name: "French Republic"
+    color: "france"
+    commanders: ["Napoleon Bonaparte", "André Masséna", "Pierre Augereau", "Jean Lannes"]
+    strength: "20,000"
+    casualties: "3,500 killed or wounded, 1,300 captured"
+  - name: "Habsburg monarchy"
+    color: "austria"
+    commanders: ["József Alvinczi", "Anton Ferdinand Mittrowsky", "Giovanni Marchese di Provera"]
+    strength: "24,000"
+    casualties: "2,200 killed or wounded, 4,000 captured"

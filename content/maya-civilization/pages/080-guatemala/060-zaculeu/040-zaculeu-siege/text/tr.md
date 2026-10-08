@@ -1,6 +1,6 @@
 Kuşatma sürerken Zaculeu’nun müttefiki kasabalardan yaklaşık 8.000 Mam savaşçısı kuzeydeki Cuchumatanes dağlarından iner. Gonzalo de Alvarado kuşatmanın başına Antonio de Salazar’ı bırakır ve onları karşılamak için kuzeye yürür. Yardım ordusu İspanyol ve müttefik piyadelerine denktir ama düzensizdir ve İspanyol süvarisinin art arda hücumları onu dağıtır. Alvarado kuşatmaya geri döner.
 
-@image zaculeu-siege-cuchumatanes
+@image zaculeu-siege-cuchumatanes-ce5bf3
 
 Birkaç ay sonra savunanlar açlık çekmektedir. Kayb'il B'alam Ekim 1525’in ortasında Zaculeu’yu teslim eder. İspanyollar içeride 1.800 ölü ve ölülerin etini yiyen sağ kalanlar bulur.
 

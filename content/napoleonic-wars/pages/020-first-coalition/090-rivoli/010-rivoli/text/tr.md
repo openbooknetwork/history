@@ -4,4 +4,4 @@ Bonaparte’ın Rivoli yakınında Joubert’in 10.300 kişilik tümeni, Verona�
 
 Alvinczi 12 Ocak’ta Joubert’e saldırır, Joubert onu durdurur. 13 Ocak öğleden sonra Bonaparte asıl saldırının kuzeyden geldiğini anlar ve Masséna, Rey ve Victor’a Rivoli’ye yürümelerini emreder. Kendisi 14 Ocak gecesi saat 2’de yaylaya ulaşır, Berthier’nin de katıldığı Joubert orada köyün kuzeyindeki Trambasore tepelerinde bir hat tutmaktadır. Aynı gece Provera Legnago’nun yukarısında Angiari’de Adige’yi geçer ve Mantova’ya yürür.
 
-@image rivoli-versailles
+@image rivoli-versailles-6d5cdf

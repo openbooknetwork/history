@@ -2,6 +2,6 @@
 
 Augereau, Verdier’nin ve Verne’in yarım tugaylarını da savaşa sokar, öğle vakti General Anton Ferdinand Mittrowsky komutasındaki Avusturya takviyeleri Arcole’e ulaşır. Bon, Verdier, Verne ve Lannes yaralanır, askerler setin arkasına sığınır ve saldırı tıkanır. Bonaparte bir bayrak kapar ve setin üzerinde köprüden yaklaşık 55 adım ötede açıkta durur. Kurmaylarından birkaçı vurulur ve yaveri Jean-Baptiste Muiron ölür, sonunda bir subay Bonaparte’ı ateş hattından çeker ve Bonaparte çamurlu hendeğe düşer.
 
-@image arcole-gros
+@image arcole-gros-8d6b85
 
 Solda Brabeck ve Gavasini’nin tugayları duba köprüye karşı Belfiore’den ilerler. Bionde yakınında Masséna ile karşılaşırlar ve Brabeck’in askerleri yanlışlıkla Gavasini’ninkilere ateş edince Belfiore’nin gerisine püskürtülürler. Akşam General Jean Joseph Guieu iki yarım tugayla Albaredo’da Adige’yi teknelerle geçer ve Avusturyalıları Arcole’den çıkarır. Gece yarısı, Davidovich’in arkasına düşmesinden kaygılanan Bonaparte Guieu’yü geri çağırır ve birliklerinin çoğunu Adige’nin bu yakasına çeker, öbür kıyıda bir köprübaşı bırakır.

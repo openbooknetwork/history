@@ -1,0 +1,44 @@
+# tr strings for the battle "waterloo".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Britain and its allies, and Prussia
+battle.sides.0.name: "Britanya ve müttefikleri ile Prusya"
+
+# 118,000–120,000: Wellington’s army about 68,000 with 156 guns, Blücher’s about 50,000 with 126 guns
+battle.sides.0.strength: "118.000–120.000: Wellington’ın ordusu 156 topla yaklaşık 68.000, Blücher’inki 126 topla yaklaşık 50.000"
+
+# 24,000: Wellington’s army 17,000, Blücher’s 6,604–7,000
+battle.sides.0.casualties: "24.000: Wellington’ın ordusu 17.000, Blücher’inki 6.604–7.000"
+
+# French Empire
+battle.sides.1.name: "Fransız İmparatorluğu"
+
+# 72,000–73,000, 246–252 guns
+battle.sides.1.strength: "72.000–73.000, 246–252 top"
+
+# 26,000–27,000: 25,000 killed or wounded, 8,000 captured, 220 guns, and 15,000 deserted after the battle
+battle.sides.1.casualties: "26.000–27.000: 25.000 ölü ya da yaralı, 8.000 esir, 220 top, savaştan sonra 15.000 kaçak"
+
+# Battle of Waterloo
+battle.name: "Waterloo Muharebesi"
+
+# 18 June 1815
+battle.date: "18 Haziran 1815"
+
+# Coalition victory
+battle.result: "Koalisyon zaferi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Duke of Wellington
+battle.sides.0.commanders.0: "Wellington Dükü"
+
+# Earl of Uxbridge
+battle.sides.0.commanders.1: "Uxbridge Kontu"
+
+# William, Prince of Orange
+battle.sides.0.commanders.4: "Orange Prensi Willem"
+
+# Napoleon
+battle.sides.1.commanders.0: "Napolyon"

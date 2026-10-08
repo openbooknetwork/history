@@ -1,0 +1,35 @@
+# tr strings for the battle "chartres-911".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# West Franks
+battle.sides.0.name: "Batı Franklar"
+
+# Danes of the Seine
+battle.sides.1.name: "Seine Danları"
+
+# At least 1,600 killed and most of the army captured
+battle.sides.1.casualties: "En az 1.600 ölü, ordunun büyük bölümü tutsak"
+
+# Siege of Chartres
+battle.name: "Chartres Kuşatması"
+
+# Spring to 20 July 911
+battle.date: "İlkbahar – 20 Temmuz 911"
+
+# West Frankish victory, followed by the Treaty of Saint-Clair-sur-Epte
+battle.result: "Batı Frank zaferi, ardından Saint-Clair-sur-Epte Antlaşması"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Robert, Count of Paris
+battle.sides.0.commanders.0: "Paris Kontu Robert"
+
+# Richard, Duke of Burgundy
+battle.sides.0.commanders.1: "Burgonya Dükü Richard"
+
+# Ebles, Count of Poitiers
+battle.sides.0.commanders.2: "Poitiers Kontu Ebles"
+
+# Bishop Gantelme
+battle.sides.0.commanders.3: "Piskopos Gantelme"

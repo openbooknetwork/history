@@ -1,0 +1,30 @@
+# tr strings for the battle "lodi".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# French Republic
+battle.sides.0.name: "Fransız Cumhuriyeti"
+
+# 15,500 infantry, 2,000 cavalry, 30 guns
+battle.sides.0.strength: "15.500 piyade, 2.000 süvari, 30 top"
+
+# At least 350
+battle.sides.0.casualties: "En az 350"
+
+# Habsburg monarchy
+battle.sides.1.name: "Habsburg Monarşisi"
+
+# 9,500, 14 guns
+battle.sides.1.strength: "9.500, 14 top"
+
+# 335 killed or wounded, 1,700 captured, 16 guns
+battle.sides.1.casualties: "335 ölü ya da yaralı, 1.700 esir, 16 top"
+
+# Battle of Lodi
+battle.name: "Lodi Muharebesi"
+
+# 10 May 1796
+battle.date: "10 Mayıs 1796"
+
+# French victory
+battle.result: "Fransız zaferi"

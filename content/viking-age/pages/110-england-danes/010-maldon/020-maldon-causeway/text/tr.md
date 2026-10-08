@@ -2,6 +2,6 @@ Eski İngilizce Maldon Muharebesi şiirinin günümüze ulaşan 325 dizesi, Byrh
 
 Vikingler suyun öte yanında, Northey Adası’ndadır ve gelgit onları karadan ayırır. Bir Viking ulağı kıyıya seslenir ve altın haraç karşılığında gemileriyle çekip gitmeyi önerir. Byrhtnoth, adamlarının haracı mızrak uçları ve kılıç ağızlarıyla ödeyeceği yanıtını verir.
 
-@image maldon-causeway-photo
+@image maldon-causeway-photo-240162
 
 Sular çekilip geçit açığa çıkınca Vikingler karşıya geçmeye çalışır. Byrhtnoth geçidi tutmaları için Wulfstan, Ælfhere ve Maccus’u gönderir, üçü öne çıkan her Vikingi yere serer. Bunun üzerine Vikingler anakarada savaşmak için geçmelerine izin verilmesini ister, Byrhtnoth da şiirin deyişiyle “for his ofermōde”, yani genellikle gurur ya da aşırı özgüven diye okunan bir duyguyla onlara yer açar.

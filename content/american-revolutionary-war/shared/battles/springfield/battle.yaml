@@ -1,0 +1,19 @@
+lnglat: [-72.58, 42.1084]
+name: "Shays’ Rebellion at Springfield"
+date: "25 January 1787"
+result: "Militia victory, the rebels scatter"
+source: https://en.wikipedia.org/wiki/Shays%27s_Rebellion
+images: [shays-shattuck-e0d5bb, shepard-portrait-4c6427, shays-map-stiles-3ba8e4]
+families:
+  usa: { color: "#2d7dd2", color_dark: "#6fb6ff" }
+sides:
+  - name: "Massachusetts militia"
+    color: usa
+    commanders: ["William Shepard"]
+    strength: "1,200"
+    casualties: "None"
+  - name: "Shays’ rebels"
+    color: "#8d6e63"
+    commanders: ["Daniel Shays", "Eli Parsons"]
+    strength: "About 1,500"
+    casualties: "4 killed, 20 wounded"

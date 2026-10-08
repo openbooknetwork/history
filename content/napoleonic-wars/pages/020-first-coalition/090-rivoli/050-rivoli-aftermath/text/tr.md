@@ -2,4 +2,4 @@ Alvinczi’nin işini bitirmeyi Joubert, Rey ve Victor’a bırakan Bonaparte 15
 
 Provera’nın öncüsü Sérurier’nin ablukasını yaramaz, 16 Ocak şafağında Wurmser’in kaleden yaptığı çıkış da geri püskürtülür. Mantova dışındaki La Favorita sarayında Masséna, Augereau ve Sérurier tarafından kuşatılan Provera aynı gün 6.000 askerle teslim olur. Kuzey İtalya’daki Avusturya sahra ordusu artık yoktur.
 
-@image rivoli-favorita
+@image rivoli-favorita-394a3f

@@ -1,6 +1,6 @@
 Cogad’a göre Dublin ordusu şafakta kentten çıkar ve Clontarf’ta sabahki yüksek suyla kıyıya gelen Dublin Körfezi’ndeki filoyla birleşir. Brodir, Sigurd ve Plait adlı bir pehlivanın komutasındaki denizaşırı Vikingler ön safı oluşturur, onları Sigtrygg’in kardeşi Dubgall ile Gilla Ciaráin’in komutasındaki Dublinliler, ardından da Máel Mórda’nın komutasındaki Leinsterlılar izler. Sigtrygg kenti tutmaya yetecek adamla Dublin’de kalır ve muharebeyi Brian’ın kızı olan karısı Sláine ile birlikte surlardan izler.
 
-@image clontarf-lines-1905
+@image clontarf-lines-1905-a990ab
 
 Brian’ın ordusunun önünde, Brian’ın kendi halkı olan Dál gCais, oğlu Murchad ile Murchad’ın on beş yaşındaki oğlu Toirdelbach’ın komutasında durur. Onların arkasında Déisi kralı Mothla ile Uí Liatháin kralı Magnus’un komutasındaki öteki Munsterlılar, ardından da Connachtlılar gelir. Máel Sechnaill ile Meathliler en sonda yer alır, Cogad da onun Dublinlilerle iki tarafın birbirine saldırmaması konusunda anlaştığını söyler. Yıllıklar ölenler arasında Meath’ten tanınmış hiç kimseyi kaydetmez.
 

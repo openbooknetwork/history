@@ -1,0 +1,30 @@
+# tr strings for the battle "quebec-1775".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Continental Army
+battle.sides.0.name: "Kıta Ordusu"
+
+# 1,200
+battle.sides.0.strength: "1.200"
+
+# 50 killed, 34 wounded, 431 captured or missing
+battle.sides.0.casualties: "50 ölü, 34 yaralı, 431 esir veya kayıp"
+
+# Great Britain
+battle.sides.1.name: "Büyük Britanya"
+
+# 1,800
+battle.sides.1.strength: "1.800"
+
+# 5 killed, 14 wounded
+battle.sides.1.casualties: "5 ölü, 14 yaralı"
+
+# Battle of Quebec
+battle.name: "Quebec Muharebesi"
+
+# 31 December 1775
+battle.date: "31 Aralık 1775"
+
+# British victory, Quebec stays British
+battle.result: "İngiliz zaferi, Quebec İngilizlerde kalır"

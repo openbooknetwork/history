@@ -1,0 +1,30 @@
+# tr strings for the battle "springfield".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Massachusetts militia
+battle.sides.0.name: "Massachusetts milisleri"
+
+# 1,200
+battle.sides.0.strength: "1.200"
+
+# None
+battle.sides.0.casualties: "Yok"
+
+# Shays’ rebels
+battle.sides.1.name: "Shays’in isyancıları"
+
+# About 1,500
+battle.sides.1.strength: "Yaklaşık 1.500"
+
+# 4 killed, 20 wounded
+battle.sides.1.casualties: "4 ölü, 20 yaralı"
+
+# Shays’ Rebellion at Springfield
+battle.name: "Springfield’da Shays İsyanı"
+
+# 25 January 1787
+battle.date: "25 Ocak 1787"
+
+# Militia victory, the rebels scatter
+battle.result: "Milis zaferi, isyancılar dağılır"

@@ -1,0 +1,20 @@
+lnglat: [-73.6445, 43.0135]
+name: "Battles of Saratoga"
+date: "19 September and 7 October 1777"
+result: "American victory, Burgoyne surrenders on 17 October"
+source: https://en.wikipedia.org/wiki/Battles_of_Saratoga
+images: [burgoyne-surrender-702667, saratoga-will-f86114, saratoga-freemans-farm-16a132, saratoga-fraser-burial-74fa21]
+families:
+  usa: { color: "#2d7dd2", color_dark: "#6fb6ff" }
+  held: { color: "#c62828", color_dark: "#ff6b6b" }
+sides:
+  - name: "United States"
+    color: usa
+    commanders: ["Horatio Gates", "Benedict Arnold", "Benjamin Lincoln", "Daniel Morgan"]
+    strength: "9,000 in the first battle, over 15,000 at the surrender"
+    casualties: "90 killed, 240 wounded"
+  - name: "Great Britain"
+    color: held
+    commanders: ["John Burgoyne", "Simon Fraser", "William Phillips", "Friedrich Adolf Riedesel"]
+    strength: "7,200 in the first battle, 6,600 in the second"
+    casualties: "440 killed, 695 wounded, 6,222 captured"

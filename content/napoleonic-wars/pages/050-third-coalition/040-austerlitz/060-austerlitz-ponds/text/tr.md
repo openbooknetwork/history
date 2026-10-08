@@ -1,6 +1,6 @@
 Öğleden sonra saat 2’de müttefik ordusu bölünmüştür. Napolyon güneye, hâlâ Sokolnitz’te ve Telnitz’te çarpışan sol kanada döner. Saint-Hilaire’in tümeni Pratzen’den inerken Davout’nun askerleri Goldbach’tan saldırır ve Sokolnitz’teki müttefik birlikleri bozulur. Kienmayer ve Langeron olabildiğince hızlı kaçar, Buxhoeveden de savaş alanını terk eder. Sabahtan beri misket ateşi altında kalan ve fişekleri tükenen Przybyszewski’nin askerleri geri çekilir.
 
-@image austerlitz-ponds-gerard
+@image austerlitz-ponds-gerard-4c448e
 
 Artık Dokhturov’un komutasındaki yenik sol kanadın bir bölümü, Kienmayer’in O’Reilly hafif süvarisinin korumasında güneye, donmuş Satschan göllerinin üzerinden kaçar. Napolyon Augezd’in üstündeki tepelere top getirtir. Onun anlatımına göre bu ateş buzu kırar, birçok asker ve top suya gömülür. Birkaç gün sonra göller boşaltıldığında yalnızca iki üç ceset ve 150 kadar at leşi bulunur. Akşama doğru Dokhturov sağ kalanları Neudorf yakınında toplar.
 

@@ -4,8 +4,8 @@ Haziranda bir İngiliz filosu batıdaki kralcı isyancıları desteklemek için 
 
 III. Yıl Anayasası denen yeni anayasa yürütme yetkisini beş direktöre, yasama yetkisini Beş Yüzler Meclisi ve İhtiyarlar Meclisi adlı iki meclise verir. Ekim başında Paris’in kralcı mahalleleri Konvansiyon’a karşı ayaklanır, Konvansiyon da savunmayı Paul Barras’a verir. Barras Bonaparte’ı çağırır, o da Joachim Murat’ya Sablons ovasından 40 top getirtir. 13 Vendémiaire’de, yani 5 Ekim 1795’te toplar 7.000 kişilik kralcı saldırıya misket ateşi açar ve yaklaşık 300 kralcı ölür.
 
-@image directory-vendemiaire
+@image directory-vendemiaire-d9411a
 
 Konvansiyon son oturumunu 25 Ekim’de yapar ve ertesi günden itibaren ülkeyi, beş direktörden biri Barras olan Direktuar yönetir. Bonaparte İç Ordu’nun komutanı olur. Mart 1796’da Joséphine de Beauharnais ile evlenir ve iki gün sonra İtalya Ordusu’nun komutasını almak üzere Paris’ten ayrılır.
 
-@image directory-barras
+@image directory-barras-6f76bf

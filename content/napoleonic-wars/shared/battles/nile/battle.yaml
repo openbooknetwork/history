@@ -1,0 +1,20 @@
+lnglat: [30.13101, 31.32871]
+name: "Battle of the Nile"
+date: "1 – 3 August 1798"
+result: "British victory"
+source: https://en.wikipedia.org/wiki/Battle_of_the_Nile
+images: [nile-pocock-bf7ca2, nile-whitcombe-c2b1f2, nile-arnald-2cbb54, nile-tonnant-ffb0b5]
+families:
+  britain: { color: "#c0392b", color_dark: "#ef6b5b" }
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+sides:
+  - name: "Great Britain"
+    color: "britain"
+    commanders: ["Horatio Nelson"]
+    strength: "14 ships of the line, 1 sloop"
+    casualties: "218 killed, 677 wounded"
+  - name: "French Republic"
+    color: "france"
+    commanders: ["François-Paul Brueys d’Aigalliers", "Pierre-Charles Villeneuve"]
+    strength: "13 ships of the line, 4 frigates"
+    casualties: "2,000 to 5,000 killed or wounded, 3,000 to 3,900 captured, 11 ships of the line and 2 frigates lost"

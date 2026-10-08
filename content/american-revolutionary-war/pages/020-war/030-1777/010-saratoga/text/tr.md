@@ -4,6 +4,6 @@ Ticonderoga 6 Temmuz’da Burgoyne’a bırakılır ama ormanın içinden güney
 
 Eylülde Horatio Gates’in Bemis Heights’taki tahkimatın ardında yaklaşık 9.000 askeri vardır ve New England milisleri gelmeye devam eder. Burgoyne 19 Eylül’de Freeman’s Farm’da alanı elinde tutar ama 7 Ekim’de yenilir. Saratoga’da kuşatılınca 17 Ekim’de yaklaşık 6.000 askeriyle teslim olur. Fransa savaşa girmeye karar verir.
 
-@image saratoga-will
+@image saratoga-will-f86114
 
-@image burgoyne-surrender
+@image burgoyne-surrender-702667

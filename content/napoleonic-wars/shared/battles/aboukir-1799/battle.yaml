@@ -1,0 +1,20 @@
+lnglat: [30.067, 31.317]
+name: "Battle of Abukir"
+date: "25 July 1799"
+result: "French victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Abukir_(1799)
+images: [egypt-end-aboukir-5d5d83]
+families:
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+  ottoman: { color: "#8e3b46", color_dark: "#d9707f" }
+sides:
+  - name: "French Republic"
+    color: "france"
+    commanders: ["Napoleon Bonaparte", "Joachim Murat", "Jean Lannes", "François Lanusse"]
+    strength: "9,000 infantry, 1,000 cavalry, 17 guns"
+    casualties: "220 killed, 600 wounded"
+  - name: "Ottoman Empire and Great Britain"
+    color: "ottoman"
+    commanders: ["Mustafa Pasha", "Sidney Smith"]
+    strength: "20,000 and 30 guns, by Bonaparte’s and Bourrienne’s estimates"
+    casualties: "2,000 killed, 11,000 drowned, 5,000 captured, 2,000 missing"

@@ -1,6 +1,6 @@
 Velitesler geri çekilirken Gaesatae’nin yerine İnsubreler öne çıkar, Roma hastatileri de manipüller halinde ilerler. İnsubreler, Boiiler ve Taurisciler daha iyi silahlanmış Romalılara karşı yerlerini korur. Hastatilerin yerini daha deneyimli principesler alır ve Galya piyadesini yavaş yavaş yıpratır.
 
-@image telamon-stewart
+@image telamon-stewart-7fd6a3
 
 Ardından Roma süvarisi tepeden iner ve yorgun Galya piyadesinin yanına saldırır. Galya süvarisi çoktan kaçmıştır, piyade de olduğu yerde kılıçtan geçirilir.
 

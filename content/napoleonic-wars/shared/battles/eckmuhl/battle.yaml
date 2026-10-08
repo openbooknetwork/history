@@ -1,0 +1,20 @@
+lnglat: [12.18, 48.84]
+name: "Battle of Eckmühl"
+date: "21 – 22 April 1809"
+result: "French victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Eckmühl
+images: [eckmuhl-bagetti-8e999a]
+families:
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+  austria: { color: "#d4a017", color_dark: "#f2c94c" }
+sides:
+  - name: "French Empire and its German allies"
+    color: "france"
+    commanders: ["Napoleon", "Louis-Nicolas Davout", "Jean Lannes", "François Joseph Lefebvre", "Dominique Vandamme"]
+    strength: "70,000 at Eckmühl, 18,000 at Schierling on 21 April"
+    casualties: "3,000 killed and wounded at Eckmühl, 2,000 at Schierling"
+  - name: "Austrian Empire"
+    color: "austria"
+    commanders: ["Archduke Charles", "Johann Kollowrat", "Johann I of Liechtenstein"]
+    strength: "About 75,000, fewer than 47,000 of them engaged, and 16,000 at Schierling"
+    casualties: "11,000 at Eckmühl, 5,000 of them captured, and 3,000 at Schierling"

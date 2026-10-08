@@ -1,0 +1,30 @@
+# tr strings for the battle "fleurus".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# French Republic
+battle.sides.0.name: "Fransız Cumhuriyeti"
+
+# 70,000 infantry, 12,000 cavalry, 100 guns, 1 balloon
+battle.sides.0.strength: "70.000 piyade, 12.000 süvari, 100 top, 1 balon"
+
+# About 5,000
+battle.sides.0.casualties: "Yaklaşık 5.000"
+
+# Habsburg monarchy and the Dutch Republic
+battle.sides.1.name: "Habsburg Monarşisi ve Hollanda Cumhuriyeti"
+
+# 45,000 infantry, 14,000 cavalry, 111 guns
+battle.sides.1.strength: "45.000 piyade, 14.000 süvari, 111 top"
+
+# About 5,000 by traditional estimates, 1,586 by Digby Smith
+battle.sides.1.casualties: "Geleneksel tahminlere göre yaklaşık 5.000, Digby Smith’e göre 1.586"
+
+# Battle of Fleurus
+battle.name: "Fleurus Muharebesi"
+
+# 26 June 1794
+battle.date: "26 Haziran 1794"
+
+# French victory
+battle.result: "Fransız zaferi"

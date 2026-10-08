@@ -1,0 +1,47 @@
+# tr strings for the battle "maloyaroslavets".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# French Empire and Kingdom of Italy
+battle.sides.0.name: "Fransız İmparatorluğu ve İtalya Krallığı"
+
+# 24,000
+battle.sides.0.strength: "24.000"
+
+# 6,000 to 8,000 killed and wounded
+battle.sides.0.casualties: "6.000 ile 8.000 arası ölü ve yaralı"
+
+# Russian Empire
+battle.sides.1.name: "Rus İmparatorluğu"
+
+# 24,000
+battle.sides.1.strength: "24.000"
+
+# 8,000 killed and wounded
+battle.sides.1.casualties: "8.000 ölü ve yaralı"
+
+# Battle of Maloyaroslavets
+battle.name: "Maloyaroslavets Muharebesi"
+
+# 24 October 1812
+battle.date: "24 Ekim 1812"
+
+# French hold the town, Napoleon turns back to the Smolensk road
+battle.result: "Kasaba Fransızlarda kalır, Napolyon Smolensk yoluna geri döner"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Napoleon
+battle.sides.0.commanders.0: "Napolyon"
+
+# Mikhail Kutuzov
+battle.sides.1.commanders.0: "Mihail Kutuzov"
+
+# Dmitry Dokhturov
+battle.sides.1.commanders.1: "Dmitri Dohturov"
+
+# Nikolay Raevsky
+battle.sides.1.commanders.3: "Nikolay Rayevski"
+
+# Mikhail Miloradovich
+battle.sides.1.commanders.4: "Mihail Miloradoviç"

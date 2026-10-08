@@ -1,0 +1,17 @@
+lnglat: [-88.15, 21.29]
+name: "Battle of Aké"
+date: "Spring 1528"
+result: "Spanish victory, the neighbouring Maya lords submit"
+source: https://en.wikipedia.org/wiki/Spanish_conquest_of_Yucat%C3%A1n
+images: [montejo-1527-arms-6bdd5f]
+families:
+  spain: { color: "#b03a7a", color_dark: "#e07ab0" }
+  eastern: { color: "#c78a1c", color_dark: "#f0b54a" }
+sides:
+  - name: "Spain"
+    color: spain
+    commanders: ["Francisco de Montejo"]
+    strength: "125 men"
+  - name: "Maya of Chauaca and Aké"
+    color: eastern
+    casualties: "More than 1,200 killed"

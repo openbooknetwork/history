@@ -1,0 +1,20 @@
+lnglat: [16.5014, 48.2194]
+name: "Battle of Aspern-Essling"
+date: "21 – 22 May 1809"
+result: "Austrian victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Aspern-Essling
+images: [aspern-krafft-staff-c3ab41, aspern-krafft-flag-2c64e0, aspern-lannes-aba50e, aspern-cormon-05d111]
+families:
+  austria: { color: "#d4a017", color_dark: "#f2c94c" }
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+sides:
+  - name: "Austrian Empire"
+    color: "austria"
+    commanders: ["Archduke Charles", "Johann von Hiller", "Heinrich von Bellegarde", "Friedrich von Hohenzollern-Hechingen", "Franz von Rosenberg", "Johann I of Liechtenstein"]
+    strength: "98,000, 292 guns"
+    casualties: "About 23,000 killed, wounded and captured"
+  - name: "French Empire"
+    color: "france"
+    commanders: ["Napoleon", "André Masséna", "Jean Lannes", "Jean-Baptiste Bessières"]
+    strength: "80,000"
+    casualties: "20,000 to 23,000 killed, wounded and captured, 3 guns"

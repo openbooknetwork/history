@@ -1,0 +1,26 @@
+# tr strings for the battle "ringmere-1010".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# East Anglia and Cambridgeshire
+battle.sides.0.name: "Doğu Anglia ve Cambridgeshire"
+
+# Routed after Thurcytel Mare’s-head flees
+battle.sides.0.casualties: "Kısrak Başı lakaplı Thurcytel kaçınca bozguna uğrarlar"
+
+# Thorkell’s army
+battle.sides.1.name: "Thorkell’in ordusu"
+
+# Battle of Ringmere
+battle.name: "Ringmere Muharebesi"
+
+# 5 May 1010
+battle.date: "5 Mayıs 1010"
+
+# Danish victory
+battle.result: "Dan zaferi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Olaf Haraldsson, by Sigvatr’s verse
+battle.sides.1.commanders.1: "Olaf Haraldsson, Sigvatr’ın dizelerine göre"

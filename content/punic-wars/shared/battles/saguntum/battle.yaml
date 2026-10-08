@@ -1,0 +1,16 @@
+lnglat: [-0.2745, 39.6785]
+name: "Siege of Saguntum"
+date: "219 BC"
+result: "Carthaginian victory, beginning of the Second Punic War"
+source: https://en.wikipedia.org/wiki/Siege_of_Saguntum
+images: [saguntum-view-3a7ad0, saguntum-castle-4290c0, saguntum-citadel-c86982, saguntum-last-day-616ae3]
+families:
+  carthage: { color: "#6a3d9a", color_dark: "#a98bd6" }
+sides:
+  - name: "Carthage"
+    color: carthage
+    commanders: ["Hannibal", "Maharbal"]
+    casualties: "Heavy"
+  - name: "Saguntum"
+    color: "#8c8c8c"
+    casualties: "Nearly all the defenders killed, many civilians"

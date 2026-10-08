@@ -1,0 +1,19 @@
+lnglat: [30.13, 39.82]
+name: First and Second Battles of İnönü
+date: "6–11 January and 23 March – 1 April 1921"
+result: "Greek advance stopped both times"
+source: https://en.wikipedia.org/wiki/Second_Battle_of_İnönü
+images: [inonu-inspection-affc12, inonu-first-kemal-148444, inonu-second-inspection-b7635f, afyon-greek-trench-1921-48b1ae]
+families:
+  greek: { color: "#2f6a9f", color_dark: "#6fa3d6" }
+sides:
+  - name: Grand National Assembly
+    color: "#b8333a"
+    commanders: [İsmet Pasha, Refet Pasha]
+    strength: "6,000 in the first battle, 15,000 in the second"
+    casualties: "About 500 in the first battle, about 3,900 in the second"
+  - name: Kingdom of Greece
+    color: greek
+    commanders: [Anastasios Papoulas]
+    strength: "18,000 in the first battle, 30,000 in the second"
+    casualties: "About 180 in the first battle, about 4,300 in the second"

@@ -1,0 +1,30 @@
+# tr strings for the battle "aegates".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Roman Republic
+battle.sides.0.name: "Roma Cumhuriyeti"
+
+# About 200 quinqueremes
+battle.sides.0.strength: "Yaklaşık 200 kinkerem"
+
+# 30 ships sunk, 50 damaged
+battle.sides.0.casualties: "30 gemi batırıldı, 50 gemi hasar gördü"
+
+# Carthage
+battle.sides.1.name: "Kartaca"
+
+# About 250 quinqueremes
+battle.sides.1.strength: "Yaklaşık 250 kinkerem"
+
+# 50 ships sunk, 70 captured, 10,000 men captured
+battle.sides.1.casualties: "50 gemi batırıldı, 70 gemi ele geçirildi, 10.000 esir"
+
+# Battle of the Aegates
+battle.name: "Aegates Muharebesi"
+
+# 10 March 241 BC
+battle.date: "10 Mart MÖ 241"
+
+# Roman victory, Treaty of Lutatius
+battle.result: "Roma zaferi, Lutatius Antlaşması"

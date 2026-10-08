@@ -1,0 +1,20 @@
+lnglat: [27.2618, 44.1212]
+name: "Siege of Dorostolon"
+date: "23 April – late July 971"
+result: "Byzantine victory, Sviatoslav gives up Bulgaria"
+source: https://en.wikipedia.org/wiki/Siege_of_Dorostolon
+images: [dorostolon-preslav-b583b2, dorostolon-gunthertuch-5f8c50]
+families:
+  byzantium: { color: "#6b2d6b", color_dark: "#c27ac2" }
+  rus: { color: "#1f8a8a", color_dark: "#4fc4c4" }
+sides:
+  - name: "Byzantine Empire"
+    color: byzantium
+    commanders: ["John I Tzimiskes", "Bardas Skleros"]
+    strength: "28,000–30,000 men and 300 ships"
+    casualties: "350 dead in the last battle, by Leo the Deacon"
+  - name: "Rus' and Bulgarian allies"
+    color: rus
+    commanders: ["Sviatoslav (wounded)", "Ikmor (killed)"]
+    strength: "60,000 by Leo the Deacon, 30,000 by Julian Romane"
+    casualties: "15,000 dead in the last battle by Leo the Deacon, 22,000 left at the peace"

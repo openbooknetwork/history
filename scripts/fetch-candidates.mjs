@@ -2,9 +2,11 @@
 //   node scripts/fetch-candidates.mjs [story] [--limit 6] [--pages a,b] [--queries file] [--out name]   (--pages refetches those pages)
 // Reads scripts/image-queries.yaml or the --queries file, writes content/<story>/.candidates/<page>/ and .candidates/index.yaml.
 // --out writes into .candidates/<name>/ instead, so agents fetching at the same time keep separate index files.
+// A file the atlas already holds, by its Commons page or by its bytes, is not kept: index.yaml lists it with held: <id>.
 import fs from 'fs';
 import path from 'path';
 import * as yaml from 'js-yaml';
+import { imageIndex, findImage } from '@openhistoryatlas/harita';
 
 const story = process.argv[2] && !process.argv[2].startsWith('--') ? process.argv[2] : 'ataturk-turkish-republic';
 const arg = name => process.argv.includes(name) ? process.argv[process.argv.indexOf(name) + 1] : null;
@@ -43,6 +45,8 @@ const strip = s => String(s ?? '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').
 const indexFile = path.join(outDir, 'index.yaml');
 const index = fs.existsSync(indexFile) ? yaml.load(fs.readFileSync(indexFile, 'utf8')) ?? {} : {};
 const save = () => fs.writeFileSync(indexFile, yaml.dump(index, { lineWidth: 120 }));
+// every image folder of the atlas, to skip what a story or content/shared/images/ holds already
+const held = imageIndex({ root: '.' });
 let seen = new Set(Object.values(index).flat().map(c => 'File:' + c.title));
 for (const [page, spec] of Object.entries(queries)) {
   if (only && !only.includes(page)) continue;
@@ -85,14 +89,22 @@ for (const [page, spec] of Object.entries(queries)) {
     // The extension comes from the downloaded thumbnail, so a long title cut to 80 characters keeps one
     const url = ii.thumburl ?? ii.url, ext = path.extname(new URL(url).pathname).toLowerCase();
     const base = p.title.replace(/^File:/, '').replace(/\.\w+$/, '').replace(/[^\w.-]+/g, '_').slice(0, 80);
-    const name = `${String(++n).padStart(2, '0')}-${base}${ext}`;
+    const commonsPage = `https://commons.wikimedia.org/wiki/${encodeURIComponent(p.title)}`;
+    const entry = { title: p.title.replace(/^File:/, ''), page: commonsPage, author: strip(meta.Artist?.value), license, date: strip(meta.DateTimeOriginal?.value),
+      description: strip(meta.ImageDescription?.value).slice(0, 300), width: ii.width, height: ii.height };
+    seen.add(p.title);
+    // the same Commons page in an image folder: nothing to download
+    const known = findImage(held, { source: commonsPage });
+    if (known) { index[page].push({ file: null, held: known.id, ...entry }); console.log(`  held already: ${known.id}`); continue; }
+    const name = `${String(++n).padStart(2, '0')}-${base}${ext}`, file = path.join(dir, name);
     try {
       const img = await get(url);
-      fs.writeFileSync(path.join(dir, name), Buffer.from(await img.arrayBuffer()));
+      fs.writeFileSync(file, Buffer.from(await img.arrayBuffer()));
     } catch (e) { console.log(`  skip ${p.title}: ${e.message}`); continue; }
-    seen.add(p.title);
-    index[page].push({ file: name, title: p.title.replace(/^File:/, ''), page: `https://commons.wikimedia.org/wiki/${encodeURIComponent(p.title)}`,
-      author: strip(meta.Artist?.value), license, date: strip(meta.DateTimeOriginal?.value), description: strip(meta.ImageDescription?.value).slice(0, 300), width: ii.width, height: ii.height });
+    // the same bytes in an image folder that names no source: the download goes
+    const same = findImage(held, { file });
+    if (same) { fs.rmSync(file); index[page].push({ file: null, held: same.id, ...entry }); console.log(`  held already: ${same.id}`); continue; }
+    index[page].push({ file: name, ...entry });
     await sleep(800);
   }
   console.log(`${page}: ${index[page].length} candidates`);

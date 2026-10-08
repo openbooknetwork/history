@@ -1,0 +1,20 @@
+lnglat: [-5.64916, 40.8815]
+name: "Battle of Salamanca"
+date: "22 July 1812"
+result: "Coalition victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Salamanca
+images: [salamanca-pakenham-107237, salamanca-heath-fbee44, salamanca-arapiles-38e32b, salamanca-marmont-81ce32]
+families:
+  britain: { color: "#c0392b", color_dark: "#ef6b5b" }
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+sides:
+  - name: "Britain, Portugal and Spain"
+    color: "britain"
+    commanders: ["Earl of Wellington"]
+    strength: "46,000 to 51,949"
+    casualties: "4,800 to 5,200 killed or wounded: 3,129 British, 2,038 Portuguese, 6 Spanish"
+  - name: "French Empire"
+    color: "france"
+    commanders: ["Auguste de Marmont", "Jean Bonet", "Bertrand Clauzel"]
+    strength: "42,000 to 49,647"
+    casualties: "6,000 to 10,000 killed or wounded, 7,000 captured"

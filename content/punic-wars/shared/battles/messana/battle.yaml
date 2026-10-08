@@ -1,0 +1,20 @@
+lnglat: [15.54586, 38.21263]
+name: "Battle of Messana"
+date: "264 BC"
+result: "Roman victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Messana
+images: [messana-strait-fb31f0, messana-mamertine-coin-115762, messana-hiero-coin-f600b6, messana-pelorus-8af638]
+families:
+  rome: { color: "#b03a2e", color_dark: "#e8695c" }
+  carthage: { color: "#6a3d9a", color_dark: "#a98bd6" }
+sides:
+  - name: "Roman Republic"
+    color: rome
+    commanders: ["Appius Claudius Caudex", "Manius Valerius Maximus", "Manius Otacilius Crassus"]
+    strength: "9,000"
+    casualties: "1,340"
+  - name: "Carthage and Syracuse"
+    color: carthage
+    commanders: ["Hanno", "Hiero II"]
+    strength: "12,000 cavalry, hoplites and mercenaries"
+    casualties: "6,000"

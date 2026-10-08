@@ -1,0 +1,20 @@
+lnglat: [-73.968, 40.665]
+name: "Battle of Long Island"
+date: "27 August 1776"
+result: "British victory, Washington withdraws to Manhattan"
+source: https://en.wikipedia.org/wiki/Battle_of_Long_Island
+images: [long-island-chappel-6db379, long-island-1776-5ab5b2, battle-pass-1866-ff5a2e, vechte-cortelyou-house-4361e2, retreat-from-long-island-e18501]
+families:
+  usa: { color: "#2d7dd2", color_dark: "#6fb6ff" }
+  held: { color: "#c62828", color_dark: "#ff6b6b" }
+sides:
+  - name: "United States"
+    color: usa
+    commanders: ["George Washington", "Israel Putnam", "John Sullivan", "William Alexander"]
+    strength: "10,000"
+    casualties: "300 killed, 800 wounded, 1,079 captured or missing"
+  - name: "Great Britain and Hesse-Kassel"
+    color: held
+    commanders: ["William Howe", "Charles Cornwallis", "Henry Clinton"]
+    strength: "20,000"
+    casualties: "64 killed, 293 wounded, 31 missing"

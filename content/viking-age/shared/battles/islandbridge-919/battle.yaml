@@ -1,0 +1,17 @@
+lnglat: [-6.3083, 53.3472]
+name: "Battle of Islandbridge"
+date: "14 September 919"
+result: "Victory of the Vikings of Dublin, Niall Glúndub killed"
+source: https://en.wikipedia.org/wiki/Battle_of_Islandbridge
+images: [islandbridge-petrie-60baa6, islandbridge-annals-fb311b]
+families:
+  norse: { color: "#6a3d9a", color_dark: "#a98bd6" }
+  celts: { color: "#2e8b57", color_dark: "#5fcf8f" }
+sides:
+  - name: "Vikings of Dublin"
+    color: norse
+    commanders: ["Sitric Cáech"]
+  - name: "Coalition of Irish kings"
+    color: celts
+    commanders: ["Niall Glúndub", "Áed mac Eochocáin", "Máel Mithig mac Flannacáin", "Conchobar mac Flainn"]
+    casualties: "Niall Glúndub and five other kings killed"

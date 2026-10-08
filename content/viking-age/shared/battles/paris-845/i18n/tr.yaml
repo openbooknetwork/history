@@ -1,0 +1,24 @@
+# tr strings for the battle "paris-845".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Vikings, mainly Danes
+battle.sides.0.name: "Vikingler, çoğu Dan"
+
+# 120 ships, more than 5,000 men
+battle.sides.0.strength: "120 gemi, 5.000’den fazla adam"
+
+# West Francia
+battle.sides.1.name: "Batı Frank Krallığı"
+
+# 111 prisoners hanged
+battle.sides.1.casualties: "111 esir asılır"
+
+# Siege of Paris
+battle.name: "Paris Kuşatması"
+
+# 29 March 845
+battle.date: "29 Mart 845"
+
+# Viking victory, Charles the Bald pays 7,000 pounds
+battle.result: "Viking zaferi, Kel Charles 7.000 libre öder"

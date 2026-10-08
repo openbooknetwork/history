@@ -2,6 +2,6 @@
 
 Muharebe Xelajú’nun kuzeyinde, Olintepeque yakınında yapılır. K'iche'ler ağır bir yenilgiye uğrar, ölenler arasında soylularından çoğu vardır. Ölü sayısı o kadar yüksektir ki Olintepeque’ye kabaca "kanla yıkanmış" anlamına gelen Xequiquel adı verilir ve kasabanın yanındaki nehir bugün de Xekik'el adını taşır. Yaygın görüş Tecun Uman’ın ölümünü bu muharebeye yerleştirir.
 
-@image xelaju-olintepeque-tecun-uman
+@image xelaju-olintepeque-tecun-uman-20d0a6
 
 Yenilgi K'iche'lerin askerî gücünü tüketir. Beyleri barış ister, haraç önerir ve Alvarado’yu başkentleri Q'umarkaj’a davet eder. Alvarado teklife güvenmez ama kabul eder.

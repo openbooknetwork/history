@@ -2,6 +2,6 @@ On 6 May 1776 British ships reach Quebec with the first reinforcements, and the 
 
 Through the summer both sides build ships on the lake. On 11 October Guy Carleton’s flotilla defeats Benedict Arnold’s smaller fleet at Valcour Island. Carleton occupies Crown Point from 17 October, but with winter coming he withdraws to Canada on 2 November and leaves Ticonderoga in American hands.
 
-@image valcour-gilder
+@image valcour-gilder-05b5d4
 
-@image valcour-map-1776
+@image valcour-map-1776-c65ce4

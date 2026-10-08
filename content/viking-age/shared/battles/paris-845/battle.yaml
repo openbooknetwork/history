@@ -1,0 +1,18 @@
+lnglat: [2.347, 48.853]
+name: "Siege of Paris"
+date: "29 March 845"
+result: "Viking victory, Charles the Bald pays 7,000 pounds"
+source: "https://en.wikipedia.org/wiki/Siege_of_Paris_(845)"
+images: [paris-845-charles-822fac, paris-845-denier-e34154]
+families:
+  danes: { color: "#b5352a", color_dark: "#e8695c" }
+  franks: { color: "#7a6a53", color_dark: "#b8a68a" }
+sides:
+  - name: "Vikings, mainly Danes"
+    color: danes
+    commanders: ["Reginherus (Ragnar)"]
+    strength: "120 ships, more than 5,000 men"
+  - name: "West Francia"
+    color: franks
+    commanders: ["Charles the Bald"]
+    casualties: "111 prisoners hanged"

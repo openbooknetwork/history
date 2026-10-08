@@ -1,0 +1,30 @@
+# tr strings for the battle "rivoli".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# French Republic
+battle.sides.0.name: "Fransız Cumhuriyeti"
+
+# 22,000
+battle.sides.0.strength: "22.000"
+
+# 3,200 killed or wounded, 1,000 captured
+battle.sides.0.casualties: "3.200 ölü ya da yaralı, 1.000 esir"
+
+# Habsburg monarchy
+battle.sides.1.name: "Habsburg Monarşisi"
+
+# 28,000
+battle.sides.1.strength: "28.000"
+
+# 4,000 killed or wounded, 8,000 to 10,000 captured, 40 guns
+battle.sides.1.casualties: "4.000 ölü ya da yaralı, 8.000 – 10.000 esir, 40 top"
+
+# Battle of Rivoli
+battle.name: "Rivoli Muharebesi"
+
+# 14 January 1797
+battle.date: "14 Ocak 1797"
+
+# French victory
+battle.result: "Fransız zaferi"

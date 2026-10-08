@@ -1,5 +1,5 @@
 İngilizler 22 Ağustos’tan itibaren Gravesend Koyu’na asker çıkarır ve 25’ine kadar Long Island’daki kuvvetleri, aralarında Hessenliler de olmak üzere 20.000 kişiyi bulur. Amerikalılar Brooklyn hatlarının önündeki ormanlık Guan Tepeleri’ni tutar. Lord Stirling Gowanus Yolu’nda, John Sullivan Flatbush ve Bedford geçitlerinde, Israel Putnam ise yaklaşık 6.000 kişiyle Brooklyn Heights’taki tahkimli hatlardadır. En doğudaki Jamaica Geçidi’ni atlı beş milis subayı gözetler.
 
-@image howards-tavern-1776
+@image howards-tavern-1776-9302c4
 
 Yerli Kralcılar Clinton’a geçidi haber verir. 26 Ağustos saat 21’de Clinton, Cornwallis, Howe ve Hugh Percy komutasındaki yaklaşık 10.000 asker, kamp ateşlerini yanık bırakarak Flatlands’ten çıkar ve gece boyunca önce kuzeydoğuya, sonra kuzeye yürür. Howard’s Tavern yakınında meyhaneciyi kılavuzluk etmeye zorlar, beş subayı tek kurşun atmadan esir eder ve şafakta geçidi aşmış olurlar. Bu arada James Grant’in 4.000 kişilik İngiliz ve Hessen kuvveti, Amerikalıların dikkatini çekmek için saat 1 dolaylarında Gowanus Yolu’ndan saldırır.

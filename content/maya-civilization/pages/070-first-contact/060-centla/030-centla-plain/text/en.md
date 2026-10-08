@@ -4,4 +4,4 @@ On the savanna the Chontal army comes to meet them in squadrons, with great feat
 
 The Chontal surround the Spanish foot on every side, and their first attack wounds more than seventy Spaniards. For about an hour the Spaniards keep their ranks and fire their guns and crossbows into the massed warriors, but they cannot make them give ground.
 
-@image centla-plain-solis
+@image centla-plain-solis-c2fbe1

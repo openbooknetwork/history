@@ -1,0 +1,19 @@
+lnglat: [26.28, 40.24]
+name: Gallipoli campaign
+date: "19 February 1915 – 9 January 1916"
+result: "Ottoman victory, Allied evacuation"
+source: https://en.wikipedia.org/wiki/Gallipoli_campaign
+images: [anzac-landing-febd5d, ariburnu-sunrise-3b5a6c, suvla-group-9bd1d3, chunuk-bair-brown-1fc00d, suvla-landing-434757]
+families:
+  entente: { color: "#8a6d1f", color_dark: "#c9a24a" }
+sides:
+  - name: Ottoman Empire
+    color: "#b8333a"
+    commanders: [Otto Liman von Sanders, Esat Pasha, Mustafa Kemal, Vehip Pasha]
+    strength: "250,000–315,500 over the campaign"
+    casualties: "255,268–289,160, of them 56,938–87,000 dead"
+  - name: British Empire and France
+    color: entente
+    commanders: [Ian Hamilton, William Birdwood, Charles Monro]
+    strength: "489,000–550,000 over the campaign"
+    casualties: "252,000–300,000, of them 43,000–61,398 dead"

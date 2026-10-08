@@ -1,0 +1,38 @@
+# tr strings for the battle "quatre-bras".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Britain, the Netherlands, Brunswick and Nassau
+battle.sides.0.name: "Britanya, Hollanda, Braunschweig ve Nassau"
+
+# 32,000–36,000
+battle.sides.0.strength: "32.000–36.000"
+
+# 4,800–5,600 killed or wounded
+battle.sides.0.casualties: "4.800–5.600 ölü ya da yaralı"
+
+# French Empire
+battle.sides.1.name: "Fransız İmparatorluğu"
+
+# 20,000–21,000
+battle.sides.1.strength: "20.000–21.000"
+
+# 4,140–4,400 killed or wounded
+battle.sides.1.casualties: "4.140–4.400 ölü ya da yaralı"
+
+# Battle of Quatre Bras
+battle.name: "Quatre Bras Muharebesi"
+
+# 16 June 1815
+battle.date: "16 Haziran 1815"
+
+# Inconclusive
+battle.result: "Sonuçsuz"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Duke of Wellington
+battle.sides.0.commanders.0: "Wellington Dükü"
+
+# William, Prince of Orange
+battle.sides.0.commanders.1: "Orange Prensi Willem"

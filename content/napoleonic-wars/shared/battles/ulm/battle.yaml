@@ -1,0 +1,20 @@
+lnglat: [9.99, 48.4]
+name: "Battle of Ulm"
+date: "16 – 20 October 1805"
+result: "French victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Ulm
+images: [ulm-surrender-thevenin-74e3a7, ulm-elchingen-rugendas-884a3b, ulm-lech-66f4e1, ulm-mack-e4c0ed]
+families:
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+  austria: { color: "#d4a017", color_dark: "#f2c94c" }
+sides:
+  - name: "French Empire"
+    color: "france"
+    commanders: ["Napoleon", "Michel Ney", "Joachim Murat"]
+    strength: "80,000"
+    casualties: "1,500 killed, wounded or captured"
+  - name: "Austrian Empire"
+    color: "austria"
+    commanders: ["Karl Mack von Leiberich", "Archduke Ferdinand", "Prince Johann of Liechtenstein"]
+    strength: "40,000"
+    casualties: "4,000 killed or wounded, 27,000 captured"

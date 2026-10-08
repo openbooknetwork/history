@@ -1,6 +1,6 @@
 21 Ekim şafağında Britanya filosu Trafalgar Burnu’nun yaklaşık 34 km kuzeybatısındadır, birleşik filo ise onunla burun arasındadır. Saat 6’da Nelson gemilerine savaşa hazırlanmalarını emreder. Gemiler iki kol oluşturur: kuzeyde HMS Victory’deki Nelson komutasında rüzgâr üstü kolu, güneyde HMS Royal Sovereign’daki Collingwood komutasında rüzgâr altı kolu. Rüzgârı arkalarına alıp bütün yelkenleri açarlar, ama hafif esintide yaklaşma saatler sürer.
 
-@image trafalgar-approach-pocock
+@image trafalgar-approach-pocock-5e241a
 
 Saat 8’de Villeneuve filoya hep birlikte dönüp Cádiz’e yönelme emri verir. Bu dönüş hattını tersine çevirir ve Dumanoir’ın artçı tümeni öne geçer. Hafif ve yön değiştiren rüzgârda deneyimsiz tayfalar dönüşü ancak bir buçuk saate yakın bir sürede tamamlar. Birleşik filo yaklaşık 8 km uzunluğunda, kuzeye yol alan düzensiz bir hilal halini alır. Yavaş gemiler rüzgâr altında, kıyıya daha yakın kalır.
 

@@ -1,0 +1,30 @@
+# tr strings for the battle "long-island".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# United States
+battle.sides.0.name: "Birleşik Devletler"
+
+# 10,000
+battle.sides.0.strength: "10.000"
+
+# 300 killed, 800 wounded, 1,079 captured or missing
+battle.sides.0.casualties: "300 ölü, 800 yaralı, 1.079 esir veya kayıp"
+
+# Great Britain and Hesse-Kassel
+battle.sides.1.name: "Büyük Britanya ve Hessen-Kassel"
+
+# 20,000
+battle.sides.1.strength: "20.000"
+
+# 64 killed, 293 wounded, 31 missing
+battle.sides.1.casualties: "64 ölü, 293 yaralı, 31 kayıp"
+
+# Battle of Long Island
+battle.name: "Long Island Muharebesi"
+
+# 27 August 1776
+battle.date: "27 Ağustos 1776"
+
+# British victory, Washington withdraws to Manhattan
+battle.result: "İngiliz zaferi, Washington Manhattan’a çekilir"

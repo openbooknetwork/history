@@ -1,0 +1,41 @@
+# tr strings for the battle "eckmuhl".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# French Empire and its German allies
+battle.sides.0.name: "Fransız İmparatorluğu ve Alman müttefikleri"
+
+# 70,000 at Eckmühl, 18,000 at Schierling on 21 April
+battle.sides.0.strength: "Eckmühl’de 70.000, 21 Nisan’da Schierling’de 18.000"
+
+# 3,000 killed and wounded at Eckmühl, 2,000 at Schierling
+battle.sides.0.casualties: "Eckmühl’de 3.000, Schierling’de 2.000 ölü ve yaralı"
+
+# Austrian Empire
+battle.sides.1.name: "Avusturya İmparatorluğu"
+
+# About 75,000, fewer than 47,000 of them engaged, and 16,000 at Schierling
+battle.sides.1.strength: "Yaklaşık 75.000, çarpışmaya girenler 47.000’den az, Schierling’de 16.000"
+
+# 11,000 at Eckmühl, 5,000 of them captured, and 3,000 at Schierling
+battle.sides.1.casualties: "Eckmühl’de 11.000, bunların 5.000’i esir, Schierling’de 3.000"
+
+# Battle of Eckmühl
+battle.name: "Eckmühl Muharebesi"
+
+# 21 – 22 April 1809
+battle.date: "21 – 22 Nisan 1809"
+
+# French victory
+battle.result: "Fransız zaferi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Napoleon
+battle.sides.0.commanders.0: "Napolyon"
+
+# Archduke Charles
+battle.sides.1.commanders.0: "Arşidük Karl"
+
+# Johann I of Liechtenstein
+battle.sides.1.commanders.2: "Lihtenştaynlı I. Johann"

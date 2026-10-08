@@ -4,4 +4,4 @@ Fighting at Aspern resumes before dawn in thick mist, and at about 7 am Masséna
 
 Shortly after 7 am Lannes advances on the Austrian centre in echelon, Saint-Hilaire leading on the right and Oudinot’s divisions under Jean Tharreau and Michel Claparède following in the centre and on the left. Under heavy fire the Austrian front wavers, until Charles brings up his reserve grenadiers and rallies the Zach infantry regiment in person. The French are halted, and Bessières’s cavalry charges are driven back. Between 8 and 9 am the bridge to the Lobau breaks again, and Napoleon orders a gradual withdrawal to the line of the two villages.
 
-@image aspern-krafft-flag
+@image aspern-krafft-flag-2c64e0

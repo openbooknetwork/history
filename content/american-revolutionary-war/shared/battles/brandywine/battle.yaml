@@ -1,0 +1,20 @@
+lnglat: [-75.5945, 39.9055]
+name: "Battle of Brandywine"
+date: "11 September 1777"
+result: "British victory, the road to Philadelphia open"
+source: https://en.wikipedia.org/wiki/Battle_of_Brandywine
+images: [brandywine-1777-4ecdb1, brandywine-vanderlyn-94ad1a, brandywine-osborne-hill-b5df73, brandywine-pyle-4053e7]
+families:
+  usa: { color: "#2d7dd2", color_dark: "#6fb6ff" }
+  held: { color: "#c62828", color_dark: "#ff6b6b" }
+sides:
+  - name: "United States"
+    color: usa
+    commanders: ["George Washington", "Nathanael Greene", "John Sullivan", "Marquis de Lafayette"]
+    strength: "14,600"
+    casualties: "250 killed, 600 wounded, 400 captured"
+  - name: "Great Britain and Hesse-Kassel"
+    color: held
+    commanders: ["William Howe", "Charles Cornwallis", "Wilhelm von Knyphausen"]
+    strength: "15,500"
+    casualties: "93 killed, 488 wounded, 6 missing"

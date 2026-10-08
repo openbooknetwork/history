@@ -1,0 +1,20 @@
+lnglat: [-0.9775, 37.6012]
+name: "Battle of New Carthage"
+date: "Early 209 BC"
+result: "Roman victory, New Carthage taken"
+source: https://en.wikipedia.org/wiki/Battle_of_Cartagena_(209_BC)
+images: [scipio-africanus-bust-359b53, new-carthage-punic-wall-764868, new-carthage-furnius-80a1b5, continence-of-scipio-2c63ec]
+families:
+  rome: { color: "#b03a2e", color_dark: "#e8695c" }
+  carthage: { color: "#6a3d9a", color_dark: "#a98bd6" }
+sides:
+  - name: "Roman Republic"
+    color: rome
+    commanders: ["Publius Cornelius Scipio"]
+    strength: "27,500, with 35 galleys"
+    casualties: "Unknown"
+  - name: "Carthage"
+    color: carthage
+    commanders: ["Mago"]
+    strength: "Over 3,000, of them 2,000 civilian levies"
+    casualties: "All killed or captured"

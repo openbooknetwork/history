@@ -1,0 +1,30 @@
+# tr strings for the battle "nile".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Great Britain
+battle.sides.0.name: "Büyük Britanya"
+
+# 14 ships of the line, 1 sloop
+battle.sides.0.strength: "14 hat gemisi, 1 korvet"
+
+# 218 killed, 677 wounded
+battle.sides.0.casualties: "218 ölü, 677 yaralı"
+
+# French Republic
+battle.sides.1.name: "Fransız Cumhuriyeti"
+
+# 13 ships of the line, 4 frigates
+battle.sides.1.strength: "13 hat gemisi, 4 firkateyn"
+
+# 2,000 to 5,000 killed or wounded, 3,000 to 3,900 captured, 11 ships of the line and 2 frigates lost
+battle.sides.1.casualties: "2.000 ile 5.000 arası ölü ya da yaralı, 3.000 ile 3.900 arası esir, 11 hat gemisi ve 2 firkateyn kaybı"
+
+# Battle of the Nile
+battle.name: "Nil Muharebesi"
+
+# 1 – 3 August 1798
+battle.date: "1 – 3 Ağustos 1798"
+
+# British victory
+battle.result: "İngiliz zaferi"

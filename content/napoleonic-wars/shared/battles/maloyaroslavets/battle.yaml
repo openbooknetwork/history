@@ -1,0 +1,20 @@
+lnglat: [36.458, 55.022]
+name: "Battle of Maloyaroslavets"
+date: "24 October 1812"
+result: "French hold the town, Napoleon turns back to the Smolensk road"
+source: https://en.wikipedia.org/wiki/Battle_of_Maloyaroslavets
+images: [maloyaroslavets-hess-a84dc0]
+families:
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+  russia: { color: "#2e8b57", color_dark: "#5fcf8f" }
+sides:
+  - name: "French Empire and Kingdom of Italy"
+    color: "france"
+    commanders: ["Napoleon", "Eugène de Beauharnais", "Louis-Nicolas Davout", "Alexis Delzons", "Domenico Pino"]
+    strength: "24,000"
+    casualties: "6,000 to 8,000 killed and wounded"
+  - name: "Russian Empire"
+    color: "russia"
+    commanders: ["Mikhail Kutuzov", "Dmitry Dokhturov", "Aleksey Yermolov", "Nikolay Raevsky", "Mikhail Miloradovich"]
+    strength: "24,000"
+    casualties: "8,000 killed and wounded"

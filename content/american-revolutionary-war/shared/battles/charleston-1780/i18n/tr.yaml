@@ -1,0 +1,30 @@
+# tr strings for the battle "charleston-1780".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# United States
+battle.sides.0.name: "Birleşik Devletler"
+
+# 6,577 regulars, sailors and militia
+battle.sides.0.strength: "6.577 düzenli asker, denizci ve milis"
+
+# 89 killed, 138 wounded, 5,466 captured
+battle.sides.0.casualties: "89 ölü, 138 yaralı, 5.466 esir"
+
+# Great Britain and Hesse-Kassel
+battle.sides.1.name: "Büyük Britanya ve Hessen-Kassel"
+
+# 12,847 soldiers, 4,500 sailors, 14 warships
+battle.sides.1.strength: "12.847 asker, 4.500 denizci, 14 savaş gemisi"
+
+# 99 killed, 117 wounded on land and at sea
+battle.sides.1.casualties: "Karada ve denizde 99 ölü, 117 yaralı"
+
+# Siege of Charleston
+battle.name: "Charleston Kuşatması"
+
+# 29 March – 12 May 1780
+battle.date: "29 Mart – 12 Mayıs 1780"
+
+# British victory, Lincoln surrenders his army
+battle.result: "İngiliz zaferi, Lincoln ordusuyla teslim olur"

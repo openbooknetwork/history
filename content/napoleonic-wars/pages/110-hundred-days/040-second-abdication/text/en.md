@@ -4,8 +4,8 @@ Grouchy defeats Thielmann at Wavre on the morning of 19 June and retreats to Par
 
 On 29 June, with Prussian troops ordered to seize him dead or alive, Napoleon leaves for Rochefort, hoping to sail for the United States. British warships blockade the port, and on 15 July he surrenders to Captain Frederick Maitland of HMS Bellerophon, which takes him to England. The British government sends him to Saint Helena in the South Atlantic, 1,870 km from the coast of Africa, and in October 1815 he lands at Jamestown from HMS Northumberland with 27 followers.
 
-@image second-abdication-orchardson
+@image second-abdication-orchardson-392840
 
 Marshal Ney is arrested on 3 August, tried before the Chamber of Peers in November and shot in Paris on 7 December 1815. La Bédoyère, who brought the 7th Regiment over to Napoleon at Grenoble, is also executed.
 
-@image second-abdication-plymouth
+@image second-abdication-plymouth-1305e7

@@ -1,0 +1,30 @@
+# tr strings for the battle "austerlitz".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# French Empire
+battle.sides.0.name: "Fransız İmparatorluğu"
+
+# 65,000 to 75,000
+battle.sides.0.strength: "65.000 ile 75.000 arası"
+
+# 8,569 to 9,288: 1,288 to 1,537 dead, 6,708 to 6,991 wounded, 573 to 760 captured or missing
+battle.sides.0.casualties: "8.569 ile 9.288 arası: 1.288 ile 1.537 arası ölü, 6.708 ile 6.991 arası yaralı, 573 ile 760 arası esir ya da kayıp"
+
+# Russia and Austria
+battle.sides.1.name: "Rusya ve Avusturya"
+
+# 73,000 to 89,000
+battle.sides.1.strength: "73.000 ile 89.000 arası"
+
+# 27,000 to 36,000: 15,000 to 16,000 killed or wounded, 12,000 to 20,000 captured, 186 guns and 45 standards
+battle.sides.1.casualties: "27.000 ile 36.000 arası: 15.000 ile 16.000 arası ölü ya da yaralı, 12.000 ile 20.000 arası esir, 186 top ve 45 sancak"
+
+# Battle of Austerlitz
+battle.name: "Austerlitz Muharebesi"
+
+# 2 December 1805
+battle.date: "2 Aralık 1805"
+
+# French victory
+battle.result: "Fransız zaferi"

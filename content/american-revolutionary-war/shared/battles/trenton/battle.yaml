@@ -1,0 +1,20 @@
+lnglat: [-74.7655, 40.2225]
+name: "Battle of Trenton"
+date: "26 December 1776"
+result: "American victory, the Hessian garrison captured"
+source: https://en.wikipedia.org/wiki/Battle_of_Trenton
+images: [hessians-trumbull-d3b6c1, delaware-leutze-e3c2f9, trenton-wiederhold-plan-66cd41, princeton-peale-748fb4]
+families:
+  usa: { color: "#2d7dd2", color_dark: "#6fb6ff" }
+  held: { color: "#c62828", color_dark: "#ff6b6b" }
+sides:
+  - name: "United States"
+    color: usa
+    commanders: ["George Washington", "Nathanael Greene", "John Sullivan"]
+    strength: "2,400"
+    casualties: "5 wounded, 2 dead of exposure on the march"
+  - name: "Hesse-Kassel"
+    color: held
+    commanders: ["Johann Rall"]
+    strength: "1,500"
+    casualties: "22 killed, 83 wounded, 800–900 captured"

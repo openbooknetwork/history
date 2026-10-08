@@ -1,0 +1,20 @@
+lnglat: [32.14, 39.58]
+name: Battle of Sakarya
+date: "23 August – 13 September 1921"
+result: "Turkish victory, end of the Greek advance"
+source: https://en.wikipedia.org/wiki/Battle_of_Sakarya
+images: [sakarya-salih-bozok-0f711e, sakarya-duatepe-02fbfa, sakarya-salt-desert-923113, sakarya-greek-cover-ea5659, sakarya-greek-advance-2c2d72]
+front: [[31.65, 40.25], [31.80, 40.00], [31.95, 39.75], [32.05, 39.50], [31.85, 39.30], [31.60, 39.15]]
+families:
+  greek: { color: "#2f6a9f", color_dark: "#6fa3d6" }
+sides:
+  - name: Grand National Assembly
+    color: "#b8333a"
+    commanders: [Mustafa Kemal Pasha, Fevzi Pasha, İsmet Pasha]
+    strength: "101,727 soldiers, 5,401 officers, 196 guns"
+    casualties: "5,713 dead, 37,900 casualties in all"
+  - name: Kingdom of Greece
+    color: greek
+    commanders: [King Constantine I, Anastasios Papoulas]
+    strength: "About 77,000 soldiers, 3,780 officers, 386 guns"
+    casualties: "3,958 dead, 23,267 casualties in all"

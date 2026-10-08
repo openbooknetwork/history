@@ -1,5 +1,5 @@
 On the morning of 22 July Marmont’s divisions come up south-east of Salamanca and occupy the Greater Arapile, a steep hill at the angle of an L-shaped ridge. Marmont sees Wellington’s 7th Division on a ridge to the west and a cloud of dust beyond it, and takes it for the rearguard of an army in retreat. He sends his divisions west along the ridge south of the valley to turn the British right, Thomières in the lead with Curto’s light cavalry, then Maucune, Brenier and Clauzel, while Foy and Ferey hold the short side of the L, running north from the Greater Arapile.
 
-@image salamanca-arapiles
+@image salamanca-arapiles-38e32b
 
 Most of Wellington’s army lies hidden behind the ridges on the north side of the valley, while Pakenham’s 3rd Division and D’Urban’s Portuguese cavalry come up from Salamanca to its western end. As Marmont’s march goes on, his leading division moves further and further away from the rest of his army. Wellington then orders the 3rd Division to attack the head of the French column and sends the 5th and 4th Divisions against the long side of the French line, with the 7th and 6th behind them.

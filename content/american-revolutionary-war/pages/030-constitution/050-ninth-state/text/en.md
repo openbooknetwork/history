@@ -2,8 +2,8 @@ New Hampshire’s convention adjourned in February 1788 to avoid a defeat. It me
 
 In Virginia, Madison faces Patrick Henry and George Mason in a convention at Richmond that lasts three weeks. On 25 June it ratifies 89 to 79 and recommends a long list of amendments, before the news from New Hampshire arrives.
 
-@image patrick-henry
+@image patrick-henry-280123
 
 New York’s convention at Poughkeepsie opens with the Anti-Federalists outnumbering the Federalists two to one. After the news from New Hampshire and Virginia it ratifies on 26 July, 30 to 27. New York and Virginia both call for a second general convention, which is never held. Eleven states have ratified.
 
-@image federal-procession-1788
+@image federal-procession-1788-c31c25

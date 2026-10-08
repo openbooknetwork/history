@@ -1,0 +1,20 @@
+lnglat: [9.4492, 36.2989]
+name: "Battle of Zama"
+date: "October 202 BC"
+result: "Roman victory, Carthage sues for peace"
+source: https://en.wikipedia.org/wiki/Battle_of_Zama
+images: [zama-tapestry-ff1299, zama-cort-148f90, zama-aldegrever-286674, zama-plaquette-21d154, scipio-hannibal-meeting-83d784]
+families:
+  rome: { color: "#b03a2e", color_dark: "#e8695c" }
+  carthage: { color: "#6a3d9a", color_dark: "#a98bd6" }
+sides:
+  - name: "Roman Republic"
+    color: rome
+    commanders: ["Publius Cornelius Scipio"]
+    strength: "29,000–30,000, with 6,100 cavalry"
+    casualties: "At least 1,500 killed, many wounded"
+  - name: "Carthage"
+    color: carthage
+    commanders: ["Hannibal"]
+    strength: "40,000 or 50,000, with 80 war elephants"
+    casualties: "20,000 killed, 20,000 captured"

@@ -1,0 +1,30 @@
+# tr strings for the battle "vitoria".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Britain, Portugal and Spain
+battle.sides.0.name: "Britanya, Portekiz ve İspanya"
+
+# 81,000 to 90,000 and 96 guns: 57,000 British, 16,000 Portuguese, 8,000 Spanish
+battle.sides.0.strength: "81.000 ile 90.000 arası asker ve 96 top: 57.000 İngiliz, 16.000 Portekizli, 8.000 İspanyol"
+
+# 5,158: 3,675 British, 921 Portuguese, 562 Spanish
+battle.sides.0.casualties: "5.158: 3.675 İngiliz, 921 Portekizli, 562 İspanyol"
+
+# French Empire and Bonapartist Spain
+battle.sides.1.name: "Fransız İmparatorluğu ve Bonapartçı İspanya"
+
+# 57,000 to 60,000 and 153 guns
+battle.sides.1.strength: "57.000 ile 60.000 arası asker ve 153 top"
+
+# 756 killed, 4,414 wounded, 2,800 captured, 151 guns lost
+battle.sides.1.casualties: "756 ölü, 4.414 yaralı, 2.800 esir, 151 top"
+
+# Battle of Vitoria
+battle.name: "Vitoria Muharebesi"
+
+# 21 June 1813
+battle.date: "21 Haziran 1813"
+
+# Coalition victory
+battle.result: "Koalisyon zaferi"

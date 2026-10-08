@@ -1,0 +1,20 @@
+lnglat: [1.47, 43.605]
+name: "Battle of Toulouse"
+date: "10 April 1814"
+result: "Soult leaves Toulouse to the allies, both sides claim victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Toulouse_(1814)
+images: [toulouse-inniskilling-b2d69e, toulouse-pyrenees-79773e]
+families:
+  britain: { color: "#c0392b", color_dark: "#ef6b5b" }
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+sides:
+  - name: "Britain, Portugal and Spain"
+    color: "britain"
+    commanders: ["Marquess of Wellington", "William Beresford", "Manuel Freire"]
+    strength: "49,446: 39,910 British and Portuguese, 9,536 Spanish"
+    casualties: "4,558 to 5,500: at least 2,103 British, 1,922 Spanish, 533 Portuguese"
+  - name: "French Empire"
+    color: "france"
+    commanders: ["Jean-de-Dieu Soult"]
+    strength: "42,043"
+    casualties: "2,700 to 3,236"

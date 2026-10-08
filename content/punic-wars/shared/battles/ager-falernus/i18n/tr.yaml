@@ -1,0 +1,30 @@
+# tr strings for the battle "ager-falernus".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Carthage
+battle.sides.0.name: "Kartaca"
+
+# 2,000 light infantry, Iberian infantry, 2,000 oxen
+battle.sides.0.strength: "2.000 hafif piyade, İber piyadesi, 2.000 öküz"
+
+# Light
+battle.sides.0.casualties: "Hafif"
+
+# Roman Republic
+battle.sides.1.name: "Roma Cumhuriyeti"
+
+# 4,000 infantry
+battle.sides.1.strength: "4.000 piyade"
+
+# 1,000 killed
+battle.sides.1.casualties: "1.000 ölü"
+
+# Battle of Ager Falernus
+battle.name: "Ager Falernus Muharebesi"
+
+# September 217 BC
+battle.date: "Eylül MÖ 217"
+
+# Carthaginian victory, Hannibal’s army leaves the valley
+battle.result: "Kartaca zaferi, Hannibal’in ordusu vadiden çıkar"

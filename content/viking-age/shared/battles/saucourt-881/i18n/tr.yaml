@@ -1,0 +1,29 @@
+# tr strings for the battle "saucourt-881".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# West Franks
+battle.sides.0.name: "Batı Franklar"
+
+# Danes
+battle.sides.1.name: "Danlar"
+
+# 9,000 killed by the Annals of Fulda
+battle.sides.1.casualties: "Fulda Yıllıkları’na göre 9.000 ölü"
+
+# Battle of Saucourt
+battle.name: "Saucourt Muharebesi"
+
+# 3 August 881
+battle.date: "3 Ağustos 881"
+
+# West Frankish victory
+battle.result: "Batı Frank zaferi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Louis III
+battle.sides.0.commanders.0: "III. Louis"
+
+# Carloman II
+battle.sides.0.commanders.1: "II. Karloman"

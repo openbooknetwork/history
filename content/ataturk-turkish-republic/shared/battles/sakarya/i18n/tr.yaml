@@ -1,0 +1,47 @@
+# tr strings for the battle "sakarya".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Grand National Assembly
+battle.sides.0.name: "Türkiye Büyük Millet Meclisi"
+
+# 101,727 soldiers, 5,401 officers, 196 guns
+battle.sides.0.strength: "101.727 asker, 5.401 subay, 196 top"
+
+# 5,713 dead, 37,900 casualties in all
+battle.sides.0.casualties: "5.713 ölü, toplam 37.900 zayiat"
+
+# Kingdom of Greece
+battle.sides.1.name: "Yunanistan Krallığı"
+
+# About 77,000 soldiers, 3,780 officers, 386 guns
+battle.sides.1.strength: "Yaklaşık 77.000 asker, 3.780 subay, 386 top"
+
+# 3,958 dead, 23,267 casualties in all
+battle.sides.1.casualties: "3.958 ölü, toplam 23.267 zayiat"
+
+# Battle of Sakarya
+battle.name: "Sakarya Meydan Muharebesi"
+
+# 23 August – 13 September 1921
+battle.date: "23 Ağustos – 13 Eylül 1921"
+
+# Turkish victory, end of the Greek advance
+battle.result: "Türk zaferi, Yunan ilerleyişinin sonu"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Mustafa Kemal Pasha
+battle.sides.0.commanders.0: "Mustafa Kemal Paşa"
+
+# Fevzi Pasha
+battle.sides.0.commanders.1: "Fevzi Paşa"
+
+# İsmet Pasha
+battle.sides.0.commanders.2: "İsmet Paşa"
+
+# King Constantine I
+battle.sides.1.commanders.0: "Kral I. Konstantinos"
+
+# Anastasios Papoulas
+battle.sides.1.commanders.1: "Anastasios Papulas"

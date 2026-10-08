@@ -2,8 +2,8 @@ At 19:00 Blücher learns that Wellington is fighting Ney and can send no help. H
 
 After a thunderstorm, at about 19:45, a salvo of 60 guns starts the assault. The Old Guard and Gérard's corps advance on Ligny with Milhaud's cuirassiers on their right, and by about 20:30 the Prussian centre is broken. Blücher, aged 72, leads a counter-charge of Röder's cavalry, and his horse is shot and falls on him. He is carried half-conscious from the field, and Gneisenau, his chief of staff, takes command.
 
-@image ligny-blucher-rescue
+@image ligny-blucher-rescue-a025ea
 
 At about 22:00 the Prussians fall back, unpursued by the exhausted French. Zieten's and Pirch's corps go north by Tilly towards Wavre, leaving a rearguard at Brye, and Thielmann's corps goes by Gembloux. The Prussians lose about 16,000 killed and wounded and 21 guns, and 8,000 men desert, while the French lose 8,300 to 12,000.
 
-@image ligny-gneisenau
+@image ligny-gneisenau-902d97

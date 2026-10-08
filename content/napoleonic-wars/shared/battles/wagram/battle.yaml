@@ -1,0 +1,20 @@
+lnglat: [16.55, 48.262]
+name: "Battle of Wagram"
+date: "5 – 6 July 1809"
+result: "French victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Wagram
+images: [wagram-vernet-ae5228, wagram-fort-302b64, wagram-aderklaa-10c834, wagram-roehn-a7d60e]
+families:
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+  austria: { color: "#d4a017", color_dark: "#f2c94c" }
+sides:
+  - name: "French Empire and its allies"
+    color: "france"
+    commanders: ["Napoleon", "Louis-Nicolas Davout", "André Masséna", "Nicolas Oudinot", "Eugène de Beauharnais", "Jacques MacDonald", "Jean-Baptiste Bessières", "Jean Bernadotte", "Auguste de Marmont"]
+    strength: "171,939, 584 to 617 guns"
+    casualties: "35,060, 21 guns"
+  - name: "Austrian Empire"
+    color: "austria"
+    commanders: ["Archduke Charles", "Heinrich von Bellegarde", "Friedrich von Hohenzollern-Hechingen", "Franz von Rosenberg", "Johann Kollowrat", "Johann von Klenau", "Johann I of Liechtenstein", "Armand von Nordmann"]
+    strength: "136,000, 388 to 414 guns"
+    casualties: "38,870, 20 guns"

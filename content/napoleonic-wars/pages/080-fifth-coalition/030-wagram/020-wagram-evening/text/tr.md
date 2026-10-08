@@ -4,4 +4,4 @@ Daha batıda Jacques MacDonald, Pierre Dupas ile Jean Maximilien Lamarque’ın 
 
 Davout saat 21.00’den itibaren Markgrafneusiedl’e saldırır, Friant ile Morand dereyi doğudan geçer, Gudin ile Puthod Grosshofen üzerinden ilerler, saat 22.00’de de saldırıyı durdurur. Çarpışmalar saat 23.00’e doğru biter. Karl daha kısa olan Fransız hattını iki ucundan kuşatmak için bütün hat boyunca sabah 4.00’te saldırı emri verir.
 
-@image wagram-roehn
+@image wagram-roehn-a7d60e

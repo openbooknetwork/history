@@ -1,6 +1,6 @@
 28 Kasım akşamı saat 22.00 sularında Victor’un kolordusu karşıya geçer ve üç saat sonra köprülerde düzenli birlik kalmaz. Doğu kıyısındaki başıboş askerlerin çoğu geceyi ateşlerinin başında geçirir. Eblé’ye köprüleri 29 Kasım sabahı saat 7.00’de yakma emri verilmiştir, Eblé 8.30’a kadar bekler ve sonra köprüleri ateşe verir, doğu kıyısında on binlerce başıboş asker ve sivil kalır.
 
-@image berezina-suchodolski
+@image berezina-suchodolski-b18224
 
 Kazaklar ve Wittgenstein’ın birlikleri geride kalanları esir alır, ama köprüler olmadan Wittgenstein izleyemez. Fransızlar Zembin ve Vilnius yolundan batıya yürür ve Çaplits’in takip edememesi için arkalarındaki Gaina bataklığı üzerinde üç köprüyü yıkar.
 

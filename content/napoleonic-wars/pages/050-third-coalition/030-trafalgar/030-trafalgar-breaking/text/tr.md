@@ -1,5 +1,5 @@
 Öğle vakti Villeneuve çarpışma işaretini verir ve Fougueux ilk atışı Royal Sovereign’a yapar. Arkasındaki gemilerden daha hızlı olan Collingwood’un amiral gemisi, Amiral Álava’nın Santa Ana’sının kıç tarafından hattı yarmadan önce dört geminin ateşine maruz kalır. Hattı geçerken Santa Ana’ya kıçtan boylamasına bir borda ateşi açar. Arkadan gelen Britanya gemisi Belleisle dört Fransız gemisinin ateşiyle direklerini yitirir, ama yardım gelene kadar 45 dakika bayrağını indirmez.
 
-@image trafalgar-breaking-sovereign
+@image trafalgar-breaking-sovereign-36dab7
 
 Nelson kolunu önce saldıracakmış gibi müttefik öncüsüne yöneltir, sonra merkeze döner. Victory 40 dakika boyunca karşılık veremeden ateş altında kalır ve dümen dolabı vurulur. Saat 12.45’te Villeneuve’ün amiral gemisi Bucentaure ile Redoutable arasından hattı keser. Bucentaure’un kıçına üçer gülleyle doldurulmuş toplarla açılan borda ateşi gemiyi direksiz bırakır ve savaş dışına çıkarır. Victory ardından Redoutable ile bordaya bordaya kenetlenir, Temeraire, Conqueror ve Neptune ise Bucentaure ile çarpışır.

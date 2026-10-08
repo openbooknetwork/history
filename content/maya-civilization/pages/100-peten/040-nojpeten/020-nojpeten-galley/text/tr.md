@@ -2,6 +2,6 @@
 
 Yolun yarısında, bir kano filosu Nojpetén’e giden yolun önünde, bir kıyıdan öbürüne 600 m kadar uzanan bir yay biçiminde durmaktadır. Ursúa kürekçilere dosdoğru içinden geçmelerini buyurur. Savunanlar adanın kıyısına ve kentin damlarına doluşur, kıyıdan yeni kanolar açılır ve sonunda galeotanın etrafı sarılır.
 
-@image nojpeten-galley-canoes
+@image nojpeten-galley-canoes-c3d274
 
 Kanolardaki Itza okçuları ok atmaya başlar. Ursúa adamlarına ateş etmemelerini buyurmuştur, ama oklar birkaç askeri yaralar. Yaralılardan biri tüfeğini ateşler, subaylar adamlarını denetleyemez olur ve askerler ateş açar.

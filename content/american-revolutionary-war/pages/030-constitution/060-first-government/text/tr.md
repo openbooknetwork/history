@@ -2,8 +2,8 @@ Eski Kongre yeni hükûmetin başlangıcı için Mart 1789’un ilk çarşambas�
 
 Washington 16 Nisan’da Mount Vernon’dan yola çıkar, Baltimore, Philadelphia ve Trenton üzerinden 23 Nisan’da New York’a varır. 30 Nisan’da Wall Street’teki Federal Hall’un balkonunda yemin eder. Kuzey Carolina ve Rhode Island yeni Birlik’in dışında kalır.
 
-@image inauguration-elorriaga
+@image inauguration-elorriaga-b3d720
 
-@image federal-hall-doolittle
+@image federal-hall-doolittle-9728db
 
 Kongre 27 Temmuz’da kısa süre sonra Dışişleri adını alacak Dış İlişkiler Bakanlığı’nı, 7 Ağustos’ta Savaş Bakanlığı’nı, 2 Eylül’de Hazine’yi kurar. 24 Eylül tarihli Yargı Yasası federal mahkemeleri kurar. 25 Eylül’de Kongre on iki değişikliği kabul eder ve eyaletlere gönderir.

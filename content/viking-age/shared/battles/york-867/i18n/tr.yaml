@@ -1,0 +1,26 @@
+# tr strings for the battle "york-867".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Great Heathen Army
+battle.sides.0.name: "Büyük Pagan Ordusu"
+
+# Kingdom of Northumbria
+battle.sides.1.name: "Northumbria Krallığı"
+
+# Both kings killed
+battle.sides.1.casualties: "İki kral da öldürülür"
+
+# Battle of York
+battle.name: "York Muharebesi"
+
+# 21 March 867
+battle.date: "21 Mart 867"
+
+# Viking victory, both Northumbrian kings killed
+battle.result: "Viking zaferi, iki Northumbria kralı da öldürülür"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Ivar the Boneless
+battle.sides.0.commanders.0: "Kemiksiz İvar"

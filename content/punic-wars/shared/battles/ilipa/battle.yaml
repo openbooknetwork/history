@@ -1,0 +1,20 @@
+lnglat: [-5.94, 37.5165]
+name: "Battle of Ilipa"
+date: "Spring 206 BC"
+result: "Roman victory, end of Carthaginian rule in Iberia"
+source: https://en.wikipedia.org/wiki/Battle_of_Ilipa
+images: [scipio-bust-marble-3454e4, ilipa-aerial-395b83, ilipa-alcala-del-rio-542e04, santiponce-1866-52b334]
+families:
+  rome: { color: "#b03a2e", color_dark: "#e8695c" }
+  carthage: { color: "#6a3d9a", color_dark: "#a98bd6" }
+sides:
+  - name: "Roman Republic"
+    color: rome
+    commanders: ["Publius Cornelius Scipio", "Lucius Marcius Septimus", "Marcus Junius Silanus"]
+    strength: "48,000 (Polybius) or 55,000 (Livy)"
+    casualties: "7,000 killed"
+  - name: "Carthage"
+    color: carthage
+    commanders: ["Hasdrubal Gisco", "Mago Barca", "Masinissa"]
+    strength: "74,000 with 32 elephants (Polybius) or 54,500 (Livy)"
+    casualties: "Over 48,500 killed or captured"

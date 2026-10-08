@@ -1,0 +1,19 @@
+lnglat: [-89.908, 16.9396]
+name: "Fall of Nojpetén"
+date: "13 March 1697"
+result: "Spanish victory, end of the Itza kingdom"
+source: https://en.wikipedia.org/wiki/Spanish_conquest_of_Pet%C3%A9n
+images: [nojpeten-flores-156a55, nojpeten-plate-iii-2270b3]
+families:
+  spain: { color: "#b03a7a", color_dark: "#e07ab0" }
+  itza: { color: "#1aa3b8", color_dark: "#5fd3e6" }
+sides:
+  - name: "Spanish expedition from Yucatán"
+    color: spain
+    commanders: ["Martín de Ursúa y Arizmendi"]
+    strength: "108 soldiers on the galeota, about 235 at the lake"
+    casualties: "Several wounded"
+  - name: "Itza of Nojpetén"
+    color: itza
+    commanders: ["Kan Ek'"]
+    casualties: "Many killed in the fighting and drowned"

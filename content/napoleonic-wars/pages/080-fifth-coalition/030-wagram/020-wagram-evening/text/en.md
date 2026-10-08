@@ -4,4 +4,4 @@ Further west Jacques MacDonald leads the divisions of Pierre Dupas and Jean Maxi
 
 Davout attacks Markgrafneusiedl from 9 pm, Friant and Morand crossing the stream on the east and Gudin and Puthod advancing through Grosshofen, and calls the attack off at 10 pm. The fighting dies down towards 11 pm. Charles orders an attack along the whole line for 4 am, to envelop both ends of the shorter French line.
 
-@image wagram-roehn
+@image wagram-roehn-a7d60e

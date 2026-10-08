@@ -1,0 +1,26 @@
+# tr strings for the battle "hafrsfjord-872".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Harald Fairhair
+battle.sides.0.name: "Harald Fairhair"
+
+# Hordaland, Rogaland and Agder
+battle.sides.1.name: "Hordaland, Rogaland ve Agder"
+
+# Battle of Hafrsfjord
+battle.name: "Hafrsfjord Muharebesi"
+
+# Between 872 and 900
+battle.date: "872 ile 900 arası"
+
+# Victory for Harald Fairhair
+battle.result: "Harald Fairhair’in zaferi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Eirik of Hordaland, killed
+battle.sides.1.commanders.0: "Hordalandlı Eirik, öldürüldü"
+
+# Sulke of Rogaland, killed
+battle.sides.1.commanders.1: "Rogalandlı Sulke, öldürüldü"

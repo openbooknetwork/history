@@ -1,6 +1,6 @@
 Gün doğarken İspanyollar, arkalarında deniz, kara tarafında büyük bir ordu tarafından etraflarının sarıldığını görür. Bernal Díaz her İspanyola üç yüz savaşçı düştüğünü yazar. Mayalar oklar, kargılar ve taşlarla saldırıya başlar ve ilk atışlarda seksen İspanyol yaralanır. Ardından savaşçılar mızrak ve sopalarla yakın dövüşe girer.
 
-@image champoton-dawn-bernal-diaz
+@image champoton-dawn-bernal-diaz-c66515
 
 Yeni birlikler gelmeyi sürdürür. Kılıçların, arbaletlerin ve tüfeklerin ilk şaşkınlığı geçince savaşçılar mesafeyi korur ve uzaktan atış yapar. "Calachuni", yani "şef" diye bağırarak Hernández de Córdoba’yı hedef alırlar ve onu çok sayıda okla yaralarlar. Adamları canlı yakalamaya da çalışırlar ve aralarından ikisini, Alonso Boto’yu ve yaşlı bir Portekizliyi götürürler.
 

@@ -1,0 +1,35 @@
+# tr strings for the battle "ligny".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# French Empire
+battle.sides.0.name: "Fransız İmparatorluğu"
+
+# 58,000–76,800, 210 guns
+battle.sides.0.strength: "58.000–76.800, 210 top"
+
+# 8,300–12,000 killed, wounded or captured
+battle.sides.0.casualties: "8.300–12.000 ölü, yaralı ya da esir"
+
+# Prussia
+battle.sides.1.name: "Prusya"
+
+# 83,417–86,569, 224 guns
+battle.sides.1.strength: "83.417–86.569, 224 top"
+
+# 16,000 killed or wounded, 8,000 deserted, captured or missing, 21 guns
+battle.sides.1.casualties: "16.000 ölü ya da yaralı, 8.000 kaçak, esir ya da kayıp, 21 top"
+
+# Battle of Ligny
+battle.name: "Ligny Muharebesi"
+
+# 16 June 1815
+battle.date: "16 Haziran 1815"
+
+# French victory
+battle.result: "Fransız zaferi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Napoleon
+battle.sides.0.commanders.0: "Napolyon"

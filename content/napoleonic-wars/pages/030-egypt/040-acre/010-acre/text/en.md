@@ -4,8 +4,8 @@ Bonaparte decides to strike first. On 10 February 1799 he leaves Cairo with abou
 
 On 3 March the army reaches Jaffa, whose walls are held by troops of Jezzar with 1,200 Ottoman gunners. The French storm the city on 7 March and sack it. Bonaparte then has the prisoners of the garrison, who had surrendered on a promise of their lives, shot on the shore, 2,100 by one count and more than 3,000 by others. He later justifies it by the lack of food and escorts.
 
-@image acre-plague
+@image acre-plague-e13f26
 
 On 15 March British ships under Commodore Sir Sidney Smith reach Acre. Smith helps Jezzar strengthen the defences with guns and with sailors and marines from his ships, and captures the French flotilla carrying the siege artillery. The French arrive before Acre and open the siege on 20 March with infantry and field guns only.
 
-@image acre-smith
+@image acre-smith-e64b11

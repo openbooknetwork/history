@@ -1,0 +1,20 @@
+lnglat: [-76.50, 37.23]
+name: "Siege of Yorktown"
+date: "28 September – 19 October 1781"
+result: "American and French victory, Cornwallis surrenders"
+source: https://en.wikipedia.org/wiki/Siege_of_Yorktown
+images: [yorktown-couder-e4b2d4, yorktown-verger-64b7c8, redoubt-10-lami-1939d7, yorktown-blarenberghe-85238d, cornwallis-surrender-812632]
+families:
+  usa: { color: "#2d7dd2", color_dark: "#6fb6ff" }
+  held: { color: "#c62828", color_dark: "#ff6b6b" }
+sides:
+  - name: "United States and France"
+    color: usa
+    commanders: ["George Washington", "Comte de Rochambeau", "Marquis de Lafayette", "Comte de Grasse"]
+    strength: "8,000–9,000 Americans, 10,800 French and 29 warships"
+    casualties: "88 killed, 301 wounded"
+  - name: "Great Britain"
+    color: held
+    commanders: ["Charles Cornwallis", "Charles O’Hara"]
+    strength: "8,000–9,000, fewer than 3,000 of them German"
+    casualties: "142–309 killed, 326–595 wounded, 7,416–7,685 captured"

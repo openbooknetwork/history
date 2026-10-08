@@ -1,0 +1,30 @@
+# tr strings for the battle "valcour-island".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# United States
+battle.sides.0.name: "Birleşik Devletler"
+
+# 1 sloop, 2 schooners, 4 row galleys, 8 gundalows
+battle.sides.0.strength: "1 şalopa, 2 uskuna, 4 kürekli kadırga, 8 gundalow"
+
+# 80 killed or wounded, 120 captured, 1 schooner and 1 gundalow lost
+battle.sides.0.casualties: "80 ölü ve yaralı, 120 esir, 1 uskuna ve 1 gundalow kaybı"
+
+# Great Britain
+battle.sides.1.name: "Büyük Britanya"
+
+# 1 ship sloop, 2 schooners, 1 radeau, 1 gundalow, 28 gunboats
+battle.sides.1.strength: "1 gemi tipi şalopa, 2 uskuna, 1 top salı, 1 gundalow, 28 gambot"
+
+# 40 killed or wounded, 1 gunboat lost
+battle.sides.1.casualties: "40 ölü ve yaralı, 1 gambot kaybı"
+
+# Battle of Valcour Island
+battle.name: "Valcour Adası Muharebesi"
+
+# 11 October 1776
+battle.date: "11 Ekim 1776"
+
+# British victory, Carleton withdraws to Canada for the winter
+battle.result: "İngiliz zaferi, Carleton kışı geçirmek için Kanada’ya çekilir"

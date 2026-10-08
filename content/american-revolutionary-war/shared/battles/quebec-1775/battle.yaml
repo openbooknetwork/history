@@ -1,0 +1,20 @@
+lnglat: [-71.204, 46.8135]
+name: "Battle of Quebec"
+date: "31 December 1775"
+result: "British victory, Quebec stays British"
+source: https://en.wikipedia.org/wiki/Battle_of_Quebec_(1775)
+images: [montgomery-trumbull-f0ca9b, sault-au-matelot-08763a, quebec-plan-1776-c6d496, quebec-le-rouge-1777-25a205, daniel-morgan-peale-2d591f]
+families:
+  usa: { color: "#2d7dd2", color_dark: "#6fb6ff" }
+  held: { color: "#c62828", color_dark: "#ff6b6b" }
+sides:
+  - name: "Continental Army"
+    color: usa
+    commanders: ["Richard Montgomery", "Benedict Arnold", "Daniel Morgan"]
+    strength: "1,200"
+    casualties: "50 killed, 34 wounded, 431 captured or missing"
+  - name: "Great Britain"
+    color: held
+    commanders: ["Guy Carleton", "Allan Maclean"]
+    strength: "1,800"
+    casualties: "5 killed, 14 wounded"

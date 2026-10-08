@@ -58,17 +58,39 @@ A story is done when the check prints ok and `npm run build -- --strict` builds 
 
 `./node_modules/.bin/harita i18n tr --story <story>` adds an empty key for every new English string to the story's
 `i18n/tr.yaml`, with the English as a comment above it. Fill each one. With `--story` the command builds only that
-story.
+story. A battle's strings sit in its folder's `i18n/tr.yaml`, and an image folder's caption in that folder's
+`i18n/tr.yaml`. The same command writes those catalogues.
+
+## Battles and images
+
+A battle's card is its own folder, `content/<story>/shared/battles/<battle id>/battle.yaml`, and the story's pages
+show it with `battle: <battle id>`. Every photo lives in an image folder, `content/<story>/shared/images/<name>-<six
+hex digits>/`, or in `content/shared/images/` once two stories show it. Add a chosen candidate with
+`./node_modules/.bin/harita image <file> <name> --caption <text> --credit <text> --source <its Commons page> --story
+<story>`, which prints the id to use: `@image <id>` in a text, `image: <id>` on a marker, the card's `images` list or
+the story's `cover`. The command uses again an image the atlas holds by the same Commons page or the same bytes,
+and moves one from another story to `content/shared/images/`. After an image file changes,
+`./node_modules/.bin/harita rehash` writes its new sha256, which `npm run build -- --strict` checks.
+
+## Shared zones
+
+A state's lands in a year that several stories show, such as the Ottoman lands of 1402 in the stories of Bayezid I
+and of Timur, are one zone in `content/shared/zones/<id>/`. Before drawing such a zone, run
+`./node_modules/.bin/harita zones --like <file>`: it lists the zones of every story that cover the same land, and
+`.cache/harita/zones.html` shows them. `./node_modules/.bin/harita zones --share <story>/<zone id> --replace
+<story>/<zone id>` makes one shared zone of two: the replaced zone keeps its id, name and family in a `zones.yaml`
+beside it and takes the shared outline, so its pages stay as they are. A story that shows an outline under its own
+name or family, the same land in another year or held by another state, writes a `zones.yaml` entry too, such as
+`sicily-1806: { zone: sicily-1799, name: ... }`, in place of a copy of the coordinates. Two zones that cover the same
+land and stay apart go into `content/shared/zones/apart.yaml` with `./node_modules/.bin/harita zones --apart <zone>
+<zone> --why <text>`. Battle, image and zone folders can sit in group folders that only order them.
 
 ## Agents working in parallel
 
-Give each agent its own page folders. A story's shared files, `i18n/<lang>.yaml` and `shared/battles.yaml`,
-take one writer at a time, because two agents saving the same file lose one agent's lines. So each agent writes
-its share beside them:
+Give each agent its own page folders and the battle folders of its pages. A story's `i18n/<lang>.yaml` takes one
+writer at a time, because two agents saving the same file lose one agent's lines. So each agent writes its
+translations beside it, to `content/<story>/.i18n-parts/<agent>.<lang>.yaml`, with flat keys such as
+`pages.<id>.title`. A battle's strings go straight into the battle folder's `i18n/tr.yaml`.
 
-- translations to `content/<story>/.i18n-parts/<agent>.<lang>.yaml`, flat keys such as `pages.<id>.title`
-- battle card changes to `content/<story>/.plans/battle-updates/<battle id>.yaml`, the changed fields only
-
-Once every agent is done, `node scripts/merge-parts.mjs <story> i18n` and `node scripts/merge-parts.mjs <story>
-battles` merge these files and delete them. `./node_modules/.bin/harita i18n tr --story <story>` then lays the catalogue out
-again.
+Once every agent is done, `node scripts/merge-parts.mjs <story> i18n` merges these files and deletes them.
+`./node_modules/.bin/harita i18n tr --story <story>` then lays the catalogue out again.

@@ -1,0 +1,27 @@
+# tr strings for the battle "svolder-1000".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Norway
+battle.sides.0.name: "Norveç"
+
+# 11 warships by the sagas
+battle.sides.0.strength: "Sagalara göre 11 savaş gemisi"
+
+# All ships taken, Olaf drowned
+battle.sides.0.casualties: "Bütün gemiler ele geçirilir, Olaf boğulur"
+
+# Denmark, Sweden and the jarls of Lade
+battle.sides.1.name: "Danimarka, İsveç ve Lade jarlları"
+
+# More than 70 warships by the sagas
+battle.sides.1.strength: "Sagalara göre 70’ten fazla savaş gemisi"
+
+# Battle of Svolder
+battle.name: "Svolder Muharebesi"
+
+# 9 September 999 or 1000
+battle.date: "9 Eylül 999 ya da 1000"
+
+# Victory for the Danish and Swedish kings and Eirik Hákonarson, Olaf Tryggvason killed
+battle.result: "Danimarka ve İsveç kralları ile Eirik Hákonarson’un zaferi, Olaf Tryggvason öldürülür"

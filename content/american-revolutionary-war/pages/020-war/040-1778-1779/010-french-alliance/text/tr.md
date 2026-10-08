@@ -2,10 +2,10 @@
 
 Washington artçıları 28 Haziran’da, 32 °C’yi aşan sıcakta Monmouth Court House’ta yakalar. Muharebe berabere biter ve Clinton New York’a ulaşır.
 
-@image monmouth-leutze
+@image monmouth-leutze-76f5cc
 
-@image molly-pitcher
+@image molly-pitcher-9e7149
 
 Temmuz sonunda d’Estaing komutasındaki bir Fransız filosu Rhode Island açıklarına gelir. Ağustosta müttefikler Aralık 1776’dan beri İngilizlerin elindeki Newport’u kuşatır. Bir fırtına filoları dağıtır, d’Estaing onarım için Boston’a çekilir ve Amerikan birlikleri 29 Ağustos’taki Rhode Island Muharebesi’nin ardından geri çekilir. İngilizler Ekim 1779’da Newport’tan ayrılır ve garnizonu New York’a götürür.
 
-@image newport-ozanne
+@image newport-ozanne-333604

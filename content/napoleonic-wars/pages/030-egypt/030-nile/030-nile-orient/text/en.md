@@ -2,8 +2,8 @@ The French van falls ship by ship. Guerrier and Spartiate strike at 21:00 and Aq
 
 In the centre Orient dismasts Bellerophon, which drifts away at 20:20 with more than 200 casualties. Brueys, already wounded, is almost cut in half by a cannonball and dies on deck. Swiftsure and Alexander, arriving late in the dark, take position on either side of Orient, and Majestic, whose captain has been killed, engages Tonnant and Heureux.
 
-@image nile-arnald
+@image nile-arnald-2cbb54
 
 At 21:00 a fire breaks out on Orient. The British gunners aim at it, and Tonnant, Heureux and Mercure cut their cables and drift south. At 22:00 the fire reaches the magazines and Orient explodes. Fewer than 100 of her crew survive, and more than 1,000 are killed, among them Captain Casabianca and his twelve-year-old son.
 
-@image nile-luny
+@image nile-luny-903040

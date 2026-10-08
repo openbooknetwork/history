@@ -1,0 +1,20 @@
+lnglat: [35.07296, 32.9253]
+name: "Siege of Acre"
+date: "20 March – 21 May 1799"
+result: "Ottoman and British victory"
+source: https://en.wikipedia.org/wiki/Siege_of_Acre_(1799)
+images: [acre-breach-sutherland-7fc969, acre-tabor-4f4871, acre-smith-e64b11]
+families:
+  ottoman: { color: "#8e3b46", color_dark: "#d9707f" }
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+sides:
+  - name: "Ottoman Empire and Great Britain"
+    color: "ottoman"
+    commanders: ["Jezzar Pasha", "Haim Farhi", "Sidney Smith", "Antoine de Phélippeaux"]
+    strength: "5,000 in the garrison, 2 British ships of the line"
+    casualties: "About 2,000"
+  - name: "French Republic"
+    color: "france"
+    commanders: ["Napoleon Bonaparte", "Jean-Baptiste Kléber"]
+    strength: "12,000 to 13,000"
+    casualties: "4,000 to 4,500"

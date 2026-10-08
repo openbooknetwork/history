@@ -4,6 +4,6 @@ Ticonderoga is abandoned to Burgoyne on 6 July, but the road south through the f
 
 By September Horatio Gates has about 9,000 men behind fortifications at Bemis Heights, and New England militia keep arriving. Burgoyne holds the field at Freeman’s Farm on 19 September but is defeated on 7 October. Surrounded at Saratoga, he surrenders about 6,000 men on 17 October. France decides to enter the war.
 
-@image saratoga-will
+@image saratoga-will-f86114
 
-@image burgoyne-surrender
+@image burgoyne-surrender-702667

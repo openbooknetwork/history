@@ -1,0 +1,20 @@
+lnglat: [3.8886, 50.4559]
+name: "Battle of Jemappes"
+date: "6 November 1792"
+result: "French victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Jemappes
+images: [jemappes-vernet-437a1f, jemappes-boussu-e51033]
+families:
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+  austria: { color: "#d4a017", color_dark: "#f2c94c" }
+sides:
+  - name: "French Republic"
+    color: "france"
+    commanders: ["Charles François Dumouriez", "Duke of Chartres"]
+    strength: "40,000 to 45,000, 100 guns"
+    casualties: "About 2,000"
+  - name: "Habsburg monarchy"
+    color: "austria"
+    commanders: ["Duke Albert of Saxe-Teschen", "Count of Clerfayt"]
+    strength: "13,200 to 13,800, 54 to 56 guns"
+    casualties: "1,241 to 1,500 and 5 guns"

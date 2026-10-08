@@ -1,0 +1,41 @@
+# tr strings for the battle "constantinople-941".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Byzantine Empire
+battle.sides.0.name: "Bizans İmparatorluğu"
+
+# 15 old ships fitted with Greek fire at first
+battle.sides.0.strength: "Başlangıçta Rum ateşiyle donatılmış 15 eski gemi"
+
+# Rus'
+battle.sides.1.name: "Ruslar"
+
+# More than 1,000 ships, by Liudprand of Cremona
+battle.sides.1.strength: "Cremonalı Liudprand’a göre 1.000’i aşkın gemi"
+
+# Most of the fleet
+battle.sides.1.casualties: "Filonun büyük kısmı"
+
+# Rus' attack on Constantinople
+battle.name: "Rusların Konstantinopolis saldırısı"
+
+# 941
+battle.date: "941"
+
+# Byzantine victory, the Rus' fleet destroyed
+battle.result: "Bizans zaferi, Rus filosu yok edilir"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Theophanes
+battle.sides.0.commanders.0: "Theofanis"
+
+# John Kourkouas
+battle.sides.0.commanders.1: "İoannis Kurkuas"
+
+# Bardas Phokas
+battle.sides.0.commanders.2: "Vardas Fokas"
+
+# Igor
+battle.sides.1.commanders.0: "İgor"

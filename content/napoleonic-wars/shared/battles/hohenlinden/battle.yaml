@@ -1,0 +1,20 @@
+lnglat: [11.998, 48.16]
+name: "Battle of Hohenlinden"
+date: "3 December 1800"
+result: "French victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Hohenlinden
+images: [hohenlinden-schopin-246b8a, hohenlinden-moreau-da2932]
+families:
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+  austria: { color: "#d4a017", color_dark: "#f2c94c" }
+sides:
+  - name: "French Republic"
+    color: "france"
+    commanders: ["Jean Victor Moreau", "Antoine Richepanse", "Emmanuel de Grouchy", "Michel Ney", "Charles Decaen"]
+    strength: "53,595 with 99 guns"
+    casualties: "2,500 to 3,000 killed or wounded"
+  - name: "Habsburg monarchy and Bavaria"
+    color: "austria"
+    commanders: ["Archduke John", "Franz von Lauer", "Johann Kollowrat", "Johann Sigismund Riesch"]
+    strength: "60,261 with 214 guns"
+    casualties: "13,550 to 15,500, of them 11,860 Austrians and 1,868 Bavarians"

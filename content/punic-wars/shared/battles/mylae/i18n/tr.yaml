@@ -1,0 +1,30 @@
+# tr strings for the battle "mylae".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Roman Republic
+battle.sides.0.name: "Roma Cumhuriyeti"
+
+# 143 ships
+battle.sides.0.strength: "143 gemi"
+
+# Unknown
+battle.sides.0.casualties: "Bilinmiyor"
+
+# Carthage
+battle.sides.1.name: "Kartaca"
+
+# 130 ships
+battle.sides.1.strength: "130 gemi"
+
+# 44 ships, 10,000 men
+battle.sides.1.casualties: "44 gemi, 10.000 kişi"
+
+# Battle of Mylae
+battle.name: "Mylae Muharebesi"
+
+# 260 BC
+battle.date: "MÖ 260"
+
+# Roman victory
+battle.result: "Roma zaferi"

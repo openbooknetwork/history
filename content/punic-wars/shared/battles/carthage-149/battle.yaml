@@ -1,0 +1,20 @@
+lnglat: [10.3102, 36.85383]
+name: "Siege of Carthage"
+date: "149 – spring 146 BC"
+result: "Roman victory, Carthage destroyed"
+source: https://en.wikipedia.org/wiki/Battle_of_Carthage_(c._149_BC)
+images: [carthage-double-shekel-0326d1, catapulta-poynter-1dbf97, carthage-roman-soldiers-2d17eb, hasdrubal-wife-0d2b7a]
+families:
+  rome: { color: "#b03a2e", color_dark: "#e8695c" }
+  carthage: { color: "#6a3d9a", color_dark: "#a98bd6" }
+sides:
+  - name: "Roman Republic"
+    color: rome
+    commanders: ["Scipio Aemilianus", "Manius Manilius", "Lucius Marcius Censorinus", "Lucius Calpurnius Piso"]
+    strength: "36,000 to 46,000 infantry, 4,000 cavalry"
+    casualties: "Unknown"
+  - name: "Carthage"
+    color: carthage
+    commanders: ["Hasdrubal"]
+    strength: "30,000 soldiers and about 60,000 armed civilians"
+    casualties: "50,000 enslaved"

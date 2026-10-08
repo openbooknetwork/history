@@ -1,0 +1,38 @@
+# tr strings for the battle "arcadiopolis-970".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Byzantine Empire
+battle.sides.0.name: "Bizans İmparatorluğu"
+
+# 10,000–12,000
+battle.sides.0.strength: "10.000–12.000"
+
+# 25 dead by John Skylitzes, 55 by Leo the Deacon
+battle.sides.0.casualties: "İoannis Skilicis’e göre 25, Diyakoz Leon’a göre 55 ölü"
+
+# Rus' with Bulgarian, Pecheneg and Magyar allies
+battle.sides.1.name: "Ruslar ile Bulgar, Peçenek ve Macar müttefikleri"
+
+# Over 30,000 by Leo the Deacon
+battle.sides.1.strength: "Diyakoz Leon’a göre 30.000’i aşkın"
+
+# Several thousand
+battle.sides.1.casualties: "Birkaç bin"
+
+# Battle of Arcadiopolis
+battle.name: "Arkadiopolis Muharebesi"
+
+# Spring 970
+battle.date: "970 ilkbaharı"
+
+# Byzantine victory
+battle.result: "Bizans zaferi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Bardas Skleros
+battle.sides.0.commanders.0: "Vardas Skliros"
+
+# Peter the stratopedarch
+battle.sides.0.commanders.1: "Stratopedarhis Petros"

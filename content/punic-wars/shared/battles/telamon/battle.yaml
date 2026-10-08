@@ -1,0 +1,20 @@
+lnglat: [11.165, 42.6]
+name: "Battle of Telamon"
+date: "225 BC"
+result: "Roman victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Telamon
+images: [telamon-talamone-4f0f1c, telamon-dying-gaul-f98a9c, telamon-plan-folard-3393b3, telamon-stewart-7fd6a3]
+families:
+  rome: { color: "#b03a2e", color_dark: "#e8695c" }
+  gauls: { color: "#8a6a3f", color_dark: "#c4a173" }
+sides:
+  - name: "Roman Republic"
+    color: rome
+    commanders: ["Gaius Atilius Regulus", "Lucius Aemilius Papus"]
+    strength: "101,600 infantry, 6,400 cavalry"
+    casualties: "6,000 killed"
+  - name: "Gauls: Boii, Insubres, Taurisci and Gaesatae"
+    color: gauls
+    commanders: ["Concolitanus", "Aneroëstes"]
+    strength: "50,000 infantry, 20,000 cavalry"
+    casualties: "40,000 killed, 10,000 captured"

@@ -4,8 +4,8 @@ Grouchy 19 Haziran sabahı Wavre’da Thielmann’ı yener ve düzen içinde Par
 
 29 Haziran’da Prusya birliklerinin onu ölü ya da diri yakalama emri aldığını öğrenen Napolyon, Amerika Birleşik Devletleri’ne gitmeyi umarak Rochefort’a hareket eder. İngiliz savaş gemileri limanı abluka altında tutmaktadır, Napolyon 15 Temmuz’da HMS Bellerophon’un komutanı Yüzbaşı Frederick Maitland’a teslim olur ve gemi onu İngiltere’ye götürür. İngiliz hükümeti onu Afrika kıyısından 1.870 km uzaktaki Güney Atlas Okyanusu’nda bulunan Saint Helena’ya gönderir. Napolyon Ekim 1815’te 27 kişilik maiyetiyle HMS Northumberland’dan Jamestown’a çıkar.
 
-@image second-abdication-orchardson
+@image second-abdication-orchardson-392840
 
 Mareşal Ney 3 Ağustos’ta tutuklanır, kasımda Soylular Meclisi’nde yargılanır ve 7 Aralık 1815’te Paris’te kurşuna dizilir. Grenoble’da 7. Alay’ı Napolyon’un yanına geçiren La Bédoyère de idam edilir.
 
-@image second-abdication-plymouth
+@image second-abdication-plymouth-1305e7

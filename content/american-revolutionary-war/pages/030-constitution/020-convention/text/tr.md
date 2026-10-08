@@ -4,10 +4,10 @@ Büyük ve küçük eyaletler temsil konusunda tıkanır. 16 Temmuz’daki Conne
 
 Kurultay sürerken New York’taki Kongre 13 Temmuz’da Kuzeybatı Kararnamesi’ni çıkarır. Virginia ve hak iddia eden öteki eyaletlerin devrettiği Ohio’nun kuzeyindeki topraklar bir bölge olarak yönetilecek ve eskileriyle eşit koşullarda üç ila beş yeni eyalet olarak kabul edilecektir. Bu topraklarda kölelik yasaktır. New England’lı yerleşimciler ertesi nisan Ohio kıyısında Marietta’yı kurar.
 
-@image northwest-ordinance
+@image northwest-ordinance-cb07b8
 
 Anayasa 17 Eylül’de otuz dokuz delege tarafından imzalanır. Üçü imzalamayı reddeder. Bu amaçla seçilmiş kurultaylarda dokuz eyalet onayladığında, onaylayan eyaletler arasında yürürlüğe girecektir.
 
-@image signing-christy
+@image signing-christy-555632
 
-@image constitution-page-1
+@image constitution-page-1-4449c3

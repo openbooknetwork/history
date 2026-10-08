@@ -1,0 +1,32 @@
+# tr strings for the battle "edington-878".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# West Saxons
+battle.sides.0.name: "Batı Saksonlar"
+
+# 2,000 to 6,000 by modern estimates
+battle.sides.0.strength: "Günümüz tahminlerine göre 2.000 ile 6.000 arası"
+
+# Guthrum’s Danish army
+battle.sides.1.name: "Guthrum’un Dan ordusu"
+
+# About 4,000 by modern estimates
+battle.sides.1.strength: "Günümüz tahminlerine göre yaklaşık 4.000"
+
+# Heavy
+battle.sides.1.casualties: "Ağır"
+
+# Battle of Edington
+battle.name: "Edington Muharebesi"
+
+# May 878
+battle.date: "Mayıs 878"
+
+# West Saxon victory, Guthrum surrenders after a siege of fourteen days
+battle.result: "Batı Sakson zaferi, Guthrum on dört günlük kuşatmadan sonra teslim olur"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Alfred the Great
+battle.sides.0.commanders.0: "Büyük Alfred"

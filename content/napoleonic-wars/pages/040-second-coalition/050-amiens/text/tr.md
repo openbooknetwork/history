@@ -4,8 +4,8 @@ Britanya denizde Fransa ile ticaret yapan tarafsız gemileri durdurup arar. Çar
 
 2 Nisan’da Nelson on iki hat gemisiyle Kopenhag önünde demirli eski gemilerden ve yüzer bataryalardan oluşan hatta saldırır, Parker ise ağır gemilerle kuzeyde bekler. Nelson’un gemilerinden üçü karaya oturur ve saat 13.30’da Parker ona savaşı kesmesi için işaret verir. Nelson dürbününü kör gözüne tutar ve çarpışmayı sürdürür. Saat 14.00’e gelindiğinde Danimarka hattının büyük bölümü susmuştur. Nelson bunun üzerine Veliaht Prens Frederik’e ateşkes önerir ve ardından bir mütareke yapılır.
 
-@image amiens-copenhagen
+@image amiens-copenhagen-4aefc7
 
 I. Pavel 23 Mart gecesi Sankt Peterburg’da öldürülmüştür, oğlu I. Aleksandr döneminde birlik dağılır. Rusya Ekim 1801’de Fransa ile barış yapar. 25 Mart 1802’de Joseph Bonaparte ile Lord Cornwallis Amiens Antlaşması’nı imzalar. Britanya Seylan ve Trinidad dışında ele geçirdiği yerlerin çoğunu geri verir ve Malta’yı Saint Jean Şövalyeleri’ne iade etmeyi kabul eder, Fransa da Napoli’yi ve Mısır’ı boşaltmayı üstlenir.
 
-@image amiens-gillray
+@image amiens-gillray-e7d405

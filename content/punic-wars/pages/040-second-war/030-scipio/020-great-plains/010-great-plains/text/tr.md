@@ -1,6 +1,6 @@
 31 yaşında MÖ 205 için konsül seçilen Scipio’ya eyalet olarak Sicilya ve Afrika’ya geçme izni verilir, ama yalnızca gönüllü asker toplayabilir. Ordusunun çekirdeğini Cannae’den sağ kurtulanlardan kurulan iki lejyon oluşturur. Her biri 6.500 kişiye çıkarılır ve Scipio onları yaklaşık bir yıl eğitir. Modern tarihçiler çıkarma ordusunu 25.000 ile 30.000 kişi arasında tahmin eder.
 
-@image utica-ruins
+@image utica-ruins-aef0fe
 
 MÖ 204’te, büyük olasılıkla haziranda ya da temmuzda, 40 savaş gemisinin eşlik ettiği 400 nakliye gemisi orduyu Lilybaeum’dan Utika’nın kuzeyindeki Farina Burnu’na taşır. Syphax’ın krallığından kovduğu Masinissa, kaynaklara göre 200 ya da 2.000 kişiyle onlara katılır. Hanno komutasındaki 4.000 kişilik bir Kartaca kuvveti Masinissa’nın süvarisi tarafından pusuya çekilir ve yok edilir.
 

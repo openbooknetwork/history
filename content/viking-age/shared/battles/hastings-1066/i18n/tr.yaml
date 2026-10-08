@@ -1,0 +1,41 @@
+# tr strings for the battle "hastings-1066".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Duchy of Normandy
+battle.sides.0.name: "Normandiya Dükalığı"
+
+# Unknown, estimates range from 7,000 to 12,000
+battle.sides.0.strength: "Bilinmiyor, tahminler 7.000 ile 12.000 arasında"
+
+# About 2,000 by some estimates
+battle.sides.0.casualties: "Bazı tahminlere göre yaklaşık 2.000"
+
+# Kingdom of England
+battle.sides.1.name: "İngiltere Krallığı"
+
+# Unknown, estimates range from 5,000 to 13,000
+battle.sides.1.strength: "Bilinmiyor, tahminler 5.000 ile 13.000 arasında"
+
+# About 4,000 by some estimates, Harold, Gyrth and Leofwine killed
+battle.sides.1.casualties: "Bazı tahminlere göre yaklaşık 4.000, Harold, Gyrth ve Leofwine öldürülür"
+
+# Battle of Hastings
+battle.name: "Hastings Muharebesi"
+
+# 14 October 1066
+battle.date: "14 Ekim 1066"
+
+# Norman victory, Harold killed
+battle.result: "Norman zaferi, Harold öldürülür"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# William of Normandy
+battle.sides.0.commanders.0: "Normandiyalı William"
+
+# Alan the Red
+battle.sides.0.commanders.1: "Kızıl Alan"
+
+# Eustace II, Count of Boulogne
+battle.sides.0.commanders.3: "Boulogne Kontu II. Eustache"

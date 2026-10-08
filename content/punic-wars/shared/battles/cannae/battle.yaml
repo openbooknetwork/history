@@ -1,0 +1,20 @@
+lnglat: [16.12224, 41.3111]
+name: "Battle of Cannae"
+date: "2 August 216 BC"
+result: "Carthaginian victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Cannae
+images: [cannae-field-1885-c486ec, cannae-column-fbeca5, cannae-paullus-c0e545, cannae-rings-15573f]
+families:
+  rome: { color: "#b03a2e", color_dark: "#e8695c" }
+  carthage: { color: "#6a3d9a", color_dark: "#a98bd6" }
+sides:
+  - name: "Roman Republic"
+    color: rome
+    commanders: ["Gaius Terentius Varro", "Lucius Aemilius Paullus", "Gnaeus Servilius Geminus"]
+    strength: "86,400, with 10,000 left to guard the camps"
+    casualties: "Polybius: 70,000 killed, 10,000 captured. Livy: 48,200 killed, 19,300 captured"
+  - name: "Carthage"
+    color: carthage
+    commanders: ["Hannibal", "Mago Barca", "Hasdrubal", "Maharbal"]
+    strength: "50,000, with 10,000 cavalry"
+    casualties: "Polybius: 5,700 killed. Livy: 8,000 killed"

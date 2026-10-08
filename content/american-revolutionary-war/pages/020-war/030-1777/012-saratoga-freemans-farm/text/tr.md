@@ -1,6 +1,6 @@
 Saat bir sularındaki bir duraklamanın ardından Hamilton tugayını açıklığın kuzey kenarında düzene sokar: sağda 21., merkezde 62., solda 20. alay, yedekte de 9. alay. Gates Morgan’ı desteklemek için 1. ve 3. New Hampshire alaylarını, ardından Enoch Poor’un tugayının geri kalanını gönderir.
 
-@image saratoga-freemans-farm
+@image saratoga-freemans-farm-16a132
 
 Çarpışma tarlanın bir yanından öbür yanına gidip gelir. Morgan’ın tüfekçileri subayları ve topçuları vurur, Amerikalılar birkaç kez İngiliz toplarını ele geçirir ve bir sonraki hücumda yeniden kaybeder. İngiliz merkezi neredeyse çöker ve 62. alay ancak 20. alayı öne süren General William Phillips sayesinde yeniden düzene girer.
 

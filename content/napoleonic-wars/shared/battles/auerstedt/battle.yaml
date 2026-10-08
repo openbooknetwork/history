@@ -1,0 +1,20 @@
+lnglat: [11.66, 51.118]
+name: "Battle of Auerstedt"
+date: "14 October 1806"
+result: "French victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Jena–Auerstedt
+images: [auerstedt-davout-2adac1, auerstedt-hassenhausen-knotel-f0043d, auerstedt-counterattack-lonlay-ac9af4]
+families:
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+  prussia: { color: "#3d4a5c", color_dark: "#9aa8bd" }
+sides:
+  - name: "French Empire"
+    color: "france"
+    commanders: ["Louis-Nicolas Davout", "Charles-Étienne Gudin", "Louis Friant", "Charles Antoine Morand"]
+    strength: "26,000"
+    casualties: "7,052 killed and wounded"
+  - name: "Prussia"
+    color: "prussia"
+    commanders: ["Duke of Brunswick", "Frederick William III", "Friedrich Wilhelm von Schmettau", "Gebhard von Blücher", "Count Kalckreuth"]
+    strength: "64,000"
+    casualties: "13,000 to 15,000"

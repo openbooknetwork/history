@@ -1,0 +1,41 @@
+# tr strings for the battle "paris-885".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Danes
+battle.sides.0.name: "Danlar"
+
+# 700 ships and 30,000 to 40,000 men by Abbo, about 300 ships by modern estimates
+battle.sides.0.strength: "Abbo’ya göre 700 gemi ve 30.000 ila 40.000 kişi, günümüz tahminlerine göre yaklaşık 300 gemi"
+
+# West Franks
+battle.sides.1.name: "Batı Franklar"
+
+# About 200 men-at-arms by Abbo, then the imperial army in October 886
+battle.sides.1.strength: "Abbo’ya göre yaklaşık 200 silahlı adam, Ekim 886’dan sonra imparatorluk ordusu"
+
+# The twelve defenders of the small tower, Henry of Franconia
+battle.sides.1.casualties: "Küçük kulenin on iki savunucusu, Frankonyalı Heinrich"
+
+# Siege of Paris
+battle.name: "Paris Kuşatması"
+
+# 25 November 885 – October 886
+battle.date: "25 Kasım 885 – Ekim 886"
+
+# Paris holds, Charles the Fat pays the Danes 700 pounds of silver
+battle.result: "Paris direnir, Şişman Karl Danlara 700 pound gümüş öder"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Odo, Count of Paris
+battle.sides.1.commanders.0: "Paris Kontu Odo"
+
+# Gozlin, Bishop of Paris
+battle.sides.1.commanders.1: "Paris Piskoposu Gozlin"
+
+# Henry of Franconia
+battle.sides.1.commanders.2: "Frankonyalı Heinrich"
+
+# Charles the Fat
+battle.sides.1.commanders.3: "Şişman Karl"

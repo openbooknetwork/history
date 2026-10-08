@@ -1,0 +1,35 @@
+# tr strings for the battle "brunanburh-937".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Kingdom of England
+battle.sides.0.name: "İngiltere Krallığı"
+
+# Heavy, among them two cousins of Æthelstan
+battle.sides.0.casualties: "Ağır, aralarında Æthelstan’ın iki kuzeni de var"
+
+# Kingdom of Dublin
+battle.sides.1.name: "Dublin Krallığı"
+
+# Five kings and seven earls, by the Brunanburh poem
+battle.sides.1.casualties: "Brunanburh şiirine göre beş kral ve yedi jarl"
+
+# Alba and Strathclyde
+battle.sides.2.name: "Alba ve Strathclyde"
+
+# A son of Constantine
+battle.sides.2.casualties: "Konstantin’in bir oğlu"
+
+# Battle of Brunanburh
+battle.name: "Brunanburh Muharebesi"
+
+# 937
+battle.date: "937"
+
+# English victory
+battle.result: "İngiliz zaferi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Constantine II
+battle.sides.2.commanders.0: "II. Konstantin"

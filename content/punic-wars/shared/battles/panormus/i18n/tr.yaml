@@ -1,0 +1,30 @@
+# tr strings for the battle "panormus".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Roman Republic
+battle.sides.0.name: "Roma Cumhuriyeti"
+
+# 2 legions and 2 allied alae, 16,000 to 20,000 men
+battle.sides.0.strength: "2 lejyon ve 2 müttefik ala, 16.000 ile 20.000 arası asker"
+
+# Unknown, but light
+battle.sides.0.casualties: "Bilinmiyor, ancak az"
+
+# Carthage
+battle.sides.1.name: "Kartaca"
+
+# 30,000 men, 60 to 142 elephants
+battle.sides.1.strength: "30.000 asker, 60 ile 142 arası fil"
+
+# Heavy, the elephants captured
+battle.sides.1.casualties: "Ağır, filler ele geçirildi"
+
+# Battle of Panormus
+battle.name: "Panormus Muharebesi"
+
+# 250 BC
+battle.date: "MÖ 250"
+
+# Roman victory
+battle.result: "Roma zaferi"

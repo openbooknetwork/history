@@ -4,10 +4,10 @@ The large and small states deadlock over representation. The Connecticut Comprom
 
 While the convention sits, Congress in New York passes the Northwest Ordinance on 13 July. The land north of the Ohio, ceded by Virginia and the other claimant states, will be governed as a territory and admitted as three to five new states on equal terms with the old. Slavery is banned there. Settlers from New England found Marietta, on the Ohio, the next April.
 
-@image northwest-ordinance
+@image northwest-ordinance-cb07b8
 
 The Constitution is signed on 17 September by thirty-nine delegates. Three refuse. It is to take effect among the ratifying states once nine have approved it in conventions elected for the purpose.
 
-@image signing-christy
+@image signing-christy-555632
 
-@image constitution-page-1
+@image constitution-page-1-4449c3

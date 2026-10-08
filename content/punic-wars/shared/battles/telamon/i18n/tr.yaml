@@ -1,0 +1,30 @@
+# tr strings for the battle "telamon".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Roman Republic
+battle.sides.0.name: "Roma Cumhuriyeti"
+
+# 101,600 infantry, 6,400 cavalry
+battle.sides.0.strength: "101.600 piyade, 6.400 süvari"
+
+# 6,000 killed
+battle.sides.0.casualties: "6.000 ölü"
+
+# Gauls: Boii, Insubres, Taurisci and Gaesatae
+battle.sides.1.name: "Galyalılar: Boiiler, İnsubrlar, Tauriskler ve Gaesatae"
+
+# 50,000 infantry, 20,000 cavalry
+battle.sides.1.strength: "50.000 piyade, 20.000 süvari"
+
+# 40,000 killed, 10,000 captured
+battle.sides.1.casualties: "40.000 ölü, 10.000 esir"
+
+# Battle of Telamon
+battle.name: "Telamon Muharebesi"
+
+# 225 BC
+battle.date: "MÖ 225"
+
+# Roman victory
+battle.result: "Roma zaferi"

@@ -1,0 +1,20 @@
+lnglat: [8.6775, 44.8856]
+name: "Battle of Marengo"
+date: "14 June 1800"
+result: "French victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Marengo
+images: [marengo-lejeune-1101c2, marengo-broc-cec6ca, marengo-david-8831e5]
+families:
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+  austria: { color: "#d4a017", color_dark: "#f2c94c" }
+sides:
+  - name: "French Republic"
+    color: "france"
+    commanders: ["Napoleon Bonaparte", "Louis Alexandre Berthier", "Louis Desaix", "Jean Lannes", "Claude Victor", "François Étienne de Kellermann"]
+    strength: "22,000 and 15 guns at first, 28,000 in all"
+    casualties: "5,600 to about 7,000"
+  - name: "Habsburg monarchy"
+    color: "austria"
+    commanders: ["Michael von Melas", "Anton von Zach", "Peter Karl Ott", "Konrad Valentin von Kaim", "Karl Joseph Hadik"]
+    strength: "30,000 and 100 guns"
+    casualties: "6,000 killed or wounded and 8,000 captured. Modern count: 963 killed, 5,518 wounded, 2,921 captured"

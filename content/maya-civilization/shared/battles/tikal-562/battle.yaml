@@ -1,0 +1,16 @@
+lnglat: [-89.6236, 17.2219]
+name: "Star war against Tikal"
+date: "April AD 562"
+result: "Caracol and Kaanul victory, Tikal’s king probably sacrificed"
+source: https://en.wikipedia.org/wiki/First_Tikal%E2%80%93Calakmul_War
+images: [caracol-battle-vessel-c0635c, caracol-caana-57062a]
+families:
+  kaanul: { color: "#b5352a", color_dark: "#e8695c" }
+  tikal: { color: "#2f6fb0", color_dark: "#6fa6e0" }
+sides:
+  - name: "Caracol and the Kaanul kingdom"
+    color: kaanul
+    commanders: ["Yajaw Te' K'inich II", "Sky Witness or K'ahk' Ti' Ch'ich'"]
+  - name: "Tikal"
+    color: tikal
+    commanders: ["Wak Chan K'awiil"]

@@ -1,0 +1,19 @@
+# Zones that show the outline of another zone under their own name or family.
+# The Bourbons held the same Sicily from 1799 to 1815, only the mainland changed hands.
+sicily-1806: { zone: sicily-1799, name: "Kingdom of Sicily, under the Bourbons, 1806 – 1815" }
+austria-breisgau-1803: {zone: austria-breisgau-1801, name: 'Breisgau, held by the Habsburg duke of Modena, 1803 – 1805'}
+egypt-1801: {zone: egypt-1792, name: 'Ottoman Egypt, 1801 – 1804'}
+egypt-1805: {zone: egypt-1792, name: 'Ottoman Egypt under Muhammad Ali, 1805 – 1815'}
+ionian-1799: {zone: ionian-1797, name: 'Ionian Islands, under Russian and Ottoman protection, 1799 – 1807', family: other}
+lucca-1801: {zone: lucca-1792, name: 'Republic of Lucca, under French protection, 1801 – 1804'}
+lucca-1814: {zone: lucca-1792, name: 'Duchy of Lucca, 1814 – 1815'}
+malta-1801: {zone: malta-1792, name: 'Malta, held by Britain, 1801 – 1815', family: britain}
+naples-1806: {zone: naples-1799, name: 'Kingdom of Naples under Joseph Bonaparte, 1806 – 1808'}
+naples-1815: {zone: naples-1792, name: 'Kingdom of Naples and Sicily, 1815'}
+papal-1798: {zone: papal-1797, name: 'Roman Republic, 1798 – 1799', family: client}
+papal-1800: {zone: papal-1797, name: 'Papal States, 1799 – 1808'}
+parma-1803: {zone: parma-1801, name: 'Duchy of Parma, under French administration, 1803 – 1808'}
+parma-1814: {zone: parma-1801, name: 'Duchy of Parma, 1814 – 1815'}
+sardinia-1799: {zone: sardinia-1793, name: 'Piedmont, occupied by France, 1799', family: france}
+sardinia-1800: {zone: sardinia-1793, name: 'Piedmont, held in turn by Austria and France, 1799 – 1800'}
+warsaw-1813: {zone: warsaw-1809, name: 'Duchy of Warsaw, under Russian occupation, 1813'}

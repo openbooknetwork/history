@@ -1,0 +1,30 @@
+# tr strings for the battle "fallen-timbers".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# United States
+battle.sides.0.name: "Birleşik Devletler"
+
+# 3,000
+battle.sides.0.strength: "3.000"
+
+# 33 killed, 100 wounded
+battle.sides.0.casualties: "33 ölü, 100 yaralı"
+
+# Northwestern Confederacy
+battle.sides.1.name: "Kuzeybatı Konfederasyonu"
+
+# 1,300
+battle.sides.1.strength: "1.300"
+
+# 25–40 killed
+battle.sides.1.casualties: "25–40 ölü"
+
+# Battle of Fallen Timbers
+battle.name: "Fallen Timbers Muharebesi"
+
+# 20 August 1794
+battle.date: "20 Ağustos 1794"
+
+# United States victory, followed by the Treaty of Greenville
+battle.result: "Amerikan zaferi, ardından Greenville Antlaşması"

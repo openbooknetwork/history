@@ -2,6 +2,6 @@ During the night French engineers float pontoons into the Alpone and bridge it n
 
 At 3 pm a large Austrian column surges out of Arcole and drives back Robert’s troops. Augereau’s men see it and fall back as well, and by 4 pm they have recrossed the Alpone. Masséna then comes up from the west with reinforcements, ambushes the Austrians on the western dike and drives them back towards Arcole. Augereau crosses again, and at about 5 pm the two divisions fight their way into the village, helped by a lieutenant and 25 Guides who ride into the Austrian rear blowing bugles.
 
-@image arcole-thevenin
+@image arcole-thevenin-e1bc6f
 
 The French push north towards the main road, where Schübirz’s brigade holds them off while Provera’s division escapes east. The French lose 3,500 killed and wounded and 1,300 captured, and General Robert is mortally wounded. The Austrians lose 2,200 killed and wounded and 4,000 men and 11 guns captured. On the same day Davidovich drives Vaubois from Rivoli, but Bonaparte turns against him and forces him back up the Adige, and on 23 November Alvinczi retreats to the Brenta.

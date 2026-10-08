@@ -1,6 +1,6 @@
 Çar’ın kardeşi Grandük Konstantin, Rus İmparatorluk Muhafızlarını Staré Vinohrady yakınında Vandamme’ın tümenine sürer. 4. Hat Alayı’nın bir taburu dağılır ve kartalını yitirir. Bu, o gün kaybedilen tek Fransız sancağıdır. Napolyon kendi Muhafızlarının ağır süvarisini savaşa sokar. İki taraf da yeni atlılar sürdükçe çarpışmanın sonucu belirsiz kalır.
 
-@image austerlitz-guard-eagle
+@image austerlitz-guard-eagle-efe529
 
 Bernadotte kolordusundan Drouet’nin tümeni çarpışmanın yanında mevzilenir ve Fransız süvarisinin kendi hatlarının gerisinde toparlanmasına imkân verir. Muhafızların atlı topçusu Rus süvarisine ve piyadesine ateş açar. Rus Muhafızları bozulur ve 400 m kadar kovalanır. Kutuzov ağır yaralanır, damadı Ferdinand von Tiesenhausen öldürülür.
 

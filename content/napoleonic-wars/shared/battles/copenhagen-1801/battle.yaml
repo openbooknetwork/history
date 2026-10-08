@@ -1,0 +1,20 @@
+lnglat: [12.613, 55.703]
+name: "Battle of Copenhagen"
+date: "2 April 1801"
+result: "British victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Copenhagen_(1801)
+images: [amiens-copenhagen-4aefc7]
+families:
+  britain: { color: "#c0392b", color_dark: "#ef6b5b" }
+  other: { color: "#a39171", color_dark: "#cbbb93" }
+sides:
+  - name: "Great Britain"
+    color: "britain"
+    commanders: ["Sir Hyde Parker", "Horatio Nelson"]
+    strength: "12 ships of the line, 4 frigates, 7 bomb vessels and smaller ships"
+    casualties: "254 to 274 killed, 688 to 737 wounded"
+  - name: "Denmark–Norway"
+    color: "other"
+    commanders: ["Olfert Fischer", "Steen Andersen Bille"]
+    strength: "7 ships of the line, 4 frigates, prams, radeaus and a floating battery"
+    casualties: "367 killed, 635 wounded, 1,779 captured, by the Danish naval museum’s count"

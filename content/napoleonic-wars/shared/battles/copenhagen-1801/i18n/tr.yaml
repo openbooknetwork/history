@@ -1,0 +1,30 @@
+# tr strings for the battle "copenhagen-1801".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Great Britain
+battle.sides.0.name: "Büyük Britanya"
+
+# 12 ships of the line, 4 frigates, 7 bomb vessels and smaller ships
+battle.sides.0.strength: "12 hat gemisi, 4 firkateyn, 7 havan gemisi ve daha küçük gemiler"
+
+# 254 to 274 killed, 688 to 737 wounded
+battle.sides.0.casualties: "254 ile 274 arası ölü, 688 ile 737 arası yaralı"
+
+# Denmark–Norway
+battle.sides.1.name: "Danimarka-Norveç"
+
+# 7 ships of the line, 4 frigates, prams, radeaus and a floating battery
+battle.sides.1.strength: "7 hat gemisi, 4 firkateyn, pramlar, radolar ve bir yüzer batarya"
+
+# 367 killed, 635 wounded, 1,779 captured, by the Danish naval museum’s count
+battle.sides.1.casualties: "Danimarka deniz müzesinin hesabına göre 367 ölü, 635 yaralı, 1.779 esir"
+
+# Battle of Copenhagen
+battle.name: "Kopenhag Muharebesi"
+
+# 2 April 1801
+battle.date: "2 Nisan 1801"
+
+# British victory
+battle.result: "İngiliz zaferi"

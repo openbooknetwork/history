@@ -1,0 +1,20 @@
+lnglat: [0.51845, 40.768]
+name: "Battle of Ibera (Dertosa)"
+date: "Spring 215 BC"
+result: "Roman victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Dertosa
+images: [tarraco-walls-235319, ebro-naval-ebfd17, scipios-tower-d489f7]
+families:
+  rome: { color: "#b03a2e", color_dark: "#e8695c" }
+  carthage: { color: "#6a3d9a", color_dark: "#a98bd6" }
+sides:
+  - name: "Roman Republic"
+    color: rome
+    commanders: ["Gnaeus Cornelius Scipio", "Publius Cornelius Scipio"]
+    strength: "About 25,000"
+    casualties: "Heavy"
+  - name: "Carthage"
+    color: carthage
+    commanders: ["Hasdrubal Barca"]
+    strength: "About 25,000, with war elephants"
+    casualties: "Heavy"

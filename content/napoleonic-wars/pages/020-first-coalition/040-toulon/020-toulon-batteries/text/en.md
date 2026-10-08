@@ -1,5 +1,5 @@
 Bonaparte gathers guns from Marseille, Avignon and the Army of Italy, requisitions draught animals and supplies, recalls experienced gunners and trains infantrymen to serve the guns. By December the besiegers have more than 100 guns and about 1,600 artillerymen. Promoted to chef de bataillon on 19 October, he builds the Convention battery on the heights of Arènes against Fort Malbousquet. New batteries rise opposite Fort Mulgrave: the Jacobin battery on the ridge of l’Evescat on 20 November and the battery of the Men Without Fear on 28 November.
 
-@image toulon-himely
+@image toulon-himely-86ee52
 
 Carteaux is dismissed on 11 November and replaced by François Amédée Doppet, a former doctor, and Doppet a few days later by the experienced General Jacques François Dugommier, who adopts Bonaparte’s plan. On 30 November an Allied sortie under Lieutenant-General Charles O’Hara overruns the Convention battery. The attackers pursue too far and are driven back by a counterattack led by Dugommier and Bonaparte. O’Hara is wounded and captured.

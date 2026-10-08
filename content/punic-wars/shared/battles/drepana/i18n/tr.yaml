@@ -1,0 +1,30 @@
+# tr strings for the battle "drepana".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Carthage
+battle.sides.0.name: "Kartaca"
+
+# 100 to 130 ships
+battle.sides.0.strength: "100 ile 130 arası gemi"
+
+# None recorded
+battle.sides.0.casualties: "Kayıt yok"
+
+# Roman Republic
+battle.sides.1.name: "Roma Cumhuriyeti"
+
+# At least 123 ships
+battle.sides.1.strength: "En az 123 gemi"
+
+# 93 ships captured, more sunk, 20,000 men killed or captured
+battle.sides.1.casualties: "93 gemi ele geçirildi, başkaları batırıldı, 20.000 ölü ya da esir"
+
+# Battle of Drepana
+battle.name: "Drepana Muharebesi"
+
+# 249 BC
+battle.date: "MÖ 249"
+
+# Carthaginian victory
+battle.result: "Kartaca zaferi"

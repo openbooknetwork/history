@@ -1,0 +1,32 @@
+# tr strings for the battle "stiklestad-1030".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Olaf Haraldsson’s army
+battle.sides.0.name: "Olaf Haraldsson’un ordusu"
+
+# 3,600 by Snorri’s account, among them 400 Swedes
+battle.sides.0.strength: "Snorri’ye göre 3.600, aralarında 400 İsveçli"
+
+# Olaf killed, Harald wounded
+battle.sides.0.casualties: "Olaf öldürülür, Harald yaralanır"
+
+# The farmers’ army, loyal to Cnut
+battle.sides.1.name: "Cnut’a bağlı çiftçi ordusu"
+
+# 14,400 by Snorri’s account
+battle.sides.1.strength: "Snorri’ye göre 14.400"
+
+# Battle of Stiklestad
+battle.name: "Stiklestad Muharebesi"
+
+# 29 July 1030, by tradition
+battle.date: "29 Temmuz 1030, geleneksel tarih"
+
+# Victory for the farmers’ army, Olaf Haraldsson killed
+battle.result: "Çiftçi ordusunun zaferi, Olaf Haraldsson öldürülür"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Hárek of Tjøtta
+battle.sides.1.commanders.2: "Tjøttalı Hárek"

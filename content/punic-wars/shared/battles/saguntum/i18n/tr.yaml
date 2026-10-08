@@ -1,0 +1,24 @@
+# tr strings for the battle "saguntum".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Carthage
+battle.sides.0.name: "Kartaca"
+
+# Heavy
+battle.sides.0.casualties: "Ağır"
+
+# Saguntum
+battle.sides.1.name: "Saguntum"
+
+# Nearly all the defenders killed, many civilians
+battle.sides.1.casualties: "Savunanların neredeyse tamamı öldürüldü, çok sayıda sivil öldü"
+
+# Siege of Saguntum
+battle.name: "Saguntum Kuşatması"
+
+# 219 BC
+battle.date: "MÖ 219"
+
+# Carthaginian victory, beginning of the Second Punic War
+battle.result: "Kartaca zaferi, İkinci Pön Savaşı’nın başlangıcı"

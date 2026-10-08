@@ -1,5 +1,5 @@
 Soult’nun IV. Kolordusu ve Murat’nın süvarisi 7 Şubat’ta saat 14 sularında Eylau’nun önündeki platoya ulaşır. Bagration’ın artçısı kasabanın yaklaşık bir buçuk kilometre önünde bir mevziyi tutar ve ilk Fransız saldırısını geri püskürterek Bennigsen’in ağır toplarının Eylau’dan geçmesi için zaman kazanır. Augereau’nun kolordusu ve İmparatorluk Muhafızları gelip Napolyon’un askeri yaklaşık 45.000’e çıkınca Bagration düzen içinde ana orduya çekilir.
 
-@image eylau-town-cemetery
+@image eylau-town-cemetery-cb391c
 
 Barclay de Tolly komutasındaki ikinci bir artçı kasabanın kendisini tutar. Fransızlar akşam kasabaya saldırır. Napolyon sonradan bunun kendi emriyle olduğunu söyler, başka kanıtlar ise elden kaçmış bir çatışmaya işaret eder. Sokaklarda ve kilise mezarlığı çevresindeki çarpışma hava karardıktan sonra da uzun süre devam eder ve iki tarafa da yaklaşık 4.000’er kişiye mal olur. Barclay kolundan vurulur. Gece saat 22’de Bennigsen kasabayı bırakır ve hattını biraz geri çeker. İki ordunun da çoğu dondurucu geceyi açıkta ve aç geçirir.

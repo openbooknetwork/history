@@ -1,0 +1,20 @@
+lnglat: [32.05, 54.78]
+name: "Battle of Smolensk"
+date: "16 – 18 August 1812"
+result: "French victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Smolensk_(1812)
+images: [smolensk-hess-e38b3c, smolensk-adam-174625]
+families:
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+  russia: { color: "#2e8b57", color_dark: "#5fcf8f" }
+sides:
+  - name: "French Empire"
+    color: "france"
+    commanders: ["Napoleon", "Józef Poniatowski"]
+    strength: "180,000, about 45,000 engaged"
+    casualties: "9,000 to 10,000 killed, wounded or captured"
+  - name: "Russian Empire"
+    color: "russia"
+    commanders: ["Michael Andreas Barclay de Tolly", "Pyotr Bagration", "Nikolay Raevsky", "Dmitry Dokhturov"]
+    strength: "120,000, about 30,000 engaged"
+    casualties: "6,000 to 14,000 killed, wounded or captured"

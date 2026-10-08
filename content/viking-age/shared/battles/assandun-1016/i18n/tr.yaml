@@ -1,0 +1,29 @@
+# tr strings for the battle "assandun-1016".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Kingdom of England
+battle.sides.0.name: "İngiltere Krallığı"
+
+# Heavy, among them Ulfcytel and Bishop Eadnoth of Dorchester
+battle.sides.0.casualties: "Ağır, aralarında Ulfcytel ve Dorchester Piskoposu Eadnoth"
+
+# Cnut’s army
+battle.sides.1.name: "Cnut’un ordusu"
+
+# Battle of Assandun
+battle.name: "Assandun Muharebesi"
+
+# 18 October 1016
+battle.date: "18 Ekim 1016"
+
+# Danish victory
+battle.result: "Dan zaferi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Ulfcytel, killed
+battle.sides.0.commanders.1: "Ulfcytel, öldürüldü"
+
+# Eadric Streona, fled
+battle.sides.0.commanders.2: "Eadric Streona, kaçtı"

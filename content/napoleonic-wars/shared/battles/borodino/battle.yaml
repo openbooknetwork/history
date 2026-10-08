@@ -1,0 +1,20 @@
+lnglat: [35.828, 55.513]
+name: "Battle of Borodino"
+date: "7 September 1812"
+result: "French tactical victory, strategically indecisive"
+source: https://en.wikipedia.org/wiki/Battle_of_Borodino
+images: [borodino-lejeune-78df20, borodino-hess-ba90ec, borodino-cuirassiers-05f4e7, borodino-roubaud-fleches-e17c49]
+families:
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+  russia: { color: "#2e8b57", color_dark: "#5fcf8f" }
+sides:
+  - name: "French Empire and its allies"
+    color: "france"
+    commanders: ["Napoleon", "Louis-Nicolas Davout", "Michel Ney", "Joachim Murat", "Eugène de Beauharnais", "Józef Poniatowski", "Auguste de Caulaincourt"]
+    strength: "103,000 to 135,000, about 109,500 engaged"
+    casualties: "30,000 to 42,000 killed, wounded or missing, among them 49 generals"
+  - name: "Russian Empire"
+    color: "russia"
+    commanders: ["Mikhail Kutuzov", "Michael Andreas Barclay de Tolly", "Pyotr Bagration", "Nikolay Raevsky", "Aleksey Yermolov", "Nikolay Tuchkov", "Matvei Platov", "Fyodor Uvarov"]
+    strength: "125,000 to 160,000, about 122,200 engaged"
+    casualties: "40,000 to 53,000 killed, wounded or missing, among them 29 generals"

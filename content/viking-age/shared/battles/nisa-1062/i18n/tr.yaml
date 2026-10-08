@@ -1,0 +1,30 @@
+# tr strings for the battle "nisa-1062".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Kingdom of Norway
+battle.sides.0.name: "Norveç Krallığı"
+
+# 150 ships
+battle.sides.0.strength: "150 gemi"
+
+# Unknown
+battle.sides.0.casualties: "Bilinmiyor"
+
+# Kingdom of Denmark
+battle.sides.1.name: "Danimarka Krallığı"
+
+# 300 ships by the sagas, fewer than Harald’s by Saxo
+battle.sides.1.strength: "Sagalara göre 300 gemi, Saxo’ya göre Harald’ınkinden az"
+
+# 70 ships cleared of men, Finn Arnesson captured
+battle.sides.1.casualties: "Mürettebatı temizlenen 70 gemi, Finn Arnesson esir"
+
+# Battle of Niså
+battle.name: "Niså Muharebesi"
+
+# 9 August 1062
+battle.date: "9 Ağustos 1062"
+
+# Norwegian victory, Sweyn escapes
+battle.result: "Norveç zaferi, Sweyn kaçar"

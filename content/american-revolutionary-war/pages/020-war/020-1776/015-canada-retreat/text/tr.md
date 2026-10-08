@@ -2,6 +2,6 @@
 
 Yaz boyunca iki taraf da gölde gemi yapar. 11 Ekim’de Guy Carleton’ın filosu Benedict Arnold’un daha küçük filosunu Valcour Adası’nda yener. Carleton 17 Ekim’den itibaren Crown Point’i tutar, ama kış yaklaşırken 2 Kasım’da Kanada’ya çekilir ve Ticonderoga Amerikalıların elinde kalır.
 
-@image valcour-gilder
+@image valcour-gilder-05b5d4
 
-@image valcour-map-1776
+@image valcour-map-1776-c65ce4

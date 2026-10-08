@@ -1,0 +1,20 @@
+lnglat: [-87.2165, 30.4197]
+name: "Siege of Pensacola"
+date: "9 March – 10 May 1781"
+result: "Spanish and French victory, West Florida passes to Spain"
+source: https://en.wikipedia.org/wiki/Siege_of_Pensacola
+images: [pensacola-1781-68e291, pensacola-planas-plan-d33200, pensacola-explosion-ponce-9d79f1, galvez-portrait-9b90fb]
+families:
+  spanish: { color: "#d4a017", color_dark: "#f2c94c" }
+  held: { color: "#c62828", color_dark: "#ff6b6b" }
+sides:
+  - name: "Spain and France"
+    color: spanish
+    commanders: ["Bernardo de Gálvez", "José Solano y Bote", "François-Aymar de Monteil"]
+    strength: "7,400 regulars and militia, 10,000 sailors and marines, 21 ships"
+    casualties: "95 killed, 202 wounded"
+  - name: "Great Britain"
+    color: held
+    commanders: ["John Campbell"]
+    strength: "1,300 regulars, rangers and militia, 500 native allies"
+    casualties: "155 killed, 105 wounded, 1,113 captured"

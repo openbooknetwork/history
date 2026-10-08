@@ -1,6 +1,6 @@
 Davout’s corps, about 15,000 strong, attacks the Russian left, and with Saint-Hilaire’s help bends it back until it stands at a right angle to the Russian centre. Napoleon keeps the Guard in reserve, because L’Estocq’s Prussians are still unaccounted for. By 3.30 p.m. the Russian left is in retreat.
 
-@image eylau-lestocq-gros
+@image eylau-lestocq-gros-5e9bd1
 
 L’Estocq’s corps, down to about 6,000 men after its rearguard fights with Ney, marches behind the whole Russian position to its left wing and attacks Davout’s exposed right at 4 p.m. With the help of 36 guns under Aleksey Yermolov, Prussians and Russians push Davout back to a line from Kutschitten towards Anklappen, where his guns on the heights of Klein Sausgarten stop them at nightfall. About 7 p.m. Ney’s leading division reaches the field on the French left and attacks the Russian right, and fighting goes on there until 10 p.m.
 

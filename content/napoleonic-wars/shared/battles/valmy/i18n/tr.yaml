@@ -1,0 +1,30 @@
+# tr strings for the battle "valmy".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# France
+battle.sides.0.name: "Fransa"
+
+# 36,000, 40 guns
+battle.sides.0.strength: "36.000, 40 top"
+
+# About 300
+battle.sides.0.casualties: "Yaklaşık 300"
+
+# Prussia and its allies
+battle.sides.1.name: "Prusya ve müttefikleri"
+
+# 34,000, 54 guns
+battle.sides.1.strength: "34.000, 54 top"
+
+# About 200
+battle.sides.1.casualties: "Yaklaşık 200"
+
+# Battle of Valmy
+battle.name: "Valmy Muharebesi"
+
+# 20 September 1792
+battle.date: "20 Eylül 1792"
+
+# French victory
+battle.result: "Fransız zaferi"

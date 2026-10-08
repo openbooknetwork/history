@@ -1,0 +1,29 @@
+# tr strings for the battle "benfleet-893".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# West Saxons, Mercians and Londoners
+battle.sides.0.name: "Batı Saksonlar, Mercialılar ve Londralılar"
+
+# Hastein’s army
+battle.sides.1.name: "Hastein’in ordusu"
+
+# The camp, most of the ships and the women and children taken, among them Hastein’s wife and two sons
+battle.sides.1.casualties: "Ordugâh, gemilerin çoğu ve aralarında Hastein’in karısı ile iki oğlunun da bulunduğu kadınlar ve çocuklar ele geçirilir"
+
+# Battle of Benfleet
+battle.name: "Benfleet Muharebesi"
+
+# 893
+battle.date: "893"
+
+# English victory, the Danish camp and fleet taken
+battle.result: "İngiliz zaferi, Dan ordugâhı ve donanması ele geçirilir"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Edward the Elder
+battle.sides.0.commanders.0: "Yaşlı Edward"
+
+# Æthelred, Lord of the Mercians
+battle.sides.0.commanders.1: "Mercialıların Efendisi Æthelred"

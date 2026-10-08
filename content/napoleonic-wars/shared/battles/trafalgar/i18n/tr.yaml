@@ -1,0 +1,30 @@
+# tr strings for the battle "trafalgar".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# United Kingdom
+battle.sides.0.name: "Birleşik Krallık"
+
+# 27 ships of the line, 4 frigates, 1 schooner, 1 cutter
+battle.sides.0.strength: "27 hat gemisi, 4 fırkateyn, 1 uskuna, 1 kotra"
+
+# 458 killed, 1,208 wounded
+battle.sides.0.casualties: "458 ölü, 1.208 yaralı"
+
+# France and Spain
+battle.sides.1.name: "Fransa ve İspanya"
+
+# 33 ships of the line, 5 frigates, 2 brigs
+battle.sides.1.strength: "33 hat gemisi, 5 fırkateyn, 2 brik"
+
+# 4,395 killed, 2,541 wounded, 7,000 to 8,000 captured, 17 ships of the line captured and 1 destroyed
+battle.sides.1.casualties: "4.395 ölü, 2.541 yaralı, 7.000 ile 8.000 arası esir, 17 hat gemisi ele geçirildi, 1’i yok edildi"
+
+# Battle of Trafalgar
+battle.name: "Trafalgar Muharebesi"
+
+# 21 October 1805
+battle.date: "21 Ekim 1805"
+
+# British victory
+battle.result: "Britanya zaferi"

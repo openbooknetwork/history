@@ -1,0 +1,35 @@
+# tr strings for the battle "ecnomus".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Roman Republic
+battle.sides.0.name: "Roma Cumhuriyeti"
+
+# 330 ships, about 140,000 crew and marines
+battle.sides.0.strength: "330 gemi, yaklaşık 140.000 mürettebat ve deniz piyadesi"
+
+# 24 ships sunk, 10,000 men killed
+battle.sides.0.casualties: "24 gemi batırıldı, 10.000 ölü"
+
+# Carthage
+battle.sides.1.name: "Kartaca"
+
+# 350 ships, about 150,000 crew and marines
+battle.sides.1.strength: "350 gemi, yaklaşık 150.000 mürettebat ve deniz piyadesi"
+
+# 30 ships sunk, 64 captured, 30,000 to 40,000 men killed or captured
+battle.sides.1.casualties: "30 gemi batırıldı, 64 gemi ele geçirildi, 30.000 ile 40.000 arası ölü ya da esir"
+
+# Battle of Cape Ecnomus
+battle.name: "Ecnomus Burnu Muharebesi"
+
+# 256 BC
+battle.date: "MÖ 256"
+
+# Roman victory
+battle.result: "Roma zaferi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Hamilcar
+battle.sides.1.commanders.0: "Hamilkar"

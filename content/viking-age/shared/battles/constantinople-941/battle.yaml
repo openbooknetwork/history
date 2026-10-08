@@ -1,0 +1,19 @@
+lnglat: [29.07, 41.16]
+name: "Rus' attack on Constantinople"
+date: "941"
+result: "Byzantine victory, the Rus' fleet destroyed"
+source: https://en.wikipedia.org/wiki/Rus%27%E2%80%93Byzantine_War_(941)
+images: [igor-olga-fleet-b361e7, igor-olga-greek-fire-2a6295]
+families:
+  byzantium: { color: "#6b2d6b", color_dark: "#c27ac2" }
+  rus: { color: "#1f8a8a", color_dark: "#4fc4c4" }
+sides:
+  - name: "Byzantine Empire"
+    color: byzantium
+    commanders: ["Theophanes", "John Kourkouas", "Bardas Phokas"]
+    strength: "15 old ships fitted with Greek fire at first"
+  - name: "Rus'"
+    color: rus
+    commanders: ["Igor"]
+    strength: "More than 1,000 ships, by Liudprand of Cremona"
+    casualties: "Most of the fleet"

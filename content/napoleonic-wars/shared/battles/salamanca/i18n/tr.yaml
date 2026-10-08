@@ -1,0 +1,30 @@
+# tr strings for the battle "salamanca".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Britain, Portugal and Spain
+battle.sides.0.name: "Britanya, Portekiz ve İspanya"
+
+# 46,000 to 51,949
+battle.sides.0.strength: "46.000 ile 51.949 arası"
+
+# 4,800 to 5,200 killed or wounded: 3,129 British, 2,038 Portuguese, 6 Spanish
+battle.sides.0.casualties: "4.800 ile 5.200 arası ölü ya da yaralı: 3.129 İngiliz, 2.038 Portekizli, 6 İspanyol"
+
+# French Empire
+battle.sides.1.name: "Fransız İmparatorluğu"
+
+# 42,000 to 49,647
+battle.sides.1.strength: "42.000 ile 49.647 arası"
+
+# 6,000 to 10,000 killed or wounded, 7,000 captured
+battle.sides.1.casualties: "6.000 ile 10.000 arası ölü ya da yaralı, 7.000 esir"
+
+# Battle of Salamanca
+battle.name: "Salamanca Muharebesi"
+
+# 22 July 1812
+battle.date: "22 Temmuz 1812"
+
+# Coalition victory
+battle.result: "Koalisyon zaferi"

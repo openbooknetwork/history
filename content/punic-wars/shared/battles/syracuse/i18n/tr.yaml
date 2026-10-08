@@ -1,0 +1,44 @@
+# tr strings for the battle "syracuse".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Roman Republic
+battle.sides.0.name: "Roma Cumhuriyeti"
+
+# 16,000–18,000
+battle.sides.0.strength: "16.000–18.000"
+
+# Heavy
+battle.sides.0.casualties: "Ağır"
+
+# Syracuse and Carthage
+battle.sides.1.name: "Siraküza ve Kartaca"
+
+# 21,000–25,000
+battle.sides.1.strength: "21.000–25.000"
+
+# Over 5,000, and many civilians
+battle.sides.1.casualties: "5.000’den fazla, ayrıca çok sayıda sivil"
+
+# Siege of Syracuse
+battle.name: "Siraküza Kuşatması"
+
+# Spring 213 – Autumn 212 BC
+battle.date: "MÖ 213 ilkbaharı – MÖ 212 sonbaharı"
+
+# Roman victory, Syracuse sacked
+battle.result: "Roma zaferi, Siraküza yağmalandı"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Epicydes
+battle.sides.1.commanders.0: "Epikydes"
+
+# Hippocrates
+battle.sides.1.commanders.1: "Hippokrates"
+
+# Himilco
+battle.sides.1.commanders.2: "Himilko"
+
+# Bomilcar
+battle.sides.1.commanders.3: "Bomilkar"

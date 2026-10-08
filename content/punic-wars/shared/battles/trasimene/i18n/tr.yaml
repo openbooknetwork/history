@@ -1,0 +1,30 @@
+# tr strings for the battle "trasimene".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Carthage
+battle.sides.0.name: "Kartaca"
+
+# More than 50,000
+battle.sides.0.strength: "50.000’den fazla"
+
+# 1,500 or 2,500 killed, many wounded
+battle.sides.0.casualties: "1.500 ya da 2.500 ölü, çok sayıda yaralı"
+
+# Roman Republic
+battle.sides.1.name: "Roma Cumhuriyeti"
+
+# 25,000
+battle.sides.1.strength: "25.000"
+
+# 15,000 killed, 6,000 – 10,000 captured
+battle.sides.1.casualties: "15.000 ölü, 6.000 – 10.000 esir"
+
+# Battle of Lake Trasimene
+battle.name: "Trasimeno Gölü Muharebesi"
+
+# 21 June 217 BC
+battle.date: "21 Haziran MÖ 217"
+
+# Carthaginian victory
+battle.result: "Kartaca zaferi"

@@ -1,0 +1,20 @@
+lnglat: [12.99288, 43.78192]
+name: "Battle of the Metaurus"
+date: "24 June 207 BC"
+result: "Roman victory, Hasdrubal killed"
+source: https://en.wikipedia.org/wiki/Battle_of_the_Metaurus
+images: [metaurus-plan-220b01, metaurus-uccello-eb52c7, hasdrubal-head-tiepolo-4caf36, metaurus-river-9e73d4]
+families:
+  rome: { color: "#b03a2e", color_dark: "#e8695c" }
+  carthage: { color: "#6a3d9a", color_dark: "#a98bd6" }
+sides:
+  - name: "Roman Republic"
+    color: rome
+    commanders: ["Marcus Livius Salinator", "Gaius Claudius Nero", "Lucius Porcius Licinus"]
+    strength: "37,000"
+    casualties: "2,000–8,000 killed"
+  - name: "Carthage"
+    color: carthage
+    commanders: ["Hasdrubal Barca"]
+    strength: "30,000, with 10 elephants"
+    casualties: "10,000 killed, 5,400 captured"

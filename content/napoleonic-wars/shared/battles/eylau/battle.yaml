@@ -1,0 +1,20 @@
+lnglat: [20.651, 54.39]
+name: "Battle of Eylau"
+date: "7 – 8 February 1807"
+result: "Inconclusive, the Russians withdraw"
+source: https://en.wikipedia.org/wiki/Battle_of_Eylau
+images: [eylau-lestocq-gros-5e9bd1, eylau-town-cemetery-cb391c, eylau-murat-charge-0205ad]
+families:
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+  russia: { color: "#2e8b57", color_dark: "#5fcf8f" }
+sides:
+  - name: "French Empire"
+    color: "france"
+    commanders: ["Napoleon", "Pierre Augereau", "Louis-Nicolas Davout", "Joachim Murat", "Michel Ney", "Jean-de-Dieu Soult"]
+    strength: "75,000 with Davout and Ney, 300 guns"
+    casualties: "15,000 to 29,643"
+  - name: "Russia and Prussia"
+    color: "russia"
+    commanders: ["Levin von Bennigsen", "Barclay de Tolly", "Pyotr Bagration", "Anton von L’Estocq"]
+    strength: "67,000 Russians and 9,000 Prussians, 400 guns"
+    casualties: "15,000 to 26,000"

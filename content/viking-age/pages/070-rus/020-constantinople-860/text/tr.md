@@ -1,10 +1,10 @@
 18 Haziran 860’ta gün batarken yaklaşık 200 gemilik bir Rus filosu İstanbul Boğazı’na girer. İmparator III. Mihail haziran başında Küçük Asya’da Abbasilere karşı sefere çıkmak üzere kentten ayrılmıştır, ordu ve donanma uzaktadır. Ruslar Konstantinopolis’in kent dışındaki mahallelerini yağmalar, evleri yakar, buldukları insanları boğar ya da bıçaklar.
 
-@image constantinople-860-radziwill
+@image constantinople-860-radziwill-50d475
 
 Boğaz’dan Marmara Denizi’ne geçip görevden alınmış Patrik İgnatios’un sürgünde yaşadığı Adalar’a çıkarlar. Evleri ve manastırları yağmalar, patriğin 22 hizmetkârını bir geminin güvertesinde baltalarla parçalarlar. Saldırı 4 Ağustos’a kadar sürer, o gün Patrik Fotios bir vaazında kentin kurtuluşu için şükreder.
 
-@image constantinople-860-icon
+@image constantinople-860-icon-1a1d27
 
 Fotios’un vaazları Rhos adını anan ilk Yunanca metinlerdir. Fotios onları uzak kuzey ülkelerinden gelen, başlarında tek bir hükümdar bulunmayan, adı sanı bilinmez bir halk olarak anar ve saldırılarının “gökten inen bir yıldırım gibi” geldiğini yazar. Papa I. Nikolaus’un 865 tarihli bir mektubu ve Diyakoz Ioannes’in Venedik vakayinamesi, akıncıların cezasız ve zafer içinde evlerine döndüğünü söyler.
 

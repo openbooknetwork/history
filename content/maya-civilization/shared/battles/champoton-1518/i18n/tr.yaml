@@ -1,0 +1,27 @@
+# tr strings for the battle "champoton-1518".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Expedition from Cuba
+battle.sides.0.name: "Küba’dan gelen sefer"
+
+# About 240 men
+battle.sides.0.strength: "240 kadar adam"
+
+# 1 to 7 killed, 50 to 60 wounded
+battle.sides.0.casualties: "1 ile 7 arası ölü, 50 ile 60 arası yaralı"
+
+# Champotón
+battle.sides.1.name: "Champotón"
+
+# About 200 killed, Moch Couoh among them
+battle.sides.1.casualties: "Aralarında Moch Couoh’un da bulunduğu 200 kadar ölü"
+
+# Battle of Champotón (1518)
+battle.name: "Champotón Muharebesi (1518)"
+
+# 1518
+battle.date: "1518"
+
+# Spanish victory
+battle.result: "İspanyol zaferi"

@@ -2,6 +2,6 @@ D’Estaing 12 Eylül’de Savannah’nın aşağısında asker çıkarmaya baş
 
 Kraliyet İstihkâmcıları’ndan Yüzbaşı James Moncrief, 500 ile 800 arası köleleştirilmiş Afrikalı Amerikalı çalıştırarak kentin dışındaki düzlükte tabyalı bir siper hattı kurmuştur. İngilizler kanalın dar bir yerinde Rose gemisini batırır, böylece Fransız donanması saldırıyı destekleyemez.
 
-@image savannah-moncrief-plan
+@image savannah-moncrief-plan-d16493
 
 D’Estaing önce saldırıyı reddeder ve gemilerinden top çıkarır. 3 – 8 Ekim arasında bu toplar siperlerden çok kenti döver ve çok sayıda sivil ölür. Bombardıman sonuç vermeyince d’Estaing hatlara saldırmaya karar verir.

@@ -1,0 +1,35 @@
+# tr strings for the battle "tunis".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Carthage
+battle.sides.0.name: "Kartaca"
+
+# 12,000 infantry, 4,000 cavalry, 100 elephants
+battle.sides.0.strength: "12.000 piyade, 4.000 süvari, 100 fil"
+
+# At least 800 killed
+battle.sides.0.casualties: "En az 800 ölü"
+
+# Roman Republic
+battle.sides.1.name: "Roma Cumhuriyeti"
+
+# 15,000 infantry, 500 cavalry
+battle.sides.1.strength: "15.000 piyade, 500 süvari"
+
+# 13,000 killed, 500 captured
+battle.sides.1.casualties: "13.000 ölü, 500 esir"
+
+# Battle of Tunis
+battle.name: "Tunus Muharebesi"
+
+# Spring 255 BC
+battle.date: "MÖ 255 ilkbaharı"
+
+# Carthaginian victory, Regulus captured
+battle.result: "Kartaca zaferi, Regulus esir düşer"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Xanthippus
+battle.sides.0.commanders.0: "Ksanthippos"

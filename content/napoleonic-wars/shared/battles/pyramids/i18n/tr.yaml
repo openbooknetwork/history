@@ -1,0 +1,30 @@
+# tr strings for the battle "pyramids".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# French Republic
+battle.sides.0.name: "Fransız Cumhuriyeti"
+
+# 20,000 to 25,000
+battle.sides.0.strength: "20.000 ile 25.000 arası"
+
+# 29 killed, 260 wounded
+battle.sides.0.casualties: "29 ölü, 260 yaralı"
+
+# Mamluks of Egypt
+battle.sides.1.name: "Mısır Memlükleri"
+
+# 21,000 to 50,000, with 6,000 or more cavalry
+battle.sides.1.strength: "21.000 ile 50.000 arası, 6.000 ya da daha fazlası süvari"
+
+# Several thousand to 10,000 killed or wounded
+battle.sides.1.casualties: "Birkaç bin ile 10.000 arası ölü ya da yaralı"
+
+# Battle of the Pyramids
+battle.name: "Piramitler Muharebesi"
+
+# 21 July 1798
+battle.date: "21 Temmuz 1798"
+
+# French victory
+battle.result: "Fransız zaferi"

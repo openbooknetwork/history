@@ -1,0 +1,35 @@
+# tr strings for the battle "brandywine".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# United States
+battle.sides.0.name: "Birleşik Devletler"
+
+# 14,600
+battle.sides.0.strength: "14.600"
+
+# 250 killed, 600 wounded, 400 captured
+battle.sides.0.casualties: "250 ölü, 600 yaralı, 400 esir"
+
+# Great Britain and Hesse-Kassel
+battle.sides.1.name: "Büyük Britanya ve Hessen-Kassel"
+
+# 15,500
+battle.sides.1.strength: "15.500"
+
+# 93 killed, 488 wounded, 6 missing
+battle.sides.1.casualties: "93 ölü, 488 yaralı, 6 kayıp"
+
+# Battle of Brandywine
+battle.name: "Brandywine Muharebesi"
+
+# 11 September 1777
+battle.date: "11 Eylül 1777"
+
+# British victory, the road to Philadelphia open
+battle.result: "İngiliz zaferi, Philadelphia yolu açılır"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Marquis de Lafayette
+battle.sides.0.commanders.3: "Marki de Lafayette"

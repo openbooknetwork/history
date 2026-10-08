@@ -1,0 +1,19 @@
+lnglat: [-83.6975, 41.5442]
+name: "Battle of Fallen Timbers"
+date: "20 August 1794"
+result: "United States victory, followed by the Treaty of Greenville"
+source: https://en.wikipedia.org/wiki/Battle_of_Fallen_Timbers
+images: [fallen-timbers-zogbaum-d3f7a4, fallen-timbers-davis-432f95, turkey-foot-rock-de3ece, fort-miamis-earthworks-c832a4]
+families:
+  usa: { color: "#2d7dd2", color_dark: "#6fb6ff" }
+sides:
+  - name: "United States"
+    color: usa
+    commanders: ["Anthony Wayne", "James Wilkinson", "Charles Scott"]
+    strength: "3,000"
+    casualties: "33 killed, 100 wounded"
+  - name: "Northwestern Confederacy"
+    color: "#8d6e63"
+    commanders: ["Blue Jacket", "Little Turtle", "Buckongahelas"]
+    strength: "1,300"
+    casualties: "25–40 killed"

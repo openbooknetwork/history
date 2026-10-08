@@ -1,0 +1,20 @@
+lnglat: [11.367, 50.65]
+name: "Battle of Saalfeld"
+date: "10 October 1806"
+result: "French victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Saalfeld
+images: [prussia-1806-saalfeld-f0ae67, prussia-1806-louis-ferdinand-8f32f5]
+families:
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+  prussia: { color: "#3d4a5c", color_dark: "#9aa8bd" }
+sides:
+  - name: "French Empire"
+    color: "france"
+    commanders: ["Jean Lannes", "Louis-Gabriel Suchet"]
+    strength: "12,000 to 12,800, 12 guns"
+    casualties: "172 to 200 killed and wounded"
+  - name: "Prussia and Saxony"
+    color: "prussia"
+    commanders: ["Prince Louis Ferdinand of Prussia"]
+    strength: "8,300 to 9,000, 44 guns"
+    casualties: "900 killed and wounded, 1,800 captured, 33 guns"

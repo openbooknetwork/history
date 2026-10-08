@@ -1,0 +1,20 @@
+lnglat: [-79.8525, 32.7628]
+name: "Battle of Sullivan’s Island"
+date: "28 June 1776"
+result: "South Carolina victory, the British fleet withdraws"
+source: https://en.wikipedia.org/wiki/Battle_of_Sullivan%27s_Island
+images: [fort-moultrie-white-bfb129, fort-sullivan-1776-1c8e48, charleston-bar-plan-1776-d85d47, jasper-flag-oertel-b7bb79]
+families:
+  usa: { color: "#2d7dd2", color_dark: "#6fb6ff" }
+  held: { color: "#c62828", color_dark: "#ff6b6b" }
+sides:
+  - name: "South Carolina"
+    color: usa
+    commanders: ["Charles Lee", "William Moultrie", "Francis Marion"]
+    strength: "435 militia and 31 cannon in the fort"
+    casualties: "12 killed, 25 wounded"
+  - name: "Great Britain"
+    color: held
+    commanders: ["Peter Parker", "Henry Clinton"]
+    strength: "2,200 infantry and 9 warships"
+    casualties: "91 killed, 170 wounded, one frigate run aground"

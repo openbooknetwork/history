@@ -2,8 +2,8 @@ Napoleon's grand battery of 80 guns opens fire around noon. At about 13:15 he se
 
 Bylandt's line gives way, Picton is killed ordering a counter-attack, and the French break through the hedges along the sunken road. Uxbridge then sends in the British heavy cavalry from behind the ridge, about 2,000 men of the Household Brigade under Lord Edward Somerset and the Union Brigade under Sir William Ponsonby. They rout the cuirassiers beside La Haye Sainte and break d'Erlon's columns, taking the eagles of the 105th and 45th Line.
 
-@image waterloo-scotland-forever
+@image waterloo-scotland-forever-fdd7c6
 
 Out of control, the Union Brigade rides on into the grand battery, where Milhaud's cuirassiers and Jaquinot's lancers counter-charge and Ponsonby is killed. The two brigades lose about 1,200 men over the day, and d'Erlon's corps loses 3,000 in the attack, over 2,000 of them taken prisoner. It needs until 16:00 to re-form.
 
-@image waterloo-ewart
+@image waterloo-ewart-e39884

@@ -1,0 +1,17 @@
+lnglat: [28.93, 41.02]
+name: "Oleg's campaign against Constantinople"
+date: "907, by the Primary Chronicle"
+result: "Tribute and a treaty, by the Primary Chronicle"
+source: https://en.wikipedia.org/wiki/Rus%27%E2%80%93Byzantine_War_(907)
+images: [rurik-oleg-tribute-ef9da7, rurik-oleg-calling-c50d87]
+families:
+  rus: { color: "#1f8a8a", color_dark: "#4fc4c4" }
+  byzantium: { color: "#6b2d6b", color_dark: "#c27ac2" }
+sides:
+  - name: "Rus'"
+    color: rus
+    commanders: ["Oleg"]
+    strength: "2,000 boats, by the Primary Chronicle"
+  - name: "Byzantine Empire"
+    color: byzantium
+    commanders: ["Leo VI"]

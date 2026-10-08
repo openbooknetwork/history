@@ -1,0 +1,16 @@
+lnglat: [9.8272, 58.9916]
+name: "Battle of Nesjar"
+date: "25 March 1016, Palm Sunday"
+result: "Victory for Olaf Haraldsson"
+source: https://en.wikipedia.org/wiki/Battle_of_Nesjar
+images: [olaf-haraldsson-munthe-66fc69, olaf-haraldsson-coin-07efd5]
+families:
+  norway: { color: "#2f6fb0", color_dark: "#6fa6e0" }
+  other: { color: "#7f8c8d", color_dark: "#aab7b8" }
+sides:
+  - name: "Olaf Haraldsson"
+    color: norway
+    commanders: ["Olaf Haraldsson"]
+  - name: "Sveinn Hákonarson and his allies"
+    color: other
+    commanders: ["Sveinn Hákonarson", "Erling Skjalgsson"]

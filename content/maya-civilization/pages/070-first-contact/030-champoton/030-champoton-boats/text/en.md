@@ -2,6 +2,6 @@ With only one soldier, Berrio, unhurt and their captain barely conscious, the Sp
 
 The battle lasts about an hour. Bernal Díaz counts 57 men lost, two of them taken alive, and five more die of their wounds in the following days. The Spaniards call the place the Costa de Mala Pelea, the coast of the bad fight. Too few men are left to sail three ships, so they burn the brigantine.
 
-@image champoton-boats-beach
+@image champoton-boats-beach-a261d5
 
 Alaminos steers for Florida, where a landing party finds water and beats off an attack by the local people. The two ships reach Havana, and Hernández de Córdoba dies of his wounds a few days later. His report and the two prisoners from Catoche, who speak of gold in Yucatán, lead Velázquez to send a new expedition.

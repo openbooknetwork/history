@@ -1,5 +1,5 @@
 Bennigsen yalnızca kuzeye, Wehlau’ya yürüyüşünü güvenceye almak niyetindedir, ancak 14 Haziran sabahı Friedland’in batısında Lannes’ın kolordusunun tek başına durduğunu görünce onu yok etmek için ordusuna Alle’yi geçme emri verir. Bütün dubalı köprüleri kasabada ya da yakınındadır ve geri dönüşün tek yolu onlardır. Sabah 6’ya kadar 50.000’e yakın Rus karşıya geçmiştir: Heinrichsdorf yolu ile ırmağın kıvrımları arasında iki hat piyade, sağda Heinrichsdorf’a doğru süvari ve Kazaklar, sol kanadı ise ırmağın ötesinden koruyan bataryalar.
 
-@image friedland-lannes-vernet
+@image friedland-lannes-vernet-83d2c2
 
 Hiçbir zaman 26.000’den fazla askeri olmayan Lannes yardım istemek için yaverlerini gönderir ve Rusların yüklendiği yerlere birliklerini kaydırarak mevzisini korur. Avcı erleri Sortlack Ormanı’nda ve Posthenen’in önünde çarpışır. Grouchy ile Nansouty’nin süvarisi Heinrichsdorf yarışını kazanır, Mortier’nin Fransız ve Polonyalı kolordusunun öncüsü oraya varır ve Kazakları Schwonau’dan çıkarır. Öğleye doğru Napolyon 40.000 kişi daha getirerek savaş alanına gelir.

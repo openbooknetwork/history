@@ -1,0 +1,35 @@
+# tr strings for the battle "savannah-1779".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# United States and France
+battle.sides.0.name: "Birleşik Devletler ve Fransa"
+
+# 7,722 troops and 42 ships
+battle.sides.0.strength: "7.722 asker ve 42 gemi"
+
+# 244 killed, 584 wounded, 120 captured
+battle.sides.0.casualties: "244 ölü, 584 yaralı, 120 esir"
+
+# Great Britain
+battle.sides.1.name: "Büyük Britanya"
+
+# 4,813 troops and 8 vessels
+battle.sides.1.strength: "4.813 asker ve 8 gemi"
+
+# 40 killed, 63 wounded, 52 missing
+battle.sides.1.casualties: "40 ölü, 63 yaralı, 52 kayıp"
+
+# Siege of Savannah
+battle.name: "Savannah Kuşatması"
+
+# 16 September – 18 October 1779
+battle.date: "16 Eylül – 18 Ekim 1779"
+
+# British victory, the allied assault of 9 October fails
+battle.result: "İngiliz zaferi, 9 Ekim’deki müttefik saldırısı başarısız olur"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Comte d’Estaing
+battle.sides.0.commanders.1: "Kont d’Estaing"

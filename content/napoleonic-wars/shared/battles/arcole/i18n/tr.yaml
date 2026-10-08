@@ -1,0 +1,30 @@
+# tr strings for the battle "arcole".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# French Republic
+battle.sides.0.name: "Fransız Cumhuriyeti"
+
+# 20,000
+battle.sides.0.strength: "20.000"
+
+# 3,500 killed or wounded, 1,300 captured
+battle.sides.0.casualties: "3.500 ölü ya da yaralı, 1.300 esir"
+
+# Habsburg monarchy
+battle.sides.1.name: "Habsburg Monarşisi"
+
+# 24,000
+battle.sides.1.strength: "24.000"
+
+# 2,200 killed or wounded, 4,000 captured
+battle.sides.1.casualties: "2.200 ölü ya da yaralı, 4.000 esir"
+
+# Battle of Arcole
+battle.name: "Arcole Muharebesi"
+
+# 15 – 17 November 1796
+battle.date: "15 – 17 Kasım 1796"
+
+# French victory
+battle.result: "Fransız zaferi"

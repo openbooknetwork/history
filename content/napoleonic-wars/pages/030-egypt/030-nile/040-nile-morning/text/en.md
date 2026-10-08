@@ -1,6 +1,6 @@
 Ten minutes after the explosion Franklin opens fire again, but she is soon dismasted and surrenders to Swiftsure and Defence. Tonnant fights Majestic until 03:00. The French rear under Rear-Admiral Pierre-Charles Villeneuve, downwind of the fighting, has fired only from a distance. At dawn on 2 August it exchanges fire with Alexander and Majestic, which Goliath and Theseus then join, and the crew of the frigate Artémise strike, set her on fire and abandon her.
 
-@image nile-tonnant
+@image nile-tonnant-ffb0b5
 
 Heureux and Mercure have drifted onto the shoal and surrender within minutes. At 11:00 Villeneuve takes Guillaume Tell and Généreux with the frigates Justice and Diane out to sea, followed only by Zealous. Tonnant is run ashore and surrenders on 3 August, and the crew of the grounded Timoléon set her on fire and escape to the shore.
 

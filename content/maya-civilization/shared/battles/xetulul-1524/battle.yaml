@@ -1,0 +1,17 @@
+lnglat: [-91.52, 14.588]
+name: "Battle of Xetulul"
+date: "8 February 1524"
+result: "Spanish victory"
+source: https://en.wikipedia.org/wiki/Spanish_conquest_of_Guatemala#Subjugation_of_the_K%CA%BCiche%CA%BC
+images: [alvarado-1524-tlaxcalans-ec7cc6, alvarado-1524-portrait-c5b3bc]
+families:
+  spain: { color: "#b03a7a", color_dark: "#e07ab0" }
+  kiche: { color: "#a0461e", color_dark: "#e07a4a" }
+sides:
+  - name: "Spain and its Mexican allies"
+    color: spain
+    commanders: ["Pedro de Alvarado"]
+    strength: "180 cavalry, 300 infantry and thousands of Mexican allies at the start of the campaign"
+    casualties: "Many wounded by K'iche' archers"
+  - name: "K'iche' kingdom of Q'umarkaj"
+    color: kiche

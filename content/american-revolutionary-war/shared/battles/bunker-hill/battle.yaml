@@ -1,0 +1,20 @@
+lnglat: [-71.0608, 42.3763]
+name: "Battle of Bunker Hill"
+date: "17 June 1775"
+result: "British victory at heavy cost"
+source: https://en.wikipedia.org/wiki/Battle_of_Bunker_Hill
+images: [bunker-hill-trumbull-2c95a5, bunker-hill-sketch-1775-a69276, bunker-hill-burning-charlestown-131ef2, bunker-hill-pyle-85e34b]
+families:
+  usa: { color: "#2d7dd2", color_dark: "#6fb6ff" }
+  held: { color: "#c62828", color_dark: "#ff6b6b" }
+sides:
+  - name: "New England militia"
+    color: usa
+    commanders: ["William Prescott", "Israel Putnam", "Joseph Warren", "John Stark"]
+    strength: "About 2,400"
+    casualties: "138 killed, 305 wounded, 30 captured"
+  - name: "Great Britain"
+    color: held
+    commanders: ["William Howe", "Robert Pigot", "Henry Clinton"]
+    strength: "Over 3,000"
+    casualties: "226 killed, 828 wounded"

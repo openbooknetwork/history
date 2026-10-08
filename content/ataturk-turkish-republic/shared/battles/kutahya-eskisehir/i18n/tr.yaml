@@ -1,0 +1,41 @@
+# tr strings for the battle "kutahya-eskisehir".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Grand National Assembly
+battle.sides.0.name: "Türkiye Büyük Millet Meclisi"
+
+# 55,000 by Turkish counts, 95,750 by Greek counts
+battle.sides.0.strength: "Türk kaynaklarına göre 55.000, Yunan kaynaklarına göre 95.750"
+
+# 1,643 killed, 4,981 wounded, 374 captured, 30,809 deserted
+battle.sides.0.casualties: "1.643 ölü, 4.981 yaralı, 374 esir, 30.809 firari"
+
+# Kingdom of Greece
+battle.sides.1.name: "Yunanistan Krallığı"
+
+# 106,000 by Turkish counts, about 110,000 by Greek counts
+battle.sides.1.strength: "Türk kaynaklarına göre 106.000, Yunan kaynaklarına göre yaklaşık 110.000"
+
+# 1,491 killed, 6,472 wounded, 110 missing
+battle.sides.1.casualties: "1.491 ölü, 6.472 yaralı, 110 kayıp"
+
+# Battle of Kütahya–Eskişehir
+battle.name: "Kütahya–Eskişehir Muharebeleri"
+
+# 10–24 July 1921
+battle.date: "10–24 Temmuz 1921"
+
+# Greek victory, Turkish retreat to the Sakarya
+battle.result: "Yunan zaferi, Türk ordusu Sakarya’ya çekildi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# İsmet Pasha
+battle.sides.0.commanders.0: "İsmet Paşa"
+
+# Anastasios Papoulas
+battle.sides.1.commanders.0: "Anastasios Papulas"
+
+# King Constantine I
+battle.sides.1.commanders.1: "Kral I. Konstantinos"

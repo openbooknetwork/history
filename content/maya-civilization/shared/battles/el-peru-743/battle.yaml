@@ -1,0 +1,15 @@
+lnglat: [-90.3806, 17.2783]
+name: "Tikal’s victory over El Perú"
+date: "AD 743"
+result: "Tikal victory, El Perú becomes a vassal of Tikal"
+source: https://en.wikipedia.org/wiki/El_Per%C3%BA_(Maya_site)
+images: [tikal-743-lintel-3-3dbe92, tikal-743-temple-iv-687030]
+families:
+  tikal: { color: "#2f6fb0", color_dark: "#6fa6e0" }
+  kaanul: { color: "#b5352a", color_dark: "#e8695c" }
+sides:
+  - name: "Tikal"
+    color: tikal
+    commanders: ["Yik'in Chan K'awiil"]
+  - name: "El Perú (Waka')"
+    color: kaanul

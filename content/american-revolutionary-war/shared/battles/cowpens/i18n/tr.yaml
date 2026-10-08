@@ -1,0 +1,30 @@
+# tr strings for the battle "cowpens".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# United States
+battle.sides.0.name: "Birleşik Devletler"
+
+# 1,887–1,912
+battle.sides.0.strength: "1.887–1.912"
+
+# 25 killed, 124 wounded
+battle.sides.0.casualties: "25 ölü, 124 yaralı"
+
+# Great Britain
+battle.sides.1.name: "Büyük Britanya"
+
+# 1,150 and 2 guns
+battle.sides.1.strength: "1.150 asker ve 2 top"
+
+# 110 killed, 229 wounded, 629 captured or missing, both guns lost
+battle.sides.1.casualties: "110 ölü, 229 yaralı, 629 esir veya kayıp, iki top kaybı"
+
+# Battle of Cowpens
+battle.name: "Cowpens Muharebesi"
+
+# 17 January 1781
+battle.date: "17 Ocak 1781"
+
+# American victory, Tarleton’s force destroyed
+battle.result: "Amerikan zaferi, Tarleton’ın kuvveti yok edilir"

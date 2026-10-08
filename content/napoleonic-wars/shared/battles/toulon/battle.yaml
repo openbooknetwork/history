@@ -1,0 +1,20 @@
+lnglat: [5.93, 43.137]
+name: "Siege of Toulon"
+date: "29 August – 19 December 1793"
+result: "French Republican victory"
+source: https://en.wikipedia.org/wiki/Siege_of_Toulon_(1793)
+images: [toulon-fort-81490f, toulon-himely-86ee52, toulon-whitcombe-6b2ae5, toulon-detaille-c44e5a]
+families:
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+  britain: { color: "#c0392b", color_dark: "#ef6b5b" }
+sides:
+  - name: "French Republic"
+    color: "france"
+    commanders: ["Jacques François Dugommier", "Jean François Carteaux", "François Amédée Doppet", "Jean François Cornu de La Poype", "Napoleon Bonaparte"]
+    strength: "32,000"
+    casualties: "1,700 killed or wounded"
+  - name: "Royalists, Britain, Spain, Naples and Sardinia"
+    color: "britain"
+    commanders: ["Samuel Hood", "Charles O'Hara", "Sidney Smith", "Henry Phipps", "Juan de Lángara", "Federico Gravina"]
+    strength: "22,000 to 23,000 men, 74 ships"
+    casualties: "4,600, of whom 2,500 captured"

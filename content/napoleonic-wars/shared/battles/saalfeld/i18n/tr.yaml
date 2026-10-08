@@ -1,0 +1,30 @@
+# tr strings for the battle "saalfeld".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# French Empire
+battle.sides.0.name: "Fransız İmparatorluğu"
+
+# 12,000 to 12,800, 12 guns
+battle.sides.0.strength: "12.000 – 12.800, 12 top"
+
+# 172 to 200 killed and wounded
+battle.sides.0.casualties: "172 – 200 ölü ve yaralı"
+
+# Prussia and Saxony
+battle.sides.1.name: "Prusya ve Saksonya"
+
+# 8,300 to 9,000, 44 guns
+battle.sides.1.strength: "8.300 – 9.000, 44 top"
+
+# 900 killed and wounded, 1,800 captured, 33 guns
+battle.sides.1.casualties: "900 ölü ve yaralı, 1.800 esir, 33 top"
+
+# Battle of Saalfeld
+battle.name: "Saalfeld Muharebesi"
+
+# 10 October 1806
+battle.date: "10 Ekim 1806"
+
+# French victory
+battle.result: "Fransız zaferi"

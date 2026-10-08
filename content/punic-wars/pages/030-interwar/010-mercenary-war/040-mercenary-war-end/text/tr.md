@@ -1,6 +1,6 @@
 MÖ 238 sonlarında Hamilkar ordunun yarısıyla güneyden, yardımcısı Hannibal de öbür yarısıyla kuzeyden Tunus’u kuşatır. Testere’de tutsak alınan isyancı önderler surlardan görünecek biçimde çarmıha gerilir. Matho’nun bir gece baskını Hannibal’in kampını ele geçirir, Hannibal ve orduyu ziyarete gelmiş 30 Kartacalı ileri gelen işkenceden geçirilip aynı çarmıhlara çivilenir. Hamilkar kuşatmayı bırakır ve kuzeye çekilir.
 
-@image mercenary-war-spendius
+@image mercenary-war-spendius-4cd812
 
 Matho isyancı orduyu 160 km güneydeki liman kenti Leptis Parva’ya götürür. Hanno ve Hamilkar, askerlik çağındaki bütün Kartacalı yurttaşların da katıldığı 25.000’i aşkın askerle peşlerinden gelir ve isyancıları kentin yakınında ezer. Matho yakalanır, Kartaca sokaklarında sürüklenir ve işkenceyle öldürülür.
 

@@ -2,6 +2,6 @@ Saat 17.00’de Alten’in 3. Tümeni Nivelles’den gelir ve müttefikleri say�
 
 Zırhlı süvariler hat düzenindeki Halkett’in tugayını yakalar, 69. Alay’ı ağır kayba uğratıp kral sancağını alır ve kavşağa kadar ulaşır, ama yakın mesafeden açılan top ve tüfek ateşi onları geri püskürtür. Cooke’un Muhafız Tümeni’nin gelmesiyle Wellington karşı saldırıya geçer, Muhafızlar Bossu ormanını Jérôme’dan alır, ancak ormandan çıkarken Piré’nin mızraklı süvarileri onları hat düzeninde yakalar.
 
-@image quatre-bras-butler
+@image quatre-bras-butler-ee4e7d
 
 Saat 21.00’de Fransızlar başladıkları yere geri dönmüştür. Ney yaklaşık 4.000, Wellington 4.800 kişi kaybeder. Müttefikler kavşağı tutar ama Ligny’deki Prusyalılara hiç yardım gönderememiştir.

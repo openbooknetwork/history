@@ -1,0 +1,17 @@
+lnglat: [-1.3, 51.53]
+name: "Battle of Ashdown"
+date: "About 8 January 871"
+result: "West Saxon victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Ashdown
+images: [ashdown-doyle-a2eac2, ashdown-aethelred-a49bf8]
+families:
+  english: { color: "#3d7a2a", color_dark: "#7cc160" }
+  danes: { color: "#b5352a", color_dark: "#e8695c" }
+sides:
+  - name: "West Saxons"
+    color: english
+    commanders: ["Æthelred I", "Alfred"]
+  - name: "Danish army"
+    color: danes
+    commanders: ["Bagsecg", "Halfdan"]
+    casualties: "King Bagsecg and five earls killed"

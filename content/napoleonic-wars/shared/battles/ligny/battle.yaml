@@ -1,0 +1,20 @@
+lnglat: [4.5814, 50.5203]
+name: "Battle of Ligny"
+date: "16 June 1815"
+result: "French victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Ligny
+images: [ligny-jung-d38a48, ligny-crofts-2a14c1, ligny-blucher-rescue-a025ea]
+families:
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+  prussia: { color: "#3d4a5c", color_dark: "#9aa8bd" }
+sides:
+  - name: "French Empire"
+    color: "france"
+    commanders: ["Napoleon", "Jean-de-Dieu Soult", "Emmanuel de Grouchy", "Dominique Vandamme", "Étienne Maurice Gérard"]
+    strength: "58,000–76,800, 210 guns"
+    casualties: "8,300–12,000 killed, wounded or captured"
+  - name: "Prussia"
+    color: "prussia"
+    commanders: ["Gebhard Leberecht von Blücher", "August von Gneisenau", "Hans Ernst Karl von Zieten", "Ludwig von Pirch", "Johann von Thielmann"]
+    strength: "83,417–86,569, 224 guns"
+    casualties: "16,000 killed or wounded, 8,000 deserted, captured or missing, 21 guns"

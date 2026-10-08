@@ -1,6 +1,6 @@
 12 Şubat 1524’te ordu, Samalá’nın boğazından Xelajú vadisine açılan geçide doğru tırmanır. Geçitte K'iche' savaşçıları Meksikalı müttefikleri pusuya düşürür ve yoldan aşağı geri püskürtür.
 
-@image xelaju-pass-samala
+@image xelaju-pass-samala-f6ab3e
 
 Alvarado İspanyol süvarisini ileri sürer. K'iche'ler daha önce hiç at görmemiştir, hücum onları sarsar. Atlılar geçitteki savaşçıları dağıtır ve ordu vadinin açık arazisine doğru tırmanmayı sürdürür.
 

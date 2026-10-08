@@ -1,0 +1,20 @@
+lnglat: [10.8167, 45.5667]
+name: "Battle of Rivoli"
+date: "14 January 1797"
+result: "French victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Rivoli
+images: [rivoli-versailles-6d5cdf, rivoli-reuss-9f0701, rivoli-detaille-2d7e85]
+families:
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+  austria: { color: "#d4a017", color_dark: "#f2c94c" }
+sides:
+  - name: "French Republic"
+    color: "france"
+    commanders: ["Napoleon Bonaparte", "Barthélemy Joubert", "André Masséna", "Louis-Alexandre Berthier"]
+    strength: "22,000"
+    casualties: "3,200 killed or wounded, 1,000 captured"
+  - name: "Habsburg monarchy"
+    color: "austria"
+    commanders: ["József Alvinczi", "Peter von Quosdanovich", "Marquis de Lusignan", "Joseph Ocskay"]
+    strength: "28,000"
+    casualties: "4,000 killed or wounded, 8,000 to 10,000 captured, 40 guns"

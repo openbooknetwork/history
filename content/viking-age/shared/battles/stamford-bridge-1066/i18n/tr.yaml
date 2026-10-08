@@ -1,0 +1,30 @@
+# tr strings for the battle "stamford-bridge-1066".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Kingdom of England
+battle.sides.0.name: "İngiltere Krallığı"
+
+# 10,500–15,000
+battle.sides.0.strength: "10.500–15.000"
+
+# Unknown
+battle.sides.0.casualties: "Bilinmiyor"
+
+# Kingdom of Norway, Orkney and English rebels
+battle.sides.1.name: "Norveç Krallığı, Orkney ve İngiliz asiler"
+
+# 9,000–11,000, of whom 3,000 came late to the battle, and 300 ships
+battle.sides.1.strength: "9.000–11.000, bunların 3.000’i savaşa geç katılır, ayrıca 300 gemi"
+
+# 6,000–8,000 or more dead or missing, the survivors leave in 24 ships
+battle.sides.1.casualties: "6.000–8.000 ya da daha fazla ölü veya kayıp, sağ kalanlar 24 gemiyle ayrılır"
+
+# Battle of Stamford Bridge
+battle.name: "Stamford Bridge Muharebesi"
+
+# 25 September 1066
+battle.date: "25 Eylül 1066"
+
+# English victory, Harald Hardrada and Tostig killed
+battle.result: "İngiliz zaferi, Harald Hardrada ve Tostig öldürülür"

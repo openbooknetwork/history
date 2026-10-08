@@ -1,0 +1,32 @@
+# tr strings for the battle "maldon-991".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# English
+battle.sides.0.name: "İngilizler"
+
+# Byrhtnoth’s household troops and the Essex levy, about 300 and at most 700 by Cyril Hart’s estimate
+battle.sides.0.strength: "Byrhtnoth’un hane birlikleri ve Essex halk askeri, Cyril Hart’ın tahminine göre 300 kadar ve en çok 700"
+
+# Byrhtnoth killed with many of his household troops
+battle.sides.0.casualties: "Byrhtnoth ve hane birliklerinin çoğu öldürülür"
+
+# Vikings
+battle.sides.1.name: "Vikingler"
+
+# 93 ships by the Anglo-Saxon Chronicle, 2,000 to 4,000 men by modern estimates
+battle.sides.1.strength: "Anglo-Sakson Kroniği’ne göre 93 gemi, günümüz tahminlerine göre 2.000 ile 4.000 kişi"
+
+# Battle of Maldon
+battle.name: "Maldon Muharebesi"
+
+# 10 or 11 August 991
+battle.date: "10 ya da 11 Ağustos 991"
+
+# Viking victory, Byrhtnoth killed
+battle.result: "Viking zaferi, Byrhtnoth öldürülür"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Olaf, possibly Olaf Tryggvason
+battle.sides.1.commanders.0: "Olaf, olasılıkla Olaf Tryggvason"

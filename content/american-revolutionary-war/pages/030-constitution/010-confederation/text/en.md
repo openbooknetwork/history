@@ -4,6 +4,6 @@ Britain keeps its forts on the Great Lakes, and Spain closes the lower Mississip
 
 In the summer of 1786 farmers in western Massachusetts, pressed for debts and taxes payable in hard money, close the courts. On 25 January 1787 Daniel Shays leads about 1,500 of them against the federal armory at Springfield, where state militia drive them off with cannon fire. On 4 February an army raised with money from merchants scatters the rebels at Petersham. Congress has no money to raise troops of its own.
 
-@image shays-shattuck
+@image shays-shattuck-e0d5bb
 
-@image shays-map-stiles
+@image shays-map-stiles-3ba8e4

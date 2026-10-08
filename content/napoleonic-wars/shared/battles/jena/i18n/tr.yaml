@@ -1,0 +1,30 @@
+# tr strings for the battle "jena".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# French Empire
+battle.sides.0.name: "Fransız İmparatorluğu"
+
+# 96,000 at hand, about 40,000 engaged
+battle.sides.0.strength: "96.000 hazırda, yaklaşık 40.000’i savaşa giren"
+
+# 5,000 to 6,000
+battle.sides.0.casualties: "5.000 – 6.000"
+
+# Prussia and Saxony
+battle.sides.1.name: "Prusya ve Saksonya"
+
+# About 40,000 under Hohenlohe and 15,000 under Rüchel
+battle.sides.1.strength: "Hohenlohe komutasında yaklaşık 40.000, Rüchel komutasında 15.000"
+
+# 26,000 to 27,000 killed, wounded and captured, 7,200 of them Saxons, and 150 guns
+battle.sides.1.casualties: "7.200’ü Sakson olmak üzere 26.000 – 27.000 ölü, yaralı ve esir, 150 top"
+
+# Battle of Jena
+battle.name: "Jena Muharebesi"
+
+# 14 October 1806
+battle.date: "14 Ekim 1806"
+
+# French victory
+battle.result: "Fransız zaferi"

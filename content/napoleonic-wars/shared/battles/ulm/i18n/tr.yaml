@@ -1,0 +1,30 @@
+# tr strings for the battle "ulm".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# French Empire
+battle.sides.0.name: "Fransız İmparatorluğu"
+
+# 80,000
+battle.sides.0.strength: "80.000"
+
+# 1,500 killed, wounded or captured
+battle.sides.0.casualties: "1.500 ölü, yaralı ya da esir"
+
+# Austrian Empire
+battle.sides.1.name: "Avusturya İmparatorluğu"
+
+# 40,000
+battle.sides.1.strength: "40.000"
+
+# 4,000 killed or wounded, 27,000 captured
+battle.sides.1.casualties: "4.000 ölü ya da yaralı, 27.000 esir"
+
+# Battle of Ulm
+battle.name: "Ulm Muharebesi"
+
+# 16 – 20 October 1805
+battle.date: "16 – 20 Ekim 1805"
+
+# French victory
+battle.result: "Fransız zaferi"

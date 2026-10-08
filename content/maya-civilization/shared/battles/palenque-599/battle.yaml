@@ -1,0 +1,16 @@
+lnglat: [-92.0464, 17.4842]
+name: "Sack of Palenque"
+date: "23 April AD 599"
+result: "Kaanul victory and sack of Palenque, repeated on 7 April AD 611"
+source: https://en.wikipedia.org/wiki/Calakmul#War_with_Palenque
+images: [palenque-599-palace-d488f7, palenque-599-almendariz-a6f7ba]
+families:
+  kaanul: { color: "#b5352a", color_dark: "#e8695c" }
+  kingdom: { color: "#8a7f5c", color_dark: "#c4b78f" }
+sides:
+  - name: "Kaanul kingdom and Santa Elena"
+    color: kaanul
+    commanders: ["Uneh Chan", "Lakam Chak"]
+  - name: "Palenque"
+    color: kingdom
+    commanders: ["Yohl Ik'nal"]

@@ -1,5 +1,5 @@
 On the morning of 2 August Varro draws up the army on the plain beside the Aufidus, with the river covering the Roman right. The Roman cavalry, 2,400 men under Paullus, stands on the right by the river, and 4,800 allied cavalry under Varro on the left. The legions and the allied infantry fill the centre under Gnaeus Servilius Geminus. Their maniples stand closer together and deeper than usual, to break through the Carthaginian centre by weight, so their front is no wider than the shorter Carthaginian line.
 
-@image cannae-ruins
+@image cannae-ruins-22e9ce
 
 Hannibal rests his left on the river as well. Hasdrubal commands 6,000 to 7,000 Iberian and Gallic cavalry there, and Hanno 3,000 to 4,000 Numidians on the right. In the centre Gauls and Iberians stand in alternating companies, with Hannibal and his brother Mago among them. Polybius writes that Hannibal advances these companies so that the line bulges towards the Romans in a crescent, while the Libyan infantry, armed with captured Roman equipment, stand back at both ends. Balearic slingers and javelinmen screen the front of both armies’ infantry.

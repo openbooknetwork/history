@@ -4,8 +4,8 @@ Bonaparte önce davranmaya karar verir. 10 Şubat 1799’da Kléber, Bon, Lannes
 
 3 Mart’ta ordu Yafa’ya ulaşır. Şehrin surlarını Cezzar’ın askerleri ve 1.200 Osmanlı topçusu savunur. Fransızlar 7 Mart’ta şehre saldırarak girer ve yağmalar. Ardından Bonaparte, canlarının bağışlanacağı sözüyle teslim olmuş garnizon esirlerini sahilde kurşuna dizdirir, bir hesaba göre 2.100, başka hesaplara göre 3.000’den fazla kişi. Daha sonra bunu yiyecek ve muhafız eksikliğiyle haklı göstermeye çalışır.
 
-@image acre-plague
+@image acre-plague-e13f26
 
 15 Mart’ta Komodor Sir Sidney Smith komutasındaki İngiliz gemileri Akka’ya ulaşır. Smith gemilerinden top, denizci ve deniz piyadesi vererek Cezzar’ın savunmayı güçlendirmesine yardım eder ve kuşatma toplarını taşıyan Fransız filosunu ele geçirir. Fransızlar Akka önlerine varır ve 20 Mart’ta yalnızca piyade ve sahra toplarıyla kuşatmaya başlar.
 
-@image acre-smith
+@image acre-smith-e64b11

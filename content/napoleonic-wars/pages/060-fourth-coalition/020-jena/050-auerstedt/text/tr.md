@@ -1,6 +1,6 @@
 13 Ekim’de Brunswick Dükü komutasındaki yaklaşık 64.000 kişilik Prusya ana ordusu Kösen ve Freyburg’daki Saale geçitlerine gitmek üzere Weimar’dan ayrılır. Kral III. Friedrich Wilhelm ile mareşaller Möllendorf ve Kalckreuth da orduyla birlikte yürür. Önde, Kösen geçidini kapatma emri almış olan Friedrich Wilhelm von Schmettau’nun tümeni gider.
 
-@image auerstedt-davout
+@image auerstedt-davout-2adac1
 
 Gudin, Friant ve Morand’ın tümenlerinden oluşan yaklaşık 26.000 kişilik Davout’nun III. Kolordusu, Bernadotte’nin I. Kolordusuyla birlikte Naumburg’dadır. Berthier’den gelen bir not Davout’ya Apolda’ya yürümesini bildirir ve Bernadotte’nin onunla gelebileceğini, ama İmparatorun Bernadotte’yi Dornburg’da görmeyi umduğunu ekler. Davout notu saat 4’te iletir ve son yazılı emirlerine uyan Bernadotte Dornburg’a doğru yola çıkar. Davout tek başına yürür.
 

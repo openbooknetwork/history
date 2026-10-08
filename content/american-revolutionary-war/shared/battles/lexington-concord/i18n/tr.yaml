@@ -1,0 +1,30 @@
+# tr strings for the battle "lexington-concord".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Massachusetts militia
+battle.sides.0.name: "Massachusetts milisleri"
+
+# 77 at Lexington, 3,960 by the end of the day
+battle.sides.0.strength: "Lexington’da 77, gün sonunda 3.960"
+
+# 49 killed, 39 wounded, 5 missing
+battle.sides.0.casualties: "49 ölü, 39 yaralı, 5 kayıp"
+
+# Great Britain
+battle.sides.1.name: "Büyük Britanya"
+
+# 700 from Boston, 1,500 by the end of the day
+battle.sides.1.strength: "Boston’dan 700, gün sonunda 1.500"
+
+# 73 killed, 174 wounded, 53 missing
+battle.sides.1.casualties: "73 ölü, 174 yaralı, 53 kayıp"
+
+# Battles of Lexington and Concord
+battle.name: "Lexington ve Concord Muharebeleri"
+
+# 19 April 1775
+battle.date: "19 Nisan 1775"
+
+# American victory, British retreat to Boston
+battle.result: "Amerikan zaferi, İngilizler Boston’a çekilir"

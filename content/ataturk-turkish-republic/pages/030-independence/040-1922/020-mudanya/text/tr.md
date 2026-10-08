@@ -2,4 +2,4 @@ Eylülde Türk birlikleri Boğazlar’daki tarafsız bölgeye girer ve Çanakkal
 
 11 Ekim 1922’de Mudanya’da imzalanan mütareke, Yunan ordusunun on beş gün içinde Meriç’e kadar Doğu Trakya’yı boşaltmasını öngörür. Edirne dahil Doğu Trakya savaşsız Türk yönetimine geçer. Yunanistan birkaç gün sonra mütarekeyi kabul eder ve savaş sona erer.
 
-@image mudanya-house
+@image mudanya-house-6d7bea

@@ -1,0 +1,20 @@
+lnglat: [13.53531, 37.30752]
+name: "Battle of Agrigentum"
+date: "262 – 261 BC"
+result: "Roman victory, Agrigentum taken"
+source: https://en.wikipedia.org/wiki/Battle_of_Agrigentum
+images: [agrigentum-concordia-c18920, agrigentum-plan-8baaa2, agrigentum-valley-95dc99, agrigentum-olympieion-dfec43]
+families:
+  rome: { color: "#b03a2e", color_dark: "#e8695c" }
+  carthage: { color: "#6a3d9a", color_dark: "#a98bd6" }
+sides:
+  - name: "Roman Republic"
+    color: rome
+    commanders: ["Lucius Postumius Megellus", "Quintus Mamilius Vitulus"]
+    strength: "40,000 to 100,000 soldiers and labourers"
+    casualties: "15,000 to 30,540 dead"
+  - name: "Carthage"
+    color: carthage
+    commanders: ["Hanno, son of Hannibal", "Hannibal Gisco"]
+    strength: "31,500 to 56,000 men, 30 to 60 elephants, and the garrison"
+    casualties: "3,200 killed, 4,000 captured, 25,000 inhabitants enslaved"

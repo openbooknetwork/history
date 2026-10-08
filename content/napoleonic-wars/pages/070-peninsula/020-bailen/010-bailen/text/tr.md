@@ -4,8 +4,8 @@ General Vedel, Dupont’un 2. Tümeni’yle, yani 6.000 asker, 700 atlı ve 12 t
 
 General Francisco Javier Castaños yaklaşık 30.000 kişilik Endülüs Ordusu’nu Theodor von Reding, Coupigny Markisi, Félix Jones ve Manuel Lapeña komutasında dört tümene ayırır. 15 Temmuz’da Castaños 14.000 kişiyle Arjonilla tepelerinden Andújar’ı topa tutar. Ertesi gün Reding Mengíbar’ın yukarısında Guadalquivir’i sığ yerden geçer ve Liger-Belair’i köyden çıkarır. Boşluğu kapatmak için Bailén’den gelen Gobert başından vurulur, General Dufour da tugayını Bailén’e geri götürür.
 
-@image bailen-castanos
+@image bailen-castanos-011213
 
 Dupont 15 Temmuz’da Vedel’in tümenini Andújar’a çağırır, ertesi gün Bailén’e geri gönderir. Geçitlere yürüyen 10.000 İspanyol olduğu haberini alan Dufour kuzeye, La Carolina’ya gider. Vedel de 17 Temmuz’da onu izler ve Bailén’i boş bırakır. Reding ve Coupigny Mengíbar’da nehri geçip boş kalan kasabaya yerleşir. 18 Temmuz gecesi Dupont arabalarıyla Andújar’dan Bailén’e doğru yola çıkar, Reding batıya, onun üstüne yürür, Vedel de La Carolina’dan geri döner.
 
-@image bailen-monument
+@image bailen-monument-23d648

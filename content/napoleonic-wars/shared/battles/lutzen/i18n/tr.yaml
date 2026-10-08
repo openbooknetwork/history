@@ -1,0 +1,35 @@
+# tr strings for the battle "lutzen".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# French Empire
+battle.sides.0.name: "Fransız İmparatorluğu"
+
+# 78,000–145,000, 372 guns
+battle.sides.0.strength: "78.000–145.000, 372 top"
+
+# 19,655–22,000
+battle.sides.0.casualties: "19.655–22.000"
+
+# Russia and Prussia
+battle.sides.1.name: "Rusya ve Prusya"
+
+# 70,000–96,000, 552 guns
+battle.sides.1.strength: "70.000–96.000, 552 top"
+
+# 11,500–30,000
+battle.sides.1.casualties: "11.500–30.000"
+
+# Battle of Lützen
+battle.name: "Lützen Muharebesi"
+
+# 2 May 1813
+battle.date: "2 Mayıs 1813"
+
+# French victory
+battle.result: "Fransız zaferi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Napoleon
+battle.sides.0.commanders.0: "Napolyon"

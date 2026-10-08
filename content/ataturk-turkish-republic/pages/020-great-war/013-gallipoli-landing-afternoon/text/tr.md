@@ -2,6 +2,6 @@
 
 Kılıçbayır beş kez el değiştirir. Saat 16.30’da 72. Alay kuzeyden saldırır ve Avustralyalılarla Yeni Zelandalılar Walker Sırtı’ndan Pope Tepesi’ne uzanan bir hatta çekilir. Güneyde 27. ve 77. Alay’lar Avustralyalıları 400 Platosu’nun büyük bölümünden atar.
 
-@image ariburnu-first-trench
+@image ariburnu-first-trench-7d4acd
 
 Gece çöktüğünde yaklaşık 16.000 asker karaya çıkmıştır ve tuttukları alan iki milden kısa, 800 yarda kadar derinliktedir. 57. Alay yok olmuştur. 27. ve 57. Alay’lar birlikte, güçlerinin yarısı olan yaklaşık 2.000 kişi kaybetmiştir.

@@ -1,6 +1,6 @@
 The siege lasts three months. The Rus' dig a ditch round the town and go out by night in their boats to gather food, killing Byzantine foragers by the river. Byzantine engines batter the walls, and in a sortie against them the Rus' kill the emperor’s kinsman John Kourkouas and show his head from a tower. In another sortie the Rus' commander Ikmor falls to Anemas, a son of the last emir of Crete serving in the emperor’s guard.
 
-@image dorostolon-last-feast
+@image dorostolon-last-feast-ff0314
 
 In late July Sviatoslav leads his army out once more and has the gates shut behind it. By John Skylitzes’s account Tzimiskes orders the patrikios Romanos and the stratopedarch Peter to fall back and draw the Rus' onto the open plain, while Bardas Skleros rides round to cut them off from the town. Leo the Deacon tells that a storm drives dust into the faces of the Rus' and that Anemas rides at Sviatoslav and strikes him from his horse. His armour saves him, and Anemas is killed.
 

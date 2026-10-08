@@ -1,0 +1,20 @@
+lnglat: [-71.2308, 42.4494]
+name: "Battles of Lexington and Concord"
+date: "19 April 1775"
+result: "American victory, British retreat to Boston"
+source: https://en.wikipedia.org/wiki/Battles_of_Lexington_and_Concord
+images: [lexington-doolittle-fed67f, concord-doolittle-9feef0, concord-north-bridge-merrill-955824, percys-rescue-doolittle-29beb5]
+families:
+  usa: { color: "#2d7dd2", color_dark: "#6fb6ff" }
+  held: { color: "#c62828", color_dark: "#ff6b6b" }
+sides:
+  - name: "Massachusetts militia"
+    color: usa
+    commanders: ["John Parker", "James Barrett", "William Heath"]
+    strength: "77 at Lexington, 3,960 by the end of the day"
+    casualties: "49 killed, 39 wounded, 5 missing"
+  - name: "Great Britain"
+    color: held
+    commanders: ["Francis Smith", "John Pitcairn", "Hugh Percy"]
+    strength: "700 from Boston, 1,500 by the end of the day"
+    casualties: "73 killed, 174 wounded, 53 missing"

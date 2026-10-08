@@ -1,0 +1,20 @@
+lnglat: [-73.4255, 44.6105]
+name: "Battle of Valcour Island"
+date: "11 October 1776"
+result: "British victory, Carleton withdraws to Canada for the winter"
+source: https://en.wikipedia.org/wiki/Battle_of_Valcour_Island
+images: [valcour-gilder-05b5d4, valcour-map-1776-c65ce4, valcour-american-line-randle-08e8ad, congress-galley-1776-c9c79d]
+families:
+  usa: { color: "#2d7dd2", color_dark: "#6fb6ff" }
+  held: { color: "#c62828", color_dark: "#ff6b6b" }
+sides:
+  - name: "United States"
+    color: usa
+    commanders: ["Benedict Arnold"]
+    strength: "1 sloop, 2 schooners, 4 row galleys, 8 gundalows"
+    casualties: "80 killed or wounded, 120 captured, 1 schooner and 1 gundalow lost"
+  - name: "Great Britain"
+    color: held
+    commanders: ["Guy Carleton", "Thomas Pringle"]
+    strength: "1 ship sloop, 2 schooners, 1 radeau, 1 gundalow, 28 gunboats"
+    casualties: "40 killed or wounded, 1 gunboat lost"

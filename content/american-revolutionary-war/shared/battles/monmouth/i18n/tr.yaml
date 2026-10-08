@@ -1,0 +1,30 @@
+# tr strings for the battle "monmouth".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# United States
+battle.sides.0.name: "Birleşik Devletler"
+
+# 14,300
+battle.sides.0.strength: "14.300"
+
+# 370 by the official count, about 500 by estimates
+battle.sides.0.casualties: "Resmî sayıma göre 370, tahminlere göre yaklaşık 500"
+
+# Great Britain
+battle.sides.1.name: "Büyük Britanya"
+
+# 17,660
+battle.sides.1.strength: "17.660"
+
+# 358 by the official count, up to 1,134 by estimates
+battle.sides.1.casualties: "Resmî sayıma göre 358, tahminlere göre 1.134’e kadar"
+
+# Battle of Monmouth
+battle.name: "Monmouth Muharebesi"
+
+# 28 June 1778
+battle.date: "28 Haziran 1778"
+
+# Inconclusive, Clinton reaches New York
+battle.result: "Sonuçsuz, Clinton New York’a ulaşır"

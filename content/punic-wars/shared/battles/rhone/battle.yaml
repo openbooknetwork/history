@@ -1,0 +1,16 @@
+lnglat: [4.79875, 44.05271]
+name: "Battle of the Rhône Crossing"
+date: "Late September 218 BC"
+result: "Carthaginian victory"
+source: https://en.wikipedia.org/wiki/Battle_of_the_Rh%C3%B4ne_Crossing
+images: [alps-rhone-motte-b77b54, rhone-rijksmuseum-1cd126, alps-turner-5d52a2]
+families:
+  carthage: { color: "#6a3d9a", color_dark: "#a98bd6" }
+  gauls: { color: "#8a6a3f", color_dark: "#c4a173" }
+sides:
+  - name: "Carthage"
+    color: carthage
+    commanders: ["Hannibal"]
+    strength: "38,000 infantry, 8,000 cavalry, 37 elephants"
+  - name: "Volcae, a Gallic people"
+    color: gauls

@@ -1,0 +1,20 @@
+lnglat: [-79.94, 32.79]
+name: "Siege of Charleston"
+date: "29 March – 12 May 1780"
+result: "British victory, Lincoln surrenders his army"
+source: https://en.wikipedia.org/wiki/Siege_of_Charleston
+images: [charleston-siege-engraving-f00aed, charleston-des-barres-edf12d, charleston-1780-plan-b7f821, charleston-chappel-battery-76b214]
+families:
+  usa: { color: "#2d7dd2", color_dark: "#6fb6ff" }
+  held: { color: "#c62828", color_dark: "#ff6b6b" }
+sides:
+  - name: "United States"
+    color: usa
+    commanders: ["Benjamin Lincoln", "William Moultrie"]
+    strength: "6,577 regulars, sailors and militia"
+    casualties: "89 killed, 138 wounded, 5,466 captured"
+  - name: "Great Britain and Hesse-Kassel"
+    color: held
+    commanders: ["Henry Clinton", "Charles Cornwallis", "Mariot Arbuthnot"]
+    strength: "12,847 soldiers, 4,500 sailors, 14 warships"
+    casualties: "99 killed, 117 wounded on land and at sea"

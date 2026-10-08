@@ -1,0 +1,20 @@
+lnglat: [-81.81328, 35.13456]
+name: "Battle of Cowpens"
+date: "17 January 1781"
+result: "American victory, Tarleton’s force destroyed"
+source: https://en.wikipedia.org/wiki/Battle_of_Cowpens
+images: [cowpens-ranney-aa2e10, cowpens-troiani-1e8aa4, tarleton-reynolds-7b7630]
+families:
+  usa: { color: "#2d7dd2", color_dark: "#6fb6ff" }
+  held: { color: "#c62828", color_dark: "#ff6b6b" }
+sides:
+  - name: "United States"
+    color: usa
+    commanders: ["Daniel Morgan"]
+    strength: "1,887–1,912"
+    casualties: "25 killed, 124 wounded"
+  - name: "Great Britain"
+    color: held
+    commanders: ["Banastre Tarleton"]
+    strength: "1,150 and 2 guns"
+    casualties: "110 killed, 229 wounded, 629 captured or missing, both guns lost"

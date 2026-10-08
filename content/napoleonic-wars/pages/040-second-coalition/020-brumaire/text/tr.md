@@ -4,8 +4,8 @@ VIII. Yıl’ın 18 Brumaire’inde, yani 9 Kasım’da, Yaşlılar Meclisi bir 
 
 10 Kasım’da Saint-Cloud’da Bonaparte önce Yaşlılar’a, sonra Beş Yüzler Meclisi’ne konuşur. Beş Yüzler’de milletvekilleri bağırır ve ona saldırır, Murat ile Lefebvre onu dışarı çıkarır. Beş Yüzler’in başkanı olan kardeşi Lucien, muhafızlara generale saldırıldığını söyler ve askerler salonu boşaltır. O gece iki meclisten kalan küçük bir grup Direktuvar’ı feshederek Bonaparte, Sieyès ve Ducos’u geçici konsül ilan eder.
 
-@image brumaire-cinq-cents
+@image brumaire-cinq-cents-c2b6cb
 
 Aralık’ta kabul edilen VIII. Yıl Anayasası dört meclis ve üç konsül öngörür. Bonaparte 25 Aralık’ta Birinci Konsül olur, Jean-Jacques Cambacérès ile Charles-François Lebrun ikinci ve üçüncü konsüldür. Bir halkoylaması anayasayı 1.562’ye karşı 3.011.007 oyla onaylar, bu sonuç Lucien Bonaparte’ın eklediği yaklaşık 900.000 oyla şişirilmiştir.
 
-@image brumaire-consul
+@image brumaire-consul-d58e42

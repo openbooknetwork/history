@@ -1,0 +1,41 @@
+# tr strings for the battle "leipzig".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Austria, Russia, Prussia and Sweden
+battle.sides.0.name: "Avusturya, Rusya, Prusya ve İsveç"
+
+# 257,000 and 1,145 guns on 16 – 17 October, 359,000 and 1,500 guns on 18 – 19 October
+battle.sides.0.strength: "16 – 17 Ekim’de 257.000 asker ve 1.145 top, 18 – 19 Ekim’de 359.000 asker ve 1.500 top"
+
+# 54,000–80,000
+battle.sides.0.casualties: "54.000–80.000"
+
+# French Empire and its allies
+battle.sides.1.name: "Fransız İmparatorluğu ve müttefikleri"
+
+# 177,000 and 700 guns on 16 – 17 October, 195,000 and 900 guns on 18 – 19 October
+battle.sides.1.strength: "16 – 17 Ekim’de 177.000 asker ve 700 top, 18 – 19 Ekim’de 195.000 asker ve 900 top"
+
+# 60,000–79,000: 38,000 killed and wounded, 30,000–36,000 captured, 5,000–6,000 Saxons defected, 325 guns
+battle.sides.1.casualties: "60.000–79.000: 38.000 ölü ve yaralı, 30.000–36.000 esir, taraf değiştiren 5.000–6.000 Saksonyalı, 325 top"
+
+# Battle of Leipzig
+battle.name: "Leipzig Muharebesi"
+
+# 16 – 19 October 1813
+battle.date: "16 – 19 Ekim 1813"
+
+# Coalition victory
+battle.result: "Koalisyon zaferi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Alexander I
+battle.sides.0.commanders.1: "I. Aleksandr"
+
+# Charles John
+battle.sides.0.commanders.3: "Karl Johan"
+
+# Napoleon
+battle.sides.1.commanders.0: "Napolyon"

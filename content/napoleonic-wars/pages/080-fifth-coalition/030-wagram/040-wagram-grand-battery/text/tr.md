@@ -1,6 +1,6 @@
 Klenau’ya karşı Napolyon Masséna’nın kolordusunu Avusturya ordusunun önünden güneye gönderir ve onun bıraktığı boşluğu Jacques Lauriston komutasında büyük bir bataryayla doldurur. Masséna 60’ı Muhafız’ın, 24’ü İtalya Ordusu’nun olmak üzere 84 top sayar, bülten ise 100 toptan söz eder. Toplar saat 11.00 sularından itibaren yaklaşık 2 km’lik bir cephe boyunca 350 ile 550 m mesafeden ateş eder ve Kollowrat’ı geri çekilmeye zorlar. Masséna’nın kolları Avusturya toplarının ateşi altında yaklaşık 8 km yürür ve öğleye doğru Essling’i görür.
 
-@image wagram-drouot
+@image wagram-drouot-b0a716
 
 Bataryaya mevzilenme zamanı kazandırmak için Bessières, Nansouty’nin 2.800 zırhlı süvari ve karabinyerini Süssenbrunn yakınındaki Avusturyalılara gönderir. Süvariler bir Grenz taburunu dağıtır ve bir bataryayı ele geçirir, ama grenadiyerler kare düzenine girer, Avusturya süvarisi onları geri sürer, Bessières de bir top güllesiyle attan düşer.
 

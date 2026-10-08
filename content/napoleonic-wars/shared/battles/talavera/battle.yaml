@@ -1,0 +1,20 @@
+lnglat: [-4.80266, 39.99508]
+name: "Battle of Talavera"
+date: "27 – 28 July 1809"
+result: "French attacks repulsed, French withdraw"
+source: https://en.wikipedia.org/wiki/Battle_of_Talavera
+images: [talavera-heath-1c2916, talavera-staff-63a5ae, talavera-hartmann-c2d271]
+families:
+  britain: { color: "#c0392b", color_dark: "#ef6b5b" }
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+sides:
+  - name: "Britain and Spain"
+    color: "britain"
+    commanders: ["Arthur Wellesley", "Gregorio García de la Cuesta"]
+    strength: "55,634 and 60 guns: 20,641 British, 34,993 Spanish"
+    casualties: "British 5,363 to 6,268, Spanish several hundred to 1,200"
+  - name: "French Empire"
+    color: "france"
+    commanders: ["Joseph Bonaparte", "Jean-Baptiste Jourdan", "Claude Victor"]
+    strength: "46,138 and 80 guns"
+    casualties: "7,268 to 7,389 killed, wounded or captured, 17 guns"

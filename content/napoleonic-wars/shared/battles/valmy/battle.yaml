@@ -1,0 +1,20 @@
+lnglat: [4.7672, 49.0803]
+name: "Battle of Valmy"
+date: "20 September 1792"
+result: "French victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Valmy
+images: [valmy-vernet-751360, valmy-kellermann-52a724, valmy-windmill-627be4]
+families:
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+  prussia: { color: "#3d4a5c", color_dark: "#9aa8bd" }
+sides:
+  - name: "France"
+    color: "france"
+    commanders: ["Charles François Dumouriez", "François Christophe de Kellermann"]
+    strength: "36,000, 40 guns"
+    casualties: "About 300"
+  - name: "Prussia and its allies"
+    color: "prussia"
+    commanders: ["Duke of Brunswick", "Prince of Hohenlohe", "Count of Clerfayt"]
+    strength: "34,000, 54 guns"
+    casualties: "About 200"

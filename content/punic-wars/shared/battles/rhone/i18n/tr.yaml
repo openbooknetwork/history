@@ -1,0 +1,21 @@
+# tr strings for the battle "rhone".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Carthage
+battle.sides.0.name: "Kartaca"
+
+# 38,000 infantry, 8,000 cavalry, 37 elephants
+battle.sides.0.strength: "38.000 piyade, 8.000 süvari, 37 fil"
+
+# Volcae, a Gallic people
+battle.sides.1.name: "Volcae, bir Galya halkı"
+
+# Battle of the Rhône Crossing
+battle.name: "Rhône Geçişi Muharebesi"
+
+# Late September 218 BC
+battle.date: "Eylül sonu, MÖ 218"
+
+# Carthaginian victory
+battle.result: "Kartaca zaferi"

@@ -1,0 +1,30 @@
+# tr strings for the battle "bailen".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Spain
+battle.sides.0.name: "İspanya"
+
+# 29,770 to 30,000
+battle.sides.0.strength: "29.770 ile 30.000 arası"
+
+# 1,000 killed or wounded
+battle.sides.0.casualties: "1.000 ölü ya da yaralı"
+
+# French Empire
+battle.sides.1.name: "Fransız İmparatorluğu"
+
+# 20,000 to 24,430
+battle.sides.1.strength: "20.000 ile 24.430 arası"
+
+# 3,000 killed or wounded, 17,000 captured
+battle.sides.1.casualties: "3.000 ölü ya da yaralı, 17.000 esir"
+
+# Battle of Bailén
+battle.name: "Bailén Muharebesi"
+
+# 16 – 19 July 1808
+battle.date: "16 – 19 Temmuz 1808"
+
+# Spanish victory
+battle.result: "İspanyol zaferi"

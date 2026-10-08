@@ -1,0 +1,30 @@
+# tr strings for the battle "jemappes".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# French Republic
+battle.sides.0.name: "Fransız Cumhuriyeti"
+
+# 40,000 to 45,000, 100 guns
+battle.sides.0.strength: "40.000 – 45.000, 100 top"
+
+# About 2,000
+battle.sides.0.casualties: "Yaklaşık 2.000"
+
+# Habsburg monarchy
+battle.sides.1.name: "Habsburg Monarşisi"
+
+# 13,200 to 13,800, 54 to 56 guns
+battle.sides.1.strength: "13.200 – 13.800, 54 – 56 top"
+
+# 1,241 to 1,500 and 5 guns
+battle.sides.1.casualties: "1.241 – 1.500 ve 5 top"
+
+# Battle of Jemappes
+battle.name: "Jemappes Muharebesi"
+
+# 6 November 1792
+battle.date: "6 Kasım 1792"
+
+# French victory
+battle.result: "Fransız zaferi"

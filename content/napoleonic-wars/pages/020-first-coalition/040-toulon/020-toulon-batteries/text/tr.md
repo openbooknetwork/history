@@ -1,5 +1,5 @@
 Bonaparte Marsilya’dan, Avignon’dan ve İtalya Ordusu’ndan top toplar, koşum hayvanlarına ve erzaka el koyar, deneyimli topçuları geri çağırır ve piyadeleri top kullanmak üzere eğitir. Aralığa gelindiğinde kuşatanların 100’den fazla topu ve yaklaşık 1.600 topçusu vardır. 19 Ekim’de tabur komutanlığına (chef de bataillon) yükseltilen Bonaparte, Arènes tepelerine Malbousquet Kalesi’ne karşı Konvansiyon bataryasını kurar. Mulgrave Kalesi’nin karşısında yeni bataryalar yükselir: 20 Kasım’da l’Evescat sırtında Jakoben bataryası, 28 Kasım’da Korkusuz Adamlar bataryası.
 
-@image toulon-himely
+@image toulon-himely-86ee52
 
 Carteaux 11 Kasım’da görevden alınır ve yerine eski bir hekim olan François Amédée Doppet gelir, birkaç gün sonra Doppet’nin yerini de deneyimli General Jacques François Dugommier alır. Dugommier Bonaparte’ın planını benimser. 30 Kasım’da Korgeneral Charles O’Hara komutasındaki bir Müttefik çıkışı Konvansiyon bataryasını ele geçirir. Saldıranlar takipte fazla ileri gider ve Dugommier ile Bonaparte’ın yönettiği bir karşı saldırıyla geri püskürtülür. O’Hara yaralanır ve esir düşer.

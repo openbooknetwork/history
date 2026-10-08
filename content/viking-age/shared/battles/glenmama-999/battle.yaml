@@ -1,0 +1,17 @@
+lnglat: [-6.525, 53.28]
+name: "Battle of Glenmama"
+date: "30 December 999"
+result: "Victory of Munster and Meath, Dublin taken"
+source: https://en.wikipedia.org/wiki/Battle_of_Glenmama
+images: [brian-boru-1723-157129, brian-boru-penny-e28e5c]
+families:
+  celts: { color: "#2e8b57", color_dark: "#5fcf8f" }
+  norse: { color: "#6a3d9a", color_dark: "#a98bd6" }
+sides:
+  - name: "Munster and Meath"
+    color: celts
+    commanders: ["Brian Boru", "Máel Sechnaill mac Domnaill"]
+  - name: "Leinster and Dublin"
+    color: norse
+    commanders: ["Máel Mórda mac Murchada", "Sigtrygg Silkbeard"]
+    casualties: "7,000 Norse by later accounts"

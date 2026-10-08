@@ -1,0 +1,20 @@
+lnglat: [3.48, 48.896]
+name: "Battle of Montmirail"
+date: "11 February 1814"
+result: "French victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Montmirail
+images: [montmirail-vernet-013958, france-1814-meissonier-edc1b9]
+families:
+  france: { color: "#1f4e9c", color_dark: "#5b8ee0" }
+  russia: { color: "#2e8b57", color_dark: "#5fcf8f" }
+sides:
+  - name: "French Empire"
+    color: "france"
+    commanders: ["Napoleon", "Édouard Mortier", "Michel Ney"]
+    strength: "13,000–20,000"
+    casualties: "2,000–2,100"
+  - name: "Russia and Prussia"
+    color: "russia"
+    commanders: ["Fabian Osten-Sacken", "Ludwig von Yorck"]
+    strength: "23,000–27,000, 106 guns"
+    casualties: "3,700–4,000, 9–26 guns"

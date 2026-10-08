@@ -4,8 +4,8 @@ General Vedel follows with Dupont’s 2nd Division, 6,000 men, 700 horse and 12 
 
 General Francisco Javier Castaños forms the Army of Andalusia, about 30,000 men, in four divisions under Theodor von Reding, the Marquis of Coupigny, Félix Jones and Manuel Lapeña. On 15 July Castaños with 14,000 men opens fire on Andújar from the heights of Arjonilla. The next day Reding fords the Guadalquivir above Mengíbar and drives out Liger-Belair. Gobert comes up from Bailén to close the gap and is shot in the head, and General Dufour takes his brigade back to Bailén.
 
-@image bailen-castanos
+@image bailen-castanos-011213
 
 Dupont calls Vedel’s division to Andújar on 15 July and sends it back to Bailén the next day. Dufour, warned of 10,000 Spaniards marching on the passes, goes north to La Carolina, and Vedel follows him on 17 July, leaving Bailén empty. Reding and Coupigny cross at Mengíbar and occupy the empty town. On the night of 18 July Dupont leaves Andújar for Bailén with his wagons, Reding marches west against him, and Vedel turns back from La Carolina.
 
-@image bailen-monument
+@image bailen-monument-23d648

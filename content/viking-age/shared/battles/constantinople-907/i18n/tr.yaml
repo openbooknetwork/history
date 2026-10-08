@@ -1,0 +1,26 @@
+# tr strings for the battle "constantinople-907".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Rus'
+battle.sides.0.name: "Ruslar"
+
+# 2,000 boats, by the Primary Chronicle
+battle.sides.0.strength: "2.000 tekne, Geçmiş Yılların Hikâyesi’ne göre"
+
+# Byzantine Empire
+battle.sides.1.name: "Bizans İmparatorluğu"
+
+# Oleg's campaign against Constantinople
+battle.name: "Oleg’in Konstantinopolis seferi"
+
+# 907, by the Primary Chronicle
+battle.date: "907, Geçmiş Yılların Hikâyesi’ne göre"
+
+# Tribute and a treaty, by the Primary Chronicle
+battle.result: "Haraç ve antlaşma, Geçmiş Yılların Hikâyesi’ne göre"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Leo VI
+battle.sides.1.commanders.0: "VI. Leon"

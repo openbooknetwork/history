@@ -2,8 +2,8 @@ Wellington's line runs about 4 km along the ridge of Mont-Saint-Jean behind the 
 
 Napoleon delays the start to let the ground dry after the night's rain. At about 11:30, or 10:00 by Wellington's dispatch, Jérôme's division attacks Hougoumont, held by four light companies of the Guards in the house and by Hanoverian Jäger and Nassauers in the wood. Bauduin's brigade clears the wood but is driven back by artillery, and Bauduin is killed. A second attack reaches the north gate, where Sous-Lieutenant Legros breaks it open with an axe, but the Coldstream and Scots Guards close the gate on the men inside, who are all killed.
 
-@image waterloo-hougoumont-dighton
+@image waterloo-hougoumont-dighton-0cdd04
 
 The fighting goes on around Hougoumont all afternoon, and Napoleon has the house shelled until all but the chapel burns. He sends 33 battalions, about 14,000 men, against it, and Wellington uses 21 battalions, about 12,000, to hold it and the lane behind it. Hougoumont holds out to the end of the battle.
 
-@image waterloo-hougoumont-ruins
+@image waterloo-hougoumont-ruins-e3f1f5

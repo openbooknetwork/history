@@ -1,0 +1,20 @@
+lnglat: [10.02921, 36.85064]
+name: "Battle of Tunis"
+date: "Spring 255 BC"
+result: "Carthaginian victory, Regulus captured"
+source: https://en.wikipedia.org/wiki/Battle_of_Tunis
+images: [regulus-golitsyn-plan-caf8c9, regulus-elephant-statuette-300297, regulus-departure-213683, regulus-kelibia-778d21]
+families:
+  carthage: { color: "#6a3d9a", color_dark: "#a98bd6" }
+  rome: { color: "#b03a2e", color_dark: "#e8695c" }
+sides:
+  - name: "Carthage"
+    color: carthage
+    commanders: ["Xanthippus"]
+    strength: "12,000 infantry, 4,000 cavalry, 100 elephants"
+    casualties: "At least 800 killed"
+  - name: "Roman Republic"
+    color: rome
+    commanders: ["Marcus Atilius Regulus"]
+    strength: "15,000 infantry, 500 cavalry"
+    casualties: "13,000 killed, 500 captured"

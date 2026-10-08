@@ -1,0 +1,20 @@
+lnglat: [15.18705, 38.29]
+name: "Battle of Mylae"
+date: "260 BC"
+result: "Roman victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Mylae
+images: [mylae-ship-4a2e7a, mylae-corvus-ef7df7, mylae-duilius-column-015c40, mylae-milazzo-69f4c0]
+families:
+  rome: { color: "#b03a2e", color_dark: "#e8695c" }
+  carthage: { color: "#6a3d9a", color_dark: "#a98bd6" }
+sides:
+  - name: "Roman Republic"
+    color: rome
+    commanders: ["Gaius Duilius"]
+    strength: "143 ships"
+    casualties: "Unknown"
+  - name: "Carthage"
+    color: carthage
+    commanders: ["Hannibal Gisco"]
+    strength: "130 ships"
+    casualties: "44 ships, 10,000 men"

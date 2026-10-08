@@ -1,0 +1,20 @@
+lnglat: [12.07252, 43.19686]
+name: "Battle of Lake Trasimene"
+date: "21 June 217 BC"
+result: "Carthaginian victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Lake_Trasimene
+images: [trasimene-lake-007a8f, trasimene-vatican-map-c6bf9d, trasimene-tuoro-82f4d1, trasimene-flaminius-c11c69]
+families:
+  carthage: { color: "#6a3d9a", color_dark: "#a98bd6" }
+  rome: { color: "#b03a2e", color_dark: "#e8695c" }
+sides:
+  - name: "Carthage"
+    color: carthage
+    commanders: ["Hannibal"]
+    strength: "More than 50,000"
+    casualties: "1,500 or 2,500 killed, many wounded"
+  - name: "Roman Republic"
+    color: rome
+    commanders: ["Gaius Flaminius"]
+    strength: "25,000"
+    casualties: "15,000 killed, 6,000 – 10,000 captured"

@@ -1,0 +1,41 @@
+# tr strings for the battle "zatec-1421".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Crusaders of the Rhine electors
+battle.sides.0.name: "Ren seçici prenslerinin haçlıları"
+
+# About 30,000
+battle.sides.0.strength: "Yaklaşık 30.000"
+
+# About 2,000 by Thomas Ebendorfer
+battle.sides.0.casualties: "Thomas Ebendorfer’e göre yaklaşık 2.000"
+
+# Žatec and its Hussite garrison
+battle.sides.1.name: "Žatec ve Husçu garnizonu"
+
+# About 6,000
+battle.sides.1.strength: "Yaklaşık 6.000"
+
+# Siege of Žatec
+battle.name: "Žatec Kuşatması"
+
+# About 10 September – 2 October 1421
+battle.date: "10 Eylül dolayı – 2 Ekim 1421"
+
+# Hussite victory, the crusaders withdraw
+battle.result: "Husçu zaferi, haçlılar çekilir"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Louis III, Elector Palatine
+battle.sides.0.commanders.0: "Palatina Seçici Prensi III. Ludwig"
+
+# Dietrich II of Cologne
+battle.sides.0.commanders.1: "Köln Başpiskoposu II. Dietrich"
+
+# Otto of Trier
+battle.sides.0.commanders.2: "Trier Başpiskoposu Otto"
+
+# Frederick I of Brandenburg
+battle.sides.0.commanders.3: "Brandenburglu I. Friedrich"

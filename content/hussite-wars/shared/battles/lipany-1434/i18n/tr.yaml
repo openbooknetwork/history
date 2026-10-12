@@ -1,0 +1,56 @@
+# tr strings for the battle "lipany-1434".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Lords’ league: Utraquist and Catholic lords, the Old Town of Prague, the Plzeň landfrýd
+battle.sides.0.name: "Soylular birliği: Utrakist ve Katolik soylular, Prag Eski Şehri, Plzeň landfrýdi"
+
+# About 13,500 to 14,000 with 660 to 720 wagons by Čornej
+battle.sides.0.strength: "Čornej’e göre 660 ile 720 arabayla 13.500 ile 14.000 kadar"
+
+# 200 to 500 by two foreign accounts
+battle.sides.0.casualties: "İki yabancı kaynağa göre 200 ile 500"
+
+# Field armies of the Taborites and Orphans
+battle.sides.1.name: "Táborcuların ve Yetimlerin sahra orduları"
+
+# About 10,700 with 360 to 480 wagons by Čornej, 6,000 to 8,000 by Šmahel
+battle.sides.1.strength: "Čornej’e göre 360 ile 480 arabayla yaklaşık 10.700, Šmahel’e göre 6.000 ile 8.000"
+
+# About 1,300 killed and 700 prisoners burned, both Prokops killed
+battle.sides.1.casualties: "Yaklaşık 1.300 ölü ve yakılan 700 esir, iki Prokop da öldürülür"
+
+# Battle of Lipany
+battle.name: "Lipany Muharebesi"
+
+# 30 May 1434
+battle.date: "30 Mayıs 1434"
+
+# Victory of the lords’ league, the field armies destroyed
+battle.result: "Soylular birliğinin zaferi, sahra orduları yok edilir"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Diviš Bořek of Miletínek
+battle.sides.0.commanders.0: "Miletínekli Diviš Bořek"
+
+# Mikuláš Krchlebec of Krchleby
+battle.sides.0.commanders.1: "Krchlebyli Mikuláš Krchlebec"
+
+# Menhart of Hradec
+battle.sides.0.commanders.2: "Hradecli Menhart"
+
+# Jan Černín of Vysoká
+battle.sides.0.commanders.3: "Vysokálı Jan Černín"
+
+# Prokop the Great
+battle.sides.1.commanders.0: "Büyük Prokop"
+
+# Prokop the Lesser
+battle.sides.1.commanders.1: "Küçük Prokop"
+
+# Jan Čapek of Sány
+battle.sides.1.commanders.2: "Sánylı Jan Čapek"
+
+# Jan Roháč of Dubá
+battle.sides.1.commanders.3: "Dubálı Jan Roháč"

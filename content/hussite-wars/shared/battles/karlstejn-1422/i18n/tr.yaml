@@ -1,0 +1,32 @@
+# tr strings for the battle "karlstejn-1422".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Prague and Sigismund Korybut
+battle.sides.0.name: "Prag ve Sigismund Korybut"
+
+# The army of Prague and Polish troops, with five large guns and five catapults
+battle.sides.0.strength: "Prag ordusu ve Polonyalı birlikler, beş büyük top ve beş mancınıkla"
+
+# Royal garrison
+battle.sides.1.name: "Kraliyet garnizonu"
+
+# About 400
+battle.sides.1.strength: "Yaklaşık 400"
+
+# Siege of Karlštejn
+battle.name: "Karlštejn Kuşatması"
+
+# 20 or 28 May – 8 November 1422
+battle.date: "20 ya da 28 Mayıs – 8 Kasım 1422"
+
+# Truce for one year, the castle holds
+battle.result: "Bir yıllık ateşkes, kale düşmez"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Zdeslav Tluksa of Buřenice
+battle.sides.1.commanders.0: "Buřeniceli Zdeslav Tluksa"
+
+# Jan of Lestkov
+battle.sides.1.commanders.1: "Lestkovlu Jan"

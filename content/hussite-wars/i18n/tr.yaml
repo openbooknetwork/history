@@ -1,0 +1,3272 @@
+# tr strings for the story "hussite-wars".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Before 1415: Bohemia
+groups.bohemia.title: "1415 öncesi: Bohemya"
+
+# 1402 – 1419: Hus and the chalice
+groups.hus.title: "1402 – 1419: Hus ve kadeh"
+
+# 1419 – 1420: Tábor
+groups.plzen-tabor.title: "1419 – 1420: Tábor"
+
+# Battle of Sudoměř, 1420
+groups.sudomer.title: "Sudoměř Muharebesi, 1420"
+
+# 1420: the first crusade
+groups.crusade-1420.title: "1420: birinci haçlı seferi"
+
+# Battle of Vítkov Hill, 1420
+groups.vitkov.title: "Vítkov Tepesi Muharebesi, 1420"
+
+# 1420 – 1421: Žižka takes the country
+groups.country.title: "1420 – 1421: Žižka ülkeyi ele geçirir"
+
+# 1421 – 1422: Žatec and Kutná Hora
+groups.zatec-kutna-hora.title: "1421 – 1422: Žatec ve Kutná Hora"
+
+# Kutná Hora and Německý Brod, 1421–1422
+groups.kutna-hora.title: "Kutná Hora ve Německý Brod, 1421–1422"
+
+# 1422 – 1423: Korybut and the Lesser Tábor
+groups.lesser-tabor.title: "1422 – 1423: Korybut ve Küçük Tábor"
+
+# 1424: Malešov and Přibyslav
+groups.year-1424.title: "1424: Malešov ve Přibyslav"
+
+# Battle of Malešov, 1424
+groups.malesov.title: "Malešov Muharebesi, 1424"
+
+# 1425 – 1427: Prokop and the field armies
+groups.prokop.title: "1425 – 1427: Prokop ve sahra orduları"
+
+# Battle of Ústí nad Labem, 1426
+groups.usti.title: "Ústí nad Labem Muharebesi, 1426"
+
+# 1427 – 1433: the beautiful rides
+groups.rides.title: "1427 – 1433: güzel akınlar"
+
+# 1432 – 1437: Basel and Lipany
+groups.basel-lipany.title: "1432 – 1437: Basel ve Lipany"
+
+# Battle of Lipany, 1434
+groups.lipany.title: "Lipany Muharebesi, 1434"
+
+# After 1437
+groups.epilogue.title: "1437 sonrası"
+
+# Duchies of Austria under the Habsburgs
+zones.austria-1400.name: "Habsburgların Avusturya dükalıkları"
+
+# Kingdom of Bohemia
+zones.bohemia-1400.name: "Bohemya Krallığı"
+
+# Kingdom of Bohemia under George of Poděbrady, 1458–1471
+zones.bohemia-1458.name: "Poděbradlı George’un Bohemya Krallığı, 1458–1471"
+
+# Kingdom of Denmark
+zones.denmark-1400.name: "Danimarka Krallığı"
+
+# Holy Roman Empire: German princes, bishops and towns
+zones.empire-1378.name: "Kutsal Roma İmparatorluğu: Alman prensleri, piskoposları ve şehirleri"
+
+# Holy Roman Empire: German princes, bishops and towns
+zones.empire-1400.name: "Kutsal Roma İmparatorluğu: Alman prensleri, piskoposları ve şehirleri"
+
+# Kingdom of Hungary under Sigismund, 1387–1437
+zones.hungary-1400.name: "Sigismund’un Macaristan Krallığı, 1387–1437"
+
+# Kingdom of Hungary under Matthias Corvinus, 1458–1490
+zones.hungary-1458.name: "Matthias Corvinus’un Macaristan Krallığı, 1458–1490"
+
+# Klatovy, Domažlice and Sušice, towns allied with Tábor, 1421–1434
+zones.klatovy-1421.name: "Tábor’la birleşen Klatovy, Domažlice ve Sušice, 1421–1434"
+
+# Grand Duchy of Lithuania, in union with Poland
+zones.lithuania-1400.name: "Polonya ile birlik içindeki Litvanya Büyük Dükalığı"
+
+# Lower Lusatia, under the Bohemian crown
+zones.llusatia-1400.name: "Bohemya tacına bağlı Aşağı Lusatya"
+
+# Lower Lusatia, loyal to Sigismund
+zones.llusatia-1420.name: "Sigismund’a bağlı Aşağı Lusatya"
+
+# Lower Lusatia, held by Matthias Corvinus from 1469
+zones.llusatia-1469.name: "1469’dan sonra Matthias Corvinus’un elindeki Aşağı Lusatya"
+
+# Margraviate of Moravia
+zones.moravia-1400.name: "Moravya Uçbeyliği"
+
+# Moravia, mostly loyal to Sigismund, under Albert of Austria from 1423, with some Hussite towns
+zones.moravia-1420.name: "Çoğunlukla Sigismund’a bağlı Moravya, 1423’ten sonra Avusturyalı Albrecht’in yönetiminde, birkaç Husçu şehirle"
+
+# Moravia, held by Matthias Corvinus from 1469
+zones.moravia-1469.name: "1469’dan sonra Matthias Corvinus’un elindeki Moravya"
+
+# The Neumark, held by the Teutonic Order 1402–1455
+zones.neumark-1410.name: "Töton Şövalyeleri Tarikatı’nın elindeki Neumark, 1402–1455"
+
+# The Orebites of Hradec Králové, 1420
+zones.oreb-1420.name: "Hradec Králové’nin Orebçileri, 1420"
+
+# The Orebites of eastern Bohemia, 1421
+zones.oreb-1421.name: "Doğu Bohemya’nın Orebçileri, 1421"
+
+# Žižka’s Lesser Tábor, the Orebite towns of eastern Bohemia, 1423–1424
+zones.oreb-1423.name: "Žižka’nın Küçük Tábor’u, Doğu Bohemya’nın Orebçi şehirleri, 1423–1424"
+
+# The towns of the Orphans, 1425–1433
+zones.orphans-1426.name: "Yetimlerin şehirleri, 1425–1433"
+
+# The towns of the Orphans, with the field armies, 1434
+zones.orphans-1434.name: "Sahra ordularıyla birlikte Yetimlerin şehirleri, 1434"
+
+# Kingdom of Poland
+zones.poland-1400.name: "Polonya Krallığı"
+
+# Prague and the Hussite towns allied with it, 1420
+zones.prague-1420.name: "Prag ve onunla birleşen Husçu şehirler, 1420"
+
+# Prague and the towns of the Prague union, 1421
+zones.prague-1421.name: "Prag ve Prag birliğinin şehirleri, 1421"
+
+# Prague and its union under Sigismund Korybut, 1422–1424
+zones.prague-1423.name: "Sigismund Korybut yönetiminde Prag ve birliği, 1422–1424"
+
+# Prague and the towns of the Prague union, 1425–1433
+zones.prague-1426.name: "Prag ve Prag birliğinin şehirleri, 1425–1433"
+
+# The lords’ league and the Old Town of Prague, May 1434
+zones.prague-1434.name: "Soylular birliği ve Prag Eski Şehri, Mayıs 1434"
+
+# Bohemia loyal to Sigismund or not yet committed, 1420: Plzeň, Kutná Hora, the Rožmberk lands and the royal castles
+zones.royal-1420.name: "Sigismund’a bağlı ya da henüz taraf tutmamış Bohemya, 1420: Plzeň, Kutná Hora, Rožmberk toprakları ve kraliyet kaleleri"
+
+# Bohemia loyal to Sigismund, late 1420: Plzeň, Kutná Hora, the Rožmberk lands and the royal castles
+zones.royal-1420b.name: "Sigismund’a bağlı Bohemya, 1420 sonu: Plzeň, Kutná Hora, Rožmberk toprakları ve kraliyet kaleleri"
+
+# Bohemia loyal to Sigismund, 1421: the Plzeň Landfrieden, the Rožmberk lands, Most, Karlštejn and other castles
+zones.royal-1421.name: "Sigismund’a bağlı Bohemya, 1421: Plzeň Landfrieden’i, Rožmberk toprakları, Most, Karlštejn ve öteki kaleler"
+
+# Bohemia of the royalist and Utraquist lords, 1422–1424: Plzeň, the Rožmberk lands and the lords of eastern Bohemia
+zones.royal-1423.name: "Kralcı ve Utrakist soyluların Bohemya’sı, 1422–1424: Plzeň, Rožmberk toprakları ve Doğu Bohemya soyluları"
+
+# Bohemia loyal to Sigismund, 1425–1433: the Plzeň Landfrieden, the Rožmberk lands, Most, Karlštejn and other castles
+zones.royal-1426.name: "Sigismund’a bağlı Bohemya, 1425–1433: Plzeň Landfrieden’i, Rožmberk toprakları, Most, Karlštejn ve öteki kaleler"
+
+# Plzeň, the Rožmberk lands and the royal castles, with the lords’ league in 1434
+zones.royal-1434.name: "1434’te soylular birliğinin yanındaki Plzeň, Rožmberk toprakları ve kraliyet kaleleri"
+
+# Kingdom of Bohemia under Sigismund, from August 1436
+zones.royal-1436.name: "Ağustos 1436’dan sonra Sigismund’un Bohemya Krallığı"
+
+# Duchies of Silesia, under the Bohemian crown
+zones.silesia-1400.name: "Bohemya tacına bağlı Silezya dükalıkları"
+
+# Duchies of Silesia, loyal to Sigismund
+zones.silesia-1420.name: "Sigismund’a bağlı Silezya dükalıkları"
+
+# Silesia, held by Matthias Corvinus from 1469
+zones.silesia-1469.name: "1469’dan sonra Matthias Corvinus’un elindeki Silezya"
+
+# Tábor, Písek and the country around them, 1420
+zones.tabor-1420.name: "Tábor, Písek ve çevreleri, 1420"
+
+# Tábor and the towns of the south it holds by the end of 1420
+zones.tabor-1420b.name: "1420 sonunda Tábor ve elindeki güney şehirleri"
+
+# Tábor and the towns of the south, 1421
+zones.tabor-1421.name: "Tábor ve güney şehirleri, 1421"
+
+# Tábor and the towns of the south, 1423–1424
+zones.tabor-1423.name: "Tábor ve güney şehirleri, 1423–1424"
+
+# The Tábor union in the south, 1425–1433
+zones.tabor-1426.name: "Güneydeki Tábor birliği, 1425–1433"
+
+# The Tábor union, with the field armies, 1434
+zones.tabor-1434.name: "Sahra ordularıyla birlikte Tábor birliği, 1434"
+
+# Tábor, until it submits to Sigismund in 1436
+zones.tabor-1436.name: "1436’da Sigismund’a boyun eğene dek Tábor"
+
+# Towns of the Tábor union in the west: Klatovy, Domažlice, Sušice, Stříbro from 1426 and Tachov from 1427
+zones.taborwest-1426.name: "Tábor birliğinin batıdaki şehirleri: Klatovy, Domažlice, Sušice, 1426’dan sonra Stříbro ve 1427’den sonra Tachov"
+
+# State of the Teutonic Order in Prussia
+zones.teutonic-1400.name: "Prusya’daki Töton Şövalyeleri Tarikatı Devleti"
+
+# Upper Lusatia, under the Bohemian crown
+zones.ulusatia-1400.name: "Bohemya tacına bağlı Yukarı Lusatya"
+
+# Upper Lusatia, loyal to Sigismund
+zones.ulusatia-1420.name: "Sigismund’a bağlı Yukarı Lusatya"
+
+# Upper Lusatia, held by Matthias Corvinus from 1469
+zones.ulusatia-1469.name: "1469’dan sonra Matthias Corvinus’un elindeki Yukarı Lusatya"
+
+# The union of Žatec and Louny, 1425–1433
+zones.zatec-1426.name: "Žatec ve Louny birliği, 1425–1433"
+
+# Wenceslas escapes from Vienna to Prague, November–December 1403
+routes.wenceslas-1403.name: "Wenceslas Viyana’dan Prag’a kaçar, Kasım–Aralık 1403"
+
+# Capital of the crown lands
+markers.prague-1400.note: "Taç topraklarının başkenti"
+
+# Moravia, Margrave Jobst to 1411
+markers.brno-1400.note: "Moravya, 1411’e dek Markgraf Jobst"
+
+# Silesian duchies
+markers.wroclaw-1400.note: "Silezya dükalıkları"
+
+# Upper Lusatia
+markers.bautzen-1400.note: "Yukarı Lusatya"
+
+# Wenceslas deposed, 20 August 1400
+markers.lahnstein-1400.note: "Wenceslas tahttan indirilir, 20 Ağustos 1400"
+
+# Wenceslas a prisoner, 1402–1403
+markers.vienna-1402.note: "Wenceslas esir, 1402–1403"
+
+# Sigismund, King of Hungary from 1387
+markers.buda-1400.note: "Sigismund, 1387’den beri Macaristan kralı"
+
+# Jagiełło, King of Poland from 1386
+markers.krakow-1400.note: "Jagiełło, 1386’dan beri Polonya kralı"
+
+# Charles IV’s capital, university 1348
+markers.prague-1348.note: "IV. Karl’ın başkenti, üniversite 1348"
+
+# Castle of the crown jewels, begun 1348
+markers.karlstejn-1348.note: "Taç mücevherlerinin kalesi, yapımı 1348’de başlar"
+
+# Silver mines and the royal mint
+markers.kutna-hora-1300.note: "Gümüş madenleri ve kraliyet darphanesi"
+
+# Žižka’s family estate
+markers.trocnov-1360.note: "Žižka’nın aile mülkü"
+
+# Royal town at feud with Žižka
+markers.budejovice-1406.note: "Žižka ile husumet içindeki kraliyet şehri"
+
+# Seat of Henry of Rožmberk
+markers.krumlov-1406.note: "Rožmberkli Henrik’in merkezi"
+
+# Rožmberk town the band plans to seize
+markers.nove-hrady-1408.note: "Çetenin ele geçirmeyi planladığı Rožmberk kasabası"
+
+# Rožmberk town the band plans to seize
+markers.trebon-1408.note: "Çetenin ele geçirmeyi planladığı Rožmberk kasabası"
+
+# The band camps at a mill nearby
+markers.lomnice-1408.note: "Çete yakındaki bir değirmende konaklar"
+
+# Jan Sokol’s Czech and Moravian mercenaries march from Koronowo to Wolbórz, June 1410
+routes.czech-banners-1410.name: "Jan Sokol’un Çek ve Moravyalı paralı askerleri Koronowo’dan Wolbórz’a yürür, Haziran 1410"
+
+# Jagiełło’s army with Sokol’s mercenaries, Wolbórz to Grunwald, 24 June – 15 July 1410
+routes.jogaila-1410.name: "Jagiełło’nun ordusu Sokol’un paralı askerleriyle Wolbórz’dan Grunwald’a, 24 Haziran – 15 Temmuz 1410"
+
+# The one-eyed doorman Janek buys a house, 1414
+markers.prague-1414.note: "Tek gözlü kapıcı Janek bir ev satın alır, 1414"
+
+# Sokol joins the king’s army, June 1410
+markers.wolborz-1410.note: "Sokol kralın ordusuna katılır, Haziran 1410"
+
+# Pontoon bridge over the Vistula, 30 June
+markers.czerwinsk-1410.note: "Vistula üzerinde dubalı köprü, 30 Haziran"
+
+# Žižka in the garrison, 23 September
+markers.radzyn-1410.note: "Žižka garnizonda, 23 Eylül"
+
+# The German masters and students leave Prague for Leipzig, 1409
+routes.german-masters-1409.name: "Alman hocalar ve öğrenciler Prag’dan Leipzig’e gider, 1409"
+
+# Hus born here, about 1370
+markers.husinec-1370.note: "Hus burada doğar, 1370 dolayı"
+
+# Hus preaches in Czech from 1402
+markers.bethlehem-1402.note: "Hus 1402’den itibaren Çekçe vaaz verir"
+
+# The king’s decree, 18 January 1409
+markers.kutna-hora-1409.note: "Kralın fermanı, 18 Ocak 1409"
+
+# University founded 2 December 1409
+markers.leipzig-1409.note: "Üniversite kurulur, 2 Aralık 1409"
+
+# Hus leaves Prague for the countryside, 1412–1413
+routes.hus-1412.name: "Hus Prag’dan kırsala çekilir, 1412–1413"
+
+# Hus moves from South Bohemia to Krakovec, July 1414
+routes.hus-1414-krakovec.name: "Hus Güney Bohemya’dan Krakovec’e taşınır, Temmuz 1414"
+
+# Three young men beheaded, 1412
+markers.prague-1412.note: "Üç genç adamın başı vurulur, 1412"
+
+# Hus in exile from April 1413
+markers.kozi-hradek-1412.note: "Hus Nisan 1413’ten itibaren sürgünde"
+
+# Hus’s last refuge, 1414
+markers.krakovec-1414.note: "Hus’un son sığınağı, 1414"
+
+# Hus’s journey by Nuremberg to Constance, 11 October – 3 November 1414
+routes.hus-1414.name: "Hus’un Nürnberg üzerinden Konstanz’a yolculuğu, 11 Ekim – 3 Kasım 1414"
+
+# On Hus’s road to Constance
+markers.nuremberg-1414.note: "Hus’un Konstanz yolu üzerinde"
+
+# Hus burned, 6 July 1415
+markers.constance-1415.note: "Hus yakılır, 6 Temmuz 1415"
+
+# Jakoubek gives the chalice, 1414
+markers.st-michael-1414.note: "Jakoubek kadehi sunar, 1414"
+
+# Hussite priests ordained, spring 1417
+markers.lipnice-1417.note: "Husçu rahipler takdis edilir, 1417 ilkbaharı"
+
+# Up to 42,000 gather, 22 July 1419
+markers.mount-tabor-1419.note: "22 Temmuz 1419’da 42.000’e kadar kişi toplanır"
+
+# Želivský’s procession, 30 July 1419
+routes.zelivsky-1419.name: "Želivský’nin alayı, 30 Temmuz 1419"
+
+# Želivský preaches, 30 July 1419
+markers.snows-1419.note: "Želivský vaaz verir, 30 Temmuz 1419"
+
+# The crowd drives out the congregation
+markers.st-stephen-1419.note: "Kalabalık cemaati kovar"
+
+# Councillors thrown from the windows
+markers.new-town-hall-1419.note: "Meclis üyeleri pencerelerden atılır"
+
+# The Praguers attack the Lesser Town over the bridge, 4 November 1419
+routes.praguers-1419.name: "Praglılar köprü üzerinden Küçük Şehir’e saldırır, 4 Kasım 1419"
+
+# Held by the queen’s mercenaries
+markers.prague-castle-1419.note: "Kraliçenin paralı askerlerinin elinde"
+
+# Burned in the fighting, 4–5 November
+markers.lesser-town-1419.note: "Çarpışmalarda yanar, 4–5 Kasım"
+
+# Hussite Prague
+markers.old-town-1419.note: "Husçu Prag"
+
+# Handed to the New Town, 25 October
+markers.vysehrad-1419.note: "Yeni Şehir’e teslim edilir, 25 Ekim"
+
+# Žižka marches against Nekmíř, December 1419 or January 1420
+routes.zizka-1419-nekmir.name: "Žižka Nekmíř’e yürür, Aralık 1419 ya da Ocak 1420"
+
+# Žižka and his companions leave Prague for Plzeň, November 1419
+routes.zizka-1419-plzen.name: "Žižka ve arkadaşları Prag’dan Plzeň’e gider, Kasım 1419"
+
+# Koranda’s town, besieged from January
+markers.plzen-1419.note: "Koranda’nın şehri, Ocak’tan itibaren kuşatma altında"
+
+# The Hussites move from Sezimovo Ústí to the hill of Hradiště, spring 1420
+routes.taborites-1420-hradiste.name: "Husçular Sezimovo Ústí’den Hradiště tepesine geçer, 1420 baharı"
+
+# Hradiště of Mount Tábor
+markers.tabor-1420.note: "Tábor Dağı Hradiště’si"
+
+# Attacked by the Taborites, April
+markers.mlada-vozice-1420.note: "Nisan’da Táborcuların saldırısı"
+
+# Hospitaller commandery
+markers.strakonice-1420.note: "Hospitalier komturluğu"
+
+# Castle besieged
+markers.rabi-1420.note: "Kuşatma altına alınan kale"
+
+# The Hospitallers ride out from Strakonice, 25 March 1420
+routes.hospitallers-1420.name: "Hospitalierler Strakonice’den yola çıkar, 25 Mart 1420"
+
+# The Iron Lords come from Písek, which they have just taken
+routes.iron-lords-1420.name: "Demir Beyler, kısa süre önce aldıkları Písek’ten gelir"
+
+# Bohuslav of Švamberk and the Landfrieden of Plzeň follow them
+routes.svamberk-1420.name: "Švamberk’li Bohuslav ve Plzeň Barış Birliği onları izler"
+
+# The Hussites leave Plzeň for Tábor by Kasejovice, Řepice and Štěkeň, 23–25 March 1420
+routes.zizka-1420-sudomer.name: "Husçular Kasejovice, Řepice ve Štěkeň üzerinden Plzeň’den Tábor’a yola çıkar, 23–25 Mart 1420"
+
+# After the battle the Hussites march by Újezd castle to Tábor, 26–29 March 1420
+routes.zizka-1420-tabor.name: "Muharebeden sonra Husçular Újezd kalesi üzerinden Tábor’a yürür, 26–29 Mart 1420"
+
+# The Hussites rest two days
+markers.ujezd-1420.note: "Husçular iki gün dinlenir"
+
+# About 400 on foot, 12 wagons
+markers.sudomer-dike-zizka.note: "Yaklaşık 400 yaya, 12 araba"
+
+# Hospitallers of Strakonice
+markers.sudomer-dike-hradec.note: "Strakonice Hospitalierleri"
+
+# With Mikeš Divůček, the Iron Lords
+markers.sudomer-dike-sternberk.note: "Mikeš Divůček ile, Demir Beyler"
+
+# Landfrieden of Plzeň
+markers.sudomer-dike-svamberk.note: "Plzeň Barış Birliği"
+
+# A dike a few metres wide
+markers.sudomer-dike-front.note: "Birkaç metre genişliğinde bir set"
+
+# Twelve wagons close the open sides
+markers.sudomer-dike-wagons.note: "On iki araba açık yanları kapatır"
+
+# Full pond, drained pond
+markers.sudomer-dike-ponds.note: "Dolu gölet, boşaltılmış gölet"
+
+# Killed at the head of the line
+markers.sudomer-dismount-brenek.note: "Hattın başında öldürülür"
+
+# Shot in the foot, dies of it later
+markers.sudomer-dismount-hradec.note: "Ayağından vurulur, sonra bu yaradan ölür"
+
+# Heavy armour in soft mud
+markers.sudomer-dismount-foot.note: "Yumuşak çamurda ağır zırh"
+
+# Horses sink in the mud
+markers.sudomer-dismount-mud.note: "Atlar çamura batar"
+
+# Shooting through the gaps
+markers.sudomer-dismount-guns.note: "Boşluklardan ateş"
+
+# Against armoured men on foot
+markers.sudomer-dismount-flails.note: "Yaya kalmış zırhlılara karşı"
+
+# Takes command, camps on the field
+markers.sudomer-dusk-zizka.note: "Komutayı alır, alanda geceler"
+
+# Takes 30 prisoners to Kutná Hora
+markers.sudomer-dusk-divucek.note: "30 esiri Kutná Hora’ya götürür"
+
+# Withdraw at sunset in fog
+markers.sudomer-dusk-royal.note: "Gün batımında, siste çekilir"
+
+# Wagons stay chained overnight
+markers.sudomer-dusk-hold.note: "Arabalar gece boyu zincirli kalır"
+
+# Drawn far larger than life
+markers.wagons-plan-1423.note: "Gerçek boyutundan çok büyük çizildi"
+
+# Seven wagons hold off 2,000
+markers.wagons-nekmir-1419.note: "Yedi araba 2.000 kişiyi durdurur"
+
+# Twelve wagons on a dike
+markers.wagons-sudomer-1420.note: "Bir sette on iki araba"
+
+# The fort fires on the move
+markers.wagons-kutna-hora-1421.note: "Kale ilerlerken ateş eder"
+
+# The knights break in and fall
+markers.wagons-usti-1426.note: "Şövalyeler içeri girer ve düşer"
+
+# Sigismund marches from Kutná Hora to the camps north of Prague, June 1420
+routes.sigismund-1420-prague.name: "Sigismund Kutná Hora’dan Prag’ın kuzeyindeki ordugâhlara yürür, Haziran 1420"
+
+# The crusade army from Schweidnitz by Kladsko to Hradec Králové and Kutná Hora, end of April – May 1420
+routes.sigismund-1420.name: "Haçlı ordusu Schweidnitz’den Kladsko üzerinden Hradec Králové’ye ve Kutná Hora’ya, Nisan sonu – Mayıs 1420"
+
+# The Taborites march to Prague by Benešov, May 1420
+routes.zizka-1420-prague.name: "Táborcular Benešov üzerinden Prag’a yürür, Mayıs 1420"
+
+# Crusade proclaimed, 17 March
+markers.breslau-1420.note: "Haçlı seferi ilan edilir, 17 Mart"
+
+# Surrenders, 3 May
+markers.hradec-kralove-1420.note: "Teslim olur, 3 Mayıs"
+
+# Sigismund’s base, May and June
+markers.kutna-hora-1420.note: "Sigismund’un üssü, Mayıs ve Haziran"
+
+# Handed to Sigismund, 7 May
+markers.prague-castle-1420.note: "Sigismund’a teslim edilir, 7 Mayıs"
+
+# Žižka beats Šternberk’s horse
+markers.benesov-1420.note: "Žižka Šternberk’in atlılarını yener"
+
+# From Prague Castle to Bubny
+markers.crusader-camps-1420.note: "Prag Kalesi’nden Bubny’ye"
+
+# Royal garrison
+markers.vysehrad-castle-1420.note: "Kralın garnizonu"
+
+# Held by the Hussites
+markers.prague-towns-1420.note: "Husçuların elinde"
+
+# 26 men, two women, a girl
+markers.vitkov-works-defenders.note: "26 erkek, iki kadın, bir kız"
+
+# Men of Meissen and Austria
+markers.vitkov-works-isenburg.note: "Meissenliler ve Avusturyalılar"
+
+# Thousands of horse below the hill
+markers.vitkov-works-spital.note: "Tepenin altında binlerce atlı"
+
+# A neck a few riders wide
+markers.vitkov-works-neck.note: "Birkaç atlı genişliğinde bir boyun"
+
+# Wall and three ditches
+markers.vitkov-works-ditches.note: "Duvar ve üç hendek"
+
+# North side falls to the plain
+markers.vitkov-works-slope.note: "Kuzey yanı ovaya iner"
+
+# Thrown into a ditch, nearly killed
+markers.vitkov-assault-zizka.note: "Hendeğe yuvarlanır, az kalsın öldürülür"
+
+# Leads the assault
+markers.vitkov-assault-isenburg.note: "Saldırıyı yönetir"
+
+# His men tear him free
+markers.vitkov-assault-flails.note: "Adamları onu kurtarır"
+
+# The attack stops at the wall
+markers.vitkov-assault-wall.note: "Saldırı duvarda durur"
+
+# Leads the sally from the city
+markers.vitkov-flank-priest.note: "Şehirden çıkışı yönetir"
+
+# Mortally wounded
+markers.vitkov-flank-isenburg.note: "Ölümcül biçimde yaralanır"
+
+# About 300 dead, by Laurence
+markers.vitkov-flank-dead.note: "Vavřinec’e göre 300 kadar ölü"
+
+# Up the vineyards into their flank
+markers.vitkov-flank-flank.note: "Bağlardan yukarı, yanlarına"
+
+# Pushed over the northern edge
+markers.vitkov-flank-edge.note: "Kuzey kenarından aşağı itilirler"
+
+# Sigismund leaves Prague for Kutná Hora, August 1420
+routes.sigismund-1420-kutna-hora.name: "Sigismund Prag’dan Kutná Hora’ya gider, Ağustos 1420"
+
+# The Taborites leave Prague for Tábor, 22 August 1420
+routes.taborites-1420-home.name: "Táborcular Prag’dan Tábor’a döner, 22 Ağustos 1420"
+
+# Sigismund crowned, 28 July
+markers.st-vitus-1420.note: "Sigismund taç giyer, 28 Temmuz"
+
+# The royal army flees towards Český Brod and Kutná Hora
+routes.sigismund-1420-flight.name: "Kral ordusu Český Brod ve Kutná Hora yönüne kaçar"
+
+# Sigismund’s army comes up from Nový hrad near Kunratice, 1 November 1420
+routes.sigismund-1420-vysehrad.name: "Sigismund’un ordusu Kunratice yakınındaki Nový hrad’dan gelir, 1 Kasım 1420"
+
+# Main Hussite camp and trenches
+markers.pankrac-1420.note: "Ana Husçu ordugâhı ve siperler"
+
+# Base of the Taborites
+markers.tabor-1421.note: "Táborcuların merkezi"
+
+# Taken by the Taborites, August 1420
+markers.vodnany-1420.note: "Táborcular alır, Ağustos 1420"
+
+# Taken, September 1420
+markers.lomnice-1420.note: "Alınır, Eylül 1420"
+
+# Laid waste, September 1420
+markers.nova-bystrice-1420.note: "Yakılıp yıkılır, Eylül 1420"
+
+# Rožmberk’s lords beaten, 12 October 1420
+markers.pansky-bor-1420.note: "Rožmberk’in senyörleri yenilir, 12 Ekim 1420"
+
+# Seat of Oldřich of Rožmberk
+markers.krumlov-1420.note: "Rožmberklı Oldřich’in merkezi"
+
+# Royal town, holds for Sigismund
+markers.budejovice-1420.note: "Kraliyet kenti, Sigismund’a bağlı"
+
+# Hussite capital, Old and New Town
+markers.prague-1421.note: "Husçu başkent, Eski ve Yeni Kent"
+
+# Monastery taken, January 1421
+markers.kladruby-1421.note: "Manastır alınır, Ocak 1421"
+
+# Catholic league holds, truce in March
+markers.plzen-1421.note: "Katolik birlik direnir, martta ateşkes"
+
+# Holds out, suburbs burned in February
+markers.tachov-1421.note: "Direnir, varoşları şubatta yakılır"
+
+# Stormed, 1 April 1421
+markers.beroun-1421.note: "Saldırıyla alınır, 1 Nisan 1421"
+
+# Allied with Prague
+markers.zatec-town-1421.note: "Prag’ın müttefiki"
+
+# Allied with Prague
+markers.louny-1421.note: "Prag’ın müttefiki"
+
+# Allied with Prague
+markers.slany-1421.note: "Prag’ın müttefiki"
+
+# Archbishop Konrad joins the Hussites
+markers.roudnice-1421.note: "Başpiskopos Konrad Husçulara katılır"
+
+# About 50 Pikarts burned, April 1421
+markers.klokoty-1421.note: "50 kadar Pikart yakılır, Nisan 1421"
+
+# Adamites taken and burned, October 1421
+markers.nezarka-1421.note: "Ademciler esir alınıp yakılır, Ekim 1421"
+
+# Diet, 3 to 7 June 1421
+markers.caslav-1421.note: "Meclis, 3-7 Haziran 1421"
+
+# Taborite town
+markers.pisek-1421.note: "Táborcu kent"
+
+# Taborite town
+markers.klatovy-1421.note: "Táborcu kent"
+
+# Taborite town
+markers.domazlice-1421.note: "Táborcu kent"
+
+# Town of the Orebites
+markers.hradec-1421.note: "Orebçilerin kenti"
+
+# Royal castle, holds for Sigismund
+markers.loket-1421.note: "Kraliyet kalesi, Sigismund’a bağlı"
+
+# The crusaders retreat to the border, 2 October 1421
+routes.crusade-1421-flight.name: "Haçlılar sınıra çekilir, 2 Ekim 1421"
+
+# Louis III’s column marches from Cheb by Žlutice, Kadaň and Chomutov to Žatec, 28 August to 10 September 1421
+routes.crusade-1421.name: "III. Ludwig’in kolu Cheb’den Žlutice, Kadaň ve Chomutov üzerinden Žatec’e yürür, 28 Ağustos – 10 Eylül 1421"
+
+# The Prague army gathers at Slaný to relieve Žatec, September 1421
+routes.prague-1421-relief.name: "Prag ordusu Žatec’i kurtarmak için Slaný’de toplanır, Eylül 1421"
+
+# Žižka from Klatovy by Planá, Vladař and Žlutice to Žatec, November 1421
+routes.zizka-1421-vladar.name: "Žižka Klatovy’den Planá, Vladař ve Žlutice üzerinden Žatec’e, Kasım 1421"
+
+# Želivský beaten, 5 August 1421
+markers.most-1421.note: "Želivský yenilir, 5 Ağustos 1421"
+
+# Crusaders gather, August 1421
+markers.cheb-1421.note: "Haçlılar toplanır, Ağustos 1421"
+
+# Held three days, November 1421
+markers.vladar-1421.note: "Üç gün tutulur, Kasım 1421"
+
+# A second royal column by Litomyšl, December 1421
+routes.sigismund-1421-litomysl.name: "Litomyšl üzerinden ikinci kraliyet kolu, Aralık 1421"
+
+# Sigismund’s main column from Jihlava by Německý Brod and Ledeč to Kutná Hora, December 1421
+routes.sigismund-1421.name: "Sigismund’un ana kolu Jihlava’dan Německý Brod ve Ledeč üzerinden Kutná Hora’ya, Aralık 1421"
+
+# Žižka marches from Prague to Kutná Hora, 8 to 9 December 1421
+routes.zizka-1421-december.name: "Žižka Prag’dan Kutná Hora’ya yürür, 8-9 Aralık 1421"
+
+# Royal army gathers, late November 1421
+markers.jihlava-1421.note: "Kraliyet ordusu toplanır, Kasım 1421 sonu"
+
+# A second royal column passes
+markers.litomysl-1421.note: "İkinci kraliyet kolu geçer"
+
+# Royal army crosses the Sázava
+markers.ledec-1421.note: "Kraliyet ordusu Sázava’yı geçer"
+
+# Commands from the wagon fort
+markers.kutna-hora-ring-zizka.note: "Araba kalesinden komuta eder"
+
+# With Pippo Spano
+markers.kutna-hora-ring-sigismund.note: "Pippo Spano ile"
+
+# Hussites in the town killed
+markers.kutna-hora-ring-town.note: "Kentteki Husçular öldürülür"
+
+# Chained ring in the open field
+markers.kutna-hora-ring-fort.note: "Açık arazide zincirli halka"
+
+# Charges broken at range
+markers.kutna-hora-ring-guns.note: "Hücumlar uzakta kırılır"
+
+# Breaks out by night
+markers.kutna-hora-breakout-zizka.note: "Gece kuşatmayı yarar"
+
+# Wagon fort again at daybreak
+markers.kutna-hora-breakout-kank.note: "Gün ağarırken yeniden araba kalesi"
+
+# Driven from his camp
+markers.kutna-hora-breakout-sigismund.note: "Ordugâhından sürülür"
+
+# Wagons fire as they roll
+markers.kutna-hora-breakout-guns.note: "Arabalar ilerlerken ateş eder"
+
+# Gunfire out of the dark
+markers.kutna-hora-breakout-night.note: "Karanlıktan gelen top ateşi"
+
+# Village between Kolín and Kutná Hora
+markers.nebovidy-village.note: "Kolín ile Kutná Hora arasında bir köy"
+
+# Falls on the royal army
+markers.nebovidy-zizka.note: "Kraliyet ordusunun üzerine çullanır"
+
+# Broken, many Hungarians killed
+markers.nebovidy-vanguard.note: "Dağılır, çok sayıda Macar ölür"
+
+# Royal army scattered in villages
+markers.nebovidy-surprise.note: "Kraliyet ordusu köylere dağılmış"
+
+# No time to form a line
+markers.nebovidy-noline.note: "Hat kurmaya zaman yok"
+
+# The royal army flees from Kutná Hora by Habry and Německý Brod into Moravia, 6 to 10 January 1422
+routes.sigismund-1422.name: "Kraliyet ordusu Kutná Hora’dan Habry ve Německý Brod üzerinden Moravya’ya kaçar, 6-10 Ocak 1422"
+
+# Žižka pursues from Kutná Hora by Habry to Německý Brod, 7 to 8 January 1422
+routes.zizka-1422.name: "Žižka Kutná Hora’dan Habry üzerinden Německý Brod’a kadar takip eder, 7-8 Ocak 1422"
+
+# Royal stand broken there, 8 January
+markers.nemecky-brod-habry.note: "Kraliyet direnişi orada kırılır, 8 Ocak"
+
+# 548 drown, by the Old Czech Annals
+markers.nemecky-brod-ice.note: "Eski Çek Yıllıkları’na göre 548 kişi boğulur"
+
+# Stormed 10 January
+markers.nemecky-brod-town.note: "10 Ocak’ta saldırıyla alınır"
+
+# Puts out the fire, then pursues
+markers.nemecky-brod-zizka.note: "Yangını söndürür, sonra peşe düşer"
+
+# Escapes into Moravia
+markers.nemecky-brod-sigismund.note: "Moravya’ya kaçar"
+
+# Horse ride down the flight
+markers.nemecky-brod-pursuit.note: "Atlılar kaçanların peşine düşer"
+
+# Želivský beheaded 9 March, Korybut arrives in May
+markers.prague-1422.note: "Želivský 9 Mart’ta idam edilir, Korybut Mayıs’ta gelir"
+
+# The men of Hradec Králové under Diviš Bořek join Žižka, 20 April 1423
+routes.borek-1423-horice.name: "Hradec Králové halkı Diviš Bořek komutasında Žižka’ya katılır, 20 Nisan 1423"
+
+# Žižka marches north from Německý Brod against Čeněk of Vartenberk, April 1423
+routes.zizka-1423-horice.name: "Žižka Německý Brod’dan Vartenberkli Čeněk’e karşı kuzeye yürür, Nisan 1423"
+
+# Assembly of Žižka’s union, 7–8 April
+markers.nemecky-brod-1423.note: "Žižka’nın birliğinin toplantısı, 7–8 Nisan"
+
+# Its men join Žižka under Diviš Bořek
+markers.hradec-kralove-1423.note: "Halkı Diviš Bořek komutasında Žižka’ya katılır"
+
+# The march into Upper Hungary as the Old Czech Annals tell it, a record written after 1525
+routes.zizka-1423-hungary.name: "Eski Çek Yıllıkları’nın anlattığı Yukarı Macaristan yürüyüşü, 1525’ten sonra yazılmış bir kayıt"
+
+# Žižka marches into Moravia and lays siege to Jihlava and Telč, September 1423
+routes.zizka-1423-moravia.name: "Žižka Moravya’ya yürür ve Jihlava ile Telč’i kuşatma altına alır, Eylül 1423"
+
+# The retreat with the wagons as the Old Czech Annals tell it
+routes.zizka-1423-retreat.name: "Eski Çek Yıllıkları’nın anlattığı arabalarla geri çekiliş"
+
+# Peace of Tábor and Prague, 26 June
+markers.konopiste-1423.note: "Tábor ile Prag barışı, 26 Haziran"
+
+# Žižka beats Diviš Bořek, 4 August
+markers.strachuv-dvur-1423.note: "Žižka Diviš Bořek’i yener, 4 Ağustos"
+
+# Jihlava and Telč besieged, September
+markers.jihlava-1423.note: "Jihlava ve Telč kuşatılır, Eylül"
+
+# Furthest point in the Old Czech Annals
+markers.upper-hungary-1423.note: "Eski Çek Yıllıkları’nda en uç nokta"
+
+# Žižka marches from Hradec Králové by Jaroměř up the Úpa to Skalice, January 1424
+routes.zizka-1424-skalice.name: "Žižka Hradec Králové’den Jaroměř üzerinden Úpa boyunca Skalice’ye yürür, Ocak 1424"
+
+# Town of Žižka’s union
+markers.hradec-kralove-1424.note: "Žižka’nın birliğinin kenti"
+
+# Seat of Jan Městecký
+markers.opocno-1424.note: "Jan Městecký’nin şatosu"
+
+# Seat of Půta of Častolovice
+markers.castolovice-1424.note: "Častoloviceli Půta’nın şatosu"
+
+# The army of Prague and the lords follows along the left bank of the Elbe, June 1424
+routes.prague-1424-malesov.name: "Prag ve soylular ordusu Elbe’nin sol kıyısından izler, Haziran 1424"
+
+# Žižka withdraws from Žatec to Kostelec nad Labem, late May 1424
+routes.zizka-1424-kostelec.name: "Žižka Žatec’ten Kostelec nad Labem’e çekilir, Mayıs 1424 sonu"
+
+# Žižka crosses the Elbe by night, retreats along the right bank and turns south to Malešov, June 1424
+routes.zizka-1424-malesov.name: "Žižka Elbe’yi gece geçer, sağ kıyı boyunca çekilir ve güneye, Malešov’a döner, Haziran 1424"
+
+# The Landfried marches out, 17 May
+markers.plzen-1424.note: "Landfried 17 Mayıs’ta sefere çıkar"
+
+# Žižka withdraws here in May
+markers.zatec-1424.note: "Žižka Mayıs’ta buraya çekilir"
+
+# Surrounded, Žižka crosses the Elbe by night
+markers.kostelec-1424.note: "Etrafı sarılan Žižka Elbe’yi gece geçer"
+
+# Blind, with Jan Hvězda of Vícemilice
+markers.malesov-ground-zizka.note: "Kör, yanında Vícemiliceli Jan Hvězda"
+
+# Leads Prague and the lords
+markers.malesov-ground-borek.note: "Prag’ı ve soyluları yönetir"
+
+# Enemy must cross, then climb
+markers.malesov-ground-slope.note: "Düşman önce geçmeli, sonra tırmanmalı"
+
+# No room to deploy
+markers.malesov-ground-valley.note: "Düzen alacak yer yok"
+
+# In the centre of the line
+markers.malesov-ground-stones.note: "Hattın ortasında"
+
+# Orders the wagons let go
+markers.malesov-wagons-zizka.note: "Arabaların salıverilmesini buyurur"
+
+# Ranks broken by the wagons
+markers.malesov-wagons-head.note: "Safları arabalarla dağılır"
+
+# Rolled into the column
+markers.malesov-wagons-stones.note: "Kolun içine yuvarlanır"
+
+# Fire into the confusion
+markers.malesov-wagons-guns.note: "Karmaşanın içine ateş eder"
+
+# Victory on ground he chose
+markers.malesov-rout-zizka.note: "Kendi seçtiği arazide zafer"
+
+# Prague banner bearer, killed
+markers.malesov-rout-turkovec.note: "Prag sancaktarı, öldürülür"
+
+# Foot and wagons go forward
+markers.malesov-rout-charge.note: "Yayalar ve arabalar ilerler"
+
+# Released for the pursuit
+markers.malesov-rout-horse.note: "Takip için salıverilir"
+
+# The united Hussite army marches for Moravia, from 23 September 1424
+routes.hussites-1424-moravia.name: "Birleşen Husçu ordusu 23 Eylül 1424’ten itibaren Moravya’ya yürür"
+
+# Žižka takes Kutná Hora, and Kouřim and Český Brod submit, June 1424
+routes.zizka-1424-june.name: "Žižka Kutná Hora’yı alır, Kouřim ve Český Brod boyun eğer, Haziran 1424"
+
+# Žižka’s army comes from north-eastern Bohemia and camps at Libeň before Prague, September 1424
+routes.zizka-1424-prague.name: "Žižka’nın ordusu kuzeydoğu Bohemya’dan gelir ve Prag önlerinde Libeň’de ordugâh kurar, Eylül 1424"
+
+# Taken and burned after Malešov
+markers.kutna-hora-1424.note: "Malešov’dan sonra alınır ve yakılır"
+
+# Monks burned in the monastery
+markers.turnov-1424.note: "Manastırda keşişler yakılır"
+
+# Peace with Prague, 14 September
+markers.liben-1424.note: "Prag’la barış, 14 Eylül"
+
+# Žižka dies before Přibyslav, 11 October
+markers.zizkovo-pole-1424.note: "Žižka Přibyslav önünde ölür, 11 Ekim"
+
+# Taborites and Orphans into Moravia and Lower Austria: Třebíč, Klosterbruck and Retz, autumn 1425
+routes.field-armies-1425-austria.name: "Táborcular ve Yetimler Moravya’ya ve Aşağı Avusturya’ya: Třebíč, Klosterbruck ve Retz, 1425 sonbaharı"
+
+# Bohuslav of Švamberk, wounded at Retz, is carried to Moravský Krumlov, November 1425
+routes.svamberk-1425.name: "Retz’te yaralanan Švamberkli Bohuslav Moravský Krumlov’a taşınır, Kasım 1425"
+
+# Sigismund Korybut and the Praguers
+markers.prague-1425.note: "Sigismund Korybut ve Praglılar"
+
+# Seat of the Taborite union
+markers.tabor-1425.note: "Táborcu birliğin merkezi"
+
+# Chief town of the Orphans
+markers.hradec-1425.note: "Yetimlerin baş kenti"
+
+# Union of Žatec and Louny, 1425
+markers.zatec-1425.note: "Žatec ve Louny birliği, 1425"
+
+# Taken 25 November 1425
+markers.retz-1425.note: "25 Kasım 1425’te alınır"
+
+# Bohuslav of Švamberk dies
+markers.krumlov-1425.note: "Švamberkli Bohuslav ölür"
+
+# Taborite base from spring 1426
+markers.breclav-1426.note: "1426 baharından Táborcu üssü"
+
+# The Hussites lift the siege and march out to Běhání hill, 15 June 1426
+routes.hussites-1426-behani.name: "Husçular kuşatmayı kaldırır ve Běhání tepesine çıkar, 15 Haziran 1426"
+
+# The Orphans and the East Bohemian lords from Mladá Boleslav by Česká Lípa, Třebenice and Teplice to Ústí, May 1426
+routes.orphans-1426.name: "Yetimler ve Doğu Bohemyalı soylular Mladá Boleslav’dan Česká Lípa, Třebenice ve Teplice üzerinden Ústí’ye, Mayıs 1426"
+
+# The Praguers under Hynek Boček of Poděbrady by Litoměřice to Ústí, May 1426
+routes.praguers-1426.name: "Poděbradylı Hynek Boček’in Praglıları Litoměřice üzerinden Ústí’ye, Mayıs 1426"
+
+# Relief army column, probably the Upper Lusatians, by Krupka and Teplice, 14–15 June 1426
+routes.relief-1426-krupka.name: "Kurtarma ordusunun büyük olasılıkla Yukarı Lusatyalılardan oluşan kolu Krupka ve Teplice üzerinden, 14–15 Haziran 1426"
+
+# Relief army column by the Janov road past Most, 14–15 June 1426
+routes.relief-1426-most.name: "Kurtarma ordusunun Most yakınından Janov yolunu izleyen kolu, 14–15 Haziran 1426"
+
+# Relief army column by Osek, 14–15 June 1426
+routes.relief-1426-osek.name: "Kurtarma ordusunun Osek üzerinden gelen kolu, 14–15 Haziran 1426"
+
+# Meissen garrison, besieged from late May
+markers.usti-town-1426.note: "Meissen garnizonu, mayıs sonundan beri kuşatma altında"
+
+# The relief army gathers, June 1426
+markers.freiberg-1426.note: "Kurtarma ordusu toplanır, Haziran 1426"
+
+# Surrenders to the Orphans, 19 May
+markers.ceska-lipa-1426.note: "Yetimlere teslim olur, 19 Mayıs"
+
+# Council of the captains, 5 May
+markers.mlada-boleslav-1426.note: "Komutanlar meclisi, 5 Mayıs"
+
+# Commands the Praguers
+markers.usti-fort-korybut.note: "Praglıları yönetir"
+
+# Priest of the Taborite field army
+markers.usti-fort-prokop.note: "Táborcu sahra ordusunun rahibi"
+
+# Commands the relief army
+markers.usti-fort-boso.note: "Kurtarma ordusunu yönetir"
+
+# Chained wheel to wheel
+markers.usti-fort-ring.note: "Tekerlek tekerleğe zincirli"
+
+# A second line behind the first
+markers.usti-fort-lines.note: "Birincinin arkasında ikinci bir sıra"
+
+# Houfnice and tarasnice in the line
+markers.usti-fort-guns.note: "Sırada houfnice ve tarasnice"
+
+# Sends his knights against the wagons
+markers.usti-assault-boso.note: "Şövalyelerini arabalara saldırtır"
+
+# Shot down between the two lines
+markers.usti-assault-knights.note: "İki sıra arasında vurulurlar"
+
+# Holds the knights who break in
+markers.usti-assault-lines.note: "İçeri giren şövalyeleri durdurur"
+
+# Guns and handguns from three sides
+markers.usti-assault-crossfire.note: "Üç yandan toplar ve el topları"
+
+# Riders dragged from the saddle
+markers.usti-assault-hooks.note: "Atlılar eyerden çekilir"
+
+# Burned with the fugitives inside
+markers.usti-rout-hrbovice.note: "İçindeki kaçaklarla birlikte yakılır"
+
+# Burned with the fugitives inside
+markers.usti-rout-predlice.note: "İçindeki kaçaklarla birlikte yakılır"
+
+# 24 kneel to surrender and are killed
+markers.usti-rout-lords.note: "24’ü teslim olmak için diz çöker ve öldürülür"
+
+# Wagons opened, horse and foot charge
+markers.usti-rout-sally.note: "Arabalar açılır, atlılar ve yayalar saldırır"
+
+# Chased for a mile and a half
+markers.usti-rout-pursuit.note: "Bir buçuk mil kovalanırlar"
+
+# Frederick of Brandenburg from Cheb to Planá, July 1427
+routes.crusade-1427-cheb.name: "Brandenburglu Friedrich Cheb’den Planá’ya, Temmuz 1427"
+
+# The crusaders fall back from Stříbro to Tachov and flee over the border, 2–4 August 1427
+routes.crusade-1427-flight.name: "Haçlılar Stříbro’dan Tachov’a çekilir ve sınırın ötesine kaçar, 2–4 Ağustos 1427"
+
+# A northern column takes Mašťov and Žlutice, July 1427
+routes.crusade-1427-north.name: "Kuzeyden gelen bir kol Mašťov’u ve Žlutice’yi alır, Temmuz 1427"
+
+# The crusade army from Weiden to Planá and Stříbro, 12–23 July 1427
+routes.crusade-1427-weiden.name: "Haçlı ordusu Weiden’den Planá’ya ve Stříbro’ya, 12–23 Temmuz 1427"
+
+# The Hussite unions from Prague by Karlštejn and Rokycany towards Stříbro, 18 July – 3 August 1427
+routes.hussites-1427.name: "Husçu birlikleri Prag’dan Karlštejn ve Rokycany üzerinden Stříbro’ya doğru, 18 Temmuz – 3 Ağustos 1427"
+
+# Korybut seized, 17 April 1427
+markers.prague-1427.note: "Korybut yakalanır, 17 Nisan 1427"
+
+# Korybut held prisoner
+markers.valdstejn-1427.note: "Korybut burada tutsak tutulur"
+
+# Crusaders gather, from Nuremberg
+markers.weiden-1427.note: "Haçlılar Nürnberg’den gelip toplanır"
+
+# Frederick of Brandenburg gathers his men
+markers.cheb-1427.note: "Brandenburglu Friedrich adamlarını toplar"
+
+# Besieged from 23 July
+markers.stribro-1427.note: "23 Temmuz’dan beri kuşatma altında"
+
+# Stormed 11 August, castle yields 14 August
+markers.tachov-town-1427.note: "11 Ağustos’ta alınır, kalesi 14 Ağustos’ta teslim olur"
+
+# Taborites and Orphans round Zittau to Lubań, Lwówek and Jawor, and home by Trutnov and Náchod, May 1427
+routes.field-armies-1427-lusatia.name: "Táborcular ve Yetimler Zittau’nun çevresinden Lubań’a, Lwówek’e ve Jawor’a, dönüşte Trutnov ve Náchod üzerinden, Mayıs 1427"
+
+# Prokop’s army before Zwettl and home by Altenburg and Horn, March 1427
+routes.prokop-1427-zwettl.name: "Prokop’un ordusu Zwettl önünde, dönüşte Altenburg ve Horn üzerinden, Mart 1427"
+
+# Prokop’s ride by Senica and Pezinok to Pressburg and back by Šintava and Nové Mesto nad Váhom, February 1428
+routes.prokop-1428-hungary.name: "Prokop’un Senica ve Pezinok üzerinden Pressburg’a akını, dönüşte Šintava ve Nové Mesto nad Váhom üzerinden, Şubat 1428"
+
+# Prokop’s ride into Silesia by Ostrava and Nysa to Wrocław, and home by Kłodzko, March – May 1428
+routes.prokop-1428-silesia.name: "Prokop’un Ostrava ve Nysa üzerinden Wrocław’a Silezya akını, dönüşte Kłodzko üzerinden, Mart – Mayıs 1428"
+
+# Abbey plundered after Zwettl
+markers.altenburg-1427.note: "Zwettl’den sonra manastır yağmalanır"
+
+# Taken by Prokop, 16 December 1427
+markers.kolin-1427.note: "Prokop alır, 16 Aralık 1427"
+
+# Suburbs plundered, 18 February 1428
+markers.pressburg-1428.note: "Varoşlar yağmalanır, 18 Şubat 1428"
+
+# Bishop Konrad’s army beaten, 18 March 1428
+markers.nysa-1428.note: "Piskopos Konrad’ın ordusu yenilir, 18 Mart 1428"
+
+# Suburbs burned, 1 May 1428
+markers.wroclaw-1428.note: "Varoşlar yakılır, 1 Mayıs 1428"
+
+# Taborites and Orphans into Lusatia: Oybin, Bautzen, Kamenz, Großenhain, Cottbus and Guben, October – November 1429
+routes.field-armies-1429-lusatia.name: "Táborcular ve Yetimler Lusatya’ya: Oybin, Bautzen, Kamenz, Großenhain, Cottbus ve Guben, Ekim – Kasım 1429"
+
+# Prokop meets Sigismund, 4 April 1429
+markers.pressburg-1429.note: "Prokop Sigismund’la görüşür, 4 Nisan 1429"
+
+# Diet in the Carolinum, 23 May 1429
+markers.prague-1429.note: "Carolinum’da meclis, 23 Mayıs 1429"
+
+# Pays after three days of fire
+markers.bautzen-1429.note: "Üç günlük ateşten sonra fidye öder"
+
+# Town and Neuzelle abbey destroyed
+markers.guben-1429.note: "Kent ve Neuzelle manastırı yıkılır"
+
+# The field armies down the Elbe past Pirna, Dresden and Meissen to Grimma and Leipzig, December 1429 – January 1430
+routes.hussites-1429-saxony.name: "Sahra orduları Elbe boyunca Pirna, Dresden ve Meissen’in önünden Grimma’ya ve Leipzig’e, Aralık 1429 – Ocak 1430"
+
+# Five columns south-west by Altenburg and Plauen to Hof, Kulmbach, Bayreuth and Beheimstein, January – February 1430
+routes.hussites-1430-franconia.name: "Beş kol güneybatıya, Altenburg ve Plauen üzerinden Hof’a, Kulmbach’a, Bayreuth’a ve Beheimstein’a, Ocak – Şubat 1430"
+
+# Home by Cheb to Prague, February 1430
+routes.hussites-1430-home.name: "Cheb üzerinden Prag’a dönüş, Şubat 1430"
+
+# Vanguards meet, Hans of Polenz beaten
+markers.grimma-1430.note: "Öncüler karşılaşır, Polenzli Hans yenilir"
+
+# Taken 12–16 January 1430
+markers.altenburg-1430.note: "12–16 Ocak 1430’da alınır"
+
+# Stormed late in January 1430
+markers.plauen-1430.note: "Ocak 1430 sonunda saldırıyla alınır"
+
+# Opens its gates, early February
+markers.bayreuth-1430.note: "Şubat başında kapılarını açar"
+
+# Treaty with Frederick, about 10 February
+markers.beheimstein-1430.note: "Friedrich’le antlaşma, 10 Şubat dolayı"
+
+# Asked for 50,000 guilders
+markers.bamberg-1430.note: "50.000 altın istenir"
+
+# Pays, and promises a hearing
+markers.nuremberg-1430.note: "Fidye öder ve açık oturum sözü verir"
+
+# Orphans and Taborites by Uherský Brod to the Váh, autumn 1431
+routes.hussites-1431-hungary.name: "Yetimler ve Táborcular Uherský Brod üzerinden Váh’a, 1431 sonbaharı"
+
+# The Hussites withdraw to Moravia the night after the battle, 28 April 1430
+routes.orphans-1430-retreat.name: "Husçular savaştan sonraki gece Moravya’ya çekilir, 28 Nisan 1430"
+
+# Velek Koudelník’s army through Moravia and Holíč to the plain between Trnava and the Váh, April 1430
+routes.orphans-1430-trnava.name: "Velek Koudelník’in ordusu Moravya ve Holíč üzerinden Trnava ile Váh arasındaki ovaya, Nisan 1430"
+
+# The Orphans march home up the Váh and are caught crossing it near Ilava, November 1431
+routes.orphans-1431-ilava.name: "Yetimler Váh boyunca eve dönerken Ilava yakınında ırmağı geçerken yakalanır, Kasım 1431"
+
+# Sigismund directs the battle
+markers.sintava-1430.note: "Sigismund savaşı buradan yönetir"
+
+# Orphans beaten at the Váh, November 1431
+markers.ilava-1431.note: "Yetimler Váh’ta yenilir, Kasım 1431"
+
+# Hussite garrison from 1432
+markers.trnava-1432.note: "1432’den itibaren Husçu garnizonu"
+
+# Hussite garrison from 1432
+markers.skalica-1432.note: "1432’den itibaren Husçu garnizonu"
+
+# Hussite garrison, 1432
+markers.zilina-1432.note: "Husçu garnizonu, 1432"
+
+# Hussite castle
+markers.likava-1431.note: "Husçu kalesi"
+
+# Hussite garrison
+markers.topolcany-1432.note: "Husçu garnizonu"
+
+# Cardinal Cesarini escapes in disguise by Opálka castle to Nýrsko
+routes.cesarini-1431.name: "Kardinal Cesarini kılık değiştirip Opálka kalesi üzerinden Nýrsko’ya kaçar"
+
+# The crusaders flee by Kdyně and the Všeruby pass into Bavaria, 14 August 1431
+routes.crusade-1431-flight.name: "Haçlılar Kdyně ve Všeruby geçidi üzerinden Bavyera’ya kaçar, 14 Ağustos 1431"
+
+# The crusade army from Weiden by Tachov and Kladruby to Domažlice, 1–10 August 1431
+routes.crusade-1431.name: "Haçlı ordusu Weiden’den Tachov ve Kladruby üzerinden Domažlice’ye, 1–10 Ağustos 1431"
+
+# The Hussites from Beroun by Rokycany and Chotěšov to Domažlice, 12–14 August 1431
+routes.hussites-1431-relief.name: "Husçular Beroun’dan Rokycany ve Chotěšov üzerinden Domažlice’ye, 12–14 Ağustos 1431"
+
+# The crusade army gathers
+markers.weiden-1431.note: "Haçlı ordusu toplanır"
+
+# News of the Hussites at Beroun, 8 August
+markers.kladruby-1431.note: "Beroun’daki Husçuların haberi gelir, 8 Ağustos"
+
+# Besieged from about 8 August
+markers.domazlice-town-1431.note: "8 Ağustos dolaylarından beri kuşatma altında"
+
+# Hussite camp, 13 August
+markers.chotesov-1431.note: "Husçu ordugâhı, 13 Ağustos"
+
+# The Hussites through Lusatia to Frankfurt on the Oder, Müncheberg, Strausberg and Bernau, March – April 1432
+routes.hussites-1432-brandenburg.name: "Husçular Lusatya üzerinden Oder kıyısındaki Frankfurt’a, Müncheberg’e, Strausberg’e ve Bernau’ya, Mart – Nisan 1432"
+
+# Home through Lusatia, by 5 May 1432
+routes.hussites-1432-home.name: "Lusatya üzerinden dönüş, 5 Mayıs 1432’ye kadar"
+
+# Attacked twice, holds
+markers.frankfurt-1432.note: "İki kez saldırıya uğrar, dayanır"
+
+# Suburbs burned, 17 April
+markers.muencheberg-1432.note: "Varoşlar yakılır, 17 Nisan"
+
+# Hussites before the town, 22–24 April
+markers.bernau-1432.note: "Husçular kentin önünde, 22–24 Nisan"
+
+# Hussite garrison, relieved June 1430
+markers.niemcza-1430.note: "Husçu garnizonu, Haziran 1430’da yardım alır"
+
+# Taken by Prokop, 19 November 1430
+markers.otmuchow-1430.note: "Prokop alır, 19 Kasım 1430"
+
+# Back south by Starogard to Jasieniec, September 1433
+routes.orphans-1433-back.name: "Starogard üzerinden güneye, Jasieniec’e dönüş, Eylül 1433"
+
+# With the Polish army from Chojnice by Pelplin and Tczew to Gdańsk and the sea at Oliwa, August – September 1433
+routes.orphans-1433-baltic.name: "Polonya ordusuyla Chojnice’den Pelplin ve Tczew üzerinden Gdańsk’a ve Oliwa’da denize, Ağustos – Eylül 1433"
+
+# Jan Čapek’s Orphans through Silesia, over the Oder at Głogów, into the Neumark and to Chojnice, April – July 1433
+routes.orphans-1433-neumark.name: "Jan Čapek’in Yetimleri Silezya üzerinden, Głogów’da Oder’i geçerek Neumark’a ve Chojnice’ye, Nisan – Temmuz 1433"
+
+# Besieged in vain, June 1433
+markers.gorzow-1433.note: "Boşuna kuşatma altına alınır, Haziran 1433"
+
+# Besieged 6 July – 15 August
+markers.chojnice-1433.note: "6 Temmuz – 15 Ağustos kuşatma altında"
+
+# Taken 29 August
+markers.tczew-1433.note: "29 Ağustos’ta alınır"
+
+# Abbey ravaged, the army at the sea
+markers.oliwa-1433.note: "Manastır yağmalanır, ordu denize ulaşır"
+
+# Truce, 13 September 1433
+markers.jasieniec-1433.note: "Ateşkes, 13 Eylül 1433"
+
+# The Hussite embassy travels from Prague to Basel, the last stretch by ship down the Rhine from Schaffhausen, December 1432 – 4 January 1433
+routes.embassy-1432.name: "Husçu elçilik heyeti Prag’dan Basel’e gider, yolun son bölümünü Schaffhausen’den gemiyle Ren’den aşağı iner, Aralık 1432 – 4 Ocak 1433"
+
+# The embassy returns to Prague with envoys of the council, April – 8 May 1433
+routes.legates-1433.name: "Heyet, konsilin elçileriyle birlikte Prag’a döner, Nisan – 8 Mayıs 1433"
+
+# The Cheb Judge, 18 May 1432
+markers.cheb-1432.note: "Cheb Hakemi, 18 Mayıs 1432"
+
+# The council hears the Four Articles, 1433
+markers.basel-1433.note: "Konsil Dört Madde’yi dinler, 1433"
+
+# Legates at the diet, June 1433
+markers.prague-1433.note: "Elçiler mecliste, Haziran 1433"
+
+# Pardus, Řitka and a few survivors make their way back to Plzeň
+routes.foragers-1433-back.name: "Pardus, Řitka ve hayatta kalan birkaç kişi Plzeň’e döner"
+
+# Jan Pardus and Jan Řitka lead about 1,800 foragers into the Upper Palatinate round Furth im Wald and Waldmünchen, 16 to 21 September 1433
+routes.foragers-1433.name: "Jan Pardus ile Jan Řitka yaklaşık 1.800 kişilik erzak birliğini Furth im Wald ve Waldmünchen çevresine, Yukarı Pfalz’a götürür, 16 – 21 Eylül 1433"
+
+# Prokop the Great leaves the siege for Prague, autumn 1433
+routes.prokop-1433.name: "Büyük Prokop kuşatmayı bırakıp Prag’a gider, sonbahar 1433"
+
+# Besieged, July 1433 – May 1434
+markers.plzen-1433.note: "Kuşatma altında, Temmuz 1433 – Mayıs 1434"
+
+# The field armies leave Plzeň for Prague, 9 to 17 May 1434
+routes.field-armies-1434-prague.name: "Sahra orduları Plzeň’den Prag’a gider, 9 – 17 Mayıs 1434"
+
+# The lords’ league marches from Kačina to Prague, early May 1434
+routes.league-1434.name: "Soylular birliği Kačina’dan Prag’a yürür, Mayıs 1434 başı"
+
+# The league gathers, late April 1434
+markers.kacina-1434.note: "Birlik toplanır, Nisan 1434 sonu"
+
+# Stormed by the league, 6 May 1434
+markers.newtown-1434.note: "Birlik saldırıyla alır, 6 Mayıs 1434"
+
+# The field armies withdraw from Prague into the country round Kolín, 22 to 24 May 1434
+routes.field-armies-1434-kolin.name: "Sahra orduları Prag’dan Kolín çevresine çekilir, 22 – 24 Mayıs 1434"
+
+# The field armies march by Kouřim to relieve Český Brod, 28 May 1434
+routes.field-armies-1434-lipany.name: "Sahra orduları Český Brod’u kurtarmak için Kouřim üzerinden yürür, 28 Mayıs 1434"
+
+# The lords’ league marches from Prague to Český Brod and lays siege to it, 27 May 1434
+routes.league-1434-brod.name: "Soylular birliği Prag’dan Český Brod’a yürür ve kasabayı kuşatma altına alır, 27 Mayıs 1434"
+
+# The league leaves Český Brod to meet the field armies, 28 May 1434
+routes.league-1434-lipany.name: "Birlik sahra ordularını karşılamak için Český Brod’dan ayrılır, 28 Mayıs 1434"
+
+# Orphan town, Čapek escapes here
+markers.kolin-1434.note: "Yetimlerin kasabası, Čapek buraya kaçar"
+
+# Commands the lords’ league
+markers.lipany-forts-borek.note: "Soylular birliğinin komutanı"
+
+# Commands the field armies
+markers.lipany-forts-prokop.note: "Sahra ordularının komutanı"
+
+# Memorial mound of 1881
+markers.lipany-forts-hill.note: "1881 tarihli anıt höyük"
+
+# Lipská hora covers the rear
+markers.lipany-forts-slope.note: "Lipská hora arkayı korur"
+
+# Beyond reach of the howitzers
+markers.lipany-forts-range.note: "Houfnicelerin erişemeyeceği yerde"
+
+# Horse kept out of sight
+markers.lipany-forts-reserve.note: "Atlılar gözden uzak tutulur"
+
+# Leads the vanguard
+markers.lipany-feint-krchlebec.note: "Öncüyü yönetir"
+
+# Opens the fort to pursue
+markers.lipany-feint-prokop.note: "Takip için kaleyi açar"
+
+# Plzeň and Rožmberk men wait
+markers.lipany-feint-rear.note: "Plzeň ve Rožmberk adamları bekler"
+
+# The vanguard turns as if beaten
+markers.lipany-feint-retreat.note: "Öncü yenilmiş gibi döner"
+
+# Wagons unchained for the pursuit
+markers.lipany-feint-opened.note: "Takip için zincirler çözülür"
+
+# Killed on the wagons
+markers.lipany-rout-prokops.note: "Arabaların üzerinde öldürülür"
+
+# Cut down on the plain
+markers.lipany-rout-plain.note: "Düzlükte kılıçtan geçirilir"
+
+# Rides off to Kolín
+markers.lipany-rout-capek.note: "Kolín’e gider"
+
+# Struck from front and behind
+markers.lipany-rout-cutoff.note: "Önden ve arkadan vurulurlar"
+
+# Eight wagons overturned
+markers.lipany-rout-breach.note: "Sekiz araba devrilir"
+
+# Sigismund rides from Jihlava by Čáslav, Kutná Hora and Český Brod to Prague, 18 to 23 August 1436
+routes.sigismund-1436.name: "Sigismund Jihlava’dan Čáslav, Kutná Hora ve Český Brod üzerinden Prag’a gider, 18 – 23 Ağustos 1436"
+
+# Sigismund leaves Prague on 9 November 1437 and travels by Benešov and Telč to Znojmo, where he dies
+routes.sigismund-1437.name: "Sigismund 9 Kasım 1437’de Prag’dan ayrılır, Benešov ve Telč üzerinden Znojmo’ya gider ve orada ölür"
+
+# The Compacts proclaimed, 5 July 1436
+markers.jihlava-1436.note: "Uzlaşma ilan edilir, 5 Temmuz 1436"
+
+# Sigismund enters, 23 August 1436
+markers.prague-1436.note: "Sigismund şehre girer, 23 Ağustos 1436"
+
+# Royal town, 25 January 1437
+markers.tabor-1437.note: "Kraliyet kasabası, 25 Ocak 1437"
+
+# Roháč’s castle, taken 6 September 1437
+markers.sion-1437.note: "Roháč’ın kalesi, 6 Eylül 1437’de alınır"
+
+# Sigismund dies, 9 December 1437
+markers.znojmo-1437.note: "Sigismund ölür, 9 Aralık 1437"
+
+# George of Poděbrady marches from Kutná Hora to Prague and takes it by night, 1448
+routes.george-1448.name: "Poděbradyli Jiří Kutná Hora’dan Prag’a yürür ve şehri bir gece baskınıyla alır, 1448"
+
+# Taken by George, 1448
+markers.prague-1448.note: "Jiří tarafından alınır, 1448"
+
+# Seat of George’s family
+markers.podebrady-1458.note: "Jiří’nin ailesinin merkezi"
+
+# Surrenders to George, 1452
+markers.tabor-1452.note: "Jiří’ye teslim olur, 1452"
+
+# The Unity of the Brethren, about 1457
+markers.kunvald-1457.note: "Kardeşler Birliği, 1457 dolayı"
+
+# George surrounds Matthias, 1469
+markers.vilemov-1469.note: "Jiří, Matthias’ın etrafını sarar, 1469"
+
+# Matthias elected king, 3 May 1469
+markers.olomouc-1469.note: "Matthias kral seçilir, 3 Mayıs 1469"
+
+# First burial, by the Old Czech Annals
+markers.hradec-1424.note: "Eski Çek Yıllıkları’na göre ilk mezarı"
+
+# Grave destroyed 1623, skull found 1910
+markers.caslav-1424.note: "Mezar 1623’te yıkılır, kafatası 1910’da bulunur"
+
+# Mound of 1874 where he died
+markers.zizkovo-pole-1874.note: "Öldüğü yerde 1874 tarihli höyük"
+
+# Strachovský’s statue, 1884
+markers.tabor-1884.note: "Strachovský’nin heykeli, 1884"
+
+# Kafka’s equestrian statue, 1950
+markers.vitkov-1950.note: "Kafka’nın atlı heykeli, 1950"
+
+# Birthplace by legend, statue of 1960
+markers.trocnov-1960.note: "Efsaneye göre doğduğu yer, 1960 tarihli heykel"
+
+# 1378–1403
+pages.crown-lands.date: "1378–1403"
+
+# The lands of the Bohemian Crown around 1400
+pages.crown-lands.title: "1400 dolayında Bohemya Tacı’nın toprakları"
+
+# 14th century
+pages.prague.date: "14. yüzyıl"
+
+# Prague and Kutná Hora
+pages.prague.title: "Prag ve Kutná Hora"
+
+# c. 1360–1409
+pages.trocnov.date: "y. 1360–1409"
+
+# Jan Žižka of Trocnov, c. 1360–1409
+pages.trocnov.title: "Trocnovlu Jan Žižka, y. 1360–1409"
+
+# 1410–1419
+pages.grunwald.date: "1410–1419"
+
+# Grunwald and the king’s court, 1410–1419
+pages.grunwald.title: "Grunwald ve kralın sarayı, 1410–1419"
+
+# 1402–1409
+pages.bethlehem.date: "1402–1409"
+
+# Hus and the Bethlehem Chapel, 1402–1409
+pages.bethlehem.title: "Hus ve Beytüllahim Şapeli, 1402–1409"
+
+# 1410–1414
+pages.indulgences.date: "1410–1414"
+
+# Indulgences and exile, 1410–1414
+pages.indulgences.title: "Endüljanslar ve sürgün, 1410–1414"
+
+# October 1414 – May 1416
+pages.constance.date: "Ekim 1414 – Mayıs 1416"
+
+# Constance, 1414–1416
+pages.constance.title: "Konstanz, 1414–1416"
+
+# 1414 – 22 July 1419
+pages.chalice.date: "1414 – 22 Temmuz 1419"
+
+# The chalice and the league, 1415–1419
+pages.chalice.title: "Kadeh ve birlik, 1415–1419"
+
+# 30 July – 16 August 1419
+pages.defenestration.date: "30 Temmuz – 16 Ağustos 1419"
+
+# The defenestration of Prague, 30 July 1419
+pages.defenestration.title: "Prag defenestrasyonu, 30 Temmuz 1419"
+
+# August – November 1419
+pages.prague-1419.date: "Ağustos – Kasım 1419"
+
+# Prague in arms, autumn 1419
+pages.prague-1419.title: "Silahlanan Prag, 1419 sonbaharı"
+
+# November 1419 – March 1420
+pages.plzen.date: "Kasım 1419 – Mart 1420"
+
+# Plzeň and Nekmíř, 1419–1420
+pages.plzen.title: "Plzeň ve Nekmíř, 1419–1420"
+
+# February – April 1420
+pages.tabor.date: "Şubat – Nisan 1420"
+
+# The founding of Tábor, 1420
+pages.tabor.title: "Tábor’un kuruluşu, 1420"
+
+# 23 – 25 March 1420
+pages.sudomer.date: "23 – 25 Mart 1420"
+
+# The march from Plzeň
+pages.sudomer.title: "Plzeň’den yürüyüş"
+
+# Markovec pond, full of water, drawn after its shore today
+emblems.sudomer-dike.markovec: "Su dolu Markovec göleti, bugünkü kıyısına göre çizildi"
+
+# Škaredý pond, drained at the time of the battle: a bed of soft mud. Drawn after the battle board at the memorial, round the low ground east of it
+emblems.sudomer-dike.skaredy: "Muharebe sırasında suyu boşaltılmış Škaredý göleti: yumuşak bir çamur yatağı. Anıttaki muharebe panosuna göre, anıtın doğusundaki alçak arazinin çevresine çizildi"
+
+# Marsh behind the Hussites, today the Prostřední pond
+emblems.sudomer-dike.prostredni: "Husçuların arkasındaki bataklık, bugün Prostřední göleti"
+
+# The dike between Markovec and Škaredý, a few metres wide
+emblems.sudomer-dike.dike: "Markovec ile Škaredý arasındaki, birkaç metre genişliğindeki set"
+
+# Four war wagons chained wheel to wheel across the end of the dike. Horses cannot pass them, and handguns and crossbows fire through the gaps
+emblems.sudomer-dike.wagons-end: "Setin ucunda enlemesine, tekerlek tekerleğe zincirlenmiş dört savaş arabası. Atlar onları geçemez, el topları ve arbaletler aradaki boşluklardan ateş eder"
+
+# Eight war wagons chained along the dike, facing the drained pond on the open side. The Hussites have 12 wagons by the Old Czech Annals
+emblems.sudomer-dike.wagons-side: "Set boyunca zincirlenmiş, açık yanda boşaltılmış gölete bakan sekiz savaş arabası. Eski Çek Yıllıkları’na göre Husçuların 12 arabası vardır"
+
+# Handgunners and crossbowmen behind the wagons
+emblems.sudomer-dike.handguns: "Arabaların arkasında el topçuları ve arbaletçiler"
+
+# The Hussites from Plzeň under Břeněk Švihovský of Dolany and Jan Žižka: about 400 on foot with women and children, flails, spears and halberds, and 9 horsemen, by the Old Czech Annals
+emblems.sudomer-dike.hussites: "Dolany’li Břeněk Švihovský ve Jan Žižka komutasında Plzeňli Husçular: Eski Çek Yıllıkları’na göre kadınlar ve çocuklarla birlikte yaklaşık 400 yaya, savaş dövenleri, mızraklar ve teberler, bir de 9 atlı"
+
+# Hospitallers of the commandery of Strakonice under Jindřich of Hradec, about 300 horse
+emblems.sudomer-dike.hospitallers: "Hradec’li Jindřich komutasında Strakonice komturluğunun Hospitalierleri, 300 kadar atlı"
+
+# The Iron Lords under Petr Konopišťský of Šternberk and Mikeš Divůček of Jemniště, mintmaster of Kutná Hora, about 400 horse
+emblems.sudomer-dike.iron-lords: "Šternberk’li Petr Konopišťský ile Kutná Hora darphane ustası Jemniště’li Mikeš Divůček komutasında Demir Beyler, 400 kadar atlı"
+
+# The Landfrieden of Plzeň under Bohuslav of Švamberk. The royalists have more than 2,000 horse by the chronicle of the old Prague collegiate, about 700 by Čornej and Bělina
+emblems.sudomer-dike.landfrieden: "Švamberk’li Bohuslav komutasında Plzeň Barış Birliği. Kral yanlılarının, eski Prag kolej üyesinin kroniğine göre 2.000’i aşkın, Čornej ile Bělina’ya göre 700 kadar atlısı vardır"
+
+# The Hospitallers follow the same way round the pond
+emblems.sudomer-dike.hospitallers-ride: "Hospitalierler göletin çevresinden aynı yolu izler"
+
+# The Iron Lords come up from Písek
+emblems.sudomer-dike.iron-lords-ride: "Demir Beyler Písek’ten gelir"
+
+# 25 March 1420, afternoon
+pages.sudomer-dike.date: "25 Mart 1420, öğleden sonra"
+
+# The dike between the ponds
+pages.sudomer-dike.title: "Göletler arasındaki set"
+
+# Markovec pond, full of water, drawn after its shore today
+emblems.sudomer-dismount.markovec: "Su dolu Markovec göleti, bugünkü kıyısına göre çizildi"
+
+# Škaredý pond, drained at the time of the battle: a bed of soft mud. Drawn after the battle board at the memorial, round the low ground east of it
+emblems.sudomer-dismount.skaredy: "Muharebe sırasında suyu boşaltılmış Škaredý göleti: yumuşak bir çamur yatağı. Anıttaki muharebe panosuna göre, anıtın doğusundaki alçak arazinin çevresine çizildi"
+
+# Marsh behind the Hussites, today the Prostřední pond
+emblems.sudomer-dismount.prostredni: "Husçuların arkasındaki bataklık, bugün Prostřední göleti"
+
+# The dike between Markovec and Škaredý, a few metres wide
+emblems.sudomer-dismount.dike: "Markovec ile Škaredý arasındaki, birkaç metre genişliğindeki set"
+
+# Four war wagons chained wheel to wheel across the end of the dike. Horses cannot pass them, and handguns and crossbows fire through the gaps
+emblems.sudomer-dismount.wagons-end: "Setin ucunda enlemesine, tekerlek tekerleğe zincirlenmiş dört savaş arabası. Atlar onları geçemez, el topları ve arbaletler aradaki boşluklardan ateş eder"
+
+# Eight war wagons chained along the dike, facing the drained pond on the open side. The Hussites have 12 wagons by the Old Czech Annals
+emblems.sudomer-dismount.wagons-side: "Set boyunca zincirlenmiş, açık yanda boşaltılmış gölete bakan sekiz savaş arabası. Eski Çek Yıllıkları’na göre Husçuların 12 arabası vardır"
+
+# Handgunners and crossbowmen behind the wagons
+emblems.sudomer-dismount.handguns: "Arabaların arkasında el topçuları ve arbaletçiler"
+
+# The Hussites from Plzeň under Břeněk Švihovský of Dolany and Jan Žižka: about 400 on foot with women and children, flails, spears and halberds, and 9 horsemen, by the Old Czech Annals
+emblems.sudomer-dismount.hussites: "Dolany’li Břeněk Švihovský ve Jan Žižka komutasında Plzeňli Husçular: Eski Çek Yıllıkları’na göre kadınlar ve çocuklarla birlikte yaklaşık 400 yaya, savaş dövenleri, mızraklar ve teberler, bir de 9 atlı"
+
+# The Hospitallers charge along the dike, a few horses wide, and are shot down before the wagons
+emblems.sudomer-dismount.hospitallers: "Hospitalierler birkaç at genişliğinde set boyunca hücum eder ve arabaların önünde vurulup düşer"
+
+# The Iron Lords on foot in full armour, wading through the mud to the wagons
+emblems.sudomer-dismount.iron-lords-foot: "Tam zırhla yaya, çamurun içinden arabalara doğru ilerleyen Demir Beyler"
+
+# Their horses, sunk in the mud of the drained pond
+emblems.sudomer-dismount.iron-lords-horses: "Atları, boşaltılmış göletin çamuruna batmış"
+
+# The Landfrieden of Plzeň under Bohuslav of Švamberk. The royalists have more than 2,000 horse by the chronicle of the old Prague collegiate, about 700 by Čornej and Bělina
+emblems.sudomer-dismount.landfrieden: "Švamberk’li Bohuslav komutasında Plzeň Barış Birliği. Kral yanlılarının, eski Prag kolej üyesinin kroniğine göre 2.000’i aşkın, Čornej ile Bělina’ya göre 700 kadar atlısı vardır"
+
+# The Hospitallers ride at the end of the dike
+emblems.sudomer-dismount.hospitallers-charge: "Hospitalierler setin ucuna hücum eder"
+
+# Handguns and crossbows fire into the horsemen on the dike
+emblems.sudomer-dismount.handgun-fire: "El topları ve arbaletler setteki atlılara ateş eder"
+
+# The Iron Lords ride into the drained pond, and the horses sink in the mud
+emblems.sudomer-dismount.iron-lords-ride: "Demir Beyler boşaltılmış gölete girer, atlar çamura batar"
+
+# Flailmen come out between the wagons and strike the knights on foot
+emblems.sudomer-dismount.flails: "Savaş dövenli adamlar arabaların arasından çıkar ve yaya kalan şövalyelere vurur"
+
+# 25 March 1420, afternoon
+pages.sudomer-dismount.date: "25 Mart 1420, öğleden sonra"
+
+# The knights on foot
+pages.sudomer-dismount.title: "Yaya kalan şövalyeler"
+
+# Markovec pond, full of water, drawn after its shore today
+emblems.sudomer-dusk.markovec: "Su dolu Markovec göleti, bugünkü kıyısına göre çizildi"
+
+# Škaredý pond, drained at the time of the battle: a bed of soft mud. Drawn after the battle board at the memorial, round the low ground east of it
+emblems.sudomer-dusk.skaredy: "Muharebe sırasında suyu boşaltılmış Škaredý göleti: yumuşak bir çamur yatağı. Anıttaki muharebe panosuna göre, anıtın doğusundaki alçak arazinin çevresine çizildi"
+
+# Marsh behind the Hussites, today the Prostřední pond
+emblems.sudomer-dusk.prostredni: "Husçuların arkasındaki bataklık, bugün Prostřední göleti"
+
+# The dike between Markovec and Škaredý, a few metres wide
+emblems.sudomer-dusk.dike: "Markovec ile Škaredý arasındaki, birkaç metre genişliğindeki set"
+
+# Four war wagons chained wheel to wheel across the end of the dike. Horses cannot pass them, and handguns and crossbows fire through the gaps
+emblems.sudomer-dusk.wagons-end: "Setin ucunda enlemesine, tekerlek tekerleğe zincirlenmiş dört savaş arabası. Atlar onları geçemez, el topları ve arbaletler aradaki boşluklardan ateş eder"
+
+# Eight war wagons chained along the dike, facing the drained pond on the open side. The Hussites have 12 wagons by the Old Czech Annals
+emblems.sudomer-dusk.wagons-side: "Set boyunca zincirlenmiş, açık yanda boşaltılmış gölete bakan sekiz savaş arabası. Eski Çek Yıllıkları’na göre Husçuların 12 arabası vardır"
+
+# Handgunners and crossbowmen behind the wagons
+emblems.sudomer-dusk.handguns: "Arabaların arkasında el topçuları ve arbaletçiler"
+
+# The Hussites from Plzeň under Břeněk Švihovský of Dolany and Jan Žižka: about 400 on foot with women and children, flails, spears and halberds, and 9 horsemen, by the Old Czech Annals
+emblems.sudomer-dusk.hussites: "Dolany’li Břeněk Švihovský ve Jan Žižka komutasında Plzeňli Husçular: Eski Çek Yıllıkları’na göre kadınlar ve çocuklarla birlikte yaklaşık 400 yaya, savaş dövenleri, mızraklar ve teberler, bir de 9 atlı"
+
+# The Hospitallers fall back, carrying Jindřich of Hradec wounded
+emblems.sudomer-dusk.hospitallers: "Hospitalierler yaralı Hradec’li Jindřich’i taşıyarak geri çekilir"
+
+# The Iron Lords, back on their horses, draw off with 30 prisoners
+emblems.sudomer-dusk.iron-lords: "Atlarına dönen Demir Beyler 30 esirle çekilir"
+
+# The Landfrieden of Plzeň draws off at sunset
+emblems.sudomer-dusk.landfrieden: "Plzeň Barış Birliği gün batımında çekilir"
+
+# The Hospitallers draw off in the dark and fog
+emblems.sudomer-dusk.hospitallers-retreat: "Hospitalierler karanlıkta ve siste çekilir"
+
+# The Iron Lords get back to their horses and draw off
+emblems.sudomer-dusk.iron-lords-retreat: "Demir Beyler atlarına döner ve çekilir"
+
+# 26 March: the Hussites bury their dead and march east to Újezd castle, then to Tábor
+emblems.sudomer-dusk.march-on: "26 Mart: Husçular ölülerini gömer ve doğuya, Újezd kalesine, oradan Tábor’a yürür"
+
+# 25 – 26 March 1420
+pages.sudomer-dusk.date: "25 – 26 Mart 1420"
+
+# Sunset at Sudoměř
+pages.sudomer-dusk.title: "Sudoměř’de gün batımı"
+
+# Plan: the ditch that the camp followers dig in front of the wagons
+emblems.wagon-fort.ditch: "Plan: ordunun ardından gelenlerin arabaların önüne kazdığı hendek"
+
+# Plan of a wagon fort, drawn far larger than life: war wagons chained wheel to wheel in a ring, their boards outwards. The field armies close forts of up to some 180 wagons, about 1.1 km round
+emblems.wagon-fort.fort: "Bir araba kalesinin gerçek boyutundan çok büyük çizilmiş planı: savaş arabaları tekerlek tekerleğe zincirlenmiş bir halkada, tahtaları dışa dönük. Sahra orduları 180 kadar arabadan, çevresi 1,1 km kadar olan kaleler kurar"
+
+# Plan: handgunners and crossbowmen at the wagons, shooting through the gaps and aiming first at the horses
+emblems.wagon-fort.handguns: "Plan: arabaların başında, boşluklardan ateş eden ve önce atları hedef alan el topçuları ve arbaletçiler"
+
+# Plan: light guns, the houfnice, placed where the attack is expected
+emblems.wagon-fort.guns: "Plan: saldırının beklendiği yere yerleştirilen hafif toplar, houfniceler"
+
+# Plan: pavise bearers hold a gap that opens for the sally
+emblems.wagon-fort.pavises: "Plan: çıkış için açılan bir boşluğu tutan pavez kalkanı taşıyıcıları"
+
+# Plan: men with flails, halberds and spears, ready to go out through the gap
+emblems.wagon-fort.flails: "Plan: boşluktan çıkmaya hazır savaş dövenli, teberli ve mızraklı adamlar"
+
+# Plan: the few Hussite horsemen wait inside the ring for the pursuit
+emblems.wagon-fort.horse: "Plan: takip için halkanın içinde bekleyen sayıca az Husçu atlı"
+
+# Plan: knights charge the ring and are stopped at the wagons and the ditch
+emblems.wagon-fort.knights: "Plan: halkaya hücum eden ve arabalarla hendekte durdurulan şövalyeler"
+
+# Plan: the charge breaks on the chained wagons
+emblems.wagon-fort.charge: "Plan: hücum zincirlenmiş arabalara çarpıp dağılır"
+
+# Plan: handguns, crossbows and guns fire into the horses at close range
+emblems.wagon-fort.fire: "Plan: el topları, arbaletler ve toplar yakından atlara ateş eder"
+
+# Plan: when the attack is spent, the foot and the horsemen go out through the gaps against the enemy’s flank
+emblems.wagon-fort.sally: "Plan: saldırı gücünü yitirince yayalar ve atlılar boşluklardan çıkıp düşmanın yanına saldırır"
+
+# 1419 – 1434
+pages.wagon-fort.date: "1419 – 1434"
+
+# The wagon fort
+pages.wagon-fort.title: "Araba kalesi"
+
+# 1 March – 10 July 1420
+pages.crusade-1420.date: "1 Mart – 10 Temmuz 1420"
+
+# Sigismund’s crusade, 1420
+pages.crusade-1420.title: "Sigismund’un haçlı seferi, 1420"
+
+# 20 May – 13 July 1420
+pages.vitkov.date: "20 Mayıs – 13 Temmuz 1420"
+
+# Prague under siege
+pages.vitkov.title: "Kuşatma altındaki Prag"
+
+# The Vltava. The crusader camps lie on the far bank
+emblems.vitkov-works.vltava: "Vltava. Haçlı ordugâhları karşı kıyıdadır"
+
+# The wall of the New Town of Prague, with the Poříčí Gate at its north end and the Mountain Gate at its south end
+emblems.vitkov-works.town-wall: "Kuzey ucunda Poříčí Kapısı, güney ucunda Dağ Kapısı bulunan Prag Yeni Şehir suru"
+
+# A wall of earth and stones across the ridge
+emblems.vitkov-works.wall: "Sırtı enlemesine kesen topraktan ve taştan bir duvar"
+
+# Three shallow ditches across the neck of the ridge, where only a few horsemen fit side by side
+emblems.vitkov-works.ditches: "Sırtın, ancak birkaç atlının yan yana sığdığı boynunu kesen üç sığ hendek"
+
+# Two timber blockhouses that Žižka has built on the western end of the ridge, next to the gallows
+emblems.vitkov-works.blockhouses: "Žižka’nın sırtın batı ucunda, darağacının yanında yaptırdığı iki ahşap blokhaus"
+
+# Žižka’s men in the works: 26 men, two women and a girl by Laurence of Březová, with stones, spears and flails
+emblems.vitkov-works.defenders: "Tahkimattaki Žižka’nın adamları: Březová’lı Vavřinec’e göre 26 erkek, iki kadın ve bir kız, taşlar, mızraklar ve savaş dövenleriyle"
+
+# A watchtower in the vineyards on the south slope
+emblems.vitkov-works.tower: "Güney yamaçtaki bağlarda bir gözetleme kulesi"
+
+# The men of Meissen and the Austrians under Heinrich of Isenburg: 7,000 to 8,000 horse by Laurence of Březová
+emblems.vitkov-works.meissen: "Isenburg’lu Heinrich komutasında Meissenliler ve Avusturyalılar: Březová’lı Vavřinec’e göre 7.000 ile 8.000 atlı"
+
+# Crusader horse on the Spital field, many thousands, ready to attack the city
+emblems.vitkov-works.spital-field: "Hastane Tarlası’nda şehre saldırmaya hazır binlerce haçlı atlısı"
+
+# The crusader horse cross the Vltava to the Spital field
+emblems.vitkov-works.crossing: "Haçlı atlıları Vltava’yı geçip Hastane Tarlası’na iner"
+
+# The men of Meissen ride up onto the hill from the east and along the ridge towards the works
+emblems.vitkov-works.meissen-ride: "Meissenliler tepeye doğudan çıkar ve sırt boyunca tahkimatlara ilerler"
+
+# 14 July 1420, afternoon
+pages.vitkov-works.date: "14 Temmuz 1420, öğleden sonra"
+
+# The works on the ridge
+pages.vitkov-works.title: "Sırttaki tahkimatlar"
+
+# The Vltava. The crusader camps lie on the far bank
+emblems.vitkov-assault.vltava: "Vltava. Haçlı ordugâhları karşı kıyıdadır"
+
+# The wall of the New Town of Prague, with the Poříčí Gate at its north end and the Mountain Gate at its south end
+emblems.vitkov-assault.town-wall: "Kuzey ucunda Poříčí Kapısı, güney ucunda Dağ Kapısı bulunan Prag Yeni Şehir suru"
+
+# A wall of earth and stones across the ridge
+emblems.vitkov-assault.wall: "Sırtı enlemesine kesen topraktan ve taştan bir duvar"
+
+# Three shallow ditches across the neck of the ridge, where only a few horsemen fit side by side
+emblems.vitkov-assault.ditches: "Sırtın, ancak birkaç atlının yan yana sığdığı boynunu kesen üç sığ hendek"
+
+# Two timber blockhouses that Žižka has built on the western end of the ridge, next to the gallows
+emblems.vitkov-assault.blockhouses: "Žižka’nın sırtın batı ucunda, darağacının yanında yaptırdığı iki ahşap blokhaus"
+
+# Žižka’s men in the works: 26 men, two women and a girl by Laurence of Březová, with stones, spears and flails
+emblems.vitkov-assault.defenders: "Tahkimattaki Žižka’nın adamları: Březová’lı Vavřinec’e göre 26 erkek, iki kadın ve bir kız, taşlar, mızraklar ve savaş dövenleriyle"
+
+# The vineyard tower, taken by the crusaders
+emblems.vitkov-assault.tower: "Haçlıların ele geçirdiği bağ kulesi"
+
+# Men of Meissen on foot: with trumpets they take the ditches and the vineyard tower and climb at the wall, a few men wide
+emblems.vitkov-assault.meissen-foot: "Yaya Meissenliler: borular çalarak hendekleri ve bağ kulesini alır, birkaç kişilik bir cepheyle duvara tırmanırlar"
+
+# Their horses, held behind on the ridge
+emblems.vitkov-assault.meissen-horses: "Atları, sırtta geride tutuluyor"
+
+# The rest of the Meissen horse, waiting on the ridge. The men of Meissen and the Austrians under Heinrich of Isenburg: 7,000 to 8,000 horse by Laurence of Březová
+emblems.vitkov-assault.meissen: "Meissen atlılarının geri kalanı sırtta bekler. Isenburg’lu Heinrich komutasında Meissenliler ve Avusturyalılar: Březová’lı Vavřinec’e göre 7.000 ile 8.000 atlı"
+
+# Crusader horse on the Spital field, many thousands
+emblems.vitkov-assault.spital-field: "Hastane Tarlası’nda binlerce haçlı atlısı"
+
+# Stones and spears: the defenders have no arrows and no powder for their guns
+emblems.vitkov-assault.stones: "Taşlar ve mızraklar: savunanların oku ve toplarına barutu kalmamıştır"
+
+# 14 July 1420, an hour before sunset
+pages.vitkov-assault.date: "14 Temmuz 1420, gün batımından bir saat önce"
+
+# The assault on the works
+pages.vitkov-assault.title: "Tahkimatlara saldırı"
+
+# The Vltava. The crusader camps lie on the far bank
+emblems.vitkov-flank.vltava: "Vltava. Haçlı ordugâhları karşı kıyıdadır"
+
+# The wall of the New Town of Prague, with the Poříčí Gate at its north end and the Mountain Gate at its south end
+emblems.vitkov-flank.town-wall: "Kuzey ucunda Poříčí Kapısı, güney ucunda Dağ Kapısı bulunan Prag Yeni Şehir suru"
+
+# A wall of earth and stones across the ridge
+emblems.vitkov-flank.wall: "Sırtı enlemesine kesen topraktan ve taştan bir duvar"
+
+# Three shallow ditches across the neck of the ridge, where only a few horsemen fit side by side
+emblems.vitkov-flank.ditches: "Sırtın, ancak birkaç atlının yan yana sığdığı boynunu kesen üç sığ hendek"
+
+# Two timber blockhouses that Žižka has built on the western end of the ridge, next to the gallows
+emblems.vitkov-flank.blockhouses: "Žižka’nın sırtın batı ucunda, darağacının yanında yaptırdığı iki ahşap blokhaus"
+
+# Žižka’s men in the works: 26 men, two women and a girl by Laurence of Březová, with stones, spears and flails
+emblems.vitkov-flank.defenders: "Tahkimattaki Žižka’nın adamları: Březová’lı Vavřinec’e göre 26 erkek, iki kadın ve bir kız, taşlar, mızraklar ve savaş dövenleriyle"
+
+# The vineyard tower
+emblems.vitkov-flank.tower: "Bağ kulesi"
+
+# Peasants without armour, with flails, led out of the city by a priest carrying the sacrament. Several hundred by the Old Czech Annals
+emblems.vitkov-flank.peasants: "Kutsal ekmeği taşıyan bir rahibin şehirden çıkardığı, zırhsız, savaş dövenli köylüler. Eski Çek Yıllıkları’na göre birkaç yüz kişi"
+
+# About 50 shooters from the city, by Laurence of Březová
+emblems.vitkov-flank.shooters: "Březová’lı Vavřinec’e göre şehirden gelen 50 kadar nişancı"
+
+# Men of Meissen who got down the slope alive
+emblems.vitkov-flank.meissen-fled: "Yamaçtan sağ inebilen Meissenliler"
+
+# The crusader horse, fleeing back across the river
+emblems.vitkov-flank.spital-field: "Irmağı geçerek geri kaçan haçlı atlıları"
+
+# The priest, the shooters and the peasants come out by the Mountain Gate and climb the vineyards into the crusaders’ flank
+emblems.vitkov-flank.sally: "Rahip, nişancılar ve köylüler Dağ Kapısı’ndan çıkar ve bağlardan tırmanarak haçlıları yandan vurur"
+
+# Pressed against the northern edge, many fall down the rocks
+emblems.vitkov-flank.over-edge: "Kuzey kenarına sıkışanların çoğu kayalardan düşer"
+
+# The rest of the crusaders flee down the hill to the Spital field
+emblems.vitkov-flank.flight: "Haçlıların geri kalanı tepeden Hastane Tarlası’na kaçar"
+
+# The horse on the Spital field flee back across the Vltava, and many drown at the ford
+emblems.vitkov-flank.river-flight: "Hastane Tarlası’ndaki atlılar Vltava’yı geçip geri kaçar, birçoğu geçitte boğulur"
+
+# Žižka’s men come out of the works and pursue
+emblems.vitkov-flank.pursuit: "Žižka’nın adamları tahkimattan çıkıp kovalar"
+
+# 14 July 1420, evening
+pages.vitkov-flank.date: "14 Temmuz 1420, akşam"
+
+# The sally from the city
+pages.vitkov-flank.title: "Şehirden çıkış"
+
+# 19 July – 22 August 1420
+pages.coronation.date: "19 Temmuz – 22 Ağustos 1420"
+
+# Coronation and the Four Articles, July 1420
+pages.coronation.title: "Taç giyme ve Dört Madde, Temmuz 1420"
+
+# 15 September – 1 November 1420
+pages.vysehrad.date: "15 Eylül – 1 Kasım 1420"
+
+# Vyšehrad, 1 November 1420
+pages.vysehrad.title: "Vyšehrad, 1 Kasım 1420"
+
+# August – December 1420
+pages.south-bohemia.date: "Ağustos – Aralık 1420"
+
+# South Bohemia, 1420
+pages.south-bohemia.title: "Güney Bohemya, 1420"
+
+# January – April 1421
+pages.west-bohemia.date: "Ocak – Nisan 1421"
+
+# The western towns, 1421
+pages.west-bohemia.title: "Batıdaki kentler, 1421"
+
+# Spring – October 1421
+pages.rabi.date: "İlkbahar – Ekim 1421"
+
+# Rabí and the Adamites, 1421
+pages.rabi.title: "Rabí ve Ademciler, 1421"
+
+# June 1421
+pages.caslav.date: "Haziran 1421"
+
+# The diet of Čáslav, 1421
+pages.caslav.title: "Čáslav meclisi, 1421"
+
+# August – November 1421
+pages.zatec.date: "Ağustos – Kasım 1421"
+
+# The second crusade and Žatec, 1421
+pages.zatec.title: "İkinci haçlı seferi ve Žatec, 1421"
+
+# October – 21 December 1421
+pages.kutna-hora.date: "Ekim – 21 Aralık 1421"
+
+# Sigismund’s winter campaign
+pages.kutna-hora.title: "Sigismund’un kış seferi"
+
+# The Vrchlice brook in its valley below the town
+emblems.kutna-hora-ring.vrchlice: "Kentin altındaki vadisinde Vrchlice deresi"
+
+# Kutná Hora, the silver town, drawn after the outline of the medieval town
+emblems.kutna-hora-ring.walls: "Gümüş kenti Kutná Hora, ortaçağ kentinin sınırlarına göre çizilmiştir"
+
+# Wagon fort of the Hussites of Tábor, Prague and the towns, a third of the royal army by Thomas Ebendorfer. The wagons stand chained wheel to wheel, guns and handguns fire through the gaps, flails and halberds hold them. The number of wagons is not recorded, 36 are drawn.
+emblems.kutna-hora-ring.fort: "Tábor, Prag ve kentlerin Husçuları, Thomas Ebendorfer’e göre kraliyet ordusunun üçte biri kadar araba kalesi. Arabalar tekerlek tekerleğe zincirlenmiştir, toplar ve el topları aralıklardan ateş eder, savaş dövenleri ve teberler aralıkları tutar. Araba sayısı kaydedilmemiştir, 36 araba çizilmiştir."
+
+# Guns and handguns on the western side of the fort, facing the royal army
+emblems.kutna-hora-ring.guns: "Kalenin batı yanında, kraliyet ordusuna dönük toplar ve el topları"
+
+# Hussite foot with flails, halberds and pikes, the men of Kutná Hora who marched out with them among them
+emblems.kutna-hora-ring.foot: "Savaş dövenleri, teberler ve kargılarla Husçu yayalar, aralarında onlarla birlikte çıkan Kutná Hora’nın adamları"
+
+# The largest royal body, Hungarian horse and foot with many hundreds of oxen and cows driven among them as cover against the guns, by Laurence of Březová. Sigismund’s army: about 50,000 by the Old Czech Annals, 80,000 Hungarians and 12,000 Austrians by Eberhard Windecke
+emblems.kutna-hora-ring.main-body: "En büyük kraliyet bölüğü: Vavřinec z Březové’ye göre toplara karşı korunmak için aralarına yüzlerce öküz ve inek sürülmüş Macar atlılar ve yayalar. Sigismund’un ordusu: Eski Çek Yıllıkları’na göre yaklaşık 50.000, Eberhard Windecke’ye göre 80.000 Macar ve 12.000 Avusturyalı"
+
+# Hungarian horse under Pippo Spano
+emblems.kutna-hora-ring.hungarians: "Pippo Spano komutasında Macar atlılar"
+
+# Austrian men at arms sent by Duke Albert V
+emblems.kutna-hora-ring.austrians: "Dük V. Albrecht’in gönderdiği Avusturyalı zırhlı atlılar"
+
+# Moravian lords and the Catholic lords of Bohemia
+emblems.kutna-hora-ring.lords: "Moravyalı senyörler ve Bohemya’nın Katolik senyörleri"
+
+# Royal troops in Kutná Hora, many hundreds let in through the Kolín gate by exiles from the town, by Laurence of Březová
+emblems.kutna-hora-ring.in-town: "Kutná Hora’daki kraliyet askerleri, Vavřinec z Březové’ye göre kentten sürülmüş kişilerin Kolín kapısından içeri aldığı yüzlerce adam"
+
+# After a short breakfast the Hussites march out of the Kouřim gate and close their wagons about 400 m from the walls
+emblems.kutna-hora-ring.march-out: "Kısa bir kahvaltının ardından Husçular Kouřim kapısından çıkar ve arabalarını surların yaklaşık 400 m ötesinde kale biçiminde kapatır"
+
+# The royal bodies charge the wagons and are driven back by the guns, until night
+emblems.kutna-hora-ring.attacks: "Kraliyet bölükleri gece çökene kadar arabalara hücum eder ve toplarla geri püskürtülür"
+
+# Guns and handguns fire from the wagons and keep the horse at a distance
+emblems.kutna-hora-ring.gunfire: "Toplar ve el topları arabalardan ateş eder ve atlıları uzakta tutar"
+
+# Exiles from Kutná Hora open the Kolín gate to royal troops, who kill the Hussites in the town
+emblems.kutna-hora-ring.kolin-gate: "Kutná Hora’dan sürülmüş kişiler Kolín kapısını kraliyet askerlerine açar, bunlar kentteki Husçuları öldürür"
+
+# 21 December 1421
+pages.kutna-hora-ring.date: "21 Aralık 1421"
+
+# The wagon fort before the town
+pages.kutna-hora-ring.title: "Kent önündeki araba kalesi"
+
+# The Vrchlice brook in its valley below the town
+emblems.kutna-hora-breakout.vrchlice: "Kentin altındaki vadisinde Vrchlice deresi"
+
+# Kutná Hora, the silver town, drawn after the outline of the medieval town
+emblems.kutna-hora-breakout.walls: "Gümüş kenti Kutná Hora, ortaçağ kentinin sınırlarına göre çizilmiştir"
+
+# The royal camp, pitched barely a bowshot from the wagon fort to draw food from the town
+emblems.kutna-hora-breakout.camp: "Kentten erzak almak için araba kalesinin ancak bir ok atımı ötesine kurulan kraliyet ordugâhı"
+
+# The wagons of the Hussites of Tábor, Prague and the towns, a third of the royal army by Thomas Ebendorfer, in a column. They drive through the royal camp in the dark, and the guns on the wagons fire as they roll. Fewer wagons are drawn than there were.
+emblems.kutna-hora-breakout.column: "Tábor, Prag ve kentlerin Husçuları, Thomas Ebendorfer’e göre kraliyet ordusunun üçte biri kadar arabaları, bir kol halinde. Karanlıkta kraliyet ordugâhının içinden geçerler, arabaların üzerindeki toplar ilerlerken ateş eder. Gerçekte olduğundan az araba çizilmiştir."
+
+# Royal horse scattered by the gunfire in the dark
+emblems.kutna-hora-breakout.scattered: "Karanlıktaki top ateşiyle dağılan kraliyet atlıları"
+
+# Royal troops hold Kutná Hora
+emblems.kutna-hora-breakout.in-town: "Kraliyet askerleri Kutná Hora’yı tutar"
+
+# In the night the Hussites leave their position before the town
+emblems.kutna-hora-breakout.set-out: "Gece Husçular kent önündeki mevzilerini bırakır"
+
+# At daybreak, less than a quarter of a mile on, the wagons close into a fort again below Kaňk
+emblems.kutna-hora-breakout.to-kank: "Gün ağarırken, çeyrek milden kısa bir mesafe ötede, arabalar Kaňk’ın eteğinde yeniden kale biçiminde kapanır"
+
+# The guns on the wagons fire into the camp as the column rolls
+emblems.kutna-hora-breakout.gunfire: "Kol ilerlerken arabaların üzerindeki toplar ordugâha ateş eder"
+
+# The royal troops scatter out of the camp
+emblems.kutna-hora-breakout.flight: "Kraliyet askerleri ordugâhtan dağılır"
+
+# Night of 21 to 22 December 1421
+pages.kutna-hora-breakout.date: "21 Aralık’ı 22 Aralık 1421’e bağlayan gece"
+
+# The breakout
+pages.kutna-hora-breakout.title: "Kuşatmanın yarılması"
+
+# The Hussite army of Taborites, Praguers and Orebites with its wagons, and the men raised round Jičín and Turnov. The chronicles do not record how the wagons stood at Nebovidy. Fewer wagons are drawn than there were.
+emblems.nebovidy.wagons: "Táborcular, Praglılar ve Orebçilerden oluşan Husçu ordusu arabalarıyla, yanlarında Jičín ve Turnov çevresinden toplanan adamlar. Vakayinameler Nebovidy’de arabaların nasıl durduğunu kaydetmez. Gerçekte olduğundan az araba çizilmiştir."
+
+# Hussite foot attacking the height
+emblems.nebovidy.foot: "Yükseltiye saldıran Husçu yayalar"
+
+# Prague foot
+emblems.nebovidy.praguers: "Praglı yayalar"
+
+# The royal vanguard, mostly Hungarians, on the rising ground south of the village. It cannot form a line before the Hussites are on it. The royal troops stood on the hills “so thick that it looked like a forest”, by the Old Czech Annals
+emblems.nebovidy.vanguard: "Köyün güneyindeki yükseltide, çoğu Macarlardan oluşan kraliyet öncüsü. Husçular üzerine gelmeden bir hat kuramaz. Eski Çek Yıllıkları’na göre kraliyet askerleri tepelerde “orman gibi görünecek kadar sık” durur"
+
+# Žižka’s army comes from Kolín, about 4 km to the north
+emblems.nebovidy.from-kolin: "Žižka’nın ordusu yaklaşık 4 km kuzeydeki Kolín’den gelir"
+
+# The Hussite foot go forward from the wagons
+emblems.nebovidy.advance: "Husçu yayalar arabalardan ileri çıkar"
+
+# The Hussites attack before the vanguard can form a line
+emblems.nebovidy.attack: "Husçular öncü bir hat kurmadan saldırır"
+
+# The vanguard breaks and flees towards Kutná Hora
+emblems.nebovidy.flight: "Öncü dağılır ve Kutná Hora’ya doğru kaçar"
+
+# 6 January 1422
+pages.nebovidy.date: "6 Ocak 1422"
+
+# Nebovidy
+pages.nebovidy.title: "Nebovidy"
+
+# The Sázava, frozen over in January 1422, drawn wider than it is
+emblems.nemecky-brod.sazava: "Ocak 1422’de donmuş Sázava, olduğundan geniş çizilmiştir"
+
+# Německý Brod, held by part of the royal commanders and their men to cover the flight
+emblems.nemecky-brod.town: "Kaçışı korumak için kraliyet komutanlarının bir kısmının ve adamlarının tuttuğu Německý Brod"
+
+# The royal army in flight from Habry, 8 January 1422
+emblems.nemecky-brod.fleeing: "Habry’den kaçan kraliyet ordusu, 8 Ocak 1422"
+
+# Hussite horse in pursuit
+emblems.nemecky-brod.horse: "Takipteki Husçu atlılar"
+
+# The wagons of the Hussites of Tábor, Prague and the towns, a third of the royal army by Thomas Ebendorfer, following the same day. Fewer wagons are drawn than there were
+emblems.nemecky-brod.wagons: "Tábor, Prag ve kentlerin Husçuları, Thomas Ebendorfer’e göre kraliyet ordusunun üçte biri kadar arabaları, aynı gün arkadan gelir. Gerçekte olduğundan az araba çizilmiştir"
+
+# The fugitives cross the frozen Sázava, and the ice breaks under the armoured men
+emblems.nemecky-brod.ice: "Kaçanlar donmuş Sázava’yı geçer ve buz zırhlı adamların altında kırılır"
+
+# The rest of the royal army flees south into Moravia
+emblems.nemecky-brod.south: "Kraliyet ordusunun geri kalanı güneye, Moravya’ya kaçar"
+
+# The Hussite horse ride down the fugitives
+emblems.nemecky-brod.pursuit: "Husçu atlılar kaçanlara yetişir"
+
+# 10 January: Hussite troops break into the town without Žižka’s order while the garrison is negotiating, and kill most of it
+emblems.nemecky-brod.assault: "10 Ocak: Garnizon teslim olmak için görüşürken Husçu askerler Žižka’nın emri olmadan kente girer ve garnizonun çoğunu öldürür"
+
+# 7 – 10 January 1422
+pages.nemecky-brod.date: "7 – 10 Ocak 1422"
+
+# The pursuit to Německý Brod
+pages.nemecky-brod.title: "Německý Brod’a kadar takip"
+
+# 9 March – December 1422
+pages.korybut.date: "9 Mart – Aralık 1422"
+
+# Želivský and Korybut, 1422
+pages.korybut.title: "Želivský ve Korybut, 1422"
+
+# January – April 1423
+pages.horice.date: "Ocak – Nisan 1423"
+
+# The Lesser Tábor and Hořice, 1423
+pages.horice.title: "Küçük Tábor ve Hořice, 1423"
+
+# June – November 1423
+pages.hungary-1423.date: "Haziran – Kasım 1423"
+
+# Into Hungary, 1423
+pages.hungary-1423.title: "Macaristan’a sefer, 1423"
+
+# October 1423 – 6 January 1424
+pages.skalice.date: "Ekim 1423 – 6 Ocak 1424"
+
+# Skalice, January 1424
+pages.skalice.title: "Skalice, Ocak 1424"
+
+# March – 7 June 1424
+pages.malesov.date: "Mart – 7 Haziran 1424"
+
+# The chase across Bohemia
+pages.malesov.title: "Bohemya boyunca kovalamaca"
+
+# The brook in the narrow valley south of Malešov, the Bohynka of Hugo Toman’s map of 1898. Traced from the elevation of today
+emblems.malesov-ground.brook: "Malešov’un güneyindeki dar vadide akan dere, Hugo Toman’ın 1898 haritasındaki Bohynka. Bugünkü yükseltiden çizilmiştir"
+
+# Battle wagons in a line, 300 in May by Bartošek of Drahonice. They stand ready to roll forward with the foot, and handguns fire from them
+emblems.malesov-ground.wagons: "Bir sıra halinde savaş arabaları, Drahoniceli Bartošek’e göre Mayıs’ta 300. Yayalarla birlikte ileri yuvarlanmaya hazır dururlar, el topçuları da onların içinden ateş eder"
+
+# Žižka’s field guns and howitzers between the wagons
+emblems.malesov-ground.guns: "Arabaların arasında Žižka’nın sahra topları ve houfniceleri"
+
+# Hay wagons loaded with stones in the centre of the line, hidden from the enemy, by the younger Old Czech Annals
+emblems.malesov-ground.stone-wagons: "Genç Eski Çek Yıllıkları’na göre hattın ortasında, düşmandan gizlenmiş taş yüklü saman arabaları"
+
+# Orebite and Taborite foot with flails, halberds, spears and handguns, 7,000 in May by Bartošek of Drahonice
+emblems.malesov-ground.foot: "Savaş dövenleri, teberler, mızraklar ve el toplarıyla Orebçi ve Táborcu yayalar, Drahoniceli Bartošek’e göre Mayıs’ta 7.000"
+
+# Žižka’s horse, 500 by Bartošek, held back on the wings
+emblems.malesov-ground.horse: "Žižka’nın kanatlarda geride tutulan atlıları, Bartošek’e göre 500"
+
+# The head of the column: Prague men at arms and the lords’ horse, crossing the brook
+emblems.malesov-ground.prague-head: "Kolun başı: dereyi geçen Prag zırhlıları ve soyluların atlıları"
+
+# The army of Prague and the lords: Prague militia, Utraquist lords and Catholic men of the Landfried of Plzeň under Diviš Bořek of Miletínek. Larger than Žižka’s army by every account, numbers unknown
+emblems.malesov-ground.prague-column: "Prag ve soylular ordusu: Miletínekli Diviš Bořek komutasında Prag milisleri, Utrakist soylular ve Plzeň Landfried’inin Katolik askerleri. Bütün anlatılara göre Žižka’nın ordusundan büyük, sayısı bilinmiyor"
+
+# The rear of the column, still coming down past the fortress
+emblems.malesov-ground.prague-rear: "Kolun arkası, kalenin önünden hâlâ aşağı inmekte"
+
+# The wagons and guns of Prague at the rear of the column
+emblems.malesov-ground.prague-wagons: "Kolun arkasında Prag’ın arabaları ve topları"
+
+# The fortress of Malešov, 6 km south-west of Kutná Hora
+emblems.malesov-ground.fortress: "Kutná Hora’nın 6 km güneybatısındaki Malešov kalesi"
+
+# The army of Prague and the lords follows Žižka’s track past the fortress and down into the valley. By the Old Czech Annals they do not wait for all their men to come up
+emblems.malesov-ground.prague-march: "Prag ve soylular ordusu Žižka’nın izinden kalenin önünden geçerek vadiye iner. Eski Çek Yıllıkları’na göre bütün adamlarının yetişmesini beklemezler"
+
+# 7 June 1424
+pages.malesov-ground.date: "7 Haziran 1424"
+
+# Žižka turns at Malešov
+pages.malesov-ground.title: "Žižka Malešov’da döner"
+
+# The brook in the narrow valley south of Malešov, the Bohynka of Hugo Toman’s map of 1898. Traced from the elevation of today
+emblems.malesov-wagons.brook: "Malešov’un güneyindeki dar vadide akan dere, Hugo Toman’ın 1898 haritasındaki Bohynka. Bugünkü yükseltiden çizilmiştir"
+
+# Battle wagons in a line, 300 in May by Bartošek of Drahonice. They stand ready to roll forward with the foot, and handguns fire from them
+emblems.malesov-wagons.wagons: "Bir sıra halinde savaş arabaları, Drahoniceli Bartošek’e göre Mayıs’ta 300. Yayalarla birlikte ileri yuvarlanmaya hazır dururlar, el topçuları da onların içinden ateş eder"
+
+# Žižka’s field guns and howitzers between the wagons
+emblems.malesov-wagons.guns: "Arabaların arasında Žižka’nın sahra topları ve houfniceleri"
+
+# Orebite and Taborite foot with flails, halberds, spears and handguns, 7,000 in May by Bartošek of Drahonice
+emblems.malesov-wagons.foot: "Savaş dövenleri, teberler, mızraklar ve el toplarıyla Orebçi ve Táborcu yayalar, Drahoniceli Bartošek’e göre Mayıs’ta 7.000"
+
+# Žižka’s horse, 500 by Bartošek, held back on the wings
+emblems.malesov-wagons.horse: "Žižka’nın kanatlarda geride tutulan atlıları, Bartošek’e göre 500"
+
+# Half of the Prague army, across the brook and climbing towards the wagons
+emblems.malesov-wagons.prague-head: "Dereyi geçmiş ve arabalara doğru tırmanan Prag ordusunun yarısı"
+
+# The other half of the column, still in the valley and on the road from the fortress
+emblems.malesov-wagons.prague-column: "Kolun öbür yarısı, hâlâ vadide ve kaleden gelen yolda"
+
+# The wagons and guns of Prague at the rear of the column
+emblems.malesov-wagons.prague-wagons: "Kolun arkasında Prag’ın arabaları ve topları"
+
+# The fortress of Malešov, 6 km south-west of Kutná Hora
+emblems.malesov-wagons.fortress: "Kutná Hora’nın 6 km güneybatısındaki Malešov kalesi"
+
+# Hay wagons loaded with stones run down the slope into the head of the column and break its ranks, by the younger Old Czech Annals. Men on foot cannot stand against them, and the narrow valley leaves no room to step aside
+emblems.malesov-wagons.stone-wagons: "Genç Eski Çek Yıllıkları’na göre taş yüklü saman arabaları yamaçtan aşağı kolun başına dalar ve saflarını dağıtır. Yayalar onlara karşı duramaz, dar vadi de kenara çekilecek yer bırakmaz"
+
+# The guns fire into the confusion
+emblems.malesov-wagons.gunfire: "Toplar karmaşanın içine ateş eder"
+
+# 7 June 1424
+pages.malesov-wagons.date: "7 Haziran 1424"
+
+# The wagons of stones
+pages.malesov-wagons.title: "Taş arabaları"
+
+# The brook in the narrow valley south of Malešov, the Bohynka of Hugo Toman’s map of 1898. Traced from the elevation of today
+emblems.malesov-rout.brook: "Malešov’un güneyindeki dar vadide akan dere, Hugo Toman’ın 1898 haritasındaki Bohynka. Bugünkü yükseltiden çizilmiştir"
+
+# The battle wagons roll forward with the foot
+emblems.malesov-rout.wagons: "Savaş arabaları yayalarla birlikte ileri yuvarlanır"
+
+# Žižka’s foot at the bottom of the slope after the charge
+emblems.malesov-rout.foot: "Hücumdan sonra yamacın eteğindeki Žižka yayaları"
+
+# Žižka’s horse, released from the wings, ride after the fleeing army
+emblems.malesov-rout.horse: "Kanatlardan salıverilen Žižka’nın atlıları kaçan ordunun ardına düşer"
+
+# The wagons and guns of Prague, left on the field and taken by Žižka
+emblems.malesov-rout.prague-wagons: "Savaş alanında bırakılan ve Žižka’nın aldığı Prag arabaları ve topları"
+
+# The fortress of Malešov, 6 km south-west of Kutná Hora
+emblems.malesov-rout.fortress: "Kutná Hora’nın 6 km güneybatısındaki Malešov kalesi"
+
+# Žižka’s foot charge down the slope behind the wagons
+emblems.malesov-rout.charge: "Žižka’nın yayaları arabaların ardından yamaçtan aşağı hücum eder"
+
+# The head of the column flees back across the brook and up the valley past the fortress, and the rear flees with it
+emblems.malesov-rout.flight: "Kolun başı dereyi geri geçerek vadi boyunca kalenin önünden kaçar, ordunun arkası da onunla birlikte kaçar"
+
+# The horse ride down from the wings after the fugitives
+emblems.malesov-rout.pursuit: "Atlılar kanatlardan inip kaçanların ardına düşer"
+
+# 7 June 1424
+pages.malesov-rout.date: "7 Haziran 1424"
+
+# The charge and the pursuit
+pages.malesov-rout.title: "Hücum ve takip"
+
+# June – 11 October 1424
+pages.pribyslav.date: "Haziran – 11 Ekim 1424"
+
+# Libeň and Přibyslav, 1424
+pages.pribyslav.title: "Libeň ve Přibyslav, 1424"
+
+# 1425 – spring 1426
+pages.field-armies.date: "1425 – 1426 baharı"
+
+# Prokop and the field armies, 1425–1426
+pages.field-armies.title: "Prokop ve sahra orduları, 1425–1426"
+
+# May – 15 June 1426
+pages.usti.date: "Mayıs – 15 Haziran 1426"
+
+# The siege of Ústí and the Saxon relief
+pages.usti.title: "Ústí kuşatması ve Sakson kurtarma ordusu"
+
+# The Ždírnický brook, on its present course. The relief army forms up in its valley between Český Újezd and Hrbovice.
+emblems.usti-fort.zdirnice-brook: "Bugünkü yatağıyla Ždírnický deresi. Kurtarma ordusu Český Újezd ile Hrbovice arasındaki vadisinde düzen alır."
+
+# Wagon fort of the Hussite unions on Běhání hill: about 500 wagons by the chronicles, drawn as 40, chained wheel to wheel. Sigismund Korybut, Prokop the Great and Jan Roháč of Dubá command about 11,000 by Čornej and Bělina, 24,000 to 25,000 by the chronicles. The hill was dug away by a coal mine in 1977–1997.
+emblems.usti-fort.wagon-fort: "Husçu birliklerinin Běhání tepesindeki araba kalesi: kroniklere göre yaklaşık 500 araba, 40 araba çizilmiştir, tekerlek tekerleğe zincirli. Sigismund Korybut, Büyük Prokop ve Dubálı Jan Roháč, Čornej ile Bělina’ya göre yaklaşık 11.000, kroniklere göre 24.000 ile 25.000 kişiyi yönetir. Tepe 1977–1997 arasında bir kömür ocağı tarafından kazınıp yok edilmiştir."
+
+# Second line of wagons behind the north side. With some 500 wagons the Hussites can set two lines one behind the other (Čornej and Bělina).
+emblems.usti-fort.second-line: "Kuzey yanının arkasında ikinci araba sırası. Yaklaşık 500 arabası olan Husçular iki sırayı arka arkaya kurabilir (Čornej ve Bělina)."
+
+# Howitzers (houfnice) and light field guns (tarasnice) aimed through gaps in the wagon line
+emblems.usti-fort.guns: "Araba sırasındaki aralıklara doğrultulmuş houfniceler ve hafif sahra topları (tarasnice)"
+
+# Pavise bearers: large shields with pointed ends driven into the ground, a cover behind the second line (Lützow)
+emblems.usti-fort.pavises: "Pavez kalkanı taşıyanlar: sivri uçları toprağa çakılmış büyük kalkanlar, ikinci sıranın arkasında bir siper (Lützow)"
+
+# Handgunners with píšťaly, ready to fire through the gaps between the wagons
+emblems.usti-fort.handguns: "Arabaların arasındaki aralıklardan ateş etmeye hazır, píšťala taşıyan el topçuları"
+
+# Hussite foot with flails, halberds and hooks, held inside the ring
+emblems.usti-fort.hussite-foot: "Halkanın içinde tutulan, savaş döveni, teber ve kancalı Husçu yayalar"
+
+# Hussite horse, a few hundred, held inside the ring for a sally
+emblems.usti-fort.hussite-horse: "Bir çıkış için halkanın içinde tutulan birkaç yüz Husçu atlı"
+
+# Knights and men at arms of Meissen, Saxony, Thuringia and Hesse under Boso of Vitzthum. The relief army: about 13,000 by Čornej and Bělina, 10,000 horse and 20,000 foot by Bartošek of Drahonice, 70,000 by the Old Czech Annals.
+emblems.usti-fort.relief-horse: "Vitzthumlu Boso komutasında Meissen, Saksonya, Thüringen ve Hessen şövalyeleri ve zırhlı atlıları. Kurtarma ordusu: Čornej ile Bělina’ya göre yaklaşık 13.000, Drahoniceli Bartošek’e göre 10.000 atlı ve 20.000 yaya, Eski Çek Yıllıkları’na göre 70.000."
+
+# Horse of the relief army coming on from Chabařovice in the north-west
+emblems.usti-fort.relief-horse-nw: "Kuzeybatıdan, Chabařovice’den gelen kurtarma ordusu atlıları"
+
+# Foot of the relief army: townsmen and peasant levies, short of food after the march over the mountains
+emblems.usti-fort.relief-foot: "Kurtarma ordusunun yayaları: dağları aştıktan sonra yiyeceği azalmış kentliler ve köylü askerler"
+
+# 16 June 1426, morning
+pages.usti-fort.date: "16 Haziran 1426, sabah"
+
+# The wagon fort on Běhání hill
+pages.usti-fort.title: "Běhání tepesindeki araba kalesi"
+
+# The Ždírnický brook, on its present course. The relief army forms up in its valley between Český Újezd and Hrbovice.
+emblems.usti-assault.zdirnice-brook: "Bugünkü yatağıyla Ždírnický deresi. Kurtarma ordusu Český Újezd ile Hrbovice arasındaki vadisinde düzen alır."
+
+# The Hussite wagon fort, opened on the north side where the knights overturn a row of wagons and cut the chains
+emblems.usti-assault.wagon-fort: "Şövalyelerin bir sıra arabayı devirip zincirleri kestiği kuzey yanında açılmış Husçu araba kalesi"
+
+# Second line of wagons behind the north side. With some 500 wagons the Hussites can set two lines one behind the other (Čornej and Bělina).
+emblems.usti-assault.second-line: "Kuzey yanının arkasında ikinci araba sırası. Yaklaşık 500 arabası olan Husçular iki sırayı arka arkaya kurabilir (Čornej ve Bělina)."
+
+# Howitzers and field guns fire into the knights between the two lines of wagons
+emblems.usti-assault.guns: "Houfniceler ve sahra topları iki araba sırası arasındaki şövalyelere ateş eder"
+
+# Pavises behind the second line, the last cover before the foot
+emblems.usti-assault.pavises: "İkinci sıranın arkasındaki pavez kalkanları, yayaların önündeki son siper"
+
+# Handgunners fire through the gaps of the second line at a few paces
+emblems.usti-assault.handguns: "El topçuları ikinci sıranın aralıklarından birkaç adım öteye ateş eder"
+
+# Hussite foot with flails, halberds and long hooks that pull riders from the saddle
+emblems.usti-assault.hussite-foot: "Savaş döveni, teber ve atlıları eyerden çeken uzun kancalarla Husçu yayalar"
+
+# Hussite horse, waiting inside the ring
+emblems.usti-assault.hussite-horse: "Halkanın içinde bekleyen Husçu atlılar"
+
+# Knights who break through the first line of wagons and are held at the second, shot at from three sides
+emblems.usti-assault.breach: "Birinci araba sırasını yarıp ikincide durdurulan, üç yandan ateş altındaki şövalyeler"
+
+# Knights attacking along the north-east side of the ring, under fire from the wagons
+emblems.usti-assault.relief-horse: "Halkanın kuzeydoğu yanı boyunca arabalardan gelen ateş altında saldıran şövalyeler"
+
+# Horse from Chabařovice attacking the west end of the ring
+emblems.usti-assault.relief-horse-nw: "Chabařovice’den gelip halkanın batı ucuna saldıran atlılar"
+
+# Foot of the relief army following the horse up the slope in heat and dust
+emblems.usti-assault.relief-foot: "Sıcakta ve tozda atlıların ardından yamacı tırmanan kurtarma ordusu yayaları"
+
+# The main attack climbs the gentle slope from the brook valley and breaks the chain of the first line
+emblems.usti-assault.main-attack: "Asıl saldırı dere vadisinden hafif yamacı tırmanır ve birinci sıranın zincirini kırar"
+
+# Guns fire into the knights caught between the lines
+emblems.usti-assault.gunfire: "Toplar iki sıra arasında kalan şövalyelere ateş eder"
+
+# Handguns fire through the gaps of the second line
+emblems.usti-assault.handgun-fire: "El topları ikinci sıranın aralıklarından ateş eder"
+
+# 16 June 1426, late morning
+pages.usti-assault.date: "16 Haziran 1426, öğleye doğru"
+
+# The knights break the chain
+pages.usti-assault.title: "Şövalyeler zinciri kırar"
+
+# The Ždírnický brook, on its present course. The relief army forms up in its valley between Český Újezd and Hrbovice.
+emblems.usti-rout.zdirnice-brook: "Bugünkü yatağıyla Ždírnický deresi. Kurtarma ordusu Český Újezd ile Hrbovice arasındaki vadisinde düzen alır."
+
+# The Hussite wagon fort, opened for the sally
+emblems.usti-rout.wagon-fort: "Çıkış için açılan Husçu araba kalesi"
+
+# Hussite foot out of the wagons, charging with flails and halberds
+emblems.usti-rout.hussite-foot: "Arabalardan çıkıp savaş dövenleri ve teberlerle saldıran Husçu yayalar"
+
+# Hussite horse riding down the fugitives for a mile and a half (Bartošek of Drahonice)
+emblems.usti-rout.hussite-horse: "Kaçanları bir buçuk mil boyunca kovalayan Husçu atlılar (Drahoniceli Bartošek)"
+
+# Hussite foot surrounding the fugitives in Hrbovice and Předlice
+emblems.usti-rout.village-foot: "Hrbovice ve Předlice’deki kaçakların etrafını saran Husçu yayalar"
+
+# The nobles of the relief army fight as the rear guard while the foot runs
+emblems.usti-rout.rear-guard: "Yayalar kaçarken artçı olarak savaşan kurtarma ordusunun soyluları"
+
+# Part of the relief horse, cut off in Hrbovice and Předlice. The Hussites set fire to the villages.
+emblems.usti-rout.caught-horse: "Hrbovice ve Předlice’de sıkışan kurtarma ordusu atlılarının bir bölümü. Husçular köyleri ateşe verir."
+
+# The Hussites open the wagons and come out, horse and foot
+emblems.usti-rout.sally: "Husçular arabaları açar ve atlılarıyla yayalarıyla dışarı çıkar"
+
+# The townsmen and peasant levies flee first, towards Chabařovice and the border. Many die of heat and exhaustion on the way.
+emblems.usti-rout.flight: "Kentliler ve köylü askerler ilk kaçanlardır, Chabařovice’ye ve sınıra doğru. Birçoğu yolda sıcaktan ve bitkinlikten ölür."
+
+# Part of the horse flees north-east to Hrbovice and Předlice
+emblems.usti-rout.flight-east: "Atlıların bir bölümü kuzeydoğuya, Hrbovice ve Předlice’ye kaçar"
+
+# The Hussite horse pursues towards the Ore Mountains
+emblems.usti-rout.pursuit: "Husçu atlılar Cevher Dağları’na doğru kovalar"
+
+# Hussite foot follow the fugitives to the villages
+emblems.usti-rout.to-villages: "Husçu yayalar kaçakları köylere kadar izler"
+
+# 16 June 1426, from midday
+pages.usti-rout.date: "16 Haziran 1426, öğleden itibaren"
+
+# The sally and the flight
+pages.usti-rout.title: "Çıkış ve kaçış"
+
+# April – August 1427
+pages.tachov.date: "Nisan – Ağustos 1427"
+
+# The fourth crusade, 1427
+pages.tachov.title: "Dördüncü haçlı seferi, 1427"
+
+# March 1427 – May 1428
+pages.austria-silesia.date: "Mart 1427 – Mayıs 1428"
+
+# Austria and Silesia, 1427–1428
+pages.austria-silesia.title: "Avusturya ve Silezya, 1427–1428"
+
+# April – November 1429
+pages.pressburg.date: "Nisan – Kasım 1429"
+
+# Talks at Pressburg, 1429
+pages.pressburg.title: "Pressburg görüşmeleri, 1429"
+
+# December 1429 – February 1430
+pages.franconia.date: "Aralık 1429 – Şubat 1430"
+
+# Saxony and Franconia, 1429–1430
+pages.franconia.title: "Saksonya ve Frankonya, 1429–1430"
+
+# April 1430 – 1432
+pages.trnava.date: "Nisan 1430 – 1432"
+
+# Upper Hungary, 1430–1432
+pages.trnava.title: "Yukarı Macaristan, 1430–1432"
+
+# March – 14 August 1431
+pages.domazlice.date: "Mart – 14 Ağustos 1431"
+
+# Domažlice, 1431
+pages.domazlice.title: "Domažlice, 1431"
+
+# March – August 1432
+pages.brandenburg.date: "Mart – Ağustos 1432"
+
+# Brandenburg and Silesia, 1432
+pages.brandenburg.title: "Brandenburg ve Silezya, 1432"
+
+# April – September 1433
+pages.baltic.date: "Nisan – Eylül 1433"
+
+# To the Baltic, 1433
+pages.baltic.title: "Baltık’a, 1433"
+
+# May 1432 – July 1433
+pages.basel.date: "Mayıs 1432 – Temmuz 1433"
+
+# The Cheb Judge and Basel, 1432–1433
+pages.basel.title: "Cheb Hakemi ve Basel, 1432–1433"
+
+# July 1433 – May 1434
+pages.plzen-siege.date: "Temmuz 1433 – Mayıs 1434"
+
+# The siege of Plzeň, 1433–1434
+pages.plzen-siege.title: "Plzeň Kuşatması, 1433–1434"
+
+# March – 24 May 1434
+pages.lords-league.date: "Mart – 24 Mayıs 1434"
+
+# The lords’ league, May 1434
+pages.lords-league.title: "Soylular birliği, Mayıs 1434"
+
+# 22 – 30 May 1434
+pages.lipany.date: "22 – 30 Mayıs 1434"
+
+# The armies meet at Lipany
+pages.lipany.title: "Ordular Lipany’de karşılaşır"
+
+# The Bylanka brook in the valley west of Hřiby
+emblems.lipany-forts.bylanka: "Hřiby’nin batısındaki vadide akan Bylanka deresi"
+
+# Wagon fort of the Taborite and Orphan field armies at the foot of Lipská hora: 360 to 480 wagons, drawn as 30, chained in six rows, with the slope behind it and its right flank on the small Jordán pond by most accounts. Prokop the Great and Prokop the Lesser command about 10,000 foot and 700 horse by Čornej, 9,000 foot and 700 horse by Bartošek of Drahonice, 6,000 to 8,000 men by Šmahel.
+emblems.lipany-forts.field-fort: "Táborcu ve Yetim sahra ordularının Lipská hora eteğindeki araba kalesi: 360 ile 480 araba, burada 30 olarak çizildi, altı sıra hâlinde zincirlenmiş, arkasında yamaç, çoğu anlatıma göre sağ kanadı küçük Jordán gölüne dayalı. Büyük Prokop ile Küçük Prokop komutasında Čornej’e göre yaklaşık 10.000 yaya ve 700 atlı, Drahoniceli Bartošek’e göre 9.000 yaya ve 700 atlı, Šmahel’e göre 6.000 ile 8.000 kişi."
+
+# Guns of the field armies: more than 40 howitzers by Bartošek of Drahonice, 32 by the Zittau chronicler
+emblems.lipany-forts.field-guns: "Sahra ordularının topları: Drahoniceli Bartošek’e göre 40’tan fazla houfnice, Zittau vakanüvisine göre 32"
+
+# Horse of the field armies under Jan Čapek of Sány, about 700 by Bartošek of Drahonice
+emblems.lipany-forts.capek: "Sánylı Jan Čapek komutasında sahra ordularının atlıları, Drahoniceli Bartošek’e göre yaklaşık 700"
+
+# Wagon fort of the lords’ league on the plain north-east of Hřiby: 660 to 720 wagons by Čornej, drawn as 30, in 11 or 12 rows under Jan Černín of Vysoká. Four guns stand at the front, the rest on the flanks. Diviš Bořek of Miletínek commands 12,000 to 13,000 foot and about 1,200 horse by Čornej, 10,000 foot and 1,000 horse by Bartošek of Drahonice.
+emblems.lipany-forts.lords-fort: "Soylular birliğinin Hřiby’nin kuzeydoğusundaki düzlükte kurduğu araba kalesi: Čornej’e göre 660 ile 720 araba, burada 30 olarak çizildi, Vysokálı Jan Černín komutasında 11 ya da 12 sıra hâlinde. Dört top önde, ötekiler kanatlarda durur. Miletínekli Diviš Bořek komutasında Čornej’e göre 12.000 ile 13.000 yaya ve 1.200 kadar atlı, Drahoniceli Bartošek’e göre 10.000 yaya ve 1.000 atlı."
+
+# Vanguard of the league under Mikuláš Krchlebec of Krchleby, burgrave of Zvíkov, on foot: Rožmberk men, men of Prácheň and Karlštejn and of Menhart of Hradec
+emblems.lipany-forts.vanguard: "Zvíkov burgravı Krchlebyli Mikuláš Krchlebec komutasında birliğin yaya öncüsü: Rožmberk’in adamları, Prácheň ve Karlštejn’in adamları ve Hradecli Menhart’ın adamları"
+
+# Rear guard of the league, its striking force the Plzeň landfrýd and the Rožmberk men under the Rožmberk banner
+emblems.lipany-forts.rear-guard: "Birliğin artçısı, vurucu gücü Plzeň landfrýdi ve Rožmberk sancağı altındaki Rožmberk adamları"
+
+# Horse of the league held below the slope to the brook, out of sight of the field armies: lords who had once fought beside Tábor, among them Jan Malovec of Pacov, Mikuláš of Landštejn and Arnošt of Leskov. Only a few commanders know it is there.
+emblems.lipany-forts.hidden-horse: "Birliğin dereye inen yamacın altında, sahra ordularının göremeyeceği yerde beklettiği atlılar: aralarında Pacovlu Jan Malovec, Landštejnli Mikuláš ve Leskovlu Arnošt’un bulunduğu, bir zamanlar Tábor’un yanında savaşmış soylular. Orada olduklarını yalnızca birkaç komutan bilir."
+
+# The field armies fire first. The lords’ fort stands out of range, and the shots do little harm.
+emblems.lipany-forts.gunfire: "İlk ateşi sahra orduları açar. Soyluların kalesi menzil dışında durur ve gülleler pek zarar vermez."
+
+# 30 May 1434, from about 3 in the afternoon
+pages.lipany-forts.date: "30 Mayıs 1434, öğleden sonra saat 3 dolaylarından başlayarak"
+
+# Two wagon forts
+pages.lipany-forts.title: "İki araba kalesi"
+
+# The Bylanka brook in the valley west of Hřiby
+emblems.lipany-feint.bylanka: "Hřiby’nin batısındaki vadide akan Bylanka deresi"
+
+# The field armies’ wagon fort, unchained and opened on the side facing the lords for the pursuit
+emblems.lipany-feint.field-fort: "Sahra ordularının araba kalesi, takip için zincirleri çözülmüş ve soylulara bakan yanından açılmış"
+
+# Guns of the field armies, fired at the vanguard as it turns away
+emblems.lipany-feint.field-guns: "Sahra ordularının topları, geri dönen öncüye ateş ederken"
+
+# Horse of the field armies under Jan Čapek of Sány, about 700 by Bartošek of Drahonice
+emblems.lipany-feint.capek: "Sánylı Jan Čapek komutasında sahra ordularının atlıları, Drahoniceli Bartošek’e göre yaklaşık 700"
+
+# Wagons from the head of the field armies’ column go with the pursuit and cover its flank
+emblems.lipany-feint.pursuit-wagons: "Sahra orduları kolunun başındaki arabalar takiple birlikte gider ve kanadını korur"
+
+# Foot of the field armies, out of their wagons and chasing the vanguard onto the plain
+emblems.lipany-feint.pursuit: "Arabalarından çıkıp öncüyü düzlüğe doğru kovalayan sahra ordusu yayaları"
+
+# The lords’ wagon fort. Behind the wagons the gunners and crossbowmen wait with their weapons lowered.
+emblems.lipany-feint.lords-fort: "Soyluların araba kalesi. Arabaların ardında topçular ve arbaletçiler silahlarını yere indirmiş bekler."
+
+# Krchlebec’s vanguard, falling back towards the lords’ wagons as if beaten
+emblems.lipany-feint.vanguard: "Krchlebec’in öncüsü, yenilmiş gibi soyluların arabalarına doğru geri çekilir"
+
+# The rear guard, the Plzeň landfrýd and the Rožmberk men, waits on the flank
+emblems.lipany-feint.rear-guard: "Artçı, yani Plzeň landfrýdi ve Rožmberk adamları, kanatta bekler"
+
+# Horse of the league held below the slope to the brook, out of sight of the field armies: lords who had once fought beside Tábor, among them Jan Malovec of Pacov, Mikuláš of Landštejn and Arnošt of Leskov. Only a few commanders know it is there.
+emblems.lipany-feint.hidden-horse: "Birliğin dereye inen yamacın altında, sahra ordularının göremeyeceği yerde beklettiği atlılar: aralarında Pacovlu Jan Malovec, Landštejnli Mikuláš ve Leskovlu Arnošt’un bulunduğu, bir zamanlar Tábor’un yanında savaşmış soylular. Orada olduklarını yalnızca birkaç komutan bilir."
+
+# The field armies fire all their guns at the vanguard, which has come up close and fired its four guns at them
+emblems.lipany-feint.gunfire: "Sahra orduları, iyice yaklaşıp dört topuyla ateş eden öncüye bütün toplarıyla ateş eder"
+
+# Feigned retreat: the vanguard halts as if in confusion, turns and falls back towards the wagons
+emblems.lipany-feint.feint: "Sahte geri çekilme: öncü şaşırmış gibi durur, döner ve arabalara doğru geri çekilir"
+
+# The field armies open their wagons and pursue, horse and foot, shouting “Up, after them, they are running!”
+emblems.lipany-feint.pursuit-move: "Sahra orduları arabalarını açar ve “Haydi, peşlerine, kaçıyorlar!” diye bağırarak atlı ve yaya takibe geçer"
+
+# 30 May 1434, late afternoon
+pages.lipany-feint.date: "30 Mayıs 1434, ikindi"
+
+# The feigned retreat
+pages.lipany-feint.title: "Sahte geri çekilme"
+
+# The Bylanka brook in the valley west of Hřiby
+emblems.lipany-rout.bylanka: "Hřiby’nin batısındaki vadide akan Bylanka deresi"
+
+# The field armies’ wagon fort, still open where the pursuit went out. The lords’ horse rides round it, breaks in where the wagons stand open behind it and overturns eight of them, and both Prokops fall fighting on the wagons.
+emblems.lipany-rout.field-fort: "Sahra ordularının araba kalesi, takibin çıktığı yerde hâlâ açık. Soyluların atlıları kalenin çevresini dolanır, arkasında arabaların açık durduğu yerden içeri dalar ve sekiz arabayı devirir, iki Prokop da arabaların üzerinde savaşırken düşer."
+
+# The wagons that went out with the pursuit, left on the plain
+emblems.lipany-rout.pursuit-wagons: "Takiple birlikte çıkan ve düzlükte kalan arabalar"
+
+# Foot of the field armies, caught between the two attacks on the plain and cut down
+emblems.lipany-rout.pursuit: "İki saldırı arasında kalan ve düzlükte kılıçtan geçirilen sahra ordusu yayaları"
+
+# The lords’ wagon fort
+emblems.lipany-rout.lords-fort: "Soyluların araba kalesi"
+
+# Krchlebec’s vanguard and the lords’ men from the wagons turn about and attack
+emblems.lipany-rout.vanguard: "Krchlebec’in öncüsü ve arabalardan çıkan soylu adamları geri döner ve saldırır"
+
+# The rear guard, the Plzeň landfrýd and the Rožmberk men, strikes from behind and bars the way back to the fort
+emblems.lipany-rout.rear-guard: "Artçı, yani Plzeň landfrýdi ve Rožmberk adamları, arkadan vurur ve kaleye dönüş yolunu keser"
+
+# The league’s hidden horse, come round in an arc, breaks into the fort and overturns eight wagons
+emblems.lipany-rout.hidden-horse: "Birliğin gizli atlıları bir yay çizerek gelir, kaleye dalar ve sekiz arabayı devirir"
+
+# Jan Čapek of Sány and Ondřej Keřský ride off to Kolín with the horse and a few foot
+emblems.lipany-rout.capek: "Sánylı Jan Čapek ile Ondřej Keřský atlılar ve birkaç yayayla Kolín’e gider"
+
+# The vanguard and the lords’ men turn about and attack the pursuers
+emblems.lipany-rout.front-attack: "Öncü ve soyluların adamları geri dönüp takip edenlere saldırır"
+
+# The rear guard swings round behind the pursuers and cuts them off from their fort
+emblems.lipany-rout.rear-attack: "Artçı, takip edenlerin arkasına dolanır ve onları kalelerinden koparır"
+
+# The hidden horse rides out of the valley in an arc round the fighting to the open fort
+emblems.lipany-rout.horse-ride: "Gizli atlılar vadiden çıkar ve çarpışmanın çevresinden bir yay çizerek açık kaleye gelir"
+
+# Čapek’s horse leaves the field for Kolín
+emblems.lipany-rout.capek-flight: "Čapek’in atlıları alanı bırakıp Kolín’e gider"
+
+# Survivors flee over the hill towards Kouřim, and few get away
+emblems.lipany-rout.flight: "Hayatta kalanlar tepenin üzerinden Kouřim’e doğru kaçar, pek azı kurtulur"
+
+# 30 May 1434, evening
+pages.lipany-rout.date: "30 Mayıs 1434, akşam"
+
+# The field armies cut off
+pages.lipany-rout.title: "Sahra orduları kuşatılır"
+
+# 1435 – 9 December 1437
+pages.compacts.date: "1435 – 9 Aralık 1437"
+
+# The Compacts and Sigismund, 1436–1437
+pages.compacts.title: "Uzlaşma ve Sigismund, 1436–1437"
+
+# 1448 – 1471
+pages.podebrady.date: "1448 – 1471"
+
+# George of Poděbrady, 1448–1471
+pages.podebrady.title: "Poděbradyli Jiří, 1448–1471"
+
+# 1424 – 1960
+pages.memory.date: "1424 – 1960"
+
+# Žižka remembered
+pages.memory.title: "Žižka’nın hatırası"
+
+# c. 1360 – 1437
+story.span: "y. 1360 – 1437"
+
+# The Hussite revolution in Bohemia and its general Jan Žižka, from the burning of Jan Hus in 1415 through five crusades beaten by the wagon fort to Lipany in 1434 and the Compacts of 1436.
+story.summary: "Bohemya’daki Husçu devrimi ve generali Jan Žižka: 1415’te Jan Hus’un yakılmasından, araba kalesinin yendiği beş haçlı seferinden geçerek 1434’te Lipany’ye ve 1436 Basel Uzlaşması’na."
+
+# Jan Žižka and the Hussite Wars
+story.title: "Jan Žižka ve Hus Savaşları"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Prague
+markers.prague-1400.label: "Prag"
+
+# Brno
+markers.brno-1400.label: "Brno"
+
+# Wrocław (Breslau)
+markers.wroclaw-1400.label: "Wrocław (Breslau)"
+
+# Bautzen
+markers.bautzen-1400.label: "Bautzen"
+
+# Lahnstein
+markers.lahnstein-1400.label: "Lahnstein"
+
+# Vienna
+markers.vienna-1402.label: "Viyana"
+
+# Buda
+markers.buda-1400.label: "Buda"
+
+# Kraków
+markers.krakow-1400.label: "Krakov"
+
+# Prague
+markers.prague-1348.label: "Prag"
+
+# Karlštejn
+markers.karlstejn-1348.label: "Karlštejn"
+
+# Kutná Hora
+markers.kutna-hora-1300.label: "Kutná Hora"
+
+# Trocnov
+markers.trocnov-1360.label: "Trocnov"
+
+# Budweis (České Budějovice)
+markers.budejovice-1406.label: "Budweis (České Budějovice)"
+
+# Český Krumlov
+markers.krumlov-1406.label: "Český Krumlov"
+
+# Nové Hrady
+markers.nove-hrady-1408.label: "Nové Hrady"
+
+# Třeboň
+markers.trebon-1408.label: "Třeboň"
+
+# Lomnice nad Lužnicí
+markers.lomnice-1408.label: "Lomnice nad Lužnicí"
+
+# Prague
+markers.prague-1414.label: "Prag"
+
+# Wolbórz
+markers.wolborz-1410.label: "Wolbórz"
+
+# Czerwińsk
+markers.czerwinsk-1410.label: "Czerwińsk"
+
+# Radzyń
+markers.radzyn-1410.label: "Radzyń"
+
+# Husinec
+markers.husinec-1370.label: "Husinec"
+
+# Bethlehem Chapel, Prague
+markers.bethlehem-1402.label: "Beytüllahim Şapeli, Prag"
+
+# Kutná Hora
+markers.kutna-hora-1409.label: "Kutná Hora"
+
+# Leipzig
+markers.leipzig-1409.label: "Leipzig"
+
+# Prague
+markers.prague-1412.label: "Prag"
+
+# Kozí Hrádek
+markers.kozi-hradek-1412.label: "Kozí Hrádek"
+
+# Krakovec
+markers.krakovec-1414.label: "Krakovec"
+
+# Nuremberg
+markers.nuremberg-1414.label: "Nürnberg"
+
+# Constance
+markers.constance-1415.label: "Konstanz"
+
+# St Michael’s, Prague
+markers.st-michael-1414.label: "Aziz Mikail Kilisesi, Prag"
+
+# Lipnice
+markers.lipnice-1417.label: "Lipnice"
+
+# Mount Tábor (Burkovák)
+markers.mount-tabor-1419.label: "Tábor Dağı (Burkovák)"
+
+# Our Lady of the Snows
+markers.snows-1419.label: "Kar Meryem Ana Kilisesi"
+
+# St Stephen’s
+markers.st-stephen-1419.label: "Aziz Stefanos Kilisesi"
+
+# New Town hall
+markers.new-town-hall-1419.label: "Yeni Şehir belediye binası"
+
+# Prague Castle
+markers.prague-castle-1419.label: "Prag Kalesi"
+
+# Lesser Town
+markers.lesser-town-1419.label: "Küçük Şehir"
+
+# Old and New Towns
+markers.old-town-1419.label: "Eski ve Yeni Şehir"
+
+# Vyšehrad
+markers.vysehrad-1419.label: "Vyšehrad"
+
+# Plzeň
+markers.plzen-1419.label: "Plzeň"
+
+# Tábor
+markers.tabor-1420.label: "Tábor"
+
+# Mladá Vožice
+markers.mlada-vozice-1420.label: "Mladá Vožice"
+
+# Strakonice
+markers.strakonice-1420.label: "Strakonice"
+
+# Rabí
+markers.rabi-1420.label: "Rabí"
+
+# Újezd castle
+markers.ujezd-1420.label: "Újezd kalesi"
+
+# Břeněk Švihovský and Žižka
+markers.sudomer-dike-zizka.label: "Břeněk Švihovský ve Žižka"
+
+# Jindřich of Hradec
+markers.sudomer-dike-hradec.label: "Hradec’li Jindřich"
+
+# Petr of Šternberk
+markers.sudomer-dike-sternberk.label: "Šternberk’li Petr"
+
+# Bohuslav of Švamberk
+markers.sudomer-dike-svamberk.label: "Švamberk’li Bohuslav"
+
+# Narrow front
+markers.sudomer-dike-front.label: "Dar cephe"
+
+# Wagon line
+markers.sudomer-dike-wagons.label: "Araba hattı"
+
+# Water and mud
+markers.sudomer-dike-ponds.label: "Su ve çamur"
+
+# Břeněk Švihovský
+markers.sudomer-dismount-brenek.label: "Břeněk Švihovský"
+
+# Jindřich of Hradec
+markers.sudomer-dismount-hradec.label: "Hradec’li Jindřich"
+
+# Iron Lords on foot
+markers.sudomer-dismount-foot.label: "Yaya Demir Beyler"
+
+# Drained pond
+markers.sudomer-dismount-mud.label: "Boşaltılmış gölet"
+
+# Guns at the wagons
+markers.sudomer-dismount-guns.label: "Arabalarda toplar"
+
+# Flails
+markers.sudomer-dismount-flails.label: "Savaş dövenleri"
+
+# Žižka
+markers.sudomer-dusk-zizka.label: "Žižka"
+
+# Mikeš Divůček
+markers.sudomer-dusk-divucek.label: "Mikeš Divůček"
+
+# The royalists
+markers.sudomer-dusk-royal.label: "Kral yanlıları"
+
+# Holding the field
+markers.sudomer-dusk-hold.label: "Alanı tutmak"
+
+# A wagon fort in plan
+markers.wagons-plan-1423.label: "Araba kalesinin planı"
+
+# Nekmíř, 1419
+markers.wagons-nekmir-1419.label: "Nekmíř, 1419"
+
+# Sudoměř, 1420
+markers.wagons-sudomer-1420.label: "Sudoměř, 1420"
+
+# Kutná Hora, 1421
+markers.wagons-kutna-hora-1421.label: "Kutná Hora, 1421"
+
+# Ústí nad Labem, 1426
+markers.wagons-usti-1426.label: "Ústí nad Labem, 1426"
+
+# Breslau
+markers.breslau-1420.label: "Breslau"
+
+# Hradec Králové
+markers.hradec-kralove-1420.label: "Hradec Králové"
+
+# Kutná Hora
+markers.kutna-hora-1420.label: "Kutná Hora"
+
+# Prague Castle
+markers.prague-castle-1420.label: "Prag Kalesi"
+
+# Benešov
+markers.benesov-1420.label: "Benešov"
+
+# Crusader camps
+markers.crusader-camps-1420.label: "Haçlı ordugâhları"
+
+# Vyšehrad
+markers.vysehrad-castle-1420.label: "Vyšehrad"
+
+# Old and New Town
+markers.prague-towns-1420.label: "Eski ve Yeni Şehir"
+
+# Defenders
+markers.vitkov-works-defenders.label: "Savunanlar"
+
+# Heinrich of Isenburg
+markers.vitkov-works-isenburg.label: "Isenburg’lu Heinrich"
+
+# Spital field
+markers.vitkov-works-spital.label: "Hastane Tarlası"
+
+# Narrow front
+markers.vitkov-works-neck.label: "Dar cephe"
+
+# Works
+markers.vitkov-works-ditches.label: "Tahkimat"
+
+# Steep slope
+markers.vitkov-works-slope.label: "Dik yamaç"
+
+# Žižka
+markers.vitkov-assault-zizka.label: "Žižka"
+
+# Heinrich of Isenburg
+markers.vitkov-assault-isenburg.label: "Isenburg’lu Heinrich"
+
+# Flails
+markers.vitkov-assault-flails.label: "Savaş dövenleri"
+
+# Wall and ditches
+markers.vitkov-assault-wall.label: "Duvar ve hendekler"
+
+# Priest with the sacrament
+markers.vitkov-flank-priest.label: "Kutsal ekmekli rahip"
+
+# Heinrich of Isenburg
+markers.vitkov-flank-isenburg.label: "Isenburg’lu Heinrich"
+
+# Crusaders
+markers.vitkov-flank-dead.label: "Haçlılar"
+
+# Flank attack
+markers.vitkov-flank-flank.label: "Yandan saldırı"
+
+# Steep slope
+markers.vitkov-flank-edge.label: "Dik yamaç"
+
+# St Vitus Cathedral
+markers.st-vitus-1420.label: "Aziz Vitus Katedrali"
+
+# St Pancras
+markers.pankrac-1420.label: "Aziz Pankratius"
+
+# Tábor
+markers.tabor-1421.label: "Tábor"
+
+# Vodňany
+markers.vodnany-1420.label: "Vodňany"
+
+# Lomnice nad Lužnicí
+markers.lomnice-1420.label: "Lomnice nad Lužnicí"
+
+# Nová Bystřice
+markers.nova-bystrice-1420.label: "Nová Bystřice"
+
+# Panský Bor
+markers.pansky-bor-1420.label: "Panský Bor"
+
+# Český Krumlov
+markers.krumlov-1420.label: "Český Krumlov"
+
+# České Budějovice
+markers.budejovice-1420.label: "České Budějovice"
+
+# Prague
+markers.prague-1421.label: "Prag"
+
+# Kladruby
+markers.kladruby-1421.label: "Kladruby"
+
+# Plzeň
+markers.plzen-1421.label: "Plzeň"
+
+# Tachov
+markers.tachov-1421.label: "Tachov"
+
+# Beroun
+markers.beroun-1421.label: "Beroun"
+
+# Žatec
+markers.zatec-town-1421.label: "Žatec"
+
+# Louny
+markers.louny-1421.label: "Louny"
+
+# Slaný
+markers.slany-1421.label: "Slaný"
+
+# Roudnice
+markers.roudnice-1421.label: "Roudnice"
+
+# Klokoty
+markers.klokoty-1421.label: "Klokoty"
+
+# Ostrov by Hamr
+markers.nezarka-1421.label: "Hamr yakınlarındaki Ostrov"
+
+# Čáslav
+markers.caslav-1421.label: "Čáslav"
+
+# Písek
+markers.pisek-1421.label: "Písek"
+
+# Klatovy
+markers.klatovy-1421.label: "Klatovy"
+
+# Domažlice
+markers.domazlice-1421.label: "Domažlice"
+
+# Hradec Králové
+markers.hradec-1421.label: "Hradec Králové"
+
+# Loket
+markers.loket-1421.label: "Loket"
+
+# Most
+markers.most-1421.label: "Most"
+
+# Cheb
+markers.cheb-1421.label: "Cheb"
+
+# Vladař
+markers.vladar-1421.label: "Vladař"
+
+# Jihlava
+markers.jihlava-1421.label: "Jihlava"
+
+# Litomyšl
+markers.litomysl-1421.label: "Litomyšl"
+
+# Ledeč nad Sázavou
+markers.ledec-1421.label: "Ledeč nad Sázavou"
+
+# Jan Žižka
+markers.kutna-hora-ring-zizka.label: "Jan Žižka"
+
+# Sigismund
+markers.kutna-hora-ring-sigismund.label: "Sigismund"
+
+# Kutná Hora
+markers.kutna-hora-ring-town.label: "Kutná Hora"
+
+# Wagon fort
+markers.kutna-hora-ring-fort.label: "Araba kalesi"
+
+# Guns at range
+markers.kutna-hora-ring-guns.label: "Uzaktan top ateşi"
+
+# Jan Žižka
+markers.kutna-hora-breakout-zizka.label: "Jan Žižka"
+
+# Below Kaňk
+markers.kutna-hora-breakout-kank.label: "Kaňk’ın eteği"
+
+# Sigismund
+markers.kutna-hora-breakout-sigismund.label: "Sigismund"
+
+# Guns on the move
+markers.kutna-hora-breakout-guns.label: "Hareket halinde toplar"
+
+# Night attack
+markers.kutna-hora-breakout-night.label: "Gece saldırısı"
+
+# Nebovidy
+markers.nebovidy-village.label: "Nebovidy"
+
+# Jan Žižka
+markers.nebovidy-zizka.label: "Jan Žižka"
+
+# Royal vanguard
+markers.nebovidy-vanguard.label: "Kraliyet öncüsü"
+
+# Surprise attack
+markers.nebovidy-surprise.label: "Baskın"
+
+# Before they form
+markers.nebovidy-noline.label: "Saf tutmadan önce"
+
+# Road from Habry
+markers.nemecky-brod-habry.label: "Habry yolu"
+
+# Ice on the Sázava
+markers.nemecky-brod-ice.label: "Sázava’nın buzu"
+
+# Německý Brod
+markers.nemecky-brod-town.label: "Německý Brod"
+
+# Jan Žižka
+markers.nemecky-brod-zizka.label: "Jan Žižka"
+
+# Sigismund
+markers.nemecky-brod-sigismund.label: "Sigismund"
+
+# Pursuit
+markers.nemecky-brod-pursuit.label: "Takip"
+
+# Prague
+markers.prague-1422.label: "Prag"
+
+# Německý Brod
+markers.nemecky-brod-1423.label: "Německý Brod"
+
+# Hradec Králové
+markers.hradec-kralove-1423.label: "Hradec Králové"
+
+# Konopiště
+markers.konopiste-1423.label: "Konopiště"
+
+# Strachův Dvůr
+markers.strachuv-dvur-1423.label: "Strachův Dvůr"
+
+# Jihlava
+markers.jihlava-1423.label: "Jihlava"
+
+# Upper Hungary
+markers.upper-hungary-1423.label: "Yukarı Macaristan"
+
+# Hradec Králové
+markers.hradec-kralove-1424.label: "Hradec Králové"
+
+# Opočno
+markers.opocno-1424.label: "Opočno"
+
+# Častolovice
+markers.castolovice-1424.label: "Častolovice"
+
+# Plzeň
+markers.plzen-1424.label: "Plzeň"
+
+# Žatec
+markers.zatec-1424.label: "Žatec"
+
+# Kostelec nad Labem
+markers.kostelec-1424.label: "Kostelec nad Labem"
+
+# Jan Žižka
+markers.malesov-ground-zizka.label: "Jan Žižka"
+
+# Diviš Bořek of Miletínek
+markers.malesov-ground-borek.label: "Miletínekli Diviš Bořek"
+
+# Chosen ground
+markers.malesov-ground-slope.label: "Seçilmiş arazi"
+
+# Narrow valley
+markers.malesov-ground-valley.label: "Dar vadi"
+
+# Hidden stone wagons
+markers.malesov-ground-stones.label: "Gizli taş arabaları"
+
+# Jan Žižka
+markers.malesov-wagons-zizka.label: "Jan Žižka"
+
+# Head of the column
+markers.malesov-wagons-head.label: "Kolun başı"
+
+# Wagons of stones
+markers.malesov-wagons-stones.label: "Taş arabaları"
+
+# Guns
+markers.malesov-wagons-guns.label: "Toplar"
+
+# Jan Žižka
+markers.malesov-rout-zizka.label: "Jan Žižka"
+
+# Petr Turkovec
+markers.malesov-rout-turkovec.label: "Petr Turkovec"
+
+# Charge downhill
+markers.malesov-rout-charge.label: "Yokuş aşağı hücum"
+
+# Horse held back
+markers.malesov-rout-horse.label: "Geride tutulan atlılar"
+
+# Kutná Hora
+markers.kutna-hora-1424.label: "Kutná Hora"
+
+# Turnov
+markers.turnov-1424.label: "Turnov"
+
+# Libeň
+markers.liben-1424.label: "Libeň"
+
+# Žižkovo Pole
+markers.zizkovo-pole-1424.label: "Žižkovo Pole"
+
+# Prague
+markers.prague-1425.label: "Prag"
+
+# Tábor
+markers.tabor-1425.label: "Tábor"
+
+# Hradec Králové
+markers.hradec-1425.label: "Hradec Králové"
+
+# Žatec
+markers.zatec-1425.label: "Žatec"
+
+# Retz
+markers.retz-1425.label: "Retz"
+
+# Moravský Krumlov
+markers.krumlov-1425.label: "Moravský Krumlov"
+
+# Břeclav
+markers.breclav-1426.label: "Břeclav"
+
+# Ústí nad Labem
+markers.usti-town-1426.label: "Ústí nad Labem"
+
+# Freiberg
+markers.freiberg-1426.label: "Freiberg"
+
+# Česká Lípa
+markers.ceska-lipa-1426.label: "Česká Lípa"
+
+# Mladá Boleslav
+markers.mlada-boleslav-1426.label: "Mladá Boleslav"
+
+# Sigismund Korybut
+markers.usti-fort-korybut.label: "Sigismund Korybut"
+
+# Prokop the Great
+markers.usti-fort-prokop.label: "Büyük Prokop"
+
+# Boso of Vitzthum
+markers.usti-fort-boso.label: "Vitzthumlu Boso"
+
+# Wagon fort
+markers.usti-fort-ring.label: "Araba kalesi"
+
+# Two lines of wagons
+markers.usti-fort-lines.label: "İki sıra araba"
+
+# Guns at the gaps
+markers.usti-fort-guns.label: "Aralıklarda toplar"
+
+# Boso of Vitzthum
+markers.usti-assault-boso.label: "Vitzthumlu Boso"
+
+# Knights inside the ring
+markers.usti-assault-knights.label: "Halkanın içindeki şövalyeler"
+
+# Second line of wagons
+markers.usti-assault-lines.label: "İkinci araba sırası"
+
+# Crossfire
+markers.usti-assault-crossfire.label: "Çapraz ateş"
+
+# Hooks
+markers.usti-assault-hooks.label: "Kancalar"
+
+# Hrbovice
+markers.usti-rout-hrbovice.label: "Hrbovice"
+
+# Předlice
+markers.usti-rout-predlice.label: "Předlice"
+
+# Counts and lords
+markers.usti-rout-lords.label: "Kontlar ve senyörler"
+
+# Sally
+markers.usti-rout-sally.label: "Çıkış"
+
+# Horse kept for the pursuit
+markers.usti-rout-pursuit.label: "Kovalamaca için saklanan atlılar"
+
+# Prague
+markers.prague-1427.label: "Prag"
+
+# Valdštejn
+markers.valdstejn-1427.label: "Valdštejn"
+
+# Weiden
+markers.weiden-1427.label: "Weiden"
+
+# Cheb
+markers.cheb-1427.label: "Cheb"
+
+# Stříbro
+markers.stribro-1427.label: "Stříbro"
+
+# Tachov
+markers.tachov-town-1427.label: "Tachov"
+
+# Altenburg
+markers.altenburg-1427.label: "Altenburg"
+
+# Kolín
+markers.kolin-1427.label: "Kolín"
+
+# Pressburg
+markers.pressburg-1428.label: "Pressburg"
+
+# Nysa
+markers.nysa-1428.label: "Nysa"
+
+# Wrocław
+markers.wroclaw-1428.label: "Wrocław"
+
+# Pressburg
+markers.pressburg-1429.label: "Pressburg"
+
+# Prague
+markers.prague-1429.label: "Prag"
+
+# Bautzen
+markers.bautzen-1429.label: "Bautzen"
+
+# Guben
+markers.guben-1429.label: "Guben"
+
+# Grimma
+markers.grimma-1430.label: "Grimma"
+
+# Altenburg
+markers.altenburg-1430.label: "Altenburg"
+
+# Plauen
+markers.plauen-1430.label: "Plauen"
+
+# Bayreuth
+markers.bayreuth-1430.label: "Bayreuth"
+
+# Beheimstein
+markers.beheimstein-1430.label: "Beheimstein"
+
+# Bamberg
+markers.bamberg-1430.label: "Bamberg"
+
+# Nuremberg
+markers.nuremberg-1430.label: "Nürnberg"
+
+# Šintava
+markers.sintava-1430.label: "Šintava"
+
+# Ilava
+markers.ilava-1431.label: "Ilava"
+
+# Trnava
+markers.trnava-1432.label: "Trnava"
+
+# Skalica
+markers.skalica-1432.label: "Skalica"
+
+# Žilina
+markers.zilina-1432.label: "Žilina"
+
+# Likava
+markers.likava-1431.label: "Likava"
+
+# Topoľčany
+markers.topolcany-1432.label: "Topoľčany"
+
+# Weiden
+markers.weiden-1431.label: "Weiden"
+
+# Kladruby
+markers.kladruby-1431.label: "Kladruby"
+
+# Domažlice
+markers.domazlice-town-1431.label: "Domažlice"
+
+# Chotěšov
+markers.chotesov-1431.label: "Chotěšov"
+
+# Frankfurt on the Oder
+markers.frankfurt-1432.label: "Oder kıyısındaki Frankfurt"
+
+# Müncheberg
+markers.muencheberg-1432.label: "Müncheberg"
+
+# Bernau
+markers.bernau-1432.label: "Bernau"
+
+# Niemcza
+markers.niemcza-1430.label: "Niemcza"
+
+# Otmuchów
+markers.otmuchow-1430.label: "Otmuchów"
+
+# Gorzów
+markers.gorzow-1433.label: "Gorzów"
+
+# Chojnice
+markers.chojnice-1433.label: "Chojnice"
+
+# Tczew
+markers.tczew-1433.label: "Tczew"
+
+# Oliwa
+markers.oliwa-1433.label: "Oliwa"
+
+# Jasieniec
+markers.jasieniec-1433.label: "Jasieniec"
+
+# Prague
+markers.prague-1433.label: "Prag"
+
+# New Town of Prague
+markers.newtown-1434.label: "Prag Yeni Şehri"
+
+# Diviš Bořek of Miletínek
+markers.lipany-forts-borek.label: "Miletínekli Diviš Bořek"
+
+# Prokop the Great
+markers.lipany-forts-prokop.label: "Büyük Prokop"
+
+# Wagon fort on the slope
+markers.lipany-forts-slope.label: "Yamaçta araba kalesi"
+
+# Out of range
+markers.lipany-forts-range.label: "Menzil dışında"
+
+# Hidden reserve
+markers.lipany-forts-reserve.label: "Gizli yedek"
+
+# Prokop the Great
+markers.lipany-feint-prokop.label: "Büyük Prokop"
+
+# Rear guard
+markers.lipany-feint-rear.label: "Artçı"
+
+# Feigned retreat
+markers.lipany-feint-retreat.label: "Sahte geri çekilme"
+
+# Fort opened
+markers.lipany-feint-opened.label: "Kale açılır"
+
+# Both Prokops
+markers.lipany-rout-prokops.label: "İki Prokop"
+
+# Field army foot
+markers.lipany-rout-plain.label: "Sahra ordusu yayaları"
+
+# Jan Čapek of Sány
+markers.lipany-rout-capek.label: "Sánylı Jan Čapek"
+
+# Cut off from the fort
+markers.lipany-rout-cutoff.label: "Kaleden koparılma"
+
+# Horse into the fort
+markers.lipany-rout-breach.label: "Kaleye giren atlılar"
+
+# Prague
+markers.prague-1436.label: "Prag"
+
+# Prague
+markers.prague-1448.label: "Prag"
+
+# Fishpond shores: traced from the EU-DEM elevation model, Copernicus
+pages.sudomer-dike.map_sources.0: "Gölet kıyıları: Copernicus EU-DEM yükseklik modelinden çizildi"
+
+# Fishpond shores: traced from the EU-DEM elevation model, Copernicus
+pages.sudomer-dismount.map_sources.0: "Gölet kıyıları: Copernicus EU-DEM yükseklik modelinden çizildi"
+
+# Fishpond shores: traced from the EU-DEM elevation model, Copernicus
+pages.sudomer-dusk.map_sources.0: "Gölet kıyıları: Copernicus EU-DEM yükseklik modelinden çizildi"
+
+# Vltava: drawn after the EU-DEM elevation model, Copernicus
+pages.vitkov-works.map_sources.0: "Vltava: Copernicus EU-DEM yükseklik modeline göre çizildi"
+
+# Vltava: drawn after the EU-DEM elevation model, Copernicus
+pages.vitkov-assault.map_sources.0: "Vltava: Copernicus EU-DEM yükseklik modeline göre çizildi"
+
+# Vltava: drawn after the EU-DEM elevation model, Copernicus
+pages.vitkov-flank.map_sources.0: "Vltava: Copernicus EU-DEM yükseklik modeline göre çizildi"

@@ -1,0 +1,20 @@
+lnglat: [12.5794, 49.3839]
+name: "Battle of Hiltersried"
+date: "21 September 1433"
+result: "Victory of the Upper Palatinate"
+source: https://en.wikipedia.org/wiki/Battle_of_Hiltersried
+images: [hiltersried-print-511658, hiltersried-memorial-a15ed3]
+families:
+  empire: { color: "#7a6a53", color_dark: "#b8a68a" }
+  taborites: { color: "#b5352a", color_dark: "#e8695c" }
+sides:
+  - name: "Upper Palatinate"
+    color: empire
+    commanders: ["John, Count Palatine of Neumarkt", "Hynčík Pflug of Rabštejn"]
+    strength: "About 300 horse and 600 foot, with local peasants"
+    casualties: "10 knights and 129 men by Riezler, about 300 by Urbánek"
+  - name: "Field army foragers from the siege of Plzeň"
+    color: taborites
+    commanders: ["Jan Pardus of Horka", "Jan Řitka of Bezdědice"]
+    strength: "About 1,400 foot and 400 to 500 horse, with 44 or 94 wagons"
+    casualties: "1,200 killed by the Old Czech Annals, about 330 taken prisoner"

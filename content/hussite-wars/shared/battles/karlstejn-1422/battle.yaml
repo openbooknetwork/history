@@ -1,0 +1,18 @@
+lnglat: [14.1882, 49.9393]
+name: "Siege of Karlštejn"
+date: "20 or 28 May – 8 November 1422"
+result: "Truce for one year, the castle holds"
+source: https://cs.wikipedia.org/wiki/Obléhání_Karlštejna_husity
+images: [karlstejn-siege-d9ab74, karlstejn-1720-199fc6]
+families:
+  prague: { color: "#d4a017", color_dark: "#f2c94c" }
+  royalists: { color: "#2f6fb0", color_dark: "#6fa6e0" }
+sides:
+  - name: "Prague and Sigismund Korybut"
+    color: prague
+    commanders: ["Sigismund Korybut"]
+    strength: "The army of Prague and Polish troops, with five large guns and five catapults"
+  - name: "Royal garrison"
+    color: royalists
+    commanders: ["Zdeslav Tluksa of Buřenice", "Jan of Lestkov"]
+    strength: "About 400"

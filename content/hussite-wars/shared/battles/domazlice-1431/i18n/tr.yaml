@@ -1,0 +1,47 @@
+# tr strings for the battle "domazlice-1431".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Crusade army of the Empire and the papal legate
+battle.sides.0.name: "İmparatorluğun ve papalık elçisinin haçlı ordusu"
+
+# 130,000 by the Old Czech Annals, 40,350 horse, 90,000 foot and 9,000 wagons by Bartošek of Drahonice
+battle.sides.0.strength: "Eski Çek Yıllıkları’na göre 130.000, Drahoniceli Bartošek’e göre 40.350 atlı, 90.000 yaya ve 9.000 araba"
+
+# Over 200 killed, most of them Cesarini’s Italians, about 2,000 wagons and 300 guns lost
+battle.sides.0.casualties: "Çoğu Cesarini’nin İtalyanları olmak üzere 200’den fazla ölü, yaklaşık 2.000 araba ve 300 top kaybı"
+
+# Hussite unions: Taborites, Orphans, Praguers and the Hussite towns
+battle.sides.1.name: "Husçu birlikleri: Táborcular, Yetimler, Praglılar ve Husçu kentler"
+
+# 40,000 by the Old Czech Annals, 55,000 with 3,000 wagons by Bartošek of Drahonice
+battle.sides.1.strength: "Eski Çek Yıllıkları’na göre 40.000, Drahoniceli Bartošek’e göre 3.000 arabayla 55.000"
+
+# Unknown
+battle.sides.1.casualties: "Bilinmiyor"
+
+# Battle of Domažlice
+battle.name: "Domažlice Muharebesi"
+
+# 14 August 1431
+battle.date: "14 Ağustos 1431"
+
+# Hussite victory: the crusaders flee before the battle
+battle.result: "Husçu zaferi: haçlılar savaştan önce kaçar"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Frederick of Brandenburg
+battle.sides.0.commanders.0: "Brandenburglu Friedrich"
+
+# Henry of Plauen
+battle.sides.0.commanders.2: "Plauenli Heinrich"
+
+# John of Würzburg
+battle.sides.0.commanders.3: "Würzburglu Johann"
+
+# Prokop the Great
+battle.sides.1.commanders.0: "Büyük Prokop"
+
+# Prokop the Lesser
+battle.sides.1.commanders.1: "Küçük Prokop"

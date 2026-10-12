@@ -1,0 +1,16 @@
+lnglat: [13.997, 49.013]
+name: "Storming of Prachatice"
+date: "12 November 1420"
+result: "Taborite victory, the town taken"
+source: https://en.wikipedia.org/wiki/Jan_%C5%BDi%C5%BEka
+images: [prachatice-gate-edb25c]
+families:
+  taborites: { color: "#b5352a", color_dark: "#e8695c" }
+  royalists: { color: "#2f6fb0", color_dark: "#6fa6e0" }
+sides:
+  - name: "Tábor"
+    color: taborites
+    commanders: ["Jan Žižka"]
+  - name: "Town of Prachatice"
+    color: royalists
+    casualties: "135 men killed in the streets and 85 burned in the church, by Laurence of Březová"

@@ -1,0 +1,24 @@
+date: "7 – 10 January 1422"
+title: "The pursuit to Německý Brod"
+sources: ['Ze starých letopisů českých (1980).', 'Josef Pekař, Zprávy pramenů o bojích u Hory a Brodu kol vánoc 1421 (1928).', 'Frederick G. Heymann, John Žižka and the Hussite Revolution (1955).']
+bbox: [15.525, 49.583, 15.636, 49.663]
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[15.665, 49.6025], [15.65, 49.6025], [15.64, 49.607], [15.625, 49.6075], [15.612, 49.606], [15.603, 49.6005], [15.595, 49.6], [15.588, 49.6026], [15.58, 49.6036], [15.57, 49.6043], [15.56, 49.6054], [15.552, 49.608], [15.545, 49.6105], [15.53, 49.616], [15.515, 49.619], [15.5, 49.627]], width: 110, id: sazava, name: 'The Sázava, frozen over in January 1422, drawn wider than it is'}
+  units:
+    - {side: hungary, type: fort, width: 560, depth: 560, facing: 0, id: town, name: 'Německý Brod, held by part of the royal commanders and their men to cover the flight', at: [15.5807, 49.60804]}
+    - {side: hungary, type: irregular, width: 1100, depth: 350, facing: 200, id: fleeing, name: 'The royal army in flight from Habry, 8 January 1422', at: [15.55644, 49.61564]}
+    - {side: taborites, type: cavalry, width: 700, depth: 220, facing: 200, id: horse, name: Hussite horse in pursuit, at: [15.56337, 49.62559]}
+    - {side: taborites, type: wagons, width: 1500, depth: 420, facing: 243, id: wagons, name: 'The wagons of the Hussites of Tábor, Prague and the towns, a third of the royal army by Thomas Ebendorfer, following the same day. Fewer wagons are drawn than there were', rows: 4, count: 10, at: [15.55713, 49.6464]}
+  arrows:
+    - {side: hungary, path: [[15.56199, 49.61383], [15.56268, 49.60569], [15.5606, 49.59845]], width: 140, id: ice, name: 'The fugitives cross the frozen Sázava, and the ice breaks under the armoured men', style: dashed}
+    - {side: hungary, path: [[15.5509, 49.61383], [15.54882, 49.6066], [15.54812, 49.59936]], width: 140, id: ice, name: 'The fugitives cross the frozen Sázava, and the ice breaks under the armoured men', style: dashed}
+    - {side: hungary, path: [[15.55713, 49.59755], [15.56268, 49.59212], [15.56822, 49.58669]], width: 140, id: south, name: The rest of the royal army flees south into Moravia, style: dashed}
+    - {side: taborites, path: [[15.56285, 49.62466], [15.55852, 49.61881]], width: 130, id: pursuit, name: The Hussite horse ride down the fugitives}
+    - {side: taborites, path: [[15.56217, 49.63995], [15.57377, 49.63012], [15.57987, 49.61248]], width: 130, id: assault, name: '10 January: Hussite troops break into the town without Žižka’s order while the garrison is negotiating, and kill most of it'}
+  clashes:
+    - {at: [15.55824, 49.61836], size: 230}
+    - {at: [15.58015, 49.6113], size: 230}
+markers: [nemecky-brod-habry, nemecky-brod-ice, nemecky-brod-town, nemecky-brod-zizka, nemecky-brod-sigismund, nemecky-brod-pursuit]
+routes: [sigismund-1422, zizka-1422]

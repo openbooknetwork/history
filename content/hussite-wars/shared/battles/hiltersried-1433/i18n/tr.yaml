@@ -1,0 +1,41 @@
+# tr strings for the battle "hiltersried-1433".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Upper Palatinate
+battle.sides.0.name: "Yukarı Pfalz"
+
+# About 300 horse and 600 foot, with local peasants
+battle.sides.0.strength: "Yerel köylülerle birlikte yaklaşık 300 atlı ve 600 yaya"
+
+# 10 knights and 129 men by Riezler, about 300 by Urbánek
+battle.sides.0.casualties: "Riezler’e göre 10 şövalye ve 129 asker, Urbánek’e göre yaklaşık 300"
+
+# Field army foragers from the siege of Plzeň
+battle.sides.1.name: "Plzeň kuşatmasından sahra ordusunun erzak birliği"
+
+# About 1,400 foot and 400 to 500 horse, with 44 or 94 wagons
+battle.sides.1.strength: "44 ya da 94 arabayla yaklaşık 1.400 yaya ve 400 ile 500 atlı"
+
+# 1,200 killed by the Old Czech Annals, about 330 taken prisoner
+battle.sides.1.casualties: "Eski Çek Yıllıkları’na göre 1.200 ölü, yaklaşık 330 esir"
+
+# Battle of Hiltersried
+battle.name: "Hiltersried Muharebesi"
+
+# 21 September 1433
+battle.date: "21 Eylül 1433"
+
+# Victory of the Upper Palatinate
+battle.result: "Yukarı Pfalz’ın zaferi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# John, Count Palatine of Neumarkt
+battle.sides.0.commanders.0: "Neumarktlı Pfalz Kontu Johann"
+
+# Jan Pardus of Horka
+battle.sides.1.commanders.0: "Horkalı Jan Pardus"
+
+# Jan Řitka of Bezdědice
+battle.sides.1.commanders.1: "Bezdědiceli Jan Řitka"

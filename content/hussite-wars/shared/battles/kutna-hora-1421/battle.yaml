@@ -1,0 +1,23 @@
+lnglat: [15.2545, 49.9497]
+name: "Battle of Kutná Hora"
+date: "21 December 1421 – 10 January 1422"
+result: "Hussite victory, the royal army driven out of Bohemia"
+source: https://en.wikipedia.org/wiki/Battle_of_Kutn%C3%A1_Hora
+images: [mathauser-kutna-hora-055c67, kutna-hora-flight-b90e57]
+families:
+  taborites: { color: "#b5352a", color_dark: "#e8695c" }
+  prague: { color: "#d4a017", color_dark: "#f2c94c" }
+  hungary: { color: "#3d7a2a", color_dark: "#7cc160" }
+  austria: { color: "#b03a7a", color_dark: "#e07ab0" }
+  royalists: { color: "#2f6fb0", color_dark: "#6fa6e0" }
+sides:
+  - name: "Hussites of Tábor, Prague and the towns"
+    color: taborites
+    commanders: ["Jan Žižka"]
+    strength: "About a third of the royal army by Thomas Ebendorfer"
+    casualties: "Unknown, the Hussites of Kutná Hora killed"
+  - name: "Sigismund’s royal army"
+    color: hungary
+    commanders: ["Sigismund of Luxembourg", "Pippo Spano"]
+    strength: "About 50,000 by the Old Czech Annals, 80,000 Hungarians and 12,000 Austrians by Eberhard Windecke"
+    casualties: "12,000 or 2,000 in the flight by two versions of the Old Czech Annals, 548 drowned in the Sázava"

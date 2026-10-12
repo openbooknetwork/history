@@ -1,0 +1,21 @@
+date: "6 January 1422"
+title: "Nebovidy"
+sources: ['František Šmahel, Jan Žižka z Trocnova (1969), p. 138.', 'Otakar Frankenberger, Naše velká armáda, vol. 1 (1921), p. 176.', 'Frederick G. Heymann, John Žižka and the Hussite Revolution (1955).']
+bbox: [15.2, 49.9685, 15.245, 49.9975]
+emblem:
+  kind: battle-plan
+  units:
+    - {side: taborites, type: wagons, width: 560, depth: 220, facing: 260, id: wagons, name: 'The Hussite army of Taborites, Praguers and Orebites with its wagons, and the men raised round Jičín and Turnov. The chronicles do not record how the wagons stood at Nebovidy. Fewer wagons are drawn than there were.', rows: 4, count: 8, at: [15.2216, 49.98589]}
+    - {side: taborites, type: infantry, width: 380, depth: 90, facing: 170, id: foot, name: Hussite foot attacking the height, at: [15.21866, 49.9811]}
+    - {side: prague, type: infantry, width: 320, depth: 90, facing: 170, id: praguers, name: Prague foot, at: [15.22732, 49.9811]}
+    - {side: hungary, type: knights, width: 820, depth: 220, facing: 350, id: vanguard, name: 'The royal vanguard, mostly Hungarians, on the rising ground south of the village. It cannot form a line before the Hussites are on it. The royal troops stood on the hills “so thick that it looked like a forest”, by the Old Czech Annals', at: [15.22397, 49.97648]}
+  arrows:
+    - {side: taborites, path: [[15.21251, 50.00055], [15.2174, 49.99512], [15.22201, 49.98594]], width: 50, id: from-kolin, name: 'Žižka’s army comes from Kolín, about 4 km to the north'}
+    - {side: taborites, path: [[15.22232, 49.98322], [15.22034, 49.98191], [15.21858, 49.98141]], width: 45, id: advance, name: The Hussite foot go forward from the wagons}
+    - {side: taborites, path: [[15.21877, 49.9807], [15.21978, 49.97811]], width: 55, id: attack, name: The Hussites attack before the vanguard can form a line}
+    - {side: prague, path: [[15.22743, 49.9807], [15.22802, 49.97802]], width: 55, id: attack, name: The Hussites attack before the vanguard can form a line}
+    - {side: hungary, path: [[15.22579, 49.9754], [15.23208, 49.97341], [15.23836, 49.97205]], width: 50, id: flight, name: The vanguard breaks and flees towards Kutná Hora, style: dashed}
+  clashes:
+    - {at: [15.21978, 49.97784], size: 95}
+    - {at: [15.22802, 49.97775], size: 95}
+markers: [nebovidy-village, nebovidy-zizka, nebovidy-vanguard, nebovidy-surprise, nebovidy-noline]

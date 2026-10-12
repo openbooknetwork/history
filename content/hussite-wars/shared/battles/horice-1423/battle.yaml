@@ -1,0 +1,19 @@
+lnglat: [15.643, 50.366]
+name: "Battle of Hořice"
+date: "20, 23 or 27 April 1423"
+result: "Victory of Žižka's Orebites"
+source: https://en.wikipedia.org/wiki/Battle_of_Hořice
+images: [horice-gothard-fb4d37, horice-zizka-statue-dfde09]
+families:
+  taborites: { color: "#b5352a", color_dark: "#e8695c" }
+  royalists: { color: "#2f6fb0", color_dark: "#6fa6e0" }
+sides:
+  - name: "Orebites"
+    color: taborites
+    commanders: ["Jan Žižka", "Diviš Bořek of Miletínek"]
+    strength: "About 120 wagons and 3,000 men, a tenth of them mounted"
+  - name: "Lords under Čeněk of Vartenberk"
+    color: royalists
+    commanders: ["Čeněk of Vartenberk"]
+    strength: "Probably not much stronger than Žižka's army"
+    casualties: "Heavy, all wagons and guns lost"

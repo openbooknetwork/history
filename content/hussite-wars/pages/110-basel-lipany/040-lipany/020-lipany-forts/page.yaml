@@ -1,0 +1,20 @@
+date: "30 May 1434, from about 3 in the afternoon"
+title: "Two wagon forts"
+bbox: [14.906, 50.0265, 14.95, 50.045]
+routes: []
+markers: [lipany-forts-borek, lipany-forts-prokop, lipany-forts-hriby, lipany-forts-hill, lipany-forts-slope, lipany-forts-range, lipany-forts-reserve]
+sources: ['Petr Čornej, Lipanská křižovatka (1992).', 'Bartošek of Drahonice, Chronicle, and the letter of the Plzeň men of 1 June 1434, in František Šmahel, Die Hussitische Revolution (2002), vol. 3.', 'Stephen Turnbull, The Hussite Wars 1419–36 (2004).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[14.9118, 50.0265], [14.911, 50.029], [14.9092, 50.0305], [14.908, 50.0325], [14.9076, 50.035], [14.9072, 50.0368], [14.9085, 50.0385], [14.9092, 50.04], [14.9084, 50.042], [14.9078, 50.0445], [14.9058, 50.0465]], width: 16, id: bylanka, name: The Bylanka brook in the valley west of Hřiby}
+  units:
+    - {side: taborites, type: wagon-fort, width: 480, depth: 300, facing: 310, id: field-fort, name: 'Wagon fort of the Taborite and Orphan field armies at the foot of Lipská hora: 360 to 480 wagons, drawn as 30, chained in six rows, with the slope behind it and its right flank on the small Jordán pond by most accounts. Prokop the Great and Prokop the Lesser command about 10,000 foot and 700 horse by Čornej, 9,000 foot and 700 horse by Bartošek of Drahonice, 6,000 to 8,000 men by Šmahel.', count: 30, at: [14.93702, 50.03401]}
+    - {side: taborites, type: artillery, width: 260, depth: 70, facing: 310, id: field-guns, name: 'Guns of the field armies: more than 40 howitzers by Bartošek of Drahonice, 32 by the Zittau chronicler', count: 6, at: [14.93487, 50.03517]}
+    - {side: taborites, type: cavalry, width: 240, depth: 80, facing: 310, id: capek, name: 'Horse of the field armies under Jan Čapek of Sány, about 700 by Bartošek of Drahonice', at: [14.93932, 50.03276]}
+    - {side: prague, type: wagon-fort, width: 600, depth: 380, facing: 130, id: lords-fort, name: 'Wagon fort of the lords’ league on the plain north-east of Hřiby: 660 to 720 wagons by Čornej, drawn as 30, in 11 or 12 rows under Jan Černín of Vysoká. Four guns stand at the front, the rest on the flanks. Diviš Bořek of Miletínek commands 12,000 to 13,000 foot and about 1,200 horse by Čornej, 10,000 foot and 1,000 horse by Bartošek of Drahonice.', count: 30, at: [14.92598, 50.03999]}
+    - {side: prague, type: infantry, width: 340, depth: 85, facing: 130, id: vanguard, name: 'Vanguard of the league under Mikuláš Krchlebec of Krchleby, burgrave of Zvíkov, on foot: Rožmberk men, men of Prácheň and Karlštejn and of Menhart of Hradec', at: [14.92817, 50.0381]}
+    - {side: prague, type: infantry, width: 220, depth: 85, facing: 130, id: rear-guard, name: 'Rear guard of the league, its striking force the Plzeň landfrýd and the Rožmberk men under the Rožmberk banner', at: [14.93078, 50.04306]}
+    - {side: prague, type: knights, width: 200, depth: 85, facing: 103.7930427822456, id: hidden-horse, name: 'Horse of the league held below the slope to the brook, out of sight of the field armies: lords who had once fought beside Tábor, among them Jan Malovec of Pacov, Mikuláš of Landštejn and Arnošt of Leskov. Only a few commanders know it is there.', at: [14.91272, 50.03786]}
+  arrows:
+    - {side: taborites, path: [[14.9345, 50.03537], [14.93196, 50.03651], [14.92996, 50.03736]], width: 45, id: gunfire, name: 'The field armies fire first. The lords’ fort stands out of range, and the shots do little harm.', style: fire}

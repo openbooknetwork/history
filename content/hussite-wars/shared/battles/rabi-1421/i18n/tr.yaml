@@ -1,0 +1,21 @@
+# tr strings for the battle "rabi-1421".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Tábor
+battle.sides.0.name: "Tábor"
+
+# Žižka loses the sight of his remaining eye
+battle.sides.0.casualties: "Žižka sağlam kalan tek gözünü de kaybeder"
+
+# Garrison of Jan of Rýzmberk
+battle.sides.1.name: "Rýzmberklı Jan’ın garnizonu"
+
+# Siege of Rabí
+battle.name: "Rabí Kuşatması"
+
+# June or July 1421
+battle.date: "Haziran ya da Temmuz 1421"
+
+# Taborite victory, the castle taken, Žižka blinded
+battle.result: "Táborcu zaferi, kale alınır, Žižka kör olur"

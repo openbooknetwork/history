@@ -1,0 +1,22 @@
+lnglat: [14.4505, 50.0887]
+name: "Battle of Vítkov Hill"
+date: "14 July 1420"
+result: "Hussite victory, the crusaders fail to close the ring round Prague"
+source: https://en.wikipedia.org/wiki/Battle_of_Vítkov_Hill
+images: [vitkov-liebscher-3eb327, vitkov-mucha-24bca6]
+families:
+  taborites: { color: "#b5352a", color_dark: "#e8695c" }
+  prague: { color: "#d4a017", color_dark: "#f2c94c" }
+  empire: { color: "#7a6a53", color_dark: "#b8a68a" }
+  hungary: { color: "#3d7a2a", color_dark: "#7cc160" }
+sides:
+  - name: "Hussites of Tábor and Prague"
+    color: taborites
+    commanders: ["Jan Žižka"]
+    strength: "26 men, 2 women and a girl in the works, then about 50 shooters and peasants with flails from the city, by Laurence of Březová"
+    casualties: "Unknown"
+  - name: "Crusaders"
+    color: empire
+    commanders: ["Sigismund", "Frederick, Margrave of Meissen", "Heinrich of Isenburg"]
+    strength: "7,000 to 8,000 horse in the attack, by Laurence of Březová"
+    casualties: "About 300 killed by Laurence of Březová, 144 to 500 in other chronicles, Heinrich of Isenburg among them"

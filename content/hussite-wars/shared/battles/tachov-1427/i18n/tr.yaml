@@ -1,0 +1,44 @@
+# tr strings for the battle "tachov-1427".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Crusade army of the Empire, with the Plzeň landfrýd and English archers
+battle.sides.0.name: "Plzeň landfrýdı ve İngiliz okçularıyla birlikte İmparatorluğun haçlı ordusu"
+
+# About 20,000 by modern estimates, 80,000 horse by Bartošek of Drahonice
+battle.sides.0.strength: "Günümüz tahminlerine göre yaklaşık 20.000, Drahoniceli Bartošek’e göre 80.000 atlı"
+
+# Stragglers of the rear guard, about 1,400 prisoners at Tachov (900 by Bartošek of Drahonice)
+battle.sides.0.casualties: "Artçıdan geride kalanlar, Tachov’da yaklaşık 1.400 esir (Drahoniceli Bartošek’e göre 900)"
+
+# Hussite unions: Taborites, Orphans and Praguers
+battle.sides.1.name: "Husçu birlikleri: Táborcular, Yetimler ve Praglılar"
+
+# 16,000 foot and 1,500 horse by Bartošek of Drahonice
+battle.sides.1.strength: "Drahoniceli Bartošek’e göre 16.000 yaya ve 1.500 atlı"
+
+# Unknown
+battle.sides.1.casualties: "Bilinmiyor"
+
+# Battle of Tachov
+battle.name: "Tachov Muharebesi"
+
+# 4 August 1427
+battle.date: "4 Ağustos 1427"
+
+# Hussite victory: the crusaders flee before the battle, Tachov taken
+battle.result: "Husçu zaferi: haçlılar savaştan önce kaçar, Tachov alınır"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Otto of Ziegenhain
+battle.sides.0.commanders.0: "Ziegenhainli Otto"
+
+# Frederick of Brandenburg
+battle.sides.0.commanders.2: "Brandenburglu Friedrich"
+
+# John of Neumarkt
+battle.sides.0.commanders.3: "Neumarktlı Johann"
+
+# Prokop the Great
+battle.sides.1.commanders.0: "Büyük Prokop"

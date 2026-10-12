@@ -1,0 +1,20 @@
+lnglat: [14.4312, 50.0579]
+name: "Battle of Vyšehrad"
+date: "1 November 1420"
+result: "Hussite victory, Vyšehrad surrenders"
+source: https://en.wikipedia.org/wiki/Battle_of_Vyšehrad
+images: [vysehrad-battle-1868-ff128c, vysehrad-1420-print-38e6e9]
+families:
+  prague: { color: "#d4a017", color_dark: "#f2c94c" }
+  royalists: { color: "#2f6fb0", color_dark: "#6fa6e0" }
+sides:
+  - name: "Prague, the Orebites, Žatec, Louny and Tábor"
+    color: prague
+    commanders: ["Hynek Krušina of Lichtenburk", "Diviš Bořek of Miletínek", "Mikuláš of Hus"]
+    strength: "10,000 to 15,000"
+    casualties: "30 killed, by Laurence of Březová"
+  - name: "Sigismund's army"
+    color: royalists
+    commanders: ["Sigismund", "Jindřich of Plumlov", "Petr Konopišťský of Šternberk"]
+    strength: "15,000 to 20,000 by Laurence of Březová, over 10,000 by modern estimates"
+    casualties: "About 400 killed, 25 lords among them, by Laurence of Březová"

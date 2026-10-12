@@ -1,0 +1,40 @@
+# One story: a timeline shown on one map.
+id: hussite-wars
+title: "Jan Žižka and the Hussite Wars"
+summary: "The Hussite revolution in Bohemia and its general Jan Žižka, from the burning of Jan Hus in 1415 through five crusades beaten by the wagon fort to Lipany in 1434 and the Compacts of 1436."
+cover: zizka-jena-codex-d626c6   # Jena Codex, Žižka leading a Hussite field army, about 1500, shown on the main page
+span: "c. 1360 – 1437"
+languages: [en, tr]
+default_language: en
+labels:
+  countries: false
+
+# Map extent for the border data and the opening view: [west, south, east, north]. Reaches Basel and Constance in the
+# west, Gdańsk and Grunwald in the north east, Pressburg and Trnava in the south east.
+extent: [6, 46.5, 23, 55.5]
+# Countries whose land the zones are clipped to. Natural Earth names.
+land: [France, Switzerland, Liechtenstein, Italy, Austria, Germany, Luxembourg, Belgium, Netherlands, Denmark, Sweden, Czechia,
+  Slovakia, Hungary, Slovenia, Croatia, Poland, Lithuania, Russia, Belarus, Ukraine, Romania]
+# Countries drawn with borders. Everything else inside the extent is left out.
+countries: [France, Switzerland, Liechtenstein, Italy, Austria, Germany, Luxembourg, Belgium, Netherlands, Denmark, Sweden, Czechia,
+  Slovakia, Hungary, Slovenia, Croatia, Poland, Lithuania, Russia, Belarus, Ukraine, Romania]
+
+# Zone families. A zone subtracts every zone from a family with a lower priority number.
+# Zones in the same family never cut each other, so one family can hold several dated shapes.
+families:
+  taborites: { priority: 0, color: "#b5352a", color_dark: "#e8695c" }                   # Tábor, Žižka's Orebites and the Orphans, the field armies
+  prague:    { priority: 1, color: "#d4a017", color_dark: "#f2c94c" }                   # Prague and the Hussite towns and lords allied with it, George of Poděbrady
+  royalists: { priority: 2, color: "#2f6fb0", color_dark: "#6fa6e0" }                   # Sigismund's Catholic party in Bohemia and Moravia: Plzeň, Rožmberk, Budweis
+  bohemia:   { priority: 3, color: "#1f8a8a", color_dark: "#4fc4c4" }                   # the lands of the Bohemian crown before the war
+  austria:   { priority: 4, color: "#b03a7a", color_dark: "#e07ab0", pattern: hatch }   # the duchies of Austria under the Habsburgs
+  teutonic:  { priority: 5, color: "#6a3d9a", color_dark: "#a98bd6", pattern: dots }    # the Teutonic Order in Prussia and the Neumark
+  hungary:   { priority: 6, color: "#3d7a2a", color_dark: "#7cc160" }                   # the kingdom of Hungary under Sigismund, then Matthias Corvinus
+  poland:    { priority: 7, color: "#c25b72", color_dark: "#e88aa0", pattern: cross }   # the kingdom of Poland and the grand duchy of Lithuania
+  empire:    { priority: 8, color: "#7a6a53", color_dark: "#b8a68a" }                   # the German princes, bishops and towns: Meissen and Saxony, Bavaria, Brandenburg
+  other:     { priority: 9, color: "#7f8c8d", color_dark: "#aab7b8", pattern: dots }    # other lands: Denmark
+  water:     { priority: 10, color: "#5b9bd5", color_dark: "#2c5d87" }                  # rivers, fishponds and marshes on the battle plans, no zones
+# Corner rounding passes applied to every hand drawn zone before the clip.
+smoothing: 4
+# Battle plans are drawn at the scale of the field: the dike at Sudoměř and the ridge of Vítkov are a few hundred
+# metres long.
+max_zoom: 16

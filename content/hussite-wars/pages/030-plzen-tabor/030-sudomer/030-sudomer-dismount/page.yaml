@@ -1,0 +1,34 @@
+date: "25 March 1420, afternoon"
+title: "The knights on foot"
+routes: []
+markers: [sudomer-dismount-brenek, sudomer-dismount-hradec, sudomer-dismount-foot, sudomer-dismount-mud, sudomer-dismount-guns, sudomer-dismount-flails]
+sources: ['Laurence of Březová, Hussite Chronicle, Czech edition Husitská kronika (1979), p. 49.', 'Josef Pekař, Žižka a jeho doba III (1992 edition), p. 35.', 'Jan Durdík, Husitské vojenství (1953), p. 140.']
+map_sources:
+  - text: "Fishpond shores: traced from the EU-DEM elevation model, Copernicus"
+    url: https://land.copernicus.eu/
+bbox: [14.0612, 49.2386, 14.0772, 49.248]
+emblem:
+  kind: battle-plan
+  water:
+    - {area: [[14.061, 49.2436], [14.0606, 49.2447], [14.0607, 49.2458], [14.0613, 49.2468], [14.0622, 49.2478], [14.0634, 49.2486], [14.0648, 49.2491], [14.0663, 49.2493], [14.0676, 49.249], [14.0686, 49.2482], [14.0692, 49.2472], [14.0694, 49.2462], [14.0693, 49.2452], [14.06905, 49.24425], [14.0681, 49.24386], [14.06681, 49.24353], [14.06543, 49.24314]], id: markovec, name: 'Markovec pond, full of water, drawn after its shore today'}
+    - {path: [[14.07101, 49.24266], [14.07104, 49.24251], [14.07096, 49.24234], [14.07077, 49.24216], [14.07049, 49.24198], [14.07013, 49.24181], [14.06971, 49.24165], [14.06925, 49.24151], [14.06877, 49.24141], [14.06829, 49.24134], [14.06785, 49.24131], [14.06746, 49.24132], [14.06714, 49.24138], [14.06691, 49.24146], [14.06677, 49.24159], [14.06675, 49.24174], [14.06683, 49.2419], [14.06701, 49.24208], [14.06729, 49.24226], [14.06765, 49.24244], [14.06808, 49.2426], [14.06854, 49.24273], [14.06902, 49.24283], [14.06949, 49.2429], [14.06994, 49.24293], [14.07033, 49.24292], [14.07065, 49.24287], [14.07088, 49.24278], [14.07101, 49.24266]], width: 10, id: skaredy, name: 'Škaredý pond, drained at the time of the battle: a bed of soft mud. Drawn after the battle board at the memorial, round the low ground east of it'}
+    - {area: [[14.0602, 49.2398], [14.0611, 49.2394], [14.063, 49.2394], [14.0645, 49.2396], [14.0655, 49.2403], [14.0661, 49.2411], [14.066, 49.2418], [14.065, 49.2416], [14.0635, 49.2416], [14.0622, 49.2415], [14.0614, 49.241], [14.0605, 49.2406]], id: prostredni, name: 'Marsh behind the Hussites, today the Prostřední pond'}
+  works:
+    - {side: neutral, path: [[14.06554, 49.24268], [14.0694, 49.24365]], width: 14, id: dike, name: 'The dike between Markovec and Škaredý, a few metres wide'}
+  units:
+    - {side: taborites, type: wagons, at: [14.06901, 49.24356], width: 100, depth: 32, facing: 69, id: wagons-end, name: 'Four war wagons chained wheel to wheel across the end of the dike. Horses cannot pass them, and handguns and crossbows fire through the gaps', count: 4}
+    - {side: taborites, type: wagons, at: [14.06769, 49.24267], width: 190, depth: 32, facing: 159, id: wagons-side, name: 'Eight war wagons chained along the dike, facing the drained pond on the open side. The Hussites have 12 wagons by the Old Czech Annals', count: 8}
+    - {side: taborites, type: handguns, at: [14.06783, 49.24306], width: 120, depth: 30, facing: 159, id: handguns, name: Handgunners and crossbowmen behind the wagons}
+    - {side: taborites, type: infantry, at: [14.06758, 49.24349], width: 100, depth: 40, facing: 159, id: hussites, name: 'The Hussites from Plzeň under Břeněk Švihovský of Dolany and Jan Žižka: about 400 on foot with women and children, flails, spears and halberds, and 9 horsemen, by the Old Czech Annals'}
+    - {side: royalists, type: knights, at: [14.07036, 49.2439], width: 80, depth: 70, facing: 249, id: hospitallers, name: 'The Hospitallers charge along the dike, a few horses wide, and are shot down before the wagons'}
+    - {side: royalists, type: infantry, at: [14.0686, 49.242], width: 150, depth: 45, facing: 339, id: iron-lords-foot, name: 'The Iron Lords on foot in full armour, wading through the mud to the wagons'}
+    - {side: royalists, type: cavalry, at: [14.07072, 49.24215], width: 90, depth: 40, facing: 339, id: iron-lords-horses, name: 'Their horses, sunk in the mud of the drained pond'}
+    - {side: royalists, type: knights, at: [14.07405, 49.24628], width: 200, depth: 60, facing: 229, id: landfrieden, name: 'The Landfrieden of Plzeň under Bohuslav of Švamberk. The royalists have more than 2,000 horse by the chronicle of the old Prague collegiate, about 700 by Čornej and Bělina'}
+  arrows:
+    - {side: royalists, path: [[14.07164, 49.24461], [14.07102, 49.24416], [14.07004, 49.24382]], width: 18, id: hospitallers-charge, name: The Hospitallers ride at the end of the dike}
+    - {side: taborites, path: [[14.06888, 49.24352], [14.06991, 49.24378]], width: 18, id: handgun-fire, name: Handguns and crossbows fire into the horsemen on the dike, style: fire}
+    - {side: royalists, path: [[14.07418, 49.24379], [14.07283, 49.24282], [14.07145, 49.24228]], width: 18, id: iron-lords-ride, name: 'The Iron Lords ride into the drained pond, and the horses sink in the mud'}
+    - {side: taborites, path: [[14.06695, 49.24279], [14.06757, 49.24198]], width: 18, id: flails, name: Flailmen come out between the wagons and strike the knights on foot}
+  clashes:
+    - {at: [14.06953, 49.24369], size: 45}
+    - {at: [14.06835, 49.24242], size: 45}

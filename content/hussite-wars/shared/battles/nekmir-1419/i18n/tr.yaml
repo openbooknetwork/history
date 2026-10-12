@@ -1,0 +1,38 @@
+# tr strings for the battle "nekmir-1419".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Hussites of Plzeň
+battle.sides.0.name: "Plzeňli Husçular"
+
+# Fewer than 300 on foot and 7 wagons, by the Old Czech Annals
+battle.sides.0.strength: "Eski Çek Yıllıkları’na göre üç yüzden az yaya ve 7 araba"
+
+# Unknown
+battle.sides.0.casualties: "Bilinmiyor"
+
+# Landfrieden of Plzeň
+battle.sides.1.name: "Plzeň Barış Birliği"
+
+# More than 2,000 horse and foot, by the Old Czech Annals
+battle.sides.1.strength: "Eski Çek Yıllıkları’na göre 2.000’i aşkın atlı ve yaya"
+
+# Heavy by some estimates, Hynek of Nekmíř killed
+battle.sides.1.casualties: "Bazı tahminlere göre ağır, Nekmíř’li Hynek öldürülür"
+
+# Battle of Nekmíř
+battle.name: "Nekmíř Muharebesi"
+
+# December 1419 or January 1420
+battle.date: "Aralık 1419 ya da Ocak 1420"
+
+# Hussite victory, the horse of the Landfrieden driven off
+battle.result: "Husçu zaferi, Barış Birliği’nin atlıları püskürtülür"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Bohuslav of Švamberk
+battle.sides.1.commanders.0: "Švamberk’li Bohuslav"
+
+# Hynek of Nekmíř
+battle.sides.1.commanders.1: "Nekmíř’li Hynek"

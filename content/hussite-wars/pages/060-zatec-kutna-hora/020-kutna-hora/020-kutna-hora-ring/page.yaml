@@ -1,0 +1,31 @@
+date: "21 December 1421"
+title: "The wagon fort before the town"
+sources: ['Vavřinec z Březové, Husitská kronika, tr. František Heřmanský (1979).', 'Ze starých letopisů českých (1980), p. 79.', 'Frederick G. Heymann, John Žižka and the Hussite Revolution (1955).']
+bbox: [15.237, 49.9395, 15.2835, 49.9665]
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[15.2585, 49.93], [15.2595, 49.9345], [15.2625, 49.9375], [15.2628, 49.9405], [15.2642, 49.9435], [15.2668, 49.9462], [15.27, 49.9467], [15.2735, 49.9464], [15.2765, 49.9483], [15.279, 49.951], [15.283, 49.9513], [15.288, 49.9518], [15.293, 49.9516]], width: 25, id: vrchlice, name: The Vrchlice brook in its valley below the town}
+  works:
+    - {side: neutral, width: 22, id: walls, name: 'Kutná Hora, the silver town, drawn after the outline of the medieval town', path: [[15.2612, 49.944], [15.26, 49.947], [15.26, 49.95], [15.2612, 49.9522], [15.264, 49.954], [15.268, 49.9548], [15.272, 49.9542], [15.2752, 49.952], [15.2768, 49.9495], [15.274, 49.9474], [15.27, 49.9474], [15.2668, 49.9468], [15.2645, 49.945], [15.263, 49.9437], [15.2612, 49.944]]}
+  units:
+    - {side: taborites, type: wagon-fort, width: 560, depth: 340, facing: 270, id: fort, name: 'Wagon fort of the Hussites of Tábor, Prague and the towns, a third of the royal army by Thomas Ebendorfer. The wagons stand chained wheel to wheel, guns and handguns fire through the gaps, flails and halberds hold them. The number of wagons is not recorded, 36 are drawn.', count: 36, at: [15.2545, 49.9497]}
+    - {side: taborites, type: artillery, width: 240, depth: 55, facing: 270, id: guns, name: 'Guns and handguns on the western side of the fort, facing the royal army', at: [15.25317, 49.9497]}
+    - {side: taborites, type: infantry, width: 320, depth: 70, facing: 270, id: foot, name: 'Hussite foot with flails, halberds and pikes, the men of Kutná Hora who marched out with them among them', at: [15.25534, 49.9497]}
+    - {side: hungary, type: knights, width: 650, depth: 200, facing: 90, id: main-body, name: 'The largest royal body, Hungarian horse and foot with many hundreds of oxen and cows driven among them as cover against the guns, by Laurence of Březová. Sigismund’s army: about 50,000 by the Old Czech Annals, 80,000 Hungarians and 12,000 Austrians by Eberhard Windecke', at: [15.24263, 49.9497]}
+    - {side: hungary, type: cavalry, width: 380, depth: 130, facing: 135, id: hungarians, name: Hungarian horse under Pippo Spano, at: [15.24668, 49.95603]}
+    - {side: austria, type: knights, width: 380, depth: 130, facing: 45, id: austrians, name: Austrian men at arms sent by Duke Albert V, at: [15.24543, 49.94201]}
+    - {side: royalists, type: cavalry, width: 380, depth: 130, facing: 0, id: lords, name: Moravian lords and the Catholic lords of Bohemia, at: [15.25562, 49.94228]}
+    - {side: hungary, type: infantry, width: 320, depth: 110, facing: 180, id: in-town, name: 'Royal troops in Kutná Hora, many hundreds let in through the Kolín gate by exiles from the town, by Laurence of Březová', at: [15.26776, 49.95151]}
+  arrows:
+    - {side: taborites, path: [[15.25981, 49.9495], [15.25841, 49.94961], [15.25715, 49.9497]], width: 45, id: march-out, name: After a short breakfast the Hussites march out of the Kouřim gate and close their wagons about 400 m from the walls}
+    - {side: hungary, path: [[15.2441, 49.95088], [15.25198, 49.95088]], width: 55, id: attacks, name: 'The royal bodies charge the wagons and are driven back by the guns, until night'}
+    - {side: hungary, path: [[15.24732, 49.95562], [15.25087, 49.9535], [15.25241, 49.9525]], width: 55, id: attacks, name: 'The royal bodies charge the wagons and are driven back by the guns, until night'}
+    - {side: austria, path: [[15.24607, 49.94243], [15.25031, 49.94554], [15.25241, 49.9469]], width: 55, id: attacks, name: 'The royal bodies charge the wagons and are driven back by the guns, until night'}
+    - {side: taborites, path: [[15.25206, 49.94861], [15.24445, 49.94861]], width: 45, id: gunfire, name: Guns and handguns fire from the wagons and keep the horse at a distance, style: fire}
+    - {side: hungary, path: [[15.26343, 49.95784], [15.265, 49.9542], [15.26706, 49.95205]], width: 50, id: kolin-gate, name: 'Exiles from Kutná Hora open the Kolín gate to royal troops, who kill the Hussites in the town'}
+  clashes:
+    - {at: [15.25177, 49.95088], size: 90}
+    - {at: [15.25255, 49.95237], size: 90}
+    - {at: [15.25255, 49.94703], size: 90}
+markers: [kutna-hora-ring-zizka, kutna-hora-ring-sigismund, kutna-hora-ring-town, kutna-hora-ring-fort, kutna-hora-ring-guns]

@@ -1,0 +1,53 @@
+# tr strings for the battle "trnava-1430".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Orphans and Taborites with men of the New Town of Prague
+battle.sides.0.name: "Prag Yeni Kenti’nin adamlarıyla birlikte Yetimler ve Táborcular"
+
+# About 10,000 by older estimates
+battle.sides.0.strength: "Eski tahminlere göre yaklaşık 10.000"
+
+# About 2,000 killed and as many horses by Bartošek of Drahonice, Velek Koudelník killed
+battle.sides.0.casualties: "Drahoniceli Bartošek’e göre yaklaşık 2.000 ölü ve bir o kadar at, Velek Koudelník öldürülür"
+
+# Kingdom of Hungary, with Serbian, Moravian and Czech troops
+battle.sides.1.name: "Sırp, Moravyalı ve Çek birlikleriyle Macaristan Krallığı"
+
+# 10,000 to 12,000
+battle.sides.1.strength: "10.000 ile 12.000 arası"
+
+# About 6,000 by Hugo Toman
+battle.sides.1.casualties: "Hugo Toman’a göre yaklaşık 6.000"
+
+# Battle of Trnava
+battle.name: "Trnava Muharebesi"
+
+# 28 April 1430
+battle.date: "28 Nisan 1430"
+
+# Hussite victory, the Hussites withdraw to Moravia
+battle.result: "Husçu zaferi, Husçular Moravya’ya çekilir"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Velek Koudelník of Březnice
+battle.sides.0.commanders.0: "Březniceli Velek Koudelník"
+
+# Prokop the Lesser
+battle.sides.0.commanders.1: "Küçük Prokop"
+
+# Jan Zmrzlík of Svojšín
+battle.sides.0.commanders.2: "Svojšínli Jan Zmrzlík"
+
+# Filip of Padařov
+battle.sides.0.commanders.3: "Padařovlu Filip"
+
+# Sigismund of Luxembourg
+battle.sides.1.commanders.0: "Lüksemburglu Sigismund"
+
+# Stibor of Stiboricz the Younger
+battle.sides.1.commanders.1: "Genç Stiboriczli Stibor"
+
+# John Maróti
+battle.sides.1.commanders.2: "János Maróti"

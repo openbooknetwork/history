@@ -1,0 +1,22 @@
+date: "16 June 1426, morning"
+title: "The wagon fort on Běhání hill"
+routes: []
+markers: [usti-fort-korybut, usti-fort-prokop, usti-fort-boso, usti-fort-ring, usti-fort-lines, usti-fort-guns]
+sources: ['Petr Čornej and Pavel Bělina, Slavné bitvy naší historie (1993), pp. 68 to 74.', 'František Šmahel, Husitská revoluce, vol. 3, Kronika válečných let (1996), pp. 178 to 181.', 'Count Lützow, The Hussite Wars (1914), ch. 5.']
+bbox: [13.95063, 50.65528, 13.97968, 50.67111]
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[13.9392, 50.6793], [13.9421, 50.6773], [13.9488, 50.6771], [13.9562, 50.676], [13.9611, 50.6738], [13.9685, 50.6728], [13.97, 50.6725], [13.9718, 50.6714], [13.9719, 50.6687], [13.9729, 50.6663], [13.9759, 50.6641], [13.9795, 50.6631], [13.9814, 50.6611], [13.9854, 50.6599], [13.9885, 50.6585], [13.9911, 50.658], [13.9962, 50.6551], [14.001, 50.6539]], width: 12, id: zdirnice-brook, name: 'The Ždírnický brook, on its present course. The relief army forms up in its valley between Český Újezd and Hrbovice.'}
+  units:
+    - {side: taborites, type: wagon-fort, at: [13.9648, 50.6598], width: 900, depth: 540, facing: 0, id: wagon-fort, name: 'Wagon fort of the Hussite unions on Běhání hill: about 500 wagons by the chronicles, drawn as 40, chained wheel to wheel. Sigismund Korybut, Prokop the Great and Jan Roháč of Dubá command about 11,000 by Čornej and Bělina, 24,000 to 25,000 by the chronicles. The hill was dug away by a coal mine in 1977–1997.', count: 40}
+    - {side: taborites, type: wagons, at: [13.9648, 50.66052], width: 420, depth: 70, facing: 0, id: second-line, name: Second line of wagons behind the north side. With some 500 wagons the Hussites can set two lines one behind the other (Čornej and Bělina)., count: 9}
+    - {side: taborites, type: artillery, at: [13.96055, 50.66061], width: 120, depth: 70, facing: 0, id: guns, name: Howitzers (houfnice) and light field guns (tarasnice) aimed through gaps in the wagon line, count: 3}
+    - {side: taborites, type: artillery, at: [13.96905, 50.66061], width: 120, depth: 70, facing: 0, id: guns, name: Howitzers (houfnice) and light field guns (tarasnice) aimed through gaps in the wagon line, count: 3}
+    - {side: taborites, type: pavises, at: [13.9648, 50.65991], width: 380, depth: 40, facing: 0, id: pavises, name: 'Pavise bearers: large shields with pointed ends driven into the ground, a cover behind the second line (Lützow)', count: 12}
+    - {side: taborites, type: handguns, at: [13.9648, 50.65944], width: 380, depth: 50, facing: 0, id: handguns, name: 'Handgunners with píšťaly, ready to fire through the gaps between the wagons', count: 8}
+    - {side: taborites, type: infantry, at: [13.9648, 50.65871], width: 380, depth: 80, facing: 0, id: hussite-foot, name: 'Hussite foot with flails, halberds and hooks, held inside the ring'}
+    - {side: taborites, type: cavalry, at: [13.9648, 50.6579], width: 220, depth: 50, facing: 0, id: hussite-horse, name: 'Hussite horse, a few hundred, held inside the ring for a sally'}
+    - {side: empire, type: knights, at: [13.96976, 50.66776], width: 650, depth: 150, facing: 201.6890649646158, id: relief-horse, name: 'Knights and men at arms of Meissen, Saxony, Thuringia and Hesse under Boso of Vitzthum. The relief army: about 13,000 by Čornej and Bělina, 10,000 horse and 20,000 foot by Bartošek of Drahonice, 70,000 by the Old Czech Annals.'}
+    - {side: empire, type: knights, at: [13.95375, 50.66523], width: 380, depth: 130, facing: 127.56859202882748, id: relief-horse-nw, name: Horse of the relief army coming on from Chabařovice in the north-west}
+    - {side: empire, type: infantry, at: [13.96834, 50.67002], width: 700, depth: 130, facing: 192.47510971220896, id: relief-foot, name: 'Foot of the relief army: townsmen and peasant levies, short of food after the march over the mountains'}

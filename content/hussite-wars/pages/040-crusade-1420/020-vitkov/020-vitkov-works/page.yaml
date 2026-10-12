@@ -1,0 +1,29 @@
+date: "14 July 1420, afternoon"
+title: "The works on the ridge"
+routes: []
+markers: [vitkov-works-defenders, vitkov-works-isenburg, vitkov-works-spital, vitkov-works-neck, vitkov-works-ditches, vitkov-works-slope]
+sources: ['Laurence of Březová, Hussite Chronicle, Czech edition Husitská kronika (1979).', 'Old Czech Annals, in Ze starých letopisů českých (1980).', 'Jan Durdík, Husitské vojenství (1953).']
+map_sources:
+  - text: "Vltava: drawn after the EU-DEM elevation model, Copernicus"
+    url: https://land.copernicus.eu/
+bbox: [14.4445, 50.0845, 14.4695, 50.0995]
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[14.424, 50.0947], [14.432, 50.0952], [14.437, 50.096], [14.442, 50.0968], [14.447, 50.0973], [14.451, 50.098], [14.4545, 50.0993], [14.457, 50.1008], [14.4585, 50.103], [14.459, 50.106]], width: 170, id: vltava, name: The Vltava. The crusader camps lie on the far bank}
+  works:
+    - {side: prague, path: [[14.4383, 50.0948], [14.4366, 50.0906], [14.4345, 50.0866], [14.4322, 50.0826], [14.4307, 50.0796], [14.4292, 50.0772]], width: 18, id: town-wall, name: 'The wall of the New Town of Prague, with the Poříčí Gate at its north end and the Mountain Gate at its south end'}
+    - {side: taborites, path: [[14.45168, 50.08957], [14.45207, 50.08814]], width: 16, id: wall, name: A wall of earth and stones across the ridge}
+    - {side: taborites, path: [[14.45239, 50.0896], [14.45275, 50.08827]], width: 9, style: trench, id: ditches, name: 'Three shallow ditches across the neck of the ridge, where only a few horsemen fit side by side'}
+    - {side: taborites, path: [[14.45308, 50.08968], [14.45344, 50.08835]], width: 9, style: trench, id: ditches, name: 'Three shallow ditches across the neck of the ridge, where only a few horsemen fit side by side'}
+    - {side: taborites, path: [[14.45376, 50.08976], [14.45413, 50.08842]], width: 9, style: trench, id: ditches, name: 'Three shallow ditches across the neck of the ridge, where only a few horsemen fit side by side'}
+  units:
+    - {side: taborites, type: fort, at: [14.44919, 50.08855], width: 80, depth: 80, facing: 80, id: blockhouses, name: 'Two timber blockhouses that Žižka has built on the western end of the ridge, next to the gallows'}
+    - {side: taborites, type: fort, at: [14.45036, 50.08868], width: 70, depth: 70, facing: 80, id: blockhouses, name: 'Two timber blockhouses that Žižka has built on the western end of the ridge, next to the gallows'}
+    - {side: taborites, type: infantry, at: [14.45126, 50.08879], width: 130, depth: 45, facing: 80, id: defenders, name: 'Žižka’s men in the works: 26 men, two women and a girl by Laurence of Březová, with stones, spears and flails'}
+    - {side: neutral, type: fort, at: [14.4549, 50.08819], width: 50, depth: 50, facing: 80, id: tower, name: A watchtower in the vineyards on the south slope}
+    - {side: empire, type: knights, at: [14.46431, 50.09018], width: 230, depth: 170, facing: 260, id: meissen, name: 'The men of Meissen and the Austrians under Heinrich of Isenburg: 7,000 to 8,000 horse by Laurence of Březová'}
+    - {side: empire, type: knights, at: [14.4545, 50.0938], width: 320, depth: 180, facing: 240, id: spital-field, name: 'Crusader horse on the Spital field, many thousands, ready to attack the city'}
+  arrows:
+    - {side: empire, path: [[14.4445, 50.1], [14.4462, 50.0978], [14.4485, 50.0958]], width: 35, id: crossing, name: The crusader horse cross the Vltava to the Spital field}
+    - {side: empire, path: [[14.4585, 50.0946], [14.466, 50.0952], [14.4705, 50.094], [14.46845, 50.09065], [14.46583, 50.09035]], width: 35, id: meissen-ride, name: The men of Meissen ride up onto the hill from the east and along the ridge towards the works}

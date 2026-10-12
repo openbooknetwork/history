@@ -1,0 +1,24 @@
+date: "30 May 1434, late afternoon"
+title: "The feigned retreat"
+bbox: [14.906, 50.0265, 14.95, 50.045]
+routes: []
+markers: [lipany-feint-krchlebec, lipany-feint-prokop, lipany-feint-rear, lipany-feint-retreat, lipany-feint-opened]
+sources: ['Petr Čornej, Lipanská křižovatka (1992).', 'Bartošek of Drahonice, Chronicle, and the letter of the Plzeň men of 1 June 1434, in František Šmahel, Die Hussitische Revolution (2002), vol. 3.', 'Stephen Turnbull, The Hussite Wars 1419–36 (2004).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[14.9118, 50.0265], [14.911, 50.029], [14.9092, 50.0305], [14.908, 50.0325], [14.9076, 50.035], [14.9072, 50.0368], [14.9085, 50.0385], [14.9092, 50.04], [14.9084, 50.042], [14.9078, 50.0445], [14.9058, 50.0465]], width: 16, id: bylanka, name: The Bylanka brook in the valley west of Hřiby}
+  units:
+    - {side: taborites, type: wagon-fort, width: 480, depth: 300, facing: 310, id: field-fort, name: 'The field armies’ wagon fort, unchained and opened on the side facing the lords for the pursuit', count: 30, gaps: [{bearing: 272, wagons: 3}], at: [14.93702, 50.03401]}
+    - {side: taborites, type: artillery, width: 220, depth: 70, facing: 310, id: field-guns, name: 'Guns of the field armies, fired at the vanguard as it turns away', count: 6, at: [14.93541, 50.03558]}
+    - {side: taborites, type: cavalry, width: 240, depth: 80, facing: 310, id: capek, name: 'Horse of the field armies under Jan Čapek of Sány, about 700 by Bartošek of Drahonice', at: [14.93932, 50.03276]}
+    - {side: taborites, type: wagons, width: 220, depth: 40, facing: 310, id: pursuit-wagons, name: Wagons from the head of the field armies’ column go with the pursuit and cover its flank, count: 5, at: [14.92739, 50.0351]}
+    - {side: taborites, type: infantry, width: 360, depth: 90, facing: 310, id: pursuit, name: 'Foot of the field armies, out of their wagons and chasing the vanguard onto the plain', at: [14.92975, 50.03748]}
+    - {side: prague, type: wagon-fort, width: 600, depth: 380, facing: 130, id: lords-fort, name: The lords’ wagon fort. Behind the wagons the gunners and crossbowmen wait with their weapons lowered., count: 30, at: [14.92598, 50.03999]}
+    - {side: prague, type: infantry, width: 340, depth: 85, facing: 310, id: vanguard, name: 'Krchlebec’s vanguard, falling back towards the lords’ wagons as if beaten', at: [14.92796, 50.03821]}
+    - {side: prague, type: infantry, width: 220, depth: 85, facing: 130, id: rear-guard, name: 'The rear guard, the Plzeň landfrýd and the Rožmberk men, waits on the flank', at: [14.93078, 50.04306]}
+    - {side: prague, type: knights, width: 200, depth: 85, facing: 103.7930427822456, id: hidden-horse, name: 'Horse of the league held below the slope to the brook, out of sight of the field armies: lords who had once fought beside Tábor, among them Jan Malovec of Pacov, Mikuláš of Landštejn and Arnošt of Leskov. Only a few commanders know it is there.', at: [14.91272, 50.03786]}
+  arrows:
+    - {side: taborites, path: [[14.93504, 50.03579], [14.9349, 50.03681], [14.93469, 50.03763]], width: 45, id: gunfire, name: 'The field armies fire all their guns at the vanguard, which has come up close and fired its four guns at them', style: fire}
+    - {side: prague, path: [[14.93485, 50.0379], [14.93286, 50.03945], [14.93017, 50.03949]], width: 45, id: feint, name: 'Feigned retreat: the vanguard halts as if in confusion, turns and falls back towards the wagons', style: dashed}
+    - {side: taborites, path: [[14.93473, 50.034], [14.93176, 50.03509], [14.93018, 50.03725]], width: 45, id: pursuit-move, name: 'The field armies open their wagons and pursue, horse and foot, shouting “Up, after them, they are running!”'}

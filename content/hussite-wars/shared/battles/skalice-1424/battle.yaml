@@ -1,0 +1,18 @@
+lnglat: [16.056, 50.392]
+name: "Battle of Skalice"
+date: "6 January 1424"
+result: "Victory of Žižka's union"
+source: https://cs.wikipedia.org/wiki/Bitva_u_Skalice_(1424)
+images: [upa-valley-cef442]
+families:
+  taborites: { color: "#b5352a", color_dark: "#e8695c" }
+  royalists: { color: "#2f6fb0", color_dark: "#6fa6e0" }
+sides:
+  - name: "Žižka's union and the men of Hradec Králové"
+    color: taborites
+    commanders: ["Jan Žižka"]
+    strength: "Several thousand with war wagons, by modern estimates"
+  - name: "Lords of eastern Bohemia"
+    color: royalists
+    commanders: ["Půta of Častolovice", "Jan Městecký of Opočno", "Hynek Červenohorský of Dubá", "Arnošt Černčický of Kácov"]
+    strength: "Unknown"

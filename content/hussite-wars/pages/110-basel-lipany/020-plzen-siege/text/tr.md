@@ -1,0 +1,9 @@
+Plzeň, batı Bohemya’nın en güçlü Katolik kasabası ve bölgenin kralcı soylularıyla kasabalarını birleştiren Plzeň landfrýdinin merkezidir. 14 Temmuz 1433’ten itibaren Táborcular, Yetimler, Prag ile Žatec ve Louny kasabaları onu kuşatma altına alır, tarihçiler kuşatanların sayısını ekim ayı için 15.000 kadar olarak verir. Surlar saldırıyla alınamayacak kadar güçlü olduğu için kuşatanlar kasabayı açlıkla teslim almaya çalışır. 1432’deki kötü hasattan sonra kendileri de yiyecek sıkıntısı çeker ve sınırın ötesine erzak toplamaya birlikler gönderirler.
+
+16 Eylül’de Jan Pardus ile Bezdědiceli Jan Řitka komutasında yaklaşık 1.400 yaya ve 400 ile 500 atlı Yukarı Pfalz’a geçer ve Furth im Wald ile Waldmünchen çevresindeki köyleri yağmalar. Neumarktlı Pfalz Kontu Johann’ın hizmetindeki Bohemyalı soylu Rabštejnli Hynčík Pflug, yerel köylülerle birlikte yaklaşık 300 atlı ve 600 yaya toplar ve 21 Eylül’de Hiltersried’de onlara yetişir. Yazılı kaynaklara göre bir arabacı öndeki arabayı yanlış yöne çevirir, araba kalesi açık kalır ve Pfalz askerleri bu boşluktan içeri dalar. Eski Çek Yıllıkları 1.200 Husçunun öldüğünü yazar, Drahoniceli Bartošek’e göre Pardus ve Řitka ile birlikte Plzeň’e ancak 30 kadar atlı ve 100 yaya döner.
+
+@image hiltersried-print-511658
+
+Bu yenilgi ordugâhı komutanlarına karşı çevirir. 28 ya da 29 Eylül’de yüzbaşı yardımcısı Tvaroh, Pardus’un tarafını tuttuğu için Büyük Prokop’un başına bir tabureyle vurur ve ikisi birkaç gün tutsak tutulur. Prokop ardından Prag’a gider, Plzeň önündeki Táborculara Küçük Prokop komuta eder. Yetimler Baltık’tan dönünce ekim sonunda kuşatmaya katılır, ama 5 Mayıs 1434 gecesi bir zamanlar Tábor’un müttefiki olan Klenovalı Přibík, yaklaşık 70.000 litre tahılla kuşatma hatlarını yararak kasabaya girer.
+
+@image plzen-prokop-efa75f

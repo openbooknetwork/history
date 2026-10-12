@@ -1,0 +1,29 @@
+date: "30 May 1434, evening"
+title: "The field armies cut off"
+bbox: [14.906, 50.0265, 14.95, 50.045]
+routes: []
+markers: [lipany-rout-prokops, lipany-rout-plain, lipany-rout-capek, lipany-rout-cutoff, lipany-rout-breach]
+sources: ['Petr Čornej, Lipanská křižovatka (1992).', 'Bartošek of Drahonice, Chronicle, and the letter of the Plzeň men of 1 June 1434, in František Šmahel, Die Hussitische Revolution (2002), vol. 3.', 'Stephen Turnbull, The Hussite Wars 1419–36 (2004).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[14.9118, 50.0265], [14.911, 50.029], [14.9092, 50.0305], [14.908, 50.0325], [14.9076, 50.035], [14.9072, 50.0368], [14.9085, 50.0385], [14.9092, 50.04], [14.9084, 50.042], [14.9078, 50.0445], [14.9058, 50.0465]], width: 16, id: bylanka, name: The Bylanka brook in the valley west of Hřiby}
+  units:
+    - {side: taborites, type: wagon-fort, width: 480, depth: 300, facing: 310, id: field-fort, name: 'The field armies’ wagon fort, still open where the pursuit went out. The lords’ horse rides round it, breaks in where the wagons stand open behind it and overturns eight of them, and both Prokops fall fighting on the wagons.', count: 30, gaps: [{bearing: 272, wagons: 3}, {bearing: 200, wagons: 3}], at: [14.93702, 50.03401]}
+    - {side: taborites, type: wagons, width: 220, depth: 40, facing: 310, id: pursuit-wagons, name: 'The wagons that went out with the pursuit, left on the plain', count: 5, at: [14.92739, 50.0351]}
+    - {side: taborites, type: infantry, width: 360, depth: 90, facing: 310, id: pursuit, name: 'Foot of the field armies, caught between the two attacks on the plain and cut down', at: [14.92975, 50.03748]}
+    - {side: prague, type: wagon-fort, width: 600, depth: 380, facing: 130, id: lords-fort, name: The lords’ wagon fort, count: 30, at: [14.92598, 50.03999]}
+    - {side: prague, type: infantry, width: 400, depth: 85, facing: 130, id: vanguard, name: Krchlebec’s vanguard and the lords’ men from the wagons turn about and attack, at: [14.9283, 50.03826]}
+    - {side: prague, type: infantry, width: 320, depth: 80, facing: 310, id: rear-guard, name: 'The rear guard, the Plzeň landfrýd and the Rožmberk men, strikes from behind and bars the way back to the fort', at: [14.93148, 50.03677]}
+    - {side: prague, type: knights, width: 200, depth: 85, facing: 20, id: hidden-horse, name: 'The league’s hidden horse, come round in an arc, breaks into the fort and overturns eight wagons', at: [14.93549, 50.03128]}
+    - {side: taborites, type: cavalry, width: 220, depth: 80, facing: 82.51044707800088, id: capek, name: Jan Čapek of Sány and Ondřej Keřský ride off to Kolín with the horse and a few foot, at: [14.94663, 50.03375]}
+  arrows:
+    - {side: prague, path: [[14.9287, 50.03805], [14.92913, 50.03781]], width: 45, id: front-attack, name: The vanguard and the lords’ men turn about and attack the pursuers}
+    - {side: prague, path: [[14.93121, 50.04283], [14.93391, 50.04195], [14.9352, 50.03901], [14.93186, 50.03657]], width: 45, id: rear-attack, name: The rear guard swings round behind the pursuers and cuts them off from their fort}
+    - {side: prague, path: [[14.91309, 50.03731], [14.91655, 50.03448], [14.9227, 50.03162], [14.92946, 50.03078], [14.93297, 50.03053], [14.93531, 50.03097]], width: 45, id: horse-ride, name: The hidden horse rides out of the valley in an arc round the fighting to the open fort}
+    - {side: taborites, path: [[14.93986, 50.03317], [14.9433, 50.03343], [14.94615, 50.03371]], width: 45, id: capek-flight, name: Čapek’s horse leaves the field for Kolín, style: dashed}
+    - {side: taborites, path: [[14.93915, 50.03332], [14.94017, 50.03158], [14.94124, 50.02959]], width: 45, id: flight, name: 'Survivors flee over the hill towards Kouřim, and few get away', style: dashed}
+  clashes:
+    - {at: [14.929, 50.03789], size: 70}
+    - {at: [14.93064, 50.03711], size: 70}
+    - {at: [14.93593, 50.03207], size: 70}

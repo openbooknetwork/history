@@ -1,0 +1,20 @@
+lnglat: [14.0676, 49.2432]
+name: "Battle of Sudoměř"
+date: "25 March 1420"
+result: "Hussite victory, the royalists withdraw at nightfall"
+source: https://en.wikipedia.org/wiki/Battle_of_Sudoměř
+images: [sudomer-hettes-9c234d, sudomer-liebscher-17fcfe]
+families:
+  taborites: { color: "#b5352a", color_dark: "#e8695c" }
+  royalists: { color: "#2f6fb0", color_dark: "#6fa6e0" }
+sides:
+  - name: "Hussites of Plzeň"
+    color: taborites
+    commanders: ["Břeněk Švihovský of Dolany", "Jan Žižka", "Valkoun of Adlar"]
+    strength: "About 400 on foot with women and children, 12 wagons and 9 horsemen, by the Old Czech Annals"
+    casualties: "Heavy, Břeněk Švihovský killed and 30 taken prisoner"
+  - name: "Landfrieden of Plzeň, Hospitallers of Strakonice and the Iron Lords"
+    color: royalists
+    commanders: ["Bohuslav of Švamberk", "Jindřich of Hradec", "Petr Konopišťský of Šternberk", "Mikeš Divůček of Jemniště"]
+    strength: "More than 2,000 horse by the chronicle of the old Prague collegiate, about 700 by modern estimates"
+    casualties: "Heavy, Jindřich of Hradec mortally wounded"

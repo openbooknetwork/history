@@ -1,0 +1,41 @@
+# tr strings for the battle "zwettl-1427".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Taborites and Orphans
+battle.sides.0.name: "Táborcular ve Yetimler"
+
+# Said to be 16,000
+battle.sides.0.strength: "16.000 olduğu söylenir"
+
+# Unknown
+battle.sides.0.casualties: "Bilinmiyor"
+
+# Duchy of Austria
+battle.sides.1.name: "Avusturya Dükalığı"
+
+# Unknown
+battle.sides.1.strength: "Bilinmiyor"
+
+# 4,000 by Andreas of Regensburg, 9,000 by the Czech accounts
+battle.sides.1.casualties: "Regensburglu Andreas’a göre 4.000, Çek kaynaklarına göre 9.000"
+
+# Battle of Zwettl
+battle.name: "Zwettl Muharebesi"
+
+# 25 March 1427
+battle.date: "25 Mart 1427"
+
+# Hussite victory, Zwettl not taken
+battle.result: "Husçu zaferi, Zwettl alınamaz"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Prokop the Great
+battle.sides.0.commanders.0: "Büyük Prokop"
+
+# Reinprecht of Walsee
+battle.sides.1.commanders.0: "Walseeli Reinprecht"
+
+# Leopold of Krayg
+battle.sides.1.commanders.1: "Krayglı Leopold"

@@ -1,0 +1,16 @@
+lnglat: [13.619, 49.278]
+name: "Siege of Rabí"
+date: "June or July 1421"
+result: "Taborite victory, the castle taken, Žižka blinded"
+source: https://en.wikipedia.org/wiki/Rab%C3%AD_Castle
+images: [rabi-castle-f962a2]
+families:
+  taborites: { color: "#b5352a", color_dark: "#e8695c" }
+  royalists: { color: "#2f6fb0", color_dark: "#6fa6e0" }
+sides:
+  - name: "Tábor"
+    color: taborites
+    commanders: ["Jan Žižka"]
+    casualties: "Žižka loses the sight of his remaining eye"
+  - name: "Garrison of Jan of Rýzmberk"
+    color: royalists

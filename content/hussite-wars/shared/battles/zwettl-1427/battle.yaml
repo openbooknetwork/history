@@ -1,0 +1,20 @@
+lnglat: [15.169, 48.604]
+name: "Battle of Zwettl"
+date: "25 March 1427"
+result: "Hussite victory, Zwettl not taken"
+source: https://de.wikipedia.org/wiki/Schlacht_bei_Zwettl
+images: [zwettl-walls-9fd1d5]
+families:
+  taborites: { color: "#b5352a", color_dark: "#e8695c" }
+  austria: { color: "#b03a7a", color_dark: "#e07ab0" }
+sides:
+  - name: "Taborites and Orphans"
+    color: taborites
+    commanders: ["Prokop the Great"]
+    strength: "Said to be 16,000"
+    casualties: "Unknown"
+  - name: "Duchy of Austria"
+    color: austria
+    commanders: ["Reinprecht of Walsee", "Leopold of Krayg"]
+    strength: "Unknown"
+    casualties: "4,000 by Andreas of Regensburg, 9,000 by the Czech accounts"

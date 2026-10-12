@@ -1,0 +1,20 @@
+lnglat: [20.1247, 53.4861]
+name: "Battle of Grunwald"
+date: "15 July 1410"
+result: "Polish–Lithuanian victory, Grand Master Ulrich von Jungingen killed"
+source: https://en.wikipedia.org/wiki/Battle_of_Grunwald
+images: [grunwald-matejko-d02b8e, grunwald-schilling-599102]
+families:
+  poland: { color: "#c78a1c", color_dark: "#f0b54a" }
+  teutonic: { color: "#6a3d9a", color_dark: "#a98bd6" }
+sides:
+  - name: "Kingdom of Poland and Grand Duchy of Lithuania"
+    color: poland
+    commanders: ["Władysław II Jagiełło", "Vytautas", "Zbigniew of Brzezie"]
+    strength: "16,000 to 39,000 by modern estimates, with Czech and Moravian mercenaries in the banner of St George"
+    casualties: "Unknown"
+  - name: "Teutonic Order"
+    color: teutonic
+    commanders: ["Ulrich von Jungingen", "Friedrich von Wallenrode", "Kuno von Lichtenstein"]
+    strength: "11,000 to 27,000 by modern estimates"
+    casualties: "203 to 211 of the 270 knight brothers killed, the Grand Master among them"

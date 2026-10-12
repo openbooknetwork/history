@@ -1,0 +1,35 @@
+# tr strings for the battle "horice-1423".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Orebites
+battle.sides.0.name: "Orebçiler"
+
+# About 120 wagons and 3,000 men, a tenth of them mounted
+battle.sides.0.strength: "Yaklaşık 120 araba ve onda biri atlı 3.000 adam"
+
+# Lords under Čeněk of Vartenberk
+battle.sides.1.name: "Vartenberkli Čeněk komutasındaki soylular"
+
+# Probably not much stronger than Žižka's army
+battle.sides.1.strength: "Büyük olasılıkla Žižka’nın ordusundan pek güçlü değil"
+
+# Heavy, all wagons and guns lost
+battle.sides.1.casualties: "Ağır, bütün arabalar ve toplar kaybedilir"
+
+# Battle of Hořice
+battle.name: "Hořice Muharebesi"
+
+# 20, 23 or 27 April 1423
+battle.date: "20, 23 ya da 27 Nisan 1423"
+
+# Victory of Žižka's Orebites
+battle.result: "Žižka’nın Orebçilerinin zaferi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Diviš Bořek of Miletínek
+battle.sides.0.commanders.1: "Miletínekli Diviš Bořek"
+
+# Čeněk of Vartenberk
+battle.sides.1.commanders.0: "Vartenberkli Čeněk"

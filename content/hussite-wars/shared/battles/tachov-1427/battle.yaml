@@ -1,0 +1,20 @@
+lnglat: [12.66, 49.8]
+name: "Battle of Tachov"
+date: "4 August 1427"
+result: "Hussite victory: the crusaders flee before the battle, Tachov taken"
+source: https://en.wikipedia.org/wiki/Battle_of_Tachov
+images: [tachov-beaufort-banner-1cb84c, tachov-walls-47a53a]
+families:
+  taborites: { color: "#b5352a", color_dark: "#e8695c" }
+  empire: { color: "#7a6a53", color_dark: "#b8a68a" }
+sides:
+  - name: "Crusade army of the Empire, with the Plzeň landfrýd and English archers"
+    color: empire
+    commanders: ["Otto of Ziegenhain", "Henry Beaufort", "Frederick of Brandenburg", "John of Neumarkt"]
+    strength: "About 20,000 by modern estimates, 80,000 horse by Bartošek of Drahonice"
+    casualties: "Stragglers of the rear guard, about 1,400 prisoners at Tachov (900 by Bartošek of Drahonice)"
+  - name: "Hussite unions: Taborites, Orphans and Praguers"
+    color: taborites
+    commanders: ["Prokop the Great"]
+    strength: "16,000 foot and 1,500 horse by Bartošek of Drahonice"
+    casualties: "Unknown"

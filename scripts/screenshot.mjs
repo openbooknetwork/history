@@ -29,7 +29,13 @@ await send('Page.enable'); await send('Page.bringToFront'); await send('Emulatio
 await send('Emulation.setDeviceMetricsOverride', { width: W, height: H, deviceScaleFactor: 1, mobile: false });
 await send('Emulation.setEmulatedMedia', { features: [{ name: 'prefers-color-scheme', value: process.env.SHOT_SCHEME ?? 'dark' }] });
 // the story loads once, then the page's own go() steps to each page in place
-await send('Page.navigate', { url: base }); await sleep(3000);
+await send('Page.navigate', { url: base });
+// a cold start takes longer than a warm one: wait until the story's pages are defined, up to 30 s
+for (let i = 0; i < 60; i++) {
+  await sleep(500);
+  if ((await send('Runtime.evaluate', { expression: `typeof PAGES !== 'undefined' && PAGES.length > 0`, returnByValue: true })).result.result.value) break;
+}
+await sleep(1000);
 if (process.env.SHOT_LANG) await send('Runtime.evaluate', { expression: `setLang(${JSON.stringify(process.env.SHOT_LANG)})` });
 for (const id of ids) {
   const found = (await send('Runtime.evaluate', { expression: `(i => { if (i >= 0) go(i); return i >= 0; })(PAGES.findIndex(p => p.id === ${JSON.stringify(id)}))`, returnByValue: true })).result.result.value;

@@ -1,0 +1,44 @@
+# tr strings for the battle "usti-1426".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Hussite unions: Prague, Tábor, the Orphans, Žatec and Louny, with Lithuanian and Polish volunteers
+battle.sides.0.name: "Husçu birlikleri: Prag, Tábor, Yetimler, Žatec ve Louny, Litvanyalı ve Polonyalı gönüllülerle"
+
+# About 11,000 by Čornej and Bělina, 24,000 to 25,000 by the chronicles, about 500 wagons
+battle.sides.0.strength: "Čornej ve Bělina’ya göre yaklaşık 11.000, kroniklere göre 24.000 ile 25.000 arası, yaklaşık 500 araba"
+
+# 19 by the Old Czech Annals, about 30 by Čornej and Bělina
+battle.sides.0.casualties: "Eski Çek Yıllıkları’na göre 19, Čornej ve Bělina’ya göre yaklaşık 30"
+
+# Relief army of Meissen, Saxony, Thuringia, Upper Lusatia and Hesse
+battle.sides.1.name: "Meissen, Saksonya, Thüringen, Yukarı Lusatya ve Hessen’in kurtarma ordusu"
+
+# About 13,000 by Čornej and Bělina, 30,000 by Bartošek of Drahonice, 70,000 by the Old Czech Annals
+battle.sides.1.strength: "Čornej ve Bělina’ya göre yaklaşık 13.000, Drahoniceli Bartošek’e göre 30.000, Eski Çek Yıllıkları’na göre 70.000"
+
+# About 4,000 by Bartošek of Drahonice, 6,000 by Matthias Döring, 12,000 by Hermann Korner
+battle.sides.1.casualties: "Drahoniceli Bartošek’e göre yaklaşık 4.000, Matthias Döring’e göre 6.000, Hermann Korner’e göre 12.000"
+
+# Battle of Ústí nad Labem
+battle.name: "Ústí nad Labem Muharebesi"
+
+# 16 June 1426
+battle.date: "16 Haziran 1426"
+
+# Hussite victory, Ústí taken and burned
+battle.result: "Husçu zaferi, Ústí alınır ve yakılır"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Prokop the Great
+battle.sides.0.commanders.1: "Büyük Prokop"
+
+# Jan Roháč of Dubá
+battle.sides.0.commanders.2: "Dubálı Jan Roháč"
+
+# Jakoubek of Vřesovice
+battle.sides.0.commanders.3: "Vřesoviceli Jakoubek"
+
+# Boso of Vitzthum
+battle.sides.1.commanders.0: "Vitzthumlu Boso"

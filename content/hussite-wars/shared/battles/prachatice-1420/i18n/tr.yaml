@@ -1,0 +1,21 @@
+# tr strings for the battle "prachatice-1420".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Tábor
+battle.sides.0.name: "Tábor"
+
+# Town of Prachatice
+battle.sides.1.name: "Prachatice kasabası"
+
+# 135 men killed in the streets and 85 burned in the church, by Laurence of Březová
+battle.sides.1.casualties: "Vavřinec z Březové’ye göre sokaklarda 135 erkek öldürülür, 85’i kilisede yakılır"
+
+# Storming of Prachatice
+battle.name: "Prachatice’nin Ele Geçirilmesi"
+
+# 12 November 1420
+battle.date: "12 Kasım 1420"
+
+# Taborite victory, the town taken
+battle.result: "Táborcu zaferi, kasaba alınır"

@@ -1,0 +1,26 @@
+date: "7 June 1424"
+title: "Žižka turns at Malešov"
+bbox: [15.217, 49.8957, 15.2395, 49.9145]
+routes: []
+markers: [malesov-ground-zizka, malesov-ground-borek, malesov-ground-slope, malesov-ground-valley, malesov-ground-stones]
+sources: ['Ze starých letopisů českých (1980), p. 139.', 'Aeneas Silvius Piccolomini, Historie česká (2010), p. 83.', 'Petr Čornej and Pavel Bělina, Slavné bitvy naší historie (1993).']
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[15.23398, 49.8957], [15.23184, 49.89622], [15.23003, 49.89708], [15.2284, 49.89813], [15.2275, 49.8986], [15.22639, 49.89987], [15.22583, 49.90236], [15.22634, 49.90302], [15.22634, 49.90446], [15.2263, 49.90518], [15.22548, 49.90571], [15.22467, 49.90623], [15.22463, 49.90767], [15.22407, 49.9083], [15.22403, 49.90902], [15.22317, 49.90949], [15.22235, 49.91002], [15.22154, 49.91054], [15.22042, 49.91068], [15.219, 49.9115], [15.2165, 49.9112], [15.2143, 49.911]], width: 18, id: brook, name: 'The brook in the narrow valley south of Malešov, the Bohynka of Hugo Toman’s map of 1898. Traced from the elevation of today'}
+  units:
+    - {side: taborites, type: wagons, at: [15.2338, 49.90644], width: 300, depth: 36, facing: 280, id: wagons, name: 'Battle wagons in a line, 300 in May by Bartošek of Drahonice. They stand ready to roll forward with the foot, and handguns fire from them', count: 14}
+    - {side: taborites, type: artillery, at: [15.2333, 49.90461], width: 95, depth: 38, facing: 280, id: guns, name: Žižka’s field guns and howitzers between the wagons, count: 3}
+    - {side: taborites, type: wagons, at: [15.23286, 49.90352], width: 120, depth: 34, facing: 280, id: stone-wagons, name: 'Hay wagons loaded with stones in the centre of the line, hidden from the enemy, by the younger Old Czech Annals', count: 5}
+    - {side: taborites, type: artillery, at: [15.2327, 49.90239], width: 95, depth: 38, facing: 280, id: guns, name: Žižka’s field guns and howitzers between the wagons, count: 3}
+    - {side: taborites, type: wagons, at: [15.2322, 49.90056], width: 300, depth: 36, facing: 280, id: wagons, name: 'Battle wagons in a line, 300 in May by Bartošek of Drahonice. They stand ready to roll forward with the foot, and handguns fire from them', count: 14}
+    - {side: taborites, type: infantry, at: [15.23451, 49.90333], width: 820, depth: 80, facing: 280, id: foot, name: 'Orebite and Taborite foot with flails, halberds, spears and handguns, 7,000 in May by Bartošek of Drahonice'}
+    - {side: taborites, type: cavalry, at: [15.23541, 49.90874], width: 110, depth: 60, facing: 280, id: horse, name: 'Žižka’s horse, 500 by Bartošek, held back on the wings'}
+    - {side: taborites, type: cavalry, at: [15.23251, 49.89804], width: 110, depth: 60, facing: 280, id: horse, name: 'Žižka’s horse, 500 by Bartošek, held back on the wings'}
+    - {side: prague, type: knights, at: [15.22619, 49.90384], width: 150, depth: 50, facing: 120, id: prague-head, name: 'The head of the column: Prague men at arms and the lords’ horse, crossing the brook'}
+    - {side: prague, type: infantry, at: [15.22552, 49.90616], width: 95, depth: 300, facing: 167, id: prague-column, name: 'The army of Prague and the lords: Prague militia, Utraquist lords and Catholic men of the Landfried of Plzeň under Diviš Bořek of Miletínek. Larger than Žižka’s army by every account, numbers unknown'}
+    - {side: prague, type: infantry, at: [15.22485, 49.90847], width: 95, depth: 180, facing: 167, id: prague-rear, name: 'The rear of the column, still coming down past the fortress'}
+    - {side: prague, type: wagons, at: [15.22439, 49.91007], width: 150, depth: 40, facing: 77, id: prague-wagons, name: The wagons and guns of Prague at the rear of the column, count: 8, rows: 2}
+    - {side: neutral, type: fort, at: [15.224, 49.9114], width: 90, facing: 0, id: fortress, name: 'The fortress of Malešov, 6 km south-west of Kutná Hora'}
+  arrows:
+    - {side: prague, path: [[15.22155, 49.914], [15.22219, 49.91062], [15.22295, 49.90768], [15.22381, 49.90565]], width: 45, id: prague-march, name: The army of Prague and the lords follows Žižka’s track past the fortress and down into the valley. By the Old Czech Annals they do not wait for all their men to come up}

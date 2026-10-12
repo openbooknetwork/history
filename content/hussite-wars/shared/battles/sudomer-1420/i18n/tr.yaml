@@ -1,0 +1,50 @@
+# tr strings for the battle "sudomer-1420".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Hussites of Plzeň
+battle.sides.0.name: "Plzeňli Husçular"
+
+# About 400 on foot with women and children, 12 wagons and 9 horsemen, by the Old Czech Annals
+battle.sides.0.strength: "Eski Çek Yıllıkları’na göre kadınlar ve çocuklarla birlikte yaklaşık 400 yaya, 12 araba ve 9 atlı"
+
+# Heavy, Břeněk Švihovský killed and 30 taken prisoner
+battle.sides.0.casualties: "Ağır, Břeněk Švihovský öldürülür ve 30 kişi esir düşer"
+
+# Landfrieden of Plzeň, Hospitallers of Strakonice and the Iron Lords
+battle.sides.1.name: "Plzeň Barış Birliği, Strakonice Hospitalierleri ve Demir Beyler"
+
+# More than 2,000 horse by the chronicle of the old Prague collegiate, about 700 by modern estimates
+battle.sides.1.strength: "Eski Prag kolej üyesinin kroniğine göre 2.000’i aşkın, günümüz tahminlerine göre 700 kadar atlı"
+
+# Heavy, Jindřich of Hradec mortally wounded
+battle.sides.1.casualties: "Ağır, Hradec’li Jindřich ölümcül biçimde yaralanır"
+
+# Battle of Sudoměř
+battle.name: "Sudoměř Muharebesi"
+
+# 25 March 1420
+battle.date: "25 Mart 1420"
+
+# Hussite victory, the royalists withdraw at nightfall
+battle.result: "Husçu zaferi, kral yanlıları gece çökerken çekilir"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Břeněk Švihovský of Dolany
+battle.sides.0.commanders.0: "Dolany’li Břeněk Švihovský"
+
+# Valkoun of Adlar
+battle.sides.0.commanders.2: "Adlar’lı Valkoun"
+
+# Bohuslav of Švamberk
+battle.sides.1.commanders.0: "Švamberk’li Bohuslav"
+
+# Jindřich of Hradec
+battle.sides.1.commanders.1: "Hradec’li Jindřich"
+
+# Petr Konopišťský of Šternberk
+battle.sides.1.commanders.2: "Šternberk’li Petr Konopišťský"
+
+# Mikeš Divůček of Jemniště
+battle.sides.1.commanders.3: "Jemniště’li Mikeš Divůček"

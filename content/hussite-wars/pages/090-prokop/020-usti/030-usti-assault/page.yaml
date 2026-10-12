@@ -1,0 +1,31 @@
+date: "16 June 1426, late morning"
+title: "The knights break the chain"
+routes: []
+markers: [usti-assault-boso, usti-assault-knights, usti-assault-lines, usti-assault-crossfire, usti-assault-hooks]
+sources: ['Petr Čornej and Pavel Bělina, Slavné bitvy naší historie (1993), pp. 68 to 74.', 'František Šmahel, Husitská revoluce, vol. 3, Kronika válečných let (1996), pp. 178 to 181.', 'Jan Durdík, Husitské vojenství (1953), pp. 153 to 156.']
+bbox: [13.95063, 50.65528, 13.97968, 50.67111]
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[13.9392, 50.6793], [13.9421, 50.6773], [13.9488, 50.6771], [13.9562, 50.676], [13.9611, 50.6738], [13.9685, 50.6728], [13.97, 50.6725], [13.9718, 50.6714], [13.9719, 50.6687], [13.9729, 50.6663], [13.9759, 50.6641], [13.9795, 50.6631], [13.9814, 50.6611], [13.9854, 50.6599], [13.9885, 50.6585], [13.9911, 50.658], [13.9962, 50.6551], [14.001, 50.6539]], width: 12, id: zdirnice-brook, name: 'The Ždírnický brook, on its present course. The relief army forms up in its valley between Český Újezd and Hrbovice.'}
+  units:
+    - {side: taborites, type: wagon-fort, at: [13.9648, 50.6598], width: 900, depth: 540, facing: 0, id: wagon-fort, name: 'The Hussite wagon fort, opened on the north side where the knights overturn a row of wagons and cut the chains', count: 40, gaps: [{bearing: 345, wagons: 3}]}
+    - {side: taborites, type: wagons, at: [13.9648, 50.66052], width: 420, depth: 70, facing: 0, id: second-line, name: Second line of wagons behind the north side. With some 500 wagons the Hussites can set two lines one behind the other (Čornej and Bělina)., count: 9}
+    - {side: taborites, type: artillery, at: [13.96055, 50.66061], width: 120, depth: 70, facing: 0, id: guns, name: Howitzers and field guns fire into the knights between the two lines of wagons, count: 3}
+    - {side: taborites, type: artillery, at: [13.96905, 50.66061], width: 120, depth: 70, facing: 0, id: guns, name: Howitzers and field guns fire into the knights between the two lines of wagons, count: 3}
+    - {side: taborites, type: pavises, at: [13.9648, 50.65991], width: 380, depth: 40, facing: 0, id: pavises, name: 'Pavises behind the second line, the last cover before the foot', count: 12}
+    - {side: taborites, type: handguns, at: [13.9648, 50.65944], width: 380, depth: 50, facing: 0, id: handguns, name: Handgunners fire through the gaps of the second line at a few paces, count: 8}
+    - {side: taborites, type: infantry, at: [13.9648, 50.65871], width: 380, depth: 80, facing: 0, id: hussite-foot, name: 'Hussite foot with flails, halberds and long hooks that pull riders from the saddle'}
+    - {side: taborites, type: cavalry, at: [13.9648, 50.6579], width: 220, depth: 50, facing: 0, id: hussite-horse, name: 'Hussite horse, waiting inside the ring'}
+    - {side: empire, type: knights, at: [13.96395, 50.66138], width: 230, depth: 80, facing: 180, id: breach, name: 'Knights who break through the first line of wagons and are held at the second, shot at from three sides'}
+    - {side: empire, type: knights, at: [13.97047, 50.66378], width: 320, depth: 120, facing: 222.27368900609372, id: relief-horse, name: 'Knights attacking along the north-east side of the ring, under fire from the wagons'}
+    - {side: empire, type: knights, at: [13.95573, 50.66279], width: 300, depth: 120, facing: 117.27676338311369, id: relief-horse-nw, name: Horse from Chabařovice attacking the west end of the ring}
+    - {side: empire, type: infantry, at: [13.96834, 50.66839], width: 650, depth: 130, facing: 194.74356283647074, id: relief-foot, name: Foot of the relief army following the horse up the slope in heat and dust}
+  arrows:
+    - {side: empire, path: [[13.96395, 50.66867], [13.96388, 50.66523], [13.96381, 50.66251], [13.96388, 50.66193]], width: 45, id: main-attack, name: The main attack climbs the gentle slope from the brook valley and breaks the chain of the first line}
+    - {side: taborites, path: [[13.96055, 50.66093], [13.96228, 50.66132]], width: 45, id: gunfire, name: Guns fire into the knights caught between the lines, style: fire}
+    - {side: taborites, path: [[13.96905, 50.66093], [13.96562, 50.66132]], width: 45, id: gunfire, name: Guns fire into the knights caught between the lines, style: fire}
+    - {side: taborites, path: [[13.9648, 50.65966], [13.96437, 50.66099]], width: 45, id: handgun-fire, name: Handguns fire through the gaps of the second line, style: fire}
+  clashes:
+    - {at: [13.96905, 50.66242], size: 75}
+    - {at: [13.95828, 50.66193], size: 75}

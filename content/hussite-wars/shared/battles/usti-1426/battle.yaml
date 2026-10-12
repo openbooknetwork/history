@@ -1,0 +1,21 @@
+lnglat: [13.9648, 50.6598]
+name: "Battle of Ústí nad Labem"
+date: "16 June 1426"
+result: "Hussite victory, Ústí taken and burned"
+source: https://cs.wikipedia.org/wiki/Bitva_u_%C3%9Ast%C3%AD_nad_Labem
+images: [usti-cerny-303cd0, usti-ales-2c8dca]
+max_zoom: 16
+families:
+  taborites: { color: "#b5352a", color_dark: "#e8695c" }
+  empire: { color: "#7a6a53", color_dark: "#b8a68a" }
+sides:
+  - name: "Hussite unions: Prague, Tábor, the Orphans, Žatec and Louny, with Lithuanian and Polish volunteers"
+    color: taborites
+    commanders: ["Sigismund Korybut", "Prokop the Great", "Jan Roháč of Dubá", "Jakoubek of Vřesovice"]
+    strength: "About 11,000 by Čornej and Bělina, 24,000 to 25,000 by the chronicles, about 500 wagons"
+    casualties: "19 by the Old Czech Annals, about 30 by Čornej and Bělina"
+  - name: "Relief army of Meissen, Saxony, Thuringia, Upper Lusatia and Hesse"
+    color: empire
+    commanders: ["Boso of Vitzthum"]
+    strength: "About 13,000 by Čornej and Bělina, 30,000 by Bartošek of Drahonice, 70,000 by the Old Czech Annals"
+    casualties: "About 4,000 by Bartošek of Drahonice, 6,000 by Matthias Döring, 12,000 by Hermann Korner"

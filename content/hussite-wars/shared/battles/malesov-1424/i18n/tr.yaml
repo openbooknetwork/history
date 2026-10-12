@@ -1,0 +1,38 @@
+# tr strings for the battle "malesov-1424".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Orebites and Taborites
+battle.sides.0.name: "Orebçiler ve Táborcular"
+
+# 7,000 foot, 500 horse and 300 wagons in May, by Bartošek of Drahonice
+battle.sides.0.strength: "Drahoniceli Bartošek’e göre Mayıs’ta 7.000 yaya, 500 atlı ve 300 araba"
+
+# About 200 by modern accounts
+battle.sides.0.casualties: "Günümüz anlatılarına göre yaklaşık 200"
+
+# Prague and the lords
+battle.sides.1.name: "Prag ve soylular"
+
+# Larger than Žižka's army, numbers unknown
+battle.sides.1.strength: "Žižka’nın ordusundan büyük, sayısı bilinmiyor"
+
+# 1,400 dead on both sides by Bartošek of Drahonice, 3,000 Praguers by Aeneas Silvius. All wagons and guns lost
+battle.sides.1.casualties: "Drahoniceli Bartošek’e göre iki taraftan 1.400 ölü, Aeneas Silvius’a göre 3.000 Praglı. Bütün arabalar ve toplar kaybedilir"
+
+# Battle of Malešov
+battle.name: "Malešov Muharebesi"
+
+# 7 June 1424
+battle.date: "7 Haziran 1424"
+
+# Victory of Žižka's Orebites
+battle.result: "Žižka’nın Orebçilerinin zaferi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Jan Hvězda of Vícemilice
+battle.sides.0.commanders.1: "Vícemiliceli Jan Hvězda"
+
+# Diviš Bořek of Miletínek
+battle.sides.1.commanders.0: "Miletínekli Diviš Bořek"

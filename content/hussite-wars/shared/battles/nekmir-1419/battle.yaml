@@ -1,0 +1,20 @@
+lnglat: [13.2633, 49.8581]
+name: "Battle of Nekmíř"
+date: "December 1419 or January 1420"
+result: "Hussite victory, the horse of the Landfrieden driven off"
+source: https://en.wikipedia.org/wiki/Battle_of_Nekmíř
+images: [nekmir-memorial-a6e513]
+families:
+  taborites: { color: "#b5352a", color_dark: "#e8695c" }
+  royalists: { color: "#2f6fb0", color_dark: "#6fa6e0" }
+sides:
+  - name: "Hussites of Plzeň"
+    color: taborites
+    commanders: ["Jan Žižka"]
+    strength: "Fewer than 300 on foot and 7 wagons, by the Old Czech Annals"
+    casualties: "Unknown"
+  - name: "Landfrieden of Plzeň"
+    color: royalists
+    commanders: ["Bohuslav of Švamberk", "Hynek of Nekmíř"]
+    strength: "More than 2,000 horse and foot, by the Old Czech Annals"
+    casualties: "Heavy by some estimates, Hynek of Nekmíř killed"

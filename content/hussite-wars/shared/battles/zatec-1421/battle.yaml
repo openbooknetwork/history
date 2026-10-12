@@ -1,0 +1,17 @@
+lnglat: [13.546, 50.327]
+name: "Siege of Žatec"
+date: "About 10 September – 2 October 1421"
+result: "Hussite victory, the crusaders withdraw"
+source: https://cs.wikipedia.org/wiki/Obl%C3%A9h%C3%A1n%C3%AD_%C5%BDatce_(1421)
+families:
+  empire: { color: "#7a6a53", color_dark: "#b8a68a" }
+  prague: { color: "#d4a017", color_dark: "#f2c94c" }
+sides:
+  - name: "Crusaders of the Rhine electors"
+    color: empire
+    commanders: ["Louis III, Elector Palatine", "Dietrich II of Cologne", "Otto of Trier", "Frederick I of Brandenburg"]
+    strength: "About 30,000"
+    casualties: "About 2,000 by Thomas Ebendorfer"
+  - name: "Žatec and its Hussite garrison"
+    color: prague
+    strength: "About 6,000"

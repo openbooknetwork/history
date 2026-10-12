@@ -1,0 +1,24 @@
+# tr strings for the battle "chomutov-1421".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Žižka’s Hussite army
+battle.sides.0.name: "Žižka’nın Husçu ordusu"
+
+# About 6,000
+battle.sides.0.strength: "Yaklaşık 6.000"
+
+# Town of Chomutov
+battle.sides.1.name: "Chomutov kasabası"
+
+# About 2,200 to 2,500 townspeople killed by most accounts
+battle.sides.1.casualties: "Çoğu anlatıma göre 2.200 ile 2.500 kadar kasabalı öldürülür"
+
+# Storming of Chomutov
+battle.name: "Chomutov’un Ele Geçirilmesi"
+
+# 16 March 1421
+battle.date: "16 Mart 1421"
+
+# Hussite victory, the town taken
+battle.result: "Husçu zaferi, kasaba alınır"

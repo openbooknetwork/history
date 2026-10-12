@@ -1,0 +1,38 @@
+# tr strings for the battle "vitkov-1420".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Hussites of Tábor and Prague
+battle.sides.0.name: "Táborlu ve Praglı Husçular"
+
+# 26 men, 2 women and a girl in the works, then about 50 shooters and peasants with flails from the city, by Laurence of Březová
+battle.sides.0.strength: "Březová’lı Vavřinec’e göre tahkimatta 26 erkek, 2 kadın ve bir kız, ardından şehirden 50 kadar nişancı ve savaş dövenli köylüler"
+
+# Unknown
+battle.sides.0.casualties: "Bilinmiyor"
+
+# Crusaders
+battle.sides.1.name: "Haçlılar"
+
+# 7,000 to 8,000 horse in the attack, by Laurence of Březová
+battle.sides.1.strength: "Březová’lı Vavřinec’e göre saldırıda 7.000 ile 8.000 atlı"
+
+# About 300 killed by Laurence of Březová, 144 to 500 in other chronicles, Heinrich of Isenburg among them
+battle.sides.1.casualties: "Březová’lı Vavřinec’e göre 300 kadar ölü, başka kroniklerde 144 ile 500 arası, aralarında Isenburg’lu Heinrich"
+
+# Battle of Vítkov Hill
+battle.name: "Vítkov Tepesi Muharebesi"
+
+# 14 July 1420
+battle.date: "14 Temmuz 1420"
+
+# Hussite victory, the crusaders fail to close the ring round Prague
+battle.result: "Husçu zaferi, haçlılar Prag’ın çevresindeki çemberi kapatamaz"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Frederick, Margrave of Meissen
+battle.sides.1.commanders.1: "Meissen Markgrafı Friedrich"
+
+# Heinrich of Isenburg
+battle.sides.1.commanders.2: "Isenburg’lu Heinrich"

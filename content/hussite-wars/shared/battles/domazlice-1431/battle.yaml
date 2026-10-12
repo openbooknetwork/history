@@ -1,0 +1,20 @@
+lnglat: [12.99, 49.405]
+name: "Battle of Domažlice"
+date: "14 August 1431"
+result: "Hussite victory: the crusaders flee before the battle"
+source: https://en.wikipedia.org/wiki/Battle_of_Doma%C5%BElice
+images: [jena-codex-battle-e5a08a, domazlice-ales-48f519]
+families:
+  empire: { color: "#7a6a53", color_dark: "#b8a68a" }
+  taborites: { color: "#b5352a", color_dark: "#e8695c" }
+sides:
+  - name: "Crusade army of the Empire and the papal legate"
+    color: empire
+    commanders: ["Frederick of Brandenburg", "Giuliano Cesarini", "Henry of Plauen", "John of Würzburg"]
+    strength: "130,000 by the Old Czech Annals, 40,350 horse, 90,000 foot and 9,000 wagons by Bartošek of Drahonice"
+    casualties: "Over 200 killed, most of them Cesarini’s Italians, about 2,000 wagons and 300 guns lost"
+  - name: "Hussite unions: Taborites, Orphans, Praguers and the Hussite towns"
+    color: taborites
+    commanders: ["Prokop the Great", "Prokop the Lesser", "Sigismund Korybut"]
+    strength: "40,000 by the Old Czech Annals, 55,000 with 3,000 wagons by Bartošek of Drahonice"
+    casualties: "Unknown"

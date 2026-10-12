@@ -1,0 +1,21 @@
+lnglat: [15.233, 49.9035]
+name: "Battle of Malešov"
+date: "7 June 1424"
+result: "Victory of Žižka's Orebites"
+source: https://en.wikipedia.org/wiki/Battle_of_Malešov
+images: [malesov-stone-wagons-a38ff4, malesov-memorial-ad2a9a]
+max_zoom: 16
+families:
+  taborites: { color: "#b5352a", color_dark: "#e8695c" }
+  prague: { color: "#d4a017", color_dark: "#f2c94c" }
+sides:
+  - name: "Orebites and Taborites"
+    color: taborites
+    commanders: ["Jan Žižka", "Jan Hvězda of Vícemilice"]
+    strength: "7,000 foot, 500 horse and 300 wagons in May, by Bartošek of Drahonice"
+    casualties: "About 200 by modern accounts"
+  - name: "Prague and the lords"
+    color: prague
+    commanders: ["Diviš Bořek of Miletínek"]
+    strength: "Larger than Žižka's army, numbers unknown"
+    casualties: "1,400 dead on both sides by Bartošek of Drahonice, 3,000 Praguers by Aeneas Silvius. All wagons and guns lost"

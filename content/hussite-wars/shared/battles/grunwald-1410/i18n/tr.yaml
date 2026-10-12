@@ -1,0 +1,30 @@
+# tr strings for the battle "grunwald-1410".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Kingdom of Poland and Grand Duchy of Lithuania
+battle.sides.0.name: "Polonya Krallığı ve Litvanya Büyük Dükalığı"
+
+# 16,000 to 39,000 by modern estimates, with Czech and Moravian mercenaries in the banner of St George
+battle.sides.0.strength: "Günümüz tahminlerine göre 16.000 ile 39.000 arası, Çek ve Moravyalı paralı askerler Aziz Yorgi sancağında"
+
+# Unknown
+battle.sides.0.casualties: "Bilinmiyor"
+
+# Teutonic Order
+battle.sides.1.name: "Töton Şövalyeleri Tarikatı"
+
+# 11,000 to 27,000 by modern estimates
+battle.sides.1.strength: "Günümüz tahminlerine göre 11.000 ile 27.000 arası"
+
+# 203 to 211 of the 270 knight brothers killed, the Grand Master among them
+battle.sides.1.casualties: "Savaşa katılan 270 tarikat şövalyesinden 203 ile 211 arası öldürülür, Büyük Üstat da bunların arasında"
+
+# Battle of Grunwald
+battle.name: "Grunwald Muharebesi"
+
+# 15 July 1410
+battle.date: "15 Temmuz 1410"
+
+# Polish–Lithuanian victory, Grand Master Ulrich von Jungingen killed
+battle.result: "Polonya–Litvanya zaferi, Büyük Üstat Ulrich von Jungingen öldürülür"

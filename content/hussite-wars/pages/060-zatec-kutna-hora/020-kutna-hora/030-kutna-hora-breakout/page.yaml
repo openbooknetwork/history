@@ -1,0 +1,26 @@
+date: "Night of 21 to 22 December 1421"
+title: "The breakout"
+sources: ['Josef Pekař, Zprávy pramenů o bojích u Hory a Brodu kol vánoc 1421 (1928).', 'Ze zpráv a kronik doby husitské (1981), pp. 55 to 56.', 'Jan Durdík, Husitské vojenství (1953).']
+bbox: [15.237, 49.9395, 15.2835, 49.9665]
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[15.2585, 49.93], [15.2595, 49.9345], [15.2625, 49.9375], [15.2628, 49.9405], [15.2642, 49.9435], [15.2668, 49.9462], [15.27, 49.9467], [15.2735, 49.9464], [15.2765, 49.9483], [15.279, 49.951], [15.283, 49.9513], [15.288, 49.9518], [15.293, 49.9516]], width: 25, id: vrchlice, name: The Vrchlice brook in its valley below the town}
+  works:
+    - {side: neutral, width: 22, id: walls, name: 'Kutná Hora, the silver town, drawn after the outline of the medieval town', path: [[15.2612, 49.944], [15.26, 49.947], [15.26, 49.95], [15.2612, 49.9522], [15.264, 49.954], [15.268, 49.9548], [15.272, 49.9542], [15.2752, 49.952], [15.2768, 49.9495], [15.274, 49.9474], [15.27, 49.9474], [15.2668, 49.9468], [15.2645, 49.945], [15.263, 49.9437], [15.2612, 49.944]]}
+  units:
+    - {side: hungary, type: camp, width: 700, depth: 460, facing: 180, id: camp, name: 'The royal camp, pitched barely a bowshot from the wagon fort to draw food from the town', at: [15.25659, 49.95558]}
+    - {side: taborites, type: wagons, width: 560, depth: 240, facing: 108.22819356419086, id: column, name: 'The wagons of the Hussites of Tábor, Prague and the towns, a third of the royal army by Thomas Ebendorfer, in a column. They drive through the royal camp in the dark, and the guns on the wagons fire as they roll. Fewer wagons are drawn than there were.', rows: 4, count: 10, at: [15.25751, 49.95563]}
+    - {side: hungary, type: cavalry, width: 380, depth: 130, facing: 290, id: scattered, name: Royal horse scattered by the gunfire in the dark, at: [15.24124, 49.95875]}
+    - {side: hungary, type: infantry, width: 320, depth: 110, facing: 180, id: in-town, name: Royal troops hold Kutná Hora, at: [15.26776, 49.95151]}
+  arrows:
+    - {side: taborites, path: [[15.2545, 49.9497], [15.25616, 49.95297]], width: 50, id: set-out, name: In the night the Hussites leave their position before the town}
+    - {side: taborites, path: [[15.25882, 49.95821], [15.26008, 49.96037], [15.26101, 49.9625]], width: 50, id: to-kank, name: 'At daybreak, less than a quarter of a mile on, the wagons close into a fort again below Kaňk'}
+    - {side: taborites, path: [[15.2591, 49.95529], [15.26106, 49.95477]], width: 40, id: gunfire, name: The guns on the wagons fire into the camp as the column rolls, style: fire}
+    - {side: taborites, path: [[15.25592, 49.95597], [15.25241, 49.95685]], width: 40, id: gunfire, name: The guns on the wagons fire into the camp as the column rolls, style: fire}
+    - {side: hungary, path: [[15.25171, 49.95658], [15.24612, 49.95757], [15.24196, 49.95858]], width: 45, id: flight, name: The royal troops scatter out of the camp, style: dashed}
+    - {side: hungary, path: [[15.25394, 49.9535], [15.24919, 49.95241], [15.24445, 49.95196]], width: 45, id: flight, name: The royal troops scatter out of the camp, style: dashed}
+  clashes:
+    - {at: [15.25983, 49.95513], size: 90}
+    - {at: [15.25519, 49.95612], size: 90}
+markers: [kutna-hora-breakout-zizka, kutna-hora-breakout-kank, kutna-hora-breakout-sigismund, kutna-hora-breakout-guns, kutna-hora-breakout-night]

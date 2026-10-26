@@ -90,7 +90,7 @@ for (const [page, spec] of Object.entries(queries)) {
     const url = ii.thumburl ?? ii.url, ext = path.extname(new URL(url).pathname).toLowerCase();
     const base = p.title.replace(/^File:/, '').replace(/\.\w+$/, '').replace(/[^\w.-]+/g, '_').slice(0, 80);
     const commonsPage = `https://commons.wikimedia.org/wiki/${encodeURIComponent(p.title)}`;
-    const entry = { title: p.title.replace(/^File:/, ''), page: commonsPage, author: strip(meta.Artist?.value), license, date: strip(meta.DateTimeOriginal?.value),
+    const entry = { title: p.title.replace(/^File:/, ''), page: commonsPage, url, author: strip(meta.Artist?.value), license, date: strip(meta.DateTimeOriginal?.value),
       description: strip(meta.ImageDescription?.value).slice(0, 300), width: ii.width, height: ii.height };
     seen.add(p.title);
     // the same Commons page in an image folder: nothing to download

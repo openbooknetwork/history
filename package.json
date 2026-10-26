@@ -7,9 +7,12 @@
     "dev": "harita dev"
   },
   "dependencies": {
-    "@openhistoryatlas/harita": "^0.4.1",
+    "@openhistoryatlas/harita": "^0.5.3",
     "js-yaml": "^5.4.2"
   },
   "description": "Open History Atlas: step-through history maps, an educational project",
-  "version": "1.6.0"
+  "version": "1.6.0",
+  "devDependencies": {
+    "wrangler": "^4.152.0"
+  }
 }

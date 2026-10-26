@@ -1,0 +1,7 @@
+name = "openhistoryatlas"
+main = "index.mjs"
+compatibility_date = "2026-10-01"
+routes = [{ pattern = "openhistoryatlas.org/*", zone_name = "openhistoryatlas.org" }]
+[[r2_buckets]]
+binding = "SITE"
+bucket_name = "openhistoryatlas-site"

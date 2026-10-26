@@ -9,13 +9,16 @@ documents the content formats. Each folder under `content/` is one story and bui
 ```
 npm install                 # installs @openhistoryatlas/harita from npm
 npm run dev                 # watch, rebuild, serve at http://localhost:8080/
-npm run build -- --strict   # the build the release runs: fails on a missing translation
+npm run build -- --strict   # the build the release runs: fails on a missing translation or a missing object in the store
 ```
 
 ## Release
 
-The site goes live from a release tag. GitHub Actions builds `dist/` and publishes it to GitHub Pages at
-the custom domain; there is no deploy from `main` and nothing to click.
+The site goes live from a release tag. GitHub Actions builds `dist/`, uploads it to the site bucket on
+Cloudflare R2 with `harita deploy` and deploys the Worker in `worker/` that serves it at the custom domain.
+There is no deploy from `main` and nothing to click. Images and elevation tiles come from a second bucket,
+the asset store at https://assets.openhistoryatlas.org/, which a maintainer fills with `harita upload` before
+the release. Both are set up as harita's README describes under Asset store and Deploy.
 
 ```
 npm version minor && git push --follow-tags
@@ -33,7 +36,7 @@ npm version minor && git push --follow-tags
 - `plugins/emblems/` holds story specific map drawings, such as the crescent and star on the 1923 pages.
   Harita loads them by the `kind` named in a page's `emblem` field.
 - `scripts/` holds the photo search helper below.
-- `dist/` is build output, `.cache/harita/` holds the elevation tiles the build downloads, and
+- `dist/` is build output, `.cache/harita/` holds the elevation tiles `harita upload` cuts, and
   `content/<story>/.candidates/` is photo review material. All three are ignored.
 
 ## Photographs
@@ -41,9 +44,10 @@ npm version minor && git push --follow-tags
 `scripts/fetch-candidates.mjs` searches Wikimedia Commons with the terms in a queries file and downloads
 candidate photos with their author and licence into `content/<story>/.candidates/<page>/`, plus an `index.yaml`
 describing each file. A candidate the atlas already holds is not downloaded again, and `index.yaml` lists it with
-`held: <image id>`. Review the candidates, and add each chosen file with `npx harita image <file> <name> --caption
-<text> --credit <text> --source <page from index.yaml> --story <story>`, with a credit that names the author, the
-licence and the Commons file. The command prints the id that a text shows with `@image <id>`.
+`held: <image id>`. Review the candidates, and add each chosen one by its `url` from `index.yaml` with
+`./node_modules/.bin/harita image <url> <name> --caption <text> --credit <text> --source <page from index.yaml>
+--story <story>`, with a credit that names the author, the licence and the Commons file. The command downloads the
+original into the image folder, which git ignores, and prints the id that a text shows with `@image <id>`.
 
 The queries file holds one entry per page id under the story id. An entry is a list of Commons search terms, or
 a map with the terms under `queries:`, Wikipedia articles under `articles:` and exact Commons file names under

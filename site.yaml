@@ -14,3 +14,13 @@ url: https://openhistoryatlas.org/
 
 # Content repository: Contribute link on the main page, source link on every story.
 repository: https://github.com/openhistoryatlas/atlas
+
+# The asset store: images and elevation tiles, read by readers and builds at url, written by harita upload.
+assets:
+  url: https://assets.openhistoryatlas.org/
+  bucket: openhistoryatlas-assets
+  endpoint: https://929f186b3b6db84ea6cd5dcfe90dd2b3.r2.cloudflarestorage.com
+
+# The site bucket, in the same account: harita deploy writes dist/ there and the Worker in worker/ serves it.
+pages:
+  bucket: openhistoryatlas-site

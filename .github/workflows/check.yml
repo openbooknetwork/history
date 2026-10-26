@@ -1,0 +1,18 @@
+# A pull request adds images by URL: the branch tracks no image file under content/.
+name: Check
+on:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  images:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - run: |
+          files=$(git ls-files content | grep -E '\.(jpe?g|png|webp|gif|svg)$' || true)
+          if [ -n "$files" ]; then
+            echo "these image files are tracked by git, add each image by URL with harita image instead:"
+            echo "$files"
+            exit 1
+          fi

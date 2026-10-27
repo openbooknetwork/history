@@ -1,12 +1,13 @@
 // Search Wikimedia Commons for each page's queries and download candidate photos for review.
 //   node scripts/fetch-candidates.mjs [story] [--limit 6] [--pages a,b] [--queries file] [--out name]   (--pages refetches those pages)
-// Reads scripts/image-queries.yaml or the --queries file, writes content/<story>/.candidates/<page>/ and .candidates/index.yaml.
+// Reads scripts/image-queries.yaml or the --queries file, writes <story folder>/.candidates/<page>/ and .candidates/index.yaml.
 // --out writes into .candidates/<name>/ instead, so agents fetching at the same time keep separate index files.
 // A file the atlas already holds, by its Commons page or by its bytes, is not kept: index.yaml lists it with held: <id>.
 import fs from 'fs';
 import path from 'path';
 import * as yaml from 'js-yaml';
 import { imageIndex, findImage } from '@openhistoryatlas/harita';
+import { storyDir } from './story-dir.mjs';
 
 const story = process.argv[2] && !process.argv[2].startsWith('--') ? process.argv[2] : 'ataturk-turkish-republic';
 const arg = name => process.argv.includes(name) ? process.argv[process.argv.indexOf(name) + 1] : null;
@@ -15,7 +16,7 @@ const only = arg('--pages')?.split(',') ?? null;
 const queriesFile = arg('--queries') ?? 'scripts/image-queries.yaml';
 const queries = yaml.load(fs.readFileSync(queriesFile, 'utf8'))[story];
 if (!queries) { console.error(`no queries for story "${story}" in ${queriesFile}`); process.exit(2); }
-const outDir = path.join('content', story, '.candidates', arg('--out') ?? '');
+const outDir = path.join(storyDir(story) ?? path.join('content', story), '.candidates', arg('--out') ?? '');
 fs.mkdirSync(outDir, { recursive: true });
 
 const API = 'https://commons.wikimedia.org/w/api.php';

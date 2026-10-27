@@ -6,9 +6,10 @@
 import fs from 'fs';
 import path from 'path';
 import * as yaml from 'js-yaml';
+import { storyDir } from './story-dir.mjs';
 
-const [storyId, what] = process.argv.slice(2), story = path.join('content', storyId ?? '');
-if (!fs.existsSync(path.join(story, 'story.yaml')) || !['i18n', 'zones'].includes(what)) {
+const [storyId, what] = process.argv.slice(2), story = storyId && storyDir(storyId);
+if (!story || !['i18n', 'zones'].includes(what)) {
   console.error('usage: node scripts/merge-parts.mjs <story id> i18n|zones, from the repo root'); process.exit(2);
 }
 const pageDirs = {};

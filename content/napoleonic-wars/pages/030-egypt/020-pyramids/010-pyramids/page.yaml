@@ -3,7 +3,7 @@ when: {from: '1798-07-02', to: '1798-07-20'}
 title: "The march on Cairo"
 bbox: [29.6, 29.8, 31.6, 31.55]
 zones: [egypt-1792]
-routes: [bonaparte-cairo-1798, dugua-rosetta-1798]
+routes: [[dugua-rosetta-1798, bonaparte-cairo-1798]]
 markers: [pyramids-rosetta, pyramids-damanhur, pyramids-shubra-khit, egypt-1798-alexandria]
 battle: pyramids
 sources: ['David G. Chandler, The Campaigns of Napoleon (1966).', 'Paul Strathern, Napoleon in Egypt (2008).', 'Juan Cole, Napoleon’s Egypt: Invading the Middle East (2007).']

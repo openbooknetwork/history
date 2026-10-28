@@ -18,8 +18,8 @@ const mark = (u, w, label, note, color, icon = 'user') => ({ lnglat: P(u, w), ic
 writePlan(`${G}/010-metaurus`, {
   bbox: [4.4, 40.6, 17.2, 46.4],
   routes: {
-    'hasdrubal-207': { name: 'Hasdrubal crosses the Alps and marches down the Adriatic coast, spring 207 BC', path: [[4.9, 45.2], [6.0, 45.0], [6.75, 44.93], [7.6, 45.05], [8.6, 45.02], [9.69, 45.05], [10.8, 44.72], [11.8, 44.32], [12.57, 44.06], [13.02, 43.84], [13.19, 43.72]] },
-    'nero-207': { name: 'Nero marches north with 7,000 picked men', path: [[16.07, 41.22], [15.95, 41.55], [15.4, 41.92], [14.65, 42.2], [14.2, 42.48], [13.85, 42.92], [13.62, 43.3], [13.21, 43.7]] },
+    'hasdrubal-207': { name: 'Hasdrubal crosses the Alps and marches down the Adriatic coast, spring 207 BC', color: 'carthage', path: [[4.9, 45.2], [6.0, 45.0], [6.75, 44.93], [7.6, 45.05], [8.6, 45.02], [9.69, 45.05], [10.8, 44.72], [11.8, 44.32], [12.57, 44.06], [13.02, 43.84], [13.19, 43.72]] },
+    'nero-207': { name: 'Nero marches north with 7,000 picked men', color: 'rome', path: [[16.07, 41.22], [15.95, 41.55], [15.4, 41.92], [14.65, 42.2], [14.2, 42.48], [13.85, 42.92], [13.62, 43.3], [13.21, 43.7]] },
   },
   markers: {
     'metaurus-placentia': { lnglat: [9.69, 45.05], icon: 'castle', color: 'rome', label: 'Placentia', note: 'Hasdrubal besieges it in vain' },
@@ -104,8 +104,8 @@ writePlan(`${G}/040-metaurus-nero`, {
 writePlan(`${G}/050-metaurus-aftermath`, {
   bbox: [12.4, 38.7, 17.6, 44.1],
   routes: {
-    'nero-return-207': { name: 'Nero returns to his camp in Apulia', path: [[13.05, 43.77], [13.6, 43.25], [13.85, 42.88], [14.2, 42.45], [14.65, 42.17], [15.4, 41.88], [15.95, 41.5], [16.07, 41.23]] },
-    'hannibal-207': { name: 'Hannibal withdraws to Bruttium', style: 'dashed', path: [[16.0, 41.05], [16.45, 40.6], [16.75, 40.2], [16.85, 39.75], [16.95, 39.35]] },
+    'nero-return-207': { name: 'Nero returns to his camp in Apulia', color: 'rome', path: [[13.05, 43.77], [13.6, 43.25], [13.85, 42.88], [14.2, 42.45], [14.65, 42.17], [15.4, 41.88], [15.95, 41.5], [16.07, 41.23]] },
+    'hannibal-207': { name: 'Hannibal withdraws to Bruttium', color: 'carthage', style: 'dashed', path: [[16.0, 41.05], [16.45, 40.6], [16.75, 40.2], [16.85, 39.75], [16.95, 39.35]] },
   },
   markers: {
     'metaurus-aftermath-field': { lnglat: P(1300, 800), icon: 'skull', color: 'carthage', label: 'The Metaurus', note: 'Polybius: 10,000 dead. Livy: 56,000' },

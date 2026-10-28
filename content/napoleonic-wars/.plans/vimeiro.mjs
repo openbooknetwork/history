@@ -4,13 +4,13 @@ import { writePlan } from './lib.mjs';
 
 writePlan('pages/070-peninsula/030-vimeiro', {
   routes: {
-    'wellesley-1808': { name: 'Wellesley’s march from Mondego Bay, August 1808',
+    'wellesley-1808': { name: 'Wellesley’s march from Mondego Bay, August 1808', color: 'britain',
       path: [[-8.86, 40.13], [-8.81, 39.74], [-8.98, 39.55], [-9.16, 39.36], [-9.18, 39.31], [-9.25, 39.24], [-9.316, 39.18]] },
-    'delaborde-1808': { name: 'Delaborde withdraws from Roliça, 17 August 1808', style: 'dashed',
+    'delaborde-1808': { name: 'Delaborde withdraws from Roliça, 17 August 1808', color: 'france', style: 'dashed',
       path: [[-9.18, 39.3], [-9.23, 39.2], [-9.26, 39.09], [-9.19, 38.93]] },
-    'junot-vimeiro-1808': { name: 'Junot marches from Lisbon to Vimeiro, August 1808', offset: 6,
+    'junot-vimeiro-1808': { name: 'Junot marches from Lisbon to Vimeiro, August 1808', color: 'france', offset: 6,
       path: [[-9.14, 38.72], [-9.19, 38.93], [-9.26, 39.09], [-9.3, 39.16]] },
-    'junot-rochefort-1808': { name: 'Junot’s army shipped to Rochefort, autumn 1808', style: 'dashed',
+    'junot-rochefort-1808': { name: 'Junot’s army shipped to Rochefort, autumn 1808', color: 'france', style: 'dashed',
       path: [[-9.14, 38.7], [-9.4, 38.67], [-9.65, 38.9], [-9.75, 39.6], [-9.7, 40.4]] },
   },
   markers: {

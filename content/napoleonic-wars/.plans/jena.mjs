@@ -16,8 +16,8 @@ const mark = (u, w, label, note, color, icon = 'user') => ({ lnglat: P(u, w), ic
 writePlan(`${G}/010-jena`, {
   bbox: [11.15, 50.6, 12.2, 51.22],
   routes: {
-    'lannes-jena-1806': { name: 'Lannes marches from Saalfeld to Jena, 11 – 13 October 1806', path: [[11.37, 50.65], [11.6, 50.7], [11.6, 50.78], [11.59, 50.85], [11.586, 50.925], [11.565, 50.942]] },
-    'davout-naumburg-1806': { name: 'Davout’s III Corps marches by Gera to Naumburg, 10 – 12 October 1806', path: [[11.89, 50.69], [12.08, 50.88], [12.13, 51.04], [11.95, 51.12], [11.81, 51.155]] },
+    'davout-naumburg-1806': { group: 'saale', name: 'Davout’s III Corps marches by Gera to Naumburg, 10 – 12 October 1806', color: 'france', path: [[11.89, 50.69], [12.08, 50.88], [12.13, 51.04], [11.95, 51.12], [11.81, 51.155]] },
+    'lannes-jena-1806': { group: 'saale', name: 'Lannes marches from Saalfeld to Jena, 11 – 13 October 1806', color: 'france', path: [[11.37, 50.65], [11.6, 50.7], [11.6, 50.78], [11.59, 50.85], [11.586, 50.925], [11.565, 50.942]] },
   },
   markers: {
     'jena-weimar': { lnglat: [11.33, 50.98], icon: 'flag', color: 'prussia', label: 'Weimar', note: 'Rüchel, 15,000' },

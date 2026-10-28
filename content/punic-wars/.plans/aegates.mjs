@@ -64,8 +64,8 @@ writePlan(`${G}/030-aegates-battle`, {
 // --- the peace: the fleet's remains and the army of Sicily go home to Carthage ---
 writePlan(`${G}/040-aegates-peace`, {
   routes: {
-    'hanno-241': { name: 'The rest of Hanno’s fleet returns to Carthage', style: 'dashed', path: [P(-2500, -3000), [12.0, 37.85], [11.4, 37.45], [10.75, 37.05], [10.34, 36.86]] },
-    'gisco-241': { name: 'The army of Sicily is shipped from Lilybaeum to Carthage', offset: 6, path: [[12.42, 37.79], [11.9, 37.55], [11.2, 37.2], [10.65, 36.96], [10.35, 36.85]] },
+    'hanno-241': { name: 'The rest of Hanno’s fleet returns to Carthage', color: 'carthage', style: 'dashed', path: [P(-2500, -3000), [12.0, 37.85], [11.4, 37.45], [10.75, 37.05], [10.34, 36.86]] },
+    'gisco-241': { name: 'The army of Sicily is shipped from Lilybaeum to Carthage', color: 'carthage', offset: 6, path: [[12.42, 37.79], [11.9, 37.55], [11.2, 37.2], [10.65, 36.96], [10.35, 36.85]] },
   },
   markers: { 'aegates-peace-carthage': { lnglat: [10.32, 36.85], icon: 'scroll-text', color: 'carthage', label: 'Carthage', note: 'Orders Hamilcar to make peace' } },
   show: ['lilybaeum-241'],

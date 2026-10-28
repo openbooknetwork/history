@@ -32,9 +32,9 @@ const camp = unit('danes', 'camp', [540, -470], 220, 160, 180, 'camp', 'The Dani
 // --- overview: Sigfrid's fleet from Rouen, Charles the Fat's march from Metz, the Danes' way to Burgundy ---
 writePlan(`${G}/010-paris-885`, {
   routes: {
-    'sigfrid-885': { name: 'Sigfrid’s fleet from Rouen up the Seine to Paris, autumn 885', path: [[1.099, 49.443], [1.06, 49.38], [1.03, 49.3], [1.1, 49.3], [1.155, 49.305], [1.24, 49.28], [1.33, 49.25], [1.41, 49.235], [1.45, 49.17], [1.485, 49.09], [1.58, 49.02], [1.72, 48.995], [1.86, 48.995], [1.95, 48.99], [2.03, 48.93], [2.1, 48.9], [2.17, 48.93], [2.22, 48.915], [2.235, 48.86], [2.26, 48.835], [2.3, 48.858], [2.335, 48.858]] },
-    'charles-fat-886': { name: 'Charles the Fat’s army from Metz to Paris, August – October 886', path: [[6.176, 49.119], [5.6, 49.3], [5.0, 49.45], [4.58, 49.48], [4.0, 49.55], [3.62, 49.564], [3.36, 49.62], [3.14, 49.57], [2.85, 49.3], [2.6, 49.05], [2.343, 48.886]] },
-    'paris-danes-886': { name: 'The Danes haul their ships to the Marne and sail up the Seine and the Yonne to Sens, November 886', path: [[2.335, 48.858], [2.37, 48.845], [2.41, 48.817], [2.45, 48.77], [2.47, 48.68], [2.48, 48.61], [2.655, 48.54], [2.8, 48.43], [2.955, 48.385], [3.1, 48.32], [3.283, 48.197]] },
+    'sigfrid-885': { name: 'Sigfrid’s fleet from Rouen up the Seine to Paris, autumn 885', color: 'danes', path: [[1.099, 49.443], [1.06, 49.38], [1.03, 49.3], [1.1, 49.3], [1.155, 49.305], [1.24, 49.28], [1.33, 49.25], [1.41, 49.235], [1.45, 49.17], [1.485, 49.09], [1.58, 49.02], [1.72, 48.995], [1.86, 48.995], [1.95, 48.99], [2.03, 48.93], [2.1, 48.9], [2.17, 48.93], [2.22, 48.915], [2.235, 48.86], [2.26, 48.835], [2.3, 48.858], [2.335, 48.858]] },
+    'charles-fat-886': { name: 'Charles the Fat’s army from Metz to Paris, August – October 886', color: 'franks', path: [[6.176, 49.119], [5.6, 49.3], [5.0, 49.45], [4.58, 49.48], [4.0, 49.55], [3.62, 49.564], [3.36, 49.62], [3.14, 49.57], [2.85, 49.3], [2.6, 49.05], [2.343, 48.886]] },
+    'paris-danes-886': { name: 'The Danes haul their ships to the Marne and sail up the Seine and the Yonne to Sens, November 886', color: 'danes', path: [[2.335, 48.858], [2.37, 48.845], [2.41, 48.817], [2.45, 48.77], [2.47, 48.68], [2.48, 48.61], [2.655, 48.54], [2.8, 48.43], [2.955, 48.385], [3.1, 48.32], [3.283, 48.197]] },
   },
   markers: {
     'rouen-885': { lnglat: [1.099, 49.443], icon: 'flag', color: 'danes', label: 'Rouen', note: 'The Danish bands gather, 885' },

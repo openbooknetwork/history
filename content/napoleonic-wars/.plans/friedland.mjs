@@ -26,12 +26,12 @@ const mark = (u, w, label, note, color, icon = 'user') => ({ lnglat: P(u, w), ic
 writePlan(`${G}/010-friedland`, {
   bbox: [18.2, 53.75, 21.6, 54.9],
   routes: {
-    'ney-guttstadt-1807': { name: 'Ney falls back from Guttstadt over the Passarge, 5 – 6 June 1807', style: 'dashed', path: [[20.4, 53.99], [20.3, 53.96], [20.21, 53.93]] },
-    'bennigsen-friedland-1807': { name: 'Bennigsen withdraws down the Alle from Heilsberg to Friedland, 11 – 13 June 1807',
+    'ney-guttstadt-1807': { name: 'Ney falls back from Guttstadt over the Passarge, 5 – 6 June 1807', color: 'france', style: 'dashed', path: [[20.4, 53.99], [20.3, 53.96], [20.21, 53.93]] },
+    'bennigsen-friedland-1807': { name: 'Bennigsen withdraws down the Alle from Heilsberg to Friedland, 11 – 13 June 1807', color: 'russia',
       path: [[20.58, 54.12], [20.7, 54.2], [20.81, 54.255], [20.98, 54.27], [21.02, 54.36], [21.02, 54.44]] },
-    'lannes-friedland-1807': { name: 'Lannes leads the advance by Eylau to Friedland, 12 – 13 June 1807',
+    'murat-konigsberg-1807': { group: '12-june', name: 'Murat, Soult and Davout march on Königsberg, June 1807', color: 'france', path: [[20.64, 54.39], [20.6, 54.55], [20.51, 54.69]] },
+    'lannes-friedland-1807': { group: '12-june', name: 'Lannes leads the advance by Eylau to Friedland, 12 – 13 June 1807', color: 'france',
       path: [[20.58, 54.12], [20.49, 54.28], [20.63, 54.385], [20.83, 54.43], [20.965, 54.443]] },
-    'murat-konigsberg-1807': { name: 'Murat, Soult and Davout march on Königsberg, June 1807', path: [[20.64, 54.39], [20.6, 54.55], [20.51, 54.69]] },
   },
   markers: {
     'friedland-danzig': { lnglat: [18.65, 54.35], icon: 'castle', color: 'prussia', label: 'Danzig', note: 'Besieged 19 March, surrenders 24 May' },

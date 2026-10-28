@@ -3,7 +3,7 @@ import { writePlan } from './lib.mjs';
 
 writePlan('pages/010-revolution/010-revolution', {
   routes: {
-    'royal-family-1791': { name: 'The royal family flees from Paris and is stopped at Varennes, 20 to 21 June 1791',
+    'royal-family-1791': { name: 'The royal family flees from Paris and is stopped at Varennes, 20 to 21 June 1791', color: 'france',
       path: [[2.33, 48.86], [2.9, 48.95], [3.4, 48.95], [4.0, 48.95], [4.37, 48.96], [4.9, 49.09], [5.03, 49.23]] },
   },
   markers: {

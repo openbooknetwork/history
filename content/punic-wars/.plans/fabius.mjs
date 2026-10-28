@@ -12,9 +12,9 @@ const ll = (lnglat, label, note, color, icon = 'swords') => ({ lnglat, icon, col
 // --- overview: from Apulia into the Falernian plain, Fabius along the hills ---
 writePlan(`${G}/010-fabius`, {
   routes: {
-    'hannibal-falernus-217': { name: 'Hannibal marches from Arpi into the Ager Falernus, summer 217 BC',
+    'hannibal-falernus-217': { name: 'Hannibal marches from Arpi into the Ager Falernus, summer 217 BC', color: 'carthage',
       path: [[15.55, 41.55], [15.2, 41.35], [14.78, 41.13], [14.53, 41.23], [14.33, 41.33], [14.14, 41.21], [14.06, 41.13]] },
-    'fabius-shadow-217': { name: 'Fabius follows along the high ground', offset: 6,
+    'fabius-shadow-217': { name: 'Fabius follows along the high ground', color: 'rome', offset: 6,
       path: [[15.33, 41.37], [15.05, 41.3], [14.75, 41.22], [14.45, 41.32], [14.2, 41.3], [13.99, 41.22]] },
   },
   markers: { 'aecae-217': ll([15.33, 41.37], 'Aecae', 'Fabius camps six miles from Hannibal', 'rome', 'flag') },
@@ -85,9 +85,9 @@ writePlan(`${G}/030-fabius-oxen`, {
 // --- after the escape: to Geronium for the winter, Fabius to Larinum ---
 writePlan(`${G}/040-fabius-geronium`, {
   routes: {
-    'hannibal-geronium-217': { name: 'Hannibal marches to Geronium, autumn 217 BC',
+    'hannibal-geronium-217': { name: 'Hannibal marches to Geronium, autumn 217 BC', color: 'carthage',
       path: [[14.55, 41.19], [14.33, 41.31], [14.06, 41.48], [13.95, 41.7], [13.93, 42.02], [14.25, 41.98], [14.55, 41.85], [14.733, 41.762]] },
-    'fabius-larinum-217': { name: 'Fabius follows and camps at Larinum', offset: 6,
+    'fabius-larinum-217': { name: 'Fabius follows and camps at Larinum', color: 'rome', offset: 6,
       path: [[14.45, 41.26], [14.25, 41.4], [14.05, 41.55], [14.0, 41.75], [14.0, 41.98], [14.35, 41.92], [14.65, 41.82], [14.92, 41.8]] },
   },
   markers: { 'larinum-217': ll([14.92, 41.8], 'Larinum', 'Fabius’s camp', 'rome', 'flag') },

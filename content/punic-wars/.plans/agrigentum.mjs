@@ -28,7 +28,7 @@ const toros = unit('carthage', 'camp', 1700, -5900, 600, 600, 0, nm('toros', 'Ha
 
 // --- overview: Hanno's march from Heraclea Minoa ---
 writePlan(`${G}/010-agrigentum`, {
-  routes: { 'hanno-262': { name: 'Hanno’s relief army from Heraclea Minoa, winter 262 – 261 BC', path: [[13.28, 37.39], [13.38, 37.37], [13.47, 37.33], [13.526, 37.308]] } },
+  routes: { 'hanno-262': { name: 'Hanno’s relief army from Heraclea Minoa, winter 262 – 261 BC', color: 'carthage', path: [[13.28, 37.39], [13.38, 37.37], [13.47, 37.33], [13.526, 37.308]] } },
   show: ['syracuse-262', 'lilybaeum-262'],
 });
 

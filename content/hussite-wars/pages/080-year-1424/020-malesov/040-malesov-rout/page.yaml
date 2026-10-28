@@ -9,17 +9,17 @@ emblem:
   water:
     - {path: [[15.23398, 49.8957], [15.23184, 49.89622], [15.23003, 49.89708], [15.2284, 49.89813], [15.2275, 49.8986], [15.22639, 49.89987], [15.22583, 49.90236], [15.22634, 49.90302], [15.22634, 49.90446], [15.2263, 49.90518], [15.22548, 49.90571], [15.22467, 49.90623], [15.22463, 49.90767], [15.22407, 49.9083], [15.22403, 49.90902], [15.22317, 49.90949], [15.22235, 49.91002], [15.22154, 49.91054], [15.22042, 49.91068], [15.219, 49.9115], [15.2165, 49.9112], [15.2143, 49.911]], width: 18, id: brook, name: 'The brook in the narrow valley south of Malešov, the Bohynka of Hugo Toman’s map of 1898. Traced from the elevation of today'}
   units:
-    - {side: taborites, type: wagons, at: [15.2316, 49.90669], width: 300, depth: 36, facing: 280, id: wagons, name: The battle wagons roll forward with the foot, count: 14}
-    - {side: taborites, type: wagons, at: [15.23, 49.90081], width: 300, depth: 36, facing: 280, id: wagons, name: The battle wagons roll forward with the foot, count: 14}
-    - {side: taborites, type: infantry, at: [15.22888, 49.90397], width: 360, depth: 80, facing: 280, id: foot, name: Žižka’s foot at the bottom of the slope after the charge}
-    - {side: taborites, type: cavalry, at: [15.22673, 49.91065], width: 110, depth: 60, facing: 345, id: horse, name: 'Žižka’s horse, released from the wings, ride after the fleeing army'}
-    - {side: taborites, type: cavalry, at: [15.22705, 49.90767], width: 110, depth: 60, facing: 345, id: horse, name: 'Žižka’s horse, released from the wings, ride after the fleeing army'}
+    - {side: orebites, type: wagons, at: [15.2316, 49.90669], width: 300, depth: 36, facing: 280, id: wagons, name: The battle wagons roll forward with the foot, count: 14}
+    - {side: orebites, type: wagons, at: [15.23, 49.90081], width: 300, depth: 36, facing: 280, id: wagons, name: The battle wagons roll forward with the foot, count: 14}
+    - {side: orebites, type: infantry, at: [15.22888, 49.90397], width: 360, depth: 80, facing: 280, id: foot, name: Žižka’s foot at the bottom of the slope after the charge}
+    - {side: orebites, type: cavalry, at: [15.22673, 49.91065], width: 110, depth: 60, facing: 345, id: horse, name: 'Žižka’s horse, released from the wings, ride after the fleeing army'}
+    - {side: orebites, type: cavalry, at: [15.22705, 49.90767], width: 110, depth: 60, facing: 345, id: horse, name: 'Žižka’s horse, released from the wings, ride after the fleeing army'}
     - {side: prague, type: wagons, at: [15.22439, 49.91007], width: 150, depth: 40, facing: 77, id: prague-wagons, name: 'The wagons and guns of Prague, left on the field and taken by Žižka', count: 8, rows: 2}
     - {side: neutral, type: fort, at: [15.224, 49.9114], width: 90, facing: 0, id: fortress, name: 'The fortress of Malešov, 6 km south-west of Kutná Hora'}
   arrows:
-    - {side: taborites, path: [[15.23382, 49.90341], [15.23135, 49.90369], [15.2295, 49.9039]], width: 60, id: charge, name: Žižka’s foot charge down the slope behind the wagons}
+    - {side: orebites, path: [[15.23382, 49.90341], [15.23135, 49.90369], [15.2295, 49.9039]], width: 60, id: charge, name: Žižka’s foot charge down the slope behind the wagons}
     - {side: prague, path: [[15.22695, 49.90364], [15.22524, 49.90622], [15.2237, 49.90888], [15.22238, 49.91133], [15.22224, 49.91392]], width: 50, id: flight, name: 'The head of the column flees back across the brook and up the valley past the fortress, and the rear flees with it', style: dashed}
-    - {side: taborites, path: [[15.235, 49.90878], [15.23097, 49.90906], [15.22796, 49.90996], [15.22694, 49.91038]], width: 40, id: pursuit, name: The horse ride down from the wings after the fugitives}
-    - {side: taborites, path: [[15.2321, 49.89809], [15.22955, 49.89967], [15.22784, 49.9017], [15.22709, 49.90363], [15.22712, 49.90741]], width: 40, id: pursuit, name: The horse ride down from the wings after the fugitives}
+    - {side: orebites, path: [[15.235, 49.90878], [15.23097, 49.90906], [15.22796, 49.90996], [15.22694, 49.91038]], width: 40, id: pursuit, name: The horse ride down from the wings after the fugitives}
+    - {side: orebites, path: [[15.2321, 49.89809], [15.22955, 49.89967], [15.22784, 49.9017], [15.22709, 49.90363], [15.22712, 49.90741]], width: 40, id: pursuit, name: The horse ride down from the wings after the fugitives}
   clashes:
     - {at: [15.22764, 49.90411], size: 56}

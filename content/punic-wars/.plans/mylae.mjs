@@ -17,9 +17,9 @@ const cape = mark(-2300, 5600, 'Cape of Mylae', 'Mylae lies at its base', undefi
 // --- overview: the two fleets' approach, and Scipio's loss at Lipara ---
 writePlan(`${G}/010-mylae`, {
   routes: {
-    'scipio-260': { name: 'Scipio sails to Lipara with 17 ships and is captured, 260 BC', style: 'dashed', path: [[15.57, 38.2], [15.64, 38.28], [15.4, 38.4], [15.15, 38.45], [14.98, 38.47]] },
-    'hannibal-gisco-260': { name: 'Hannibal Gisco’s fleet from Panormus, 260 BC', path: [[13.37, 38.15], [13.8, 38.12], [14.3, 38.08], [14.75, 38.2], [15.0, 38.26], [15.155, 38.29]] },
-    'duilius-260': { name: 'Duilius’s fleet from Messana, 260 BC', path: [[15.57, 38.2], [15.65, 38.285], [15.5, 38.31], [15.32, 38.31], [15.2, 38.29]] },
+    'scipio-260': { name: 'Scipio sails to Lipara with 17 ships and is captured, 260 BC', color: 'rome', style: 'dashed', path: [[15.57, 38.2], [15.64, 38.28], [15.4, 38.4], [15.15, 38.45], [14.98, 38.47]] },
+    'hannibal-gisco-260': { name: 'Hannibal Gisco’s fleet from Panormus, 260 BC', color: 'carthage', path: [[13.37, 38.15], [13.8, 38.12], [14.3, 38.08], [14.75, 38.2], [15.0, 38.26], [15.155, 38.29]] },
+    'duilius-260': { name: 'Duilius’s fleet from Messana, 260 BC', color: 'rome', path: [[15.57, 38.2], [15.65, 38.285], [15.5, 38.31], [15.32, 38.31], [15.2, 38.29]] },
   },
   show: ['lipara-260', 'panormus-260'],
 });

@@ -144,23 +144,23 @@ writePlan(`${G}/040-usti-rout`, {
 // --- overview: the Hussite columns to Ústí in May, the three columns of the relief army from Freiberg in June ---
 writePlan(`${G}/010-usti`, {
   routes: {
-    'orphans-1426': { name: 'The Orphans and the East Bohemian lords from Mladá Boleslav by Česká Lípa, Třebenice and Teplice to Ústí, May 1426',
+    'orphans-1426': { name: 'The Orphans and the East Bohemian lords from Mladá Boleslav by Česká Lípa, Třebenice and Teplice to Ústí, May 1426', color: 'orebites',
       path: [[14.906, 50.411], [14.804, 50.501], [14.725, 50.659], [14.538, 50.686], [14.344, 50.585], [14.131, 50.534], [14.003, 50.48], [13.9, 50.56], [13.824, 50.641], [13.858, 50.685], [13.943, 50.673], [14.02, 50.662]] },
-    'praguers-1426': { name: 'The Praguers under Hynek Boček of Poděbrady by Litoměřice to Ústí, May 1426',
+    'praguers-1426': { name: 'The Praguers under Hynek Boček of Poděbrady by Litoměřice to Ústí, May 1426', color: 'prague',
       path: [[14.421, 50.087], [14.37, 50.2], [14.32, 50.33], [14.261, 50.425], [14.131, 50.534], [14.1, 50.6], [14.045, 50.645]], offset: 6 },
-    'relief-1426-most': { name: 'Relief army column by the Janov road past Most, 14–15 June 1426',
+    'relief-1426-most': { name: 'Relief army column by the Janov road past Most, 14–15 June 1426', color: 'empire', group: 'relief',
       path: [[13.339, 50.912], [13.424, 50.711], [13.387, 50.632], [13.6, 50.58], [13.72, 50.59], [13.85, 50.64], [13.943, 50.673]] },
-    'relief-1426-osek': { name: 'Relief army column by Osek, 14–15 June 1426',
+    'relief-1426-osek': { name: 'Relief army column by Osek, 14–15 June 1426', color: 'empire', group: 'relief',
       path: [[13.339, 50.912], [13.537, 50.802], [13.662, 50.721], [13.693, 50.622], [13.8, 50.63], [13.943, 50.673]], offset: 6 },
-    'relief-1426-krupka': { name: 'Relief army column, probably the Upper Lusatians, by Krupka and Teplice, 14–15 June 1426',
+    'relief-1426-krupka': { name: 'Relief army column, probably the Upper Lusatians, by Krupka and Teplice, 14–15 June 1426', color: 'empire', group: 'relief',
       path: [[13.339, 50.912], [13.537, 50.802], [13.758, 50.765], [13.791, 50.734], [13.858, 50.685], [13.824, 50.641], [13.88, 50.655], [13.943, 50.673]], offset: -6 },
-    'hussites-1426-behani': { name: 'The Hussites lift the siege and march out to Běhání hill, 15 June 1426',
+    'hussites-1426-behani': { name: 'The Hussites lift the siege and march out to Běhání hill, 15 June 1426', color: 'taborites',
       path: [[14.028, 50.662], [14.0, 50.659], [13.975, 50.66]] },
   },
   markers: {
     'usti-town-1426': { lnglat: [14.038, 50.66], icon: 'castle', color: 'empire', label: 'Ústí nad Labem', note: 'Meissen garrison, besieged from late May' },
     'freiberg-1426': { lnglat: [13.339, 50.912], icon: 'flag', color: 'empire', label: 'Freiberg', note: 'The relief army gathers, June 1426' },
-    'ceska-lipa-1426': { lnglat: [14.538, 50.686], icon: 'flag', color: 'taborites', label: 'Česká Lípa', note: 'Surrenders to the Orphans, 19 May' },
+    'ceska-lipa-1426': { lnglat: [14.538, 50.686], icon: 'flag', color: 'orebites', label: 'Česká Lípa', note: 'Surrenders to the Orphans, 19 May' },
     'mlada-boleslav-1426': { lnglat: [14.906, 50.411], icon: 'users', color: 'taborites', label: 'Mladá Boleslav', note: 'Council of the captains, 5 May' },
   },
 });

@@ -24,8 +24,8 @@ const carth = (dw = 0) => [
 writePlan(`${G}/010-ilipa`, {
   bbox: [-7.6, 36.2, 1.9, 41.6],
   routes: {
-    'scipio-206': { name: 'Scipio marches from Tarraco by Castulo to Ilipa, spring 206 BC', path: [[1.25, 41.12], [0.4, 40.5], [-0.6, 39.5], [-2.0, 38.6], [-3.6, 38.07], [-4.8, 37.8], [-5.88, 37.53]] },
-    'hasdrubal-gisco-206': { name: 'Hasdrubal Gisco brings his army from Gades', path: [[-6.29, 36.53], [-6.12, 37.0], [-5.99, 37.5]] },
+    'scipio-206': { name: 'Scipio marches from Tarraco by Castulo to Ilipa, spring 206 BC', color: 'rome', path: [[1.25, 41.12], [0.4, 40.5], [-0.6, 39.5], [-2.0, 38.6], [-3.6, 38.07], [-4.8, 37.8], [-5.88, 37.53]] },
+    'hasdrubal-gisco-206': { name: 'Hasdrubal Gisco brings his army from Gades', color: 'carthage', path: [[-6.29, 36.53], [-6.12, 37.0], [-5.99, 37.5]] },
   },
   show: ['tarraco-210'],
 });
@@ -104,8 +104,8 @@ writePlan(`${G}/040-ilipa-wings`, {
 writePlan(`${G}/050-ilipa-pursuit`, {
   bbox: [-7.0, 36.25, -5.2, 37.9],
   routes: {
-    'hasdrubal-ilipa-206': { name: 'Hasdrubal slips away at night towards the ocean', style: 'dashed', path: [[-5.97, 37.51], [-6.08, 37.33], [-6.15, 37.12], [-6.22, 36.85], [-6.29, 36.55]] },
-    'romans-ilipa-206': { name: 'The Roman pursuit, led by the cavalry', offset: 6, path: [[-5.93, 37.51], [-6.05, 37.32], [-6.12, 37.14]] },
+    'hasdrubal-ilipa-206': { name: 'Hasdrubal slips away at night towards the ocean', color: 'carthage', style: 'dashed', path: [[-5.97, 37.51], [-6.08, 37.33], [-6.15, 37.12], [-6.22, 36.85], [-6.29, 36.55]] },
+    'romans-ilipa-206': { name: 'The Roman pursuit, led by the cavalry', color: 'rome', offset: 6, path: [[-5.93, 37.51], [-6.05, 37.32], [-6.12, 37.14]] },
   },
   markers: {
     'ilipa-pursuit-hill': { lnglat: [-6.1, 37.12], icon: 'skull', color: 'carthage', label: 'A waterless hill', note: '6,000 men surrender' },

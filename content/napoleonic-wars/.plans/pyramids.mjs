@@ -22,10 +22,10 @@ const squares = (dw = 0) => [
 // --- overview: the march from Alexandria by Damanhur and the Nile ---
 writePlan(`${G}/010-pyramids`, {
   routes: {
-    'bonaparte-cairo-1798': { name: 'Bonaparte’s march from Alexandria to Embabeh, 6 to 21 July 1798',
-      path: [[29.92, 31.19], [30.15, 31.12], [30.47, 31.04], [30.64, 31.1], [30.71, 31.03], [30.8, 30.85], [30.86, 30.68], [30.94, 30.5], [31.03, 30.33], [31.11, 30.22], [31.17, 30.13], [31.205, 30.09]] },
-    'dugua-rosetta-1798': { name: 'Dugua’s division by Rosetta, and Perrée’s flotilla up the Nile, July 1798', offset: 6,
+    'dugua-rosetta-1798': { group: 'cairo', name: 'Dugua’s division by Rosetta, and Perrée’s flotilla up the Nile, July 1798', color: 'france', offset: 6,
       path: [[29.93, 31.21], [30.07, 31.3], [30.25, 31.33], [30.42, 31.4], [30.47, 31.3], [30.55, 31.19], [30.64, 31.11]] },
+    'bonaparte-cairo-1798': { group: 'cairo', name: 'Bonaparte’s march from Alexandria to Embabeh, 6 to 21 July 1798', color: 'france',
+      path: [[29.92, 31.19], [30.15, 31.12], [30.47, 31.04], [30.64, 31.1], [30.71, 31.03], [30.8, 30.85], [30.86, 30.68], [30.94, 30.5], [31.03, 30.33], [31.11, 30.22], [31.17, 30.13], [31.205, 30.09]] },
   },
   markers: {
     'pyramids-rosetta': { lnglat: [30.42, 31.4], icon: 'flag', color: 'france', label: 'Rosetta', note: 'Taken by Dugua' },

@@ -4,11 +4,11 @@ import { writePlan } from './lib.mjs';
 
 writePlan('pages/030-interwar/030-iberia', {
   routes: {
-    'hamilcar-237': { name: 'Hamilcar marches west along the African coast and crosses to Gades, 237 BC',
+    'hamilcar-237': { name: 'Hamilcar marches west along the African coast and crosses to Gades, 237 BC', color: 'carthage',
       path: [[10.32, 36.85], [8.6, 36.88], [6.0, 36.85], [3.0, 36.6], [0.0, 35.8], [-3.0, 35.2], [-5.3, 35.8], [-5.65, 36.12], [-6.29, 36.53]] },
-    'hamilcar-236': { name: 'Hamilcar’s conquests up the Baetis to the east coast, 237 – 228 BC',
+    'hamilcar-236': { name: 'Hamilcar’s conquests up the Baetis to the east coast, 237 – 228 BC', color: 'carthage',
       path: [[-6.29, 36.53], [-5.95, 37.38], [-4.78, 37.88], [-3.79, 38.09], [-2.6, 38.25], [-1.4, 38.3], [-0.48, 38.35]] },
-    'hannibal-221': { name: 'Hannibal’s campaigns against the Olcades and the Vaccaei, 221 – 220 BC', style: 'dashed',
+    'hannibal-221': { name: 'Hannibal’s campaigns against the Olcades and the Vaccaei, 221 – 220 BC', color: 'carthage', style: 'dashed',
       path: [[-0.98, 37.6], [-1.8, 38.6], [-2.2, 39.6], [-3.2, 40.25], [-4.6, 40.7], [-5.66, 40.96], [-5.4, 41.5], [-4.6, 40.75], [-3.9, 39.95], [-2.8, 39.1], [-1.4, 38.0], [-0.98, 37.62]] },
   },
   markers: {

@@ -20,11 +20,11 @@ const mark = (u, w, label, note, color, icon = 'user') => ({ lnglat: P(u, w), ic
 writePlan(`${G}/050-auerstedt`, {
   bbox: [11.25, 50.93, 11.88, 51.2],
   routes: {
-    'brunswick-1806': { name: 'The Prussian main army marches from Weimar by Auerstedt towards Kösen, 13 – 14 October 1806',
+    'brunswick-1806': { name: 'The Prussian main army marches from Weimar by Auerstedt towards Kösen, 13 – 14 October 1806', color: 'prussia',
       path: [[11.33, 50.98], [11.4, 51.02], [11.48, 51.05], [11.55, 51.08], [11.585, 51.1], [11.62, 51.11], [11.645, 51.118]] },
-    'davout-kosen-1806': { name: 'Davout marches from Naumburg over the Saale at Kösen, morning of 14 October 1806',
+    'davout-kosen-1806': { group: '14-october', name: 'Davout marches from Naumburg over the Saale at Kösen, morning of 14 October 1806', color: 'france',
       path: [[11.81, 51.155], [11.76, 51.15], [11.722, 51.137], [11.69, 51.124], [11.67, 51.119]] },
-    'bernadotte-dornburg-1806': { name: 'Bernadotte marches by Dornburg to Apolda, 14 October 1806', offset: 6,
+    'bernadotte-dornburg-1806': { group: '14-october', name: 'Bernadotte marches by Dornburg to Apolda, 14 October 1806', color: 'france', offset: 6,
       path: [[11.81, 51.155], [11.76, 51.15], [11.722, 51.137], [11.708, 51.11], [11.7, 51.08], [11.71, 51.05], [11.66, 51.008], [11.6, 51.02], [11.515, 51.027]] },
   },
   markers: {

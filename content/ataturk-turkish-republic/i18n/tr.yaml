@@ -41,11 +41,14 @@ groups.epilogue.title: "1923 – 1939: Sonsöz"
 # Sanjak of Alexandretta, French Mandate of Syria
 zones.alexandretta.name: "İskenderun Sancağı, Fransız Suriye Mandası"
 
-# Anzac beachhead at Arıburnu, 1915
-zones.anzac.name: "Arıburnu’nda Anzak çıkarma bölgesi, 1915"
+# Allied beachheads at Cape Helles and Arıburnu (Anzac), April 1915
+zones.beachheads-april-1915.name: "Seddülbahir ve Arıburnu’nda (Anzak) İtilaf çıkarma bölgeleri, Nisan 1915"
 
-# British occupation of Antep, Maraş and Urfa, 1919
-zones.british-south-1919.name: "Antep, Maraş ve Urfa’nın İngiliz işgali, 1919"
+# Allied beachheads at Cape Helles, Arıburnu (Anzac) and Suvla Bay, August 1915
+zones.beachheads-august-1915.name: "Seddülbahir, Arıburnu (Anzak) ve Suvla Koyu’nda İtilaf çıkarma bölgeleri, Ağustos 1915"
+
+# Allied (British) occupation of İstanbul, the Straits, Antep, Maraş and Urfa, 1919
+zones.british-1919.name: "İtilaf (İngiliz) işgali: İstanbul, Boğazlar, Antep, Maraş ve Urfa, 1919"
 
 # Allied (British) occupation of İstanbul and the Straits
 zones.british.name: "İtilaf (İngiliz) işgali: İstanbul ve Boğazlar"
@@ -62,26 +65,17 @@ zones.greek-thrace.name: "Doğu Trakya’nın Yunan işgali, 1920–1922"
 # Greek occupation zone, 1919
 zones.greek1919.name: "Yunan işgal bölgesi, 1919"
 
-# Greek occupation zone, summer 1920
-zones.greek1920.name: "Yunan işgal bölgesi, 1920 yazı"
+# Greek occupation of western Anatolia and Eastern Thrace, summer 1920
+zones.greek1920.name: "Batı Anadolu ve Doğu Trakya’nın Yunan işgali, 1920 yazı"
 
-# Greek occupation zone, 1921 to 1922
-zones.greek1921.name: "Yunan işgal bölgesi, 1921–1922"
-
-# Hatay, joined to the Republic of Türkiye in 1939
-zones.hatay-1939.name: "1939’da Türkiye Cumhuriyeti’ne katılan Hatay"
-
-# Allied beachhead at Cape Helles, 1915
-zones.helles.name: "Seddülbahir’de İtilaf çıkarma bölgesi, 1915"
+# Greek occupation of western Anatolia and Eastern Thrace, 1921 to 1922
+zones.greek1921.name: "Batı Anadolu ve Doğu Trakya’nın Yunan işgali, 1921–1922"
 
 # Italian occupation zone
 zones.italian.name: "İtalyan işgal bölgesi"
 
 # Ottoman Europe lost in the Balkan Wars, 1912 to 1913
 zones.rumelia-lost.name: "Balkan Savaşları’nda kaybedilen Osmanlı Avrupası, 1912–1913"
-
-# Allied beachhead at Suvla Bay, August 1915
-zones.suvla.name: "Suvla Koyu’nda İtilaf çıkarma bölgesi, Ağustos 1915"
 
 # Borders of the Republic of Türkiye under the Treaty of Lausanne, 1923
 zones.turkey-1923.name: "Lozan Antlaşması ile Türkiye Cumhuriyeti sınırları, 1923"
@@ -398,6 +392,9 @@ markers.dumlupinar-surrender-trikoupis.note: "Teslim olur, 2 Eylül, saat 17.00"
 # Frangou’s line of retreat
 markers.dumlupinar-surrender-banaz.note: "Frangu’nun çekilme yolu"
 
+# Hatay, joined to the Republic of Türkiye in 1939
+zones.hatay-1939.name: "1939’da Türkiye Cumhuriyeti’ne katılan Hatay"
+
 # 1881
 pages.salonica.date: "1881"
 
@@ -452,12 +449,6 @@ pages.gallipoli-landing.date: "25 Nisan 1915"
 # Arıburnu: the landing at Gallipoli
 pages.gallipoli-landing.title: "Arıburnu: Çanakkale’ye çıkarma"
 
-# 25 April 1915, dawn
-pages.gallipoli-landing-dawn.date: "25 Nisan 1915, şafak"
-
-# Arıburnu: the landing at dawn
-pages.gallipoli-landing-dawn.title: "Arıburnu: şafakta çıkarma"
-
 # Steam pinnaces towing the boats of the covering force
 emblems.gallipoli-landing-dawn.tows: "Örtme kuvvetinin sandallarını çeken buharlı filikalar"
 
@@ -494,11 +485,11 @@ emblems.gallipoli-landing-dawn.platoon-falls-back: "Türk takımı iç kesimlere
 # Mehmet Şefik’s 27th Regiment marches from Eceabat
 emblems.gallipoli-landing-dawn.sefik-march: "Mehmet Şefik’in 27. Alayı Eceabat’tan yürür"
 
-# 25 April 1915, morning
-pages.gallipoli-landing-57th.date: "25 Nisan 1915, sabah"
+# 25 April 1915, dawn
+pages.gallipoli-landing-dawn.date: "25 Nisan 1915, şafak"
 
-# Arıburnu: the 57th Regiment
-pages.gallipoli-landing-57th.title: "Arıburnu: 57. Alay"
+# Arıburnu: the landing at dawn
+pages.gallipoli-landing-dawn.title: "Arıburnu: şafakta çıkarma"
 
 # Australians on the second ridge, from Pope’s Hill to the 400 Plateau
 emblems.gallipoli-landing-57th.anzac-second-ridge: "İkinci sırttaki Avustralyalılar, Pope Tepesi’nden 400 Platosu’na"
@@ -533,11 +524,11 @@ emblems.gallipoli-landing-57th.attack-mortar-ridge: "Ve Mortar Sırtı’na"
 # The 2nd Battalion circles round to the west
 emblems.gallipoli-landing-57th.round-the-west: "2. Tabur batıdan dolanır"
 
-# 25 April 1915, afternoon and evening
-pages.gallipoli-landing-afternoon.date: "25 Nisan 1915, öğleden sonra ve akşam"
+# 25 April 1915, morning
+pages.gallipoli-landing-57th.date: "25 Nisan 1915, sabah"
 
-# Arıburnu: the counterattack
-pages.gallipoli-landing-afternoon.title: "Arıburnu: karşı taarruz"
+# Arıburnu: the 57th Regiment
+pages.gallipoli-landing-57th.title: "Arıburnu: 57. Alay"
 
 # The Anzac line at nightfall, under two miles long
 emblems.gallipoli-landing-afternoon.anzac-line: "Akşam Anzak hattı, iki milden kısa"
@@ -569,17 +560,17 @@ emblems.gallipoli-landing-afternoon.plateau-attack: "27. ve 77. Alay’lar 400 P
 # The Australians and New Zealanders fall back from Baby 700
 emblems.gallipoli-landing-afternoon.baby-700-lost: "Avustralyalılar ve Yeni Zelandalılar Kılıçbayır’dan çekilir"
 
+# 25 April 1915, afternoon and evening
+pages.gallipoli-landing-afternoon.date: "25 Nisan 1915, öğleden sonra ve akşam"
+
+# Arıburnu: the counterattack
+pages.gallipoli-landing-afternoon.title: "Arıburnu: karşı taarruz"
+
 # 6 to 10 August 1915
 pages.suvla.date: "6 – 10 Ağustos 1915"
 
 # Anafartalar and Conkbayırı
 pages.suvla.title: "Anafartalar ve Conkbayırı"
-
-# 6 to 8 August 1915
-pages.suvla-offensive.date: "6 – 8 Ağustos 1915"
-
-# Anafartalar: the August offensive
-pages.suvla-offensive.title: "Anafartalar: ağustos taarruzu"
 
 # The salt lake behind Suvla Bay, mostly dry in August
 emblems.suvla-offensive.salt-lake: "Suvla Koyu’nun gerisindeki Tuzla Gölü, ağustosta çoğu kuru"
@@ -620,11 +611,11 @@ emblems.suvla-offensive.b-beach: "B Kumsalı’na çıkarma, 6 Ağustos gecesi"
 # The landing at A Beach
 emblems.suvla-offensive.a-beach: "A Kumsalı’na çıkarma"
 
-# 9 August 1915
-pages.suvla-tekke-tepe.date: "9 Ağustos 1915"
+# 6 to 8 August 1915
+pages.suvla-offensive.date: "6 – 8 Ağustos 1915"
 
-# Anafartalar: the dawn attack
-pages.suvla-tekke-tepe.title: "Anafartalar: şafak hücumu"
+# Anafartalar: the August offensive
+pages.suvla-offensive.title: "Anafartalar: ağustos taarruzu"
 
 # The salt lake behind Suvla Bay, mostly dry in August
 emblems.suvla-tekke-tepe.salt-lake: "Suvla Koyu’nun gerisindeki Tuzla Gölü, ağustosta çoğu kuru"
@@ -653,11 +644,11 @@ emblems.suvla-tekke-tepe.bayonet-charge: "Saat 4.00 sularında Osmanlı süngü 
 # The 32nd Brigade breaks and falls back towards the beach
 emblems.suvla-tekke-tepe.thirty-second-flight: "32. Tugay dağılır ve kumsala doğru çekilir"
 
-# 10 August 1915
-pages.suvla-conkbayiri.date: "10 Ağustos 1915"
+# 9 August 1915
+pages.suvla-tekke-tepe.date: "9 Ağustos 1915"
 
-# Conkbayırı: the counterattack
-pages.suvla-conkbayiri.title: "Conkbayırı: karşı taarruz"
+# Anafartalar: the dawn attack
+pages.suvla-tekke-tepe.title: "Anafartalar: şafak hücumu"
 
 # 6th South Lancashires on the summit, overrun
 emblems.suvla-conkbayiri.lancashires: "Zirvedeki 6. South Lancashire Taburu, ezilir"
@@ -682,6 +673,12 @@ emblems.suvla-conkbayiri.down-to-the-farm: "Kuzey yamaçtan Çiftlik’e"
 
 # Survivors fall back to Cheshire Ridge
 emblems.suvla-conkbayiri.farm-survivors: "Sağ kalanlar Cheshire Sırtı’na çekilir"
+
+# 10 August 1915
+pages.suvla-conkbayiri.date: "10 Ağustos 1915"
+
+# Conkbayırı: the counterattack
+pages.suvla-conkbayiri.title: "Conkbayırı: karşı taarruz"
 
 # August 1916
 pages.caucasus-front.date: "Ağustos 1916"
@@ -749,12 +746,6 @@ pages.inonu.date: "Ocak – Nisan 1921"
 # First and Second İnönü
 pages.inonu.title: "Birinci ve İkinci İnönü"
 
-# 9 to 11 January 1921
-pages.inonu-first.date: "9 – 11 Ocak 1921"
-
-# İnönü: the first battle
-pages.inonu-first.title: "İnönü: birinci muharebe"
-
 # The railway from Bozüyük through İnönü to Eskişehir
 emblems.inonu-first.railway: "Bozüyük’ten İnönü üzerinden Eskişehir’e demiryolu"
 
@@ -779,11 +770,11 @@ emblems.inonu-first.line-pulled-back: "Fevzi Paşa hattı doğuya çeker"
 # The Greeks withdraw towards Bozüyük, 11 January
 emblems.inonu-first.greek-withdrawal: "Yunanlılar Bozüyük’e doğru çekilir, 11 Ocak"
 
-# 23 March to 1 April 1921
-pages.inonu-second.date: "23 Mart – 1 Nisan 1921"
+# 9 to 11 January 1921
+pages.inonu-first.date: "9 – 11 Ocak 1921"
 
-# İnönü: Metristepe
-pages.inonu-second.title: "İnönü: Metristepe"
+# İnönü: the first battle
+pages.inonu-first.title: "İnönü: birinci muharebe"
 
 # The railway from Bozüyük through İnönü to Eskişehir
 emblems.inonu-second.railway: "Bozüyük’ten İnönü üzerinden Eskişehir’e demiryolu"
@@ -803,17 +794,17 @@ emblems.inonu-second.retake-metristepe: "İsmet Metristepe’yi geri alır, 31 M
 # The III Corps falls back towards Bursa in good order
 emblems.inonu-second.greek-retreat: "III. Kolordu düzenli biçimde Bursa’ya doğru çekilir"
 
+# 23 March to 1 April 1921
+pages.inonu-second.date: "23 Mart – 1 Nisan 1921"
+
+# İnönü: Metristepe
+pages.inonu-second.title: "İnönü: Metristepe"
+
 # 10 July to 5 August 1921
 pages.kutahya-eskisehir.date: "10 Temmuz – 5 Ağustos 1921"
 
 # Kütahya and Eskişehir, the retreat to the Sakarya
 pages.kutahya-eskisehir.title: "Kütahya ve Eskişehir, Sakarya’ya çekiliş"
-
-# July 1921
-pages.kutahya-eskisehir-offensive.date: "Temmuz 1921"
-
-# Kütahya: the Greek summer offensive
-pages.kutahya-eskisehir-offensive.title: "Kütahya: Yunan yaz taarruzu"
 
 # The Sakarya river
 emblems.kutahya-eskisehir-offensive.sakarya-river: "Sakarya Irmağı"
@@ -842,11 +833,11 @@ emblems.kutahya-eskisehir-offensive.to-kutahya: "Ardından Kütahya’yı"
 # The Greeks prepare to turn north along the railway
 emblems.kutahya-eskisehir-offensive.turn-north: "Yunanlılar demiryolu boyunca kuzeye dönmeye hazırlanır"
 
-# 16 to 25 July 1921
-pages.kutahya-eskisehir-retreat.date: "16 – 25 Temmuz 1921"
+# July 1921
+pages.kutahya-eskisehir-offensive.date: "Temmuz 1921"
 
-# Eskişehir: the withdrawal to the Sakarya
-pages.kutahya-eskisehir-retreat.title: "Eskişehir: Sakarya’nın gerisine çekiliş"
+# Kütahya: the Greek summer offensive
+pages.kutahya-eskisehir-offensive.title: "Kütahya: Yunan yaz taarruzu"
 
 # The Sakarya river
 emblems.kutahya-eskisehir-retreat.sakarya-river: "Sakarya Irmağı"
@@ -872,17 +863,17 @@ emblems.kutahya-eskisehir-retreat.withdrawal-north: "İsmet temastan kurtulur ve
 # The southern units fall back to the Sakarya
 emblems.kutahya-eskisehir-retreat.withdrawal-south: "Güneydeki birlikler Sakarya’ya çekilir"
 
+# 16 to 25 July 1921
+pages.kutahya-eskisehir-retreat.date: "16 – 25 Temmuz 1921"
+
+# Eskişehir: the withdrawal to the Sakarya
+pages.kutahya-eskisehir-retreat.title: "Eskişehir: Sakarya’nın gerisine çekiliş"
+
 # 23 August to 13 September 1921
 pages.sakarya.date: "23 Ağustos – 13 Eylül 1921"
 
 # The battle on the Sakarya
 pages.sakarya.title: "Sakarya Meydan Muharebesi"
-
-# 10 to 25 August 1921
-pages.sakarya-approach.date: "10 – 25 Ağustos 1921"
-
-# Sakarya: the march round the flank
-pages.sakarya-approach.title: "Sakarya: yandan dolanma yürüyüşü"
 
 # The Sakarya, steep banked, with two bridges on this front
 emblems.sakarya-approach.sakarya-river: "Sakarya, dik kıyılı, bu cephede iki köprülü"
@@ -908,11 +899,11 @@ emblems.sakarya-approach.greek-east: "Yunan tümenleri doğuya, ırmağa yürür
 # The march round the south to turn the Turkish left
 emblems.sakarya-approach.flank-march: "Türk sol kanadını kuşatmak için güneyden dolanma yürüyüşü"
 
-# 26 August to 2 September 1921
-pages.sakarya-heights.date: "26 Ağustos – 2 Eylül 1921"
+# 10 to 25 August 1921
+pages.sakarya-approach.date: "10 – 25 Ağustos 1921"
 
-# Sakarya: the assault on the heights
-pages.sakarya-heights.title: "Sakarya: tepelere saldırı"
+# Sakarya: the march round the flank
+pages.sakarya-approach.title: "Sakarya: yandan dolanma yürüyüşü"
 
 # The Sakarya, steep banked, with two bridges on this front
 emblems.sakarya-heights.sakarya-river: "Sakarya, dik kıyılı, bu cephede iki köprülü"
@@ -950,11 +941,11 @@ emblems.sakarya-heights.centre-push: "Merkez ikinci hattı aşarak 16 km ilerler
 # Turkish cavalry raids the Greek supply lines
 emblems.sakarya-heights.cavalry-raids: "Türk süvarisi Yunan ikmal hatlarına baskın yapar"
 
-# 8 to 13 September 1921
-pages.sakarya-counterattack.date: "8 – 13 Eylül 1921"
+# 26 August to 2 September 1921
+pages.sakarya-heights.date: "26 Ağustos – 2 Eylül 1921"
 
-# Sakarya: the counterattack
-pages.sakarya-counterattack.title: "Sakarya: karşı taarruz"
+# Sakarya: the assault on the heights
+pages.sakarya-heights.title: "Sakarya: tepelere saldırı"
 
 # The Sakarya, steep banked, with two bridges on this front
 emblems.sakarya-counterattack.sakarya-river: "Sakarya, dik kıyılı, bu cephede iki köprülü"
@@ -986,6 +977,12 @@ emblems.sakarya-counterattack.greek-retreat-west: "Yunan ordusu Sakarya’nın �
 # The eastern wing pulls back by the south
 emblems.sakarya-counterattack.greek-retreat-south: "Doğu kanadı güneyden çekilir"
 
+# 8 to 13 September 1921
+pages.sakarya-counterattack.date: "8 – 13 Eylül 1921"
+
+# Sakarya: the counterattack
+pages.sakarya-counterattack.title: "Sakarya: karşı taarruz"
+
 # 19 September 1921
 pages.field-marshal.date: "19 Eylül 1921"
 
@@ -1009,12 +1006,6 @@ pages.afyon.date: "26 – 27 Ağustos 1922"
 
 # Kocatepe and the breakthrough at Afyon
 pages.afyon.title: "Kocatepe ve Afyon’da yarma"
-
-# 26 August 1922
-pages.afyon-barrage.date: "26 Ağustos 1922"
-
-# Great Offensive: the barrage at dawn
-pages.afyon-barrage.title: "Büyük Taarruz: şafakta topçu ateşi"
 
 # The railway from Afyon to Dumlupınar and İzmir, the Greek supply line
 emblems.afyon-barrage.railway: "Afyon’dan Dumlupınar’a ve İzmir’e demiryolu, Yunan ikmal hattı"
@@ -1061,11 +1052,11 @@ emblems.afyon-barrage.fourth-corps-attack: "IV. Kolordu Erkmentepe’ye doğru s
 # The Second Army attacks north of Afyon
 emblems.afyon-barrage.second-army-attack: "İkinci Ordu Afyon’un kuzeyinde saldırır"
 
-# 27 August 1922
-pages.afyon-erkmentepe.date: "27 Ağustos 1922"
+# 26 August 1922
+pages.afyon-barrage.date: "26 Ağustos 1922"
 
-# Great Offensive: the breakthrough at Erkmentepe
-pages.afyon-erkmentepe.title: "Büyük Taarruz: Erkmentepe’de yarma"
+# Great Offensive: the barrage at dawn
+pages.afyon-barrage.title: "Büyük Taarruz: şafakta topçu ateşi"
 
 # The railway from Afyon to Dumlupınar and İzmir, the Greek supply line
 emblems.afyon-erkmentepe.railway: "Afyon’dan Dumlupınar’a ve İzmir’e demiryolu, Yunan ikmal hattı"
@@ -1094,11 +1085,11 @@ emblems.afyon-erkmentepe.greek-withdrawal: "Yunan I. Kolordusu 20 km kuzeye çek
 # The 1st Division falls back west
 emblems.afyon-erkmentepe.first-division-west: "1. Tümen batıya çekilir"
 
-# 27 to 28 August 1922
-pages.afyon-gap.date: "27 – 28 Ağustos 1922"
+# 27 August 1922
+pages.afyon-erkmentepe.date: "27 Ağustos 1922"
 
-# Great Offensive: two Greek groups
-pages.afyon-gap.title: "Büyük Taarruz: iki Yunan grubu"
+# Great Offensive: the breakthrough at Erkmentepe
+pages.afyon-erkmentepe.title: "Büyük Taarruz: Erkmentepe’de yarma"
 
 # The railway from Afyon to Dumlupınar and İzmir, the Greek supply line
 emblems.afyon-gap.railway: "Afyon’dan Dumlupınar’a ve İzmir’e demiryolu, Yunan ikmal hattı"
@@ -1124,11 +1115,11 @@ emblems.afyon-gap.trikoupis-march: "Trikupis 28 Ağustos saat 5.00’te batıya 
 # Turkish units follow into the gap between the two groups
 emblems.afyon-gap.into-the-gap: "Türk birlikleri iki grup arasındaki boşluğa girer"
 
-# 29 August 1922
-pages.afyon-ring.date: "29 Ağustos 1922"
+# 27 to 28 August 1922
+pages.afyon-gap.date: "27 – 28 Ağustos 1922"
 
-# Great Offensive: the ring around Trikoupis
-pages.afyon-ring.title: "Büyük Taarruz: Trikupis’in çevresinde çember"
+# Great Offensive: two Greek groups
+pages.afyon-gap.title: "Büyük Taarruz: iki Yunan grubu"
 
 # The railway from Afyon to Dumlupınar and İzmir, the Greek supply line
 emblems.afyon-ring.railway: "Afyon’dan Dumlupınar’a ve İzmir’e demiryolu, Yunan ikmal hattı"
@@ -1160,17 +1151,17 @@ emblems.afyon-ring.east-attack: "Türkler doğu kanadındaki Yunan 12. Tümeni�
 # At 23.00 the group breaks away towards Çalköy
 emblems.afyon-ring.night-march: "Saat 23.00’te grup çarpışmayı keser ve Çalköy’e yürür"
 
+# 29 August 1922
+pages.afyon-ring.date: "29 Ağustos 1922"
+
+# Great Offensive: the ring around Trikoupis
+pages.afyon-ring.title: "Büyük Taarruz: Trikupis’in çevresinde çember"
+
 # 30 August 1922
 pages.dumlupinar.date: "30 Ağustos 1922"
 
 # Dumlupınar, the commander in chief's battle
 pages.dumlupinar.title: "Dumlupınar, Başkomutanlık Meydan Muharebesi"
-
-# 30 August 1922
-pages.dumlupinar-alioren.date: "30 Ağustos 1922"
-
-# Dumlupınar: the battle at Alıören
-pages.dumlupinar-alioren.title: "Dumlupınar: Alıören muharebesi"
 
 # Trikoupis group: 7,000 infantry fit to fight, crowded together
 emblems.dumlupinar-alioren.trikoupis-group: "Trikupis grubu: savaşabilecek 7.000 piyade, birbirine sıkışmış"
@@ -1196,11 +1187,11 @@ emblems.dumlupinar-alioren.sixth-corps-attack: "VI. Kolordu saldırır"
 # At 20.30 the survivors march west, leaving guns and wounded
 emblems.dumlupinar-alioren.night-march-west: "Saat 20.30’da sağ kalanlar topları ve yaralıları bırakıp batıya yürür"
 
-# 31 August to 2 September 1922
-pages.dumlupinar-surrender.date: "31 Ağustos – 2 Eylül 1922"
+# 30 August 1922
+pages.dumlupinar-alioren.date: "30 Ağustos 1922"
 
-# Dumlupınar: the surrender of the Trikoupis group
-pages.dumlupinar-surrender.title: "Dumlupınar: Trikupis grubunun teslimi"
+# Dumlupınar: the battle at Alıören
+pages.dumlupinar-alioren.title: "Dumlupınar: Alıören muharebesi"
 
 # Turkish cavalry in pursuit
 emblems.dumlupinar-surrender.turkish-cavalry: "Takipteki Türk süvarisi"
@@ -1219,6 +1210,12 @@ emblems.dumlupinar-surrender.column-escape: "5.000 kişilik bir kol çemberden k
 
 # Frangou’s group retreats towards Banaz
 emblems.dumlupinar-surrender.frangou-retreat: "Frangu grubu Banaz’a doğru çekilir"
+
+# 31 August to 2 September 1922
+pages.dumlupinar-surrender.date: "31 Ağustos – 2 Eylül 1922"
+
+# Dumlupınar: the surrender of the Trikoupis group
+pages.dumlupinar-surrender.title: "Dumlupınar: Trikupis grubunun teslimi"
 
 # 1 to 18 September 1922
 pages.izmir-retaken.date: "1 – 18 Eylül 1922"
@@ -1262,11 +1259,11 @@ pages.hatay.date: "1936 – 1939"
 # Hatay joins Turkey
 pages.hatay.title: "Hatay’ın Türkiye’ye katılması"
 
-# Atatürk and the Turkish Republic
-story.title: "Atatürk ve Türkiye Cumhuriyeti"
-
 # From a Salonica childhood through Gallipoli and the War of Independence to the founding of the Republic in 1923.
 story.summary: "Selanik’teki çocukluktan Çanakkale’ye, Kurtuluş Savaşı’ndan 1923’te Cumhuriyet’in kuruluşuna."
+
+# Atatürk and the Turkish Republic
+story.title: "Atatürk ve Türkiye Cumhuriyeti"
 
 # Names, citations and credits with their own form in this language. Any other shows as written in the source.
 

@@ -26,15 +26,15 @@ const SQ = 120; // a battalion square
 // --- overview: 17 June, the retreats to Mont-Saint-Jean and Wavre ---
 writePlan(`${G}/010-waterloo`, {
   routes: {
-    'wellington-waterloo-1815': { name: 'Wellington withdraws from Quatre Bras to Mont-Saint-Jean, 17 June 1815',
+    'wellington-waterloo-1815': { name: 'Wellington withdraws from Quatre Bras to Mont-Saint-Jean, 17 June 1815', color: 'britain',
       path: [[4.4533, 50.5714], [4.45, 50.61], [4.43, 50.645], [4.413, 50.68]] },
-    'napoleon-waterloo-1815': { name: 'Napoleon follows to La Belle Alliance, 17 June 1815', offset: 6,
-      path: [[4.4533, 50.5714], [4.45, 50.61], [4.43, 50.645], [4.413, 50.66]] },
-    'prussians-wavre-1815': { name: 'Zieten’s and Pirch’s corps fall back by Tilly to Wavre, 16 – 17 June 1815', style: 'dashed',
+    'prussians-wavre-1815': { group: 'wavre', name: 'Zieten’s and Pirch’s corps fall back by Tilly to Wavre, 16 – 17 June 1815', color: 'prussia', style: 'dashed',
       path: [[4.57, 50.54], [4.55, 50.56], [4.58, 50.6], [4.61, 50.635], [4.6, 50.715]] },
-    'thielmann-wavre-1815': { name: 'Thielmann’s corps falls back by Gembloux to Wavre, 17 June 1815', style: 'dashed',
+    'thielmann-wavre-1815': { group: 'wavre', name: 'Thielmann’s corps falls back by Gembloux to Wavre, 17 June 1815', color: 'prussia', style: 'dashed',
       path: [[4.6, 50.53], [4.69, 50.56], [4.68, 50.62], [4.63, 50.7], [4.61, 50.715]] },
-    'grouchy-1815': { name: 'Grouchy follows the Prussians to Gembloux, 17 June 1815', offset: 6,
+    'napoleon-waterloo-1815': { group: 'pursuit', name: 'Napoleon follows to La Belle Alliance, 17 June 1815', color: 'france', offset: 6,
+      path: [[4.4533, 50.5714], [4.45, 50.61], [4.43, 50.645], [4.413, 50.66]] },
+    'grouchy-1815': { group: 'pursuit', name: 'Grouchy follows the Prussians to Gembloux, 17 June 1815', color: 'france', offset: 6,
       path: [[4.6, 50.525], [4.65, 50.545], [4.69, 50.56]] },
   },
   markers: {

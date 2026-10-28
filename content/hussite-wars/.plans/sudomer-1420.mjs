@@ -45,13 +45,13 @@ const ROYAL = 'The royalists have more than 2,000 horse by the chronicle of the 
 // --- overview: the march from Plzeň, the royalists gather ---
 writePlan(`${G}/010-sudomer`, {
   routes: {
-    'zizka-1420-sudomer': { name: 'The Hussites leave Plzeň for Tábor by Kasejovice, Řepice and Štěkeň, 23–25 March 1420',
+    'zizka-1420-sudomer': { name: 'The Hussites leave Plzeň for Tábor by Kasejovice, Řepice and Štěkeň, 23–25 March 1420', color: 'taborites',
       path: [[13.3776, 49.7477], [13.47, 49.66], [13.6, 49.55], [13.7406, 49.4627], [13.82, 49.39], [13.9, 49.32], [13.9549, 49.287], [14.0083, 49.2656], [14.0486, 49.2503], [14.0676, 49.2445]] },
-    'svamberk-1420': { name: 'Bohuslav of Švamberk and the Landfrieden of Plzeň follow them', offset: 6,
+    'svamberk-1420': { name: 'Bohuslav of Švamberk and the Landfrieden of Plzeň follow them', color: 'royalists', group: 'royalists', offset: 6,
       path: [[13.3776, 49.7477], [13.47, 49.66], [13.6, 49.55], [13.7406, 49.4627], [13.82, 49.39], [13.9, 49.32], [13.9549, 49.287], [14.0083, 49.2656], [14.05, 49.2525], [14.072, 49.247]] },
-    'hospitallers-1420': { name: 'The Hospitallers ride out from Strakonice, 25 March 1420', path: [[13.9024, 49.2614], [13.96, 49.262], [14.02, 49.256], [14.06, 49.2502]] },
-    'iron-lords-1420': { name: 'The Iron Lords come from Písek, which they have just taken', path: [[14.1475, 49.3088], [14.12, 49.285], [14.095, 49.262], [14.075, 49.2455]] },
-    'zizka-1420-tabor': { name: 'After the battle the Hussites march by Újezd castle to Tábor, 26–29 March 1420',
+    'hospitallers-1420': { name: 'The Hospitallers ride out from Strakonice, 25 March 1420', color: 'royalists', group: 'royalists', path: [[13.9024, 49.2614], [13.96, 49.262], [14.02, 49.256], [14.06, 49.2502]] },
+    'iron-lords-1420': { name: 'The Iron Lords come from Písek, which they have just taken', color: 'royalists', group: 'royalists', path: [[14.1475, 49.3088], [14.12, 49.285], [14.095, 49.262], [14.075, 49.2455]] },
+    'zizka-1420-tabor': { name: 'After the battle the Hussites march by Újezd castle to Tábor, 26–29 March 1420', color: 'taborites',
       path: [[14.0676, 49.2445], [14.12, 49.25], [14.2, 49.256], [14.31, 49.26], [14.4, 49.3], [14.4681, 49.3], [14.55, 49.35], [14.6578, 49.4144]] },
   },
   markers: {

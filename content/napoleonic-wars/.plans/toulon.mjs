@@ -36,11 +36,11 @@ const lapoype = unit('france', 'infantry', [5.982, 43.143], 1100, 260, 270, 'lap
 // --- overview: Carteaux from Marseille, La Poype from the east, the Allied fleet arrives ---
 writePlan(`${G}/010-toulon`, {
   routes: {
-    'hood-1793': { name: 'The Anglo-Spanish fleet under Hood and Lángara enters Toulon, 28 August 1793',
+    'hood-1793': { name: 'The Anglo-Spanish fleet under Hood and Lángara enters Toulon, 28 August 1793', color: 'britain',
       path: [[6.2, 43.0], [6.05, 43.04], [5.97, 43.08], [5.93, 43.112]] },
-    'carteaux-1793': { name: 'Carteaux’s army from Marseille to Ollioules and La Seyne, August to September 1793',
+    'carteaux-1793': { group: 'siege', name: 'Carteaux’s army from Marseille to Ollioules and La Seyne, August to September 1793', color: 'france',
       path: [[5.37, 43.3], [5.57, 43.29], [5.72, 43.2], [5.79, 43.16], [5.847, 43.14], [5.87, 43.11]] },
-    'lapoype-1793': { name: 'La Poype’s division from the Army of Italy to La Valette, September 1793',
+    'lapoype-1793': { group: 'siege', name: 'La Poype’s division from the Army of Italy to La Valette, September 1793', color: 'france',
       path: [[6.25, 43.2], [6.13, 43.18], [6.03, 43.16], [5.98, 43.14]] },
   },
   markers: {

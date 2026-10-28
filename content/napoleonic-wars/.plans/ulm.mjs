@@ -22,17 +22,17 @@ const mark = (pos, label, note, color, icon = 'user') => ({ lnglat: pos, icon, c
 // --- overview: from the Channel and Hanover to the Danube; Mack from the Inn to Ulm ---
 writePlan(`${G}/010-ulm`, {
   routes: {
-    'grande-armee-1805': { name: 'From the Channel to the Rhine, 27 August to 24 September 1805',
+    'grande-armee-1805': { group: 'rhine', name: 'From the Channel to the Rhine, 27 August to 24 September 1805', color: 'france',
       path: [[1.61, 50.73], [2.78, 50.29], [4.03, 49.26], [6.18, 48.69], [7.75, 48.58]] },
-    'grande-armee-danube-1805': { name: 'Across the Rhine to the Danube at Donauwörth, 25 September to 7 October',
-      path: [[8.47, 49.49], [9.22, 49.14], [10.13, 48.96], [10.49, 48.85], [10.78, 48.72]] },
-    'murat-1805': { name: 'Murat’s cavalry in the Black Forest, late September',
-      path: [[7.75, 48.58], [8.41, 48.46], [9.18, 48.78], [9.95, 48.8]] },
-    'bernadotte-1805': { name: 'Bernadotte from Hanover through Ansbach to Munich',
+    'bernadotte-1805': { group: 'rhine', name: 'Bernadotte from Hanover through Ansbach to Munich', color: 'france',
       path: [[9.73, 52.37], [9.93, 51.53], [9.93, 49.79], [10.57, 49.3], [11.42, 48.76], [11.58, 48.14]] },
-    'marmont-1805': { name: 'Marmont from Utrecht by Mainz to Würzburg', offset: 6,
+    'marmont-1805': { group: 'rhine', name: 'Marmont from Utrecht by Mainz to Würzburg', color: 'france', offset: 6,
       path: [[5.12, 52.09], [6.95, 50.94], [8.27, 50.0], [9.93, 49.79]] },
-    'mack-1805': { name: 'Mack from the Inn to Ulm, September 1805',
+    'murat-1805': { group: 'danube', name: 'Murat’s cavalry in the Black Forest, late September', color: 'france',
+      path: [[7.75, 48.58], [8.41, 48.46], [9.18, 48.78], [9.95, 48.8]] },
+    'grande-armee-danube-1805': { group: 'danube', name: 'Across the Rhine to the Danube at Donauwörth, 25 September to 7 October', color: 'france',
+      path: [[8.47, 49.49], [9.22, 49.14], [10.13, 48.96], [10.49, 48.85], [10.78, 48.72]] },
+    'mack-1805': { name: 'Mack from the Inn to Ulm, September 1805', color: 'austria',
       path: [[12.95, 48.2], [11.58, 48.14], [10.9, 48.37], [9.99, 48.4]] },
   },
   markers: {

@@ -25,15 +25,15 @@ const mark = (lnglat, label, note, color, icon = 'user') => ({ lnglat, icon, col
 // --- overview: the relief armies of 1796 and the march to Ronco ---
 writePlan(`${G}/010-arcole`, {
   routes: {
-    'wurmser-1796': { name: 'Wurmser’s first relief down the Adige to Mantua, late July 1796',
+    'wurmser-1796': { name: 'Wurmser’s first relief down the Adige to Mantua, late July 1796', color: 'austria',
       path: [[11.12, 46.07], [11.04, 45.89], [10.92, 45.72], [10.82, 45.58], [10.83, 45.42], [10.81, 45.25], [10.8, 45.17]] },
-    'wurmser-bassano-1796': { name: 'Wurmser through the Brenta valley and Bassano into Mantua, September 1796', offset: 6,
+    'wurmser-bassano-1796': { name: 'Wurmser through the Brenta valley and Bassano into Mantua, September 1796', color: 'austria', offset: 6,
       path: [[11.12, 46.07], [11.3, 46.01], [11.6, 45.98], [11.73, 45.78], [11.55, 45.55], [11.35, 45.3], [11.21, 45.19], [11.0, 45.17], [10.81, 45.16]] },
-    'alvinczi-1796': { name: 'Alvinczi advances from the Piave to Caldiero, November 1796',
+    'alvinczi-1796': { group: 'third-relief', name: 'Alvinczi advances from the Piave to Caldiero, November 1796', color: 'austria',
       path: [[12.2, 45.8], [11.95, 45.78], [11.73, 45.77], [11.55, 45.55], [11.38, 45.46], [11.26, 45.43], [11.18, 45.415]] },
-    'davidovich-1796': { name: 'Davidovich comes down the Adige from Tyrol to Rivoli, November 1796',
+    'davidovich-1796': { group: 'third-relief', name: 'Davidovich comes down the Adige from Tyrol to Rivoli, November 1796', color: 'austria',
       path: [[11.12, 46.07], [11.09, 45.93], [11.0, 45.8], [10.88, 45.65], [10.82, 45.58]] },
-    'bonaparte-ronco-1796': { name: 'Bonaparte marches from Verona down the Adige to Ronco, 14 to 15 November 1796',
+    'bonaparte-ronco-1796': { name: 'Bonaparte marches from Verona down the Adige to Ronco, 14 to 15 November 1796', color: 'france',
       path: [[10.99, 45.44], [11.04, 45.39], [11.1, 45.36], [11.18, 45.35], [11.245, 45.336]] },
   },
   markers: {

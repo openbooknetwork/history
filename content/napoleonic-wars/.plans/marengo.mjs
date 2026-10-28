@@ -18,13 +18,13 @@ const mark = (u, w, label, note, color, icon = 'user') => ({ lnglat: P(u, w), ic
 // --- overview: over the Alps and down to the plain of Alessandria ---
 writePlan(`${G}/010-marengo`, {
   routes: {
-    'reserve-army-1800': { name: 'The Reserve Army crosses the Great St Bernard and marches to Milan, May to 2 June 1800',
+    'reserve-army-1800': { name: 'The Reserve Army crosses the Great St Bernard and marches to Milan, May to 2 June 1800', color: 'france',
       path: [[7.07, 46.1], [7.17, 45.87], [7.32, 45.74], [7.75, 45.61], [7.87, 45.47], [8.4, 45.33], [8.8, 45.45], [9.19, 45.46]] },
-    'lannes-1800': { name: 'The French cross the Po and march by Stradella towards Alessandria, 3 to 13 June 1800',
+    'lannes-1800': { name: 'The French cross the Po and march by Stradella towards Alessandria, 3 to 13 June 1800', color: 'france',
       path: [[9.19, 45.46], [9.16, 45.19], [9.35, 45.08], [9.18, 45.03], [9.0, 44.99], [8.8, 44.9], [8.72, 44.885]] },
-    'ott-1800': { name: 'Ott’s corps marches north from Genoa to Montebello, 7 to 9 June 1800',
+    'ott-1800': { name: 'Ott’s corps marches north from Genoa to Montebello, 7 to 9 June 1800', color: 'austria',
       path: [[8.93, 44.41], [8.88, 44.55], [8.79, 44.76], [8.95, 44.92], [9.08, 44.99]] },
-    'melas-1800': { name: 'Melas gathers his army at Alessandria, June 1800',
+    'melas-1800': { name: 'Melas gathers his army at Alessandria, June 1800', color: 'austria',
       path: [[7.68, 45.07], [8.21, 44.9], [8.6, 44.91]] },
   },
   markers: {

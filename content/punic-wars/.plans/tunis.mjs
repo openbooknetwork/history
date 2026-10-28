@@ -16,8 +16,8 @@ const camps = [unit('rome', 'camp', 0, -1350, 450, 450, nm('roman-camp', 'Roman 
 // --- overview: from Aspis to Adys and Tunis, and Xanthippus marching out ---
 writePlan(`${G}/010-regulus`, {
   routes: {
-    'regulus-256': { name: 'Regulus marches inland from Aspis to Adys and Tunis, 256 BC', path: [[11.09, 36.85], [10.8, 36.72], [10.45, 36.63], [10.19, 36.6], [10.15, 36.7], [10.17, 36.79]] },
-    'xanthippus-255': { name: 'Xanthippus leads the Carthaginian army out, spring 255 BC', path: [[10.32, 36.86], [10.25, 36.9], [10.14, 36.9], [10.06, 36.87]] },
+    'regulus-256': { name: 'Regulus marches inland from Aspis to Adys and Tunis, 256 BC', color: 'rome', path: [[11.09, 36.85], [10.8, 36.72], [10.45, 36.63], [10.19, 36.6], [10.15, 36.7], [10.17, 36.79]] },
+    'xanthippus-255': { name: 'Xanthippus leads the Carthaginian army out, spring 255 BC', color: 'carthage', path: [[10.32, 36.86], [10.25, 36.9], [10.14, 36.9], [10.06, 36.87]] },
   },
   show: ['aspis-256', 'adys-256', 'carthage-255'],
 });
@@ -110,9 +110,9 @@ writePlan(`${G}/040-regulus-defeat`, {
 // --- the survivors, Cape Hermaeum and the storm off Camarina ---
 writePlan(`${G}/050-regulus-aftermath`, {
   routes: {
-    'survivors-255': { name: 'The 2,000 survivors fall back to Aspis', style: 'dashed', path: [[10.03, 36.85], [10.12, 36.76], [10.4, 36.7], [10.75, 36.72], [11.09, 36.85]] },
-    'fleet-255': { name: 'A Roman fleet comes to take off the survivors and wins off Cape Hermaeum', path: [[12.4, 37.72], [11.7, 37.3], [11.12, 37.13], [11.13, 36.9]] },
-    'storm-255': { name: 'The fleet sails home and is wrecked off Camarina', path: [[11.16, 36.88], [11.8, 37.05], [12.6, 37.3], [13.4, 37.02], [14.1, 36.84], [14.4, 36.83]] },
+    'survivors-255': { name: 'The 2,000 survivors fall back to Aspis', color: 'rome', style: 'dashed', path: [[10.03, 36.85], [10.12, 36.76], [10.4, 36.7], [10.75, 36.72], [11.09, 36.85]] },
+    'fleet-255': { name: 'A Roman fleet comes to take off the survivors and wins off Cape Hermaeum', color: 'rome', path: [[12.4, 37.72], [11.7, 37.3], [11.12, 37.13], [11.13, 36.9]] },
+    'storm-255': { name: 'The fleet sails home and is wrecked off Camarina', color: 'rome', path: [[11.16, 36.88], [11.8, 37.05], [12.6, 37.3], [13.4, 37.02], [14.1, 36.84], [14.4, 36.83]] },
   },
   markers: {
     'regulus-aftermath-hermaeum': { lnglat: [11.15, 37.25], icon: 'ship', color: 'rome', label: 'Cape Hermaeum', note: '114 Carthaginian ships captured' },

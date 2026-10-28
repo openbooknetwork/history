@@ -10,11 +10,11 @@ const G = 'pages/020-war/050-1780-1781';
 writePlan(`${G}/011-charleston-approach`, {
   bbox: [-80.3, 32.5, -79.7, 33.26],
   routes: {
-    'clinton-1780': { name: 'Clinton’s army through the sea islands and over the Ashley, February to March 1780',
+    'clinton-1780': { color: 'held', name: 'Clinton’s army through the sea islands and over the Ashley, February to March 1780',
       path: [[-80.165, 32.58], [-80.1, 32.645], [-80.03, 32.7], [-80.035, 32.765], [-80.075, 32.855], [-80.04, 32.885], [-79.98, 32.86], [-79.95, 32.82]] },
-    'arbuthnot-1780': { name: 'Arbuthnot’s squadron runs past Fort Moultrie into the harbour, 8 April', path: [[-79.8, 32.66], [-79.84, 32.73], [-79.863, 32.754], [-79.9, 32.766]] },
-    'tarleton-1780': { name: 'Tarleton and Ferguson ride to Monck’s Corner, 14 April', path: [[-79.965, 32.865], [-79.995, 32.98], [-80.013, 33.19]] },
-    'cornwallis-1780': { name: 'Cornwallis crosses the Cooper and holds the east bank, 23 April', offset: 6, path: [[-79.995, 32.98], [-79.93, 32.97], [-79.87, 32.9], [-79.875, 32.8]] },
+    'arbuthnot-1780': { color: 'held', name: 'Arbuthnot’s squadron runs past Fort Moultrie into the harbour, 8 April', path: [[-79.8, 32.66], [-79.84, 32.73], [-79.863, 32.754], [-79.9, 32.766]] },
+    'tarleton-1780': { color: 'held', name: 'Tarleton and Ferguson ride to Monck’s Corner, 14 April', path: [[-79.965, 32.865], [-79.995, 32.98], [-80.013, 33.19]] },
+    'cornwallis-1780': { color: 'held', name: 'Cornwallis crosses the Cooper and holds the east bank, 23 April', offset: 6, path: [[-79.995, 32.98], [-79.93, 32.97], [-79.87, 32.9], [-79.875, 32.8]] },
   },
   markers: {
     'charleston-approach-simmons': { lnglat: [-80.165, 32.58], icon: 'anchor', color: 'held', label: 'Simmons Island', note: 'The army ashore by 12 February' },

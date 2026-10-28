@@ -24,9 +24,9 @@ const columns = (cu, cw, length) => [-170, 0, 170].map(o => n(unit('rome', 'infa
 // --- overview: over the Apennines and through the Arno marshes, Flaminius in pursuit ---
 writePlan(`${G}/010-trasimene`, {
   routes: {
-    'hannibal-217': { name: 'Hannibal crosses the Apennines and the Arno marshes, spring 217 BC',
+    'hannibal-217': { name: 'Hannibal crosses the Apennines and the Arno marshes, spring 217 BC', color: 'carthage',
       path: [[11.34, 44.49], [11.15, 44.25], [11.02, 44.03], [10.95, 43.9], [11.05, 43.8], [11.22, 43.77], [11.45, 43.62], [11.7, 43.43], [11.85, 43.33], [11.99, 43.27], [12.04, 43.2]] },
-    'flaminius-217': { name: 'Flaminius follows from Arretium, June 217 BC', offset: 6, path: [[11.88, 43.46], [11.92, 43.37], [11.98, 43.29], [12.0, 43.22], [12.03, 43.2]] },
+    'flaminius-217': { name: 'Flaminius follows from Arretium, June 217 BC', color: 'rome', offset: 6, path: [[11.88, 43.46], [11.92, 43.37], [11.98, 43.29], [12.0, 43.22], [12.03, 43.2]] },
   },
   markers: { 'arno-217': { lnglat: [10.95, 43.78], icon: 'waves', color: 'carthage', label: 'Arno marshes', note: 'Four days and three nights in water' } },
   show: ['arretium-217', 'ariminum-217'],

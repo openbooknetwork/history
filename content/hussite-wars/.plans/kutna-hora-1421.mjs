@@ -31,11 +31,11 @@ const HUSSITES = 'the Hussites of Tábor, Prague and the towns, a third of the r
 writePlan(`${G}/010-kutna-hora`, {
   bbox: [14.3, 49.3, 16.55, 50.2],
   routes: {
-    'zizka-1421-december': { name: 'Žižka marches from Prague to Kutná Hora, 8 to 9 December 1421',
+    'zizka-1421-december': { name: 'Žižka marches from Prague to Kutná Hora, 8 to 9 December 1421', color: 'taborites',
       path: [[14.42, 50.087], [14.6, 50.08], [14.861, 50.074], [14.977, 50.003], [15.1, 49.975], [15.2, 49.958], [15.258, 49.95]] },
-    'sigismund-1421': { name: 'Sigismund’s main column from Jihlava by Německý Brod and Ledeč to Kutná Hora, December 1421',
+    'sigismund-1421': { name: 'Sigismund’s main column from Jihlava by Německý Brod and Ledeč to Kutná Hora, December 1421', color: 'hungary', group: 'royal-columns',
       path: [[15.591, 49.396], [15.588, 49.5], [15.58, 49.607], [15.5, 49.64], [15.4, 49.67], [15.278, 49.695], [15.25, 49.76], [15.22, 49.84], [15.215, 49.9], [15.238, 49.945]] },
-    'sigismund-1421-litomysl': { name: 'A second royal column by Litomyšl, December 1421',
+    'sigismund-1421-litomysl': { name: 'A second royal column by Litomyšl, December 1421', color: 'hungary', group: 'royal-columns',
       path: [[16.47, 49.756], [16.312, 49.869], [16.1, 49.92], [15.85, 49.94], [15.6, 49.95], [15.42, 49.955], [15.3, 49.958]] },
   },
   markers: {
@@ -201,10 +201,10 @@ writePlan(`${G}/050-nemecky-brod`, {
     clashes: [B.clash([1200, -1620], 230), B.clash([420, -40], 230)],
   },
   routes: {
-    'sigismund-1422': { name: 'The royal army flees from Kutná Hora by Habry and Německý Brod into Moravia, 6 to 10 January 1422', style: 'dashed',
+    'sigismund-1422': { name: 'The royal army flees from Kutná Hora by Habry and Německý Brod into Moravia, 6 to 10 January 1422', color: 'hungary', style: 'dashed',
       path: [[15.268, 49.948], [15.3, 49.92], [15.36, 49.88], [15.42, 49.845], [15.477, 49.816], [15.4878, 49.7553], [15.5, 49.71], [15.528, 49.67], [15.548, 49.63], [15.56, 49.606],
         [15.555, 49.59], [15.57, 49.55], [15.585, 49.5], [15.591, 49.4]] },
-    'zizka-1422': { name: 'Žižka pursues from Kutná Hora by Habry to Německý Brod, 7 to 8 January 1422', offset: 6,
+    'zizka-1422': { name: 'Žižka pursues from Kutná Hora by Habry to Německý Brod, 7 to 8 January 1422', color: 'taborites', offset: 6,
       path: [[15.268, 49.948], [15.3, 49.92], [15.36, 49.88], [15.42, 49.845], [15.477, 49.816], [15.4878, 49.7553], [15.5, 49.71], [15.528, 49.67], [15.552, 49.648], [15.565, 49.635]] },
   },
   markers: {

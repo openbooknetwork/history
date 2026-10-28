@@ -26,13 +26,13 @@ const emblem = (units, arrows, clashes = []) => ({ water: [zadorra], works: road
 // --- overview: Burgos, the retreat of 1812, the march of 1813 round the French right ---
 writePlan(`${G}/010-vitoria`, {
   routes: {
-    'wellington-burgos-1812': { name: 'Wellington retreats from Burgos, autumn 1812', style: 'dashed',
+    'wellington-burgos-1812': { name: 'Wellington retreats from Burgos, autumn 1812', color: 'britain', style: 'dashed',
       path: [[-3.7, 42.34], [-4.2, 42.0], [-4.72, 41.65], [-5.0, 41.5], [-5.66, 40.96], [-6.53, 40.6]] },
-    'graham-1813': { name: 'Graham’s march round the French right, May to June 1813',
+    'graham-1813': { group: '1813', name: 'Graham’s march round the French right, May to June 1813', color: 'britain',
       path: [[-6.76, 41.8], [-6.2, 41.85], [-5.85, 41.88], [-5.3, 42.05], [-4.6, 42.3], [-4.1, 42.55], [-3.75, 42.78], [-3.25, 42.88], [-2.85, 42.85]] },
-    'wellington-1813': { name: 'Wellington’s central column by Salamanca, May to June 1813', offset: 6,
+    'wellington-1813': { group: '1813', name: 'Wellington’s central column by Salamanca, May to June 1813', color: 'britain', offset: 6,
       path: [[-6.53, 40.6], [-5.66, 40.96], [-5.39, 41.52], [-5.0, 41.85], [-4.6, 42.3], [-4.1, 42.55], [-3.75, 42.78], [-3.25, 42.88], [-2.85, 42.83]] },
-    'joseph-1813': { name: 'Joseph and Jourdan fall back to Vitoria, June 1813', style: 'dashed',
+    'joseph-1813': { name: 'Joseph and Jourdan fall back to Vitoria, June 1813', color: 'france', style: 'dashed',
       path: [[-4.72, 41.65], [-4.2, 41.95], [-3.7, 42.34], [-3.25, 42.55], [-2.95, 42.69], [-2.75, 42.82]] },
   },
   markers: {

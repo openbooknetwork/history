@@ -30,9 +30,10 @@ ids are `<place>-<year>`, such as `maldon-991`.
 
 ## Sides
 
-Sides are the story's families: `danes`, `norway`, `swedes`, `rus`, `norse` (Dublin, York, Orkney, the Isles),
-`normans`, `english`, `anglo`, `celts` (Irish, Scots, Picts, Welsh), `franks`, `byzantium`, `islam`, `bulgaria`,
-`steppe`. A Viking army takes the family of its leader's people: the Great Army and Sigfrid's army at Paris
+Sides are the story's families: `danes`, `norway`, `swedes`, `rus`, `norse` (Dublin), `normans`, `english`, `celts`
+(the Irish kingdoms as one), `franks`, `byzantium`, `bulgaria`, and the families of single states such as
+`northumbria` or `cordoba`. The older group ids `anglo`, `islam` and `other` are aliases of `northumbria`, `cordoba`
+and `petty`. A Viking army takes the family of its leader's people: the Great Army and Sigfrid's army at Paris
 `danes`, Olaf Tryggvason's fleet at Maldon and Harald Hardrada's army in 1066 `norway`, Sviatoslav's army `rus`.
 At Clontarf Brian's army is `celts` and Dublin with Leinster, Orkney and Man is `norse`. Allies under one
 commander take his colour. Rivers, marshes and the sea take the `water` family.

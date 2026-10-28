@@ -12,7 +12,7 @@ const mark = (lnglat, label, note, color, icon = 'user') => ({ lnglat, icon, col
 writePlan(`${G}/010-great-plains`, {
   bbox: [8.6, 35.8, 13.0, 38.4],
   routes: {
-    'scipio-204': { name: 'Scipio’s fleet of 400 transports and 40 galleys crosses from Lilybaeum, 204 BC', path: [[12.44, 37.8], [11.8, 37.62], [11.0, 37.42], [10.5, 37.27], [10.28, 37.18]] },
+    'scipio-204': { name: 'Scipio’s fleet of 400 transports and 40 galleys crosses from Lilybaeum, 204 BC', color: 'rome', path: [[12.44, 37.8], [11.8, 37.62], [11.0, 37.42], [10.5, 37.27], [10.28, 37.18]] },
   },
   markers: {
     'great-plains-castra': { lnglat: [10.1, 37.105], icon: 'flag', color: 'rome', label: 'Castra Cornelia', note: 'Scipio’s fortified camp' },
@@ -109,9 +109,9 @@ writePlan(`${G}/040-great-plains-iberians`, {
 writePlan(`${G}/050-great-plains-cirta`, {
   bbox: [6.2, 35.6, 10.7, 37.4],
   routes: {
-    'laelius-masinissa-203': { name: 'Laelius and Masinissa pursue Syphax to Cirta', path: [[8.9, 36.6], [8.3, 36.45], [7.6, 36.4], [7.0, 36.35], [6.65, 36.36]] },
-    'scipio-tunis-203': { name: 'Scipio takes Tunis, in sight of Carthage', path: [[8.98, 36.62], [9.4, 36.68], [9.8, 36.75], [10.15, 36.8]] },
-    'hasdrubal-carthage-203': { name: 'Hasdrubal Gisco flees to Carthage', style: 'dashed', offset: 6, path: [[8.98, 36.63], [9.4, 36.72], [9.85, 36.8], [10.3, 36.85]] },
+    'laelius-masinissa-203': { name: 'Laelius and Masinissa pursue Syphax to Cirta', color: 'rome', path: [[8.9, 36.6], [8.3, 36.45], [7.6, 36.4], [7.0, 36.35], [6.65, 36.36]] },
+    'scipio-tunis-203': { name: 'Scipio takes Tunis, in sight of Carthage', color: 'rome', path: [[8.98, 36.62], [9.4, 36.68], [9.8, 36.75], [10.15, 36.8]] },
+    'hasdrubal-carthage-203': { name: 'Hasdrubal Gisco flees to Carthage', color: 'carthage', style: 'dashed', offset: 6, path: [[8.98, 36.63], [9.4, 36.72], [9.85, 36.8], [10.3, 36.85]] },
   },
   show: ['cirta-203', 'tunis-203', 'carthage-203'],
 });

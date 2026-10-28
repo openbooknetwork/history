@@ -21,7 +21,7 @@ const camp = n(unit('carthage', 'camp', -1250, 1750, 700, 600, 0), 'camp', 'Cart
 
 // --- overview: the march from New Carthage ---
 writePlan(`${G}/010-saguntum`, {
-  routes: { 'hannibal-219': { name: 'Hannibal marches from New Carthage to Saguntum, spring 219 BC', path: [[-0.98, 37.6], [-0.7, 37.95], [-0.5, 38.35], [-0.35, 38.8], [-0.38, 39.2], [-0.3, 39.55], P(-1200, 1400)] } },
+  routes: { 'hannibal-219': { name: 'Hannibal marches from New Carthage to Saguntum, spring 219 BC', color: 'carthage', path: [[-0.98, 37.6], [-0.7, 37.95], [-0.5, 38.35], [-0.35, 38.8], [-0.38, 39.2], [-0.3, 39.55], P(-1200, 1400)] } },
   show: ['new-carthage-219', 'ebro-219'],
 });
 

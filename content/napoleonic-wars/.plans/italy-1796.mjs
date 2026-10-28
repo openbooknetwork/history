@@ -3,11 +3,11 @@ import { writePlan } from './lib.mjs';
 
 writePlan('pages/020-first-coalition/070-italy-1796', {
   routes: {
-    'bonaparte-piedmont-1796': { name: 'Bonaparte strikes between the allies at Montenotte and drives the Sardinians back to Cherasco, April 1796',
+    'bonaparte-piedmont-1796': { name: 'Bonaparte strikes between the allies at Montenotte and drives the Sardinians back to Cherasco, April 1796', color: 'france',
       path: [[7.27, 43.7], [7.9, 43.9], [8.48, 44.31], [8.39, 44.4], [8.25, 44.36], [8.03, 44.39], [7.82, 44.39], [7.86, 44.7]] },
-    'bonaparte-lodi-1796': { name: 'Bonaparte marches across the Po at Piacenza to Lodi and Milan, May 1796', offset: 6,
+    'bonaparte-lodi-1796': { name: 'Bonaparte marches across the Po at Piacenza to Lodi and Milan, May 1796', color: 'france', offset: 6,
       path: [[7.86, 44.7], [8.5, 44.9], [9.0, 45.0], [9.69, 45.05], [9.6, 45.2], [9.5, 45.31], [9.19, 45.46]] },
-    'beaulieu-1796': { name: 'Beaulieu’s Austrians retreat from Acqui behind the Po and the Adda, April to May 1796', style: 'dashed',
+    'beaulieu-1796': { name: 'Beaulieu’s Austrians retreat from Acqui behind the Po and the Adda, April to May 1796', color: 'austria', style: 'dashed',
       path: [[8.47, 44.68], [8.9, 45.1], [9.3, 45.25], [9.5, 45.31], [9.68, 45.36], [10.2, 45.4]] },
   },
   markers: {

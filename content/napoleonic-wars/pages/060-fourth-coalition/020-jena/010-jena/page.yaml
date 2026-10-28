@@ -3,7 +3,7 @@ when: {from: '1806-10-11', to: '1806-10-13'}
 title: "The armies meet on the Saale"
 bbox: [11.15, 50.6, 12.2, 51.22]
 zones: []
-routes: [lannes-jena-1806, davout-naumburg-1806]
+routes: [[davout-naumburg-1806, lannes-jena-1806]]
 markers: [jena-weimar, jena-naumburg]
 battle: jena
 sources: ['David G. Chandler, The Campaigns of Napoleon (1966).', 'F. Loraine Petre, Napoleon’s Conquest of Prussia 1806 (1907).', 'David G. Chandler, Jena 1806: Napoleon Destroys Prussia (1993).']

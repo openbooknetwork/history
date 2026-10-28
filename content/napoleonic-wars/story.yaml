@@ -28,19 +28,48 @@ countries: [Portugal, Spain, Gibraltar, Andorra, France, Monaco, Belgium, Luxemb
 # Zone families. A zone subtracts every zone from a family with a lower priority number.
 # Zones in the same family never cut each other, so one family can hold several dated shapes.
 families:
-  france:   { priority: 0, color: "#1f4e9c", color_dark: "#5b8ee0" }                  # the French Republic, then the Empire
-  client:   { priority: 1, color: "#4a90c8", color_dark: "#82bdf0", pattern: hatch }  # sister republics and Bonaparte kingdoms
-  rhine:    { priority: 2, color: "#7a5fb5", color_dark: "#a98bd6", pattern: dots }   # Confederation of the Rhine, Duchy of Warsaw
-  britain:  { priority: 3, color: "#c0392b", color_dark: "#ef6b5b" }                  # Great Britain and Ireland
-  spain:    { priority: 4, color: "#b03a7a", color_dark: "#e07ab0" }                  # Spain
-  portugal: { priority: 5, color: "#8d6e63", color_dark: "#c4a69a", pattern: hatch }  # Portugal
-  sweden:   { priority: 6, color: "#1aa3b8", color_dark: "#5fd3e6" }                  # Sweden
-  prussia:  { priority: 7, color: "#3d4a5c", color_dark: "#9aa8bd" }                  # Prussia
-  austria:  { priority: 8, color: "#d4a017", color_dark: "#f2c94c" }                  # the Habsburg monarchy
-  ottoman:  { priority: 9, color: "#8e3b46", color_dark: "#d9707f", pattern: cross }  # the Ottoman Empire
-  russia:   { priority: 10, color: "#2e8b57", color_dark: "#5fcf8f" }                 # Russia
-  other:    { priority: 11, color: "#a39171", color_dark: "#cbbb93", pattern: dots }  # smaller and neutral states
-  water:    { priority: 9, color: "#5b9bd5", color_dark: "#2c5d87" }                  # rivers and lakes on the battle plans, no zones
+  france:          { priority: 0, color: "#1f4e9c", color_dark: "#5b8ee0" }                   # the French Republic, then the Empire
+  # the sister republics and Bonaparte states share two blues and differ in pattern
+  italy:           { priority: 1, color: "#4a90c8", color_dark: "#82bdf0", pattern: hatch }   # Cisalpine and Italian republics, Kingdom of Italy
+  batavia:         { priority: 1, color: "#4a90c8", color_dark: "#82bdf0", pattern: cross }   # Batavian Republic, Kingdom of Holland
+  helvetic:        { priority: 1, color: "#4a90c8", color_dark: "#82bdf0", pattern: dots }    # Helvetic Republic, Switzerland under the Act of Mediation
+  joseph-spain:    { priority: 1, color: "#4a90c8", color_dark: "#82bdf0", pattern: cross }   # Spain under Joseph Bonaparte
+  ligurian:        { priority: 1, color: "#1d3f7a", color_dark: "#3f6fb8", pattern: hatch }   # Ligurian Republic
+  roman:           { priority: 1, color: "#1d3f7a", color_dark: "#3f6fb8", pattern: dots }    # Roman Republic
+  parthenopean:    { priority: 1, color: "#1d3f7a", color_dark: "#3f6fb8", pattern: cross }   # Parthenopean Republic
+  french-naples:   { priority: 1, color: "#1d3f7a", color_dark: "#3f6fb8", pattern: cross }   # Naples under Joseph Bonaparte and Murat
+  westphalia:      { priority: 1, color: "#1d3f7a", color_dark: "#3f6fb8", pattern: hatch }   # Kingdom of Westphalia
+  danzig:          { priority: 1, color: "#1d3f7a", color_dark: "#3f6fb8", pattern: cross }   # Free City of Danzig
+  elba:            { priority: 1, color: "#1f4e9c", color_dark: "#5b8ee0", pattern: hatch }   # Napoleon on Elba
+  client:          { priority: 1, color: "#4a90c8", color_dark: "#82bdf0", pattern: hatch }   # troops of the Bonaparte states on the battle plans
+  rhine:           { priority: 2, color: "#8e4585", color_dark: "#c77dbd", pattern: dots }    # Confederation of the Rhine
+  warsaw:          { priority: 2, color: "#8e4585", color_dark: "#c77dbd", pattern: hatch }   # Duchy of Warsaw
+  britain:         { priority: 3, color: "#c0392b", color_dark: "#ef6b5b" }                   # Great Britain and Ireland
+  spain:           { priority: 4, color: "#b03a7a", color_dark: "#e07ab0" }                   # Spain
+  portugal:        { priority: 5, color: "#8d6e63", color_dark: "#c4a69a", pattern: hatch }   # Portugal
+  sweden:          { priority: 6, color: "#1aa3b8", color_dark: "#5fd3e6" }                   # Sweden
+  norway:          { priority: 6, color: "#1aa3b8", color_dark: "#5fd3e6", pattern: hatch }   # Norway in union with Sweden
+  prussia:         { priority: 7, color: "#3d4a5c", color_dark: "#9aa8bd" }                   # Prussia
+  austria:         { priority: 8, color: "#d4a017", color_dark: "#f2c94c" }                   # the Habsburg monarchy
+  ottoman:         { priority: 9, color: "#8e3b46", color_dark: "#d9707f", pattern: cross }   # the Ottoman Empire
+  russia:          { priority: 10, color: "#2e8b57", color_dark: "#5fcf8f" }                  # Russia
+  congress-poland: { priority: 10, color: "#2e8b57", color_dark: "#5fcf8f", pattern: hatch }  # Kingdom of Poland under the tsar
+  netherlands:     { priority: 11, color: "#e8650a", color_dark: "#ff8f40", pattern: hatch }  # Dutch Republic, United Netherlands
+  swiss:           { priority: 11, color: "#d32f2f", color_dark: "#f26b6b", pattern: dots }   # Swiss Confederation
+  denmark:         { priority: 11, color: "#c8102e", color_dark: "#f0606a", pattern: hatch }  # Denmark–Norway, then Denmark
+  poland:          { priority: 11, color: "#f06292", color_dark: "#f8a5c2", pattern: dots }   # Polish–Lithuanian Commonwealth
+  hanover:         { priority: 11, color: "#8bc34a", color_dark: "#b8e07a" }                  # Electorate of Hanover
+  naples:          { priority: 11, color: "#00897b", color_dark: "#4db6ac", pattern: cross }  # Bourbon Naples and Sicily
+  tuscany:         { priority: 11, color: "#00897b", color_dark: "#4db6ac" }                  # Grand Duchy of Tuscany
+  sardinia:        { priority: 11, color: "#7d8a2e", color_dark: "#b3c25a", pattern: dots }   # Kingdom of Sardinia
+  piedmont:        { priority: 11, color: "#757575", color_dark: "#b0b0b0", pattern: hatch }  # Piedmont, fought over in 1799 and 1800
+  papal:           { priority: 11, color: "#9e9ac8", color_dark: "#c5c2e8", pattern: cross }  # Papal States
+  parma:           { priority: 11, color: "#f06292", color_dark: "#f8a5c2", pattern: dots }   # Duchy of Parma
+  malta:           { priority: 11, color: "#757575", color_dark: "#b0b0b0", pattern: hatch }  # Malta under the Knights of St John
+  german-states:   { priority: 12, color: "#a39171", color_dark: "#cbbb93", pattern: dots }   # the smaller German states as one zone
+  italian-states:  { priority: 12, color: "#a39171", color_dark: "#cbbb93", pattern: cross }  # the smaller Italian states as one zone
+  other:           { priority: 12, color: "#a39171", color_dark: "#cbbb93", pattern: dots }   # stragglers and civilians on the battle plans
+  water:           { priority: 9, color: "#5b9bd5", color_dark: "#2c5d87" }                   # rivers and lakes on the battle plans, no zones
 # Corner rounding passes applied to every hand drawn zone before the clip.
 smoothing: 4
 # Battle plans are drawn at the scale of the field, a few kilometres across.

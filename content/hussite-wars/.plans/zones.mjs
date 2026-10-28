@@ -2,7 +2,8 @@
 // and the Turkish names in .i18n-parts/zones.tr.yaml. Run from the repo root: node content/hussite-wars/.plans/zones.mjs
 // The crown lands and the kingdoms around them are cut from the Natural Earth countries along hand drawn lines of the
 // time. Inside Bohemia the Hussite unions are drawn as the country around the towns each one held, and the royalist
-// zone of a period is all of Bohemia, which the build cuts where a Hussite zone of higher priority lies over it.
+// zone of a period is all the crown lands, which the build cuts where a Hussite zone of higher priority lies over it.
+// A family shows as one zone per page, so a party that holds lands apart is one zone of several pieces.
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -74,6 +75,9 @@ const AUSTRIA = U(D(C('Austria'), BURGENLAND, SALZBURG), C('Slovenia'), I(C('Ita
 const HUNGARY = U(C('Slovakia', 'Hungary', 'Croatia', 'Romania'), I(C('Ukraine'), ZAKARPATTIA), I(C('Austria'), BURGENLAND));
 const PRUSSIA = PRUSSIA_POLY, NEUMARK = NEUMARK_POLY, LITHUANIA = LITHUANIA_POLY, POLAND = POLAND_POLY, DENMARK = DENMARK_POLY;
 const EMPIRE = D(turf.bboxPolygon([4, 44.5, 25, 57]), DENMARK_POLY);
+const LUSATIA = U(U_LUSATIA, L_LUSATIA), CROWN = U(BOHEMIA, MORAVIA, SILESIA, LUSATIA);
+// one zone of pieces that do not touch: the writer keeps every piece, where it keeps the largest of any other zone
+const pieces = (...a) => { const u = U(a); u.properties = { pieces: true }; return u; };
 
 // --- towns, [lon, lat] ---
 const T = {
@@ -108,117 +112,114 @@ const around = (towns, km) => {
 const Z = {};
 const zone = (id, family, en, tr, shape) => { Z[id] = { id, family, name: { en, tr }, shape }; return id; };
 
-// around 1400, the crown lands and the neighbours
-const pre = [
+// around 1400: the crown lands one by one where the text names them, else one zone
+const lands = [
   zone('bohemia-1400', 'bohemia', 'Kingdom of Bohemia', 'Bohemya Krallığı', BOHEMIA),
-  zone('moravia-1400', 'bohemia', 'Margraviate of Moravia', 'Moravya Uçbeyliği', MORAVIA),
-  zone('silesia-1400', 'bohemia', 'Duchies of Silesia, under the Bohemian crown', 'Bohemya tacına bağlı Silezya dükalıkları', SILESIA),
-  zone('ulusatia-1400', 'bohemia', 'Upper Lusatia, under the Bohemian crown', 'Bohemya tacına bağlı Yukarı Lusatya', U_LUSATIA),
-  zone('llusatia-1400', 'bohemia', 'Lower Lusatia, under the Bohemian crown', 'Bohemya tacına bağlı Aşağı Lusatya', L_LUSATIA),
+  zone('moravia-1400', 'moravia', 'Margraviate of Moravia', 'Moravya Uçbeyliği', MORAVIA),
+  zone('silesia-1400', 'silesia', 'Duchies of Silesia, under the Bohemian crown', 'Bohemya tacına bağlı Silezya dükalıkları', SILESIA),
+  zone('lusatia-1400', 'lusatia', 'Margraviates of Upper and Lower Lusatia, under the Bohemian crown', 'Bohemya tacına bağlı Yukarı ve Aşağı Lusatya uçbeylikleri', LUSATIA),
 ];
-const out = [
-  zone('austria-1400', 'austria', 'Duchies of Austria under the Habsburgs', 'Habsburgların Avusturya dükalıkları', AUSTRIA),
-  zone('hungary-1400', 'hungary', 'Kingdom of Hungary under Sigismund, 1387–1437', 'Sigismund’un Macaristan Krallığı, 1387–1437', HUNGARY),
-  zone('poland-1400', 'poland', 'Kingdom of Poland', 'Polonya Krallığı', POLAND),
-  zone('lithuania-1400', 'poland', 'Grand Duchy of Lithuania, in union with Poland', 'Polonya ile birlik içindeki Litvanya Büyük Dükalığı', LITHUANIA),
-  zone('teutonic-1400', 'teutonic', 'State of the Teutonic Order in Prussia', 'Prusya’daki Töton Şövalyeleri Tarikatı Devleti', PRUSSIA),
-  zone('denmark-1400', 'other', 'Kingdom of Denmark', 'Danimarka Krallığı', DENMARK),
-];
-const neumark = zone('neumark-1410', 'teutonic', 'The Neumark, held by the Teutonic Order 1402–1455', 'Töton Şövalyeleri Tarikatı’nın elindeki Neumark, 1402–1455', NEUMARK);
+const crown = zone('crown-1400', 'bohemia', 'Lands of the Bohemian crown: Bohemia, Moravia, Silesia and the Lusatias', 'Bohemya tacının toprakları: Bohemya, Moravya, Silezya ve Lusatyalar', CROWN);
+const austria = zone('austria-1400', 'austria', 'Duchies of Austria under the Habsburgs', 'Habsburgların Avusturya dükalıkları', AUSTRIA);
+const hungary = zone('hungary-1400', 'hungary', 'Kingdom of Hungary under Sigismund, 1387–1437', 'Sigismund’un Macaristan Krallığı, 1387–1437', HUNGARY);
+// Poland and Lithuania one zone where the text names Poland alone, two where it names both
+const poland = zone('poland-1400', 'poland', 'Kingdom of Poland', 'Polonya Krallığı', POLAND);
+const lithuania = zone('lithuania-1400', 'lithuania', 'Grand Duchy of Lithuania, in union with Poland', 'Polonya ile birlik içindeki Litvanya Büyük Dükalığı', LITHUANIA);
+const union = zone('poland-lithuania-1400', 'poland', 'Kingdom of Poland, with the Grand Duchy of Lithuania in union with it',
+  'Polonya Krallığı ve onunla birlik içindeki Litvanya Büyük Dükalığı', U(POLAND, LITHUANIA));
+const prussia = zone('teutonic-1400', 'teutonic', 'State of the Teutonic Order in Prussia', 'Prusya’daki Töton Şövalyeleri Tarikatı Devleti', PRUSSIA);
+const order = zone('teutonic-1410', 'teutonic', 'State of the Teutonic Order in Prussia, with the Neumark 1402–1455',
+  'Prusya’daki Töton Şövalyeleri Tarikatı Devleti, 1402–1455 arasında Neumark ile', pieces(PRUSSIA, NEUMARK));
+const denmark = zone('denmark-1400', 'other', 'Kingdom of Denmark', 'Danimarka Krallığı', DENMARK);
 const empire1378 = zone('empire-1378', 'empire', 'Holy Roman Empire: German princes, bishops and towns', 'Kutsal Roma İmparatorluğu: Alman prensleri, piskoposları ve şehirleri', EMPIRE);
 const empire = zone('empire-1400', 'empire', 'Holy Roman Empire: German princes, bishops and towns', 'Kutsal Roma İmparatorluğu: Alman prensleri, piskoposları ve şehirleri', EMPIRE);
-const OUT = [...out, neumark, empire];
+const OUT = [austria, hungary, poland, order, denmark, empire];
+const withUnion = ids => ids.map(id => id === poland ? union : id);
 
-// the war years: the crown lands outside Bohemia stay with Sigismund
-const crownR = [
-  zone('moravia-1420', 'royalists', 'Moravia, mostly loyal to Sigismund, under Albert of Austria from 1423, with some Hussite towns',
-    'Çoğunlukla Sigismund’a bağlı Moravya, 1423’ten sonra Avusturyalı Albrecht’in yönetiminde, birkaç Husçu şehirle', MORAVIA),
-  zone('silesia-1420', 'royalists', 'Duchies of Silesia, loyal to Sigismund', 'Sigismund’a bağlı Silezya dükalıkları', SILESIA),
-  zone('ulusatia-1420', 'royalists', 'Upper Lusatia, loyal to Sigismund', 'Sigismund’a bağlı Yukarı Lusatya', U_LUSATIA),
-  zone('llusatia-1420', 'royalists', 'Lower Lusatia, loyal to Sigismund', 'Sigismund’a bağlı Aşağı Lusatya', L_LUSATIA),
-];
-const royal = (year, en, tr) => zone(`royal-${year}`, 'royalists', en, tr, BOHEMIA);
+// the war years: Sigismund's side holds the crown lands outside the Hussite unions
+const royal = (year, en, tr) => zone(`royal-${year}`, 'royalists', en, tr, CROWN);
 
 const p1420 = [
   zone('prague-1420', 'prague', 'Prague and the Hussite towns allied with it, 1420', 'Prag ve onunla birleşen Husçu şehirler, 1420', around(['prague', 'slany', 'louny', 'zatec'], 12)),
   zone('tabor-1420', 'taborites', 'Tábor, Písek and the country around them, 1420', 'Tábor, Písek ve çevreleri, 1420', around(['tabor', 'usti_sez', 'pisek'], 12)),
-  zone('oreb-1420', 'taborites', 'The Orebites of Hradec Králové, 1420', 'Hradec Králové’nin Orebçileri, 1420', around(['hradec'], 14)),
-  royal('1420', 'Bohemia loyal to Sigismund or not yet committed, 1420: Plzeň, Kutná Hora, the Rožmberk lands and the royal castles',
-    'Sigismund’a bağlı ya da henüz taraf tutmamış Bohemya, 1420: Plzeň, Kutná Hora, Rožmberk toprakları ve kraliyet kaleleri'),
+  zone('oreb-1420', 'orebites', 'The Orebites of Hradec Králové, 1420', 'Hradec Králové’nin Orebçileri, 1420', around(['hradec'], 14)),
+  royal('1420', 'Lands loyal to Sigismund or not yet committed, 1420: Plzeň, Kutná Hora, the Rožmberk lands and the royal castles in Bohemia, with Moravia, Silesia and the Lusatias',
+    'Sigismund’a bağlı ya da henüz taraf tutmamış topraklar, 1420: Bohemya’da Plzeň, Kutná Hora, Rožmberk toprakları ve kraliyet kaleleri, ayrıca Moravya, Silezya ve Lusatyalar'),
 ];
 const p1420b = [
   'prague-1420', 'oreb-1420',
   zone('tabor-1420b', 'taborites', 'Tábor and the towns of the south it holds by the end of 1420', '1420 sonunda Tábor ve elindeki güney şehirleri',
     around(['tabor', 'usti_sez', 'pisek', 'vodnany', 'prachatice'], 10)),
-  royal('1420b', 'Bohemia loyal to Sigismund, late 1420: Plzeň, Kutná Hora, the Rožmberk lands and the royal castles',
-    'Sigismund’a bağlı Bohemya, 1420 sonu: Plzeň, Kutná Hora, Rožmberk toprakları ve kraliyet kaleleri'),
+  royal('1420b', 'Lands loyal to Sigismund, late 1420: Plzeň, Kutná Hora, the Rožmberk lands and the royal castles in Bohemia, with Moravia, Silesia and the Lusatias',
+    'Sigismund’a bağlı topraklar, 1420 sonu: Bohemya’da Plzeň, Kutná Hora, Rožmberk toprakları ve kraliyet kaleleri, ayrıca Moravya, Silezya ve Lusatyalar'),
 ];
+// Tábor's towns in the south, and in the west the towns allied with it from 1421 that join its union in 1425
+const TABOR_SOUTH = around(['tabor', 'usti_sez', 'pisek', 'vodnany', 'prachatice'], 10), TABOR_SOUTH_1423 = around(['tabor', 'usti_sez', 'pisek', 'vodnany', 'prachatice', 'pelhrimov'], 10);
+const KLATOVY = around(['klatovy', 'domazlice', 'susice'], 9), TABOR_WEST = around(['klatovy', 'domazlice', 'susice', 'stribro', 'tachov'], 8);
 const p1421 = [
   zone('prague-1421', 'prague', 'Prague and the towns of the Prague union, 1421', 'Prag ve Prag birliğinin şehirleri, 1421',
     around(['prague', 'beroun', 'slany', 'louny', 'zatec', 'litomerice', 'melnik', 'boleslav', 'nymburk', 'kolin', 'kutna', 'caslav', 'kourim', 'brod'], 9)),
-  zone('tabor-1421', 'taborites', 'Tábor and the towns of the south, 1421', 'Tábor ve güney şehirleri, 1421', around(['tabor', 'usti_sez', 'pisek', 'vodnany', 'prachatice'], 10)),
-  zone('klatovy-1421', 'taborites', 'Klatovy, Domažlice and Sušice, towns allied with Tábor, 1421–1434', 'Tábor’la birleşen Klatovy, Domažlice ve Sušice, 1421–1434',
-    around(['klatovy', 'domazlice', 'susice'], 9)),
-  zone('oreb-1421', 'taborites', 'The Orebites of eastern Bohemia, 1421', 'Doğu Bohemya’nın Orebçileri, 1421', around(['hradec', 'jaromer', 'dvur', 'chrudim', 'myto'], 9)),
-  royal('1421', 'Bohemia loyal to Sigismund, 1421: the Plzeň Landfrieden, the Rožmberk lands, Most, Karlštejn and other castles',
-    'Sigismund’a bağlı Bohemya, 1421: Plzeň Landfrieden’i, Rožmberk toprakları, Most, Karlštejn ve öteki kaleler'),
+  zone('tabor-1421', 'taborites', 'Tábor and the towns of the south, with Klatovy, Domažlice and Sušice in the west, 1421',
+    'Tábor ve güney şehirleri, batıda Klatovy, Domažlice ve Sušice ile, 1421', pieces(TABOR_SOUTH, KLATOVY)),
+  zone('oreb-1421', 'orebites', 'The Orebites of eastern Bohemia, 1421', 'Doğu Bohemya’nın Orebçileri, 1421', around(['hradec', 'jaromer', 'dvur', 'chrudim', 'myto'], 9)),
+  royal('1421', 'Lands loyal to Sigismund, 1421: the Plzeň Landfrieden, the Rožmberk lands, Most, Karlštejn and other castles in Bohemia, with Moravia, Silesia and the Lusatias',
+    'Sigismund’a bağlı topraklar, 1421: Bohemya’da Plzeň Landfrieden’i, Rožmberk toprakları, Most, Karlštejn ve öteki kaleler, ayrıca Moravya, Silezya ve Lusatyalar'),
 ];
 const p1423 = [
   zone('prague-1423', 'prague', 'Prague and its union under Sigismund Korybut, 1422–1424', 'Sigismund Korybut yönetiminde Prag ve birliği, 1422–1424',
     around(['prague', 'beroun', 'slany', 'louny', 'zatec', 'litomerice', 'melnik', 'boleslav', 'nymburk', 'kolin', 'kutna', 'kourim', 'brod'], 9)),
-  zone('tabor-1423', 'taborites', 'Tábor and the towns of the south, 1423–1424', 'Tábor ve güney şehirleri, 1423–1424', around(['tabor', 'usti_sez', 'pisek', 'vodnany', 'prachatice', 'pelhrimov'], 10)),
-  'klatovy-1421',
-  zone('oreb-1423', 'taborites', 'Žižka’s Lesser Tábor, the Orebite towns of eastern Bohemia, 1423–1424', 'Žižka’nın Küçük Tábor’u, Doğu Bohemya’nın Orebçi şehirleri, 1423–1424',
+  zone('tabor-1423', 'taborites', 'Tábor and the towns of the south, with Klatovy, Domažlice and Sušice in the west, 1423–1424',
+    'Tábor ve güney şehirleri, batıda Klatovy, Domažlice ve Sušice ile, 1423–1424', pieces(TABOR_SOUTH_1423, KLATOVY)),
+  zone('oreb-1423', 'orebites', 'Žižka’s Lesser Tábor, the Orebite towns of eastern Bohemia, 1423–1424', 'Žižka’nın Küçük Tábor’u, Doğu Bohemya’nın Orebçi şehirleri, 1423–1424',
     around(['hradec', 'jaromer', 'dvur', 'trutnov', 'caslav', 'myto'], 9)),
-  royal('1423', 'Bohemia of the royalist and Utraquist lords, 1422–1424: Plzeň, the Rožmberk lands and the lords of eastern Bohemia',
-    'Kralcı ve Utrakist soyluların Bohemya’sı, 1422–1424: Plzeň, Rožmberk toprakları ve Doğu Bohemya soyluları'),
+  royal('1423', 'Lands of the royalist and Utraquist lords, 1422–1424: Plzeň, the Rožmberk lands and the lords of eastern Bohemia, with Moravia under Albert of Austria from 1423, Silesia and the Lusatias',
+    'Kralcı ve Utrakist soyluların toprakları, 1422–1424: Plzeň, Rožmberk toprakları ve Doğu Bohemya soyluları, ayrıca 1423’ten sonra Avusturyalı Albrecht’in yönetimindeki Moravya, Silezya ve Lusatyalar'),
 ];
 const p1426 = [
   zone('prague-1426', 'prague', 'Prague and the towns of the Prague union, 1425–1433', 'Prag ve Prag birliğinin şehirleri, 1425–1433',
     around(['prague', 'beroun', 'slany', 'litomerice', 'melnik', 'boleslav', 'nymburk', 'brod'], 9)),
-  zone('zatec-1426', 'prague', 'The union of Žatec and Louny, 1425–1433', 'Žatec ve Louny birliği, 1425–1433', around(['zatec', 'louny'], 9)),
-  zone('tabor-1426', 'taborites', 'The Tábor union in the south, 1425–1433', 'Güneydeki Tábor birliği, 1425–1433', around(['tabor', 'usti_sez', 'pisek', 'vodnany', 'prachatice', 'pelhrimov'], 10)),
-  zone('taborwest-1426', 'taborites', 'Towns of the Tábor union in the west: Klatovy, Domažlice, Sušice, Stříbro from 1426 and Tachov from 1427',
-    'Tábor birliğinin batıdaki şehirleri: Klatovy, Domažlice, Sušice, 1426’dan sonra Stříbro ve 1427’den sonra Tachov', around(['klatovy', 'domazlice', 'susice', 'stribro', 'tachov'], 8)),
-  zone('orphans-1426', 'taborites', 'The towns of the Orphans, 1425–1433', 'Yetimlerin şehirleri, 1425–1433',
+  zone('zatec-1426', 'zatec', 'The union of Žatec and Louny, 1425–1433', 'Žatec ve Louny birliği, 1425–1433', around(['zatec', 'louny'], 9)),
+  zone('tabor-1426', 'taborites', 'The Tábor union, 1425–1433: the towns of the south, and in the west Klatovy, Domažlice, Sušice, Stříbro from 1426 and Tachov from 1427',
+    'Tábor birliği, 1425–1433: güney şehirleri, batıda Klatovy, Domažlice, Sušice, 1426’dan sonra Stříbro ve 1427’den sonra Tachov', pieces(TABOR_SOUTH_1423, TABOR_WEST)),
+  zone('orphans-1426', 'orebites', 'The towns of the Orphans, 1425–1433', 'Yetimlerin şehirleri, 1425–1433',
     around(['hradec', 'jaromer', 'dvur', 'trutnov', 'nachod', 'caslav', 'kolin', 'kutna', 'kourim', 'myto', 'litomysl'], 8)),
-  royal('1426', 'Bohemia loyal to Sigismund, 1425–1433: the Plzeň Landfrieden, the Rožmberk lands, Most, Karlštejn and other castles',
-    'Sigismund’a bağlı Bohemya, 1425–1433: Plzeň Landfrieden’i, Rožmberk toprakları, Most, Karlštejn ve öteki kaleler'),
+  royal('1426', 'Lands loyal to Sigismund, 1425–1433: the Plzeň Landfrieden, the Rožmberk lands, Most, Karlštejn and other castles in Bohemia, with Moravia under Albert of Austria, Silesia and the Lusatias',
+    'Sigismund’a bağlı topraklar, 1425–1433: Bohemya’da Plzeň Landfrieden’i, Rožmberk toprakları, Most, Karlštejn ve öteki kaleler, ayrıca Avusturyalı Albrecht’in yönetimindeki Moravya, Silezya ve Lusatyalar'),
 ];
 const p1434 = [
   zone('prague-1434', 'prague', 'The lords’ league and the Old Town of Prague, May 1434', 'Soylular birliği ve Prag Eski Şehri, Mayıs 1434',
     around(['prague', 'beroun', 'slany', 'melnik', 'boleslav', 'litomerice', 'zatec', 'louny'], 9)),
-  zone('tabor-1434', 'taborites', 'The Tábor union, with the field armies, 1434', 'Sahra ordularıyla birlikte Tábor birliği, 1434', around(['tabor', 'usti_sez', 'pisek', 'vodnany', 'prachatice', 'pelhrimov'], 10)),
-  'taborwest-1426',
-  zone('orphans-1434', 'taborites', 'The towns of the Orphans, with the field armies, 1434', 'Sahra ordularıyla birlikte Yetimlerin şehirleri, 1434',
+  zone('tabor-1434', 'taborites', 'The Tábor union with the field armies, 1434: the towns of the south, and in the west Klatovy, Domažlice, Sušice, Stříbro and Tachov',
+    'Sahra ordularıyla birlikte Tábor birliği, 1434: güney şehirleri, batıda Klatovy, Domažlice, Sušice, Stříbro ve Tachov', pieces(TABOR_SOUTH_1423, TABOR_WEST)),
+  zone('orphans-1434', 'orebites', 'The towns of the Orphans, with the field armies, 1434', 'Sahra ordularıyla birlikte Yetimlerin şehirleri, 1434',
     around(['hradec', 'jaromer', 'dvur', 'trutnov', 'nachod', 'caslav', 'kolin', 'kutna', 'kourim', 'nymburk', 'myto', 'litomysl'], 8)),
-  royal('1434', 'Plzeň, the Rožmberk lands and the royal castles, with the lords’ league in 1434', '1434’te soylular birliğinin yanındaki Plzeň, Rožmberk toprakları ve kraliyet kaleleri'),
+  royal('1434', 'Plzeň, the Rožmberk lands and the royal castles, with the lords’ league in 1434, and Moravia, Silesia and the Lusatias',
+    '1434’te soylular birliğinin yanındaki Plzeň, Rožmberk toprakları ve kraliyet kaleleri, ayrıca Moravya, Silezya ve Lusatyalar'),
 ];
 const p1436 = [
   zone('tabor-1436', 'taborites', 'Tábor, until it submits to Sigismund in 1436', '1436’da Sigismund’a boyun eğene dek Tábor', around(['tabor', 'usti_sez'], 10)),
-  royal('1436', 'Kingdom of Bohemia under Sigismund, from August 1436', 'Ağustos 1436’dan sonra Sigismund’un Bohemya Krallığı'),
+  royal('1436', 'Lands of the Bohemian crown under Sigismund, from August 1436', 'Ağustos 1436’dan sonra Sigismund’un Bohemya tacı toprakları'),
 ];
 const p1458 = [
   zone('bohemia-1458', 'prague', 'Kingdom of Bohemia under George of Poděbrady, 1458–1471', 'Poděbradlı George’un Bohemya Krallığı, 1458–1471', BOHEMIA),
-  zone('moravia-1469', 'hungary', 'Moravia, held by Matthias Corvinus from 1469', '1469’dan sonra Matthias Corvinus’un elindeki Moravya', MORAVIA),
-  zone('silesia-1469', 'hungary', 'Silesia, held by Matthias Corvinus from 1469', '1469’dan sonra Matthias Corvinus’un elindeki Silezya', SILESIA),
-  zone('ulusatia-1469', 'hungary', 'Upper Lusatia, held by Matthias Corvinus from 1469', '1469’dan sonra Matthias Corvinus’un elindeki Yukarı Lusatya', U_LUSATIA),
-  zone('llusatia-1469', 'hungary', 'Lower Lusatia, held by Matthias Corvinus from 1469', '1469’dan sonra Matthias Corvinus’un elindeki Aşağı Lusatya', L_LUSATIA),
-  zone('hungary-1458', 'hungary', 'Kingdom of Hungary under Matthias Corvinus, 1458–1490', 'Matthias Corvinus’un Macaristan Krallığı, 1458–1490', HUNGARY),
+  zone('hungary-1458', 'hungary', 'Kingdom of Hungary under Matthias Corvinus, 1458–1490, with Moravia, Silesia and the Lusatias from 1469',
+    'Matthias Corvinus’un Macaristan Krallığı, 1458–1490, 1469’dan sonra Moravya, Silezya ve Lusatyalar ile', U(HUNGARY, MORAVIA, SILESIA, LUSATIA)),
 ];
-const OUT1458 = OUT.filter(id => id !== 'hungary-1400' && id !== 'neumark-1410');
+const OUT1458 = OUT.filter(id => id !== hungary && id !== order);
 
 // --- the pages ---
-const war = (period) => [...period, ...crownR, ...OUT];
+const war = (period) => [...period, ...OUT];
 const PAGES = {
-  'crown-lands': [...pre, ...out, empire1378],
-  ...Object.fromEntries(['trocnov', 'grunwald', 'bethlehem', 'indulgences', 'constance', 'chalice'].map(p => [p, [...pre, ...OUT]])),
+  'crown-lands': [...lands, austria, hungary, union, prussia, denmark, empire1378],
+  grunwald: [...lands, austria, hungary, poland, lithuania, order, denmark, empire],
+  ...Object.fromEntries(['trocnov', 'bethlehem', 'indulgences', 'constance', 'chalice'].map(p => [p, [crown, ...OUT]])),
   ...Object.fromEntries(['plzen', 'tabor', 'sudomer', 'crusade-1420', 'coronation'].map(p => [p, war(p1420)])),
   'south-bohemia': war(p1420b),
   ...Object.fromEntries(['west-bohemia', 'rabi', 'caslav', 'zatec', 'kutna-hora'].map(p => [p, war(p1421)])),
   ...Object.fromEntries(['korybut', 'horice', 'hungary-1423', 'skalice', 'malesov', 'pribyslav'].map(p => [p, war(p1423)])),
-  ...Object.fromEntries(['field-armies', 'usti', 'tachov', 'austria-silesia', 'pressburg', 'franconia', 'trnava', 'domazlice', 'brandenburg', 'baltic', 'basel',
+  ...Object.fromEntries(['field-armies', 'usti', 'tachov', 'austria-silesia', 'pressburg', 'franconia', 'trnava', 'domazlice', 'brandenburg', 'basel',
     'plzen-siege'].map(p => [p, war(p1426)])),
+  baltic: withUnion(war(p1426)),
   ...Object.fromEntries(['lords-league', 'lipany'].map(p => [p, war(p1434)])),
   compacts: war(p1436),
   podebrady: [...p1458, ...OUT1458],
@@ -239,22 +240,27 @@ for (const [p, ids] of Object.entries(PAGES)) {
   PAGES[p] = ids.filter(id => turf.booleanIntersects(Z[id].shape, frame));
 }
 
-// --- write: one Polygon per zone, its largest piece; smaller pieces are logged so a lost part stands out ---
+// --- write: one Polygon per zone, its largest piece, or a MultiPolygon for a zone drawn in pieces; smaller pieces
+// are logged so a lost part stands out ---
 const dir = path.join(story, 'shared', 'zones');
 fs.mkdirSync(dir, { recursive: true });
 for (const f of fs.readdirSync(dir)) if (f.endsWith('.geojson')) fs.rmSync(path.join(dir, f));
 const used = [...new Set(Object.values(PAGES).flat())];
+const round = ring => ring.map(([x, y]) => [+x.toFixed(4), +y.toFixed(4)]);
+// a hole under 1 km2 is a sliver left where the joined lands meet
+const solid = rings => rings.filter((r, i) => !i || km2(turf.polygon([r])) >= 1);
 for (const id of used) {
   const z = Z[id]; if (!z) throw new Error(`no zone ${id}`);
   let g = z.shape.geometry;
   if (g.type === 'MultiPolygon') {
     const parts = g.coordinates.map(c => ({ c, a: km2(turf.polygon(c)) })).sort((a, b) => b.a - a.a);
-    const lost = parts.slice(1).filter(p => p.a > 20);
-    if (lost.length) console.log(`  ${id}: kept ${Math.round(parts[0].a)} km2, dropped ${lost.map(p => Math.round(p.a)).join(', ')} km2`);
-    g = { type: 'Polygon', coordinates: parts[0].c };
+    const kept = z.shape.properties?.pieces ? parts.filter(p => p.a > 20) : parts.slice(0, 1);
+    const lost = parts.filter(p => !kept.includes(p) && p.a > 20);
+    if (lost.length) console.log(`  ${id}: kept ${kept.map(p => Math.round(p.a)).join(', ')} km2, dropped ${lost.map(p => Math.round(p.a)).join(', ')} km2`);
+    g = kept.length > 1 ? { type: 'MultiPolygon', coordinates: kept.map(p => p.c) } : { type: 'Polygon', coordinates: kept[0].c };
   }
-  const coordinates = g.coordinates.map(r => r.map(([x, y]) => [+x.toFixed(4), +y.toFixed(4)]));
-  fs.writeFileSync(path.join(dir, id + '.geojson'), JSON.stringify({ type: 'Feature', properties: { family: z.family, name: z.name.en }, geometry: { type: 'Polygon', coordinates } }) + '\n');
+  const geometry = { type: g.type, coordinates: g.type === 'Polygon' ? solid(g.coordinates).map(round) : g.coordinates.map(p => solid(p).map(round)) };
+  fs.writeFileSync(path.join(dir, id + '.geojson'), JSON.stringify({ type: 'Feature', properties: { family: z.family, name: z.name.en }, geometry }) + '\n');
 }
 fs.writeFileSync(path.join(story, '.plans', 'zones.yaml'), '# Zones per page, written by .plans/zones.mjs. Close views and phase pages show none.\n'
   + Object.entries(PAGES).map(([p, ids]) => `${p}: [${ids.join(', ')}]`).join('\n') + '\n');

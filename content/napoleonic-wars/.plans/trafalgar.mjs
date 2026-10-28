@@ -32,13 +32,13 @@ const mark = (dx, dy, label, note, color, icon = 'ship') => ({ lnglat: at(dx, dy
 // --- overview: Villeneuve's voyage and return, Nelson's pursuit, the combined fleet leaves Cádiz ---
 writePlan(`${G}/010-trafalgar`, {
   routes: {
-    'villeneuve-1805': { name: 'Villeneuve from Toulon by Cartagena and Cádiz towards the West Indies, 30 March to April 1805',
+    'villeneuve-1805': { name: 'Villeneuve from Toulon by Cartagena and Cádiz towards the West Indies, 30 March to April 1805', color: 'france',
       path: [[5.93, 43.08], [4.6, 41.4], [2.1, 39.0], [-0.9, 37.5], [-3.4, 36.5], [-5.6, 35.95], [-6.35, 36.5], [-8.5, 35.6], [-13, 33.8]] },
-    'nelson-1805': { name: 'Nelson follows through the Strait and across the Atlantic, May 1805', offset: 6,
+    'nelson-1805': { name: 'Nelson follows through the Strait and across the Atlantic, May 1805', color: 'britain', offset: 6,
       path: [[2.1, 38.6], [-0.9, 37.2], [-3.4, 36.3], [-5.6, 35.9], [-8.5, 35.3], [-13, 33.5]] },
-    'villeneuve-return-1805': { name: 'Villeneuve returns by Cape Finisterre to Vigo and Ferrol, then sails south to Cádiz, July to August 1805',
+    'villeneuve-return-1805': { name: 'Villeneuve returns by Cape Finisterre to Vigo and Ferrol, then sails south to Cádiz, July to August 1805', color: 'france',
       path: [[-13, 43.6], [-10.2, 43.1], [-8.9, 42.25], [-8.4, 43.4], [-9.6, 42.6], [-10.2, 40.0], [-9.4, 37.0], [-6.5, 36.55]] },
-    'combined-fleet-1805': { name: 'The combined fleet leaves Cádiz, 19 to 20 October 1805',
+    'combined-fleet-1805': { name: 'The combined fleet leaves Cádiz, 19 to 20 October 1805', color: 'france',
       path: [[-6.3, 36.53], [-6.38, 36.4], [-6.3, 36.3]] },
   },
   markers: {

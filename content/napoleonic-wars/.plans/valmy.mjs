@@ -13,11 +13,11 @@ const mark = (u, w, label, note, color, icon = 'user') => ({ lnglat: P(u, w), ic
 // --- overview: Brunswick's march from Koblenz, Dumouriez and Kellermann converge on Sainte-Menehould ---
 writePlan(`${G}/010-valmy`, {
   routes: {
-    'brunswick-1792': { name: 'Brunswick’s army from Koblenz by Longwy, Verdun and the Argonne to La Lune, August to September 1792',
+    'brunswick-1792': { name: 'Brunswick’s army from Koblenz by Longwy, Verdun and the Argonne to La Lune, August to September 1792', color: 'prussia',
       path: [[7.59, 50.36], [7.0, 50.0], [6.64, 49.75], [6.13, 49.6], [5.76, 49.52], [5.55, 49.33], [5.38, 49.16], [5.15, 49.27], [4.92, 49.33], [4.8, 49.25], [4.75, 49.15], [4.725, 49.07]] },
-    'dumouriez-1792': { name: 'Dumouriez’s army moves from Sedan into the Argonne and to Sainte-Menehould, September 1792', offset: 6,
+    'dumouriez-1792': { group: 'converge', name: 'Dumouriez’s army moves from Sedan into the Argonne and to Sainte-Menehould, September 1792', color: 'france', offset: 6,
       path: [[4.94, 49.7], [4.9, 49.5], [4.87, 49.34], [4.9, 49.2], [4.9, 49.09]] },
-    'kellermann-1792': { name: 'Kellermann’s Army of the Centre marches from Metz to join Dumouriez, September 1792',
+    'kellermann-1792': { group: 'converge', name: 'Kellermann’s Army of the Centre marches from Metz to join Dumouriez, September 1792', color: 'france',
       path: [[6.18, 49.12], [5.75, 48.95], [5.35, 48.83], [5.16, 48.77], [4.95, 48.9], [4.8, 49.06]] },
   },
   markers: {

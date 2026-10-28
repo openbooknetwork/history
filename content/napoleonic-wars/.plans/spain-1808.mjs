@@ -4,11 +4,11 @@ import { writePlan } from './lib.mjs';
 
 writePlan('pages/070-peninsula/010-spain-1808', {
   routes: {
-    'junot-1807': { name: 'Junot’s march to Lisbon, October to November 1807',
+    'junot-1807': { name: 'Junot’s march to Lisbon, October to November 1807', color: 'france',
       path: [[-1.79, 43.34], [-2.67, 42.85], [-3.7, 42.34], [-4.72, 41.65], [-5.66, 40.96], [-6.53, 40.6], [-6.69, 40.25], [-6.88, 39.72], [-7.49, 39.82], [-8.2, 39.46], [-8.68, 39.24], [-9.14, 38.72]] },
-    'braganza-1807': { name: 'The Portuguese court sails for Brazil, 29 November 1807', style: 'dashed',
+    'braganza-1807': { name: 'The Portuguese court sails for Brazil, 29 November 1807', color: 'portugal', style: 'dashed',
       path: [[-9.14, 38.7], [-9.32, 38.66], [-9.75, 38.35], [-10.4, 37.5]] },
-    'murat-1808': { name: 'Murat marches on Madrid, March 1808', offset: 6,
+    'murat-1808': { name: 'Murat marches on Madrid, March 1808', color: 'france', offset: 6,
       path: [[-1.47, 43.49], [-1.79, 43.34], [-2.67, 42.85], [-3.7, 42.34], [-3.69, 41.67], [-3.58, 41.13], [-3.7, 40.43]] },
   },
   markers: {

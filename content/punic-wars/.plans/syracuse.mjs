@@ -25,8 +25,8 @@ const mark = (lnglat, label, note, color, icon = 'user') => ({ lnglat, icon, col
 // --- overview: Hippocrates and Epicydes seize Syracuse, Himilco lands in the west ---
 writePlan(`${G}/010-syracuse`, {
   routes: {
-    'hippocrates-214': { name: 'Hippocrates and Epicydes lead the troops from Leontini to Syracuse, 214 BC', path: [[15.0, 37.29], [15.08, 37.22], [15.17, 37.15], [15.24, 37.1], [15.28, 37.08]] },
-    'himilco-213': { name: 'Himilco lands at Heraclea Minoa and retakes Agrigentum, 213 BC', path: [[12.4, 36.95], [12.8, 37.15], [13.28, 37.39], [13.45, 37.34], [13.58, 37.31]] },
+    'hippocrates-214': { name: 'Hippocrates and Epicydes lead the troops from Leontini to Syracuse, 214 BC', color: 'syracuse', path: [[15.0, 37.29], [15.08, 37.22], [15.17, 37.15], [15.24, 37.1], [15.28, 37.08]] },
+    'himilco-213': { name: 'Himilco lands at Heraclea Minoa and retakes Agrigentum, 213 BC', color: 'carthage', path: [[12.4, 36.95], [12.8, 37.15], [13.28, 37.39], [13.45, 37.34], [13.58, 37.31]] },
   },
   show: ['leontini-214', 'agrigentum-212'],
 });

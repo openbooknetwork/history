@@ -41,15 +41,18 @@ writePlan(`${G}/010-stamford-bridge`, {
   routes: {
     'harold-1066': {
       name: 'Harold Godwinson’s march from London to Tadcaster, about four days, September 1066',
+      color: 'english',
       path: [[-0.09, 51.51], [-0.03, 51.81], [-0.02, 52.05], [-0.18, 52.32], [-0.36, 52.56], [-0.48, 52.65], [-0.54, 52.98], [-0.54, 53.23], [-0.77, 53.34],
         [-1.13, 53.52], [-1.35, 53.725], [-1.262, 53.884]],
     },
     'harold-1066-york': {
       name: 'Harold marches through York to Stamford Bridge, 25 September 1066',
+      color: 'english',
       path: [[-1.262, 53.884], [-1.17, 53.93], [-1.0815, 53.9583], [-1.01, 53.975], [-0.948, 53.99], [-0.918, 53.993]],
     },
     'harald-1066-riccall': {
       name: 'Harald and Tostig march from Riccall to Stamford Bridge, 25 September 1066',
+      color: 'norway',
       path: [[-1.0594, 53.8333], [-1.043, 53.88], [-1.02, 53.925], [-0.985, 53.962], [-0.95, 53.982], [-0.916, 53.992]],
     },
   },

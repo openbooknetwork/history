@@ -6,11 +6,11 @@ source: https://en.wikipedia.org/wiki/Battle_of_Malešov
 images: [malesov-stone-wagons-a38ff4, malesov-memorial-ad2a9a]
 max_zoom: 16
 families:
-  taborites: { color: "#b5352a", color_dark: "#e8695c" }
+  orebites: { color: "#ee6f0a", color_dark: "#ff8a1f" }
   prague: { color: "#d4a017", color_dark: "#f2c94c" }
 sides:
   - name: "Orebites and Taborites"
-    color: taborites
+    color: orebites
     commanders: ["Jan Žižka", "Jan Hvězda of Vícemilice"]
     strength: "7,000 foot, 500 horse and 300 wagons in May, by Bartošek of Drahonice"
     casualties: "About 200 by modern accounts"

@@ -5,16 +5,16 @@ import { writePlan } from './lib.mjs';
 const adourToToulouse = [[-0.77, 43.49], [-0.57, 43.76], [-0.26, 43.7], [0.05, 43.38], [0.08, 43.23], [0.72, 43.11], [1.1, 43.4], [1.44, 43.6]];
 writePlan('pages/070-peninsula/090-toulouse', {
   routes: {
-    'soult-pyrenees-1813': { name: 'Soult’s offensive at Roncesvalles, July 1813',
+    'soult-pyrenees-1813': { name: 'Soult’s offensive at Roncesvalles, July 1813', color: 'france',
       path: [[-1.24, 43.16], [-1.32, 43.01], [-1.47, 42.93], [-1.6, 42.88]] },
-    'wellington-bidassoa-1813': { name: 'Wellington crosses into France, autumn 1813',
+    'wellington-bidassoa-1813': { name: 'Wellington crosses into France, autumn 1813', color: 'britain',
       path: [[-1.79, 43.33], [-1.72, 43.37], [-1.66, 43.39], [-1.55, 43.45], [-1.49, 43.47]] },
-    'wellington-1814': { name: 'Wellington’s advance to Toulouse, 1814',
+    'wellington-1814': { group: '1814', name: 'Wellington’s advance to Toulouse, 1814', color: 'britain',
       path: [[-1.42, 43.46], [-1.1, 43.5], ...adourToToulouse] },
-    'soult-1814': { name: 'Soult falls back to Toulouse, 1814', style: 'dashed', offset: 6,
-      path: [[-1.4, 43.5], [-1.1, 43.52], ...adourToToulouse.slice(0, -1), [1.42, 43.58]] },
-    'beresford-1814': { name: 'Beresford marches to Bordeaux, March 1814',
+    'beresford-1814': { group: '1814', name: 'Beresford marches to Bordeaux, March 1814', color: 'britain',
       path: [[-0.57, 43.76], [-0.5, 43.89], [-0.6, 44.3], [-0.58, 44.82]] },
+    'soult-1814': { name: 'Soult falls back to Toulouse, 1814', color: 'france', style: 'dashed', offset: 6,
+      path: [[-1.4, 43.5], [-1.1, 43.52], ...adourToToulouse.slice(0, -1), [1.42, 43.58]] },
   },
   markers: {
     'toulouse-sorauren': { lnglat: [-1.62, 42.87], icon: 'swords', color: 'britain', label: 'Sorauren', note: 'Soult repulsed, 28 and 30 July 1813' },

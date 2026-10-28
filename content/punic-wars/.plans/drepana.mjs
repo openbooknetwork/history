@@ -16,8 +16,8 @@ const city = { 'lilybaeum-approach-drepana': mark(-4240, -340, 'Drepana', 'Carth
 // --- overview: the relief fleet of 250 BC and Pulcher's night voyage ---
 writePlan(`${G}/010-lilybaeum`, {
   routes: {
-    'relief-250': { name: 'Fifty Carthaginian ships run into Lilybaeum on a west wind, 250 BC', path: [[12.24, 37.94], [12.3, 37.86], [12.38, 37.81], [12.425, 37.8]] },
-    'pulcher-249': { name: 'Pulcher sails north by night towards Drepana, 249 BC', path: [[12.42, 37.81], [12.45, 37.86], [12.46, 37.92], [12.48, 37.96], [12.49, 37.995]] },
+    'relief-250': { name: 'Fifty Carthaginian ships run into Lilybaeum on a west wind, 250 BC', color: 'carthage', path: [[12.24, 37.94], [12.3, 37.86], [12.38, 37.81], [12.425, 37.8]] },
+    'pulcher-249': { name: 'Pulcher sails north by night towards Drepana, 249 BC', color: 'rome', path: [[12.42, 37.81], [12.45, 37.86], [12.46, 37.92], [12.48, 37.96], [12.49, 37.995]] },
   },
   show: ['lilybaeum-249', 'aegusa-250'],
 });
@@ -107,9 +107,9 @@ writePlan(`${G}/040-lilybaeum-breakout`, {
 // --- Carthalo at Lilybaeum and off Phintias, the convoy wrecked ---
 writePlan(`${G}/050-lilybaeum-aftermath`, {
   routes: {
-    'carthalo-249': { name: 'Carthalo raids the Roman ships off Lilybaeum', path: [[12.47, 37.99], [12.42, 37.9], [12.4, 37.82]] },
-    'convoy-249': { name: 'A Roman convoy of 800 transports sails west along the south coast', path: [[15.27, 37.05], [15.25, 36.75], [15.05, 36.6], [14.6, 36.72], [14.15, 36.92], [13.98, 37.03]] },
-    'carthalo-249b': { name: 'Carthalo meets the convoy off Phintias', path: [[12.38, 37.77], [12.6, 37.5], [13.1, 37.33], [13.6, 37.12], [13.88, 37.06]] },
+    'carthalo-249': { name: 'Carthalo raids the Roman ships off Lilybaeum', color: 'carthage', path: [[12.47, 37.99], [12.42, 37.9], [12.4, 37.82]] },
+    'convoy-249': { name: 'A Roman convoy of 800 transports sails west along the south coast', color: 'rome', path: [[15.27, 37.05], [15.25, 36.75], [15.05, 36.6], [14.6, 36.72], [14.15, 36.92], [13.98, 37.03]] },
+    'carthalo-249b': { name: 'Carthalo meets the convoy off Phintias', color: 'carthage', path: [[12.38, 37.77], [12.6, 37.5], [13.1, 37.33], [13.6, 37.12], [13.88, 37.06]] },
   },
   show: ['lilybaeum-249', 'phintias-249'],
 });

@@ -21,8 +21,8 @@ const mark = (lnglat, label, note, color, icon = 'user') => ({ lnglat, icon, col
 writePlan(`${G}/010-new-carthage`, {
   bbox: [-9.8, 36.0, 3.0, 42.2],
   routes: {
-    'scipio-209': { name: 'Scipio marches from Tarraco to New Carthage, early 209 BC', path: [[1.25, 41.12], [0.52, 40.68], [-0.1, 39.95], [-0.27, 39.68], [-0.55, 39.1], [-0.6, 38.6], [-0.86, 38.2], [-0.97, 37.61]] },
-    'laelius-209': { name: 'Laelius’s fleet of 35 galleys along the coast', offset: 6, path: [[1.3, 41.08], [0.9, 40.55], [0.3, 39.95], [0.05, 39.3], [0.25, 38.75], [-0.25, 38.15], [-0.75, 37.62], [-0.98, 37.595]] },
+    'scipio-209': { group: 'march', name: 'Scipio marches from Tarraco to New Carthage, early 209 BC', color: 'rome', path: [[1.25, 41.12], [0.52, 40.68], [-0.1, 39.95], [-0.27, 39.68], [-0.55, 39.1], [-0.6, 38.6], [-0.86, 38.2], [-0.97, 37.61]] },
+    'laelius-209': { group: 'march', name: 'Laelius’s fleet of 35 galleys along the coast', color: 'rome', offset: 6, path: [[1.3, 41.08], [0.9, 40.55], [0.3, 39.95], [0.05, 39.3], [0.25, 38.75], [-0.25, 38.15], [-0.75, 37.62], [-0.98, 37.595]] },
   },
   markers: {
     'new-carthage-hasdrubal': { lnglat: [-3.8, 39.9], icon: 'flag', color: 'carthage', label: 'Hasdrubal Barca', note: 'Army in central Iberia' },
@@ -116,8 +116,8 @@ writePlan(`${G}/040-new-carthage-sack`, {
 writePlan(`${G}/050-new-carthage-baecula`, {
   bbox: [-5.8, 36.8, 3.2, 43.9],
   routes: {
-    'scipio-208': { name: 'Scipio marches against Hasdrubal, spring 208 BC', path: [[1.25, 41.12], [0.45, 40.55], [-0.2, 39.85], [-0.8, 39.0], [-1.9, 38.45], [-2.7, 38.1], [-3.08, 38.02]] },
-    'hasdrubal-208': { name: 'Hasdrubal leaves for Gaul over the western Pyrenees, 208 BC', path: [[-3.15, 38.04], [-3.5, 38.9], [-3.4, 40.1], [-2.6, 41.2], [-1.9, 42.2], [-1.35, 42.95], [-0.9, 43.45]] },
+    'scipio-208': { name: 'Scipio marches against Hasdrubal, spring 208 BC', color: 'rome', path: [[1.25, 41.12], [0.45, 40.55], [-0.2, 39.85], [-0.8, 39.0], [-1.9, 38.45], [-2.7, 38.1], [-3.08, 38.02]] },
+    'hasdrubal-208': { name: 'Hasdrubal leaves for Gaul over the western Pyrenees, 208 BC', color: 'carthage', path: [[-3.15, 38.04], [-3.5, 38.9], [-3.4, 40.1], [-2.6, 41.2], [-1.9, 42.2], [-1.35, 42.95], [-0.9, 43.45]] },
   },
 
   show: ['baecula-208', 'tarraco-210'],

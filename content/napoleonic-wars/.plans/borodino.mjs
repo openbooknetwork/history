@@ -30,9 +30,9 @@ const mark = (lnglat, label, note, color, icon = 'user') => ({ lnglat, icon, col
 // --- overview: from Smolensk to Borodino ---
 writePlan(`${G}/010-borodino`, {
   routes: {
-    'napoleon-borodino-1812': { name: 'The Grande Armée marches from Smolensk to Borodino, 24 August – 5 September 1812',
+    'napoleon-borodino-1812': { name: 'The Grande Armée marches from Smolensk to Borodino, 24 August – 5 September 1812', color: 'france',
       path: [[32.06, 54.78], [32.6, 54.83], [33.29, 54.91], [33.8, 55.05], [34.3, 55.21], [34.75, 55.4], [35.0, 55.55], [35.45, 55.53], [35.79, 55.51]] },
-    'kutuzov-borodino-1812': { name: 'The Russian armies fall back from Smolensk to Borodino, August – September 1812', style: 'dashed', offset: 6,
+    'kutuzov-borodino-1812': { name: 'The Russian armies fall back from Smolensk to Borodino, August – September 1812', color: 'russia', style: 'dashed', offset: 6,
       path: [[32.1, 54.8], [32.6, 54.85], [33.29, 54.93], [34.3, 55.23], [34.75, 55.42], [35.0, 55.57], [35.45, 55.55], [35.83, 55.53]] },
   },
   markers: {

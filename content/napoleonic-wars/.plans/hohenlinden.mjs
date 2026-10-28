@@ -14,11 +14,11 @@ const mark = (u, w, label, note, color, icon = 'user') => ({ lnglat: P(u, w), ic
 // --- overview: from the Rhine to the Inn ---
 writePlan(`${G}/010-hohenlinden`, {
   routes: {
-    'moreau-1800': { name: 'Moreau’s advance from the Rhine to the Isar, April to July 1800',
+    'moreau-1800': { name: 'Moreau’s advance from the Rhine to the Isar, April to July 1800', color: 'france',
       path: [[7.59, 47.56], [8.3, 47.75], [8.77, 47.86], [9.01, 47.85], [9.11, 48.0], [9.79, 48.1], [9.95, 48.3], [10.57, 48.61], [11.2, 48.4], [11.79, 48.15]] },
-    'john-1800': { name: 'Archduke John’s advance from the Inn by Ampfing to Haag, 1 and 2 December 1800',
+    'john-1800': { name: 'Archduke John’s advance from the Inn by Ampfing to Haag, 1 and 2 December 1800', color: 'austria',
       path: [[12.55, 48.24], [12.41, 48.255], [12.18, 48.162], [12.08, 48.155]] },
-    'grenier-1800': { name: 'Grenier falls back from Ampfing to Hohenlinden, 1 and 2 December 1800', style: 'dashed', offset: 6,
+    'grenier-1800': { name: 'Grenier falls back from Ampfing to Hohenlinden, 1 and 2 December 1800', color: 'france', style: 'dashed', offset: 6,
       path: [[12.41, 48.255], [12.18, 48.162], [12.0, 48.16]] },
   },
   markers: {

@@ -5,11 +5,11 @@ result: "Victory of Žižka's Orebites"
 source: https://en.wikipedia.org/wiki/Battle_of_Hořice
 images: [horice-gothard-fb4d37, horice-zizka-statue-dfde09]
 families:
-  taborites: { color: "#b5352a", color_dark: "#e8695c" }
+  orebites: { color: "#ee6f0a", color_dark: "#ff8a1f" }
   royalists: { color: "#2f6fb0", color_dark: "#6fa6e0" }
 sides:
   - name: "Orebites"
-    color: taborites
+    color: orebites
     commanders: ["Jan Žižka", "Diviš Bořek of Miletínek"]
     strength: "About 120 wagons and 3,000 men, a tenth of them mounted"
   - name: "Lords under Čeněk of Vartenberk"

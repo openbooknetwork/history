@@ -24,11 +24,11 @@ const mark = (lnglat, label, note, color, icon = 'user') => ({ lnglat, icon, col
 // --- overview: the crossing by the Lobau and the Austrian approach ---
 writePlan(`${G}/010-aspern`, {
   routes: {
-    'napoleon-lobau-1809': { name: 'The French cross by Kaiserebersdorf and the Lobau, 19 – 21 May 1809',
+    'napoleon-lobau-1809': { name: 'The French cross by Kaiserebersdorf and the Lobau, 19 – 21 May 1809', color: 'france',
       path: [[16.37, 48.19], [16.42, 48.17], [16.47, 48.157], [16.49, 48.175], [16.5, 48.19], [16.5, 48.207]] },
-    'hiller-aspern-1809': { name: 'Hiller, Bellegarde and Hohenzollern advance on Aspern, 21 May 1809',
+    'hiller-aspern-1809': { group: 'advance', name: 'Hiller, Bellegarde and Hohenzollern advance on Aspern, 21 May 1809', color: 'austria',
       path: [[16.4, 48.3], [16.43, 48.27], [16.46, 48.245], [16.478, 48.226]] },
-    'rosenberg-essling-1809': { name: 'Rosenberg advances on Essling, 21 May 1809',
+    'rosenberg-essling-1809': { group: 'advance', name: 'Rosenberg advances on Essling, 21 May 1809', color: 'austria',
       path: [[16.6, 48.285], [16.585, 48.255], [16.56, 48.232], [16.528, 48.217]] },
   },
   markers: {

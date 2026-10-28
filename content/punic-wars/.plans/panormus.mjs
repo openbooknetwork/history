@@ -17,7 +17,7 @@ const mark = (u, w, label, note, color, icon = 'user') => ({ lnglat: P(u, w), ic
 
 // --- overview: Hasdrubal's march from Lilybaeum ---
 writePlan(`${G}/010-panormus`, {
-  routes: { 'hasdrubal-250': { name: 'Hasdrubal marches from Lilybaeum to Panormus, late summer 250 BC', path: [[12.44, 37.8], [12.66, 37.9], [12.95, 37.97], [13.2, 38.02], [13.31, 38.06], [13.37, 38.1]] } },
+  routes: { 'hasdrubal-250': { name: 'Hasdrubal marches from Lilybaeum to Panormus, late summer 250 BC', color: 'carthage', path: [[12.44, 37.8], [12.66, 37.9], [12.95, 37.97], [13.2, 38.02], [13.31, 38.06], [13.37, 38.1]] } },
   show: ['lilybaeum-250', 'thermae-252'],
 });
 

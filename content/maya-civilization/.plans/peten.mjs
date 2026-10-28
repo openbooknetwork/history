@@ -16,13 +16,14 @@ writePlan(`${G}/010-itza-kingdom`, {
   routes: {
     'cortes-1525': {
       name: 'Cortés’s march from Acalan across Petén to Nito, March to April 1525',
+      color: 'spain',
       path: [[-90.837, 18.122], [-90.62, 17.95], [-90.4, 17.72], [-90.2, 17.45], [-90.05, 17.2], [-89.94, 17.03], [-89.99, 16.98], [-90.005, 16.945], [-89.98, 16.925],
         [-89.9, 16.915], [-89.82, 16.75], [-89.65, 16.45], [-89.48, 16.15], [-89.3, 15.9], [-89.1, 15.75], [-88.93, 15.66], [-88.78, 15.8]],
     },
   },
   markers: {
     'nojpeten-1525': { lnglat: NOJPETEN, icon: 'crown', color: 'itza', label: 'Nojpetén', note: 'Island capital of Aj Kan Ek\'' },
-    'itzamkanac-1525': { lnglat: [-90.837, 18.122], icon: 'crown', color: 'chontal', label: 'Itzamkanac', note: 'Capital of Acalan' },
+    'itzamkanac-1525': { lnglat: [-90.837, 18.122], icon: 'crown', color: 'acalan', label: 'Itzamkanac', note: 'Capital of Acalan' },
     'tipu-1525': { lnglat: [-89.08, 17.08], icon: 'landmark', label: 'Tipuj', note: 'Maya town on the Macal River' },
   },
   show: ['nito-1500'],
@@ -33,6 +34,7 @@ writePlan(`${G}/020-missions`, {
   routes: {
     'fuensalida-1618': {
       name: 'Fuensalida and Orbita from Mérida by Bacalar and Tipuj to Nojpetén, 1618',
+      color: 'spain',
       path: [[-89.62, 20.97], [-89.29, 20.2], [-88.95, 19.9], [-88.59, 19.585], [-88.45, 19.1], [-88.395, 18.677], [-88.36, 18.5], [-88.38, 18.3],
         [-88.5, 18.05], [-88.65, 17.75], [-88.85, 17.4], [-89.08, 17.08], [-89.35, 17.02], [-89.62, 16.98], [-89.75, 16.95], NOJPETEN],
     },
@@ -50,9 +52,11 @@ writePlan(`${G}/020-missions`, {
 writePlan(`${G}/030-ursua-road`, {
   emblem: water(lake.coarse),
   routes: {
-    'camino-real-1695': { name: 'The road from Campeche towards Lake Petén Itzá, 1695 to 1696', path: ROAD },
+    'camino-real-1695': { color: 'spain', group: 'spain-1695', name: 'The road from Campeche towards Lake Petén Itzá, 1695 to 1696', path: ROAD },
     'diaz-de-velasco-1695': {
       name: 'Díaz de Velasco from Cahabón to Lake Petén Itzá, March to April 1695',
+      color: 'spain',
+      group: 'spain-1695',
       path: [[-89.8125, 15.6056], [-89.65, 15.75], [-89.5, 15.95], [-89.44, 16.2], [-89.55, 16.45], [-89.72, 16.68], [-89.86, 16.89]],
     },
   },

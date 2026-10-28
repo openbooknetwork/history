@@ -15,8 +15,8 @@ const mark = (u, w, label, note, color, icon = 'user') => ({ lnglat: P(u, w), ic
 // --- overview: the march from Geronium, the battle card at the middle of the field ---
 writePlan(`${G}/010-cannae`, {
   routes: {
-    'hannibal-216': { name: 'Hannibal’s march from Geronium to Cannae, spring 216 BC', path: [[14.86, 41.72], [15.12, 41.6], [15.4, 41.48], [15.75, 41.37], [16.02, 41.31], [16.14, 41.315]] },
-    'consuls-216': { name: 'The Roman army follows, summer 216 BC', offset: 6, path: [[14.93, 41.79], [15.2, 41.63], [15.5, 41.48], [15.84, 41.35], [16.05, 41.29]] },
+    'hannibal-216': { name: 'Hannibal’s march from Geronium to Cannae, spring 216 BC', color: 'carthage', path: [[14.86, 41.72], [15.12, 41.6], [15.4, 41.48], [15.75, 41.37], [16.02, 41.31], [16.14, 41.315]] },
+    'consuls-216': { name: 'The Roman army follows, summer 216 BC', color: 'rome', offset: 6, path: [[14.93, 41.79], [15.2, 41.63], [15.5, 41.48], [15.84, 41.35], [16.05, 41.29]] },
   },
   markers: {},
   show: ['geronium-217'],
@@ -112,8 +112,8 @@ writePlan(`${G}/040-cannae-encirclement`, {
 // --- after the battle ---
 writePlan(`${G}/050-cannae-aftermath`, {
   routes: {
-    'varro-216': { name: 'Varro escapes to Venusia with 70 horsemen', path: [P(3300, -900), [16.02, 41.18], [15.9, 41.05], [15.815, 40.965]] },
-    'survivors-216': { name: 'Survivors make for Canusium', style: 'dashed', path: [P(800, -1600), [16.09, 41.25], [16.066, 41.225]] },
+    'varro-216': { group: 'escape', name: 'Varro escapes to Venusia with 70 horsemen', color: 'rome', path: [P(3300, -900), [16.02, 41.18], [15.9, 41.05], [15.815, 40.965]] },
+    'survivors-216': { group: 'escape', name: 'Survivors make for Canusium', color: 'rome', style: 'dashed', path: [P(800, -1600), [16.09, 41.25], [16.066, 41.225]] },
   },
   markers: { 'cannae-after-field': { lnglat: P(1800, 300), icon: 'skull', color: 'rome', label: 'Battlefield', note: 'Polybius: 70,000 dead. Livy: 48,200' } },
   show: ['canusium-216', 'venusia-216'],

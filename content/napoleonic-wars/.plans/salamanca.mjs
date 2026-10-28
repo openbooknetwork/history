@@ -23,15 +23,15 @@ const pack = unit('britain', 'infantry', 650, 1000, 400, 150, 'pack', 'Pack’s 
 // --- overview: Ciudad Rodrigo, Badajoz, Almaraz, the manoeuvres along the Douro and the Tormes ---
 writePlan(`${G}/010-salamanca`, {
   routes: {
-    'wellington-badajoz-1812': { name: 'Wellington moves south to Badajoz, March 1812',
+    'wellington-badajoz-1812': { name: 'Wellington moves south to Badajoz, March 1812', color: 'britain',
       path: [[-6.53, 40.6], [-7.08, 40.35], [-7.49, 39.82], [-7.43, 39.29], [-7.16, 38.88], [-6.97, 38.88]] },
-    'wellington-salamanca-1812': { name: 'Wellington advances on Salamanca, April to June 1812', offset: 6,
+    'wellington-salamanca-1812': { group: 'spring', name: 'Wellington advances on Salamanca, April to June 1812', color: 'britain', offset: 6,
       path: [[-6.97, 38.88], [-7.16, 38.88], [-7.43, 39.29], [-7.49, 39.82], [-7.08, 40.35], [-6.53, 40.6], [-6.05, 40.75], [-5.66, 40.96]] },
-    'hill-almaraz-1812': { name: 'Hill destroys the bridge at Almaraz, May 1812',
+    'hill-almaraz-1812': { group: 'spring', name: 'Hill destroys the bridge at Almaraz, May 1812', color: 'britain',
       path: [[-6.34, 38.92], [-6.0, 39.25], [-5.67, 39.81]] },
-    'marmont-1812': { name: 'Marmont crosses the Tormes at Huerta, July 1812',
+    'marmont-1812': { name: 'Marmont crosses the Tormes at Huerta, July 1812', color: 'france',
       path: [[-5.0, 41.5], [-5.2, 41.25], [-5.38, 40.98], [-5.5, 40.87], [-5.6, 40.875]] },
-    'wellington-tormes-1812': { name: 'Wellington marches to the Arapiles, July 1812', style: 'dashed',
+    'wellington-tormes-1812': { name: 'Wellington marches to the Arapiles, July 1812', color: 'britain', style: 'dashed',
       path: [[-5.2, 41.4], [-5.45, 41.12], [-5.63, 40.97], [-5.645, 40.9]] },
   },
   markers: {

@@ -23,9 +23,9 @@ const mark = (u, w, label, note, color, icon = 'user') => ({ lnglat: P(u, w), ic
 // --- overview: Nelson's search ---
 writePlan(`${G}/010-nile`, {
   routes: {
-    'nelson-1798': { name: 'Nelson’s search from Toulon by Naples to Alexandria, June 1798',
+    'nelson-1798': { name: 'Nelson’s search from Toulon by Naples to Alexandria, June 1798', color: 'britain',
       path: [[6.2, 42.7], [10.3, 42.6], [12.9, 40.9], [14.2, 40.7], [15.62, 38.2], [15.4, 36.6], [20.0, 34.2], [25.0, 32.5], [29.85, 31.32]] },
-    'nelson-coron-1798': { name: 'Nelson returns by Anatolia and Syracuse, then by Coron to Aboukir Bay, July 1798', offset: 6,
+    'nelson-coron-1798': { name: 'Nelson returns by Anatolia and Syracuse, then by Coron to Aboukir Bay, July 1798', color: 'britain', offset: 6,
       path: [[29.85, 31.4], [30.2, 34.0], [29.0, 35.9], [25.0, 35.8], [20.0, 36.4], [15.35, 37.0], [19.0, 36.6], [21.95, 36.75], [24.0, 35.0], [28.0, 32.4], [30.1, 31.4]] },
   },
   markers: {

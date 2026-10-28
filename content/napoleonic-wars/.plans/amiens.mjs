@@ -3,7 +3,7 @@ import { writePlan } from './lib.mjs';
 
 writePlan('pages/040-second-coalition/050-amiens', {
   routes: {
-    'parker-1801': { name: 'Parker and Nelson sail from Yarmouth to Copenhagen, 12 March to 2 April 1801',
+    'parker-1801': { name: 'Parker and Nelson sail from Yarmouth to Copenhagen, 12 March to 2 April 1801', color: 'britain',
       path: [[1.75, 52.6], [3.5, 54.0], [7.0, 56.6], [10.0, 57.9], [11.0, 57.4], [12.0, 56.6], [12.62, 56.05], [12.65, 55.72]] },
   },
   markers: {

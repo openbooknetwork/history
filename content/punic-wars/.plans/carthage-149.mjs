@@ -37,9 +37,9 @@ const mark = (u, w, label, note, color, icon = 'user') => ({ lnglat: P(u, w), ic
 // --- overview: the crossing to Utica, the weapons handed over, the march on Carthage ---
 writePlan(`${G}/010-siege-of-carthage`, {
   routes: {
-    'consuls-149': { name: 'The consuls cross from Lilybaeum to Utica, 149 BC', path: [[12.44, 37.8], [11.8, 37.6], [11.0, 37.35], [10.4, 37.18], [10.1, 37.07]] },
-    'weapons-149': { name: 'Carthage’s weapons and warships go to Utica', style: 'dashed', path: [[10.315, 36.86], [10.3, 36.95], [10.2, 37.03], [10.08, 37.06]] },
-    'manilius-149': { name: 'The Roman army marches on Carthage, 149 BC', offset: 6, path: [[10.06, 37.05], [10.12, 36.97], [10.2, 36.9], [10.262, 36.87]] },
+    'consuls-149': { name: 'The consuls cross from Lilybaeum to Utica, 149 BC', color: 'rome', path: [[12.44, 37.8], [11.8, 37.6], [11.0, 37.35], [10.4, 37.18], [10.1, 37.07]] },
+    'weapons-149': { name: 'Carthage’s weapons and warships go to Utica', color: 'carthage', style: 'dashed', path: [[10.315, 36.86], [10.3, 36.95], [10.2, 37.03], [10.08, 37.06]] },
+    'manilius-149': { name: 'The Roman army marches on Carthage, 149 BC', color: 'rome', offset: 6, path: [[10.06, 37.05], [10.12, 36.97], [10.2, 36.9], [10.262, 36.87]] },
   },
   show: ['utica-149', 'nepheris-149'],
 });

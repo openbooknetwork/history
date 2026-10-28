@@ -3,7 +3,7 @@ when: {from: '1812-01-07', to: '1812-07-21'}
 title: "Ciudad Rodrigo, Badajoz and the Douro"
 bbox: [-7.5, 38.5, -4.5, 41.8]
 zones: [joseph-spain-1808, portugal-1801]
-routes: [wellington-badajoz-1812, wellington-salamanca-1812, hill-almaraz-1812, marmont-1812, wellington-tormes-1812]
+routes: [wellington-badajoz-1812, [wellington-salamanca-1812, hill-almaraz-1812], marmont-1812, wellington-tormes-1812]
 markers: [salamanca-ciudad-rodrigo, salamanca-badajoz, salamanca-almaraz, salamanca-forts]
 battle: salamanca
 sources: ['Charles Oman, A History of the Peninsular War, vol. V (1914).', 'Rory Muir, Salamanca, 1812 (2001).', 'Michael Glover, The Peninsular War 1807–1814 (2001).']

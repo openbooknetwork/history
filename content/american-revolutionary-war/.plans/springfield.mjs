@@ -42,9 +42,9 @@ writePlan(`${G}/011-springfield-arsenal`, {
 writePlan(`${G}/012-springfield-petersham`, {
   bbox: [-72.75, 42.0, -71.65, 42.6],
   routes: {
-    'lincoln-1787-west': { name: 'Lincoln marches west from Worcester to Springfield with 3,000 militia, late January 1787', path: [[-71.802, 42.262], [-72.05, 42.2], [-72.33, 42.15], [-72.57, 42.115]] },
-    'lincoln-1787-petersham': { name: 'Lincoln follows by Hadley and Pelham and marches through the snow to Petersham, 3 to 4 February', path: [[-72.57, 42.125], [-72.588, 42.341], [-72.403, 42.393], [-72.3, 42.45], [-72.189, 42.489]] },
-    'rebels-1787': { name: 'The rebels fall back by Amherst to Petersham', style: 'dashed', offset: 6, path: [[-72.585, 42.13], [-72.52, 42.375], [-72.33, 42.5], [-72.195, 42.49]] },
+    'lincoln-1787-west': { color: 'usa', name: 'Lincoln marches west from Worcester to Springfield with 3,000 militia, late January 1787', path: [[-71.802, 42.262], [-72.05, 42.2], [-72.33, 42.15], [-72.57, 42.115]] },
+    'lincoln-1787-petersham': { color: 'usa', name: 'Lincoln follows by Hadley and Pelham and marches through the snow to Petersham, 3 to 4 February', path: [[-72.57, 42.125], [-72.588, 42.341], [-72.403, 42.393], [-72.3, 42.45], [-72.189, 42.489]] },
+    'rebels-1787': { color: 'pending', name: 'The rebels fall back by Amherst to Petersham', style: 'dashed', offset: 6, path: [[-72.585, 42.13], [-72.52, 42.375], [-72.33, 42.5], [-72.195, 42.49]] },
   },
   markers: {
     'springfield-petersham-worcester': { lnglat: [-71.802, 42.262], icon: 'flag', color: 'usa', label: 'Worcester', note: 'Lincoln’s army gathers, 19 January' },

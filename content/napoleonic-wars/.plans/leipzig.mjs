@@ -22,15 +22,15 @@ const clash = (x, y, size) => size ? { at: E(x, y), size } : E(x, y);
 // --- overview: the armies converge, 3 – 15 October ---
 writePlan(`${G}/010-leipzig`, {
   routes: {
-    'napoleon-leipzig-1813': { name: 'Napoleon leaves Dresden, waits at Düben and turns back to Leipzig, 7 – 15 October 1813',
+    'napoleon-leipzig-1813': { name: 'Napoleon leaves Dresden, waits at Düben and turns back to Leipzig, 7 – 15 October 1813', color: 'france',
       path: [[13.74, 51.05], [13.47, 51.16], [13.11, 51.3], [12.74, 51.37], [12.63, 51.46], [12.58, 51.58], [12.47, 51.47], [12.4, 51.36]] },
-    'blucher-leipzig-1813': { name: 'Blücher crosses the Elbe at Wartenburg and comes on Leipzig from the north-west, October 1813',
+    'blucher-leipzig-1813': { name: 'Blücher crosses the Elbe at Wartenburg and comes on Leipzig from the north-west, October 1813', color: 'prussia',
       path: [[12.79, 51.83], [12.6, 51.68], [12.3, 51.58], [12.0, 51.5], [12.15, 51.42], [12.3, 51.38]] },
-    'charles-john-leipzig-1813': { name: 'The Army of the North crosses the Elbe and comes south by Halle, reaching the field on 18 October',
+    'charles-john-leipzig-1813': { name: 'The Army of the North crosses the Elbe and comes south by Halle, reaching the field on 18 October', color: 'sweden',
       path: [[12.24, 51.86], [12.1, 51.72], [12.0, 51.58], [12.25, 51.45], [12.43, 51.41], [12.49, 51.38]] },
-    'schwarzenberg-leipzig-1813': { name: 'The Army of Bohemia marches out of Bohemia to the south of Leipzig, October 1813',
+    'schwarzenberg-leipzig-1813': { name: 'The Army of Bohemia marches out of Bohemia to the south of Leipzig, October 1813', color: 'austria',
       path: [[13.25, 50.5], [13.16, 50.65], [12.92, 50.83], [12.71, 50.93], [12.5, 51.12], [12.44, 51.24]] },
-    'bennigsen-leipzig-1813': { name: 'Bennigsen’s Army of Poland comes up from the Elbe, reaching the field on 18 October',
+    'bennigsen-leipzig-1813': { name: 'Bennigsen’s Army of Poland comes up from the Elbe, reaching the field on 18 October', color: 'russia',
       path: [[13.6, 51.1], [13.15, 51.18], [12.73, 51.24], [12.59, 51.28], [12.48, 51.3]] },
   },
   markers: {

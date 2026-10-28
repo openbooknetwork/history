@@ -3,7 +3,7 @@ when: {from: '1793-06-02', to: '1793-09-22'}
 title: "Toulon goes over to the Allies"
 bbox: [5.3, 42.98, 6.25, 43.36]
 zones: []
-routes: [hood-1793, carteaux-1793, lapoype-1793]
+routes: [hood-1793, [carteaux-1793, lapoype-1793]]
 markers: [toulon-marseille, toulon-ollioules, toulon-la-valette]
 battle: toulon
 sources: ['Bernard Ireland, The Fall of Toulon: The Last Opportunity to Defeat the French Revolution (2005).', 'Robert Forczyk, Toulon 1793: Napoleon’s First Great Victory (2005).', 'Andrew Roberts, Napoleon: A Life (2014).']

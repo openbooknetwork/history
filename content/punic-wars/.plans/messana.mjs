@@ -19,8 +19,8 @@ const camp = unit('carthage', 'camp', 3700, -300, 600, 600, 0, nm('carthaginian-
 // --- overview: Hiero's march on Messana and the Roman crossing ---
 writePlan(`${G}/010-messana`, {
   routes: {
-    'hiero-264': { name: 'Hiero’s army marches on Messana, 264 BC', path: [[15.29, 37.07], [15.2, 37.45], [15.3, 37.82], [15.44, 38.05], [15.53, 38.165]] },
-    'claudius-264': { name: 'Appius Claudius crosses the strait with two legions, 264 BC', path: [[15.65, 38.115], [15.62, 38.16], [15.567, 38.197]] },
+    'hiero-264': { name: 'Hiero’s army marches on Messana, 264 BC', color: 'syracuse', path: [[15.29, 37.07], [15.2, 37.45], [15.3, 37.82], [15.44, 38.05], [15.53, 38.165]] },
+    'claudius-264': { name: 'Appius Claudius crosses the strait with two legions, 264 BC', color: 'rome', path: [[15.65, 38.115], [15.62, 38.16], [15.567, 38.197]] },
   },
   markers: { 'messana-fleet-264': { lnglat: [15.66, 38.275], icon: 'ship', color: 'carthage', label: 'Carthaginian fleet', note: 'At Cape Pelorus' } },
   show: ['syracuse-264', 'rhegium-264'],

@@ -24,15 +24,15 @@ const mark = (lnglat, label, note, color, icon = 'user') => ({ lnglat, icon, col
 // --- overview: from Smolensk to the Berezina, Krasnoi, and the Russian armies closing in ---
 writePlan(`${G}/010-berezina`, {
   routes: {
-    'napoleon-berezina-1812': { name: 'The Grande Armée retreats from Smolensk to the Berezina, 14 – 25 November 1812',
+    'napoleon-berezina-1812': { group: 'retreat', name: 'The Grande Armée retreats from Smolensk to the Berezina, 14 – 25 November 1812', color: 'france',
       path: [[32.05, 54.78], [31.7, 54.66], [31.43, 54.56], [31.0, 54.55], [30.43, 54.51], [29.69, 54.41], [29.27, 54.33], [28.8, 54.27], [28.52, 54.24], [28.38, 54.32]] },
-    'kutuzov-krasnoi-1812': { name: 'Kutuzov’s army marches parallel to the road and attacks around Krasnoi, 15 – 18 November 1812',
-      path: [[32.4, 54.45], [32.0, 54.43], [31.7, 54.45], [31.48, 54.52]] },
-    'ney-dnieper-1812': { name: 'Ney crosses the frozen Dnieper and rejoins the army near Orsha, 18 – 20 November 1812', style: 'dashed',
+    'ney-dnieper-1812': { group: 'retreat', name: 'Ney crosses the frozen Dnieper and rejoins the army near Orsha, 18 – 20 November 1812', color: 'france', style: 'dashed',
       path: [[31.38, 54.6], [31.3, 54.68], [31.0, 54.68], [30.7, 54.62], [30.45, 54.54]] },
-    'wittgenstein-1812': { name: 'Wittgenstein marches south from the Dvina towards Borisov, November 1812',
+    'kutuzov-krasnoi-1812': { name: 'Kutuzov’s army marches parallel to the road and attacks around Krasnoi, 15 – 18 November 1812', color: 'russia',
+      path: [[32.4, 54.45], [32.0, 54.43], [31.7, 54.45], [31.48, 54.52]] },
+    'wittgenstein-1812': { group: 'borisov', name: 'Wittgenstein marches south from the Dvina towards Borisov, November 1812', color: 'russia',
       path: [[28.8, 55.0], [29.0, 54.85], [28.8, 54.6], [28.6, 54.4], [28.45, 54.3]] },
-    'chichagov-1812': { name: 'Chichagov advances from Minsk and takes Borisov, 21 November 1812',
+    'chichagov-1812': { group: 'borisov', name: 'Chichagov advances from Minsk and takes Borisov, 21 November 1812', color: 'russia',
       path: [[27.56, 53.9], [27.9, 54.0], [28.25, 54.12], [28.48, 54.22]] },
   },
   markers: {

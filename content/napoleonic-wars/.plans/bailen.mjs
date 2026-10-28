@@ -17,15 +17,15 @@ const town = id => ({ [id]: mark(150, 350, 'Bailén', null, null, 'house') });
 // --- overview: Dupont's march to Córdoba and back, Vedel over the Sierra Morena, Reding over the Guadalquivir ---
 writePlan(`${G}/010-bailen`, {
   routes: {
-    'dupont-1808': { name: 'Dupont’s march to Córdoba, early June 1808',
+    'dupont-1808': { name: 'Dupont’s march to Córdoba, early June 1808', color: 'france',
       path: [[-3.53, 38.4], [-3.615, 38.276], [-3.776, 38.094], [-4.05, 38.04], [-4.38, 38.02], [-4.67, 37.94], [-4.78, 37.885]] },
-    'dupont-andujar-1808': { name: 'Dupont falls back to Andújar, June 1808', offset: 6,
+    'dupont-andujar-1808': { name: 'Dupont falls back to Andújar, June 1808', color: 'france', offset: 6,
       path: [[-4.78, 37.885], [-4.67, 37.94], [-4.38, 38.02], [-4.05, 38.04]] },
-    'vedel-1808': { name: 'Vedel crosses the Sierra Morena, 26 June 1808', offset: -6,
+    'vedel-1808': { name: 'Vedel crosses the Sierra Morena, 26 June 1808', color: 'france', offset: -6,
       path: [[-3.5, 38.5], [-3.53, 38.4], [-3.615, 38.276], [-3.776, 38.094]] },
-    'reding-1808': { name: 'Reding crosses at Mengíbar, 16 to 17 July 1808',
+    'reding-1808': { name: 'Reding crosses at Mengíbar, 16 to 17 July 1808', color: 'spain',
       path: [[-3.79, 37.77], [-3.82, 37.9], [-3.81, 37.97], [-3.79, 38.05], [-3.776, 38.09]] },
-    'vedel-carolina-1808': { name: 'Dufour and Vedel march to La Carolina, 17 July 1808', style: 'dashed', offset: 6,
+    'vedel-carolina-1808': { name: 'Dufour and Vedel march to La Carolina, 17 July 1808', color: 'france', style: 'dashed', offset: 6,
       path: [[-3.776, 38.094], [-3.687, 38.18], [-3.615, 38.276]] },
   },
   markers: {

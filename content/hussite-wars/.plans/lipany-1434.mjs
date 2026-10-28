@@ -140,14 +140,14 @@ writePlan(`${G}/040-lipany-rout`, {
 // --- overview: the league from Prague to Český Brod, the field armies from Kolín by Kouřim to Lipany ---
 writePlan(`${G}/010-lipany`, {
   routes: {
-    'league-1434-brod': { name: 'The lords’ league marches from Prague to Český Brod and lays siege to it, 27 May 1434', path: [[14.43, 50.085], [14.52, 50.09], [14.62, 50.095], [14.72, 50.09], [14.8, 50.08], [14.855, 50.074]] },
-    'league-1434-lipany': { name: 'The league leaves Český Brod to meet the field armies, 28 May 1434', path: [[14.862, 50.07], [14.885, 50.06], [14.905, 50.05], [14.92, 50.042]] },
-    'field-armies-1434-kolin': { name: 'The field armies withdraw from Prague into the country round Kolín, 22 to 24 May 1434', path: [[14.47, 50.04], [14.58, 50.03], [14.7, 50.02], [14.82, 50.01], [14.92, 50.005], [14.975, 50.003], [15.05, 50.01], [15.13, 50.02], [15.2, 50.028]] },
-    'field-armies-1434-lipany': { name: 'The field armies march by Kouřim to relieve Český Brod, 28 May 1434', offset: 6, path: [[15.2, 50.028], [15.13, 50.02], [15.05, 50.01], [14.975, 50.003], [14.955, 50.02], [14.94, 50.031]] },
+    'field-armies-1434-kolin': { name: 'The field armies withdraw from Prague into the country round Kolín, 22 to 24 May 1434', color: 'taborites', path: [[14.47, 50.04], [14.58, 50.03], [14.7, 50.02], [14.82, 50.01], [14.92, 50.005], [14.975, 50.003], [15.05, 50.01], [15.13, 50.02], [15.2, 50.028]] },
+    'league-1434-brod': { name: 'The lords’ league marches from Prague to Český Brod and lays siege to it, 27 May 1434', color: 'prague', path: [[14.43, 50.085], [14.52, 50.09], [14.62, 50.095], [14.72, 50.09], [14.8, 50.08], [14.855, 50.074]] },
+    'league-1434-lipany': { name: 'The league leaves Český Brod to meet the field armies, 28 May 1434', color: 'prague', path: [[14.862, 50.07], [14.885, 50.06], [14.905, 50.05], [14.92, 50.042]] },
+    'field-armies-1434-lipany': { name: 'The field armies march by Kouřim to relieve Český Brod, 28 May 1434', color: 'taborites', offset: 6, path: [[15.2, 50.028], [15.13, 50.02], [15.05, 50.01], [14.975, 50.003], [14.955, 50.02], [14.94, 50.031]] },
   },
   markers: {
-    'ceskybrod-1434': { lnglat: [14.861, 50.074], icon: 'flag', color: 'taborites', label: 'Český Brod' },
-    'kolin-1434': { lnglat: [15.2, 50.028], icon: 'flag', color: 'taborites', label: 'Kolín', note: 'Orphan town, Čapek escapes here' },
+    'ceskybrod-1434': { lnglat: [14.861, 50.074], icon: 'flag', color: 'orebites', label: 'Český Brod' },
+    'kolin-1434': { lnglat: [15.2, 50.028], icon: 'flag', color: 'orebites', label: 'Kolín', note: 'Orphan town, Čapek escapes here' },
   },
 });
 

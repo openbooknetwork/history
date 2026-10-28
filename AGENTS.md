@@ -41,6 +41,9 @@ after every edit to it.
 A page's id is its folder name without the number, and it is part of the page's URL, `/<story>/<lang>/<id>/`. A
 released page keeps its id, so links and search results to it keep working. Renumber the folder to move it.
 
+A story can sit in a group folder, such as the Ottoman series in `content/ottoman/<story>/`. Paths written here as
+`content/<story>/` then run through the group. Commands and scripts name the story by its folder name alone.
+
 ## Checking a story
 
 1. `./node_modules/.bin/harita check <story> [page ids]` reads the pages, texts, images, markers, battles, routes and battle plans,
@@ -74,9 +77,30 @@ prints the id to use: `@image <id>` in a text, `image: <id>` on a marker, the ca
 from another story to `content/shared/images/`. After an image file changes, `./node_modules/.bin/harita rehash`
 writes its new sha256.
 
+Look for two images for a battle card. When no picture of the battle exists, look for one for each side: its
+commander, its army or its arms. Look first for images made at the time, such as a portrait, a coin, a relief or a
+manuscript. A later painting serves when nothing from the time shows that side, and its caption says when it was
+painted. An image the story already holds can serve, when its page is not the card's page. A card keeps one image when
+Commons has nothing more that fits.
+
+Images on nearby pages differ in kind: two portraits from one manuscript or one series go in different chapters.
+`node scripts/contact-sheet.mjs <story>` draws every image the story shows in page order to
+`.cache/<story>-images-<n>.png`. Open the sheets before an image agent finishes.
+
 Before a story is released, a maintainer runs `./node_modules/.bin/harita upload --story <story>`, which puts
 its new images and elevation tiles in the store. `npm run build -- --strict` then checks that the store holds
 every object the story links to. `harita dev` shows new images before any upload.
+
+## Zone families
+
+A family is one state, and its colour and pattern show who holds the land. A page shows each family in one zone,
+since two states in one family read as one state divided. Give each state on a page a family of its own, the Serbian
+lords after 1371 and the Anatolian beyliks too, or draw states whose borders the page does not need, such as the
+states that ratified a treaty, as one zone. Two zones of one state on a page are one zone. A marker's `color` names
+the family of the state that holds the place, and a route's `color` the family of the army, fleet or people that
+travel it. A battle plan's routes name the battle's families. A page lists the routes of one family in the order
+they were travelled: each gets its number, the last takes the full colour and the earlier ones shades of it. `./node_modules/.bin/harita check <story>` reports a family with two
+zones on a page, and `./node_modules/.bin/harita patterns` lists the families that look alike on a page.
 
 ## Shared zones
 

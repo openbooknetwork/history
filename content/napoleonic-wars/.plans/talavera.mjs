@@ -39,15 +39,15 @@ const milhaud = unit('france', 'cavalry', 900, 1500, 900, 200, 'milhaud', 'Milha
 // --- overview: Porto, Soult's escape, the march up the Tagus, Cuesta's pursuit and retreat ---
 writePlan(`${G}/010-talavera`, {
   routes: {
-    'wellesley-porto-1809': { name: 'Wellesley marches from Lisbon by Coimbra to Porto, May 1809',
+    'wellesley-porto-1809': { name: 'Wellesley marches from Lisbon by Coimbra to Porto, May 1809', color: 'britain',
       path: [[-9.14, 38.72], [-8.68, 39.24], [-8.81, 39.74], [-8.42, 40.2], [-8.58, 41.03], [-8.6, 41.13]] },
-    'soult-porto-1809': { name: 'Soult escapes from Porto to Ourense, May 1809', style: 'dashed',
+    'soult-porto-1809': { name: 'Soult escapes from Porto to Ourense, May 1809', color: 'france', style: 'dashed',
       path: [[-8.61, 41.15], [-8.5, 41.19], [-8.29, 41.44], [-8.0, 41.6], [-7.79, 41.82], [-7.86, 42.34]] },
-    'wellesley-tagus-1809': { name: 'Wellesley marches up the Tagus, June to July 1809',
+    'wellesley-tagus-1809': { name: 'Wellesley marches up the Tagus, June to July 1809', color: 'britain',
       path: [[-8.42, 40.2], [-8.2, 39.46], [-7.49, 39.82], [-6.7, 40.0], [-6.09, 40.03], [-5.67, 39.85], [-5.18, 39.92], [-4.83, 39.97]] },
-    'cuesta-1809': { name: 'Cuesta follows Victor towards Madrid, July 1809',
+    'cuesta-1809': { name: 'Cuesta follows Victor towards Madrid, July 1809', color: 'spain',
       path: [[-4.83, 39.97], [-4.6, 40.0], [-4.43, 40.02], [-4.28, 39.98]] },
-    'cuesta-back-1809': { name: 'Cuesta falls back on Talavera, 26 July 1809', style: 'dashed', offset: 6,
+    'cuesta-back-1809': { name: 'Cuesta falls back on Talavera, 26 July 1809', color: 'spain', style: 'dashed', offset: 6,
       path: [[-4.28, 39.98], [-4.43, 40.02], [-4.6, 40.0], [-4.8, 39.975]] },
   },
   markers: {

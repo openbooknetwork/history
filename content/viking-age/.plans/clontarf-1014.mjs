@@ -62,20 +62,20 @@ const west = [
 // --- overview: the fleets from Orkney and Man, Brian's march, the burning of Fine Gall; the battle card at Clontarf ---
 writePlan(`${G}/010-clontarf`, {
   routes: {
-    'sigtrygg-1013': { name: 'Sigtrygg sails to Orkney to win Earl Sigurd, by Njáls saga, winter 1013–1014', style: 'dashed', path: [...west].reverse() },
-    'sigurd-1014': { name: 'Sigurd, earl of Orkney, sails to Dublin, Holy Week 1014', offset: 6, path: west },
-    'brodir-1014': { name: 'Brodir’s fleet from the Isle of Man to Dublin, Holy Week 1014', path: [
+    'sigtrygg-1013': { name: 'Sigtrygg sails to Orkney to win Earl Sigurd, by Njáls saga, winter 1013–1014', color: 'norse', style: 'dashed', path: [...west].reverse() },
+    'sigurd-1014': { name: 'Sigurd, earl of Orkney, sails to Dublin, Holy Week 1014', color: 'orkney', offset: 6, path: west },
+    'brodir-1014': { name: 'Brodir’s fleet from the Isle of Man to Dublin, Holy Week 1014', color: 'isles', path: [
       [-4.48, 54.15], [-4.45, 54.1], [-4.65, 54.0], [-4.9, 53.93], [-5.5, 53.6], [-5.9, 53.42], [-6.1, 53.345], [-6.2, 53.352]] },
-    'brian-1014': { name: 'Brian’s march from Kincora to Dublin, April 1014', path: [
+    'brian-1014': { name: 'Brian’s march from Kincora to Dublin, April 1014', color: 'celts', path: [
       [-8.441, 52.806], [-8.15, 52.86], [-7.75, 52.95], [-7.35, 53.05], [-6.911, 53.158], [-6.7, 53.24], [-6.5, 53.3], [-6.3215, 53.3431]] },
-    'meath-1014': { name: 'Máel Sechnaill and the men of Meath join Brian, April 1014', path: [
+    'meath-1014': { name: 'Máel Sechnaill and the men of Meath join Brian, April 1014', color: 'mide', path: [
       [-6.612, 53.578], [-6.55, 53.47], [-6.43, 53.39], [-6.3215, 53.3431]] },
-    'fine-gall-1014': { name: 'Brian’s men burn the country north of Dublin as far as Howth, by the Cogad, April 1014', path: [
+    'fine-gall-1014': { name: 'Brian’s men burn the country north of Dublin as far as Howth, by the Cogad, April 1014', color: 'celts', path: [
       [-6.3215, 53.3431], [-6.33, 53.36], [-6.3, 53.39], [-6.22, 53.41], [-6.13, 53.4], [-6.066, 53.386]] },
   },
   markers: {
-    'orkney-1014': mark([-3.05, 58.93], 'Orkney', 'Earl Sigurd sets out', 'norse', 'flag'),
-    'man-1014': mark([-4.48, 54.15], 'Isle of Man', 'Brodir’s fleet sets out', 'norse', 'ship'),
+    'orkney-1014': mark([-3.05, 58.93], 'Orkney', 'Earl Sigurd sets out', 'orkney', 'flag'),
+    'man-1014': mark([-4.48, 54.15], 'Isle of Man', 'Brodir’s fleet sets out', 'isles', 'ship'),
     'kincora-1014': mark([-8.441, 52.806], 'Kincora', 'Brian sets out', 'celts', 'flag'),
     'kilmainham-1014': mark([-6.3215, 53.3431], 'Kilmainham', 'Brian’s camp', 'celts', 'flag'),
     'howth-1014': mark([-6.066, 53.386], 'Howth', 'Burned by Brian’s men', 'celts', 'flame'),

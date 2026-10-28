@@ -9,11 +9,11 @@ writePlan('pages/010-before/020-italy', {
   },
   show: ['rome-270', 'ariminum-268', 'beneventum-275', 'tarentum-272'],
   routes: {
-    'pyrrhus-280': { name: 'Pyrrhus in Italy: Tarentum, Heraclea and Asculum, 280 – 279 BC',
+    'pyrrhus-280': { name: 'Pyrrhus in Italy: Tarentum, Heraclea and Asculum, 280 – 279 BC', color: 'macedon',
       path: [[17.24, 40.47], [16.65, 40.21], [16.0, 40.65], [15.56, 41.2]] },
-    'pyrrhus-278': { name: 'Pyrrhus in Sicily, 278 – 276 BC', offset: 6,
+    'pyrrhus-278': { name: 'Pyrrhus in Sicily, 278 – 276 BC', color: 'macedon', offset: 6,
       path: [[16.9, 40.3], [16.3, 38.5], [15.4, 37.6], [15.29, 37.07], [14.0, 37.25], [12.44, 37.8]] },
-    'pyrrhus-275': { name: 'Pyrrhus returns to Italy, fights at Beneventum and sails home, 275 BC', style: 'dashed',
+    'pyrrhus-275': { name: 'Pyrrhus returns to Italy, fights at Beneventum and sails home, 275 BC', color: 'macedon', style: 'dashed',
       path: [[15.29, 37.07], [15.9, 38.0], [16.25, 38.24], [16.5, 39.5], [15.6, 40.6], [14.78, 41.13], [16.3, 40.8], [17.24, 40.47], [19.0, 40.1]] },
   },
 });

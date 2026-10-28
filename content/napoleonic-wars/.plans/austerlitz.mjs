@@ -33,15 +33,15 @@ const mark = (pos, label, note, color, icon = 'user') => ({ lnglat: pos, icon, c
 // --- overview: the march down the Danube, the retreat into Moravia, Davout's forced march ---
 writePlan(`${G}/010-austerlitz`, {
   routes: {
-    'grande-armee-vienna-1805': { name: 'The Grande Armée follows the Danube from Ulm to Vienna, late October to 13 November 1805',
+    'grande-armee-vienna-1805': { name: 'The Grande Armée follows the Danube from Ulm to Vienna, late October to 13 November 1805', color: 'france',
       path: [[13.6, 48.24], [14.29, 48.3], [14.87, 48.12], [15.62, 48.2], [16.1, 48.21], [16.37, 48.22]] },
-    'kutuzov-1805': { name: 'Kutuzov’s retreat by Krems and Hollabrunn into Moravia, November 1805', style: 'dashed', offset: 6,
+    'kutuzov-1805': { name: 'Kutuzov’s retreat by Krems and Hollabrunn into Moravia, November 1805', color: 'russia', style: 'dashed', offset: 6,
       path: [[13.6, 48.26], [14.29, 48.32], [14.87, 48.14], [15.6, 48.25], [15.62, 48.41], [15.95, 48.52], [16.03, 48.62], [16.05, 48.86], [16.42, 49.0], [16.61, 49.19], [16.99, 49.28], [17.25, 49.59]] },
-    'napoleon-brunn-1805': { name: 'Murat, Lannes and Soult follow from Vienna by Hollabrunn to Brünn, 14 to 20 November 1805',
+    'napoleon-brunn-1805': { name: 'Murat, Lannes and Soult follow from Vienna by Hollabrunn to Brünn, 14 to 20 November 1805', color: 'france',
       path: [[16.37, 48.24], [16.25, 48.4], [16.08, 48.56], [16.05, 48.84], [16.4, 49.0], [16.6, 49.18]] },
-    'allies-1805': { name: 'The allied army advances from Olmütz to Austerlitz, 27 November to 1 December 1805',
+    'allies-1805': { name: 'The allied army advances from Olmütz to Austerlitz, 27 November to 1 December 1805', color: 'russia',
       path: [[17.25, 49.59], [17.11, 49.47], [16.99, 49.28], [16.88, 49.16], [16.78, 49.13]] },
-    'davout-1805': { name: 'Davout’s III Corps marches 110 km from Vienna in 48 hours, 29 November to 2 December 1805',
+    'davout-1805': { name: 'Davout’s III Corps marches 110 km from Vienna in 48 hours, 29 November to 2 December 1805', color: 'france',
       path: [[16.37, 48.2], [16.45, 48.42], [16.64, 48.8], [16.62, 49.0], [16.64, 49.08], [16.71, 49.1]] },
   },
   markers: {

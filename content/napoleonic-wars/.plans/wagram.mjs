@@ -29,15 +29,15 @@ const mark = (lnglat, label, note, color, icon = 'user') => ({ lnglat, icon, col
 // --- overview: the crossing from the east side of the Lobau and the advance onto the Marchfeld, 4 – 5 July ---
 writePlan(`${G}/010-wagram`, {
   routes: {
-    'oudinot-wagram-1809': { name: 'Oudinot’s II Corps crosses first and advances on Baumersdorf, 4 – 5 July 1809',
+    'oudinot-wagram-1809': { group: 'crossing', name: 'Oudinot’s II Corps crosses first and advances on Baumersdorf, 4 – 5 July 1809', color: 'france',
       path: [[16.565, 48.178], [16.58, 48.19], [16.592, 48.205], [16.6, 48.235], [16.6, 48.262]] },
-    'massena-wagram-1809': { name: 'Masséna’s IV Corps takes Gross-Enzersdorf and moves on Aderklaa, 5 July 1809',
+    'massena-wagram-1809': { group: 'crossing', name: 'Masséna’s IV Corps takes Gross-Enzersdorf and moves on Aderklaa, 5 July 1809', color: 'france',
       path: [[16.555, 48.18], [16.551, 48.198], [16.53, 48.22], [16.51, 48.245], [16.515, 48.265]] },
-    'davout-wagram-1809': { name: 'Davout’s III Corps crosses and advances on Glinzendorf, 5 July 1809',
+    'davout-wagram-1809': { group: 'crossing', name: 'Davout’s III Corps crosses and advances on Glinzendorf, 5 July 1809', color: 'france',
       path: [[16.575, 48.175], [16.6, 48.19], [16.62, 48.215], [16.633, 48.24]] },
-    'nordmann-wagram-1809': { name: 'Nordmann’s advance guard falls back to Markgrafneusiedl, 5 July 1809', style: 'dashed',
+    'nordmann-wagram-1809': { group: 'fall-back', name: 'Nordmann’s advance guard falls back to Markgrafneusiedl, 5 July 1809', color: 'austria', style: 'dashed',
       path: [[16.58, 48.215], [16.61, 48.24], [16.625, 48.255], [16.637, 48.268]] },
-    'klenau-wagram-1809': { name: 'Klenau’s VI Corps falls back to the west, 5 July 1809', style: 'dashed',
+    'klenau-wagram-1809': { group: 'fall-back', name: 'Klenau’s VI Corps falls back to the west, 5 July 1809', color: 'austria', style: 'dashed',
       path: [[16.53, 48.225], [16.5, 48.238], [16.47, 48.25], [16.45, 48.262]] },
   },
   markers: {

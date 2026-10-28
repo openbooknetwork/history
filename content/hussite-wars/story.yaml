@@ -22,17 +22,23 @@ countries: [France, Switzerland, Liechtenstein, Italy, Austria, Germany, Luxembo
 # Zone families. A zone subtracts every zone from a family with a lower priority number.
 # Zones in the same family never cut each other, so one family can hold several dated shapes.
 families:
-  taborites: { priority: 0, color: "#b5352a", color_dark: "#e8695c" }                   # Tábor, Žižka's Orebites and the Orphans, the field armies
-  prague:    { priority: 1, color: "#d4a017", color_dark: "#f2c94c" }                   # Prague and the Hussite towns and lords allied with it, George of Poděbrady
-  royalists: { priority: 2, color: "#2f6fb0", color_dark: "#6fa6e0" }                   # Sigismund's Catholic party in Bohemia and Moravia: Plzeň, Rožmberk, Budweis
-  bohemia:   { priority: 3, color: "#1f8a8a", color_dark: "#4fc4c4" }                   # the lands of the Bohemian crown before the war
-  austria:   { priority: 4, color: "#b03a7a", color_dark: "#e07ab0", pattern: hatch }   # the duchies of Austria under the Habsburgs
-  teutonic:  { priority: 5, color: "#6a3d9a", color_dark: "#a98bd6", pattern: dots }    # the Teutonic Order in Prussia and the Neumark
-  hungary:   { priority: 6, color: "#3d7a2a", color_dark: "#7cc160" }                   # the kingdom of Hungary under Sigismund, then Matthias Corvinus
-  poland:    { priority: 7, color: "#c25b72", color_dark: "#e88aa0", pattern: cross }   # the kingdom of Poland and the grand duchy of Lithuania
-  empire:    { priority: 8, color: "#7a6a53", color_dark: "#b8a68a" }                   # the German princes, bishops and towns: Meissen and Saxony, Bavaria, Brandenburg
-  other:     { priority: 9, color: "#7f8c8d", color_dark: "#aab7b8", pattern: dots }    # other lands: Denmark
-  water:     { priority: 10, color: "#5b9bd5", color_dark: "#2c5d87" }                  # rivers, fishponds and marshes on the battle plans, no zones
+  taborites: { priority: 0, color: "#b5352a", color_dark: "#e8695c" }                   # Tábor and its towns, and on the battle cards the field armies of several unions together
+  orebites:  { priority: 1, color: "#ee6f0a", color_dark: "#ff8a1f" }                   # the Orebites of eastern Bohemia, Žižka's union from 1423, called the Orphans after his death
+  prague:    { priority: 2, color: "#d4a017", color_dark: "#f2c94c" }                   # Prague and the Hussite towns and lords allied with it, George of Poděbrady
+  zatec:     { priority: 3, color: "#a8820e", color_dark: "#d9b44a", pattern: hatch }   # the union of Žatec and Louny from 1425
+  royalists: { priority: 4, color: "#2f6fb0", color_dark: "#6fa6e0" }                   # Sigismund's side: Plzeň, Rožmberk, Budweis, Moravia, Silesia and the Lusatias
+  bohemia:   { priority: 5, color: "#1f8a8a", color_dark: "#4fc4c4" }                   # the kingdom of Bohemia before the war, or all the crown lands as one
+  moravia:   { priority: 6, color: "#2a9478", color_dark: "#5ccba8", pattern: hatch }   # the margraviate of Moravia before the war
+  silesia:   { priority: 7, color: "#1fada1", color_dark: "#40bfb5", pattern: dots }    # the duchies of Silesia before the war
+  lusatia:   { priority: 8, color: "#2b7f99", color_dark: "#5fb6d0", pattern: cross }   # Upper and Lower Lusatia before the war
+  austria:   { priority: 9, color: "#b03a7a", color_dark: "#e07ab0", pattern: hatch }   # the duchies of Austria under the Habsburgs
+  teutonic:  { priority: 10, color: "#6a3d9a", color_dark: "#a98bd6", pattern: dots }   # the Teutonic Order in Prussia and the Neumark
+  hungary:   { priority: 11, color: "#3d7a2a", color_dark: "#7cc160" }                  # the kingdom of Hungary under Sigismund, then Matthias Corvinus
+  poland:    { priority: 12, color: "#c25b72", color_dark: "#e88aa0", pattern: cross }  # the kingdom of Poland, with Lithuania where the text names Poland alone
+  lithuania: { priority: 13, color: "#a8475e", color_dark: "#d97b92", pattern: dots }   # the grand duchy of Lithuania where the text names it
+  empire:    { priority: 14, color: "#7a6a53", color_dark: "#b8a68a" }                  # the German princes, bishops and towns: Meissen and Saxony, Bavaria, Brandenburg
+  other:     { priority: 15, color: "#7f8c8d", color_dark: "#aab7b8", pattern: dots }   # other lands: Denmark
+  water:     { priority: 16, color: "#5b9bd5", color_dark: "#2c5d87" }                  # rivers, fishponds and marshes on the battle plans, no zones
 # Corner rounding passes applied to every hand drawn zone before the clip.
 smoothing: 4
 # Battle plans are drawn at the scale of the field: the dike at Sudoměř and the ridge of Vítkov are a few hundred

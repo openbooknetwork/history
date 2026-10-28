@@ -65,6 +65,9 @@ zones.bohemia-1400.name: "Bohemya Krallığı"
 # Kingdom of Bohemia under George of Poděbrady, 1458–1471
 zones.bohemia-1458.name: "Poděbradlı George’un Bohemya Krallığı, 1458–1471"
 
+# Lands of the Bohemian crown: Bohemia, Moravia, Silesia and the Lusatias
+zones.crown-1400.name: "Bohemya tacının toprakları: Bohemya, Moravya, Silezya ve Lusatyalar"
+
 # Kingdom of Denmark
 zones.denmark-1400.name: "Danimarka Krallığı"
 
@@ -77,35 +80,17 @@ zones.empire-1400.name: "Kutsal Roma İmparatorluğu: Alman prensleri, piskoposl
 # Kingdom of Hungary under Sigismund, 1387–1437
 zones.hungary-1400.name: "Sigismund’un Macaristan Krallığı, 1387–1437"
 
-# Kingdom of Hungary under Matthias Corvinus, 1458–1490
-zones.hungary-1458.name: "Matthias Corvinus’un Macaristan Krallığı, 1458–1490"
-
-# Klatovy, Domažlice and Sušice, towns allied with Tábor, 1421–1434
-zones.klatovy-1421.name: "Tábor’la birleşen Klatovy, Domažlice ve Sušice, 1421–1434"
+# Kingdom of Hungary under Matthias Corvinus, 1458–1490, with Moravia, Silesia and the Lusatias from 1469
+zones.hungary-1458.name: "Matthias Corvinus’un Macaristan Krallığı, 1458–1490, 1469’dan sonra Moravya, Silezya ve Lusatyalar ile"
 
 # Grand Duchy of Lithuania, in union with Poland
 zones.lithuania-1400.name: "Polonya ile birlik içindeki Litvanya Büyük Dükalığı"
 
-# Lower Lusatia, under the Bohemian crown
-zones.llusatia-1400.name: "Bohemya tacına bağlı Aşağı Lusatya"
-
-# Lower Lusatia, loyal to Sigismund
-zones.llusatia-1420.name: "Sigismund’a bağlı Aşağı Lusatya"
-
-# Lower Lusatia, held by Matthias Corvinus from 1469
-zones.llusatia-1469.name: "1469’dan sonra Matthias Corvinus’un elindeki Aşağı Lusatya"
+# Margraviates of Upper and Lower Lusatia, under the Bohemian crown
+zones.lusatia-1400.name: "Bohemya tacına bağlı Yukarı ve Aşağı Lusatya uçbeylikleri"
 
 # Margraviate of Moravia
 zones.moravia-1400.name: "Moravya Uçbeyliği"
-
-# Moravia, mostly loyal to Sigismund, under Albert of Austria from 1423, with some Hussite towns
-zones.moravia-1420.name: "Çoğunlukla Sigismund’a bağlı Moravya, 1423’ten sonra Avusturyalı Albrecht’in yönetiminde, birkaç Husçu şehirle"
-
-# Moravia, held by Matthias Corvinus from 1469
-zones.moravia-1469.name: "1469’dan sonra Matthias Corvinus’un elindeki Moravya"
-
-# The Neumark, held by the Teutonic Order 1402–1455
-zones.neumark-1410.name: "Töton Şövalyeleri Tarikatı’nın elindeki Neumark, 1402–1455"
 
 # The Orebites of Hradec Králové, 1420
 zones.oreb-1420.name: "Hradec Králové’nin Orebçileri, 1420"
@@ -125,6 +110,9 @@ zones.orphans-1434.name: "Sahra ordularıyla birlikte Yetimlerin şehirleri, 143
 # Kingdom of Poland
 zones.poland-1400.name: "Polonya Krallığı"
 
+# Kingdom of Poland, with the Grand Duchy of Lithuania in union with it
+zones.poland-lithuania-1400.name: "Polonya Krallığı ve onunla birlik içindeki Litvanya Büyük Dükalığı"
+
 # Prague and the Hussite towns allied with it, 1420
 zones.prague-1420.name: "Prag ve onunla birleşen Husçu şehirler, 1420"
 
@@ -140,35 +128,29 @@ zones.prague-1426.name: "Prag ve Prag birliğinin şehirleri, 1425–1433"
 # The lords’ league and the Old Town of Prague, May 1434
 zones.prague-1434.name: "Soylular birliği ve Prag Eski Şehri, Mayıs 1434"
 
-# Bohemia loyal to Sigismund or not yet committed, 1420: Plzeň, Kutná Hora, the Rožmberk lands and the royal castles
-zones.royal-1420.name: "Sigismund’a bağlı ya da henüz taraf tutmamış Bohemya, 1420: Plzeň, Kutná Hora, Rožmberk toprakları ve kraliyet kaleleri"
+# Lands loyal to Sigismund or not yet committed, 1420: Plzeň, Kutná Hora, the Rožmberk lands and the royal castles in Bohemia, with Moravia, Silesia and the Lusatias
+zones.royal-1420.name: "Sigismund’a bağlı ya da henüz taraf tutmamış topraklar, 1420: Bohemya’da Plzeň, Kutná Hora, Rožmberk toprakları ve kraliyet kaleleri, ayrıca Moravya, Silezya ve Lusatyalar"
 
-# Bohemia loyal to Sigismund, late 1420: Plzeň, Kutná Hora, the Rožmberk lands and the royal castles
-zones.royal-1420b.name: "Sigismund’a bağlı Bohemya, 1420 sonu: Plzeň, Kutná Hora, Rožmberk toprakları ve kraliyet kaleleri"
+# Lands loyal to Sigismund, late 1420: Plzeň, Kutná Hora, the Rožmberk lands and the royal castles in Bohemia, with Moravia, Silesia and the Lusatias
+zones.royal-1420b.name: "Sigismund’a bağlı topraklar, 1420 sonu: Bohemya’da Plzeň, Kutná Hora, Rožmberk toprakları ve kraliyet kaleleri, ayrıca Moravya, Silezya ve Lusatyalar"
 
-# Bohemia loyal to Sigismund, 1421: the Plzeň Landfrieden, the Rožmberk lands, Most, Karlštejn and other castles
-zones.royal-1421.name: "Sigismund’a bağlı Bohemya, 1421: Plzeň Landfrieden’i, Rožmberk toprakları, Most, Karlštejn ve öteki kaleler"
+# Lands loyal to Sigismund, 1421: the Plzeň Landfrieden, the Rožmberk lands, Most, Karlštejn and other castles in Bohemia, with Moravia, Silesia and the Lusatias
+zones.royal-1421.name: "Sigismund’a bağlı topraklar, 1421: Bohemya’da Plzeň Landfrieden’i, Rožmberk toprakları, Most, Karlštejn ve öteki kaleler, ayrıca Moravya, Silezya ve Lusatyalar"
 
-# Bohemia of the royalist and Utraquist lords, 1422–1424: Plzeň, the Rožmberk lands and the lords of eastern Bohemia
-zones.royal-1423.name: "Kralcı ve Utrakist soyluların Bohemya’sı, 1422–1424: Plzeň, Rožmberk toprakları ve Doğu Bohemya soyluları"
+# Lands of the royalist and Utraquist lords, 1422–1424: Plzeň, the Rožmberk lands and the lords of eastern Bohemia, with Moravia under Albert of Austria from 1423, Silesia and the Lusatias
+zones.royal-1423.name: "Kralcı ve Utrakist soyluların toprakları, 1422–1424: Plzeň, Rožmberk toprakları ve Doğu Bohemya soyluları, ayrıca 1423’ten sonra Avusturyalı Albrecht’in yönetimindeki Moravya, Silezya ve Lusatyalar"
 
-# Bohemia loyal to Sigismund, 1425–1433: the Plzeň Landfrieden, the Rožmberk lands, Most, Karlštejn and other castles
-zones.royal-1426.name: "Sigismund’a bağlı Bohemya, 1425–1433: Plzeň Landfrieden’i, Rožmberk toprakları, Most, Karlštejn ve öteki kaleler"
+# Lands loyal to Sigismund, 1425–1433: the Plzeň Landfrieden, the Rožmberk lands, Most, Karlštejn and other castles in Bohemia, with Moravia under Albert of Austria, Silesia and the Lusatias
+zones.royal-1426.name: "Sigismund’a bağlı topraklar, 1425–1433: Bohemya’da Plzeň Landfrieden’i, Rožmberk toprakları, Most, Karlštejn ve öteki kaleler, ayrıca Avusturyalı Albrecht’in yönetimindeki Moravya, Silezya ve Lusatyalar"
 
-# Plzeň, the Rožmberk lands and the royal castles, with the lords’ league in 1434
-zones.royal-1434.name: "1434’te soylular birliğinin yanındaki Plzeň, Rožmberk toprakları ve kraliyet kaleleri"
+# Plzeň, the Rožmberk lands and the royal castles, with the lords’ league in 1434, and Moravia, Silesia and the Lusatias
+zones.royal-1434.name: "1434’te soylular birliğinin yanındaki Plzeň, Rožmberk toprakları ve kraliyet kaleleri, ayrıca Moravya, Silezya ve Lusatyalar"
 
-# Kingdom of Bohemia under Sigismund, from August 1436
-zones.royal-1436.name: "Ağustos 1436’dan sonra Sigismund’un Bohemya Krallığı"
+# Lands of the Bohemian crown under Sigismund, from August 1436
+zones.royal-1436.name: "Ağustos 1436’dan sonra Sigismund’un Bohemya tacı toprakları"
 
 # Duchies of Silesia, under the Bohemian crown
 zones.silesia-1400.name: "Bohemya tacına bağlı Silezya dükalıkları"
-
-# Duchies of Silesia, loyal to Sigismund
-zones.silesia-1420.name: "Sigismund’a bağlı Silezya dükalıkları"
-
-# Silesia, held by Matthias Corvinus from 1469
-zones.silesia-1469.name: "1469’dan sonra Matthias Corvinus’un elindeki Silezya"
 
 # Tábor, Písek and the country around them, 1420
 zones.tabor-1420.name: "Tábor, Písek ve çevreleri, 1420"
@@ -176,35 +158,26 @@ zones.tabor-1420.name: "Tábor, Písek ve çevreleri, 1420"
 # Tábor and the towns of the south it holds by the end of 1420
 zones.tabor-1420b.name: "1420 sonunda Tábor ve elindeki güney şehirleri"
 
-# Tábor and the towns of the south, 1421
-zones.tabor-1421.name: "Tábor ve güney şehirleri, 1421"
+# Tábor and the towns of the south, with Klatovy, Domažlice and Sušice in the west, 1421
+zones.tabor-1421.name: "Tábor ve güney şehirleri, batıda Klatovy, Domažlice ve Sušice ile, 1421"
 
-# Tábor and the towns of the south, 1423–1424
-zones.tabor-1423.name: "Tábor ve güney şehirleri, 1423–1424"
+# Tábor and the towns of the south, with Klatovy, Domažlice and Sušice in the west, 1423–1424
+zones.tabor-1423.name: "Tábor ve güney şehirleri, batıda Klatovy, Domažlice ve Sušice ile, 1423–1424"
 
-# The Tábor union in the south, 1425–1433
-zones.tabor-1426.name: "Güneydeki Tábor birliği, 1425–1433"
+# The Tábor union, 1425–1433: the towns of the south, and in the west Klatovy, Domažlice, Sušice, Stříbro from 1426 and Tachov from 1427
+zones.tabor-1426.name: "Tábor birliği, 1425–1433: güney şehirleri, batıda Klatovy, Domažlice, Sušice, 1426’dan sonra Stříbro ve 1427’den sonra Tachov"
 
-# The Tábor union, with the field armies, 1434
-zones.tabor-1434.name: "Sahra ordularıyla birlikte Tábor birliği, 1434"
+# The Tábor union with the field armies, 1434: the towns of the south, and in the west Klatovy, Domažlice, Sušice, Stříbro and Tachov
+zones.tabor-1434.name: "Sahra ordularıyla birlikte Tábor birliği, 1434: güney şehirleri, batıda Klatovy, Domažlice, Sušice, Stříbro ve Tachov"
 
 # Tábor, until it submits to Sigismund in 1436
 zones.tabor-1436.name: "1436’da Sigismund’a boyun eğene dek Tábor"
 
-# Towns of the Tábor union in the west: Klatovy, Domažlice, Sušice, Stříbro from 1426 and Tachov from 1427
-zones.taborwest-1426.name: "Tábor birliğinin batıdaki şehirleri: Klatovy, Domažlice, Sušice, 1426’dan sonra Stříbro ve 1427’den sonra Tachov"
-
 # State of the Teutonic Order in Prussia
 zones.teutonic-1400.name: "Prusya’daki Töton Şövalyeleri Tarikatı Devleti"
 
-# Upper Lusatia, under the Bohemian crown
-zones.ulusatia-1400.name: "Bohemya tacına bağlı Yukarı Lusatya"
-
-# Upper Lusatia, loyal to Sigismund
-zones.ulusatia-1420.name: "Sigismund’a bağlı Yukarı Lusatya"
-
-# Upper Lusatia, held by Matthias Corvinus from 1469
-zones.ulusatia-1469.name: "1469’dan sonra Matthias Corvinus’un elindeki Yukarı Lusatya"
+# State of the Teutonic Order in Prussia, with the Neumark 1402–1455
+zones.teutonic-1410.name: "Prusya’daki Töton Şövalyeleri Tarikatı Devleti, 1402–1455 arasında Neumark ile"
 
 # The union of Žatec and Louny, 1425–1433
 zones.zatec-1426.name: "Žatec ve Louny birliği, 1425–1433"

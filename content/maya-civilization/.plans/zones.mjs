@@ -1,5 +1,6 @@
 // The political map: zones for the strategic pages, written to shared/zones/, with the page map in .plans/zones.yaml
-// and the Turkish names in .i18n-parts/zones.tr.yaml. Run from the story folder: node .plans/zones.mjs
+// and the Turkish names in .i18n-parts/zones.tr.yaml. A zone that repeats an earlier zone's outline goes into
+// shared/zones.yaml under its own name and family. Run from the story folder: node .plans/zones.mjs
 // Classic kingdoms had no fixed borders: each is a rounded area around its capital, with open land between kingdoms.
 // From the Postclassic on, the land is cut into pieces, each the Voronoi cells of a few seed points (towns of one
 // province or people), so neighbouring pieces share one exact border. A zone joins pieces and reaches into the sea,
@@ -11,6 +12,7 @@ import { createRequire } from 'module';
 import * as turf from '@turf/turf';
 import * as ts from 'topojson-server';
 import * as tc from 'topojson-client';
+import * as yaml from 'js-yaml';
 
 const require = createRequire(import.meta.url);
 const story = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -186,8 +188,10 @@ const split = (pts, step) => pts.flatMap((p, i) => {
   topo.arcs = arcs.map(arc => thin(arc));
   for (const f of tc.feature(topo, topo.objects.pieces).features) PIECE[f.properties.piece] = turf.feature(f.geometry);
 }
+// P joins pieces into one area, M into a state whose land lies in parts
+const M = (...names) => U(names.map(n => PIECE[n] ?? (() => { throw new Error(`no piece ${n}`); })()));
 const P = (...names) => {
-  const g = U(names.map(n => PIECE[n] ?? (() => { throw new Error(`no piece ${n}`); })()));
+  const g = M(...names);
   if (g.geometry.type !== 'Polygon') throw new Error(`pieces ${names.join(', ')} do not join`);
   return g;
 };
@@ -219,104 +223,108 @@ const zone = (id, family, en, tr, geometry, clip) => {
   Z[id] = { family, en, tr, geometry, clip };
 };
 
-zone('mirador-300bc', 'kingdom', 'El Mirador and the cities of the Mirador Basin', 'El Mirador ve Mirador Havzası kentleri', K.mirador);
+// Each Classic kingdom is a family of its own. A kingdom in the Kaanul or the Tikal alliance takes that side's colour
+// with its own pattern, and a kingdom that changes sides has a family for each side, such as naranjo-kaanul.
+zone('mirador-300bc', 'mirador', 'El Mirador and the cities of the Mirador Basin', 'El Mirador ve Mirador Havzası kentleri', K.mirador);
 zone('tikal-300', 'tikal', 'Kingdom of Tikal (Mutul)', 'Tikal Krallığı (Mutul)', K.tikal300);
-zone('uaxactun-300', 'kingdom', 'Uaxactun', 'Uaxactun', K.uaxactun);
+zone('uaxactun-300', 'uaxactun', 'Uaxactun', 'Uaxactun', K.uaxactun);
 zone('teotihuacan-378', 'nahua', 'Teotihuacan and its valley', 'Teotihuacan ve vadisi', K.teotihuacan);
 zone('tikal-378', 'tikal', 'Tikal and Uaxactun, taken by Siyaj K\'ak\' in 378', 'Tikal ve Uaxactun, 378’de Siyaj K\'ak’ın eline geçti', K.tikal);
-zone('el-peru-378', 'tikal', 'El Perú (Waka\'), allied with Tikal', 'El Perú (Waka\'), Tikal’in müttefiki', K.elPeru);
+zone('el-peru-378', 'el-peru-tikal', 'El Perú (Waka\'), allied with Tikal', 'El Perú (Waka\'), Tikal’in müttefiki', K.elPeru);
 zone('tikal-426', 'tikal', 'Kingdom of Tikal (Mutul)', 'Tikal Krallığı (Mutul)', K.tikal);
-zone('copan-426', 'tikal', 'Copán, refounded from Tikal in 426', 'Copán, 426’da Tikal’den yeniden kuruldu', K.copan);
-zone('quirigua-426', 'tikal', 'Quiriguá, vassal of Copán', 'Quiriguá, Copán’a bağlı', K.quirigua);
+zone('copan-426', 'copan', 'Copán, refounded from Tikal in 426', 'Copán, 426’da Tikal’den yeniden kuruldu', K.copan);
+zone('quirigua-426', 'quirigua-tikal', 'Quiriguá, vassal of Copán', 'Quiriguá, Copán’a bağlı', K.quirigua);
 zone('kaanul-550', 'kaanul', 'Kaanul kingdom of Dzibanche', 'Dzibanche merkezli Kaanul Krallığı', K.kaanulDzibanche);
-zone('naranjo-546', 'kaanul', 'Naranjo, subject to the Kaanul from 546', 'Naranjo, 546’dan itibaren Kaanul’a bağlı', K.naranjo);
-zone('caracol-553', 'tikal', 'Caracol, allied with Tikal in 553', 'Caracol, 553’te Tikal’in müttefiki', K.caracol);
-zone('el-peru-550', 'kingdom', 'El Perú (Waka\')', 'El Perú (Waka\')', K.elPeru);
-zone('la-corona-550', 'kingdom', 'La Corona (Sak Nikte\')', 'La Corona (Sak Nikte\')', K.laCorona);
-zone('caracol-562', 'kaanul', 'Caracol, allied with the Kaanul', 'Caracol, Kaanul’un müttefiki', K.caracol);
+zone('naranjo-546', 'naranjo-kaanul', 'Naranjo, subject to the Kaanul from 546', 'Naranjo, 546’dan itibaren Kaanul’a bağlı', K.naranjo);
+zone('caracol-553', 'caracol-tikal', 'Caracol, allied with Tikal in 553', 'Caracol, 553’te Tikal’in müttefiki', K.caracol);
+zone('el-peru-550', 'el-peru', 'El Perú (Waka\')', 'El Perú (Waka\')', K.elPeru);
+zone('la-corona-550', 'la-corona', 'La Corona (Sak Nikte\')', 'La Corona (Sak Nikte\')', K.laCorona);
+zone('caracol-562', 'caracol-kaanul', 'Caracol, allied with the Kaanul', 'Caracol, Kaanul’un müttefiki', K.caracol);
 zone('kaanul-599', 'kaanul', 'Kaanul kingdom of Dzibanche and Calakmul', 'Dzibanche ve Calakmul’deki Kaanul Krallığı', K.kaanulBoth);
-zone('palenque-599', 'kingdom', 'Palenque (B\'aakal)', 'Palenque (B\'aakal)', K.palenque);
-zone('naranjo-626', 'kingdom', 'Naranjo, at war with Caracol', 'Naranjo, Caracol ile savaşta', K.naranjo);
+zone('palenque-599', 'palenque', 'Palenque (B\'aakal)', 'Palenque (B\'aakal)', K.palenque);
+zone('naranjo-626', 'naranjo', 'Naranjo, at war with Caracol', 'Naranjo, Caracol ile savaşta', K.naranjo);
 zone('kaanul-636', 'kaanul', 'Kaanul kingdom of Calakmul', 'Calakmul merkezli Kaanul Krallığı', K.kaanulCalakmul);
-zone('palenque-650', 'tikal', 'Palenque under Pakal, allied with Tikal', 'Pakal yönetiminde Palenque, Tikal’in müttefiki', K.palenque);
-zone('tonina-650', 'kingdom', 'Toniná', 'Toniná', K.tonina);
-zone('piedras-negras-650', 'kingdom', 'Piedras Negras (Yokib)', 'Piedras Negras (Yokib)', K.piedrasNegras);
-zone('dos-pilas-648', 'kaanul', 'Dos Pilas, subject to the Kaanul from 648', 'Dos Pilas, 648’den itibaren Kaanul’a bağlı', K.dosPilas);
-zone('el-peru-650', 'kaanul', 'El Perú (Waka\'), allied with the Kaanul', 'El Perú (Waka\'), Kaanul’un müttefiki', K.elPeru);
-zone('la-corona-650', 'kaanul', 'La Corona (Sak Nikte\'), allied with the Kaanul', 'La Corona (Sak Nikte\'), Kaanul’un müttefiki', K.laCorona);
-zone('naranjo-650', 'kaanul', 'Naranjo, subject to the Kaanul', 'Naranjo, Kaanul’a bağlı', K.naranjo);
-zone('cancuen-656', 'kaanul', 'Cancuén, subject to the Kaanul', 'Cancuén, Kaanul’a bağlı', K.cancuen);
-zone('naranjo-682', 'kaanul', 'Naranjo under Lady Six Sky, allied with the Kaanul', 'Lady Six Sky yönetiminde Naranjo, Kaanul’un müttefiki', K.naranjo);
-zone('yaxchilan-700', 'kingdom', 'Yaxchilan (Pa\' Chan)', 'Yaxchilan (Pa\' Chan)', K.yaxchilan);
-zone('copan-738', 'tikal', 'Copán, an old ally of Tikal', 'Copán, Tikal’in eski müttefiki', K.copan);
-zone('quirigua-738', 'kaanul', 'Quiriguá, backed by Calakmul', 'Quiriguá, Calakmul’un desteğiyle', K.quirigua);
-zone('el-peru-743', 'kaanul', 'El Perú, Kaanul ally, defeated in 743', 'El Perú, Kaanul’un müttefiki, 743’te yenildi', K.elPeru);
-zone('naranjo-744', 'kaanul', 'Naranjo, Kaanul ally, defeated in 744', 'Naranjo, Kaanul’un müttefiki, 744’te yenildi', K.naranjo);
-zone('aguateca-761', 'kingdom', 'Aguateca, seat of the Dos Pilas kings after 761', 'Aguateca, 761’den sonra Dos Pilas krallarının merkezi', K.aguateca);
-zone('seibal-770', 'kingdom', 'Seibal', 'Seibal', K.seibal);
-zone('cancuen-770', 'kingdom', 'Cancuén', 'Cancuén', K.cancuen);
-zone('bonampak-790', 'kingdom', 'Bonampak, under Yaxchilan', 'Bonampak, Yaxchilan’a bağlı', K.bonampak);
-zone('uxmal-900', 'kingdom', 'Uxmal and the Puuc cities', 'Uxmal ve Puuc kentleri', K.uxmal);
-zone('chichen-900', 'mayapan', 'Chichen Itza', 'Chichen Itza', K.chichen);
-zone('ek-balam-900', 'kingdom', 'Ek\' Balam', 'Ek\' Balam', K.ekBalam);
-zone('coba-900', 'kingdom', 'Coba', 'Coba', K.coba);
-zone('chichen-1000', 'mayapan', 'Chichen Itza and its domain', 'Chichen Itza ve egemenlik alanı', K.chichenDomain);
-zone('coba-1000', 'kingdom', 'Coba, in decline', 'Coba, gerilemekte', K.coba1000);
+zone('palenque-650', 'palenque-tikal', 'Palenque under Pakal, allied with Tikal', 'Pakal yönetiminde Palenque, Tikal’in müttefiki', K.palenque);
+zone('tonina-650', 'tonina', 'Toniná', 'Toniná', K.tonina);
+zone('piedras-negras-650', 'piedras-negras', 'Piedras Negras (Yokib)', 'Piedras Negras (Yokib)', K.piedrasNegras);
+zone('dos-pilas-648', 'dos-pilas', 'Dos Pilas, subject to the Kaanul from 648', 'Dos Pilas, 648’den itibaren Kaanul’a bağlı', K.dosPilas);
+zone('el-peru-650', 'el-peru-kaanul', 'El Perú (Waka\'), allied with the Kaanul', 'El Perú (Waka\'), Kaanul’un müttefiki', K.elPeru);
+zone('la-corona-650', 'la-corona-kaanul', 'La Corona (Sak Nikte\'), allied with the Kaanul', 'La Corona (Sak Nikte\'), Kaanul’un müttefiki', K.laCorona);
+zone('naranjo-650', 'naranjo-kaanul', 'Naranjo, subject to the Kaanul', 'Naranjo, Kaanul’a bağlı', K.naranjo);
+zone('cancuen-656', 'cancuen-kaanul', 'Cancuén, subject to the Kaanul', 'Cancuén, Kaanul’a bağlı', K.cancuen);
+zone('naranjo-682', 'naranjo-kaanul', 'Naranjo under Lady Six Sky, allied with the Kaanul', 'Lady Six Sky yönetiminde Naranjo, Kaanul’un müttefiki', K.naranjo);
+zone('yaxchilan-700', 'yaxchilan', 'Yaxchilan (Pa\' Chan)', 'Yaxchilan (Pa\' Chan)', K.yaxchilan);
+zone('copan-738', 'copan', 'Copán, an old ally of Tikal', 'Copán, Tikal’in eski müttefiki', K.copan);
+zone('quirigua-738', 'quirigua-kaanul', 'Quiriguá, backed by Calakmul', 'Quiriguá, Calakmul’un desteğiyle', K.quirigua);
+zone('el-peru-743', 'el-peru-kaanul', 'El Perú, Kaanul ally, defeated in 743', 'El Perú, Kaanul’un müttefiki, 743’te yenildi', K.elPeru);
+zone('naranjo-744', 'naranjo-kaanul', 'Naranjo, Kaanul ally, defeated in 744', 'Naranjo, Kaanul’un müttefiki, 744’te yenildi', K.naranjo);
+zone('aguateca-761', 'aguateca', 'Aguateca, seat of the Dos Pilas kings after 761', 'Aguateca, 761’den sonra Dos Pilas krallarının merkezi', K.aguateca);
+zone('seibal-770', 'seibal', 'Seibal', 'Seibal', K.seibal);
+zone('cancuen-770', 'cancuen', 'Cancuén', 'Cancuén', K.cancuen);
+zone('bonampak-790', 'bonampak', 'Bonampak, under Yaxchilan', 'Bonampak, Yaxchilan’a bağlı', K.bonampak);
+zone('uxmal-900', 'uxmal', 'Uxmal and the Puuc cities', 'Uxmal ve Puuc kentleri', K.uxmal);
+zone('chichen-900', 'chichen', 'Chichen Itza', 'Chichen Itza', K.chichen);
+zone('ek-balam-900', 'ek-balam', 'Ek\' Balam', 'Ek\' Balam', K.ekBalam);
+zone('coba-900', 'coba', 'Coba', 'Coba', K.coba);
+zone('chichen-1000', 'chichen', 'Chichen Itza and its domain', 'Chichen Itza ve egemenlik alanı', K.chichenDomain);
+zone('coba-1000', 'coba', 'Coba, in decline', 'Coba, gerilemekte', K.coba1000);
 
 zone('mayapan-1300', 'mayapan', 'League of Mayapan', 'Mayapan Birliği', P(...NORTH));
 zone('mani-1500', 'xiu', 'Maní, under the Tutul Xiu', 'Maní, Tutul Xiu yönetiminde', P('mani'));
-zone('canul-1500', 'xiu', 'Ah Canul and Chakan', 'Ah Canul ve Chakan', P('ahcanul', 'chakan'));
-zone('pech-1500', 'xiu', 'Ceh Pech, Ah Kin Chel and Hocaba', 'Ceh Pech, Ah Kin Chel ve Hocaba', P('cehpech', 'ahkinchel', 'hocaba'));
+zone('canul-1500', 'canul', 'Ah Canul and Chakan', 'Ah Canul ve Chakan', P('ahcanul', 'chakan'));
+zone('pech-1500', 'pech', 'Ceh Pech, Ah Kin Chel and Hocaba', 'Ceh Pech, Ah Kin Chel ve Hocaba', P('cehpech', 'ahkinchel', 'hocaba'));
 zone('sotuta-1500', 'cocom', 'Sotuta, under the Cocom', 'Sotuta, Cocom yönetiminde', P('sotuta'));
-zone('cupul-1500', 'eastern', 'Cupul', 'Cupul', P('cupul'));
-zone('chikinchel-1500', 'eastern', 'Chikinchel and Tazes', 'Chikinchel ve Tazes', P('chikinchel', 'tazes'));
-zone('ecab-1500', 'eastern', 'Ecab and Cozumel', 'Ecab ve Cozumel', P('ecab', 'cozumel'));
-zone('cochuah-1500', 'eastern', 'Cochuah and Uaymil', 'Cochuah ve Uaymil', P('cochuah', 'uaymil'));
-zone('chetumal-1500', 'eastern', 'Chetumal', 'Chetumal', P('chetumal'));
-zone('campeche-1500', 'chontal', 'Can Pech and Champotón', 'Can Pech ve Champotón', P('canpech', 'champoton'));
-zone('acalan-1500', 'chontal', 'Acalan', 'Acalan', P('acalan'));
+zone('cupul-1500', 'cupul', 'Cupul', 'Cupul', P('cupul'));
+zone('chikinchel-1500', 'chikinchel', 'Chikinchel and Tazes', 'Chikinchel ve Tazes', P('chikinchel', 'tazes'));
+zone('ecab-1500', 'ecab', 'Ecab and Cozumel', 'Ecab ve Cozumel', P('ecab', 'cozumel'));
+zone('cochuah-1500', 'cochuah', 'Cochuah and Uaymil', 'Cochuah ve Uaymil', P('cochuah', 'uaymil'));
+zone('chetumal-1500', 'chetumal', 'Chetumal', 'Chetumal', P('chetumal'));
+zone('canpech-1500', 'canpech', 'Can Pech (Campeche)', 'Can Pech (Campeche)', P('canpech'));
+zone('champoton-1500', 'champoton', 'Champotón (Chakan Putum)', 'Champotón (Chakan Putum)', P('champoton'));
+zone('acalan-1500', 'acalan', 'Acalan', 'Acalan', P('acalan'));
 zone('itza-1500', 'itza', 'Itza kingdom of Nojpetén', 'Nojpetén merkezli Itza Krallığı', P('itza', 'presidio'));
 
 zone('cuba-1511', 'spain', 'Spanish Cuba, from 1511', 'İspanyol Küba’sı, 1511’den itibaren', cuba);
-zone('xiu-1517', 'xiu', 'Ah Canul, Chakan, Ceh Pech, Ah Kin Chel and Hocaba', 'Ah Canul, Chakan, Ceh Pech, Ah Kin Chel ve Hocaba',
+// the western provinces as one zone on the pages whose texts do not name them
+zone('xiu-1517', 'western', 'Ah Canul, Chakan, Ceh Pech, Ah Kin Chel and Hocaba', 'Ah Canul, Chakan, Ceh Pech, Ah Kin Chel ve Hocaba',
   P('ahcanul', 'chakan', 'cehpech', 'ahkinchel', 'hocaba'));
-zone('ecab-1517', 'eastern', 'Ecab', 'Ecab', P('ecab'));
-zone('cozumel-1517', 'eastern', 'Cozumel', 'Cozumel', P('cozumel'));
-zone('canpech-1517', 'chontal', 'Can Pech (Campeche)', 'Can Pech (Campeche)', P('canpech'));
-zone('champoton-1517', 'chontal', 'Champotón (Chakan Putum)', 'Champotón (Chakan Putum)', P('champoton'));
+zone('ecab-1517', 'ecab', 'Ecab', 'Ecab', P('ecab'));
+zone('cozumel-1517', 'cozumel', 'Cozumel', 'Cozumel', P('cozumel'));
 zone('potonchan-1517', 'chontal', 'Potonchán and the Chontal of Tabasco', 'Potonchán ve Tabasco Chontalları', P('potonchan'));
 
 zone('spain-1531', 'spain', 'Campeche and Champotón, Montejo’s base, 1531 – 1535', 'Campeche ve Champotón, Montejo’nun üssü, 1531 – 1535', P('canpech', 'champoton'));
 zone('spain-1542', 'spain', 'Spanish Yucatán, 1542', 'İspanyol Yucatán’ı, 1542', P('canpech', 'champoton', 'ahcanul', 'chakan'));
 zone('mani-1542', 'xiu', 'Maní, allied with Spain from 1542', 'Maní, 1542’den itibaren İspanya’nın müttefiki', P('mani'));
-zone('spain-1546', 'spain', 'Spanish Yucatán, 1546', 'İspanyol Yucatán’ı, 1546', P('canpech', 'champoton', 'ahcanul', 'chakan', 'cehpech', 'ahkinchel', 'hocaba'));
-zone('ecab-1546', 'spain', 'Ecab and Cozumel, under Spanish rule', 'Ecab ve Cozumel, İspanyol yönetiminde', P('ecab', 'cozumel'));
+zone('spain-1546', 'spain', 'Spanish Yucatán, with Ecab and Cozumel, 1546', 'Ecab ve Cozumel ile İspanyol Yucatán’ı, 1546',
+  M('canpech', 'champoton', 'ahcanul', 'chakan', 'cehpech', 'ahkinchel', 'hocaba', 'ecab', 'cozumel'));
 zone('sotuta-1546', 'cocom', 'Sotuta, in revolt from November 1546', 'Sotuta, Kasım 1546’dan itibaren ayaklanmada', P('sotuta'));
-zone('revolt-1546', 'eastern', 'Cupul, Cochuah, Tazes, Chikinchel, Uaymil and Chetumal, in revolt', 'Ayaklanan Cupul, Cochuah, Tazes, Chikinchel, Uaymil ve Chetumal',
-  P('cupul', 'cochuah', 'tazes', 'chikinchel', 'uaymil', 'chetumal'));
+zone('cupul-1546', 'cupul', 'Cupul, in revolt', 'Cupul, ayaklanmada', P('cupul'));
+zone('chikinchel-1546', 'chikinchel', 'Chikinchel and Tazes, in revolt', 'Chikinchel ve Tazes, ayaklanmada', P('chikinchel', 'tazes'));
+zone('cochuah-1546', 'cochuah', 'Cochuah and Uaymil, in revolt', 'Cochuah ve Uaymil, ayaklanmada', P('cochuah', 'uaymil'));
+zone('chetumal-1546', 'chetumal', 'Chetumal, in revolt', 'Chetumal, ayaklanmada', P('chetumal'));
 zone('spain-1562', 'spain', 'Spanish Yucatán', 'İspanyol Yucatán’ı', P(...YUCATAN.filter(p => p !== 'mani')));
 zone('mani-1562', 'xiu', 'Maní, the Xiu province under Spanish rule', 'Maní, İspanyol yönetiminde Xiu eyaleti', P('mani'));
 
 zone('new-spain-1524', 'spain', 'New Spain, to Soconusco', 'Soconusco’ya kadar Yeni İspanya', P('central', 'chiapasCoast', 'xoconochco'));
-zone('kejache-1525', 'lowland', 'Kejache', 'Kejache', P('kejache'));
-zone('kowoj-1525', 'itza', 'Kowoj', 'Kowoj', P('kowoj'));
-zone('lakandon-1525', 'lowland', 'Lakandon Ch\'ol', 'Lakandon Ch\'olleri', P('lakandon'));
-zone('manche-1525', 'lowland', 'Manche Ch\'ol', 'Manche Ch\'olleri', P('manche'));
-zone('yucatan-1618', 'spain', 'Spanish Yucatán and Tabasco', 'İspanyol Yucatán’ı ve Tabasco', P(...YUCATAN, 'acalan', 'potonchan'));
-zone('guatemala-1618', 'spain', 'Spanish Guatemala, Chiapas and Verapaz', 'İspanyol Guatemala’sı, Chiapas ve Verapaz', P(...HIGHLANDS));
-zone('peten-1697', 'spain', 'Spanish garrison at Nojpetén, from 1697', 'Nojpetén’deki İspanyol garnizonu, 1697’den itibaren', P('presidio'));
+zone('kejache-1525', 'kejache', 'Kejache', 'Kejache', P('kejache'));
+zone('kowoj-1525', 'kowoj', 'Kowoj', 'Kowoj', P('kowoj'));
+zone('chol-1525', 'chol', 'Lakandon and Manche Ch\'ol', 'Lakandon ve Manche Ch\'olleri', M('lakandon', 'manche'));
+const SPAIN_1618 = [...YUCATAN, 'acalan', 'potonchan', ...HIGHLANDS];
+zone('spain-1618', 'spain', 'Spanish Yucatán, Tabasco, Guatemala and Chiapas', 'İspanyol Yucatán’ı, Tabasco, Guatemala ve Chiapas', M(...SPAIN_1618));
+zone('spain-1697', 'spain', 'Spanish Yucatán and Guatemala, with the garrison at Nojpetén from 1697',
+  'İspanyol Yucatán’ı ve Guatemala’sı, 1697’den itibaren Nojpetén garnizonuyla', M(...SPAIN_1618, 'presidio'));
 zone('itza-1697', 'itza', 'Itza, still unconquered', 'Henüz boyun eğmemiş Itzalar', P('itza'));
 
 zone('kiche-1450', 'kiche', 'K\'iche\' kingdom under K\'iq\'ab', 'K\'iq\'ab yönetiminde K\'iche\' Krallığı',
   P('kiche', 'xelaju', 'kicheCoast', 'mamSouth', 'kaqchikel', 'sacapulas', 'achi', 'verapaz'));
-zone('tzutujil-1450', 'highland', 'Tz\'utujil kingdom of Atitlan', 'Atitlan merkezli Tz\'utujil Krallığı', P('tzutujil'));
+zone('tzutujil-1450', 'tzutujil', 'Tz\'utujil kingdom of Atitlan', 'Atitlan merkezli Tz\'utujil Krallığı', P('tzutujil'));
 zone('mam-1450', 'highland', 'Mam kingdom of Zaculeu', 'Zaculeu merkezli Mam Krallığı', P('mam'));
-zone('poqomam-1450', 'highland', 'Poqomam', 'Poqomamlar', P('poqomam'));
+zone('poqomam-1450', 'poqomam', 'Poqomam', 'Poqomamlar', P('poqomam'));
 zone('kiche-1500', 'kiche', 'K\'iche\' kingdom of Q\'umarkaj', 'Q\'umarkaj merkezli K\'iche\' Krallığı', P('kiche', 'xelaju', 'kicheCoast', 'mamSouth', 'sacapulas'));
 zone('kaqchikel-1500', 'kaqchikel', 'Kaqchikel kingdom of Iximche', 'Iximche merkezli Kaqchikel Krallığı', P('kaqchikel'));
 zone('xoconochco-1500', 'nahua', 'Xoconochco, Aztec province from 1486', 'Xoconochco, 1486’dan itibaren Aztek eyaleti', P('xoconochco'));
-zone('pipil-1500', 'nahua', 'Pipil of Izcuintepeque (Panatacat)', 'Izcuintepeque (Panatacat) Pipilleri', P('pipilIzc'));
-zone('cuzcatlan-1500', 'nahua', 'Pipil of Cuzcatlan', 'Cuzcatlan Pipilleri', P('pipilCuz'));
+zone('pipil-1500', 'pipil', 'Pipil of Izcuintepeque (Panatacat)', 'Izcuintepeque (Panatacat) Pipilleri', P('pipilIzc'));
+zone('cuzcatlan-1500', 'cuzcatlan', 'Pipil of Cuzcatlan', 'Cuzcatlan Pipilleri', P('pipilCuz'));
 zone('spain-1524', 'spain', 'New Spain, with the K\'iche\' lands taken in 1524', 'Yeni İspanya ve 1524’te alınan K\'iche\' toprakları',
   P('central', 'chiapasCoast', 'xoconochco', 'kiche', 'xelaju', 'kicheCoast', 'mamSouth', 'sacapulas'));
 zone('kaqchikel-1524', 'kaqchikel', 'Kaqchikel of Iximche, allied with Alvarado', 'Iximche Kaqchikelleri, Alvarado’nun müttefiki', P('kaqchikel'));
@@ -331,10 +339,10 @@ zone('britain-1860', 'britain', 'British Honduras', 'İngiliz Hondurası', brita
 
 // --- which strategic page shows which zones, in legend order; close battle views and phase pages show none ---
 const SET_1500 = ['mani-1500', 'canul-1500', 'pech-1500', 'sotuta-1500', 'cupul-1500', 'chikinchel-1500', 'ecab-1500', 'cochuah-1500', 'chetumal-1500',
-  'campeche-1500', 'acalan-1500', 'itza-1500'];
+  'canpech-1500', 'champoton-1500', 'acalan-1500', 'itza-1500'];
 const SET_1517 = ['mani-1500', 'xiu-1517', 'sotuta-1500', 'cupul-1500', 'chikinchel-1500', 'ecab-1517', 'cozumel-1517', 'cochuah-1500', 'chetumal-1500',
-  'canpech-1517', 'champoton-1517'];
-const SET_1618 = ['yucatan-1618', 'guatemala-1618', 'itza-1500', 'kowoj-1525', 'kejache-1525', 'lakandon-1525', 'manche-1525'];
+  'canpech-1500', 'champoton-1500'];
+const SET_1618 = ['spain-1618', 'itza-1500', 'kowoj-1525', 'kejache-1525', 'chol-1525'];
 const PAGES = {
   mirador: ['mirador-300bc'],
   tikal: ['tikal-300', 'uaxactun-300'],
@@ -370,15 +378,15 @@ const PAGES = {
   atitlan: ['spain-1524', 'kaqchikel-1524', 'tzutujil-1450', 'mam-1450', 'poqomam-1450', 'pipil-1500', 'cuzcatlan-1500'],
   'iximche-revolt': ['guatemala-1524', 'kaqchikel-revolt', 'mam-1450', 'poqomam-1450', 'cuzcatlan-1500'],
   'montejo-1527': SET_1517,
-  'montejo-1531': ['spain-1531', 'mani-1500', 'xiu-1517', 'sotuta-1500', 'cupul-1500', 'chikinchel-1500', 'ecab-1517', 'cozumel-1517', 'cochuah-1500',
-    'chetumal-1500', 'acalan-1500'],
+  'montejo-1531': ['spain-1531', 'mani-1500', 'canul-1500', 'pech-1500', 'sotuta-1500', 'cupul-1500', 'chikinchel-1500', 'ecab-1517', 'cozumel-1517',
+    'cochuah-1500', 'chetumal-1500', 'acalan-1500'],
   tho: ['spain-1542', 'mani-1542', 'pech-1500', 'sotuta-1500', 'cupul-1500', 'chikinchel-1500', 'ecab-1517', 'cozumel-1517', 'cochuah-1500', 'chetumal-1500'],
-  'revolt-1546': ['spain-1546', 'ecab-1546', 'mani-1542', 'sotuta-1546', 'revolt-1546'],
+  'revolt-1546': ['spain-1546', 'mani-1542', 'sotuta-1546', 'cupul-1546', 'chikinchel-1546', 'cochuah-1546', 'chetumal-1546'],
   landa: ['spain-1562', 'mani-1562'],
-  'itza-kingdom': ['new-spain-1524', 'acalan-1500', 'kejache-1525', 'itza-1500', 'kowoj-1525', 'lakandon-1525', 'manche-1525'],
+  'itza-kingdom': ['new-spain-1524', 'acalan-1500', 'kejache-1525', 'itza-1500', 'kowoj-1525', 'chol-1525'],
   missions: SET_1618,
   'ursua-road': SET_1618,
-  'after-nojpeten': ['yucatan-1618', 'guatemala-1618', 'peten-1697', 'itza-1697', 'kowoj-1525'],
+  'after-nojpeten': ['spain-1697', 'itza-1697', 'kowoj-1525'],
   'caste-war': ['mexico-1860', 'cruzob-1860', 'britain-1860'],
 };
 
@@ -395,7 +403,8 @@ for (const [page, ids] of Object.entries(PAGES)) for (const [i, a] of ids.entrie
 }
 
 // --- shared borders carry the same points, every 0.1 degrees, so the build's rounding keeps them together ---
-const rings = g => g.geometry.coordinates;
+const rings = g => g.geometry.type === 'Polygon' ? g.geometry.coordinates : g.geometry.coordinates.flat();
+const mapRings = (g, fn) => g.geometry.type === 'Polygon' ? g.geometry.coordinates.map(fn) : g.geometry.coordinates.map(p => p.map(fn));
 function nodeZones(list) {
   const all = list.map(g => ({ g, bbox: turf.bbox(g), points: rings(g).flat() }));
   for (const t of all) {
@@ -431,18 +440,24 @@ const used = [...new Set(Object.values(PAGES).flat())];
 for (const id of Object.keys(Z)) if (!used.includes(id)) throw new Error(`zone ${id} is on no page`);
 const shapes = used.map(id => Z[id].geometry);
 nodeZones(shapes);
-for (const g of shapes) g.geometry.coordinates = rings(g).map(r => densify(r));
+for (const g of shapes) g.geometry.coordinates = mapRings(g, r => densify(r));
 
-// --- write the zones, the page map and the Turkish names ---
+// --- write the zones, the page map and the Turkish names. A zone with an earlier zone's outline goes into zones.yaml ---
 const r9 = x => Math.round(x * 1e9) / 1e9;
 const dir = path.join(story, 'shared', 'zones');
 fs.rmSync(dir, { recursive: true, force: true });
 fs.mkdirSync(dir, { recursive: true });
-for (const id of used) {
-  const z = Z[id], properties = { id, family: z.family, name: z.en, ...(z.clip ? { clip: z.clip } : {}) };
-  const coordinates = rings(z.geometry).map(r => r.map(p => p.map(r9)));
-  fs.writeFileSync(path.join(dir, id + '.geojson'), JSON.stringify({ type: 'Feature', properties, geometry: { type: 'Polygon', coordinates } }) + '\n');
+const drawn = new Map(), again = {};
+for (const id of Object.keys(Z)) {
+  const z = Z[id], geometry = { type: z.geometry.geometry.type, coordinates: mapRings(z.geometry, r => r.map(p => p.map(r9))) };
+  const first = drawn.get(JSON.stringify(geometry));
+  if (first) { again[id] = { zone: first, name: z.en, ...(z.family !== Z[first].family ? { family: z.family } : {}) }; continue; }
+  drawn.set(JSON.stringify(geometry), id);
+  const properties = { id, family: z.family, name: z.en, ...(z.clip ? { clip: z.clip } : {}) };
+  fs.writeFileSync(path.join(dir, id + '.geojson'), JSON.stringify({ type: 'Feature', properties, geometry }) + '\n');
 }
+fs.writeFileSync(path.join(story, 'shared', 'zones.yaml'), '# Zones that show the outline of another zone under their own name, for another year or another holder.\n'
+  + yaml.dump(Object.fromEntries(Object.keys(again).sort().map(id => [id, again[id]])), { flowLevel: 1, lineWidth: -1 }));
 fs.writeFileSync(path.join(story, '.plans', 'zones.yaml'), '# Zones per strategic page, written by .plans/zones.mjs. Close battle views and phase pages show none.\n'
   + Object.entries(PAGES).map(([p, ids]) => `${p}: [${ids.join(', ')}]`).join('\n') + '\n');
 fs.mkdirSync(path.join(story, '.i18n-parts'), { recursive: true });

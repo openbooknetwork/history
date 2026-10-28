@@ -20,7 +20,7 @@ const shipsMark = note => mark(-200, -510, 'The fleet', note, 'spain', 'ship');
 // --- overview: from Campeche to Champotón ---
 writePlan(`${G}/010-champoton`, {
   routes: {
-    'cordoba-champoton-1517': { name: 'Hernández de Córdoba sails on from Campeche to Champotón, 1517', path: [[-90.62, 19.88], [-90.76, 19.72], [-90.8, 19.52], [-90.79, 19.38], [-90.765, 19.345]] },
+    'cordoba-champoton-1517': { color: 'spain', name: 'Hernández de Córdoba sails on from Campeche to Champotón, 1517', path: [[-90.62, 19.88], [-90.76, 19.72], [-90.8, 19.52], [-90.79, 19.38], [-90.765, 19.345]] },
   },
   markers: {},
   show: ['campeche-1517'],

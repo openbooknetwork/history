@@ -1,5 +1,6 @@
-// The political map: one set of zones per period, written to shared/zones/, with the page map in .plans/zones.yaml
-// and the Turkish names in .i18n-parts/zones.tr.yaml. Run: node content/viking-age/.plans/zones.mjs
+// The political map: one set of zones per period, written to shared/zones/ and shared/zones.yaml, with the page map in
+// .plans/zones.yaml and the Turkish names in .i18n-parts/zones.tr.yaml. Run: node content/viking-age/.plans/zones.mjs,
+// then node scripts/merge-parts.mjs viking-age zones and node scripts/merge-parts.mjs viking-age i18n.
 // Land comes from the Natural Earth countries, simplified once on the shared arcs and cut to the map. Borders of the
 // time are hand drawn lines. Each period lists its states in order and the first state to claim a piece of land keeps
 // it, so a later state is drawn rough over its neighbours. Every zone then grows into the sea and joins its islands
@@ -657,6 +658,16 @@ const N = {
   oghuz: ['Oghuz', 'Oğuzlar'], cumans: ['Cumans', 'Kumanlar'], rus860: ['Rus’ of Ladoga and Novgorod', 'Ladoga ve Novgorod Rusları'], rus: ['Kievan Rus’', 'Kiev Rus’u'],
   tmutarakan: ['Principality of Tmutarakan', 'Tmutarakan Prensliği'], moravia: ['Great Moravia', 'Büyük Moravya'], poland: ['Duchy of Poland', 'Polonya Dükalığı'],
   bohemia: ['Duchy of Bohemia', 'Bohemya Dükalığı'],
+  // states drawn as one zone of several pieces
+  towns: ['Norse towns of Waterford, Wexford and Limerick', 'İskandinavların Waterford, Wexford ve Limerick kentleri'],
+  townsWW: ['Norse towns of Waterford and Wexford', 'İskandinavların Waterford ve Wexford kentleri'],
+  greenland: ['Norse settlements in Greenland', 'Grönland’daki İskandinav yerleşimleri'],
+  norwayRealm: ['Kingdom of Norway and its lands overseas', 'Norveç Krallığı ve denizaşırı toprakları'],
+  cnutEmpire: ['Cnut’s North Sea empire', 'Knut’un Kuzey Denizi İmparatorluğu'],
+  englandIreland: ['Kingdom of England and Lordship of Ireland', 'İngiltere Krallığı ve İrlanda Lordluğu'],
+  rusSviatoslav: ['Kievan Rus’ and Bulgaria, under Sviatoslav', 'Svyatoslav’ın Kiev Rus’u ve Bulgaristan’ı'],
+  // peoples and states at the edge of a page that its text does not name
+  others: ['Other peoples', 'Diğer halklar'], othersStates: ['Other peoples and states', 'Diğer halklar ve devletler'],
 };
 
 // --- periods: each lists its states in order, and the first state to claim a piece of land keeps it ---
@@ -668,221 +679,229 @@ const z = (key, family, name, land, opts = {}) => {
   const [en, tr] = N[name];
   return { key, family, en, tr, land, ...opts };
 };
+// a state of several pieces, such as Norway with its islands: each piece settles as a zone of its own, and the pieces
+// are written as one zone whose geometry is a MultiPolygon
+const joined = (key, family, name, parts, opts = {}) => {
+  if (!N[name]) throw new Error(`zone ${key}: no name ${name}`);
+  const [en, tr] = N[name];
+  return parts.flat().map(s => ({ ...s, join: { key, family, en, tr, ...opts } }));
+};
 
 // states that recur, so each period lists only what changed
 const S = {
-  dalriata: () => z('dalriata', 'celts', 'dalriata', DALRIATA),
-  strathclyde: () => z('strathclyde', 'celts', 'strathclyde', STRATHCLYDE_790),
-  strathclyde910: () => z('strathclyde', 'celts', 'strathclyde', STRATHCLYDE_910),
-  picts: () => z('picts', 'celts', 'picts', SCOT_N),
-  alba: (land = SCOT_N) => z('alba', 'celts', 'alba', land),
-  wales: () => z('wales', 'celts', 'wales', WALES),
-  cornwall: () => z('cornwall', 'celts', 'cornwall', CORNWALL),
+  dalriata: () => z('dalriata', 'dalriata', 'dalriata', DALRIATA),
+  strathclyde: () => z('strathclyde', 'strathclyde', 'strathclyde', STRATHCLYDE_790),
+  strathclyde910: () => z('strathclyde', 'strathclyde', 'strathclyde', STRATHCLYDE_910),
+  picts: () => z('picts', 'alba', 'picts', SCOT_N),
+  alba: (land = SCOT_N) => z('alba', 'alba', 'alba', land),
+  wales: () => z('wales', 'wales', 'wales', WALES),
+  cornwall: () => z('cornwall', 'cornwall', 'cornwall', CORNWALL),
   ireland: () => z('ireland', 'celts', 'ireland', IRELAND),
-  irish: () => [z('ulaid', 'celts', 'ulaid', ULAID), z('connacht', 'celts', 'connacht', CONNACHT), z('mide', 'celts', 'mide', MIDE), z('leinster', 'celts', 'leinster', LEINSTER),
-    z('munster', 'celts', 'munster', MUNSTER), z('ailech', 'celts', 'ailech', AILECH)],
+  irish: () => [z('ulaid', 'ulaid', 'ulaid', ULAID), z('connacht', 'connacht', 'connacht', CONNACHT), z('mide', 'mide', 'mide', MIDE), z('leinster', 'leinster', 'leinster', LEINSTER),
+    z('munster', 'munster', 'munster', MUNSTER), z('ailech', 'ailech', 'ailech', AILECH)],
   dublin: () => z('dublin', 'norse', 'dublin', DUBLIN),
-  waterford: () => z('waterford', 'norse', 'waterford', WATERFORD),
-  wexford: () => z('wexford', 'norse', 'wexford', WEXFORD),
-  limerick: () => z('limerick', 'norse', 'limerick', LIMERICK),
-  hebrides: () => z('isles', 'norse', 'hebrides', HEBRIDES),
-  isles: () => z('isles', 'norse', 'isles', U(HEBRIDES, MAN), { sea: [SEA_MAN] }),
-  northernIsles: () => z('orkney', 'norse', 'northernIsles', NORTHERN_ISLES),
-  orkney: (land = ORKNEY_870) => z('orkney', 'norse', 'orkney', land),
-  faroes: () => z('faroes', 'norse', 'faroes', FAROES),
+  waterford: () => z('waterford', 'towns', 'waterford', WATERFORD),
+  wexford: () => z('wexford', 'towns', 'wexford', WEXFORD),
+  limerick: () => z('limerick', 'towns', 'limerick', LIMERICK),
+  hebrides: () => z('isles', 'isles', 'hebrides', HEBRIDES),
+  isles: () => z('isles', 'isles', 'isles', U(HEBRIDES, MAN), { sea: [SEA_MAN] }),
+  northernIsles: () => z('orkney', 'orkney', 'northernIsles', NORTHERN_ISLES),
+  orkney: (land = ORKNEY_870) => z('orkney', 'orkney', 'orkney', land),
+  faroes: () => z('faroes', 'faroes', 'faroes', FAROES),
   danes: (name = 'danesK') => z('danes', 'danes', name, DENMARK),
   norway: (name = 'norway') => z('norway', 'norway', name, NORWAY),
-  svear: () => [z('svear', 'swedes', 'svear', SVEAR, { sea: [SEA_GOTLAND] }), z('gotar', 'swedes', 'gotar', GOTAR)],
-  north: () => [z('finns', 'other', 'finnic', FINNIC), z('sami', 'other', 'sami', SAMI)],
-  balts: () => z('balts', 'other', 'balts', BALTS),
-  slavs: () => z('slavs', 'other', 'slavs', SLAVS),
+  svear: () => [z('svear', 'swedes', 'svear', SVEAR, { sea: [SEA_GOTLAND] }), z('gotar', 'gotar', 'gotar', GOTAR)],
+  north: () => [z('finns', 'finns', 'finnic', FINNIC), z('sami', 'sami', 'sami', SAMI)],
+  balts: () => z('balts', 'balts', 'balts', BALTS),
+  slavs: () => z('slavs', 'slavs', 'slavs', SLAVS),
   byzantium790: () => z('byzantium', 'byzantium', 'byzantium', U(BYZANTIUM_790, CHERSON, CALABRIA, OTRANTO, SICILY, CRETE, CORFU),
     { sea: [SEA_CHERSON, SEA_SALENTO, SEA_CORFU, SEA_IONIAN, SEA_CRETE] }),
-  east790: () => [z('bulgaria', 'bulgaria', 'bulgaria', BULGARIA_790), z('khazars', 'steppe', 'khazars', KHAZARIA), z('vbulgars', 'steppe', 'vbulgars', VOLGA_BULGARIA),
-    z('abkhazia', 'other', 'abkhazia', ABKHAZIA)],
-  caucasus: () => [z('alania', 'other', 'alania', ALANIA), z('georgia', 'other', 'georgia', GEORGIA), z('armenia', 'other', 'armenia', ARMENIA),
-    z('shirvan', 'islam', 'shirvan', SHIRVAN), z('azerbaijan', 'islam', 'azerbaijan', AZERBAIJAN), z('caspian', 'islam', 'caspian', CASPIAN_S)],
-  iberia790: () => [z('asturias', 'other', 'asturias', ASTURIAS_790), z('cordoba', 'islam', 'cordobaE', IBERIA, { sea: BALEARIC_SEA })],
-  maghreb790: () => [z('idrisids', 'islam', 'idrisids', MOROCCO), z('rustamids', 'islam', 'rustamids', ALGERIA_W)],
+  east790: () => [z('bulgaria', 'bulgaria', 'bulgaria', BULGARIA_790), z('khazars', 'khazars', 'khazars', KHAZARIA), z('vbulgars', 'vbulgars', 'vbulgars', VOLGA_BULGARIA),
+    z('abkhazia', 'abkhazia', 'abkhazia', ABKHAZIA)],
+  caucasus: () => [z('alania', 'alania', 'alania', ALANIA), z('georgia', 'georgia', 'georgia', GEORGIA), z('armenia', 'armenia', 'armenia', ARMENIA),
+    z('shirvan', 'shirvan', 'shirvan', SHIRVAN), z('azerbaijan', 'azerbaijan', 'azerbaijan', AZERBAIJAN), z('caspian', 'caspian', 'caspian', CASPIAN_S)],
+  iberia790: () => [z('asturias', 'leon', 'asturias', ASTURIAS_790), z('cordoba', 'cordoba', 'cordobaE', IBERIA, { sea: BALEARIC_SEA })],
+  maghreb790: () => [z('idrisids', 'idrisids', 'idrisids', MOROCCO), z('rustamids', 'rustamids', 'rustamids', ALGERIA_W)],
 };
 
 // 790: the North before the raids
 period('790', 789, 803, [
-  S.dalriata(), S.strathclyde(), z('northumbria', 'anglo', 'northumbria', NORTHUMBRIA), S.picts(), S.wales(), S.cornwall(), z('wessex', 'english', 'wessex', WESSEX_790),
-  z('eanglia', 'anglo', 'eanglia', EANGLIA), z('mercia', 'anglo', 'mercia', MERCIA_ROUGH), S.ireland(),
+  S.dalriata(), S.strathclyde(), z('northumbria', 'northumbria', 'northumbria', NORTHUMBRIA), S.picts(), S.wales(), S.cornwall(), z('wessex', 'english', 'wessex', WESSEX_790),
+  z('eanglia', 'eanglia', 'eanglia', EANGLIA), z('mercia', 'mercia', 'mercia', MERCIA_ROUGH), S.ireland(),
   S.danes('danes'), S.norway('norwayPetty'), S.svear(),
-  z('bretons', 'celts', 'bretons', BRITTANY_W), z('franks', 'franks', 'franks', U(WEST_FRANCIA, MIDDLE_FRANCIA, EAST_FRANCIA_790)), S.iberia790(), S.maghreb790(),
-  S.byzantium790(), z('benevento', 'other', 'benevento', BENEVENTO), S.east790(), z('avars', 'steppe', 'avars', AVARS),
-  z('abbasids', 'islam', 'abbasids', U(NEAR_EAST, IFRIQIYA, CYRENAICA), { sea: [SEA_LEVANT] }), z('oghuz', 'steppe', 'oghuz', OGHUZ),
+  z('bretons', 'brittany', 'bretons', BRITTANY_W), z('franks', 'franks', 'franks', U(WEST_FRANCIA, MIDDLE_FRANCIA, EAST_FRANCIA_790)), S.iberia790(), S.maghreb790(),
+  S.byzantium790(), z('benevento', 'lombards', 'benevento', BENEVENTO), S.east790(), z('avars', 'avars', 'avars', AVARS),
+  z('abbasids', 'abbasids', 'abbasids', U(NEAR_EAST, IFRIQIYA, CYRENAICA), { sea: [SEA_LEVANT] }), z('oghuz', 'oghuz', 'oghuz', OGHUZ),
   S.balts(), S.north(), S.slavs(),
 ]);
 // 804 – 824: Godfred and Charlemagne; Mercia holds East Anglia, the Avars are gone
 const CAROLINGIAN = () => z('franks', 'franks', 'carolingian', U(WEST_FRANCIA, MIDDLE_FRANCIA, EAST_FRANCIA));
-const EAST_810 = () => [S.byzantium790(), z('benevento', 'other', 'benevento', BENEVENTO), S.east790(),
-  z('abbasids', 'islam', 'abbasids', U(NEAR_EAST, IFRIQIYA, CYRENAICA), { sea: [SEA_LEVANT] })];
+const EAST_810 = () => [S.byzantium790(), z('benevento', 'lombards', 'benevento', BENEVENTO), S.east790(),
+  z('abbasids', 'abbasids', 'abbasids', U(NEAR_EAST, IFRIQIYA, CYRENAICA), { sea: [SEA_LEVANT] })];
 period('810', 804, 824, [
-  S.dalriata(), S.strathclyde(), z('northumbria', 'anglo', 'northumbria', NORTHUMBRIA), S.picts(), S.wales(), S.cornwall(), z('wessex', 'english', 'wessex', WESSEX_790),
-  z('mercia', 'anglo', 'mercia', MERCIA_ROUGH), S.ireland(),
-  S.danes(), S.norway('norwayPetty'), S.svear(), z('obotrites', 'other', 'obotrites', OBOTRITES),
-  z('bretons', 'celts', 'bretons', BRITTANY_W), CAROLINGIAN(), S.iberia790(), S.maghreb790(), EAST_810(),
+  S.dalriata(), S.strathclyde(), z('northumbria', 'northumbria', 'northumbria', NORTHUMBRIA), S.picts(), S.wales(), S.cornwall(), z('wessex', 'english', 'wessex', WESSEX_790),
+  z('mercia', 'mercia', 'mercia', MERCIA_ROUGH), S.ireland(),
+  S.danes(), S.norway('norwayPetty'), S.svear(), z('obotrites', 'polabians', 'obotrites', OBOTRITES),
+  z('bretons', 'brittany', 'bretons', BRITTANY_W), CAROLINGIAN(), S.iberia790(), S.maghreb790(), EAST_810(),
   S.balts(), S.north(), S.slavs(),
 ]);
 // 825 – 842: Wessex takes Kent, Sussex, Surrey and Essex, East Anglia free again; Louis the Pious
 const WESSEX_825 = U(WESSEX_SOUTH, ESSEX);
 period('834', 825, 842, [
-  S.dalriata(), S.strathclyde(), z('northumbria', 'anglo', 'northumbria', NORTHUMBRIA), S.picts(), S.wales(), S.cornwall(), z('wessex', 'english', 'wessex', WESSEX_825),
-  z('eanglia', 'anglo', 'eanglia', EANGLIA), z('mercia', 'anglo', 'mercia', MERCIA_ROUGH), S.ireland(),
-  S.danes(), S.norway('norwayPetty'), S.svear(), z('obotrites', 'other', 'obotrites', OBOTRITES),
-  z('bretons', 'celts', 'bretons', BRITTANY_W), CAROLINGIAN(), S.iberia790(), S.maghreb790(), EAST_810(),
+  S.dalriata(), S.strathclyde(), z('northumbria', 'northumbria', 'northumbria', NORTHUMBRIA), S.picts(), S.wales(), S.cornwall(), z('wessex', 'english', 'wessex', WESSEX_825),
+  z('eanglia', 'eanglia', 'eanglia', EANGLIA), z('mercia', 'mercia', 'mercia', MERCIA_ROUGH), S.ireland(),
+  S.danes(), S.norway('norwayPetty'), S.svear(), z('obotrites', 'polabians', 'obotrites', OBOTRITES),
+  z('bretons', 'brittany', 'bretons', BRITTANY_W), CAROLINGIAN(), S.iberia790(), S.maghreb790(), EAST_810(),
   S.balts(), S.north(), S.slavs(),
 ]);
 // 843 – 854: Verdun; Dublin founded; Alba of the Picts and Scots
 const WESSEX_843 = U(WESSEX_SOUTH, ESSEX, CORNWALL);
-const BRITAIN_843 = () => [S.strathclyde(), z('northumbria', 'anglo', 'northumbria', NORTHUMBRIA), S.picts(), S.wales(), z('wessex', 'english', 'wessex', WESSEX_843),
-  z('eanglia', 'anglo', 'eanglia', EANGLIA), z('mercia', 'anglo', 'mercia', MERCIA_ROUGH), S.dublin(), S.ireland()];
+const BRITAIN_843 = () => [S.strathclyde(), z('northumbria', 'northumbria', 'northumbria', NORTHUMBRIA), S.picts(), S.wales(), z('wessex', 'english', 'wessex', WESSEX_843),
+  z('eanglia', 'eanglia', 'eanglia', EANGLIA), z('mercia', 'mercia', 'mercia', MERCIA_ROUGH), S.dublin(), S.ireland()];
 period('843', 843, 854, [
-  BRITAIN_843(), S.danes(), S.norway('norwayPetty'), S.svear(), z('obotrites', 'other', 'obotrites', OBOTRITES),
-  z('brittany', 'celts', 'brittany', BRITTANY_W), z('wfrancia', 'franks', 'wfrancia', WEST_FRANCIA), z('mfrancia', 'franks', 'mfrancia', MIDDLE_FRANCIA),
-  z('efrancia', 'franks', 'efrancia', EAST_FRANCIA), z('asturias', 'other', 'asturias', ASTURIAS_843), z('pamplona', 'other', 'pamplona', PAMPLONA),
-  z('cordoba', 'islam', 'cordobaE', IBERIA, { sea: BALEARIC_SEA }), z('nekor', 'islam', 'nekor', NEKOR), S.maghreb790(), z('aghlabids', 'islam', 'aghlabids', IFRIQIYA), EAST_810().slice(0, -1),
-  z('abbasids', 'islam', 'abbasids', U(NEAR_EAST, CYRENAICA), { sea: [SEA_LEVANT] }),
+  BRITAIN_843(), S.danes(), S.norway('norwayPetty'), S.svear(), z('obotrites', 'polabians', 'obotrites', OBOTRITES),
+  z('brittany', 'brittany', 'brittany', BRITTANY_W), z('wfrancia', 'franks', 'wfrancia', WEST_FRANCIA), z('mfrancia', 'mfrancia', 'mfrancia', MIDDLE_FRANCIA),
+  z('efrancia', 'efrancia', 'efrancia', EAST_FRANCIA), z('asturias', 'leon', 'asturias', ASTURIAS_843), z('pamplona', 'navarre', 'pamplona', PAMPLONA),
+  z('cordoba', 'cordoba', 'cordobaE', IBERIA, { sea: BALEARIC_SEA }), z('nekor', 'nekor', 'nekor', NEKOR), S.maghreb790(), z('aghlabids', 'aghlabids', 'aghlabids', IFRIQIYA), EAST_810().slice(0, -1),
+  z('abbasids', 'abbasids', 'abbasids', U(NEAR_EAST, CYRENAICA), { sea: [SEA_LEVANT] }),
   S.balts(), S.north(), S.slavs(),
 ]);
 
 // 855 – 864: Lotharingia, Provence and Italy after Prüm; Norse in the Isles and the Faroes; the Rus' at Ladoga; the Mediterranean raid
 const BYZANTIUM_860_LAND = U(BYZANTIUM_860, CHERSON, CALABRIA, OTRANTO, SICILY_E);
 const SEA_860 = [SEA_CHERSON, SEA_SALENTO, SEA_CORFU, sea([[15.5, 37.6], [15.65, 38.0]])];
-const WEST_860 = () => [z('brittany', 'celts', 'brittany', BRITTANY), z('wfrancia', 'franks', 'wfrancia', WEST_FRANCIA),
-  z('lotharingia', 'franks', 'lotharingia', LOTHARINGIA), z('provence', 'franks', 'provence', PROVENCE), z('italy', 'franks', 'italy', ITALY),
-  z('efrancia', 'franks', 'efrancia', EAST_FRANCIA)];
-const EAST_860 = () => [z('moravia', 'other', 'moravia', MORAVIA), z('byzantium', 'byzantium', 'byzantium', BYZANTIUM_860_LAND, { sea: SEA_860 }),
-  z('bari', 'islam', 'bari', BARI), z('crete', 'islam', 'crete', CRETE), z('lombards', 'other', 'lombards', BENEVENTO),
-  z('aghlabids', 'islam', 'aghlabids', U(IFRIQIYA, SICILY), { sea: [SEA_SICILY] }), z('bulgaria', 'bulgaria', 'bulgaria', BULGARIA_860),
-  z('magyars', 'steppe', 'magyars', ETELKOZ), z('rus', 'rus', 'rus860', RUS_860), z('khazars', 'steppe', 'khazars', KHAZARIA),
-  z('vbulgars', 'steppe', 'vbulgars', VOLGA_BULGARIA), z('abkhazia', 'other', 'abkhazia', ABKHAZIA),
-  z('abbasids', 'islam', 'abbasids', U(NEAR_EAST, CYRENAICA), { sea: [SEA_LEVANT] }), z('oghuz', 'steppe', 'oghuz', OGHUZ)];
+const WEST_860 = () => [z('brittany', 'brittany', 'brittany', BRITTANY), z('wfrancia', 'franks', 'wfrancia', WEST_FRANCIA),
+  z('lotharingia', 'lotharingia', 'lotharingia', LOTHARINGIA), z('provence', 'provence', 'provence', PROVENCE), z('italy', 'italy', 'italy', ITALY),
+  z('efrancia', 'efrancia', 'efrancia', EAST_FRANCIA)];
+const EAST_860 = () => [z('moravia', 'moravia', 'moravia', MORAVIA), z('byzantium', 'byzantium', 'byzantium', BYZANTIUM_860_LAND, { sea: SEA_860 }),
+  z('bari', 'bari', 'bari', BARI), z('crete', 'crete', 'crete', CRETE), z('lombards', 'lombards', 'lombards', BENEVENTO),
+  z('aghlabids', 'aghlabids', 'aghlabids', U(IFRIQIYA, SICILY), { sea: [SEA_SICILY] }), z('bulgaria', 'bulgaria', 'bulgaria', BULGARIA_860),
+  z('magyars', 'hungary', 'magyars', ETELKOZ), z('rus', 'rus', 'rus860', RUS_860), z('khazars', 'khazars', 'khazars', KHAZARIA),
+  z('vbulgars', 'vbulgars', 'vbulgars', VOLGA_BULGARIA), z('abkhazia', 'abkhazia', 'abkhazia', ABKHAZIA),
+  z('abbasids', 'abbasids', 'abbasids', U(NEAR_EAST, CYRENAICA), { sea: [SEA_LEVANT] }), z('oghuz', 'oghuz', 'oghuz', OGHUZ)];
 const BRITAIN_860 = () => [S.hebrides(), S.northernIsles(), S.faroes(), ...BRITAIN_843()];
 period('860', 855, 864, [
-  BRITAIN_860(), S.danes(), S.norway('norwayPetty'), S.svear(), z('obotrites', 'other', 'obotrites', OBOTRITES), WEST_860(),
-  z('asturias', 'other', 'asturias', ASTURIAS_860), z('pamplona', 'other', 'pamplona', PAMPLONA), z('cordoba', 'islam', 'cordobaE', IBERIA, { sea: BALEARIC_SEA }),
-  z('nekor', 'islam', 'nekor', NEKOR), S.maghreb790(), EAST_860(), S.balts(), S.north(), S.slavs(),
+  BRITAIN_860(), S.danes(), S.norway('norwayPetty'), S.svear(), z('obotrites', 'polabians', 'obotrites', OBOTRITES), WEST_860(),
+  z('asturias', 'leon', 'asturias', ASTURIAS_860), z('pamplona', 'navarre', 'pamplona', PAMPLONA), z('cordoba', 'cordoba', 'cordobaE', IBERIA, { sea: BALEARIC_SEA }),
+  z('nekor', 'nekor', 'nekor', NEKOR), S.maghreb790(), EAST_860(), S.balts(), S.north(), S.slavs(),
 ]);
 // 865 – 866: the Great Army lands in East Anglia
-period('865', 865, 866, [BRITAIN_860(), S.danes(), S.norway('norwayPetty'), S.svear(), z('obotrites', 'other', 'obotrites', OBOTRITES), WEST_860(), S.balts(), S.slavs()]);
+period('865', 865, 866, [BRITAIN_860(), S.danes(), S.norway('norwayPetty'), S.svear(), z('obotrites', 'polabians', 'obotrites', OBOTRITES), WEST_860(), S.balts(), S.slavs()]);
 // 867 – 873: York and East Anglia in the hands of the Great Army; Brittany with the Cotentin
 const BRITTANY_867 = U(BRITTANY, COTENTIN);
 period('871', 867, 873, [
-  S.hebrides(), S.northernIsles(), S.faroes(), S.strathclyde(), z('northumbria', 'anglo', 'northumbriaArmy', NORTHUMBRIA), S.picts(), S.wales(),
-  z('wessex', 'english', 'wessex', WESSEX_843), z('eanglia', 'danes', 'eangliaArmy', EANGLIA), z('mercia', 'anglo', 'mercia', MERCIA_ROUGH), S.dublin(), S.ireland(),
-  S.danes(), S.norway('norwayPetty'), z('brittany', 'celts', 'brittany', BRITTANY_867), z('wfrancia', 'franks', 'wfrancia', WEST_FRANCIA),
-  z('efrancia', 'franks', 'efrancia', U(EAST_FRANCIA, LOTHARINGIA)),
+  S.hebrides(), S.northernIsles(), S.faroes(), S.strathclyde(), z('northumbria', 'northumbria', 'northumbriaArmy', NORTHUMBRIA), S.picts(), S.wales(),
+  z('wessex', 'english', 'wessex', WESSEX_843), z('eanglia', 'danes', 'eangliaArmy', EANGLIA), z('mercia', 'mercia', 'mercia', MERCIA_ROUGH), S.dublin(), S.ireland(),
+  S.danes(), S.norway('norwayPetty'), z('brittany', 'brittany', 'brittany', BRITTANY_867), z('wfrancia', 'franks', 'wfrancia', WEST_FRANCIA),
+  z('efrancia', 'efrancia', 'efrancia', U(EAST_FRANCIA, LOTHARINGIA)),
 ]);
 // 874 – 878: Halfdan's York, Bernicia, Mercia divided, Guthrum in Wessex
 period('877', 874, 878, [
   S.hebrides(), S.northernIsles(), S.faroes(), S.strathclyde(), S.picts(), S.wales(), z('wessex', 'english', 'wessex', WESSEX_843),
-  z('danelaw', 'danes', 'armyLands', D(DANELAW_E, ESSEX)), z('york', 'norse', 'york', DEIRA), z('bernicia', 'anglo', 'bernicia', BERNICIA_ROUGH),
-  z('emercia', 'anglo', 'emercia', MERCIA_ROUGH), S.dublin(), S.ireland(),
-  S.danes(), z('brittany', 'celts', 'brittany', BRITTANY_867), z('wfrancia', 'franks', 'wfrancia', WEST_FRANCIA),
-  z('efrancia', 'franks', 'efrancia', U(EAST_FRANCIA, LOTHARINGIA)),
+  z('danelaw', 'danes', 'armyLands', D(DANELAW_E, ESSEX)), z('york', 'york', 'york', DEIRA), z('bernicia', 'northumbria', 'bernicia', BERNICIA_ROUGH),
+  z('emercia', 'mercia', 'emercia', MERCIA_ROUGH), S.dublin(), S.ireland(),
+  S.danes(), z('brittany', 'brittany', 'brittany', BRITTANY_867), z('wfrancia', 'franks', 'wfrancia', WEST_FRANCIA),
+  z('efrancia', 'efrancia', 'efrancia', U(EAST_FRANCIA, LOTHARINGIA)),
 ]);
 // 879 – 901: the Danelaw by the treaty of Alfred and Guthrum, London to English Mercia, the earls of Orkney
 const BRITAIN_886 = () => [S.hebrides(), S.orkney(), S.faroes(), S.strathclyde(), S.picts(), S.wales(), z('wessex', 'english', 'wessex', U(WESSEX_SOUTH, CORNWALL)),
-  z('danelaw', 'danes', 'danelaw', DANELAW_E), z('york', 'norse', 'york', DEIRA), z('bernicia', 'anglo', 'bernicia', BERNICIA_ROUGH),
-  z('emercia', 'anglo', 'emercia', MERCIA_ROUGH), S.dublin(), S.ireland()];
-period('886', 879, 901, [BRITAIN_886(), S.danes(), z('brittany', 'celts', 'brittany', BRITTANY_867), z('wfrancia', 'franks', 'wfrancia', WEST_FRANCIA),
-  z('efrancia', 'franks', 'efrancia', U(EAST_FRANCIA, LOTHARINGIA))]);
+  z('danelaw', 'danes', 'danelaw', DANELAW_E), z('york', 'york', 'york', DEIRA), z('bernicia', 'northumbria', 'bernicia', BERNICIA_ROUGH),
+  z('emercia', 'mercia', 'emercia', MERCIA_ROUGH), S.dublin(), S.ireland()];
+period('886', 879, 901, [BRITAIN_886(), S.danes(), z('brittany', 'brittany', 'brittany', BRITTANY_867), z('wfrancia', 'franks', 'wfrancia', WEST_FRANCIA),
+  z('efrancia', 'efrancia', 'efrancia', U(EAST_FRANCIA, LOTHARINGIA))]);
 // c. 872: Harald Fairhair after Hafrsfjord
 period('872', 872, 899, [
-  S.northernIsles(), S.faroes(), S.danes(), z('harald', 'norway', 'harald', HARALD_872), z('lade', 'norway', 'lade', LADE_872), S.norway('norwayPetty'), S.svear(),
+  S.northernIsles(), S.faroes(), S.danes(), z('harald', 'norway', 'harald', HARALD_872), z('lade', 'lade', 'lade', LADE_872), z('norway', 'petty', 'norwayPetty', NORWAY), S.svear(),
   S.balts(), S.north(), S.slavs(),
 ]);
 // 879 – 884: the Great Army in Francia; Lotharingia East Frankish after Ribemont, Boso's Provence
 period('881', 879, 884, [
-  BRITAIN_886(), S.danes(), z('brittany', 'celts', 'brittany', BRITTANY_867), z('wfrancia', 'franks', 'wfrancia', WEST_FRANCIA),
-  z('efrancia', 'franks', 'efrancia', U(EAST_FRANCIA, LOTHARINGIA)), z('provence', 'franks', 'provence', PROVENCE), z('italy', 'franks', 'italy', ITALY),
+  BRITAIN_886(), S.danes(), z('brittany', 'brittany', 'brittany', BRITTANY_867), z('wfrancia', 'franks', 'wfrancia', WEST_FRANCIA),
+  z('efrancia', 'efrancia', 'efrancia', U(EAST_FRANCIA, LOTHARINGIA)), z('provence', 'provence', 'provence', PROVENCE), z('italy', 'italy', 'italy', ITALY),
 ]);
 // 885 – 887: the empire reunited under Charles the Fat
 period('885', 885, 887, [
-  BRITAIN_886(), S.danes(), z('brittany', 'celts', 'brittany', BRITTANY_867),
+  BRITAIN_886(), S.danes(), z('brittany', 'brittany', 'brittany', BRITTANY_867),
   z('franks', 'franks', 'charlesFat', U(WEST_FRANCIA, EAST_FRANCIA, LOTHARINGIA, PROVENCE, ITALY)),
 ]);
 // 882 – 912: Oleg's Rus' from Ladoga to Kiev, the Pechenegs on the steppe, the Magyars in Pannonia
 const BYZANTIUM_900 = () => z('byzantium', 'byzantium', 'byzantium', U(BYZANTIUM_860, CHERSON), { sea: [SEA_CHERSON] });
 period('907', 882, 912, [
   S.danes(), S.svear(), z('rus', 'rus', 'rus', RUS_907), BYZANTIUM_900(), z('bulgaria', 'bulgaria', 'bulgaria', BULGARIA_860),
-  z('hungary', 'steppe', 'hungaryP', HUNGARY_907), z('alania', 'other', 'alania', ALANIA), z('khazars', 'steppe', 'khazars', KHAZARIA_900),
-  z('pechenegs', 'steppe', 'pechenegs', PECHENEGS), z('vbulgars', 'steppe', 'vbulgars', VOLGA_BULGARIA), z('oghuz', 'steppe', 'oghuz', OGHUZ),
-  S.caucasus().slice(1), z('samanids', 'islam', 'samanids', KHORASAN), z('abbasids', 'islam', 'abbasids', NEAR_EAST),
+  z('hungary', 'hungary', 'hungaryP', HUNGARY_907), z('alania', 'alania', 'alania', ALANIA), z('khazars', 'khazars', 'khazars', KHAZARIA_900),
+  z('pechenegs', 'pechenegs', 'pechenegs', PECHENEGS), z('vbulgars', 'vbulgars', 'vbulgars', VOLGA_BULGARIA), z('oghuz', 'oghuz', 'oghuz', OGHUZ),
+  S.caucasus().slice(1), z('samanids', 'samanids', 'samanids', KHORASAN), z('abbasids', 'abbasids', 'abbasids', NEAR_EAST),
   S.balts(), S.north(), S.slavs(),
 ]);
 // 902 – 916: Edward the Elder and Æthelflæd against York, the Five Boroughs and the southern Danelaw
 const BRITAIN_910 = () => [S.hebrides(), S.orkney(), S.faroes(), S.strathclyde910(), S.alba(), S.wales(), z('wessex', 'english', 'wessex', U(WESSEX_SOUTH, CORNWALL)),
-  z('fiveboroughs', 'danes', 'fiveBoroughs', FIVE_BOROUGHS), z('danelaw', 'danes', 'southDanelaw', D(DANELAW_E, FIVE_BOROUGHS)),
-  z('york', 'norse', 'york', YORK_910), z('bernicia', 'anglo', 'bernicia', BERNICIA_910), z('emercia', 'anglo', 'emercia', MERCIA_ROUGH), S.ireland()];
-period('910', 902, 916, [BRITAIN_910(), S.danes(), z('brittany', 'celts', 'brittany', BRITTANY_867), z('wfrancia', 'franks', 'wfrancia', WEST_FRANCIA)]);
+  z('fiveboroughs', 'fiveboroughs', 'fiveBoroughs', FIVE_BOROUGHS), z('danelaw', 'danes', 'southDanelaw', D(DANELAW_E, FIVE_BOROUGHS)),
+  z('york', 'york', 'york', YORK_910), z('bernicia', 'northumbria', 'bernicia', BERNICIA_910), z('emercia', 'mercia', 'emercia', MERCIA_ROUGH), S.ireland()];
+period('910', 902, 916, [BRITAIN_910(), S.danes(), z('brittany', 'brittany', 'brittany', BRITTANY_867), z('wfrancia', 'franks', 'wfrancia', WEST_FRANCIA)]);
 // 911 – 916: Rollo's Normandy; Lotharingia with West Francia, the two Burgundies
 period('911', 911, 916, [
-  BRITAIN_910(), S.danes(), z('normandy', 'normans', 'normandy911', NORMANDY_911, { span: '911 – 923' }), z('brittany', 'celts', 'brittany', BRITTANY_867),
-  z('wfrancia', 'franks', 'wfrancia', U(WEST_FRANCIA, LOTHARINGIA_N)), z('upperburgundy', 'franks', 'upperBurgundy', UPPER_BURGUNDY),
-  z('provence', 'franks', 'provence', PROVENCE), z('italy', 'franks', 'italy', ITALY), z('efrancia', 'franks', 'efrancia', EAST_FRANCIA_790),
+  BRITAIN_910(), S.danes(), z('normandy', 'normans', 'normandy911', NORMANDY_911, { span: '911 – 923' }), z('brittany', 'brittany', 'brittany', BRITTANY_867),
+  z('wfrancia', 'franks', 'wfrancia', U(WEST_FRANCIA, LOTHARINGIA_N)), z('upperburgundy', 'burgundy', 'upperBurgundy', UPPER_BURGUNDY),
+  z('provence', 'provence', 'provence', PROVENCE), z('italy', 'italy', 'italy', ITALY), z('efrancia', 'efrancia', 'efrancia', EAST_FRANCIA_790),
 ]);
 // 917 – 926: Edward's kingdom to the Humber, Ragnall's York, Dublin retaken, Waterford
 period('919', 917, 926, [
-  S.hebrides(), S.orkney(), S.faroes(), S.strathclyde910(), S.alba(), S.wales(), z('york', 'norse', 'york', YORK_910, { span: '919 – 927' }),
-  z('bernicia', 'anglo', 'bernicia', BERNICIA_910), z('england', 'english', 'anglosaxons', SOUTH_ROUGH),
+  S.hebrides(), S.orkney(), S.faroes(), S.strathclyde910(), S.alba(), S.wales(), z('york', 'york', 'york', YORK_910, { span: '919 – 927' }),
+  z('bernicia', 'northumbria', 'bernicia', BERNICIA_910), z('england', 'english', 'anglosaxons', SOUTH_ROUGH),
   S.dublin(), S.waterford(), S.irish(),
 ]);
 // 913 – 943: the Volga route: the Khazars, Volga Bulgaria, the Caspian and the caliphate
 period('921', 913, 943, [
   S.danes(), S.svear(), z('rus', 'rus', 'rus', RUS_907), BYZANTIUM_900(), z('bulgaria', 'bulgaria', 'bulgaria', BULGARIA_945),
-  z('hungary', 'steppe', 'hungaryP', HUNGARY_907), z('alania', 'other', 'alania', ALANIA), z('khazars', 'steppe', 'khazars', KHAZARIA_900),
-  z('pechenegs', 'steppe', 'pechenegs', PECHENEGS), z('vbulgars', 'steppe', 'vbulgars', VOLGA_BULGARIA), z('oghuz', 'steppe', 'oghuz', OGHUZ),
-  S.caucasus().slice(1), z('samanids', 'islam', 'samanids', KHORASAN), z('abbasids', 'islam', 'abbasids', NEAR_EAST), S.balts(), S.north(), S.slavs(),
+  z('hungary', 'hungary', 'hungaryP', HUNGARY_907), z('alania', 'alania', 'alania', ALANIA), z('khazars', 'khazars', 'khazars', KHAZARIA_900),
+  z('pechenegs', 'pechenegs', 'pechenegs', PECHENEGS), z('vbulgars', 'vbulgars', 'vbulgars', VOLGA_BULGARIA), z('oghuz', 'oghuz', 'oghuz', OGHUZ),
+  S.caucasus().slice(1), z('samanids', 'samanids', 'samanids', KHORASAN), z('abbasids', 'abbasids', 'abbasids', NEAR_EAST), S.balts(), S.north(), S.slavs(),
 ]);
 // 927 – 938: Æthelstan's England, Brunanburh; the Icelandic Commonwealth; Normandy at its full extent
-const IRELAND_937 = () => [S.dublin(), S.waterford(), S.wexford(), S.limerick(), S.ireland()];
+const TOWNS = () => joined('towns', 'towns', 'townsWW', [S.waterford(), S.wexford()]);
+const IRELAND_937 = () => [S.dublin(), joined('towns', 'towns', 'towns', [S.waterford(), S.wexford(), S.limerick()]), S.ireland()];
 period('937', 927, 938, [
-  S.isles(), S.orkney(), S.faroes(), z('iceland', 'norse', 'iceland', ICELAND), S.strathclyde910(), S.alba(), S.wales(), z('england', 'english', 'england', ENGLAND_FORTH),
-  IRELAND_937(), S.danes(), S.norway(), S.svear(), z('normandy', 'normans', 'normandy', NORMANDY, { span: '933 – 1066' }), z('brittany', 'celts', 'brittany', BRITTANY),
-  z('wfrancia', 'franks', 'wfrancia', WEST_FRANCIA), z('efrancia', 'franks', 'efrancia', U(LOTHARINGIA_N, EAST_FRANCIA_790)),
-  z('burgundy', 'franks', 'burgundy', U(UPPER_BURGUNDY, PROVENCE)), z('italy', 'franks', 'italy', ITALY),
+  S.isles(), S.orkney(), S.faroes(), z('iceland', 'iceland', 'iceland', ICELAND), S.strathclyde910(), S.alba(), S.wales(), z('england', 'english', 'england', ENGLAND_FORTH),
+  IRELAND_937(), S.danes(), S.norway(), S.svear(), z('normandy', 'normans', 'normandy', NORMANDY, { span: '933 – 1066' }), z('brittany', 'brittany', 'brittany', BRITTANY),
+  z('wfrancia', 'franks', 'wfrancia', WEST_FRANCIA), z('efrancia', 'efrancia', 'efrancia', U(LOTHARINGIA_N, EAST_FRANCIA_790)),
+  z('burgundy', 'burgundy', 'burgundy', U(UPPER_BURGUNDY, PROVENCE)), z('italy', 'italy', 'italy', ITALY),
 ]);
 // 941 – 957: Igor's Rus' and the Drevlian revolt
 period('945', 941, 957, [
-  S.danes(), S.svear(), z('drevlians', 'other', 'drevlians', DREVLIANS), z('rus', 'rus', 'rus', D(RUS_907, DREVLIANS)),
+  S.danes(), S.svear(), z('drevlians', 'drevlians', 'drevlians', DREVLIANS), z('rus', 'rus', 'rus', D(RUS_907, DREVLIANS)),
   z('byzantium', 'byzantium', 'byzantium', U(poly(...BYZ_ARAB_934, ...BLACK_SEA_S.slice(1), ...BYZ_BULG.slice(1), ...BYZ_BALKAN_860.slice(1), ...AEGEAN.slice(1)), CHERSON),
     { sea: [SEA_CHERSON] }),
-  z('bulgaria', 'bulgaria', 'bulgaria', BULGARIA_945), z('hungary', 'steppe', 'hungaryP', HUNGARY_907), z('alania', 'other', 'alania', ALANIA),
-  z('khazars', 'steppe', 'khazars', KHAZARIA_900), z('pechenegs', 'steppe', 'pechenegs', PECHENEGS), z('vbulgars', 'steppe', 'vbulgars', VOLGA_BULGARIA),
-  z('oghuz', 'steppe', 'oghuz', OGHUZ), S.caucasus().slice(1), z('samanids', 'islam', 'samanids', KHORASAN), z('abbasids', 'islam', 'abbasids', NEAR_EAST),
+  z('bulgaria', 'bulgaria', 'bulgaria', BULGARIA_945), z('hungary', 'hungary', 'hungaryP', HUNGARY_907), z('alania', 'alania', 'alania', ALANIA),
+  z('khazars', 'khazars', 'khazars', KHAZARIA_900), z('pechenegs', 'pechenegs', 'pechenegs', PECHENEGS), z('vbulgars', 'vbulgars', 'vbulgars', VOLGA_BULGARIA),
+  z('oghuz', 'oghuz', 'oghuz', OGHUZ), S.caucasus().slice(1), z('samanids', 'samanids', 'samanids', KHORASAN), z('abbasids', 'abbasids', 'abbasids', NEAR_EAST),
   S.balts(), S.north(), S.slavs(),
 ]);
 // 939 – 954: Eric Bloodaxe's York
 period('947', 939, 954, [
-  S.isles(), S.orkney(), S.strathclyde910(), S.alba(), S.wales(), z('york', 'norse', 'york', YORK_910, { span: '939 – 954' }),
-  z('bernicia', 'anglo', 'bernicia', BERNICIA_910), z('england', 'english', 'england', SOUTH_ROUGH), IRELAND_937(),
+  S.isles(), S.orkney(), S.strathclyde910(), S.alba(), S.wales(), z('york', 'york', 'york', YORK_910, { span: '939 – 954' }),
+  z('bernicia', 'northumbria', 'bernicia', BERNICIA_910), z('england', 'english', 'england', SOUTH_ROUGH), IRELAND_937(),
 ]);
 
 // 965 – 971: Harald Bluetooth's Denmark, the empire of Otto the Great to the Oder, Sviatoslav on the Danube
-const BRITAIN_970 = () => [S.isles(), S.orkney(), S.faroes(), z('iceland', 'norse', 'iceland', ICELAND), S.strathclyde910(), S.alba(), S.wales(),
+const BRITAIN_970 = () => [S.isles(), S.orkney(), S.faroes(), z('iceland', 'iceland', 'iceland', ICELAND), S.strathclyde910(), S.alba(), S.wales(),
   z('england', 'english', 'england', ENGLAND_FORTH), IRELAND_937()];
-const WEST_970 = () => [z('normandy', 'normans', 'normandy', NORMANDY, { span: '933 – 1066' }), z('brittany', 'celts', 'brittany', BRITTANY),
-  z('wfrancia', 'franks', 'wfrancia', WEST_FRANCIA), z('burgundy', 'franks', 'burgundy', U(UPPER_BURGUNDY, PROVENCE))];
+const WEST_970 = () => [z('normandy', 'normans', 'normandy', NORMANDY, { span: '933 – 1066' }), z('brittany', 'brittany', 'brittany', BRITTANY),
+  z('wfrancia', 'franks', 'wfrancia', WEST_FRANCIA), z('burgundy', 'burgundy', 'burgundy', U(UPPER_BURGUNDY, PROVENCE))];
 const SCANDINAVIA_970 = () => [z('denmark', 'danes', 'denmark', DENMARK), z('norway', 'norway', 'norwayHaakon', NORWAY),
   z('sweden', 'swedes', 'swedes', SWEDEN, { sea: [SEA_GOTLAND] })];
-const NEAR_EAST_970 = () => [S.caucasus().slice(1), z('samanids', 'islam', 'samanids', KHORASAN), z('jazira', 'islam', 'hamdanids', JAZIRA),
-  z('fatimids', 'islam', 'fatimids', U(FATIMID_SYRIA, CYRENAICA), { sea: [SEA_LEVANT] }), z('buyids', 'islam', 'buyids', NEAR_EAST)];
+const NEAR_EAST_970 = () => [S.caucasus().slice(1), z('samanids', 'samanids', 'samanids', KHORASAN), z('jazira', 'jazira', 'hamdanids', JAZIRA),
+  z('fatimids', 'fatimids', 'fatimids', U(FATIMID_SYRIA, CYRENAICA), { sea: [SEA_LEVANT] }), z('buyids', 'buyids', 'buyids', NEAR_EAST)];
 const BYZANTIUM_970_LAND = U(BYZANTIUM_970, CHERSON, CRETE, CYPRUS, BYZ_ITALY, CORFU);
 const SEA_970 = [SEA_CHERSON, SEA_CRETE, SEA_CORFU, SEA_IONIAN, sea([[33.3, 35.35], [32.9, 36.08]])];
-const EAST_970 = byz => [z('bulgaria', 'bulgaria', 'bulgaria', D(BULGARIA_945, BULGARIA_EAST)), byz, z('lombards', 'other', 'lombards', BENEVENTO),
-  z('croatia', 'other', 'croatia', CROATIA), z('serbs', 'other', 'serbs', SERBS),
-  z('hungary', 'steppe', 'hungaryP', HUNGARY_907), z('alania', 'other', 'alania', ALANIA), z('pechenegs', 'steppe', 'pechenegs', PECHENEGS_1000),
-  z('vbulgars', 'steppe', 'vbulgars', VOLGA_BULGARIA), z('oghuz', 'steppe', 'oghuz', OGHUZ), NEAR_EAST_970()];
-const CENTRAL_970 = () => [z('hre', 'franks', 'hre', U(GERMANY_970, ITALY)), z('poland', 'other', 'poland', POLAND_970), z('bohemia', 'other', 'bohemia', BOHEMIA_970),
-  z('sicily', 'islam', 'sicily', SICILY)];
+const EAST_970 = byz => [z('bulgaria', 'bulgaria', 'bulgaria', D(BULGARIA_945, BULGARIA_EAST)), byz, z('lombards', 'lombards', 'lombards', BENEVENTO),
+  z('croatia', 'croatia', 'croatia', CROATIA), z('serbs', 'serbs', 'serbs', SERBS),
+  z('hungary', 'hungary', 'hungaryP', HUNGARY_907), z('alania', 'alania', 'alania', ALANIA), z('pechenegs', 'pechenegs', 'pechenegs', PECHENEGS_1000),
+  z('vbulgars', 'vbulgars', 'vbulgars', VOLGA_BULGARIA), z('oghuz', 'oghuz', 'oghuz', OGHUZ), NEAR_EAST_970()];
+const CENTRAL_970 = () => [z('hre', 'efrancia', 'hre', U(GERMANY_970, ITALY)), z('poland', 'poland', 'poland', POLAND_970), z('bohemia', 'bohemia', 'bohemia', BOHEMIA_970),
+  z('sicily', 'sicily', 'sicily', SICILY)];
 period('970', 965, 970, [
-  BRITAIN_970(), SCANDINAVIA_970(), WEST_970(), z('rusbulgaria', 'rus', 'rusBulgaria', BULGARIA_EAST, { span: '969 – 971' }),
-  z('rus', 'rus', 'rus', U(RUS_907, VYATICHI)), CENTRAL_970(), EAST_970(z('byzantium', 'byzantium', 'byzantium', BYZANTIUM_970_LAND, { sea: SEA_970 })),
+  BRITAIN_970(), SCANDINAVIA_970(), WEST_970(), joined('rus', 'rus', 'rusSviatoslav', [z('rusbulgaria', 'rus', 'rusBulgaria', BULGARIA_EAST),
+  z('rus', 'rus', 'rus', U(RUS_907, VYATICHI))], { span: '969 – 971' }), CENTRAL_970(), EAST_970(z('byzantium', 'byzantium', 'byzantium', BYZANTIUM_970_LAND, { sea: SEA_970 })),
   S.balts(), S.north(), S.slavs(),
 ]);
 // 971: John Tzimiskes takes Preslav and besieges the Rus' in Dorostolon
@@ -891,90 +910,92 @@ period('971', 971, 971, [
   EAST_970(z('byzantium', 'byzantium', 'byzantium', U(BYZANTIUM_970_LAND, BULGARIA_EAST), { sea: SEA_970 })), S.balts(), S.north(), S.slavs(),
 ]);
 // 985 – 1014: the Norse world about 1000, from Greenland to Vladimir's Rus'
-const BRITAIN_1000 = () => [S.isles(), S.orkney(ORKNEY_990), S.strathclyde910(), S.alba(SCOT_TWEED), S.wales(), S.dublin(), S.waterford(), S.wexford(), S.irish()];
-const NORTH_ATLANTIC = () => [S.faroes(), z('iceland', 'norse', 'iceland', ICELAND), z('greenland-e', 'norse', 'greenlandE', GREENLAND_E),
-  z('greenland-w', 'norse', 'greenlandW', GREENLAND_W)];
+const BRITAIN_1000 = () => [S.isles(), S.orkney(ORKNEY_990), S.strathclyde910(), S.alba(SCOT_TWEED), S.wales(), S.dublin(), TOWNS(), S.irish()];
+const GREENLAND = () => joined('greenland', 'greenland', 'greenland', [z('greenland-e', 'greenland', 'greenlandE', GREENLAND_E),
+  z('greenland-w', 'greenland', 'greenlandW', GREENLAND_W)]);
+const NORTH_ATLANTIC = () => [S.faroes(), z('iceland', 'iceland', 'iceland', ICELAND), GREENLAND()];
 const RHODOPES = poly([23.6, 41.3], [24.3, 41.45], [25.0, 41.65], [25.6, 42.0], [25.0, 42.4], [24.6, 42.6], [24.3, 42.9], [24.4, 42.4], [24.2, 41.8], [23.6, 41.4]);
 const BYZANTIUM_1000_LAND = U(BYZANTIUM_970, BULGARIA_EAST, RHODOPES, CHERSON, CRETE, CYPRUS, BYZ_ITALY, CORFU);
-const CENTRAL_1000 = () => [z('hre', 'franks', 'hre', U(GERMANY_1000, ITALY)), z('polabians', 'other', 'polabians', POLABIANS), z('poland', 'other', 'poland', POLAND_1000),
-  z('hungary', 'other', 'hungary', HUNGARY_1000), z('bohemia', 'other', 'bohemia', BOHEMIA_ROUGH), z('croatia', 'other', 'croatia', CROATIA)];
-const SOUTH_1000 = () => [z('leon', 'other', 'leon', LEON), z('navarre', 'other', 'pamplona', NAVARRE), z('cordoba', 'islam', 'cordobaC', IBERIA, { sea: BALEARIC_SEA }),
-  z('zenata', 'islam', 'zenata', U(MOROCCO, ALGERIA_W)), z('zirids', 'islam', 'zirids', IFRIQIYA), z('sicily', 'islam', 'sicily', SICILY)];
-const EAST_1000 = () => [z('rus', 'rus', 'rus', RUS_1000), z('tmutarakan', 'rus', 'tmutarakan', TMUTARAKAN), z('vbulgars', 'steppe', 'vbulgars', VOLGA_BULGARIA),
-  z('alania', 'other', 'alania', ALANIA), z('oghuz', 'steppe', 'oghuz', OGHUZ), S.caucasus().slice(1), z('ghaznavids', 'islam', 'ghaznavids', KHORASAN),
-  z('jazira', 'islam', 'jazira', JAZIRA), z('fatimids', 'islam', 'fatimids', U(FATIMID_SYRIA, CYRENAICA), { sea: [SEA_LEVANT] }), z('buyids', 'islam', 'buyids', NEAR_EAST)];
+const CENTRAL_1000 = () => [z('hre', 'efrancia', 'hre', U(GERMANY_1000, ITALY)), z('polabians', 'polabians', 'polabians', POLABIANS), z('poland', 'poland', 'poland', POLAND_1000),
+  z('hungary', 'hungary', 'hungary', HUNGARY_1000), z('bohemia', 'bohemia', 'bohemia', BOHEMIA_ROUGH), z('croatia', 'croatia', 'croatia', CROATIA)];
+const SOUTH_1000 = () => [z('leon', 'leon', 'leon', LEON), z('navarre', 'navarre', 'pamplona', NAVARRE), z('cordoba', 'cordoba', 'cordobaC', IBERIA, { sea: BALEARIC_SEA }),
+  z('zenata', 'zenata', 'zenata', U(MOROCCO, ALGERIA_W)), z('zirids', 'zirids', 'zirids', IFRIQIYA), z('sicily', 'sicily', 'sicily', SICILY)];
+const RUS_1000_ZONE = () => joined('rus', 'rus', 'rus', [z('rus', 'rus', 'rus', RUS_1000), z('tmutarakan', 'rus', 'tmutarakan', TMUTARAKAN)]);
+const EAST_1000 = () => [RUS_1000_ZONE(), z('vbulgars', 'vbulgars', 'vbulgars', VOLGA_BULGARIA),
+  z('alania', 'alania', 'alania', ALANIA), z('oghuz', 'oghuz', 'oghuz', OGHUZ), S.caucasus().slice(1), z('ghaznavids', 'ghaznavids', 'ghaznavids', KHORASAN),
+  z('jazira', 'jazira', 'jazira', JAZIRA), z('fatimids', 'fatimids', 'fatimids', U(FATIMID_SYRIA, CYRENAICA), { sea: [SEA_LEVANT] }), z('buyids', 'buyids', 'buyids', NEAR_EAST)];
 period('1000', 985, 1014, [
   BRITAIN_1000(), z('england', 'english', 'england', ENGLAND_TWEED), NORTH_ATLANTIC(),
   z('denmark', 'danes', 'denmark', DENMARK), z('norway', 'norway', 'norwayOlafT', NORWAY, { span: '995 – 1000' }), z('sweden', 'swedes', 'swedes', SWEDEN, { sea: [SEA_GOTLAND] }),
-  z('normandy', 'normans', 'normandy', NORMANDY, { span: '933 – 1066' }), z('brittany', 'celts', 'brittany', BRITTANY), z('france', 'franks', 'france', WEST_FRANCIA),
-  z('burgundy', 'franks', 'burgundy', U(UPPER_BURGUNDY, PROVENCE)), CENTRAL_1000(), SOUTH_1000(),
-  z('bulgaria', 'bulgaria', 'bulgaria', BULGARIA_1000), z('serbs', 'other', 'serbs', SERBS),
-  z('byzantium', 'byzantium', 'byzantium', BYZANTIUM_1000_LAND, { sea: SEA_970 }), z('lombards', 'other', 'lombards', BENEVENTO), EAST_1000(),
-  z('pechenegs', 'steppe', 'pechenegs', PECHENEGS_1000),
+  z('normandy', 'normans', 'normandy', NORMANDY, { span: '933 – 1066' }), z('brittany', 'brittany', 'brittany', BRITTANY), z('france', 'franks', 'france', WEST_FRANCIA),
+  z('burgundy', 'burgundy', 'burgundy', U(UPPER_BURGUNDY, PROVENCE)), CENTRAL_1000(), SOUTH_1000(),
+  z('bulgaria', 'bulgaria', 'bulgaria', BULGARIA_1000), z('serbs', 'serbs', 'serbs', SERBS),
+  z('byzantium', 'byzantium', 'byzantium', BYZANTIUM_1000_LAND, { sea: SEA_970 }), z('lombards', 'lombards', 'lombards', BENEVENTO), EAST_1000(),
+  z('pechenegs', 'pechenegs', 'pechenegs', PECHENEGS_1000),
   S.balts(), S.north(),
 ]);
 // 1013 – 1014: Sweyn Forkbeard takes England
 const SCOT_1000 = () => [S.isles(), S.orkney(ORKNEY_990), S.strathclyde910(), S.alba(SCOT_TWEED), S.wales()];
 period('1013', 1013, 1014, [
-  SCOT_1000(), z('england', 'danes', 'englandSweyn', ENGLAND_TWEED), S.dublin(), S.waterford(), S.wexford(), S.irish(), S.faroes(),
+  SCOT_1000(), z('england', 'danes', 'englandSweyn', ENGLAND_TWEED), S.dublin(), TOWNS(), S.irish(), S.faroes(),
   z('denmark', 'danes', 'denmark', DENMARK), z('norway', 'norway', 'norwayLade', NORWAY, { span: '1000 – 1015' }), z('sweden', 'swedes', 'swedes', SWEDEN, { sea: [SEA_GOTLAND] }),
-  z('normandy', 'normans', 'normandy', NORMANDY, { span: '933 – 1066' }), z('brittany', 'celts', 'brittany', BRITTANY), z('france', 'franks', 'france', WEST_FRANCIA),
-  z('hre', 'franks', 'hre', U(GERMANY_1000, ITALY)), z('polabians', 'other', 'polabians', POLABIANS),
+  z('normandy', 'normans', 'normandy', NORMANDY, { span: '933 – 1066' }), z('brittany', 'brittany', 'brittany', BRITTANY), z('france', 'franks', 'france', WEST_FRANCIA),
+  z('hre', 'efrancia', 'hre', U(GERMANY_1000, ITALY)), z('polabians', 'polabians', 'polabians', POLABIANS),
 ]);
 // 1015 – 1027: Edmund Ironside's Wessex and Cnut's north after Assandun; Olaf Haraldsson's Norway
 const WESSEX_1016 = U(WESSEX_SOUTH, CORNWALL);
 period('1016', 1015, 1027, [
   SCOT_1000(), z('wessex', 'english', 'wessexEdmund', WESSEX_1016, { span: '1016' }), z('england', 'danes', 'cnutNorth', D(ENGLAND_TWEED, WESSEX_1016), { span: '1016' }),
-  S.dublin(), S.waterford(), S.wexford(), S.irish(), NORTH_ATLANTIC(),
+  S.dublin(), TOWNS(), S.irish(), NORTH_ATLANTIC(),
   z('denmark', 'danes', 'denmark', DENMARK), z('norway', 'norway', 'norwayOlafH', NORWAY, { span: '1015 – 1028' }), z('sweden', 'swedes', 'swedes', SWEDEN, { sea: [SEA_GOTLAND] }),
-  z('normandy', 'normans', 'normandy', NORMANDY, { span: '933 – 1066' }), z('brittany', 'celts', 'brittany', BRITTANY), z('france', 'franks', 'france', WEST_FRANCIA),
-  z('hre', 'franks', 'hre', U(GERMANY_1000, ITALY)), z('polabians', 'other', 'polabians', POLABIANS), z('poland', 'other', 'poland', POLAND_1000),
-  z('rus', 'rus', 'rus', RUS_1000), S.balts(), S.north(),
+  z('normandy', 'normans', 'normandy', NORMANDY, { span: '933 – 1066' }), z('brittany', 'brittany', 'brittany', BRITTANY), z('france', 'franks', 'france', WEST_FRANCIA),
+  z('hre', 'efrancia', 'hre', U(GERMANY_1000, ITALY)), z('polabians', 'polabians', 'polabians', POLABIANS), z('poland', 'poland', 'poland', POLAND_1000),
+  RUS_1000_ZONE(), S.balts(), S.north(),
 ]);
 // 1028 – 1035: Cnut's North Sea empire; Scotland with Lothian and Strathclyde
-const BRITAIN_1030 = () => [S.isles(), S.orkney(ORKNEY_990), z('scotland', 'celts', 'scotland', SCOT_TWEED), S.wales(), S.dublin(), S.ireland()];
+const BRITAIN_1030 = () => [S.isles(), S.orkney(ORKNEY_990), z('scotland', 'alba', 'scotland', SCOT_TWEED), S.wales(), S.dublin(), S.ireland()];
 period('1030', 1028, 1035, [
-  BRITAIN_1030(), z('england', 'danes', 'englandCnut', ENGLAND_TWEED), NORTH_ATLANTIC(),
-  z('denmark', 'danes', 'denmark', DENMARK), z('norway', 'danes', 'norwayCnut', NORWAY, { span: '1028 – 1035' }), z('sweden', 'swedes', 'swedes', SWEDEN, { sea: [SEA_GOTLAND] }),
-  z('normandy', 'normans', 'normandy', NORMANDY, { span: '933 – 1066' }), z('brittany', 'celts', 'brittany', BRITTANY), z('france', 'franks', 'france', WEST_FRANCIA),
-  z('hre', 'franks', 'hre', U(GERMANY_1000, ITALY)), z('burgundy', 'franks', 'burgundy', U(UPPER_BURGUNDY, PROVENCE)),
-  z('polabians', 'other', 'polabians', POLABIANS), z('poland', 'other', 'poland', POLAND_1000), z('hungary', 'other', 'hungary', HUNGARY_1000),
-  z('bohemia', 'other', 'bohemia', BOHEMIA_ROUGH), z('croatia', 'other', 'croatia', CROATIA), z('leon', 'other', 'leon', LEON), z('navarre', 'other', 'pamplona', NAVARRE),
-  z('cordoba', 'islam', 'taifas', IBERIA, { sea: BALEARIC_SEA }), z('sicily', 'islam', 'sicily', SICILY),
+  BRITAIN_1030(), NORTH_ATLANTIC(), joined('cnut', 'danes', 'cnutEmpire', [z('england', 'danes', 'englandCnut', ENGLAND_TWEED),
+    z('denmark', 'danes', 'denmark', DENMARK), z('norway', 'danes', 'norwayCnut', NORWAY)], { span: '1028 – 1035' }), z('sweden', 'swedes', 'swedes', SWEDEN, { sea: [SEA_GOTLAND] }),
+  z('normandy', 'normans', 'normandy', NORMANDY, { span: '933 – 1066' }), z('brittany', 'brittany', 'brittany', BRITTANY), z('france', 'franks', 'france', WEST_FRANCIA),
+  z('hre', 'efrancia', 'hre', U(GERMANY_1000, ITALY)), z('burgundy', 'burgundy', 'burgundy', U(UPPER_BURGUNDY, PROVENCE)),
+  z('polabians', 'polabians', 'polabians', POLABIANS), z('poland', 'poland', 'poland', POLAND_1000), z('hungary', 'hungary', 'hungary', HUNGARY_1000),
+  z('bohemia', 'bohemia', 'bohemia', BOHEMIA_ROUGH), z('croatia', 'croatia', 'croatia', CROATIA), z('leon', 'leon', 'leon', LEON), z('navarre', 'navarre', 'pamplona', NAVARRE),
+  z('cordoba', 'cordoba', 'taifas', IBERIA, { sea: BALEARIC_SEA }), z('sicily', 'sicily', 'sicily', SICILY),
   z('byzantium', 'byzantium', 'byzantium', U(BYZANTIUM_1066, CHERSON, CRETE, CYPRUS, BYZ_ITALY), { sea: [SEA_CHERSON, SEA_CRETE, SEA_CORFU, sea([[33.3, 35.35], [32.9, 36.08]])] }),
-  z('serbs', 'other', 'serbs', SERBS), z('lombards', 'other', 'lombards', BENEVENTO), z('rus', 'rus', 'rus', RUS_1000), S.balts(), S.north(),
+  z('serbs', 'serbs', 'serbs', SERBS), z('lombards', 'lombards', 'lombards', BENEVENTO), RUS_1000_ZONE(), S.balts(), S.north(),
 ]);
 // 1047 – 1066: Harald Hardrada's Norway, Harold's England, William's Normandy; Byzantium before Manzikert
 period('1066', 1047, 1066, [
-  BRITAIN_1030(), z('england', 'english', 'england', ENGLAND_TWEED), z('faroes', 'norway', 'faroesNorway', FAROES), z('iceland', 'norse', 'iceland', ICELAND),
-  z('greenland-e', 'norse', 'greenlandE', GREENLAND_E), z('greenland-w', 'norse', 'greenlandW', GREENLAND_W),
-  z('denmark', 'danes', 'denmark', DENMARK), S.norway(), z('sweden', 'swedes', 'sweden', SWEDEN, { sea: [SEA_GOTLAND] }),
-  z('normandy', 'normans', 'normandy', NORMANDY, { span: '933 – 1066' }), z('brittany', 'celts', 'brittany', BRITTANY), z('france', 'franks', 'france', WEST_FRANCIA),
-  z('hre', 'franks', 'hre', U(GERMANY_1000, ITALY, UPPER_BURGUNDY, PROVENCE)), z('polabians', 'other', 'polabiansPom', POLABIANS_POMERANIA),
-  z('poland', 'other', 'poland', POLAND_1066), z('hungary', 'other', 'hungary', HUNGARY_1000), z('bohemia', 'other', 'bohemia', BOHEMIA_ROUGH),
-  z('croatia', 'other', 'croatia', CROATIA), z('normans-italy', 'normans', 'normansItaly', BYZ_ITALY),
+  BRITAIN_1030(), z('england', 'english', 'england', ENGLAND_TWEED), z('iceland', 'iceland', 'iceland', ICELAND), GREENLAND(),
+  z('denmark', 'danes', 'denmark', DENMARK), joined('norway', 'norway', 'norway', [S.norway(), z('faroes', 'norway', 'faroesNorway', FAROES)]), z('sweden', 'swedes', 'sweden', SWEDEN, { sea: [SEA_GOTLAND] }),
+  z('normandy', 'normans', 'normandy', NORMANDY, { span: '933 – 1066' }), z('brittany', 'brittany', 'brittany', BRITTANY), z('france', 'franks', 'france', WEST_FRANCIA),
+  z('hre', 'efrancia', 'hre', U(GERMANY_1000, ITALY, UPPER_BURGUNDY, PROVENCE)), z('polabians', 'polabians', 'polabiansPom', POLABIANS_POMERANIA),
+  z('poland', 'poland', 'poland', POLAND_1066), z('hungary', 'hungary', 'hungary', HUNGARY_1000), z('bohemia', 'bohemia', 'bohemia', BOHEMIA_ROUGH),
+  z('croatia', 'croatia', 'croatia', CROATIA), z('normans-italy', 'normans-italy', 'normansItaly', BYZ_ITALY),
   z('byzantium', 'byzantium', 'byzantium', U(BYZANTIUM_1066, CHERSON, CRETE, CYPRUS), { sea: [SEA_CHERSON, SEA_CRETE, sea([[33.3, 35.35], [32.9, 36.08]])] }),
-  z('serbs', 'other', 'serbs', SERBS), z('leon', 'other', 'castile', LEON), z('navarre', 'other', 'navarre', NAVARRE), z('cordoba', 'islam', 'taifas', IBERIA, { sea: BALEARIC_SEA }),
-  z('zenata', 'islam', 'zenata', U(MOROCCO, ALGERIA_W)), z('zirids', 'islam', 'zirids', IFRIQIYA), z('sicily', 'islam', 'sicily', SICILY),
-  z('lombards', 'other', 'lombards', BENEVENTO), z('rus', 'rus', 'rus', RUS_1000), z('tmutarakan', 'rus', 'tmutarakan', TMUTARAKAN),
-  z('vbulgars', 'steppe', 'vbulgars', VOLGA_BULGARIA), z('alania', 'other', 'alania', ALANIA), z('cumans', 'steppe', 'cumans', CUMANS),
-  z('georgia', 'other', 'georgia', GEORGIA), z('shirvan', 'islam', 'shirvan', SHIRVAN), z('jazira', 'islam', 'jazira', JAZIRA),
-  z('fatimids', 'islam', 'fatimids', U(FATIMID_SYRIA, CYRENAICA), { sea: [SEA_LEVANT] }), z('seljuks', 'islam', 'seljuks', U(NEAR_EAST, ARMENIA, AZERBAIJAN, CASPIAN_S, KHORASAN)),
+  z('serbs', 'serbs', 'serbs', SERBS), z('leon', 'leon', 'castile', LEON), z('navarre', 'navarre', 'navarre', NAVARRE), z('cordoba', 'cordoba', 'taifas', IBERIA, { sea: BALEARIC_SEA }),
+  z('zenata', 'zenata', 'zenata', U(MOROCCO, ALGERIA_W)), z('zirids', 'zirids', 'zirids', IFRIQIYA), z('sicily', 'sicily', 'sicily', SICILY),
+  z('lombards', 'lombards', 'lombards', BENEVENTO), RUS_1000_ZONE(),
+  z('vbulgars', 'vbulgars', 'vbulgars', VOLGA_BULGARIA), z('alania', 'alania', 'alania', ALANIA), z('cumans', 'cumans', 'cumans', CUMANS),
+  z('georgia', 'georgia', 'georgia', GEORGIA), z('shirvan', 'shirvan', 'shirvan', SHIRVAN), z('jazira', 'jazira', 'jazira', JAZIRA),
+  z('fatimids', 'fatimids', 'fatimids', U(FATIMID_SYRIA, CYRENAICA), { sea: [SEA_LEVANT] }), z('seljuks', 'seljuks', 'seljuks', U(NEAR_EAST, ARMENIA, AZERBAIJAN, CASPIAN_S, KHORASAN)),
   S.balts(), S.north(),
 ]);
 // 1261 – 1265: Largs; Iceland and Greenland under the Norwegian crown, the Isles still Norway's
-const NORWAY_1263 = () => [S.norway(), z('faroes', 'norway', 'faroesNorway', FAROES), z('iceland', 'norway', 'icelandNorway', ICELAND),
+const NORWAY_1263 = () => joined('norway', 'norway', 'norwayRealm', [S.norway(), z('faroes', 'norway', 'faroesNorway', FAROES), z('iceland', 'norway', 'icelandNorway', ICELAND),
   z('greenland-e', 'norway', 'greenlandENorway', GREENLAND_E), z('greenland-w', 'norway', 'greenlandWNorway', GREENLAND_W),
-  z('orkney', 'norway', 'orkneyNorway', NORTHERN_ISLES)];
-const IRELAND_1263 = () => [z('lordship', 'english', 'lordship', LORDSHIP), z('gaelic', 'celts', 'gaelic', IRELAND)];
+  z('orkney', 'norway', 'orkneyNorway', NORTHERN_ISLES)]);
+const ENGLAND_1263 = () => [joined('england', 'english', 'englandIreland', [z('england', 'english', 'england', ENGLAND_1092), z('lordship', 'english', 'lordship', LORDSHIP)]),
+  z('gaelic', 'celts', 'gaelic', IRELAND)];
 period('1263', 1261, 1265, [
-  NORWAY_1263(), z('isles', 'norse', 'mann', U(HEBRIDES, MAN), { sea: [SEA_MAN] }), z('scotland', 'celts', 'scotland', SCOT_1092),
-  z('wales', 'celts', 'principalityWales', WALES), z('england', 'english', 'england', ENGLAND_1092), IRELAND_1263(),
+  NORWAY_1263(), z('isles', 'isles', 'mann', U(HEBRIDES, MAN), { sea: [SEA_MAN] }), z('scotland', 'alba', 'scotland', SCOT_1092),
+  z('wales', 'wales', 'principalityWales', WALES), ENGLAND_1263(),
 ]);
 // 1266 – 1349: the Isles and Man to Scotland by the treaty of Perth; Greenland's Western Settlement empty by about 1350
 period('1266', 1266, 1349, [
-  NORWAY_1263(), z('scotland', 'celts', 'scotland', U(SCOT_1092, MAN), { sea: [SEA_MAN] }), z('wales', 'celts', 'principalityWales', WALES),
-  z('england', 'english', 'england', ENGLAND_1092), IRELAND_1263(),
+  NORWAY_1263(), z('scotland', 'alba', 'scotland', U(SCOT_1092, MAN), { sea: [SEA_MAN] }), z('wales', 'wales', 'principalityWales', WALES),
+  ENGLAND_1263(),
 ]);
 
 
@@ -993,11 +1014,12 @@ const PAGES = {
 };
 const CLOSE_KM = 150;   // a page whose bbox is smaller than this both ways is a close view
 // pages that show their subject across the whole Viking age take the Norse realms of about 1000 alone
-const NORSE = ['danes', 'norway', 'swedes', 'rus', 'norse', 'normans'];
+const NORSE = ['danes', 'fiveboroughs', 'norway', 'petty', 'lade', 'swedes', 'gotar', 'rus', 'norse', 'york', 'towns', 'isles', 'orkney', 'faroes', 'iceland',
+  'greenland', 'normans', 'normans-italy'];
 for (const page of ['society', 'thing', 'gods', 'silver', 'runes', 'warfare']) PAGES[page] = ['1000', NORSE];
 
 
-// --- settle each period: land first, then corridors, then the sea; one Polygon per zone ---
+// --- settle each period: land first, then corridors, then the sea; one Polygon per zone, a MultiPolygon for a joined state ---
 const STORYLAND = LAND_NAMES.map(n => COUNTRY[n]).filter(Boolean);
 const meeting = (list, g) => { const b = box(g); return list.filter(q => meets(q.bbox ??= turf.bbox(q), b)); };
 // the outline a zone grows from: its pieces over half a square kilometre, without holes, a little simplified
@@ -1041,7 +1063,15 @@ function settle(p) {
     }
   }
   if (errors.length) throw new Error(errors.join('\n'));
-  return final;
+  // the pieces of a joined state become one zone, in the place of its first piece
+  const states = [], byJoin = {};
+  for (const o of final) {
+    const j = o.join && byJoin[o.join.key];
+    if (j) { j.g = U(j.g, o.g); j.landPart = U(j.landPart, o.landPart); j.parts.push(o.landPart); }
+    else if (o.join) states.push(byJoin[o.join.key] = { ...o.join, g: o.g, landPart: o.landPart, parts: [o.landPart] });
+    else states.push(o);
+  }
+  return states;
 }
 
 // the periods settle in parallel worker threads, each of which evaluates this file up to here
@@ -1051,7 +1081,7 @@ if (!isMainThread) {
   for (const id of workerData.ids) {
     const t = Date.now();
     try {
-      out[id] = settle(PERIODS.find(p => p.id === id)).map(({ key, family, en, tr, span, g, landPart }) => ({ key, family, en, tr, span, g, landPart }));
+      out[id] = settle(PERIODS.find(p => p.id === id)).map(({ key, family, en, tr, span, g, landPart, parts }) => ({ key, family, en, tr, span, g, landPart, parts }));
     } catch (e) { out[id] = { error: e.message }; }
     console.log(`${id}: ${out[id].error ? 'failed' : `${out[id].length} zones`}, ${((Date.now() - t) / 1000).toFixed(1)} s`);
   }
@@ -1103,7 +1133,7 @@ async function main() {
       let zn = e && e.zn.family === o.family && e.zn.en === o.en && e.zn.tr === o.tr && e.zn.span === o.span && e.to + 30 >= p.from && same(e.zn.landPart, o.landPart) ? e.zn : null;
       if (!zn) {
         const id = ZONES[`${o.key}-${p.id}`] ? `${o.key}-${p.id}b` : `${o.key}-${p.id}`;
-        zn = ZONES[id] = { id, key: o.key, family: o.family, en: o.en, tr: o.tr, span: o.span, g: o.g, landPart: o.landPart, periods: [] };
+        zn = ZONES[id] = { id, key: o.key, family: o.family, en: o.en, tr: o.tr, span: o.span, g: o.g, landPart: o.landPart, parts: o.parts, periods: [] };
       }
       zn.periods.push(p);
       p.ids[o.key] = zn.id;
@@ -1116,8 +1146,108 @@ async function main() {
     zn.name = { en: `${zn.en}, ${span}`, tr: `${zn.tr}, ${span}` };
   }
 
+  // --- the zones each page lists ---
+  // the legend lists the Norse first, then the powers around them, then the peoples
+  const FAMILY_ORDER = ['danes', 'fiveboroughs', 'norway', 'petty', 'lade', 'swedes', 'gotar', 'rus', 'norse', 'york', 'towns', 'isles', 'orkney', 'faroes',
+    'iceland', 'greenland', 'normans', 'normans-italy',
+    'english', 'mercia', 'northumbria', 'eanglia', 'alba', 'dalriata', 'strathclyde', 'wales', 'cornwall', 'celts', 'munster', 'leinster', 'connacht', 'mide',
+    'ulaid', 'ailech', 'brittany',
+    'franks', 'efrancia', 'mfrancia', 'lotharingia', 'provence', 'burgundy', 'italy', 'lombards', 'moravia', 'poland', 'bohemia', 'hungary', 'croatia', 'serbs',
+    'byzantium', 'bulgaria', 'khazars', 'vbulgars', 'pechenegs', 'oghuz', 'cumans', 'avars', 'alania', 'georgia', 'armenia', 'abkhazia',
+    'leon', 'navarre', 'cordoba', 'idrisids', 'nekor', 'rustamids', 'aghlabids', 'zenata', 'zirids', 'sicily', 'bari', 'crete', 'fatimids', 'abbasids', 'jazira',
+    'buyids', 'samanids', 'ghaznavids', 'seljuks', 'azerbaijan', 'caspian', 'shirvan',
+    'finns', 'sami', 'balts', 'slavs', 'polabians', 'drevlians', 'peoples'];
+  for (const zn of Object.values(ZONES)) if (!FAMILY_ORDER.includes(zn.family)) throw new Error(`${zn.id}: family ${zn.family} is not in FAMILY_ORDER`);
+  // a page lists the zones of its period that reach into its view: the bbox widened to a square map and a margin
+  const PAGE_BBOX = {};
+  const walk = dir => { for (const e of fs.readdirSync(dir, { withFileTypes: true })) if (e.isDirectory()) {
+    const sub = path.join(dir, e.name), file = path.join(sub, 'page.yaml');
+    if (fs.existsSync(file)) PAGE_BBOX[e.name.replace(/^\d+-/, '')] = yaml.load(fs.readFileSync(file, 'utf8'))?.bbox;
+    walk(sub);
+  } };
+  walk(path.join(story, 'pages'));
+  // the map fits a page's bbox in a frame about 1.2 times as wide as high, with a margin
+  const view = ([w, s, e, n]) => {
+    const k = Math.cos((s + n) / 2 * Math.PI / 180), dx = (e - w) * k, dy = n - s;
+    const hx = Math.max(dx, dy * 1.2) * 0.53, hy = Math.max(dy, dx / 1.2) * 0.53, cx = (w + e) / 2, cy = (s + n) / 2;
+    return turf.bboxPolygon([cx - hx / k, cy - hy, cx + hx / k, cy + hy]);
+  };
+  // pages whose view spans half of Europe list only the realms their events touch, so the legend stays short; by state
+  const PAGE_ONLY = {
+    hardrada: ['denmark', 'norway', 'sweden', 'rus', 'normans-italy', 'hre', 'byzantium', 'sicily', 'cumans', 'hungary', 'poland'],
+    cnut: ['cnut', 'sweden', 'orkney', 'normandy', 'scotland', 'wales', 'hre', 'france', 'burgundy', 'poland'],
+    sviatoslav: ['rus', 'byzantium', 'bulgaria', 'pechenegs', 'oghuz', 'vbulgars', 'hungary', 'alania', 'slavs'],
+  };
+  // states a page leaves out: slivers at the edge of a wide view that the text does not name
+  const PAGE_DROP = { ladoga: ['eanglia', 'cordoba', 'benevento'] };
+  // states a page draws as one zone: the peoples and states at its edge that its text does not name, or kingdoms whose
+  // borders it does not need
+  const others = (...keys) => ({ key: 'others', family: 'peoples', name: 'others', keys });
+  const othersStates = (...keys) => ({ key: 'others', family: 'peoples', name: 'othersStates', keys });
+  const PAGE_MERGE = {
+    scandinavia: [others('slavs', 'balts')],
+    longships: [others('slavs', 'balts')],
+    ladoga: [othersStates('oghuz', 'avars', 'vbulgars', 'finns', 'sami', 'balts', 'abkhazia')],
+    'paris-845': [others('slavs', 'obotrites')],
+    'rurik-oleg': [othersStates('vbulgars', 'balts', 'armenia', 'georgia', 'alania', 'shirvan')],
+    volga: [othersStates('hungary', 'finns', 'slavs', 'balts', 'armenia', 'georgia', 'alania')],
+    'igor-olga': [othersStates('slavs', 'alania')],
+    sviatoslav: [othersStates('oghuz', 'slavs', 'alania')],
+    orkney: [{ key: 'ireland', family: 'celts', name: 'ireland', keys: ['munster', 'connacht', 'ailech', 'leinster', 'mide', 'ulaid'] }],
+    'vladimir-yaroslav': [othersStates('oghuz', 'finns', 'balts', 'georgia', 'croatia', 'bohemia', 'alania', 'polabians', 'serbs', 'lombards')],
+    'olaf-tryggvason': [others('finns', 'sami', 'balts')],
+    'olaf-haraldsson': [others('finns', 'sami', 'balts', 'polabians')],
+    stiklestad: [others('finns', 'sami', 'balts')],
+    hardrada: [othersStates('cumans', 'hungary', 'poland')],
+    fulford: [othersStates('polabians', 'bohemia')],
+  };
+  const sizeKm = ([w, s, e, n]) => [(e - w) * 111.32 * Math.cos((s + n) / 2 * Math.PI / 180), (n - s) * 110.57];
+  const PAGE_ZONES = {}, missing = [];
+  for (const [page, entry] of Object.entries(PAGES)) {
+    const [pid, families] = Array.isArray(entry) ? entry : [entry, null];
+    const p = PERIODS.find(q => q.id === pid);
+    if (!p) throw new Error(`${page}: unknown period ${pid}`);
+    if (!p.ids) continue;
+    const bbox = PAGE_BBOX[page];
+    if (!bbox) { missing.push(page); continue; }
+    if (sizeKm(bbox).every(x => x < CLOSE_KM)) { PAGE_ZONES[page] = []; continue; }
+    // a zone is listed when its land in view is at least half a percent of all land in view, or when it is a small Norse
+    // realm seen whole, piece by piece for a joined state; a sliver at the edge of a wide view is left out
+    const v = view(bbox);
+    const order = id => [FAMILY_ORDER.indexOf(ZONES[id].family), -km2(ZONES[id].landPart)];
+    const seen = Object.fromEntries(Object.values(p.ids).filter(id => !families || families.includes(ZONES[id].family))
+      .map(id => [id, (ZONES[id].parts ?? [ZONES[id].landPart]).map(q => [km2(I(q, v)), km2(q)])]));
+    const inView = Object.fromEntries(Object.entries(seen).map(([id, parts]) => [id, parts.reduce((a, [x]) => a + x, 0)]));
+    const total = Object.values(inView).reduce((a, b) => a + b, 0);
+    const whole = id => seen[id].some(([x, all]) => x > 0 && x >= all * 0.98);
+    const norseHalf = id => NORSE.includes(ZONES[id].family) && seen[id].some(([x, all]) => x > 0 && x >= all / 2);
+    let ids = Object.keys(inView).filter(id => inView[id] > 0 && (whole(id) || inView[id] >= total * 0.005 || norseHalf(id)));
+    // a legend over 20 rows loses its smallest zones cut by the edge of the view; Norse realms and zones seen whole stay
+    const edge = ids.filter(id => !NORSE.includes(ZONES[id].family) && !whole(id) && inView[id] < total * 0.02).sort((a, b) => inView[a] - inView[b]);
+    while (ids.length > 20 && edge.length) ids.splice(ids.indexOf(edge.shift()), 1);
+    const keyed = (keys, what) => { for (const k of keys) if (!ids.some(id => ZONES[id].key === k)) throw new Error(`${page}: ${what} ${k}, which the page does not list`); };
+    if (PAGE_ONLY[page]) { keyed(PAGE_ONLY[page], 'only'); ids = ids.filter(id => PAGE_ONLY[page].includes(ZONES[id].key)); }
+    if (PAGE_DROP[page]) { keyed(PAGE_DROP[page], 'drops'); ids = ids.filter(id => !PAGE_DROP[page].includes(ZONES[id].key)); }
+    for (const m of PAGE_MERGE[page] ?? []) {
+      keyed(m.keys, `merges into ${m.key}`);
+      const members = ids.filter(id => m.keys.includes(ZONES[id].key)), sig = members.slice().sort().join();
+      let zn = Object.values(ZONES).find(o => o.sig === sig && o.key === m.key);
+      if (!zn) {
+        const id = [`${m.key}-${pid}`, ...'bcdefgh'.split('').map(c => `${m.key}-${pid}${c}`)].find(x => !ZONES[x]);
+        const [en, tr] = N[m.name], span = years(p.from, p.to);
+        zn = ZONES[id] = { id, key: m.key, family: m.family, en, tr, sig, g: U(members.map(x => ZONES[x].g)), landPart: U(members.map(x => ZONES[x].landPart)),
+          periods: [p], name: { en: `${en}, ${span}`, tr: `${tr}, ${span}` } };
+      }
+      ids = [...ids.filter(id => !members.includes(id)), zn.id];
+    }
+    PAGE_ZONES[page] = ids.sort((a, b) => { const [fa, sa] = order(a), [fb, sb] = order(b); return fa - fb || sa - sb; });
+    for (const f of new Set(ids.map(id => ZONES[id].family))) if (ids.filter(id => ZONES[id].family === f).length > 1) throw new Error(`${page}: family ${f} has two zones`);
+    if (ids.length > 15) throw new Error(`${page}: ${ids.length} zones, more than the legend holds`);
+  }
+  if (missing.length) console.log(`no page.yaml with a bbox yet: ${missing.join(', ')}`);
+
   // --- shared borders carry the same points: a vertex of one zone that lies on another's edge is added to it ---
-  const rings = g => g.geometry.coordinates;
+  const rings = g => g.geometry.type === 'Polygon' ? g.geometry.coordinates : g.geometry.coordinates.flat(1);
   const all = Object.values(ZONES).map(zn => ({ zn, bbox: turf.bbox(zn.g), points: rings(zn.g).flat() }));
   for (const target of all) {
     const [w, s, e, n] = target.bbox;
@@ -1140,69 +1270,41 @@ async function main() {
     }
   }
 
-  // --- write the zones, the page map and the Turkish names ---
-  // the legend lists the Norse first, then the powers around them, then the peoples
-  const FAMILY_ORDER = ['danes', 'norway', 'swedes', 'rus', 'norse', 'normans', 'english', 'anglo', 'celts', 'franks', 'byzantium', 'islam', 'bulgaria', 'steppe', 'other'];
-  // a page lists the zones of its period that reach into its view: the bbox widened to a square map and a margin
-  const PAGE_BBOX = {};
-  const walk = dir => { for (const e of fs.readdirSync(dir, { withFileTypes: true })) if (e.isDirectory()) {
-    const sub = path.join(dir, e.name), file = path.join(sub, 'page.yaml');
-    if (fs.existsSync(file)) PAGE_BBOX[e.name.replace(/^\d+-/, '')] = yaml.load(fs.readFileSync(file, 'utf8'))?.bbox;
-    walk(sub);
-  } };
-  walk(path.join(story, 'pages'));
-  // the map fits a page's bbox in a frame about 1.2 times as wide as high, with a margin
-  const view = ([w, s, e, n]) => {
-    const k = Math.cos((s + n) / 2 * Math.PI / 180), dx = (e - w) * k, dy = n - s;
-    const hx = Math.max(dx, dy * 1.2) * 0.53, hy = Math.max(dy, dx / 1.2) * 0.53, cx = (w + e) / 2, cy = (s + n) / 2;
-    return turf.bboxPolygon([cx - hx / k, cy - hy, cx + hx / k, cy + hy]);
-  };
-  // pages whose view spans half of Europe list only the realms their events touch, so the legend stays short
-  const PAGE_ONLY = {
-    hardrada: ['denmark-970', 'norway-1066', 'sweden-1066', 'rus-1000', 'normans-italy-1066', 'hre-1066', 'byzantium-1066', 'sicily-970',
-      'cumans-1066', 'hungary-1000', 'poland-1066'],
-    cnut: ['norway-1030', 'england-1030', 'denmark-970', 'sweden-970', 'orkney-1000', 'normandy-937', 'scotland-1030', 'wales-790', 'hre-1000',
-      'france-1000', 'burgundy-937', 'poland-1000'],
-    sviatoslav: ['rus-970', 'rusbulgaria-970', 'byzantium-970', 'bulgaria-970', 'pechenegs-970', 'oghuz-970', 'vbulgars-790', 'hungary-907',
-      'alania-907', 'slavs-970'],
-  };
-  const sizeKm = ([w, s, e, n]) => [(e - w) * 111.32 * Math.cos((s + n) / 2 * Math.PI / 180), (n - s) * 110.57];
-  const PAGE_ZONES = {}, missing = [];
-  for (const [page, entry] of Object.entries(PAGES)) {
-    const [pid, families] = Array.isArray(entry) ? entry : [entry, null];
-    const p = PERIODS.find(q => q.id === pid);
-    if (!p) throw new Error(`${page}: unknown period ${pid}`);
-    if (!p.ids) continue;
-    const bbox = PAGE_BBOX[page];
-    if (!bbox) { missing.push(page); continue; }
-    if (sizeKm(bbox).every(x => x < CLOSE_KM)) { PAGE_ZONES[page] = []; continue; }
-    // a zone is listed when its land in view is at least half a percent of all land in view, or when it is a small Norse
-    // realm seen whole; a sliver at the edge of a wide view is left out to keep the legend short
-    const v = view(bbox);
-    const order = id => [FAMILY_ORDER.indexOf(ZONES[id].family), -km2(ZONES[id].landPart)];
-    const inView = Object.fromEntries(Object.values(p.ids).filter(id => !families || families.includes(ZONES[id].family)).map(id => [id, km2(I(ZONES[id].landPart, v))]));
-    const total = Object.values(inView).reduce((a, b) => a + b, 0);
-    const whole = id => inView[id] >= km2(ZONES[id].landPart) * 0.98;
-    const ids = Object.keys(inView).filter(id => inView[id] > 0 && (whole(id) || inView[id] >= total * 0.005 || (NORSE.includes(ZONES[id].family) && inView[id] >= km2(ZONES[id].landPart) / 2)));
-    // a legend over 20 rows loses its smallest zones cut by the edge of the view; Norse realms and zones seen whole stay
-    const edge = ids.filter(id => !NORSE.includes(ZONES[id].family) && !whole(id) && inView[id] < total * 0.02).sort((a, b) => inView[a] - inView[b]);
-    while (ids.length > 20 && edge.length) ids.splice(ids.indexOf(edge.shift()), 1);
-    PAGE_ZONES[page] = ids.sort((a, b) => { const [fa, sa] = order(a), [fb, sb] = order(b); return fa - fb || sa - sb; })
-      .filter(id => !PAGE_ONLY[page] || PAGE_ONLY[page].includes(id));
-  }
-  if (missing.length) console.log(`no page.yaml with a bbox yet: ${missing.join(', ')}`);
-  for (const [page, ids] of Object.entries(PAGE_ZONES)) if (ids.length > 20) console.log(`  ${page}: ${ids.length} zones`);
   if (process.env.ONLY) return;
+
+  // --- write the zones, the page map and the Turkish names ---
   const r7 = x => Math.round(x * 1e7) / 1e7;
   const dir = path.join(story, 'shared', 'zones');
   fs.rmSync(dir, { recursive: true, force: true });
   fs.mkdirSync(dir, { recursive: true });
   // only zones some page shows go to disk
   const USED = Object.values(ZONES).filter(zn => Object.values(PAGE_ZONES).some(ids => ids.includes(zn.id)));
-  for (const zn of USED) {
-    const coordinates = rings(zn.g).map(r => r.map(q => q.map(r7)));
-    fs.writeFileSync(path.join(dir, zn.id + '.geojson'), JSON.stringify({ type: 'Feature', properties: { family: zn.family, name: zn.name.en }, geometry: { type: 'Polygon', coordinates } }) + '\n');
+  const round = c => typeof c[0] === 'number' ? c.map(r7) : c.map(round);
+  // zones of one drawing, by harita's fingerprint: coordinates to 1e-4, no repeated points, each ring from its lowest point
+  const drawing = g => {
+    const ring = r => {
+      const open = [];
+      for (const c of r.map(([x, y]) => [Math.round(x * 1e4) / 1e4, Math.round(y * 1e4) / 1e4])) if (!open.length || open.at(-1)[0] !== c[0] || open.at(-1)[1] !== c[1]) open.push(c);
+      if (open.length > 1 && open[0].join() === open.at(-1).join()) open.pop();
+      const low = open.reduce((best, p, i) => p[0] < open[best][0] || p[0] === open[best][0] && p[1] < open[best][1] ? i : best, 0);
+      return JSON.stringify([...open.slice(low), ...open.slice(0, low)]);
+    };
+    return (g.geometry.type === 'Polygon' ? [g.geometry.coordinates] : g.geometry.coordinates).map(p => p.map(ring).join('|')).sort().join('/');
+  };
+  const pagesOf = zn => Object.values(PAGE_ZONES).filter(ids => ids.includes(zn.id)).length;
+  const byDrawing = new Map();
+  for (const zn of USED) { const k = drawing(zn.g); byDrawing.set(k, [...(byDrawing.get(k) ?? []), zn]); }
+  // a drawing goes to disk once, as the zone most pages show; the others take its outline in shared/zones.yaml
+  const uses = [];
+  for (const group of byDrawing.values()) {
+    const base = group.reduce((a, b) => pagesOf(b) > pagesOf(a) ? b : a);
+    fs.writeFileSync(path.join(dir, base.id + '.geojson'), JSON.stringify({ type: 'Feature', properties: { family: base.family, name: base.name.en },
+      geometry: { type: base.g.geometry.type, coordinates: round(base.g.geometry.coordinates) } }) + '\n');
+    for (const zn of group) if (zn !== base)
+      uses.push(`${zn.id}: {zone: ${base.id}, name: ${JSON.stringify(zn.name.en)}${zn.family === base.family ? '' : `, family: ${zn.family}`}}`);
   }
+  fs.writeFileSync(path.join(story, 'shared', 'zones.yaml'), '# Zones that show the outline of another zone under their own name, for another year or another holder.\n'
+    + uses.sort().join('\n') + '\n');
   fs.writeFileSync(path.join(story, '.plans', 'zones.yaml'), '# Zones per page, written by .plans/zones.mjs. Close views and phase pages show none.\n'
     + Object.entries(PAGE_ZONES).map(([page, ids]) => `${page}: [${ids.join(', ')}]`).join('\n') + '\n');
   fs.mkdirSync(path.join(story, '.i18n-parts'), { recursive: true });

@@ -17,8 +17,8 @@ const echelon = (side, dir, extra) => [1, 2, 3, 4, 5, 6].map(k => ships(side, -3
 // --- overview: the two fleets' routes to the meeting ---
 writePlan(`${G}/010-ecnomus`, {
   routes: {
-    'roman-fleet-256': { name: 'The Roman fleet from Messana by Phintias, 256 BC', path: [[15.57, 38.18], [15.35, 37.6], [15.25, 37.0], [15.05, 36.68], [14.6, 36.8], [14.25, 36.98], [13.94, 37.07]] },
-    'carthaginian-fleet-256': { name: 'The Carthaginian fleet from Carthage by Lilybaeum and Heraclea Minoa, 256 BC', path: [[10.35, 36.85], [10.9, 37.2], [11.7, 37.55], [12.4, 37.78], [12.75, 37.55], [13.27, 37.36], [13.6, 37.18], [13.86, 37.06]] },
+    'roman-fleet-256': { name: 'The Roman fleet from Messana by Phintias, 256 BC', color: 'rome', path: [[15.57, 38.18], [15.35, 37.6], [15.25, 37.0], [15.05, 36.68], [14.6, 36.8], [14.25, 36.98], [13.94, 37.07]] },
+    'carthaginian-fleet-256': { name: 'The Carthaginian fleet from Carthage by Lilybaeum and Heraclea Minoa, 256 BC', color: 'carthage', path: [[10.35, 36.85], [10.9, 37.2], [11.7, 37.55], [12.4, 37.78], [12.75, 37.55], [13.27, 37.36], [13.6, 37.18], [13.86, 37.06]] },
   },
   show: ['heraclea-minoa-256', 'lilybaeum-256'],
 });

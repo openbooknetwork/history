@@ -24,6 +24,7 @@ writePlan(`${G}/010-edington`, {
   routes: {
     'alfred-878': {
       name: 'Alfred’s march from Athelney to Egbert’s Stone, Iley Oak and Ethandun, May 878',
+      color: 'english',
       path: [[-2.94, 51.059], [-2.78, 51.07], [-2.6, 51.088], [-2.45, 51.1], [-2.352, 51.115], [-2.25, 51.15], [-2.142, 51.183], [-2.136, 51.22], P(-300, 300)],
     },
   },

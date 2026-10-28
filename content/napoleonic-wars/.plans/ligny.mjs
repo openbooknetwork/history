@@ -17,15 +17,15 @@ const mark = (x, y, label, note, color, icon = 'user') => ({ lnglat: E(x, y), ic
 // --- overview: 15 June, the crossing at Charleroi ---
 writePlan(`${G}/010-ligny`, {
   routes: {
-    'napoleon-charleroi-1815': { name: 'The Army of the North crosses the frontier at Thuin and the Sambre at Charleroi, 15 June 1815',
+    'napoleon-charleroi-1815': { name: 'The Army of the North crosses the frontier at Thuin and the Sambre at Charleroi, 15 June 1815', color: 'france',
       path: [[4.2, 50.25], [4.29, 50.34], [4.44, 50.41], [4.5, 50.45], [4.55, 50.48]] },
-    'zieten-ligny-1815': { name: 'Zieten’s I Corps falls back from the Sambre to Fleurus and Ligny, 15 June 1815', style: 'dashed', offset: 6,
+    'zieten-ligny-1815': { group: 'sombreffe', name: 'Zieten’s I Corps falls back from the Sambre to Fleurus and Ligny, 15 June 1815', color: 'prussia', style: 'dashed', offset: 6,
       path: [[4.46, 50.41], [4.5, 50.45], [4.55, 50.48], [4.57, 50.51]] },
-    'prussians-sombreffe-1815': { name: 'Pirch’s and Thielmann’s corps march from Namur to Sombreffe, 15 – 16 June 1815',
+    'prussians-sombreffe-1815': { group: 'sombreffe', name: 'Pirch’s and Thielmann’s corps march from Namur to Sombreffe, 15 – 16 June 1815', color: 'prussia',
       path: [[4.87, 50.47], [4.78, 50.5], [4.69, 50.52], [4.61, 50.53]] },
-    'ney-frasnes-1815': { name: 'Ney with the left wing advances up the Brussels road towards Quatre Bras, 15 June 1815',
+    'ney-frasnes-1815': { name: 'Ney with the left wing advances up the Brussels road towards Quatre Bras, 15 June 1815', color: 'france',
       path: [[4.44, 50.41], [4.43, 50.47], [4.44, 50.54], [4.45, 50.56]] },
-    'wellington-quatre-bras-1815': { name: 'Wellington’s army marches from Brussels and Nivelles to Quatre Bras, 16 June 1815',
+    'wellington-quatre-bras-1815': { name: 'Wellington’s army marches from Brussels and Nivelles to Quatre Bras, 16 June 1815', color: 'britain',
       path: [[4.35, 50.84], [4.4, 50.72], [4.45, 50.61], [4.453, 50.58]] },
   },
   markers: {

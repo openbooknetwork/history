@@ -41,7 +41,7 @@ const copy = x => JSON.parse(JSON.stringify(x));
 // --- overview: the fleet's course by the Chronicle, the battle card on the field ---
 writePlan(`${G}/010-maldon`, {
   routes: {
-    'olaf-991': { name: 'Olaf’s fleet from Folkestone by Sandwich and Ipswich to Maldon, August 991', path: [
+    'olaf-991': { name: 'Olaf’s fleet from Folkestone by Sandwich and Ipswich to Maldon, August 991', color: 'norway', path: [
       [1.19, 51.07], [1.33, 51.1], [1.42, 51.17], [1.43, 51.24], [1.36, 51.28], [1.43, 51.31], [1.47, 51.39], [1.42, 51.5],
       [1.42, 51.7], [1.33, 51.85], [1.29, 51.94], [1.22, 51.99], [1.16, 52.05], [1.215, 51.985], [1.27, 51.925], [1.17, 51.83],
       [1.0, 51.76], [0.92, 51.735], [0.85, 51.735], [0.79, 51.725], [0.75, 51.722], [0.722, 51.721]] },

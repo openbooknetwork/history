@@ -25,15 +25,15 @@ const mark = (x, y, label, note, color, icon = 'user') => ({ lnglat: E(x, y), ic
 // --- overview: the approaches on 15 and 16 June ---
 writePlan(`${G}/040-quatre-bras`, {
   routes: {
-    'ney-quatre-bras-1815': { name: 'Ney with Reille’s II Corps advances from Gosselies by Frasnes, 15 – 16 June 1815',
+    'ney-quatre-bras-1815': { name: 'Ney with Reille’s II Corps advances from Gosselies by Frasnes, 15 – 16 June 1815', color: 'france',
       path: [[4.43, 50.47], [4.44, 50.51], [4.442, 50.543], [4.451, 50.56]] },
-    'derlon-ligny-1815': { name: 'd’Erlon’s I Corps turns east towards Ligny, 16 June 1815',
+    'derlon-ligny-1815': { name: 'd’Erlon’s I Corps turns east towards Ligny, 16 June 1815', color: 'france',
       path: [[4.43, 50.49], [4.47, 50.5], [4.505, 50.51], [4.53, 50.512]] },
-    'derlon-return-1815': { name: 'd’Erlon’s I Corps is called back towards Quatre Bras, 16 June 1815', style: 'dashed',
+    'derlon-return-1815': { name: 'd’Erlon’s I Corps is called back towards Quatre Bras, 16 June 1815', color: 'france', style: 'dashed',
       path: [[4.53, 50.517], [4.5, 50.527], [4.47, 50.535], [4.446, 50.546]] },
-    'picton-quatre-bras-1815': { name: 'Picton’s division and the Brunswickers come down the Brussels road, 16 June 1815',
+    'picton-quatre-bras-1815': { group: '16-june', name: 'Picton’s division and the Brunswickers come down the Brussels road, 16 June 1815', color: 'britain',
       path: [[4.43, 50.66], [4.45, 50.61], [4.454, 50.578]] },
-    'alten-quatre-bras-1815': { name: 'Alten’s and Cooke’s divisions come from Nivelles, 16 June 1815',
+    'alten-quatre-bras-1815': { group: '16-june', name: 'Alten’s and Cooke’s divisions come from Nivelles, 16 June 1815', color: 'britain',
       path: [[4.33, 50.6], [4.38, 50.59], [4.42, 50.58], [4.448, 50.574]] },
   },
   markers: {

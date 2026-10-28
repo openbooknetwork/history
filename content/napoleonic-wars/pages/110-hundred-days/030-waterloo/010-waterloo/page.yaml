@@ -3,7 +3,7 @@ when: {from: '1815-06-17'}
 title: "The retreat to Waterloo and Wavre"
 bbox: [4.2, 50.45, 4.78, 50.78]
 zones: []
-routes: [wellington-waterloo-1815, napoleon-waterloo-1815, prussians-wavre-1815, thielmann-wavre-1815, grouchy-1815]
+routes: [wellington-waterloo-1815, [prussians-wavre-1815, thielmann-wavre-1815], [napoleon-waterloo-1815, grouchy-1815]]
 markers: [waterloo-genappe, waterloo-wavre, waterloo-gembloux, waterloo-halle]
 battle: waterloo
 sources: ['Alessandro Barbero, The Battle: A New History of Waterloo (2003).', 'William Siborne, The Waterloo Campaign, 1815 (1848).', 'Tim Clayton, Waterloo: Four Days that Changed Europe’s Destiny (2014).']

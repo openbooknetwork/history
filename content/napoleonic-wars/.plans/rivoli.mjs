@@ -18,13 +18,13 @@ const vukassovich = unit('austria', 'artillery', [10.8355, 45.5785], 260, 60, 25
 // --- overview: the converging Austrian columns, Bonaparte's night march ---
 writePlan(`${G}/010-rivoli`, {
   routes: {
-    'alvinczi-1797': { name: 'Alvinczi’s main army comes down the Adige and over Monte Baldo, 12 to 14 January 1797',
-      path: [[11.12, 46.07], [11.04, 45.89], [11.0, 45.76], [10.94, 45.72], [10.88, 45.66], [10.84, 45.61]] },
-    'bajalics-1797': { name: 'Bajalics advances from Bassano towards Verona, January 1797',
-      path: [[11.73, 45.77], [11.55, 45.55], [11.38, 45.47], [11.2, 45.43], [11.06, 45.43]] },
-    'provera-1797': { name: 'Provera marches from Padua and crosses the Adige at Angiari, 7 to 13 January 1797',
+    'provera-1797': { group: 'fourth-relief', name: 'Provera marches from Padua and crosses the Adige at Angiari, 7 to 13 January 1797', color: 'austria',
       path: [[11.88, 45.41], [11.75, 45.28], [11.6, 45.23], [11.45, 45.23], [11.29, 45.22]] },
-    'bonaparte-rivoli-1797': { name: 'Bonaparte rides from Verona to Rivoli in the night of 13 to 14 January 1797',
+    'bajalics-1797': { group: 'fourth-relief', name: 'Bajalics advances from Bassano towards Verona, January 1797', color: 'austria',
+      path: [[11.73, 45.77], [11.55, 45.55], [11.38, 45.47], [11.2, 45.43], [11.06, 45.43]] },
+    'alvinczi-1797': { group: 'fourth-relief', name: 'Alvinczi’s main army comes down the Adige and over Monte Baldo, 12 to 14 January 1797', color: 'austria',
+      path: [[11.12, 46.07], [11.04, 45.89], [11.0, 45.76], [10.94, 45.72], [10.88, 45.66], [10.84, 45.61]] },
+    'bonaparte-rivoli-1797': { name: 'Bonaparte rides from Verona to Rivoli in the night of 13 to 14 January 1797', color: 'france',
       path: [[10.99, 45.44], [10.91, 45.45], [10.84, 45.48], [10.82, 45.53], [10.813, 45.565]] },
   },
   markers: {
@@ -140,13 +140,13 @@ writePlan(`${G}/040-rivoli-lusignan`, {
 // --- 15 to 16 January: Masséna marches to Mantua, Provera surrenders at La Favorita ---
 writePlan(`${G}/050-rivoli-aftermath`, {
   routes: {
-    'massena-mantua-1797': { name: 'Masséna marches from Rivoli to La Favorita, 15 to 16 January 1797',
+    'massena-mantua-1797': { group: 'favorita', name: 'Masséna marches from Rivoli to La Favorita, 15 to 16 January 1797', color: 'france',
       path: [[10.813, 45.565], [10.79, 45.5], [10.8, 45.42], [10.84, 45.35], [10.83, 45.27], [10.82, 45.195]] },
-    'provera-favorita-1797': { name: 'Provera marches from Angiari towards Mantua, 14 to 16 January 1797',
-      path: [[11.29, 45.22], [11.15, 45.2], [11.0, 45.19], [10.9, 45.19], [10.835, 45.19]] },
-    'augereau-1797': { name: 'Augereau follows Provera, 15 to 16 January 1797', offset: 6,
+    'augereau-1797': { group: 'favorita', name: 'Augereau follows Provera, 15 to 16 January 1797', color: 'france', offset: 6,
       path: [[11.3, 45.205], [11.15, 45.2], [11.0, 45.19], [10.9, 45.19], [10.84, 45.19]] },
-    'alvinczi-flight-1797': { name: 'The remnants of Alvinczi’s army flee up the Adige valley, 15 January 1797', style: 'dashed',
+    'provera-favorita-1797': { group: 'after-rivoli', name: 'Provera marches from Angiari towards Mantua, 14 to 16 January 1797', color: 'austria',
+      path: [[11.29, 45.22], [11.15, 45.2], [11.0, 45.19], [10.9, 45.19], [10.835, 45.19]] },
+    'alvinczi-flight-1797': { group: 'after-rivoli', name: 'The remnants of Alvinczi’s army flee up the Adige valley, 15 January 1797', color: 'austria', style: 'dashed',
       path: [[10.83, 45.6], [10.88, 45.67], [10.95, 45.74], [11.0, 45.8], [11.04, 45.89]] },
   },
   markers: {

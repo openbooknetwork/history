@@ -19,7 +19,7 @@ const mark = (u, w, label, note, color, icon = 'user') => ({ lnglat: P(u, w), ic
 // --- overview: from Cairo into Syria ---
 writePlan(`${G}/010-acre`, {
   routes: {
-    'bonaparte-syria-1799': { name: 'Bonaparte’s march from Cairo into Syria, 10 February to 18 March 1799',
+    'bonaparte-syria-1799': { name: 'Bonaparte’s march from Cairo into Syria, 10 February to 18 March 1799', color: 'france',
       path: [[31.25, 30.05], [31.56, 30.42], [31.93, 30.78], [32.6, 30.95], [33.8, 31.13], [34.46, 31.5], [34.75, 32.05], [34.88, 32.45], [34.99, 32.8], [35.08, 32.92]] },
   },
   markers: {
@@ -88,9 +88,9 @@ writePlan(`${G}/030-acre-breach`, {
 // --- the retreat to Cairo ---
 writePlan(`${G}/040-acre-retreat`, {
   routes: {
-    'bonaparte-retreat-1799': { name: 'The retreat from Acre to Cairo, 20 May to 14 June 1799',
+    'bonaparte-retreat-1799': { group: 'retreat', name: 'The retreat from Acre to Cairo, 20 May to 14 June 1799', color: 'france',
       path: [[35.08, 32.92], [34.99, 32.82], [34.92, 32.61], [34.75, 32.05], [34.46, 31.5], [33.8, 31.13], [32.6, 30.95], [31.93, 30.78], [31.56, 30.42], [31.25, 30.05]] },
-    'jaffa-damietta-1799': { name: 'Plague patients shipped from Jaffa to Damietta', style: 'dashed',
+    'jaffa-damietta-1799': { group: 'retreat', name: 'Plague patients shipped from Jaffa to Damietta', color: 'france', style: 'dashed',
       path: [[34.74, 32.06], [33.8, 31.9], [32.6, 31.65], [31.82, 31.45]] },
   },
   markers: {

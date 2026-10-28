@@ -11,11 +11,11 @@ const ll = (lnglat, label, note, color, icon = 'swords') => ({ lnglat, icon, col
 // --- overview: Emporion and Cissa, the Ebro river battle, Hasdrubal's march north ---
 writePlan(`${G}/010-ebro`, {
   routes: {
-    'gnaeus-scipio-218': { name: 'Gnaeus Scipio sails from Massalia to Emporion and marches to Cissa, autumn 218 BC',
+    'gnaeus-scipio-218': { name: 'Gnaeus Scipio sails from Massalia to Emporion and marches to Cissa, autumn 218 BC', color: 'rome',
       path: [[5.37, 43.29], [4.6, 43.0], [3.6, 42.6], [3.13, 42.14], [2.85, 41.95], [2.2, 41.47], [1.6, 41.25], [1.27, 41.13]] },
-    'hasdrubal-fleet-217': { name: 'Hasdrubal’s fleet sails to the mouth of the Ebro, spring 217 BC',
+    'hasdrubal-fleet-217': { name: 'Hasdrubal’s fleet sails to the mouth of the Ebro, spring 217 BC', color: 'carthage',
       path: [[-0.98, 37.57], [-0.3, 38.35], [0.25, 39.3], [0.65, 40.25], [0.9, 40.68]] },
-    'hasdrubal-215': { name: 'Hasdrubal marches north towards Italy, spring 215 BC',
+    'hasdrubal-215': { name: 'Hasdrubal marches north towards Italy, spring 215 BC', color: 'carthage',
       path: [[-0.99, 37.63], [-1.05, 38.3], [-0.65, 39.3], [-0.15, 40.1], [0.33, 40.6], [0.52, 40.75]] },
   },
   markers: { 'ebro-217': ll([0.88, 40.72], 'Mouth of the Ebro', '29 of 40 Carthaginian ships lost, 217 BC', 'rome', 'ship') },
@@ -126,8 +126,8 @@ writePlan(`${G}/040-ebro-envelopment`, {
 // --- 211 BC: the two Scipios killed ---
 writePlan(`${G}/050-ebro-upper-baetis`, {
   routes: {
-    'gnaeus-211': { name: 'Gnaeus Scipio withdraws and is caught near Ilorca, 211 BC', path: [[-3.3, 37.95], [-2.6, 37.84], [-2.05, 37.74], [-1.72, 37.68]] },
-    'survivors-211': { name: 'The survivors fall back north of the Ebro', style: 'dashed', path: [[-1.6, 37.8], [-1.2, 38.6], [-0.6, 39.4], [0.15, 40.3], [0.6, 40.78]] },
+    'gnaeus-211': { name: 'Gnaeus Scipio withdraws and is caught near Ilorca, 211 BC', color: 'rome', path: [[-3.3, 37.95], [-2.6, 37.84], [-2.05, 37.74], [-1.72, 37.68]] },
+    'survivors-211': { name: 'The survivors fall back north of the Ebro', color: 'rome', style: 'dashed', path: [[-1.6, 37.8], [-1.2, 38.6], [-0.6, 39.4], [0.15, 40.3], [0.6, 40.78]] },
   },
   show: ['saguntum-212', 'castulo-211', 'ilorca-211'],
 });

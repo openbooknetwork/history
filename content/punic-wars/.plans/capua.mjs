@@ -27,8 +27,8 @@ const camps = [n(unit('rome', 'camp', 2050, 45, 450, 450, 45), 'camp-fulvius', '
 // --- overview: Capua joins Hannibal; the relief of 212 and the march towards Brundisium ---
 writePlan(`${G}/010-capua`, {
   routes: {
-    'hannibal-capua-212': { name: 'Hannibal marches to relieve Capua, 212 BC', path: [[17.2, 40.5], [16.5, 40.72], [15.8, 40.9], [15.0, 41.05], [14.3, 41.09]] },
-    'hannibal-brundisium-212': { name: 'Hannibal marches towards Brundisium', style: 'dashed', offset: 6, path: [[14.3, 41.1], [15.3, 41.02], [16.5, 40.78], [17.4, 40.62], [17.94, 40.64]] },
+    'hannibal-capua-212': { name: 'Hannibal marches to relieve Capua, 212 BC', color: 'carthage', path: [[17.2, 40.5], [16.5, 40.72], [15.8, 40.9], [15.0, 41.05], [14.3, 41.09]] },
+    'hannibal-brundisium-212': { name: 'Hannibal marches towards Brundisium', color: 'carthage', style: 'dashed', offset: 6, path: [[14.3, 41.1], [15.3, 41.02], [16.5, 40.78], [17.4, 40.62], [17.94, 40.64]] },
   },
   markers: { 'capua-216': ll([14.255, 41.083], 'Capua', 'Joins Hannibal, 216 BC', 'carthage', 'castle') },
   show: ['nola-216', 'tarentum-212'],
@@ -88,11 +88,11 @@ writePlan(`${G}/030-capua-attack`, {
 // --- the march on Rome ---
 writePlan(`${G}/040-capua-rome`, {
   routes: {
-    'hannibal-rome-211': { name: 'Hannibal marches on Rome, 211 BC',
+    'hannibal-rome-211': { name: 'Hannibal marches on Rome, 211 BC', color: 'carthage',
       path: [[14.3, 41.11], [14.14, 41.21], [14.06, 41.26], [13.83, 41.49], [13.53, 41.55], [13.16, 41.73], [12.77, 41.8], [12.6, 41.92]] },
-    'fulvius-rome-211': { name: 'Fulvius Flaccus brings a picked force to Rome',
+    'fulvius-rome-211': { name: 'Fulvius Flaccus brings a picked force to Rome', color: 'rome',
       path: [[14.2, 41.06], [13.95, 41.17], [13.76, 41.26], [13.6, 41.28], [13.43, 41.36], [13.26, 41.31], [13.05, 41.45], [12.95, 41.56], [12.65, 41.73], [12.5, 41.88]] },
-    'hannibal-south-211': { name: 'Hannibal withdraws to the south', style: 'dashed',
+    'hannibal-south-211': { name: 'Hannibal withdraws to the south', color: 'carthage', style: 'dashed',
       path: [[12.62, 41.95], [13.1, 42.05], [13.7, 41.95], [14.3, 41.7], [14.9, 41.35], [15.35, 41.1]] },
   },
   markers: { 'capua-211': ll([14.255, 41.083], 'Capua', 'Surrenders, 211 BC', 'rome', 'castle') },

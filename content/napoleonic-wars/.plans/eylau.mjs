@@ -24,11 +24,11 @@ const russianLine = name => [
 writePlan(`${G}/010-eylau`, {
   bbox: [16.6, 51.95, 22.4, 54.85],
   routes: {
-    'murat-warsaw-1806': { name: 'The French advance from Posen to Warsaw, November 1806', path: [[16.93, 52.41], [17.9, 52.3], [19.0, 52.25], [19.94, 52.11], [21.0, 52.23]] },
-    'bennigsen-1807': { name: 'Bennigsen marches north into East Prussia, January 1807', path: [[21.88, 53.23], [21.81, 53.63], [21.4, 53.95], [20.8, 54.02], [20.09, 54.02], [19.95, 53.93]] },
-    'bennigsen-eylau-1807': { name: 'Bennigsen falls back by Jonkowo and Landsberg to Eylau, 1 – 7 February 1807', style: 'dashed',
+    'murat-warsaw-1806': { name: 'The French advance from Posen to Warsaw, November 1806', color: 'france', path: [[16.93, 52.41], [17.9, 52.3], [19.0, 52.25], [19.94, 52.11], [21.0, 52.23]] },
+    'bennigsen-1807': { name: 'Bennigsen marches north into East Prussia, January 1807', color: 'russia', path: [[21.88, 53.23], [21.81, 53.63], [21.4, 53.95], [20.8, 54.02], [20.09, 54.02], [19.95, 53.93]] },
+    'bennigsen-eylau-1807': { name: 'Bennigsen falls back by Jonkowo and Landsberg to Eylau, 1 – 7 February 1807', color: 'russia', style: 'dashed',
       path: [[20.09, 54.0], [20.33, 53.84], [20.4, 54.0], [20.49, 54.28], [20.63, 54.385]] },
-    'napoleon-eylau-1807': { name: 'Napoleon marches north by Allenstein to Eylau, February 1807', offset: 6,
+    'napoleon-eylau-1807': { name: 'Napoleon marches north by Allenstein to Eylau, February 1807', color: 'france', offset: 6,
       path: [[21.0, 52.24], [21.05, 52.7], [20.94, 53.4], [20.79, 53.65], [20.48, 53.78], [20.42, 54.0], [20.49, 54.28], [20.62, 54.38]] },
   },
   markers: {

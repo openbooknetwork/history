@@ -3,7 +3,8 @@
 // Land comes from the Natural Earth countries, simplified once on the shared arcs so neighbours keep one border,
 // and cut by hand drawn lines where a border of the time differs from today's. Each period lists its states in
 // order and the first state to claim a piece of land keeps it, so a later state is drawn rough over its neighbours.
-// Every zone then grows into the sea and joins its islands with corridors, so the build clips the coast.
+// Every zone then grows into the sea and joins its islands with corridors, so the build clips the coast. A page shows
+// each state as one zone and the smaller states its text does not name as one zone per group, see PAGES.
 // Env: ONLY=<period ids> settles some periods, DEBUG=1 prints areas and corridors, GAPS=<km2> lists unclaimed land.
 import fs from 'fs';
 import path from 'path';
@@ -565,17 +566,14 @@ const N = {
   congressPoland: ['Kingdom of Poland, under the Russian tsar', 'Rus çarına bağlı Polonya Krallığı'],
   lucca1815: ['Duchy of Lucca', 'Lucca Dükalığı'],
   ionianUnited: ['United States of the Ionian Islands, a British protectorate', 'İngiliz himayesindeki Birleşik İyon Adaları Devleti'],
+  ottomanAll: ['Ottoman Empire', 'Osmanlı İmparatorluğu'],
+  italianStates: ['Italian states', 'İtalyan devletleri'],
 };
 
-// the pieces a German filler zone falls into, each named by a point inside it
-const GERMAN_PARTS = {
-  hre: { mecklenburg: [[11.8, 53.7], ['Duchies of Mecklenburg', 'Mecklenburg dükalıkları']], hamburg: [[10.0, 53.57], ['Free City of Hamburg', 'Hamburg Serbest Şehri']],
-    oldenburg: [[8.2, 53.15], ['Duchy of Oldenburg', 'Oldenburg Dükalığı']], brunswick: [[10.5, 52.25], ['Duchy of Brunswick', 'Braunschweig Dükalığı']] },
-  rhine: { mecklenburg: [[11.8, 53.7], ['Mecklenburg, in the Confederation of the Rhine', 'Ren Konfederasyonu’ndaki Mecklenburg']],
-    oldenburg: [[8.2, 53.15], ['Oldenburg, in the Confederation of the Rhine', 'Ren Konfederasyonu’ndaki Oldenburg']] },
-  german: { mecklenburg: [[11.8, 53.7], ['Grand Duchies of Mecklenburg', 'Mecklenburg büyük dükalıkları']], hamburg: [[10.0, 53.57], ['Free City of Hamburg', 'Hamburg Serbest Şehri']],
-    oldenburg: [[8.2, 53.15], ['Grand Duchy of Oldenburg', 'Oldenburg Büyük Dükalığı']], brunswick: [[10.5, 52.25], ['Duchy of Brunswick', 'Braunschweig Dükalığı']] },
-};
+// A page shows the smaller states its text does not name as one zone per group, and a minor state only where its
+// text names it. A family whose state lies in pieces names its joined zone after its main piece, or here.
+const GERMAN = { group: 'german-states' }, ITALIAN = { group: 'italian-states' }, MINOR = { minor: true };
+const JOINED_NAME = { ottoman: N.ottomanAll };
 
 // --- states that recur, so each period lists only what changed ---
 const S = {
@@ -583,11 +581,11 @@ const S = {
   gibraltar: () => GIBRALTAR && z('gibraltar', 'britain', N.gibraltar, GIBRALTAR),
   portugal: (land = C('Portugal')) => z('portugal', 'portugal', N.portugal, land),
   spain: (land = SPAIN, name = N.spain) => z('spain', 'spain', name, land, { sea: BALEARIC_SEA }),
-  denmark: () => z('denmark', 'other', N.denmark, U(C('Denmark', 'Norway'), HOLSTEIN), { sea: [SEA_SKAGERRAK, SEA_BORNHOLM] }),
+  denmark: () => z('denmark', 'denmark', N.denmark, U(C('Denmark', 'Norway'), HOLSTEIN), { sea: [SEA_SKAGERRAK, SEA_BORNHOLM] }),
   sweden: (land = C('Sweden')) => z('sweden', 'sweden', N.sweden, land),
   pomerania: () => z('sweden-pomerania', 'sweden', N.pomerania, SWEDISH_POMERANIA),
   ottoman: (land = OTT_EUROPE) => [z('ottoman', 'ottoman', N.ottoman, land, { sea: [SEA_CRETE] }), z('ottoman-asia', 'ottoman', N.ottomanAsia, OTT_ASIA, { sea: [SEA_CYPRUS] })],
-  africa: () => [z('barbary', 'other', N.barbary, BARBARY), z('morocco', 'other', N.morocco, MOROCCO)],
+  africa: () => [z('barbary', 'barbary', N.barbary, BARBARY, MINOR), z('morocco', 'morocco', N.morocco, MOROCCO, MINOR)],
   russia: line => z('russia', 'russia', N.russia, russiaEast(line)),
 };
 
@@ -603,41 +601,43 @@ const z = (key, family, [en, tr], land, opts = {}) => {
   if (!land) throw new Error(`zone ${key} has no land`);
   return { key, family, en, tr, land, ...opts };
 };
+// the German land no other state claims, in pieces wherever its neighbours cut it
+const germanFiller = (key, family, name, land) => z(key, family, name, land, family === 'rhine' ? { multi: true } : { multi: true, ...GERMAN });
 
 // 1792: the old order, Poland after the first partition
 period('1792', 1792, 1789, 1792, [
-  z('malta', 'other', N.maltaOrder, MALTA),
-  z('ragusa', 'other', N.ragusa, RAGUSA),
+  z('malta', 'malta', N.maltaOrder, MALTA, MINOR),
+  z('ragusa', 'ragusa', N.ragusa, RAGUSA, MINOR),
   z('france', 'france', N.franceK, U(D(C('France'), SAVOY, NICE), SAARLOUIS), { sea: [SEA_CORSICA] }),
-  z('liege', 'other', N.liege, LIEGE),
-  z('dutch', 'other', N.dutch, C('Netherlands')),
+  z('liege', 'liege', N.liege, LIEGE, GERMAN),
+  z('dutch', 'netherlands', N.dutch, C('Netherlands')),
   z('austria-netherlands', 'austria', N.austrianNetherlands, D(C('Belgium'), LUXEMBOURG_DUCHY)),
   z('austria-luxembourg', 'austria', N.austriaLuxembourg, U(C('Luxembourg'), EIFEL_LUX, LUXEMBOURG_DUCHY)),
   z('austria-breisgau', 'austria', N.austriaBreisgau, BREISGAU),
   S.britain(), S.gibraltar(), S.portugal(U(C('Portugal'), OLIVENZA)), S.spain(), S.denmark(), S.pomerania(), S.sweden(U(C('Sweden'), FINLAND_SWEDISH)),
-  z('swiss', 'other', N.swiss, U(SWISS, VALTELLINA)),
-  z('venice', 'other', N.venice, U(VENETIA, ISTRIA, DALMATIA, KOTOR, IONIAN), { sea: [SEA_TRIESTE, SEA_KORCULA, SEA_KOTOR, SEA_CORFU, ...IONIAN_SEA] }),
-  z('genoa', 'other', N.genoa, LIGURIA),
+  z('swiss', 'swiss', N.swiss, U(SWISS, VALTELLINA)),
+  z('venice', 'venice', N.venice, U(VENETIA, ISTRIA, DALMATIA, KOTOR, IONIAN), { sea: [SEA_TRIESTE, SEA_KORCULA, SEA_KOTOR, SEA_CORFU, ...IONIAN_SEA], ...ITALIAN }),
+  z('genoa', 'genoa', N.genoa, LIGURIA, ITALIAN),
   z('austria-milan', 'austria', N.austriaMilan, LOMBARDY),
-  z('parma', 'other', N.parma, PARMA),
-  z('modena', 'other', N.modena, MODENA),
-  z('lucca', 'other', N.lucca, LUCCA),
-  z('papal', 'other', N.papal, PAPAL),
-  z('tuscany', 'other', N.tuscany, TUSCANY),
-  z('naples', 'other', N.naples, U(NAPLES, SICILY)),
-  z('sardinia', 'other', N.sardinia, U(PIEDMONT, SAVOY, NICE, SARDINIA), { sea: [SEA_SARDINIA] }),
+  z('parma', 'parma', N.parma, PARMA, ITALIAN),
+  z('modena', 'modena', N.modena, MODENA, ITALIAN),
+  z('lucca', 'lucca', N.lucca, LUCCA, ITALIAN),
+  z('papal', 'papal', N.papal, PAPAL, ITALIAN),
+  z('tuscany', 'tuscany', N.tuscany, TUSCANY, ITALIAN),
+  z('naples', 'naples', N.naples, U(NAPLES, SICILY), ITALIAN),
+  z('sardinia', 'sardinia', N.sardinia, U(PIEDMONT, SAVOY, NICE, SARDINIA), { sea: [SEA_SARDINIA], ...ITALIAN }),
   z('prussia', 'prussia', N.prussia, PR_CORE),
   z('prussia-cleves', 'prussia', N.prussiaCleves, CLEVES_MARK),
   z('prussia-minden', 'prussia', N.prussiaMinden, MINDEN),
   z('prussia-lingen', 'prussia', N.prussiaLingen, LINGEN),
   z('prussia-frisia', 'prussia', N.prussiaFrisia, EAST_FRISIA),
   z('prussia-ansbach', 'prussia', N.prussiaAnsbach, ANSBACH),
-  z('hanover', 'other', N.hanover, HANOVER),
+  z('hanover', 'hanover', N.hanover, HANOVER, GERMAN),
   z('austria', 'austria', N.habsburg, D(U(HAB_LANDS, HAB_EAST, AUSTRIA_IT), SALZBURG)),
   S.russia(RU_1772),
-  z('poland', 'other', N.poland, POLAND_ROUGH),
+  z('poland', 'poland', N.poland, POLAND_ROUGH),
   S.ottoman(), z('egypt', 'ottoman', N.egyptMamluk, EGYPT), S.africa(),
-  z('hre', 'other', N.hre, U(C('Germany', 'Liechtenstein'), SALZBURG, LUSATIA_PL), { parts: GERMAN_PARTS.hre }),
+  germanFiller('hre', 'german-states', N.hre, U(C('Germany', 'Liechtenstein'), SALZBURG, LUSATIA_PL)),
 ]);
 // Elisa's principality from 1806: Lucca with Massa and Carrara, and the coast between them
 const LUCCA_MASSA = U(LUCCA, MASSA, I(IT, poly([10.1, 43.9], [10.2, 44.05], [10.45, 44.1], [10.4, 43.9])));
@@ -645,9 +645,9 @@ const TUSCANY_PROPER = D(TUSCANY, LUCCA_MASSA, MODENA);
 const WARSAW_ROUGH = poly([15.4, 51.8], [15.4, 53.4], [19.0, 53.6], [22.9, 55.2], [24.6, 55.0], [24.6, 50.2], [19.0, 49.8]);
 const WG = I(C('Poland', 'Ukraine', 'Belarus'), WEST_GALICIA);
 // one list per stretch of years that recurs across periods
-const ITALY_1792 = () => [z('genoa', 'other', N.genoa, LIGURIA), z('austria-milan', 'austria', N.austriaMilan, LOMBARDY), z('parma', 'other', N.parma, PARMA),
-  z('modena', 'other', N.modena, MODENA), z('lucca', 'other', N.lucca, LUCCA), z('papal', 'other', N.papal, PAPAL), z('tuscany', 'other', N.tuscany, TUSCANY),
-  z('naples', 'other', N.naples, U(NAPLES, SICILY))];
+const ITALY_1792 = () => [z('genoa', 'genoa', N.genoa, LIGURIA, ITALIAN), z('austria-milan', 'austria', N.austriaMilan, LOMBARDY),
+  z('parma', 'parma', N.parma, PARMA, ITALIAN), z('modena', 'modena', N.modena, MODENA, ITALIAN), z('lucca', 'lucca', N.lucca, LUCCA, ITALIAN),
+  z('papal', 'papal', N.papal, PAPAL, ITALIAN), z('tuscany', 'tuscany', N.tuscany, TUSCANY, ITALIAN), z('naples', 'naples', N.naples, U(NAPLES, SICILY), ITALIAN)];
 const PRUSSIA_WEST_1792 = () => [z('prussia-cleves', 'prussia', N.prussiaCleves, CLEVES_MARK), z('prussia-minden', 'prussia', N.prussiaMinden, MINDEN),
   z('prussia-lingen', 'prussia', N.prussiaLingen, LINGEN), z('prussia-frisia', 'prussia', N.prussiaFrisia, EAST_FRISIA), z('prussia-ansbach', 'prussia', N.prussiaAnsbach, ANSBACH)];
 const AUSTRIA_1797 = name => z('austria', 'austria', name, D(U(HAB_LANDS, HAB_EAST, AUSTRIA_IT, WG, VENETIA_E, ISTRIA, DALMATIA, KOTOR), SALZBURG),
@@ -669,161 +669,160 @@ const AUSTRIA_1815 = D(U(HAB_LANDS, HAB_EAST, AUSTRIA_IT, TYROL, VORARLBERG, LOM
   ZAMOSC, KRAKOW);
 const PRUSSIA_1815 = U(PR_CORE, POSEN, SAXON_PROVINCE, SWEDISH_POMERANIA, LUSATIA_PL);
 const ionianFrench = () => z('ionian', 'france', N.ionianFrench, IONIAN, { sea: IONIAN_SEA });
-const ionianProtected = () => z('ionian', 'other', N.ionianProtected, IONIAN, { sea: IONIAN_SEA, span: '1799 – 1807' });
-const serbia = () => z('serbia', 'other', N.serbia, SERBIA_REVOLT, { span: '1804 – 1813' });
-const germanFiller = (key, family, name, land) => z(key, family, name, land, { parts: GERMAN_PARTS[key === 'rhine' ? 'rhine' : key === 'german' ? 'german' : 'hre'] });
+const ionianProtected = () => z('ionian', 'ionian', N.ionianProtected, IONIAN, { sea: IONIAN_SEA, span: '1799 – 1807', ...MINOR });
+const serbia = () => z('serbia', 'serbia', N.serbia, SERBIA_REVOLT, { span: '1804 – 1813', ...MINOR });
 
 // 1793 – 1794: Savoy, Nice and the northern Jura French; the second partition of Poland; Corsica under Britain
 period('1793', 1793, 1793, 1794, [
-  z('malta', 'other', N.maltaOrder, MALTA), z('ragusa', 'other', N.ragusa, RAGUSA),
+  z('malta', 'malta', N.maltaOrder, MALTA, MINOR), z('ragusa', 'ragusa', N.ragusa, RAGUSA, MINOR),
   z('corsica', 'britain', N.corsicaBritish, CORSICA),
   z('france', 'france', N.franceR, U(C('France'), JURA_N, SAARLOUIS)),
-  z('liege', 'other', N.liege, LIEGE), z('dutch', 'other', N.dutch, C('Netherlands')),
+  z('liege', 'liege', N.liege, LIEGE, GERMAN), z('dutch', 'netherlands', N.dutch, C('Netherlands')),
   z('austria-netherlands', 'austria', N.austrianNetherlands, D(C('Belgium'), LUXEMBOURG_DUCHY)),
   z('austria-luxembourg', 'austria', N.austriaLuxembourg, U(C('Luxembourg'), EIFEL_LUX, LUXEMBOURG_DUCHY)),
   z('austria-breisgau', 'austria', N.austriaBreisgau, BREISGAU),
   S.britain(), S.gibraltar(), S.portugal(U(C('Portugal'), OLIVENZA)), S.spain(), S.denmark(), S.pomerania(), S.sweden(U(C('Sweden'), FINLAND_SWEDISH)),
-  z('swiss', 'other', N.swiss, U(SWISS, VALTELLINA)),
-  z('venice', 'other', N.venice, U(VENETIA, ISTRIA, DALMATIA, KOTOR, IONIAN), { sea: [SEA_TRIESTE, SEA_KORCULA, SEA_KOTOR, SEA_CORFU, ...IONIAN_SEA] }),
+  z('swiss', 'swiss', N.swiss, U(SWISS, VALTELLINA)),
+  z('venice', 'venice', N.venice, U(VENETIA, ISTRIA, DALMATIA, KOTOR, IONIAN), { sea: [SEA_TRIESTE, SEA_KORCULA, SEA_KOTOR, SEA_CORFU, ...IONIAN_SEA], ...ITALIAN }),
   ITALY_1792(),
-  z('sardinia', 'other', N.sardinia, PIEDMONT), z('sardinia-island', 'other', N.sardiniaIslandOnly, SARDINIA),
+  z('sardinia', 'sardinia', N.sardinia, PIEDMONT, ITALIAN), z('sardinia-island', 'sardinia', N.sardiniaIslandOnly, SARDINIA, ITALIAN),
   z('prussia', 'prussia', N.prussia, U(PR_CORE, SOUTH_PRUSSIA)), PRUSSIA_WEST_1792(),
-  z('hanover', 'other', N.hanover, HANOVER),
+  z('hanover', 'hanover', N.hanover, HANOVER, GERMAN),
   z('austria', 'austria', N.habsburg, D(U(HAB_LANDS, HAB_EAST, AUSTRIA_IT), SALZBURG)),
-  S.russia(RU_1793), z('poland', 'other', N.poland, POLAND_ROUGH),
+  S.russia(RU_1793), z('poland', 'poland', N.poland, POLAND_ROUGH),
   S.ottoman(), z('egypt', 'ottoman', N.egyptMamluk, EGYPT), S.africa(),
-  germanFiller('hre', 'other', N.hre, U(C('Germany', 'Liechtenstein'), SALZBURG, LUSATIA_PL)),
+  germanFiller('hre', 'german-states', N.hre, U(C('Germany', 'Liechtenstein'), SALZBURG, LUSATIA_PL)),
 ]);
 
 // 1795 – 1796: Belgium and Liège French, the Batavian Republic, Poland partitioned away
 const PERIOD_1795 = () => [
-  z('malta', 'other', N.maltaOrder, MALTA), z('ragusa', 'other', N.ragusa, RAGUSA),
+  z('malta', 'malta', N.maltaOrder, MALTA, MINOR), z('ragusa', 'ragusa', N.ragusa, RAGUSA, MINOR),
   z('corsica', 'britain', N.corsicaBritish, CORSICA),
   z('france', 'france', N.franceR, U(C('France', 'Belgium', 'Luxembourg'), JURA_N, SAARLOUIS, EIFEL_LUX, ZEELAND_FLANDERS, DUTCH_MEUSE)),
-  z('batavian', 'client', N.batavian, C('Netherlands')),
+  z('batavian', 'batavia', N.batavian, C('Netherlands')),
   z('austria-breisgau', 'austria', N.austriaBreisgau, BREISGAU),
   S.britain(), S.gibraltar(), S.portugal(U(C('Portugal'), OLIVENZA)), S.spain(), S.denmark(), S.pomerania(), S.sweden(U(C('Sweden'), FINLAND_SWEDISH)),
-  z('swiss', 'other', N.swiss, U(SWISS, VALTELLINA)),
-  z('venice', 'other', N.venice, U(VENETIA, ISTRIA, DALMATIA, KOTOR, IONIAN), { sea: [SEA_TRIESTE, SEA_KORCULA, SEA_KOTOR, SEA_CORFU, ...IONIAN_SEA] }),
+  z('swiss', 'swiss', N.swiss, U(SWISS, VALTELLINA)),
+  z('venice', 'venice', N.venice, U(VENETIA, ISTRIA, DALMATIA, KOTOR, IONIAN), { sea: [SEA_TRIESTE, SEA_KORCULA, SEA_KOTOR, SEA_CORFU, ...IONIAN_SEA], ...ITALIAN }),
   ITALY_1792(),
-  z('sardinia', 'other', N.sardinia, PIEDMONT), z('sardinia-island', 'other', N.sardiniaIslandOnly, SARDINIA),
+  z('sardinia', 'sardinia', N.sardinia, PIEDMONT, ITALIAN), z('sardinia-island', 'sardinia', N.sardiniaIslandOnly, SARDINIA, ITALIAN),
   z('prussia', 'prussia', N.prussia, PRUSSIA_1795), PRUSSIA_WEST_1792(),
-  z('hanover', 'other', N.hanover, HANOVER),
+  z('hanover', 'hanover', N.hanover, HANOVER, GERMAN),
   z('austria', 'austria', N.habsburg, D(U(HAB_LANDS, HAB_EAST, AUSTRIA_IT, WG), SALZBURG)),
   S.russia(RU_1795),
   S.ottoman(), z('egypt', 'ottoman', N.egyptMamluk, EGYPT), S.africa(),
-  germanFiller('hre', 'other', N.hre, U(C('Germany', 'Liechtenstein'), SALZBURG, LUSATIA_PL)),
+  germanFiller('hre', 'german-states', N.hre, U(C('Germany', 'Liechtenstein'), SALZBURG, LUSATIA_PL)),
 ];
 period('1795', 1795, 1795, 1796, PERIOD_1795());
 
 // 1797: Campo Formio. Venice divided, the Cisalpine and Ligurian republics, the left bank and the Ionian Islands French
 const PERIOD_1797 = ({ france, swiss, papal, malta = N.maltaOrder, extra = [] }) => [
-  z('malta', malta === N.maltaOrder ? 'other' : 'france', malta, MALTA, malta === N.maltaFrench ? { span: '1798 – 1800' } : {}),
-  z('ragusa', 'other', N.ragusa, RAGUSA),
+  z('malta', malta === N.maltaOrder ? 'malta' : 'france', malta, MALTA, malta === N.maltaFrench ? { span: '1798 – 1800' } : MINOR),
+  z('ragusa', 'ragusa', N.ragusa, RAGUSA, MINOR),
   ...extra,
   z('france', 'france', N.franceR, france, { sea: [SEA_CORSICA] }),
-  z('batavian', 'client', N.batavian, C('Netherlands')),
-  z('cisalpine', 'client', N.cisalpine, CISALPINE),
-  z('ligurian', 'client', N.ligurian, LIGURIA),
+  z('batavian', 'batavia', N.batavian, C('Netherlands')),
+  z('cisalpine', 'italy', N.cisalpine, CISALPINE),
+  z('ligurian', 'ligurian', N.ligurian, LIGURIA, ITALIAN),
   z('austria-breisgau', 'austria', N.austriaBreisgau, BREISGAU),
   S.britain(), S.gibraltar(), S.portugal(U(C('Portugal'), OLIVENZA)), S.spain(), S.denmark(), S.pomerania(), S.sweden(U(C('Sweden'), FINLAND_SWEDISH)),
   swiss, papal,
-  z('parma', 'other', N.parma, PARMA), z('lucca', 'other', N.lucca, LUCCA), z('tuscany', 'other', N.tuscany, TUSCANY),
-  z('sardinia-island', 'other', N.sardiniaIslandOnly, SARDINIA),
+  z('parma', 'parma', N.parma, PARMA, ITALIAN), z('lucca', 'lucca', N.lucca, LUCCA, ITALIAN), z('tuscany', 'tuscany', N.tuscany, TUSCANY, ITALIAN),
+  z('sardinia-island', 'sardinia', N.sardiniaIslandOnly, SARDINIA, ITALIAN),
   z('prussia', 'prussia', N.prussia, PRUSSIA_1795), PRUSSIA_WEST_1792(),
-  z('hanover', 'other', N.hanover, HANOVER),
+  z('hanover', 'hanover', N.hanover, HANOVER, GERMAN),
   AUSTRIA_1797(N.habsburg),
   S.russia(RU_1795),
   S.ottoman(), S.africa(),
-  germanFiller('hre', 'other', N.hre, U(C('Germany', 'Liechtenstein'), SALZBURG, LUSATIA_PL)),
+  germanFiller('hre', 'german-states', N.hre, U(C('Germany', 'Liechtenstein'), SALZBURG, LUSATIA_PL)),
 ];
 period('1797', 1797, 1797, 1797, [PERIOD_1797({ france: U(C('France', 'Belgium', 'Luxembourg'), JURA_N, SAARLOUIS, EIFEL_LUX, ZEELAND_FLANDERS, DUTCH_MEUSE, LEFT_BANK),
-  swiss: z('swiss', 'other', N.swiss, D(SWISS, JURA_N)), papal: z('papal', 'other', N.papal, PAPAL),
-  extra: [ionianFrench()] }), z('naples', 'other', N.naples, U(NAPLES, SICILY)), z('sardinia', 'other', N.sardinia, PIEDMONT), z('egypt', 'ottoman', N.egyptMamluk, EGYPT)]);
+  swiss: z('swiss', 'swiss', N.swiss, D(SWISS, JURA_N)), papal: z('papal', 'papal', N.papal, PAPAL, ITALIAN),
+  extra: [ionianFrench()] }), z('naples', 'naples', N.naples, U(NAPLES, SICILY), ITALIAN), z('sardinia', 'sardinia', N.sardinia, PIEDMONT, ITALIAN), z('egypt', 'ottoman', N.egyptMamluk, EGYPT)]);
 // 1798, before the expedition reaches Egypt: Geneva and the Jura French, the Helvetic and Roman republics
-period('1798', 1798, 1798, 1798, [PERIOD_1797({ france: FRANCE_1798, swiss: z('swiss', 'client', N.helvetic, SWISS), papal: z('papal', 'client', N.roman, PAPAL),
-  extra: [ionianFrench()] }), z('naples', 'other', N.naples, U(NAPLES, SICILY)), z('sardinia', 'other', N.sardinia, PIEDMONT), z('egypt', 'ottoman', N.egyptMamluk, EGYPT)]);
+period('1798', 1798, 1798, 1798, [PERIOD_1797({ france: FRANCE_1798, swiss: z('swiss', 'helvetic', N.helvetic, SWISS), papal: z('papal', 'roman', N.roman, PAPAL, ITALIAN),
+  extra: [ionianFrench()] }), z('naples', 'naples', N.naples, U(NAPLES, SICILY), ITALIAN), z('sardinia', 'sardinia', N.sardinia, PIEDMONT, ITALIAN), z('egypt', 'ottoman', N.egyptMamluk, EGYPT)]);
 // early 1799: Malta and Egypt French, Piedmont occupied, the Parthenopean Republic, the Ionian Islands lost to Russia and the Ottomans
-period('1799', 1799, 1799, 1799, [PERIOD_1797({ france: FRANCE_1798, swiss: z('swiss', 'client', N.helvetic, SWISS), papal: z('papal', 'client', N.roman, PAPAL),
+period('1799', 1799, 1799, 1799, [PERIOD_1797({ france: FRANCE_1798, swiss: z('swiss', 'helvetic', N.helvetic, SWISS), papal: z('papal', 'roman', N.roman, PAPAL, ITALIAN),
   malta: N.maltaFrench, extra: [ionianProtected(), z('menorca', 'britain', N.menorca, MENORCA)] }),
-  z('naples', 'client', N.parthenopean, NAPLES), z('sicily', 'other', N.sicily, SICILY),
+  z('naples', 'parthenopean', N.parthenopean, NAPLES, ITALIAN), z('sicily', 'naples', N.sicily, SICILY, ITALIAN),
   z('sardinia', 'france', N.piedmontFrench, PIEDMONT), z('egypt', 'france', N.egyptFrench, EGYPT, { span: '1798 – 1801' })]);
 // late 1799 and 1800: Brumaire, Marengo and Hohenlinden; Piedmont fought over, the Papal States and Naples restored
-period('1800', 1800, 1799, 1800, [PERIOD_1797({ france: FRANCE_1798, swiss: z('swiss', 'client', N.helvetic, SWISS), papal: z('papal', 'other', N.papal, D(PAPAL, LEGATIONS)),
+period('1800', 1800, 1799, 1800, [PERIOD_1797({ france: FRANCE_1798, swiss: z('swiss', 'helvetic', N.helvetic, SWISS), papal: z('papal', 'papal', N.papal, D(PAPAL, LEGATIONS), ITALIAN),
   malta: N.maltaFrench, extra: [ionianProtected(), z('menorca', 'britain', N.menorca, MENORCA)] }),
-  z('naples', 'other', N.naples, U(NAPLES, SICILY)),
-  z('sardinia', 'other', N.piedmontContested, PIEDMONT, { span: '1799 – 1800' }), z('egypt', 'france', N.egyptFrench, EGYPT, { span: '1798 – 1801' })]);
+  z('naples', 'naples', N.naples, U(NAPLES, SICILY), ITALIAN),
+  z('sardinia', 'piedmont', N.piedmontContested, PIEDMONT, { span: '1799 – 1800', ...ITALIAN }), z('egypt', 'france', N.egyptFrench, EGYPT, { span: '1798 – 1801' })]);
 
 // 1801 – 1802: Lunéville and Amiens. Piedmont and Elba French, the Italian Republic, Etruria; Malta British, Egypt Ottoman again
 const PERIOD_1801 = ({ france, swiss, parma, hanover, prussia, breisgau, extra = [] }) => [
-  z('malta', 'britain', N.maltaBritish, MALTA), z('ragusa', 'other', N.ragusa, RAGUSA), ionianProtected(),
+  z('malta', 'britain', N.maltaBritish, MALTA), z('ragusa', 'ragusa', N.ragusa, RAGUSA, MINOR), ionianProtected(),
   ...extra,
   z('france', 'france', france[0], france[1], { sea: [SEA_CORSICA, SEA_ELBA] }),
-  z('batavian', 'client', N.batavian, C('Netherlands')),
+  z('batavian', 'batavia', N.batavian, C('Netherlands')),
   ...swiss,
-  z('cisalpine', 'client', N.italianRepublic, U(CISALPINE, NOVARA), { span: '1802 – 1805' }),
-  z('ligurian', 'client', N.ligurian, LIGURIA),
-  z('parma', 'other', parma, PARMA),
-  z('lucca', 'other', N.luccaFrench, LUCCA),
-  z('tuscany', 'client', N.etruria, TUSCANY),
-  z('papal', 'other', N.papal, D(PAPAL, LEGATIONS)),
-  z('naples', 'other', N.naples, U(NAPLES, SICILY)),
-  z('sardinia-island', 'other', N.sardiniaIsland, SARDINIA),
+  z('cisalpine', 'italy', N.italianRepublic, U(CISALPINE, NOVARA), { span: '1802 – 1805' }),
+  z('ligurian', 'ligurian', N.ligurian, LIGURIA, ITALIAN),
+  z('parma', 'parma', parma, PARMA, ITALIAN),
+  z('lucca', 'lucca', N.luccaFrench, LUCCA, ITALIAN),
+  z('tuscany', 'etruria', N.etruria, TUSCANY, ITALIAN),
+  z('papal', 'papal', N.papal, D(PAPAL, LEGATIONS), ITALIAN),
+  z('naples', 'naples', N.naples, U(NAPLES, SICILY), ITALIAN),
+  z('sardinia-island', 'sardinia', N.sardiniaIsland, SARDINIA, ITALIAN),
   z('austria-breisgau', 'austria', breisgau, BREISGAU),
   S.britain(N.uk), S.gibraltar(), S.portugal(), S.spain(SPAIN_ALL), S.denmark(), S.pomerania(), S.sweden(U(C('Sweden'), FINLAND_SWEDISH)),
   ...prussia,
-  z('hanover', 'other', hanover[0], hanover[1]),
+  z('hanover', 'hanover', hanover[0], hanover[1], GERMAN),
   AUSTRIA_1797(N.habsburg),
   S.russia(RU_1795),
   S.ottoman(), z('egypt', 'ottoman', N.egypt, EGYPT), S.africa(),
-  germanFiller('hre', 'other', N.hre, U(C('Germany', 'Liechtenstein'), SALZBURG, LUSATIA_PL)),
+  germanFiller('hre', 'german-states', N.hre, U(C('Germany', 'Liechtenstein'), SALZBURG, LUSATIA_PL)),
 ];
-period('1801', 1801, 1801, 1802, PERIOD_1801({ france: [N.franceR, FRANCE_1801], swiss: [z('swiss', 'client', N.helvetic, SWISS)], parma: N.parma,
+period('1801', 1801, 1801, 1802, PERIOD_1801({ france: [N.franceR, FRANCE_1801], swiss: [z('swiss', 'helvetic', N.helvetic, SWISS)], parma: N.parma,
   hanover: [N.hanover, HANOVER], prussia: [z('prussia', 'prussia', N.prussia, PRUSSIA_1795), PRUSSIA_WEST_1792()], breisgau: N.austriaBreisgau }));
 // 1803 – 1804: the Imperial Recess redraws Germany, Hanover occupied by France, the Act of Mediation in Switzerland
 const PRUSSIA_1803 = () => [z('prussia', 'prussia', N.prussia, U(PRUSSIA_1795, PR_EAST_1803)), z('prussia-west', 'prussia', N.prussiaWest, PR_WEST_1803),
   z('prussia-frisia', 'prussia', N.prussiaFrisia, EAST_FRISIA), z('prussia-ansbach', 'prussia', N.prussiaAnsbach, ANSBACH)];
-const SWISS_1803 = () => [z('valais', 'client', N.valais, VALAIS), z('swiss', 'client', N.mediation, D(SWISS, JURA, GENEVA, VALAIS), { span: '1803 – 1813' })];
+const SWISS_1803 = () => [z('valais', 'valais', N.valais, VALAIS, MINOR), z('swiss', 'helvetic', N.mediation, D(SWISS, JURA, GENEVA, VALAIS), { span: '1803 – 1813' })];
 period('1803', 1803, 1803, 1804, PERIOD_1801({ france: [N.franceR, FRANCE_1801], swiss: SWISS_1803(), parma: N.parmaFrench,
   hanover: [N.hanoverOccupied, U(HANOVER, OSNABRUECK)], prussia: PRUSSIA_1803(), breisgau: N.breisgau }));
 
 // 1805: the Empire with Liguria, the Kingdom of Italy, Lucca and Piombino for Elisa
 period('1805', 1805, 1805, 1805, [
-  z('malta', 'britain', N.maltaBritish, MALTA), z('ragusa', 'other', N.ragusa, RAGUSA), ionianProtected(),
+  z('malta', 'britain', N.maltaBritish, MALTA), z('ragusa', 'ragusa', N.ragusa, RAGUSA, MINOR), ionianProtected(),
   z('france', 'france', N.franceE, U(FRANCE_1801, LIGURIA), { sea: [SEA_CORSICA, SEA_ELBA] }),
-  z('batavian', 'client', N.batavian, C('Netherlands')),
+  z('batavian', 'batavia', N.batavian, C('Netherlands')),
   SWISS_1803(),
-  z('cisalpine', 'client', N.italy, U(CISALPINE, NOVARA)),
-  z('parma', 'other', N.parmaFrench, PARMA),
-  z('lucca', 'client', N.luccaElisa, LUCCA),
-  z('tuscany', 'client', N.etruria, TUSCANY),
-  z('papal', 'other', N.papal, D(PAPAL, LEGATIONS)),
-  z('naples', 'other', N.naples, U(NAPLES, SICILY)),
-  z('sardinia-island', 'other', N.sardiniaIsland, SARDINIA),
+  z('cisalpine', 'italy', N.italy, U(CISALPINE, NOVARA)),
+  z('parma', 'parma', N.parmaFrench, PARMA, ITALIAN),
+  z('lucca', 'lucca', N.luccaElisa, LUCCA, ITALIAN),
+  z('tuscany', 'etruria', N.etruria, TUSCANY, ITALIAN),
+  z('papal', 'papal', N.papal, D(PAPAL, LEGATIONS), ITALIAN),
+  z('naples', 'naples', N.naples, U(NAPLES, SICILY), ITALIAN),
+  z('sardinia-island', 'sardinia', N.sardiniaIsland, SARDINIA, ITALIAN),
   z('austria-breisgau', 'austria', N.breisgau, BREISGAU),
   S.britain(N.uk), S.gibraltar(), S.portugal(), S.spain(SPAIN_ALL), S.denmark(), S.pomerania(), S.sweden(U(C('Sweden'), FINLAND_SWEDISH)),
   PRUSSIA_1803(),
-  z('hanover', 'other', N.hanoverOccupied, U(HANOVER, OSNABRUECK)),
+  z('hanover', 'hanover', N.hanoverOccupied, U(HANOVER, OSNABRUECK), GERMAN),
   AUSTRIA_1797(N.austria),
   S.russia(RU_1795),
   serbia(), S.ottoman(), z('egypt', 'ottoman', N.egyptAli, EGYPT), S.africa(),
-  germanFiller('hre', 'other', N.hre, U(C('Germany', 'Liechtenstein'), SALZBURG, LUSATIA_PL)),
+  germanFiller('hre', 'german-states', N.hre, U(C('Germany', 'Liechtenstein'), SALZBURG, LUSATIA_PL)),
 ]);
 
 // 1806 to the summer of 1807: Pressburg, Holland and Naples for the Bonapartes, the Confederation of the Rhine,
 // Prussia with Hanover until Jena
 period('1806', 1806, 1806, 1807, [
-  z('malta', 'britain', N.maltaBritish, MALTA), z('ragusa', 'other', N.ragusa, RAGUSA), ionianProtected(),
+  z('malta', 'britain', N.maltaBritish, MALTA), z('ragusa', 'ragusa', N.ragusa, RAGUSA, MINOR), ionianProtected(),
   z('france', 'france', N.franceE, U(FRANCE_1801, LIGURIA), { sea: [SEA_CORSICA, SEA_ELBA] }),
-  z('holland', 'client', N.holland, C('Netherlands')),
+  z('holland', 'batavia', N.holland, C('Netherlands')),
   SWISS_1803(),
-  z('cisalpine', 'client', N.italy, ITALY_1806, { sea: [SEA_TRIESTE, SEA_KORCULA, SEA_KOTOR] }),
-  z('parma', 'other', N.parmaFrench, PARMA),
-  z('lucca', 'client', N.luccaElisa, LUCCA_MASSA),
-  z('tuscany', 'client', N.etruria, TUSCANY),
-  z('papal', 'other', N.papal, D(PAPAL, LEGATIONS)),
-  z('naples', 'client', N.naplesJoseph, NAPLES), z('sicily', 'other', N.sicily, SICILY),
-  z('sardinia-island', 'other', N.sardiniaIsland, SARDINIA),
+  z('cisalpine', 'italy', N.italy, ITALY_1806, { sea: [SEA_TRIESTE, SEA_KORCULA, SEA_KOTOR] }),
+  z('parma', 'parma', N.parmaFrench, PARMA, ITALIAN),
+  z('lucca', 'lucca', N.luccaElisa, LUCCA_MASSA, ITALIAN),
+  z('tuscany', 'etruria', N.etruria, TUSCANY, ITALIAN),
+  z('papal', 'papal', N.papal, D(PAPAL, LEGATIONS), ITALIAN),
+  z('naples', 'french-naples', N.naplesJoseph, NAPLES, ITALIAN), z('sicily', 'naples', N.sicily, SICILY, ITALIAN),
+  z('sardinia-island', 'sardinia', N.sardiniaIsland, SARDINIA, ITALIAN),
   S.britain(N.uk), S.gibraltar(), S.portugal(), S.spain(SPAIN_ALL), S.denmark(), S.pomerania(), S.sweden(U(C('Sweden'), FINLAND_SWEDISH)),
   z('prussia', 'prussia', N.prussia, U(PRUSSIA_1795, PR_EAST_1803, HANOVER, OSNABRUECK, D(PR_WEST_1803, CLEVES))),
   z('prussia-frisia', 'prussia', N.prussiaFrisia, EAST_FRISIA), z('prussia-bayreuth', 'prussia', N.prussiaBayreuth, BAYREUTH),
@@ -831,34 +830,34 @@ period('1806', 1806, 1806, 1807, [
   z('rhine', 'rhine', N.rhine, U(CR_1806, TYROL, VORARLBERG)),
   S.russia(RU_1795),
   serbia(), S.ottoman(), z('egypt', 'ottoman', N.egyptAli, EGYPT), S.africa(),
-  germanFiller('hre', 'other', N.germanNorth, U(C('Germany', 'Liechtenstein'), LUSATIA_PL)),
+  germanFiller('hre', 'german-states', N.germanNorth, U(C('Germany', 'Liechtenstein'), LUSATIA_PL)),
 ]);
 
 // 1807 – 1808: Tilsit. Westphalia, the Duchy of Warsaw and Danzig; Prussia cut back to the Elbe; the Ionian Islands French
 const PERIOD_1807 = ({ late }) => [
   z('malta', 'britain', N.maltaBritish, MALTA),
-  late ? null : z('ragusa', 'other', N.ragusa, RAGUSA),
+  late ? null : z('ragusa', 'ragusa', N.ragusa, RAGUSA, MINOR),
   ionianFrench(),
   z('france', 'france', N.franceE, late ? FRANCE_1808 : U(FRANCE_1801, LIGURIA), { sea: [SEA_CORSICA, SEA_ELBA, ...(late ? [SEA_LUCCA] : [])] }),
-  z('holland', 'client', N.holland, U(C('Netherlands'), EAST_FRISIA, JEVER)),
-  z('westphalia', 'client', N.westphalia, WESTPHALIA_1807),
-  z('danzig', 'client', N.danzig, DANZIG),
+  z('holland', 'batavia', N.holland, U(C('Netherlands'), EAST_FRISIA, JEVER)),
+  z('westphalia', 'westphalia', N.westphalia, WESTPHALIA_1807),
+  z('danzig', 'danzig', N.danzig, DANZIG, MINOR),
   SWISS_1803(),
-  z('cisalpine', 'client', N.italy, late ? U(ITALY_1806, RAGUSA, MARCHE) : ITALY_1806, { sea: [SEA_TRIESTE, SEA_KORCULA, SEA_KOTOR] }),
-  late ? null : z('parma', 'other', N.parmaFrench, PARMA),
-  z('lucca', 'client', N.luccaElisa, LUCCA_MASSA),
-  late ? null : z('tuscany', 'client', N.etruria, TUSCANY),
-  z('papal', 'other', N.papal, late ? ROME : D(PAPAL, LEGATIONS)),
-  z('naples', 'client', late ? N.naplesMurat : N.naplesJoseph, NAPLES), z('sicily', 'other', N.sicily, SICILY),
-  z('sardinia-island', 'other', N.sardiniaIsland, SARDINIA),
+  z('cisalpine', 'italy', N.italy, late ? U(ITALY_1806, RAGUSA, MARCHE) : ITALY_1806, { sea: [SEA_TRIESTE, SEA_KORCULA, SEA_KOTOR] }),
+  late ? null : z('parma', 'parma', N.parmaFrench, PARMA, ITALIAN),
+  z('lucca', 'lucca', N.luccaElisa, LUCCA_MASSA, ITALIAN),
+  late ? null : z('tuscany', 'etruria', N.etruria, TUSCANY, ITALIAN),
+  z('papal', 'papal', N.papal, late ? ROME : D(PAPAL, LEGATIONS), ITALIAN),
+  z('naples', 'french-naples', late ? N.naplesMurat : N.naplesJoseph, NAPLES, ITALIAN), z('sicily', 'naples', N.sicily, SICILY, ITALIAN),
+  z('sardinia-island', 'sardinia', N.sardiniaIsland, SARDINIA, ITALIAN),
   S.britain(N.uk), S.gibraltar(), S.portugal(),
-  ...(late ? [z('balearics', 'spain', N.balearics, BALEARICS, { sea: BALEARIC_SEA.slice(1) }), z('joseph-spain', 'client', N.spainJoseph, SPAIN_ALL)] : [S.spain(SPAIN_ALL)]),
+  ...(late ? [z('balearics', 'spain', N.balearics, BALEARICS, { sea: BALEARIC_SEA.slice(1) }), z('joseph-spain', 'joseph-spain', N.spainJoseph, SPAIN_ALL)] : [S.spain(SPAIN_ALL)]),
   S.denmark(), S.pomerania(), S.sweden(U(C('Sweden'), FINLAND_SWEDISH)),
   z('prussia', 'prussia', N.prussia, PRUSSIA_1807),
-  z('hanover', 'other', N.hanoverFrench, U(HANOVER, HAMBURG)),
+  z('hanover', 'hanover', N.hanoverFrench, U(HANOVER, HAMBURG), GERMAN),
   z('austria', 'austria', N.austria, AUSTRIA_1806),
   S.russia(RU_1807),
-  z('warsaw', 'rhine', N.warsaw, WARSAW_ROUGH),
+  z('warsaw', 'warsaw', N.warsaw, WARSAW_ROUGH),
   serbia(), S.ottoman(), z('egypt', 'ottoman', N.egyptAli, EGYPT), S.africa(),
   germanFiller('rhine', 'rhine', N.rhine, U(C('Germany', 'Liechtenstein'), TYROL, VORARLBERG, LUSATIA_PL)),
 ];
@@ -873,20 +872,20 @@ const PERIOD_1810 = ({ france, russia, warsaw }) => [
   z('ionian', 'britain', N.ionianBritish, D(IONIAN, IONIAN_N), { sea: [IONIAN_SEA[1]] }),
   z('france', 'france', N.franceE, france, { sea: [SEA_CORSICA, SEA_ELBA, SEA_LUCCA] }),
   z('illyria', 'france', N.illyria, U(ILLYRIA, TARVISIO)),
-  z('westphalia', 'client', N.westphalia, U(WESTPHALIA_1807, HANOVER)),
-  z('danzig', 'client', N.danzig, DANZIG),
-  z('swiss', 'client', N.mediation, D(SWISS, JURA, GENEVA, VALAIS), { span: '1803 – 1813' }),
-  z('cisalpine', 'client', N.italy, ITALY_1810),
-  z('lucca', 'client', N.luccaElisa, LUCCA_MASSA),
-  z('naples', 'client', N.naplesMurat, NAPLES), z('sicily', 'other', N.sicily, SICILY),
-  z('sardinia-island', 'other', N.sardiniaIsland, SARDINIA),
+  z('westphalia', 'westphalia', N.westphalia, U(WESTPHALIA_1807, HANOVER)),
+  z('danzig', 'danzig', N.danzig, DANZIG, MINOR),
+  z('swiss', 'helvetic', N.mediation, D(SWISS, JURA, GENEVA, VALAIS), { span: '1803 – 1813' }),
+  z('cisalpine', 'italy', N.italy, ITALY_1810),
+  z('lucca', 'lucca', N.luccaElisa, LUCCA_MASSA, ITALIAN),
+  z('naples', 'french-naples', N.naplesMurat, NAPLES, ITALIAN), z('sicily', 'naples', N.sicily, SICILY, ITALIAN),
+  z('sardinia-island', 'sardinia', N.sardiniaIsland, SARDINIA, ITALIAN),
   S.britain(N.uk), S.gibraltar(), S.portugal(),
-  z('balearics', 'spain', N.balearics, BALEARICS, { sea: BALEARIC_SEA.slice(1) }), z('joseph-spain', 'client', N.spainJoseph, SPAIN_ALL),
+  z('balearics', 'spain', N.balearics, BALEARICS, { sea: BALEARIC_SEA.slice(1) }), z('joseph-spain', 'joseph-spain', N.spainJoseph, SPAIN_ALL),
   S.denmark(), S.pomerania(), S.sweden(), z('finland', 'russia', N.finland, C('Finland', 'Åland')),
   z('prussia', 'prussia', N.prussia, PRUSSIA_1807),
   z('austria', 'austria', N.austria, AUSTRIA_1810),
   S.russia(russia),
-  z('warsaw', 'rhine', warsaw, WARSAW_ROUGH),
+  z('warsaw', 'warsaw', warsaw, WARSAW_ROUGH),
   serbia(), S.ottoman(), z('egypt', 'ottoman', N.egyptAli, EGYPT), S.africa(),
   germanFiller('rhine', 'rhine', N.rhine, U(C('Germany', 'Liechtenstein'), NORTH_TYROL, VORARLBERG, SALZBURG, INNVIERTEL, LUSATIA_PL)),
 ];
@@ -903,25 +902,26 @@ period('1813-spain', 1813, 1813, 1814, { side: '1813' }, [
 const PERIOD_1815 = ({ late }) => [
   z('malta', 'britain', N.maltaBritish, MALTA),
   z('ionian', 'britain', late ? N.ionianUnited : N.ionianBritish, IONIAN, { sea: IONIAN_SEA }),
-  late ? null : z('elba', 'other', N.elba, ELBA, { span: '1814 – 1815' }),
+  late ? null : z('elba', 'elba', N.elba, ELBA, { span: '1814 – 1815', ...MINOR }),
   z('france', 'france', N.franceK, late ? D(C('France'), SAVOY, NICE) : D(U(C('France', 'Belgium'), SAAR_1814), D(C('Belgium'), PHILIPPEVILLE_BOX), NICE, D(SAVOY, SAVOY_WEST)), { sea: [SEA_CORSICA] }),
-  z('netherlands', 'other', late ? N.netherlandsKingdom : N.netherlandsUnited, D(C('Netherlands', 'Belgium', 'Luxembourg'), EUPEN_MALMEDY)),
-  z('swiss', 'other', N.swissRestored, SWISS),
-  z('sardinia', 'other', N.sardinia, U(PIEDMONT, NICE, SAVOY, LIGURIA, SARDINIA), { sea: [SEA_SARDINIA_GENOA] }),
-  z('krakow', 'other', N.krakow, KRAKOW),
+  z('netherlands', 'netherlands', late ? N.netherlandsKingdom : N.netherlandsUnited, D(C('Netherlands', 'Belgium', 'Luxembourg'), EUPEN_MALMEDY)),
+  z('swiss', 'swiss', N.swissRestored, SWISS),
+  z('sardinia', 'sardinia', N.sardinia, U(PIEDMONT, NICE, SAVOY, LIGURIA, SARDINIA), { sea: [SEA_SARDINIA_GENOA], ...ITALIAN }),
+  z('krakow', 'krakow', N.krakow, KRAKOW, MINOR),
   z('austria', 'austria', N.austria, AUSTRIA_1815, { sea: [SEA_KORCULA] }),
-  z('parma', 'other', N.parma, PARMA), z('modena', 'other', N.modena, MODENA), z('lucca', 'other', N.lucca1815, LUCCA),
-  z('tuscany', 'other', N.tuscany, U(D(TUSCANY, LUCCA, MODENA), ELBA)), z('papal', 'other', N.papal, PAPAL),
-  ...(late ? [z('naples', 'other', N.naples, U(NAPLES, SICILY))] : [z('naples', 'client', N.naplesMurat, NAPLES), z('sicily', 'other', N.sicily, SICILY)]),
+  z('parma', 'parma', N.parma, PARMA, ITALIAN), z('modena', 'modena', N.modena, MODENA, ITALIAN), z('lucca', 'lucca', N.lucca1815, LUCCA, ITALIAN),
+  z('tuscany', 'tuscany', N.tuscany, U(D(TUSCANY, LUCCA, MODENA), ELBA), ITALIAN), z('papal', 'papal', N.papal, PAPAL, ITALIAN),
+  ...(late ? [z('naples', 'naples', N.naples, U(NAPLES, SICILY), ITALIAN)]
+    : [z('naples', 'french-naples', N.naplesMurat, NAPLES, ITALIAN), z('sicily', 'naples', N.sicily, SICILY, ITALIAN)]),
   S.britain(N.uk), S.gibraltar(), S.portugal(), S.spain(SPAIN_ALL),
-  z('denmark', 'other', N.denmarkK, U(C('Denmark'), HOLSTEIN), { sea: [SEA_BORNHOLM] }),
-  z('norway', 'sweden', N.norway, C('Norway')),
+  z('denmark', 'denmark', N.denmarkK, U(C('Denmark'), HOLSTEIN), { sea: [SEA_BORNHOLM] }),
+  z('norway', 'norway', N.norway, C('Norway')),
   late ? null : S.pomerania(), S.sweden(), z('finland', 'russia', N.finland, C('Finland', 'Åland')),
   z('prussia', 'prussia', N.prussia, PRUSSIA_1815), z('prussia-west', 'prussia', N.prussiaRhine, U(PR_RHINE_1815, EUPEN_MALMEDY)),
   S.russia(RU_1815),
-  z('poland', 'russia', N.congressPoland, WARSAW_ROUGH),
+  z('poland', 'congress-poland', N.congressPoland, WARSAW_ROUGH),
   S.ottoman(), z('egypt', 'ottoman', N.egyptAli, EGYPT), S.africa(),
-  germanFiller('german', 'other', late ? N.germanConfederation : N.germanStates, U(C('Germany', 'Liechtenstein'), SALZBURG, INNVIERTEL)),
+  germanFiller('german', 'german-states', late ? N.germanConfederation : N.germanStates, U(C('Germany', 'Liechtenstein'), SALZBURG, INNVIERTEL)),
 ];
 period('1814', 1814, 1814, 1815, PERIOD_1815({ late: false }));
 // 1815: the Vienna settlement and the second Peace of Paris
@@ -929,27 +929,32 @@ period('1815', 1815, 1815, 1815, PERIOD_1815({ late: true }));
 
 
 // --- which strategic page shows which period; close battle views and phase pages show none ---
+// `named`: families of a group or minor states that the page's text names, which show on their own.
+// `drop`: families or groups the page leaves out, so its legend keeps to 15 entries.
 const PAGES = {
   revolution: '1792', 'war-of-1792': '1792', valmy: '1792', jemappes: '1792',
-  'coalition-1793': '1793', fleurus: '1793',
-  directory: '1795', 'italy-1796': '1795', arcole: '1795',
-  'campo-formio': '1797',
-  'egypt-1798': '1798', pyramids: '1798', nile: '1798',
-  'second-coalition': '1799', acre: '1799', 'acre-retreat': '1799',
-  brumaire: '1800', marengo: '1800', hohenlinden: '1800', 'egypt-end': '1800',
-  amiens: '1801', empire: '1803',
-  ulm: '1805', trafalgar: '1805', austerlitz: '1805',
-  pressburg: '1806', 'prussia-1806': '1806', berlin: '1806', eylau: '1806', friedland: '1806',
-  tilsit: '1807', 'spain-1808': '1807',
+  'coalition-1793': ['1793', { named: ['tuscany', 'hanover'] }], fleurus: '1793',
+  directory: '1795', 'italy-1796': ['1795', { named: ['sardinia'] }], arcole: '1795',
+  'campo-formio': ['1797', { named: ['papal', 'ligurian'] }],
+  'egypt-1798': ['1798', { named: ['malta'] }], pyramids: '1798', nile: ['1798', { named: ['malta', 'naples'] }],
+  'second-coalition': ['1799', { named: ['naples', 'parthenopean', 'roman', 'ligurian'], drop: ['denmark', 'sweden'] }],
+  acre: '1799', 'acre-retreat': '1799',
+  brumaire: '1800', marengo: ['1800', { named: ['ligurian', 'piedmont'] }], hohenlinden: '1800', 'egypt-end': '1800',
+  amiens: ['1801', { named: ['naples'], drop: ['portugal'] }], empire: ['1803', { named: ['ligurian'] }],
+  ulm: ['1805', { named: ['hanover'] }], trafalgar: '1805', austerlitz: '1805',
+  pressburg: ['1806', { named: ['naples', 'french-naples'], drop: ['spain', 'denmark'] }],
+  'prussia-1806': '1806', berlin: '1806', eylau: '1806', friedland: '1806',
+  tilsit: ['1807', { named: ['danzig'] }], 'spain-1808': '1807',
   corunna: '1808', talavera: '1808', 'austria-1809': '1808',
-  schonbrunn: '1809', 'torres-vedras': '1809', salamanca: '1809', niemen: '1809', smolensk: '1809', borodino: '1809', moscow: '1809', berezina: '1809', vilna: '1809',
+  schonbrunn: ['1809', { drop: ['spain', 'denmark'] }],
+  'torres-vedras': '1809', salamanca: '1809', niemen: '1809', smolensk: '1809', borodino: '1809', moscow: '1809', berezina: '1809', vilna: '1809',
   vitoria: '1813', 'germany-1813': '1813', dresden: '1813', leipzig: '1813', toulouse: '1813-spain',
-  'france-1814': '1814', 'abdication-1814': '1814', 'return-from-elba': '1814',
-  'second-abdication': '1815', vienna: '1815',
+  'france-1814': '1814', 'abdication-1814': '1814', 'return-from-elba': ['1814', { named: ['elba', 'french-naples'] }],
+  'second-abdication': '1815', vienna: ['1815', { named: ['naples', 'sardinia', 'papal'], drop: ['spain', 'portugal', 'ottoman', 'italian-states'] }],
 };
 
 
-// --- settle each period: land first, then corridors, then the sea; one Polygon per zone ---
+// --- settle each period: land first, then corridors, then the sea; one Polygon per zone, a MultiPolygon for a multi zone ---
 const yaml = require('js-yaml');
 const storyYaml = yaml.load(fs.readFileSync(path.join(story, 'story.yaml'), 'utf8'));
 const STORYLAND = C(...storyYaml.land.filter(n => COUNTRY[n]));
@@ -984,22 +989,18 @@ function settle(p) {
   });
   if (process.env.DEBUG) console.log(`  sea ${((Date.now() - T0) / 1000).toFixed(1)} s`);
   // loose bits of land are dropped: slivers cut off by a neighbour's line, islets under 150 km2, islands north of 62°.
-  // A zone with `parts` splits into one zone per named piece, the piece holding that point; the largest keeps the key.
+  // A `multi` zone keeps the pieces its neighbours cut it into as one MultiPolygon.
   const final = [];
   for (const o of out) {
     const sized = pieces(o.g).map(q => [q, km2(landOf(q))]).sort((a, b) => b[1] - a[1]);
     const kept = sized.filter(([q, a], i) => i === 0 || (a > 150 && turf.centroid(q).geometry.coordinates[1] < 62)).map(([q]) => q);
     if (process.env.DEBUG) for (const [q, a] of sized.slice(1)) if (a > 1 && !kept.includes(q)) console.log(`  ${o.key}: dropped ${a.toFixed(0)} km2 at ${at(q)}`);
-    const named = kept.map((q, i) => [i === 0 ? o.key : Object.entries(o.parts ?? {}).find(([, [pt]]) => turf.booleanPointInPolygon(pt, q))?.[0], q]);
-    const loose = named.filter(([k]) => !k);
-    if (loose.length) {
+    if (kept.length > 1 && !o.multi) {
       if (process.env.DEBUG) for (const l of pieces(o.landPart)) if (km2(l) > 20) console.log(`    land ${km2(l).toFixed(0)} km2 at ${at(l)} in piece ${kept.findIndex(q => turf.booleanIntersects(q, turf.pointOnFeature(l)))}`);
-      throw new Error(`${p.id} ${o.key}: ${kept.length} pieces with land, loose: ${loose.map(([, q]) => `${km2(landOf(q)).toFixed(0)} km2 at ${at(q)}, box ${turf.bbox(q).map(c => c.toFixed(2))}`).join('; ')}`);
+      throw new Error(`${p.id} ${o.key}: ${kept.length} pieces with land, loose: ${kept.slice(1).map(q => `${km2(landOf(q)).toFixed(0)} km2 at ${at(q)}, box ${turf.bbox(q).map(c => c.toFixed(2))}`).join('; ')}`);
     }
-    for (const [k, q] of named) {
-      const [en, tr] = k === o.key ? [o.en, o.tr] : o.parts[k][1];
-      final.push({ ...o, key: k === o.key ? k : `${o.key}-${k}`, en, tr, g: q, landPart: I(o.landPart, q) });
-    }
+    const g = kept.length === 1 ? kept[0] : turf.multiPolygon(kept.map(q => q.geometry.coordinates));
+    final.push({ ...o, g, landPart: I(o.landPart, g) });
   }
   return final;
 }
@@ -1011,7 +1012,7 @@ if (!isMainThread) {
   const out = {};
   for (const id of workerData.ids) {
     const t = Date.now();
-    out[id] = settle(PERIODS.find(p => p.id === id)).map(({ key, family, en, tr, span, g, landPart }) => ({ key, family, en, tr, span, g, landPart }));
+    out[id] = settle(PERIODS.find(p => p.id === id)).map(({ key, family, en, tr, span, group, minor, g, landPart }) => ({ key, family, en, tr, span, group, minor, g, landPart }));
     console.log(`${id}: ${out[id].length} zones, ${((Date.now() - t) / 1000).toFixed(1)} s`);
   }
   parentPort.postMessage(out);
@@ -1023,19 +1024,79 @@ const SETTLED = Object.assign({}, ...await Promise.all([...Array(lanes)].map((_,
   w.on('message', m => { resolve(m); w.terminate(); }); w.on('error', reject);
 }))));
 
+// --- what each page shows: a state in pieces as one zone, the states of a group its text does not name as one ---
+// a page lists the zones of its period that reach into its view: the bbox widened to a square map and a margin
+const PAGE_BBOX = {};
+const walk = d => { for (const e of fs.readdirSync(d, { withFileTypes: true })) if (e.isDirectory()) {
+  const dir = path.join(d, e.name), file = path.join(dir, 'page.yaml');
+  if (fs.existsSync(file)) PAGE_BBOX[e.name.replace(/^\d+-/, '')] = yaml.load(fs.readFileSync(file, 'utf8')).bbox;
+  walk(dir);
+} };
+walk(path.join(story, 'pages'));
+const view = ([w, s, e, n]) => {
+  const k = Math.cos((s + n) / 2 * Math.PI / 180), dx = (e - w) * k, dy = n - s, half = Math.max(dx, dy) * 0.6;
+  const cx = (w + e) / 2, cy = (s + n) / 2;
+  return turf.bboxPolygon([cx - half / k, cy - half, cx + half / k, cy + half]);
+};
+const byArea = (a, b) => km2(b.landPart) - km2(a.landPart);
+// a family in pieces also gets one zone of all of them under its family's key, in place of its main piece
+for (const p of RUN) {
+  const list = SETTLED[p.id], joined = [];
+  for (const f of new Set(list.map(o => o.family))) {
+    const ps = list.filter(o => o.family === f);
+    if (ps.length < 2) continue;
+    const head = ps.find(o => o.key === f) ?? [...ps].sort(byArea)[0];
+    if (head.key !== f && list.some(o => o.key === f)) throw new Error(`${p.id}: the joined zone of ${f} takes the key of another state`);
+    const [en, tr] = JOINED_NAME[f] ?? [head.en, head.tr];
+    joined.push({ ...head, key: f, en, tr, g: U(ps.map(o => o.g)), landPart: U(ps.map(o => o.landPart)) });
+  }
+  p.zoneList = [...list.filter(o => !joined.some(j => j.key === o.key)), ...joined];
+}
+const PAGE_KEYS = {};
+for (const [page, spec] of Object.entries(PAGES)) {
+  const [pid, { named = [], drop = [] } = {}] = [spec].flat();
+  if (!PERIODS.some(q => q.id === pid)) throw new Error(`${page}: unknown period ${pid}`);
+  const p = RUN.find(q => q.id === pid);
+  if (!p) continue;
+  if (!PAGE_BBOX[page]) { console.log(`  no page ${page}`); continue; }
+  const v = view(PAGE_BBOX[page]);
+  const seen = SETTLED[p.id].filter(o => !drop.includes(o.family) && turf.booleanIntersects(o.landPart, v));
+  const alone = seen.filter(o => named.includes(o.family) || !o.group && !o.minor), keys = [];
+  for (const grp of new Set(seen.filter(o => o.group && !named.includes(o.family)).map(o => o.group))) {
+    if (drop.includes(grp)) continue;
+    const os = seen.filter(o => o.group === grp && !named.includes(o.family)), fams = [...new Set(os.map(o => o.family))].sort();
+    // a group of one state shows as that state
+    if (fams.length === 1) { alone.push(...os); continue; }
+    const key = `${grp}:${fams.join(',')}`;
+    if (!p.zoneList.some(o => o.key === key)) {
+      const members = SETTLED[p.id].filter(o => o.group === grp && fams.includes(o.family)), filler = SETTLED[p.id].find(o => o.family === grp);
+      const [en, tr] = grp === 'italian-states' ? N.italianStates : filler ? [filler.en, filler.tr] : N.germanStates;
+      p.zoneList.push({ key, idBase: grp, family: grp, en, tr, g: U(members.map(o => o.g)), landPart: U(members.map(o => o.landPart)) });
+    }
+    keys.push(key);
+  }
+  // the joined zone of a family when more than one piece of it, or its main piece, is in view
+  for (const f of new Set(alone.map(o => o.family))) {
+    const ps = alone.filter(o => o.family === f);
+    keys.push(ps.length > 1 || ps.some(o => o.key === f) ? f : ps[0].key);
+  }
+  PAGE_KEYS[page] = [p, keys];
+}
+
 // --- one zone per shape: a state whose land stays the same keeps its zone into the next period ---
 const ZONES = {};
 // land that differs only by float noise or by islets under 50 km2, kept or dropped as the sea around them fell, is the same
 const same = (a, b) => { const d = [...pieces(D(a, b)), ...pieces(D(b, a))].map(km2); return d.every(x => x < 50) && d.reduce((x, y) => x + y, 0) < 150; };
 for (const p of RUN) {
   p.ids = {};
-  for (const o of SETTLED[p.id]) {
+  for (const o of p.zoneList) {
     const last = p.side ? PERIODS.find(q => q.id === p.side) : PERIODS.slice(0, PERIODS.indexOf(p)).reverse().find(q => !q.side && q.ids);
     const e = last && ZONES[last.ids[o.key]];
     let z = e && e.family === o.family && e.en === o.en && e.tr === o.tr && e.span === o.span && same(e.landPart, o.landPart) ? e : null;
     if (!z && e && e.en === o.en && process.env.DEBUG) for (const q of [...pieces(D(e.landPart, o.landPart)), ...pieces(D(o.landPart, e.landPart))]) if (km2(q) > 1) console.log(`  ${p.id} ${o.key}: same name, land differs by ${km2(q).toFixed(1)} km2 at ${at(q)}`);
     if (!z) {
-      const id = ZONES[`${o.key}-${p.year}`] ? `${o.key}-${p.id}` : `${o.key}-${p.year}`;
+      const base = o.idBase ?? o.key;
+      const id = [`${base}-${p.year}`, `${base}-${p.id}`, ...[2, 3, 4, 5, 6, 7, 8, 9].map(n => `${base}-${p.id}-${n}`)].find(c => !ZONES[c]);
       z = ZONES[id] = { id, key: o.key, family: o.family, en: o.en, tr: o.tr, span: o.span, g: o.g, landPart: o.landPart, periods: [] };
     }
     z.periods.push(p);
@@ -1049,7 +1110,7 @@ for (const z of Object.values(ZONES)) {
 }
 
 // --- shared borders carry the same points: a vertex of one zone that lies on another's edge is added to it ---
-const rings = g => g.geometry.coordinates;
+const rings = g => g.geometry.type === 'Polygon' ? g.geometry.coordinates : g.geometry.coordinates.flat(1);
 const nodeZones = list => {
   const all = list.map(z => ({ z, bbox: turf.bbox(z.g), points: rings(z.g).flat() }));
   for (const target of all) {
@@ -1076,43 +1137,31 @@ const nodeZones = list => {
 nodeZones(Object.values(ZONES));
 
 // --- write the zones, the page map and the Turkish names ---
-// the legend lists France and its satellites first, then the powers, then the smaller states
-const FAMILY_ORDER = ['france', 'client', 'rhine', 'britain', 'spain', 'portugal', 'sweden', 'prussia', 'austria', 'ottoman', 'russia', 'other'];
-// a page lists the zones of its period that reach into its view: the bbox widened to a square map and a margin
-const PAGE_BBOX = {};
-const walk = d => { for (const e of fs.readdirSync(d, { withFileTypes: true })) if (e.isDirectory()) {
-  const dir = path.join(d, e.name), file = path.join(dir, 'page.yaml');
-  if (fs.existsSync(file)) PAGE_BBOX[e.name.replace(/^\d+-/, '')] = yaml.load(fs.readFileSync(file, 'utf8')).bbox;
-  walk(dir);
-} };
-walk(path.join(story, 'pages'));
-const view = ([w, s, e, n]) => {
-  const k = Math.cos((s + n) / 2 * Math.PI / 180), dx = (e - w) * k, dy = n - s, half = Math.max(dx, dy) * 0.6;
-  const cx = (w + e) / 2, cy = (s + n) / 2;
-  return turf.bboxPolygon([cx - half / k, cy - half, cx + half / k, cy + half]);
-};
-const PAGE_ZONES = Object.fromEntries(Object.entries(PAGES).flatMap(([page, pid]) => {
-  const p = PERIODS.find(q => q.id === pid);
-  if (!p) throw new Error(`${page}: unknown period ${pid}`);
-  if (!p.ids) return [];
-  if (!PAGE_BBOX[page]) { console.log(`  no page ${page}`); return []; }
-  const v = view(PAGE_BBOX[page]);
-  const order = id => [FAMILY_ORDER.indexOf(ZONES[id].family), -km2(ZONES[id].landPart)];
-  const ids = Object.values(p.ids).filter(id => turf.booleanIntersects(ZONES[id].landPart, v));
-  return [[page, ids.sort((a, b) => { const [fa, sa] = order(a), [fb, sb] = order(b); return fa - fb || sa - sb; })]];
+// the legend lists France and its satellites first, then the powers, then the other states and last the groups
+const FAMILY_ORDER = ['france', 'batavia', 'italy', 'helvetic', 'ligurian', 'roman', 'parthenopean', 'etruria', 'french-naples', 'westphalia', 'joseph-spain',
+  'danzig', 'rhine', 'warsaw', 'britain', 'spain', 'portugal', 'sweden', 'prussia', 'austria', 'ottoman', 'russia'];
+const rank = f => FAMILY_ORDER.includes(f) ? FAMILY_ORDER.indexOf(f) : f.endsWith('-states') ? 1000 : 500;
+const PAGE_ZONES = Object.fromEntries(Object.entries(PAGE_KEYS).map(([page, [p, keys]]) => {
+  const order = id => [rank(ZONES[id].family), -km2(ZONES[id].landPart)];
+  return [page, keys.map(k => p.ids[k]).sort((a, b) => { const [fa, sa] = order(a), [fb, sb] = order(b); return fa - fb || sa - sb; })];
 }));
-const r7 = x => Math.round(x * 1e7) / 1e7;
+const r7 = c => typeof c === 'number' ? Math.round(c * 1e7) / 1e7 : c.map(r7);
 const dir = path.join(story, 'shared', 'zones');
 fs.rmSync(dir, { recursive: true, force: true });
 fs.mkdirSync(dir, { recursive: true });
-// only zones some page shows go to disk
+// only zones some page shows go to disk; a zone with the outline of an earlier one names it in shared/zones.yaml
 const USED = Object.values(ZONES).filter(z => Object.values(PAGE_ZONES).some(ids => ids.includes(z.id)));
+const drawn = new Map(), copies = [];
 for (const z of USED) {
-  const coordinates = rings(z.g).map(r => r.map(q => q.map(r7)));
-  fs.writeFileSync(path.join(dir, z.id + '.geojson'), JSON.stringify({ type: 'Feature', properties: { family: z.family, name: z.name.en }, geometry: { type: 'Polygon', coordinates } }) + '\n');
+  const geometry = { type: z.g.geometry.type, coordinates: r7(z.g.geometry.coordinates) }, key = JSON.stringify(geometry), first = drawn.get(key);
+  if (first) { copies.push(`${z.id}: { zone: ${first.id}, name: ${JSON.stringify(z.name.en)}${z.family === first.family ? '' : `, family: ${z.family}`} }`); continue; }
+  drawn.set(key, z);
+  fs.writeFileSync(path.join(dir, z.id + '.geojson'), JSON.stringify({ type: 'Feature', properties: { family: z.family, name: z.name.en }, geometry }) + '\n');
 }
+fs.writeFileSync(path.join(story, 'shared', 'zones.yaml'), '# Zones that show the outline of another zone under their own name or family, written by .plans/zones.mjs.\n'
+  + copies.join('\n') + '\n');
 fs.writeFileSync(path.join(story, '.plans', 'zones.yaml'), '# Zones per strategic page, written by .plans/zones.mjs. Close battle views and phase pages show none.\n'
   + Object.entries(PAGE_ZONES).map(([page, ids]) => `${page}: [${ids.join(', ')}]`).join('\n') + '\n');
 fs.mkdirSync(path.join(story, '.i18n-parts'), { recursive: true });
 fs.writeFileSync(path.join(story, '.i18n-parts', 'zones.tr.yaml'), USED.map(z => `zones.${z.id}.name: ${JSON.stringify(z.name.tr)}`).join('\n') + '\n');
-console.log(`${USED.length} zones, ${Object.keys(PAGE_ZONES).length} pages`);
+console.log(`${USED.length} zones, ${copies.length} of them outlines of another, ${Object.keys(PAGE_ZONES).length} pages`);

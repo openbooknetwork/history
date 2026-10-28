@@ -3,13 +3,13 @@ name: "Battle of Trnava"
 date: "28 April 1430"
 result: "Hussite victory, the Hussites withdraw to Moravia"
 source: https://cs.wikipedia.org/wiki/Bitva_u_Trnavy
-images: [trnava-gate-012170]
+images: [trnava-gate-012170, sigismund-hungary-seal-5f2e88]
 families:
-  taborites: { color: "#b5352a", color_dark: "#e8695c" }
+  orebites: { color: "#ee6f0a", color_dark: "#ff8a1f" }
   hungary: { color: "#3d7a2a", color_dark: "#7cc160" }
 sides:
   - name: "Orphans and Taborites with men of the New Town of Prague"
-    color: taborites
+    color: orebites
     commanders: ["Velek Koudelník of Březnice", "Prokop the Lesser", "Jan Zmrzlík of Svojšín", "Filip of Padařov"]
     strength: "About 10,000 by older estimates"
     casualties: "About 2,000 killed and as many horses by Bartošek of Drahonice, Velek Koudelník killed"

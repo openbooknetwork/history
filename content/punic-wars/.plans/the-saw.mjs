@@ -18,8 +18,8 @@ const lines = { side: 'carthage', path: f.path([[-3300, 2300], [-3200, 400], [-2
 // --- overview: the mutiny, Hamilcar at the Bagradas ---
 writePlan(`${G}/010-mercenary-war`, {
   routes: {
-    'rebels-241': { name: 'The army marches from Sicca and seizes Tunis, 241 BC', path: [[8.71, 36.18], [9.2, 36.4], [9.75, 36.62], [10.16, 36.79]] },
-    'hamilcar-240': { name: 'Hamilcar forces the Bagradas and routs the rebels, 240 BC', path: [[10.32, 36.86], [10.2, 36.95], [10.05, 37.0], [9.92, 36.95], [9.78, 36.86]] },
+    'rebels-241': { name: 'The army marches from Sicca and seizes Tunis, 241 BC', color: 'gauls', path: [[8.71, 36.18], [9.2, 36.4], [9.75, 36.62], [10.16, 36.79]] },
+    'hamilcar-240': { name: 'Hamilcar forces the Bagradas and routs the rebels, 240 BC', color: 'carthage', path: [[10.32, 36.86], [10.2, 36.95], [10.05, 37.0], [9.92, 36.95], [9.78, 36.86]] },
   },
   show: ['carthage-241', 'sicca-241', 'utica-240', 'hippo-240'],
 });
@@ -84,11 +84,11 @@ writePlan(`${G}/030-mercenary-war-saw`, {
 // --- Tunis and Leptis Parva ---
 writePlan(`${G}/040-mercenary-war-end`, {
   routes: {
-    'hamilcar-238': { name: 'Hamilcar marches on Tunis, late 238 BC', path: [P(0, -700), [10.13, 36.6], [10.15, 36.72], [10.165, 36.775]] },
-    'mathos-238': { name: 'Matho leads the rebel army south to Leptis Parva', path: [[10.18, 36.79], [10.35, 36.55], [10.5, 36.25], [10.63, 35.95], [10.85, 35.7]] },
-    'carthaginians-238': { name: 'Hanno and Hamilcar follow with more than 25,000 men', offset: 6, path: [[10.32, 36.85], [10.4, 36.55], [10.54, 36.25], [10.66, 35.95], [10.86, 35.72]] },
+    'hamilcar-238': { name: 'Hamilcar marches on Tunis, late 238 BC', color: 'carthage', path: [P(0, -700), [10.13, 36.6], [10.15, 36.72], [10.165, 36.775]] },
+    'mathos-238': { name: 'Matho leads the rebel army south to Leptis Parva', color: 'gauls', path: [[10.18, 36.79], [10.35, 36.55], [10.5, 36.25], [10.63, 35.95], [10.85, 35.7]] },
+    'carthaginians-238': { name: 'Hanno and Hamilcar follow with more than 25,000 men', color: 'carthage', offset: 6, path: [[10.32, 36.85], [10.4, 36.55], [10.54, 36.25], [10.66, 35.95], [10.86, 35.72]] },
   },
-  show: ['tunis-238', 'leptis-parva-238', 'utica-240', 'hippo-240'],
+  show: ['tunis-238', 'leptis-parva-238', 'utica-238', 'hippo-238'],
 });
 
 console.log('the-saw: bbox', JSON.stringify(bbox), 'battle at', JSON.stringify(P(0, 1300)));

@@ -1,4 +1,4 @@
-Ocak 1421’de, Efkaristiya’nın ekmeğini ve şarabını yalnızca birer işaret sayan rahip Martin Húska çevresindeki Pikartlar Tábor’dan ayrılıp Příběnice kalesine gider. Tábor mart sonu ile nisan başında onları Příběnice’den çıkarır ve nisanda Žižka bunlardan 50 kadarını Tábor’un dışındaki Klokoty’de yaktırır. Húska Chrudim yakınlarında yakalanır ve Žižka’nın isteğiyle 21 Ağustos 1421’de Roudnice’de yakılır.
+Ocak 1421’de, Efkaristiya’nın ekmeğini ve şarabını yalnızca birer işaret sayan rahip Martin Húska çevresindeki Pikartlar Tábor’dan ayrılıp Příběnice kalesine gider. Tábor mart sonu ile nisan başında onları Příběnice’den çıkarır ve nisanda Žižka bunlardan 50 kadarını Tábor’un dışındaki [Klokoty’de](@klokoty-1421) yaktırır. Húska Chrudim yakınlarında yakalanır ve Žižka’nın isteğiyle 21 Ağustos 1421’de Roudnice’de yakılır.
 
 @image rabi-castle-f962a2
 

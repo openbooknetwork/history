@@ -1,4 +1,4 @@
-Vitoria’dan sonra müttefikler Temmuz 1813 başında Pirenelere ulaşır ve San Sebastián ile Pamplona’yı kuşatır. 11 Temmuz’da Napolyon İspanya’daki bütün Fransız birliklerinin komutasını Mareşal Soult’a verir. Soult 25 Temmuz’da Maya ve Roncesvalles geçitlerinden saldırır ve Pamplona’ya on mil kadar yaklaşır, ama 28 ve 30 Temmuz’da Sorauren’de püskürtülür. 1.313 ölü, 8.582 yaralı ve 2.702 esir kaybederek Fransa’ya çekilir.
+Vitoria’dan sonra müttefikler Temmuz 1813 başında Pirenelere ulaşır ve [San Sebastián](@toulouse-san-sebastian) ile Pamplona’yı kuşatır. 11 Temmuz’da Napolyon İspanya’daki bütün Fransız birliklerinin komutasını Mareşal Soult’a verir. Soult 25 Temmuz’da Maya ve Roncesvalles geçitlerinden saldırır ve Pamplona’ya on mil kadar yaklaşır, ama 28 ve 30 Temmuz’da [Sorauren’de](@toulouse-sorauren) püskürtülür. 1.313 ölü, 8.582 yaralı ve 2.702 esir kaybederek Fransa’ya çekilir.
 
 @image toulouse-pyrenees-79773e
 
@@ -8,7 +8,7 @@ Müttefikler 31 Ağustos’ta San Sebastián’a hücum eder, kasabayı yağmala
 
 @image toulouse-nivelle-da3706
 
-Harekât Şubat 1814’te yeniden başlar. Adour’un ağzına yapılan bir çıkarma Bayonne kuşatmasını başlatır, 27 Şubat’ta da Wellington Soult’u Orthez’de yener. Beresford 12 Mart’ta Bordeaux’ya direnişle karşılaşmadan girer, Soult da Tarbes üzerinden Toulouse’a çekilir.
+Harekât Şubat 1814’te yeniden başlar. Adour’un ağzına yapılan bir çıkarma Bayonne kuşatmasını başlatır, 27 Şubat’ta da Wellington Soult’u [Orthez’de](@toulouse-orthez) yener. Beresford 12 Mart’ta [Bordeaux’ya](@toulouse-bordeaux) direnişle karşılaşmadan girer, Soult da Tarbes üzerinden Toulouse’a çekilir.
 
 10 Nisan’da Wellington 49.446 kişiyle Soult’un 42.043 kişisine karşı Toulouse’a saldırır. Freire’nin iki İspanyol tümeni Calvinet sırtlarından iki kez geri atılır, Picton’un kanal köprülerine saldırıları da başarısız olur. Beresford’un 4. ve 6. Tümenleri ise Congreve roketlerinin desteğiyle sırtların güney ucunu ve Calvinet tabyasını alır, müttefikler 4.558 ile 5.500, Fransızlar 2.700 ile 3.236 arası kayıp verir. Soult 11 Nisan akşamı kentten çekilir. 12 Nisan’da Wellington kente girerken Napolyon’un 6 Nisan’da tahttan çekildiği haberi gelir, Soult da 17 Nisan’da ateşkesi kabul eder.
 

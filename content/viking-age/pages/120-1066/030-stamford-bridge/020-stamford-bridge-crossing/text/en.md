@@ -1,4 +1,4 @@
-The English army comes down the road from York and falls on the Norwegians on the west bank of the Derwent, many of them without mail. Those who are not cut down flee over the bridge to the east bank.
+The English army comes down the road from York and falls on the [Norwegians on the west bank](@stamford-bridge-crossing-west) of the Derwent, many of them without mail. Those who are not cut down flee over the bridge to the east bank.
 
 @image stamford-bridge-crossing-derwent-fd0020
 

@@ -1,4 +1,4 @@
-Some Romans flee and others gather in groups to fight on all sides. In the centre they hold out for three hours against the Gauls, who suffer heavy losses. Livy writes that Flaminius tries to rally his men until a Gaul named Ducarius cuts him down, while Polybius says he gives no effective leadership.
+Some Romans flee and others gather in groups to fight on all sides. In the centre they hold out for three hours against the [Gauls](@trasimene-end-gauls), who suffer heavy losses. Livy writes that [Flaminius](@trasimene-end-flaminius) tries to rally his men until a Gaul named Ducarius cuts him down, while Polybius says he gives no effective leadership.
 
 @image trasimene-flaminius-c11c69
 

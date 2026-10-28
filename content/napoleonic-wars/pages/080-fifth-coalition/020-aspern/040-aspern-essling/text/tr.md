@@ -1,4 +1,4 @@
-Karl saat 10.00 sularında köprünün koptuğunu öğrenince bütün hat boyunca yeni bir saldırı emri verir. Hiller’in ve Bellegarde’ın kolları Aspern’e yeniden saldırır ve saat 13.00’ten kısa bir süre sonra bitkin düşen Fransızlar köyü kesin olarak bırakır. Saat 14.00 sularında Karl Fransız merkezine karşı yaklaşık 150 top yığar, orada bir top güllesi Lannes’ın bacağını parçalar. Lannes dokuz gün sonra bu yaradan ölür.
+Karl saat 10.00 sularında köprünün koptuğunu öğrenince bütün hat boyunca yeni bir saldırı emri verir. Hiller’in ve Bellegarde’ın kolları Aspern’e yeniden saldırır ve saat 13.00’ten kısa bir süre sonra bitkin düşen Fransızlar köyü kesin olarak bırakır. Saat 14.00 sularında Karl Fransız merkezine karşı yaklaşık 150 top yığar, orada bir top güllesi [Lannes’ın](@aspern-day2-lannes-wounded) bacağını parçalar. Lannes dokuz gün sonra bu yaradan ölür.
 
 @image aspern-lannes-aba50e
 

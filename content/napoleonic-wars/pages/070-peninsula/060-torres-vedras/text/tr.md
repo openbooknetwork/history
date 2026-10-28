@@ -6,8 +6,8 @@ Masséna yaklaşık 65.000 kişiyle Coimbra’ya ilerler. 27 Eylül’de Welling
 
 @image torres-vedras-bussaco-b27862
 
-Masséna ardından sırtın kuzey ucunu dolanır, Wellington da geri çekilip 10 Ekim’de hatlara ulaşır. 14 Ekim’de Sobral’daki bir saldırı tahkimatın gücünü gösterir: 126’sı tamamlanmış olan mevzileri 247 ağır topla 29.750 asker tutar. Bunların çoğu Portekiz milisi, İspanyol birlikleri ve İngiliz deniz piyadesi ve topçularıdır, bu da sahra ordusunu her noktadaki bir saldırıyı karşılamak için serbest bırakır. Masséna aç kalan ordusunu bir ay hatların önünde tutar ve kasım ortasında Santarém’e çekilir.
+Masséna ardından sırtın kuzey ucunu dolanır, Wellington da geri çekilip 10 Ekim’de hatlara ulaşır. 14 Ekim’de [Sobral’daki](@torres-vedras-sobral) bir saldırı tahkimatın gücünü gösterir: 126’sı tamamlanmış olan mevzileri 247 ağır topla 29.750 asker tutar. Bunların çoğu Portekiz milisi, İspanyol birlikleri ve İngiliz deniz piyadesi ve topçularıdır, bu da sahra ordusunu her noktadaki bir saldırıyı karşılamak için serbest bırakır. Masséna aç kalan ordusunu bir ay hatların önünde tutar ve kasım ortasında [Santarém’e](@torres-vedras-santarem) çekilir.
 
 @image torres-vedras-lines-aa6668
 
-Mart 1811’de erzakı tükenen Masséna, Portekiz’de yaklaşık 25.000 asker kaybetmiş olarak İspanya’ya çekilir. Nisanda Wellington Almeida’yı kuşatır ve 3–5 Mayıs’ta Masséna’nın kaleyi kurtarma girişimini Fuentes de Oñoro’da durdurur. Masséna’nın yerine Mareşal Auguste Marmont getirilir.
+Mart 1811’de erzakı tükenen Masséna, Portekiz’de yaklaşık 25.000 asker kaybetmiş olarak İspanya’ya çekilir. Nisanda Wellington Almeida’yı kuşatır ve 3–5 Mayıs’ta Masséna’nın kaleyi kurtarma girişimini [Fuentes de Oñoro’da](@torres-vedras-fuentes) durdurur. Masséna’nın yerine Mareşal Auguste Marmont getirilir.

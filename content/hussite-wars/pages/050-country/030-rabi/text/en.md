@@ -1,4 +1,4 @@
-In January 1421 the Pikarts around the priest Martin Húska, who hold the bread and wine of the Eucharist to be signs only, leave Tábor for the castle of Příběnice. Tábor drives them out of Příběnice at the turn of March and April, and in April Žižka has about 50 of them burned at Klokoty, outside Tábor. Húska is caught near Chrudim and burned at Roudnice on 21 August 1421, at Žižka’s request.
+In January 1421 the Pikarts around the priest Martin Húska, who hold the bread and wine of the Eucharist to be signs only, leave Tábor for the castle of Příběnice. Tábor drives them out of Příběnice at the turn of March and April, and in April Žižka has about 50 of them burned at [Klokoty](@klokoty-1421), outside Tábor. Húska is caught near Chrudim and burned at Roudnice on 21 August 1421, at Žižka’s request.
 
 @image rabi-castle-f962a2
 

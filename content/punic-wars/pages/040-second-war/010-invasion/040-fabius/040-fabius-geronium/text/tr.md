@@ -1,4 +1,4 @@
-Hannibal kuzeye, Venafrum’a yürür, sonra Apeninleri doğuya aşarak Molise’ye girer ve bugünkü Casacalenda yakınındaki Geronium kasabasını kışlak olarak alır. Fabius onu izler ve Larinum’da kamp kurar. Kartacalılar Geronium’u bir tahıl ambarına çevirir. Ordunun üçte ikisi erzak toplamaya çıkarken geri kalanı kampı korur.
+Hannibal kuzeye, Venafrum’a yürür, sonra Apeninleri doğuya aşarak Molise’ye girer ve bugünkü Casacalenda yakınındaki [Geronium](@geronium-217) kasabasını kışlak olarak alır. Fabius onu izler ve [Larinum’da](@larinum-217) kamp kurar. Kartacalılar Geronium’u bir tahıl ambarına çevirir. Ordunun üçte ikisi erzak toplamaya çıkarken geri kalanı kampı korur.
 
 @image fabius-samnium-map-ad941b
 

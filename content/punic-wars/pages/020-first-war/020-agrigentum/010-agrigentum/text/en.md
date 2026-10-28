@@ -1,4 +1,4 @@
-Akragas, called Agrigentum by the Romans, stands on a plateau about 4 km from the south coast of Sicily, between the rivers Hypsas and Akragas. Steep slopes guard it on every side except the west. After the loss of Messana and the defection of Syracuse, Carthage makes it the centre of its defence on the island.
+Akragas, called Agrigentum by the Romans, stands on a plateau about 4 km from the south coast of Sicily, between the rivers Hypsas and Akragas. Steep slopes guard it on every side except the west. After the loss of Messana and the defection of [Syracuse](@syracuse-262), Carthage makes it the centre of its defence on the island.
 
 @image agrigentum-concordia-c18920
 

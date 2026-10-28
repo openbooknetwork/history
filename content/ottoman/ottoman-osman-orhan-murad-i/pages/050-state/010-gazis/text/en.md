@@ -2,7 +2,7 @@ The chronicles call the warriors of Osman and Orhan gazis or alps, horsemen of t
 
 @image bilecik-edebali-tomb-1cbe4d
 
-By tradition Osman gives İnegöl to Turgut Alp, and Orhan’s commanders keep the lands they take: Kocaeli is the land of Akça Koca, who is buried at Kandıra, Konuralp is named after Konur Alp, and Abdurrahman Gazi holds Aydos. Dervishes settle among the warriors. Sheikh Edebali keeps a lodge at Bilecik, and Geyikli Baba, a dervish said to ride a deer, joins the siege of Bursa and receives from Orhan the site of a lodge at Babasultan below Uludağ. The chronicles name other dervishes of Orhan’s time, among them Abdal Musa, whose lodge at Elmalı in the south later becomes a centre of the Bektaşi order.
+By tradition Osman gives İnegöl to Turgut Alp, and Orhan’s commanders keep the lands they take: Kocaeli is the land of Akça Koca, who is buried at [Kandıra](@kandira), [Konuralp](@konuralp) is named after Konur Alp, and Abdurrahman Gazi holds [Aydos](@aydos). Dervishes settle among the warriors. Sheikh Edebali keeps a lodge at [Bilecik](@edebali-bilecik), and Geyikli Baba, a dervish said to ride a deer, joins the siege of Bursa and receives from Orhan the site of a lodge at [Babasultan](@geyikli-baba) below Uludağ. The chronicles name other dervishes of Orhan’s time, among them Abdal Musa, whose lodge at Elmalı in the south later becomes a centre of the Bektaşi order.
 
 @image geyikli-baba-tomb-b7c4f3
 

@@ -1,4 +1,4 @@
-Scandinavian ships are built clinker-fashion, of overlapping planks, from about 300 AD, and for centuries they are rowed. The Nydam ship, built in Denmark about 400, has no sail. Ships under sail appear on the picture stones of Gotland in the 8th century, and from then on the sail carries the ships of the North across the open sea.
+Scandinavian ships are built clinker-fashion, of overlapping planks, from about 300 AD, and for centuries they are rowed. The [Nydam](@nydam-400) ship, built in Denmark about 400, has no sail. Ships under sail appear on the picture stones of [Gotland](@gotland-750) in the 8th century, and from then on the sail carries the ships of the North across the open sea.
 
 @image longships-oseberg-28e2eb
 
@@ -6,7 +6,7 @@ The Oseberg ship, buried in a mound near Tønsberg in the autumn of 834 together
 
 @image longships-gokstad-924b05
 
-Five ships sunk in the 11th century to block a channel of Roskilde Fjord are raised near Skuldelev between 1957 and 1962. Skuldelev 2 is a warship about 30 m long, built near Dublin about 1042 for 70 to 80 men, and under sail it could reach about 15 knots. Skuldelev 1 is a seagoing cargo ship 16 m long, built in western Norway about 1030, which a crew of six to eight could sail at up to 13 knots, and the 14 m Skuldelev 3 carries 4 to 5 tons in Danish waters.
+Five ships sunk in the 11th century to block a channel of Roskilde Fjord are raised near [Skuldelev](@skuldelev-1070) between 1957 and 1962. Skuldelev 2 is a warship about 30 m long, built near Dublin about 1042 for 70 to 80 men, and under sail it could reach about 15 knots. Skuldelev 1 is a seagoing cargo ship 16 m long, built in western Norway about 1030, which a crew of six to eight could sail at up to 13 knots, and the 14 m Skuldelev 3 carries 4 to 5 tons in Danish waters.
 
 @image longships-skuldelev-e096d5
 

@@ -1,8 +1,8 @@
-The Itza kingdom has its capital at Nojpetén, an island city in Lake Petén Itzá in northern Guatemala, where Flores stands today. Its kings bear the title Aj Kan Ek'. The Itza speak a form of Yucatec Maya. Colonial documents say they came south from Yucatán and founded Nojpetén in the mid-15th century, after the fall of Mayapan.
+The Itza kingdom has its capital at [Nojpetén](@nojpeten-1525), an island city in Lake Petén Itzá in northern Guatemala, where Flores stands today. Its kings bear the title Aj Kan Ek'. The Itza speak a form of Yucatec Maya. Colonial documents say they came south from Yucatán and founded Nojpetén in the mid-15th century, after the fall of Mayapan.
 
 @image itza-kingdom-lake-ee63ce
 
-The Kowoj, rivals of the Itza, hold the lakes to the east, and the Yalain, allies of the Itza, the land towards Tipuj in Belize. To the north live the Kejache, and beyond them lies Acalan, a Chontal Maya trading state with its capital at Itzamkanac on the Candelaria River.
+The Kowoj, rivals of the Itza, hold the lakes to the east, and the Yalain, allies of the Itza, the land towards [Tipuj](@tipu-1525) in Belize. To the north live the Kejache, and beyond them lies Acalan, a Chontal Maya trading state with its capital at [Itzamkanac](@itzamkanac-1525) on the Candelaria River.
 
 @image itza-kingdom-topoxte-a78b01
 
@@ -10,4 +10,4 @@ In October 1524 Hernán Cortés leaves Tenochtitlan to march overland to Hondura
 
 @image itza-kingdom-el-tigre-7e73f6
 
-On 13 March 1525 the army reaches the north shore of Lake Petén Itzá. Priests say mass before Aj Kan Ek', and Cortés crosses to Nojpetén with 20 soldiers while the army goes round the lake. He leaves behind a cross and a lame horse, which the Itza honour as a god. A few hundred men reach Nito on the Bay of Amatique, where Cortés learns that Olid has already been beheaded.
+On 13 March 1525 the army reaches the north shore of Lake Petén Itzá. Priests say mass before Aj Kan Ek', and Cortés crosses to Nojpetén with 20 soldiers while the army goes round the lake. He leaves behind a cross and a lame horse, which the Itza honour as a god. A few hundred men reach [Nito](@nito-1500) on the Bay of Amatique, where Cortés learns that Olid has already been beheaded.

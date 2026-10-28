@@ -1,4 +1,4 @@
-After the deaths of his father and uncle in 211 BC, Publius Cornelius Scipio, later called Africanus, lands at Tarraco late in 210 BC and takes command of all Roman forces in Iberia. He is in his mid-twenties and has held no senior office. He has 28,000 infantry and 3,000 cavalry. Three Carthaginian armies, each as large as his own, lie far apart: Hasdrubal Barca’s in central Iberia, Mago’s near Gades and Hasdrubal Gisco’s in Lusitania.
+After the deaths of his father and uncle in 211 BC, Publius Cornelius Scipio, later called Africanus, lands at [Tarraco](@tarraco-210) late in 210 BC and takes command of all Roman forces in Iberia. He is in his mid-twenties and has held no senior office. He has 28,000 infantry and 3,000 cavalry. Three Carthaginian armies, each as large as his own, lie far apart: [Hasdrubal Barca’s](@new-carthage-hasdrubal) in central Iberia, [Mago’s](@new-carthage-mago) near Gades and [Hasdrubal Gisco’s](@new-carthage-gisco) in Lusitania.
 
 @image scipio-africanus-bust-359b53
 

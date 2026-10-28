@@ -1,4 +1,4 @@
-The Iberians fight hard, and the hastati hold them. Instead of feeding the principes into the front line, as was usual, Scipio forms the principes and triarii of each legion into a column, marches them out past the ends of the line and turns them in against the flanks and rear of the Iberians.
+The [Iberians](@great-plains-iberians-iberians) fight hard, and the hastati hold them. Instead of feeding the principes into the front line, as was usual, [Scipio](@great-plains-iberians-scipio) forms the principes and triarii of each legion into a column, marches them out past the ends of the line and turns them in against the flanks and rear of the Iberians.
 
 @image syphax-coin-e1c5c0
 

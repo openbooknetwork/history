@@ -2,11 +2,11 @@ Grijalva’nın raporu üçüncü bir seferin yolunu açar. Velázquez komutayı
 
 @image cozumel-1519-cortes-686f90
 
-Alvarado’nun gemisi Cozumel’e ötekilerden iki gün önce varır. Adalılar kaçar ve Alvarado’nun adamları evlerden tavuk ve başka mallar alır. Cortés onu azarlar, malları geri verdirir, adalılara boncuk ve gömlek dağıtır ve beyler geri döner. Cozumel, tanrıça Ixchel’e yapılan hac yolculuklarının merkezidir. Cortés tapınaklarından birindeki tasvirleri yıktırır, yerine bir haç ve Meryem Ana’nın bir tasvirini koydurur.
+Alvarado’nun gemisi [Cozumel’e](@cozumel-1519) ötekilerden iki gün önce varır. Adalılar kaçar ve Alvarado’nun adamları evlerden tavuk ve başka mallar alır. Cortés onu azarlar, malları geri verdirir, adalılara boncuk ve gömlek dağıtır ve beyler geri döner. Cozumel, tanrıça Ixchel’e yapılan hac yolculuklarının merkezidir. Cortés tapınaklarından birindeki tasvirleri yıktırır, yerine bir haç ve Meryem Ana’nın bir tasvirini koydurur.
 
 @image cozumel-1519-san-gervasio-63de29
 
-Cortés Cozumel’de anakarada sakallı adamlar bulunduğunu duyar. Onları fidyeyle kurtarmak için bir mektup ve cam boncuklarla ulaklar gönderir. Gerónimo de Aguilar filoya bir Maya kölesinin giysileri içinde gelir. Teni öyle kararmıştır ki Cortés onu önce tanımaz. Guerrero ise ailesiyle Chetumal’da kalır. Aguilar’a evli ve üç çocuk babası olduğunu, yüzünün dövmeli, kulaklarının delik olduğunu söyler.
+Cortés Cozumel’de anakarada sakallı adamlar bulunduğunu duyar. Onları fidyeyle kurtarmak için bir mektup ve cam boncuklarla ulaklar gönderir. Gerónimo de Aguilar filoya bir Maya kölesinin giysileri içinde gelir. Teni öyle kararmıştır ki Cortés onu önce tanımaz. Guerrero ise ailesiyle [Chetumal’da](@chetumal-1514) kalır. Aguilar’a evli ve üç çocuk babası olduğunu, yüzünün dövmeli, kulaklarının delik olduğunu söyler.
 
 @image cozumel-1519-aguilar-f9b4e3
 

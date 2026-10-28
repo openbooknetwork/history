@@ -1,4 +1,4 @@
-Romalıların Agrigentum dediği Akragas, Sicilya’nın güney kıyısından yaklaşık 4 km içeride, Hypsas ve Akragas ırmakları arasındaki bir yaylada yer alır. Batı dışında her yandan dik yamaçlarla korunur. Messana’nın kaybı ve Siraküza’nın saf değiştirmesinden sonra Kartaca burayı adadaki savunmasının merkezi yapar.
+Romalıların Agrigentum dediği Akragas, Sicilya’nın güney kıyısından yaklaşık 4 km içeride, Hypsas ve Akragas ırmakları arasındaki bir yaylada yer alır. Batı dışında her yandan dik yamaçlarla korunur. Messana’nın kaybı ve [Siraküza’nın](@syracuse-262) saf değiştirmesinden sonra Kartaca burayı adadaki savunmasının merkezi yapar.
 
 @image agrigentum-concordia-c18920
 

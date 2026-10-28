@@ -1,4 +1,4 @@
-Polybius describes the Gallic army as the Romans saw it: countless horns and trumpets, the war cries of the whole host, and the Gaesatae standing naked in the front ranks, wearing gold torques and armlets. The Insubres and the Boii wear trousers and light cloaks.
+Polybius describes the Gallic army as the Romans saw it: countless horns and trumpets, the war cries of the whole host, and the [Gaesatae](@telamon-velites-gaesatae) standing naked in the front ranks, wearing gold torques and armlets. The Insubres and the Boii wear trousers and light cloaks.
 
 @image telamon-carnyx-dce9be
 

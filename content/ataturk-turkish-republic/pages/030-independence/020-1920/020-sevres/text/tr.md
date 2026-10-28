@@ -2,7 +2,7 @@
 
 @image sevres-signing-bc024a
 
-Ankara’daki Meclis antlaşmayı reddeder, imzalayanları vatan haini ilan eder ve vatandaşlıktan çıkarır. Antlaşma hiçbir zaman onaylanmaz.
+[Ankara’daki](@ankara) Meclis antlaşmayı reddeder, imzalayanları vatan haini ilan eder ve vatandaşlıktan çıkarır. Antlaşma hiçbir zaman onaylanmaz.
 
 @image sevres-room-bb0e26
 

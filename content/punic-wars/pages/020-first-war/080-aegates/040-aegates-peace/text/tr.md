@@ -1,4 +1,4 @@
-Hanno’nun donanmasından kalanlar Kartaca’ya döner, Hanno orada çarmıha gerilir. Yeni bir donanmayı donatmak dokuz ay daha sürecek, Sicilya’daki kentlerin erzakı ise ondan önce tükenecektir. Bu yüzden Kartaca Senatosu Hamilkar’a barış yapmasını emreder. Hamilkar görüşmeleri Lilybaeum komutanı Gisko’ya bırakır.
+Hanno’nun donanmasından kalanlar [Kartaca’ya](@aegates-peace-carthage) döner, Hanno orada çarmıha gerilir. Yeni bir donanmayı donatmak dokuz ay daha sürecek, Sicilya’daki kentlerin erzakı ise ondan önce tükenecektir. Bu yüzden Kartaca Senatosu Hamilkar’a barış yapmasını emreder. Hamilkar görüşmeleri [Lilybaeum](@lilybaeum-241) komutanı Gisko’ya bırakır.
 
 @image aegates-temple-ef5f77
 

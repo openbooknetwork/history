@@ -1,4 +1,4 @@
-Caracol, on the Vaca Plateau in present-day Belize, lies 76 km southeast of Tikal and is at first a client of the larger city. Altar 21 at Caracol records that Yajaw Te' K'inich II takes the throne there in April AD 553 under the authority of the Tikal king Wak Chan K'awiil. In 556 Tikal defeats Caracol in an "axe" war. Caracol then changes sides and accepts the Kaanul king of Dzibanche as its overlord.
+[Caracol](@caracol-562), on the Vaca Plateau in present-day Belize, lies 76 km southeast of Tikal and is at first a client of the larger city. Altar 21 at Caracol records that Yajaw Te' K'inich II takes the throne there in April AD 553 under the authority of the Tikal king Wak Chan K'awiil. In 556 Tikal defeats Caracol in an "axe" war. Caracol then changes sides and accepts the Kaanul king of [Dzibanche](@dzibanche-562) as its overlord.
 
 @image caracol-caana-57062a
 

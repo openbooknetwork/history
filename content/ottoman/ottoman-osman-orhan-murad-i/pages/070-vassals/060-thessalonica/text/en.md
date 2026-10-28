@@ -1,4 +1,4 @@
-In 1381 John V names Andronikos IV his heir again, passing over his second son Manuel. In November 1382 Manuel sets himself up as emperor in Thessalonica and acts against the Ottomans, extending his rule into Thessaly and Epirus, at least in name. Murad sends his grand vizier, Çandarlı Kara Halil Hayreddin Pasha. The Ottomans take Serres on 19 September 1383 and enslave its people, and in October they reach the walls of Thessalonica.
+In 1381 John V names Andronikos IV his heir again, passing over his second son Manuel. In November 1382 Manuel sets himself up as emperor in Thessalonica and acts against the Ottomans, extending his rule into Thessaly and Epirus, at least in name. Murad sends his grand vizier, Çandarlı Kara Halil Hayreddin Pasha. The Ottomans take [Serres](@serres-1383) on 19 September 1383 and enslave its people, and in October they reach the walls of Thessalonica.
 
 @image manuel-ii-family-57cf74
 

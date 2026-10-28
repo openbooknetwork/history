@@ -1,4 +1,4 @@
-After about an hour Cortés and the horsemen come up behind the Chontal army. Caught between the horse and the foot, the warriors break and flee. The Chontal have never seen horses, and Bernal Díaz writes that they take horse and rider for a single creature.
+After about an hour [Cortés](@centla-horse-cortes) and the horsemen come up behind the Chontal army. Caught between the horse and the foot, the warriors break and flee. The Chontal have never seen horses, and Bernal Díaz writes that they take horse and rider for a single creature.
 
 @image centla-horse-cortes-a53e3a
 

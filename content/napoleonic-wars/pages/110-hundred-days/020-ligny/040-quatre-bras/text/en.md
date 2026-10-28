@@ -1,4 +1,4 @@
-Ney's orders are to take the crossroads of Quatre Bras, where the road from Charleroi to Brussels meets the road from Nivelles to Namur, and to be ready to turn east and help Napoleon against the Prussians. If the French hold it, Wellington cannot move along the Namur road to join Blücher. On the evening of 15 June the Nassauers of Saxe-Weimar turn back the Guard lancers at Frasnes, and Ney camps for the night rather than attack with his infantry strung out along the road.
+Ney's orders are to take the crossroads of Quatre Bras, where the road from Charleroi to Brussels meets the road from [Nivelles](@quatre-bras-nivelles) to Namur, and to be ready to turn east and help Napoleon against the Prussians. If the French hold it, Wellington cannot move along the Namur road to join Blücher. On the evening of 15 June the Nassauers of Saxe-Weimar turn back the Guard lancers at [Frasnes](@quatre-bras-frasnes), and Ney camps for the night rather than attack with his infantry strung out along the road.
 
 @image quatre-bras-saxe-weimar-532daf
 

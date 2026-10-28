@@ -1,8 +1,8 @@
-Itzamnaaj Bahlam III (Kalkan Jaguar), 23 Ekim MS 681’de Yaxchilan kralı olur. Kent, Usumacinta Nehri’nin bir kıvrımında, eski rakibi Piedras Negras’ın 40 km yukarısında yer alır. Yazıtlar onun 689’da Aj Sak Ichiy Pat’ı, 713’te B'uktuun beyini ve 729’da Lacanha beyini esir aldığını kaydeder. Piedras Negras’taki Stel 8 ise 726’da onun sajallarından, yani bağlı beylerinden birinin esir alındığını kaydeder.
+Itzamnaaj Bahlam III (Kalkan Jaguar), 23 Ekim MS 681’de [Yaxchilan](@yaxchilan-681) kralı olur. Kent, [Usumacinta](@usumacinta-726) Nehri’nin bir kıvrımında, eski rakibi [Piedras Negras’ın](@piedras-negras-726) 40 km yukarısında yer alır. Yazıtlar onun 689’da Aj Sak Ichiy Pat’ı, 713’te B'uktuun beyini ve 729’da [Lacanha](@lacanha-729) beyini esir aldığını kaydeder. Piedras Negras’taki Stel 8 ise 726’da onun sajallarından, yani bağlı beylerinden birinin esir alındığını kaydeder.
 
 @image yaxchilan-lintel-24-3a82c6
 
-Kral, saltanatının son üçte birinde Yaxchilan’ın merkezini oymalı lentolar, hiyeroglifli merdivenler ve stellerle yeniden inşa ettirir. Yapı 23, baş eşi ve teyzesi Leydi K'abal Xook’a aittir. Yapının Lento 24’ü, 28 Ekim 709 tarihli bir ayinde kral üzerine bir meşale tutarken onun dilinden bir ip geçirdiğini gösterir. Güneydeki Lacanha ve Bonampak zaman zaman onun egemenliği altındadır.
+Kral, saltanatının son üçte birinde Yaxchilan’ın merkezini oymalı lentolar, hiyeroglifli merdivenler ve stellerle yeniden inşa ettirir. Yapı 23, baş eşi ve teyzesi Leydi K'abal Xook’a aittir. Yapının Lento 24’ü, 28 Ekim 709 tarihli bir ayinde kral üzerine bir meşale tutarken onun dilinden bir ip geçirdiğini gösterir. Güneydeki Lacanha ve [Bonampak](@bonampak-729) zaman zaman onun egemenliği altındadır.
 
 Itzamnaaj Bahlam III, 15 Haziran 742’de doksanlı yaşlarında ölür ve sonraki on yıl boyunca Yaxchilan’da tahta çıkış kaydı yoktur. 749’da Yaxchilanlı Yopaat B'alam II, Piedras Negras kralı için yapılan bir törene katılır. Yaxchilan’da onun saltanatına dair bir kayıt kalmamıştır.
 

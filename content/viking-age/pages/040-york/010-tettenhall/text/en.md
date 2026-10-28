@@ -1,4 +1,4 @@
-In 909 Edward the Elder, Alfred’s son and king since 899, sends a West Saxon and Mercian army into the northern Danelaw for five weeks. It carries off the relics of St Oswald from Bardney Abbey in Lincolnshire to the new minster that Æthelred and Æthelflæd, the rulers of the Mercians, have built at Gloucester. In 910, while Edward waits in Kent for his fleet, the Northumbrian Danes strike back, raiding Mercia as far as the Avon and then along the Severn to Bridgnorth.
+In 909 Edward the Elder, Alfred’s son and king since 899, sends a West Saxon and Mercian army into the northern Danelaw for five weeks. It carries off the relics of St Oswald from [Bardney](@bardney-909) Abbey in Lincolnshire to the new minster that Æthelred and Æthelflæd, the rulers of the Mercians, have built at Gloucester. In 910, while Edward waits in Kent for his fleet, the Northumbrian Danes strike back, raiding Mercia as far as the Avon and then along the Severn to Bridgnorth.
 
 @image tettenhall-penny-155120
 
@@ -6,8 +6,8 @@ On their way home on 5 August 910 a Mercian and West Saxon army catches them nea
 
 @image tettenhall-aethelflaed-ddaf03
 
-Edward and Æthelflæd then build burhs along the edge of the Danish lands, Edward at Hertford, Witham, Buckingham and Towcester, Æthelflæd at Bridgnorth, Tamworth, Stafford, Warwick and other places. In 917 the Danes attack Towcester, Bedford and Wigingamere without success, Æthelflæd takes Derby, and Edward’s army storms the Danish fort at Tempsford and kills the last Danish king of East Anglia. By the end of the year the armies of Northampton, Cambridge and East Anglia have submitted to Edward.
+Edward and Æthelflæd then build burhs along the edge of the Danish lands, Edward at [Hertford](@hertford-911), Witham, Buckingham and [Towcester](@towcester-917), Æthelflæd at Bridgnorth, [Tamworth](@tamworth-913), Stafford, Warwick and other places. In 917 the Danes attack Towcester, Bedford and Wigingamere without success, Æthelflæd takes [Derby](@derby-917), and Edward’s army storms the Danish fort at [Tempsford](@tempsford-917) and kills the last Danish king of East Anglia. By the end of the year the armies of Northampton, Cambridge and East Anglia have submitted to Edward.
 
 @image tettenhall-tamworth-94c5d1
 
-Early in 918 Leicester submits to Æthelflæd without a fight, and the leading men of York offer her their loyalty, but she dies at Tamworth on 12 June. Stamford submits to Edward before her death and Nottingham soon after, and in December 918 he takes Mercia under his own rule. Of the Five Boroughs of the Danelaw, Derby, Leicester, Lincoln, Nottingham and Stamford, all are now his, with Lincoln perhaps an exception.
+Early in 918 [Leicester](@leicester-918) submits to Æthelflæd without a fight, and the leading men of York offer her their loyalty, but she dies at Tamworth on 12 June. Stamford submits to Edward before her death and Nottingham soon after, and in December 918 he takes Mercia under his own rule. Of the Five Boroughs of the Danelaw, Derby, Leicester, Lincoln, Nottingham and Stamford, all are now his, with Lincoln perhaps an exception.

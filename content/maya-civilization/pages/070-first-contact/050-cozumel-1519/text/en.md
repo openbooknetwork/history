@@ -2,11 +2,11 @@ Grijalva’s report raises a third expedition. Velázquez gives the command to H
 
 @image cozumel-1519-cortes-686f90
 
-Alvarado’s ship reaches Cozumel two days ahead of the others. The islanders flee, and his men take chickens and other goods from their houses. Cortés rebukes him, has the goods returned and gives the islanders beads and shirts, and the lords come back. Cozumel is a centre of pilgrimage to the goddess Ixchel. Cortés has the images in one of its temples thrown down and sets up a cross and an image of the Virgin Mary.
+Alvarado’s ship reaches [Cozumel](@cozumel-1519) two days ahead of the others. The islanders flee, and his men take chickens and other goods from their houses. Cortés rebukes him, has the goods returned and gives the islanders beads and shirts, and the lords come back. Cozumel is a centre of pilgrimage to the goddess Ixchel. Cortés has the images in one of its temples thrown down and sets up a cross and an image of the Virgin Mary.
 
 @image cozumel-1519-san-gervasio-63de29
 
-On Cozumel Cortés hears of bearded men on the mainland. He sends messengers with a letter and glass beads to ransom them. Gerónimo de Aguilar comes to the fleet in the dress of a Maya slave, so dark that Cortés does not know him at first. Guerrero stays with his family in Chetumal. He is married with three children, he tells Aguilar, and his face is tattooed and his ears pierced.
+On Cozumel Cortés hears of bearded men on the mainland. He sends messengers with a letter and glass beads to ransom them. Gerónimo de Aguilar comes to the fleet in the dress of a Maya slave, so dark that Cortés does not know him at first. Guerrero stays with his family in [Chetumal](@chetumal-1514). He is married with three children, he tells Aguilar, and his face is tattooed and his ears pierced.
 
 @image cozumel-1519-aguilar-f9b4e3
 

@@ -2,4 +2,4 @@
 
 @image ariburnu-sunrise-3b5a6c
 
-İkinci dalga hava daha kararlıkken karaya çıkar ve çıkarma bölgesini kıyı boyunca genişletir. Saat 8.00’de Avustralyalılar Russell Tepesi’nden 400 Platosu’na kadar ikinci sırtı tutmaktadır, küçük gruplar da Kılıçbayır’a ulaşır. Saat 5.45’te Yarbay Mehmet Şefik, 27. Alay’ın iki taburunu Eceabat’tan kıyıya götürme emrini alır.
+İkinci dalga hava daha kararlıkken karaya çıkar ve çıkarma bölgesini kıyı boyunca genişletir. Saat 8.00’de Avustralyalılar Russell Tepesi’nden 400 Platosu’na kadar ikinci sırtı tutmaktadır, küçük gruplar da Kılıçbayır’a ulaşır. Saat 5.45’te Yarbay [Mehmet Şefik](@gallipoli-landing-dawn-sefik), 27. Alay’ın iki taburunu Eceabat’tan kıyıya götürme emrini alır.

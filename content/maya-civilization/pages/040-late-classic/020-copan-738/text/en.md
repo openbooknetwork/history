@@ -1,4 +1,4 @@
-Uaxaclajuun Ub'aah K'awiil (18 Rabbit), the 13th king of Copán, installs K'ak' Tiliw Chan Yopaat on the throne of Quiriguá as his vassal in AD 724. Quiriguá lies 48 km north of Copán on the Motagua River, the route for highland jade and for trade to the Caribbean. Copán is an old ally of Tikal, and its Stela A of 731 ranks Copán with Tikal, Calakmul and Palenque as the four great kingdoms.
+Uaxaclajuun Ub'aah K'awiil (18 Rabbit), the 13th king of [Copán](@copan-738), installs K'ak' Tiliw Chan Yopaat on the throne of Quiriguá as his vassal in AD 724. Quiriguá lies 48 km north of Copán on the Motagua River, the route for highland jade and for trade to the Caribbean. Copán is an old ally of Tikal, and its Stela A of 731 ranks Copán with Tikal, Calakmul and Palenque as the four great kingdoms.
 
 @image copan-738-stela-h-df98de
 

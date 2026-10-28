@@ -1,4 +1,4 @@
-On 28 September Washington leads about 7,800 French, 8,000 Continentals and 3,100 militia out of Williamsburg and surrounds Yorktown, the French on the left and the Americans on the right. Cornwallis holds a chain of seven redoubts and batteries round the town and a post at Gloucester Point across the river. Expecting Clinton to send 5,000 men within a week, he gives up his outer works except the Fusiliers’ Redoubt on the west and Redoubts 9 and 10 on the east.
+On 28 September [Washington](@yorktown-parallel-washington) leads about 7,800 French, 8,000 Continentals and 3,100 militia out of Williamsburg and surrounds [Yorktown](@yorktown-parallel-town), the French on the left and the Americans on the right. Cornwallis holds a chain of seven redoubts and batteries round the town and a post at [Gloucester Point](@yorktown-parallel-gloucester) across the river. Expecting Clinton to send 5,000 men within a week, he gives up his outer works except the Fusiliers’ Redoubt on the west and Redoubts 9 and 10 on the east.
 
 @image yorktown-verger-64b7c8
 

@@ -1,6 +1,6 @@
-Osman 1317 dolaylarından itibaren Bursa’yı şehrin yakınına yaptırdığı iki havale hisarından abluka altında tutar. Batıda kaplıcaların yanındaki hisarın komutanı yeğeni Aktimur, doğudakinin komutanı Balabancık’tır. Osmanlıların kuşatma makineleri yoktur, farklı kaynaklara göre abluka altı ile dokuz yıl sürer. Osman son yıllarında gut hastalığı çeker ve merkezinde kalır, komutayı oğlu Orhan üstlenir.
+Osman 1317 dolaylarından itibaren [Bursa’yı](@bursa) şehrin yakınına yaptırdığı iki havale hisarından abluka altında tutar. Batıda kaplıcaların yanındaki hisarın komutanı yeğeni Aktimur, doğudakinin komutanı Balabancık’tır. Osmanlıların kuşatma makineleri yoktur, farklı kaynaklara göre abluka altı ile dokuz yıl sürer. Osman son yıllarında gut hastalığı çeker ve merkezinde kalır, komutayı oğlu Orhan üstlenir.
 
-Orhan 1321’de Bursa’nın Marmara kıyısındaki limanı Mudanya’yı alır ve şehrin denizle bağlantısını keser. Karamürsel Bey İzmit Körfezi kıyısındaki Prainetos’u alır, kasaba onun adıyla Karamürsel diye anılır. Bursa’nın güneyindeki dağlarda bulunan Adranos da Orhan’ın eline geçer ve sonradan onun adıyla Orhaneli diye anılır.
+Orhan 1321’de Bursa’nın Marmara kıyısındaki limanı [Mudanya’yı](@mudanya) alır ve şehrin denizle bağlantısını keser. [Karamürsel](@karamursel) Bey [İzmit](@nicomedia) Körfezi kıyısındaki Prainetos’u alır, kasaba onun adıyla Karamürsel diye anılır. Bursa’nın güneyindeki dağlarda bulunan Adranos da Orhan’ın eline geçer ve sonradan onun adıyla [Orhaneli](@adranos) diye anılır.
 
 @image mudanya-panorama-320b1f
 

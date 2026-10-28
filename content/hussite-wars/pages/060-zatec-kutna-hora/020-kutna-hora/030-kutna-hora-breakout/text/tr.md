@@ -6,4 +6,4 @@ Toplar ilerleyen arabaların üzerinden ateş eder ve karanlıktaki top ateşi k
 
 @image kank-view-047abc
 
-Çeyrek milden kısa bir mesafe ötede, Kaňk tepesinin eteğinde, arabalar gün ağarırken yeniden kale biçiminde kapanır. Daha fazla asker bekleyen Sigismund saldırmaz ve Husçular Kolín’e çekilir. Kral bu çekilişi zafer sayar ve adamlarının çevredeki köylerde kışlak bulmasına izin verir.
+Çeyrek milden kısa bir mesafe ötede, Kaňk tepesinin eteğinde, arabalar gün ağarırken yeniden kale biçiminde kapanır. Daha fazla asker bekleyen [Sigismund](@kutna-hora-breakout-sigismund) saldırmaz ve Husçular Kolín’e çekilir. Kral bu çekilişi zafer sayar ve adamlarının çevredeki köylerde kışlak bulmasına izin verir.

@@ -2,6 +2,6 @@ Gün doğarken İspanyollar, arkalarında deniz, kara tarafında büyük bir ord
 
 @image champoton-dawn-bernal-diaz-c66515
 
-Yeni birlikler gelmeyi sürdürür. Kılıçların, arbaletlerin ve tüfeklerin ilk şaşkınlığı geçince savaşçılar mesafeyi korur ve uzaktan atış yapar. "Calachuni", yani "şef" diye bağırarak Hernández de Córdoba’yı hedef alırlar ve onu çok sayıda okla yaralarlar. Adamları canlı yakalamaya da çalışırlar ve aralarından ikisini, Alonso Boto’yu ve yaşlı bir Portekizliyi götürürler.
+Yeni birlikler gelmeyi sürdürür. Kılıçların, arbaletlerin ve tüfeklerin ilk şaşkınlığı geçince savaşçılar mesafeyi korur ve uzaktan atış yapar. "Calachuni", yani "şef" diye bağırarak [Hernández de Córdoba’yı](@champoton-dawn-cordoba) hedef alırlar ve onu çok sayıda okla yaralarlar. Adamları canlı yakalamaya da çalışırlar ve aralarından ikisini, Alonso Boto’yu ve yaşlı bir Portekizliyi götürürler.
 
 İspanyollar, saldırı altında geri çekilmeyi yerinde durmaktan daha tehlikeli bulduklarından kuyuların yanında bir arada kalır. Çarpışma, birlikteki hemen herkes yaralanana dek sürer.

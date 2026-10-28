@@ -1,10 +1,10 @@
-In AD 636 the Kaanul dynasty splits. Yuknoom Head overthrows Waxaklajuun Ubah Chan, the heir at Dzibanche, and one branch of the lineage settles at Calakmul, which becomes the capital of the kingdom. Another branch goes on ruling at Dzibanche. Yuknoom Ch'een II, born in 600, takes the throne of Calakmul in 636 and reigns for fifty years.
+In AD 636 the Kaanul dynasty splits. Yuknoom Head overthrows Waxaklajuun Ubah Chan, the heir at [Dzibanche](@dzibanche-636), and one branch of the lineage settles at [Calakmul](@calakmul-636), which becomes the capital of the kingdom. Another branch goes on ruling at Dzibanche. Yuknoom Ch'een II, born in 600, takes the throne of Calakmul in 636 and reigns for fifty years.
 
 @image yuknoom-cheen-structure-2-0a6c10
 
-He raises 18 stelae at Calakmul and probably builds the palace complexes of its core. In January 657 he defeats Tikal in a "star war" and drives its king Nuun Ujol Chaak from the city. Nuun Ujol Chaak and his rival at Dos Pilas, B'alaj Chan K'awiil, both attend a rite of the Kaanul heir Yuknoom Yich'aak K'ahk' held before 662.
+He raises 18 stelae at Calakmul and probably builds the palace complexes of its core. In January 657 he defeats [Tikal](@tikal-657) in a "star war" and drives its king Nuun Ujol Chaak from the city. Nuun Ujol Chaak and his rival at [Dos Pilas](@dos-pilas-648), B'alaj Chan K'awiil, both attend a rite of the Kaanul heir Yuknoom Yich'aak K'ahk' held before 662.
 
-Inscriptions across the lowlands name Yuknoom Ch'een as overlord. At El Perú he oversees the installation of King K'inich Bahlam and marries a Calakmul princess to him. He supervises the accession of kings of Cancuén, 245 km to the south, in 656 and 677. A daughter of his marries a lord of La Corona in 679, and in 685 one of his envoys oversees a rite at Piedras Negras on the Usumacinta.
+Inscriptions across the lowlands name Yuknoom Ch'een as overlord. At [El Perú](@el-peru-686) he oversees the installation of King K'inich Bahlam and marries a Calakmul princess to him. He supervises the accession of kings of [Cancuén](@cancuen-656), 245 km to the south, in 656 and 677. A daughter of his marries a lord of [La Corona](@la-corona-679) in 679, and in 685 one of his envoys oversees a rite at [Piedras Negras](@piedras-negras-685) on the Usumacinta.
 
 @image yuknoom-cheen-la-corona-7da31c
 

@@ -4,6 +4,6 @@ Kroniklere göre II. Andronikos Bursa valisine şehri teslim etmesini emreder. O
 
 Kroniklerde Saroz diye anılan garnizon komutanı Orhan’a teslim olur. Bir anlatıya göre Müslüman olur ve bey unvanı alır, bir başkasına göre Gemlik üzerinden Konstantinopolis’e gider. Artık Müslüman olan Köse Mihal görüşmelerde Orhan’ın elçisi olarak görev yapar.
 
-Orhan Bursa’yı başkenti yapar. Osman’ın naaşı Söğüt’ten getirilir ve Bursa kalesinde toprağa verilir.
+Orhan Bursa’yı başkenti yapar. Osman’ın naaşı [Söğüt’ten](@sogut) getirilir ve Bursa kalesinde toprağa verilir.
 
 @image bursa-osman-tomb-43d93c

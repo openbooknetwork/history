@@ -2,6 +2,6 @@ Vermont, an independent republic since 1777 and claimed by New York, pays $30,00
 
 @image bill-of-rights-b1ae71
 
-In 1791 Pierre Charles L’Enfant lays out the plan of the federal city in the district on the Potomac. Kentucky, which held a series of conventions at Danville to separate from Virginia, becomes the fifteenth state on 1 June 1792.
+In 1791 Pierre Charles L’Enfant lays out the plan of the federal city in the district on the Potomac. Kentucky, which held a series of conventions at [Danville](@danville) to separate from Virginia, becomes the fifteenth state on 1 June 1792.
 
 @image lenfant-plan-f036e8

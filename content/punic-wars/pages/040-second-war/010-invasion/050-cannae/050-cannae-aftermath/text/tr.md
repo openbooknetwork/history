@@ -2,7 +2,7 @@ Polybios’a göre 70.000 Romalı ve müttefik piyade ölür, 10.000’i esir d�
 
 @image cannae-rings-15573f
 
-Varro 70 atlıyla Venusia’ya kaçar. Livius’a göre Publius Sempronius Tuditanus komutasındaki 600 kişi küçük kamptan çarpışarak çıkar ve yaklaşık 10.000 kurtulan Canusium’da toplanır. Onun anlatımına göre orada genç Publius Cornelius Scipio, İtalya’yı terk etmekten söz eden subaylara kalacaklarına dair yemin ettirir.
+Varro 70 atlıyla [Venusia’ya](@venusia-216) kaçar. Livius’a göre Publius Sempronius Tuditanus komutasındaki 600 kişi küçük kamptan çarpışarak çıkar ve yaklaşık 10.000 kurtulan [Canusium’da](@canusium-216) toplanır. Onun anlatımına göre orada genç Publius Cornelius Scipio, İtalya’yı terk etmekten söz eden subaylara kalacaklarına dair yemin ettirir.
 
 @image cannae-temple-of-mars-28547f
 

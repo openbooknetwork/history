@@ -1,4 +1,4 @@
-Yüzbaşı Sidney Smith ile Don Pedro Cotiella komutasındaki İspanyol filika birliklerine tersaneyi ve Fransız filosunu yok etme emri verilir. Saat 20.00’de yangın gemisi Vulcan Yeni Tersane’ye girer, saat 22.00’de Smith gemiyi Fransız hat gemilerinin önüne yerleştirip fitilleri ateşler, bu sırada yangın ekipleri karadaki depoları yakar. Barut gemisi Iris, Smith’in filikaları yanından geçerken infilak eder, daha sonra ikinci barut gemisi Montréal de patlar. Cumhuriyet askerleri Eski Tersane’yi İspanyol ekipleri işlerini bitiremeden ele geçirir.
+Yüzbaşı [Sidney Smith](@toulon-evac-smith) ile Don Pedro Cotiella komutasındaki İspanyol filika birliklerine tersaneyi ve Fransız filosunu yok etme emri verilir. Saat 20.00’de yangın gemisi Vulcan Yeni Tersane’ye girer, saat 22.00’de Smith gemiyi Fransız hat gemilerinin önüne yerleştirip fitilleri ateşler, bu sırada yangın ekipleri karadaki depoları yakar. Barut gemisi [Iris](@toulon-evac-iris), Smith’in filikaları yanından geçerken infilak eder, daha sonra ikinci barut gemisi [Montréal](@toulon-evac-montreal) de patlar. Cumhuriyet askerleri Eski Tersane’yi İspanyol ekipleri işlerini bitiremeden ele geçirir.
 
 @image toulon-whitcombe-6b2ae5
 
@@ -6,4 +6,4 @@ Yüzbaşı George Elphinstone komutasındaki gemiler Müttefik askerlerini rıht
 
 @image toulon-forand-4724fe
 
-Cumhuriyet birlikleri 19 Aralık’ta Toulon’a girer. Temsilciler Paul Barras ve Stanislas Fréron isyancıları cezalandırmak için komisyonlar kurar, ilk toplu infazlarda yaklaşık 700 ile 800 tutsak Champ de Mars’ta kurşuna dizilir ya da süngülenir. Konvansiyon kentin adını Port-la-Montagne olarak değiştirir. Bonaparte 22 Aralık’ta tuğgeneralliğe yükseltilir.
+Cumhuriyet birlikleri 19 Aralık’ta [Toulon’a](@toulon-evac-city) girer. Temsilciler Paul Barras ve Stanislas Fréron isyancıları cezalandırmak için komisyonlar kurar, ilk toplu infazlarda yaklaşık 700 ile 800 tutsak Champ de Mars’ta kurşuna dizilir ya da süngülenir. Konvansiyon kentin adını Port-la-Montagne olarak değiştirir. Bonaparte 22 Aralık’ta tuğgeneralliğe yükseltilir.

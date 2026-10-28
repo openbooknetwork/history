@@ -1,4 +1,4 @@
-The battle opens with attacks by the Carthaginian cavalry and elephants, and the 500 Roman horsemen are swept from the field. On the Roman left, probably Latin allies, part of the line overlaps the end of the elephants. It charges the mercenary infantry on the Carthaginian right, which breaks and flees back to its camp with the Romans in pursuit.
+The battle opens with attacks by the Carthaginian cavalry and elephants, and the 500 Roman horsemen are swept from the field. On the [Roman left](@regulus-elephants-left), probably Latin allies, part of the line overlaps the end of the elephants. It charges the mercenary infantry on the Carthaginian right, which breaks and flees back to its camp with the Romans in pursuit.
 
 @image regulus-elephant-statuette-300297
 

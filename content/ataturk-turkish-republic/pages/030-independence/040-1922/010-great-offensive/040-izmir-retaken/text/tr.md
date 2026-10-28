@@ -1,4 +1,4 @@
-1 Eylül’de Mustafa Kemal emri verir: “Ordular, ilk hedefiniz Akdeniz’dir. İleri.” Ordu, çekilen Yunan ordusunun yaktığı kasabalar arasından dokuz günde üç yüz kilometre kadar ilerler. Türk süvarisi 9 Eylül 1922’de İzmir’e girer, Mustafa Kemal ertesi gün şehre gelir.
+1 Eylül’de Mustafa Kemal emri verir: “Ordular, ilk hedefiniz Akdeniz’dir. İleri.” Ordu, çekilen Yunan ordusunun yaktığı kasabalar arasından dokuz günde üç yüz kilometre kadar ilerler. Türk süvarisi 9 Eylül 1922’de [İzmir’e](@izmir-1922) girer, Mustafa Kemal ertesi gün şehre gelir.
 
 @image izmir-cavalry-c7ea04
 

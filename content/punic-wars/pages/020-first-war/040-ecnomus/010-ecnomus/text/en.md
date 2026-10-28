@@ -2,7 +2,7 @@ In 256 BC Rome decides to carry the war to Africa. A fleet of 330 warships under
 
 @image ecnomus-punic-ship-2c5c61
 
-Carthage gathers 350 warships under Hamilcar and Hanno the Great, takes on soldiers at Lilybaeum and sails east to Heraclea Minoa, the easternmost town it still holds on the south coast. Polybius puts 150,000 men on board. The Romans sail west along the coast to cross to Africa at the narrowest point, and the Carthaginians move east to intercept them.
+Carthage gathers 350 warships under Hamilcar and Hanno the Great, takes on soldiers at [Lilybaeum](@lilybaeum-256) and sails east to [Heraclea Minoa](@heraclea-minoa-256), the easternmost town it still holds on the south coast. Polybius puts 150,000 men on board. The Romans sail west along the coast to cross to Africa at the narrowest point, and the Carthaginians move east to intercept them.
 
 @image ecnomus-saint-aubin-766a3c
 

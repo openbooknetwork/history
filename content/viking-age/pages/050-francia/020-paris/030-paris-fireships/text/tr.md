@@ -1,4 +1,4 @@
-Danlar iki ay boyunca Saint-Germain-le-Rond’daki ordugâhlarında kalır, hendekler kazar ve yiyeceklerini çevredeki topraklardan sağlar. Abbo, her biri on altı tekerlek üzerinde yüksek bir çatının altında duran ve içine altmış silahlı adam alabilen üç büyük koçbaşını anlatır. Savunanlar da mancınıklar kurar.
+Danlar iki ay boyunca [Saint-Germain-le-Rond’daki](@paris-fire-camp) ordugâhlarında kalır, hendekler kazar ve yiyeceklerini çevredeki topraklardan sağlar. Abbo, her biri on altı tekerlek üzerinde yüksek bir çatının altında duran ve içine altmış silahlı adam alabilen üç büyük koçbaşını anlatır. Savunanlar da mancınıklar kurar.
 
 @image paris-fireships-barques-605ec1
 

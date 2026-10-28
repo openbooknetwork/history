@@ -1,4 +1,4 @@
-Howe ordusunu Brooklyn hatlarının önünde durdurur ve her gün biraz daha yaklaşan siperler kazarak kuşatmaya başlar. Arkasında East River olan ve İngiliz donanmasının bu yolu kapatabileceği Washington, 29 Ağustos’ta bir savaş meclisi toplar. Generalleri Manhattan’a çekilmeyi kabul eder, Thomas Mifflin’in Pennsylvanialıları ise artçı olarak dış hatları tutacaktır.
+Howe ordusunu Brooklyn hatlarının önünde durdurur ve her gün biraz daha yaklaşan siperler kazarak kuşatmaya başlar. Arkasında East River olan ve İngiliz donanmasının bu yolu kapatabileceği [Washington](@new-york-evacuation-washington), 29 Ağustos’ta bir savaş meclisi toplar. Generalleri [Manhattan’a](@new-york-evacuation-manhattan) çekilmeyi kabul eder, Thomas [Mifflin’in](@new-york-evacuation-mifflin) Pennsylvanialıları ise artçı olarak dış hatları tutacaktır.
 
 @image retreat-from-long-island-e18501
 

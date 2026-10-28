@@ -1,6 +1,6 @@
-The old Congress sets the first Wednesday in March 1789 for the new government to begin, in New York. The first Congress reaches a quorum in April and counts the electoral votes. Washington is chosen president by every elector, and John Adams, with 34 of 69 votes, becomes vice-president.
+The old Congress sets the first Wednesday in March 1789 for the new government to begin, in [New York](@new-york-1789). The first Congress reaches a quorum in April and counts the electoral votes. Washington is chosen president by every elector, and John Adams, with 34 of 69 votes, becomes vice-president.
 
-Washington leaves Mount Vernon on 16 April and travels through Baltimore, Philadelphia and Trenton to New York, arriving on 23 April. On 30 April he takes the oath on the balcony of Federal Hall on Wall Street. North Carolina and Rhode Island remain outside the new Union.
+Washington leaves [Mount Vernon](@mount-vernon) on 16 April and travels through Baltimore, Philadelphia and Trenton to New York, arriving on 23 April. On 30 April he takes the oath on the balcony of Federal Hall on Wall Street. North Carolina and Rhode Island remain outside the new Union.
 
 @image inauguration-elorriaga-b3d720
 

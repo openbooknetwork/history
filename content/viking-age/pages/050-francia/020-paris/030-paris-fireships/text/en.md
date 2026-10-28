@@ -1,4 +1,4 @@
-For two months the Danes hold their camp at Saint-Germain-le-Rond, dig trenches and live off the country. Abbo describes three great rams, each on sixteen wheels under a high roof, with room for sixty armed men inside. The defenders set up mangonels.
+For two months the Danes hold their camp at [Saint-Germain-le-Rond](@paris-fire-camp), dig trenches and live off the country. Abbo describes three great rams, each on sixteen wheels under a high roof, with room for sixty armed men inside. The defenders set up mangonels.
 
 @image paris-fireships-barques-605ec1
 

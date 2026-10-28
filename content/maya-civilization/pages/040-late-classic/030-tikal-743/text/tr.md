@@ -1,4 +1,4 @@
-Jasaw Chan K'awiil I’in oğlu Yik'in Chan K'awiil, 8 Aralık MS 734’te Tikal kralı olur. Tikal’de büyük olasılıkla 733 ile 736 arasında yapılmış oymalı bir sunak, Calakmullu bağlı bir beyi gösterir ve belki de Calakmul kralı Yuknoom Took' K'awiil’in adını verir. Calakmul’un müttefikleri Tikal’i hâlâ çevreler: batıda El Perú, doğuda Naranjo ve güneybatıda Dos Pilas.
+Jasaw Chan K'awiil I’in oğlu Yik'in Chan K'awiil, 8 Aralık MS 734’te [Tikal](@tikal-743) kralı olur. Tikal’de büyük olasılıkla 733 ile 736 arasında yapılmış oymalı bir sunak, Calakmullu bağlı bir beyi gösterir ve belki de [Calakmul](@calakmul-736) kralı Yuknoom Took' K'awiil’in adını verir. Calakmul’un müttefikleri Tikal’i hâlâ çevreler: batıda El Perú, doğuda [Naranjo](@naranjo-744) ve güneybatıda [Dos Pilas](@dos-pilas-743).
 
 @image tikal-743-temple-iv-687030
 

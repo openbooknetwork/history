@@ -1,4 +1,4 @@
-Žižka 22 Ağustos 1420’de Táborcularla Prag’dan ayrılır ve Güney Bohemya’nın en büyük senyörü, oradaki Katolik tarafın başı Rožmberklı II. Oldřich’in topraklarına yönelir. Vodňany’yi alır, Hradecli Oldřich Vavák ile birlikte Lomnice nad Lužnicí’yi ele geçirir ve Nová Bystřice’yi yakıp yıkar. 12 Ekim’de Horažďovice yakınlarındaki Panský Bor’da Oldřich’in önderliğindeki Plzeň yöresi senyörlerini yener.
+Žižka 22 Ağustos 1420’de Táborcularla Prag’dan ayrılır ve Güney Bohemya’nın en büyük senyörü, oradaki Katolik tarafın başı Rožmberklı II. Oldřich’in topraklarına yönelir. [Vodňany’yi](@vodnany-1420) alır, Hradecli Oldřich Vavák ile birlikte [Lomnice nad Lužnicí’yi](@lomnice-1420) ele geçirir ve [Nová Bystřice’yi](@nova-bystrice-1420) yakıp yıkar. 12 Ekim’de Horažďovice yakınlarındaki [Panský Bor’da](@pansky-bor-1420) Oldřich’in önderliğindeki Plzeň yöresi senyörlerini yener.
 
 @image oldrich-rozmberk-0b9d28
 
@@ -6,4 +6,4 @@
 
 @image prachatice-gate-edb25c
 
-Eylül 1420’de Táborcu rahipler Pelhřimovlu Mikuláš’ı piskopos seçer. 18 Kasım’da Písek’te Žižka Rožmberklı Oldřich ile ateşkes yapar ve Tábor yakınlarındaki Rožmberk kaleleri Příběnice ile Příběničky Táborcuların eline geçer. Tábor’un dört komutanından biri olan Husili Mikuláš aralık ayında attan düşerek ölür ve Žižka Táborcuların önderi olur.
+Eylül 1420’de Táborcu rahipler Pelhřimovlu Mikuláš’ı piskopos seçer. 18 Kasım’da Písek’te Žižka Rožmberklı Oldřich ile ateşkes yapar ve [Tábor](@tabor-1421) yakınlarındaki Rožmberk kaleleri Příběnice ile Příběničky Táborcuların eline geçer. Tábor’un dört komutanından biri olan Husili Mikuláš aralık ayında attan düşerek ölür ve Žižka Táborcuların önderi olur.

@@ -1,10 +1,10 @@
 After Wagram Charles retreats north towards Znaim in Moravia. Marmont attacks the Austrian army there on 10 July, Napoleon arrives with reinforcements, and on 12 July Charles signs the Armistice of Znaim on his own responsibility. In the Netherlands a British army of 39,000 under the Earl of Chatham lands on Walcheren on 30 July to attack Antwerp. It takes Flushing on 16 August, but loses about 4,000 men to fever against 106 killed in action and its last troops leave in December.
 
-The Treaty of Schönbrunn is signed on 14 October 1809. Austria cedes Salzburg to Bavaria, West Galicia to the Duchy of Warsaw and the district of Tarnopol to Russia. Carniola, Trieste, Gorizia, Istria, western Carinthia and the Croatian lands south of the Sava go to France as the Illyrian Provinces, which cuts Austria off from the sea. Austria loses over three million subjects, about a fifth of its population, pays an indemnity of about 85 million francs and joins the Continental System.
+The Treaty of [Schönbrunn](@schonbrunn-palace) is signed on 14 October 1809. Austria cedes Salzburg to Bavaria, West Galicia to the Duchy of Warsaw and the district of Tarnopol to Russia. Carniola, Trieste, Gorizia, Istria, western Carinthia and the Croatian lands south of the Sava go to France as the Illyrian Provinces, which cuts Austria off from the sea. Austria loses over three million subjects, about a fifth of its population, pays an indemnity of about 85 million francs and joins the Continental System.
 
 @image schonbrunn-treaty-d4d6db
 
-Two days before the signing, Friedrich Staps, the son of a Lutheran pastor from Naumburg, tries to approach Napoleon with a knife at a parade at Schönbrunn and is arrested by General Rapp. In the Tyrol, Bavarian, French and Italian troops, 45,000 men in all, put down Andreas Hofer’s rising by early November. Hofer is betrayed in January 1810 and executed by the French.
+Two days before the signing, Friedrich Staps, the son of a Lutheran pastor from Naumburg, tries to approach Napoleon with a knife at a parade at Schönbrunn and is arrested by General Rapp. In the [Tyrol](@schonbrunn-tyrol), Bavarian, French and Italian troops, 45,000 men in all, put down Andreas Hofer’s rising by early November. Hofer is betrayed in January 1810 and executed by the French.
 
 @image schonbrunn-hofer-94fa2e
 

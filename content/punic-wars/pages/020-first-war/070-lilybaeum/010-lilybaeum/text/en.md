@@ -1,4 +1,4 @@
-Encouraged by Panormus, the Romans besiege Lilybaeum, the main Carthaginian base on Sicily, in 250 BC with both consuls and blockade the harbour with 200 ships. They seal off the landward side with camps and walls of earth and timber, and try again and again to close the harbour mouth with a timber boom, which the sea breaks up.
+Encouraged by Panormus, the Romans besiege [Lilybaeum](@lilybaeum-249), the main Carthaginian base on Sicily, in 250 BC with both consuls and blockade the harbour with 200 ships. They seal off the landward side with camps and walls of earth and timber, and try again and again to close the harbour mouth with a timber boom, which the sea breaks up.
 
 @image lilybaeum-capo-boeo-866174
 

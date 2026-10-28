@@ -2,7 +2,7 @@
 
 @image kostelec-crossing-cd886b
 
-Mart’ta Žižka Jičín ve Nový Bydžov yörelerine geçer, Mayıs başında da Plzeň yöresine büyük bir sefer düzenler. Plzeň Landfried’i 17 Mayıs’ta ona karşı çıkınca muharebeden kaçınır ve Žatec’e çekilir. Mayıs sonunda Praglılar ve müttefikleri ona karşı yürür, o da Kostelec nad Labem’e çekilir. Orada sırtında Elbe ırmağı varken etrafı üç yandan sarılır.
+Mart’ta Žižka Jičín ve Nový Bydžov yörelerine geçer, Mayıs başında da [Plzeň](@plzen-1424) yöresine büyük bir sefer düzenler. Plzeň Landfried’i 17 Mayıs’ta ona karşı çıkınca muharebeden kaçınır ve [Žatec’e](@zatec-1424) çekilir. Mayıs sonunda Praglılar ve müttefikleri ona karşı yürür, o da [Kostelec nad Labem’e](@kostelec-1424) çekilir. Orada sırtında Elbe ırmağı varken etrafı üç yandan sarılır.
 
 Žižka, Poděbradylı Hynek Boček’in yardımıyla ırmağı gece geçer ve sağ kıyı boyunca çekilir, Praglılar ise sol kıyıdan izler ve kısa sürede ırmağa köprü kurar. 6 Haziran’da Hynek onları görüşmelerle oyalamaya çalışır, Praglılar amacını anlayınca onu tutsak eder. Žižka Čáslav’a ulaşmak için Elbe’yi yeniden geçer, ama 7 Haziran’da izleyenler yakındadır. Kutná Hora’ya 6 km uzaklıktaki Malešov kalesinin yakınında, kaleyi 1421’de kuşatma altına aldığı için araziyi bilen Jan Hvězda ile birlikte bir mevzi seçer.
 

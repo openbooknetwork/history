@@ -1,4 +1,4 @@
-At the urging of Sigismund, King of the Romans and Wenceslas’s heir, Pope John XXIII calls a general council to Constance for 1 November 1414 to end the schism of three popes. Hus sets out on 11 October 1414, before he holds Sigismund’s safe conduct, with the lords Václav of Dubá and Jan of Chlum, and travels by Nuremberg. He reaches Constance on 3 November. The safe conduct guarantees only his journey through Sigismund’s lands.
+At the urging of Sigismund, King of the Romans and Wenceslas’s heir, Pope John XXIII calls a general council to [Constance](@constance-1415) for 1 November 1414 to end the schism of three popes. Hus sets out on 11 October 1414, before he holds Sigismund’s safe conduct, with the lords Václav of Dubá and Jan of Chlum, and travels by [Nuremberg](@nuremberg-1414). He reaches Constance on 3 November. The safe conduct guarantees only his journey through Sigismund’s lands.
 
 @image brozik-hus-constance-e5c4df
 

@@ -1,8 +1,8 @@
-924’te Batı Frankya Kralı Rudolf, Rollo’nun topraklarını batıda Vire Irmağı’na kadar genişletir. Böylece İngiltere’den gelen Danların yerleştiği Bayeux çevresindeki Bessin ile Maine’in sınır toprakları da bu topraklara katılır. Rollo’nun 927’den beri Rouen kontu olan oğlu Uzun Kılıç William, Rudolf’u destekler ve 933’te Bretonlardan alınması gereken Avranchin ile Cotentin’i alır. Bu bağışlarla Normandiya aşağı yukarı Rouen kilise eyaletinin sınırlarına ulaşır. Norveçlilerin yerleştiği Cotentin’de Eski İskandinav dili dört beş kuşak boyunca konuşulur.
+924’te Batı Frankya Kralı Rudolf, Rollo’nun topraklarını batıda Vire Irmağı’na kadar genişletir. Böylece İngiltere’den gelen Danların yerleştiği Bayeux çevresindeki [Bessin](@bessin-924) ile [Maine’in](@maine-924) sınır toprakları da bu topraklara katılır. Rollo’nun 927’den beri [Rouen](@rouen-911) kontu olan oğlu Uzun Kılıç William, Rudolf’u destekler ve 933’te Bretonlardan alınması gereken [Avranchin](@avranchin-933) ile [Cotentin’i](@cotentin-933) alır. Bu bağışlarla Normandiya aşağı yukarı Rouen kilise eyaletinin sınırlarına ulaşır. Norveçlilerin yerleştiği Cotentin’de Eski İskandinav dili dört beş kuşak boyunca konuşulur.
 
 @image normandy-coin-32f41f
 
-17 Aralık 942’de Flandre Kontu Arnulf’un adamları, Somme Irmağı’ndaki bir adacıkta yapılan bir görüşmede Picquigny’de William’ı öldürür. Yerine Fécamp’ta doğmuş on yaşındaki oğlu I. Richard geçer. Bir yıl sonra Setric adlı bir İskandinav Normandiya’ya çıkar ve yerleşimcilerin bir bölümünü eski tanrılara döndürür. Richard 996’ya kadar hüküm sürer ve Saint-Quentinli Dudo’ya Normanların tarihini yazdırır. Rollo ve ardıllarına ilişkin en eski anlatı olan Dudo’nun eseri onları övmek için yazılmıştır.
+17 Aralık 942’de Flandre Kontu Arnulf’un adamları, Somme Irmağı’ndaki bir adacıkta yapılan bir görüşmede [Picquigny’de](@picquigny-942) William’ı öldürür. Yerine [Fécamp’ta](@fecamp-1026) doğmuş on yaşındaki oğlu I. Richard geçer. Bir yıl sonra Setric adlı bir İskandinav Normandiya’ya çıkar ve yerleşimcilerin bir bölümünü eski tanrılara döndürür. Richard 996’ya kadar hüküm sürer ve Saint-Quentinli Dudo’ya Normanların tarihini yazdırır. Rollo ve ardıllarına ilişkin en eski anlatı olan Dudo’nun eseri onları övmek için yazılmıştır.
 
 @image normandy-fecamp-0900be
 
@@ -10,4 +10,4 @@
 
 @image normandy-tomb-0841ce
 
-1035’te dükalık, Dük I. Robert’in yaklaşık 1028’de Falaise’de doğmuş evlilik dışı oğlu William’a geçer. William 1060’a gelindiğinde Normandiya’ya sıkıca hâkim olur, 1066’da da Hastings’te Harold Godwinson’ı yenerek İngiltere kralı olur.
+1035’te dükalık, Dük I. Robert’in yaklaşık 1028’de [Falaise’de](@falaise-1028) doğmuş evlilik dışı oğlu William’a geçer. William 1060’a gelindiğinde Normandiya’ya sıkıca hâkim olur, 1066’da da Hastings’te Harold Godwinson’ı yenerek İngiltere kralı olur.

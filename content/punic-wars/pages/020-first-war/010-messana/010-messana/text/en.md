@@ -1,4 +1,4 @@
-In 289 BC Italian mercenaries known as Mamertines, formerly in the pay of Syracuse, seize Messana on the strait between Sicily and Italy. Hard pressed by Hiero II of Syracuse, they ask both Carthage and Rome for help in 265 BC. Carthage acts first, persuades Hiero to hold back and places a garrison in the city.
+In 289 BC Italian mercenaries known as Mamertines, formerly in the pay of [Syracuse](@syracuse-264), seize Messana on the strait between Sicily and Italy. Hard pressed by Hiero II of Syracuse, they ask both Carthage and Rome for help in 265 BC. Carthage acts first, persuades Hiero to hold back and places a garrison in the city.
 
 @image messana-mamertine-coin-115762
 

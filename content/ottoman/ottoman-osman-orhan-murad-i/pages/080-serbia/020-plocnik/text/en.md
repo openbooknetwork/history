@@ -1,4 +1,4 @@
-In 1386 Murad leads a large army against Lazar and takes Pirot and Niš, driving a wedge between Bulgaria and Serbia. Lazar may have accepted Ottoman overlordship soon afterwards.
+In 1386 Murad leads a large army against Lazar and takes [Pirot](@pirot-1386) and [Niš](@nis-1386), driving a wedge between Bulgaria and Serbia. Lazar may have accepted Ottoman overlordship soon afterwards.
 
 @image pirot-fortress-589b1c
 

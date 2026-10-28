@@ -2,6 +2,6 @@
 
 @image yorktown-blarenberghe-85238d
 
-17 Ekim sabahı bir İngiliz davulcu görüşme çağrısı çalar ve beyaz mendil sallayan bir subay dışarı çıkar. Koşullar 18 Ekim’de Moore Evi’nde kararlaştırılır. 19 Ekim’de İngilizler Fransız ve Amerikan hatları arasından yürüyüp silahlarını bırakır, Gloucester’daki mevzi de teslim olur.
+17 Ekim sabahı bir İngiliz davulcu görüşme çağrısı çalar ve beyaz mendil sallayan bir subay dışarı çıkar. Koşullar 18 Ekim’de [Moore Evi’nde](@yorktown-surrender-moore-house) kararlaştırılır. 19 Ekim’de İngilizler Fransız ve Amerikan hatları arasından yürüyüp silahlarını bırakır, Gloucester’daki mevzi de teslim olur.
 
-Cornwallis hasta olduğunu söyleyerek törene katılmaz. Yardımcısı Charles O’Hara kılıcını Rochambeau’ya uzatır, o da Washington’ı gösterir, Washington ise onu Benjamin Lincoln’e yönlendirir. 7.400 ile 7.700 arası asker, 214 top ve 24 nakliye gemisi ele geçirilir.
+Cornwallis hasta olduğunu söyleyerek törene katılmaz. Yardımcısı Charles [O’Hara](@yorktown-surrender-ohara) kılıcını Rochambeau’ya uzatır, o da Washington’ı gösterir, Washington ise onu Benjamin Lincoln’e yönlendirir. 7.400 ile 7.700 arası asker, 214 top ve 24 nakliye gemisi ele geçirilir.

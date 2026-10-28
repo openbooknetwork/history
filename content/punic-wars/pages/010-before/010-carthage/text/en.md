@@ -1,4 +1,4 @@
-Phoenician settlers from Tyre found Carthage on the coast of present-day Tunisia, by tradition in 814 BC. By the 3rd century BC it is the leading power of the western Mediterranean. It holds the African coast from Cyrenaica to the Atlantic, western Sicily, Sardinia, Malta, the Balearic Islands and trading towns in southern Spain.
+Phoenician settlers from Tyre found [Carthage](@carthage-270) on the coast of present-day Tunisia, by tradition in 814 BC. By the 3rd century BC it is the leading power of the western Mediterranean. It holds the African coast from Cyrenaica to the Atlantic, western Sicily, Sardinia, Malta, the Balearic Islands and trading towns in southern Spain.
 
 @image carthage-model-fc00e7
 

@@ -1,4 +1,4 @@
-Öğleden sonra saat 2’de müttefik ordusu bölünmüştür. Napolyon güneye, hâlâ Sokolnitz’te ve Telnitz’te çarpışan sol kanada döner. Saint-Hilaire’in tümeni Pratzen’den inerken Davout’nun askerleri Goldbach’tan saldırır ve Sokolnitz’teki müttefik birlikleri bozulur. Kienmayer ve Langeron olabildiğince hızlı kaçar, Buxhoeveden de savaş alanını terk eder. Sabahtan beri misket ateşi altında kalan ve fişekleri tükenen Przybyszewski’nin askerleri geri çekilir.
+Öğleden sonra saat 2’de müttefik ordusu bölünmüştür. [Napolyon](@austerlitz-ponds-napoleon) güneye, hâlâ Sokolnitz’te ve Telnitz’te çarpışan sol kanada döner. Saint-Hilaire’in tümeni Pratzen’den inerken [Davout’nun](@austerlitz-ponds-davout) askerleri Goldbach’tan saldırır ve Sokolnitz’teki müttefik birlikleri bozulur. Kienmayer ve Langeron olabildiğince hızlı kaçar, [Buxhoeveden](@austerlitz-ponds-buxhoeveden) de savaş alanını terk eder. Sabahtan beri misket ateşi altında kalan ve fişekleri tükenen Przybyszewski’nin askerleri geri çekilir.
 
 @image austerlitz-ponds-gerard-4c448e
 

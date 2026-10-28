@@ -1,8 +1,8 @@
-Normandiya Dükü William, İtirafçı Edward’ın tahtı kendisine vaat ettiğini ve Harold’ın bu hakkı destekleyeceğine yemin ettiğini ileri sürer. Dokuz ay boyunca bir donanma kurar ve Normandiya, Brötanya ve Flandre’dan bir ordu toplar, ordu Saint-Valery-sur-Somme’da uygun rüzgârı bekler. Harold bir ordu ve donanmayla güney kıyısını 8 Eylül’e kadar gözetler, o gün hasadı kaldırmaları için milisleri dağıtır.
+Normandiya Dükü William, İtirafçı Edward’ın tahtı kendisine vaat ettiğini ve Harold’ın bu hakkı destekleyeceğine yemin ettiğini ileri sürer. Dokuz ay boyunca bir donanma kurar ve Normandiya, Brötanya ve Flandre’dan bir ordu toplar, ordu [Saint-Valery-sur-Somme’da](@saint-valery-1066) uygun rüzgârı bekler. Harold bir ordu ve donanmayla güney kıyısını 8 Eylül’e kadar gözetler, o gün hasadı kaldırmaları için milisleri dağıtır.
 
 @image hastings-pevensey-2d305a
 
-Normanlar 27 Eylül’de denizi geçer ve ertesi gün, Stamford Bridge’den üç gün sonra, Sussex’te Pevensey’e çıkar. William Hastings’te ahşap bir kale kurar ve çevreyi yağmalar. Harold yol boyunca asker toplayarak güneye yürür ve Londra’da yaklaşık bir hafta kalır. 13 Ekim gecesi William’ın kalesine yaklaşık 13 km uzaklıktaki Caldbec Tepesi’nde ordugâh kurar.
+Normanlar 27 Eylül’de denizi geçer ve ertesi gün, Stamford Bridge’den üç gün sonra, Sussex’te Pevensey’e çıkar. William Hastings’te ahşap bir kale kurar ve çevreyi yağmalar. Harold yol boyunca asker toplayarak güneye yürür ve [Londra’da](@london-1066) yaklaşık bir hafta kalır. 13 Ekim gecesi William’ın kalesine yaklaşık 13 km uzaklıktaki Caldbec Tepesi’nde ordugâh kurar.
 
 @image hastings-knights-bfc48e
 

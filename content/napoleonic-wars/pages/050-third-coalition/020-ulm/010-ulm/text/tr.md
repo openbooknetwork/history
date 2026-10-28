@@ -2,7 +2,7 @@ Eylül 1805’te yaklaşık 72.000 kişilik bir Avusturya ordusu savaş ilan etm
 
 @image ulm-mack-e4c0ed
 
-Grande Armée 27 Ağustos’ta Manş kıyısından ayrılır ve 24 Eylül’de Mannheim ile Strazburg arasında Ren kıyısına varır. Sol kanadı Hannover’den ve Utrecht’ten gelir. Murat’ın süvarisi Kara Orman’ın geçitlerinde görünürken yaklaşık 200.000 asker 25 Eylül’den itibaren 260 km’lik bir cephede Ren’i geçer ve güneydoğuya, Mack’ın arkasına, Tuna’ya doğru döner. Bernadotte’un I. Kolordusu Prusya toprağı olan Ansbach’tan geçer. Fransızların bu toprağa dokunmayacağını sanan Mack, Ulm’da kalmaya karar verir.
+Grande Armée 27 Ağustos’ta Manş kıyısından ayrılır ve 24 Eylül’de Mannheim ile Strazburg arasında Ren kıyısına varır. Sol kanadı Hannover’den ve Utrecht’ten gelir. Murat’ın süvarisi Kara Orman’ın geçitlerinde görünürken yaklaşık 200.000 asker 25 Eylül’den itibaren 260 km’lik bir cephede Ren’i geçer ve güneydoğuya, Mack’ın arkasına, Tuna’ya doğru döner. Bernadotte’un I. Kolordusu Prusya toprağı olan [Ansbach’tan](@ulm-ansbach) geçer. Fransızların bu toprağa dokunmayacağını sanan Mack, Ulm’da kalmaya karar verir.
 
 7 Ekim’de Fransızlar Tuna’yı Donauwörth, Neuburg ve Ingolstadt’ta geçer, Kienmayer’in Avusturya kolordusu Münih’e çekilir. Ertesi gün Murat’ın süvarisi ve Lannes’ın 12.000 kişilik V. Kolordusu, Auffenberg’in 5.500 kişilik tümenini Wertingen’de dağıtır ve 2.900 esir alır. 9 Ekim’de Ney’in VI. Kolordusundan Malher’in tümeni, Mack karşıya geçmeye çalışırken Günzburg’daki Tuna köprülerini ele geçirir ve Avusturyalılar Ulm’a çekilir.
 

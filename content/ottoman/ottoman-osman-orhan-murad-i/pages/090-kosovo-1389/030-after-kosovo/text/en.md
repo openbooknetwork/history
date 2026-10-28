@@ -1,4 +1,4 @@
-Bayezid takes command when his father dies and is proclaimed sultan on the field. He has his brother Yakub, who commanded the other wing, called to the sultan’s tent and strangled, which leaves him the only heir. Murad’s internal organs are buried on Kosovo field, where Bayezid builds a tomb, the Meşhed-i Hüdavendigâr. His body is taken to Bursa and buried in his complex at Çekirge. Lazar is buried in the Church of the Ascension in Priština.
+Bayezid takes command when his father dies and is proclaimed sultan on the field. He has his brother Yakub, who commanded the other wing, called to the sultan’s tent and strangled, which leaves him the only heir. Murad’s internal organs are buried on Kosovo field, where Bayezid builds a tomb, the [Meşhed-i Hüdavendigâr](@murad-tomb-kosovo). His body is taken to [Bursa](@murad-tomb-bursa) and buried in his complex at Çekirge. Lazar is buried in the Church of the Ascension in Priština.
 
 @image bayezid-accession-iskendername-a63dd1
 
@@ -6,6 +6,6 @@ The Ottoman army withdraws from Kosovo. Informed by Vlatko Vuković, King Tvrtko
 
 @image kosovo-murad-tomb-1a0262
 
-Lazar’s son Stefan Lazarević is still a minor, and his mother Milica rules for him. King Sigismund of Hungary attacks Moravian Serbia from the north in November 1389. When Ottoman troops reach its borders in the summer of 1390, Milica accepts Ottoman overlordship, and her daughter Olivera marries Bayezid. Some accounts date the submission to late 1389. Vuk Branković refuses to submit and turns to Sigismund. The Ottoman state reaches from Ankara and Akşehir in Anatolia to Thessalonica, Sofia and Niš, and the Byzantine emperor, the Bulgarian tsars and the Serbian lords of Macedonia are its vassals.
+Lazar’s son Stefan Lazarević is still a minor, and his mother Milica rules for him. King Sigismund of Hungary attacks Moravian Serbia from the north in November 1389. When Ottoman troops reach its borders in the summer of 1390, Milica accepts Ottoman overlordship, and her daughter Olivera marries Bayezid. Some accounts date the submission to late 1389. Vuk Branković refuses to submit and turns to Sigismund. The Ottoman state reaches from Ankara and Akşehir in Anatolia to [Thessalonica](@thessalonica-1387), Sofia and Niš, and the Byzantine emperor, the Bulgarian tsars and the Serbian lords of Macedonia are its vassals.
 
 @image stefan-vuk-lazarevic-rudenica-c2845c

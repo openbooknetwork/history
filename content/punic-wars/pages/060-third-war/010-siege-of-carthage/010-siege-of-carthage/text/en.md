@@ -1,4 +1,4 @@
-In 149 BC Utica, the largest port near Carthage, goes over to Rome, and Rome declares war. Both consuls cross from Sicily and land at Utica with an army that Appian puts at 84,000 men and modern historians at 40,000 to 50,000. Manius Manilius commands the army and Lucius Marcius Censorinus the fleet.
+In 149 BC [Utica](@utica-149), the largest port near Carthage, goes over to Rome, and Rome declares war. Both consuls cross from Sicily and land at Utica with an army that Appian puts at 84,000 men and modern historians at 40,000 to 50,000. Manius Manilius commands the army and Lucius Marcius Censorinus the fleet.
 
 @image carthage-double-shekel-0326d1
 
@@ -6,4 +6,4 @@ Carthage tries to avoid war. It sends 300 children of leading families as hostag
 
 @image carthage-third-war-finds-8efc29
 
-The consuls then order the Carthaginians to leave their city and settle 16 km from the sea, so that Carthage can be destroyed. The Carthaginians refuse. They arm the citizens, free the slaves willing to fight, and give a field army of 30,000 men to Hasdrubal at Nepheris, 25 km south of the city.
+The consuls then order the Carthaginians to leave their city and settle 16 km from the sea, so that Carthage can be destroyed. The Carthaginians refuse. They arm the citizens, free the slaves willing to fight, and give a field army of 30,000 men to Hasdrubal at [Nepheris](@nepheris-149), 25 km south of the city.

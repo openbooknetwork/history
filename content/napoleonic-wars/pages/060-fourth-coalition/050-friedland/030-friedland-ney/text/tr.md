@@ -1,4 +1,4 @@
-Napolyon Rus sol kanadının Alle ile Posthenen değirmen deresi arasındaki dar bir dil gibi uzanan araziye sıkıştığını, arkasında da kasaba ile köprülerinin bulunduğunu görür. Ney’in kolordusunu Posthenen ile Sortlack Ormanı arasına, Lannes’ı onun soluna, merkeze, Mortier’yi de sol kanatta Heinrichsdorf’a yerleştirir. Victor’un I. Kolordusu ve İmparatorluk Muhafızları Posthenen’in arkasında yedekte durur. Öğleden sonra gelen birlikler topların koruması altında düzene sokulur.
+[Napolyon](@friedland-ney-napoleon) Rus sol kanadının Alle ile Posthenen değirmen deresi arasındaki dar bir dil gibi uzanan araziye sıkıştığını, arkasında da kasaba ile köprülerinin bulunduğunu görür. [Ney’in](@friedland-ney-ney) kolordusunu Posthenen ile [Sortlack](@friedland-ney-sortlack) Ormanı arasına, Lannes’ı onun soluna, merkeze, Mortier’yi de sol kanatta Heinrichsdorf’a yerleştirir. Victor’un I. Kolordusu ve İmparatorluk Muhafızları Posthenen’in arkasında yedekte durur. Öğleden sonra gelen birlikler topların koruması altında düzene sokulur.
 
 @image friedland-ney-meissonier-b9f581
 

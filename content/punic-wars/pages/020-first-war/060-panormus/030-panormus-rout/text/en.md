@@ -1,6 +1,6 @@
 The mahouts drive the elephants on into the earthworks, where they cannot reach the skirmishers. Struck again and again by javelins, and by some accounts by missiles from the walls, the animals panic and turn back through their own infantry.
 
-When the elephants break, Metellus attacks the left flank of the disordered Carthaginian army from the gate. The army flees, and those who stand are cut down. Metellus forbids a pursuit, but he captures ten elephants at once and, by some accounts, the rest over the following days.
+When the elephants break, [Metellus](@panormus-rout-metellus) attacks the left flank of the disordered Carthaginian army from the gate. The army flees, and those who stand are cut down. Metellus forbids a pursuit, but he captures ten elephants at once and, by some accounts, the rest over the following days.
 
 @image panormus-denarius-317b2d
 

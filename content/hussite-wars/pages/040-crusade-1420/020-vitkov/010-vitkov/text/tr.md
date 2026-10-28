@@ -2,6 +2,6 @@ Vítkov tepesinde ahşap ve topraktan tahkimatlardaki 30 kadar Husçu ve ardınd
 
 @image mathauser-vitkov-fc5057
 
-Husçular Prag’ın Eski ve Yeni Şehirlerini 9.000 kadar silahlı adamla tutar, kralın garnizonları ise Prag Kalesi’ni ve Vyšehrad’ı elinde bulundurur. Haçlılar şehri aç bırakmak ister, şehre hâlâ erzak getiren yollar da ırmağın doğusunda, Yeni Şehir surlarının dışındaki uzun bir sırt olan Vítkov’un yanından geçer. Tepe, Prag’ın doğusundaki araziye hâkimdir.
+Husçular Prag’ın [Eski ve Yeni Şehirlerini](@prague-towns-1420) 9.000 kadar silahlı adamla tutar, kralın garnizonları ise [Prag Kalesi’ni](@prague-castle-1420) ve [Vyšehrad’ı](@vysehrad-castle-1420) elinde bulundurur. Haçlılar şehri aç bırakmak ister, şehre hâlâ erzak getiren yollar da ırmağın doğusunda, Yeni Şehir surlarının dışındaki uzun bir sırt olan Vítkov’un yanından geçer. Tepe, Prag’ın doğusundaki araziye hâkimdir.
 
 Žižka sırtın batı ucuna, darağacının yanına, üç sığ hendek ile topraktan ve taştan bir duvarın gerisinde iki ahşap blokhaus yaptırır. 13 Temmuz’da haçlılar tepenin altındaki Hastane Tarlası’na (Špitálské pole) ilk saldırıyı yapar. Sigismund’un 14 Temmuz planı, Vítkov’u aldıktan sonra şehre aynı anda üç yandan saldırmaktır: Prag Kalesi’nden, Vyšehrad’dan ve Hastane Tarlası’ndan.

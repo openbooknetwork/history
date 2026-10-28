@@ -4,8 +4,8 @@ On 26 June the Prince of Coburg attacks Jourdan’s entrenched line around Fleur
 
 @image fleurus-mauzaisse-a0e1bb
 
-After Fleurus Jourdan’s force becomes the Army of Sambre and Meuse. Pichegru, commanding on the northern front, enters Brussels on 11 July and takes Antwerp on 27 July, while Jourdan occupies Namur on 17 July and Liège on 27 July. Coburg crosses the Meuse at Maastricht into Germany on 24 July, and the British and Dutch withdraw north to defend the Dutch Republic.
+After Fleurus Jourdan’s force becomes the Army of Sambre and Meuse. Pichegru, commanding on the northern front, enters [Brussels](@fleurus-brussels) on 11 July and takes [Antwerp](@fleurus-antwerp) on 27 July, while Jourdan occupies Namur on 17 July and Liège on 27 July. Coburg crosses the Meuse at [Maastricht](@fleurus-maastricht) into Germany on 24 July, and the British and Dutch withdraw north to defend the Dutch Republic.
 
-In Paris the victory weakens the case for the Terror. On 27 July Robespierre is arrested, and he is executed the next day with Louis Antoine de Saint-Just, who was with Jourdan’s army at Fleurus as representative of the Convention. In the winter the French overrun the Dutch Republic, and on 18 January 1795 the Batavian Revolution in Amsterdam replaces it with the Batavian Republic, allied to France.
+In Paris the victory weakens the case for the Terror. On 27 July Robespierre is arrested, and he is executed the next day with Louis Antoine de Saint-Just, who was with Jourdan’s army at Fleurus as representative of the Convention. In the winter the French overrun the Dutch Republic, and on 18 January 1795 the Batavian Revolution in [Amsterdam](@fleurus-amsterdam) replaces it with the Batavian Republic, allied to France.
 
 @image fleurus-thermidor-710aa0

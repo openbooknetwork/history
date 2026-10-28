@@ -2,7 +2,7 @@ The Battle of Hafrsfjord is fought between 872 and 900, by most scholars’ reck
 
 @image hafrsfjord-flateyjarbok-5d08fd
 
-Snorri, writing more than 300 years after the battle, gives the fuller story. The kings of Hordaland, Rogaland, Agder and Telemark gather ships and men against Harald, who sails south along the coast and collects forces from every district. The allies meet north of Jæren and go into Hafrsfjord, where Harald is waiting. After a long fight King Eirik of Hordaland and King Sulke of Rogaland are dead, the berserk Thor Haklang has fallen on his ship, and Kjotve the Rich flees.
+Snorri, writing more than 300 years after the battle, gives the fuller story. The kings of [Hordaland](@hordaland-872), Rogaland, [Agder](@agder-872) and Telemark gather ships and men against Harald, who sails south along the coast and collects forces from every district. The allies meet north of Jæren and go into Hafrsfjord, where Harald is waiting. After a long fight King Eirik of Hordaland and King Sulke of Rogaland are dead, the berserk Thor Haklang has fallen on his ship, and Kjotve the Rich flees.
 
 @image hafrsfjord-balling-e2763c
 

@@ -2,7 +2,7 @@ Parlamento, Amerika’da tuttuğu garnizonun masrafını kolonilerden çıkarmak
 
 @image stamp-proof-1765-e0058e
 
-Ağustos 1765’te Boston’da bir kalabalık pul dağıtıcısının bürosunu yıkar ve vali yardımcısının evini yağmalar. Kalabalıklar koloni koloni pul görevlilerini istifaya zorlar, kasımdan itibaren de kendilerine Özgürlük Evlatları diyen gruplar direnişi örgütler. Ekimde dokuz koloniden delegeler Pul Yasası Kongresi olarak New York’ta toplanır ve kendilerini yalnızca kendi meclislerinin vergilendirebileceğini ilan eder.
+Ağustos 1765’te [Boston’da](@boston-1765) bir kalabalık pul dağıtıcısının bürosunu yıkar ve vali yardımcısının evini yağmalar. Kalabalıklar koloni koloni pul görevlilerini istifaya zorlar, kasımdan itibaren de kendilerine Özgürlük Evlatları diyen gruplar direnişi örgütler. Ekimde dokuz koloniden delegeler Pul Yasası Kongresi olarak [New York’ta](@new-york-1765) toplanır ve kendilerini yalnızca kendi meclislerinin vergilendirebileceğini ilan eder.
 
 @image stamp-act-riots-abfb01
 

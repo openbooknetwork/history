@@ -1,4 +1,4 @@
-Yunan ordusunun büyük yaz taarruzu 10 Temmuz 1921’de sayı üstünlüğüyle başlar. Kütahya düşer, 19 Temmuz’da Eskişehir. Mustafa Kemal, İsmet Paşa’ya temasın kesilip Batı Cephesi’nin tümüyle Sakarya’nın doğusuna çekilmesini emreder. Orduyu korumak için toprak verilir. Ankara, hükûmeti Kayseri’ye taşımaya hazırlanır.
+Yunan ordusunun büyük yaz taarruzu 10 Temmuz 1921’de sayı üstünlüğüyle başlar. Kütahya düşer, 19 Temmuz’da [Eskişehir](@eskisehir). Mustafa Kemal, İsmet Paşa’ya temasın kesilip Batı Cephesi’nin tümüyle [Sakarya’nın](@sakarya) doğusuna çekilmesini emreder. Orduyu korumak için toprak verilir. Ankara, hükûmeti Kayseri’ye taşımaya hazırlanır.
 
 @image greek-eskisehir-1921-ef08b8
 

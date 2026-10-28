@@ -1,6 +1,6 @@
-At 17:00 Alten's 3rd Division arrives from Nivelles and gives the allies the larger numbers. Ney learns that d'Erlon's I Corps has marched off towards Ligny without his knowledge, receives an unclear order from Napoleon to take Quatre Bras and then turn on Blücher, and sends d'Erlon orders to come back at once. To keep up the pressure he sends Kellermann with the one cuirassier brigade at hand to break Wellington's line.
+At 17:00 Alten's 3rd Division arrives from Nivelles and gives the allies the larger numbers. [Ney](@quatre-bras-17-ney) learns that d'Erlon's I Corps has marched off towards Ligny without his knowledge, receives an unclear order from Napoleon to take Quatre Bras and then turn on Blücher, and sends d'Erlon orders to come back at once. To keep up the pressure he sends [Kellermann](@quatre-bras-17-kellermann) with the one cuirassier brigade at hand to break [Wellington's](@quatre-bras-17-wellington) line.
 
-The cuirassiers catch Halkett's brigade in line, maul the 69th Foot and take its King's colour, and reach the crossroads before artillery and musket fire at close range drive them back. With the arrival of Cooke's Guards Division Wellington counter-attacks, and the Guards take the Bossu wood from Jérôme, though Piré's lancers catch them in line as they come out of it.
+The cuirassiers catch Halkett's brigade in line, maul the [69th Foot](@quatre-bras-17-69th) and take its King's colour, and reach the crossroads before artillery and musket fire at close range drive them back. With the arrival of Cooke's Guards Division Wellington counter-attacks, and the Guards take the Bossu wood from Jérôme, though Piré's lancers catch them in line as they come out of it.
 
 @image quatre-bras-butler-ee4e7d
 

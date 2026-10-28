@@ -2,10 +2,10 @@ In January 1776 Thomas Paine’s pamphlet Common Sense argues for independence a
 
 @image common-sense-0540f7
 
-Outside Boston, Henry Knox arrives in late January with 59 guns, mortars and howitzers hauled on sledges from Ticonderoga, three hundred miles through the winter. On the night of 4 March Washington places them on Dorchester Heights, overlooking the town and the anchorage.
+Outside [Boston](@boston-1776), Henry Knox arrives in late January with 59 guns, mortars and howitzers hauled on sledges from Ticonderoga, three hundred miles through the winter. On the night of 4 March Washington places them on [Dorchester Heights](@dorchester), overlooking the town and the anchorage.
 
 @image knox-artillery-c60ad4
 
 @image boston-dorchester-1776-6b0fcc
 
-General Howe, who replaced Gage in October, plans an assault on the heights, but a storm prevents it. On 17 March the garrison and more than a thousand Loyalists sail for Halifax. Massachusetts is clear of British troops.
+General Howe, who replaced Gage in October, plans an assault on the heights, but a storm prevents it. On 17 March the garrison and more than a thousand Loyalists sail for [Halifax](@halifax). Massachusetts is clear of British troops.

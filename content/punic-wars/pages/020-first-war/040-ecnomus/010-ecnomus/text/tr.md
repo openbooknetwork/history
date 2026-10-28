@@ -2,7 +2,7 @@ MÖ 256’da Roma savaşı Afrika’ya taşımaya karar verir. Konsüller Marcus
 
 @image ecnomus-punic-ship-2c5c61
 
-Kartaca, Hamilkar ve Büyük Hanno komutasında 350 savaş gemisi toplar, Lilybaeum’da asker alır ve güney kıyısında hâlâ elinde tuttuğu en doğudaki kent olan Heraclea Minoa’ya gider. Polybios gemilerdeki insan sayısını 150.000 olarak verir. Romalılar Afrika’ya en dar noktadan geçmek için kıyı boyunca batıya, Kartacalılar da onları önlemek için doğuya yönelir.
+Kartaca, Hamilkar ve Büyük Hanno komutasında 350 savaş gemisi toplar, [Lilybaeum’da](@lilybaeum-256) asker alır ve güney kıyısında hâlâ elinde tuttuğu en doğudaki kent olan [Heraclea Minoa’ya](@heraclea-minoa-256) gider. Polybios gemilerdeki insan sayısını 150.000 olarak verir. Romalılar Afrika’ya en dar noktadan geçmek için kıyı boyunca batıya, Kartacalılar da onları önlemek için doğuya yönelir.
 
 @image ecnomus-saint-aubin-766a3c
 

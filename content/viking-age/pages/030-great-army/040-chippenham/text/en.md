@@ -1,8 +1,8 @@
-Guthrum’s army spends the end of 877 at Gloucester, while Alfred keeps Christmas at the royal estate of Chippenham, about 30 miles to the south. In midwinter after Twelfth Night, probably in the night of 6 to 7 January 878, the Danes fall on Chippenham. By the Chronicle’s account they occupy the land of the West Saxons, drive many people overseas and force most of the rest to submit.
+Guthrum’s army spends the end of 877 at [Gloucester](@gloucester-877), while Alfred keeps Christmas at the royal estate of [Chippenham](@chippenham-878), about 30 miles to the south. In midwinter after Twelfth Night, probably in the night of 6 to 7 January 878, the Danes fall on Chippenham. By the Chronicle’s account they occupy the land of the West Saxons, drive many people overseas and force most of the rest to submit.
 
 @image chippenham-jewel-277b7b
 
-Alfred escapes with a small band into the woods and the moors of Somerset. At Easter he builds a fort at Athelney, an island in the marshes, and from there fights the Danes with the men of Somerset nearest to it. The story of Alfred burning a peasant woman’s cakes is first written down about a century after his death.
+Alfred escapes with a small band into the woods and the moors of Somerset. At Easter he builds a fort at [Athelney](@athelney-878), an island in the marshes, and from there fights the Danes with the men of Somerset nearest to it. The story of Alfred burning a peasant woman’s cakes is first written down about a century after his death.
 
 @image chippenham-athelney-2a5f03
 

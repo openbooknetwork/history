@@ -2,4 +2,4 @@
 
 @image talavera-victor-06d671
 
-O gece Victor, Medellín’i baskınla almak için Ruffin’in tümenini gönderir. Üç alaydan ikisi karanlıkta yolunu kaybeder, ama 9. Hafif Alay Kral’ın Alman Lejyonu’ndan Löw’ün tugayını bozguna uğratıp tepeye ulaşır. General Hill, Richard Stewart’ın tugayını tepeye sürer ve Fransızları geri atar. İngilizler 27 Temmuz’da yaklaşık 800 kişi kaybeder.
+O gece Victor, [Medellín’i](@talavera-night-medellin) baskınla almak için Ruffin’in tümenini gönderir. Üç alaydan ikisi karanlıkta yolunu kaybeder, ama [9. Hafif Alay](@talavera-night-ninth) Kral’ın Alman Lejyonu’ndan Löw’ün tugayını bozguna uğratıp tepeye ulaşır. General [Hill](@talavera-night-hill), Richard Stewart’ın tugayını tepeye sürer ve Fransızları geri atar. İngilizler 27 Temmuz’da yaklaşık 800 kişi kaybeder.

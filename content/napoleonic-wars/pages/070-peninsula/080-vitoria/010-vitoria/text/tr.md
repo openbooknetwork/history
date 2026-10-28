@@ -1,4 +1,4 @@
-Salamanca’dan sonra Kral Joseph Madrid’den ayrılır, Wellington 12 Ağustos 1812’de kente girer, Soult da Endülüs’ü ve Cádiz kuşatmasını bırakır. Wellington 19 Eylül’den itibaren Burgos kalesini kuşatır ama alamaz. 21 Ekim’de birleşen Fransız orduları karşısında Salamanca üzerinden Ciudad Rodrigo’ya çekilir ve yolda birkaç bin asker kaybeder.
+Salamanca’dan sonra Kral Joseph Madrid’den ayrılır, Wellington 12 Ağustos 1812’de kente girer, Soult da Endülüs’ü ve Cádiz kuşatmasını bırakır. Wellington 19 Eylül’den itibaren [Burgos](@vitoria-burgos) kalesini kuşatır ama alamaz. 21 Ekim’de birleşen Fransız orduları karşısında Salamanca üzerinden Ciudad Rodrigo’ya çekilir ve yolda birkaç bin asker kaybeder.
 
 @image vitoria-wellington-fd26dc
 

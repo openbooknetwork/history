@@ -1,4 +1,4 @@
-1386’da Murad büyük bir orduyla Lazar’ın üzerine yürür, Şehirköy’ü (Pirot) ve Niş’i alarak Bulgaristan ile Sırbistan’ın arasına girer. Lazar kısa süre sonra Osmanlı üstünlüğünü tanımış olabilir.
+1386’da Murad büyük bir orduyla Lazar’ın üzerine yürür, [Şehirköy’ü](@pirot-1386) (Pirot) ve [Niş’i](@nis-1386) alarak Bulgaristan ile Sırbistan’ın arasına girer. Lazar kısa süre sonra Osmanlı üstünlüğünü tanımış olabilir.
 
 @image pirot-fortress-589b1c
 

@@ -2,4 +2,4 @@ Gün batımından bir saat kadar önce haçlılar borular çalarak saldırır, i
 
 @image vitkov-liebscher-3eb327
 
-Žižka çarpışma sırasında tahkimatlara gelir. Eski Çek Yıllıkları haçlıların onu bir hendeğe yuvarladığını anlatır, Březová’lı Vavřinec de adamları onu savaş dövenleriyle düşmanın elinden kurtarmasa öldürüleceğini yazar. Dar boyunda haçlılar duvara aynı anda ancak birkaç adam sürebilir.
+[Žižka](@vitkov-assault-zizka) çarpışma sırasında tahkimatlara gelir. Eski Çek Yıllıkları haçlıların onu bir hendeğe yuvarladığını anlatır, Březová’lı Vavřinec de adamları onu savaş dövenleriyle düşmanın elinden kurtarmasa öldürüleceğini yazar. Dar boyunda haçlılar duvara aynı anda ancak birkaç adam sürebilir.

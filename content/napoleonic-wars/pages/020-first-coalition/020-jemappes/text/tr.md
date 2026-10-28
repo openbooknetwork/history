@@ -1,4 +1,4 @@
-Valmy’den sonra Fransız orduları taarruza geçer. Savoya’yı ve Nice’i işgal ederler, ekimde General Adam Philippe de Custine Ren üzerindeki Speyer, Worms ve Mainz’ı alır ve Frankfurt’a ulaşır. Dumouriez önce Avusturyalıların kuşattığı Lille’i kurtarır, 27 Ekim’de de Avusturya Hollandası’na girer. Ordusunun büyük bölümünü Valenciennes önünde toplar ve Mons ile Brüksel yolu üzerine yürür.
+Valmy’den sonra Fransız orduları taarruza geçer. Savoya’yı ve Nice’i işgal ederler, ekimde General Adam Philippe de Custine Ren üzerindeki Speyer, Worms ve [Mainz’ı](@jemappes-mainz) alır ve Frankfurt’a ulaşır. Dumouriez önce Avusturyalıların kuşattığı Lille’i kurtarır, 27 Ekim’de de Avusturya Hollandası’na girer. Ordusunun büyük bölümünü Valenciennes önünde toplar ve Mons ile [Brüksel](@jemappes-brussels) yolu üzerine yürür.
 
 @image jemappes-boussu-e51033
 
@@ -6,4 +6,4 @@ Avusturya Hollandası valisi Saksonya-Teschen Dükü Albert, Mons’un batısın
 
 @image jemappes-vernet-437a1f
 
-Fransızlar yaklaşık 650 ölü ve 1.300 yaralı bildirir. Avusturyalılar 305 ölü ve 513 yaralı bildirir, ayrıca 423 askerleri esir düşer ve beş topları ele geçirilir. Mons ertesi gün kapılarını açar, Dumouriez 14 Kasım’da Brüksel’e girer, Namur da on bir günlük kuşatmanın ardından 2 Aralık’ta düşer. Kış geldiğinde bütün Avusturya Hollandası Fransızların elindedir.
+Fransızlar yaklaşık 650 ölü ve 1.300 yaralı bildirir. Avusturyalılar 305 ölü ve 513 yaralı bildirir, ayrıca 423 askerleri esir düşer ve beş topları ele geçirilir. Mons ertesi gün kapılarını açar, Dumouriez 14 Kasım’da Brüksel’e girer, [Namur](@jemappes-namur) da on bir günlük kuşatmanın ardından 2 Aralık’ta düşer. Kış geldiğinde bütün Avusturya Hollandası Fransızların elindedir.

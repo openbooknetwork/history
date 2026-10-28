@@ -1,4 +1,4 @@
-Babası ve amcası MÖ 211’de öldükten sonra, sonradan Africanus diye anılacak Publius Cornelius Scipio MÖ 210’un sonlarında Tarraco’ya çıkar ve İberya’daki bütün Roma kuvvetlerinin komutasını alır. Yirmili yaşlarının ortasındadır ve daha önce hiçbir üst görevde bulunmamıştır. 28.000 piyadesi ve 3.000 süvarisi vardır. Her biri onunki kadar büyük üç Kartaca ordusu birbirinden uzakta durur: Hasdrubal Barka’nınki İberya’nın ortasında, Mago’nunki Gades yakınında, Hasdrubal Giskon’unki Lusitanya’da.
+Babası ve amcası MÖ 211’de öldükten sonra, sonradan Africanus diye anılacak Publius Cornelius Scipio MÖ 210’un sonlarında [Tarraco’ya](@tarraco-210) çıkar ve İberya’daki bütün Roma kuvvetlerinin komutasını alır. Yirmili yaşlarının ortasındadır ve daha önce hiçbir üst görevde bulunmamıştır. 28.000 piyadesi ve 3.000 süvarisi vardır. Her biri onunki kadar büyük üç Kartaca ordusu birbirinden uzakta durur: [Hasdrubal Barka’nınki](@new-carthage-hasdrubal) İberya’nın ortasında, [Mago’nunki](@new-carthage-mago) Gades yakınında, [Hasdrubal Giskon’unki](@new-carthage-gisco) Lusitanya’da.
 
 @image scipio-africanus-bust-359b53
 

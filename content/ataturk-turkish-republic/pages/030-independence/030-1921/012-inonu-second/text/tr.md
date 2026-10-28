@@ -1,4 +1,4 @@
-İkinci Yunan taarruzu 23 Mart’ta başlar: III. Kolordu Bursa’dan, I. Kolordu Uşak’tan ilerler. Kuzeyde Batı Cephesi dört gün boyunca geciktirme muharebesi verir. Yunanlılar İnönü’ye ulaşır ve 27 Mart’ta Metristepe’yi alır, Türklerin o gece yaptığı karşı saldırı başarısız olur. Güneyde I. Kolordu Dumlupınar mevzilerini aşar ve 24 Mart’ta Afyon’u alır.
+İkinci Yunan taarruzu 23 Mart’ta başlar: III. Kolordu Bursa’dan, I. Kolordu Uşak’tan ilerler. Kuzeyde Batı Cephesi dört gün boyunca geciktirme muharebesi verir. Yunanlılar [İnönü’ye](@inonu) ulaşır ve 27 Mart’ta [Metristepe’yi](@inonu-second-metristepe) alır, Türklerin o gece yaptığı karşı saldırı başarısız olur. Güneyde I. Kolordu Dumlupınar mevzilerini aşar ve 24 Mart’ta Afyon’u alır.
 
 @image inonu-second-inspection-b7635f
 

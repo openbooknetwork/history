@@ -1,4 +1,4 @@
-On the morning of 30 August Trikoupis's group reaches Çalköy and comes under Turkish artillery fire. By 11.00 it has 7,000 infantry fit to fight, with another 10,000 to 15,000 men disorganised and largely unarmed. Trikoupis turns west for Alıören and Banaz, but at 13.30 the road is blocked by the Turkish 14th Cavalry Division.
+On the morning of 30 August Trikoupis's group reaches [Çalköy](@dumlupinar-alioren-calkoy) and comes under Turkish artillery fire. By 11.00 it has 7,000 infantry fit to fight, with another 10,000 to 15,000 men disorganised and largely unarmed. Trikoupis turns west for [Alıören](@dumlupinar-alioren-alioren) and Banaz, but at 13.30 the road is blocked by the Turkish 14th Cavalry Division.
 
 @image dumlupinar-relief-d08fbc
 

@@ -1,4 +1,4 @@
-Kralın ölümü Prag’da ayaklanmalara yol açar. 17 Ağustos 1419’da kalabalıklar Kartuziyenlerin Meryem Ana Bahçesi manastırını yakar, Katolikler kovulur ve kiliselerden tasvirler sökülür. Kraliçe Sophia ve en yüksek burgrav Vartenberkli Čeněk, Sigismund adına yönetir ve Prag Kalesi’ni ve kalenin altındaki Küçük Şehir’i askerle tutar. 25 Ekim’de Bezdědiceli Jan Řitka, Vyšehrad kalesini çarpışmadan Yeni Şehir’e teslim eder.
+Kralın ölümü Prag’da ayaklanmalara yol açar. 17 Ağustos 1419’da kalabalıklar Kartuziyenlerin Meryem Ana Bahçesi manastırını yakar, Katolikler kovulur ve kiliselerden tasvirler sökülür. Kraliçe Sophia ve en yüksek burgrav Vartenberkli Čeněk, Sigismund adına yönetir ve [Prag Kalesi’ni](@prague-castle-1419) ve kalenin altındaki [Küçük Şehir’i](@lesser-town-1419) askerle tutar. 25 Ekim’de Bezdědiceli Jan Řitka, [Vyšehrad](@vysehrad-1419) kalesini çarpışmadan Yeni Şehir’e teslim eder.
 
 @image queen-sophia-3680d2
 

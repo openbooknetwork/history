@@ -1,4 +1,4 @@
-Mikuláš Krchlebec of Krchleby, burgrave of Zvíkov, leads the league’s vanguard on foot towards the field armies’ fort. It fires its four guns at the front of the fort, halts as if in confusion and draws the fire of all the field armies’ guns. Then it turns and falls back towards its own wagons as if beaten.
+[Mikuláš Krchlebec](@lipany-feint-krchlebec) of Krchleby, burgrave of Zvíkov, leads the league’s vanguard on foot towards the field armies’ fort. It fires its four guns at the front of the fort, halts as if in confusion and draws the fire of all the field armies’ guns. Then it turns and falls back towards its own wagons as if beaten.
 
 @image lipany-krchlebec-16b233
 

@@ -6,8 +6,8 @@ Vestfold’da küçük bir kral olan Harald Grenske’nin oğlu Olaf Haraldsson 
 
 @image olaf-haraldsson-munthe-66fc69
 
-Cnut İngiltere’yle uğraşırken Olaf ve İsveç kralı Anund Jacob Danimarka’ya saldırır, 1026’da da Kutsal Irmak, yani Helgeå’da Cnut’un filosuyla karşılaşırlar. Sagalara göre ırmağı bentle kapatıp suyu Danimarka gemilerinin üzerine salıverirler, ama Cnut’un daha büyük filosu denize hâkim kalır ve iki kral geri çekilir. Anglo-Sakson Kroniği muharebeyi 1025’e tarihler ve meydanı İsveçlilere verir, muharebenin yeri ise Skåne mi Uppland mı olduğu tartışmalıdır.
+Cnut İngiltere’yle uğraşırken Olaf ve İsveç kralı Anund Jacob Danimarka’ya saldırır, 1026’da da Kutsal Irmak, yani [Helgeå’da](@helgea-1026) Cnut’un filosuyla karşılaşırlar. Sagalara göre ırmağı bentle kapatıp suyu Danimarka gemilerinin üzerine salıverirler, ama Cnut’un daha büyük filosu denize hâkim kalır ve iki kral geri çekilir. Anglo-Sakson Kroniği muharebeyi 1025’e tarihler ve meydanı İsveçlilere verir, muharebenin yeri ise Skåne mi Uppland mı olduğu tartışmalıdır.
 
 @image olaf-haraldsson-statue-776736
 
-1028’de Cnut 50 gemiyle İngiltere’den yola çıkar. Çoğu rüşvetle kazanılan Norveç soyluları onun tarafına geçer ve Cnut Nidaros’ta kral ilan edilir. Olaf ailesiyle birlikte Eidskog üzerinden İsveç’e kaçar, kışı Närke’de geçirir, Anund Jacob’un Sigtuna’da kendisi için bıraktığı gemiye biner ve Staraya Ladoga üzerinden Novgorod’a ulaşır.
+1028’de Cnut 50 gemiyle İngiltere’den yola çıkar. Çoğu rüşvetle kazanılan Norveç soyluları onun tarafına geçer ve Cnut [Nidaros’ta](@nidaros-1028) kral ilan edilir. Olaf ailesiyle birlikte Eidskog üzerinden İsveç’e kaçar, kışı [Närke’de](@narke-1028) geçirir, Anund Jacob’un [Sigtuna’da](@sigtuna-1029) kendisi için bıraktığı gemiye biner ve [Staraya Ladoga](@staraya-ladoga-1029) üzerinden [Novgorod’a](@novgorod-1029) ulaşır.

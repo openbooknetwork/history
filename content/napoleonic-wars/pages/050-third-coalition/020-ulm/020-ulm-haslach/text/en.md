@@ -1,4 +1,4 @@
-On 11 October Murat, who commands the corps of Ney and Lannes before Ulm, orders Ney to bring his corps over to the south bank of the Danube. Ney protests and is overruled. Only Pierre Dupont’s division, 4,000 to 6,000 men with some cavalry, stays on the north bank near Albeck. That day Mack and Schwarzenberg march out of Ulm along the north bank with about 25,000 men.
+On 11 October Murat, who commands the corps of [Ney](@ulm-haslach-ney) and Lannes before [Ulm](@ulm-haslach-ulm), orders Ney to bring his corps over to the south bank of the Danube. Ney protests and is overruled. Only Pierre [Dupont’s](@ulm-haslach-dupont) division, 4,000 to 6,000 men with some cavalry, stays on the north bank near [Albeck](@ulm-haslach-albeck). That day [Mack](@ulm-haslach-mack) and Schwarzenberg march out of Ulm along the north bank with about 25,000 men.
 
 @image ulm-haslach-dupont-72be0f
 

@@ -1,4 +1,4 @@
-Eugène crosses the Kolocha and advances on the great redoubt with the divisions of Jean-Baptiste Broussier and Charles-Antoine Morand. Charles Auguste Bonnamy’s brigade breaks into the redoubt, and Barclay has to rally Ivan Paskevich’s routed regiment in person. Aleksey Yermolov brings up three batteries of horse artillery and fresh infantry, and the Russians retake the redoubt with the bayonet.
+[Eugène](@borodino-noon-eugene) crosses the Kolocha and advances on the great redoubt with the divisions of Jean-Baptiste Broussier and Charles-Antoine Morand. Charles Auguste Bonnamy’s brigade breaks into the redoubt, and Barclay has to rally Ivan Paskevich’s routed regiment in person. Aleksey [Yermolov](@borodino-noon-yermolov) brings up three batteries of horse artillery and fresh infantry, and the Russians retake the redoubt with the bayonet.
 
 @image borodino-raevsky-battery-434c07
 

@@ -2,7 +2,7 @@ Bonaparte takes command of the Army of Italy at Nice in late March 1796. On pape
 
 @image italy-1796-detaille-730ad4
 
-Beaulieu moves first and attacks the French right at Voltri on 10 April. Bonaparte answers by striking the boundary between the allies. He defeats the Austrians under Argenteau at Montenotte on 12 April, Provera at Millesimo on 13 April and Argenteau again at Dego on 14 and 15 April, then turns west against the Sardinians and beats Colli at Mondovì on 21 April. Under the armistice of Cherasco, signed on 28 April, Sardinia leaves the war and hands over the fortresses of Cuneo, Ceva and Tortona.
+Beaulieu moves first and attacks the French right at Voltri on 10 April. Bonaparte answers by striking the boundary between the allies. He defeats the Austrians under Argenteau at [Montenotte](@italy-1796-montenotte) on 12 April, Provera at Millesimo on 13 April and Argenteau again at Dego on 14 and 15 April, then turns west against the Sardinians and beats Colli at [Mondovì](@italy-1796-mondovi) on 21 April. Under the armistice of [Cherasco](@italy-1796-cherasco), signed on 28 April, Sardinia leaves the war and hands over the fortresses of Cuneo, Ceva and Tortona.
 
 @image italy-1796-cherasco-6f7c49
 
@@ -10,4 +10,4 @@ Bonaparte crosses the Po at Piacenza and on 10 May catches the Austrian rearguar
 
 @image lodi-lejeune-1a059e
 
-The Austrians lose 335 killed and wounded, 1,700 captured and 16 guns, the French at least 350. The main Austrian army escapes east, but the way to Milan is open, and the French enter the city five days later.
+The Austrians lose 335 killed and wounded, 1,700 captured and 16 guns, the French at least 350. The main Austrian army escapes east, but the way to [Milan](@italy-1796-milan) is open, and the French enter the city five days later.

@@ -6,6 +6,6 @@ In 1699 an expedition from Santiago de los Caballeros de Guatemala reinforces th
 
 @image after-nojpeten-church-6762e9
 
-In 1703 Petén passes from Yucatán to the Audiencia of Guatemala, at Ursúa’s request, because the road from Yucatán has fallen into disrepair. Missions founded in 1702 and 1703 at San José and San Andrés on the lake gather the surviving Itza and Kowoj. In 1704 their leaders rebel and almost retake the island, but the revolt is crushed and its leaders executed.
+In 1703 Petén passes from Yucatán to the Audiencia of Guatemala, at Ursúa’s request, because the road from Yucatán has fallen into disrepair. Missions founded in 1702 and 1703 at [San José](@san-jose-1702) and San Andrés on the lake gather the surviving Itza and Kowoj. In 1704 their leaders rebel and almost retake the island, but the revolt is crushed and its leaders executed.
 
 Estimates for 1697 range from 20,000 to 60,000 Maya around the lake. By 1708, after disease and war, about 6,000 remain in central Petén. San José on the north shore is home to the last speakers of the Itza language today.

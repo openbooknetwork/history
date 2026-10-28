@@ -1,4 +1,4 @@
-On the afternoon of 14 July several thousand crusader horse cross the Vltava to the Spital field, while Sigismund waits on the far bank with three large bodies of horse to see the outcome. The men of Meissen and the Austrians under Heinrich of Isenburg, captain of Meissen, ride up onto the hill and along the ridge towards the works.
+On the afternoon of 14 July several thousand crusader horse cross the Vltava to the [Spital field](@vitkov-works-spital), while Sigismund waits on the far bank with three large bodies of horse to see the outcome. The men of Meissen and the Austrians under [Heinrich of Isenburg](@vitkov-works-isenburg), captain of Meissen, ride up onto the hill and along the ridge towards the works.
 
 @image vitkov-karlin-view-801e48
 

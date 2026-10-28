@@ -1,10 +1,10 @@
-On 25 January 1800 Bonaparte orders Berthier to assemble a Reserve Army of 60,000 men at Dijon, while Moreau is to attack in Germany. In Italy the Austrian commander Michael von Melas advances against the Army of Italy in April and splits it in two. From 19 April he shuts Masséna with 12,000 men in Genoa, besieged on land by 24,000 Austrians under Peter Karl Ott and at sea by a British squadron under Lord Keith.
+On 25 January 1800 Bonaparte orders Berthier to assemble a Reserve Army of 60,000 men at Dijon, while Moreau is to attack in Germany. In Italy the Austrian commander Michael von Melas advances against the Army of Italy in April and splits it in two. From 19 April he shuts Masséna with 12,000 men in [Genoa](@marengo-genoa), besieged on land by 24,000 Austrians under Peter Karl Ott and at sea by a British squadron under Lord Keith.
 
-Instead of marching to Genoa along the coast, Bonaparte leads the Reserve Army over the Alps into the Austrian rear. From 15 May about 40,000 men cross the Great St Bernard from Martigny to Aosta, carrying their equipment in packs and dragging the guns over the snow in hollowed tree trunks, while about 20,000 more cross by other passes. In the Aosta valley the Austrian fort at Bard holds out for two weeks, and the army files past it out of range of its guns.
+Instead of marching to Genoa along the coast, Bonaparte leads the Reserve Army over the Alps into the Austrian rear. From 15 May about 40,000 men cross the [Great St Bernard](@marengo-st-bernard) from Martigny to Aosta, carrying their equipment in packs and dragging the guns over the snow in hollowed tree trunks, while about 20,000 more cross by other passes. In the Aosta valley the Austrian fort at Bard holds out for two weeks, and the army files past it out of range of its guns.
 
 @image marengo-david-8831e5
 
-The French enter Milan on 2 June and cross the Po to block the main Austrian road to the east at Stradella. Genoa surrenders on 4 June, its people and garrison starving, which frees Ott’s corps, but on 9 June Lannes defeats Ott at Montebello. Melas gathers his army at Alessandria.
+The French enter [Milan](@marengo-milan) on 2 June and cross the Po to block the main Austrian road to the east at Stradella. Genoa surrenders on 4 June, its people and garrison starving, which frees Ott’s corps, but on 9 June Lannes defeats Ott at [Montebello](@marengo-montebello). Melas gathers his army at Alessandria.
 
 @image marengo-fort-bard-4c2ce3
 

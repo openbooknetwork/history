@@ -1,4 +1,4 @@
-Caracol, bugünkü Belize’de Vaca Platosu üzerinde, Tikal’in 76 km güneydoğusundadır ve başlangıçta bu büyük kente bağlıdır. Caracol’daki Sunak 21, Yajaw Te' K'inich II’nin MS 553 Nisan’ında Tikal kralı Wak Chan K'awiil’in onayıyla tahta çıktığını kaydeder. 556’da Tikal bir "balta" savaşında Caracol’u yener. Bunun üzerine Caracol taraf değiştirir ve Dzibanche’deki Kaanul kralının egemenliğini tanır.
+[Caracol](@caracol-562), bugünkü Belize’de Vaca Platosu üzerinde, Tikal’in 76 km güneydoğusundadır ve başlangıçta bu büyük kente bağlıdır. Caracol’daki Sunak 21, Yajaw Te' K'inich II’nin MS 553 Nisan’ında Tikal kralı Wak Chan K'awiil’in onayıyla tahta çıktığını kaydeder. 556’da Tikal bir "balta" savaşında Caracol’u yener. Bunun üzerine Caracol taraf değiştirir ve [Dzibanche’deki](@dzibanche-562) Kaanul kralının egemenliğini tanır.
 
 @image caracol-caana-57062a
 

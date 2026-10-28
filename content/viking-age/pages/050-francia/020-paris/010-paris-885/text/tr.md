@@ -1,4 +1,4 @@
-885 yazında Dan toplulukları Sigfrid ile Sinric’in önderliğinde Rouen’da toplanır. Sigfrid, 884’ten beri imparator ve Batı Frankya kralı olan Şişman Karl’dan para ister ve geri çevrilir. Filo Seine’i kürekle yukarı çıkar, Pont-de-l’Arche’taki tahkimli köprüyü geçer ve 24 Kasım’da Paris’e varır. Kuşatma boyunca kentin içinde bulunan Saint-Germain-des-Prés keşişi Abbo, 700 gemi ile 30.000 ila 40.000 kişiden söz eder. Günümüz tarihçileri filoyu yaklaşık 300 gemi olarak hesaplar.
+885 yazında Dan toplulukları Sigfrid ile Sinric’in önderliğinde [Rouen’da](@rouen-885) toplanır. Sigfrid, 884’ten beri imparator ve Batı Frankya kralı olan Şişman Karl’dan para ister ve geri çevrilir. Filo Seine’i kürekle yukarı çıkar, Pont-de-l’Arche’taki tahkimli köprüyü geçer ve 24 Kasım’da Paris’e varır. Kuşatma boyunca kentin içinde bulunan Saint-Germain-des-Prés keşişi Abbo, 700 gemi ile 30.000 ila 40.000 kişiden söz eder. Günümüz tarihçileri filoyu yaklaşık 300 gemi olarak hesaplar.
 
 @image paris-885-schnetz-8e4f7a
 
@@ -8,6 +8,6 @@ Kuşatma kış boyunca sürer. Şubat 886’da Frankonyalı Heinrich Doğu Frank
 
 @image paris-885-odo-returns-ca77c9
 
-Şişman Karl Ekim 886’da imparatorluk ordusuyla gelir ve Montmartre’da ordugâh kurar. Savaşmak yerine pazarlık eder: Danlara 887 baharında ödenecek 700 pound gümüş sözü verir ve kışı kendisine karşı ayaklanmış olan Burgonya’da geçirmelerine izin verir. Parisliler köprülerin altından geçmelerine izin vermeyince Danlar gemilerini karadan Marne’a sürükler, Seine ve Yonne boyunca yukarı çıkar ve Sens’i kuşatma altına alır. Karl’ın 888’deki ölümünden sonra Batı Frank soyluları Odo’yu kral seçer.
+Şişman Karl Ekim 886’da imparatorluk ordusuyla gelir ve Montmartre’da ordugâh kurar. Savaşmak yerine pazarlık eder: Danlara 887 baharında ödenecek 700 pound gümüş sözü verir ve kışı kendisine karşı ayaklanmış olan Burgonya’da geçirmelerine izin verir. Parisliler köprülerin altından geçmelerine izin vermeyince Danlar gemilerini karadan Marne’a sürükler, Seine ve Yonne boyunca yukarı çıkar ve [Sens’i](@sens-886) kuşatma altına alır. Karl’ın 888’deki ölümünden sonra Batı Frank soyluları Odo’yu kral seçer.
 
 @image paris-885-charles-20d404

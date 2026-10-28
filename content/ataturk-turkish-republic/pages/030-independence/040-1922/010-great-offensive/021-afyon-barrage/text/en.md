@@ -1,4 +1,4 @@
-Mustafa Kemal has massed the First Army under Nurettin Pasha against the southern face of the Greek salient around Afyon, a gamble that leaves his right weak. The Western Front's headquarters is on Kocatepe, 15 km south of the city. In the night of 25 to 26 August the V Cavalry Corps under Fahrettin Pasha passes through the Kırka gorge behind the Greek line, and by 18.00 on 26 August it has cut the railway and the telegraph between Afyon and İzmir.
+[Mustafa Kemal](@afyon-barrage-kemal) has massed the First Army under [Nurettin Pasha](@afyon-barrage-nurettin) against the southern face of the Greek salient around [Afyon](@afyon-barrage-afyon), a gamble that leaves his right weak. The Western Front's headquarters is on Kocatepe, 15 km south of the city. In the night of 25 to 26 August the V Cavalry Corps under Fahrettin Pasha passes through the Kırka gorge behind the Greek line, and by 18.00 on 26 August it has cut the railway and the telegraph between Afyon and İzmir.
 
 @image kocatepe-dawn-1922-e75a6a
 

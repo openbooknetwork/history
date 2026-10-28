@@ -1,4 +1,4 @@
-In 1029 Haakon Eiriksson, Cnut’s jarl in Norway, is lost at sea, and Olaf Haraldsson sets out from Rus’ to win back his kingdom, leaving his young son Magnus in Rus’. Anund Jacob of Sweden gives him 400 men and guides through Dalarna, and the exile Dagr Hringsson joins him. Olaf gathers his army in Jämtland and crosses the mountains into Verdalen, about 80 km north of Trondheim.
+In 1029 Haakon Eiriksson, Cnut’s jarl in Norway, is lost at sea, and Olaf Haraldsson sets out from Rus’ to win back his kingdom, leaving his young son Magnus in Rus’. Anund Jacob of Sweden gives him 400 men and guides through Dalarna, and the exile Dagr Hringsson joins him. Olaf gathers his army in [Jämtland](@jamtland-1030) and crosses the mountains into Verdalen, about 80 km north of Trondheim.
 
 @image stiklestad-altar-492d3c
 

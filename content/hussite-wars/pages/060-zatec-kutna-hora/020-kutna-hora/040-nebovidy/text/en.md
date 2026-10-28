@@ -1,4 +1,4 @@
-At Kolín Žižka gathers more men, many of them from the country round Jičín and Turnov. The royal army, which takes the breakout for a victory, lies scattered for the winter in the villages round Kutná Hora and burns the farms and villages there. On 6 January 1422 Žižka marches out of Kolín and falls on it at the village of Nebovidy, 6 to 7 km from the town.
+At Kolín Žižka gathers more men, many of them from the country round Jičín and Turnov. The royal army, which takes the breakout for a victory, lies scattered for the winter in the villages round Kutná Hora and burns the farms and villages there. On 6 January 1422 Žižka marches out of Kolín and falls on it at the village of [Nebovidy](@nebovidy-village), 6 to 7 km from the town.
 
 @image nebovidy-church-221c16
 

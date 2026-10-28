@@ -1,4 +1,4 @@
-MÖ 240 sonunda ya da MÖ 239 başında Sardinya’daki Kartaca garnizonları Paralı Asker Savaşı’na katılır. Subaylarını ve valiyi öldürürler, adayı geri almak için gönderilen kuvvet de ayaklanır ve adadaki bütün Kartacalıları öldürür. İsyancılar Roma’dan koruma ister, Roma reddeder. Kartaca, Sardinya’nın bazı kısımlarını yaklaşık üç yüz yıldır elinde tutmaktadır.
+MÖ 240 sonunda ya da MÖ 239 başında Sardinya’daki [Kartaca](@carthage-238) garnizonları Paralı Asker Savaşı’na katılır. Subaylarını ve valiyi öldürürler, adayı geri almak için gönderilen kuvvet de ayaklanır ve adadaki bütün Kartacalıları öldürür. İsyancılar [Roma’dan](@rome-238) koruma ister, Roma reddeder. Kartaca, Sardinya’nın bazı kısımlarını yaklaşık üç yüz yıldır elinde tutmaktadır.
 
 @image sardinia-tharros-1ceade
 

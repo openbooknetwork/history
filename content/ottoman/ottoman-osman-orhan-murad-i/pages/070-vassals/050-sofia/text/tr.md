@@ -2,8 +2,8 @@
 
 @image sofia-serdica-walls-4938f4
 
-Osmanlı kronikleri bu yıllarda İştip’in ve Manastır’ın (Bitola) alınmasını Kara Timurtaş Paşa’ya bağlar, ancak bazı anlatımlara göre Manastır 1370’lerin başında bir kuşatmadan sonra zaten düşmüştür. Sofya, Osmanlılara batıda Niş’e giden yolu açar. Niş, Vardar ve Morava vadileri boyunca uzanan yolun kuzey ucudur.
+Osmanlı kronikleri bu yıllarda [İştip’in](@stip-1382) ve [Manastır’ın](@bitola-1382) (Bitola) alınmasını Kara Timurtaş Paşa’ya bağlar, ancak bazı anlatımlara göre Manastır 1370’lerin başında bir kuşatmadan sonra zaten düşmüştür. Sofya, Osmanlılara batıda [Niş’e](@nis) giden yolu açar. Niş, Vardar ve Morava vadileri boyunca uzanan yolun kuzey ucudur.
 
 @image stip-isar-fortress-d660ec
 
-1384’ten 1386’ya kadar Şişman, Eflak Voyvodası I. Dan ile savaşır, baba bir ağabeyi Vidinli İvan Sratsimir de Eflaklıların yanında yer alır.
+1384’ten 1386’ya kadar Şişman, Eflak Voyvodası I. Dan ile savaşır, baba bir ağabeyi [Vidinli](@vidin-1369) İvan Sratsimir de Eflaklıların yanında yer alır.

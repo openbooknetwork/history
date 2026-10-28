@@ -1,4 +1,4 @@
-Roma ordusunun büyük kısmı hasat zamanı tarlalara dağılmışken Hannibal Gisco güçlü bir çıkış yapar. Kartacalılar silahsız yiyecek toplayıcılarını gafil avlar ve Roma kampına girer, ama Romalılar toparlanıp onları geri püskürtür. Bundan sonra iki taraf da daha dikkatli davranır.
+Roma ordusunun büyük kısmı hasat zamanı tarlalara dağılmışken [Hannibal Gisco](@agrigentum-siege-garrison) güçlü bir çıkış yapar. Kartacalılar silahsız yiyecek toplayıcılarını gafil avlar ve [Roma kampına](@agrigentum-siege-south) girer, ama Romalılar toparlanıp onları geri püskürtür. Bundan sonra iki taraf da daha dikkatli davranır.
 
 @image agrigentum-plan-8baaa2
 

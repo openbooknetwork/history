@@ -1,4 +1,4 @@
-On 13 November 1419 Prague and the royal party agree a truce, and the Praguers give Vyšehrad back to the royal garrison. Jan Žižka, Břeněk Švihovský, the brothers Chval and Kuneš of Machovice and Valkoun of Adlar reject the truce and leave Prague for Plzeň. Plzeň is one of the richest towns of the kingdom, and its Hussites have been led since 1414 by the priest Václav Koranda. Žižka most likely commands their armed men.
+On 13 November 1419 Prague and the royal party agree a truce, and the Praguers give Vyšehrad back to the royal garrison. Jan Žižka, Břeněk Švihovský, the brothers Chval and Kuneš of Machovice and Valkoun of Adlar reject the truce and leave Prague for [Plzeň](@plzen-1419). Plzeň is one of the richest towns of the kingdom, and its Hussites have been led since 1414 by the priest Václav Koranda. Žižka most likely commands their armed men.
 
 @image zizka-jena-codex-d626c6
 

@@ -4,6 +4,6 @@ Papa XXIII. Ioannes 1412’de Napoli Kralı Ladislaus’a karşı açtığı ha�
 
 @image jena-codex-indulgences-63eb4b
 
-Ekim 1412’de papa, Hus’un bulunduğu her yere ayin yasağı koyar, Hus da Prag’dan ayrılıp kırsala çekilir. Nisan 1413’ten itibaren Güney Bohemya’da önce Kozí Hrádek’te, sonra Sezimovo Ústí’de yaşar, köylerde, tarlalarda ve ormanlarda vaaz verir ve Kilise Üzerine adlı kitabını yazar. Temmuz 1414’te Prag’ın batısındaki Krakovec kalesine, Lažanylı Jindřich Lefl’in malikânesine taşınır.
+Ekim 1412’de papa, Hus’un bulunduğu her yere ayin yasağı koyar, Hus da [Prag’dan](@prague-1412) ayrılıp kırsala çekilir. Nisan 1413’ten itibaren Güney Bohemya’da önce [Kozí Hrádek’te](@kozi-hradek-1412), sonra Sezimovo Ústí’de yaşar, köylerde, tarlalarda ve ormanlarda vaaz verir ve Kilise Üzerine adlı kitabını yazar. Temmuz 1414’te Prag’ın batısındaki [Krakovec](@krakovec-1414) kalesine, Lažanylı Jindřich Lefl’in malikânesine taşınır.
 
 @image kozi-hradek-a56bdd

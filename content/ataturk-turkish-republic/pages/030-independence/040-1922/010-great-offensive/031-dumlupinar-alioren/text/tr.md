@@ -1,4 +1,4 @@
-30 Ağustos sabahı Trikupis grubu Çalköy’e ulaşır ve Türk topçusunun ateşi altına girer. Saat 11.00’de grubun savaşabilecek durumda 7.000 piyadesi vardır, 10.000 ile 15.000 arası asker de dağınık ve büyük ölçüde silahsızdır. Trikupis batıya, Alıören ve Banaz’a döner, ama saat 13.30’da yol Türk 14. Süvari Tümeni tarafından kesilir.
+30 Ağustos sabahı Trikupis grubu [Çalköy’e](@dumlupinar-alioren-calkoy) ulaşır ve Türk topçusunun ateşi altına girer. Saat 11.00’de grubun savaşabilecek durumda 7.000 piyadesi vardır, 10.000 ile 15.000 arası asker de dağınık ve büyük ölçüde silahsızdır. Trikupis batıya, [Alıören](@dumlupinar-alioren-alioren) ve Banaz’a döner, ama saat 13.30’da yol Türk 14. Süvari Tümeni tarafından kesilir.
 
 @image dumlupinar-relief-d08fbc
 

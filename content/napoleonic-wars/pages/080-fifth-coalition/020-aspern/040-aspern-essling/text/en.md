@@ -1,4 +1,4 @@
-When Charles learns at about 10 am that the bridge has broken, he orders a new attack along the whole line. Hiller’s and Bellegarde’s columns storm Aspern again, and shortly after 1 pm the exhausted French give up the village for good. At about 2 pm Charles masses about 150 guns against the French centre, where a cannonball shatters Lannes’s leg. He dies of the wound nine days later.
+When Charles learns at about 10 am that the bridge has broken, he orders a new attack along the whole line. Hiller’s and Bellegarde’s columns storm Aspern again, and shortly after 1 pm the exhausted French give up the village for good. At about 2 pm Charles masses about 150 guns against the French centre, where a cannonball shatters [Lannes’s](@aspern-day2-lannes-wounded) leg. He dies of the wound nine days later.
 
 @image aspern-lannes-aba50e
 

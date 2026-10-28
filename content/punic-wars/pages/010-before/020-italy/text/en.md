@@ -1,6 +1,6 @@
-Between 338 and 264 BC Rome conquers the Italian peninsula south of the Arno in almost continuous war. Part of the conquered land becomes Roman territory or is settled with Latin colonies, such as Ariminum in 268 BC. Most defeated peoples keep their land and self-government as allies, the socii, who send troops when Rome calls.
+Between 338 and 264 BC [Rome](@rome-270) conquers the Italian peninsula south of the Arno in almost continuous war. Part of the conquered land becomes Roman territory or is settled with Latin colonies, such as [Ariminum](@ariminum-268) in 268 BC. Most defeated peoples keep their land and self-government as allies, the socii, who send troops when Rome calls.
 
-In 280 BC Tarentum, the largest Greek city of southern Italy, calls in King Pyrrhus of Epirus against Rome. Pyrrhus defeats the Romans at Heraclea in 280 BC and at Asculum in 279 BC, at heavy cost to his own army. He then fights Carthage in Sicily but cannot take Lilybaeum. After a battle at Beneventum in 275 BC he returns to Epirus, and Tarentum surrenders to Rome in 272 BC.
+In 280 BC [Tarentum](@tarentum-272), the largest Greek city of southern Italy, calls in King Pyrrhus of Epirus against Rome. Pyrrhus defeats the Romans at [Heraclea](@italy-heraclea) in 280 BC and at [Asculum](@italy-asculum) in 279 BC, at heavy cost to his own army. He then fights Carthage in Sicily but cannot take Lilybaeum. After a battle at [Beneventum](@beneventum-275) in 275 BC he returns to Epirus, and Tarentum surrenders to Rome in 272 BC.
 
 @image pyrrhus-bust-eb9e15
 

@@ -1,4 +1,4 @@
-The remains of Hanno’s fleet return to Carthage, where Hanno is crucified. A new fleet would take another nine months to fit out, and the cities in Sicily would run out of supplies first, so the Carthaginian Senate orders Hamilcar to make peace. He leaves the talks to Gisco, the commander of Lilybaeum.
+The remains of Hanno’s fleet return to [Carthage](@aegates-peace-carthage), where Hanno is crucified. A new fleet would take another nine months to fit out, and the cities in Sicily would run out of supplies first, so the Carthaginian Senate orders Hamilcar to make peace. He leaves the talks to Gisco, the commander of [Lilybaeum](@lilybaeum-241).
 
 @image aegates-temple-ef5f77
 

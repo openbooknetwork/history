@@ -1,4 +1,4 @@
-Hannibal bunun üzerine kuşatanları Capua’dan uzaklaştırıp açık alanda yenmek umuduyla Roma’ya yürür. Livius’a göre Via Latina’yı izler, kentten üç mil uzakta Anio kıyısında kamp kurar ve 2.000 atlıyla Collina Kapısı’na kadar gelir.
+Hannibal bunun üzerine kuşatanları [Capua’dan](@capua-211) uzaklaştırıp açık alanda yenmek umuduyla [Roma’ya](@rome-211) yürür. Livius’a göre Via Latina’yı izler, kentten üç mil uzakta Anio kıyısında kamp kurar ve 2.000 atlıyla Collina Kapısı’na kadar gelir.
 
 Kuşatanlar Capua’da kalır, ama Livius Fulvius Flaccus’un Roma’yı savunmak için seçkin bir birlik getirdiğini yazar. Kuşatma aracı ve erzakı olmayan Hannibal surlara saldıramaz ve güneye geri döner.
 

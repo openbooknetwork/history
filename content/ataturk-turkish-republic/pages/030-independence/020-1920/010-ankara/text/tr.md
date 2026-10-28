@@ -1,4 +1,4 @@
-Heyet-i Temsiliye 27 Aralık 1919’da Ankara’ya taşınır. İtilaf devletleri 16 Mart 1920’de İstanbul’u resmen işgal eder ve Millî Mücadele yanlısı mebusları tutuklar. Meclis-i Mebusan çalışmalarına son verir ve padişah 11 Nisan’da meclisi fesheder. Büyük Millet Meclisi 23 Nisan 1920’de Ankara’da açılır ve Mustafa Kemal’i başkan seçer.
+Heyet-i Temsiliye 27 Aralık 1919’da [Ankara’ya](@ankara) taşınır. İtilaf devletleri 16 Mart 1920’de [İstanbul’u](@istanbul-1920) resmen işgal eder ve Millî Mücadele yanlısı mebusları tutuklar. Meclis-i Mebusan çalışmalarına son verir ve padişah 11 Nisan’da meclisi fesheder. Büyük Millet Meclisi 23 Nisan 1920’de Ankara’da açılır ve Mustafa Kemal’i başkan seçer.
 
 @image ankara-1920-2ccf6b
 

@@ -1,4 +1,4 @@
-Ney’in görevi, Charleroi’dan Brüksel’e giden yolun Nivelles’den Namur’a giden yolla kesiştiği Quatre Bras kavşağını almak ve Prusyalılara karşı Napolyon’a yardım etmek için doğuya dönmeye hazır olmaktır. Kavşak Fransızların elinde olursa Wellington Namur yolu boyunca ilerleyip Blücher’e katılamaz. 15 Haziran akşamı Saxe-Weimar’ın Nassaulu askerleri Frasnes’da Muhafız mızraklı süvarisini geri çevirir, Ney de piyadesi yol boyunca dağınık olduğu için saldırmak yerine gece için ordugâh kurar.
+Ney’in görevi, Charleroi’dan Brüksel’e giden yolun [Nivelles’den](@quatre-bras-nivelles) Namur’a giden yolla kesiştiği Quatre Bras kavşağını almak ve Prusyalılara karşı Napolyon’a yardım etmek için doğuya dönmeye hazır olmaktır. Kavşak Fransızların elinde olursa Wellington Namur yolu boyunca ilerleyip Blücher’e katılamaz. 15 Haziran akşamı Saxe-Weimar’ın Nassaulu askerleri [Frasnes’da](@quatre-bras-frasnes) Muhafız mızraklı süvarisini geri çevirir, Ney de piyadesi yol boyunca dağınık olduğu için saldırmak yerine gece için ordugâh kurar.
 
 @image quatre-bras-saxe-weimar-532daf
 

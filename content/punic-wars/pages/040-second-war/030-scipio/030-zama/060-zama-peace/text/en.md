@@ -1,6 +1,6 @@
-Polybius gives 20,000 Carthaginians killed and as many taken prisoner, and 1,500 Romans killed. At least 11 elephants are captured. Hannibal reaches Hadrumetum and gathers 6,000 infantry and 500 cavalry, too few to fight on, and advises the Carthaginian Senate to make peace on whatever terms it can.
+Polybius gives 20,000 Carthaginians killed and as many taken prisoner, and 1,500 Romans killed. At least 11 elephants are captured. Hannibal reaches [Hadrumetum](@hadrumetum-203) and gathers 6,000 infantry and 500 cavalry, too few to fight on, and advises the Carthaginian Senate to make peace on whatever terms it can.
 
-Scipio marches back to Tunis and opens talks. A Numidian army under Syphax’s son Vermina, marching to help Carthage, is caught and destroyed, with more than 16,000 killed or captured by Livy’s count. It is the last battle of the war.
+Scipio marches back to [Tunis](@tunis-203) and opens talks. A Numidian army under Syphax’s son Vermina, marching to help [Carthage](@carthage-201), is caught and destroyed, with more than 16,000 killed or captured by Livy’s count. It is the last battle of the war.
 
 @image scipio-welcomed-rome-b4635e
 

@@ -1,4 +1,4 @@
-Murad Balkanlardayken damadı Karamanoğlu Alaeddin Ali Bey, Murad’ın Hamitoğullarından satın aldığı kasabalara saldırır ve Beyşehir’i alır. Kışı Bursa’da geçiren Murad, ardından Bayezid ile ve vasallarının gönderdiği Sırp askerleriyle Konya üzerine yürür. Osmanlı kronikleri seferi 1386’ya tarihler, başka anlatımlar ise 1387’yi verir.
+Murad Balkanlardayken damadı Karamanoğlu Alaeddin Ali Bey, Murad’ın Hamitoğullarından satın aldığı kasabalara saldırır ve [Beyşehir’i](@beysehir-1381) alır. Kışı Bursa’da geçiren Murad, ardından Bayezid ile ve vasallarının gönderdiği Sırp askerleriyle Konya üzerine yürür. Osmanlı kronikleri seferi 1386’ya tarihler, başka anlatımlar ise 1387’yi verir.
 
 Ordular Konya ovasında Frenkyazısı’nda karşılaşır ve Karaman ordusu yenilir. Bayezid’in Yıldırım lakabını bu muharebede kazandığı anlatılır. Alaeddin Konya’ya kapanıp barış önerir, Çandarlı Ali Paşa ise sultana Alaeddin boyun eğene dek bastırmayı öğütler. Kuşatma sırasında sultanın emrine karşın yağmaya girişen Sırp askerleri idam edilir ve bazı Sırp vasal beyleri Lazar’a yönelir.
 

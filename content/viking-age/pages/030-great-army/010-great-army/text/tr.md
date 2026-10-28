@@ -6,8 +6,8 @@
 
 @image great-army-north-2a64bd
 
-867’nin sonlarında ordu güneyde Mercia’ya geçer ve kışı Nottingham’da geçirir. Mercia Kralı Burgred kayınbiraderleri Wessex Kralı Æthelred ile Alfred’den yardım ister ve 868’de onların orduları Danları kentte kuşatma altına alır. Büyük bir çarpışma olmaz, Mercialılar Danlarla barış yapar ve ordu 868–869 kışını geçirmek için York’a döner.
+867’nin sonlarında ordu güneyde Mercia’ya geçer ve kışı [Nottingham’da](@nottingham-867) geçirir. Mercia Kralı Burgred kayınbiraderleri Wessex Kralı Æthelred ile Alfred’den yardım ister ve 868’de onların orduları Danları kentte kuşatma altına alır. Büyük bir çarpışma olmaz, Mercialılar Danlarla barış yapar ve ordu 868–869 kışını geçirmek için York’a döner.
 
-869’da ordu Mercia’yı baştan başa geçerek Doğu Anglia’ya gelir ve kışlağını Thetford’da kurar. Kral Edmund o kış orduyla savaşır, Danlar kazanır, 20 Kasım’da onu öldürür ve krallığını ele geçirir. Kronik, Edmund’un savaşta mı yoksa savaştan sonra mı öldüğünü açık bırakır. 986 dolaylarında yazan Fleury’li Abbo onun şehitliğini anlatır, daha sonraki bir gelenek de ölüm yerini Suffolk’taki Hoxne olarak gösterir.
+869’da ordu Mercia’yı baştan başa geçerek Doğu Anglia’ya gelir ve kışlağını [Thetford’da](@thetford-869) kurar. Kral Edmund o kış orduyla savaşır, Danlar kazanır, 20 Kasım’da onu öldürür ve krallığını ele geçirir. Kronik, Edmund’un savaşta mı yoksa savaştan sonra mı öldüğünü açık bırakır. 986 dolaylarında yazan Fleury’li Abbo onun şehitliğini anlatır, daha sonraki bir gelenek de ölüm yerini Suffolk’taki [Hoxne](@hoxne-869) olarak gösterir.
 
 @image great-army-edmund-4479f3

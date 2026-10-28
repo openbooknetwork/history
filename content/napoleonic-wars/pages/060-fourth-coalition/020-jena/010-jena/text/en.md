@@ -1,4 +1,4 @@
-After Saalfeld Napoleon pushes north down the Saale towards Gera and Leipzig. He expects the Prussians to gather around Erfurt and Weimar and means to turn west against their left, cutting their road to Berlin. On 12 October Davout’s III Corps and Bernadotte’s I Corps reach Naumburg, across the Prussian line of retreat, while Lannes’s V Corps follows the Saale to Jena.
+After Saalfeld Napoleon pushes north down the Saale towards Gera and Leipzig. He expects the Prussians to gather around Erfurt and [Weimar](@jena-weimar) and means to turn west against their left, cutting their road to Berlin. On 12 October Davout’s III Corps and Bernadotte’s I Corps reach [Naumburg](@jena-naumburg), across the Prussian line of retreat, while Lannes’s V Corps follows the Saale to Jena.
 
 @image jena-napoleon-ff5946
 

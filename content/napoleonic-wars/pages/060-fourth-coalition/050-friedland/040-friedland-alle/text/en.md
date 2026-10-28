@@ -1,4 +1,4 @@
-Dupont’s division advances quickly from Posthenen, the French cavalry drive the Russian squadrons back onto their infantry crowded on the riverbank, and General Sénarmont brings a mass of guns forward to case-shot range. Within minutes the canister breaks the Russian left, and Ney’s infantry follow the fugitives into the streets of Friedland, which catches fire.
+[Dupont’s](@friedland-alle-dupont) division advances quickly from Posthenen, the French cavalry drive the Russian squadrons back onto their infantry crowded on the riverbank, and General [Sénarmont](@friedland-alle-senarmont) brings a mass of guns forward to case-shot range. Within minutes the canister breaks the Russian left, and Ney’s infantry follow the fugitives into the streets of [Friedland](@friedland-alle-town), which catches fire.
 
 @image friedland-alle-detaille-0b1b30
 

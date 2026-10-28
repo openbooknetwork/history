@@ -1,4 +1,4 @@
-Ocak 1921’de Yunan ordusu Bursa’dan Eskişehir’e doğru ilerler. İsmet Bey’in Batı Cephesi onu 6–11 Ocak’ta İnönü’de durdurur. Bu, yeni düzenli ordunun ilk zaferidir. Şubat ve mart aylarında Ankara hükûmeti Londra Konferansı’na katılır, 16 Mart’ta da Moskova’da Sovyet Rusya ile bir antlaşma imzalar.
+Ocak 1921’de Yunan ordusu Bursa’dan Eskişehir’e doğru ilerler. İsmet Bey’in Batı Cephesi onu 6–11 Ocak’ta [İnönü’de](@inonu) durdurur. Bu, yeni düzenli ordunun ilk zaferidir. Şubat ve mart aylarında Ankara hükûmeti Londra Konferansı’na katılır, 16 Mart’ta da Moskova’da Sovyet Rusya ile bir antlaşma imzalar.
 
 @image inonu-inspection-affc12
 

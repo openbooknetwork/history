@@ -1,4 +1,4 @@
-Howe halts his army before the Brooklyn lines and begins a siege, digging trenches closer each day. With the East River behind him and the British fleet able to close it, Washington holds a council on 29 August, and his generals agree to retreat to Manhattan, with Thomas Mifflin’s Pennsylvanians keeping the outer lines as a rearguard.
+Howe halts his army before the Brooklyn lines and begins a siege, digging trenches closer each day. With the East River behind him and the British fleet able to close it, [Washington](@new-york-evacuation-washington) holds a council on 29 August, and his generals agree to retreat to [Manhattan](@new-york-evacuation-manhattan), with Thomas [Mifflin’s](@new-york-evacuation-mifflin) Pennsylvanians keeping the outer lines as a rearguard.
 
 @image retreat-from-long-island-e18501
 

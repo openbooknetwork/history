@@ -1,6 +1,6 @@
-Hearing Cornwallis’s attack, Knyphausen crosses at Chadds Ford against the weakened American centre, breaks through Wayne’s and Maxwell’s troops and takes most of their guns. Armstrong’s militia, never engaged, leave their position at Pyle’s Ford.
+Hearing Cornwallis’s attack, Knyphausen crosses at Chadds Ford against the weakened American centre, breaks through [Wayne’s](@brandywine-chadds-ford-wayne) and Maxwell’s troops and takes most of their guns. Armstrong’s militia, never engaged, leave their position at Pyle’s Ford.
 
-At about 6 pm Washington and Greene arrive near Dilworth with reinforcements. Henry Knox places guns to slow the British, and Greene’s division, with the remains of the three beaten divisions, forms south of Dilworth and stops the pursuit for nearly an hour, with George Weedon’s brigade covering the road outside the village. At dark the army retreats to Chester, most of it arriving at midnight.
+At about 6 pm Washington and [Greene](@brandywine-chadds-ford-greene) arrive near [Dilworth](@brandywine-chadds-ford-dilworth) with reinforcements. Henry Knox places guns to slow the British, and Greene’s division, with the remains of the three beaten divisions, forms south of Dilworth and stops the pursuit for nearly an hour, with George Weedon’s brigade covering the road outside the village. At dark the army retreats to Chester, most of it arriving at midnight.
 
 @image brandywine-pyle-4053e7
 

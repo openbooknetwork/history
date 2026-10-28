@@ -1,4 +1,4 @@
-İsyancıların ilk hedefi Springfield’daki federal cephanelik ve silahlarıdır. General William Shepard, Savaş Bakanı Henry Knox’un izni olmadan cephanelikteki silahlarla donattığı 1.200 milisle burayı tutar. İsyancılar üç koldan gelir: Daniel Shays doğudan, Palmer yakınından, Eli Parsons kuzeyden, Chicopee’den, Luke Day ise Connecticut Nehri’nin karşı yakasındaki West Springfield’dan.
+İsyancıların ilk hedefi Springfield’daki federal cephanelik ve silahlarıdır. General William [Shepard](@springfield-arsenal-shepard), Savaş Bakanı Henry Knox’un izni olmadan cephanelikteki silahlarla donattığı 1.200 milisle burayı tutar. İsyancılar üç koldan gelir: Daniel [Shays](@springfield-arsenal-shays) doğudan, Palmer yakınından, Eli Parsons kuzeyden, Chicopee’den, [Luke Day](@springfield-arsenal-day) ise Connecticut Nehri’nin karşı yakasındaki West Springfield’dan.
 
 @image shepard-portrait-4c6427
 

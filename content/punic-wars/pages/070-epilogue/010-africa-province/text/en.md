@@ -1,4 +1,4 @@
-Rome annexes the land Carthage held at the end and makes it the province of Africa, with Utica as the seat of the governor. A ditch, the Fossa Regia, marks the border with the Numidian kingdom of Masinissa’s sons. Towns that stood by Carthage to the end are destroyed or lose their land. The others keep much of their own government, and Punic language and religion survive, with Punic spoken in North Africa until the 7th century AD.
+Rome annexes the land [Carthage](@carthage-29) held at the end and makes it the province of Africa, with [Utica](@utica-146) as the seat of the governor. A ditch, the Fossa Regia, marks the border with the Numidian kingdom of Masinissa’s sons. Towns that stood by Carthage to the end are destroyed or lose their land. The others keep much of their own government, and Punic language and religion survive, with Punic spoken in North Africa until the 7th century AD.
 
 @image africa-province-map-9087fe
 

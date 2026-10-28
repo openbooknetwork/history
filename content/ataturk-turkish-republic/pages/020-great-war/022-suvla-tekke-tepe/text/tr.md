@@ -1,4 +1,4 @@
-7. ve 12. Osmanlı tümenleri Bolayır’dan güneye yürür ve 8 Ağustos akşamı Suvla cephesine varır. Komutanları Feyzi Bey, yorgun askerlerle ve topsuz hemen saldırmayı reddeder, Liman von Sanders de yerine Mustafa Kemal’i getirir. Mustafa Kemal artık Suvla’dan güneyde Conkbayırı’na kadar bütün Anafartalar kesimine komuta etmektedir.
+7. ve 12. Osmanlı tümenleri Bolayır’dan güneye yürür ve 8 Ağustos akşamı Suvla cephesine varır. Komutanları Feyzi Bey, yorgun askerlerle ve topsuz hemen saldırmayı reddeder, Liman von Sanders de yerine [Mustafa Kemal’i](@suvla-tekke-tepe-kemal) getirir. Mustafa Kemal artık Suvla’dan güneyde Conkbayırı’na kadar bütün [Anafartalar](@suvla) kesimine komuta etmektedir.
 
 @image suvla-kemal-1915-d643e8
 

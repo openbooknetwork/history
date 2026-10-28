@@ -1,4 +1,4 @@
-Around 790 Scandinavia is a land of many peoples and small realms. The Danes hold Jutland, the Danish islands and Scania. The Svear live around Lake Mälaren with their royal centre at Uppsala, and the Götar live to their south and west. The Norwegians hold the long Atlantic coast, the Sámi live by hunting, fishing and reindeer in the far north, and the Finns live east of the Gulf of Bothnia.
+Around 790 Scandinavia is a land of many peoples and small realms. The Danes hold Jutland, the Danish islands and Scania. The Svear live around Lake Mälaren with their royal centre at [Uppsala](@uppsala-790), and the Götar live to their south and west. The Norwegians hold the long Atlantic coast, the Sámi live by hunting, fishing and reindeer in the far north, and the Finns live east of the Gulf of Bothnia.
 
 @image scandinavia-vendel-helmet-bd2534
 
@@ -6,7 +6,7 @@ Power lies with chieftains and petty kings. The kings’ sagas that name these r
 
 @image scandinavia-birka-8a052c
 
-Trade gathers in a few market towns. Ribe on the west coast of Jutland is a market from the early 8th century, trading mostly with Frisia and England, and coins may be struck there about 720. Birka, on the island of Björkö in Lake Mälaren, is founded about 750, and its 500 to 1,000 inhabitants trade furs bought from the Sámi and the Finns. Kaupang in Vestfold is founded in the 780s and has about 1,000 people who trade in iron and soapstone, and Hedeby at the head of the Schlei, first named in 804, links the Baltic with the North Sea by a portage of less than 15 km.
+Trade gathers in a few market towns. [Ribe](@ribe-790) on the west coast of Jutland is a market from the early 8th century, trading mostly with Frisia and England, and coins may be struck there about 720. [Birka](@birka-790), on the island of Björkö in Lake Mälaren, is founded about 750, and its 500 to 1,000 inhabitants trade furs bought from the Sámi and the Finns. [Kaupang](@kaupang-790) in Vestfold is founded in the 780s and has about 1,000 people who trade in iron and soapstone, and [Hedeby](@hedeby-790) at the head of the Schlei, first named in 804, links the Baltic with the North Sea by a portage of less than 15 km.
 
 @image scandinavia-hedeby-372402
 

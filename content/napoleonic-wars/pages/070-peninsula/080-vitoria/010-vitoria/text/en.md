@@ -1,4 +1,4 @@
-After Salamanca King Joseph leaves Madrid, which Wellington enters on 12 August 1812, and Soult gives up Andalusia and the siege of Cádiz. Wellington besieges the castle of Burgos from 19 September but cannot take it, and on 21 October he retreats before the united French armies by Salamanca to Ciudad Rodrigo, losing several thousand men on the way.
+After Salamanca King Joseph leaves Madrid, which Wellington enters on 12 August 1812, and Soult gives up Andalusia and the siege of Cádiz. Wellington besieges the castle of [Burgos](@vitoria-burgos) from 19 September but cannot take it, and on 21 October he retreats before the united French armies by Salamanca to Ciudad Rodrigo, losing several thousand men on the way.
 
 @image vitoria-wellington-fd26dc
 

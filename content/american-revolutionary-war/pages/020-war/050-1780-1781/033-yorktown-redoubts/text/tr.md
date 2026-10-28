@@ -2,6 +2,6 @@
 
 @image yorktown-redoubt-9-fece95
 
-Akşam altı buçukta Fusiliers Tabyası’na yapılan Fransız oyalama saldırısı İngilizlerin dikkatini çeker. Ardından Alexander Hamilton komutasındaki 400 Amerikan hafif piyadesi, tüfekleri boş ve süngüleri takılı halde, yaklaşık 70 kişinin tuttuğu 10 numaralı tabyaya saldırır, John Laurens de tabyanın arkasına dolanır. Aynı anda Royal Deux-Ponts Alayı’ndan 400 Fransız askeri 120 İngiliz ve Alman askerinin tuttuğu 9 numaralı tabyaya saldırır, ateş altında engelleri keserek tabyayı alır.
+Akşam altı buçukta Fusiliers Tabyası’na yapılan Fransız oyalama saldırısı İngilizlerin dikkatini çeker. Ardından Alexander [Hamilton](@yorktown-redoubts-hamilton) komutasındaki 400 Amerikan hafif piyadesi, tüfekleri boş ve süngüleri takılı halde, yaklaşık 70 kişinin tuttuğu 10 numaralı tabyaya saldırır, John Laurens de tabyanın arkasına dolanır. Aynı anda Royal [Deux-Ponts](@yorktown-redoubts-deux-ponts) Alayı’ndan 400 Fransız askeri 120 İngiliz ve Alman askerinin tuttuğu 9 numaralı tabyaya saldırır, ateş altında engelleri keserek tabyayı alır.
 
 İki tabya alınınca müttefikler ikinci paraleli nehre kadar uzatır ve kasabayı üç yandan dövebilir hale gelir.

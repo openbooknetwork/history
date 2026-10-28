@@ -4,7 +4,7 @@ Nathanael Greene aralıkta güney ordusunu devralır ve ikiye böler. Daniel Mor
 
 @image tarleton-reynolds-7b7630
 
-Greene geri döner ve 15 Mart’ta Guilford Court House’ta muharebeyi kabul eder. Cornwallis savaş alanını elinde tutar ama ordusunun dörtte birini kaybeder ve toparlanmak için kıyıdaki Wilmington’a yürür. Nisanda savaşı Virginia’ya taşır. Greene güneye dönüp Güney Carolina’daki İngiliz karakollarına saldırır, yıl sonuna kadar İngilizlerin elinde Charleston ve Savannah dışında pek bir yer kalmaz.
+Greene geri döner ve 15 Mart’ta [Guilford Court House’ta](@guilford) muharebeyi kabul eder. Cornwallis savaş alanını elinde tutar ama ordusunun dörtte birini kaybeder ve toparlanmak için kıyıdaki Wilmington’a yürür. Nisanda savaşı Virginia’ya taşır. Greene güneye dönüp Güney Carolina’daki İngiliz karakollarına saldırır, yıl sonuna kadar İngilizlerin elinde Charleston ve Savannah dışında pek bir yer kalmaz.
 
 @image guilford-mcbarron-89d3dd
 

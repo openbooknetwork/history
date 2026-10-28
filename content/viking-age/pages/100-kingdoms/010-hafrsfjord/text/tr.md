@@ -2,7 +2,7 @@ Hafrsfjord Muharebesi 872 ile 900 arasında, araştırmacıların çoğuna göre
 
 @image hafrsfjord-flateyjarbok-5d08fd
 
-Muharebeden 300 yıldan uzun süre sonra yazan Snorri olayları daha ayrıntılı anlatır. Hordaland, Rogaland, Agder ve Telemark kralları Harald’a karşı gemi ve adam toplar, Harald da kıyı boyunca güneye inerken her bölgeden kuvvet toplar. Müttefikler Jæren’in kuzeyinde birleşir ve Harald’ın beklediği Hafrsfjord’a girer. Uzun süren çarpışmanın sonunda Hordaland kralı Eirik ile Rogaland kralı Sulke ölmüş, berserk Thor Haklang gemisinde düşmüştür, Kjotve the Rich ise kaçar.
+Muharebeden 300 yıldan uzun süre sonra yazan Snorri olayları daha ayrıntılı anlatır. [Hordaland](@hordaland-872), Rogaland, [Agder](@agder-872) ve Telemark kralları Harald’a karşı gemi ve adam toplar, Harald da kıyı boyunca güneye inerken her bölgeden kuvvet toplar. Müttefikler Jæren’in kuzeyinde birleşir ve Harald’ın beklediği Hafrsfjord’a girer. Uzun süren çarpışmanın sonunda Hordaland kralı Eirik ile Rogaland kralı Sulke ölmüş, berserk Thor Haklang gemisinde düşmüştür, Kjotve the Rich ise kaçar.
 
 @image hafrsfjord-balling-e2763c
 

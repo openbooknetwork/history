@@ -2,7 +2,7 @@ Appianos ana meydandan Byrsa’ya çıkan, iki yanında altı katlı evler bulun
 
 @image hasdrubal-wife-0d2b7a
 
-Son gün Scipio tutsak almayı kabul eder. 50.000 kişi kaleden iner ve köle olarak satılır. Hasdrubal canının bağışlanması sözüyle teslim olur. Aralarında 900 Romalı asker kaçağının da bulunduğu son savunucular Eşmun tapınağını üzerlerine yakar, Hasdrubal’in karısı da kocasına lanet eder ve çocuklarıyla birlikte ateşe yürür.
+Son gün Scipio tutsak almayı kabul eder. 50.000 kişi kaleden iner ve köle olarak satılır. [Hasdrubal](@carthage-byrsa-hasdrubal) canının bağışlanması sözüyle teslim olur. Aralarında 900 Romalı asker kaçağının da bulunduğu son savunucular [Eşmun tapınağını](@carthage-byrsa-eshmoun) üzerlerine yakar, Hasdrubal’in karısı da kocasına lanet eder ve çocuklarıyla birlikte ateşe yürür.
 
 @image scipio-ruins-carthage-486a2a
 

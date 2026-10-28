@@ -1,4 +1,4 @@
-9 Mart 1422’de Prag kent meclisi rahip Jan Želivský’yi tutuklatır ve başını kestirir. Litvanya Büyük Dükü Vytautas, Husçuların kendisine sunduğu Bohemya tacını kabul eder ve Polonya Kralı Władysław Jagiełło’nun yeğeni Sigismund Korybut’u bir orduyla gönderir. Korybut Nisan’da Moravya’da Uničov’u alır, Mayıs ortasında Prag’a varır, Čáslav’daki bir meclis de onu ülkenin yöneticisi yapar. 11 Haziran’da Žižka ve Tábor onu kabul ettiklerini yazılı olarak onaylar.
+9 Mart 1422’de [Prag](@prague-1422) kent meclisi rahip Jan Želivský’yi tutuklatır ve başını kestirir. Litvanya Büyük Dükü Vytautas, Husçuların kendisine sunduğu Bohemya tacını kabul eder ve Polonya Kralı Władysław Jagiełło’nun yeğeni Sigismund Korybut’u bir orduyla gönderir. Korybut Nisan’da Moravya’da Uničov’u alır, Mayıs ortasında Prag’a varır, Čáslav’daki bir meclis de onu ülkenin yöneticisi yapar. 11 Haziran’da Žižka ve Tábor onu kabul ettiklerini yazılı olarak onaylar.
 
 @image zelivsky-head-bfb6b3
 

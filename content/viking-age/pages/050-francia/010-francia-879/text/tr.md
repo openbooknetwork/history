@@ -1,12 +1,12 @@
-879’da Thames kıyısındaki Fulham’da kışlamış bir Viking ordusu kıtaya geçer ve Gent’te ordugâh kurar. Batı Frankya, 877’de Kel Karl’ın ve 879’da Kekeme Louis’nin ölümünden sonra zayıf düşmüştür ve Louis’nin genç oğulları III. Louis ile II. Karloman Eylül 879’da birlikte taç giyer. Ordu Kasım 880’de Kortrijk’i alır, aralıkta Arras ile Cambrai’ye akın eder ve 881’de Amiens ile Corbie’yi yağmalar.
+879’da Thames kıyısındaki [Fulham’da](@fulham-879) kışlamış bir Viking ordusu kıtaya geçer ve [Gent’te](@ghent-879) ordugâh kurar. Batı Frankya, 877’de Kel Karl’ın ve 879’da Kekeme Louis’nin ölümünden sonra zayıf düşmüştür ve Louis’nin genç oğulları III. Louis ile II. Karloman Eylül 879’da birlikte taç giyer. Ordu Kasım 880’de Kortrijk’i alır, aralıkta Arras ile Cambrai’ye akın eder ve 881’de Amiens ile Corbie’yi yağmalar.
 
 @image francia-879-coronation-45f8aa
 
-3 Ağustos 881’de III. Louis ile Karloman, Abbeville’in batısında Vimeu bölgesindeki Saucourt’ta Danları yener. Fulda Yıllıkları 9.000 Dan’ın öldürüldüğünü yazar, Eski Yüksek Almanca Ludwigslied de zaferi kutlar. Ordu doğuya, Meuse’e döner ve Asselt’te tahkimli bir ordugâh kurar. Kış boyunca Liège’i, Maastricht’i ve Tongeren’i yakar, Aachen’deki Şarlman sarayını ateşe verir, Köln’ü, Bonn’u ve Prüm Manastırı’nı yağmalar, 5 Nisan 882’de de Trier’i alır.
+3 Ağustos 881’de III. Louis ile Karloman, Abbeville’in batısında Vimeu bölgesindeki Saucourt’ta Danları yener. Fulda Yıllıkları 9.000 Dan’ın öldürüldüğünü yazar, Eski Yüksek Almanca Ludwigslied de zaferi kutlar. Ordu doğuya, Meuse’e döner ve [Asselt’te](@asselt-882) tahkimli bir ordugâh kurar. Kış boyunca Liège’i, Maastricht’i ve Tongeren’i yakar, Aachen’deki Şarlman sarayını ateşe verir, Köln’ü, Bonn’u ve Prüm Manastırı’nı yağmalar, 5 Nisan 882’de de [Trier’i](@trier-882) alır.
 
 @image francia-879-saucourt-66efce
 
-882 yazında imparator Şişman Karl, Worms’tan topladığı bir orduyla Asselt’teki ordugâha yürür. On iki günlük bir kuşatmanın ardından pazarlığa oturur. Dan önderi Godfrid, Karl’ın vaftiz babalığında vaftiz edilir, II. Lothar’ın kızı Gisela ile evlenir ve Frizya’yı Karl’ın vasalı olarak alır, bir başka önder Sigfrid’e ise gitmesi için para ödenir. Godfrid, 885’te Lobith yakınlarındaki Spijk’te bir görüşmede öldürülene kadar Frizya’yı elinde tutar.
+882 yazında imparator Şişman Karl, [Worms’tan](@worms-882) topladığı bir orduyla Asselt’teki ordugâha yürür. On iki günlük bir kuşatmanın ardından pazarlığa oturur. Dan önderi Godfrid, Karl’ın vaftiz babalığında vaftiz edilir, II. Lothar’ın kızı Gisela ile evlenir ve [Frizya’yı](@kennemerland-882) Karl’ın vasalı olarak alır, bir başka önder Sigfrid’e ise gitmesi için para ödenir. Godfrid, 885’te Lobith yakınlarındaki Spijk’te bir görüşmede öldürülene kadar Frizya’yı elinde tutar.
 
 @image francia-879-ludwigslied-ac77f8
 

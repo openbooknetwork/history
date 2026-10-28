@@ -1,4 +1,4 @@
-Yik'in Chan K'awiil, son of Jasaw Chan K'awiil I, becomes king of Tikal on 8 December AD 734. A carved altar at Tikal, probably made between 733 and 736, shows a bound lord of Calakmul and possibly names its king Yuknoom Took' K'awiil. Calakmul’s allies still surround Tikal: El Perú to the west, Naranjo to the east and Dos Pilas to the south-west.
+Yik'in Chan K'awiil, son of Jasaw Chan K'awiil I, becomes king of [Tikal](@tikal-743) on 8 December AD 734. A carved altar at Tikal, probably made between 733 and 736, shows a bound lord of [Calakmul](@calakmul-736) and possibly names its king Yuknoom Took' K'awiil. Calakmul’s allies still surround Tikal: El Perú to the west, [Naranjo](@naranjo-744) to the east and [Dos Pilas](@dos-pilas-743) to the south-west.
 
 @image tikal-743-temple-iv-687030
 

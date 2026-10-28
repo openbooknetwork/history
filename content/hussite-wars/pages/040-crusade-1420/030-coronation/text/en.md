@@ -1,4 +1,4 @@
-On 28 July 1420 Sigismund is crowned King of Bohemia in St Vitus Cathedral at Prague Castle, before 24 Czech and Moravian nobles. His army is short of food, the contingents of the different nations quarrel, and on 19 July a fire burns through their camp. On 30 July Sigismund dismisses the crusade and leaves for Kutná Hora.
+On 28 July 1420 Sigismund is crowned King of Bohemia in [St Vitus Cathedral](@st-vitus-1420) at Prague Castle, before 24 Czech and Moravian nobles. His army is short of food, the contingents of the different nations quarrel, and on 19 July a fire burns through their camp. On 30 July Sigismund dismisses the crusade and leaves for [Kutná Hora](@kutna-hora-1420).
 
 @image wenceslas-crown-c0a020
 
@@ -6,6 +6,6 @@ In early July, during the siege, the Praguers and the Taborites agree on their d
 
 @image jena-codex-communion-32af6f
 
-The Taborites answer with twelve articles of their own, which the Praguers do not accept, and on 22 August they leave Prague for Tábor. The royal garrisons stay in Prague Castle and Vyšehrad.
+The Taborites answer with twelve articles of their own, which the Praguers do not accept, and on 22 August they leave Prague for [Tábor](@tabor-1420). The royal garrisons stay in Prague Castle and Vyšehrad.
 
 @image st-vitus-south-d08915

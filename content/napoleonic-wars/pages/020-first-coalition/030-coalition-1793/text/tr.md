@@ -1,8 +1,8 @@
-Ulusal Konvansiyon XVI. Louis’yi yargılar ve 21 Ocak 1793’te Paris’te idam ettirir. Fransa 1 Şubat’ta Britanya’ya ve Hollanda Cumhuriyeti’ne, kısa süre sonra da İspanya’ya savaş ilan eder. Yıl içinde Kutsal Roma İmparatorluğu, Portekiz, Napoli ve Toskana da Fransa ile savaşa girer. Birinci Koalisyon gevşek bir ittifaktır ve üyeleri pek az eşgüdümle savaşır.
+Ulusal Konvansiyon XVI. Louis’yi yargılar ve 21 Ocak 1793’te [Paris’te](@coalition-1793-paris) idam ettirir. Fransa 1 Şubat’ta Britanya’ya ve Hollanda Cumhuriyeti’ne, kısa süre sonra da İspanya’ya savaş ilan eder. Yıl içinde Kutsal Roma İmparatorluğu, Portekiz, Napoli ve Toskana da Fransa ile savaşa girer. Birinci Koalisyon gevşek bir ittifaktır ve üyeleri pek az eşgüdümle savaşır.
 
 @image coalition-1793-execution-9cb9c3
 
-Avusturya Hollandası’nda Coburg Prensi 18 Mart’ta Neerwinden’de Dumouriez’yi yener ve Fransızlar ülkeyi kaybeder. Dumouriez monarşiyi geri getirmek için Paris üzerine yürümeye kalkışır, başaramaz ve Avusturyalıların tarafına geçer. Martta batı Fransa’da Vendée’de kralcı bir ayaklanma başlar, haziranda Jironden vekillerin tutuklanmasının ardından Lyon, Marsilya ve Toulon da Konvansiyon’a karşı ayaklanır. Ren cephesinde Mainz 23 Temmuz’da Prusyalılara teslim olur.
+Avusturya Hollandası’nda Coburg Prensi 18 Mart’ta [Neerwinden’de](@coalition-1793-neerwinden) Dumouriez’yi yener ve Fransızlar ülkeyi kaybeder. Dumouriez monarşiyi geri getirmek için Paris üzerine yürümeye kalkışır, başaramaz ve Avusturyalıların tarafına geçer. Martta batı Fransa’da [Vendée’de](@coalition-1793-vendee) kralcı bir ayaklanma başlar, haziranda Jironden vekillerin tutuklanmasının ardından Lyon, Marsilya ve Toulon da Konvansiyon’a karşı ayaklanır. Ren cephesinde [Mainz](@coalition-1793-mainz) 23 Temmuz’da Prusyalılara teslim olur.
 
 @image coalition-1793-neerwinden-23a87c
 
@@ -10,4 +10,4 @@ Konvansiyon 6 Nisan’da Kamu Selameti Komitesi’ni kurar, ağustosta da 18 ile
 
 @image coalition-1793-girondins-c911f1
 
-Yeni ordular kuzey cephesinde savaşın yönünü çevirir. Generaller Houchard ve Jourdan 6-8 Eylül’de Hondschoote’ta York Dükü’nün İngiliz-Hannover kolordusunu yener ve York Dunkerque kuşatmasını kaldırır. 15 ve 16 Ekim’de Jourdan Wattignies’de Coburg’u yener ve Maubeuge kalesini kurtarır.
+Yeni ordular kuzey cephesinde savaşın yönünü çevirir. Generaller Houchard ve Jourdan 6-8 Eylül’de [Hondschoote’ta](@coalition-1793-hondschoote) York Dükü’nün İngiliz-Hannover kolordusunu yener ve York Dunkerque kuşatmasını kaldırır. 15 ve 16 Ekim’de Jourdan [Wattignies’de](@coalition-1793-wattignies) Coburg’u yener ve Maubeuge kalesini kurtarır.

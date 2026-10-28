@@ -1,4 +1,4 @@
-1029’da Cnut’un Norveç’teki jarlı Haakon Eiriksson denizde kaybolur, Olaf Haraldsson da küçük oğlu Magnus’u Rus’ta bırakarak krallığını geri almak için yola çıkar. İsveç kralı Anund Jacob ona 400 adam ve Dalarna’dan geçirecek kılavuzlar verir, sürgündeki Dagr Hringsson da ona katılır. Olaf ordusunu Jämtland’da toplar ve dağları aşarak Trondheim’ın yaklaşık 80 km kuzeyindeki Verdalen vadisine iner.
+1029’da Cnut’un Norveç’teki jarlı Haakon Eiriksson denizde kaybolur, Olaf Haraldsson da küçük oğlu Magnus’u Rus’ta bırakarak krallığını geri almak için yola çıkar. İsveç kralı Anund Jacob ona 400 adam ve Dalarna’dan geçirecek kılavuzlar verir, sürgündeki Dagr Hringsson da ona katılır. Olaf ordusunu [Jämtland’da](@jamtland-1030) toplar ve dağları aşarak Trondheim’ın yaklaşık 80 km kuzeyindeki Verdalen vadisine iner.
 
 @image stiklestad-altar-492d3c
 

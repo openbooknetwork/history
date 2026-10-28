@@ -2,9 +2,9 @@ Alarmed by the French preparations in Toulon, the Admiralty orders Earl St Vince
 
 @image nile-nelson-0c392d
 
-Without frigates to scout, Nelson learns at Naples that the French have passed towards Malta, and on 22 June that they have left it sailing east. He concludes that they are bound for Egypt and sails straight for Alexandria, passing the slower French convoy in the dark that night. He reaches Alexandria on 28 June, finds no French ships and turns north to Anatolia and back west to Sicily. The French scouts arrive off Alexandria the next evening.
+Without frigates to scout, Nelson learns at [Naples](@nile-naples) that the French have passed towards Malta, and on 22 June that they have left it sailing east. He concludes that they are bound for Egypt and sails straight for [Alexandria](@nile-alexandria), passing the slower French convoy in the dark that night. He reaches Alexandria on 28 June, finds no French ships and turns north to Anatolia and back west to Sicily. The French scouts arrive off Alexandria the next evening.
 
-After taking on supplies at Syracuse, Nelson sails again on 24 July and learns at Coron in the Morea on 28 July that the French are in Egypt. Brueys meanwhile has anchored his 13 ships of the line in Aboukir Bay, 32 km north-east of Alexandria, because the channel into the harbour is too shallow for the larger ships. His ships are short of food and water, and up to a third of the sailors are ashore at any time, digging wells and gathering supplies under guard against Bedouin attacks.
+After taking on supplies at [Syracuse](@nile-syracuse), Nelson sails again on 24 July and learns at [Coron](@nile-coron) in the Morea on 28 July that the French are in Egypt. Brueys meanwhile has anchored his 13 ships of the line in Aboukir Bay, 32 km north-east of Alexandria, because the channel into the harbour is too shallow for the larger ships. His ships are short of food and water, and up to a third of the sailors are ashore at any time, digging wells and gathering supplies under guard against Bedouin attacks.
 
 @image nile-brueys-61b9f1
 

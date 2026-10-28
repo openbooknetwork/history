@@ -1,6 +1,6 @@
-Fransız öncüsü gemi gemi düşer. Guerrier ve Spartiate saat 21.00’de, Aquilon 21.25’te bayrak indirir. 20.30 sularında bir kıymık Nelson’u kör gözünün üstünden vurur. Aşağı taşınır ama cerrah yaranın yüzeysel olduğunu görür ve Nelson savaş bitmeden güverteye döner. Peuple Souverain halatını keser ve hattan sürüklenir, Leander da açılan boşluğa girip Franklin ile Orient’i boydan boya ateş altına alır.
+[Fransız öncüsü](@nile-orient-van) gemi gemi düşer. Guerrier ve Spartiate saat 21.00’de, Aquilon 21.25’te bayrak indirir. 20.30 sularında bir kıymık [Nelson’u](@nile-orient-nelson) kör gözünün üstünden vurur. Aşağı taşınır ama cerrah yaranın yüzeysel olduğunu görür ve Nelson savaş bitmeden güverteye döner. Peuple Souverain halatını keser ve hattan sürüklenir, Leander da açılan boşluğa girip Franklin ile [Orient’i](@nile-orient-orient) boydan boya ateş altına alır.
 
-Merkezde Orient, Bellerophon’un direklerini kırar, Bellerophon 200’den fazla kayıpla 20.20’de savaştan sürüklenerek çıkar. Zaten yaralı olan Brueys bir gülleyle neredeyse ikiye bölünür ve güvertede ölür. Karanlıkta geç gelen Swiftsure ve Alexander, Orient’in iki yanında yer alır. Kaptanı ölen Majestic de Tonnant ve Heureux ile çarpışır.
+Merkezde Orient, [Bellerophon’un](@nile-orient-bellerophon) direklerini kırar, Bellerophon 200’den fazla kayıpla 20.20’de savaştan sürüklenerek çıkar. Zaten yaralı olan [Brueys](@nile-orient-brueys) bir gülleyle neredeyse ikiye bölünür ve güvertede ölür. Karanlıkta geç gelen Swiftsure ve Alexander, Orient’in iki yanında yer alır. Kaptanı ölen Majestic de Tonnant ve Heureux ile çarpışır.
 
 @image nile-arnald-2cbb54
 

@@ -1,4 +1,4 @@
-MÖ 247’den itibaren Hamilkar Barka Sicilya’daki Kartacalılara küçük bir orduyla komuta eder, Kartaca da donanmasını yavaş yavaş geri çeker. Hamilkar, Drepana’ya bakan Eryx Dağı’ndaki üssünden yaptığı akınlarla Roma lejyonlarını oyalar, adadaki son Kartaca kentleri Drepana ve Lilybaeum da kuşatma altında direnir. MÖ 243’te iki devlet de tükenmenin eşiğindedir ve Ptolemaioslar Mısır’ı Kartaca’ya 2.000 talentlik borç vermeyi reddeder.
+MÖ 247’den itibaren Hamilkar Barka Sicilya’daki Kartacalılara küçük bir orduyla komuta eder, Kartaca da donanmasını yavaş yavaş geri çeker. Hamilkar, [Drepana’ya](@drepana-241) bakan [Eryx](@eryx-244) Dağı’ndaki üssünden yaptığı akınlarla Roma lejyonlarını oyalar, adadaki son Kartaca kentleri Drepana ve [Lilybaeum](@lilybaeum-241) da kuşatma altında direnir. MÖ 243’te iki devlet de tükenmenin eşiğindedir ve Ptolemaioslar Mısır’ı Kartaca’ya 2.000 talentlik borç vermeyi reddeder.
 
 @image aegates-erice-99590d
 

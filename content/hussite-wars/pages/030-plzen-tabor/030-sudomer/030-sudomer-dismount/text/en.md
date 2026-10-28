@@ -1,4 +1,4 @@
-The Hospitallers under Jindřich of Hradec charge along the dike at the wagons and lose many men and horses to the handguns and crossbows. Those who reach the wagons fight on a front a few men wide. Břeněk Švihovský is killed at the head of the Hussite line, and Jindřich of Hradec is shot in the toe and dies of the wound some time later.
+The Hospitallers under [Jindřich of Hradec](@sudomer-dismount-hradec) charge along the dike at the wagons and lose many men and horses to the handguns and crossbows. Those who reach the wagons fight on a front a few men wide. [Břeněk Švihovský](@sudomer-dismount-brenek) is killed at the head of the Hussite line, and Jindřich of Hradec is shot in the toe and dies of the wound some time later.
 
 @image sudomer-liebscher-17fcfe
 

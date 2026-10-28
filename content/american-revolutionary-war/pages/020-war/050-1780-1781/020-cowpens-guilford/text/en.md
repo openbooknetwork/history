@@ -4,7 +4,7 @@ Nathanael Greene takes over the southern army in December and splits it. Daniel 
 
 @image tarleton-reynolds-7b7630
 
-Greene turns and offers battle at Guilford Court House on 15 March. Cornwallis holds the field but loses a quarter of his army, and marches to the coast at Wilmington to refit. In April he takes the war into Virginia. Greene turns south and attacks the British posts in South Carolina, and by the end of the year the British there hold little beyond Charleston and Savannah.
+Greene turns and offers battle at [Guilford Court House](@guilford) on 15 March. Cornwallis holds the field but loses a quarter of his army, and marches to the coast at Wilmington to refit. In April he takes the war into Virginia. Greene turns south and attacks the British posts in South Carolina, and by the end of the year the British there hold little beyond Charleston and Savannah.
 
 @image guilford-mcbarron-89d3dd
 

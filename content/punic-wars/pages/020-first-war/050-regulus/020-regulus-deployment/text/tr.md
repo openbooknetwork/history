@@ -1,4 +1,4 @@
-MÖ 255 ilkbaharında Ksanthippos 12.000 piyade, 4.000 süvari ve 100 fili Kartaca’dan çıkarır ve Romalıların yakınında açık bir ovada kamp kurar. Yerin tam neresi olduğu bilinmez, Tunus’a yakın olduğu düşünülür. Regulus yaklaşık 15.000 piyade ve 500 süvariyle ilerler ve 2 km kadar ötede kamp kurar.
+MÖ 255 ilkbaharında [Ksanthippos](@regulus-deployment-xanthippus) 12.000 piyade, 4.000 süvari ve 100 fili Kartaca’dan çıkarır ve Romalıların yakınında açık bir ovada kamp kurar. Yerin tam neresi olduğu bilinmez, Tunus’a yakın olduğu düşünülür. [Regulus](@regulus-deployment-regulus) yaklaşık 15.000 piyade ve 500 süvariyle ilerler ve 2 km kadar ötede kamp kurar.
 
 @image regulus-golitsyn-plan-caf8c9
 

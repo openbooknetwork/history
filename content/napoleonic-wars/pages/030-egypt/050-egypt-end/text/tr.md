@@ -4,7 +4,7 @@
 
 Bonaparte, bir esir değişimi sırasında Sidney Smith’in Fransız elçilerine verdiği gazetelerden koalisyonun İtalya’daki zaferlerini ve Fransa’daki bunalımı öğrenir. 23 Ağustos’ta Berthier, Murat, Lannes ve birkaç bilginle Muiron firkateynine binip İskenderiye’den ayrılır, komutayı bir mektupla Kléber’e bırakır.
 
-24 Ocak 1800’de Kléber, Smith’in huzurunda Sadrazam Kör Yusuf Ziyaeddin Paşa ile El Ariş Sözleşmesi’ni imzalar, sözleşme ordunun Fransa’ya dönmesine izin verir. Britanya hükümeti teslimden başka bir şeyi kabul etmez. Bunun üzerine Kléber 20 Mart’ta sadrazamın çok daha kalabalık ordusunu Heliopolis’te yener ve Kahire’deki ikinci ayaklanmayı bastırır. 14 Haziran’da Kahire’deki bahçesinde Suriyeli bir öğrenci olan Süleyman el-Halebi tarafından bıçaklanarak öldürülür ve komutayı Jacques-François Menou devralır.
+24 Ocak 1800’de Kléber, Smith’in huzurunda Sadrazam Kör Yusuf Ziyaeddin Paşa ile [El Ariş](@egypt-end-el-arish) Sözleşmesi’ni imzalar, sözleşme ordunun Fransa’ya dönmesine izin verir. Britanya hükümeti teslimden başka bir şeyi kabul etmez. Bunun üzerine Kléber 20 Mart’ta sadrazamın çok daha kalabalık ordusunu [Heliopolis’te](@egypt-end-heliopolis) yener ve Kahire’deki ikinci ayaklanmayı bastırır. 14 Haziran’da Kahire’deki bahçesinde Suriyeli bir öğrenci olan Süleyman el-Halebi tarafından bıçaklanarak öldürülür ve komutayı Jacques-François Menou devralır.
 
 @image egypt-end-kleber-203e18
 

@@ -1,8 +1,8 @@
-Ímar’ın torunu Ragnall 918’de Corbridge’de İskoçya Kralı II. Konstantin’le savaşır, 919’da da York’ta kendini kral ilan eder. 920’de o ve öteki kuzey hükümdarları Yaşlı Edward’la anlaşır, Ragnall 921’de ölür. Yerine, 917’de Dublin’i geri almış olan akrabası Sihtric geçer, Lincoln’de onun adına basılan sikkeler egemenliğinin Humber’in güneyine uzandığını düşündürür.
+Ímar’ın torunu Ragnall 918’de [Corbridge’de](@corbridge-918) İskoçya Kralı II. Konstantin’le savaşır, 919’da da [York’ta](@york-919) kendini kral ilan eder. 920’de o ve öteki kuzey hükümdarları Yaşlı Edward’la anlaşır, Ragnall 921’de ölür. Yerine, 917’de [Dublin’i](@dublin-937) geri almış olan akrabası Sihtric geçer, Lincoln’de onun adına basılan sikkeler egemenliğinin Humber’in güneyine uzandığını düşündürür.
 
 @image brunanburh-hogbacks-b727b1
 
-Edward’ın oğlu Æthelstan Ocak 926’da Tamworth’te Sihtric’le buluşur ve kız kardeşini onunla evlendirir. Sihtric 927’de ölünce Æthelstan York’u alır ve tahtta hak iddia eden Sihtric’in akrabası Dublin Kralı Guthfrith’i kovar. 12 Temmuz 927’de Penrith yakınındaki Eamont’ta Alba Kralı Konstantin, Deheubarth Kralı Hywel Dda, Gwent Kralı Owain ve Bamburgh hükümdarı Ealdred onun üstünlüğünü tanır, sikkeleri de onu bütün Britanya’nın kralı olarak anmaya başlar.
+Edward’ın oğlu Æthelstan Ocak 926’da [Tamworth’te](@tamworth-926) Sihtric’le buluşur ve kız kardeşini onunla evlendirir. Sihtric 927’de ölünce Æthelstan York’u alır ve tahtta hak iddia eden Sihtric’in akrabası Dublin Kralı Guthfrith’i kovar. 12 Temmuz 927’de Penrith yakınındaki [Eamont’ta](@eamont-927) Alba Kralı Konstantin, Deheubarth Kralı Hywel Dda, Gwent Kralı Owain ve Bamburgh hükümdarı Ealdred onun üstünlüğünü tanır, sikkeleri de onu bütün Britanya’nın kralı olarak anmaya başlar.
 
 @image brunanburh-penny-5699a2
 

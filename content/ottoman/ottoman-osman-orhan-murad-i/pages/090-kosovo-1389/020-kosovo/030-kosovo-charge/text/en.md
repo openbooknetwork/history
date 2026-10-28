@@ -1,6 +1,6 @@
-The battle opens with the Ottoman archers shooting at the Serbian heavy horse. The Serbian horsemen form a wedge and charge. They break through the Ottoman left wing under Yakub and inflict heavy losses on it, but gain less ground against the centre and the right.
+The battle opens with the Ottoman archers shooting at the [Serbian heavy horse](@kosovo-charge-knights). The Serbian horsemen form a wedge and charge. They break through the Ottoman left wing under Yakub and inflict heavy losses on it, but gain less ground against the centre and the right.
 
-In the centre the Serbian troops push the Ottomans back. On the Ottoman right Bayezid’s wing barely holds against the Bosnians of Vlatko Vuković, who inflict heavy losses on it.
+In the centre the Serbian troops push the Ottomans back. On the Ottoman right [Bayezid’s](@kosovo-charge-bayezid) wing barely holds against the Bosnians of [Vlatko Vuković](@kosovo-charge-vukovic), who inflict heavy losses on it.
 
 Murad is killed, the only Ottoman sultan to die in battle. A letter from Florence to King Tvrtko, dated 20 October 1389, says that twelve lords cut their way through the Ottoman lines and the ring of chained camels to Murad’s tent, and one of them stabbed him in the throat and the belly.
 

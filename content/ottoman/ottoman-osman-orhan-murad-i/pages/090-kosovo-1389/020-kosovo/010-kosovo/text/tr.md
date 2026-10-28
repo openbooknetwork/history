@@ -1,4 +1,4 @@
-Muharebe 15 Haziran 1389’da, Priştine’nin 5 km kadar kuzeybatısında, Vuk Branković’in topraklarındaki Kosova Ovası’nda, Lab ve Sitnica ırmaklarının arasındaki düzlükte yapılır. Muharebeye ilişkin anlatımlar az ve geç tarihlidir. Muharebeden sonraki aylarda yazılan mektuplar çarpışmalar hakkında pek bir şey söylemez, ilk ayrıntılı Osmanlı anlatımı olan Neşri’nin eseri ise 16. yüzyılın başlarından kalmadır. Mevziler ve muharebenin gidişi yeniden kurgulanmıştır, Sırp ve Osmanlı anlatımları da birbirini tutmaz.
+Muharebe 15 Haziran 1389’da, [Priştine’nin](@pristina) 5 km kadar kuzeybatısında, Vuk Branković’in topraklarındaki Kosova Ovası’nda, Lab ve Sitnica ırmaklarının arasındaki düzlükte yapılır. Muharebeye ilişkin anlatımlar az ve geç tarihlidir. Muharebeden sonraki aylarda yazılan mektuplar çarpışmalar hakkında pek bir şey söylemez, ilk ayrıntılı Osmanlı anlatımı olan Neşri’nin eseri ise 16. yüzyılın başlarından kalmadır. Mevziler ve muharebenin gidişi yeniden kurgulanmıştır, Sırp ve Osmanlı anlatımları da birbirini tutmaz.
 
 @image kosovo-facial-chronicle-da73aa
 

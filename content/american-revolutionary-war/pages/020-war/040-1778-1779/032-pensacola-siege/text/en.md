@@ -2,6 +2,6 @@ In early April O’Neill’s scouts reconnoitre the British works. Fort George, 
 
 @image pensacola-planas-plan-d33200
 
-Gálvez is wounded on 12 April, and José de Ezpeleta takes command in the field. On 19 April a fleet appears at the bay: the Spanish and French squadron from Havana under José Solano and François-Aymar de Monteil, with 1,700 sailors and 1,600 soldiers, which raises the army to about 8,000 men. Choctaw warriors attack the siege works on 19 and 24 April, and on 26 April a sortie from the Queen’s Redoubt is driven back.
+Gálvez is wounded on 12 April, and José de [Ezpeleta](@pensacola-siege-ezpeleta) takes command in the field. On 19 April a fleet appears at the bay: the Spanish and French squadron from Havana under José Solano and François-Aymar de Monteil, with 1,700 sailors and 1,600 soldiers, which raises the army to about 8,000 men. Choctaw warriors attack the siege works on 19 and 24 April, and on 26 April a sortie from the Queen’s Redoubt is driven back.
 
 The Spanish batteries open fire on 30 April. A hurricane on 5 and 6 May forces the fleet away from the coast and floods the trenches, and the army holds its lines.

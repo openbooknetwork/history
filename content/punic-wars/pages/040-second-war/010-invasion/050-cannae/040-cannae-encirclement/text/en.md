@@ -1,4 +1,4 @@
-The Roman infantry press deeper into the bend of the Carthaginian line, and the ranks behind crowd forward into every gap until the men have little room to use their weapons. The Libyan infantry, still fresh at the ends of the line, now turn inwards and attack both Roman flanks. Hasdrubal’s cavalry return from the pursuit and fall on the Roman rear.
+The [Roman infantry](@cannae-enc-romans) press deeper into the bend of the Carthaginian line, and the ranks behind crowd forward into every gap until the men have little room to use their weapons. The [Libyan infantry](@cannae-enc-libyans-left), still fresh at the ends of the line, now turn inwards and attack both Roman flanks. [Hasdrubal’s](@cannae-enc-hasdrubal) cavalry return from the pursuit and fall on the Roman rear.
 
 @image cannae-paullus-c0e545
 

@@ -4,7 +4,7 @@ A Maya lord seizes the survivors as they land. The captain, Valdivia, and four o
 
 @image shipwreck-xamanha-cc34f6
 
-Around 1514 Guerrero passes to Nachan Can, the lord of Chetumal. He takes up Maya ways, with a tattooed face and pierced ears, marries Zazil Ha, a daughter of Nachan Can, and has three children with her. He rises to nacom, a war captain. Aguilar remains a slave of the batab of Xamanha, on the coast facing Cozumel. He learns Yucatec Maya and keeps his vows as a cleric.
+Around 1514 Guerrero passes to Nachan Can, the lord of [Chetumal](@chetumal-1514). He takes up Maya ways, with a tattooed face and pierced ears, marries Zazil Ha, a daughter of Nachan Can, and has three children with her. He rises to nacom, a war captain. Aguilar remains a slave of the batab of [Xamanha](@xamanha-1511), on the coast facing [Cozumel](@cozumel-1519). He learns Yucatec Maya and keeps his vows as a cleric.
 
 @image shipwreck-guerrero-a41c82
 

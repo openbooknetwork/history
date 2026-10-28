@@ -1,4 +1,4 @@
-The Representative Committee moves to Ankara on 27 December 1919. On 16 March 1920 the Allies formally occupy İstanbul and arrest nationalist deputies. The Ottoman parliament stops meeting, and the Sultan dissolves it on 11 April. The Grand National Assembly opens in Ankara on 23 April 1920 and elects Mustafa Kemal its president.
+The Representative Committee moves to [Ankara](@ankara) on 27 December 1919. On 16 March 1920 the Allies formally occupy [İstanbul](@istanbul-1920) and arrest nationalist deputies. The Ottoman parliament stops meeting, and the Sultan dissolves it on 11 April. The Grand National Assembly opens in Ankara on 23 April 1920 and elects Mustafa Kemal its president.
 
 @image ankara-1920-2ccf6b
 

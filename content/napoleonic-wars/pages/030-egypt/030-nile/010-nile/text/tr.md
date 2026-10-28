@@ -2,9 +2,9 @@ Tulon’daki Fransız hazırlıklarından kaygılanan Amirallik, Tagus açıklar
 
 @image nile-nelson-0c392d
 
-Keşif için firkateyni olmayan Nelson, Napoli’de Fransızların Malta’ya doğru geçtiğini, 22 Haziran’da da Malta’dan doğuya doğru ayrıldıklarını öğrenir. Mısır’a gittikleri sonucuna varır ve doğrudan İskenderiye’ye yelken açar, o gece karanlıkta daha yavaş giden Fransız konvoyunu fark etmeden geçer. 28 Haziran’da İskenderiye’ye varır, Fransız gemisi bulamaz ve kuzeyde Anadolu’ya, oradan batıda Sicilya’ya döner. Fransız öncü gemileri ertesi akşam İskenderiye açıklarına ulaşır.
+Keşif için firkateyni olmayan Nelson, [Napoli’de](@nile-naples) Fransızların Malta’ya doğru geçtiğini, 22 Haziran’da da Malta’dan doğuya doğru ayrıldıklarını öğrenir. Mısır’a gittikleri sonucuna varır ve doğrudan [İskenderiye’ye](@nile-alexandria) yelken açar, o gece karanlıkta daha yavaş giden Fransız konvoyunu fark etmeden geçer. 28 Haziran’da İskenderiye’ye varır, Fransız gemisi bulamaz ve kuzeyde Anadolu’ya, oradan batıda Sicilya’ya döner. Fransız öncü gemileri ertesi akşam İskenderiye açıklarına ulaşır.
 
-Nelson Sirakuza’da erzak aldıktan sonra 24 Temmuz’da yeniden denize açılır ve 28 Temmuz’da Mora’daki Koroni’de Fransızların Mısır’da olduğunu öğrenir. Brueys ise 13 hat gemisini İskenderiye’nin 32 km kuzeydoğusundaki Ebukır Koyu’nda demirletmiştir, çünkü limana giren kanal büyük gemiler için fazla sığdır. Gemilerde yiyecek ve su azdır, denizcilerin üçte birine yakını her an karadadır, Bedevi saldırılarına karşı koruma altında kuyu kazar ve erzak toplar.
+Nelson [Sirakuza’da](@nile-syracuse) erzak aldıktan sonra 24 Temmuz’da yeniden denize açılır ve 28 Temmuz’da Mora’daki [Koroni’de](@nile-coron) Fransızların Mısır’da olduğunu öğrenir. Brueys ise 13 hat gemisini İskenderiye’nin 32 km kuzeydoğusundaki Ebukır Koyu’nda demirletmiştir, çünkü limana giren kanal büyük gemiler için fazla sığdır. Gemilerde yiyecek ve su azdır, denizcilerin üçte birine yakını her an karadadır, Bedevi saldırılarına karşı koruma altında kuyu kazar ve erzak toplar.
 
 @image nile-brueys-61b9f1
 

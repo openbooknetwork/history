@@ -1,4 +1,4 @@
-Livy writes that Hannibal lays waste the country around the town and attacks it from three sides. His main effort is against a corner of the wall that faces more level, open ground than the rest, where he brings up sheds to cover his battering rams. A strong tower stands at that corner, and the defenders make sorties from it against the siege works.
+Livy writes that [Hannibal](@saguntum-assault-hannibal) lays waste the country around the town and attacks it from three sides. His main effort is against a corner of the wall that faces more level, open ground than the rest, where he brings up sheds to cover his battering rams. A strong tower stands at that corner, and the defenders make sorties from it against the siege works.
 
 @image saguntum-citadel-c86982
 

@@ -2,6 +2,6 @@ The Romans rebuild their fleet with 220 new ships, and early in 254 BC both cons
 
 @image panormus-battle-a8b687
 
-Much of western inland Sicily now comes over to Rome, and in 252 BC the Romans take Thermae and Lipara. In 253 BC a storm sinks another 150 Roman ships on the way back from raiding Africa. Hasdrubal, who fought against Regulus in Africa, brings reinforcements and elephants to Sicily, and for two years the Romans keep to the hills, by Polybius’s account out of fear of the elephants.
+Much of western inland Sicily now comes over to Rome, and in 252 BC the Romans take [Thermae](@thermae-252) and Lipara. In 253 BC a storm sinks another 150 Roman ships on the way back from raiding Africa. Hasdrubal, who fought against Regulus in Africa, brings reinforcements and elephants to Sicily, and for two years the Romans keep to the hills, by Polybius’s account out of fear of the elephants.
 
-In late summer 250 BC Hasdrubal learns that one consul has left Sicily with half the Roman army. He marches from Lilybaeum with 30,000 men and between 60 and 142 elephants and lays waste the harvest of Rome’s new allies. The other consul, Lucius Caecilius Metellus, withdraws his two legions into Panormus.
+In late summer 250 BC Hasdrubal learns that one consul has left Sicily with half the Roman army. He marches from [Lilybaeum](@lilybaeum-250) with 30,000 men and between 60 and 142 elephants and lays waste the harvest of Rome’s new allies. The other consul, Lucius Caecilius Metellus, withdraws his two legions into Panormus.

@@ -1,8 +1,8 @@
-From Cozumel the fleet sails round the north of Yucatán and down the west coast to the Tabasco River, which Cortés names the Grijalva after its discoverer. On 12 March 1519 the ships anchor off the river mouth, and Cortés takes the men upstream in the boats to look for the large town Grijalva found. They land at Punta de los Palmares, half a league from Potonchán.
+From [Cozumel](@cozumel-1519) the fleet sails round the north of Yucatán and down the west coast to the Tabasco River, which Cortés names the Grijalva after its discoverer. On 12 March 1519 the ships anchor off the river mouth, and Cortés takes the men upstream in the boats to look for the large town Grijalva found. They land at Punta de los Palmares, half a league from [Potonchán](@potonchan-1519).
 
 @image centla-river-340a06
 
-Potonchán is the capital of the Chontal Maya province of Tabasco. It is a river and sea port whose trade reaches from Xicalango and Acalan to Cozumel and the Ulúa valley in Honduras. The town stands on a low rise, with the river on one side and swamps on the other two. Its lord, Tabscoob, received Grijalva peacefully the year before, but Champotón has since warned the Chontal against the Spaniards.
+Potonchán is the capital of the Chontal Maya province of Tabasco. It is a river and sea port whose trade reaches from [Xicalango](@xicalango-1519) and Acalan to Cozumel and the Ulúa valley in Honduras. The town stands on a low rise, with the river on one side and swamps on the other two. Its lord, Tabscoob, received Grijalva peacefully the year before, but Champotón has since warned the Chontal against the Spaniards.
 
 @image centla-swamps-69d095
 

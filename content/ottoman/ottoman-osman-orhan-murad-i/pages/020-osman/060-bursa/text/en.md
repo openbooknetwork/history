@@ -4,6 +4,6 @@ According to the chronicles, Andronikos II orders the governor of Prusa to give 
 
 The commander of the garrison, called Saroz in the chronicles, surrenders to Orhan. By one account he converts to Islam and receives the title of bey, by another he leaves for Constantinople by way of Gemlik. Köse Mihal, by now a Muslim, acts as Orhan’s envoy in the talks.
 
-Orhan makes Bursa his capital. Osman’s body is brought from Söğüt and buried in the citadel of Bursa.
+Orhan makes Bursa his capital. Osman’s body is brought from [Söğüt](@sogut) and buried in the citadel of Bursa.
 
 @image bursa-osman-tomb-43d93c

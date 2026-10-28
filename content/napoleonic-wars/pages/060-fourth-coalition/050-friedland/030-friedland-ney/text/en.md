@@ -1,4 +1,4 @@
-Napoleon sees that the Russian left is cramped in a narrow tongue of land between the Alle and the Posthenen millstream, with the town and its bridges behind it. He places Ney’s corps between Posthenen and the Sortlack Wood, Lannes to its left in the centre and Mortier at Heinrichsdorf on the left, with Victor’s I Corps and the Imperial Guard in reserve behind Posthenen. The afternoon passes in forming up the arriving troops under cover of the guns.
+[Napoleon](@friedland-ney-napoleon) sees that the Russian left is cramped in a narrow tongue of land between the Alle and the Posthenen millstream, with the town and its bridges behind it. He places [Ney’s](@friedland-ney-ney) corps between Posthenen and the [Sortlack](@friedland-ney-sortlack) Wood, Lannes to its left in the centre and Mortier at Heinrichsdorf on the left, with Victor’s I Corps and the Imperial Guard in reserve behind Posthenen. The afternoon passes in forming up the arriving troops under cover of the guns.
 
 @image friedland-ney-meissonier-b9f581
 

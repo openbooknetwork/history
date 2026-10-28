@@ -1,10 +1,10 @@
-MS 761’de Tamarindito ve Petexbatún bölgesinin öteki merkezleri, Dos Pilas’taki efendilerine karşı ayaklanır. Tamarindito’daki hiyeroglifli bir merdiven, Dos Pilas kralı K'awiil Chan K'inich’in kaçışını kaydeder. Kraldan bir daha söz edilmez. Kraliyet ailesi büyük olasılıkla Petexbatún Gölü’ne bakan 90 m’lik bir kireçtaşı yarın üzerindeki ikinci başkent Aguateca’ya taşınır. Dos Pilas’ta kalan sığınmacılar, tapınaklarından ve saraylarından sökülen taşlarla çevrelerine duvar örer.
+MS 761’de Tamarindito ve Petexbatún bölgesinin öteki merkezleri, [Dos Pilas’taki](@dos-pilas-761) efendilerine karşı ayaklanır. Tamarindito’daki hiyeroglifli bir merdiven, Dos Pilas kralı K'awiil Chan K'inich’in kaçışını kaydeder. Kraldan bir daha söz edilmez. Kraliyet ailesi büyük olasılıkla Petexbatún Gölü’ne bakan 90 m’lik bir kireçtaşı yarın üzerindeki ikinci başkent [Aguateca’ya](@aguateca-800) taşınır. Dos Pilas’ta kalan sığınmacılar, tapınaklarından ve saraylarından sökülen taşlarla çevrelerine duvar örer.
 
 @image petexbatun-aguateca-74f38e
 
-Savaş eski krallığın her yanına yayılır. Aguateca’nın çevresine 4,8 km’yi aşan savunma duvarları yapılır. Göldeki bir yarımadada bulunan Punta de Chimino, yarımadanın boynuna üç hendek kazar. Bunlardan biri 12 m derinliğindedir ve her birinin üstünde bir çit uzanır. En içteki hendek suyla dolar ve kasabayı bir adaya çevirir.
+Savaş eski krallığın her yanına yayılır. Aguateca’nın çevresine 4,8 km’yi aşan savunma duvarları yapılır. Göldeki bir yarımadada bulunan [Punta de Chimino](@punta-de-chimino-800), yarımadanın boynuna üç hendek kazar. Bunlardan biri 12 m derinliğindedir ve her birinin üstünde bir çit uzanır. En içteki hendek suyla dolar ve kasabayı bir adaya çevirir.
 
-735’ten beri Dos Pilas’ın vasalı olan Seibal, 771’de Ajaw B'ot’un tahta çıkmasıyla yeniden bağımsız olur. Pasión Nehri’nin yukarısında, Cancuén kralı Tajal Chan Ahk 770’te 200 odalı bir saray yaptırır.
+735’ten beri Dos Pilas’ın vasalı olan [Seibal](@seibal-771), 771’de Ajaw B'ot’un tahta çıkmasıyla yeniden bağımsız olur. Pasión Nehri’nin yukarısında, [Cancuén](@cancuen-800) kralı Tajal Chan Ahk 770’te 200 odalı bir saray yaptırır.
 
 @image petexbatun-cancuen-54c8c6
 

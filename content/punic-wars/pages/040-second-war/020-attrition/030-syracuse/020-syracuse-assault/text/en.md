@@ -1,4 +1,4 @@
-Marcellus attacks the sea wall of Achradina with 60 quinqueremes. Eight of them are lashed together in pairs to carry sambucae, tall ladders with a covered platform at the top, which are raised against the wall from the sea. On land Appius Claudius attacks the walls of Epipolae near the Hexapylon, the gate on the north side of the plateau.
+[Marcellus](@syracuse-assault-marcellus) attacks the sea wall of [Achradina](@syracuse-assault-achradina) with 60 quinqueremes. Eight of them are lashed together in pairs to carry sambucae, tall ladders with a covered platform at the top, which are raised against the wall from the sea. On land [Appius Claudius](@syracuse-assault-appius) attacks the walls of Epipolae near the Hexapylon, the gate on the north side of the plateau.
 
 @image syracuse-archimedes-defences-b192b1
 

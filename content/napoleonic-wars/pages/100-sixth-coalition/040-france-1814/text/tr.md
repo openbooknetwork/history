@@ -6,10 +6,10 @@ Napolyon 29 Ocak’ta Brienne’de Blücher’i gafil avlar ve neredeyse esir al
 
 @image france-1814-la-rothiere-5948b5
 
-Altı Gün Seferi’nde Napolyon yaklaşık 30.000 askerle Blücher’in kolordularına teker teker saldırır. 10 Şubat’ta Champaubert’de Olsufyev’in Rus kolordusunu yok eder. 11 Şubat’ta Montmirail’de Sacken’in Rusları doğuya doğru yarıp geçmeye çalışır, Napolyon takviyeler gelene kadar onları Eski Muhafızlar, süvari ve Ricard’ın tümeniyle durdurur.
+Altı Gün Seferi’nde Napolyon yaklaşık 30.000 askerle Blücher’in kolordularına teker teker saldırır. 10 Şubat’ta [Champaubert’de](@france-1814-champaubert) Olsufyev’in Rus kolordusunu yok eder. 11 Şubat’ta Montmirail’de Sacken’in Rusları doğuya doğru yarıp geçmeye çalışır, Napolyon takviyeler gelene kadar onları Eski Muhafızlar, süvari ve Ricard’ın tümeniyle durdurur.
 
 Marchais köyü birkaç kez el değiştirir, saat 17.00’de Ruslar köyü bırakır ve Yorck’un Prusyalılarıyla birlikte kuzeye çekilir. Napolyon onları 12 Şubat’ta Château-Thierry’de yeniden, 14 Şubat’ta da Vauchamps’ta bizzat Blücher’i yener. 50.000 ile 56.000 kişilik Silezya Ordusu yaklaşık 17.750, Fransızlar 3.400 kişi kaybeder.
 
 @image montmirail-vernet-013958
 
-Napolyon güneye, Schwarzenberg’e döner, 17 Şubat’ta Mormant’ta öncüsünü ezer, 18 Şubat’ta Montereau’da Württemberg Veliahdı’nı bozguna uğratır ve Bohemya Ordusu geri çekilir. Blücher kuzeye yürür ve Laon’da Kuzey Ordusu ile birleşerek 100.000’i aşkın askere ulaşır. Napolyon 7 Mart’ta Craonne’da öncüsüne saldırır, 9 ve 10 Mart’ta Laon’da yenilir. 13 Mart’ta Reims’i geri alır, ama 20 ve 21 Mart’ta Arcis-sur-Aube’da 28.000 askerle Schwarzenberg’in 80.000 kişilik ana ordusuyla karşılaşır ve doğuya çekilir.
+Napolyon güneye, Schwarzenberg’e döner, 17 Şubat’ta Mormant’ta öncüsünü ezer, 18 Şubat’ta [Montereau’da](@france-1814-montereau) Württemberg Veliahdı’nı bozguna uğratır ve Bohemya Ordusu geri çekilir. Blücher kuzeye yürür ve [Laon’da](@france-1814-laon) Kuzey Ordusu ile birleşerek 100.000’i aşkın askere ulaşır. Napolyon 7 Mart’ta Craonne’da öncüsüne saldırır, 9 ve 10 Mart’ta Laon’da yenilir. 13 Mart’ta [Reims’i](@france-1814-reims) geri alır, ama 20 ve 21 Mart’ta [Arcis-sur-Aube’da](@france-1814-arcis) 28.000 askerle Schwarzenberg’in 80.000 kişilik ana ordusuyla karşılaşır ve doğuya çekilir.

@@ -1,4 +1,4 @@
-Bir saat kadar sonra Cortés ve atlılar Chontal ordusunun arkasından gelir. Atlılarla piyade arasında kalan savaşçıların düzeni bozulur ve kaçarlar. Chontallar daha önce hiç at görmemiştir. Bernal Díaz, atı ve biniciyi tek bir yaratık sandıklarını yazar.
+Bir saat kadar sonra [Cortés](@centla-horse-cortes) ve atlılar Chontal ordusunun arkasından gelir. Atlılarla piyade arasında kalan savaşçıların düzeni bozulur ve kaçarlar. Chontallar daha önce hiç at görmemiştir. Bernal Díaz, atı ve biniciyi tek bir yaratık sandıklarını yazar.
 
 @image centla-horse-cortes-a53e3a
 

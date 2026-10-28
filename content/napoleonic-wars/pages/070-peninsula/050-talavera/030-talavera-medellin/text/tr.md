@@ -1,4 +1,4 @@
-28 Temmuz şafağında Portiña’nın öbür yakasında, Medellín’in karşısındaki Cascajal tepesinde duran 30 Fransız topu ateş açar, Wellesley de piyadesini sırtın gerisine çeker. Ruffin’in tümeni üç alayı yan yana, her biri yaklaşık 160 sıra genişliğinde ve dokuz saf derinliğinde, Medellín’e yeniden saldırır.
+28 Temmuz şafağında Portiña’nın öbür yakasında, [Medellín’in](@talavera-medellin-medellin) karşısındaki [Cascajal](@talavera-medellin-cascajal) tepesinde duran 30 Fransız topu ateş açar, Wellesley de piyadesini sırtın gerisine çeker. [Ruffin’in](@talavera-medellin-ruffin) tümeni üç alayı yan yana, her biri yaklaşık 160 sıra genişliğinde ve dokuz saf derinliğinde, Medellín’e yeniden saldırır.
 
 @image talavera-hartmann-c2d271
 

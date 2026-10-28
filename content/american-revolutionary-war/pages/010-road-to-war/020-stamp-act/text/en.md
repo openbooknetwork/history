@@ -2,7 +2,7 @@ Parliament looks to the colonies to pay for the garrison it keeps in America. Th
 
 @image stamp-proof-1765-e0058e
 
-In August 1765 a Boston crowd destroys the stamp distributor’s office and sacks the lieutenant governor’s house. Crowds force stamp agents to resign in one colony after another, and from November groups calling themselves Sons of Liberty organise the resistance. In October delegates from nine colonies meet in New York as the Stamp Act Congress and declare that only their own assemblies may tax them.
+In August 1765 a [Boston](@boston-1765) crowd destroys the stamp distributor’s office and sacks the lieutenant governor’s house. Crowds force stamp agents to resign in one colony after another, and from November groups calling themselves Sons of Liberty organise the resistance. In October delegates from nine colonies meet in [New York](@new-york-1765) as the Stamp Act Congress and declare that only their own assemblies may tax them.
 
 @image stamp-act-riots-abfb01
 

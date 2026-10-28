@@ -4,6 +4,6 @@ With Howe’s army in winter quarters in a chain of posts across New Jersey, Was
 
 @image hessians-trumbull-d3b6c1
 
-At the end of December he crosses again. On 2 January Cornwallis comes down from Princeton and attacks him at Assunpink Creek. That night Washington leaves his campfires burning, marches round the British flank and defeats their rear guard at Princeton the next morning. He then takes the army into the hills at Morristown for the winter, and the British keep only their posts at New Brunswick and Perth Amboy.
+At the end of December he crosses again. On 2 January Cornwallis comes down from [Princeton](@princeton) and attacks him at Assunpink Creek. That night Washington leaves his campfires burning, marches round the British flank and defeats their rear guard at Princeton the next morning. He then takes the army into the hills at [Morristown](@morristown) for the winter, and the British keep only their posts at New Brunswick and Perth Amboy.
 
 @image mercer-trumbull-6020fb

@@ -1,4 +1,4 @@
-1354’te Orhan’ın oğlu Süleyman Ankara’yı ve onun kuzeyindeki Gerede’yi alır. Başka anlatımlar Ankara’nın alınışını 1356’ya tarihler. Orta Anadolu yaylasındaki bu şehrin kendi beyi yoktur. Şehri, Selçuklu ve İlhanlı egemenliği zayıfladığından beri burada düzeni sağlayan esnaf birliklerinin ustaları, ahiler yönetir.
+1354’te Orhan’ın oğlu Süleyman [Ankara’yı](@ankara-1354) ve onun kuzeyindeki [Gerede’yi](@gerede-1354) alır. Başka anlatımlar Ankara’nın alınışını 1356’ya tarihler. Orta Anadolu yaylasındaki bu şehrin kendi beyi yoktur. Şehri, Selçuklu ve İlhanlı egemenliği zayıfladığından beri burada düzeni sağlayan esnaf birliklerinin ustaları, ahiler yönetir.
 
 @image ankara-arslanhane-mosque-0c9d47
 

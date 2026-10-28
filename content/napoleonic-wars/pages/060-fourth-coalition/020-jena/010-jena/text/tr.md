@@ -1,4 +1,4 @@
-Saalfeld’den sonra Napolyon Saale vadisi boyunca kuzeye, Gera ve Leipzig’e doğru ilerler. Prusyalıların Erfurt ve Weimar çevresinde toplanacağını düşünür ve batıya dönüp sol kanatlarına saldırarak Berlin yolunu kesmeyi amaçlar. 12 Ekim’de Davout’nun III. Kolordusu ile Bernadotte’nin I. Kolordusu Prusyalıların çekilme yolunun üzerindeki Naumburg’a varır, Lannes’ın V. Kolordusu ise Saale boyunca Jena’ya ilerler.
+Saalfeld’den sonra Napolyon Saale vadisi boyunca kuzeye, Gera ve Leipzig’e doğru ilerler. Prusyalıların Erfurt ve [Weimar](@jena-weimar) çevresinde toplanacağını düşünür ve batıya dönüp sol kanatlarına saldırarak Berlin yolunu kesmeyi amaçlar. 12 Ekim’de Davout’nun III. Kolordusu ile Bernadotte’nin I. Kolordusu Prusyalıların çekilme yolunun üzerindeki [Naumburg’a](@jena-naumburg) varır, Lannes’ın V. Kolordusu ise Saale boyunca Jena’ya ilerler.
 
 @image jena-napoleon-ff5946
 

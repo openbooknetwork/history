@@ -1,8 +1,8 @@
-Harold Godwinson 1066 yazını güney kıyısında, Normandiya’dan gelecek bir istilayı bekleyerek geçirir ve 8 Eylül’de milisleri dağıtır. Norveçlilerin karaya çıktığını öğrenince hassa askerleri ve toplayabildiği kadar thegn, yani toprak sahibi savaşçıyla gece gündüz yol alarak kuzeye yürür. Londra ile Tadcaster arasındaki 300 km’yi yaklaşık dört günde aşar ve York’un Harald’a teslim olduğu gün, 24 Eylül’de oraya varır.
+Harold Godwinson 1066 yazını güney kıyısında, Normandiya’dan gelecek bir istilayı bekleyerek geçirir ve 8 Eylül’de milisleri dağıtır. Norveçlilerin karaya çıktığını öğrenince hassa askerleri ve toplayabildiği kadar thegn, yani toprak sahibi savaşçıyla gece gündüz yol alarak kuzeye yürür. Londra ile [Tadcaster](@tadcaster-1066) arasındaki 300 km’yi yaklaşık dört günde aşar ve [York’un](@york-1066) Harald’a teslim olduğu gün, 24 Eylül’de oraya varır.
 
 @image stamford-bridge-penny-2e97d6
 
-Harald York’ta asker bırakmamıştır, Northumbrialılar da rehineleri ve erzakı kentin yaklaşık 11 km doğusunda, Derwent ırmağı üzerindeki geçit yeri Stamford Bridge’e getirecektir. 25 Eylül sabahı Harold York’un içinden geçerek oraya yürür. Aynı sabah Harald ile Tostig ordunun üçte ikisiyle Riccall’dan ayrılır. Ordunun üçte biri Harald’ın oğlu Olaf, Eystein Orri ve Orkney kontlarının komutasında gemilerin başında kalır.
+Harald York’ta asker bırakmamıştır, Northumbrialılar da rehineleri ve erzakı kentin yaklaşık 11 km doğusunda, Derwent ırmağı üzerindeki geçit yeri Stamford Bridge’e getirecektir. 25 Eylül sabahı Harold York’un içinden geçerek oraya yürür. Aynı sabah Harald ile Tostig ordunun üçte ikisiyle [Riccall’dan](@riccall-1066) ayrılır. Ordunun üçte biri Harald’ın oğlu Olaf, Eystein Orri ve Orkney kontlarının komutasında gemilerin başında kalır.
 
 @image stamford-bridge-paris-c8e252
 

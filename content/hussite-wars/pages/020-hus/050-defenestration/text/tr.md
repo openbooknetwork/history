@@ -1,4 +1,4 @@
-6 Temmuz 1419’da Wenceslas, Prag’ın Yeni Şehir’ine Katoliklerin çoğunlukta olduğu yeni bir meclis atar, bu meclis de birkaç Husçuyu tutuklatır ve Husçu alaylarını yasaklar. 30 Temmuz Pazar günü pek çok kişi Kar Meryem Ana Kilisesi’nde Jan Želivský’nin vaazına silahlı gelir. Želivský ardından elinde kutsal ekmekle onları alay hâlinde Aziz Stefanos Kilisesi’ne götürür, orada ayindeki cemaati kovarlar, sonra da tutukluların serbest bırakılmasını istemek için Sığır Pazarı’ndaki Yeni Şehir belediye binasına giderler.
+6 Temmuz 1419’da Wenceslas, Prag’ın Yeni Şehir’ine Katoliklerin çoğunlukta olduğu yeni bir meclis atar, bu meclis de birkaç Husçuyu tutuklatır ve Husçu alaylarını yasaklar. 30 Temmuz Pazar günü pek çok kişi [Kar Meryem Ana Kilisesi’nde](@snows-1419) Jan Želivský’nin vaazına silahlı gelir. Želivský ardından elinde kutsal ekmekle onları alay hâlinde [Aziz Stefanos Kilisesi’ne](@st-stephen-1419) götürür, orada ayindeki cemaati kovarlar, sonra da tutukluların serbest bırakılmasını istemek için Sığır Pazarı’ndaki [Yeni Şehir belediye binasına](@new-town-hall-1419) giderler.
 
 @image prague-new-town-hall-f1cf09
 

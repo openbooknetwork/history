@@ -1,4 +1,4 @@
-Hradec’li Jindřich komutasındaki Hospitalierler set boyunca arabalara hücum eder ve el toplarıyla arbaletlere karşı çok sayıda adam ve at kaybeder. Arabalara ulaşabilenler birkaç kişilik bir cephede çarpışır. Břeněk Švihovský Husçu hattının başında öldürülür, Hradec’li Jindřich de ayak parmağından vurulur ve bir süre sonra bu yaradan ölür.
+[Hradec’li Jindřich](@sudomer-dismount-hradec) komutasındaki Hospitalierler set boyunca arabalara hücum eder ve el toplarıyla arbaletlere karşı çok sayıda adam ve at kaybeder. Arabalara ulaşabilenler birkaç kişilik bir cephede çarpışır. [Břeněk Švihovský](@sudomer-dismount-brenek) Husçu hattının başında öldürülür, Hradec’li Jindřich de ayak parmağından vurulur ve bir süre sonra bu yaradan ölür.
 
 @image sudomer-liebscher-17fcfe
 

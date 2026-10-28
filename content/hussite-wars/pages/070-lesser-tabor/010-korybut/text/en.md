@@ -1,4 +1,4 @@
-On 9 March 1422 the town council of Prague has the priest Jan Želivský arrested and beheaded. Grand Duke Vytautas of Lithuania accepts the Bohemian crown that the Hussites offer him and sends Sigismund Korybut, a nephew of King Władysław Jagiełło of Poland, with an army. Korybut takes Uničov in Moravia in April and reaches Prague in mid May, and a diet at Čáslav makes him administrator of the land. On 11 June Žižka and Tábor confirm in writing that they accept him.
+On 9 March 1422 the town council of [Prague](@prague-1422) has the priest Jan Želivský arrested and beheaded. Grand Duke Vytautas of Lithuania accepts the Bohemian crown that the Hussites offer him and sends Sigismund Korybut, a nephew of King Władysław Jagiełło of Poland, with an army. Korybut takes Uničov in Moravia in April and reaches Prague in mid May, and a diet at Čáslav makes him administrator of the land. On 11 June Žižka and Tábor confirm in writing that they accept him.
 
 @image zelivsky-head-bfb6b3
 

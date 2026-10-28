@@ -1,4 +1,4 @@
-Panormus’tan cesaret alan Romalılar MÖ 250’de iki konsülle birlikte Kartaca’nın Sicilya’daki başlıca üssü Lilybaeum’u kuşatır ve limanı 200 gemiyle abluka altına alır. Kara tarafını toprak ve ahşaptan kamplar ve duvarlarla kapatırlar, liman ağzını ahşap bir zincir setle kapatmayı defalarca dener, ama deniz seti parçalar.
+Panormus’tan cesaret alan Romalılar MÖ 250’de iki konsülle birlikte Kartaca’nın Sicilya’daki başlıca üssü [Lilybaeum’u](@lilybaeum-249) kuşatır ve limanı 200 gemiyle abluka altına alır. Kara tarafını toprak ve ahşaptan kamplar ve duvarlarla kapatırlar, liman ağzını ahşap bir zincir setle kapatmayı defalarca dener, ama deniz seti parçalar.
 
 @image lilybaeum-capo-boeo-866174
 

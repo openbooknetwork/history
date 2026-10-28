@@ -1,4 +1,4 @@
-When the attacks resume, the rams bring down three towers and the wall between them, and the Carthaginians fight their way into the breach. Livy describes a movable tower higher than the walls, with catapults on every floor, and 500 Africans undermining the wall with pickaxes. The defenders build a new wall behind each breach. While Hannibal campaigns against the Oretani and the Carpetani, Maharbal presses the siege.
+When the attacks resume, the rams bring down three towers and the wall between them, and the Carthaginians fight their way into the breach. Livy describes a movable tower higher than the walls, with catapults on every floor, and 500 Africans undermining the wall with pickaxes. The defenders build a new wall behind each breach. While Hannibal campaigns against the Oretani and the Carpetani, [Maharbal](@saguntum-fall-maharbal) presses the siege.
 
 @image saguntum-last-day-616ae3
 

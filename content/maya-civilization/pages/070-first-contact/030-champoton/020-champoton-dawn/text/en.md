@@ -2,6 +2,6 @@ At sunrise the Spaniards find themselves surrounded by a large army on the landw
 
 @image champoton-dawn-bernal-diaz-c66515
 
-Fresh squadrons keep arriving. After the first shock of swords, crossbows and muskets, the warriors keep their distance and shoot. Calling out "calachuni", the chief, they aim at Hernández de Córdoba, who is hit by many arrows. They also try to take men alive, and carry off two of them, Alonso Boto and an old Portuguese.
+Fresh squadrons keep arriving. After the first shock of swords, crossbows and muskets, the warriors keep their distance and shoot. Calling out "calachuni", the chief, they aim at [Hernández de Córdoba](@champoton-dawn-cordoba), who is hit by many arrows. They also try to take men alive, and carry off two of them, Alonso Boto and an old Portuguese.
 
 The Spaniards stay together near the wells, since a retreat under attack seems more dangerous than standing. The fight goes on until nearly every man in the party is wounded.

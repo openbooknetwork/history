@@ -6,4 +6,4 @@ The guns fire from the wagons as they roll, and gunfire in the dark throws the r
 
 @image kank-view-047abc
 
-Less than a quarter of a mile on, below the hill of Kaňk, the wagons close into a fort again at daybreak. Sigismund awaits more troops and does not attack, and the Hussites withdraw to Kolín. The king takes the retreat for a victory and lets his men find winter quarters in the villages around.
+Less than a quarter of a mile on, below the hill of Kaňk, the wagons close into a fort again at daybreak. [Sigismund](@kutna-hora-breakout-sigismund) awaits more troops and does not attack, and the Hussites withdraw to Kolín. The king takes the retreat for a victory and lets his men find winter quarters in the villages around.

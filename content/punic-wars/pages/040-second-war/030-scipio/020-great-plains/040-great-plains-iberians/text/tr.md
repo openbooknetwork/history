@@ -1,4 +1,4 @@
-İberler sıkı çarpışır, hastatiler de onları durdurur. Scipio, alışılageldiği gibi principesleri ön hatta sürmek yerine her lejyonun principes ve triarilerini bir kol halinde toplar, onları hattın uçlarından dışarı yürütür ve İberlerin yanlarına ve arkasına çevirir.
+[İberler](@great-plains-iberians-iberians) sıkı çarpışır, hastatiler de onları durdurur. [Scipio](@great-plains-iberians-scipio), alışılageldiği gibi principesleri ön hatta sürmek yerine her lejyonun principes ve triarilerini bir kol halinde toplar, onları hattın uçlarından dışarı yürütür ve İberlerin yanlarına ve arkasına çevirir.
 
 @image syphax-coin-e1c5c0
 

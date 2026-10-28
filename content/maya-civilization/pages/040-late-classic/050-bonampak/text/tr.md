@@ -1,4 +1,4 @@
-Usumacinta’nın bir kolu yakınındaki küçük bir kent olan Bonampak, 8. yüzyılın sonunda Yaxchilan’a bağlıdır. Yapı 1’in üç kapısının üstündeki oymalı lentolar, Aj Sak Teles’in 780’de, Yaxchilanlı efendinin 4 Ocak 787’de ve Bonampak hükümdarı Yajaw Chan Muwaan’ın 12 Ocak 787’de esir alışını gösterir. MS 790 dolayında Yaxchilan kralının gönderdiği ressamlar Yapı 1’in üç odasını duvar resimleriyle kaplar.
+[Usumacinta’nın](@usumacinta-726) bir kolu yakınındaki küçük bir kent olan [Bonampak](@bonampak-790), 8. yüzyılın sonunda [Yaxchilan’a](@yaxchilan-790) bağlıdır. Yapı 1’in üç kapısının üstündeki oymalı lentolar, Aj Sak Teles’in 780’de, Yaxchilanlı efendinin 4 Ocak 787’de ve Bonampak hükümdarı Yajaw Chan Muwaan’ın 12 Ocak 787’de esir alışını gösterir. MS 790 dolayında Yaxchilan kralının gönderdiği ressamlar Yapı 1’in üç odasını duvar resimleriyle kaplar.
 
 @image bonampak-room-1-4fba31
 

@@ -1,4 +1,4 @@
-1767’de Maliye Bakanı Townshend bu kez limanlarda toplanan cam, boya, kâğıt, kurşun ve çay vergileriyle yeniden dener. Koloniler yeni bir boykotla ve Parlamento’nun ticareti düzenleyebileceğini ama Amerika’da gelir toplayamayacağını savunan broşürlerle karşılık verir. Direnişin merkezi Boston’dur. 1 Ekim 1768’den itibaren on altı bin kadar nüfuslu kasabada düzeni sağlamak için dört İngiliz alayı gelir.
+1767’de Maliye Bakanı Townshend bu kez limanlarda toplanan cam, boya, kâğıt, kurşun ve çay vergileriyle yeniden dener. Koloniler yeni bir boykotla ve Parlamento’nun ticareti düzenleyebileceğini ama Amerika’da gelir toplayamayacağını savunan broşürlerle karşılık verir. Direnişin merkezi [Boston’dur](@boston-1770). 1 Ekim 1768’den itibaren on altı bin kadar nüfuslu kasabada düzeni sağlamak için dört İngiliz alayı gelir.
 
 @image boston-1768-6c29fa
 

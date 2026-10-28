@@ -1,6 +1,6 @@
-Polybios’a göre 20.000 Kartacalı öldürülür, bir o kadarı esir alınır, Romalıların ölüsü 1.500’dür. En az 11 fil ele geçirilir. Hannibal Hadrumetum’a ulaşır ve 6.000 piyade ile 500 süvari toplar. Savaşı sürdürmek için bu çok azdır ve Kartaca Senatosu’na hangi koşulla olursa olsun barış yapmasını öğütler.
+Polybios’a göre 20.000 Kartacalı öldürülür, bir o kadarı esir alınır, Romalıların ölüsü 1.500’dür. En az 11 fil ele geçirilir. Hannibal [Hadrumetum’a](@hadrumetum-203) ulaşır ve 6.000 piyade ile 500 süvari toplar. Savaşı sürdürmek için bu çok azdır ve [Kartaca](@carthage-201) Senatosu’na hangi koşulla olursa olsun barış yapmasını öğütler.
 
-Scipio Tunus’a döner ve görüşmelere başlar. Syphax’ın oğlu Vermina komutasında Kartaca’ya yardıma gelen bir Numidya ordusu yolda yakalanıp yok edilir, Livius’a göre 16.000’den fazla kişi öldürülür ya da esir alınır. Bu, savaşın son çarpışmasıdır.
+Scipio [Tunus’a](@tunis-203) döner ve görüşmelere başlar. Syphax’ın oğlu Vermina komutasında Kartaca’ya yardıma gelen bir Numidya ordusu yolda yakalanıp yok edilir, Livius’a göre 16.000’den fazla kişi öldürülür ya da esir alınır. Bu, savaşın son çarpışmasıdır.
 
 @image scipio-welcomed-rome-b4635e
 

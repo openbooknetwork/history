@@ -1,4 +1,4 @@
-Roma MÖ 217 için Gnaeus Servilius Geminus ile Gaius Flaminius’u konsül seçer. Her biri, her zamankinden daha çok süvarisi olan dört lejyonluk bir orduya komuta eder. Flaminius Etrurya’daki Arretium’da, Servilius Adriyatik kıyısındaki Ariminum’da bekler, böylece orta İtalya’ya giden iki yolu da kapatmaya hazırdırlar.
+Roma MÖ 217 için Gnaeus Servilius Geminus ile Gaius Flaminius’u konsül seçer. Her biri, her zamankinden daha çok süvarisi olan dört lejyonluk bir orduya komuta eder. Flaminius Etrurya’daki [Arretium’da](@arretium-217), Servilius Adriyatik kıyısındaki [Ariminum’da](@ariminum-217) bekler, böylece orta İtalya’ya giden iki yolu da kapatmaya hazırdırlar.
 
 @image trasimene-lake-007a8f
 

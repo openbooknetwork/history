@@ -1,4 +1,4 @@
-İskandinav gemileri yaklaşık MS 300’den itibaren üst üste bindirilmiş kaplamalarla, klinker usulüyle yapılır ve yüzyıllar boyunca kürekle yürütülür. Danimarka’da 400 dolaylarında yapılan Nydam gemisinin yelkeni yoktur. Yelkenli gemiler 8. yüzyılda Gotland’ın resimli taşlarında görülmeye başlar, bu tarihten sonra Kuzey’in gemilerini açık denizde yelken taşır.
+İskandinav gemileri yaklaşık MS 300’den itibaren üst üste bindirilmiş kaplamalarla, klinker usulüyle yapılır ve yüzyıllar boyunca kürekle yürütülür. Danimarka’da 400 dolaylarında yapılan [Nydam](@nydam-400) gemisinin yelkeni yoktur. Yelkenli gemiler 8. yüzyılda [Gotland’ın](@gotland-750) resimli taşlarında görülmeye başlar, bu tarihten sonra Kuzey’in gemilerini açık denizde yelken taşır.
 
 @image longships-oseberg-28e2eb
 
@@ -6,7 +6,7 @@ Tønsberg yakınında bir höyüğe 834 sonbaharında iki kadınla birlikte göm
 
 @image longships-gokstad-924b05
 
-Roskilde Fjordu’nda bir geçidi kapatmak için 11. yüzyılda batırılan beş gemi, 1957–1962 yıllarında Skuldelev yakınında sudan çıkarılır. Skuldelev 2, 1042 dolaylarında Dublin yakınında 70–80 kişi için yapılmış, yaklaşık 30 m uzunluğunda bir savaş gemisidir ve yelkenle 15 knot kadar hız yapabilir. Skuldelev 1, 1030 dolaylarında batı Norveç’te yapılmış 16 m uzunluğunda bir açık deniz yük gemisidir, altı ila sekiz kişilik bir tayfa onu 13 knota kadar sürebilir. 14 metrelik Skuldelev 3 ise Danimarka sularında 4–5 ton yük taşır.
+Roskilde Fjordu’nda bir geçidi kapatmak için 11. yüzyılda batırılan beş gemi, 1957–1962 yıllarında [Skuldelev](@skuldelev-1070) yakınında sudan çıkarılır. Skuldelev 2, 1042 dolaylarında Dublin yakınında 70–80 kişi için yapılmış, yaklaşık 30 m uzunluğunda bir savaş gemisidir ve yelkenle 15 knot kadar hız yapabilir. Skuldelev 1, 1030 dolaylarında batı Norveç’te yapılmış 16 m uzunluğunda bir açık deniz yük gemisidir, altı ila sekiz kişilik bir tayfa onu 13 knota kadar sürebilir. 14 metrelik Skuldelev 3 ise Danimarka sularında 4–5 ton yük taşır.
 
 @image longships-skuldelev-e096d5
 

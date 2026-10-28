@@ -1,4 +1,4 @@
-The 325 surviving lines of the Old English poem The Battle of Maldon open with Byrhtnoth’s men on the shore of the Blackwater. Byrhtnoth orders them to drive their horses away and go forward on foot. He rides along the line, shows the men how to stand and hold their shields, and dismounts among his household troops.
+The 325 surviving lines of the Old English poem The Battle of Maldon open with [Byrhtnoth’s](@maldon-causeway-byrhtnoth) men on the shore of the Blackwater. Byrhtnoth orders them to drive their horses away and go forward on foot. He rides along the line, shows the men how to stand and hold their shields, and dismounts among his household troops.
 
 The Vikings stand on Northey Island across the water, cut off by the tide. A Viking messenger calls over to the shore and offers to sail away in return for tribute in gold. Byrhtnoth answers that his men will pay in spear points and sword blades.
 

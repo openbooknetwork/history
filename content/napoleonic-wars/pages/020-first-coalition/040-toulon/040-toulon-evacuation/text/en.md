@@ -1,8 +1,8 @@
-Captain Sidney Smith and Spanish boat parties under Don Pedro Cotiella are ordered to destroy the arsenal and the French fleet. At 20:00 the fire ship Vulcan enters the New Arsenal, and at 22:00 Smith lights her fuses across the row of French ships of the line while fire parties burn the stores ashore. The powder ship Iris explodes as his boats pass her, and later the second powder hulk, Montréal. Republican troops take the Old Arsenal before the Spanish parties can finish their work there.
+Captain [Sidney Smith](@toulon-evac-smith) and Spanish boat parties under Don Pedro Cotiella are ordered to destroy the arsenal and the French fleet. At 20:00 the fire ship Vulcan enters the New Arsenal, and at 22:00 Smith lights her fuses across the row of French ships of the line while fire parties burn the stores ashore. The powder ship [Iris](@toulon-evac-iris) explodes as his boats pass her, and later the second powder hulk, [Montréal](@toulon-evac-montreal). Republican troops take the Old Arsenal before the Spanish parties can finish their work there.
 
 @image toulon-whitcombe-6b2ae5
 
-Ships under Captain George Elphinstone take the Allied troops off the waterfront, and by the morning of 19 December all of them are on board. The British fleet also carries away 14,877 inhabitants of Toulon, while Republican soldiers fire into the crowds on the quays. Eight French ships of the line and several smaller vessels are burned, and the Allies take three ships of the line with them. Fifteen ships of the line survive, damaged but repairable.
+Ships under Captain George Elphinstone take the Allied troops off the waterfront, and by the morning of 19 December all of them are on board. The British fleet also carries away 14,877 inhabitants of [Toulon](@toulon-evac-city), while Republican soldiers fire into the crowds on the quays. Eight French ships of the line and several smaller vessels are burned, and the Allies take three ships of the line with them. Fifteen ships of the line survive, damaged but repairable.
 
 @image toulon-forand-4724fe
 

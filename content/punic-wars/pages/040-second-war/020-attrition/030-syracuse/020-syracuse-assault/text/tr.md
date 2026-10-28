@@ -1,4 +1,4 @@
-Marcellus 60 kinkeremle Akhradina’nın deniz surlarına saldırır. Bunlardan sekizi ikişer ikişer birbirine bağlanır ve tepesinde korunaklı bir platform bulunan, denizden surlara kaldırılan yüksek merdivenler, sambukalar taşır. Karada Appius Claudius, yaylanın kuzey yüzündeki kapı olan Heksapylon yakınında Epipolai surlarına saldırır.
+[Marcellus](@syracuse-assault-marcellus) 60 kinkeremle [Akhradina’nın](@syracuse-assault-achradina) deniz surlarına saldırır. Bunlardan sekizi ikişer ikişer birbirine bağlanır ve tepesinde korunaklı bir platform bulunan, denizden surlara kaldırılan yüksek merdivenler, sambukalar taşır. Karada [Appius Claudius](@syracuse-assault-appius), yaylanın kuzey yüzündeki kapı olan Heksapylon yakınında Epipolai surlarına saldırır.
 
 @image syracuse-archimedes-defences-b192b1
 

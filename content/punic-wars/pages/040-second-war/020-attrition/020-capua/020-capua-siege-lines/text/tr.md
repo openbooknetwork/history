@@ -1,4 +1,4 @@
-Konsüller Quintus Fulvius Flaccus ile Appius Claudius Pulcher geri döner ve Capua’yı kuşatır, pretor Gaius Claudius Nero komutasındaki üçüncü bir ordu da onlara katılır. İkmal yollarını güvenceye almak için Casilinum’da erzak toplar ve Volturnus boyunca tahkimatlar kurarlar.
+Konsüller Quintus [Fulvius Flaccus](@capua-lines-fulvius) ile [Appius Claudius](@capua-lines-appius) Pulcher geri döner ve [Capua’yı](@capua-lines-city) kuşatır, pretor Gaius [Claudius Nero](@capua-lines-nero) komutasındaki üçüncü bir ordu da onlara katılır. İkmal yollarını güvenceye almak için [Casilinum’da](@capua-lines-casilinum) erzak toplar ve Volturnus boyunca tahkimatlar kurarlar.
 
 @image capua-bronze-coin-6ec519
 

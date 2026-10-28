@@ -1,4 +1,4 @@
-Serez despotu Jovan Uglješa Osmanlılara karşı müttefik arar. Bizans ve Bulgaristan uzak durur ve ona yalnız kardeşi Pirlepe Kralı Vukašin katılır. 1371 yazında Vukašin ordusunu Zeta’daki İşkodra’dan (Skadar) getirir ve Murad Anadolu’dayken iki kardeş doğuya, Edirne’ye doğru yürür.
+[Serez](@serres-1345) despotu Jovan Uglješa Osmanlılara karşı müttefik arar. Bizans ve Bulgaristan uzak durur ve ona yalnız kardeşi [Pirlepe](@prilep) Kralı Vukašin katılır. 1371 yazında Vukašin ordusunu Zeta’daki İşkodra’dan (Skadar) getirir ve Murad Anadolu’dayken iki kardeş doğuya, Edirne’ye doğru yürür.
 
 @image ugljesa-hilandar-af9b81
 

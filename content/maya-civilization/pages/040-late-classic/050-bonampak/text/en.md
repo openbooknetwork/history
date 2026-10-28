@@ -1,4 +1,4 @@
-Bonampak, a small city near a tributary of the Usumacinta, is a dependency of Yaxchilan in the late 8th century. Carved lintels over the three doors of its Structure 1 show captures by Aj Sak Teles in 780, by the Yaxchilan overlord on 4 January 787 and by the Bonampak ruler Yajaw Chan Muwaan on 12 January 787. Around AD 790 painters sent by the king of Yaxchilan cover the three rooms of Structure 1 with murals.
+[Bonampak](@bonampak-790), a small city near a tributary of the [Usumacinta](@usumacinta-726), is a dependency of [Yaxchilan](@yaxchilan-790) in the late 8th century. Carved lintels over the three doors of its Structure 1 show captures by Aj Sak Teles in 780, by the Yaxchilan overlord on 4 January 787 and by the Bonampak ruler Yajaw Chan Muwaan on 12 January 787. Around AD 790 painters sent by the king of Yaxchilan cover the three rooms of Structure 1 with murals.
 
 @image bonampak-room-1-4fba31
 

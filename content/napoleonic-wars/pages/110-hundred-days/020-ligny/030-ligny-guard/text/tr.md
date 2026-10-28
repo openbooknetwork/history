@@ -1,6 +1,6 @@
-Saat 19.00’da Blücher Wellington’ın Ney ile çarpıştığını ve yardım gönderemeyeceğini öğrenir. Son yedeklerini toplayıp yeniden Saint-Amand’a saldırır, ama İmparatorluk Muhafızları’nın avcıları onları geri püskürtür. Lobau’nun VI. Kolordusu Fleurus’nün doğusundaki tepelere gelir, Muhafız topçusu Ligny’deki Prusya merkezini dövmeye başlar.
+Saat 19.00’da [Blücher](@ligny-16-blucher-fall) Wellington’ın Ney ile çarpıştığını ve yardım gönderemeyeceğini öğrenir. Son yedeklerini toplayıp yeniden Saint-Amand’a saldırır, ama İmparatorluk Muhafızları’nın avcıları onları geri püskürtür. Lobau’nun VI. Kolordusu Fleurus’nün doğusundaki tepelere gelir, Muhafız topçusu Ligny’deki Prusya merkezini dövmeye başlar.
 
-Bir sağanağın ardından saat 19.45 sularında 60 topun yaylım ateşi saldırıyı başlatır. Eski Muhafızlar ve Gérard’ın kolordusu sağlarında Milhaud’nun zırhlı süvarileriyle Ligny’ye ilerler, saat 20.30 sularında Prusya merkezi yarılır. 72 yaşındaki Blücher Röder’in süvarisiyle bir karşı hücuma önderlik eder, atı vurulur ve üzerine düşer. Yarı baygın halde savaş alanından taşınır, komutayı kurmay başkanı Gneisenau devralır.
+Bir sağanağın ardından saat 19.45 sularında 60 topun yaylım ateşi saldırıyı başlatır. Eski Muhafızlar ve Gérard’ın kolordusu sağlarında Milhaud’nun zırhlı süvarileriyle Ligny’ye ilerler, saat 20.30 sularında Prusya merkezi yarılır. 72 yaşındaki Blücher Röder’in süvarisiyle bir karşı hücuma önderlik eder, atı vurulur ve üzerine düşer. Yarı baygın halde savaş alanından taşınır, komutayı kurmay başkanı [Gneisenau](@ligny-16-gneisenau) devralır.
 
 @image ligny-blucher-rescue-a025ea
 

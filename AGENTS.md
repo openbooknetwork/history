@@ -102,6 +102,14 @@ travel it. A battle plan's routes name the battle's families. A page lists the r
 they were travelled: each gets its number, the last takes the full colour and the earlier ones shades of it. `./node_modules/.bin/harita check <story>` reports a family with two
 zones on a page, and `./node_modules/.bin/harita patterns` lists the families that look alike on a page.
 
+## Places in the text
+
+A page's text links each place its markers show the first time it names it, in every language:
+`[Gelibolu’ya](@gallipoli)`. The link text is the word as the text writes it, with its Turkish suffix, and the id is
+one of the page's `markers`. On a battle plan page the commanders the text names link to their units' markers.
+`./node_modules/.bin/harita check <story> --places` lists, per text file, the markers whose label the text names
+without a link.
+
 ## Shared zones
 
 A state's lands in a year that several stories show, such as the Ottoman lands of 1402 in the stories of Bayezid I

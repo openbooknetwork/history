@@ -1,4 +1,4 @@
-On 1 September Mustafa Kemal issues the order: "Armies, your first objective is the Mediterranean. Forward." The army advances about three hundred kilometres in nine days, through towns the retreating Greek army has burned. Turkish cavalry enters İzmir on 9 September 1922, and Mustafa Kemal arrives the next day.
+On 1 September Mustafa Kemal issues the order: "Armies, your first objective is the Mediterranean. Forward." The army advances about three hundred kilometres in nine days, through towns the retreating Greek army has burned. Turkish cavalry enters [İzmir](@izmir-1922) on 9 September 1922, and Mustafa Kemal arrives the next day.
 
 @image izmir-cavalry-c7ea04
 

@@ -2,6 +2,6 @@ On the night of 15 to 16 October 350 British troops under Robert Abercromby brea
 
 @image yorktown-blarenberghe-85238d
 
-On the morning of 17 October a British drummer beats a parley and an officer comes out waving a white handkerchief. The terms are settled at the Moore House on 18 October. On 19 October the British march out between the French and American lines and lay down their arms, and the post at Gloucester surrenders too.
+On the morning of 17 October a British drummer beats a parley and an officer comes out waving a white handkerchief. The terms are settled at the [Moore House](@yorktown-surrender-moore-house) on 18 October. On 19 October the British march out between the French and American lines and lay down their arms, and the post at Gloucester surrenders too.
 
-Cornwallis stays away, saying he is ill. His deputy Charles O’Hara offers his sword to Rochambeau, who points to Washington, and Washington directs him to Benjamin Lincoln. Between 7,400 and 7,700 soldiers are taken, with 214 guns and 24 transports.
+Cornwallis stays away, saying he is ill. His deputy Charles [O’Hara](@yorktown-surrender-ohara) offers his sword to Rochambeau, who points to Washington, and Washington directs him to Benjamin Lincoln. Between 7,400 and 7,700 soldiers are taken, with 214 guns and 24 transports.

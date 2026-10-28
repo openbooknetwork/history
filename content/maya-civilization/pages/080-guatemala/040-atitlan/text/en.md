@@ -1,4 +1,4 @@
-On 14 April 1524 the lords Belehe Qat and Cahi Imox receive the Spanish at Iximche, the Kaqchikel capital. Recinos, following the Spanish records, dates the arrival two days earlier. The Kaqchikel give warriors against the remaining K'iche' and against their neighbours the Tz'utujil, whose capital Tecpan Atitlan lies on Lake Atitlán. At the request of the Kaqchikel lords Alvarado sends two Kaqchikel messengers there, and the Tz'utujil kill both.
+On 14 April 1524 the lords Belehe Qat and Cahi Imox receive the Spanish at [Iximche](@iximche-1524), the Kaqchikel capital. Recinos, following the Spanish records, dates the arrival two days earlier. The Kaqchikel give warriors against the remaining K'iche' and against their neighbours the Tz'utujil, whose capital Tecpan Atitlan lies on Lake Atitlán. At the request of the Kaqchikel lords Alvarado sends two Kaqchikel messengers there, and the Tz'utujil kill both.
 
 @image atitlan-lake-13da5f
 

@@ -1,8 +1,8 @@
-Cnut is crowned in London in 1017 and marries Æthelred’s widow, Emma of Normandy, in July. He keeps Wessex for himself and gives Northumbria to Eiríkr Hákonarson, East Anglia to Thorkell the Tall and Mercia to Eadric Streona, whom he has killed before the year is out. In 1018 he raises 72,000 pounds from the country and 10,500 from London, pays off his army and keeps 40 ships and their crews in England, paid by a yearly army tax.
+Cnut is crowned in [London](@london-1017) in 1017 and marries Æthelred’s widow, Emma of Normandy, in July. He keeps Wessex for himself and gives Northumbria to Eiríkr Hákonarson, East Anglia to Thorkell the Tall and Mercia to Eadric Streona, whom he has killed before the year is out. In 1018 he raises 72,000 pounds from the country and 10,500 from London, pays off his army and keeps 40 ships and their crews in England, paid by a yearly army tax.
 
 @image cnut-liber-vitae-205fd7
 
-When his brother Harald II of Denmark dies about 1018, Cnut takes the Danish throne, and he later leaves Earl Ulf there as regent for his young son Harthacnut. In 1026 he fights Olaf Haraldsson and Anund Jacob at the Helgeå, and at Easter 1027 he is in Rome for the coronation of the emperor Conrad II, who cedes him the march of Schleswig. In a letter to the English he now calls himself king of all England and Denmark and of the Norwegians and some of the Swedes. He takes Norway in 1028, and in 1031 Malcolm II of Scotland submits to him.
+When his brother Harald II of Denmark dies about 1018, Cnut takes the Danish throne, and he later leaves Earl Ulf there as regent for his young son Harthacnut. In 1026 he fights Olaf Haraldsson and Anund Jacob at the [Helgeå](@helgea-1026), and at Easter 1027 he is in [Rome](@rome-1027) for the coronation of the emperor Conrad II, who cedes him the march of [Schleswig](@schleswig-1027). In a letter to the English he now calls himself king of all England and Denmark and of the Norwegians and some of the Swedes. He takes Norway in 1028, and in 1031 Malcolm II of Scotland submits to him.
 
 @image cnut-encomium-ca1f02
 

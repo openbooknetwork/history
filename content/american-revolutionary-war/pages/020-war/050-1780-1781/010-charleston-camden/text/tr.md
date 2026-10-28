@@ -4,10 +4,10 @@ Clinton, Charleston’ı karadan ve denizden kuşatır ve 12 Mayıs 1780’de Be
 
 @image charleston-1780-plan-b7f821
 
-Saratoga galibi Horatio Gates temmuzda güney ordusunun komutasını alır. 16 Ağustos’ta Camden’de milisler bir İngiliz süngü hücumu karşısında dağılınca ordu bozguna uğrar. Gates aynı akşam altmış mil ötedeki Charlotte’a varır.
+Saratoga galibi Horatio Gates temmuzda güney ordusunun komutasını alır. 16 Ağustos’ta [Camden’de](@camden) milisler bir İngiliz süngü hücumu karşısında dağılınca ordu bozguna uğrar. Gates aynı akşam altmış mil ötedeki Charlotte’a varır.
 
 @image camden-chappel-3d45f6
 
-Carolina iç bölgeleri Kralcı ve Yurtsever milisler arasında bir iç savaşa dönüşür. 7 Ekim’de sınır tüfekçileri Patrick Ferguson’ın Kralcı birliğini Kings Mountain’da kuşatır ve yok eder. Cornwallis Charlotte’tan Güney Carolina’ya çekilir. Aynı haftalarda Benedict Arnold’un West Point’i İngilizlere teslim etme planı ortaya çıkar ve Arnold New York’a kaçar.
+Carolina iç bölgeleri Kralcı ve Yurtsever milisler arasında bir iç savaşa dönüşür. 7 Ekim’de sınır tüfekçileri Patrick Ferguson’ın Kralcı birliğini [Kings Mountain’da](@kings-mountain) kuşatır ve yok eder. Cornwallis Charlotte’tan Güney Carolina’ya çekilir. Aynı haftalarda Benedict Arnold’un [West Point’i](@west-point) İngilizlere teslim etme planı ortaya çıkar ve Arnold New York’a kaçar.
 
 @image kings-mountain-f64af6

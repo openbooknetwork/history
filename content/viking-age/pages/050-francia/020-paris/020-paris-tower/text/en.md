@@ -2,4 +2,4 @@ On 26 November 885 the Danes attack the tower at the right bank end of the Grand
 
 @image paris-tower-engraving-529878
 
-On 27 November the Danes return with rams, dig at the foot of the tower and try to set it on fire, and fail again. Bishop Gozlin fights on the outer defences with a bow and an axe and plants a cross there. After the two days of assaults the Danes build a camp walled with stone round the church of Saint-Germain-le-Rond on the right bank and settle down to a siege.
+On 27 November the Danes return with rams, dig at the foot of the tower and try to set it on fire, and fail again. Bishop [Gozlin](@paris-tower-gozlin) fights on the outer defences with a bow and an axe and plants a cross there. After the two days of assaults the Danes build a camp walled with stone round the church of Saint-Germain-le-Rond on the right bank and settle down to a siege.

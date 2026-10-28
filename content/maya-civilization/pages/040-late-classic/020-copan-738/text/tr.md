@@ -1,4 +1,4 @@
-Copán’ın 13. kralı Uaxaclajuun Ub'aah K'awiil (18 Tavşan), MS 724’te K'ak' Tiliw Chan Yopaat’ı kendi vasalı olarak Quiriguá tahtına oturtur. Quiriguá, Copán’ın 48 km kuzeyinde, dağlık bölgenin yeşimini taşıyan ve Karayipler’e uzanan ticaretin geçtiği Motagua Nehri üzerindedir. Copán, Tikal’in eski bir müttefikidir. 731 tarihli Stel A, Copán’ı Tikal, Calakmul ve Palenque ile birlikte dört büyük krallık arasında sayar.
+[Copán’ın](@copan-738) 13. kralı Uaxaclajuun Ub'aah K'awiil (18 Tavşan), MS 724’te K'ak' Tiliw Chan Yopaat’ı kendi vasalı olarak Quiriguá tahtına oturtur. Quiriguá, Copán’ın 48 km kuzeyinde, dağlık bölgenin yeşimini taşıyan ve Karayipler’e uzanan ticaretin geçtiği Motagua Nehri üzerindedir. Copán, Tikal’in eski bir müttefikidir. 731 tarihli Stel A, Copán’ı Tikal, Calakmul ve Palenque ile birlikte dört büyük krallık arasında sayar.
 
 @image copan-738-stela-h-df98de
 

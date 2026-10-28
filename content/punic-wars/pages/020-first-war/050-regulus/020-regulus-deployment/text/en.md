@@ -1,4 +1,4 @@
-In the spring of 255 BC Xanthippus leads 12,000 infantry, 4,000 cavalry and 100 elephants out of Carthage and camps on an open plain near the Romans. The exact site is unknown, and it is thought to lie close to Tunis. Regulus advances with about 15,000 infantry and 500 cavalry and camps some 2 km away.
+In the spring of 255 BC [Xanthippus](@regulus-deployment-xanthippus) leads 12,000 infantry, 4,000 cavalry and 100 elephants out of Carthage and camps on an open plain near the Romans. The exact site is unknown, and it is thought to lie close to Tunis. [Regulus](@regulus-deployment-regulus) advances with about 15,000 infantry and 500 cavalry and camps some 2 km away.
 
 @image regulus-golitsyn-plan-caf8c9
 

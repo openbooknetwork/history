@@ -2,7 +2,7 @@ Polybius gives 70,000 Roman and allied infantry killed, 10,000 captured and perh
 
 @image cannae-rings-15573f
 
-Varro escapes to Venusia with 70 horsemen. Livy writes that 600 men under Publius Sempronius Tuditanus fight their way out of the smaller camp, and that about 10,000 survivors gather at Canusium. There, by his account, the young Publius Cornelius Scipio makes the officers who talk of leaving Italy swear to stay.
+Varro escapes to [Venusia](@venusia-216) with 70 horsemen. Livy writes that 600 men under Publius Sempronius Tuditanus fight their way out of the smaller camp, and that about 10,000 survivors gather at [Canusium](@canusium-216). There, by his account, the young Publius Cornelius Scipio makes the officers who talk of leaving Italy swear to stay.
 
 @image cannae-temple-of-mars-28547f
 

@@ -1,4 +1,4 @@
-MÖ 289’da daha önce Siraküza’nın hizmetinde bulunan ve Mamertinler diye anılan İtalyalı paralı askerler, Sicilya ile İtalya arasındaki boğazda bulunan Messana’yı ele geçirir. Siraküza Kralı II. Hieron’un baskısı altında kalınca MÖ 265’te hem Kartaca’dan hem Roma’dan yardım isterler. Kartaca önce davranır, Hieron’u geri durmaya ikna eder ve kente bir garnizon yerleştirir.
+MÖ 289’da daha önce [Siraküza’nın](@syracuse-264) hizmetinde bulunan ve Mamertinler diye anılan İtalyalı paralı askerler, Sicilya ile İtalya arasındaki boğazda bulunan Messana’yı ele geçirir. Siraküza Kralı II. Hieron’un baskısı altında kalınca MÖ 265’te hem Kartaca’dan hem Roma’dan yardım isterler. Kartaca önce davranır, Hieron’u geri durmaya ikna eder ve kente bir garnizon yerleştirir.
 
 @image messana-mamertine-coin-115762
 

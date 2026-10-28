@@ -1,12 +1,12 @@
-In August 1013 Sweyn Forkbeard comes to England with his son Cnut, this time to conquer it. He lands at Sandwich and sails at once round East Anglia, into the Humber and up the Trent to Gainsborough. Northumbria and the Five Boroughs of the north Midlands submit to him, and he forbids plundering until his army has crossed Watling Street into the south.
+In August 1013 Sweyn Forkbeard comes to England with his son Cnut, this time to conquer it. He lands at [Sandwich](@sandwich-1013) and sails at once round East Anglia, into the Humber and up the Trent to [Gainsborough](@gainsborough-1013). Northumbria and the Five Boroughs of the north Midlands submit to him, and he forbids plundering until his army has crossed Watling Street into the south.
 
 @image sweyn-coin-003500
 
-Oxford and Winchester surrender, but London, held by Æthelred and Thorkell, beats off Sweyn’s attack with heavy losses. Sweyn turns west to Bath, where the thegns of the south-west submit, and London gives in after them. By December he is accepted as king and demands payment and provisions for his army through the winter.
+[Oxford](@oxford-1013) and [Winchester](@winchester-1013) surrender, but [London](@london-1013), held by Æthelred and Thorkell, beats off Sweyn’s attack with heavy losses. Sweyn turns west to [Bath](@bath-1013), where the thegns of the south-west submit, and London gives in after them. By December he is accepted as king and demands payment and provisions for his army through the winter.
 
 @image sweyn-matthew-paris-fd88e0
 
-Æthelred sends Queen Emma and their children to her brother, Duke Richard II of Normandy, spends Christmas on the Isle of Wight and follows them. Sweyn dies at Gainsborough on 3 February 1014 and is buried at York. The Danish fleet chooses Cnut as king, but the English councillors send for Æthelred, on condition that he rule more justly than before.
+Æthelred sends Queen Emma and their children to her brother, Duke Richard II of [Normandy](@normandy-1014), spends Christmas on the Isle of Wight and follows them. Sweyn dies at Gainsborough on 3 February 1014 and is buried at [York](@york-1014). The Danish fleet chooses Cnut as king, but the English councillors send for Æthelred, on condition that he rule more justly than before.
 
 @image sweyn-edmund-32893a
 

@@ -1,4 +1,4 @@
-The consuls Quintus Fulvius Flaccus and Appius Claudius Pulcher return and blockade Capua, joined by a third army under the praetor Gaius Claudius Nero. They gather supplies at Casilinum and build strongholds along the Volturnus to keep their supply lines safe.
+The consuls Quintus [Fulvius Flaccus](@capua-lines-fulvius) and [Appius Claudius](@capua-lines-appius) Pulcher return and blockade [Capua](@capua-lines-city), joined by a third army under the praetor Gaius [Claudius Nero](@capua-lines-nero). They gather supplies at [Casilinum](@capua-lines-casilinum) and build strongholds along the Volturnus to keep their supply lines safe.
 
 @image capua-bronze-coin-6ec519
 

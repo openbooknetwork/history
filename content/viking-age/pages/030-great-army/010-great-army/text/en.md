@@ -6,8 +6,8 @@ In 866 the army crosses the Humber into Northumbria, where Osberht and Ælla are
 
 @image great-army-north-2a64bd
 
-Later in 867 the army moves south into Mercia and winters at Nottingham. King Burgred of Mercia calls on his brothers-in-law, King Æthelred of Wessex and Alfred, and in 868 their armies besiege the Danes in the town. No great battle is fought, the Mercians make peace with the Danes, and the army returns to York for the winter of 868–869.
+Later in 867 the army moves south into Mercia and winters at [Nottingham](@nottingham-867). King Burgred of Mercia calls on his brothers-in-law, King Æthelred of Wessex and Alfred, and in 868 their armies besiege the Danes in the town. No great battle is fought, the Mercians make peace with the Danes, and the army returns to York for the winter of 868–869.
 
-In 869 the army rides across Mercia into East Anglia and takes winter quarters at Thetford. King Edmund fights it that winter, and the Danes win, kill him on 20 November and take his kingdom. The Chronicle leaves open whether he dies in the battle or after it. Abbo of Fleury, writing about 986, tells of his martyrdom, and a later tradition places his death at Hoxne in Suffolk.
+In 869 the army rides across Mercia into East Anglia and takes winter quarters at [Thetford](@thetford-869). King Edmund fights it that winter, and the Danes win, kill him on 20 November and take his kingdom. The Chronicle leaves open whether he dies in the battle or after it. Abbo of Fleury, writing about 986, tells of his martyrdom, and a later tradition places his death at [Hoxne](@hoxne-869) in Suffolk.
 
 @image great-army-edmund-4479f3

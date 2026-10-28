@@ -1,8 +1,8 @@
-Sviatoslav, the son of Igor and Olga, takes over the rule of Kiev from his mother and turns against the Khazars. He makes the Vyatichi on the Oka pay tribute to him instead of to them, attacks the Volga Bulgars and around 965 destroys the Khazar fortress of Sarkel on the Don. He sacks the Khazar capital Atil, probably in 968 or 969, and Khazar power comes to an end.
+Sviatoslav, the son of Igor and Olga, takes over the rule of [Kiev](@kiev-968) from his mother and turns against the Khazars. He makes the Vyatichi on the Oka pay tribute to him instead of to them, attacks the Volga Bulgars and around 965 destroys the Khazar fortress of [Sarkel](@sarkel-965) on the Don. He sacks the Khazar capital [Atil](@atil-968), probably in 968 or 969, and Khazar power comes to an end.
 
 @image sviatoslav-manasses-bb705a
 
-Emperor Nikephoros II, at war with Bulgaria, sends the envoy Kalokyros to Sviatoslav, with 1,500 pounds of gold by Leo the Deacon’s account. In 967 or 968 the Rus' cross the Danube, defeat a Bulgarian army of 30,000 at Dorostolon and winter at Pereyaslavets. Sviatoslav hurries home in 968 when the Pechenegs besiege Kiev, and in summer 969 he returns with Pecheneg and Magyar allies, takes the Bulgarian capital Preslav and rules the country through Tsar Boris II. The Primary Chronicle has him say that Pereyaslavets on the Danube is the centre of his lands, where all good things flow.
+Emperor Nikephoros II, at war with Bulgaria, sends the envoy Kalokyros to Sviatoslav, with 1,500 pounds of gold by Leo the Deacon’s account. In 967 or 968 the Rus' cross the Danube, defeat a Bulgarian army of 30,000 at Dorostolon and winter at [Pereyaslavets](@pereyaslavets-968). Sviatoslav hurries home in 968 when the Pechenegs besiege Kiev, and in summer 969 he returns with Pecheneg and Magyar allies, takes the Bulgarian capital [Preslav](@preslav-969) and rules the country through Tsar Boris II. The Primary Chronicle has him say that Pereyaslavets on the Danube is the centre of his lands, where all good things flow.
 
 @image sviatoslav-return-235b28
 

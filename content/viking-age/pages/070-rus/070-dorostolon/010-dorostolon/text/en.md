@@ -2,10 +2,10 @@ Emperor John I Tzimiskes spends 970 putting down the revolt of Bardas Phokas in 
 
 @image dorostolon-preslav-b583b2
 
-In Easter week the army crosses the passes of the Balkan Mountains, which the Rus' have left unguarded, and reaches the Bulgarian capital Preslav without meeting resistance. The Rus' are beaten in a battle before the walls, and the town is stormed on 13 April. Its garrison of Rus' and Bulgarians under the Rus' noble Sphangel resists hard, and Tsar Boris II and his family are taken prisoner.
+In Easter week the army crosses the passes of the Balkan Mountains, which the Rus' have left unguarded, and reaches the Bulgarian capital [Preslav](@preslav-971) without meeting resistance. The Rus' are beaten in a battle before the walls, and the town is stormed on 13 April. Its garrison of Rus' and Bulgarians under the Rus' noble Sphangel resists hard, and Tsar Boris II and his family are taken prisoner.
 
 Sviatoslav and the main Rus' army fall back to Dorostolon on the Danube. Fearing a Bulgarian rising, he has 300 Bulgarian nobles executed and many others imprisoned. The Bulgarian garrisons on the emperor’s way surrender, and on 23 April the Byzantine army comes up to Dorostolon.
 
 @image dorostolon-gunthertuch-5f8c50
 
-Dorostolon, the Roman Durostorum and modern Silistra, is a walled town on the right bank of the Danube. Leo the Deacon, writing in Constantinople two decades later, and John Skylitzes a century after him describe the siege in detail. Leo sets the Rus' army at 60,000 men, while the historian Julian Romane estimates 30,000.
+Dorostolon, the Roman Durostorum and modern Silistra, is a walled town on the right bank of the Danube. Leo the Deacon, writing in [Constantinople](@constantinople-971) two decades later, and John Skylitzes a century after him describe the siege in detail. Leo sets the Rus' army at 60,000 men, while the historian Julian Romane estimates 30,000.

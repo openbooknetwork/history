@@ -1,4 +1,4 @@
-14 Nisan 1524’te beyler Belehe Qat ile Cahi Imox İspanyolları Kaqchikel başkenti Iximche’de karşılar. Recinos İspanyol kayıtlarına dayanarak varışı iki gün önceye tarihler. Kaqchikeller kalan K'iche'lere ve başkentleri Tecpan Atitlan Atitlán Gölü kıyısında olan komşuları Tz'utujillere karşı savaşçı verir. Kaqchikel beylerinin isteği üzerine Alvarado oraya iki Kaqchikel ulak gönderir, Tz'utujiller ikisini de öldürür.
+14 Nisan 1524’te beyler Belehe Qat ile Cahi Imox İspanyolları Kaqchikel başkenti [Iximche’de](@iximche-1524) karşılar. Recinos İspanyol kayıtlarına dayanarak varışı iki gün önceye tarihler. Kaqchikeller kalan K'iche'lere ve başkentleri Tecpan Atitlan Atitlán Gölü kıyısında olan komşuları Tz'utujillere karşı savaşçı verir. Kaqchikel beylerinin isteği üzerine Alvarado oraya iki Kaqchikel ulak gönderir, Tz'utujiller ikisini de öldürür.
 
 @image atitlan-lake-13da5f
 

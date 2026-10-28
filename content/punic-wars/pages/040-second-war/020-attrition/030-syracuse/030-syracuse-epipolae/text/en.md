@@ -2,4 +2,4 @@ In spring 212 BC the Romans learn that the Syracusans are about to hold a three-
 
 @image syracuse-euryalus-55b1d6
 
-The party opens the Hexapylon, and at dawn Marcellus leads his army onto Epipolae. The districts of Tyche and Neapolis surrender and are plundered, and Marcellus camps between them. The garrison of the Euryalus fort, at the western end of the plateau, later surrenders on terms. Achradina and the island of Ortygia, each with its own walls, hold out under Epicydes.
+The party opens the Hexapylon, and at dawn [Marcellus](@syracuse-epipolae-marcellus) leads his army onto Epipolae. The districts of Tyche and Neapolis surrender and are plundered, and Marcellus camps between them. The garrison of the [Euryalus](@syracuse-epipolae-euryalus) fort, at the western end of the plateau, later surrenders on terms. Achradina and the island of Ortygia, each with its own walls, hold out under [Epicydes](@syracuse-epipolae-epicydes).

@@ -1,4 +1,4 @@
-28 Eylül’de Washington yaklaşık 7.800 Fransız, 8.000 Kıta Ordusu askeri ve 3.100 milisle Williamsburg’dan çıkar ve Yorktown’ı kuşatır, Fransızlar solda, Amerikalılar sağda yer alır. Cornwallis kasabanın çevresinde yedi tabya ve bataryadan oluşan bir zinciri ve nehrin karşı yakasında Gloucester Point’teki bir mevziyi tutar. Clinton’ın bir hafta içinde 5.000 asker göndermesini beklediği için, batıdaki Fusiliers Tabyası ile doğudaki 9 ve 10 numaralı tabyalar dışında dış tahkimatını bırakır.
+28 Eylül’de [Washington](@yorktown-parallel-washington) yaklaşık 7.800 Fransız, 8.000 Kıta Ordusu askeri ve 3.100 milisle Williamsburg’dan çıkar ve [Yorktown’ı](@yorktown-parallel-town) kuşatır, Fransızlar solda, Amerikalılar sağda yer alır. Cornwallis kasabanın çevresinde yedi tabya ve bataryadan oluşan bir zinciri ve nehrin karşı yakasında [Gloucester Point’teki](@yorktown-parallel-gloucester) bir mevziyi tutar. Clinton’ın bir hafta içinde 5.000 asker göndermesini beklediği için, batıdaki Fusiliers Tabyası ile doğudaki 9 ve 10 numaralı tabyalar dışında dış tahkimatını bırakır.
 
 @image yorktown-verger-64b7c8
 

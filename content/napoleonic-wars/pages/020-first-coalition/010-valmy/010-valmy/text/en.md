@@ -1,4 +1,4 @@
-Brunswick’s army crosses the French frontier on 19 August 1792. It counts about 84,000 men: Prussian and Austrian regulars with Hessians and the French émigrés of the Army of Condé. The invaders take Longwy on 23 August and Verdun on 2 September, and move towards Paris through the passes of the Argonne forest. The fall of Verdun sets off the September massacres in Paris.
+Brunswick’s army crosses the French frontier on 19 August 1792. It counts about 84,000 men: Prussian and Austrian regulars with Hessians and the French émigrés of the Army of Condé. The invaders take [Longwy](@valmy-longwy) on 23 August and [Verdun](@valmy-verdun) on 2 September, and move towards Paris through the passes of the Argonne forest. The fall of Verdun sets off the September massacres in Paris.
 
 @image valmy-dumouriez-77b2a3
 

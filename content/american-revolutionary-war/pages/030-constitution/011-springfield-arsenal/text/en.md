@@ -1,4 +1,4 @@
-The rebels’ first target is the federal armory at Springfield and its weapons. General William Shepard holds it with 1,200 militia, armed from its arsenal without the permission of Henry Knox, the Secretary at War. The rebels come in three bodies: Daniel Shays from the east near Palmer, Eli Parsons from the north at Chicopee, and Luke Day across the Connecticut River at West Springfield.
+The rebels’ first target is the federal armory at Springfield and its weapons. General William [Shepard](@springfield-arsenal-shepard) holds it with 1,200 militia, armed from its arsenal without the permission of Henry Knox, the Secretary at War. The rebels come in three bodies: Daniel [Shays](@springfield-arsenal-shays) from the east near Palmer, Eli Parsons from the north at Chicopee, and [Luke Day](@springfield-arsenal-day) across the Connecticut River at West Springfield.
 
 @image shepard-portrait-4c6427
 

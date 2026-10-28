@@ -2,4 +2,4 @@ In early May seven siege guns that Perrée has landed at Jaffa reach the camp ov
 
 @image acre-breach-sutherland-7fc969
 
-A last assault, on 9 or 10 May by different accounts, is repelled as well. Plague has broken out in the French camp and has killed about 2,000 soldiers. On 20 May, after 63 days, Bonaparte lifts the siege. It has cost the French about 4,000 to 4,500 men and the defenders about 2,000.
+A last assault, on 9 or 10 May by different accounts, is repelled as well. Plague has broken out in the [French camp](@acre-breach-camp) and has killed about 2,000 soldiers. On 20 May, after 63 days, Bonaparte lifts the siege. It has cost the French about 4,000 to 4,500 men and the defenders about 2,000.

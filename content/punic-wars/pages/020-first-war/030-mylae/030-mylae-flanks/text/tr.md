@@ -2,4 +2,4 @@ Kartaca donanmasının geri kalanı köprülerin erişiminden uzak durmak için 
 
 @image mylae-duilius-column-015c40
 
-Bu rakamlar Polybios’a aittir. Duilius’un sütunundaki yazıt 31 geminin ele geçirildiğini ve 13 geminin batırıldığını yazar. Duilius ardından Kartacalıların kuşattığı Segesta’yı kurtarmaya gider. Roma’da deniz zaferi için ilk zafer alayını düzenler ve Forum’a ele geçirilen gemilerin mahmuzlarıyla süslü bir sütun dikilir.
+Bu rakamlar Polybios’a aittir. [Duilius’un](@mylae-flanks-duilius) sütunundaki yazıt 31 geminin ele geçirildiğini ve 13 geminin batırıldığını yazar. Duilius ardından Kartacalıların kuşattığı Segesta’yı kurtarmaya gider. Roma’da deniz zaferi için ilk zafer alayını düzenler ve Forum’a ele geçirilen gemilerin mahmuzlarıyla süslü bir sütun dikilir.

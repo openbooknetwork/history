@@ -1,4 +1,4 @@
-Sur kentinden gelen Fenikeli yerleşimciler Kartaca’yı bugünkü Tunus kıyısında, geleneğe göre MÖ 814’te kurar. MÖ 3. yüzyılda Kartaca, Batı Akdeniz’in önde gelen gücüdür. Kirenaika’dan Atlas Okyanusu’na kadar Afrika kıyısını, Batı Sicilya’yı, Sardinya’yı, Malta’yı, Balear Adaları’nı ve Güney İspanya’daki ticaret kentlerini elinde tutar.
+Sur kentinden gelen Fenikeli yerleşimciler [Kartaca’yı](@carthage-270) bugünkü Tunus kıyısında, geleneğe göre MÖ 814’te kurar. MÖ 3. yüzyılda Kartaca, Batı Akdeniz’in önde gelen gücüdür. Kirenaika’dan Atlas Okyanusu’na kadar Afrika kıyısını, Batı Sicilya’yı, Sardinya’yı, Malta’yı, Balear Adaları’nı ve Güney İspanya’daki ticaret kentlerini elinde tutar.
 
 @image carthage-model-fc00e7
 

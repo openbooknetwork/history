@@ -1,8 +1,8 @@
-At the end of the war Carthage owes several years’ pay to the 20,000 soldiers it brings back from Sicily, and it waits for all of them to arrive before offering less. The army, sent to wait at Sicca, refuses anything short of the full amount and seizes Tunis. Talks break down, the troops take the envoy Gisco and his treasury, and they choose Spendius, an escaped Roman slave, and Matho, a Libyan, as their generals.
+At the end of the war [Carthage](@carthage-241) owes several years’ pay to the 20,000 soldiers it brings back from Sicily, and it waits for all of them to arrive before offering less. The army, sent to wait at [Sicca](@sicca-241), refuses anything short of the full amount and seizes Tunis. Talks break down, the troops take the envoy Gisco and his treasury, and they choose Spendius, an escaped Roman slave, and Matho, a Libyan, as their generals.
 
 @image mercenary-war-salammbo-6312ed
 
-Libyan towns crushed by the war taxes of Hanno the Great join the revolt, with 70,000 more men by Polybius’s account, and strike coins of their own. The rebels blockade Carthage from Tunis and besiege Utica and Hippo, the two great ports still loyal. Hanno is beaten at Utica in 240 BC, and Carthage raises a second army of about 10,000 men with 70 elephants under Hamilcar Barca.
+Libyan towns crushed by the war taxes of Hanno the Great join the revolt, with 70,000 more men by Polybius’s account, and strike coins of their own. The rebels blockade Carthage from Tunis and besiege [Utica](@utica-240) and [Hippo](@hippo-240), the two great ports still loyal. Hanno is beaten at Utica in 240 BC, and Carthage raises a second army of about 10,000 men with 70 elephants under Hamilcar Barca.
 
 @image mercenary-war-coin-e3f4fa
 

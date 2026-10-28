@@ -1,4 +1,4 @@
-After Valmy the French armies go over to the offensive. They occupy Savoy and Nice, and in October General Adam Philippe de Custine takes Speyer, Worms and Mainz on the Rhine and reaches Frankfurt. Dumouriez first relieves Lille, besieged by the Austrians, and on 27 October invades the Austrian Netherlands. He concentrates most of his army before Valenciennes and marches on Mons and the road to Brussels.
+After Valmy the French armies go over to the offensive. They occupy Savoy and Nice, and in October General Adam Philippe de Custine takes Speyer, Worms and [Mainz](@jemappes-mainz) on the Rhine and reaches Frankfurt. Dumouriez first relieves Lille, besieged by the Austrians, and on 27 October invades the Austrian Netherlands. He concentrates most of his army before Valenciennes and marches on Mons and the road to [Brussels](@jemappes-brussels).
 
 @image jemappes-boussu-e51033
 
@@ -6,4 +6,4 @@ Duke Albert of Saxe-Teschen, the governor of the Austrian Netherlands, defends t
 
 @image jemappes-vernet-437a1f
 
-The French report about 650 killed and 1,300 wounded. The Austrians report 305 killed and 513 wounded, and lose 423 men and five guns captured. Mons opens its gates the next day, Dumouriez enters Brussels on 14 November, and Namur falls on 2 December after an eleven-day siege. By the winter the French hold the whole of the Austrian Netherlands.
+The French report about 650 killed and 1,300 wounded. The Austrians report 305 killed and 513 wounded, and lose 423 men and five guns captured. Mons opens its gates the next day, Dumouriez enters Brussels on 14 November, and [Namur](@jemappes-namur) falls on 2 December after an eleven-day siege. By the winter the French hold the whole of the Austrian Netherlands.

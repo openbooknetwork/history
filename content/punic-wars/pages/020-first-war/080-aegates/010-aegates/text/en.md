@@ -1,4 +1,4 @@
-From 247 BC Hamilcar Barca commands the Carthaginians on Sicily with a small army, and Carthage gradually withdraws its fleet. From a base on the mountain of Eryx above Drepana he keeps the Roman legions tied down with raids, while Drepana and Lilybaeum, the last Carthaginian cities on the island, hold out under siege. By 243 BC both states are near exhaustion, and Ptolemaic Egypt refuses Carthage a loan of 2,000 talents.
+From 247 BC Hamilcar Barca commands the Carthaginians on Sicily with a small army, and Carthage gradually withdraws its fleet. From a base on the mountain of [Eryx](@eryx-244) above [Drepana](@drepana-241) he keeps the Roman legions tied down with raids, while Drepana and [Lilybaeum](@lilybaeum-241), the last Carthaginian cities on the island, hold out under siege. By 243 BC both states are near exhaustion, and Ptolemaic Egypt refuses Carthage a loan of 2,000 talents.
 
 @image aegates-erice-99590d
 

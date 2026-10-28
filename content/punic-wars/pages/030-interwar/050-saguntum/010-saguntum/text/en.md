@@ -1,4 +1,4 @@
-Saguntum is a fortified Iberian town on a long ridge near the coast, south of the Ebro, which has placed itself under Roman protection. Hannibal has reasons to take it: it is one of the strongest places in the region, it would threaten his base if he left it behind, and its wealth can pay his army. In spring 219 BC he marches north from New Carthage and lays siege to it.
+Saguntum is a fortified Iberian town on a long ridge near the coast, south of the [Ebro](@ebro-219), which has placed itself under Roman protection. Hannibal has reasons to take it: it is one of the strongest places in the region, it would threaten his base if he left it behind, and its wealth can pay his army. In spring 219 BC he marches north from [New Carthage](@new-carthage-219) and lays siege to it.
 
 @image saguntum-view-3a7ad0
 

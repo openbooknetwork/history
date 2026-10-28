@@ -1,4 +1,4 @@
-The Greek army reaches the Turkish positions east of the Sakarya on 23 August, and from 26 August it attacks along a front of about a hundred kilometres. Mustafa Kemal, who has broken a rib in a fall from his horse, commands from the village of Alagöz. His order sets the method: "There is no line of defence, there is a surface of defence, and that surface is the whole country."
+The Greek army reaches the Turkish positions east of the Sakarya on 23 August, and from 26 August it attacks along a front of about a hundred kilometres. Mustafa Kemal, who has broken a rib in a fall from his horse, commands from the village of [Alagöz](@alagoz). His order sets the method: "There is no line of defence, there is a surface of defence, and that surface is the whole country."
 
 @image sakarya-duatepe-02fbfa
 

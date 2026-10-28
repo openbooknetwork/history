@@ -2,4 +2,4 @@ MÖ 212 ilkbaharında Romalılar, Siraküzalıların üç gün sürecek bir Arte
 
 @image syracuse-euryalus-55b1d6
 
-Birlik Heksapylon’u açar, şafakta da Marcellus ordusunu Epipolai’ye sokar. Tykhe ve Neapolis semtleri teslim olur ve yağmalanır, Marcellus ikisinin arasında karargâh kurar. Yaylanın batı ucundaki Euryalos kalesinin garnizonu daha sonra koşullu olarak teslim olur. Kendi surları olan Akhradina ve Ortygia adası ise Epikydes’in komutasında direnmeyi sürdürür.
+Birlik Heksapylon’u açar, şafakta da [Marcellus](@syracuse-epipolae-marcellus) ordusunu Epipolai’ye sokar. Tykhe ve Neapolis semtleri teslim olur ve yağmalanır, Marcellus ikisinin arasında karargâh kurar. Yaylanın batı ucundaki [Euryalos](@syracuse-epipolae-euryalus) kalesinin garnizonu daha sonra koşullu olarak teslim olur. Kendi surları olan Akhradina ve Ortygia adası ise [Epikydes’in](@syracuse-epipolae-epicydes) komutasında direnmeyi sürdürür.

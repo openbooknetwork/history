@@ -6,10 +6,10 @@ Napoleon surprises Blücher at Brienne on 29 January and nearly captures him, bu
 
 @image france-1814-la-rothiere-5948b5
 
-In the Six Days' Campaign Napoleon falls on Blücher's corps one at a time with about 30,000 men. He destroys Olsufiev's Russian corps at Champaubert on 10 February. At Montmirail on 11 February Sacken's Russians try to break through eastwards, and Napoleon holds them with the Old Guard, the cavalry and Ricard's division until reinforcements arrive.
+In the Six Days' Campaign Napoleon falls on Blücher's corps one at a time with about 30,000 men. He destroys Olsufiev's Russian corps at [Champaubert](@france-1814-champaubert) on 10 February. At Montmirail on 11 February Sacken's Russians try to break through eastwards, and Napoleon holds them with the Old Guard, the cavalry and Ricard's division until reinforcements arrive.
 
 The village of Marchais changes hands several times before the Russians give it up at 17:00 and retreat north with Yorck's Prussians. Napoleon beats them again at Château-Thierry on 12 February and Blücher himself at Vauchamps on 14 February. The Army of Silesia, 50,000 to 56,000 men, loses about 17,750, the French 3,400.
 
 @image montmirail-vernet-013958
 
-Napoleon turns south against Schwarzenberg, crushes his advance guard at Mormant on 17 February and routs the Crown Prince of Württemberg at Montereau on 18 February, and the Army of Bohemia falls back. Blücher marches north and joins the Army of the North at Laon, which gives him over 100,000 men. Napoleon attacks his advance guard at Craonne on 7 March and is defeated at Laon on 9 and 10 March. He retakes Reims on 13 March, but at Arcis-sur-Aube on 20 and 21 March he meets Schwarzenberg's main army, 80,000 men against his 28,000, and withdraws eastwards.
+Napoleon turns south against Schwarzenberg, crushes his advance guard at Mormant on 17 February and routs the Crown Prince of Württemberg at [Montereau](@france-1814-montereau) on 18 February, and the Army of Bohemia falls back. Blücher marches north and joins the Army of the North at [Laon](@france-1814-laon), which gives him over 100,000 men. Napoleon attacks his advance guard at Craonne on 7 March and is defeated at Laon on 9 and 10 March. He retakes [Reims](@france-1814-reims) on 13 March, but at [Arcis-sur-Aube](@france-1814-arcis) on 20 and 21 March he meets Schwarzenberg's main army, 80,000 men against his 28,000, and withdraws eastwards.

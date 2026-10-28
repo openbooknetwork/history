@@ -1,4 +1,4 @@
-On the morning of 13 March 1697 Ursúa leaves 25 Spanish soldiers, three Maya musketeers and several guns to hold the camp at Ch'ich'. He boards the galeota with 108 soldiers, two priests, five servants, AjChan with his brother-in-law, and an Itza prisoner from Nojpetén. The galley is rowed east from Ch'ich' towards the island.
+On the morning of 13 March 1697 [Ursúa](@nojpeten-galley-ursua) leaves 25 Spanish soldiers, three Maya musketeers and several guns to hold the camp at Ch'ich'. He boards the galeota with 108 soldiers, two priests, five servants, AjChan with his brother-in-law, and an Itza prisoner from [Nojpetén](@nojpeten-galley-town). The galley is rowed east from Ch'ich' towards the island.
 
 Halfway across, a fleet of canoes lies in an arc across the approach to Nojpetén, about 600 m from one shore to the other. Ursúa orders the rowers straight through it. Defenders crowd the shore of the island and the roofs of the city, and more canoes put out from the shore until the galley is surrounded.
 

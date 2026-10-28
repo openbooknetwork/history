@@ -4,7 +4,7 @@ Kıyıya çıkan kazazedeleri bir Maya beyi yakalar. Kaptan Valdivia ile dört k
 
 @image shipwreck-xamanha-cc34f6
 
-Guerrero 1514 dolayında Chetumal beyi Nachan Can’ın eline geçer. Maya âdetlerini benimser, yüzüne dövme yaptırır, kulaklarını deldirir. Nachan Can’ın kızı Zazil Ha ile evlenir ve ondan üç çocuğu olur. Bir savaş komutanı, nacom olur. Aguilar ise Cozumel’in karşısındaki kıyıda Xamanha’nın batab’ına köle olarak kalır. Yucatek Mayacasını öğrenir ve din adamı yeminlerine bağlı kalır.
+Guerrero 1514 dolayında [Chetumal](@chetumal-1514) beyi Nachan Can’ın eline geçer. Maya âdetlerini benimser, yüzüne dövme yaptırır, kulaklarını deldirir. Nachan Can’ın kızı Zazil Ha ile evlenir ve ondan üç çocuğu olur. Bir savaş komutanı, nacom olur. Aguilar ise [Cozumel’in](@cozumel-1519) karşısındaki kıyıda [Xamanha’nın](@xamanha-1511) batab’ına köle olarak kalır. Yucatek Mayacasını öğrenir ve din adamı yeminlerine bağlı kalır.
 
 @image shipwreck-guerrero-a41c82
 

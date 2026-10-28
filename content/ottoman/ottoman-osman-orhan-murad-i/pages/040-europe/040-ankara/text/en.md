@@ -1,4 +1,4 @@
-In 1354 Orhan’s son Süleyman takes Ankara and Gerede to the north of it. Other accounts date the capture of Ankara to 1356. The town on the central plateau has no prince of its own and is run by its akhis, the masters of the craft brotherhoods, who have kept order there since Seljuk and Ilkhanid rule weakened.
+In 1354 Orhan’s son Süleyman takes [Ankara](@ankara-1354) and [Gerede](@gerede-1354) to the north of it. Other accounts date the capture of Ankara to 1356. The town on the central plateau has no prince of its own and is run by its akhis, the masters of the craft brotherhoods, who have kept order there since Seljuk and Ilkhanid rule weakened.
 
 @image ankara-arslanhane-mosque-0c9d47
 

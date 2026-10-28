@@ -1,6 +1,6 @@
 Napolyon Vitebsk’te ordusunu dinlendirir ve geride kalanları bekler. Müfrezeler, garnizonlar, açlık ve hastalık ana vurucu gücünü 375.000 kişiden 185.000 kişiye indirmiştir. Barclay ile Bagration ordularını Smolensk’te birleştirir, çarın ve ordunun baskısı altında Barclay 6 Ağustos’ta saldırmayı kabul eder. Platov’un Kazakları 7 Ağustos’ta İnkovo’da Horace Sébastiani’nin süvarisini yener, ama taarruz gidip gelen yürüyüşler arasında tıkanır.
 
-Napolyon buna Rus sol kanadının etrafından dolaşarak karşılık verir. 13’ü 14 Ağustos’a bağlayan gece General Jean Baptiste Eblé’nin istihkâmcıları Rosasna yakınında Dinyeper üzerine dört duba köprü kurar, yaklaşık 175.000 kişi de güney kıyı boyunca doğuya, Smolensk’e ilerler. 14 Ağustos’ta Murat ile Ney Krasnoy’da Dmitri Neverovski’nin 27. Tümeni’ne saldırır, tümen Smolensk’e çekilir. Nikolay Rayevski’nin VII. Kolordusu 15 Ağustos’ta şehre ulaşır, Napolyon da ilerleyişini bir gün durdurur.
+Napolyon buna Rus sol kanadının etrafından dolaşarak karşılık verir. 13’ü 14 Ağustos’a bağlayan gece General Jean Baptiste Eblé’nin istihkâmcıları [Rosasna](@smolensk-rosasna) yakınında Dinyeper üzerine dört duba köprü kurar, yaklaşık 175.000 kişi de güney kıyı boyunca doğuya, Smolensk’e ilerler. 14 Ağustos’ta Murat ile Ney [Krasnoy’da](@smolensk-krasnoi) Dmitri Neverovski’nin 27. Tümeni’ne saldırır, tümen Smolensk’e çekilir. Nikolay Rayevski’nin VII. Kolordusu 15 Ağustos’ta şehre ulaşır, Napolyon da ilerleyişini bir gün durdurur.
 
 @image smolensk-dnieper-e0a741
 

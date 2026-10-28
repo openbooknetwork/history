@@ -1,4 +1,4 @@
-Žižka leaves Prague with the Taborites on 22 August 1420 and turns on the estates of Oldřich II of Rožmberk, the greatest lord of South Bohemia and the head of the Catholic party there. He takes Vodňany, takes Lomnice nad Lužnicí together with Oldřich Vavák of Hradec, and lays waste Nová Bystřice. On 12 October he beats the lords of the Plzeň region under Oldřich at Panský Bor near Horažďovice.
+Žižka leaves Prague with the Taborites on 22 August 1420 and turns on the estates of Oldřich II of Rožmberk, the greatest lord of South Bohemia and the head of the Catholic party there. He takes [Vodňany](@vodnany-1420), takes [Lomnice nad Lužnicí](@lomnice-1420) together with Oldřich Vavák of Hradec, and lays waste [Nová Bystřice](@nova-bystrice-1420). On 12 October he beats the lords of the Plzeň region under Oldřich at [Panský Bor](@pansky-bor-1420) near Horažďovice.
 
 @image oldrich-rozmberk-0b9d28
 
@@ -6,4 +6,4 @@
 
 @image prachatice-gate-edb25c
 
-In September 1420 the Taborite priests elect Mikuláš of Pelhřimov as their bishop. On 18 November, at Písek, Žižka agrees a truce with Oldřich of Rožmberk, and the Rožmberk castles of Příběnice and Příběničky near Tábor pass to the Taborites. Nicholas of Hus, one of the four captains of Tábor, dies in December after a fall from his horse, and Žižka becomes the leader of the Taborites.
+In September 1420 the Taborite priests elect Mikuláš of Pelhřimov as their bishop. On 18 November, at Písek, Žižka agrees a truce with Oldřich of Rožmberk, and the Rožmberk castles of Příběnice and Příběničky near [Tábor](@tabor-1421) pass to the Taborites. Nicholas of Hus, one of the four captains of Tábor, dies in December after a fall from his horse, and Žižka becomes the leader of the Taborites.

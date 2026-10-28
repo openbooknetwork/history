@@ -2,9 +2,9 @@ Nuun Ujol Chaak’ın oğlu Jasaw Chan K'awiil I, 3 Mayıs MS 682’de Tikal tah
 
 @image tikal-695-stela-16-a0bc26
 
-Tikal’den boyalı bir vazo, Kaanul kralının bir elçisini tahtta oturan Tikal kralının önünde haraç sunarken diz çökmüş olarak gösterir. Ağustos 695’te Yuknoom Yich'aak K'ahk' savaşçılarını Jasaw Chan K'awiil’e karşı yönetir ve ağır bir yenilgiye uğrar. Tikal, Calakmul tanrısı Yajaw Maan’ın tasvirini ele geçirir.
+Tikal’den boyalı bir vazo, Kaanul kralının bir elçisini tahtta oturan Tikal kralının önünde haraç sunarken diz çökmüş olarak gösterir. Ağustos 695’te Yuknoom Yich'aak K'ahk' savaşçılarını Jasaw Chan K'awiil’e karşı yönetir ve ağır bir yenilgiye uğrar. Tikal, [Calakmul](@calakmul-695) tanrısı Yajaw Maan’ın tasvirini ele geçirir.
 
-Kaanul kralının akıbeti belirsizdir. Tikal’deki alçı bir sahne, bir esirin yanındaki yazıtta onun adını anar, ancak La Corona’da bulunan bir metin onun 696’da bu kenti ziyaret ettiğini gösterir. Kasım 695’e gelindiğinde Calakmul’da Split Earth adlı bir kral hüküm sürer. Adı, sonradan Jasaw Chan K'awiil’in mezarına konan oymalı kemiklerde geçer.
+Kaanul kralının akıbeti belirsizdir. Tikal’deki alçı bir sahne, bir esirin yanındaki yazıtta onun adını anar, ancak [La Corona’da](@la-corona-696) bulunan bir metin onun 696’da bu kenti ziyaret ettiğini gösterir. Kasım 695’e gelindiğinde Calakmul’da Split Earth adlı bir kral hüküm sürer. Adı, sonradan Jasaw Chan K'awiil’in mezarına konan oymalı kemiklerde geçer.
 
 @image tikal-695-calakmul-mask-00de28
 

@@ -1,4 +1,4 @@
-The main Greek force retreating west from Afyon, the Trikoupis Group, is surrounded near Dumlupınar on 29 August and destroyed on 30 August. Mustafa Kemal directs the battle in person from the hill of Zafertepe. The Greek III Corps and other units escape towards the coast.
+The main Greek force retreating west from [Afyon](@afyon), the Trikoupis Group, is surrounded near [Dumlupınar](@dumlupinar) on 29 August and destroyed on 30 August. Mustafa Kemal directs the battle in person from the hill of Zafertepe. The Greek III Corps and other units escape towards the coast.
 
 @image trikoupis-pow-b43b78
 

@@ -1,4 +1,4 @@
-Clinton’s army begins to leave Monmouth Court House at 2 am on 28 June, heading north-east on the road to Middletown. The last troops leave by 9:15, covered by a rearguard of light infantry, dragoons and the Queen’s Rangers, 1,550 to 2,000 men. Charles Lee, commanding the American vanguard, has told his officers only to be ready to attack once Clinton moves.
+[Clinton’s](@monmouth-lee-clinton) army begins to leave [Monmouth Court House](@monmouth-lee-courthouse) at 2 am on 28 June, heading north-east on the road to Middletown. The last troops leave by 9:15, covered by a rearguard of light infantry, dragoons and the Queen’s Rangers, 1,550 to 2,000 men. Charles [Lee](@monmouth-lee-lee), commanding the American vanguard, has told his officers only to be ready to attack once Clinton moves.
 
 The vanguard advances along the Englishtown road. Wayne, with about 550 men and four guns, repulses a charge of dragoons, and Lee tries to envelop the rearguard on a hill where the Middletown and Shrewsbury roads meet. Clinton turns his first division back, Guards on the right, Grenadiers on the left and the artillery between them, to strike the American right.
 

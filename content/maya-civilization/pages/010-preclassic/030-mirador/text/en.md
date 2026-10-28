@@ -1,4 +1,4 @@
-Nakbe, in the north of Petén, has monumental buildings by the 8th century BC, with platforms up to 18 m high. Its builders make the first known Maya ballcourt and the first sacbeob, causeways paved with white stone. In the Late Preclassic Nakbe falls behind El Mirador, 13 km to the north, and a causeway joins the two.
+[Nakbe](@nakbe-750bc), in the north of Petén, has monumental buildings by the 8th century BC, with platforms up to 18 m high. Its builders make the first known Maya ballcourt and the first sacbeob, causeways paved with white stone. In the Late Preclassic Nakbe falls behind [El Mirador](@el-mirador-300bc), 13 km to the north, and a causeway joins the two.
 
 @image mirador-tigre-danta-9bd707
 
@@ -10,4 +10,4 @@ Causeways 2 to 6 m high and 20 to 50 m wide link El Mirador with Nakbe, El Tinta
 
 @image mirador-jaguar-paw-069470
 
-Calakmul, 40 km to the north, and Tikal, 65 km to the south, are also sizeable Preclassic cities. Cival, 40 km east of Tikal, flourishes over the same centuries with perhaps 10,000 people. Its plazas are aligned with the sunrise at the equinoxes, a wall surrounds the city, and its largest pyramid is 27 m high.
+[Calakmul](@calakmul-300bc), 40 km to the north, and [Tikal](@tikal-350bc), 65 km to the south, are also sizeable Preclassic cities. [Cival](@cival-500bc), 40 km east of Tikal, flourishes over the same centuries with perhaps 10,000 people. Its plazas are aligned with the sunrise at the equinoxes, a wall surrounds the city, and its largest pyramid is 27 m high.

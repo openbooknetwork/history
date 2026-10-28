@@ -1,4 +1,4 @@
-13 Kasım 1419’da Prag ile kral yanlıları ateşkes yapar ve Praglılar Vyšehrad’ı kralın garnizonuna geri verir. Jan Žižka, Břeněk Švihovský, Machovice’li kardeşler Chval ve Kuneš ile Adlar’lı Valkoun ateşkesi kabul etmez ve Prag’dan Plzeň’e gider. Plzeň krallığın en zengin şehirlerinden biridir, Husçularına da 1414’ten beri rahip Václav Koranda önderlik eder. Žižka büyük olasılıkla onların silahlı adamlarına komuta eder.
+13 Kasım 1419’da Prag ile kral yanlıları ateşkes yapar ve Praglılar Vyšehrad’ı kralın garnizonuna geri verir. Jan Žižka, Břeněk Švihovský, Machovice’li kardeşler Chval ve Kuneš ile Adlar’lı Valkoun ateşkesi kabul etmez ve Prag’dan [Plzeň’e](@plzen-1419) gider. Plzeň krallığın en zengin şehirlerinden biridir, Husçularına da 1414’ten beri rahip Václav Koranda önderlik eder. Žižka büyük olasılıkla onların silahlı adamlarına komuta eder.
 
 @image zizka-jena-codex-d626c6
 

@@ -1,6 +1,6 @@
 At Vitebsk Napoleon rests his army and waits for stragglers. Detachments, garrisons, hunger and disease have reduced his main strike force from 375,000 men to 185,000. Barclay and Bagration unite their armies at Smolensk, and under pressure from the tsar and the army Barclay agrees on 6 August to attack. Platov’s Cossacks defeat Horace Sébastiani’s cavalry at Inkovo on 7 August, but the offensive stalls in marches and countermarches.
 
-Napoleon answers with a move around the Russian left. On the night of 13 to 14 August General Jean Baptiste Eblé’s engineers build four pontoon bridges over the Dnieper near Rosasna, and about 175,000 men advance east along the south bank towards Smolensk. On 14 August Murat and Ney attack Dmitry Neverovsky’s 27th Division at Krasnoi, which falls back into Smolensk. Nikolay Raevsky’s VII Corps reaches the city on 15 August, and Napoleon halts his advance for a day.
+Napoleon answers with a move around the Russian left. On the night of 13 to 14 August General Jean Baptiste Eblé’s engineers build four pontoon bridges over the Dnieper near [Rosasna](@smolensk-rosasna), and about 175,000 men advance east along the south bank towards Smolensk. On 14 August Murat and Ney attack Dmitry Neverovsky’s 27th Division at [Krasnoi](@smolensk-krasnoi), which falls back into Smolensk. Nikolay Raevsky’s VII Corps reaches the city on 15 August, and Napoleon halts his advance for a day.
 
 @image smolensk-dnieper-e0a741
 

@@ -1,4 +1,4 @@
-Two Ottoman divisions, the 7th and the 12th, march south from Bolayır and reach the Suvla front on the evening of 8 August. Their commander, Feyzi Bey, refuses to attack at once with tired men and no guns, and Liman von Sanders replaces him with Mustafa Kemal. Kemal now commands the whole Anafartalar sector, from Suvla south to Conkbayırı.
+Two Ottoman divisions, the 7th and the 12th, march south from Bolayır and reach the [Suvla](@suvla) front on the evening of 8 August. Their commander, Feyzi Bey, refuses to attack at once with tired men and no guns, and Liman von Sanders replaces him with [Mustafa Kemal](@suvla-tekke-tepe-kemal). Kemal now commands the whole Anafartalar sector, from Suvla south to Conkbayırı.
 
 @image suvla-kemal-1915-d643e8
 

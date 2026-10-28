@@ -1,4 +1,4 @@
-Petén’in kuzeyindeki Nakbe’de MÖ 8. yüzyılda anıtsal yapılar ve 18 m yüksekliğe varan platformlar vardır. Kentin yapımcıları bilinen ilk Maya top sahasını ve beyaz taşla döşenmiş ilk yolları, sacbeobu yapar. Geç Preklasik dönemde Nakbe 13 km kuzeydeki El Mirador’un gerisinde kalır, iki kenti bir yükseltilmiş yol birbirine bağlar.
+Petén’in kuzeyindeki [Nakbe’de](@nakbe-750bc) MÖ 8. yüzyılda anıtsal yapılar ve 18 m yüksekliğe varan platformlar vardır. Kentin yapımcıları bilinen ilk Maya top sahasını ve beyaz taşla döşenmiş ilk yolları, sacbeobu yapar. Geç Preklasik dönemde Nakbe 13 km kuzeydeki [El Mirador’un](@el-mirador-300bc) gerisinde kalır, iki kenti bir yükseltilmiş yol birbirine bağlar.
 
 @image mirador-tigre-danta-9bd707
 
@@ -10,4 +10,4 @@ El Mirador MÖ 6. yüzyıldan başlayarak büyür ve MÖ 3. yüzyıldan başlaya
 
 @image mirador-jaguar-paw-069470
 
-40 km kuzeydeki Calakmul ile 65 km güneydeki Tikal de Preklasik dönemin büyük kentlerindendir. Tikal’in 40 km doğusundaki Cival aynı yüzyıllarda belki 10.000 kişiyle gelişir. Meydanları ekinoks günlerindeki gün doğumuna göre yönlendirilmiştir, kentin çevresinde bir sur vardır, en büyük piramidi 27 m yüksekliğindedir.
+40 km kuzeydeki [Calakmul](@calakmul-300bc) ile 65 km güneydeki [Tikal](@tikal-350bc) de Preklasik dönemin büyük kentlerindendir. Tikal’in 40 km doğusundaki [Cival](@cival-500bc) aynı yüzyıllarda belki 10.000 kişiyle gelişir. Meydanları ekinoks günlerindeki gün doğumuna göre yönlendirilmiştir, kentin çevresinde bir sur vardır, en büyük piramidi 27 m yüksekliğindedir.

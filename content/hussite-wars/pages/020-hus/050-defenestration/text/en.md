@@ -1,4 +1,4 @@
-On 6 July 1419 Wenceslas gives Prague’s New Town a new council with a Catholic majority, which arrests several Hussites and forbid Hussite processions. On Sunday 30 July many come armed to the sermon of Jan Želivský at Our Lady of the Snows. Želivský then leads them in procession, carrying the sacrament, to St Stephen’s, where they drive out the congregation at Mass, and on to the New Town hall on the Cattle Market to demand the release of the prisoners.
+On 6 July 1419 Wenceslas gives Prague’s New Town a new council with a Catholic majority, which arrests several Hussites and forbid Hussite processions. On Sunday 30 July many come armed to the sermon of Jan Želivský at [Our Lady of the Snows](@snows-1419). Želivský then leads them in procession, carrying the sacrament, to [St Stephen’s](@st-stephen-1419), where they drive out the congregation at Mass, and on to the [New Town hall](@new-town-hall-1419) on the Cattle Market to demand the release of the prisoners.
 
 @image prague-new-town-hall-f1cf09
 

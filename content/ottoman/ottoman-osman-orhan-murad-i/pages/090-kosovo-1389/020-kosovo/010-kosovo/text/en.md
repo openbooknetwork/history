@@ -1,4 +1,4 @@
-The battle is fought on 15 June 1389 on Kosovo field, about 5 km northwest of Priština, on the plain between the rivers Lab and Sitnica in the land of Vuk Branković. The accounts of it are few and late. The letters written in the months after the battle say little about the fighting, and the first detailed Ottoman account, by Neşri, dates from the early 16th century. The positions and the course of the battle are reconstructions, and the Serbian and Ottoman accounts differ.
+The battle is fought on 15 June 1389 on Kosovo field, about 5 km northwest of [Priština](@pristina), on the plain between the rivers Lab and Sitnica in the land of Vuk Branković. The accounts of it are few and late. The letters written in the months after the battle say little about the fighting, and the first detailed Ottoman account, by Neşri, dates from the early 16th century. The positions and the course of the battle are reconstructions, and the Serbian and Ottoman accounts differ.
 
 @image kosovo-facial-chronicle-da73aa
 

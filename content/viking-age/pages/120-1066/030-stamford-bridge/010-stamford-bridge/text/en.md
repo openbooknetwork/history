@@ -1,8 +1,8 @@
-Harold Godwinson spends the summer of 1066 on the south coast, waiting for an invasion from Normandy, and dismisses the militia on 8 September. When he learns of the Norwegian landing he marches north with his housecarls and as many thegns as he can gather, travelling day and night. He covers the 300 km from London to Tadcaster in about four days and arrives on 24 September, the day York surrenders to Harald.
+Harold Godwinson spends the summer of 1066 on the south coast, waiting for an invasion from Normandy, and dismisses the militia on 8 September. When he learns of the Norwegian landing he marches north with his housecarls and as many thegns as he can gather, travelling day and night. He covers the 300 km from London to [Tadcaster](@tadcaster-1066) in about four days and arrives on 24 September, the day [York](@york-1066) surrenders to Harald.
 
 @image stamford-bridge-penny-2e97d6
 
-Harald has left no troops in York, and the Northumbrians are to bring the hostages and supplies to Stamford Bridge, a crossing of the Derwent about 11 km east of the city. On the morning of 25 September Harold marches through York towards it. The same morning Harald and Tostig leave Riccall with two thirds of the army. A third stays with the ships under Harald’s son Olaf, Eystein Orri and the earls of Orkney.
+Harald has left no troops in York, and the Northumbrians are to bring the hostages and supplies to Stamford Bridge, a crossing of the Derwent about 11 km east of the city. On the morning of 25 September Harold marches through York towards it. The same morning Harald and Tostig leave [Riccall](@riccall-1066) with two thirds of the army. A third stays with the ships under Harald’s son Olaf, Eystein Orri and the earls of Orkney.
 
 @image stamford-bridge-paris-c8e252
 

@@ -1,4 +1,4 @@
-On 6 February 886 the Seine, swollen by rain and choked with the debris of the siege, rises and breaks the Petit Pont. The tower at the left bank end of the bridge is cut off from the city with twelve men inside.
+On 6 February 886 the Seine, swollen by rain and choked with the debris of the siege, rises and breaks the [Petit Pont](@paris-flood-bridge). The tower at the left bank end of the bridge is cut off from the city with twelve men inside.
 
 @image paris-flood-petit-chatelet-182123
 

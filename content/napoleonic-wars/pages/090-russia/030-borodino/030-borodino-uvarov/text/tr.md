@@ -1,4 +1,4 @@
-Eugène Koloça’yı geçer ve Jean-Baptiste Broussier ile Charles-Antoine Morand’ın tümenleriyle büyük tabyaya ilerler. Charles Auguste Bonnamy’nin tugayı tabyaya girer, Barclay de Ivan Paskeviç’in bozguna uğrayan alayını bizzat toparlamak zorunda kalır. Aleksey Yermolov üç atlı topçu bataryası ve dinç piyade getirir, Ruslar da tabyayı süngüyle geri alır.
+[Eugène](@borodino-noon-eugene) Koloça’yı geçer ve Jean-Baptiste Broussier ile Charles-Antoine Morand’ın tümenleriyle büyük tabyaya ilerler. Charles Auguste Bonnamy’nin tugayı tabyaya girer, Barclay de Ivan Paskeviç’in bozguna uğrayan alayını bizzat toparlamak zorunda kalır. Aleksey [Yermolov](@borodino-noon-yermolov) üç atlı topçu bataryası ve dinç piyade getirir, Ruslar da tabyayı süngüyle geri alır.
 
 @image borodino-raevsky-battery-434c07
 

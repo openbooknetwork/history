@@ -1,4 +1,4 @@
-Late in the battle Eystein Orri, who is betrothed to Harald’s daughter Maria, comes up with the men left at the ships at Riccall, about 26 km to the south. They have run the whole way in full armour, and some are said to collapse and die of exhaustion. Eystein takes up the fallen banner and leads a counter-attack, which Norwegian tradition calls Orri’s storm. It checks the English and almost breaks their line, until Eystein is killed.
+Late in the battle [Eystein Orri](@stamford-bridge-orre-orri), who is betrothed to Harald’s daughter Maria, comes up with the men left at the ships at Riccall, about 26 km to the south. They have run the whole way in full armour, and some are said to collapse and die of exhaustion. Eystein takes up the fallen banner and leads a counter-attack, which Norwegian tradition calls Orri’s storm. It checks the English and almost breaks their line, until Eystein is killed.
 
 @image stamford-bridge-orre-memorial-829304
 

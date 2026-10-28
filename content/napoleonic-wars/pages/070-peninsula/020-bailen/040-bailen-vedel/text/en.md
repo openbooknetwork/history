@@ -1,6 +1,6 @@
-Towards noon Vedel’s division comes down the road from Guarromán to Bailén. Reding turns Coupigny’s division to face it, with an Irish battalion and two guns on a knoll towards the hills and the regular regiment of the Órdenes Militares at the monastery of San Cristóbal. Two Spanish officers tell Vedel under a flag of truce that Dupont has proposed a suspension of arms, and Vedel attacks all the same.
+Towards noon [Vedel’s](@bailen-vedel-vedel) division comes down the road from Guarromán to [Bailén](@bailen-vedel-town). Reding turns Coupigny’s division to face it, with an [Irish battalion](@bailen-vedel-knoll) and two guns on a knoll towards the hills and the regular regiment of the Órdenes Militares at the monastery of San Cristóbal. Two Spanish officers tell Vedel under a flag of truce that [Dupont](@bailen-vedel-dupont) has proposed a suspension of arms, and Vedel attacks all the same.
 
-Cassagne’s legion assaults the knoll while General Boussart’s dragoons ride round it, and the Irish battalion surrenders, leaving Vedel the knoll and 1,500 prisoners. Colonel Roche’s column attacks San Cristóbal, where the regulars under Colonel Francisco Soler hold their ground.
+Cassagne’s legion assaults the knoll while General Boussart’s dragoons ride round it, and the Irish battalion surrenders, leaving Vedel the knoll and 1,500 prisoners. Colonel Roche’s column attacks San Cristóbal, where the regulars under Colonel Francisco [Soler](@bailen-vedel-soler) hold their ground.
 
 @image bailen-surrender-ae8b9d
 

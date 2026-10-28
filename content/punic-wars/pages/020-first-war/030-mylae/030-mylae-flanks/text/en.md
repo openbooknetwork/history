@@ -2,4 +2,4 @@ The rest of the Carthaginian fleet swings wide to attack the Romans from the sid
 
 @image mylae-duilius-column-015c40
 
-These are Polybius’s figures. The inscription on Duilius’s column gives 31 ships captured and 13 sunk. Duilius sails on to relieve Segesta, which the Carthaginians are besieging. In Rome he celebrates the first triumph for a victory at sea, and a column decorated with the rams of the captured ships is set up in the Forum.
+These are Polybius’s figures. The inscription on [Duilius’s](@mylae-flanks-duilius) column gives 31 ships captured and 13 sunk. Duilius sails on to relieve Segesta, which the Carthaginians are besieging. In Rome he celebrates the first triumph for a victory at sea, and a column decorated with the rams of the captured ships is set up in the Forum.

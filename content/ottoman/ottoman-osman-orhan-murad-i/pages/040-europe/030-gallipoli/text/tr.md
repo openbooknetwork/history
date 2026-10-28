@@ -2,7 +2,7 @@
 
 @image gallipoli-port-etching-e38af7
 
-Süleyman’ın adamları yarımadanın ve kıyının boşalmış öteki kasabalarını, 1354 ve 1355’te de Bolayır’ı, Malkara’yı, İpsala’yı ve Tekirdağ’ı (Rhaidestos) alır. VI. İoannis Gelibolu için para önerir. Anlatıldığına göre Orhan, şehri zorla almadığını ve Allah’ın verdiğini geri veremeyeceğini söyler.
+Süleyman’ın adamları yarımadanın ve kıyının boşalmış öteki kasabalarını, 1354 ve 1355’te de Bolayır’ı, [Malkara’yı](@malkara-1354), [İpsala’yı](@ipsala-1354) ve [Tekirdağ’ı](@rhaidestos-1354) (Rhaidestos) alır. VI. İoannis Gelibolu için para önerir. Anlatıldığına göre Orhan, şehri zorla almadığını ve Allah’ın verdiğini geri veremeyeceğini söyler.
 
 @image gelibolu-harbour-b5a63a
 

@@ -1,4 +1,4 @@
-Babası ölünce komutayı Bayezid üstlenir ve savaş alanında sultan ilan edilir. Öteki kanada komuta eden kardeşi Yakub’u sultanın çadırına çağırtır ve boğdurur, böylece tahtın tek varisi olur. Murad’ın iç organları Kosova Ovası’na gömülür ve Bayezid buraya Meşhed-i Hüdavendigâr denen türbeyi yaptırır. Naaşı Bursa’ya götürülür ve Çekirge’deki külliyesine defnedilir. Lazar, Priştine’deki Göğe Yükseliş Kilisesi’ne gömülür.
+Babası ölünce komutayı Bayezid üstlenir ve savaş alanında sultan ilan edilir. Öteki kanada komuta eden kardeşi Yakub’u sultanın çadırına çağırtır ve boğdurur, böylece tahtın tek varisi olur. Murad’ın iç organları Kosova Ovası’na gömülür ve Bayezid buraya [Meşhed-i Hüdavendigâr](@murad-tomb-kosovo) denen türbeyi yaptırır. Naaşı [Bursa’ya](@murad-tomb-bursa) götürülür ve Çekirge’deki külliyesine defnedilir. Lazar, Priştine’deki Göğe Yükseliş Kilisesi’ne gömülür.
 
 @image bayezid-accession-iskendername-a63dd1
 
@@ -6,6 +6,6 @@ Osmanlı ordusu Kosova’dan çekilir. Vlatko Vuković’ten haber alan Kral Tvr
 
 @image kosovo-murad-tomb-1a0262
 
-Lazar’ın oğlu Stefan Lazarević henüz küçüktür ve onun adına annesi Milica yönetir. Macaristan Kralı Sigismund Kasım 1389’da kuzeyden Moravya Sırbistanı’na saldırır. Osmanlı birlikleri 1390 yazında sınırlarına ulaşınca Milica Osmanlı üstünlüğünü tanır ve kızı Olivera, Bayezid’le evlenir. Bazı anlatımlar bu boyun eğişi 1389’un sonuna tarihler. Vuk Branković boyun eğmez ve Sigismund’a yönelir. Osmanlı Devleti Anadolu’da Ankara ve Akşehir’den Selanik’e, Sofya’ya ve Niş’e kadar uzanır. Bizans imparatoru, Bulgar çarları ve Makedonya’daki Sırp beyleri de onun vasallarıdır.
+Lazar’ın oğlu Stefan Lazarević henüz küçüktür ve onun adına annesi Milica yönetir. Macaristan Kralı Sigismund Kasım 1389’da kuzeyden Moravya Sırbistanı’na saldırır. Osmanlı birlikleri 1390 yazında sınırlarına ulaşınca Milica Osmanlı üstünlüğünü tanır ve kızı Olivera, Bayezid’le evlenir. Bazı anlatımlar bu boyun eğişi 1389’un sonuna tarihler. Vuk Branković boyun eğmez ve Sigismund’a yönelir. Osmanlı Devleti Anadolu’da Ankara ve Akşehir’den [Selanik’e](@thessalonica-1387), Sofya’ya ve Niş’e kadar uzanır. Bizans imparatoru, Bulgar çarları ve Makedonya’daki Sırp beyleri de onun vasallarıdır.
 
 @image stefan-vuk-lazarevic-rudenica-c2845c

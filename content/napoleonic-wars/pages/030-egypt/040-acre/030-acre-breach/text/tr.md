@@ -2,4 +2,4 @@ Mayıs başında Perrée’nin Yafa’da karaya çıkardığı yedi kuşatma top
 
 @image acre-breach-sutherland-7fc969
 
-Kaynaklara göre 9 ya da 10 Mayıs’taki son saldırı da püskürtülür. Fransız ordugâhında veba baş göstermiştir ve yaklaşık 2.000 askeri öldürmüştür. 63 günün sonunda, 20 Mayıs’ta Bonaparte kuşatmayı kaldırır. Kuşatma Fransızlara yaklaşık 4.000 ile 4.500, savunuculara yaklaşık 2.000 kişiye mal olmuştur.
+Kaynaklara göre 9 ya da 10 Mayıs’taki son saldırı da püskürtülür. [Fransız ordugâhında](@acre-breach-camp) veba baş göstermiştir ve yaklaşık 2.000 askeri öldürmüştür. 63 günün sonunda, 20 Mayıs’ta Bonaparte kuşatmayı kaldırır. Kuşatma Fransızlara yaklaşık 4.000 ile 4.500, savunuculara yaklaşık 2.000 kişiye mal olmuştur.

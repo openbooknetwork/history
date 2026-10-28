@@ -1,4 +1,4 @@
-Saldırılar yeniden başlayınca koçbaşları üç kuleyi ve aralarındaki suru yıkar, Kartacalılar da gedikte çarpışarak içeri girer. Livius, surlardan yüksek, her katında mancınıklar bulunan yürür bir kuleyi ve kazmalarla suru oyan 500 Afrikalıyı anlatır. Savunucular her gediğin arkasına yeni bir sur örer. Hannibal Oretanilere ve Karpetanilere karşı sefere çıktığında kuşatmayı Maharbal sürdürür.
+Saldırılar yeniden başlayınca koçbaşları üç kuleyi ve aralarındaki suru yıkar, Kartacalılar da gedikte çarpışarak içeri girer. Livius, surlardan yüksek, her katında mancınıklar bulunan yürür bir kuleyi ve kazmalarla suru oyan 500 Afrikalıyı anlatır. Savunucular her gediğin arkasına yeni bir sur örer. Hannibal Oretanilere ve Karpetanilere karşı sefere çıktığında kuşatmayı [Maharbal](@saguntum-fall-maharbal) sürdürür.
 
 @image saguntum-last-day-616ae3
 

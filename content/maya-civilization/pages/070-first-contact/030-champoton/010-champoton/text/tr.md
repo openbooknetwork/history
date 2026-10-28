@@ -1,4 +1,4 @@
-Filo Campeche’den sonra altı gün güzel havada, dört gün de fırtınada yol alır. Fıçılar sızdırır ve su yine tükenir. Gemiler, Champotón Irmağı’nın denize döküldüğü yerdeki Champotón’da durur. Kentin Maya dilindeki adı Chakán Putum’dur ve beyi Couoh soyundan Moch Couoh’tur. Sığ sular gemilerin kıyıdan uzakta kalmasına yol açtığından İspanyollar karaya sandallarla çıkar.
+Filo [Campeche’den](@campeche-1517) sonra altı gün güzel havada, dört gün de fırtınada yol alır. Fıçılar sızdırır ve su yine tükenir. Gemiler, Champotón Irmağı’nın denize döküldüğü yerdeki Champotón’da durur. Kentin Maya dilindeki adı Chakán Putum’dur ve beyi Couoh soyundan Moch Couoh’tur. Sığ sular gemilerin kıyıdan uzakta kalmasına yol açtığından İspanyollar karaya sandallarla çıkar.
 
 @image champoton-river-mouth-a6b2d9
 

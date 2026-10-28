@@ -1,8 +1,8 @@
-Žižka önce Kutná Hora’daki yangını söndürtür, sonra kraliyet ordusunun peşine düşer. 8 Ocak’ta onu Kutná Hora’dan yaklaşık 30 km uzakta, Habry yakınlarındaki bir tepede yakalar, büyük olasılıkla Pippo Spano’nun yönettiği direniş ilk saldırıda çöker. Husçular aynı gün kaçanları yaklaşık 20 km ötedeki Německý Brod’a kadar kovalar, kraliyet askerleri orada kralın Moravya’ya kaçışını korumak için bir kez daha saf tutar ve yeniden yenilir.
+Žižka önce Kutná Hora’daki yangını söndürtür, sonra kraliyet ordusunun peşine düşer. 8 Ocak’ta onu Kutná Hora’dan yaklaşık 30 km uzakta, Habry yakınlarındaki bir tepede yakalar, büyük olasılıkla Pippo Spano’nun yönettiği direniş ilk saldırıda çöker. Husçular aynı gün kaçanları yaklaşık 20 km ötedeki [Německý Brod’a](@nemecky-brod-town) kadar kovalar, kraliyet askerleri orada kralın Moravya’ya kaçışını korumak için bir kez daha saf tutar ve yeniden yenilir.
 
 @image kutna-hora-flight-b90e57
 
-Kentin yanından donmuş Sázava’yı geçerek kaçanların çoğu buz kırılınca boğulur, Eski Çek Yıllıkları’nın bir nüshasına göre 548 zırhlı adam. Yıllıkların nüshaları kaçış boyunca 12.000 ya da 2.000 kraliyet askerinin öldüğünü yazar, altı ya da yedi sancak ve yüklü 540 araba ele geçirilir. Sigismund Moravya’ya kaçar.
+Kentin yanından donmuş Sázava’yı geçerek kaçanların çoğu buz kırılınca boğulur, Eski Çek Yıllıkları’nın bir nüshasına göre 548 zırhlı adam. Yıllıkların nüshaları kaçış boyunca 12.000 ya da 2.000 kraliyet askerinin öldüğünü yazar, altı ya da yedi sancak ve yüklü 540 araba ele geçirilir. [Sigismund](@nemecky-brod-sigismund) Moravya’ya kaçar.
 
 @image sazava-brod-411e89
 

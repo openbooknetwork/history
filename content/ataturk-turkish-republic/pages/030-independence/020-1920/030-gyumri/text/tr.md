@@ -1,4 +1,4 @@
-Eylül 1920 sonunda Kâzım Karabekir’in Doğu Cephesi Ermenistan Cumhuriyeti’ne karşı harekete geçer. Sarıkamış’ı, ardından 30 Ekim’de Kars’ı ve kasımda Gümrü’yü alır. Harekât, doğudaki tümenleri batıdaki savaş için serbest bırakır.
+Eylül 1920 sonunda Kâzım Karabekir’in Doğu Cephesi Ermenistan Cumhuriyeti’ne karşı harekete geçer. Sarıkamış’ı, ardından 30 Ekim’de [Kars’ı](@kars) ve kasımda [Gümrü’yü](@gyumri) alır. Harekât, doğudaki tümenleri batıdaki savaş için serbest bırakır.
 
 @image karabekir-1918-bf5b0f
 

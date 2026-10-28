@@ -2,7 +2,7 @@ Bonaparte Mart 1796’nın sonunda Nice’te İtalya Ordusu’nun komutasını a
 
 @image italy-1796-detaille-730ad4
 
-İlk hamleyi Beaulieu yapar ve 10 Nisan’da Voltri’de Fransız sağ kanadına saldırır. Bonaparte iki müttefik arasındaki sınır noktasına vurarak karşılık verir. 12 Nisan’da Montenotte’de Argenteau komutasındaki Avusturyalıları, 13 Nisan’da Millesimo’da Provera’yı, 14 ve 15 Nisan’da Dego’da yeniden Argenteau’yu yener, sonra batıya Sardinyalılara döner ve 21 Nisan’da Mondovì’de Colli’yi yener. 28 Nisan’da imzalanan Cherasco ateşkesiyle Sardinya savaştan çekilir ve Cuneo, Ceva ve Tortona kalelerini teslim eder.
+İlk hamleyi Beaulieu yapar ve 10 Nisan’da Voltri’de Fransız sağ kanadına saldırır. Bonaparte iki müttefik arasındaki sınır noktasına vurarak karşılık verir. 12 Nisan’da [Montenotte’de](@italy-1796-montenotte) Argenteau komutasındaki Avusturyalıları, 13 Nisan’da Millesimo’da Provera’yı, 14 ve 15 Nisan’da Dego’da yeniden Argenteau’yu yener, sonra batıya Sardinyalılara döner ve 21 Nisan’da [Mondovì’de](@italy-1796-mondovi) Colli’yi yener. 28 Nisan’da imzalanan [Cherasco](@italy-1796-cherasco) ateşkesiyle Sardinya savaştan çekilir ve Cuneo, Ceva ve Tortona kalelerini teslim eder.
 
 @image italy-1796-cherasco-6f7c49
 
@@ -10,4 +10,4 @@ Bonaparte Piacenza’da Po Nehri’ni geçer ve 10 Mayıs’ta Adda kıyısında
 
 @image lodi-lejeune-1a059e
 
-Avusturyalılar 335 ölü ve yaralı, 1.700 esir ve 16 top kaybeder, Fransızların kaybı en az 350’dir. Avusturya ana ordusu doğuya kaçar, ama Milano yolu açılmıştır ve Fransızlar beş gün sonra kente girer.
+Avusturyalılar 335 ölü ve yaralı, 1.700 esir ve 16 top kaybeder, Fransızların kaybı en az 350’dir. Avusturya ana ordusu doğuya kaçar, ama [Milano](@italy-1796-milan) yolu açılmıştır ve Fransızlar beş gün sonra kente girer.

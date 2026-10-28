@@ -1,6 +1,6 @@
-Öğleye doğru Vedel’in tümeni Guarromán’dan Bailén’e inen yoldan gelir. Reding, Coupigny’nin tümenini ona karşı çevirir. Bir İrlanda taburu iki topla tepelere doğru yükselen bir tümseğe, düzenli Órdenes Militares alayı da San Cristóbal manastırına yerleşir. İki İspanyol subayı ateşkes bayrağıyla gelip Dupont’un silah bırakmayı önerdiğini söyler, ama Vedel yine de saldırır.
+Öğleye doğru [Vedel’in](@bailen-vedel-vedel) tümeni Guarromán’dan [Bailén’e](@bailen-vedel-town) inen yoldan gelir. Reding, Coupigny’nin tümenini ona karşı çevirir. Bir [İrlanda taburu](@bailen-vedel-knoll) iki topla tepelere doğru yükselen bir tümseğe, düzenli Órdenes Militares alayı da San Cristóbal manastırına yerleşir. İki İspanyol subayı ateşkes bayrağıyla gelip [Dupont’un](@bailen-vedel-dupont) silah bırakmayı önerdiğini söyler, ama Vedel yine de saldırır.
 
-Cassagne’ın lejyonu tümseğe saldırırken General Boussart’ın ejderleri onu çevreler. İrlanda taburu teslim olur ve tümsek 1.500 esirle birlikte Vedel’in eline geçer. Albay Roche’un kolu San Cristóbal’a saldırır, ama Albay Francisco Soler komutasındaki düzenli askerler yerlerini korur.
+Cassagne’ın lejyonu tümseğe saldırırken General Boussart’ın ejderleri onu çevreler. İrlanda taburu teslim olur ve tümsek 1.500 esirle birlikte Vedel’in eline geçer. Albay Roche’un kolu San Cristóbal’a saldırır, ama Albay Francisco [Soler](@bailen-vedel-soler) komutasındaki düzenli askerler yerlerini korur.
 
 @image bailen-surrender-ae8b9d
 

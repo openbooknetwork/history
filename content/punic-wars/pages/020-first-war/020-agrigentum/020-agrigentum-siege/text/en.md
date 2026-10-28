@@ -1,4 +1,4 @@
-While most of the Roman army is spread over the fields at harvest time, Hannibal Gisco sorties in force. The Carthaginians catch the foragers unarmed and break into the Roman camp, but the Romans rally and drive them back. After this both sides are more careful.
+While most of the Roman army is spread over the fields at harvest time, [Hannibal Gisco](@agrigentum-siege-garrison) sorties in force. The Carthaginians catch the foragers unarmed and break into the [Roman camp](@agrigentum-siege-south), but the Romans rally and drive them back. After this both sides are more careful.
 
 @image agrigentum-plan-8baaa2
 

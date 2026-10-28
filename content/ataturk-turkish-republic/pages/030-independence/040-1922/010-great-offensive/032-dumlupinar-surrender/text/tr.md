@@ -1,4 +1,4 @@
-Trikupis grubu üç kola ayrılır. Çoğu 12. Tümen’den 2.000 kişilik bir kol 1 Eylül akşamı Türk süvarisine teslim olur. Trikupis 2 Eylül saat 17.00’de 5.000 ile 6.000 arası askerle teslim olur, 5.000 kişilik üçüncü bir kol da hiçbir savaş gücü kalmamış olarak çemberden sıyrılır. Sol kanadı 30 Ağustos’u bitirirken yarılan Frangu grubu Banaz’a doğru çekilir.
+[Trikupis](@dumlupinar-surrender-trikoupis) grubu üç kola ayrılır. Çoğu 12. Tümen’den 2.000 kişilik bir kol 1 Eylül akşamı Türk süvarisine teslim olur. Trikupis 2 Eylül saat 17.00’de 5.000 ile 6.000 arası askerle teslim olur, 5.000 kişilik üçüncü bir kol da hiçbir savaş gücü kalmamış olarak çemberden sıyrılır. Sol kanadı 30 Ağustos’u bitirirken yarılan Frangu grubu [Banaz’a](@dumlupinar-surrender-banaz) doğru çekilir.
 
 @image digenis-pow-1922-f4276b
 

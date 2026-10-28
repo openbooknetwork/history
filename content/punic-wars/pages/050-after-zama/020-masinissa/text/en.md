@@ -1,4 +1,4 @@
-The treaty of 201 BC leaves Carthage its African land but forbids it to make war without Rome’s permission. Masinissa, Rome’s ally, unites the Numidians in a kingdom west of Carthage with its capital at Cirta. Over the next fifty years he takes Carthaginian territory piece by piece: by 158 BC the coast of the Emporia as far as Lepcis Magna, and in 152 BC the Great Plains. Each time Carthage appeals to Rome, Rome backs Masinissa.
+The treaty of 201 BC leaves [Carthage](@carthage-151) its African land but forbids it to make war without [Rome’s](@rome-153) permission. Masinissa, Rome’s ally, unites the Numidians in a kingdom west of Carthage with its capital at [Cirta](@cirta-201). Over the next fifty years he takes Carthaginian territory piece by piece: by 158 BC the coast of the Emporia as far as [Lepcis Magna](@masinissa-lepcis), and in 152 BC the Great Plains. Each time Carthage appeals to Rome, Rome backs Masinissa.
 
 @image masinissa-cirta-coin-166631
 

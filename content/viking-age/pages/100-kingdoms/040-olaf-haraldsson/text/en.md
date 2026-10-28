@@ -6,8 +6,8 @@ On Palm Sunday, 25 March 1016, Olaf’s fleet meets that of Sveinn Hákonarson, 
 
 @image olaf-haraldsson-munthe-66fc69
 
-While Cnut is busy in England, Olaf and King Anund Jacob of Sweden attack Denmark, and in 1026 they meet Cnut’s fleet at the Helgeå, the Holy River. By the sagas’ account they dam the river and release the water on the Danish ships, but Cnut’s larger fleet holds the sea and the two kings withdraw. The Anglo-Saxon Chronicle dates the battle to 1025 and gives the field to the Swedes, and its site, in Skåne or in Uppland, is disputed.
+While Cnut is busy in England, Olaf and King Anund Jacob of Sweden attack Denmark, and in 1026 they meet Cnut’s fleet at the [Helgeå](@helgea-1026), the Holy River. By the sagas’ account they dam the river and release the water on the Danish ships, but Cnut’s larger fleet holds the sea and the two kings withdraw. The Anglo-Saxon Chronicle dates the battle to 1025 and gives the field to the Swedes, and its site, in Skåne or in Uppland, is disputed.
 
 @image olaf-haraldsson-statue-776736
 
-In 1028 Cnut sails from England with 50 ships. The Norwegian nobles, many of them bribed, go over to him, and he is hailed king at Nidaros. Olaf flees through Eidskog into Sweden with his family, winters in Närke, takes a ship that Anund Jacob has left for him at Sigtuna and reaches Novgorod by way of Staraya Ladoga.
+In 1028 Cnut sails from England with 50 ships. The Norwegian nobles, many of them bribed, go over to him, and he is hailed king at [Nidaros](@nidaros-1028). Olaf flees through Eidskog into Sweden with his family, winters in [Närke](@narke-1028), takes a ship that Anund Jacob has left for him at [Sigtuna](@sigtuna-1029) and reaches [Novgorod](@novgorod-1029) by way of [Staraya Ladoga](@staraya-ladoga-1029).

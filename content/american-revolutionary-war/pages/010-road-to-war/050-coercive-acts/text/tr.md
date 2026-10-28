@@ -1,4 +1,4 @@
-Parlamento Massachusetts’i cezalandırır. Boston Liman Yasası, çayın bedeli ödenene dek limanı 1 Haziran 1774’ten itibaren kapatır. 20 Mayıs tarihli Massachusetts Hükûmet Yasası seçilmiş konseyin yerine kralın atadığı bir konsey getirir ve vali başka toplantı çağırmadıkça kasaba toplantılarını yılda bire indirir. Vali Massachusetts’te adil yargılanmanın mümkün olmadığına karar verirse, kraliyet görevlileri Britanya’da ya da başka bir kolonide yargılanabilir.
+Parlamento Massachusetts’i cezalandırır. [Boston](@boston-1774) Liman Yasası, çayın bedeli ödenene dek limanı 1 Haziran 1774’ten itibaren kapatır. 20 Mayıs tarihli Massachusetts Hükûmet Yasası seçilmiş konseyin yerine kralın atadığı bir konsey getirir ve vali başka toplantı çağırmadıkça kasaba toplantılarını yılda bire indirir. Vali Massachusetts’te adil yargılanmanın mümkün olmadığına karar verirse, kraliyet görevlileri Britanya’da ya da başka bir kolonide yargılanabilir.
 
 @image bostonians-distress-b62ffe
 

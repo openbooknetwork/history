@@ -1,4 +1,4 @@
-The second Greek offensive opens on 23 March, with the III Corps advancing from Bursa and the I Corps from Uşak. In the north the Western Front fights a delaying action for four days. The Greeks reach İnönü and take Metristepe on 27 March, and a Turkish counterattack that night fails. In the south the I Corps breaks through at Dumlupınar and takes Afyon on 24 March.
+The second Greek offensive opens on 23 March, with the III Corps advancing from Bursa and the I Corps from Uşak. In the north the Western Front fights a delaying action for four days. The Greeks reach [İnönü](@inonu) and take [Metristepe](@inonu-second-metristepe) on 27 March, and a Turkish counterattack that night fails. In the south the I Corps breaks through at Dumlupınar and takes Afyon on 24 March.
 
 @image inonu-second-inspection-b7635f
 

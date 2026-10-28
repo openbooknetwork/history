@@ -1,4 +1,4 @@
-Burgoyne Hudson’ın batı yakasına geçer ve 18 Eylül’de öncü birlikleri Bemis Tepeleri’ndeki Amerikan hatlarına dört mil kadar yaklaşır. Gates Amerikan savunmasının sağ kanadını kendisi yönetir, sol kanadı Benedict Arnold’a vermiştir.
+[Burgoyne](@saratoga-advance-burgoyne) Hudson’ın batı yakasına geçer ve 18 Eylül’de öncü birlikleri Bemis Tepeleri’ndeki Amerikan hatlarına dört mil kadar yaklaşır. [Gates](@saratoga-advance-gates) Amerikan savunmasının sağ kanadını kendisi yönetir, sol kanadı Benedict Arnold’a vermiştir.
 
 Sabah sisi saat on sularında kalkınca Burgoyne üç kol halinde ilerler. Baron Riedesel sol kolu Alman birlikleri ve 47. alayla, ana topçu ve teknelerle birlikte nehir yolundan götürür. James Inglis Hamilton 9., 20., 21. ve 62. alaylardan oluşan merkez kolu tepelere doğru sürer. Simon Fraser ise hafif piyade, grenadiyerler ve 24. alaydan oluşan sağ kolla Amerikan sol kanadını çevirmeye çalışır.
 

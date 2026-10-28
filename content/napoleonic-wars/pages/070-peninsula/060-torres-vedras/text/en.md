@@ -6,8 +6,8 @@ Masséna advances on Coimbra with about 65,000 men. On 27 September he finds Wel
 
 @image torres-vedras-bussaco-b27862
 
-Masséna then marches round the north end of the ridge, and Wellington falls back, reaching the Lines on 10 October. On 14 October an attack at Sobral shows the strength of the works: 126 of them are finished, held by 29,750 men with 247 heavy guns, most of them Portuguese militia, Spanish troops and British marines and gunners, which leaves the field army free to meet an attack anywhere. Masséna keeps his starving army before the Lines for a month and in mid-November falls back to Santarém.
+Masséna then marches round the north end of the ridge, and Wellington falls back, reaching the Lines on 10 October. On 14 October an attack at [Sobral](@torres-vedras-sobral) shows the strength of the works: 126 of them are finished, held by 29,750 men with 247 heavy guns, most of them Portuguese militia, Spanish troops and British marines and gunners, which leaves the field army free to meet an attack anywhere. Masséna keeps his starving army before the Lines for a month and in mid-November falls back to [Santarém](@torres-vedras-santarem).
 
 @image torres-vedras-lines-aa6668
 
-In March 1811, his supplies exhausted, Masséna retreats into Spain, having lost about 25,000 men in Portugal. In April Wellington besieges Almeida, and from 3 to 5 May he holds off Masséna’s attempt to relieve it at Fuentes de Oñoro. Masséna is replaced by Marshal Auguste Marmont.
+In March 1811, his supplies exhausted, Masséna retreats into Spain, having lost about 25,000 men in Portugal. In April Wellington besieges Almeida, and from 3 to 5 May he holds off Masséna’s attempt to relieve it at [Fuentes de Oñoro](@torres-vedras-fuentes). Masséna is replaced by Marshal Auguste Marmont.

@@ -1,4 +1,4 @@
-Eski İngilizce Maldon Muharebesi şiirinin günümüze ulaşan 325 dizesi, Byrhtnoth’un adamlarının Blackwater kıyısında bekleyişiyle açılır. Byrhtnoth onlara atlarını salıp yaya ilerlemelerini buyurur. Safların önünden atıyla geçer, adamlara nasıl duracaklarını ve kalkanlarını nasıl tutacaklarını gösterir, sonra hane birliklerinin arasında atından iner.
+Eski İngilizce Maldon Muharebesi şiirinin günümüze ulaşan 325 dizesi, [Byrhtnoth’un](@maldon-causeway-byrhtnoth) adamlarının Blackwater kıyısında bekleyişiyle açılır. Byrhtnoth onlara atlarını salıp yaya ilerlemelerini buyurur. Safların önünden atıyla geçer, adamlara nasıl duracaklarını ve kalkanlarını nasıl tutacaklarını gösterir, sonra hane birliklerinin arasında atından iner.
 
 Vikingler suyun öte yanında, Northey Adası’ndadır ve gelgit onları karadan ayırır. Bir Viking ulağı kıyıya seslenir ve altın haraç karşılığında gemileriyle çekip gitmeyi önerir. Byrhtnoth, adamlarının haracı mızrak uçları ve kılıç ağızlarıyla ödeyeceği yanıtını verir.
 

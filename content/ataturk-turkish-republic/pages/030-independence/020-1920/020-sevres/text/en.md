@@ -2,7 +2,7 @@ The İstanbul government signs the Treaty of Sèvres on 10 August 1920. It gives
 
 @image sevres-signing-bc024a
 
-The Assembly in Ankara rejects the treaty, declares its signatories traitors and strips them of their citizenship. The treaty is never ratified.
+The Assembly in [Ankara](@ankara) rejects the treaty, declares its signatories traitors and strips them of their citizenship. The treaty is never ratified.
 
 @image sevres-room-bb0e26
 

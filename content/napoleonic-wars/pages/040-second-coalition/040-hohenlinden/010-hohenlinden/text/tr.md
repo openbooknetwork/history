@@ -1,8 +1,8 @@
-Nisan 1800’den itibaren Moreau’nun sahada yaklaşık 108.000 kişilik Ren Ordusu, Basel yakınında Ren’i geçer ve Pál Kray’in Avusturya ordusunu doğuya sürer. 3 Mayıs’ta Engen ve Stockach’ta, 4 ve 5 Mayıs’ta Messkirch’te, 9 Mayıs’ta Biberach’ta çarpışır. 19 Haziran’da Tuna kıyısındaki Höchstädt’te kazandığı zafer, Kray’i Ulm’dan çıkıp Bavyera’ya çekilmeye zorlar. 15 Temmuz’da iki taraf Parsdorf’ta ateşkes yapar.
+Nisan 1800’den itibaren Moreau’nun sahada yaklaşık 108.000 kişilik Ren Ordusu, Basel yakınında Ren’i geçer ve Pál Kray’in Avusturya ordusunu doğuya sürer. 3 Mayıs’ta [Engen ve Stockach’ta](@hohenlinden-stockach), 4 ve 5 Mayıs’ta [Messkirch’te](@hohenlinden-messkirch), 9 Mayıs’ta Biberach’ta çarpışır. 19 Haziran’da Tuna kıyısındaki [Höchstädt’te](@hohenlinden-hochstadt) kazandığı zafer, Kray’i Ulm’dan çıkıp Bavyera’ya çekilmeye zorlar. 15 Temmuz’da iki taraf [Parsdorf’ta](@hohenlinden-parsdorf) ateşkes yapar.
 
 @image hohenlinden-moreau-da2932
 
-İmparator II. Franz, Kray’i görevden alır ve komutayı 18 yaşındaki kardeşi Arşidük Johann’a verir, Franz von Lauer’i danışmanı, Franz von Weyrother’i de kurmay başkanı yapar. Ateşkes 12 Kasım’da sona erer ve Avusturyalılar Inn Irmağı’ndan Münih’e doğru ilerler. 1 Aralık’ta Ampfing’de Grenier’nin kanadının bir kısmını geri atarlar, ama 3.000 kişi kaybederler, Fransızların kaybı 1.700’dür.
+İmparator II. Franz, Kray’i görevden alır ve komutayı 18 yaşındaki kardeşi Arşidük Johann’a verir, Franz von Lauer’i danışmanı, Franz von Weyrother’i de kurmay başkanı yapar. Ateşkes 12 Kasım’da sona erer ve Avusturyalılar Inn Irmağı’ndan Münih’e doğru ilerler. 1 Aralık’ta [Ampfing’de](@hohenlinden-ampfing) Grenier’nin kanadının bir kısmını geri atarlar, ama 3.000 kişi kaybederler, Fransızların kaybı 1.700’dür.
 
 @image hohenlinden-john-663707
 

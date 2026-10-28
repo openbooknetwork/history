@@ -1,4 +1,4 @@
-Hannibal leaves New Carthage with his army in May or June 218 BC. He crosses the Ebro in three columns, subdues the tribes between the river and the Pyrenees in two months of hard fighting, and leaves Hanno with 11,000 men to hold them. His brother Hasdrubal stays in command in Iberia. Polybius gives Hannibal 38,000 infantry, 8,000 cavalry and 37 elephants when he reaches the Rhône in late September.
+Hannibal leaves [New Carthage](@new-carthage-219) with his army in May or June 218 BC. He crosses the Ebro in three columns, subdues the tribes between the river and the Pyrenees in two months of hard fighting, and leaves Hanno with 11,000 men to hold them. His brother Hasdrubal stays in command in Iberia. Polybius gives Hannibal 38,000 infantry, 8,000 cavalry and 37 elephants when he reaches the Rhône in late September.
 
 @image alps-hannibal-bust-fdb697
 
@@ -6,6 +6,6 @@ The consul Publius Cornelius Scipio, delayed by a Gallic rising in the Po valley
 
 @image alps-turner-5d52a2
 
-Hannibal marches up the Rhône and crosses the Alps late in the season, through snow and attacks by the mountain tribes, in fifteen days by Polybius’s account. Which pass he takes is still debated. He reaches the Po valley with 20,000 infantry and 6,000 cavalry and takes the chief town of the Taurini after a three-day siege.
+Hannibal marches up the Rhône and crosses the Alps late in the season, through snow and attacks by the mountain tribes, in fifteen days by Polybius’s account. Which pass he takes is still debated. He reaches the Po valley with 20,000 infantry and 6,000 cavalry and takes the chief town of the [Taurini](@taurini-218) after a three-day siege.
 
 @image alps-goya-1158c0

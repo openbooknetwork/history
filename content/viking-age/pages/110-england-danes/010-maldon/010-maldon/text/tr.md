@@ -2,7 +2,7 @@ Bir kuşak süren barışın ardından İngiltere’ye Viking akınları 980 ve 
 
 @image maldon-pearse-901b58
 
-Kroniğe göre filo Folkestone çevresini yağmalar, ardından Sandwich’e, oradan da Ipswich’e gider ve kenti ele geçirir. Sonra o zamanlar Panta adıyla bilinen Blackwater’ın halicine girer ve Maldon’un aşağısındaki Northey Adası’na yerleşir. 956’dan beri Essex ealdormanı olan ve krallığın önde gelen adamlarından sayılan Byrhtnoth kuvvetlerini toplar.
+Kroniğe göre filo [Folkestone](@folkestone-991) çevresini yağmalar, ardından [Sandwich’e](@sandwich-991), oradan da [Ipswich’e](@ipswich-991) gider ve kenti ele geçirir. Sonra o zamanlar Panta adıyla bilinen Blackwater’ın halicine girer ve Maldon’un aşağısındaki Northey Adası’na yerleşir. 956’dan beri Essex ealdormanı olan ve krallığın önde gelen adamlarından sayılan Byrhtnoth kuvvetlerini toplar.
 
 @image maldon-charter-d32758
 

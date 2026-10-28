@@ -2,7 +2,7 @@ Appian describes three streets running up from the main square to the Byrsa, lin
 
 @image hasdrubal-wife-0d2b7a
 
-On the last day Scipio agrees to take prisoners, and 50,000 people come down from the citadel and are sold into slavery. Hasdrubal surrenders on the promise of his life. The last defenders, among them 900 Roman deserters, burn the temple of Eshmoun around themselves, and Hasdrubal’s wife curses her husband and walks into the fire with her children.
+On the last day Scipio agrees to take prisoners, and 50,000 people come down from the citadel and are sold into slavery. [Hasdrubal](@carthage-byrsa-hasdrubal) surrenders on the promise of his life. The last defenders, among them 900 Roman deserters, burn the temple of Eshmoun around themselves, and Hasdrubal’s wife curses her husband and walks into the fire with her children.
 
 @image scipio-ruins-carthage-486a2a
 

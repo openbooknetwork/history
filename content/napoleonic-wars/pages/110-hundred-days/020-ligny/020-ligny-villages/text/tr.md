@@ -1,8 +1,8 @@
-Napolyon Quatre Bras’dan top seslerini duyduğu saat 14.30’a kadar bekler, sonra Fleurus çevresindeki Muhafız topçusuyla ateş açar. Sol yanında Girard’ın tümeni bulunan Vandamme’ın III. Kolordusu Saint-Amand-la-Haye’yi Jagow’un tugayından alır, Steinmetz’in karşı saldırısıyla kaybeder, sonra yeniden alır. Girard ölümcül biçimde yaralanır. Saat 15.00’te Gérard’ın IV. Kolordusu Ligny’ye saldırır, yanan evlerin arasında ev ev çarpışma, Jagow’un tugayı köyü geri alana kadar sürer.
+[Napolyon](@ligny-16-napoleon) Quatre Bras’dan top seslerini duyduğu saat 14.30’a kadar bekler, sonra Fleurus çevresindeki Muhafız topçusuyla ateş açar. Sol yanında [Girard’ın](@ligny-16-girard) tümeni bulunan Vandamme’ın III. Kolordusu Saint-Amand-la-Haye’yi Jagow’un tugayından alır, Steinmetz’in karşı saldırısıyla kaybeder, sonra yeniden alır. Girard ölümcül biçimde yaralanır. Saat 15.00’te Gérard’ın IV. Kolordusu Ligny’ye saldırır, yanan evlerin arasında ev ev çarpışma, Jagow’un tugayı köyü geri alana kadar sürer.
 
 @image ligny-ferme-en-haut-d4c993
 
-Saat 17.00 sularında Vandamme sol yanından 20.000 ile 30.000 kişilik bir kolun yaklaştığını bildirir. Bu, Napolyon’un Prusya sağ kanadına saldırmasını emrettiği d’Erlon’un I. Kolordusu’dur. Ama Ney onu Quatre Bras’ya geri çağırır, kolordu Ligny’ye birkaç kilometre kala geri döner ve iki muharebenin hiçbirinde savaşmaz. Blücher bu duraklamadan yararlanıp Fransız sol kanadına saldırır, Genç Muhafızlar onun askerlerini geri atar.
+Saat 17.00 sularında Vandamme sol yanından 20.000 ile 30.000 kişilik bir kolun yaklaştığını bildirir. Bu, Napolyon’un Prusya sağ kanadına saldırmasını emrettiği d’Erlon’un I. Kolordusu’dur. Ama Ney onu Quatre Bras’ya geri çağırır, kolordu Ligny’ye birkaç kilometre kala geri döner ve iki muharebenin hiçbirinde savaşmaz. [Blücher](@ligny-16-blucher) bu duraklamadan yararlanıp Fransız sol kanadına saldırır, Genç Muhafızlar onun askerlerini geri atar.
 
 @image ligny-schmeling-f0c73c
 

@@ -1,4 +1,4 @@
-Parliament punishes Massachusetts. The Boston Port Act closes the harbour from 1 June 1774 until the tea is paid for. The Massachusetts Government Act of 20 May replaces the elected council with one appointed by the crown and limits town meetings to one a year unless the governor calls more. Royal officials may be tried in Britain or another colony when the governor judges that a fair trial is impossible in Massachusetts.
+Parliament punishes Massachusetts. The [Boston](@boston-1774) Port Act closes the harbour from 1 June 1774 until the tea is paid for. The Massachusetts Government Act of 20 May replaces the elected council with one appointed by the crown and limits town meetings to one a year unless the governor calls more. Royal officials may be tried in Britain or another colony when the governor judges that a fair trial is impossible in Massachusetts.
 
 @image bostonians-distress-b62ffe
 

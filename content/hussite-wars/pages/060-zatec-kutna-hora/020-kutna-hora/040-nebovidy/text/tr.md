@@ -1,4 +1,4 @@
-Žižka Kolín’de, çoğu Jičín ve Turnov çevresinden gelen yeni adamlar toplar. Kuşatmanın yarılmasını zafer sayan kraliyet ordusu kış için Kutná Hora çevresindeki köylere dağılmıştır ve oradaki çiftlikleri ve köyleri yakar. 6 Ocak 1422’de Žižka Kolín’den çıkar ve kentten 6 ile 7 km uzaktaki Nebovidy köyünde bu orduya saldırır.
+Žižka Kolín’de, çoğu Jičín ve Turnov çevresinden gelen yeni adamlar toplar. Kuşatmanın yarılmasını zafer sayan kraliyet ordusu kış için Kutná Hora çevresindeki köylere dağılmıştır ve oradaki çiftlikleri ve köyleri yakar. 6 Ocak 1422’de Žižka Kolín’den çıkar ve kentten 6 ile 7 km uzaktaki [Nebovidy](@nebovidy-village) köyünde bu orduya saldırır.
 
 @image nebovidy-church-221c16
 

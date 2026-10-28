@@ -2,6 +2,6 @@ Roma ordusu Kartaca’ya yürür ve surları biri deniz, biri kara tarafından o
 
 @image catapulta-poynter-1dbf97
 
-Censorinus’un askerleri iki dev koçbaşıyla gölün yanındaki surun bir bölümünü yıkar ve gedikten saldırır, ama düzenleri bozulur ve geri atılırlar. 4. Lejyon’da askerî tribün olan Scipio Aemilianus adamlarını yıkık surun boyunca tutar ve geri çekilmeyi korur. Daha sonra Kartaca’nın ateş gemileri Roma donanmasına zarar verir, Manilius’un kampına yapılan bir gece saldırısı da yine Scipio’nun yardımıyla püskürtülür.
+[Censorinus’un](@carthage-149-censorinus) askerleri iki dev koçbaşıyla gölün yanındaki surun bir bölümünü yıkar ve gedikten saldırır, ama düzenleri bozulur ve geri atılırlar. 4. Lejyon’da askerî tribün olan [Scipio Aemilianus](@carthage-149-scipio) adamlarını yıkık surun boyunca tutar ve geri çekilmeyi korur. Daha sonra Kartaca’nın ateş gemileri Roma donanmasına zarar verir, [Manilius’un](@carthage-149-manilius) kampına yapılan bir gece saldırısı da yine Scipio’nun yardımıyla püskürtülür.
 
 MÖ 148’de konsül Lucius Calpurnius Piso kuşatmayı gevşeterek ablukaya çevirir ve Kartaca’yı hâlâ destekleyen Hippo ve Aspis kentlerini alamaz. Hasdrubal Kartaca’nın yönetimini ele geçirir ve kent, Makedonya tahtında hak iddia eden Andriskos ile ittifak kurar.

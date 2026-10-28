@@ -1,4 +1,4 @@
-Late in 240 or early in 239 BC the Carthaginian garrisons on Sardinia join the Mercenary War. They kill their officers and the governor, and a force sent to retake the island mutinies as well and kills every Carthaginian there. The mutineers ask Rome for protection, and Rome refuses. Carthage has held parts of Sardinia for about three hundred years.
+Late in 240 or early in 239 BC the Carthaginian garrisons on Sardinia join the Mercenary War. They kill their officers and the governor, and a force sent to retake the island mutinies as well and kills every Carthaginian there. The mutineers ask [Rome](@rome-238) for protection, and Rome refuses. [Carthage](@carthage-238) has held parts of Sardinia for about three hundred years.
 
 @image sardinia-tharros-1ceade
 

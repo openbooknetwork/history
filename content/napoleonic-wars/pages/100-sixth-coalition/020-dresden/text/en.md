@@ -12,4 +12,4 @@ The allies lose 38,000 to 40,000 men and 40 guns, the French about 10,000. The f
 
 @image dresden-naudet-fb10ae
 
-Elsewhere the marshals are beaten. Charles John defeats Oudinot at Grossbeeren south of Berlin on 23 August, and Blücher defeats Macdonald on the Katzbach on 26 August. Vandamme's I Corps, sent over the mountains to cut the allied retreat, is surrounded at Kulm on 29 and 30 August and surrenders. On 6 September Ney, sent against Berlin in turn, is defeated at Dennewitz.
+Elsewhere the marshals are beaten. Charles John defeats Oudinot at [Grossbeeren](@dresden-grossbeeren) south of Berlin on 23 August, and Blücher defeats Macdonald on the [Katzbach](@dresden-katzbach) on 26 August. Vandamme's I Corps, sent over the mountains to cut the allied retreat, is surrounded at [Kulm](@dresden-kulm) on 29 and 30 August and surrenders. On 6 September Ney, sent against Berlin in turn, is defeated at [Dennewitz](@dresden-dennewitz).

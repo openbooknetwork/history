@@ -1,8 +1,8 @@
-On 17 October there is little fighting. Sacken's Russians drive Dąbrowski's Poles from Gohlis, and Bennigsen's Army of Poland and Charles John's Army of the North come up, 145,000 men, while Napoleon receives 14,000 under Reynier. He sends the captured Merveldt to the monarchs with an offer to give up his fortresses on the Oder and Vistula and withdraw behind the Saale, and they refuse. Bertrand's IV Corps goes to Lindenau to keep the road west open.
+On 17 October there is little fighting. Sacken's Russians drive Dąbrowski's Poles from Gohlis, and Bennigsen's Army of Poland and [Charles John's](@leipzig-18-charles-john) Army of the North come up, 145,000 men, while [Napoleon](@leipzig-18-napoleon) receives 14,000 under Reynier. He sends the captured Merveldt to the monarchs with an offer to give up his fortresses on the Oder and Vistula and withdraw behind the Saale, and they refuse. Bertrand's IV Corps goes to Lindenau to keep the road west open.
 
 @image leipzig-sauerweid-1844-81d7cc
 
-On 18 October the allies attack from all sides. Barclay de Tolly leads about 60,000 Russians and Prussians against Probstheida, where the French hold the walled gardens with artillery and reserves behind. Three assaults, the last under Raevsky, are thrown back by the guns and the Imperial Guard. To the south-west Hessen-Homburg's Austrians take Lössnig but are driven out of Dölitz by the Young Guard.
+On 18 October the allies attack from all sides. Barclay de Tolly leads about 60,000 Russians and Prussians against Probstheida, where the French hold the walled gardens with artillery and reserves behind. Three assaults, the last under [Raevsky](@leipzig-18-raevsky), are thrown back by the guns and the Imperial Guard. To the south-west Hessen-Homburg's Austrians take Lössnig but are driven out of Dölitz by the Young Guard.
 
 @image leipzig-hungarians-e5c63c
 

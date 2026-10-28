@@ -2,9 +2,9 @@ Jasaw Chan K'awiil I, a son of Nuun Ujol Chaak, takes the throne of Tikal on 3 M
 
 @image tikal-695-stela-16-a0bc26
 
-A painted vase from Tikal shows an envoy of the Kaanul king kneeling with tribute before the enthroned king of Tikal. In August 695 Yuknoom Yich'aak K'ahk' leads his warriors against Jasaw Chan K'awiil and suffers a heavy defeat. Tikal captures the image of a Calakmul god, Yajaw Maan.
+A painted vase from Tikal shows an envoy of the Kaanul king kneeling with tribute before the enthroned king of Tikal. In August 695 Yuknoom Yich'aak K'ahk' leads his warriors against Jasaw Chan K'awiil and suffers a heavy defeat. Tikal captures the image of a [Calakmul](@calakmul-695) god, Yajaw Maan.
 
-The fate of the Kaanul king is unclear. A stucco scene at Tikal names him in a caption beside a captive, but a text found at La Corona shows him visiting that town in 696. By November 695 a king called Split Earth rules at Calakmul. He is named on carved bones later placed in the tomb of Jasaw Chan K'awiil.
+The fate of the Kaanul king is unclear. A stucco scene at Tikal names him in a caption beside a captive, but a text found at [La Corona](@la-corona-696) shows him visiting that town in 696. By November 695 a king called Split Earth rules at Calakmul. He is named on carved bones later placed in the tomb of Jasaw Chan K'awiil.
 
 @image tikal-695-calakmul-mask-00de28
 

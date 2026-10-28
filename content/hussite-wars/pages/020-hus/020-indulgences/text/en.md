@@ -4,6 +4,6 @@ In 1412 Pope John XXIII grants indulgences to all who fight or pay for his crusa
 
 @image jena-codex-indulgences-63eb4b
 
-In October 1412 the pope lays an interdict on any place where Hus stays, and he leaves Prague for the countryside. From April 1413 he lives at Kozí Hrádek and then at Sezimovo Ústí in South Bohemia, preaches in the villages, fields and woods and writes his book On the Church. In July 1414 he moves to Krakovec castle west of Prague, the seat of Jindřich Lefl of Lažany.
+In October 1412 the pope lays an interdict on any place where Hus stays, and he leaves [Prague](@prague-1412) for the countryside. From April 1413 he lives at [Kozí Hrádek](@kozi-hradek-1412) and then at Sezimovo Ústí in South Bohemia, preaches in the villages, fields and woods and writes his book On the Church. In July 1414 he moves to [Krakovec](@krakovec-1414) castle west of Prague, the seat of Jindřich Lefl of Lažany.
 
 @image kozi-hradek-a56bdd

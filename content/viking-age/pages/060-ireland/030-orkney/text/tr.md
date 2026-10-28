@@ -6,8 +6,8 @@ Norse yerleşimciler 8. yüzyılın sonu ile 9. yüzyılın başında Orkney ve 
 
 @image orkney-flatey-abb55e
 
-Hebridler ve Man için kaynaklar çoğunlukla İrlanda yıllıkları ve destanlardır. Norseler Man’i büyük olasılıkla 900’e kadar ele geçirmiştir, Dublin kralı Amlaíb Cuarán da 980 ya da 981’de inzivaya çekildiği Iona’da ölür. 986 Noel gecesi Danlar Iona’yı yağmalar, başrahibi ve manastırın on beş yaşlı keşişini öldürür. 987’de Adalar kralı Harald oğlu Gofraid, Man muharebesini kazanır.
+Hebridler ve Man için kaynaklar çoğunlukla İrlanda yıllıkları ve destanlardır. Norseler Man’i büyük olasılıkla 900’e kadar ele geçirmiştir, Dublin kralı Amlaíb Cuarán da 980 ya da 981’de inzivaya çekildiği [Iona’da](@iona-986) ölür. 986 Noel gecesi Danlar Iona’yı yağmalar, başrahibi ve manastırın on beş yaşlı keşişini öldürür. 987’de Adalar kralı Harald oğlu Gofraid, Man muharebesini kazanır.
 
 @image orkney-scar-b3b071
 
-980’lerden itibaren kont olan Şişman Sigurd, Orkney, Shetland ve Caithness’i, 990 dolayından itibaren de başına Gilli adlı bir jarl koyduğu Hebridleri elinde tutar. Orkneyinga destanına göre annesi ona, önünde taşındığı orduya zafer, taşıyanına ise ölüm getiren bir kuzgun sancağı diker, Sigurd da bu sancakla Moray’li Findláech’i yener. Destan, 995’te Dublin’den Norveç’e giden Olaf Tryggvason’un Sigurd’u South Walls’ta vaftiz olmaya zorladığını anlatır. Ulster Yıllıkları Sigurd’un 1014’te Clontarf’ta öldüğünü kaydeder, bu Orkney kontluğunun bilinen en eski anılışıdır.
+980’lerden itibaren kont olan Şişman Sigurd, Orkney, Shetland ve Caithness’i, 990 dolayından itibaren de başına Gilli adlı bir jarl koyduğu Hebridleri elinde tutar. Orkneyinga destanına göre annesi ona, önünde taşındığı orduya zafer, taşıyanına ise ölüm getiren bir kuzgun sancağı diker, Sigurd da bu sancakla Moray’li Findláech’i yener. Destan, 995’te Dublin’den Norveç’e giden Olaf Tryggvason’un Sigurd’u [South Walls’ta](@south-walls-995) vaftiz olmaya zorladığını anlatır. Ulster Yıllıkları Sigurd’un 1014’te Clontarf’ta öldüğünü kaydeder, bu Orkney kontluğunun bilinen en eski anılışıdır.

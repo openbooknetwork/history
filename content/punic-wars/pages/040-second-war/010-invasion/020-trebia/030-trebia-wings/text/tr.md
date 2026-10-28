@@ -2,4 +2,4 @@ Hannibal merkeze 8.000 Galyalı, onların iki yanına 6.000’er Afrikalı ve İ
 
 @image trebia-slinger-65b103
 
-Her kanatta 5.000 Kartacalı atlı, atları Numidyalıları kovalamaktan yorgun düşmüş 2.000 Romalı atlıya saldırır. İki Roma kanadı da hemen bozulur ve Trebia’nın öbür yakasına kaçar, Kartaca süvarisinin çoğu da peşlerine düşer. Kartaca hafif piyadesi Roma piyadesinin açıkta kalan yanlarına dolanır, iki ana hat da çarpışmaya girer.
+Her kanatta 5.000 Kartacalı atlı, atları Numidyalıları kovalamaktan yorgun düşmüş 2.000 Romalı atlıya saldırır. İki Roma kanadı da hemen bozulur ve Trebia’nın öbür yakasına kaçar, [Kartaca süvarisinin](@trebia-wings-cavalry) çoğu da peşlerine düşer. Kartaca hafif piyadesi Roma piyadesinin açıkta kalan yanlarına dolanır, iki ana hat da çarpışmaya girer.

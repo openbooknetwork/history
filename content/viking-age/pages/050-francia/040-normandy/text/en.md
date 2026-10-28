@@ -1,8 +1,8 @@
-In 924 King Rudolph of West Francia extends Rollo’s land west to the river Vire, taking in the Bessin around Bayeux, where Danes from England have settled, and the border lands of Maine. Rollo’s son William Longsword, count of Rouen from 927, supports Rudolph and in 933 receives the Avranchin and the Cotentin, which have to be taken from the Bretons. These grants bring Normandy roughly to the bounds of the church province of Rouen. In the Cotentin, settled by Norwegians, Old Norse is spoken for four or five generations.
+In 924 King Rudolph of West Francia extends Rollo’s land west to the river Vire, taking in the [Bessin](@bessin-924) around Bayeux, where Danes from England have settled, and the border lands of [Maine](@maine-924). Rollo’s son William Longsword, count of [Rouen](@rouen-911) from 927, supports Rudolph and in 933 receives the [Avranchin](@avranchin-933) and the [Cotentin](@cotentin-933), which have to be taken from the Bretons. These grants bring Normandy roughly to the bounds of the church province of Rouen. In the Cotentin, settled by Norwegians, Old Norse is spoken for four or five generations.
 
 @image normandy-coin-32f41f
 
-On 17 December 942 men of Arnulf of Flanders kill William at a meeting on an island in the Somme at Picquigny. His son Richard I, born at Fécamp, succeeds him at the age of ten. A year later a Scandinavian named Setric lands in Normandy and leads some of the settlers back to the old gods. Richard rules until 996 and asks Dudo of Saint-Quentin to write a history of the Normans. Dudo’s work, the earliest account of Rollo and his heirs, is written to praise them.
+On 17 December 942 men of Arnulf of Flanders kill William at a meeting on an island in the Somme at [Picquigny](@picquigny-942). His son Richard I, born at [Fécamp](@fecamp-1026), succeeds him at the age of ten. A year later a Scandinavian named Setric lands in Normandy and leads some of the settlers back to the old gods. Richard rules until 996 and asks Dudo of Saint-Quentin to write a history of the Normans. Dudo’s work, the earliest account of Rollo and his heirs, is written to praise them.
 
 @image normandy-fecamp-0900be
 
@@ -10,4 +10,4 @@ Richard II, duke from 996 to 1026, is the first ruler of Normandy styled duke. H
 
 @image normandy-tomb-0841ce
 
-In 1035 the duchy passes to William, the illegitimate son of Duke Robert I, born at Falaise about 1028. He holds Normandy securely by 1060, and in 1066 he defeats Harold Godwinson at Hastings and becomes king of England.
+In 1035 the duchy passes to William, the illegitimate son of Duke Robert I, born at [Falaise](@falaise-1028) about 1028. He holds Normandy securely by 1060, and in 1066 he defeats Harold Godwinson at Hastings and becomes king of England.

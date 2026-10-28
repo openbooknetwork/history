@@ -2,11 +2,11 @@ Olaf Tryggvason is the son of Tryggvi Olafsson, a king in Viken, and by the saga
 
 @image olaf-tryggvason-coin-2f59a2
 
-In 995 Olaf is in Norway, where the people of Trøndelag have risen against Haakon Jarl. By the sagas’ account Haakon hides in a pigsty at the farm of Rimul and is killed there by his slave Kark. Olaf is hailed as king and converts the country to Christianity by force, and in 997 he founds his seat at Nidaros, the later Trondheim.
+In 995 Olaf is in Norway, where the people of Trøndelag have risen against Haakon Jarl. By the sagas’ account Haakon hides in a pigsty at the farm of [Rimul](@rimul-995) and is killed there by his slave Kark. Olaf is hailed as king and converts the country to Christianity by force, and in 997 he founds his seat at [Nidaros](@nidaros-997), the later Trondheim.
 
 @image olaf-tryggvason-sinding-ca9feb
 
-In September 1000 Olaf is ambushed at sea by Sweyn Forkbeard, Olof Skötkonung of Sweden and Eirik Hákonarson, Haakon’s son. The sagas give Olaf 11 ships against more than 70. His ships are taken one by one, the Long Serpent last, and Olaf leaps overboard. Adam of Bremen, writing about 1070, puts the battle in the Øresund, and the Icelandic sagas by an island called Svolder off the coast of Wendland, which some historians place near Rügen.
+In September 1000 Olaf is ambushed at sea by Sweyn Forkbeard, Olof Skötkonung of Sweden and Eirik Hákonarson, Haakon’s son. The sagas give Olaf 11 ships against more than 70. His ships are taken one by one, the Long Serpent last, and Olaf leaps overboard. Adam of Bremen, writing about 1070, puts the battle in the Øresund, and the Icelandic sagas by an island called Svolder off the coast of [Wendland](@wendland-1000), which some historians place near [Rügen](@rugen-1000).
 
 @image olaf-tryggvason-egedius-7ea397
 

@@ -1,4 +1,4 @@
-Roma, Kartaca’nın son elinde tuttuğu toprakları ilhak eder ve valinin merkezi Utika olan Afrika eyaletini kurar. Fossa Regia adlı bir hendek, Masinissa’nın oğullarının Numidya krallığıyla sınırı belirler. Sonuna kadar Kartaca’nın yanında kalan kentler yıkılır ya da topraklarını kaybeder. Diğerleri yönetimlerini büyük ölçüde korur, Pön dili ve dini yaşamaya devam eder ve Pön dili Kuzey Afrika’da MS 7. yüzyıla kadar konuşulur.
+Roma, [Kartaca’nın](@carthage-29) son elinde tuttuğu toprakları ilhak eder ve valinin merkezi [Utika](@utica-146) olan Afrika eyaletini kurar. Fossa Regia adlı bir hendek, Masinissa’nın oğullarının Numidya krallığıyla sınırı belirler. Sonuna kadar Kartaca’nın yanında kalan kentler yıkılır ya da topraklarını kaybeder. Diğerleri yönetimlerini büyük ölçüde korur, Pön dili ve dini yaşamaya devam eder ve Pön dili Kuzey Afrika’da MS 7. yüzyıla kadar konuşulur.
 
 @image africa-province-map-9087fe
 

@@ -2,7 +2,7 @@ After a generation of peace, Viking raids on England resume in 980 and 982, and 
 
 @image maldon-pearse-901b58
 
-By the Chronicle’s account the fleet ravages the country round Folkestone, goes on to Sandwich and from there to Ipswich, which it overruns. It then sails into the estuary of the Blackwater, then called the Panta, and occupies Northey Island below Maldon. Byrhtnoth, ealdorman of Essex since 956 and one of the leading men of the kingdom, calls out his forces.
+By the Chronicle’s account the fleet ravages the country round [Folkestone](@folkestone-991), goes on to [Sandwich](@sandwich-991) and from there to [Ipswich](@ipswich-991), which it overruns. It then sails into the estuary of the Blackwater, then called the Panta, and occupies Northey Island below Maldon. Byrhtnoth, ealdorman of Essex since 956 and one of the leading men of the kingdom, calls out his forces.
 
 @image maldon-charter-d32758
 

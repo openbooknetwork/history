@@ -1,8 +1,8 @@
-At 2 pm the divisions of Broussier, Morand and Gérard attack the great redoubt from the front, with cavalry on both flanks. Auguste de Caulaincourt leads Watier’s division of cuirassiers against the open back of the redoubt and is killed. Saxon and Polish cavalry under Johann von Thielmann break in from behind, and at 3:30 the redoubt falls with most of the 24th Division, whose commander Pyotr Likhachyov is captured.
+At 2 pm the divisions of Broussier, Morand and Gérard attack the great redoubt from the front, with cavalry on both flanks. Auguste de [Caulaincourt](@borodino-aft-caulaincourt) leads Watier’s division of cuirassiers against the open back of the redoubt and is killed. Saxon and Polish cavalry under Johann von Thielmann break in from behind, and at 3:30 the redoubt falls with most of the 24th Division, whose commander Pyotr Likhachyov is captured.
 
 @image borodino-cuirassiers-05f4e7
 
-The Russian Guard cavalry stops the French beyond the redoubt, and the Russians form a new line on the next ridge. Napoleon refuses requests to commit the Imperial Guard, and from 4 to 6 pm the Russian Guard stands in squares under artillery fire. Around Utitsa the Poles and the Russians skirmish for the rest of the day.
+The [Russian Guard](@borodino-aft-guard) cavalry stops the French beyond the redoubt, and the Russians form a new line on the next ridge. [Napoleon](@borodino-aft-napoleon) refuses requests to commit the Imperial Guard, and from 4 to 6 pm the Russian Guard stands in squares under artillery fire. Around Utitsa the Poles and the Russians skirmish for the rest of the day.
 
 @image borodino-vereshchagin-b58d05
 

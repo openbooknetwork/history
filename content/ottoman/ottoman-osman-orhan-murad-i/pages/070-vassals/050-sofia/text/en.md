@@ -2,8 +2,8 @@ In 1380 Lala Şahin Pasha besieges Sofia, the last town held by Tsar Ivan Shishm
 
 @image sofia-serdica-walls-4938f4
 
-The Ottoman chronicles credit Kara Timurtaş Pasha with taking Štip and Bitola in these years, though by some accounts Bitola had already fallen after a siege in the early 1370s. Sofia gives the Ottomans the road west to Niš, the northern end of the road that runs up the Vardar and the Morava.
+The Ottoman chronicles credit Kara Timurtaş Pasha with taking [Štip](@stip-1382) and [Bitola](@bitola-1382) in these years, though by some accounts Bitola had already fallen after a siege in the early 1370s. Sofia gives the Ottomans the road west to [Niš](@nis), the northern end of the road that runs up the Vardar and the Morava.
 
 @image stip-isar-fortress-d660ec
 
-From 1384 to 1386 Shishman is at war with Dan I of Wallachia, and his half-brother Ivan Sratsimir of Vidin fights on the Wallachian side.
+From 1384 to 1386 Shishman is at war with Dan I of Wallachia, and his half-brother Ivan Sratsimir of [Vidin](@vidin-1369) fights on the Wallachian side.

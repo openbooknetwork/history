@@ -1,8 +1,8 @@
-Ragnall, a grandson of Ímar, fights Constantine II of Scotland at Corbridge in 918 and in 919 makes himself king at York. In 920 he and the other northern rulers come to terms with Edward the Elder, and he dies in 921. His kinsman Sihtric, who had retaken Dublin in 917, succeeds him, and coins struck at Lincoln in Sihtric’s name suggest that his rule reaches south of the Humber.
+Ragnall, a grandson of Ímar, fights Constantine II of Scotland at [Corbridge](@corbridge-918) in 918 and in 919 makes himself king at [York](@york-919). In 920 he and the other northern rulers come to terms with Edward the Elder, and he dies in 921. His kinsman Sihtric, who had retaken [Dublin](@dublin-937) in 917, succeeds him, and coins struck at Lincoln in Sihtric’s name suggest that his rule reaches south of the Humber.
 
 @image brunanburh-hogbacks-b727b1
 
-Edward’s son Æthelstan meets Sihtric at Tamworth in January 926 and gives him his sister in marriage. When Sihtric dies in 927, Æthelstan takes York and drives out Sihtric’s kinsman Guthfrith, king of Dublin, who claims the throne. On 12 July 927 at Eamont, near Penrith, Constantine of Alba, Hywel Dda of Deheubarth, Owain of Gwent and Ealdred of Bamburgh accept his lordship, and his coins begin to call him king of all Britain.
+Edward’s son Æthelstan meets Sihtric at [Tamworth](@tamworth-926) in January 926 and gives him his sister in marriage. When Sihtric dies in 927, Æthelstan takes York and drives out Sihtric’s kinsman Guthfrith, king of Dublin, who claims the throne. On 12 July 927 at [Eamont](@eamont-927), near Penrith, Constantine of Alba, Hywel Dda of Deheubarth, Owain of Gwent and Ealdred of Bamburgh accept his lordship, and his coins begin to call him king of all Britain.
 
 @image brunanburh-penny-5699a2
 

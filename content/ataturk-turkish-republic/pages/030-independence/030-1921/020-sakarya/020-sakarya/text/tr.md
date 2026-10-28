@@ -1,4 +1,4 @@
-Yunan ordusu 23 Ağustos’ta Sakarya’nın doğusundaki Türk mevzilerine ulaşır ve 26 Ağustos’tan itibaren yüz kilometre kadar genişlikteki bir cephede taarruza geçer. Attan düşüp kaburgası kırılan Mustafa Kemal, Alagöz köyünden komuta eder. Emri yöntemi belirler: “Hattı müdafaa yoktur, sathı müdafaa vardır. O satıh bütün vatandır.”
+Yunan ordusu 23 Ağustos’ta Sakarya’nın doğusundaki Türk mevzilerine ulaşır ve 26 Ağustos’tan itibaren yüz kilometre kadar genişlikteki bir cephede taarruza geçer. Attan düşüp kaburgası kırılan Mustafa Kemal, [Alagöz](@alagoz) köyünden komuta eder. Emri yöntemi belirler: “Hattı müdafaa yoktur, sathı müdafaa vardır. O satıh bütün vatandır.”
 
 @image sakarya-duatepe-02fbfa
 

@@ -1,4 +1,4 @@
-At dawn on 28 July 30 French guns on the Cascajal, the hill across the Portiña from the Medellín, open fire, and Wellesley pulls his infantry back behind the crest. Ruffin’s division attacks the Medellín again, its three regiments side by side, each about 160 files across and nine ranks deep.
+At dawn on 28 July 30 French guns on the [Cascajal](@talavera-medellin-cascajal), the hill across the Portiña from the [Medellín](@talavera-medellin-medellin), open fire, and Wellesley pulls his infantry back behind the crest. [Ruffin’s](@talavera-medellin-ruffin) division attacks the Medellín again, its three regiments side by side, each about 160 files across and nine ranks deep.
 
 @image talavera-hartmann-c2d271
 

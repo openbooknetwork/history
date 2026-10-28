@@ -1,4 +1,4 @@
-At the end of 1428 Sigismund invites the Hussites to talks at Pressburg, and a Hussite assembly at the new year chooses envoys with Prokop the Great at their head. They reach Pressburg on 4 April 1429. Sigismund asks them to return to the Church. Prokop asks for a public hearing of the Four Articles of Prague before all Christendom, and the English Wycliffite Peter Payne asks the king to accept the articles, so that the whole Czech nation will obey him.
+At the end of 1428 Sigismund invites the Hussites to talks at [Pressburg](@pressburg-1429), and a Hussite assembly at the new year chooses envoys with Prokop the Great at their head. They reach Pressburg on 4 April 1429. Sigismund asks them to return to the Church. Prokop asks for a public hearing of the Four Articles of [Prague](@prague-1429) before all Christendom, and the English Wycliffite Peter Payne asks the king to accept the articles, so that the whole Czech nation will obey him.
 
 @image pressburg-plan-1c3c0c
 
@@ -6,4 +6,4 @@ Sigismund answers that as a layman he cannot judge matters of faith, and propose
 
 @image sigismund-portrait-641514
 
-On 20 September Prokop makes peace between the Old and New Towns of Prague, which have been firing on each other. At the end of September the Taborites and the Orphans ride into Lusatia. They reach the abbey of Oybin near Zittau about 1 October, take ransom from Bautzen after three days of bombardment, take Kamenz and turn by Großenhain, Luckau and Cottbus to Guben, where the town and the abbey of Neuzelle are destroyed. They come home by Crossen, Bolesławiec, Lubań and Zittau on 11 November.
+On 20 September Prokop makes peace between the Old and New Towns of Prague, which have been firing on each other. At the end of September the Taborites and the Orphans ride into Lusatia. They reach the abbey of Oybin near Zittau about 1 October, take ransom from [Bautzen](@bautzen-1429) after three days of bombardment, take Kamenz and turn by Großenhain, Luckau and Cottbus to [Guben](@guben-1429), where the town and the abbey of Neuzelle are destroyed. They come home by Crossen, Bolesławiec, Lubań and Zittau on 11 November.

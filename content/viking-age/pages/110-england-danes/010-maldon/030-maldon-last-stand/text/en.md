@@ -1,4 +1,4 @@
-The Vikings come west over the water carrying their shields and form up on the mainland, and the two shield walls close. Byrhtnoth is wounded by a spear and kills his attacker, but he is struck down and dies urging his men on and commending his soul to God. Godric son of Odda mounts Byrhtnoth’s horse and flees to the wood with his brothers Godwine and Godwig.
+The Vikings come west over the water carrying their shields and form up on the mainland, and the two shield walls close. [Byrhtnoth](@maldon-last-byrhtnoth) is wounded by a spear and kills his attacker, but he is struck down and dies urging his men on and commending his soul to God. [Godric](@maldon-last-godric) son of Odda mounts Byrhtnoth’s horse and flees to the wood with his brothers Godwine and Godwig.
 
 @image maldon-last-stand-marsh-f3ef1c
 

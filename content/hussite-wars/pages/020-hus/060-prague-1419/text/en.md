@@ -1,4 +1,4 @@
-The king’s death sets off riots in Prague. On 17 August 1419 crowds burn the Carthusian monastery of the Garden of the Virgin Mary, and Catholics are driven out and churches stripped of their images. Queen Sophia and the highest burgrave Čeněk of Vartenberk govern for Sigismund, and they hold Prague Castle and the Lesser Town below it with troops. On 25 October Jan Řitka of Bezdědice hands the fortress of Vyšehrad to the New Town without a fight.
+The king’s death sets off riots in Prague. On 17 August 1419 crowds burn the Carthusian monastery of the Garden of the Virgin Mary, and Catholics are driven out and churches stripped of their images. Queen Sophia and the highest burgrave Čeněk of Vartenberk govern for Sigismund, and they hold [Prague Castle](@prague-castle-1419) and the [Lesser Town](@lesser-town-1419) below it with troops. On 25 October Jan Řitka of Bezdědice hands the fortress of [Vyšehrad](@vysehrad-1419) to the New Town without a fight.
 
 @image queen-sophia-3680d2
 

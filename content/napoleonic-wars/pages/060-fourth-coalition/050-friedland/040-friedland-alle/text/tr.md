@@ -1,4 +1,4 @@
-Dupont’nun tümeni Posthenen’den hızla ilerler, Fransız süvarisi Rus süvarisini ırmak kıyısına yığılmış piyadelerinin üzerine geri sürer ve General Sénarmont çok sayıda topu misket atımı mesafesine kadar ileri getirir. Misket ateşi birkaç dakika içinde Rus sol kanadını dağıtır ve Ney’in piyadesi kaçanları alevler içindeki Friedland’in sokaklarına kadar kovalar.
+[Dupont’nun](@friedland-alle-dupont) tümeni Posthenen’den hızla ilerler, Fransız süvarisi Rus süvarisini ırmak kıyısına yığılmış piyadelerinin üzerine geri sürer ve General [Sénarmont](@friedland-alle-senarmont) çok sayıda topu misket atımı mesafesine kadar ileri getirir. Misket ateşi birkaç dakika içinde Rus sol kanadını dağıtır ve Ney’in piyadesi kaçanları alevler içindeki [Friedland’in](@friedland-alle-town) sokaklarına kadar kovalar.
 
 @image friedland-alle-detaille-0b1b30
 

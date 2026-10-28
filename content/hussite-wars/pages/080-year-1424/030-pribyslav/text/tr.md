@@ -1,4 +1,4 @@
-Malešov’dan sonra Žižka kuzeydoğu Bohemya’ya geçer, köyleri ve kasabaları, Turnov’daki manastırda da keşişleri yakar ve taraftarlarını toplar. Sigismund Korybut, Władysław Jagiełło ile Vytautas’ın isteğine karşın 1424 yazında yaklaşık 1.500 adamla Prag’a döner. Eylül’ün ilk yarısında Žižka Žatec, Louny, Klatovy ve başka kentlerin Husçularıyla Prag önlerine gelir ve Libeň’de ordugâh kurar.
+Malešov’dan sonra Žižka kuzeydoğu Bohemya’ya geçer, köyleri ve kasabaları, [Turnov’daki](@turnov-1424) manastırda da keşişleri yakar ve taraftarlarını toplar. Sigismund Korybut, Władysław Jagiełło ile Vytautas’ın isteğine karşın 1424 yazında yaklaşık 1.500 adamla Prag’a döner. Eylül’ün ilk yarısında Žižka Žatec, Louny, Klatovy ve başka kentlerin Husçularıyla Prag önlerine gelir ve [Libeň’de](@liben-1424) ordugâh kurar.
 
 @image liben-embassy-319fe3
 

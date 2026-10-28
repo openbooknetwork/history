@@ -1,8 +1,8 @@
-K'iche' hükümdar soyları, 1200 dolaylarında Körfez kıyısından Guatemala yaylalarına giren savaş beylerinden gelir. Jakawitz ve Pismachi'deki başkentlerden sonra Q'uq'umatz, 1400 dolaylarında bugünkü Santa Cruz del Quiché yakınında, 100 metreden derin vadilerle çevrili bir yaylada Q'umarkaj’ı kurur. Kentte ve çevresinde 15.000 kadar insan yaşar. Dört önde gelen soydan dört bey birlikte yönetir: ajpop, veliaht, bir yargıç ve bir sözcü. Kral Kaweq soyundan gelir.
+K'iche' hükümdar soyları, 1200 dolaylarında Körfez kıyısından Guatemala yaylalarına giren savaş beylerinden gelir. Jakawitz ve Pismachi'deki başkentlerden sonra Q'uq'umatz, 1400 dolaylarında bugünkü Santa Cruz del Quiché yakınında, 100 metreden derin vadilerle çevrili bir yaylada [Q'umarkaj’ı](@qumarkaj-1400) kurur. Kentte ve çevresinde 15.000 kadar insan yaşar. Dört önde gelen soydan dört bey birlikte yönetir: ajpop, veliaht, bir yargıç ve bir sözcü. Kral Kaweq soyundan gelir.
 
 @image kiche-tohil-957acf
 
-Q'uq'umatz, Cuchumatán dağlarındaki K'ojalara karşı savaşırken ölür. İki yıl sonra oğlu K'iq'ab, K'iche'leri ve Kaqchikel müttefiklerini K'oja ülkesine götürür, K'oja kralı Tekum Sik'om’u öldürür, Sacapulas yöresini ve Zaculeu yakınındaki Mamları fetheder. 1475 dolaylarına kadar hüküm süren K'iq'ab döneminde krallık Rabinal’e, Cobán’a ve Quetzaltenango’ya, batıda Okos Irmağı’na, doğuda Motagua’ya ve güneyde Escuintla’ya uzanır. Tz'utujiller ve Mamlar krallığa tabi olur.
+Q'uq'umatz, Cuchumatán dağlarındaki K'ojalara karşı savaşırken ölür. İki yıl sonra oğlu K'iq'ab, K'iche'leri ve Kaqchikel müttefiklerini K'oja ülkesine götürür, K'oja kralı Tekum Sik'om’u öldürür, [Sacapulas](@sacapulas-1425) yöresini ve [Zaculeu](@zaculeu-1425) yakınındaki Mamları fetheder. 1475 dolaylarına kadar hüküm süren K'iq'ab döneminde krallık [Rabinal’e](@rabinal-1450), Cobán’a ve [Quetzaltenango’ya](@quetzaltenango-1450), batıda [Okos Irmağı’na](@okos-1450), doğuda Motagua’ya ve güneyde [Escuintla’ya](@escuintla-1450) uzanır. Tz'utujiller ve Mamlar krallığa tabi olur.
 
 @image kiche-awilix-d0a94f
 

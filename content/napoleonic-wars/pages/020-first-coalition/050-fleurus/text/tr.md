@@ -4,8 +4,8 @@ Mayıs 1794’te Jean-Baptiste Jourdan, Ardennes Ordusu ile Kuzey ve Moselle ord
 
 @image fleurus-mauzaisse-a0e1bb
 
-Fleurus’ten sonra Jourdan’ın kuvveti Sambre ve Meuse Ordusu adını alır. Kuzey cephesinin komutanı Pichegru 11 Temmuz’da Brüksel’e girer ve 27 Temmuz’da Anvers’i alır, Jourdan ise 17 Temmuz’da Namur’u ve 27 Temmuz’da Liège’i işgal eder. Coburg 24 Temmuz’da Maastricht’te Meuse’ü geçerek Almanya’ya çekilir, İngilizler ve Hollandalılar da Hollanda Cumhuriyeti’ni savunmak için kuzeye geri çekilir.
+Fleurus’ten sonra Jourdan’ın kuvveti Sambre ve Meuse Ordusu adını alır. Kuzey cephesinin komutanı Pichegru 11 Temmuz’da [Brüksel’e](@fleurus-brussels) girer ve 27 Temmuz’da [Anvers’i](@fleurus-antwerp) alır, Jourdan ise 17 Temmuz’da Namur’u ve 27 Temmuz’da Liège’i işgal eder. Coburg 24 Temmuz’da [Maastricht’te](@fleurus-maastricht) Meuse’ü geçerek Almanya’ya çekilir, İngilizler ve Hollandalılar da Hollanda Cumhuriyeti’ni savunmak için kuzeye geri çekilir.
 
-Paris’te zafer Terör’ün gerekçesini zayıflatır. 27 Temmuz’da Robespierre tutuklanır ve ertesi gün, Fleurus’te Konvansiyon temsilcisi olarak Jourdan’ın ordusunda bulunan Louis Antoine de Saint-Just ile birlikte idam edilir. Kışın Fransızlar Hollanda Cumhuriyeti’ni ele geçirir ve 18 Ocak 1795’te Amsterdam’daki Batavya Devrimi onun yerine Fransa’nın müttefiki Batavya Cumhuriyeti’ni kurar.
+Paris’te zafer Terör’ün gerekçesini zayıflatır. 27 Temmuz’da Robespierre tutuklanır ve ertesi gün, Fleurus’te Konvansiyon temsilcisi olarak Jourdan’ın ordusunda bulunan Louis Antoine de Saint-Just ile birlikte idam edilir. Kışın Fransızlar Hollanda Cumhuriyeti’ni ele geçirir ve 18 Ocak 1795’te [Amsterdam’daki](@fleurus-amsterdam) Batavya Devrimi onun yerine Fransa’nın müttefiki Batavya Cumhuriyeti’ni kurar.
 
 @image fleurus-thermidor-710aa0

@@ -1,4 +1,4 @@
-On 26 August the Greeks attack all along the line. Their infantry cross the shallow Gök and climb onto the heights, where every ridge and hilltop is entrenched and has to be stormed under heavy fire. By 2 September they hold the commanding heights of Çal Dağı.
+On 26 August the Greeks attack all along the line. Their infantry cross the shallow Gök and climb onto the heights, where every ridge and hilltop is entrenched and has to be stormed under heavy fire. By 2 September they hold the commanding heights of [Çal Dağı](@sakarya-heights-cal-dagi).
 
 @image sakarya-greek-cover-ea5659
 

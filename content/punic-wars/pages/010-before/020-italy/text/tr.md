@@ -1,6 +1,6 @@
-Roma, MÖ 338 ile 264 arasında neredeyse kesintisiz savaşlarla Arno Nehri’nin güneyindeki İtalya yarımadasını fetheder. Fethedilen toprakların bir kısmı Roma toprağı olur ya da MÖ 268’de kurulan Ariminum gibi Latin kolonileriyle iskân edilir. Yenilen halkların çoğu topraklarını ve kendi yönetimlerini müttefik (socii) olarak korur ve Roma çağırdığında asker gönderir.
+[Roma](@rome-270), MÖ 338 ile 264 arasında neredeyse kesintisiz savaşlarla Arno Nehri’nin güneyindeki İtalya yarımadasını fetheder. Fethedilen toprakların bir kısmı Roma toprağı olur ya da MÖ 268’de kurulan [Ariminum](@ariminum-268) gibi Latin kolonileriyle iskân edilir. Yenilen halkların çoğu topraklarını ve kendi yönetimlerini müttefik (socii) olarak korur ve Roma çağırdığında asker gönderir.
 
-MÖ 280’de Güney İtalya’nın en büyük Yunan kenti Tarentum, Roma’ya karşı Epirlı Pyrrhos’u yardıma çağırır. Pyrrhos Romalıları MÖ 280’de Herakleia’da, MÖ 279’da Asculum’da yener, ama kendi ordusu da ağır kayıplar verir. Ardından Sicilya’da Kartaca ile savaşır, fakat Lilybaeum’u alamaz. MÖ 275’te Beneventum’daki muharebeden sonra Epir’e döner ve Tarentum MÖ 272’de Roma’ya teslim olur.
+MÖ 280’de Güney İtalya’nın en büyük Yunan kenti [Tarentum](@tarentum-272), Roma’ya karşı Epirlı Pyrrhos’u yardıma çağırır. Pyrrhos Romalıları MÖ 280’de [Herakleia’da](@italy-heraclea), MÖ 279’da [Asculum’da](@italy-asculum) yener, ama kendi ordusu da ağır kayıplar verir. Ardından Sicilya’da Kartaca ile savaşır, fakat Lilybaeum’u alamaz. MÖ 275’te [Beneventum’daki](@beneventum-275) muharebeden sonra Epir’e döner ve Tarentum MÖ 272’de Roma’ya teslim olur.
 
 @image pyrrhus-bust-eb9e15
 

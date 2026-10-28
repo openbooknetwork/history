@@ -4,6 +4,6 @@ Howe’un ordusu New Jersey boyunca bir karakol zincirine dağılarak kışlağa
 
 @image hessians-trumbull-d3b6c1
 
-Aralık sonunda yeniden geçer. 2 Ocak’ta Cornwallis Princeton’dan iner ve Assunpink Deresi’nde ona saldırır. O gece Washington kamp ateşlerini yanar bırakır, İngiliz kanadını dolanır ve ertesi sabah Princeton’da artçılarını yener. Sonra orduyu kış için Morristown tepelerine çeker, İngilizler New Jersey’de yalnızca New Brunswick ve Perth Amboy’daki karakollarını tutar.
+Aralık sonunda yeniden geçer. 2 Ocak’ta Cornwallis [Princeton’dan](@princeton) iner ve Assunpink Deresi’nde ona saldırır. O gece Washington kamp ateşlerini yanar bırakır, İngiliz kanadını dolanır ve ertesi sabah Princeton’da artçılarını yener. Sonra orduyu kış için [Morristown](@morristown) tepelerine çeker, İngilizler New Jersey’de yalnızca New Brunswick ve Perth Amboy’daki karakollarını tutar.
 
 @image mercer-trumbull-6020fb

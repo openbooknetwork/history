@@ -1,4 +1,4 @@
-Savaşın sonlarına doğru Harald’ın kızı Maria’nın nişanlısı Eystein Orri, yaklaşık 26 km güneydeki Riccall’da gemilerin başında bırakılan adamlarla gelir. Bütün yolu tam zırhla koşarak gelmişlerdir, kimilerinin yorgunluktan yığılıp öldüğü anlatılır. Eystein yerdeki sancağı alır ve Norveç geleneğinin Orri’nin Fırtınası dediği karşı saldırıyı başlatır. Saldırı İngilizleri durdurur ve hatlarını neredeyse yarar, ama Eystein öldürülür.
+Savaşın sonlarına doğru Harald’ın kızı Maria’nın nişanlısı [Eystein Orri](@stamford-bridge-orre-orri), yaklaşık 26 km güneydeki Riccall’da gemilerin başında bırakılan adamlarla gelir. Bütün yolu tam zırhla koşarak gelmişlerdir, kimilerinin yorgunluktan yığılıp öldüğü anlatılır. Eystein yerdeki sancağı alır ve Norveç geleneğinin Orri’nin Fırtınası dediği karşı saldırıyı başlatır. Saldırı İngilizleri durdurur ve hatlarını neredeyse yarar, ama Eystein öldürülür.
 
 @image stamford-bridge-orre-memorial-829304
 

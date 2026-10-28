@@ -1,6 +1,6 @@
-Shortly before 17:00 Desaix reaches Bonaparte north of Cascina Grossa with the news that Boudet’s division, 6,000 men and 9 guns, is close behind. It deploys in front of San Giuliano, with the 9th Light Infantry at the edge of the vines, while Monnier and Lannes re-form to the north. Marmont gathers the remaining French guns against the head of the Austrian column.
+Shortly before 17:00 [Desaix](@marengo-desaix-desaix) reaches Bonaparte north of Cascina Grossa with the news that Boudet’s division, 6,000 men and 9 guns, is close behind. It deploys in front of [San Giuliano](@marengo-desaix-san-giuliano), with the 9th Light Infantry at the edge of the vines, while Monnier and Lannes re-form to the north. [Marmont](@marengo-desaix-marmont) gathers the remaining French guns against the head of the Austrian column.
 
-Boudet’s division throws back Saint-Julien’s leading brigade, and Zach brings forward Lattermann’s grenadiers. As Marmont’s guns fire grapeshot at close range and an Austrian ammunition wagon explodes, Kellermann charges the grenadiers in the flank with about 400 heavy cavalry, and they break. Desaix is shot from his horse in the attack, and Zach is taken prisoner with at least 2,000 men.
+Boudet’s division throws back Saint-Julien’s leading brigade, and [Zach](@marengo-desaix-zach) brings forward Lattermann’s grenadiers. As Marmont’s guns fire grapeshot at close range and an Austrian ammunition wagon explodes, [Kellermann](@marengo-desaix-kellermann) charges the grenadiers in the flank with about 400 heavy cavalry, and they break. Desaix is shot from his horse in the attack, and Zach is taken prisoner with at least 2,000 men.
 
 @image marengo-broc-cec6ca
 

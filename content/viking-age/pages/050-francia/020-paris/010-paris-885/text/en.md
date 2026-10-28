@@ -1,4 +1,4 @@
-In the summer of 885 Danish bands gather at Rouen under Sigfrid and Sinric. Sigfrid asks Charles the Fat, emperor and king of West Francia since 884, for a payment and is refused. The fleet rows up the Seine past the fortified bridge at Pont-de-l’Arche and reaches Paris on 24 November. Abbo, a monk of Saint-Germain-des-Prés who lives through the siege inside the city, writes of 700 ships and 30,000 to 40,000 men. Modern historians put the fleet at about 300 ships.
+In the summer of 885 Danish bands gather at [Rouen](@rouen-885) under Sigfrid and Sinric. Sigfrid asks Charles the Fat, emperor and king of West Francia since 884, for a payment and is refused. The fleet rows up the Seine past the fortified bridge at Pont-de-l’Arche and reaches Paris on 24 November. Abbo, a monk of Saint-Germain-des-Prés who lives through the siege inside the city, writes of 700 ships and 30,000 to 40,000 men. Modern historians put the fleet at about 300 ships.
 
 @image paris-885-schnetz-8e4f7a
 
@@ -8,6 +8,6 @@ The siege lasts through the winter. In February 886 Henry of Franconia comes wit
 
 @image paris-885-odo-returns-ca77c9
 
-Charles the Fat arrives with the imperial army in October 886 and camps at Montmartre. He negotiates: he promises the Danes 700 pounds of silver, paid in the spring of 887, and lets them winter in Burgundy, which is in revolt against him. The Parisians refuse them passage under the bridges, so they haul their ships overland to the Marne, sail up the Seine and the Yonne and besiege Sens. After Charles’s death in 888 the West Frankish nobles elect Odo king.
+Charles the Fat arrives with the imperial army in October 886 and camps at Montmartre. He negotiates: he promises the Danes 700 pounds of silver, paid in the spring of 887, and lets them winter in Burgundy, which is in revolt against him. The Parisians refuse them passage under the bridges, so they haul their ships overland to the Marne, sail up the Seine and the Yonne and besiege [Sens](@sens-886). After Charles’s death in 888 the West Frankish nobles elect Odo king.
 
 @image paris-885-charles-20d404

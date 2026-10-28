@@ -2,6 +2,6 @@
 
 @image bill-of-rights-b1ae71
 
-1791’de Pierre Charles L’Enfant, Potomac kıyısındaki bölgede federal şehrin planını çizer. Virginia’dan ayrılmak için Danville’de bir dizi kurultay toplayan Kentucky 1 Haziran 1792’de on beşinci eyalet olur.
+1791’de Pierre Charles L’Enfant, Potomac kıyısındaki bölgede federal şehrin planını çizer. Virginia’dan ayrılmak için [Danville’de](@danville) bir dizi kurultay toplayan Kentucky 1 Haziran 1792’de on beşinci eyalet olur.
 
 @image lenfant-plan-f036e8

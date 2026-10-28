@@ -1,4 +1,4 @@
-Ertesi sabah Romalılar Hasdrubal’in kampının önünde savaş düzenine girer. Hasdrubal Roma ordusunun bir gecede büyüdüğünü ve süvarisinin arttığını görür. Bir önceki gece Roma kampında borunun iki kez çaldığını, yani ikinci bir konsülün geldiğini haber veren işareti duyduğunu hatırlar. İki konsül ordusuyla karşı karşıya olduğuna karar verir ve askerlerini kampa geri çeker.
+Ertesi sabah Romalılar [Hasdrubal’in](@metaurus-retreat-hasdrubal) kampının önünde savaş düzenine girer. Hasdrubal Roma ordusunun bir gecede büyüdüğünü ve süvarisinin arttığını görür. Bir önceki gece Roma kampında borunun iki kez çaldığını, yani ikinci bir konsülün geldiğini haber veren işareti duyduğunu hatırlar. İki konsül ordusuyla karşı karşıya olduğuna karar verir ve askerlerini kampa geri çeker.
 
 @image metaurus-fano-ddc974
 

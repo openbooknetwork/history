@@ -1,4 +1,4 @@
-Merkezde Roma lejyonları 8.000 Galyalıyı ve bir Afrikalı piyade birliğini bozguna uğratır ve Hannibal’in hattını delip geçer. Durup yeniden düzene girdiklerinde arkalarındaki ordunun geri kalanı dağılmıştır. Piyadeyle birlikte çarpışan Sempronius bu 10.000 kişiyi düzenini bozmadan savaş alanından çıkarır, Trebia’yı geri geçirir ve Placentia’ya götürür.
+Merkezde Roma lejyonları 8.000 [Galyalıyı](@trebia-breakthrough-gauls) ve bir Afrikalı piyade birliğini bozguna uğratır ve Hannibal’in hattını delip geçer. Durup yeniden düzene girdiklerinde arkalarındaki ordunun geri kalanı dağılmıştır. Piyadeyle birlikte çarpışan [Sempronius](@trebia-breakthrough-sempronius) bu 10.000 kişiyi düzenini bozmadan savaş alanından çıkarır, Trebia’yı geri geçirir ve [Placentia’ya](@placentia-218) götürür.
 
 @image trebia-folard-66c8d2
 

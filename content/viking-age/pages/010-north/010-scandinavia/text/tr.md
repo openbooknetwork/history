@@ -1,4 +1,4 @@
-790 dolaylarında İskandinavya birçok halkın ve küçük krallığın ülkesidir. Danlar Jutland’ı, Danimarka adalarını ve Skåne’yi elinde tutar. Svear halkı merkezi Uppsala olmak üzere Mälaren Gölü çevresinde, Götar halkı ise onların güneyinde ve batısında yaşar. Norveçliler uzun Atlantik kıyısında oturur, Samiler uzak kuzeyde avcılık, balıkçılık ve ren geyiğiyle geçinir, Finler de Botni Körfezi’nin doğusunda yaşar.
+790 dolaylarında İskandinavya birçok halkın ve küçük krallığın ülkesidir. Danlar Jutland’ı, Danimarka adalarını ve Skåne’yi elinde tutar. Svear halkı merkezi [Uppsala](@uppsala-790) olmak üzere Mälaren Gölü çevresinde, Götar halkı ise onların güneyinde ve batısında yaşar. Norveçliler uzun Atlantik kıyısında oturur, Samiler uzak kuzeyde avcılık, balıkçılık ve ren geyiğiyle geçinir, Finler de Botni Körfezi’nin doğusunda yaşar.
 
 @image scandinavia-vendel-helmet-bd2534
 
@@ -6,7 +6,7 @@ Güç reislerin ve küçük kralların elindedir. Bu hükümdarların adlarını
 
 @image scandinavia-birka-8a052c
 
-Ticaret birkaç pazar kasabasında toplanır. Jutland’ın batı kıyısındaki Ribe 8. yüzyılın başından beri pazar yeridir, daha çok Frizya ve İngiltere ile ticaret yapar ve burada 720 dolaylarında sikke basılmış olabilir. Mälaren Gölü’ndeki Björkö adasında bulunan Birka 750 dolaylarında kurulur, 500 ile 1.000 arasındaki sakini Samilerden ve Finlerden aldıkları kürklerin ticaretini yapar. Vestfold’daki Kaupang 780’lerde kurulur ve yaklaşık 1.000 sakini demir ve sabuntaşı ticareti yapar. Schlei’nin ucundaki Hedeby ilk kez 804’te anılır ve 15 km’den kısa bir kara geçidiyle Baltık’ı Kuzey Denizi’ne bağlar.
+Ticaret birkaç pazar kasabasında toplanır. Jutland’ın batı kıyısındaki [Ribe](@ribe-790) 8. yüzyılın başından beri pazar yeridir, daha çok Frizya ve İngiltere ile ticaret yapar ve burada 720 dolaylarında sikke basılmış olabilir. Mälaren Gölü’ndeki Björkö adasında bulunan [Birka](@birka-790) 750 dolaylarında kurulur, 500 ile 1.000 arasındaki sakini Samilerden ve Finlerden aldıkları kürklerin ticaretini yapar. Vestfold’daki [Kaupang](@kaupang-790) 780’lerde kurulur ve yaklaşık 1.000 sakini demir ve sabuntaşı ticareti yapar. Schlei’nin ucundaki [Hedeby](@hedeby-790) ilk kez 804’te anılır ve 15 km’den kısa bir kara geçidiyle Baltık’ı Kuzey Denizi’ne bağlar.
 
 @image scandinavia-hedeby-372402
 

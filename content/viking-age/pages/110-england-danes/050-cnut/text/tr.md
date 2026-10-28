@@ -1,8 +1,8 @@
-Cnut 1017’de Londra’da taç giyer ve Temmuz’da Æthelred’in dul eşi Normandiyalı Emma ile evlenir. Wessex’i kendine ayırır, Northumbria’yı Eiríkr Hákonarson’a, Doğu Anglia’yı Thorkell the Tall’a, Mercia’yı da yıl bitmeden öldürteceği Eadric Streona’ya verir. 1018’de ülkeden 72.000, Londra’dan 10.500 pound toplar, ordusunun parasını ödeyip onu dağıtır ve yıllık bir ordu vergisiyle beslenen 40 gemiyi tayfalarıyla İngiltere’de tutar.
+Cnut 1017’de [Londra’da](@london-1017) taç giyer ve Temmuz’da Æthelred’in dul eşi Normandiyalı Emma ile evlenir. Wessex’i kendine ayırır, Northumbria’yı Eiríkr Hákonarson’a, Doğu Anglia’yı Thorkell the Tall’a, Mercia’yı da yıl bitmeden öldürteceği Eadric Streona’ya verir. 1018’de ülkeden 72.000, Londra’dan 10.500 pound toplar, ordusunun parasını ödeyip onu dağıtır ve yıllık bir ordu vergisiyle beslenen 40 gemiyi tayfalarıyla İngiltere’de tutar.
 
 @image cnut-liber-vitae-205fd7
 
-Kardeşi Danimarka kralı II. Harald 1018 dolayında ölünce Cnut Danimarka tahtına geçer, sonra küçük oğlu Harthacnut adına yönetmesi için Kont Ulf’u orada naip bırakır. 1026’da Helgeå’da Olaf Haraldsson ve Anund Jacob ile çarpışır, Paskalya 1027’de de İmparator II. Konrad’ın taç giyme töreni için Roma’dadır, Konrad ona Schleswig uç bölgesini bırakır. İngilizlere yazdığı bir mektupta kendini artık bütün İngiltere’nin ve Danimarka’nın, Norveçlilerin ve İsveçlilerin bir kısmının kralı olarak anar. 1028’de Norveç’i alır, 1031’de İskoçya kralı II. Malcolm da ona boyun eğer.
+Kardeşi Danimarka kralı II. Harald 1018 dolayında ölünce Cnut Danimarka tahtına geçer, sonra küçük oğlu Harthacnut adına yönetmesi için Kont Ulf’u orada naip bırakır. 1026’da [Helgeå’da](@helgea-1026) Olaf Haraldsson ve Anund Jacob ile çarpışır, Paskalya 1027’de de İmparator II. Konrad’ın taç giyme töreni için [Roma’dadır](@rome-1027), Konrad ona [Schleswig](@schleswig-1027) uç bölgesini bırakır. İngilizlere yazdığı bir mektupta kendini artık bütün İngiltere’nin ve Danimarka’nın, Norveçlilerin ve İsveçlilerin bir kısmının kralı olarak anar. 1028’de Norveç’i alır, 1031’de İskoçya kralı II. Malcolm da ona boyun eğer.
 
 @image cnut-encomium-ca1f02
 

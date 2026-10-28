@@ -1,4 +1,4 @@
-26 Ağustos’ta Yunanlılar bütün hat boyunca saldırır. Piyadeleri sığ Gök Irmağı’nı geçer ve her sırtın, her tepenin tahkim edildiği ve ağır ateş altında zorla alınması gereken yükseltilere tırmanır. 2 Eylül’de hâkim Çal Dağı tepeleri onların elindedir.
+26 Ağustos’ta Yunanlılar bütün hat boyunca saldırır. Piyadeleri sığ Gök Irmağı’nı geçer ve her sırtın, her tepenin tahkim edildiği ve ağır ateş altında zorla alınması gereken yükseltilere tırmanır. 2 Eylül’de hâkim [Çal Dağı](@sakarya-heights-cal-dagi) tepeleri onların elindedir.
 
 @image sakarya-greek-cover-ea5659
 

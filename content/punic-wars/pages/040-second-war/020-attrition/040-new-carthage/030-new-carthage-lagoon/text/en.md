@@ -2,4 +2,4 @@ The same afternoon, to the defenders’ surprise, the Romans attack again with f
 
 @image new-carthage-furnius-80a1b5
 
-Scipio sends 500 picked men across the lagoon with guides. Polybius writes that the water fell each evening with the tide, Livy that a north wind drove it back. Modern historians doubt both and suggest sluices on the channel, or a lagoon shallow enough to wade in any case. The 500 reach the north wall unseen, climb it, cut their way east along the wall and open the east gate from inside.
+Scipio sends [500 picked men](@new-carthage-2-five-hundred) across the lagoon with guides. Polybius writes that the water fell each evening with the tide, Livy that a north wind drove it back. Modern historians doubt both and suggest sluices on the channel, or a lagoon shallow enough to wade in any case. The 500 reach the north wall unseen, climb it, cut their way east along the wall and open the east gate from inside.

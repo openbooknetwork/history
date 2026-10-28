@@ -1,4 +1,4 @@
-Hannibal marches north to Venafrum, then east over the Apennines into Molise, and takes the town of Geronium, near modern Casacalenda, as his winter base. Fabius follows and camps at Larinum. The Carthaginians turn Geronium into a granary, and two thirds of the army goes out to forage while the rest guards the camp.
+Hannibal marches north to Venafrum, then east over the Apennines into Molise, and takes the town of [Geronium](@geronium-217), near modern Casacalenda, as his winter base. Fabius follows and camps at [Larinum](@larinum-217). The Carthaginians turn Geronium into a granary, and two thirds of the army goes out to forage while the rest guards the camp.
 
 @image fabius-samnium-map-ad941b
 

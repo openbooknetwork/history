@@ -1,4 +1,4 @@
-6 Şubat 886’da yağmurla kabaran ve kuşatmanın döküntüleriyle tıkanan Seine taşar ve Petit Pont’u yıkar. Köprünün sol kıyı ucundaki kule, içinde on iki adamla kentten kopar.
+6 Şubat 886’da yağmurla kabaran ve kuşatmanın döküntüleriyle tıkanan Seine taşar ve [Petit Pont’u](@paris-flood-bridge) yıkar. Köprünün sol kıyı ucundaki kule, içinde on iki adamla kentten kopar.
 
 @image paris-flood-petit-chatelet-182123
 

@@ -1,4 +1,4 @@
-After Malešov Žižka moves into north-eastern Bohemia, burning villages and small towns and the monks in the monastery at Turnov, and gathers his followers. Sigismund Korybut comes back to Prague in the summer of 1424 with about 1,500 men, against the will of Władysław Jagiełło and Vytautas. In the first half of September Žižka arrives before Prague with the Hussites of Žatec, Louny, Klatovy and other towns, and camps at Libeň.
+After Malešov Žižka moves into north-eastern Bohemia, burning villages and small towns and the monks in the monastery at [Turnov](@turnov-1424), and gathers his followers. Sigismund Korybut comes back to Prague in the summer of 1424 with about 1,500 men, against the will of Władysław Jagiełło and Vytautas. In the first half of September Žižka arrives before Prague with the Hussites of Žatec, Louny, Klatovy and other towns, and camps at [Libeň](@liben-1424).
 
 @image liben-embassy-319fe3
 

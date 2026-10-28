@@ -1,4 +1,4 @@
-In 1328 Andronikos III deposes his grandfather Andronikos II and becomes sole emperor. Orhan’s men besiege Nicaea and blockade Nicomedia, the last large Byzantine cities in Bithynia, and the new emperor sets out to relieve them. In June 1329 he and the megas domestikos John Kantakouzenos cross from Constantinople to Asia with about 4,000 men, 2,000 from the capital and fewer from Thrace, the largest army they can raise.
+In 1328 Andronikos III deposes his grandfather Andronikos II and becomes sole emperor. Orhan’s men besiege [Nicaea](@nicaea) and blockade [Nicomedia](@nicomedia), the last large Byzantine cities in Bithynia, and the new emperor sets out to relieve them. In June 1329 he and the megas domestikos John Kantakouzenos cross from [Constantinople](@constantinople) to Asia with about 4,000 men, 2,000 from the capital and fewer from Thrace, the largest army they can raise.
 
 The army marches east along the coast of the Sea of Marmara toward Nicomedia and passes the small port of Philokrene. At Pelekanon it finds Orhan with about 8,000 men camped on the hills across the road. It is the first battle between a Byzantine emperor and an Ottoman ruler.
 

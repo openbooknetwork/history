@@ -1,4 +1,4 @@
-MÖ 201 antlaşması Kartaca’ya Afrika’daki topraklarını bırakır ama Roma’nın izni olmadan savaşmasını yasaklar. Roma’nın müttefiki Masinissa, Numidyalıları Kartaca’nın batısında, başkenti Cirta olan bir krallıkta birleştirir. Sonraki elli yıl boyunca Kartaca topraklarını parça parça ele geçirir: MÖ 158’e kadar Lepcis Magna’ya uzanan Emporia kıyısını, MÖ 152’de Büyük Ovalar’ı. Kartaca her seferinde Roma’ya başvurur, Roma ise Masinissa’yı destekler.
+MÖ 201 antlaşması [Kartaca’ya](@carthage-151) Afrika’daki topraklarını bırakır ama [Roma’nın](@rome-153) izni olmadan savaşmasını yasaklar. Roma’nın müttefiki Masinissa, Numidyalıları Kartaca’nın batısında, başkenti [Cirta](@cirta-201) olan bir krallıkta birleştirir. Sonraki elli yıl boyunca Kartaca topraklarını parça parça ele geçirir: MÖ 158’e kadar [Lepcis Magna’ya](@masinissa-lepcis) uzanan Emporia kıyısını, MÖ 152’de Büyük Ovalar’ı. Kartaca her seferinde Roma’ya başvurur, Roma ise Masinissa’yı destekler.
 
 @image masinissa-cirta-coin-166631
 

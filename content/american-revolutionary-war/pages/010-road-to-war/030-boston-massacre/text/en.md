@@ -1,4 +1,4 @@
-In 1767 Chancellor Townshend tries again with duties on glass, paint, paper, lead and tea, collected at the ports. The colonies answer with another boycott and with pamphlets arguing that Parliament may regulate trade but may not raise revenue in America. Boston is the centre of resistance. From 1 October 1768 four British regiments arrive to keep order in a town of about sixteen thousand.
+In 1767 Chancellor Townshend tries again with duties on glass, paint, paper, lead and tea, collected at the ports. The colonies answer with another boycott and with pamphlets arguing that Parliament may regulate trade but may not raise revenue in America. [Boston](@boston-1770) is the centre of resistance. From 1 October 1768 four British regiments arrive to keep order in a town of about sixteen thousand.
 
 @image boston-1768-6c29fa
 

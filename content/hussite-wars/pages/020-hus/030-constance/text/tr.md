@@ -1,4 +1,4 @@
-Romalıların Kralı ve Wenceslas’ın varisi Sigismund’un ısrarıyla Papa XXIII. Ioannes, üç papalı bölünmeye son vermek için 1 Kasım 1414’te Konstanz’da toplanacak genel bir konsil çağırır. Hus, henüz Sigismund’un güvenli geçiş belgesini almadan 11 Ekim 1414’te senyörler Dubálı Václav ve Chlumlu Jan ile yola çıkar ve Nürnberg üzerinden gider. 3 Kasım’da Konstanz’a varır. Güvenli geçiş belgesi yalnızca Sigismund’un topraklarından geçişini güvenceye alır.
+Romalıların Kralı ve Wenceslas’ın varisi Sigismund’un ısrarıyla Papa XXIII. Ioannes, üç papalı bölünmeye son vermek için 1 Kasım 1414’te [Konstanz’da](@constance-1415) toplanacak genel bir konsil çağırır. Hus, henüz Sigismund’un güvenli geçiş belgesini almadan 11 Ekim 1414’te senyörler Dubálı Václav ve Chlumlu Jan ile yola çıkar ve [Nürnberg](@nuremberg-1414) üzerinden gider. 3 Kasım’da Konstanz’a varır. Güvenli geçiş belgesi yalnızca Sigismund’un topraklarından geçişini güvenceye alır.
 
 @image brozik-hus-constance-e5c4df
 

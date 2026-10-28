@@ -1,4 +1,4 @@
-From Campeche the fleet sails on for six days in good weather and four in a storm. The casks leak, and the water runs out again. The ships stop at Champotón, where the Champotón River meets the sea. Its Maya name is Chakán Putum, and its lord is Moch Couoh, of the Couoh lineage. Shallow water keeps the ships well out, so the Spaniards go ashore in the boats.
+From [Campeche](@campeche-1517) the fleet sails on for six days in good weather and four in a storm. The casks leak, and the water runs out again. The ships stop at Champotón, where the Champotón River meets the sea. Its Maya name is Chakán Putum, and its lord is Moch Couoh, of the Couoh lineage. Shallow water keeps the ships well out, so the Spaniards go ashore in the boats.
 
 @image champoton-river-mouth-a6b2d9
 

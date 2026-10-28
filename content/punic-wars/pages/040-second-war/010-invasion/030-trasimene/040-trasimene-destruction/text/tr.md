@@ -1,4 +1,4 @@
-Romalıların bir kısmı kaçar, ötekiler gruplar halinde toplanıp her yöne karşı savaşır. Merkezde Galyalılara karşı üç saat dayanırlar ve Galyalılar ağır kayıp verir. Livius’a göre Flaminius, Ducarius adlı bir Galyalı onu öldürene kadar askerlerini toparlamaya çalışır. Polybios ise onun hiçbir etkili komuta gösteremediğini yazar.
+Romalıların bir kısmı kaçar, ötekiler gruplar halinde toplanıp her yöne karşı savaşır. Merkezde Galyalılara karşı üç saat dayanırlar ve [Galyalılar](@trasimene-end-gauls) ağır kayıp verir. Livius’a göre [Flaminius](@trasimene-end-flaminius), Ducarius adlı bir Galyalı onu öldürene kadar askerlerini toparlamaya çalışır. Polybios ise onun hiçbir etkili komuta gösteremediğini yazar.
 
 @image trasimene-flaminius-c11c69
 

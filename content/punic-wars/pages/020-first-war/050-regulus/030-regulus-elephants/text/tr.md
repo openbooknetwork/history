@@ -1,4 +1,4 @@
-Savaş Kartaca süvarisinin ve fillerin saldırısıyla başlar, 500 Roma atlısı alandan silinir. Roma sol kanadında, büyük olasılıkla Latin müttefiklerinden oluşan hattın bir bölümü fil sırasının ucunu aşar. Kartaca sağ kanadındaki paralı piyadeye saldırır, bu piyade bozularak kampına kaçar, Romalılar da peşine düşer.
+Savaş Kartaca süvarisinin ve fillerin saldırısıyla başlar, 500 Roma atlısı alandan silinir. [Roma sol kanadında](@regulus-elephants-left), büyük olasılıkla Latin müttefiklerinden oluşan hattın bir bölümü fil sırasının ucunu aşar. Kartaca sağ kanadındaki paralı piyadeye saldırır, bu piyade bozularak kampına kaçar, Romalılar da peşine düşer.
 
 @image regulus-elephant-statuette-300297
 

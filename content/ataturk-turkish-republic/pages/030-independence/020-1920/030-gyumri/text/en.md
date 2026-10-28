@@ -1,4 +1,4 @@
-In late September 1920 Kâzım Karabekir's Eastern Front attacks the Armenian republic. It takes Sarıkamış, then Kars on 30 October and Gümrü in November. The campaign frees the eastern divisions for the war in the west.
+In late September 1920 Kâzım Karabekir's Eastern Front attacks the Armenian republic. It takes Sarıkamış, then [Kars](@kars) on 30 October and Gümrü in November. The campaign frees the eastern divisions for the war in the west.
 
 @image karabekir-1918-bf5b0f
 

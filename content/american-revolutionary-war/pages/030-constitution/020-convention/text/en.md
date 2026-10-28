@@ -2,7 +2,7 @@ The convention opens in the Pennsylvania State House on 25 May with delegates fr
 
 The large and small states deadlock over representation. The Connecticut Compromise of 16 July bases the House on population and gives each state an equal vote in the Senate. Slavery is written in by counting three fifths of the enslaved for representation and by protecting the slave trade for twenty years.
 
-While the convention sits, Congress in New York passes the Northwest Ordinance on 13 July. The land north of the Ohio, ceded by Virginia and the other claimant states, will be governed as a territory and admitted as three to five new states on equal terms with the old. Slavery is banned there. Settlers from New England found Marietta, on the Ohio, the next April.
+While the convention sits, Congress in [New York](@new-york-1785) passes the Northwest Ordinance on 13 July. The land north of the Ohio, ceded by Virginia and the other claimant states, will be governed as a territory and admitted as three to five new states on equal terms with the old. Slavery is banned there. Settlers from New England found [Marietta](@marietta), on the Ohio, the next April.
 
 @image northwest-ordinance-cb07b8
 

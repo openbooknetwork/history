@@ -1,4 +1,4 @@
-Polybios, Galya ordusunu Romalıların gözüyle anlatır: sayısız boru ve trompet, bütün ordunun savaş çığlıkları, ön saflarda boyunlarında altın torklar ve kollarında altın bilezikler taşıyan çıplak Gaesatae savaşçıları. İnsubreler ve Boiiler pantolon ve hafif pelerin giyer.
+Polybios, Galya ordusunu Romalıların gözüyle anlatır: sayısız boru ve trompet, bütün ordunun savaş çığlıkları, ön saflarda boyunlarında altın torklar ve kollarında altın bilezikler taşıyan çıplak [Gaesatae](@telamon-velites-gaesatae) savaşçıları. İnsubreler ve Boiiler pantolon ve hafif pelerin giyer.
 
 @image telamon-carnyx-dce9be
 

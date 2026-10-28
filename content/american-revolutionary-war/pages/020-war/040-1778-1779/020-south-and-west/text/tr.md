@@ -4,6 +4,6 @@
 
 @image savannah-plan-46275a
 
-Batıda George Rogers Clark, yarısı kadarı Kaskaskia’dan Fransız gönüllüler olan yaklaşık 170 adamı Şubat 1779’da sular altındaki araziden geçirir, Vincennes’i ve İngiliz komutanını ele geçirir. Hudson’da Anthony Wayne 16 Temmuz’da Stony Point’e süngüyle hücum eder.
+Batıda George Rogers Clark, yarısı kadarı Kaskaskia’dan Fransız gönüllüler olan yaklaşık 170 adamı Şubat 1779’da sular altındaki araziden geçirir, [Vincennes’i](@vincennes) ve İngiliz komutanını ele geçirir. Hudson’da Anthony Wayne 16 Temmuz’da [Stony Point’e](@stony-point) süngüyle hücum eder.
 
 @image clark-vincennes-f5b5bb

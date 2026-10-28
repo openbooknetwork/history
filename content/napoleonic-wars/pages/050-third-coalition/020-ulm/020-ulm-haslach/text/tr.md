@@ -1,4 +1,4 @@
-11 Ekim’de Ulm önündeki Ney ve Lannes kolordularına komuta eden Murat, Ney’e kolordusunu Tuna’nın güney yakasına geçirmesini emreder. Ney itiraz eder ama sözü dinlenmez. Kuzey yakada, Albeck yakınında yalnızca Pierre Dupont’un 4.000 ile 6.000 kişilik tümeni ve biraz süvari kalır. Aynı gün Mack ve Schwarzenberg yaklaşık 25.000 askerle Ulm’dan çıkıp kuzey yaka boyunca ilerler.
+11 Ekim’de [Ulm](@ulm-haslach-ulm) önündeki [Ney](@ulm-haslach-ney) ve Lannes kolordularına komuta eden Murat, Ney’e kolordusunu Tuna’nın güney yakasına geçirmesini emreder. Ney itiraz eder ama sözü dinlenmez. Kuzey yakada, [Albeck](@ulm-haslach-albeck) yakınında yalnızca Pierre [Dupont’un](@ulm-haslach-dupont) 4.000 ile 6.000 kişilik tümeni ve biraz süvari kalır. Aynı gün [Mack](@ulm-haslach-mack) ve Schwarzenberg yaklaşık 25.000 askerle Ulm’dan çıkıp kuzey yaka boyunca ilerler.
 
 @image ulm-haslach-dupont-72be0f
 

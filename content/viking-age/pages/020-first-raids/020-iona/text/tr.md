@@ -1,10 +1,10 @@
-795’te Ulster Yıllıkları "Rechru’nun putperestlerce yakılışını" kaydeder, bu İrlanda’ya yapılan ilk Viking baskınıdır. Rechru, Antrim kıyısı açığındaki Rathlin ya da Dublin’in kuzeyindeki Lambay adası olarak tanımlanır. Aynı yıl akıncılar, Mull Adası açığında Columba’nın kurduğu Iona manastırına ve Sligo kıyısı açığındaki Inishmurray’e saldırır. Büyük olasılıkla batı Norveç fiyortlarından Shetland ve Orkney üzerinden, İskoçya’nın Atlantik kıyısı boyunca gelirler.
+795’te Ulster Yıllıkları "Rechru’nun putperestlerce yakılışını" kaydeder, bu İrlanda’ya yapılan ilk Viking baskınıdır. Rechru, Antrim kıyısı açığındaki [Rathlin](@rathlin-795) ya da Dublin’in kuzeyindeki [Lambay](@lambay-795) adası olarak tanımlanır. Aynı yıl akıncılar, Mull Adası açığında Columba’nın kurduğu [Iona](@iona-795) manastırına ve Sligo kıyısı açığındaki [Inishmurray’e](@inishmurray-795) saldırır. Büyük olasılıkla batı Norveç fiyortlarından Shetland ve Orkney üzerinden, İskoçya’nın Atlantik kıyısı boyunca gelirler.
 
 @image iona-abbey-c74536
 
 Ardından 798’de Brega kıyısına, 807’de de Connacht kıyısına baskınlar yapılır, Inishmurray bu sırada ikinci kez saldırıya uğrar. Baskınlar küçük ve hızlıdır, adalardaki ve burunlardaki manastırları hedef alır. Iona 802’de ve 806’da yeniden yağmalanır, 806’da bugün Şehitler Koyu denen yerde 68 keşiş öldürülür.
 
-807’de Columba topluluğu iç kesimde, Meath’teki Kells’te yeni bir manastır kurmaya başlar. Kilisesi 814’te kutsanır ve Iona Başrahibi Cellach aynı yıl buraya çekilir, ama Iona onlarca yıl daha Columba manastırlarının merkezi olarak kalır. Başrahip Blathmac ve yanındaki keşişler 825’te Iona’da öldürülür, Columba’nın kutsal emanetleri ancak 878’de Kells’e taşınır. 800 dolaylarında yapılan Kells Kitabı Iona’da başlanıp Kells’te bitirilmiş olabilir.
+807’de Columba topluluğu iç kesimde, Meath’teki [Kells’te](@kells-807) yeni bir manastır kurmaya başlar. Kilisesi 814’te kutsanır ve Iona Başrahibi Cellach aynı yıl buraya çekilir, ama Iona onlarca yıl daha Columba manastırlarının merkezi olarak kalır. Başrahip Blathmac ve yanındaki keşişler 825’te Iona’da öldürülür, Columba’nın kutsal emanetleri ancak 878’de Kells’e taşınır. 800 dolaylarında yapılan Kells Kitabı Iona’da başlanıp Kells’te bitirilmiş olabilir.
 
 @image iona-kells-71a20d
 

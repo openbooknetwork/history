@@ -1,4 +1,4 @@
-The field armies’ wagon fort stands at the foot of the north slope of Lipská hora, the only high ground near the field, with the long slope behind it. By most accounts its right flank rests on a small pond, the Jordán. The league’s wagons stand in 11 or 12 rows on the open plain, out of range of the field armies’ guns. Out of sight below the slope towards the Bylanka brook, the league keeps a body of horsemen, lords who had once fought beside Tábor. Few of its own commanders know they are there.
+The field armies’ wagon fort stands at the foot of the north slope of [Lipská hora](@lipany-forts-hill), the only high ground near the field, with the long slope behind it. By most accounts its right flank rests on a small pond, the Jordán. The league’s wagons stand in 11 or 12 rows on the open plain, out of range of the field armies’ guns. Out of sight below the slope towards the Bylanka brook, the league keeps a body of horsemen, lords who had once fought beside Tábor. Few of its own commanders know they are there.
 
 @image lipany-field-40da96
 

@@ -12,4 +12,4 @@ Müttefikler 38.000 ile 40.000 arası asker ve 40 top, Fransızlar yaklaşık 10
 
 @image dresden-naudet-fb10ae
 
-Başka cephelerde ise mareşaller yenilir. Karl Johan 23 Ağustos’ta Berlin’in güneyindeki Grossbeeren’de Oudinot’yu, Blücher 26 Ağustos’ta Katzbach kıyısında Macdonald’ı yener. Müttefiklerin geri çekilme yolunu kesmek için dağların öte yanına gönderilen Vandamme’ın I. Kolordusu 29 ve 30 Ağustos’ta Kulm’da kuşatılır ve teslim olur. 6 Eylül’de bu kez Berlin üzerine gönderilen Ney Dennewitz’te yenilir.
+Başka cephelerde ise mareşaller yenilir. Karl Johan 23 Ağustos’ta Berlin’in güneyindeki [Grossbeeren’de](@dresden-grossbeeren) Oudinot’yu, Blücher 26 Ağustos’ta [Katzbach](@dresden-katzbach) kıyısında Macdonald’ı yener. Müttefiklerin geri çekilme yolunu kesmek için dağların öte yanına gönderilen Vandamme’ın I. Kolordusu 29 ve 30 Ağustos’ta [Kulm’da](@dresden-kulm) kuşatılır ve teslim olur. 6 Eylül’de bu kez Berlin üzerine gönderilen Ney [Dennewitz’te](@dresden-dennewitz) yenilir.

@@ -2,7 +2,7 @@ Birliğin arabalarına yaklaşık 80 metre kala öncü durur ve geri döner, ara
 
 @image lipany-breach-ef371f
 
-Aynı anda gizlenen atlılar bir yay çizerek sahra ordularının kalesine gelir, kalenin açık durduğu yerde sekiz arabayı devirir ve içeri dalar. Aeneas Silvius Piccolomini, savunanların daha önce hiç bir araba kalesinin içinde atlı görmediğini yazar. Büyük Prokop ile Küçük Prokop arabaların üzerinde savaşırken öldürülür, Dubálı Jan Roháč esir alınır. Sánylı Jan Čapek ile Ondřej Keřský atlılarla birlikte Kolín’e gider, son gruplar akşam saat 8 dolaylarında teslim olur.
+Aynı anda gizlenen atlılar bir yay çizerek sahra ordularının kalesine gelir, kalenin açık durduğu yerde sekiz arabayı devirir ve içeri dalar. Aeneas Silvius Piccolomini, savunanların daha önce hiç bir araba kalesinin içinde atlı görmediğini yazar. Büyük Prokop ile Küçük Prokop arabaların üzerinde savaşırken öldürülür, Dubálı Jan Roháč esir alınır. [Sánylı Jan Čapek](@lipany-rout-capek) ile Ondřej Keřský atlılarla birlikte Kolín’e gider, son gruplar akşam saat 8 dolaylarında teslim olur.
 
 @image lipany-capek-51e7d6
 

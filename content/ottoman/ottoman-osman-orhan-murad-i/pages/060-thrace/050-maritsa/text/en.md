@@ -1,4 +1,4 @@
-Despot Jovan Uglješa of Serres seeks allies against the Ottomans. Byzantium and Bulgaria stay out, and only his brother, King Vukašin of Prilep, joins him. In the summer of 1371 Vukašin brings his army from Scutari (Shkodër) in Zeta, and while Murad is in Anatolia the brothers march east toward Edirne.
+Despot Jovan Uglješa of [Serres](@serres-1345) seeks allies against the Ottomans. Byzantium and Bulgaria stay out, and only his brother, King Vukašin of [Prilep](@prilep), joins him. In the summer of 1371 Vukašin brings his army from Scutari (Shkodër) in Zeta, and while Murad is in Anatolia the brothers march east toward Edirne.
 
 @image ugljesa-hilandar-af9b81
 

@@ -1,4 +1,4 @@
-1381’de V. İoannis, ikinci oğlu Manuel’i geri plana iterek IV. Andronikos’u yeniden veliaht yapar. Kasım 1382’de Manuel Selanik’te kendini imparator ilan eder, Osmanlılara karşı bir siyaset izler ve yönetimini, en azından adda, Teselya’ya ve Epir’e genişletir. Murad, veziriazamı Çandarlı Kara Halil Hayreddin Paşa’yı gönderir. Osmanlılar 19 Eylül 1383’te Serez’i alıp halkını köleleştirir ve Ekim’de Selanik surlarına varır.
+1381’de V. İoannis, ikinci oğlu Manuel’i geri plana iterek IV. Andronikos’u yeniden veliaht yapar. Kasım 1382’de Manuel Selanik’te kendini imparator ilan eder, Osmanlılara karşı bir siyaset izler ve yönetimini, en azından adda, Teselya’ya ve Epir’e genişletir. Murad, veziriazamı Çandarlı Kara Halil Hayreddin Paşa’yı gönderir. Osmanlılar 19 Eylül 1383’te [Serez’i](@serres-1383) alıp halkını köleleştirir ve Ekim’de Selanik surlarına varır.
 
 @image manuel-ii-family-57cf74
 

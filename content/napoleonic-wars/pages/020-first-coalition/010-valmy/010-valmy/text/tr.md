@@ -1,4 +1,4 @@
-Brunswick’in ordusu 19 Ağustos 1792’de Fransa sınırını geçer. Ordu yaklaşık 84.000 kişidir: Prusya ve Avusturya düzenli birliklerinin yanında Hessenliler ve Condé Ordusu’ndaki Fransız göçmen soylular vardır. İstilacılar 23 Ağustos’ta Longwy’yi, 2 Eylül’de Verdun’u alır ve Argonne ormanının geçitlerinden Paris’e doğru ilerler. Verdun’un düşmesi Paris’te Eylül katliamlarını başlatır.
+Brunswick’in ordusu 19 Ağustos 1792’de Fransa sınırını geçer. Ordu yaklaşık 84.000 kişidir: Prusya ve Avusturya düzenli birliklerinin yanında Hessenliler ve Condé Ordusu’ndaki Fransız göçmen soylular vardır. İstilacılar 23 Ağustos’ta [Longwy’yi](@valmy-longwy), 2 Eylül’de [Verdun’u](@valmy-verdun) alır ve Argonne ormanının geçitlerinden Paris’e doğru ilerler. Verdun’un düşmesi Paris’te Eylül katliamlarını başlatır.
 
 @image valmy-dumouriez-77b2a3
 

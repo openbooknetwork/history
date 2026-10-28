@@ -2,7 +2,7 @@ About 80 metres from the league’s wagons the vanguard stops and turns, and the
 
 @image lipany-breach-ef371f
 
-At the same time the hidden horsemen ride in an arc to the field armies’ fort, overturn eight wagons where it stands open and break in. Aeneas Silvius Piccolomini writes that the defenders had never before seen horsemen inside a wagon fort. Prokop the Great and Prokop the Lesser are killed fighting on the wagons, and Jan Roháč of Dubá is taken prisoner. Jan Čapek of Sány and Ondřej Keřský ride off to Kolín with the horse, and the last groups give up at about 8 in the evening.
+At the same time the hidden horsemen ride in an arc to the field armies’ fort, overturn eight wagons where it stands open and break in. Aeneas Silvius Piccolomini writes that the defenders had never before seen horsemen inside a wagon fort. Prokop the Great and Prokop the Lesser are killed fighting on the wagons, and Jan Roháč of Dubá is taken prisoner. [Jan Čapek of Sány](@lipany-rout-capek) and Ondřej Keřský ride off to Kolín with the horse, and the last groups give up at about 8 in the evening.
 
 @image lipany-capek-51e7d6
 

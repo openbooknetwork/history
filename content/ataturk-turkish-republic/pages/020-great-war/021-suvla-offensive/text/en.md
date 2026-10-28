@@ -1,4 +1,4 @@
-Mustafa Kemal, still commanding the 19th Division opposite Anzac, has warned that the peak of Conkbayırı is open to attack, but his superiors do not strengthen it. On the night of 6 August columns of New Zealand, Australian, British and Indian troops climb the valleys north of the Anzac perimeter towards Conkbayırı, Hill Q and Kocaçimen Tepe. At Suvla to the north the British IX Corps lands two divisions against a small detachment and takes the hillock of Lala Baba.
+Mustafa Kemal, still commanding the 19th Division opposite Anzac, has warned that the peak of Conkbayırı is open to attack, but his superiors do not strengthen it. On the night of 6 August columns of New Zealand, Australian, British and Indian troops climb the valleys north of the Anzac perimeter towards Conkbayırı, Hill Q and [Kocaçimen Tepe](@suvla-offensive-971). At Suvla to the north the British IX Corps lands two divisions against a small detachment and takes the hillock of [Lala Baba](@suvla-offensive-lala-baba).
 
 @image suvla-wilkinson-4a744e
 

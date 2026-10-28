@@ -2,6 +2,6 @@ Velitesler geri çekilirken Gaesatae’nin yerine İnsubreler öne çıkar, Roma
 
 @image telamon-stewart-7fd6a3
 
-Ardından Roma süvarisi tepeden iner ve yorgun Galya piyadesinin yanına saldırır. Galya süvarisi çoktan kaçmıştır, piyade de olduğu yerde kılıçtan geçirilir.
+Ardından [Roma süvarisi](@telamon-charge-cavalry) tepeden iner ve yorgun Galya piyadesinin yanına saldırır. Galya süvarisi çoktan kaçmıştır, piyade de olduğu yerde kılıçtan geçirilir.
 
-Polybios’a göre 40.000 Galyalı ölür ve aralarında Concolitanus’un da bulunduğu 10.000 kişi esir düşer. Aneroëstes birkaç adamıyla kaçar ve onlarla birlikte canına kıyar. Papus birleşik orduları Boiilerin topraklarına götürür, MÖ 222’ye gelindiğinde Roma Po vadisinin başlıca Galya kabilelerini yenmiştir.
+Polybios’a göre 40.000 Galyalı ölür ve aralarında [Concolitanus’un](@telamon-charge-concolitanus) da bulunduğu 10.000 kişi esir düşer. Aneroëstes birkaç adamıyla kaçar ve onlarla birlikte canına kıyar. Papus birleşik orduları Boiilerin topraklarına götürür, MÖ 222’ye gelindiğinde Roma Po vadisinin başlıca Galya kabilelerini yenmiştir.

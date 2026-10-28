@@ -1,10 +1,10 @@
-From AD 292 the kings of the lowlands date their monuments in the Long Count, a count of days from the creation of the present world on a day in August 3114 BC. The count runs in units of 20 days, 360 days, 7,200 days, the k'atun of nearly 20 years, and 144,000 days, the b'ak'tun. The oldest known Long Count date, of 36 BC, is carved in the Epi-Olmec script on Stela 2 at Chiapa de Corzo, and the first Maya one on Stela 29 at Tikal.
+From AD 292 the kings of the lowlands date their monuments in the Long Count, a count of days from the creation of the present world on a day in August 3114 BC. The count runs in units of 20 days, 360 days, 7,200 days, the k'atun of nearly 20 years, and 144,000 days, the b'ak'tun. The oldest known Long Count date, of 36 BC, is carved in the Epi-Olmec script on Stela 2 at [Chiapa de Corzo](@chiapa-de-corzo-stela), and the first Maya one on Stela 29 at [Tikal](@tikal-stela-29).
 
-Each date also names its day in two cycles that run side by side. The tzolk'in of 260 days joins the numbers 1 to 13 to twenty day names, and the haab' of 365 days has eighteen months of 20 days and five unlucky days, the wayeb. The same pair of names returns only after 52 years, the Calendar Round, and Stela C at Quiriguá, raised in 775, gives the day of creation as 4 Ajaw 8 Kumk'u.
+Each date also names its day in two cycles that run side by side. The tzolk'in of 260 days joins the numbers 1 to 13 to twenty day names, and the haab' of 365 days has eighteen months of 20 days and five unlucky days, the wayeb. The same pair of names returns only after 52 years, the Calendar Round, and Stela C at [Quiriguá](@quirigua-stela-c), raised in 775, gives the day of creation as 4 Ajaw 8 Kumk'u.
 
 @image calendar-quirigua-stela-c-0500ee
 
-From the late 5th century kings raise a stela at the end of each k'atun, and often at its half and quarter. The texts tell of the king dancing and letting his blood at these ceremonies, and the stela itself is bound in cloth. Tikal builds twin pyramid groups for the k'atun endings, and Calakmul raises at least 166 stelae, more than any other Maya city. The last Long Count date, a k'atun ending in January 909, is carved on Monument 101 at Toniná.
+From the late 5th century kings raise a stela at the end of each k'atun, and often at its half and quarter. The texts tell of the king dancing and letting his blood at these ceremonies, and the stela itself is bound in cloth. Tikal builds twin pyramid groups for the k'atun endings, and [Calakmul](@calakmul-stelae) raises at least 166 stelae, more than any other Maya city. The last Long Count date, a k'atun ending in January 909, is carved on Monument 101 at [Toniná](@tonina-monument-101).
 
 @image calendar-twin-pyramid-c602b0
 

@@ -1,4 +1,4 @@
-The Hussites drive the knights out of the ring, open the wagons and come out with horse and foot. The townsmen and peasant levies of the relief army flee first, and the nobles fight on as the rear guard. By the Old Czech Annals, 24 counts and lords kneel with their swords stuck in the ground to surrender and are killed where they kneel. Part of the horse escapes north-east to Hrbovice and Předlice, where the Hussites surround the villages and set them on fire.
+The Hussites drive the knights out of the ring, open the wagons and come out with horse and foot. The townsmen and peasant levies of the relief army flee first, and the nobles fight on as the rear guard. By the Old Czech Annals, 24 counts and lords kneel with their swords stuck in the ground to surrender and are killed where they kneel. Part of the horse escapes north-east to [Hrbovice](@usti-rout-hrbovice) and [Předlice](@usti-rout-predlice), where the Hussites surround the villages and set them on fire.
 
 @image usti-jakoubek-8a7efd
 

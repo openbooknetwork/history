@@ -1,0 +1,16 @@
+lnglat: [29.513, 40.078]
+name: "Capture of İnegöl"
+date: "1299 by Ottoman tradition"
+result: "İnegöl taken, its tekfur Aya Nikola put to death"
+source: https://en.wikipedia.org/wiki/Siege_of_İnegöl
+images: [bilecik-panorama-e9f721]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  byzantium: { color: "#6b2d6b", color_dark: "#c27ac2" }
+sides:
+  - name: "Osman’s beylik"
+    color: ottomans
+    commanders: ["Osman", "Turgut Alp"]
+  - name: "Byzantine tekfur of İnegöl"
+    color: byzantium
+    commanders: ["Aya Nikola"]

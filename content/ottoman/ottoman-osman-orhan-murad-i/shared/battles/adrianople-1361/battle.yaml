@@ -1,0 +1,15 @@
+lnglat: [26.56, 41.68]
+name: "Conquest of Adrianople"
+date: "1361 or 1362 by Ottoman tradition, 1369 by later research"
+result: "The city surrenders and becomes Edirne, the seat of the beylerbey of Rumelia"
+source: https://en.wikipedia.org/wiki/Ottoman_conquest_of_Adrianople
+images: [adrianople-1857-3fb944, lala-sahin-tomb-913f14]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  byzantium: { color: "#6b2d6b", color_dark: "#c27ac2" }
+sides:
+  - name: "Ottoman beylik"
+    color: ottomans
+    commanders: ["Lala Şahin Pasha"]
+  - name: "Byzantine Empire"
+    color: byzantium

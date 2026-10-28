@@ -1,0 +1,19 @@
+lnglat: [21.356, 43.202]
+name: "Battle of Pločnik"
+date: "1386 or 1387"
+result: "Serbian victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Plo%C4%8Dnik
+images: [toplica-prokuplje-0627cc, lazar-milica-ljubostinja-32b4ff]
+families:
+  serbia: { color: "#2f6fb0", color_dark: "#6fa6e0" }
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+sides:
+  - name: "Moravian Serbia, with Bosnian troops by some accounts"
+    color: serbia
+    commanders: ["Lazar Hrebeljanović"]
+    strength: "About 15,000"
+  - name: "Ottoman raiders"
+    color: ottomans
+    commanders: ["Şahin Pasha"]
+    strength: "About 20,000"
+    casualties: "About 12,000 to 13,000 killed, wounded or captured"

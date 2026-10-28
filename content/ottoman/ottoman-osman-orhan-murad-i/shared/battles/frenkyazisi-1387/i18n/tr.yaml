@@ -1,0 +1,26 @@
+# tr strings for the battle "frenkyazisi-1387".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Ottoman state, with Serbian vassal troops
+battle.sides.0.name: "Sırp vasal askerleriyle Osmanlı Devleti"
+
+# Karaman
+battle.sides.1.name: "Karamanoğulları"
+
+# Battle of Frenkyazısı
+battle.name: "Frenkyazısı Muharebesi"
+
+# 1386 or 1387
+battle.date: "1386 ya da 1387"
+
+# Ottoman victory, Konya besieged and Alaeddin pardoned
+battle.result: "Osmanlı zaferi, Konya kuşatma altına alınır ve Alaeddin affedilir"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Murad I
+battle.sides.0.commanders.0: "I. Murad"
+
+# Alaeddin Ali Bey
+battle.sides.1.commanders.0: "Karamanoğlu Alaeddin Ali Bey"

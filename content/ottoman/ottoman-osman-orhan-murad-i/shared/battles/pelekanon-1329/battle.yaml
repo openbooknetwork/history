@@ -1,0 +1,19 @@
+lnglat: [29.407, 40.776]
+name: "Battle of Pelekanon"
+date: "10–11 June 1329"
+result: "Ottoman victory, the Byzantine army withdraws by sea to Constantinople"
+source: https://en.wikipedia.org/wiki/Battle_of_Pelekanos
+images: [andronikos-iii-miniature-2889b0, orhan-zubdat-2e3262]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  byzantium: { color: "#6b2d6b", color_dark: "#c27ac2" }
+sides:
+  - name: "Byzantine Empire"
+    color: byzantium
+    commanders: ["Andronikos III Palaiologos", "John Kantakouzenos"]
+    strength: "About 4,000: 2,000 from Constantinople and fewer from Thrace"
+    casualties: "Heavy, the emperor and Kantakouzenos lightly wounded"
+  - name: "Ottoman beylik"
+    color: ottomans
+    commanders: ["Orhan"]
+    strength: "About 8,000"

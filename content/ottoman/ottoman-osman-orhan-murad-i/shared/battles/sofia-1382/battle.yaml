@@ -1,0 +1,17 @@
+lnglat: [23.32, 42.7]
+name: "Siege of Sofia"
+date: "1380 to 1382, or 1385"
+result: "The city surrenders after its governor is captured"
+source: https://en.wikipedia.org/wiki/Siege_of_Sofia
+images: [sofia-st-george-rotunda-fa7e9b, rila-charter-ivan-shishman-9207de]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  bulgaria: { color: "#b03a7a", color_dark: "#e07ab0" }
+sides:
+  - name: "Ottoman state"
+    color: ottomans
+    commanders: ["Lala Şahin Pasha", "İnce Balaban Bey"]
+  - name: "Tsardom of Tarnovo"
+    color: bulgaria
+    commanders: ["Yanuka"]
+    casualties: "Yanuka captured, the walls pulled down"

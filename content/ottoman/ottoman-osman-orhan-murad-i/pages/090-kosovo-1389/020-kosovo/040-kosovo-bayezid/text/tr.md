@@ -1,0 +1,5 @@
+Sırp hücumunun gücü tükenince Osmanlı hafif atlıları ve yayaları karşı saldırıya geçer, Sırp şövalyelerinin ağır zırhları da onlara yük olur. Ardından Bayezid sağ kanattan Sırp kuvvetlerini geri süren bir karşı saldırıya önderlik eder ve günün ilerleyen saatlerinde Osmanlılar Sırp yayalarını bozguna uğratır. Vuković’in Bosna askerleri ağır Sırp kayıplarını karşılamak için merkeze doğru kayar.
+
+Lazar esir düşer. Patrik III. Danilo ve dönemin başka Sırp yazarları onun başının kesildiğini yazar. Vuk Branković zafer umudu kalmadığını görür ve adamlarından kurtarabildiği kadarını kurtarmak için alanı terk eder. İlk kez 1601’de Mavro Orbini’nin yazıya geçirdiği Sırp geleneği bunu Lazar’a ihanet sayar. Tarihçilerin çoğu bu suçlamayı kabul etmez.
+
+Branković’in ayrılmasından bir süre sonra geriye kalan Sırp ve Bosna askerleri de alanı bırakır. İki ordu da çok ağır kayıp vermiştir ve iki hükümdar da ölmüştür. Patrik Danilo, çarpışmanın iki taraf da tükenince sona erdiğini yazar.

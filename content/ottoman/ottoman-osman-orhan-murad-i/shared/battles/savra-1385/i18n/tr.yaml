@@ -1,0 +1,35 @@
+# tr strings for the battle "savra-1385".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Ottoman state, called in by Karl Thopia
+battle.sides.0.name: "Karl Topia’nın çağırdığı Osmanlı Devleti"
+
+# 40,000 by some accounts
+battle.sides.0.strength: "Bazı anlatımlara göre 40.000"
+
+# Zeta
+battle.sides.1.name: "Zeta"
+
+# 1,000 by Mavro Orbini
+battle.sides.1.strength: "Mavro Orbini’ye göre 1.000"
+
+# Balša II killed
+battle.sides.1.casualties: "II. Balša öldürülür"
+
+# Battle of Savra
+battle.name: "Savra Muharebesi"
+
+# 18 September 1385
+battle.date: "18 Eylül 1385"
+
+# Ottoman victory, Balša II killed
+battle.result: "Osmanlı zaferi, II. Balša öldürülür"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Çandarlı Kara Halil Hayreddin Pasha
+battle.sides.0.commanders.0: "Çandarlı Kara Halil Hayreddin Paşa"
+
+# Balša II
+battle.sides.1.commanders.0: "II. Balša"

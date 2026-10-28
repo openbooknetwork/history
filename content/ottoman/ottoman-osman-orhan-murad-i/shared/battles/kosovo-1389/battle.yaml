@@ -1,0 +1,20 @@
+lnglat: [21.085, 42.7175]
+name: "Battle of Kosovo"
+date: "15 June 1389"
+result: "Inconclusive: Murad and Lazar killed, both armies leave the field"
+source: https://en.wikipedia.org/wiki/Battle_of_Kosovo
+images: [kosovo-stefanovic-1870-2f4ac2, murad-i-veronese-e0aff4]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  serbia: { color: "#2f6fb0", color_dark: "#6fa6e0" }
+sides:
+  - name: "Ottoman state, with Anatolian auxiliaries and Christian vassals"
+    color: ottomans
+    commanders: ["Murad I", "Bayezid", "Yakub Çelebi"]
+    strength: "27,000 to 40,000"
+    casualties: "Very heavy, Murad killed"
+  - name: "Moravian Serbia, the land of Vuk Branković and Bosnian troops"
+    color: serbia
+    commanders: ["Lazar Hrebeljanović", "Vuk Branković", "Vlatko Vuković"]
+    strength: "12,000 to 30,000"
+    casualties: "Very heavy, Lazar captured and beheaded"

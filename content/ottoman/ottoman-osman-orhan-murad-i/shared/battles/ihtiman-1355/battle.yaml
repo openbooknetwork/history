@@ -1,0 +1,19 @@
+lnglat: [23.817, 42.433]
+name: "Battle of Ihtiman"
+date: "1355"
+result: "Michael Asen killed, the Ottomans turn back before Sofia"
+source: https://en.wikipedia.org/wiki/Battle_of_Ihtiman
+images: [ihtiman-valley-52b4d7, coin-ivan-alexander-michael-asen-6dfcd4]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  bulgaria: { color: "#b03a7a", color_dark: "#e07ab0" }
+sides:
+  - name: "Ottoman beylik"
+    color: ottomans
+    commanders: ["Süleyman Pasha"]
+    strength: "20,000 horsemen by the sources"
+    casualties: "Heavy"
+  - name: "Bulgarian Empire"
+    color: bulgaria
+    commanders: ["Michael Asen IV"]
+    casualties: "Heavy, Michael Asen killed"

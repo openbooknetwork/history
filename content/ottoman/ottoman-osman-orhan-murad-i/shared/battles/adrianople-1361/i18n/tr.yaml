@@ -1,0 +1,23 @@
+# tr strings for the battle "adrianople-1361".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Ottoman beylik
+battle.sides.0.name: "Osmanlı Beyliği"
+
+# Byzantine Empire
+battle.sides.1.name: "Bizans İmparatorluğu"
+
+# Conquest of Adrianople
+battle.name: "Edirne’nin Fethi"
+
+# 1361 or 1362 by Ottoman tradition, 1369 by later research
+battle.date: "Osmanlı geleneğine göre 1361 ya da 1362, sonraki araştırmalara göre 1369"
+
+# The city surrenders and becomes Edirne, the seat of the beylerbey of Rumelia
+battle.result: "Şehir teslim olur ve Rumeli beylerbeyinin merkezi olur"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Lala Şahin Pasha
+battle.sides.0.commanders.0: "Lala Şahin Paşa"

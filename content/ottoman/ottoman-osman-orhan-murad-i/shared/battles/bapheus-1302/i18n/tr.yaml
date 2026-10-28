@@ -1,0 +1,29 @@
+# tr strings for the battle "bapheus-1302".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Osman’s beylik
+battle.sides.0.name: "Osman’ın beyliği"
+
+# About 5,000 light horse, with allies from Paphlagonia and the Maeander
+battle.sides.0.strength: "Paflagonya ve Menderes’ten gelen müttefiklerle birlikte 5.000 kadar hafif süvari"
+
+# Byzantine Empire
+battle.sides.1.name: "Bizans İmparatorluğu"
+
+# About 2,000, half of them Alan mercenaries
+battle.sides.1.strength: "Yarısı Alan paralı askerleri olmak üzere 2.000 kadar asker"
+
+# Battle of Bapheus
+battle.name: "Bafeus (Koyunhisar) Muharebesi"
+
+# 27 July 1302 (or 1299)
+battle.date: "27 Temmuz 1302 (ya da 1299)"
+
+# Ottoman victory, the Byzantines withdraw into Nicomedia
+battle.result: "Osmanlı zaferi, Bizanslılar İzmit’e çekilir"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# George Mouzalon
+battle.sides.1.commanders.0: "Georgios Muzalon"

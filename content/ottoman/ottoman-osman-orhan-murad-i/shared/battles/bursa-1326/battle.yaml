@@ -1,0 +1,16 @@
+lnglat: [29.06, 40.185]
+name: "Siege of Bursa"
+date: "About 1317 – 6 April 1326"
+result: "Bursa surrenders to Orhan and becomes the Ottoman capital"
+source: https://en.wikipedia.org/wiki/Siege_of_Bursa
+images: [bursa-photochrom-2136dc]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  byzantium: { color: "#6b2d6b", color_dark: "#c27ac2" }
+sides:
+  - name: "Ottoman beylik"
+    color: ottomans
+    commanders: ["Orhan", "Köse Mihal"]
+  - name: "Byzantine Empire"
+    color: byzantium
+    commanders: ["Saroz"]

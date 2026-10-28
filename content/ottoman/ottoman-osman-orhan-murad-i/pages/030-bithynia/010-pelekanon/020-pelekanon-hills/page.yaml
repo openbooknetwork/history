@@ -1,0 +1,28 @@
+date: "10 June 1329"
+when: 1329-06-10
+title: "The fight below the hills"
+bbox: [29.345, 40.748, 29.432, 40.802]
+zones: []
+routes: []
+markers: [pelekanon, philokrene, pelekanon-hills-andronikos, pelekanon-hills-orhan, pelekanon-hills-archers]
+sources:
+  - "John VI Kantakouzenos, Histories, book 2."
+  - "Donald M. Nicol, The Reluctant Emperor: A Biography of John Cantacuzene, Byzantine Emperor and Monk, c. 1295–1383 (1996), 32–33."
+  - "Savvas Kyriakidis, Warfare in Late Byzantium, 1204–1453 (2011), 204."
+emblem:
+  kind: battle-plan
+  units:
+    - {side: byzantium, type: infantry, at: [29.39684, 40.76992], width: 800, depth: 200, facing: 45, id: byz-foot, name: 'Byzantine foot soldiers, the right resting on the sea. The army has about 4,000 men, 2,000 from Constantinople and fewer from Thrace'}
+    - {side: byzantium, type: cavalry, at: [29.38929, 40.77632], width: 900, depth: 220, facing: 45, id: byz-horse, name: Byzantine horsemen under Andronikos III and the megas domestikos John Kantakouzenos}
+    - {side: ottomans, type: cavalry, at: [29.41361, 40.79039], width: 2000, depth: 300, facing: 225, id: orhan-army, name: 'Orhan’s army, about 8,000, on the hills across the road to Nicomedia. Drawn on the hills above Darıca and Eskihisar, after the identification of Pelekanon used here'}
+    - {side: ottomans, type: camp, at: [29.42032, 40.79295], width: 500, depth: 350, facing: 225, id: orhan-camp, name: Orhan’s camp on the hills}
+    - {side: ottomans, type: cavalry, at: [29.40187, 40.78271], width: 450, depth: 140, facing: 225, id: archers, name: '300 mounted archers, sent down to draw the Byzantines up the slopes'}
+  arrows:
+    - {side: ottomans, path: [[29.41403, 40.78751], [29.40841, 40.78284], [29.39684, 40.77312]], width: 130, id: archers-ride, name: The 300 archers ride down and shoot at the Byzantine line}
+    - {side: ottomans, path: [[29.39432, 40.77568], [29.39785, 40.77939], [29.4012, 40.7822]], width: 110, id: archers-back, name: 'Driven off, the archers fall back toward the hills', style: dashed}
+    - {side: byzantium, path: [[29.3903, 40.77772], [29.39474, 40.78047], [29.3991, 40.78252]], width: 140, id: byz-follow, name: The Byzantines follow to the foot of the hills and stop there}
+    - {side: ottomans, path: [[29.41906, 40.78367], [29.41043, 40.77619], [29.40061, 40.77024]], width: 140, id: turks-attack, name: Turkish horsemen come down from the hills again and again until nightfall}
+  clashes:
+    - {at: [29.39961, 40.76998], size: 160}
+    - {at: [29.39592, 40.7728], size: 160}
+    - {at: [29.39994, 40.7829], size: 160}

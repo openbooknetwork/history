@@ -1,0 +1,35 @@
+# tr strings for the battle "kosovo-1389".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Ottoman state, with Anatolian auxiliaries and Christian vassals
+battle.sides.0.name: "Anadolu’dan yardımcı kuvvetler ve Hristiyan vasallarla Osmanlı Devleti"
+
+# 27,000 to 40,000
+battle.sides.0.strength: "27.000 ile 40.000 arası"
+
+# Very heavy, Murad killed
+battle.sides.0.casualties: "Çok ağır, Murad öldürülür"
+
+# Moravian Serbia, the land of Vuk Branković and Bosnian troops
+battle.sides.1.name: "Moravya Sırbistanı, Vuk Branković’in toprakları ve Bosna askerleri"
+
+# 12,000 to 30,000
+battle.sides.1.strength: "12.000 ile 30.000 arası"
+
+# Very heavy, Lazar captured and beheaded
+battle.sides.1.casualties: "Çok ağır, Lazar esir düşer ve başı kesilir"
+
+# Battle of Kosovo
+battle.name: "I. Kosova Muharebesi"
+
+# 15 June 1389
+battle.date: "15 Haziran 1389"
+
+# Inconclusive: Murad and Lazar killed, both armies leave the field
+battle.result: "Sonuçsuz: Murad ve Lazar ölür, iki ordu da alanı bırakır"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Murad I
+battle.sides.0.commanders.0: "I. Murad"

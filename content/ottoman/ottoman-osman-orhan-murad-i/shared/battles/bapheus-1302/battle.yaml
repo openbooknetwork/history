@@ -1,0 +1,18 @@
+lnglat: [30.02, 40.735]
+name: "Battle of Bapheus"
+date: "27 July 1302 (or 1299)"
+result: "Ottoman victory, the Byzantines withdraw into Nicomedia"
+source: https://en.wikipedia.org/wiki/Battle_of_Bapheus
+images: [osman-veronese-beacbe, hyperpyron-andronikos-michael-ec380d]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  byzantium: { color: "#6b2d6b", color_dark: "#c27ac2" }
+sides:
+  - name: "Osman’s beylik"
+    color: ottomans
+    commanders: ["Osman"]
+    strength: "About 5,000 light horse, with allies from Paphlagonia and the Maeander"
+  - name: "Byzantine Empire"
+    color: byzantium
+    commanders: ["George Mouzalon"]
+    strength: "About 2,000, half of them Alan mercenaries"

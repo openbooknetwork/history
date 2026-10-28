@@ -1,0 +1,35 @@
+# tr strings for the battle "pelekanon-1329".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Byzantine Empire
+battle.sides.0.name: "Bizans İmparatorluğu"
+
+# About 4,000: 2,000 from Constantinople and fewer from Thrace
+battle.sides.0.strength: "4.000 kadar: 2.000’i Konstantinopolis’ten, daha azı Trakya’dan"
+
+# Heavy, the emperor and Kantakouzenos lightly wounded
+battle.sides.0.casualties: "Ağır, imparator ve Kantakuzenos hafif yaralı"
+
+# Ottoman beylik
+battle.sides.1.name: "Osmanlı Beyliği"
+
+# About 8,000
+battle.sides.1.strength: "8.000 kadar"
+
+# Battle of Pelekanon
+battle.name: "Pelekanon (Maltepe) Muharebesi"
+
+# 10–11 June 1329
+battle.date: "10–11 Haziran 1329"
+
+# Ottoman victory, the Byzantine army withdraws by sea to Constantinople
+battle.result: "Osmanlı zaferi, Bizans ordusu deniz yoluyla Konstantinopolis’e çekilir"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Andronikos III Palaiologos
+battle.sides.0.commanders.0: "III. Andronikos Palaiologos"
+
+# John Kantakouzenos
+battle.sides.0.commanders.1: "İoannis Kantakuzenos"

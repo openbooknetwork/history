@@ -1,0 +1,29 @@
+date: "15 June 1389"
+when: 1389-06-15
+title: "The battle lines"
+routes: []
+sources:
+  - "Noel Malcolm, Kosovo: A Short History (1998), 64."
+  - "Rade Mihaljčić, The Battle of Kosovo in History and in Popular Tradition (1989)."
+  - "Thomas A. Emmert, Serbian Golgotha: Kosovo, 1389 (1990)."
+bbox: [21.04, 42.6885, 21.118, 42.743]
+zones: []
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[21.115, 42.53], [21.095, 42.565], [21.082, 42.6], [21.072, 42.625], [21.066, 42.65], [21.06, 42.672], [21.052, 42.692], [21.045, 42.712], [21.04, 42.732], [21.03, 42.752], [21.016, 42.772], [21, 42.79], [20.985, 42.808], [20.965, 42.825], [20.94, 42.848], [20.91, 42.868], [20.885, 42.885]], width: 60, id: sitnica, name: The river Sitnica}
+    - {path: [[21.19, 42.93], [21.19, 42.9], [21.185, 42.87], [21.175, 42.845], [21.16, 42.82], [21.14, 42.792], [21.118, 42.768], [21.095, 42.752], [21.072, 42.742], [21.055, 42.737], [21.041, 42.731]], width: 48, id: lab, name: 'The river Lab, which flows into the Sitnica'}
+  units:
+    - {side: serbia, type: cavalry, at: [21.05455, 42.71128], width: 450, depth: 200, facing: 150, id: serb-light, name: Light horsemen with bows on the flanks of Lazar’s army}
+    - {side: serbia, type: cavalry, at: [21.06294, 42.71591], width: 1000, depth: 350, facing: 150, id: brankovic, name: 'Vuk Branković with the troops from his lands, on the right wing'}
+    - {side: serbia, type: knights, at: [21.08164, 42.72181], width: 1500, depth: 220, facing: 150, id: knights, name: The Serbian heavy horse at the front of the army}
+    - {side: serbia, type: infantry, at: [21.07919, 42.72494], width: 1400, depth: 350, facing: 150, id: lazar, name: Lazar with the troops of Moravian Serbia in the centre. Positions after Noel Malcolm’s reconstruction from later accounts}
+    - {side: bosnia, type: cavalry, at: [21.09789, 42.73084], width: 1000, depth: 350, facing: 150, id: vukovic, name: 'Vlatko Vuković with the Bosnian troops sent by King Tvrtko I and the foreign contingents, on the left wing'}
+    - {side: serbia, type: cavalry, at: [21.1075, 42.7339], width: 450, depth: 200, facing: 150, id: serb-light, name: Light horsemen with bows on the flanks of Lazar’s army}
+    - {side: ottomans, type: archers, at: [21.06904, 42.70629], width: 1100, depth: 110, facing: 330, id: ott-archers, name: 'About 1,000 archers in front of each wing'}
+    - {side: ottomans, type: cavalry, at: [21.07105, 42.70371], width: 1400, depth: 350, facing: 330, id: yakub, name: 'The left wing under Murad’s son Yakub Çelebi: the troops from Anatolia'}
+    - {side: ottomans, type: infantry, at: [21.08855, 42.71296], width: 900, depth: 250, facing: 330, id: janissaries, name: 'Janissaries in the centre, no more than 2,000. Ottoman sources put camels in front of them'}
+    - {side: ottomans, type: cavalry, at: [21.09099, 42.70982], width: 700, depth: 220, facing: 330, id: murad, name: Murad I with his cavalry guard behind the janissaries}
+    - {side: ottomans, type: archers, at: [21.1061, 42.72213], width: 1100, depth: 110, facing: 330, id: ott-archers, name: 'About 1,000 archers in front of each wing'}
+    - {side: ottomans, type: cavalry, at: [21.10812, 42.71954], width: 1400, depth: 350, facing: 330, id: bayezid, name: 'The right wing under Murad’s son Bayezid and Evrenos Bey: the troops from the European provinces. Some accounts give Bayezid the left wing'}
+markers: [kosovo-lines-lazar, kosovo-lines-brankovic, kosovo-lines-vukovic, kosovo-lines-murad, kosovo-lines-yakub, kosovo-lines-bayezid]

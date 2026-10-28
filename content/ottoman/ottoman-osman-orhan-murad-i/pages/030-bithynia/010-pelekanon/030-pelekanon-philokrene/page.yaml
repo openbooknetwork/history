@@ -1,0 +1,26 @@
+date: "11 June 1329"
+when: 1329-06-11
+title: "The retreat to Philokrene"
+bbox: [29.345, 40.748, 29.432, 40.802]
+zones: []
+routes: []
+markers: [pelekanon-philokrene-rout, pelekanon-philokrene-kantakouzenos, pelekanon-philokrene-turks, philokrene, pelekanon]
+sources:
+  - "John VI Kantakouzenos, Histories, book 2."
+  - "Donald M. Nicol, The Reluctant Emperor: A Biography of John Cantacuzene, Byzantine Emperor and Monk, c. 1295–1383 (1996), 32–33."
+  - "Warren Treadgold, A History of the Byzantine State and Society (1997), 761."
+emblem:
+  kind: battle-plan
+  units:
+    - {side: byzantium, type: infantry, at: [29.3809, 40.76544], width: 350, depth: 750, facing: 246.03751102542174, id: byz-foot, name: Byzantine foot soldiers withdrawing along the coast road}
+    - {side: byzantium, type: cavalry, at: [29.36455, 40.76576], width: 350, depth: 650, facing: 300.0685828218625, id: byz-horse, name: Byzantine horsemen riding for Philokrene}
+    - {side: byzantium, type: ships, at: [29.34987, 40.75968], width: 1300, depth: 300, facing: 315, id: ships, name: Byzantine ships off Philokrene. They carry Kantakouzenos and the survivors back to Constantinople, count: 6}
+    - {side: ottomans, type: cavalry, at: [29.38971, 40.7696], width: 700, depth: 220, facing: 225, id: turks-rear, name: 'Orhan’s horsemen, come down from the hills, on the rear of the column'}
+    - {side: ottomans, type: cavalry, at: [29.37503, 40.76864], width: 600, depth: 200, facing: 146.30993247402023, id: turks-flank, name: Turkish horsemen from the hills above Darıca on the flank of the column}
+  arrows:
+    - {side: ottomans, path: [[29.41361, 40.78783], [29.40372, 40.78003], [29.39097, 40.77056]], width: 150, id: turks-rear-attack, name: Orhan’s horsemen ride down from the hills after the withdrawing army}
+    - {side: ottomans, path: [[29.40439, 40.79359], [29.38929, 40.78335], [29.37486, 40.77005]], width: 140, id: turks-flank-attack, name: Other horsemen ride along the hills and fall on the column from the side}
+    - {side: byzantium, path: [[29.39181, 40.76928], [29.38216, 40.76576], [29.37461, 40.7632], [29.36623, 40.76448], [29.35826, 40.768]], width: 160, id: byz-rout, name: 'A rumour that the emperor is dead spreads, and the withdrawal turns into a rout to Philokrene', style: dashed}
+  clashes:
+    - {at: [29.38661, 40.768], size: 160}
+    - {at: [29.3773, 40.76691], size: 160}

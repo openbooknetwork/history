@@ -1,0 +1,26 @@
+# tr strings for the battle "gallipoli-1354".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Ottoman beylik
+battle.sides.0.name: "Osmanlı Beyliği"
+
+# Byzantine Empire
+battle.sides.1.name: "Bizans İmparatorluğu"
+
+# Fall of Gallipoli
+battle.name: "Gelibolu’nun Fethi"
+
+# March 1354
+battle.date: "Mart 1354"
+
+# Süleyman Pasha occupies the town after the earthquake and settles Turks in it
+battle.result: "Süleyman Paşa depremden sonra şehri ele geçirir ve Türkleri yerleştirir"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Süleyman Pasha
+battle.sides.0.commanders.0: "Süleyman Paşa"
+
+# John VI Kantakouzenos
+battle.sides.1.commanders.0: "VI. İoannis Kantakuzenos"

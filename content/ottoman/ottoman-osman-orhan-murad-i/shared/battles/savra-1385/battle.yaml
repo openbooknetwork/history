@@ -1,0 +1,19 @@
+lnglat: [19.683, 40.9]
+name: "Battle of Savra"
+date: "18 September 1385"
+result: "Ottoman victory, Balša II killed"
+source: https://en.wikipedia.org/wiki/Battle_of_Savra
+images: [orbini-regno-slavi-e220a4, iznik-candarli-tombs-9eac03]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  albania: { color: "#c27c0e", color_dark: "#f0a830" }
+sides:
+  - name: "Ottoman state, called in by Karl Thopia"
+    color: ottomans
+    commanders: ["Çandarlı Kara Halil Hayreddin Pasha"]
+    strength: "40,000 by some accounts"
+  - name: "Zeta"
+    color: albania
+    commanders: ["Balša II"]
+    strength: "1,000 by Mavro Orbini"
+    casualties: "Balša II killed"

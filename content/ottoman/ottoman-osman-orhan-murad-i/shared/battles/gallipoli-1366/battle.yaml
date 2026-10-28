@@ -1,0 +1,17 @@
+lnglat: [26.67, 40.41]
+name: "Capture of Gallipoli"
+date: "22–23 August 1366"
+result: "The Turks leave the town, and in June 1367 Amadeus hands it to Byzantium"
+source: https://en.wikipedia.org/wiki/Savoyard_crusade
+images: [turin-green-count-monument-234e5e, gattilusio-denaro-7878fe]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  savoy: { color: "#2828bd", color_dark: "#5f5fdd" }
+sides:
+  - name: "Savoyard crusade"
+    color: savoy
+    commanders: ["Amadeus VI of Savoy", "Francesco I Gattilusio"]
+    strength: "About 15 ships and 1,700 men"
+    casualties: "Several knights killed"
+  - name: "Ottoman beylik"
+    color: ottomans

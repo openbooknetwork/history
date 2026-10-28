@@ -1,0 +1,18 @@
+lnglat: [29.41, 40.165]
+name: "Battle of Dimbos"
+date: "1303 by Ottoman tradition"
+result: "Ottoman victory, Ulubat and Kestel surrender"
+source: https://en.wikipedia.org/wiki/Battle_of_Dimbos
+images: [yenisehir-road-5174d0]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  byzantium: { color: "#6b2d6b", color_dark: "#c27ac2" }
+sides:
+  - name: "Osman’s beylik"
+    color: ottomans
+    commanders: ["Osman", "Orhan"]
+    casualties: "Osman’s nephew Aydoğdu killed"
+  - name: "Byzantine tekfurs of Bursa, Adranos, Kestel and Kete"
+    color: byzantium
+    commanders: ["Tekfur of Bursa", "Tekfur of Kestel", "Tekfur of Kete"]
+    casualties: "The tekfurs of Kestel and Dimbos killed, the tekfur of Kete executed"

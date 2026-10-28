@@ -1,0 +1,15 @@
+lnglat: [29.72, 40.43]
+name: "Siege of Nicaea"
+date: "1328 – 2 March 1331"
+result: "Nicaea surrenders to Orhan, the inhabitants free to leave"
+source: https://en.wikipedia.org/wiki/Siege_of_Nicaea_(1328–1331)
+images: [iznik-lefke-gate-287c83, orhan-akce-01706d]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  byzantium: { color: "#6b2d6b", color_dark: "#c27ac2" }
+sides:
+  - name: "Ottoman beylik"
+    color: ottomans
+    commanders: ["Orhan"]
+  - name: "Byzantine Empire"
+    color: byzantium

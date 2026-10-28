@@ -1,0 +1,16 @@
+lnglat: [26.45, 41.77]
+name: "Battle of Sırpsındığı"
+date: "1364 by the Ottoman chronicles"
+result: "Ottoman victory by the Ottoman chronicles, the only sources that record the battle"
+source: https://en.wikipedia.org/wiki/Battle_of_S%C4%B1rps%C4%B1nd%C4%B1%C4%9F%C4%B1
+images: [louis-i-votive-panel-522f89, louis-i-chronicon-pictum-ce223e]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  serbia: { color: "#2f6fb0", color_dark: "#6fa6e0" }
+sides:
+  - name: "Ottoman beylik"
+    color: ottomans
+    commanders: ["Hacı İlbey"]
+  - name: "Serbs and their allies, by the Ottoman chronicles"
+    color: serbia
+    casualties: "Thousands killed or drowned, by the chronicles"

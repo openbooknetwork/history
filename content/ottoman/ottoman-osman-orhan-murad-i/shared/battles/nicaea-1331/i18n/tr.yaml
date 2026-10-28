@@ -1,0 +1,18 @@
+# tr strings for the battle "nicaea-1331".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Ottoman beylik
+battle.sides.0.name: "Osmanlı Beyliği"
+
+# Byzantine Empire
+battle.sides.1.name: "Bizans İmparatorluğu"
+
+# Siege of Nicaea
+battle.name: "İznik Kuşatması"
+
+# 1328 – 2 March 1331
+battle.date: "1328 – 2 Mart 1331"
+
+# Nicaea surrenders to Orhan, the inhabitants free to leave
+battle.result: "İznik Orhan’a teslim olur, halk gitmekte serbesttir"

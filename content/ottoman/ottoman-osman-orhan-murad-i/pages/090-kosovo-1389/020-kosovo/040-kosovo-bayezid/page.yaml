@@ -1,0 +1,35 @@
+date: "15 June 1389"
+when: 1389-06-15
+title: "Bayezid’s counterattack"
+routes: []
+sources:
+  - "Noel Malcolm, Kosovo: A Short History (1998), 64–65."
+  - "Rade Mihaljčić, The Battle of Kosovo in History and in Popular Tradition (1989), 117, 158."
+  - "John V. A. Fine, The Late Medieval Balkans (1987), 410–414."
+bbox: [21.04, 42.6885, 21.118, 42.743]
+zones: []
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[21.115, 42.53], [21.095, 42.565], [21.082, 42.6], [21.072, 42.625], [21.066, 42.65], [21.06, 42.672], [21.052, 42.692], [21.045, 42.712], [21.04, 42.732], [21.03, 42.752], [21.016, 42.772], [21, 42.79], [20.985, 42.808], [20.965, 42.825], [20.94, 42.848], [20.91, 42.868], [20.885, 42.885]], width: 60, id: sitnica, name: The river Sitnica}
+    - {path: [[21.19, 42.93], [21.19, 42.9], [21.185, 42.87], [21.175, 42.845], [21.16, 42.82], [21.14, 42.792], [21.118, 42.768], [21.095, 42.752], [21.072, 42.742], [21.055, 42.737], [21.041, 42.731]], width: 48, id: lab, name: 'The river Lab, which flows into the Sitnica'}
+  units:
+    - {side: serbia, type: cavalry, at: [21.05693, 42.71909], width: 900, depth: 350, facing: 150, id: brankovic, name: Vuk Branković’s troops leave the field}
+    - {side: serbia, type: knights, at: [21.07181, 42.70455], width: 800, depth: 350, facing: 150, id: knights, name: 'The Serbian heavy horse, its charge spent, hemmed in by Ottoman light troops'}
+    - {side: serbia, type: infantry, at: [21.07663, 42.7228], width: 1200, depth: 400, facing: 150, id: lazar, name: 'The Serbian foot soldiers of Lazar’s centre, routed'}
+    - {side: bosnia, type: cavalry, at: [21.09204, 42.732], width: 900, depth: 350, facing: 150, id: vukovic, name: 'Vuković’s Bosnians, moved toward the centre to make up for the Serbian losses'}
+    - {side: ottomans, type: cavalry, at: [21.06515, 42.70223], width: 600, depth: 200, facing: 60, id: ott-light, name: Light horsemen and foot soldiers of the Ottoman left counterattack the Serbian heavy horse}
+    - {side: ottomans, type: cavalry, at: [21.07413, 42.70158], width: 700, depth: 200, facing: 330, id: ott-light, name: Light horsemen and foot soldiers of the Ottoman left counterattack the Serbian heavy horse}
+    - {side: ottomans, type: infantry, at: [21.08215, 42.7121], width: 900, depth: 250, facing: 330, id: janissaries, name: The janissaries and the Ottoman centre advance again}
+    - {side: ottomans, type: cavalry, at: [21.08604, 42.7216], width: 1200, depth: 350, facing: 284, id: bayezid, name: 'Bayezid’s wing, turned against the Serbian centre'}
+  arrows:
+    - {side: ottomans, path: [[21.10842, 42.71915], [21.10135, 42.72187], [21.09255, 42.72229], [21.0849, 42.72216]], width: 160, id: bayezid-counter, name: Bayezid’s counterattack from the right drives the Serbian forces back}
+    - {side: ottomans, path: [[21.06346, 42.69263], [21.06442, 42.69774], [21.0666, 42.70128]], width: 110, id: light-counter, name: Ottoman light troops close on the Serbian heavy horse}
+    - {side: serbia, path: [[21.07086, 42.72295], [21.06508, 42.72675], [21.05929, 42.73054]], width: 150, id: serb-rout, name: The Serbian foot soldiers are routed, style: dashed}
+    - {side: serbia, path: [[21.05571, 42.72066], [21.05257, 42.72558], [21.0508, 42.73057]], width: 130, id: brankovic-leaves, name: 'Vuk Branković leaves the field with his troops after Lazar is captured. Tradition from 1601 on calls it a betrayal, which most historians reject', style: dashed}
+    - {side: bosnia, path: [[21.09082, 42.73357], [21.0886, 42.73732], [21.08721, 42.7409]], width: 130, id: bosnians-leave, name: The Bosnians and the last Serbian troops yield the field, style: dashed}
+  clashes:
+    - {at: [21.08357, 42.72295], size: 200}
+    - {at: [21.06694, 42.70247], size: 200}
+    - {at: [21.07318, 42.70279], size: 200}
+markers: [kosovo-bayezid-bayezid, kosovo-bayezid-lazar, kosovo-bayezid-brankovic, kosovo-bayezid-vukovic, kosovo-bayezid-knights]

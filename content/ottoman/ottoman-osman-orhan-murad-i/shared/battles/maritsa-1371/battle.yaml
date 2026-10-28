@@ -1,0 +1,19 @@
+lnglat: [26.217, 41.717]
+name: "Battle of Maritsa"
+date: "26 September 1371"
+result: "Ottoman victory, Vukašin and Uglješa killed"
+source: https://en.wikipedia.org/wiki/Battle_of_Maritsa
+images: [maritsa-1371-engraving-c945d3, lala-sahin-vakfiye-cd938e]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  serbia: { color: "#2f6fb0", color_dark: "#6fa6e0" }
+sides:
+  - name: "Ottoman beylik"
+    color: ottomans
+    commanders: ["Lala Şahin Pasha", "Hacı İlbey"]
+    strength: "800 to 4,000 in the attack on the camp"
+  - name: "Serbian lords"
+    color: serbia
+    commanders: ["Vukašin Mrnjavčević", "Jovan Uglješa"]
+    strength: "60,000 by the monk Isaiah, probably under 10,000"
+    casualties: "Very heavy, both commanders killed"

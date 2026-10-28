@@ -1,0 +1,32 @@
+# tr strings for the battle "maritsa-1371".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Ottoman beylik
+battle.sides.0.name: "Osmanlı Beyliği"
+
+# 800 to 4,000 in the attack on the camp
+battle.sides.0.strength: "Ordugâha baskında 800 ile 4.000 arası"
+
+# Serbian lords
+battle.sides.1.name: "Sırp beyleri"
+
+# 60,000 by the monk Isaiah, probably under 10,000
+battle.sides.1.strength: "Keşiş İsaiya’ya göre 60.000, büyük olasılıkla 10.000’den az"
+
+# Very heavy, both commanders killed
+battle.sides.1.casualties: "Çok ağır, iki komutan da öldürülür"
+
+# Battle of Maritsa
+battle.name: "Çirmen Muharebesi"
+
+# 26 September 1371
+battle.date: "26 Eylül 1371"
+
+# Ottoman victory, Vukašin and Uglješa killed
+battle.result: "Osmanlı zaferi, Vukašin ve Uglješa öldürülür"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Lala Şahin Pasha
+battle.sides.0.commanders.0: "Lala Şahin Paşa"

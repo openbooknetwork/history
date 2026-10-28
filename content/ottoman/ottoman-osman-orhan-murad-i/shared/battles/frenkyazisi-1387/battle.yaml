@@ -1,0 +1,16 @@
+lnglat: [32.3, 37.95]
+name: "Battle of Frenkyazısı"
+date: "1386 or 1387"
+result: "Ottoman victory, Konya besieged and Alaeddin pardoned"
+source: https://tr.wikipedia.org/wiki/Frenkyaz%C4%B1s%C4%B1_Muharebesi
+images: [karamanids-iskendername-6e1d23, bayezid-i-hunername-83af3a]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  karaman: { color: "#d4a017", color_dark: "#f2c94c" }
+sides:
+  - name: "Ottoman state, with Serbian vassal troops"
+    color: ottomans
+    commanders: ["Murad I", "Bayezid"]
+  - name: "Karaman"
+    color: karaman
+    commanders: ["Alaeddin Ali Bey"]

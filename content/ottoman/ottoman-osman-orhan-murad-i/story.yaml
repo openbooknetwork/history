@@ -1,0 +1,77 @@
+# One story: a timeline shown on one map.
+id: ottoman-osman-orhan-murad-i
+title: "Osman, Orhan and Murad I: From Bithynia to Kosovo"
+summary: "The first three Ottoman rulers, from Osman's raids on Byzantine Bithynia around 1300 through Orhan's Bursa, Nicaea and Gallipoli to Murad I's conquests in Thrace and the Balkans and his death at Kosovo in 1389."
+cover: kosovo-stefanovic-1870-2f4ac2   # Adam Stefanović, The Battle of Kosovo, 1870, shown on the main page
+span: "c. 1280 – 1389"
+languages: [en, tr]
+default_language: en
+labels:
+  countries: false
+
+# Map extent for the border data and the opening view: [west, south, east, north]. Reaches Venice in the north west
+# for the Savoyard crusade, Vidin and the Danube delta in the north, Konya and the Cilician Gates in the south east.
+extent: [12, 35, 41, 47]
+# Countries whose land the zones are clipped to. Natural Earth names.
+land: [Turkey, Greece, Bulgaria, Macedonia, Albania, Serbia, Kosovo, Montenegro, Bosnia and Herz., Croatia, Slovenia, Hungary,
+  Romania, Moldova, Ukraine, Cyprus, N. Cyprus, Syria, Georgia]
+# Countries drawn with borders. Everything else inside the extent is left out.
+countries: [Italy, San Marino, Slovenia, Croatia, Bosnia and Herz., Montenegro, Albania, Serbia, Kosovo, Macedonia, Greece, Bulgaria,
+  Romania, Moldova, Ukraine, Russia, Hungary, Austria, Slovakia, Turkey, Cyprus, N. Cyprus, Syria, Iraq, Georgia]
+
+# Zone families. A zone subtracts every zone from a family with a lower priority number.
+# Zones in the same family never cut each other, so one family can hold several dated shapes.
+# One family per state, and one for each group of small states that crowded pages draw as one zone.
+families:
+  ottomans:        { priority: 0, color: "#b5352a", color_dark: "#e8695c" } # Osman, then the Ottoman state
+  byzantium:       { priority: 1, color: "#6b2d6b", color_dark: "#c27ac2" } # with its despotates and enclaves
+  serbia:          { priority: 2, color: "#2f6fb0", color_dark: "#6fa6e0" } # the kingdom, then Lazar’s land
+  brankovic:       { priority: 3, color: "#a987cf", color_dark: "#dfbfff", pattern: cross } # Vuk Branković
+  dragas:          { priority: 4, color: "#605b0d", color_dark: "#a09756" } # Jovan, Konstantin Dragaš
+  prilep:          { priority: 5, color: "#00ab73", color_dark: "#74e1ad", pattern: cross } # Vukašin, then Marko
+  serres:          { priority: 6, color: "#3aa4af", color_dark: "#88d9e3" } # Jovan Uglješa at Serres
+  bulgaria:        { priority: 7, color: "#b03a7a", color_dark: "#e07ab0", pattern: hatch } # Tarnovo after 1371
+  vidin:           { priority: 8, color: "#b09330", color_dark: "#e8c975", pattern: hatch } # Ivan Sratsimir
+  dobruja:         { priority: 9, color: "#316440", color_dark: "#74a07f", pattern: cross } # Dobrotitsa, Ivanko
+  karaman:         { priority: 10, color: "#d4a017", color_dark: "#f2c94c" }
+  germiyan:        { priority: 11, color: "#3ba3b7", color_dark: "#8ad8ea" }
+  karesi:          { priority: 12, color: "#176dc7", color_dark: "#81abfd" }
+  saruhan:         { priority: 13, color: "#605b0d", color_dark: "#a09756", pattern: cross }
+  aydin:           { priority: 14, color: "#ca828e", color_dark: "#fdbbc5", pattern: hatch }
+  mentese:         { priority: 15, color: "#bd6d2f", color_dark: "#feaf78", pattern: cross }
+  hamid:           { priority: 16, color: "#a58cbf", color_dark: "#dac3f1", pattern: cross }
+  esref:           { priority: 17, color: "#2ba888", color_dark: "#7fdebf", pattern: dots }
+  teke:            { priority: 18, color: "#2e6609", color_dark: "#75a255" }
+  candar:          { priority: 19, color: "#35729e", color_dark: "#84b0d8", pattern: dots } # the Chobanids, then Candar
+  beyliks:         { priority: 20, color: "#80a13e", color_dark: "#bbd680", pattern: dots } # beyliks as one zone
+  seljuks:         { priority: 21, color: "#7a6a53", color_dark: "#b8a68a" } # Rûm, Ilkhanids, Eretna, Burhaneddin
+  hungary:         { priority: 22, color: "#3d7a2a", color_dark: "#7cc160" } # with Vidin 1365–1369
+  bosnia:          { priority: 23, color: "#1f8a8a", color_dark: "#4fc4c4" }
+  wallachia:       { priority: 24, color: "#5b7a99", color_dark: "#9fbad6", pattern: dots }
+  zeta:            { priority: 25, color: "#c27c0e", color_dark: "#f0a830", pattern: cross, aliases: [albania] }
+  thopia:          { priority: 26, color: "#496119", color_dark: "#8a9d5e" } # Karl Thopia
+  valona:          { priority: 27, color: "#bf84a9", color_dark: "#f2bddd" } # Valona and Berat
+  ohrid:           { priority: 28, color: "#3aa4af", color_dark: "#88d9e3" } # Andrea Gropa at Ohrid
+  gjirokaster:     { priority: 29, color: "#b09330", color_dark: "#e8c975" } # Albanian lords of Gjirokastër
+  ioannina:        { priority: 30, color: "#1c71b3", color_dark: "#7daeeb" } # Thomas Preljubović, then Esau
+  albanian-lords:  { priority: 31, color: "#86807a", color_dark: "#b9b3ad" } # lords as one zone
+  thessaly:        { priority: 32, color: "#1a5e89", color_dark: "#6e9ac2", pattern: cross }
+  achaea:          { priority: 33, color: "#0d681b", color_dark: "#64a560" }
+  catalans:        { priority: 34, color: "#d35400", color_dark: "#f08a4b", pattern: hatch } # the duchy of Athens
+  latin-lords:     { priority: 35, color: "#854b1d", color_dark: "#c48960", pattern: hatch } # lords as one zone
+  angevin:         { priority: 36, color: "#be8e33", color_dark: "#f4c477" } # the Angevins at Durrës
+  venice:          { priority: 37, color: "#4da495", color_dark: "#92dacb", pattern: hatch } # and all Latin colonies
+  genoa:           { priority: 38, color: "#0d681b", color_dark: "#64a560" } # Galata and Amastris
+  chios:           { priority: 39, color: "#00ab73", color_dark: "#74e1ad", pattern: cross } # Zaccaria, then the Maona
+  gattilusi:       { priority: 40, color: "#a17b38", color_dark: "#e2bb80" } # Lesbos and Ainos
+  knights:         { priority: 41, color: "#5d6d7e", color_dark: "#95a5b5", pattern: cross } # Rhodes and Smyrna
+  ragusa:          { priority: 42, color: "#605b28", color_dark: "#9e9769" }
+  trebizond:       { priority: 43, color: "#176dc7", color_dark: "#81abfd" }
+  cilicia:         { priority: 44, color: "#3ca964", color_dark: "#87df9f" }
+  mamluks:         { priority: 45, color: "#a58cbf", color_dark: "#dac3f1", pattern: hatch }
+  savoy:           { priority: 46, color: "#2828bd", color_dark: "#5f5fdd" } # Amadeus VI, the Green Count
+  water:           { priority: 47, color: "#5b9bd5", color_dark: "#2c5d87" } # battle plan rivers, no zones
+# Corner rounding passes applied to every hand drawn zone before the clip.
+smoothing: 4
+# Battle plans are drawn at the scale of the field: Kosovo field and the hills of Pelekanon are a few kilometres across.
+max_zoom: 14

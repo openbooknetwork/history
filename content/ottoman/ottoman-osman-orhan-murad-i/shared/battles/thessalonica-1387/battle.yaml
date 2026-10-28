@@ -1,0 +1,16 @@
+lnglat: [22.94, 40.64]
+name: "Siege of Thessalonica"
+date: "October 1383 – 9 April 1387"
+result: "The city surrenders and keeps its privileges under an Ottoman garrison"
+source: https://en.wikipedia.org/wiki/Siege_of_Thessalonica_(1383%E2%80%931387)
+images: [thessaloniki-sea-walls-1860-1ad687]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  byzantium: { color: "#6b2d6b", color_dark: "#c27ac2" }
+sides:
+  - name: "Ottoman state"
+    color: ottomans
+    commanders: ["Çandarlı Kara Halil Hayreddin Pasha"]
+  - name: "Byzantine Empire"
+    color: byzantium
+    commanders: ["Manuel II Palaiologos"]

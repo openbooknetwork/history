@@ -1,0 +1,32 @@
+# tr strings for the battle "gallipoli-1366".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Savoyard crusade
+battle.sides.0.name: "Savoya Haçlı Seferi"
+
+# About 15 ships and 1,700 men
+battle.sides.0.strength: "Yaklaşık 15 gemi ve 1.700 asker"
+
+# Several knights killed
+battle.sides.0.casualties: "Birkaç şövalye öldürülür"
+
+# Ottoman beylik
+battle.sides.1.name: "Osmanlı Beyliği"
+
+# Capture of Gallipoli
+battle.name: "Gelibolu’nun Alınması"
+
+# 22–23 August 1366
+battle.date: "22–23 Ağustos 1366"
+
+# The Turks leave the town, and in June 1367 Amadeus hands it to Byzantium
+battle.result: "Türkler şehri bırakır, Amadeus Haziran 1367’de şehri Bizans’a verir"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Amadeus VI of Savoy
+battle.sides.0.commanders.0: "Savoya Kontu VI. Amadeus"
+
+# Francesco I Gattilusio
+battle.sides.0.commanders.1: "I. Francesco Gattilusio"

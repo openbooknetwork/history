@@ -1,0 +1,26 @@
+# tr strings for the battle "thessalonica-1387".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Ottoman state
+battle.sides.0.name: "Osmanlı Devleti"
+
+# Byzantine Empire
+battle.sides.1.name: "Bizans İmparatorluğu"
+
+# Siege of Thessalonica
+battle.name: "Selanik Kuşatması"
+
+# October 1383 – 9 April 1387
+battle.date: "Ekim 1383 – 9 Nisan 1387"
+
+# The city surrenders and keeps its privileges under an Ottoman garrison
+battle.result: "Şehir teslim olur ve bir Osmanlı garnizonu altında ayrıcalıklarını korur"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Çandarlı Kara Halil Hayreddin Pasha
+battle.sides.0.commanders.0: "Çandarlı Kara Halil Hayreddin Paşa"
+
+# Manuel II Palaiologos
+battle.sides.1.commanders.0: "II. Manuel Palaiologos"

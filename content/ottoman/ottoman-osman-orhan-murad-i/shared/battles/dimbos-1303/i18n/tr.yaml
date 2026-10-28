@@ -1,0 +1,35 @@
+# tr strings for the battle "dimbos-1303".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Osman’s beylik
+battle.sides.0.name: "Osman’ın beyliği"
+
+# Osman’s nephew Aydoğdu killed
+battle.sides.0.casualties: "Osman’ın yeğeni Aydoğdu öldürülür"
+
+# Byzantine tekfurs of Bursa, Adranos, Kestel and Kete
+battle.sides.1.name: "Bursa, Adranos, Kestel ve Kete’nin Bizanslı tekfurları"
+
+# The tekfurs of Kestel and Dimbos killed, the tekfur of Kete executed
+battle.sides.1.casualties: "Kestel ve Dimbos tekfurları öldürülür, Kete tekfuru idam edilir"
+
+# Battle of Dimbos
+battle.name: "Dimbos Muharebesi"
+
+# 1303 by Ottoman tradition
+battle.date: "Osmanlı geleneğine göre 1303"
+
+# Ottoman victory, Ulubat and Kestel surrender
+battle.result: "Osmanlı zaferi, Ulubat ve Kestel teslim olur"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Tekfur of Bursa
+battle.sides.1.commanders.0: "Bursa tekfuru"
+
+# Tekfur of Kestel
+battle.sides.1.commanders.1: "Kestel tekfuru"
+
+# Tekfur of Kete
+battle.sides.1.commanders.2: "Kete tekfuru"

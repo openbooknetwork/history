@@ -1,0 +1,37 @@
+date: "15 June 1389"
+when: 1389-06-15
+title: "The Serbian charge"
+routes: []
+sources:
+  - "Noel Malcolm, Kosovo: A Short History (1998), 64–72."
+  - "Thomas A. Emmert, “The Battle of Kosovo: Early Reports of Victory and Defeat”, in Kosovo: Legacy of a Medieval Battle (1991)."
+  - "Thomas A. Emmert, “Miloš Obilić and the Hero Myth”, Journal of the North American Society for Serbian Studies 10 (1996)."
+  - "Halil İnalcık, in Kosovo: six siècles de mémoires croisées (2000), 25."
+bbox: [21.04, 42.6885, 21.118, 42.743]
+zones: []
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[21.115, 42.53], [21.095, 42.565], [21.082, 42.6], [21.072, 42.625], [21.066, 42.65], [21.06, 42.672], [21.052, 42.692], [21.045, 42.712], [21.04, 42.732], [21.03, 42.752], [21.016, 42.772], [21, 42.79], [20.985, 42.808], [20.965, 42.825], [20.94, 42.848], [20.91, 42.868], [20.885, 42.885]], width: 60, id: sitnica, name: The river Sitnica}
+    - {path: [[21.19, 42.93], [21.19, 42.9], [21.185, 42.87], [21.175, 42.845], [21.16, 42.82], [21.14, 42.792], [21.118, 42.768], [21.095, 42.752], [21.072, 42.742], [21.055, 42.737], [21.041, 42.731]], width: 48, id: lab, name: 'The river Lab, which flows into the Sitnica'}
+  units:
+    - {side: serbia, type: cavalry, at: [21.05586, 42.70871], width: 450, depth: 200, facing: 150, id: serb-light, name: Light horsemen with bows on the flanks of Lazar’s army}
+    - {side: serbia, type: cavalry, at: [21.06355, 42.71513], width: 1000, depth: 350, facing: 150, id: brankovic, name: Vuk Branković’s troops on the right wing}
+    - {side: serbia, type: knights, at: [21.07181, 42.70455], width: 800, depth: 350, facing: 150, id: knights, name: 'The Serbian heavy horse, charging in a wedge, breaks through Yakub’s wing', bow: 150}
+    - {side: serbia, type: infantry, at: [21.08714, 42.71476], width: 1400, depth: 350, facing: 150, id: lazar, name: Lazar’s centre presses the Ottoman centre back}
+    - {side: bosnia, type: cavalry, at: [21.10585, 42.72244], width: 1000, depth: 350, facing: 150, id: vukovic, name: Vlatko Vuković’s Bosnians attack Bayezid’s wing and inflict heavy losses on it}
+    - {side: serbia, type: cavalry, at: [21.11512, 42.72775], width: 450, depth: 200, facing: 150, id: serb-light, name: Light horsemen with bows on the flanks of Lazar’s army}
+    - {side: ottomans, type: cavalry, at: [21.07307, 42.69569], width: 1000, depth: 400, facing: 330, id: yakub, name: 'Yakub’s wing, broken by the charge, gives way'}
+    - {side: ottomans, type: infantry, at: [21.08928, 42.71202], width: 900, depth: 250, facing: 330, id: janissaries, name: The janissaries are pushed back}
+    - {side: ottomans, type: cavalry, at: [21.09172, 42.70888], width: 700, depth: 220, facing: 330, id: murad, name: Murad I with his cavalry guard}
+    - {side: ottomans, type: cavalry, at: [21.10842, 42.71915], width: 1400, depth: 350, facing: 330, id: bayezid, name: Bayezid’s wing barely holds against the Bosnians}
+  arrows:
+    - {side: ottomans, path: [[21.0672, 42.70593], [21.06942, 42.71032], [21.07349, 42.71415]], width: 80, id: archers-fire, name: 'The archers of the Ottoman left open the battle, shooting at the Serbian heavy horse', style: fire}
+    - {side: serbia, path: [[21.0796, 42.71989], [21.07455, 42.7146], [21.07144, 42.70774]], width: 150, id: knights-charge, name: The Serbian heavy horse forms a wedge and charges into the Ottoman left}
+    - {side: ottomans, path: [[21.0713, 42.70068], [21.07217, 42.69812]], width: 120, id: yakub-back, name: Yakub’s wing gives way, style: dashed}
+    - {side: serbia, path: [[21.07714, 42.70495], [21.08366, 42.70565], [21.08776, 42.70708]], width: 70, id: twelve-lords, name: A Florentine letter of October 1389 has twelve lords cut through the lines and the chained camels to Murad’s tent. Ottoman accounts put his death after the battle}
+  clashes:
+    - {at: [21.08836, 42.71319], size: 200}
+    - {at: [21.10714, 42.72079], size: 200}
+    - {at: [21.07334, 42.70259], size: 200}
+markers: [kosovo-charge-knights, kosovo-charge-yakub, kosovo-charge-lazar, kosovo-charge-vukovic, kosovo-charge-bayezid, kosovo-charge-murad]

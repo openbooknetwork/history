@@ -1,0 +1,16 @@
+lnglat: [26.67, 40.41]
+name: "Fall of Gallipoli"
+date: "March 1354"
+result: "Süleyman Pasha occupies the town after the earthquake and settles Turks in it"
+source: https://en.wikipedia.org/wiki/Fall_of_Gallipoli
+images: [gallipoli-castle-tower-4149c5, john-vi-mutinensis-492c72]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  byzantium: { color: "#6b2d6b", color_dark: "#c27ac2" }
+sides:
+  - name: "Ottoman beylik"
+    color: ottomans
+    commanders: ["Süleyman Pasha"]
+  - name: "Byzantine Empire"
+    color: byzantium
+    commanders: ["John VI Kantakouzenos"]

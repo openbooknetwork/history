@@ -1,0 +1,32 @@
+# tr strings for the battle "plocnik-1386".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Moravian Serbia, with Bosnian troops by some accounts
+battle.sides.0.name: "Moravya Sırbistanı, bazı anlatımlara göre Boşnak askerlerle"
+
+# About 15,000
+battle.sides.0.strength: "15.000 kadar"
+
+# Ottoman raiders
+battle.sides.1.name: "Osmanlı akıncıları"
+
+# About 20,000
+battle.sides.1.strength: "20.000 kadar"
+
+# About 12,000 to 13,000 killed, wounded or captured
+battle.sides.1.casualties: "12.000 ile 13.000 arası ölü, yaralı ya da esir"
+
+# Battle of Pločnik
+battle.name: "Ploşnik Muharebesi"
+
+# 1386 or 1387
+battle.date: "1386 ya da 1387"
+
+# Serbian victory
+battle.result: "Sırp zaferi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Şahin Pasha
+battle.sides.1.commanders.0: "Şahin Paşa"

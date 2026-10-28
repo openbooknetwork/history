@@ -1,0 +1,35 @@
+# tr strings for the battle "bileca-1388".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+
+# Kingdom of Bosnia
+battle.sides.0.name: "Bosna Krallığı"
+
+# About 7,000
+battle.sides.0.strength: "7.000 kadar"
+
+# Light
+battle.sides.0.casualties: "Hafif"
+
+# Ottoman state, with Zetan troops
+battle.sides.1.name: "Zetalı askerlerle Osmanlı Devleti"
+
+# Up to 18,000
+battle.sides.1.strength: "18.000’e kadar"
+
+# Heavy
+battle.sides.1.casualties: "Ağır"
+
+# Battle of Bileća
+battle.name: "Bileća Muharebesi"
+
+# 26 or 27 August 1388
+battle.date: "26 ya da 27 Ağustos 1388"
+
+# Bosnian victory
+battle.result: "Bosna zaferi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Lala Şahin Pasha
+battle.sides.1.commanders.0: "Lala Şahin Paşa"

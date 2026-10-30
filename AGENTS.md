@@ -73,7 +73,7 @@ catalogues, and the asset store at `assets.openhistorybook.org` holds the origin
 candidate by its `url` from `index.yaml` with `./node_modules/.bin/harita image <url> <name> --caption <text>
 --credit <text> --source <its Commons page> --story <story>`, which downloads the original into the folder and
 prints the id to use: `@image <id>` in a text, `image: <id>` on a marker, the card's `images` list or the story's
-`cover`. The command uses again an image the atlas holds by the same Commons page or the same bytes, and moves one
+`cover`. The command uses again an image the book holds by the same Commons page or the same bytes, and moves one
 from another story to `content/shared/images/`. After an image file changes, `./node_modules/.bin/harita rehash`
 writes its new sha256.
 

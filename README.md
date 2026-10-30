@@ -43,7 +43,7 @@ npm version minor && git push --follow-tags
 
 `scripts/fetch-candidates.mjs` searches Wikimedia Commons with the terms in a queries file and downloads
 candidate photos with their author and licence into `content/<story>/.candidates/<page>/`, plus an `index.yaml`
-describing each file. A candidate the atlas already holds is not downloaded again, and `index.yaml` lists it with
+describing each file. A candidate the book already holds is not downloaded again, and `index.yaml` lists it with
 `held: <image id>`. Review the candidates, and add each chosen one by its `url` from `index.yaml` with
 `./node_modules/.bin/harita image <url> <name> --caption <text> --credit <text> --source <page from index.yaml>
 --story <story>`, with a credit that names the author, the licence and the Commons file. The command downloads the

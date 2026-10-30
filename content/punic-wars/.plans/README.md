@@ -31,7 +31,7 @@ and the next page, with a `when` that keeps the order or none where the nav runs
 ## Generators
 
 Each battle has `.plans/<id>.mjs`, run with `node .plans/<id>.mjs` from the story folder. It lays the field
-out in a local frame and calls `writePlan` per page (`lib.mjs` binds `@openhistoryatlas/harita/plans` to this
+out in a local frame and calls `writePlan` per page (`lib.mjs` binds `@openbooknetwork/harita/plans` to this
 story), which writes the emblem and bbox into `page.yaml`, the page's own markers into `markers.yaml`, routes
 into `routes/`, and the page's `markers` and `routes` lists. The generator owns those keys: change the
 generator and rerun it.

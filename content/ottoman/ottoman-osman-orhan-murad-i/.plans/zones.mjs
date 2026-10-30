@@ -10,7 +10,7 @@ import { createRequire } from 'module';
 
 const require = createRequire(import.meta.url);
 // turf, topojson and the world atlas come with harita, linked or installed
-const hreq = createRequire(require.resolve('@openhistoryatlas/harita/package.json'));
+const hreq = createRequire(require.resolve('@openbooknetwork/harita/package.json'));
 const turf = hreq('@turf/turf'), tc = hreq('topojson-client'), ts = hreq('topojson-server'), tsi = hreq('topojson-simplify'), world = hreq('world-atlas/countries-10m.json');
 const yaml = hreq('js-yaml');
 const story = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');

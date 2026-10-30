@@ -2,7 +2,7 @@
 //   node scripts/fetch-candidates.mjs [story] [--limit 6] [--pages a,b] [--queries file] [--out name]   (--pages refetches those pages)
 // Reads scripts/image-queries.yaml or the --queries file, writes <story folder>/.candidates/<page>/ and .candidates/index.yaml.
 // --out writes into .candidates/<name>/ instead, so agents fetching at the same time keep separate index files.
-// A file the atlas already holds, by its Commons page or by its bytes, is not kept: index.yaml lists it with held: <id>.
+// A file the book already holds, by its Commons page or by its bytes, is not kept: index.yaml lists it with held: <id>.
 import fs from 'fs';
 import path from 'path';
 import * as yaml from 'js-yaml';
@@ -24,7 +24,7 @@ const BITMAP = /\.(jpe?g|png|tiff?)$/i;
 // An article is a Wikipedia URL or an English Wikipedia title
 const articleApi = a => { const m = a.match(/^https?:\/\/([a-z-]+)\.wikipedia\.org\/wiki\/([^?#]+)/); return m ? [`https://${m[1]}.wikipedia.org/w/api.php`, decodeURIComponent(m[2]).replace(/_/g, ' ')] : ['https://en.wikipedia.org/w/api.php', a]; };
 // Wikimedia asks for a contact in the user agent and throttles unnamed clients harder
-const headers = { 'User-Agent': 'OpenHistoryAtlas-image-fetch/0.2 (https://github.com/openhistoryatlas/atlas)' };
+const headers = { 'User-Agent': 'OpenHistoryBook-image-fetch/0.3 (https://github.com/openbooknetwork/history)' };
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 // Commons answers 429 when asked too fast: wait as told, or doubling from two seconds, up to six tries
 async function get(url) {
@@ -46,7 +46,7 @@ const strip = s => String(s ?? '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').
 const indexFile = path.join(outDir, 'index.yaml');
 const index = fs.existsSync(indexFile) ? yaml.load(fs.readFileSync(indexFile, 'utf8')) ?? {} : {};
 const save = () => fs.writeFileSync(indexFile, yaml.dump(index, { lineWidth: 120 }));
-// every image folder of the atlas, to skip what a story or content/shared/images/ holds already
+// every image folder of the book, to skip what a story or content/shared/images/ holds already
 const held = imageIndex({ root: '.' });
 let seen = new Set(Object.values(index).flat().map(c => 'File:' + c.title));
 for (const [page, spec] of Object.entries(queries)) {

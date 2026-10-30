@@ -6,7 +6,7 @@
 import fs from 'fs';
 import path from 'path';
 import * as yaml from 'js-yaml';
-import { imageIndex, findImage } from '@openhistoryatlas/harita';
+import { imageIndex, findImage } from '@openbooknetwork/harita';
 import { storyDir } from './story-dir.mjs';
 
 const story = process.argv[2] && !process.argv[2].startsWith('--') ? process.argv[2] : 'ataturk-turkish-republic';

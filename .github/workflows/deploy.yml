@@ -22,7 +22,7 @@ jobs:
       # each story's cleaned zones, kept between runs
       - uses: actions/cache@v4
         with:
-          path: .cache/harita
+          path: .cache/kitap
           key: harita-${{ github.sha }}
           restore-keys: harita-
       # strict: every image and tile a page links to is in the asset store, and every translation is filled

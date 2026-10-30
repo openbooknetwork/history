@@ -115,7 +115,7 @@ without a link.
 A state's lands in a year that several stories show, such as the Ottoman lands of 1402 in the stories of Bayezid I
 and of Timur, are one zone in `content/shared/zones/<id>/`. Before drawing such a zone, run
 `./node_modules/.bin/harita zones --like <file>`: it lists the zones of every story that cover the same land, and
-`.cache/harita/zones.html` shows them. `./node_modules/.bin/harita zones --share <story>/<zone id> --replace
+`.cache/kitap/zones.html` shows them. `./node_modules/.bin/harita zones --share <story>/<zone id> --replace
 <story>/<zone id>` makes one shared zone of two: the replaced zone keeps its id, name and family in a `zones.yaml`
 beside it and takes the shared outline, so its pages stay as they are. A story that shows an outline under its own
 name or family, the same land in another year or held by another state, writes a `zones.yaml` entry too, such as

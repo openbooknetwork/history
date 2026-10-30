@@ -7,7 +7,7 @@ documents the content formats. Each folder under `content/` is one story and bui
 ## Work on it
 
 ```
-npm install                 # installs @openhistoryatlas/harita from npm
+npm install                 # installs @openbooknetwork/harita from npm, and kitap with it
 npm run dev                 # watch, rebuild, serve at http://localhost:8080/
 npm run build -- --strict   # the build the release runs: fails on a missing translation or a missing object in the store
 ```
@@ -32,11 +32,11 @@ npm version minor && git push --follow-tags
   stories show.
   Stories: `ataturk-turkish-republic` and `american-revolutionary-war`.
 - `content/<story>/i18n/<lang>.yaml` and `i18n/<lang>.yaml` hold the translations; English is inline.
-  Refresh a language with `npx harita i18n <lang>`.
+  Refresh a language with `./node_modules/.bin/harita i18n <lang>`.
 - `plugins/emblems/` holds story specific map drawings, such as the crescent and star on the 1923 pages.
   Harita loads them by the `kind` named in a page's `emblem` field.
 - `scripts/` holds the photo search helper below.
-- `dist/` is build output, `.cache/harita/` holds the elevation tiles `harita upload` cuts, and
+- `dist/` is build output, `.cache/kitap/` holds the elevation tiles `harita upload` cuts, and
   `content/<story>/.candidates/` is photo review material. All three are ignored.
 
 ## Photographs

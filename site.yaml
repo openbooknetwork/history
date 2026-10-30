@@ -1,5 +1,5 @@
 # The main page: a list of the stories under content/.
-title: Open History Atlas
+title: Open History Book
 intro: Step-through maps of how places and people changed over time. A free educational project. Pick a story.
 languages: [en, tr]
 default_language: en
@@ -11,17 +11,17 @@ stories: [ataturk-turkish-republic, american-revolutionary-war, punic-wars, napo
 theme: cool
 
 # Where the site is published: canonical links, sitemaps and llms.txt are written from it.
-url: https://openhistoryatlas.org/
+url: https://openhistorybook.org/
 
 # Content repository: Contribute link on the main page, source link on every story.
-repository: https://github.com/openhistoryatlas/atlas
+repository: https://github.com/openbooknetwork/history
 
 # The asset store: images and elevation tiles, read by readers and builds at url, written by harita upload.
 assets:
-  url: https://assets.openhistoryatlas.org/
-  bucket: openhistoryatlas-assets
+  url: https://assets.openhistorybook.org/
+  bucket: history-assets
   endpoint: https://929f186b3b6db84ea6cd5dcfe90dd2b3.r2.cloudflarestorage.com
 
 # The site bucket, in the same account: harita deploy writes dist/ there and the Worker in worker/ serves it.
 pages:
-  bucket: openhistoryatlas-site
+  bucket: history-site

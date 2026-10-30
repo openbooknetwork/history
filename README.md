@@ -1,7 +1,7 @@
-# Open History Atlas
+# Open History Book
 
-Stories for step-through history maps, published at https://openhistoryatlas.org. A free educational
-project. The maps are built with [harita](https://github.com/openhistoryatlas/harita), whose README
+Stories for step-through history maps, published at https://openhistorybook.org. A free educational
+project. The maps are built with [harita](https://github.com/openbooknetwork/harita), whose README
 documents the content formats. Each folder under `content/` is one story and builds to its own page.
 
 ## Work on it
@@ -17,7 +17,7 @@ npm run build -- --strict   # the build the release runs: fails on a missing tra
 The site goes live from a release tag. GitHub Actions builds `dist/`, uploads it to the site bucket on
 Cloudflare R2 with `harita deploy` and deploys the Worker in `worker/` that serves it at the custom domain.
 There is no deploy from `main` and nothing to click. Images and elevation tiles come from a second bucket,
-the asset store at https://assets.openhistoryatlas.org/, which a maintainer fills with `harita upload` before
+the asset store at https://assets.openhistorybook.org/, which a maintainer fills with `harita upload` before
 the release. Both are set up as harita's README describes under Asset store and Deploy.
 
 ```

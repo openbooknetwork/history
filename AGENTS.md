@@ -69,7 +69,7 @@ story. A battle's strings sit in its folder's `i18n/tr.yaml`, and an image folde
 A battle's card is its own folder, `content/<story>/shared/battles/<battle id>/battle.yaml`, and the story's pages
 show it with `battle: <battle id>`. Every photo lives in an image folder, `content/<story>/shared/images/<name>-<six
 hex digits>/`, or in `content/shared/images/` once two stories show it. Git holds the folder's `image.yaml` and
-catalogues, and the asset store at `assets.openhistoryatlas.org` holds the original and its sizes. Add a chosen
+catalogues, and the asset store at `assets.openhistorybook.org` holds the original and its sizes. Add a chosen
 candidate by its `url` from `index.yaml` with `./node_modules/.bin/harita image <url> <name> --caption <text>
 --credit <text> --source <its Commons page> --story <story>`, which downloads the original into the folder and
 prints the id to use: `@image <id>` in a text, `image: <id>` on a marker, the card's `images` list or the story's

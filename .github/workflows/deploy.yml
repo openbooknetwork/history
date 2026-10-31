@@ -19,12 +19,12 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      # each story's cleaned zones, kept between runs
-      - uses: actions/cache@v4
+      # each story's cleaned zones, from the last build on main: a tag's own cache no later tag can restore
+      - uses: actions/cache/restore@v4
         with:
           path: .cache/kitap
-          key: harita-${{ github.sha }}
-          restore-keys: harita-
+          key: kitap-${{ github.sha }}
+          restore-keys: kitap-
       # strict: every image and tile a page links to is in the asset store, and every translation is filled
       - run: npm run build -- --strict
       # the site bucket's token, which reads and writes that bucket alone

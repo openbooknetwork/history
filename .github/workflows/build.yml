@@ -1,0 +1,35 @@
+# Build every story strictly on each push to main. The zone cache it saves belongs to main, the one ref whose caches
+# the release tags can restore, so Deploy cleans only the zones that changed since.
+name: Build
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - uses: actions/cache/restore@v4
+        with:
+          path: .cache/kitap
+          key: kitap-${{ github.sha }}
+          restore-keys: kitap-
+      # strict: every image and tile a page links to is in the asset store, and every translation is filled
+      - run: npm run build -- --strict
+      # saved after a failed build too, since a story not yet uploaded fails the store check after its zones are cleaned
+      - uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: .cache/kitap
+          key: kitap-${{ github.sha }}

@@ -28,6 +28,8 @@ await send('Runtime.enable');
 await send('Page.enable'); await send('Page.bringToFront'); await send('Emulation.setFocusEmulationEnabled', { enabled: true });
 await send('Emulation.setDeviceMetricsOverride', { width: W, height: H, deviceScaleFactor: 1, mobile: false });
 await send('Emulation.setEmulatedMedia', { features: [{ name: 'prefers-color-scheme', value: process.env.SHOT_SCHEME ?? 'dark' }] });
+// the map lives inside the engine since the kitap split: keep a handle on it as maplibregl makes it, for SHOT_HOVER
+await send('Page.addScriptToEvaluateOnNewDocument', { source: `(() => { let ml; Object.defineProperty(window, 'maplibregl', { configurable: true, get: () => ml, set: v => { const M = v.Map; v.Map = class extends M { constructor(o) { super(o); window.__MAP = this; } }; ml = v; } }); })()` });
 // the story loads once, then the page's own go() steps to each page in place
 await send('Page.navigate', { url: base });
 // a cold start takes longer than a warm one: wait until the story's pages are defined, up to 30 s
@@ -42,7 +44,7 @@ for (const id of ids) {
   if (!found) { console.log(`no page ${id}`); continue; }
   await sleep(wait);
   if (process.env.SHOT_HOVER) {
-    const expr = `(() => { const r = ML.map.getContainer().getBoundingClientRect(), p = ML.map.project([${process.env.SHOT_HOVER}]); return [r.left + p.x, r.top + p.y]; })()`;
+    const expr = `(() => { const r = window.__MAP.getContainer().getBoundingClientRect(), p = window.__MAP.project([${process.env.SHOT_HOVER}]); return [r.left + p.x, r.top + p.y]; })()`;
     const [x, y] = (await send('Runtime.evaluate', { expression: expr, returnByValue: true })).result.result.value;
     for (const d of [8, 0]) { await send('Input.dispatchMouseEvent', { type: 'mouseMoved', x: x + d, y: y + d }); await sleep(400); }
   }

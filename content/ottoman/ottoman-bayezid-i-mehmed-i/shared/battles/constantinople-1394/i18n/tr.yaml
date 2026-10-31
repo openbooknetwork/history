@@ -1,0 +1,29 @@
+# tr strings for the battle "constantinople-1394".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman state
+battle.sides.0.name: "Osmanlı Devleti"
+
+# Byzantine Empire
+battle.sides.1.name: "Bizans İmparatorluğu"
+
+# Blockade of Constantinople
+battle.name: "Konstantinopolis Ablukası"
+
+# 1394 – 1402
+battle.date: "1394 – 1402"
+
+# The city holds out until Bayezid lifts the blockade in 1402
+battle.result: "Şehir, Bayezid 1402’de ablukayı kaldırana kadar direnir"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Bayezid I
+battle.sides.0.commanders.0: "I. Bayezid"
+
+# Manuel II Palaiologos
+battle.sides.1.commanders.0: "II. Manuel Palaiologos"
+
+# John VII Palaiologos
+battle.sides.1.commanders.1: "VII. İoannis Palaiologos"

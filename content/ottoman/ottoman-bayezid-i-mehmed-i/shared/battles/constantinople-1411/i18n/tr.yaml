@@ -1,0 +1,23 @@
+# tr strings for the battle "constantinople-1411".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Forces of Musa Çelebi
+battle.sides.0.name: "Musa Çelebi’nin kuvvetleri"
+
+# Byzantine Empire
+battle.sides.1.name: "Bizans İmparatorluğu"
+
+# Siege of Constantinople
+battle.name: "Konstantinopolis Kuşatması"
+
+# From August 1411
+battle.date: "Ağustos 1411’den itibaren"
+
+# The city holds out, and Manuel II turns to Mehmed Çelebi
+battle.result: "Şehir dayanır, II. Manuel Mehmed Çelebi’ye yönelir"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Manuel II Palaiologos
+battle.sides.1.commanders.0: "II. Manuel Palaiologos"

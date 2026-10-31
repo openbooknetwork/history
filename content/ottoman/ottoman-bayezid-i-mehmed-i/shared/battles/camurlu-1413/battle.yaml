@@ -1,0 +1,17 @@
+lnglat: [23.56, 42.34]
+name: "Battle of Çamurlu"
+date: "5 July 1413"
+result: "Victory of Mehmed Çelebi, Musa killed and the civil war ended"
+source: https://en.wikipedia.org/wiki/Battle_of_%C3%87amurlu
+images: [mehmed-i-miniature-1a1e30, vitosha-palakaria-c34c89]
+families:
+  mehmed: { color: "#c4561c", color_dark: "#f08c56" }
+  musa: { color: "#9e2b25", color_dark: "#e0756c" }
+sides:
+  - name: "Forces of Mehmed Çelebi, with Serbian and Byzantine troops"
+    color: mehmed
+    commanders: ["Mehmed Çelebi", "Đurađ Branković"]
+  - name: "Forces of Musa Çelebi"
+    color: musa
+    commanders: ["Musa Çelebi"]
+    casualties: "Musa captured and killed"

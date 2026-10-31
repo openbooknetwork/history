@@ -1,0 +1,30 @@
+# tr strings for the battle "gallipoli-1416".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Republic of Venice
+battle.sides.0.name: "Venedik Cumhuriyeti"
+
+# 10 galleys
+battle.sides.0.strength: "10 kadırga"
+
+# 12 killed, 340 wounded
+battle.sides.0.casualties: "12 ölü, 340 yaralı"
+
+# Ottoman Empire
+battle.sides.1.name: "Osmanlı Devleti"
+
+# 32 galleys and galleots
+battle.sides.1.strength: "32 kadırga ve kalyota"
+
+# Çalı Bey killed, 1,100 captured, 12 to 27 ships taken
+battle.sides.1.casualties: "Çalı Bey ölür, 1.100 esir, 12 ile 27 arası gemi ele geçirilir"
+
+# Battle of Gallipoli
+battle.name: "Gelibolu Deniz Savaşı"
+
+# 29 May 1416
+battle.date: "29 Mayıs 1416"
+
+# Venetian victory, the Ottoman fleet destroyed
+battle.result: "Venedik zaferi, Osmanlı donanması yok edilir"

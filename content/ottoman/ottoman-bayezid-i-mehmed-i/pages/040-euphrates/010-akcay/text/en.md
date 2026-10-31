@@ -1,0 +1,7 @@
+While Bayezid is at Nicopolis in September 1396, Alaeddin Ali of Karaman, the husband of Bayezid’s sister Nefise, attacks [Ankara](@ankara-1396) and captures Timurtaş Pasha, the beylerbey of Anatolia, who is in charge of its defence. After the Ottoman victory Alaeddin sends Timurtaş back to Bayezid in robes of honour, with envoys to make peace. Bayezid refuses and marches against Karaman.
+
+In the autumn of 1397, or 1398 by other accounts, the two armies meet on the Akçay plain near Konya. Two days of fighting decide nothing. After midnight on the second day about 30,000 Ottoman troops surround the Karaman army, which breaks and takes refuge in Konya. The town surrenders after an eleven-day siege, on the promise that its people and their goods will be spared. Alaeddin tries to escape, falls from his horse and is caught. Brought before Bayezid, he says that he is a ruler as much as Bayezid, and Bayezid has him executed.
+
+@image konya-haynes-1884-6e5411
+
+Bayezid appoints a governor at Konya and marches on [Larende](@larende-1397), where Alaeddin’s wife and sons are. After some resistance the town surrenders, and Alaeddin’s sons Mehmed and Ali hand Bayezid its keys. He sends his sister and her sons to [Bursa](@bursa). Konya, Larende, [Niğde](@nigde-1397), Aksaray and Develi become Ottoman. Mut, [Ermenek](@ermenek-1397) and the castles of Taşeli and İçel south of the Taurus stay with beys of another branch of the Karaman family.

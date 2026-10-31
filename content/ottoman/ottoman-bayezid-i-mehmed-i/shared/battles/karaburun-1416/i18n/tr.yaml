@@ -1,0 +1,29 @@
+# tr strings for the battle "karaburun-1416".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman Empire
+battle.sides.0.name: "Osmanlı Devleti"
+
+# Followers of Börklüce Mustafa
+battle.sides.1.name: "Börklüce Mustafa’nın taraftarları"
+
+# 6,000 by Doukas, 4,000 to 10,000 by Ottoman writers
+battle.sides.1.strength: "Dukas’a göre 6.000, Osmanlı yazarlarına göre 4.000 ile 10.000"
+
+# Most killed, Börklüce crucified
+battle.sides.1.casualties: "Çoğu öldürülür, Börklüce çarmıha gerilir"
+
+# Battle of Karaburun
+battle.name: "Karaburun Muharebesi"
+
+# 1416
+battle.date: "1416"
+
+# Ottoman victory, Börklüce Mustafa captured and executed
+battle.result: "Osmanlı zaferi, Börklüce Mustafa yakalanır ve idam edilir"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Bayezid Pasha
+battle.sides.0.commanders.0: "Bayezid Paşa"

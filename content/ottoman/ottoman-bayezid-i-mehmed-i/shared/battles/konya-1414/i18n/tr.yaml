@@ -1,0 +1,26 @@
+# tr strings for the battle "konya-1414".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman Empire
+battle.sides.0.name: "Osmanlı Devleti"
+
+# Karamanids
+battle.sides.1.name: "Karamanoğulları"
+
+# Siege of Konya
+battle.name: "Konya Kuşatması"
+
+# 1414
+battle.date: "1414"
+
+# Mehmed Bey of Karaman makes peace and gives back the Ottoman towns
+battle.result: "Karamanoğlu Mehmed Bey barış yapar ve Osmanlı şehirlerini geri verir"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Mehmed I
+battle.sides.0.commanders.0: "I. Mehmed"
+
+# Mehmed II of Karaman
+battle.sides.1.commanders.0: "Karamanoğlu II. Mehmed Bey"

@@ -1,0 +1,23 @@
+lnglat: [32.9344, 40.1264]
+name: "Battle of Ankara"
+date: "20 July 1402, or 28 July by other accounts"
+result: "Timurid victory, Bayezid captured"
+source: https://en.wikipedia.org/wiki/Battle_of_Ankara
+images: [ankara-zafarnama-1436-e67171, ankara-castle-450218]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  serbia: { color: "#2f6fb0", color_dark: "#6fa6e0" }
+  beyliks: { color: "#786b07", color_dark: "#bcab62" }
+  tatars: { color: "#a86a1c", color_dark: "#e0a556" }
+  timurids: { color: "#17695f", color_dark: "#5cbfae" }
+sides:
+  - name: "Ottoman state, with Serbian and Albanian vassals"
+    color: ottomans
+    commanders: ["Bayezid I", "Süleyman Çelebi", "Mehmed Çelebi", "Stefan Lazarević"]
+    strength: "No more than 85,000, by David Nicolle, 70,000 in Timur’s letter of victory"
+    casualties: "40,000 to 50,000, Bayezid and his son Musa captured"
+  - name: "Timurid Empire, with the deposed beys of Anatolia"
+    color: timurids
+    commanders: ["Timur", "Shah Rukh", "Miran Shah", "Muhammad Sultan", "Khalil Sultan"]
+    strength: "About 140,000 with 32 war elephants, by David Nicolle"
+    casualties: "15,000 to 40,000"

@@ -1,0 +1,7 @@
+Çamurlu zaferinden sonra Mehmed [Edirne’de](@edirne) tahta çıkar ve burayı başlıca merkezi yapar. 1402’de onu Ankara’dan Amasya’ya götüren Bayezid Paşa veziriazam olur. Mehmed, [Konstantinopolis’teki](@constantinople) II. Manuel ile ittifakını sürdürür ve Musa’nın aldığı Konstantinopolis ile Selanik yakınlarındaki toprakları Bizans’a geri verir. Mehmed Musa ile savaşırken Karamanoğlu Mehmed Bey [Bursa’yı](@bursa) kuşatmış, şehir yanmış, kuşatmayı Bursa subaşısı İvaz Paşa kırmıştır.
+
+@image mehmed-i-como-795208
+
+1414’te Mehmed, yeniden ayaklanıp Ayasluğ’u alan Aydınoğlu Cüneyd Bey’e karşı Anadolu’ya geçer. Çandarlı İbrahim onun adına Menemen, Kayacık ve Nif kalelerini alır. [İzmir](@izmir-1414), Menteşe’nin, Sakız ile Midilli’deki Cenevizlilerin ve Rodos şövalyelerinin gemilerinin de Osmanlılara yardım ettiği bir kuşatmadan sonra teslim olur. İzmir’de Sakız, Foça ve Midilli’nin Cenevizli beyleri ile şövalyelerin üstadı gelip Mehmed’e bağlılıklarını bildirir. Mehmed, Cüneyd’in annesinin ricası üzerine onu bağışlar ve Aydın’ı kendi atadığı bir sancakbeyine verir.
+
+Ardından Mehmed Karaman üzerine yürür. Mehmed Bey’in ordusunu Konya Ovası’nda yener ve şehri kuşatma altına alır. Mehmed Bey barış yapar ve iç savaş sırasında aldığı Osmanlı şehirlerini geri verir. 1415’te barışı bozunca Bayezid Paşa onu Konya yakınlarında yenip esir alır ve barışa yeniden yemin ettirir. Sonradan anlatılan bir Osmanlı hikâyesine göre Mehmed Bey yemin ederken elbisesinin içinde canlı bir güvercin tutmuş, ardından onu salıvermiştir.

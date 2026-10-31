@@ -1,0 +1,41 @@
+date: "25 September 1396"
+when: 1396-09-25
+title: "The French charge"
+routes: []
+sources:
+  - "Jean Froissart, Chronicles, book IV (about 1400)."
+  - "Michel Pintoin, Chronicle of the Monk of Saint-Denis (early 15th century)."
+  - "Johann Schiltberger, Reisebuch (about 1427)."
+  - "Aziz S. Atiya, The Crusade of Nicopolis (1934)."
+  - "David Nicolle, Nicopolis 1396: The Last Crusade (1999)."
+bbox: [24.845, 43.6355, 24.953, 43.7125]
+zones: []
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[24.62, 43.746], [24.67, 43.735], [24.71, 43.729], [24.74, 43.726], [24.77, 43.719], [24.8, 43.7135], [24.83, 43.7135], [24.86, 43.708], [24.89, 43.709], [24.92, 43.7155], [24.95, 43.7185], [24.98, 43.7235], [25.02, 43.728], [25.06, 43.73], [25.1, 43.731], [25.16, 43.728]], width: 700, id: danube, name: The Danube}
+    - {path: [[24.842, 43.713], [24.845, 43.706], [24.846, 43.7], [24.842, 43.693], [24.84, 43.685], [24.84, 43.678], [24.843, 43.67], [24.848, 43.663], [24.853, 43.655], [24.851, 43.647], [24.849, 43.64], [24.846, 43.632], [24.845, 43.624], [24.846, 43.616], [24.85, 43.608], [24.855, 43.598]], width: 60, id: osam, name: 'The Osam, which flows into the Danube west of the town'}
+  works:
+    - {side: ottomans, path: [[24.88782, 43.66187], [24.91018, 43.66187]], width: 40, style: trench, id: stakes, name: Rows of sharpened stakes in front of the Ottoman foot}
+  units:
+    - {side: crusaders, type: knights, at: [24.899, 43.66476], width: 750, depth: 200, facing: 180, id: french-vanguard, name: 'The French vanguard under the Count of Eu, with mounted archers, among the stakes'}
+    - {side: crusaders, type: knights, at: [24.89714, 43.66883], width: 900, depth: 220, facing: 180, id: french-main, name: The French main body under John of Nevers and Enguerrand de Coucy}
+    - {side: hungary, type: knights, at: [24.90769, 43.68693], width: 1600, depth: 350, facing: 180, id: sigismund, name: 'Sigismund with the Hungarians, the Germans and the Knights Hospitaller, still drawn up behind the French'}
+    - {side: hungary, type: cavalry, at: [24.87541, 43.68693], width: 800, depth: 300, facing: 180, id: transylvanians, name: The Transylvanians. The accounts give no position for them in the line}
+    - {side: wallachia, type: cavalry, at: [24.92632, 43.68602], width: 900, depth: 300, facing: 180, id: wallachians, name: Mircea’s Wallachians. The accounts give no position for them in the line}
+    - {side: ottomans, type: light, at: [24.87044, 43.66657], width: 700, depth: 200, facing: 0, id: akinci, name: Akıncı light horsemen. Their screen in front of the Ottoman line breaks before the French charge}
+    - {side: ottomans, type: light, at: [24.92756, 43.66657], width: 700, depth: 200, facing: 0, id: akinci, name: Akıncı light horsemen. Their screen in front of the Ottoman line breaks before the French charge}
+    - {side: ottomans, type: infantry, at: [24.89279, 43.64215], width: 1200, depth: 250, facing: 0, id: azaps, name: 'The azaps, who have fled behind the sipahis'}
+    - {side: ottomans, type: cavalry, at: [24.88969, 43.64848], width: 1200, depth: 350, facing: 0, id: sipahis, name: 'Sipahis, the horsemen of the provinces, kept in reserve behind the crest out of sight'}
+    - {side: ottomans, type: cavalry, at: [24.9108, 43.64848], width: 1200, depth: 350, facing: 0, id: sipahis, name: 'Sipahis, the horsemen of the provinces, kept in reserve behind the crest out of sight'}
+    - {side: ottomans, type: infantry, at: [24.91142, 43.64215], width: 800, depth: 300, facing: 0, id: bayezid, name: Bayezid with the janissaries and the horsemen of his household on the hill behind his army}
+    - {side: serbia, type: knights, at: [24.87541, 43.65029], width: 700, depth: 250, facing: 0, id: serbs, name: 'Stefan Lazarević with about 1,500 Serbian heavy horsemen, held back out of sight. The accounts give no position for them in the line'}
+  arrows:
+    - {side: crusaders, path: [[24.89465, 43.68421], [24.89341, 43.67833], [24.89652, 43.67245], [24.899, 43.6663]], width: 160, id: french-charge, name: 'The French charge south across the head of the ravine and up the slope, without waiting for Sigismund'}
+    - {side: ottomans, path: [[24.89279, 43.67245], [24.88162, 43.67245], [24.87479, 43.66793]], width: 90, id: akinci-off, name: The akıncıs ride off to the flanks, style: dashed}
+    - {side: ottomans, path: [[24.90521, 43.67245], [24.91638, 43.67245], [24.92321, 43.66793]], width: 90, id: akinci-off, name: The akıncıs ride off to the flanks, style: dashed}
+    - {side: ottomans, path: [[24.899, 43.66141], [24.899, 43.66567], [24.899, 43.66974]], width: 70, id: azap-fire, name: The azaps shoot into the French as they come up the slope, style: fire}
+    - {side: ottomans, path: [[24.899, 43.66024], [24.89776, 43.65255], [24.89527, 43.64395]], width: 110, id: azaps-flee, name: The azaps leave their stakes and flee behind the sipahis, style: dashed}
+  clashes:
+    - {at: [24.89527, 43.66304], size: 200}
+markers: [nicopolis-charge-eu, nicopolis-charge-nevers, nicopolis-charge-sigismund, nicopolis-charge-azaps, nicopolis-charge-bayezid, nicopolis-1396]

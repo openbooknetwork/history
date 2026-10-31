@@ -1,0 +1,7 @@
+Muharebeden sonra Timur, torunu Muhammed Sultan’ı 30.000 atlıyla [Bursa’ya](@bursa-1402) gönderir. Şehre önce varan Süleyman Çelebi hazinenin bir bölümünü yanına alıp çıkar. Muhammed Sultan’ın askerleri geri kalanını yağmalar, Bayezid’in eşi Olivera ile kızlarını esir alır ve şehri ateşe verir. Bayezid’in 1397’den beri Bursa’da tuttuğu Karamanoğlu Alâeddin Bey’in oğullarını da serbest bırakırlar.
+
+Süleyman Ağustos 1402’de Venedik ve Ceneviz gemileriyle [Gelibolu’dan](@gallipoli) karşıya geçer ve Osmanlıların Avrupa’daki topraklarını eline alır. Timur Sivrihisar üzerinden [Kütahya’ya](@kutahya-1402) gelir, orada bir iki ay kalır ve Germiyan’ı Yakub Bey’e geri verir. Gönderdiği birlikler Konya, Akşehir ve Karahisar’a kadar ilerler, Süleyman da Timur’a hediyeler göndererek ona tâbi olduğunu bildirir.
+
+Aralık’ta Timur, liman kalesini 1374’ten beri Rodos Şövalyelerinin tuttuğu İzmir’in üzerine yürür. 2 Aralık 1402’de şehre varır. Íñigo de Alfaro komutasındaki 200 şövalye İslam’a girmeyi ya da haraç vermeyi reddedince Timur’un askerleri limanı kapatır, dış surun altına lağım kazar ve iki hafta kadar sonra kaleye girer. Şövalyelerin bir kısmı gemilerine kaçar, Hristiyan halk öldürülür ve Timur deniz kalesini yıktırır. Foça’daki Cenevizliler ile Midilli’nin efendisi Timur’a boyun eğer, Sakız Cenevizlileri ile Bayezid’in oğlu İsa Çelebi de [Ayasluğ’daki](@ayasoluk-1402) Timur’a elçi gönderir.
+
+@image izmir-kadifekale-8d94da

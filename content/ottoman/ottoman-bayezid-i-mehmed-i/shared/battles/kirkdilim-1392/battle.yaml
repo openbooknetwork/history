@@ -1,0 +1,16 @@
+lnglat: [34.9, 40.72]
+name: "Battle of Kırkdilim"
+date: "1392, or 1391 by other accounts"
+result: "Victory of Kadı Burhaneddin by his court historian’s account, the Ottomans withdraw"
+source: https://tr.wikipedia.org/wiki/K%C4%B1rkdilim_Muharebesi
+images: [burhaneddin-diwan-5d6b06, osmancik-koyunbaba-2db52d]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  burhaneddin: { color: "#7a6a53", color_dark: "#b8a68a" }
+sides:
+  - name: "Ottoman state"
+    color: ottomans
+    commanders: ["Bayezid I"]
+  - name: "State of Kadı Burhaneddin"
+    color: burhaneddin
+    commanders: ["Kadı Burhaneddin"]

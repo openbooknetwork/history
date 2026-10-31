@@ -1,0 +1,16 @@
+lnglat: [37.02, 39.75]
+name: "Sack of Sivas"
+date: "August 1400"
+result: "Timurid victory, the town burned"
+source: https://en.wikipedia.org/wiki/Sack_of_Sebaste_(1400)
+images: [timur-genealogy-7dfe09, sivas-gok-medrese-7fd32f]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  timurids: { color: "#17695f", color_dark: "#5cbfae" }
+sides:
+  - name: "Ottoman garrison"
+    color: ottomans
+    casualties: "About 4,000 buried alive, by Sharaf ad-Din Ali Yazdi"
+  - name: "Timurid Empire"
+    color: timurids
+    commanders: ["Timur"]

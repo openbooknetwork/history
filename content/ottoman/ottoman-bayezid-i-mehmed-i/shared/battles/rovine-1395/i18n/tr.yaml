@@ -1,0 +1,32 @@
+# tr strings for the battle "rovine-1395".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Wallachia
+battle.sides.0.name: "Eflak"
+
+# Ottoman state, with Serbian vassal troops
+battle.sides.1.name: "Sırp vasal askerleriyle Osmanlı Devleti"
+
+# Marko, his brother Andrijaš and Konstantin Dragaš killed
+battle.sides.1.casualties: "Marko, kardeşi Andrijaš ve Konstantin Dragaš ölür"
+
+# Battle of Rovine
+battle.name: "Rovine Muharebesi"
+
+# 17 May 1395, or 10 October 1394
+battle.date: "17 Mayıs 1395 ya da 10 Ekim 1394"
+
+# Disputed, both armies withdraw with heavy losses
+battle.result: "Tartışmalı, iki ordu da ağır kayıplarla çekilir"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Mircea I
+battle.sides.0.commanders.0: "I. Mircea"
+
+# Bayezid I
+battle.sides.1.commanders.0: "I. Bayezid"
+
+# Marko Mrnjavčević
+battle.sides.1.commanders.2: "Pirlepeli Marko (Marko Mrnjavčević)"

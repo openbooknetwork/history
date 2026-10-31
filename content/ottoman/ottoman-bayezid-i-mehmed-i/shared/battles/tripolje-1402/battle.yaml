@@ -1,0 +1,17 @@
+lnglat: [21.19, 42.61]
+name: "Battle of Tripolje"
+date: "21 November 1402"
+result: "Victory of Stefan Lazarević, who takes back power in Serbia"
+source: https://en.wikipedia.org/wiki/Battle_of_Tripolje
+images: [stefan-vuk-lazarevic-rudenica-c2845c, durad-brankovic-esphigmenou-30d738]
+families:
+  serbia: { color: "#2f6fb0", color_dark: "#6fa6e0" }
+  brankovic: { color: "#a987cf", color_dark: "#dfbfff" }
+sides:
+  - name: "Serbia"
+    color: serbia
+    commanders: ["Stefan Lazarević", "Vuk Lazarević"]
+    casualties: "Heavy losses in Vuk’s division"
+  - name: "Đurađ Branković, with Süleyman Çelebi’s troops"
+    color: brankovic
+    commanders: ["Đurađ Branković"]

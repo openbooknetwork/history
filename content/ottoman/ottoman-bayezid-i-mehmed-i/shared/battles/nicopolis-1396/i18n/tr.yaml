@@ -1,0 +1,50 @@
+# tr strings for the battle "nicopolis-1396".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman state, with Stefan Lazarević’s Serbs
+battle.sides.0.name: "Stefan Lazarević’in Sırplarıyla Osmanlı Devleti"
+
+# 15,000 to 20,000, with about 1,500 Serbian horsemen
+battle.sides.0.strength: "15.000 ile 20.000 arası, 1.500 kadar Sırp süvarisiyle"
+
+# Heavy
+battle.sides.0.casualties: "Ağır"
+
+# Crusade: Hungary, France and Burgundy, German princes, Wallachia and the Knights Hospitaller
+battle.sides.1.name: "Haçlı ordusu: Macaristan, Fransa ve Burgonya, Alman prensleri, Eflak ve Rodos Şövalyeleri"
+
+# About 16,000
+battle.sides.1.strength: "16.000 kadar"
+
+# Most killed or captured, 300 to 3,000 prisoners put to death the next day
+battle.sides.1.casualties: "Çoğu öldürülür ya da esir düşer, ertesi gün 300 ile 3.000 arasında esir öldürülür"
+
+# Battle of Nicopolis
+battle.name: "Niğbolu Muharebesi"
+
+# 25 September 1396
+battle.date: "25 Eylül 1396"
+
+# Ottoman victory, the crusade destroyed
+battle.result: "Osmanlı zaferi, Haçlı ordusu yok edilir"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Bayezid I
+battle.sides.0.commanders.0: "I. Bayezid"
+
+# Kara Timurtaş Pasha
+battle.sides.0.commanders.1: "Kara Timurtaş Paşa"
+
+# Sigismund of Hungary
+battle.sides.1.commanders.0: "Macar kralı Sigismund"
+
+# John of Nevers
+battle.sides.1.commanders.1: "Nevers Kontu Jean"
+
+# Philip of Artois, Count of Eu
+battle.sides.1.commanders.2: "Eu Kontu Philippe d’Artois"
+
+# Mircea I
+battle.sides.1.commanders.5: "I. Mircea"

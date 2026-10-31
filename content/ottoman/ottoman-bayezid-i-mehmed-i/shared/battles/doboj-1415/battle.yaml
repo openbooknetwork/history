@@ -1,0 +1,17 @@
+lnglat: [18.09, 44.69]
+name: "Battle of Doboj"
+date: "August 1415"
+result: "Ottoman and Bosnian victory, the Hungarian commanders captured"
+source: https://en.wikipedia.org/wiki/Battle_of_Doboj
+images: [doboj-fortress-636026, hrvoje-missal-ce66ee]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  hungary: { color: "#3d7a2a", color_dark: "#7cc160" }
+sides:
+  - name: "Ottoman army and Bosnian lords"
+    color: ottomans
+    commanders: ["İshak Bey", "Hrvoje Vukčić Hrvatinić"]
+  - name: "Kingdom of Hungary"
+    color: hungary
+    commanders: ["János Garai", "János Maróti", "Pál Csupor"]
+    casualties: "The army routed and its three commanders captured"

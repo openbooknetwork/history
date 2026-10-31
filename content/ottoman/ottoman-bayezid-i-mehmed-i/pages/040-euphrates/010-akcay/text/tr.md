@@ -1,0 +1,7 @@
+Bayezid Eylül 1396’da Niğbolu’dayken, kız kardeşi Nefise Hatun’un kocası Karamanoğlu Alâeddin Ali Bey [Ankara’ya](@ankara-1396) saldırır ve şehrin korunmasından sorumlu Anadolu beylerbeyi Timurtaş Paşa’yı esir alır. Osmanlıların zaferinden sonra Alâeddin, Timurtaş’a hil’atler giydirip onu kendi elçileriyle birlikte Bayezid’e geri gönderir ve barış ister. Bayezid bu teklifi reddeder ve Karamanoğullarının üzerine yürür.
+
+1397 sonbaharında, başka anlatımlara göre 1398’de, iki ordu Konya yakınlarındaki Akçay Ovası’nda karşılaşır. İki gün süren çarpışmadan bir sonuç çıkmaz. İkinci gün gece yarısından sonra 30.000 kadar Osmanlı askeri Karaman ordusunu kuşatır, bozulan Karamanlılar Konya Kalesi’ne sığınır. Kale on bir günlük kuşatmanın ardından, halkın canına ve malına dokunulmayacağı sözü üzerine teslim olur. Kaçmaya çalışan Alâeddin atından düşer ve yakalanır. Bayezid’in huzuruna getirildiğinde kendisinin de onun gibi bir hükümdar olduğunu söyler, Bayezid de onu idam ettirir.
+
+@image konya-haynes-1884-6e5411
+
+Bayezid Konya’ya bir vali atar ve Alâeddin’in hanımının ve oğullarının bulunduğu [Lârende’ye](@larende-1397) yürür. Bir süre direnen şehir teslim olur ve Alâeddin’in oğulları Mehmed ile Ali Beyler şehrin anahtarlarını Bayezid’e verir. Bayezid kız kardeşini ve onun oğullarını [Bursa’ya](@bursa) gönderir. Konya, Lârende, [Niğde](@nigde-1397), Aksaray ve Develi Osmanlıların eline geçer. Torosların güneyindeki Mut, [Ermenek](@ermenek-1397), Taşeli ve İçel kaleleri ise Karamanoğulları ailesinin başka bir kolundan beylerin elinde kalır.

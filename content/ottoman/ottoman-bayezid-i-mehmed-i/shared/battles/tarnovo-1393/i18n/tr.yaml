@@ -1,0 +1,23 @@
+# tr strings for the battle "tarnovo-1393".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman state
+battle.sides.0.name: "Osmanlı Devleti"
+
+# Tsardom of Tarnovo
+battle.sides.1.name: "Tırnova Bulgar Çarlığı"
+
+# Siege of Tarnovo
+battle.name: "Tırnova Kuşatması"
+
+# April – 17 July 1393
+battle.date: "Nisan – 17 Temmuz 1393"
+
+# Ottoman victory, Tarnovo annexed
+battle.result: "Osmanlı zaferi, Tırnova Osmanlı topraklarına katılır"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Patriarch Euthymius
+battle.sides.1.commanders.0: "Patrik Evtimiy"

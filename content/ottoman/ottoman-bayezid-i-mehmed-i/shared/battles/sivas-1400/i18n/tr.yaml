@@ -1,0 +1,21 @@
+# tr strings for the battle "sivas-1400".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman garrison
+battle.sides.0.name: "Osmanlı muhafızları"
+
+# About 4,000 buried alive, by Sharaf ad-Din Ali Yazdi
+battle.sides.0.casualties: "Şerafeddin Ali Yezdî’ye göre 4.000 kadarı diri diri gömülür"
+
+# Timurid Empire
+battle.sides.1.name: "Timur İmparatorluğu"
+
+# Sack of Sivas
+battle.name: "Sivas’ın yağmalanması"
+
+# August 1400
+battle.date: "Ağustos 1400"
+
+# Timurid victory, the town burned
+battle.result: "Timur’un zaferi, şehir yakılır"

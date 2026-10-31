@@ -1,0 +1,24 @@
+# tr strings for the battle "kosmidion-1410".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Forces of Süleyman Çelebi, with Byzantine support
+battle.sides.0.name: "Süleyman Çelebi’nin kuvvetleri, Bizans desteğiyle"
+
+# Heavy
+battle.sides.0.casualties: "Ağır"
+
+# Forces of Musa Çelebi, with Serbian allies
+battle.sides.1.name: "Musa Çelebi’nin kuvvetleri, Sırp müttefikleriyle"
+
+# Heavy
+battle.sides.1.casualties: "Ağır"
+
+# Battle of Kosmidion
+battle.name: "Kosmidion (Eyüp) Muharebesi"
+
+# 15 June 1410
+battle.date: "15 Haziran 1410"
+
+# Victory of Süleyman Çelebi
+battle.result: "Süleyman Çelebi’nin zaferi"

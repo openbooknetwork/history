@@ -1,0 +1,16 @@
+lnglat: [28.93, 41.02]
+name: "Siege of Constantinople"
+date: "From August 1411"
+result: "The city holds out, and Manuel II turns to Mehmed Çelebi"
+source: https://en.wikipedia.org/wiki/Siege_of_Constantinople_(1411)
+images: [constantinople-land-walls-7aed75, manuel-ii-family-57cf74]
+families:
+  musa: { color: "#9e2b25", color_dark: "#e0756c" }
+  byzantium: { color: "#6b2d6b", color_dark: "#c27ac2" }
+sides:
+  - name: "Forces of Musa Çelebi"
+    color: musa
+    commanders: ["Musa Çelebi"]
+  - name: "Byzantine Empire"
+    color: byzantium
+    commanders: ["Manuel II Palaiologos"]

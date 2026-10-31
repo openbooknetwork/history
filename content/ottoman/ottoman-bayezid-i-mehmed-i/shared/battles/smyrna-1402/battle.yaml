@@ -1,0 +1,19 @@
+lnglat: [27.128, 38.419]
+name: "Siege of Smyrna"
+date: "December 1402"
+result: "Timurid victory, the Knights’ castle taken and destroyed"
+source: https://en.wikipedia.org/wiki/Siege_of_Smyrna
+images: [smyrna-assault-behzad-24df44, naillac-arms-rhodes-6f6220]
+families:
+  knights: { color: "#5d6d7e", color_dark: "#95a5b5" }
+  timurids: { color: "#17695f", color_dark: "#5cbfae" }
+sides:
+  - name: "Knights Hospitaller"
+    color: knights
+    commanders: ["Íñigo de Alfaro"]
+    strength: "About 200 knights"
+    casualties: "Some knights escape by sea, the Christian inhabitants killed"
+  - name: "Timurid Empire"
+    color: timurids
+    commanders: ["Timur", "Muhammad Sultan", "Miran Shah"]
+    strength: "About 4,000 besiegers"

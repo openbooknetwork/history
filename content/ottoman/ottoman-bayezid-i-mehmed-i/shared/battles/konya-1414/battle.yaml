@@ -1,0 +1,16 @@
+lnglat: [32.47, 37.9]
+name: "Siege of Konya"
+date: "1414"
+result: "Mehmed Bey of Karaman makes peace and gives back the Ottoman towns"
+source: https://en.wikipedia.org/wiki/Mehmed_II_of_Karaman
+images: [konya-alaeddin-mosque-dce4b4, karaman-tiled-mihrab-e39b1c]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  karaman: { color: "#d4a017", color_dark: "#f2c94c" }
+sides:
+  - name: "Ottoman Empire"
+    color: ottomans
+    commanders: ["Mehmed I"]
+  - name: "Karamanids"
+    color: karaman
+    commanders: ["Mehmed II of Karaman"]

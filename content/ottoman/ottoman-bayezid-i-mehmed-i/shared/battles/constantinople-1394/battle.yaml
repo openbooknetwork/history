@@ -1,0 +1,16 @@
+lnglat: [28.94, 41.015]
+name: "Blockade of Constantinople"
+date: "1394 – 1402"
+result: "The city holds out until Bayezid lifts the blockade in 1402"
+source: https://en.wikipedia.org/wiki/Siege_of_Constantinople_(1394%E2%80%931402)
+images: [theodosian-walls-992f0a, buondelmonti-constantinople-2219e3]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  byzantium: { color: "#6b2d6b", color_dark: "#c27ac2" }
+sides:
+  - name: "Ottoman state"
+    color: ottomans
+    commanders: ["Bayezid I"]
+  - name: "Byzantine Empire"
+    color: byzantium
+    commanders: ["Manuel II Palaiologos", "John VII Palaiologos"]

@@ -1,0 +1,17 @@
+lnglat: [36.33, 41.29]
+name: "Siege of Samsun"
+date: "August 1420, or 1419 by another account"
+result: "Ottoman victory, the Genoese burn their town and Hızır Bey surrenders"
+source: https://en.wikipedia.org/wiki/Siege_of_Samsun
+images: [samsun-1851-535c12, samsun-castle-photo-3ba69c]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  candar: { color: "#8258a9", color_dark: "#c29ce1" }
+sides:
+  - name: "Ottoman Empire"
+    color: ottomans
+    commanders: ["Mehmed I", "Şehzade Murad", "Hamza Bey"]
+  - name: "Candar beylik, with the Genoese of Samsun"
+    color: candar
+    commanders: ["Hızır Bey"]
+    casualties: "Hızır Bey surrenders"

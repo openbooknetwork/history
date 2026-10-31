@@ -1,0 +1,18 @@
+lnglat: [32.42, 37.92]
+name: "Battle of Akçay"
+date: "Autumn 1397, or 1398 by other accounts"
+result: "Ottoman victory, Karaman north of the Taurus annexed"
+source: https://tr.wikipedia.org/wiki/Ak%C3%A7ay_Muharebesi
+images: [karamanids-iskendername-6e1d23, bayezid-i-semailname-0d32d1]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  karaman: { color: "#d4a017", color_dark: "#f2c94c" }
+sides:
+  - name: "Ottoman state"
+    color: ottomans
+    commanders: ["Bayezid I"]
+    strength: "About 30,000"
+  - name: "Karaman"
+    color: karaman
+    commanders: ["Alaeddin Ali"]
+    casualties: "Alaeddin captured and executed"

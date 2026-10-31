@@ -1,0 +1,39 @@
+date: "25 September 1396"
+when: 1396-09-25
+title: "The sipahis"
+routes: []
+sources:
+  - "Jean Froissart, Chronicles, book IV (about 1400)."
+  - "Michel Pintoin, Chronicle of the Monk of Saint-Denis (early 15th century)."
+  - "Aziz S. Atiya, The Crusade of Nicopolis (1934)."
+  - "Barbara W. Tuchman, A Distant Mirror: The Calamitous 14th Century (1978)."
+  - "David Nicolle, Nicopolis 1396: The Last Crusade (1999)."
+bbox: [24.845, 43.6355, 24.953, 43.7125]
+zones: []
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[24.62, 43.746], [24.67, 43.735], [24.71, 43.729], [24.74, 43.726], [24.77, 43.719], [24.8, 43.7135], [24.83, 43.7135], [24.86, 43.708], [24.89, 43.709], [24.92, 43.7155], [24.95, 43.7185], [24.98, 43.7235], [25.02, 43.728], [25.06, 43.73], [25.1, 43.731], [25.16, 43.728]], width: 700, id: danube, name: The Danube}
+    - {path: [[24.842, 43.713], [24.845, 43.706], [24.846, 43.7], [24.842, 43.693], [24.84, 43.685], [24.84, 43.678], [24.843, 43.67], [24.848, 43.663], [24.853, 43.655], [24.851, 43.647], [24.849, 43.64], [24.846, 43.632], [24.845, 43.624], [24.846, 43.616], [24.85, 43.608], [24.855, 43.598]], width: 60, id: osam, name: 'The Osam, which flows into the Danube west of the town'}
+  works:
+    - {side: ottomans, path: [[24.88782, 43.66187], [24.91018, 43.66187]], width: 40, style: trench, id: stakes, name: Rows of sharpened stakes in front of the Ottoman foot}
+  units:
+    - {side: crusaders, type: infantry, at: [24.899, 43.65617], width: 1000, depth: 250, facing: 180, id: french, name: 'The French knights, more than half of them on foot, on the top of the slope'}
+    - {side: hungary, type: knights, at: [24.90769, 43.68059], width: 1600, depth: 350, facing: 180, id: sigismund, name: Sigismund’s main body advances to support the French}
+    - {side: hungary, type: cavalry, at: [24.87541, 43.68059], width: 800, depth: 300, facing: 180, id: transylvanians, name: The Transylvanians. The accounts give no position for them in the line}
+    - {side: wallachia, type: cavalry, at: [24.92632, 43.67969], width: 900, depth: 300, facing: 180, id: wallachians, name: Mircea’s Wallachians. The accounts give no position for them in the line}
+    - {side: ottomans, type: cavalry, at: [24.899, 43.65273], width: 1400, depth: 300, facing: 0, id: sipahis, name: 'The sipahis charge from behind the crest with trumpets, kettle drums and the tekbir'}
+    - {side: ottomans, type: cavalry, at: [24.86982, 43.66838], width: 800, depth: 300, facing: 0, id: sipahi-flanks, name: Sipahis and akıncıs ride down along the flanks of the crusader army}
+    - {side: ottomans, type: cavalry, at: [24.93315, 43.66748], width: 800, depth: 300, facing: 0, id: sipahi-flanks, name: Sipahis and akıncıs ride down along the flanks of the crusader army}
+    - {side: ottomans, type: infantry, at: [24.89279, 43.64215], width: 1200, depth: 250, facing: 0, id: azaps, name: 'The azaps, who have fled behind the sipahis'}
+    - {side: ottomans, type: infantry, at: [24.91142, 43.64215], width: 800, depth: 300, facing: 0, id: bayezid, name: Bayezid with the janissaries and the horsemen of his household on the hill behind his army}
+    - {side: serbia, type: knights, at: [24.87541, 43.65029], width: 700, depth: 250, facing: 0, id: serbs, name: 'Stefan Lazarević with about 1,500 Serbian heavy horsemen, held back out of sight. The accounts give no position for them in the line'}
+  arrows:
+    - {side: crusaders, path: [[24.899, 43.66386], [24.899, 43.66024], [24.899, 43.6578]], width: 140, id: french-climb, name: 'The French climb on after the fleeing azaps, believing they have beaten Bayezid’s whole army'}
+    - {side: ottomans, path: [[24.899, 43.64893], [24.899, 43.65164], [24.899, 43.65472]], width: 140, id: sipahi-charge, name: The sipahis come over the crest and charge the French}
+    - {side: crusaders, path: [[24.89403, 43.65743], [24.89341, 43.66521], [24.89465, 43.67426]], width: 100, id: french-flee, name: Some of the French flee back down the slope, style: dashed}
+    - {side: ottomans, path: [[24.88037, 43.64893], [24.86982, 43.65617], [24.86982, 43.66612]], width: 110, id: sipahi-flank, name: Sipahis ride down along the flanks of the crusader army}
+    - {side: ottomans, path: [[24.91887, 43.64893], [24.93315, 43.65617], [24.93315, 43.66521]], width: 110, id: sipahi-flank, name: Sipahis ride down along the flanks of the crusader army}
+  clashes:
+    - {at: [24.899, 43.65458], size: 220}
+markers: [nicopolis-sipahis-vienne, nicopolis-sipahis-nevers, nicopolis-sipahis-sigismund, nicopolis-1396]

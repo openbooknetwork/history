@@ -1,0 +1,35 @@
+# tr strings for the battle "smyrna-1402".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Knights Hospitaller
+battle.sides.0.name: "Rodos Şövalyeleri"
+
+# About 200 knights
+battle.sides.0.strength: "200 kadar şövalye"
+
+# Some knights escape by sea, the Christian inhabitants killed
+battle.sides.0.casualties: "Şövalyelerin bir kısmı denizden kaçar, Hristiyan halk öldürülür"
+
+# Timurid Empire
+battle.sides.1.name: "Timur İmparatorluğu"
+
+# About 4,000 besiegers
+battle.sides.1.strength: "4.000 kadar kuşatmacı"
+
+# Siege of Smyrna
+battle.name: "İzmir Kuşatması"
+
+# December 1402
+battle.date: "Aralık 1402"
+
+# Timurid victory, the Knights’ castle taken and destroyed
+battle.result: "Timur’un zaferi, şövalyelerin kalesi alınır ve yıkılır"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Muhammad Sultan
+battle.sides.1.commanders.1: "Muhammed Sultan"
+
+# Miran Shah
+battle.sides.1.commanders.2: "Miranşah"

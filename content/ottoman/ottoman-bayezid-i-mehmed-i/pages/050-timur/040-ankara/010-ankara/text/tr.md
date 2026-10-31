@@ -1,0 +1,7 @@
+Bayezid’in 16 kilometre kadar uzakta olduğunu öğrenen Timur, [Ankara](@ankara-1402) kuşatmasını kaldırır. Çubuk Çayı’nı geçer, ordusunu şehrin kuzeydoğusundaki ovada savaş düzenine sokar ve su kenarındaki [ordugâhını](@ankara-timur-camp) tahkim ettirir. Bayezid, [Ravlı](@ankara-ravli) (Akyurt) yakınındaki sulak alanda kurduğu ilk ordugâhını bırakarak ovanın batı yakasında, [Melikşah](@ankara-bayezid-camp) yakınındaki alçak tepelere geçer. Gece boyunca öncü birlikler çarpışır.
+
+@image cubuk-plain-99b778
+
+İlk Osmanlı tarihçileri muharebenin yerini yalnızca Ankara olarak verir. Dukas “Ankara’da bir ova”, Timur’un fetihnamesi de “Ankara’nın doğusunda, yarım fersah uzaklıkta” der. Muharebe alanı için Çubuk adını ilk kullanan, 16. yüzyılın başlarında yazan Kemalpaşazâde’dir. Ömer Halis Bıyıktay 1934’te çarpışmanın Çubuk Çayı’na batıdan katılan Kızılcaköy Deresi boyunca geçtiğini, son direnişin de Çataltepe dediği tepede yapıldığını ileri sürmüş, sonraki tarihçilerin çoğu onu izlemiştir. Halil Çetin ise Ankara’nın güneybatısında, Haymana yakınındaki Culuk’u savunur.
+
+David Nicolle, Timur’un ordusunu çoğu atlı 140.000 kadar asker ve 32 savaş fili, Bayezid’inkini ise en fazla 85.000 kişi olarak verir. İbn Arabşah Timur’a 800.000 asker yakıştırır, Timur’un fetihnamesi ise Osmanlı ordusunu 70.000 atlı ve yaya olarak gösterir. Şerafeddin Ali Yezdî muharebeyi 20 Temmuz 1402 Perşembe gününe, İbn Arabşah 28 Temmuz’a tarihler.

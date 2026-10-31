@@ -1,0 +1,16 @@
+lnglat: [25.65, 43.08]
+name: "Siege of Tarnovo"
+date: "April – 17 July 1393"
+result: "Ottoman victory, Tarnovo annexed"
+source: https://en.wikipedia.org/wiki/Siege_of_Tarnovo
+images: [tarnovo-tsarevets-f3827c, ivan-shishman-coin-76a361]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  bulgaria: { color: "#b03a7a", color_dark: "#e07ab0" }
+sides:
+  - name: "Ottoman state"
+    color: ottomans
+    commanders: ["Süleyman Çelebi"]
+  - name: "Tsardom of Tarnovo"
+    color: bulgaria
+    commanders: ["Patriarch Euthymius"]

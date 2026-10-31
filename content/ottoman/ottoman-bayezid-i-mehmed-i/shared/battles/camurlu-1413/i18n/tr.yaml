@@ -1,0 +1,21 @@
+# tr strings for the battle "camurlu-1413".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Forces of Mehmed Çelebi, with Serbian and Byzantine troops
+battle.sides.0.name: "Mehmed Çelebi’nin kuvvetleri, Sırp ve Bizans askerleriyle"
+
+# Forces of Musa Çelebi
+battle.sides.1.name: "Musa Çelebi’nin kuvvetleri"
+
+# Musa captured and killed
+battle.sides.1.casualties: "Musa yakalanır ve öldürülür"
+
+# Battle of Çamurlu
+battle.name: "Çamurlu Muharebesi"
+
+# 5 July 1413
+battle.date: "5 Temmuz 1413"
+
+# Victory of Mehmed Çelebi, Musa killed and the civil war ended
+battle.result: "Mehmed Çelebi’nin zaferi, Musa öldürülür ve Fetret Devri sona erer"

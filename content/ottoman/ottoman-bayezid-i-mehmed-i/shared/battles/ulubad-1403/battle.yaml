@@ -1,0 +1,16 @@
+lnglat: [28.43, 40.17]
+name: "Battle of Ulubad"
+date: "Between March and early May 1403"
+result: "Victory of Mehmed Çelebi, who takes Bursa"
+source: https://en.wikipedia.org/wiki/Battle_of_Ulubad
+images: [uluabat-pococke-1745-53a8da, isa-celebi-cenotaph-0fb91e]
+families:
+  mehmed: { color: "#c4561c", color_dark: "#f08c56" }
+  isa: { color: "#9a4a3c", color_dark: "#d48a7c" }
+sides:
+  - name: "Forces of Mehmed Çelebi"
+    color: mehmed
+    commanders: ["Mehmed Çelebi"]
+  - name: "Forces of İsa Çelebi"
+    color: isa
+    commanders: ["İsa Çelebi"]

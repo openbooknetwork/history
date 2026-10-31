@@ -1,0 +1,26 @@
+# tr strings for the battle "samsun-1420".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman Empire
+battle.sides.0.name: "Osmanlı Devleti"
+
+# Candar beylik, with the Genoese of Samsun
+battle.sides.1.name: "Candaroğulları, Samsun Cenevizlileriyle"
+
+# Hızır Bey surrenders
+battle.sides.1.casualties: "Hızır Bey teslim olur"
+
+# Siege of Samsun
+battle.name: "Samsun Kuşatması"
+
+# August 1420, or 1419 by another account
+battle.date: "Ağustos 1420, başka bir kayda göre 1419"
+
+# Ottoman victory, the Genoese burn their town and Hızır Bey surrenders
+battle.result: "Osmanlı zaferi, Cenevizliler şehirlerini yakar ve Hızır Bey teslim olur"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Mehmed I
+battle.sides.0.commanders.0: "I. Mehmed"

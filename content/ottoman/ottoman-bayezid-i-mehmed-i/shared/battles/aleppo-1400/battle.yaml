@@ -1,0 +1,16 @@
+lnglat: [37.16, 36.2]
+name: "Sack of Aleppo"
+date: "October or November 1400"
+result: "Timurid victory, the town sacked"
+source: https://en.wikipedia.org/wiki/Sack_of_Aleppo_(1400)
+images: [aleppo-citadel-gate-28263f, timur-mamluks-behzad-57af53]
+families:
+  mamluks: { color: "#b67dba", color_dark: "#f5c5f8" }
+  timurids: { color: "#17695f", color_dark: "#5cbfae" }
+sides:
+  - name: "Mamluk Sultanate"
+    color: mamluks
+    casualties: "Many of the townspeople killed"
+  - name: "Timurid Empire"
+    color: timurids
+    commanders: ["Timur"]

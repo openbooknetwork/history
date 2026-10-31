@@ -1,0 +1,21 @@
+# tr strings for the battle "doboj-1415".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman army and Bosnian lords
+battle.sides.0.name: "Osmanlı ordusu ve Bosnalı beyler"
+
+# Kingdom of Hungary
+battle.sides.1.name: "Macaristan Krallığı"
+
+# The army routed and its three commanders captured
+battle.sides.1.casualties: "Ordu bozguna uğrar, üç komutanı esir düşer"
+
+# Battle of Doboj
+battle.name: "Doboy Muharebesi"
+
+# August 1415
+battle.date: "Ağustos 1415"
+
+# Ottoman and Bosnian victory, the Hungarian commanders captured
+battle.result: "Osmanlı ve Bosna zaferi, Macar komutanlar esir düşer"

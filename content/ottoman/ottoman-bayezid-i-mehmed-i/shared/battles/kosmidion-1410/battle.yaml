@@ -1,0 +1,18 @@
+lnglat: [28.934, 41.048]
+name: "Battle of Kosmidion"
+date: "15 June 1410"
+result: "Victory of Süleyman Çelebi"
+source: https://en.wikipedia.org/wiki/Battle_of_Kosmidion
+images: [musa-veronese-workshop-e36f5c, suleyman-akce-1404-32f702]
+families:
+  suleyman: { color: "#8c1c3a", color_dark: "#d0607e" }
+  musa: { color: "#9e2b25", color_dark: "#e0756c" }
+sides:
+  - name: "Forces of Süleyman Çelebi, with Byzantine support"
+    color: suleyman
+    commanders: ["Süleyman Çelebi", "Vuk Lazarević"]
+    casualties: "Heavy"
+  - name: "Forces of Musa Çelebi, with Serbian allies"
+    color: musa
+    commanders: ["Musa Çelebi", "Stefan Lazarević"]
+    casualties: "Heavy"

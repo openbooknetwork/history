@@ -1,0 +1,7 @@
+[Niğbolu](@nicopolis-1396) Tuna’nın sağ kıyısında, Osma Irmağı’nın ağzının 4 km kadar doğusunda yer alır. Kasabanın güneyinde arazi derin vadilerle bölünmüş bir yaylaya yükselir ve Tırnova yolu güneyden gelir. Haçlılar kasabanın çevresinde [ordugâh](@nicopolis-camp) kurar, [Venedik gemileri](@nicopolis-ships) nehri kapatır ve karşı kıyıdaki [Küçük Niğbolu’yu](@nicopolis-turnu) (Turnu) bir Macar garnizonu tutar. [Bayezid’in ordusu](@nicopolis-bayezid-camp) kasabanın birkaç kilometre güneyindeki tepelerde mevzi alır. Anlatımlar muharebe alanının yerini kasabanın güneyindeki yokuş ve tepelerden daha kesin vermez.
+
+@image nikopol-kanitz-0b36c6
+
+Sigismund’un ordusunda 16 yaşında savaşan Johann Schiltberger, Haçlıları 16.000 kadar, Osmanlıları 200.000 kişi olarak verir. 1460’larda yazan Osmanlı tarihçisi Şükrullah ise 130.000 Haçlı ve 60.000 Osmanlı askerinden söz eder. Günümüz tahminleri her iki orduyu da 15.000 ile 20.000 arasında gösterir, David Nicolle 16.000 Haçlı ve 15.000 Osmanlı askeri verir. Bayezid’in yanında kayınbiraderi ve vasalı Stefan Lazarević komutasında 1.500 kadar Sırp ağır süvarisi vardır.
+
+24 Eylül’deki savaş meclisinde Sigismund ile Mircea, Osmanlı hafif birliklerine karşı önce Eflak piyadesini göndermeyi, Fransızların onları, Macarlarla öteki müttefiklerin de Fransızları izlemesini önerir. Eu Kontu, Fransa konstablı olarak ön safı ister, Boucicaut onu destekler, Nevers de kabul eder. O akşam Sigismund, Bayezid’in altı saatlik uzaklıkta olduğu haberini gönderir ve Rahova’da alınan rehineler öldürülür.

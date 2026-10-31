@@ -1,0 +1,16 @@
+lnglat: [22.97, 40.66]
+name: "Battle of Thessalonica"
+date: "1416"
+result: "Victory of Mehmed I, Mustafa and Cüneyd take refuge in Thessalonica"
+source: https://en.wikipedia.org/wiki/Battle_of_Thessalonica_(1416)
+images: [thessaloniki-walls-night-3f5eae, mustafa-akce-0b180c]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  mustafa: { color: "#1d6b70", color_dark: "#5fb3b8" }
+sides:
+  - name: "Ottoman Empire"
+    color: ottomans
+    commanders: ["Mehmed I"]
+  - name: "Forces of Mustafa Çelebi, with Wallachian support"
+    color: mustafa
+    commanders: ["Mustafa Çelebi", "Cüneyd Bey"]

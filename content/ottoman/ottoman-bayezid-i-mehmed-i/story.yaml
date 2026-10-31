@@ -1,0 +1,87 @@
+# One story: a timeline shown on one map.
+id: ottoman-bayezid-i-mehmed-i
+title: "Bayezid I and Mehmed I: Nicopolis, Ankara and the Civil War"
+summary: "Bayezid I's conquests from the Danube to the Euphrates, the crusade he beat at Nicopolis in 1396 and his defeat by Timur at Ankara in 1402, the civil war of his sons, and Mehmed I's reunion of the Ottoman lands until his death in 1421."
+cover: bayezid-captive-chlebowski-3ad990   # Stanisław Chlebowski, Bayezid I as Timur’s captive, 1878, shown on the main page
+span: "1389 – 1421"
+languages: [en, tr]
+default_language: en
+labels:
+  countries: false
+
+# Map extent for the border data and the opening view: [west, south, east, north]. Reaches London and Paris in the
+# north west for Manuel II's journey, Dijon for the crusaders of 1396, Karabagh and Baghdad in the east for Timur.
+extent: [-2, 30, 48, 52]
+# Countries whose land the zones are clipped to. Natural Earth names.
+land: [Turkey, Greece, Bulgaria, Macedonia, Albania, Serbia, Kosovo, Montenegro, Bosnia and Herz., Croatia, Slovenia, Hungary,
+  Slovakia, Romania, Moldova, Ukraine, Cyprus, N. Cyprus, Syria, Lebanon, Israel, Palestine, Jordan, Egypt, Iraq, Iran, Georgia,
+  Armenia, Azerbaijan]
+# Countries drawn with borders. Everything else inside the extent is left out.
+countries: [United Kingdom, France, Belgium, Netherlands, Luxembourg, Germany, Switzerland, Austria, Czechia, Slovakia, Poland,
+  Italy, San Marino, Slovenia, Croatia, Bosnia and Herz., Montenegro, Albania, Serbia, Kosovo, Macedonia, Greece, Bulgaria,
+  Romania, Moldova, Ukraine, Belarus, Russia, Hungary, Turkey, Cyprus, N. Cyprus, Syria, Lebanon, Israel, Palestine, Jordan,
+  Iraq, Iran, Saudi Arabia, Egypt, Georgia, Armenia, Azerbaijan]
+
+# Zone families. A zone subtracts every zone from a family with a lower priority number.
+# Zones in the same family never cut each other, so one family can hold several dated shapes.
+# One family per state. The colours of story 1 carry over where the state is the same.
+families:
+  ottomans:        { priority: 0, color: "#b5352a", color_dark: "#e8695c" } # Bayezid, then Mehmed I from 1413
+  suleyman:        { priority: 1, color: "#8c1c3a", color_dark: "#d0607e", pattern: hatch } # Süleyman Çelebi, 1402–1411
+  mehmed:          { priority: 2, color: "#c4561c", color_dark: "#f08c56" } # Mehmed Çelebi, 1402–1413
+  isa:             { priority: 3, color: "#9a4a3c", color_dark: "#d48a7c", pattern: dots } # İsa Çelebi, 1402–1403
+  musa:            { priority: 4, color: "#9e2b25", color_dark: "#e0756c", pattern: cross } # Musa Çelebi, 1409–1413
+  byzantium:       { priority: 5, color: "#6b2d6b", color_dark: "#c27ac2" } # with John VII's Selymbria and the Morea
+  serbia:          { priority: 6, color: "#2f6fb0", color_dark: "#6fa6e0" } # Lazar's land, Stefan Lazarević
+  brankovic:       { priority: 7, color: "#a987cf", color_dark: "#dfbfff", pattern: cross } # Vuk, then Đurađ Branković
+  dragas:          { priority: 8, color: "#605b0d", color_dark: "#a09756", pattern: dots } # Konstantin Dragaš, to 1395
+  prilep:          { priority: 9, color: "#00ab73", color_dark: "#74e1ad", pattern: dots } # Marko, to 1395
+  bulgaria:        { priority: 10, color: "#b03a7a", color_dark: "#e07ab0", pattern: hatch } # Tarnovo, to 1395
+  vidin:           { priority: 11, color: "#b09330", color_dark: "#e8c975", pattern: hatch } # Ivan Sratsimir, to 1396
+  karaman:         { priority: 12, color: "#d4a017", color_dark: "#f2c94c" }
+  germiyan:        { priority: 13, color: "#3ba3b7", color_dark: "#8ad8ea" }
+  saruhan:         { priority: 14, color: "#67700e", color_dark: "#adb065", pattern: cross }
+  aydin:           { priority: 15, color: "#185682", color_dark: "#7094ba", pattern: hatch }
+  mentese:         { priority: 16, color: "#c15a7e", color_dark: "#fda5bf" }
+  hamid:           { priority: 17, color: "#a58cbf", color_dark: "#dac3f1", pattern: cross }
+  teke:            { priority: 18, color: "#aa7957", color_dark: "#eabda0", pattern: cross }
+  candar:          { priority: 19, color: "#8258a9", color_dark: "#c29ce1", pattern: dots } # Kastamonu, then İsfendiyar at Sinop
+  beyliks:         { priority: 20, color: "#786b07", color_dark: "#bcab62", pattern: hatch } # beyliks as one zone
+  burhaneddin:     { priority: 21, color: "#7a6a53", color_dark: "#b8a68a" } # Kadı Burhaneddin at Sivas, to 1398
+  dulkadir:        { priority: 22, color: "#b6425b", color_dark: "#f18f9e", pattern: cross } # Elbistan and Maraş
+  erzincan:        { priority: 23, color: "#04a38f", color_dark: "#87e5d3", pattern: dots } # Taharten
+  aq-qoyunlu:      { priority: 24, color: "#c9c2b0", color_dark: "#e8e1cf", pattern: cross }
+  kara-koyunlu:    { priority: 25, color: "#3d3d3d", color_dark: "#9a9a9a", pattern: hatch }
+  jalayirids:      { priority: 26, color: "#8a6d1f", color_dark: "#c9a95c", pattern: hatch } # Ahmad Jalayir at Baghdad
+  timurids:        { priority: 27, color: "#17695f", color_dark: "#5cbfae" } # Timur and his sons
+  georgia:         { priority: 28, color: "#9c3d54", color_dark: "#d9798f", pattern: dots }
+  trebizond:       { priority: 29, color: "#8a7c2b", color_dark: "#cebe7b", pattern: dots }
+  mamluks:         { priority: 30, color: "#b67dba", color_dark: "#f5c5f8", pattern: hatch }
+  hungary:         { priority: 31, color: "#3d7a2a", color_dark: "#7cc160" }
+  bosnia:          { priority: 32, color: "#4ca173", color_dark: "#a0e3bb", pattern: cross }
+  wallachia:       { priority: 33, color: "#5b7a99", color_dark: "#9fbad6", pattern: dots } # with Dobruja under Mircea
+  moldavia:        { priority: 34, color: "#7e5a2c", color_dark: "#bf9a68", pattern: cross }
+  zeta:            { priority: 35, color: "#c27c0e", color_dark: "#f0a830", pattern: cross } # the Balšići
+  thopia:          { priority: 36, color: "#496119", color_dark: "#8a9d5e" }
+  valona:          { priority: 37, color: "#bf84a9", color_dark: "#f2bddd" } # Valona, Kanina and Berat
+  albanian-lords:  { priority: 38, color: "#86807a", color_dark: "#b9b3ad" } # lords as one zone
+  epirus:          { priority: 39, color: "#6c4c24", color_dark: "#ab8b69", pattern: hatch } # Esau at Ioannina, then Carlo Tocco
+  achaea:          { priority: 40, color: "#0d681b", color_dark: "#64a560", pattern: hatch }
+  athens:          { priority: 41, color: "#d35400", color_dark: "#f08a4b", pattern: hatch } # the Acciaioli
+  venice:          { priority: 42, color: "#4da495", color_dark: "#92dacb", pattern: hatch } # and the Latin colonies
+  genoa:           { priority: 43, color: "#0d681b", color_dark: "#64a560", pattern: dots } # Galata, Amastris, Caffa
+  chios:           { priority: 44, color: "#00ab73", color_dark: "#74e1ad", pattern: cross } # the Maona
+  gattilusi:       { priority: 45, color: "#a17b38", color_dark: "#e2bb80" } # Lesbos and Ainos
+  knights:         { priority: 46, color: "#5d6d7e", color_dark: "#95a5b5", pattern: cross } # Rhodes and Smyrna
+  ragusa:          { priority: 47, color: "#b3416c", color_dark: "#ef8eac", pattern: dots }
+  golden-horde:    { priority: 48, color: "#b88a4a", color_dark: "#e6c08a", pattern: dots }
+  crusaders:       { priority: 49, color: "#2828bd", color_dark: "#5f5fdd" } # the French and Burgundians of 1396
+  water:           { priority: 50, color: "#5b9bd5", color_dark: "#2c5d87" } # battle plan rivers, no zones
+  tatars:          { priority: 51, color: "#a86a1c", color_dark: "#e0a556" } # the Black Tatars at Ankara, battle plan only
+  mustafa:         { priority: 52, color: "#1d6b70", color_dark: "#5fb3b8" } # Mustafa Çelebi and Cüneyd, 1416, routes and cards only
+  bedreddin:       { priority: 53, color: "#6b7a1f", color_dark: "#aebc5c" } # Sheikh Bedreddin's followers, 1416, no zones
+# Corner rounding passes applied to every hand drawn zone before the clip.
+smoothing: 4
+# Battle plans are drawn at the scale of the field: the slope south of Nicopolis and the Çubuk plain are a few
+# kilometres across.
+max_zoom: 14

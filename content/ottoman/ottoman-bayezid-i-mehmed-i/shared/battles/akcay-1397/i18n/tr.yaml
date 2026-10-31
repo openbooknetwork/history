@@ -1,0 +1,32 @@
+# tr strings for the battle "akcay-1397".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman state
+battle.sides.0.name: "Osmanlı Devleti"
+
+# About 30,000
+battle.sides.0.strength: "30.000 kadar"
+
+# Karaman
+battle.sides.1.name: "Karamanoğulları"
+
+# Alaeddin captured and executed
+battle.sides.1.casualties: "Alâeddin esir alınır ve idam edilir"
+
+# Battle of Akçay
+battle.name: "Akçay Muharebesi"
+
+# Autumn 1397, or 1398 by other accounts
+battle.date: "1397 sonbaharı, başka anlatımlara göre 1398"
+
+# Ottoman victory, Karaman north of the Taurus annexed
+battle.result: "Osmanlı zaferi, Karamanoğullarının Toroslar’ın kuzeyindeki toprakları Osmanlı Devleti’ne katılır"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Bayezid I
+battle.sides.0.commanders.0: "I. Bayezid"
+
+# Alaeddin Ali
+battle.sides.1.commanders.0: "Alâeddin Ali Bey"

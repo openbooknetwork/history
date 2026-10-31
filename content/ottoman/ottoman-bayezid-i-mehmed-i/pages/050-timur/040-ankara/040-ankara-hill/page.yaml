@@ -1,0 +1,30 @@
+date: "20 July 1402, or 28 July"
+when: 1402-07-20
+title: "Bayezid on the hill"
+routes: []
+sources:
+  - "Sharaf ad-Din Ali Yazdi, Zafarnama (1425)."
+  - "Âşıkpaşazâde, Tevârîh-i Âl-i Osmân (late 15th century)."
+  - "Kemalpaşazâde, Tevârîh-i Âl-i Osmân (early 16th century)."
+  - "İsmail Aka, “Timur’un Ankara Savaşı (1402) Fetihnâmesi”, Türk Tarih Belgeleri Dergisi 11 (1981), 1–22."
+  - "Ömer Halis Bıyıktay, Yedi Yıl Harbi İçinde Timur’un Anadolu Seferi ve Ankara Savaşı (1934)."
+bbox: [32.86625, 40.09748, 32.98845, 40.19609]
+zones: []
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[33.026, 40.26], [33.028, 40.245], [33.027, 40.235], [33.028, 40.225], [33.03, 40.215], [33.027, 40.205], [33.022, 40.195], [33.011, 40.188], [33.011, 40.178], [33.01, 40.168], [33.006, 40.16], [32.993, 40.155], [32.988, 40.148], [32.978, 40.14], [32.972, 40.132], [32.972, 40.122], [32.972, 40.112], [32.97, 40.103], [32.966, 40.095], [32.963, 40.087], [32.957, 40.078], [32.955, 40.068], [32.957, 40.058], [32.953, 40.048], [32.95, 40.035]], width: 80, id: cubuk, name: 'The Çubuk stream, which flows south to Ankara. Both armies draw their water from it and the streams that join it'}
+  units:
+    - {side: ottomans, type: infantry, at: [32.9203, 40.17709], width: 1000, depth: 500, facing: 180, id: bayezid, name: Bayezid with a few thousand janissaries on the hill until sunset. Bıyıktay names the hill Çataltepe. Drawn on the ridge about 4 km behind the Ottoman line}
+    - {side: timurids, type: cavalry, at: [32.9015, 40.17619], width: 1400, depth: 500, facing: 90, id: ring, name: 'Timur’s troops surround the hill: Shah Rukh, sent to take Bayezid, with Miran Shah, Sultan Husayn and Süleyman Shah, joined by the horsemen back from the pursuit'}
+    - {side: timurids, type: cavalry, at: [32.94028, 40.17619], width: 1400, depth: 500, facing: 270, id: ring, name: 'Timur’s troops surround the hill: Shah Rukh, sent to take Bayezid, with Miran Shah, Sultan Husayn and Süleyman Shah, joined by the horsemen back from the pursuit'}
+    - {side: timurids, type: cavalry, at: [32.9203, 40.16533], width: 1800, depth: 500, facing: 0, id: ring, name: 'Timur’s troops surround the hill: Shah Rukh, sent to take Bayezid, with Miran Shah, Sultan Husayn and Süleyman Shah, joined by the horsemen back from the pursuit'}
+    - {side: timurids, type: cavalry, at: [32.925, 40.13638], width: 2200, depth: 900, facing: 0, id: timur, name: Timur with the main body. He sends his son Shah Rukh to take Bayezid}
+  arrows:
+    - {side: timurids, path: [[32.9203, 40.16759], [32.9203, 40.17121], [32.9203, 40.17438]], width: 160, id: ring-assault, name: Timur’s horsemen attack the hill again and again and are driven back by the janissaries}
+    - {side: ottomans, path: [[32.93675, 40.16669], [32.9485, 40.17076], [32.96495, 40.1798], [32.9861, 40.19157]], width: 120, id: mehmed-leaves, name: In the afternoon Mehmed Çelebi leaves the field with his troops for Amasya, style: dashed}
+    - {side: ottomans, path: [[32.92382, 40.17935], [32.93088, 40.18704], [32.94615, 40.19337], [32.96965, 40.19971], [32.9955, 40.20604]], width: 120, id: bayezid-flight, name: At sunset Bayezid breaks out to the north-east with about 300 horsemen. Many die of heat and thirst, style: dashed}
+    - {side: timurids, path: [[32.94028, 40.18071], [32.95203, 40.18614], [32.972, 40.19247], [32.99785, 40.19971]], width: 120, id: mahmud-pursuit, name: 'The Chagatai khan Sultan Mahmud, who rides with Timur, pursues Bayezid and takes him about 16 km from the hill, in the Turkish reconstruction'}
+  clashes:
+    - {at: [32.9203, 40.17438], size: 280}
+markers: [ankara-hill-bayezid, ankara-hill-mehmed, ankara-hill-shahrukh, ankara-hill-timur]

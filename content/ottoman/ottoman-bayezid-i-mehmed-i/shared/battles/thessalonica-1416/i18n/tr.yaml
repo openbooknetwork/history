@@ -1,0 +1,23 @@
+# tr strings for the battle "thessalonica-1416".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman Empire
+battle.sides.0.name: "Osmanlı Devleti"
+
+# Forces of Mustafa Çelebi, with Wallachian support
+battle.sides.1.name: "Mustafa Çelebi’nin kuvvetleri, Eflak desteğiyle"
+
+# Battle of Thessalonica
+battle.name: "Selanik Muharebesi"
+
+# 1416
+battle.date: "1416"
+
+# Victory of Mehmed I, Mustafa and Cüneyd take refuge in Thessalonica
+battle.result: "I. Mehmed’in zaferi, Mustafa ile Cüneyd Selanik’e sığınır"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Mehmed I
+battle.sides.0.commanders.0: "I. Mehmed"

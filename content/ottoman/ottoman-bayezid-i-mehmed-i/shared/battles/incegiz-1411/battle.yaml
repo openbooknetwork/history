@@ -1,0 +1,18 @@
+lnglat: [28.39, 41.165]
+name: "Battle of İnceğiz"
+date: "Autumn 1411, or spring 1412 by other accounts"
+result: "Victory of Musa Çelebi, Mehmed falls back to Constantinople"
+source: https://en.wikipedia.org/wiki/Battle_of_%C4%B0nce%C4%9Fiz
+images: [incegiz-cave-monastery-aa717a, musa-artus-1662-746907]
+families:
+  musa: { color: "#9e2b25", color_dark: "#e0756c" }
+  mehmed: { color: "#c4561c", color_dark: "#f08c56" }
+sides:
+  - name: "Forces of Musa Çelebi"
+    color: musa
+    commanders: ["Musa Çelebi"]
+    strength: "7,000 kapıkulu"
+  - name: "Forces of Mehmed Çelebi, with a few Byzantine troops"
+    color: mehmed
+    commanders: ["Mehmed Çelebi"]
+    strength: "Tatars and Turkmen from Rum, the army of Ankara and Yapaoğlu’s men"

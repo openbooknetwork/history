@@ -1,0 +1,47 @@
+# tr strings for the battle "ankara-1402".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman state, with Serbian and Albanian vassals
+battle.sides.0.name: "Sırp ve Arnavut vasallarıyla Osmanlı Devleti"
+
+# No more than 85,000, by David Nicolle, 70,000 in Timur’s letter of victory
+battle.sides.0.strength: "David Nicolle’e göre en fazla 85.000, Timur’un fetihnamesine göre 70.000"
+
+# 40,000 to 50,000, Bayezid and his son Musa captured
+battle.sides.0.casualties: "40.000 ile 50.000 arası, Bayezid ile oğlu Musa esir düşer"
+
+# Timurid Empire, with the deposed beys of Anatolia
+battle.sides.1.name: "Yurtlarını yitiren Anadolu beyleriyle Timur İmparatorluğu"
+
+# About 140,000 with 32 war elephants, by David Nicolle
+battle.sides.1.strength: "David Nicolle’e göre 140.000 kadar, 32 savaş filiyle"
+
+# 15,000 to 40,000
+battle.sides.1.casualties: "15.000 ile 40.000 arası"
+
+# Battle of Ankara
+battle.name: "Ankara Muharebesi"
+
+# 20 July 1402, or 28 July by other accounts
+battle.date: "20 Temmuz 1402, başka anlatımlara göre 28 Temmuz"
+
+# Timurid victory, Bayezid captured
+battle.result: "Timur’un zaferi, Bayezid esir düşer"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Bayezid I
+battle.sides.0.commanders.0: "I. Bayezid"
+
+# Shah Rukh
+battle.sides.1.commanders.1: "Şahruh"
+
+# Miran Shah
+battle.sides.1.commanders.2: "Miranşah"
+
+# Muhammad Sultan
+battle.sides.1.commanders.3: "Muhammed Sultan"
+
+# Khalil Sultan
+battle.sides.1.commanders.4: "Halil Sultan"

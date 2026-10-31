@@ -1,0 +1,15 @@
+lnglat: [28.51, 38.35]
+name: "Fall of Philadelphia"
+date: "1390"
+result: "The city surrenders to Bayezid"
+source: https://en.wikipedia.org/wiki/Fall_of_Philadelphia
+images: [alasehir-st-john-230cd4, mutinensis-andronikos-john-manuel-766991]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  byzantium: { color: "#6b2d6b", color_dark: "#c27ac2" }
+sides:
+  - name: "Ottoman state, with Byzantine vassal troops"
+    color: ottomans
+    commanders: ["Bayezid I", "Manuel II Palaiologos", "John VII Palaiologos"]
+  - name: "Philadelphia"
+    color: byzantium

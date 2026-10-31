@@ -1,0 +1,21 @@
+# tr strings for the battle "aleppo-1400".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Mamluk Sultanate
+battle.sides.0.name: "Memlûk Sultanlığı"
+
+# Many of the townspeople killed
+battle.sides.0.casualties: "Şehir halkından birçok kişi öldürülür"
+
+# Timurid Empire
+battle.sides.1.name: "Timur İmparatorluğu"
+
+# Sack of Aleppo
+battle.name: "Halep’in yağmalanması"
+
+# October or November 1400
+battle.date: "Ekim ya da Kasım 1400"
+
+# Timurid victory, the town sacked
+battle.result: "Timur’un zaferi, şehir yağmalanır"

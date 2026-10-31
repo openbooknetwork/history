@@ -1,0 +1,37 @@
+date: "20 July 1402, or 28 July"
+when: 1402-07-20
+title: "The battle lines"
+routes: []
+sources:
+  - "Nizam ad-Din Shami, Zafarnama (1404)."
+  - "Sharaf ad-Din Ali Yazdi, Zafarnama (1425)."
+  - "Ibn Arabshah, ʿAjāʾib al-maqdūr fī nawāʾib Tīmūr (1435)."
+  - "Ömer Halis Bıyıktay, Yedi Yıl Harbi İçinde Timur’un Anadolu Seferi ve Ankara Savaşı (1934)."
+  - "İsmail Hakkı Uzunçarşılı, Osmanlı Tarihi, vol. 1 (1947)."
+  - "Spencer C. Tucker, “Battle of Ankara”, in Battles that Changed History (2010), 139–141."
+  - "Dimitris J. Kastritsis, The Sons of Bayezid (2007)."
+bbox: [32.86625, 40.09748, 32.98845, 40.19609]
+zones: []
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[33.026, 40.26], [33.028, 40.245], [33.027, 40.235], [33.028, 40.225], [33.03, 40.215], [33.027, 40.205], [33.022, 40.195], [33.011, 40.188], [33.011, 40.178], [33.01, 40.168], [33.006, 40.16], [32.993, 40.155], [32.988, 40.148], [32.978, 40.14], [32.972, 40.132], [32.972, 40.122], [32.972, 40.112], [32.97, 40.103], [32.966, 40.095], [32.963, 40.087], [32.957, 40.078], [32.955, 40.068], [32.957, 40.058], [32.953, 40.048], [32.95, 40.035]], width: 80, id: cubuk, name: 'The Çubuk stream, which flows south to Ankara. Both armies draw their water from it and the streams that join it'}
+  units:
+    - {side: serbia, type: knights, at: [32.89915, 40.14317], width: 1700, depth: 600, facing: 180, id: serbs, name: 'Stefan Lazarević on the right wing with his Serbian horsemen in black armour, his brother Vuk and Đurađ and Grgur Branković. Doukas gives them 5,000 men'}
+    - {side: ottomans, type: infantry, at: [32.925, 40.14362], width: 1500, depth: 700, facing: 180, id: bayezid, name: 'Bayezid in the centre on a low rise, with about 10,000 janissaries, the azaps in front of them, his sons İsa, Musa and Mustafa and the grand vizier Çandarlı Ali Pasha'}
+    - {side: ottomans, type: cavalry, at: [32.94791, 40.14317], width: 1600, depth: 600, facing: 180, id: suleyman, name: Süleyman Çelebi on the left wing with the sipahis of Anatolia. Nizam ad-Din Shami and İsmail Hakkı Uzunçarşılı put the Rumelian troops here and the Anatolian troops on the right beside the Serbs}
+    - {side: beyliks, type: cavalry, at: [32.96672, 40.14317], width: 1200, depth: 600, facing: 180, id: beyliks, name: 'The troops of Aydın, Saruhan, Menteşe and Germiyan, lands Bayezid annexed in 1390, on the left wing with Süleyman. The accounts place them no closer'}
+    - {side: ottomans, type: cavalry, at: [32.93205, 40.16443], width: 1500, depth: 500, facing: 180, id: mehmed, name: Mehmed Çelebi with the reserve behind the centre}
+    - {side: tatars, type: cavalry, at: [32.96848, 40.15719], width: 1400, depth: 500, facing: 180, id: tatars, name: 'The Black Tatars, horse archers settled in Anatolia, behind the left wing. Spencer Tucker counts a quarter of Bayezid’s army as Tatars'}
+    - {side: ottomans, type: infantry, at: [32.9203, 40.17709], width: 900, depth: 400, facing: 180, id: cataltepe, name: 'Troops Bayezid leaves against an encirclement on Çataltepe, about 4 km behind the line in Alexandrescu-Dersca’s account. Drawn on the ridge that fits that distance'}
+    - {side: timurids, type: elephants, at: [32.925, 40.12191], width: 1400, depth: 250, facing: 0, id: elephants, name: 'Thirty-two war elephants brought from India, in front of Timur’s centre', count: 8}
+    - {side: timurids, type: cavalry, at: [32.925, 40.11286], width: 2200, depth: 900, facing: 0, id: timur, name: Timur in the centre with the main body. The accounts put his grandson Muhammad Sultan here or with the right wing}
+    - {side: timurids, type: cavalry, at: [32.9579, 40.11557], width: 2200, depth: 800, facing: 0, id: miranshah, name: Timur’s son Miran Shah with the right wing}
+    - {side: timurids, type: cavalry, at: [32.8921, 40.11557], width: 2200, depth: 800, facing: 0, id: shahrukh, name: 'Timur’s son Shah Rukh with the left wing, with his grandson Khalil Sultan'}
+    - {side: timurids, type: light, at: [32.9579, 40.12824], width: 1500, depth: 350, facing: 0, id: vanguard, name: Horse archers of the vanguard under Timur’s grandson Abu Bakr. In later Turkish accounts they open the battle against the Ottoman left}
+  arrows:
+    - {side: timurids, path: [[32.9579, 40.13005], [32.95673, 40.13457], [32.9532, 40.1391]], width: 90, id: vanguard-fire, name: The vanguard shoots into the Ottoman left. Later Turkish accounts have Timur’s right open the battle. Other accounts have the Ottomans attack first into swarms of arrows, style: fire}
+    - {side: ottomans, path: [[32.94791, 40.14], [32.94968, 40.13548], [32.9532, 40.13186], [32.95614, 40.13005]], width: 160, id: left-attack, name: The Ottoman left charges and drives the vanguard back}
+  clashes:
+    - {at: [32.95614, 40.13041], size: 280}
+markers: [ankara-lines-bayezid, ankara-lines-lazarevic, ankara-lines-suleyman, ankara-lines-mehmed, ankara-lines-timur, ankara-cataltepe]

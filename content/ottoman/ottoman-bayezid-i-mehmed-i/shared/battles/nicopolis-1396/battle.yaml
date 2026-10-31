@@ -1,0 +1,23 @@
+lnglat: [24.899, 43.672]
+name: "Battle of Nicopolis"
+date: "25 September 1396"
+result: "Ottoman victory, the crusade destroyed"
+source: https://en.wikipedia.org/wiki/Battle_of_Nicopolis
+images: [nicopolis-colombe-424d0b, nicopolis-hunername-c43a12]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  serbia: { color: "#2f6fb0", color_dark: "#6fa6e0" }
+  hungary: { color: "#3d7a2a", color_dark: "#7cc160" }
+  crusaders: { color: "#2828bd", color_dark: "#5f5fdd" }
+  wallachia: { color: "#5b7a99", color_dark: "#9fbad6" }
+sides:
+  - name: "Ottoman state, with Stefan Lazarević’s Serbs"
+    color: ottomans
+    commanders: ["Bayezid I", "Kara Timurtaş Pasha", "Evrenos Bey", "Stefan Lazarević"]
+    strength: "15,000 to 20,000, with about 1,500 Serbian horsemen"
+    casualties: "Heavy"
+  - name: "Crusade: Hungary, France and Burgundy, German princes, Wallachia and the Knights Hospitaller"
+    color: hungary
+    commanders: ["Sigismund of Hungary", "John of Nevers", "Philip of Artois, Count of Eu", "Enguerrand VII de Coucy", "Jean de Vienne", "Mircea I"]
+    strength: "About 16,000"
+    casualties: "Most killed or captured, 300 to 3,000 prisoners put to death the next day"

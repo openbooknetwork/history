@@ -1,0 +1,29 @@
+# tr strings for the battle "philadelphia-1390".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman state, with Byzantine vassal troops
+battle.sides.0.name: "Bizans vasal askerleriyle Osmanlı Devleti"
+
+# Philadelphia
+battle.sides.1.name: "Alaşehir (Philadelphia)"
+
+# Fall of Philadelphia
+battle.name: "Alaşehir’in Fethi"
+
+# 1390
+battle.date: "1390"
+
+# The city surrenders to Bayezid
+battle.result: "Şehir Bayezid’e teslim olur"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Bayezid I
+battle.sides.0.commanders.0: "I. Bayezid"
+
+# Manuel II Palaiologos
+battle.sides.0.commanders.1: "II. Manuel Palaiologos"
+
+# John VII Palaiologos
+battle.sides.0.commanders.2: "VII. İoannis Palaiologos"

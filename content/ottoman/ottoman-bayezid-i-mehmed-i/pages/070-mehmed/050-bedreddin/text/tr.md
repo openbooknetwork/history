@@ -1,0 +1,9 @@
+Simavnalı Şeyh Bedreddin, Konya’da ve Kahire’de okumuş bir fıkıh âlimi ve mutasavvıftır, Musa’nın kazaskerliğini yapmıştır. Musa’nın yenilgisinden sonra Mehmed onu görevden alır ve maaş bağlayarak ailesiyle birlikte [İznik’e](@iznik-1413) gönderir. Müritlerinden Börklüce Mustafa Aydın yöresinde, Torlak Kemal Manisa yöresinde vaaz verir. Dukas’a göre Börklüce, malların ortak olması gerektiğini ve Hristiyanların da Müslümanlar kadar Tanrı’ya bağlı olduğunu öğretir.
+
+@image bedreddin-grave-51f9b8
+
+1416’da Börklüce’nin aralarında Hristiyanların da bulunduğu Türkmen köylüsü ve derviş taraftarları İzmir’in batısındaki Karaburun Yarımadası’nda toplanır: Dukas’a göre 6.000, Şükrullah’a göre 4.000, İdris-i Bitlisî’ye göre 10.000 kişidir. Önce Saruhan sancakbeyini, sonra Saruhan ve Aydın askerleriyle gelen Timurtaşoğlu Ali Bey’i yenerler. Mehmed veziriazam Bayezid Paşa’yı oğlu Murad ve Rumeli askerleriyle gönderir, bunlar isyancıları ayırt etmeksizin öldürür, Börklüce de bir deve üzerinde çarmıha gerilip dolaştırılır. Manisa’daki Torlak Kemal ayaklanması da bastırılır ve Kemal asılır.
+
+Bedreddin İznik’ten Kastamonu üzerinden [Sinop’a](@sinop) gider ve 1416 yazında gemiyle Eflak’a geçer, Mircea onu kabul eder. Oradan Dobruca’ya geçer ve Türkmenler ile Mehmed’in tımarlarını elinden aldığı uç beyleri arasında [Deliorman’da](@deliorman-1416) ayaklanma başlatır. Müritleri yenilince adamlarının çoğu onu bırakır, Rumeli’ye geçen Bayezid Paşa da onu küçük bir çarpışmadan sonra yakalar. Bedreddin [Serez’de](@serres-1416) Mehmed’in huzurunda Heratlı Mevlana Haydar başkanlığındaki bir ulema meclisince yargılanır ve çarşıda asılır. Yıl, uzun zamandır kabul edilen tarihe göre 1420’dir, yargılama Mehmed’in Mustafa seferinden sonra Serez’de bulunduğu sırada yapıldıysa 1416 sonudur.
+
+@image serres-overview-2f591a

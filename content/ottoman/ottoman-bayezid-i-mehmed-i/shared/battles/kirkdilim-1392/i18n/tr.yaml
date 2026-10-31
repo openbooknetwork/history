@@ -1,0 +1,23 @@
+# tr strings for the battle "kirkdilim-1392".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman state
+battle.sides.0.name: "Osmanlı Devleti"
+
+# State of Kadı Burhaneddin
+battle.sides.1.name: "Kadı Burhaneddin Devleti"
+
+# Battle of Kırkdilim
+battle.name: "Kırkdilim Muharebesi"
+
+# 1392, or 1391 by other accounts
+battle.date: "1392, başka anlatımlara göre 1391"
+
+# Victory of Kadı Burhaneddin by his court historian’s account, the Ottomans withdraw
+battle.result: "Saray tarihçisinin anlatımına göre Kadı Burhaneddin’in zaferi, Osmanlılar çekilir"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Bayezid I
+battle.sides.0.commanders.0: "I. Bayezid"

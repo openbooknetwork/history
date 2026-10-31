@@ -1,0 +1,7 @@
+After his victory at Çamurlu, Mehmed takes the throne at [Edirne](@edirne) and makes it his main seat. Bayezid Pasha, who had brought him from Ankara to Amasya in 1402, becomes grand vizier. Mehmed keeps his alliance with Manuel II of [Constantinople](@constantinople) and gives back to Byzantium the lands near Constantinople and Thessalonica that Musa had taken. While Mehmed fought Musa, Mehmed Bey of Karaman had besieged [Bursa](@bursa), and the town had burned before its commander İvaz Pasha broke the siege.
+
+@image mehmed-i-como-795208
+
+In 1414 Mehmed crosses to Anatolia against Cüneyd of Aydın, who has risen again and taken Ayasluğ. Çandarlı İbrahim takes Menemen, Kayacık and Nif for him, and [İzmir](@izmir-1414) surrenders after a siege in which ships of Menteşe, of the Genoese of Chios and Lesbos and of the Knights of Rhodes help the Ottomans. At İzmir the Genoese lords of Chios, Phokaia and Lesbos and the Grand Master of the Knights come to do Mehmed homage. At the plea of Cüneyd’s mother Mehmed spares him and gives Aydın to a governor of his own.
+
+Mehmed then marches on Karaman. He beats Mehmed Bey’s army on the plain of Konya and besieges the town, and Mehmed Bey makes peace and gives back the Ottoman towns he had taken during the civil war. When he breaks the peace in 1415, Bayezid Pasha beats him near Konya, takes him prisoner and makes him swear to the peace again. A later Ottoman story tells that he held a live pigeon under his robe as he swore and let it go afterwards.

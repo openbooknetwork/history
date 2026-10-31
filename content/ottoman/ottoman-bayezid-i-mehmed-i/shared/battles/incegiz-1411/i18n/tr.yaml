@@ -1,0 +1,24 @@
+# tr strings for the battle "incegiz-1411".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Forces of Musa Çelebi
+battle.sides.0.name: "Musa Çelebi’nin kuvvetleri"
+
+# 7,000 kapıkulu
+battle.sides.0.strength: "7.000 kapıkulu"
+
+# Forces of Mehmed Çelebi, with a few Byzantine troops
+battle.sides.1.name: "Mehmed Çelebi’nin kuvvetleri, birkaç Bizans askeriyle"
+
+# Tatars and Turkmen from Rum, the army of Ankara and Yapaoğlu’s men
+battle.sides.1.strength: "Rum’dan Tatar ve Türkmenler, Ankara askerleri ve Yapaoğlu’nun adamları"
+
+# Battle of İnceğiz
+battle.name: "İnceğiz Muharebesi"
+
+# Autumn 1411, or spring 1412 by other accounts
+battle.date: "1411 sonbaharı, başka anlatımlara göre 1412 baharı"
+
+# Victory of Musa Çelebi, Mehmed falls back to Constantinople
+battle.result: "Musa Çelebi’nin zaferi, Mehmed Konstantinopolis’e çekilir"

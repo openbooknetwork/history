@@ -1,4 +1,4 @@
-In early January 1921 a Greek force under General Anastasios Papoulas moves out of Bursa towards Eskişehir. On 9 January it attacks [İsmet's](@inonu-first-ismet) troops near the railway station of [İnönü](@inonu), and the fighting lasts until dark. Ankara's new regular army is fighting while it also puts down the revolt of Çerkes Ethem behind its lines.
+In early January 1921 a Greek force under General Anastasios Papoulas moves out of Bursa towards Eskişehir. On 9 January it attacks [İsmet's](@inonu-first-ismet) troops near the railway station of [İnönü](@inonu), and the fighting lasts until dark. Ankara's new regular army is fighting the Greeks while it puts down the revolt of Çerkes Ethem behind its lines.
 
 @image inonu-first-kemal-148444
 

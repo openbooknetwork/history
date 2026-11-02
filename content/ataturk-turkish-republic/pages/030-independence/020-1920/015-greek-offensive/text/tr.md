@@ -1,4 +1,4 @@
-Haziran 1920 sonunda, İngiltere’nin onayıyla Yunan ordusu İzmir bölgesinden ilerlemeye başlar. [Balıkesir’i](@balikesir) ve 8 Temmuz’da [Bursa’yı](@bursa) alır, İngiliz birlikleri de Marmara kıyısındaki Mudanya’yı işgal eder. Güneyde Yunan kolları Gediz ve Büyük Menderes vadileri boyunca Alaşehir ve [Uşak’a](@usak) doğru ilerler. Uşak ağustos sonunda düşer.
+Haziran 1920 sonunda Yunan ordusu İngiltere’nin onayıyla İzmir bölgesinden ilerlemeye başlar. [Balıkesir’i](@balikesir) ve 8 Temmuz’da [Bursa’yı](@bursa) alır. Aynı sırada İngiliz birlikleri Marmara kıyısındaki Mudanya’yı işgal eder. Güneyde Yunan kolları Gediz ve Büyük Menderes vadileri boyunca Alaşehir ve [Uşak’a](@usak) doğru ilerler. Uşak ağustos sonunda düşer.
 
 @image bandirma-1920-a89be0
 

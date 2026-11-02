@@ -27,7 +27,7 @@ writePlan(`${P}/021-afyon-barrage`, {
       U(R, 'cavalry', [30.19, 38.74], 6000, 1800, 0, 'fifth-cavalry', 'V Cavalry Corps under Fahrettin Pasha, behind the Greek line'),
     ],
     arrows: [
-      A(R, [[30.25, 38.60], [30.19, 38.66], [30.18, 38.71]], 1500, 'kirka-gorge', 'Through the Kırka gorge in the night of 25 to 26 August'),
+      A(R, [[30.25, 38.60], [30.19, 38.66], [30.18, 38.71]], 1500, 'kirka-gorge', 'The cavalry passes through the Kırka gorge in the night of 25 to 26 August'),
       A(R, [[30.19, 38.77], [30.20, 38.80], [30.22, 38.83]], 1300, 'cut-railway', 'The cavalry cuts the railway and the telegraph by 18.00'),
       A(R, [[30.40, 38.680], [30.42, 38.700], [30.44, 38.718]], 1500, 'first-corps-attack', 'Seven divisions attack the seam of the Greek 1st and 4th Divisions'),
       A(R, [[30.50, 38.676], [30.49, 38.695], [30.48, 38.715]], 1500, 'fourth-corps-attack', 'The IV Corps attacks towards Erkmentepe'),
@@ -85,7 +85,7 @@ writePlan(`${P}/023-afyon-gap`, {
     clashes: [{ at: [30.36, 38.90], size: 1800 }, { at: [30.30, 38.93], size: 1500 }],
   },
   markers: {
-    'afyon-gap-olucak': M(olucak, 'Olucak', 'Trikoupis’s night, 28 to 29 August', GR, 'flag'),
+    'afyon-gap-olucak': M(olucak, 'Olucak', 'Trikoupis’s group spends the night of 28 to 29 August here', GR, 'flag'),
     'afyon-gap-fourth-division': M([30.38, 38.87], 'Greek 4th Division', 'Column broken at 7.00', GR, 'skull'),
     'afyon-gap-baskimse': M(baskimse, 'Başkimse', 'Frangou’s line on 28 August', GR, 'flag'),
   },

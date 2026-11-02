@@ -22,7 +22,7 @@ writePlan(`${P}/011-kutahya-eskisehir-offensive`, {
     ],
     arrows: [
       A(GR, [[29.80, 38.78], [30.15, 38.76], [30.45, 38.78]], 5000, 'to-afyon', 'The southern group takes Afyon'),
-      A(GR, [[29.75, 38.95], [29.88, 39.18], [30.00, 39.36]], 5000, 'to-kutahya', 'And then Kütahya'),
+      A(GR, [[29.75, 38.95], [29.88, 39.18], [30.00, 39.36]], 5000, 'to-kutahya', 'The southern group then takes Kütahya'),
       A(GR, [[30.12, 39.42], [30.30, 39.58], [30.45, 39.70]], 4000, 'turn-north', 'The Greeks prepare to turn north along the railway'),
     ],
     clashes: [{ at: [30.40, 38.80], size: 6000 }, { at: [29.98, 39.40], size: 6000 }],
@@ -53,7 +53,7 @@ writePlan(`${P}/012-kutahya-eskisehir-retreat`, {
     clashes: [{ at: [30.52, 39.76], size: 6000 }],
   },
   markers: {
-    'kutahya-eskisehir-retreat-kemal': M([31.75, 39.95], 'Mustafa Kemal', 'The army before the ground', R),
+    'kutahya-eskisehir-retreat-kemal': M([31.75, 39.95], 'Mustafa Kemal', 'The army matters more than the ground', R),
     'kutahya-eskisehir-retreat-kutahya': M([29.98, 39.42], 'Kütahya', 'The Greek leaders meet here', GR, 'users'),
   },
   show: ['eskisehir'],

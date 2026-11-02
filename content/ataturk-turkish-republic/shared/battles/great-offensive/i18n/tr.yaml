@@ -1,6 +1,6 @@
 # tr strings for the battle "great-offensive".
 # Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
-# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
 
 # Grand National Assembly
 battle.sides.0.name: "Türkiye Büyük Millet Meclisi"
@@ -26,8 +26,8 @@ battle.name: "Büyük Taarruz ve Başkomutanlık Meydan Muharebesi"
 # 26 August – 18 September 1922
 battle.date: "26 Ağustos – 18 Eylül 1922"
 
-# Decisive Turkish victory, Greek army leaves Anatolia
-battle.result: "Kesin Türk zaferi, Yunan ordusu Anadolu’dan çekildi"
+# Decisive Turkish victory, withdrawal of the Greek army from Anatolia
+battle.result: "Kesin Türk zaferi, Yunan ordusunun Anadolu’dan çekilmesi"
 
 # Names, citations and credits with their own form in this language. Any other shows as written in the source.
 

@@ -1,4 +1,4 @@
-At about 4.30 on 25 April the first Australian companies of the 3rd Brigade come ashore at Arıburnu, about a mile north of the beach the plan intended. Instead of open ground they face cliffs and ridges up to 300 feet high, held by one platoon of the 2nd Battalion of the 27th Regiment. They climb to Plugge's Plateau and push inland towards the second ridge.
+At about 4.30 on 25 April the first companies of the [3rd Australian Brigade](@gallipoli-landing-dawn-brigade) come ashore at Anzac Cove, about a mile north of the beach that the plan intended. Instead of open ground they face cliffs and ridges up to 300 feet high, held by one platoon of the 2nd Battalion of the 27th Regiment. They climb to Plugge's Plateau and push inland towards the second ridge.
 
 @image ariburnu-sunrise-3b5a6c
 

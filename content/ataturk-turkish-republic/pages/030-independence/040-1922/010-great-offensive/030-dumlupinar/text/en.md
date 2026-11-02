@@ -2,7 +2,7 @@ The main Greek force retreating west from [Afyon](@afyon), the Trikoupis Group, 
 
 @image trikoupis-pow-b43b78
 
-General Trikoupis is captured on 2 September. Brought before Mustafa Kemal, he learns from him that he has been appointed Greek commander in chief. 30 August is commemorated in Türkiye as Victory Day.
+General Trikoupis is captured on 2 September. Brought before Mustafa Kemal, Trikoupis learns from him that he himself has been appointed Greek commander in chief. 30 August is commemorated in Türkiye as Victory Day.
 
 @image turkish-trench-1922-5fe00a
 

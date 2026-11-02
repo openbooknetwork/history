@@ -1,4 +1,4 @@
-On 16 July the Greeks make a feint towards the Turkish right at [Eskişehir](@eskisehir) while their main blow falls on the left. They then wheel north and roll up the Turkish defence with frontal attacks combined with flanking moves. İsmet counterattacks hard to save Eskişehir, but the city falls.
+On 16 July the Greeks make a feint towards the Turkish right at [Eskişehir](@eskisehir) while their main blow falls on the left. They then wheel north and break the Turkish defence with frontal attacks combined with flanking moves. İsmet counterattacks hard to save Eskişehir, but the city falls.
 
 @image eskisehir-flags-1921-763e22
 

@@ -1,4 +1,4 @@
-Six months after the Armistice of Mudros, Allied troops hold [İstanbul](@istanbul) and the Straits. British troops hold Antep, Maraş and Urfa, French troops hold Cilicia, and Italian troops have landed at [Antalya](@antalya). On 15 May 1919 a Greek army lands at [İzmir](@izmir) under the cover of Allied warships.
+Six months after the Armistice of Mudros, Allied troops hold [İstanbul](@istanbul) and the Straits. British troops hold Gaziantep, Kahramanmaraş and Şanlıurfa (then Antep, Maraş and Urfa), French troops hold Cilicia, and Italian troops have landed at [Antalya](@antalya). On 15 May 1919 a Greek army lands at [İzmir](@izmir) under the cover of Allied warships.
 
 @image izmir-1919-d8c969
 

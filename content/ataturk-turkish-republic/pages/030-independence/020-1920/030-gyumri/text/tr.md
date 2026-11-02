@@ -2,6 +2,6 @@ Eylül 1920 sonunda Kâzım Karabekir’in Doğu Cephesi Ermenistan Cumhuriyeti�
 
 @image karabekir-1918-bf5b0f
 
-Gümrü Antlaşması 3 Aralık 1920’de imzalanır. Ermenistan Kars’tan vazgeçer ve Sevr Antlaşması’nı tanımadığını bildirir. Ermeni hükûmeti bir gün önce yönetimi Sovyetlere bırakmıştır ve antlaşma hiçbir zaman onaylanmaz. Sınırı Ekim 1921’deki Kars Antlaşması belirler.
+Gümrü Antlaşması 3 Aralık 1920’de imzalanır. Ermenistan Kars’tan vazgeçer ve Sevr Antlaşması’nı tanımadığını bildirir. Ermeni hükûmeti bir gün önce yönetimi Sovyetlere bırakmıştır ve Gümrü Antlaşması hiçbir zaman onaylanmaz. Sınırı Ekim 1921’deki Kars Antlaşması belirler.
 
 @image gyumri-house-9360b9

@@ -1,6 +1,6 @@
 when: { from: 1915-04-25 }
 date: "25 April 1915, morning"
-title: "Arıburnu: the 57th Regiment"
+title: "Anzac Cove: the 57th Regiment"
 bbox: [26.2335, 40.215, 26.3105, 40.268]
 zones: []
 routes: []
@@ -21,7 +21,7 @@ emblem:
     - {side: republic, type: infantry, at: [26.2915, 40.2345], width: 900, depth: 130, facing: 270, id: twenty-seventh, name: 27th Regiment on Gun Ridge}
   arrows:
     - {side: republic, path: [[26.2905, 40.255], [26.2875, 40.2553], [26.2847, 40.2556]], width: 70, id: attack-baby-700, name: The 1st Battalion attacks Baby 700}
-    - {side: republic, path: [[26.29, 40.2522], [26.2883, 40.2512], [26.287, 40.2503]], width: 60, id: attack-mortar-ridge, name: And Mortar Ridge}
+    - {side: republic, path: [[26.29, 40.2522], [26.2883, 40.2512], [26.287, 40.2503]], width: 60, id: attack-mortar-ridge, name: The 1st Battalion attacks Mortar Ridge}
     - {side: republic, path: [[26.2915, 40.26], [26.2875, 40.2615], [26.283, 40.26], [26.2825, 40.2568]], width: 70, id: round-the-west, name: The 2nd Battalion circles round to the west}
   clashes:
     - [26.284, 40.2557]

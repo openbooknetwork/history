@@ -1,4 +1,4 @@
-On 10 August [King Constantine](@sakarya-approach-constantine) commits the army to an attack on the Sakarya line. The Greek divisions march east for nine days through country short of food and water, and swing round to the south to turn the Turkish left. On 23 August they make contact with the advanced Turkish positions south of the Gök river.
+On 10 August [King Constantine](@sakarya-approach-constantine) commits the army to an attack on the Sakarya line. The Greek divisions march east for nine days through country short of food and water, and swing round to the south to outflank the Turkish left. On 23 August they make contact with the advanced Turkish positions south of the Gök river.
 
 @image sakarya-salt-desert-923113
 

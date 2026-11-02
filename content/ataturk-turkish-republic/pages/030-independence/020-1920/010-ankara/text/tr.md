@@ -4,4 +4,4 @@ Heyet-i Temsiliye 27 Aralık 1919’da [Ankara’ya](@ankara) taşınır. İtila
 
 @image istanbul-occupation-1920-13f74c
 
-Güneyde İngiliz birlikleri 1919 sonunda Antep, Maraş ve Urfa’yı Fransızlara devreder. Yerel kuvvetler Fransızları 11 Şubat 1920’de Maraş’tan, nisanda da Urfa’dan çıkarır. Antep’te çarpışmalar 1 Nisan’da başlar.
+Güneyde İngiliz birlikleri 1919 sonunda Gaziantep, Kahramanmaraş ve Şanlıurfa’yı (o zamanki adlarıyla Antep, Maraş ve Urfa) Fransızlara devreder. Yerel kuvvetler Fransızları 11 Şubat 1920’de Kahramanmaraş’tan, nisanda da Şanlıurfa’dan çıkarır. Gaziantep’te çarpışmalar 1 Nisan’da başlar.

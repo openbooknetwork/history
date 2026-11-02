@@ -1,4 +1,4 @@
-The İstanbul government signs the Treaty of Sèvres on 10 August 1920. It gives Eastern Thrace to Greece and places the İzmir region under Greek administration, with a plebiscite to follow after five years. It recognises Armenia and leaves the Armenian border in the east to arbitration by the American president, Woodrow Wilson. The Straits come under an international commission, and France and Italy receive zones of influence in Anatolia.
+The İstanbul government signs the Treaty of Sèvres on 10 August 1920. The treaty gives Eastern Thrace to Greece and places the İzmir region under Greek administration, with a plebiscite to follow after five years. It recognises Armenia and leaves the Armenian border in the east to arbitration by the American president, Woodrow Wilson. The Straits come under an international commission, and France and Italy receive zones of influence in Anatolia.
 
 @image sevres-signing-bc024a
 

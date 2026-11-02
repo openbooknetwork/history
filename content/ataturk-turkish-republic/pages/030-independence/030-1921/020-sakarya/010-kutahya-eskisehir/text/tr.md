@@ -2,7 +2,7 @@ Yunan ordusunun büyük yaz taarruzu 10 Temmuz 1921’de sayı üstünlüğüyle
 
 @image greek-eskisehir-1921-ef08b8
 
-5 Ağustos’ta Meclis, Başkomutanlık Kanunu’yla kendi yetkilerini üç aylığına Mustafa Kemal’e verir. O da Tekâlif-i Milliye emirlerini çıkarır: her hane yiyeceğinin ve kumaşının bir payını, ayrıca bir takım çamaşır ve bir çift çarığı orduya vermek zorundadır.
+5 Ağustos’ta Meclis Başkomutanlık Kanunu’nu çıkarır. Kanun Mustafa Kemal’i başkomutan yapar ve ona üç aylığına Meclis’in kendi yetkilerini verir. O da Tekâlif-i Milliye emirlerini çıkarır: her hane yiyeceğinin ve kumaşının bir payını, ayrıca bir takım çamaşır ve bir çift çarığı orduya vermek zorundadır.
 
 @image greek-parade-eskisehir-0b641b
 

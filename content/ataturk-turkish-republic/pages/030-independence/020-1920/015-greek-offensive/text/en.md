@@ -1,4 +1,4 @@
-In late June 1920, with British approval, the Greek army advances out of the İzmir zone. It takes [Balıkesir](@balikesir) and, on 8 July, [Bursa](@bursa), while British troops occupy Mudanya on the Sea of Marmara. Further south Greek columns move up the Gediz and Büyük Menderes valleys towards Alaşehir and [Uşak](@usak), which falls at the end of August.
+In late June 1920 the Greek army advances out of the İzmir zone with British approval. It takes [Balıkesir](@balikesir) and, on 8 July, [Bursa](@bursa). At the same time British troops occupy Mudanya on the Sea of Marmara. Further south Greek columns move up the Gediz and Büyük Menderes valleys towards Alaşehir and [Uşak](@usak), which falls at the end of August.
 
 @image bandirma-1920-a89be0
 

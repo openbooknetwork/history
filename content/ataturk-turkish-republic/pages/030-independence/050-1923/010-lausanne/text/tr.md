@@ -1,4 +1,4 @@
-Barış konferansı Kasım 1922’de Lozan’da açılır. Türk heyetine İsmet Paşa başkanlık eder. Görüşmeler şubatta kesilir, nisanda yeniden başlar ve antlaşma 24 Temmuz 1923’te imzalanır. Lozan, Sevr’in yerini alır, bugünkü Türkiye’nin sınırlarının büyük bölümünü belirler ve kapitülasyonları kaldırır. Ocak 1923’te orada imzalanan ayrı bir sözleşme, Yunanistan’la nüfus mübadelesini öngörür.
+Barış konferansı Kasım 1922’de Lozan’da açılır. Türk heyetine İsmet Paşa başkanlık eder. Görüşmeler şubatta kesilir, nisanda yeniden başlar ve antlaşma 24 Temmuz 1923’te imzalanır. Lozan, Sevr Antlaşması’nın yerini alır, bugünkü Türkiye’nin sınırlarının büyük bölümünü belirler ve kapitülasyonları kaldırır. Ocak 1923’te orada imzalanan ayrı bir sözleşme, Yunanistan’la nüfus mübadelesini öngörür.
 
 @image lausanne-delegation-573d45
 

@@ -1,4 +1,4 @@
-Mondros Mütarekesi’nden altı ay sonra İtilaf birlikleri [İstanbul’u](@istanbul) ve Boğazları tutmaktadır. Antep, Maraş ve Urfa İngiliz, Kilikya Fransız birliklerinin elindedir, İtalyan birlikleri de [Antalya’ya](@antalya) çıkmıştır. 15 Mayıs 1919’da bir Yunan ordusu İtilaf savaş gemilerinin himayesinde [İzmir’e](@izmir) çıkar.
+Mondros Mütarekesi’nden altı ay sonra İtilaf birlikleri [İstanbul’u](@istanbul) ve Boğazları tutmaktadır. Gaziantep, Kahramanmaraş ve Şanlıurfa (o zamanki adlarıyla Antep, Maraş ve Urfa) İngiliz, Kilikya Fransız birliklerinin elindedir, İtalyan birlikleri de [Antalya’ya](@antalya) çıkmıştır. 15 Mayıs 1919’da bir Yunan ordusu İtilaf savaş gemilerinin himayesinde [İzmir’e](@izmir) çıkar.
 
 @image izmir-1919-d8c969
 

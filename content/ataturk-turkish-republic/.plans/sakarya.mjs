@@ -28,12 +28,12 @@ writePlan(`${P}/021-sakarya-approach`, {
     ],
     arrows: [
       A(GR, [[31.50, 39.62], [31.65, 39.60], [31.82, 39.58]], 3500, 'greek-east', 'Greek divisions march east to the river'),
-      A(GR, [[31.55, 39.45], [31.68, 39.26], [31.95, 39.15], [32.22, 39.14]], 4500, 'flank-march', 'The march round the south to turn the Turkish left'),
+      A(GR, [[31.55, 39.45], [31.68, 39.26], [31.95, 39.15], [32.22, 39.14]], 4500, 'flank-march', 'The march round the south to outflank the Turkish left'),
     ],
     clashes: [{ at: [32.25, 39.19], size: 4000 }],
   },
   markers: {
-    'sakarya-approach-polatli': M([32.147, 39.584], 'Polatlı', 'General staff headquarters', R, 'landmark'),
+    'sakarya-approach-polatli': M([32.147, 39.584], 'Polatlı', 'Headquarters of the general staff', R, 'landmark'),
     'sakarya-approach-constantine': M([31.55, 39.37], 'King Constantine', 'Orders the attack, 10 August', GR),
   },
   show: ['alagoz'],

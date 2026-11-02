@@ -2,7 +2,7 @@
 
 @image trikoupis-pow-b43b78
 
-General Trikupis 2 Eylül’de esir düşer. Mustafa Kemal’in huzuruna getirildiğinde, Yunan başkomutanlığına atandığını ondan öğrenir. 30 Ağustos Türkiye’de Zafer Bayramı olarak kutlanır.
+General Trikupis 2 Eylül’de esir düşer. Mustafa Kemal’in huzuruna getirilen Trikupis, kendisinin Yunan başkomutanlığına atandığını ondan öğrenir. 30 Ağustos Türkiye’de Zafer Bayramı olarak kutlanır.
 
 @image turkish-trench-1922-5fe00a
 

@@ -1,4 +1,4 @@
-16 Temmuz’da Yunanlılar [Eskişehir’de](@eskisehir) Türk sağ kanadına yanıltıcı bir saldırı yaparken asıl darbeyi sol kanada indirir. Ardından kuzeye döner ve Türk savunmasını cepheden saldırılar ve kuşatma hareketleriyle çökertir. İsmet Eskişehir’i kurtarmak için şiddetli bir karşı saldırı yapar, ama kent düşer.
+16 Temmuz’da Yunanlılar [Eskişehir’de](@eskisehir) Türk sağ kanadına yanıltıcı bir saldırı yaparken asıl darbeyi sol kanada indirir. Ardından kuzeye döner ve Türk savunmasını cepheden saldırılar ve kuşatma hareketleriyle kırar. İsmet Eskişehir’i kurtarmak için şiddetli bir karşı saldırı yapar, ama kent düşer.
 
 @image eskisehir-flags-1921-763e22
 

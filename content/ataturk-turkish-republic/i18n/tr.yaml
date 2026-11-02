@@ -1,6 +1,6 @@
 # tr strings for the story "ataturk-turkish-republic".
 # Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
-# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
 
 # 1881 – 1914: The making of an officer
 groups.officer.title: "1881 – 1914: Bir subayın yetişmesi"
@@ -41,14 +41,14 @@ groups.epilogue.title: "1923 – 1939: Sonsöz"
 # Sanjak of Alexandretta, French Mandate of Syria
 zones.alexandretta.name: "İskenderun Sancağı, Fransız Suriye Mandası"
 
-# Allied beachheads at Cape Helles and Arıburnu (Anzac), April 1915
-zones.beachheads-april-1915.name: "Seddülbahir ve Arıburnu’nda (Anzak) İtilaf çıkarma bölgeleri, Nisan 1915"
+# Allied beachheads at Cape Helles and Anzac, April 1915
+zones.beachheads-april-1915.name: "Seddülbahir ve Arıburnu’nda İtilaf çıkarma bölgeleri, Nisan 1915"
 
-# Allied beachheads at Cape Helles, Arıburnu (Anzac) and Suvla Bay, August 1915
-zones.beachheads-august-1915.name: "Seddülbahir, Arıburnu (Anzak) ve Suvla Koyu’nda İtilaf çıkarma bölgeleri, Ağustos 1915"
+# Allied beachheads at Cape Helles, Anzac and Suvla Bay, August 1915
+zones.beachheads-august-1915.name: "Seddülbahir, Arıburnu ve Suvla Koyu’nda İtilaf çıkarma bölgeleri, Ağustos 1915"
 
-# Allied (British) occupation of İstanbul, the Straits, Antep, Maraş and Urfa, 1919
-zones.british-1919.name: "İtilaf (İngiliz) işgali: İstanbul, Boğazlar, Antep, Maraş ve Urfa, 1919"
+# Allied (British) occupation of İstanbul, the Straits, Gaziantep, Kahramanmaraş and Şanlıurfa, 1919
+zones.british-1919.name: "İtilaf (İngiliz) işgali: İstanbul, Boğazlar, Gaziantep, Kahramanmaraş ve Şanlıurfa, 1919"
 
 # Allied (British) occupation of İstanbul and the Straits
 zones.british.name: "İtilaf (İngiliz) işgali: İstanbul ve Boğazlar"
@@ -77,11 +77,11 @@ zones.italian.name: "İtalyan işgal bölgesi"
 # Ottoman Europe lost in the Balkan Wars, 1912 to 1913
 zones.rumelia-lost.name: "Balkan Savaşları’nda kaybedilen Osmanlı Avrupası, 1912–1913"
 
-# Borders of the Republic of Türkiye under the Treaty of Lausanne, 1923
+# Borders of the Republic of Turkey under the Treaty of Lausanne, 1923
 zones.turkey-1923.name: "Lozan Antlaşması ile Türkiye Cumhuriyeti sınırları, 1923"
 
-# Action Army, Selanik to Yeşilköy, April 1909
-routes.action-army-1909.name: "Hareket Ordusu, Selanik’ten Ayastefanos’a, Nisan 1909"
+# Action Army, Thessaloniki to Yeşilköy, April 1909
+routes.action-army-1909.name: "Hareket Ordusu, Selanik’ten Yeşilköy’e, Nisan 1909"
 
 # By train to Vienna and Germany, December 1917
 routes.germany-1917.name: "Trenle Viyana ve Almanya’ya, Aralık 1917"
@@ -98,37 +98,37 @@ routes.kemal-1919.name: "Mustafa Kemal, Mayıs–Temmuz 1919"
 # Sivas to Ankara, December 1919
 routes.sivas-ankara.name: "Sivas’tan Ankara’ya, Aralık 1919"
 
-# Allied fleet arrives, 13 Nov 1918
+# The Allied fleet arrives, 13 November 1918
 markers.istanbul.note: "İtilaf donanması gelir, 13 Kasım 1918"
 
 # Greek landing, 15 May 1919
 markers.izmir.note: "Yunan çıkarması, 15 Mayıs 1919"
 
-# Italian landing, 28 Mar 1919
+# Italian landing, 28 March 1919
 markers.antalya.note: "İtalyan çıkarması, 28 Mart 1919"
 
-# French occupation, Dec 1918
+# French occupation, December 1918
 markers.adana.note: "Fransız işgali, Aralık 1918"
 
 # Mustafa Kemal lands, 19 May 1919
 markers.samsun.note: "Mustafa Kemal karaya çıkar, 19 Mayıs 1919"
 
-# Circular, 22 Jun 1919
+# Circular, 22 June 1919
 markers.amasya.note: "Genelge, 22 Haziran 1919"
 
-# Congress, 23 Jul to 7 Aug 1919
+# Congress, 23 July to 7 August 1919
 markers.erzurum.note: "Kongre, 23 Temmuz–7 Ağustos 1919"
 
-# Congress, 4 to 11 Sep 1919
+# Congress, 4 to 11 September 1919
 markers.sivas.note: "Kongre, 4–11 Eylül 1919"
 
-# Grand National Assembly, 23 Apr 1920
+# Grand National Assembly, 23 April 1920
 markers.ankara.note: "Büyük Millet Meclisi, 23 Nisan 1920"
 
-# Formal occupation, 16 Mar 1920
+# Formal occupation, 16 March 1920
 markers.istanbul-1920.note: "Resmî işgal, 16 Mart 1920"
 
-# Taken by Greek army, 8 Jul 1920
+# Taken by the Greek army, 8 July 1920
 markers.bursa.note: "Yunan ordusu ele geçirir, 8 Temmuz 1920"
 
 # Born 1881
@@ -162,7 +162,7 @@ markers.gallipoli-landing.note: "57. Alay, 25 Nisan 1915"
 markers.suvla.note: "İtilaf çıkarması, 6 Ağustos 1915"
 
 # Counterattack, 10 August 1915
-markers.chunuk-bair.note: "Karşı great-offensive-route, 10 Ağustos 1915"
+markers.chunuk-bair.note: "Karşı taarruz, 10 Ağustos 1915"
 
 # Retaken, 8 August 1916
 markers.bitlis.note: "Geri alındı, 8 Ağustos 1916"
@@ -170,8 +170,8 @@ markers.bitlis.note: "Geri alındı, 8 Ağustos 1916"
 # Megiddo offensive, 19 September 1918
 markers.nablus.note: "Megiddo taarruzu, 19 Eylül 1918"
 
-# Seventh Army holds at Katma, 26 October 1918
-markers.aleppo.note: "Yedinci Ordu Katma’da tutunur, 26 Ekim 1918"
+# The Seventh Army holds a line at Qatma, 26 October 1918
+markers.aleppo.note: "Yedinci Ordu Katma’da bir hat tutar, 26 Ekim 1918"
 
 # Armistice, 30 October 1918
 markers.mudros.note: "Mütareke, 30 Ekim 1918"
@@ -224,28 +224,28 @@ markers.salonica-1912.note: "Yunanistan alır, 8 Kasım 1912"
 # Bulgarian advance stopped, November 1912
 markers.catalca.note: "Bulgar ilerleyişi durdurulur, Kasım 1912"
 
-# Niyazi takes to the hills, 3 July 1908
+# Niyazi leaves for the hills, 3 July 1908
 markers.resne.note: "Niyazi Bey dağa çıkar, 3 Temmuz 1908"
 
-# Action Army sets out, April 1909
+# The Action Army sets out, April 1909
 markers.salonica-1909.note: "Hareket Ordusu yola çıkar, Nisan 1909"
 
 # Abdülhamid II deposed, 27 April 1909
 markers.istanbul-1909.note: "II. Abdülhamid tahttan indirilir, 27 Nisan 1909"
 
-# Yıldırım Army Group headquarters, 1917
+# Headquarters of the Yıldırım Army Group, 1917
 markers.aleppo-1917.note: "Yıldırım Orduları Grubu karargâhı, 1917"
 
 # Returns after resigning, October 1917
 markers.istanbul-1917.note: "İstifa edip döner, Ekim 1917"
 
-# Taken by Greek army, summer 1920
+# Taken by the Greek army, summer 1920
 markers.balikesir.note: "Yunan ordusu alır, 1920 yazı"
 
-# Taken by Greek army, August 1920
+# Taken by the Greek army, August 1920
 markers.usak.note: "Yunan ordusu alır, Ağustos 1920"
 
-# Taken by Greek army, 25 July 1920
+# Taken by the Greek army, 25 July 1920
 markers.edirne-1920.note: "Yunan ordusu alır, 25 Temmuz 1920"
 
 # Capital of the Hatay State, 1938 to 1939
@@ -257,10 +257,10 @@ markers.gallipoli-landing-dawn-brigade.note: "Saat 4.30 sularında karada"
 # 27th Regiment, from Eceabat
 markers.gallipoli-landing-dawn-sefik.note: "27. Alay, Eceabat’tan"
 
-# Near the beach the plan intended
+# Near the beach that the plan intended
 markers.gallipoli-landing-dawn-kabatepe.note: "Planlanan kumsalın yakını"
 
-# At Kemalyeri, about 10.00
+# At Scrubby Knoll (Kemalyeri), about 10.00
 markers.gallipoli-landing-57th-kemal.note: "Kemalyeri’nde, saat 10.00 sularında"
 
 # Changes hands through the day
@@ -278,10 +278,10 @@ markers.suvla-offensive-lala-baba.note: "İlk gece alındı"
 # 500 yards below the summit
 markers.suvla-offensive-apex.note: "Zirvenin 500 yarda altında"
 
-# Hill 971
-markers.suvla-offensive-971.note: "971 Tepesi"
+# The highest point of the Sari Bair range
+markers.suvla-offensive-971.note: "Sarı Bayır sırtlarının en yüksek tepesi"
 
-# Commands from Suvla to Conkbayırı
+# Commands from Suvla to Chunuk Bair
 markers.suvla-tekke-tepe-kemal.note: "Suvla’dan Conkbayırı’na komutan"
 
 # Scrub set on fire by gunfire
@@ -323,13 +323,13 @@ markers.kutahya-eskisehir-offensive-kutahya.note: "Yunanlıların eline geçer"
 # Junction of the railways
 markers.kutahya-eskisehir-offensive-eskisehir.note: "Demiryollarının kavşağı"
 
-# The army before the ground
-markers.kutahya-eskisehir-retreat-kemal.note: "Önce ordu, sonra toprak"
+# The army matters more than the ground
+markers.kutahya-eskisehir-retreat-kemal.note: "Ordu topraktan daha önemlidir"
 
 # The Greek leaders meet here
 markers.kutahya-eskisehir-retreat-kutahya.note: "Yunan önderleri burada toplanır"
 
-# General staff headquarters
+# Headquarters of the general staff
 markers.sakarya-approach-polatli.note: "Genelkurmay karargâhı"
 
 # Orders the attack, 10 August
@@ -362,8 +362,8 @@ markers.afyon-erkmentepe-peak.note: "Hat saat 9.00’da yarılır"
 # Turkish by the evening
 markers.afyon-erkmentepe-afyon.note: "Akşam Türklerin elinde"
 
-# Trikoupis’s night, 28 to 29 August
-markers.afyon-gap-olucak.note: "Trikupis’in gecesi, 28 – 29 Ağustos"
+# Trikoupis’s group spends the night of 28 to 29 August here
+markers.afyon-gap-olucak.note: "Trikupis grubu 28’i 29 Ağustos’a bağlayan geceyi burada geçirir"
 
 # Column broken at 7.00
 markers.afyon-gap-fourth-division.note: "Kol saat 7.00’de dağılır"
@@ -392,19 +392,19 @@ markers.dumlupinar-surrender-trikoupis.note: "Teslim olur, 2 Eylül, saat 17.00"
 # Frangou’s line of retreat
 markers.dumlupinar-surrender-banaz.note: "Frangu’nun çekilme yolu"
 
-# Hatay, joined to the Republic of Türkiye in 1939
+# Hatay, joined to the Republic of Turkey in 1939
 zones.hatay-1939.name: "1939’da Türkiye Cumhuriyeti’ne katılan Hatay"
 
 # 1881
 pages.salonica.date: "1881"
 
-# Born in Selanik
+# Born in Thessaloniki
 pages.salonica.title: "Selanik’te doğuş"
 
 # 1896 to 1899
 pages.monastir.date: "1896 – 1899"
 
-# Military high school at Manastır
+# Military high school at Bitola
 pages.monastir.title: "Manastır Askerî İdadisi"
 
 # 1899 to 1905
@@ -446,7 +446,7 @@ pages.sofia.title: "Sofya’da ataşemiliter"
 # 25 April 1915
 pages.gallipoli-landing.date: "25 Nisan 1915"
 
-# Arıburnu: the landing at Gallipoli
+# Anzac Cove: the landing at Gallipoli
 pages.gallipoli-landing.title: "Arıburnu: Çanakkale’ye çıkarma"
 
 # Steam pinnaces towing the boats of the covering force
@@ -467,7 +467,7 @@ emblems.gallipoli-landing-dawn.turkish-platoon: "27. Alay 2. Taburu’ndan bir t
 # A second platoon at the Fisherman’s Hut
 emblems.gallipoli-landing-dawn.fishermans-hut: "Balıkçı Damları’nda ikinci bir takım"
 
-# The first six companies land at Arıburnu, about 4.30
+# The first six companies land at Anzac Cove, about 4.30
 emblems.gallipoli-landing-dawn.first-wave: "İlk altı bölük Arıburnu’na çıkar, saat 4.30 sularında"
 
 # The second six companies land while it is still dark
@@ -479,8 +479,8 @@ emblems.gallipoli-landing-dawn.to-baby-700: "Küçük gruplar Kılıçbayır’a
 # Towards the 400 Plateau
 emblems.gallipoli-landing-dawn.to-400-plateau: "400 Platosu’na doğru"
 
-# The Turkish platoon withdraws inland
-emblems.gallipoli-landing-dawn.platoon-falls-back: "Türk takımı iç kesimlere çekilir"
+# The Ottoman platoon withdraws inland
+emblems.gallipoli-landing-dawn.platoon-falls-back: "Osmanlı takımı iç kesimlere çekilir"
 
 # Mehmet Şefik’s 27th Regiment marches from Eceabat
 emblems.gallipoli-landing-dawn.sefik-march: "Mehmet Şefik’in 27. Alayı Eceabat’tan yürür"
@@ -488,7 +488,7 @@ emblems.gallipoli-landing-dawn.sefik-march: "Mehmet Şefik’in 27. Alayı Eceab
 # 25 April 1915, dawn
 pages.gallipoli-landing-dawn.date: "25 Nisan 1915, şafak"
 
-# Arıburnu: the landing at dawn
+# Anzac Cove: the landing at dawn
 pages.gallipoli-landing-dawn.title: "Arıburnu: şafakta çıkarma"
 
 # Australians on the second ridge, from Pope’s Hill to the 400 Plateau
@@ -518,8 +518,8 @@ emblems.gallipoli-landing-57th.twenty-seventh: "Topçu Sırtı’ndaki 27. Alay"
 # The 1st Battalion attacks Baby 700
 emblems.gallipoli-landing-57th.attack-baby-700: "1. Tabur Kılıçbayır’a saldırır"
 
-# And Mortar Ridge
-emblems.gallipoli-landing-57th.attack-mortar-ridge: "Ve Mortar Sırtı’na"
+# The 1st Battalion attacks Mortar Ridge
+emblems.gallipoli-landing-57th.attack-mortar-ridge: "1. Tabur Mortar Sırtı’na saldırır"
 
 # The 2nd Battalion circles round to the west
 emblems.gallipoli-landing-57th.round-the-west: "2. Tabur batıdan dolanır"
@@ -527,7 +527,7 @@ emblems.gallipoli-landing-57th.round-the-west: "2. Tabur batıdan dolanır"
 # 25 April 1915, morning
 pages.gallipoli-landing-57th.date: "25 Nisan 1915, sabah"
 
-# Arıburnu: the 57th Regiment
+# Anzac Cove: the 57th Regiment
 pages.gallipoli-landing-57th.title: "Arıburnu: 57. Alay"
 
 # The Anzac line at nightfall, under two miles long
@@ -563,13 +563,13 @@ emblems.gallipoli-landing-afternoon.baby-700-lost: "Avustralyalılar ve Yeni Zel
 # 25 April 1915, afternoon and evening
 pages.gallipoli-landing-afternoon.date: "25 Nisan 1915, öğleden sonra ve akşam"
 
-# Arıburnu: the counterattack
+# Anzac Cove: the counterattack
 pages.gallipoli-landing-afternoon.title: "Arıburnu: karşı taarruz"
 
 # 6 to 10 August 1915
 pages.suvla.date: "6 – 10 Ağustos 1915"
 
-# Anafartalar and Conkbayırı
+# Suvla and Chunuk Bair
 pages.suvla.title: "Anafartalar ve Conkbayırı"
 
 # The salt lake behind Suvla Bay, mostly dry in August
@@ -587,22 +587,22 @@ emblems.suvla-offensive.eleventh-division: "İngiliz 11. Tümeni, Lala Baba çev
 # 34th Brigade, between the beach and the salt lake
 emblems.suvla-offensive.thirty-fourth-brigade: "34. Tugay, kumsal ile Tuzla Gölü arasında"
 
-# 11th Manchesters on the Kireçtepe ridge
+# 11th Manchesters on the Kiretch Tepe ridge
 emblems.suvla-offensive.manchesters: "Kireçtepe sırtındaki 11. Manchester Taburu"
 
 # Major Willmer’s small detachment
 emblems.suvla-offensive.willmer: "Binbaşı Willmer’in küçük müfrezesi"
 
-# Wellington Battalion on the summit of Conkbayırı, 8 August
+# Wellington Battalion on the summit of Chunuk Bair, 8 August
 emblems.suvla-offensive.wellingtons: "Conkbayırı zirvesinde Wellington Taburu, 8 Ağustos"
 
-# Mustafa Kemal’s 19th Division on Düztepe and Kılıçbayır
+# Mustafa Kemal’s 19th Division on Battleship Hill and Baby 700
 emblems.suvla-offensive.nineteenth-division: "Mustafa Kemal’in 19. Tümeni, Düztepe’de ve Kılıçbayır’da"
 
 # Right assaulting column up the spur to the Apex
 emblems.suvla-offensive.right-column: "Sağ saldırı kolu sırt boyunca Apex’e"
 
-# Left assaulting column towards Hill Q and Kocaçimen Tepe
+# Left assaulting column towards Hill Q and Hill 971
 emblems.suvla-offensive.left-column: "Sol saldırı kolu Q Tepesi’ne ve Kocaçimen Tepe’ye"
 
 # The landing at B Beach, night of 6 August
@@ -614,7 +614,7 @@ emblems.suvla-offensive.a-beach: "A Kumsalı’na çıkarma"
 # 6 to 8 August 1915
 pages.suvla-offensive.date: "6 – 8 Ağustos 1915"
 
-# Anafartalar: the August offensive
+# Suvla: the August offensive
 pages.suvla-offensive.title: "Anafartalar: ağustos taarruzu"
 
 # The salt lake behind Suvla Bay, mostly dry in August
@@ -632,7 +632,7 @@ emblems.suvla-tekke-tepe.chocolate-hill: "Çikolata Tepe çevresindeki İngiliz 
 # British troops at Hill 10
 emblems.suvla-tekke-tepe.hill-10: "10 Tepesi’ndeki İngiliz birlikleri"
 
-# British 10th Division on the Kireçtepe ridge
+# British 10th Division on the Kiretch Tepe ridge
 emblems.suvla-tekke-tepe.kirectepe: "Kireçtepe sırtında İngiliz 10. Tümeni"
 
 # The British 32nd Brigade marches for Tekke Tepe in the night
@@ -647,7 +647,7 @@ emblems.suvla-tekke-tepe.thirty-second-flight: "32. Tugay dağılır ve kumsala 
 # 9 August 1915
 pages.suvla-tekke-tepe.date: "9 Ağustos 1915"
 
-# Anafartalar: the dawn attack
+# Suvla: the dawn attack
 pages.suvla-tekke-tepe.title: "Anafartalar: şafak hücumu"
 
 # 6th South Lancashires on the summit, overrun
@@ -677,7 +677,7 @@ emblems.suvla-conkbayiri.farm-survivors: "Sağ kalanlar Cheshire Sırtı’na ç
 # 10 August 1915
 pages.suvla-conkbayiri.date: "10 Ağustos 1915"
 
-# Conkbayırı: the counterattack
+# Chunuk Bair: the counterattack
 pages.suvla-conkbayiri.title: "Conkbayırı: karşı taarruz"
 
 # August 1916
@@ -701,8 +701,8 @@ pages.syrian-front.title: "Suriye Cephesi ve Halep’e çekiliş"
 # 30 October to 13 November 1918
 pages.mudros.date: "30 Ekim – 13 Kasım 1918"
 
-# Mudros and the Allied fleet in İstanbul
-pages.mudros.title: "Mondros ve İtilaf donanması İstanbul’da"
+# The Armistice of Mudros and the Allied fleet in İstanbul
+pages.mudros.title: "Mondros Mütarekesi ve İtilaf donanması İstanbul’da"
 
 # 15 to 19 May 1919
 pages.occupation.date: "15–19 Mayıs 1919"
@@ -737,7 +737,7 @@ pages.sevres.title: "Sevr Antlaşması"
 # September to December 1920
 pages.gyumri.date: "Eylül – Aralık 1920"
 
-# The Eastern front and the Treaty of Gümrü
+# The Eastern front and the Treaty of Alexandropol
 pages.gyumri.title: "Doğu Cephesi ve Gümrü Antlaşması"
 
 # January to April 1921
@@ -827,8 +827,8 @@ emblems.kutahya-eskisehir-offensive.greek-north: "Bozüyük yakınındaki Yunan 
 # The southern group takes Afyon
 emblems.kutahya-eskisehir-offensive.to-afyon: "Güney grubu Afyon’u alır"
 
-# And then Kütahya
-emblems.kutahya-eskisehir-offensive.to-kutahya: "Ardından Kütahya’yı"
+# The southern group then takes Kütahya
+emblems.kutahya-eskisehir-offensive.to-kutahya: "Güney grubu ardından Kütahya’yı alır"
 
 # The Greeks prepare to turn north along the railway
 emblems.kutahya-eskisehir-offensive.turn-north: "Yunanlılar demiryolu boyunca kuzeye dönmeye hazırlanır"
@@ -896,7 +896,7 @@ emblems.sakarya-approach.advanced-posts: "Gök’ün güneyindeki Türk ileri me
 # Greek divisions march east to the river
 emblems.sakarya-approach.greek-east: "Yunan tümenleri doğuya, ırmağa yürür"
 
-# The march round the south to turn the Turkish left
+# The march round the south to outflank the Turkish left
 emblems.sakarya-approach.flank-march: "Türk sol kanadını kuşatmak için güneyden dolanma yürüyüşü"
 
 # 10 to 25 August 1921
@@ -1037,8 +1037,8 @@ emblems.afyon-barrage.second-army: "Yakup Şevki Paşa komutasında İkinci Ordu
 # V Cavalry Corps under Fahrettin Pasha, behind the Greek line
 emblems.afyon-barrage.fifth-cavalry: "Fahrettin Paşa komutasında V. Süvari Kolordusu, Yunan hattının gerisinde"
 
-# Through the Kırka gorge in the night of 25 to 26 August
-emblems.afyon-barrage.kirka-gorge: "25’i 26 Ağustos’a bağlayan gece Kırka Boğazı’ndan"
+# The cavalry passes through the Kırka gorge in the night of 25 to 26 August
+emblems.afyon-barrage.kirka-gorge: "Süvari 25’i 26 Ağustos’a bağlayan gece Kırka Boğazı’ndan geçer"
 
 # The cavalry cuts the railway and the telegraph by 18.00
 emblems.afyon-barrage.cut-railway: "Süvari saat 18.00’e kadar demiryolunu ve telgrafı keser"
@@ -1244,8 +1244,8 @@ pages.lausanne.title: "Lozan Antlaşması"
 # 13 to 29 October 1923
 pages.republic.date: "13 – 29 Ekim 1923"
 
-# Ankara becomes the capital, the Republic is proclaimed
-pages.republic.title: "Ankara başkent olur, Cumhuriyet ilan edilir"
+# Ankara becomes the capital and the Republic is proclaimed
+pages.republic.title: "Ankara başkent olur ve Cumhuriyet ilan edilir"
 
 # 1923 to 1938
 pages.reforms.date: "1923 – 1938"
@@ -1259,7 +1259,7 @@ pages.hatay.date: "1936 – 1939"
 # Hatay joins Turkey
 pages.hatay.title: "Hatay’ın Türkiye’ye katılması"
 
-# From a Salonica childhood through Gallipoli and the War of Independence to the founding of the Republic in 1923.
+# From a childhood in Thessaloniki through Gallipoli and the War of Independence to the founding of the Republic in 1923.
 story.summary: "Selanik’teki çocukluktan Çanakkale’ye, Kurtuluş Savaşı’ndan 1923’te Cumhuriyet’in kuruluşuna."
 
 # Atatürk and the Turkish Republic
@@ -1267,32 +1267,59 @@ story.title: "Atatürk ve Türkiye Cumhuriyeti"
 
 # Names, citations and credits with their own form in this language. Any other shows as written in the source.
 
+# Thessaloniki
+markers.salonica.label: "Selanik"
+
+# Bitola
+markers.monastir.label: "Manastır"
+
 # Damascus
 markers.damascus.label: "Şam"
 
 # Derna
 markers.derna.label: "Derne"
 
+# Bulair
+markers.bolayir.label: "Bolayır"
+
 # Sofia
 markers.sofia.label: "Sofya"
 
-# Suvla
+# Anzac Cove
+markers.gallipoli-landing.label: "Arıburnu"
+
+# Suvla Bay
 markers.suvla.label: "Anafartalar"
+
+# Chunuk Bair
+markers.chunuk-bair.label: "Conkbayırı"
 
 # Aleppo
 markers.aleppo.label: "Halep"
 
-# Mudros
+# Moudros
 markers.mudros.label: "Mondros"
 
 # Gyumri
 markers.gyumri.label: "Gümrü"
+
+# Thessaloniki
+markers.salonica-1912.label: "Selanik"
+
+# Resen
+markers.resne.label: "Resne"
+
+# Thessaloniki
+markers.salonica-1909.label: "Selanik"
 
 # Aleppo
 markers.aleppo-1917.label: "Halep"
 
 # 3rd Australian Brigade
 markers.gallipoli-landing-dawn-brigade.label: "3. Avustralya Tugayı"
+
+# Gaba Tepe
+markers.gallipoli-landing-dawn-kabatepe.label: "Kabatepe"
 
 # Baby 700
 markers.gallipoli-landing-57th-baby-700.label: "Kılıçbayır"
@@ -1302,6 +1329,9 @@ markers.gallipoli-landing-afternoon-beachhead.label: "Anzak çıkarma bölgesi"
 
 # The Apex
 markers.suvla-offensive-apex.label: "Apex"
+
+# Hill 971
+markers.suvla-offensive-971.label: "Kocaçimen Tepe"
 
 # Scimitar Hill
 markers.suvla-tekke-tepe-scimitar.label: "Yusufçuk Tepe"

@@ -2,7 +2,7 @@ Yunan ordusu 23 Ağustos’ta Sakarya’nın doğusundaki Türk mevzilerine ula�
 
 @image sakarya-duatepe-02fbfa
 
-Tepeler günlerce el değiştirir. Çal Dağı 2 Eylül’de Yunanların eline geçer, 8 Eylül’de Mustafa Kemal bir karşı taarruzun komutasını bizzat üstlenir. 12’yi 13 Eylül’e bağlayan gece, ihtiyatı ve ikmali tükenen Yunan ordusu nehrin batısına çekilir. Bu, savaşın son Yunan taarruzudur.
+Tepeler günlerce alınıp geri alınır. Çal Dağı 2 Eylül’de Yunanların eline geçer, 8 Eylül’de Mustafa Kemal bir karşı taarruzun komutasını bizzat üstlenir. 12’yi 13 Eylül’e bağlayan gece, ihtiyatı ve ikmali tükenen Yunan ordusu nehrin batısına çekilir. Sakarya’daki Yunan saldırısı savaşın son Yunan taarruzudur.
 
 @image sakarya-salih-bozok-0f711e
 

@@ -1,4 +1,4 @@
-Ocak 1921’in başında General Anastasios Papulas komutasındaki bir Yunan kuvveti Bursa’dan Eskişehir’e doğru yola çıkar. 9 Ocak’ta [İnönü](@inonu) istasyonu yakınında [İsmet’in](@inonu-first-ismet) birliklerine saldırır ve çarpışma karanlık basana dek sürer. Ankara’nın yeni düzenli ordusu bir yandan da cephe gerisinde Çerkes Ethem’in isyanını bastırmaktadır.
+Ocak 1921’in başında General Anastasios Papulas komutasındaki bir Yunan kuvveti Bursa’dan Eskişehir’e doğru yola çıkar. 9 Ocak’ta [İnönü](@inonu) istasyonu yakınında [İsmet’in](@inonu-first-ismet) birliklerine saldırır ve çarpışma karanlık basana dek sürer. Ankara’nın yeni düzenli ordusu Yunanlılarla savaşırken aynı zamanda cephe gerisinde Çerkes Ethem’in isyanını bastırmaktadır.
 
 @image inonu-first-kemal-148444
 

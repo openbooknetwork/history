@@ -30,18 +30,18 @@ writePlan(`${G}/011-gallipoli-landing-dawn`, {
       U(R, 'light', [26.2780, 40.2580], 200, 50, 270, 'fishermans-hut', 'A second platoon at the Fisherman’s Hut'),
     ],
     arrows: [
-      A(B, [[26.2635, 40.2505], [26.2725, 40.2495], [26.2790, 40.2485]], 70, 'first-wave', 'The first six companies land at Arıburnu, about 4.30'),
+      A(B, [[26.2635, 40.2505], [26.2725, 40.2495], [26.2790, 40.2485]], 70, 'first-wave', 'The first six companies land at Anzac Cove, about 4.30'),
       A(B, [[26.2635, 40.2430], [26.2740, 40.2440], [26.2810, 40.2448]], 70, 'second-wave', 'The second six companies land while it is still dark'),
       A(B, [[26.2880, 40.2525], [26.2915, 40.2540], [26.2950, 40.2555]], 60, 'to-baby-700', 'Small parties push on to Baby 700'),
       A(B, [[26.2890, 40.2400], [26.2915, 40.2375], [26.2930, 40.2350]], 60, 'to-400-plateau', 'Towards the 400 Plateau'),
-      A(R, [[26.2940, 40.2490], [26.2990, 40.2475], [26.3040, 40.2455]], 50, 'platoon-falls-back', 'The Turkish platoon withdraws inland', 'dashed'),
+      A(R, [[26.2940, 40.2490], [26.2990, 40.2475], [26.3040, 40.2455]], 50, 'platoon-falls-back', 'The Ottoman platoon withdraws inland', 'dashed'),
       A(R, [[26.3200, 40.2190], [26.3120, 40.2260], [26.3060, 40.2330]], 90, 'sefik-march', 'Mehmet Şefik’s 27th Regiment marches from Eceabat'),
     ],
   },
   markers: {
     'gallipoli-landing-dawn-brigade': M([26.2825, 40.2425], '3rd Australian Brigade', 'Ashore at about 4.30', B, 'swords'),
     'gallipoli-landing-dawn-sefik': M([26.3135, 40.2290], 'Mehmet Şefik', '27th Regiment, from Eceabat', R),
-    'gallipoli-landing-dawn-kabatepe': M([26.2735, 40.2160], 'Kabatepe', 'Near the beach the plan intended', B, 'anchor'),
+    'gallipoli-landing-dawn-kabatepe': M([26.2735, 40.2160], 'Gaba Tepe', 'Near the beach that the plan intended', B, 'anchor'),
   },
 });
 
@@ -60,13 +60,13 @@ writePlan(`${G}/012-gallipoli-landing-57th`, {
     ],
     arrows: [
       A(R, [[26.3020, 40.2550], [26.2990, 40.2553], [26.2962, 40.2556]], 70, 'attack-baby-700', 'The 1st Battalion attacks Baby 700'),
-      A(R, [[26.3015, 40.2522], [26.2998, 40.2512], [26.2985, 40.2503]], 60, 'attack-mortar-ridge', 'And Mortar Ridge'),
+      A(R, [[26.3015, 40.2522], [26.2998, 40.2512], [26.2985, 40.2503]], 60, 'attack-mortar-ridge', 'The 1st Battalion attacks Mortar Ridge'),
       A(R, [[26.3030, 40.2600], [26.2990, 40.2615], [26.2945, 40.2600], [26.2940, 40.2568]], 70, 'round-the-west', 'The 2nd Battalion circles round to the west'),
     ],
     clashes: [[26.2955, 40.2557], [26.2985, 40.2505]],
   },
   markers: {
-    'gallipoli-landing-57th-kemal': M([26.3080, 40.2430], 'Mustafa Kemal', 'At Kemalyeri, about 10.00', R),
+    'gallipoli-landing-57th-kemal': M([26.3080, 40.2430], 'Mustafa Kemal', 'At Scrubby Knoll (Kemalyeri), about 10.00', R),
     'gallipoli-landing-57th-baby-700': M([26.2925, 40.2585], 'Baby 700', 'Changes hands through the day', B, 'mountain'),
   },
 });
@@ -110,14 +110,14 @@ writePlan(`${G}/021-suvla-offensive`, {
       U(B, 'ships', [26.2285, 40.3105], 900, 350, 110, 'a-beach-ships', 'Destroyers in Suvla Bay', { count: 4 }),
       U(B, 'infantry', [26.2575, 40.2835], 700, 150, 70, 'eleventh-division', 'British 11th Division, round Lala Baba'),
       U(B, 'infantry', [26.2700, 40.3065], 700, 150, 100, 'thirty-fourth-brigade', '34th Brigade, between the beach and the salt lake'),
-      U(B, 'infantry', [26.2850, 40.3255], 800, 140, 90, 'manchesters', '11th Manchesters on the Kireçtepe ridge'),
+      U(B, 'infantry', [26.2850, 40.3255], 800, 140, 90, 'manchesters', '11th Manchesters on the Kiretch Tepe ridge'),
       U(R, 'light', [26.2880, 40.2930], 1200, 70, 270, 'willmer', 'Major Willmer’s small detachment'),
-      U(B, 'infantry', [26.3085, 40.2522], 280, 100, 100, 'wellingtons', 'Wellington Battalion on the summit of Conkbayırı, 8 August'),
-      U(R, 'infantry', [26.3005, 40.2570], 900, 150, 250, 'nineteenth-division', 'Mustafa Kemal’s 19th Division on Düztepe and Kılıçbayır'),
+      U(B, 'infantry', [26.3085, 40.2522], 280, 100, 100, 'wellingtons', 'Wellington Battalion on the summit of Chunuk Bair, 8 August'),
+      U(R, 'infantry', [26.3005, 40.2570], 900, 150, 250, 'nineteenth-division', 'Mustafa Kemal’s 19th Division on Battleship Hill and Baby 700'),
     ],
     arrows: [
       A(B, [[26.2830, 40.2620], [26.2910, 40.2600], [26.2980, 40.2560], [26.3040, 40.2535]], 80, 'right-column', 'Right assaulting column up the spur to the Apex'),
-      A(B, [[26.2850, 40.2690], [26.2980, 40.2700], [26.3100, 40.2660], [26.3170, 40.2610]], 80, 'left-column', 'Left assaulting column towards Hill Q and Kocaçimen Tepe'),
+      A(B, [[26.2850, 40.2690], [26.2980, 40.2700], [26.3100, 40.2660], [26.3170, 40.2610]], 80, 'left-column', 'Left assaulting column towards Hill Q and Hill 971'),
       A(B, [[26.2450, 40.2790], [26.2530, 40.2815]], 70, 'b-beach', 'The landing at B Beach, night of 6 August'),
       A(B, [[26.2330, 40.3085], [26.2420, 40.3075]], 70, 'a-beach', 'The landing at A Beach'),
     ],
@@ -125,7 +125,7 @@ writePlan(`${G}/021-suvla-offensive`, {
   markers: {
     'suvla-offensive-lala-baba': M([26.2520, 40.2865], 'Lala Baba', 'Taken on the first night', B, 'mountain'),
     'suvla-offensive-apex': M([26.2990, 40.2510], 'The Apex', '500 yards below the summit', B, 'flag'),
-    'suvla-offensive-971': M([26.3220, 40.2620], 'Kocaçimen Tepe', 'Hill 971', R, 'mountain'),
+    'suvla-offensive-971': M([26.3220, 40.2620], 'Hill 971', 'The highest point of the Sari Bair range', R, 'mountain'),
   },
 });
 
@@ -138,7 +138,7 @@ writePlan(`${G}/022-suvla-tekke-tepe`, {
       U(R, 'infantry', [26.3080, 40.2900], 1600, 160, 270, 'anafarta-spur', 'Ottoman troops on the Anafarta spur and the W Hills'),
       U(B, 'infantry', [26.2830, 40.2935], 900, 150, 80, 'chocolate-hill', 'British troops round Chocolate Hill'),
       U(B, 'infantry', [26.2700, 40.3065], 700, 150, 100, 'hill-10', 'British troops at Hill 10'),
-      U(B, 'infantry', [26.2900, 40.3260], 900, 140, 90, 'kirectepe', 'British 10th Division on the Kireçtepe ridge'),
+      U(B, 'infantry', [26.2900, 40.3260], 900, 140, 90, 'kirectepe', 'British 10th Division on the Kiretch Tepe ridge'),
     ],
     arrows: [
       A(B, [[26.2860, 40.3010], [26.2980, 40.3070], [26.3080, 40.3120]], 90, 'thirty-second-march', 'The British 32nd Brigade marches for Tekke Tepe in the night'),
@@ -148,7 +148,7 @@ writePlan(`${G}/022-suvla-tekke-tepe`, {
     clashes: [[26.3090, 40.3115]],
   },
   markers: {
-    'suvla-tekke-tepe-kemal': M([26.3330, 40.2880], 'Mustafa Kemal', 'Commands from Suvla to Conkbayırı', R),
+    'suvla-tekke-tepe-kemal': M([26.3330, 40.2880], 'Mustafa Kemal', 'Commands from Suvla to Chunuk Bair', R),
     'suvla-tekke-tepe-scimitar': M([26.2930, 40.3000], 'Scimitar Hill', 'Scrub set on fire by gunfire', B, 'flame'),
   },
   show: ['suvla'],

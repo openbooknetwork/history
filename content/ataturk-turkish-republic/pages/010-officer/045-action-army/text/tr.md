@@ -4,7 +4,7 @@
 
 @image selanik-1908-b6b078
 
-13 Nisan 1909’da, o dönemin takvimiyle 31 Mart’ta, [İstanbul’daki](@istanbul-1909) askerler İttihat ve Terakki’ye karşı ayaklanır ve şeriatın geri getirilmesini ister. Üçüncü Ordu birlikleri Hareket Ordusu’nu kurar ve trenle başkentin hemen batısındaki Ayastefanos’a (Yeşilköy) gelir. Mustafa Kemal onlarla birlikte kurmay subay olarak gelir. Hareket Ordusu 24 Nisan’da İstanbul’u alır, üç gün sonra da meclis II. Abdülhamid’i tahttan indirip Selanik’e sürgüne gönderir.
+13 Nisan 1909’da, o dönemin takvimiyle 31 Mart’ta, [İstanbul’daki](@istanbul-1909) askerler İttihat ve Terakki’ye karşı ayaklanır ve şeriatın geri getirilmesini ister. Üçüncü Ordu birlikleri Hareket Ordusu’nu kurar ve trenle başkentin hemen batısındaki Yeşilköy’e (o zamanki adıyla Ayastefanos) gelir. Mustafa Kemal onlarla birlikte kurmay subay olarak gelir. Hareket Ordusu 24 Nisan’da İstanbul’u alır, üç gün sonra da meclis II. Abdülhamid’i tahttan indirip Selanik’e sürgüne gönderir.
 
 @image mustafa-kemal-1909-e36741
 

@@ -1,4 +1,4 @@
-New Turkish recruits keep arriving while every Greek unit is already in the line, and for a few days neither exhausted army can attack. On 8 September [Mustafa Kemal](@sakarya-counterattack-kemal) takes personal command of a counterattack against the Greek left around Çal Dağı. It gains little ground, but the Greek command fears a larger move round its flank as winter approaches.
+New Turkish recruits keep arriving, but every Greek unit is already in the line. For a few days neither exhausted army can attack. On 8 September [Mustafa Kemal](@sakarya-counterattack-kemal) takes personal command of a counterattack against the Greek left around Çal Dağı. It gains little ground, but the Greek command fears a larger move round its own flank, and winter is approaching.
 
 @image sakarya-park-36325d
 

@@ -1,4 +1,4 @@
-Osmanlı geleneğine göre Ertuğrul, Oğuz Türklerinin Kayı boyundan bir topluluğu Anadolu’ya getirir ve Selçuklu sultanı ona sınırdaki [Söğüt](@sogut) yöresini verir. Obası kışı Söğüt’te geçirir, yazın sürülerini [Domaniç](@domanic) dağındaki yaylalara çıkarır. Osman’ın sikkeleri onu Ertuğrul oğlu diye anar ve babanın adını doğrular, Kayı soyu ise ilk kez 15. yüzyıl kroniklerinde görülür. Ertuğrul 1280 dolaylarında Söğüt’te ölür ve yerine Osman bey olur.
+Osmanlı geleneğine göre Ertuğrul, Oğuz Türklerinin Kayı boyundan bir topluluğu Anadolu’ya getirir ve Selçuklu sultanı ona sınırdaki [Söğüt](@sogut) yöresini verir. Obası kışı Söğüt’te geçirir, yazın sürülerini [Domaniç](@domanic) dağındaki yaylalara çıkarır. Osman’ın sikkeleri onu Ertuğrul oğlu diye anar ve babanın adını doğrular, Kayı soyundan ise ilk kez 15. yüzyıl tarihçileri söz eder. Ertuğrul 1280 dolaylarında Söğüt’te ölür ve yerine Osman bey olur.
 
 @image ertugrul-savci-miniature-db0fa0
 

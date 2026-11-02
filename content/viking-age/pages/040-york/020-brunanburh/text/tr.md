@@ -6,7 +6,7 @@ Edward’ın oğlu Æthelstan Ocak 926’da [Tamworth’te](@tamworth-926) Sihtr
 
 @image brunanburh-penny-5699a2
 
-Ağustos 937’de Dublin Kralı Olaf Guthfrithson, Konstantin’e ve Strathclyde Kralı Owain’e katılmak için denize açılır ve müttefikler İngiltere’ye girer. Æthelstan ile üvey kardeşi Edmund onları Batı Saksonlardan ve Mercialılardan oluşan bir orduyla Brunanburh’da karşılar ve bütün gün süren çarpışmadan sonra istilacıları kaçırır. Anglo-Sakson Kroniği’ndeki savaş şiirine göre beş genç kral ve Olaf’ın yedi jarlı ölür, Konstantin bir oğlunu yitirir, Olaf da deniz yoluyla Dublin’e kaçar.
+Ağustos 937’de Dublin Kralı Olaf Guthfrithson, Konstantin’e ve Strathclyde Kralı Owain’e katılmak için denize açılır ve müttefikler İngiltere’ye girer. Æthelstan ile üvey kardeşi Edmund onları Batı Saksonlardan ve Mercialılardan oluşan bir orduyla Brunanburh’da karşılar ve bütün gün süren çarpışmadan sonra istilacıları kaçırır. Anglo-Sakson Yıllıkları’ndaki savaş şiirine göre beş genç kral ve Olaf’ın yedi jarlı ölür, Konstantin bir oğlunu yitirir, Olaf da deniz yoluyla Dublin’e kaçar.
 
 @image brunanburh-aethelstan-23bed1
 

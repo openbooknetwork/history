@@ -2,7 +2,7 @@
 
 @image eric-bloodaxe-banner-penny-382ee2
 
-Olaf 941’de ölür, yerine İrlanda’da Amlaíb Cuarán diye bilinen kuzeni Olaf Sihtricson geçer. 942’de Edmund, Kronik’in bir şiirle kutladığı bir zaferle Beş Kent’i geri alır, 944’te de Başpiskopos Wulfstan’ın yardımıyla Dublin hanedanından kralları York’tan kovar. Edmund 946’da öldürüldükten sonra kardeşi Eadred 947’de Wulfstan’ın ve Northumbria ileri gelenlerinin bağlılık yeminini alır, ancak Northumbrialılar kısa sürede yeminlerini bozar.
+Olaf 941’de ölür, yerine İrlanda’da Amlaíb Cuarán diye bilinen kuzeni Olaf Sihtricson geçer. 942’de Edmund, Yıllıklar’ın bir şiirle kutladığı bir zaferle Beş Kent’i geri alır, 944’te de Başpiskopos Wulfstan’ın yardımıyla Dublin hanedanından kralları York’tan kovar. Edmund 946’da öldürüldükten sonra kardeşi Eadred 947’de Wulfstan’ın ve Northumbria ileri gelenlerinin bağlılık yeminini alır, ancak Northumbrialılar kısa sürede yeminlerini bozar.
 
 947 ya da 948’de kral olarak, sagaların Güzel Saçlı Harald’ın oğlu ve bir zamanlar Norveç kralı olan Kanlı Balta Erik’le özdeşleştirdiği Harold oğlu Erik’i seçerler. Eadred 948’de Northumbria’yı yakıp yıkar ve [Ripon’daki](@ripon-948) kiliseyi ateşe verir, York ordusu [Castleford’da](@castleford-948) artçısını yok edince daha ağır bir intikamla tehdit eder, sonunda Northumbrialılar Erik’i bırakıp tazminat öder. Olaf Sihtricson yeniden kral olur, 952’de Northumbrialılar onu kovup Erik’i geri çağırır.
 

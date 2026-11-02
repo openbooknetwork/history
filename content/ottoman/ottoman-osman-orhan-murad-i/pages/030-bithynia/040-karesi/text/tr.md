@@ -1,4 +1,4 @@
-Marmara Denizi’nin güneyinde, Misya’daki Karesi Beyliği, kurucusu Karesi Bey’in ölümünden sonra biri [Balıkesir’den](@balikesir-1345), öteki [Bergama’dan](@pergamon-1345) (Pergamon) yönetilen iki parçaya ayrılır. 1340’larda iki varis beylik için çekişir ve Osmanlı kroniklerinde Dursun diye anılan biri Orhan’ın yanına geçerek ona beyliğin şehirlerini önerir.
+Marmara Denizi’nin güneyinde, Misya’daki Karesi Beyliği, kurucusu Karesi Bey’in ölümünden sonra biri [Balıkesir’den](@balikesir-1345), öteki [Bergama’dan](@pergamon-1345) (Pergamon) yönetilen iki parçaya ayrılır. 1340’larda iki varis beylik için çekişir ve Osmanlı tarihçilerinin Dursun diye andığı biri Orhan’ın yanına geçerek ona beyliğin şehirlerini önerir.
 
 @image balikesir-karesi-tomb-bb2ad5
 

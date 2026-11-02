@@ -1,8 +1,8 @@
-Anglo-Sakson Kroniği’nin kaydettiği ilk Viking saldırısı 789’da olur. Hordaland’dan gelen üç Kuzeyli gemisi Wessex’te [Portland’a](@portland-789) yanaşır. Kralın Dorchester’daki görevlisi Beaduheard, onları yabancı tüccar olarak kayda geçirmek için yanlarına gider ve öldürülür. 792’de Mercia Kralı Offa, Kent’teki kiliselerin denizden gelen korsanlara karşı asker vermesini şimdiden şart koşar.
+Anglo-Sakson Yıllıkları’nın kaydettiği ilk Viking saldırısı 789’da olur. Hordaland’dan gelen üç Kuzeyli gemisi Wessex’te [Portland’a](@portland-789) yanaşır. Kralın Dorchester’daki görevlisi Beaduheard, onları yabancı tüccar olarak kayda geçirmek için yanlarına gider ve öldürülür. 792’de Mercia Kralı Offa, Kent’teki kiliselerin denizden gelen korsanlara karşı asker vermesini şimdiden şart koşar.
 
 @image lindisfarne-stone-c147f5
 
-8 Haziran 793’te akıncılar, Northumbria kıyısı açığında Aziz Cuthbert manastırının bulunduğu [Lindisfarne](@lindisfarne-793) adasına çıkar. Keşişleri öldürür, bir kısmını denizde boğar, başkalarını köle olarak götürür ve kilisenin hazinelerini yağmalarlar. Anglo-Sakson Kroniği baskını ocak ayına koyar, Michael Swanton bunu Lindisfarne Yıllıkları’ndaki 8 Haziran tarihinin yanlış yazımı sayar.
+8 Haziran 793’te akıncılar, Northumbria kıyısı açığında Aziz Cuthbert manastırının bulunduğu [Lindisfarne](@lindisfarne-793) adasına çıkar. Keşişleri öldürür, bir kısmını denizde boğar, başkalarını köle olarak götürür ve kilisenin hazinelerini yağmalarlar. Anglo-Sakson Yıllıkları baskını ocak ayına koyar, Michael Swanton bunu Lindisfarne Yıllıkları’ndaki 8 Haziran tarihinin yanlış yazımı sayar.
 
 @image lindisfarne-alcuin-70209b
 

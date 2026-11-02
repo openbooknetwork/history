@@ -6,7 +6,7 @@ Amlaíb, [Dublin’i](@dublin-871) Parçalı Yıllıklar’ın kardeşi olarak a
 
 @image dumbarton-govan-bb82b6
 
-Amlaíb 871’den sonra İrlanda yıllıklarından kaybolur, Alba Kralları Kroniği de Causantín’in onu Pikt ülkesinde haraç toplarken öldürdüğünü yazar. Ímar 873’te ölür, Ulster Yıllıkları onu “bütün İrlanda ve Britanya’nın Kuzeylilerinin kralı” diye anar. 875’te Halfdan komutasındaki bir Dan ordusu Tyne’dan gelip Piktleri [Dollar](@dollar-875) yakınında yener, Causantín de 877’de başka bir Viking ordusuyla savaşırken ölür.
+Amlaíb 871’den sonra İrlanda yıllıklarından kaybolur, Alba Kralları Yıllıkları da Causantín’in onu Pikt ülkesinde haraç toplarken öldürdüğünü yazar. Ímar 873’te ölür, Ulster Yıllıkları onu “bütün İrlanda ve Britanya’nın Kuzeylilerinin kralı” diye anar. 875’te Halfdan komutasındaki bir Dan ordusu Tyne’dan gelip Piktleri [Dollar](@dollar-875) yakınında yener, Causantín de 877’de başka bir Viking ordusuyla savaşırken ölür.
 
 900’de [Dunnottar’da](@dunnottar-900) ölen II. Donald, rí Alban yani Alba kralı diye anılan ilk kraldır. Alba, Pikt ülkesinden doğan krallığın adıdır. 902’de Brega kralı Máel Finnia ile Leinster kralı Cerball Vikingleri Dublin’den kovar. Ímar’ın soyundan gelen Uí Ímair, İrlanda Denizi çevresinde, İskoçya’da ve Man Adası’nda etkin olmayı sürdürür.
 

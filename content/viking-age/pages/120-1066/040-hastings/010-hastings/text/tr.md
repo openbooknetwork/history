@@ -8,6 +8,6 @@ Normanlar 27 Eylül’de denizi geçer ve ertesi gün, Stamford Bridge’den ü�
 
 İngiliz ordusu yaya savaşır: zırhlı ve çoğu iki elle kullanılan baltalar taşıyan kralın hassa askerleri ile bölgelerden toplanan milis, yani fyrd. William’ın ordusunun yaklaşık yarısı piyade, dörtte biri süvari, dörtte biri de okçu ve arbaletçidir. Günümüz tahminlerinin çoğu iki orduyu da 7.000 ile 8.000 kişi arasında gösterir, İngilizler için tahminler 5.000 ile 13.000 arasında değişir, Normanlar için 12.000’e kadar çıkar.
 
-Savaş alanı Hastings’in yaklaşık 11 km kuzeyinde, kuzeyde Caldbec Tepesi ile güneyde Telham Tepesi arasında, yakınında bir bataklık bulunan ormanlık bir arazidedir. Anglo-Sakson Kroniği muharebeyi “kır elma ağacının yanındaki” savaş diye anar, Orderic Vitalis ise ona belki de alandan geçen dereden gelen Senlac adını verir. Anlatımların çoğu İngilizleri bugün Battle Manastırı’nın bulunduğu sırta yerleştirir, son dönemde bazı yazarlar ise Caldbec Tepesi’ne koyar.
+Savaş alanı Hastings’in yaklaşık 11 km kuzeyinde, kuzeyde Caldbec Tepesi ile güneyde Telham Tepesi arasında, yakınında bir bataklık bulunan ormanlık bir arazidedir. Anglo-Sakson Yıllıkları muharebeyi “kır elma ağacının yanındaki” savaş diye anar, Orderic Vitalis ise ona belki de alandan geçen dereden gelen Senlac adını verir. Anlatımların çoğu İngilizleri bugün Battle Manastırı’nın bulunduğu sırta yerleştirir, son dönemde bazı yazarlar ise Caldbec Tepesi’ne koyar.
 
 @image hastings-field-c9e465

@@ -2,7 +2,7 @@
 
 @image sofia-serdica-walls-4938f4
 
-Osmanlı kronikleri bu yıllarda [İştip’in](@stip-1382) ve [Manastır’ın](@bitola-1382) (Bitola) alınmasını Kara Timurtaş Paşa’ya bağlar, ancak bazı anlatımlara göre Manastır 1370’lerin başında bir kuşatmadan sonra zaten düşmüştür. Sofya, Osmanlılara batıda [Niş’e](@nis) giden yolu açar. Niş, Vardar ve Morava vadileri boyunca uzanan yolun kuzey ucudur.
+Osmanlı tarihçileri bu yıllarda [İştip’in](@stip-1382) ve [Manastır’ın](@bitola-1382) (Bitola) alınmasını Kara Timurtaş Paşa’ya bağlar, ancak bazı anlatımlara göre Manastır 1370’lerin başında bir kuşatmadan sonra zaten düşmüştür. Sofya, Osmanlılara batıda [Niş’e](@nis) giden yolu açar. Niş, Vardar ve Morava vadileri boyunca uzanan yolun kuzey ucudur.
 
 @image stip-isar-fortress-d660ec
 

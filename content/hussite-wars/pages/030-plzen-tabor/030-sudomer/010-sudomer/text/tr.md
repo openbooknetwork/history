@@ -1,4 +1,4 @@
-Sudoměř’de 12 arabalı yaklaşık 400 Plzeňli Husçu, bir Prag kroniğine göre 2.000’i aşkın, günümüz tahminlerine göre yaklaşık 700 kişilik bir kral yanlısı atlı orduyu durdurur. İki balık göleti arasındaki bir set üzerinde dururlar, atlılar onlara ancak birkaç metre genişliğinde bir cepheden ulaşabilir, açık kalan yanları da arabalarıyla kapatırlar.
+Sudoměř’de 12 arabalı yaklaşık 400 Plzeňli Husçu, dönemin Praglı bir tarihçisine göre 2.000’i aşkın, günümüz tahminlerine göre yaklaşık 700 kişilik bir kral yanlısı atlı orduyu durdurur. İki balık göleti arasındaki bir set üzerinde dururlar, atlılar onlara ancak birkaç metre genişliğinde bir cepheden ulaşabilir, açık kalan yanları da arabalarıyla kapatırlar.
 
 @image sudomer-hettes-9c234d
 

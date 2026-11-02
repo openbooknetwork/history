@@ -1,4 +1,4 @@
-1416’da Ankara’da kaybolan Bayezid oğlu Mustafa olduğunu söyleyen biri Eflak’ta ortaya çıkar ve Mircea onu destekler. Osmanlı kronikleri ona Düzme ya da Düzmece Mustafa der, ancak bugünkü tarihçilerin birçoğu onun gerçekten Bayezid’in oğlu olduğunu kabul eder. Mehmed’in 1414’te Tuna kıyısındaki [Niğbolu’ya](@nicopolis-1416) sancakbeyi yaptığı Cüneyd ona katılır. Loredan’ın Haziran 1416 tarihli mektubuna göre [Gelibolu’daki](@gallipoli) Osmanlı donanması Tuna’ya gidip Mustafa’nın Rumeli’ye geçmesini önleyecektir.
+1416’da Ankara’da kaybolan Bayezid oğlu Mustafa olduğunu söyleyen biri Eflak’ta ortaya çıkar ve Mircea onu destekler. Osmanlı tarihçileri ona Düzme ya da Düzmece Mustafa der, ancak bugünkü tarihçilerin birçoğu onun gerçekten Bayezid’in oğlu olduğunu kabul eder. Mehmed’in 1414’te Tuna kıyısındaki [Niğbolu’ya](@nicopolis-1416) sancakbeyi yaptığı Cüneyd ona katılır. Loredan’ın Haziran 1416 tarihli mektubuna göre [Gelibolu’daki](@gallipoli) Osmanlı donanması Tuna’ya gidip Mustafa’nın Rumeli’ye geçmesini önleyecektir.
 
 @image mehmed-hunting-danube-442d39
 

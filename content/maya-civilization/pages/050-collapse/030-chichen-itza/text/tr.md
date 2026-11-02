@@ -8,4 +8,4 @@ Chichen Itza 900 ile 1050 arasında yarımadanın kuzeyini ve ortasını denetle
 
 @image chichen-itza-ball-court-60bbb5
 
-Chichen Itza 1100’e gelindiğinde bölge merkezi olma niteliğini yitirmiştir. Sömürge dönemine ait bazı Maya kroniklerine göre kenti Mayapanlı Hunac Ceel fetheder, ancak arkeoloji kentin gerilemesini Mayapan’ın yükselişinden önceye koyar.
+Chichen Itza 1100’e gelindiğinde bölge merkezi olma niteliğini yitirmiştir. Sömürge döneminde yazılmış bazı Maya tarih kitaplarına göre kenti Mayapanlı Hunac Ceel fetheder, ancak arkeoloji kentin gerilemesini Mayapan’ın yükselişinden önceye koyar.

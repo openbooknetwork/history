@@ -8,6 +8,6 @@
 
 İki hafta sonra Danlar [Basing’de](@basing-871), 22 Mart’ta da yeri yine belirlenemeyen Meretun’da kazanır, Sherborne Piskoposu Heahmund burada öldürülür. Bu savaştan sonra denizaşırı bir büyük yaz ordusu Reading’e gelir. Æthelred 15 Nisan’a denk gelen Paskalya’dan kısa süre sonra ölür ve [Wimborne’a](@wimborne-871) gömülür, Alfred kral olur. Mayısta Danlar Alfred’i [Wilton’da](@wilton-871) yener, Alfred de büyük olasılıkla gümüş ödeyerek onlarla barış yapar.
 
-Kronik, 871’de Thames’in güneyinde Danlara karşı dokuz savaş verildiğini kaydeder. Sonbaharda ordu Reading’den ayrılır ve kışlağını o sıralar bir Mercia kenti olan [Londra’da](@london-871) kurar, o kış basılan sikkelerde Halfdan’ın adı geçer.
+Yıllıklar, 871’de Thames’in güneyinde Danlara karşı dokuz savaş verildiğini kaydeder. Sonbaharda ordu Reading’den ayrılır ve kışlağını o sıralar bir Mercia kenti olan [Londra’da](@london-871) kurar, o kış basılan sikkelerde Halfdan’ın adı geçer.
 
 @image ashdown-penny-97f9b4

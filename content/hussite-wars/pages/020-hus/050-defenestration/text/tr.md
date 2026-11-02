@@ -2,7 +2,7 @@
 
 @image prague-new-town-hall-f1cf09
 
-Belediye başkanı Jan Podvinský’nin başındaki meclis üyeleri bunu reddeder. Kalabalık binaya saldırır ve içerdekileri pencerelerden atar, dördü meclis üyesi olmak üzere 13 ya da 14 kişi ölür. Bazı kronikler bir pencereden Želivský’ye taş atıldığını anlatır, ancak tarihçiler saldırıyı önceden hazırlanmış bir eylem sayar. Březovalı Vavřinec, kralın saray adamı Jan Žižka’yı kalabalığın içinde anar.
+Belediye başkanı Jan Podvinský’nin başındaki meclis üyeleri bunu reddeder. Kalabalık binaya saldırır ve içerdekileri pencerelerden atar, dördü meclis üyesi olmak üzere 13 ya da 14 kişi ölür. Dönemin bazı tarihçileri bir pencereden Želivský’ye taş atıldığını anlatır, ancak günümüz tarihçileri saldırıyı önceden hazırlanmış bir eylem sayar. Březovalı Vavřinec, kralın saray adamı Jan Žižka’yı kalabalığın içinde anar.
 
 @image liebscher-defenestration-f4dea1
 

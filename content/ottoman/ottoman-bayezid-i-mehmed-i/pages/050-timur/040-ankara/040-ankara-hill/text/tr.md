@@ -1,4 +1,4 @@
-Öğleden sonra [Mehmed Çelebi](@ankara-hill-mehmed) askerleriyle savaş alanından ayrılıp Amasya’ya gider, İsa Çelebi de alanı terk eder. Osmanlı kronikleri çarpışmada Mustafa Çelebi’nin izini kaybeder, Timur’un fetihnamesi ile Yezdî ise onun esir düştüğünü yazar. İki kanadını da yitiren Bayezid, birkaç bin yeniçeriyle hattının 4 kilometre kadar gerisindeki, Bıyıktay’ın Çataltepe dediği tepeye çekilir.
+Öğleden sonra [Mehmed Çelebi](@ankara-hill-mehmed) askerleriyle savaş alanından ayrılıp Amasya’ya gider, İsa Çelebi de alanı terk eder. Osmanlı tarihçileri çarpışmada Mustafa Çelebi’nin izini kaybeder, Timur’un fetihnamesi ile Yezdî ise onun esir düştüğünü yazar. İki kanadını da yitiren Bayezid, birkaç bin yeniçeriyle hattının 4 kilometre kadar gerisindeki, Bıyıktay’ın Çataltepe dediği tepeye çekilir.
 
 Timur, Bayezid’i yakalamak için oğlu [Şahruh’u](@ankara-hill-shahrukh) Miranşah ve başka komutanlarla gönderir. Timur askerleri tepeyi kuşatır, yeniçeriler akşama kadar saldırıları geri püskürtür. Güneş batarken Bayezid 300 kadar atlıyla kuzeydoğuya doğru çemberi yarar, yanındakilerin birçoğu sıcaktan ve susuzluktan ölür.
 

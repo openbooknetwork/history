@@ -6,4 +6,4 @@ Zeta beyi II. Đurađ Balšić artık Osmanlı vasalıdır ve Bosna Kralı I. Tv
 
 @image ston-walls-c99cd8
 
-Tvrtko’nun komutanı Büyük Dük Vlatko Vuković, Osmanlıların Bileća’ya kadar ilerlemesine izin verir ve Hum’un sarp, kayalık arazisinde onlara saldırır. Osmanlılar bozguna uğrar ve Lala Şahin canını zor kurtarır. Daha sonraki bir kronik muharebeyi 27 Ağustos’a tarihler, ama Ragusa daha 26 Ağustos’ta sonucu Macar Kralı Sigismund’a bildirir ve Osmanlı ordusunda esir düşen Zetalılarla Arnavutları serbest bırakır.
+Tvrtko’nun komutanı Büyük Dük Vlatko Vuković, Osmanlıların Bileća’ya kadar ilerlemesine izin verir ve Hum’un sarp, kayalık arazisinde onlara saldırır. Osmanlılar bozguna uğrar ve Lala Şahin canını zor kurtarır. Daha sonra yazan bir tarihçi muharebeyi 27 Ağustos’a koyar, ama Ragusa daha 26 Ağustos’ta sonucu Macar Kralı Sigismund’a bildirir ve Osmanlı ordusunda esir düşen Zetalılarla Arnavutları serbest bırakır.

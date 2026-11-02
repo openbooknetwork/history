@@ -4,7 +4,7 @@
 
 Sweyn Forkbeard 1003’te geri gelir, [Exeter’i](@exeter-1003) yağmalar ve [Wilton’u](@wilton-1003) yakar. 1004’te [Norwich’i](@norwich-1004) ve Thetford’u yakar, Ulfcytel komutasındaki Doğu Anglialılar ona öyle çetin bir karşılık verir ki Danlar İngiltere’de bundan kötüsüyle hiç karşılaşmadıklarını söyler. 1005’teki kıtlık orduyu geri gönderir, ama 1006’da bir filo yeniden gelir ve ayrılması için 36.000 pound ödenir.
 
-Ağustos 1009’da Thorkell the Tall ile kardeşi Hemming’in komutasındaki bir Danimarka ordusu [Sandwich’e](@sandwich-1009) çıkar. Doğu Kent 3.000 pound öder, Londra ise birkaç saldırıyı geri püskürtür. Mayıs 1010’da Thorkell’in adamları [Ipswich’e](@ipswich-1010) çıkar ve Ringmere’de Ulfcytel ile karşılaşır. Kroniğe göre Kısrak Başı lakaplı Thurcytel kaçınca İngilizler dağılır, yalnızca Cambridgeshire’ın adamları direnir, Danlar da ardından Thetford’u ve [Cambridge’i](@cambridge-1010) yakar.
+Ağustos 1009’da Thorkell the Tall ile kardeşi Hemming’in komutasındaki bir Danimarka ordusu [Sandwich’e](@sandwich-1009) çıkar. Doğu Kent 3.000 pound öder, Londra ise birkaç saldırıyı geri püskürtür. Mayıs 1010’da Thorkell’in adamları [Ipswich’e](@ipswich-1010) çıkar ve Ringmere’de Ulfcytel ile karşılaşır. Yıllıklar’a göre Kısrak Başı lakaplı Thurcytel kaçınca İngilizler dağılır, yalnızca Cambridgeshire’ın adamları direnir, Danlar da ardından Thetford’u ve [Cambridge’i](@cambridge-1010) yakar.
 
 @image st-brice-greenwich-270d62
 

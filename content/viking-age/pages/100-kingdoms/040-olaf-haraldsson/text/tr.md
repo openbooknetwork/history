@@ -6,7 +6,7 @@ Vestfold’da küçük bir kral olan Harald Grenske’nin oğlu Olaf Haraldsson 
 
 @image olaf-haraldsson-munthe-66fc69
 
-Cnut İngiltere’yle uğraşırken Olaf ve İsveç kralı Anund Jacob Danimarka’ya saldırır, 1026’da da Kutsal Irmak, yani [Helgeå’da](@helgea-1026) Cnut’un filosuyla karşılaşırlar. Sagalara göre ırmağı bentle kapatıp suyu Danimarka gemilerinin üzerine salıverirler, ama Cnut’un daha büyük filosu denize hâkim kalır ve iki kral geri çekilir. Anglo-Sakson Kroniği muharebeyi 1025’e tarihler ve meydanı İsveçlilere verir, muharebenin yeri ise Skåne mi Uppland mı olduğu tartışmalıdır.
+Cnut İngiltere’yle uğraşırken Olaf ve İsveç kralı Anund Jacob Danimarka’ya saldırır, 1026’da da Kutsal Irmak, yani [Helgeå’da](@helgea-1026) Cnut’un filosuyla karşılaşırlar. Sagalara göre ırmağı bentle kapatıp suyu Danimarka gemilerinin üzerine salıverirler, ama Cnut’un daha büyük filosu denize hâkim kalır ve iki kral geri çekilir. Anglo-Sakson Yıllıkları muharebeyi 1025’e tarihler ve meydanı İsveçlilere verir, muharebenin yeri ise Skåne mi Uppland mı olduğu tartışmalıdır.
 
 @image olaf-haraldsson-statue-776736
 

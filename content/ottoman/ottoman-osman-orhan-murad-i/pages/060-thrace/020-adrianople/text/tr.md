@@ -2,7 +2,7 @@ Osmanlı geleneğine göre Lala Şahin Edirne (Hadrianupolis) tekfurunu şehrin 
 
 @image enez-castle-06716a
 
-Fethin tarihi tartışmalıdır. Osmanlı geleneği ve onu izleyen Halil İnalcık gibi tarihçiler fethi 1361’e ya da 1362’ye tarihler, çünkü bir kronik şehrin düştüğü yıl bir güneş tutulması kaydeder ve 5 Mayıs 1361’de bir tutulma olmuştur. Elizabeth Zachariadou, şehrin 1366 Noel’inde hâlâ Bizans elinde olduğunu gösteren bir şiire ve Bizans kısa kroniklerine dayanarak fethi 1369’a tarihler ve bugün tarihçilerin çoğu onu izler. Bazı tarihçilere göre şehri Murad’ın ordusu değil, bağımsız Türk uç birlikleri almıştır.
+Fethin tarihi tartışmalıdır. Osmanlı geleneği ve onu izleyen Halil İnalcık gibi tarihçiler fethi 1361’e ya da 1362’ye tarihler, çünkü dönemin bir tarihçisi şehrin düştüğü yıl bir güneş tutulması kaydeder ve 5 Mayıs 1361’de bir tutulma olmuştur. Elizabeth Zachariadou, şehrin 1366 Noel’inde hâlâ Bizans elinde olduğunu gösteren bir şiire ve kısa Bizans yıllıklarına dayanarak fethi 1369’a tarihler ve bugün tarihçilerin çoğu onu izler. Bazı tarihçilere göre şehri Murad’ın ordusu değil, bağımsız Türk uç birlikleri almıştır.
 
 Edirne, ilk Rumeli beylerbeyi Lala Şahin’in merkezi ve Balkanlar’daki başlıca Osmanlı üssü olur, Murad’ın sarayı ise Bursa’da ve [Dimetoka’da](@didymoteicho-1361) kalır. Anadolu’dan Avrupa’ya geçen Türkmenlerin sayısı artar ve Trakya ovalarına yerleşirler.
 

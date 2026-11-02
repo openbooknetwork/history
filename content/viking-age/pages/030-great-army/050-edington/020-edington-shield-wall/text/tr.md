@@ -1,4 +1,4 @@
-[Alfred](@edington-shield-wall-alfred) şafakta ordusunu Iley Meşesi’nden Ethandun’a götürür. Asser’e göre bütün Viking ordusuna karşı sık bir kalkan duvarıyla kıyasıya savaşır ve uzun süre direnir, sonunda zafer onun olur. Anglo-Sakson Kroniği ise yalnızca onun bütün orduya karşı savaşıp orduyu kaçırdığını söyler.
+[Alfred](@edington-shield-wall-alfred) şafakta ordusunu Iley Meşesi’nden Ethandun’a götürür. Asser’e göre bütün Viking ordusuna karşı sık bir kalkan duvarıyla kıyasıya savaşır ve uzun süre direnir, sonunda zafer onun olur. Anglo-Sakson Yıllıkları ise yalnızca onun bütün orduya karşı savaşıp orduyu kaçırdığını söyler.
 
 @image edington-shield-wall-asser-9762f4
 

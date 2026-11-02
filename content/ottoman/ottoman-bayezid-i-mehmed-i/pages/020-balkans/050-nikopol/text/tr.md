@@ -1,4 +1,4 @@
-Bayezid dönüş yolunda [Niğbolu’yu](@nikopol-1393) kuzeyden gelerek alır ve Anonim Bulgar Kroniği’ne göre İvan Şişman’ı 3 Haziran 1395’te öldürtür. Bir Bizans kroniği tarih olarak 29 Ekim’i verir, bazı anlatımlara göre de Şişman hapiste ölür. Toprakları Osmanlı Devleti’ne katılır ve Bulgar hükümdarlarından yalnızca Vidinli İvan Sratsimir, Bayezid’in vasalı olarak kalır.
+Bayezid dönüş yolunda [Niğbolu’yu](@nikopol-1393) kuzeyden gelerek alır ve Anonim Bulgar Tarihi’ne göre İvan Şişman’ı 3 Haziran 1395’te öldürtür. Dönemin bir Bizans tarihçisi 29 Ekim’i verir, bazı anlatımlara göre de Şişman hapiste ölür. Toprakları Osmanlı Devleti’ne katılır ve Bulgar hükümdarlarından yalnızca Vidinli İvan Sratsimir, Bayezid’in vasalı olarak kalır.
 
 Marko’nun ve Konstantin Dragaš’ın toprakları doğrudan Osmanlı yönetimine geçer ve Konstantin’in merkezi [Velbužd](@kyustendil-1395) çevresinde bir sancak oluşturur. Osmanlılar şehre Konstantin’in adından Köstendil adını verir. Marko’nun şehri [Pirlepe](@prilep-1395) de bu sancağa katılır.
 

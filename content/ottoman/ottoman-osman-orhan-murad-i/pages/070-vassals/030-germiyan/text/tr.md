@@ -2,7 +2,7 @@ Hem Karamanoğullarından hem Osmanlılardan çekinen Germiyan Beyi Süleyman Ş
 
 @image bayezid-i-semailname-0d32d1
 
-Murad ayrıca Hamitoğlu Hüseyin Bey’den beyliğin doğusundaki kasabaları, aralarında [Akşehir](@aksehir-1381) ve [Beyşehir’i](@beysehir-1381) satın alır. Osmanlı kronikleri bunlara Yalvaç ile Seydişehir’i ekler ve bedeli 80.000 altın olarak verir. Hamitoğulları [Eğirdir’i](@egirdir) ve Isparta’yı elde tutar.
+Murad ayrıca Hamitoğlu Hüseyin Bey’den beyliğin doğusundaki kasabaları, aralarında [Akşehir](@aksehir-1381) ve [Beyşehir’i](@beysehir-1381) satın alır. Osmanlı tarihçileri bunlara Yalvaç ile Seydişehir’i ekler ve bedeli 80.000 altın olarak verir. Hamitoğulları [Eğirdir’i](@egirdir) ve Isparta’yı elde tutar.
 
 @image kutahya-castle-54ca0f
 

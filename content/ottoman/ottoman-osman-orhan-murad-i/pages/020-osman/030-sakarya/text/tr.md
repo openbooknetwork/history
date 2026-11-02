@@ -1,6 +1,6 @@
-Kroniklere göre [Bursa](@bursa), Adranos ([Orhaneli](@adranos)), Kestel ve Kete tekfurları 1303 baharında adamlarını Bursa’da toplar ve [Yenişehir](@yenisehir) üzerine yürür. Osman onları Dimbos (Dinboz) geçidinde karşılar. Osman’ın yeğeni Aydoğdu ile Kestel tekfuru çarpışmada ölür, Orhan’ın atlılarının hücumu Bizanslıları geri püskürtür.
+Osmanlı tarihçilerine göre [Bursa](@bursa), Adranos ([Orhaneli](@adranos)), Kestel ve Kete tekfurları 1303 baharında adamlarını Bursa’da toplar ve [Yenişehir](@yenisehir) üzerine yürür. Osman onları Dimbos (Dinboz) geçidinde karşılar. Osman’ın yeğeni Aydoğdu ile Kestel tekfuru çarpışmada ölür, Orhan’ın atlılarının hücumu Bizanslıları geri püskürtür.
 
-Osman, Kete tekfurunu [Ulubat’a](@ulubat) varmadan yakalar ve kalenin önünde öldürtür, bunun üzerine kale teslim olur, ardından Kestel de teslim olur. Dimbos yalnızca Osmanlı kroniklerinden bilinir, tarihçiler Aşıkpaşazade’nin anlatısının bir kısmını Bafeus haberlerinden kurduğunu kabul eder.
+Osman, Kete tekfurunu [Ulubat’a](@ulubat) varmadan yakalar ve kalenin önünde öldürtür, bunun üzerine kale teslim olur, ardından Kestel de teslim olur. Dimbos’u yalnızca Osmanlı tarihçileri anlatır, günümüz tarihçileri Aşıkpaşazade’nin anlatısının bir kısmını Bafeus haberlerinden kurduğunu kabul eder.
 
 @image uluabat-lake-374289
 

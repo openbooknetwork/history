@@ -1,4 +1,4 @@
-865’te büyük bir Dan ordusu Doğu Anglia’ya çıkar. Anglo-Sakson Kroniği bu orduyu *mycel hæþen here*, yani büyük pagan ordusu diye anar, daha sonraki kaynaklar da komutanları arasında Kemiksiz İvar, Ubba ve Halfdan’ı sayar. Doğu Angllar barış yapıp orduya at verir, ordu da kışı onların krallığında geçirir. Günümüz tahminlerine göre ordunun mevcudu bin kişinin altından birkaç bin kişiye kadar değişir.
+865’te büyük bir Dan ordusu Doğu Anglia’ya çıkar. Anglo-Sakson Yıllıkları bu orduyu *mycel hæþen here*, yani büyük pagan ordusu diye anar, daha sonraki kaynaklar da komutanları arasında Kemiksiz İvar, Ubba ve Halfdan’ı sayar. Doğu Angllar barış yapıp orduya at verir, ordu da kışı onların krallığında geçirir. Günümüz tahminlerine göre ordunun mevcudu bin kişinin altından birkaç bin kişiye kadar değişir.
 
 @image great-army-fleet-d7b9c3
 
@@ -8,6 +8,6 @@
 
 867’nin sonlarında ordu güneyde Mercia’ya geçer ve kışı [Nottingham’da](@nottingham-867) geçirir. Mercia Kralı Burgred kayınbiraderleri Wessex Kralı Æthelred ile Alfred’den yardım ister ve 868’de onların orduları Danları kentte kuşatma altına alır. Büyük bir çarpışma olmaz, Mercialılar Danlarla barış yapar ve ordu 868–869 kışını geçirmek için York’a döner.
 
-869’da ordu Mercia’yı baştan başa geçerek Doğu Anglia’ya gelir ve kışlağını [Thetford’da](@thetford-869) kurar. Kral Edmund o kış orduyla savaşır, Danlar kazanır, 20 Kasım’da onu öldürür ve krallığını ele geçirir. Kronik, Edmund’un savaşta mı yoksa savaştan sonra mı öldüğünü açık bırakır. 986 dolaylarında yazan Fleury’li Abbo onun şehitliğini anlatır, daha sonraki bir gelenek de ölüm yerini Suffolk’taki [Hoxne](@hoxne-869) olarak gösterir.
+869’da ordu Mercia’yı baştan başa geçerek Doğu Anglia’ya gelir ve kışlağını [Thetford’da](@thetford-869) kurar. Kral Edmund o kış orduyla savaşır, Danlar kazanır, 20 Kasım’da onu öldürür ve krallığını ele geçirir. Yıllıklar, Edmund’un savaşta mı yoksa savaştan sonra mı öldüğünü açık bırakır. 986 dolaylarında yazan Fleury’li Abbo onun şehitliğini anlatır, daha sonraki bir gelenek de ölüm yerini Suffolk’taki [Hoxne](@hoxne-869) olarak gösterir.
 
 @image great-army-edmund-4479f3

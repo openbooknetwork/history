@@ -2,6 +2,6 @@
 
 @image lazar-fresco-8014c5
 
-Bir Osmanlı akıncı birliği Osmanlı vasallarının topraklarından geçerek Lazar’ın beyliğine girer. Bu, orada kayda geçen ilk Osmanlı akınıdır. Lazar’ın beyleri Crep Vukoslavić ve Vitomir, Paraćin yakınında Dubravnica ırmağı kıyısında akıncıları bozguna uğratır. Bir Sırp kroniği muharebeyi 1380 yazına tarihler, başka anlatımlar ise Aralık 1381’i verir. Muharebe hakkında bundan fazlası bilinmez.
+Bir Osmanlı akıncı birliği Osmanlı vasallarının topraklarından geçerek Lazar’ın beyliğine girer. Bu, orada kayda geçen ilk Osmanlı akınıdır. Lazar’ın beyleri Crep Vukoslavić ve Vitomir, Paraćin yakınında Dubravnica ırmağı kıyısında akıncıları bozguna uğratır. Dönemin bir Sırp tarihçisi muharebeyi 1380 yazına koyar, başka anlatımlar ise Aralık 1381’i verir. Muharebe hakkında bundan fazlası bilinmez.
 
 @image krusevac-lazarica-d2f53b

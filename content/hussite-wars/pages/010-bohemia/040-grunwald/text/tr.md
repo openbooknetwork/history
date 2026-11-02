@@ -2,7 +2,7 @@ Polonya ve Litvanya 1409’da Prusya’daki Töton Şövalyeleri Tarikatı ile s
 
 @image grunwald-schilling-599102
 
-Kroniğini 15. yüzyılın ikinci yarısında yazan Jan Długosz’a göre kral 23 Eylül 1410’da ele geçirilen [Radzyń](@radzyn-1410) kalesini Sokol’a verir, kalenin garnizonunda Polonyalılar ve Çekler vardır, “aralarında sonradan Çek ordularının ünlü önderi olan Çek Žižka da”. Žižka’nın savaşın kendisine katılması geleneğe dayanır, Jan Matejko da 1878’de onu savaş alanında resmederken bu geleneği izler.
+15. yüzyılın ikinci yarısında yazan tarihçi Jan Długosz’a göre kral 23 Eylül 1410’da ele geçirilen [Radzyń](@radzyn-1410) kalesini Sokol’a verir, kalenin garnizonunda Polonyalılar ve Çekler vardır, “aralarında sonradan Çek ordularının ünlü önderi olan Çek Žižka da”. Žižka’nın savaşın kendisine katılması geleneğe dayanır, Jan Matejko da 1878’de onu savaş alanında resmederken bu geleneği izler.
 
 @image grunwald-matejko-d02b8e
 

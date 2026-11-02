@@ -2,7 +2,7 @@ Husçular şövalyeleri halkanın dışına atar, arabaları açar ve atlıları
 
 @image usti-jakoubek-8a7efd
 
-Husçu atlılar kaçanları Cevher Dağları’na doğru bir buçuk mil kovalar. Drahoniceli Bartošek kovalamacada yaklaşık 2.000 kişinin öldürüldüğünü, bir o kadarının da sıcaktan ve bitkinlikten öldüğünü yazar, sonraki kronik yazarları 6.000 ile 50.000 arasında sayılar verir. Ölenler arasında Gleichen kontları Ernst ile Friedrich, Meissen’in son burgrafı Hartensteinli Heinrich ve Beichlingen kontu vardır. Eski Çek Yıllıkları’na göre Husçuların kaybı 19 kişidir. Lützow, tepenin altındaki derenin ve döküldüğü göletin kızıla boyandığını, göletin de bu yüzden Blutteich, yani kan göleti diye anıldığını anlatan geleneği aktarır.
+Husçu atlılar kaçanları Cevher Dağları’na doğru bir buçuk mil kovalar. Drahoniceli Bartošek kovalamacada yaklaşık 2.000 kişinin öldürüldüğünü, bir o kadarının da sıcaktan ve bitkinlikten öldüğünü yazar, sonraki tarihçiler 6.000 ile 50.000 arasında sayılar verir. Ölenler arasında Gleichen kontları Ernst ile Friedrich, Meissen’in son burgrafı Hartensteinli Heinrich ve Beichlingen kontu vardır. Eski Çek Yıllıkları’na göre Husçuların kaybı 19 kişidir. Lützow, tepenin altındaki derenin ve döküldüğü göletin kızıla boyandığını, göletin de bu yüzden Blutteich, yani kan göleti diye anıldığını anlatan geleneği aktarır.
 
 @image usti-ales-2c8dca
 

@@ -1,4 +1,4 @@
-Kroniklerin verdiği tarihe göre 1441’de Xiu soyundan Ah Xiu Xupan, Meksika’nın başka yerlerinden gelen paralı askerlerin de yardımıyla [Mayapan’ın](@mayapan-1441) Cocom yöneticilerine karşı bir ayaklanma başlatır. Asiler kentteki bütün Cocomları öldürür. Aileden yalnızca ticaret için Honduras’ta bulunan bir kişi sağ kalır. Mayapan yağmalanır ve yakılır. Kazılarda tören merkezinde yanmış çatı kirişleri, ana meydanda da bir toplu mezar bulunmuştur. 1461 dolaylarından sonra kentte sunak ya da mezar sandukası yapılmaz.
+Maya tarih kitaplarının verdiği yıla göre 1441’de Xiu soyundan Ah Xiu Xupan, Meksika’nın başka yerlerinden gelen paralı askerlerin de yardımıyla [Mayapan’ın](@mayapan-1441) Cocom yöneticilerine karşı bir ayaklanma başlatır. Asiler kentteki bütün Cocomları öldürür. Aileden yalnızca ticaret için Honduras’ta bulunan bir kişi sağ kalır. Mayapan yağmalanır ve yakılır. Kazılarda tören merkezinde yanmış çatı kirişleri, ana meydanda da bir toplu mezar bulunmuştur. 1461 dolaylarından sonra kentte sunak ya da mezar sandukası yapılmaz.
 
 @image fall-of-mayapan-chumayel-05a651
 

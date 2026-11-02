@@ -1,4 +1,4 @@
-1098’de Norveç Kralı Magnus Olafsson, Man Kroniği’ne göre 160, Orderic Vitalis’e göre 60 gemilik büyük bir filoyla batıya açılır. Orkney’de iki jarlı tutsak olarak Norveç’e gönderir ve küçük oğlu Sigurd’u jarl yapar. Lewis, Uist, Skye, Mull, Islay ve Kintyre’ye akın eder, Man’i alır ve [Anglesey Boğazı’nda](@anglesey-1098) Normanları yenerek Kont Hugh of Montgomery’yi bir okla öldürür. İskoç Kralı Edgar batıdaki adaları ona bırakır, sagalara göre de Magnus Kintyre’yi de almak için gemisini Tarbert’teki kıstaktan karadan sürükletir.
+1098’de Norveç Kralı Magnus Olafsson, Man Yıllıkları’na göre 160, Orderic Vitalis’e göre 60 gemilik büyük bir filoyla batıya açılır. Orkney’de iki jarlı tutsak olarak Norveç’e gönderir ve küçük oğlu Sigurd’u jarl yapar. Lewis, Uist, Skye, Mull, Islay ve Kintyre’ye akın eder, Man’i alır ve [Anglesey Boğazı’nda](@anglesey-1098) Normanları yenerek Kont Hugh of Montgomery’yi bir okla öldürür. İskoç Kralı Edgar batıdaki adaları ona bırakır, sagalara göre de Magnus Kintyre’yi de almak için gemisini Tarbert’teki kıstaktan karadan sürükletir.
 
 @image largs-penning-b30220
 

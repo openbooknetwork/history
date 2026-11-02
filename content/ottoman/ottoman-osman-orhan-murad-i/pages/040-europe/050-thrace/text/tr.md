@@ -1,4 +1,4 @@
-Süleyman’ın akıncıları Gelibolu’dan Meriç boyunca yukarı çıkarak [Filibe](@philippopolis) (Plovdiv) ve Eski Zağra çevresindeki Bulgar topraklarına girer. 1355’te Çar İvan Aleksandır’ın oğlu ve varisi Mihail Asen onları Sofya yolu üzerinde karşılar ve öldürülür. Muharebe adını İhtiman’dan alır, ama yeri tam olarak bilinmez. Bir Bulgar kroniği yenilgiyi kaydeder, ama Osmanlılar geri döner ve Sofya’ya ulaşmaz.
+Süleyman’ın akıncıları Gelibolu’dan Meriç boyunca yukarı çıkarak [Filibe](@philippopolis) (Plovdiv) ve Eski Zağra çevresindeki Bulgar topraklarına girer. 1355’te Çar İvan Aleksandır’ın oğlu ve varisi Mihail Asen onları Sofya yolu üzerinde karşılar ve öldürülür. Muharebe adını İhtiman’dan alır, ama yeri tam olarak bilinmez. Dönemin bir Bulgar tarihçisi yenilgiyi kaydeder, ama Osmanlılar geri döner ve Sofya’ya ulaşmaz.
 
 @image ivan-alexander-family-1a7fbc
 

@@ -1,4 +1,4 @@
-16 Haziran 1426’da Petr Čornej ile Pavel Bělina’nın tahminine göre yaklaşık 11.000 kişilik Husçu birlikleri, [Ústí nad Labem’in](@usti-town-1426) batısında yaklaşık 13.000 kişilik bir Sakson kurtarma ordusuyla karşılaşır. Kronik yazarları iki taraf için de çok daha büyük sayılar verir, her Çek’e beş Alman düştüğünü yazanlar bile vardır. Husçular saldırıyı yaklaşık 500 arabalık, iki sıralı bir araba kalesinde bekler. Savaşı ikinci sıra belirler: birinci sırayı yaran şövalyeleri o durdurur.
+16 Haziran 1426’da Petr Čornej ile Pavel Bělina’nın tahminine göre yaklaşık 11.000 kişilik Husçu birlikleri, [Ústí nad Labem’in](@usti-town-1426) batısında yaklaşık 13.000 kişilik bir Sakson kurtarma ordusuyla karşılaşır. Dönemin tarihçileri iki taraf için de çok daha büyük sayılar verir, her Çek’e beş Alman düştüğünü yazanlar bile vardır. Husçular saldırıyı yaklaşık 500 arabalık, iki sıralı bir araba kalesinde bekler. Savaşı ikinci sıra belirler: birinci sırayı yaran şövalyeleri o durdurur.
 
 @image usti-cerny-303cd0
 

@@ -1,8 +1,8 @@
-Bir kuşak süren barışın ardından İngiltere’ye Viking akınları 980 ve 982’de yeniden başlar, 988’de Devon’un thegn’leri bir akıncı birliğini çetin bir çarpışmada yener. Ağustos 991’de çok daha büyük bir filo gelir. Anglo-Sakson Kroniği’nin A nüshası filonun önderini Olaf diye anar, bu kişi genellikle Olaf Tryggvason kabul edilir, ve filoya 93 gemi verir. Tarihçiler Sweyn Forkbeard’ın da büyük olasılıkla önderler arasında olduğunu düşünür.
+Bir kuşak süren barışın ardından İngiltere’ye Viking akınları 980 ve 982’de yeniden başlar, 988’de Devon’un thegn’leri bir akıncı birliğini çetin bir çarpışmada yener. Ağustos 991’de çok daha büyük bir filo gelir. Anglo-Sakson Yıllıkları’nın A nüshası filonun önderini Olaf diye anar, bu kişi genellikle Olaf Tryggvason kabul edilir, ve filoya 93 gemi verir. Tarihçiler Sweyn Forkbeard’ın da büyük olasılıkla önderler arasında olduğunu düşünür.
 
 @image maldon-pearse-901b58
 
-Kroniğe göre filo [Folkestone](@folkestone-991) çevresini yağmalar, ardından [Sandwich’e](@sandwich-991), oradan da [Ipswich’e](@ipswich-991) gider ve kenti ele geçirir. Sonra o zamanlar Panta adıyla bilinen Blackwater’ın halicine girer ve Maldon’un aşağısındaki Northey Adası’na yerleşir. 956’dan beri Essex ealdormanı olan ve krallığın önde gelen adamlarından sayılan Byrhtnoth kuvvetlerini toplar.
+Yıllıklar’a göre filo [Folkestone](@folkestone-991) çevresini yağmalar, ardından [Sandwich’e](@sandwich-991), oradan da [Ipswich’e](@ipswich-991) gider ve kenti ele geçirir. Sonra o zamanlar Panta adıyla bilinen Blackwater’ın halicine girer ve Maldon’un aşağısındaki Northey Adası’na yerleşir. 956’dan beri Essex ealdormanı olan ve krallığın önde gelen adamlarından sayılan Byrhtnoth kuvvetlerini toplar.
 
 @image maldon-charter-d32758
 

@@ -8,6 +8,6 @@ Harald York’ta asker bırakmamıştır, Northumbrialılar da rehineleri ve erz
 
 Norveçliler çarpışma beklemez, Snorri’nin anlatımına göre hava da sıcaktır, bu yüzden pek çoğu zırh gömleğini gemilerde bırakır. Irmağın iki yakasında beklerler ve bir İngiliz ordusu görünene kadar ondan haberleri olmaz.
 
-Anglo-Sakson Kroniği’nin C, D ve E elyazmaları Stamford Bridge’in adını verir. Gelenek asıl çarpışmayı ırmağın doğusundaki yükselti Battle Flats’e yerleştirir. Charles Plummer ise Kronik’teki “köprünün ötesinde” sözünü Norveçlilerin bakış açısından okur, bu da çarpışmayı batı yakasına koyar. 2020’de metal dedektörüyle arama yapanlar 1,6 km güneyde, doğu yakasındaki Low Catton yakınında Viking askeri buluntuları ortaya çıkarır ve bunları savaşın izleri sayar.
+Anglo-Sakson Yıllıkları’nın C, D ve E elyazmaları Stamford Bridge’in adını verir. Gelenek asıl çarpışmayı ırmağın doğusundaki yükselti Battle Flats’e yerleştirir. Charles Plummer ise Yıllıklar’daki “köprünün ötesinde” sözünü Norveçlilerin bakış açısından okur, bu da çarpışmayı batı yakasına koyar. 2020’de metal dedektörüyle arama yapanlar 1,6 km güneyde, doğu yakasındaki Low Catton yakınında Viking askeri buluntuları ortaya çıkarır ve bunları savaşın izleri sayar.
 
 @image stamford-bridge-battle-flat-60b604

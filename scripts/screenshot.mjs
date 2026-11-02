@@ -32,20 +32,25 @@ await send('Emulation.setEmulatedMedia', { features: [{ name: 'prefers-color-sch
 await send('Page.addScriptToEvaluateOnNewDocument', { source: `(() => { let ml; Object.defineProperty(window, 'maplibregl', { configurable: true, get: () => ml, set: v => { const M = v.Map; v.Map = class extends M { constructor(o) { super(o); window.__MAP = this; } }; ml = v; } }); })()` });
 // the story loads once, then the page's own go() steps to each page in place
 await send('Page.navigate', { url: base });
-// a cold start takes longer than a warm one: wait until the story's pages are defined, up to 30 s
-for (let i = 0; i < 60; i++) {
-  await sleep(500);
-  if ((await send('Runtime.evaluate', { expression: `typeof PAGES !== 'undefined' && PAGES.length > 0`, returnByValue: true })).result.result.value) break;
-}
+const evaluate = async expression => (await send('Runtime.evaluate', { expression, returnByValue: true })).result.result.value;
+const stop = msg => { console.error(msg); ws.close(); chrome.kill(); process.exit(1); };
+// a cold start, or harita dev rebuilding after an edit, takes a while: wait until the story's pages are defined, up to 90 s
+let loaded = false;
+for (let i = 0; i < 180 && !loaded; i++) { await sleep(500); loaded = await evaluate(`typeof PAGES !== 'undefined' && PAGES.length > 0`); }
+if (!loaded) stop(`${base} showed no story within 90 s. Check that the address is a story and that harita dev has finished building.`);
 await sleep(1000);
-if (process.env.SHOT_LANG) await send('Runtime.evaluate', { expression: `setLang(${JSON.stringify(process.env.SHOT_LANG)})` });
+if (process.env.SHOT_LANG) {
+  const langs = await evaluate('B.languages');
+  if (!langs.includes(process.env.SHOT_LANG)) stop(`SHOT_LANG=${process.env.SHOT_LANG}: the story's languages are ${langs.join(', ')}`);
+  await evaluate(`setLang(${JSON.stringify(process.env.SHOT_LANG)})`);
+}
 for (const id of ids) {
-  const found = (await send('Runtime.evaluate', { expression: `(i => { if (i >= 0) go(i); return i >= 0; })(PAGES.findIndex(p => p.id === ${JSON.stringify(id)}))`, returnByValue: true })).result.result.value;
+  const found = await evaluate(`(i => { if (i >= 0) go(i); return i >= 0; })(PAGES.findIndex(p => p.id === ${JSON.stringify(id)}))`);
   if (!found) { console.log(`no page ${id}`); continue; }
   await sleep(wait);
   if (process.env.SHOT_HOVER) {
     const expr = `(() => { const r = window.__MAP.getContainer().getBoundingClientRect(), p = window.__MAP.project([${process.env.SHOT_HOVER}]); return [r.left + p.x, r.top + p.y]; })()`;
-    const [x, y] = (await send('Runtime.evaluate', { expression: expr, returnByValue: true })).result.result.value;
+    const [x, y] = await evaluate(expr);
     for (const d of [8, 0]) { await send('Input.dispatchMouseEvent', { type: 'mouseMoved', x: x + d, y: y + d }); await sleep(400); }
   }
   const shot = await send('Page.captureScreenshot', { format: 'png' });

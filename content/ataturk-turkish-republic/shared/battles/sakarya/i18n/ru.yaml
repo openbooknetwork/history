@@ -1,0 +1,47 @@
+# ru strings for the battle "sakarya".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n ru
+
+# Grand National Assembly
+battle.sides.0.name: "Великое национальное собрание"
+
+# 101,727 soldiers, 5,401 officers, 196 guns
+battle.sides.0.strength: "101 727 солдат, 5401 офицер, 196 орудий"
+
+# 5,713 dead, 37,900 casualties in all
+battle.sides.0.casualties: "5713 погибших, общие потери 37 900"
+
+# Kingdom of Greece
+battle.sides.1.name: "Королевство Греция"
+
+# About 77,000 soldiers, 3,780 officers, 386 guns
+battle.sides.1.strength: "Около 77 000 солдат, 3780 офицеров, 386 орудий"
+
+# 3,958 dead, 23,267 casualties in all
+battle.sides.1.casualties: "3958 погибших, общие потери 23 267"
+
+# Battle of Sakarya
+battle.name: "Битва при Сакарье"
+
+# 23 August – 13 September 1921
+battle.date: "23 августа — 13 сентября 1921 года"
+
+# Turkish victory, end of the Greek advance
+battle.result: "Победа турок, конец греческого наступления"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Mustafa Kemal Pasha
+battle.sides.0.commanders.0: "Мустафа Кемаль-паша"
+
+# Fevzi Pasha
+battle.sides.0.commanders.1: "Февзи-паша"
+
+# İsmet Pasha
+battle.sides.0.commanders.2: "Исмет-паша"
+
+# King Constantine I
+battle.sides.1.commanders.0: "Король Константин I"
+
+# Anastasios Papoulas
+battle.sides.1.commanders.1: "Анастасиос Папулас"

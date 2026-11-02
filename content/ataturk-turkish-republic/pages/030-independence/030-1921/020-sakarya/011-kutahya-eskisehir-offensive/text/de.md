@@ -1,0 +1,3 @@
+[König Konstantin](@kutahya-eskisehir-offensive-constantine) kommt nach Anatolien, um die Offensive zu führen. Eine verstärkte griechische Armee von neun Divisionen greift die türkische Linie von Afyon, [Kütahya](@kutahya-eskisehir-offensive-kutahya) und [Eskişehir](@kutahya-eskisehir-offensive-eskisehir) an. Ihr Ziel ist es, die Eisenbahnen zu nehmen, die die drei Städte verbinden, und Anatolien in zwei Teile zu spalten. [İsmet Paschas](@kutahya-eskisehir-offensive-ismet) Westfront hält die Linie mit weniger Männern und Geschützen.
+
+Die griechische Armee durchbricht die türkischen Stellungen im Süden, nimmt Afyon und dann Kütahya ein und bereitet sich darauf vor, entlang der Eisenbahn nach Norden auf Eskişehir einzuschwenken.

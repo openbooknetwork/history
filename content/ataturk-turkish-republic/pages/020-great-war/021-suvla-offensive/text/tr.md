@@ -2,4 +2,4 @@ Hâlâ Arıburnu karşısındaki 19. Tümen’in komutanı olan Mustafa Kemal, C
 
 @image suvla-wilkinson-4a744e
 
-7 Ağustos’ta Yeni Zelandalılar Conkbayırı zirvesinin 500 yarda altındaki [Apex’e](@suvla-offensive-apex) ulaşır, gündüz yaptıkları saldırılar başarısız olur. Suvla’da yeni çıkan birlikler kumsallardan pek ayrılmaz. 8 Ağustos şafağında, bir deniz bombardımanının ardından Wellington Taburu zirveyi alır ve gün boyu karşı saldırılara dayanır.
+7 Ağustos’ta Yeni Zelandalılar Conkbayırı zirvesine 450 m uzaklıktaki [Apex’e](@suvla-offensive-apex) ulaşır, gündüz yaptıkları saldırılar başarısız olur. Suvla’da yeni çıkan birlikler kumsallardan pek ayrılmaz. 8 Ağustos şafağında, bir deniz bombardımanının ardından Wellington Taburu zirveyi alır ve gün boyu karşı saldırılara dayanır.

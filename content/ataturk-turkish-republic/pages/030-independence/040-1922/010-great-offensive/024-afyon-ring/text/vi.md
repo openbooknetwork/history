@@ -1,0 +1,3 @@
+Trong đêm, Quân đoàn VI Thổ Nhĩ Kỳ thuộc Tập đoàn quân số 2 đến phía bắc cụm Trikoupis, còn Quân đoàn Kị binh V và Quân đoàn IV chen vào giữa cụm Trikoupis và cụm Frangou tại Dumlupinar. Sáng ngày 29 tháng 8, khi Trikoupis di chuyển về phía tây, các đoàn quân của ông đụng phải các đơn vị Thổ Nhĩ Kỳ ở khắp mọi phía.
+
+Sư đoàn 9 của ông tấn công để mở đường đến Dumlupinar nhưng bị Quân đoàn IV đẩy vào thế phòng ngự. Ở sườn phía đông của ông, quân Thổ Nhĩ Kỳ tấn công Sư đoàn 12. Giao tranh tại [Hamurkoy và Ilbulak Dag](@afyon-ring-hamurkoy) kéo dài cả ngày, cả hai bên đều thương vong nặng nề. Lúc 23 giờ, cụm quân Hy Lạp thoát ra và hành quân trong bóng tối về phía [Calkoy](@afyon-ring-calkoy). Trên đường hành quân, các đơn vị lẫn lộn vào nhau, và cụm quân mất trật tự.

@@ -1,0 +1,9 @@
+# uk strings for the site.
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language; harita build --strict turns them into errors. Regenerate with: harita i18n uk
+
+# Open History Book
+site.title: "Відкрита книга історії"
+
+# Step-through maps of how places and people changed over time. A free educational project. Pick a story.
+site.intro: "Покрокові карти того, як змінювалися місця й люди з плином часу. Безкоштовний освітній проєкт. Оберіть історію."

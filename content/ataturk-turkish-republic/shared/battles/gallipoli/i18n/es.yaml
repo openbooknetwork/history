@@ -1,0 +1,38 @@
+# es strings for the battle "gallipoli".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n es
+
+# Ottoman Empire
+battle.sides.0.name: "Imperio otomano"
+
+# 250,000–315,500 over the campaign
+battle.sides.0.strength: "Entre 250 000 y 315 500 en toda la campaña"
+
+# 255,268–289,160, of them 56,938–87,000 dead
+battle.sides.0.casualties: "Entre 255 268 y 289 160, de ellos entre 56 938 y 87 000 muertos"
+
+# British Empire and France
+battle.sides.1.name: "Imperio británico y Francia"
+
+# 489,000–550,000 over the campaign
+battle.sides.1.strength: "Entre 489 000 y 550 000 en toda la campaña"
+
+# 252,000–300,000, of them 43,000–61,398 dead
+battle.sides.1.casualties: "Entre 252 000 y 300 000, de ellos entre 43 000 y 61 398 muertos"
+
+# Gallipoli campaign
+battle.name: "Campaña de Galípoli"
+
+# 19 February 1915 – 9 January 1916
+battle.date: "Del 19 de febrero de 1915 al 9 de enero de 1916"
+
+# Ottoman victory, Allied evacuation
+battle.result: "Victoria otomana, evacuación aliada"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Esat Pasha
+battle.sides.0.commanders.1: "Esat Pachá"
+
+# Vehip Pasha
+battle.sides.0.commanders.3: "Vehip Pachá"

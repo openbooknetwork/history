@@ -67,6 +67,13 @@ translation also follows that folder's file for its language, such as `tr.md`.
 story. A battle's strings sit in its folder's `i18n/tr.yaml`, and an image folder's caption in that folder's
 `i18n/tr.yaml`. The same command writes those catalogues.
 
+A whole story goes into a language through two agents in `.claude/agents/`: `translator`, then
+`translation-reviewer`, each given the story id and the language code. A request that names no language means every
+language of `site.yaml`'s `languages` other than `en`. Before dispatching, set the story's `languages` in `story.yaml`
+to `en` and those targets, then dispatch one `translator` per language. Any number run at once, one agent per story
+and language, since two agents on the same story and language save the same catalogue.
+`node scripts/check-translation.mjs <story> <lang>` checks a translation's shape against the English.
+
 ## Battles and images
 
 A battle's card is its own folder, `content/<story>/shared/battles/<battle id>/battle.yaml`, and the story's pages

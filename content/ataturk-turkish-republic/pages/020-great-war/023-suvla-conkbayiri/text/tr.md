@@ -4,4 +4,4 @@ Conkbayırı zirvesini ve altındaki yamacı yaklaşık 2.000 kişilik İngiliz 
 
 10 Ağustos şafağında Mustafa Kemal saldırıyı bizzat yönetir. Osmanlı piyadesi zirvedeki 6. South Lancashire Taburu’nu ezer, altındaki Wiltshire askerlerini dağıtır ve güneybatıdaki sırtın üzerinde Pinnacle tepeciğini alır. Kuzey yamaçta Baldwin’in tugayını Çiftlik’te ezer, Baldwin de ölür. [Apex’teki](@suvla-conkbayiri-apex) Yeni Zelanda makineli tüfekleri sırt boyunca ilerleyişi durdurur ve tükenmiş Osmanlı askerleri ana sırta çekilir.
 
-Conkbayırı’nın kaybı Sarı Bayır Muharebesi’ni sona erdirir. Apex yeni cephe hattı olur ve tepeler için bir daha girişimde bulunulmaz.
+İtilaf kuvvetlerinin Conkbayırı’nı kaybetmesi Sarı Bayır Muharebesi’ni sona erdirir. Apex yeni cephe hattı olur ve tepeler için bir daha girişimde bulunulmaz.

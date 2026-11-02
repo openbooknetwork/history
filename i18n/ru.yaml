@@ -1,0 +1,9 @@
+# ru strings for the site.
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language; harita build --strict turns them into errors. Regenerate with: harita i18n ru
+
+# Open History Book
+site.title: "Открытая книга истории"
+
+# Step-through maps of how places and people changed over time. A free educational project. Pick a story.
+site.intro: "Карты, которые шаг за шагом показывают, как со временем менялись места и люди. Бесплатный образовательный проект. Выберите историю."

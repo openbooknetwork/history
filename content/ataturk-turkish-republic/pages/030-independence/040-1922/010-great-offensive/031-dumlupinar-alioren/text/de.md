@@ -1,0 +1,5 @@
+Am Morgen des 30. August erreicht die Gruppe Trikoupis [Çalköy](@dumlupinar-alioren-calkoy) und gerät unter türkisches Artilleriefeuer. Um 11 Uhr zählt sie 7 000 kampffähige Infanteristen, dazu weitere 10 000 bis 15 000 Mann, ungeordnet und größtenteils unbewaffnet. Trikoupis wendet sich nach Westen in Richtung [Alıören](@dumlupinar-alioren-alioren) und Banaz, doch um 13:30 Uhr sperrt die türkische 14. Kavalleriedivision die Straße.
+
+@image dumlupinar-relief-d08fbc
+
+Die Griechen gehen in Stellung, um bis zur Dunkelheit auszuhalten. Das IV. Korps drängt von Osten und Süden, das VI. Korps von Norden, und ab 16 Uhr treffen die türkischen Geschütze die dicht gedrängten griechischen Einheiten schwer. In der Abenddämmerung bricht die Westflanke zusammen, und um 20:30 Uhr marschieren die Überlebenden nach Westen und lassen ihre Geschütze und ihre Verwundeten zurück. Kütahya wird am selben Abend eingenommen. Am nächsten Tag zählen die Türken mehr als 2 000 griechische Tote auf dem Schlachtfeld.

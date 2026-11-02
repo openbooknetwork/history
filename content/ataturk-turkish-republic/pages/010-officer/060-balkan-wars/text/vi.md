@@ -1,0 +1,3 @@
+Trong Chiến tranh Balkan lần thứ nhất, bắt đầu từ tháng 10 năm 1912, các nước Balkan chiếm gần như toàn bộ phần lãnh thổ châu Âu của Đế quốc Ottoman. Tháng 11, [Thessaloniki](@salonica-1912) (khi đó là Salonica) rơi vào tay Hy Lạp.
+
+Mustafa Kemal là trưởng phòng tác chiến của Quân đoàn [Bulair](@bolayir), đơn vị canh giữ eo đất của bán đảo Gallipoli và con đường bộ dẫn tới eo biển Dardanelles. Ngày 8 tháng 2 năm 1913, cuộc tấn công của quân đoàn tại Bulair thất bại. Tháng 3, [Edirne](@edirne) đầu hàng quân Bulgaria và Serbia. Tháng 7 năm 1913, trong Chiến tranh Balkan lần thứ hai, quân Ottoman chiếm lại thành phố này.

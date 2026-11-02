@@ -1,0 +1,3 @@
+Le [roi Constantin](@kutahya-eskisehir-offensive-constantine) vient en Anatolie pour diriger l’offensive. Une armée grecque renforcée, forte de neuf divisions, attaque la ligne turque d’Afyon, de [Kütahya](@kutahya-eskisehir-offensive-kutahya) et d’[Eskişehir](@kutahya-eskisehir-offensive-eskisehir), dans le but de s’emparer des voies ferrées qui relient les trois villes et de couper l’Anatolie en deux. Le front de l’Ouest d’[İsmet Pacha](@kutahya-eskisehir-offensive-ismet) tient la ligne avec moins d’hommes et de canons.
+
+L’armée grecque perce les positions turques au sud, prend Afyon puis Kütahya, et s’apprête à remonter vers le nord le long de la voie ferrée, en direction d’Eskişehir.

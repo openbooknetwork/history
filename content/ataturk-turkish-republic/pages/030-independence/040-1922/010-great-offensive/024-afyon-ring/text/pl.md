@@ -1,0 +1,3 @@
+W nocy turecki VI Korpus 2 Armii dociera na północ od grupy Trikupisa, a V Korpus Kawalerii i IV Korpus wchodzą między grupę Trikupisa a grupę Frangu pod Dumlupınarem. Gdy rano 29 sierpnia Trikupis rusza na zachód, jego kolumny ze wszystkich stron natrafiają na oddziały tureckie.
+
+Jego 9 Dywizja atakuje, by otworzyć drogę do Dumlupınaru, a IV Korpus spycha ją do obrony. Na wschodnim skrzydle Trikupisa Turcy atakują 12 Dywizję. Walki pod [Hamurköy i İlbulak Dağ](@afyon-ring-hamurkoy) trwają cały dzień, z ciężkimi stratami po obu stronach. O 23.00 grupa grecka odrywa się od przeciwnika i po ciemku maszeruje w stronę [Çalköy](@afyon-ring-calkoy). W marszu jej oddziały się mieszają i grupa traci szyk.

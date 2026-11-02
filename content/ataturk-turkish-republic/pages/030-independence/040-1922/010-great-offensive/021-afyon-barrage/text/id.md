@@ -1,0 +1,5 @@
+[Mustafa Kemal](@afyon-barrage-kemal) telah memusatkan Angkatan Darat Pertama pimpinan [Nurettin Pasha](@afyon-barrage-nurettin) untuk menghadapi sisi selatan tonjolan garis Yunani di sekitar [Afyon](@afyon-barrage-afyon). Langkah ini adalah pertaruhan, karena sayap kanan Turki menjadi lemah. Markas Front Barat berada di Kocatepe, 15 km di selatan kota itu. Pada malam 25–26 Agustus Korps Kavaleri V pimpinan Fahrettin Pasha melewati Ngarai Kırka menuju bagian belakang garis Yunani, dan menjelang pukul 18.00 pada 26 Agustus korps itu telah memutus jalur kereta api dan telegraf antara Afyon dan Izmir.
+
+@image kocatepe-dawn-1922-e75a6a
+
+Saat fajar artileri melepaskan tembakan. Meriam berat Turki melumpuhkan baterai ringan Yunani, dan beberapa batalyon garis depan Yunani kehilangan separuh prajuritnya akibat rentetan tembakan artileri itu saja. Tujuh divisi dari Korps I dan IV menyerang dua divisi Yunani, Divisi ke‑1 dan ke‑4, dan menjelang tengah hari Korps I menguasai parit-parit Divisi ke‑1 Yunani. Angkatan Darat Kedua menyerang di utara kota itu dan menahan Korps III Yunani di Eskişehir agar tidak bergerak.

@@ -1,0 +1,1562 @@
+# ur strings for the story "ataturk-turkish-republic".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n ur
+
+# 1881 – 1914: The making of an officer
+groups.officer.title: "1881ء تا 1914ء: ایک افسر کی تشکیل"
+
+# 1915 – 1918: The Great War
+groups.great-war.title: "1915ء تا 1918ء: جنگِ عظیم"
+
+# 1919 – 1923: The War of Independence
+groups.independence.title: "1919ء تا 1923ء: جنگِ آزادی"
+
+# 1919
+groups.1919.title: "1919ء"
+
+# May
+groups.may.title: "مئی"
+
+# 1920
+groups.1920.title: "1920ء"
+
+# 1921
+groups.1921.title: "1921ء"
+
+# Sakarya
+groups.sakarya.title: "سقاریہ"
+
+# 1922
+groups.1922.title: "1922ء"
+
+# The Great Offensive
+groups.great-offensive.title: "بڑا حملہ"
+
+# 1923
+groups.1923.title: "1923ء"
+
+# 1923 – 1939: Epilogue
+groups.epilogue.title: "1923ء تا 1939ء: اختتامیہ"
+
+# Sanjak of Alexandretta, French Mandate of Syria
+zones.alexandretta.name: "سنجق اسکندرون، شام پر فرانسیسی انتداب"
+
+# Allied beachheads at Cape Helles and Anzac, April 1915
+zones.beachheads-april-1915.name: "راس ہیلیز اور انزاک میں اتحادیوں کے ساحلی مورچے، اپریل 1915ء"
+
+# Allied beachheads at Cape Helles, Anzac and Suvla Bay, August 1915
+zones.beachheads-august-1915.name: "راس ہیلیز، انزاک اور خلیج سولا میں اتحادیوں کے ساحلی مورچے، اگست 1915ء"
+
+# Allied (British) occupation of İstanbul, the Straits, Gaziantep, Kahramanmaraş and Şanlıurfa, 1919
+zones.british-1919.name: "استنبول، آبنائے، غازی عینتاب، قہرمان مرعش اور شانلی اورفہ پر اتحادی (برطانوی) قبضہ، 1919ء"
+
+# Allied (British) occupation of İstanbul and the Straits
+zones.british.name: "استنبول اور آبنائے پر اتحادی (برطانوی) قبضہ"
+
+# French occupation zone (Cilicia), 1919
+zones.french-1919.name: "فرانسیسی مقبوضہ علاقہ (کیلیکیا)، 1919ء"
+
+# French occupation zone (Cilicia)
+zones.french.name: "فرانسیسی مقبوضہ علاقہ (کیلیکیا)"
+
+# Greek occupation of Eastern Thrace, 1920 to 1922
+zones.greek-thrace.name: "مشرقی تھریس پر یونانی قبضہ، 1920ء تا 1922ء"
+
+# Greek occupation zone, 1919
+zones.greek1919.name: "یونانی مقبوضہ علاقہ، 1919ء"
+
+# Greek occupation of western Anatolia and Eastern Thrace, summer 1920
+zones.greek1920.name: "مغربی اناطولیہ اور مشرقی تھریس پر یونانی قبضہ، موسمِ گرما 1920ء"
+
+# Greek occupation of western Anatolia and Eastern Thrace, 1921 to 1922
+zones.greek1921.name: "مغربی اناطولیہ اور مشرقی تھریس پر یونانی قبضہ، 1921ء تا 1922ء"
+
+# Italian occupation zone
+zones.italian.name: "اطالوی مقبوضہ علاقہ"
+
+# Ottoman Europe lost in the Balkan Wars, 1912 to 1913
+zones.rumelia-lost.name: "بلقان کی جنگوں میں کھویا ہوا عثمانی یورپ، 1912ء تا 1913ء"
+
+# Borders of the Republic of Turkey under the Treaty of Lausanne, 1923
+zones.turkey-1923.name: "معاہدہ لوزان کے تحت جمہوریہ ترکی کی سرحدیں، 1923ء"
+
+# Action Army, Thessaloniki to Yeşilköy, April 1909
+routes.action-army-1909.name: "حرکت فوج، تھیسالونیکی سے یشیل کوئے تک، اپریل 1909ء"
+
+# By train to Vienna and Germany, December 1917
+routes.germany-1917.name: "ریل گاڑی سے ویانا اور جرمنی، دسمبر 1917ء"
+
+# The Great Offensive, 26 August to 9 September 1922
+routes.great-offensive-route.name: "بڑا حملہ، 26 اگست تا 9 ستمبر 1922ء"
+
+# Back to Sivas, August to September 1919
+routes.kemal-1919-back.name: "سیواس واپسی، اگست تا ستمبر 1919ء"
+
+# Mustafa Kemal, May to July 1919
+routes.kemal-1919.name: "مصطفیٰ کمال، مئی تا جولائی 1919ء"
+
+# Sivas to Ankara, December 1919
+routes.sivas-ankara.name: "سیواس سے انقرہ، دسمبر 1919ء"
+
+# The Allied fleet arrives, 13 November 1918
+markers.istanbul.note: "اتحادی بیڑا پہنچتا ہے، 13 نومبر 1918ء"
+
+# Greek landing, 15 May 1919
+markers.izmir.note: "یونانی فوج اترتی ہے، 15 مئی 1919ء"
+
+# Italian landing, 28 March 1919
+markers.antalya.note: "اطالوی فوج اترتی ہے، 28 مارچ 1919ء"
+
+# French occupation, December 1918
+markers.adana.note: "فرانسیسی قبضہ، دسمبر 1918ء"
+
+# Mustafa Kemal lands, 19 May 1919
+markers.samsun.note: "مصطفیٰ کمال ساحل پر اترتے ہیں، 19 مئی 1919ء"
+
+# Circular, 22 June 1919
+markers.amasya.note: "گشتی مراسلہ، 22 جون 1919ء"
+
+# Congress, 23 July to 7 August 1919
+markers.erzurum.note: "کانگریس، 23 جولائی تا 7 اگست 1919ء"
+
+# Congress, 4 to 11 September 1919
+markers.sivas.note: "کانگریس، 4 تا 11 ستمبر 1919ء"
+
+# Grand National Assembly, 23 April 1920
+markers.ankara.note: "مجلس کبیر ملی، 23 اپریل 1920ء"
+
+# Formal occupation, 16 March 1920
+markers.istanbul-1920.note: "باضابطہ قبضہ، 16 مارچ 1920ء"
+
+# Taken by the Greek army, 8 July 1920
+markers.bursa.note: "یونانی فوج کے قبضے میں، 8 جولائی 1920ء"
+
+# Born 1881
+markers.salonica.note: "پیدائش، 1881ء"
+
+# Military high school, 1896 to 1899
+markers.monastir.note: "فوجی ہائی اسکول، 1896ء تا 1899ء"
+
+# War College, 1899 to 1905
+markers.istanbul-war-college.note: "حربی کالج، 1899ء تا 1905ء"
+
+# Vatan society, 1906
+markers.damascus.note: "خفیہ تنظیم وطن، 1906ء"
+
+# Command, March 1912
+markers.derna.note: "کمان، مارچ 1912ء"
+
+# Gallipoli line, 1912 to 1913
+markers.bolayir.note: "گیلی پولی کی دفاعی لائن، 1912ء تا 1913ء"
+
+# Retaken, 22 July 1913
+markers.edirne.note: "واپس لیا گیا، 22 جولائی 1913ء"
+
+# Military attaché, 1913 to 1915
+markers.sofia.note: "فوجی اتاشی، 1913ء تا 1915ء"
+
+# 57th Regiment, 25 April 1915
+markers.gallipoli-landing.note: "57ویں رجمنٹ، 25 اپریل 1915ء"
+
+# Allied landing, 6 August 1915
+markers.suvla.note: "اتحادی فوج اترتی ہے، 6 اگست 1915ء"
+
+# Counterattack, 10 August 1915
+markers.chunuk-bair.note: "جوابی حملہ، 10 اگست 1915ء"
+
+# Retaken, 8 August 1916
+markers.bitlis.note: "واپس لیا گیا، 8 اگست 1916ء"
+
+# Megiddo offensive, 19 September 1918
+markers.nablus.note: "مجدو کا حملہ، 19 ستمبر 1918ء"
+
+# The Seventh Army holds a line at Qatma, 26 October 1918
+markers.aleppo.note: "ساتویں فوج قطمہ پر ایک دفاعی لائن قائم رکھتی ہے، 26 اکتوبر 1918ء"
+
+# Armistice, 30 October 1918
+markers.mudros.note: "جنگ بندی، 30 اکتوبر 1918ء"
+
+# Taken, 30 October 1920
+markers.kars.note: "قبضے میں لیا گیا، 30 اکتوبر 1920ء"
+
+# Treaty, 3 December 1920
+markers.gyumri.note: "معاہدہ، 3 دسمبر 1920ء"
+
+# Battles, January and March 1921
+markers.inonu.note: "جنگیں، جنوری اور مارچ 1921ء"
+
+# Battle, 23 August to 13 September 1921
+markers.sakarya.note: "جنگ، 23 اگست تا 13 ستمبر 1921ء"
+
+# Decisive battle, 30 August 1922
+markers.dumlupinar.note: "فیصلہ کن جنگ، 30 اگست 1922ء"
+
+# Liberated, 9 September 1922
+markers.izmir-1922.note: "آزاد کرایا گیا، 9 ستمبر 1922ء"
+
+# Armistice, 11 October 1922
+markers.mudanya.note: "جنگ بندی، 11 اکتوبر 1922ء"
+
+# Capital and Republic, October 1923
+markers.ankara-1923.note: "دارالحکومت اور جمہوریہ، اکتوبر 1923ء"
+
+# 10 November 1938
+markers.dolmabahce.note: "10 نومبر 1938ء"
+
+# Taken by Greek army, 19 July 1921
+markers.eskisehir.note: "یونانی فوج کے قبضے میں، 19 جولائی 1921ء"
+
+# Headquarters during Sakarya
+markers.alagoz.note: "سقاریہ کی جنگ کے دوران ہیڈکوارٹر"
+
+# Front headquarters, August 1922
+markers.aksehir.note: "محاذ کا ہیڈکوارٹر، اگست 1922ء"
+
+# Taken, 27 August 1922
+markers.afyon.note: "قبضے میں لیا گیا، 27 اگست 1922ء"
+
+# Dawn, 26 August 1922
+markers.kocatepe.note: "فجر، 26 اگست 1922ء"
+
+# Taken by Greece, 8 November 1912
+markers.salonica-1912.note: "یونان کے قبضے میں، 8 نومبر 1912ء"
+
+# Bulgarian advance stopped, November 1912
+markers.catalca.note: "بلغاری پیش قدمی روکی گئی، نومبر 1912ء"
+
+# Niyazi leaves for the hills, 3 July 1908
+markers.resne.note: "نیازی پہاڑوں کا رخ کرتے ہیں، 3 جولائی 1908ء"
+
+# The Action Army sets out, April 1909
+markers.salonica-1909.note: "حرکت فوج روانہ ہوتی ہے، اپریل 1909ء"
+
+# Abdülhamid II deposed, 27 April 1909
+markers.istanbul-1909.note: "عبدالحمید ثانی معزول، 27 اپریل 1909ء"
+
+# Headquarters of the Yıldırım Army Group, 1917
+markers.aleppo-1917.note: "یلدرم فوجی گروپ کا ہیڈکوارٹر، 1917ء"
+
+# Returns after resigning, October 1917
+markers.istanbul-1917.note: "استعفے کے بعد واپسی، اکتوبر 1917ء"
+
+# Taken by the Greek army, summer 1920
+markers.balikesir.note: "یونانی فوج کے قبضے میں، موسمِ گرما 1920ء"
+
+# Taken by the Greek army, August 1920
+markers.usak.note: "یونانی فوج کے قبضے میں، اگست 1920ء"
+
+# Taken by the Greek army, 25 July 1920
+markers.edirne-1920.note: "یونانی فوج کے قبضے میں، 25 جولائی 1920ء"
+
+# Capital of the Hatay State, 1938 to 1939
+markers.antakya.note: "ریاست ہاتائے کا دارالحکومت، 1938ء تا 1939ء"
+
+# Ashore at about 4.30
+markers.gallipoli-landing-dawn-brigade.note: "تقریباً صبح 4 بج کر 30 منٹ پر ساحل پر"
+
+# 27th Regiment, from Eceabat
+markers.gallipoli-landing-dawn-sefik.note: "27ویں رجمنٹ، ایجے آباد سے"
+
+# Near the beach that the plan intended
+markers.gallipoli-landing-dawn-kabatepe.note: "اس ساحل کے قریب جو منصوبے میں طے تھا"
+
+# At Scrubby Knoll (Kemalyeri), about 10.00
+markers.gallipoli-landing-57th-kemal.note: "جھاڑیوں والے ٹیلے (کمال یری) پر، تقریباً صبح 10 بجے"
+
+# Changes hands through the day
+markers.gallipoli-landing-57th-baby-700.note: "دن بھر قبضہ بدلتا رہتا ہے"
+
+# Commits the 77th and the 72nd
+markers.gallipoli-landing-afternoon-kemal.note: "77ویں اور 72ویں رجمنٹ کو لڑائی میں اتارتے ہیں"
+
+# 16,000 men ashore by nightfall
+markers.gallipoli-landing-afternoon-beachhead.note: "رات تک 16,000 آدمی ساحل پر"
+
+# Taken on the first night
+markers.suvla-offensive-lala-baba.note: "پہلی رات قبضے میں لیا گیا"
+
+# 450 m from the summit
+markers.suvla-offensive-apex.note: "چوٹی سے 450 میٹر دور"
+
+# The highest point of the Sari Bair range
+markers.suvla-offensive-971.note: "ساری بیر کے پہاڑی سلسلے کا سب سے اونچا مقام"
+
+# Commands the front from Suvla to Chunuk Bair
+markers.suvla-tekke-tepe-kemal.note: "سولا سے چونک بیر تک محاذ کی کمان کرتے ہیں"
+
+# Scrub set on fire by gunfire
+markers.suvla-tekke-tepe-scimitar.note: "گولہ باری سے جھاڑیوں میں آگ لگ جاتی ہے"
+
+# Leads the attack at dawn
+markers.suvla-conkbayiri-kemal.note: "فجر کے وقت حملے کی قیادت کرتے ہیں"
+
+# Killed at the Farm
+markers.suvla-conkbayiri-baldwin.note: "فارم پر مارے جاتے ہیں"
+
+# Becomes the new front line
+markers.suvla-conkbayiri-apex.note: "نیا محاذی خط بن جاتا ہے"
+
+# The dominant hill
+markers.inonu-first-metristepe.note: "علاقے پر حاوی پہاڑی"
+
+# Commander of the Western Front
+markers.inonu-first-ismet.note: "مغربی محاذ کے کمانڈر"
+
+# On the road from Bursa
+markers.inonu-first-bozuyuk.note: "برصہ سے آنے والی سڑک پر"
+
+# Telegram to Mustafa Kemal, 1 April
+markers.inonu-second-metristepe.note: "مصطفیٰ کمال کو تار، 1 اپریل"
+
+# Counterattacks on 31 March
+markers.inonu-second-ismet.note: "31 مارچ کو جوابی حملے کرتے ہیں"
+
+# Leads the offensive
+markers.kutahya-eskisehir-offensive-constantine.note: "حملے کی قیادت کرتے ہیں"
+
+# Western Front
+markers.kutahya-eskisehir-offensive-ismet.note: "مغربی محاذ"
+
+# Falls to the Greeks
+markers.kutahya-eskisehir-offensive-kutahya.note: "یونانیوں کے قبضے میں چلا جاتا ہے"
+
+# Junction of the railways
+markers.kutahya-eskisehir-offensive-eskisehir.note: "ریلوے لائنوں کا جنکشن"
+
+# The army matters more than the ground
+markers.kutahya-eskisehir-retreat-kemal.note: "زمین سے زیادہ فوج اہم ہے"
+
+# The Greek leaders meet here
+markers.kutahya-eskisehir-retreat-kutahya.note: "یونانی قائدین یہاں ملتے ہیں"
+
+# Headquarters of the general staff
+markers.sakarya-approach-polatli.note: "جنرل اسٹاف کا ہیڈکوارٹر"
+
+# Orders the attack, 10 August
+markers.sakarya-approach-constantine.note: "حملے کا حکم دیتے ہیں، 10 اگست"
+
+# Commanding heights, 2 September
+markers.sakarya-heights-cal-dagi.note: "حاوی بلندیاں، 2 ستمبر"
+
+# The Greek advance comes close to Haymana
+markers.sakarya-heights-haymana.note: "یونانی پیش قدمی ہایمانا کے قریب آ پہنچتی ہے"
+
+# Leads the counterattack, 8 September
+markers.sakarya-counterattack-kemal.note: "جوابی حملے کی قیادت کرتے ہیں، 8 ستمبر"
+
+# Retaken, 20 September
+markers.sakarya-counterattack-sivrihisar.note: "واپس لیا گیا، 20 ستمبر"
+
+# Watches from Kocatepe at dawn
+markers.afyon-barrage-kemal.note: "فجر کے وقت کوجا تپہ سے دیکھتے ہیں"
+
+# First Army
+markers.afyon-barrage-nurettin.note: "پہلی فوج"
+
+# Greek I Corps
+markers.afyon-barrage-afyon.note: "یونانی پہلی کور"
+
+# The line breaks at 9.00
+markers.afyon-erkmentepe-peak.note: "صبح 9 بجے دفاعی لائن ٹوٹتی ہے"
+
+# Turkish by the evening
+markers.afyon-erkmentepe-afyon.note: "شام تک ترکوں کے ہاتھ میں"
+
+# Trikoupis’s group spends the night of 28 to 29 August here
+markers.afyon-gap-olucak.note: "تریکوپیس کا گروپ 28 اور 29 اگست کی درمیانی رات یہاں گزارتا ہے"
+
+# Column broken at 7.00
+markers.afyon-gap-fourth-division.note: "صبح 7 بجے کالم بکھر جاتا ہے"
+
+# Frangou’s line on 28 August
+markers.afyon-gap-baskimse.note: "28 اگست کو فرانگو کی دفاعی لائن"
+
+# All day, heavy losses
+markers.afyon-ring-hamurkoy.note: "دن بھر لڑائی، بھاری نقصان"
+
+# The Greeks march here at night
+markers.afyon-ring-calkoy.note: "یونانی رات کو یہاں کوچ کرتے ہیں"
+
+# Directs the battle from Zafertepe
+markers.dumlupinar-alioren-kemal.note: "ظفر تپہ سے جنگ کی کمان کرتے ہیں"
+
+# The road west is blocked
+markers.dumlupinar-alioren-alioren.note: "مغرب کا راستہ بند ہے"
+
+# Under artillery fire from 7.00
+markers.dumlupinar-alioren-calkoy.note: "صبح 7 بجے سے توپ خانے کی زد میں"
+
+# Surrenders, 17.00, 2 September
+markers.dumlupinar-surrender-trikoupis.note: "ہتھیار ڈالتے ہیں، شام 5 بجے، 2 ستمبر"
+
+# Frangou’s line of retreat
+markers.dumlupinar-surrender-banaz.note: "فرانگو کی پسپائی کا راستہ"
+
+# Hatay, joined to the Republic of Turkey in 1939
+zones.hatay-1939.name: "ہاتائے، 1939ء میں جمہوریہ ترکی میں شامل"
+
+# 1881
+pages.salonica.date: "1881ء"
+
+# Born in Thessaloniki
+pages.salonica.title: "تھیسالونیکی میں پیدائش"
+
+# 1896 to 1899
+pages.monastir.date: "1896ء تا 1899ء"
+
+# Military high school at Bitola
+pages.monastir.title: "بیتولا کا فوجی ہائی اسکول"
+
+# 1899 to 1905
+pages.war-college.date: "1899ء تا 1905ء"
+
+# War College and Staff College in İstanbul
+pages.war-college.title: "استنبول کا حربی کالج اور اسٹاف کالج"
+
+# 1905 to 1907
+pages.damascus.date: "1905ء تا 1907ء"
+
+# Damascus and the first secret society
+pages.damascus.title: "دمشق اور پہلی خفیہ تنظیم"
+
+# July 1908 to April 1909
+pages.action-army.date: "جولائی 1908ء تا اپریل 1909ء"
+
+# The 1908 revolution and the Action Army
+pages.action-army.title: "1908ء کا انقلاب اور حرکت فوج"
+
+# December 1911 to October 1912
+pages.tripolitania.date: "دسمبر 1911ء تا اکتوبر 1912ء"
+
+# Tobruk and Derna
+pages.tripolitania.title: "طبرق اور درنہ"
+
+# November 1912 to July 1913
+pages.balkan-wars.date: "نومبر 1912ء تا جولائی 1913ء"
+
+# The Balkan Wars, Gallipoli and Edirne
+pages.balkan-wars.title: "بلقان کی جنگیں، گیلی پولی اور ادرنہ"
+
+# October 1913 to January 1915
+pages.sofia.date: "اکتوبر 1913ء تا جنوری 1915ء"
+
+# Military attaché in Sofia
+pages.sofia.title: "صوفیہ میں فوجی اتاشی"
+
+# 25 April 1915
+pages.gallipoli-landing.date: "25 اپریل 1915ء"
+
+# Anzac Cove: the landing at Gallipoli
+pages.gallipoli-landing.title: "خلیج انزاک: گیلی پولی پر اتحادی فوج کا اترنا"
+
+# Steam pinnaces towing the boats of the covering force
+emblems.gallipoli-landing-dawn.tows: "پیش رو دستے کی کشتیاں کھینچتی ہوئی بھاپ کی چھوٹی کشتیاں"
+
+# 11th Battalion, towards Russell’s Top and the Nek
+emblems.gallipoli-landing-dawn.eleventh-battalion: "11ویں بٹالین، رسل کی چوٹی اور نیک کی طرف"
+
+# 10th Battalion, on Plugge’s Plateau
+emblems.gallipoli-landing-dawn.tenth-battalion: "دسویں بٹالین، پلگ کی سطح مرتفع پر"
+
+# 9th and 12th Battalions, towards the 400 Plateau
+emblems.gallipoli-landing-dawn.ninth-battalion: "نویں اور 12ویں بٹالین، سطح مرتفع 400 کی طرف"
+
+# A platoon of the 2nd Battalion, 27th Regiment, falling back
+emblems.gallipoli-landing-dawn.turkish-platoon: "27ویں رجمنٹ کی دوسری بٹالین کی ایک پلاٹون، پیچھے ہٹتی ہوئی"
+
+# A second platoon at the Fisherman’s Hut
+emblems.gallipoli-landing-dawn.fishermans-hut: "مچھیرے کی جھونپڑی پر ایک دوسری پلاٹون"
+
+# The first six companies land at Anzac Cove, about 4.30
+emblems.gallipoli-landing-dawn.first-wave: "پہلی چھ کمپنیاں تقریباً صبح 4 بج کر 30 منٹ پر خلیج انزاک میں اترتی ہیں"
+
+# The second six companies land while it is still dark
+emblems.gallipoli-landing-dawn.second-wave: "دوسری چھ کمپنیاں اندھیرے ہی میں اترتی ہیں"
+
+# Small parties push on to Baby 700
+emblems.gallipoli-landing-dawn.to-baby-700: "چند سپاہیوں کی ٹولیاں آگے بڑھ کر چھوٹی پہاڑی 700 تک جاتی ہیں"
+
+# Towards the 400 Plateau
+emblems.gallipoli-landing-dawn.to-400-plateau: "سطح مرتفع 400 کی طرف"
+
+# The Ottoman platoon withdraws inland
+emblems.gallipoli-landing-dawn.platoon-falls-back: "عثمانی پلاٹون اندر کی طرف پیچھے ہٹتی ہے"
+
+# Mehmet Şefik’s 27th Regiment marches from Eceabat
+emblems.gallipoli-landing-dawn.sefik-march: "محمد شفیق کی 27ویں رجمنٹ ایجے آباد سے کوچ کرتی ہے"
+
+# 25 April 1915, dawn
+pages.gallipoli-landing-dawn.date: "25 اپریل 1915ء، فجر"
+
+# Anzac Cove: the landing at dawn
+pages.gallipoli-landing-dawn.title: "خلیج انزاک: فجر کے وقت اترنا"
+
+# Australians on the second ridge, from Pope’s Hill to the 400 Plateau
+emblems.gallipoli-landing-57th.anzac-second-ridge: "دوسرے پہاڑی سلسلے پر آسٹریلوی، پوپ کی پہاڑی سے سطح مرتفع 400 تک"
+
+# Australians on Baby 700
+emblems.gallipoli-landing-57th.anzac-baby-700: "چھوٹی پہاڑی 700 پر آسٹریلوی"
+
+# Australians at the Nek and Russell’s Top
+emblems.gallipoli-landing-57th.anzac-nek: "نیک اور رسل کی چوٹی پر آسٹریلوی"
+
+# 1st Battalion, 57th Regiment: against Baby 700 and Mortar Ridge
+emblems.gallipoli-landing-57th.first-battalion: "57ویں رجمنٹ کی پہلی بٹالین: چھوٹی پہاڑی 700 اور مارٹر پہاڑی کے خلاف"
+
+# 2nd Battalion, 57th Regiment: round to the west of Baby 700
+emblems.gallipoli-landing-57th.second-battalion: "57ویں رجمنٹ کی دوسری بٹالین: گھوم کر چھوٹی پہاڑی 700 کے مغرب کی طرف"
+
+# 3rd Battalion, 57th Regiment, in reserve
+emblems.gallipoli-landing-57th.third-battalion: "57ویں رجمنٹ کی تیسری بٹالین، ریزرو میں"
+
+# Mountain battery on the knoll
+emblems.gallipoli-landing-57th.battery: "ٹیلے پر پہاڑی توپ خانے کی بیٹری"
+
+# 27th Regiment on Gun Ridge
+emblems.gallipoli-landing-57th.twenty-seventh: "توپ پہاڑی پر 27ویں رجمنٹ"
+
+# The 1st Battalion attacks Baby 700
+emblems.gallipoli-landing-57th.attack-baby-700: "پہلی بٹالین چھوٹی پہاڑی 700 پر حملہ کرتی ہے"
+
+# The 1st Battalion attacks Mortar Ridge
+emblems.gallipoli-landing-57th.attack-mortar-ridge: "پہلی بٹالین مارٹر پہاڑی پر حملہ کرتی ہے"
+
+# The 2nd Battalion circles round to the west
+emblems.gallipoli-landing-57th.round-the-west: "دوسری بٹالین گھوم کر مغرب کی طرف جاتی ہے"
+
+# 25 April 1915, morning
+pages.gallipoli-landing-57th.date: "25 اپریل 1915ء، صبح"
+
+# Anzac Cove: the 57th Regiment
+pages.gallipoli-landing-57th.title: "خلیج انزاک: 57ویں رجمنٹ"
+
+# The Anzac line at nightfall, under 3 km long
+emblems.gallipoli-landing-afternoon.anzac-line: "رات کے وقت انزاک کی دفاعی لائن، 3 کلو میٹر سے کم لمبی"
+
+# Australians and New Zealanders from Walker’s Ridge to Pope’s Hill
+emblems.gallipoli-landing-afternoon.anzac-north: "واکر کی پہاڑی سے پوپ کی پہاڑی تک آسٹریلوی اور نیوزی لینڈ کے فوجی"
+
+# Australians on the western slope of the 400 Plateau and Bolton’s Ridge
+emblems.gallipoli-landing-afternoon.anzac-south: "سطح مرتفع 400 کی مغربی ڈھلوان اور بولٹن کی پہاڑی پر آسٹریلوی"
+
+# What is left of the 57th Regiment on Baby 700
+emblems.gallipoli-landing-afternoon.fifty-seventh: "چھوٹی پہاڑی 700 پر 57ویں رجمنٹ کے بچے کھچے سپاہی"
+
+# 72nd Regiment, attacking from the north at 16.30
+emblems.gallipoli-landing-afternoon.seventy-second: "72ویں رجمنٹ، سہ پہر 4 بج کر 30 منٹ پر شمال سے حملہ کرتی ہوئی"
+
+# Two battalions of the 77th Regiment, between the 57th and the 27th
+emblems.gallipoli-landing-afternoon.seventy-seventh: "77ویں رجمنٹ کی دو بٹالینیں، 57ویں اور 27ویں کے درمیان"
+
+# 27th Regiment, on the 400 Plateau
+emblems.gallipoli-landing-afternoon.twenty-seventh: "27ویں رجمنٹ، سطح مرتفع 400 پر"
+
+# The 72nd Regiment drives on towards the Nek
+emblems.gallipoli-landing-afternoon.seventy-second-attack: "72ویں رجمنٹ نیک کی طرف بڑھتی ہے"
+
+# The 27th and 77th Regiments retake most of the 400 Plateau
+emblems.gallipoli-landing-afternoon.plateau-attack: "27ویں اور 77ویں رجمنٹ سطح مرتفع 400 کا بیشتر حصہ واپس لے لیتی ہیں"
+
+# The Australians and New Zealanders fall back from Baby 700
+emblems.gallipoli-landing-afternoon.baby-700-lost: "آسٹریلوی اور نیوزی لینڈ کے فوجی چھوٹی پہاڑی 700 سے پیچھے ہٹتے ہیں"
+
+# 25 April 1915, afternoon and evening
+pages.gallipoli-landing-afternoon.date: "25 اپریل 1915ء، سہ پہر اور شام"
+
+# Anzac Cove: the counterattack
+pages.gallipoli-landing-afternoon.title: "خلیج انزاک: جوابی حملہ"
+
+# 6 to 10 August 1915
+pages.suvla.date: "6 تا 10 اگست 1915ء"
+
+# Suvla and Chunuk Bair
+pages.suvla.title: "سولا اور چونک بیر"
+
+# The salt lake behind Suvla Bay, mostly dry in August
+emblems.suvla-offensive.salt-lake: "خلیج سولا کے پیچھے نمکین جھیل، اگست میں زیادہ تر خشک"
+
+# Destroyers and lighters off B Beach
+emblems.suvla-offensive.b-beach-ships: "ساحل بی کے سامنے ڈسٹرائر اور بار بردار کشتیاں"
+
+# Destroyers in Suvla Bay
+emblems.suvla-offensive.a-beach-ships: "خلیج سولا میں ڈسٹرائر"
+
+# British 11th Division, round Lala Baba
+emblems.suvla-offensive.eleventh-division: "برطانوی 11واں ڈویژن، لالہ بابا کے گرد"
+
+# 34th Brigade, between the beach and the salt lake
+emblems.suvla-offensive.thirty-fourth-brigade: "34واں بریگیڈ، ساحل اور نمکین جھیل کے درمیان"
+
+# 11th Manchesters on the Kiretch Tepe ridge
+emblems.suvla-offensive.manchesters: "کریچ تپہ کے پہاڑی سلسلے پر 11ویں مانچسٹر بٹالین"
+
+# Major Willmer’s small detachment
+emblems.suvla-offensive.willmer: "میجر ولمر کا چھوٹا دستہ"
+
+# Wellington Battalion on the summit of Chunuk Bair, 8 August
+emblems.suvla-offensive.wellingtons: "چونک بیر کی چوٹی پر ویلنگٹن بٹالین، 8 اگست"
+
+# Mustafa Kemal’s 19th Division on Battleship Hill and Baby 700
+emblems.suvla-offensive.nineteenth-division: "جنگی جہاز پہاڑی اور چھوٹی پہاڑی 700 پر مصطفیٰ کمال کا 19واں ڈویژن"
+
+# Right assaulting column up the spur to the Apex
+emblems.suvla-offensive.right-column: "دایاں حملہ آور کالم، پہاڑی شاخ پر چڑھ کر ایپیکس کی طرف"
+
+# Left assaulting column towards Hill Q and Hill 971
+emblems.suvla-offensive.left-column: "بایاں حملہ آور کالم، پہاڑی کیو اور پہاڑی 971 کی طرف"
+
+# The landing at B Beach, night of 6 August
+emblems.suvla-offensive.b-beach: "ساحل بی پر اترنا، 6 اگست کی رات"
+
+# The landing at A Beach
+emblems.suvla-offensive.a-beach: "ساحل اے پر اترنا"
+
+# 6 to 8 August 1915
+pages.suvla-offensive.date: "6 تا 8 اگست 1915ء"
+
+# Suvla: the August offensive
+pages.suvla-offensive.title: "سولا: اگست کا حملہ"
+
+# The salt lake behind Suvla Bay, mostly dry in August
+emblems.suvla-tekke-tepe.salt-lake: "خلیج سولا کے پیچھے نمکین جھیل، اگست میں زیادہ تر خشک"
+
+# 7th and 12th Divisions on the Tekke Tepe ridge, under Mustafa Kemal
+emblems.suvla-tekke-tepe.seventh-twelfth: "مصطفیٰ کمال کی کمان میں ساتواں اور بارہواں ڈویژن، تیکے تپہ کے پہاڑی سلسلے پر"
+
+# Ottoman troops on the Anafarta spur and the W Hills
+emblems.suvla-tekke-tepe.anafarta-spur: "انافرتہ کی پہاڑی شاخ اور ڈبلیو پہاڑیوں پر عثمانی فوج"
+
+# British troops round Chocolate Hill
+emblems.suvla-tekke-tepe.chocolate-hill: "چاکلیٹ پہاڑی کے گرد برطانوی فوج"
+
+# British troops at Hill 10
+emblems.suvla-tekke-tepe.hill-10: "پہاڑی 10 پر برطانوی فوج"
+
+# British 10th Division on the Kiretch Tepe ridge
+emblems.suvla-tekke-tepe.kirectepe: "کریچ تپہ کے پہاڑی سلسلے پر برطانوی دسواں ڈویژن"
+
+# The British 32nd Brigade marches for Tekke Tepe in the night
+emblems.suvla-tekke-tepe.thirty-second-march: "برطانوی 32واں بریگیڈ رات میں تیکے تپہ کی طرف کوچ کرتا ہے"
+
+# The Ottoman bayonet charge at about 4.00
+emblems.suvla-tekke-tepe.bayonet-charge: "تقریباً صبح 4 بجے عثمانی سنگینوں سے حملہ"
+
+# The 32nd Brigade breaks and falls back towards the beach
+emblems.suvla-tekke-tepe.thirty-second-flight: "32واں بریگیڈ بکھر کر ساحل کی طرف پیچھے ہٹتا ہے"
+
+# 9 August 1915
+pages.suvla-tekke-tepe.date: "9 اگست 1915ء"
+
+# Suvla: the dawn attack
+pages.suvla-tekke-tepe.title: "سولا: فجر کا حملہ"
+
+# 6th South Lancashires on the summit, overrun
+emblems.suvla-conkbayiri.lancashires: "چوٹی پر چھٹی ساؤتھ لنکاشائر بٹالین، کچلی ہوئی"
+
+# 5th Wiltshires below the summit, scattered
+emblems.suvla-conkbayiri.wiltshires: "چوٹی سے نیچے پانچویں ولٹ شائر بٹالین، منتشر"
+
+# Baldwin’s brigade at the Farm, about 3,000 men
+emblems.suvla-conkbayiri.baldwin: "فارم پر بالڈون کا بریگیڈ، تقریباً 3,000 آدمی"
+
+# New Zealand machine guns at the Apex
+emblems.suvla-conkbayiri.apex-guns: "ایپیکس پر نیوزی لینڈ کی مشین گنیں"
+
+# Six battalions led by Mustafa Kemal, attacking at dawn
+emblems.suvla-conkbayiri.kemal-battalions: "مصطفیٰ کمال کی قیادت میں چھ بٹالینیں، فجر کے وقت حملہ کرتی ہوئی"
+
+# Over the summit to the Pinnacle
+emblems.suvla-conkbayiri.over-the-summit: "چوٹی کے پار نوکیلی چوٹی تک"
+
+# Down the northern slope onto the Farm
+emblems.suvla-conkbayiri.down-to-the-farm: "شمالی ڈھلوان سے نیچے فارم پر"
+
+# Survivors fall back to Cheshire Ridge
+emblems.suvla-conkbayiri.farm-survivors: "بچ جانے والے چیشائر پہاڑی کی طرف پیچھے ہٹتے ہیں"
+
+# 10 August 1915
+pages.suvla-conkbayiri.date: "10 اگست 1915ء"
+
+# Chunuk Bair: the counterattack
+pages.suvla-conkbayiri.title: "چونک بیر: جوابی حملہ"
+
+# August 1916
+pages.caucasus-front.date: "اگست 1916ء"
+
+# Muş and Bitlis, the Caucasus front
+pages.caucasus-front.title: "موش اور بتلیس، قفقاز کا محاذ"
+
+# July 1917 to July 1918
+pages.seventh-army.date: "جولائی 1917ء تا جولائی 1918ء"
+
+# The Seventh Army, and a journey to Germany
+pages.seventh-army.title: "ساتویں فوج، اور جرمنی کا سفر"
+
+# September to October 1918
+pages.syrian-front.date: "ستمبر تا اکتوبر 1918ء"
+
+# The Syrian front and the retreat to Aleppo
+pages.syrian-front.title: "شام کا محاذ اور حلب کی طرف پسپائی"
+
+# 30 October to 13 November 1918
+pages.mudros.date: "30 اکتوبر تا 13 نومبر 1918ء"
+
+# The Armistice of Mudros and the Allied fleet in İstanbul
+pages.mudros.title: "مدروس کی جنگ بندی اور استنبول میں اتحادی بیڑا"
+
+# 15 to 19 May 1919
+pages.occupation.date: "15 تا 19 مئی 1919ء"
+
+# Occupation, and the landing at Samsun
+pages.occupation.title: "قبضہ، اور سامسون میں اترنا"
+
+# 22 June to 11 September 1919
+pages.congresses.date: "22 جون تا 11 ستمبر 1919ء"
+
+# Amasya, Erzurum, Sivas
+pages.congresses.title: "اماسیہ، ارض روم، سیواس"
+
+# 27 December 1919 to 23 April 1920
+pages.ankara.date: "27 دسمبر 1919ء تا 23 اپریل 1920ء"
+
+# Ankara and the Grand National Assembly
+pages.ankara.title: "انقرہ اور مجلس کبیر ملی"
+
+# June to August 1920
+pages.greek-offensive.date: "جون تا اگست 1920ء"
+
+# The Greek summer offensive
+pages.greek-offensive.title: "یونانی فوج کا موسمِ گرما کا حملہ"
+
+# 10 August 1920
+pages.sevres.date: "10 اگست 1920ء"
+
+# The Treaty of Sèvres
+pages.sevres.title: "معاہدہ سیورے"
+
+# September to December 1920
+pages.gyumri.date: "ستمبر تا دسمبر 1920ء"
+
+# The Eastern front and the Treaty of Alexandropol
+pages.gyumri.title: "مشرقی محاذ اور معاہدہ الیگزینڈروپول"
+
+# January to April 1921
+pages.inonu.date: "جنوری تا اپریل 1921ء"
+
+# First and Second İnönü
+pages.inonu.title: "انونو کی پہلی اور دوسری جنگ"
+
+# The railway from Bozüyük through İnönü to Eskişehir
+emblems.inonu-first.railway: "بوزیوک سے انونو ہوتی ہوئی اسکی شہر تک ریلوے لائن"
+
+# Greek Islands Division, advancing by Kovalca and Akpınar
+emblems.inonu-first.islands-division: "یونانی جزائر ڈویژن، کووالجا اور آق پینار کے راستے بڑھتا ہوا"
+
+# Greek Smyrna Division, advancing from the north
+emblems.inonu-first.smyrna-division: "یونانی سمرنا ڈویژن، شمال سے بڑھتا ہوا"
+
+# Turkish 11th Division astride the railway
+emblems.inonu-first.eleventh-division: "ترک 11واں ڈویژن، ریلوے لائن کے دونوں طرف"
+
+# Turkish 61st Division, coming up to reinforce the line
+emblems.inonu-first.sixty-first-division: "ترک 61واں ڈویژن، دفاعی لائن کو کمک پہنچانے آتا ہوا"
+
+# In the fog the Greeks take Metristepe, 10 January
+emblems.inonu-first.metristepe-taken: "دھند میں یونانی متریس تپہ لے لیتے ہیں، 10 جنوری"
+
+# Fevzi Pasha pulls the line back east
+emblems.inonu-first.line-pulled-back: "فوزی پاشا دفاعی لائن کو مشرق کی طرف پیچھے ہٹاتے ہیں"
+
+# The Greeks withdraw towards Bozüyük, 11 January
+emblems.inonu-first.greek-withdrawal: "یونانی بوزیوک کی طرف پیچھے ہٹتے ہیں، 11 جنوری"
+
+# 9 to 11 January 1921
+pages.inonu-first.date: "9 تا 11 جنوری 1921ء"
+
+# İnönü: the first battle
+pages.inonu-first.title: "انونو: پہلی جنگ"
+
+# The railway from Bozüyük through İnönü to Eskişehir
+emblems.inonu-second.railway: "بوزیوک سے انونو ہوتی ہوئی اسکی شہر تک ریلوے لائن"
+
+# Greek III Corps, holding İnönü and Metristepe
+emblems.inonu-second.third-corps: "یونانی تیسری کور، انونو اور متریس تپہ پر قابض"
+
+# İsmet Pasha’s Western Front, reinforced
+emblems.inonu-second.western-front: "عصمت پاشا کا مغربی محاذ، کمک کے ساتھ"
+
+# The III Corps advances from Bursa, 23 to 27 March
+emblems.inonu-second.greek-advance: "تیسری کور برصہ سے بڑھتی ہے، 23 تا 27 مارچ"
+
+# İsmet retakes Metristepe, 31 March
+emblems.inonu-second.retake-metristepe: "عصمت متریس تپہ واپس لے لیتے ہیں، 31 مارچ"
+
+# The III Corps falls back towards Bursa in good order
+emblems.inonu-second.greek-retreat: "تیسری کور منظم طریقے سے برصہ کی طرف پیچھے ہٹتی ہے"
+
+# 23 March to 1 April 1921
+pages.inonu-second.date: "23 مارچ تا 1 اپریل 1921ء"
+
+# İnönü: Metristepe
+pages.inonu-second.title: "انونو: متریس تپہ"
+
+# 10 July to 5 August 1921
+pages.kutahya-eskisehir.date: "10 جولائی تا 5 اگست 1921ء"
+
+# Kütahya and Eskişehir, the retreat to the Sakarya
+pages.kutahya-eskisehir.title: "کوتاہیہ اور اسکی شہر، سقاریہ کی طرف پسپائی"
+
+# The Sakarya river
+emblems.kutahya-eskisehir-offensive.sakarya-river: "دریائے سقاریہ"
+
+# Western Front, main body before Eskişehir
+emblems.kutahya-eskisehir-offensive.turkish-north: "مغربی محاذ، اسکی شہر کے سامنے مرکزی فوج"
+
+# Western Front units at Kütahya
+emblems.kutahya-eskisehir-offensive.turkish-kutahya: "کوتاہیہ میں مغربی محاذ کے دستے"
+
+# Western Front units at Afyon
+emblems.kutahya-eskisehir-offensive.turkish-afyon: "افیون میں مغربی محاذ کے دستے"
+
+# Greek southern group from Uşak
+emblems.kutahya-eskisehir-offensive.greek-south: "اوشاک سے یونانی جنوبی گروپ"
+
+# Greek northern group by Bozüyük
+emblems.kutahya-eskisehir-offensive.greek-north: "بوزیوک کے پاس یونانی شمالی گروپ"
+
+# The southern group takes Afyon
+emblems.kutahya-eskisehir-offensive.to-afyon: "جنوبی گروپ افیون پر قبضہ کرتا ہے"
+
+# The southern group then takes Kütahya
+emblems.kutahya-eskisehir-offensive.to-kutahya: "جنوبی گروپ پھر کوتاہیہ پر قبضہ کرتا ہے"
+
+# The Greeks prepare to turn north along the railway
+emblems.kutahya-eskisehir-offensive.turn-north: "یونانی ریلوے لائن کے ساتھ شمال کی طرف مڑنے کی تیاری کرتے ہیں"
+
+# July 1921
+pages.kutahya-eskisehir-offensive.date: "جولائی 1921ء"
+
+# Kütahya: the Greek summer offensive
+pages.kutahya-eskisehir-offensive.title: "کوتاہیہ: یونانی فوج کا موسمِ گرما کا حملہ"
+
+# The Sakarya river
+emblems.kutahya-eskisehir-retreat.sakarya-river: "دریائے سقاریہ"
+
+# The Greek main body, wheeling north on Eskişehir
+emblems.kutahya-eskisehir-retreat.greek-main: "یونانی مرکزی فوج، شمال میں اسکی شہر کی طرف مڑتی ہوئی"
+
+# The Greek feint towards the Turkish right
+emblems.kutahya-eskisehir-retreat.greek-feint: "ترکوں کے دائیں بازو کی طرف یونانی فریبی حملہ"
+
+# The Western Front behind the Sakarya, about 80 km from Ankara
+emblems.kutahya-eskisehir-retreat.sakarya-line: "سقاریہ کے پیچھے مغربی محاذ، انقرہ سے تقریباً 80 کلو میٹر"
+
+# The feint towards Eskişehir, 16 July
+emblems.kutahya-eskisehir-retreat.feint: "اسکی شہر کی طرف فریبی حملہ، 16 جولائی"
+
+# Eskişehir falls
+emblems.kutahya-eskisehir-retreat.eskisehir-falls: "اسکی شہر ہاتھ سے نکل جاتا ہے"
+
+# İsmet breaks contact and withdraws east
+emblems.kutahya-eskisehir-retreat.withdrawal-north: "عصمت رابطہ توڑ کر مشرق کی طرف پیچھے ہٹتے ہیں"
+
+# The southern units fall back to the Sakarya
+emblems.kutahya-eskisehir-retreat.withdrawal-south: "جنوبی دستے سقاریہ کی طرف پیچھے ہٹتے ہیں"
+
+# 16 to 25 July 1921
+pages.kutahya-eskisehir-retreat.date: "16 تا 25 جولائی 1921ء"
+
+# Eskişehir: the withdrawal to the Sakarya
+pages.kutahya-eskisehir-retreat.title: "اسکی شہر: سقاریہ تک پیچھے ہٹنا"
+
+# 23 August to 13 September 1921
+pages.sakarya.date: "23 اگست تا 13 ستمبر 1921ء"
+
+# The battle on the Sakarya
+pages.sakarya.title: "سقاریہ کی جنگ"
+
+# The Sakarya, steep banked, with two bridges on this front
+emblems.sakarya-approach.sakarya-river: "دریائے سقاریہ، کھڑے کناروں والا، اس محاذ پر دو پل"
+
+# The Gök, shallow, joining the Sakarya from the east
+emblems.sakarya-approach.gok-river: "دریائے گوک، کم گہرا، مشرق سے آ کر سقاریہ میں ملتا ہے"
+
+# Turkish infantry on the hills east of the Sakarya, northern sector
+emblems.sakarya-approach.north-sector: "سقاریہ کے مشرق میں پہاڑیوں پر ترک پیدل فوج، شمالی حصہ"
+
+# Turkish infantry in the centre, before Polatlı
+emblems.sakarya-approach.centre-sector: "مرکز میں ترک پیدل فوج، پولاتلی کے سامنے"
+
+# Turkish line along the Gök, facing south
+emblems.sakarya-approach.gok-line: "گوک کے ساتھ ترکوں کی دفاعی لائن، جنوب کی طرف رخ"
+
+# Turkish advanced positions south of the Gök
+emblems.sakarya-approach.advanced-posts: "گوک کے جنوب میں ترکوں کی اگلی چوکیاں"
+
+# Greek divisions march east to the river
+emblems.sakarya-approach.greek-east: "یونانی ڈویژن مشرق میں دریا کی طرف کوچ کرتے ہیں"
+
+# The march round the south to outflank the Turkish left
+emblems.sakarya-approach.flank-march: "ترکوں کے بائیں بازو کو گھیرنے کے لیے جنوب سے گھوم کر کوچ"
+
+# 10 to 25 August 1921
+pages.sakarya-approach.date: "10 تا 25 اگست 1921ء"
+
+# Sakarya: the march round the flank
+pages.sakarya-approach.title: "سقاریہ: پہلو کے گرد کوچ"
+
+# The Sakarya, steep banked, with two bridges on this front
+emblems.sakarya-heights.sakarya-river: "دریائے سقاریہ، کھڑے کناروں والا، اس محاذ پر دو پل"
+
+# The Gök, shallow, joining the Sakarya from the east
+emblems.sakarya-heights.gok-river: "دریائے گوک، کم گہرا، مشرق سے آ کر سقاریہ میں ملتا ہے"
+
+# Turkish infantry on the hills east of the Sakarya, northern sector
+emblems.sakarya-heights.north-sector: "سقاریہ کے مشرق میں پہاڑیوں پر ترک پیدل فوج، شمالی حصہ"
+
+# Turkish infantry in the centre, before Polatlı
+emblems.sakarya-heights.centre-sector: "مرکز میں ترک پیدل فوج، پولاتلی کے سامنے"
+
+# Turkish second line, between Polatlı and Haymana
+emblems.sakarya-heights.second-line: "پولاتلی اور ہایمانا کے درمیان ترکوں کی دوسری دفاعی لائن"
+
+# Greek divisions across the Gök, the western wing
+emblems.sakarya-heights.greek-left: "گوک کے پار یونانی ڈویژن، مغربی بازو"
+
+# The Greek main effort in the centre
+emblems.sakarya-heights.greek-centre: "مرکز میں یونانیوں کا بنیادی حملہ"
+
+# Greek divisions on the eastern wing
+emblems.sakarya-heights.greek-right: "مشرقی بازو پر یونانی ڈویژن"
+
+# Greek divisions facing the river front
+emblems.sakarya-heights.greek-river: "دریا کے محاذ کے سامنے یونانی ڈویژن"
+
+# The Greeks storm Çal Dağı, taken on 2 September
+emblems.sakarya-heights.cal-dagi: "یونانی کوہ چال پر دھاوا بولتے ہیں، 2 ستمبر کو قبضہ"
+
+# The centre pushes 16 km through the second line
+emblems.sakarya-heights.centre-push: "مرکز دوسری دفاعی لائن کے اندر 16 کلو میٹر تک بڑھتا ہے"
+
+# Turkish cavalry raids the Greek supply lines
+emblems.sakarya-heights.cavalry-raids: "ترک گھڑسوار یونانی رسد کے راستوں پر چھاپے مارتے ہیں"
+
+# 26 August to 2 September 1921
+pages.sakarya-heights.date: "26 اگست تا 2 ستمبر 1921ء"
+
+# Sakarya: the assault on the heights
+pages.sakarya-heights.title: "سقاریہ: بلندیوں پر حملہ"
+
+# The Sakarya, steep banked, with two bridges on this front
+emblems.sakarya-counterattack.sakarya-river: "دریائے سقاریہ، کھڑے کناروں والا، اس محاذ پر دو پل"
+
+# The Gök, shallow, joining the Sakarya from the east
+emblems.sakarya-counterattack.gok-river: "دریائے گوک، کم گہرا، مشرق سے آ کر سقاریہ میں ملتا ہے"
+
+# Turkish infantry on the hills east of the Sakarya, northern sector
+emblems.sakarya-counterattack.north-sector: "سقاریہ کے مشرق میں پہاڑیوں پر ترک پیدل فوج، شمالی حصہ"
+
+# Turkish infantry in the centre, before Polatlı
+emblems.sakarya-counterattack.centre-sector: "مرکز میں ترک پیدل فوج، پولاتلی کے سامنے"
+
+# Turkish line between Polatlı and Haymana, reinforced by new recruits
+emblems.sakarya-counterattack.second-line: "پولاتلی اور ہایمانا کے درمیان ترکوں کی دفاعی لائن، نئے رنگروٹوں سے مضبوط"
+
+# The Greek left round Çal Dağı
+emblems.sakarya-counterattack.greek-left: "کوہ چال کے گرد یونانی بایاں بازو"
+
+# The exhausted Greek centre
+emblems.sakarya-counterattack.greek-centre: "تھکا ہارا یونانی مرکز"
+
+# Mustafa Kemal’s counterattack on the Greek left, 8 September
+emblems.sakarya-counterattack.kemal-counterattack: "یونانی بائیں بازو پر مصطفیٰ کمال کا جوابی حملہ، 8 ستمبر"
+
+# The Greek army withdraws across the Sakarya, night of 12 to 13 September
+emblems.sakarya-counterattack.greek-retreat-west: "یونانی فوج سقاریہ کے پار پیچھے ہٹتی ہے، 12 اور 13 ستمبر کی درمیانی رات"
+
+# The eastern wing pulls back by the south
+emblems.sakarya-counterattack.greek-retreat-south: "مشرقی بازو جنوب کے راستے پیچھے ہٹتا ہے"
+
+# 8 to 13 September 1921
+pages.sakarya-counterattack.date: "8 تا 13 ستمبر 1921ء"
+
+# Sakarya: the counterattack
+pages.sakarya-counterattack.title: "سقاریہ: جوابی حملہ"
+
+# 19 September 1921
+pages.field-marshal.date: "19 ستمبر 1921ء"
+
+# Field marshal and Gazi
+pages.field-marshal.title: "فیلڈ مارشل اور غازی"
+
+# 20 October 1921
+pages.ankara-agreement.date: "20 اکتوبر 1921ء"
+
+# The Ankara Agreement with France
+pages.ankara-agreement.title: "فرانس کے ساتھ معاہدہ انقرہ"
+
+# June to August 1922
+pages.preparation.date: "جون تا اگست 1922ء"
+
+# The year of preparation
+pages.preparation.title: "تیاری کا سال"
+
+# 26 to 27 August 1922
+pages.afyon.date: "26 تا 27 اگست 1922ء"
+
+# Kocatepe and the breakthrough at Afyon
+pages.afyon.title: "کوجا تپہ اور افیون پر دفاعی لائن کا ٹوٹنا"
+
+# The railway from Afyon to Dumlupınar and İzmir, the Greek supply line
+emblems.afyon-barrage.railway: "افیون سے دوملوپینار اور ازمیر تک ریلوے لائن، یونانی رسد کا راستہ"
+
+# Greek 1st Division, south west of Afyon
+emblems.afyon-barrage.greek-first: "یونانی پہلا ڈویژن، افیون کے جنوب مغرب میں"
+
+# Greek 4th Division, south of Afyon
+emblems.afyon-barrage.greek-fourth: "یونانی چوتھا ڈویژن، افیون کے جنوب میں"
+
+# Greek 5th Division, north east of Afyon
+emblems.afyon-barrage.greek-fifth: "یونانی پانچواں ڈویژن، افیون کے شمال مشرق میں"
+
+# Greek II Corps in reserve, by Gazlıgöl
+emblems.afyon-barrage.greek-second-corps: "ریزرو میں یونانی دوسری کور، گازلی گول کے پاس"
+
+# Turkish I Corps, four divisions
+emblems.afyon-barrage.turkish-first-corps: "ترک پہلی کور، چار ڈویژن"
+
+# Turkish IV Corps, four divisions
+emblems.afyon-barrage.turkish-fourth-corps: "ترک چوتھی کور، چار ڈویژن"
+
+# Turkish II Corps in reserve
+emblems.afyon-barrage.turkish-second-corps: "ریزرو میں ترک دوسری کور"
+
+# Second Army under Yakup Şevki Pasha
+emblems.afyon-barrage.second-army: "یعقوب شوقی پاشا کی کمان میں دوسری فوج"
+
+# V Cavalry Corps under Fahrettin Pasha, behind the Greek line
+emblems.afyon-barrage.fifth-cavalry: "فخر الدین پاشا کی کمان میں پانچویں گھڑسوار کور، یونانی لائن کے پیچھے"
+
+# The cavalry passes through the Kırka gorge in the night of 25 to 26 August
+emblems.afyon-barrage.kirka-gorge: "گھڑسوار فوج 25 اور 26 اگست کی درمیانی رات کرکا کی گھاٹی سے گزرتی ہے"
+
+# The cavalry cuts the railway and the telegraph by 18.00
+emblems.afyon-barrage.cut-railway: "گھڑسوار فوج شام 6 بجے تک ریلوے لائن اور ٹیلی گراف کاٹ دیتی ہے"
+
+# Seven divisions attack the seam of the Greek 1st and 4th Divisions
+emblems.afyon-barrage.first-corps-attack: "سات ڈویژن یونانی پہلے اور چوتھے ڈویژن کے جوڑ پر حملہ کرتے ہیں"
+
+# The IV Corps attacks towards Erkmentepe
+emblems.afyon-barrage.fourth-corps-attack: "چوتھی کور ارکمن تپہ کی طرف حملہ کرتی ہے"
+
+# The Second Army attacks north of Afyon
+emblems.afyon-barrage.second-army-attack: "دوسری فوج افیون کے شمال میں حملہ کرتی ہے"
+
+# 26 August 1922
+pages.afyon-barrage.date: "26 اگست 1922ء"
+
+# Great Offensive: the barrage at dawn
+pages.afyon-barrage.title: "بڑا حملہ: فجر کی گولہ باری"
+
+# The railway from Afyon to Dumlupınar and İzmir, the Greek supply line
+emblems.afyon-erkmentepe.railway: "افیون سے دوملوپینار اور ازمیر تک ریلوے لائن، یونانی رسد کا راستہ"
+
+# Greek 1st Division, cut off from its corps, collapsing at 13.30
+emblems.afyon-erkmentepe.greek-first: "یونانی پہلا ڈویژن، اپنی کور سے کٹا ہوا، دوپہر 1 بج کر 30 منٹ پر بکھرتا ہوا"
+
+# Greek 4th Division, falling back
+emblems.afyon-erkmentepe.greek-fourth: "یونانی چوتھا ڈویژن، پیچھے ہٹتا ہوا"
+
+# Turkish I Corps
+emblems.afyon-erkmentepe.turkish-first-corps: "ترک پہلی کور"
+
+# Turkish IV Corps under Kemalettin Sami, on Erkmentepe
+emblems.afyon-erkmentepe.turkish-fourth-corps: "کمال الدین سامی کی کمان میں ترک چوتھی کور، ارکمن تپہ پر"
+
+# V Cavalry Corps astride the railway
+emblems.afyon-erkmentepe.fifth-cavalry: "پانچویں گھڑسوار کور، ریلوے لائن کے دونوں طرف"
+
+# The IV Corps takes Erkmentepe at 9.00
+emblems.afyon-erkmentepe.erkmentepe: "چوتھی کور صبح 9 بجے ارکمن تپہ پر قبضہ کرتی ہے"
+
+# The Greek I Corps withdraws 20 km north and gives up Afyon
+emblems.afyon-erkmentepe.greek-withdrawal: "یونانی پہلی کور 20 کلو میٹر شمال کی طرف ہٹ کر افیون چھوڑ دیتی ہے"
+
+# The 1st Division falls back west
+emblems.afyon-erkmentepe.first-division-west: "پہلا ڈویژن مغرب کی طرف پیچھے ہٹتا ہے"
+
+# 27 August 1922
+pages.afyon-erkmentepe.date: "27 اگست 1922ء"
+
+# Great Offensive: the breakthrough at Erkmentepe
+pages.afyon-erkmentepe.title: "بڑا حملہ: ارکمن تپہ پر دفاعی لائن کا ٹوٹنا"
+
+# The railway from Afyon to Dumlupınar and İzmir, the Greek supply line
+emblems.afyon-gap.railway: "افیون سے دوملوپینار اور ازمیر تک ریلوے لائن، یونانی رسد کا راستہ"
+
+# Trikoupis group: most of the Greek I and II Corps, the night at Olucak
+emblems.afyon-gap.trikoupis-group: "تریکوپیس گروپ: یونانی پہلی اور دوسری کور کا بیشتر حصہ، رات اولوجاک میں"
+
+# Frangou group: the Greek 1st and 7th Divisions at Dumlupınar
+emblems.afyon-gap.frangou-group: "فرانگو گروپ: دوملوپینار پر یونانی پہلا اور ساتواں ڈویژن"
+
+# Turkish First Army, following
+emblems.afyon-gap.first-army: "ترک پہلی فوج، تعاقب میں"
+
+# Turkish 2nd Cavalry Division, mauled by the Greek 9th Division
+emblems.afyon-gap.second-cavalry: "ترک دوسرا گھڑسوار ڈویژن، جسے یونانی نواں ڈویژن بھاری نقصان پہنچاتا ہے"
+
+# Frangou takes his group west in the night of 27 to 28 August
+emblems.afyon-gap.frangou-march: "فرانگو 27 اور 28 اگست کی درمیانی رات اپنا گروپ مغرب کی طرف لے جاتے ہیں"
+
+# Trikoupis starts west at 5.00 on 28 August
+emblems.afyon-gap.trikoupis-march: "تریکوپیس 28 اگست کو صبح 5 بجے مغرب کی طرف روانہ ہوتے ہیں"
+
+# Turkish units follow into the gap between the two groups
+emblems.afyon-gap.into-the-gap: "ترک دستے دونوں گروپوں کے درمیان خلا میں بڑھتے ہیں"
+
+# 27 to 28 August 1922
+pages.afyon-gap.date: "27 تا 28 اگست 1922ء"
+
+# Great Offensive: two Greek groups
+pages.afyon-gap.title: "بڑا حملہ: دو یونانی گروپ"
+
+# The railway from Afyon to Dumlupınar and İzmir, the Greek supply line
+emblems.afyon-ring.railway: "افیون سے دوملوپینار اور ازمیر تک ریلوے لائن، یونانی رسد کا راستہ"
+
+# Trikoupis group, surrounded
+emblems.afyon-ring.trikoupis-group: "تریکوپیس گروپ، گھیرے میں"
+
+# Frangou group at Dumlupınar
+emblems.afyon-ring.frangou-group: "دوملوپینار پر فرانگو گروپ"
+
+# Turkish VI Corps of the Second Army, to the north
+emblems.afyon-ring.sixth-corps: "دوسری فوج کی ترک چھٹی کور، شمال میں"
+
+# Turkish IV Corps, to the south
+emblems.afyon-ring.fourth-corps: "ترک چوتھی کور، جنوب میں"
+
+# V Cavalry Corps, between the two Greek groups
+emblems.afyon-ring.fifth-cavalry: "پانچویں گھڑسوار کور، دونوں یونانی گروپوں کے درمیان"
+
+# Turkish I Corps, before Dumlupınar
+emblems.afyon-ring.first-corps: "ترک پہلی کور، دوملوپینار کے سامنے"
+
+# The Greek 9th Division tries to open the road to Dumlupınar
+emblems.afyon-ring.ninth-division: "یونانی نواں ڈویژن دوملوپینار کا راستہ کھولنے کی کوشش کرتا ہے"
+
+# The Turks attack the Greek 12th Division on the eastern flank
+emblems.afyon-ring.east-attack: "ترک دستے مشرقی پہلو پر یونانی 12ویں ڈویژن پر حملہ کرتے ہیں"
+
+# At 23.00 the group breaks away towards Çalköy
+emblems.afyon-ring.night-march: "رات 11 بجے گروپ نکل کر چال کوئے کی طرف بڑھتا ہے"
+
+# 29 August 1922
+pages.afyon-ring.date: "29 اگست 1922ء"
+
+# Great Offensive: the ring around Trikoupis
+pages.afyon-ring.title: "بڑا حملہ: تریکوپیس کے گرد گھیرا"
+
+# 30 August 1922
+pages.dumlupinar.date: "30 اگست 1922ء"
+
+# Dumlupınar, the commander in chief's battle
+pages.dumlupinar.title: "دوملوپینار، سپہ سالار کی جنگ"
+
+# Trikoupis group: 7,000 infantry fit to fight, crowded together
+emblems.dumlupinar-alioren.trikoupis-group: "تریکوپیس گروپ: لڑنے کے قابل 7,000 پیدل سپاہی، ایک جگہ ٹھسے ہوئے"
+
+# 10,000 to 15,000 disorganised men, largely unarmed
+emblems.dumlupinar-alioren.stragglers: "10,000 تا 15,000 منتشر آدمی، زیادہ تر نہتے"
+
+# Turkish 14th Cavalry Division, blocking the road at 13.30
+emblems.dumlupinar-alioren.fourteenth-cavalry: "ترک 14واں گھڑسوار ڈویژن، دوپہر 1 بج کر 30 منٹ پر راستہ روکتا ہوا"
+
+# Turkish IV Corps, pressing from the east and south
+emblems.dumlupinar-alioren.fourth-corps: "ترک چوتھی کور، مشرق اور جنوب سے دباؤ ڈالتی ہوئی"
+
+# Turkish VI Corps, attacking from the north
+emblems.dumlupinar-alioren.sixth-corps: "ترک چھٹی کور، شمال سے حملہ کرتی ہوئی"
+
+# The IV Corps attacks
+emblems.dumlupinar-alioren.fourth-corps-attack: "چوتھی کور حملہ کرتی ہے"
+
+# The VI Corps attacks
+emblems.dumlupinar-alioren.sixth-corps-attack: "چھٹی کور حملہ کرتی ہے"
+
+# At 20.30 the survivors march west, leaving guns and wounded
+emblems.dumlupinar-alioren.night-march-west: "رات 8 بج کر 30 منٹ پر بچ جانے والے توپیں اور زخمی چھوڑ کر مغرب کی طرف کوچ کرتے ہیں"
+
+# 30 August 1922
+pages.dumlupinar-alioren.date: "30 اگست 1922ء"
+
+# Dumlupınar: the battle at Alıören
+pages.dumlupinar-alioren.title: "دوملوپینار: آلی اورن کی لڑائی"
+
+# Turkish cavalry in pursuit
+emblems.dumlupinar-surrender.turkish-cavalry: "تعاقب میں ترک گھڑسوار فوج"
+
+# Turkish First and Second Armies
+emblems.dumlupinar-surrender.turkish-army: "ترک پہلی اور دوسری فوج"
+
+# A column of 2,000, mostly 12th Division: surrenders on 1 September
+emblems.dumlupinar-surrender.column-twelfth: "2,000 آدمیوں کا ایک کالم، زیادہ تر 12ویں ڈویژن کے: 1 ستمبر کو ہتھیار ڈالتا ہے"
+
+# Trikoupis with 5,000 to 6,000 men: surrenders on 2 September
+emblems.dumlupinar-surrender.column-trikoupis: "5,000 تا 6,000 آدمیوں کے ساتھ تریکوپیس: 2 ستمبر کو ہتھیار ڈالتے ہیں"
+
+# A column of 5,000 escapes the ring
+emblems.dumlupinar-surrender.column-escape: "5,000 آدمیوں کا ایک کالم گھیرے سے نکل جاتا ہے"
+
+# Frangou’s group retreats towards Banaz
+emblems.dumlupinar-surrender.frangou-retreat: "فرانگو کا گروپ باناز کی طرف پیچھے ہٹتا ہے"
+
+# 31 August to 2 September 1922
+pages.dumlupinar-surrender.date: "31 اگست تا 2 ستمبر 1922ء"
+
+# Dumlupınar: the surrender of the Trikoupis group
+pages.dumlupinar-surrender.title: "دوملوپینار: تریکوپیس گروپ ہتھیار ڈالتا ہے"
+
+# 1 to 18 September 1922
+pages.izmir-retaken.date: "1 تا 18 ستمبر 1922ء"
+
+# The pursuit to İzmir
+pages.izmir-retaken.title: "ازمیر تک تعاقب"
+
+# 11 October 1922
+pages.mudanya.date: "11 اکتوبر 1922ء"
+
+# The Armistice of Mudanya
+pages.mudanya.title: "مودانیا کی جنگ بندی"
+
+# 1 November 1922
+pages.sultanate.date: "1 نومبر 1922ء"
+
+# The sultanate is abolished
+pages.sultanate.title: "سلطانی نظام کا خاتمہ"
+
+# 24 July 1923
+pages.lausanne.date: "24 جولائی 1923ء"
+
+# The Treaty of Lausanne
+pages.lausanne.title: "معاہدہ لوزان"
+
+# 13 to 29 October 1923
+pages.republic.date: "13 تا 29 اکتوبر 1923ء"
+
+# Ankara becomes the capital and the Republic is proclaimed
+pages.republic.title: "انقرہ دارالحکومت بنتا ہے اور جمہوریہ کا اعلان ہوتا ہے"
+
+# 1923 to 1938
+pages.reforms.date: "1923ء تا 1938ء"
+
+# The reforms and the end
+pages.reforms.title: "اصلاحات اور اختتام"
+
+# 1936 to 1939
+pages.hatay.date: "1936ء تا 1939ء"
+
+# Hatay joins Turkey
+pages.hatay.title: "ہاتائے ترکی میں شامل ہوتا ہے"
+
+# From a childhood in Thessaloniki through Gallipoli and the War of Independence to the founding of the Republic in 1923.
+story.summary: "تھیسالونیکی میں بچپن سے گیلی پولی اور جنگِ آزادی سے ہوتے ہوئے 1923ء میں جمہوریہ کے قیام تک۔"
+
+# Atatürk and the Turkish Republic
+story.title: "اتاترک اور ترک جمہوریہ"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# İstanbul
+markers.istanbul.label: "استنبول"
+
+# İzmir
+markers.izmir.label: "ازمیر"
+
+# Antalya
+markers.antalya.label: "انطالیہ"
+
+# Adana
+markers.adana.label: "اضنہ"
+
+# Samsun
+markers.samsun.label: "سامسون"
+
+# Amasya
+markers.amasya.label: "اماسیہ"
+
+# Erzurum
+markers.erzurum.label: "ارض روم"
+
+# Sivas
+markers.sivas.label: "سیواس"
+
+# Ankara
+markers.ankara.label: "انقرہ"
+
+# İstanbul
+markers.istanbul-1920.label: "استنبول"
+
+# Bursa
+markers.bursa.label: "برصہ"
+
+# Thessaloniki
+markers.salonica.label: "تھیسالونیکی"
+
+# Bitola
+markers.monastir.label: "بیتولا"
+
+# İstanbul
+markers.istanbul-war-college.label: "استنبول"
+
+# Damascus
+markers.damascus.label: "دمشق"
+
+# Derna
+markers.derna.label: "درنہ"
+
+# Bulair
+markers.bolayir.label: "بولایر"
+
+# Edirne
+markers.edirne.label: "ادرنہ"
+
+# Sofia
+markers.sofia.label: "صوفیہ"
+
+# Anzac Cove
+markers.gallipoli-landing.label: "خلیج انزاک"
+
+# Suvla Bay
+markers.suvla.label: "خلیج سولا"
+
+# Chunuk Bair
+markers.chunuk-bair.label: "چونک بیر"
+
+# Bitlis
+markers.bitlis.label: "بتلیس"
+
+# Nablus
+markers.nablus.label: "نابلس"
+
+# Aleppo
+markers.aleppo.label: "حلب"
+
+# Moudros
+markers.mudros.label: "مدروس"
+
+# Kars
+markers.kars.label: "قارص"
+
+# Gyumri
+markers.gyumri.label: "گیومری"
+
+# İnönü
+markers.inonu.label: "انونو"
+
+# Sakarya
+markers.sakarya.label: "سقاریہ"
+
+# Dumlupınar
+markers.dumlupinar.label: "دوملوپینار"
+
+# İzmir
+markers.izmir-1922.label: "ازمیر"
+
+# Mudanya
+markers.mudanya.label: "مودانیا"
+
+# Ankara
+markers.ankara-1923.label: "انقرہ"
+
+# Dolmabahçe
+markers.dolmabahce.label: "دولما باغچہ"
+
+# Eskişehir
+markers.eskisehir.label: "اسکی شہر"
+
+# Alagöz
+markers.alagoz.label: "آلاگوز"
+
+# Akşehir
+markers.aksehir.label: "آق شہر"
+
+# Afyon
+markers.afyon.label: "افیون"
+
+# Kocatepe
+markers.kocatepe.label: "کوجا تپہ"
+
+# Thessaloniki
+markers.salonica-1912.label: "تھیسالونیکی"
+
+# Çatalca
+markers.catalca.label: "چاتالجا"
+
+# Resen
+markers.resne.label: "ریسن"
+
+# Thessaloniki
+markers.salonica-1909.label: "تھیسالونیکی"
+
+# İstanbul
+markers.istanbul-1909.label: "استنبول"
+
+# Aleppo
+markers.aleppo-1917.label: "حلب"
+
+# İstanbul
+markers.istanbul-1917.label: "استنبول"
+
+# Balıkesir
+markers.balikesir.label: "بالیکسیر"
+
+# Uşak
+markers.usak.label: "اوشاک"
+
+# Edirne
+markers.edirne-1920.label: "ادرنہ"
+
+# Antakya
+markers.antakya.label: "انطاکیہ"
+
+# 3rd Australian Brigade
+markers.gallipoli-landing-dawn-brigade.label: "تیسرا آسٹریلوی بریگیڈ"
+
+# Mehmet Şefik
+markers.gallipoli-landing-dawn-sefik.label: "محمد شفیق"
+
+# Gaba Tepe
+markers.gallipoli-landing-dawn-kabatepe.label: "گابا تپہ"
+
+# Mustafa Kemal
+markers.gallipoli-landing-57th-kemal.label: "مصطفیٰ کمال"
+
+# Baby 700
+markers.gallipoli-landing-57th-baby-700.label: "چھوٹی پہاڑی 700"
+
+# Mustafa Kemal
+markers.gallipoli-landing-afternoon-kemal.label: "مصطفیٰ کمال"
+
+# Anzac beachhead
+markers.gallipoli-landing-afternoon-beachhead.label: "انزاک کا ساحلی مورچہ"
+
+# Lala Baba
+markers.suvla-offensive-lala-baba.label: "لالہ بابا"
+
+# The Apex
+markers.suvla-offensive-apex.label: "ایپیکس"
+
+# Hill 971
+markers.suvla-offensive-971.label: "پہاڑی 971"
+
+# Mustafa Kemal
+markers.suvla-tekke-tepe-kemal.label: "مصطفیٰ کمال"
+
+# Scimitar Hill
+markers.suvla-tekke-tepe-scimitar.label: "شمشیر پہاڑی"
+
+# Mustafa Kemal
+markers.suvla-conkbayiri-kemal.label: "مصطفیٰ کمال"
+
+# Baldwin
+markers.suvla-conkbayiri-baldwin.label: "بالڈون"
+
+# The Apex
+markers.suvla-conkbayiri-apex.label: "ایپیکس"
+
+# Metristepe
+markers.inonu-first-metristepe.label: "متریس تپہ"
+
+# İsmet
+markers.inonu-first-ismet.label: "عصمت"
+
+# Bozüyük
+markers.inonu-first-bozuyuk.label: "بوزیوک"
+
+# Metristepe
+markers.inonu-second-metristepe.label: "متریس تپہ"
+
+# İsmet Pasha
+markers.inonu-second-ismet.label: "عصمت پاشا"
+
+# King Constantine
+markers.kutahya-eskisehir-offensive-constantine.label: "شاہ قسطنطین"
+
+# İsmet Pasha
+markers.kutahya-eskisehir-offensive-ismet.label: "عصمت پاشا"
+
+# Kütahya
+markers.kutahya-eskisehir-offensive-kutahya.label: "کوتاہیہ"
+
+# Eskişehir
+markers.kutahya-eskisehir-offensive-eskisehir.label: "اسکی شہر"
+
+# Mustafa Kemal
+markers.kutahya-eskisehir-retreat-kemal.label: "مصطفیٰ کمال"
+
+# Kütahya
+markers.kutahya-eskisehir-retreat-kutahya.label: "کوتاہیہ"
+
+# Polatlı
+markers.sakarya-approach-polatli.label: "پولاتلی"
+
+# King Constantine
+markers.sakarya-approach-constantine.label: "شاہ قسطنطین"
+
+# Çal Dağı
+markers.sakarya-heights-cal-dagi.label: "کوہ چال"
+
+# Haymana
+markers.sakarya-heights-haymana.label: "ہایمانا"
+
+# Mustafa Kemal
+markers.sakarya-counterattack-kemal.label: "مصطفیٰ کمال"
+
+# Sivrihisar
+markers.sakarya-counterattack-sivrihisar.label: "سیوری حصار"
+
+# Mustafa Kemal
+markers.afyon-barrage-kemal.label: "مصطفیٰ کمال"
+
+# Nurettin Pasha
+markers.afyon-barrage-nurettin.label: "نور الدین پاشا"
+
+# Afyon
+markers.afyon-barrage-afyon.label: "افیون"
+
+# Erkmentepe
+markers.afyon-erkmentepe-peak.label: "ارکمن تپہ"
+
+# Afyon
+markers.afyon-erkmentepe-afyon.label: "افیون"
+
+# Olucak
+markers.afyon-gap-olucak.label: "اولوجاک"
+
+# Greek 4th Division
+markers.afyon-gap-fourth-division.label: "یونانی چوتھا ڈویژن"
+
+# Başkimse
+markers.afyon-gap-baskimse.label: "باش کمسے"
+
+# Hamurköy and İlbulak Dağ
+markers.afyon-ring-hamurkoy.label: "ہامور کوئے اور کوہ ایلبولاک"
+
+# Çalköy
+markers.afyon-ring-calkoy.label: "چال کوئے"
+
+# Mustafa Kemal
+markers.dumlupinar-alioren-kemal.label: "مصطفیٰ کمال"
+
+# Alıören
+markers.dumlupinar-alioren-alioren.label: "آلی اورن"
+
+# Çalköy
+markers.dumlupinar-alioren-calkoy.label: "چال کوئے"
+
+# Trikoupis
+markers.dumlupinar-surrender-trikoupis.label: "تریکوپیس"
+
+# Banaz
+markers.dumlupinar-surrender-banaz.label: "باناز"

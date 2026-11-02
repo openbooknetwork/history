@@ -4,4 +4,4 @@ Baby 700 changes hands five times. At 16.30 the 72nd Regiment attacks from the n
 
 @image ariburnu-first-trench-7d4acd
 
-By nightfall about 16,000 men are ashore, in a beachhead under two miles long and about 800 yards deep. The 57th Regiment has been destroyed. The 27th and 57th together have lost about 2,000 men, half their strength.
+By nightfall about 16,000 men are ashore, in a beachhead under 3 km long and about 700 m deep. The 57th Regiment has been destroyed. The 27th and 57th together have lost about 2,000 men, half their strength.

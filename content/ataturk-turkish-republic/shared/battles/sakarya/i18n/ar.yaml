@@ -1,0 +1,47 @@
+# ar strings for the battle "sakarya".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n ar
+
+# Grand National Assembly
+battle.sides.0.name: "المجلس الوطني الكبير"
+
+# 101,727 soldiers, 5,401 officers, 196 guns
+battle.sides.0.strength: "الجنود 101,727، والضباط 5,401، والمدافع 196"
+
+# 5,713 dead, 37,900 casualties in all
+battle.sides.0.casualties: "القتلى 5,713، ومجموع الخسائر 37,900"
+
+# Kingdom of Greece
+battle.sides.1.name: "مملكة اليونان"
+
+# About 77,000 soldiers, 3,780 officers, 386 guns
+battle.sides.1.strength: "الجنود نحو 77,000، والضباط 3,780، والمدافع 386"
+
+# 3,958 dead, 23,267 casualties in all
+battle.sides.1.casualties: "القتلى 3,958، ومجموع الخسائر 23,267"
+
+# Battle of Sakarya
+battle.name: "معركة سقاريا"
+
+# 23 August – 13 September 1921
+battle.date: "من 23 أغسطس إلى 13 سبتمبر 1921"
+
+# Turkish victory, end of the Greek advance
+battle.result: "نصر تركي، ونهاية التقدم اليوناني"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Mustafa Kemal Pasha
+battle.sides.0.commanders.0: "مصطفى كمال باشا"
+
+# Fevzi Pasha
+battle.sides.0.commanders.1: "فوزي باشا"
+
+# İsmet Pasha
+battle.sides.0.commanders.2: "عصمت باشا"
+
+# King Constantine I
+battle.sides.1.commanders.0: "الملك قسطنطين الأول"
+
+# Anastasios Papoulas
+battle.sides.1.commanders.1: "أناستاسيوس بابولاس"

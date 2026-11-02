@@ -1,0 +1,3 @@
+Bez pisemnych rozkazów generał dywizji Frangu, dowódca greckiej 1 Dywizji, w nocy z 27 na 28 sierpnia prowadzi swoją i 7 Dywizję na zachód, w stronę Dumlupınaru. Generał Trikupis zatrzymuje większą część I i II Korpusu na noc w miejscu i rusza na zachód dopiero 28 sierpnia o 5.00. Między dwiema greckimi grupami otwiera się luka.
+
+Turecka 1 Armia i kawaleria idą ich śladem. Odsłonięta kolumna [greckiej 4 Dywizji](@afyon-gap-fourth-division) zostaje o 7.00 dogoniona i rozbita. Niewprowadzona dotąd do walki grecka 9 Dywizja zadaje ciężkie straty tureckiej 2 Dywizji Kawalerii, która próbuje zagrodzić 9 Dywizji drogę na zachód. Grupa Trikupisa nocuje w okolicy [Olucaku](@afyon-gap-olucak), a grupa Frangu 29 sierpnia do 5.00 dociera na pozycje pod Dumlupınarem.

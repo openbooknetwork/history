@@ -1,0 +1,47 @@
+# zh-CN strings for the battle "sakarya".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n zh-CN
+
+# Grand National Assembly
+battle.sides.0.name: "大国民议会"
+
+# 101,727 soldiers, 5,401 officers, 196 guns
+battle.sides.0.strength: "士兵101,727人，军官5401人，火炮196门"
+
+# 5,713 dead, 37,900 casualties in all
+battle.sides.0.casualties: "死亡5713人，伤亡总计37,900人"
+
+# Kingdom of Greece
+battle.sides.1.name: "希腊王国"
+
+# About 77,000 soldiers, 3,780 officers, 386 guns
+battle.sides.1.strength: "士兵约7.7万人，军官3780人，火炮386门"
+
+# 3,958 dead, 23,267 casualties in all
+battle.sides.1.casualties: "死亡3958人，伤亡总计23,267人"
+
+# Battle of Sakarya
+battle.name: "萨卡里亚河战役"
+
+# 23 August – 13 September 1921
+battle.date: "1921年8月23日—9月13日"
+
+# Turkish victory, end of the Greek advance
+battle.result: "土耳其获胜，希腊军队的推进就此结束"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Mustafa Kemal Pasha
+battle.sides.0.commanders.0: "穆斯塔法·凯末尔帕夏"
+
+# Fevzi Pasha
+battle.sides.0.commanders.1: "费夫齐帕夏"
+
+# İsmet Pasha
+battle.sides.0.commanders.2: "伊斯麦特帕夏"
+
+# King Constantine I
+battle.sides.1.commanders.0: "康斯坦丁一世国王"
+
+# Anastasios Papoulas
+battle.sides.1.commanders.1: "阿纳斯塔西奥斯·帕普拉斯"

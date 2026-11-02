@@ -1,0 +1,30 @@
+# id strings for the battle "gallipoli".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n id
+
+# Ottoman Empire
+battle.sides.0.name: "Kesultanan Utsmaniyah"
+
+# 250,000–315,500 over the campaign
+battle.sides.0.strength: "250.000–315.500 selama kampanye"
+
+# 255,268–289,160, of them 56,938–87,000 dead
+battle.sides.0.casualties: "255.268–289.160, di antaranya 56.938–87.000 tewas"
+
+# British Empire and France
+battle.sides.1.name: "Imperium Britania dan Prancis"
+
+# 489,000–550,000 over the campaign
+battle.sides.1.strength: "489.000–550.000 selama kampanye"
+
+# 252,000–300,000, of them 43,000–61,398 dead
+battle.sides.1.casualties: "252.000–300.000, di antaranya 43.000–61.398 tewas"
+
+# Gallipoli campaign
+battle.name: "Kampanye Gallipoli"
+
+# 19 February 1915 – 9 January 1916
+battle.date: "19 Februari 1915–9 Januari 1916"
+
+# Ottoman victory, Allied evacuation
+battle.result: "Kemenangan Utsmaniyah, evakuasi Sekutu"

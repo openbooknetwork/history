@@ -1,0 +1,35 @@
+# vi strings for the battle "great-offensive".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n vi
+
+# Grand National Assembly
+battle.sides.0.name: "Đại Quốc dân Nghị viện"
+
+# 98,670–103,000 infantry, 5,286 cavalry, 323 guns
+battle.sides.0.strength: "98.670–103.000 bộ binh, 5.286 kị binh, 323 khẩu pháo"
+
+# 2,318 killed, 9,360 wounded, 1,697 missing, 101 captured
+battle.sides.0.casualties: "2.318 người chết, 9.360 bị thương, 1.697 mất tích, 101 bị bắt"
+
+# Kingdom of Greece
+battle.sides.1.name: "Vương quốc Hy Lạp"
+
+# 130,000 infantry, 1,300 cavalry, 348 guns
+battle.sides.1.strength: "130.000 bộ binh, 1.300 kị binh, 348 khẩu pháo"
+
+# 35,000 killed or wounded and 15,000 captured by 7 September
+battle.sides.1.casualties: "35.000 người chết hoặc bị thương và 15.000 bị bắt tính đến ngày 7 tháng 9"
+
+# Great Offensive and Battle of Dumlupınar
+battle.name: "Cuộc Tổng tấn công và Trận Dumlupinar"
+
+# 26 August – 18 September 1922
+battle.date: "Ngày 26 tháng 8 – 18 tháng 9 năm 1922"
+
+# Decisive Turkish victory, withdrawal of the Greek army from Anatolia
+battle.result: "Thổ Nhĩ Kỳ thắng quyết định, quân đội Hy Lạp rút khỏi Anatolia"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# İsmet Pasha
+battle.sides.0.commanders.2: "Ismet Pasha"

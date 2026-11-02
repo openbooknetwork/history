@@ -1,0 +1,3 @@
+Rentetan tembakan artileri Turki dilanjutkan pukul 02.00 pada 27 Agustus dan infanteri menyerang pukul 06.00, sekali lagi di titik pertemuan antara Divisi ke‑1 dan ke‑4 Yunani. Pukul 09.00 Korps IV pimpinan Kolonel Kemalettin Sami merebut puncak [Erkmentepe](@afyon-erkmentepe-peak), dan garis Yunani bobol.
+
+Pukul 10.30 Korps I Yunani memerintahkan penarikan mundur umum sejauh sekitar 20 km ke utara dan pengosongan [Afyon](@afyon-erkmentepe-afyon). Perintah itu tidak sampai ke Divisi ke‑1 Yunani, yang saluran teleponnya telah terputus, dan front divisi itu runtuh pukul 13.30. Menjelang petang Afyon sudah berada di tangan Turki dan front Yunani terbelah dua.

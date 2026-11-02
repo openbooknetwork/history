@@ -1,0 +1,9 @@
+# fa strings for the site.
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language; harita build --strict turns them into errors. Regenerate with: harita i18n fa
+
+# Open History Book
+site.title: "کتاب آزاد تاریخ"
+
+# Step-through maps of how places and people changed over time. A free educational project. Pick a story.
+site.intro: "نقشه‌هایی گام‌به‌گام از اینکه مکان‌ها و مردمان در گذر زمان چگونه دگرگون شدند. پروژه‌ای آموزشی و رایگان. یک داستان را انتخاب کنید."

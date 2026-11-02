@@ -1,0 +1,1562 @@
+# ko strings for the story "ataturk-turkish-republic".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n ko
+
+# 1881 – 1914: The making of an officer
+groups.officer.title: "1881~1914년: 장교가 되기까지"
+
+# 1915 – 1918: The Great War
+groups.great-war.title: "1915~1918년: 제1차 세계 대전"
+
+# 1919 – 1923: The War of Independence
+groups.independence.title: "1919~1923년: 독립 전쟁"
+
+# 1919
+groups.1919.title: "1919년"
+
+# May
+groups.may.title: "5월"
+
+# 1920
+groups.1920.title: "1920년"
+
+# 1921
+groups.1921.title: "1921년"
+
+# Sakarya
+groups.sakarya.title: "사카리아"
+
+# 1922
+groups.1922.title: "1922년"
+
+# The Great Offensive
+groups.great-offensive.title: "대공세"
+
+# 1923
+groups.1923.title: "1923년"
+
+# 1923 – 1939: Epilogue
+groups.epilogue.title: "1923~1939년: 에필로그"
+
+# Sanjak of Alexandretta, French Mandate of Syria
+zones.alexandretta.name: "알렉산드레타 산자크, 프랑스 위임 통치령 시리아"
+
+# Allied beachheads at Cape Helles and Anzac, April 1915
+zones.beachheads-april-1915.name: "헬레스곶과 앤잭의 연합군 교두보, 1915년 4월"
+
+# Allied beachheads at Cape Helles, Anzac and Suvla Bay, August 1915
+zones.beachheads-august-1915.name: "헬레스곶, 앤잭, 수블라만의 연합군 교두보, 1915년 8월"
+
+# Allied (British) occupation of İstanbul, the Straits, Gaziantep, Kahramanmaraş and Şanlıurfa, 1919
+zones.british-1919.name: "연합군(영국군)의 이스탄불, 해협 지대, 가지안테프, 카흐라만마라시, 샨르우르파 점령, 1919년"
+
+# Allied (British) occupation of İstanbul and the Straits
+zones.british.name: "연합군(영국군)의 이스탄불과 해협 지대 점령"
+
+# French occupation zone (Cilicia), 1919
+zones.french-1919.name: "프랑스 점령 지역(킬리키아), 1919년"
+
+# French occupation zone (Cilicia)
+zones.french.name: "프랑스 점령 지역(킬리키아)"
+
+# Greek occupation of Eastern Thrace, 1920 to 1922
+zones.greek-thrace.name: "그리스의 동트라키아 점령, 1920~1922년"
+
+# Greek occupation zone, 1919
+zones.greek1919.name: "그리스 점령 지역, 1919년"
+
+# Greek occupation of western Anatolia and Eastern Thrace, summer 1920
+zones.greek1920.name: "그리스의 서부 아나톨리아와 동트라키아 점령, 1920년 여름"
+
+# Greek occupation of western Anatolia and Eastern Thrace, 1921 to 1922
+zones.greek1921.name: "그리스의 서부 아나톨리아와 동트라키아 점령, 1921~1922년"
+
+# Italian occupation zone
+zones.italian.name: "이탈리아 점령 지역"
+
+# Ottoman Europe lost in the Balkan Wars, 1912 to 1913
+zones.rumelia-lost.name: "발칸 전쟁에서 잃은 오스만 제국의 유럽 영토, 1912~1913년"
+
+# Borders of the Republic of Turkey under the Treaty of Lausanne, 1923
+zones.turkey-1923.name: "로잔 조약에 따른 터키 공화국의 국경, 1923년"
+
+# Action Army, Thessaloniki to Yeşilköy, April 1909
+routes.action-army-1909.name: "행동군, 테살로니키에서 예실쾨이까지, 1909년 4월"
+
+# By train to Vienna and Germany, December 1917
+routes.germany-1917.name: "기차로 빈과 독일까지, 1917년 12월"
+
+# The Great Offensive, 26 August to 9 September 1922
+routes.great-offensive-route.name: "대공세, 1922년 8월 26일~9월 9일"
+
+# Back to Sivas, August to September 1919
+routes.kemal-1919-back.name: "시바스로 귀환, 1919년 8~9월"
+
+# Mustafa Kemal, May to July 1919
+routes.kemal-1919.name: "무스타파 케말, 1919년 5~7월"
+
+# Sivas to Ankara, December 1919
+routes.sivas-ankara.name: "시바스에서 앙카라까지, 1919년 12월"
+
+# The Allied fleet arrives, 13 November 1918
+markers.istanbul.note: "연합국 함대 도착, 1918년 11월 13일"
+
+# Greek landing, 15 May 1919
+markers.izmir.note: "그리스군 상륙, 1919년 5월 15일"
+
+# Italian landing, 28 March 1919
+markers.antalya.note: "이탈리아군 상륙, 1919년 3월 28일"
+
+# French occupation, December 1918
+markers.adana.note: "프랑스군 점령, 1918년 12월"
+
+# Mustafa Kemal lands, 19 May 1919
+markers.samsun.note: "무스타파 케말 상륙, 1919년 5월 19일"
+
+# Circular, 22 June 1919
+markers.amasya.note: "회람 발표, 1919년 6월 22일"
+
+# Congress, 23 July to 7 August 1919
+markers.erzurum.note: "대회, 1919년 7월 23일~8월 7일"
+
+# Congress, 4 to 11 September 1919
+markers.sivas.note: "대회, 1919년 9월 4~11일"
+
+# Grand National Assembly, 23 April 1920
+markers.ankara.note: "대국민의회, 1920년 4월 23일"
+
+# Formal occupation, 16 March 1920
+markers.istanbul-1920.note: "공식 점령, 1920년 3월 16일"
+
+# Taken by the Greek army, 8 July 1920
+markers.bursa.note: "그리스군 점령, 1920년 7월 8일"
+
+# Born 1881
+markers.salonica.note: "1881년 출생"
+
+# Military high school, 1896 to 1899
+markers.monastir.note: "군사 고등학교, 1896~1899년"
+
+# War College, 1899 to 1905
+markers.istanbul-war-college.note: "육군사관학교, 1899~1905년"
+
+# Vatan society, 1906
+markers.damascus.note: "바탄 결사, 1906년"
+
+# Command, March 1912
+markers.derna.note: "지휘, 1912년 3월"
+
+# Gallipoli line, 1912 to 1913
+markers.bolayir.note: "갈리폴리 방어선, 1912~1913년"
+
+# Retaken, 22 July 1913
+markers.edirne.note: "탈환, 1913년 7월 22일"
+
+# Military attaché, 1913 to 1915
+markers.sofia.note: "무관, 1913~1915년"
+
+# 57th Regiment, 25 April 1915
+markers.gallipoli-landing.note: "제57연대, 1915년 4월 25일"
+
+# Allied landing, 6 August 1915
+markers.suvla.note: "연합군 상륙, 1915년 8월 6일"
+
+# Counterattack, 10 August 1915
+markers.chunuk-bair.note: "반격, 1915년 8월 10일"
+
+# Retaken, 8 August 1916
+markers.bitlis.note: "탈환, 1916년 8월 8일"
+
+# Megiddo offensive, 19 September 1918
+markers.nablus.note: "메기도 공세, 1918년 9월 19일"
+
+# The Seventh Army holds a line at Qatma, 26 October 1918
+markers.aleppo.note: "제7군의 카트마 방어선, 1918년 10월 26일"
+
+# Armistice, 30 October 1918
+markers.mudros.note: "휴전 협정, 1918년 10월 30일"
+
+# Taken, 30 October 1920
+markers.kars.note: "점령, 1920년 10월 30일"
+
+# Treaty, 3 December 1920
+markers.gyumri.note: "조약, 1920년 12월 3일"
+
+# Battles, January and March 1921
+markers.inonu.note: "전투, 1921년 1월과 3월"
+
+# Battle, 23 August to 13 September 1921
+markers.sakarya.note: "전투, 1921년 8월 23일~9월 13일"
+
+# Decisive battle, 30 August 1922
+markers.dumlupinar.note: "결정적 전투, 1922년 8월 30일"
+
+# Liberated, 9 September 1922
+markers.izmir-1922.note: "해방, 1922년 9월 9일"
+
+# Armistice, 11 October 1922
+markers.mudanya.note: "휴전 협정, 1922년 10월 11일"
+
+# Capital and Republic, October 1923
+markers.ankara-1923.note: "수도와 공화국, 1923년 10월"
+
+# 10 November 1938
+markers.dolmabahce.note: "1938년 11월 10일"
+
+# Taken by Greek army, 19 July 1921
+markers.eskisehir.note: "그리스군 점령, 1921년 7월 19일"
+
+# Headquarters during Sakarya
+markers.alagoz.note: "사카리아 전투 때의 사령부"
+
+# Front headquarters, August 1922
+markers.aksehir.note: "전선 사령부, 1922년 8월"
+
+# Taken, 27 August 1922
+markers.afyon.note: "점령, 1922년 8월 27일"
+
+# Dawn, 26 August 1922
+markers.kocatepe.note: "새벽, 1922년 8월 26일"
+
+# Taken by Greece, 8 November 1912
+markers.salonica-1912.note: "그리스의 점령, 1912년 11월 8일"
+
+# Bulgarian advance stopped, November 1912
+markers.catalca.note: "불가리아군 진격 저지, 1912년 11월"
+
+# Niyazi leaves for the hills, 3 July 1908
+markers.resne.note: "산으로 떠난 니야지, 1908년 7월 3일"
+
+# The Action Army sets out, April 1909
+markers.salonica-1909.note: "행동군 출발, 1909년 4월"
+
+# Abdülhamid II deposed, 27 April 1909
+markers.istanbul-1909.note: "압뒬하미트 2세 폐위, 1909년 4월 27일"
+
+# Headquarters of the Yıldırım Army Group, 1917
+markers.aleppo-1917.note: "일드름 집단군 사령부, 1917년"
+
+# Returns after resigning, October 1917
+markers.istanbul-1917.note: "사임 후 귀환, 1917년 10월"
+
+# Taken by the Greek army, summer 1920
+markers.balikesir.note: "그리스군 점령, 1920년 여름"
+
+# Taken by the Greek army, August 1920
+markers.usak.note: "그리스군 점령, 1920년 8월"
+
+# Taken by the Greek army, 25 July 1920
+markers.edirne-1920.note: "그리스군 점령, 1920년 7월 25일"
+
+# Capital of the Hatay State, 1938 to 1939
+markers.antakya.note: "하타이국의 수도, 1938~1939년"
+
+# Ashore at about 4.30
+markers.gallipoli-landing-dawn-brigade.note: "오전 4시 30분쯤 상륙"
+
+# 27th Regiment, from Eceabat
+markers.gallipoli-landing-dawn-sefik.note: "에제아바트에서 출발한 제27연대"
+
+# Near the beach that the plan intended
+markers.gallipoli-landing-dawn-kabatepe.note: "작전 계획상의 상륙 해변 부근"
+
+# At Scrubby Knoll (Kemalyeri), about 10.00
+markers.gallipoli-landing-57th-kemal.note: "덤불 언덕(케말예리), 오전 10시쯤"
+
+# Changes hands through the day
+markers.gallipoli-landing-57th-baby-700.note: "온종일 이어진 쟁탈전"
+
+# Commits the 77th and the 72nd
+markers.gallipoli-landing-afternoon-kemal.note: "제77연대와 제72연대 투입"
+
+# 16,000 men ashore by nightfall
+markers.gallipoli-landing-afternoon-beachhead.note: "해 질 녘까지 1만 6000명 상륙"
+
+# Taken on the first night
+markers.suvla-offensive-lala-baba.note: "첫날 밤 점령"
+
+# 450 m from the summit
+markers.suvla-offensive-apex.note: "정상에서 450m 떨어진 지점"
+
+# The highest point of the Sari Bair range
+markers.suvla-offensive-971.note: "사리 바이르 능선의 최고점"
+
+# Commands the front from Suvla to Chunuk Bair
+markers.suvla-tekke-tepe-kemal.note: "수블라에서 추누크 바이르까지 전선 지휘"
+
+# Scrub set on fire by gunfire
+markers.suvla-tekke-tepe-scimitar.note: "포화로 불붙은 덤불"
+
+# Leads the attack at dawn
+markers.suvla-conkbayiri-kemal.note: "새벽 공격 지휘"
+
+# Killed at the Farm
+markers.suvla-conkbayiri-baldwin.note: "농장에서 전사"
+
+# Becomes the new front line
+markers.suvla-conkbayiri-apex.note: "새 최전선"
+
+# The dominant hill
+markers.inonu-first-metristepe.note: "주변을 내려다보는 고지"
+
+# Commander of the Western Front
+markers.inonu-first-ismet.note: "서부 전선군 사령관"
+
+# On the road from Bursa
+markers.inonu-first-bozuyuk.note: "부르사에서 오는 길목"
+
+# Telegram to Mustafa Kemal, 1 April
+markers.inonu-second-metristepe.note: "무스타파 케말에게 보낸 전보, 4월 1일"
+
+# Counterattacks on 31 March
+markers.inonu-second-ismet.note: "3월 31일 반격"
+
+# Leads the offensive
+markers.kutahya-eskisehir-offensive-constantine.note: "공세 지휘"
+
+# Western Front
+markers.kutahya-eskisehir-offensive-ismet.note: "서부 전선군"
+
+# Falls to the Greeks
+markers.kutahya-eskisehir-offensive-kutahya.note: "그리스군에 함락"
+
+# Junction of the railways
+markers.kutahya-eskisehir-offensive-eskisehir.note: "철도 교차점"
+
+# The army matters more than the ground
+markers.kutahya-eskisehir-retreat-kemal.note: "땅보다 중요한 군대"
+
+# The Greek leaders meet here
+markers.kutahya-eskisehir-retreat-kutahya.note: "그리스 지도부의 회의 장소"
+
+# Headquarters of the general staff
+markers.sakarya-approach-polatli.note: "참모본부"
+
+# Orders the attack, 10 August
+markers.sakarya-approach-constantine.note: "공격 명령, 8월 10일"
+
+# Commanding heights, 2 September
+markers.sakarya-heights-cal-dagi.note: "요충 고지, 9월 2일"
+
+# The Greek advance comes close to Haymana
+markers.sakarya-heights-haymana.note: "하이마나 가까이 다가온 그리스군의 진격"
+
+# Leads the counterattack, 8 September
+markers.sakarya-counterattack-kemal.note: "반격 지휘, 9월 8일"
+
+# Retaken, 20 September
+markers.sakarya-counterattack-sivrihisar.note: "탈환, 9월 20일"
+
+# Watches from Kocatepe at dawn
+markers.afyon-barrage-kemal.note: "새벽 코자테페에서 지켜봄"
+
+# First Army
+markers.afyon-barrage-nurettin.note: "제1군"
+
+# Greek I Corps
+markers.afyon-barrage-afyon.note: "그리스군 제1군단"
+
+# The line breaks at 9.00
+markers.afyon-erkmentepe-peak.note: "오전 9시 전선 붕괴"
+
+# Turkish by the evening
+markers.afyon-erkmentepe-afyon.note: "저녁에 터키군 장악"
+
+# Trikoupis’s group spends the night of 28 to 29 August here
+markers.afyon-gap-olucak.note: "트리쿠피스 집단의 숙영지, 8월 28~29일 밤"
+
+# Column broken at 7.00
+markers.afyon-gap-fourth-division.note: "오전 7시 종대 붕괴"
+
+# Frangou’s line on 28 August
+markers.afyon-gap-baskimse.note: "8월 28일 프랑구의 방어선"
+
+# All day, heavy losses
+markers.afyon-ring-hamurkoy.note: "온종일 이어진 전투, 큰 손실"
+
+# The Greeks march here at night
+markers.afyon-ring-calkoy.note: "그리스군의 야간 행군 목적지"
+
+# Directs the battle from Zafertepe
+markers.dumlupinar-alioren-kemal.note: "자페르테페에서 전투 지휘"
+
+# The road west is blocked
+markers.dumlupinar-alioren-alioren.note: "막힌 서쪽 길"
+
+# Under artillery fire from 7.00
+markers.dumlupinar-alioren-calkoy.note: "오전 7시부터 포격"
+
+# Surrenders, 17.00, 2 September
+markers.dumlupinar-surrender-trikoupis.note: "항복, 9월 2일 오후 5시"
+
+# Frangou’s line of retreat
+markers.dumlupinar-surrender-banaz.note: "프랑구 집단의 퇴각로"
+
+# Hatay, joined to the Republic of Turkey in 1939
+zones.hatay-1939.name: "1939년 터키 공화국에 편입된 하타이"
+
+# 1881
+pages.salonica.date: "1881년"
+
+# Born in Thessaloniki
+pages.salonica.title: "테살로니키 출생"
+
+# 1896 to 1899
+pages.monastir.date: "1896~1899년"
+
+# Military high school at Bitola
+pages.monastir.title: "비톨라의 군사 고등학교"
+
+# 1899 to 1905
+pages.war-college.date: "1899~1905년"
+
+# War College and Staff College in İstanbul
+pages.war-college.title: "이스탄불의 육군사관학교와 참모대학"
+
+# 1905 to 1907
+pages.damascus.date: "1905~1907년"
+
+# Damascus and the first secret society
+pages.damascus.title: "다마스쿠스와 첫 비밀 결사"
+
+# July 1908 to April 1909
+pages.action-army.date: "1908년 7월~1909년 4월"
+
+# The 1908 revolution and the Action Army
+pages.action-army.title: "1908년 혁명과 행동군"
+
+# December 1911 to October 1912
+pages.tripolitania.date: "1911년 12월~1912년 10월"
+
+# Tobruk and Derna
+pages.tripolitania.title: "토브루크와 데르나"
+
+# November 1912 to July 1913
+pages.balkan-wars.date: "1912년 11월~1913년 7월"
+
+# The Balkan Wars, Gallipoli and Edirne
+pages.balkan-wars.title: "발칸 전쟁, 갈리폴리와 에디르네"
+
+# October 1913 to January 1915
+pages.sofia.date: "1913년 10월~1915년 1월"
+
+# Military attaché in Sofia
+pages.sofia.title: "소피아 주재 무관"
+
+# 25 April 1915
+pages.gallipoli-landing.date: "1915년 4월 25일"
+
+# Anzac Cove: the landing at Gallipoli
+pages.gallipoli-landing.title: "앤잭만: 갈리폴리 상륙"
+
+# Steam pinnaces towing the boats of the covering force
+emblems.gallipoli-landing-dawn.tows: "엄호 부대의 보트를 끄는 증기 소형정"
+
+# 11th Battalion, towards Russell’s Top and the Nek
+emblems.gallipoli-landing-dawn.eleventh-battalion: "제11대대, 러셀 고지와 네크 방면"
+
+# 10th Battalion, on Plugge’s Plateau
+emblems.gallipoli-landing-dawn.tenth-battalion: "플러기 고원의 제10대대"
+
+# 9th and 12th Battalions, towards the 400 Plateau
+emblems.gallipoli-landing-dawn.ninth-battalion: "제9대대와 제12대대, 400 고원 방면"
+
+# A platoon of the 2nd Battalion, 27th Regiment, falling back
+emblems.gallipoli-landing-dawn.turkish-platoon: "물러나는 제27연대 제2대대의 1개 소대"
+
+# A second platoon at the Fisherman’s Hut
+emblems.gallipoli-landing-dawn.fishermans-hut: "어부의 오두막에 있는 두 번째 소대"
+
+# The first six companies land at Anzac Cove, about 4.30
+emblems.gallipoli-landing-dawn.first-wave: "첫 6개 중대의 앤잭만 상륙, 오전 4시 30분쯤"
+
+# The second six companies land while it is still dark
+emblems.gallipoli-landing-dawn.second-wave: "아직 어두울 때 상륙하는 두 번째 6개 중대"
+
+# Small parties push on to Baby 700
+emblems.gallipoli-landing-dawn.to-baby-700: "베이비 700까지 밀고 나간 소규모 부대"
+
+# Towards the 400 Plateau
+emblems.gallipoli-landing-dawn.to-400-plateau: "400 고원 방면"
+
+# The Ottoman platoon withdraws inland
+emblems.gallipoli-landing-dawn.platoon-falls-back: "내륙으로 물러나는 오스만군 소대"
+
+# Mehmet Şefik’s 27th Regiment marches from Eceabat
+emblems.gallipoli-landing-dawn.sefik-march: "에제아바트에서 행군하는 메흐메트 셰피크의 제27연대"
+
+# 25 April 1915, dawn
+pages.gallipoli-landing-dawn.date: "1915년 4월 25일 새벽"
+
+# Anzac Cove: the landing at dawn
+pages.gallipoli-landing-dawn.title: "앤잭만: 새벽 상륙"
+
+# Australians on the second ridge, from Pope’s Hill to the 400 Plateau
+emblems.gallipoli-landing-57th.anzac-second-ridge: "두 번째 능선의 오스트레일리아군, 포프 언덕에서 400 고원까지"
+
+# Australians on Baby 700
+emblems.gallipoli-landing-57th.anzac-baby-700: "베이비 700의 오스트레일리아군"
+
+# Australians at the Nek and Russell’s Top
+emblems.gallipoli-landing-57th.anzac-nek: "네크와 러셀 고지의 오스트레일리아군"
+
+# 1st Battalion, 57th Regiment: against Baby 700 and Mortar Ridge
+emblems.gallipoli-landing-57th.first-battalion: "제57연대 제1대대: 베이비 700과 박격포 능선 공격"
+
+# 2nd Battalion, 57th Regiment: round to the west of Baby 700
+emblems.gallipoli-landing-57th.second-battalion: "제57연대 제2대대: 베이비 700 서쪽으로 우회"
+
+# 3rd Battalion, 57th Regiment, in reserve
+emblems.gallipoli-landing-57th.third-battalion: "예비대인 제57연대 제3대대"
+
+# Mountain battery on the knoll
+emblems.gallipoli-landing-57th.battery: "언덕 위의 산포 포대"
+
+# 27th Regiment on Gun Ridge
+emblems.gallipoli-landing-57th.twenty-seventh: "대포 능선의 제27연대"
+
+# The 1st Battalion attacks Baby 700
+emblems.gallipoli-landing-57th.attack-baby-700: "제1대대의 베이비 700 공격"
+
+# The 1st Battalion attacks Mortar Ridge
+emblems.gallipoli-landing-57th.attack-mortar-ridge: "제1대대의 박격포 능선 공격"
+
+# The 2nd Battalion circles round to the west
+emblems.gallipoli-landing-57th.round-the-west: "서쪽으로 우회하는 제2대대"
+
+# 25 April 1915, morning
+pages.gallipoli-landing-57th.date: "1915년 4월 25일 오전"
+
+# Anzac Cove: the 57th Regiment
+pages.gallipoli-landing-57th.title: "앤잭만: 제57연대"
+
+# The Anzac line at nightfall, under 3 km long
+emblems.gallipoli-landing-afternoon.anzac-line: "해 질 녘의 앤잭군 전선, 길이 3km 미만"
+
+# Australians and New Zealanders from Walker’s Ridge to Pope’s Hill
+emblems.gallipoli-landing-afternoon.anzac-north: "워커 능선에서 포프 언덕까지의 오스트레일리아군과 뉴질랜드군"
+
+# Australians on the western slope of the 400 Plateau and Bolton’s Ridge
+emblems.gallipoli-landing-afternoon.anzac-south: "400 고원 서쪽 비탈과 볼턴 능선의 오스트레일리아군"
+
+# What is left of the 57th Regiment on Baby 700
+emblems.gallipoli-landing-afternoon.fifty-seventh: "베이비 700에 남은 제57연대 병력"
+
+# 72nd Regiment, attacking from the north at 16.30
+emblems.gallipoli-landing-afternoon.seventy-second: "오후 4시 30분 북쪽에서 공격하는 제72연대"
+
+# Two battalions of the 77th Regiment, between the 57th and the 27th
+emblems.gallipoli-landing-afternoon.seventy-seventh: "제57연대와 제27연대 사이의 제77연대 2개 대대"
+
+# 27th Regiment, on the 400 Plateau
+emblems.gallipoli-landing-afternoon.twenty-seventh: "400 고원의 제27연대"
+
+# The 72nd Regiment drives on towards the Nek
+emblems.gallipoli-landing-afternoon.seventy-second-attack: "네크로 밀고 나가는 제72연대"
+
+# The 27th and 77th Regiments retake most of the 400 Plateau
+emblems.gallipoli-landing-afternoon.plateau-attack: "400 고원 대부분을 되찾는 제27연대와 제77연대"
+
+# The Australians and New Zealanders fall back from Baby 700
+emblems.gallipoli-landing-afternoon.baby-700-lost: "베이비 700에서 물러나는 오스트레일리아군과 뉴질랜드군"
+
+# 25 April 1915, afternoon and evening
+pages.gallipoli-landing-afternoon.date: "1915년 4월 25일 오후와 저녁"
+
+# Anzac Cove: the counterattack
+pages.gallipoli-landing-afternoon.title: "앤잭만: 반격"
+
+# 6 to 10 August 1915
+pages.suvla.date: "1915년 8월 6~10일"
+
+# Suvla and Chunuk Bair
+pages.suvla.title: "수블라와 추누크 바이르"
+
+# The salt lake behind Suvla Bay, mostly dry in August
+emblems.suvla-offensive.salt-lake: "수블라만 뒤의 소금 호수, 8월에는 거의 마른 상태"
+
+# Destroyers and lighters off B Beach
+emblems.suvla-offensive.b-beach-ships: "B 해변 앞바다의 구축함과 거룻배"
+
+# Destroyers in Suvla Bay
+emblems.suvla-offensive.a-beach-ships: "수블라만의 구축함"
+
+# British 11th Division, round Lala Baba
+emblems.suvla-offensive.eleventh-division: "랄라 바바 주변의 영국군 제11사단"
+
+# 34th Brigade, between the beach and the salt lake
+emblems.suvla-offensive.thirty-fourth-brigade: "해변과 소금 호수 사이의 제34여단"
+
+# 11th Manchesters on the Kiretch Tepe ridge
+emblems.suvla-offensive.manchesters: "키레치테페 능선의 맨체스터 연대 제11대대"
+
+# Major Willmer’s small detachment
+emblems.suvla-offensive.willmer: "빌머 소령의 소규모 분견대"
+
+# Wellington Battalion on the summit of Chunuk Bair, 8 August
+emblems.suvla-offensive.wellingtons: "추누크 바이르 정상의 웰링턴 대대, 8월 8일"
+
+# Mustafa Kemal’s 19th Division on Battleship Hill and Baby 700
+emblems.suvla-offensive.nineteenth-division: "전함 고지와 베이비 700에 있는 무스타파 케말의 제19사단"
+
+# Right assaulting column up the spur to the Apex
+emblems.suvla-offensive.right-column: "지맥을 따라 에이펙스로 오르는 우측 공격 종대"
+
+# Left assaulting column towards Hill Q and Hill 971
+emblems.suvla-offensive.left-column: "Q 고지와 971 고지로 향하는 좌측 공격 종대"
+
+# The landing at B Beach, night of 6 August
+emblems.suvla-offensive.b-beach: "B 해변 상륙, 8월 6일 밤"
+
+# The landing at A Beach
+emblems.suvla-offensive.a-beach: "A 해변 상륙"
+
+# 6 to 8 August 1915
+pages.suvla-offensive.date: "1915년 8월 6~8일"
+
+# Suvla: the August offensive
+pages.suvla-offensive.title: "수블라: 8월 공세"
+
+# The salt lake behind Suvla Bay, mostly dry in August
+emblems.suvla-tekke-tepe.salt-lake: "수블라만 뒤의 소금 호수, 8월에는 거의 마른 상태"
+
+# 7th and 12th Divisions on the Tekke Tepe ridge, under Mustafa Kemal
+emblems.suvla-tekke-tepe.seventh-twelfth: "테케테페 능선의 제7사단과 제12사단, 무스타파 케말 지휘"
+
+# Ottoman troops on the Anafarta spur and the W Hills
+emblems.suvla-tekke-tepe.anafarta-spur: "아나파르타 지맥과 W 고지의 오스만군"
+
+# British troops round Chocolate Hill
+emblems.suvla-tekke-tepe.chocolate-hill: "초콜릿 고지 주변의 영국군"
+
+# British troops at Hill 10
+emblems.suvla-tekke-tepe.hill-10: "10 고지의 영국군"
+
+# British 10th Division on the Kiretch Tepe ridge
+emblems.suvla-tekke-tepe.kirectepe: "키레치테페 능선의 영국군 제10사단"
+
+# The British 32nd Brigade marches for Tekke Tepe in the night
+emblems.suvla-tekke-tepe.thirty-second-march: "밤에 테케테페로 행군하는 영국군 제32여단"
+
+# The Ottoman bayonet charge at about 4.00
+emblems.suvla-tekke-tepe.bayonet-charge: "오전 4시쯤 오스만군의 총검 돌격"
+
+# The 32nd Brigade breaks and falls back towards the beach
+emblems.suvla-tekke-tepe.thirty-second-flight: "무너져 해변 쪽으로 물러나는 제32여단"
+
+# 9 August 1915
+pages.suvla-tekke-tepe.date: "1915년 8월 9일"
+
+# Suvla: the dawn attack
+pages.suvla-tekke-tepe.title: "수블라: 새벽 공격"
+
+# 6th South Lancashires on the summit, overrun
+emblems.suvla-conkbayiri.lancashires: "정상에서 짓밟힌 사우스랭커셔 연대 제6대대"
+
+# 5th Wiltshires below the summit, scattered
+emblems.suvla-conkbayiri.wiltshires: "정상 아래에서 흩어진 윌트셔 연대 제5대대"
+
+# Baldwin’s brigade at the Farm, about 3,000 men
+emblems.suvla-conkbayiri.baldwin: "농장의 볼드윈 여단, 약 3,000명"
+
+# New Zealand machine guns at the Apex
+emblems.suvla-conkbayiri.apex-guns: "에이펙스의 뉴질랜드군 기관총"
+
+# Six battalions led by Mustafa Kemal, attacking at dawn
+emblems.suvla-conkbayiri.kemal-battalions: "새벽에 공격하는 무스타파 케말의 6개 대대"
+
+# Over the summit to the Pinnacle
+emblems.suvla-conkbayiri.over-the-summit: "정상을 넘어 피너클까지"
+
+# Down the northern slope onto the Farm
+emblems.suvla-conkbayiri.down-to-the-farm: "북쪽 비탈을 내려가 농장으로"
+
+# Survivors fall back to Cheshire Ridge
+emblems.suvla-conkbayiri.farm-survivors: "체셔 능선으로 물러나는 생존자"
+
+# 10 August 1915
+pages.suvla-conkbayiri.date: "1915년 8월 10일"
+
+# Chunuk Bair: the counterattack
+pages.suvla-conkbayiri.title: "추누크 바이르: 반격"
+
+# August 1916
+pages.caucasus-front.date: "1916년 8월"
+
+# Muş and Bitlis, the Caucasus front
+pages.caucasus-front.title: "무시와 비틀리스, 캅카스 전선"
+
+# July 1917 to July 1918
+pages.seventh-army.date: "1917년 7월~1918년 7월"
+
+# The Seventh Army, and a journey to Germany
+pages.seventh-army.title: "제7군과 독일 방문"
+
+# September to October 1918
+pages.syrian-front.date: "1918년 9~10월"
+
+# The Syrian front and the retreat to Aleppo
+pages.syrian-front.title: "시리아 전선과 알레포 후퇴"
+
+# 30 October to 13 November 1918
+pages.mudros.date: "1918년 10월 30일~11월 13일"
+
+# The Armistice of Mudros and the Allied fleet in İstanbul
+pages.mudros.title: "무드로스 휴전 협정과 이스탄불의 연합국 함대"
+
+# 15 to 19 May 1919
+pages.occupation.date: "1919년 5월 15~19일"
+
+# Occupation, and the landing at Samsun
+pages.occupation.title: "점령과 삼순 상륙"
+
+# 22 June to 11 September 1919
+pages.congresses.date: "1919년 6월 22일~9월 11일"
+
+# Amasya, Erzurum, Sivas
+pages.congresses.title: "아마시아, 에르주룸, 시바스"
+
+# 27 December 1919 to 23 April 1920
+pages.ankara.date: "1919년 12월 27일~1920년 4월 23일"
+
+# Ankara and the Grand National Assembly
+pages.ankara.title: "앙카라와 대국민의회"
+
+# June to August 1920
+pages.greek-offensive.date: "1920년 6~8월"
+
+# The Greek summer offensive
+pages.greek-offensive.title: "그리스군의 여름 공세"
+
+# 10 August 1920
+pages.sevres.date: "1920년 8월 10일"
+
+# The Treaty of Sèvres
+pages.sevres.title: "세브르 조약"
+
+# September to December 1920
+pages.gyumri.date: "1920년 9~12월"
+
+# The Eastern front and the Treaty of Alexandropol
+pages.gyumri.title: "동부 전선과 알렉산드로폴 조약"
+
+# January to April 1921
+pages.inonu.date: "1921년 1~4월"
+
+# First and Second İnönü
+pages.inonu.title: "제1·2차 이뇌뉘 전투"
+
+# The railway from Bozüyük through İnönü to Eskişehir
+emblems.inonu-first.railway: "보쥐위크에서 이뇌뉘를 거쳐 에스키셰히르로 가는 철도"
+
+# Greek Islands Division, advancing by Kovalca and Akpınar
+emblems.inonu-first.islands-division: "코발자와 아크프나르를 거쳐 진격하는 그리스군 군도 사단"
+
+# Greek Smyrna Division, advancing from the north
+emblems.inonu-first.smyrna-division: "북쪽에서 진격하는 그리스군 스미르나 사단"
+
+# Turkish 11th Division astride the railway
+emblems.inonu-first.eleventh-division: "철도를 끼고 자리 잡은 터키군 제11사단"
+
+# Turkish 61st Division, coming up to reinforce the line
+emblems.inonu-first.sixty-first-division: "전선을 보강하러 오는 터키군 제61사단"
+
+# In the fog the Greeks take Metristepe, 10 January
+emblems.inonu-first.metristepe-taken: "안개 속 그리스군의 메트리스테페 점령, 1월 10일"
+
+# Fevzi Pasha pulls the line back east
+emblems.inonu-first.line-pulled-back: "페브지 파샤가 동쪽으로 물린 전선"
+
+# The Greeks withdraw towards Bozüyük, 11 January
+emblems.inonu-first.greek-withdrawal: "보쥐위크 쪽으로 그리스군 철수, 1월 11일"
+
+# 9 to 11 January 1921
+pages.inonu-first.date: "1921년 1월 9~11일"
+
+# İnönü: the first battle
+pages.inonu-first.title: "이뇌뉘: 제1차 전투"
+
+# The railway from Bozüyük through İnönü to Eskişehir
+emblems.inonu-second.railway: "보쥐위크에서 이뇌뉘를 거쳐 에스키셰히르로 가는 철도"
+
+# Greek III Corps, holding İnönü and Metristepe
+emblems.inonu-second.third-corps: "이뇌뉘와 메트리스테페를 차지한 그리스군 제3군단"
+
+# İsmet Pasha’s Western Front, reinforced
+emblems.inonu-second.western-front: "증원을 받은 이스메트 파샤의 서부 전선군"
+
+# The III Corps advances from Bursa, 23 to 27 March
+emblems.inonu-second.greek-advance: "부르사에서 진격하는 제3군단, 3월 23~27일"
+
+# İsmet retakes Metristepe, 31 March
+emblems.inonu-second.retake-metristepe: "이스메트의 메트리스테페 탈환, 3월 31일"
+
+# The III Corps falls back towards Bursa in good order
+emblems.inonu-second.greek-retreat: "질서를 지키며 부르사 쪽으로 물러나는 제3군단"
+
+# 23 March to 1 April 1921
+pages.inonu-second.date: "1921년 3월 23일~4월 1일"
+
+# İnönü: Metristepe
+pages.inonu-second.title: "이뇌뉘: 메트리스테페"
+
+# 10 July to 5 August 1921
+pages.kutahya-eskisehir.date: "1921년 7월 10일~8월 5일"
+
+# Kütahya and Eskişehir, the retreat to the Sakarya
+pages.kutahya-eskisehir.title: "퀴타히아와 에스키셰히르, 사카리아강으로의 후퇴"
+
+# The Sakarya river
+emblems.kutahya-eskisehir-offensive.sakarya-river: "사카리아강"
+
+# Western Front, main body before Eskişehir
+emblems.kutahya-eskisehir-offensive.turkish-north: "에스키셰히르 앞의 서부 전선군 주력"
+
+# Western Front units at Kütahya
+emblems.kutahya-eskisehir-offensive.turkish-kutahya: "퀴타히아의 서부 전선군 부대"
+
+# Western Front units at Afyon
+emblems.kutahya-eskisehir-offensive.turkish-afyon: "아피온의 서부 전선군 부대"
+
+# Greek southern group from Uşak
+emblems.kutahya-eskisehir-offensive.greek-south: "우샤크에서 출발한 그리스군 남부 집단"
+
+# Greek northern group by Bozüyük
+emblems.kutahya-eskisehir-offensive.greek-north: "보쥐위크 부근의 그리스군 북부 집단"
+
+# The southern group takes Afyon
+emblems.kutahya-eskisehir-offensive.to-afyon: "남부 집단의 아피온 점령"
+
+# The southern group then takes Kütahya
+emblems.kutahya-eskisehir-offensive.to-kutahya: "이어진 남부 집단의 퀴타히아 점령"
+
+# The Greeks prepare to turn north along the railway
+emblems.kutahya-eskisehir-offensive.turn-north: "철도를 따라 북쪽으로 방향을 틀 준비를 하는 그리스군"
+
+# July 1921
+pages.kutahya-eskisehir-offensive.date: "1921년 7월"
+
+# Kütahya: the Greek summer offensive
+pages.kutahya-eskisehir-offensive.title: "퀴타히아: 그리스군의 여름 공세"
+
+# The Sakarya river
+emblems.kutahya-eskisehir-retreat.sakarya-river: "사카리아강"
+
+# The Greek main body, wheeling north on Eskişehir
+emblems.kutahya-eskisehir-retreat.greek-main: "북쪽의 에스키셰히르로 선회하는 그리스군 주력"
+
+# The Greek feint towards the Turkish right
+emblems.kutahya-eskisehir-retreat.greek-feint: "터키군 우익을 향한 그리스군의 양동 공격"
+
+# The Western Front behind the Sakarya, about 80 km from Ankara
+emblems.kutahya-eskisehir-retreat.sakarya-line: "사카리아강 뒤의 서부 전선군, 앙카라에서 약 80km"
+
+# The feint towards Eskişehir, 16 July
+emblems.kutahya-eskisehir-retreat.feint: "에스키셰히르 방면 양동 공격, 7월 16일"
+
+# Eskişehir falls
+emblems.kutahya-eskisehir-retreat.eskisehir-falls: "에스키셰히르 함락"
+
+# İsmet breaks contact and withdraws east
+emblems.kutahya-eskisehir-retreat.withdrawal-north: "교전을 끊고 동쪽으로 물러나는 이스메트"
+
+# The southern units fall back to the Sakarya
+emblems.kutahya-eskisehir-retreat.withdrawal-south: "사카리아강으로 물러나는 남쪽 부대"
+
+# 16 to 25 July 1921
+pages.kutahya-eskisehir-retreat.date: "1921년 7월 16~25일"
+
+# Eskişehir: the withdrawal to the Sakarya
+pages.kutahya-eskisehir-retreat.title: "에스키셰히르: 사카리아강으로의 철수"
+
+# 23 August to 13 September 1921
+pages.sakarya.date: "1921년 8월 23일~9월 13일"
+
+# The battle on the Sakarya
+pages.sakarya.title: "사카리아강의 전투"
+
+# The Sakarya, steep banked, with two bridges on this front
+emblems.sakarya-approach.sakarya-river: "기슭이 가파른 사카리아강, 이 전선에 다리 2개"
+
+# The Gök, shallow, joining the Sakarya from the east
+emblems.sakarya-approach.gok-river: "동쪽에서 사카리아강에 합류하는 얕은 괵강"
+
+# Turkish infantry on the hills east of the Sakarya, northern sector
+emblems.sakarya-approach.north-sector: "사카리아강 동쪽 언덕의 터키군 보병, 북부 지구"
+
+# Turkish infantry in the centre, before Polatlı
+emblems.sakarya-approach.centre-sector: "폴라틀르 앞 중앙의 터키군 보병"
+
+# Turkish line along the Gök, facing south
+emblems.sakarya-approach.gok-line: "괵강을 따라 남쪽을 향한 터키군 전선"
+
+# Turkish advanced positions south of the Gök
+emblems.sakarya-approach.advanced-posts: "괵강 남쪽의 터키군 전초 진지"
+
+# Greek divisions march east to the river
+emblems.sakarya-approach.greek-east: "강을 향해 동쪽으로 행군하는 그리스군 사단"
+
+# The march round the south to outflank the Turkish left
+emblems.sakarya-approach.flank-march: "터키군 좌익을 우회하려는 남쪽 행군"
+
+# 10 to 25 August 1921
+pages.sakarya-approach.date: "1921년 8월 10~25일"
+
+# Sakarya: the march round the flank
+pages.sakarya-approach.title: "사카리아: 측면 우회 행군"
+
+# The Sakarya, steep banked, with two bridges on this front
+emblems.sakarya-heights.sakarya-river: "기슭이 가파른 사카리아강, 이 전선에 다리 2개"
+
+# The Gök, shallow, joining the Sakarya from the east
+emblems.sakarya-heights.gok-river: "동쪽에서 사카리아강에 합류하는 얕은 괵강"
+
+# Turkish infantry on the hills east of the Sakarya, northern sector
+emblems.sakarya-heights.north-sector: "사카리아강 동쪽 언덕의 터키군 보병, 북부 지구"
+
+# Turkish infantry in the centre, before Polatlı
+emblems.sakarya-heights.centre-sector: "폴라틀르 앞 중앙의 터키군 보병"
+
+# Turkish second line, between Polatlı and Haymana
+emblems.sakarya-heights.second-line: "폴라틀르와 하이마나 사이의 터키군 제2선"
+
+# Greek divisions across the Gök, the western wing
+emblems.sakarya-heights.greek-left: "괵강을 건넌 그리스군 사단, 서쪽 날개"
+
+# The Greek main effort in the centre
+emblems.sakarya-heights.greek-centre: "중앙의 그리스군 주력"
+
+# Greek divisions on the eastern wing
+emblems.sakarya-heights.greek-right: "동쪽 날개의 그리스군 사단"
+
+# Greek divisions facing the river front
+emblems.sakarya-heights.greek-river: "강 쪽 전선을 마주한 그리스군 사단"
+
+# The Greeks storm Çal Dağı, taken on 2 September
+emblems.sakarya-heights.cal-dagi: "그리스군의 찰산 돌격, 9월 2일 점령"
+
+# The centre pushes 16 km through the second line
+emblems.sakarya-heights.centre-push: "제2선을 뚫고 16km 밀고 나간 중앙"
+
+# Turkish cavalry raids the Greek supply lines
+emblems.sakarya-heights.cavalry-raids: "터키군 기병의 그리스군 보급선 습격"
+
+# 26 August to 2 September 1921
+pages.sakarya-heights.date: "1921년 8월 26일~9월 2일"
+
+# Sakarya: the assault on the heights
+pages.sakarya-heights.title: "사카리아: 고지 공격"
+
+# The Sakarya, steep banked, with two bridges on this front
+emblems.sakarya-counterattack.sakarya-river: "기슭이 가파른 사카리아강, 이 전선에 다리 2개"
+
+# The Gök, shallow, joining the Sakarya from the east
+emblems.sakarya-counterattack.gok-river: "동쪽에서 사카리아강에 합류하는 얕은 괵강"
+
+# Turkish infantry on the hills east of the Sakarya, northern sector
+emblems.sakarya-counterattack.north-sector: "사카리아강 동쪽 언덕의 터키군 보병, 북부 지구"
+
+# Turkish infantry in the centre, before Polatlı
+emblems.sakarya-counterattack.centre-sector: "폴라틀르 앞 중앙의 터키군 보병"
+
+# Turkish line between Polatlı and Haymana, reinforced by new recruits
+emblems.sakarya-counterattack.second-line: "신병으로 보강된 폴라틀르와 하이마나 사이의 터키군 전선"
+
+# The Greek left round Çal Dağı
+emblems.sakarya-counterattack.greek-left: "찰산 주변의 그리스군 좌익"
+
+# The exhausted Greek centre
+emblems.sakarya-counterattack.greek-centre: "지친 그리스군 중앙"
+
+# Mustafa Kemal’s counterattack on the Greek left, 8 September
+emblems.sakarya-counterattack.kemal-counterattack: "그리스군 좌익을 향한 무스타파 케말의 반격, 9월 8일"
+
+# The Greek army withdraws across the Sakarya, night of 12 to 13 September
+emblems.sakarya-counterattack.greek-retreat-west: "사카리아강을 건너는 그리스군의 철수, 9월 12~13일 밤"
+
+# The eastern wing pulls back by the south
+emblems.sakarya-counterattack.greek-retreat-south: "남쪽으로 돌아 물러나는 동쪽 날개"
+
+# 8 to 13 September 1921
+pages.sakarya-counterattack.date: "1921년 9월 8~13일"
+
+# Sakarya: the counterattack
+pages.sakarya-counterattack.title: "사카리아: 반격"
+
+# 19 September 1921
+pages.field-marshal.date: "1921년 9월 19일"
+
+# Field marshal and Gazi
+pages.field-marshal.title: "원수와 가지"
+
+# 20 October 1921
+pages.ankara-agreement.date: "1921년 10월 20일"
+
+# The Ankara Agreement with France
+pages.ankara-agreement.title: "프랑스와 맺은 앙카라 협정"
+
+# June to August 1922
+pages.preparation.date: "1922년 6~8월"
+
+# The year of preparation
+pages.preparation.title: "준비의 해"
+
+# 26 to 27 August 1922
+pages.afyon.date: "1922년 8월 26~27일"
+
+# Kocatepe and the breakthrough at Afyon
+pages.afyon.title: "코자테페와 아피온 돌파"
+
+# The railway from Afyon to Dumlupınar and İzmir, the Greek supply line
+emblems.afyon-barrage.railway: "아피온에서 둠루프나르를 거쳐 이즈미르로 가는 철도, 그리스군 보급선"
+
+# Greek 1st Division, south west of Afyon
+emblems.afyon-barrage.greek-first: "아피온 남서쪽의 그리스군 제1사단"
+
+# Greek 4th Division, south of Afyon
+emblems.afyon-barrage.greek-fourth: "아피온 남쪽의 그리스군 제4사단"
+
+# Greek 5th Division, north east of Afyon
+emblems.afyon-barrage.greek-fifth: "아피온 북동쪽의 그리스군 제5사단"
+
+# Greek II Corps in reserve, by Gazlıgöl
+emblems.afyon-barrage.greek-second-corps: "가즐르괼 부근에서 예비대로 있는 그리스군 제2군단"
+
+# Turkish I Corps, four divisions
+emblems.afyon-barrage.turkish-first-corps: "터키군 제1군단, 4개 사단"
+
+# Turkish IV Corps, four divisions
+emblems.afyon-barrage.turkish-fourth-corps: "터키군 제4군단, 4개 사단"
+
+# Turkish II Corps in reserve
+emblems.afyon-barrage.turkish-second-corps: "예비대인 터키군 제2군단"
+
+# Second Army under Yakup Şevki Pasha
+emblems.afyon-barrage.second-army: "야쿠프 셰브키 파샤의 제2군"
+
+# V Cavalry Corps under Fahrettin Pasha, behind the Greek line
+emblems.afyon-barrage.fifth-cavalry: "그리스군 전선 뒤의 제5기병군단, 파흐레틴 파샤 지휘"
+
+# The cavalry passes through the Kırka gorge in the night of 25 to 26 August
+emblems.afyon-barrage.kirka-gorge: "8월 25~26일 밤 크르카 협곡을 지나는 기병"
+
+# The cavalry cuts the railway and the telegraph by 18.00
+emblems.afyon-barrage.cut-railway: "오후 6시까지 철도와 전신선을 끊은 기병"
+
+# Seven divisions attack the seam of the Greek 1st and 4th Divisions
+emblems.afyon-barrage.first-corps-attack: "그리스군 제1사단과 제4사단의 접합부를 공격하는 7개 사단"
+
+# The IV Corps attacks towards Erkmentepe
+emblems.afyon-barrage.fourth-corps-attack: "에르크멘테페 쪽으로 공격하는 제4군단"
+
+# The Second Army attacks north of Afyon
+emblems.afyon-barrage.second-army-attack: "아피온 북쪽을 공격하는 제2군"
+
+# 26 August 1922
+pages.afyon-barrage.date: "1922년 8월 26일"
+
+# Great Offensive: the barrage at dawn
+pages.afyon-barrage.title: "대공세: 새벽의 포격"
+
+# The railway from Afyon to Dumlupınar and İzmir, the Greek supply line
+emblems.afyon-erkmentepe.railway: "아피온에서 둠루프나르를 거쳐 이즈미르로 가는 철도, 그리스군 보급선"
+
+# Greek 1st Division, cut off from its corps, collapsing at 13.30
+emblems.afyon-erkmentepe.greek-first: "군단과 연락이 끊겨 오후 1시 30분에 무너지는 그리스군 제1사단"
+
+# Greek 4th Division, falling back
+emblems.afyon-erkmentepe.greek-fourth: "물러나는 그리스군 제4사단"
+
+# Turkish I Corps
+emblems.afyon-erkmentepe.turkish-first-corps: "터키군 제1군단"
+
+# Turkish IV Corps under Kemalettin Sami, on Erkmentepe
+emblems.afyon-erkmentepe.turkish-fourth-corps: "에르크멘테페의 터키군 제4군단, 케말레틴 사미 지휘"
+
+# V Cavalry Corps astride the railway
+emblems.afyon-erkmentepe.fifth-cavalry: "철도를 끼고 자리 잡은 제5기병군단"
+
+# The IV Corps takes Erkmentepe at 9.00
+emblems.afyon-erkmentepe.erkmentepe: "오전 9시 제4군단의 에르크멘테페 점령"
+
+# The Greek I Corps withdraws 20 km north and gives up Afyon
+emblems.afyon-erkmentepe.greek-withdrawal: "북쪽으로 20km 물러나며 아피온을 내주는 그리스군 제1군단"
+
+# The 1st Division falls back west
+emblems.afyon-erkmentepe.first-division-west: "서쪽으로 물러나는 제1사단"
+
+# 27 August 1922
+pages.afyon-erkmentepe.date: "1922년 8월 27일"
+
+# Great Offensive: the breakthrough at Erkmentepe
+pages.afyon-erkmentepe.title: "대공세: 에르크멘테페 돌파"
+
+# The railway from Afyon to Dumlupınar and İzmir, the Greek supply line
+emblems.afyon-gap.railway: "아피온에서 둠루프나르를 거쳐 이즈미르로 가는 철도, 그리스군 보급선"
+
+# Trikoupis group: most of the Greek I and II Corps, the night at Olucak
+emblems.afyon-gap.trikoupis-group: "트리쿠피스 집단: 그리스군 제1·2군단 대부분, 올루자크에서 숙영"
+
+# Frangou group: the Greek 1st and 7th Divisions at Dumlupınar
+emblems.afyon-gap.frangou-group: "프랑구 집단: 둠루프나르의 그리스군 제1·7사단"
+
+# Turkish First Army, following
+emblems.afyon-gap.first-army: "뒤쫓는 터키군 제1군"
+
+# Turkish 2nd Cavalry Division, mauled by the Greek 9th Division
+emblems.afyon-gap.second-cavalry: "그리스군 제9사단에 큰 타격을 입은 터키군 제2기병사단"
+
+# Frangou takes his group west in the night of 27 to 28 August
+emblems.afyon-gap.frangou-march: "8월 27~28일 밤 서쪽으로 향하는 프랑구 집단"
+
+# Trikoupis starts west at 5.00 on 28 August
+emblems.afyon-gap.trikoupis-march: "8월 28일 오전 5시 서쪽으로 출발하는 트리쿠피스"
+
+# Turkish units follow into the gap between the two groups
+emblems.afyon-gap.into-the-gap: "두 집단 사이의 틈으로 뒤쫓아 들어가는 터키군 부대"
+
+# 27 to 28 August 1922
+pages.afyon-gap.date: "1922년 8월 27~28일"
+
+# Great Offensive: two Greek groups
+pages.afyon-gap.title: "대공세: 두 그리스군 집단"
+
+# The railway from Afyon to Dumlupınar and İzmir, the Greek supply line
+emblems.afyon-ring.railway: "아피온에서 둠루프나르를 거쳐 이즈미르로 가는 철도, 그리스군 보급선"
+
+# Trikoupis group, surrounded
+emblems.afyon-ring.trikoupis-group: "포위된 트리쿠피스 집단"
+
+# Frangou group at Dumlupınar
+emblems.afyon-ring.frangou-group: "둠루프나르의 프랑구 집단"
+
+# Turkish VI Corps of the Second Army, to the north
+emblems.afyon-ring.sixth-corps: "북쪽의 터키군 제2군 예하 제6군단"
+
+# Turkish IV Corps, to the south
+emblems.afyon-ring.fourth-corps: "남쪽의 터키군 제4군단"
+
+# V Cavalry Corps, between the two Greek groups
+emblems.afyon-ring.fifth-cavalry: "두 그리스군 집단 사이의 제5기병군단"
+
+# Turkish I Corps, before Dumlupınar
+emblems.afyon-ring.first-corps: "둠루프나르 앞의 터키군 제1군단"
+
+# The Greek 9th Division tries to open the road to Dumlupınar
+emblems.afyon-ring.ninth-division: "둠루프나르로 가는 길을 열려는 그리스군 제9사단"
+
+# The Turks attack the Greek 12th Division on the eastern flank
+emblems.afyon-ring.east-attack: "동쪽 측면의 그리스군 제12사단을 공격하는 터키군"
+
+# At 23.00 the group breaks away towards Çalköy
+emblems.afyon-ring.night-march: "오후 11시 찰쾨이 쪽으로 빠져나가는 집단"
+
+# 29 August 1922
+pages.afyon-ring.date: "1922년 8월 29일"
+
+# Great Offensive: the ring around Trikoupis
+pages.afyon-ring.title: "대공세: 트리쿠피스 포위망"
+
+# 30 August 1922
+pages.dumlupinar.date: "1922년 8월 30일"
+
+# Dumlupınar, the commander in chief's battle
+pages.dumlupinar.title: "둠루프나르, 총사령관 전투"
+
+# Trikoupis group: 7,000 infantry fit to fight, crowded together
+emblems.dumlupinar-alioren.trikoupis-group: "트리쿠피스 집단: 싸울 수 있는 보병 7,000명, 밀집 상태"
+
+# 10,000 to 15,000 disorganised men, largely unarmed
+emblems.dumlupinar-alioren.stragglers: "대오를 잃은 1만~1만 5000명, 대부분 비무장"
+
+# Turkish 14th Cavalry Division, blocking the road at 13.30
+emblems.dumlupinar-alioren.fourteenth-cavalry: "오후 1시 30분 길을 막는 터키군 제14기병사단"
+
+# Turkish IV Corps, pressing from the east and south
+emblems.dumlupinar-alioren.fourth-corps: "동쪽과 남쪽에서 압박하는 터키군 제4군단"
+
+# Turkish VI Corps, attacking from the north
+emblems.dumlupinar-alioren.sixth-corps: "북쪽에서 공격하는 터키군 제6군단"
+
+# The IV Corps attacks
+emblems.dumlupinar-alioren.fourth-corps-attack: "제4군단의 공격"
+
+# The VI Corps attacks
+emblems.dumlupinar-alioren.sixth-corps-attack: "제6군단의 공격"
+
+# At 20.30 the survivors march west, leaving guns and wounded
+emblems.dumlupinar-alioren.night-march-west: "오후 8시 30분 대포와 부상자를 두고 서쪽으로 행군하는 생존자"
+
+# 30 August 1922
+pages.dumlupinar-alioren.date: "1922년 8월 30일"
+
+# Dumlupınar: the battle at Alıören
+pages.dumlupinar-alioren.title: "둠루프나르: 알르외렌 전투"
+
+# Turkish cavalry in pursuit
+emblems.dumlupinar-surrender.turkish-cavalry: "추격하는 터키군 기병"
+
+# Turkish First and Second Armies
+emblems.dumlupinar-surrender.turkish-army: "터키군 제1군과 제2군"
+
+# A column of 2,000, mostly 12th Division: surrenders on 1 September
+emblems.dumlupinar-surrender.column-twelfth: "대부분 제12사단 병사인 2,000명의 종대: 9월 1일 항복"
+
+# Trikoupis with 5,000 to 6,000 men: surrenders on 2 September
+emblems.dumlupinar-surrender.column-trikoupis: "트리쿠피스와 병력 5,000~6,000명: 9월 2일 항복"
+
+# A column of 5,000 escapes the ring
+emblems.dumlupinar-surrender.column-escape: "포위망을 빠져나가는 5,000명의 종대"
+
+# Frangou’s group retreats towards Banaz
+emblems.dumlupinar-surrender.frangou-retreat: "바나즈 쪽으로 퇴각하는 프랑구 집단"
+
+# 31 August to 2 September 1922
+pages.dumlupinar-surrender.date: "1922년 8월 31일~9월 2일"
+
+# Dumlupınar: the surrender of the Trikoupis group
+pages.dumlupinar-surrender.title: "둠루프나르: 트리쿠피스 집단의 항복"
+
+# 1 to 18 September 1922
+pages.izmir-retaken.date: "1922년 9월 1~18일"
+
+# The pursuit to İzmir
+pages.izmir-retaken.title: "이즈미르까지의 추격"
+
+# 11 October 1922
+pages.mudanya.date: "1922년 10월 11일"
+
+# The Armistice of Mudanya
+pages.mudanya.title: "무다니아 휴전 협정"
+
+# 1 November 1922
+pages.sultanate.date: "1922년 11월 1일"
+
+# The sultanate is abolished
+pages.sultanate.title: "술탄제 폐지"
+
+# 24 July 1923
+pages.lausanne.date: "1923년 7월 24일"
+
+# The Treaty of Lausanne
+pages.lausanne.title: "로잔 조약"
+
+# 13 to 29 October 1923
+pages.republic.date: "1923년 10월 13~29일"
+
+# Ankara becomes the capital and the Republic is proclaimed
+pages.republic.title: "앙카라 수도 지정과 공화국 선포"
+
+# 1923 to 1938
+pages.reforms.date: "1923~1938년"
+
+# The reforms and the end
+pages.reforms.title: "개혁과 생애의 마지막"
+
+# 1936 to 1939
+pages.hatay.date: "1936~1939년"
+
+# Hatay joins Turkey
+pages.hatay.title: "하타이의 터키 편입"
+
+# From a childhood in Thessaloniki through Gallipoli and the War of Independence to the founding of the Republic in 1923.
+story.summary: "테살로니키에서 보낸 어린 시절부터 갈리폴리와 독립 전쟁을 거쳐 1923년 공화국 수립까지."
+
+# Atatürk and the Turkish Republic
+story.title: "아타튀르크와 터키 공화국"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# İstanbul
+markers.istanbul.label: "이스탄불"
+
+# İzmir
+markers.izmir.label: "이즈미르"
+
+# Antalya
+markers.antalya.label: "안탈리아"
+
+# Adana
+markers.adana.label: "아다나"
+
+# Samsun
+markers.samsun.label: "삼순"
+
+# Amasya
+markers.amasya.label: "아마시아"
+
+# Erzurum
+markers.erzurum.label: "에르주룸"
+
+# Sivas
+markers.sivas.label: "시바스"
+
+# Ankara
+markers.ankara.label: "앙카라"
+
+# İstanbul
+markers.istanbul-1920.label: "이스탄불"
+
+# Bursa
+markers.bursa.label: "부르사"
+
+# Thessaloniki
+markers.salonica.label: "테살로니키"
+
+# Bitola
+markers.monastir.label: "비톨라"
+
+# İstanbul
+markers.istanbul-war-college.label: "이스탄불"
+
+# Damascus
+markers.damascus.label: "다마스쿠스"
+
+# Derna
+markers.derna.label: "데르나"
+
+# Bulair
+markers.bolayir.label: "볼라이르"
+
+# Edirne
+markers.edirne.label: "에디르네"
+
+# Sofia
+markers.sofia.label: "소피아"
+
+# Anzac Cove
+markers.gallipoli-landing.label: "앤잭만"
+
+# Suvla Bay
+markers.suvla.label: "수블라만"
+
+# Chunuk Bair
+markers.chunuk-bair.label: "추누크 바이르"
+
+# Bitlis
+markers.bitlis.label: "비틀리스"
+
+# Nablus
+markers.nablus.label: "나블루스"
+
+# Aleppo
+markers.aleppo.label: "알레포"
+
+# Moudros
+markers.mudros.label: "무드로스"
+
+# Kars
+markers.kars.label: "카르스"
+
+# Gyumri
+markers.gyumri.label: "귬리"
+
+# İnönü
+markers.inonu.label: "이뇌뉘"
+
+# Sakarya
+markers.sakarya.label: "사카리아"
+
+# Dumlupınar
+markers.dumlupinar.label: "둠루프나르"
+
+# İzmir
+markers.izmir-1922.label: "이즈미르"
+
+# Mudanya
+markers.mudanya.label: "무다니아"
+
+# Ankara
+markers.ankara-1923.label: "앙카라"
+
+# Dolmabahçe
+markers.dolmabahce.label: "돌마바흐체"
+
+# Eskişehir
+markers.eskisehir.label: "에스키셰히르"
+
+# Alagöz
+markers.alagoz.label: "알라괴즈"
+
+# Akşehir
+markers.aksehir.label: "아크셰히르"
+
+# Afyon
+markers.afyon.label: "아피온"
+
+# Kocatepe
+markers.kocatepe.label: "코자테페"
+
+# Thessaloniki
+markers.salonica-1912.label: "테살로니키"
+
+# Çatalca
+markers.catalca.label: "차탈자"
+
+# Resen
+markers.resne.label: "레센"
+
+# Thessaloniki
+markers.salonica-1909.label: "테살로니키"
+
+# İstanbul
+markers.istanbul-1909.label: "이스탄불"
+
+# Aleppo
+markers.aleppo-1917.label: "알레포"
+
+# İstanbul
+markers.istanbul-1917.label: "이스탄불"
+
+# Balıkesir
+markers.balikesir.label: "발르케시르"
+
+# Uşak
+markers.usak.label: "우샤크"
+
+# Edirne
+markers.edirne-1920.label: "에디르네"
+
+# Antakya
+markers.antakya.label: "안타키아"
+
+# 3rd Australian Brigade
+markers.gallipoli-landing-dawn-brigade.label: "오스트레일리아 제3여단"
+
+# Mehmet Şefik
+markers.gallipoli-landing-dawn-sefik.label: "메흐메트 셰피크"
+
+# Gaba Tepe
+markers.gallipoli-landing-dawn-kabatepe.label: "가바테페"
+
+# Mustafa Kemal
+markers.gallipoli-landing-57th-kemal.label: "무스타파 케말"
+
+# Baby 700
+markers.gallipoli-landing-57th-baby-700.label: "베이비 700"
+
+# Mustafa Kemal
+markers.gallipoli-landing-afternoon-kemal.label: "무스타파 케말"
+
+# Anzac beachhead
+markers.gallipoli-landing-afternoon-beachhead.label: "앤잭 교두보"
+
+# Lala Baba
+markers.suvla-offensive-lala-baba.label: "랄라 바바"
+
+# The Apex
+markers.suvla-offensive-apex.label: "에이펙스"
+
+# Hill 971
+markers.suvla-offensive-971.label: "971 고지"
+
+# Mustafa Kemal
+markers.suvla-tekke-tepe-kemal.label: "무스타파 케말"
+
+# Scimitar Hill
+markers.suvla-tekke-tepe-scimitar.label: "시미터 고지"
+
+# Mustafa Kemal
+markers.suvla-conkbayiri-kemal.label: "무스타파 케말"
+
+# Baldwin
+markers.suvla-conkbayiri-baldwin.label: "볼드윈"
+
+# The Apex
+markers.suvla-conkbayiri-apex.label: "에이펙스"
+
+# Metristepe
+markers.inonu-first-metristepe.label: "메트리스테페"
+
+# İsmet
+markers.inonu-first-ismet.label: "이스메트"
+
+# Bozüyük
+markers.inonu-first-bozuyuk.label: "보쥐위크"
+
+# Metristepe
+markers.inonu-second-metristepe.label: "메트리스테페"
+
+# İsmet Pasha
+markers.inonu-second-ismet.label: "이스메트 파샤"
+
+# King Constantine
+markers.kutahya-eskisehir-offensive-constantine.label: "콘스탄티노스 왕"
+
+# İsmet Pasha
+markers.kutahya-eskisehir-offensive-ismet.label: "이스메트 파샤"
+
+# Kütahya
+markers.kutahya-eskisehir-offensive-kutahya.label: "퀴타히아"
+
+# Eskişehir
+markers.kutahya-eskisehir-offensive-eskisehir.label: "에스키셰히르"
+
+# Mustafa Kemal
+markers.kutahya-eskisehir-retreat-kemal.label: "무스타파 케말"
+
+# Kütahya
+markers.kutahya-eskisehir-retreat-kutahya.label: "퀴타히아"
+
+# Polatlı
+markers.sakarya-approach-polatli.label: "폴라틀르"
+
+# King Constantine
+markers.sakarya-approach-constantine.label: "콘스탄티노스 왕"
+
+# Çal Dağı
+markers.sakarya-heights-cal-dagi.label: "찰산"
+
+# Haymana
+markers.sakarya-heights-haymana.label: "하이마나"
+
+# Mustafa Kemal
+markers.sakarya-counterattack-kemal.label: "무스타파 케말"
+
+# Sivrihisar
+markers.sakarya-counterattack-sivrihisar.label: "시브리히사르"
+
+# Mustafa Kemal
+markers.afyon-barrage-kemal.label: "무스타파 케말"
+
+# Nurettin Pasha
+markers.afyon-barrage-nurettin.label: "누레틴 파샤"
+
+# Afyon
+markers.afyon-barrage-afyon.label: "아피온"
+
+# Erkmentepe
+markers.afyon-erkmentepe-peak.label: "에르크멘테페"
+
+# Afyon
+markers.afyon-erkmentepe-afyon.label: "아피온"
+
+# Olucak
+markers.afyon-gap-olucak.label: "올루자크"
+
+# Greek 4th Division
+markers.afyon-gap-fourth-division.label: "그리스군 제4사단"
+
+# Başkimse
+markers.afyon-gap-baskimse.label: "바시킴세"
+
+# Hamurköy and İlbulak Dağ
+markers.afyon-ring-hamurkoy.label: "하무르쾨이와 일불라크산"
+
+# Çalköy
+markers.afyon-ring-calkoy.label: "찰쾨이"
+
+# Mustafa Kemal
+markers.dumlupinar-alioren-kemal.label: "무스타파 케말"
+
+# Alıören
+markers.dumlupinar-alioren-alioren.label: "알르외렌"
+
+# Çalköy
+markers.dumlupinar-alioren-calkoy.label: "찰쾨이"
+
+# Trikoupis
+markers.dumlupinar-surrender-trikoupis.label: "트리쿠피스"
+
+# Banaz
+markers.dumlupinar-surrender-banaz.label: "바나즈"

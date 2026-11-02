@@ -1,4 +1,4 @@
-25 Nisan’da saat 4.30 sularında [3. Avustralya Tugayı’nın](@gallipoli-landing-dawn-brigade) ilk bölükleri, planda öngörülen kumsalın yaklaşık bir mil kuzeyinde, Arıburnu’nda karaya çıkar. Karşılarında düz bir arazi yerine 300 fit yüksekliğe varan yarlar ve sırtlar vardır ve burayı 27. Alay’ın 2. Taburu’ndan tek bir takım tutmaktadır. Askerler Plugge Platosu’na tırmanır ve ikinci sırta doğru ilerler.
+25 Nisan’da saat 4.30 sularında [3. Avustralya Tugayı’nın](@gallipoli-landing-dawn-brigade) ilk bölükleri, planda öngörülen kumsalın yaklaşık 1,5 km kuzeyinde, Arıburnu’nda karaya çıkar. Karşılarında düz bir arazi yerine 90 m yüksekliğe varan yarlar ve sırtlar vardır ve burayı 27. Alay’ın 2. Taburu’ndan tek bir takım tutmaktadır. Askerler Plugge Platosu’na tırmanır ve ikinci sırta doğru ilerler.
 
 @image ariburnu-sunrise-3b5a6c
 

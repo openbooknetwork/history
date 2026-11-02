@@ -1,0 +1,50 @@
+# zh-TW strings for the battle "great-offensive".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n zh-TW
+
+# Grand National Assembly
+battle.sides.0.name: "大國民議會"
+
+# 98,670–103,000 infantry, 5,286 cavalry, 323 guns
+battle.sides.0.strength: "步兵98,670至103,000人，騎兵5,286人，火砲323門"
+
+# 2,318 killed, 9,360 wounded, 1,697 missing, 101 captured
+battle.sides.0.casualties: "2,318人陣亡，9,360人負傷，1,697人失蹤，101人被俘"
+
+# Kingdom of Greece
+battle.sides.1.name: "希臘王國"
+
+# 130,000 infantry, 1,300 cavalry, 348 guns
+battle.sides.1.strength: "步兵13萬人，騎兵1,300人，火砲348門"
+
+# 35,000 killed or wounded and 15,000 captured by 7 September
+battle.sides.1.casualties: "至9月7日有3萬5千人死傷、1萬5千人被俘"
+
+# Great Offensive and Battle of Dumlupınar
+battle.name: "大攻勢與杜姆魯珀納爾戰役"
+
+# 26 August – 18 September 1922
+battle.date: "1922年8月26日至9月18日"
+
+# Decisive Turkish victory, withdrawal of the Greek army from Anatolia
+battle.result: "土耳其決定性勝利，希臘軍隊撤出安納托利亞"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Mustafa Kemal Pasha
+battle.sides.0.commanders.0: "穆斯塔法‧凱末爾帕夏"
+
+# Fevzi Pasha
+battle.sides.0.commanders.1: "費夫齊帕夏"
+
+# İsmet Pasha
+battle.sides.0.commanders.2: "伊斯麥特帕夏"
+
+# Nurettin Pasha
+battle.sides.0.commanders.3: "努雷丁帕夏"
+
+# Georgios Hatzianestis
+battle.sides.1.commanders.0: "喬治奧斯‧哈齊亞內斯蒂斯"
+
+# Nikolaos Trikoupis
+battle.sides.1.commanders.1: "尼古拉奧斯‧特里庫皮斯"

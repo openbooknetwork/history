@@ -1,0 +1,5 @@
+[Mustafa Kemal](@afyon-barrage-kemal) hat die 1. Armee unter [Nurettin Pascha](@afyon-barrage-nurettin) gegen die Südseite des griechischen Frontvorsprungs um [Afyon](@afyon-barrage-afyon) zusammengezogen. Das ist ein Wagnis, denn dadurch bleibt der türkische rechte Flügel schwach. Das Hauptquartier der Westfront liegt auf dem Kocatepe, 15 km südlich der Stadt. In der Nacht vom 25. auf den 26. August zieht das V. Kavalleriekorps unter Fahrettin Pascha durch die Kırka-Schlucht hinter die griechische Linie, und bis 18 Uhr am 26. August hat es die Eisenbahn und den Telegrafen zwischen Afyon und Izmir durchtrennt.
+
+@image kocatepe-dawn-1922-e75a6a
+
+Im Morgengrauen eröffnet die Artillerie das Feuer. Die schweren türkischen Geschütze schalten die leichten griechischen Batterien aus, und manche griechischen Frontbataillone verlieren allein im Trommelfeuer die Hälfte ihrer Männer. Sieben Divisionen des I. und des IV. Korps greifen zwei griechische Divisionen an, die 1. und die 4., und bis Mittag hält das I. Korps die Gräben der griechischen 1. Division. Die 2. Armee greift nördlich der Stadt an und bindet das griechische III. Korps bei Eskişehir.

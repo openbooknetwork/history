@@ -1,0 +1,53 @@
+# zh-TW strings for the battle "gallipoli".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n zh-TW
+
+# Ottoman Empire
+battle.sides.0.name: "鄂圖曼帝國"
+
+# 250,000–315,500 over the campaign
+battle.sides.0.strength: "整場戰役共250,000至315,500人"
+
+# 255,268–289,160, of them 56,938–87,000 dead
+battle.sides.0.casualties: "255,268至289,160人，其中56,938至87,000人陣亡"
+
+# British Empire and France
+battle.sides.1.name: "大英帝國與法國"
+
+# 489,000–550,000 over the campaign
+battle.sides.1.strength: "整場戰役共489,000至550,000人"
+
+# 252,000–300,000, of them 43,000–61,398 dead
+battle.sides.1.casualties: "252,000至300,000人，其中43,000至61,398人陣亡"
+
+# Gallipoli campaign
+battle.name: "加里波利之戰"
+
+# 19 February 1915 – 9 January 1916
+battle.date: "1915年2月19日至1916年1月9日"
+
+# Ottoman victory, Allied evacuation
+battle.result: "鄂圖曼帝國勝利，協約國撤軍"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Otto Liman von Sanders
+battle.sides.0.commanders.0: "奧托‧利曼‧馮‧桑德斯"
+
+# Esat Pasha
+battle.sides.0.commanders.1: "埃薩特帕夏"
+
+# Mustafa Kemal
+battle.sides.0.commanders.2: "穆斯塔法‧凱末爾"
+
+# Vehip Pasha
+battle.sides.0.commanders.3: "韋希卜帕夏"
+
+# Ian Hamilton
+battle.sides.1.commanders.0: "伊恩‧漢彌爾頓"
+
+# William Birdwood
+battle.sides.1.commanders.1: "威廉‧伯德伍德"
+
+# Charles Monro
+battle.sides.1.commanders.2: "查爾斯‧門羅"

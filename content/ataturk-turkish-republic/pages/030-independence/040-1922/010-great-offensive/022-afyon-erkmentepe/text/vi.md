@@ -1,0 +1,3 @@
+Lúc 2 giờ ngày 27 tháng 8, pháo binh Thổ Nhĩ Kỳ tiếp tục pháo kích, và lúc 6 giờ bộ binh tấn công, một lần nữa nhắm vào chỗ tiếp giáp giữa Sư đoàn 1 và Sư đoàn 4 Hy Lạp. Lúc 9 giờ, Quân đoàn IV dưới quyền đại tá Kemalettin Sami chiếm đỉnh [Erkmentepe](@afyon-erkmentepe-peak), và phòng tuyến Hy Lạp bị chọc thủng.
+
+Lúc 10 giờ 30 phút, Quân đoàn I Hy Lạp ra lệnh tổng rút lui khoảng 20 km về phía bắc và bỏ [Afyon](@afyon-erkmentepe-afyon). Lệnh không đến được Sư đoàn 1 Hy Lạp vì đường dây điện thoại của sư đoàn đã bị cắt, và lúc 13 giờ 30 phút mặt trận của sư đoàn này sụp đổ. Đến tối, Afyon nằm trong tay quân Thổ Nhĩ Kỳ và mặt trận Hy Lạp bị cắt làm đôi.

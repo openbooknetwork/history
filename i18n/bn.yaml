@@ -1,0 +1,9 @@
+# bn strings for the site.
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language; harita build --strict turns them into errors. Regenerate with: harita i18n bn
+
+# Open History Book
+site.title: "উন্মুক্ত ইতিহাস বই"
+
+# Step-through maps of how places and people changed over time. A free educational project. Pick a story.
+site.intro: "স্থান ও মানুষ সময়ের সঙ্গে কীভাবে বদলেছে, তা ধাপে ধাপে দেখানো মানচিত্র। একটি বিনামূল্যের শিক্ষামূলক প্রকল্প। একটি কাহিনি বেছে নিন।"

@@ -1,0 +1,3 @@
+O [rei Constantino](@kutahya-eskisehir-offensive-constantine) vem à Anatólia para liderar a ofensiva. Um exército grego reforçado, de nove divisões, ataca a linha turca de Afyon, [Kütahya](@kutahya-eskisehir-offensive-kutahya) e [Eskişehir](@kutahya-eskisehir-offensive-eskisehir), com o objetivo de tomar as ferrovias que ligam as três cidades e cortar a Anatólia em duas. A Frente Ocidental de [İsmet Paxá](@kutahya-eskisehir-offensive-ismet) defende a linha com menos homens e menos canhões.
+
+O exército grego rompe as posições turcas no sul, toma Afyon e depois Kütahya, e se prepara para virar para o norte ao longo da ferrovia, rumo a Eskişehir.

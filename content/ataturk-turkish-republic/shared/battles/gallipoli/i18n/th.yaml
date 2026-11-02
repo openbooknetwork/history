@@ -1,0 +1,53 @@
+# th strings for the battle "gallipoli".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n th
+
+# Ottoman Empire
+battle.sides.0.name: "จักรวรรดิออตโตมัน"
+
+# 250,000–315,500 over the campaign
+battle.sides.0.strength: "250,000–315,500 นายตลอดการทัพ"
+
+# 255,268–289,160, of them 56,938–87,000 dead
+battle.sides.0.casualties: "255,268–289,160 นาย ในจำนวนนี้เสียชีวิต 56,938–87,000 นาย"
+
+# British Empire and France
+battle.sides.1.name: "จักรวรรดิบริติชและฝรั่งเศส"
+
+# 489,000–550,000 over the campaign
+battle.sides.1.strength: "489,000–550,000 นายตลอดการทัพ"
+
+# 252,000–300,000, of them 43,000–61,398 dead
+battle.sides.1.casualties: "252,000–300,000 นาย ในจำนวนนี้เสียชีวิต 43,000–61,398 นาย"
+
+# Gallipoli campaign
+battle.name: "การทัพกัลลิโพลี"
+
+# 19 February 1915 – 9 January 1916
+battle.date: "19 กุมภาพันธ์ ค.ศ. 1915 – 9 มกราคม ค.ศ. 1916"
+
+# Ottoman victory, Allied evacuation
+battle.result: "ออตโตมันชนะ ฝ่ายสัมพันธมิตรถอนทัพ"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Otto Liman von Sanders
+battle.sides.0.commanders.0: "อ็อทโท ลีมัน ฟอน ซันเดอร์ส"
+
+# Esat Pasha
+battle.sides.0.commanders.1: "เอซัต ปาชา"
+
+# Mustafa Kemal
+battle.sides.0.commanders.2: "มุสตาฟา เคมาล"
+
+# Vehip Pasha
+battle.sides.0.commanders.3: "เวฮิป ปาชา"
+
+# Ian Hamilton
+battle.sides.1.commanders.0: "เอียน แฮมิลตัน"
+
+# William Birdwood
+battle.sides.1.commanders.1: "วิลเลียม เบิร์ดวูด"
+
+# Charles Monro
+battle.sides.1.commanders.2: "ชาลส์ มอนโร"

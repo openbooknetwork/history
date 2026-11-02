@@ -1,0 +1,41 @@
+# bn strings for the battle "inonu".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n bn
+
+# Grand National Assembly
+battle.sides.0.name: "মহা জাতীয় পরিষদ"
+
+# 6,000 in the first battle, 15,000 in the second
+battle.sides.0.strength: "প্রথম যুদ্ধে ৬,০০০, দ্বিতীয় যুদ্ধে ১৫,০০০"
+
+# About 500 in the first battle, about 3,900 in the second
+battle.sides.0.casualties: "প্রথম যুদ্ধে প্রায় ৫০০, দ্বিতীয় যুদ্ধে প্রায় ৩,৯০০"
+
+# Kingdom of Greece
+battle.sides.1.name: "গ্রিস রাজ্য"
+
+# 18,000 in the first battle, 30,000 in the second
+battle.sides.1.strength: "প্রথম যুদ্ধে ১৮,০০০, দ্বিতীয় যুদ্ধে ৩০,০০০"
+
+# About 180 in the first battle, about 4,300 in the second
+battle.sides.1.casualties: "প্রথম যুদ্ধে প্রায় ১৮০, দ্বিতীয় যুদ্ধে প্রায় ৪,৩০০"
+
+# First and Second Battles of İnönü
+battle.name: "ইনোনুর প্রথম ও দ্বিতীয় যুদ্ধ"
+
+# 9–11 January and 23 March – 1 April 1921
+battle.date: "৯–১১ জানুয়ারি এবং ২৩ মার্চ – ১ এপ্রিল ১৯২১"
+
+# Greek advance stopped both times
+battle.result: "দুবারই গ্রিক অগ্রযাত্রা থেমে যায়"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# İsmet Pasha
+battle.sides.0.commanders.0: "ইসমত পাশা"
+
+# Refet Pasha
+battle.sides.0.commanders.1: "রেফেত পাশা"
+
+# Anastasios Papoulas
+battle.sides.1.commanders.0: "আনাস্তাসিওস পাপুলাস"

@@ -1,0 +1,38 @@
+# vi strings for the battle "sakarya".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n vi
+
+# Grand National Assembly
+battle.sides.0.name: "Đại Quốc dân Nghị viện"
+
+# 101,727 soldiers, 5,401 officers, 196 guns
+battle.sides.0.strength: "101.727 binh sĩ, 5.401 sĩ quan, 196 khẩu pháo"
+
+# 5,713 dead, 37,900 casualties in all
+battle.sides.0.casualties: "5.713 người chết, tổng cộng 37.900 thương vong"
+
+# Kingdom of Greece
+battle.sides.1.name: "Vương quốc Hy Lạp"
+
+# About 77,000 soldiers, 3,780 officers, 386 guns
+battle.sides.1.strength: "Khoảng 77.000 binh sĩ, 3.780 sĩ quan, 386 khẩu pháo"
+
+# 3,958 dead, 23,267 casualties in all
+battle.sides.1.casualties: "3.958 người chết, tổng cộng 23.267 thương vong"
+
+# Battle of Sakarya
+battle.name: "Trận Sakarya"
+
+# 23 August – 13 September 1921
+battle.date: "Ngày 23 tháng 8 – 13 tháng 9 năm 1921"
+
+# Turkish victory, end of the Greek advance
+battle.result: "Thổ Nhĩ Kỳ thắng, cuộc tiến quân của Hy Lạp chấm dứt"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# İsmet Pasha
+battle.sides.0.commanders.2: "Ismet Pasha"
+
+# King Constantine I
+battle.sides.1.commanders.0: "Vua Constantine I"

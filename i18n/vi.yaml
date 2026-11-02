@@ -1,0 +1,9 @@
+# vi strings for the site.
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language; harita build --strict turns them into errors. Regenerate with: harita i18n vi
+
+# Open History Book
+site.title: "Sách Lịch sử Mở"
+
+# Step-through maps of how places and people changed over time. A free educational project. Pick a story.
+site.intro: "Những tấm bản đồ đi qua từng bước, cho thấy các vùng đất và con người đã thay đổi thế nào theo thời gian. Một dự án giáo dục miễn phí. Chọn một câu chuyện."

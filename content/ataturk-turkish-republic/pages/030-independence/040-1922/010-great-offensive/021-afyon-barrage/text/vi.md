@@ -1,0 +1,5 @@
+[Mustafa Kemal](@afyon-barrage-kemal) đã tập trung Tập đoàn quân số 1 dưới quyền [Nurettin Pasha](@afyon-barrage-nurettin) đánh vào mặt phía nam của trận tuyến Hy Lạp nhô ra quanh [Afyon](@afyon-barrage-afyon). Đây là một canh bạc, vì nó khiến cánh phải quân Thổ Nhĩ Kỳ yếu đi. Sở chỉ huy Mặt trận phía Tây đặt trên Kocatepe, cách thành phố 15 km về phía nam. Trong đêm 25 rạng sáng 26 tháng 8, Quân đoàn Kị binh V dưới quyền Fahrettin Pasha đi qua hẻm núi Kirka ra sau phòng tuyến Hy Lạp, và đến 18 giờ ngày 26 tháng 8 đã cắt đứt đường sắt và đường dây điện báo giữa Afyon và Izmir.
+
+@image kocatepe-dawn-1922-e75a6a
+
+Rạng sáng, pháo binh khai hoả. Pháo hạng nặng Thổ Nhĩ Kỳ phá huỷ các khẩu đội pháo nhẹ của Hy Lạp, và một số tiểu đoàn tiền duyên Hy Lạp mất một nửa quân số chỉ riêng trong đợt pháo kích. Bảy sư đoàn của Quân đoàn I và IV tấn công hai sư đoàn Hy Lạp, Sư đoàn 1 và Sư đoàn 4, và đến trưa Quân đoàn I đã chiếm các chiến hào của Sư đoàn 1 Hy Lạp. Tập đoàn quân số 2 tấn công phía bắc thành phố và kìm chân Quân đoàn III Hy Lạp tại Eskisehir.

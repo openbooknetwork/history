@@ -4,4 +4,4 @@ Kılıçbayır beş kez el değiştirir. Saat 16.30’da 72. Alay kuzeyden sald�
 
 @image ariburnu-first-trench-7d4acd
 
-Gece çöktüğünde yaklaşık 16.000 asker karaya çıkmıştır ve tuttukları alan iki milden kısa, 800 yarda kadar derinliktedir. 57. Alay yok olmuştur. 27. ve 57. Alay’lar birlikte, güçlerinin yarısı olan yaklaşık 2.000 kişi kaybetmiştir.
+Gece çöktüğünde yaklaşık 16.000 asker karaya çıkmıştır ve tuttukları alan 3 km’den kısa, 700 m kadar derinliktedir. 57. Alay yok olmuştur. 27. ve 57. Alay’lar birlikte, güçlerinin yarısı olan yaklaşık 2.000 kişi kaybetmiştir.

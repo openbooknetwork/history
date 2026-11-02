@@ -1,0 +1,30 @@
+# id strings for the battle "inonu".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n id
+
+# Grand National Assembly
+battle.sides.0.name: "Majelis Agung Nasional"
+
+# 6,000 in the first battle, 15,000 in the second
+battle.sides.0.strength: "6.000 dalam pertempuran pertama, 15.000 dalam pertempuran kedua"
+
+# About 500 in the first battle, about 3,900 in the second
+battle.sides.0.casualties: "Sekitar 500 dalam pertempuran pertama, sekitar 3.900 dalam pertempuran kedua"
+
+# Kingdom of Greece
+battle.sides.1.name: "Kerajaan Yunani"
+
+# 18,000 in the first battle, 30,000 in the second
+battle.sides.1.strength: "18.000 dalam pertempuran pertama, 30.000 dalam pertempuran kedua"
+
+# About 180 in the first battle, about 4,300 in the second
+battle.sides.1.casualties: "Sekitar 180 dalam pertempuran pertama, sekitar 4.300 dalam pertempuran kedua"
+
+# First and Second Battles of İnönü
+battle.name: "Pertempuran İnönü Pertama dan Kedua"
+
+# 9–11 January and 23 March – 1 April 1921
+battle.date: "9–11 Januari dan 23 Maret–1 April 1921"
+
+# Greek advance stopped both times
+battle.result: "Gerak maju Yunani dihentikan dua kali"

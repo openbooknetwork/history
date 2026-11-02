@@ -1,0 +1,50 @@
+# bn strings for the battle "great-offensive".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n bn
+
+# Grand National Assembly
+battle.sides.0.name: "মহা জাতীয় পরিষদ"
+
+# 98,670–103,000 infantry, 5,286 cavalry, 323 guns
+battle.sides.0.strength: "৯৮,৬৭০–১,০৩,০০০ পদাতিক, ৫,২৮৬ অশ্বারোহী, ৩২৩টি কামান"
+
+# 2,318 killed, 9,360 wounded, 1,697 missing, 101 captured
+battle.sides.0.casualties: "২,৩১৮ জন নিহত, ৯,৩৬০ জন আহত, ১,৬৯৭ জন নিখোঁজ, ১০১ জন বন্দী"
+
+# Kingdom of Greece
+battle.sides.1.name: "গ্রিস রাজ্য"
+
+# 130,000 infantry, 1,300 cavalry, 348 guns
+battle.sides.1.strength: "১,৩০,০০০ পদাতিক, ১,৩০০ অশ্বারোহী, ৩৪৮টি কামান"
+
+# 35,000 killed or wounded and 15,000 captured by 7 September
+battle.sides.1.casualties: "৭ সেপ্টেম্বরের মধ্যে ৩৫,০০০ জন নিহত বা আহত এবং ১৫,০০০ জন বন্দী"
+
+# Great Offensive and Battle of Dumlupınar
+battle.name: "মহা আক্রমণ ও দুমলুপিনারের যুদ্ধ"
+
+# 26 August – 18 September 1922
+battle.date: "২৬ আগস্ট – ১৮ সেপ্টেম্বর ১৯২২"
+
+# Decisive Turkish victory, withdrawal of the Greek army from Anatolia
+battle.result: "তুর্কিদের নিষ্পত্তিমূলক বিজয়, আনাতোলিয়া থেকে গ্রিক সেনাবাহিনীর প্রত্যাহার"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Mustafa Kemal Pasha
+battle.sides.0.commanders.0: "মোস্তফা কামাল পাশা"
+
+# Fevzi Pasha
+battle.sides.0.commanders.1: "ফেভজি পাশা"
+
+# İsmet Pasha
+battle.sides.0.commanders.2: "ইসমত পাশা"
+
+# Nurettin Pasha
+battle.sides.0.commanders.3: "নুরেত্তিন পাশা"
+
+# Georgios Hatzianestis
+battle.sides.1.commanders.0: "গেওর্গিওস হাতজিয়ানেস্তিস"
+
+# Nikolaos Trikoupis
+battle.sides.1.commanders.1: "নিকোলাওস ত্রিকুপিস"

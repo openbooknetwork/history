@@ -1,0 +1,3 @@
+[Król Konstantyn](@kutahya-eskisehir-offensive-constantine) przybywa do Anatolii, by dowodzić ofensywą. Wzmocniona armia grecka licząca dziewięć dywizji atakuje turecką linię obrony pod Afyonem, [Kütahyą](@kutahya-eskisehir-offensive-kutahya) i [Eskişehirem](@kutahya-eskisehir-offensive-eskisehir), by zdobyć linie kolejowe łączące te trzy miasta i przeciąć Anatolię na pół. Front Zachodni [İsmeta Paszy](@kutahya-eskisehir-offensive-ismet) broni tej linii mniejszą liczbą ludzi i dział.
+
+Armia grecka przełamuje pozycje tureckie na południu, zajmuje Afyon, a potem Kütahyę, i szykuje się do zwrotu na północ wzdłuż linii kolejowej w stronę Eskişehiru.

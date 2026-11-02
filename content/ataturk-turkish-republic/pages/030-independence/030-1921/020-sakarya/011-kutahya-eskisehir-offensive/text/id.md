@@ -1,0 +1,3 @@
+[Raja Konstantinus](@kutahya-eskisehir-offensive-constantine) datang ke Anatolia untuk memimpin serangan itu. Tentara Yunani yang telah diperkuat hingga sembilan divisi menyerang garis Turki di Afyon, [Kütahya](@kutahya-eskisehir-offensive-kutahya), dan [Eskişehir](@kutahya-eskisehir-offensive-eskisehir). Tujuannya adalah merebut jalur-jalur kereta api yang menghubungkan ketiga kota itu dan membelah Anatolia menjadi dua. Front Barat pimpinan [İsmet Pasha](@kutahya-eskisehir-offensive-ismet) mempertahankan garis itu dengan jumlah prajurit dan meriam yang lebih sedikit.
+
+Tentara Yunani menerobos posisi Turki di selatan, merebut Afyon lalu Kütahya, dan bersiap berbelok ke utara menyusuri jalur kereta api menuju Eskişehir.

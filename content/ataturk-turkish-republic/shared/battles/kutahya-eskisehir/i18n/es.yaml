@@ -1,0 +1,38 @@
+# es strings for the battle "kutahya-eskisehir".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n es
+
+# Grand National Assembly
+battle.sides.0.name: "Gran Asamblea Nacional"
+
+# 55,000 by Turkish counts, 95,750 by Greek counts
+battle.sides.0.strength: "55 000 según las cifras turcas, 95 750 según las griegas"
+
+# 1,643 killed, 4,981 wounded, 374 captured, 30,809 deserted
+battle.sides.0.casualties: "1643 muertos, 4981 heridos, 374 prisioneros, 30 809 desertores"
+
+# Kingdom of Greece
+battle.sides.1.name: "Reino de Grecia"
+
+# 106,000 by Turkish counts, about 110,000 by Greek counts
+battle.sides.1.strength: "106 000 según las cifras turcas, unos 110 000 según las griegas"
+
+# 1,491 killed, 6,472 wounded, 110 missing
+battle.sides.1.casualties: "1491 muertos, 6472 heridos, 110 desaparecidos"
+
+# Battle of Kütahya–Eskişehir
+battle.name: "Batalla de Kütahya-Eskişehir"
+
+# 10–24 July 1921
+battle.date: "Del 10 al 24 de julio de 1921"
+
+# Greek victory, Turkish retreat to the Sakarya
+battle.result: "Victoria griega, retirada turca al Sakarya"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# İsmet Pasha
+battle.sides.0.commanders.0: "İsmet Pachá"
+
+# King Constantine I
+battle.sides.1.commanders.1: "Rey Constantino I"

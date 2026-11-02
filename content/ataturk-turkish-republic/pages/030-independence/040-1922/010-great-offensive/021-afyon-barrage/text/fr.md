@@ -1,0 +1,5 @@
+[Mustafa Kemal](@afyon-barrage-kemal) a massé la 1re armée de [Nurettin Pacha](@afyon-barrage-nurettin) contre la face sud du saillant grec autour d’[Afyon](@afyon-barrage-afyon), un pari qui laisse la droite turque affaiblie. Le quartier général du front de l’Ouest se trouve sur Kocatepe, à 15 km au sud de la ville. Dans la nuit du 25 au 26 août, le Ve corps de cavalerie de Fahrettin Pacha franchit les gorges de Kırka et gagne les arrières de la ligne grecque et, avant 18 h le 26 août, il a coupé la voie ferrée et le télégraphe entre Afyon et Izmir.
+
+@image kocatepe-dawn-1922-e75a6a
+
+À l’aube, l’artillerie ouvre le feu. Les canons lourds turcs réduisent au silence les batteries légères grecques, et certains bataillons grecs de première ligne perdent la moitié de leurs hommes sous le seul barrage. Sept divisions des Ier et IVe corps attaquent deux divisions grecques, la 1re et la 4e, et à midi le Ier corps tient les tranchées de la 1re division grecque. La 2e armée attaque au nord de la ville et fixe le IIIe corps grec à Eskişehir.

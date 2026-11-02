@@ -1,0 +1,35 @@
+# vi strings for the battle "inonu".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n vi
+
+# Grand National Assembly
+battle.sides.0.name: "Đại Quốc dân Nghị viện"
+
+# 6,000 in the first battle, 15,000 in the second
+battle.sides.0.strength: "6.000 trong trận thứ nhất, 15.000 trong trận thứ hai"
+
+# About 500 in the first battle, about 3,900 in the second
+battle.sides.0.casualties: "Khoảng 500 trong trận thứ nhất, khoảng 3.900 trong trận thứ hai"
+
+# Kingdom of Greece
+battle.sides.1.name: "Vương quốc Hy Lạp"
+
+# 18,000 in the first battle, 30,000 in the second
+battle.sides.1.strength: "18.000 trong trận thứ nhất, 30.000 trong trận thứ hai"
+
+# About 180 in the first battle, about 4,300 in the second
+battle.sides.1.casualties: "Khoảng 180 trong trận thứ nhất, khoảng 4.300 trong trận thứ hai"
+
+# First and Second Battles of İnönü
+battle.name: "Trận Inonu thứ nhất và thứ hai"
+
+# 9–11 January and 23 March – 1 April 1921
+battle.date: "Ngày 9–11 tháng 1 và 23 tháng 3 – 1 tháng 4 năm 1921"
+
+# Greek advance stopped both times
+battle.result: "Cuộc tiến quân của Hy Lạp bị chặn lại cả hai lần"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# İsmet Pasha
+battle.sides.0.commanders.0: "Ismet Pasha"

@@ -1,0 +1,5 @@
+[Mustafa Kemal](@afyon-barrage-kemal) ha ammassato la Prima armata di [Nurettin Pascià](@afyon-barrage-nurettin) contro il lato meridionale del saliente greco intorno ad [Afyon](@afyon-barrage-afyon), un azzardo che lascia debole la destra turca. Il quartier generale del Fronte occidentale è su Kocatepe, 15 km a sud della città. Nella notte tra il 25 e il 26 agosto il V corpo di cavalleria di Fahrettin Pascià attraversa la gola di Kırka e penetra nelle retrovie della linea greca, ed entro le 18:00 del 26 agosto ha tagliato la ferrovia e il telegrafo tra Afyon e Smirne.
+
+@image kocatepe-dawn-1922-e75a6a
+
+All’alba l’artiglieria apre il fuoco. I cannoni pesanti turchi mettono fuori combattimento le batterie leggere greche, e alcuni battaglioni greci di prima linea perdono metà degli uomini nel solo bombardamento. Sette divisioni del I e del IV corpo d’armata attaccano due divisioni greche, la 1ª e la 4ª, e a mezzogiorno il I corpo d’armata tiene le trincee della 1ª divisione greca. La Seconda armata attacca a nord della città e tiene inchiodato a Eskişehir il III corpo d’armata greco.

@@ -1,0 +1,9 @@
+# id strings for the site.
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language; harita build --strict turns them into errors. Regenerate with: harita i18n id
+
+# Open History Book
+site.title: "Buku Sejarah Terbuka"
+
+# Step-through maps of how places and people changed over time. A free educational project. Pick a story.
+site.intro: "Peta langkah demi langkah tentang bagaimana tempat dan manusia berubah dari waktu ke waktu. Sebuah proyek pendidikan gratis. Pilih cerita."

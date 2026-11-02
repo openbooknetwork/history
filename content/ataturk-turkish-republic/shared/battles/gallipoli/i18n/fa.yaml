@@ -1,0 +1,53 @@
+# fa strings for the battle "gallipoli".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n fa
+
+# Ottoman Empire
+battle.sides.0.name: "امپراتوری عثمانی"
+
+# 250,000–315,500 over the campaign
+battle.sides.0.strength: "۲۵۰ هزار تا ۳۱۵٬۵۰۰ در کل نبرد"
+
+# 255,268–289,160, of them 56,938–87,000 dead
+battle.sides.0.casualties: "۲۵۵٬۲۶۸ تا ۲۸۹٬۱۶۰، از جمله ۵۶٬۹۳۸ تا ۸۷ هزار کشته"
+
+# British Empire and France
+battle.sides.1.name: "امپراتوری بریتانیا و فرانسه"
+
+# 489,000–550,000 over the campaign
+battle.sides.1.strength: "۴۸۹ هزار تا ۵۵۰ هزار در کل نبرد"
+
+# 252,000–300,000, of them 43,000–61,398 dead
+battle.sides.1.casualties: "۲۵۲ هزار تا ۳۰۰ هزار، از جمله ۴۳ هزار تا ۶۱٬۳۹۸ کشته"
+
+# Gallipoli campaign
+battle.name: "نبرد گالیپولی"
+
+# 19 February 1915 – 9 January 1916
+battle.date: "۱۹ فوریهٔ ۱۹۱۵ تا ۹ ژانویهٔ ۱۹۱۶"
+
+# Ottoman victory, Allied evacuation
+battle.result: "پیروزی عثمانی، تخلیهٔ نیروهای متفقین"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Otto Liman von Sanders
+battle.sides.0.commanders.0: "اتو لیمان فون زاندرس"
+
+# Esat Pasha
+battle.sides.0.commanders.1: "اسعد پاشا"
+
+# Mustafa Kemal
+battle.sides.0.commanders.2: "مصطفی کمال"
+
+# Vehip Pasha
+battle.sides.0.commanders.3: "وهیب پاشا"
+
+# Ian Hamilton
+battle.sides.1.commanders.0: "ایان همیلتون"
+
+# William Birdwood
+battle.sides.1.commanders.1: "ویلیام بردوود"
+
+# Charles Monro
+battle.sides.1.commanders.2: "چارلز مونرو"

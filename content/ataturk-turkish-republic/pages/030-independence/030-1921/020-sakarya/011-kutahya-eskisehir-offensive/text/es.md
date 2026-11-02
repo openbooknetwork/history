@@ -1,0 +1,3 @@
+El [rey Constantino](@kutahya-eskisehir-offensive-constantine) llega a Anatolia para dirigir la ofensiva. Un ejército griego reforzado de nueve divisiones ataca la línea turca de Afyon, [Kütahya](@kutahya-eskisehir-offensive-kutahya) y [Eskişehir](@kutahya-eskisehir-offensive-eskisehir) con el objetivo de tomar los ferrocarriles que unen las tres ciudades y partir Anatolia en dos. El Frente Occidental de [İsmet Pachá](@kutahya-eskisehir-offensive-ismet) defiende la línea con menos hombres y cañones.
+
+El ejército griego rompe las posiciones turcas en el sur, toma Afyon y después Kütahya, y se prepara para girar al norte a lo largo del ferrocarril hacia Eskişehir.

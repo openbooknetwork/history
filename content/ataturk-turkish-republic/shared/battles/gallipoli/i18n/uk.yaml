@@ -1,0 +1,53 @@
+# uk strings for the battle "gallipoli".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n uk
+
+# Ottoman Empire
+battle.sides.0.name: "Османська імперія"
+
+# 250,000–315,500 over the campaign
+battle.sides.0.strength: "250 000–315 500 за всю кампанію"
+
+# 255,268–289,160, of them 56,938–87,000 dead
+battle.sides.0.casualties: "255 268–289 160, з них 56 938–87 000 загиблих"
+
+# British Empire and France
+battle.sides.1.name: "Британська імперія і Франція"
+
+# 489,000–550,000 over the campaign
+battle.sides.1.strength: "489 000–550 000 за всю кампанію"
+
+# 252,000–300,000, of them 43,000–61,398 dead
+battle.sides.1.casualties: "252 000–300 000, з них 43 000–61 398 загиблих"
+
+# Gallipoli campaign
+battle.name: "Дарданельська операція"
+
+# 19 February 1915 – 9 January 1916
+battle.date: "19 лютого 1915 – 9 січня 1916 року"
+
+# Ottoman victory, Allied evacuation
+battle.result: "Перемога Османської імперії, евакуація військ Антанти"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Otto Liman von Sanders
+battle.sides.0.commanders.0: "Отто Ліман фон Сандерс"
+
+# Esat Pasha
+battle.sides.0.commanders.1: "Есат-паша"
+
+# Mustafa Kemal
+battle.sides.0.commanders.2: "Мустафа Кемаль"
+
+# Vehip Pasha
+battle.sides.0.commanders.3: "Вехіп-паша"
+
+# Ian Hamilton
+battle.sides.1.commanders.0: "Ян Гамільтон"
+
+# William Birdwood
+battle.sides.1.commanders.1: "Вільям Бірдвуд"
+
+# Charles Monro
+battle.sides.1.commanders.2: "Чарльз Монро"

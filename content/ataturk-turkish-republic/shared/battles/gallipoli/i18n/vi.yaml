@@ -1,0 +1,30 @@
+# vi strings for the battle "gallipoli".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n vi
+
+# Ottoman Empire
+battle.sides.0.name: "Đế quốc Ottoman"
+
+# 250,000–315,500 over the campaign
+battle.sides.0.strength: "250.000–315.500 trong toàn chiến dịch"
+
+# 255,268–289,160, of them 56,938–87,000 dead
+battle.sides.0.casualties: "255.268–289.160, trong đó 56.938–87.000 người chết"
+
+# British Empire and France
+battle.sides.1.name: "Đế quốc Anh và Pháp"
+
+# 489,000–550,000 over the campaign
+battle.sides.1.strength: "489.000–550.000 trong toàn chiến dịch"
+
+# 252,000–300,000, of them 43,000–61,398 dead
+battle.sides.1.casualties: "252.000–300.000, trong đó 43.000–61.398 người chết"
+
+# Gallipoli campaign
+battle.name: "Chiến dịch Gallipoli"
+
+# 19 February 1915 – 9 January 1916
+battle.date: "Ngày 19 tháng 2 năm 1915 – 9 tháng 1 năm 1916"
+
+# Ottoman victory, Allied evacuation
+battle.result: "Đế quốc Ottoman chiến thắng, Đồng minh rút quân"

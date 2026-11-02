@@ -1,0 +1,44 @@
+# ur strings for the battle "kutahya-eskisehir".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n ur
+
+# Grand National Assembly
+battle.sides.0.name: "مجلس کبیر ملی"
+
+# 55,000 by Turkish counts, 95,750 by Greek counts
+battle.sides.0.strength: "ترک اعداد و شمار کے مطابق 55,000، یونانی اعداد و شمار کے مطابق 95,750"
+
+# 1,643 killed, 4,981 wounded, 374 captured, 30,809 deserted
+battle.sides.0.casualties: "1,643 ہلاک، 4,981 زخمی، 374 قیدی، 30,809 فرار"
+
+# Kingdom of Greece
+battle.sides.1.name: "مملکتِ یونان"
+
+# 106,000 by Turkish counts, about 110,000 by Greek counts
+battle.sides.1.strength: "ترک اعداد و شمار کے مطابق 1,06,000، یونانی اعداد و شمار کے مطابق تقریباً 1,10,000"
+
+# 1,491 killed, 6,472 wounded, 110 missing
+battle.sides.1.casualties: "1,491 ہلاک، 6,472 زخمی، 110 لاپتا"
+
+# Battle of Kütahya–Eskişehir
+battle.name: "کوتاہیہ اور اسکی شہر کی جنگ"
+
+# 10–24 July 1921
+battle.date: "10 تا 24 جولائی 1921ء"
+
+# Greek victory, Turkish retreat to the Sakarya
+battle.result: "یونانی فتح، ترک فوج کی سقاریہ کی طرف پسپائی"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# İsmet Pasha
+battle.sides.0.commanders.0: "عصمت پاشا"
+
+# Mustafa Kemal
+battle.sides.0.commanders.1: "مصطفیٰ کمال"
+
+# Anastasios Papoulas
+battle.sides.1.commanders.0: "اناستاسیوس پاپولاس"
+
+# King Constantine I
+battle.sides.1.commanders.1: "شاہ قسطنطین اول"

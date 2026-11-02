@@ -1,0 +1,44 @@
+# zh-TW strings for the battle "kutahya-eskisehir".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n zh-TW
+
+# Grand National Assembly
+battle.sides.0.name: "大國民議會"
+
+# 55,000 by Turkish counts, 95,750 by Greek counts
+battle.sides.0.strength: "據土耳其統計5萬5千人，據希臘統計95,750人"
+
+# 1,643 killed, 4,981 wounded, 374 captured, 30,809 deserted
+battle.sides.0.casualties: "1,643人陣亡，4,981人負傷，374人被俘，30,809人逃亡"
+
+# Kingdom of Greece
+battle.sides.1.name: "希臘王國"
+
+# 106,000 by Turkish counts, about 110,000 by Greek counts
+battle.sides.1.strength: "據土耳其統計10萬6千人，據希臘統計約11萬人"
+
+# 1,491 killed, 6,472 wounded, 110 missing
+battle.sides.1.casualties: "1,491人陣亡，6,472人負傷，110人失蹤"
+
+# Battle of Kütahya–Eskişehir
+battle.name: "屈塔希亞－埃斯基謝希爾戰役"
+
+# 10–24 July 1921
+battle.date: "1921年7月10日至24日"
+
+# Greek victory, Turkish retreat to the Sakarya
+battle.result: "希臘勝利，土耳其軍撤至薩卡里亞河"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# İsmet Pasha
+battle.sides.0.commanders.0: "伊斯麥特帕夏"
+
+# Mustafa Kemal
+battle.sides.0.commanders.1: "穆斯塔法‧凱末爾"
+
+# Anastasios Papoulas
+battle.sides.1.commanders.0: "阿納斯塔西奧斯‧帕普拉斯"
+
+# King Constantine I
+battle.sides.1.commanders.1: "君士坦丁一世國王"

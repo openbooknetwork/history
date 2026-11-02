@@ -1,0 +1,3 @@
+Das türkische Trommelfeuer setzt am 27. August um 2 Uhr wieder ein, und die Infanterie greift um 6 Uhr an, wieder an der Nahtstelle zwischen der griechischen 1. und 4. Division. Um 9 Uhr nimmt das IV. Korps unter Oberst Kemalettin Sami den Gipfel des [Erkmentepe](@afyon-erkmentepe-peak), und die griechische Linie ist durchbrochen.
+
+Um 10:30 Uhr befiehlt das griechische I. Korps einen allgemeinen Rückzug um etwa 20 km nach Norden und die Räumung von [Afyon](@afyon-erkmentepe-afyon). Der Befehl erreicht die griechische 1. Division nicht, deren Telefonleitung durchschnitten ist, und ihre Front bricht um 13:30 Uhr zusammen. Am Abend ist Afyon in türkischer Hand und die griechische Front in zwei Teile gespalten.

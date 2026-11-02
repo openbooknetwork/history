@@ -1,0 +1,44 @@
+# de strings for the battle "sakarya".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n de
+
+# Grand National Assembly
+battle.sides.0.name: "Große Nationalversammlung"
+
+# 101,727 soldiers, 5,401 officers, 196 guns
+battle.sides.0.strength: "101 727 Soldaten, 5 401 Offiziere, 196 Geschütze"
+
+# 5,713 dead, 37,900 casualties in all
+battle.sides.0.casualties: "5 713 Tote, insgesamt 37 900 Verluste"
+
+# Kingdom of Greece
+battle.sides.1.name: "Königreich Griechenland"
+
+# About 77,000 soldiers, 3,780 officers, 386 guns
+battle.sides.1.strength: "Etwa 77 000 Soldaten, 3 780 Offiziere, 386 Geschütze"
+
+# 3,958 dead, 23,267 casualties in all
+battle.sides.1.casualties: "3 958 Tote, insgesamt 23 267 Verluste"
+
+# Battle of Sakarya
+battle.name: "Schlacht am Sakarya"
+
+# 23 August – 13 September 1921
+battle.date: "23. August – 13. September 1921"
+
+# Turkish victory, end of the Greek advance
+battle.result: "Türkischer Sieg, Ende des griechischen Vormarsches"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Mustafa Kemal Pasha
+battle.sides.0.commanders.0: "Mustafa Kemal Pascha"
+
+# Fevzi Pasha
+battle.sides.0.commanders.1: "Fevzi Pascha"
+
+# İsmet Pasha
+battle.sides.0.commanders.2: "İsmet Pascha"
+
+# King Constantine I
+battle.sides.1.commanders.0: "König Konstantin I."

@@ -2,4 +2,4 @@ On the morning of 30 August Trikoupis's group reaches [Çalköy](@dumlupinar-ali
 
 @image dumlupinar-relief-d08fbc
 
-The Greeks deploy to hold out until dark. The IV Corps presses from the east and south and the VI Corps from the north, and from 16.00 the Turkish guns hit the crowded Greek units hard. At dusk the western flank breaks, and at 20.30 the survivors march west, leaving their guns and their wounded. The Turks count more than 2,000 Greek dead on the field the next day. Kütahya is taken the same evening.
+The Greeks deploy to hold out until dark. The IV Corps presses from the east and south and the VI Corps from the north, and from 16.00 the Turkish guns hit the crowded Greek units hard. At dusk the western flank breaks, and at 20.30 the survivors march west, leaving their guns and their wounded. Kütahya is taken the same evening. The next day the Turks count more than 2,000 Greek dead on the field.

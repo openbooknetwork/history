@@ -1,0 +1,41 @@
+# zh-CN strings for the battle "inonu".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n zh-CN
+
+# Grand National Assembly
+battle.sides.0.name: "大国民议会"
+
+# 6,000 in the first battle, 15,000 in the second
+battle.sides.0.strength: "第一次战役6000人，第二次战役1.5万人"
+
+# About 500 in the first battle, about 3,900 in the second
+battle.sides.0.casualties: "第一次战役约500人，第二次战役约3900人"
+
+# Kingdom of Greece
+battle.sides.1.name: "希腊王国"
+
+# 18,000 in the first battle, 30,000 in the second
+battle.sides.1.strength: "第一次战役1.8万人，第二次战役3万人"
+
+# About 180 in the first battle, about 4,300 in the second
+battle.sides.1.casualties: "第一次战役约180人，第二次战役约4300人"
+
+# First and Second Battles of İnönü
+battle.name: "第一次和第二次伊诺努战役"
+
+# 9–11 January and 23 March – 1 April 1921
+battle.date: "1921年1月9日—11日，3月23日—4月1日"
+
+# Greek advance stopped both times
+battle.result: "两次都挡住了希腊军队的推进"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# İsmet Pasha
+battle.sides.0.commanders.0: "伊斯麦特帕夏"
+
+# Refet Pasha
+battle.sides.0.commanders.1: "雷费特帕夏"
+
+# Anastasios Papoulas
+battle.sides.1.commanders.0: "阿纳斯塔西奥斯·帕普拉斯"

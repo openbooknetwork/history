@@ -1,0 +1,38 @@
+# es strings for the battle "inonu".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n es
+
+# Grand National Assembly
+battle.sides.0.name: "Gran Asamblea Nacional"
+
+# 6,000 in the first battle, 15,000 in the second
+battle.sides.0.strength: "6000 en la primera batalla, 15 000 en la segunda"
+
+# About 500 in the first battle, about 3,900 in the second
+battle.sides.0.casualties: "Unos 500 en la primera batalla, unos 3900 en la segunda"
+
+# Kingdom of Greece
+battle.sides.1.name: "Reino de Grecia"
+
+# 18,000 in the first battle, 30,000 in the second
+battle.sides.1.strength: "18 000 en la primera batalla, 30 000 en la segunda"
+
+# About 180 in the first battle, about 4,300 in the second
+battle.sides.1.casualties: "Unos 180 en la primera batalla, unos 4300 en la segunda"
+
+# First and Second Battles of İnönü
+battle.name: "Primera y segunda batallas de İnönü"
+
+# 9–11 January and 23 March – 1 April 1921
+battle.date: "Del 9 al 11 de enero y del 23 de marzo al 1 de abril de 1921"
+
+# Greek advance stopped both times
+battle.result: "El avance griego se detiene las dos veces"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# İsmet Pasha
+battle.sides.0.commanders.0: "İsmet Pachá"
+
+# Refet Pasha
+battle.sides.0.commanders.1: "Refet Pachá"

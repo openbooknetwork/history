@@ -1,0 +1,50 @@
+# hi strings for the battle "great-offensive".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n hi
+
+# Grand National Assembly
+battle.sides.0.name: "महान राष्ट्रीय सभा"
+
+# 98,670–103,000 infantry, 5,286 cavalry, 323 guns
+battle.sides.0.strength: "98,670–1,03,000 पैदल सैनिक, 5,286 घुड़सवार, 323 तोपें"
+
+# 2,318 killed, 9,360 wounded, 1,697 missing, 101 captured
+battle.sides.0.casualties: "2,318 मृत, 9,360 घायल, 1,697 लापता, 101 बंदी"
+
+# Kingdom of Greece
+battle.sides.1.name: "यूनान राज्य"
+
+# 130,000 infantry, 1,300 cavalry, 348 guns
+battle.sides.1.strength: "1,30,000 पैदल सैनिक, 1,300 घुड़सवार, 348 तोपें"
+
+# 35,000 killed or wounded and 15,000 captured by 7 September
+battle.sides.1.casualties: "7 सितंबर तक 35,000 मृत या घायल और 15,000 बंदी"
+
+# Great Offensive and Battle of Dumlupınar
+battle.name: "महान आक्रमण और दुमलुपिनार का युद्ध"
+
+# 26 August – 18 September 1922
+battle.date: "26 अगस्त – 18 सितंबर 1922"
+
+# Decisive Turkish victory, withdrawal of the Greek army from Anatolia
+battle.result: "निर्णायक तुर्की विजय, अनातोलिया से यूनानी सेना की वापसी"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Mustafa Kemal Pasha
+battle.sides.0.commanders.0: "मुस्तफ़ा कमाल पाशा"
+
+# Fevzi Pasha
+battle.sides.0.commanders.1: "फ़ेवज़ी पाशा"
+
+# İsmet Pasha
+battle.sides.0.commanders.2: "इस्मत पाशा"
+
+# Nurettin Pasha
+battle.sides.0.commanders.3: "नूरेत्तिन पाशा"
+
+# Georgios Hatzianestis
+battle.sides.1.commanders.0: "गेओर्गियोस हात्ज़ियानेस्तिस"
+
+# Nikolaos Trikoupis
+battle.sides.1.commanders.1: "निकोलाओस त्रिकूपिस"

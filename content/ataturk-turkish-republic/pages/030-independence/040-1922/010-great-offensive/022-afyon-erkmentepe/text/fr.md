@@ -1,0 +1,3 @@
+Le barrage turc reprend à 2 h le 27 août et l’infanterie attaque à 6 h, de nouveau à la jonction des 1re et 4e divisions grecques. À 9 h, le IVe corps du colonel Kemalettin Sami prend le sommet d’[Erkmentepe](@afyon-erkmentepe-peak), et la ligne grecque est rompue.
+
+À 10 h 30, le Ier corps grec ordonne un repli général d’environ 20 km vers le nord et l’évacuation d’[Afyon](@afyon-erkmentepe-afyon). L’ordre ne parvient pas à la 1re division grecque, dont la ligne téléphonique a été coupée, et son front s’effondre à 13 h 30. Le soir, Afyon est aux mains des Turcs et le front grec est coupé en deux.

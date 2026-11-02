@@ -1,0 +1,9 @@
+# ko strings for the site.
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language; harita build --strict turns them into errors. Regenerate with: harita i18n ko
+
+# Open History Book
+site.title: "열린 역사책"
+
+# Step-through maps of how places and people changed over time. A free educational project. Pick a story.
+site.intro: "장소와 사람들이 시대에 따라 어떻게 바뀌었는지 한 단계씩 보여 주는 지도입니다. 무료 교육 프로젝트입니다. 이야기를 고르세요."

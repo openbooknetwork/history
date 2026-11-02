@@ -1,0 +1,3 @@
+Il bombardamento turco riprende alle 2:00 del 27 agosto e la fanteria attacca alle 6:00, di nuovo nel punto di giunzione tra la 1ª e la 4ª divisione greca. Alle 9:00 il IV corpo d’armata del colonnello Kemalettin Sami prende la cima di [Erkmentepe](@afyon-erkmentepe-peak), e la linea greca si spezza.
+
+Alle 10:30 il I corpo d’armata greco ordina una ritirata generale di circa 20 km verso nord e l’evacuazione di [Afyon](@afyon-erkmentepe-afyon). L’ordine non raggiunge la 1ª divisione greca, la cui linea telefonica è stata tagliata, e il suo fronte crolla alle 13:30. In serata Afyon è in mano turca e il fronte greco è tagliato in due.

@@ -2,4 +2,4 @@
 
 @image dumlupinar-relief-d08fbc
 
-Yunanlılar karanlık basana dek dayanmak için mevzilenir. IV. Kolordu doğudan ve güneyden, VI. Kolordu kuzeyden bastırır, saat 16.00’dan sonra da Türk topları sıkışmış Yunan birliklerini ağır biçimde vurur. Akşam karanlığında batı kanadı çöker ve saat 20.30’da sağ kalanlar toplarını ve yaralılarını bırakarak batıya yürür. Ertesi gün Türkler savaş alanında 2.000’den fazla Yunan ölüsü sayar. Kütahya aynı akşam alınır.
+Yunanlılar karanlık basana dek dayanmak için mevzilenir. IV. Kolordu doğudan ve güneyden, VI. Kolordu kuzeyden bastırır, saat 16.00’dan sonra da Türk topları sıkışmış Yunan birliklerini ağır biçimde vurur. Akşam karanlığında batı kanadı çöker ve saat 20.30’da sağ kalanlar toplarını ve yaralılarını bırakarak batıya yürür. Kütahya aynı akşam alınır. Ertesi gün Türkler savaş alanında 2.000’den fazla Yunan ölüsü sayar.

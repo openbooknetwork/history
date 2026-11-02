@@ -1,0 +1,3 @@
+[Vua Constantine](@kutahya-eskisehir-offensive-constantine) đến Anatolia để chỉ huy cuộc tấn công. Một đạo quân Hy Lạp được tăng cường, gồm chín sư đoàn, tấn công phòng tuyến Afyon, [Kutahya](@kutahya-eskisehir-offensive-kutahya) và [Eskisehir](@kutahya-eskisehir-offensive-eskisehir) của Thổ Nhĩ Kỳ, nhằm chiếm các tuyến đường sắt nối ba thị trấn này và chia cắt Anatolia làm đôi. Mặt trận phía Tây của [Ismet Pasha](@kutahya-eskisehir-offensive-ismet) giữ phòng tuyến với ít quân và ít pháo hơn.
+
+Quân đội Hy Lạp chọc thủng các vị trí của Thổ Nhĩ Kỳ ở phía nam, chiếm Afyon rồi Kutahya, và chuẩn bị quay lên phía bắc dọc tuyến đường sắt về phía Eskisehir.

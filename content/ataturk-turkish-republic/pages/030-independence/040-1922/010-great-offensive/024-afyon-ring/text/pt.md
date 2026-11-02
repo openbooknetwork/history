@@ -1,0 +1,3 @@
+Durante a noite, o VI Corpo turco, do Segundo Exército, chega ao norte do grupo de Trikoupis, e o V Corpo de Cavalaria e o IV Corpo se colocam entre o grupo de Trikoupis e o grupo de Frangou em Dumlupınar. Quando Trikoupis avança para o oeste na manhã de 29 de agosto, as colunas dele esbarram em unidades turcas por todos os lados.
+
+A 9ª Divisão de Trikoupis ataca para abrir a estrada para Dumlupınar e é forçada à defensiva pelo IV Corpo. No flanco leste do grupo, os turcos atacam a 12ª Divisão. Os combates em [Hamurköy e İlbulak Dağ](@afyon-ring-hamurkoy) duram o dia inteiro, com pesadas perdas dos dois lados. Às 23h, o grupo grego se desprende e marcha no escuro rumo a [Çalköy](@afyon-ring-calkoy). Na marcha, as unidades se misturam, e o grupo se desorganiza.

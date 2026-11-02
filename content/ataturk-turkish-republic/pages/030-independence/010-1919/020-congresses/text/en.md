@@ -1,4 +1,4 @@
-From [Samsun](@samsun) the route runs inland to Havza and [Amasya](@amasya), where the circular of 22 June declares that the nation will save its own independence. Mustafa Kemal reaches [Erzurum](@erzurum) in early July and resigns from the army on 8 July 1919.
+From [Samsun](@samsun) the route runs inland to Havza and then [Amasya](@amasya). In Amasya the circular of 22 June declares that the nation will save its own independence. Mustafa Kemal reaches [Erzurum](@erzurum) in early July and resigns from the army on 8 July 1919.
 
 @image erzurum-1919-94c63f
 

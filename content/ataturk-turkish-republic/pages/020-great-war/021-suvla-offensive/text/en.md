@@ -2,4 +2,4 @@ Mustafa Kemal, still commanding the 19th Division opposite Anzac, has warned tha
 
 @image suvla-wilkinson-4a744e
 
-On 7 August the New Zealanders reach [the Apex](@suvla-offensive-apex), 500 yards below the summit of Chunuk Bair, and their attacks in daylight fail. At Suvla the new troops hardly move from the beaches. At dawn on 8 August the Wellington Battalion takes the summit after a naval bombardment and holds it through the day against counterattacks.
+On 7 August the New Zealanders reach [the Apex](@suvla-offensive-apex), 450 m from the summit of Chunuk Bair, and their attacks in daylight fail. At Suvla the new troops hardly move from the beaches. At dawn on 8 August the Wellington Battalion takes the summit after a naval bombardment and holds it through the day against counterattacks.

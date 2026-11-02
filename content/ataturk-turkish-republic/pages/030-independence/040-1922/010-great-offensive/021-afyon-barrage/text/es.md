@@ -1,0 +1,5 @@
+[Mustafa Kemal](@afyon-barrage-kemal) ha concentrado el Primer Ejército, al mando de [Nurettin Pachá](@afyon-barrage-nurettin), contra la cara sur del saliente griego alrededor de [Afyon](@afyon-barrage-afyon), una apuesta que deja débil la derecha turca. El cuartel general del Frente Occidental está en Kocatepe, 15 km al sur de la ciudad. En la noche del 25 al 26 de agosto el V Cuerpo de Caballería, al mando de Fahrettin Pachá, cruza el desfiladero de Kırka hasta la retaguardia de la línea griega, y a las 18:00 del 26 de agosto ya ha cortado el ferrocarril y el telégrafo entre Afyon y Esmirna.
+
+@image kocatepe-dawn-1922-e75a6a
+
+Al amanecer la artillería abre fuego. Los cañones pesados turcos dejan fuera de combate a las baterías ligeras griegas, y algunos batallones griegos de primera línea pierden la mitad de sus hombres solo en el bombardeo. Siete divisiones de los cuerpos I y IV atacan a dos divisiones griegas, la 1.ª y la 4.ª, y a mediodía el I Cuerpo ocupa las trincheras de la 1.ª División griega. El Segundo Ejército ataca al norte de la ciudad y mantiene inmovilizado al III Cuerpo griego en Eskişehir.

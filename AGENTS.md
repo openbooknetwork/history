@@ -59,6 +59,9 @@ A story is done when the check prints ok and `npm run build -- --strict` builds 
 
 ## Translations
 
+The English and every translation follow `node_modules/@openbooknetwork/kitap/writing/README.md`, and a
+translation also follows that folder's file for its language, such as `tr.md`.
+
 `./node_modules/.bin/harita i18n tr --story <story>` adds an empty key for every new English string to the story's
 `i18n/tr.yaml`, with the English as a comment above it. Fill each one. With `--story` the command builds only that
 story. A battle's strings sit in its folder's `i18n/tr.yaml`, and an image folder's caption in that folder's

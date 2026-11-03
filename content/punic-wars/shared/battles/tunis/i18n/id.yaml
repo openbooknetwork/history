@@ -1,0 +1,30 @@
+# id strings for the battle "tunis".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n id
+
+# Carthage
+battle.sides.0.name: "Kartago"
+
+# 12,000 infantry, 4,000 cavalry, 100 elephants
+battle.sides.0.strength: "12.000 prajurit infanteri, 4.000 prajurit kavaleri, 100 gajah"
+
+# At least 800 killed
+battle.sides.0.casualties: "Sedikitnya 800 tewas"
+
+# Roman Republic
+battle.sides.1.name: "Republik Romawi"
+
+# 15,000 infantry, 500 cavalry
+battle.sides.1.strength: "15.000 prajurit infanteri, 500 prajurit kavaleri"
+
+# 13,000 killed, 500 captured
+battle.sides.1.casualties: "13.000 tewas, 500 ditawan"
+
+# Battle of Tunis
+battle.name: "Pertempuran Tunis"
+
+# Spring 255 BC
+battle.date: "Musim semi 255 SM"
+
+# Carthaginian victory, Regulus captured
+battle.result: "Kemenangan Kartago, Regulus ditawan"

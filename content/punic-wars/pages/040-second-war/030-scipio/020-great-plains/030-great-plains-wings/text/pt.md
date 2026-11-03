@@ -1,0 +1,5 @@
+Em 30 a 50 dias, [Asdrúbal e Sífax](@great-plains-wings-hasdrubal) formam um novo exército de cerca de 30.000 homens, com 4.000 [iberos](@great-plains-wings-iberians) recém-chegados a Cartago, e acampam nas Grandes Planícies do Bagradas, a cerca de 120 km de Útica. Cipião deixa uma força diante de Útica e marcha até lá sem comboio de bagagem, com talvez 20.000 homens. Depois de três dias de escaramuças, os dois exércitos se formam.
+
+@image numidian-horseman-6023b7
+
+Asdrúbal põe os iberos no centro, a infantaria e a cavalaria cartaginesas à direita deles e a infantaria e a cavalaria númidas de Sífax à esquerda. Cipião coloca as duas legiões romanas no centro, em três linhas, uma legião aliada de cada lado, a cavalaria romana sob [Lélio](@great-plains-wings-laelius) à direita e os númidas de [Massinissa](@great-plains-wings-masinissa) à esquerda. Na primeira carga, a cavalaria das duas alas cartaginesas se rompe, e a infantaria cartaginesa e a númida fogem antes que as legiões aliadas as alcancem. Só os iberos levam a carga até o fim contra os hastados.

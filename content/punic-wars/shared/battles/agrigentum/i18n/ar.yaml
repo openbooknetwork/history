@@ -1,0 +1,44 @@
+# ar strings for the battle "agrigentum".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n ar
+
+# Roman Republic
+battle.sides.0.name: "الجمهورية الرومانية"
+
+# 40,000 to 100,000 soldiers and labourers
+battle.sides.0.strength: "من 40,000 إلى 100,000 من الجنود والعمال"
+
+# 15,000 to 30,540 dead
+battle.sides.0.casualties: "من 15,000 إلى 30,540 قتيل"
+
+# Carthage
+battle.sides.1.name: "قرطاج"
+
+# 31,500 to 56,000 men, 30 to 60 elephants, and the garrison
+battle.sides.1.strength: "من 31,500 إلى 56,000 رجل، ومن 30 إلى 60 فيلًا، والحامية"
+
+# 3,200 killed, 4,000 captured, 25,000 inhabitants enslaved
+battle.sides.1.casualties: "3,200 قتيل، و4,000 أسير، و25,000 من السكان بيعوا عبيدًا"
+
+# Battle of Agrigentum
+battle.name: "معركة أغريجنتوم"
+
+# 262 – 261 BC
+battle.date: "262 – 261 ق.م"
+
+# Roman victory, Agrigentum taken
+battle.result: "نصر روماني، سقوط أغريجنتوم"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Lucius Postumius Megellus
+battle.sides.0.commanders.0: "لوكيوس بوستوميوس ميغيلوس"
+
+# Quintus Mamilius Vitulus
+battle.sides.0.commanders.1: "كوينتوس ماميليوس فيتولوس"
+
+# Hanno, son of Hannibal
+battle.sides.1.commanders.0: "حنون بن حنبعل"
+
+# Hannibal Gisco
+battle.sides.1.commanders.1: "حنبعل بن جسكون"

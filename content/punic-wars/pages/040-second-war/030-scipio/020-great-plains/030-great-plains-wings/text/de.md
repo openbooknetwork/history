@@ -1,0 +1,5 @@
+Innerhalb von 30 bis 50 Tagen stellen [Hasdrubal und Syphax](@great-plains-wings-hasdrubal) ein neues Heer von etwa 30 000 Mann auf, mit 4 000 neu in Karthago eingetroffenen [Iberern](@great-plains-wings-iberians), und lagern auf den Großen Feldern am Bagradas, etwa 120 km von Utica entfernt. Scipio lässt eine Truppe vor Utica zurück und zieht ohne Tross mit vielleicht 20 000 Mann dorthin. Nach drei Tagen Plänkeleien stellen sich beide Heere auf.
+
+@image numidian-horseman-6023b7
+
+Hasdrubal stellt die Iberer ins Zentrum, das karthagische Fußvolk und die karthagische Reiterei rechts davon und das numidische Fußvolk und die numidische Reiterei des Syphax links davon. Scipio stellt seine beiden römischen Legionen in ihren drei Treffen ins Zentrum, eine verbündete Legion auf jede Seite, die römische Reiterei unter [Laelius](@great-plains-wings-laelius) rechts und die Numider des [Masinissa](@great-plains-wings-masinissa) links. Beim ersten Angriff brechen die Reiter auf beiden karthagischen Flügeln, und das karthagische und das numidische Fußvolk fliehen, bevor die verbündeten Legionen sie erreichen. Nur die Iberer stürmen bis an die Hastati heran.

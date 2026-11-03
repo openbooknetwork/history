@@ -1,0 +1,3 @@
+Obie armie rozbijają obozy około 8 km od siebie na równinie w pobliżu [Ibery](@ebro-deploy-ibera) i przez kilka dni ścierają się tylko ich harcownicy. Potem obie wychodzą w pole tego samego dnia, każda licząca około 25 000 ludzi. Rzymianie prawdopodobnie ustawiają swoje dwa legiony w centrum, po legionie sprzymierzeńców po każdej stronie, a jazdę na skrzydłach.
+
+Hazdrubal ustawia piechotę iberyjską w centrum, afrykańską ciężką piechotę po jej lewej stronie, a po prawej ciężką piechotę, którą Liwiusz nazywa Punijczykami, prawdopodobnie milicję z kartagińskich miast Iberii. Jazda libijska i iberyjska stoi na lewym skrzydle, a [Numidowie](@ebro-deploy-numidians) na prawym. Około 20 słoni stoi przed piechotą, za zasłoną balearskich procarzy i afrykańskiej lekkiej piechoty.

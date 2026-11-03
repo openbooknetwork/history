@@ -1,0 +1,41 @@
+# ko strings for the battle "great-plains".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n ko
+
+# Rome and Masinissa’s Numidians
+battle.sides.0.name: "로마와 마시니사의 누미디아인"
+
+# About 20,000
+battle.sides.0.strength: "약 2만 명"
+
+# Carthage and Syphax’s Numidians
+battle.sides.1.name: "카르타고와 시팍스의 누미디아인"
+
+# About 30,000
+battle.sides.1.strength: "약 3만 명"
+
+# Battle of the Great Plains
+battle.name: "대평원 전투"
+
+# 203 BC
+battle.date: "기원전 203년"
+
+# Roman victory
+battle.result: "로마의 승리"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Publius Cornelius Scipio
+battle.sides.0.commanders.0: "푸블리우스 코르넬리우스 스키피오"
+
+# Masinissa
+battle.sides.0.commanders.1: "마시니사"
+
+# Gaius Laelius
+battle.sides.0.commanders.2: "가이우스 라일리우스"
+
+# Hasdrubal Gisco
+battle.sides.1.commanders.0: "하스드루발 기스코"
+
+# Syphax
+battle.sides.1.commanders.1: "시팍스"

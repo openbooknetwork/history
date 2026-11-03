@@ -1,0 +1,3 @@
+W 211 p.n.e. [Hannibal](@capua-attack-hannibal) wraca z południa i rozbija obóz blisko linii rzymskich. Atakuje linię zewnętrzną, podczas gdy kartagińska załoga Kapui pod wodzą [Bostara i Hannona](@capua-attack-sortie) wraz z Kapuańczykami robi wypad przeciw linii wewnętrznej.
+
+[Kohorta iberyjska](@capua-attack-cohort) z trzema słoniami przebija się przez linię zewnętrzną i dociera do wału obozu rzymskiego, ale zostaje zniszczona, zanim zdoła się do niego wedrzeć. Liwiusz pisze, że [Fulwiusz Flakkus](@capua-attack-fulvius) powstrzymuje Hannibala, a [Appiusz Klaudiusz](@capua-attack-appius) odpiera Kapuańczyków aż pod ich bramy i zostaje tam ranny. Atak na linie kończy się niepowodzeniem.

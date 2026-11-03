@@ -1,0 +1,38 @@
+# zh-TW strings for the battle "drepana".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n zh-TW
+
+# Carthage
+battle.sides.0.name: "迦太基"
+
+# 100 to 130 ships
+battle.sides.0.strength: "100至130艘船"
+
+# None recorded
+battle.sides.0.casualties: "無記載"
+
+# Roman Republic
+battle.sides.1.name: "羅馬共和國"
+
+# At least 123 ships
+battle.sides.1.strength: "至少123艘船"
+
+# 93 ships captured, more sunk, 20,000 men killed or captured
+battle.sides.1.casualties: "93艘船被俘，另有更多被擊沉，2萬人陣亡或被俘"
+
+# Battle of Drepana
+battle.name: "德雷帕納海戰"
+
+# 249 BC
+battle.date: "西元前249年"
+
+# Carthaginian victory
+battle.result: "迦太基勝利"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Adherbal
+battle.sides.0.commanders.0: "阿德赫巴爾"
+
+# Publius Claudius Pulcher
+battle.sides.1.commanders.0: "普布利烏斯‧克勞狄烏斯‧普爾徹"

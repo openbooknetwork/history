@@ -1,0 +1,5 @@
+La pression populaire à Rome fait élire [Scipion](@carthage-147-scipio) Émilien consul pour 147 av. J.-C., bien qu’à 36 ou 37 ans il n’ait pas l’âge légal, et lui donne le commandement unique en Afrique. Au début de l’année, Lucius Hostilius [Mancinus](@carthage-147-mancinus), qui commande la flotte, force une poterne avec 3 500 hommes, pour la plupart des marins. Scipion arrive d’Utique par mer pendant la nuit et les rembarque au moment où les Carthaginois contre-attaquent.
+
+@image carthage-plan-1889-3b11f0
+
+Scipion rétablit la discipline et mène un assaut de nuit sur [Mégara](@carthage-147-megara), le grand faubourg de jardins et de villas situé à l’intérieur des murs. Quatre mille Romains y pénètrent, mais il les retire avant le jour. [Hasdrubal](@carthage-147-hasdrubal) fait torturer à mort des prisonniers romains sur les murs, sous les yeux de l’armée romaine, et fait exécuter les conseillers qui protestent. Scipion ferme alors le côté terre de la ville par une ligne fortifiée en travers de l’isthme.

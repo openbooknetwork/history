@@ -1,0 +1,5 @@
+Nello stesso pomeriggio, con sorpresa dei difensori, i Romani attaccano di nuovo con truppe fresche e nuove scale. Le galee di Lelio tornano contro il muro meridionale, i legionari formano una testuggine sotto gli scudi sovrapposti e colpiscono la porta orientale con le asce, e un altro reparto avanza fino al canale a ovest della città. I difensori, a corto di proiettili dopo il mattino, spostano uomini sulle mura minacciate e lasciano quasi sguarnito il muro settentrionale sopra la laguna.
+
+@image new-carthage-furnius-80a1b5
+
+Scipione manda [500 uomini scelti](@new-carthage-2-five-hundred) attraverso la laguna con delle guide. Polibio scrive che ogni sera l’acqua si abbassava con la marea, Livio che un vento di tramontana la respingeva. Gli storici moderni dubitano di entrambe le spiegazioni e ipotizzano chiuse sul canale, oppure una laguna comunque abbastanza bassa da poter essere guadata. I 500 raggiungono il muro settentrionale senza essere visti, lo scalano, si aprono la strada verso est lungo il muro e aprono dall’interno la porta orientale.

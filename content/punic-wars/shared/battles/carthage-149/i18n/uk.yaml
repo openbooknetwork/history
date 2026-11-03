@@ -1,0 +1,47 @@
+# uk strings for the battle "carthage-149".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n uk
+
+# Roman Republic
+battle.sides.0.name: "Римська республіка"
+
+# 36,000 to 46,000 infantry, 4,000 cavalry
+battle.sides.0.strength: "Від 36 000 до 46 000 піхоти, 4000 кінноти"
+
+# Unknown
+battle.sides.0.casualties: "Невідомо"
+
+# Carthage
+battle.sides.1.name: "Карфаген"
+
+# 30,000 soldiers and about 60,000 armed civilians
+battle.sides.1.strength: "30 000 воїнів і близько 60 000 озброєних цивільних"
+
+# 50,000 enslaved
+battle.sides.1.casualties: "50 000 продано в рабство"
+
+# Siege of Carthage
+battle.name: "Облога Карфагена"
+
+# 149 – spring 146 BC
+battle.date: "149 – весна 146 р. до н. е."
+
+# Roman victory, Carthage destroyed
+battle.result: "Перемога Рима, Карфаген зруйновано"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Scipio Aemilianus
+battle.sides.0.commanders.0: "Сципіон Еміліан"
+
+# Manius Manilius
+battle.sides.0.commanders.1: "Маній Манілій"
+
+# Lucius Marcius Censorinus
+battle.sides.0.commanders.2: "Луцій Марцій Цензорин"
+
+# Lucius Calpurnius Piso
+battle.sides.0.commanders.3: "Луцій Кальпурній Пізон"
+
+# Hasdrubal
+battle.sides.1.commanders.0: "Гасдрубал"

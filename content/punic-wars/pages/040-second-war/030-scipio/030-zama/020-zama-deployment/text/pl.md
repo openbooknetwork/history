@@ -1,0 +1,5 @@
+[Scypion](@zama-deploy-scipio) ustawia legiony w trzech liniach, ale każdy manipuł principes umieszcza dokładnie za manipułem hastatów, a nie w zwykłej szachownicy. Przez armię biegną w ten sposób otwarte przejścia, w których stoją welici. Cztery tysiące jeźdźców numidyjskich [Masynissy](@zama-deploy-masinissa) zajmują prawe skrzydło, a [Leliusz](@zama-deploy-laelius) z 1500 jeźdźcami rzymskimi i italskimi lewe. Współcześni historycy zwykle przypisują Rzymianom 29 000 lub 30 000 ludzi.
+
+@image zama-tapestry-ff1299
+
+[Hannibal](@zama-deploy-hannibal) ustawia z przodu 80 słoni w odstępach około 30 m. Za nimi stoi pierwsza linia 12 000 najemników, Ligurów, Galów, balearskich procarzy i Maurów, wielu z armii Magona, a druga linia składa się z kartagińskich i afrykańskich poborowych. Weterani z Italii tworzą trzecią linię około 200 m dalej. Jego jazda numidyjska stoi naprzeciw Masynissy na lewym skrzydle, a jazda kartagińska naprzeciw Leliusza na prawym. Polibiusz przypisuje mu około 40 000 ludzi, w tym 4000 jazdy.

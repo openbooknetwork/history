@@ -1,0 +1,44 @@
+# ur strings for the battle "metaurus".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n ur
+
+# Roman Republic
+battle.sides.0.name: "جمہوریہ روم"
+
+# 37,000
+battle.sides.0.strength: "37,000"
+
+# 2,000–8,000 killed
+battle.sides.0.casualties: "2,000 سے 8,000 تک ہلاک"
+
+# Carthage
+battle.sides.1.name: "قرطاجنہ"
+
+# 30,000, with 10 elephants
+battle.sides.1.strength: "30,000، اور 10 ہاتھی"
+
+# 10,000 killed, 5,400 captured
+battle.sides.1.casualties: "10,000 ہلاک، 5,400 قید"
+
+# Battle of the Metaurus
+battle.name: "جنگِ میٹارس"
+
+# 24 June 207 BC
+battle.date: "24 جون 207 ق م"
+
+# Roman victory, Hasdrubal killed
+battle.result: "رومی فتح، ہسدروبال مارا جاتا ہے"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Marcus Livius Salinator
+battle.sides.0.commanders.0: "مارکس لیویئس سالیناٹر"
+
+# Gaius Claudius Nero
+battle.sides.0.commanders.1: "گائیئس کلاڈیئس نیرو"
+
+# Lucius Porcius Licinus
+battle.sides.0.commanders.2: "لوکیئس پورسیئس لیسینس"
+
+# Hasdrubal Barca
+battle.sides.1.commanders.0: "ہسدروبال برقہ"

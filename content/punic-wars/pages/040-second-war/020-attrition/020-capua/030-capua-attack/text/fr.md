@@ -1,0 +1,3 @@
+En 211 av. J.-C., [Hannibal](@capua-attack-hannibal) revient du sud et campe tout près des lignes romaines. Il attaque la ligne extérieure pendant que la garnison carthaginoise de Capoue, sous [Bostar et Hannon](@capua-attack-sortie), fait avec les Campaniens une sortie contre la ligne intérieure.
+
+Une [cohorte ibère](@capua-attack-cohort) accompagnée de trois éléphants perce la ligne extérieure et atteint le rempart d’un camp romain, mais elle est anéantie avant de pouvoir y pénétrer. Tite-Live écrit que [Fulvius Flaccus](@capua-attack-fulvius) contient Hannibal tandis qu’[Appius Claudius](@capua-attack-appius) refoule les Campaniens jusqu’à leurs portes et y est blessé. L’attaque contre les lignes échoue.

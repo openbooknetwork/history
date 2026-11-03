@@ -1,0 +1,30 @@
+# id strings for the battle "carthage-149".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n id
+
+# Roman Republic
+battle.sides.0.name: "Republik Romawi"
+
+# 36,000 to 46,000 infantry, 4,000 cavalry
+battle.sides.0.strength: "36.000 sampai 46.000 prajurit infanteri, 4.000 prajurit kavaleri"
+
+# Unknown
+battle.sides.0.casualties: "Tidak diketahui"
+
+# Carthage
+battle.sides.1.name: "Kartago"
+
+# 30,000 soldiers and about 60,000 armed civilians
+battle.sides.1.strength: "30.000 prajurit dan sekitar 60.000 warga sipil bersenjata"
+
+# 50,000 enslaved
+battle.sides.1.casualties: "50.000 diperbudak"
+
+# Siege of Carthage
+battle.name: "Pengepungan Kartago"
+
+# 149 – spring 146 BC
+battle.date: "149 – musim semi 146 SM"
+
+# Roman victory, Carthage destroyed
+battle.result: "Kemenangan Romawi, Kartago dihancurkan"

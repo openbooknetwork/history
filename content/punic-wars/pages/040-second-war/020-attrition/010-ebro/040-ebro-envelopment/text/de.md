@@ -1,0 +1,3 @@
+Die römischen Legionen verfolgen die fliehenden Iberer nicht. Sie schwenken nach außen und greifen die Afrikaner und die Poeni von hinten an, während die verbündeten Legionen sie von vorn festhalten. Die Libyer leisten harten Widerstand und erleiden schwere Verluste, bevor sie brechen.
+
+Hasdrubal entkommt mit dem größten Teil seiner Reiterei und seiner Elefanten und wenigen Fußsoldaten, und die Römer nehmen sein Lager mit den Vorräten und der Kriegskasse. Ibera ergibt sich wahrscheinlich nach der Schlacht. Das Heer, das Karthago unter Mago für eine Landung in Italien aufgestellt hatte, wird stattdessen nach Iberien geschickt, und der Landweg nach Italien bleibt versperrt.

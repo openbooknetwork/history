@@ -1,0 +1,5 @@
+Sepanjang musim dingin, [Scipio](@great-plains-camps-scipio) berunding dengan Syphax, yang menawarkan diri untuk mengatur perdamaian. Bersama setiap perutusan, ia mengirim perwira-perwira yang menyamar sebagai budak. Mereka melaporkan bahwa [perkemahan Kartago](@great-plains-camps-carthaginian) terdiri atas pondok-pondok kayu di balik benteng tanah, sedangkan [perkemahan Numidia](@great-plains-camps-numidian) terdiri atas pondok-pondok dari buluh dan ilalang tanpa batas yang jelas. Pada musim semi, ia secara terbuka bersiap menyerbu [Utica](@utica-204), lalu pada suatu malam keluar dan membagi tentaranya.
+
+@image syphax-receives-scipio-360bc9
+
+[Laelius dan Masinissa](@great-plains-camps-laelius) menyerang perkemahan Numidia dan membakar pondok-pondok buluhnya. Banyak orang Kartago, yang mengira kebakaran itu kecelakaan, berlari tanpa senjata dari perkemahan mereka sendiri untuk membantu, dan Scipio menyerbu perkemahan mereka dan membakar pondok-pondoknya. Dalam gelap dan kepanikan, kedua tentara menderita kerugian besar. Hasdrubal lolos sejauh 40 km ke Kartago dengan 2.500 orang, dan Syphax dengan beberapa prajurit berkuda.

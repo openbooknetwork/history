@@ -1,0 +1,5 @@
+Der Ager Falernus liegt nördlich des Volturnus, und die Römer halten die Brücken des Flusses, sodass von den acht Straßen aus der Ebene nur drei Hannibals Heer offenstehen. [Fabius](@fabius-trap-fabius) verstärkt die Besatzungen von [Casilinum](@casilinum-217) und Cales, stellt [Minucius](@fabius-trap-minucius) im Norden auf, um die Via Latina und die Via Appia zu überwachen, und lagert mit dem Hauptheer nahe dem Monte Massico. Eine Abteilung von 4 000 Mann hält den Pass am Berg Callicula im Osten, durch den [Hannibal](@fabius-trap-hannibal) hereingekommen war.
+
+@image fabius-plain-59eed2
+
+Fabius wartet darauf, dass den Karthagern die Vorräte ausgehen. Als Lucius Hostilius [Mancinus](@fabius-trap-mancinus), mit 400 Reitern zur Aufklärung ausgeschickt, sich mit den Numidern einlässt, tötet ihn Karthalos Reiterei und vernichtet seine ganze Truppe. Im Herbst zieht Hannibal nach Osten auf den Callicula-Pass zu. Fabius lagert mit seinem Heer auf einem Hügel darüber, und Minucius stößt dort zu ihm.

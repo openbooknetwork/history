@@ -1,0 +1,24 @@
+# fr strings for the battle "saguntum".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n fr
+
+# Carthage
+battle.sides.0.name: "Carthage"
+
+# Heavy
+battle.sides.0.casualties: "Lourdes"
+
+# Saguntum
+battle.sides.1.name: "Sagonte"
+
+# Nearly all the defenders and many civilians killed
+battle.sides.1.casualties: "Presque tous les défenseurs et de nombreux civils tués"
+
+# Siege of Saguntum
+battle.name: "Siège de Sagonte"
+
+# 219 BC
+battle.date: "219 av. J.-C."
+
+# Carthaginian victory, beginning of the Second Punic War
+battle.result: "Victoire carthaginoise, début de la deuxième guerre punique"

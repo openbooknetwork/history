@@ -1,0 +1,7 @@
+Scipio terpilih sebagai konsul untuk tahun 205 SM pada usia 31 tahun. Ia menerima Sisilia sebagai provinsinya dan izin untuk menyeberang ke Afrika, tetapi hanya boleh merekrut sukarelawan. Dua legiun yang dibentuk dari para penyintas Cannae menjadi inti tentaranya, masing-masing ditambah menjadi 6.500 orang, dan ia melatih mereka selama sekitar satu tahun. Para sejarawan modern memperkirakan pasukan penyerbunya berjumlah 25.000 sampai 30.000 orang.
+
+@image utica-ruins-aef0fe
+
+Pada tahun 204 SM, kemungkinan pada bulan Juni atau Juli, 400 kapal angkut yang dikawal 40 galai membawa tentara itu dari Lilybaeum ke Tanjung Farina, di utara [Utica](@utica-204). Masinissa, yang telah diusir dari kerajaannya oleh [Syphax](@great-plains-syphax-camp), bergabung dengan Scipio bersama 200 atau 2.000 orang, menurut catatan yang berbeda-beda. Pasukan Kartago berkekuatan 4.000 orang di bawah Hanno terpancing ke dalam penyergapan oleh kavaleri Masinissa dan dihancurkan.
+
+Scipio mengepung Utica. [Hasdrubal Gisco](@great-plains-hasdrubal-camp) berkemah sekitar 11 km jauhnya dengan pasukan yang konon berjumlah 33.000 orang, dan Syphax, yang kini menikah dengan putri Hasdrubal, Sophonisba, berkemah 3 km lebih jauh dengan pasukan yang konon berjumlah 60.000 orang. Para sejarawan modern menganggap kedua angka itu terlalu besar, tetapi menerima bahwa orang Romawi kalah jumlah. Untuk musim dingin, Scipio mundur ke sebuah perkemahan berbenteng di tanjung berbatu, [Castra Cornelia](@great-plains-castra).

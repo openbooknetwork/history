@@ -2,4 +2,4 @@
 
 @image messana-hiero-coin-f600b6
 
-Kuşatanlar iki ayrı kampta durur. Polybios [Kartaca ordusunu](@messana-hiero-carthaginians) kentin kuzeyine, donanmasını Pelorus Burnu’na, Hieron’un ordusunu ise kentin dışındaki bir tepeye yerleştirir. Romalılar kentten çıkar ve önce Siraküzalılara saldırır. Onları yenerler ve Hieron ordusunu Siraküza’ya çeker.
+Kuşatanlar iki ayrı kampta durur. Polybios [Kartaca ordusunu](@messana-hiero-carthaginians) kentin kuzeyine, donanmasını Pelorus Burnu’na, Hieron’un ordusunu ise kentin dışındaki bir tepeye yerleştirir. Romalılar kentten çıkar ve Kartacalıları sonraya bırakarak Siraküzalılara saldırır. Siraküzalıları yenerler ve Hieron ordusunu Siraküza’ya çeker.

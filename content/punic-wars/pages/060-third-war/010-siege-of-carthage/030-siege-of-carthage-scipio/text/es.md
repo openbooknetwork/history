@@ -1,0 +1,5 @@
+La presión popular en Roma hace que [Escipión](@carthage-147-scipio) Emiliano sea elegido cónsul para el 147 a. C., aunque con 36 o 37 años está por debajo de la edad legal, y que reciba el mando único en África. A comienzos del año, Lucio Hostilio [Mancino](@carthage-147-mancinus), que manda la flota, fuerza el paso por una poterna con 3500 hombres, en su mayoría marineros. Escipión llega por mar desde Útica durante la noche y los rescata mientras los cartagineses contraatacan.
+
+@image carthage-plan-1889-3b11f0
+
+Escipión restablece la disciplina y dirige un asalto nocturno contra [Mégara](@carthage-147-megara), el gran barrio de huertos y villas dentro de las murallas. Entran 4000 romanos, pero los retira antes del amanecer. [Asdrúbal](@carthage-147-hasdrubal) hace torturar hasta la muerte a prisioneros romanos en las murallas, a la vista del ejército romano, y ejecuta a los consejeros que se oponen. Escipión cierra entonces el lado de tierra de la ciudad con una línea fortificada a través del istmo.

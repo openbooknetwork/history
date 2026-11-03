@@ -1,0 +1,3 @@
+Las legiones romanas no persiguen a los íberos en fuga. Giran hacia fuera y atacan por la espalda a los africanos y a los púnicos mientras las legiones aliadas los contienen de frente. Los libios resisten con dureza y sufren grandes pérdidas antes de romperse.
+
+Asdrúbal escapa con la mayor parte de su caballería y sus elefantes y unos pocos infantes, y los romanos toman su campamento con sus suministros y su tesoro. Ibera probablemente se rinde después de la batalla. El ejército que Cartago había reunido al mando de Magón para desembarcar en Italia se envía en su lugar a Iberia, y el camino por tierra a Italia sigue cerrado.

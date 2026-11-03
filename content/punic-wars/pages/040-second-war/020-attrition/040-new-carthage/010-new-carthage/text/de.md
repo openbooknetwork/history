@@ -1,0 +1,7 @@
+Nach dem Tod seines Vaters und seines Onkels im Jahr 211 v. Chr. landet Publius Cornelius Scipio, später Africanus genannt, Ende 210 v. Chr. in [Tarraco](@tarraco-210) und übernimmt den Befehl über alle römischen Truppen in Iberien. Er ist Mitte zwanzig und hat noch kein hohes Amt bekleidet. Er verfügt über 28 000 Mann Fußvolk und 3 000 Reiter. Drei karthagische Heere, jedes so groß wie sein eigenes, stehen weit voneinander entfernt: das [Hasdrubal Barkas’](@new-carthage-hasdrubal) in Zentraliberien, das [Magos](@new-carthage-mago) bei Gades und das [Hasdrubal Giskos](@new-carthage-gisco) in Lusitanien.
+
+@image scipio-africanus-bust-359b53
+
+Scipio beschließt, Neukarthago anzugreifen, die karthagische Hauptstadt in Iberien, in der die Kriegskasse, die Münzstätte, das Arsenal und die Geiseln der iberischen Stämme liegen. Die Stadt steht auf einem hügeligen Vorgebirge zwischen der Hafenbucht und einer flachen Lagune. Das Vorgebirge ist mit dem Festland nur durch eine etwa 300 m breite Landenge im Osten verbunden. Ihre Mauern sind 3,7 km lang. Ihr Befehlshaber Mago hat 1 000 reguläre Soldaten und etwa 2 000 bewaffnete Bürger.
+
+Anfang 209 v. Chr. lässt Scipio 3 300 Mann zur Sicherung des Nordens zurück und zieht mit 25 000 Mann Fußvolk und 2 500 Reitern nach Süden, während Gaius Laelius mit 35 Galeeren an der Küste entlang folgt. Nur die beiden Befehlshaber kennen das Ziel. Nach einem raschen Marsch von etwa 450 km lagert das Heer auf einem Hügel in der Mitte der Landenge, gegenüber dem Haupttor.

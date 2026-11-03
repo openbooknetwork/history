@@ -1,0 +1,24 @@
+# vi strings for the battle "great-plains".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n vi
+
+# Rome and Masinissa’s Numidians
+battle.sides.0.name: "La Mã và người Numidia của Masinissa"
+
+# About 20,000
+battle.sides.0.strength: "Khoảng 20.000"
+
+# Carthage and Syphax’s Numidians
+battle.sides.1.name: "Carthage và người Numidia của Syphax"
+
+# About 30,000
+battle.sides.1.strength: "Khoảng 30.000"
+
+# Battle of the Great Plains
+battle.name: "Trận Đại Bình nguyên"
+
+# 203 BC
+battle.date: "Năm 203 TCN"
+
+# Roman victory
+battle.result: "La Mã thắng"

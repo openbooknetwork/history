@@ -1,0 +1,5 @@
+[Aníbal](@fabius-oxen-hannibal) escoge [2000 bueyes](@fabius-oxen-cattle) de los rebaños capturados y les hace atar leña seca a los cuernos. Asdrúbal, el intendente, los conduce con 2000 seguidores del campamento y 2000 infantes ligeros hacia un collado bajo el campamento de [Fabio](@fabius-oxen-fabius), al noroeste del paso. En la tercera vigilia de la noche, poco después de la medianoche, se prende la leña, y los animales asustados suben corriendo la ladera como un ejército que marcha con antorchas.
+
+Fabio mantiene a su ejército en el campamento, temiendo una trampa en la oscuridad. Los 4000 romanos del paso abandonan su puesto para atacar las luces. El ejército de Aníbal marcha entonces por el paso vacío: primero los africanos, después la caballería, la impedimenta y los rebaños, con galos e íberos como retaguardia.
+
+En el collado, el [destacamento romano](@fabius-oxen-detachment) se topa con el ganado desbocado y con la infantería ligera cartaginesa. Al amanecer la infantería íbera sube la ladera, mata a unos 1000 romanos y se trae de vuelta a los boyeros, las tropas ligeras y parte del ganado antes de que el ejército romano principal pueda intervenir.

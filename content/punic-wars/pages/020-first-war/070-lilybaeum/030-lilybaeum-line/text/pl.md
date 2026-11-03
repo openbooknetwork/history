@@ -1,0 +1,3 @@
+[Adherbal](@lilybaeum-line-adherbal) ustawia flotę w linii równoległej do Rzymian, od strony morza. Pięć jego okrętów, ustawionych skośnie ku brzegowi, wychodzi na południe od okrętu flagowego [Pulchra](@lilybaeum-line-pulcher) i odcina flocie rzymskiej drogę powrotną do Lilybaeum. Rzymianie formują linię zwróconą na zachód. Wybrzeże tuż za ich plecami chroni ich przed oskrzydleniem.
+
+Okręty kartagińskie są lżejsze i zwrotniejsze, ich załogi bardziej doświadczone, a Rzymianie zrezygnowali z kruka. Okręt kartagiński, któremu źle idzie w walce, może wiosłować wstecz i się oddalić, a okręt rzymski, który za nim płynie, odsłania boki. Z brzegiem za plecami Rzymianie mogą tylko trzymać zwarty szyk, a Kartagińczycy przez cały dzień wyłuskują odsłonięte okręty i je taranują.

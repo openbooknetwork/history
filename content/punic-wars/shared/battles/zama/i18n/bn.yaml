@@ -1,0 +1,38 @@
+# bn strings for the battle "zama".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n bn
+
+# Roman Republic
+battle.sides.0.name: "রোমান প্রজাতন্ত্র"
+
+# 29,000–30,000, with 6,100 cavalry
+battle.sides.0.strength: "২৯,০০০–৩০,০০০, এর মধ্যে ৬,১০০ অশ্বারোহী"
+
+# At least 1,500 killed, many wounded
+battle.sides.0.casualties: "অন্তত ১,৫০০ নিহত, অনেকে আহত"
+
+# Carthage
+battle.sides.1.name: "কার্থেজ"
+
+# 40,000 or 50,000, with 80 war elephants
+battle.sides.1.strength: "৪০,০০০ বা ৫০,০০০, ৮০টি যুদ্ধহাতিসহ"
+
+# 20,000 killed, 20,000 captured
+battle.sides.1.casualties: "২০,০০০ নিহত, ২০,০০০ বন্দি"
+
+# Battle of Zama
+battle.name: "জামার যুদ্ধ"
+
+# October 202 BC
+battle.date: "অক্টোবর খ্রিস্টপূর্ব ২০২"
+
+# Roman victory, Carthage sues for peace
+battle.result: "রোমানদের জয়, কার্থেজ সন্ধি প্রার্থনা করে"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Publius Cornelius Scipio
+battle.sides.0.commanders.0: "পাবলিয়াস কর্নেলিয়াস সিপিও"
+
+# Hannibal
+battle.sides.1.commanders.0: "হ্যানিবল"

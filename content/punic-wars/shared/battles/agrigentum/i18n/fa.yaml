@@ -1,0 +1,44 @@
+# fa strings for the battle "agrigentum".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n fa
+
+# Roman Republic
+battle.sides.0.name: "جمهوری روم"
+
+# 40,000 to 100,000 soldiers and labourers
+battle.sides.0.strength: "۴۰ تا ۱۰۰ هزار سرباز و کارگر"
+
+# 15,000 to 30,540 dead
+battle.sides.0.casualties: "۱۵ هزار تا ۳۰٬۵۴۰ کشته"
+
+# Carthage
+battle.sides.1.name: "کارتاژ"
+
+# 31,500 to 56,000 men, 30 to 60 elephants, and the garrison
+battle.sides.1.strength: "۳۱٬۵۰۰ تا ۵۶ هزار مرد، ۳۰ تا ۶۰ فیل، و پادگان شهر"
+
+# 3,200 killed, 4,000 captured, 25,000 inhabitants enslaved
+battle.sides.1.casualties: "۳٬۲۰۰ کشته، ۴ هزار اسیر، ۲۵ هزار ساکن شهر به بردگی فروخته‌شده"
+
+# Battle of Agrigentum
+battle.name: "نبرد آگریجنتوم"
+
+# 262 – 261 BC
+battle.date: "۲۶۲ تا ۲۶۱ پیش از میلاد"
+
+# Roman victory, Agrigentum taken
+battle.result: "پیروزی روم، تصرف آگریجنتوم"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Lucius Postumius Megellus
+battle.sides.0.commanders.0: "لوکیوس پوستومیوس مگلوس"
+
+# Quintus Mamilius Vitulus
+battle.sides.0.commanders.1: "کوئینتوس مامیلیوس ویتولوس"
+
+# Hanno, son of Hannibal
+battle.sides.1.commanders.0: "هانو پسر هانیبال"
+
+# Hannibal Gisco
+battle.sides.1.commanders.1: "هانیبال گیسکو"

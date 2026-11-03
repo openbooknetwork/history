@@ -1,0 +1,3 @@
+Hippokrates i wódz kartagiński Himilkon prowadzą swoją armię nad rzekę Anapos i rozbijają obóz w pobliżu świątyni Zeusa Olimpijskiego, na południe od miasta. Flota kartagińska pod wodzą [Bomilkara](@syracuse-relief-bomilcar) dowozi zaopatrzenie do Wielkiego Portu. Hippokrates atakuje linie rzymskie, podczas gdy [Epikydes](@syracuse-relief-epicydes) robi wypad z Achradyny, i oba ataki zostają odparte.
+
+Jesienią na niskim, bagnistym terenie nad rzeką wybucha zaraza. Dotyka obie armie, ale najbardziej cierpią Kartagińczycy, obozujący na otwartym terenie przy bagnach. [Himilkon i Hippokrates](@syracuse-relief-himilco) umierają, ich armia się rozpada, a późniejsza próba Bomilkara, by sprowadzić większą flotę, kończy się bez bitwy.

@@ -1,0 +1,50 @@
+# th strings for the battle "syracuse".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n th
+
+# Roman Republic
+battle.sides.0.name: "สาธารณรัฐโรมัน"
+
+# 16,000–18,000
+battle.sides.0.strength: "16,000–18,000 นาย"
+
+# Heavy
+battle.sides.0.casualties: "หนัก"
+
+# Syracuse and Carthage
+battle.sides.1.name: "ซีราคิวส์และคาร์เธจ"
+
+# 21,000–25,000
+battle.sides.1.strength: "21,000–25,000 นาย"
+
+# Over 5,000, and many civilians
+battle.sides.1.casualties: "กว่า 5,000 นาย และพลเรือนจำนวนมาก"
+
+# Siege of Syracuse
+battle.name: "การล้อมซีราคิวส์"
+
+# Spring 213 – Autumn 212 BC
+battle.date: "ฤดูใบไม้ผลิ ก่อน ค.ศ. 213 – ฤดูใบไม้ร่วง ก่อน ค.ศ. 212"
+
+# Roman victory, Syracuse sacked
+battle.result: "โรมชนะ ซีราคิวส์ถูกปล้น"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Marcus Claudius Marcellus
+battle.sides.0.commanders.0: "มาร์กุส คลาวดิอุส มาร์เกลลุส"
+
+# Appius Claudius Pulcher
+battle.sides.0.commanders.1: "อัปปิอุส คลาวดิอุส ปุลเคอร์"
+
+# Epicydes
+battle.sides.1.commanders.0: "เอปิกีเดส"
+
+# Hippocrates
+battle.sides.1.commanders.1: "ฮิปโปกราเตส"
+
+# Himilco
+battle.sides.1.commanders.2: "ฮิมิลโก"
+
+# Bomilcar
+battle.sides.1.commanders.3: "โบมิลการ์"

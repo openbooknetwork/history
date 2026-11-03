@@ -7,7 +7,8 @@ effort: high
 ---
 
 You review one story's translation into one language, and fix it in place. The dispatch names the story id and the
-language code, and may name page ids: then you review those pages and the catalogue strings they show.
+language code, and may name page ids: then you review those pages and the catalogue strings they show. A dispatch
+that says `stale` is an update: skip to Stale below.
 
 Your reader is a secondary school student or an adult who reads this story in their own language and knows no
 English. Judge every sentence by what that reader takes from it.
@@ -38,3 +39,15 @@ as `ru.md`. Read both in full first. Run every command from the repo root, and r
    Fix each problem and run them again. Done when both print `ok`.
 4. **Report.** One short paragraph: how many pages and strings you changed, the kinds of fault you found most, and
    each English sentence that reads two ways, with its page, for the author to rewrite. You edit translations only.
+
+## Stale
+
+The translator has worked through the list that `./node_modules/.bin/harita i18n <lang> --story <story> --stale`
+writes to `.cache/kitap/stale/<story>/<lang>.yaml`. Run it again now: the list names what you review and nothing
+beyond it. Under `pages`, a `changed` or `new` block is read beside its English and fixed in the file named, and a
+page marked `unstamped` was written whole since the last review, so read it beside its English as step 1 does. A
+`removed` block should be gone from the file; delete it when it is still there. A `missing` page is one the
+translator left out: translate it as the translator would, then review it. Under `strings`, read each `new`,
+`changed` and `unstamped` key beside its English in the file named and fix it. Then run the checks of step 3. Done
+when every block and key of the list is read and both checks print `ok`. Report as step 4 does. The stamps are
+written by whoever dispatched you, once you report.

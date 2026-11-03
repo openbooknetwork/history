@@ -1,0 +1,41 @@
+# zh-TW strings for the battle "dertosa".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n zh-TW
+
+# Roman Republic
+battle.sides.0.name: "羅馬共和國"
+
+# About 25,000
+battle.sides.0.strength: "約25,000人"
+
+# Heavy
+battle.sides.0.casualties: "慘重"
+
+# Carthage
+battle.sides.1.name: "迦太基"
+
+# About 25,000, with war elephants
+battle.sides.1.strength: "約25,000人，另有戰象"
+
+# Heavy
+battle.sides.1.casualties: "慘重"
+
+# Battle of Ibera (Dertosa)
+battle.name: "伊貝拉之戰（德爾托薩）"
+
+# Spring 215 BC
+battle.date: "西元前215年春"
+
+# Roman victory
+battle.result: "羅馬勝利"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Gnaeus Cornelius Scipio
+battle.sides.0.commanders.0: "格奈烏斯‧科爾內利烏斯‧西庇阿"
+
+# Publius Cornelius Scipio
+battle.sides.0.commanders.1: "普布利烏斯‧科爾內利烏斯‧西庇阿"
+
+# Hasdrubal Barca
+battle.sides.1.commanders.0: "哈斯德魯巴‧巴卡"

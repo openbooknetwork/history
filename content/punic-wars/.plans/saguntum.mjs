@@ -69,7 +69,7 @@ writePlan(`${G}/030-saguntum-fall`, {
   markers: {
     'saguntum-fall-maharbal': mark(0, 1450, 'Maharbal', 'Presses the siege', 'carthage'),
     'saguntum-fall-tower': mark(-1050, -650, 'Siege tower', 'Higher than the walls', 'carthage', 'castle'),
-    'saguntum-fall-sappers': mark(-500, 650, 'Libyan sappers', 'Undermine the wall', 'carthage', 'pickaxe'),
+    'saguntum-fall-sappers': mark(-500, 650, 'African sappers', 'Undermine the wall', 'carthage', 'pickaxe'),
     'saguntum-fall-fire': mark(500, -700, 'Fire of the leading citizens', 'Their gold and silver, then themselves, by Livy', null, 'flame'),
   },
 });

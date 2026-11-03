@@ -1,0 +1,5 @@
+Menjelang fajar, orang Romawi sudah dekat dengan [Drepana](@lilybaeum-approach-drepana), tetapi dalam gelap kapal-kapal telah keluar dari posisinya, dan 10.000 pendayung baru tidak dapat mengikuti irama awak lama. Armada yang terdiri atas lebih dari 120 kapal, menurut sebagian catatan 200 kapal, terentang dalam barisan panjang yang tidak teratur di sepanjang pantai. Kapal bendera [Pulcher](@lilybaeum-approach-pulcher) berada di dekat bagian belakang.
+
+@image lilybaeum-drepana-view-4568c2
+
+Komandan Kartago, [Adherbal](@lilybaeum-approach-adherbal), terkejut, tetapi 100 sampai 130 kapalnya siap berlayar. Ia menaikkan garnisun ke kapal sebagai marinir dan memimpin armada keluar dari pelabuhan. Kapal-kapal Romawi terdepan sudah mencapai mulut pelabuhan ketika Pulcher memerintahkan mereka kembali untuk membentuk barisan, dan kapal-kapal yang berbalik bertabrakan dengan kapal-kapal yang masih datang sehingga dayung-dayung mereka saling patah. Adherbal melewati [barisan depan Romawi](@lilybaeum-approach-van) yang kacau, menyelinap di antara kota dan dua pulau kecil ke laut lepas, lalu berbelok ke selatan.

@@ -1,0 +1,41 @@
+# zh-CN strings for the battle "aegates".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n zh-CN
+
+# Roman Republic
+battle.sides.0.name: "罗马共和国"
+
+# About 200 quinqueremes
+battle.sides.0.strength: "约200艘五列桨座战船"
+
+# 30 ships sunk, 50 damaged
+battle.sides.0.casualties: "30艘被击沉，50艘受损"
+
+# Carthage
+battle.sides.1.name: "迦太基"
+
+# About 250 quinqueremes
+battle.sides.1.strength: "约250艘五列桨座战船"
+
+# 50 ships sunk, 70 captured, 10,000 men captured
+battle.sides.1.casualties: "50艘被击沉，70艘被俘，1万人被俘"
+
+# Battle of the Aegates
+battle.name: "埃加迪群岛海战"
+
+# 10 March 241 BC
+battle.date: "公元前241年3月10日"
+
+# Roman victory, Treaty of Lutatius
+battle.result: "罗马胜利，签订《卢塔提乌斯条约》"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Gaius Lutatius Catulus
+battle.sides.0.commanders.0: "盖乌斯·卢塔提乌斯·卡图卢斯"
+
+# Quintus Valerius Falto
+battle.sides.0.commanders.1: "昆图斯·瓦勒里乌斯·法尔托"
+
+# Hanno
+battle.sides.1.commanders.0: "汉诺"

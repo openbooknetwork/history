@@ -1,0 +1,5 @@
+[Cipião](@zama-deploy-scipio) dispõe as legiões em três linhas, mas coloca cada manípulo de príncipes logo atrás de um manípulo de hastados, em vez do habitual xadrez. Isso deixa corredores abertos através do exército, e os vélites ficam neles. Os 4.000 cavaleiros númidas de [Massinissa](@zama-deploy-masinissa) ocupam a direita, e [Lélio](@zama-deploy-laelius), com 1.500 cavaleiros romanos e italianos, a esquerda. Historiadores modernos costumam atribuir aos romanos 29.000 ou 30.000 homens.
+
+@image zama-tapestry-ff1299
+
+[Aníbal](@zama-deploy-hannibal) coloca os 80 elefantes à frente, a cerca de 30 m um do outro. Atrás deles fica uma primeira linha de 12.000 mercenários, lígures, gauleses, fundibulários baleares e mouros, muitos deles do exército de Magão, e uma segunda linha de recrutas cartagineses e africanos. Os veteranos dele da Itália formam uma terceira linha cerca de 200 m mais atrás. A cavalaria númida dele enfrenta Massinissa à esquerda, e a cavalaria cartaginesa enfrenta Lélio à direita. Políbio lhe atribui cerca de 40.000 homens, dos quais 4.000 de cavalaria.

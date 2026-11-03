@@ -1,0 +1,44 @@
+# ru strings for the battle "agrigentum".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n ru
+
+# Roman Republic
+battle.sides.0.name: "Римская республика"
+
+# 40,000 to 100,000 soldiers and labourers
+battle.sides.0.strength: "От 40 000 до 100 000 воинов и работников"
+
+# 15,000 to 30,540 dead
+battle.sides.0.casualties: "От 15 000 до 30 540 погибших"
+
+# Carthage
+battle.sides.1.name: "Карфаген"
+
+# 31,500 to 56,000 men, 30 to 60 elephants, and the garrison
+battle.sides.1.strength: "От 31 500 до 56 000 человек, от 30 до 60 слонов и гарнизон"
+
+# 3,200 killed, 4,000 captured, 25,000 inhabitants enslaved
+battle.sides.1.casualties: "3200 убитых, 4000 пленных, 25 000 жителей обращены в рабство"
+
+# Battle of Agrigentum
+battle.name: "Осада Агригента"
+
+# 262 – 261 BC
+battle.date: "262–261 годы до н. э."
+
+# Roman victory, Agrigentum taken
+battle.result: "Победа Рима, Агригент взят"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Lucius Postumius Megellus
+battle.sides.0.commanders.0: "Луций Постумий Мегелл"
+
+# Quintus Mamilius Vitulus
+battle.sides.0.commanders.1: "Квинт Мамилий Витул"
+
+# Hanno, son of Hannibal
+battle.sides.1.commanders.0: "Ганнон, сын Ганнибала"
+
+# Hannibal Gisco
+battle.sides.1.commanders.1: "Ганнибал Гисгон"

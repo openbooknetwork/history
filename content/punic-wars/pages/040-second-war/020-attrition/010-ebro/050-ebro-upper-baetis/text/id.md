@@ -1,0 +1,5 @@
+Selama beberapa tahun, kedua Scipio tidak menerima bala bantuan dari Italia dan terus berperang dengan serangan-serangan mendadak dan persekutuan dengan suku-suku Iberia. Pada tahun 212 SM, mereka merebut kembali [Saguntum](@saguntum-212) dan merebut [Castulo](@castulo-211), kota tambang dan kampung halaman Imilce, istri Hannibal. Mereka melewatkan musim dingin di sana. Hasdrubal Barca kini didukung oleh dua pasukan Kartago lagi di bawah saudaranya, Mago, dan Hasdrubal Gisco.
+
+@image scipios-tower-d489f7
+
+Pada tahun 211 SM, kedua bersaudara itu menyewa 20.000 tentara bayaran Keltiberia sebagai tambahan bagi 30.000 orang Romawi dan sekutu mereka, lalu membagi pasukan. Publius bergerak melawan Mago di dekat Castulo, tersergap oleh kavaleri Numidia pimpinan Masinissa serta pasukan Mago dan Hasdrubal Gisco, dan gugur bersama sebagian besar anak buahnya. Hasdrubal Barca menyuap orang-orang Keltiberia yang bersama Gnaeus agar pulang, dan beberapa hari kemudian Gnaeus diserbu dan gugur di sebuah bukit di dekat [Ilorca](@ilorca-211). Para penyintas, sekitar 8.000 sampai 9.000 orang, berkumpul di utara Sungai Ebro.

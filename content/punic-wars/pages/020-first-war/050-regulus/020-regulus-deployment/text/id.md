@@ -1,0 +1,5 @@
+Pada musim semi tahun 255 SM, [Xanthippus](@regulus-deployment-xanthippus) memimpin 12.000 prajurit infanteri, 4.000 prajurit kavaleri, dan 100 gajah keluar dari Kartago dan berkemah di dataran terbuka di dekat orang Romawi. Letak pastinya tidak diketahui, dan diperkirakan berada dekat Tunis. [Regulus](@regulus-deployment-regulus) maju dengan sekitar 15.000 prajurit infanteri dan 500 prajurit kavaleri dan berkemah kira-kira 2 km dari perkemahan Kartago.
+
+@image regulus-golitsyn-plan-caf8c9
+
+Keesokan paginya Xanthippus menempatkan infanteri warga Kartago di tengah, para veteran dari Sisilia dan tentara bayaran baru di kedua sisinya, dan kavaleri di kedua sayap. Seratus gajah berdiri dalam satu barisan di depan infanteri. Regulus menyusun legiun-legiunnya lebih dalam dan lebih rapat daripada biasanya. Polybius menganggap formasi ini efektif melawan gajah, meskipun formasi itu memperpendek barisan depan Romawi. Pasukan pelempar melindungi legiun-legiun itu, dan 500 prajurit berkuda dibagi di antara kedua sayap.

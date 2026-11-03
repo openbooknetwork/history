@@ -4,4 +4,4 @@ MÖ 238 sonlarında Hamilkar ordunun yarısıyla güneyden, yardımcısı Hannib
 
 Matho isyancı orduyu 160 km güneydeki liman kenti [Leptis Parva’ya](@leptis-parva-238) götürür. Hanno ve Hamilkar, askerlik çağındaki bütün Kartacalı yurttaşların da katıldığı 25.000’i aşkın askerle peşlerinden gelir ve isyancıları kentin yakınında ezer. Matho yakalanır, Kartaca sokaklarında sürüklenir ve işkenceyle öldürülür.
 
-Kentlerin çoğu artık uzlaşır. Kartacalıları katletmelerinin öcünün alınmasından korkan Utika ve [Hippo](@hippo-238) MÖ 238 sonuna ya da MÖ 237 başına kadar direnir. Teslim olan kentlere hoşgörüyle davranılır, ama başlarına Kartacalı valiler atanır.
+Kentlerin çoğu artık uzlaşır. Kartacalıları katletmelerinin öcünün alınmasından korkan [Utika](@utica-238) ve [Hippo](@hippo-238) MÖ 238 sonuna ya da MÖ 237 başına kadar direnir. Teslim olan kentlere hoşgörüyle davranılır, ama başlarına Kartacalı valiler atanır.

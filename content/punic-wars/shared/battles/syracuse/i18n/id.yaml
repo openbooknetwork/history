@@ -1,0 +1,30 @@
+# id strings for the battle "syracuse".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n id
+
+# Roman Republic
+battle.sides.0.name: "Republik Romawi"
+
+# 16,000–18,000
+battle.sides.0.strength: "16.000–18.000"
+
+# Heavy
+battle.sides.0.casualties: "Berat"
+
+# Syracuse and Carthage
+battle.sides.1.name: "Sirakusa dan Kartago"
+
+# 21,000–25,000
+battle.sides.1.strength: "21.000–25.000"
+
+# Over 5,000, and many civilians
+battle.sides.1.casualties: "Lebih dari 5.000, dan banyak warga sipil"
+
+# Siege of Syracuse
+battle.name: "Pengepungan Sirakusa"
+
+# Spring 213 – Autumn 212 BC
+battle.date: "Musim semi 213 – musim gugur 212 SM"
+
+# Roman victory, Syracuse sacked
+battle.result: "Kemenangan Romawi, Sirakusa dijarah"

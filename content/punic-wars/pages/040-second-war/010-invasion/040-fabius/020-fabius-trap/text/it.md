@@ -1,0 +1,5 @@
+L’Ager Falernus si trova a nord del Volturno, e i ponti del fiume sono in mano ai Romani, così delle otto strade che escono dalla pianura solo tre sono aperte all’esercito di Annibale. [Fabio](@fabius-trap-fabius) rinforza le guarnigioni di [Casilino](@casilinum-217) e di Cales, colloca [Minucio](@fabius-trap-minucius) a nord a sorvegliare la via Latina e la via Appia, e si accampa con l’esercito principale vicino al monte Massico. Un distaccamento di 4.000 uomini tiene a est il passo accanto al monte Callicula, da cui [Annibale](@fabius-trap-hannibal) era entrato.
+
+@image fabius-plain-59eed2
+
+Fabio aspetta che ai Cartaginesi vengano a mancare i rifornimenti. Quando Lucio Ostilio [Mancino](@fabius-trap-mancinus), mandato in esplorazione con 400 cavalieri, attacca i Numidi, la cavalleria di Cartalone lo uccide e ne annienta l’intero reparto. In autunno Annibale si muove verso est in direzione del passo di Callicula. Fabio si accampa con l’esercito su un colle sopra il passo, e lì lo raggiunge Minucio.

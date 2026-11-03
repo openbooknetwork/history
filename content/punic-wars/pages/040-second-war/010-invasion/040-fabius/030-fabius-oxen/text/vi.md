@@ -1,0 +1,5 @@
+[Hannibal](@fabius-oxen-hannibal) chọn [2.000 con bò](@fabius-oxen-cattle) từ những đàn gia súc chiếm được và cho buộc củi khô vào sừng chúng. Hasdrubal, viên quan quân nhu, dẫn chúng cùng 2.000 người theo quân và 2.000 bộ binh nhẹ đến một vùng yên ngựa giữa hai đỉnh núi, dưới doanh trại của [Fabius](@fabius-oxen-fabius), ở phía tây bắc con đèo. Vào canh ba, ngay sau nửa đêm, củi được đốt lên, và những con vật hoảng sợ chạy lên dốc như một đạo quân đang cầm đuốc hành quân.
+
+Fabius giữ quân trong doanh trại vì sợ có mưu kế trong bóng tối. 4.000 người La Mã ở con đèo rời vị trí để tấn công những ánh đuốc. Khi đó quân đội của Hannibal đi qua con đèo bỏ trống, lính châu Phi đi đầu, rồi đến kị binh, đoàn hành lí và các đàn gia súc, người Gaul và người Iberia đi đoạn hậu.
+
+Trên vùng yên ngựa, [toán quân La Mã](@fabius-oxen-detachment) đụng phải đàn gia súc đang chạy tán loạn và bộ binh nhẹ Carthage. Lúc rạng sáng, bộ binh Iberia leo lên dốc, giết khoảng 1.000 người La Mã và đưa những người lùa bò, quân nhẹ cùng một phần đàn gia súc trở về trước khi đạo quân chính của La Mã kịp can thiệp.

@@ -1,0 +1,7 @@
+Tras la muerte de su padre y de su tío en el 211 a. C., Publio Cornelio Escipión, más tarde llamado el Africano, desembarca en [Tarraco](@tarraco-210) a finales del 210 a. C. y toma el mando de todas las fuerzas romanas en Iberia. Tiene unos veinticinco años y no ha ocupado ningún cargo superior. Dispone de 28 000 infantes y 3000 jinetes. Tres ejércitos cartagineses, cada uno tan grande como el suyo, se encuentran muy alejados entre sí: el de [Asdrúbal Barca](@new-carthage-hasdrubal) en el centro de Iberia, el de [Magón](@new-carthage-mago) cerca de Gades y el de [Asdrúbal Giscón](@new-carthage-gisco) en Lusitania.
+
+@image scipio-africanus-bust-359b53
+
+Escipión decide golpear Cartago Nova, la capital cartaginesa en Iberia, que guarda el tesoro, la ceca, el arsenal y los rehenes de las tribus íberas. La ciudad se alza sobre un promontorio de colinas entre la bahía del puerto y una laguna poco profunda. El promontorio está unido a tierra firme solo por un istmo de unos 300 m de ancho al este. Sus murallas tienen 3.7 km. Su comandante, Magón, dispone de 1000 soldados regulares y unos 2000 ciudadanos armados.
+
+A comienzos del 209 a. C. Escipión deja 3300 hombres para defender el norte y marcha hacia el sur con 25 000 infantes y 2500 jinetes, mientras Cayo Lelio lo sigue por la costa con 35 galeras. Solo los dos comandantes conocen el destino. Tras una marcha rápida de unos 450 km, el ejército acampa en una colina en medio del istmo, frente a la puerta principal.

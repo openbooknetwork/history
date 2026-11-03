@@ -1,0 +1,5 @@
+Le même après-midi, à la surprise des défenseurs, les Romains attaquent de nouveau avec des troupes fraîches et de nouvelles échelles. Les galères de Laelius reviennent devant le mur sud, des légionnaires forment la tortue sous leurs boucliers qui se chevauchent et attaquent la porte est à la hache, et une autre troupe s’avance jusqu’au chenal à l’ouest de la ville. Les défenseurs, à court de projectiles après le matin, portent des hommes vers les murs menacés et laissent presque sans défense le mur nord qui domine la lagune.
+
+@image new-carthage-furnius-80a1b5
+
+Scipion envoie [500 hommes d’élite](@new-carthage-2-five-hundred) à travers la lagune avec des guides. Polybe écrit que l’eau baissait chaque soir avec la marée, Tite-Live qu’un vent du nord la repoussait. Les historiens modernes doutent des deux et évoquent des vannes sur le chenal, ou une lagune de toute façon assez peu profonde pour être passée à gué. Les 500 atteignent le mur nord sans être vus, l’escaladent, se fraient un chemin vers l’est le long du mur et ouvrent la porte est de l’intérieur.

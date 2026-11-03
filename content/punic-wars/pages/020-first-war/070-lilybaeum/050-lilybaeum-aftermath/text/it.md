@@ -1,0 +1,3 @@
+Poco dopo la battaglia Cartalone raggiunge Aderbale con 70 navi. Aderbale porta la squadra di Cartalone a 100 navi e manda Cartalone a [Lilibeo](@lilybaeum-249), dove brucia diverse navi romane. Più tardi nello stesso anno Cartalone incontra al largo di [Finziade](@phintias-249) un convoglio romano di rifornimenti, 800 navi da trasporto scortate da 120 navi da guerra, e lo incalza finché una tempesta non affonda tutte le navi romane tranne due.
+
+Pulcro è richiamato a Roma e processato per alto tradimento. È condannato per l’accusa minore di sacrilegio per la vicenda dei polli, sfugge di poco alla pena di morte e va in esilio. Senza rivali sul mare, Cartagine disarma la maggior parte della sua flotta, e la successiva grande flotta di Roma prende il mare solo nel 242 a.C.

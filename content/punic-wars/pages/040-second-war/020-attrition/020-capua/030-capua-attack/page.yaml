@@ -19,14 +19,14 @@ emblem:
     - {side: rome, type: camp, at: [14.23384, 41.09227], width: 450, depth: 450, facing: 300, id: camp-nero, name: Camp of Gaius Claudius Nero}
     - {side: carthage, type: camp, at: [14.28258, 41.10795], width: 700, depth: 700, facing: 40, id: hannibal-camp, name: Hannibal’s camp on the slopes of Tifata}
     - {side: carthage, type: infantry, at: [14.27852, 41.10283], width: 1500, depth: 300, facing: 222, id: hannibal-army, name: Hannibal’s army attacking the outer line}
-    - {side: carthage, type: elephants, at: [14.27677, 41.09457], width: 260, depth: 90, facing: 235, count: 3, id: elephants, name: Three elephants that break into a Roman camp}
+    - {side: carthage, type: elephants, at: [14.27677, 41.09457], width: 260, depth: 90, facing: 235, count: 3, id: elephants, name: Three elephants that reach the rampart of a Roman camp}
     - {side: rome, type: infantry, at: [14.27937, 41.08901], width: 900, depth: 160, facing: 72, id: fulvius-troops, name: Fulvius Flaccus’s troops holding the outer line}
     - {side: carthage, type: infantry, at: [14.24714, 41.07448], width: 700, depth: 200, facing: 215, id: sortie, name: Sortie from the city under Bostar and Hanno}
     - {side: rome, type: infantry, at: [14.24215, 41.06907], width: 800, depth: 180, facing: 35, id: appius-troops, name: Appius Claudius’s troops facing the sortie}
   arrows:
     - {side: carthage, path: [[14.27317, 41.10424], [14.26993, 41.10045]], width: 110, id: hannibal-attack, name: Hannibal attacks the outer line}
     - {side: carthage, path: [[14.28056, 41.09928], [14.27505, 41.09719]], width: 110, id: hannibal-attack, name: Hannibal attacks the outer line}
-    - {side: carthage, path: [[14.28493, 41.09612], [14.27926, 41.09451], [14.27519, 41.09497]], width: 90, id: cohort-attack, name: An Iberian cohort with the elephants breaks into a camp}
+    - {side: carthage, path: [[14.28493, 41.09612], [14.27926, 41.09451], [14.27519, 41.09497]], width: 90, id: cohort-attack, name: An Iberian cohort with the elephants breaks through to a camp}
     - {side: carthage, path: [[14.24801, 41.07302], [14.2456, 41.06958]], width: 100, id: sortie-attack, name: The sortie attacks the inner line}
     - {side: carthage, path: [[14.24484, 41.07473], [14.24135, 41.07188]], width: 100, id: sortie-attack, name: The sortie attacks the inner line}
   clashes:

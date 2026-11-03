@@ -1,4 +1,4 @@
-Ager Falernus’tan çıkan sekiz yoldan yalnızca üçü, köprüleri Romalıların elinde olan Volturnus’un kuzeyindeki bir orduya açıktır. [Fabius](@fabius-trap-fabius) [Casilinum](@casilinum-217) ve Cales garnizonlarını güçlendirir, Via Latina ile Via Appia’yı gözetlemesi için [Minucius’u](@fabius-trap-minucius) kuzeye yerleştirir ve ana orduyla Massicus Dağı yakınında kamp kurar. 4.000 kişilik bir birlik doğuda, [Hannibal’in](@fabius-trap-hannibal) ovaya girdiği Callicula Dağı yanındaki geçidi tutar.
+Ager Falernus, Volturnus’un kuzeyindedir ve nehrin köprüleri Romalıların elindedir, bu yüzden ovadan çıkan sekiz yoldan yalnızca üçü Hannibal’in ordusuna açıktır. [Fabius](@fabius-trap-fabius) [Casilinum](@casilinum-217) ve Cales garnizonlarını güçlendirir, Via Latina ile Via Appia’yı gözetlemesi için [Minucius’u](@fabius-trap-minucius) kuzeye yerleştirir ve ana orduyla Massicus Dağı yakınında kamp kurar. 4.000 kişilik bir birlik doğuda, [Hannibal’in](@fabius-trap-hannibal) ovaya girdiği Callicula Dağı yanındaki geçidi tutar.
 
 @image fabius-plain-59eed2
 

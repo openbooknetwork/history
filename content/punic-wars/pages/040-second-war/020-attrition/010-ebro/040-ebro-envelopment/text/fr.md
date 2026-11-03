@@ -1,0 +1,3 @@
+Les légions romaines ne poursuivent pas les Ibères en fuite. Elles pivotent vers l’extérieur et attaquent par derrière les Africains et les Poeni, que les légions alliées retiennent de front. Les Libyens résistent durement et subissent de lourdes pertes avant de céder.
+
+Hasdrubal s’échappe avec la plus grande partie de sa cavalerie et de ses éléphants et quelques fantassins, et les Romains prennent son camp avec ses vivres et son trésor. Ibera se rend probablement après la bataille. L’armée que Carthage avait levée sous Magon pour débarquer en Italie est envoyée en Ibérie à la place, et la route terrestre vers l’Italie reste fermée.

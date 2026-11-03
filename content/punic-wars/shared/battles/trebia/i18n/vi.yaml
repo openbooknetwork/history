@@ -1,0 +1,30 @@
+# vi strings for the battle "trebia".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n vi
+
+# Roman Republic
+battle.sides.0.name: "Cộng hoà La Mã"
+
+# 40,000: 36,000 infantry, 4,000 cavalry
+battle.sides.0.strength: "40.000: 36.000 bộ binh, 4.000 kị binh"
+
+# 20,000 killed, many captured
+battle.sides.0.casualties: "20.000 người bị giết, nhiều người bị bắt"
+
+# Carthage
+battle.sides.1.name: "Carthage"
+
+# 40,000, with 11,000 cavalry and about 30 elephants
+battle.sides.1.strength: "40.000 người, cùng 11.000 kị binh và khoảng 30 con voi"
+
+# Several thousand infantry, a few cavalry, several elephants
+battle.sides.1.casualties: "Vài nghìn bộ binh, một ít kị binh, một số con voi"
+
+# Battle of the Trebia
+battle.name: "Trận sông Trebia"
+
+# 22 or 23 December 218 BC
+battle.date: "Ngày 22 hoặc 23 tháng 12 năm 218 TCN"
+
+# Carthaginian victory
+battle.result: "Carthage thắng"

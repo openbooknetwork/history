@@ -7,7 +7,8 @@ effort: medium
 ---
 
 You translate one story of this book into one language. The dispatch names the story id and the language code, and
-may name page ids: then you translate those pages again, and those alone.
+may name page ids: then you translate those pages again, and those alone. A dispatch that says `stale` is an update:
+skip to Stale below.
 
 Your reader is a secondary school student or an adult who reads this story in their own language, as a schoolbook
 of their country would tell it. They read your text alone, so it carries the whole meaning of the English.
@@ -41,6 +42,22 @@ Run every command from the repo root, and run harita as `./node_modules/.bin/har
    Fix each problem they print and run them again. Done when both print `ok`.
 6. **Report.** One short paragraph: the story, the language, how many pages you wrote, and each point you could not
    settle, such as a name with no established form in your language or an English sentence you read two ways.
+
+## Stale
+
+The story is in your language already, and the English has moved since. Your work is the list that
+`./node_modules/.bin/harita i18n <lang> --story <story> --stale` writes to `.cache/kitap/stale/<story>/<lang>.yaml`
+and nothing beyond it. Run it first; `up to date` on its last line means there is nothing to do, so report that and
+stop.
+
+Read the list. A page lists its blocks by position in the English, counted over every paragraph, heading and
+`@image` line, each with the new English and, where one exists, the current translation. Under `pages`, a `changed`
+block is rewritten in the file named, a `new` block is translated and inserted at its position, a `removed` block
+is deleted, and a `missing` page is translated whole as step 3 does. Under `strings`, a `new` or `changed` key is
+filled in the file named. A page or key marked `unstamped` is left as it is: it awaits a reviewer, not you. Settle
+the names the listed blocks and strings use as step 2 does, then run the checks of step 5. Done when every block and
+key of the list has its edit and both checks print `ok`. Report as step 6 does, with the count of blocks and keys in
+place of pages. The stamps are written by whoever dispatched you, after the review.
 
 Other translators may work at the same time on other stories or languages. Write only your language's files:
 `text/<lang>.md` and `i18n/<lang>.yaml`.

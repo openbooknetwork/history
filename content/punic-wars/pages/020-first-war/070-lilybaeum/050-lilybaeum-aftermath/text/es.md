@@ -1,0 +1,3 @@
+Poco después de la batalla, Cartalón se une a Adérbal con 70 naves. Adérbal eleva la escuadra de Cartalón a 100 naves y envía a Cartalón a [Lilibeo](@lilybaeum-249), donde incendia varias naves romanas. Más tarde, ese mismo año, Cartalón encuentra frente a [Fintias](@phintias-249) un convoy romano de abastecimiento, 800 transportes escoltados por 120 naves de guerra, y lo hostiga hasta que una tormenta hunde todas las naves romanas menos dos.
+
+Pulcro es llamado a Roma y juzgado por traición. Es condenado por la acusación menor de sacrilegio por el episodio de los pollos, se libra por poco de la pena de muerte y marcha al exilio. Sin rival en el mar, Cartago desarma la mayor parte de su flota, y la siguiente gran flota de Roma no zarpa hasta el 242 a. C.

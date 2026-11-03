@@ -1,0 +1,5 @@
+[Aníbal](@fabius-oxen-hannibal) escolhe [2.000 bois](@fabius-oxen-cattle) dos rebanhos capturados e manda amarrar lenha seca aos chifres deles. Asdrúbal, o intendente, conduz os animais com 2.000 acompanhantes do acampamento e 2.000 soldados de infantaria ligeira rumo a uma sela abaixo do acampamento de [Fábio](@fabius-oxen-fabius), a noroeste do passo. Na terceira vigília da noite, pouco depois da meia-noite, a lenha é acesa, e os animais assustados sobem a encosta correndo como um exército que marcha com tochas.
+
+Fábio mantém o exército no acampamento, temendo uma armadilha no escuro. Os 4.000 romanos do passo deixam o posto para atacar as luzes. O exército de Aníbal então marcha pelo passo vazio, primeiro os africanos, depois a cavalaria, a bagagem e os rebanhos, com gauleses e iberos na retaguarda.
+
+Na sela, o [destacamento romano](@fabius-oxen-detachment) dá de encontro com o gado em debandada e com a infantaria ligeira cartaginesa. Ao amanhecer, a infantaria ibera sobe a encosta, mata cerca de 1.000 romanos e traz de volta os condutores, as tropas ligeiras e parte do gado antes que o exército romano principal possa intervir.

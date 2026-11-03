@@ -1,0 +1,44 @@
+# zh-TW strings for the battle "agrigentum".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n zh-TW
+
+# Roman Republic
+battle.sides.0.name: "羅馬共和國"
+
+# 40,000 to 100,000 soldiers and labourers
+battle.sides.0.strength: "4萬至10萬名士兵和勞工"
+
+# 15,000 to 30,540 dead
+battle.sides.0.casualties: "15,000至30,540人死亡"
+
+# Carthage
+battle.sides.1.name: "迦太基"
+
+# 31,500 to 56,000 men, 30 to 60 elephants, and the garrison
+battle.sides.1.strength: "31,500至56,000人、30至60頭戰象，以及守軍"
+
+# 3,200 killed, 4,000 captured, 25,000 inhabitants enslaved
+battle.sides.1.casualties: "3,200人陣亡，4,000人被俘，25,000名居民被賣為奴"
+
+# Battle of Agrigentum
+battle.name: "阿格里根圖姆之戰"
+
+# 262 – 261 BC
+battle.date: "西元前262至261年"
+
+# Roman victory, Agrigentum taken
+battle.result: "羅馬勝利，攻下阿格里根圖姆"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Lucius Postumius Megellus
+battle.sides.0.commanders.0: "盧基烏斯‧波斯圖米烏斯‧梅格盧斯"
+
+# Quintus Mamilius Vitulus
+battle.sides.0.commanders.1: "昆圖斯‧馬米利烏斯‧維圖盧斯"
+
+# Hanno, son of Hannibal
+battle.sides.1.commanders.0: "漢尼拔之子漢諾"
+
+# Hannibal Gisco
+battle.sides.1.commanders.1: "漢尼拔‧吉斯戈"

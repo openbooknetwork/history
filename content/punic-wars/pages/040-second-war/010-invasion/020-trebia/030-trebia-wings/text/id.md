@@ -1,0 +1,5 @@
+Hannibal menempatkan 8.000 [orang Galia](@trebia-wings-gauls) di tengah, dengan 6.000 orang Afrika dan Iberia di masing-masing sisinya, 12.000 orang seluruhnya, separuh dari 30 gajahnya di luar masing-masing kelompok itu, dan 5.000 prajurit kavaleri di setiap sayap. Sempronius memiliki sekitar 30.000 prajurit infanteri berat, yaitu legiun Romawi di tengah dan legiun sekutu di kedua sisi, serta 2.000 prajurit kavaleri di setiap sayap. Para pengumban Balears dan pelempar lembing memiliki jangkauan lebih jauh daripada para velites yang lelah dan lapar, dan memukul mundur mereka melalui celah-celah di antara infanteri mereka sendiri.
+
+@image trebia-slinger-65b103
+
+Di setiap sayap, 5.000 prajurit berkuda Kartago menyerbu 2.000 prajurit berkuda Romawi, yang kudanya sudah kelelahan karena mengejar orang Numidia. Kedua sayap Romawi langsung patah dan melarikan diri kembali menyeberangi Sungai Trebia, dikejar oleh sebagian besar [kavaleri Kartago](@trebia-wings-cavalry). Infanteri ringan Kartago bergerak memutar ke sisi infanteri Romawi yang terbuka, dan kedua barisan utama pun bertemu.

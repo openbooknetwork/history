@@ -1,0 +1,7 @@
+Po śmierci ojca i stryja w 211 p.n.e. Publiusz Korneliusz Scypion, później zwany Afrykańskim, ląduje w [Tarrakonie](@tarraco-210) pod koniec 210 p.n.e. i obejmuje dowództwo nad wszystkimi siłami rzymskimi w Iberii. Ma około dwudziestu pięciu lat i nie piastował dotąd żadnego wysokiego urzędu. Dysponuje 28 000 piechoty i 3000 jazdy. Trzy armie kartagińskie, każda tak liczna jak jego własna, stoją daleko od siebie: armia [Hazdrubala Barkasa](@new-carthage-hasdrubal) w środkowej Iberii, [Magona](@new-carthage-mago) w pobliżu Gades i [Hazdrubala Giskona](@new-carthage-gisco) w Luzytanii.
+
+@image scipio-africanus-bust-359b53
+
+Scypion postanawia uderzyć na Nową Kartaginę, kartagińską stolicę w Iberii, w której znajdują się skarbiec, mennica, arsenał i zakładnicy plemion iberyjskich. Miasto leży na pagórkowatym cyplu między zatoką portową a płytką laguną. Cypel łączy się z lądem tylko przesmykiem szerokim na około 300 m od wschodu. Jego mury mają 3,7 km długości. Dowódca miasta, Magon, ma 1000 regularnych żołnierzy i około 2000 uzbrojonych mieszczan.
+
+Na początku 209 p.n.e. Scypion zostawia 3300 ludzi do obrony północy i maszeruje na południe z 25 000 piechoty i 2500 jazdy, a Gajusz Leliusz płynie za nim wzdłuż wybrzeża z 35 galerami. Cel wyprawy znają tylko obaj dowódcy. Po szybkim marszu długości około 450 km armia rozbija obóz na wzgórzu pośrodku przesmyku, naprzeciw głównej bramy.

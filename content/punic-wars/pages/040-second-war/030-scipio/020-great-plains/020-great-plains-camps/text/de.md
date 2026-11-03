@@ -1,0 +1,5 @@
+Den Winter über verhandelt [Scipio](@great-plains-camps-scipio) mit Syphax, der anbietet, einen Frieden zu vermitteln. Mit jeder Gesandtschaft schickt er als Sklaven verkleidete Offiziere, die berichten, dass das [karthagische Lager](@great-plains-camps-carthaginian) Holzhütten hinter Erdwällen hat, während das [numidische Lager](@great-plains-camps-numidian) aus Hütten aus Schilf und Stroh ohne klare Umgrenzung besteht. Im Frühjahr bereitet er offen einen Sturm auf [Utica](@utica-204) vor, rückt dann eines späten Abends aus und teilt sein Heer.
+
+@image syphax-receives-scipio-360bc9
+
+[Laelius und Masinissa](@great-plains-camps-laelius) greifen das numidische Lager an und stecken die Schilfhütten in Brand. Viele Karthager halten das Feuer für ein Unglück und laufen unbewaffnet aus ihrem eigenen Lager, um zu helfen, und Scipio erstürmt ihr Lager und steckt dessen Hütten in Brand. In der Dunkelheit und der Panik erleiden beide Heere schwere Verluste. Hasdrubal entkommt mit 2 500 Mann 40 km weit nach Karthago, Syphax mit wenigen Reitern.

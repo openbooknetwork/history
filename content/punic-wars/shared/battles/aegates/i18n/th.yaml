@@ -1,0 +1,41 @@
+# th strings for the battle "aegates".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n th
+
+# Roman Republic
+battle.sides.0.name: "สาธารณรัฐโรมัน"
+
+# About 200 quinqueremes
+battle.sides.0.strength: "เรือควินเควอริมราว 200 ลำ"
+
+# 30 ships sunk, 50 damaged
+battle.sides.0.casualties: "เรือจม 30 ลำ เสียหาย 50 ลำ"
+
+# Carthage
+battle.sides.1.name: "คาร์เธจ"
+
+# About 250 quinqueremes
+battle.sides.1.strength: "เรือควินเควอริมราว 250 ลำ"
+
+# 50 ships sunk, 70 captured, 10,000 men captured
+battle.sides.1.casualties: "เรือจม 50 ลำ ถูกยึด 70 ลำ คน 10,000 คนถูกจับ"
+
+# Battle of the Aegates
+battle.name: "ยุทธนาวีที่หมู่เกาะไอกาเตส"
+
+# 10 March 241 BC
+battle.date: "10 มีนาคม ก่อน ค.ศ. 241"
+
+# Roman victory, Treaty of Lutatius
+battle.result: "โรมชนะ สนธิสัญญาลูตาติอุส"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Gaius Lutatius Catulus
+battle.sides.0.commanders.0: "ไกอุส ลูตาติอุส กาตุลุส"
+
+# Quintus Valerius Falto
+battle.sides.0.commanders.1: "กวินตุส วาเลริอุส ฟัลโต"
+
+# Hanno
+battle.sides.1.commanders.0: "ฮันโน"

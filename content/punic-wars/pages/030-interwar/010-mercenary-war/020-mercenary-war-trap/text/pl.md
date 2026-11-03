@@ -1,0 +1,5 @@
+Na początku 238 p.n.e. buntownicy wysyłają większość swojej armii, około 50 000 ludzi pod wodzą [Spendiosa](@mercenary-war-trap-spendius), Autarytosa i Zarzasa, by położyć kres wypadom [Hamilkara](@mercenary-war-trap-hamilcar). Przez wiele miesięcy armie krążą po wyżynach marszami i kontrmarszami, a buntownicy trzymają się trudnego terenu, gdzie kartagińskie słonie i jazda na niewiele się zdają. Hamilkar każe tratować jeńców słoniom, co tylko zaostrza opór buntowników.
+
+@image mercenary-war-hamilcar-439076
+
+W końcu Hamilkar z trzema dywizjami, którymi dowodzą on sam, jego zastępca [Hannibal](@mercenary-war-trap-hannibal) i [Narawas](@mercenary-war-trap-naravas), zamyka buntowników w miejscu zwanym Piłą od jego poszarpanego zarysu. Nie wiadomo, czy była to przełęcz, czy pasmo wzgórz, ani gdzie to miejsce leżało. Zanim buntownicy pojmują swoje położenie, Kartagińczycy umacniają pozycje na terenie, który czyni każdy atak beznadziejnym, a ponad 40 000 buntowników zostaje z wodą, lecz bez żywności.

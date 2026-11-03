@@ -1,0 +1,3 @@
+Pasukan pelempar saling melempar senjata lalu mundur, dan kedua [legiun Romawi](@ebro-centre-legions) maju menghadapi [infanteri Iberia](@ebro-centre-iberians). Setelah saling melempar lembing, orang Iberia patah dan melarikan diri hampir tanpa bertempur. Livius menulis bahwa mereka tahu kemenangan berarti harus mengikuti Hasdrubal ke Italia, dan mereka tidak mau meninggalkan Iberia.
+
+Legiun-legiun mendesak masuk ke celah itu. Di sayap-sayap, kavaleri saling serang tanpa hasil. [Orang Afrika](@ebro-centre-africans) dan [kaum Poeni](@ebro-centre-poeni) sebagian berbalik untuk menyerang sisi legiun Romawi, tetapi masing-masing juga menghadapi satu legiun sekutu di depannya.

@@ -1,0 +1,5 @@
+Durante varios años los Escipiones no reciben refuerzos de Italia y siguen luchando con incursiones y alianzas con tribus íberas. En el 212 a. C. recuperan [Sagunto](@saguntum-212) y toman [Cástulo](@castulo-211), ciudad minera y patria de Imilce, la esposa de Aníbal, donde pasan el invierno. A Asdrúbal Barca se le unen ahora otros dos ejércitos cartagineses, al mando de su hermano Magón y de Asdrúbal Giscón.
+
+@image scipios-tower-d489f7
+
+En el 211 a. C. los hermanos contratan a 20 000 mercenarios celtíberos para sumarlos a sus 30 000 romanos y aliados, y dividen sus fuerzas. Publio marcha contra Magón cerca de Cástulo, es sorprendido por la caballería númida de Masinisa y los ejércitos de Magón y de Asdrúbal Giscón, y muere con la mayoría de sus hombres. Asdrúbal Barca soborna a los celtíberos que acompañan a Cneo para que se vuelvan a casa, y pocos días después Cneo es arrollado y muerto en una colina cerca de [Ilorci](@ilorca-211). Los supervivientes, entre 8000 y 9000 hombres, se reúnen al norte del Ebro.

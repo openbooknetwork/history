@@ -1,0 +1,3 @@
+Les tirailleurs échangent des projectiles et se replient, et les deux [légions romaines](@ebro-centre-legions) avancent sur l’[infanterie ibère](@ebro-centre-iberians). Après un échange de javelots, les Ibères se débandent et s’enfuient presque sans combattre. Tite-Live écrit qu’ils savaient qu’une victoire les obligerait à suivre Hasdrubal en Italie et qu’ils ne voulaient pas quitter l’Ibérie.
+
+Les légions s’engouffrent dans la brèche. Sur les ailes, la cavalerie escarmouche sans résultat. Les [Africains](@ebro-centre-africans) et les [Poeni](@ebro-centre-poeni) se tournent en partie pour frapper les flancs des légions romaines, mais chacun d’eux a aussi une légion alliée devant lui.

@@ -1,0 +1,3 @@
+Ít lâu sau trận đánh, Carthalo đến hợp quân với Adherbal cùng 70 thuyền. Adherbal nâng hải đội của Carthalo lên 100 chiếc và cử Carthalo đến [Lilybaeum](@lilybaeum-249), nơi ông đốt một số thuyền La Mã. Cuối năm đó, Carthalo gặp một đoàn tiếp tế La Mã ngoài khơi [Phintias](@phintias-249), gồm 800 thuyền vận tải được 120 chiến thuyền hộ tống, và quấy rối nó cho đến khi một cơn bão đánh chìm tất cả các thuyền La Mã trừ hai chiếc.
+
+Pulcher bị gọi về La Mã và bị xét xử vì tội phản quốc. Ông bị kết án tội nhẹ hơn là bất kính với thần linh vì chuyện những con gà, suýt bị tuyên án tử hình và phải đi lưu vong. Không còn đối thủ trên biển, Carthage cho phần lớn hạm đội nghỉ, và hạm đội lớn tiếp theo của La Mã mãi đến năm 242 TCN mới ra khơi.

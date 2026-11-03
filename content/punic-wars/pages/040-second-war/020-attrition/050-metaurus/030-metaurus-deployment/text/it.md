@@ -1,0 +1,5 @@
+Asdrubale forma la sua linea con la destra appoggiata al fiume e la sinistra su colline accidentate. La sua scarsa cavalleria sta a destra. Accanto a essa colloca le sue truppe migliori, i veterani iberici, in una formazione profonda, e i [Liguri](@metaurus-deploy-ligurians), anch’essi in ranghi profondi, al centro. I [Galli](@metaurus-deploy-gauls) tengono un colle a sinistra dietro un profondo burrone. I suoi dieci elefanti stanno davanti alla linea, e i loro conducenti sono armati di mazzuolo e scalpello per uccidere qualsiasi animale si rivolti contro la propria parte.
+
+@image metaurus-plan-220b01
+
+Le stime moderne attribuiscono a ciascun esercito circa 30.000 uomini prima dell’arrivo di [Nerone](@metaurus-deploy-nero), che porta i Romani a circa 37.000. [Livio](@metaurus-deploy-livius) comanda la sinistra romana, di fronte agli [Iberi](@metaurus-deploy-iberians), con la cavalleria sul fianco. [Porcio](@metaurus-deploy-porcius) comanda il centro, e Nerone la destra, di fronte ai Galli al di là del burrone.

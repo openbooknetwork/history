@@ -1,0 +1,50 @@
+# pt strings for the battle "cannae".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n pt
+
+# Roman Republic
+battle.sides.0.name: "República Romana"
+
+# 86,400, with 10,000 left to guard the camps
+battle.sides.0.strength: "86.400, dos quais 10.000 deixados para guardar os acampamentos"
+
+# Polybius: 70,000 killed, 10,000 captured. Livy: 48,200 killed, 19,300 captured
+battle.sides.0.casualties: "Políbio: 70.000 mortos, 10.000 capturados. Tito Lívio: 48.200 mortos, 19.300 capturados"
+
+# Carthage
+battle.sides.1.name: "Cartago"
+
+# 50,000, with 10,000 cavalry
+battle.sides.1.strength: "50.000, dos quais 10.000 de cavalaria"
+
+# Polybius: 5,700 killed. Livy: 8,000 killed
+battle.sides.1.casualties: "Políbio: 5.700 mortos. Tito Lívio: 8.000 mortos"
+
+# Battle of Cannae
+battle.name: "Batalha de Canas"
+
+# 2 August 216 BC
+battle.date: "2 de agosto de 216 a.C."
+
+# Carthaginian victory
+battle.result: "Vitória cartaginesa"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Gaius Terentius Varro
+battle.sides.0.commanders.0: "Caio Terêncio Varrão"
+
+# Lucius Aemilius Paullus
+battle.sides.0.commanders.1: "Lúcio Emílio Paulo"
+
+# Gnaeus Servilius Geminus
+battle.sides.0.commanders.2: "Cneu Servílio Gêmino"
+
+# Hannibal
+battle.sides.1.commanders.0: "Aníbal"
+
+# Mago Barca
+battle.sides.1.commanders.1: "Magão Barca"
+
+# Hasdrubal
+battle.sides.1.commanders.2: "Asdrúbal"

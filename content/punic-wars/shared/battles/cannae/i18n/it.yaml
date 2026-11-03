@@ -1,0 +1,53 @@
+# it strings for the battle "cannae".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n it
+
+# Roman Republic
+battle.sides.0.name: "Repubblica romana"
+
+# 86,400, with 10,000 left to guard the camps
+battle.sides.0.strength: "86.400, di cui 10.000 lasciati a guardia degli accampamenti"
+
+# Polybius: 70,000 killed, 10,000 captured. Livy: 48,200 killed, 19,300 captured
+battle.sides.0.casualties: "Polibio: 70.000 morti, 10.000 prigionieri. Livio: 48.200 morti, 19.300 prigionieri"
+
+# Carthage
+battle.sides.1.name: "Cartagine"
+
+# 50,000, with 10,000 cavalry
+battle.sides.1.strength: "50.000, di cui 10.000 cavalieri"
+
+# Polybius: 5,700 killed. Livy: 8,000 killed
+battle.sides.1.casualties: "Polibio: 5.700 morti. Livio: 8.000 morti"
+
+# Battle of Cannae
+battle.name: "Battaglia di Canne"
+
+# 2 August 216 BC
+battle.date: "2 agosto 216 a.C."
+
+# Carthaginian victory
+battle.result: "Vittoria cartaginese"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Gaius Terentius Varro
+battle.sides.0.commanders.0: "Gaio Terenzio Varrone"
+
+# Lucius Aemilius Paullus
+battle.sides.0.commanders.1: "Lucio Emilio Paolo"
+
+# Gnaeus Servilius Geminus
+battle.sides.0.commanders.2: "Gneo Servilio Gemino"
+
+# Hannibal
+battle.sides.1.commanders.0: "Annibale"
+
+# Mago Barca
+battle.sides.1.commanders.1: "Magone Barca"
+
+# Hasdrubal
+battle.sides.1.commanders.2: "Asdrubale"
+
+# Maharbal
+battle.sides.1.commanders.3: "Maarbale"

@@ -4,4 +4,4 @@ Sağda [Nero](@metaurus-nero-nero) dere yatağının ardındaki Galyalılara ula
 
 @image metaurus-uccello-eb52c7
 
-[Galyalılar](@metaurus-nero-gauls) artık önden Porcius’un, yandan Livius’un ve arkadan Nero’nun saldırısına uğrar. [Fillerden](@metaurus-nero-elephants) altısı kendi sürücüleri tarafından öldürülür, dördü ele geçirilir. Hat nerede sarsıldıysa oraya koşup askerlerini toparlayan [Hasdrubal](@metaurus-nero-hasdrubal) atını bir Roma kohortunun üzerine sürer ve öldürülür.
+[Galyalılar](@metaurus-nero-gauls) artık önden Porcius’un, yandan Livius’un ve arkadan Nero’nun saldırısına uğrar. Fillerden altısı kendi sürücüleri tarafından öldürülür, dördü ele geçirilir. Hat nerede sarsıldıysa oraya koşup askerlerini toparlayan [Hasdrubal](@metaurus-nero-hasdrubal) atını bir Roma kohortunun üzerine sürer ve öldürülür.

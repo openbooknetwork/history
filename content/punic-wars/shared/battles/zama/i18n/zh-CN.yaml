@@ -1,0 +1,38 @@
+# zh-CN strings for the battle "zama".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n zh-CN
+
+# Roman Republic
+battle.sides.0.name: "罗马共和国"
+
+# 29,000–30,000, with 6,100 cavalry
+battle.sides.0.strength: "2.9万～3万人，其中骑兵6100人"
+
+# At least 1,500 killed, many wounded
+battle.sides.0.casualties: "至少1500人被杀，许多人受伤"
+
+# Carthage
+battle.sides.1.name: "迦太基"
+
+# 40,000 or 50,000, with 80 war elephants
+battle.sides.1.strength: "4万或5万人，有80头战象"
+
+# 20,000 killed, 20,000 captured
+battle.sides.1.casualties: "2万人被杀，2万人被俘"
+
+# Battle of Zama
+battle.name: "扎马战役"
+
+# October 202 BC
+battle.date: "公元前202年10月"
+
+# Roman victory, Carthage sues for peace
+battle.result: "罗马胜利，迦太基求和"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Publius Cornelius Scipio
+battle.sides.0.commanders.0: "普布利乌斯·科尔内利乌斯·西庇阿"
+
+# Hannibal
+battle.sides.1.commanders.0: "汉尼拔"

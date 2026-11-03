@@ -1,0 +1,50 @@
+# ja strings for the battle "syracuse".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n ja
+
+# Roman Republic
+battle.sides.0.name: "共和政ローマ"
+
+# 16,000–18,000
+battle.sides.0.strength: "1万6000～1万8000人"
+
+# Heavy
+battle.sides.0.casualties: "甚大"
+
+# Syracuse and Carthage
+battle.sides.1.name: "シラクサとカルタゴ"
+
+# 21,000–25,000
+battle.sides.1.strength: "2万1000～2万5000人"
+
+# Over 5,000, and many civilians
+battle.sides.1.casualties: "5,000人以上、ほかに多数の住民"
+
+# Siege of Syracuse
+battle.name: "シラクサ包囲戦"
+
+# Spring 213 – Autumn 212 BC
+battle.date: "紀元前213年春～紀元前212年秋"
+
+# Roman victory, Syracuse sacked
+battle.result: "ローマの勝利、シラクサの略奪"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Marcus Claudius Marcellus
+battle.sides.0.commanders.0: "マルクス・クラウディウス・マルケルス"
+
+# Appius Claudius Pulcher
+battle.sides.0.commanders.1: "アッピウス・クラウディウス・プルケル"
+
+# Epicydes
+battle.sides.1.commanders.0: "エピキュデス"
+
+# Hippocrates
+battle.sides.1.commanders.1: "ヒッポクラテス"
+
+# Himilco
+battle.sides.1.commanders.2: "ヒミルコ"
+
+# Bomilcar
+battle.sides.1.commanders.3: "ボミルカル"

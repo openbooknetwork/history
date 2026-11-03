@@ -1,0 +1,38 @@
+# bn strings for the battle "ager-falernus".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n bn
+
+# Carthage
+battle.sides.0.name: "কার্থেজ"
+
+# 2,000 light infantry, Iberian infantry, 2,000 oxen
+battle.sides.0.strength: "২,০০০ হালকা পদাতিক, আইবেরীয় পদাতিক, ২,০০০ ষাঁড়"
+
+# Light
+battle.sides.0.casualties: "সামান্য"
+
+# Roman Republic
+battle.sides.1.name: "রোমান প্রজাতন্ত্র"
+
+# 4,000 infantry
+battle.sides.1.strength: "৪,০০০ পদাতিক"
+
+# 1,000 killed
+battle.sides.1.casualties: "১,০০০ নিহত"
+
+# Battle of Ager Falernus
+battle.name: "আগার ফালেরনাসের যুদ্ধ"
+
+# September 217 BC
+battle.date: "সেপ্টেম্বর খ্রিস্টপূর্ব ২১৭"
+
+# Carthaginian victory, Hannibal’s army leaves the valley
+battle.result: "কার্থেজীয়দের জয়, হ্যানিবলের সেনাবাহিনী উপত্যকা ছেড়ে যায়"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Hannibal
+battle.sides.0.commanders.0: "হ্যানিবল"
+
+# Quintus Fabius Maximus
+battle.sides.1.commanders.0: "কুইন্টাস ফেবিয়াস ম্যাক্সিমাস"

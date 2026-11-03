@@ -1,0 +1,38 @@
+# zh-CN strings for the battle "trebia".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n zh-CN
+
+# Roman Republic
+battle.sides.0.name: "罗马共和国"
+
+# 40,000: 36,000 infantry, 4,000 cavalry
+battle.sides.0.strength: "4万人：3.6万名步兵，4000名骑兵"
+
+# 20,000 killed, many captured
+battle.sides.0.casualties: "2万人被杀，许多人被俘"
+
+# Carthage
+battle.sides.1.name: "迦太基"
+
+# 40,000, with 11,000 cavalry and about 30 elephants
+battle.sides.1.strength: "4万人，其中骑兵1.1万人，另有约30头战象"
+
+# Several thousand infantry, a few cavalry, several elephants
+battle.sides.1.casualties: "数千名步兵，少数骑兵，数头战象"
+
+# Battle of the Trebia
+battle.name: "特雷比亚河战役"
+
+# 22 or 23 December 218 BC
+battle.date: "公元前218年12月22日或23日"
+
+# Carthaginian victory
+battle.result: "迦太基胜利"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Tiberius Sempronius Longus
+battle.sides.0.commanders.0: "提比略·森普罗尼乌斯·隆古斯"
+
+# Hannibal
+battle.sides.1.commanders.0: "汉尼拔"

@@ -1,0 +1,29 @@
+# id strings for the battle "capua-211".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n id
+
+# Roman Republic
+battle.sides.0.name: "Republik Romawi"
+
+# Unknown
+battle.sides.0.casualties: "Tidak diketahui"
+
+# Carthage and Capua
+battle.sides.1.name: "Kartago dan Capua"
+
+# Unknown
+battle.sides.1.casualties: "Tidak diketahui"
+
+# Siege of Capua
+battle.name: "Pengepungan Capua"
+
+# 211 BC
+battle.date: "211 SM"
+
+# Roman victory, fall of Capua
+battle.result: "Kemenangan Romawi, Capua jatuh"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Hanno, son of Bomilcar
+battle.sides.1.commanders.2: "Hanno putra Bomilcar"

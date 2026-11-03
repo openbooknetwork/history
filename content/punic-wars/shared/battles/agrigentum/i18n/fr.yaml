@@ -1,0 +1,35 @@
+# fr strings for the battle "agrigentum".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n fr
+
+# Roman Republic
+battle.sides.0.name: "République romaine"
+
+# 40,000 to 100,000 soldiers and labourers
+battle.sides.0.strength: "40 000 à 100 000 soldats et ouvriers"
+
+# 15,000 to 30,540 dead
+battle.sides.0.casualties: "15 000 à 30 540 morts"
+
+# Carthage
+battle.sides.1.name: "Carthage"
+
+# 31,500 to 56,000 men, 30 to 60 elephants, and the garrison
+battle.sides.1.strength: "31 500 à 56 000 hommes, 30 à 60 éléphants, et la garnison"
+
+# 3,200 killed, 4,000 captured, 25,000 inhabitants enslaved
+battle.sides.1.casualties: "3 200 tués, 4 000 prisonniers, 25 000 habitants réduits en esclavage"
+
+# Battle of Agrigentum
+battle.name: "Bataille d’Agrigente"
+
+# 262 – 261 BC
+battle.date: "262–261 av. J.-C."
+
+# Roman victory, Agrigentum taken
+battle.result: "Victoire romaine, prise d’Agrigente"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Hanno, son of Hannibal
+battle.sides.1.commanders.0: "Hannon, fils d’Hannibal"

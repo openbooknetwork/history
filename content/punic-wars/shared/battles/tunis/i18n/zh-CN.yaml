@@ -1,0 +1,38 @@
+# zh-CN strings for the battle "tunis".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n zh-CN
+
+# Carthage
+battle.sides.0.name: "迦太基"
+
+# 12,000 infantry, 4,000 cavalry, 100 elephants
+battle.sides.0.strength: "1.2万名步兵，4000名骑兵，100头战象"
+
+# At least 800 killed
+battle.sides.0.casualties: "至少800人被杀"
+
+# Roman Republic
+battle.sides.1.name: "罗马共和国"
+
+# 15,000 infantry, 500 cavalry
+battle.sides.1.strength: "1.5万名步兵，500名骑兵"
+
+# 13,000 killed, 500 captured
+battle.sides.1.casualties: "1.3万人被杀，500人被俘"
+
+# Battle of Tunis
+battle.name: "突尼斯战役"
+
+# Spring 255 BC
+battle.date: "公元前255年春"
+
+# Carthaginian victory, Regulus captured
+battle.result: "迦太基胜利，雷古卢斯被俘"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Xanthippus
+battle.sides.0.commanders.0: "克桑西普斯"
+
+# Marcus Atilius Regulus
+battle.sides.1.commanders.0: "马库斯·阿蒂利乌斯·雷古卢斯"

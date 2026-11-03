@@ -1,0 +1,7 @@
+Après la mort de son père et de son oncle en 211 av. J.-C., Publius Cornelius Scipion, plus tard appelé l’Africain, débarque à [Tarraco](@tarraco-210) à la fin de 210 av. J.-C. et prend le commandement de toutes les forces romaines d’Ibérie. Il a environ vingt-cinq ans et n’a exercé aucune haute magistrature. Il dispose de 28 000 fantassins et 3 000 cavaliers. Trois armées carthaginoises, chacune aussi nombreuse que la sienne, sont éloignées les unes des autres : celle d’[Hasdrubal Barca](@new-carthage-hasdrubal) dans le centre de l’Ibérie, celle de [Magon](@new-carthage-mago) près de Gadès et celle d’[Hasdrubal Gisco](@new-carthage-gisco) en Lusitanie.
+
+@image scipio-africanus-bust-359b53
+
+Scipion décide de frapper Carthagène, la capitale carthaginoise en Ibérie, qui abrite le trésor, l’atelier monétaire, l’arsenal et les otages des tribus ibères. La ville se dresse sur un promontoire vallonné, entre la baie du port et une lagune peu profonde. Le promontoire ne tient à la terre ferme que par un isthme large d’environ 300 m, à l’est. Ses murailles s’étendent sur 3,7 km. Son commandant, Magon, dispose de 1 000 soldats réguliers et d’environ 2 000 habitants armés.
+
+Au début de 209 av. J.-C., Scipion laisse 3 300 hommes pour tenir le nord et marche vers le sud avec 25 000 fantassins et 2 500 cavaliers, tandis que Caius Laelius suit le long de la côte avec 35 galères. Seuls les deux commandants connaissent la destination. Après une marche rapide d’environ 450 km, l’armée campe sur une colline au milieu de l’isthme, face à la porte principale.

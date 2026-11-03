@@ -1,0 +1,3 @@
+Pada tahun 211 SM, [Hannibal](@capua-attack-hannibal) bergerak kembali dari selatan dan berkemah dekat garis-garis Romawi. Ia menyerang garis luar, sementara garnisun Kartago di Capua di bawah [Bostar dan Hanno](@capua-attack-sortie), bersama orang Capua, melakukan serangan keluar terhadap garis dalam.
+
+Sebuah [kohort Iberia](@capua-attack-cohort) dengan tiga gajah menembus garis luar dan mencapai benteng tanah sebuah perkemahan Romawi, tetapi dihancurkan sebelum dapat menerobos masuk. Livius menulis bahwa [Fulvius Flaccus](@capua-attack-fulvius) menahan Hannibal sementara [Appius Claudius](@capua-attack-appius) memukul mundur orang Capua sampai ke gerbang mereka dan terluka di sana. Serangan terhadap garis-garis itu gagal.

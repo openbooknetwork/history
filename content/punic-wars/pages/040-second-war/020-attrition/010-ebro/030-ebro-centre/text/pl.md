@@ -1,0 +1,3 @@
+Harcownicy wymieniają pociski i się cofają, a dwa [legiony rzymskie](@ebro-centre-legions) nacierają na [piechotę iberyjską](@ebro-centre-iberians). Po wymianie oszczepów Iberowie pękają i uciekają niemal bez walki. Liwiusz pisze, że wiedzieli, iż zwycięstwo oznaczałoby pójście za Hazdrubalem do Italii, a nie chcieli opuszczać Iberii.
+
+Legiony wdzierają się w lukę. Na skrzydłach jazda toczy potyczki bez rozstrzygnięcia. [Afrykanie](@ebro-centre-africans) i [Punijczycy](@ebro-centre-poeni) częściowo zwracają się, by uderzyć w boki legionów rzymskich, ale każdy z tych oddziałów ma też przed sobą legion sprzymierzeńców.

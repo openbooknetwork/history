@@ -1,0 +1,47 @@
+# zh-CN strings for the battle "carthage-149".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n zh-CN
+
+# Roman Republic
+battle.sides.0.name: "罗马共和国"
+
+# 36,000 to 46,000 infantry, 4,000 cavalry
+battle.sides.0.strength: "36,000～46,000名步兵，4000名骑兵"
+
+# Unknown
+battle.sides.0.casualties: "不详"
+
+# Carthage
+battle.sides.1.name: "迦太基"
+
+# 30,000 soldiers and about 60,000 armed civilians
+battle.sides.1.strength: "3万名士兵和约6万名武装平民"
+
+# 50,000 enslaved
+battle.sides.1.casualties: "5万人被卖为奴隶"
+
+# Siege of Carthage
+battle.name: "迦太基之围"
+
+# 149 – spring 146 BC
+battle.date: "公元前149年—前146年春"
+
+# Roman victory, Carthage destroyed
+battle.result: "罗马胜利，迦太基被毁"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Scipio Aemilianus
+battle.sides.0.commanders.0: "西庇阿·埃米利亚努斯"
+
+# Manius Manilius
+battle.sides.0.commanders.1: "马尼乌斯·马尼利乌斯"
+
+# Lucius Marcius Censorinus
+battle.sides.0.commanders.2: "卢基乌斯·马基乌斯·肯索里努斯"
+
+# Lucius Calpurnius Piso
+battle.sides.0.commanders.3: "卢基乌斯·卡尔普尔尼乌斯·皮索"
+
+# Hasdrubal
+battle.sides.1.commanders.0: "哈斯德鲁巴"

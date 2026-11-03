@@ -1,0 +1,5 @@
+All’inizio del 238 a.C. i ribelli mandano la maggior parte del loro esercito, circa 50.000 uomini al comando di [Spendio](@mercenary-war-trap-spendius), Autarito e Zarzas, a fermare le incursioni di [Amilcare](@mercenary-war-trap-hamilcar). Per mesi gli eserciti marciano e contromarciano attraverso gli altipiani, e i ribelli restano su terreni accidentati dove gli elefanti e la cavalleria cartaginesi servono a poco. Amilcare fa calpestare a morte i prigionieri dagli elefanti, e questo spinge i ribelli a combattere con ancora più accanimento.
+
+@image mercenary-war-hamilcar-439076
+
+Alla fine Amilcare, con tre divisioni guidate da lui stesso, dal suo vice [Annibale](@mercenary-war-trap-hannibal) e da [Narava](@mercenary-war-trap-naravas), intrappola i ribelli in un luogo chiamato la Sega per il suo profilo dentellato. Non si sa se fosse un passo o una catena di colline, né dove si trovasse. Prima che i ribelli comprendano la loro situazione, i Cartaginesi fortificano posizioni su un terreno che rende vano qualsiasi attacco, e più di 40.000 ribelli restano con l’acqua ma senza cibo.

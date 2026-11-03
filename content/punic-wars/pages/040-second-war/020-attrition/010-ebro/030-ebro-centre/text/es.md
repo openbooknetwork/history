@@ -1,0 +1,3 @@
+Los escaramuzadores intercambian proyectiles y se repliegan, y las dos [legiones romanas](@ebro-centre-legions) avanzan contra la [infantería íbera](@ebro-centre-iberians). Tras un intercambio de jabalinas, los íberos se desbandan y huyen casi sin combatir. Tito Livio escribe que sabían que una victoria significaría seguir a Asdrúbal a Italia, y no querían dejar Iberia.
+
+Las legiones penetran en el hueco. En las alas, la caballería escaramucea sin resultado. Los [africanos](@ebro-centre-africans) y los [púnicos](@ebro-centre-poeni) se vuelven en parte para golpear los flancos de las legiones romanas, pero cada grupo tiene además una legión aliada delante.

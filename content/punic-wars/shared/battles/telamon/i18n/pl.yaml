@@ -1,0 +1,44 @@
+# pl strings for the battle "telamon".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n pl
+
+# Roman Republic
+battle.sides.0.name: "Republika Rzymska"
+
+# 101,600 infantry, 6,400 cavalry
+battle.sides.0.strength: "101 600 piechoty, 6400 jazdy"
+
+# 6,000 killed
+battle.sides.0.casualties: "6000 zabitych"
+
+# Gauls: Boii, Insubres, Taurisci and Gaesatae
+battle.sides.1.name: "Galowie: Bojowie, Insubrowie, Tauryskowie i Gezaci"
+
+# 50,000 infantry, 20,000 cavalry
+battle.sides.1.strength: "50 000 piechoty, 20 000 jazdy"
+
+# 40,000 killed, 10,000 captured
+battle.sides.1.casualties: "40 000 zabitych, 10 000 wziętych do niewoli"
+
+# Battle of Telamon
+battle.name: "Bitwa pod Telamonem"
+
+# 225 BC
+battle.date: "225 p.n.e."
+
+# Roman victory
+battle.result: "Zwycięstwo Rzymian"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Gaius Atilius Regulus
+battle.sides.0.commanders.0: "Gajusz Atyliusz Regulus"
+
+# Lucius Aemilius Papus
+battle.sides.0.commanders.1: "Lucjusz Emiliusz Papus"
+
+# Concolitanus
+battle.sides.1.commanders.0: "Konkolitanus"
+
+# Aneroëstes
+battle.sides.1.commanders.1: "Aneroestes"

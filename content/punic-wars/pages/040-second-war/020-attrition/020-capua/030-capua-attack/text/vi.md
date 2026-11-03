@@ -1,0 +1,3 @@
+Năm 211 TCN, [Hannibal](@capua-attack-hannibal) từ phía nam quay lại và đóng trại sát phòng tuyến La Mã. Ông tấn công phòng tuyến ngoài trong khi đơn vị đồn trú Carthage ở Capua dưới quyền [Bostar và Hanno](@capua-attack-sortie), cùng người Capua, xuất kích đánh vào phòng tuyến trong.
+
+Một [đội quân Iberia](@capua-attack-cohort) cùng ba con voi chọc thủng phòng tuyến ngoài và đến được tường luỹ của một doanh trại La Mã, nhưng bị tiêu diệt trước khi kịp xông vào. Livy viết rằng [Fulvius Flaccus](@capua-attack-fulvius) chặn đứng Hannibal trong khi [Appius Claudius](@capua-attack-appius) đẩy lùi người Capua về đến cổng thành của họ và bị thương ở đó. Cuộc tấn công vào các phòng tuyến thất bại.

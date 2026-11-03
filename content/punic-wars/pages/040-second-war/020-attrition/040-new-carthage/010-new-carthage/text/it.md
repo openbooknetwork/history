@@ -1,0 +1,7 @@
+Dopo la morte del padre e dello zio nel 211 a.C., Publio Cornelio Scipione, poi detto l’Africano, sbarca a [Tarraco](@tarraco-210) alla fine del 210 a.C. e assume il comando di tutte le forze romane in Iberia. Ha circa venticinque anni e non ha ricoperto alcuna carica elevata. Dispone di 28.000 fanti e 3.000 cavalieri. Tre eserciti cartaginesi, ciascuno grande quanto il suo, stanno lontani l’uno dall’altro: quello di [Asdrubale Barca](@new-carthage-hasdrubal) nell’Iberia centrale, quello di [Magone](@new-carthage-mago) vicino a Gades e quello di [Asdrubale Giscone](@new-carthage-gisco) in Lusitania.
+
+@image scipio-africanus-bust-359b53
+
+Scipione decide di colpire Nuova Cartagine, la capitale cartaginese in Iberia, che custodisce il tesoro, la zecca, l’arsenale e gli ostaggi delle tribù iberiche. La città sorge su un promontorio collinare tra la baia del porto e una laguna poco profonda. Il promontorio è unito alla terraferma solo da un istmo largo circa 300 m a est. Le sue mura si estendono per 3,7 km. Il suo comandante, Magone, ha 1.000 soldati regolari e circa 2.000 cittadini armati.
+
+All’inizio del 209 a.C. Scipione lascia 3.300 uomini a tenere il nord e marcia verso sud con 25.000 fanti e 2.500 cavalieri, mentre Gaio Lelio lo segue lungo la costa con 35 galee. Solo i due comandanti conoscono la destinazione. Dopo una marcia rapida di circa 450 km l’esercito si accampa su un colle al centro dell’istmo, di fronte alla porta principale.

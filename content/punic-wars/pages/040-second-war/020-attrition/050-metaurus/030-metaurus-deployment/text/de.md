@@ -1,0 +1,5 @@
+Hasdrubal bildet seine Linie mit dem rechten Flügel am Fluss und dem linken an zerklüfteten Hügeln. Seine wenigen Reiter stehen rechts. Daneben stellt er seine besten Truppen, die iberischen Veteranen, tief gestaffelt auf, und ins Zentrum die [Ligurer](@metaurus-deploy-ligurians), ebenfalls tief gestaffelt. Die [Gallier](@metaurus-deploy-gauls) halten links einen Hügel hinter einer tiefen Schlucht. Seine zehn Elefanten stehen vor der Linie, ihre Treiber mit Hammer und Meißel bewaffnet, um jedes Tier zu töten, das sich gegen die eigene Seite wendet.
+
+@image metaurus-plan-220b01
+
+Moderne Schätzungen geben jedem Heer etwa 30 000 Mann vor der Ankunft [Neros](@metaurus-deploy-nero), die die Römer auf etwa 37 000 bringt. [Livius](@metaurus-deploy-livius) befehligt den römischen linken Flügel gegenüber den [Iberern](@metaurus-deploy-iberians), mit der Reiterei an seiner Flanke. [Porcius](@metaurus-deploy-porcius) befehligt das Zentrum und Nero den rechten Flügel, den Galliern jenseits der Schlucht gegenüber.

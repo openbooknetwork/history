@@ -1,0 +1,5 @@
+Đầu năm 238 TCN, quân nổi dậy đưa phần lớn lực lượng, khoảng 50.000 người dưới quyền [Spendius](@mercenary-war-trap-spendius), Autaritus và Zarzas, đi chặn những cuộc đột kích của [Hamilcar](@mercenary-war-trap-hamilcar). Trong nhiều tháng, hai đạo quân hành quân qua lại trên vùng cao nguyên, quân nổi dậy bám vào địa hình hiểm trở, nơi voi và kị binh Carthage ít tác dụng. Hamilcar cho voi giẫm chết các tù binh của mình, điều đó chỉ khiến quân nổi dậy chiến đấu quyết liệt hơn.
+
+@image mercenary-war-hamilcar-439076
+
+Cuối cùng Hamilcar, với ba cánh quân do chính ông, phó tướng [Hannibal](@mercenary-war-trap-hannibal) và [Naravas](@mercenary-war-trap-naravas) chỉ huy, dồn quân nổi dậy vào một nơi gọi là Cái Cưa, đặt theo đường nét lởm chởm của nó. Người ta không biết đó là một hẻm núi hay một dãy đồi, cũng không biết nó nằm ở đâu. Trước khi quân nổi dậy hiểu ra tình thế của mình, quân Carthage đã xây công sự trên địa hình khiến mọi cuộc tấn công đều vô vọng, và hơn 40.000 quân nổi dậy bị kẹt lại với nước uống nhưng không có lương thực.

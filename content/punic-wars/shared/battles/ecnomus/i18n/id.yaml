@@ -1,0 +1,30 @@
+# id strings for the battle "ecnomus".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n id
+
+# Roman Republic
+battle.sides.0.name: "Republik Romawi"
+
+# 330 ships, about 140,000 crew and marines
+battle.sides.0.strength: "330 kapal, sekitar 140.000 awak dan marinir"
+
+# 24 ships sunk, 10,000 men killed
+battle.sides.0.casualties: "24 kapal tenggelam, 10.000 orang tewas"
+
+# Carthage
+battle.sides.1.name: "Kartago"
+
+# 350 ships, about 150,000 crew and marines
+battle.sides.1.strength: "350 kapal, sekitar 150.000 awak dan marinir"
+
+# 30 ships sunk, 64 captured, 30,000 to 40,000 men killed or captured
+battle.sides.1.casualties: "30 kapal tenggelam, 64 direbut, 30.000 sampai 40.000 orang tewas atau ditawan"
+
+# Battle of Cape Ecnomus
+battle.name: "Pertempuran Tanjung Ecnomus"
+
+# 256 BC
+battle.date: "256 SM"
+
+# Roman victory
+battle.result: "Kemenangan Romawi"

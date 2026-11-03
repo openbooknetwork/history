@@ -1,0 +1,5 @@
+Asdrúbal forma su línea con la derecha apoyada en el río y la izquierda en unas colinas abruptas. Su escasa caballería se sitúa a la derecha. Junto a ella pone a sus mejores tropas, los veteranos íberos, en formación profunda, y a los [ligures](@metaurus-deploy-ligurians), también en filas profundas, en el centro. Los [galos](@metaurus-deploy-gauls) ocupan una colina a la izquierda, detrás de un barranco profundo. Sus diez elefantes se sitúan delante de la línea, y sus conductores llevan un mazo y un cincel para matar a cualquier animal que se vuelva contra su propio bando.
+
+@image metaurus-plan-220b01
+
+Las estimaciones modernas dan a cada ejército unos 30 000 hombres antes de la llegada de [Nerón](@metaurus-deploy-nero), que eleva a los romanos a unos 37 000. [Livio](@metaurus-deploy-livius) manda la izquierda romana, frente a los [íberos](@metaurus-deploy-iberians), con la caballería en su flanco. [Porcio](@metaurus-deploy-porcius) manda el centro, y Nerón la derecha, frente a los galos al otro lado del barranco.

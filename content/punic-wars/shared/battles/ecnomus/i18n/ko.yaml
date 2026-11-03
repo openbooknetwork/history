@@ -1,0 +1,44 @@
+# ko strings for the battle "ecnomus".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n ko
+
+# Roman Republic
+battle.sides.0.name: "로마 공화국"
+
+# 330 ships, about 140,000 crew and marines
+battle.sides.0.strength: "배 330척, 승조원과 해병 약 14만 명"
+
+# 24 ships sunk, 10,000 men killed
+battle.sides.0.casualties: "24척 침몰, 1만 명 전사"
+
+# Carthage
+battle.sides.1.name: "카르타고"
+
+# 350 ships, about 150,000 crew and marines
+battle.sides.1.strength: "배 350척, 승조원과 해병 약 15만 명"
+
+# 30 ships sunk, 64 captured, 30,000 to 40,000 men killed or captured
+battle.sides.1.casualties: "30척 침몰, 64척 나포, 3만~4만 명 전사 또는 포로"
+
+# Battle of Cape Ecnomus
+battle.name: "에크노무스곶 해전"
+
+# 256 BC
+battle.date: "기원전 256년"
+
+# Roman victory
+battle.result: "로마의 승리"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Marcus Atilius Regulus
+battle.sides.0.commanders.0: "마르쿠스 아틸리우스 레굴루스"
+
+# Lucius Manlius Vulso
+battle.sides.0.commanders.1: "루키우스 만리우스 불소"
+
+# Hamilcar
+battle.sides.1.commanders.0: "하밀카르"
+
+# Hanno
+battle.sides.1.commanders.1: "한노"

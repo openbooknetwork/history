@@ -2,4 +2,4 @@ MÖ 238 başında isyancılar [Hamilkar’ın](@mercenary-war-trap-hamilcar) ak�
 
 @image mercenary-war-hamilcar-439076
 
-Sonunda kendisi, yardımcısı [Hannibal](@mercenary-war-trap-hannibal) ve [Naravas](@mercenary-war-trap-naravas) komutasındaki üç tümeniyle Hamilkar, isyancıları bir geçitte ya da sivri sırtları yüzünden [Testere](@mercenary-war-trap-saw) denen bir tepe dizisinin önünde kıstırır. Yerin neresi olduğu bilinmez. İsyancılar durumu kavrayamadan Kartacalılar, her saldırıyı umutsuz kılan bir arazide mevzilerini tahkim eder. 40.000’i aşkın isyancının suyu vardır ama yiyeceği yoktur.
+Sonunda kendisi, yardımcısı [Hannibal](@mercenary-war-trap-hannibal) ve [Naravas](@mercenary-war-trap-naravas) komutasındaki üç tümeniyle Hamilkar, isyancıları sivri hatları yüzünden Testere denen bir yerde kıstırır. Buranın bir geçit mi yoksa bir tepe dizisi mi olduğu ve nerede bulunduğu bilinmez. İsyancılar durumu kavrayamadan Kartacalılar, her saldırıyı umutsuz kılan bir arazide mevzilerini tahkim eder. 40.000’i aşkın isyancının suyu vardır ama yiyeceği yoktur.

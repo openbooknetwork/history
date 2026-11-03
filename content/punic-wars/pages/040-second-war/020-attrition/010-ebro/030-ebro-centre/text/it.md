@@ -1,0 +1,3 @@
+Gli schermagliatori si scambiano proiettili e ripiegano, e le due [legioni romane](@ebro-centre-legions) avanzano contro la [fanteria iberica](@ebro-centre-iberians). Dopo un lancio di giavellotti gli Iberi cedono e fuggono quasi senza combattere. Livio scrive che sapevano che una vittoria avrebbe significato seguire Asdrubale in Italia, e che non volevano lasciare l’Iberia.
+
+Le legioni si spingono nel varco. Sulle ali la cavalleria ingaggia scaramucce senza esito. Gli [Africani](@ebro-centre-africans) e i [Poeni](@ebro-centre-poeni) si volgono in parte a colpire i fianchi delle legioni romane, ma ciascuno di loro ha anche una legione alleata di fronte.

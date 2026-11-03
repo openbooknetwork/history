@@ -1,0 +1,44 @@
+# ko strings for the battle "metaurus".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n ko
+
+# Roman Republic
+battle.sides.0.name: "로마 공화국"
+
+# 37,000
+battle.sides.0.strength: "37,000명"
+
+# 2,000–8,000 killed
+battle.sides.0.casualties: "2,000~8,000명 전사"
+
+# Carthage
+battle.sides.1.name: "카르타고"
+
+# 30,000, with 10 elephants
+battle.sides.1.strength: "3만 명, 코끼리 10마리"
+
+# 10,000 killed, 5,400 captured
+battle.sides.1.casualties: "1만 명 전사, 5,400명 포로"
+
+# Battle of the Metaurus
+battle.name: "메타우루스강 전투"
+
+# 24 June 207 BC
+battle.date: "기원전 207년 6월 24일"
+
+# Roman victory, Hasdrubal killed
+battle.result: "로마의 승리, 하스드루발 전사"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Marcus Livius Salinator
+battle.sides.0.commanders.0: "마르쿠스 리비우스 살리나토르"
+
+# Gaius Claudius Nero
+battle.sides.0.commanders.1: "가이우스 클라우디우스 네로"
+
+# Lucius Porcius Licinus
+battle.sides.0.commanders.2: "루키우스 포르키우스 리키누스"
+
+# Hasdrubal Barca
+battle.sides.1.commanders.0: "하스드루발 바르카"

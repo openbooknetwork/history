@@ -1,0 +1,5 @@
+Hasdrubal menyusun barisannya dengan sayap kanan bersandar pada sungai dan sayap kiri pada perbukitan yang tidak rata. Kavalerinya yang sedikit berdiri di kanan. Di sampingnya ia menempatkan pasukan terbaiknya, para veteran Iberia, dalam formasi yang dalam, dan [orang Liguria](@metaurus-deploy-ligurians), juga dalam barisan yang dalam, di tengah. [Orang Galia](@metaurus-deploy-gauls) menguasai sebuah bukit di kiri di balik jurang yang dalam. Kesepuluh gajahnya berdiri di depan barisan, dan para pawangnya dipersenjatai palu dan pahat untuk membunuh hewan mana pun yang berbalik menyerang pihaknya sendiri.
+
+@image metaurus-plan-220b01
+
+Perkiraan modern menempatkan masing-masing tentara pada sekitar 30.000 orang sebelum kedatangan [Nero](@metaurus-deploy-nero), yang menambah jumlah orang Romawi menjadi sekitar 37.000. [Livius](@metaurus-deploy-livius) memimpin sayap kiri Romawi yang menghadapi [orang Iberia](@metaurus-deploy-iberians), dengan kavaleri di sisinya. [Porcius](@metaurus-deploy-porcius) memimpin bagian tengah, dan Nero sayap kanan, yang menghadapi orang Galia di seberang jurang.

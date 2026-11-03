@@ -1,0 +1,47 @@
+# th strings for the battle "carthage-149".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n th
+
+# Roman Republic
+battle.sides.0.name: "สาธารณรัฐโรมัน"
+
+# 36,000 to 46,000 infantry, 4,000 cavalry
+battle.sides.0.strength: "ทหารราบ 36,000 ถึง 46,000 นาย ทหารม้า 4,000 นาย"
+
+# Unknown
+battle.sides.0.casualties: "ไม่ทราบ"
+
+# Carthage
+battle.sides.1.name: "คาร์เธจ"
+
+# 30,000 soldiers and about 60,000 armed civilians
+battle.sides.1.strength: "ทหาร 30,000 นายและพลเรือนติดอาวุธราว 60,000 คน"
+
+# 50,000 enslaved
+battle.sides.1.casualties: "50,000 คนถูกขายเป็นทาส"
+
+# Siege of Carthage
+battle.name: "การล้อมคาร์เธจ"
+
+# 149 – spring 146 BC
+battle.date: "ก่อน ค.ศ. 149 – ฤดูใบไม้ผลิ ก่อน ค.ศ. 146"
+
+# Roman victory, Carthage destroyed
+battle.result: "โรมชนะ คาร์เธจถูกทำลาย"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Scipio Aemilianus
+battle.sides.0.commanders.0: "สคิปิโอ ไอมิลิอานุส"
+
+# Manius Manilius
+battle.sides.0.commanders.1: "มานิอุส มานิลิอุส"
+
+# Lucius Marcius Censorinus
+battle.sides.0.commanders.2: "ลูกิอุส มาร์กิอุส เกนโซรินุส"
+
+# Lucius Calpurnius Piso
+battle.sides.0.commanders.3: "ลูกิอุส คัลปูร์นิอุส ปิโซ"
+
+# Hasdrubal
+battle.sides.1.commanders.0: "ฮัสดรูบาล"

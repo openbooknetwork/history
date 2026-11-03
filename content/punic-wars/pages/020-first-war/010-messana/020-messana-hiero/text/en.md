@@ -2,4 +2,4 @@
 
 @image messana-hiero-coin-f600b6
 
-The besiegers lie in two separate camps. Polybius places the [Carthaginian army](@messana-hiero-carthaginians) north of the city and its fleet at Cape Pelorus, and Hiero’s army on a hill outside the city. The Romans march out and attack the Syracusans first. They defeat them, and Hiero withdraws his army to Syracuse.
+The besiegers lie in two separate camps. Polybius places the [Carthaginian army](@messana-hiero-carthaginians) north of the city and its fleet at Cape Pelorus, and Hiero’s army on a hill outside the city. The Romans march out and attack the Syracusans, leaving the Carthaginians for later. They defeat the Syracusans, and Hiero withdraws his army to Syracuse.

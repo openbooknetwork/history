@@ -1,0 +1,7 @@
+Depois da morte do pai e do tio em 211 a.C., Públio Cornélio Cipião, mais tarde chamado Africano, desembarca em [Tarraco](@tarraco-210) no fim de 210 a.C. e assume o comando de todas as forças romanas na Ibéria. Ele tem uns vinte e cinco anos e nunca exerceu um cargo superior. Dispõe de 28.000 soldados de infantaria e 3.000 de cavalaria. Três exércitos cartagineses, cada um tão grande quanto o dele, estão longe uns dos outros: o de [Asdrúbal Barca](@new-carthage-hasdrubal) no centro da Ibéria, o de [Magão](@new-carthage-mago) perto de Gades e o de [Asdrúbal Giscão](@new-carthage-gisco) na Lusitânia.
+
+@image scipio-africanus-bust-359b53
+
+Cipião decide atacar Nova Cartago, a capital cartaginesa na Ibéria, que guarda o tesouro, a casa da moeda, o arsenal e os reféns das tribos iberas. A cidade fica num promontório de colinas entre a baía do porto e uma lagoa rasa. Só um istmo de cerca de 300 m de largura, a leste, a liga ao continente. As muralhas se estendem por 3,7 km. O comandante, Magão, tem 1.000 soldados regulares e cerca de 2.000 habitantes armados.
+
+No início de 209 a.C., Cipião deixa 3.300 homens para manter o norte e marcha para o sul com 25.000 soldados de infantaria e 2.500 de cavalaria, enquanto Caio Lélio o acompanha ao longo da costa com 35 galeras. Só os dois comandantes conhecem o destino. Depois de uma marcha rápida de cerca de 450 km, o exército acampa numa colina no meio do istmo, diante da porta principal.

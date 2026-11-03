@@ -1,0 +1,30 @@
+# vi strings for the battle "cannae".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n vi
+
+# Roman Republic
+battle.sides.0.name: "Cộng hoà La Mã"
+
+# 86,400, with 10,000 left to guard the camps
+battle.sides.0.strength: "86.400 người, trong đó 10.000 người ở lại canh giữ các doanh trại"
+
+# Polybius: 70,000 killed, 10,000 captured. Livy: 48,200 killed, 19,300 captured
+battle.sides.0.casualties: "Polybius: 70.000 người bị giết, 10.000 người bị bắt. Livy: 48.200 người bị giết, 19.300 người bị bắt"
+
+# Carthage
+battle.sides.1.name: "Carthage"
+
+# 50,000, with 10,000 cavalry
+battle.sides.1.strength: "50.000 người, trong đó 10.000 kị binh"
+
+# Polybius: 5,700 killed. Livy: 8,000 killed
+battle.sides.1.casualties: "Polybius: 5.700 người bị giết. Livy: 8.000 người bị giết"
+
+# Battle of Cannae
+battle.name: "Trận Cannae"
+
+# 2 August 216 BC
+battle.date: "Ngày 2 tháng 8 năm 216 TCN"
+
+# Carthaginian victory
+battle.result: "Carthage thắng"

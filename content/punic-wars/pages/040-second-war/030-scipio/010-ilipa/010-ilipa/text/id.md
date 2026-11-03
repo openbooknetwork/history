@@ -1,0 +1,5 @@
+Pada tahun 207 SM, Kartago mengirim bala bantuan ke Iberia di bawah Hanno, yang bergabung dengan Mago Barca dan merekrut di kalangan orang Keltiberia. Pasukan Romawi di bawah Marcus Junius Silanus menyerang perkemahan mereka secara mendadak, mencerai-beraikan pasukan itu, dan menawan Hanno. Hasdrubal Gisco, yang maju dari Gades, menghindari pertempuran dengan menyebarkan pasukannya di kota-kota berbenteng, dan tahun itu berakhir tanpa pertempuran yang menentukan.
+
+@image scipio-bust-marble-3454e4
+
+Pada musim semi 206 SM, Hasdrubal Gisco dan Mago menghimpun pasukan mereka di Ilipa, dekat Sevilla sekarang, bersama sekutu-sekutu Iberia mereka dan kavaleri Numidia pimpinan Masinissa. Menurut Polybius, mereka memiliki 70.000 prajurit infanteri, 4.000 prajurit kavaleri, dan 32 gajah, sedangkan Scipio memiliki 45.000 prajurit infanteri dan 3.000 prajurit kavaleri, sekitar separuhnya sekutu Iberia. Scipio berkemah di perbukitan rendah di seberang mereka. Ketika Mago dan Masinissa menyerbu orang Romawi yang masih membentengi perkemahan mereka, kavaleri Romawi menyerang sisi mereka dan mengusir mereka.

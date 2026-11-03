@@ -1,0 +1,26 @@
+# pl strings for the battle "rhone".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n pl
+
+# Carthage
+battle.sides.0.name: "Kartagina"
+
+# 38,000 infantry, 8,000 cavalry, 37 elephants
+battle.sides.0.strength: "38 000 piechoty, 8000 jazdy, 37 słoni"
+
+# Volcae, a Gallic people
+battle.sides.1.name: "Wolkowie, lud galijski"
+
+# Battle of the Rhône Crossing
+battle.name: "Bitwa o przeprawę przez Rodan"
+
+# Late September 218 BC
+battle.date: "Koniec września 218 p.n.e."
+
+# Carthaginian victory
+battle.result: "Zwycięstwo Kartagińczyków"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Hannibal
+battle.sides.0.commanders.0: "Hannibal"

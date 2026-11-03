@@ -1,0 +1,38 @@
+# fr strings for the battle "carthage-149".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n fr
+
+# Roman Republic
+battle.sides.0.name: "République romaine"
+
+# 36,000 to 46,000 infantry, 4,000 cavalry
+battle.sides.0.strength: "36 000 à 46 000 fantassins, 4 000 cavaliers"
+
+# Unknown
+battle.sides.0.casualties: "Inconnues"
+
+# Carthage
+battle.sides.1.name: "Carthage"
+
+# 30,000 soldiers and about 60,000 armed civilians
+battle.sides.1.strength: "30 000 soldats et environ 60 000 civils armés"
+
+# 50,000 enslaved
+battle.sides.1.casualties: "50 000 réduits en esclavage"
+
+# Siege of Carthage
+battle.name: "Siège de Carthage"
+
+# 149 – spring 146 BC
+battle.date: "149 – printemps 146 av. J.-C."
+
+# Roman victory, Carthage destroyed
+battle.result: "Victoire romaine, Carthage détruite"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Scipio Aemilianus
+battle.sides.0.commanders.0: "Scipion Émilien"
+
+# Lucius Calpurnius Piso
+battle.sides.0.commanders.3: "Lucius Calpurnius Pison"

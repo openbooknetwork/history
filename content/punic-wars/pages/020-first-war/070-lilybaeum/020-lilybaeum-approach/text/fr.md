@@ -1,0 +1,5 @@
+À l’aube, les Romains sont près de [Drépane](@lilybaeum-approach-drepana), mais dans l’obscurité les navires ont perdu leur place, et les 10 000 nouveaux rameurs ne parviennent pas à suivre la cadence des anciens équipages. La flotte de plus de 120 navires, 200 selon certains récits, s’étire en une longue ligne irrégulière le long de la côte. Le navire amiral de [Pulcher](@lilybaeum-approach-pulcher) se trouve vers l’arrière.
+
+@image lilybaeum-drepana-view-4568c2
+
+Le commandant carthaginois [Adherbal](@lilybaeum-approach-adherbal) est pris par surprise, mais ses 100 à 130 navires sont prêts à prendre la mer. Il embarque la garnison comme soldats de marine et fait sortir la flotte du port. Les navires romains de tête ont atteint l’entrée du port quand Pulcher leur ordonne de revenir former une ligne, et les navires qui font demi-tour heurtent ceux qui arrivent encore et se brisent mutuellement les rames. Adherbal dépasse l’[avant-garde romaine](@lilybaeum-approach-van) en désordre, se glisse entre la ville et deux îlots vers la haute mer et vire au sud.

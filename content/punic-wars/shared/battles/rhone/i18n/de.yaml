@@ -1,0 +1,21 @@
+# de strings for the battle "rhone".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n de
+
+# Carthage
+battle.sides.0.name: "Karthago"
+
+# 38,000 infantry, 8,000 cavalry, 37 elephants
+battle.sides.0.strength: "38 000 Mann Fußvolk, 8 000 Reiter, 37 Elefanten"
+
+# Volcae, a Gallic people
+battle.sides.1.name: "Volcae, ein gallisches Volk"
+
+# Battle of the Rhône Crossing
+battle.name: "Schlacht beim Rhoneübergang"
+
+# Late September 218 BC
+battle.date: "Ende September 218 v. Chr."
+
+# Carthaginian victory
+battle.result: "Karthagischer Sieg"

@@ -4,4 +4,4 @@ Hasdrubal Barka kışı Galya’da geçirir ve MÖ 207 ilkbaharında Alpler’i,
 
 MÖ 207 yılının iki konsülünden Gaius Claudius Nero güneyde Hannibal’in karşısındadır. Marcus Livius Salinator ise Hasdrubal’in önünden [Sena’ya](@sena-207) kadar çekilir ve orada pretor Lucius Porcius Licinus iki lejyonla ona katılır. Hasdrubal, Hannibal’le güney Umbria’da buluşmak için ulaklar gönderir, ama ulaklar yakalanır ve mektubu Nero’ya getirilir.
 
-Nero ordusunun büyük bölümünü legatusu Quintus Catius komutasında Hannibal’in karşısında bırakır ve 1.000’i süvari olmak üzere seçme 7.000 askerle kuzeye yürür. Önden gönderilen atlılar yol boyunca yiyecek hazırlatır, yolda gönüllüler de katılır. Nero, yaklaşık yarım mil ötede konaklayan Kartacalılara görünmeden, gece Livius’un Sena’daki kampına girer.
+Nero ordusunun büyük bölümünü legatusu Quintus Catius komutasında Hannibal’in karşısında bırakır ve 1.000’i süvari olmak üzere seçme 7.000 askerle kuzeye yürür. Önden gönderilen atlılar yol boyunca yiyecek hazırlatır, yolda gönüllüler de katılır. Nero, yaklaşık 700 m ötede konaklayan Kartacalılara görünmeden, gece Livius’un Sena’daki kampına girer.

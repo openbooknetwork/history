@@ -1,0 +1,30 @@
+# id strings for the battle "trebia".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n id
+
+# Roman Republic
+battle.sides.0.name: "Republik Romawi"
+
+# 40,000: 36,000 infantry, 4,000 cavalry
+battle.sides.0.strength: "40.000: 36.000 prajurit infanteri, 4.000 prajurit kavaleri"
+
+# 20,000 killed, many captured
+battle.sides.0.casualties: "20.000 tewas, banyak yang ditawan"
+
+# Carthage
+battle.sides.1.name: "Kartago"
+
+# 40,000, with 11,000 cavalry and about 30 elephants
+battle.sides.1.strength: "40.000, dengan 11.000 prajurit kavaleri dan sekitar 30 gajah"
+
+# Several thousand infantry, a few cavalry, several elephants
+battle.sides.1.casualties: "Beberapa ribu prajurit infanteri, sedikit prajurit kavaleri, beberapa gajah"
+
+# Battle of the Trebia
+battle.name: "Pertempuran Trebia"
+
+# 22 or 23 December 218 BC
+battle.date: "22 atau 23 Desember 218 SM"
+
+# Carthaginian victory
+battle.result: "Kemenangan Kartago"

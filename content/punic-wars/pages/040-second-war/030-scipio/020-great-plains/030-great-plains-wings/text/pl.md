@@ -1,0 +1,5 @@
+W ciągu 30–50 dni [Hazdrubal i Syfaks](@great-plains-wings-hasdrubal) zbierają nową armię liczącą około 30 000 ludzi, w tym 4000 [Iberów](@great-plains-wings-iberians), którzy świeżo przybyli do Kartaginy, i rozbijają obóz na Wielkich Równinach nad Bagradasem, około 120 km od Utyki. Scypion zostawia oddział pod Utyką i maszeruje tam bez taborów, z być może 20 000 ludzi. Po trzech dniach potyczek obie armie ustawiają się do bitwy.
+
+@image numidian-horseman-6023b7
+
+Hazdrubal ustawia Iberów w centrum, piechotę i jazdę kartagińską po ich prawej stronie, a numidyjską piechotę i jazdę Syfaksa po lewej. Scypion ustawia dwa legiony rzymskie w centrum w ich trzech liniach, po legionie sprzymierzeńców z każdej strony, jazdę rzymską pod wodzą [Leliusza](@great-plains-wings-laelius) na prawym skrzydle, a Numidów [Masynissy](@great-plains-wings-masinissa) na lewym. Przy pierwszej szarży jazda na obu kartagińskich skrzydłach pęka, a piechota kartagińska i numidyjska ucieka, zanim legiony sprzymierzeńców do niej dotrą. Tylko Iberowie uderzają z pełną siłą na hastatów.

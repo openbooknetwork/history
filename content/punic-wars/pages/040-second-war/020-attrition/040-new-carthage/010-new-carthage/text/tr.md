@@ -2,6 +2,6 @@ Babası ve amcası MÖ 211’de öldükten sonra, sonradan Africanus diye anıla
 
 @image scipio-africanus-bust-359b53
 
-Scipio, Kartaca’nın İberya’daki başkenti Yeni Kartaca’ya saldırmaya karar verir. Hazine, darphane, cephanelik ve İber kabilelerinden alınan rehineler buradadır. Kent liman koyu ile sığ bir lagün arasında tepelik bir burun üzerindedir ve karaya yalnızca doğudaki yaklaşık 300 m genişliğinde bir kıstakla bağlanır. Surları 3,7 km uzunluğundadır. Komutanı Mago’nun 1.000 düzenli askeri ve silahlandırılmış yaklaşık 2.000 kentlisi vardır.
+Scipio, Kartaca’nın İberya’daki başkenti Yeni Kartaca’ya saldırmaya karar verir. Hazine, darphane, cephanelik ve İber kabilelerinden alınan rehineler buradadır. Kent liman koyu ile sığ bir lagün arasında tepelik bir burun üzerindedir. Burun karaya yalnızca doğudaki yaklaşık 300 m genişliğinde bir kıstakla bağlanır. Surları 3,7 km uzunluğundadır. Komutanı Mago’nun 1.000 düzenli askeri ve silahlandırılmış yaklaşık 2.000 kentlisi vardır.
 
 MÖ 209’un başında Scipio kuzeyi tutmak için 3.300 kişi bırakır ve 25.000 piyade ile 2.500 süvariyle güneye yürür. Gaius Laelius da 35 savaş gemisiyle kıyı boyunca onu izler. Hedefi yalnızca iki komutan bilir. Yaklaşık 450 km’lik hızlı bir yürüyüşten sonra ordu, kıstağın ortasında ana kapının karşısındaki bir tepede kamp kurar.

@@ -1,0 +1,5 @@
+El Ager Falernus está al norte del Volturno, y los romanos controlan los puentes del río, de modo que de los ocho caminos que salen de la llanura solo tres están abiertos al ejército de Aníbal. [Fabio](@fabius-trap-fabius) refuerza las guarniciones de [Casilino](@casilinum-217) y Cales, sitúa a [Minucio](@fabius-trap-minucius) al norte para vigilar la Vía Latina y la Vía Apia, y acampa con el ejército principal cerca del monte Másico. Un destacamento de 4000 hombres ocupa el paso junto al monte Calícula, al este, por donde había entrado [Aníbal](@fabius-trap-hannibal).
+
+@image fabius-plain-59eed2
+
+Fabio espera a que a los cartagineses se les acaben los suministros. Cuando Lucio Hostilio [Mancino](@fabius-trap-mancinus), enviado a explorar con 400 jinetes, se enfrenta a los númidas, la caballería de Cartalón lo mata y aniquila toda su fuerza. En otoño Aníbal se desplaza hacia el este, hacia el paso de Calícula. Fabio acampa con su ejército en una colina que lo domina, y Minucio se le une allí.

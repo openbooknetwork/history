@@ -1,0 +1,47 @@
+# uk strings for the battle "the-saw".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n uk
+
+# Carthage
+battle.sides.0.name: "Карфаген"
+
+# 20,000 – 30,000
+battle.sides.0.strength: "20 000–30 000"
+
+# Light
+battle.sides.0.casualties: "Невеликі"
+
+# Rebel army
+battle.sides.1.name: "Військо повстанців"
+
+# 50,000
+battle.sides.1.strength: "50 000"
+
+# All killed
+battle.sides.1.casualties: "Усі вбиті"
+
+# Battle of the Saw
+battle.name: "Битва біля Пили"
+
+# 238 BC
+battle.date: "238 р. до н. е."
+
+# Carthaginian victory
+battle.result: "Перемога Карфагена"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Hamilcar Barca
+battle.sides.0.commanders.0: "Гамількар Барка"
+
+# Naravas
+battle.sides.0.commanders.1: "Нарава"
+
+# Spendius
+battle.sides.1.commanders.0: "Спендій"
+
+# Zarzas
+battle.sides.1.commanders.1: "Зарзас"
+
+# Autaritus
+battle.sides.1.commanders.2: "Автарит"

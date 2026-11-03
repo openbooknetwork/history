@@ -1,0 +1,5 @@
+Esa misma tarde, para sorpresa de los defensores, los romanos atacan de nuevo con tropas frescas y escalas nuevas. Las galeras de Lelio vuelven a la muralla sur, los legionarios forman la tortuga (testudo) con sus escudos superpuestos y golpean la puerta este con hachas, y otra fuerza avanza hasta el canal al oeste de la ciudad. Los defensores, escasos de proyectiles tras la mañana, llevan hombres a las murallas amenazadas y dejan casi sin defensa la muralla norte, sobre la laguna.
+
+@image new-carthage-furnius-80a1b5
+
+Escipión envía a [500 hombres escogidos](@new-carthage-2-five-hundred) a través de la laguna con guías. Polibio escribe que el agua bajaba cada tarde con la marea; Tito Livio, que un viento del norte la hacía retroceder. Los historiadores modernos dudan de ambos y apuntan a unas compuertas en el canal, o a una laguna lo bastante poco profunda como para vadearla en cualquier caso. Los 500 llegan sin ser vistos a la muralla norte, la escalan, se abren paso hacia el este a lo largo de la muralla y abren desde dentro la puerta este.

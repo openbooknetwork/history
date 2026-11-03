@@ -1,0 +1,3 @@
+Les Romains longent la côte en quatre escadres. Les deux premières, sous Vulso à droite et Regulus à gauche, sont chacune disposées en échelon, de sorte qu’ensemble elles forment un coin dont la pointe est tenue par les deux hexères des consuls. La troisième escadre suit en ligne, remorquant les transports qui portent les chevaux, et la quatrième, en ligne de front, garde l’arrière.
+
+Les Carthaginois s’avancent en une seule ligne de front de trois escadres, leur aile gauche, côté terre, portée en avant. [Hamilcar](@ecnomus-approach-hamilcar) commande le centre et [Hannon](@ecnomus-approach-hanno) la droite, côté large, avec les navires les plus rapides de la flotte. Les deux flottes s’aperçoivent et avancent.

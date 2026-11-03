@@ -1,0 +1,38 @@
+# fa strings for the battle "new-carthage".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n fa
+
+# Roman Republic
+battle.sides.0.name: "جمهوری روم"
+
+# 27,500, with 35 galleys
+battle.sides.0.strength: "۲۷٬۵۰۰، با ۳۵ کشتی جنگی پارویی"
+
+# Unknown
+battle.sides.0.casualties: "نامعلوم"
+
+# Carthage
+battle.sides.1.name: "کارتاژ"
+
+# Over 3,000, of them 2,000 civilian levies
+battle.sides.1.strength: "بیش از ۳ هزار، که ۲ هزار تن از آنان شهروندان بسیج‌شده بودند"
+
+# All killed or captured
+battle.sides.1.casualties: "همه کشته یا اسیر"
+
+# Battle of New Carthage
+battle.name: "نبرد کارتاژ نو"
+
+# Early 209 BC
+battle.date: "اوایل ۲۰۹ پیش از میلاد"
+
+# Roman victory, New Carthage taken
+battle.result: "پیروزی روم، تصرف کارتاژ نو"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Publius Cornelius Scipio
+battle.sides.0.commanders.0: "پوبلیوس کورنلیوس اسکیپیو"
+
+# Mago
+battle.sides.1.commanders.0: "ماگو"

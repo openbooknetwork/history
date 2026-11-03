@@ -1,0 +1,3 @@
+Nel 211 a.C. [Annibale](@capua-attack-hannibal) torna dal sud e si accampa vicino alle linee romane. Attacca la linea esterna mentre la guarnigione cartaginese di Capua al comando di [Bostare e Annone](@capua-attack-sortie), insieme ai Capuani, compie una sortita contro quella interna.
+
+Una [coorte iberica](@capua-attack-cohort) con tre elefanti sfonda la linea esterna e raggiunge il terrapieno di un campo romano, ma viene annientata prima di riuscire a entrare. Livio scrive che [Fulvio Flacco](@capua-attack-fulvius) tiene a bada Annibale mentre [Appio Claudio](@capua-attack-appius) respinge i Capuani fino alle loro porte e lì viene ferito. L’attacco alle linee fallisce.

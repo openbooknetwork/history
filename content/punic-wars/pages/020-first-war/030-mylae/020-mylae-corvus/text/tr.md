@@ -2,4 +2,4 @@ Polybios Kartacalılara 130 gemi verir, Romalılar için bir sayı vermez. Romal
 
 @image mylae-corvus-ef7df7
 
-Öndeki gemiler yaklaşınca Romalılar corvusları onların güvertelerine indirip sıkıca tutar, lejyonerler köprülerden geçer ve karadaki gibi dövüşür. İlk 30 Kartaca gemisi, aralarında Hannibal’in amiral gemisi de olmak üzere, bu yolla ele geçirilir. Hannibal küçük bir sandalla kaçar.
+Öndeki gemiler yaklaşınca Romalılar corvusları Kartaca gemilerinin güvertelerine indirip gemileri sıkıca tutar, lejyonerler köprülerden geçer ve karadaki gibi dövüşür. İlk 30 Kartaca gemisi, aralarında Hannibal’in amiral gemisi de olmak üzere, bu yolla ele geçirilir. Hannibal küçük bir sandalla kaçar.

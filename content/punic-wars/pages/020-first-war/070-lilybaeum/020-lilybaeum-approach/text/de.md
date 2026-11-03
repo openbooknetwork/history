@@ -1,0 +1,5 @@
+Im Morgengrauen sind die Römer nahe vor [Drepana](@lilybaeum-approach-drepana), doch im Dunkeln haben die Schiffe ihre Positionen verloren, und die 10 000 neuen Ruderer können mit den alten Besatzungen nicht den Takt halten. Die Flotte von mehr als 120 Schiffen, nach manchen Berichten 200, ist in einer langen, ungeordneten Linie an der Küste auseinandergezogen. [Pulchers](@lilybaeum-approach-pulcher) Flaggschiff fährt nahe dem Ende.
+
+@image lilybaeum-drepana-view-4568c2
+
+Der karthagische Befehlshaber [Adherbal](@lilybaeum-approach-adherbal) wird überrascht, doch seine 100 bis 130 Schiffe sind seeklar. Er nimmt die Besatzung der Stadt als Seesoldaten an Bord und führt die Flotte aus dem Hafen. Die vordersten römischen Schiffe haben die Hafeneinfahrt schon erreicht, als Pulcher sie zurückbeordert, um eine Linie zu bilden, und die wendenden Schiffe geraten in die nachfolgenden und brechen einander die Riemen ab. Adherbal passiert die verwirrte [römische Vorhut](@lilybaeum-approach-van), schlüpft zwischen der Stadt und zwei kleinen Inseln hindurch auf die offene See und wendet nach Süden.

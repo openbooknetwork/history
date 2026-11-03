@@ -1,0 +1,30 @@
+# vi strings for the battle "drepana".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n vi
+
+# Carthage
+battle.sides.0.name: "Carthage"
+
+# 100 to 130 ships
+battle.sides.0.strength: "100 đến 130 thuyền"
+
+# None recorded
+battle.sides.0.casualties: "Không có ghi chép"
+
+# Roman Republic
+battle.sides.1.name: "Cộng hoà La Mã"
+
+# At least 123 ships
+battle.sides.1.strength: "Ít nhất 123 thuyền"
+
+# 93 ships captured, more sunk, 20,000 men killed or captured
+battle.sides.1.casualties: "93 thuyền bị bắt, nhiều chiếc khác bị đánh chìm, 20.000 người bị giết hoặc bị bắt"
+
+# Battle of Drepana
+battle.name: "Trận Drepana"
+
+# 249 BC
+battle.date: "Năm 249 TCN"
+
+# Carthaginian victory
+battle.result: "Carthage thắng"

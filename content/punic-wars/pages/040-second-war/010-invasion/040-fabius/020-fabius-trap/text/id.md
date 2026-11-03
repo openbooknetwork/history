@@ -1,0 +1,5 @@
+Ager Falernus terletak di utara Sungai Volturnus, dan orang Romawi menguasai jembatan-jembatan sungai itu, sehingga dari delapan jalan keluar dari dataran itu hanya tiga yang terbuka bagi tentara Hannibal. [Fabius](@fabius-trap-fabius) memperkuat garnisun [Casilinum](@casilinum-217) dan Cales, menempatkan [Minucius](@fabius-trap-minucius) di utara untuk mengawasi Via Latina dan Via Appia, dan berkemah dengan tentara utama di dekat Gunung Massicus. Satu pasukan berkekuatan 4.000 orang menjaga celah di samping Gunung Callicula di timur, tempat [Hannibal](@fabius-trap-hannibal) dahulu masuk.
+
+@image fabius-plain-59eed2
+
+Fabius menunggu sampai orang Kartago kehabisan perbekalan. Ketika Lucius Hostilius [Mancinus](@fabius-trap-mancinus), yang dikirim dengan 400 prajurit berkuda untuk mengintai, bertempur dengan orang Numidia, kavaleri Carthalo membunuhnya dan menghancurkan seluruh pasukannya. Pada musim gugur, Hannibal bergerak ke timur menuju celah Callicula. Fabius berkemah bersama tentaranya di sebuah bukit di atas celah itu, dan Minucius bergabung dengannya di sana.

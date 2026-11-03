@@ -1,0 +1,38 @@
+# ko strings for the battle "trebia".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n ko
+
+# Roman Republic
+battle.sides.0.name: "로마 공화국"
+
+# 40,000: 36,000 infantry, 4,000 cavalry
+battle.sides.0.strength: "4만 명: 보병 36,000명, 기병 4,000명"
+
+# 20,000 killed, many captured
+battle.sides.0.casualties: "2만 명 전사, 포로 다수"
+
+# Carthage
+battle.sides.1.name: "카르타고"
+
+# 40,000, with 11,000 cavalry and about 30 elephants
+battle.sides.1.strength: "4만 명, 그 가운데 기병 11,000명, 코끼리 약 30마리"
+
+# Several thousand infantry, a few cavalry, several elephants
+battle.sides.1.casualties: "보병 수천 명, 기병 소수, 코끼리 여러 마리"
+
+# Battle of the Trebia
+battle.name: "트레비아강 전투"
+
+# 22 or 23 December 218 BC
+battle.date: "기원전 218년 12월 22일 또는 23일"
+
+# Carthaginian victory
+battle.result: "카르타고의 승리"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Tiberius Sempronius Longus
+battle.sides.0.commanders.0: "티베리우스 셈프로니우스 롱구스"
+
+# Hannibal
+battle.sides.1.commanders.0: "한니발"

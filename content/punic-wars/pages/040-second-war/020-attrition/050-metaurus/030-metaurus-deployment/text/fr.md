@@ -1,0 +1,5 @@
+Hasdrubal forme sa ligne, la droite appuyée au fleuve et la gauche à des collines accidentées. Ses quelques cavaliers se tiennent à droite. À côté d’eux, il place ses meilleures troupes, les vétérans ibères, en formation profonde, et les [Ligures](@metaurus-deploy-ligurians), eux aussi en rangs profonds, au centre. Les [Gaulois](@metaurus-deploy-gauls) tiennent une colline à gauche, derrière un profond ravin. Ses dix éléphants se tiennent devant la ligne, leurs cornacs armés d’un maillet et d’un ciseau pour tuer toute bête qui se retournerait contre son propre camp.
+
+@image metaurus-plan-220b01
+
+Les estimations modernes évaluent chaque armée à environ 30 000 hommes avant l’arrivée de [Néron](@metaurus-deploy-nero), qui porte les Romains à environ 37 000. [Livius](@metaurus-deploy-livius) commande la gauche romaine, face aux [Ibères](@metaurus-deploy-iberians), avec la cavalerie sur son flanc. [Porcius](@metaurus-deploy-porcius) commande le centre, et Néron la droite, face aux Gaulois de l’autre côté du ravin.

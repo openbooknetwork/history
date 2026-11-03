@@ -1,0 +1,5 @@
+La bataille s’ouvre par des escarmouches entre les Numides sur la droite romaine. Hannibal lance alors ses éléphants contre l’infanterie romaine. Les vélites courent en avant lancer leurs javelots et se replient, et les Romains sonnent de la trompette et frappent leurs boucliers de leurs armes. Plusieurs éléphants de la gauche carthaginoise font demi-tour et refluent à travers leur propre cavalerie numide, et [Massinissa](@zama-elephants-masinissa) charge les cavaliers en désordre et les chasse du champ de bataille.
+
+@image zama-cort-148f90
+
+La plupart des autres éléphants chargent l’infanterie romaine, et beaucoup s’engagent dans les couloirs entre les manipules, où les vélites les frappent aux flancs. Ceux qui ressortent derrière les lignes romaines sont traqués et abattus. Certains atteignent les hastats et leur causent de lourdes pertes. D’autres se tournent contre la cavalerie romaine de gauche, puis refluent à travers la cavalerie carthaginoise, et [Laelius](@zama-elephants-laelius) charge et la balaie du champ de bataille. Les deux cavaleries romaines partent à la poursuite.

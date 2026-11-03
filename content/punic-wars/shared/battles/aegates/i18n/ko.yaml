@@ -1,0 +1,41 @@
+# ko strings for the battle "aegates".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n ko
+
+# Roman Republic
+battle.sides.0.name: "로마 공화국"
+
+# About 200 quinqueremes
+battle.sides.0.strength: "5단 노선 약 200척"
+
+# 30 ships sunk, 50 damaged
+battle.sides.0.casualties: "30척 침몰, 50척 손상"
+
+# Carthage
+battle.sides.1.name: "카르타고"
+
+# About 250 quinqueremes
+battle.sides.1.strength: "5단 노선 약 250척"
+
+# 50 ships sunk, 70 captured, 10,000 men captured
+battle.sides.1.casualties: "50척 침몰, 70척 나포, 1만 명 포로"
+
+# Battle of the Aegates
+battle.name: "아이가테스 제도 해전"
+
+# 10 March 241 BC
+battle.date: "기원전 241년 3월 10일"
+
+# Roman victory, Treaty of Lutatius
+battle.result: "로마의 승리, 루타티우스 조약"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Gaius Lutatius Catulus
+battle.sides.0.commanders.0: "가이우스 루타티우스 카툴루스"
+
+# Quintus Valerius Falto
+battle.sides.0.commanders.1: "퀸투스 발레리우스 팔토"
+
+# Hanno
+battle.sides.1.commanders.0: "한노"

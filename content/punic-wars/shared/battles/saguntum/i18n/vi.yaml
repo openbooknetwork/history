@@ -1,0 +1,24 @@
+# vi strings for the battle "saguntum".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n vi
+
+# Carthage
+battle.sides.0.name: "Carthage"
+
+# Heavy
+battle.sides.0.casualties: "Nặng nề"
+
+# Saguntum
+battle.sides.1.name: "Saguntum"
+
+# Nearly all the defenders and many civilians killed
+battle.sides.1.casualties: "Gần như toàn bộ quân phòng thủ và nhiều dân thường bị giết"
+
+# Siege of Saguntum
+battle.name: "Cuộc vây hãm Saguntum"
+
+# 219 BC
+battle.date: "Năm 219 TCN"
+
+# Carthaginian victory, beginning of the Second Punic War
+battle.result: "Carthage thắng, Chiến tranh Punic lần thứ hai bắt đầu"

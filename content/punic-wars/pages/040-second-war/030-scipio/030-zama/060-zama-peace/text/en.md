@@ -4,4 +4,4 @@ Scipio marches back to [Tunis](@tunis-203) and opens talks. A Numidian army unde
 
 @image scipio-welcomed-rome-b4635e
 
-Carthage accepts the terms in spring 201 BC, with Hannibal speaking for them. It gives up its lands outside Africa and some within it, pays 10,000 talents of silver over fifty years and hands over hostages. It may keep no war elephants and only ten warships, and may wage war only in Africa and there only with Rome’s permission. Scipio celebrates a triumph and takes the name Africanus.
+Carthage accepts the terms in spring 201 BC, after Hannibal urges the Senate to take them. It gives up its lands outside Africa and some within it, pays 10,000 talents of silver over fifty years and hands over hostages. It may keep no war elephants and only ten warships, and may wage war only in Africa and there only with Rome’s permission. Scipio celebrates a triumph and takes the name Africanus.

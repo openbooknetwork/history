@@ -1,0 +1,38 @@
+# zh-CN strings for the battle "ager-falernus".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n zh-CN
+
+# Carthage
+battle.sides.0.name: "迦太基"
+
+# 2,000 light infantry, Iberian infantry, 2,000 oxen
+battle.sides.0.strength: "2000名轻步兵，伊比利亚步兵，2000头牛"
+
+# Light
+battle.sides.0.casualties: "轻微"
+
+# Roman Republic
+battle.sides.1.name: "罗马共和国"
+
+# 4,000 infantry
+battle.sides.1.strength: "4000名步兵"
+
+# 1,000 killed
+battle.sides.1.casualties: "1000人被杀"
+
+# Battle of Ager Falernus
+battle.name: "法勒努斯平原战役"
+
+# September 217 BC
+battle.date: "公元前217年9月"
+
+# Carthaginian victory, Hannibal’s army leaves the valley
+battle.result: "迦太基胜利，汉尼拔的军队离开河谷"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Hannibal
+battle.sides.0.commanders.0: "汉尼拔"
+
+# Quintus Fabius Maximus
+battle.sides.1.commanders.0: "昆图斯·费边·马克西穆斯"

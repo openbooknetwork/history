@@ -1,0 +1,5 @@
+En un plazo de 30 a 50 días, [Asdrúbal y Sífax](@great-plains-wings-hasdrubal) reúnen un nuevo ejército de unos 30 000 hombres, con 4000 [íberos](@great-plains-wings-iberians) recién llegados a Cartago, y acampan en las Grandes Llanuras del Bagradas, a unos 120 km de Útica. Escipión deja una fuerza ante Útica y marcha hacia allí sin impedimenta, con quizá 20 000 hombres. Tras tres días de escaramuzas, ambos ejércitos forman.
+
+@image numidian-horseman-6023b7
+
+Asdrúbal pone a los íberos en el centro, la infantería y la caballería cartaginesas a su derecha, y la infantería y la caballería númidas de Sífax a su izquierda. Escipión sitúa sus dos legiones romanas en el centro en sus tres líneas, una legión aliada a cada lado, la caballería romana al mando de [Lelio](@great-plains-wings-laelius) a la derecha y los númidas de [Masinisa](@great-plains-wings-masinissa) a la izquierda. A la primera carga se rompe la caballería de las dos alas cartaginesas, y la infantería cartaginesa y la númida huyen antes de que lleguen las legiones aliadas. Solo los íberos cargan a fondo contra los hastados.

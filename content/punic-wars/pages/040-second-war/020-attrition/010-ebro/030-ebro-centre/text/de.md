@@ -1,0 +1,3 @@
+Die Plänkler tauschen Geschosse aus und ziehen sich zurück, und die beiden [römischen Legionen](@ebro-centre-legions) rücken gegen das [iberische Fußvolk](@ebro-centre-iberians) vor. Nach einem Austausch von Wurfspeeren brechen die Iberer und fliehen fast ohne Kampf. Livius schreibt, sie hätten gewusst, dass ein Sieg bedeuten würde, Hasdrubal nach Italien zu folgen, und hätten Iberien nicht verlassen wollen.
+
+Die Legionen stoßen in die Lücke. Auf den Flügeln plänkelt die Reiterei ohne Ergebnis. Die [Afrikaner](@ebro-centre-africans) und die [Poeni](@ebro-centre-poeni) wenden sich zum Teil gegen die Flanken der römischen Legionen, doch vor jedem von ihnen steht auch eine verbündete Legion.

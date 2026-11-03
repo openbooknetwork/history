@@ -1,0 +1,5 @@
+Hannibal range 8 000 [Gaulois](@trebia-wings-gauls) au centre, avec 6 000 Africains et Ibères de part et d’autre, 12 000 en tout, la moitié de ses 30 éléphants au-delà de chacun de ces groupes, et 5 000 cavaliers sur chaque aile. Sempronius dispose d’environ 30 000 fantassins lourds, les légions romaines au centre et les légions alliées de part et d’autre, et de 2 000 cavaliers sur chaque aile. Les frondeurs baléares et les lanceurs de javelot tirent plus loin que les vélites fatigués et affamés et les refoulent par les intervalles de leur propre infanterie.
+
+@image trebia-slinger-65b103
+
+Sur chaque aile, 5 000 cavaliers carthaginois chargent 2 000 cavaliers romains, dont les chevaux sont épuisés par la poursuite des Numides. Les deux ailes romaines se rompent aussitôt et refluent au-delà de la Trébie, poursuivies par la plus grande partie de la [cavalerie carthaginoise](@trebia-wings-cavalry). L’infanterie légère carthaginoise se porte sur les flancs découverts de l’infanterie romaine, et les deux lignes principales se heurtent.

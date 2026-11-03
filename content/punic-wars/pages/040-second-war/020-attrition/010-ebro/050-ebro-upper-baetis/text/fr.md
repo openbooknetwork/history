@@ -1,0 +1,5 @@
+Pendant plusieurs années, les Scipions ne reçoivent aucun renfort d’Italie et poursuivent la lutte par des raids et des alliances avec des tribus ibères. En 212 av. J.-C., ils reprennent [Sagonte](@saguntum-212) et prennent [Castulo](@castulo-211), une ville minière et la patrie d’Imilcé, l’épouse d’Hannibal, où ils hivernent. Hasdrubal Barca est désormais rejoint par deux autres armées carthaginoises sous son frère Magon et sous Hasdrubal Gisco.
+
+@image scipios-tower-d489f7
+
+En 211 av. J.-C., les deux frères engagent 20 000 mercenaires celtibères en plus de leurs 30 000 Romains et alliés, et divisent leurs forces. Publius marche contre Magon près de Castulo, est surpris par la cavalerie numide de Massinissa et par les armées de Magon et d’Hasdrubal Gisco, et est tué avec la plupart de ses hommes. Hasdrubal Barca soudoie les Celtibères de Cnaeus pour qu’ils rentrent chez eux, et quelques jours plus tard Cnaeus est submergé et tué sur une colline près d’[Ilorca](@ilorca-211). Les survivants, environ 8 000 à 9 000 hommes, se rassemblent au nord de l’Èbre.

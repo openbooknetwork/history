@@ -1,0 +1,5 @@
+Al amanecer los romanos están cerca de [Drépano](@lilybaeum-approach-drepana), pero en la oscuridad las naves han perdido su puesto, y los 10 000 remeros nuevos no logran seguir el ritmo de las tripulaciones veteranas. La flota, de más de 120 naves, 200 según algunos relatos, se extiende a lo largo de la costa en una línea larga y desordenada. La nave capitana de [Pulcro](@lilybaeum-approach-pulcher) va cerca de la retaguardia.
+
+@image lilybaeum-drepana-view-4568c2
+
+El comandante cartaginés [Adérbal](@lilybaeum-approach-adherbal) es tomado por sorpresa, pero sus 100 a 130 naves están listas para hacerse a la mar. Embarca a la guarnición como infantería de marina y saca la flota del puerto. Las primeras naves romanas han llegado a la bocana cuando Pulcro les ordena volver para formar una línea, y las naves que dan la vuelta chocan con las que siguen llegando y se rompen los remos unas a otras. Adérbal deja atrás la desordenada [vanguardia romana](@lilybaeum-approach-van), se desliza entre la ciudad y dos islotes hacia mar abierto y gira hacia el sur.

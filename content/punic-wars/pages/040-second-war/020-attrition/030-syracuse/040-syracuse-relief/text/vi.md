@@ -1,0 +1,3 @@
+Hippocrates và tướng Carthage Himilco đưa quân đến sông Anapus và đóng trại gần đền thờ thần Zeus Olympia, ở phía nam thành phố. Một hạm đội Carthage dưới quyền [Bomilcar](@syracuse-relief-bomilcar) đưa tiếp tế vào Cảng Lớn. Hippocrates tấn công phòng tuyến La Mã trong khi [Epicydes](@syracuse-relief-epicydes) xuất kích từ Achradina, và cả hai cuộc tấn công đều bị đẩy lùi.
+
+Vào mùa thu, dịch bệnh bùng phát ở vùng đất thấp, lầy lội bên sông. Dịch bệnh tấn công cả hai đạo quân, nhưng quân Carthage, đóng trại ngoài trời cạnh đầm lầy, chịu thiệt hại nặng nhất. [Himilco và Hippocrates](@syracuse-relief-himilco) chết và đạo quân của họ tan rã, còn nỗ lực sau đó của Bomilcar nhằm đưa đến một hạm đội lớn hơn kết thúc mà không có trận đánh nào.

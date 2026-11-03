@@ -1,0 +1,5 @@
+Hannibal stellt 8 000 [Gallier](@trebia-wings-gauls) ins Zentrum, je 6 000 Afrikaner und Iberer auf beide Seiten, zusammen 12 000, jenseits davon je die Hälfte seiner 30 Elefanten und auf jeden Flügel 5 000 Reiter. Sempronius hat etwa 30 000 Mann schweres Fußvolk, die römischen Legionen im Zentrum und die verbündeten Legionen zu beiden Seiten, und auf jedem Flügel 2 000 Reiter. Die balearischen Schleuderer und Speerwerfer haben eine größere Reichweite als die müden, hungrigen Veliten und treiben sie durch die Lücken des eigenen Fußvolks zurück.
+
+@image trebia-slinger-65b103
+
+Auf jedem Flügel greifen 5 000 karthagische Reiter 2 000 römische an, deren Pferde von der Jagd auf die Numider erschöpft sind. Beide römischen Flügel brechen sofort und fliehen über die Trebia zurück, verfolgt vom größten Teil der [karthagischen Reiterei](@trebia-wings-cavalry). Die karthagischen Leichtbewaffneten gehen um die offenen Flanken des römischen Fußvolks herum, und die beiden Hauptlinien treffen aufeinander.

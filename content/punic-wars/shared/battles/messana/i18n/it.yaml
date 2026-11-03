@@ -1,0 +1,47 @@
+# it strings for the battle "messana".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n it
+
+# Roman Republic
+battle.sides.0.name: "Repubblica romana"
+
+# 9,000
+battle.sides.0.strength: "9.000"
+
+# 1,340
+battle.sides.0.casualties: "1.340"
+
+# Carthage and Syracuse
+battle.sides.1.name: "Cartagine e Siracusa"
+
+# 12,000 cavalry, hoplites and mercenaries
+battle.sides.1.strength: "12.000 tra cavalieri, opliti e mercenari"
+
+# 6,000
+battle.sides.1.casualties: "6.000"
+
+# Battle of Messana
+battle.name: "Battaglia di Messina"
+
+# 264 BC
+battle.date: "264 a.C."
+
+# Roman victory
+battle.result: "Vittoria romana"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Appius Claudius Caudex
+battle.sides.0.commanders.0: "Appio Claudio Caudice"
+
+# Manius Valerius Maximus
+battle.sides.0.commanders.1: "Manio Valerio Massimo"
+
+# Manius Otacilius Crassus
+battle.sides.0.commanders.2: "Manio Otacilio Crasso"
+
+# Hanno
+battle.sides.1.commanders.0: "Annone"
+
+# Hiero II
+battle.sides.1.commanders.1: "Gerone II"

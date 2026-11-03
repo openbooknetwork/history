@@ -1,0 +1,30 @@
+# vi strings for the battle "the-saw".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n vi
+
+# Carthage
+battle.sides.0.name: "Carthage"
+
+# 20,000 – 30,000
+battle.sides.0.strength: "20.000–30.000"
+
+# Light
+battle.sides.0.casualties: "Nhẹ"
+
+# Rebel army
+battle.sides.1.name: "Quân nổi dậy"
+
+# 50,000
+battle.sides.1.strength: "50.000"
+
+# All killed
+battle.sides.1.casualties: "Bị giết hết"
+
+# Battle of the Saw
+battle.name: "Trận Cái Cưa"
+
+# 238 BC
+battle.date: "Năm 238 TCN"
+
+# Carthaginian victory
+battle.result: "Carthage thắng"

@@ -1,0 +1,38 @@
+# uk strings for the battle "new-carthage".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n uk
+
+# Roman Republic
+battle.sides.0.name: "Римська республіка"
+
+# 27,500, with 35 galleys
+battle.sides.0.strength: "27 500 і 35 галер"
+
+# Unknown
+battle.sides.0.casualties: "Невідомо"
+
+# Carthage
+battle.sides.1.name: "Карфаген"
+
+# Over 3,000, of them 2,000 civilian levies
+battle.sides.1.strength: "Понад 3000, з них 2000 ополченців із городян"
+
+# All killed or captured
+battle.sides.1.casualties: "Усі вбиті або взяті в полон"
+
+# Battle of New Carthage
+battle.name: "Битва за Новий Карфаген"
+
+# Early 209 BC
+battle.date: "Початок 209 р. до н. е."
+
+# Roman victory, New Carthage taken
+battle.result: "Перемога Рима, Новий Карфаген узято"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Publius Cornelius Scipio
+battle.sides.0.commanders.0: "Публій Корнелій Сципіон"
+
+# Mago
+battle.sides.1.commanders.0: "Магон"

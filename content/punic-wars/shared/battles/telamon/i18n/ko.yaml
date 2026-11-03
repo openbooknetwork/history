@@ -1,0 +1,44 @@
+# ko strings for the battle "telamon".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n ko
+
+# Roman Republic
+battle.sides.0.name: "로마 공화국"
+
+# 101,600 infantry, 6,400 cavalry
+battle.sides.0.strength: "보병 101,600명, 기병 6,400명"
+
+# 6,000 killed
+battle.sides.0.casualties: "6,000명 전사"
+
+# Gauls: Boii, Insubres, Taurisci and Gaesatae
+battle.sides.1.name: "갈리아인: 보이족, 인수브레스족, 타우리스키족, 가이사타이족"
+
+# 50,000 infantry, 20,000 cavalry
+battle.sides.1.strength: "보병 5만 명, 기병 2만 명"
+
+# 40,000 killed, 10,000 captured
+battle.sides.1.casualties: "4만 명 전사, 1만 명 포로"
+
+# Battle of Telamon
+battle.name: "텔라몬 전투"
+
+# 225 BC
+battle.date: "기원전 225년"
+
+# Roman victory
+battle.result: "로마의 승리"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Gaius Atilius Regulus
+battle.sides.0.commanders.0: "가이우스 아틸리우스 레굴루스"
+
+# Lucius Aemilius Papus
+battle.sides.0.commanders.1: "루키우스 아이밀리우스 파푸스"
+
+# Concolitanus
+battle.sides.1.commanders.0: "콘콜리타누스"
+
+# Aneroëstes
+battle.sides.1.commanders.1: "아네로에스테스"

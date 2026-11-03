@@ -1,0 +1,44 @@
+# zh-TW strings for the battle "telamon".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n zh-TW
+
+# Roman Republic
+battle.sides.0.name: "羅馬共和國"
+
+# 101,600 infantry, 6,400 cavalry
+battle.sides.0.strength: "101,600名步兵，6,400名騎兵"
+
+# 6,000 killed
+battle.sides.0.casualties: "6,000人陣亡"
+
+# Gauls: Boii, Insubres, Taurisci and Gaesatae
+battle.sides.1.name: "高盧人：波伊人、因蘇布雷斯人、陶里斯基人和蓋薩泰人"
+
+# 50,000 infantry, 20,000 cavalry
+battle.sides.1.strength: "5萬名步兵，2萬名騎兵"
+
+# 40,000 killed, 10,000 captured
+battle.sides.1.casualties: "4萬人被殺，1萬人被俘"
+
+# Battle of Telamon
+battle.name: "特拉蒙之戰"
+
+# 225 BC
+battle.date: "西元前225年"
+
+# Roman victory
+battle.result: "羅馬勝利"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Gaius Atilius Regulus
+battle.sides.0.commanders.0: "蓋烏斯‧阿蒂利烏斯‧雷古魯斯"
+
+# Lucius Aemilius Papus
+battle.sides.0.commanders.1: "盧基烏斯‧埃米利烏斯‧帕普斯"
+
+# Concolitanus
+battle.sides.1.commanders.0: "康科利塔努斯"
+
+# Aneroëstes
+battle.sides.1.commanders.1: "阿內羅埃斯特斯"

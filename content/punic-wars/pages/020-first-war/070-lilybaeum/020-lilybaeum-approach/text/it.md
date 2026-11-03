@@ -1,0 +1,5 @@
+All’alba i Romani sono vicini a [Drepano](@lilybaeum-approach-drepana), ma nel buio le navi hanno perso la formazione, e i 10.000 nuovi rematori non riescono a tenere il ritmo dei vecchi equipaggi. La flotta di più di 120 navi, 200 secondo alcune fonti, si allunga in una linea lunga e disordinata lungo la costa. L’ammiraglia di [Pulcro](@lilybaeum-approach-pulcher) è verso la coda.
+
+@image lilybaeum-drepana-view-4568c2
+
+Il comandante cartaginese [Aderbale](@lilybaeum-approach-adherbal) è colto di sorpresa, ma le sue 100–130 navi sono pronte a prendere il mare. Imbarca la guarnigione come fanteria di marina e guida la flotta fuori dal porto. Le prime navi romane hanno raggiunto l’imboccatura del porto quando Pulcro ordina loro di tornare indietro per formare una linea, e le navi che invertono la rotta si scontrano con quelle che ancora avanzano e si spezzano a vicenda i remi. Aderbale supera la confusa [avanguardia romana](@lilybaeum-approach-van), sguscia tra la città e due isolette fino al mare aperto e piega a sud.

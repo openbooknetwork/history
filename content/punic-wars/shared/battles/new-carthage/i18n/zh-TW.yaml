@@ -1,0 +1,38 @@
+# zh-TW strings for the battle "new-carthage".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n zh-TW
+
+# Roman Republic
+battle.sides.0.name: "羅馬共和國"
+
+# 27,500, with 35 galleys
+battle.sides.0.strength: "27,500人，另有35艘槳帆船"
+
+# Unknown
+battle.sides.0.casualties: "不詳"
+
+# Carthage
+battle.sides.1.name: "迦太基"
+
+# Over 3,000, of them 2,000 civilian levies
+battle.sides.1.strength: "3,000多人，其中2,000人是徵召的平民"
+
+# All killed or captured
+battle.sides.1.casualties: "全數陣亡或被俘"
+
+# Battle of New Carthage
+battle.name: "新迦太基之戰"
+
+# Early 209 BC
+battle.date: "西元前209年初"
+
+# Roman victory, New Carthage taken
+battle.result: "羅馬勝利，攻下新迦太基"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Publius Cornelius Scipio
+battle.sides.0.commanders.0: "普布利烏斯‧科爾內利烏斯‧西庇阿"
+
+# Mago
+battle.sides.1.commanders.0: "馬戈"

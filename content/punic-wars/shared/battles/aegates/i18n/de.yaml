@@ -1,0 +1,30 @@
+# de strings for the battle "aegates".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n de
+
+# Roman Republic
+battle.sides.0.name: "Römische Republik"
+
+# About 200 quinqueremes
+battle.sides.0.strength: "Etwa 200 Quinqueremen"
+
+# 30 ships sunk, 50 damaged
+battle.sides.0.casualties: "30 Schiffe versenkt, 50 beschädigt"
+
+# Carthage
+battle.sides.1.name: "Karthago"
+
+# About 250 quinqueremes
+battle.sides.1.strength: "Etwa 250 Quinqueremen"
+
+# 50 ships sunk, 70 captured, 10,000 men captured
+battle.sides.1.casualties: "50 Schiffe versenkt, 70 erbeutet, 10 000 Mann gefangen"
+
+# Battle of the Aegates
+battle.name: "Seeschlacht bei den Ägatischen Inseln"
+
+# 10 March 241 BC
+battle.date: "10. März 241 v. Chr."
+
+# Roman victory, Treaty of Lutatius
+battle.result: "Römischer Sieg, Lutatius-Vertrag"

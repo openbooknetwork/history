@@ -1,0 +1,38 @@
+# ko strings for the battle "tunis".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n ko
+
+# Carthage
+battle.sides.0.name: "카르타고"
+
+# 12,000 infantry, 4,000 cavalry, 100 elephants
+battle.sides.0.strength: "보병 12,000명, 기병 4,000명, 코끼리 100마리"
+
+# At least 800 killed
+battle.sides.0.casualties: "800명 이상 전사"
+
+# Roman Republic
+battle.sides.1.name: "로마 공화국"
+
+# 15,000 infantry, 500 cavalry
+battle.sides.1.strength: "보병 15,000명, 기병 500명"
+
+# 13,000 killed, 500 captured
+battle.sides.1.casualties: "13,000명 전사, 500명 포로"
+
+# Battle of Tunis
+battle.name: "튀니스 전투"
+
+# Spring 255 BC
+battle.date: "기원전 255년 봄"
+
+# Carthaginian victory, Regulus captured
+battle.result: "카르타고의 승리, 레굴루스 포로"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Xanthippus
+battle.sides.0.commanders.0: "크산티포스"
+
+# Marcus Atilius Regulus
+battle.sides.1.commanders.0: "마르쿠스 아틸리우스 레굴루스"

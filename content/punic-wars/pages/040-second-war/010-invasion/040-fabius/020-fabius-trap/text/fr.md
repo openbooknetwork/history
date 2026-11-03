@@ -1,0 +1,5 @@
+L’Ager Falernus s’étend au nord du Volturne, dont les Romains tiennent les ponts, si bien que sur les huit routes qui sortent de la plaine, trois seulement sont ouvertes à l’armée d’Hannibal. [Fabius](@fabius-trap-fabius) renforce les garnisons de [Casilinum](@casilinum-217) et de Calès, poste [Minucius](@fabius-trap-minucius) au nord pour surveiller la voie Latine et la voie Appienne, et campe avec l’armée principale près du mont Massique. Un détachement de 4 000 hommes tient le défilé voisin du mont Callicula, à l’est, par lequel [Hannibal](@fabius-trap-hannibal) est entré.
+
+@image fabius-plain-59eed2
+
+Fabius attend que les Carthaginois manquent de vivres. Quand Lucius Hostilius [Mancinus](@fabius-trap-mancinus), envoyé en reconnaissance avec 400 cavaliers, engage le combat contre les Numides, la cavalerie de Carthalon le tue et anéantit toute sa troupe. À l’automne, Hannibal se dirige vers l’est, vers le défilé de Callicula. Fabius campe avec son armée sur une colline qui le domine, et Minucius l’y rejoint.

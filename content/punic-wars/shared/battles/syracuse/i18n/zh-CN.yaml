@@ -1,0 +1,50 @@
+# zh-CN strings for the battle "syracuse".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n zh-CN
+
+# Roman Republic
+battle.sides.0.name: "罗马共和国"
+
+# 16,000–18,000
+battle.sides.0.strength: "1.6万～1.8万人"
+
+# Heavy
+battle.sides.0.casualties: "惨重"
+
+# Syracuse and Carthage
+battle.sides.1.name: "叙拉古和迦太基"
+
+# 21,000–25,000
+battle.sides.1.strength: "2.1万～2.5万人"
+
+# Over 5,000, and many civilians
+battle.sides.1.casualties: "5000多人，另有许多平民"
+
+# Siege of Syracuse
+battle.name: "叙拉古之围"
+
+# Spring 213 – Autumn 212 BC
+battle.date: "公元前213年春—前212年秋"
+
+# Roman victory, Syracuse sacked
+battle.result: "罗马胜利，叙拉古遭洗劫"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Marcus Claudius Marcellus
+battle.sides.0.commanders.0: "马库斯·克劳狄乌斯·马塞卢斯"
+
+# Appius Claudius Pulcher
+battle.sides.0.commanders.1: "阿庇乌斯·克劳狄乌斯·普尔喀"
+
+# Epicydes
+battle.sides.1.commanders.0: "埃皮库德斯"
+
+# Hippocrates
+battle.sides.1.commanders.1: "希波克拉底"
+
+# Himilco
+battle.sides.1.commanders.2: "希米尔科"
+
+# Bomilcar
+battle.sides.1.commanders.3: "博米尔卡"

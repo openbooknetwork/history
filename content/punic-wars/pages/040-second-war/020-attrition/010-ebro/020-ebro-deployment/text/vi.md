@@ -1,0 +1,3 @@
+Hai đạo quân đóng trại cách nhau khoảng 8 km trên một đồng bằng gần [Ibera](@ebro-deploy-ibera), và trong nhiều ngày chỉ có lính đánh lẻ hai bên giao chiến. Rồi cả hai cùng kéo quân ra trong một ngày, mỗi bên khoảng 25.000 người. Người La Mã có lẽ đặt hai quân đoàn của mình ở trung tâm, mỗi bên một quân đoàn đồng minh, và kị binh ở hai cánh.
+
+Hasdrubal đặt bộ binh Iberia ở trung tâm, bộ binh nặng châu Phi ở bên trái họ và bộ binh nặng mà Livy gọi là Poeni, có lẽ là dân quân từ các thị trấn Carthage ở Iberia, ở bên phải họ. Kị binh Libya và Iberia giữ cánh trái, còn [kị binh Numidia](@ebro-deploy-numidians) giữ cánh phải. Khoảng 20 con voi đứng trước bộ binh, sau một màn che gồm lính ném đá đảo Baleares và bộ binh nhẹ châu Phi.

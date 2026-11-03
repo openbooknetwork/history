@@ -1,0 +1,5 @@
+En 30 à 50 jours, [Hasdrubal et Syphax](@great-plains-wings-hasdrubal) lèvent une nouvelle armée d’environ 30 000 hommes, avec 4 000 [Ibères](@great-plains-wings-iberians) récemment arrivés à Carthage, et campent dans les Grandes Plaines du Bagradas, à environ 120 km d’Utique. Scipion laisse une troupe devant Utique et s’y rend sans train de bagages, avec peut-être 20 000 hommes. Après trois jours d’escarmouches, les deux armées se rangent en bataille.
+
+@image numidian-horseman-6023b7
+
+Hasdrubal place les Ibères au centre, l’infanterie et la cavalerie carthaginoises à leur droite, et l’infanterie et la cavalerie numides de Syphax à leur gauche. Scipion place ses deux légions romaines au centre sur leurs trois lignes, une légion alliée de chaque côté, la cavalerie romaine sous [Laelius](@great-plains-wings-laelius) à droite et les Numides de [Massinissa](@great-plains-wings-masinissa) à gauche. Dès la première charge, la cavalerie des deux ailes carthaginoises se rompt, et l’infanterie carthaginoise et numide s’enfuit avant que les légions alliées ne l’atteignent. Seuls les Ibères chargent à fond contre les hastats.

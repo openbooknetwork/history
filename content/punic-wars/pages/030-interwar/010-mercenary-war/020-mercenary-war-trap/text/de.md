@@ -1,0 +1,5 @@
+Anfang 238 v. Chr. schicken die Aufständischen den größten Teil ihres Heeres, etwa 50 000 Mann unter [Spendios](@mercenary-war-trap-spendius), Autaritos und Zarzas, aus, um [Hamilkars](@mercenary-war-trap-hamilcar) Streifzüge zu unterbinden. Monatelang ziehen die Heere im Bergland hin und her, und die Aufständischen halten sich an unwegsames Gelände, wo die karthagischen Elefanten und Reiter wenig nützen. Hamilkar lässt seine Gefangenen von Elefanten zu Tode trampeln, was die Aufständischen nur noch erbitterter kämpfen lässt.
+
+@image mercenary-war-hamilcar-439076
+
+Schließlich schließt Hamilkar mit drei Abteilungen unter sich selbst, seinem Stellvertreter [Hannibal](@mercenary-war-trap-hannibal) und [Naravas](@mercenary-war-trap-naravas) die Aufständischen an einem Ort ein, der wegen seines gezackten Umrisses die Säge heißt. Ob es ein Pass oder eine Hügelkette war und wo der Ort lag, ist unbekannt. Bevor die Aufständischen ihre Lage begreifen, befestigen die Karthager Stellungen in einem Gelände, das jeden Angriff aussichtslos macht, und mehr als 40 000 Aufständische haben zwar Wasser, aber keine Nahrung.

@@ -1,0 +1,30 @@
+# vi strings for the battle "panormus".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n vi
+
+# Roman Republic
+battle.sides.0.name: "Cộng hoà La Mã"
+
+# 2 legions and 2 allied alae, 16,000 to 20,000 men
+battle.sides.0.strength: "2 quân đoàn và 2 cánh quân đồng minh (ala), 16.000 đến 20.000 người"
+
+# Unknown, but light
+battle.sides.0.casualties: "Không rõ, nhưng nhẹ"
+
+# Carthage
+battle.sides.1.name: "Carthage"
+
+# 30,000 men, 60 to 142 elephants
+battle.sides.1.strength: "30.000 người, 60 đến 142 con voi"
+
+# Heavy, the elephants captured
+battle.sides.1.casualties: "Nặng nề, voi bị bắt"
+
+# Battle of Panormus
+battle.name: "Trận Panormus"
+
+# 250 BC
+battle.date: "Năm 250 TCN"
+
+# Roman victory
+battle.result: "La Mã thắng"

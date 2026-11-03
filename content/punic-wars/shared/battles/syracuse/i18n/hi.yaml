@@ -1,0 +1,50 @@
+# hi strings for the battle "syracuse".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n hi
+
+# Roman Republic
+battle.sides.0.name: "रोमन गणराज्य"
+
+# 16,000–18,000
+battle.sides.0.strength: "16,000 से 18,000 तक"
+
+# Heavy
+battle.sides.0.casualties: "भारी नुकसान"
+
+# Syracuse and Carthage
+battle.sides.1.name: "सिरैक्यूज़ और कार्थेज"
+
+# 21,000–25,000
+battle.sides.1.strength: "21,000 से 25,000 तक"
+
+# Over 5,000, and many civilians
+battle.sides.1.casualties: "5,000 से अधिक, और बहुत से नागरिक"
+
+# Siege of Syracuse
+battle.name: "सिरैक्यूज़ की घेराबंदी"
+
+# Spring 213 – Autumn 212 BC
+battle.date: "213 ईसा पूर्व के वसंत से 212 ईसा पूर्व की शरद ऋतु तक"
+
+# Roman victory, Syracuse sacked
+battle.result: "रोम की जीत, सिरैक्यूज़ लूटा गया"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Marcus Claudius Marcellus
+battle.sides.0.commanders.0: "मार्कस क्लॉडियस मार्सेलस"
+
+# Appius Claudius Pulcher
+battle.sides.0.commanders.1: "एपियस क्लॉडियस पुल्कर"
+
+# Epicydes
+battle.sides.1.commanders.0: "एपिसाइडीज़"
+
+# Hippocrates
+battle.sides.1.commanders.1: "हिप्पोक्रेटीज़"
+
+# Himilco
+battle.sides.1.commanders.2: "हिमिल्को"
+
+# Bomilcar
+battle.sides.1.commanders.3: "बोमिल्कर"

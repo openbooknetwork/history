@@ -1,0 +1,30 @@
+# de strings for the battle "drepana".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n de
+
+# Carthage
+battle.sides.0.name: "Karthago"
+
+# 100 to 130 ships
+battle.sides.0.strength: "100 bis 130 Schiffe"
+
+# None recorded
+battle.sides.0.casualties: "Keine überliefert"
+
+# Roman Republic
+battle.sides.1.name: "Römische Republik"
+
+# At least 123 ships
+battle.sides.1.strength: "Mindestens 123 Schiffe"
+
+# 93 ships captured, more sunk, 20,000 men killed or captured
+battle.sides.1.casualties: "93 Schiffe erbeutet, weitere versenkt, 20 000 Mann getötet oder gefangen"
+
+# Battle of Drepana
+battle.name: "Seeschlacht bei Drepana"
+
+# 249 BC
+battle.date: "249 v. Chr."
+
+# Carthaginian victory
+battle.result: "Karthagischer Sieg"

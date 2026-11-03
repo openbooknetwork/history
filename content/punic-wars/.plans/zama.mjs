@@ -17,7 +17,7 @@ const line = (w, id, name) => lanes.map(u => unit('rome', 'infantry', u, w, 230,
 writePlan(`${G}/010-zama`, {
   bbox: [6.3, 35.0, 17.6, 39.9],
   routes: {
-    'hannibal-203': { name: 'Hannibal sails from Croton to Leptis Minor, 203 BC', color: 'carthage', path: [[17.13, 39.08], [16.2, 38.4], [14.8, 37.3], [13.0, 36.55], [11.6, 35.95], [10.86, 35.68]] },
+    'hannibal-203': { name: 'Hannibal sails from Croton to Leptis Parva, 203 BC', color: 'carthage', path: [[17.13, 39.08], [16.2, 38.4], [14.8, 37.3], [13.0, 36.55], [11.6, 35.95], [10.86, 35.68]] },
     'hannibal-202': { name: 'Hannibal marches inland from Hadrumetum, 202 BC', color: 'carthage', path: [[10.64, 35.83], [10.25, 35.95], [9.85, 36.12], [9.47, 36.31]] },
     'masinissa-202': { name: 'Masinissa joins Scipio with 10,000 Numidians', color: 'numidia', path: [[6.61, 36.36], [7.4, 36.38], [8.3, 36.34], [9.0, 36.3], [9.41, 36.29]] },
   },

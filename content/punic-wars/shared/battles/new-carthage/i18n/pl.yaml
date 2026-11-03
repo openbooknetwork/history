@@ -1,0 +1,38 @@
+# pl strings for the battle "new-carthage".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n pl
+
+# Roman Republic
+battle.sides.0.name: "Republika Rzymska"
+
+# 27,500, with 35 galleys
+battle.sides.0.strength: "27 500 oraz 35 galer"
+
+# Unknown
+battle.sides.0.casualties: "Nieznane"
+
+# Carthage
+battle.sides.1.name: "Kartagina"
+
+# Over 3,000, of them 2,000 civilian levies
+battle.sides.1.strength: "Ponad 3000, w tym 2000 powołanych cywilów"
+
+# All killed or captured
+battle.sides.1.casualties: "Wszyscy zabici lub wzięci do niewoli"
+
+# Battle of New Carthage
+battle.name: "Bitwa pod Nową Kartaginą"
+
+# Early 209 BC
+battle.date: "Początek 209 p.n.e."
+
+# Roman victory, New Carthage taken
+battle.result: "Zwycięstwo Rzymian, zdobycie Nowej Kartaginy"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Publius Cornelius Scipio
+battle.sides.0.commanders.0: "Publiusz Korneliusz Scypion"
+
+# Mago
+battle.sides.1.commanders.0: "Magon"

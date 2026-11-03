@@ -1,4 +1,4 @@
-Hannibal draws up 8,000 [Gauls](@trebia-wings-gauls) in the centre, with 6,000 Africans and Iberians on each side of them, half of his 30 elephants beyond each of these, and 5,000 cavalry on each wing. Sempronius has about 30,000 heavy infantry, the Roman legions in the centre and the allied legions on both sides, and 2,000 cavalry on each wing. The Balearic slingers and javelinmen outrange the tired, hungry velites and drive them back through the gaps in their own infantry.
+Hannibal draws up 8,000 [Gauls](@trebia-wings-gauls) in the centre, with 6,000 Africans and Iberians on either side of them, 12,000 in all, half of his 30 elephants beyond each of these, and 5,000 cavalry on each wing. Sempronius has about 30,000 heavy infantry, the Roman legions in the centre and the allied legions on both sides, and 2,000 cavalry on each wing. The Balearic slingers and javelinmen outrange the tired, hungry velites and drive them back through the gaps in their own infantry.
 
 @image trebia-slinger-65b103
 

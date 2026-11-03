@@ -1,0 +1,5 @@
+Durante l’inverno [Scipione](@great-plains-camps-scipio) tratta con Siface, che si offre di mediare una pace. A ogni ambasceria manda ufficiali travestiti da schiavi, che riferiscono che il [campo cartaginese](@great-plains-camps-carthaginian) ha baracche di legno dietro terrapieni, mentre il [campo numida](@great-plains-camps-numidian) ha capanne di canne e paglia e nessun perimetro definito. In primavera si prepara apertamente ad assaltare [Utica](@utica-204), poi una sera tardi esce con l’esercito e lo divide.
+
+@image syphax-receives-scipio-360bc9
+
+[Lelio e Massinissa](@great-plains-camps-laelius) attaccano il campo numida e danno fuoco alle capanne di canne. Molti Cartaginesi, credendo che l’incendio sia un incidente, corrono disarmati fuori dal loro campo per aiutare, e Scipione assalta il loro campo e ne incendia le baracche. Nel buio e nel panico entrambi gli eserciti subiscono pesanti perdite. Asdrubale fugge a Cartagine, a 40 km, con 2.500 uomini, e Siface con pochi cavalieri.

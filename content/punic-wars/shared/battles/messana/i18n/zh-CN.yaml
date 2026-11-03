@@ -1,0 +1,47 @@
+# zh-CN strings for the battle "messana".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n zh-CN
+
+# Roman Republic
+battle.sides.0.name: "罗马共和国"
+
+# 9,000
+battle.sides.0.strength: "9000人"
+
+# 1,340
+battle.sides.0.casualties: "1340人"
+
+# Carthage and Syracuse
+battle.sides.1.name: "迦太基和叙拉古"
+
+# 12,000 cavalry, hoplites and mercenaries
+battle.sides.1.strength: "1.2万人，有骑兵、重装步兵和雇佣兵"
+
+# 6,000
+battle.sides.1.casualties: "6000人"
+
+# Battle of Messana
+battle.name: "墨西拿战役"
+
+# 264 BC
+battle.date: "公元前264年"
+
+# Roman victory
+battle.result: "罗马胜利"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Appius Claudius Caudex
+battle.sides.0.commanders.0: "阿庇乌斯·克劳狄乌斯·考德克斯"
+
+# Manius Valerius Maximus
+battle.sides.0.commanders.1: "马尼乌斯·瓦勒里乌斯·马克西穆斯"
+
+# Manius Otacilius Crassus
+battle.sides.0.commanders.2: "马尼乌斯·奥塔基利乌斯·克拉苏"
+
+# Hanno
+battle.sides.1.commanders.0: "汉诺"
+
+# Hiero II
+battle.sides.1.commanders.1: "希伦二世"

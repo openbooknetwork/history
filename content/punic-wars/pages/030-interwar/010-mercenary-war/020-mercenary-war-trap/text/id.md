@@ -1,0 +1,5 @@
+Pada awal tahun 238 SM, para pemberontak mengirim sebagian besar pasukan mereka, sekitar 50.000 orang di bawah [Spendius](@mercenary-war-trap-spendius), Autaritus, dan Zarzas, untuk menghentikan serangan-serangan [Hamilcar](@mercenary-war-trap-hamilcar). Selama berbulan-bulan kedua pasukan bergerak maju mundur di dataran tinggi. Para pemberontak bertahan di medan yang berat, tempat gajah dan kavaleri Kartago tidak banyak berguna. Hamilcar menyuruh tawanannya diinjak gajah sampai mati, yang justru membuat para pemberontak bertempur lebih keras.
+
+@image mercenary-war-hamilcar-439076
+
+Akhirnya Hamilcar, dengan tiga divisi di bawah dirinya sendiri, wakilnya [Hannibal](@mercenary-war-trap-hannibal), dan [Naravas](@mercenary-war-trap-naravas), menjebak para pemberontak di sebuah tempat yang disebut Gergaji karena bentuknya yang bergerigi. Tidak diketahui apakah tempat itu sebuah celah atau deretan bukit, dan di mana letaknya. Sebelum para pemberontak memahami keadaan mereka, orang Kartago membentengi posisi-posisi di medan yang membuat setiap serangan tidak mungkin berhasil, dan lebih dari 40.000 pemberontak tertinggal dengan air tetapi tanpa makanan.

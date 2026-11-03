@@ -1,0 +1,5 @@
+Als der römische Keil auf das karthagische Zentrum stößt, weichen [Hamilkars](@ecnomus-fights-hamilcar) Schiffe zurück, wahrscheinlich rückwärts rudernd, und die Konsuln folgen ihnen. Das dritte römische Geschwader, durch seine Schlepplast gebremst, fällt zurück, und zwischen den vorderen und den hinteren Geschwadern öffnet sich eine Lücke. Antike und moderne Historiker sehen darin Hamilkars Plan: die geschlossene römische Formation aufzubrechen und die Schiffe von der Seite anzugreifen, abseits der Corvi.
+
+@image ecnomus-punic-keel-4fe6c7
+
+Der karthagische landseitige Flügel fällt über das dritte Geschwader her, das die Transportschiffe loswirft, zur Küste zurückweicht und im seichten Wasser mit Front zur See Stellung bezieht. [Hannos](@ecnomus-fights-hanno) seewärtiges Geschwader greift das vierte Geschwader in der Nachhut an, das von den treibenden Transportschiffen behindert wird. Hamilkar lässt sein Zentrum wenden und stellt sich den Konsuln, und die Schlacht zerfällt in drei getrennte Kämpfe.

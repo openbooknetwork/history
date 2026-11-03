@@ -1,0 +1,5 @@
+A comienzos del 238 a. C. los rebeldes envían la mayor parte de su ejército, unos 50 000 hombres al mando de [Espendio](@mercenary-war-trap-spendius), Autarito y Zarzas, para frenar las incursiones de [Amílcar](@mercenary-war-trap-hamilcar). Durante meses los ejércitos marchan y contramarchan por las tierras altas, y los rebeldes se mantienen en terreno abrupto, donde los elefantes y la caballería cartagineses sirven de poco. Amílcar hace que los elefantes pisoteen hasta la muerte a sus prisioneros, lo que solo endurece la lucha de los rebeldes.
+
+@image mercenary-war-hamilcar-439076
+
+Al final Amílcar, con tres divisiones a su propio mando, al de su lugarteniente [Aníbal](@mercenary-war-trap-hannibal) y al de [Naravas](@mercenary-war-trap-naravas), atrapa a los rebeldes en un lugar llamado la Sierra por su perfil dentado. Se desconoce si era un desfiladero o una cadena de colinas, y dónde estaba. Antes de que los rebeldes comprendan su situación, los cartagineses fortifican posiciones en un terreno que hace inútil cualquier ataque, y más de 40 000 rebeldes se quedan con agua pero sin comida.

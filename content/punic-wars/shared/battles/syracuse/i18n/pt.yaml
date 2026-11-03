@@ -1,0 +1,50 @@
+# pt strings for the battle "syracuse".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n pt
+
+# Roman Republic
+battle.sides.0.name: "República Romana"
+
+# 16,000–18,000
+battle.sides.0.strength: "16.000–18.000"
+
+# Heavy
+battle.sides.0.casualties: "Pesadas"
+
+# Syracuse and Carthage
+battle.sides.1.name: "Siracusa e Cartago"
+
+# 21,000–25,000
+battle.sides.1.strength: "21.000–25.000"
+
+# Over 5,000, and many civilians
+battle.sides.1.casualties: "Mais de 5.000 e muitos civis"
+
+# Siege of Syracuse
+battle.name: "Cerco de Siracusa"
+
+# Spring 213 – Autumn 212 BC
+battle.date: "Primavera de 213 a.C. – outono de 212 a.C."
+
+# Roman victory, Syracuse sacked
+battle.result: "Vitória romana, Siracusa saqueada"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Marcus Claudius Marcellus
+battle.sides.0.commanders.0: "Marco Cláudio Marcelo"
+
+# Appius Claudius Pulcher
+battle.sides.0.commanders.1: "Ápio Cláudio Pulcro"
+
+# Epicydes
+battle.sides.1.commanders.0: "Epícides"
+
+# Hippocrates
+battle.sides.1.commanders.1: "Hipócrates"
+
+# Himilco
+battle.sides.1.commanders.2: "Himilcão"
+
+# Bomilcar
+battle.sides.1.commanders.3: "Bomílcar"

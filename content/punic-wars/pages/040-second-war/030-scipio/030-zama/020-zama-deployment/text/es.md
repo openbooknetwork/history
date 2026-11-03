@@ -1,0 +1,5 @@
+[Escipión](@zama-deploy-scipio) despliega sus legiones en sus tres líneas, pero sitúa cada manípulo de príncipes justo detrás de un manípulo de hastados, en lugar de en el habitual tablero de ajedrez. Así quedan pasillos abiertos a través del ejército, y en ellos se sitúan los vélites. Los 4000 jinetes númidas de [Masinisa](@zama-deploy-masinissa) ocupan la derecha, y [Lelio](@zama-deploy-laelius), con 1500 jinetes romanos e italianos, la izquierda. Los historiadores modernos suelen atribuir a los romanos 29 000 o 30 000 hombres.
+
+@image zama-tapestry-ff1299
+
+[Aníbal](@zama-deploy-hannibal) sitúa delante sus 80 elefantes, a unos 30 m uno de otro. Detrás de ellos forma una primera línea de 12 000 mercenarios, ligures, galos, honderos baleares y mauros, muchos del ejército de Magón, y una segunda línea de reclutas cartagineses y africanos. Sus veteranos de Italia forman una tercera línea unos 200 m más atrás. Su caballería númida hace frente a Masinisa a la izquierda, y su caballería cartaginesa a Lelio a la derecha. Polibio le atribuye unos 40 000 hombres, 4000 de ellos jinetes.

@@ -1,0 +1,53 @@
+# zh-TW strings for the battle "cannae".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n zh-TW
+
+# Roman Republic
+battle.sides.0.name: "羅馬共和國"
+
+# 86,400, with 10,000 left to guard the camps
+battle.sides.0.strength: "86,400人，其中1萬人留守營地"
+
+# Polybius: 70,000 killed, 10,000 captured. Livy: 48,200 killed, 19,300 captured
+battle.sides.0.casualties: "波利比烏斯：7萬人陣亡，1萬人被俘。李維：48,200人陣亡，19,300人被俘"
+
+# Carthage
+battle.sides.1.name: "迦太基"
+
+# 50,000, with 10,000 cavalry
+battle.sides.1.strength: "5萬人，其中騎兵1萬人"
+
+# Polybius: 5,700 killed. Livy: 8,000 killed
+battle.sides.1.casualties: "波利比烏斯：5,700人陣亡。李維：8,000人陣亡"
+
+# Battle of Cannae
+battle.name: "坎尼會戰"
+
+# 2 August 216 BC
+battle.date: "西元前216年8月2日"
+
+# Carthaginian victory
+battle.result: "迦太基勝利"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Gaius Terentius Varro
+battle.sides.0.commanders.0: "蓋烏斯‧特倫提烏斯‧瓦羅"
+
+# Lucius Aemilius Paullus
+battle.sides.0.commanders.1: "盧基烏斯‧埃米利烏斯‧保盧斯"
+
+# Gnaeus Servilius Geminus
+battle.sides.0.commanders.2: "格奈烏斯‧塞爾維利烏斯‧傑米努斯"
+
+# Hannibal
+battle.sides.1.commanders.0: "漢尼拔"
+
+# Mago Barca
+battle.sides.1.commanders.1: "馬戈‧巴卡"
+
+# Hasdrubal
+battle.sides.1.commanders.2: "哈斯德魯巴"
+
+# Maharbal
+battle.sides.1.commanders.3: "馬哈巴爾"

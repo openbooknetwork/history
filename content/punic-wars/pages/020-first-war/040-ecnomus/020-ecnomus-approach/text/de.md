@@ -1,0 +1,3 @@
+Die Römer segeln in vier Geschwadern an der Küste entlang. Die ersten beiden, unter Vulso rechts und Regulus links, sind jeweils gestaffelt aufgestellt, sodass sie zusammen einen Keil bilden, an dessen Spitze die beiden Sechsruderer der Konsuln fahren. Das dritte Geschwader folgt in Linie und schleppt die Transportschiffe mit den Pferden, und das vierte sichert in Dwarslinie die Nachhut.
+
+Die Karthager kommen in einer einzigen Dwarslinie aus drei Geschwadern heran, ihr linker, landseitiger Flügel vorgeschoben. [Hamilkar](@ecnomus-approach-hamilcar) befehligt das Zentrum und [Hanno](@ecnomus-approach-hanno) den seewärtigen rechten Flügel mit den schnellsten Schiffen der Flotte. Beide Flotten sichten einander und rücken vor.

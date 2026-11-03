@@ -1,0 +1,5 @@
+Suốt mùa đông, [Scipio](@great-plains-camps-scipio) đàm phán với Syphax, người đề nghị đứng ra thu xếp hoà bình. Đi cùng mỗi phái đoàn, ông cử các sĩ quan cải trang làm nô lệ, và họ báo về rằng [doanh trại Carthage](@great-plains-camps-carthaginian) có những túp lều gỗ sau tường luỹ bằng đất, còn [doanh trại Numidia](@great-plains-camps-numidian) có những túp lều bằng sậy và rơm mà không có ranh giới rõ ràng. Vào mùa xuân, ông công khai chuẩn bị tấn công [Utica](@utica-204), rồi một tối muộn kéo quân ra và chia quân làm hai.
+
+@image syphax-receives-scipio-360bc9
+
+[Laelius và Masinissa](@great-plains-camps-laelius) tấn công doanh trại Numidia và đốt những túp lều sậy. Nhiều người Carthage tưởng đám cháy là tai nạn, không mang vũ khí chạy từ doanh trại của mình sang giúp, và Scipio đánh chiếm doanh trại của họ và đốt những túp lều ở đó. Trong bóng tối và cơn hoảng loạn, cả hai đạo quân chịu tổn thất nặng nề. Hasdrubal chạy thoát 40 km về Carthage cùng 2.500 người, còn Syphax chạy thoát cùng vài kị binh.

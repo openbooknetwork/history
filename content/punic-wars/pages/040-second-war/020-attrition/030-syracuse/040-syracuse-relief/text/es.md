@@ -1,0 +1,3 @@
+Hipócrates y el general cartaginés Himilcón llevan su ejército al río Anapo y acampan cerca del templo de Zeus Olímpico, al sur de la ciudad. Una flota cartaginesa al mando de [Bomílcar](@syracuse-relief-bomilcar) lleva suministros al Puerto Grande. Hipócrates ataca las líneas romanas mientras [Epícides](@syracuse-relief-epicydes) hace una salida desde Acradina, y los dos ataques son rechazados.
+
+En otoño estalla una peste en el terreno bajo y pantanoso junto al río. Afecta a los dos ejércitos, pero los cartagineses, acampados a cielo abierto junto al pantano, son los que más sufren. [Himilcón e Hipócrates](@syracuse-relief-himilco) mueren y su ejército se disuelve, y el posterior intento de Bomílcar de traer una flota mayor termina sin batalla.

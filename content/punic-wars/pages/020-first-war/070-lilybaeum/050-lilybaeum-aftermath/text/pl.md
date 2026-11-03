@@ -1,0 +1,3 @@
+Wkrótce po bitwie Kartalon dołącza do Adherbala z 70 okrętami. Adherbal uzupełnia eskadrę Kartalona do 100 okrętów i wysyła Kartalona pod [Lilybaeum](@lilybaeum-249), gdzie Kartalon pali kilka okrętów rzymskich. Później w tym samym roku Kartalon napotyka u wybrzeży [Fintias](@phintias-249) rzymski konwój zaopatrzeniowy, 800 transportowców w eskorcie 120 okrętów wojennych, i nęka go, aż burza zatapia wszystkie okręty rzymskie z wyjątkiem dwóch.
+
+Pulcher zostaje odwołany do Rzymu i oskarżony o zdradę. Skazany zostaje za lżejsze przestępstwo świętokradztwa w sprawie kurcząt, ledwo unika kary śmierci i udaje się na wygnanie. Kartagina, której nikt nie zagraża na morzu, wycofuje z czynnej służby większość floty, a następna duża flota rzymska wypływa dopiero w 242 p.n.e.

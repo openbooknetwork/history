@@ -1,0 +1,38 @@
+# ar strings for the battle "drepana".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n ar
+
+# Carthage
+battle.sides.0.name: "قرطاج"
+
+# 100 to 130 ships
+battle.sides.0.strength: "من 100 إلى 130 سفينة"
+
+# None recorded
+battle.sides.0.casualties: "لم تُسجَّل خسائر"
+
+# Roman Republic
+battle.sides.1.name: "الجمهورية الرومانية"
+
+# At least 123 ships
+battle.sides.1.strength: "123 سفينة على الأقل"
+
+# 93 ships captured, more sunk, 20,000 men killed or captured
+battle.sides.1.casualties: "93 سفينة مأسورة وأخرى غارقة، و20,000 رجل بين قتيل وأسير"
+
+# Battle of Drepana
+battle.name: "معركة دريبانا"
+
+# 249 BC
+battle.date: "249 ق.م"
+
+# Carthaginian victory
+battle.result: "نصر قرطاجي"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Adherbal
+battle.sides.0.commanders.0: "أدهربعل"
+
+# Publius Claudius Pulcher
+battle.sides.1.commanders.0: "بوبليوس كلاوديوس بولخر"

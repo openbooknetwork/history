@@ -1,0 +1,3 @@
+En el 211 a. C., [Aníbal](@capua-attack-hannibal) vuelve del sur y acampa cerca de las líneas romanas. Ataca la línea exterior mientras la guarnición cartaginesa de Capua, al mando de [Bóstar y Hannón](@capua-attack-sortie), hace con los capuanos una salida contra la interior.
+
+Una [cohorte íbera](@capua-attack-cohort) con tres elefantes atraviesa la línea exterior y llega a la empalizada de un campamento romano, pero es aniquilada antes de poder entrar. Tito Livio escribe que [Fulvio Flaco](@capua-attack-fulvius) contiene a Aníbal mientras [Apio Claudio](@capua-attack-appius) rechaza a los capuanos hasta sus puertas y allí es herido. El ataque contra las líneas fracasa.

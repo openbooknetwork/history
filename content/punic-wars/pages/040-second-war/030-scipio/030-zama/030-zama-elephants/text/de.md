@@ -1,0 +1,5 @@
+Die Schlacht beginnt mit Plänkeleien zwischen den Numidern auf dem römischen rechten Flügel. Dann schickt Hannibal seine Elefanten gegen das römische Fußvolk. Die Veliten laufen vor, werfen Wurfspeere und weichen zurück, und die Römer blasen ihre Trompeten und schlagen mit den Waffen auf die Schilde. Mehrere Elefanten auf dem karthagischen linken Flügel kehren um und laufen durch die eigene numidische Reiterei zurück, und [Masinissa](@zama-elephants-masinissa) greift die ungeordneten Reiter an und treibt sie vom Feld.
+
+@image zama-cort-148f90
+
+Die meisten anderen Elefanten stürmen gegen das römische Fußvolk, und viele laufen durch die Gassen zwischen den Manipeln, wo die Veliten sie in die Flanken treffen. Diejenigen, die hinter den römischen Linien herauskommen, werden gejagt und getötet. Einige erreichen die Hastati und verursachen schwere Verluste. Andere wenden sich gegen die römische Reiterei auf dem linken Flügel und laufen dann durch die karthagische Reiterei zurück, und [Laelius](@zama-elephants-laelius) greift an und fegt sie vom Feld. Beide römischen Reiterabteilungen reiten zur Verfolgung davon.

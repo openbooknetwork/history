@@ -1,0 +1,35 @@
+# fr strings for the battle "ecnomus".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n fr
+
+# Roman Republic
+battle.sides.0.name: "République romaine"
+
+# 330 ships, about 140,000 crew and marines
+battle.sides.0.strength: "330 navires, environ 140 000 marins et soldats embarqués"
+
+# 24 ships sunk, 10,000 men killed
+battle.sides.0.casualties: "24 navires coulés, 10 000 hommes tués"
+
+# Carthage
+battle.sides.1.name: "Carthage"
+
+# 350 ships, about 150,000 crew and marines
+battle.sides.1.strength: "350 navires, environ 150 000 marins et soldats embarqués"
+
+# 30 ships sunk, 64 captured, 30,000 to 40,000 men killed or captured
+battle.sides.1.casualties: "30 navires coulés, 64 capturés, 30 000 à 40 000 hommes tués ou capturés"
+
+# Battle of Cape Ecnomus
+battle.name: "Bataille du cap Ecnome"
+
+# 256 BC
+battle.date: "256 av. J.-C."
+
+# Roman victory
+battle.result: "Victoire romaine"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Hanno
+battle.sides.1.commanders.1: "Hannon"

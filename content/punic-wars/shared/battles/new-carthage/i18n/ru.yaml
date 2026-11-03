@@ -1,0 +1,38 @@
+# ru strings for the battle "new-carthage".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n ru
+
+# Roman Republic
+battle.sides.0.name: "Римская республика"
+
+# 27,500, with 35 galleys
+battle.sides.0.strength: "27 500, с 35 галерами"
+
+# Unknown
+battle.sides.0.casualties: "Неизвестны"
+
+# Carthage
+battle.sides.1.name: "Карфаген"
+
+# Over 3,000, of them 2,000 civilian levies
+battle.sides.1.strength: "Более 3000, из них 2000 ополченцев из горожан"
+
+# All killed or captured
+battle.sides.1.casualties: "Все убиты или взяты в плен"
+
+# Battle of New Carthage
+battle.name: "Битва за Новый Карфаген"
+
+# Early 209 BC
+battle.date: "Начало 209 года до н. э."
+
+# Roman victory, New Carthage taken
+battle.result: "Победа Рима, Новый Карфаген взят"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Publius Cornelius Scipio
+battle.sides.0.commanders.0: "Публий Корнелий Сципион"
+
+# Mago
+battle.sides.1.commanders.0: "Магон"

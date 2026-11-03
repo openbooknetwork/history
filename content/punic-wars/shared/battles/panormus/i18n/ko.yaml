@@ -1,0 +1,38 @@
+# ko strings for the battle "panormus".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n ko
+
+# Roman Republic
+battle.sides.0.name: "로마 공화국"
+
+# 2 legions and 2 allied alae, 16,000 to 20,000 men
+battle.sides.0.strength: "2개 군단과 동맹군 2개 알라, 16,000~2만 명"
+
+# Unknown, but light
+battle.sides.0.casualties: "알 수 없으나 경미"
+
+# Carthage
+battle.sides.1.name: "카르타고"
+
+# 30,000 men, 60 to 142 elephants
+battle.sides.1.strength: "병력 3만 명, 코끼리 60~142마리"
+
+# Heavy, the elephants captured
+battle.sides.1.casualties: "막대함, 코끼리 노획됨"
+
+# Battle of Panormus
+battle.name: "파노르무스 전투"
+
+# 250 BC
+battle.date: "기원전 250년"
+
+# Roman victory
+battle.result: "로마의 승리"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Lucius Caecilius Metellus
+battle.sides.0.commanders.0: "루키우스 카이킬리우스 메텔루스"
+
+# Hasdrubal
+battle.sides.1.commanders.0: "하스드루발"

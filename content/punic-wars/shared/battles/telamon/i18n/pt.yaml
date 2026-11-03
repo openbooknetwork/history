@@ -1,0 +1,44 @@
+# pt strings for the battle "telamon".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n pt
+
+# Roman Republic
+battle.sides.0.name: "República Romana"
+
+# 101,600 infantry, 6,400 cavalry
+battle.sides.0.strength: "101.600 soldados de infantaria, 6.400 de cavalaria"
+
+# 6,000 killed
+battle.sides.0.casualties: "6.000 mortos"
+
+# Gauls: Boii, Insubres, Taurisci and Gaesatae
+battle.sides.1.name: "Gauleses: boios, ínsubres, tauriscos e gesatas"
+
+# 50,000 infantry, 20,000 cavalry
+battle.sides.1.strength: "50.000 soldados de infantaria, 20.000 de cavalaria"
+
+# 40,000 killed, 10,000 captured
+battle.sides.1.casualties: "40.000 mortos, 10.000 capturados"
+
+# Battle of Telamon
+battle.name: "Batalha de Telamão"
+
+# 225 BC
+battle.date: "225 a.C."
+
+# Roman victory
+battle.result: "Vitória romana"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Gaius Atilius Regulus
+battle.sides.0.commanders.0: "Caio Atílio Régulo"
+
+# Lucius Aemilius Papus
+battle.sides.0.commanders.1: "Lúcio Emílio Papo"
+
+# Concolitanus
+battle.sides.1.commanders.0: "Concolitano"
+
+# Aneroëstes
+battle.sides.1.commanders.1: "Aneroesto"

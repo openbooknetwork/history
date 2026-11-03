@@ -1,0 +1,38 @@
+# de strings for the battle "ilipa".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n de
+
+# Roman Republic
+battle.sides.0.name: "Römische Republik"
+
+# 48,000 (Polybius) or 55,000 (Livy)
+battle.sides.0.strength: "48 000 (Polybios) oder 55 000 (Livius)"
+
+# 7,000 killed
+battle.sides.0.casualties: "7 000 Tote"
+
+# Carthage
+battle.sides.1.name: "Karthago"
+
+# 74,000 with 32 elephants (Polybius) or 54,500 (Livy)
+battle.sides.1.strength: "74 000 mit 32 Elefanten (Polybios) oder 54 500 (Livius)"
+
+# Over 48,500 killed or captured
+battle.sides.1.casualties: "Über 48 500 getötet oder gefangen"
+
+# Battle of Ilipa
+battle.name: "Schlacht bei Ilipa"
+
+# Spring 206 BC
+battle.date: "Frühjahr 206 v. Chr."
+
+# Roman victory, end of Carthaginian rule in Iberia
+battle.result: "Römischer Sieg, Ende der karthagischen Herrschaft in Iberien"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Hasdrubal Gisco
+battle.sides.1.commanders.0: "Hasdrubal Gisko"
+
+# Mago Barca
+battle.sides.1.commanders.1: "Mago Barkas"

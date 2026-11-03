@@ -1,0 +1,5 @@
+Im Jahr 207 v. Chr. schickt Karthago Verstärkungen unter Hanno nach Iberien, der sich mit Mago Barkas vereinigt und unter den Keltiberern Truppen anwirbt. Eine römische Truppe unter Marcus Junius Silanus überrascht ihr Lager, zersprengt das Heer und nimmt Hanno gefangen. Hasdrubal Gisko, der von Gades aus vorrückt, weicht einer Schlacht aus, indem er seine Truppen auf befestigte Städte verteilt, und das Jahr endet ohne entscheidenden Kampf.
+
+@image scipio-bust-marble-3454e4
+
+Im Frühjahr 206 v. Chr. sammeln Hasdrubal Gisko und Mago ihre Heere bei Ilipa nahe dem heutigen Sevilla, mit ihren iberischen Verbündeten und Masinissas numidischer Reiterei. Polybios gibt ihnen 70 000 Mann Fußvolk, 4 000 Reiter und 32 Elefanten, Scipio 45 000 Mann Fußvolk und 3 000 Reiter, etwa die Hälfte davon iberische Verbündete. Scipio lagert auf niedrigen Hügeln gegenüber. Als Mago und Masinissa gegen die Römer reiten, während diese noch ihr Lager befestigen, fasst die römische Reiterei sie in der Flanke und vertreibt sie.

@@ -1,0 +1,3 @@
+[Hazdrubal](@panormus-elephants-hasdrubal) schodzi doliną rzeki Oreto, która uchodzi do morza tuż na południe od [Panormos](@panormus-elephants-city), i wysyła część armii przez rzekę w stronę murów miasta. Teren między rzeką a murem przecinają wały ziemne, częściowo pozostałe po rzymskim oblężeniu, częściowo należące do umocnień miasta. Dają one osłonę Rzymianom i utrudniają ruchy słoniom.
+
+Gdy słonie przechodzą rzekę, [Metellus](@panormus-elephants-metellus) wysyła im naprzeciw lekką piechotę z rozkazem, by celowała w zwierzęta. Mieszkańcy miasta donoszą pod mury wiązki oszczepów z miejskich składów, więc harcownikom nigdy ich nie brakuje. Resztę armii Metellus trzyma w ukryciu przy bramie w górę rzeki od przeprawy i stamtąd wprowadza do potyczki świeżych ludzi.

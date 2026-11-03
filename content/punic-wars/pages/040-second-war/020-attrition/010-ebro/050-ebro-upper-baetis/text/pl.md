@@ -1,0 +1,5 @@
+Przez kilka lat Scypionowie nie otrzymują posiłków z Italii i walczą dalej, prowadząc wypady i zawierając sojusze z plemionami iberyjskimi. W 212 p.n.e. odbijają [Sagunt](@saguntum-212) i zajmują [Kastulo](@castulo-211), miasto górnicze i rodzinne miasto żony Hannibala, Imilke, gdzie zimują. Do Hazdrubala Barkasa dołączają teraz dwie kolejne armie kartagińskie pod wodzą jego brata Magona i Hazdrubala Giskona.
+
+@image scipios-tower-d489f7
+
+W 211 p.n.e. bracia najmują 20 000 najemników celtyberyjskich, którzy uzupełniają ich 30 000 Rzymian i sprzymierzeńców, i dzielą siły. Publiusz maszeruje przeciw Magonowi w pobliżu Kastulo, zostaje osaczony przez jazdę numidyjską Masynissy i armie Magona i Hazdrubala Giskona i ginie z większością swoich ludzi. Hazdrubal Barkas przekupuje Celtyberów walczących u boku Gnejusza, by wrócili do domu, a kilka dni później Gnejusz zostaje rozbity i ginie na wzgórzu w pobliżu [Ilorki](@ilorca-211). Ocaleni, od 8000 do 9000 ludzi, zbierają się na północ od Ebro.

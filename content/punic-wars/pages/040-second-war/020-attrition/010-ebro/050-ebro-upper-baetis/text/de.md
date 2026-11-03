@@ -1,0 +1,5 @@
+Mehrere Jahre lang erhalten die Scipionen keine Verstärkungen aus Italien und kämpfen mit Streifzügen und Bündnissen mit iberischen Stämmen weiter. Im Jahr 212 v. Chr. erobern sie [Sagunt](@saguntum-212) zurück und nehmen [Castulo](@castulo-211) ein, eine Bergbaustadt und die Heimat von Hannibals Frau Imilke, wo sie überwintern. Zu Hasdrubal Barkas sind inzwischen zwei weitere karthagische Heere unter seinem Bruder Mago und unter Hasdrubal Gisko gestoßen.
+
+@image scipios-tower-d489f7
+
+Im Jahr 211 v. Chr. werben die Brüder 20 000 keltiberische Söldner an, zusätzlich zu ihren 30 000 Römern und Verbündeten, und teilen ihre Kräfte. Publius zieht bei Castulo gegen Mago, wird von Masinissas numidischer Reiterei und den Heeren Magos und Hasdrubal Giskos gestellt und fällt mit den meisten seiner Männer. Hasdrubal Barkas besticht die Keltiberer in Gnaeus’ Heer, damit sie nach Hause gehen, und wenige Tage später wird Gnaeus auf einem Hügel bei [Ilorca](@ilorca-211) überrannt und getötet. Die Überlebenden, etwa 8 000 bis 9 000 Mann, sammeln sich nördlich des Ebro.

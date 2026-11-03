@@ -1,0 +1,47 @@
+# hi strings for the battle "carthage-149".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n hi
+
+# Roman Republic
+battle.sides.0.name: "रोमन गणराज्य"
+
+# 36,000 to 46,000 infantry, 4,000 cavalry
+battle.sides.0.strength: "36,000 से 46,000 तक पैदल सैनिक, 4,000 घुड़सवार"
+
+# Unknown
+battle.sides.0.casualties: "अज्ञात"
+
+# Carthage
+battle.sides.1.name: "कार्थेज"
+
+# 30,000 soldiers and about 60,000 armed civilians
+battle.sides.1.strength: "30,000 सैनिक और लगभग 60,000 हथियारबंद नागरिक"
+
+# 50,000 enslaved
+battle.sides.1.casualties: "50,000 दास बनाए गए"
+
+# Siege of Carthage
+battle.name: "कार्थेज की घेराबंदी"
+
+# 149 – spring 146 BC
+battle.date: "149 ईसा पूर्व से 146 ईसा पूर्व के वसंत तक"
+
+# Roman victory, Carthage destroyed
+battle.result: "रोम की जीत, कार्थेज नष्ट"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Scipio Aemilianus
+battle.sides.0.commanders.0: "स्किपियो एमिलियानस"
+
+# Manius Manilius
+battle.sides.0.commanders.1: "मैनियस मैनिलियस"
+
+# Lucius Marcius Censorinus
+battle.sides.0.commanders.2: "लूसियस मार्सियस सेंसोरिनस"
+
+# Lucius Calpurnius Piso
+battle.sides.0.commanders.3: "लूसियस कैलपर्नियस पिसो"
+
+# Hasdrubal
+battle.sides.1.commanders.0: "हसद्रुबल"

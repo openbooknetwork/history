@@ -1,0 +1,30 @@
+# de strings for the battle "panormus".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n de
+
+# Roman Republic
+battle.sides.0.name: "Römische Republik"
+
+# 2 legions and 2 allied alae, 16,000 to 20,000 men
+battle.sides.0.strength: "2 Legionen und 2 verbündete Alae, 16 000 bis 20 000 Mann"
+
+# Unknown, but light
+battle.sides.0.casualties: "Unbekannt, aber gering"
+
+# Carthage
+battle.sides.1.name: "Karthago"
+
+# 30,000 men, 60 to 142 elephants
+battle.sides.1.strength: "30 000 Mann, 60 bis 142 Elefanten"
+
+# Heavy, the elephants captured
+battle.sides.1.casualties: "Hoch, die Elefanten erbeutet"
+
+# Battle of Panormus
+battle.name: "Schlacht bei Panormos"
+
+# 250 BC
+battle.date: "250 v. Chr."
+
+# Roman victory
+battle.result: "Römischer Sieg"

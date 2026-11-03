@@ -1,0 +1,3 @@
+Legiun-legiun Romawi tidak mengejar orang Iberia yang melarikan diri. Mereka berputar ke luar dan menyerang orang Afrika dan kaum Poeni dari belakang, sementara legiun-legiun sekutu menahan mereka dari depan. Orang Libya melawan dengan gigih dan menderita kerugian besar sebelum patah.
+
+Hasdrubal lolos bersama sebagian besar kavaleri dan gajahnya serta sedikit infanteri, dan orang Romawi merebut perkemahannya beserta perbekalan dan kasnya. Ibera kemungkinan menyerah setelah pertempuran itu. Pasukan yang dibentuk Kartago di bawah Mago untuk mendarat di Italia dikirim ke Iberia, dan jalan darat ke Italia tetap tertutup.

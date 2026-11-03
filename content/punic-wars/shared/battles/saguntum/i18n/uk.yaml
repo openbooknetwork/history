@@ -1,0 +1,32 @@
+# uk strings for the battle "saguntum".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n uk
+
+# Carthage
+battle.sides.0.name: "Карфаген"
+
+# Heavy
+battle.sides.0.casualties: "Важкі"
+
+# Saguntum
+battle.sides.1.name: "Сагунт"
+
+# Nearly all the defenders and many civilians killed
+battle.sides.1.casualties: "Убито майже всіх захисників і багато цивільних"
+
+# Siege of Saguntum
+battle.name: "Облога Сагунта"
+
+# 219 BC
+battle.date: "219 р. до н. е."
+
+# Carthaginian victory, beginning of the Second Punic War
+battle.result: "Перемога Карфагена, початок Другої Пунічної війни"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Hannibal
+battle.sides.0.commanders.0: "Ганнібал"
+
+# Maharbal
+battle.sides.0.commanders.1: "Магарбал"

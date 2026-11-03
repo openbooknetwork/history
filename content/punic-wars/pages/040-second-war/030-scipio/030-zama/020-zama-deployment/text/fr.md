@@ -1,0 +1,5 @@
+[Scipion](@zama-deploy-scipio) range ses légions sur leurs trois lignes, mais place chaque manipule de principes juste derrière un manipule d’hastats au lieu de l’habituel damier. Cela ménage à travers l’armée des couloirs ouverts, où se tiennent les vélites. Les 4 000 cavaliers numides de [Massinissa](@zama-deploy-masinissa) tiennent la droite, et [Laelius](@zama-deploy-laelius) avec 1 500 cavaliers romains et italiens la gauche. Les historiens modernes donnent d’ordinaire aux Romains 29 000 ou 30 000 hommes.
+
+@image zama-tapestry-ff1299
+
+[Hannibal](@zama-deploy-hannibal) place ses 80 éléphants en avant, espacés d’environ 30 m. Derrière eux se tient une première ligne de 12 000 mercenaires, Ligures, Gaulois, frondeurs baléares et Maures, dont beaucoup viennent de l’armée de Magon, et une deuxième ligne de levées carthaginoises et africaines. Ses vétérans d’Italie forment une troisième ligne environ 200 m plus en arrière. Sa cavalerie numide fait face à Massinissa à gauche et sa cavalerie carthaginoise à Laelius à droite. Polybe lui donne environ 40 000 hommes, dont 4 000 cavaliers.

@@ -1,0 +1,5 @@
+Au début de 238 av. J.-C., les rebelles envoient la plus grande partie de leur armée, environ 50 000 hommes sous [Spendios](@mercenary-war-trap-spendius), Autaritos et Zarzas, pour mettre fin aux raids d’[Hamilcar](@mercenary-war-trap-hamilcar). Pendant des mois, les armées marchent et contremarchent sur les hauteurs, les rebelles se tenant sur un terrain accidenté où les éléphants et la cavalerie carthaginois ne servent guère. Hamilcar fait piétiner ses prisonniers par les éléphants, ce qui ne fait que redoubler l’acharnement des rebelles.
+
+@image mercenary-war-hamilcar-439076
+
+À la fin, Hamilcar, avec trois corps placés sous ses propres ordres, sous ceux de son second [Hannibal](@mercenary-war-trap-hannibal) et sous ceux de [Naravas](@mercenary-war-trap-naravas), enferme les rebelles en un lieu appelé la Scie à cause de sa crête dentelée. On ignore s’il s’agissait d’un défilé ou d’une chaîne de collines, et où il se trouvait. Avant que les rebelles ne comprennent leur situation, les Carthaginois fortifient des positions sur un terrain qui rend toute attaque vaine, et plus de 40 000 rebelles se retrouvent avec de l’eau mais sans nourriture.

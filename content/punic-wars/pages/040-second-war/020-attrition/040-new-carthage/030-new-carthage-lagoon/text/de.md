@@ -1,0 +1,5 @@
+Am selben Nachmittag greifen die Römer zur Überraschung der Verteidiger mit frischen Truppen und neuen Leitern erneut an. Die Galeeren des Laelius kehren zur Südmauer zurück, Legionäre bilden unter ihren überlappenden Schilden eine Testudo und schlagen mit Äxten auf das Osttor ein, und eine weitere Truppe rückt an den Kanal westlich der Stadt vor. Die Verteidiger, denen nach dem Vormittag die Geschosse ausgehen, verlegen Männer an die bedrohten Mauern und lassen die Nordmauer über der Lagune fast unbesetzt.
+
+@image new-carthage-furnius-80a1b5
+
+Scipio schickt [500 ausgewählte Männer](@new-carthage-2-five-hundred) mit Führern durch die Lagune. Polybios schreibt, dass das Wasser jeden Abend mit der Ebbe sank, Livius, dass ein Nordwind es zurücktrieb. Moderne Historiker bezweifeln beides und vermuten Schleusen am Kanal oder eine Lagune, die ohnehin flach genug zum Durchwaten war. Die 500 erreichen ungesehen die Nordmauer, ersteigen sie, kämpfen sich auf der Mauer nach Osten durch und öffnen das Osttor von innen.

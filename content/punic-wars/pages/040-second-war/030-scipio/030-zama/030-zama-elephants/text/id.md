@@ -1,0 +1,5 @@
+Pertempuran dibuka dengan saling serang kecil-kecilan antara pasukan Numidia di sayap kanan Romawi. Hannibal kemudian mengerahkan gajah-gajahnya melawan infanteri Romawi. Para velites berlari maju untuk melemparkan lembing lalu mundur, dan orang Romawi meniup terompet dan memukulkan senjata ke perisai mereka. Beberapa gajah di sayap kiri Kartago berbalik dan berlari kembali menerjang kavaleri Numidia mereka sendiri, dan [Masinissa](@zama-elephants-masinissa) menyerbu prajurit berkuda yang kacau itu dan mengusir mereka dari medan.
+
+@image zama-cort-148f90
+
+Sebagian besar gajah lainnya menyerbu infanteri Romawi, dan banyak yang berlari menyusuri lorong-lorong di antara maniple, tempat para velites menyerang sisi-sisinya. Gajah-gajah yang keluar di belakang barisan Romawi diburu. Sebagian mencapai para hastati dan menimbulkan kerugian besar. Yang lain berbalik melawan kavaleri Romawi di kiri, lalu berlari kembali menerjang kavaleri Kartago, dan [Laelius](@zama-elephants-laelius) menyerbu dan menyapunya dari medan. Kedua pasukan kavaleri Romawi pergi melakukan pengejaran.

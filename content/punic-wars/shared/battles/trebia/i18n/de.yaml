@@ -1,0 +1,30 @@
+# de strings for the battle "trebia".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n de
+
+# Roman Republic
+battle.sides.0.name: "Römische Republik"
+
+# 40,000: 36,000 infantry, 4,000 cavalry
+battle.sides.0.strength: "40 000: 36 000 Mann Fußvolk, 4 000 Reiter"
+
+# 20,000 killed, many captured
+battle.sides.0.casualties: "20 000 Tote, viele Gefangene"
+
+# Carthage
+battle.sides.1.name: "Karthago"
+
+# 40,000, with 11,000 cavalry and about 30 elephants
+battle.sides.1.strength: "40 000, davon 11 000 Reiter, und etwa 30 Elefanten"
+
+# Several thousand infantry, a few cavalry, several elephants
+battle.sides.1.casualties: "Mehrere Tausend Mann Fußvolk, einige Reiter, mehrere Elefanten"
+
+# Battle of the Trebia
+battle.name: "Schlacht an der Trebia"
+
+# 22 or 23 December 218 BC
+battle.date: "22. oder 23. Dezember 218 v. Chr."
+
+# Carthaginian victory
+battle.result: "Karthagischer Sieg"

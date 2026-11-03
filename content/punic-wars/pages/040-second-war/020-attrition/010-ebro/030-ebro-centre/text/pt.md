@@ -1,0 +1,3 @@
+Os escaramuçadores trocam projéteis e recuam, e as duas [legiões romanas](@ebro-centre-legions) avançam contra a [infantaria ibera](@ebro-centre-iberians). Depois de uma troca de dardos, os iberos se rompem e fogem quase sem combater. Tito Lívio escreve que eles sabiam que uma vitória significaria seguir Asdrúbal até a Itália e não queriam deixar a Ibéria.
+
+As legiões avançam pela brecha. Nas alas, a cavalaria escaramuça sem resultado. Os [africanos](@ebro-centre-africans) e os [Poeni](@ebro-centre-poeni) se viram em parte para atacar os flancos das legiões romanas, mas cada um deles também tem uma legião aliada à frente.

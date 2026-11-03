@@ -1,0 +1,44 @@
+# it strings for the battle "agrigentum".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n it
+
+# Roman Republic
+battle.sides.0.name: "Repubblica romana"
+
+# 40,000 to 100,000 soldiers and labourers
+battle.sides.0.strength: "Da 40.000 a 100.000 soldati e lavoratori"
+
+# 15,000 to 30,540 dead
+battle.sides.0.casualties: "Da 15.000 a 30.540 morti"
+
+# Carthage
+battle.sides.1.name: "Cartagine"
+
+# 31,500 to 56,000 men, 30 to 60 elephants, and the garrison
+battle.sides.1.strength: "Da 31.500 a 56.000 uomini, da 30 a 60 elefanti, e la guarnigione"
+
+# 3,200 killed, 4,000 captured, 25,000 inhabitants enslaved
+battle.sides.1.casualties: "3.200 morti, 4.000 prigionieri, 25.000 abitanti ridotti in schiavitù"
+
+# Battle of Agrigentum
+battle.name: "Battaglia di Agrigento"
+
+# 262 – 261 BC
+battle.date: "262–261 a.C."
+
+# Roman victory, Agrigentum taken
+battle.result: "Vittoria romana, Agrigento presa"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Lucius Postumius Megellus
+battle.sides.0.commanders.0: "Lucio Postumio Megello"
+
+# Quintus Mamilius Vitulus
+battle.sides.0.commanders.1: "Quinto Mamilio Vitulo"
+
+# Hanno, son of Hannibal
+battle.sides.1.commanders.0: "Annone, figlio di Annibale"
+
+# Hannibal Gisco
+battle.sides.1.commanders.1: "Annibale Giscone"

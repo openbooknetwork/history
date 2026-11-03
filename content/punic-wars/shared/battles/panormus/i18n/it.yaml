@@ -1,0 +1,38 @@
+# it strings for the battle "panormus".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n it
+
+# Roman Republic
+battle.sides.0.name: "Repubblica romana"
+
+# 2 legions and 2 allied alae, 16,000 to 20,000 men
+battle.sides.0.strength: "2 legioni e 2 alae alleate, da 16.000 a 20.000 uomini"
+
+# Unknown, but light
+battle.sides.0.casualties: "Sconosciute, ma lievi"
+
+# Carthage
+battle.sides.1.name: "Cartagine"
+
+# 30,000 men, 60 to 142 elephants
+battle.sides.1.strength: "30.000 uomini, da 60 a 142 elefanti"
+
+# Heavy, the elephants captured
+battle.sides.1.casualties: "Pesanti, gli elefanti catturati"
+
+# Battle of Panormus
+battle.name: "Battaglia di Panormo"
+
+# 250 BC
+battle.date: "250 a.C."
+
+# Roman victory
+battle.result: "Vittoria romana"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Lucius Caecilius Metellus
+battle.sides.0.commanders.0: "Lucio Cecilio Metello"
+
+# Hasdrubal
+battle.sides.1.commanders.0: "Asdrubale"

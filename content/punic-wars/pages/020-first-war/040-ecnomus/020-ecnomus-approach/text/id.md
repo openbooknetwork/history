@@ -1,0 +1,3 @@
+Orang Romawi berlayar menyusuri pantai dalam empat skuadron. Dua skuadron pertama, di bawah Vulso di kanan dan Regulus di kiri, masing-masing tersusun bertingkat sehingga bersama-sama membentuk baji dengan dua kapal heksareme milik para konsul di ujungnya. Skuadron ketiga mengikuti dalam satu barisan sambil menarik kapal-kapal angkut yang membawa kuda, dan skuadron keempat, dalam barisan berjajar, menjaga bagian belakang.
+
+Orang Kartago datang dalam satu barisan berjajar yang terdiri atas tiga skuadron, dengan sayap kiri mereka, yang berada di sisi darat, lebih maju. [Hamilcar](@ecnomus-approach-hamilcar) memimpin bagian tengah dan [Hanno](@ecnomus-approach-hanno) sayap kanan di sisi laut, dengan kapal-kapal tercepat armada itu. Kedua armada saling melihat dan maju.

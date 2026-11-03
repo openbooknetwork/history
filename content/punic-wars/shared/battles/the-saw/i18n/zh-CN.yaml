@@ -1,0 +1,47 @@
+# zh-CN strings for the battle "the-saw".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n zh-CN
+
+# Carthage
+battle.sides.0.name: "迦太基"
+
+# 20,000 – 30,000
+battle.sides.0.strength: "2万～3万人"
+
+# Light
+battle.sides.0.casualties: "轻微"
+
+# Rebel army
+battle.sides.1.name: "叛军"
+
+# 50,000
+battle.sides.1.strength: "5万人"
+
+# All killed
+battle.sides.1.casualties: "全部被杀"
+
+# Battle of the Saw
+battle.name: "锯子战役"
+
+# 238 BC
+battle.date: "公元前238年"
+
+# Carthaginian victory
+battle.result: "迦太基胜利"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Hamilcar Barca
+battle.sides.0.commanders.0: "哈米尔卡·巴卡"
+
+# Naravas
+battle.sides.0.commanders.1: "纳拉瓦斯"
+
+# Spendius
+battle.sides.1.commanders.0: "斯彭迪乌斯"
+
+# Zarzas
+battle.sides.1.commanders.1: "扎尔扎斯"
+
+# Autaritus
+battle.sides.1.commanders.2: "奥塔里图斯"

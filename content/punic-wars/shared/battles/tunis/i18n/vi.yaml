@@ -1,0 +1,30 @@
+# vi strings for the battle "tunis".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n vi
+
+# Carthage
+battle.sides.0.name: "Carthage"
+
+# 12,000 infantry, 4,000 cavalry, 100 elephants
+battle.sides.0.strength: "12.000 bộ binh, 4.000 kị binh, 100 con voi"
+
+# At least 800 killed
+battle.sides.0.casualties: "Ít nhất 800 người bị giết"
+
+# Roman Republic
+battle.sides.1.name: "Cộng hoà La Mã"
+
+# 15,000 infantry, 500 cavalry
+battle.sides.1.strength: "15.000 bộ binh, 500 kị binh"
+
+# 13,000 killed, 500 captured
+battle.sides.1.casualties: "13.000 người bị giết, 500 người bị bắt"
+
+# Battle of Tunis
+battle.name: "Trận Tunis"
+
+# Spring 255 BC
+battle.date: "Mùa xuân năm 255 TCN"
+
+# Carthaginian victory, Regulus captured
+battle.result: "Carthage thắng, Regulus bị bắt"

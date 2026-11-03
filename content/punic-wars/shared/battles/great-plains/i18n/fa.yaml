@@ -1,0 +1,41 @@
+# fa strings for the battle "great-plains".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n fa
+
+# Rome and Masinissa’s Numidians
+battle.sides.0.name: "روم و نومیدیایی‌های ماسینیسا"
+
+# About 20,000
+battle.sides.0.strength: "حدود ۲۰ هزار"
+
+# Carthage and Syphax’s Numidians
+battle.sides.1.name: "کارتاژ و نومیدیایی‌های سوفاکس"
+
+# About 30,000
+battle.sides.1.strength: "حدود ۳۰ هزار"
+
+# Battle of the Great Plains
+battle.name: "نبرد دشت‌های بزرگ"
+
+# 203 BC
+battle.date: "۲۰۳ پیش از میلاد"
+
+# Roman victory
+battle.result: "پیروزی روم"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Publius Cornelius Scipio
+battle.sides.0.commanders.0: "پوبلیوس کورنلیوس اسکیپیو"
+
+# Masinissa
+battle.sides.0.commanders.1: "ماسینیسا"
+
+# Gaius Laelius
+battle.sides.0.commanders.2: "گائیوس لایلیوس"
+
+# Hasdrubal Gisco
+battle.sides.1.commanders.0: "هاسدروبال گیسکو"
+
+# Syphax
+battle.sides.1.commanders.1: "سوفاکس"

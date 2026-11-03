@@ -1,0 +1,24 @@
+# id strings for the battle "saguntum".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n id
+
+# Carthage
+battle.sides.0.name: "Kartago"
+
+# Heavy
+battle.sides.0.casualties: "Berat"
+
+# Saguntum
+battle.sides.1.name: "Saguntum"
+
+# Nearly all the defenders and many civilians killed
+battle.sides.1.casualties: "Hampir semua pembela dan banyak warga sipil tewas"
+
+# Siege of Saguntum
+battle.name: "Pengepungan Saguntum"
+
+# 219 BC
+battle.date: "219 SM"
+
+# Carthaginian victory, beginning of the Second Punic War
+battle.result: "Kemenangan Kartago, awal Perang Punisia Kedua"

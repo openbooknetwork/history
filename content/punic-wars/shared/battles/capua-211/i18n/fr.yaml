@@ -1,0 +1,32 @@
+# fr strings for the battle "capua-211".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n fr
+
+# Roman Republic
+battle.sides.0.name: "République romaine"
+
+# Unknown
+battle.sides.0.casualties: "Inconnues"
+
+# Carthage and Capua
+battle.sides.1.name: "Carthage et Capoue"
+
+# Unknown
+battle.sides.1.casualties: "Inconnues"
+
+# Siege of Capua
+battle.name: "Siège de Capoue"
+
+# 211 BC
+battle.date: "211 av. J.-C."
+
+# Roman victory, fall of Capua
+battle.result: "Victoire romaine, chute de Capoue"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Gaius Claudius Nero
+battle.sides.0.commanders.2: "Caius Claudius Néron"
+
+# Hanno, son of Bomilcar
+battle.sides.1.commanders.2: "Hannon, fils de Bomilcar"

@@ -1,0 +1,3 @@
+Os romanos navegam ao longo da costa em quatro esquadras. As duas primeiras, sob Vulsão à direita e Régulo à esquerda, vão cada uma em escalão, de modo que juntas formam uma cunha com as duas hexarremes dos cônsules na ponta. A terceira esquadra segue em coluna, rebocando os transportes que levam os cavalos, e a quarta, em linha de frente, protege a retaguarda.
+
+Os cartagineses avançam numa única linha de frente de três esquadras, com a ala esquerda, do lado da terra, adiantada. [Amílcar](@ecnomus-approach-hamilcar) comanda o centro e [Hanão](@ecnomus-approach-hanno) a direita, do lado do mar, com os navios mais rápidos da frota. As duas frotas se avistam e avançam.

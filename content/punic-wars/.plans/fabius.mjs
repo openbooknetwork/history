@@ -17,7 +17,7 @@ writePlan(`${G}/010-fabius`, {
     'fabius-shadow-217': { name: 'Fabius follows along the high ground', color: 'rome', offset: 6,
       path: [[15.33, 41.37], [15.05, 41.3], [14.75, 41.22], [14.45, 41.32], [14.2, 41.3], [13.99, 41.22]] },
   },
-  markers: { 'aecae-217': ll([15.33, 41.37], 'Aecae', 'Fabius camps six miles from Hannibal', 'rome', 'flag') },
+  markers: { 'aecae-217': ll([15.33, 41.37], 'Aecae', 'Fabius camps about 9 km from Hannibal', 'rome', 'flag') },
 });
 
 // --- the plain closed: garrisons, Minucius, the main army, the detachment at the pass ---

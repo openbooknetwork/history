@@ -1,0 +1,30 @@
+# vi strings for the battle "telamon".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n vi
+
+# Roman Republic
+battle.sides.0.name: "Cộng hoà La Mã"
+
+# 101,600 infantry, 6,400 cavalry
+battle.sides.0.strength: "101.600 bộ binh, 6.400 kị binh"
+
+# 6,000 killed
+battle.sides.0.casualties: "6.000 người bị giết"
+
+# Gauls: Boii, Insubres, Taurisci and Gaesatae
+battle.sides.1.name: "Người Gaul: Boii, Insubres, Taurisci và Gaesatae"
+
+# 50,000 infantry, 20,000 cavalry
+battle.sides.1.strength: "50.000 bộ binh, 20.000 kị binh"
+
+# 40,000 killed, 10,000 captured
+battle.sides.1.casualties: "40.000 người bị giết, 10.000 người bị bắt"
+
+# Battle of Telamon
+battle.name: "Trận Telamon"
+
+# 225 BC
+battle.date: "Năm 225 TCN"
+
+# Roman victory
+battle.result: "La Mã thắng"

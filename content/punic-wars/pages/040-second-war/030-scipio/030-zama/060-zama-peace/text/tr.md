@@ -4,4 +4,4 @@ Scipio [Tunus’a](@tunis-203) döner ve görüşmelere başlar. Syphax’ın o�
 
 @image scipio-welcomed-rome-b4635e
 
-Kartaca koşulları Hannibal’in de desteğiyle MÖ 201 ilkbaharında kabul eder. Afrika dışındaki bütün topraklarını ve Afrika’daki bazı topraklarını bırakır, elli yılda 10.000 talent gümüş öder ve rehineler verir. Savaş fili bulunduramaz, ancak on savaş gemisi tutabilir. Yalnızca Afrika’da ve orada da yalnızca Roma’nın izniyle savaşabilir. Scipio zafer alayı düzenler ve Africanus adını alır.
+Hannibal Senatoyu koşulları kabul etmeye çağırır ve Kartaca MÖ 201 ilkbaharında koşulları kabul eder. Afrika dışındaki bütün topraklarını ve Afrika’daki bazı topraklarını bırakır, elli yılda 10.000 talent gümüş öder ve rehineler verir. Savaş fili bulunduramaz, ancak on savaş gemisi tutabilir. Yalnızca Afrika’da ve orada da yalnızca Roma’nın izniyle savaşabilir. Scipio zafer alayı düzenler ve Africanus adını alır.

@@ -1,0 +1,30 @@
+# vi strings for the battle "zama".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n vi
+
+# Roman Republic
+battle.sides.0.name: "Cộng hoà La Mã"
+
+# 29,000–30,000, with 6,100 cavalry
+battle.sides.0.strength: "29.000–30.000 người, cùng 6.100 kị binh"
+
+# At least 1,500 killed, many wounded
+battle.sides.0.casualties: "Ít nhất 1.500 người bị giết, nhiều người bị thương"
+
+# Carthage
+battle.sides.1.name: "Carthage"
+
+# 40,000 or 50,000, with 80 war elephants
+battle.sides.1.strength: "40.000 hoặc 50.000 người, cùng 80 voi chiến"
+
+# 20,000 killed, 20,000 captured
+battle.sides.1.casualties: "20.000 người bị giết, 20.000 người bị bắt"
+
+# Battle of Zama
+battle.name: "Trận Zama"
+
+# October 202 BC
+battle.date: "Tháng 10 năm 202 TCN"
+
+# Roman victory, Carthage sues for peace
+battle.result: "La Mã thắng, Carthage cầu hoà"

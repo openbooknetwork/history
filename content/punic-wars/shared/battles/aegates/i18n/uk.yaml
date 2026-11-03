@@ -1,0 +1,41 @@
+# uk strings for the battle "aegates".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n uk
+
+# Roman Republic
+battle.sides.0.name: "Римська республіка"
+
+# About 200 quinqueremes
+battle.sides.0.strength: "Близько 200 квінквірем"
+
+# 30 ships sunk, 50 damaged
+battle.sides.0.casualties: "30 кораблів потоплено, 50 пошкоджено"
+
+# Carthage
+battle.sides.1.name: "Карфаген"
+
+# About 250 quinqueremes
+battle.sides.1.strength: "Близько 250 квінквірем"
+
+# 50 ships sunk, 70 captured, 10,000 men captured
+battle.sides.1.casualties: "50 кораблів потоплено, 70 захоплено, 10 000 людей узято в полон"
+
+# Battle of the Aegates
+battle.name: "Битва біля Егатських островів"
+
+# 10 March 241 BC
+battle.date: "10 березня 241 р. до н. е."
+
+# Roman victory, Treaty of Lutatius
+battle.result: "Перемога Рима, Лутаціїв мир"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Gaius Lutatius Catulus
+battle.sides.0.commanders.0: "Гай Лутацій Катул"
+
+# Quintus Valerius Falto
+battle.sides.0.commanders.1: "Квінт Валерій Фальтон"
+
+# Hanno
+battle.sides.1.commanders.0: "Ганнон"

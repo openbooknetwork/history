@@ -1,0 +1,38 @@
+# bn strings for the battle "panormus".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n bn
+
+# Roman Republic
+battle.sides.0.name: "রোমান প্রজাতন্ত্র"
+
+# 2 legions and 2 allied alae, 16,000 to 20,000 men
+battle.sides.0.strength: "২টি লিজিয়ন ও ২টি মিত্র বাহিনী, ১৬,০০০ থেকে ২০,০০০ জন"
+
+# Unknown, but light
+battle.sides.0.casualties: "অজানা, তবে সামান্য"
+
+# Carthage
+battle.sides.1.name: "কার্থেজ"
+
+# 30,000 men, 60 to 142 elephants
+battle.sides.1.strength: "৩০,০০০ জন, ৬০ থেকে ১৪২টি হাতি"
+
+# Heavy, the elephants captured
+battle.sides.1.casualties: "ভারী, হাতিগুলো দখল হয়"
+
+# Battle of Panormus
+battle.name: "পানোরমাসের যুদ্ধ"
+
+# 250 BC
+battle.date: "খ্রিস্টপূর্ব ২৫০"
+
+# Roman victory
+battle.result: "রোমানদের জয়"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Lucius Caecilius Metellus
+battle.sides.0.commanders.0: "লুসিয়াস সিসিলিয়াস মেটেলাস"
+
+# Hasdrubal
+battle.sides.1.commanders.0: "হাসদ্রুবাল"

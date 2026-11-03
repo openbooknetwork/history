@@ -1,0 +1,5 @@
+[Scipione](@zama-deploy-scipio) schiera le legioni nelle loro tre linee, ma colloca ogni manipolo di principi direttamente dietro un manipolo di astati invece che nella consueta disposizione a scacchiera. Restano così corridoi aperti che attraversano l’esercito, e in essi stanno i veliti. I 4.000 cavalieri numidi di [Massinissa](@zama-deploy-masinissa) tengono la destra, e [Lelio](@zama-deploy-laelius) con 1.500 cavalieri romani e italici la sinistra. Gli storici moderni attribuiscono di solito ai Romani 29.000 o 30.000 uomini.
+
+@image zama-tapestry-ff1299
+
+[Annibale](@zama-deploy-hannibal) mette davanti i suoi 80 elefanti, a circa 30 m l’uno dall’altro. Dietro di essi sta una prima linea di 12.000 mercenari, Liguri, Galli, frombolieri baleari e Mauri, molti dei quali dell’esercito di Magone, e una seconda linea di leve cartaginesi e africane. I suoi veterani d’Italia formano una terza linea circa 200 m più indietro. La sua cavalleria numida fronteggia Massinissa a sinistra e la sua cavalleria cartaginese fronteggia Lelio a destra. Polibio gli attribuisce circa 40.000 uomini, di cui 4.000 cavalieri.

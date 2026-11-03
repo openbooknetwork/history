@@ -1,0 +1,38 @@
+# hi strings for the battle "mylae".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n hi
+
+# Roman Republic
+battle.sides.0.name: "रोमन गणराज्य"
+
+# 143 ships
+battle.sides.0.strength: "143 जहाज"
+
+# Unknown
+battle.sides.0.casualties: "अज्ञात"
+
+# Carthage
+battle.sides.1.name: "कार्थेज"
+
+# 130 ships
+battle.sides.1.strength: "130 जहाज"
+
+# 44 ships, 10,000 men
+battle.sides.1.casualties: "44 जहाज, 10,000 लोग"
+
+# Battle of Mylae
+battle.name: "माइली का युद्ध"
+
+# 260 BC
+battle.date: "260 ईसा पूर्व"
+
+# Roman victory
+battle.result: "रोम की जीत"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Gaius Duilius
+battle.sides.0.commanders.0: "गायस डुइलियस"
+
+# Hannibal Gisco
+battle.sides.1.commanders.0: "हैनिबल गिस्को"

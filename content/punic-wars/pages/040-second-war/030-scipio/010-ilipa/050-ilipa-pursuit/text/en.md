@@ -1,4 +1,4 @@
-That night, as his Iberian allies desert, Hasdrubal slips out of the camp and makes for the ocean. Scipio pursues with the cavalry in front and the legions behind and catches the column on the march. Hasdrubal is left with 6,000 men on a hilltop without water, who surrender soon after, while he and Mago escape to [Gades](@gades-206).
+That night, as his Iberian allies desert, Hasdrubal slips out of the camp and makes for the ocean. Scipio pursues with the cavalry in front and the legions behind and catches the column on the march. Hasdrubal reaches a hilltop without water with 6,000 men. He and Mago escape to [Gades](@gades-206), and the men left on the hill surrender soon after.
 
 @image santiponce-1866-52b334
 

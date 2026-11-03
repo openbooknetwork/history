@@ -1,0 +1,41 @@
+# zh-CN strings for the battle "great-plains".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n zh-CN
+
+# Rome and Masinissa’s Numidians
+battle.sides.0.name: "罗马和马西尼萨的努米底亚人"
+
+# About 20,000
+battle.sides.0.strength: "约2万人"
+
+# Carthage and Syphax’s Numidians
+battle.sides.1.name: "迦太基和西法克斯的努米底亚人"
+
+# About 30,000
+battle.sides.1.strength: "约3万人"
+
+# Battle of the Great Plains
+battle.name: "大平原战役"
+
+# 203 BC
+battle.date: "公元前203年"
+
+# Roman victory
+battle.result: "罗马胜利"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Publius Cornelius Scipio
+battle.sides.0.commanders.0: "普布利乌斯·科尔内利乌斯·西庇阿"
+
+# Masinissa
+battle.sides.0.commanders.1: "马西尼萨"
+
+# Gaius Laelius
+battle.sides.0.commanders.2: "盖乌斯·莱利乌斯"
+
+# Hasdrubal Gisco
+battle.sides.1.commanders.0: "哈斯德鲁巴·吉斯戈"
+
+# Syphax
+battle.sides.1.commanders.1: "西法克斯"

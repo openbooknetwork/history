@@ -1,0 +1,38 @@
+# bn strings for the battle "trasimene".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n bn
+
+# Carthage
+battle.sides.0.name: "কার্থেজ"
+
+# More than 50,000
+battle.sides.0.strength: "৫০,০০০-এর বেশি"
+
+# 1,500 or 2,500 killed, many wounded
+battle.sides.0.casualties: "১,৫০০ বা ২,৫০০ নিহত, অনেকে আহত"
+
+# Roman Republic
+battle.sides.1.name: "রোমান প্রজাতন্ত্র"
+
+# 25,000
+battle.sides.1.strength: "২৫,০০০"
+
+# 15,000 killed, 6,000 – 10,000 captured
+battle.sides.1.casualties: "১৫,০০০ নিহত, ৬,০০০ – ১০,০০০ বন্দি"
+
+# Battle of Lake Trasimene
+battle.name: "ট্রাসিমিন হ্রদের যুদ্ধ"
+
+# 21 June 217 BC
+battle.date: "২১ জুন খ্রিস্টপূর্ব ২১৭"
+
+# Carthaginian victory
+battle.result: "কার্থেজীয়দের জয়"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Hannibal
+battle.sides.0.commanders.0: "হ্যানিবল"
+
+# Gaius Flaminius
+battle.sides.1.commanders.0: "গাইয়াস ফ্লামিনিয়াস"

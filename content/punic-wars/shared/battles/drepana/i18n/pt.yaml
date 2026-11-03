@@ -1,0 +1,38 @@
+# pt strings for the battle "drepana".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n pt
+
+# Carthage
+battle.sides.0.name: "Cartago"
+
+# 100 to 130 ships
+battle.sides.0.strength: "100 a 130 navios"
+
+# None recorded
+battle.sides.0.casualties: "Nenhuma registrada"
+
+# Roman Republic
+battle.sides.1.name: "República Romana"
+
+# At least 123 ships
+battle.sides.1.strength: "Pelo menos 123 navios"
+
+# 93 ships captured, more sunk, 20,000 men killed or captured
+battle.sides.1.casualties: "93 navios capturados, outros afundados, 20.000 homens mortos ou capturados"
+
+# Battle of Drepana
+battle.name: "Batalha de Drépano"
+
+# 249 BC
+battle.date: "249 a.C."
+
+# Carthaginian victory
+battle.result: "Vitória cartaginesa"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Adherbal
+battle.sides.0.commanders.0: "Aderbal"
+
+# Publius Claudius Pulcher
+battle.sides.1.commanders.0: "Públio Cláudio Pulcro"

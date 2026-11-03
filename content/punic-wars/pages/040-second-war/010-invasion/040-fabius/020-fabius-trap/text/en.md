@@ -1,4 +1,4 @@
-Of eight roads out of the Ager Falernus, only three are open to an army north of the Volturnus, whose bridges the Romans hold. [Fabius](@fabius-trap-fabius) reinforces the garrisons of [Casilinum](@casilinum-217) and Cales, posts [Minucius](@fabius-trap-minucius) to the north to watch the Via Latina and the Via Appia, and camps with the main army near Mount Massicus. A detachment of 4,000 men holds the pass beside Mount Callicula in the east, by which [Hannibal](@fabius-trap-hannibal) had come in.
+The Ager Falernus lies north of the Volturnus, and the Romans hold the river’s bridges, so of the eight roads out of the plain only three are open to Hannibal’s army. [Fabius](@fabius-trap-fabius) reinforces the garrisons of [Casilinum](@casilinum-217) and Cales, posts [Minucius](@fabius-trap-minucius) to the north to watch the Via Latina and the Via Appia, and camps with the main army near Mount Massicus. A detachment of 4,000 men holds the pass beside Mount Callicula in the east, by which [Hannibal](@fabius-trap-hannibal) had come in.
 
 @image fabius-plain-59eed2
 

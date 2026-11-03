@@ -1,0 +1,5 @@
+[Annibale](@fabius-oxen-hannibal) sceglie [2.000 buoi](@fabius-oxen-cattle) dalle mandrie catturate e fa legare legna secca alle loro corna. Asdrubale, il responsabile dei rifornimenti, li conduce con 2.000 addetti al campo e 2.000 fanti leggeri verso una sella sotto il campo di [Fabio](@fabius-oxen-fabius), a nord-ovest del passo. Durante la terza vigilia della notte, poco dopo mezzanotte, la legna viene accesa, e gli animali spaventati corrono su per il pendio come un esercito in marcia con le torce.
+
+Fabio tiene l’esercito nel campo, temendo un inganno nel buio. I 4.000 Romani del passo lasciano la loro posizione per attaccare le luci. L’esercito di Annibale attraversa allora il passo rimasto vuoto: prima gli Africani, poi la cavalleria, le salmerie e le mandrie, con Galli e Iberi di retroguardia.
+
+Sulla sella il [distaccamento romano](@fabius-oxen-detachment) si imbatte nel bestiame imbizzarrito e nella fanteria leggera cartaginese. All’alba la fanteria iberica sale il pendio, uccide circa 1.000 Romani e riporta indietro i mandriani, le truppe leggere e parte del bestiame prima che il grosso dell’esercito romano possa intervenire.

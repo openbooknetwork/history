@@ -1,0 +1,5 @@
+Trong vòng 30 đến 50 ngày, [Hasdrubal và Syphax](@great-plains-wings-hasdrubal) lập một đạo quân mới khoảng 30.000 người, cùng 4.000 [người Iberia](@great-plains-wings-iberians) mới đến Carthage, và đóng trại trên Đại Bình nguyên bên sông Bagradas, cách Utica khoảng 120 km. Scipio để lại một lực lượng trước Utica và hành quân đến đó, không mang theo đoàn hành lí, với quân số có lẽ khoảng 20.000 người. Sau ba ngày giao chiến lẻ tẻ, cả hai đạo quân dàn trận.
+
+@image numidian-horseman-6023b7
+
+Hasdrubal đặt người Iberia ở trung tâm, bộ binh và kị binh Carthage ở bên phải họ, còn bộ binh và kị binh Numidia của Syphax ở bên trái họ. Scipio đặt hai quân đoàn La Mã ở trung tâm theo ba tuyến, mỗi bên một quân đoàn đồng minh, kị binh La Mã dưới quyền [Laelius](@great-plains-wings-laelius) ở bên phải và kị binh Numidia của [Masinissa](@great-plains-wings-masinissa) ở bên trái. Ngay đợt xung phong đầu tiên, kị binh ở cả hai cánh Carthage tan vỡ, và bộ binh Carthage và Numidia bỏ chạy trước khi các quân đoàn đồng minh đến nơi. Chỉ có người Iberia xông thẳng vào lính hastati.

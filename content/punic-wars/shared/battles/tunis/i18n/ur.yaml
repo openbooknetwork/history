@@ -1,0 +1,38 @@
+# ur strings for the battle "tunis".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n ur
+
+# Carthage
+battle.sides.0.name: "قرطاجنہ"
+
+# 12,000 infantry, 4,000 cavalry, 100 elephants
+battle.sides.0.strength: "12,000 پیادہ، 4,000 سوار، 100 ہاتھی"
+
+# At least 800 killed
+battle.sides.0.casualties: "کم از کم 800 ہلاک"
+
+# Roman Republic
+battle.sides.1.name: "جمہوریہ روم"
+
+# 15,000 infantry, 500 cavalry
+battle.sides.1.strength: "15,000 پیادہ، 500 سوار"
+
+# 13,000 killed, 500 captured
+battle.sides.1.casualties: "13,000 ہلاک، 500 قید"
+
+# Battle of Tunis
+battle.name: "جنگِ تیونس"
+
+# Spring 255 BC
+battle.date: "موسمِ بہار 255 ق م"
+
+# Carthaginian victory, Regulus captured
+battle.result: "قرطاجنی فتح، ریگولس گرفتار"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Xanthippus
+battle.sides.0.commanders.0: "زانتھپس"
+
+# Marcus Atilius Regulus
+battle.sides.1.commanders.0: "مارکس اٹیلیئس ریگولس"

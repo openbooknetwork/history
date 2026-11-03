@@ -1,0 +1,44 @@
+# pl strings for the battle "agrigentum".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n pl
+
+# Roman Republic
+battle.sides.0.name: "Republika Rzymska"
+
+# 40,000 to 100,000 soldiers and labourers
+battle.sides.0.strength: "Od 40 000 do 100 000 żołnierzy i robotników"
+
+# 15,000 to 30,540 dead
+battle.sides.0.casualties: "Od 15 000 do 30 540 zabitych"
+
+# Carthage
+battle.sides.1.name: "Kartagina"
+
+# 31,500 to 56,000 men, 30 to 60 elephants, and the garrison
+battle.sides.1.strength: "Od 31 500 do 56 000 ludzi, od 30 do 60 słoni oraz załoga miasta"
+
+# 3,200 killed, 4,000 captured, 25,000 inhabitants enslaved
+battle.sides.1.casualties: "3200 zabitych, 4000 wziętych do niewoli, 25 000 mieszkańców sprzedanych w niewolę"
+
+# Battle of Agrigentum
+battle.name: "Bitwa pod Agrigentum"
+
+# 262 – 261 BC
+battle.date: "262–261 p.n.e."
+
+# Roman victory, Agrigentum taken
+battle.result: "Zwycięstwo Rzymian, zdobycie Agrigentum"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Lucius Postumius Megellus
+battle.sides.0.commanders.0: "Lucjusz Postumiusz Megellus"
+
+# Quintus Mamilius Vitulus
+battle.sides.0.commanders.1: "Kwintus Mamiliusz Witulus"
+
+# Hanno, son of Hannibal
+battle.sides.1.commanders.0: "Hannon, syn Hannibala"
+
+# Hannibal Gisco
+battle.sides.1.commanders.1: "Hannibal Giskon"

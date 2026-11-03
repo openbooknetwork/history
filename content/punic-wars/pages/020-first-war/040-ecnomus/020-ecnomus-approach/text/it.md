@@ -1,0 +1,3 @@
+I Romani navigano lungo la costa in quattro squadre. Le prime due, con Vulsone a destra e Regolo a sinistra, sono schierate ciascuna in formazione obliqua, così che insieme formano un cuneo con le due esaremi dei consoli in punta. La terza squadra segue in linea, rimorchiando le navi da trasporto dei cavalli, e la quarta, in linea di fronte, protegge la retroguardia.
+
+I Cartaginesi avanzano in un’unica linea di fronte di tre squadre, con l’ala sinistra, quella verso terra, spinta in avanti. [Amilcare](@ecnomus-approach-hamilcar) comanda il centro e [Annone](@ecnomus-approach-hanno) la destra verso il largo, con le navi più veloci della flotta. Le due flotte si avvistano e avanzano.

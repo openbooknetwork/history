@@ -1,0 +1,35 @@
+# id strings for the battle "agrigentum".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n id
+
+# Roman Republic
+battle.sides.0.name: "Republik Romawi"
+
+# 40,000 to 100,000 soldiers and labourers
+battle.sides.0.strength: "40.000 sampai 100.000 prajurit dan pekerja"
+
+# 15,000 to 30,540 dead
+battle.sides.0.casualties: "15.000 sampai 30.540 tewas"
+
+# Carthage
+battle.sides.1.name: "Kartago"
+
+# 31,500 to 56,000 men, 30 to 60 elephants, and the garrison
+battle.sides.1.strength: "31.500 sampai 56.000 orang, 30 sampai 60 gajah, dan garnisun"
+
+# 3,200 killed, 4,000 captured, 25,000 inhabitants enslaved
+battle.sides.1.casualties: "3.200 tewas, 4.000 ditawan, 25.000 penduduk diperbudak"
+
+# Battle of Agrigentum
+battle.name: "Pertempuran Agrigentum"
+
+# 262 – 261 BC
+battle.date: "262–261 SM"
+
+# Roman victory, Agrigentum taken
+battle.result: "Kemenangan Romawi, Agrigentum direbut"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Hanno, son of Hannibal
+battle.sides.1.commanders.0: "Hanno putra Hannibal"

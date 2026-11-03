@@ -1,0 +1,24 @@
+# id strings for the battle "great-plains".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n id
+
+# Rome and Masinissa’s Numidians
+battle.sides.0.name: "Roma dan orang Numidia pimpinan Masinissa"
+
+# About 20,000
+battle.sides.0.strength: "Sekitar 20.000"
+
+# Carthage and Syphax’s Numidians
+battle.sides.1.name: "Kartago dan orang Numidia pimpinan Syphax"
+
+# About 30,000
+battle.sides.1.strength: "Sekitar 30.000"
+
+# Battle of the Great Plains
+battle.name: "Pertempuran Dataran Besar"
+
+# 203 BC
+battle.date: "203 SM"
+
+# Roman victory
+battle.result: "Kemenangan Romawi"

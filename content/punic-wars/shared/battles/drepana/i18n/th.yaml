@@ -1,0 +1,38 @@
+# th strings for the battle "drepana".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n th
+
+# Carthage
+battle.sides.0.name: "คาร์เธจ"
+
+# 100 to 130 ships
+battle.sides.0.strength: "เรือ 100 ถึง 130 ลำ"
+
+# None recorded
+battle.sides.0.casualties: "ไม่มีบันทึก"
+
+# Roman Republic
+battle.sides.1.name: "สาธารณรัฐโรมัน"
+
+# At least 123 ships
+battle.sides.1.strength: "เรืออย่างน้อย 123 ลำ"
+
+# 93 ships captured, more sunk, 20,000 men killed or captured
+battle.sides.1.casualties: "เรือถูกยึด 93 ลำ จมอีกจำนวนหนึ่ง คน 20,000 คนถูกฆ่าหรือถูกจับ"
+
+# Battle of Drepana
+battle.name: "ยุทธนาวีที่เดรปานา"
+
+# 249 BC
+battle.date: "ก่อน ค.ศ. 249"
+
+# Carthaginian victory
+battle.result: "คาร์เธจชนะ"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Adherbal
+battle.sides.0.commanders.0: "อัดเฮอร์บาล"
+
+# Publius Claudius Pulcher
+battle.sides.1.commanders.0: "ปูบลิอุส คลาวดิอุส ปุลเคอร์"

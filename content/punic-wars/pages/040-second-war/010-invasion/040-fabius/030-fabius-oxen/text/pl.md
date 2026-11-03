@@ -1,0 +1,5 @@
+[Hannibal](@fabius-oxen-hannibal) wybiera ze zdobytych stad [2000 wołów](@fabius-oxen-cattle) i każe przywiązać im do rogów suche drewno. Hazdrubal, kwatermistrz, prowadzi je z 2000 ciurów obozowych i 2000 lekkozbrojnych w stronę siodła poniżej obozu [Fabiusza](@fabius-oxen-fabius), na północny zachód od przełęczy. Podczas trzeciej straży nocnej, wkrótce po północy, drewno zostaje podpalone, a przerażone zwierzęta biegną w górę zbocza jak armia maszerująca z pochodniami.
+
+Fabiusz trzyma armię w obozie, obawiając się podstępu w ciemności. Cztery tysiące Rzymian na przełęczy opuszcza posterunek, by zaatakować światła. Armia Hannibala maszeruje wtedy przez opuszczoną przełęcz: najpierw Afrykanie, potem jazda, tabory i stada, a Galowie i Iberowie jako straż tylna.
+
+Na siodle [oddział rzymski](@fabius-oxen-detachment) wpada na pędzące bydło i kartagińską lekką piechotę. O świcie piechota iberyjska wspina się na zbocze, zabija około 1000 Rzymian i sprowadza z powrotem poganiaczy, lekkozbrojnych i część bydła, zanim główna armia rzymska zdąży interweniować.

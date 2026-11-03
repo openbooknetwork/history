@@ -1,0 +1,3 @@
+Rzymianie płyną wzdłuż wybrzeża w czterech eskadrach. Dwie pierwsze, pod wodzą Wulsona na prawym i Regulusa na lewym skrzydle, ustawione są uskokami, tak że razem tworzą klin z dwiema hekserami konsulów na szpicy. Trzecia eskadra płynie za nimi w linii, holując transportowce z końmi, a czwarta, w szyku czołowym, osłania tyły.
+
+Kartagińczycy nadpływają w jednej linii czołowej złożonej z trzech eskadr, z lewym skrzydłem, od strony lądu, wysuniętym naprzód. [Hamilkar](@ecnomus-approach-hamilcar) dowodzi centrum, a [Hannon](@ecnomus-approach-hanno) prawym skrzydłem od strony morza, z najszybszymi okrętami floty. Obie floty dostrzegają się nawzajem i ruszają naprzód.

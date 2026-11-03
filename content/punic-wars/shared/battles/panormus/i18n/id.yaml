@@ -1,0 +1,30 @@
+# id strings for the battle "panormus".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n id
+
+# Roman Republic
+battle.sides.0.name: "Republik Romawi"
+
+# 2 legions and 2 allied alae, 16,000 to 20,000 men
+battle.sides.0.strength: "2 legiun dan 2 ala sekutu, 16.000 sampai 20.000 orang"
+
+# Unknown, but light
+battle.sides.0.casualties: "Tidak diketahui, tetapi ringan"
+
+# Carthage
+battle.sides.1.name: "Kartago"
+
+# 30,000 men, 60 to 142 elephants
+battle.sides.1.strength: "30.000 orang, 60 sampai 142 gajah"
+
+# Heavy, the elephants captured
+battle.sides.1.casualties: "Berat, gajah-gajahnya direbut"
+
+# Battle of Panormus
+battle.name: "Pertempuran Panormus"
+
+# 250 BC
+battle.date: "250 SM"
+
+# Roman victory
+battle.result: "Kemenangan Romawi"

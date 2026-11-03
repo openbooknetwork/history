@@ -1,0 +1,5 @@
+No início de 238 a.C., os rebeldes enviam a maior parte do exército, cerca de 50.000 homens sob [Espêndio](@mercenary-war-trap-spendius), Autárito e Zarzas, para deter as incursões de [Amílcar](@mercenary-war-trap-hamilcar). Durante meses, os exércitos marcham e contramarcham pelas terras altas, e os rebeldes se mantêm em terreno acidentado, onde os elefantes e a cavalaria cartagineses pouco servem. Amílcar manda pisotear os prisioneiros até a morte com elefantes, o que só faz os rebeldes lutarem com mais força.
+
+@image mercenary-war-hamilcar-439076
+
+Por fim, Amílcar, com três divisões, uma sob o próprio comando, outra sob o lugar-tenente [Aníbal](@mercenary-war-trap-hannibal) e outra sob [Naravas](@mercenary-war-trap-naravas), encurrala os rebeldes num lugar chamado Serra, nome que vem do contorno recortado. Não se sabe se era um desfiladeiro ou uma cadeia de colinas, nem onde ficava. Antes que os rebeldes entendam a situação em que estão, os cartagineses fortificam posições num terreno que torna qualquer ataque inútil, e mais de 40.000 rebeldes ficam com água, mas sem comida.

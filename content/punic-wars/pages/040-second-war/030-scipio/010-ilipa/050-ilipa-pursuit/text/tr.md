@@ -1,4 +1,4 @@
-O gece İber müttefikleri onu bırakıp giderken Hasdrubal kamptan sessizce çıkar ve okyanusa yönelir. Scipio önde süvari, arkada lejyonlarla peşine düşer ve yürüyüş halindeki kolu yakalar. Hasdrubal’in yanında susuz bir tepede 6.000 kişi kalır. Bunlar kısa süre sonra teslim olur, Hasdrubal ile Mago ise [Gades’e](@gades-206) kaçar.
+O gece İber müttefikleri onu bırakıp giderken Hasdrubal kamptan sessizce çıkar ve okyanusa yönelir. Scipio önde süvari, arkada lejyonlarla peşine düşer ve yürüyüş halindeki kolu yakalar. Hasdrubal 6.000 kişiyle susuz bir tepeye ulaşır. Kendisi ile Mago [Gades’e](@gades-206) kaçar, tepede kalan adamlar kısa süre sonra teslim olur.
 
 @image santiponce-1866-52b334
 

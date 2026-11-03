@@ -1,4 +1,4 @@
-The allied infantry on the Roman flanks turn to face the Carthaginian light troops, and the elephants at the ends of Hannibal’s line keep them from closing in, so the Roman push against the Africans and Iberians loses its force. [Mago’s](@trebia-mago-mago) 2,000 men come out of the watercourse and charge into the velites behind the Roman left. Some of the triarii turn round to help them.
+The allied infantry on the Roman flanks turn to face the Carthaginian light troops, and the elephants at the ends of Hannibal’s line keep the allied infantry from closing in, so the Roman push against the Africans and Iberians loses its force. [Mago’s](@trebia-mago-mago) 2,000 men come out of the watercourse and charge into the velites behind the Roman left. Some of the triarii turn round to help them.
 
 @image trebia-memorial-4f613e
 

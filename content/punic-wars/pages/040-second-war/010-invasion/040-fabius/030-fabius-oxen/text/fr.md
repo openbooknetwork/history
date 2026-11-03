@@ -1,0 +1,5 @@
+[Hannibal](@fabius-oxen-hannibal) choisit [2 000 bœufs](@fabius-oxen-cattle) dans les troupeaux capturés et fait attacher du bois sec à leurs cornes. Hasdrubal, l’intendant, les conduit avec 2 000 valets d’armée et 2 000 fantassins légers vers un col situé sous le camp de [Fabius](@fabius-oxen-fabius), au nord-ouest du défilé. Pendant la troisième veille de la nuit, peu après minuit, le bois est allumé, et les bêtes effrayées gravissent la pente comme une armée en marche à la lueur des torches.
+
+Fabius garde son armée au camp, craignant une ruse dans l’obscurité. Les 4 000 Romains du défilé quittent leur poste pour attaquer les lumières. L’armée d’Hannibal franchit alors le défilé vide, les Africains en tête, puis la cavalerie, les bagages et les troupeaux, avec les Gaulois et les Ibères en arrière-garde.
+
+Sur le col, le [détachement romain](@fabius-oxen-detachment) tombe sur le bétail emballé et sur l’infanterie légère carthaginoise. À l’aube, de l’infanterie ibère gravit la pente, tue environ 1 000 Romains et ramène les bouviers, les troupes légères et une partie du bétail avant que l’armée romaine principale puisse intervenir.

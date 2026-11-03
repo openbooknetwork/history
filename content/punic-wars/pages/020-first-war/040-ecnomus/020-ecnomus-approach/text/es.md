@@ -1,0 +1,3 @@
+Los romanos navegan a lo largo de la costa en cuatro escuadras. Las dos primeras, la de Vulsón a la derecha y la de Régulo a la izquierda, forman cada una en escalón, de modo que juntas componen una cuña con las dos hexerremes de los cónsules en la punta. La tercera escuadra las sigue en fila y remolca los transportes que llevan los caballos, y la cuarta, en línea de frente, cubre la retaguardia.
+
+Los cartagineses avanzan en una sola línea de frente de tres escuadras, con su ala izquierda, la del lado de tierra, adelantada. [Amílcar](@ecnomus-approach-hamilcar) manda el centro y [Hannón](@ecnomus-approach-hanno) la derecha, del lado del mar, con las naves más rápidas de la flota. Las dos flotas se avistan y avanzan.

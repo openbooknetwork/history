@@ -1,0 +1,38 @@
+# hi strings for the battle "new-carthage".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n hi
+
+# Roman Republic
+battle.sides.0.name: "रोमन गणराज्य"
+
+# 27,500, with 35 galleys
+battle.sides.0.strength: "27,500, 35 गैलियों के साथ"
+
+# Unknown
+battle.sides.0.casualties: "अज्ञात"
+
+# Carthage
+battle.sides.1.name: "कार्थेज"
+
+# Over 3,000, of them 2,000 civilian levies
+battle.sides.1.strength: "3,000 से अधिक, जिनमें 2,000 नागरिक भर्ती"
+
+# All killed or captured
+battle.sides.1.casualties: "सभी मारे गए या बंदी बने"
+
+# Battle of New Carthage
+battle.name: "नये कार्थेज का युद्ध"
+
+# Early 209 BC
+battle.date: "209 ईसा पूर्व का आरंभ"
+
+# Roman victory, New Carthage taken
+battle.result: "रोम की जीत, नये कार्थेज पर कब्जा"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Publius Cornelius Scipio
+battle.sides.0.commanders.0: "पब्लियस कॉर्नेलियस स्किपियो"
+
+# Mago
+battle.sides.1.commanders.0: "मागो"

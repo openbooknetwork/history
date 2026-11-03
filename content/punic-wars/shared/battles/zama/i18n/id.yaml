@@ -1,0 +1,30 @@
+# id strings for the battle "zama".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n id
+
+# Roman Republic
+battle.sides.0.name: "Republik Romawi"
+
+# 29,000–30,000, with 6,100 cavalry
+battle.sides.0.strength: "29.000–30.000, dengan 6.100 prajurit kavaleri"
+
+# At least 1,500 killed, many wounded
+battle.sides.0.casualties: "Sedikitnya 1.500 tewas, banyak yang terluka"
+
+# Carthage
+battle.sides.1.name: "Kartago"
+
+# 40,000 or 50,000, with 80 war elephants
+battle.sides.1.strength: "40.000 atau 50.000, dengan 80 gajah perang"
+
+# 20,000 killed, 20,000 captured
+battle.sides.1.casualties: "20.000 tewas, 20.000 ditawan"
+
+# Battle of Zama
+battle.name: "Pertempuran Zama"
+
+# October 202 BC
+battle.date: "Oktober 202 SM"
+
+# Roman victory, Carthage sues for peace
+battle.result: "Kemenangan Romawi, Kartago meminta perdamaian"

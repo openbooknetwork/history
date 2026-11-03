@@ -1,0 +1,3 @@
+Người La Mã đi dọc bờ biển thành bốn hải đội. Hai hải đội đầu, do Vulso chỉ huy bên phải và Regulus bên trái, mỗi hải đội dàn thành hàng chéo, để cùng nhau tạo thành một hình nêm với hai chiếc thuyền sáu tầng chèo của hai chấp chính quan ở mũi nhọn. Hải đội thứ ba đi theo thành hàng dọc, kéo những thuyền vận tải chở ngựa, còn hải đội thứ tư dàn hàng ngang bảo vệ phía sau.
+
+Quân Carthage tiến lên thành một hàng ngang duy nhất gồm ba hải đội, cánh trái phía đất liền vươn lên trước. [Hamilcar](@ecnomus-approach-hamilcar) chỉ huy trung tâm và [Hanno](@ecnomus-approach-hanno) chỉ huy cánh phải phía biển khơi, với những chiếc thuyền nhanh nhất của hạm đội. Hai hạm đội nhìn thấy nhau và tiến lên.

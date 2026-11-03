@@ -1,0 +1,3 @@
+Pouco depois da batalha, Cartalão se junta a Aderbal com 70 navios. Aderbal eleva a esquadra de Cartalão a 100 navios e envia Cartalão a [Lilibeu](@lilybaeum-249), onde ele incendeia vários navios romanos. Mais tarde no mesmo ano, Cartalão encontra um comboio de abastecimento romano ao largo de [Fíntias](@phintias-249), 800 transportes escoltados por 120 navios de guerra, e o fustiga até que uma tempestade afunde todos os navios romanos, menos dois.
+
+Pulcro é chamado de volta a Roma e julgado por traição. É condenado pela acusação menor de sacrilégio, por causa das galinhas, escapa por pouco de uma sentença de morte e parte para o exílio. Sem rivais no mar, Cartago desarma a maior parte da frota, e a próxima grande frota de Roma só zarpa em 242 a.C.

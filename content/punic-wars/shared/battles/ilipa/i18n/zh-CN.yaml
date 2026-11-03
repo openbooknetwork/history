@@ -1,0 +1,50 @@
+# zh-CN strings for the battle "ilipa".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n zh-CN
+
+# Roman Republic
+battle.sides.0.name: "罗马共和国"
+
+# 48,000 (Polybius) or 55,000 (Livy)
+battle.sides.0.strength: "4.8万人（波利比乌斯）或5.5万人（李维）"
+
+# 7,000 killed
+battle.sides.0.casualties: "7000人被杀"
+
+# Carthage
+battle.sides.1.name: "迦太基"
+
+# 74,000 with 32 elephants (Polybius) or 54,500 (Livy)
+battle.sides.1.strength: "7.4万人和32头战象（波利比乌斯）或54,500人（李维）"
+
+# Over 48,500 killed or captured
+battle.sides.1.casualties: "48,500多人被杀或被俘"
+
+# Battle of Ilipa
+battle.name: "伊利帕战役"
+
+# Spring 206 BC
+battle.date: "公元前206年春"
+
+# Roman victory, end of Carthaginian rule in Iberia
+battle.result: "罗马胜利，迦太基在伊比利亚的统治结束"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Publius Cornelius Scipio
+battle.sides.0.commanders.0: "普布利乌斯·科尔内利乌斯·西庇阿"
+
+# Lucius Marcius Septimus
+battle.sides.0.commanders.1: "卢基乌斯·马基乌斯·塞普蒂穆斯"
+
+# Marcus Junius Silanus
+battle.sides.0.commanders.2: "马库斯·尤尼乌斯·西拉努斯"
+
+# Hasdrubal Gisco
+battle.sides.1.commanders.0: "哈斯德鲁巴·吉斯戈"
+
+# Mago Barca
+battle.sides.1.commanders.1: "马戈·巴卡"
+
+# Masinissa
+battle.sides.1.commanders.2: "马西尼萨"

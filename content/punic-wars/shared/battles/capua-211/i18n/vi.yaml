@@ -1,0 +1,29 @@
+# vi strings for the battle "capua-211".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n vi
+
+# Roman Republic
+battle.sides.0.name: "Cộng hoà La Mã"
+
+# Unknown
+battle.sides.0.casualties: "Không rõ"
+
+# Carthage and Capua
+battle.sides.1.name: "Carthage và Capua"
+
+# Unknown
+battle.sides.1.casualties: "Không rõ"
+
+# Siege of Capua
+battle.name: "Cuộc vây hãm Capua"
+
+# 211 BC
+battle.date: "Năm 211 TCN"
+
+# Roman victory, fall of Capua
+battle.result: "La Mã thắng, Capua thất thủ"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Hanno, son of Bomilcar
+battle.sides.1.commanders.2: "Hanno, con trai Bomilcar"

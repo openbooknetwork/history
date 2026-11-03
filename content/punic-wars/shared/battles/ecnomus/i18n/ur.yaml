@@ -1,0 +1,44 @@
+# ur strings for the battle "ecnomus".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n ur
+
+# Roman Republic
+battle.sides.0.name: "جمہوریہ روم"
+
+# 330 ships, about 140,000 crew and marines
+battle.sides.0.strength: "330 جہاز، تقریباً 1,40,000 ملاح اور بحری سپاہی"
+
+# 24 ships sunk, 10,000 men killed
+battle.sides.0.casualties: "24 جہاز ڈوبے، 10,000 آدمی ہلاک"
+
+# Carthage
+battle.sides.1.name: "قرطاجنہ"
+
+# 350 ships, about 150,000 crew and marines
+battle.sides.1.strength: "350 جہاز، تقریباً 1,50,000 ملاح اور بحری سپاہی"
+
+# 30 ships sunk, 64 captured, 30,000 to 40,000 men killed or captured
+battle.sides.1.casualties: "30 جہاز ڈوبے، 64 پکڑے گئے، 30,000 سے 40,000 تک آدمی ہلاک یا قید"
+
+# Battle of Cape Ecnomus
+battle.name: "جنگِ راس ایکنومس"
+
+# 256 BC
+battle.date: "256 ق م"
+
+# Roman victory
+battle.result: "رومی فتح"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Marcus Atilius Regulus
+battle.sides.0.commanders.0: "مارکس اٹیلیئس ریگولس"
+
+# Lucius Manlius Vulso
+battle.sides.0.commanders.1: "لوکیئس مانلیئس وولسو"
+
+# Hamilcar
+battle.sides.1.commanders.0: "ہملکار"
+
+# Hanno
+battle.sides.1.commanders.1: "ہانو"

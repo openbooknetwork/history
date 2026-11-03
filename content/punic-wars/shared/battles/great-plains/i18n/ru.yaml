@@ -1,0 +1,41 @@
+# ru strings for the battle "great-plains".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n ru
+
+# Rome and Masinissa’s Numidians
+battle.sides.0.name: "Рим и нумидийцы Масиниссы"
+
+# About 20,000
+battle.sides.0.strength: "Около 20 000"
+
+# Carthage and Syphax’s Numidians
+battle.sides.1.name: "Карфаген и нумидийцы Сифакса"
+
+# About 30,000
+battle.sides.1.strength: "Около 30 000"
+
+# Battle of the Great Plains
+battle.name: "Битва на Великих равнинах"
+
+# 203 BC
+battle.date: "203 год до н. э."
+
+# Roman victory
+battle.result: "Победа Рима"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Publius Cornelius Scipio
+battle.sides.0.commanders.0: "Публий Корнелий Сципион"
+
+# Masinissa
+battle.sides.0.commanders.1: "Масинисса"
+
+# Gaius Laelius
+battle.sides.0.commanders.2: "Гай Лелий"
+
+# Hasdrubal Gisco
+battle.sides.1.commanders.0: "Гасдрубал Гисгон"
+
+# Syphax
+battle.sides.1.commanders.1: "Сифакс"

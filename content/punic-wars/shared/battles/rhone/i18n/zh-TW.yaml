@@ -1,0 +1,26 @@
+# zh-TW strings for the battle "rhone".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n zh-TW
+
+# Carthage
+battle.sides.0.name: "迦太基"
+
+# 38,000 infantry, 8,000 cavalry, 37 elephants
+battle.sides.0.strength: "38,000名步兵、8,000名騎兵、37頭戰象"
+
+# Volcae, a Gallic people
+battle.sides.1.name: "沃爾凱人，一個高盧民族"
+
+# Battle of the Rhône Crossing
+battle.name: "強渡隆河之戰"
+
+# Late September 218 BC
+battle.date: "西元前218年9月下旬"
+
+# Carthaginian victory
+battle.result: "迦太基勝利"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Hannibal
+battle.sides.0.commanders.0: "漢尼拔"

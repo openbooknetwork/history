@@ -1,0 +1,44 @@
+# zh-TW strings for the battle "ecnomus".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n zh-TW
+
+# Roman Republic
+battle.sides.0.name: "羅馬共和國"
+
+# 330 ships, about 140,000 crew and marines
+battle.sides.0.strength: "330艘船，約14萬名船員和海軍陸戰兵"
+
+# 24 ships sunk, 10,000 men killed
+battle.sides.0.casualties: "24艘船被擊沉，1萬人陣亡"
+
+# Carthage
+battle.sides.1.name: "迦太基"
+
+# 350 ships, about 150,000 crew and marines
+battle.sides.1.strength: "350艘船，約15萬名船員和海軍陸戰兵"
+
+# 30 ships sunk, 64 captured, 30,000 to 40,000 men killed or captured
+battle.sides.1.casualties: "30艘船被擊沉，64艘被俘，3萬至4萬人陣亡或被俘"
+
+# Battle of Cape Ecnomus
+battle.name: "埃克諾穆斯角海戰"
+
+# 256 BC
+battle.date: "西元前256年"
+
+# Roman victory
+battle.result: "羅馬勝利"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Marcus Atilius Regulus
+battle.sides.0.commanders.0: "馬庫斯‧阿蒂利烏斯‧雷古魯斯"
+
+# Lucius Manlius Vulso
+battle.sides.0.commanders.1: "盧基烏斯‧曼利烏斯‧武爾索"
+
+# Hamilcar
+battle.sides.1.commanders.0: "哈米爾卡"
+
+# Hanno
+battle.sides.1.commanders.1: "漢諾"

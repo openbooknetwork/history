@@ -1,0 +1,47 @@
+# pt strings for the battle "carthage-149".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n pt
+
+# Roman Republic
+battle.sides.0.name: "República Romana"
+
+# 36,000 to 46,000 infantry, 4,000 cavalry
+battle.sides.0.strength: "36.000 a 46.000 soldados de infantaria, 4.000 de cavalaria"
+
+# Unknown
+battle.sides.0.casualties: "Desconhecidas"
+
+# Carthage
+battle.sides.1.name: "Cartago"
+
+# 30,000 soldiers and about 60,000 armed civilians
+battle.sides.1.strength: "30.000 soldados e cerca de 60.000 civis armados"
+
+# 50,000 enslaved
+battle.sides.1.casualties: "50.000 escravizados"
+
+# Siege of Carthage
+battle.name: "Cerco de Cartago"
+
+# 149 – spring 146 BC
+battle.date: "149 a.C. – primavera de 146 a.C."
+
+# Roman victory, Carthage destroyed
+battle.result: "Vitória romana, Cartago destruída"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Scipio Aemilianus
+battle.sides.0.commanders.0: "Cipião Emiliano"
+
+# Manius Manilius
+battle.sides.0.commanders.1: "Mânio Manílio"
+
+# Lucius Marcius Censorinus
+battle.sides.0.commanders.2: "Lúcio Márcio Censorino"
+
+# Lucius Calpurnius Piso
+battle.sides.0.commanders.3: "Lúcio Calpúrnio Pisão"
+
+# Hasdrubal
+battle.sides.1.commanders.0: "Asdrúbal"

@@ -1,0 +1,41 @@
+# ur strings for the battle "aegates".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n ur
+
+# Roman Republic
+battle.sides.0.name: "جمہوریہ روم"
+
+# About 200 quinqueremes
+battle.sides.0.strength: "تقریباً 200 پانچ قطاری جہاز"
+
+# 30 ships sunk, 50 damaged
+battle.sides.0.casualties: "30 جہاز ڈوبے، 50 کو نقصان پہنچا"
+
+# Carthage
+battle.sides.1.name: "قرطاجنہ"
+
+# About 250 quinqueremes
+battle.sides.1.strength: "تقریباً 250 پانچ قطاری جہاز"
+
+# 50 ships sunk, 70 captured, 10,000 men captured
+battle.sides.1.casualties: "50 جہاز ڈوبے، 70 پکڑے گئے، 10,000 آدمی قید ہوئے"
+
+# Battle of the Aegates
+battle.name: "جنگِ ایگاتس"
+
+# 10 March 241 BC
+battle.date: "10 مارچ 241 ق م"
+
+# Roman victory, Treaty of Lutatius
+battle.result: "رومی فتح، معاہدۂ لوٹاٹیئس"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Gaius Lutatius Catulus
+battle.sides.0.commanders.0: "گائیئس لوٹاٹیئس کاتولس"
+
+# Quintus Valerius Falto
+battle.sides.0.commanders.1: "کوئنٹس ویلیریئس فالٹو"
+
+# Hanno
+battle.sides.1.commanders.0: "ہانو"

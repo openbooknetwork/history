@@ -1,0 +1,50 @@
+# ru strings for the battle "ilipa".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n ru
+
+# Roman Republic
+battle.sides.0.name: "Римская республика"
+
+# 48,000 (Polybius) or 55,000 (Livy)
+battle.sides.0.strength: "48 000 (Полибий) или 55 000 (Ливий)"
+
+# 7,000 killed
+battle.sides.0.casualties: "7000 убитых"
+
+# Carthage
+battle.sides.1.name: "Карфаген"
+
+# 74,000 with 32 elephants (Polybius) or 54,500 (Livy)
+battle.sides.1.strength: "74 000 с 32 слонами (Полибий) или 54 500 (Ливий)"
+
+# Over 48,500 killed or captured
+battle.sides.1.casualties: "Более 48 500 убитых или пленных"
+
+# Battle of Ilipa
+battle.name: "Битва при Илипе"
+
+# Spring 206 BC
+battle.date: "Весна 206 года до н. э."
+
+# Roman victory, end of Carthaginian rule in Iberia
+battle.result: "Победа Рима, конец карфагенского владычества в Иберии"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Publius Cornelius Scipio
+battle.sides.0.commanders.0: "Публий Корнелий Сципион"
+
+# Lucius Marcius Septimus
+battle.sides.0.commanders.1: "Луций Марций Септим"
+
+# Marcus Junius Silanus
+battle.sides.0.commanders.2: "Марк Юний Силан"
+
+# Hasdrubal Gisco
+battle.sides.1.commanders.0: "Гасдрубал Гисгон"
+
+# Mago Barca
+battle.sides.1.commanders.1: "Магон Барка"
+
+# Masinissa
+battle.sides.1.commanders.2: "Масинисса"

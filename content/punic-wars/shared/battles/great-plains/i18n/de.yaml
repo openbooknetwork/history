@@ -1,0 +1,29 @@
+# de strings for the battle "great-plains".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n de
+
+# Rome and Masinissa’s Numidians
+battle.sides.0.name: "Rom und die Numider des Masinissa"
+
+# About 20,000
+battle.sides.0.strength: "Etwa 20 000"
+
+# Carthage and Syphax’s Numidians
+battle.sides.1.name: "Karthago und die Numider des Syphax"
+
+# About 30,000
+battle.sides.1.strength: "Etwa 30 000"
+
+# Battle of the Great Plains
+battle.name: "Schlacht auf den Großen Feldern"
+
+# 203 BC
+battle.date: "203 v. Chr."
+
+# Roman victory
+battle.result: "Römischer Sieg"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Hasdrubal Gisco
+battle.sides.1.commanders.0: "Hasdrubal Gisko"

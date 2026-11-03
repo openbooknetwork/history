@@ -1,0 +1,30 @@
+# id strings for the battle "the-saw".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n id
+
+# Carthage
+battle.sides.0.name: "Kartago"
+
+# 20,000 – 30,000
+battle.sides.0.strength: "20.000–30.000"
+
+# Light
+battle.sides.0.casualties: "Ringan"
+
+# Rebel army
+battle.sides.1.name: "Pasukan pemberontak"
+
+# 50,000
+battle.sides.1.strength: "50.000"
+
+# All killed
+battle.sides.1.casualties: "Semua terbunuh"
+
+# Battle of the Saw
+battle.name: "Pertempuran Gergaji"
+
+# 238 BC
+battle.date: "238 SM"
+
+# Carthaginian victory
+battle.result: "Kemenangan Kartago"

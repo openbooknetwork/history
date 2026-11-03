@@ -72,7 +72,20 @@ A whole story goes into a language through two agents in `.claude/agents/`: `tra
 language of `site.yaml`'s `languages` other than `en`. Before dispatching, set the story's `languages` in `story.yaml`
 to `en` and those targets, then dispatch one `translator` per language. Any number run at once, one agent per story
 and language, since two agents on the same story and language save the same catalogue.
-`node scripts/check-translation.mjs <story> <lang>` checks a translation's shape against the English.
+`node scripts/check-translation.mjs <story> <lang>` checks a translation's shape against the English. When the
+reviewer is done, stamp the story.
+
+A stamp is the hash of the English behind a translated paragraph or string, kept in `i18n/stamps/<lang>.yaml` of the
+story and of each battle and image folder, committed with the translation. `./node_modules/.bin/harita i18n <lang>
+--story <story> --stamp` writes them, so run it after the reviewer and never before: an unstamped paragraph is one
+no reviewer has passed. A story translated before it had stamps gets them from one such run.
+
+A story already in a language is updated from its stamps. `./node_modules/.bin/harita i18n <lang> --story <story>
+--stale` writes `.cache/kitap/stale/<story>/<lang>.yaml`: the paragraphs and strings whose English changed since the
+stamp, each with the new English and the current translation, and what has no translation yet. Dispatch the
+`translator`, then the `translation-reviewer`, with the story id, the language code and the word `stale`: each reads
+that list in place of the story and edits the files it names. Then stamp the story. A request to update a story in
+every language runs one pair of agents per language, as a first translation does.
 
 ## Battles and images
 

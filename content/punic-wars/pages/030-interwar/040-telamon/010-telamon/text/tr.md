@@ -1,4 +1,4 @@
-MÖ 232’de [Roma](@rome-225), Picenum’daki eski Galya topraklarını yoksul yurttaşları arasında paylaştırır. Bu, Po vadisindeki Boiileri ve İnsubreleri tedirgin eder. MÖ 225’te bu iki halk, kralları Concolitanus ve Aneroëstes komutasında Alplerin ötesinden gelen Gaesatae savaşçılarını ücretle tutar. Polybios, Hasdrubal ile yapılan Ebro Antlaşması’nı Roma’nın bu savaştan duyduğu korkuya bağlar.
+MÖ 232’de [Roma](@rome-225), Picenum’daki eski Galya topraklarını yoksul yurttaşları arasında paylaştırır. Bu, Po vadisindeki Boiileri ve İnsubreleri tedirgin eder. MÖ 225’te bu iki halk, kralları Concolitanus ve Aneroëstes komutasında Alplerin ötesinden gelen Gaesatae savaşçılarını ücretle tutar. Polybios, Roma’nın bu savaştan duyduğu korku yüzünden Hasdrubal ile Ebro Antlaşması’nı yaptığını yazar.
 
 @image telamon-talamone-4f0f1c
 

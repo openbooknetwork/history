@@ -1,0 +1,5 @@
+[Scipio](@zama-deploy-scipio) dàn các quân đoàn theo ba tuyến, nhưng đặt mỗi đội maniple principes ngay sau một đội maniple hastati thay vì theo kiểu bàn cờ như thường lệ. Cách đó tạo ra những lối trống chạy xuyên qua đạo quân, và lính velites đứng trong các lối đó. 4.000 kị binh Numidia của [Masinissa](@zama-deploy-masinissa) giữ cánh phải, còn [Laelius](@zama-deploy-laelius) cùng 1.500 kị binh La Mã và Ý giữ cánh trái. Các sử gia hiện đại thường cho rằng người La Mã có 29.000 hoặc 30.000 người.
+
+@image zama-tapestry-ff1299
+
+[Hannibal](@zama-deploy-hannibal) đặt 80 con voi ở phía trước, cách nhau khoảng 30 m. Phía sau chúng là tuyến thứ nhất gồm 12.000 lính đánh thuê, người Liguria, người Gaul, lính ném đá đảo Baleares và người Moor, nhiều người trong số họ thuộc đạo quân của Mago, và tuyến thứ hai gồm lính mới tuyển người Carthage và châu Phi. Các cựu binh từ Ý của ông tạo thành tuyến thứ ba, lùi về phía sau khoảng 200 m. Kị binh Numidia của ông đối mặt với Masinissa ở bên trái và kị binh Carthage đối mặt với Laelius ở bên phải. Polybius cho rằng ông có khoảng 40.000 người, trong đó 4.000 kị binh.

@@ -1,0 +1,30 @@
+# id strings for the battle "trasimene".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n id
+
+# Carthage
+battle.sides.0.name: "Kartago"
+
+# More than 50,000
+battle.sides.0.strength: "Lebih dari 50.000"
+
+# 1,500 or 2,500 killed, many wounded
+battle.sides.0.casualties: "1.500 atau 2.500 tewas, banyak yang terluka"
+
+# Roman Republic
+battle.sides.1.name: "Republik Romawi"
+
+# 25,000
+battle.sides.1.strength: "25.000"
+
+# 15,000 killed, 6,000 – 10,000 captured
+battle.sides.1.casualties: "15.000 tewas, 6.000–10.000 ditawan"
+
+# Battle of Lake Trasimene
+battle.name: "Pertempuran Danau Trasimeno"
+
+# 21 June 217 BC
+battle.date: "21 Juni 217 SM"
+
+# Carthaginian victory
+battle.result: "Kemenangan Kartago"

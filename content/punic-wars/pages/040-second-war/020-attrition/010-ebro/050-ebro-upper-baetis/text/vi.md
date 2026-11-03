@@ -1,0 +1,5 @@
+Trong nhiều năm, anh em nhà Scipio không nhận được quân tiếp viện từ Ý và tiếp tục chiến đấu bằng những cuộc đột kích và liên minh với các bộ tộc Iberia. Năm 212 TCN, họ chiếm lại [Saguntum](@saguntum-212) và chiếm [Castulo](@castulo-211), một thị trấn mỏ và là quê của Imilce, vợ Hannibal, rồi trú đông ở đó. Lúc này Hasdrubal Barca có thêm hai đạo quân Carthage đến hợp quân, một dưới quyền em trai ông là Mago và một dưới quyền Hasdrubal Gisco.
+
+@image scipios-tower-d489f7
+
+Năm 211 TCN, hai anh em thuê 20.000 lính đánh thuê người Celtiberia bổ sung cho 30.000 quân La Mã và đồng minh của mình, rồi chia lực lượng. Publius tiến đánh Mago gần Castulo, bị kị binh Numidia của Masinissa cùng các đạo quân của Mago và Hasdrubal Gisco bắt kịp, và tử trận cùng phần lớn binh lính. Hasdrubal Barca mua chuộc những người Celtiberia đi cùng Gnaeus để họ về nhà, và vài ngày sau Gnaeus bị đánh tan và tử trận trên một ngọn đồi gần [Ilorca](@ilorca-211). Những người sống sót, khoảng 8.000 đến 9.000 người, tập hợp ở phía bắc sông Ebro.

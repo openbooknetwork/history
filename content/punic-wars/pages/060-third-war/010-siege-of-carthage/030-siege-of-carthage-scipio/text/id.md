@@ -1,0 +1,5 @@
+Desakan rakyat di Roma menjadikan [Scipio](@carthage-147-scipio) Aemilianus konsul untuk tahun 147 SM, meskipun pada usia 36 atau 37 tahun ia belum mencapai usia yang ditetapkan hukum, dan memberinya komando tunggal di Afrika. Pada awal tahun itu, Lucius Hostilius [Mancinus](@carthage-147-mancinus), yang memimpin armada, menerobos masuk melalui sebuah pintu kecil untuk serangan keluar dengan 3.500 orang, sebagian besar pelaut. Scipio berlayar dari Utica pada malam hari dan mengangkut mereka keluar ketika orang Kartago melancarkan serangan balik.
+
+@image carthage-plan-1889-3b11f0
+
+Scipio memulihkan disiplin dan memimpin serbuan malam ke [Megara](@carthage-147-megara), pinggiran kota yang luas berisi kebun dan vila di dalam tembok. Empat ribu orang Romawi berhasil masuk, tetapi Scipio menarik mereka sebelum fajar. [Hasdrubal](@carthage-147-hasdrubal) menyuruh tawanan Romawi disiksa sampai mati di atas tembok di depan mata tentara Romawi dan menghukum mati para anggota dewan yang menentangnya. Scipio kemudian menutup sisi darat kota itu dengan garis berbenteng yang melintangi tanah genting.

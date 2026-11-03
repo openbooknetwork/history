@@ -1,0 +1,5 @@
+[Hannibal](@fabius-oxen-hannibal) wählt [2 000 Ochsen](@fabius-oxen-cattle) aus den erbeuteten Herden aus und lässt ihnen trockenes Holz an die Hörner binden. Hasdrubal, der Quartiermeister, führt sie mit 2 000 Trossknechten und 2 000 Leichtbewaffneten zu einem Sattel unterhalb des Lagers des [Fabius](@fabius-oxen-fabius), nordwestlich des Passes. In der dritten Nachtwache, bald nach Mitternacht, wird das Holz angezündet, und die verängstigten Tiere laufen den Hang hinauf wie ein Heer, das mit Fackeln marschiert.
+
+Fabius hält sein Heer im Lager, weil er im Dunkeln eine List fürchtet. Die 4 000 Römer am Pass verlassen ihren Posten, um die Lichter anzugreifen. Hannibals Heer zieht daraufhin durch den leeren Pass, zuerst die Afrikaner, dann die Reiterei, der Tross und die Herden, mit Galliern und Iberern als Nachhut.
+
+Auf dem Sattel gerät die [römische Abteilung](@fabius-oxen-detachment) zwischen das durchgehende Vieh und die karthagischen Leichtbewaffneten. Im Morgengrauen steigen iberische Fußsoldaten den Hang hinauf, töten etwa 1 000 Römer und holen die Treiber, die leichten Truppen und einen Teil des Viehs zurück, bevor das römische Hauptheer eingreifen kann.

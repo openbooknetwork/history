@@ -4,6 +4,6 @@ MÖ 256’da Ecnomus Burnu açıklarındaki zaferden sonra Romalılar Cap Bon Ya
 
 Regulus iç kesimlere yürür ve [Adys’i](@adys-256) kuşatır. Süvarisi ve filleri güçlü bir [Kartaca](@carthage-255) ordusu yakındaki bir tepede, ikisinin de kullanılamayacağı bir yerde kamp kurar. Romalılar gece yürür, şafakta kampa iki yönden saldırır ve Kartacalıları kaçırır, ancak süvarileri ve filleri kurtulur. Regulus ardından Kartaca’ya 16 km uzaklıktaki Tunus’u alır ve Kartaca’nın Afrika’daki tebaasının çoğu ayaklanır.
 
-Mültecilerle dolan ve yiyeceği tükenen Kartaca görüşme açar. Regulus Sicilya’yı, Sardinya’yı ve Korsika’yı, savaş giderlerini, yıllık bir haracı ve bir tanesi dışında bütün savaş gemilerini ister, Kartaca da savaşmayı sürdürmeye karar verir. Spartalı paralı asker komutanı Ksanthippos, Kartacalıları süvarilerinin ve fillerinin açık ve düz arazide savaşması gerektiğine ikna eder. Kış boyunca orduyu eğitir ve ilkbaharda komutayı alır.
+Mültecilerle dolan ve yiyeceği tükenen Kartaca görüşme açar. Regulus Sicilya’yı, Sardinya’yı ve Korsika’yı, savaş giderlerini ve yıllık bir haracı ister, Kartaca’ya da yalnızca bir savaş gemisi bırakacaktır. Kartaca savaşmayı sürdürmeye karar verir. Spartalı paralı asker komutanı Ksanthippos, Kartacalıları süvarilerinin ve fillerinin açık ve düz arazide savaşması gerektiğine ikna eder. Kış boyunca orduyu eğitir ve ilkbaharda komutayı alır.
 
 @image regulus-kerkouane-05f086

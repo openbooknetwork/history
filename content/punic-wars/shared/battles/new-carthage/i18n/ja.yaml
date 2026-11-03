@@ -1,0 +1,38 @@
+# ja strings for the battle "new-carthage".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n ja
+
+# Roman Republic
+battle.sides.0.name: "共和政ローマ"
+
+# 27,500, with 35 galleys
+battle.sides.0.strength: "2万7500人、ガレー船35隻"
+
+# Unknown
+battle.sides.0.casualties: "不明"
+
+# Carthage
+battle.sides.1.name: "カルタゴ"
+
+# Over 3,000, of them 2,000 civilian levies
+battle.sides.1.strength: "3,000人以上、うち2,000人は住民から集めた兵"
+
+# All killed or captured
+battle.sides.1.casualties: "全員が戦死または捕虜"
+
+# Battle of New Carthage
+battle.name: "新カルタゴの戦い"
+
+# Early 209 BC
+battle.date: "紀元前209年初め"
+
+# Roman victory, New Carthage taken
+battle.result: "ローマの勝利、新カルタゴの占領"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Publius Cornelius Scipio
+battle.sides.0.commanders.0: "プブリウス・コルネリウス・スキピオ"
+
+# Mago
+battle.sides.1.commanders.0: "マゴ"

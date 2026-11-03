@@ -4,4 +4,4 @@ Hasdrubal Barca winters in Gaul and crosses the Alps in spring 207 BC, faster th
 
 Of the two consuls of 207 BC, Gaius Claudius Nero faces Hannibal in the south, and Marcus Livius Salinator falls back before Hasdrubal as far as [Sena](@sena-207), where the praetor Lucius Porcius Licinus joins him with two legions. Hasdrubal sends messengers to arrange a meeting with Hannibal in southern Umbria, but they are captured and his letter is brought to Nero.
 
-Nero leaves most of his army facing Hannibal under his legate Quintus Catius and marches north with 7,000 picked men, 1,000 of them cavalry. Riders go ahead to have food set out along the road, and volunteers join on the way. He enters Livius’s camp at Sena by night, unseen by the Carthaginians camped about half a mile away.
+Nero leaves most of his army facing Hannibal under his legate Quintus Catius and marches north with 7,000 picked men, 1,000 of them cavalry. Riders go ahead to have food set out along the road, and volunteers join on the way. He enters Livius’s camp at Sena by night, unseen by the Carthaginians camped about 700 m away.

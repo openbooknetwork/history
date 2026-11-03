@@ -1,0 +1,5 @@
+Ngay chiều hôm đó, trước sự bất ngờ của quân phòng thủ, người La Mã lại tấn công với quân sinh lực và thang mới. Các thuyền chiến của Laelius quay lại tường thành phía nam, lính lê dương xếp đội hình mai rùa dưới những tấm khiên chồng lên nhau và dùng rìu chặt cổng phía đông, và một lực lượng khác tiến đến con kênh ở phía tây thành phố. Quân phòng thủ, đã thiếu vũ khí ném sau trận đánh buổi sáng, dồn người đến những đoạn tường thành bị đe doạ và để tường thành phía bắc trên đầm phá gần như không có người canh giữ.
+
+@image new-carthage-furnius-80a1b5
+
+Scipio cử [500 lính tinh nhuệ](@new-carthage-2-five-hundred) cùng người dẫn đường lội qua đầm phá. Polybius viết rằng mỗi chiều tối nước rút xuống theo thuỷ triều, còn Livy viết rằng một cơn gió bắc đẩy nước lùi ra. Các sử gia hiện đại nghi ngờ cả hai cách giải thích và cho rằng có những cửa cống trên con kênh, hoặc đầm phá vốn đủ nông để lội qua. 500 người đến tường thành phía bắc mà không bị phát hiện, leo lên, đánh mở đường về phía đông dọc tường thành và mở cổng phía đông từ bên trong.

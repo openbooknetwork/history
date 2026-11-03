@@ -1,0 +1,38 @@
+# es strings for the battle "new-carthage".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n es
+
+# Roman Republic
+battle.sides.0.name: "República romana"
+
+# 27,500, with 35 galleys
+battle.sides.0.strength: "27 500, con 35 galeras"
+
+# Unknown
+battle.sides.0.casualties: "Desconocidas"
+
+# Carthage
+battle.sides.1.name: "Cartago"
+
+# Over 3,000, of them 2,000 civilian levies
+battle.sides.1.strength: "Más de 3000, de ellos 2000 civiles reclutados"
+
+# All killed or captured
+battle.sides.1.casualties: "Todos muertos o prisioneros"
+
+# Battle of New Carthage
+battle.name: "Batalla de Cartago Nova"
+
+# Early 209 BC
+battle.date: "Comienzos del 209 a. C."
+
+# Roman victory, New Carthage taken
+battle.result: "Victoria romana, Cartago Nova tomada"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Publius Cornelius Scipio
+battle.sides.0.commanders.0: "Publio Cornelio Escipión"
+
+# Mago
+battle.sides.1.commanders.0: "Magón"

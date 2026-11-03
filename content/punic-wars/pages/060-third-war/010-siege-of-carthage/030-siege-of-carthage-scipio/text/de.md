@@ -1,0 +1,5 @@
+Auf Drängen der Öffentlichkeit in Rom wird [Scipio](@carthage-147-scipio) Aemilianus Konsul für das Jahr 147 v. Chr., obwohl er mit 36 oder 37 Jahren unter dem gesetzlichen Mindestalter liegt, und erhält den alleinigen Oberbefehl in Afrika. Anfang des Jahres erzwingt Lucius Hostilius [Mancinus](@carthage-147-mancinus), der Befehlshaber der Flotte, mit 3 500 Mann, die meisten davon Seeleute, den Durchbruch durch eine Ausfallpforte. Scipio segelt in der Nacht von Utica herüber und holt sie ab, während die Karthager zum Gegenangriff übergehen.
+
+@image carthage-plan-1889-3b11f0
+
+Scipio stellt die Disziplin wieder her und führt einen nächtlichen Angriff auf [Megara](@carthage-147-megara), die große Vorstadt mit Gärten und Landhäusern innerhalb der Mauern. 4 000 Römer dringen ein, doch er zieht sie vor Tagesanbruch zurück. [Hasdrubal](@carthage-147-hasdrubal) lässt römische Gefangene auf den Mauern vor den Augen des römischen Heeres zu Tode foltern und lässt die Ratsherren hinrichten, die dagegen Einspruch erheben. Scipio riegelt daraufhin die Landseite der Stadt mit einer befestigten Linie quer über die Landenge ab.

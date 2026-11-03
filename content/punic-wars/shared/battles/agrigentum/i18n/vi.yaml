@@ -1,0 +1,35 @@
+# vi strings for the battle "agrigentum".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n vi
+
+# Roman Republic
+battle.sides.0.name: "Cộng hoà La Mã"
+
+# 40,000 to 100,000 soldiers and labourers
+battle.sides.0.strength: "40.000 đến 100.000 binh lính và dân phu"
+
+# 15,000 to 30,540 dead
+battle.sides.0.casualties: "15.000 đến 30.540 người chết"
+
+# Carthage
+battle.sides.1.name: "Carthage"
+
+# 31,500 to 56,000 men, 30 to 60 elephants, and the garrison
+battle.sides.1.strength: "31.500 đến 56.000 người, 30 đến 60 con voi, cùng đơn vị đồn trú"
+
+# 3,200 killed, 4,000 captured, 25,000 inhabitants enslaved
+battle.sides.1.casualties: "3.200 người bị giết, 4.000 người bị bắt, 25.000 cư dân bị bán làm nô lệ"
+
+# Battle of Agrigentum
+battle.name: "Trận Agrigentum"
+
+# 262 – 261 BC
+battle.date: "262–261 TCN"
+
+# Roman victory, Agrigentum taken
+battle.result: "La Mã thắng, Agrigentum bị chiếm"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Hanno, son of Hannibal
+battle.sides.1.commanders.0: "Hanno, con trai Hannibal"

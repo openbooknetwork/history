@@ -1,0 +1,30 @@
+# id strings for the battle "metaurus".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n id
+
+# Roman Republic
+battle.sides.0.name: "Republik Romawi"
+
+# 37,000
+battle.sides.0.strength: "37.000"
+
+# 2,000–8,000 killed
+battle.sides.0.casualties: "2.000–8.000 tewas"
+
+# Carthage
+battle.sides.1.name: "Kartago"
+
+# 30,000, with 10 elephants
+battle.sides.1.strength: "30.000, dengan 10 gajah"
+
+# 10,000 killed, 5,400 captured
+battle.sides.1.casualties: "10.000 tewas, 5.400 ditawan"
+
+# Battle of the Metaurus
+battle.name: "Pertempuran Metaurus"
+
+# 24 June 207 BC
+battle.date: "24 Juni 207 SM"
+
+# Roman victory, Hasdrubal killed
+battle.result: "Kemenangan Romawi, Hasdrubal gugur"

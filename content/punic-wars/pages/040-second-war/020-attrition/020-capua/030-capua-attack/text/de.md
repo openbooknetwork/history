@@ -1,0 +1,3 @@
+Im Jahr 211 v. Chr. zieht [Hannibal](@capua-attack-hannibal) aus dem Süden zurück und lagert dicht an den römischen Linien. Er greift die äußere Linie an, während die karthagische Besatzung Capuas unter [Bostar und Hanno](@capua-attack-sortie) gemeinsam mit den Capuanern einen Ausfall gegen die innere unternimmt.
+
+Eine [iberische Kohorte](@capua-attack-cohort) mit drei Elefanten durchbricht die äußere Linie und erreicht den Wall eines römischen Lagers, wird aber vernichtet, bevor sie eindringen kann. Livius schreibt, dass [Fulvius Flaccus](@capua-attack-fulvius) Hannibal abwehrt, während [Appius Claudius](@capua-attack-appius) die Capuaner bis an ihre Tore zurücktreibt und dort verwundet wird. Der Angriff auf die Linien scheitert.

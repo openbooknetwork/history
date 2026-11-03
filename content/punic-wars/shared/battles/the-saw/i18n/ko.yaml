@@ -1,0 +1,47 @@
+# ko strings for the battle "the-saw".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n ko
+
+# Carthage
+battle.sides.0.name: "카르타고"
+
+# 20,000 – 30,000
+battle.sides.0.strength: "2만~3만 명"
+
+# Light
+battle.sides.0.casualties: "경미"
+
+# Rebel army
+battle.sides.1.name: "반란군"
+
+# 50,000
+battle.sides.1.strength: "5만 명"
+
+# All killed
+battle.sides.1.casualties: "전원 살해"
+
+# Battle of the Saw
+battle.name: "‘톱’ 전투"
+
+# 238 BC
+battle.date: "기원전 238년"
+
+# Carthaginian victory
+battle.result: "카르타고의 승리"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Hamilcar Barca
+battle.sides.0.commanders.0: "하밀카르 바르카"
+
+# Naravas
+battle.sides.0.commanders.1: "나라바스"
+
+# Spendius
+battle.sides.1.commanders.0: "스펜디우스"
+
+# Zarzas
+battle.sides.1.commanders.1: "자르자스"
+
+# Autaritus
+battle.sides.1.commanders.2: "아우타리투스"

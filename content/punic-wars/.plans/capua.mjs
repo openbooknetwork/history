@@ -62,7 +62,7 @@ writePlan(`${G}/030-capua-attack`, {
       ...camps,
       n(unit('carthage', 'camp', 3600, 40, 700, 700, 40), 'hannibal-camp', 'Hannibal’s camp on the slopes of Tifata'),
       n(unit('carthage', 'infantry', 2950, 42, 1500, 300, 222), 'hannibal-army', 'Hannibal’s army attacking the outer line'),
-      n(unit('carthage', 'elephants', 2230, 55, 260, 90, 235, { count: 3 }), 'elephants', 'Three elephants that break into a Roman camp'),
+      n(unit('carthage', 'elephants', 2230, 55, 260, 90, 235, { count: 3 }), 'elephants', 'Three elephants that reach the rampart of a Roman camp'),
       n(unit('rome', 'infantry', 2150, 72, 900, 160, 72), 'fulvius-troops', 'Fulvius Flaccus’s troops holding the outer line'),
       n(unit('carthage', 'infantry', 1150, 215, 700, 200, 215), 'sortie', 'Sortie from the city under Bostar and Hanno'),
       n(unit('rome', 'infantry', 1880, 215, 800, 180, 35), 'appius-troops', 'Appius Claudius’s troops facing the sortie'),
@@ -70,7 +70,7 @@ writePlan(`${G}/030-capua-attack`, {
     arrows: [
       n(arrow('carthage', [[2800, 33], [2300, 33]], 110), 'hannibal-attack', 'Hannibal attacks the outer line'),
       n(arrow('carthage', [[2800, 50], [2300, 47]], 110), 'hannibal-attack', 'Hannibal attacks the outer line'),
-      n(arrow('carthage', [[2900, 60], [2400, 58], [2150, 52]], 90), 'cohort-attack', 'An Iberian cohort with the elephants breaks into a camp'),
+      n(arrow('carthage', [[2900, 60], [2400, 58], [2150, 52]], 90), 'cohort-attack', 'An Iberian cohort with the elephants breaks through to a camp'),
       n(arrow('carthage', [[1250, 208], [1680, 208]], 100), 'sortie-attack', 'The sortie attacks the inner line'),
       n(arrow('carthage', [[1250, 223], [1680, 223]], 100), 'sortie-attack', 'The sortie attacks the inner line'),
     ],

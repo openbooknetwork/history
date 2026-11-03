@@ -1,0 +1,44 @@
+# es strings for the battle "capua-211".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n es
+
+# Roman Republic
+battle.sides.0.name: "República romana"
+
+# Unknown
+battle.sides.0.casualties: "Desconocidas"
+
+# Carthage and Capua
+battle.sides.1.name: "Cartago y Capua"
+
+# Unknown
+battle.sides.1.casualties: "Desconocidas"
+
+# Siege of Capua
+battle.name: "Asedio de Capua"
+
+# 211 BC
+battle.date: "211 a. C."
+
+# Roman victory, fall of Capua
+battle.result: "Victoria romana, caída de Capua"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Quintus Fulvius Flaccus
+battle.sides.0.commanders.0: "Quinto Fulvio Flaco"
+
+# Appius Claudius Pulcher
+battle.sides.0.commanders.1: "Apio Claudio Pulcro"
+
+# Gaius Claudius Nero
+battle.sides.0.commanders.2: "Cayo Claudio Nerón"
+
+# Hannibal
+battle.sides.1.commanders.0: "Aníbal"
+
+# Bostar
+battle.sides.1.commanders.1: "Bóstar"
+
+# Hanno, son of Bomilcar
+battle.sides.1.commanders.2: "Hannón, hijo de Bomílcar"

@@ -1,0 +1,3 @@
+Lính đánh lẻ hai bên ném vũ khí vào nhau rồi lui lại, và hai [quân đoàn La Mã](@ebro-centre-legions) tiến đánh [bộ binh Iberia](@ebro-centre-iberians). Sau một loạt lao, người Iberia tan vỡ và bỏ chạy gần như không chiến đấu. Livy viết rằng họ biết chiến thắng đồng nghĩa với việc phải theo Hasdrubal sang Ý, và họ không muốn rời Iberia.
+
+Các quân đoàn ép vào khoảng trống. Ở hai cánh, kị binh giao chiến lẻ tẻ mà không có kết quả. [Lính châu Phi](@ebro-centre-africans) và [lính Poeni](@ebro-centre-poeni) quay một phần sang đánh vào sườn các quân đoàn La Mã, nhưng mỗi khối cũng có một quân đoàn đồng minh ở phía trước.

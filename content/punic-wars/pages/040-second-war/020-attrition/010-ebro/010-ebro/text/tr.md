@@ -2,7 +2,7 @@ MÖ 218 sonbaharında, Hannibal İtalya’ya yürürken Gnaeus Cornelius Scipio 
 
 @image tarraco-walls-235319
 
-MÖ 217 ilkbaharında Hasdrubal Barka karadan ve denizden birlikte kuzeye ilerler. [Ebro ağzında](@ebro-217) 55 Roma ve Massalia gemisi onun 40 kinkeremlik donanmasını yener ve 29’unu ele geçirir ya da batırır. Aynı yıl Publius Scipio 8.000 askerle kardeşine katılır.
+MÖ 217 ilkbaharında Hasdrubal Barka karadan ve denizden birlikte kuzeye ilerler. Ebro ağzında 55 Roma ve Massalia gemisi onun 40 kinkeremlik donanmasını yener ve 29’unu ele geçirir ya da batırır. Aynı yıl Publius Scipio 8.000 askerle kardeşine katılır.
 
 @image ebro-naval-ebfd17
 

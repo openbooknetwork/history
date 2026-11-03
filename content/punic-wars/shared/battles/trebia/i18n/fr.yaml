@@ -1,0 +1,30 @@
+# fr strings for the battle "trebia".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n fr
+
+# Roman Republic
+battle.sides.0.name: "République romaine"
+
+# 40,000: 36,000 infantry, 4,000 cavalry
+battle.sides.0.strength: "40 000 : 36 000 fantassins, 4 000 cavaliers"
+
+# 20,000 killed, many captured
+battle.sides.0.casualties: "20 000 tués, de nombreux prisonniers"
+
+# Carthage
+battle.sides.1.name: "Carthage"
+
+# 40,000, with 11,000 cavalry and about 30 elephants
+battle.sides.1.strength: "40 000, dont 11 000 cavaliers, et environ 30 éléphants"
+
+# Several thousand infantry, a few cavalry, several elephants
+battle.sides.1.casualties: "Plusieurs milliers de fantassins, quelques cavaliers, plusieurs éléphants"
+
+# Battle of the Trebia
+battle.name: "Bataille de la Trébie"
+
+# 22 or 23 December 218 BC
+battle.date: "22 ou 23 décembre 218 av. J.-C."
+
+# Carthaginian victory
+battle.result: "Victoire carthaginoise"

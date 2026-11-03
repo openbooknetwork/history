@@ -1,0 +1,5 @@
+O świcie Rzymianie są blisko [Drepanum](@lilybaeum-approach-drepana), ale w ciemności okręty pogubiły swoje miejsca w szyku, a 10 000 nowych wioślarzy nie potrafi trzymać rytmu ze starymi załogami. Flota licząca ponad 120 okrętów, według niektórych relacji 200, rozciąga się w długiej, nierównej linii wzdłuż wybrzeża. Okręt flagowy [Pulchra](@lilybaeum-approach-pulcher) płynie blisko końca kolumny.
+
+@image lilybaeum-drepana-view-4568c2
+
+Dowódca kartagiński [Adherbal](@lilybaeum-approach-adherbal) zostaje zaskoczony, ale jego od 100 do 130 okrętów jest gotowych do wyjścia w morze. Bierze na pokład załogę miasta jako żołnierzy okrętowych i wyprowadza flotę z portu. Czołowe okręty rzymskie dotarły już do wejścia do portu, gdy Pulcher każe im zawrócić i sformować linię. Zawracające okręty zderzają się z nadpływającymi i łamią sobie nawzajem wiosła. Adherbal mija skłębioną [straż przednią Rzymian](@lilybaeum-approach-van), prześlizguje się między miastem a dwiema małymi wysepkami na otwarte morze i skręca na południe.

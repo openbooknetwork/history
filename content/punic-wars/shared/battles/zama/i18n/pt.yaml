@@ -1,0 +1,38 @@
+# pt strings for the battle "zama".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n pt
+
+# Roman Republic
+battle.sides.0.name: "República Romana"
+
+# 29,000–30,000, with 6,100 cavalry
+battle.sides.0.strength: "29.000–30.000, com 6.100 de cavalaria"
+
+# At least 1,500 killed, many wounded
+battle.sides.0.casualties: "Pelo menos 1.500 mortos, muitos feridos"
+
+# Carthage
+battle.sides.1.name: "Cartago"
+
+# 40,000 or 50,000, with 80 war elephants
+battle.sides.1.strength: "40.000 ou 50.000, com 80 elefantes de guerra"
+
+# 20,000 killed, 20,000 captured
+battle.sides.1.casualties: "20.000 mortos, 20.000 capturados"
+
+# Battle of Zama
+battle.name: "Batalha de Zama"
+
+# October 202 BC
+battle.date: "Outubro de 202 a.C."
+
+# Roman victory, Carthage sues for peace
+battle.result: "Vitória romana, Cartago pede a paz"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Publius Cornelius Scipio
+battle.sides.0.commanders.0: "Públio Cornélio Cipião"
+
+# Hannibal
+battle.sides.1.commanders.0: "Aníbal"

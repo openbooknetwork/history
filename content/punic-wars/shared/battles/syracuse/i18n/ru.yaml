@@ -1,0 +1,50 @@
+# ru strings for the battle "syracuse".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n ru
+
+# Roman Republic
+battle.sides.0.name: "Римская республика"
+
+# 16,000–18,000
+battle.sides.0.strength: "16 000–18 000"
+
+# Heavy
+battle.sides.0.casualties: "Тяжёлые"
+
+# Syracuse and Carthage
+battle.sides.1.name: "Сиракузы и Карфаген"
+
+# 21,000–25,000
+battle.sides.1.strength: "21 000–25 000"
+
+# Over 5,000, and many civilians
+battle.sides.1.casualties: "Более 5000 и много мирных жителей"
+
+# Siege of Syracuse
+battle.name: "Осада Сиракуз"
+
+# Spring 213 – Autumn 212 BC
+battle.date: "Весна 213 – осень 212 года до н. э."
+
+# Roman victory, Syracuse sacked
+battle.result: "Победа Рима, Сиракузы разграблены"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Marcus Claudius Marcellus
+battle.sides.0.commanders.0: "Марк Клавдий Марцелл"
+
+# Appius Claudius Pulcher
+battle.sides.0.commanders.1: "Аппий Клавдий Пульхр"
+
+# Epicydes
+battle.sides.1.commanders.0: "Эпикид"
+
+# Hippocrates
+battle.sides.1.commanders.1: "Гиппократ"
+
+# Himilco
+battle.sides.1.commanders.2: "Гимилькон"
+
+# Bomilcar
+battle.sides.1.commanders.3: "Бомилькар"

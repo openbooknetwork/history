@@ -1,0 +1,5 @@
+Pada sore hari yang sama, di luar dugaan para pembela, orang Romawi kembali menyerang dengan pasukan segar dan tangga-tangga baru. Galai-galai Laelius kembali ke tembok selatan, para legiuner membentuk testudo di bawah perisai-perisai mereka yang saling tumpang tindih dan menghantam gerbang timur dengan kapak, dan pasukan lain bergerak ke kanal di sebelah barat kota. Para pembela, yang kekurangan senjata lempar setelah pertempuran pagi, memindahkan orang ke tembok-tembok yang terancam dan membiarkan tembok utara di atas laguna hampir tanpa penjaga.
+
+@image new-carthage-furnius-80a1b5
+
+Scipio mengirim [500 orang pilihan](@new-carthage-2-five-hundred) menyeberangi laguna dengan pemandu. Polybius menulis bahwa air surut setiap sore karena pasang surut, sedangkan Livius menulis bahwa angin utara mendorong air itu menjauh. Para sejarawan modern meragukan keduanya dan menduga ada pintu air di kanal, atau laguna itu memang cukup dangkal untuk diarungi. Kelima ratus orang itu mencapai tembok utara tanpa terlihat, memanjatnya, bertempur menyusuri tembok ke arah timur, dan membuka gerbang timur dari dalam.

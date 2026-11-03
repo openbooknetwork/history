@@ -1,0 +1,5 @@
+In 30–50 giorni [Asdrubale e Siface](@great-plains-wings-hasdrubal) mettono insieme un nuovo esercito di circa 30.000 uomini, con 4.000 [Iberi](@great-plains-wings-iberians) appena arrivati a Cartagine, e si accampano nei Campi Magni del Bagrada, a circa 120 km da Utica. Scipione lascia un reparto davanti a Utica e marcia fin lì senza salmerie, con forse 20.000 uomini. Dopo tre giorni di scaramucce entrambi gli eserciti si schierano.
+
+@image numidian-horseman-6023b7
+
+Asdrubale mette gli Iberi al centro, la fanteria e la cavalleria cartaginesi alla loro destra e la fanteria e la cavalleria numide di Siface alla loro sinistra. Scipione colloca le sue due legioni romane al centro nelle loro tre linee, una legione alleata su ciascun lato, la cavalleria romana al comando di [Lelio](@great-plains-wings-laelius) a destra e i Numidi di [Massinissa](@great-plains-wings-masinissa) a sinistra. Alla prima carica la cavalleria su entrambe le ali cartaginesi cede, e la fanteria cartaginese e numida fugge prima che le legioni alleate la raggiungano. Solo gli Iberi caricano a fondo contro gli astati.

@@ -1,0 +1,41 @@
+# fa strings for the battle "dertosa".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n fa
+
+# Roman Republic
+battle.sides.0.name: "جمهوری روم"
+
+# About 25,000
+battle.sides.0.strength: "حدود ۲۵ هزار"
+
+# Heavy
+battle.sides.0.casualties: "سنگین"
+
+# Carthage
+battle.sides.1.name: "کارتاژ"
+
+# About 25,000, with war elephants
+battle.sides.1.strength: "حدود ۲۵ هزار، با فیل‌های جنگی"
+
+# Heavy
+battle.sides.1.casualties: "سنگین"
+
+# Battle of Ibera (Dertosa)
+battle.name: "نبرد ایبرا (درتوسا)"
+
+# Spring 215 BC
+battle.date: "بهار ۲۱۵ پیش از میلاد"
+
+# Roman victory
+battle.result: "پیروزی روم"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Gnaeus Cornelius Scipio
+battle.sides.0.commanders.0: "گنائوس کورنلیوس اسکیپیو"
+
+# Publius Cornelius Scipio
+battle.sides.0.commanders.1: "پوبلیوس کورنلیوس اسکیپیو"
+
+# Hasdrubal Barca
+battle.sides.1.commanders.0: "هاسدروبال بارکا"

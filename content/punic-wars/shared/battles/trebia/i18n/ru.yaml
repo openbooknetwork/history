@@ -1,0 +1,38 @@
+# ru strings for the battle "trebia".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n ru
+
+# Roman Republic
+battle.sides.0.name: "Римская республика"
+
+# 40,000: 36,000 infantry, 4,000 cavalry
+battle.sides.0.strength: "40 000: 36 000 пехотинцев, 4000 всадников"
+
+# 20,000 killed, many captured
+battle.sides.0.casualties: "20 000 убитых, много пленных"
+
+# Carthage
+battle.sides.1.name: "Карфаген"
+
+# 40,000, with 11,000 cavalry and about 30 elephants
+battle.sides.1.strength: "40 000, из них 11 000 всадников и около 30 слонов"
+
+# Several thousand infantry, a few cavalry, several elephants
+battle.sides.1.casualties: "Несколько тысяч пехотинцев, немного всадников, несколько слонов"
+
+# Battle of the Trebia
+battle.name: "Битва при Требии"
+
+# 22 or 23 December 218 BC
+battle.date: "22 или 23 декабря 218 года до н. э."
+
+# Carthaginian victory
+battle.result: "Победа Карфагена"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Tiberius Sempronius Longus
+battle.sides.0.commanders.0: "Тиберий Семпроний Лонг"
+
+# Hannibal
+battle.sides.1.commanders.0: "Ганнибал"

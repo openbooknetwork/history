@@ -1,0 +1,5 @@
+Durante el invierno, [Escipión](@great-plains-camps-scipio) negocia con Sífax, que se ofrece a mediar una paz. Con cada embajada envía oficiales disfrazados de esclavos, que informan de que el [campamento cartaginés](@great-plains-camps-carthaginian) tiene cabañas de madera tras terraplenes de tierra, mientras que el [campamento númida](@great-plains-camps-numidian) tiene chozas de caña y paja y ningún perímetro claro. En primavera se prepara abiertamente para asaltar [Útica](@utica-204), y después sale una noche ya tarde y divide su ejército.
+
+@image syphax-receives-scipio-360bc9
+
+[Lelio y Masinisa](@great-plains-camps-laelius) atacan el campamento númida e incendian las chozas de caña. Muchos cartagineses, que toman el fuego por un accidente, corren desarmados desde su propio campamento para ayudar, y Escipión asalta su campamento e incendia sus cabañas. En la oscuridad y el pánico, ambos ejércitos sufren grandes pérdidas. Asdrúbal escapa a Cartago, a 40 km, con 2500 hombres, y Sífax con unos pocos jinetes.

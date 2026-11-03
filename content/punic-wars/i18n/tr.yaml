@@ -1,6 +1,6 @@
 # tr strings for the story "punic-wars".
 # Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
-# default language, and harita build --strict reports them. Regenerate with: harita i18n tr
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
 
 # Before 264 BC
 groups.before.title: "MÖ 264 öncesi"
@@ -65,10 +65,10 @@ groups.fabius.title: "Ager Falernus Muharebesi, MÖ 217"
 # Battle of Cannae, 216 BC
 groups.cannae.title: "Cannae Muharebesi, MÖ 216"
 
-# 218 – 207 BC: Italy, Sicily and Spain
-groups.attrition.title: "MÖ 218 – 207: İtalya, Sicilya ve İspanya"
+# 218 – 207 BC: Italy, Sicily and Iberia
+groups.attrition.title: "MÖ 218 – 207: İtalya, Sicilya ve İberya"
 
-# The Scipios in Spain, 218 – 211 BC
+# The Scipios in Iberia, 218 – 211 BC
 groups.ebro.title: "İberya’da Scipiolar, MÖ 218 – 211"
 
 # Siege of Capua, 212 – 211 BC
@@ -83,8 +83,8 @@ groups.new-carthage.title: "Yeni Kartaca Muharebesi, MÖ 209"
 # Battle of the Metaurus, 207 BC
 groups.metaurus.title: "Metaurus Muharebesi, MÖ 207"
 
-# 206 – 201 BC: Spain and Africa
-groups.scipio.title: "MÖ 206 – 201: İspanya ve Afrika"
+# 206 – 201 BC: Iberia and Africa
+groups.scipio.title: "MÖ 206 – 201: İberya ve Afrika"
 
 # Battle of Ilipa, 206 BC
 groups.ilipa.title: "Ilipa Muharebesi, MÖ 206"
@@ -1070,8 +1070,8 @@ markers.rhone-elephants-romans.note: "Scipio’nun 300 atlısı"
 # Marches north for the Alps
 markers.rhone-elephants-march.note: "Alplere doğru kuzeye yürür"
 
-# Hannibal crosses the Po and follows to Placentia
-routes.hannibal-218-po.name: "Hannibal Po’yu geçer ve Placentia’ya kadar izler"
+# Hannibal crosses the Po and follows Scipio to Placentia
+routes.hannibal-218-po.name: "Hannibal Po’yu geçer ve Scipio’yu Placentia’ya kadar izler"
 
 # Scipio crosses the Ticinus to find Hannibal, November 218 BC
 routes.scipio-218-ticinus.name: "Scipio Hannibal’i bulmak için Ticinus’u geçer, kasım MÖ 218"
@@ -1184,8 +1184,8 @@ routes.fabius-shadow-217.name: "Fabius onu yüksek yerlerden izler"
 # Hannibal marches from Arpi into the Ager Falernus, summer 217 BC
 routes.hannibal-falernus-217.name: "Hannibal Arpi’den Ager Falernus’a yürür, MÖ 217 yazı"
 
-# Fabius camps six miles from Hannibal
-markers.aecae-217.note: "Fabius Hannibal’den altı mil ötede kamp kurar"
+# Fabius camps about 9 km from Hannibal
+markers.aecae-217.note: "Fabius Hannibal’den yaklaşık 9 km ötede kamp kurar"
 
 # Main army near Mount Massicus
 markers.fabius-trap-fabius.note: "Massicus Dağı yakınında ana ordu"
@@ -1652,8 +1652,8 @@ routes.scipio-tunis-203.name: "Scipio Kartaca’yı gören Tunus’u alır"
 # Hannibal marches inland from Hadrumetum, 202 BC
 routes.hannibal-202.name: "Hannibal Hadrumetum’dan iç bölgeye yürür, MÖ 202"
 
-# Hannibal sails from Croton to Leptis Minor, 203 BC
-routes.hannibal-203.name: "Hannibal Croton’dan Leptis Minor’a geçer, MÖ 203"
+# Hannibal sails from Croton to Leptis Parva, 203 BC
+routes.hannibal-203.name: "Hannibal Croton’dan Leptis Parva’ya geçer, MÖ 203"
 
 # Masinissa joins Scipio with 10,000 Numidians
 routes.masinissa-202.name: "Masinissa 10.000 Numidyalıyla Scipio’ya katılır"
@@ -3059,8 +3059,8 @@ emblems.trebia-lure.elephants: "Piyadenin iki ucundaki filler"
 # Carthaginian cavalry, about 10,000 on the two wings
 emblems.trebia-lure.cavalry: "İki kanatta yaklaşık 10.000 Kartaca süvarisi"
 
-# Balearic slingers and spearmen
-emblems.trebia-lure.skirmishers: "Balear sapancıları ve mızrakçılar"
+# Balearic slingers and javelinmen
+emblems.trebia-lure.skirmishers: "Balear sapancıları ve cirit atıcılar"
 
 # Numidian cavalry, drawing the Romans on
 emblems.trebia-lure.numidians: "Romalıları peşinden çeken Numidya süvarisi"
@@ -3515,7 +3515,7 @@ pages.cannae-aftermath.title: "Cannae’den sonra"
 # 218 – 215 BC
 pages.ebro.date: "MÖ 218 – 215"
 
-# The Scipios in Spain
+# The Scipios in Iberia
 pages.ebro.title: "İberya’da Scipiolar"
 
 # The river Ebro
@@ -3710,8 +3710,8 @@ emblems.capua-attack.hannibal-camp: "Tifata yamaçlarındaki Hannibal kampı"
 # Hannibal’s army attacking the outer line
 emblems.capua-attack.hannibal-army: "Dış hatta saldıran Hannibal’in ordusu"
 
-# Three elephants that break into a Roman camp
-emblems.capua-attack.elephants: "Bir Roma kampına giren üç fil"
+# Three elephants that reach the rampart of a Roman camp
+emblems.capua-attack.elephants: "Bir Roma kampının surlarına ulaşan üç fil"
 
 # Fulvius Flaccus’s troops holding the outer line
 emblems.capua-attack.fulvius-troops: "Dış hattı tutan Fulvius Flaccus’un birlikleri"
@@ -3725,8 +3725,8 @@ emblems.capua-attack.appius-troops: "Huruca karşı duran Appius Claudius’un b
 # Hannibal attacks the outer line
 emblems.capua-attack.hannibal-attack: "Hannibal dış hatta saldırır"
 
-# An Iberian cohort with the elephants breaks into a camp
-emblems.capua-attack.cohort-attack: "Bir İber kohortu fillerle bir kampa girer"
+# An Iberian cohort with the elephants breaks through to a camp
+emblems.capua-attack.cohort-attack: "Bir İber kohortu fillerle birlikte yarıp bir kampa ulaşır"
 
 # The sortie attacks the inner line
 emblems.capua-attack.sortie-attack: "Huruç birliği iç hatta saldırır"
@@ -5212,8 +5212,8 @@ markers.saguntum-assault-camp.label: "Kartaca kampı"
 # Siege tower
 markers.saguntum-fall-tower.label: "Kuşatma kulesi"
 
-# Libyan sappers
-markers.saguntum-fall-sappers.label: "Libyalı lağımcılar"
+# African sappers
+markers.saguntum-fall-sappers.label: "Afrikalı lağımcılar"
 
 # Fire of the leading citizens
 markers.saguntum-fall-fire.label: "Önde gelen yurttaşların ateşi"

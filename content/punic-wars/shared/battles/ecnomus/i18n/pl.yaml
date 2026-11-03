@@ -1,0 +1,44 @@
+# pl strings for the battle "ecnomus".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n pl
+
+# Roman Republic
+battle.sides.0.name: "Republika Rzymska"
+
+# 330 ships, about 140,000 crew and marines
+battle.sides.0.strength: "330 okrętów, około 140 000 wioślarzy, marynarzy i żołnierzy"
+
+# 24 ships sunk, 10,000 men killed
+battle.sides.0.casualties: "24 okręty zatopione, 10 000 zabitych"
+
+# Carthage
+battle.sides.1.name: "Kartagina"
+
+# 350 ships, about 150,000 crew and marines
+battle.sides.1.strength: "350 okrętów, około 150 000 wioślarzy, marynarzy i żołnierzy"
+
+# 30 ships sunk, 64 captured, 30,000 to 40,000 men killed or captured
+battle.sides.1.casualties: "30 okrętów zatopionych, 64 zdobyte, od 30 000 do 40 000 ludzi zabitych lub wziętych do niewoli"
+
+# Battle of Cape Ecnomus
+battle.name: "Bitwa pod Eknomos"
+
+# 256 BC
+battle.date: "256 p.n.e."
+
+# Roman victory
+battle.result: "Zwycięstwo Rzymian"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Marcus Atilius Regulus
+battle.sides.0.commanders.0: "Marek Atyliusz Regulus"
+
+# Lucius Manlius Vulso
+battle.sides.0.commanders.1: "Lucjusz Manliusz Wulso"
+
+# Hamilcar
+battle.sides.1.commanders.0: "Hamilkar"
+
+# Hanno
+battle.sides.1.commanders.1: "Hannon"

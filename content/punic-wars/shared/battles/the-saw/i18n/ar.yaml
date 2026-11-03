@@ -1,0 +1,47 @@
+# ar strings for the battle "the-saw".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n ar
+
+# Carthage
+battle.sides.0.name: "قرطاج"
+
+# 20,000 – 30,000
+battle.sides.0.strength: "20,000 – 30,000"
+
+# Light
+battle.sides.0.casualties: "خفيفة"
+
+# Rebel army
+battle.sides.1.name: "جيش الثوار"
+
+# 50,000
+battle.sides.1.strength: "50,000"
+
+# All killed
+battle.sides.1.casualties: "قُتلوا جميعًا"
+
+# Battle of the Saw
+battle.name: "معركة المنشار"
+
+# 238 BC
+battle.date: "238 ق.م"
+
+# Carthaginian victory
+battle.result: "نصر قرطاجي"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Hamilcar Barca
+battle.sides.0.commanders.0: "هملقار برقة"
+
+# Naravas
+battle.sides.0.commanders.1: "نارافاس"
+
+# Spendius
+battle.sides.1.commanders.0: "سبنديوس"
+
+# Zarzas
+battle.sides.1.commanders.1: "زارزاس"
+
+# Autaritus
+battle.sides.1.commanders.2: "أوتاريتوس"

@@ -1,0 +1,5 @@
+La batalla empieza con escaramuzas entre los númidas en la derecha romana. Aníbal lanza entonces sus elefantes contra la infantería romana. Los vélites corren hacia delante para arrojar sus jabalinas y se retiran, y los romanos tocan las trompetas y golpean los escudos con las armas. Varios elefantes de la izquierda cartaginesa dan media vuelta y huyen a través de su propia caballería númida, y [Masinisa](@zama-elephants-masinissa) carga contra los jinetes desordenados y los expulsa del campo.
+
+@image zama-cort-148f90
+
+La mayoría de los demás elefantes cargan contra la infantería romana, y muchos corren por los pasillos entre los manípulos, donde los vélites los hieren en los costados. Los que salen por detrás de las líneas romanas son abatidos. Algunos alcanzan a los hastados y causan grandes pérdidas. Otros se vuelven contra la caballería romana de la izquierda y después huyen a través de la caballería cartaginesa, y [Lelio](@zama-elephants-laelius) carga y la barre del campo. Las dos fuerzas de caballería romana salen en persecución.

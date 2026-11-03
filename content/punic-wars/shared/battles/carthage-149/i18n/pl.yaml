@@ -1,0 +1,47 @@
+# pl strings for the battle "carthage-149".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n pl
+
+# Roman Republic
+battle.sides.0.name: "Republika Rzymska"
+
+# 36,000 to 46,000 infantry, 4,000 cavalry
+battle.sides.0.strength: "Od 36 000 do 46 000 piechoty, 4000 jazdy"
+
+# Unknown
+battle.sides.0.casualties: "Nieznane"
+
+# Carthage
+battle.sides.1.name: "Kartagina"
+
+# 30,000 soldiers and about 60,000 armed civilians
+battle.sides.1.strength: "30 000 żołnierzy i około 60 000 uzbrojonych cywilów"
+
+# 50,000 enslaved
+battle.sides.1.casualties: "50 000 sprzedanych w niewolę"
+
+# Siege of Carthage
+battle.name: "Oblężenie Kartaginy"
+
+# 149 – spring 146 BC
+battle.date: "Od 149 do wiosny 146 p.n.e."
+
+# Roman victory, Carthage destroyed
+battle.result: "Zwycięstwo Rzymian, zniszczenie Kartaginy"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Scipio Aemilianus
+battle.sides.0.commanders.0: "Scypion Emilianus"
+
+# Manius Manilius
+battle.sides.0.commanders.1: "Maniusz Maniliusz"
+
+# Lucius Marcius Censorinus
+battle.sides.0.commanders.2: "Lucjusz Marcjusz Cenzorynus"
+
+# Lucius Calpurnius Piso
+battle.sides.0.commanders.3: "Lucjusz Kalpurniusz Pizon"
+
+# Hasdrubal
+battle.sides.1.commanders.0: "Hazdrubal"

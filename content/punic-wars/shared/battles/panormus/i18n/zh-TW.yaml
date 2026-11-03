@@ -1,0 +1,38 @@
+# zh-TW strings for the battle "panormus".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n zh-TW
+
+# Roman Republic
+battle.sides.0.name: "羅馬共和國"
+
+# 2 legions and 2 allied alae, 16,000 to 20,000 men
+battle.sides.0.strength: "2個軍團和2個盟軍翼隊，16,000至20,000人"
+
+# Unknown, but light
+battle.sides.0.casualties: "不詳，但輕微"
+
+# Carthage
+battle.sides.1.name: "迦太基"
+
+# 30,000 men, 60 to 142 elephants
+battle.sides.1.strength: "3萬人，60至142頭戰象"
+
+# Heavy, the elephants captured
+battle.sides.1.casualties: "慘重，戰象被俘"
+
+# Battle of Panormus
+battle.name: "帕諾爾穆斯之戰"
+
+# 250 BC
+battle.date: "西元前250年"
+
+# Roman victory
+battle.result: "羅馬勝利"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Lucius Caecilius Metellus
+battle.sides.0.commanders.0: "盧基烏斯‧凱基利烏斯‧梅特盧斯"
+
+# Hasdrubal
+battle.sides.1.commanders.0: "哈斯德魯巴"

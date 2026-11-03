@@ -1,0 +1,5 @@
+La battaglia si apre con scaramucce tra i Numidi sulla destra romana. Annibale manda poi i suoi elefanti contro la fanteria romana. I veliti corrono avanti a lanciare i giavellotti e ripiegano, e i Romani suonano le trombe e battono le armi sugli scudi. Diversi elefanti sulla sinistra cartaginese si voltano e tornano indietro di corsa attraverso la propria cavalleria numida, e [Massinissa](@zama-elephants-masinissa) carica i cavalieri scompaginati e li caccia dal campo.
+
+@image zama-cort-148f90
+
+La maggior parte degli altri elefanti carica la fanteria romana, e molti corrono lungo i corridoi tra i manipoli, dove i veliti li colpiscono sui fianchi. Quelli che sbucano dietro le linee romane vengono braccati e abbattuti. Alcuni raggiungono gli astati e causano pesanti perdite. Altri si volgono contro la cavalleria romana sulla sinistra e poi tornano indietro di corsa attraverso la cavalleria cartaginese, e [Lelio](@zama-elephants-laelius) la carica e la spazza via dal campo. Entrambi i reparti di cavalleria romana partono all’inseguimento.

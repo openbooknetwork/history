@@ -1,0 +1,38 @@
+# fr strings for the battle "the-saw".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n fr
+
+# Carthage
+battle.sides.0.name: "Carthage"
+
+# 20,000 – 30,000
+battle.sides.0.strength: "20 000–30 000"
+
+# Light
+battle.sides.0.casualties: "Légères"
+
+# Rebel army
+battle.sides.1.name: "Armée rebelle"
+
+# 50,000
+battle.sides.1.strength: "50 000"
+
+# All killed
+battle.sides.1.casualties: "Tous tués"
+
+# Battle of the Saw
+battle.name: "Bataille de la Scie"
+
+# 238 BC
+battle.date: "238 av. J.-C."
+
+# Carthaginian victory
+battle.result: "Victoire carthaginoise"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Spendius
+battle.sides.1.commanders.0: "Spendios"
+
+# Autaritus
+battle.sides.1.commanders.2: "Autaritos"

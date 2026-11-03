@@ -1,0 +1,41 @@
+# it strings for the battle "aegates".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n it
+
+# Roman Republic
+battle.sides.0.name: "Repubblica romana"
+
+# About 200 quinqueremes
+battle.sides.0.strength: "Circa 200 quinqueremi"
+
+# 30 ships sunk, 50 damaged
+battle.sides.0.casualties: "30 navi affondate, 50 danneggiate"
+
+# Carthage
+battle.sides.1.name: "Cartagine"
+
+# About 250 quinqueremes
+battle.sides.1.strength: "Circa 250 quinqueremi"
+
+# 50 ships sunk, 70 captured, 10,000 men captured
+battle.sides.1.casualties: "50 navi affondate, 70 catturate, 10.000 uomini fatti prigionieri"
+
+# Battle of the Aegates
+battle.name: "Battaglia delle isole Egadi"
+
+# 10 March 241 BC
+battle.date: "10 marzo 241 a.C."
+
+# Roman victory, Treaty of Lutatius
+battle.result: "Vittoria romana, trattato di Lutazio"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Gaius Lutatius Catulus
+battle.sides.0.commanders.0: "Gaio Lutazio Catulo"
+
+# Quintus Valerius Falto
+battle.sides.0.commanders.1: "Quinto Valerio Faltone"
+
+# Hanno
+battle.sides.1.commanders.0: "Annone"

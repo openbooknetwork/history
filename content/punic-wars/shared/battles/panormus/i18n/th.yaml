@@ -1,0 +1,38 @@
+# th strings for the battle "panormus".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n th
+
+# Roman Republic
+battle.sides.0.name: "สาธารณรัฐโรมัน"
+
+# 2 legions and 2 allied alae, 16,000 to 20,000 men
+battle.sides.0.strength: "2 ลีเจียนและกองพันธมิตร 2 กอง 16,000 ถึง 20,000 นาย"
+
+# Unknown, but light
+battle.sides.0.casualties: "ไม่ทราบ แต่เบาบาง"
+
+# Carthage
+battle.sides.1.name: "คาร์เธจ"
+
+# 30,000 men, 60 to 142 elephants
+battle.sides.1.strength: "ทหาร 30,000 นาย ช้าง 60 ถึง 142 เชือก"
+
+# Heavy, the elephants captured
+battle.sides.1.casualties: "หนัก ช้างถูกจับ"
+
+# Battle of Panormus
+battle.name: "ยุทธการที่ปานอร์มุส"
+
+# 250 BC
+battle.date: "ก่อน ค.ศ. 250"
+
+# Roman victory
+battle.result: "โรมชนะ"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Lucius Caecilius Metellus
+battle.sides.0.commanders.0: "ลูกิอุส ไกกิลิอุส เมเตลลุส"
+
+# Hasdrubal
+battle.sides.1.commanders.0: "ฮัสดรูบาล"

@@ -34,7 +34,7 @@ writePlan(`${G}/010-trebia`, {
     'scipio-218-ticinus': { name: 'Scipio crosses the Ticinus to find Hannibal, November 218 BC', color: 'rome', path: [[9.69, 45.05], [9.45, 45.12], [9.25, 45.17], [9.1, 45.19], [8.98, 45.22]] },
     'scipio-218-trebia': { name: 'After the defeat Scipio falls back to Placentia, then to the hills by the Trebia', color: 'rome', style: 'dashed', offset: 6,
       path: [[8.98, 45.22], [9.1, 45.19], [9.25, 45.16], [9.45, 45.11], [9.69, 45.05], [9.67, 45.0], camp.lnglat] },
-    'hannibal-218-po': { name: 'Hannibal crosses the Po and follows to Placentia', color: 'carthage', path: [[8.98, 45.2], [8.95, 45.12], [9.15, 45.07], [9.4, 45.03], [9.5, 45.0], hcamp.lnglat] },
+    'hannibal-218-po': { name: 'Hannibal crosses the Po and follows Scipio to Placentia', color: 'carthage', path: [[8.98, 45.2], [8.95, 45.12], [9.15, 45.07], [9.4, 45.03], [9.5, 45.0], hcamp.lnglat] },
     'sempronius-218': { name: 'Sempronius brings his army from Ariminum to join Scipio, December 218 BC', color: 'rome',
       path: [[12.57, 44.06], [11.9, 44.3], [11.34, 44.49], [10.9, 44.65], [10.3, 44.85], [9.85, 44.98], camp.lnglat] },
   },
@@ -48,7 +48,7 @@ writePlan(`${G}/020-trebia-lure`, {
   emblem: {
     water: [river],
     units: [
-      ...camps, ...carthageLine(3000), n(unit('carthage', 'light', 0, 2500, 4600, 70, EAST), 'skirmishers', 'Balearic slingers and spearmen'),
+      ...camps, ...carthageLine(3000), n(unit('carthage', 'light', 0, 2500, 4600, 70, EAST), 'skirmishers', 'Balearic slingers and javelinmen'),
       n(unit('carthage', 'cavalry', -700, 1950, 900, 200, EAST), 'numidians', 'Numidian cavalry, drawing the Romans on'),
       n(unit('rome', 'infantry', 0, 1550, 3800, 450, WEST), 'roman-army', 'The Roman army after wading the river, wet and unfed'),
       n(unit('rome', 'cavalry', 600, 950, 1500, 220, WEST), 'roman-cavalry', 'Roman cavalry'),

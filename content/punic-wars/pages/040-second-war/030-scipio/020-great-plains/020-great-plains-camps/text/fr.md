@@ -1,0 +1,5 @@
+Pendant l’hiver, [Scipion](@great-plains-camps-scipio) négocie avec Syphax, qui propose de ménager une paix. Avec chaque ambassade, il envoie des officiers déguisés en esclaves, qui rapportent que le [camp carthaginois](@great-plains-camps-carthaginian) a des baraques de bois derrière des remparts de terre, tandis que le [camp numide](@great-plains-camps-numidian) a des huttes de roseaux et de chaume sans enceinte nette. Au printemps, il prépare ouvertement l’assaut d’[Utique](@utica-204), puis part tard un soir et divise son armée.
+
+@image syphax-receives-scipio-360bc9
+
+[Laelius et Massinissa](@great-plains-camps-laelius) attaquent le camp numide et mettent le feu aux huttes de roseaux. Beaucoup de Carthaginois, croyant l’incendie accidentel, accourent sans armes de leur propre camp pour aider, et Scipion prend d’assaut leur camp et incendie ses baraques. Dans l’obscurité et la panique, les deux armées subissent de lourdes pertes. Hasdrubal s’échappe à Carthage, à 40 km, avec 2 500 hommes, et Syphax avec quelques cavaliers.

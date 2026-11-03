@@ -1,4 +1,4 @@
-In 232 BC [Rome](@rome-225) divides former Gallic land in Picenum among its poorer citizens, which alarms the Boii and Insubres of the Po valley. In 225 BC these two peoples hire Gaesatae, warriors from beyond the Alps, under the kings Concolitanus and Aneroëstes. Polybius connects the Ebro Treaty with Hasdrubal to Rome’s fear of this war.
+In 232 BC [Rome](@rome-225) divides former Gallic land in Picenum among its poorer citizens, which alarms the Boii and Insubres of the Po valley. In 225 BC these two peoples hire Gaesatae, warriors from beyond the Alps, under the kings Concolitanus and Aneroëstes. Polybius writes that Rome’s fear of this war led it to make the Ebro Treaty with Hasdrubal.
 
 @image telamon-talamone-4f0f1c
 

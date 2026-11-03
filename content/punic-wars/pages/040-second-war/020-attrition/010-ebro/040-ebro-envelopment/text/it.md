@@ -1,0 +1,3 @@
+Le legioni romane non inseguono gli Iberi in fuga. Ruotano verso l’esterno e attaccano alle spalle gli Africani e i Poeni, mentre le legioni alleate li tengono impegnati di fronte. I Libi resistono duramente e subiscono pesanti perdite prima di cedere.
+
+Asdrubale fugge con la maggior parte della cavalleria e degli elefanti e pochi fanti, e i Romani prendono il suo campo con i rifornimenti e il tesoro. Ibera si arrende probabilmente dopo la battaglia. L’esercito che Cartagine aveva arruolato al comando di Magone per sbarcare in Italia viene mandato invece in Iberia, e la via di terra verso l’Italia resta chiusa.

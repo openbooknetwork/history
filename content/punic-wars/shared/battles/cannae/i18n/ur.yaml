@@ -1,0 +1,53 @@
+# ur strings for the battle "cannae".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n ur
+
+# Roman Republic
+battle.sides.0.name: "جمہوریہ روم"
+
+# 86,400, with 10,000 left to guard the camps
+battle.sides.0.strength: "86,400، جن میں سے 10,000 کیمپوں کی حفاظت پر چھوڑے گئے"
+
+# Polybius: 70,000 killed, 10,000 captured. Livy: 48,200 killed, 19,300 captured
+battle.sides.0.casualties: "پولیبیئس: 70,000 ہلاک، 10,000 قید۔ لیوی: 48,200 ہلاک، 19,300 قید"
+
+# Carthage
+battle.sides.1.name: "قرطاجنہ"
+
+# 50,000, with 10,000 cavalry
+battle.sides.1.strength: "50,000، جن میں 10,000 سوار"
+
+# Polybius: 5,700 killed. Livy: 8,000 killed
+battle.sides.1.casualties: "پولیبیئس: 5,700 ہلاک۔ لیوی: 8,000 ہلاک"
+
+# Battle of Cannae
+battle.name: "جنگِ کینی"
+
+# 2 August 216 BC
+battle.date: "2 اگست 216 ق م"
+
+# Carthaginian victory
+battle.result: "قرطاجنی فتح"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Gaius Terentius Varro
+battle.sides.0.commanders.0: "گائیئس ٹیرنٹیئس وارو"
+
+# Lucius Aemilius Paullus
+battle.sides.0.commanders.1: "لوکیئس ایمیلیئس پاؤلس"
+
+# Gnaeus Servilius Geminus
+battle.sides.0.commanders.2: "نیئس سرویلیئس جیمینس"
+
+# Hannibal
+battle.sides.1.commanders.0: "ہنیبال"
+
+# Mago Barca
+battle.sides.1.commanders.1: "ماگو برقہ"
+
+# Hasdrubal
+battle.sides.1.commanders.2: "ہسدروبال"
+
+# Maharbal
+battle.sides.1.commanders.3: "مہاربال"

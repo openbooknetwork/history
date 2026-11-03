@@ -1,0 +1,5 @@
+[Scipio](@zama-deploy-scipio) stellt seine Legionen in ihren drei Treffen auf, setzt aber jeden Manipel der Principes direkt hinter einen Manipel der Hastati statt in die übliche schachbrettartige Ordnung. So bleiben offene Gassen durch das Heer, in denen die Veliten stehen. [Masinissas](@zama-deploy-masinissa) 4 000 numidische Reiter halten den rechten Flügel, [Laelius](@zama-deploy-laelius) mit 1 500 römischen und italischen Reitern den linken. Moderne Historiker geben den Römern gewöhnlich 29 000 oder 30 000 Mann.
+
+@image zama-tapestry-ff1299
+
+[Hannibal](@zama-deploy-hannibal) stellt seine 80 Elefanten nach vorn, etwa 30 m voneinander entfernt. Dahinter steht ein erstes Treffen von 12 000 Söldnern, Ligurern, Galliern, balearischen Schleuderern und Mauren, viele davon aus Magos Heer, und ein zweites Treffen aus karthagischen und afrikanischen Aufgeboten. Seine Veteranen aus Italien bilden etwa 200 m weiter hinten ein drittes Treffen. Seine numidische Reiterei steht Masinissa links gegenüber und seine karthagische Reiterei Laelius rechts. Polybios gibt ihm etwa 40 000 Mann, davon 4 000 Reiter.

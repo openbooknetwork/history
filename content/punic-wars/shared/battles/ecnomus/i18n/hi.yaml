@@ -1,0 +1,44 @@
+# hi strings for the battle "ecnomus".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n hi
+
+# Roman Republic
+battle.sides.0.name: "रोमन गणराज्य"
+
+# 330 ships, about 140,000 crew and marines
+battle.sides.0.strength: "330 जहाज, लगभग 1,40,000 नाविक और नौसैनिक"
+
+# 24 ships sunk, 10,000 men killed
+battle.sides.0.casualties: "24 जहाज डूबे, 10,000 लोग मारे गए"
+
+# Carthage
+battle.sides.1.name: "कार्थेज"
+
+# 350 ships, about 150,000 crew and marines
+battle.sides.1.strength: "350 जहाज, लगभग 1,50,000 नाविक और नौसैनिक"
+
+# 30 ships sunk, 64 captured, 30,000 to 40,000 men killed or captured
+battle.sides.1.casualties: "30 जहाज डूबे, 64 पकड़े गए, 30,000 से 40,000 तक लोग मारे गए या बंदी बने"
+
+# Battle of Cape Ecnomus
+battle.name: "एक्नोमस अंतरीप का युद्ध"
+
+# 256 BC
+battle.date: "256 ईसा पूर्व"
+
+# Roman victory
+battle.result: "रोम की जीत"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Marcus Atilius Regulus
+battle.sides.0.commanders.0: "मार्कस एटिलियस रेगुलस"
+
+# Lucius Manlius Vulso
+battle.sides.0.commanders.1: "लूसियस मैनलियस वुल्सो"
+
+# Hamilcar
+battle.sides.1.commanders.0: "हैमिलकर"
+
+# Hanno
+battle.sides.1.commanders.1: "हैनो"

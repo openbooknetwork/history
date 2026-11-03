@@ -1,0 +1,5 @@
+Per diversi anni gli Scipioni non ricevono rinforzi dall’Italia e continuano a combattere con incursioni e alleanze con le tribù iberiche. Nel 212 a.C. riprendono [Sagunto](@saguntum-212) e prendono [Castulone](@castulo-211), una città mineraria e la patria della moglie di Annibale, Imilce, dove svernano. Ad Asdrubale Barca si uniscono ora altri due eserciti cartaginesi, al comando del fratello Magone e di Asdrubale Giscone.
+
+@image scipios-tower-d489f7
+
+Nel 211 a.C. i fratelli assoldano 20.000 mercenari celtiberi da aggiungere ai loro 30.000 Romani e alleati, e dividono le forze. Publio marcia contro Magone vicino a Castulone, viene sorpreso dalla cavalleria numida di Massinissa e dagli eserciti di Magone e di Asdrubale Giscone, e viene ucciso con la maggior parte dei suoi uomini. Asdrubale Barca corrompe i Celtiberi al seguito di Gneo perché tornino a casa, e pochi giorni dopo Gneo viene sopraffatto e ucciso su un colle vicino a [Ilorci](@ilorca-211). I superstiti, da 8.000 a 9.000 uomini, si radunano a nord dell’Ebro.

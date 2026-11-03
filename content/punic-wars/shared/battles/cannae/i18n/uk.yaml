@@ -1,0 +1,53 @@
+# uk strings for the battle "cannae".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n uk
+
+# Roman Republic
+battle.sides.0.name: "Римська республіка"
+
+# 86,400, with 10,000 left to guard the camps
+battle.sides.0.strength: "86 400, з них 10 000 залишено стерегти табори"
+
+# Polybius: 70,000 killed, 10,000 captured. Livy: 48,200 killed, 19,300 captured
+battle.sides.0.casualties: "Полібій: 70 000 убитих, 10 000 полонених. Лівій: 48 200 убитих, 19 300 полонених"
+
+# Carthage
+battle.sides.1.name: "Карфаген"
+
+# 50,000, with 10,000 cavalry
+battle.sides.1.strength: "50 000, з них 10 000 кінноти"
+
+# Polybius: 5,700 killed. Livy: 8,000 killed
+battle.sides.1.casualties: "Полібій: 5700 убитих. Лівій: 8000 убитих"
+
+# Battle of Cannae
+battle.name: "Битва при Каннах"
+
+# 2 August 216 BC
+battle.date: "2 серпня 216 р. до н. е."
+
+# Carthaginian victory
+battle.result: "Перемога Карфагена"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Gaius Terentius Varro
+battle.sides.0.commanders.0: "Гай Теренцій Варрон"
+
+# Lucius Aemilius Paullus
+battle.sides.0.commanders.1: "Луцій Емілій Павло"
+
+# Gnaeus Servilius Geminus
+battle.sides.0.commanders.2: "Гней Сервілій Гемін"
+
+# Hannibal
+battle.sides.1.commanders.0: "Ганнібал"
+
+# Mago Barca
+battle.sides.1.commanders.1: "Магон Барка"
+
+# Hasdrubal
+battle.sides.1.commanders.2: "Гасдрубал"
+
+# Maharbal
+battle.sides.1.commanders.3: "Магарбал"

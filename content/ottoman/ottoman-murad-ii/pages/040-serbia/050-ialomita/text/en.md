@@ -1,4 +1,4 @@
-Murad decides to avenge Mezid Bey and to punish Wallachia and Transylvania, and he gives the task to Şehabeddin Pasha, the beylerbey of Rumelia, with orders not to return before he has conquered both lands. Şehabeddin’s army, 70,000 men by one account, is made up of provincial cavalry under their sanjak beys and of janissaries, and Şehabeddin says that the sight of his turban will make his enemies run. In August 1442 the army crosses the Danube into Wallachia.
+Murad decides to avenge Mezid Bey and to punish Wallachia and Transylvania, and he gives the task to Şehabeddin Pasha, the beylerbey of Rumelia, with orders not to return before he has conquered both lands. Şehabeddin’s army is made up of provincial cavalry under their sanjak beys and of janissaries, and Şehabeddin says that the sight of his turban will make his enemies run. In August 1442 the army crosses the Danube into Wallachia.
 
 On 2 September 1442 Hunyadi destroys Şehabeddin’s army in the upper valley of the Ialomița. Hunyadi then places Basarab II, a son of Dan II, on the throne of Wallachia at [Târgoviște](@targoviste), and Wallachia accepts Hungarian suzerainty again.
 

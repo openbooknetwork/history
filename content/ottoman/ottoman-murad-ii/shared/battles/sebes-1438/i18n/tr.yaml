@@ -1,0 +1,26 @@
+# tr strings for the battle "sebes-1438".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman Empire, with Wallachian troops
+battle.sides.0.name: "Eflak askerleriyle birlikte Osmanlı Devleti"
+
+# Kingdom of Hungary, the Saxon town of Sebeș
+battle.sides.1.name: "Macaristan Krallığı, Sakson şehri Sebeş"
+
+# Capture of Sebeș
+battle.name: "Sebeş’in alınışı"
+
+# Summer 1438
+battle.date: "1438 yazı"
+
+# The town surrenders, and its people are led away as captives
+battle.result: "Şehir teslim olur, halkı esir olarak götürülür"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Murad II
+battle.sides.0.commanders.0: "II. Murad"
+
+# Vlad II Dracul
+battle.sides.0.commanders.1: "II. Vlad Drakul"

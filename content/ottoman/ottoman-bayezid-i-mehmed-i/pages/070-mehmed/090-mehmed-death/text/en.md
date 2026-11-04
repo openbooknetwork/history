@@ -6,4 +6,4 @@ Mehmed had wanted to send his young sons Yusuf and Mahmud to Manuel II as hostag
 
 @image green-tomb-0bf0c5
 
-At Mehmed’s death the Ottoman lands reach in Europe from the Danube, with Dobruja, to Thessaly and Valona, and in Anatolia from İzmir to Ankara, Amasya and Samsun. Byzantium holds Constantinople, Thessalonica and the Morea, Wallachia pays tribute, and the beys of Karaman, Germiyan, Menteşe and Candar rule their own lands.
+At Mehmed’s death the Ottoman lands reach in Europe from the Danube, with Dobruja, to Thessaly and Valona, and in Anatolia from İzmir to Ankara, Amasya and Samsun. Byzantium holds Constantinople, Thessalonica and the Morea, Wallachia pays tribute, and the beys of Karaman, Germiyan, Menteşe, Teke and Candar rule their own lands.

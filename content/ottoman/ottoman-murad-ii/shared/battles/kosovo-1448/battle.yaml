@@ -1,0 +1,21 @@
+lnglat: [21.06, 42.725]
+name: "Second Battle of Kosovo"
+date: "17–20 October 1448"
+result: "Ottoman victory, Hunyadi flees"
+source: https://en.wikipedia.org/wiki/Battle_of_Kosovo_(1448)
+images: [thuroczy-kosovo-895ccb, murad-ii-du-bosc-0c2800]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  hungary: { color: "#3d7a2a", color_dark: "#7cc160" }
+  wallachia: { color: "#5b7a99", color_dark: "#9fbad6" }
+sides:
+  - name: "Ottoman state"
+    color: ottomans
+    commanders: ["Murad II", "Mehmed II"]
+    strength: "40,000 to 60,000"
+    casualties: "4,000 killed by Chalkokondyles, 34,000 by Babinger"
+  - name: "Crusade: Hungary, Croatia, Wallachia, Moldavia and German and Bohemian mercenaries"
+    color: hungary
+    commanders: ["John Hunyadi", "Michael Szilágyi", "Franko Talovac", "Vladislav II"]
+    strength: "22,000 to 30,000, with about 8,000 Wallachians"
+    casualties: "17,000 killed or captured by Chalkokondyles, 8,000 killed by Bonfini, Franko Talovac among them"

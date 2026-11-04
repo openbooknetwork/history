@@ -1,0 +1,35 @@
+# tr strings for the battle "hexamilion-1446".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman Empire
+battle.sides.0.name: "Osmanlı Devleti"
+
+# 50,000 to 60,000, with guns
+battle.sides.0.strength: "Toplarla birlikte 50.000 ile 60.000 arası"
+
+# Despotate of the Morea
+battle.sides.1.name: "Mora Despotluğu"
+
+# Perhaps 20,000
+battle.sides.1.strength: "Belki 20.000"
+
+# Heavy, many killed or captured
+battle.sides.1.casualties: "Ağır, pek çok ölü ve esir"
+
+# Siege of the Hexamilion
+battle.name: "Hexamilion Kuşatması"
+
+# 27 November – 10 December 1446
+battle.date: "27 Kasım – 10 Aralık 1446"
+
+# Ottoman victory, the despots of the Morea pay tribute
+battle.result: "Osmanlı zaferi, Mora despotları vergiye bağlanır"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Murad II
+battle.sides.0.commanders.0: "II. Murad"
+
+# Constantine Palaiologos
+battle.sides.1.commanders.0: "Konstantinos Palaiologos"

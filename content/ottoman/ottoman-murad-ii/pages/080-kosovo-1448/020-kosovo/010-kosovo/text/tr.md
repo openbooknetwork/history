@@ -1,0 +1,5 @@
+Ordular, 1389’da I. Murad ile Sırp prensi Lazar’ın öldüğü Kosova Ovası’nda, [I. Murad’ın türbesinin](@murad-i-tomb) yakınında karşılaşır. Sitnica ovanın içinden kuzeye akar, kuzeydoğudan inen Lab da alçak tepelerin eteğinde, Plemetina yakınında ona karışır. Osmanlı ana ordusunun hâlâ Edirne’de olduğunu sanan Hunyadi, bu ordu 17 Ekim 1448’de karşısına çıkınca gafil avlanır. Anlatımlara göre arabalarını Plemetina’daki tepede bir [istihkâm](@kosovo-camp) olarak dizer, [Priştine](@pristina-1448) yönünden gelen Osmanlılar da karşısında kendi şarampolüyle çevrili bir [ordugâh](@kosovo-ottoman-camp) kurar.
+
+@image kosovo-field-drenoc-2955b5
+
+Günümüz tahminleri Haçlıları 22.000 ile 30.000, Osmanlıları 40.000 ile 60.000 kişi olarak verir, Türk tarihçiler ise Osmanlı ordusunu 40.000 kadar gösterir. Hunyadi’nin asıl gücü ağır süvarileridir, kaynaklar ona her birinde bir top bulunan 800 ile 2.000 savaş arabası verir. Merkezde yeniçerilere ve toplara Murad komuta eder, on altı yaşındaki oğlu Mehmed de ilk muharebesinde sağ kanattaki Anadolu askerlerinin başındadır. Haçlıların merkezini Hunyadi kendisi tutar, sol kanadı da Eflaklılar oluşturur.

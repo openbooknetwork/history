@@ -1,0 +1,7 @@
+In October 1443 King Władysław and John Hunyadi cross the Danube with an army of 25,000 to 27,000 men and about 600 war wagons, and Đurađ Branković joins them with 8,000. The king is in command in name, but Hunyadi leads the campaign. The army marches up the Morava valley, Hunyadi goes ahead with 12,000 horsemen, and the king and Đurađ follow with the wagons. Hunyadi takes Kruševac, and his men take, plunder and burn Niš.
+
+Three Ottoman forces march on Niš separately, and Hunyadi beats each of them before they can unite. The last battle is fought on 2 or 3 November 1443 on the plain between Bolvan and Niš, against the combined troops of Kasım Pasha, the beylerbey of Rumelia, Turahan Bey and Ishak Bey. Ottoman chroniclers explain the defeat by the lack of cooperation between the commanders. Kasım and Turahan fall back to [Sofia](@sofia-1443) to warn Murad, and they burn the villages on their way.
+
+Gjergj Kastrioti, known as Skanderbeg, is a son of the Albanian lord Gjon Kastrioti and was sent to the Ottoman court as a hostage in his youth. He has risen in Murad’s service to be sanjak bey of Dibra, and during the fighting at Niš he leaves the Ottoman army with his nephew Hamza and 300 Albanian horsemen. He reaches [Krujë](@kruje-1433) on 28 November 1443 and becomes lord of the town that day with a forged letter from Murad that orders the governor to hand it over to him. Some earlier accounts place his desertion at Kunovica in January 1444.
+
+@image skanderbeg-kruje-lonicer-a7205e

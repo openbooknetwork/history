@@ -1,0 +1,9 @@
+4 Ağustos 1444’te [Segedin’de](@szeged) Vladislav, Kardinal Julian Cesarini’nin, baronların ve piskoposların önünde sultanla yapılmış ya da yapılacak her antlaşmadan vazgeçeceğine ve yıl bitmeden Osmanlılara karşı bir sefere çıkacağına yemin eder. Cesarini kâfirlere edilen yeminin bağlayıcı olmadığını savunur, onun bulduğu söz kalıbı da kralın Haçlı seferinden vazgeçmeden barışı onaylamasını sağlar. Antlaşmaya yemin edildikten sonraki hafta Vladislav, Hunyadi Yanoş’a Bulgaristan tacını önerir. Eylül ortasına kadar antlaşmada ve onun yanında yapılan anlaşmalarda verilen kentler ve topraklar el değiştirir.
+
+@image cesarini-portrait-038a66
+
+Kenneth Setton’ın verdiği sayıya göre ordu 16.000 kadar kişidir: Macarlar, Lehler, Erdelliler, Hırvatlar ve Boşnaklar, Batı Avrupa’dan ağır süvariler ve paralı askerler. Ordu 20 ya da 22 Eylül’de [Orsova’da](@orsova-1438) Tuna’yı geçer ve Osmanlı kalelerini geride bırakarak [Vidin](@vidin-1438) ve Rahova üzerinden sağ kıyı boyunca ilerler. Tuna kasabalarından Bulgarlar orduya katılır, son Tırnova çarı İvan Şişman’ın oğlu Frujin de kendi muhafızlarıyla gelir. [Niğbolu](@nikopol-1442) yakınlarında II. Vlad’ın oğlu Mircea Eflak süvarilerini getirir. Setton bunları 4.000, John Jefferson 7.000 kişi olarak verir. Vlad ise kralı bu savaştan vazgeçirmeye çalışmıştır.
+
+Ordu Niğbolu’dan doğuya döner, [Şumnu](@shumen-1444) ve Petriç kalesi üzerinden Haçlı donanmasıyla buluşmayı umduğu Karadeniz’e yönelir ve kasımda [Varna’ya](@varna-1444) varır. Sırbistan’ı [Semendire](@smederevo) ile birlikte geri almış olan Đurađ Branković savaşa katılmaz. [Edirne’de](@edirne) sadrazam Çandarlı Halil Paşa, orduya komuta etmesi için Manisa’daki Murad’ı çağırır. 17. yüzyıl tarihçilerine göre babasına gelmesini emreden, genç II. Mehmed’in kendisidir, Halil İnalcık ise Murad’ı geri getirenin Halil Paşa olduğunu savunur.
+
+@image shumen-fortress-gate-c14543

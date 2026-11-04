@@ -1,0 +1,20 @@
+lnglat: [19.56, 42.06]
+name: "Battle of the Drin"
+date: "23 July 1448"
+result: "Albanian victory"
+source: https://en.wikipedia.org/wiki/Albanian–Venetian_War_(1447–1448)
+images: [drin-buna-shkoder-1f5057, shkoder-rozafa-355e47]
+families:
+  skanderbeg: { color: "#8a5a00", color_dark: "#d9a441" }
+  venice: { color: "#4da495", color_dark: "#92dacb" }
+sides:
+  - name: "League of Lezhë"
+    color: skanderbeg
+    commanders: ["Skanderbeg", "Tanush Thopia", "Moisi Arianit Golemi"]
+    strength: "10,000"
+    casualties: "400 killed"
+  - name: "Republic of Venice"
+    color: venice
+    commanders: ["Daniele Iurichi"]
+    strength: "15,000, most of them local mercenaries"
+    casualties: "2,500 killed and 1,000 captured"

@@ -1,0 +1,38 @@
+# tr strings for the battle "torvioll-1444".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# League of Lezhë
+battle.sides.0.name: "Leş Birliği"
+
+# 15,000, 8,000 of them horsemen
+battle.sides.0.strength: "8.000’i atlı 15.000"
+
+# 3,800 to 4,000 killed or wounded
+battle.sides.0.casualties: "3.800 ile 4.000 arası ölü ya da yaralı"
+
+# Ottoman Empire
+battle.sides.1.name: "Osmanlı Devleti"
+
+# 25,000 to 40,000 by different accounts
+battle.sides.1.strength: "Farklı kayıtlara göre 25.000 ile 40.000 arası"
+
+# 7,000 to 10,000 killed and 500 to 2,000 captured
+battle.sides.1.casualties: "7.000 ile 10.000 arası ölü ve 500 ile 2.000 arası esir"
+
+# Battle of Torvioll
+battle.name: "Torvioll Muharebesi"
+
+# 29 June 1444
+battle.date: "29 Haziran 1444"
+
+# Albanian victory, by Barleti’s account
+battle.result: "Barleti’nin anlattığına göre Arnavut zaferi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Skanderbeg
+battle.sides.0.commanders.0: "İskender Bey"
+
+# Ali Pasha
+battle.sides.1.commanders.0: "Ali Paşa"

@@ -1,0 +1,17 @@
+lnglat: [29.72, 40.43]
+name: "Siege of İznik"
+date: "February 1423"
+result: "İznik retaken, and Küçük Mustafa is handed over and executed"
+source: https://en.wikipedia.org/wiki/K%C3%BC%C3%A7%C3%BCk_Mustafa
+images: [iznik-istanbul-gate-1effb5, iznik-green-mosque-45f206]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  kucuk-mustafa: { color: "#7d5ba6", color_dark: "#b89be0" }
+sides:
+  - name: "Ottoman Empire"
+    color: ottomans
+    commanders: ["Murad II", "Mihaloğlu Mehmed Bey"]
+  - name: "Forces of Küçük Mustafa"
+    color: kucuk-mustafa
+    commanders: ["Küçük Mustafa", "Şarabdar İlyas"]
+    casualties: "Küçük Mustafa captured and strangled"

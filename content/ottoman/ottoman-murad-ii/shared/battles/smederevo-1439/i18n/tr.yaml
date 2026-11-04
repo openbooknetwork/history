@@ -1,0 +1,29 @@
+# tr strings for the battle "smederevo-1439".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman Empire
+battle.sides.0.name: "Osmanlı Devleti"
+
+# 130,000 by one account
+battle.sides.0.strength: "Bir kayda göre 130.000"
+
+# Serbian Despotate
+battle.sides.1.name: "Sırp Despotluğu"
+
+# Siege of Smederevo
+battle.name: "Semendire Kuşatması"
+
+# Early June – 18 August 1439
+battle.date: "Haziran başı – 18 Ağustos 1439"
+
+# Ottoman victory, the garrison surrenders and the Serbian Despotate is annexed
+battle.result: "Osmanlı zaferi, savunucular teslim olur ve Sırp Despotluğu Osmanlı topraklarına katılır"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Murad II
+battle.sides.0.commanders.0: "II. Murad"
+
+# Thomas Kantakouzenos
+battle.sides.1.commanders.1: "Thomas Kantakuzenos"

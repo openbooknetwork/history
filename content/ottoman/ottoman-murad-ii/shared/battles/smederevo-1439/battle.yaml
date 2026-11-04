@@ -1,0 +1,17 @@
+lnglat: [20.93, 44.665]
+name: "Siege of Smederevo"
+date: "Early June – 18 August 1439"
+result: "Ottoman victory, the garrison surrenders and the Serbian Despotate is annexed"
+source: https://en.wikipedia.org/wiki/Siege_of_Smederevo_(1439)
+images: [smederevo-fortress-d37757, durad-brankovic-coin-ecdebf]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  serbia: { color: "#2f6fb0", color_dark: "#6fa6e0" }
+sides:
+  - name: "Ottoman Empire"
+    color: ottomans
+    commanders: ["Murad II"]
+    strength: "130,000 by one account"
+  - name: "Serbian Despotate"
+    color: serbia
+    commanders: ["Grgur Branković", "Thomas Kantakouzenos"]

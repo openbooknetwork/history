@@ -1,0 +1,35 @@
+# tr strings for the battle "mokra-1445".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# League of Lezhë
+battle.sides.0.name: "Leş Birliği"
+
+# 3,500, 2,000 horsemen and 1,500 foot
+battle.sides.0.strength: "2.000’i atlı, 1.500’ü yaya 3.500"
+
+# Ottoman Empire
+battle.sides.1.name: "Osmanlı Devleti"
+
+# 9,000 to 15,000
+battle.sides.1.strength: "9.000 ile 15.000 arası"
+
+# 1,500 killed and 1,000 captured
+battle.sides.1.casualties: "1.500 ölü ve 1.000 esir"
+
+# Battle of Mokra
+battle.name: "Mokra Muharebesi"
+
+# 10 October 1445
+battle.date: "10 Ekim 1445"
+
+# Albanian victory, Firuz Pasha killed
+battle.result: "Arnavut zaferi, Firuz Paşa ölür"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Skanderbeg
+battle.sides.0.commanders.0: "İskender Bey"
+
+# Firuz Pasha
+battle.sides.1.commanders.0: "Firuz Paşa"

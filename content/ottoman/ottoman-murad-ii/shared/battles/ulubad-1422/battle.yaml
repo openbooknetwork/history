@@ -1,0 +1,18 @@
+lnglat: [28.43, 40.17]
+name: "Battle of Ulubad"
+date: "January 1422"
+result: "Mustafa’s army breaks up without a battle, and he flees to Gallipoli"
+source: https://en.wikipedia.org/wiki/Mustafa_%C3%87elebi
+images: [murad-ii-veronese-follower-e3beae, golyazi-uluabat-aerial-2f7308]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  mustafa: { color: "#1d6b70", color_dark: "#5fb3b8" }
+sides:
+  - name: "Ottoman Empire"
+    color: ottomans
+    commanders: ["Murad II", "Mihaloğlu Mehmed Bey", "Hacı İvaz Pasha"]
+  - name: "Forces of Mustafa Çelebi"
+    color: mustafa
+    commanders: ["Mustafa Çelebi", "Cüneyd Bey"]
+    strength: "12,000 horsemen and 5,000 foot soldiers, by Ottoman accounts"
+    casualties: "Most of the foot soldiers killed at a bridge in the retreat"

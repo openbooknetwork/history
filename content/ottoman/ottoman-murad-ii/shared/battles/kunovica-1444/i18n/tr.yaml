@@ -1,0 +1,32 @@
+# tr strings for the battle "kunovica-1444".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Kingdom of Hungary, with Polish and Serbian troops
+battle.sides.0.name: "Macaristan Krallığı, Polonyalı ve Sırp birliklerle"
+
+# Ottoman Empire
+battle.sides.1.name: "Osmanlı Devleti"
+
+# Thousands killed, Mahmud Bey and other commanders captured
+battle.sides.1.casualties: "Binlerce ölü, Mahmud Bey ve başka komutanlar esir"
+
+# Battle of Kunovica
+battle.name: "Kunoviçe Muharebesi"
+
+# 2 or 5 January 1444
+battle.date: "2 ya da 5 Ocak 1444"
+
+# Hungarian victory, Mahmud Bey captured
+battle.result: "Macar zaferi, Mahmud Bey esir düşer"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# John Hunyadi
+battle.sides.0.commanders.0: "Hunyadi Yanoş"
+
+# Władysław III
+battle.sides.0.commanders.1: "III. Vladislav"
+
+# Kasım Pasha
+battle.sides.1.commanders.0: "Kasım Paşa"

@@ -1,0 +1,29 @@
+# tr strings for the battle "constantinople-1422".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman Empire
+battle.sides.0.name: "Osmanlı Devleti"
+
+# Byzantine Empire
+battle.sides.1.name: "Bizans İmparatorluğu"
+
+# Siege of Constantinople
+battle.name: "Konstantinopolis Kuşatması"
+
+# 10 June – 6 September 1422
+battle.date: "10 Haziran – 6 Eylül 1422"
+
+# The city holds out, and Murad lifts the siege to march against Küçük Mustafa
+battle.result: "Şehir direnir, Murad Küçük Mustafa’nın üzerine yürümek için kuşatmayı kaldırır"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Murad II
+battle.sides.0.commanders.0: "II. Murad"
+
+# Manuel II Palaiologos
+battle.sides.1.commanders.0: "II. Manuel Palaiologos"
+
+# John VIII Palaiologos
+battle.sides.1.commanders.1: "VIII. İoannis Palaiologos"

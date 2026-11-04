@@ -1,0 +1,17 @@
+lnglat: [26.66, 40.68]
+name: "Battle of Sazlıdere"
+date: "1421"
+result: "Bayezid Pasha’s army goes over to Mustafa, and Bayezid Pasha is killed"
+source: https://en.wikipedia.org/wiki/Mustafa_%C3%87elebi
+images: [mustafa-akce-0b180c, saros-piri-reis-8d2b97]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  mustafa: { color: "#1d6b70", color_dark: "#5fb3b8" }
+sides:
+  - name: "Ottoman army of Rumelia"
+    color: ottomans
+    commanders: ["Bayezid Pasha"]
+    casualties: "Bayezid Pasha captured and beheaded"
+  - name: "Forces of Mustafa Çelebi"
+    color: mustafa
+    commanders: ["Mustafa Çelebi", "Cüneyd Bey"]

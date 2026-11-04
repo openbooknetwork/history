@@ -1,0 +1,32 @@
+# tr strings for the battle "ulubad-1422".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman Empire
+battle.sides.0.name: "Osmanlı Devleti"
+
+# Forces of Mustafa Çelebi
+battle.sides.1.name: "Mustafa Çelebi’nin kuvvetleri"
+
+# 12,000 horsemen and 5,000 foot soldiers, by Ottoman accounts
+battle.sides.1.strength: "Osmanlı kaynaklarına göre 12.000 atlı ve 5.000 yaya"
+
+# Most of the foot soldiers killed at a bridge in the retreat
+battle.sides.1.casualties: "Yaya askerlerin çoğu geri çekilirken bir köprüde öldürülür"
+
+# Battle of Ulubad
+battle.name: "Ulubat Muharebesi"
+
+# January 1422
+battle.date: "Ocak 1422"
+
+# Mustafa’s army breaks up without a battle, and he flees to Gallipoli
+battle.result: "Mustafa’nın ordusu savaşmadan dağılır, Mustafa Gelibolu’ya kaçar"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Murad II
+battle.sides.0.commanders.0: "II. Murad"
+
+# Hacı İvaz Pasha
+battle.sides.0.commanders.2: "Hacı İvaz Paşa"

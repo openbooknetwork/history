@@ -1,0 +1,47 @@
+# tr strings for the battle "varna-1444".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman state
+battle.sides.0.name: "Osmanlı Devleti"
+
+# 50,000 to 60,000, or 37,000 to 40,000 by İnalcık
+battle.sides.0.strength: "50.000 ile 60.000 arası, İnalcık’a göre 37.000 ile 40.000 arası"
+
+# 7,000 to 8,000 killed by Emecen, Karaca Bey among them
+battle.sides.0.casualties: "Emecen’e göre aralarında Karaca Bey’in de bulunduğu 7.000 ile 8.000 ölü"
+
+# Crusade: Hungary, Poland, Croatia, Wallachia, papal troops and mercenaries
+battle.sides.1.name: "Haçlı ordusu: Macaristan, Polonya, Hırvatistan, Eflak, papalık birlikleri ve paralı askerler"
+
+# About 16,000, with 4,000 Wallachians
+battle.sides.1.strength: "16.000 kadar, 4.000 Eflaklıyla birlikte"
+
+# About half the army, with the king, Cesarini and the bishops of Várad and Eger
+battle.sides.1.casualties: "Ordunun yarısı kadarı, aralarında kral, Cesarini ve Varat ile Eğri piskoposları"
+
+# Battle of Varna
+battle.name: "Varna Muharebesi"
+
+# 10 November 1444
+battle.date: "10 Kasım 1444"
+
+# Ottoman victory, Władysław III killed
+battle.result: "Osmanlı zaferi, III. Vladislav öldürülür"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Murad II
+battle.sides.0.commanders.0: "II. Murad"
+
+# Şehabeddin Pasha
+battle.sides.0.commanders.2: "Şehabeddin Paşa"
+
+# Władysław III
+battle.sides.1.commanders.0: "III. Vladislav"
+
+# John Hunyadi
+battle.sides.1.commanders.1: "Hunyadi Yanoş"
+
+# Michael Szilágyi
+battle.sides.1.commanders.3: "Mihály Szilágyi"

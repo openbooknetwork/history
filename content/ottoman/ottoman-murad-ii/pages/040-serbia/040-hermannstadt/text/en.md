@@ -1,0 +1,7 @@
+Hunyadi has the burghers of Brașov mint coins for Vlad II in October 1441, and two or three weeks later he meets Vlad at [Târgoviște](@targoviste) and asks him to join a war against the Ottomans. Murad announces a raid into Transylvania for March 1442. In early March Mezid Bey, the marcher lord of [Nikopol](@nikopol-1442), crosses the Danube there with about 16,000 akıncı raiders and marches north through Wallachia into Transylvania.
+
+On 18 March 1442 the troops of György Lépes, Bishop of Transylvania, meet Mezid near [Sântimbru](@santimbru-1442), and the Ottomans win by force of numbers and kill the bishop. Hunyadi, who has only just reached Transylvania, falls back, and Mezid lays siege to Sibiu (Hermannstadt) until Hunyadi and Nicholas of Ilok force him to lift it. On 22 March Hunyadi destroys Mezid’s army, and Mezid and his son are killed. Modern historians, Tamás Pálosfalvi among them, place this battle at the [Iron Gate pass](@iron-gate-pass-1442) in Hunyad county, and the older histories near Sibiu.
+
+@image sibiu-fortifications-2a1c79
+
+Hunyadi follows the Ottomans into Wallachia through the Red Tower pass and makes Vlad a vassal of Hungary again. By Neşri’s account the Ottoman governor of Bulgaria then accuses Vlad of treachery, and Murad summons him to [Edirne](@edirne). Vlad leaves his eldest son Mircea to rule Wallachia, and soon after he reaches Edirne he is arrested on the sultan’s order and held at Gallipoli.

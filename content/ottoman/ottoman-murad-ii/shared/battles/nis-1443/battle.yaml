@@ -1,0 +1,20 @@
+lnglat: [21.81, 43.43]
+name: "Battle of Niš"
+date: "2 or 3 November 1443"
+result: "Hungarian victory, Kasım Pasha and Turahan fall back to Sofia"
+source: https://en.wikipedia.org/wiki/Battle_of_Ni%C5%A1_(1443)
+images: [thuroczy-long-campaign-1052da, wladyslaw-torun-8b9520]
+families:
+  hungary: { color: "#3d7a2a", color_dark: "#7cc160" }
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+sides:
+  - name: "Kingdom of Hungary, with Polish and Serbian troops"
+    color: hungary
+    commanders: ["John Hunyadi"]
+    strength: "12,000 horsemen"
+    casualties: "500"
+  - name: "Ottoman Empire"
+    color: ottomans
+    commanders: ["Kasım Pasha", "Turahan Bey", "Ishak Bey"]
+    strength: "12,000 sipahis under Kasım Pasha and the troops of the frontier"
+    casualties: "2,000 killed and 4,000 captured, Skanderbeg and 300 Albanians desert"

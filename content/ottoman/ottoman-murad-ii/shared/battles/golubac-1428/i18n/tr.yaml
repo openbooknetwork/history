@@ -1,0 +1,35 @@
+# tr strings for the battle "golubac-1428".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman Empire
+battle.sides.0.name: "Osmanlı Devleti"
+
+# Kingdom of Hungary, with Wallachian and Polish troops
+battle.sides.1.name: "Eflak ve Polonya askerleriyle birlikte Macaristan Krallığı"
+
+# 15,000 to 20,000, or 25,000 foot soldiers and 6,000 Wallachian archers by another account
+battle.sides.1.strength: "15.000 ile 20.000, başka bir kayda göre 25.000 yaya ve 6.000 Eflaklı okçu"
+
+# Heavy, Zawisza the Black killed
+battle.sides.1.casualties: "Ağır, Zawisza Czarny öldürülür"
+
+# Siege of Golubac
+battle.name: "Güvercinlik Kuşatması"
+
+# Late April – early June 1428
+battle.date: "Nisan sonu – Haziran başı 1428"
+
+# Ottoman victory, and Sigismund withdraws across the Danube
+battle.result: "Osmanlı zaferi, Sigismund Tuna’nın karşı yakasına çekilir"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Murad II
+battle.sides.0.commanders.0: "II. Murad"
+
+# Dan II of Wallachia
+battle.sides.1.commanders.1: "Eflak Voyvodası II. Dan"
+
+# Zawisza the Black
+battle.sides.1.commanders.2: "Zawisza Czarny"

@@ -1,0 +1,9 @@
+İmparator VIII. İoannis ile kardeşi Konstantinos, Epir hükümdarı I. Carlo Tocco’nun donanmasını Ehinades adaları açıklarında yener, Carlo da Mora’daki topraklarından vazgeçer. [Glarentza](@glarentza-1428) 1 Mayıs 1428’de Carlo’nun yeğeni Theodora’nın çeyizi olarak Bizans’a geçer, Konstantinos da 1 Temmuz’da Theodora ile evlenir. Konstantinos, [Mistra’dan](@mistra) yöneten ağabeyi Theodoros’un yanında Mora despotlarından biri olur. 20 Mart 1429’da [Balyabadra’yı](@patras-1430) kuşatma altına alır, şehir 4 Haziran’da onu efendisi olarak kabul eder, başpiskoposun kalesi de Temmuz 1430’da teslim olur.
+
+@image patras-castle-dc510d
+
+I. Carlo 4 Temmuz 1429’da [Yanya’da](@ioannina-1430) ölür, gayrimeşru oğulları da onun yeğeni ve vârisi II. Carlo’ya karşı Osmanlılardan yardım ister. Selanik’in düşmesinden sonra Sinan Paşa komutasındaki bir Osmanlı ordusu Yanya önlerine gelir, Sinan Paşa şehre dokunulmayacağına ve haklarına saygı gösterileceğine söz verince şehir teslim olur. Sinan Paşa’nın şehir halkına verdiği ayrıcalık belgesi 9 Ekim 1430 tarihlidir. II. Carlo, [Narda](@arta-1430) ile Epir’in güneyini Osmanlılara bağlı olarak elinde tutar, Venedik de Tocco ailesinin Zante, Kefalonya ve Levkas adalarını himayesine alır.
+
+@image ioannina-orismos-1430-ff66d5
+
+II. Manuel’in en küçük oğlu olan ve 1428’den beri Mora despotlarından biri olan Thomas, son Ahaya prensi II. Centurione’nin kızı ve vârisi Catherine Zaccaria ile evlenir. Centurione 1432’de ölünce Thomas onun kalan topraklarını alır ve prenslik sona erer. Despotlar Theodoros, Konstantinos ve Thomas artık Venedik’in elindeki Koron, Moton, Anabolu ve Argos limanları dışında bütün yarımadaya hâkimdir. 1431’de Turahan Bey, despotlara sultana bağlı olduklarını hatırlatmak için Murad’ın emriyle [Hexamilion’u](@hexamilion) yeniden aşar.

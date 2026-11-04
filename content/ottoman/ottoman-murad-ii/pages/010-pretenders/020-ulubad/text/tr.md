@@ -1,0 +1,7 @@
+Ocak 1422’de Mustafa, Galata Cenevizlilerinin gemileriyle [Gelibolu’dan](@gallipoli-1422) Lapseki’ye geçer. Osmanlı kaynaklarına göre yanında 12.000 atlı ve 5.000 yaya asker vardır ve Bursa’ya doğru yürür. Murad onu Uluabat Gölü yakınlarında Ulubat Çayı’nda karşılar ve köprüyü tutar, iki ordu da suyun iki yakasında karşı karşıya gelir.
+
+Rumeli akıncılarının önderi Mihaloğlu Mehmed Bey ile Hacı İvaz Paşa, Mustafa’nın ordugâhındaki Rumeli beylerine haber gönderir, beylerin birçoğu da savaşmadan Murad’ın tarafına geçer. Kendisine Aydın sancakbeyliği vaat edilen Cüneyd, yetmiş kadar adamıyla gece ordugâhtan ayrılır ve memleketine döner. Mustafa ordusunun kalanıyla geri çekilir, Hacı İvaz Paşa’nın adamları da bir köprü başında yaya askerlerinin çoğunu kılıçtan geçirir. Mustafa Gelibolu’ya kaçar ve Boğaz’daki gemi trafiğini durdurmaya çalışır.
+
+Murad, Cenevizlilerin [Yeni Foça](@new-phocaea) podestası Giovanni Adorno’dan yüksek bir bedelle gemiler ve 2.000 zırhlı asker kiralar, tarihçi Dukas da bu sırada Adorno’nun kâtibidir. Murad Gelibolu’ya geçip şehri alır, Mustafa da [Edirne’ye](@edirne-1422) kaçar. Edirneliler Murad’ı karşılamak için şehirden çıkınca Mustafa hazineyi alıp Eflak’a doğru yola çıkar, ancak Tunca vadisinde, Kızılağaç Yenicesi’nde, bugünkü [Elhovo’da](@elhovo-1422) yakalanır. Edirne’ye getirilip kale burcundan asılır, hanedan üyelerine verilmeyen bu ölümü bugünkü tarihçiler Murad’ın Mustafa’yı sahte bir şehzade olarak göstermek istemesine bağlar.
+
+@image gallipoli-port-etching-e38af7

@@ -1,0 +1,19 @@
+lnglat: [20.6, 41.442]
+name: "Siege of Svetigrad"
+date: "14 May – 31 July 1448"
+result: "Ottoman victory, the garrison leaves under safe conduct"
+source: https://en.wikipedia.org/wiki/Siege_of_Svetigrad
+images: [svetigrad-franco-05dd60, janissaries-wyts-1573-950979]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  skanderbeg: { color: "#8a5a00", color_dark: "#d9a441" }
+sides:
+  - name: "Ottoman Empire"
+    color: ottomans
+    commanders: ["Murad II", "Mehmed II"]
+    strength: "About 15,000 by modern estimates"
+    casualties: "About 900 dead, by the graves at Kodžadžik"
+  - name: "League of Lezhë"
+    color: skanderbeg
+    commanders: ["Pjetër Perlati", "Skanderbeg"]
+    casualties: "About 300 dead, by the graves at Kodžadžik"

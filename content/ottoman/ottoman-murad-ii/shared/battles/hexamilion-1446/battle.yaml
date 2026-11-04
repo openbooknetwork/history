@@ -1,0 +1,19 @@
+lnglat: [22.96, 37.915]
+name: "Siege of the Hexamilion"
+date: "27 November – 10 December 1446"
+result: "Ottoman victory, the despots of the Morea pay tribute"
+source: https://en.wikipedia.org/wiki/Siege_of_the_Hexamilion_Wall_(1446)
+images: [constantine-xi-taxiarches-a5a66c, murad-ii-kapidagli-885bbc]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  byzantium: { color: "#6b2d6b", color_dark: "#c27ac2" }
+sides:
+  - name: "Ottoman Empire"
+    color: ottomans
+    commanders: ["Murad II", "Turahan Bey"]
+    strength: "50,000 to 60,000, with guns"
+  - name: "Despotate of the Morea"
+    color: byzantium
+    commanders: ["Constantine Palaiologos", "Thomas Palaiologos"]
+    strength: "Perhaps 20,000"
+    casualties: "Heavy, many killed or captured"

@@ -1,0 +1,7 @@
+Kasım Pasha and Turahan reach Murad at [Sofia](@sofia-1443), and they advise him to burn the town and to wait for the crusaders in the passes beyond it, where his smaller army is at less of a disadvantage. Murad’s Anatolian troops are held back by the danger from Karaman. Of the two passes that lead from Sofia towards [Edirne](@edirne), Murad blocks the old Roman road through [Trajan’s Gate](@trajans-gate) and holds the Zlatitsa pass himself with Kasım and Turahan, its road barred with boulders and felled trees. Beyond the passes the plain of the Maritsa leads by [Plovdiv](@plovdiv-1443) to Edirne.
+
+@image trajans-gate-fortress-37f4fb
+
+On 9 November the crusaders march on from [Niš](@nis-1427) by [Pirot](@pirot-1443), and at the end of November or on 1 December they enter Sofia, which the Ottomans have left. Hunyadi writes to the Saxon towns of Transylvania that the sultan has fled towards the sea and that he will be in Edirne within six or eight days. He takes the harder road to the Zlatitsa pass, in the hope of surprising the Ottomans.
+
+On 12 December 1443 the crusaders attack the pass with guns in snow and bitter cold, and the janissaries and azabs throw them back. Hunyadi is nearly captured, and the army turns back, covered by its wagon forts. Turahan advises Murad not to attack the wagon forts, and the sultan holds back. On 24 December the Ottomans catch up with the crusaders at Melštica in a fight that decides nothing, and Murad returns to Sofia and leaves the pursuit to Kasım and Turahan.

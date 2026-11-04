@@ -1,0 +1,68 @@
+# One story: a timeline shown on one map.
+id: ottoman-murad-ii
+title: "Murad II and the Crusade of Varna"
+summary: "Murad II's thirty years on the Ottoman throne: the pretenders of 1421 and 1422, the conquest of Thessalonica and Serbia, the wars with John Hunyadi and Skanderbeg, the Crusade of Varna in 1444 and the second battle of Kosovo in 1448."
+cover: varna-tadj-1616-6bebdd   # the battle of Varna in the Tâcü’t-Tevârîh, 1616, shown on the main page
+span: "1421 – 1451"
+languages: [en, tr]
+default_language: en
+labels:
+  countries: false
+
+# Map extent for the border data and the opening view: [west, south, east, north]. Reaches Ferrara and Florence in
+# the west for John VIII's council, Kraków in the north for Władysław III, Amasya and Elbistan in the east.
+extent: [9, 34, 40, 51]
+# Countries whose land the zones are clipped to. Natural Earth names.
+land: [Turkey, Greece, Bulgaria, Macedonia, Albania, Serbia, Kosovo, Montenegro, Bosnia and Herz., Croatia, Slovenia, Hungary,
+  Slovakia, Romania, Moldova, Ukraine, Poland, Cyprus, N. Cyprus, Syria, Lebanon, Iraq]
+# Countries drawn with borders. Everything else inside the extent is left out.
+countries: [France, Italy, San Marino, Switzerland, Austria, Germany, Czechia, Slovakia, Poland, Slovenia, Croatia,
+  Bosnia and Herz., Montenegro, Albania, Serbia, Kosovo, Macedonia, Greece, Bulgaria, Romania, Moldova, Ukraine, Belarus,
+  Russia, Hungary, Turkey, Cyprus, N. Cyprus, Syria, Lebanon, Iraq, Tunisia, Malta]
+
+# Zone families. A zone subtracts every zone from a family with a lower priority number.
+# Zones in the same family never cut each other, so one family can hold several dated shapes.
+# One family per state. The colours of story 2 carry over where the state is the same.
+families:
+  ottomans:        { priority: 1, color: "#b5352a", color_dark: "#e8695c" } # Murad II, and Mehmed II in 1444–1446
+  # Düzmece Mustafa's Rumelia, 1421–1422. It lies above the Ottomans, so it covers the European part of the shared
+  # outline of 1421 and the build trims that outline to Murad's Anatolia
+  mustafa:         { priority: 0, color: "#1d6b70", color_dark: "#5fb3b8", pattern: hatch }
+  kucuk-mustafa:   { priority: 2, color: "#7d5ba6", color_dark: "#b89be0" } # Murad's brother, 1422–1423, routes and cards only
+  byzantium:       { priority: 3, color: "#6b2d6b", color_dark: "#c27ac2" } # with Thessalonica to 1423 and the Morea
+  serbia:          { priority: 4, color: "#2f6fb0", color_dark: "#6fa6e0" } # the Despotate, Đurađ Branković from 1427
+  karaman:         { priority: 5, color: "#d4a017", color_dark: "#f2c94c" }
+  germiyan:        { priority: 6, color: "#3ba3b7", color_dark: "#8ad8ea" } # to 1429
+  aydin:           { priority: 7, color: "#185682", color_dark: "#7094ba", pattern: hatch } # Cüneyd, to 1425
+  mentese:         { priority: 8, color: "#c15a7e", color_dark: "#fda5bf" } # to 1426
+  teke:            { priority: 9, color: "#aa7957", color_dark: "#eabda0", pattern: cross } # to 1423
+  candar:          { priority: 10, color: "#8258a9", color_dark: "#c29ce1", pattern: dots } # İsfendiyar at Kastamonu and Sinop
+  dulkadir:        { priority: 11, color: "#b6425b", color_dark: "#f18f9e", pattern: cross } # Elbistan and Maraş
+  mamluks:         { priority: 12, color: "#b67dba", color_dark: "#f5c5f8", pattern: hatch }
+  trebizond:       { priority: 13, color: "#8a7c2b", color_dark: "#cebe7b", pattern: dots }
+  aq-qoyunlu:      { priority: 14, color: "#c9c2b0", color_dark: "#e8e1cf", pattern: cross }
+  kara-koyunlu:    { priority: 15, color: "#3d3d3d", color_dark: "#9a9a9a", pattern: hatch }
+  timurids:        { priority: 16, color: "#17695f", color_dark: "#5cbfae" } # Shah Rukh
+  hungary:         { priority: 17, color: "#3d7a2a", color_dark: "#7cc160" }
+  poland:          { priority: 18, color: "#cc5a71", color_dark: "#f29bab", pattern: hatch } # Władysław III's kingdom
+  bosnia:          { priority: 19, color: "#4ca173", color_dark: "#a0e3bb", pattern: cross }
+  wallachia:       { priority: 20, color: "#5b7a99", color_dark: "#9fbad6", pattern: dots }
+  moldavia:        { priority: 21, color: "#7e5a2c", color_dark: "#bf9a68", pattern: cross }
+  zeta:            { priority: 22, color: "#c27c0e", color_dark: "#f0a830", pattern: cross }
+  skanderbeg:      { priority: 23, color: "#8a5a00", color_dark: "#d9a441" } # Skanderbeg and the League of Lezhë, from 1443
+  albanian-lords:  { priority: 24, color: "#86807a", color_dark: "#b9b3ad" } # lords as one zone
+  epirus:          { priority: 25, color: "#6c4c24", color_dark: "#ab8b69", pattern: hatch } # the Tocco, Arta after 1430
+  achaea:          { priority: 26, color: "#0d681b", color_dark: "#64a560", pattern: hatch } # to 1432
+  athens:          { priority: 27, color: "#d35400", color_dark: "#f08a4b", pattern: hatch } # the Acciaioli
+  venice:          { priority: 28, color: "#4da495", color_dark: "#92dacb", pattern: hatch } # with Thessalonica 1423–1430
+  genoa:           { priority: 29, color: "#0d681b", color_dark: "#64a560", pattern: dots } # Galata, Amasra, Caffa
+  chios:           { priority: 30, color: "#00ab73", color_dark: "#74e1ad", pattern: cross } # the Maona
+  gattilusi:       { priority: 31, color: "#a17b38", color_dark: "#e2bb80" } # Lesbos and Ainos
+  knights:         { priority: 32, color: "#5d6d7e", color_dark: "#95a5b5", pattern: cross } # Rhodes and Bodrum
+  ragusa:          { priority: 33, color: "#b3416c", color_dark: "#ef8eac", pattern: dots }
+  crusaders:       { priority: 34, color: "#2828bd", color_dark: "#5f5fdd" } # the papal, Venetian and Burgundian fleets, Cesarini's men
+  water:           { priority: 35, color: "#5b9bd5", color_dark: "#2c5d87" } # battle plan rivers and lakes, no zones
+# Corner rounding passes applied to every hand drawn zone before the clip.
+smoothing: 4
+# Battle plans are drawn at the scale of the field: the ground at Varna and Kosovo field are a few kilometres across.
+max_zoom: 14

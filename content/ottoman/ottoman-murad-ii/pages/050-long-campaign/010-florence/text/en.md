@@ -1,0 +1,9 @@
+On 1 January 1443 Pope Eugene IV issues a bull that calls a crusade against the Ottomans. His legate in Hungary is Cardinal Julian Cesarini, who on 13 December 1442 at Győr brought King Władysław and the supporters of the infant Ladislaus to an agreement. At the diet of [Buda](@buda) in April 1443 Władysław and his barons decide on a campaign against the Ottomans, and through Cesarini the king makes a truce of twelve months with Frederick III of Germany, the guardian of Ladislaus. John Hunyadi spends about 32,000 gold florins of his own to hire more than 10,000 mercenaries, and troops come from Poland and Moldavia.
+
+@image eugene-iv-cavalieri-cb231e
+
+Emperor John VIII Palaiologos sailed from [Constantinople](@constantinople) in November 1437 with Patriarch Joseph II and about 700 Greeks. He reached [Venice](@venice) in February 1438 and joined the council that Eugene had called to Ferrara, where the sessions with the Greeks began on 9 April 1438. The council moved to [Florence](@florence) in January 1439, and there on 6 July 1439 the union of the Greek and Latin churches was proclaimed in the decree Laetentur Caeli, which Eugene and John signed. Mark of Ephesus was the one Greek bishop who refused to sign, and after the Greeks returned most of the clergy and people of Constantinople rejected the union.
+
+@image union-bull-1439-3a1945
+
+Ibrahim II of Karaman has agreed with the Hungarians to attack the Ottomans at the same time as they do. In the spring of 1443, before the Hungarians are ready, he attacks the Ottoman lands west of his capital [Konya](@konya-1437), around Akşehir and Beyşehir, and Murad and his son Alaeddin Ali drive him back. Alaeddin dies in June 1443, after a fall from his horse by one account. Murad’s eldest son Ahmed died in 1437, and Mehmed, eleven years old, is now his heir.

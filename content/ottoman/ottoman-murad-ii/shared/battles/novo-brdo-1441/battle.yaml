@@ -1,0 +1,14 @@
+lnglat: [21.432, 42.616]
+name: "Siege of Novo Brdo"
+date: "1439 – 27 June 1441"
+result: "Ottoman victory, the town surrenders"
+source: https://en.wikipedia.org/wiki/Novo_Brdo_Fortress
+images: [novo-brdo-fortress-2019-7ed754, novo-brdo-mining-code-0bf6e1]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  serbia: { color: "#2f6fb0", color_dark: "#6fa6e0" }
+sides:
+  - name: "Ottoman Empire"
+    color: ottomans
+  - name: "Serbian Despotate, the town of Novo Brdo"
+    color: serbia

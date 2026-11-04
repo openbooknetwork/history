@@ -1,0 +1,9 @@
+Venedik 1423’ten beri Osmanlı kuşatması altındaki Selanik’i elinde tutmaktadır, donanmaları da Osmanlı kıyılarına akınlar yapmıştır. Temmuz 1425’te Fantino Michiel’in kadırgaları İerissos’u yakmış ve Osmanlıların kısa sürede geri aldığı [Hristopolis’i](@christopolis-1425) basmış, Michiel de Kassandra yarımadasını korumak için [Kassandreia’yı](@kassandreia-1425) tahkim etmiştir. 1428 baharının başında 40 ile 65 gemilik bir Osmanlı donanması [Eğriboz](@negroponte) adasına akın eder, 700 kadar Venedik uyruğunu esir alır ve Moton ile Koron çevresini yağmalar. Murad Selanik için önerilen vergileri hep geri çevirir, Venedik de 29 Mart 1429’da ona savaş ilan eder, 1 Temmuz’da da Andrea Mocenigo’nun [Gelibolu’daki](@gallipoli) Osmanlı gemilerine saldırısı başarısız olur.
+
+Açlık ve göç şehrin nüfusunu 20.000’in üzerinden 10.000 ile 13.000 arasına düşürmüştür, halkın birçoğu da teslim olmak ister. Şubat 1430’da Hamza Bey Anadolu askerlerini Rumeli’ye geçirir, Murad da 26 Mart’ta surların önüne gelir. 29 Mart sabahı ordusu Rumeli beylerbeyi Sinan Paşa’nın komutasında saldırır, saldırının ağırlığı sultanın bizzat yönettiği doğu surlarındadır. Osmanlı okçuları savunucuları siperlerden baş kaldıramaz hâle getirir, dördüncü saatte de saldıranlar surlara birkaç yerden tırmanır.
+
+@image thessaloniki-walls-nyca-d694f3
+
+Venedikliler limandaki Antonio Diedo’nun kadırgalarına kaçar ve Eğriboz’a gider. Şehir üç gün yağmalanır, olayların tanığı İoannis Anagnostis’e göre 7.000 kişi esir alınır, bunların birçoğunu sonradan Đurađ Branković fidyeyle kurtarır. Dördüncü gün Murad şehre girer, şehrin ilk camisine dönüştürülen Ahiropiitos Kilisesi’nde namaz kılar ve evleri sahiplerine geri verir. Temmuz 1430’da Hamza Bey Venedik’le barış yapar, Venedik Selanik’ten vazgeçer ve Arnavutluk’taki Dıraç’ı, İşkodra’yı ve Bar’ı elinde tutar.
+
+@image acheiropoietos-interior-b59947

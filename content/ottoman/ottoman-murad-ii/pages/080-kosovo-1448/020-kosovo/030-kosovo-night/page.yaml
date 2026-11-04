@@ -1,0 +1,45 @@
+date: "18–19 October 1448"
+when: { from: 1448-10-18, to: 1448-10-19 }
+title: "The night attack and the left wing"
+routes: []
+sources:
+  - "Laonikos Chalkokondyles, Histories (c. 1464)."
+  - "Aşıkpaşazade, Tevârîh-i Âl-i Osmân (late 15th century)."
+  - "Johannes de Thurocz, Chronica Hungarorum (1488)."
+  - "Antonio Bonfini, Rerum Ungaricarum decades (about 1497)."
+  - "Tamás Pálosfalvi, From Nicopolis to Mohács: A History of Ottoman-Hungarian Warfare, 1389–1526 (2018)."
+  - "Emanuel Constantin Antoche, “Hunyadi’s Campaign of 1448 and the Second Battle of Kosovo Polje (October 17–20)”, in Norman Housley (ed.), Reconfiguring the Fifteenth-Century Crusade (2017), 245–284."
+bbox: [21.0502, 42.706, 21.1327, 42.7645]
+zones: []
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[21.115, 42.53], [21.095, 42.565], [21.082, 42.6], [21.072, 42.625], [21.066, 42.65], [21.06, 42.672], [21.052, 42.692], [21.045, 42.712], [21.04, 42.732], [21.03, 42.752], [21.016, 42.772], [21, 42.79], [20.985, 42.808], [20.965, 42.825], [20.94, 42.848], [20.91, 42.868], [20.885, 42.885]], width: 60, id: sitnica, name: The river Sitnica}
+    - {path: [[21.19, 42.93], [21.19, 42.9], [21.185, 42.87], [21.175, 42.845], [21.16, 42.82], [21.14, 42.792], [21.118, 42.768], [21.095, 42.752], [21.072, 42.742], [21.055, 42.737], [21.041, 42.731]], width: 48, id: lab, name: 'The river Lab, which flows into the Sitnica near Plemetina'}
+  works:
+    - {side: ottomans, path: [[21.08182, 42.72463], [21.09877, 42.73187]], width: 40, style: trench, id: ditch, name: The ditch in front of the Ottoman centre}
+    - {side: ottomans, path: [[21.08219, 42.72416], [21.09913, 42.7314]], width: 30, id: stockade, name: The Ottoman stockade behind the ditch}
+  units:
+    - {side: ottomans, type: infantry, at: [21.09207, 42.72598], width: 1500, depth: 200, facing: 330, id: janissaries, name: 'The janissaries and the azaps in the centre. Turkish accounts put shield bearers and spearmen round the ditch, with camels and guns along it'}
+    - {side: ottomans, type: artillery, at: [21.09109, 42.72723], width: 900, depth: 60, facing: 330, id: ott-guns, name: Ottoman guns along the ditch, count: 6}
+    - {side: ottomans, type: cavalry, at: [21.09482, 42.72246], width: 600, depth: 160, facing: 330, id: murad, name: Murad with the horsemen of his household behind the centre}
+    - {side: ottomans, type: camp, at: [21.10258, 42.71794], width: 900, depth: 500, facing: 330, id: ott-camp, name: The Ottoman camp}
+    - {side: ottomans, type: cavalry, at: [21.11515, 42.73531], width: 1500, depth: 320, facing: 330, id: anatolians, name: 'The Anatolian troops on the right wing under Murad’s son Mehmed, sixteen, in his first battle'}
+    - {side: ottomans, type: cavalry, at: [21.06566, 42.72724], width: 1400, depth: 320, facing: 330, id: rumelians, name: The Rumelian sipahis attack along the line to hold Hunyadi’s attention. The accounts give the order of the wings but not their ground}
+    - {side: ottomans, type: cavalry, at: [21.10813, 42.75425], width: 1000, depth: 300, facing: 237, id: thessalians, name: 'The sipahis of Thessaly, who ride round the crusader left on 19 October and cut down its horse, taking no prisoners'}
+    - {side: hungary, type: cavalry, at: [21.06374, 42.7306], width: 1100, depth: 260, facing: 150, id: right, name: The crusader right wing holds against the Rumelian sipahis}
+    - {side: hungary, type: wagons, at: [21.08658, 42.72938], width: 900, depth: 80, facing: 150, id: night-wagons, name: 'Wagons with guns, brought up against the Ottoman centre on the night of 18 to 19 October', count: 12}
+    - {side: hungary, type: knights, at: [21.07983, 42.74165], width: 1200, depth: 220, facing: 150, id: knights, name: 'Hunyadi with the heavy horse in the centre, before the wagon fort'}
+    - {side: wallachia, type: cavalry, at: [21.08957, 42.74999], width: 500, depth: 200, facing: 150, id: left, name: What is left of the crusader left falls back on Hunyadi’s main body}
+    - {side: hungary, type: wagon-fort, at: [21.07781, 42.74967], width: 900, depth: 500, facing: 150, id: wagon-fort, name: 'The wagon fort on the hill north of the Lab, with the guns and the German and Bohemian foot. The sources give 800 to 2,000 war wagons, each with a gun', count: 40}
+  arrows:
+    - {side: hungary, path: [[21.08689, 42.72899], [21.08858, 42.72773], [21.09033, 42.72639]], width: 90, id: night-guns, name: The crusader guns fire on the sultan’s position through the night, style: fire}
+    - {side: ottomans, path: [[21.12175, 42.735], [21.12609, 42.74573], [21.12217, 42.75346], [21.11202, 42.7556]], width: 140, id: thessalians-round, name: The Thessalian sipahis ride round the crusader left}
+    - {side: wallachia, path: [[21.09807, 42.74996], [21.09367, 42.75017], [21.09124, 42.74965]], width: 120, id: left-flees, name: The survivors of the crusader left flee to the main body, style: dashed}
+    - {side: hungary, path: [[21.08393, 42.74183], [21.08966, 42.7354], [21.096, 42.72818], [21.10169, 42.7209]], width: 160, id: knights-charge, name: Hunyadi’s knights and light foot break through the janissaries and ride as far as the Ottoman camp}
+    - {side: hungary, path: [[21.1049, 42.72311], [21.10024, 42.72999], [21.09328, 42.73799], [21.08664, 42.74288]], width: 140, id: knights-back, name: The Ottoman foot rallies and drives the knights back, style: dashed}
+  clashes:
+    - {at: [21.10196, 42.72054], size: 220}
+    - {at: [21.10467, 42.75236], size: 220}
+    - {at: [21.06497, 42.72903], size: 200}
+markers: [kosovo-night-hunyadi, kosovo-night-thessalians, kosovo-night-wagons, kosovo-night-murad, kosovo-night-camp]

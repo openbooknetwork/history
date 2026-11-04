@@ -1,0 +1,7 @@
+Ekim 1443’te Kral Vladislav ile Hunyadi Yanoş 25.000 ile 27.000 arası asker ve 600 kadar savaş arabasıyla Tuna’yı geçer, Đurađ Branković de 8.000 kişiyle onlara katılır. Ordunun komutanı kâğıt üzerinde kraldır, ama seferi asıl Hunyadi yönetir. Ordu Morava vadisinden yukarı yürür, Hunyadi 12.000 atlıyla öne geçer, kral ile Đurađ da arabalarla arkadan gelir. Hunyadi Kruşevac’ı alır, adamları da Niş’i ele geçirip yağmalar ve yakar.
+
+Üç Osmanlı kuvveti Niş üzerine ayrı ayrı yürür, Hunyadi de birleşmelerine fırsat vermeden her birini yener. Son muharebe 2 ya da 3 Kasım 1443’te Bolvan ile Niş arasındaki ovada, Rumeli beylerbeyi Kasım Paşa, Turahan Bey ve İshak Bey’in birleşik kuvvetlerine karşı yapılır. Osmanlı tarihçileri yenilgiyi komutanlar arasındaki iş birliği eksikliğiyle açıklar. Kasım Paşa ile Turahan Bey Murad’ı uyarmak için [Sofya’ya](@sofia-1443) çekilir, yol boyunca da köyleri yakar.
+
+Gjergj Kastrioti, yani İskender Bey, Arnavut beyi Gjon Kastrioti’nin oğullarındandır ve gençliğinde rehine olarak Osmanlı sarayına gönderilmiştir. Murad’ın hizmetinde Debre sancakbeyliğine yükselmiştir, Niş’teki çarpışmalar sırasında yeğeni Hamza ve 300 Arnavut atlıyla Osmanlı ordusundan ayrılır. 28 Kasım 1443’te [Akçahisar’a](@kruje-1433) varır ve Murad’ın ağzından yazılmış, valiye kaleyi kendisine teslim etmesini emreden sahte bir mektupla aynı gün kentin efendisi olur. Bazı eski anlatımlar onun ordudan ayrılışını Ocak 1444’teki Kunoviçe Muharebesi’ne koyar.
+
+@image skanderbeg-kruje-lonicer-a7205e

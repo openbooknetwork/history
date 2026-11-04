@@ -213,9 +213,9 @@ const T = {
   uluborlu: [30.45, 38.08, 'hamid 1390.6 ott 1402.6 karaman 1414.4 ott'], egirdir: [30.87, 37.875, 'hamid 1390.6 ott 1402.6 karaman 1414.4 ott'],
   isparta: [30.55, 37.76, 'hamid 1390.6 ott 1402.6 karaman 1414.4 ott'], burdur: [30.29, 37.72, 'hamid 1390.6 ott 1402.6 karaman 1414.4 ott'],
   beysehir: [31.72, 37.68, 'karaman 1390.6 ott 1402.6 karaman 1414.4 ott'], seydisehir: [31.85, 37.42, 'karaman 1390.6 ott 1402.6 karaman 1414.4 ott'],
-  antalya: [30.7, 36.89, 'teke 1390.6 ott 1402.6 teke 1420.6 ott'], korkuteli: [30.2, 37.07, 'teke 1390.6 ott 1402.6 teke 1420.6 ott'],
-  elmali: [29.92, 36.74, 'teke 1390.6 ott 1402.6 teke 1420.6 ott'], kas: [29.64, 36.2, 'teke 1390.6 ott 1402.6 teke 1420.6 ott'],
-  manavgat: [31.43, 36.79, 'teke 1390.6 ott 1402.6 teke 1420.6 ott'],
+  antalya: [30.7, 36.89, 'teke 1390.6 ott 1402.6 teke 1420.6 ott'], korkuteli: [30.2, 37.07, 'teke 1390.6 ott 1402.6 teke'],
+  elmali: [29.92, 36.74, 'teke 1390.6 ott 1402.6 teke'], kas: [29.64, 36.2, 'teke 1390.6 ott 1402.6 teke'],
+  manavgat: [31.43, 36.79, 'teke 1390.6 ott 1402.6 teke'],
   // the islands off Asia
   tenedos: [26.03, 39.81, '-'], lesbos: [26.22, 39.22, 'lesbos'], molyvos: [26.25, 39.33, 'lesbos'], mytilene: [26.48, 39.12, 'lesbos'],
   chios: [26.03, 38.4, 'chios'], psara: [25.57, 38.56, 'chios'], samos: [26.8, 37.72, 'chios'], samoseast: [27.025, 37.738, 'chios'], ikaria: [26.15, 37.6, 'chios'],
@@ -1054,7 +1054,9 @@ const dir = path.join(story, 'shared', 'zones');
 fs.mkdirSync(dir, { recursive: true });
 for (const f of fs.readdirSync(dir)) if (f.endsWith('.geojson')) fs.rmSync(path.join(dir, f));
 const sharedIds = SHARED.map(s => s.id);
-for (const id of drawn) if (!sharedIds.includes(id)) fs.writeFileSync(path.join(dir, id + '.geojson'), JSON.stringify(feature(id, { family: Z[id].family, name: Z[id].name.en })) + '\n');
+// zones another story shares now live in content/shared/zones/ under the same id, with their names there
+const moved = new Set(fs.readdirSync(path.join(content, 'shared', 'zones')).filter(d => !sharedIds.includes(d)));
+for (const id of drawn) if (!sharedIds.includes(id) && !moved.has(id)) fs.writeFileSync(path.join(dir, id + '.geojson'), JSON.stringify(feature(id, { family: Z[id].family, name: Z[id].name.en })) + '\n');
 for (const s of SHARED) {
   const json = JSON.stringify(feature(s.id, { family: 'ottomans', name: s.en })) + '\n';
   const cache = path.join(repo, '.cache', 'ottoman-bayezid-i-mehmed-i-shared');
@@ -1078,6 +1080,6 @@ for (const [p, ids] of Object.entries(PAGES)) {
   fs.writeFileSync(file, /^zones:.*$/m.test(text) ? text.replace(/^zones:.*$/m, line) : text.replace(/^(bbox:.*)$/m, `$1\n${line}`));
 }
 fs.mkdirSync(path.join(story, '.i18n-parts'), { recursive: true });
-fs.writeFileSync(path.join(story, '.i18n-parts', 'zones.tr.yaml'), used.filter(id => !sharedIds.includes(id))
+fs.writeFileSync(path.join(story, '.i18n-parts', 'zones.tr.yaml'), used.filter(id => !sharedIds.includes(id) && !moved.has(id))
   .map(id => `zones.${id}.name: ${JSON.stringify(zoneOf(id).name.tr)}`).join('\n') + '\n');
 console.log(`${used.length} zones on ${Object.values(PAGES).filter(l => l.length).length} pages, the longest legend ${Math.max(...Object.values(PAGES).map(l => l.length))}`);

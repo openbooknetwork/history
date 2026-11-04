@@ -1,0 +1,20 @@
+date: "9–10 November 1444"
+when: { from: 1444-11-09, to: 1444-11-10 }
+title: "The armies at Varna"
+battle: varna-1444
+sources:
+  - "Laonikos Chalkokondyles, Histories (c. 1464)."
+  - "Jan Długosz, Annales seu Cronicae incliti Regni Poloniae (late 15th century)."
+  - "Oskar Halecki, The Crusade of Varna: A Discussion of Controversial Problems (1943)."
+  - "Halil İnalcık, Fatih Devri Üzerinde Tetkikler ve Vesikalar I (1954)."
+  - "Kenneth M. Setton, The Papacy and the Levant (1204–1571), vol. 2 (1978)."
+  - "Colin Imber, The Crusade of Varna, 1443–45 (2006)."
+bbox: [27.74, 43.17, 27.97, 43.29]
+zones: [ottomans-1444-varna]
+emblem:
+  kind: battle-plan
+  water:
+    - {area: [[27.7, 43.197], [27.72, 43.1955], [27.74, 43.1965], [27.75, 43.194], [27.76, 43.1905], [27.77, 43.1955], [27.78, 43.199], [27.79, 43.2025], [27.795, 43.205], [27.8, 43.1995], [27.81, 43.199], [27.82, 43.196], [27.83, 43.195], [27.84, 43.2015], [27.85, 43.207], [27.86, 43.2095], [27.87, 43.2085], [27.88, 43.2085], [27.89, 43.204], [27.9, 43.1985], [27.906, 43.193], [27.905, 43.187], [27.895, 43.1875], [27.885, 43.1905], [27.875, 43.195], [27.865, 43.1925], [27.86, 43.1895], [27.85, 43.188], [27.84, 43.185], [27.83, 43.1855], [27.82, 43.183], [27.81, 43.1815], [27.8, 43.1855], [27.79, 43.185], [27.78, 43.1845], [27.77, 43.186], [27.76, 43.1885], [27.75, 43.19], [27.74, 43.1915], [27.72, 43.1925], [27.7, 43.1945]], id: lake, name: Lake Varna}
+    - {path: [[27.904, 43.19], [27.911, 43.1888], [27.918, 43.188]], width: 200, id: outflow, name: 'The outflow of the lake into Varna Bay, with marshes along it'}
+markers: [varna-camp, varna-ottoman-camp, varna-franga, varna-1444]
+routes: [murad-approach-1444]

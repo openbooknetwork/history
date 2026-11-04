@@ -1,0 +1,19 @@
+lnglat: [24.152, 45.793]
+name: "Battle of Hermannstadt"
+date: "18 and 22 March 1442"
+result: "Ottoman victory at Sântimbru on 18 March, Hungarian victory on 22 March"
+source: https://en.wikipedia.org/wiki/Battle_of_Hermannstadt
+images: [thuroczy-hermannstadt-7b2a9f, akinci-beys-suleymanname-972480]
+families:
+  hungary: { color: "#3d7a2a", color_dark: "#7cc160" }
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+sides:
+  - name: "Kingdom of Hungary"
+    color: hungary
+    commanders: ["John Hunyadi", "György Lépes"]
+    casualties: "3,000, György Lépes killed"
+  - name: "Ottoman Empire"
+    color: ottomans
+    commanders: ["Mezid Bey"]
+    strength: "16,000"
+    casualties: "15,000 or 20,000, Mezid Bey killed"

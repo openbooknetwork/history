@@ -1,0 +1,19 @@
+lnglat: [20.45, 44.823]
+name: "Siege of Belgrade"
+date: "End of April – October 1440"
+result: "Hungarian and Serbian victory, Murad lifts the siege"
+source: https://en.wikipedia.org/wiki/Siege_of_Belgrade_(1440)
+images: [belgrade-fortress-gate-c5b4a4, wladyslaw-prayer-book-72ac57]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  hungary: { color: "#3d7a2a", color_dark: "#7cc160" }
+sides:
+  - name: "Ottoman Empire"
+    color: ottomans
+    commanders: ["Murad II", "Ali Bey Evrenosoğlu"]
+    strength: "35,000 men and 100 ships"
+    casualties: "17,000 by early Christian accounts"
+  - name: "Kingdom of Hungary, with Serbian troops"
+    color: hungary
+    commanders: ["Ivan Talovac"]
+    strength: "3,000 to 5,000"

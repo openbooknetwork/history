@@ -1,0 +1,47 @@
+# tr strings for the battle "kosovo-1448".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman state
+battle.sides.0.name: "Osmanlı Devleti"
+
+# 40,000 to 60,000
+battle.sides.0.strength: "40.000 ile 60.000 arası"
+
+# 4,000 killed by Chalkokondyles, 34,000 by Babinger
+battle.sides.0.casualties: "Halkokondilis’e göre 4.000, Babinger’e göre 34.000 ölü"
+
+# Crusade: Hungary, Croatia, Wallachia, Moldavia and German and Bohemian mercenaries
+battle.sides.1.name: "Haçlı ordusu: Macaristan, Hırvatistan, Eflak, Boğdan ve Alman ve Bohemyalı paralı askerler"
+
+# 22,000 to 30,000, with about 8,000 Wallachians
+battle.sides.1.strength: "22.000 ile 30.000 arası, 8.000 kadar Eflaklıyla birlikte"
+
+# 17,000 killed or captured by Chalkokondyles, 8,000 killed by Bonfini, Franko Talovac among them
+battle.sides.1.casualties: "Halkokondilis’e göre 17.000 ölü ya da esir, Bonfini’ye göre 8.000 ölü, aralarında Franko Talovac"
+
+# Second Battle of Kosovo
+battle.name: "II. Kosova Muharebesi"
+
+# 17–20 October 1448
+battle.date: "17–20 Ekim 1448"
+
+# Ottoman victory, Hunyadi flees
+battle.result: "Osmanlı zaferi, Hunyadi kaçar"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Murad II
+battle.sides.0.commanders.0: "II. Murad"
+
+# Mehmed II
+battle.sides.0.commanders.1: "II. Mehmed"
+
+# John Hunyadi
+battle.sides.1.commanders.0: "Hunyadi Yanoş"
+
+# Michael Szilágyi
+battle.sides.1.commanders.1: "Mihály Szilágyi"
+
+# Vladislav II
+battle.sides.1.commanders.3: "II. Vladislav"

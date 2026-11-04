@@ -1,0 +1,7 @@
+Hunyadi Ekim 1441’de Braşov kentlilerine II. Vlad için para bastırır, iki üç hafta sonra da [Tırgovişte’de](@targoviste) Vlad’la buluşup ondan Osmanlılara karşı bir savaşa katılmasını ister. Murad, Mart 1442’de Erdel’e akın yapılacağını duyurur. Mart başında [Niğbolu](@nikopol-1442) uç beyi Mezid Bey 16.000 kadar akıncıyla Tuna’yı orada geçer ve Eflak üzerinden kuzeye, Erdel’e yürür.
+
+18 Mart 1442’de Erdel Piskoposu György Lépes’in askerleri [Sântimbru](@santimbru-1442) yakınlarında Mezid Bey’le karşılaşır, sayıca üstün Osmanlılar kazanır ve piskoposu öldürür. Erdel’e henüz varmış olan Hunyadi geri çekilir, Mezid Bey de Hunyadi ile Iloklu Nikola onu kuşatmayı kaldırmaya zorlayana kadar Sibiu’yu (Hermannstadt) kuşatma altında tutar. 22 Mart’ta Hunyadi Mezid Bey’in ordusunu yok eder, Mezid Bey ile oğlu da öldürülür. Tamás Pálosfalvi’nin de aralarında bulunduğu günümüz tarihçileri bu muharebeyi Hunyad bölgesindeki [Demirkapı Geçidi’nde](@iron-gate-pass-1442), eski tarihler ise Sibiu yakınlarında gösterir.
+
+@image sibiu-fortifications-2a1c79
+
+Hunyadi Osmanlıları Kızılkule Geçidi’nden Eflak’a kadar izler ve Vlad’ı yeniden Macaristan’a bağlar. Neşri’nin anlattığına göre bunun üzerine Bulgaristan’daki Osmanlı valisi Vlad’ı ihanetle suçlar, Murad da onu [Edirne’ye](@edirne) çağırır. Vlad büyük oğlu Mircea’yı Eflak’ı yönetmeye bırakır, Edirne’ye varmasından kısa süre sonra da sultanın emriyle tutuklanır ve Gelibolu’da tutulur.

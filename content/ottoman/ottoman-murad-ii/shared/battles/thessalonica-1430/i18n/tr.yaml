@@ -1,0 +1,29 @@
+# tr strings for the battle "thessalonica-1430".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman Empire
+battle.sides.0.name: "Osmanlı Devleti"
+
+# Republic of Venice, with the Byzantine Empire until September 1423
+battle.sides.1.name: "Eylül 1423’e kadar Bizans İmparatorluğu ile birlikte Venedik Cumhuriyeti"
+
+# Over 270 galley crewmen killed, and 7,000 inhabitants taken captive by John Anagnostes
+battle.sides.1.casualties: "270’ten fazla kadırga tayfası öldürülür, İoannis Anagnostis’e göre 7.000 kişi esir alınır"
+
+# Siege of Thessalonica
+battle.name: "Selanik Kuşatması"
+
+# June 1422 – 29 March 1430
+battle.date: "Haziran 1422 – 29 Mart 1430"
+
+# Ottoman victory, and the city is stormed and sacked on 29 March 1430
+battle.result: "Osmanlı zaferi, şehir 29 Mart 1430’da kılıç zoruyla alınır ve yağmalanır"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Murad II
+battle.sides.0.commanders.0: "II. Murad"
+
+# Sinan Pasha
+battle.sides.0.commanders.1: "Sinan Paşa"

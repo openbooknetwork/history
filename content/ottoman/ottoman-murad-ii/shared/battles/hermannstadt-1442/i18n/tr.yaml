@@ -1,0 +1,32 @@
+# tr strings for the battle "hermannstadt-1442".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Kingdom of Hungary
+battle.sides.0.name: "Macaristan Krallığı"
+
+# 3,000, György Lépes killed
+battle.sides.0.casualties: "3.000, György Lépes öldürülür"
+
+# Ottoman Empire
+battle.sides.1.name: "Osmanlı Devleti"
+
+# 16,000
+battle.sides.1.strength: "16.000"
+
+# 15,000 or 20,000, Mezid Bey killed
+battle.sides.1.casualties: "15.000 ya da 20.000, Mezid Bey öldürülür"
+
+# Battle of Hermannstadt
+battle.name: "Hermannstadt Muharebesi"
+
+# 18 and 22 March 1442
+battle.date: "18 ve 22 Mart 1442"
+
+# Ottoman victory at Sântimbru on 18 March, Hungarian victory on 22 March
+battle.result: "18 Mart’ta Sântimbru’da Osmanlı zaferi, 22 Mart’ta Macar zaferi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# John Hunyadi
+battle.sides.0.commanders.0: "Hunyadi Yanoş"

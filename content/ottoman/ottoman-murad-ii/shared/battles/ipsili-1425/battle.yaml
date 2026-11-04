@@ -1,0 +1,17 @@
+lnglat: [27.22, 37.72]
+name: "Siege of İpsili"
+date: "1425"
+result: "Cüneyd surrenders and is killed, and Aydın is annexed"
+source: https://tr.wikipedia.org/wiki/%C4%B0zmiro%C4%9Flu_C%C3%BCneyd_Bey
+images: [cuneyd-akce-c11290, ayasuluk-castle-b92fea]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  aydin: { color: "#185682", color_dark: "#7094ba" }
+sides:
+  - name: "Ottoman army of Anatolia, with Genoese ships"
+    color: ottomans
+    commanders: ["Hamza Bey"]
+  - name: "Forces of Cüneyd"
+    color: aydin
+    commanders: ["İzmiroğlu Cüneyd Bey"]
+    casualties: "Cüneyd and his son Bayezid killed"

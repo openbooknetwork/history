@@ -1,0 +1,9 @@
+Đurađ Branković rules Serbia from his new capital at [Smederevo](@smederevo) as a vassal of both Murad and the King of Hungary. In the summer of 1431 Alexander Aldea, a son of Mircea I, takes the throne of Wallachia with Moldavian help, and Dan II is killed in battle on 1 June 1431, or in 1432 by another account. Alexander does homage to Murad at [Edirne](@edirne) in 1432. His half-brother Vlad Dracul, whom King Sigismund made a knight of the Order of the Dragon at Nuremberg on 8 February 1431 and recognised as voivode of Wallachia, waits in Transylvania.
+
+@image smederevo-despot-inscription-dd3efa
+
+In 1432 Đurađ, the Bosnian lord Sandalj Hranić and the Ottomans back Radivoj, a son of the late King Ostoja, against King Tvrtko II of Bosnia, and Radivoj takes control of much of the country. Tvrtko, who has paid tribute to the sultan since the Ottoman attacks of the 1420s, keeps only central and north-western Bosnia and withdraws to Visoko. In the spring of 1433 Đurađ annexes part of Usora with [Zvornik](@zvornik-1433) and Teočak. Hungarian troops recover [Jajce](@jajce-1434) and three other castles for Tvrtko in mid-1434, but he loses them again when the troops withdraw, and in 1435 Radivoj loses the Ottomans’ support.
+
+Murad asks for Đurađ’s daughter Mara in 1433, and Đurađ delays the marriage until the Ottomans threaten to invade. Mara is married to Murad at Edirne on 4 September 1435, her dowry includes the districts of Dubočica and Toplica, and Murad swears to keep the peace with Serbia. When Alexander Aldea dies in the autumn of 1436, Vlad takes Wallachia with Hungarian support and rules from [Târgoviște](@targoviste). He does not confirm Alexander’s treaty with the Ottomans, and an Ottoman force raids Wallachia in November 1436.
+
+@image mara-brankovic-esphigmenou-b58d1b

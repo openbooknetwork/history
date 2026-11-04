@@ -1,0 +1,23 @@
+lnglat: [27.875, 43.224]
+name: "Battle of Varna"
+date: "10 November 1444"
+result: "Ottoman victory, Władysław III killed"
+source: https://en.wikipedia.org/wiki/Battle_of_Varna
+images: [varna-tadj-1616-6bebdd, varna-bielski-1564-98be05]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  hungary: { color: "#3d7a2a", color_dark: "#7cc160" }
+  poland: { color: "#cc5a71", color_dark: "#f29bab" }
+  wallachia: { color: "#5b7a99", color_dark: "#9fbad6" }
+  crusaders: { color: "#2828bd", color_dark: "#5f5fdd" }
+sides:
+  - name: "Ottoman state"
+    color: ottomans
+    commanders: ["Murad II", "Karaca Bey", "Şehabeddin Pasha"]
+    strength: "50,000 to 60,000, or 37,000 to 40,000 by İnalcık"
+    casualties: "7,000 to 8,000 killed by Emecen, Karaca Bey among them"
+  - name: "Crusade: Hungary, Poland, Croatia, Wallachia, papal troops and mercenaries"
+    color: hungary
+    commanders: ["Władysław III", "John Hunyadi", "Julian Cesarini", "Michael Szilágyi", "Mircea II"]
+    strength: "About 16,000, with 4,000 Wallachians"
+    casualties: "About half the army, with the king, Cesarini and the bishops of Várad and Eger"

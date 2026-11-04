@@ -1,0 +1,35 @@
+# tr strings for the battle "belgrade-1440".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman Empire
+battle.sides.0.name: "Osmanlı Devleti"
+
+# 35,000 men and 100 ships
+battle.sides.0.strength: "35.000 asker ve 100 gemi"
+
+# 17,000 by early Christian accounts
+battle.sides.0.casualties: "İlk Hristiyan kayıtlarına göre 17.000"
+
+# Kingdom of Hungary, with Serbian troops
+battle.sides.1.name: "Sırp askerleriyle birlikte Macaristan Krallığı"
+
+# 3,000 to 5,000
+battle.sides.1.strength: "3.000 ile 5.000"
+
+# Siege of Belgrade
+battle.name: "Belgrad Kuşatması"
+
+# End of April – October 1440
+battle.date: "Nisan sonu – Ekim 1440"
+
+# Hungarian and Serbian victory, Murad lifts the siege
+battle.result: "Macar ve Sırp zaferi, Murad kuşatmayı kaldırır"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Murad II
+battle.sides.0.commanders.0: "II. Murad"
+
+# Ali Bey Evrenosoğlu
+battle.sides.0.commanders.1: "Evrenosoğlu Ali Bey"

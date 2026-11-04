@@ -1,0 +1,7 @@
+The crusaders march back by [Sofia](@sofia-1443), across the Iskar and along the Nišava, and Kasım Pasha and Turahan follow them. On 2 or 5 January 1444, on a night of full moon, the Ottomans attack the rearguard, Đurađ Branković’s Serbs, in the Kunovica pass between Pirot and [Niš](@nis-1427). Władysław and Hunyadi, who are already through the pass, leave their baggage under the guard of the foot soldiers, turn back and beat the Ottomans by the river on the eastern side of the mountain. Some accounts describe the battle as an ambush that the crusaders set.
+
+@image pirot-fortress-f278ec
+
+Many Ottoman commanders are captured, among them Mahmud Bey, a brother of the grand vizier Çandarlı Halil Pasha. Ottoman chroniclers blame the rivalry between Kasım and Turahan for the defeat, and some say that Đurađ bribed Turahan to stay out of the fight. Murad holds Turahan responsible for the losses and for Mahmud’s capture and has him imprisoned at Tokat.
+
+Four days after the battle the army reaches [Prokuplje](@prokuplje-1444). Đurađ proposes to spend the winter in the fortified towns of Serbia and to go on with the campaign in the spring, but Władysław and Hunyadi refuse and march home. They reach [Belgrade](@belgrade-1427) by the end of January 1444 and Buda in February, where they are welcomed as victors. The king and Cesarini spread word of the victories and contradict anyone who speaks of the losses in the mountains.

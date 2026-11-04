@@ -1,0 +1,41 @@
+# tr strings for the battle "nis-1443".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Kingdom of Hungary, with Polish and Serbian troops
+battle.sides.0.name: "Macaristan Krallığı, Polonyalı ve Sırp birliklerle"
+
+# 12,000 horsemen
+battle.sides.0.strength: "12.000 atlı"
+
+# 500
+battle.sides.0.casualties: "500"
+
+# Ottoman Empire
+battle.sides.1.name: "Osmanlı Devleti"
+
+# 12,000 sipahis under Kasım Pasha and the troops of the frontier
+battle.sides.1.strength: "Kasım Paşa komutasında 12.000 sipahi ve uç kuvvetleri"
+
+# 2,000 killed and 4,000 captured, Skanderbeg and 300 Albanians desert
+battle.sides.1.casualties: "2.000 ölü ve 4.000 esir, İskender Bey ve 300 Arnavut ordudan ayrılır"
+
+# Battle of Niš
+battle.name: "Niş Muharebesi"
+
+# 2 or 3 November 1443
+battle.date: "2 ya da 3 Kasım 1443"
+
+# Hungarian victory, Kasım Pasha and Turahan fall back to Sofia
+battle.result: "Macar zaferi, Kasım Paşa ile Turahan Bey Sofya’ya çekilir"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# John Hunyadi
+battle.sides.0.commanders.0: "Hunyadi Yanoş"
+
+# Kasım Pasha
+battle.sides.1.commanders.0: "Kasım Paşa"
+
+# Ishak Bey
+battle.sides.1.commanders.2: "İshak Bey"

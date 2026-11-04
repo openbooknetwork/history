@@ -1,0 +1,15 @@
+lnglat: [23.57, 45.96]
+name: "Capture of Sebeș"
+date: "Summer 1438"
+result: "The town surrenders, and its people are led away as captives"
+source: https://en.wikipedia.org/wiki/Vlad_II_Dracul
+images: [vlad-dracul-sighisoara-205f4b, albert-ii-klosterneuburg-0f1a5a]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  hungary: { color: "#3d7a2a", color_dark: "#7cc160" }
+sides:
+  - name: "Ottoman Empire, with Wallachian troops"
+    color: ottomans
+    commanders: ["Murad II", "Vlad II Dracul"]
+  - name: "Kingdom of Hungary, the Saxon town of Sebeș"
+    color: hungary

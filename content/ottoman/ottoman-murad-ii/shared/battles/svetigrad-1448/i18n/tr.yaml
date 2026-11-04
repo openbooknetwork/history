@@ -1,0 +1,38 @@
+# tr strings for the battle "svetigrad-1448".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman Empire
+battle.sides.0.name: "Osmanlı Devleti"
+
+# About 15,000 by modern estimates
+battle.sides.0.strength: "Günümüz tahminlerine göre 15.000 kadar"
+
+# About 900 dead, by the graves at Kodžadžik
+battle.sides.0.casualties: "Kocacık’taki mezarlara göre 900 kadar ölü"
+
+# League of Lezhë
+battle.sides.1.name: "Leş Birliği"
+
+# About 300 dead, by the graves at Kodžadžik
+battle.sides.1.casualties: "Kocacık’taki mezarlara göre 300 kadar ölü"
+
+# Siege of Svetigrad
+battle.name: "Svetigrad Kuşatması"
+
+# 14 May – 31 July 1448
+battle.date: "14 Mayıs – 31 Temmuz 1448"
+
+# Ottoman victory, the garrison leaves under safe conduct
+battle.result: "Osmanlı zaferi, kale muhafızları güvenceyle çekilir"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Murad II
+battle.sides.0.commanders.0: "II. Murad"
+
+# Mehmed II
+battle.sides.0.commanders.1: "II. Mehmed"
+
+# Skanderbeg
+battle.sides.1.commanders.1: "İskender Bey"

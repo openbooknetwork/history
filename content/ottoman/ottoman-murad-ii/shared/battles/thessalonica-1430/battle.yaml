@@ -1,0 +1,17 @@
+lnglat: [22.95, 40.64]
+name: "Siege of Thessalonica"
+date: "June 1422 – 29 March 1430"
+result: "Ottoman victory, and the city is stormed and sacked on 29 March 1430"
+source: https://en.wikipedia.org/wiki/Siege_of_Thessalonica_(1422%E2%80%931430)
+images: [murad-ii-album-5cf4c1, foscari-bastiani-0a9fb3]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  venice: { color: "#4da495", color_dark: "#92dacb" }
+sides:
+  - name: "Ottoman Empire"
+    color: ottomans
+    commanders: ["Murad II", "Sinan Pasha", "Hamza Bey"]
+  - name: "Republic of Venice, with the Byzantine Empire until September 1423"
+    color: venice
+    commanders: ["Paolo Contarini", "Andrea Donato", "Antonio Diedo"]
+    casualties: "Over 270 galley crewmen killed, and 7,000 inhabitants taken captive by John Anagnostes"

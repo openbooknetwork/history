@@ -1,0 +1,36 @@
+date: "10 November 1444"
+when: 1444-11-10
+title: "The lines"
+routes: []
+sources:
+  - "Laonikos Chalkokondyles, Histories (c. 1464)."
+  - "Filippo Buonaccorsi (Callimachus), Historia de rege Vladislao (about 1487)."
+  - "Mehmed Neşri, Kitâb-ı Cihan-nümâ (late 15th century)."
+  - "Anonymous, Tevârîh-i Âl-i Osmân (late 15th century)."
+  - "Oskar Halecki, The Crusade of Varna: A Discussion of Controversial Problems (1943)."
+  - "John Jefferson, The Holy Wars of King Wladislas and Sultan Murad: The Ottoman-Christian Conflict from 1438–1444 (2012)."
+bbox: [27.84651, 43.20143, 27.90815, 43.25209]
+zones: []
+emblem:
+  kind: battle-plan
+  water:
+    - {area: [[27.7, 43.197], [27.72, 43.1955], [27.74, 43.1965], [27.75, 43.194], [27.76, 43.1905], [27.77, 43.1955], [27.78, 43.199], [27.79, 43.2025], [27.795, 43.205], [27.8, 43.1995], [27.81, 43.199], [27.82, 43.196], [27.83, 43.195], [27.84, 43.2015], [27.85, 43.207], [27.86, 43.2095], [27.87, 43.2085], [27.88, 43.2085], [27.89, 43.204], [27.9, 43.1985], [27.906, 43.193], [27.905, 43.187], [27.895, 43.1875], [27.885, 43.1905], [27.875, 43.195], [27.865, 43.1925], [27.86, 43.1895], [27.85, 43.188], [27.84, 43.185], [27.83, 43.1855], [27.82, 43.183], [27.81, 43.1815], [27.8, 43.1855], [27.79, 43.185], [27.78, 43.1845], [27.77, 43.186], [27.76, 43.1885], [27.75, 43.19], [27.74, 43.1915], [27.72, 43.1925], [27.7, 43.1945]], id: lake, name: Lake Varna}
+    - {path: [[27.904, 43.19], [27.911, 43.1888], [27.918, 43.188]], width: 120, id: outflow, name: 'The outflow of the lake into Varna Bay, with marshes along it'}
+  works:
+    - {side: ottomans, path: [[27.87005, 43.21907], [27.87005, 43.22902]], width: 40, style: trench, id: ditch, name: The ditch in front of the janissaries}
+    - {side: ottomans, path: [[27.86931, 43.21907], [27.86931, 43.22902]], width: 30, id: palisades, name: Two palisades behind the ditch}
+  units:
+    - {side: ottomans, type: infantry, at: [27.86796, 43.22405], width: 1000, depth: 150, facing: 90, id: janissaries, name: 'The janissaries behind their ditch and palisades, round two Thracian burial mounds', bow: -30}
+    - {side: ottomans, type: cavalry, at: [27.86192, 43.2245], width: 500, depth: 150, facing: 90, id: murad, name: 'Murad with the horsemen of his household, by the burial mound from which he watches the battle'}
+    - {side: ottomans, type: cavalry, at: [27.87028, 43.2141], width: 1050, depth: 280, facing: 77, id: anatolians, name: 'The Anatolian sipahis under their beylerbey Karaca Bey, the right wing towards the lake. Some accounts put the Rumelian sipahis on this wing', bow: -40}
+    - {side: ottomans, type: cavalry, at: [27.87028, 43.2349], width: 1050, depth: 280, facing: 103, id: rumelians, name: 'The Rumelian sipahis under Şehabeddin Pasha, the left wing below the plateau. Some accounts put the Anatolian sipahis on this wing', bow: -40}
+    - {side: ottomans, type: light, at: [27.87363, 43.24847], width: 800, depth: 150, facing: 155, id: akinci, name: Akıncı light horsemen and janissary archers on the edge of the Franga plateau}
+    - {side: hungary, type: cavalry, at: [27.882, 43.21401], width: 1080, depth: 250, facing: 283, id: left, name: 'The left wing under Michael Szilágyi, 5,000 men in five banners: Hunyadi’s Transylvanians, Bulgarians, German mercenaries and the banners of Hungarian magnates', bow: -30}
+    - {side: poland, type: knights, at: [27.88341, 43.22133], width: 420, depth: 220, facing: 273, id: king, name: 'Władysław with his Polish guard: one of the two banners of the centre, 3,500 men with the Hungarian royal banner', bow: -30}
+    - {side: hungary, type: knights, at: [27.88342, 43.22568], width: 420, depth: 220, facing: 267, id: royal, name: 'The Hungarian royal banner: the king’s Hungarian guard, royal mercenaries and the banners of Hungarian nobles', bow: -30}
+    - {side: hungary, type: cavalry, at: [27.88279, 43.23015], width: 450, depth: 220, facing: 261, id: dominis, name: 'The banners of John de Dominis, bishop of Várad, who leads the right wing, and of Simon Rozgonyi, bishop of Eger', bow: -30}
+    - {side: crusaders, type: cavalry, at: [27.88146, 43.23477], width: 450, depth: 220, facing: 255, id: cesarini, name: Cardinal Cesarini’s German mercenaries and a Bosnian banner, bow: -30}
+    - {side: hungary, type: cavalry, at: [27.87944, 43.23938], width: 450, depth: 220, facing: 249, id: talovac, name: 'The Croatian banner of Franko Talovac, ban of Slavonia, at the end of the right wing on the slope. The right wing has 6,500 men in five banners', bow: -30}
+    - {side: wallachia, type: cavalry, at: [27.89767, 43.2236], width: 900, depth: 250, facing: 270, id: wallachians, name: 'Mircea’s Wallachian horsemen in reserve behind the centre, 4,000 by Setton'}
+    - {side: hungary, type: wagon-fort, at: [27.9026, 43.21455], width: 600, depth: 380, facing: 270, id: wagons, name: 'The wagon fort, held by 300 or 600 Czech and Ruthenian mercenaries with Poles, Lithuanians and Wallachians, 7 to 10 men to a wagon, with bombards', count: 60}
+markers: [varna-lines-murad, varna-lines-karaca, varna-lines-sehabeddin, varna-lines-king, varna-lines-hunyadi, varna-lines-szilagyi, varna-lines-cesarini]

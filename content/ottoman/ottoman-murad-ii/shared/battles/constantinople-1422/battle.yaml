@@ -1,0 +1,16 @@
+lnglat: [28.93, 41.02]
+name: "Siege of Constantinople"
+date: "10 June – 6 September 1422"
+result: "The city holds out, and Murad lifts the siege to march against Küçük Mustafa"
+source: https://en.wikipedia.org/wiki/Siege_of_Constantinople_(1422)
+images: [buondelmonti-constantinople-paris-4bcd13, constantinople-golden-gate-78e590]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  byzantium: { color: "#6b2d6b", color_dark: "#c27ac2" }
+sides:
+  - name: "Ottoman Empire"
+    color: ottomans
+    commanders: ["Murad II", "Mihaloğlu Mehmed Bey"]
+  - name: "Byzantine Empire"
+    color: byzantium
+    commanders: ["Manuel II Palaiologos", "John VIII Palaiologos"]

@@ -6,4 +6,4 @@ Mehmed, II. Manuel Mustafa’yı tutmaya devam etsin diye küçük oğulları Yu
 
 @image green-tomb-0bf0c5
 
-Mehmed öldüğünde Osmanlı toprakları Avrupa’da Dobruca ile birlikte Tuna’dan Teselya’ya ve Avlonya’ya, Anadolu’da İzmir’den Ankara’ya, Amasya’ya ve Samsun’a uzanır. Bizans Konstantinopolis’i, Selanik’i ve Mora’yı elinde tutar, Eflak vergi öder, Karaman, Germiyan, Menteşe ve Candar beyleri kendi topraklarını yönetir.
+Mehmed öldüğünde Osmanlı toprakları Avrupa’da Dobruca ile birlikte Tuna’dan Teselya’ya ve Avlonya’ya, Anadolu’da İzmir’den Ankara’ya, Amasya’ya ve Samsun’a uzanır. Bizans Konstantinopolis’i, Selanik’i ve Mora’yı elinde tutar, Eflak vergi öder, Karaman, Germiyan, Menteşe, Teke ve Candar beyleri kendi topraklarını yönetir.

@@ -1,0 +1,9 @@
+1 Ocak 1443’te Papa IV. Eugenius, Osmanlılara karşı haçlı seferi çağrısı yapan bir bulla yayımlar. Papanın Macaristan’daki temsilcisi Kardinal Julian Cesarini’dir, 13 Aralık 1442’de Győr’de Kral Vladislav ile bebek Ladislaus’un taraftarlarını uzlaştırmıştır. Nisan 1443’te [Budin’deki](@buda) mecliste Vladislav ile baronları Osmanlılara karşı sefere çıkmaya karar verir, kral da Cesarini’nin aracılığıyla Ladislaus’un vasisi Alman Kralı III. Friedrich ile on iki aylık bir ateşkes yapar. Hunyadi Yanoş kendi hazinesinden 32.000 kadar altın florin harcayarak 10.000’den fazla paralı asker tutar, Polonya’dan ve Boğdan’dan da asker gelir.
+
+@image eugene-iv-cavalieri-cb231e
+
+İmparator VIII. İoannis Palaiologos Kasım 1437’de Patrik II. Yosif ve 700 kadar Rumla birlikte [Konstantinopolis’ten](@constantinople) denize açılmıştı. Şubat 1438’de [Venedik’e](@venice) vardı ve Eugenius’un Ferrara’da topladığı konsile katıldı, Rumlarla oturumlar burada 9 Nisan 1438’de başladı. Konsil Ocak 1439’da [Floransa’ya](@florence) taşındı ve 6 Temmuz 1439’da orada, Eugenius ile İoannis’in imzaladığı Laetentur Caeli kararıyla Rum ve Latin kiliselerinin birliği ilan edildi. Rum piskoposlarından kararı imzalamayan tek kişi Efesli Markos oldu, Rumlar döndükten sonra da Konstantinopolis’in din adamlarının ve halkının çoğu birliği reddetti.
+
+@image union-bull-1439-3a1945
+
+Karamanoğlu II. İbrahim Bey, Osmanlılara Macarlarla aynı anda saldırmak üzere onlarla anlaşmıştır. 1443 baharında, Macarlar henüz hazır değilken, başkenti [Konya’nın](@konya-1437) batısında Akşehir ve Beyşehir çevresindeki Osmanlı topraklarına saldırır, Murad da oğlu Alaeddin Ali ile birlikte onu geri püskürtür. Alaeddin Haziran 1443’te, bir kayda göre atından düştükten sonra ölür. Murad’ın büyük oğlu Ahmed 1437’de ölmüştü, artık veliahdı on bir yaşındaki Mehmed’dir.

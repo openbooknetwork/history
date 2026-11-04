@@ -1,0 +1,9 @@
+Hunyadi Yanoş 6 Haziran 1446’dan beri çocuk yaştaki kral V. Ladislaus adına Macaristan’ı vali olarak yönetir. Aralık 1447’de Eflak’a girmiş, Bălteni bataklıklarında öldürülen II. Vlad’ı tahttan indirmiş ve yerine yeni bir voyvoda getirmişti. Tarihçiler bu voyvodanın II. Vladislav mı, yoksa II. Basarab’ın oğlu Dan mı olduğu konusunda ayrılır. Şubat 1448’de Hunyadi’nin askerleri III. Petru’yu Boğdan tahtına çıkarır. Eylülde Hunyadi Papa V. Nikolaus’a yazdığı mektupta Osmanlıları tek bir meydan savaşında yenip Avrupa’dan atmak istediğini bildirir.
+
+@image hunyadi-slovak-1700-e4b0eb
+
+Hunyadi, Tuna kıyısında Semendire’nin karşısındaki [Kovin’de](@kovin-1448) 16.000 kadar asker toplar, 8.000 kadar Eflaklı da ona katılır. Günümüz tahminleri ordunun tamamını 22.000 ile 30.000 arasında gösterir: Macar süvarileri, Alman ve Bohemyalı paralı piyadeler ve toplu savaş arabaları. Đurađ Branković Osmanlılarla yaptığı ateşkes yüzünden sefere katılmayı reddeder ve ordunun topraklarından geçmesine izin vermez. Hunyadi Kovin’de müttefiklerini bekler, eylül sonunda Sırbistan’a geçer ve artık Osmanlıların müttefiki saydığı despotun topraklarını yağmalayarak Morava vadisi boyunca güneye yürür.
+
+@image kovin-fortress-5478d2
+
+Bu haber üzerine Murad Arnavutluk seferini yarıda bırakır ve erzak ile takviye toplamak için [Sofya’ya](@sofia-1443) çekilir. Orada bir Eflak kuvvetinin Tuna’yı geçip Niğbolu sancağına girdiği haberini alır, bu kuvvetin üzerine gönderilen akıncılar da onu pusuya düşürür ve pek çok esirle Sofya’ya döner. İskender Bey 4 Ekim’de [Leş’te](@lezhe) Venedik’le barış yapar ve Hunyadi’ye katılmak için yola çıkar. Ancak yolda oyalanır, çoğu anlatıma göre sınırdaki geçitleri tutan Đurađ’ın askerleri tarafından, Đurađ’ın bundaki payı ise tartışmalıdır. Murad Sofya’dan yürür ve ordusu 17 Ekim’de [Kosova Ovası’nda](@kosovo-field) Haçlıların karşısına çıkar.

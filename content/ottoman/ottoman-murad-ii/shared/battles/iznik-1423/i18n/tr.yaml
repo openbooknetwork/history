@@ -1,0 +1,26 @@
+# tr strings for the battle "iznik-1423".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman Empire
+battle.sides.0.name: "Osmanlı Devleti"
+
+# Forces of Küçük Mustafa
+battle.sides.1.name: "Küçük Mustafa’nın kuvvetleri"
+
+# Küçük Mustafa captured and strangled
+battle.sides.1.casualties: "Küçük Mustafa yakalanır ve boğularak öldürülür"
+
+# Siege of İznik
+battle.name: "İznik Kuşatması"
+
+# February 1423
+battle.date: "Şubat 1423"
+
+# İznik retaken, and Küçük Mustafa is handed over and executed
+battle.result: "İznik geri alınır, Küçük Mustafa teslim edilir ve idam edilir"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Murad II
+battle.sides.0.commanders.0: "II. Murad"

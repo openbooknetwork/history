@@ -1,0 +1,7 @@
+In January 1422 Mustafa crosses the Dardanelles from [Gallipoli](@gallipoli-1422) to Lapseki on Genoese ships from Galata. By Ottoman accounts he has 12,000 horsemen and 5,000 foot soldiers, and he marches on Bursa. Murad comes out to meet him at the Ulubad river near Lake Uluabat and holds the bridge, so that the two armies face each other across the water.
+
+Mihaloğlu Mehmed Bey, the leader of the akıncı raiders of Rumelia, and Hacı İvaz Pasha send word to the Rumelian beys in Mustafa’s camp, and many of them go over to Murad without a fight. Cüneyd, who has been promised the governorship of Aydın, leaves the camp at night with about seventy men and rides home. Mustafa retreats with the rest of his army, and Hacı İvaz Pasha’s men cut down most of his foot soldiers at a bridge. Mustafa escapes to Gallipoli and tries to stop the traffic through the straits.
+
+Murad hires ships and 2,000 armoured men at a high price from Giovanni Adorno, the Genoese podestà of [New Phocaea](@new-phocaea), whose secretary at this time is the historian Doukas. Murad crosses to Gallipoli and takes it, and Mustafa flees to [Edirne](@edirne-1422). When the people of Edirne come out to greet Murad, Mustafa leaves with the treasury for Wallachia, but he is caught in the Tundzha valley at [Elhovo](@elhovo-1422), then called Yenice-i Kızılağaç. He is brought back to Edirne and hanged from a tower of the citadel, a death not given to members of the dynasty, and modern historians see in it Murad’s way of marking Mustafa as an impostor.
+
+@image gallipoli-port-etching-e38af7

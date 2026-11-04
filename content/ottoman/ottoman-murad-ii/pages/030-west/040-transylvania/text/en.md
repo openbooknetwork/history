@@ -1,0 +1,7 @@
+Emperor Sigismund dies on 9 December 1437, and his son-in-law Albert of Habsburg is elected King of Hungary nine days later. Sigismund’s death and a peasant uprising in Transylvania weaken Hungary, and Vlad II of Wallachia goes to [Edirne](@edirne), swears fealty to Murad and promises to pay a yearly tribute and to join the sultan’s campaigns. Murad gathers his army at [Vidin](@vidin-1438), and King Albert writes to Vlad, ordering him to protect Transylvania.
+
+In the summer of 1438 Vlad joins Murad in Wallachia and serves him as a guide. The Ottoman and Wallachian troops break into Hungary at [Orșova](@orsova-1438), rout the Vlach knez Cândea near [Hațeg](@hateg-1438) and march along the Mureș, taking Câlnic and Sebeș (Mühlbach). Vlad persuades the leaders of Sebeș to surrender without a fight by promising to protect their property if they come with him to Wallachia. The army besieges [Sibiu](@sibiu-1438) (Hermannstadt) for eight days and loses many men to the resistance of the townspeople, and then it burns the outskirts of [Brașov](@brasov-1438) (Kronstadt).
+
+After 45 days in Hungary the army leaves with its plunder and more than 30,000 captives, and it returns over the Carpathians into Wallachia and by [Giurgiu](@giurgiu-1438) to Edirne. Among the captives taken at Sebeș is a student of fifteen or sixteen, Georgius de Hungaria, known as the Captive of Mühlbach. He lives for about twenty years as a slave among the Ottomans, and his treatise on their customs and their faith is printed about 1480.
+
+@image sebes-evangelical-church-ecbc47

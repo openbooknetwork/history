@@ -1,0 +1,7 @@
+İmparator Sigismund 9 Aralık 1437’de ölür, damadı Habsburglu Albrecht da dokuz gün sonra Macar kralı seçilir. Sigismund’un ölümü ve Erdel’deki bir köylü ayaklanması Macaristan’ı zayıflatır, Eflak voyvodası II. Vlad da [Edirne’ye](@edirne) gidip Murad’a bağlılık yemini eder, yıllık vergi ödemeye ve sultanın seferlerine katılmaya söz verir. Murad ordusunu [Vidin’de](@vidin-1438) toplar, Kral Albrecht da Vlad’a yazdığı mektupta Erdel’i korumasını emreder.
+
+1438 yazında Vlad Eflak’ta Murad’a katılır ve ona kılavuzluk eder. Osmanlı ve Eflak birlikleri [Orsova’dan](@orsova-1438) Macaristan’a girer, [Hațeg](@hateg-1438) yakınlarında Ulah knezi Cândea’yı bozguna uğratır ve Mureș boyunca ilerleyip Câlnic’i ve Sebeş’i (Mühlbach) alır. Vlad, Sebeş’in ileri gelenlerini kendisiyle Eflak’a gelirlerse mallarını koruyacağına söz vererek savaşmadan teslim olmaya ikna eder. Ordu [Sibiu’yu](@sibiu-1438) (Hermannstadt) sekiz gün kuşatma altında tutar ve şehir halkının direnişi karşısında çok adam kaybeder, ardından da [Braşov’un](@brasov-1438) (Kronstadt) dış mahallelerini yakar.
+
+Macaristan’da geçen 45 günün sonunda ordu ganimetiyle ve 30.000’i aşkın esirle geri döner, Karpatları aşıp Eflak’a geçer ve [Yergöğü](@giurgiu-1438) üzerinden Edirne’ye varır. Sebeş’te alınan esirler arasında, Mühlbach Esiri diye bilinen on beş ya da on altı yaşındaki öğrenci Georgius de Hungaria da vardır. Yirmi yıl kadar Osmanlıların yanında köle olarak yaşar, Türklerin âdetlerini ve inançlarını anlatan eseri de 1480 dolaylarında basılır.
+
+@image sebes-evangelical-church-ecbc47

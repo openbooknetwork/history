@@ -1,0 +1,21 @@
+date: "17 October 1448"
+when: 1448-10-17
+title: "The armies on Kosovo field"
+battle: kosovo-1448
+sources:
+  - "Laonikos Chalkokondyles, Histories (c. 1464)."
+  - "Johannes de Thurocz, Chronica Hungarorum (1488)."
+  - "Aşıkpaşazade, Tevârîh-i Âl-i Osmân (late 15th century)."
+  - "Antonio Bonfini, Rerum Ungaricarum decades (about 1497)."
+  - "Franz Babinger, Mehmed the Conqueror and His Time (1978)."
+  - "Jean W. Sedlar, East Central Europe in the Middle Ages, 1000–1500 (1994)."
+  - "Emanuel Constantin Antoche, “Hunyadi’s Campaign of 1448 and the Second Battle of Kosovo Polje (October 17–20)”, in Norman Housley (ed.), Reconfiguring the Fifteenth-Century Crusade (2017), 245–284."
+bbox: [21, 42.65, 21.2, 42.8]
+zones: [serbia-1448-kosovo]
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[21.115, 42.53], [21.095, 42.565], [21.082, 42.6], [21.072, 42.625], [21.066, 42.65], [21.06, 42.672], [21.052, 42.692], [21.045, 42.712], [21.04, 42.732], [21.03, 42.752], [21.016, 42.772], [21, 42.79], [20.985, 42.808], [20.965, 42.825], [20.94, 42.848], [20.91, 42.868], [20.885, 42.885]], width: 160, id: sitnica, name: The river Sitnica}
+    - {path: [[21.19, 42.93], [21.19, 42.9], [21.185, 42.87], [21.175, 42.845], [21.16, 42.82], [21.14, 42.792], [21.118, 42.768], [21.095, 42.752], [21.072, 42.742], [21.055, 42.737], [21.041, 42.731]], width: 128, id: lab, name: 'The river Lab, which flows into the Sitnica near Plemetina'}
+markers: [kosovo-camp, kosovo-ottoman-camp, murad-i-tomb, pristina-1448]
+routes: [hunyadi-lab-1448, murad-approach-1448]

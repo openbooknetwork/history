@@ -1,0 +1,18 @@
+lnglat: [21.63, 44.66]
+name: "Siege of Golubac"
+date: "Late April – early June 1428"
+result: "Ottoman victory, and Sigismund withdraws across the Danube"
+source: https://en.wikipedia.org/wiki/Siege_of_Golubac
+images: [sigismund-portrait-641514, zawisza-matejko-1d0ab1]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  hungary: { color: "#3d7a2a", color_dark: "#7cc160" }
+sides:
+  - name: "Ottoman Empire"
+    color: ottomans
+    commanders: ["Murad II", "Sinan Bey"]
+  - name: "Kingdom of Hungary, with Wallachian and Polish troops"
+    color: hungary
+    commanders: ["Sigismund", "Dan II of Wallachia", "Zawisza the Black"]
+    strength: "15,000 to 20,000, or 25,000 foot soldiers and 6,000 Wallachian archers by another account"
+    casualties: "Heavy, Zawisza the Black killed"

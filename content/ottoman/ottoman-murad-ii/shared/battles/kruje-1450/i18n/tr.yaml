@@ -1,0 +1,41 @@
+# tr strings for the battle "kruje-1450".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman Empire
+battle.sides.0.name: "Osmanlı Devleti"
+
+# About 100,000 by the Albanian accounts
+battle.sides.0.strength: "Arnavut anlatımlarına göre 100.000 kadar"
+
+# About 20,000 by the Albanian accounts
+battle.sides.0.casualties: "Arnavut anlatımlarına göre 20.000 kadar"
+
+# League of Lezhë
+battle.sides.1.name: "Leş Birliği"
+
+# 8,000 in the field and 1,500 or 4,000 in the castle
+battle.sides.1.strength: "Dışarıda 8.000, kalede 1.500 ya da 4.000"
+
+# Over 1,000
+battle.sides.1.casualties: "1.000’den fazla"
+
+# Siege of Krujë
+battle.name: "Akçahisar Kuşatması"
+
+# 14 May – 26 October or November 1450
+battle.date: "14 Mayıs – 26 Ekim ya da Kasım 1450"
+
+# Albanian victory, the siege is lifted
+battle.result: "Arnavut zaferi, kuşatma kaldırılır"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Murad II
+battle.sides.0.commanders.0: "II. Murad"
+
+# Mehmed II
+battle.sides.0.commanders.1: "II. Mehmed"
+
+# Skanderbeg
+battle.sides.1.commanders.0: "İskender Bey"

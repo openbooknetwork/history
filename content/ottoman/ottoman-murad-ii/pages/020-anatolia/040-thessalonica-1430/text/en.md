@@ -1,0 +1,9 @@
+Venice has held Thessalonica under Ottoman blockade since 1423, and its fleets have raided the Ottoman coasts. In July 1425 Fantino Michiel’s galleys burned Ierissos and stormed [Christopolis](@christopolis-1425), which the Ottomans soon took back, and Michiel fortified [Kassandreia](@kassandreia-1425) to guard the Kassandra peninsula. In early spring 1428 an Ottoman fleet of 40 to 65 ships raids the island of [Negroponte](@negroponte), carries off about 700 Venetian subjects and goes on to raid the lands around Modon and Coron. Murad turns down every offer of tribute for Thessalonica, Venice declares war on him on 29 March 1429, and on 1 July Andrea Mocenigo’s attack on the Ottoman ships at [Gallipoli](@gallipoli) fails.
+
+Hunger and flight have cut the city’s people from 20,000 or more to between 10,000 and 13,000, and many of them want to surrender. In February 1430 Hamza Bey brings the troops of Anatolia over to Europe, and Murad appears before the walls on 26 March. At dawn on 29 March his army attacks under Sinan Pasha, the beylerbey of Rumelia, with the main weight on the eastern walls, where the sultan leads in person. Ottoman archers pin down the defenders, and at the fourth hour the attackers climb the walls at several points.
+
+@image thessaloniki-walls-nyca-d694f3
+
+The Venetians flee to Antonio Diedo’s galleys in the harbour and sail to Negroponte. The city is plundered for three days, and by the account of the eyewitness John Anagnostes 7,000 people are carried off as captives, many of whom Đurađ Branković later ransoms. On the fourth day Murad enters the city, prays in the church of the Acheiropoietos, which becomes its first mosque, and gives the houses back to their owners. In July 1430 Hamza Bey makes peace with Venice, which gives up Thessalonica and keeps Durazzo, Scutari and Antivari in Albania.
+
+@image acheiropoietos-interior-b59947

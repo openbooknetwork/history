@@ -1,0 +1,44 @@
+# tr strings for the battle "zlatitsa-1443".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Kingdom of Hungary, with Polish and Serbian troops
+battle.sides.0.name: "Macaristan Krallığı, Polonyalı ve Sırp birliklerle"
+
+# 25,000 to 40,000 by different accounts
+battle.sides.0.strength: "Farklı kayıtlara göre 25.000 ile 40.000 arası"
+
+# Heavy, in the battle and the retreat
+battle.sides.0.casualties: "Muharebede ve geri çekilişte ağır"
+
+# Ottoman Empire
+battle.sides.1.name: "Osmanlı Devleti"
+
+# 16,000 by one account
+battle.sides.1.strength: "Bir kayda göre 16.000"
+
+# Battle of Zlatitsa
+battle.name: "İzladi Muharebesi"
+
+# 12 December 1443
+battle.date: "12 Aralık 1443"
+
+# Ottoman victory, the crusaders turn back
+battle.result: "Osmanlı zaferi, haçlılar geri döner"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Władysław III
+battle.sides.0.commanders.0: "III. Vladislav"
+
+# John Hunyadi
+battle.sides.0.commanders.1: "Hunyadi Yanoş"
+
+# Julian Cesarini
+battle.sides.0.commanders.3: "Kardinal Julian Cesarini"
+
+# Murad II
+battle.sides.1.commanders.0: "II. Murad"
+
+# Kasım Pasha
+battle.sides.1.commanders.1: "Kasım Paşa"

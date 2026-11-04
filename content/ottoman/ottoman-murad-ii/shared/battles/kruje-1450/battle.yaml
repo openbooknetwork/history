@@ -1,0 +1,20 @@
+lnglat: [19.795, 41.5075]
+name: "Siege of Krujë"
+date: "14 May – 26 October or November 1450"
+result: "Albanian victory, the siege is lifted"
+source: https://en.wikipedia.org/wiki/Siege_of_Krujë_(1450)
+images: [kruje-siege-lonicer-c96c6f, skanderbeg-1466-64d9ef]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  skanderbeg: { color: "#8a5a00", color_dark: "#d9a441" }
+sides:
+  - name: "Ottoman Empire"
+    color: ottomans
+    commanders: ["Murad II", "Mehmed II"]
+    strength: "About 100,000 by the Albanian accounts"
+    casualties: "About 20,000 by the Albanian accounts"
+  - name: "League of Lezhë"
+    color: skanderbeg
+    commanders: ["Skanderbeg", "Vrana Konti"]
+    strength: "8,000 in the field and 1,500 or 4,000 in the castle"
+    casualties: "Over 1,000"

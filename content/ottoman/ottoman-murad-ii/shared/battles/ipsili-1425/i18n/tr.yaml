@@ -1,0 +1,21 @@
+# tr strings for the battle "ipsili-1425".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman army of Anatolia, with Genoese ships
+battle.sides.0.name: "Ceneviz gemileriyle birlikte Anadolu’daki Osmanlı ordusu"
+
+# Forces of Cüneyd
+battle.sides.1.name: "Cüneyd’in kuvvetleri"
+
+# Cüneyd and his son Bayezid killed
+battle.sides.1.casualties: "Cüneyd ile oğlu Bayezid öldürülür"
+
+# Siege of İpsili
+battle.name: "İpsili Kuşatması"
+
+# 1425
+battle.date: "1425"
+
+# Cüneyd surrenders and is killed, and Aydın is annexed
+battle.result: "Cüneyd teslim olur ve öldürülür, Aydın Osmanlı topraklarına katılır"

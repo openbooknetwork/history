@@ -1,0 +1,7 @@
+Kasım Paşa ile Turahan Bey [Sofya’da](@sofia-1443) Murad’a ulaşır ve ona kenti yakıp haçlıları ilerideki geçitlerde beklemesini öğütler, çünkü sayıca az olan Osmanlı ordusu orada daha elverişli bir durumdadır. Murad’ın Anadolu askerleri Karaman tehlikesi yüzünden Rumeli’ye geçememiştir. Murad, Sofya’dan [Edirne’ye](@edirne) giden iki geçitten eski Roma yolu üzerindeki [Trayan Kapısı’nı](@trajans-gate) kapatır, İzladi Derbendi’ni de Kasım Paşa ve Turahan Bey’le birlikte kendisi tutar. Derbendin yolu iri kayalar ve kesilmiş ağaçlarla kapatılmıştır. Geçitlerin ötesinde Meriç ovası [Filibe’den](@plovdiv-1443) Edirne’ye kadar uzanır.
+
+@image trajans-gate-fortress-37f4fb
+
+Haçlılar 9 Kasım’da [Niş’ten](@nis-1427) yola devam eder, [Şehirköy’den](@pirot-1443) geçerek kasım sonunda ya da 1 Aralık’ta Osmanlıların boşalttığı Sofya’ya girer. Hunyadi, Erdel’in Sakson kentlerine sultanın denize doğru kaçtığını ve altı sekiz gün içinde Edirne’de olacağını yazar. Osmanlıları şaşırtmak umuduyla İzladi Derbendi’ne giden daha zor yolu seçer.
+
+12 Aralık 1443’te haçlılar karda ve dondurucu soğukta toplarla geçide saldırır, yeniçeriler ve azaplar da onları geri püskürtür. Hunyadi az kalsın esir düşer, ordu da araba kalelerinin korumasında geri çekilir. Turahan Bey Murad’a araba kalelerine saldırmamasını öğütler, sultan da saldırıdan vazgeçer. 24 Aralık’ta Osmanlılar haçlılara Meştiçe’de yetişir, ama çarpışma bir sonuç vermez. Murad Sofya’ya döner ve takibi Kasım Paşa ile Turahan Bey’e bırakır.

@@ -1,0 +1,9 @@
+On 4 August 1444 at [Szeged](@szeged), before Cardinal Julian Cesarini, the barons and the prelates, Władysław swears to renounce any treaty with the sultan, present or future, and to lead a campaign against the Ottomans before the end of the year. Cesarini holds that an oath sworn to unbelievers does not bind, and his wording lets the king ratify the peace without giving up the crusade. In the week after the treaty is sworn Władysław offers John Hunyadi the crown of Bulgaria, and by mid-September the towns and estates promised in the treaty and in the agreements beside it have changed hands.
+
+@image cesarini-portrait-038a66
+
+The army numbers about 16,000 men by Kenneth Setton’s figure: Hungarians, Poles, Transylvanians, Croats and Bosnians, heavy horsemen from western Europe and mercenaries. It crosses the Danube at [Orșova](@orsova-1438) on 20 or 22 September and marches down the right bank by [Vidin](@vidin-1438) and Oryahovo, leaving the Ottoman fortresses behind it. Bulgarians from the Danube towns join it, and Fruzhin, a son of Ivan Shishman, the last tsar of Tarnovo, comes with his own guard. Near [Nikopol](@nikopol-1442) Vlad II’s son Mircea brings the Wallachian horsemen, 4,000 by Setton and 7,000 by John Jefferson, although Vlad has tried to talk the king out of the war.
+
+From Nikopol the army turns east by [Shumen](@shumen-1444) and the castle of Petrich towards the Black Sea, where it expects to meet the crusade fleet, and in November it reaches [Varna](@varna-1444). Đurađ Branković, whose Serbia has been restored with [Smederevo](@smederevo), stays out of the war. In [Edirne](@edirne) the grand vizier Çandarlı Halil Pasha sends for Murad at Manisa to lead the army. Chronicles of the 17th century have the young Mehmed II himself order his father to come, and Halil İnalcık holds that the recall was Halil’s work.
+
+@image shumen-fortress-gate-c14543

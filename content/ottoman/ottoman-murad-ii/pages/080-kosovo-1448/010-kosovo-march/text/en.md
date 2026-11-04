@@ -1,0 +1,9 @@
+John Hunyadi has ruled Hungary as governor for the child king Ladislaus V since 6 June 1446. In December 1447 he invaded Wallachia and deposed Vlad II, who was killed in the marshes of Bălteni, and set up a new voivode. Historians disagree whether the new voivode was Vladislav II or Dan, a son of Basarab II. In February 1448 Hunyadi’s troops put Peter III on the throne of Moldavia, and in September he writes to Pope Nicholas V that he means to defeat the Ottomans in one battle and drive them out of Europe.
+
+@image hunyadi-slovak-1700-e4b0eb
+
+Hunyadi gathers about 16,000 men at [Kovin](@kovin-1448), on the Danube opposite Smederevo, and about 8,000 Wallachians join him. Modern estimates of the whole army run from 22,000 to 30,000 men: Hungarian horsemen, German and Bohemian mercenaries on foot, and war wagons with guns. Đurađ Branković refuses to join because of his truce with the Ottomans, and he will not let the army cross his land. Hunyadi waits at Kovin for his allies, then crosses into Serbia in late September and marches up the Morava valley, plundering the land of the despot, whom he now treats as an Ottoman ally.
+
+@image kovin-fortress-5478d2
+
+The news makes Murad break off his campaign in Albania and fall back to [Sofia](@sofia-1443) to gather supplies and reinforcements. There he hears that a Wallachian force has crossed the Danube into the sanjak of Nikopol, and akıncıs sent against it ambush it and bring many prisoners back to Sofia. Skanderbeg makes peace with Venice at [Lezhë](@lezhe) on 4 October and marches to join Hunyadi, but he is held up on the way, by most accounts by Đurađ’s troops in the passes on the border, although Đurađ’s part is disputed. Murad marches from Sofia, and on 17 October his army appears before the crusaders on [Kosovo field](@kosovo-field).

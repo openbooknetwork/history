@@ -3,7 +3,7 @@
 //   node content/ottoman/ottoman-murad-ii/.plans/zones.mjs
 // Each town has an owners' timeline and an area, the land nearest to it along the ground; a period's zones are its
 // owners' areas joined in one topology. The towns, lines and raster are story 2's, so the borders of 1421 meet the
-// shared zone ottomans-1421 that story 2 ends on. The first page splits that outline at the straits between Murad and
+// shared zone ottomans-1421 that story 2 ends on. The second page splits that outline at the straits between Murad and
 // Mustafa, and the Ottoman lands of 1451 go to content/shared/zones/ for the story of Mehmed II.
 import fs from 'fs';
 import path from 'path';
@@ -471,9 +471,10 @@ const O = {
 
 // --- periods: the moment whose owners a page shows ---
 const PERIODS = [
-  // the Ottoman lands keep the outline of story 2's last page, the shared zone; on the first page Mustafa holds the
+  // the Ottoman lands keep the outline of story 2's last page, the shared zone; on the second page Mustafa holds the
   // European part of it, cut along the straits
-  [1421.8, ['murad'], { outline: 'ottomans-1421', name: N(1421, 'Lands of Murad II', 'II. Murad’ın toprakları'), split: 'mus' }],
+  [1421.45, ['murad'], { outline: 'ottomans-1421' }],
+  [1421.8, ['mustafa'], { outline: 'ottomans-1421', name: N(1421, 'Lands of Murad II', 'II. Murad’ın toprakları'), split: 'mus' }],
   [1422.2, ['ulubad'], { outline: 'ottomans-1421' }],
   [1422.55, ['constantinople-1422'], { outline: 'ottomans-1421' }],
   [1422.85, ['kucuk-mustafa']],

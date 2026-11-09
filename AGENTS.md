@@ -57,10 +57,15 @@ A story can sit in a group folder, such as the Ottoman series in `content/ottoma
 
 A story is done when the check prints ok and `npm run build -- --strict` builds every story.
 
-## Translations
+## Writing
 
 The English and every translation follow `node_modules/@openbooknetwork/kitap/writing/README.md`, and a
 translation also follows that folder's file for its language, such as `tr.md`.
+
+The English tells history in the present tense: "In January 1348 the plague reaches Pisa." A quote and what a
+historian later writes keep their own tense: "Benedictow puts the dead at 60 percent."
+
+## Translations
 
 `./node_modules/.bin/harita i18n tr --story <story>` adds an empty key for every new English string to the story's
 `i18n/tr.yaml`, with the English as a comment above it. Fill each one. With `--story` the command builds only that

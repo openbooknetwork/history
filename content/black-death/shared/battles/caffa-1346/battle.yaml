@@ -1,0 +1,16 @@
+lnglat: [35.39, 45.03]
+name: "Siege of Caffa"
+date: "1346"
+result: "The plague strikes the besiegers, and the Golden Horde makes peace with Genoa and Venice in 1347"
+source: https://en.wikipedia.org/wiki/Siege_of_Caffa
+images: [jani-beg-genealogy-0c1132, caffa-towers-2b54ac]
+families:
+  genoa: { color: "#2f6fb0", color_dark: "#6fa6e0" }
+  horde: { color: "#a57a12", color_dark: "#d6ab3e" }
+sides:
+  - name: "Genoese Caffa"
+    color: genoa
+  - name: "Golden Horde"
+    color: horde
+    commanders: ["Jani Beg"]
+    casualties: "Thousands dead of the plague, by Gabriele de’ Mussi’s account"

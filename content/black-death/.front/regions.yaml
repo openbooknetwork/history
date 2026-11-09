@@ -1,0 +1,1053 @@
+# The regions the plague reached, read by front.mjs. See README.md.
+#
+# id, name     the region
+# seeds        [lon, lat] of its towns. A region's land is the land nearer its seeds than any other seed, its own or
+#              of the blank land below, so the regions tile the map without gaps.
+# arrival      YYYY-MM, the month the epidemic broke out. Where the sources give a season, its first month. Where they
+#              give only a year, the comment says so.
+# months       how long the region's epidemic ran, 6 when not given. The tally counts a share of the region's dead for
+#              each month past since the arrival.
+# page         the page that first shows the region, when the region broke out in the month of an earlier page.
+# population   about 1346. A region without one stays out of the tally.
+# rate         the share that died, [low, high].
+# unconfirmed  the fields that the Wikipedia articles in ../.wikipedia/ neither confirm nor date, for a later check
+# source       of the arrival and the rate. "via Wikipedia" marks a work cited in those articles. Populations take
+#              the country totals of Benedictow (2021) and of the works the articles cite, else of McEvedy and Jones
+#              (1978), shared out by region.
+
+regions:
+
+  # --- Central Asia and the Golden Horde, before Caffa: no population figure, left out of the tally ---
+  - id: chuy-valley
+    name: Chüy valley and Issyk-Kul
+    seeds: [[74.6, 42.87], [75.3, 42.75], [77.1, 42.6]]
+    arrival: 1338-01
+    source: "Gravestones of 1338-1339 at Kara-Djigach and Burana; Spyrou et al. 2022"
+  - id: khwarazm
+    name: Khwarazm
+    seeds: [[59.15, 42.33], [60.36, 41.38]]
+    arrival: 1346-03   # spring and summer 1346
+    source: "Russian chronicle entry for 1346; Urgench, Sarai and Azaq in spring and summer 1346, Favereau 2021, via Wikipedia"
+  - id: lower-volga
+    name: Sarai and Astrakhan
+    seeds: [[48.03, 46.35], [47.4, 47.1], [45.9, 48.6]]
+    arrival: 1346-03   # spring and summer 1346
+    source: "Russian chronicle entry for 1346; Urgench, Sarai and Azaq in spring and summer 1346, Favereau 2021, via Wikipedia"
+  - id: north-caucasus
+    name: Circassians and Abkhazians
+    seeds: [[39.0, 45.0], [41.0, 43.0], [44.2, 44.8]]
+    arrival: 1346-03   # spring and summer 1346
+    unconfirmed: [arrival]
+    source: "Russian chronicle entry for 1346, via Benedictow 2021"
+  - id: lower-don
+    name: Tana and the lower Don
+    seeds: [[39.4, 47.1], [40.5, 47.8]]
+    arrival: 1346-03   # spring and summer 1346
+    source: "Russian chronicle entry for 1346; Urgench, Sarai and Azaq in spring and summer 1346, Favereau 2021, via Wikipedia"
+
+  # --- From Caffa on, counted ---
+  - id: crimea
+    name: Caffa and the Crimea
+    seeds: [[35.38, 45.03], [33.55, 44.5], [34.1, 45.6]]
+    arrival: 1346-09   # de' Mussi gives 1346, no month: after the Volga
+    population: 250000
+    rate: [0.33, 0.6]
+    unconfirmed: [population, rate]
+    source: "Gabriele de' Mussi, via Benedictow 2021; no counts, the European rate"
+  - id: constantinople
+    name: Constantinople and Thrace
+    seeds: [[28.97, 41.01], [27.5, 41.0], [26.66, 40.41]]
+    arrival: 1347-06   # by summer 1347
+    months: 12   # the first outbreak lasts a year (Byrne 2012)
+    population: 300000
+    rate: [0.33, 0.6]
+    unconfirmed: [population, rate]
+    source: "John VI Kantakouzenos, via Benedictow 2021"
+  - id: aegean
+    name: The Aegean islands
+    seeds: [[25.25, 39.9], [26.4, 39.1], [26.1, 38.37], [28.2, 36.43]]
+    arrival: 1347-07   # summer 1347
+    population: 150000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, population, rate]
+    source: "Kantakouzenos, via Benedictow 2021"
+  - id: bithynia
+    name: Bursa, Iznik and the Marmara coast
+    seeds: [[29.06, 40.18], [29.72, 40.43], [29.92, 40.77], [27.88, 39.65]]
+    arrival: 1347-08   # no record; set after Constantinople across the Marmara
+    population: 500000
+    rate: [0.2, 0.4]
+    unconfirmed: [arrival, population, rate]
+    source: "No record of the arrival; rate after Schamiloglu, who holds that herders died less than townspeople"
+  - id: trebizond
+    name: Trebizond
+    seeds: [[39.72, 41.0], [41.0, 41.1]]
+    arrival: 1347-09
+    population: 200000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, population, rate]
+    source: "Michael Panaretos's chronicle, via Benedictow 2021"
+  - id: alexandria
+    name: Alexandria and the western Delta
+    seeds: [[29.92, 31.2], [30.47, 31.04], [30.42, 31.4]]
+    arrival: 1347-09   # autumn 1347
+    population: 400000
+    rate: [0.33, 0.5]
+    unconfirmed: [population]
+    source: "al-Maqrizi, via Dols 1977; Dols about half dead in Egypt, a third in the Middle East, via Wikipedia"
+  - id: cyprus
+    name: Cyprus
+    seeds: [[33.36, 35.17], [33.94, 35.12], [32.42, 34.77]]
+    arrival: 1347-09   # autumn 1347
+    population: 100000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, population, rate]
+    source: "Dols 1977; Benedictow 2021"
+  - id: sicily-east
+    name: Messina and eastern Sicily
+    seeds: [[15.55, 38.19], [15.09, 37.5], [15.29, 37.08], [14.73, 36.93]]
+    arrival: 1347-10
+    population: 350000
+    rate: [0.33, 0.6]
+    unconfirmed: [population, rate]
+    source: "Michele da Piazza, via Benedictow 2021"
+  - id: sicily-west
+    name: Palermo and western Sicily
+    seeds: [[13.36, 38.12], [12.51, 38.02], [13.58, 37.31], [14.02, 38.04], [14.28, 37.57]]
+    arrival: 1347-11
+    population: 450000
+    rate: [0.33, 0.6]
+    unconfirmed: [population, rate]
+    source: "Benedictow 2021"
+  - id: calabria
+    name: Calabria
+    seeds: [[15.65, 38.11], [16.25, 39.3], [16.59, 38.91]]
+    arrival: 1347-11
+    population: 400000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, population, rate]
+    source: "Benedictow 2021"
+  - id: provence
+    name: Marseille and Provence
+    seeds: [[5.37, 43.3], [5.93, 43.12], [5.45, 43.53], [7.26, 43.7], [6.74, 43.43], [4.63, 43.68]]
+    arrival: 1347-11
+    population: 470000
+    rate: [0.33, 0.6]
+    unconfirmed: [rate]
+    source: "Benedictow 2021"
+  - id: corsica-sardinia
+    name: Corsica and Sardinia
+    seeds: [[9.45, 42.7], [8.74, 41.92], [9.16, 41.39], [9.11, 39.22], [8.56, 40.73], [8.59, 39.9]]
+    arrival: 1347-12   # late 1347 or early 1348
+    population: 350000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, population, rate]
+    source: "Benedictow 2021"
+  - id: greece
+    name: Greece, the Morea and Crete
+    seeds: [[22.94, 40.64], [23.55, 41.09], [22.42, 39.64], [23.73, 37.98], [23.6, 38.46], [22.37, 37.07], [21.96, 36.8], [25.13, 35.34], [24.02, 35.51]]
+    arrival: 1347-11   # late 1347, from the Aegean ports; no month in the sources
+    months: 9
+    population: 900000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, population]
+    source: "Benedictow 2021; Izdebski et al. 2022 find a deep fall in farming"
+  - id: liguria
+    name: Genoa and Liguria
+    seeds: [[8.93, 44.41], [8.48, 44.31], [9.82, 44.1], [8.21, 44.05]]
+    arrival: 1347-12   # sources split: end of 1347, or January 1348 (De Smet); first infection late summer 1347 (Cesana et al. 2017)
+    population: 400000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, population, rate]
+    source: "Benedictow 2021"
+  - id: dalmatia
+    name: Split, Zadar and Dalmatia
+    seeds: [[16.44, 43.51], [15.23, 44.12], [15.89, 43.73], [14.9, 44.99], [13.85, 44.87]]
+    arrival: 1348-01   # early 1348
+    population: 200000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, population, rate]
+    source: "Benedictow 2021"
+  - id: venice
+    name: Venice
+    seeds: [[12.33, 45.44], [12.28, 45.22]]
+    arrival: 1348-01   # sources split: January 1348, or April (Harrison 2000); infected November 1347 (Cesana et al. 2017)
+    population: 150000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, population, rate]
+    source: "Benedictow 2021"
+  - id: ragusa
+    name: Ragusa and Kotor
+    seeds: [[18.09, 42.65], [18.77, 42.42]]
+    arrival: 1348-01
+    population: 80000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, population, rate]
+    source: "Benedictow 2021"
+  - id: pisa-lucca
+    name: Pisa and Lucca
+    seeds: [[10.4, 43.72], [10.5, 43.84], [10.31, 43.55]]
+    arrival: 1348-01
+    population: 350000
+    rate: [0.45, 0.6]
+    unconfirmed: [population, rate]
+    source: "Benedictow 2021; Tuscan town counts, Herlihy and Klapisch-Zuber 1978"
+  - id: avignon
+    name: Avignon and the lower Rhône
+    seeds: [[4.81, 43.95], [4.81, 44.14], [4.75, 44.56]]
+    arrival: 1348-01
+    population: 240000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, rate]
+    source: "Louis Heyligen's letter from Avignon, via Benedictow 2021"
+  - id: languedoc
+    name: Languedoc and Roussillon
+    seeds: [[3.88, 43.61], [4.36, 43.84], [3.22, 43.34], [3.0, 43.18], [2.35, 43.21], [2.9, 42.7], [3.5, 44.52]]
+    arrival: 1348-01   # Carcassonne in January 1348 (Harrison 2000)
+    page: languedoc
+    population: 1770000
+    rate: [0.33, 0.6]
+    unconfirmed: [rate]
+    source: "Benedictow 2021"
+  - id: florence
+    name: Florence, Prato and Pistoia
+    seeds: [[11.25, 43.77], [11.1, 43.88], [10.92, 43.93], [11.88, 43.46], [10.86, 43.4]]
+    arrival: 1348-03
+    population: 800000
+    rate: [0.45, 0.6]
+    unconfirmed: [population, rate]
+    source: "Boccaccio, Stefani, via Benedictow 2021; Herlihy and Klapisch-Zuber 1978; Cohn 2010 reads the tax records of the city as 80 per cent dead"
+  - id: veneto-friuli
+    name: Padua, Verona and Friuli
+    seeds: [[11.88, 45.41], [12.24, 45.67], [11.55, 45.55], [10.99, 45.44], [13.24, 46.06], [13.77, 45.65]]
+    arrival: 1348-03   # spring 1348
+    population: 800000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, population, rate]
+    source: "Benedictow 2021"
+  - id: nile-delta
+    name: The Nile Delta
+    seeds: [[31.81, 31.42], [31.38, 31.04], [31.0, 30.79], [31.5, 30.6], [32.3, 31.2]]
+    arrival: 1348-03   # spring 1348
+    months: 9
+    population: 1500000
+    rate: [0.33, 0.5]
+    unconfirmed: [population]
+    source: "al-Maqrizi, via Dols 1977; Dols about half dead in Egypt, via Wikipedia; Borsch 2005"
+  - id: ifriqiya
+    name: Tunis and Ifriqiya
+    seeds: [[10.18, 36.8], [10.64, 35.83], [10.1, 35.68], [10.76, 34.74], [9.2, 36.2]]
+    arrival: 1348-04
+    population: 800000
+    rate: [0.25, 0.33]
+    unconfirmed: [population, rate]
+    source: "Ibn Khaldun, via Dols 1977; no counts, Dols's rate for Egypt and Syria"
+  - id: dauphine-lyon
+    name: Lyon and the Dauphiné
+    seeds: [[4.83, 45.76], [4.87, 45.52], [5.72, 45.19], [4.89, 44.93], [6.08, 44.56]]
+    arrival: 1348-04   # spring 1348
+    population: 830000
+    rate: [0.33, 0.6]
+    unconfirmed: [rate]
+    source: "Benedictow 2021"
+  - id: mallorca
+    name: Mallorca and the Balearics
+    seeds: [[2.65, 39.57], [1.43, 38.91], [4.27, 39.89]]
+    arrival: 1348-04
+    page: catalonia
+    population: 96000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, rate]
+    source: "Benedictow 2021"
+  - id: naples
+    name: Naples, Apulia and the Abruzzi
+    seeds: [[14.25, 40.85], [14.76, 40.68], [14.21, 41.11], [13.4, 42.35], [13.93, 42.05], [16.87, 41.12], [16.42, 41.28], [17.24, 40.47], [18.17, 40.35], [15.55, 41.46], [15.8, 40.64]]
+    arrival: 1348-04   # spring 1348
+    page: naples
+    population: 2000000
+    rate: [0.33, 0.6]
+    unconfirmed: [population, rate]
+    source: "Benedictow 2021"
+  - id: catalonia
+    name: Barcelona, Girona and Lleida
+    seeds: [[2.17, 41.39], [2.82, 41.98], [1.25, 41.12], [0.62, 41.62], [2.25, 41.93], [0.52, 40.81]]
+    arrival: 1348-05
+    population: 540000
+    rate: [0.33, 0.6]
+    unconfirmed: [rate]
+    source: "Benedictow 2021"
+  - id: valencia-murcia
+    name: Valencia and Murcia
+    seeds: [[-0.38, 39.47], [-0.05, 39.99], [-0.48, 38.35], [-1.13, 37.99], [-0.99, 37.6]]
+    arrival: 1348-05
+    population: 480000
+    rate: [0.33, 0.6]
+    unconfirmed: [rate]
+    source: "Benedictow 2021"
+  - id: siena
+    name: Siena
+    seeds: [[11.33, 43.32], [11.11, 42.76], [11.78, 43.09]]
+    arrival: 1348-05
+    population: 250000
+    rate: [0.45, 0.6]
+    unconfirmed: [population, rate]
+    source: "Agnolo di Tura, via Benedictow 2021; Herlihy and Klapisch-Zuber 1978"
+  - id: latium-umbria
+    name: Perugia, Orvieto and Rome
+    seeds: [[12.5, 41.9], [12.1, 42.42], [12.11, 42.72], [12.39, 43.11], [12.74, 42.73], [13.52, 43.62], [13.58, 42.85]]
+    arrival: 1348-05
+    population: 1100000
+    rate: [0.33, 0.6]
+    unconfirmed: [population, rate]
+    source: "Benedictow 2021"
+  - id: toulouse
+    name: Toulouse and Albi
+    seeds: [[1.44, 43.6], [2.15, 43.93], [2.57, 44.35], [1.44, 44.45], [1.6, 42.97], [0.59, 43.65]]
+    arrival: 1348-04   # Toulouse by April 1348 (Harrison 2000)
+    population: 1180000
+    rate: [0.33, 0.6]
+    unconfirmed: [rate]
+    source: "Benedictow 2021"
+  - id: emilia
+    name: Bologna, Parma and the Po valley
+    seeds: [[11.34, 44.49], [10.93, 44.65], [10.33, 44.8], [11.62, 44.84], [12.2, 44.42], [12.57, 44.06], [9.69, 45.05]]
+    arrival: 1348-04   # Bologna from spring 1348, deaths from March to September (Harrison 2000)
+    page: north-italy
+    population: 900000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, population, rate]
+    source: "Benedictow 2021"
+  - id: lombardy
+    name: Milan and Lombardy
+    seeds: [[9.19, 45.46], [9.16, 45.19], [9.67, 45.7], [10.21, 45.54], [9.09, 45.81], [10.02, 45.13], [10.79, 45.16]]
+    arrival: 1348-06   # 1348, no month
+    population: 1300000
+    rate: [0.15, 0.6]
+    unconfirmed: [arrival, population]
+    source: "Low: the old view that Milan was lightly hit; high: the European rate of Benedictow 2021"
+  - id: piedmont
+    name: Turin and Piedmont
+    seeds: [[7.69, 45.07], [8.21, 44.9], [8.42, 45.32], [7.55, 44.39]]
+    arrival: 1348-06   # summer 1348
+    population: 600000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, population, rate]
+    source: "Benedictow 2021"
+  - id: carinthia-tyrol
+    name: Carinthia, Styria and Tyrol
+    seeds: [[13.85, 46.61], [14.31, 46.62], [15.44, 47.07], [14.5, 46.05], [11.39, 47.27], [11.35, 46.5], [11.12, 46.07]]
+    arrival: 1348-06   # summer 1348, Trento in June; the Neuberg chronicle dates Styria to November 1348
+    population: 500000
+    rate: [0.33, 0.6]
+    unconfirmed: [population, rate]
+    source: "Benedictow 2021"
+  - id: savoy
+    name: Savoy and Aosta
+    seeds: [[5.92, 45.57], [6.35, 45.28], [6.13, 45.9], [7.32, 45.74]]
+    arrival: 1348-06
+    population: 350000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, rate]
+    source: "Benedictow 2021"
+  - id: granada
+    name: Almería, Málaga and Granada
+    seeds: [[-2.46, 36.84], [-4.42, 36.72], [-3.6, 37.18]]
+    arrival: 1348-06
+    population: 360000
+    rate: [0.2, 0.6]
+    unconfirmed: [arrival, rate]
+    source: "Ibn Khatima of Almería, via Dols 1977; low: Spain's losses moderate, Álvarez-Nogal et al. 2020, via Wikipedia"
+  - id: central-maghreb
+    name: Bougie, Constantine and Algiers
+    seeds: [[5.08, 36.75], [6.61, 36.37], [3.06, 36.75], [7.75, 36.9]]
+    arrival: 1348-06   # 1348, no month
+    population: 700000
+    rate: [0.25, 0.33]
+    unconfirmed: [arrival, population, rate]
+    source: "Ibn Khaldun, via Dols 1977; no counts, Dols's rate for Egypt and Syria"
+  - id: palestine
+    name: Gaza and Jerusalem
+    seeds: [[34.46, 31.5], [34.87, 31.93], [35.23, 31.78], [35.1, 31.53]]
+    arrival: 1348-04   # Gaza in April and May 1348 (Harrison 2000)
+    page: damascus
+    population: 300000
+    rate: [0.25, 0.38]
+    unconfirmed: [population]
+    source: "Ibn Battuta, via Dols 1977; Harrison 2000; rate 25 to 38 per cent, via Wikipedia, uncited; Dols a third"
+  - id: damascus
+    name: Damascus and the Syrian coast
+    seeds: [[36.29, 33.51], [35.5, 33.89], [35.37, 33.56], [35.84, 34.44], [36.72, 34.73], [36.75, 35.13], [36.2, 34.0]]
+    arrival: 1348-06   # summer 1348, before the procession of July
+    page: damascus
+    population: 700000
+    rate: [0.25, 0.38]
+    unconfirmed: [population]
+    source: "Ibn Battuta and Ibn al-Wardi, via Dols 1977; rate 25 to 38 per cent, via Wikipedia, uncited; Dols a third"
+  - id: dorset
+    name: Melcombe and Dorset
+    seeds: [[-2.46, 50.61], [-2.44, 50.71], [-2.6, 50.95]]
+    arrival: 1348-06   # about 24 June 1348
+    page: melcombe
+    population: 220000
+    rate: [0.33, 0.62]
+    source: "Grey Friars' chronicle, via Benedictow 2021, whose rate for England is 62.5 per cent"
+  - id: burgundy
+    name: Dijon, Givry and Burgundy
+    seeds: [[5.04, 47.32], [4.85, 46.78], [6.02, 47.24], [3.57, 47.8], [4.83, 46.31]]
+    arrival: 1348-08   # the Givry register, August to November 1348
+    population: 1060000
+    rate: [0.33, 0.6]
+    source: "Parish register of Givry, via Benedictow 2021"
+  - id: auvergne-limousin
+    name: Clermont and Limoges
+    seeds: [[3.08, 45.78], [1.26, 45.83], [3.88, 45.04]]
+    arrival: 1349-06   # 1349, no month (Harrison 2000)
+    population: 940000
+    rate: [0.33, 0.6]
+    unconfirmed: [rate]
+    source: "Benedictow 2021"
+  - id: bordeaux
+    name: Bordeaux and Gascony
+    seeds: [[-0.58, 44.84], [-1.47, 43.49], [0.62, 44.2], [0.72, 45.18]]
+    arrival: 1348-06   # by June 1348
+    page: bordeaux
+    population: 830000
+    rate: [0.33, 0.6]
+    unconfirmed: [rate]
+    source: "Benedictow 2021"
+  - id: poitou
+    name: La Rochelle and Poitou
+    seeds: [[-1.15, 46.16], [0.34, 46.58], [-0.63, 45.75], [0.16, 45.65]]
+    arrival: 1348-07   # summer 1348
+    page: bordeaux
+    population: 830000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, rate]
+    source: "Benedictow 2021"
+  - id: normandy
+    name: Rouen and Normandy
+    seeds: [[1.1, 49.44], [-0.37, 49.18], [1.15, 49.02], [-1.44, 49.05]]
+    arrival: 1348-06   # Rouen by 24 June 1348, by the chronicle of Normandy
+    page: bordeaux
+    population: 2010000
+    rate: [0.33, 0.6]
+    unconfirmed: [rate]
+    source: "Benedictow 2021"
+  - id: bristol
+    name: Bristol and Gloucester
+    seeds: [[-2.59, 51.45], [-2.65, 51.21], [-2.24, 51.86]]
+    arrival: 1348-08
+    population: 390000
+    rate: [0.33, 0.62]
+    unconfirmed: [arrival]
+    source: "Benedictow 2021"
+  - id: dublin
+    name: Dublin and Drogheda
+    seeds: [[-6.26, 53.35], [-6.35, 53.72]]
+    arrival: 1348-08
+    population: 150000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, population, rate]
+    source: "John Clyn, via Kelly 2001"
+  - id: paris
+    name: Paris and the Île-de-France
+    seeds: [[2.35, 48.86], [1.49, 48.45], [2.59, 49.2], [2.66, 48.54], [3.28, 48.2]]
+    arrival: 1348-06   # Roissy near Paris in June 1348, by Jean de Venette (Harrison 2000)
+    page: paris
+    population: 2600000
+    rate: [0.33, 0.6]
+    source: "Jean de Venette, via Benedictow 2021"
+  - id: lake-geneva
+    name: Geneva, Lausanne and Chillon
+    seeds: [[6.14, 46.2], [6.63, 46.52], [6.93, 46.41], [7.36, 46.23], [7.16, 46.8]]
+    arrival: 1348-09
+    population: 200000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, population, rate]
+    source: "Benedictow 2021"
+  - id: aragon-navarre
+    name: Zaragoza and Navarre
+    seeds: [[-0.88, 41.65], [-0.41, 42.14], [-1.11, 40.34], [-1.64, 42.81], [-1.6, 42.06]]
+    arrival: 1348-09
+    population: 540000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival]
+    source: "Benedictow 2021; Navarre about half dead, Harrison 2000 after Berthe, via Wikipedia"
+  - id: portugal
+    name: Portugal
+    seeds: [[-9.14, 38.72], [-8.43, 40.2], [-8.61, 41.15], [-7.91, 38.57], [-7.93, 37.02], [-8.43, 41.55], [-7.27, 40.54]]
+    arrival: 1348-05   # April or May 1348 (Silva 2021)
+    population: 900000
+    rate: [0.2, 0.5]
+    source: "Silva 2021; population Costa, Lains and Miranda 2016; rate 20 to 35 per cent (Jedwab et al. 2020), up to half (Freire and Lains 2017), via Wikipedia"
+  - id: loire
+    name: Tours, Orléans and the Loire
+    seeds: [[0.69, 47.39], [-0.55, 47.47], [1.91, 47.9], [2.4, 47.08], [0.2, 48.0]]
+    arrival: 1348-09   # autumn 1348
+    population: 1890000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, rate]
+    source: "Benedictow 2021"
+  - id: tlemcen
+    name: Tlemcen and Oran
+    seeds: [[-1.32, 34.88], [-0.63, 35.7]]
+    arrival: 1348-09   # 1348, no month
+    population: 500000
+    rate: [0.25, 0.33]
+    unconfirmed: [arrival, population, rate]
+    source: "Ibn Khaldun, via Dols 1977; no counts, Dols's rate for Egypt and Syria"
+  - id: cairo
+    name: Cairo
+    seeds: [[31.24, 30.04], [31.21, 29.99]]
+    arrival: 1348-09   # September 1348, worst from October 1348 to January 1349 (Harrison 2000)
+    page: cairo
+    population: 600000
+    rate: [0.33, 0.4]
+    source: "al-Maqrizi, via Dols 1977; a third to 40 per cent of up to 600,000, Byrne 2012, via Wikipedia"
+  - id: middle-egypt
+    name: The Fayyum and Middle Egypt
+    seeds: [[30.84, 29.31], [31.1, 29.07], [30.75, 28.1]]
+    arrival: 1348-10   # autumn 1348, up the Nile from Cairo; no month in the sources
+    population: 500000
+    rate: [0.33, 0.5]
+    unconfirmed: [arrival, population]
+    source: "al-Maqrizi, via Dols 1977; Dols about half dead in Egypt, via Wikipedia; Borsch 2005"
+  - id: brittany
+    name: Brittany
+    seeds: [[-1.55, 47.22], [-1.68, 48.11], [-2.76, 47.66], [-4.1, 48.0], [-2.76, 48.51]]
+    arrival: 1349-06   # 1349, no month (Harrison 2000)
+    population: 1180000
+    rate: [0.33, 0.6]
+    unconfirmed: [rate]
+    source: "Benedictow 2021"
+  - id: aleppo
+    name: Aleppo and Antioch
+    seeds: [[37.16, 36.2], [36.16, 36.2], [38.0, 36.4]]
+    arrival: 1348-10   # late 1348
+    population: 400000
+    rate: [0.25, 0.38]
+    unconfirmed: [population]
+    source: "Ibn al-Wardi, via Dols 1977; October 1348, Byrne 2012; rate 25 to 38 per cent, via Wikipedia, uncited"
+  - id: wessex
+    name: Winchester and Wessex
+    seeds: [[-1.31, 51.06], [-1.4, 50.9], [-1.79, 51.07], [-0.97, 51.45]]
+    arrival: 1348-10
+    population: 560000
+    rate: [0.33, 0.62]
+    unconfirmed: [arrival]
+    source: "Bishops' registers, via Benedictow 2021"
+  - id: london
+    name: London and Kent
+    seeds: [[-0.1, 51.51], [1.08, 51.28], [0.5, 51.39], [-0.78, 50.84], [0.9, 51.89]]
+    arrival: 1348-10   # autumn 1348
+    page: london
+    population: 1000000
+    rate: [0.33, 0.62]
+    source: "Benedictow 2021"
+  - id: devon-cornwall
+    name: Devon and Cornwall
+    seeds: [[-3.53, 50.72], [-4.14, 50.37], [-4.72, 50.47]]
+    arrival: 1348-11
+    population: 280000
+    rate: [0.33, 0.62]
+    unconfirmed: [arrival]
+    source: "Bishops' registers of Exeter, via Benedictow 2021"
+  - id: picardy
+    name: Amiens, Arras and Picardy
+    seeds: [[2.3, 49.89], [2.08, 49.43], [2.78, 50.29], [1.61, 50.73], [1.86, 50.95], [3.29, 49.85]]
+    arrival: 1348-11
+    population: 1650000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, rate]
+    source: "Benedictow 2021"
+  - id: upper-egypt
+    name: Upper Egypt
+    seeds: [[31.18, 27.18], [31.7, 26.56], [32.76, 25.91], [32.9, 24.09]]
+    arrival: 1349-01   # Asyut in early 1349
+    months: 9
+    population: 900000
+    rate: [0.33, 0.5]
+    unconfirmed: [population]
+    source: "al-Maqrizi on Asyut, via Dols 1977; Dols about half dead in Egypt, via Wikipedia; Borsch 2005"
+  - id: champagne
+    name: Reims and Troyes
+    seeds: [[4.03, 49.26], [4.07, 48.3], [4.37, 48.96]]
+    arrival: 1348-12
+    population: 940000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, rate]
+    source: "Benedictow 2021"
+  - id: morocco
+    name: Fez and Tangier
+    seeds: [[-5.0, 34.03], [-5.8, 35.77], [-5.32, 35.89], [-6.84, 34.0], [-5.55, 33.9]]
+    arrival: 1348-10   # 1348, no month: the Marinid army brings it home from Ifriqiya (Byrne 2012)
+    population: 1200000
+    rate: [0.25, 0.33]
+    unconfirmed: [population, rate]
+    source: "Byrne 2012, via Wikipedia; Ibn Battuta; no counts, Dols's rate for the Middle East"
+  - id: marrakesh
+    name: Marrakesh
+    seeds: [[-8.0, 31.63], [-9.24, 32.3]]
+    arrival: 1349-06   # no date: Ibn Battuta finds the town nearly empty after the plague about 1351
+    page: ibn-battuta
+    population: 500000
+    rate: [0.25, 0.33]
+    unconfirmed: [arrival, population, rate]
+    source: "Ibn Battuta, via Wikipedia; no counts, Dols's rate for the Middle East"
+  - id: mecca
+    name: Mecca and Jeddah
+    seeds: [[39.83, 21.42], [39.17, 21.5], [40.4, 21.27]]
+    arrival: 1349-02   # the pilgrimage of early 1349
+    source: "Ibn Battuta, via Dols 1977; 1349 in Kohn 1998, 1348 in Byrne 2012, via Wikipedia; no population figure"
+  - id: iraq
+    name: Mosul and Baghdad
+    seeds: [[43.13, 36.34], [44.37, 33.31]]
+    arrival: 1349-06   # 1349, no month
+    source: "Ayalon 2014 and Kohn 1998, via Wikipedia; no population figure"
+  - id: midlands
+    name: Oxford and the Midlands
+    seeds: [[-1.26, 51.75], [-1.51, 52.41], [-1.13, 52.64], [-2.22, 52.19], [-0.9, 52.24], [-0.54, 53.23], [-1.15, 52.95], [-1.83, 52.68], [-2.75, 52.71], [-2.89, 53.19]]
+    arrival: 1349-03   # spring 1349
+    page: england-1349
+    population: 1680000
+    rate: [0.33, 0.62]
+    unconfirmed: [arrival]
+    source: "Bishops' registers of Lincoln and Worcester, via Benedictow 2021"
+  - id: east-anglia
+    name: Norwich and East Anglia
+    seeds: [[1.3, 52.63], [1.16, 52.06], [0.12, 52.2], [0.4, 52.75]]
+    arrival: 1349-03   # spring 1349
+    page: england-1349
+    population: 730000
+    rate: [0.33, 0.62]
+    unconfirmed: [arrival]
+    source: "Manor court rolls, via Benedictow 2021"
+  - id: wales
+    name: Wales
+    seeds: [[-3.18, 51.48], [-4.31, 51.86], [-3.39, 51.95], [-4.27, 53.14], [-4.08, 52.41]]
+    arrival: 1349-03   # spring 1349
+    page: england-1349
+    population: 250000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, population, rate]
+    source: "Benedictow 2021"
+  - id: leinster
+    name: Kilkenny and Leinster
+    seeds: [[-7.25, 52.65], [-7.11, 52.26], [-6.46, 52.33], [-6.94, 52.4]]
+    arrival: 1349-03   # Lent 1349
+    page: ireland
+    population: 200000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, population, rate]
+    source: "John Clyn, via Kelly 2001"
+  - id: austria
+    name: Vienna and Austria
+    seeds: [[16.37, 48.21], [14.29, 48.31], [16.24, 47.81], [15.6, 48.41], [13.05, 47.8]]
+    arrival: 1349-04   # spring 1349; Harrison 2000 gives Vienna in May
+    population: 900000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, population]
+    source: "Benedictow 2021"
+  - id: hungary-west
+    name: Buda, Pressburg and Zagreb
+    seeds: [[19.04, 47.5], [17.11, 48.15], [17.63, 47.68], [18.23, 46.07], [15.98, 45.81]]
+    arrival: 1349-04   # 1349, the worst year in the records
+    population: 1000000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, population, rate]
+    source: "Vadas 2024; Benedictow 2021"
+  - id: andalusia
+    name: Seville and Córdoba
+    seeds: [[-5.98, 37.39], [-4.78, 37.89], [-3.79, 37.78], [-6.29, 36.53]]
+    arrival: 1349-04   # 1349, no month
+    population: 720000
+    rate: [0.2, 0.6]
+    unconfirmed: [arrival, rate]
+    source: "Benedictow 2021; low: Spain's losses moderate, Álvarez-Nogal et al. 2020, via Wikipedia"
+  - id: viken
+    name: Oslo and eastern Norway
+    seeds: [[10.75, 59.91], [10.4, 59.27], [11.07, 60.8], [9.61, 59.21]]
+    arrival: 1349-05   # deaths recorded from May 1349; Benedictow argues for a first infection in autumn 1348
+    population: 160000
+    rate: [0.33, 0.65]
+    source: "Benedictow 2021; 60 to 65 per cent, Harrison 2000, via Wikipedia"
+  - id: basel-swiss
+    name: Basel, Bern and Zurich
+    seeds: [[7.59, 47.56], [7.85, 47.99], [7.45, 46.95], [8.54, 47.37], [8.31, 47.05]]
+    arrival: 1349-04   # April to May 1349
+    population: 500000
+    rate: [0.33, 0.6]
+    unconfirmed: [population, rate]
+    source: "Benedictow 2021"
+  - id: north-england
+    name: York and the north of England
+    seeds: [[-1.08, 53.96], [-0.34, 53.74], [-1.57, 54.78], [-1.61, 54.97], [-2.93, 54.89], [-2.8, 54.05]]
+    arrival: 1349-03   # Yorkshire about February 1349, York from May (Benedictow 2004)
+    page: england-1349
+    population: 1120000
+    rate: [0.33, 0.62]
+    source: "Bishops' registers of York, via Benedictow 2021"
+  - id: munster
+    name: Cork and Limerick
+    seeds: [[-8.47, 51.9], [-8.63, 52.66], [-7.89, 52.52]]
+    arrival: 1349-06
+    population: 200000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, population, rate]
+    source: "Kelly 2001"
+  - id: swabia-bavaria
+    name: Augsburg, Munich and Swabia
+    seeds: [[9.99, 48.4], [10.9, 48.37], [9.17, 47.66], [9.18, 48.78], [11.58, 48.14], [12.1, 49.01], [12.15, 48.54], [13.46, 48.57]]
+    arrival: 1349-06   # by tradition Mühldorf am Inn in June 1348
+    population: 2200000
+    rate: [0.1, 0.6]
+    unconfirmed: [arrival, population, rate]
+    source: "Benedictow 2021; low: about a tenth for Germany and the south little touched (Vasold 2003), via Wikipedia"
+  - id: hungary-east
+    name: Szeged, Debrecen and Upper Hungary
+    seeds: [[20.15, 46.25], [21.63, 47.53], [21.26, 48.72], [18.09, 48.31]]
+    arrival: 1349-06
+    population: 900000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, population, rate]
+    source: "Vadas 2024; Benedictow 2021"
+  - id: castile
+    name: Toledo and New Castile
+    seeds: [[-4.02, 39.86], [-3.7, 40.42], [-2.13, 40.07], [-3.93, 38.98], [-6.97, 38.88], [-6.37, 39.47]]
+    arrival: 1349-06   # 1349, no month
+    population: 1080000
+    rate: [0.2, 0.6]
+    unconfirmed: [arrival, rate]
+    source: "Benedictow 2021; low: Spain's losses moderate, Álvarez-Nogal et al. 2020, via Wikipedia"
+  - id: old-castile
+    name: Burgos, León and Galicia
+    seeds: [[-3.7, 42.34], [-4.72, 41.65], [-5.66, 40.97], [-5.57, 42.6], [-5.85, 43.36], [-2.93, 43.26], [-3.8, 43.46], [-2.47, 41.76], [-2.67, 42.85]]
+    arrival: 1349-06   # 1349, no month
+    population: 1680000
+    rate: [0.2, 0.6]
+    unconfirmed: [arrival, rate]
+    source: "Benedictow 2021; low: Spain's losses moderate, Álvarez-Nogal et al. 2020, via Wikipedia"
+  - id: galicia
+    name: A Coruña and Galicia
+    seeds: [[-8.4, 43.37], [-8.54, 42.88], [-7.56, 43.01]]
+    arrival: 1348-04   # A Coruña about April 1348 (Silva 2021)
+    population: 480000
+    rate: [0.2, 0.6]
+    unconfirmed: [rate]
+    source: "Silva 2021, via Wikipedia; low: Spain's losses moderate, Álvarez-Nogal et al. 2020"
+  - id: lorraine
+    name: Metz and Lorraine
+    seeds: [[6.18, 49.12], [6.18, 48.69], [5.38, 49.16]]
+    arrival: 1349-06
+    population: 590000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, rate]
+    source: "Benedictow 2021"
+  - id: alsace
+    name: Strasbourg and Alsace
+    seeds: [[7.75, 48.58], [7.36, 48.08], [7.79, 48.82]]
+    arrival: 1349-07
+    population: 410000
+    rate: [0.33, 0.6]
+    unconfirmed: [rate]
+    source: "Closener and Twinger von Königshofen, via Benedictow 2021"
+  - id: bergen
+    name: Bergen and western Norway
+    seeds: [[5.32, 60.39], [6.5, 61.2], [6.15, 62.47]]
+    arrival: 1349-08
+    population: 90000
+    rate: [0.33, 0.65]
+    source: "Icelandic annals, via Benedictow 2021; 60 to 65 per cent, Harrison 2000, via Wikipedia"
+  - id: rogaland
+    name: Stavanger and Agder
+    seeds: [[5.73, 58.97], [8.0, 58.15]]
+    arrival: 1350-06   # first deaths noted at Stavanger in 1350, no month
+    population: 40000
+    rate: [0.33, 0.65]
+    source: "Harrison 2000, via Wikipedia"
+  - id: middle-rhine
+    name: Frankfurt, Mainz and Speyer
+    seeds: [[8.43, 49.32], [8.36, 49.63], [8.27, 50.0], [8.68, 50.11], [7.59, 50.36], [6.64, 49.75]]
+    arrival: 1349-09   # Frankfurt from autumn 1349
+    population: 1000000
+    rate: [0.33, 0.6]
+    unconfirmed: [population, rate]
+    source: "Benedictow 2021"
+  - id: flanders
+    name: Tournai and Flanders
+    seeds: [[3.22, 51.21], [3.72, 51.05], [2.88, 50.85], [3.39, 50.61], [3.06, 50.63], [3.95, 50.45], [3.52, 50.36]]
+    arrival: 1349-08   # Tournai from August 1349 (Harrison 2000); Oosterman 2020 reads Li Muisis as June
+    page: flanders
+    population: 1100000
+    rate: [0.33, 0.6]
+    unconfirmed: [population, rate]
+    source: "Gilles Li Muisis, via Benedictow 2021"
+  - id: gaelic-ireland
+    name: Connacht and Ulster
+    seeds: [[-9.05, 53.27], [-8.47, 54.27], [-6.65, 54.35], [-7.31, 55.0], [-7.94, 53.42], [-8.1, 54.65]]
+    arrival: 1349-09   # 1349, in the Annals of Connacht
+    population: 300000
+    rate: [0.2, 0.5]
+    unconfirmed: [arrival, population, rate]
+    source: "Kelly 2001, who holds that the Gaelic countryside was hit too, the English towns harder"
+  - id: brabant-liege
+    name: Brussels, Antwerp and Liège
+    seeds: [[4.35, 50.85], [4.4, 51.22], [4.7, 50.88], [5.57, 50.63], [4.87, 50.47], [6.13, 49.61], [5.69, 50.85]]
+    arrival: 1349-10
+    population: 900000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, population, rate]
+    source: "Benedictow 2021"
+  - id: holland-utrecht
+    name: Holland, Zeeland and Utrecht
+    seeds: [[4.69, 51.81], [4.49, 52.16], [4.64, 52.38], [5.12, 52.09], [6.16, 52.25], [6.57, 53.22], [3.61, 51.5], [5.86, 51.84]]
+    arrival: 1350-06   # 1350, no month: Frisia from Germany (Harrison 2000)
+    population: 700000
+    rate: [0.33, 0.6]
+    unconfirmed: [population, rate]
+    source: "Benedictow 2021"
+  - id: franconia-hesse
+    name: Nuremberg, Würzburg and Hesse
+    seeds: [[11.08, 49.45], [9.93, 49.79], [10.89, 49.89], [8.77, 50.81], [9.68, 50.55], [9.48, 51.31]]
+    arrival: 1349-10
+    population: 1300000
+    rate: [0.1, 0.6]
+    unconfirmed: [population, rate]
+    source: "Benedictow 2021; low: about a tenth for Germany and the south little touched (Vasold 2003), via Wikipedia"
+  - id: trondelag
+    name: Trondheim
+    seeds: [[10.4, 63.43], [11.5, 64.0]]
+    arrival: 1349-10   # autumn 1349
+    population: 80000
+    rate: [0.33, 0.65]
+    source: "Benedictow 2021; 60 to 65 per cent, Harrison 2000, via Wikipedia"
+  - id: cologne-westphalia
+    name: Cologne and Westphalia
+    seeds: [[6.96, 50.94], [6.08, 50.78], [6.77, 51.23], [7.47, 51.51], [7.63, 51.96], [8.05, 52.28], [8.75, 51.72]]
+    arrival: 1349-12   # Cologne in December 1349 (Harrison 2000)
+    population: 1500000
+    rate: [0.33, 0.6]
+    unconfirmed: [population, rate]
+    source: "Benedictow 2021"
+  - id: scotland-borders
+    name: Selkirk and the Borders
+    seeds: [[-2.84, 55.55], [-2.45, 55.6], [-2.0, 55.77], [-3.6, 55.07]]
+    arrival: 1349-12
+    population: 100000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, population, rate]
+    source: "Henry Knighton, via Benedictow 2021"
+  - id: scotland-lowlands
+    name: Edinburgh, Glasgow and Perth
+    seeds: [[-3.19, 55.95], [-4.25, 55.86], [-3.44, 56.4], [-2.8, 56.34], [-2.1, 57.15], [-3.94, 56.12]]
+    arrival: 1350-01   # John of Fordun gives 1350
+    population: 350000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, population, rate]
+    source: "John of Fordun, via Benedictow 2021"
+  - id: gibraltar
+    name: Gibraltar and Algeciras
+    seeds: [[-5.35, 36.14], [-5.45, 36.13], [-5.6, 36.01]]
+    arrival: 1350-01   # New Year 1350, in the camp (Jackson 1986)
+    page: gibraltar
+    population: 20000
+    rate: [0.33, 0.6]
+    unconfirmed: [rate]
+    source: "Crónica de Alfonso XI, via Benedictow 2021"
+  - id: thuringia-saxony
+    name: Erfurt, Magdeburg and Meissen
+    seeds: [[11.03, 50.98], [13.47, 51.16], [12.37, 51.34], [11.63, 52.13], [11.97, 51.48], [13.74, 51.05]]
+    arrival: 1350-06   # early summer 1350, inland later (Harrison 2000)
+    population: 1400000
+    rate: [0.33, 0.6]
+    unconfirmed: [population, rate]
+    source: "Benedictow 2021"
+  - id: lower-saxony
+    name: Bremen, Brunswick and Lüneburg
+    seeds: [[10.52, 52.27], [9.73, 52.37], [10.43, 51.91], [8.8, 53.08], [10.41, 53.25]]
+    arrival: 1350-06   # early summer 1350 (Harrison 2000)
+    population: 1000000
+    rate: [0.33, 0.6]
+    unconfirmed: [population]
+    source: "Benedictow 2021"
+  - id: hamburg-lubeck
+    name: Hamburg and Lübeck
+    seeds: [[9.99, 53.55], [10.69, 53.87], [10.13, 54.32]]
+    arrival: 1350-05
+    population: 300000
+    rate: [0.33, 0.6]
+    unconfirmed: [population]
+    source: "Benedictow 2021"
+  - id: bohemian-crown
+    name: Prague, Brno and Breslau
+    seeds: [[14.42, 50.08], [16.61, 49.2], [17.25, 49.59], [17.04, 51.11], [13.38, 49.75], [14.47, 48.97]]
+    arrival: 1350-06   # 1350, no month; how hard it struck is debated
+    population: 2200000
+    rate: [0.1, 0.33]
+    unconfirmed: [population]
+    source: "Benedictow 2021, parts hit in 1350; less than 15 per cent sick, Gottfried 2010, via Wikipedia; Izdebski et al. 2022"
+  - id: east-sweden
+    name: Visby, Stockholm and Uppsala
+    seeds: [[18.3, 57.64], [18.07, 59.33], [17.64, 59.86], [16.54, 59.61], [15.62, 58.41], [16.36, 56.66]]
+    arrival: 1350-05   # Visby from May, at the latest July 1350 (Myrdal)
+    population: 350000
+    rate: [0.33, 0.6]
+    unconfirmed: [population]
+    source: "Benedictow 2021"
+  - id: jutland
+    name: Ribe and Jutland
+    seeds: [[8.76, 55.33], [10.2, 56.16], [9.4, 56.45], [9.57, 54.52]]
+    arrival: 1350-07   # Ribe July to October 1350
+    population: 500000
+    rate: [0.33, 0.6]
+    unconfirmed: [rate]
+    source: "Benedictow 2021"
+  - id: zealand-scania
+    name: Copenhagen, Roskilde and Lund
+    seeds: [[12.08, 55.64], [12.57, 55.68], [13.19, 55.7], [10.39, 55.4]]
+    arrival: 1350-07   # Scania July to December, Copenhagen August and September 1350 (Myrdal)
+    population: 500000
+    rate: [0.33, 0.6]
+    unconfirmed: [rate]
+    source: "Benedictow 2021"
+  - id: jamtland
+    name: Jämtland
+    seeds: [[14.6, 63.2], [13.6, 63.6]]
+    arrival: 1350-09   # September 1350 (Myrdal)
+    population: 15000
+    rate: [0.33, 0.65]
+    source: "Myrdal, via Wikipedia"
+  - id: mecklenburg-pomerania
+    name: Rostock, Stralsund and Brandenburg
+    seeds: [[12.14, 54.09], [11.47, 53.89], [13.09, 54.31], [14.55, 53.43], [13.4, 52.52], [12.55, 52.41], [14.55, 52.35], [15.57, 54.18]]
+    arrival: 1350-07
+    population: 900000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, population, rate]
+    source: "Benedictow 2021"
+  - id: prussia
+    name: Danzig and Prussia
+    seeds: [[18.65, 54.35], [19.03, 54.04], [20.5, 54.7], [18.6, 53.0]]
+    arrival: 1349-07   # Elbing from July 1349, by Benedictow's dating; Harrison 2000 gives 1351
+    population: 400000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, population, rate]
+    source: "Benedictow 2021"
+  - id: west-sweden
+    name: Lödöse, Skara and Halland
+    seeds: [[12.15, 58.03], [13.44, 58.39], [14.16, 57.78]]
+    arrival: 1350-09   # late summer or autumn 1350, from Norway
+    population: 250000
+    rate: [0.33, 0.6]
+    unconfirmed: [population]
+    source: "Benedictow 2021"
+  - id: halland
+    name: Halland
+    seeds: [[12.86, 56.67], [12.25, 57.1]]
+    arrival: 1349-09   # in Magnus Eriksson's letter of about September 1349
+    population: 50000
+    rate: [0.33, 0.6]
+    unconfirmed: [population]
+    source: "Magnus Eriksson's letter, Harrison 2000, via Wikipedia"
+  - id: poland
+    name: Kraków, Poznań and Masovia
+    seeds: [[19.94, 50.06], [16.93, 52.4], [21.75, 50.68], [19.2, 52.06], [19.7, 52.55], [21.0, 52.23]]
+    arrival: 1350-06   # 1350, no month (Benedictow 2021); Cesana et al. 2017 give 1351
+    population: 1500000
+    rate: [0.1, 0.5]
+    unconfirmed: [population]
+    source: "Low: Izdebski et al. 2022, whose pollen shows farming carry on; high: below the European rate, the records are few"
+  - id: yemen
+    name: Yemen
+    seeds: [[44.2, 15.35], [44.0, 13.6], [45.03, 12.8], [43.3, 14.8]]
+    arrival: 1351-06   # 1351, no month
+    source: "Dols 1977; no population figure"
+  - id: livonia
+    name: Riga, Dorpat and Reval
+    seeds: [[24.1, 56.95], [26.72, 58.38], [24.75, 59.44], [21.97, 56.97], [24.5, 58.38]]
+    arrival: 1351-09   # 1351, no month
+    population: 300000
+    rate: [0.33, 0.6]
+    unconfirmed: [population, rate]
+    source: "Benedictow 2021"
+  - id: pskov
+    name: Pskov
+    seeds: [[28.33, 57.82], [29.0, 57.3]]
+    arrival: 1352-03   # spring 1352
+    population: 100000
+    rate: [0.33, 0.67]
+    unconfirmed: [population]
+    source: "Pskov chronicle, via Benedictow 2021; two thirds dead by the chronicle, via Wikipedia"
+  - id: smolensk-chernigov
+    name: Smolensk, Chernigov and Kiev
+    seeds: [[32.05, 54.78], [31.3, 51.5], [33.9, 51.68], [30.52, 50.45]]
+    arrival: 1352-06   # 1352, no month
+    population: 800000
+    rate: [0.33, 0.6]
+    unconfirmed: [arrival, population, rate]
+    source: "Russian chronicles for 1352, via Benedictow 2021"
+  - id: lithuania
+    name: Lithuania
+    seeds: [[25.28, 54.69], [23.9, 54.9], [22.3, 55.7], [26.5, 55.9]]
+    arrival: 1352-06   # 1352, no month
+    population: 400000
+    rate: [0.1, 0.5]
+    unconfirmed: [population, rate]
+    source: "Lithuania struck as Russia was in 1352, via Wikipedia, uncited; low: Izdebski et al. 2022"
+  - id: novgorod
+    name: Novgorod and Beloozero
+    seeds: [[31.27, 58.52], [32.3, 60.1], [37.8, 60.03], [33.8, 58.0]]
+    arrival: 1352-08   # August 1352
+    population: 400000
+    rate: [0.33, 0.6]
+    unconfirmed: [population]
+    source: "Novgorod chronicle, via Benedictow 2021"
+  - id: moscow
+    name: Moscow
+    seeds: [[37.62, 55.75], [38.78, 55.08], [36.6, 55.6]]
+    arrival: 1353-03   # spring 1353, Simeon dies 26 April
+    population: 600000
+    rate: [0.33, 0.6]
+    unconfirmed: [population]
+    source: "Russian chronicles for 1353, via Benedictow 2021"
+# Land no dated arrival reaches by the end of 1353. Its seeds keep the regions' land off it.
+blank:
+  - why: "Iceland, spared until 1402"
+    seeds: [[-19.0, 64.8], [-15.0, 65.3], [-22.0, 64.0]]
+  - why: "Faroes, Shetland and the Highlands: no dated arrival"
+    seeds: [[-6.9, 62.0], [-1.2, 60.3], [-3.0, 58.6], [-4.5, 57.5], [-5.5, 56.5], [-6.5, 57.5]]
+  - why: "northern Scandinavia and Finland: no dated arrival"
+    seeds: [[14.5, 67.5], [19.0, 69.6], [25.0, 70.0], [20.0, 67.5], [15.0, 61.2], [17.0, 62.5], [20.0, 64.0],
+      [22.3, 60.45], [24.9, 60.2], [26.0, 62.5], [28.0, 64.0], [25.5, 65.5], [19.9, 60.1], [29.5, 61.0]]
+  - why: "northern Russia and the Volga: no dated arrival"
+    seeds: [[33.0, 62.0], [33.0, 66.0], [40.0, 64.5], [45.0, 62.0], [57.0, 62.0], [50.0, 58.0], [44.0, 56.3], [40.4, 56.13],
+      [39.74, 54.63], [36.3, 54.2], [42.0, 53.0], [49.1, 55.0], [46.0, 51.5], [52.0, 52.0], [60.0, 53.0],
+      [41.5, 59.0]]
+  - why: "Belarus and Galicia-Volhynia: no dated arrival"
+    seeds: [[27.55, 53.9], [28.8, 55.5], [30.0, 52.5], [25.5, 50.5],
+      [24.0, 49.8], [26.0, 52.5], [23.0, 53.2]]
+  - why: "the Pontic steppe, Moldavia and Wallachia: no dated arrival"
+    seeds: [[33.0, 47.0], [30.0, 47.0], [36.5, 47.5], [36.0, 49.5], [28.86, 47.0], [27.6, 47.16], [26.1, 44.43], [24.0, 44.3],
+      [23.6, 46.77], [25.6, 45.65], [21.9, 45.75], [32.0, 49.0]]
+  - why: "Bulgaria, Serbia, Bosnia, Albania and Epirus: no dated arrival"
+    seeds: [[25.6, 43.08], [27.91, 43.21], [23.32, 42.7], [24.75, 42.15], [26.55, 41.68], [20.46, 44.8], [20.9, 43.3],
+      [21.43, 42.0], [20.74, 42.21], [17.8, 44.2], [18.4, 43.86], [19.26, 42.44], [19.82, 41.33], [19.44, 41.32],
+      [20.85, 39.66], [20.98, 39.16]]
+  - why: "Anatolia beyond the Marmara: no dated arrival"
+    seeds: [[32.85, 39.93], [32.5, 37.87], [37.0, 39.75], [27.14, 38.42], [28.5, 37.2], [30.7, 36.9], [35.3, 37.0], [40.2, 37.9],
+      [41.3, 39.9], [38.3, 38.35], [34.9, 41.9], [31.0, 40.8], [30.5, 38.7], [33.5, 36.5]]
+  - why: "the Caucasus, Iran and southern Iraq: no dated arrival"
+    seeds: [[44.8, 41.7], [42.7, 42.27], [44.5, 40.2], [49.8, 40.4], [46.3, 38.1], [49.5, 37.3], [51.4, 35.7], [53.0, 30.0],
+      [58.0, 32.0], [48.5, 31.3], [47.8, 30.5], [40.0, 35.0], [47.0, 43.0], [45.5, 42.5]]
+  - why: "Central Asia and the Kazakh steppe: no dated arrival"
+    seeds: [[76.9, 43.25], [72.0, 40.8], [75.9, 41.4], [78.4, 44.0], [74.5, 46.5], [71.4, 42.9], [69.2, 41.3], [66.9, 39.65],
+      [64.4, 39.8], [62.0, 37.6], [58.4, 37.9], [68.0, 35.0], [61.5, 45.5], [56.0, 44.0], [54.5, 47.5], [66.0, 48.0],
+      [70.0, 51.0], [62.0, 50.0], [78.0, 41.0], [80.0, 46.0], [57.0, 40.0], [52.0, 42.0], [53.0, 39.5]]
+  - why: "Arabia beyond Mecca, and Medina, which the sources say was spared"
+    seeds: [[39.6, 24.47], [38.5, 30.5], [41.0, 29.0], [45.0, 26.0], [47.0, 24.6], [50.0, 20.0], [55.0, 23.5], [51.5, 25.3],
+      [37.5, 27.0], [43.0, 18.5], [48.5, 15.5], [37.5, 33.0], [41.5, 32.0], [38.0, 23.5]]
+  - why: "the deserts of Egypt and Sinai, Libya, the Sahara and southern Morocco: no dated arrival"
+    seeds: [[28.0, 26.0], [33.5, 26.5], [25.5, 29.2], [33.8, 28.6], [13.2, 32.9], [20.1, 32.1], [15.5, 28.0], [22.0, 26.0],
+      [-5.0, 32.0], [-2.0, 32.0], [3.0, 32.0], [5.7, 34.0], [9.0, 31.0], [1.0, 28.0], [-6.0, 29.0],
+      [8.0, 26.0], [-10.0, 27.0], [26.0, 23.0], [33.0, 22.0], [30.0, 22.0], [35.5, 20.0], [29.6, 29.6], [29.9, 28.0],
+      [30.5, 26.6], [31.6, 25.0], [32.3, 29.2], [32.4, 27.8], [33.6, 24.6]]

@@ -1,0 +1,9 @@
+The plague reaches London in the autumn of 1348, by November at the latest and by some accounts at the end of September. By Ole Benedictow’s reconstruction it comes by three roads: overland from Weymouth through Salisbury and Winchester, overland from Gloucester, and along the coast by ship. It kills through the winter and is at its worst in the spring of 1349.
+
+The churchyards of London cannot hold the dead. Ralph Stratford, the bishop of London, buys a field outside the walls at West Smithfield, called No Man’s Land, and consecrates it for burials. In 1349 Sir Walter Manny, one of Edward III’s captains, leases the land next to it for a second cemetery, where the Charterhouse is later built. Robert of Avesbury, a clerk in London, wrote that between 2 February and 12 April 1349 more than two hundred bodies were buried almost every day in the new ground by Smithfield. East of the Tower two more cemeteries are opened at [East Smithfield](@east-smithfield), and in 1350 Edward III founds the abbey of St Mary Graces beside them.
+
+Edward III has called Parliament to meet at Westminster in January 1349. On 1 January he puts it off, because the plague is growing at Westminster and in London.
+
+Between 1986 and 1988 archaeologists of the Museum of London excavated part of the East Smithfield cemetery, before new buildings went up on the site of the old Royal Mint. They found about 760 skeletons laid side by side in long trenches, in places five deep. In 2011 geneticists of the universities of Tübingen and McMaster recovered the DNA of the bacterium Yersinia pestis from the teeth of these dead. From it they pieced together the first genome of the bacterium that caused the Black Death, and showed that it stands close to the ancestor of the strains that cause plague today.
+
+@image london-tower-1480s-99e1b3

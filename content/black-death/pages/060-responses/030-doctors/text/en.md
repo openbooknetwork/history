@@ -1,0 +1,9 @@
+The doctors of 1348 cannot see the cause of the plague, and they explain it with the learning of their time: the medicine of the ancient Greeks, handed down and enlarged by Arabic writers, and astrology. Most hold that the plague spreads through air corrupted by the stars, by rotting matter or by vapours from the earth. Jacme d’Agramont, at Lleida in Catalonia, has written the first tract on the plague in April 1348.
+
+The best known answer comes from Paris. At the request of King Philip VI the masters of the [faculty of medicine](@paris-faculty) deliver a report in October 1348. Its distant cause, they write, is a conjunction of Saturn, Jupiter and Mars in the sign of Aquarius on 20 March 1345, which corrupted the air. They advise fires of fragrant wood in the house, a sober diet and calm, and they warn against bathing.
+
+[Gentile da Foligno](@gentile-da-foligno), a famous teacher of medicine, writes several short opinions on the plague at Perugia in the spring of 1348. He holds that poisonous vapours pass from the sick to the healthy through their breath, and he advises bloodletting and theriac, an old remedy against poisons. He dies of the plague at Perugia on 18 June 1348.
+
+In al-Andalus two writers give more weight to what they see. [Ibn Khatima](@ibn-khatima), a doctor of Almería, watches the plague in his city from June 1348, and in 1349 he writes that those who come near the sick fall ill while those who keep away mostly stay well. [Ibn al-Khatib](@ibn-al-khatib), the secretary and later vizier of the sultans of Granada, writes that contagion is proved by experience, research, the senses and reliable reports, and that a saying of the Prophet must be read in the light of such proof. Most Muslim jurists of the time hold that there is no contagion, and that a believer should neither flee the plague nor fear it.
+
+@image physician-urine-14th-184581

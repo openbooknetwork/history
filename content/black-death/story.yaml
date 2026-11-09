@@ -1,0 +1,50 @@
+# One story: a timeline shown on one map.
+id: black-death
+title: "The Black Death"
+summary: "The plague of 1346 to 1353, from the Tian Shan and the siege of Caffa across the Mediterranean, Europe and the Middle East, the dead it left, and how towns, rulers and doctors answered it."
+cover: tournai-burial-6b9e94   # the people of Tournai bury the dead, Gilles Li Muisis's chronicle, about 1353; shown on the main page
+span: "1338 – 1353"
+languages: [en]
+default_language: en
+labels:
+  countries: false
+
+# Map extent: [west, south, east, north]. Iceland in the west, the Chüy valley in the east, Mecca and Upper Egypt in
+# the south, Trondheim in the north.
+extent: [-25, 12, 80, 71]
+# Countries whose land the zones are clipped to: the lands the plague reached. Natural Earth names.
+land: [Iceland, Faeroe Is., Ireland, United Kingdom, Isle of Man, Jersey, Guernsey, Norway, Sweden, Åland, Finland, Denmark,
+  Portugal, Spain, Andorra, France, Monaco, Belgium, Luxembourg, Netherlands, Germany, Switzerland, Liechtenstein, Austria,
+  Italy, San Marino, Vatican, Malta, Czechia, Slovakia, Hungary, Slovenia, Croatia, Bosnia and Herz., Serbia, Montenegro,
+  Kosovo, Albania, Macedonia, Greece, Bulgaria, Romania, Moldova, Ukraine, Belarus, Poland, Lithuania, Latvia, Estonia, Russia,
+  Georgia, Armenia, Azerbaijan, Turkey, Cyprus, N. Cyprus, Syria, Lebanon, Israel, Palestine, Jordan, Iraq, Iran, Kuwait,
+  Saudi Arabia, Bahrain, Qatar, United Arab Emirates, Oman, Yemen, Egypt, Libya, Tunisia, Algeria, Morocco, Kazakhstan,
+  Uzbekistan, Turkmenistan, Kyrgyzstan, Tajikistan, Afghanistan]
+# Countries drawn with borders. Everything else inside the extent is left out.
+countries: [Iceland, Faeroe Is., Greenland, Ireland, United Kingdom, Isle of Man, Jersey, Guernsey, Norway, Sweden, Åland, Finland,
+  Denmark, Portugal, Spain, Andorra, France, Monaco, Belgium, Luxembourg, Netherlands, Germany, Switzerland, Liechtenstein,
+  Austria, Italy, San Marino, Vatican, Malta, Czechia, Slovakia, Hungary, Slovenia, Croatia, Bosnia and Herz., Serbia,
+  Montenegro, Kosovo, Albania, Macedonia, Greece, Bulgaria, Romania, Moldova, Ukraine, Belarus, Poland, Lithuania, Latvia,
+  Estonia, Russia, Georgia, Armenia, Azerbaijan, Turkey, Cyprus, N. Cyprus, Syria, Lebanon, Israel, Palestine, Jordan, Iraq,
+  Iran, Kuwait, Saudi Arabia, Bahrain, Qatar, United Arab Emirates, Oman, Yemen, Egypt, Libya, Tunisia, Algeria, Morocco,
+  W. Sahara, Mauritania, Mali, Niger, Chad, Sudan, S. Sudan, Eritrea, Ethiopia, Djibouti, Kazakhstan, Uzbekistan, Turkmenistan,
+  Kyrgyzstan, Tajikistan, Afghanistan, Pakistan, India, China]
+
+# Zone families. A zone subtracts every zone from a family with a lower priority number, so the land reached since
+# the page before (plague-new) shows outside the land reached earlier (plague).
+families:
+  plague:      { priority: 0, color: "#111111", color_dark: "#757575", opacity: 0.7 }    # the land the plague has reached
+  plague-new:  { priority: 1, color: "#e0a800", color_dark: "#f2c94c", pattern: hatch }  # the land reached since the page before
+  genoa:       { priority: 2, color: "#2f6fb0", color_dark: "#6fa6e0" }                  # Genoese Caffa and Genoese ships
+  horde:       { priority: 2, color: "#7a4e2d", color_dark: "#b98560" }                  # the Golden Horde
+  hungary:     { priority: 2, color: "#3d7a2a", color_dark: "#7cc160" }                  # Louis I's army leaving Naples
+  castile:     { priority: 2, color: "#8c2f45", color_dark: "#d77589" }                  # Alfonso XI's army at Gibraltar
+  scots:       { priority: 2, color: "#1f8a8a", color_dark: "#4fc4c4" }                  # the Scottish army of 1349
+  flagellants: { priority: 2, color: "#6a3d9a", color_dark: "#a98bd6" }                  # the flagellant processions of 1349
+  battuta:     { priority: 2, color: "#e2734a", color_dark: "#f7a07c" }                  # Ibn Battuta's road home
+  killings:    { priority: 2, color: "#b5352a", color_dark: "#e8695c" }                  # the killings of Jews, on flame markers
+smoothing: 4
+
+tally:
+  label: "Estimated deaths"
+  note: "Reconstructed from regional populations and death rates (Benedictow 2021, Dols 1977)"

@@ -1,0 +1,9 @@
+In September 1343 a brawl at [Tana](@tana) ends with an official of the Horde dead, killed by the Venetian noble Andreolo Civran. Jani Beg expels the Italians from the town, and the Venetians and Genoese flee by sea to Caffa, the Genoese port in the Crimea. The khan’s army follows them and besieges Caffa until February 1344, when an Italian relief force breaks the siege. Genoa and Venice stop their ships from trading with the Horde’s ports. In 1345 the Horde’s army returns and besieges Caffa again, and in 1346 the plague breaks out in its camp.
+
+The best known account of what follows comes from Gabriele de’ Mussi, a notary of Piacenza, who writes it about 1348. In his account the disease kills the Tatars by the thousand every day, and the dying besiegers lose interest in the siege. They “ordered corpses to be placed in catapults and lobbed into the city in the hope that the intolerable stench would kill everyone inside”, he writes. The defenders throw the bodies into the sea, but the plague breaks out in the city, and ships from Caffa carry it to Italy.
+
+@image de-mussi-history-9dc37f
+
+Historians doubt that the corpses spread the plague. De’ Mussi stays at Piacenza and writes from what others tell him. Plague passes to people through fleas, which leave a body when it grows cold, and rats can cross a city wall without help. The microbiologist Mark Wheelis judged the story plausible in 2002. He concluded that ships from other Black Sea ports would have carried the plague west in any case. The historian Hannah Barker argued in 2021 that it travelled with the grain that Italian ships load at the Horde’s ports once the trade embargo ends.
+
+The historian George Vernadsky estimated that 85,000 people died of the plague in the Crimea. The plague and the embargo bring Jani Beg to make peace with Genoa and Venice in 1347, and the Italians return to Tana.

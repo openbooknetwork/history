@@ -1,0 +1,7 @@
+[Joan of England](@joan-of-england), the fourteen-year-old daughter of Edward III, is travelling to Castile to marry Pedro, the son and heir of King Alfonso XI. The marriage is to tie Castile to England in its war with France, which has paused in a truce since the English took Calais in 1347. In the summer of 1348 she sails from [Portsmouth](@portsmouth) with her household and a heavily armed escort, and in August she lands at Bordeaux, the capital of English Gascony.
+
+The plague has been in Bordeaux since June at the latest, and it soon spreads through Joan’s party. Robert Bourchier, the leader of her escort, dies on 20 August. Joan is moved out of the city to Lormont, a village nearby, but she falls ill there and dies on 2 September. In September Edward III writes to Alfonso XI that death has taken from them both the daughter he loved best of all. Two years later Alfonso XI himself dies of the plague, while besieging Gibraltar.
+
+From Gascony the plague moves north along the Atlantic coast, from harbour to harbour, to [La Rochelle](@la-rochelle) and the ports of Brittany. Normandy has it already: a chronicle of Normandy records it at [Rouen](@rouen) by 24 June 1348. By August it is on the coast of the Channel near Calais. With the plague in both kingdoms, England and France renew their truce several times, and the war does not resume in full until 1355.
+
+@image edward-iii-children-tomb-a42f57

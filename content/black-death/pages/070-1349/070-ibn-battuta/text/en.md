@@ -1,0 +1,7 @@
+Ibn Battuta of [Tangier](@tangier) has been travelling for 24 years when the plague finds him in Syria. In 1348, at [Damascus](@damascus), he learns that his father died 15 years earlier. He hears of terrible deaths at Gaza, and in July he is back at Damascus, where 2,400 people die each day. He goes on through Jerusalem to Gaza, which he finds emptied, and on to [Cairo](@cairo), where he is told that 21,000 people died there in a single day.
+
+From Cairo he goes up the Nile and across the desert to the Red Sea port of Aydhab, takes ship to Jeddah and reaches [Mecca](@mecca) in November 1348. He stays for the pilgrimage of February 1349, his last, and then goes back with the Syrian caravan by Medina, Jerusalem and Gaza to Cairo. The pilgrims carry the plague to Mecca itself, in 1348 or 1349 by different accounts.
+
+@image bou-inania-fez-2c70d1
+
+In 1349 Ibn Battuta sails from Egypt on a small Tunisian ship, lands on the island of Jerba and goes on to [Tunis](@tunis), where he stays about 36 days. A Catalan ship takes him by way of Sardinia to the coast of Algeria, and he goes on overland by Tlemcen to Taza. There the news meets him: “In the town of Taza I learned the news of my mother’s death of the plague, may God the Most High have mercy on her.” He reaches [Fez](@fez) on 13 November 1349 and enters the service of the Marinid sultan Abu Inan. Then he goes to Tangier to visit his mother’s tomb.

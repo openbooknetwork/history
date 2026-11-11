@@ -1,5 +1,5 @@
-# Build every story strictly on each push to main. The zone cache it saves belongs to main, the one ref whose caches
-# the release tags can restore, so Deploy cleans only the zones that changed since.
+# Build the stories that differ from the live site strictly on each push to main. The zone cache it saves belongs to
+# main, the one ref whose caches the release tags can restore, so Deploy cleans only the zones that changed since.
 name: Build
 on:
   push:
@@ -25,8 +25,9 @@ jobs:
           path: .cache/kitap
           key: kitap-${{ github.sha }}
           restore-keys: kitap-
-      # strict: every image and tile a page links to is in the asset store, and every translation is filled
-      - run: npm run build -- --strict
+      # strict: every image and tile a page links to is in the asset store, and every translation is filled. changed:
+      # only the stories that differ from the live site's record build, the others stay online as they are
+      - run: npm run build -- --strict --changed
       # saved after a failed build too, since a story not yet uploaded fails the store check after its zones are cleaned
       - uses: actions/cache/save@v4
         if: always()

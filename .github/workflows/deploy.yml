@@ -1,4 +1,5 @@
-# Build every story with harita, upload dist/ to the site bucket and deploy the Worker when a v* tag is pushed.
+# Build the stories that differ from the live site with harita, upload them to the site bucket and deploy the Worker
+# when a v* tag is pushed.
 name: Deploy
 on:
   push:
@@ -25,8 +26,9 @@ jobs:
           path: .cache/kitap
           key: kitap-${{ github.sha }}
           restore-keys: kitap-
-      # strict: every image and tile a page links to is in the asset store, and every translation is filled
-      - run: npm run build -- --strict
+      # strict: every image and tile a page links to is in the asset store, and every translation is filled. changed:
+      # only the stories that differ from the live site's record build, the others stay online as they are
+      - run: npm run build -- --strict --changed
       # the site bucket's token, which reads and writes that bucket alone
       - run: ./node_modules/.bin/harita deploy
         env:

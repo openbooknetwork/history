@@ -3,10 +3,9 @@
 //   node content/ottoman/ottoman-mehmed-ii/.plans/zones.mjs
 //   node scripts/merge-parts.mjs ottoman-mehmed-ii zones
 // Each town has an owners' timeline and an area, the land nearest to it along the ground; a period's zones are its
-// owners' areas joined in one topology. The towns, lines, raster and lattice are story 3's where the land is the same,
-// so the borders of 1451 meet the shared zone ottomans-1451 that story 3 ends on. The pages of 1451 to 1453 show that
-// outline, redrawn only around the towns whose owner differs from it, and the Ottoman lands of 1481 go to
-// content/shared/zones/ for the story of Bayezid II.
+// owners' areas joined in one topology. The towns, lines, raster and lattice are story 3's where the land is the same.
+// The zones of February 1451, which story 3's last page shows, and the Ottoman lands of 1481, which the story of
+// Bayezid II opens on, go to content/shared/zones/.
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -121,9 +120,10 @@ const AYD = 'ott 1424.4 aydin 1425.4 ott'; // Cüneyd's revolt
 const MENT = 'mentese 1426.2 ott';
 const HAMID = 'ott 1422.65 karaman 1424.3 ott 1428.3 karaman 1437.6 ott'; // the Hamid lands around Isparta
 const TEKE = 'teke 1423.4 ott'; // the Teke beylik until Osman Çelebi’s death in 1423, Antalya Ottoman since 1420
-// Beyşehir and Akşehir, Karaman's by the peace of 1444; Mehmed has them by the peace of autumn 1451
-const BEY = 'ott 1428.3 karaman 1437.6 ott 1444.6 karaman 1451.7 ott';
-const AKS = 'ott 1428.3 karaman 1436.5 ott 1444.6 karaman 1451.7 ott';
+// Beyşehir and Akşehir, Karaman's by the peace of 1444 in story 3; Ottoman by Murad's death, since Ibrahim II takes
+// them from the Ottomans in 1451 and gives them back by the peace of autumn 1451
+const BEY = 'ott 1428.3 karaman 1437.6 ott 1444.6 karaman 1451.05 ott';
+const AKS = 'ott 1428.3 karaman 1436.5 ott 1444.6 karaman 1451.05 ott';
 const CANIK = '- 1428 ott'; // the Turkmen beys of Canik, outside every frame until 1428
 // the Serbian Despotate: lost in 1439 and given back in 1444; the south taken in 1455, the north in 1459
 const SRB = 'serbia 1439.63 ott 1444.62 serbia';
@@ -359,11 +359,11 @@ const T = {
   podgorica: [19.26, 42.44, 'serbia 1442.15 zeta 1444.2 skanderbeg 1447.9 zeta 1474 ott'],
   cetinje: [18.92, 42.39, 'zeta 1479.6 ott'], zabljakzeta: [19.15, 42.31, 'zeta 1477.5 ott'],
   budva: [18.84, 42.29, 'serbia 1442.15 venalb'], bar: [19.1, 42.09, 'serbia 1442.15 venalb'], ulcinj: [19.21, 41.93, 'venalb'], scutari: [19.51, 42.07, 'venalb 1479.3 ott'],
-  drisht: [19.6, 42.12, 'venalb 1478.67 ott'], dukagjin: [19.85, 42.3, NORTH + ' 1450.4 alb 1454.5 skanderbeg 1468.1 ott'], ishem: [19.6, 41.56, 'ott 1443.905 skanderbeg 1468.1 ott'],
-  puke: [19.9, 42.03, NORTH + ' 1450.4 alb 1454.5 skanderbeg 1468.1 ott'], mirdite: [19.98, 41.83, NORTH + ' 1450.4 alb 1454.5 skanderbeg 1468.1 ott'],
+  drisht: [19.6, 42.12, 'venalb 1478.67 ott'], dukagjin: [19.85, 42.3, NORTH + ' 1450.4 alb 1454.5 skanderbeg 1468.05 alb 1479.07 ott'], ishem: [19.6, 41.56, 'ott 1443.905 skanderbeg 1468.1 ott'],
+  puke: [19.9, 42.03, NORTH + ' 1450.4 alb 1454.5 skanderbeg 1468.05 alb 1479.07 ott'], mirdite: [19.98, 41.83, NORTH + ' 1450.4 alb 1454.5 skanderbeg 1468.05 alb 1479.07 ott'],
   // the lower Buna, Venetian with Shkodër
   buna: [19.4, 41.97, 'venalb 1479.3 ott'], dagnum: [19.63, 42.0, NORTH + ' 1447.5 venalb 1474 ott'], zadrima: [19.58, 41.9, NORTH + ' 1447.5 venalb 1474 ott'], lezhe: [19.65, 41.78, 'venalb 1478.7 ott'],
-  mat: [20.1, 41.65, 'ott 1443.905 skanderbeg 1468.1 ott'], kruje: [19.79, 41.51, 'ott 1443.905 skanderbeg 1468.1 ott'],
+  mat: [20.1, 41.65, 'ott 1443.905 skanderbeg 1468.05 alb 1479.07 ott'], kruje: [19.79, 41.51, 'ott 1443.905 skanderbeg 1468.1 ott'],
   preze: [19.67, 41.43, 'ott 1443.905 skanderbeg 1466.4 ott 1467.5 skanderbeg 1468.1 ott'],
   petrela: [19.86, 41.25, 'ott 1443.905 skanderbeg 1450.4 ott' + LEAGUE], thopia: [19.58, 41.3, 'ott 1432.7 alb 1435.5 ott 1444.2 skanderbeg 1450.4 alb' + LEAGUE],
   tirana: [19.82, 41.33, 'ott' + LEAGUE], krrabe: [19.97, 41.22, 'ott' + LEAGUE],
@@ -503,6 +503,9 @@ const SMALL = {
   buzegjarpri: [ringIn([19.575, 41.835], 3, country('Albania')), 'venalb 1448.755 skanderbeg 1468.1 venalb 1474 ott'],
   // the town of Krujë, Venetian from Skanderbeg's death to its surrender in June 1478
   krujecastle: [ringIn([19.795, 41.512], 2.5, country('Albania')), 'ott 1443.905 skanderbeg 1468.1 venalb 1478.45 ott'],
+  // Kiliya, held by a Hungarian garrison from 1448 until Stephen of Moldavia takes it in January 1465
+  // on both banks of the Chilia arm, which the 1:10m border follows
+  kilia: [ringIn([29.27, 45.425], 4), 'hungary 1465.07 moldavia'],
   // Tana at the mouth of the Don, a Genoese trading post until 1475
   tana: [ringIn([39.42, 47.11], 6, country('Russia')), 'gazaria 1475.6 ott'],
   // Otranto, held by the Ottoman garrison from August 1480 to September 1481
@@ -521,14 +524,14 @@ const O = {
   sporades: ['byzantium', 'sporades', [N(1421, 'Northern Sporades, Byzantine', 'Bizans’ın Kuzey İsporad adaları')]],
   thomas: ['thomas', 'thomas', [N(1453, 'Lands of Thomas Palaiologos in the Morea', 'Thomas Palaiologos’un Mora’daki toprakları')]],
   demetrios: ['demetrios', 'demetrios', [N(1453, 'Lands of Demetrios Palaiologos in the Morea', 'Demetrios Palaiologos’un Mora’daki toprakları')]],
-  rebels: ['morea-rebels', 'morea-rebels', [N(1453, 'Rebels in the Morea under John Asen Zaccaria and Manuel Kantakouzenos', 'Giovanni Asen Zaccaria ve Manuel Kantakuzenos önderliğinde Mora isyancıları')]],
-  serbia: ['serbia', 'serbia', [N(1421, 'Serbian Despotate under Đurađ Branković, an Ottoman vassal', 'Osmanlı’ya bağlı Đurađ Brankoviç yönetiminde Sırp Despotluğu'),
-    N(1457, 'Serbian Despotate under Lazar Branković, an Ottoman vassal', 'Osmanlı’ya bağlı Lazar Brankoviç yönetiminde Sırp Despotluğu'),
-    N(1458.05, 'Serbian Despotate under Stefan Branković', 'Stefan Brankoviç yönetiminde Sırp Despotluğu')]],
-  zeta: ['zeta', 'zeta', [N(1421, 'Zeta under Stefan Crnojević', 'Stefan Crnojević yönetiminde Zeta'), N(1465.5, 'Zeta under Ivan Crnojević', 'İvan Crnojević yönetiminde Zeta')]],
+  rebels: ['morea-rebels', 'morea-rebels', [N(1453, 'Rebels in the Morea under John Asen Zaccaria and Manuel Kantakouzenos', 'Giovanni Asen Zaccaria ve Manuel Kantakuzenos önderliğinde Mora’daki isyancılar')]],
+  serbia: ['serbia', 'serbia', [N(1421, 'Serbian Despotate under Đurađ Branković, an Ottoman vassal', 'Osmanlı’ya bağlı Đurađ Branković yönetiminde Sırp Despotluğu'),
+    N(1457, 'Serbian Despotate under Lazar Branković, an Ottoman vassal', 'Osmanlı’ya bağlı Lazar Branković yönetiminde Sırp Despotluğu'),
+    N(1458.05, 'Serbian Despotate under Stefan Branković', 'Stefan Branković yönetiminde Sırp Despotluğu')]],
+  zeta: ['zeta', 'zeta', [N(1421, 'Zeta under Stefan Crnojević', 'Stefan Crnojević yönetiminde Zeta'), N(1465.5, 'Zeta under Ivan Crnojević', 'Ivan Crnojević yönetiminde Zeta')]],
   karaman: ['karaman', 'karaman', [N(1421, 'Beylik of Karaman under Ibrahim II', 'II. İbrahim Bey yönetiminde Karamanoğulları Beyliği'),
-    N(1464.5, 'Beylik of Karaman under Pir Ahmed', 'Pir Ahmed Bey yönetiminde Karamanoğulları Beyliği'),
-    N(1473, 'Beylik of Karaman under Pir Ahmed and Kasım', 'Pir Ahmed ve Kasım Bey yönetiminde Karamanoğulları Beyliği')]],
+    N(1464.5, 'Beylik of Karaman under Pir Ahmed', 'Pir Ahmed yönetiminde Karamanoğulları Beyliği'),
+    N(1473, 'Beylik of Karaman under Pir Ahmed and Kasım', 'Pir Ahmed ve Kasım yönetiminde Karamanoğulları Beyliği')]],
   germiyan: ['germiyan', 'germiyan', [N(1421, 'Beylik of Germiyan under Yakub II', 'II. Yakub Bey yönetiminde Germiyanoğulları Beyliği')]],
   aydin: ['aydin', 'aydin', [N(1421, 'Cüneyd’s beylik of Aydın', 'Cüneyd Bey’in Aydınoğulları Beyliği')]],
   mentese: ['mentese', 'mentese', [N(1421, 'Beylik of Menteşe', 'Menteşeoğulları Beyliği')]],
@@ -536,8 +539,8 @@ const O = {
   candar: ['candar', 'candar', [N(1421, 'Beylik of Candar under İsmail, an Ottoman vassal', 'Osmanlı’ya bağlı İsmail Bey yönetiminde Candaroğulları Beyliği')]],
   dul: ['dulkadir', 'dulkadir', [N(1421, 'Beylik of Dulkadir', 'Dulkadiroğulları Beyliği'),
     N(1466.5, 'Beylik of Dulkadir under Shah Suwar', 'Şehsuvar Bey yönetiminde Dulkadiroğulları Beyliği'),
-    N(1472.6, 'Beylik of Dulkadir under Shah Budak', 'Şah Budak Bey yönetiminde Dulkadiroğulları Beyliği'),
-    N(1480.3, 'Beylik of Dulkadir under Ala al-Dawla', 'Alaüddevle Bozkurt Bey yönetiminde Dulkadiroğulları Beyliği')]],
+    N(1472.6, 'Beylik of Dulkadir under Shah Budak', 'Şah Budak yönetiminde Dulkadiroğulları Beyliği'),
+    N(1480.3, 'Beylik of Dulkadir under Ala al-Dawla', 'Alaüddevle Bey yönetiminde Dulkadiroğulları Beyliği')]],
   mam: ['mamluks', 'mamluks', [N(1421, 'Mamluk Sultanate under Jaqmaq', 'Çakmak yönetiminde Memlük Sultanlığı'), N(1453.1, 'Mamluk Sultanate under Inal', 'İnal yönetiminde Memlük Sultanlığı'),
     N(1461.5, 'Mamluk Sultanate under Khushqadam', 'Hoşkadem yönetiminde Memlük Sultanlığı'), N(1468.1, 'Mamluk Sultanate under Qaitbay', 'Kayıtbay yönetiminde Memlük Sultanlığı')]],
   treb: ['trebizond', 'trebizond', [N(1421, 'Empire of Trebizond', 'Trabzon İmparatorluğu')]],
@@ -549,24 +552,26 @@ const O = {
     N(1453.05, 'Kingdom of Hungary under Ladislaus V', 'V. Ladislaus yönetiminde Macaristan Krallığı'),
     N(1458.1, 'Kingdom of Hungary under Matthias Corvinus', 'Matyas Korvin yönetiminde Macaristan Krallığı')]],
   poland: ['poland', 'poland', [N(1421, 'Kingdom of Poland under Casimir IV', 'IV. Kazimierz yönetiminde Polonya Krallığı')]],
-  bosnia: ['bosnia', 'bosnia', [N(1421, 'Kingdom of Bosnia under Stephen Thomas', 'Stjepan Tomaš yönetiminde Bosna Krallığı'),
-    N(1461.55, 'Kingdom of Bosnia under Stephen Tomašević', 'Stjepan Tomašević yönetiminde Bosna Krallığı')]],
+  bosnia: ['bosnia', 'bosnia', [N(1421, 'Kingdom of Bosnia under Stephen Thomas', 'Stefan Tomaš yönetiminde Bosna Krallığı'),
+    N(1461.55, 'Kingdom of Bosnia under Stephen Tomašević', 'Stefan Tomašević yönetiminde Bosna Krallığı')]],
   herz: ['herzegovina', 'herzegovina', [N(1421, 'Herzegovina under Stjepan Vukčić Kosača', 'Stjepan Vukčić Kosača yönetiminde Hersek'),
     N(1466.4, 'Herzegovina under Vladislav and Vlatko Hercegović', 'Vladislav ve Vlatko Hercegović yönetiminde Hersek')]],
   wallachia: ['wallachia', 'wallachia', [N(1421, 'Wallachia under Vladislav II', 'II. Vladislav yönetiminde Eflak'),
     N(1456.6, 'Wallachia under Vlad III, an Ottoman vassal', 'Osmanlı’ya bağlı III. Vlad yönetiminde Eflak'),
     N(1461.9, 'Wallachia under Vlad III', 'III. Vlad yönetiminde Eflak'),
-    N(1462.45, 'Wallachia, contested by Vlad III and Radu', 'III. Vlad ile Radu arasında çekişmeli Eflak'),
+    N(1462.45, 'Wallachia, contested by Vlad III and Radu', 'III. Vlad ile Radu’nun çekiştiği Eflak'),
     N(1462.9, 'Wallachia under Radu, an Ottoman vassal', 'Osmanlı’ya bağlı Radu yönetiminde Eflak'),
     N(1474.8, 'Wallachia under Basarab Laiotă, an Ottoman vassal', 'Osmanlı’ya bağlı Basarab Laiotă yönetiminde Eflak'),
     N(1477.9, 'Wallachia under Basarab the Younger, an Ottoman vassal', 'Osmanlı’ya bağlı Genç Basarab yönetiminde Eflak')]],
   moldavia: ['moldavia', 'moldavia', [N(1421, 'Principality of Moldavia under Bogdan II', 'II. Bogdan yönetiminde Boğdan Prensliği'),
     N(1451.8, 'Principality of Moldavia under Peter Aron', 'Petru Aron yönetiminde Boğdan Prensliği'),
-    N(1457.3, 'Principality of Moldavia under Stephen the Great', 'Büyük Ştefan yönetiminde Boğdan Prensliği')]],
+    N(1457.3, 'Principality of Moldavia under Stephen the Great', 'Stefan yönetiminde Boğdan Prensliği')]],
   ragusa: ['ragusa', 'ragusa', [N(1421, 'Republic of Ragusa', 'Ragusa (Dubrovnik) Cumhuriyeti')]],
-  skanderbeg: ['skanderbeg', 'skanderbeg', [N(1421, 'League of Lezhë under Skanderbeg', 'İskender Bey önderliğinde Leş Birliği')]],
+  skanderbeg: ['skanderbeg', 'skanderbeg', [N(1421, 'Skanderbeg’s Krujë', 'İskender Bey’in Akçahisar’ı'),
+    N(1451.3, 'League of Lezhë under Skanderbeg', 'İskender Bey önderliğinde Leş Birliği')]],
   arianiti: ['skanderbeg', 'arianiti', [N(1421, 'Lands of Gjergj Arianiti, in revolt', 'İsyandaki Gjergj Arianiti’nin toprakları')]],
-  alb: ['albanian-lords', 'albanian-lords', [N(1421, 'Lands of the Dukagjini', 'Dukagjini ailesinin toprakları')]],
+  alb: ['albanian-lords', 'albanian-lords', [N(1421, 'Albanian lords', 'Arnavut beyleri'), N(1451.3, 'Lands of the Dukagjini', 'Dukagjini ailesinin toprakları'),
+    N(1468.05, 'Lekë Dukagjini and the lords of northern Albania', 'Lekë Dukagjini ve Kuzey Arnavutluk beyleri')]],
   tocco: ['epirus', 'epirus', [N(1421, 'Lands of Leonardo III Tocco', 'III. Leonardo Tocco’nun toprakları')]],
   achaea: ['achaea', 'achaea', [N(1421, 'Arcadia, the last land of Centurione II Zaccaria', 'II. Centurione Zaccaria’nın son toprağı Arkadia')]],
   patras: ['achaea', 'patras', [N(1421, 'Patras under its Latin archbishop', 'Latin başpiskoposu yönetiminde Balyabadra')]],
@@ -592,15 +597,15 @@ const O = {
   chios: ['chios', 'chios', [N(1421, 'Chios and Samos under the Genoese Maona', 'Ceneviz Maona şirketinin Sakız ve Sisam’ı'),
     N(1475.5, 'Chios under the Genoese Maona', 'Ceneviz Maona şirketinin Sakız’ı')]],
   phocaea: ['chios', 'phocaea', [N(1421, 'Phocaea under the Genoese Maona', 'Ceneviz Maona şirketinin Foça’sı')]],
-  lesbos: ['gattilusi', 'lesbos', [N(1421, 'Lesbos under the Gattilusi', 'Gattilusi ailesinin Midilli’si')]],
+  lesbos: ['gattilusi', 'lesbos', [N(1421, 'Lesbos under the Gattilusi', 'Gattilusi ailesi yönetiminde Midilli')]],
   ainos: ['gattilusi', 'ainos', [N(1421, 'Ainos under the Gattilusi', 'Gattilusi ailesinin Enez’i')]],
   gattisl: ['gattilusi', 'gattilusi-islands', [N(1421, 'Islands of the Gattilusi in the northern Aegean', 'Gattilusi ailesinin Kuzey Ege adaları')]],
   rhodes: ['knights', 'rhodes', [N(1421, 'Rhodes and the Dodecanese, held by the Knights Hospitaller', 'Hospitalier şövalyelerinin Rodos ve Onikiada’sı')]],
   bodrum: ['knights', 'bodrum', [N(1421, 'Castle of Bodrum, held by the Knights Hospitaller', 'Hospitalier şövalyelerinin Bodrum Kalesi')]],
   naples: ['naples', 'naples', [N(1421, 'Kingdom of Naples under Alfonso V', 'V. Alfonso yönetiminde Napoli Krallığı'), N(1458.45, 'Kingdom of Naples under Ferrante', 'Ferrante yönetiminde Napoli Krallığı')]],
   papal: ['papacy', 'papal-states', [N(1421, 'Papal States', 'Papalık Devleti')]],
-  papalmon: ['papacy', 'monemvasia', [N(1421, 'Monemvasia, held for the pope', 'Papa adına tutulan Monemvasia')]],
-  theodoro: ['theodoro', 'theodoro', [N(1421, 'Principality of Theodoro', 'Theodoro (Mangup) Prensliği')]],
+  papalmon: ['papacy', 'monemvasia', [N(1421, 'Monemvasia, held for the pope', 'Papa adına tutulan Menekşe (Monemvasia)')]],
+  theodoro: ['theodoro', 'theodoro', [N(1421, 'Principality of Theodoro', 'Theodoro Prensliği')]],
   crimea: ['crimea', 'crimea', [N(1421, 'Crimean Khanate under Hacı Giray', 'Hacı Giray yönetiminde Kırım Hanlığı'),
     N(1466.7, 'Crimean Khanate under Mengli Giray', 'Mengli Giray yönetiminde Kırım Hanlığı'),
     N(1475.4, 'Crimean Khanate under Nur Devlet, an Ottoman vassal', 'Osmanlı’ya bağlı Nur Devlet yönetiminde Kırım Hanlığı'),
@@ -610,10 +615,11 @@ const O = {
 
 // --- periods: the moment whose owners a page shows ---
 const PERIODS = [
-  // the Ottoman lands keep story 3's last outline, redrawn where an owner differs from it, until Constantinople falls
-  [1451.85, ['accession', 'karaman-1451'], { outline: 'ottomans-1451' }],
-  [1452.8, ['rumelihisari'], { outline: 'ottomans-1451' }],
-  [1453.2, ['preparations', 'polog'], { outline: 'ottomans-1451' }],
+  // Murad's death, the last page of story 3
+  [1451.1, ['murad-death']],
+  [1451.85, ['accession', 'karaman-1451']],
+  [1452.8, ['rumelihisari']],
+  [1453.2, ['preparations', 'polog']],
   [1453.8, ['after-1453']],
   [1454.5, ['morea-revolt']],
   [1454.85, ['serbia-1454']],
@@ -659,12 +665,16 @@ const PERIODS = [
 // none: their plans draw the land, the walls, the camps and the water over any zone
 const NONE = ['istanbul', 'constantinople', 'constantinople-chain', 'constantinople-guns', 'constantinople-four-ships', 'constantinople-overland', 'constantinople-mines',
   'constantinople-assault', 'constantinople-fall', 'belgrade-river', 'belgrade-assault', 'belgrade-sortie', 'otlukbeli-euphrates', 'otlukbeli-battle'];
-// the Ottoman lands of this page are a shared zone that the story of Bayezid II opens on
+// the Ottoman lands of these pages are shared zones: story 3's last page, and the death of Mehmed, which the story of
+// Bayezid II opens on
 const SHARED = [
+  { id: 'ottomans-1451', page: 'murad-death', en: 'Ottoman state at the death of Murad II, 1451', tr: 'II. Murad’ın ölümünde Osmanlı Devleti, 1451' },
   { id: 'ottomans-1481', page: 'death', en: 'Ottoman state at the death of Mehmed II, 1481', tr: 'II. Mehmed’in ölümünde Osmanlı Devleti, 1481' },
 ];
-// the shared zones this story reads: story 3's last Ottoman lands, and the moment they show
-const OUTLINES = ['ottomans-1451'], OUTLINE_YEAR = 1451.0;
+// pages of other stories that show this story's zones, every one of them shared, with the families whose land that
+// story leaves out (the Crimea is Russia's in the 1:10m data). Story 3's script reads the zones of its last page from
+// .plans/elsewhere.yaml, which this script writes
+const ELSEWHERE = { 'murad-death': { dir: path.join(story3, 'pages', '090-last-years', '030-murad-death'), leaveOut: ['naples', 'papacy', 'georgia', 'theodoro', 'crimea'] } };
 // a page that looks closer than the town areas reach, an island inside one state's land: one zone over its frame
 const CLOSE = { rhodes: 'rhodes' };
 
@@ -924,24 +934,16 @@ const topo = ts.topology({ c: fc(vcells) }), unitGeoms = units.map(() => []);
 topo.objects.c.geometries.forEach((g, i) => unitGeoms[vunit[i]].push(g));
 units.forEach((u, k) => { if (!unitGeoms[k].length) problems.push(`${u.id} has no area`); });
 
-// the towns and small places of story 3, read from its script, to list the ones whose owner in 1451 differs from its
-const story3Units = (() => {
-  const src = fs.readFileSync(path.join(story3, '.plans', 'zones.mjs'), 'utf8');
-  const block = name => src.slice(src.indexOf(`const ${name} = {`), src.indexOf('\n};', src.indexOf(`const ${name} = {`)));
-  return new Set([...`${block('T')}\n${block('SMALL')}`.matchAll(/(?:^|[\s,{])([a-zA-Z]+): \[/g)].map(m => m[1]));
-})();
-
 // --- the zones of each period: its owners' cells merged. An owner whose land lies in parts, such as islands, keeps them
 // as one zone of several parts ---
 const Z = {}, byKey = {};
 const nameAt = (o, year) => O[o][2].filter(n => n.from <= year).at(-1);
-// ids that stand for shared zones: story 3's last Ottoman lands and the one this story writes
-for (const id of [...OUTLINES, ...SHARED.map(s => s.id)]) Z[id] = { id, reserved: true };
+// ids that stand for the shared zones this story writes
+for (const id of SHARED.map(s => s.id)) Z[id] = { id, reserved: true };
 const freeId = id => { while (Z[id]) id = id.replace(/(-\d+)([a-z]?)$/, (_, y, s) => y + (s ? String.fromCharCode(s.charCodeAt(0) + 1) : 'b')); return id; };
 const geometryOf = parts => parts.length > 1 ? { type: 'MultiPolygon', coordinates: parts.map(x => x.p) } : { type: 'Polygon', coordinates: parts[0].p };
-const sharedGeometry = id => JSON.parse(fs.readFileSync(path.join(content, 'shared', 'zones', id, 'zone.geojson'), 'utf8')).geometry;
 const aliases = {}, aliasKeys = {};
-const periodZones = PERIODS.map(([year, pages, opts = {}]) => {
+const periodZones = PERIODS.map(([year, pages]) => {
   const owned = {};
   units.forEach((u, k) => { const o = ownerAt(u.steps, year); if (o !== '-') (owned[o] ??= []).push(k); });
   const ids = [];
@@ -952,29 +954,13 @@ const periodZones = PERIODS.map(([year, pages, opts = {}]) => {
     // a piece under 30 km2 is a stray cell, unless it holds a small place such as the walled city
     for (const x of parts.slice(1)) if (x.a < 30 && !units.some(u => u.small && turf.booleanPointInPolygon(u.at, turf.polygon(x.p)))) problems.push(`${year} ${o}: a piece of ${x.a.toFixed(1)} km2 at ${turf.centroid(turf.polygon(x.p)).geometry.coordinates.map(v => v.toFixed(2))}`);
     const name = nameAt(o, year), members = idx.map(k => units[k].id).sort();
-    // a period that shows the outline of 1451 gets zones of its own, drawn to meet that outline
-    const key = `${o}|${name.en}|${members.join(',')}${opts.outline ? (o === 'ott' ? '|outline' : `|${year}`) : ''}`;
+    const key = `${o}|${name.en}|${members.join(',')}`;
     if (!byKey[key]) {
       const id = freeId(`${name.id ?? O[o][1]}-${Math.floor(year)}`);
       Z[id] = { id, owner: o, family: O[o][0], name, towns: members, geometry: geometryOf(parts) };
       byKey[key] = id;
     }
     ids.push(byKey[key]);
-  }
-  // the outline of 1451 differs from this drawing by a few km along its borders, so the zones around it reach into this
-  // period's Ottoman land, and the build trims them along the outline. The Ottoman zone takes this drawing where the
-  // two differ by more than a sliver, below
-  if (opts.outline) {
-    const ott = ids.find(id => Z[id].owner === 'ott'), land = turf.feature(Z[ott].geometry);
-    for (const id of ids) if (id !== ott && !Z[id].reach) {
-      const reach = I(turf.buffer(turf.feature(Z[id].geometry), 40, { units: 'kilometers' }), land);
-      if (reach) Z[id] = { ...Z[id], geometry: U(turf.feature(Z[id].geometry), reach).geometry, reach: true };
-    }
-    if (!Z[ott].edit) {
-      const changed = units.filter(u => story3Units.has(u.id) && (ownerAt(u.steps, OUTLINE_YEAR) === 'ott') !== (ownerAt(u.steps, year) === 'ott'));
-      console.log(`  ${ott}: the outline of ${opts.outline}, with these towns' owners changed: ${changed.map(u => u.id).join(', ')}`);
-      Z[ott].edit = { outline: opts.outline };
-    }
   }
   return { year, pages, ids };
 });
@@ -987,7 +973,7 @@ for (const s of SHARED) {
   sharedOf[s.id] = own;
   for (const q of periodZones) q.ids = q.ids.map(id => {
     if (q === p && id === own) return s.id;
-    if (Z[id]?.owner !== 'ott' || aliases[id] || Z[id].edit || Z[id].towns.join(',') !== Z[own].towns.join(',')) return id;
+    if (Z[id]?.owner !== 'ott' || aliases[id] || Z[id].towns.join(',') !== Z[own].towns.join(',')) return id;
     const name = nameAt('ott', q.year), akey = `${s.id}|${name.en}`;
     if (!aliasKeys[akey]) {
       const alias = freeId(`ottomans-${Math.floor(q.year)}`);
@@ -1002,7 +988,8 @@ const zoneOf = id => sharedOf[id] ? Z[sharedOf[id]] : Z[id];
 
 // the close pages: one zone over the frame and well beyond it, which the build clips to the land
 const walk = d => fs.readdirSync(d, { withFileTypes: true }).flatMap(e => e.isDirectory() ? walk(path.join(d, e.name)) : [path.join(d, e.name)]);
-const pageDir = Object.fromEntries(walk(path.join(story, 'pages')).filter(f => f.endsWith('page.yaml')).map(f => [path.basename(path.dirname(f)).replace(/^\d+-/, ''), path.dirname(f)]));
+const ownPages = Object.fromEntries(walk(path.join(story, 'pages')).filter(f => f.endsWith('page.yaml')).map(f => [path.basename(path.dirname(f)).replace(/^\d+-/, ''), path.dirname(f)]));
+const pageDir = { ...ownPages, ...Object.fromEntries(Object.entries(ELSEWHERE).map(([p, e]) => [p, e.dir])) };
 const BBOX = Object.fromEntries(Object.entries(pageDir).map(([p, d]) => [p, fs.readFileSync(path.join(d, 'page.yaml'), 'utf8').match(/^bbox:\s*\[([^\]]*)\]/m)[1].split(',').map(Number)]));
 for (const [p, o] of Object.entries(CLOSE)) {
   // half a degree at least, so that a tall screen or a zoom out still finds land under the zone
@@ -1022,7 +1009,7 @@ const NAMED = { byz: /Constantinople/, galata: /Galata|Pera\b/, chios: /Chios/, 
   lepanto: /Lepanto/, skanderbeg: /Skanderbeg|Krujë/, tinos: /Tinos|Mykonos/, archipelago: /Naxos|Andros|Paros|Cyclades/, gazaria: /Caffa|Soldaia|Tana|Genoese/,
   theodoro: /Theodoro|Mangup/, famagusta: /Famagusta/, papalmon: /Monemvasia/, ven: /Venetian|Venice/ };
 // owners a page shows however small they are in its frame, since its text or its notes name them
-const KEEP = { accession: ['galata', 'amastris'], 'karaman-1451': ['galata', 'amastris'], rumelihisari: ['galata'], preparations: ['galata'] };
+const KEEP = { 'murad-death': ['galata', 'amastris'], accession: ['galata', 'amastris'], 'karaman-1451': ['galata', 'amastris'], rumelihisari: ['galata'], preparations: ['galata'] };
 // a family is one state; its parts on a page join into one zone named for the state where its owners differ
 const FAMILY_NAMES = {
   venice: ['venetian-colonies', 'Republic of Venice and its colonies', 'Venedik Cumhuriyeti ve kolonileri'],
@@ -1057,11 +1044,9 @@ const join = (family, base, en, tr, members, year) => {
   const k = `${family}|${en}|${members.join(',')}`;
   if (lumpKeys[k]) return lumpKeys[k];
   const towns = [...new Set(members.flatMap(m => zoneOf(m).towns))];
-  // zones that reach into a shared outline join as drawn, the others by their towns' cells
-  const parts = members.some(m => zoneOf(m).reach) ? polysOf(U(members.map(m => turf.feature(zoneOf(m).geometry))).geometry)
-    : tc.merge(topo, towns.flatMap(t => unitGeoms[units.findIndex(u => u.id === t)])).coordinates;
+  const parts = tc.merge(topo, towns.flatMap(t => unitGeoms[units.findIndex(u => u.id === t)])).coordinates;
   const id = freeId(`${base}-${year}`);
-  Z[id] = { id, owner: `one ${family}`, family, name: { en, tr }, towns: towns.sort(), reach: members.some(m => zoneOf(m).reach),
+  Z[id] = { id, owner: `one ${family}`, family, name: { en, tr }, towns: towns.sort(),
     geometry: parts.length > 1 ? { type: 'MultiPolygon', coordinates: parts } : { type: 'Polygon', coordinates: parts[0] } };
   return lumpKeys[k] = id;
 };
@@ -1076,7 +1061,7 @@ for (const period of periodZones) for (const p of period.pages) {
   const share = id => zoneOf(id).towns.reduce((sum, t) => sum + (t in townIndex ? by[townIndex[t]]
     : inBox(box)(...smallLand[t].at) ? smallLand[t].km : 0), 0) / total;
   const whole = id => zoneOf(id).towns.reduce((sum, t) => sum + (t in townIndex ? landOf[townIndex[t]] : smallLand[t].km), 0) * 0.9 <= share(id) * total;
-  PAGES[p] = ids.filter(id => {
+  PAGES[p] = ids.filter(id => !ELSEWHERE[p]?.leaveOut.includes(zoneOf(id).family)).filter(id => {
     const z = zoneOf(id), sh = share(id);
     return sh >= SHOWN || sh > 0 && (NAMED[z.owner]?.test(text) || KEEP[p]?.includes(z.owner)) || sh >= 0.0002 && whole(id);
   });
@@ -1089,7 +1074,7 @@ for (const period of periodZones) for (const p of period.pages) {
   for (const family of new Set(PAGES[p].map(id => zoneOf(id).family))) {
     const shown = PAGES[p].filter(id => zoneOf(id).family === family);
     if (shown.length < 2) continue;
-    if (shown.some(id => aliases[id] || Z[id]?.exact || Z[id]?.edit)) { problems.push(`page ${p}: family ${family} has the zones ${shown.join(', ')}`); continue; }
+    if (shown.some(id => aliases[id])) { problems.push(`page ${p}: family ${family} has the zones ${shown.join(', ')}`); continue; }
     const members = ids.filter(id => zoneOf(id).family === family);
     const first = Object.keys(O).find(o => members.some(m => zoneOf(m).owner === o)), name = nameAt(first, year);
     const [base, en, tr] = FAMILY_NAMES[family] ?? [name.id ?? O[first][1], name.en, name.tr];
@@ -1108,7 +1093,7 @@ const perimeter = f => polysOf(f.geometry).flat().reduce((sum, r) => sum + turf.
 const SIMPLIFY = 0.0003, DENSE = 0.1;
 const used = [...new Set(Object.values(PAGES).flat())], drawn = used.filter(id => !aliases[id]);
 for (const id of used) if (!storyYaml.families[zoneOf(id).family]) problems.push(`zone ${id}: family ${zoneOf(id).family} is not in story.yaml`);
-const joint = ts.topology({ z: fc(drawn.filter(id => !Z[id]?.exact).map(id => ({ type: 'Feature', id, properties: {}, geometry: zoneOf(id).geometry }))) });
+const joint = ts.topology({ z: fc(drawn.map(id => ({ type: 'Feature', id, properties: {}, geometry: zoneOf(id).geometry }))) });
 const simple = tsi.simplify(tsi.presimplify(joint, t => tsi.planarTriangleArea(t) / Math.cos(t[1][1] * Math.PI / 180)), SIMPLIFY);
 simple.arcs = simple.arcs.map(arc => {
   const a = arc.map(p => [p[0], p[1]]), r = [a[0]];
@@ -1120,15 +1105,6 @@ simple.arcs = simple.arcs.map(arc => {
   return r;
 });
 const shapes = Object.fromEntries(simple.objects.z.geometries.map(g => [g.id, tc.feature(simple, g).geometry]));
-for (const id of drawn) if (Z[id]?.exact) shapes[id] = Z[id].geometry;
-// the Ottoman lands of 1451 to 1453: the outline of 1451, and this drawing where the two differ by more than a sliver
-// along a border, around a town whose owner differs from the outline's or on land story 3 left out
-const wide = g => polysOf(g?.geometry).map(q => turf.polygon(q)).filter(q => km2(q) > 2 && 2 * km2(q) / perimeter(q) > 1);
-for (const id of drawn) if (Z[id]?.edit) {
-  const outline = turf.feature(sharedGeometry(Z[id].edit.outline)), mine = turf.feature(shapes[id]);
-  shapes[id] = U(D(outline, wide(D(outline, mine))), ...wide(D(mine, outline))).geometry;
-  shapes[id] = multi(polysOf(shapes[id]).filter(q => km2(turf.polygon(q)) > 0.5).map(q => [q[0], ...q.slice(1).filter(r => km2(turf.polygon([r])) > 0.5)])).geometry;
-}
 // the small places keep their drawn outline, which the simplifying rounds away at their size
 for (const [id, g] of Object.entries(shapes)) {
   const z = zoneOf(id);
@@ -1149,8 +1125,10 @@ for (const [id, g] of Object.entries(shapes)) if (!polysOf(g).length || polysOf(
 const sharedRoot = path.join(content, 'shared', 'zones');
 const earlier = ['ottoman-osman-orhan-murad-i', 'ottoman-bayezid-i-mehmed-i', 'ottoman-murad-ii'];
 const sharedIds = SHARED.map(s => s.id);
+// the zones of the pages of other stories, which this script writes as shared zones
+const elsewhereIds = [...new Set(Object.keys(ELSEWHERE).flatMap(p => PAGES[p]))].filter(id => !sharedIds.includes(id));
 const candidates = [
-  ...fs.readdirSync(sharedRoot).filter(d => !OUTLINES.includes(d) && !sharedIds.includes(d) && fs.existsSync(path.join(sharedRoot, d, 'zone.geojson')))
+  ...fs.readdirSync(sharedRoot).filter(d => !sharedIds.includes(d) && !elsewhereIds.includes(d) && fs.existsSync(path.join(sharedRoot, d, 'zone.geojson')))
     .map(d => ({ id: d, shared: true, file: path.join(sharedRoot, d, 'zone.geojson') })),
   ...earlier.flatMap(st => { const d = path.join(content, 'ottoman', st, 'shared', 'zones');
     return fs.readdirSync(d).filter(f => f.endsWith('.geojson')).map(f => ({ id: f.replace('.geojson', ''), story: st, shared: false, file: path.join(d, f) })); }),
@@ -1158,7 +1136,7 @@ const candidates = [
 const borrowed = {};
 for (const id of drawn) {
   const z = Z[id];
-  if (!z || z.exact || z.reach || z.close || sharedIds.includes(id) || z.owner === 'ott') continue;
+  if (!z || z.close || sharedIds.includes(id) || z.owner === 'ott') continue;
   // the two outlines compared as drawn and on the land, since their parts at sea differ with the sites offshore
   const onLand = f => I(f, landNear(f)), raw = turf.feature(shapes[id]), box = turf.bbox(raw), mine = onLand(raw);
   const alike = (a, b, other) => {
@@ -1201,12 +1179,12 @@ for (const id of drawn) {
 
 if (problems.length) { console.log(problems.map(p => '  ' + p).join('\n')); if (!process.argv.includes('--anyway')) process.exit(1); }
 
-// --- write: the story's zones, the shared zone with its Turkish name, the aliases, the page map, the Turkish names. With
-// --no-shared the shared zone goes to .cache/ only, to compare it first
+// --- write: the story's zones, the shared zones with their Turkish names, the aliases, the page map, the Turkish names.
+// With --no-shared the shared zones go to .cache/ only, to compare them first
 const round = c => typeof c[0] === 'number' ? [+c[0].toFixed(5), +c[1].toFixed(5)] : c.map(round);
 const feature = (id, props) => ({ type: 'Feature', properties: props, geometry: { type: shapes[id].type, coordinates: round(shapes[id].coordinates) } });
 // a drawing that several zones of this story show under other names is written once, and the others name it in
-// shared/zones.yaml
+// shared/zones.yaml. The zones of February 1451 come first, so a later zone with their outline names the shared one
 const same = {};
 {
   const first = {};
@@ -1219,11 +1197,14 @@ const same = {};
 const dir = path.join(story, 'shared', 'zones');
 fs.mkdirSync(dir, { recursive: true });
 for (const f of fs.readdirSync(dir)) if (f.endsWith('.geojson')) fs.rmSync(path.join(dir, f));
-for (const id of drawn) if (!sharedIds.includes(id) && !borrowed[id] && !same[id]) fs.writeFileSync(path.join(dir, id + '.geojson'), JSON.stringify(feature(id, { family: Z[id].family, name: Z[id].name.en })) + '\n');
-for (const s of SHARED) {
+const outShared = [...SHARED.map(s => ({ id: s.id, family: 'ottomans', en: s.en, tr: s.tr })),
+  ...elsewhereIds.filter(id => !borrowed[id]).map(id => ({ id, family: Z[id].family, en: Z[id].name.en, tr: Z[id].name.tr }))];
+const outIds = outShared.map(s => s.id);
+for (const id of drawn) if (!outIds.includes(id) && !borrowed[id] && !same[id]) fs.writeFileSync(path.join(dir, id + '.geojson'), JSON.stringify(feature(id, { family: Z[id].family, name: Z[id].name.en })) + '\n');
+for (const s of outShared) {
   // without the countries the story leaves out, which its cells at sea run over
   shapes[s.id] = D(turf.feature(shapes[s.id]), OFFLAND).geometry;
-  const json = JSON.stringify(feature(s.id, { family: 'ottomans', name: s.en })) + '\n';
+  const json = JSON.stringify(feature(s.id, { family: s.family, name: s.en })) + '\n';
   const cache = path.join(repo, '.cache', 'ottoman-mehmed-ii-shared');
   fs.mkdirSync(cache, { recursive: true });
   fs.writeFileSync(path.join(cache, s.id + '.geojson'), json);
@@ -1234,21 +1215,33 @@ for (const s of SHARED) {
   fs.writeFileSync(path.join(sharedDir, 'i18n', 'tr.yaml'), `# tr strings for the zone "${s.id}".\n# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the\n`
     + `# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr\n\n# ${s.en}\nzone.name: ${JSON.stringify(s.tr)}\n`);
 }
-const usedAliases = Object.entries(aliases).filter(([id]) => used.includes(id));
+// the zones of the pages of other stories, for their scripts to read: a zone that takes the outline of a shared zone
+// of another name keeps its id and names the shared zone under uses, for that story's shared/zones.yaml
+{
+  const nameOf = c => JSON.parse(fs.readFileSync(c.file, 'utf8')).properties.name;
+  const entries = Object.keys(ELSEWHERE).map(p => {
+    const named = PAGES[p].filter(id => borrowed[id] && nameOf(borrowed[id]) !== Z[id].name.en);
+    return `${p}:\n  zones: [${PAGES[p].map(id => named.includes(id) ? id : borrowed[id]?.id ?? id).join(', ')}]\n`
+      + (named.length ? `  uses:\n${named.map(id => `    ${id}: { zone: ${borrowed[id].id}, name: ${JSON.stringify(Z[id].name.en)}, tr: ${JSON.stringify(Z[id].name.tr)} }`).join('\n')}\n` : '');
+  });
+  fs.writeFileSync(path.join(story, '.plans', 'elsewhere.yaml'), '# Zones of the pages of other stories that this story draws, all of them shared. Written by .plans/zones.mjs.\n' + entries.join(''));
+}
+const ownUsed = [...new Set(Object.entries(PAGES).filter(([p]) => !ELSEWHERE[p]).flatMap(([, ids]) => ids))];
+const usedAliases = Object.entries(aliases).filter(([id]) => ownUsed.includes(id));
 const aliasFile = path.join(story, 'shared', 'zones.yaml');
 const uses = [...usedAliases.map(([id, a]) => `${id}: { zone: ${a.zone}, name: ${JSON.stringify(a.name.en)} }`),
-  ...Object.entries(borrowed).map(([id, c]) => `${id}: { zone: ${c.id}, name: ${JSON.stringify(Z[id].name.en)} }`),
-  ...Object.entries(same).map(([id, o]) => `${id}: { zone: ${o}, name: ${JSON.stringify(Z[id].name.en)} }`)];
+  ...Object.entries(borrowed).filter(([id]) => ownUsed.includes(id)).map(([id, c]) => `${id}: { zone: ${c.id}, name: ${JSON.stringify(Z[id].name.en)} }`),
+  ...Object.entries(same).filter(([id]) => ownUsed.includes(id)).map(([id, o]) => `${id}: { zone: ${o}, name: ${JSON.stringify(Z[id].name.en)} }`)];
 if (uses.length) fs.writeFileSync(aliasFile, '# Zones of these pages that have the outline of a shared zone or of another zone of this story. Written by .plans/zones.mjs.\n' + uses.join('\n') + '\n');
 else fs.rmSync(aliasFile, { force: true });
 fs.writeFileSync(path.join(story, '.plans', 'zones.yaml'), '# Zones per page, written by .plans/zones.mjs. The plans of the siege of Constantinople and of Istanbul and the phase pages of the battle plans show none.\n'
-  + Object.entries(PAGES).map(([p, ids]) => `${p}: [${ids.join(', ')}]`).join('\n') + '\n');
+  + Object.entries(PAGES).filter(([p]) => !ELSEWHERE[p]).map(([p, ids]) => `${p}: [${ids.join(', ')}]`).join('\n') + '\n');
 // a page without a zones line gets an empty one after its bbox, which scripts/merge-parts.mjs then fills
-for (const p of Object.keys(PAGES)) {
+for (const p of Object.keys(ownPages)) {
   const file = path.join(pageDir[p], 'page.yaml'), text = fs.readFileSync(file, 'utf8');
   if (!/^zones:.*$/m.test(text)) fs.writeFileSync(file, text.replace(/^(bbox:.*)$/m, '$1\nzones: []'));
 }
 fs.mkdirSync(path.join(story, '.i18n-parts'), { recursive: true });
-fs.writeFileSync(path.join(story, '.i18n-parts', 'zones.tr.yaml'), used.filter(id => !sharedIds.includes(id))
+fs.writeFileSync(path.join(story, '.i18n-parts', 'zones.tr.yaml'), ownUsed.filter(id => !outIds.includes(id))
   .map(id => `zones.${id}.name: ${JSON.stringify(zoneOf(id).name.tr)}`).join('\n') + '\n');
 console.log(`${used.length} zones on ${Object.values(PAGES).filter(l => l.length).length} pages, the longest legend ${Math.max(...Object.values(PAGES).map(l => l.length))}`);

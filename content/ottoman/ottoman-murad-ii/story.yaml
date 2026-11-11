@@ -46,6 +46,7 @@ families:
   hungary:         { priority: 17, color: "#3d7a2a", color_dark: "#7cc160" }
   poland:          { priority: 18, color: "#cc5a71", color_dark: "#f29bab", pattern: hatch } # Władysław III's kingdom
   bosnia:          { priority: 19, color: "#4ca173", color_dark: "#a0e3bb", pattern: cross }
+  herzegovina:     { priority: 36, color: "#5e4b8b", color_dark: "#a593d6", pattern: cross } # Stjepan Vukčić Kosača, on the last page
   wallachia:       { priority: 20, color: "#5b7a99", color_dark: "#9fbad6", pattern: dots }
   moldavia:        { priority: 21, color: "#7e5a2c", color_dark: "#bf9a68", pattern: cross }
   zeta:            { priority: 22, color: "#c27c0e", color_dark: "#f0a830", pattern: cross }
@@ -60,6 +61,7 @@ families:
   gattilusi:       { priority: 31, color: "#a17b38", color_dark: "#e2bb80" } # Lesbos and Ainos
   knights:         { priority: 32, color: "#5d6d7e", color_dark: "#95a5b5", pattern: cross } # Rhodes and Bodrum
   ragusa:          { priority: 33, color: "#b3416c", color_dark: "#ef8eac", pattern: dots }
+  cyprus:          { priority: 39, color: "#66a61e", color_dark: "#a3d867", pattern: hatch } # the Lusignan kingdom, on the last page
   crusaders:       { priority: 34, color: "#2828bd", color_dark: "#5f5fdd" } # the papal, Venetian and Burgundian fleets, Cesarini's men
   water:           { priority: 35, color: "#5b9bd5", color_dark: "#2c5d87" } # battle plan rivers and lakes, no zones
 # Corner rounding passes applied to every hand drawn zone before the clip.

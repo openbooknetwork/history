@@ -128,15 +128,6 @@ zones.byzantium-1449b.name: "Osmanlı’ya vergi veren XI. Konstantinos yönetim
 # Beylik of Candar under İsfendiyar
 zones.candar-1421.name: "İsfendiyar Bey yönetiminde Candaroğulları Beyliği"
 
-# Beylik of Candar under İsfendiyar, an Ottoman vassal
-zones.candar-1423.name: "Osmanlı’ya bağlı İsfendiyar Bey yönetiminde Candaroğulları Beyliği"
-
-# Beylik of Candar under İbrahim, an Ottoman vassal
-zones.candar-1440.name: "Osmanlı’ya bağlı İbrahim Bey yönetiminde Candaroğulları Beyliği"
-
-# Beylik of Candar under İsmail, an Ottoman vassal
-zones.candar-1443.name: "Osmanlı’ya bağlı İsmail Bey yönetiminde Candaroğulları Beyliği"
-
 # Chios and Phocaea under the Genoese Maona
 zones.chios-1421c.name: "Ceneviz Maona şirketinin Sakız ve Foça’sı"
 
@@ -193,9 +184,6 @@ zones.gattilusi-1422b.name: "Gattilusi ailesinin toprakları"
 
 # Lands of the Gattilusi
 zones.gattilusi-1435.name: "Gattilusi ailesinin toprakları"
-
-# Lands of the Gattilusi
-zones.gattilusi-1442.name: "Gattilusi ailesinin toprakları"
 
 # Islands of the Gattilusi in the northern Aegean
 zones.gattilusi-islands-1440.name: "Gattilusi ailesinin Kuzey Ege adaları"
@@ -257,12 +245,6 @@ zones.karaman-1437.name: "Karamanoğulları Beyliği"
 # Beylik of Karaman
 zones.karaman-1444.name: "Karamanoğulları Beyliği"
 
-# Knights Hospitaller
-zones.knights-1422.name: "Hospitalier şövalyeleri"
-
-# Knights Hospitaller
-zones.knights-1422b.name: "Hospitalier şövalyeleri"
-
 # Mamluk Sultanate
 zones.mamluks-1421.name: "Memlük Sultanlığı"
 
@@ -286,9 +268,6 @@ zones.moldavia-1421.name: "İyi Aleksandru yönetiminde Boğdan Prensliği"
 
 # Principality of Moldavia
 zones.moldavia-1433.name: "Boğdan Prensliği"
-
-# Principality of Moldavia under Bogdan II
-zones.moldavia-1450.name: "II. Bogdan yönetiminde Boğdan Prensliği"
 
 # Lands of Mustafa Çelebi
 zones.mustafa-1421.name: "Mustafa Çelebi’nin toprakları"
@@ -352,6 +331,9 @@ zones.ottomans-1446b.name: "II. Murad yönetiminde Osmanlı Devleti"
 
 # Ottoman state under Murad II
 zones.ottomans-1449.name: "II. Murad yönetiminde Osmanlı Devleti"
+
+# Ottoman state under Murad II
+zones.ottomans-1450.name: "II. Murad yönetiminde Osmanlı Devleti"
 
 # Kingdom of Poland under Władysław III
 zones.poland-1435.name: "III. Vladislav yönetiminde Polonya Krallığı"
@@ -500,9 +482,6 @@ routes.murad-bursa-1421.name: "Murad Amasya’dan Bursa’ya gelir, 1421"
 # Murad proclaimed sultan, June 1421
 markers.bursa-1421.note: "Murad sultan ilan edilir, Haziran 1421"
 
-# Byzantine capital
-markers.constantinople.note: "Bizans başkenti"
-
 # Murad’s seat as governor, 1413–1421
 markers.amasya-1421.note: "Murad’ın sancakbeyi olarak oturduğu yer, 1413–1421"
 
@@ -517,6 +496,9 @@ routes.mustafa-edirne-1421.name: "Mustafa Gelibolu’dan Sazlıdere üzerinden E
 
 # Byzantine galleys carry Mustafa and Cüneyd from Lemnos to Gallipoli, 1421
 routes.mustafa-lemnos-1421.name: "Bizans kadırgaları Mustafa ile Cüneyd’i Limni’den Gelibolu’ya getirir, 1421"
+
+# Byzantine capital
+markers.constantinople.note: "Bizans başkenti"
 
 # Mustafa and Cüneyd released, 1421
 markers.lemnos-1421.note: "Mustafa ile Cüneyd serbest bırakılır, 1421"
@@ -1196,14 +1178,17 @@ zones.ottomans-1421b.name: "II. Murad yönetiminde Osmanlı Devleti"
 # Lands of Murad II
 zones.ottomans-1421c.name: "II. Murad’ın toprakları"
 
-# Ottoman state under Murad II
-zones.ottomans-1450b.name: "II. Murad yönetiminde Osmanlı Devleti"
+# Knights Hospitaller
+zones.knights-1422.name: "Hospitalier şövalyeleri"
 
 # Beylik of Germiyan under Yakub II
 zones.germiyan-1422c.name: "II. Yakub Bey yönetiminde Germiyanoğulları Beyliği"
 
 # Beylik of Candar under İsfendiyar
 zones.candar-1422c.name: "İsfendiyar Bey yönetiminde Candaroğulları Beyliği"
+
+# Knights Hospitaller
+zones.knights-1422b.name: "Hospitalier şövalyeleri"
 
 # Duchy of Athens under Antonio I Acciaioli, an Ottoman vassal
 zones.athens-1422c.name: "Osmanlı’ya bağlı I. Antonio Acciaioli yönetiminde Atina Dükalığı"
@@ -1217,14 +1202,23 @@ zones.gattilusi-1423.name: "Gattilusi ailesinin toprakları"
 # Beylik of Karaman
 zones.karaman-1426.name: "Karamanoğulları Beyliği"
 
+# Beylik of Candar under İsfendiyar, an Ottoman vassal
+zones.candar-1423.name: "Osmanlı’ya bağlı İsfendiyar Bey yönetiminde Candaroğulları Beyliği"
+
 # Beylik of Dulkadir
 zones.dulkadir-1422c.name: "Dulkadiroğulları Beyliği"
 
 # Genoese colonies
 zones.genoese-colonies-1426.name: "Ceneviz kolonileri"
 
+# Beylik of Candar under İbrahim, an Ottoman vassal
+zones.candar-1440.name: "Osmanlı’ya bağlı İbrahim Bey yönetiminde Candaroğulları Beyliği"
+
 # Duchy of Athens under Nerio II Acciaioli, an Ottoman vassal
 zones.athens-1435.name: "Osmanlı’ya bağlı II. Nerio Acciaioli yönetiminde Atina Dükalığı"
+
+# Duchy of Athens under the Acciaioli, an Ottoman vassal
+zones.athens-1451.name: "Osmanlı’ya bağlı Acciaioli ailesi yönetiminde Atina Dükalığı"
 
 # June 1421
 pages.murad.date: "Haziran 1421"
@@ -2124,7 +2118,3 @@ markers.szeged-1448.label: "Segedin (Szeged)"
 
 # Mount Tumenishta
 markers.tumenishta-1450.label: "Tumenishta Dağı"
-
-# No longer used by the content:
-# zones.byzantium-1421b.name: "II. Manuel yönetiminde Bizans İmparatorluğu"
-# zones.ottomans-1422b.name: "II. Murad yönetiminde Osmanlı Devleti"

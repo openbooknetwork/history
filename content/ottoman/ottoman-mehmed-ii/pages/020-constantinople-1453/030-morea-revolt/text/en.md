@@ -2,7 +2,7 @@ After the fall of Constantinople the Albanians of the Morea rise against the des
 
 @image thomas-palaiologos-pinturicchio-089cd2
 
-The despots ask the sultan for help. In December 1453 Ömer Bey, a son of Turahan, comes from Thessaly and beats the rebels. He leaves when his brother Ahmed, a prisoner at [Mistra](@mistra) since 1452, is set free. The revolt goes on, and in summer 1454 Venice sends Vettore Cappello to talk to all sides and to buy ports in the Morea.
+The despots ask the sultan for help. In December 1453 Ömer Bey, a son of Turahan, comes from Thessaly and beats the rebels. He leaves when his brother Ahmed, a prisoner at [Mistra](@mistra-1454) since 1452, is set free. The revolt goes on, and in summer 1454 Venice sends Vettore Cappello to talk to all sides and to buy ports in the Morea.
 
 @image demetrios-palaiologos-decree-d9a6db
 

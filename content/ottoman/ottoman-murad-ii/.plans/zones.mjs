@@ -4,7 +4,8 @@
 // Each town has an owners' timeline and an area, the land nearest to it along the ground; a period's zones are its
 // owners' areas joined in one topology. The towns, lines and raster are story 2's, so the borders of 1421 meet the
 // shared zone ottomans-1421 that story 2 ends on. The second page splits that outline at the straits between Murad and
-// Mustafa, and the Ottoman lands of 1451 go to content/shared/zones/ for the story of Mehmed II.
+// Mustafa. The last page shows the zones of February 1451 that the story of Mehmed II draws and shares, as it lists
+// them in its .plans/elsewhere.yaml.
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -514,12 +515,12 @@ const PERIODS = [
 ];
 // the phase pages of the two battle plans show none
 const NONE = ['varna-lines', 'varna-wings', 'varna-king', 'kosovo-flanks', 'kosovo-night', 'kosovo-camp'];
-// the Ottoman lands of this page are a shared zone that the story of Mehmed II opens on
-const SHARED = [
-  { id: 'ottomans-1451', page: 'murad-death', en: 'Ottoman state at the death of Murad II, 1451', tr: 'II. Murad’ın ölümünde Osmanlı Devleti, 1451' },
-];
-// the shared zones this story reads: story 2's last Ottoman lands
-const OUTLINES = ['ottomans-1421'];
+// the shared zones this story writes: none since the story of Mehmed II draws the zones of 1451
+const SHARED = [];
+// the shared zones this story reads: story 2's last Ottoman lands, and those of 1451 from the story of Mehmed II
+const OUTLINES = ['ottomans-1421', 'ottomans-1451'];
+// pages that show the zones of the story of Mehmed II, all of them shared
+const LATER = yaml.load(fs.readFileSync(path.join(content, 'ottoman', 'ottoman-mehmed-ii', '.plans', 'elsewhere.yaml'), 'utf8'));
 // a page that looks closer than the town areas reach, a battlefield inside one state's land: one zone over its frame
 const CLOSE = { varna: 'ott', kosovo: 'serbia' };
 // the line through the straits that parts Europe from Asia: the Dardanelles, the Sea of Marmara and the Bosporus, from
@@ -957,6 +958,8 @@ for (const period of periodZones) for (const p of period.pages) {
   PAGES[p].sort((a, b) => order.indexOf(zoneOf(a).family) - order.indexOf(zoneOf(b).family));
 }
 for (const p of NONE) { if (!BBOX[p]) throw new Error(`no page ${p}`); PAGES[p] = []; }
+// the pages with the zones of a later story draw none of this story's; their list comes back before the writing
+for (const p of Object.keys(LATER)) { if (!BBOX[p]) throw new Error(`no page ${p}`); PAGES[p] = []; }
 for (const p of Object.keys(BBOX)) if (!PAGES[p]) problems.push(`page ${p} has no period`);
 if (process.argv.includes('--legends')) for (const [p, ids] of Object.entries(PAGES)) console.log(`  ${p}: ${ids.join(' ')}`);
 
@@ -1056,9 +1059,13 @@ for (const s of SHARED) {
 const usedAliases = Object.entries(aliases).filter(([id]) => used.includes(id));
 const aliasFile = path.join(story, 'shared', 'zones.yaml');
 const uses = [...usedAliases.map(([id, a]) => `${id}: { zone: ${a.zone}, name: ${JSON.stringify(a.name.en)} }`),
-  ...Object.entries(borrowed).map(([id, c]) => `${id}: { zone: ${c.id}, name: ${JSON.stringify(Z[id].name.en)} }`)];
+  // a zone with the id of the shared zone it takes is that shared zone
+  ...Object.entries(borrowed).filter(([id, c]) => id !== c.id).map(([id, c]) => `${id}: { zone: ${c.id}, name: ${JSON.stringify(Z[id].name.en)} }`),
+  // the later story's zones that take a shared outline under another name
+  ...Object.values(LATER).flatMap(l => Object.entries(l.uses ?? {})).map(([id, u]) => `${id}: { zone: ${u.zone}, name: ${JSON.stringify(u.name)} }`)];
 if (uses.length) fs.writeFileSync(aliasFile, '# Zones of these pages that have the outline of a shared zone. Written by .plans/zones.mjs.\n' + uses.join('\n') + '\n');
 else fs.rmSync(aliasFile, { force: true });
+for (const [p, l] of Object.entries(LATER)) PAGES[p] = l.zones;
 fs.writeFileSync(path.join(story, '.plans', 'zones.yaml'), '# Zones per page, written by .plans/zones.mjs. The phase pages of the battle plans show none.\n'
   + Object.entries(PAGES).map(([p, ids]) => `${p}: [${ids.join(', ')}]`).join('\n') + '\n');
 for (const [p, ids] of Object.entries(PAGES)) {
@@ -1066,6 +1073,7 @@ for (const [p, ids] of Object.entries(PAGES)) {
   fs.writeFileSync(file, /^zones:.*$/m.test(text) ? text.replace(/^zones:.*$/m, line) : text.replace(/^(bbox:.*)$/m, `$1\n${line}`));
 }
 fs.mkdirSync(path.join(story, '.i18n-parts'), { recursive: true });
-fs.writeFileSync(path.join(story, '.i18n-parts', 'zones.tr.yaml'), used.filter(id => !sharedIds.includes(id))
-  .map(id => `zones.${id}.name: ${JSON.stringify(zoneOf(id).name.tr)}`).join('\n') + '\n');
+fs.writeFileSync(path.join(story, '.i18n-parts', 'zones.tr.yaml'), [...used.filter(id => !sharedIds.includes(id) && borrowed[id]?.id !== id)
+  .map(id => `zones.${id}.name: ${JSON.stringify(zoneOf(id).name.tr)}`),
+  ...Object.values(LATER).flatMap(l => Object.entries(l.uses ?? {})).map(([id, u]) => `zones.${id}.name: ${JSON.stringify(u.tr)}`)].join('\n') + '\n');
 console.log(`${used.length} zones on ${Object.values(PAGES).filter(l => l.length).length} pages, the longest legend ${Math.max(...Object.values(PAGES).map(l => l.length))}`);

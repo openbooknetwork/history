@@ -4,6 +4,6 @@ On 29 May 1453 the Ottoman troops spread through the city along the Mese, past t
 
 The Venetian captain Alviso Diedo has the chain broken open, and the Venetian ships sail out crowded with soldiers and refugees, followed by a few Genoese ships and some of the emperor’s. Cretan sailors hold three towers on the Horn walls until the afternoon, and Mehmed lets them sail home. Prince Orhan is killed, and Loukas Notaras is taken prisoner.
 
-Mehmed enters the city in the afternoon by the [gate of St Romanos](@st-romanos-gate) and rides to Hagia Sophia, where he has a muezzin call the prayer. Other accounts have him enter the next day by the [Charisian gate](@charisian-gate).
+Mehmed enters the city in the afternoon by the [gate of St Romanos](@st-romanos-gate) and rides to Hagia Sophia, where he has a muezzin call the prayer. Other accounts have him enter by the [Charisian gate](@charisian-gate).
 
 @image zonaro-mehmed-enters-7034db

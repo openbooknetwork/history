@@ -2,7 +2,7 @@ Konstantinopolis’in düşmesinden sonra Mora’daki Arnavutlar, yarımadayı p
 
 @image thomas-palaiologos-pinturicchio-089cd2
 
-Despotlar padişahtan yardım ister. Aralık 1453’te Turahan Bey’in oğlu Ömer Bey Teselya’dan gelir ve isyancıları yener. 1452’den beri [Mezistre’de](@mistra) esir tutulan kardeşi Ahmed serbest bırakılınca geri döner. Ayaklanma sürer ve 1454 yazında Venedik, bütün taraflarla görüşmek ve Mora’da limanlar satın almak için Vettore Cappello’yu gönderir.
+Despotlar padişahtan yardım ister. Aralık 1453’te Turahan Bey’in oğlu Ömer Bey Teselya’dan gelir ve isyancıları yener. 1452’den beri [Mezistre’de](@mistra-1454) esir tutulan kardeşi Ahmed serbest bırakılınca geri döner. Ayaklanma sürer ve 1454 yazında Venedik, bütün taraflarla görüşmek ve Mora’da limanlar satın almak için Vettore Cappello’yu gönderir.
 
 @image demetrios-palaiologos-decree-d9a6db
 

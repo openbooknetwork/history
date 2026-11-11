@@ -27,10 +27,11 @@ event comes from one account only.
 - Eyewitnesses: Nicolò Barbaro’s diary, Leonard of Chios, Isidore of Kiev, Sphrantzes. Later Greek: Doukas (the
   Kerkoporta), Kritovoulos, Chalkokondyles. Ottoman: Tursun Beg.
 - Modern: Steven Runciman (1965) for the posts and the course of the siege, Franz Babinger (1978), Donald Nicol (1992),
-  David Nicolle (2000). The Fall of Constantinople articles in English and Turkish, in `.wikipedia/` of this story
-  and of `rise-of-the-ottomans`.
+  David Nicolle (2000), Anthony Kaldellis (2026). The Fall of Constantinople articles in English and Turkish, in
+  `.wikipedia/` of this story and of `rise-of-the-ottomans`.
 - The posts follow the Fall of Constantinople article and the outline. Theophilos Palaiologos stands with Johannes
-  Grant at the Kaligaria gate. The English article puts him with Cataneo at the Pege gate. Notaras stands on the Horn
+  Grant at the Kaligaria gate with Kaldellis, cited by the Johannes Grant article. Runciman, in the English Fall of
+  Constantinople article, puts him with Cataneo at the Pege gate, and the text gives both. Notaras stands on the Horn
   walls at the Petrion, and his hover name gives the other version, a reserve in the Petra quarter.
 - The batteries are those of the Turkish article for 11 April: three at Blachernae, two at the Charisian gate, four at
   St Romanos, three at Pege, Orban’s gun moved from the Kaligaria gate to the Mesoteichion.
@@ -39,7 +40,7 @@ event comes from one account only.
 - The siege tower of 18 May stands at St Romanos with Runciman. The Turkish article puts it at the Charisian gate on 19
   May, and the hover name and the text give both.
 - The breach of 29 May is drawn at the Fifth Military Gate, north of the Lycus, as the outline has it. The older view
-  puts it at the gate of St Romanos, 600 m to the south.
+  puts it at the gate of St Romanos, 500 m to the south.
 
 ### Drawn size
 
@@ -48,41 +49,55 @@ the Golden Gate to Eyüp at the head of the Horn. At this scale a 600 m block is
 
 - The posts on the walls are drawn 90 m deep and 160 to 650 m along the wall, inside the wall line. The Ottoman bodies
   stand 160 to 560 m out from the wall, the length of the stretch each held.
-- Ships are drawn as hulls 200 to 250 m long, about five times a galley’s length, so that a hull reads on the map. A
-  fleet unit of 8 to 10 hulls stands for its 26 to 150 ships.
+- Ships are drawn as hulls 150 to 250 m long, about five times a galley’s length, so that a hull reads on the map. The
+  fleets inside the Horn take 150 to 160 m, so that they fit the Horn of 1453. A fleet unit of 8 to 10 hulls stands for
+  its 26 to 150 ships.
 - The chain is drawn 100 m wide, about three times the width of the boom and its floats, so that its links show.
-- Commanders’ markers stand 700 to 1,000 m inside the city, so that their labels clear the troops before the walls.
+- Commanders’ markers stand 450 to 1,000 m inside the city, so that their labels clear the troops before the walls.
   Gate markers stand on the wall line.
 
 ### Real ground
 
 Positions are written as `[lon, lat]`. The plan has no rotated frame: `before`, `post` and `seaPost` in the generator
-place a unit a set distance across the nearest stretch of the wall line, facing out or in.
+take the point of the wall line nearest a given point and place a unit a set distance across the wall there, facing out
+or in.
 
-- The land walls follow the line of the Theodosian walls from the Marble Tower on the Marmara (28.9192, 40.9929) by the
-  Golden Gate at Yedikule, the Xylokerkos gate (Belgradkapı), the Pege gate (Silivrikapı), the Rhegion gate
-  (Mevlanakapı), St Romanos (Topkapı), the Lycus crossing, the Fifth Military Gate and the Charisian gate (Edirnekapı)
-  to the Palace of the Porphyrogenitus (Tekfur Sarayı), then the single wall of Blachernae by the Kaligaria gate
-  (Eğrikapı) to the Horn at Ayvansaray. The points are placed from general maps of the walls, good to about 100 m.
-- The moat is a `water` ribbon 18 m wide, 40 m in front of the Theodosian walls. The Lycus is drawn from Bayrampaşa
-  through the walls in the Mesoteichion to the harbour of Eleutherios at Yenikapı.
-- The base map’s coast is Natural Earth’s, which leaves out the Golden Horn and runs up to 900 m off the shore at
-  Yenikapı. The plan draws `land` over a box round the city and the whole sea as one `water` area: the shore is the sea
-  walls moved 45 m out, and the Horn’s north shore runs 30 m off the sea wall of Galata. The rest of the Horn’s north
-  shore and the Bosporus shore to Beşiktaş follow general maps, and the hill of Pera between them is land. Beyond the
-  bbox the water follows the base map’s coast (`harita coast Turkey 28.80 40.93 29.15 41.12`), so that the plan’s water
-  meets the base map’s where the view ends.
-- The chain runs 530 m from the tower of Eugenius by the Gate of Eugenius at Sirkeci (28.9795, 41.0174) to the
-  Kastellion of Galata at Karaköy (28.9768, 41.0222). The walls of Galata are the circuit of 1453 from Azapkapı up to the
-  Galata Tower and down to Tophane.
-- The haul of 22 April follows the valley from the Bosporus shore at Dolmabahçe up to the ridge at Taksim, about 80 m,
-  and down the valley to Kasımpaşa, 3.5 km in all. The Turkish article gives 2 to 4 km, the track is a fit of the
-  accounts to the ground.
+- The modern shore is the 0.5 m contour of the elevation tiles at zoom 15, the Terrarium tiles of the terrain tiles on
+  AWS at about 4 m a pixel, simplified to 5 m. The heights read 0 m on the sea and on the whole Horn up to Eyüp, so the
+  contour traces the Horn and the Bosporus. `constantinople-1453-shore.json` holds it: the European shore from the
+  Bosporus round the Horn to the Marmara, and the Asian shore, inside the box 28.839 to 29.081 E, 40.947 to 41.096 N.
+  The plan draws `land` over that box and the water of 1453 inside it.
+- The land walls are OpenStreetMap’s ways of the Theodosian walls, the wall of Manuel Komnenos and the walls of
+  Blachernae, from the Marble Tower to the Anemas, simplified to 20 m. The Theodosian walls run 5.6 km from the Marble
+  Tower to the Palace of the Porphyrogenitus (Tekfur Sarayı), and the walls article gives 5.7 km. The Golden Gate, the
+  Xylokerkos gate (Belgradkapı), the Pege gate (Silivrikapı), the Rhegion gate (Mevlanakapı), the gate of St Romanos
+  (Topkapı) and the Kaligaria gate (Eğrikapı) stand where OpenStreetMap maps them. The Charisian gate (Edirnekapı) is
+  the gap in the mapped walls at Fevzi Paşa Caddesi.
+- The Lycus passes the walls where Vatan Caddesi does, the lowest point of the walls on the heights, 40 m between the
+  gate of St Romanos at 68 m and the Charisian gate. The Fifth Military Gate stands 100 m north of it. The stream comes
+  down the valley the heights show from Bayrampaşa and runs through the city to the silted harbour of Eleutherios at
+  Yenikapı. The moat is a `water` ribbon 18 m wide, 40 m in front of the Theodosian walls.
+- Landfill since the 19th century has moved the shore out, so the sea walls stand inland of the modern shore: 100 to
+  145 m at Yedikule and the Bukoleon, 75 to 90 m at Davutpaşa and east of the Bukoleon, 45 to 80 m round the Acropolis
+  point, 115 m at Eminönü and 56 to 60 m from Cibali to Ayvansaray. These widths are measured on the stretches of sea
+  wall that OpenStreetMap maps and interpolated along the shore between them. At Yenikapı and Kumkapı (110 m) and at
+  Sirkeci (100 m) they are estimates.
+- The water of 1453 comes up to the sea walls with a strip of shore 25 m wide on the Marmara and 40 m on the Horn, where
+  the quays stood. Away from the walls the shore moves inland 70 m on the Bosporus, 40 m along the Horn and 50 m on the
+  Marmara, estimates of the landfill there.
+- The sea wall of Galata stands 60 to 90 m inland of the modern shore from the Horn west of Karaköy to Tophane, an
+  estimate. The land wall from the Horn up to the Galata Tower follows the stretches OpenStreetMap maps. The wall from
+  the tower down to Tophane follows general maps.
+- The chain runs 800 m from the tower of Eugenius on the Horn wall at Sirkeci to the Kastellion of Galata on the sea
+  wall of Galata at Karaköy.
+- The haul of 22 April follows the valley from the Bosporus shore at Dolmabahçe up to the ridge at Taksim, at 80 m on
+  the heights, and down the valley to Kasımpaşa, 3.4 km in all. The Turkish article gives 2 to 4 km, the track is a fit
+  of the accounts to the ground.
 - The bridge of barrels of 19 May crosses the upper Horn from the north shore below Hasköy to the south shore just
   outside the walls at Ayvansaray. The Turkish article says it stops short of the Kynegos gate, the plan ends it at
   the shore.
-- Mehmed’s tent stands on the hill of Maltepe, 1 km west of the gate of St Romanos. Zaganos Pasha’s troops stand on the
-  hills above Kasımpaşa, behind Galata.
+- Mehmed’s tent stands on the hill of Maltepe, 1.4 km west of the gate of St Romanos. Zaganos Pasha’s troops stand on
+  the hills above Kasımpaşa, behind Galata.
 
 ## Belgrade
 

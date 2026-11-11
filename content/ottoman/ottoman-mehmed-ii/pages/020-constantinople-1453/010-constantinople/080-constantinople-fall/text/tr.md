@@ -4,6 +4,6 @@
 
 Venedikli kaptan Alviso Diedo zinciri kırdırır, Venedik gemileri askerler ve sığınmacılarla dolu olarak Haliç’ten çıkar, ardından birkaç Ceneviz gemisiyle imparatorun bazı gemileri gelir. Giritli denizciler Haliç surlarındaki üç burcu öğleden sonraya kadar tutar, Mehmed de onların evlerine dönmesine izin verir. Şehzade Orhan öldürülür, Lukas Notaras esir alınır.
 
-Mehmed öğleden sonra [Topkapı’dan](@st-romanos-gate) şehre girer ve Ayasofya’ya gider, orada bir müezzine ezan okutur. Başka anlatımlara göre ertesi gün [Edirnekapı’dan](@charisian-gate) girer.
+Mehmed öğleden sonra [Topkapı’dan](@st-romanos-gate) şehre girer ve Ayasofya’ya gider, orada bir müezzine ezan okutur. Başka anlatımlara göre [Edirnekapı’dan](@charisian-gate) girer.
 
 @image zonaro-mehmed-enters-7034db

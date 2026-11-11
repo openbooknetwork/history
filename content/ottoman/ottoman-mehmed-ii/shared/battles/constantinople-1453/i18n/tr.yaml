@@ -1,0 +1,50 @@
+# tr strings for the battle "constantinople-1453".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman state
+battle.sides.0.name: "Osmanlı Devleti"
+
+# 50,000 to 80,000 by modern estimates, 160,000 to 300,000 by western witnesses. 110 to 430 ships
+battle.sides.0.strength: "Modern tahminlere göre 50.000 ile 80.000, Batılı görgü tanıklarına göre 160.000 ile 300.000 arası. 110 ile 430 arası gemi"
+
+# Heavy
+battle.sides.0.casualties: "Ağır"
+
+# Byzantine Empire, with Venetians, Genoese and other westerners
+battle.sides.1.name: "Bizans İmparatorluğu, Venedikliler, Cenevizliler ve öbür Batılılarla birlikte"
+
+# About 7,000 to 8,000 men, 2,000 to 3,000 of them foreigners. 26 ships
+battle.sides.1.strength: "7.000 ile 8.000 kadar asker, bunların 2.000 ile 3.000’i yabancı. 26 gemi"
+
+# About 4,000 people of the city killed and 30,000 enslaved
+battle.sides.1.casualties: "Şehir halkından 4.000 kadar ölü ve 30.000 köle"
+
+# Fall of Constantinople
+battle.name: "İstanbul’un Fethi"
+
+# 6 April – 29 May 1453
+battle.date: "6 Nisan – 29 Mayıs 1453"
+
+# Ottoman victory, Constantinople taken, Constantine XI killed
+battle.result: "Osmanlı zaferi, Konstantinopolis alınır, XI. Konstantinos öldürülür"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Mehmed II
+battle.sides.0.commanders.0: "II. Mehmed"
+
+# Zaganos Pasha
+battle.sides.0.commanders.1: "Zağanos Paşa"
+
+# Karaca Pasha
+battle.sides.0.commanders.2: "Karaca Paşa"
+
+# İshak Pasha
+battle.sides.0.commanders.3: "İshak Paşa"
+
+# Constantine XI
+battle.sides.1.commanders.0: "XI. Konstantinos"
+
+# Loukas Notaras
+battle.sides.1.commanders.2: "Lukas Notaras"

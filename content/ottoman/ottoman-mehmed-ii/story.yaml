@@ -1,0 +1,71 @@
+# One story: a timeline shown on one map.
+id: ottoman-mehmed-ii
+title: "Mehmed II and the Fall of Constantinople"
+summary: "Mehmed II's thirty years on the Ottoman throne: the siege and fall of Constantinople in 1453, the conquest of Serbia, the Morea, Trebizond and Bosnia, the wars with Hunyadi, Skanderbeg, Vlad III, Venice, Uzun Hasan and Stephen the Great, and the landing at Otranto in 1480."
+cover: bellini-mehmed-ii-portrait-19b2fa   # Gentile Bellini, Mehmed II, 1480, shown on the main page
+span: "1451 – 1481"
+languages: [en, tr]
+default_language: en
+labels:
+  countries: false
+
+# Map extent for the border data and the opening view: [west, south, east, north]. Reaches Venice and the Isonzo in
+# the west for the raids of 1477, Suceava and Neamț in the north for Moldavia, Tabriz in the east for Uzun Hasan.
+extent: [11, 33, 48, 50]
+# Countries whose land the zones are clipped to. Natural Earth names.
+land: [Turkey, Greece, Bulgaria, Macedonia, Albania, Serbia, Kosovo, Montenegro, Bosnia and Herz., Croatia, Slovenia, Hungary,
+  Slovakia, Romania, Moldova, Ukraine, Russia, Poland, Italy, San Marino, Vatican, Austria, Cyprus, N. Cyprus, Syria, Lebanon,
+  Iraq, Iran, Georgia, Armenia, Azerbaijan]
+# Countries drawn with borders. Everything else inside the extent is left out.
+countries: [France, Italy, San Marino, Vatican, Switzerland, Austria, Germany, Czechia, Slovakia, Poland, Slovenia, Croatia,
+  Bosnia and Herz., Montenegro, Albania, Serbia, Kosovo, Macedonia, Greece, Bulgaria, Romania, Moldova, Ukraine, Belarus,
+  Russia, Hungary, Turkey, Cyprus, N. Cyprus, Syria, Lebanon, Israel, Palestine, Jordan, Iraq, Iran, Georgia, Armenia,
+  Azerbaijan, Tunisia, Malta]
+
+# Zone families. A zone subtracts every zone from a family with a lower priority number.
+# Zones in the same family never cut each other, so one family can hold several dated shapes.
+# One family per state. The colours of story 3 carry over where the state is the same.
+families:
+  ottomans:        { priority: 1, color: "#b5352a", color_dark: "#e8695c" }
+  byzantium:       { priority: 2, color: "#6b2d6b", color_dark: "#c27ac2" } # Constantinople, to 1453
+  thomas:          { priority: 3, color: "#a35a9e", color_dark: "#d99bd4", pattern: hatch } # Thomas Palaiologos in the Morea, 1453 – 1460
+  demetrios:       { priority: 4, color: "#6b2d6b", color_dark: "#c27ac2", pattern: dots } # Demetrios Palaiologos at Mistra, 1453 – 1460
+  morea-rebels:    { priority: 5, color: "#6f6f2f", color_dark: "#b5b56a", pattern: cross } # the revolt of 1453 – 1454
+  serbia:          { priority: 6, color: "#2f6fb0", color_dark: "#6fa6e0" } # the Despotate, to 1459
+  karaman:         { priority: 7, color: "#d4a017", color_dark: "#f2c94c" }
+  candar:          { priority: 8, color: "#8258a9", color_dark: "#c29ce1", pattern: dots } # Kastamonu and Sinop, to 1461
+  dulkadir:        { priority: 9, color: "#b6425b", color_dark: "#f18f9e", pattern: cross }
+  mamluks:         { priority: 10, color: "#b67dba", color_dark: "#f5c5f8", pattern: hatch }
+  trebizond:       { priority: 11, color: "#8a7c2b", color_dark: "#cebe7b", pattern: dots } # to 1461
+  aq-qoyunlu:      { priority: 12, color: "#8f8778", color_dark: "#e8e1cf", pattern: cross } # Uzun Hasan. Darker than story 3 in the light theme, so the units of the Otlukbeli plan show on the relief
+  kara-koyunlu:    { priority: 13, color: "#3d3d3d", color_dark: "#9a9a9a", pattern: hatch } # Jahan Shah, to 1467
+  timurids:        { priority: 14, color: "#17695f", color_dark: "#5cbfae" } # Abu Sa'id, to 1469
+  georgia:         { priority: 15, color: "#7b9e3a", color_dark: "#b8d77a", pattern: cross }
+  hungary:         { priority: 16, color: "#3d7a2a", color_dark: "#7cc160" }
+  poland:          { priority: 17, color: "#cc5a71", color_dark: "#f29bab", pattern: hatch }
+  bosnia:          { priority: 18, color: "#4ca173", color_dark: "#a0e3bb", pattern: cross } # the kingdom, to 1463
+  herzegovina:     { priority: 19, color: "#5e4b8b", color_dark: "#a593d6", pattern: cross } # Stjepan Vukčić Kosača and his sons
+  wallachia:       { priority: 20, color: "#5b7a99", color_dark: "#9fbad6", pattern: dots }
+  moldavia:        { priority: 21, color: "#7e5a2c", color_dark: "#bf9a68", pattern: cross } # Stephen the Great from 1457
+  zeta:            { priority: 22, color: "#c27c0e", color_dark: "#f0a830", pattern: cross } # the Crnojević
+  skanderbeg:      { priority: 23, color: "#8a5a00", color_dark: "#d9a441" } # Skanderbeg and the League of Lezhë, to 1468
+  albanian-lords:  { priority: 24, color: "#86807a", color_dark: "#b9b3ad" } # the Dukagjini, to 1454
+  epirus:          { priority: 25, color: "#6c4c24", color_dark: "#ab8b69", pattern: hatch } # the Tocco, to 1479
+  athens:          { priority: 26, color: "#d35400", color_dark: "#f08a4b", pattern: hatch } # the Acciaioli, to 1458
+  venice:          { priority: 27, color: "#4da495", color_dark: "#92dacb", pattern: hatch }
+  genoa:           { priority: 28, color: "#0d681b", color_dark: "#64a560", pattern: dots } # Galata to 1453, Amasra to 1460, Caffa to 1475
+  chios:           { priority: 29, color: "#00ab73", color_dark: "#74e1ad", pattern: cross } # the Maona
+  gattilusi:       { priority: 30, color: "#a17b38", color_dark: "#e2bb80" } # Lesbos, Ainos and the islands, to 1462
+  knights:         { priority: 31, color: "#5d6d7e", color_dark: "#95a5b5", pattern: cross } # Rhodes and Bodrum
+  ragusa:          { priority: 32, color: "#b3416c", color_dark: "#ef8eac", pattern: dots }
+  naples:          { priority: 33, color: "#1f78b4", color_dark: "#73b3e0", pattern: hatch } # Alfonso V and Ferrante
+  papacy:          { priority: 34, color: "#e6b800", color_dark: "#ffd84d", pattern: dots } # the Papal States, Monemvasia 1460 – 1464
+  theodoro:        { priority: 35, color: "#e7298a", color_dark: "#f27ab6", pattern: hatch } # Mangup, to 1475
+  crimea:          { priority: 36, color: "#17becf", color_dark: "#7fe3ee" } # the Crimean Khanate
+  cyprus:          { priority: 37, color: "#66a61e", color_dark: "#a3d867", pattern: hatch } # the Lusignan kingdom
+  crusaders:       { priority: 38, color: "#2828bd", color_dark: "#5f5fdd" } # Capistrano's crusaders, the papal fleets
+  water:           { priority: 39, color: "#5b9bd5", color_dark: "#2c5d87" } # battle plan rivers and seas, no zones
+# Corner rounding passes applied to every hand drawn zone before the clip.
+smoothing: 4
+# Battle plans are drawn at the scale of the field: Constantinople, Belgrade and Otlukbeli are a few kilometres across.
+max_zoom: 14

@@ -1,0 +1,25 @@
+lnglat: [19.4935, 42.0465]
+name: "Siege of Shkodër"
+date: "Spring – 8 August 1474"
+result: "Venetian victory, the Ottomans lift the siege"
+source: https://en.wikipedia.org/wiki/Siege_of_Shkodra_(1474)
+images: [rozafa-gate-ecc3c2, lake-shkodra-dd5fbb]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  venice: { color: "#4da495", color_dark: "#92dacb" }
+  zeta: { color: "#c27c0e", color_dark: "#f0a830" }
+sides:
+  - name: "Ottoman state"
+    color: ottomans
+    commanders: ["Hadım Süleyman Pasha"]
+    strength: "About 8,000, or 50,000 by Venetian reports in July"
+    casualties: "7,000 to 20,000 reported killed"
+  - name: "Republic of Venice and Albanian troops"
+    color: venice
+    commanders: ["Antonio Loredan", "Triadan Gritti", "Leonardo Boldù"]
+    strength: "Up to 25,000 with the ships’ crews and the light horsemen from Greece, by Venetian reports"
+    casualties: "About 3,000 townspeople die of hunger and thirst"
+  - name: "Zeta"
+    color: zeta
+    commanders: ["Ivan Crnojević"]
+    strength: "3 fustas and 15 smaller boats on the lake"

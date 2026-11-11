@@ -1,0 +1,9 @@
+Mehmed, Halkokondilis’in İstanbul’u alan ordudan sonra en büyüğü dediği bir ordu toplar ve Eflak’ı, Osmanlı sarayında büyüyen ve bu seferde 4.000 atlıya komuta eden Vlad’ın küçük kardeşi Radu’ya verir. Mayıs 1462’de Osmanlı donanması Tuna’ya girip Eflak’ın ırmak üzerindeki tek limanı [İbrail’e](@braila-1462) kadar çıkar ve oraya asker indirir. Vlad, Mahmud Paşa’nın İbrail’e çıkardığı kuvveti yener, Angiolello’ya göre 18.000 kişiden yalnızca 8.000’i kurtulur.
+
+@image radu-charter-1465-0639fc
+
+Padişah 26 Nisan’da ya da 17 Mayıs 1462’de İstanbul’dan yola çıkar, 4 Haziran gecesi de yeniçeriler kayıklarla Niğbolu’dan karşı kıyıdaki [Turnu’ya](@turnu-1462) geçip toplarıyla Vlad’ın ordusunu püskürtür. Vlad, Osmanlıların önündeki toprakları boşaltır ve kuyuları zehirler. 16’yı 17 Haziran’a bağlayan gece padişahı öldürmek ya da yakalamak için [Tırgovişte’nin](@targoviste-1462) güneyindeki Osmanlı ordugâhına baskın yapar, ama padişahın yerine vezirler Mahmud Paşa ile İshak Paşa’nın çadırlarına saldırır ve şafaktan önce çekilir. Az sonra Osmanlılar Tırgovişte’yi boş bulur, kentin önünde de aralarında Hamza Bey’in de bulunduğu binlerce kazığa oturtulmuş esirle dolu bir alan görür.
+
+@image aman-battle-torches-7d3dd9
+
+Dönüş yolunda Ömer Bey’in artçıları, Vlad’ın orduyu taciz etmek için geride bıraktığı 6.000 kişiyi yener ve 2.000 kadarını öldürür. Mehmed 29 Haziran’da İbrail’i yakar ve 11 Temmuz’da Edirne’ye döner, Macar muhafızların tuttuğu [Kili’yi](@kilia-1462) kuşatan Boğdan Voyvodası Stefan da ayağından yaralanınca çekilir. Radu Osmanlı askerleriyle Eflak’ta kalır ve boyarların gitgide daha çoğunu kendi yanına çeker. Kasım 1462’de Matyas Korvin’in komutanlarından Jan Jiskra, Vlad’ı [Rucăr](@rucar-1462) yakınında tutuklar, Vlad da Macaristan’da, 1463’ten sonra Vişegrad’da tutulur.

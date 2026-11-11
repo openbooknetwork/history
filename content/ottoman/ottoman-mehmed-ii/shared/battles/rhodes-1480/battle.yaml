@@ -1,0 +1,19 @@
+lnglat: [28.227, 36.4423]
+name: "Siege of Rhodes"
+date: "23 May – 17 August 1480"
+result: "Hospitaller victory, the Ottoman fleet withdraws"
+source: https://en.wikipedia.org/wiki/Siege_of_Rhodes_(1480)
+images: [rhodes-siege-caoursin-3c80f1, knights-bombard-d9b3e2]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  knights: { color: "#5d6d7e", color_dark: "#95a5b5" }
+sides:
+  - name: "Ottoman state"
+    color: ottomans
+    commanders: ["Mesih Pasha"]
+    strength: "70,000 and 160 ships by contemporary accounts, 10,000 to 20,000 by modern estimates"
+    casualties: "9,000 killed and 15,000 wounded, by the Knights"
+  - name: "Knights Hospitaller"
+    color: knights
+    commanders: ["Pierre d’Aubusson", "Antoine d’Aubusson"]
+    strength: "3,000 to 4,000, with about 500 knights"

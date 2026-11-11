@@ -1,0 +1,17 @@
+lnglat: [39.718, 41.004]
+name: "Siege of Trebizond"
+date: "July – 15 August 1461"
+result: "Ottoman victory, Emperor David surrenders the city and the Empire of Trebizond ends"
+source: https://en.wikipedia.org/wiki/Siege_of_Trebizond_(1461)
+images: [trebizond-walls-1875-5759bf, alexios-iii-fresco-texier-4b64d5]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  trebizond: { color: "#8a7c2b", color_dark: "#cebe7b" }
+sides:
+  - name: "Ottoman state"
+    color: ottomans
+    commanders: ["Mehmed II", "Mahmud Pasha", "Kasım Pasha"]
+    strength: "80,000 foot and 60,000 horse by one estimate, 200 galleys and 10 warships"
+  - name: "Empire of Trebizond"
+    color: trebizond
+    commanders: ["David Megas Komnenos", "George Amiroutzes"]

@@ -1,0 +1,32 @@
+# tr strings for the battle "ohrid-1464".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# League of Lezhë and Venetian troops
+battle.sides.0.name: "Leş Birliği ve Venedik askerleri"
+
+# Including 500 Venetian horsemen and 500 foot soldiers
+battle.sides.0.strength: "Aralarında 500 Venedikli atlı ve 500 yaya"
+
+# Ottoman state
+battle.sides.1.name: "Osmanlı Devleti"
+
+# 14,000
+battle.sides.1.strength: "14.000"
+
+# 10,000
+battle.sides.1.casualties: "10.000"
+
+# Battle of Ohrid
+battle.name: "Ohri Muharebesi"
+
+# 14 or 15 September 1464
+battle.date: "14 ya da 15 Eylül 1464"
+
+# Albanian and Venetian victory, Şeremet Bey’s son taken prisoner
+battle.result: "Arnavut ve Venedik zaferi, Şeremet Bey’in oğlu esir düşer"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Skanderbeg
+battle.sides.0.commanders.0: "İskender Bey"

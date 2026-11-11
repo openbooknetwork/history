@@ -1,0 +1,65 @@
+# tr strings for the battle "otlukbeli-1473".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman state
+battle.sides.0.name: "Osmanlı Devleti"
+
+# 70,000 to 100,000, or 85,000 with 25,000 janissaries
+battle.sides.0.strength: "70.000 ile 100.000, ya da 25.000’i yeniçeri olmak üzere 85.000"
+
+# 4,000
+battle.sides.0.casualties: "4.000"
+
+# Aq Qoyunlu
+battle.sides.1.name: "Akkoyunlular"
+
+# 70,000 to 300,000, or 200,000, most of them horsemen
+battle.sides.1.strength: "70.000 ile 300.000, ya da çoğu atlı 200.000"
+
+# 55,000. Zeynel killed
+battle.sides.1.casualties: "55.000. Zeynel öldürülür"
+
+# Battle of Otlukbeli
+battle.name: "Otlukbeli Muharebesi"
+
+# 11 August 1473
+battle.date: "11 Ağustos 1473"
+
+# Ottoman victory
+battle.result: "Osmanlı zaferi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Mehmed II
+battle.sides.0.commanders.0: "II. Mehmed"
+
+# Şehzade Mustafa
+battle.sides.0.commanders.1: "Şehzade Mustafa"
+
+# Şehzade Bayezid
+battle.sides.0.commanders.2: "Şehzade Bayezid"
+
+# Davud Pasha
+battle.sides.0.commanders.3: "Davud Paşa"
+
+# Gedik Ahmed Pasha
+battle.sides.0.commanders.4: "Gedik Ahmed Paşa"
+
+# Mahmud Pasha
+battle.sides.0.commanders.5: "Mahmud Paşa"
+
+# Uzun Hasan
+battle.sides.1.commanders.0: "Uzun Hasan"
+
+# Uğurlu Mehmed
+battle.sides.1.commanders.1: "Uğurlu Mehmed"
+
+# Zeynel
+battle.sides.1.commanders.2: "Zeynel Mirza"
+
+# Gavur İshak
+battle.sides.1.commanders.3: "Gavur İshak"
+
+# Pir Ahmed
+battle.sides.1.commanders.4: "Pir Ahmed"

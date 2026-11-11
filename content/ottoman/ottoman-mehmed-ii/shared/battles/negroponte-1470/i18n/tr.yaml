@@ -1,0 +1,32 @@
+# tr strings for the battle "negroponte-1470".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman state
+battle.sides.0.name: "Osmanlı Devleti"
+
+# About 70,000 men and a fleet of about 300 ships
+battle.sides.0.strength: "70.000 kadar asker ve 300 kadar gemiden oluşan bir donanma"
+
+# Republic of Venice
+battle.sides.1.name: "Venedik Cumhuriyeti"
+
+# More than 6,000 Venetians and Greeks killed
+battle.sides.1.casualties: "6.000’den fazla Venedikli ve Rum ölür"
+
+# Siege of Negroponte
+battle.name: "Eğriboz Kuşatması"
+
+# 14 June – 12 July 1470
+battle.date: "14 Haziran – 12 Temmuz 1470"
+
+# Ottoman victory, the city is stormed and Euboea becomes Ottoman
+battle.result: "Osmanlı zaferi, kent saldırıyla alınır ve Eğriboz Adası Osmanlı olur"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Mehmed II
+battle.sides.0.commanders.0: "II. Mehmed"
+
+# Mahmud Pasha
+battle.sides.0.commanders.1: "Mahmud Paşa"

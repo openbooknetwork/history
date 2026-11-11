@@ -1,0 +1,20 @@
+lnglat: [40.0222, 39.9736]
+name: "Battle of Otlukbeli"
+date: "11 August 1473"
+result: "Ottoman victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Otlukbeli
+images: [otlukbeli-tadj-e42410, uzun-hasan-coin-113dc3]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  aq-qoyunlu: { color: "#8f8778", color_dark: "#e8e1cf" }
+sides:
+  - name: "Ottoman state"
+    color: ottomans
+    commanders: ["Mehmed II", "Şehzade Mustafa", "Şehzade Bayezid", "Davud Pasha", "Gedik Ahmed Pasha", "Mahmud Pasha"]
+    strength: "70,000 to 100,000, or 85,000 with 25,000 janissaries"
+    casualties: "4,000"
+  - name: "Aq Qoyunlu"
+    color: aq-qoyunlu
+    commanders: ["Uzun Hasan", "Uğurlu Mehmed", "Zeynel", "Gavur İshak", "Pir Ahmed"]
+    strength: "70,000 to 300,000, or 200,000, most of them horsemen"
+    casualties: "55,000. Zeynel killed"

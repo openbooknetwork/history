@@ -1,0 +1,21 @@
+lnglat: [20.4742, 44.812]
+name: "Siege of Belgrade"
+date: "4 – 22 July 1456"
+result: "Hungarian victory, Mehmed lifts the siege"
+source: https://en.wikipedia.org/wiki/Siege_of_Belgrade_(1456)
+images: [thuroczy-belgrade-1456-de2e6f, hunyadi-national-museum-a720cf]
+families:
+  hungary: { color: "#3d7a2a", color_dark: "#7cc160" }
+  crusaders: { color: "#2828bd", color_dark: "#5f5fdd" }
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+sides:
+  - name: "Kingdom of Hungary, with Capistrano’s crusaders"
+    color: hungary
+    commanders: ["John Hunyadi", "Michael Szilágyi", "John of Capistrano"]
+    strength: "5,000 to 7,000 in the fortress, 10,000 to 12,000 with Hunyadi, 25,000 to 60,000 crusaders, about 200 boats"
+    casualties: "4,000 to 10,000"
+  - name: "Ottoman state"
+    color: ottomans
+    commanders: ["Mehmed II", "Zaganos Pasha", "Mahmud Pasha", "Karaca Pasha"]
+    strength: "60,000 to 70,000 by newer research, 160,000 in early accounts. 300 guns and 21 to 200 river boats"
+    casualties: "About 13,000, or 4,000 to 5,000 by Babinger. The guns"

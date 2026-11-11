@@ -1,0 +1,9 @@
+Venedik kaynaklarına göre İstanbul’daki Venedik balyosu Mehmed’e, bir zamanlar Bizans’ın olan [Brindisi](@brindisi-1480), Taranto ve Otranto üzerinde hakkı olduğunu söyler. 1480 yazında donanmanın komutanı ve [Avlonya](@vlore-1480) sancakbeyi Gedik Ahmed Paşa gemilerini orada toplar ve Otranto Boğazı’nı geçer, Korfu’daki bir Venedik donanması da onu Puglia kıyısına kadar izleyip geri döner. Paşa Brindisi yakınında karaya çıkmayı düşünür, ama esir alınan bir tüccar ona daha güneydeki kıyının daha az korunduğunu söyler. 28 Temmuz’da 18.000 piyade ve 700 atlı taşıyan 140 kadar gemi Otranto önüne gelir, atlılar [Roca’da](@roca-1480) karaya çıkıp kente doğru ilerler.
+
+@image otranto-aerial-1930-f4b349
+
+Osmanlı topları surları yıkar ve kent 11 Ağustos’ta, yerel tarihçilere göre iç kalesi de 12 Ağustos’ta düşer. Geleneksel anlatımlara göre kentin 22.000 kişilik halkından 12.000’i öldürülür, birçoğu da köle edilir, Başpiskopos Stefano Agricolo ile Kont Francesco Largo çarpışmalarda ölür. 14 Ağustos’ta Müslüman olmayı reddeden 800 kadar erkek kentin dışındaki bir tepede öldürülür, Katolik Kilisesi onları daha sonra Otranto şehitleri olarak anar. Osmanlı atlıları [Lecce](@lecce-1480), Brindisi ve Taranto yönüne akın eder.
+
+@image otranto-martyrs-0cb507
+
+Osmanlıların yiyeceği azaldığı ve yöre halkı onlara erzak vermediği için Gedik Ahmed Paşa 1480 sonbaharında askerlerinin çoğunu Avlonya’ya geri götürür. Kentte 800 piyade ve 500 atlıdan, Türk tarihlerine göre ise 8.000 askerden oluşan bir birlik bırakır. Napoli Kralı Ferrante ile oğlu Calabria Dükü Alfonso eylülden başlayarak kentin yakınında ordugâh kurar, Papa IV. Sixtus da İtalyan devletlerinden ve Macaristan’dan para ve gemi toplar. Alfonso 1 Mayıs 1481’den başlayarak Napoli ve Macar askerleri ve bir papalık donanmasıyla Otranto’yu kuşatır, Mehmed’in ölümünden sonra yurdundan yardım alamayan Osmanlı birliği de 10 Eylül 1481’de teslim olur ve Arnavutluk’a gitmesine izin verilir.

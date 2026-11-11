@@ -1,0 +1,35 @@
+# tr strings for the battle "albulena-1457".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# League of Lezhë
+battle.sides.0.name: "Leş Birliği"
+
+# 8,000 to 10,000
+battle.sides.0.strength: "8.000 ile 10.000 arası"
+
+# Ottoman state
+battle.sides.1.name: "Osmanlı Devleti"
+
+# 50,000 to 80,000
+battle.sides.1.strength: "50.000 ile 80.000 arası"
+
+# 15,000 killed and 15,000 taken prisoner, by Babinger
+battle.sides.1.casualties: "Babinger’e göre 15.000 ölü ve 15.000 esir"
+
+# Battle of Albulena
+battle.name: "Albulena Muharebesi"
+
+# 2 September 1457
+battle.date: "2 Eylül 1457"
+
+# Albanian victory, Hamza Kastrioti taken prisoner
+battle.result: "Arnavut zaferi, Hamza Kastrioti esir düşer"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Skanderbeg
+battle.sides.0.commanders.0: "İskender Bey"
+
+# Isak Bey
+battle.sides.1.commanders.0: "İshak Bey"

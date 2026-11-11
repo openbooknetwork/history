@@ -1,0 +1,9 @@
+Güney Sırbistan’dan sonra Mehmed, Sava’nın Tuna’ya karıştığı yerde duran Macaristan’ın en güçlü kalesi Belgrad’a yönelir. Kış boyunca 22 büyük ve birçok küçük top döktürür, Tuna’dan yukarı çıkacak bir donanma da yaptırır. Yeni araştırmalara göre 60.000 ile 70.000, ilk kayıtlara göre 160.000 kişilik ordusu Sofya üzerinden Morava vadisine iner ve 18 Haziran 1456’da orada 9.000 kadar kişilik bir Sırp kuvvetini yok eder. İlk birlikler bir kayda göre 13 Haziran’da, bir başkasına göre ayın sonunda Belgrad önüne gelir.
+
+Macarların Nándorfehérvár dediği [Belgrad](@belgrade-1456), iki nehrin arasındaki bir sırtın ucunda durur. Üç savunma hattı vardır: sarayın bulunduğu iç kale, çifte surlu ve dört kapılı yukarı şehir, katedralin ve Tuna kıyısındaki limanın bulunduğu aşağı şehir. Hunyadi Yanoş kale için 5.000 Macar, Çek ve Polonyalı paralı asker tutmuş ve onları kayınbiraderi Mihály Szilágyi’nin emrine vermiştir. Mehmed hatlarını burnun dar boynuna kurar ve topları 4 Temmuz’da ateşe başlar. 300 topun çoğuna sahip Rumeli askerleri Tuna’ya doğru sağ kanadı, Anadolu askerleri Sava’ya doğru sol kanadı, yeniçeriler de padişahın otağının önünde merkezi tutar. Sipahiler hatların doğusunda Tuna boyunca araziyi korur, nehir donanması da şehrin yukarısında nehri kapatır.
+
+@image belgrade-fortress-gate-7baa33
+
+Fransisken keşişi Giovanni da Capistrano şubattan beri Macaristan’da haçlı seferi vaaz etmektedir. Köylüler, kasabalılar, öğrenciler ve keşişler Sava’nın karşı yakasındaki [Zemun’da](@zemun-1456-crusaders) toplanır. Bir hesaba göre 25.000, başka hesaplara göre 30.000 ile 60.000 kişidirler ve çoğunun elinde yalnızca sopa, harman döveni ve sapan vardır. Capistrano 2 Temmuz’da Belgrad’a ulaşır. Hunyadi de çoğu atlı 10.000 ile 12.000 kişilik kendi askerini ve şehrin yukarısında, Tuna’da 200 kadar tekne toplar.
+
+@image capistrano-vivarini-e1e354

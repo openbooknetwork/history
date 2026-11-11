@@ -1,0 +1,16 @@
+lnglat: [31.75, 37.93]
+name: "Battle of Kıreli"
+date: "14 August 1472"
+result: "Ottoman victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Kıreli
+images: [gedik-ahmed-mosque-caad5d, pir-ahmed-coin-830d57]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  aq-qoyunlu: { color: "#8f8778", color_dark: "#e8e1cf" }
+sides:
+  - name: "Ottoman state"
+    color: ottomans
+    commanders: ["Şehzade Mustafa", "Gedik Ahmed Pasha"]
+  - name: "Aq Qoyunlu, with the princes of Karaman"
+    color: aq-qoyunlu
+    commanders: ["Yusuf Bayandur", "Amir Beg Mawsillu", "Pir Ahmed"]

@@ -1,0 +1,20 @@
+lnglat: [27.745, 46.605]
+name: "Battle of Vaslui"
+date: "10 January 1475"
+result: "Moldavian victory"
+source: https://en.wikipedia.org/wiki/Battle_of_Vaslui
+images: [stephen-voronet-870dc6, janissaries-wyts-1573-950979]
+families:
+  moldavia: { color: "#7e5a2c", color_dark: "#bf9a68" }
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+sides:
+  - name: "Moldavia, with Székely, Polish and Hungarian troops"
+    color: moldavia
+    commanders: ["Stephen the Great"]
+    strength: "Up to 40,000, among them 5,000 Székelys, 2,000 Poles and 1,800 Hungarians, and 20 guns"
+    casualties: "About 5,000 dead and wounded"
+  - name: "Ottoman state, with Basarab Laiotă’s Wallachians"
+    color: ottomans
+    commanders: ["Hadım Süleyman Pasha", "Basarab Laiotă"]
+    strength: "60,000 to 120,000 by a Polish chronicle, 30,000 by Gábor Kármán, and 17,000 Wallachians"
+    casualties: "40,000 to 100,000 dead and 4,000 taken prisoner, by Venetian and Polish records"

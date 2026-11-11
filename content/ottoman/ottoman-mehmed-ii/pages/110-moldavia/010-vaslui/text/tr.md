@@ -1,0 +1,7 @@
+Boğdan Voyvodası Stefan 25 ya da 26 Ocak 1465’te Tuna limanı [Kili’yi](@kilia-1465) alır, 7 Mart 1471’de de Eflak’taki Osmanlı vasalı Radu’yu Soci’de yener. 1473’te padişaha haraç ödemeyi bırakır. Mehmed Uzun Hasan’la savaşırken Stefan [Suçava’dan](@suceava-1475) Eflak’a yürür, 18–20 Kasım 1473’te üç gün süren bir savaşta Radu’yu [Râmnicu Sărat’ta](@ramnicu-1473) yeniden yener, [Bükreş’i](@bucharest-1473) alır ve Basarab Laiotă’yı Eflak voyvodası yapar. Radu kısa sürede Osmanlı yardımıyla geri döner, 1474’ün sonunda da Basarab Osmanlı tarafına geçmiştir.
+
+@image kilia-alt-02a4a7
+
+Mehmed, Rumeli beylerbeyi Hadım Süleyman Paşa’ya ordusunu İşkodra kuşatmasından [Sofya](@sofia-1474) üzerinden Boğdan’a götürmesini emreder. Süleyman Paşa donmuş Tuna’yı geçip Eflak’ta dinlenir, Basarab da orada 17.000 kişiyle ona katılır, Aralık 1474’te de Boğdan’a girer. Stefan önündeki toprakları yakıp yıkar ve onu Vaslui yakınında Bârlad Irmağı üzerindeki yüksek köprüde, dört yanı ormanlık tepelerle çevrili bataklık bir vadide bekler.
+
+10 Ocak 1475 sabahı sisin içinde Stefan’ın topları ve okçuları Osmanlıları üç yandan ateş altına alır, tahta köprü atlıların altında çöker, Osmanlı hatlarının gerisine gizlenen Boğdan borazancıları da kargaşa yaratır. Süleyman Paşa’nın ordusu bozulur, Boğdan ve Leh atlıları onu üç gün boyunca Tuna kıyısındaki [İsakçı’ya](@isaccea-1475) kadar kovalar. Eflaklılar savaşa girmeden alandan ayrılır, Papa IV. Sixtus da Stefan’ı Hristiyan inancının gerçek savunucusu diye anar.

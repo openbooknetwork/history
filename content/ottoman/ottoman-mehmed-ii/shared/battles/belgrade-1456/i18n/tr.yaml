@@ -1,0 +1,53 @@
+# tr strings for the battle "belgrade-1456".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Kingdom of Hungary, with Capistrano’s crusaders
+battle.sides.0.name: "Capistrano’nun haçlılarıyla birlikte Macaristan Krallığı"
+
+# 5,000 to 7,000 in the fortress, 10,000 to 12,000 with Hunyadi, 25,000 to 60,000 crusaders, about 200 boats
+battle.sides.0.strength: "Kalede 5.000 ile 7.000, Hunyadi’nin yanında 10.000 ile 12.000, 25.000 ile 60.000 haçlı, 200 kadar tekne"
+
+# 4,000 to 10,000
+battle.sides.0.casualties: "4.000 ile 10.000"
+
+# Ottoman state
+battle.sides.1.name: "Osmanlı Devleti"
+
+# 60,000 to 70,000 by newer research, 160,000 in early accounts. 300 guns and 21 to 200 river boats
+battle.sides.1.strength: "Yeni araştırmalara göre 60.000 ile 70.000, ilk kayıtlara göre 160.000. 300 top ve 21 ile 200 arası nehir teknesi"
+
+# About 13,000, or 4,000 to 5,000 by Babinger. The guns
+battle.sides.1.casualties: "13.000 kadar, Babinger’e göre 4.000 ile 5.000. Toplar"
+
+# Siege of Belgrade
+battle.name: "Belgrad Kuşatması"
+
+# 4 – 22 July 1456
+battle.date: "4 – 22 Temmuz 1456"
+
+# Hungarian victory, Mehmed lifts the siege
+battle.result: "Macar zaferi, Mehmed kuşatmayı kaldırır"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# John Hunyadi
+battle.sides.0.commanders.0: "Hunyadi Yanoş"
+
+# Michael Szilágyi
+battle.sides.0.commanders.1: "Mihály Szilágyi"
+
+# John of Capistrano
+battle.sides.0.commanders.2: "Giovanni da Capistrano"
+
+# Mehmed II
+battle.sides.1.commanders.0: "II. Mehmed"
+
+# Zaganos Pasha
+battle.sides.1.commanders.1: "Zağanos Paşa"
+
+# Mahmud Pasha
+battle.sides.1.commanders.2: "Mahmud Paşa"
+
+# Karaca Pasha
+battle.sides.1.commanders.3: "Karaca Paşa"

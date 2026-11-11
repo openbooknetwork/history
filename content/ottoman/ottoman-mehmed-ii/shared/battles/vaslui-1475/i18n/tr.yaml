@@ -1,0 +1,41 @@
+# tr strings for the battle "vaslui-1475".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Moldavia, with Székely, Polish and Hungarian troops
+battle.sides.0.name: "Sekel, Leh ve Macar askerleriyle birlikte Boğdan"
+
+# Up to 40,000, among them 5,000 Székelys, 2,000 Poles and 1,800 Hungarians, and 20 guns
+battle.sides.0.strength: "5.000’i Sekel, 2.000’i Leh, 1.800’ü Macar olmak üzere 40.000’e kadar asker ve 20 top"
+
+# About 5,000 dead and wounded
+battle.sides.0.casualties: "5.000 kadar ölü ve yaralı"
+
+# Ottoman state, with Basarab Laiotă’s Wallachians
+battle.sides.1.name: "Basarab Laiotă’nın Eflaklılarıyla birlikte Osmanlı Devleti"
+
+# 60,000 to 120,000 by a Polish chronicle, 30,000 by Gábor Kármán, and 17,000 Wallachians
+battle.sides.1.strength: "Bir Leh kroniğine göre 60.000 ile 120.000, Gábor Kármán’a göre 30.000, ayrıca 17.000 Eflaklı"
+
+# 40,000 to 100,000 dead and 4,000 taken prisoner, by Venetian and Polish records
+battle.sides.1.casualties: "Venedik ve Leh kayıtlarına göre 40.000 ile 100.000 ölü ve 4.000 esir"
+
+# Battle of Vaslui
+battle.name: "Vaslui Muharebesi"
+
+# 10 January 1475
+battle.date: "10 Ocak 1475"
+
+# Moldavian victory
+battle.result: "Boğdan zaferi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Stephen the Great
+battle.sides.0.commanders.0: "Boğdan Voyvodası Stefan"
+
+# Hadım Süleyman Pasha
+battle.sides.1.commanders.0: "Hadım Süleyman Paşa"
+
+# Basarab Laiotă
+battle.sides.1.commanders.1: "Basarab Laiotă"

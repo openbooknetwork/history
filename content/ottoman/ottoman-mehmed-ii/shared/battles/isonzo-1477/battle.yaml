@@ -1,0 +1,17 @@
+lnglat: [13.5, 45.89]
+name: "Battle of the Isonzo"
+date: "Autumn 1477"
+result: "Ottoman victory, the raiders plunder Friuli to the Piave"
+source: https://en.wikipedia.org/wiki/Turahano%C4%9Flu_%C3%96mer_Bey
+images: [isonzo-gorizia-3de380, akinci-knight-suleymanname-ca848e]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  venice: { color: "#4da495", color_dark: "#92dacb" }
+sides:
+  - name: "Ottoman state"
+    color: ottomans
+    commanders: ["Ömer Bey"]
+    strength: "Horsemen from Bosnia"
+  - name: "Republic of Venice"
+    color: venice
+    commanders: ["Girolamo Novello"]

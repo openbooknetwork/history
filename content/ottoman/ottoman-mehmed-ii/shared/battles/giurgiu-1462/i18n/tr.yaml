@@ -1,0 +1,29 @@
+# tr strings for the battle "giurgiu-1462".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Principality of Wallachia
+battle.sides.0.name: "Eflak Prensliği"
+
+# Ottoman state
+battle.sides.1.name: "Osmanlı Devleti"
+
+# 1,000 horsemen with Hamza Bey
+battle.sides.1.strength: "Hamza Bey’in yanında 1.000 atlı"
+
+# 6,414 killed at Giurgiu, by Vlad’s count
+battle.sides.1.casualties: "Vlad’ın sayımına göre Yergöğü’nde 6.414 ölü"
+
+# Capture of Giurgiu
+battle.name: "Yergöğü’nün Alınışı"
+
+# Winter 1461 – 1462
+battle.date: "1461 – 1462 kışı"
+
+# Wallachian victory, Hamza Bey and Thomas Katabolinos captured and executed and the fortress destroyed
+battle.result: "Eflak zaferi, Hamza Bey ile Thomas Katabolinos yakalanıp öldürülür ve kale yıkılır"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Vlad III
+battle.sides.0.commanders.0: "III. Vlad (Kazıklı Voyvoda)"

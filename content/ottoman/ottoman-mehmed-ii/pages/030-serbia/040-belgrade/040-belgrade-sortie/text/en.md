@@ -1,0 +1,7 @@
+By some accounts the fighting of 22 July starts without orders. Crusaders climb out over the broken walls against Hunyadi’s orders, take up positions across from the Ottoman line and harass its soldiers. Sipahis try to drive them off and fail, more defenders join them, and the skirmish turns into a battle. [John of Capistrano](@belgrade-sortie-capistrano) first tries to call his men back, then leads about 2,000 of them across the Sava against the Ottoman flank and rear. At the same time [Hunyadi](@belgrade-sortie-hunyadi) charges out of the fortress and takes the Ottoman guns.
+
+@image capistrano-battle-aquila-2a16f5
+
+The Christians reach the [Ottoman camp](@belgrade-ottoman-camp). One of the viziers advises [Mehmed](@belgrade-sortie-mehmed) to leave it, but he refuses, because flight would be a sign of cowardice, and he joins the fighting with two of his beys. He kills three men by Tursun Beg’s account and one by Chalkokondyles’s, and he is wounded. The Turkish accounts also tell that Hasan, the agha of the janissaries, is killed. The sultan’s example and fresh troops rally his army, and it drives the Christians out of the camp, but it fails to take back the guns.
+
+The Ottoman council decides to end the siege. In the night of 22 to 23 July the army buries its dead, loads its wounded on a long column of wagons and marches away to the south-east, and the Christians do not pursue. The next day the crusaders enter the empty camp and find great plunder. The Ottomans lose about 13,000 men, or 4,000 to 5,000 by Babinger’s estimate, and all their guns.

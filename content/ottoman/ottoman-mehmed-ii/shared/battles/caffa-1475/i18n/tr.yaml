@@ -1,0 +1,23 @@
+# tr strings for the battle "caffa-1475".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman state
+battle.sides.0.name: "Osmanlı Devleti"
+
+# Republic of Genoa
+battle.sides.1.name: "Ceneviz Cumhuriyeti"
+
+# Siege of Caffa
+battle.name: "Kefe Kuşatması"
+
+# June 1475
+battle.date: "Haziran 1475"
+
+# Ottoman victory, Caffa surrenders
+battle.result: "Osmanlı zaferi, Kefe teslim olur"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Gedik Ahmed Pasha
+battle.sides.0.commanders.0: "Gedik Ahmed Paşa"

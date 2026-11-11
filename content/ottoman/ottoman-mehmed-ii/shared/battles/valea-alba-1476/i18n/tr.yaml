@@ -1,0 +1,38 @@
+# tr strings for the battle "valea-alba-1476".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman state
+battle.sides.0.name: "Osmanlı Devleti"
+
+# 90,000 to 150,000 by western accounts of the time, about 30,000 by Gábor Kármán
+battle.sides.0.strength: "Dönemin Batılı anlatımlarına göre 90.000 ile 150.000, Gábor Kármán’a göre 30.000 kadar"
+
+# Moldavia
+battle.sides.1.name: "Boğdan"
+
+# 10,000 to 12,000, or up to 20,000
+battle.sides.1.strength: "10.000 ile 12.000, ya da 20.000’e kadar"
+
+# Battle of Valea Albă
+battle.name: "Akdere Muharebesi"
+
+# 26 July 1476
+battle.date: "26 Temmuz 1476"
+
+# Ottoman victory
+battle.result: "Osmanlı zaferi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Mehmed II
+battle.sides.0.commanders.0: "II. Mehmed"
+
+# Hadım Süleyman Pasha
+battle.sides.0.commanders.1: "Hadım Süleyman Paşa"
+
+# Gedik Ahmed Pasha
+battle.sides.0.commanders.2: "Gedik Ahmed Paşa"
+
+# Stephen the Great
+battle.sides.1.commanders.0: "Boğdan Voyvodası Stefan"

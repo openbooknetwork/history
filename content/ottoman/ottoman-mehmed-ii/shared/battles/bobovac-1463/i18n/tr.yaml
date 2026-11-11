@@ -1,0 +1,32 @@
+# tr strings for the battle "bobovac-1463".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman state
+battle.sides.0.name: "Osmanlı Devleti"
+
+# 150,000 by one account
+battle.sides.0.strength: "Bir anlatıma göre 150.000"
+
+# Kingdom of Bosnia
+battle.sides.1.name: "Bosna Krallığı"
+
+# Siege of Bobovac
+battle.name: "Bobovac Kuşatması"
+
+# From 19 May 1463, a few days
+battle.date: "19 Mayıs 1463’ten başlayarak birkaç gün"
+
+# Ottoman victory, Bobovac falls and King Stephen Tomašević is captured at Ključ
+battle.result: "Osmanlı zaferi, Bobovac düşer ve Kral Stefan Tomašević Ključ’ta yakalanır"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Mehmed II
+battle.sides.0.commanders.0: "II. Mehmed"
+
+# Mahmud Pasha
+battle.sides.0.commanders.1: "Mahmud Paşa"
+
+# Stephen Tomašević
+battle.sides.1.commanders.0: "Stefan Tomašević"

@@ -1,0 +1,17 @@
+lnglat: [22.8715, 37.8916]
+name: "Siege of Corinth"
+date: "Autumn 1463, to 20 October"
+result: "Ottoman victory, the Venetians lift the siege of the Acrocorinth and leave the Hexamilion"
+source: https://en.wikipedia.org/wiki/Ottoman%E2%80%93Venetian_War_(1463%E2%80%931479)
+images: [hexamilion-wall-1-10eaca, argos-larissa-castle-9a2aec]
+families:
+  venice: { color: "#4da495", color_dark: "#92dacb" }
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+sides:
+  - name: "Republic of Venice"
+    color: venice
+    commanders: ["Alvise Loredan", "Bertoldo d’Este"]
+    casualties: "Bertoldo d’Este mortally wounded"
+  - name: "Ottoman state"
+    color: ottomans
+    commanders: ["Ömer Bey", "Mahmud Pasha"]

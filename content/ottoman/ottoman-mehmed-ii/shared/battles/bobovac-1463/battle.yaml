@@ -1,0 +1,17 @@
+lnglat: [18.2388, 44.1379]
+name: "Siege of Bobovac"
+date: "From 19 May 1463, a few days"
+result: "Ottoman victory, Bobovac falls and King Stephen Tomašević is captured at Ključ"
+source: https://en.wikipedia.org/wiki/Bobovac
+images: [bobovac-ruins-951ae4, kljuc-fortress-7383a6]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  bosnia: { color: "#4ca173", color_dark: "#a0e3bb" }
+sides:
+  - name: "Ottoman state"
+    color: ottomans
+    commanders: ["Mehmed II", "Mahmud Pasha"]
+    strength: "150,000 by one account"
+  - name: "Kingdom of Bosnia"
+    color: bosnia
+    commanders: ["Stephen Tomašević"]

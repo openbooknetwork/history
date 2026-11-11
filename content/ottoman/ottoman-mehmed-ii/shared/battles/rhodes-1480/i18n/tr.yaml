@@ -1,0 +1,32 @@
+# tr strings for the battle "rhodes-1480".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman state
+battle.sides.0.name: "Osmanlı Devleti"
+
+# 70,000 and 160 ships by contemporary accounts, 10,000 to 20,000 by modern estimates
+battle.sides.0.strength: "Dönemin anlatımlarına göre 70.000 asker ve 160 gemi, günümüz tahminlerine göre 10.000 ile 20.000 arası"
+
+# 9,000 killed and 15,000 wounded, by the Knights
+battle.sides.0.casualties: "Şövalyelere göre 9.000 ölü ve 15.000 yaralı"
+
+# Knights Hospitaller
+battle.sides.1.name: "Hospitalier şövalyeleri"
+
+# 3,000 to 4,000, with about 500 knights
+battle.sides.1.strength: "500 kadarı şövalye olmak üzere 3.000 ile 4.000 arası"
+
+# Siege of Rhodes
+battle.name: "Rodos Kuşatması"
+
+# 23 May – 17 August 1480
+battle.date: "23 Mayıs – 17 Ağustos 1480"
+
+# Hospitaller victory, the Ottoman fleet withdraws
+battle.result: "Şövalyelerin zaferi, Osmanlı donanması çekilir"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Mesih Pasha
+battle.sides.0.commanders.0: "Mesih Paşa"

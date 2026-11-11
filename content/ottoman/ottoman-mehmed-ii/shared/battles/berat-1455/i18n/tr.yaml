@@ -1,0 +1,35 @@
+# tr strings for the battle "berat-1455".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# League of Lezhë, with Neapolitan troops
+battle.sides.0.name: "Leş Birliği ve Napolili askerler"
+
+# 14,000
+battle.sides.0.strength: "14.000"
+
+# About 6,000 killed, Karl Muzakë Thopia among them
+battle.sides.0.casualties: "Aralarında Karl Muzakë Thopia’nın da bulunduğu 6.000 kadar ölü"
+
+# Ottoman state
+battle.sides.1.name: "Osmanlı Devleti"
+
+# 20,000 in the relief army
+battle.sides.1.strength: "Yardım ordusunda 20.000"
+
+# Siege of Berat
+battle.name: "Berat Kuşatması"
+
+# June – mid July 1455
+battle.date: "Haziran – Temmuz 1455 ortası"
+
+# Ottoman victory, the besiegers routed by the relief army
+battle.result: "Osmanlı zaferi, kuşatanlar yardım ordusu karşısında bozguna uğrar"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Skanderbeg
+battle.sides.0.commanders.0: "İskender Bey"
+
+# Isak Bey
+battle.sides.1.commanders.0: "İshak Bey"

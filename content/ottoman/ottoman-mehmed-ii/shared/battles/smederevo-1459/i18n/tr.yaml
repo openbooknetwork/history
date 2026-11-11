@@ -1,0 +1,29 @@
+# tr strings for the battle "smederevo-1459".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman state
+battle.sides.0.name: "Osmanlı Devleti"
+
+# Serbian Despotate
+battle.sides.1.name: "Sırp Despotluğu"
+
+# Siege of Smederevo
+battle.name: "Semendire Kuşatması"
+
+# 20 June 1459, or early July
+battle.date: "20 Haziran 1459 ya da temmuz başı"
+
+# Ottoman victory, Smederevo surrenders and the Serbian Despotate ends
+battle.result: "Osmanlı zaferi, Semendire teslim olur ve Sırp Despotluğu sona erer"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Mehmed II
+battle.sides.0.commanders.0: "II. Mehmed"
+
+# Mahmud Pasha
+battle.sides.0.commanders.1: "Mahmud Paşa"
+
+# Stephen Tomašević
+battle.sides.1.commanders.0: "Stefan Tomašević"

@@ -1,0 +1,29 @@
+# tr strings for the battle "corinth-1463".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Republic of Venice
+battle.sides.0.name: "Venedik Cumhuriyeti"
+
+# Bertoldo d’Este mortally wounded
+battle.sides.0.casualties: "Bertoldo d’Este ağır yaralanır ve ölür"
+
+# Ottoman state
+battle.sides.1.name: "Osmanlı Devleti"
+
+# Siege of Corinth
+battle.name: "Gördüs Kuşatması"
+
+# Autumn 1463, to 20 October
+battle.date: "1463 sonbaharı, 20 Ekim’e dek"
+
+# Ottoman victory, the Venetians lift the siege of the Acrocorinth and leave the Hexamilion
+battle.result: "Osmanlı zaferi, Venedikliler Akrokorint kuşatmasını kaldırır ve Hexamilion surunu bırakır"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Ömer Bey
+battle.sides.1.commanders.0: "Turahanoğlu Ömer Bey"
+
+# Mahmud Pasha
+battle.sides.1.commanders.1: "Mahmud Paşa"

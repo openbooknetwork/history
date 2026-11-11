@@ -1,0 +1,9 @@
+Venetian sources say that the bailo at Constantinople told Mehmed he had a right to [Brindisi](@brindisi-1480), Taranto and Otranto, once Byzantine towns. In summer 1480 Gedik Ahmed Pasha, commander of the fleet and bey of [Vlorë](@vlore-1480), gathers his ships there and crosses the Strait of Otranto, and a Venetian fleet from Corfu follows him to the coast of Apulia and turns back. He means to land near Brindisi, but a captured merchant tells him that the coast further south is less defended. On 28 July about 140 ships with 18,000 foot soldiers and 700 horsemen arrive off Otranto, and the horsemen land at [Roca](@roca-1480) and ride to the town.
+
+@image otranto-aerial-1930-f4b349
+
+The Ottoman guns breach the walls, and the town falls on 11 August, its citadel on 12 August by the local chroniclers. By the traditional accounts 12,000 of its 22,000 people are killed and many are enslaved, and Archbishop Stefano Agricolo and Count Francesco Largo die in the fighting. On 14 August about 800 men who refuse to become Muslims are killed on a hill outside the town, and the Catholic Church later honours them as the Martyrs of Otranto. Ottoman horsemen raid towards [Lecce](@lecce-1480), Brindisi and Taranto.
+
+@image otranto-martyrs-0cb507
+
+Because the Ottomans run short of food and the people of the land will not supply them, Gedik Ahmed takes most of his men back to Vlorë in autumn 1480. He leaves a garrison of 800 foot soldiers and 500 horsemen, or 8,000 men by Turkish histories. Ferrante of Naples and his son Alfonso, Duke of Calabria, camp near the town from September, and Pope Sixtus IV raises money and ships from the Italian states and Hungary. Alfonso besieges Otranto from 1 May 1481 with Neapolitan and Hungarian troops and a papal fleet, and after Mehmed’s death the garrison, with no help from home, surrenders on 10 September 1481 and is allowed to leave for Albania.

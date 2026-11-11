@@ -1,0 +1,35 @@
+# tr strings for the battle "chapakchur-1467".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Aq Qoyunlu
+battle.sides.0.name: "Akkoyunlular"
+
+# Kara Koyunlu
+battle.sides.1.name: "Karakoyunlular"
+
+# Jahan Shah killed, Mirza Yusuf and Mirza Muhammad taken prisoner
+battle.sides.1.casualties: "Cihan Şah öldürülür, Mirza Yusuf ile Mirza Muhammed esir düşer"
+
+# Battle of Chapakchur
+battle.name: "Çapakçur Muharebesi"
+
+# 30 October or 11 November 1467
+battle.date: "30 Ekim ya da 11 Kasım 1467"
+
+# Aq Qoyunlu victory, Jahan Shah is killed
+battle.result: "Akkoyunlu zaferi, Cihan Şah öldürülür"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Uzun Hasan
+battle.sides.0.commanders.0: "Uzun Hasan"
+
+# Jahan Shah
+battle.sides.1.commanders.0: "Cihan Şah"
+
+# Mirza Yusuf
+battle.sides.1.commanders.1: "Mirza Yusuf"
+
+# Mirza Muhammad
+battle.sides.1.commanders.2: "Mirza Muhammed"

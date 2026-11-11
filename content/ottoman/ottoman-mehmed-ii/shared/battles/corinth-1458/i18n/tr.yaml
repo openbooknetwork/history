@@ -1,0 +1,29 @@
+# tr strings for the battle "corinth-1458".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman state
+battle.sides.0.name: "Osmanlı Devleti"
+
+# Despotate of the Morea
+battle.sides.1.name: "Mora Despotluğu"
+
+# Siege of Corinth
+battle.name: "Gördüs Kuşatması"
+
+# May – 6 August 1458
+battle.date: "Mayıs – 6 Ağustos 1458"
+
+# Ottoman victory, the Acrocorinth surrenders on terms
+battle.result: "Osmanlı zaferi, Akrokorint şartlı olarak teslim olur"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Mehmed II
+battle.sides.0.commanders.0: "II. Mehmed"
+
+# Nikephoros Loukanes
+battle.sides.1.commanders.0: "Nikiforos Lukanis"
+
+# Matthew Palaiologos Asen
+battle.sides.1.commanders.1: "Matthaios Palaiologos Asen"

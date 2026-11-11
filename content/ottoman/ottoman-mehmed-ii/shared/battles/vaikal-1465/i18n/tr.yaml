@@ -1,0 +1,35 @@
+# tr strings for the battle "vaikal-1465".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# League of Lezhë
+battle.sides.0.name: "Leş Birliği"
+
+# 4,500 to 5,500
+battle.sides.0.strength: "4.500 ile 5.500 arası"
+
+# Heavy, with Moisi Golemi and other captains taken prisoner
+battle.sides.0.casualties: "Ağır, Moisi Golemi ve başka komutanlar esir düşer"
+
+# Ottoman state
+battle.sides.1.name: "Osmanlı Devleti"
+
+# 18,000
+battle.sides.1.strength: "18.000"
+
+# Heavy
+battle.sides.1.casualties: "Ağır"
+
+# Battle of Vaikal
+battle.name: "Vaikal Muharebesi"
+
+# April 1465
+battle.date: "Nisan 1465"
+
+# Albanian victory, but Ballaban captures Moisi Golemi and other captains
+battle.result: "Arnavut zaferi, ama Ballaban Moisi Golemi’yi ve başka komutanları esir alır"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Skanderbeg
+battle.sides.0.commanders.0: "İskender Bey"

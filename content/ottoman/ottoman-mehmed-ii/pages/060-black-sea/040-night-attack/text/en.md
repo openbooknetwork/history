@@ -1,0 +1,9 @@
+Mehmed gathers an army that Chalkokondyles calls second in size only to the one that took Constantinople, and he grants Wallachia to Vlad’s younger brother Radu, who has grown up at the Ottoman court and leads 4,000 horsemen in the campaign. In May 1462 the Ottoman fleet sails into the Danube and up to [Brăila](@braila-1462), the only Wallachian port on the river, and lands troops there. Vlad beats the force that Mahmud Pasha lands at Brăila, and Angiolello writes that only 8,000 of its 18,000 men survive.
+
+@image radu-charter-1465-0639fc
+
+The sultan leaves Constantinople on 26 April or 17 May 1462, and on the night of 4 June his janissaries cross the Danube in boats from Nikopol to [Turnu](@turnu-1462) and drive off Vlad’s army with their guns. Vlad empties the country in front of the Ottomans and poisons the wells. On the night of 16 to 17 June he breaks into the Ottoman camp south of [Târgoviște](@targoviste-1462) to kill or capture the sultan, but he attacks the tents of the viziers Mahmud Pasha and İshak Pasha instead and leaves before dawn. Soon after, the Ottomans find Târgoviște empty, and before it a field of stakes with thousands of impaled prisoners, Hamza Bey among them.
+
+@image aman-battle-torches-7d3dd9
+
+On the way back Ömer Bey’s rearguard beats the 6,000 men whom Vlad has left to harass the army and kills about 2,000 of them. Mehmed burns Brăila on 29 June and is back in Edirne on 11 July, and Stephen of Moldavia, who has laid siege to the Hungarian garrison of [Kiliya](@kilia-1462) (Kilia), withdraws when he is wounded in the foot. Radu stays in Wallachia with Ottoman troops and wins over more and more of the boyars. In November 1462 John Jiskra, a commander of Matthias Corvinus, arrests Vlad near [Rucăr](@rucar-1462), and Vlad is held in Hungary, from 1463 at Visegrád.

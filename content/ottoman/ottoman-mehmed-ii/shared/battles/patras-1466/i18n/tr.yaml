@@ -1,0 +1,32 @@
+# tr strings for the battle "patras-1466".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Republic of Venice
+battle.sides.0.name: "Venedik Cumhuriyeti"
+
+# 2,000 before Patras
+battle.sides.0.strength: "Balyabadra önünde 2.000"
+
+# Barbarigo and 600 men killed and 100 taken, then 1,200 of Cappello’s men
+battle.sides.0.casualties: "Barbarigo ile 600 adamı ölür, 100 kişi esir düşer, ardından Cappello 1.200 adamını kaybeder"
+
+# Ottoman state
+battle.sides.1.name: "Osmanlı Devleti"
+
+# 12,000 horsemen
+battle.sides.1.strength: "12.000 atlı"
+
+# Battle of Patras
+battle.name: "Balyabadra Muharebesi"
+
+# Late July or early August 1466
+battle.date: "Temmuz sonu ya da Ağustos başı 1466"
+
+# Ottoman victory, the Venetians lift the siege of Patras
+battle.result: "Osmanlı zaferi, Venedikliler Balyabadra kuşatmasını kaldırır"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Ömer Bey
+battle.sides.1.commanders.0: "Turahanoğlu Ömer Bey"

@@ -1,0 +1,16 @@
+lnglat: [21.432, 42.616]
+name: "Siege of Novo Brdo"
+date: "April – 1 June 1455"
+result: "Ottoman victory, the town surrenders after 40 days"
+source: https://en.wikipedia.org/wiki/Novo_Brdo_Fortress
+images: [novo-brdo-fortress-2019-7ed754, mehmed-ii-costanzo-medal-181d43]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  serbia: { color: "#2f6fb0", color_dark: "#6fa6e0" }
+sides:
+  - name: "Ottoman state"
+    color: ottomans
+    commanders: ["Mehmed II"]
+  - name: "Serbian Despotate, the town of Novo Brdo"
+    color: serbia
+    casualties: "The leading men beheaded, about 700 women and 320 boys carried off"

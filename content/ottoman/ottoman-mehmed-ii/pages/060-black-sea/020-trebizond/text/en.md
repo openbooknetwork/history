@@ -1,0 +1,9 @@
+The Empire of Trebizond, ruled by the Komnenos dynasty since 1204, holds a strip of the Black Sea coast around Trebizond and pays the sultan 3,000 gold pieces a year from 1458. Emperor John IV gives his daughter Theodora in marriage to Uzun Hasan, ruler of the Aq Qoyunlu, who promises to defend Trebizond, and he wins promises of help from the Georgian kings and princes and from the beys of Sinop and Karaman. His brother David, who succeeds him in 1459 or 1460, asks the West for allies, and Uzun Hasan’s envoys tell Mehmed that the tribute of Trebizond is now to be paid to their master.
+
+@image trebizond-hagia-sophia-5ecb55
+
+From [Sinop](@sinop-1461) Mehmed leads the army inland, and his admiral Kasım Pasha sails with the fleet along the coast to Trebizond. The march takes more than a month through mountains, rain and mud. Past [Sivas](@sivas-1461) the army enters the lands of the Aq Qoyunlu, and the Ottomans storm Uzun Hasan’s border fortress of [Koyulhisar](@koyulhisar-1461). Uzun Hasan’s mother Sara Khatun comes to Mehmed’s camp with gifts to ask for peace, and Mehmed makes peace with Uzun Hasan but leaves Trebizond out of it and keeps Sara Khatun with the army until the end of the campaign.
+
+The fleet has besieged Trebizond for 32 days when Mahmud Pasha’s vanguard crosses the [Zigana pass](@zigana-1461). Mahmud offers David terms through the court official George Amiroutzes, his cousin, in the account of Chalkokondyles, or through Thomas Katabolinos in that of Kritovoulos: if David gives up the city, he keeps his life and his wealth and receives estates elsewhere. No help comes from Uzun Hasan or from Georgia, and Mehmed enters Trebizond on 15 August 1461, which ends the last Byzantine state. David and his family are taken to Constantinople, where he and his sons are executed in 1463, and many of the townspeople are moved to Constantinople or enslaved.
+
+@image trebizond-cassone-eac0bb

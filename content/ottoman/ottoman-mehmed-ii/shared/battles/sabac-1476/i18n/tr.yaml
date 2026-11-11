@@ -1,0 +1,23 @@
+# tr strings for the battle "sabac-1476".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Kingdom of Hungary
+battle.sides.0.name: "Macaristan Krallığı"
+
+# Ottoman state
+battle.sides.1.name: "Osmanlı Devleti"
+
+# Siege of Šabac
+battle.name: "Böğürdelen Kuşatması"
+
+# 15 February 1476
+battle.date: "15 Şubat 1476"
+
+# Hungarian victory, Matthias takes the fort
+battle.result: "Macar zaferi, Matyas kaleyi alır"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Matthias Corvinus
+battle.sides.0.commanders.0: "Matyas Korvin"

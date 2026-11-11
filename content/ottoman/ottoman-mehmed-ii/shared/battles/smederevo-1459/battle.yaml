@@ -1,0 +1,16 @@
+lnglat: [20.93, 44.663]
+name: "Siege of Smederevo"
+date: "20 June 1459, or early July"
+result: "Ottoman victory, Smederevo surrenders and the Serbian Despotate ends"
+source: https://en.wikipedia.org/wiki/Siege_of_Smederevo_(1459)
+images: [smederevo-fortress-d37757, tomasevic-coin-5ce853]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  serbia: { color: "#2f6fb0", color_dark: "#6fa6e0" }
+sides:
+  - name: "Ottoman state"
+    color: ottomans
+    commanders: ["Mehmed II", "Mahmud Pasha"]
+  - name: "Serbian Despotate"
+    color: serbia
+    commanders: ["Stephen Tomašević", "Helena Palaiologina"]

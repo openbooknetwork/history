@@ -1,0 +1,9 @@
+After southern Serbia, Mehmed turns against Belgrade, the strongest fortress of Hungary, where the Sava flows into the Danube. Over the winter he has 22 large guns and many smaller ones cast, and a fleet built to sail up the Danube. His army, 60,000 to 70,000 men by newer research and 160,000 in early accounts, marches by Sofia down the Morava valley, where it destroys a Serbian force of about 9,000 men on 18 June 1456. The first troops reach Belgrade on 13 June by one account, and at the end of the month by another.
+
+[Belgrade](@belgrade-1456), Nándorfehérvár in Hungarian, stands on the end of a ridge between the two rivers. It has three lines of defence: an inner castle with the palace, an upper town with a double wall and four gates, and a lower town with the cathedral and a port on the Danube. Hunyadi has hired 5,000 Hungarian, Czech and Polish mercenaries for it and put them under his brother-in-law Michael Szilágyi. Mehmed sets up his lines across the neck of the headland, and his guns open fire on 4 July. The Rumelian troops, with most of the 300 guns, hold the right wing towards the Danube, the Anatolian troops the left wing towards the Sava, and the janissaries the centre before the sultan’s post. The sipahis guard the ground east of the lines along the Danube, and the river fleet closes the river above the city.
+
+@image belgrade-fortress-gate-7baa33
+
+Since February the Franciscan friar John of Capistrano has preached a crusade in Hungary. Peasants, townsmen, students and friars gather at [Zemun](@zemun-1456-crusaders) on the far bank of the Sava, 25,000 by one count and 30,000 to 60,000 by others, many of them armed only with clubs, flails and slings. Capistrano reaches Belgrade on 2 July. Hunyadi raises 10,000 to 12,000 men of his own, most of them horsemen, and about 200 boats on the Danube above the city.
+
+@image capistrano-vivarini-e1e354

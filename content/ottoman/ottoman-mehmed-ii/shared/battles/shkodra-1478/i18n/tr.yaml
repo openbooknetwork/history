@@ -1,0 +1,41 @@
+# tr strings for the battle "shkodra-1478".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman state
+battle.sides.0.name: "Osmanlı Devleti"
+
+# About 62,000 by modern estimates, up to 350,000 by Barleti
+battle.sides.0.strength: "Günümüz tahminlerine göre 62.000 kadar, Barleti’ye göre 350.000’e kadar"
+
+# At least 12,000 on 22 July, by Babinger
+battle.sides.0.casualties: "Babinger’e göre yalnızca 22 Temmuz’da en az 12.000"
+
+# Republic of Venice and Albanian troops
+battle.sides.1.name: "Venedik Cumhuriyeti ve Arnavut askerleri"
+
+# About 1,600 men and women in the castle
+battle.sides.1.strength: "Kalede 1.600 kadar kadın ve erkek"
+
+# About 1,000 of the defenders, by Aleks Buda
+battle.sides.1.casualties: "Aleks Buda’ya göre savunanlardan 1.000 kadarı"
+
+# Siege of Shkodër
+battle.name: "İşkodra Kuşatması"
+
+# 14 May 1478 – 25 April 1479
+battle.date: "14 Mayıs 1478 – 25 Nisan 1479"
+
+# The assaults fail and the town is blockaded, Venice gives it up by the peace of 1479
+battle.result: "Saldırılar sonuçsuz kalır ve kent abluka altına alınır, Venedik 1479 barışıyla kenti bırakır"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Mehmed II
+battle.sides.0.commanders.0: "II. Mehmed"
+
+# Davud Pasha
+battle.sides.0.commanders.1: "Davud Paşa"
+
+# Gedik Ahmed Pasha
+battle.sides.0.commanders.3: "Gedik Ahmed Paşa"

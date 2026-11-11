@@ -1,0 +1,20 @@
+lnglat: [18.491, 40.146]
+name: "Siege of Otranto"
+date: "28 July 1480 – 10 September 1481"
+result: "Ottomans take the town on 11 August 1480 and give it up on 10 September 1481"
+source: https://en.wikipedia.org/wiki/Ottoman_invasion_of_Otranto
+images: [otranto-castle-f1a46c, alfonso-calabria-medal-fbb87c]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  naples: { color: "#1f78b4", color_dark: "#73b3e0" }
+sides:
+  - name: "Ottoman state"
+    color: ottomans
+    commanders: ["Gedik Ahmed Pasha"]
+    strength: "18,000 foot soldiers, 700 horsemen and 140 ships"
+    casualties: "The garrison surrenders in 1481"
+  - name: "Kingdom of Naples, with Hungarian troops and a papal fleet in 1481"
+    color: naples
+    commanders: ["Francesco Largo", "Alfonso, Duke of Calabria"]
+    strength: "About 50 soldiers and the townspeople in 1480, 20,000 Neapolitans and 2,100 Hungarians in 1481"
+    casualties: "12,000 killed and 5,000 enslaved by some accounts, and about 800 men executed on 14 August 1480"

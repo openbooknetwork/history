@@ -1,0 +1,17 @@
+lnglat: [40.5, 38.89]
+name: "Battle of Chapakchur"
+date: "30 October or 11 November 1467"
+result: "Aq Qoyunlu victory, Jahan Shah is killed"
+source: https://en.wikipedia.org/wiki/Battle_of_Chapakchur
+images: [chapakchur-rawzat-b296e0, tabriz-blue-mosque-9095b3]
+families:
+  aq-qoyunlu: { color: "#8f8778", color_dark: "#e8e1cf" }
+  kara-koyunlu: { color: "#3d3d3d", color_dark: "#9a9a9a" }
+sides:
+  - name: "Aq Qoyunlu"
+    color: aq-qoyunlu
+    commanders: ["Uzun Hasan"]
+  - name: "Kara Koyunlu"
+    color: kara-koyunlu
+    commanders: ["Jahan Shah", "Mirza Yusuf", "Mirza Muhammad"]
+    casualties: "Jahan Shah killed, Mirza Yusuf and Mirza Muhammad taken prisoner"

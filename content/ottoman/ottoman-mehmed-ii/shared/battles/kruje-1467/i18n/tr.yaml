@@ -1,0 +1,35 @@
+# tr strings for the battle "kruje-1467".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# League of Lezhë and Venetian troops
+battle.sides.0.name: "Leş Birliği ve Venedik askerleri"
+
+# 13,400, by Demetrio Franco
+battle.sides.0.strength: "Demetrio Franco’ya göre 13.400"
+
+# Ottoman state
+battle.sides.1.name: "Osmanlı Devleti"
+
+# 10,000 left in the camp, by Bernardino de Geraldinis
+battle.sides.1.strength: "Bernardino de Geraldinis’e göre ordugâhta kalan 10.000 kişi"
+
+# Ballaban killed, Jonuz and his son taken prisoner
+battle.sides.1.casualties: "Ballaban ölür, Yunus ve oğlu esir düşer"
+
+# Relief of Krujë
+battle.name: "Akçahisar’ın kurtarılması"
+
+# 19 – 23 April 1467
+battle.date: "19 – 23 Nisan 1467"
+
+# Albanian victory, Ballaban killed and the siege broken
+battle.result: "Arnavut zaferi, Ballaban ölür ve kuşatma kırılır"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Skanderbeg
+battle.sides.0.commanders.0: "İskender Bey"
+
+# Jonuz
+battle.sides.1.commanders.1: "Yunus"

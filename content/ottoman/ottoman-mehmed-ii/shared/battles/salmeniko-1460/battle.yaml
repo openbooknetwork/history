@@ -1,0 +1,17 @@
+lnglat: [21.9389, 38.2675]
+name: "Siege of Salmeniko"
+date: "Summer 1460 – July 1461"
+result: "Ottoman victory, the town surrenders and the garrison of the citadel breaks out to Lepanto"
+source: https://en.wikipedia.org/wiki/Salmeniko_Castle
+images: [salmeniko-castle-6940b5, mehmed-ii-bellini-medal-2bee4d]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  thomas: { color: "#a35a9e", color_dark: "#d99bd4" }
+sides:
+  - name: "Ottoman state"
+    color: ottomans
+    commanders: ["Mehmed II", "Zaganos Pasha"]
+  - name: "Despotate of the Morea"
+    color: thomas
+    commanders: ["Graitzas Palaiologos"]
+    casualties: "About 6,000 townspeople enslaved, by one account"

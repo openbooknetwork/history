@@ -1,0 +1,25 @@
+date: "13 June – 13 July 1456"
+when: { from: 1456-06-13, to: 1456-07-13 }
+title: "The armies at Belgrade"
+battle: belgrade-1456
+sources:
+  - "Laonikos Chalkokondyles, Histories (c. 1464)."
+  - "Michael Kritovoulos, History of Mehmed the Conqueror (about 1467)."
+  - "Tursun Beg, Tarih-i Ebü’l-Feth (about 1490)."
+  - "Aşıkpaşazade, Tevârîh-i Âl-i Osmân (late 15th century)."
+  - "Konstantin Mihailović, Memoirs of a Janissary (about 1500)."
+  - "János Thuróczy, Chronica Hungarorum (1488)."
+  - "Antonio Bonfini, Rerum Ungaricarum decades (about 1497)."
+  - "Franz Babinger, Mehmed the Conqueror and His Time (1978)."
+  - "Kenneth M. Setton, The Papacy and the Levant (1204–1571), vol. 2 (1978)."
+  - "Pál Engel, The Realm of St Stephen: A History of Medieval Hungary, 895–1526 (2001)."
+  - "Tamás Pálosfalvi, From Nicopolis to Mohács: A History of Ottoman-Hungarian Warfare, 1389–1526 (2018)."
+bbox: [20.15, 44.36, 21.15, 45.18]
+zones: [serbia-1455, hungary-1453b]
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[20.267, 45.14], [20.287, 45.12], [20.303, 45.1], [20.327, 45.08], [20.351, 45.06], [20.36, 45.04], [20.36, 45.02], [20.334, 45], [20.291, 44.98], [20.291, 44.96], [20.305, 44.94], [20.331, 44.92], [20.348, 44.9], [20.362, 44.88], [20.392, 44.86], [20.418, 44.845], [20.44, 44.839], [20.46, 44.833], [20.49, 44.828], [20.52, 44.828], [20.552, 44.84], [20.6, 44.842], [20.632, 44.838], [20.647, 44.82], [20.634, 44.8], [20.623, 44.78], [20.631, 44.76], [20.662, 44.74], [20.687, 44.72], [20.706, 44.7], [20.726, 44.68], [20.76, 44.665], [20.82, 44.663], [20.88, 44.665], [20.93, 44.675], [20.97, 44.7], [21.02, 44.72], [21.08, 44.74], [21.15, 44.76]], width: 700, id: danube, name: The Danube}
+    - {path: [[20.15, 44.71], [20.2, 44.685], [20.24, 44.67], [20.27, 44.662], [20.3, 44.68], [20.315, 44.71], [20.32, 44.742], [20.34, 44.756], [20.36, 44.775], [20.38, 44.79], [20.4, 44.795], [20.42, 44.797], [20.44, 44.803], [20.447, 44.815], [20.446, 44.83]], width: 300, id: sava, name: The Sava}
+markers: [belgrade-1456, zemun-1456-crusaders, smederevo]
+routes: [[mehmed-belgrade-1456, fleet-belgrade-1456], hunyadi-belgrade-1456]

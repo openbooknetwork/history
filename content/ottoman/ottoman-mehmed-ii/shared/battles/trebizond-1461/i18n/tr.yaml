@@ -1,0 +1,38 @@
+# tr strings for the battle "trebizond-1461".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman state
+battle.sides.0.name: "Osmanlı Devleti"
+
+# 80,000 foot and 60,000 horse by one estimate, 200 galleys and 10 warships
+battle.sides.0.strength: "Bir tahmine göre 80.000 piyade ve 60.000 atlı, 200 kadırga ve 10 savaş gemisi"
+
+# Empire of Trebizond
+battle.sides.1.name: "Trabzon İmparatorluğu"
+
+# Siege of Trebizond
+battle.name: "Trabzon Kuşatması"
+
+# July – 15 August 1461
+battle.date: "Temmuz – 15 Ağustos 1461"
+
+# Ottoman victory, Emperor David surrenders the city and the Empire of Trebizond ends
+battle.result: "Osmanlı zaferi, İmparator David kenti teslim eder ve Trabzon İmparatorluğu sona erer"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Mehmed II
+battle.sides.0.commanders.0: "II. Mehmed"
+
+# Mahmud Pasha
+battle.sides.0.commanders.1: "Mahmud Paşa"
+
+# Kasım Pasha
+battle.sides.0.commanders.2: "Kasım Paşa"
+
+# David Megas Komnenos
+battle.sides.1.commanders.0: "David Megas Komnenos"
+
+# George Amiroutzes
+battle.sides.1.commanders.1: "Georgios Amirutzes"

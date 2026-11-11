@@ -1,0 +1,21 @@
+# tr strings for the battle "isonzo-1477".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman state
+battle.sides.0.name: "Osmanlı Devleti"
+
+# Horsemen from Bosnia
+battle.sides.0.strength: "Bosna’dan gelen atlılar"
+
+# Republic of Venice
+battle.sides.1.name: "Venedik Cumhuriyeti"
+
+# Battle of the Isonzo
+battle.name: "Isonzo Muharebesi"
+
+# Autumn 1477
+battle.date: "1477 sonbaharı"
+
+# Ottoman victory, the raiders plunder Friuli to the Piave
+battle.result: "Osmanlı zaferi, akıncılar Piave’ye kadar Friuli’yi yağmalar"

@@ -1,0 +1,15 @@
+lnglat: [35.33, 45.045]
+name: "Siege of Caffa"
+date: "June 1475"
+result: "Ottoman victory, Caffa surrenders"
+source: https://en.wikipedia.org/wiki/Crimean_Campaign_(1475)
+images: [mangup-ruins-80125c, sudak-fortress-91ffcd]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  genoa: { color: "#0d681b", color_dark: "#64a560" }
+sides:
+  - name: "Ottoman state"
+    color: ottomans
+    commanders: ["Gedik Ahmed Pasha"]
+  - name: "Republic of Genoa"
+    color: genoa

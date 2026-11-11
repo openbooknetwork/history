@@ -1,0 +1,29 @@
+# tr strings for the battle "krusevac-1454".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Serbian Despotate and Kingdom of Hungary
+battle.sides.0.name: "Sırp Despotluğu ve Macaristan Krallığı"
+
+# Ottoman state
+battle.sides.1.name: "Osmanlı Devleti"
+
+# 32,000
+battle.sides.1.strength: "32.000"
+
+# The whole army, by Hungarian accounts
+battle.sides.1.casualties: "Macar kayıtlarına göre bütün ordu"
+
+# Battle of Kruševac
+battle.name: "Alacahisar Muharebesi"
+
+# 2 October 1454, or 29 September
+battle.date: "2 Ekim 1454 ya da 29 Eylül"
+
+# Serbian and Hungarian victory, Firuz Bey taken prisoner
+battle.result: "Sırp ve Macar zaferi, Firuz Bey esir düşer"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# John Hunyadi
+battle.sides.0.commanders.1: "Hunyadi Yanoş"

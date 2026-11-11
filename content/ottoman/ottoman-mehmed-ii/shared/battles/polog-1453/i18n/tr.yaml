@@ -1,0 +1,35 @@
+# tr strings for the battle "polog-1453".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# League of Lezhë
+battle.sides.0.name: "Leş Birliği"
+
+# 300 killed, by Barleti
+battle.sides.0.casualties: "Barleti’ye göre 300 ölü"
+
+# Ottoman state
+battle.sides.1.name: "Osmanlı Devleti"
+
+# 14,000
+battle.sides.1.strength: "14.000"
+
+# 3,000 killed by Francione, 10,000 by Barleti
+battle.sides.1.casualties: "Francione’ye göre 3.000, Barleti’ye göre 10.000 ölü"
+
+# Battle of Polog
+battle.name: "Polog Muharebesi"
+
+# 22 April 1453
+battle.date: "22 Nisan 1453"
+
+# Albanian victory, Ibrahim Pasha killed
+battle.result: "Arnavut zaferi, İbrahim Paşa öldürülür"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Skanderbeg
+battle.sides.0.commanders.0: "İskender Bey"
+
+# Ibrahim Pasha
+battle.sides.1.commanders.0: "İbrahim Paşa"

@@ -1,0 +1,26 @@
+# tr strings for the battle "novo-brdo-1455".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman state
+battle.sides.0.name: "Osmanlı Devleti"
+
+# Serbian Despotate, the town of Novo Brdo
+battle.sides.1.name: "Sırp Despotluğu, Novobırda şehri"
+
+# The leading men beheaded, about 700 women and 320 boys carried off
+battle.sides.1.casualties: "İleri gelenlerin başı kesilir, 700 kadar kadın ve 320 oğlan götürülür"
+
+# Siege of Novo Brdo
+battle.name: "Novobırda Kuşatması"
+
+# April – 1 June 1455
+battle.date: "Nisan – 1 Haziran 1455"
+
+# Ottoman victory, the town surrenders after 40 days
+battle.result: "Osmanlı zaferi, şehir 40 gün sonra teslim olur"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Mehmed II
+battle.sides.0.commanders.0: "II. Mehmed"

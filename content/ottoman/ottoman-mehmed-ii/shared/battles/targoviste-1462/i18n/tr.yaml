@@ -1,0 +1,47 @@
+# tr strings for the battle "targoviste-1462".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Principality of Wallachia
+battle.sides.0.name: "Eflak Prensliği"
+
+# About 30,000, of whom 7,000 to 10,000 in the attack
+battle.sides.0.strength: "30.000 kadar, baskına katılanlar 7.000 ile 10.000 arası"
+
+# About 5,000 in the campaign, by Domenico Balbi
+battle.sides.0.casualties: "Domenico Balbi’ye göre sefer boyunca 5.000 kadar"
+
+# Ottoman state
+battle.sides.1.name: "Osmanlı Devleti"
+
+# 90,000 to 300,000 in the accounts of the time
+battle.sides.1.strength: "Dönemin anlatımlarında 90.000 ile 300.000 arası"
+
+# About 15,000 in the campaign, by Domenico Balbi
+battle.sides.1.casualties: "Domenico Balbi’ye göre sefer boyunca 15.000 kadar"
+
+# Night attack at Târgoviște
+battle.name: "Tırgovişte Gece Baskını"
+
+# 16 – 17 June 1462
+battle.date: "16 – 17 Haziran 1462"
+
+# Vlad fails to kill the sultan, and the Ottoman army marches on to Târgoviște
+battle.result: "Vlad padişahı öldüremez, Osmanlı ordusu da Tırgovişte’ye yürümeyi sürdürür"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Vlad III
+battle.sides.0.commanders.0: "III. Vlad (Kazıklı Voyvoda)"
+
+# Mehmed II
+battle.sides.1.commanders.0: "II. Mehmed"
+
+# Mahmud Pasha
+battle.sides.1.commanders.1: "Mahmud Paşa"
+
+# İshak Pasha
+battle.sides.1.commanders.2: "İshak Paşa"
+
+# Radu
+battle.sides.1.commanders.3: "Radu Bey"

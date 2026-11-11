@@ -1,0 +1,7 @@
+1465’te Mehmed Arnavutluk’taki savaşı [Ohri](@ohrid) sancakbeyi Ballaban Badera’ya verir. Ballaban, İskender Bey’in kendi topraklarında, Mat vadisinde bir köylü olarak doğmuş, çocukken devşirilip yeniçeri olmuştur, bazı anlatımlara göre 1453’te Konstantinopolis surlarına ilk çıkan da odur. Nisan 1465’te, Debre ile Mat arasındaki yolun üstündeki Vaikal vadisinde 4.500 ile 5.500 arası askerle ordugâh kurmuş olan İskender Bey’e 18.000 askerle saldırır.
+
+Arnavutlar mevzilerini korur ve Osmanlıları tepelere kadar geri püskürtür, iki taraf da ağır kayıp verir. İskender Bey’in komutanlarından bazıları onun emrine karşın kovalamayı sürdürür, pusuya düşer ve esir alınır: Moisi Golemi, levazım sorumlusu Vladan Gjurica ve İskender Bey’in yeğeni Muzakë Arianiti de bunların arasındadır. Ballaban onları İstanbul’a gönderir, orada on beş gün boyunca diri diri derileri yüzülür, Mehmed de İskender Bey’in fidye ya da esir değişimi önerilerini geri çevirir.
+
+Ağustos 1465’te Ballaban 24.000 askerle [Debre’den](@debar-1465) yeniden gelir, Arnavut Yakup Bey de 16.000 askerle [Berat’tan](@berat-1465) kuzeye yürür, iki ordu birleşip [Akçahisar’ı](@kruje) alacaktır. 12.000 askeri olan İskender Bey önce Ballaban’ı yine Vaikal vadisinde yener ve bu kez komutanlarının öcünü almak için esirleri öldürtür. Ardından batıya döner ve Yakup Bey’i Tiran yakınındaki [Kashar’da](@kashar-1465) karşılar: Yakup Bey İskender Bey’in mızrağıyla ölür, ordusu da bozguna uğrar.
+
+@image debar-panorama-b83caa

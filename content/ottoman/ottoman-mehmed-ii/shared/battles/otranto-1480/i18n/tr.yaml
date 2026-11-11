@@ -1,0 +1,38 @@
+# tr strings for the battle "otranto-1480".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman state
+battle.sides.0.name: "Osmanlı Devleti"
+
+# 18,000 foot soldiers, 700 horsemen and 140 ships
+battle.sides.0.strength: "18.000 piyade, 700 atlı ve 140 gemi"
+
+# The garrison surrenders in 1481
+battle.sides.0.casualties: "Kentteki birlik 1481’de teslim olur"
+
+# Kingdom of Naples, with Hungarian troops and a papal fleet in 1481
+battle.sides.1.name: "Napoli Krallığı, 1481’de Macar askerleri ve bir papalık donanmasıyla"
+
+# About 50 soldiers and the townspeople in 1480, 20,000 Neapolitans and 2,100 Hungarians in 1481
+battle.sides.1.strength: "1480’de 50 kadar asker ve kentliler, 1481’de 20.000 Napolili ve 2.100 Macar"
+
+# 12,000 killed and 5,000 enslaved by some accounts, and about 800 men executed on 14 August 1480
+battle.sides.1.casualties: "Bazı anlatımlara göre 12.000 ölü ve 5.000 köle, ayrıca 14 Ağustos 1480’de öldürülen 800 kadar erkek"
+
+# Siege of Otranto
+battle.name: "Otranto Kuşatması"
+
+# 28 July 1480 – 10 September 1481
+battle.date: "28 Temmuz 1480 – 10 Eylül 1481"
+
+# Ottomans take the town on 11 August 1480 and give it up on 10 September 1481
+battle.result: "Osmanlılar kenti 11 Ağustos 1480’de alır ve 10 Eylül 1481’de bırakır"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Gedik Ahmed Pasha
+battle.sides.0.commanders.0: "Gedik Ahmed Paşa"
+
+# Alfonso, Duke of Calabria
+battle.sides.1.commanders.1: "Calabria Dükü Alfonso"

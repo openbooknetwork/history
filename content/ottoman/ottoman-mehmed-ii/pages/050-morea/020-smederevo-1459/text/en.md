@@ -1,0 +1,9 @@
+Despot Lazar Branković dies on 20 February 1458 without a son, and his blind brother Stefan and his widow Helena, a daughter of Thomas Palaiologos, share power in Serbia. A faction that looks to Hungary removes Mahmud Pasha’s brother Mihailo from the regency, and Mehmed, on his way to the Morea, sends the grand vizier into Serbia with an army that includes 1,000 janissaries. Mahmud takes [Resava](@resava-1458) and other towns, beats the Serbs outside Smederevo and breaks through the outer walls, but the citadel holds. He gives up the siege and takes [Rudnik](@rudnik-1458) and then the fortress of [Golubac](@golubac-1458) on the Danube.
+
+After the Morea campaign Mehmed meets Mahmud at [Skopje](@skopje-1458). A Hungarian army crosses the Danube near [Belgrade](@belgrade-1458) and marches south, and while it plunders the country around [Užice](@uzice-1458) the Ottoman troops of the region ambush it and drive it back. In January 1459 the Hungarian diet recognises Stephen Tomašević, the son of King Thomas of Bosnia, as ruler of Serbia. He takes the throne at Smederevo on 21 March 1459, marries Lazar’s daughter Helena on 1 April and a week later sends Stefan Branković into exile.
+
+@image golubac-fortress-b1d2af
+
+Mehmed regards Serbia as his vassal and the new despot as a breach of his rights. He marches from [Sofia](@sofia-1459) in June 1459, and when he appears before Smederevo the Serbs of the town bring him its keys. Stephen surrenders the fortress on 20 June by Fine’s account, or in early July by another, and flees to Bosnia, and by the end of 1459 the other Serbian castles have surrendered and the Serbian Despotate has come to an end. In 1460 Ali Bey Mihaloğlu takes Michael Szilágyi, the uncle of King Matthias, prisoner at [Baziaș](@bazias-1460) on the Danube, and the Ottomans put him to death.
+
+@image smederevo-kunike-2b7757

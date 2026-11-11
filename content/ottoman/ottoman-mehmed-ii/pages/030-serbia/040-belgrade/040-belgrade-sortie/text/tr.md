@@ -1,0 +1,7 @@
+Bazı kayıtlara göre 22 Temmuz’daki çarpışma emirsiz başlar. Haçlılar Hunyadi’nin emrine karşın yıkık surlardan dışarı çıkar, Osmanlı hattının karşısına yerleşir ve askerleri taciz eder. Sipahiler onları dağıtmaya çalışır ama başaramaz, onlara başka savunucular da katılır ve çatışma bir meydan savaşına döner. [Capistrano](@belgrade-sortie-capistrano) önce adamlarını geri çağırmaya çalışır, sonra 2.000 kadarını Sava’nın karşısına geçirip Osmanlıların yanına ve arkasına saldırır. Aynı sırada [Hunyadi](@belgrade-sortie-hunyadi) kaleden dışarı hücum eder ve Osmanlı toplarını ele geçirir.
+
+@image capistrano-battle-aquila-2a16f5
+
+Hristiyanlar [Osmanlı ordugâhına](@belgrade-ottoman-camp) kadar ulaşır. Vezirlerden biri [Mehmed’e](@belgrade-sortie-mehmed) ordugâhı bırakmasını öğütler, ama Mehmed düşmandan yüz çevirmenin korkaklık nişanı olduğunu söyleyerek bunu reddeder ve iki beyiyle birlikte çarpışmaya katılır. Tursun Bey’e göre üç, Halkokondilis’e göre bir kişiyi öldürür ve yaralanır. Türk kaynakları yeniçeri ağası Hasan’ın da öldüğünü anlatır. Padişahın örneği ve yeni gelen askerler ordusunu toparlar, ordu Hristiyanları ordugâhtan çıkarır, ama topları geri alamaz.
+
+Osmanlı divanı kuşatmayı bitirmeye karar verir. 22’yi 23 Temmuz’a bağlayan gece ordu ölülerini gömer, yaralılarını uzun bir araba kafilesine yükler ve güneydoğuya çekilir, Hristiyanlar da peşine düşmez. Ertesi gün haçlılar boş ordugâha girer ve büyük bir ganimet bulur. Osmanlılar 13.000 kadar, Babinger’in tahminine göre ise 4.000 ile 5.000 asker ve bütün toplarını kaybeder.

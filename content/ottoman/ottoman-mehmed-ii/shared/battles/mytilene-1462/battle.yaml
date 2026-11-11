@@ -1,0 +1,19 @@
+lnglat: [26.561, 39.111]
+name: "Siege of Mytilene"
+date: "1 – 15 September 1462"
+result: "Ottoman victory, Niccolò Gattilusio surrenders Mytilene and the whole of Lesbos"
+source: https://en.wikipedia.org/wiki/Siege_of_Mytilene_(1462)
+images: [mytilene-fortress-b4123d, jacopo-gattilusio-ducat-0db4db]
+families:
+  ottomans: { color: "#b5352a", color_dark: "#e8695c" }
+  gattilusi: { color: "#a17b38", color_dark: "#e2bb80" }
+sides:
+  - name: "Ottoman state"
+    color: ottomans
+    commanders: ["Mehmed II", "Mahmud Pasha"]
+    strength: "Over 20,000 men, and 67 to 200 ships in the different accounts"
+  - name: "Lordship of Lesbos"
+    color: gattilusi
+    commanders: ["Niccolò Gattilusio", "Luchino Gattilusio"]
+    strength: "1,000 to 5,000, with 70 Knights Hospitaller and 110 Catalans"
+    casualties: "About 300 Italian soldiers executed after the surrender"

@@ -1,0 +1,29 @@
+# tr strings for the battle "salmeniko-1460".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman state
+battle.sides.0.name: "Osmanlı Devleti"
+
+# Despotate of the Morea
+battle.sides.1.name: "Mora Despotluğu"
+
+# About 6,000 townspeople enslaved, by one account
+battle.sides.1.casualties: "Bir anlatıma göre 6.000 kadar kasabalı köle edilir"
+
+# Siege of Salmeniko
+battle.name: "Salmeniko Kuşatması"
+
+# Summer 1460 – July 1461
+battle.date: "1460 yazı – Temmuz 1461"
+
+# Ottoman victory, the town surrenders and the garrison of the citadel breaks out to Lepanto
+battle.result: "Osmanlı zaferi, kasaba teslim olur, iç kalenin muhafızları kuşatmayı yarıp İnebahtı’ya ulaşır"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Mehmed II
+battle.sides.0.commanders.0: "II. Mehmed"
+
+# Zaganos Pasha
+battle.sides.0.commanders.1: "Zağanos Paşa"

@@ -1,0 +1,35 @@
+# tr strings for the battle "mytilene-1462".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman state
+battle.sides.0.name: "Osmanlı Devleti"
+
+# Over 20,000 men, and 67 to 200 ships in the different accounts
+battle.sides.0.strength: "20.000’i aşkın asker, farklı anlatımlarda 67 ile 200 arası gemi"
+
+# Lordship of Lesbos
+battle.sides.1.name: "Midilli Senyörlüğü"
+
+# 1,000 to 5,000, with 70 Knights Hospitaller and 110 Catalans
+battle.sides.1.strength: "70 Hospitalier şövalyesi ve 110 Katalan ile birlikte 1.000 ile 5.000 arası"
+
+# About 300 Italian soldiers executed after the surrender
+battle.sides.1.casualties: "Teslimden sonra 300 kadar İtalyan asker öldürülür"
+
+# Siege of Mytilene
+battle.name: "Midilli Kuşatması"
+
+# 1 – 15 September 1462
+battle.date: "1 – 15 Eylül 1462"
+
+# Ottoman victory, Niccolò Gattilusio surrenders Mytilene and the whole of Lesbos
+battle.result: "Osmanlı zaferi, Niccolò Gattilusio Midilli kalesini ve bütün adayı teslim eder"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Mehmed II
+battle.sides.0.commanders.0: "II. Mehmed"
+
+# Mahmud Pasha
+battle.sides.0.commanders.1: "Mahmud Paşa"

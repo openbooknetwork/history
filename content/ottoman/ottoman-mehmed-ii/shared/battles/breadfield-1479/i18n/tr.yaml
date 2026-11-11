@@ -1,0 +1,38 @@
+# tr strings for the battle "breadfield-1479".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Kingdom of Hungary
+battle.sides.0.name: "Macaristan Krallığı"
+
+# 12,000 to 15,000
+battle.sides.0.strength: "12.000 ile 15.000 arası"
+
+# About 3,000, or 8,000 by another count
+battle.sides.0.casualties: "3.000 kadar, başka bir sayıma göre 8.000"
+
+# Ottoman state and Wallachian troops
+battle.sides.1.name: "Osmanlı Devleti ve Eflak askerleri"
+
+# 6,000 to 20,000 by modern estimates and 1,000 to 2,000 Wallachians, 43,000 to 45,000 by Matthias
+battle.sides.1.strength: "Günümüz tahminlerine göre 6.000 ile 20.000 arası ve 1.000 ile 2.000 arası Eflaklı, Matyas’a göre 43.000 ile 45.000 arası"
+
+# Several thousand, 30,000 by the Hungarian count
+battle.sides.1.casualties: "Birkaç bin, Macarların sayımına göre 30.000"
+
+# Battle of Breadfield
+battle.name: "Kenyérmező Muharebesi"
+
+# 13 October 1479
+battle.date: "13 Ekim 1479"
+
+# Hungarian victory, the Ottoman raiding army is destroyed
+battle.result: "Macar zaferi, Osmanlı akıncı ordusu yok edilir"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Stephen Báthory
+battle.sides.0.commanders.0: "István Báthory"
+
+# Ali Bey Mihaloğlu
+battle.sides.1.commanders.0: "Mihaloğlu Ali Bey"

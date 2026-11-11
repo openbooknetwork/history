@@ -1,0 +1,9 @@
+1204’ten beri Komnenos hanedanının yönettiği Trabzon İmparatorluğu, Trabzon çevresinde Karadeniz kıyısından bir şeridi elinde tutar ve 1458’den beri padişaha yılda 3.000 altın haraç öder. İmparator IV. İoannis kızı Theodora’yı Akkoyunlu hükümdarı Uzun Hasan’la evlendirir, Uzun Hasan da Trabzon’u savunacağına söz verir, İoannis ayrıca Gürcü kral ve prenslerinden, Sinop ve Karaman beylerinden yardım sözü alır. 1459’da ya da 1460’ta yerine geçen kardeşi David Batı’da müttefik arar, Uzun Hasan’ın elçileri de Mehmed’e Trabzon haracının artık kendi efendilerine ödeneceğini bildirir.
+
+@image trebizond-hagia-sophia-5ecb55
+
+Mehmed ordusuyla [Sinop’tan](@sinop-1461) iç bölgelere yürür, donanma komutanı Kasım Paşa da donanmayla kıyı boyunca Trabzon’a gider. Dağlardan, yağmur ve çamur içinde geçen yürüyüş bir aydan uzun sürer. Ordu [Sivas’ı](@sivas-1461) geçince Akkoyunlu topraklarına girer ve Osmanlılar Uzun Hasan’ın sınır kalesi [Koyulhisar’ı](@koyulhisar-1461) hücumla alır. Uzun Hasan’ın annesi Sara Hatun hediyelerle Mehmed’in ordugâhına gelip barış ister, Mehmed de Uzun Hasan’la barış yapar, ama Trabzon’u bu barışın dışında tutar ve Sara Hatun’u sefer bitene dek ordunun yanında alıkoyar.
+
+Donanma Trabzon’u 32 gündür kuşatırken Mahmud Paşa’nın öncü kuvvetleri [Zigana Geçidi’ni](@zigana-1461) aşıp gelir. Mahmud Paşa, Halkokondilis’e göre kuzeni olan saray görevlisi Georgios Amirutzes aracılığıyla, Kritovulos’a göre ise Thomas Katabolinos aracılığıyla David’e şartlarını bildirir: David kenti teslim ederse canını ve malını korur, başka bir yerde de topraklar alır. Uzun Hasan’dan da Gürcistan’dan da yardım gelmez ve Mehmed 15 Ağustos 1461’de Trabzon’a girer, böylece son Bizans devleti de sona erer. David ve ailesi İstanbul’a götürülür, David ile oğulları 1463’te orada öldürülür, kent halkının birçoğu da İstanbul’a gönderilir ya da köle edilir.
+
+@image trebizond-cassone-eac0bb

@@ -1,0 +1,29 @@
+# tr strings for the battle "kruje-1466".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# League of Lezhë
+battle.sides.0.name: "Leş Birliği"
+
+# 4,400 in the castle, with 1,000 Venetian foot and 200 Neapolitan marksmen, by Barleti
+battle.sides.0.strength: "Barleti’ye göre kalede 4.400 asker, aralarında 1.000 Venedikli yaya ve 200 Napolili nişancı"
+
+# Ottoman state
+battle.sides.1.name: "Osmanlı Devleti"
+
+# 30,000 by the Ragusan reports
+battle.sides.1.strength: "Raguza raporlarına göre 30.000"
+
+# Siege of Krujë
+battle.name: "Akçahisar Kuşatması"
+
+# Mid June – summer 1466
+battle.date: "Haziran ortası – 1466 yazı"
+
+# Krujë holds, and Mehmed leaves Ballaban to keep up the siege
+battle.result: "Akçahisar direnir, Mehmed kuşatmayı sürdürmesi için Ballaban’ı bırakır"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Mehmed II
+battle.sides.1.commanders.0: "II. Mehmed"

@@ -1,0 +1,41 @@
+# tr strings for the battle "shkodra-1474".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman state
+battle.sides.0.name: "Osmanlı Devleti"
+
+# About 8,000, or 50,000 by Venetian reports in July
+battle.sides.0.strength: "8.000 kadar, temmuzdaki Venedik raporlarına göre 50.000"
+
+# 7,000 to 20,000 reported killed
+battle.sides.0.casualties: "7.000 ile 20.000 arasında ölü bildirilir"
+
+# Republic of Venice and Albanian troops
+battle.sides.1.name: "Venedik Cumhuriyeti ve Arnavut askerleri"
+
+# Up to 25,000 with the ships’ crews and the light horsemen from Greece, by Venetian reports
+battle.sides.1.strength: "Venedik raporlarına göre gemi tayfaları ve Yunanistan’dan gelen hafif süvarilerle birlikte 25.000’e kadar"
+
+# About 3,000 townspeople die of hunger and thirst
+battle.sides.1.casualties: "3.000 kadar kentli açlık ve susuzluktan ölür"
+
+# Zeta
+battle.sides.2.name: "Zeta"
+
+# 3 fustas and 15 smaller boats on the lake
+battle.sides.2.strength: "Gölde 3 fusta ve 15 küçük tekne"
+
+# Siege of Shkodër
+battle.name: "İşkodra Kuşatması"
+
+# Spring – 8 August 1474
+battle.date: "1474 baharı – 8 Ağustos 1474"
+
+# Venetian victory, the Ottomans lift the siege
+battle.result: "Venedik zaferi, Osmanlılar kuşatmayı kaldırır"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Hadım Süleyman Pasha
+battle.sides.0.commanders.0: "Hadım Süleyman Paşa"

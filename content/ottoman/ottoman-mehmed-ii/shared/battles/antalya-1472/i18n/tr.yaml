@@ -1,0 +1,21 @@
+# tr strings for the battle "antalya-1472".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Venice, the pope, Naples and the Knights of Rhodes
+battle.sides.0.name: "Venedik, papa, Napoli ve Rodos şövalyeleri"
+
+# 87 galleys and 15 ships of the Knights, 8,000 men
+battle.sides.0.strength: "87 kadırga, şövalyelerin 15 gemisi ve 8.000 asker"
+
+# Ottoman state
+battle.sides.1.name: "Osmanlı Devleti"
+
+# Attack on Antalya
+battle.name: "Antalya Baskını"
+
+# August 1472
+battle.date: "Ağustos 1472"
+
+# Ottoman victory, the fleet burns the harbour and withdraws the next day
+battle.result: "Osmanlı zaferi, donanma limanı yakar ve ertesi gün çekilir"

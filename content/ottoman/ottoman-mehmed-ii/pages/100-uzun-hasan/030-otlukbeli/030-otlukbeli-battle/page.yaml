@@ -1,0 +1,44 @@
+date: "11 August 1473"
+when: 1473-08-11
+title: "The battle of 11 August"
+sources:
+  - "Tursun Beg, Tarih-i Ebü’l-Feth (about 1490)."
+  - "Aşıkpaşazade, Tevârîh-i Âl-i Osmân (late 15th century)."
+  - "Mehmed Neşri, Kitâb-ı Cihan-nümâ (late 15th century)."
+  - "Abu Bakr Tihrani, Kitab-i Diyarbakriyya (late 15th century)."
+  - "Giovanni Maria Angiolello, Historia Turchesca (about 1490)."
+  - "Ibn Kemal, Tevârîh-i Âl-i Osmân (early 16th century)."
+  - "Franz Babinger, Mehmed the Conqueror and His Time (1978)."
+  - "John E. Woods, The Aqquyunlu: Clan, Confederation, Empire (2nd ed., 1999)."
+  - "Theoharis Stavrides, The Sultan of Vezirs: The Life and Times of the Ottoman Grand Vezir Mahmud Pasha Angelovic, 1453–1474 (2001)."
+bbox: [39.97, 39.81, 40.245, 40.02]
+zones: []
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[40.34, 39.935], [40.3, 39.931], [40.275, 39.93], [40.255, 39.929], [40.24, 39.925], [40.222, 39.921], [40.205, 39.918], [40.19, 39.915], [40.18, 39.91], [40.172, 39.903], [40.166, 39.897], [40.16, 39.891], [40.152, 39.888], [40.145, 39.881], [40.138, 39.874], [40.134, 39.866], [40.134, 39.858], [40.138, 39.851], [40.144, 39.843], [40.151, 39.836], [40.158, 39.828], [40.164, 39.819], [40.169, 39.811], [40.175, 39.804], [40.184, 39.797], [40.195, 39.791], [40.206, 39.785], [40.217, 39.779], [40.228, 39.774], [40.236, 39.768], [40.232, 39.76]], width: 70, id: euphrates, name: 'The Euphrates (Karasu), which runs through the plain of Tercan'}
+    - {path: [[40.1355, 39.8705], [40.134, 39.862], [40.1355, 39.8545], [40.1405, 39.8465]], width: 240, id: shallows, name: 'Here the river spreads over banks of sand, where an army can cross'}
+    - {path: [[40.1131, 40.03], [40.1131, 40.01], [40.1131, 39.99], [40.1146, 39.9767], [40.1103, 39.9706], [40.1016, 39.9667], [40.0923, 39.9638], [40.0846, 39.9578], [40.0743, 39.95], [40.0665, 39.944], [40.0626, 39.9369], [40.057, 39.93], [40.0522, 39.9241], [40.0483, 39.9171], [40.0466, 39.9112], [40.0442, 39.9061], [40.0428, 39.9], [40.038, 39.8909], [40.0424, 39.879], [40.0461, 39.8758], [40.0594, 39.8705], [40.0728, 39.864], [40.0867, 39.8633], [40.0994, 39.8651], [40.1068, 39.8628], [40.1152, 39.861], [40.1235, 39.8581], [40.1334, 39.8562]], width: 30, id: stream, name: A stream that runs from the heights east of Otlukbeli down to the Euphrates}
+  units:
+    - {side: ottomans, type: camp, at: [40.06, 39.934], width: 1500, depth: 1100, facing: 0, id: camp, name: 'The Ottoman camp at Üç Ağız, the junction of three valleys near Tercan, a narrow place where the army halts on 11 August'}
+    - {side: ottomans, type: cavalry, at: [40.00276, 39.98052], width: 1300, depth: 600, facing: 0, id: davud, name: 'Davud Pasha, the beylerbey of Anatolia, with the Anatolian troops. He throws back Gavur İshak and takes his post on the plain'}
+    - {side: ottomans, type: cavalry, at: [40.01976, 39.98052], width: 1500, depth: 600, facing: 0, id: mustafa, name: 'Şehzade Mustafa, the governor of Karaman, with his troops and the azebs, the foot soldiers among whom Zeynel is killed'}
+    - {side: ottomans, type: artillery, at: [40.04028, 39.97283], width: 1000, depth: 150, facing: 0, id: guns, name: The janissaries’ guns and the light mortars that Mehmed has cast for this campaign, count: 10}
+    - {side: ottomans, type: infantry, at: [40.04028, 39.96967], width: 1400, depth: 500, facing: 0, id: janissaries, name: 'The janissaries, about 25,000, whom Mehmed sends in when the Aq Qoyunlu right has broken', bow: 60}
+    - {side: ottomans, type: cavalry, at: [40.04028, 39.96379], width: 800, depth: 450, facing: 0, id: mehmed, name: Mehmed with the horsemen of his household}
+    - {side: ottomans, type: cavalry, at: [40.07368, 39.98052], width: 2400, depth: 600, facing: 0, id: bayezid, name: 'Şehzade Bayezid, the governor of Amasya, with the right wing'}
+    - {side: aq-qoyunlu, type: cavalry, at: [40.01155, 39.98731], width: 2800, depth: 800, facing: 180, id: zeynel, name: 'The right wing under Zeynel, a son of Uzun Hasan, with Sufi Khalil Mawsillu and Sulayman Bijan'}
+    - {side: aq-qoyunlu, type: cavalry, at: [40.04028, 39.98957], width: 1900, depth: 800, facing: 180, id: centre, name: 'Uzun Hasan’s centre on the slope of the ridge, with Pir Ahmed of Karaman. Most of his army are horsemen, with foot soldiers armed with lances'}
+    - {side: aq-qoyunlu, type: cavalry, at: [40.07368, 39.98731], width: 2400, depth: 800, facing: 180, id: left, name: 'The left wing under Uzun Hasan’s nephews Murad and Alikhan, with Mehmed Bakır'}
+    - {side: aq-qoyunlu, type: cavalry, at: [40.128, 39.981], width: 1400, depth: 700, facing: 270, id: ughurlu, name: 'Uğurlu Mehmed with a swift force on a hill behind the stream, to back up the left wing'}
+  arrows:
+    - {side: aq-qoyunlu, path: [[40.03031, 39.97329], [40.03031, 39.97962], [40.0309, 39.9864]], width: 220, id: ishak, name: At noon Gavur İshak’s men come down from the hill of Otlukbeli. Davud Pasha’s Anatolian troops throw them back to the main army, style: dashed}
+    - {side: ottomans, path: [[40.01976, 39.9751], [40.01859, 39.98233], [40.0139, 39.98821]], width: 300, id: mustafa-charge, name: Mustafa falls on Zeynel’s wing. Zeynel is killed and the Aq Qoyunlu right breaks}
+    - {side: ottomans, path: [[40.07955, 39.976], [40.09361, 39.98143], [40.11354, 39.98233]], width: 260, id: bayezid-attack, name: 'Bayezid attacks Uğurlu Mehmed, who holds the stream between them, and then turns on Mehmed Bakır’s men'}
+    - {side: ottomans, path: [[40.04028, 39.97238], [40.04028, 39.97871], [40.04028, 39.9855]], width: 320, id: janissaries-advance, name: Mehmed sends the janissaries forward}
+    - {side: aq-qoyunlu, path: [[40.04028, 39.99409], [40.05258, 40.00223], [40.06782, 40.00676]], width: 240, id: flight, name: 'Uzun Hasan leaves the field. Pir Mehmed Bey, who looks like him, stays behind in his place and is taken', style: dashed}
+  clashes:
+    - {at: [40.01155, 39.98346], size: 600}
+    - {at: [40.07368, 39.98346], size: 450}
+    - {at: [40.117, 39.9785], size: 300}
+markers: [otlukbeli-battle-mehmed, otlukbeli-battle-mustafa, otlukbeli-battle-bayezid, otlukbeli-battle-zeynel, otlukbeli-battle-uzun, otlukbeli-battle-ughurlu]

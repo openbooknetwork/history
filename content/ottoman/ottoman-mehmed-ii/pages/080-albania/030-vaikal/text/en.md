@@ -1,0 +1,7 @@
+In 1465 Mehmed gives the war in Albania to Ballaban Badera, the governor of the sanjak of [Ohrid](@ohrid). Ballaban was born a peasant in the Mat valley, in Skanderbeg’s own lands, and was taken as a boy for the janissaries, and some accounts make him the first man on the walls of Constantinople in 1453. In April 1465 he attacks Skanderbeg with 18,000 men in the Vaikal valley, on the road between Dibra and Mat, where Skanderbeg is camped with 4,500 to 5,500.
+
+The Albanians hold their ground and drive the Ottomans back to the hills, with heavy losses on both sides. Some of Skanderbeg’s officers go on with the pursuit against his orders and are ambushed and taken prisoner, among them Moisi Golemi, the quartermaster Vladan Gjurica and Skanderbeg’s nephew Muzakë Arianiti. Ballaban sends them to Constantinople, where they are skinned alive over fifteen days, and Mehmed refuses Skanderbeg’s offers of a ransom or an exchange.
+
+In August 1465 Ballaban comes back from [Debar](@debar-1465) with 24,000 men, while Jakup Bey Arnauti marches north from [Berat](@berat-1465) with 16,000, and the two armies are to meet and take [Krujë](@kruje). Skanderbeg, with 12,000 men, beats Ballaban first, again in the Vaikal valley, and this time he has the prisoners killed in revenge for his officers. He then turns west and meets Jakup at [Kashar](@kashar-1465) near Tirana, where Jakup is killed by Skanderbeg’s spear and his army is routed.
+
+@image debar-panorama-b83caa

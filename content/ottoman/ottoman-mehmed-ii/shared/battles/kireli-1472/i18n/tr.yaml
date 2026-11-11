@@ -1,0 +1,35 @@
+# tr strings for the battle "kireli-1472".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Ottoman state
+battle.sides.0.name: "Osmanlı Devleti"
+
+# Aq Qoyunlu, with the princes of Karaman
+battle.sides.1.name: "Karamanoğlu şehzadeleriyle birlikte Akkoyunlular"
+
+# Battle of Kıreli
+battle.name: "Kıreli Muharebesi"
+
+# 14 August 1472
+battle.date: "14 Ağustos 1472"
+
+# Ottoman victory
+battle.result: "Osmanlı zaferi"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Şehzade Mustafa
+battle.sides.0.commanders.0: "Şehzade Mustafa"
+
+# Gedik Ahmed Pasha
+battle.sides.0.commanders.1: "Gedik Ahmed Paşa"
+
+# Yusuf Bayandur
+battle.sides.1.commanders.0: "Yusufça Mirza"
+
+# Amir Beg Mawsillu
+battle.sides.1.commanders.1: "Musullu Emir Bey"
+
+# Pir Ahmed
+battle.sides.1.commanders.2: "Pir Ahmed"

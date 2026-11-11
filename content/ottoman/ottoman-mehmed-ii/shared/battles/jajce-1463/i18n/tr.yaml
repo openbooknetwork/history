@@ -1,0 +1,32 @@
+# tr strings for the battle "jajce-1463".
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language, and kitap build --strict reports them. Regenerate with: kitap i18n tr
+
+# Kingdom of Hungary
+battle.sides.0.name: "Macaristan Krallığı"
+
+# Estimates from 4,000 to 25,000
+battle.sides.0.strength: "Tahminler 4.000 ile 25.000 arası"
+
+# Ottoman state
+battle.sides.1.name: "Osmanlı Devleti"
+
+# Estimates from 400 to 7,000
+battle.sides.1.strength: "Tahminler 400 ile 7.000 arası"
+
+# About 400 of the garrison join the Hungarian army
+battle.sides.1.casualties: "Muhafızlardan 400 kadarı Macar ordusuna katılır"
+
+# Siege of Jajce
+battle.name: "Yayçe Kuşatması"
+
+# Autumn – 16 December 1463
+battle.date: "Sonbahar – 16 Aralık 1463"
+
+# Hungarian victory, the Ottoman garrison surrenders the citadel
+battle.result: "Macar zaferi, Osmanlı muhafızları iç kaleyi teslim eder"
+
+# Names, citations and credits with their own form in this language. Any other shows as written in the source.
+
+# Matthias Corvinus
+battle.sides.0.commanders.0: "Matyas Korvin"

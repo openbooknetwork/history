@@ -35,8 +35,8 @@ as `ru.md`. Read both in full first. Run every command from the repo root, and r
    have read every page.
 2. **Catalogues.** Run `./node_modules/.bin/harita i18n <lang> --story <story>`. Read each catalogue it lists, every
    value beside its English comment, and fix it the same way. Done when you have read every value.
-3. **Checks.** Run `node scripts/check-translation.mjs <story> <lang>` and `./node_modules/.bin/harita check <story>`.
-   Fix each problem and run them again. Done when both print `ok`.
+3. **Checks.** Run `./node_modules/.bin/harita i18n <lang> --story <story> --check` and
+   `./node_modules/.bin/harita check <story>`. Fix each problem and run them again. Done when both print `ok`.
 4. **Report.** One short paragraph: how many pages and strings you changed, the kinds of fault you found most, and
    each English sentence that reads two ways, with its page, for the author to rewrite. You edit translations only.
 

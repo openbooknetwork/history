@@ -77,8 +77,8 @@ A whole story goes into a language through two agents in `.claude/agents/`: `tra
 language of `site.yaml`'s `languages` other than `en`. Before dispatching, set the story's `languages` in `story.yaml`
 to `en` and those targets, then dispatch one `translator` per language. Any number run at once, one agent per story
 and language, since two agents on the same story and language save the same catalogue.
-`node scripts/check-translation.mjs <story> <lang>` checks a translation's shape against the English. When the
-reviewer is done, stamp the story.
+`./node_modules/.bin/harita i18n <lang> --story <story> --check` checks a translation's shape against the English.
+When the reviewer is done, stamp the story.
 
 A stamp is the hash of the English behind a translated paragraph or string, kept in `i18n/stamps/<lang>.yaml` of the
 story and of each battle and image folder, committed with the translation. `./node_modules/.bin/harita i18n <lang>

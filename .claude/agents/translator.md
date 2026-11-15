@@ -38,8 +38,9 @@ Run every command from the repo root, and run harita as `./node_modules/.bin/har
    catalogues. Done when every page folder has `text/<lang>.md`.
 4. **Rest of the catalogues.** Fill every remaining empty value: titles, dates, notes, captions, strengths and
    casualties. Run step 1's command again. Done when it prints `N of N` for every catalogue.
-5. **Checks.** Run `node scripts/check-translation.mjs <story> <lang>` and `./node_modules/.bin/harita check <story>`.
-   Fix each problem they print and run them again. Done when both print `ok`.
+5. **Checks.** Run `./node_modules/.bin/harita i18n <lang> --story <story> --check` and
+   `./node_modules/.bin/harita check <story>`. Fix each problem they print and run them again. Done when both print
+   `ok`.
 6. **Report.** One short paragraph: the story, the language, how many pages you wrote, and each point you could not
    settle, such as a name with no established form in your language or an English sentence you read two ways.
 

@@ -9,6 +9,7 @@ The notes are split by job. Read the file of each job you were given.
 | Job | Read |
 |---|---|
 | Plan and build a story, from its brief to the finished pages | `agents/overseer.md` |
+| Build a story in a cloud session, unattended | `agents/overseer.md`, then `agents/cloud.md` |
 | Size a story: its pages and their count | `agents/outline.md` |
 | Gather, plan from or check the sources | `agents/evidence.md` |
 | Report to the overseer | `agents/report.md` |

@@ -1,0 +1,12 @@
+# One story: a timeline shown on one map.
+id: alexander-the-great
+title: "Alexander the Great"
+summary: "Alexander III of Macedon, from the kingdom Philip built through the conquest of the Persian Empire — the Granicus, Issus, Gaugamela and the Hydaspes — to his death at Babylon in 323 BC and the Hellenistic world his successors carved from the empire."
+# cover: chosen at the images step
+span: "359 – 301 BC"          # BC years cannot go in a page's when, so the card's date line is written out
+languages: [en]               # widened to the site's languages at the translation step
+default_language: en
+labels:
+  countries: false
+
+# Map extent, land, countries and families: written by the map-architect at step 5.

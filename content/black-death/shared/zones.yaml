@@ -1,35 +1,37 @@
-# Written by .front/front.mjs: the land each page adds to the plague front.
-new-chuy-valley: { zone: front-chuy-valley, family: plague-new, name: "Reached since the page before" }
-new-golden-horde: { zone: front-golden-horde, family: plague-new, name: "Reached since the page before" }
-new-caffa: { zone: front-caffa, family: plague-new, name: "Reached since the page before" }
-new-constantinople: { zone: front-constantinople, family: plague-new, name: "Reached since the page before" }
-new-ottomans: { zone: front-ottomans, family: plague-new, name: "Reached since the page before" }
-new-alexandria: { zone: front-alexandria, family: plague-new, name: "Reached since the page before" }
-new-messina: { zone: front-messina, family: plague-new, name: "Reached since the page before" }
-new-marseille: { zone: front-marseille, family: plague-new, name: "Reached since the page before" }
-new-genoa-pisa: { zone: front-genoa-pisa, family: plague-new, name: "Reached since the page before" }
-new-dalmatia-venice: { zone: front-dalmatia-venice, family: plague-new, name: "Reached since the page before" }
-new-languedoc: { zone: front-languedoc, family: plague-new, name: "Reached since the page before" }
-new-florence: { zone: front-florence, family: plague-new, name: "Reached since the page before" }
-new-tunis: { zone: front-tunis, family: plague-new, name: "Reached since the page before" }
-new-catalonia: { zone: front-catalonia, family: plague-new, name: "Reached since the page before" }
-new-siena: { zone: front-siena, family: plague-new, name: "Reached since the page before" }
-new-north-italy: { zone: front-north-italy, family: plague-new, name: "Reached since the page before" }
-new-damascus: { zone: front-damascus, family: plague-new, name: "Reached since the page before" }
-new-melcombe: { zone: front-melcombe, family: plague-new, name: "Reached since the page before" }
-new-bordeaux: { zone: front-bordeaux, family: plague-new, name: "Reached since the page before" }
-new-paris: { zone: front-paris, family: plague-new, name: "Reached since the page before" }
-new-savoy: { zone: front-savoy, family: plague-new, name: "Reached since the page before" }
-new-cairo: { zone: front-cairo, family: plague-new, name: "Reached since the page before" }
-new-london: { zone: front-london, family: plague-new, name: "Reached since the page before" }
-new-burnings: { zone: front-burnings, family: plague-new, name: "Reached since the page before" }
-new-vienna: { zone: front-vienna, family: plague-new, name: "Reached since the page before" }
-new-england-1349: { zone: front-england-1349, family: plague-new, name: "Reached since the page before" }
-new-ireland: { zone: front-ireland, family: plague-new, name: "Reached since the page before" }
-new-flagellants: { zone: front-flagellants, family: plague-new, name: "Reached since the page before" }
-new-bergen: { zone: front-bergen, family: plague-new, name: "Reached since the page before" }
-new-ibn-battuta: { zone: front-ibn-battuta, family: plague-new, name: "Reached since the page before" }
-new-flanders: { zone: front-flanders, family: plague-new, name: "Reached since the page before" }
-new-scotland: { zone: front-scotland, family: plague-new, name: "Reached since the page before" }
-new-baltic: { zone: front-baltic, family: plague-new, name: "Reached since the page before" }
-new-russia: { zone: front-russia, family: plague-new, name: "Reached since the page before" }
+# Written by .front/front.mjs: the land each page hatches, and the final front for the pages after 1353.
+new-chuy-valley: { zone: reached-1339-12, family: plague-new, name: "Reached January 1338 to December 1339" }
+new-golden-horde: { zone: reached-1346-12, family: plague-new, name: "Reached January 1339 to December 1346" }
+new-caffa: { zone: reached-1346-12, family: plague-new, name: "Reached July 1346 to December 1346" }
+new-constantinople: { zone: reached-1347-08, family: plague-new, name: "Reached May 1347 to August 1347" }
+new-ottomans: { zone: reached-1347-12, family: plague-new, name: "Reached August 1347 to December 1347" }
+new-alexandria: { zone: reached-1347-12, family: plague-new, name: "Reached September 1347 to December 1347" }
+new-messina: { zone: reached-1347-12, family: plague-new, name: "Reached October 1347 to December 1347" }
+new-marseille: { zone: reached-1348-01, family: plague-new, name: "Reached November 1347 to January 1348" }
+new-genoa-pisa: { zone: reached-1348-02, family: plague-new, name: "Reached December 1347 to February 1348" }
+new-dalmatia-venice: { zone: reached-1348-01, family: plague-new, name: "Reached December 1347 to January 1348" }
+new-languedoc: { zone: reached-1348-03, family: plague-new, name: "Reached February 1348 to March 1348" }
+new-florence: { zone: reached-1348-06, family: plague-new, name: "Reached March 1348 to June 1348" }
+new-tunis: { zone: reached-1348-06, family: plague-new, name: "Reached April 1348 to June 1348" }
+new-catalonia: { zone: reached-1348-05, family: plague-new, name: "Reached April 1348 to May 1348" }
+new-siena: { zone: reached-1348-08, family: plague-new, name: "Reached May 1348 to August 1348" }
+new-naples: { zone: reached-1348-06, family: plague-new, name: "Reached May 1348 to June 1348" }
+new-north-italy: { zone: reached-1348-08, family: plague-new, name: "Reached June 1348 to August 1348" }
+new-damascus: { zone: reached-1348-07, family: plague-new, name: "Reached June 1348 to July 1348" }
+new-melcombe: { zone: reached-1348-08, family: plague-new, name: "Reached June 1348 to August 1348" }
+new-ireland: { zone: reached-1348-09, family: plague-new, name: "Reached August 1348 to September 1348" }
+new-bordeaux: { zone: reached-1348-09, family: plague-new, name: "Reached August 1348 to September 1348" }
+new-paris: { zone: reached-1348-12, family: plague-new, name: "Reached August 1348 to December 1348" }
+new-savoy: { zone: reached-1348-11, family: plague-new, name: "Reached September 1348 to November 1348" }
+new-cairo: { zone: reached-1349-01, family: plague-new, name: "Reached October 1348 to January 1349" }
+new-london: { zone: reached-1348-12, family: plague-new, name: "Reached October 1348 to December 1348" }
+new-burnings: { zone: reached-1349-03, family: plague-new, name: "Reached January 1349 to March 1349" }
+new-vienna: { zone: reached-1349-06, family: plague-new, name: "Reached April 1349 to June 1349" }
+new-england-1349: { zone: reached-1349-09, family: plague-new, name: "Reached April 1349 to September 1349" }
+new-flagellants: { zone: reached-1349-12, family: plague-new, name: "Reached June 1349 to December 1349" }
+new-bergen: { zone: reached-1349-12, family: plague-new, name: "Reached August 1349 to December 1349" }
+new-ibn-battuta: { zone: reached-1349-11, family: plague-new, name: "Reached August 1349 to November 1349" }
+new-flanders: { zone: reached-1349-12, family: plague-new, name: "Reached August 1349 to December 1349" }
+new-scotland: { zone: reached-1350-06, family: plague-new, name: "Reached December 1349 to June 1350" }
+new-baltic: { zone: reached-1350-12, family: plague-new, name: "Reached April 1350 to December 1350" }
+new-russia: { zone: reached-1353-12, family: plague-new, name: "Reached January 1352 to December 1353" }
+black-death-1346-1353: { zone: reached-1353-12, family: plague, name: "Reached by the Black Death, 1346–1353" }

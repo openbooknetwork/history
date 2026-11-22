@@ -1,8 +1,3 @@
-chillon:
-  lnglat: [6.927, 46.414]
-  icon: biohazard
-  label: "Chillon"
-  note: "Plague on Lake Geneva by September 1348"
 killing-chillon:
   lnglat: [6.927, 46.414]
   icon: flame
@@ -14,6 +9,30 @@ bern:
   icon: biohazard
   label: "Bern"
   note: "Plague in 1349"
+bern-1348:
+  lnglat: [7.447, 46.948]
+  icon: flame
+  color: killings
+  label: "Bern"
+  note: "Jews tortured until they confess. Bern writes of it to Strasbourg, Freiburg and Basel, autumn 1348."
+basel-1348:
+  lnglat: [7.588, 47.558]
+  icon: scroll-text
+  color: killings
+  label: "Basel"
+  note: "Bern’s letter on the confessions, autumn 1348"
+strasbourg-1348:
+  lnglat: [7.75, 48.582]
+  icon: scroll-text
+  color: killings
+  label: "Strasbourg"
+  note: "Copies of the Chillon confessions arrive, autumn 1348"
+killing-mainz-1096:
+  lnglat: [8.271, 49.999]
+  icon: flame
+  color: killings
+  label: "Mainz"
+  note: "Crusaders kill the Jews of the town, 1096"
 rottingen-1298:
   lnglat: [9.97, 49.51]
   icon: flame
@@ -25,4 +44,4 @@ deggendorf-1338:
   icon: flame
   color: killings
   label: "Deggendorf"
-  note: "Jews burned on a charge of desecrating the host, 1338"
+  note: "Jews burned, autumn 1338"

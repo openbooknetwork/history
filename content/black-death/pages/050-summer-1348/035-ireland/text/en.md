@@ -1,0 +1,7 @@
+The plague crosses the Irish Sea in the summer of 1348. John Clyn, a Franciscan friar of [Kilkenny](@kilkenny), writes that it breaks out first near Dublin, at Howth and Dalkey, and at [Drogheda](@drogheda), and that it nearly destroys both towns. He counts 14,000 dead in [Dublin](@dublin) between the start of August and Christmas, and among his own order 25 friars at Drogheda and 23 at Dublin.
+
+The plague reaches Kilkenny by the winter and is at its worst there in Lent 1349. Clyn records that eight Dominican friars of the town die between Christmas and 6 March. He writes of himself as living “among the dead, waiting for death till it come”, and he leaves blank pages at the end of his annals: “I leave parchment for continuing the work, if haply any man survive.” His last entry, for 1349, mourns the death of Sir Fulk de la Freigne, a knight of Kilkenny. After it a copyist adds: “Here it seems the author died.” Whether Clyn dies of the plague is not known.
+
+@image kilkenny-franciscan-friary-2c392a
+
+The English chronicler Geoffrey le Baker writes that the plague kills the English settlers of Ireland in great numbers, while the native Irish of the mountains and uplands are barely touched until 1357, when it falls on them everywhere. By one account the settlers suffer more because they live close together, in the towns and ports that trade with England, while many of the Gaelic Irish live scattered across the hills. The Irish annals record the plague in a few lines, so the losses in Gaelic Ireland are hard to measure.

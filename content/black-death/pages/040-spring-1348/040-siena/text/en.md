@@ -1,6 +1,6 @@
-From [Florence](@florence) the plague comes south to Siena in May 1348. Agnolo di Tura, a shoemaker and tax collector who keeps a chronicle of the city, writes that great pits are dug across the town and piled deep with the dead, day and night, and that new pits are dug as soon as the old ones are full. His wife Nicoluccia and their five children die: “And I, Agnolo di Tura, called the Fat, buried my five children with my own hands.”
+Two months after [Florence](@florence), the plague reaches Siena, in May 1348. Agnolo di Tura, a shoemaker and by one account a tax collector, keeps a chronicle of the city. He describes the great pits dug in many places in Siena, and how “as soon as those ditches were filled more were dug.” His wife Nicoluccia dies too, it is said, and he writes: “And I, Agnolo di Tura, called the Fat, buried my five children with my own hands.”
 
-In 1339 Siena began to build a new cathedral, so large that the old church would have become only its transept. The plague stops the work in 1348. The walls of the unfinished nave still stand beside the cathedral.
+In 1339 Siena planned to enlarge its cathedral with a vast new nave, so large that the old church would have become only its transept. The plague stops the work in 1348. The walls of the unfinished nave still stand beside the cathedral.
 
 @image siena-unfinished-nave-e88ba2
 
@@ -8,4 +8,4 @@ In 1338–1339 [Ambrogio Lorenzetti](@lorenzetti) painted the frescoes of good a
 
 @image lorenzetti-good-government-1b6bae
 
-From Siena the plague spreads through the hill towns of Tuscany and Umbria. [Perugia](@perugia) and [Orvieto](@orvieto) have it in April and May 1348. At Orvieto the historian Élisabeth Carpentier has followed the epidemic and its aftermath through the town’s own records. [Rome](@rome), where no pope has lived for almost forty years, has the plague by August 1348.
+[Perugia](@perugia) and [Orvieto](@orvieto), hill towns of Umbria, have the plague in April and May 1348. Orvieto’s year of plague is the subject of a book by the historian Élisabeth Carpentier, Une ville devant la peste (1962), which, one account has it, follows the epidemic and its aftermath through the town’s own records. [Rome](@rome), where no pope has lived for almost forty years, appears to have the plague by August 1348.

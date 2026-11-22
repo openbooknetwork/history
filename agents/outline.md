@@ -25,6 +25,6 @@ the reader has seen the extent of their world and before the events that change 
 conquest. A story about one war or campaign, such as the Punic Wars, has no such chapter. A war against a people
 the reader knows little about, such as the Aztecs, gives their world a page or two of context.
 
-The outline is done when it lists every page with its id, title, one line of content and its battle card, and the
-user has agreed the count. Keep it in `.cache/<story>-outline.md`. Agents build exactly the pages in their part of
-it.
+The outline is the story's brief and its chapter plans in `content/<story>/.plan/`, which `agents/overseer.md`
+describes. It is done when the plans list every page with its id, title, one line of content and its battle card,
+and the user has agreed the count. Agents build exactly the pages of their chapter's plan.

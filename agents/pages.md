@@ -1,6 +1,6 @@
 # Building pages
 
-For whoever builds or changes pages: their maps, battles, zones and English texts.
+For whoever builds or changes pages: their maps, battles and zones. `agents/text.md` covers their English texts.
 
 ## Page ids
 
@@ -9,22 +9,6 @@ released page keeps its id, so links and search results to it keep working. Renu
 
 A story can sit in a group folder, such as the Ottoman series in `content/ottoman/<story>/`. Paths written here as
 `content/<story>/` then run through the group. Commands and scripts name the story by its folder name alone.
-
-## Writing
-
-The English and every translation follow `node_modules/@openbooknetwork/kitap/writing/README.md`, and a
-translation also follows that folder's file for its language, such as `tr.md`.
-
-The English tells history in the present tense: "In January 1348 the plague reaches Pisa." A quote and what a
-historian later writes keep their own tense: "Benedictow puts the dead at 60 percent."
-
-## Places in the text
-
-A page's text links each place its markers show the first time it names it, in every language:
-`[Gelibolu’ya](@gallipoli)`. The link text is the word as the text writes it, with its Turkish suffix, and the id is
-one of the page's `markers`. On a battle plan page the commanders the text names link to their units' markers.
-`./node_modules/.bin/harita check <story> --places` lists, per text file, the markers whose label the text names
-without a link.
 
 ## Battle cards
 
@@ -67,11 +51,15 @@ land and stay apart go into `content/shared/zones/apart.yaml` with `./node_modul
 1. `./node_modules/.bin/harita check <story> [page ids]` reads the pages, texts, images, markers, battles, routes and battle plans,
    and prints every problem it finds.
 2. `./node_modules/.bin/harita dev --story <story> --out .cache/<story>-site --port <port>` builds that story alone into the folder,
-   serves it on the port and rebuilds it on every save. Agents building at the same time each pass an `--out` of
-   their own.
+   serves it on the port and rebuilds it on every save. A story that an overseer builds has one such server,
+   which the overseer starts, and each agent captures from the port its dispatch names. An agent whose dispatch
+   names no port starts a server with an `--out` and a port of its own, in the background, and stops it by its
+   process id when it finishes.
 3. `node scripts/screenshot.mjs http://localhost:<port>/<story>/ <out dir> <page ids>` captures pages in
    headless Chrome. `SHOT_HOVER=<lon>,<lat>` shows a battle unit's hover label, `SHOT_SCHEME=light` the light
-   theme, `SHOT_LANG=tr` the Turkish pages. Open the capture of every page you changed.
+   theme, `SHOT_LANG=tr` the Turkish pages, and `SHOT_W=390 SHOT_H=780` a phone. Open the capture of every page
+   you changed. `SHOT_WAIT=12000` gives a map that came out blank the time to draw. Give the captures a folder of your own, and take again a capture that caught a page while another
+   agent's save was rebuilding it.
 
 A story is done when the check prints ok and `npm run build -- --strict` builds every story.
 

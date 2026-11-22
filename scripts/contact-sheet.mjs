@@ -1,6 +1,7 @@
 // Draws every image a story shows as a thumbnail in page order, labelled with its page id, so two images that look
 // alike on nearby pages stand out. Reads each page's text, marker and battle card images. Run from the repo root:
 //   node scripts/contact-sheet.mjs <story id>      writes .cache/<story id>-images-<n>.png, 40 thumbnails a sheet
+// Then prints each image the story shows in more than one place, a place being a page or a battle's card.
 import fs from 'fs';
 import path from 'path';
 import * as yaml from 'js-yaml';
@@ -22,15 +23,17 @@ collect('content/shared/images');
 const battleDir = id => [path.join(story, 'shared/battles', id), path.join('content/shared/battles', id)].find(d => fs.existsSync(path.join(d, 'battle.yaml')));
 const read = f => fs.existsSync(f) ? fs.readFileSync(f, 'utf8') : '';
 const load = f => { const t = read(f); return t.trim() ? yaml.load(t) : null; };
-const tiles = [];
+const tiles = [], places = {};
 const walk = dir => { for (const d of fs.readdirSync(dir, { withFileTypes: true }).sort((a, b) => a.name.localeCompare(b.name))) if (d.isDirectory()) {
   const full = path.join(dir, d.name), pageFile = path.join(full, 'page.yaml');
   if (!fs.existsSync(pageFile)) { walk(full); continue; }
-  const page = load(pageFile) ?? {}, ids = [...read(path.join(full, 'text/en.md')).matchAll(/^@image\s+(\S+)/gm)].map(m => m[1]);
-  for (const m of Object.values(load(path.join(full, 'markers.yaml')) ?? {})) if (m?.image) ids.push(m.image);
+  const page = load(pageFile) ?? {}, pageId = d.name.replace(/^\d+-/, ''), ids = [];
+  const show = (id, place) => { ids.push(id); (places[id] ??= new Set()).add(place); };
+  for (const m of read(path.join(full, 'text/en.md')).matchAll(/^@image\s+(\S+)/gm)) show(m[1], `page ${pageId}`);
+  for (const m of Object.values(load(path.join(full, 'markers.yaml')) ?? {})) if (m?.image) show(m.image, `page ${pageId}`);
   const battle = typeof page.battle === 'string' && battleDir(page.battle);
-  if (battle) ids.push(...(load(path.join(battle, 'battle.yaml'))?.images ?? []));
-  for (const id of new Set(ids)) tiles.push({ page: d.name.replace(/^\d+-/, ''), id });
+  if (battle) for (const id of load(path.join(battle, 'battle.yaml'))?.images ?? []) show(id, `card of ${page.battle}`);
+  for (const id of new Set(ids)) tiles.push({ page: pageId, id });
 } };
 walk(path.join(story, 'pages'));
 
@@ -49,3 +52,4 @@ for (let s = 0; s * PER < tiles.length; s++) {
   await sharp({ create: { width: COLS * W, height: rows * (H + LABEL), channels: 3, background: '#f4f2ec' } }).composite(layers).png().toFile(out);
   console.log(`${out}: ${sheet.length} images, ${sheet[0].page} to ${sheet.at(-1).page}`);
 }
+for (const [id, at] of Object.entries(places)) if (at.size > 1) console.log(`${id} shows ${at.size} times: ${[...at].join(', ')}`);

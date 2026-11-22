@@ -13,15 +13,21 @@ page> --story <story>`, which downloads the original into the folder and prints 
 holds by the same Commons page or the same bytes, and moves one from another story to `content/shared/images/`. After an
 image file changes, `./node_modules/.bin/harita rehash` writes its new sha256.
 
+Choose an image whose licence in `index.yaml` is public domain, CC0, CC BY or CC BY-SA, the licences that allow
+the book to show it with a credit.
+
 Look for two images for a battle card. When no picture of the battle exists, look for one for each side: its
 commander, its army or its arms. Look first for images made at the time, such as a portrait, a coin, a relief or a
 manuscript. A later painting serves when nothing from the time shows that side, and its caption says when it was
-painted. An image the story already holds can serve, when its page is not the card's page. A card keeps one image when
-Commons has nothing more that fits.
+painted. A card keeps one image when Commons has nothing more that fits.
+
+An image shows in one place of a story: on one page, in its text or on its markers, or on one battle's card. A card
+can take an image a page of another chapter shows, when Commons has nothing else for that side.
+`node scripts/contact-sheet.mjs <story>` prints each image that shows in more than one place.
 
 Images on nearby pages differ in kind: two portraits from one manuscript or one series go in different chapters.
-`node scripts/contact-sheet.mjs <story>` draws every image the story shows in page order to
-`.cache/<story>-images-<n>.png`. Open the sheets before an image agent finishes.
+The same command draws every image the story shows in page order to `.cache/<story>-images-<n>.png`. Open the
+sheets before an image agent finishes.
 
 Before a story is released, a maintainer runs `./node_modules/.bin/harita upload --story <story>`, which puts
 its new images and elevation tiles in the store. `npm run build -- --strict` then checks that the store holds

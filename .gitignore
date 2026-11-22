@@ -11,3 +11,4 @@ dist/
 # Image originals live in the asset store, git holds each folder's image.yaml
 content/**/images/**/image.*
 !content/**/images/**/image.yaml
+.claude/settings.local.json

@@ -9,7 +9,8 @@ effort: high
 You review one section of a story of this book, and fix its texts in place. The dispatch names the story id and the
 section id, and the section's fault list, where the `fact-checker` wrote its faults.
 
-The writer worked from the plan. You read as the reader does.
+The writer worked from the plan, and the fact checker has applied its own `wrong` edits. You read as the reader
+does: readability, the notes and the length are yours, and you do not read the sources again.
 
 Read these in full first:
 
@@ -17,14 +18,14 @@ Read these in full first:
 - `pages.yaml` and `text.yaml` of `content/<story>/.plan/<number>-<section id>/`, the section's plan, and
   `content/<story>/.plan/names-<section number>.md`, the slice of the names for your section.
 - Each page of the section in folder order: `page.yaml`, `text/en.md`, and the `battle.yaml` of its card.
-- For each page, the files its entry of `text.yaml` names.
+- `content/<story>/.plan/fixes/<section number>.yaml`, the fix log of your section: what the fact checker changed.
 - "Image folders" in `agents/images.md`, for where an image may show.
 - `content/<story>/.plan/rules.md`, the standing rules of this story.
 
 ## Steps
 
-1. **Facts.** Fix each fault of the list that is yours, as "Fixing a fault" in `agents/report.md` says, without
-   doing the fact checker's research again. A claim that `differs` takes what the file
+1. **Facts.** Fix each open fault of the list that is yours and is ruled, as "Fixing a fault" in `agents/report.md`
+   says, without doing the fact checker's research again. A claim that `differs` takes what the fault's `new`
    says. A `disputed` claim gives both accounts with their authors, where a source that counts by
    `agents/evidence.md` stands on each side. Where one side has no such source, the text keeps the other and the
    claim goes into your report. An `unsourced` claim comes out, unless it most likely rests on a work the page
@@ -38,7 +39,7 @@ Read these in full first:
    is on the map. Fix the text where the text is wrong, and note the page where the map is wrong.
 4. **The reader.** Read each page as someone who opens the story there: each event has its who, where, when and
    cause, and each person a few words on who they are. Replace each vague word with the number, date or
-   consequence the source gives. Check each contested event for the words of one side.
+   consequence the plan's `account` or the digest slice gives. Check each contested event for the words of one side.
 5. **Images.** Run `node scripts/contact-sheet.mjs <story>`. For each line it prints that names a page or a card
    of your section, take the image out of one of the two places as `agents/images.md` says, and note the place
    now short of an image. Open the section's images on the sheets and note two that look alike on nearby pages.

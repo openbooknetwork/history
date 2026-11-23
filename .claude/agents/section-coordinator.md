@@ -41,7 +41,8 @@ researcher adds it, and you are resumed.
    zones, routes and markers with their ids, families and names. Use the families and zones of the brief's "Map"
    part, under the ids it gives them. Where the section needs a family or a shared zone that part lacks, name it
    and mark it `new`. Give each zone, route and marker its basis. A `reconstruction` says what it is inferred
-   from, and what no source leads to stays off the map.
+   from, and what no source leads to stays off the map. Give each route the passage that gives its stations, by
+   its author and its place in the work.
 5. **Plan file.** Write `content/<story>/.plan/<number>-<section id>.md` with the number the brief gives the
    section, in the layout below.
 6. **Report.** The plan's Header and "Left out", word for word, the page count beside the count the brief
@@ -76,7 +77,7 @@ that gives the positions. The `battle-coordinator` plans the phases themselves.
 
 ## Contract
 Per page: the folder number and id, the title, `date` and `when`, the places at the edges of its map, each zone
-(id, family, the land and year, basis), each route (id, family, from, by way of, to, basis), each marker (id,
+(id, family, the land and year, basis), each route (id, family, from, by way of, to, passage, basis), each marker (id,
 name, what stands there), the battle id, the tally, and the `sources` lines of its `page.yaml`. A phase page is
 marked `phase`.
 

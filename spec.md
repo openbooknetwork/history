@@ -27,19 +27,23 @@ Every item below cuts one of the two.
 
 ## Order of work
 
-The items are in layers. A layer rests on the ones before it, so they are built in this order.
+The items are in layers by kind, and a layer is built mostly on the ones before it.
 
-| Layer | What it gives | Rests on |
+| Layer | What it holds | Built mostly on |
 |---|---|---|
-| 0. Measurement | a number for every later change | nothing |
-| 1. Tools | builds and captures that work in every environment | nothing |
-| 2. Conventions | one fixed form for rules, fixes, reports and ids | nothing |
+| 0. Measurement | the ledgers and the benchmark: a number for every later change | nothing |
+| 1. Tools | builds, captures and dates that work in every environment | nothing |
+| 2. Conventions | the channels, the forms, the plans, the hashes and the hierarchy of managers | layers 0 and 1 |
 | 3. Scripts | mechanical checks without an agent | layer 2, which fixes what they check |
 | 4. Agent rights and size | smaller contexts, fewer round trips | layers 2 and 3 |
-| 5. Step order | less rework | layers 1 to 4 |
-| 6. Structure | parallel maps, a scripted pipeline | all of the above |
+| 5. Step order | the steps by name and their order | layers 1 to 4 |
+| 6. Structure | new roles, a new form for a story's map, the workflow and the plugin | all of the above |
 
-Layers 0, 1 and 2 do not depend on each other and can be built at the same time.
+The layers are an order to read in more than a strict order to build in. An item names the items it rests on, and
+some rest on a later layer: the form of a dispatch (2.0) is enforced by the plugin's hook (6.7) and only counted
+before that, the hierarchy (2.17) takes its limit from 4.2, the order of pages (2.13) needs the dates of 1.12,
+and the research gates (4.7) are held by the reviewer of 6.10. Such an item is written first as a rule the notes
+ask for, and held by a script or a hook once the later item exists.
 
 Where the work lives:
 
@@ -52,13 +56,17 @@ Where the work lives:
 **0.1 Token ledger with tags.** *history.* **Built.** `scripts/token-ledger.mjs` replaces the Python script. It
 tags each agent with its role, step and section from the transcripts alone, counts a resumed agent under each
 section it worked on, and prints turns, peak context and a weighted total by any of those keys, with tokens per
-page. `--json` saves the run to `content/<story>/.plan/run.json`, which step 14 of `agents/overseer.md` now asks for.
+page. `--json` saves the run to `content/<story>/.plan/run.json`, which `agents/overseer.md` now asks for at `story`.
 That file is what agents and scripts read. `scripts/run-viewer.html` is one page for every story: it opens a
 saved run in a browser, and several runs side by side. `[E2, E4.9]`
 
-**0.2 A fixed benchmark.** *history.* Section 020 of Alexander (four pages, one card) with its digest, plan and
-rulings frozen as inputs. Done when a variant of the process can be run on it two or three times and compared on
-tokens per accepted page, leaked defects, rework rounds and wall time. `[E3]`
+**0.2 A fixed benchmark.** *history.* Section 020 of Alexander (four pages, one card). What is frozen as its
+input depends on what a variant changes, since a variant cannot be measured on an input it would itself make. A
+variant of the maps, texts, images or checks starts from the frozen digest, plan and rulings. A variant of the
+plans (2.15, 5.7) starts from the frozen digest and brief. A variant of the research (4.7, 6.10) starts from the
+frozen brief and source files, and is judged on the digest it writes and on the faults later steps find in it.
+Done when a variant of each kind can be run two or three times and compared on tokens per accepted page, leaked
+defects, rework rounds and wall time. `[E3]`
 
 **0.3 Fault counts from reports.** *history.* **Built.** `scripts/fault-ledger.mjs` reads the report blocks out
 of the same transcripts and counts faults by severity and kind, by the step that caught them, and the reports a
@@ -96,13 +104,12 @@ into their own `--out` folder and serve it without watching. Done when an audito
 another agent's rebuild. `[F6, F8]`
 
 **1.8 A strict build of one story.** *history.* The build has it already: `harita build --strict --story <id>`
-took 14 seconds for the Alexander story, against more than ten minutes for every story. `agents/pages.md` and
-step 14 of `agents/overseer.md` still name `npm run build -- --strict`, which builds them all. They change with
-the layer 2 edits. `[F17.9]`
+took 14 seconds for the Alexander story, against more than ten minutes for every story. `agents/pages.md`
+still names `npm run build -- --strict`, which builds them all. It changes with the layer 2 edits. `[F17.9]`
 
-**1.9 The strict build without the store.** *kitap.* **Built, not released.** `build --strict --no-store` runs
-every strict check and leaves the store unasked, and says so in its last line. On kitap's `pipeline-efficiency`
-branch, with a test. `agents/cloud.md` names it for a new story's step 14, with the layer 2 edits. `[F18]`
+**1.9 The strict build without the store.** *kitap.* **Built, in kitap 0.9.0.** `build --strict --no-store` runs
+every strict check and leaves the store unasked, and says so in its last line. `agents/cloud.md` names it for a
+new story's check at `story`, with the layer 2 edits. `[F18]`
 
 **1.10 `image --strip-location`.** *kitap.* The check that refuses a file with a position in its metadata is
 kitap's, in `src/image.mjs`. The option removes the EXIF and XMP blocks without encoding the picture again, and
@@ -129,14 +136,14 @@ where a script reads it, a form a script can check.
 
 | Channel | Writer | Reader | Place and form |
 |---|---|---|---|
-| Work products | the agent of each step | the later steps | `brief.md`, `research.md`, `names.md`, the plans, as today |
+| Work products | the agent of each step | the later steps | `brief.md`, the source map and `research.md` (6.10), `names.md`, the plans (2.15), `.plan/images/<section>.yaml` (6.3) |
 | Rules | the overseer alone | every agent | `agents/*.md` for every story, `.plan/rules.md` for this one |
-| Dispatch | a manager (2.17) | one agent of its team | a fixed form: story, section, step, task, the files to read |
+| Dispatch | a manager (2.17) | one agent of its team | a fixed form: story, section, step, task |
 | Report | an agent | the manager that dispatched it | the block of `agents/report.md`, saved to `.plan/reports/` |
-| Fault list | a checker | the fixer | `.plan/faults/<section>.yaml`, each fault a clause edit with a state |
+| Fault list | a checker | the fixer | `.plan/faults/<section>.yaml`, and `faults/story.yaml` for a fault of no one section, each fault a clause edit with a state |
 | Fix log | whoever changes a file to fix it | the reviewer and the user | `.plan/fixes/<section>.yaml`, one entry a change |
 | Handoff | an agent | the next agent of its role | `.plan/handoff/<role>.md`, one page |
-| Decision log | the overseer | the user and the reviewer | `.plan/decisions.md`, the history alone |
+| Decision log | a manager | the user and the reviewer | `.plan/decisions.md` by the overseer for the story, `.plan/<number>-<section id>/decisions.md` by a section lead for its section |
 
 - What the next agent needs is in a channel. Nothing that matters stays only in a scratchpad or a message.
 - Agents do not write to each other. A checker writes a fault, the fixer sets its state, and the checker reads
@@ -157,7 +164,7 @@ where a script reads it, a form a script can check.
   are handoffs, the fact-checker's files and the overseer's queued fixes are fault lists, and the rules inside
   `decisions.md` and the dispatches are `rules.md`.
 - A run's own notes, as `feedback.md`, `evaluation.md` and `lean.md` were for Alexander, are a record of the
-  run and no channel. They go beside `run.json`, in `.plan/run/`, and not at the repo's root.
+  run and no channel. They go in `.plan/run/`, and not at the repo's root. The saved run stays at `.plan/run.json`.
 
 **The dispatch form.** Every dispatch, and every message that resumes an agent, opens with this block:
 
@@ -175,7 +182,7 @@ note: Thessaly's border is row 12 of the brief's Map part.    # optional
 - It points and does not paste. It holds no rule, which is in `rules.md`, no fault, which is in the fault list,
   and no list of files to read, which the role's definition gives for a story and a section.
 - Each role's definition lists its task words: `draw` and `fix` for the cartographer, `check`, `recheck` and
-  `plan-check` for the fact-checker, `plans` and `texts` for the editor.
+  `plan-check` for the fact-checker, `pre-plans` and `texts` for the editor.
 - The tool's short description takes one form too, `maps 020 cartographer draw`, so the list of agents reads as
   the run.
 - **`note` gives context and never instructs.** It states a fact about this one dispatch that no channel holds:
@@ -184,25 +191,28 @@ note: Thessaly's border is row 12 of the brief's Map part.    # optional
   inside the dispatch, which is the thing the form replaces. A fact given in a second note belongs in `rules.md`.
 - **The form is enforced, not advised.** A dispatch with no block, an unknown field, a task word its role does
   not list, a note over its length, or text after the block is refused before the agent starts. That takes a
-  hook on the dispatch, which is the plugin of 6.7. Until the plugin exists, `scripts/token-ledger.mjs` lists
-  every dispatch that breaks the form, and the count is part of a run's result.
-- Dispatches are not saved to files. The transcript holds them, and the ledger copies them into `run.json`.
+  hook on the dispatch, which is the plugin of 6.7. Until the plugin exists, `scripts/token-ledger.mjs` is to list
+  every dispatch that breaks the form, and the count is part of a run's result. Today it reads only the story,
+  section, step and task of a dispatch's block, to tag its agent.
+- Dispatches are not saved to files. The transcript holds them, and the ledger is to copy them into `run.json`.
 
 Items 2.1, 2.6, 2.7 and 2.8 each set out one channel, 4.2 the handoff, and the workflow script of 6.5 runs on
 them. Done when `agents/overseer.md` and `agents/report.md` name the eight, each definition names the ones its
 agent reads and writes, and a story builds with no other file passed between agents. `[F11, F12.5, F13, L2, L6]`
 
-**2.1 The rules channel: `rules.md` at step 4.** *history.* `agents/overseer.md` has the overseer write
+**2.1 The rules channel: `rules.md` at `final-brief`.** *history.* `agents/overseer.md` has the overseer write
 `content/<story>/.plan/rules.md` with the final brief: every standing rule of the story, kept current. Only the
 overseer writes it. Every agent reads it, and only the overseer and the reviewer read `decisions.md`. Done when
 no dispatch has to restate a rule. `[F11, L2]`
 
-**2.2 The lasting rules move into `agents/`.** *history.* Into `agents/pages.md`: a card stands on its battle's
-site and never moves for layout; a town marker on a card's point comes off that page; a zone's legend name carries
-no date, since the page's own date tells the reader the year, and a dated name is kept only where the zone shows
-a border of another year than its page's; a marker's note tells the event of its own page; a page shows every zone its
-neighbours show for its frame; a zone is cut once for the story, so a zone cut back in stages takes one
-`zones.yaml` entry per stage. Into `agents/text.md`: disputed claims go into Notes, with the marker escaping, and
+**2.2 The lasting rules move into `agents/`.** *history.* Into `agents/pages.md`, for every story: a card stands
+on its battle's site and never moves for layout. For a story in today's form, with zones listed on each page,
+which 6.9 replaces for a new story: a zone's legend name carries no date, since the page's own date tells the
+reader the year, and a dated name is kept only where the zone shows a border of another year than its page's; a
+page shows every zone its neighbours show for its frame; a zone is cut once for the story, so a zone cut back in
+stages takes one `zones.yaml` entry per stage, until 6.2 cuts by page. Until 6.8 gives a marker a note per page:
+a marker's note tells the event of its own page. Until 6.11 merges the two icons: a town marker that overlaps a
+card comes off that page. Into `agents/text.md`: disputed claims go into Notes, with the marker escaping, and
 the body's word limit. Done when `rules.md` of a new story holds only what is particular to that story.
 `[F4, F7, F10]`
 
@@ -221,7 +231,8 @@ against the previous commit. The form is 2.0's, in `agents/report.md` and each f
 
 **2.7 Every checker writes the fault list.** *history.* The fact-checker, the map-auditor, the battle-auditor,
 the editor and the story-auditor write their faults to `.plan/faults/<section>.yaml` in the form of 2.6, each
-with its source line. The fixer applies the list without doing the research again. `[L6, F17]`
+with its source line. A fault that belongs to no one section, as the editor's and the story-auditor's often do,
+goes to `.plan/faults/story.yaml`. The fixer applies the list without doing the research again. `[L6, F17]`
 
 **2.8 The report channel: short, and saved.** *history.* An agent returns the block of `agents/report.md` and at
 most ten lines, and saves the block to `.plan/reports/`. Its faults are in the fault list, so the block names
@@ -250,15 +261,17 @@ after the pack is removed. `[F8, F18, F19, F20]`
 across sections too. Where a later section needs an earlier state of the map, such as an empire before a
 campaign into it, that page goes where its date puts it, or the later page shows the state at its own date.
 Every page sets `when`, and the build's order check then holds the rule. Goes into `agents/outline.md`, the
-section-coordinator's definition and the plans editor's, which checks the order at step 7. One page of the
-Alexander story breaks it: "The Persian Empire of Darius III", dated 336 BC, opens section 030 after the fall of
-Thebes in September 335 BC. Rests on 1.12 for stories of years BC.
+section-coordinator's definition and the editor's, which checks the order at `pre-plan-check`. Two pages of the
+Alexander story broke it and were put right before its release: "The Persian Empire of Darius III", dated 336 BC,
+opened section 030 after the fall of Thebes in September 335 BC and now ends section 010, and "Megalopolis",
+which began in summer 331 BC after a page of January 330 BC, now stands at its battle in early 330 BC. Rests on
+1.12 for stories of years BC.
 
 **2.14 A coordinator or an overseer steps in only for what was missed.** *history.* The work belongs to the
 roles: a researcher researches, a checker checks, a fixer fixes. The overseer and the coordinators dispatch,
 rule and merge. They change a file or act on their own judgement only where the pipeline missed something, and
-each time they do it is a fault they wrote with its fix in the fix log of 2.0, or a ruling in `decisions.md`
-with its reason.
+each time they do it is a fault they wrote with its fix in the fix log of 2.0, or a ruling in their decision log
+(2.0) with its reason.
 
 One such step is a repair. The same kind of step a second time is a fault of the pipeline: a rule that is not
 written, a check no script makes, or a job no role holds. So `scripts/fault-ledger.mjs` counts the changes and
@@ -274,10 +287,10 @@ cartographer and the overseer each read whole. It becomes four files per section
 
 | File | Read by | Holds |
 |---|---|---|
-| `pages.yaml` | every role | the core of each page: id, title, `date`, `when`, what it tells, `rests_on`, markers |
-| `map.yaml` | cartographer, map-auditor | each page's frame, zones and routes, each with its basis |
-| `text.yaml` | section-writer, fact-checker, section-reviewer | each page's account, its files and passages, its disputes |
-| `battles.yaml` | the battle roles | each battle's sides, figures, card fields and phases |
+| `pages.yaml` | every role | the core of each page: id, title, `date`, `when`, what it tells, `rests_on`, markers, battles |
+| `map.yaml` | cartographer, map-auditor, map keeper, the fact-checker at `plan-check` | each page's frame and routes, each with its basis, and its zones until 6.9 |
+| `text.yaml` | section-writer, fact-checker, section-reviewer, image-finder | each page's account, its files and passages, its disputes, the images it wants (6.3) |
+| `battles.yaml` | the battle roles, the fact-checker | each battle's id, its page, whether it has phases, and for a battle with a card alone its sides, figures and card fields |
 
 ```yaml
 # pages.yaml
@@ -288,13 +301,14 @@ cartographer and the overseer each read whole. It becomes four files per section
   tells: Alexander beats the Triballi, crosses the Danube by night and scatters the Getae.
   rests_on: [020.3, 020.4, 020.5, 020.15]
   markers: [danube, getic-town, peuce]
+  battles: []                  # a battle is { id: thebes-335, phases: false }
 ```
 
 ```yaml
 # map.yaml
 the-danube:
   bbox: [21.5, 40.4, 29.5, 45.3]
-  zones: [macedon, thracians, triballi, getae, illyrians, persia]
+  zones: [macedon, thracians, triballi, getae, illyrians, persia]   # until 6.9, where a page lists none
   routes:
     - id: alexander-335-danube
       family: macedon
@@ -306,22 +320,29 @@ the-danube:
 
 - **One fact stands in one file.** A page's title, date and markers are in `pages.yaml` alone. The role files
   name a page by its id and repeat nothing of its core, and the check fails a reference that names no page.
-- **One writer.** The section-coordinator writes all four for its section, and the battle-coordinator a battle's
-  detailed plan as `battles/<battle id>.yaml` beside them.
+- **One writer.** The section-coordinator writes all four for its section. For a battle with phases the
+  battle-coordinator writes `battles/<battle id>.yaml` beside them, which alone holds that battle's sides,
+  figures, card fields, order of battle and phases: `battles.yaml` then gives its id, its page and
+  `phases: true`, and nothing more.
+- **A battle is named early.** The pre-plan gives each page's battles and which of them have phases, as the
+  brief proposes them, so the research of 6.10 knows which battles get a researcher.
 - **The pre-plan of 5.7 is `pages.yaml`** with the fields that need no research: no `rests_on` yet.
 - **Rules become the format.** A battle id without its year (2.3), a `rests_on` that is no digest id (2.4), a
   route without its passage (2.5) and a page without a `when` (2.13) no longer build, where a linter reported
   them before.
 - **The reasoning keeps a place.** Why one scholar's route is taken is a `why` field on that route. The
-  "Choices" part of today's plans goes to the decision log, where a ruling belongs.
-- **Scripts read the plan.** `scripts/points.mjs` takes its places from `map.yaml`, and a cartographer's page
-  files can start from it.
+  "Choices" part of today's plans goes into the section-coordinator's report, and its section lead writes the
+  ones that are rulings to the section's decision log (2.0).
+- **Scripts read the plan.** `scripts/points.mjs` takes its places from the markers of `pages.yaml` and its
+  frames from `map.yaml`, and a cartographer's page files can start from the two.
 - **Existing stories keep their Markdown plans.** The new form is for a story begun after it.
 
 The definitions that change with it, none of them changed yet: `section-coordinator`, which writes the files;
 `section-writer`, `cartographer`, `map-auditor`, `fact-checker`, `section-reviewer`, `editor`,
 `battle-coordinator`, `battle-implementor`, `battle-auditor`, `image-finder` and `story-auditor`, which read
-them; and the table of the plan folder in `agents/overseer.md`. Done when a schema for each file is in the repo,
+them; the new roles, which are written to it from the start: the section lead, the research-coordinator, the
+researcher as 6.10 has it, the research-reviewer and the map keeper; and the table of the plan folder in
+`agents/overseer.md`. Done when a schema for each file is in the repo,
 a script checks a plan folder against them, and each of those definitions names the one or two files its agent
 reads. `[F12.4, F9]`
 
@@ -351,27 +372,42 @@ layers below the main session (6.7). The work is ordered on that, so each manage
 ```
 overseer                                   the story: the brief, the rules, the rulings, the user
  ├─ research-coordinator                   the digest
- │   ├─ researcher, per section
- │   └─ research-reviewer, per section
- ├─ names, map-architect, map keeper       work on the whole story, each one agent
+ │   ├─ researcher, per section and per battle with phases
+ │   └─ research-reviewer, per section and per battle with phases
+ ├─ names, map-architect                   work on the whole story, each one agent
+ ├─ map keeper, with a map-auditor         the shared map, checked before a section draws on it
  ├─ editor                                 the pre-plan check, and the edit
- ├─ section lead, one per section          the section, from its plans to its reviewed pages
- │   ├─ section-coordinator                its plans
+ ├─ section lead, one per section          the section, from its pre-plan to its reviewed pages
+ │   ├─ section-coordinator                its pre-plan, then its plans
  │   ├─ fact-checker                       its plan check, and its facts
  │   ├─ cartographer, map-auditor
  │   ├─ section-writer, section-reviewer
  │   ├─ image-finder
- │   └─ battle-coordinator, per battle     the battle
- │       ├─ researcher, for the battle
+ │   ├─ researcher, for a gap
+ │   └─ battle-coordinator, per battle with phases     the battle
+ │       ├─ researcher, for a gap
  │       ├─ battle-implementor
  │       └─ battle-auditor
  └─ story-auditor
 ```
 
 - **Three kinds of role.** A manager dispatches, rules and merges: the overseer, the research-coordinator, a
-  section lead and a battle-coordinator. A worker makes a thing. A checker tests what a worker made. Only a
-  manager's definition has the `Agent` tool, so a worker or a checker cannot start anyone.
-- **The section lead is new.** It takes one section from its plans to its reviewed pages in the fixed order of
+  section lead and a battle-coordinator. A worker makes a thing. A checker tests what a worker made. The
+  overseer is the main session and has the `Agent` tool as such. Of the definitions only a manager's has it, so
+  a worker or a checker cannot start anyone.
+- **A section's team works at more than one step.** A section lead is dispatched at `pre-plans`, where its
+  section-coordinator writes the pre-plan, and again from `plans` on. A lead that ended in between starts again
+  from its handoff. The research between the two is the research-coordinator's.
+- **The research of a battle comes first, and its gaps later.** At `research` the research-coordinator's team
+  holds a researcher and a reviewer for each battle the pre-plans give phases. The battle-coordinator, at
+  `plans`, reads their lines. A fact it still lacks, or a writer lacks, is a gap: the battle-coordinator or the
+  section lead dispatches a researcher for it, which is why each has one in its team.
+- **The map keeper is new.** The map-architect designs the map at `map-design`: its extent, its families and the
+  list of its states. The keeper then draws what every section rests on, at the start of `maps`: today the
+  shared zones, and in the form of 6.9 the states' outlines, the starting map and the changes of land. It reads
+  the brief's Map part, the digest and each section's `map.yaml`, and writes the story's `shared/` map files. A
+  map-auditor checks them against the digest before any section draws.
+- **The section lead is new.** It takes one section from its pre-plan to its reviewed pages in the fixed order of
   5.0, reads its team's reports, rules on what its section can settle, and reports to the overseer once: the
   block, the counts, and what it could not settle. The overseer then reads about one report a section for a
   step, where it read every agent's.
@@ -382,9 +418,10 @@ overseer                                   the story: the brief, the rules, the 
   could not settle and each file made stale. The detail stays in the channels, the fault list, the fix log and
   the reports, where the level above reads it only when it must.
 - **Who rules on what.** A maker and its checker are siblings under one manager, and neither is over the other.
-  Their manager rules on a `taste` fault and on a `wrong` fault whose fix is plain. A `weak` fault, an open
-  question and anything that changes the brief or another section go up, to the overseer and through it to the
-  user. A manager never checks its own team's work in a checker's place.
+  Their manager rules on a `taste` fault and on a `wrong` fault whose fix is plain, and writes each ruling on
+  the fault and in its decision log (2.0). A `weak` fault, an open question and anything that changes the brief
+  or another section go up, to the overseer and through it to the user. A manager never checks its own team's
+  work in a checker's place.
 - **No manager is overloaded.** A manager holds at most about ten agents at once, and no manager's context
   passes the 300,000 tokens of 4.2: a section lead that would is given a fresh one with a handoff. 2.14 holds at
   every level: a manager that changes a file or acts on its own judgement more than once for one kind of thing
@@ -429,22 +466,15 @@ What it cannot judge:
 - whether two pages tell different events. It takes pages of different dates or sections as different.
 - the careful side, land that no source says was taken. That needs the sources and stays with the map-auditor.
 
-Done when it catches every fault of `[E4.4]` except the careful-side ones, on the commits where the map audits
-found them. The checks that need no plan folder move into `harita check` later. `[F12.1, F17.7, E4.4]`
-
-**3.10 Bare land between pages.** *history.* **Built.** `scripts/zone-gaps.mjs <story>` finds land that a zone
-colours on the pages before and after a page and that is bare on it. It reads the shapes the build drew, so it
-tests what the reader sees and not the ids a page lists: land another state colours is not bare, and a zone the
-build cut away on a page is. It looks two pages each way, across section borders, over the frame a screen shows,
-and costs no tokens. It prints a list to confirm, since a land lost on one page and retaken on the next is bare by
-right. It does not find a zone missing on a story's first or last pages, one dropped for good too early, or one
-of the wrong year: those stay with the map-auditor. The frame is an estimate, the page's bbox grown to a wide
-screen and a phone, and is not yet checked against captures. `[F4, E4.4]`
+Done when, on the commits where the map audits found them, it catches these faults of `[E4.4]`: a marker under
+a card, rule A and rule B. The others are not its own: bare land (rule C) is 3.10's, a zone cut away is 3.8's
+and 3.10's, a card moved off its site needs the site its plan gives and is checked against `battles.yaml` once
+2.15 exists, and the careful side stays with the map-auditor. The checks that need no plan folder move into `harita check` later. `[F12.1, F17.7, E4.4]`
 
 **3.2 `names-check`.** *history.* `scripts/names-check.mjs <story>` lists names in the texts with no row in
 `names.md`, compares each name's first page with its "First named in" entry, and flags a name shared by two or
 more people when a text uses it without its description: the Alexander story has two Memnons and four Nicanors.
-It runs after each section's texts and again at step 14. It leaves out quotations and source lines, and keeps a
+It runs after each section's texts and again at `story`. It leaves out quotations and source lines, and keeps a
 list of capitalised words that are no names, such as months and the words that open a sentence. It cannot tell
 which Memnon a text means, only that the description is missing. Done when it reports the ten faults of `[F16]`
 on the commit before the editor's fix.
@@ -480,6 +510,15 @@ to a zone it shares only some of its pages with. `[F7]`
 **3.9 Checks at each agent's end.** *history.* Each definition lists the checks its agent runs before it
 reports: `harita check`, 3.1, 3.2 and 3.3 as they apply. Later these can run as hooks. `[E6]`
 
+**3.10 Bare land between pages.** *history.* **Built.** `scripts/zone-gaps.mjs <story>` finds land that a zone
+colours on the pages before and after a page and that is bare on it. It reads the shapes the build drew, so it
+tests what the reader sees and not the ids a page lists: land another state colours is not bare, and a zone the
+build cut away on a page is. It looks two pages each way, across section borders, over the frame a screen shows,
+and costs no tokens. It prints a list to confirm, since a land lost on one page and retaken on the next is bare by
+right. It does not find a zone missing on a story's first or last pages, one dropped for good too early, or one
+of the wrong year: those stay with the map-auditor. The frame is an estimate, the page's bbox grown to a wide
+screen and a phone, and is not yet checked against captures. `[F4, E4.4]`
+
 ## Layer 4. Agent rights and size
 
 **4.1 Lean mode is the default.** *history.* `agents/overseer.md` takes the rules of `lean.md`: every pass
@@ -492,20 +531,22 @@ slices and the handoff of its role, `.plan/handoff/<role>.md`: one page the agen
 next one must know and nothing else. An agent is resumed only for a small follow-up on its own generator. Done
 when no agent's context passes 300,000 tokens. `[F12.6, L1]`
 
-**4.3 The fact-checker applies its own edits.** *history.* **Agreed.** It gains `Edit` and applies its wrong and
-weak clause edits. It writes each fault to the fault list as before and each change to the fix log of 2.0, so
-the change can be audited though no second agent applied it. The reviewer keeps readability, Notes and length,
+**4.3 The fact-checker applies its own edits.** *history.* **Agreed.** It gains `Edit` and applies its `wrong`
+clause edits. A `weak` fault it writes with the edit it proposes and leaves open: by 2.17 that one goes up for
+a ruling, and the fact-checker applies it once it is ruled. It writes each fault to the fault list as before
+and each change to the fix log of 2.0, so the change can be audited though no second agent applied it. The reviewer keeps readability, Notes and length,
 does not reread the sources, and reads the fix log of its section. Measured on the benchmark against 2.7 alone.
 `[F17.1]`
 
 **4.4 Small fixes without a round trip.** *history.* **Agreed.** An auditor fixes a mechanical fault itself, and
-the overseer makes one-line fixes itself. Each such fix is an entry in the fix log of 2.0, with its reason,
-whether or not a fault was raised for it. `agents/report.md` lists what counts as small: a marker note, a card
-date, a caption word, an icon, a date line. Anything else goes to the fault list and its owner. By 2.14 a kind
-of small fix that recurs is a fault of the pipeline, to be closed at its cause. `[F12.9, L5]`
+a manager makes one-line fixes itself. It writes the fault to the fault list first and the fix to the fix log,
+as every fix does (2.0): what it saves is the round trip to the file's owner, not the record. The map-auditor
+and the battle-auditor gain `Edit` for this, since they read only today. `agents/report.md` lists what counts
+as small: a marker note, a card date, a caption word, an icon, a date line. Anything else goes to its owner. By
+2.14 a kind of small fix that recurs is a fault of the pipeline, to be closed at its cause. `[F12.9, L5]`
 
 **4.5 A card without phases has no battle audit.** *history.* **Agreed.** The section's fact-checker checks its
-figures, commanders, dates and site, and fixes what it finds under 4.3. `[F17, L8]`
+figures, commanders, dates and site, and fixes what is `wrong` under 4.3. `[F17, L8]`
 
 **4.6 A model per agent.** *history.* **Not yet.** Every definition is `model: opus`. Moving the mechanical
 agents to a smaller model waits until the workflow itself is settled and measured: a change of model on top of
@@ -531,14 +572,14 @@ order changes that list and no file that names a step. `agents/overseer.md` is w
 | `brief` | the draft brief | overseer, with the user |
 | `survey` | research round 1: the sources and what covers each section | research-coordinator |
 | `final-brief` | the brief settled, and `rules.md` written | overseer |
-| `pre-plans` | each section's page list | section-coordinators |
+| `pre-plans` | each section's page list | section leads, with their section-coordinators |
 | `pre-plan-check` | overlaps, order and gaps across the sections | editor |
 | `research` | round 2: the claims, per section and per battle, each reviewed | researchers, research-reviewers |
 | `names` | the form of each name | names |
-| `map-design` | the map's extent, families and shared zones | map-architect |
-| `plans` | the full section plans, the battle plans and the cards | section- and battle-coordinators |
+| `map-design` | the map's extent, its families and the list of its states | map-architect |
+| `plans` | the full section plans, the battle plans and the cards | section leads, with their section- and battle-coordinators |
 | `plan-check` | each plan's routes and borders against the sources | fact-checker |
-| `maps` | each section's maps, audited | cartographer, map-auditor |
+| `maps` | the shared map first, audited, then each section's maps, audited | map keeper, cartographers, map-auditors |
 | `texts` | each section's texts, once its page files exist | section-writers |
 | `phases` | the phase pages of each battle, audited | battle-implementor, battle-auditor |
 | `images` | each section's images | image-finders |
@@ -553,16 +594,19 @@ round 2, since it needs the borders that round finds; the battle plans and cards
 the texts come after their section's maps (5.4). `scripts/transcripts.mjs` holds the list as `ORDER`, with the
 step each role works at and the step meant to catch each kind of fault.
 
-**5.1 The battle-coordinator writes the card.** *history.* Cards are written at `plans`, with the battle plans,
-before the cartographer reaches the section. The battle-implementor builds only phase pages. Done when no build
+**5.1 Cards are written with the plans.** *history.* Every card is written at `plans`, before the cartographer
+reaches its section. The battle-coordinator writes the card of a battle with phases, from the plan it has just
+made. The section-coordinator writes the card of a battle with a card alone, from the fields its `battles.yaml`
+holds (2.15). The battle-implementor builds only phase pages. Done when no build
 fails on an unknown battle. `[F1, F11]`
 
 **5.2 A plan check before drawing.** *history.* At `plan-check` a fact-checker checks each plan's routes and zone
 edges against the passages of 2.5, section by section as each plan is ready, so a wrong plan is caught before
 the next one rests on it. Done when the benchmark's two plan-route leaks are caught there. `[F11, E4.1]`
 
-**5.3 Planned gap batches.** *history.* Until the research team of 6.10 exists: one researcher batch and one
-names batch after step 6, and again after step 9, in place of single resumes. Round 2 of 6.10 then takes their
+**5.3 Planned gap batches.** *history.* For a run in today's order, until the research team of 6.10 exists: one
+researcher batch and one names batch once the section plans are written, and again once the battle plans are,
+in place of single resumes. Round 2 of 6.10 then takes their
 place. `[F9, F11, F15]`
 
 **5.4 Texts after page files.** *history.* **Agreed.** A section's writer starts once the cartographer has
@@ -579,9 +623,10 @@ or split, a battle that loses its phase pages, goes back to `plans`: the plan is
 (2.16), and each thing built from the old version is listed to build again. The line of today's notes that sends
 every point where a plan should change back to step 7 goes. `[F17.5]`
 
-**5.6 The run's order.** *history.* `agents/overseer.md` writes down the order the run found: battle plans
-beside the maps, battles one section behind the maps, images as soon as a section has texts and cards, the map
-audit of a section beside the drawing of the next. `[F14, L9]`
+**5.6 What runs side by side.** *history.* `agents/overseer.md` writes down, beside the order of 5.0, what the
+run found can overlap: a battle's phase pages one section behind the maps, a section's images as soon as it has
+its texts and cards, and the map audit of one section beside the drawing of the next. The battle plans and
+cards no longer run beside the maps, since 5.1 puts them before. `[F14, L9]`
 
 **5.7 Pre-plans, checked before the research.** *history.* A full plan cites the lines of the digest, and the
 research of round 2 needs the pages first: each waited on the other. A pre-plan breaks the loop. It is a
@@ -610,8 +655,10 @@ neither. `[F7]`
 placements out of the text, which is ruled out.** The image-finder and the reviewer both edited `text/en.md`, so
 a section's review waited for its image search. A text keeps its image lines, and the writer writes them:
 
-- **The writer places a placeholder** where an image belongs, `@image hydaspes-coin`. The name says what the
-  image shows and is unique in the story, and the section's `text.yaml` (2.15) gives a line on what is wanted.
+- **The plan names the images a page wants.** The section-coordinator gives each one a name and a line on what
+  it should show, in the section's `text.yaml` (2.15). The name, such as `hydaspes-coin`, is unique in the story.
+- **The writer places a placeholder** where the image belongs in the text, `@image hydaspes-coin`, by the names
+  its plan gives. It can leave one out where the text has no place for it, and reports that. It invents none.
 - **The image-finder does not touch a text.** It finds an image for each placeholder, adds its folder, and
   writes which placeholder took which image, or `none`, to `.plan/images/<section>.yaml`. It runs beside the
   fact-check and the review, since it shares no file with them. An image it finds that no placeholder asked for
@@ -620,12 +667,12 @@ a section's review waited for its image search. A text keeps its image lines, an
   `hydaspes-coin-3f9a1c`, and a placeholder with no image is taken out with its line. This is a replacement
   with no judgement in it, so a script does it and not an agent: `scripts/images-place.mjs <story>`, run once
   every section is reviewed. It changes no sentence, so no text is checked again for it.
-- **Markers and battle cards** take a placeholder in their `image` field the same way.
+- **Markers and battle cards** take a placeholder in their `image` field the same way, by the names the plan
+  gives: the cartographer writes a marker's, and whoever writes the card (5.1) writes the card's.
 - **The build knows a placeholder.** `harita check` and `harita dev` report an image id that has no folder as
   waiting and build the page without it. A strict build fails on one, so none reaches the site.
 
-Done when no agent but the writer and the reviewer edits a text, and a section's image search and its review
-run at once. `[F17.2]`
+Done when no image-finder edits a text, and a section's image search and its review run at once. `[F17.2]`
 
 **6.4 Notes as a feature of the book.** *kitap.* **Agreed.** A disputed claim leaves the body of a text and goes
 into a note at its end. kitap does not know a note today: each text ends with a `### Notes` heading typed by
@@ -655,11 +702,11 @@ The phalanx crossed the Haemus at a pass the sources do not agree on.[^pass]
 Done when no text of a story types a note's mark or its heading, and a text whose mark has no note does not
 build. `[F10]`
 
-**6.5 The fixed order as a workflow, inside the plugin.** *history.* **Agreed.** The overseer is an agent that
-starts every other agent, reads every report and carries all of it for the whole run. The parts of a run whose
-order never changes become a workflow script that the plugin of 6.7 ships: for one section, draw, check, fix,
-write, find images, fact-check and review. The overseer keeps what needs a ruling, which is 2.14 made into the
-way the run works.
+**6.5 The fixed order as a workflow, inside the plugin.** *history.* **Agreed.** In the Alexander run the overseer
+started every other agent, read every report and carried all of it for the whole run. By 2.17 a section lead
+now runs its section. The parts of that whose order never changes become a workflow script that the plugin of
+6.7 ships: for one section, draw, check, fix, write, find images, fact-check and review. The section lead keeps
+what needs a ruling, and the overseer what the lead passes up, which is 2.14 made into the way the run works.
 
 What the Claude Code docs say, read on 23 Nov 2026:
 - A plugin ships workflows in a `workflows/` folder at its root, run as `/<plugin>:<name>`.
@@ -728,7 +775,7 @@ place, and a note belongs to the page that shows it. In the Alexander story 43 p
 120 in all: their notes differ in all 43, their colour in 20, their icon in 15, their image in 7 and their label
 in 3. The change is in the page schema, in the engine where it builds a page's markers, and in the translation
 keys: a page's own note takes a key of its page, such as `pages.<page>.markers.<id>.note`, and a common entry's
-note becomes optional. Done when the Alexander story builds with about 164 marker entries in place of 238 and no
+note becomes optional. Done when the Alexander story builds with about 160 marker entries in place of 238 and no
 id with a letter suffix. Until it lands, a page that needs another note takes a marker id of its own, and 3.1
 checks it. `[F4, F17.3]`
 
@@ -772,11 +819,11 @@ holds:
 - **A state has one id, with no year in it.** Its legend name can take dates, where the name itself changes.
 - **A change is one fact:** a date, the state that gives the land up, the state that takes it, the land, the
   lines of the digest it rests on, and its basis. A fact-checker checks it as it checks a sentence.
-- **A page lists no zones.** It has a `when` (1.12), and the build shows what each state holds at the end of the
-  page's span. A page can still `hide` a state, or show a claim its text tells.
+- **A page lists no zones.** It has a `when` (1.12), which is one date or a span with a `from` and a `to`, and
+  the build shows what each state holds on that date, or at the `to` of a span. A page can still `hide` a state, or show a claim its text tells.
 - **Dates** take one normalized form, a year, a year and month, or a full date, with a year BC written as
   historians count it: March 335 BC is `-0335-03`. A year alone is 1 January and a month its first day. The
-  writer turns a season into its first month: spring March, summer June, autumn September, winter December of
+  section-coordinator, who writes a page's `when`, turns a season into its first month: spring March, summer June, autumn September, winter December of
   the earlier year. The date is never shown: the page's shown `date` stays free text.
 - **The awkward cases.** A new state takes its first land by a change out of another's, as the successors do
   out of Macedon in 323 BC. A state that ends gives up `land: all`. `from: none` takes land nobody held, and
@@ -829,7 +876,7 @@ them with today's. It shows whether the overlay gives clean cells, or scraps whe
 meet, which is the one way this goes wrong. Done when a new story is built in this form with no zone listed on
 any page. Rests on 1.12 and 2.13. `[F4, F7]`
 
-**6.10 A research team.** *history.* One researcher did all of a story's research at step 2, before any page
+**6.10 A research team.** *history.* One researcher did all of a story's research in one early step, before any page
 was decided, was resumed about fifteen times and passed 650,000 tokens. A `research-coordinator` and fresh
 researchers under it take its place, in two rounds.
 
@@ -838,9 +885,10 @@ researchers under it take its place, in two rounds.
   The agents after it still open the source for its full account, as the researcher's definition says today. The
   rule is that nobody searches twice: a line precise enough that the next agent reads four chapters and not the
   book.
-- **Round 1, the survey, at step 2.** The coordinator finds the sources, fetches them and writes what covers
+- **Round 1, the survey, at `survey`.** The coordinator finds the sources, fetches them and writes what covers
   each section: the source map the brief and the plans are made from. It reads for coverage and writes no claim.
-- **Round 2, the claims, after the section plans of step 6.** The pages now exist. The coordinator dispatches one
+- **Round 2, the claims, at `research`, after `pre-plan-check`.** The pages are now listed, in each section's
+  pre-plan (5.7), and the full plans are written after it from its lines. The coordinator dispatches one
   researcher per section, which writes the digest lines its section's pages need.
 - **A battle with phase pages has a researcher of its own.** It finds which sources tell the battle, which of
   them give the positions and the movements and where, the figures, and where the authors differ, by one list
@@ -850,7 +898,7 @@ researchers under it take its place, in two rounds.
   writes no claim on that battle. A battle with a card alone stays with the section's researcher.
 - **A gap is researched, not searched for.** A writer that lacks a fact does not search for it: it reports the
   question to its section lead, which dispatches a researcher for it (2.17). A battle-coordinator, itself a
-  manager, dispatches the researcher of its battle. The lines go to the research-coordinator's merge like any
+  manager, dispatches a researcher for a gap in its battle the same way. The lines go to the research-coordinator's merge like any
   others, so the digest keeps one owner. How a gap's lines are merged once round 2 has ended is settled when it
   is built.
 - **A plan can mark any other page heavy,** for its many sources or its disputed figures, and that page gets a
@@ -882,7 +930,7 @@ Gate's name and the dead at Issus wrong.
 
 Round 2 takes the place of the gap batches of 5.3: the research no longer comes before its questions. The names
 agent runs after round 2, since most minor names first appear in its lines. Each researcher starts from
-`rules.md`, the source map and its section's plan, by the dispatch form of 2.0, and leaves no handoff: the digest
+`rules.md`, the source map and its section's pre-plan, by the dispatch form of 2.0, and leaves no handoff: the digest
 is its work product. Done when no research agent passes 300,000 tokens and the leaks that begin in research,
 5 of the 16 of `[E4.1]`, fall on the benchmark. `[F9, F15, F17.6, E4.2, E4.3]`
 

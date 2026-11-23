@@ -28,6 +28,7 @@ export const stepIndex = step => { const i = ORDER.indexOf(step); return i < 0 ?
 // the step a role works at, where its dispatch names none
 export const STEPS = {
   'research-coordinator': 'survey', researcher: 'research', 'research-reviewer': 'research', names: 'names',
+  'section-lead': 'plans', 'map-keeper': 'maps',
   'map-architect': 'map-design', 'section-coordinator': 'plans', 'battle-coordinator': 'plans', editor: 'pre-plan-check',
   cartographer: 'maps', 'map-auditor': 'maps', 'section-writer': 'texts', 'battle-implementor': 'phases',
   'battle-auditor': 'phases', 'image-finder': 'images', 'fact-checker': 'facts', 'section-reviewer': 'facts',

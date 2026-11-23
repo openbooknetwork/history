@@ -26,6 +26,16 @@ one generator per battle in `content/<story>/.plans/`. Read
 `content/punic-wars/.plans/README.md` before drawing a battle or changing one, and rerun the battle's generator
 after every edit to it.
 
+## Generators
+
+The scripts that draw a story's zones, routes and battle phases are committed in `content/<story>/.plans/`, so
+the maps can be rebuilt from the repo. A script kept only in a scratchpad is lost with it. Nobody edits those
+shapes by hand: change the script and run it again. The script records why a border runs where it does.
+
+A script that writes page files is not required. Where a cartographer keeps one, its first line says so, and a
+page is then changed in the script and written again, never by hand: a rerun undoes every hand edit, such as a
+`sources` list a reviewer filled or a marker an auditor had removed.
+
 ## Zone families
 
 A family is one state, and its colour and pattern show who holds the land. A page shows each family in one zone,

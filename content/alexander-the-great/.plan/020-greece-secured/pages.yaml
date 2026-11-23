@@ -1,0 +1,32 @@
+- id: league-renewed
+  title: "Rivals removed, the League renewed"
+  date: "336–335 BC"
+  when: -0336-09
+  tells: Alexander has his rivals killed, marches by Mount Ossa, Thessaly and Thermopylae to Corinth, and the Greeks give him Philip's command against Persia, while Sparta refuses.
+  rests_on: ["020.1", "020.2", "020.20", "020.21", "010.19", "010.22"]
+  markers: [aegae-336b, thermopylae-336, corinth-336, sparta-336]
+  battles: []
+- id: the-danube
+  title: "To the Danube"
+  date: "Spring 335 BC"
+  when: -0335-03
+  tells: Alexander forces a pass of Mount Haemus, beats the Triballi at the Lyginus, crosses the Danube by night and scatters the Getae.
+  rests_on: ["020.3", "020.19", "020.15", "020.16", "020.17", "020.4", "020.5"]
+  markers: [amphipolis-335, haemus-335, lyginus-335, danube-335, getic-town-335, byzantium-335]
+  battles: []
+- id: pelium
+  title: "Pelium"
+  date: "Summer 335 BC"
+  when: -0335-06
+  tells: Cleitus and Glaucias revolt. Hemmed in at Pelium, Alexander drills the phalanx in sight of the enemy, breaks out over the river and routs the Illyrians by night.
+  rests_on: ["020.6", "020.7", "020.18"]
+  markers: [agrianians-335, pelium-335]
+  battles: []
+- id: fall-of-thebes
+  title: "The fall of Thebes"
+  date: "September 335 BC"
+  when: -0335-09
+  tells: Thebes revolts on a report that Alexander is dead. He comes from Illyria in thirteen days, the city is stormed, and the allies vote to raze it.
+  rests_on: ["020.8", "020.9", "020.10", "020.11", "020.12", "020.13", "020.14"]
+  markers: [pelium-335b, pelinna-335, thermopylae-335, thebes-335, orchomenus-335, plataea-335]
+  battles: [{ id: thebes-335, phases: false }]

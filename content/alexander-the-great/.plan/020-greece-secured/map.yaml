@@ -1,0 +1,80 @@
+league-renewed:
+  bbox: [19.5, 36.3, 28.5, 42.6]
+  zones: [macedon-340, thessaly-352, league-337, sparta-337, epirus-350, illyrians-359, thracians-340, persia-336]
+  routes:
+    - id: alexander-336-greece
+      family: macedon
+      stations: [Aegae, mouth of the Peneus, Mount Ossa, Thessaly, Thermopylae, Boeotia past Thebes, Corinth]
+      passage: "Diodorus 17.4.1 to 17.4.9, and Bosworth, Conquest and Empire, ch. 2.I"
+      basis: reconstruction
+      why: Bosworth has him go round Tempe by the coast and cut steps up Mount Ossa, and Diodorus gives Thessaly, Pylae, Boeotia and Corinth in turn. The route ends at Corinth, and the return is told, not drawn.
+  markers:
+    aegae-336b: { name: Aegae, what: "where Alexander is acclaimed king, at Vergina, about 40.48 N 22.32 E. Its own id beside aegae-336 of section 010", basis: sourced }
+    thermopylae-336: { name: Thermopylae, what: "the Amphictyons vote Alexander the leadership of the Greeks, about 38.80 N 22.54 E", basis: sourced }
+    corinth-336: { name: Corinth, what: "the League's delegates give Alexander Philip's command, about 37.91 N 22.88 E", basis: sourced }
+    sparta-336: { name: Sparta, what: "refuses to follow, about 37.08 N 22.43 E", basis: sourced }
+the-danube:
+  bbox: [21.5, 40.4, 29.5, 45.3]
+  zones: [macedon-335, thracians-340, triballi-335, getae-335, illyrians-359, persia-336]
+  routes:
+    - id: alexander-335-danube
+      family: macedon
+      stations: [Amphipolis, Nessus plain near Xanthi, Rhodope, plain near Philippopolis, Trojan pass, Lyginus near Pleven, Danube near the mouth of the Oescus]
+      passage: "Arrian 1.1.5 to 1.2.1, with Bosworth's Commentary on 1.1.5 to 1.2.1"
+      basis: reconstruction
+      why: Bosworth takes the Trojan pass and puts the Lyginus near Pleven. Hammond takes the Shipka pass and the Rositsa. The route follows Bosworth, and a note gives both.
+    - id: fleet-335-danube
+      family: macedon
+      stations: [Byzantium, Black Sea coast, mouth of the Danube]
+      passage: "Arrian 1.3.3"
+      basis: reconstruction
+      why: The warships from Byzantium meet the army at the Danube. The leg up the river is told, not drawn, because a route keeps to one surface.
+  markers:
+    amphipolis-335: { name: Amphipolis, what: "where the march starts, about 40.82 N 23.85 E", basis: sourced }
+    haemus-335: { name: "Mount Haemus (pass uncertain)", what: "the free Thracians' waggons and stand, about 42.78 N 24.62 E", basis: reconstruction, why: "placed at the Trojan pass after Bosworth. The pass is disputed." }
+    lyginus-335: { name: "Lyginus (site uncertain)", what: "the Triballian battle, about 43.42 N 24.62 E", basis: reconstruction, why: "placed near Pleven after Bosworth's Commentary on 1.2.5." }
+    danube-335: { name: "Danube crossing (site uncertain)", what: "the camp, the failed landing on Peuce and the night crossing, about 43.70 N 24.48 E", basis: reconstruction, why: "on the south bank near the mouth of the Oescus." }
+    getic-town-335: { name: "Getic town (site unknown)", what: "razed, about 43.78 N 24.45 E", basis: reconstruction, why: "across from the crossing and about a parasang from the river, as Arrian 1.4 has it." }
+    byzantium-335: { name: Byzantium, what: "where the fleet sails from, about 41.01 N 28.98 E", basis: sourced }
+pelium:
+  bbox: [19.3, 39.8, 24.0, 42.8]
+  zones: [macedon-335, illyrians-335, epirus-350, thessaly-352]
+  routes:
+    - id: alexander-335-pelium
+      family: macedon
+      stations: [land of the Agrianians on the upper Strymon, Stobi, Prilep, the Erigon, plain of Florina, Lake Little Prespa, Pelium]
+      passage: "Arrian 1.5.1 to 1.5.5, with Bosworth's Commentary on 1.5.5"
+      basis: reconstruction
+      why: Arrian gives the Agrianians, the Paeonians and the Erigon. Bosworth and Hammond fill in Stobi and Prilep.
+    - id: glaucias-335
+      family: illyrians
+      stations: [hinterland of Epidamnus, Pelium]
+      passage: "Arrian 1.5.6 to 1.5.8"
+      basis: reconstruction
+      why: Glaucias arrives the day after the siege begins. Bosworth gives the Taulantians' home.
+    - id: cleitus-335
+      family: illyrians
+      stations: [Pelium, land of the Taulantians]
+      passage: "Arrian 1.6.11"
+      basis: reconstruction
+      why: Cleitus burns Pelium and withdraws to Glaucias.
+  markers:
+    agrianians-335: { name: Agrianians, what: "the allied people of the upper Strymon, where the news of the revolt comes, about 42.35 N 22.90 E", basis: reconstruction, why: "a region label." }
+    pelium-335: { name: "Pelium (site uncertain)", what: "the fortress Cleitus holds, the breakout and the night attack, about 40.66 N 20.95 E", basis: reconstruction, why: "at Hammond's site of Goricë, as names.md has it. Bosworth seeks it near Florina." }
+fall-of-thebes:
+  bbox: [20.6, 37.8, 23.9, 41.0]
+  zones: [macedon-335, thessaly-352, league-335, thebes-335, epirus-350, illyrians-335]
+  routes:
+    - id: alexander-335-thebes
+      family: macedon
+      stations: [Pelium, Eordaea, Elimiotis, Peneus valley and Tricca, Pelinna, Heracleia, Doris, Cephisus valley, Onchestus, Thebes]
+      passage: "Arrian 1.7.5 to 1.7.7, and Bosworth, Conquest and Empire, ch. 2.II"
+      basis: reconstruction
+      why: Arrian gives Eordaea, Elimiotis, Pelinna and Onchestus. Bosworth takes the inland route by Heracleia and Doris, and Plutarch 11.6 the pass of Thermopylae. The two run within about 20 km.
+  markers:
+    pelium-335b: { name: "Pelium (site uncertain)", what: "where the march south starts. The same place as pelium-335", basis: reconstruction, why: "as pelium-335." }
+    pelinna-335: { name: Pelinna, what: "reached on the seventh day, about 39.57 N 21.93 E", basis: sourced }
+    thermopylae-335: { name: Thermopylae, what: "Thebes does not know that Alexander is south of it, about 38.80 N 22.54 E", basis: sourced }
+    thebes-335: { name: Thebes, what: "the Cadmeia besieged, the city stormed and razed, about 38.32 N 23.32 E", basis: sourced }
+    orchomenus-335: { name: Orchomenus, what: "to be rebuilt by the allies' vote, about 38.49 N 22.98 E", basis: sourced }
+    plataea-335: { name: Plataea, what: "to be rebuilt by the allies' vote, about 38.22 N 23.27 E", basis: sourced }

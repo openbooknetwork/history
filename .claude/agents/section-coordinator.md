@@ -86,7 +86,7 @@ the-danube:
       basis: reconstruction
       why: Bosworth takes the Trojan pass and Hammond the Shipka. The route follows Bosworth.
   markers:
-    peuce: { name: Peuce, what: the island the Triballi fled to, basis: reconstruction, why: Arrian names no site. }
+    peuce: { name: Peuce, what: "the island the Triballi fled to", basis: reconstruction, why: "Arrian names no site." }
   tally: 0                     # only for a story with a tally
 ```
 
@@ -106,7 +106,7 @@ pages:
       - { file: .references/bosworth-conquest-and-empire.md, read: "The northern campaign" }
     passages: ["Arrian 1.1.5 to 1.4.5"]
     disputes:
-      - { claim: "020.5", how: the body follows Arrian, and a note gives Diodorus's count }
+      - { claim: "020.5", how: "the body follows Arrian, and a note gives Diodorus's count" }
     sources: [the lines of the page's `sources` in its page.yaml]
     images: [what an image of the page should show]
 ```

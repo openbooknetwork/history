@@ -598,8 +598,23 @@ The phalanx crossed the Haemus at a pass the sources do not agree on.[^pass]
 Done when no text of a story types a note's mark or its heading, and a text whose mark has no note does not
 build. `[F10]`
 
-**6.5 A workflow script for a section.** *history.* Draw, lint, audit, fix, battles, images, fact-check and
-review as one script, so the overseer rules and does not relay. `[F12.11]`
+**6.5 The fixed order as a workflow, inside the plugin.** *history.* **Agreed.** The overseer is an agent that
+starts every other agent, reads every report and carries all of it for the whole run. The parts of a run whose
+order never changes become a workflow script that the plugin of 6.7 ships: for one section, draw, check, fix,
+write, find images, fact-check and review. The overseer keeps what needs a ruling, which is 2.14 made into the
+way the run works.
+
+What the Claude Code docs say, read on 23 Nov 2026:
+- A plugin ships workflows in a `workflows/` folder at its root, run as `/<plugin>:<name>`.
+- A workflow script has `agent()`, `parallel()`, `pipeline()` and `phase()`, and a `schema` on `agent()` for an
+  answer of a fixed shape. It runs 16 agents at once by default and 1,000 in a run.
+- A workflow script cannot read files or import a module. So it does not read a plan: it is handed the
+  sections as its arguments, and its agents and the plugin's hooks read the channels of 2.0.
+- Not said in the docs, and to be tried before anything is built on it: whether `agent()` can name one of the
+  plugin's own agent types, and whether a skill can start a workflow.
+
+Done when one section builds from its plans to its reviewed pages with no dispatch written by hand, and the
+overseer's tokens for that section fall on the benchmark. Rests on all of layer 2. `[F12.11]`
 
 **6.6 Images uploaded by a workflow.** *history.* **Not yet.** The upload stays a step the maintainer does on
 their own machine, `node scripts/images-pack.mjs unpack` and `harita upload --story <id>`, until the pipeline
@@ -607,19 +622,37 @@ itself is settled. `agents/cloud.md` keeps the pack on the branch and says the m
 GitHub workflow could hold the store token and, on a pull request, unpack, upload and remove the pack. `[F20]`
 
 **6.7 The plugin, the end goal.** *history.* The agents of `.claude/agents/`, the notes of `agents/`, the
-channels of 2.0 and the scripts of layers 0 and 3 packaged as a Claude Code plugin, so every repo built on harita
-and kitap runs the same pipeline. Its hooks enforce what the notes ask for:
+channels of 2.0, the scripts of layers 0 and 3 and the workflow of 6.5 packaged as a Claude Code plugin, so every
+repo built on harita and kitap runs the same pipeline. Its hooks enforce what the notes ask for.
 
+What the Claude Code docs say, read on 23 Nov 2026:
+- **What a plugin holds:** `agents/`, `skills/`, `workflows/`, `hooks/hooks.json`, `bin/` for commands on the
+  path, and scripts of its own that a hook names by `${CLAUDE_PLUGIN_ROOT}`. The scripts of this repo move in
+  as they are.
+- **A hook can refuse a dispatch.** A `PreToolUse` hook on the `Agent` tool reads the dispatch's agent type,
+  description and prompt, and denies it with a reason the overseer sees. This is the check of the form of 2.0.
+- **A hook runs when an agent ends.** `SubagentStop` is handed the agent's id and type, its transcript and its
+  last message, and can keep the agent working with a reason. This is where a report block, a fix log, the
+  hashes of 2.16 and the ledger are checked and saved.
+- **A hook runs after an edit.** `PostToolUse` on a file edit runs a check and hands its errors back.
+- **A plugin's hooks run inside its agents too.** An agent's own `hooks` field is not read in a plugin, so
+  every rule is in the plugin's one hooks file.
+- **An agent can start agents of its own,** three layers deep, unless `Agent` is left out of its tools. Every
+  definition of the plugin leaves it out: by 2.0 a dispatch comes from the overseer or the workflow alone.
+- **A definition sets its agent's tools and model,** which is what 4.6 needs later.
+- **It is tried from a folder** with `--plugin-dir`, checked with `claude plugin validate`, and installed from
+  a marketplace, which can be a private repo.
+
+The hooks, in the order they are built:
 - **On a dispatch:** the form of 2.0 is checked, and a dispatch that breaks it does not start.
 - **After an edit:** `harita check` and the linter of 3.1 run on a page, zone, marker or text file,
-  `quotes-check` on the digest and `names-check` on a text.
-- **When an agent ends:** its report block is checked and saved, its fault list is checked against the form of
-  2.6, and its tokens go into the run's ledger.
+  `quotes-check` on the digest, `names-check` on a text, and a plan file is checked against its schema (2.15).
+- **When an agent ends:** its report block is checked and saved, each fix is matched to its fault (2.0), its
+  inputs' hashes are compared (2.16), and its tokens go into the run's ledger.
 - **On a commit:** a commit that names no paths is refused while agents run in parallel.
 
-A first version carries the agents and notes as they are with the dispatch and edit hooks, and each later hook
-is measured on the benchmark of 0.2. The plugin format is to be checked against the current Claude Code docs
-before it is built. `[E6]`
+A first version carries the agents and notes as they are with the dispatch hook and the edit hook, and each
+later hook is measured on the benchmark of 0.2. `[E6]`
 
 **6.8 Markers with page overrides.** *harita.* A story's `shared/markers.yaml` holds each place once: its
 `lnglat`, its label and a default icon and colour. A page's `markers` list takes an id, or an id with the fields
@@ -759,7 +792,7 @@ researchers under it take its place, in two rounds.
   writes no claim on that battle. A battle with a card alone stays with the section's researcher.
 - **A gap goes back through a channel.** A battle-coordinator or a writer that lacks a fact does not search for
   it. It reports the question, and the research-coordinator dispatches a researcher for it. No agent starts
-  another: every dispatch comes from the overseer or the research-coordinator.
+  another, though the tool would let it (6.7): every dispatch comes from the overseer or the research-coordinator.
 - **A plan can mark any other page heavy,** for its many sources or its disputed figures, and that page gets a
   researcher of its own. It is the exception.
 - **A `research-reviewer` checks each section's lines before they are merged.** Research was the one step that

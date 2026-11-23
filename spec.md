@@ -646,6 +646,28 @@ holds:
   is the careful side with nothing to remember. A change that is undone between two pages never shows.
 - **A piece is drawn generously.** A change moves only what the giver holds inside the piece, so the
   cartographer draws the new frontier with care and overshoots the coast and the outer border.
+- **Contested land.** A conquest that took years, or one the sources give no order for, is a change with a span
+  in place of a date:
+
+  ```yaml
+  - when: { from: -0329, to: -0327 }
+    from: persia
+    to: macedon
+    land: lands/sogdiana.geojson
+    basis: reconstruction
+  ```
+
+  A page before the span shows the land as the giver's, a page after it as the taker's, and a page inside it
+  shows the land hatched in both colours, with a legend line such as "contested, 329–327 BC". No border is drawn
+  that no source gives. Where the sources tell the order, the towns that fell first and those that fell last,
+  the conquest is several changes and no span. A land whose ruler submitted and was never occupied is contested
+  until an army holds it. The word is "contested": "disputed" stays the standing of a claim the sources differ
+  on. The build never works out a border between two known ones for a date in between: a line halfway between
+  two borders is a border nobody attests, shown as sure as a sourced one.
+- **A page turn glides.** When the reader steps to the next page, the cells that changed hands pass from one
+  colour to the other and a border moves to its new place, where today it snaps. This is how two true maps are
+  shown one after the other and adds nothing to either: the cells make it a change of colour, with no shape to
+  work out.
 
 **The build cuts the map once, into cells.** It lays every outline and every piece over each other one time,
 which cuts the land into cells that each change hands whole. A date is then a table of which state owns each
@@ -653,7 +675,7 @@ cell, a change relabels cells, and a page's map is the cells of each owner merge
 already, as a TopoJSON coverage whose neighbours share one line. So two neighbours cannot leave a sliver, a
 border that does not move is the same line on every page, and no shape is worked out per page.
 
-**The build checks** that the giver holds land inside each piece and warns where a change moves nothing, that
+**The build checks** that a span's end is after its start, that the giver holds land inside each piece and warns where a change moves nothing, that
 the changes are in the order of their dates and name states that exist, that each has its `rests_on` or a
 `reconstruction` with its `why`, and that no cell has two owners.
 

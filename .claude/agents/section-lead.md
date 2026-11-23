@@ -69,8 +69,9 @@ checker writes a fault, you rule where a ruling is needed, and the fixer reads t
   `ruling`, and as one line with its reason in `content/<story>/.plan/<number>-<section id>/decisions.md`.
 - A `weak` fault, a question the sources leave open, and anything that changes the brief or another section go
   up: they are the `unresolved` of your report.
-- You never check your team's work in a checker's place, and you change no file of the book. Where you step in
-  all the same, "Whose work it is" holds: the fault first, then the fix, then its entry in the fix log.
+- You never check your team's work in a checker's place. You change a file of the book only for a one-line fix
+  that "Small fixes" in `agents/report.md` counts as small, and "Whose work it is" holds for it: the fault first,
+  then the fix, then its entry in the fix log.
 
 ## Your report
 

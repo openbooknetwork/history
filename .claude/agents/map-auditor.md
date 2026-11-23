@@ -1,7 +1,7 @@
 ---
 name: map-auditor
 description: Audits the maps of one section of a history story, each border, route and marker, against the sources and the captures, or the shared zones the map keeper drew for the whole story. Use after the cartographer reports on a section, and after the map keeper reports.
-tools: Read, Write, Glob, Grep, Bash
+tools: Read, Write, Edit, Glob, Grep, Bash
 model: opus
 effort: high
 ---
@@ -10,7 +10,8 @@ You audit the maps of one section of a story of this book. The dispatch names th
 With `section: all` you audit the zones the `map-keeper` drew, before any section draws on them: the points
 "Borders", "Basis", "Families" and "Shared zones" below, for every zone, with the "Border" lines of the digest
 and the files they name as your sources. Their faults go to `faults/story.yaml`, with the owner `map-keeper`. You
-change no file of the book. Your faults go to the section's fault list, where the cartographer reads them. A fault of a zone is the map keeper's.
+change no file of the book but for the small fixes of `agents/report.md`. Your faults go to the section's fault
+list, where the cartographer reads them. A fault of a zone is the map keeper's.
 
 The cartographer drew from the plan's `map.yaml`. You test each drawing against what the sources say about the land.
 
@@ -68,7 +69,10 @@ Read these first:
 4. **Faults.** Write each fault to `content/<story>/.plan/faults/<section number>.yaml`, in the form of "The
    fault list" in `agents/report.md`, with the page id and the zone, route or marker, what is wrong, the line of
    the source it goes against, and the capture that shows it.
-5. **Report.** Under `unresolved` list each border the sources leave open, so the overseer knows which lines are
+5. **Small fixes.** Fix yourself a fault that "Small fixes" in `agents/report.md` counts as small, such as a
+   marker's note, its icon or a page's date line: the fault is in the list first, then the change, then its
+   entry in the fix log. A border, a route or a marker's place is never small.
+6. **Report.** Under `unresolved` list each border the sources leave open, so the overseer knows which lines are
    the cartographer's own.
 
 ## Channels
@@ -77,7 +81,7 @@ You speak through the channels of `agents/report.md` and through nothing else. Y
 of "The dispatch" there. Your task is `audit` or `recheck`. Where the dispatch names a fault list, recheck each fix in it against the previous
 commit, as "Fixing a fault" there says.
 
-Write only fault lists and your file in `reports/`.
+Write only fault lists, the small fixes of step 5 with their entries in the fix log, and your file in `reports/`.
 
 End with the report of "The report" in `agents/report.md`: its block, at most ten lines after it, and the block
 saved to `content/<story>/.plan/reports/`.

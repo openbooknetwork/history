@@ -19,6 +19,7 @@ Read these in full first:
   `content/<story>/.plan/names-<section number>.md`, the slice of the names for your section.
 - Each page of the section in folder order: `page.yaml`, `text/en.md`, and the `battle.yaml` of its card.
 - `content/<story>/.plan/fixes/<section number>.yaml`, the fix log of your section: what the fact checker changed.
+- `content/<story>/.plan/research-<section number>.md`, the slice of the digest for your section.
 - "Image folders" in `agents/images.md`, for where an image may show.
 - `content/<story>/.plan/rules.md`, the standing rules of this story.
 

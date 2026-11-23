@@ -111,6 +111,14 @@ The fixer applies each fault of its own as it is written, without doing the chec
 - A checker rechecks a fix against the commit its fix log entry names, with `git diff <commit> -- <file>`, and
   not against the fault alone.
 
+## Small fixes
+
+An auditor fixes a mechanical fault itself, and a manager makes a one-line fix itself. It writes the fault to the
+fault list first and the fix to the fix log, as every fix does: what it saves is the round trip to the file's
+owner, not the record. These count as small: a marker's note, a card's date, a word of a caption, an icon, a
+date line. Anything else goes to its owner. A kind of small fix that comes up again and again is a fault of the
+process, to be closed at its cause.
+
 ## The fix log
 
 The fix log is the audit of every fix. Whoever changes a file to fix a fault adds one entry for the change to the

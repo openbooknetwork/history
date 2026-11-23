@@ -54,7 +54,8 @@ log. You write the rules, each dispatch and `decisions.md`, and you read the rep
 - You rule on a fault and do not relay it. The checker writes it to the fault list, the fixer reads it there, and
   your dispatch names the list.
 - No fix without its fault. Where you correct a file yourself, even one word of a caption, write the fault to the
-  fault list first, then make the change, then add its entry to the fix log.
+  fault list first, then make the change, then add its entry to the fix log. "Small fixes" in `agents/report.md`
+  lists what a manager may fix itself in place of a round trip to the file's owner.
 - A run's own notes, such as what failed and what the run cost, are a record of the run and no channel. They go
   in `content/<story>/.plan/run/`, and not at the repo's root. The saved run stays at `.plan/run.json`.
 

@@ -351,10 +351,11 @@ commanders, dates and site. `[F17, L8]`
 smaller model: `image-finder`, `names`, `name-finder`, and plan-sync edits. Research, writing, map design and
 the audits keep the strongest. Each move is tested on the benchmark first. `[F12.10]`
 
-**4.7 Researcher gates.** *history.* The researcher's definition asks for a second account before a date, place
-or figure is marked `agreed`; the same minimum of scholarly sources for every section; a check, for each author
-used twice, whether the later work withdraws the earlier; and no Coverage line "no source gives X" without a
-search of the read files. `[F9, F17.6, E4.2, E4.3]`
+**4.7 Research gates.** *history.* Four rules for every line of the digest, held by the research-coordinator of
+6.10 and until then by the researcher: a second account before a date, place or figure is marked `agreed`; the
+same minimum of scholarly sources for every section; a check, for each author used twice, whether the later work
+withdraws the earlier; and no Coverage line "no source gives X" without a search of the read files.
+`[F9, F17.6, E4.2, E4.3]`
 
 ## Layer 5. Step order
 
@@ -366,8 +367,9 @@ battle. `[F1, F11]`
 edges against the passages of 2.5. Done when the benchmark's two plan-route leaks are caught at step 7. `[F11,
 E4.1]`
 
-**5.3 Planned gap batches.** *history.* One researcher batch and one names batch after step 6, and again after
-step 9, in place of single resumes. `[F9, F11, F15]`
+**5.3 Planned gap batches.** *history.* Until the research team of 6.10 exists: one researcher batch and one
+names batch after step 6, and again after step 9, in place of single resumes. Round 2 of 6.10 then takes their
+place. `[F9, F11, F15]`
 
 **5.4 Texts after page files.** *history.* A section's writer starts once its page files exist, still in
 parallel across sections, and runs `harita check` and the word count before it reports. Marker ids are frozen
@@ -460,6 +462,29 @@ of the dates and no longer of each page's list. A legend name cannot outlast its
 from 336 to 330 BC, with no copy per stage. The cost is a date for every zone, each a claim with a source, and
 pages that all set `when`. Rests on 1.12, 2.13 and 6.2. How a line is told, by the id or by a field, is settled
 when it is built. `[F4, F7]`
+
+**6.10 A research team.** *history.* One researcher did all of a story's research at step 2, before any page
+was decided, was resumed about fifteen times and passed 650,000 tokens. A `research-coordinator` and fresh
+researchers under it take its place, in two rounds.
+
+- **Round 1, the survey, at step 2.** The coordinator finds the sources, fetches them and writes what covers
+  each section: the source map the brief and the plans are made from. It reads for coverage and writes no claim.
+- **Round 2, the claims, after the section plans of step 6.** The pages now exist. The coordinator dispatches one
+  researcher per section, which writes the digest lines its section's pages need, each with its quote. A heavy
+  page gets a researcher of its own: a battle with phase pages, and any page its plan marks heavy for its many
+  sources or disputed figures. A battle's researcher writes before the battle-coordinator plans from its lines.
+- **The coordinator owns the digest.** It hands out the claim ids, merges the researchers' lines into
+  `research.md`, removes a claim two of them wrote, and rules where two of them give one claim a different
+  standing. It holds the gates of 4.7 for every line before it merges it.
+- **Why per section and not per page.** A section's pages draw on the same chapters of the same sources, so one
+  agent opens them once, and a dispute that touches three pages gets one ruling. The Alexander story would take
+  9 section researchers and about 5 for its battles, against 71 per page.
+
+Round 2 takes the place of the gap batches of 5.3: the research no longer comes before its questions. The names
+agent runs after round 2, since most minor names first appear in its lines. Each researcher starts from
+`rules.md`, the source map and its section's plan, by the dispatch form of 2.0, and leaves no handoff: the digest
+is its work product. Done when no research agent passes 300,000 tokens and the leaks that begin in research,
+8 of the 16 of `[E4.1]`, fall on the benchmark. `[F9, F15, F17.6, E4.2, E4.3]`
 
 ## Not in this spec
 

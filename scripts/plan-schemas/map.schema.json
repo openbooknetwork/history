@@ -1,0 +1,106 @@
+{
+ "title": "map.yaml: each page's frame, zones, routes and markers, by page id",
+ "type": "object",
+ "additionalProperties": {
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+   "bbox"
+  ],
+  "properties": {
+   "bbox": {
+    "type": "array",
+    "minItems": 4,
+    "maxItems": 4,
+    "items": {
+     "type": "number"
+    }
+   },
+   "zones": {
+    "type": "array",
+    "items": {
+     "type": "string",
+     "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    }
+   },
+   "routes": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "id",
+      "family",
+      "stations",
+      "passage",
+      "basis"
+     ],
+     "properties": {
+      "id": {
+       "type": "string",
+       "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+      },
+      "family": {
+       "type": "string"
+      },
+      "stations": {
+       "type": "array",
+       "minItems": 2,
+       "items": {
+        "type": "string"
+       }
+      },
+      "passage": {
+       "type": "string"
+      },
+      "basis": {
+       "enum": [
+        "sourced",
+        "reconstruction",
+        "unknown"
+       ]
+      },
+      "why": {
+       "type": "string"
+      }
+     }
+    }
+   },
+   "markers": {
+    "type": "object",
+    "additionalProperties": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "name",
+      "basis"
+     ],
+     "properties": {
+      "name": {
+       "type": "string"
+      },
+      "what": {
+       "type": "string"
+      },
+      "basis": {
+       "enum": [
+        "sourced",
+        "reconstruction",
+        "unknown"
+       ]
+      },
+      "why": {
+       "type": "string"
+      }
+     }
+    }
+   },
+   "tally": {
+    "type": [
+     "string",
+     "number"
+    ]
+   }
+  }
+ }
+}

@@ -11,8 +11,8 @@ file of the book. Your faults go to the fault list of the battle's section, wher
 
 Read these first:
 
-- The battle's part of "Battles" in its section's plan, `content/<story>/.plan/<number>-<section id>.md`.
-- `content/<story>/.plan/battles/<battle id>.md`, the battle's own plan, where the battle has phases, and each
+- The battle's entry in `battles.yaml` of its section's plan, `content/<story>/.plan/<number>-<section id>/`.
+- `battles/<battle id>.yaml` there, the battle's own plan, where the battle has phases, and each
   source file it names, at the account of the battle.
 - `content/<story>/shared/battles/<battle id>/battle.yaml`, the battle's generator in `content/<story>/.plans/`,
   and each phase page's `page.yaml` and `text/en.md`.

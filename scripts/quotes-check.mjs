@@ -3,7 +3,7 @@
 //   node scripts/quotes-check.mjs --names <lang>   the names of a language, i18n/names/<lang>.yaml
 // A digest line opens with its claim id and ends with "<quote>" (<file>, heading or page, <kind>), and the file is
 // looked up in the story's .wikipedia/ and .references/. An id stands once in the digest, and each id a section plan
-// names after "Rests on:" is a line of the digest. A names entry lists sources as { file: <path from the repo
+// names, in the rests_on of its pages.yaml and the disputes of its text.yaml, is a line of the digest. A names entry lists sources as { file: <path from the repo
 // root>, quote } and its name stands in one of its quotes. Wiki markup, case and spacing are left out of the
 // comparison, and a quote with … in it is found part by part, in order.
 import fs from 'fs';
@@ -55,10 +55,18 @@ if (first === '--names' && second) {
     for (const [, quote, name] of cites)
       prove(where, ['.wikipedia', '.references'].map(d => path.join(story, d, name.trim())).find(f => fs.existsSync(f)) ?? name.trim(), quote);
   }
-  for (const plan of fs.readdirSync(path.dirname(digest)).filter(f => /^\d+-.*\.md$/.test(f)))
-    for (const [n, line] of fs.readFileSync(path.join(path.dirname(digest), plan), 'utf8').split('\n').entries())
-      for (const id of line.match(/Rests on:(.*)/)?.[1].match(/\d+\.\d+/g) ?? [])
-        if (!ids.has(id)) problems.push(`${path.join(path.dirname(digest), plan)}:${n + 1}: claim ${id} is not in the digest, name a line it has`);
+  // the claims a plan rests on: the rests_on of each page of a section's pages.yaml, and the claim of each dispute of its text.yaml
+  const planDir = path.dirname(digest);
+  for (const section of fs.readdirSync(planDir).filter(f => /^\d+-/.test(f) && fs.statSync(path.join(planDir, f)).isDirectory())) {
+    const read = name => { try { return yaml.load(fs.readFileSync(path.join(planDir, section, name), 'utf8'), { schema: yaml.JSON_SCHEMA }); } catch { return null; } };
+    const pages = read('pages.yaml'), text = read('text.yaml');
+    const named = [
+      ...(Array.isArray(pages) ? pages : []).flatMap(p => (p?.rests_on ?? []).map(id => [`pages.yaml: ${p.id}`, id])),
+      ...Object.entries(text?.pages ?? {}).flatMap(([page, t]) => (t?.disputes ?? []).map(d => [`text.yaml: ${page}`, d?.claim])),
+    ];
+    for (const [where, id] of named)
+      if (!ids.has(String(id))) problems.push(`${path.join(planDir, section)}/${where}: claim ${id} is not in the digest, name a line it has`);
+  }
 } else { console.error('usage: node scripts/quotes-check.mjs <story> | --names <lang>, from the repo root'); process.exit(2); }
 
 for (const p of problems) console.log(p);

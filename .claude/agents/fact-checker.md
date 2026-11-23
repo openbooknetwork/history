@@ -21,7 +21,8 @@ Read these first:
 - `content/<story>/.plan/research.md`, your section's part, with the standing of each claim.
 - Each page of the section in folder order: `page.yaml`, `text/en.md` and the notes of `markers.yaml`, which you
   check as you check a text.
-- For each page, the files its line of "Articles" in `content/<story>/.plan/<number>-<section id>.md` names.
+- `pages.yaml`, `text.yaml` and `battles.yaml` of `content/<story>/.plan/<number>-<section id>/`, and for each
+  page the files its entry of `text.yaml` names.
 - `content/<story>/.plan/rules.md`, the standing rules of this story.
 
 ## Steps

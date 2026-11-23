@@ -26,7 +26,7 @@ conquest. A story about one war or campaign, such as the Punic Wars, has no such
 the reader knows little about, such as the Aztecs, gives their world a page or two of context.
 
 The outline is the story's brief and its chapter plans in `content/<story>/.plan/`, which `agents/overseer.md`
-describes. It is done when the plans list every page with its id, title, one line of content and its battle card,
+describes. It is done when each plan's `pages.yaml` lists every page with its id, title, what it tells and its battles,
 and the user has agreed the count. Agents build exactly the pages of their chapter's plan.
 
 ## Order

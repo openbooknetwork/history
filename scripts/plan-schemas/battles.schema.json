@@ -1,0 +1,71 @@
+{
+ "title": "battles.yaml: each battle of one section. A battle with phases gives its id, its page and phases: true alone",
+ "type": "array",
+ "items": {
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+   "id",
+   "page",
+   "phases"
+  ],
+  "properties": {
+   "id": {
+    "type": "string",
+    "pattern": "^[a-z0-9]+(-[a-z0-9]+)*-\\d+$"
+   },
+   "page": {
+    "type": "string",
+    "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+   },
+   "phases": {
+    "type": "boolean"
+   },
+   "name": {
+    "type": "string"
+   },
+   "date": {
+    "type": "string"
+   },
+   "site": {
+    "type": "string"
+   },
+   "sides": {
+    "type": "array",
+    "minItems": 2,
+    "items": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "name",
+      "family",
+      "commanders"
+     ],
+     "properties": {
+      "name": {
+       "type": "string"
+      },
+      "family": {
+       "type": "string"
+      },
+      "commanders": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "strength": {
+       "type": "string"
+      },
+      "casualties": {
+       "type": "string"
+      }
+     }
+    }
+   },
+   "outcome": {
+    "type": "string"
+   }
+  }
+ }
+}

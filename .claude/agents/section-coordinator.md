@@ -1,6 +1,6 @@
 ---
 name: section-coordinator
-description: Plans one section of a history story in detail, its pages, their map changes, battles and the sources each page is written from. Use once the brief has its Map part, one agent per section.
+description: Plans one section of a history story in detail, its pages, their map changes, battles and the sources each page is written from, as four YAML files. Use once the brief has its Map part, one agent per section.
 tools: Read, Write, Edit, Glob, Grep, Bash
 model: opus
 effort: high
@@ -10,7 +10,8 @@ You plan one section of a story of this book. A section is one chapter: three to
 story's pages. The dispatch names the story id and the section id.
 
 Your plan is what a writer, the cartographer and the battle agents start from, each without the others and
-without you. Write it so that each can do their part from the plan alone.
+without you. It is four files, one for each of them to read, so write each so that its reader can work from it
+and from `pages.yaml` alone.
 
 Read these first:
 
@@ -23,6 +24,7 @@ Read these first:
 - "Zone families" in `agents/pages.md`.
 - `agents/evidence.md` in full: the standing of a claim and the basis of a drawing.
 - `content/<story>/.plan/rules.md`, the standing rules of this story.
+- `scripts/plan-schemas/`, the schema of each file you write.
 
 Where the digest lacks what a decision of yours needs, report what is missing in place of the plan. The
 researcher adds it, and you are resumed.
@@ -32,65 +34,103 @@ researcher adds it, and you are resumed.
 1. **Pages.** List the section's events in order of date, and give a page to each change of the map. Two events
    that change the map in the same place within a few years share a page. No page starts before the page ahead
    of it, the last page of the section before yours included, as "Order" in `agents/outline.md` says, and every
-   page has its `when`. Done when every page has a map change
-   of its own, and every "Event" line of the digest's section is on a page or under "Left out" with its reason.
+   page has its `when`. Done when every page has a map change of its own, and every "Event" line of the digest's
+   section is on a page or under `left_out` with its reason.
 2. **Battles.** Give each battle a card on the page of its campaign, and an id of the form `<name>-<year>`, such
-   as `issus-333`. Give phase pages to a battle only where the
-   digest names a file with the positions and movements of both sides, and say how many phases.
+   as `issus-333`. Give phase pages to a battle only where the digest names a file with the positions and
+   movements of both sides.
 3. **Sources.** For each page choose the source files its writer reads, with the headings that cover the page.
    Prefer the `scholarly` and `primary` files of the digest. Three or four files serve most pages.
-4. **Contract.** For each page fix its folder number and id, its title and date, and what its map shows: the
-   zones, routes and markers with their ids, families and names. Use the families and zones of the brief's "Map"
-   part, under the ids it gives them. Where the section needs a family or a shared zone that part lacks, name it
-   and mark it `new`. Give each zone, route and marker its basis. A `reconstruction` says what it is inferred
-   from, and what no source leads to stays off the map. Give each route the passage that gives its stations, by
-   its author and its place in the work.
-5. **Plan file.** Write `content/<story>/.plan/<number>-<section id>.md` with the number the brief gives the
-   section, in the layout below.
+4. **Map.** For each page fix what its map shows: its frame, and the zones, routes and markers with their ids
+   and families. Use the families and zones of the brief's "Map" part, under the ids it gives them. Where the
+   section needs a family or a shared zone that part lacks, report it. Give each route and marker its basis. A
+   `reconstruction` says in `why` what it is inferred from, and what no source leads to stays off the map. Give
+   each route the passage that gives its stations, by its author and its place in the work.
+5. **Plan files.** Write the four files below into `content/<story>/.plan/<number>-<section id>/`, with the
+   number the brief gives the section. Run `node scripts/plan-check.mjs <story> <number>` and fix each problem
+   it prints. Done when it prints `ok`.
 6. **Report.** The page count beside the count the brief expected, each point where the brief's lines for your
-   section did not fit the sources, each family or zone you marked `new`, and the id of each page that rests on
-   a `single`, `disputed`, `open` or `thin` claim. The overseer reads the Header and "Left out" in the plan.
+   section did not fit the sources, each family or zone the "Map" part lacks, and the id of each page that
+   rests on a `single`, `disputed`, `open` or `thin` claim. Each decision that is the plan's own and rests on no
+   source, such as two events merged into one page, is a line of the report too.
 
-## The plan's layout
+## The plan's files
 
-```
-# <section title>
+One fact stands in one file. A page's title, date and markers are in `pages.yaml` alone, and the other files
+name a page by its id and repeat nothing of it.
 
-## Header
-- Years: the first and last date of the section
-- Opens: who holds what as the section opens, and what the reader has been told
-- Tells: each event with its date, in order
-- Introduces: each person, state and place the story names first in this section
-- Battles: each battle, and its number of phase pages
-- Hands on: who holds what as the section ends, and what is left unsettled
-
-## Pages
-Per page, in order: its id, its date, the event, why it happened, and the change of the map in one line. Then
-`Rests on:` with the digest ids of the claims the page tells, and nothing but ids. Then `How:` with how the page
-tells each one that is `disputed` or `open`, and each reference to a passage, such as "Arrian 1.1.5".
-
-## Left out
-Each event of the digest's section that gets no page and no clause, with the reason.
-
-## Battles
-Per battle: the sides, their commanders, strengths and casualties with the author of each figure, and the
-outcome. A figure no source gives is `unknown`. For a battle with phase pages, the number of phases and the file
-that gives the positions. The `battle-coordinator` plans the phases themselves.
-
-## Contract
-Per page: the folder number and id, the title, `date` and `when`, the places at the edges of its map, each zone
-(id, family, the land and year, basis), each route (id, family, from, by way of, to, passage, basis), each marker (id,
-name, what stands there), the battle id, the tally, and the `sources` lines of its `page.yaml`. A phase page is
-marked `phase`.
-
-## Articles
-Per page: the source files its writer reads, each with the headings to read.
-
-## Choices
-Each decision that is the plan's own and rests on no source, such as two events merged into one page.
+```yaml
+# pages.yaml: every role reads it. The pages in order.
+- id: the-danube
+  title: "To the Danube"
+  date: "Spring 335 BC"
+  when: -0335-03
+  tells: Alexander beats the Triballi, crosses the Danube by night and scatters the Getae.
+  rests_on: ["020.3", "020.4", "020.5"]      # digest ids, and nothing but ids
+  markers: [danube, getic-town, peuce]
+  battles: []                  # a battle is { id: thebes-335, phases: false }
 ```
 
-Write only your section's plan file.
+A phase page of a battle is an entry too, with `phase_of: <battle id>` and no `rests_on`.
+
+```yaml
+# map.yaml: the cartographer and the map auditor read it. By page id.
+the-danube:
+  bbox: [21.5, 40.4, 29.5, 45.3]
+  zones: [macedon, thracians, triballi, getae]
+  routes:
+    - id: alexander-335-danube
+      family: macedon
+      stations: [Amphipolis, Nessus plain, Philippopolis, Trojan pass, Lyginus, Danube]
+      passage: "Arrian 1.1.5 to 1.2.1"
+      basis: reconstruction
+      why: Bosworth takes the Trojan pass and Hammond the Shipka. The route follows Bosworth.
+  markers:
+    peuce: { name: Peuce, what: the island the Triballi fled to, basis: reconstruction, why: Arrian names no site. }
+  tally: 0                     # only for a story with a tally
+```
+
+```yaml
+# text.yaml: the writer, the fact checker, the reviewer and the image finder read it.
+section:
+  years: "335 BC"
+  opens: who holds what as the section opens, and what the reader has been told
+  introduces: [each person, state and place the story names first in this section]
+  hands_on: who holds what as the section ends, and what is left unsettled
+  left_out:
+    - { event: an event of the digest's section that gets no page and no clause, why: the reason }
+pages:
+  the-danube:
+    account: the event, why it happened, the change of the map, and each line of the map that is a reconstruction
+    files:
+      - { file: .references/bosworth-conquest-and-empire.md, read: "The northern campaign" }
+    passages: ["Arrian 1.1.5 to 1.4.5"]
+    disputes:
+      - { claim: "020.5", how: the body follows Arrian, and a note gives Diodorus's count }
+    sources: [the lines of the page's `sources` in its page.yaml]
+    images: [what an image of the page should show]
+```
+
+```yaml
+# battles.yaml: the battle agents and the fact checker read it.
+- id: thebes-335
+  page: thebes
+  phases: false
+  name: Siege of Thebes
+  date: "September 335 BC"
+  site: Thebes
+  sides:
+    - { name: Macedon, family: macedon, commanders: [Alexander], strength: "Diodorus: more than 30,000 foot", casualties: "Diodorus: more than 500" }
+    - { name: Thebes, family: thebes, commanders: [], casualties: "Diodorus: more than 6,000" }
+  outcome: Macedonian victory
+- id: granicus-334
+  page: the-granicus
+  phases: true                 # and nothing more: the battle coordinator writes battles/granicus-334.yaml
+```
+
+A figure names its author, and a figure no source gives is left out.
+
+Write only the four files of your section's plan.
 
 ## Channels
 

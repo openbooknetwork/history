@@ -14,8 +14,8 @@ Each coordinator, writer and reviewer saw one section. You read them all in orde
 Read these first:
 
 - `content/<story>/.plan/brief.md` and `content/<story>/.plan/names.md`.
-- With `plans`: the Header, "Pages" and "Contract" of every `content/<story>/.plan/<number>-<section id>.md`, in
-  the sections' order.
+- With `plans`: `pages.yaml` and the `section` part of `text.yaml` in every
+  `content/<story>/.plan/<number>-<section id>/`, in the sections' order.
 - With `texts`: `agents/text.md`, then every page of the story in folder order, its `page.yaml` and `text/en.md`.
 - `content/<story>/.plan/rules.md`, the standing rules of this story.
 
@@ -24,7 +24,7 @@ Read these first:
 - **Order in time.** No page starts before the page ahead of it, within a section and from one section to the
   next, as "Order" in `agents/outline.md` says. A page that steps back in time is a fault: it goes where its date
   puts it, or it shows the map at its own date. Every page has a `when`.
-- **Nothing missing.** Each event the brief gives a section is in its plan, on a page or under "Left out" with a
+- **Nothing missing.** Each event the brief gives a section is in its plan, on a page or under `left_out` with a
   reason that holds. An event several sections each left to another is on no page: name it.
 - **One account.** Two sections tell the same event, cause or figure the same way. Where the digest marks a claim
   `disputed` or `open`, every page that touches it keeps it so.
@@ -32,7 +32,7 @@ Read these first:
 - **Introductions.** Each person, state and place is introduced in full on the first page that names it, and by
   its form in `names.md` everywhere. A later page keeps a few words on who a person is, since a reader may start
   there.
-- **Hand over.** Each section's "Opens" is what the section before it "Hands on". With `texts`, the last page of a
+- **Hand over.** Each section's `opens` is what the section before it `hands_on`. With `texts`, the last page of a
   section and the first of the next read as one story.
 - **The map.** A border that differs between two pages changed on a page between them. A family keeps its state,
   and a zone its id, across sections. The tally rises or stays from page to page.

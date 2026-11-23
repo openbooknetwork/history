@@ -32,7 +32,7 @@ Each line of the digest is one claim with an id, `<section number>.<n>`, and one
 | `open` | the sources say it is not known | the text says it is not known |
 
 A line keeps its id for good. A new line takes the next number, and the number of a line that goes is left unused.
-Plans and reports name a claim by its id, so `grep -rn "<id>" content/<story>/.plan` lists what rests on it.
+Plans and faults name a claim by its id, so `grep -rn "<id>" content/<story>/.plan` lists what rests on it.
 
 ## Claims a story turns on
 

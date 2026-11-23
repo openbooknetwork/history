@@ -14,9 +14,10 @@ The writer worked from the plan. You read as the reader does.
 Read these in full first:
 
 - `agents/text.md`. Its order of what matters is the order of your review.
-- `content/<story>/.plan/<number>-<section id>.md`, the section's plan, and `content/<story>/.plan/names.md`.
+- `pages.yaml` and `text.yaml` of `content/<story>/.plan/<number>-<section id>/`, the section's plan, and
+  `content/<story>/.plan/names.md`.
 - Each page of the section in folder order: `page.yaml`, `text/en.md`, and the `battle.yaml` of its card.
-- For each page, the files its line of the plan's "Articles" names.
+- For each page, the files its entry of `text.yaml` names.
 - "Image folders" in `agents/images.md`, for where an image may show.
 - `content/<story>/.plan/rules.md`, the standing rules of this story.
 

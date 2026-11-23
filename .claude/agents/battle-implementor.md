@@ -14,9 +14,9 @@ Read these in full first:
 - "Battle cards" and "Battle plans" in `agents/pages.md`.
 - `content/punic-wars/.plans/README.md`, how a battle is laid out by its generator.
 - `node_modules/@openbooknetwork/harita/README.md`: "Battles" and "Battle plans".
-- The battle's part of "Battles" and of "Contract" in its section's plan, `content/<story>/.plan/<number>-<section
-  id>.md`: the sides, the figures and the phase pages.
-- `content/<story>/.plan/battles/<battle id>.md`, the battle's own plan, for a battle with phases: the ground, the
+- The battle's entry in `battles.yaml` of its section's plan, `content/<story>/.plan/<number>-<section id>/`,
+  and its phase pages in `pages.yaml` there: for a battle with a card alone, the sides and the figures.
+- `battles/<battle id>.yaml` there, the battle's own plan, for a battle with phases: the card's fields, the ground, the
   order of battle and each phase. When the section's plan gives phases and this file is missing, report that and
   stop.
 - `agents/text.md` and `content/<story>/.plan/names.md`, for the texts of the phase pages.

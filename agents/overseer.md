@@ -16,8 +16,11 @@ Whoever takes the story over, on another machine or in another session, starts f
 | `brief.md` | you, and its "Map" part by the `map-architect` | the strategy, the sections, the families and zones |
 | `research.md` | `researcher` | what the sources say per section, each line with its quote and file |
 | `names.md` | `names` | the form of each person's and place's name, per year where it changes |
-| `<number>-<section id>.md` | `section-coordinator` | one section's pages, their sources and Contract |
-| `battles/<battle id>.md` | `battle-coordinator` | one battle's ground, order of battle and phases |
+| `<number>-<section id>/pages.yaml` | `section-coordinator` | the core of each page: its id, title, dates, what it tells, its claims, markers and battles |
+| `<number>-<section id>/map.yaml` | `section-coordinator` | each page's frame, zones, routes and markers, each with its basis |
+| `<number>-<section id>/text.yaml` | `section-coordinator` | the section's frame, and each page's account, files, disputes and images |
+| `<number>-<section id>/battles.yaml` | `section-coordinator` | each battle's id and page, and the card of a battle without phases |
+| `<number>-<section id>/battles/<battle id>.yaml` | `battle-coordinator` | one battle with phases: its ground, order of battle, phases and card |
 | `rules.md` | you alone | every standing rule of this story, beyond `agents/` |
 | `decisions.md` | you | the state of each step, and each decision with its reason |
 | `reports/<section>-<role>.yaml` | every agent | the block of each of its reports, one entry per run |
@@ -28,6 +31,10 @@ Whoever takes the story over, on another machine or in another session, starts f
 `content/<story>/wikipedia.urls` and `references.urls` list the addresses the research read.
 `./node_modules/.bin/harita sources <story>` fetches them again into `.wikipedia/` and `.references/`, which git
 leaves out.
+
+Each role reads `pages.yaml` and the one file of the plan that is its own, and one fact stands in one file.
+`scripts/plan-schemas/` holds the schema of each, and `node scripts/plan-check.mjs <story>` checks the plan
+folder against them and against each other: run it before a plan is built from.
 
 Write to `decisions.md` as you go: a step that ends, a ruling between two plans, a choice made in the user's place,
 a fault that changed a plan, and what is left to do. One line each, with the reason.
@@ -108,7 +115,7 @@ Every dispatch, and every message that resumes an agent, opens with the block of
    run at once. A family or a shared zone a plan marks `new` beyond the "Map" part goes into that part under one
    name before the pages are built.
 7. **Order.** Dispatch the `editor` with the story id and the word `plans`. A fault goes back to its section's
-   coordinator, or changes the brief. Show the user the Headers in order with the page count. The work goes on
+   coordinator, or changes the brief. Show the user each section's page titles in order with the page count. The work goes on
    when the user agrees them.
 8. **Maps and texts.** Start the story's dev server in the background, as "Checking a story" in `agents/pages.md`
    says, and note its process id. Name its port in every dispatch from here to step 14, so no agent builds the

@@ -13,14 +13,15 @@ unit's place and each movement in your plan carries the sentence of the source i
 
 Read these first:
 
-- The battle's part of "Battles" and of "Contract" in its section's plan, `content/<story>/.plan/<number>-<section
-  id>.md`: the sides, the figures, the phase pages and the file that gives the positions.
-- That file at the account of the battle, and each other file under `content/<story>/.wikipedia/` and
-  `.references/` that tells the battle.
+- The battle's entry in `battles.yaml` of its section's plan, `content/<story>/.plan/<number>-<section id>/`, and
+  its page and phase pages in `pages.yaml` there.
+- The digest's "Battle" line for it, the file that line names for the positions, at the account of the battle,
+  and each other file under `content/<story>/.wikipedia/` and `.references/` that tells the battle.
+- `scripts/plan-schemas/battle.schema.json`, the schema of the file you write.
 - "The basis of a drawing" in `agents/evidence.md`.
 - `content/punic-wars/.plans/README.md`, for what a generator can draw: the frame, the unit types, the movements.
 - `content/<story>/.plan/names.md`, for the commanders and the places.
-- The battle plans already in `content/<story>/.plan/battles/`, so the story's battles name their sides and unit
+- The battle plans already in the `battles/` folders of `content/<story>/.plan/`, so the story's battles name their sides and unit
   types the same way.
 - `content/<story>/.plan/rules.md`, the standing rules of this story.
 
@@ -41,31 +42,47 @@ pages out of the section's plan, and the battle keeps its card.
    rest it on: the usual order of that army, the ground, or the phase after it. A unit or a movement that nothing
    sourced leads to stays out of the plan. Where more than half of a phase is reconstruction, say so in the
    report, and the overseer decides whether the phase keeps its page.
-5. **Plan file.** Write `content/<story>/.plan/battles/<battle id>.md` in the layout below.
+5. **Plan file.** Write `battles/<battle id>.yaml` in the section's plan folder, in the layout below. It alone
+   holds the battle's sides, figures and card fields. Run `node scripts/plan-check.mjs <story> <number>` and fix
+   each problem it prints.
 6. **Report.** The phases in one line each with their share of reconstruction, each figure the sources differ
    on, each `unknown`, and each point where the section's plan should change.
 
 ## The plan's layout
 
+```yaml
+id: granicus-334
+name: Battle of the Granicus
+date: "May 334 BC"
+sources:
+  - { file: .references/arrian-anabasis-1.md, gives: "the order of battle and the movements" }
+ground:
+  field: the river, hill, road or coast each line rests on
+  facing: which way each side faces
+  front: the width of the front, or unknown
+  basis: sourced
+sides:                         # each side from one flank to the other
+  - name: Macedon
+    family: macedon
+    units:
+      - { id: companions, type: cavalry, commander: Alexander, strength: unknown, quote: "<the sentence>", file: .references/arrian-anabasis-1.md }
+phases:
+  - page: granicus-the-crossing
+    title: "The crossing"
+    opens: where each unit stands as the phase opens
+    moves:
+      - { unit: companions, does: crosses on the right, basis: sourced, quote: "<the sentence>", file: .references/arrian-anabasis-1.md }
+      - { unit: phalanx, does: follows across the ford, basis: reconstruction, why: the usual order of that army }
+    decides: what the phase decides
+card:
+  site: the east bank of the Granicus
+  sides:
+    - { name: Macedon, family: macedon, commanders: [Alexander], strength: "Arrian: ...", casualties: "Arrian: ..." }
+    - { name: Persia, family: persia, commanders: [Arsites], strength: "Arrian: ..." }
+  outcome: Macedonian victory
 ```
-# <battle name>, <date>
 
-## Sources
-Each file that tells the battle, and what it gives: the order of battle, the ground, the movements.
-
-## Ground
-The field, the facing of each side, and the width of the front with its basis.
-
-## Order of battle
-Per side, from one flank to the other: unit, type, commander, strength. Each line ends with its quote and file.
-
-## Phases
-Per phase: its page id and title, where each unit stands, what moves and where to, and what the phase decides.
-Each movement ends with its quote and file, or with `reconstruction` and what it rests on.
-
-## Card
-The commanders, strengths, casualties and outcome the card shows, each figure with its author.
-```
+A figure on the card names its author, and a figure no source gives is left out.
 
 Write only the battle's plan file.
 

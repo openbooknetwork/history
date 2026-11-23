@@ -74,14 +74,15 @@ profile folder on a finished run, an error, a timeout and a signal. `[F6]`
 a test flag, or reports when it has ended, and `screenshot.mjs` waits for that. Done when stepping from Miletus
 to Halicarnassus draws the routes in 8 of 8 captures. `[F6]`
 
-**1.5 The dev server watches only the story.** *kitap.* `kitap/src/dev.mjs` watches all of `content/` with every
-story's images, `i18n/`, `plugins/` and its own source. With `--story` it watches that story's folder,
-`content/shared/` and `i18n/` alone. Done when five servers run at once in a cloud container without `ENOSPC`.
-`[F8]`
+**1.5 The dev server watches only the story.** *kitap.* **Built, not released.** `dev --story <id>` watches that
+story's folder and `content/shared/` in place of all of `content/`, with `i18n/`, `plugins/` and the source as
+before. On kitap's `pipeline-efficiency` branch, with a test. Still to see: five servers at once in a cloud
+container without `ENOSPC`. `[F8]`
 
-**1.6 An unknown battle is a warning in dev.** *harita.* `harita dev` builds the rest of the story and warns;
-`harita check` and the strict build keep it an error. The same for a text link to a marker that is not yet in
-`page.yaml`. Done when a half-finished edit across two files does not fail the shared build. `[F1, F6]`
+**1.6 An unknown battle is a warning in dev.** *harita and kitap.* `harita/src/engine.mjs` fails the build on a
+page's unknown battle and on an unknown marker. `kitap dev` hands its builds a flag, and under it the engine warns
+and builds the rest of the story; `harita check` and the strict build keep both an error. Done when a
+half-finished edit across two files does not fail the shared build. `[F1, F6]`
 
 **1.7 A static build for auditors.** *history.* `agents/pages.md` tells agents that change no files to build once
 into their own `--out` folder and serve it without watching. Done when an auditor's captures cannot catch
@@ -92,20 +93,24 @@ took 14 seconds for the Alexander story, against more than ten minutes for every
 step 14 of `agents/overseer.md` still name `npm run build -- --strict`, which builds them all. They change with
 the layer 2 edits. `[F17.9]`
 
-**1.9 The strict build without the store.** *kitap.* `--no-store`, or a warning instead of an error when
-`images-pack/` holds the story's originals. Done when a new story's strict build passes in a cloud run. `[F18]`
+**1.9 The strict build without the store.** *kitap.* **Built, not released.** `build --strict --no-store` runs
+every strict check and leaves the store unasked, and says so in its last line. On kitap's `pipeline-efficiency`
+branch, with a test. `agents/cloud.md` names it for a new story's step 14, with the layer 2 edits. `[F18]`
 
-**1.10 `harita image --strip-location`.** *harita.* Strip the location data and record both hashes and the `url:`
-line. Done when an image with GPS data is added without a hand-made `image.yaml`. `[F6]`
+**1.10 `image --strip-location`.** *kitap.* The check that refuses a file with a position in its metadata is
+kitap's, in `src/image.mjs`. The option removes the EXIF and XMP blocks without encoding the picture again, and
+records both hashes and the `url:` line. Done when an image with GPS data is added without a hand-made
+`image.yaml`. `[F6]`
 
 **1.11 Phone-size captures.** *history and harita.* Find why 390x780 crashes headless Chrome on Linux, and why
 the 070 Ocean page crashes it at any size. Done when a phone capture works in a cloud container, or the cause is
 written down with a workaround. `[F6]`
 
-**1.12 `when` for years before our era.** *kitap.* A page's `when` takes `YYYY`, `YYYY-MM` or `YYYY-MM-DD`, so a
-story of years BC cannot set it, and the build's order check never runs for it: the Alexander story and the Punic
-Wars set none. `when` takes a year before our era, and a strict build fails on a page without one. Done when the
-Alexander story sets `when` on every page and the build names its one page out of order. `[2.13]`
+**1.12 `when` for years before our era.** *kitap.* **Built, not released.** A page's `when` takes a minus before
+a year BC, counted as historians count it: `-0335-03` is March 335 BC. The order check counts such years
+backwards and their months forwards, and a story's span reads "335 BC – 334 BC". On kitap's
+`pipeline-efficiency` branch, with tests. kitap serves books without dates too, so it does not ask every page
+for a `when`: the linter of 3.1 does, for a history story. `[2.13]`
 
 ## Layer 2. Conventions
 
@@ -180,6 +185,7 @@ Thebes in September 335 BC. Rests on 1.12 for stories of years BC.
 - a zone whose legend name carries a date, where that date is not the page's or ends before it
 - a marker id used on pages of different events
 - a battle id without its year
+- a page without a `when`
 - a text body outside 150 to 350 words
 - a disputed digest claim cited in a body and not in Notes
 - a passage number on a `Rests on:` line

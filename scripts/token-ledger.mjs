@@ -11,7 +11,9 @@
 // price ratios: input 1, cache write 1.25, cache read 0.1, output 5. Set --weights to the ratios of the limit the
 // run counts against. The pages are the page.yaml files of the sections the run worked on.
 //
-// --json prints the whole run, its usage and its agents' report blocks, to save beside a story's plan:
+// The last lines count the dispatches of the run and list each that breaks the dispatch form of agents/report.md.
+//
+// --json prints the whole run, its usage, its dispatches and its agents' reports, to save beside a story's plan:
 //   node scripts/token-ledger.mjs <run> --variant baseline --json > content/<story>/.plan/run.json
 // scripts/run-viewer.html shows a saved run in a browser: open it and choose the file, or several to compare.
 import { parseArgs, loadRun, table, stop } from './transcripts.mjs';
@@ -53,3 +55,8 @@ console.log(table(
 ));
 console.log(`\nWeighted: input x${weights[0]}, cache write x${weights[1]}, cache read x${weights[2]}, output x${weights[3]}.`);
 if (run.pages) console.log(`Pages: ${run.pages}, at ${Math.round(weigh(total) / run.pages).toLocaleString('en-US')} weighted tokens a page.`);
+
+const dispatches = run.dispatches ?? [];
+const broken = dispatches.filter(d => d.problems.length);
+console.log(`\nDispatches: ${dispatches.length}, of which ${broken.length} break the dispatch form.`);
+if (broken.length) console.log('\n' + table(['Role', 'Description', 'Breaks the form by'], broken.map(d => [d.role ?? '-', d.description || '-', d.problems.join('; ')])));

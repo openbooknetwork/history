@@ -13,7 +13,10 @@
 //            the agents that work on the whole story
 //   step     the step's name. The dispatch form names it, on a "step:" line of the block its prompt opens with,
 //            and a "section:" line there names the section. Where a dispatch has no block, the step is the one
-//            STEPS gives the role, and the editor's is pre-plan-check or edit by the word plans or texts
+//            STEPS gives the role
+// A report's block names its faults by id. The faults themselves are read from the story's fault lists,
+// .plan/faults/*.yaml, and its fix log from .plan/fixes/*.yaml, as agents/report.md sets them out. Every dispatch
+// and every message that resumes an agent is checked against the dispatch form of the same file.
 // An agent that is resumed with another section's work is counted under each section in turn: every prompt it is
 // sent starts a part, and each message's tokens go to the part it was written in.
 import fs from 'fs';
@@ -42,6 +45,11 @@ export const FIRST_CHECK = {
   'pre-plan': 'pre-plan-check', plan: 'plan-check', 'battle-plan': 'plan-check', maps: 'maps', battles: 'phases',
   texts: 'facts', images: 'facts', review: 'edit',
 };
+// the fields of the dispatch form, in agents/report.md
+export const DISPATCH_FIELDS = ['story', 'section', 'battle', 'pages', 'lang', 'names', 'step', 'task', 'faults', 'scratchpad', 'serve', 'note'];
+const NOTE_LENGTH = 200;
+// the roles that manage, whose own changes to a file are steps the roles should have made
+const MANAGERS = ['overseer', 'section-coordinator', 'battle-coordinator'];
 const WHOLE_STORY = new Set(['overseer', 'researcher', 'names', 'map-architect', 'editor', 'story-auditor', 'name-finder', 'translator', 'translation-reviewer']);
 const AGENT_ID = /a[0-9a-f]{16}/;
 const VALUE_FLAGS = ['story', 'roles', 'variant', 'weights', 'pages', 'by'];
@@ -95,7 +103,7 @@ function promptText(content) {
 }
 
 function readTranscript(file) {
-  const t = { file, agentId: null, prompts: [], messages: new Map(), texts: [], dispatches: [], start: null, end: null, model: null };
+  const t = { file, agentId: null, prompts: [], messages: new Map(), texts: [], dispatches: [], resumes: [], start: null, end: null, model: null };
   for (const line of fs.readFileSync(file, 'utf8').split('\n')) {
     if (!line) continue;
     let o;
@@ -118,6 +126,7 @@ function readTranscript(file) {
     for (const b of Array.isArray(m.content) ? m.content : []) {
       if (b?.type === 'text' && b.text) t.texts.push({ part, text: b.text });
       if (b?.type === 'tool_use' && typeof b.input?.prompt === 'string' && b.input.subagent_type) t.dispatches.push(b.input);
+      if (b?.type === 'tool_use' && b.name === 'SendMessage' && typeof b.input?.message === 'string') t.resumes.push(b.input);
       // an agent's final report can be the input of its hand-back tool call
       if (b?.type === 'tool_use' && /handback/i.test(b.name ?? '')) {
         for (const v of Object.values(b.input ?? {})) if (typeof v === 'string') t.texts.push({ part, text: v });
@@ -176,6 +185,62 @@ function reportBlocks(text) {
   return out;
 }
 
+// the task words a role's definition lists: "Your task is `draw` or `fix`"
+const words = new Map();
+function taskWords(role) {
+  if (!words.has(role)) {
+    let text = '';
+    try { text = fs.readFileSync(path.join('.claude', 'agents', `${role}.md`), 'utf8'); } catch { /* no definition */ }
+    const list = text.match(/[Yy]our task is ([^.:]*)/)?.[1] ?? '';
+    words.set(role, [...list.matchAll(/`([\w-]+)`/g)].map(m => m[1]));
+  }
+  return words.get(role);
+}
+
+// A dispatch against the form of agents/report.md: the block it opens with, and each way it breaks the form.
+// role and description are null for a message that resumes an agent.
+export function checkDispatch(prompt, role, description) {
+  const problems = [];
+  const text = prompt.trim();
+  const end = text.search(/\n[ \t]*\n/);
+  const head = end < 0 ? text : text.slice(0, end);
+  let block = null;
+  try { block = yaml.load(head); } catch { /* no block */ }
+  if (!block || typeof block !== 'object' || Array.isArray(block) || !('story' in block)) return { block: null, problems: ['no block'] };
+  if (end >= 0 && text.slice(end).trim()) problems.push('text after the block');
+  for (const k of Object.keys(block)) if (!DISPATCH_FIELDS.includes(k)) problems.push(`unknown field ${k}`);
+  for (const k of ['story', 'section', 'step', 'task']) if (block[k] == null) problems.push(`no ${k}`);
+  if (block.step != null && !ORDER.includes(block.step)) problems.push(`unknown step ${block.step}`);
+  if (role && block.task != null) {
+    const list = taskWords(role);
+    if (!list.includes(String(block.task))) problems.push(`task ${block.task} is not one of ${role}'s: ${list.join(', ') || 'it lists none'}`);
+  }
+  if (block.note != null) {
+    const note = String(block.note);
+    if (note.length > NOTE_LENGTH) problems.push(`note of ${note.length} characters`);
+    if (/\n/.test(note.trim())) problems.push('note of more than one line');
+  }
+  if (role && description != null && ['step', 'section', 'task'].every(k => block[k] != null)) {
+    const form = `${block.step} ${block.section} ${role} ${block.task}`;
+    if (description.trim() !== form) problems.push(`description is not "${form}"`);
+  }
+  return { block, problems };
+}
+
+// every entry of the YAML lists in one folder of a story's plan, each with the name of its list
+function planLists(storyDir, folder) {
+  const dir = storyDir && path.join(storyDir, '.plan', folder);
+  if (!dir || !fs.existsSync(dir)) return [];
+  return fs.readdirSync(dir).filter(n => n.endsWith('.yaml')).sort().flatMap(n => {
+    let doc;
+    try { doc = yaml.load(fs.readFileSync(path.join(dir, n), 'utf8')); } catch { stop(`${path.join(dir, n)} is not valid YAML`); }
+    return (Array.isArray(doc) ? doc : []).filter(e => e && typeof e === 'object').map(e => ({ ...e, list: n.replace(/\.yaml$/, '') }));
+  });
+}
+
+// a fault's id is <list>-<role>-<n>
+const idRole = f => String(f.id ?? '').replace(new RegExp(`^${f.list}-`), '').replace(/-\d+$/, '') || '?';
+
 function fromTranscripts(opts) {
   const transcripts = transcriptFiles(opts.paths).map(readTranscript).filter(t => t.messages.size);
   if (!transcripts.length) stop('no transcript with token usage under the paths given');
@@ -197,25 +262,37 @@ function fromTranscripts(opts) {
 
   const dispatched = new Map(transcripts.flatMap(t => t.dispatches).map(d => [d.prompt.trim(), d]));
   const usage = [], reports = [], agents = [];
+  const dispatches = [
+    ...transcripts.flatMap(t => t.dispatches).map(d => ({ role: d.subagent_type, description: d.description ?? '', ...checkDispatch(d.prompt, d.subagent_type, d.description ?? '') })),
+    ...transcripts.flatMap(t => t.resumes).map(d => ({ role: null, description: `resume ${d.to ?? ''}`.trim(), ...checkDispatch(d.message, null, null) })),
+  ];
+  const listed = planLists(storyDir, 'faults');
+  const byId = new Map(listed.map(f => [String(f.id), f]));
+  const named = new Set();
+  const fault = (f, step) => {
+    const firstCheck = FIRST_CHECK[f.introduced] ?? null;
+    return {
+      id: f.id == null ? null : String(f.id), severity: f.severity ?? '?', kind: f.kind ?? '?', introduced: f.introduced ?? null, firstCheck,
+      leak: f.severity === 'wrong' && firstCheck !== null && step !== '-' && stepIndex(step) > stepIndex(firstCheck),
+      owner: f.owner ?? null, file: f.file ?? null, claim: f.claim == null ? null : String(f.claim),
+      evidence: f.source ?? null, action: f.new ?? null, state: f.state ?? 'open',
+    };
+  };
   for (const t of transcripts) {
-    const named = roles[t.agentId] ?? '';
+    const given = roles[t.agentId] ?? '';
     const dispatch = t.agentId ? dispatched.get((t.prompts[0] ?? '').trim()) : null;
-    const role = t.meta.agentType ?? dispatch?.subagent_type ?? (named.replace(/-?\d{3}$/, '') || (t.agentId ? '?' : 'overseer'));
+    const role = t.meta.agentType ?? dispatch?.subagent_type ?? (given.replace(/-?\d{3}$/, '') || (t.agentId ? '?' : 'overseer'));
     const description = t.meta.description ?? dispatch?.description ?? '';
     // the dispatch form: a block of "key: value" lines the prompt opens with
     const form = prompt => Object.fromEntries([...prompt.split('\n').slice(0, 14).join('\n').matchAll(/^(story|section|step|task):[ \t]*"?([\w-]+)"?/gm)].map(([, k, v]) => [k, v]));
     const whole = WHOLE_STORY.has(role);
-    let section = whole ? '-' : sectionIn(description) ?? named.match(/(\d{3})$/)?.[1] ?? '-';
+    let section = whole ? '-' : sectionIn(description) ?? given.match(/(\d{3})$/)?.[1] ?? '-';
     let step = STEPS[role] ?? '-';
     const tags = t.prompts.map((prompt, i) => {
       const given = form(prompt);
       if (given.section) section = given.section === 'all' ? '-' : given.section;
       else if (!whole && !(i === 0 && sectionIn(description))) section = sectionIn(prompt) ?? section;
       if (given.step) step = given.step;
-      else if (role === 'editor') {
-        const plans = prompt.search(/\bplans\b/), texts = prompt.search(/\btexts\b/);
-        if (plans >= 0 || texts >= 0) step = texts >= 0 && (plans < 0 || texts < plans) ? 'edit' : 'pre-plan-check';
-      }
       return { section, step };
     });
     if (!tags.length) tags.push({ section, step });
@@ -246,25 +323,40 @@ function fromTranscripts(opts) {
         agent, role, step: tag.step, section: tag.section, status: doc.status,
         changed: Array.isArray(doc.changed_files) ? doc.changed_files.length : 0,
         unresolved: Array.isArray(doc.unresolved) ? doc.unresolved.length : 0,
-        faults: (Array.isArray(doc.faults) ? doc.faults : []).filter(f => f && typeof f === 'object').map(f => {
-          const firstCheck = FIRST_CHECK[f.introduced] ?? null;
-          return {
-            severity: f.severity ?? '?', kind: f.kind ?? '?', introduced: f.introduced ?? null, firstCheck,
-            leak: f.severity === 'wrong' && firstCheck !== null && tag.step !== '-' && stepIndex(tag.step) > stepIndex(firstCheck),
-            owner: f.owner ?? null, file: f.file ?? null, claim: f.claim == null ? null : String(f.claim),
-            evidence: f.evidence ?? null, action: f.action ?? null,
-          };
+        // the block names each fault by its id, and a fault counts once, for the first report that names it
+        faults: (Array.isArray(doc.faults) ? doc.faults : []).map(String).filter(id => byId.has(id) && !named.has(id)).map(id => {
+          named.add(id);
+          return fault(byId.get(id), tag.step);
         }),
       });
     }
   }
+  // a fault no report names, such as one the overseer wrote, counts for the role its id names
+  const loose = new Map();
+  for (const f of listed.filter(f => !named.has(String(f.id)))) {
+    const role = idRole(f), section = /^\d+$/.test(f.list) ? f.list : '-';
+    const key = `${role} ${section}`;
+    if (!loose.has(key)) loose.set(key, { agent: '-', role, step: STEPS[role] ?? '-', section, status: 'faults', changed: 0, unresolved: 0, faults: [] });
+    loose.get(key).faults.push(fault(f, loose.get(key).step));
+  }
+  reports.push(...loose.values());
+  // the fix log, and in it each change a manager made itself: the overseer's, and a coordinator's to a file of another role
+  const fixes = planLists(storyDir, 'fixes').map(x => {
+    const f = byId.get(String(x.fault));
+    const by = x.by ?? '?';
+    return {
+      fault: x.fault == null ? null : String(x.fault), by, file: x.file ?? null, field: x.field ?? null, commit: x.commit == null ? null : String(x.commit),
+      kind: f?.kind ?? null, severity: f?.severity ?? null, owner: f?.owner ?? null,
+      steppedIn: by === 'overseer' || (MANAGERS.includes(by) && f?.owner !== by),
+    };
+  });
   const used = new Set(usage.map(r => r.section).filter(s => s !== '-'));
   const counted = sections.filter(s => !used.size || used.has(s.slice(0, 3)));
   const pages = counted.reduce((n, s) => n + countPages(path.join(pagesDir, s)), 0) || null;
-  return { variant: opts.variant ?? null, story, pages, order: ORDER, agents, usage, reports };
+  return { variant: opts.variant ?? null, story, pages, order: ORDER, agents, usage, reports, dispatches, fixes };
 }
 
-// The run the arguments name: { variant, story, pages, agents, usage, reports }.
+// The run the arguments name: { variant, story, pages, agents, usage, reports, dispatches, fixes }.
 export function loadRun(opts) {
   if (!opts.paths.length) return null;
   const saved = opts.paths.filter(p => p.endsWith('.json'));

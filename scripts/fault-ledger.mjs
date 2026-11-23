@@ -1,8 +1,13 @@
-// Counts the faults of an agent run from the report blocks its agents returned. Run from the repo root:
+// Counts the faults of an agent run from the story's fault lists and fix logs, and the reports from the blocks its
+// agents returned. Run from the repo root:
 //   node scripts/fault-ledger.mjs <run> [--story <id>] [--roles <file>] [--json]
 // <run> is a session's transcript, a folder of transcripts, or a run saved with --json: transcripts.mjs says how
 // each is read. A report block is the fenced yaml block of agents/report.md, and where an agent prints several
-// before it ends its work, the last one counts. An agent that is resumed reports once per resume.
+// before it ends its work, the last one counts. An agent that is resumed reports once per resume. The block names
+// its faults by id, and each fault is read from content/<story>/.plan/faults/.
+//
+// The last part lists the changes a manager made itself, from the fix logs: the overseer's, and a coordinator's
+// to a file of another role. One such change is a repair, and a kind that comes up twice is work for the pipeline.
 //
 // A fault is caught at the step of the agent that reports it. Its "introduced" line names the work that made it,
 // and FIRST_CHECK of transcripts.mjs gives the step whose check should have caught it. A leak is a wrong fault caught at a later
@@ -74,7 +79,19 @@ if (rework.length) {
     rework.map(f => [f.introduced, `${f.role} ${f.section}`.trim(), short(f.file, 70), short(f.action)])));
 }
 
+const stepped = (run.fixes ?? []).filter(x => x.steppedIn);
+console.log('\n## Changes a manager made itself\n');
+if (!stepped.length) console.log('None.');
+else {
+  const kinds = [...new Set(stepped.map(x => `${x.by} · ${x.kind ?? 'no fault named'}`))];
+  const n = k => count(stepped, x => `${x.by} · ${x.kind ?? 'no fault named'}` === k);
+  kinds.sort((a, b) => n(b) - n(a) || a.localeCompare(b));
+  console.log(table(['By · kind of fault', 'Changes', ''], kinds.map(k => [k, n(k), n(k) > 1 ? 'work for the pipeline' : 'a repair'])));
+}
+
 const notes = [];
+const unlogged = count(run.fixes ?? [], x => !x.fault);
+if (unlogged) notes.push(`${unlogged} entries of the fix logs name no fault.`);
 const unsaid = count(faults, f => !f.introduced);
 if (unsaid) notes.push(`${unsaid} of ${faults.length} faults carry no "introduced" line, so the leak count is a lower bound.`);
 const odd = [...new Set(faults.map(f => f.introduced).filter(i => i && !(i in FIRST_CHECK) && !REWORK.includes(i)))];

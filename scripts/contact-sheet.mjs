@@ -1,5 +1,6 @@
 // Draws every image a story shows as a thumbnail in page order, labelled with its page id, so two images that look
-// alike on nearby pages stand out. Reads each page's text, marker and battle card images. Run from the repo root:
+// alike on nearby pages stand out. Reads each page's text, marker and battle card images. A marker is the page's own,
+// in its markers.yaml, or a shared one the page switches on by id. Run from the repo root:
 //   node scripts/contact-sheet.mjs <story id>      writes .cache/<story id>-images-<n>.png, 40 thumbnails a sheet
 // Then prints each image the story shows in more than one place, a place being a page or a battle's card.
 import fs from 'fs';
@@ -23,6 +24,7 @@ collect('content/shared/images');
 const battleDir = id => [path.join(story, 'shared/battles', id), path.join('content/shared/battles', id)].find(d => fs.existsSync(path.join(d, 'battle.yaml')));
 const read = f => fs.existsSync(f) ? fs.readFileSync(f, 'utf8') : '';
 const load = f => { const t = read(f); return t.trim() ? yaml.load(t) : null; };
+const sharedMarkers = { ...load('content/shared/markers.yaml'), ...load(path.join(story, 'shared/markers.yaml')) };
 const tiles = [], places = {};
 const walk = dir => { for (const d of fs.readdirSync(dir, { withFileTypes: true }).sort((a, b) => a.name.localeCompare(b.name))) if (d.isDirectory()) {
   const full = path.join(dir, d.name), pageFile = path.join(full, 'page.yaml');
@@ -30,7 +32,8 @@ const walk = dir => { for (const d of fs.readdirSync(dir, { withFileTypes: true 
   const page = load(pageFile) ?? {}, pageId = d.name.replace(/^\d+-/, ''), ids = [];
   const show = (id, place) => { ids.push(id); (places[id] ??= new Set()).add(place); };
   for (const m of read(path.join(full, 'text/en.md')).matchAll(/^@image\s+(\S+)/gm)) show(m[1], `page ${pageId}`);
-  for (const m of Object.values(load(path.join(full, 'markers.yaml')) ?? {})) if (m?.image) show(m.image, `page ${pageId}`);
+  const markers = [...Object.values(load(path.join(full, 'markers.yaml')) ?? {}), ...(page.markers ?? []).map(id => sharedMarkers[id])];
+  for (const m of markers) if (m?.image) show(m.image, `page ${pageId}`);
   const battle = typeof page.battle === 'string' && battleDir(page.battle);
   if (battle) for (const id of load(path.join(battle, 'battle.yaml'))?.images ?? []) show(id, `card of ${page.battle}`);
   for (const id of new Set(ids)) tiles.push({ page: pageId, id });

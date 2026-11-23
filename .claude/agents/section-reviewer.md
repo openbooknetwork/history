@@ -45,8 +45,9 @@ Read these in full first:
 6. **Read it aloud.** Read each text you changed aloud in your head, and write again a sentence that sounds
    translated, squeezed, or produced by a machine. Leave a good sentence as it is: another possible wording is no
    reason to change it.
-7. **Check.** Run `./node_modules/.bin/harita check <story> <page ids>` and
-   `./node_modules/.bin/harita check <story> --places`, and fix each problem in a text.
+7. **Check.** Run `./node_modules/.bin/harita check <story> <page ids>`,
+   `./node_modules/.bin/harita check <story> --places`, `node scripts/rules-lint.mjs <story> <section number>` and
+   `node scripts/names-check.mjs <story> <section number>`, and fix each problem in a text.
 8. **Faults.** A change you make on a finding of your own, in steps 3 to 6, closes a fault too: write it to the
    list, then fix it, then log it. Write to the list as well what others fix: each marker note that should
    follow a text you changed, with the marker's id and the new fact, each place a text names that its page's map

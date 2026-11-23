@@ -35,7 +35,8 @@ Read these in full first:
    reads well on the map, and keep it out of every text.
 3. **Phase texts.** Write the `text/en.md` of each phase page: what moves in this phase and why, with each
    commander linked to their units' marker.
-4. **Check.** Run the generator again after every edit to it. Run `./node_modules/.bin/harita check <story>
+4. **Check.** Run the generator again after every edit to it. Run `node scripts/card-guard.mjs <story> <section
+   number>`, which lists a figure of the card that lost an author its plan names. Run `./node_modules/.bin/harita check <story>
    <page ids>` and fix each problem in a file you wrote.
 5. **Look.** Capture each phase page as "Checking a story" in `agents/pages.md` says, and once more with
    `SHOT_HOVER` over a unit of each side.

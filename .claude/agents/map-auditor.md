@@ -29,9 +29,9 @@ Read these first:
 - **Borders.** A zone says something of its land: a state holds it, a people lives there, a plague has reached
   it. For each zone, list the places the sources put inside that, the places they put outside it, and the lands
   they say nothing of. Each of the first lies inside the zone and each of the second outside. An edge through
-  land the sources say nothing of is the cartographer's own line: list it under `unresolved`. Test a place by
-  its coordinates with `booleanPointInPolygon` of `@turf/turf`, in a script file. Keep your scripts in a folder of
-  the scratchpad named for the story and the section, since other agents share the scratchpad.
+  land the sources say nothing of is the cartographer's own line: list it under `unresolved`. `node scripts/points.mjs <story> <section number>` prints which zone holds each place on each page and how
+  far it is from the zone's edge, the nearest first: look at the places near a border, and write no script of
+  your own for it.
 - **Basis.** A border or a route marked `sourced` follows a line you have read in a source file: open the file
   of its digest claim and read the passage. One marked `reconstruction` rests on what the plan says, its page's
   text calls it approximate, and it has no bends or corners beyond what that supports. A drawing with no basis in
@@ -40,7 +40,7 @@ Read these first:
   country, and within a few hundred metres on a map of one town. A marker's note tells the event of the page
   that shows it: a page that shows another page's marker with a note about another date is a fault.
 - **Routes.** Each route passes the places the source names, in the source's order, and stays on land or on
-  water as the journey did. Test each route with `node scripts/route-surface.mjs <sea|land> <file>`. A stretch
+  water as the journey did. Test the section's routes with `node scripts/route-surface.mjs <story> <section number>`. A stretch
   within two kilometres of a port the route calls at passes. The test's land closes rivers, fjords and lagoon
   inlets, so judge those stretches on a capture.
 - **Families.** Each state has the family the "Map" part gives it, and a page shows each family in one zone.
@@ -59,8 +59,10 @@ Read these first:
 ## Steps
 
 1. **Read.** For each page, read the sources' account of who held what, then the page's files.
-2. **Test.** Run `./node_modules/.bin/harita check <story> <page ids>`, then the tests of borders, markers and
-   routes. Note each place that falls on the wrong side with its distance from the border.
+2. **Test.** Run `./node_modules/.bin/harita check <story> <page ids>`, `node scripts/rules-lint.mjs <story>
+   <section number>` and `node scripts/zone-gaps.mjs <story>`, then the tests of borders, markers and routes. What
+   the linter prints is a fault as it stands: copy it to the fault list. It cannot judge the careful side, land
+   that no source says was taken, which stays yours. Note each place that falls on the wrong side with its distance from the border.
 3. **Load.** Capture each page of the section at phone size as "Checking a story" in `agents/pages.md`
    says. Capture a page again at the default size where a fault is too small to see on a phone.
 4. **Faults.** Write each fault to `content/<story>/.plan/faults/<section number>.yaml`, in the form of "The

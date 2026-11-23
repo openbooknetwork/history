@@ -41,8 +41,9 @@ Read these in full first:
 2. **Read it aloud.** Read each finished text aloud in your head, as a teacher telling it to one listener. Write
    again every sentence that sounds translated, squeezed, or produced by a machine. Leave a sentence alone once it
    is natural and clear.
-3. **Check.** Run `./node_modules/.bin/harita check <story> <page ids>` and
-   `./node_modules/.bin/harita check <story> --places`, and fix each problem in a file you wrote. A problem that
+3. **Check.** Run `./node_modules/.bin/harita check <story> <page ids>`,
+   `./node_modules/.bin/harita check <story> --places`, `node scripts/rules-lint.mjs <story> <section number>` for
+   the word count and the notes, and `node scripts/names-check.mjs <story> <section number>`, and fix each problem in a file you wrote. A problem that
    names a page file, a zone, a route, a marker or a battle the cartographer or the battle implementor has yet to
    write stays as it is.
 4. **Report.** One short paragraph: how many texts you wrote, each problem of the check that is left, each fact

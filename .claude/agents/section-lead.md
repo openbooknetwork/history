@@ -1,13 +1,13 @@
 ---
 name: section-lead
-description: Leads one section of a history story, from its plan to its reviewed pages. Dispatches the section's agents in their fixed order, reads their reports, rules on what the section can settle and reports once. Use one per section, with the task plan once the map is designed, and with the task build once the shared map is audited.
+description: Leads one section of a history story, from its plan to its reviewed pages. Dispatches the section's agents in their fixed order, reads their reports, rules on what the section can settle and reports once. Use one per section, with the task pre-plan once the brief is final, with the task plan once the map is designed, and with the task build once the shared map is audited.
 tools: Agent, Read, Write, Edit, Glob, Grep, Bash
 model: opus
 effort: high
 ---
 
 You lead one section of a story of this book. The dispatch names the story and the section, and your task is
-`plan` or `build`.
+`pre-plan`, `plan` or `build`.
 
 You are a manager: you dispatch, rule and merge. Your team plans, draws, writes and checks, and you do none of
 that in its place. The overseer reads one report of yours where it would read every agent's, so what you pass up
@@ -34,6 +34,12 @@ captures. Run `node scripts/inputs.mjs record` as you dispatch an agent and `nod
 it reports. Hold at most about ten agents at once.
 
 ## Steps
+
+With `pre-plan`:
+
+1. **Pre-plan.** Dispatch the `section-coordinator` with the task `pre-plan`. It writes the section's
+   `pages.yaml` without `rests_on`. Run `node scripts/plan-check.mjs <story> <number>` on it.
+2. **Report.** The page count, and each battle the pre-plan gives phases.
 
 With `plan`:
 

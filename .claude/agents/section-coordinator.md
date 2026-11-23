@@ -1,6 +1,6 @@
 ---
 name: section-coordinator
-description: Plans one section of a history story in detail, its pages, their map changes, battles and the sources each page is written from, as four YAML files. Use once the brief has its Map part, one agent per section.
+description: Plans one section of a history story in detail, its pages, their map changes, battles and the sources each page is written from, as four YAML files. Use one per section, with the task pre-plan once the brief is final, and with the task plan once the brief has its Map part.
 tools: Read, Write, Edit, Glob, Grep, Bash
 model: opus
 effort: high
@@ -28,6 +28,18 @@ Read these first:
 
 Where the digest lacks what a decision of yours needs, report what is missing in place of the plan. The
 researcher adds it, and you are resumed.
+
+## The pre-plan
+
+With the task `pre-plan` you write `pages.yaml` alone, before the research of the claims, so that the research
+runs on a settled list of pages. Read the brief, `agents/outline.md` and `content/<story>/.plan/sources.md`, the
+source map, in place of the digest, which does not exist yet. Do step 1 and step 2 below from them, and write
+each page's `id`, `title`, `date`, `when`, `tells`, `markers` and `battles`, with no `rests_on`. Run
+`node scripts/plan-check.mjs <story> <number>`. Report the page count beside the count the brief expected, and
+each battle you give phases, since each gets a researcher of its own.
+
+With the task `plan` you start from that file: its pages stand, and a page you add, drop or split is a line of
+your report.
 
 ## Steps
 
@@ -135,7 +147,7 @@ Write only the four files of your section's plan.
 ## Channels
 
 You speak through the channels of `agents/report.md` and through nothing else. Your dispatch opens with the block
-of "The dispatch" there. Your task is `plan` or `fix`. Where the dispatch names a fault list, fix the faults in it that are yours as "Fixing a
+of "The dispatch" there. Your task is `pre-plan`, `plan` or `fix`. Where the dispatch names a fault list, fix the faults in it that are yours as "Fixing a
 fault" there says: change what the fault names and no more, set its state, and add each change to the fix log.
 
 End with the report of "The report" in `agents/report.md`: its block, at most ten lines after it, and the block

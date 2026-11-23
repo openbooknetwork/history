@@ -192,7 +192,7 @@ const words = new Map();
 function taskWords(role) {
   if (!words.has(role)) {
     let text = '';
-    try { text = fs.readFileSync(path.join('.claude', 'agents', `${role}.md`), 'utf8'); } catch { /* no definition */ }
+    try { text = fs.readFileSync(path.join(path.dirname(new URL(import.meta.url).pathname), '..', '.claude', 'agents', `${role}.md`), 'utf8'); } catch { /* no definition */ }
     const list = text.match(/[Yy]our task is\s+([^.:]*)/)?.[1] ?? '';
     words.set(role, [...list.matchAll(/`([\w-]+)`/g)].map(m => m[1]));
   }

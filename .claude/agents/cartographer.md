@@ -32,9 +32,9 @@ Read these in full first:
    owner `map-keeper`.
 3. **Routes and markers.** Draw each route through the stations `map.yaml` gives it, and place each marker by the
    coordinates of its article. Keep a sea route on water and a land route on land along its whole length, and prove it with
-   `node scripts/route-surface.mjs <story> <section number>`. Where you change a marker's id,
-   change the `@<id>` of its links in the page's text too, and no other word of the text, so the story still
-   builds.
+   `node scripts/route-surface.mjs <story> <section number>`. The marker ids of `pages.yaml` are frozen:
+   the section's writer links them from the moment it starts, so write each as planned and rename none. A marker
+   that needs another id is a fault of the plan.
 4. **Check.** Run `./node_modules/.bin/harita check <story> <page ids>` and
    `node scripts/rules-lint.mjs <story> <section number>`, and fix each problem in a file you wrote.
    A problem that names a text or a battle another agent has yet to write stays as it is.

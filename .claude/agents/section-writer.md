@@ -1,6 +1,6 @@
 ---
 name: section-writer
-description: Writes the English texts of one section of a history story from its plan and the sources the plan names. Use once the section's plan is agreed, and to rewrite named pages.
+description: Writes the English texts of one section of a history story from its plan and the sources the plan names. Use once the cartographer has written the section's page files, and to rewrite named pages.
 tools: Read, Write, Edit, Glob, Grep, Bash
 model: opus
 effort: medium
@@ -43,9 +43,9 @@ Read these in full first:
    is natural and clear.
 3. **Check.** Run `./node_modules/.bin/harita check <story> <page ids>`,
    `./node_modules/.bin/harita check <story> --places`, `node scripts/rules-lint.mjs <story> <section number>` for
-   the word count and the notes, and `node scripts/names-check.mjs <story> <section number>`, and fix each problem in a file you wrote. A problem that
-   names a page file, a zone, a route, a marker or a battle the cartographer or the battle implementor has yet to
-   write stays as it is.
+   the word count and the notes, and `node scripts/names-check.mjs <story> <section number>`, and fix each problem in a file you wrote. The page files, the
+   markers and the cards stand when you start, so a marker link that does not resolve is a fault for the
+   cartographer and not yours to work around.
 4. **Report.** One short paragraph: how many texts you wrote, each problem of the check that is left, each fact
    the plan's files lacked, each point where two files differ with the account you followed, and each text over
    300 words with the reason.

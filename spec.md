@@ -5,6 +5,13 @@ Great cloud run. Each item says what changes, where, and when it is done. Bracke
 that argues for it: `[F12.1]` is `feedback.md` item 12 point 1, `[E4.1]` is `evaluation.md` section 4.1, `[L6]` is
 `lean.md` rule 6.
 
+## Where this ends
+
+The end goal is a Claude Code plugin (6.7): the agents, their notes, the channels of 2.0 and the checks of layer
+3 in one package, with hooks that enforce what the notes only ask for today. Each layer below is built so that
+it moves into the plugin unchanged: a script becomes a hook, a form becomes a schema the hook checks, and a rule
+an agent could forget becomes one it cannot break.
+
 ## The cost this spec targets
 
 The baseline run took 73 agents, 1.12 billion cache-read tokens, 43 million cache-write tokens and 5.2 million
@@ -141,6 +148,35 @@ where a script reads it, a form a script can check.
   `decisions.md` and the dispatches are `rules.md`.
 - A run's own notes, as `feedback.md`, `evaluation.md` and `lean.md` were for Alexander, are a record of the
   run and no channel. They go beside `run.json`, in `.plan/run/`, and not at the repo's root.
+
+**The dispatch form.** Every dispatch, and every message that resumes an agent, opens with this block:
+
+```yaml
+story: alexander-the-great
+section: "020"            # all, for an agent that works on the whole story
+step: 8
+task: draw                # one word from the list in the role's definition
+faults: .plan/faults/020.yaml    # only where the task is a fix or a recheck
+scratchpad: <the agent's own folder>
+serve: static             # a static build of its own, or the port of a shared server
+note: Thessaly's border is row 12 of the brief's Map part.    # optional
+```
+
+- It points and does not paste. It holds no rule, which is in `rules.md`, no fault, which is in the fault list,
+  and no list of files to read, which the role's definition gives for a story and a section.
+- Each role's definition lists its task words: `draw` and `fix` for the cartographer, `check`, `recheck` and
+  `plan-check` for the fact-checker, `plans` and `texts` for the editor.
+- The tool's short description takes one form too, `8 020 cartographer draw`, so the list of agents reads as
+  the run.
+- **`note` gives context and never instructs.** It states a fact about this one dispatch that no channel holds:
+  where something is, what changed since the plan. It is one sentence of at most 200 characters, it tells the
+  agent nothing to do, and it is empty in most dispatches. A note that tells the agent how to work is a prompt
+  inside the dispatch, which is the thing the form replaces. A fact given in a second note belongs in `rules.md`.
+- **The form is enforced, not advised.** A dispatch with no block, an unknown field, a task word its role does
+  not list, a note over its length, or text after the block is refused before the agent starts. That takes a
+  hook on the dispatch, which is the plugin of 6.7. Until the plugin exists, `scripts/token-ledger.mjs` lists
+  every dispatch that breaks the form, and the count is part of a run's result.
+- Dispatches are not saved to files. The transcript holds them, and the ledger copies them into `run.json`.
 
 Items 2.1, 2.6, 2.7 and 2.8 each set out one channel, 4.2 the handoff, and the workflow script of 6.5 runs on
 them. Done when `agents/overseer.md` and `agents/report.md` name the seven, each definition names the ones its
@@ -342,8 +378,20 @@ review as one script, so the overseer rules and does not relay. `[F12.11]`
 **6.6 Images uploaded by a workflow.** *history.* A GitHub workflow holds the store token, and on a pull request
 unpacks and uploads the images and removes the pack. `[F20]`
 
-**6.7 A plugin.** *history.* The agents, the overseer notes and the checks packaged as a Claude Code plugin,
-with the checks of 3.9 and the ledger of 0.1 as hooks. `[E6]`
+**6.7 The plugin, the end goal.** *history.* The agents of `.claude/agents/`, the notes of `agents/`, the
+channels of 2.0 and the scripts of layers 0 and 3 packaged as a Claude Code plugin, so every repo built on harita
+and kitap runs the same pipeline. Its hooks enforce what the notes ask for:
+
+- **On a dispatch:** the form of 2.0 is checked, and a dispatch that breaks it does not start.
+- **After an edit:** `harita check` and the linter of 3.1 run on a page, zone, marker or text file,
+  `quotes-check` on the digest and `names-check` on a text.
+- **When an agent ends:** its report block is checked and saved, its fault list is checked against the form of
+  2.6, and its tokens go into the run's ledger.
+- **On a commit:** a commit that names no paths is refused while agents run in parallel.
+
+A first version carries the agents and notes as they are with the dispatch and edit hooks, and each later hook
+is measured on the benchmark of 0.2. The plugin format is to be checked against the current Claude Code docs
+before it is built. `[E6]`
 
 **6.8 Markers with page overrides.** *harita.* A story's `shared/markers.yaml` holds each place once: its
 `lnglat`, its label and a default icon and colour. A page's `markers` list takes an id, or an id with the fields

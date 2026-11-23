@@ -144,11 +144,15 @@ where a script reads it, a form a script can check.
 - A fault in the list carries its `id`, `severity`, `file`, the field, the `old` and `new` text, its `source`,
   `introduced` and a `state` of `open`, `fixed` or `declined`. `scripts/fault-ledger.mjs` then counts from these
   files, and from the transcripts only for a run that has none.
+- **No fix without its fault.** Every change that fixes something closes a fault that was written to the fault
+  list first, however small the change and whoever makes it. An overseer that corrects one word of a caption
+  writes the fault, then the fix. There is one fault list and one fix log, and no fix of another kind.
 - **The fix log is the audit of every fix.** An entry names who made the change, the file and field, the `old`
-  and `new` text, the commit, and why: the id of the fault it closes, or for a small fix made with no fault
-  raised (4.4) the reason in a line. A checker that applies its own fault (4.3) and an auditor or the overseer
-  that makes a small fix write here, since no second agent saw the change. A fix with no entry is a fault of the
-  run, and the hook of 6.7 that checks an agent as it ends compares its changed files with its entries.
+  and `new` text, the commit, and the id of the fault it closes. A checker that applies its own fault (4.3) and
+  an auditor or the overseer that makes a small fix (4.4) write here, since no second agent saw the change. A
+  fix with no entry, or an entry that names no fault, is a fault of the run, and the hook of 6.7 that checks an
+  agent as it ends compares its changed files with its entries. A fault's author shows who found it: one written
+  by the overseer or a coordinator is a step of the kind 2.14 counts.
 - The loose files of the Alexander run each have a channel: `cartography-notes.md` and `IMPLEMENTOR-NOTES.md`
   are handoffs, the fact-checker's files and the overseer's queued fixes are fault lists, and the rules inside
   `decisions.md` and the dispatches are `rules.md`.
@@ -253,7 +257,8 @@ Thebes in September 335 BC. Rests on 1.12 for stories of years BC.
 **2.14 A coordinator or an overseer steps in only for what was missed.** *history.* The work belongs to the
 roles: a researcher researches, a checker checks, a fixer fixes. The overseer and the coordinators dispatch,
 rule and merge. They change a file or act on their own judgement only where the pipeline missed something, and
-each time they do it is an entry in the fix log of 2.0 or a ruling in `decisions.md`, with its reason.
+each time they do it is a fault they wrote with its fix in the fix log of 2.0, or a ruling in `decisions.md`
+with its reason.
 
 One such step is a repair. The same kind of step a second time is a fault of the pipeline: a rule that is not
 written, a check no script makes, or a job no role holds. So `scripts/fault-ledger.mjs` counts the changes and

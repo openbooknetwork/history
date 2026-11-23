@@ -537,18 +537,38 @@ it. The Alexander run found six marker ids planned in two sections, after the fu
 
 ## Layer 6. Structure
 
-**6.1 Split the cartographer.** *history.* A zone keeper drafts the shared zones and stage entries from the
-"Map" part. Page cartographers, one per section, write page files, routes and markers in parallel. With 6.8 a
-cartographer adds a place to the common markers file once and writes its notes in its own pages. Done when nine
-sections of maps take under three hours. `[F5, F11]`
+**6.1 Split the cartographer.** *history.* **Agreed.** One cartographer drew every section in turn, 1.5 to 2.5
+hours each with its fixes, so that each zone exists once. A map keeper owns what every section rests on, the
+states, the starting map and the changes of land of 6.9, and writes them first. Page cartographers, one per
+section, then write page files, routes and markers at once. With 6.8 a cartographer adds a place to the common
+markers file once and writes its notes in its own pages, and the pre-plan check of 5.7 has already caught a
+place two sections claim. Done when nine sections of maps take under three hours. `[F5, F11]`
 
 **6.2 Zones cut page by page.** *harita.* For the stories that stay in today's form: `cleanZones` cuts a zone by
 the outranking zones of each page, with one cached shape per distinct set, so a stage entry per zone is not
 needed. Until it lands, a `zones.yaml` entry inherits its base zone's `clip`. A story in the form of 6.9 needs
 neither. `[F7]`
 
-**6.3 Image placements out of the text.** *kitap.* `@image` placements live in `page.yaml`, so the image-finder
-and the reviewer do not edit the same file. `[F17.2]`
+**6.3 Image placeholders in the text.** *history, with a small change in kitap.* **Agreed, in place of moving
+placements out of the text, which is ruled out.** The image-finder and the reviewer both edited `text/en.md`, so
+a section's review waited for its image search. A text keeps its image lines, and the writer writes them:
+
+- **The writer places a placeholder** where an image belongs, `@image hydaspes-coin`. The name says what the
+  image shows and is unique in the story, and the section's `text.yaml` (2.15) gives a line on what is wanted.
+- **The image-finder does not touch a text.** It finds an image for each placeholder, adds its folder, and
+  writes which placeholder took which image, or `none`, to `.plan/images/<section>.yaml`. It runs beside the
+  fact-check and the review, since it shares no file with them. An image it finds that no placeholder asked for
+  is a line in that file for the reviewer, not an edit.
+- **At the end the placeholders are switched** for the images' ids, `hydaspes-coin` for
+  `hydaspes-coin-3f9a1c`, and a placeholder with no image is taken out with its line. This is a replacement
+  with no judgement in it, so a script does it and not an agent: `scripts/images-place.mjs <story>`, run once
+  every section is reviewed. It changes no sentence, so no text is checked again for it.
+- **Markers and battle cards** take a placeholder in their `image` field the same way.
+- **The build knows a placeholder.** `harita check` and `harita dev` report an image id that has no folder as
+  waiting and build the page without it. A strict build fails on one, so none reaches the site.
+
+Done when no agent but the writer and the reviewer edits a text, and a section's image search and its review
+run at once. `[F17.2]`
 
 **6.4 Notes as a feature.** *kitap.* A `notes:` field or footnote syntax, with the "Notes" label from the UI
 catalogue. `[F10]`

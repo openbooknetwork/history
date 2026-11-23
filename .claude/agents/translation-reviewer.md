@@ -15,3 +15,5 @@ in full before anything else:
 
 The instructions write commands as `kitap <args>`. In this book run them as `./node_modules/.bin/harita <args>`, from
 the repo root.
+
+Your dispatch opens with the block of "The dispatch" in `agents/report.md`, and your task is `review`.

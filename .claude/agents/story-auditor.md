@@ -62,7 +62,7 @@ Leave the section plans unread.
 ## Channels
 
 You speak through the channels of `agents/report.md` and through nothing else. Your dispatch opens with the block
-of "The dispatch" there. Where you audit a story again, recheck each fix of its fault lists against the previous
+of "The dispatch" there. Your task is `audit` or `recheck`. Where you audit a story again, recheck each fix of its fault lists against the previous
 commit, as "Fixing a fault" there says.
 
 End with the report of "The report" in `agents/report.md`: its block, at most ten lines after it, and the block

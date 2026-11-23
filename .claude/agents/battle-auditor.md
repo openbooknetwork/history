@@ -45,7 +45,7 @@ Read these first:
 ## Channels
 
 You speak through the channels of `agents/report.md` and through nothing else. Your dispatch opens with the block
-of "The dispatch" there. Where the dispatch names a fault list, recheck each fix in it against the previous
+of "The dispatch" there. Your task is `audit` or `recheck`. Where the dispatch names a fault list, recheck each fix in it against the previous
 commit, as "Fixing a fault" there says.
 
 End with the report of "The report" in `agents/report.md`: its block, at most ten lines after it, and the block

@@ -47,7 +47,7 @@ Write only the battle's folder, its generator and its phase pages.
 ## Channels
 
 You speak through the channels of `agents/report.md` and through nothing else. Your dispatch opens with the block
-of "The dispatch" there. Where the dispatch names a fault list, fix the faults in it that are yours as "Fixing a
+of "The dispatch" there. Your task is `build` or `fix`. Where the dispatch names a fault list, fix the faults in it that are yours as "Fixing a
 fault" there says: change what the fault names and no more, set its state, and add each change to the fix log.
 
 Where `content/<story>/.plan/handoff/battle-implementor.md` exists, read it first. Before you end, write there

@@ -119,6 +119,28 @@ overseer                                   the story: the brief, the rules, the 
   Twenty agents run at once by default. Every section's lead with its team passes that, so the sections run in
   waves of two or three, or the limit is raised for the run.
 
+## The plugin
+
+The repo is a Claude Code plugin, `story-pipeline`: `.claude-plugin/plugin.json` names the definitions of
+`.claude/agents/`, the hooks of `hooks/` and the workflows of `workflows/`. Start a session with
+`claude --plugin-dir .` to run with it, and check it with `claude plugin validate .`. Its hooks hold what these
+notes ask for, inside the agents too:
+
+- **On a dispatch.** A dispatch of one of these roles that breaks the dispatch form does not start. One that
+  passes has its section's slices made afresh and its inputs hashed, so with the plugin you run neither
+  `scripts/slice.mjs` nor `scripts/inputs.mjs record` yourself.
+- **After an edit.** A plan file is checked against its schema, a text by the linter and `names-check`, a page
+  file by the linter, the digest by `quotes-check`, and the agent is handed what they print.
+- **As an agent ends.** It keeps working until its report has its block, each fault the block names is in a
+  fault list, each of its fixes names a fault, its block is saved, and what changed under it stands under
+  `stale`.
+- **On a commit.** Inside an agent, `git commit -a` and `git add -A` are refused.
+
+`/story-pipeline:section` is the fixed order of one section as a workflow: draw, audit and fix, write, build
+and audit the phase pages, find images, fact check and review. Run it with the story, the section and the
+section's battles with phases in place of the dispatches a lead makes by hand at `build`. It rules on nothing:
+it returns each agent's status with what was left unresolved or stale, and the section's lead rules on that.
+
 ## Lean by default
 
 Every pass of the process runs: the map audit, the fact check, the review, the edit and the story audit. What is

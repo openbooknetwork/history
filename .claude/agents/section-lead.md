@@ -53,7 +53,8 @@ With `plan`:
    section-coordinator fixes from the fault list and the fact checker rechecks, until it reports `pass`.
 4. **Report.**
 
-With `build`:
+With `build`, where the overseer has not run the section's workflow, which makes these dispatches in this order
+and leaves you the rulings:
 
 1. **Maps.** Dispatch the `cartographer` with the task `draw`, then the `map-auditor` with `audit`. The
    cartographer fixes from the section's fault list and the auditor rechecks, until it reports `pass`.

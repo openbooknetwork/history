@@ -14,7 +14,8 @@ Whoever takes the story over, on another machine or in another session, starts f
 | File | Written by | Holds |
 |---|---|---|
 | `brief.md` | you, and its "Map" part by the `map-architect` | the strategy, the sections, the families and zones |
-| `research.md` | `researcher` | what the sources say per section, each line with its quote and file |
+| `sources.md` | `research-coordinator` | the source map: each source read, and what covers each section |
+| `research.md` | the researchers, merged by the `research-coordinator` | what the sources say per section, each line with its quote and file |
 | `names.md` | `names` | the form of each person's and place's name, per year where it changes |
 | `<number>-<section id>/pages.yaml` | `section-coordinator` | the core of each page: its id, title, dates, what it tells, its claims, markers and battles |
 | `<number>-<section id>/map.yaml` | `section-coordinator` | each page's frame, zones, routes and markers, each with its basis |
@@ -41,7 +42,7 @@ folder against them and against each other: run it before a plan is built from.
 Write to `decisions.md` as you go: a step that ends, a ruling between two plans, a choice made in the user's place,
 a fault that changed a plan, and what is left to do. One line each, with the reason.
 
-Keep `rules.md` current from step 4 on. A ruling that every later agent has to follow becomes a rule there the
+Keep `rules.md` current from `final-brief` on. A ruling that every later agent has to follow becomes a rule there the
 moment you make it, and `decisions.md` keeps its reason. Every agent reads `rules.md`. Only you, the user and whoever reviews
 the run read `decisions.md`, so no rule stands there alone, and no dispatch restates one.
 
@@ -77,14 +78,18 @@ work is ordered in three layers, and each manager holds a team it can read.
 
 ```
 overseer                                   the story: the brief, the rules, the rulings, the user
- ├─ researcher, names, map-architect       work on the whole story, each one agent
+ ├─ research-coordinator                   the digest
+ │   ├─ researcher, per section and per battle with phases
+ │   └─ research-reviewer, per section and per battle with phases
+ ├─ names, map-architect                   work on the whole story, each one agent
  ├─ map-keeper, with a map-auditor         the shared map, checked before a section draws on it
- ├─ editor                                 the order of the plans, and the edit
+ ├─ editor                                 the pre-plan check, and the edit
  ├─ section-lead, one per section          the section, from its plan to its reviewed pages
- │   ├─ section-coordinator                its plan
+ │   ├─ section-coordinator                its pre-plan, then its plan
+ │   ├─ fact-checker                       its plan check, and its facts
  │   ├─ cartographer, map-auditor
  │   ├─ section-writer, section-reviewer
- │   ├─ fact-checker, image-finder
+ │   ├─ image-finder
  │   ├─ researcher, for a gap
  │   └─ battle-coordinator, per battle with phases     the battle
  │       ├─ researcher, for a gap
@@ -93,7 +98,8 @@ overseer                                   the story: the brief, the rules, the 
  └─ story-auditor
 ```
 
-- A manager dispatches, rules and merges: you, a section lead, and a battle coordinator for its battle. A worker
+- A manager dispatches, rules and merges: you, the research coordinator, a section lead, and a battle coordinator
+  for its battle. A worker
   makes a thing, and a checker tests what a worker made. Of the definitions only a manager's has the `Agent`
   tool, so a worker or a checker starts nobody.
 - A manager dispatches its own team and nobody else's, by the dispatch form, which holds at every level. A
@@ -145,63 +151,117 @@ Every dispatch, and every message that resumes an agent, opens with the block of
 
 ## Steps
 
-1. **Draft brief.** With the user, write `content/<story>/.plan/brief.md`: the subject, its years, whether it tells
-   a war or a people, and what the reader knows at the end. Then the sections in order, each with:
-   - its number, in tens, its id and its years
-   - **Tells:** the events of the section, one line each
-   - **Battles:** each battle with a card, and the ones that may get phase pages
-   - **Pages:** the count you expect
+A step is known by its name, in a dispatch, a saved run, a report and these notes. This list alone says which
+comes first, and `ORDER` of `scripts/transcripts.mjs` holds it for the scripts.
 
-   Size the story as `agents/outline.md` says. Write `content/<story>/story.yaml` with the book's fields of
-   `content/black-death/story.yaml`.
-2. **Research.** Dispatch the `researcher` with the story id. Where its report lists an address as unread and a
-   section rests on it, the story holds: the user saves the page under the name given, and the researcher is
-   resumed. `node scripts/quotes-check.mjs <story>` proves that each quote of the digest is in the file it names.
-   Run it yourself before the next step. Then read each section's "Coverage" line and the "Thin" part with the
-   user: a section that rests on `wikipedia` alone, and each `thin` claim, goes on only when the user agrees it,
-   and `decisions.md` keeps the ruling.
-3. **Names.** Dispatch the `names` agent with the story id.
-4. **Final brief.** Settle each point of the digest's "Against the brief" and of the names report: change the
-   brief, or keep it and write the reason in `decisions.md`. Show the user the brief with its page count. The work
-   goes on when the user agrees it. Then write `content/<story>/.plan/rules.md`: every standing rule of this
-   story, each in a line or two. A rule that holds for every story belongs in `agents/` and not there.
-5. **Map design.** Dispatch the `map-architect` with the story id. It writes the brief's "Map" part and the
-   `harita` fields of `story.yaml`.
-6. **Section plans.** Dispatch one `section-lead` per section, with the task `plan`. Each has its
-   `section-coordinator` write the section's plan and a `battle-coordinator` plan each battle with phases, and
-   reports once. A family or a zone a lead reports the "Map" part lacks goes into that part under one name
-   before the pages are built. Then run `node scripts/plan-check.mjs <story>`.
-7. **Order.** Dispatch the `editor` with the task `plans`. A fault goes to the lead of its section, for its
-   coordinator, or changes the brief. Show the user each section's page titles in order with the page count. The
-   work goes on when the user agrees them.
-8. **Shared map.** Dispatch the `map-keeper`, which draws the zones every section rests on, and then the
-   `map-auditor` with `section: all`. The keeper fixes from `faults/story.yaml` and the auditor rechecks, until
-   it reports `pass`. No section draws before that.
-9. **Sections.** Dispatch each section's lead again, with the task `build`. A lead takes its section through its
-   maps, texts, battles, images, fact check and review in that order, rules on what the section can settle, and
-   reports once. Every agent that takes captures serves a static build of its own, so its dispatch says
-   `serve: static`. Run the sections in waves, as "Managers" below says.
-10. **Edit.** Dispatch the `editor` with the task `texts`. A fault of its lists goes to the lead of its section,
-    for its reviewer, or for its cartographer where the map is at fault. The pages the editor changed go to the
-    `fact-checker` of their section, through the same lead.
-11. **Whole story.** Check the story as "Checking a story" in `agents/pages.md` says, and run
-    `node scripts/inputs.mjs stale <story>`. Dispatch the `story-auditor`. For each fault it writes to the fault
-    lists, decide the file that changes, a plan, a text, a map file or a battle, and dispatch the lead of its
-    section with the list. The auditor runs again until it reports `pass`.
-    Then save the run's ledger beside the plan, since the transcripts end with the session:
-    `node scripts/token-ledger.mjs <transcripts> --story <story> --json > content/<story>/.plan/run.json`.
-    `<transcripts>` is this session's transcript, `~/.claude/projects/<project>/<session id>.jsonl`, with the
-    session id as it stands in your scratchpad's path, or the folder that holds the agents' transcripts.
-    `node scripts/token-ledger.mjs` and `node scripts/fault-ledger.mjs` print the run's tokens and faults from
-    that file, and `scripts/run-viewer.html` shows it to the user in a browser.
-12. **The user reads the story on a phone.**
-13. **Names per language.** For each language of `languages` in `site.yaml` after `en`, dispatch one
-    `name-finder` with the story id and the language. They run at once, since each language has its own files. A
-    name it leaves `unsourced` is the user's decision.
-14. **Translations.** For each language, once its name finder reports, dispatch one `translator` with the story
-    id and the language. When a translator reports, dispatch the `translation-reviewer` with the same story and
-    language. A change to an English text after this step goes to the translator of each language again, with
-    the page ids.
+| Step | What happens | Who |
+|---|---|---|
+| `brief` | the draft brief | you, with the user |
+| `survey` | research round 1: the sources, and what covers each section | `research-coordinator` |
+| `final-brief` | the brief settled, and `rules.md` written | you |
+| `pre-plans` | each section's page list | section leads, with their section coordinators |
+| `pre-plan-check` | overlaps, order and gaps across the sections | `editor` |
+| `research` | round 2: the claims, per section and per battle, each reviewed | `research-coordinator`, with researchers and research reviewers |
+| `names` | the form of each name | `names` |
+| `map-design` | the map's extent, its families and its zones | `map-architect` |
+| `plans` | the full section plans, the battle plans and the cards | section leads, with their section and battle coordinators |
+| `plan-check` | each plan's routes and borders against the sources | fact checkers, under the section leads |
+| `maps` | the shared map first, audited, then each section's maps, audited | `map-keeper`, cartographers, map auditors |
+| `texts` | each section's texts, once its page files exist | section writers |
+| `phases` | the phase pages of each battle, audited | battle implementors, battle auditors |
+| `images` | each section's images | image finders |
+| `facts` | the fact check with its fixes, then the review | fact checkers, section reviewers |
+| `edit` | the cohesion of the whole | `editor` |
+| `story` | the whole story checked and audited | you, `story-auditor` |
+| `name-forms`, `translation` | each language's names, then its texts | name finders, translators |
+
+- **`brief`.** With the user, write `content/<story>/.plan/brief.md`: the subject, its years, whether it tells
+  a war or a people, and what the reader knows at the end. Then the sections in order, each with:
+  - its number, in tens, its id and its years
+  - **Tells:** the events of the section, one line each
+  - **Battles:** each battle with a card, and the ones that may get phase pages
+  - **Pages:** the count you expect
+
+  Size the story as `agents/outline.md` says. Write `content/<story>/story.yaml` with the book's fields of
+  `content/black-death/story.yaml`.
+- **`survey`.** Dispatch the `research-coordinator` with the task `survey`. It finds the sources, fetches them
+  and writes the source map: what covers each section. Where its report lists an address as unread and a section
+  rests on it, the story holds: the user saves the page under the name given, and the coordinator is resumed.
+  Read each section's coverage with the user: a section that rests on `wikipedia` alone goes on only when the
+  user agrees it, and `decisions.md` keeps the ruling.
+- **`final-brief`.** Settle each point where the source map differs from the brief: change the brief, or keep it
+  and write the reason in `decisions.md`. Show the user the brief with its page count. The work goes on when the
+  user agrees it. Then write `content/<story>/.plan/rules.md`: every standing rule of this story, each in a line
+  or two. A rule that holds for every story belongs in `agents/` and not there.
+- **`pre-plans`.** Dispatch one `section-lead` per section, with the task `pre-plan`. Each has its
+  `section-coordinator` write the section's `pages.yaml` without `rests_on`: the pages, their dates, what each
+  tells, its battles and the places it marks.
+- **`pre-plan-check`.** Dispatch the `editor` with the task `pre-plans`. It reads every pre-plan together. A
+  fault goes to the lead of its section, or changes the brief. Show the user each section's page titles in order
+  with the page count. The work goes on when the user agrees them.
+- **`research`.** Dispatch the `research-coordinator` with the task `claims`. It dispatches one `researcher` for
+  each section and one for each battle the pre-plans give phases, has a `research-reviewer` check each one's
+  lines, and merges them into `research.md`. `node scripts/quotes-check.mjs <story>` proves that each quote of
+  the digest is in the file it names: run it yourself before the next step. Read the digest's "Thin" part with
+  the user: each `thin` claim goes on only when the user agrees it.
+- **`names`.** Dispatch the `names` agent. It runs after the research, where most minor names first stand.
+- **`map-design`.** Dispatch the `map-architect`. It writes the brief's "Map" part and the `harita` fields of
+  `story.yaml`.
+- **`plans`.** Dispatch each section's lead again, with the task `plan`. Each has its `section-coordinator`
+  write the full plan with the section's cards, and a `battle-coordinator` plan each battle with phases and
+  write its card. A family or a zone a lead reports the "Map" part lacks goes into that part under one name
+  before the pages are built. Then run `node scripts/plan-check.mjs <story>`.
+- **`plan-check`.** Each lead has a `fact-checker` check its plan's routes and borders against the passages
+  they name, as its plan is ready, so a wrong plan is caught before the next one rests on it.
+- **`maps`.** Dispatch the `map-keeper`, which draws the zones every section rests on, and then the
+  `map-auditor` with `section: all`. The keeper fixes from `faults/story.yaml` and the auditor rechecks, until
+  it reports `pass`. No section draws before that.
+- **`maps` to `facts`, by section.** Dispatch each section's lead again, with the task `build`. A lead takes its
+  section through its maps, texts, phase pages, images, fact check and review in that order, rules on what the
+  section can settle, and reports once. Every agent that takes captures serves a static build of its own, so
+  its dispatch says `serve: static`. Run the sections in waves, as "Managers" below says.
+- **`images`, at its end.** Once every section is reviewed, run `node scripts/images-place.mjs <story>`, which
+  puts each image's id in place of its placeholder.
+- **`edit`.** Dispatch the `editor` with the task `texts`. A fault of its lists goes to the lead of its section,
+  for its reviewer, or for its cartographer where the map is at fault. The pages the editor changed go to the
+  `fact-checker` of their section, through the same lead.
+- **`story`.** Check the story as "Checking a story" in `agents/pages.md` says, and run
+  `node scripts/inputs.mjs stale <story>`, `node scripts/rules-lint.mjs <story>` and
+  `node scripts/names-check.mjs <story>`. Dispatch the `story-auditor`. For each fault it writes to the fault
+  lists, decide the file that changes, a plan, a text, a map file or a battle, and dispatch the lead of its
+  section with the list. The auditor runs again until it reports `pass`.
+  Then save the run's ledger beside the plan, since the transcripts end with the session:
+  `node scripts/token-ledger.mjs <transcripts> --story <story> --json > content/<story>/.plan/run.json`.
+  `<transcripts>` is this session's transcript, `~/.claude/projects/<project>/<session id>.jsonl`, with the
+  session id as it stands in your scratchpad's path, or the folder that holds the agents' transcripts.
+  `node scripts/token-ledger.mjs` and `node scripts/fault-ledger.mjs` print the run's tokens and faults from
+  that file, and `scripts/run-viewer.html` shows it to the user in a browser. The user then reads the story on
+  a phone.
+- **`name-forms`.** For each language of `languages` in `site.yaml` after `en`, dispatch one `name-finder` with
+  the story id and the language. They run at once, since each language has its own files. A name it leaves
+  `unsourced` is the user's decision.
+- **`translation`.** For each language, once its name finder reports, dispatch one `translator` with the story
+  id and the language. When a translator reports, dispatch the `translation-reviewer` with the same story and
+  language. A change to an English text after this step goes to the translator of each language again, with
+  the page ids.
+
+### What runs side by side
+
+- The sections run at once within a step, in waves.
+- Within a section: its writer starts once the cartographer has written the page files, beside the map audit.
+  Its image finder starts once it has its texts and cards, beside the fact check and the review, since it edits
+  no text. A battle's phase pages are built once its section has its page files.
+- Across sections: the map audit of one section beside the drawing of the next.
+- The battle plans and the cards do not run beside the maps: they are written at `plans`, before any map.
+- Two agents that write the same file never run at once.
+
+### When a plan changes
+
+A plan is not frozen, and it is not kept in step by hand either. A small change to a page, such as a corrected
+date, a dispute moved to its note or a marker renamed, leaves the plan as it is and goes into the fix log. A
+change to the story's shape, a page added, removed or split, or a battle that loses its phase pages, goes back to
+`plans`: the plan is written again, its hash changes, and `node scripts/inputs.mjs stale <story>` lists each
+thing built from the old version to build again.
 
 An agent is fresh for each section: it starts from `rules.md`, its section's slices of the digest and the names,
 its files of the plan and the handoff of its role, and it reads its whole history again on every turn, so a long

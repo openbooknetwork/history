@@ -250,6 +250,18 @@ section-coordinator's definition and the plans editor's, which checks the order 
 Alexander story breaks it: "The Persian Empire of Darius III", dated 336 BC, opens section 030 after the fall of
 Thebes in September 335 BC. Rests on 1.12 for stories of years BC.
 
+**2.14 A coordinator or an overseer steps in only for what was missed.** *history.* The work belongs to the
+roles: a researcher researches, a checker checks, a fixer fixes. The overseer and the coordinators dispatch,
+rule and merge. They change a file or act on their own judgement only where the pipeline missed something, and
+each time they do it is an entry in the fix log of 2.0 or a ruling in `decisions.md`, with its reason.
+
+One such step is a repair. The same kind of step a second time is a fault of the pipeline: a rule that is not
+written, a check no script makes, or a job no role holds. So `scripts/fault-ledger.mjs` counts the changes and
+rulings an overseer or a coordinator made, by kind, and a kind that comes up more than once in a run is listed
+as work for the pipeline, to be closed with a rule, a script or a role and not with a third repair. The small
+fixes of 4.4 count here: they save a round trip, and each one still says something no role caught. Done when a
+run's report lists these steps by kind and the count falls from one run to the next. `[F11, L5]`
+
 ## Layer 3. Scripts in place of agent checks
 
 Each script here does a check an agent does today, in seconds and for no tokens. They are built in this order:
@@ -351,7 +363,8 @@ does not reread the sources, and reads the fix log of its section. Measured on t
 **4.4 Small fixes without a round trip.** *history.* **Agreed.** An auditor fixes a mechanical fault itself, and
 the overseer makes one-line fixes itself. Each such fix is an entry in the fix log of 2.0, with its reason,
 whether or not a fault was raised for it. `agents/report.md` lists what counts as small: a marker note, a card
-date, a caption word, an icon, a date line. Anything else goes to the fault list and its owner. `[F12.9, L5]`
+date, a caption word, an icon, a date line. Anything else goes to the fault list and its owner. By 2.14 a kind
+of small fix that recurs is a fault of the pipeline, to be closed at its cause. `[F12.9, L5]`
 
 **4.5 A card without phases has no battle audit.** *history.* **Agreed.** The section's fact-checker checks its
 figures, commanders, dates and site, and fixes what it finds under 4.3. `[F17, L8]`
@@ -361,10 +374,12 @@ agents to a smaller model waits until the workflow itself is settled and measure
 a change of process cannot be told apart in the numbers. The candidates then are `image-finder`, `names`,
 `name-finder` and plan-sync edits, each tested on the benchmark. `[F12.10]`
 
-**4.7 Research gates.** *history.* Four rules for every line of the digest, held by the research-coordinator of
+**4.7 Research gates.** *history.* Four rules for every line of the digest, held by the research-reviewer of
 6.10 and until then by the researcher: a second account before a date, place or figure is marked `agreed`; the
 same minimum of scholarly sources for every section; a check, for each author used twice, whether the later work
-withdraws the earlier; and no Coverage line "no source gives X" without a search of the read files.
+withdraws the earlier; and no Coverage line "no source gives X" without a search of the read files. A script
+counts the sources on each `agreed` line and in each section and lists the authors used with two works. Whether
+two sources are independent, and the comparison of two works, stay with the reviewer.
 `[F9, F17.6, E4.2, E4.3]`
 
 ## Layer 5. Step order
@@ -497,9 +512,17 @@ researchers under it take its place, in two rounds.
   another: every dispatch comes from the overseer or the research-coordinator.
 - **A plan can mark any other page heavy,** for its many sources or its disputed figures, and that page gets a
   researcher of its own. It is the exception.
-- **The coordinator owns the digest.** It hands out the claim ids, merges the researchers' lines into
-  `research.md`, removes a claim two of them wrote, and rules where two of them give one claim a different
-  standing. It holds the gates of 4.7 for every line before it merges it.
+- **A `research-reviewer` checks each section's lines before they are merged.** Research was the one step that
+  made work with no agent to check it: the cartographer has the map-auditor, the writer the fact-checker, and the
+  researcher had `quotes-check` alone, which proves a quote stands in its file and not that it carries its claim.
+  One reviewer per section, and one per battle with phases, holds the gates of 4.7, tests that each quote
+  carries its claim, and that each pointer is precise enough to find its passage. It checks in full the dates,
+  places and figures, every `agreed` line, every "no source gives X" and the claims the story turns on, and
+  samples the rest. It writes its faults to the fault list, and the researcher fixes them.
+- **The coordinator coordinates.** It hands out the work and the claim ids, merges the reviewed lines into
+  `research.md`, removes a claim two researchers wrote, and rules where two of them give one claim a different
+  standing. It does not review: an agent that judged its own team's work would hold two jobs, and the ledger
+  could not show what checking research costs or finds.
 - **Who reads the sources, and for what.** The researcher, to find and to mark. The writer, the marked passages
   for the full account it tells. The battle-coordinator, the marked passages for where the units stood. The
   fact-checker and the auditors, the same passages to check the work against them. Whether a writer can work

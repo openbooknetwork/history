@@ -63,8 +63,8 @@ researcher adds it, and you are resumed.
 
 ## Pages
 Per page, in order: its id, its date, the event, why it happened, and the change of the map in one line. Then
-`Rests on:` with the digest ids of the claims the page tells, and how the page tells each one that is `disputed`
-or `open`.
+`Rests on:` with the digest ids of the claims the page tells, and nothing but ids. Then `How:` with how the page
+tells each one that is `disputed` or `open`, and each reference to a passage, such as "Arrian 1.1.5".
 
 ## Left out
 Each event of the digest's section that gets no page and no clause, with the reason.

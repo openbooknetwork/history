@@ -542,9 +542,10 @@ it. The Alexander run found six marker ids planned in two sections, after the fu
 cartographer adds a place to the common markers file once and writes its notes in its own pages. Done when nine
 sections of maps take under three hours. `[F5, F11]`
 
-**6.2 Zones cut page by page.** *harita.* `cleanZones` cuts a zone by the outranking zones of each page, with
-one cached shape per distinct set. Stage entries are then not needed. Until it lands, a `zones.yaml` entry
-inherits its base zone's `clip`. `[F7]`
+**6.2 Zones cut page by page.** *harita.* For the stories that stay in today's form: `cleanZones` cuts a zone by
+the outranking zones of each page, with one cached shape per distinct set, so a stage entry per zone is not
+needed. Until it lands, a `zones.yaml` entry inherits its base zone's `clip`. A story in the form of 6.9 needs
+neither. `[F7]`
 
 **6.3 Image placements out of the text.** *kitap.* `@image` placements live in `page.yaml`, so the image-finder
 and the reviewer do not edit the same file. `[F17.2]`
@@ -593,28 +594,80 @@ note becomes optional. Done when the Alexander story builds with about 164 marke
 id with a letter suffix. Until it lands, a page that needs another note takes a marker id of its own, and 3.1
 checks it. `[F4, F17.3]`
 
-**6.9 Zones with dates, and pages that take their zones by date.** *harita.* A zone carries the date it begins,
-and a page no longer lists its zones: the build shows on each page the zones that stand on the page's date.
+**6.9 States and changes of land, in place of zones per page.** *harita.* **Agreed.** Today a cartographer says
+what to draw on each page: a list of zones, each a state at one stage. A story of this form says what is true,
+once, and the build works out each page's map from the page's date.
 
-- **The date format.** One normalized form for zones and for a page's `when` (1.12): a year, a year and month, or
-  a full date, with a year before our era written as historians count it, so March 335 BC is `-0335-03`. It is
-  never shown to the reader. The shown `date` stays free text, such as "Spring 326 BC", since a normalized date
-  claims more than the sources know.
-- **Falling back.** A beginning with a year alone is 1 January of it, and with a month the first day of the
-  month. The writer turns a season into its first month: spring March, summer June, autumn September, winter
-  December of the earlier year. An end falls the other way, to the last day of its year or month.
-- **Endings.** A zone ends when the next zone of its line begins, the line being the id without its year:
-  `macedon-340`, then `macedon-335`. A zone takes an end date of its own only where its state ends with no
-  successor. Fewer dates then need a source.
-- **Which moment a page shows.** The end of the page's span: a page of 336 to 335 BC shows the zones that stand
-  at the end of 335 BC, since a map shows the outcome of its page's events.
-- **Overrides.** A page can still name a zone to add or to leave out, for a claim or a plan the text tells.
+Three files hold a story's map.
 
-With 6.2 this ends three rules at once. No page can forget a zone its neighbours show, so 3.10 becomes a check
-of the dates and no longer of each page's list. A legend name cannot outlast its zone. One Persian zone serves
-from 336 to 330 BC, with no copy per stage. The cost is a date for every zone, each a claim with a source, and
-pages that all set `when`. Rests on 1.12, 2.13 and 6.2. How a line is told, by the id or by a field, is settled
-when it is built. `[F4, F7]`
+```yaml
+# shared/states.yaml: who exists
+macedon: { name: "Macedon", family: macedon }
+persia:  { name: "Persian Empire", family: persia }
+```
+
+```yaml
+# shared/start.yaml: who holds what as the story opens
+when: -0360
+holds:
+  macedon: lands/macedon-360.geojson
+  persia:  lands/persia-360.geojson
+```
+
+```yaml
+# shared/changes.yaml: each time land changes hands
+- when: -0334-05
+  from: persia
+  to: macedon
+  land: lands/hellespontine-phrygia.geojson
+  rests_on: [030.7]
+  basis: sourced
+- when: -0333-11
+  from: persia
+  to: macedon
+  land: lands/cilicia.geojson
+  rests_on: [040.3]
+  basis: reconstruction
+  why: Tarsus is taken. The mountain border follows the Taurus watershed.
+```
+
+- **A state has one id, with no year in it.** Its legend name can take dates, where the name itself changes.
+- **A change is one fact:** a date, the state that gives the land up, the state that takes it, the land, the
+  lines of the digest it rests on, and its basis. A fact-checker checks it as it checks a sentence.
+- **A page lists no zones.** It has a `when` (1.12), and the build shows what each state holds at the end of the
+  page's span. A page can still `hide` a state, or show a claim its text tells.
+- **Dates** take one normalized form, a year, a year and month, or a full date, with a year BC written as
+  historians count it: March 335 BC is `-0335-03`. A year alone is 1 January and a month its first day. The
+  writer turns a season into its first month: spring March, summer June, autumn September, winter December of
+  the earlier year. The date is never shown: the page's shown `date` stays free text.
+- **The awkward cases.** A new state takes its first land by a change out of another's, as the successors do
+  out of Macedon in 323 BC. A state that ends gives up `land: all`. `from: none` takes land nobody held, and
+  `to: none` leaves it bare. A conquest that left land untaken draws its piece with that land left out, which
+  is the careful side with nothing to remember. A change that is undone between two pages never shows.
+- **A piece is drawn generously.** A change moves only what the giver holds inside the piece, so the
+  cartographer draws the new frontier with care and overshoots the coast and the outer border.
+
+**The build cuts the map once, into cells.** It lays every outline and every piece over each other one time,
+which cuts the land into cells that each change hands whole. A date is then a table of which state owns each
+cell, a change relabels cells, and a page's map is the cells of each owner merged. harita holds zones this way
+already, as a TopoJSON coverage whose neighbours share one line. So two neighbours cannot leave a sliver, a
+border that does not move is the same line on every page, and no shape is worked out per page.
+
+**The build checks** that the giver holds land inside each piece and warns where a change moves nothing, that
+the changes are in the order of their dates and name states that exist, that each has its `rests_on` or a
+`reconstruction` with its `why`, and that no cell has two owners.
+
+**What it ends.** A page cannot forget a zone its neighbours show (3.10), a legend name cannot outlast its zone,
+a zone is never cut by a stage it should not meet (6.2, 3.8), and one Persia serves the whole story with no copy
+per stage. The Alexander story has 88 zones, most of them a state at another stage, and would have about 24
+states, a starting map and one change per conquest. The rules of 2.2 on zone names, neighbours' zones and the
+single cut stay for the stories built in today's form, which keep it.
+
+**First, a trial that redraws nothing.** The Alexander story has every stage drawn. A script takes each piece as
+the later stage less the earlier, writes the changes of one section, builds its maps from them and compares
+them with today's. It shows whether the overlay gives clean cells, or scraps where two hand-drawn lines nearly
+meet, which is the one way this goes wrong. Done when a new story is built in this form with no zone listed on
+any page. Rests on 1.12 and 2.13. `[F4, F7]`
 
 **6.10 A research team.** *history.* One researcher did all of a story's research at step 2, before any page
 was decided, was resumed about fifteen times and passed 650,000 tokens. A `research-coordinator` and fresh

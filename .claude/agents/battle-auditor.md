@@ -1,7 +1,7 @@
 ---
 name: battle-auditor
 description: Audits one battle a battle-implementor built for a history story, its card, plan and phase pages, against the sources and the captures. Use after the battle-implementor reports.
-tools: Read, Glob, Grep, Bash
+tools: Read, Write, Glob, Grep, Bash
 model: opus
 effort: medium
 ---
@@ -47,6 +47,8 @@ Read these first:
 You speak through the channels of `agents/report.md` and through nothing else. Your dispatch opens with the block
 of "The dispatch" there. Your task is `audit` or `recheck`. Where the dispatch names a fault list, recheck each fix in it against the previous
 commit, as "Fixing a fault" there says.
+
+Write only fault lists and your file in `reports/`.
 
 End with the report of "The report" in `agents/report.md`: its block, at most ten lines after it, and the block
 saved to `content/<story>/.plan/reports/`.

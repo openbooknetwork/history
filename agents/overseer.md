@@ -22,7 +22,7 @@ Whoever takes the story over, on another machine or in another session, starts f
 | `decisions.md` | you | the state of each step, and each decision with its reason |
 | `reports/<section>-<role>.yaml` | every agent | the block of each of its reports, one entry per run |
 | `faults/<section number>.yaml`, `faults/story.yaml` | the checkers | each fault, with its state |
-| `fixes/<section number>.yaml` | whoever fixes a fault | each change that fixed one |
+| `fixes/<section number>.yaml`, `fixes/story.yaml` | whoever fixes a fault | each change that fixed one |
 | `handoff/<role>.md` | an agent | one page for the next agent of its role |
 
 `content/<story>/wikipedia.urls` and `references.urls` list the addresses the research read.
@@ -33,8 +33,8 @@ Write to `decisions.md` as you go: a step that ends, a ruling between two plans,
 a fault that changed a plan, and what is left to do. One line each, with the reason.
 
 Keep `rules.md` current from step 4 on. A ruling that every later agent has to follow becomes a rule there the
-moment you make it, and `decisions.md` keeps its reason. Every agent reads `rules.md`. Only you and the reviewer
-read `decisions.md`, so no rule stands there alone, and no dispatch restates one.
+moment you make it, and `decisions.md` keeps its reason. Every agent reads `rules.md`. Only you, the user and whoever reviews
+the run read `decisions.md`, so no rule stands there alone, and no dispatch restates one.
 
 ## Channels
 
@@ -67,8 +67,9 @@ Every dispatch, and every message that resumes an agent, opens with the block of
 
 - It points and does not paste. It holds no rule, which is in `rules.md`, no fault, which is in the fault list,
   and no list of files to read, which the role's definition gives for a story and a section.
-- `battle`, `pages` and `lang` stand only where the work is one battle, named pages or one language. The story,
-  the section, and these three where they stand, are all the block says of what to work on.
+- `battle`, `pages`, `lang` and `names` stand only where the work is one battle, named pages, one language or
+  named names. The story, the section, and these four where they stand, are all the block says of what to work
+  on.
 - `task` is one word from the list in the role's definition.
 - `scratchpad` names a folder of the agent's own, since agents that run at once share the scratchpad.
 - `note` gives context and never instructs. It states a fact about this one dispatch that no channel holds. It is

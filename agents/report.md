@@ -14,9 +14,9 @@ known reader and one place. The places below are in `content/<story>/.plan/`.
 | Dispatch | the overseer | one agent | the block of "The dispatch", in the message that starts or resumes the agent |
 | Report | an agent | the overseer | the block of "The report", saved to `reports/` |
 | Fault list | a checker | the fixer | `faults/<section number>.yaml`, and `faults/story.yaml` for a fault of no one section |
-| Fix log | whoever changes a file to fix it | the reviewer and the user | `fixes/<section number>.yaml`, one entry a change |
+| Fix log | whoever changes a file to fix it | the section's reviewer, the user and whoever reviews the run | `fixes/<section number>.yaml`, and `fixes/story.yaml` for a fault of `faults/story.yaml`, one entry a change |
 | Handoff | an agent | the next agent of its role | `handoff/<role>.md`, one page |
-| Decision log | the overseer | the user and the reviewer | `decisions.md` |
+| Decision log | the overseer | the user and whoever reviews the run | `decisions.md` |
 
 - What the next agent needs is in a channel. Nothing that matters stays only in a scratchpad or a message.
 - Agents do not write to each other. A checker writes a fault, the fixer sets its state, and the checker reads the
@@ -35,6 +35,7 @@ section: "020"            # all, for an agent that works on the whole story
 battle: issus-333         # only for an agent that works on one battle
 pages: [the-danube]       # only where the work is named pages of the section and no others
 lang: tr                  # only for an agent that works in one language
+names: [Constantinople]   # only for a name finder that looks up named names
 step: maps                # the step's name, as `ORDER` of `scripts/transcripts.mjs` lists them
 task: draw                # one word from the list in the role's definition
 faults: .plan/faults/020.yaml    # only where the task is a fix or a recheck
@@ -103,8 +104,8 @@ The fixer applies each fault of its own as it is written, without doing the chec
   stays unless the fault says to remove it.
 - Set the fault's state, then add the change to the fix log with the `old` and `new` text of each field you
   changed. That entry is the diff of the fix: "done" says nothing of what else the field lost.
-- A checker rechecks a fix against the previous commit, with `git diff <commit>^ <commit> -- <file>`, and not
-  against the fault alone.
+- A checker rechecks a fix against the commit its fix log entry names, with `git diff <commit> -- <file>`, and
+  not against the fault alone.
 
 ## The fix log
 
@@ -118,10 +119,16 @@ fix log of the fault's section:
   field: <the field that changed>
   old: <the text before>
   new: <the text after>
-  commit: <the commit that holds the change>
+  commit: <the commit the change was made on, as `git rev-parse --short HEAD` gives it before the change>
 ```
 
 A fix with no entry, or an entry that names no fault, is a fault of the run.
+
+## The handoff
+
+Where another agent of your role works after you, on the next section or the next battle, and you learned
+something it needs and no other channel holds, write it to `handoff/<role>.md` before you end: one page, with
+what the next one must know and nothing else. Where the file exists as you start, read it first.
 
 ## The report
 

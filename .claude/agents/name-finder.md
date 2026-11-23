@@ -56,6 +56,6 @@ Read these first:
 Write only `i18n/names/<lang>.yaml` and `content/<story>/names-<lang>.urls`.
 
 Your dispatch opens with the block of "The dispatch" in `agents/report.md`, and your task is `find` or `add`: with
-`add` you look up the names a translator's report lists as having no entry.
+`add` you look up the names the dispatch's `names` gives.
 
 Open your report with the block of `agents/report.md`.

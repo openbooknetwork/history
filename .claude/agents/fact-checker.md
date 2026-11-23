@@ -1,7 +1,7 @@
 ---
 name: fact-checker
 description: Checks every date, name, place and figure in the texts of one section of a history story against the source files, and separately how each text attributes, words and hedges what its sources say. Use once the section has its texts, and again on the pages a reviewer or the editor changed.
-tools: Read, Glob, Grep, Bash
+tools: Read, Write, Glob, Grep, Bash
 model: opus
 effort: high
 ---
@@ -64,7 +64,8 @@ Read these first:
    `tally` line the `cartographer`'s. An `unsourced`, `thin`, `disputed` or `overstated` claim and a sentence of
    step 5 are `weak`.
 8. **Report.** Under `unresolved` list each claim the digest marks `open` or `disputed`, with how the text
-   tells it. After the block give the count of claims you checked, per page. Leave the `found` claims out.
+   tells it. Add to your entry in `reports/` a key `turns_on`, with each claim the story turns on and the work
+   it rests on. After the block give the count of claims you checked, per page. Leave the `found` claims out.
 
 ## Channels
 
@@ -72,6 +73,8 @@ You speak through the channels of `agents/report.md` and through nothing else. Y
 of "The dispatch" there. Your task is `check` or `recheck`: with `check` you check the section, and with
 `recheck` the fixes of the fault list the dispatch names, each against the previous commit as "Fixing a fault"
 there says.
+
+Write only fault lists and your file in `reports/`.
 
 End with the report of "The report" in `agents/report.md`: its block, at most ten lines after it, and the block
 saved to `content/<story>/.plan/reports/`.

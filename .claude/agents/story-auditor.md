@@ -1,7 +1,7 @@
 ---
 name: story-auditor
 description: Audits a finished history story as its reader meets it, against the research digest, the sources and the built maps, and reports each fault with its evidence. Use once every section is reviewed, the editor reports pass and the story checks ok.
-tools: Read, Glob, Grep, Bash
+tools: Read, Write, Glob, Grep, Bash
 model: opus
 effort: high
 ---
@@ -64,6 +64,8 @@ Leave the section plans unread.
 You speak through the channels of `agents/report.md` and through nothing else. Your dispatch opens with the block
 of "The dispatch" there. Your task is `audit` or `recheck`. Where you audit a story again, recheck each fix of its fault lists against the previous
 commit, as "Fixing a fault" there says.
+
+Write only fault lists and your file in `reports/`.
 
 End with the report of "The report" in `agents/report.md`: its block, at most ten lines after it, and the block
 saved to `content/<story>/.plan/reports/`.

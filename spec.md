@@ -467,18 +467,42 @@ when it is built. `[F4, F7]`
 was decided, was resumed about fifteen times and passed 650,000 tokens. A `research-coordinator` and fresh
 researchers under it take its place, in two rounds.
 
+- **What a researcher is for.** It finds the correct sources and marks where each claim stands in them. A digest
+  line is a pointer: the claim, its quote, the file, the heading or the passage, and how well the sources agree.
+  The agents after it still open the source for its full account, as the researcher's definition says today. The
+  rule is that nobody searches twice: a line precise enough that the next agent reads four chapters and not the
+  book.
 - **Round 1, the survey, at step 2.** The coordinator finds the sources, fetches them and writes what covers
   each section: the source map the brief and the plans are made from. It reads for coverage and writes no claim.
 - **Round 2, the claims, after the section plans of step 6.** The pages now exist. The coordinator dispatches one
-  researcher per section, which writes the digest lines its section's pages need, each with its quote. A heavy
-  page gets a researcher of its own: a battle with phase pages, and any page its plan marks heavy for its many
-  sources or disputed figures. A battle's researcher writes before the battle-coordinator plans from its lines.
+  researcher per section, which writes the digest lines its section's pages need.
+- **A battle with phase pages has a researcher of its own.** It finds which sources tell the battle, which of
+  them give the positions and the movements and where, the figures, and where the authors differ, by one list
+  of questions for every battle: the ground, each side's order of battle, each phase, the strengths and the
+  losses. The `battle-coordinator` then reads the passages those lines mark and plans the ground, the order of
+  battle and the phases. Its plan cites the claim ids and no longer carries the quotes. The section's researcher
+  writes no claim on that battle. A battle with a card alone stays with the section's researcher.
+- **A gap goes back through a channel.** A battle-coordinator or a writer that lacks a fact does not search for
+  it. It reports the question, and the research-coordinator dispatches a researcher for it. No agent starts
+  another: every dispatch comes from the overseer or the research-coordinator.
+- **A plan can mark any other page heavy,** for its many sources or its disputed figures, and that page gets a
+  researcher of its own. It is the exception.
 - **The coordinator owns the digest.** It hands out the claim ids, merges the researchers' lines into
   `research.md`, removes a claim two of them wrote, and rules where two of them give one claim a different
   standing. It holds the gates of 4.7 for every line before it merges it.
+- **Who reads the sources, and for what.** The researcher, to find and to mark. The writer, the marked passages
+  for the full account it tells. The battle-coordinator, the marked passages for where the units stood. The
+  fact-checker and the auditors, the same passages to check the work against them. Whether a writer can work
+  from the digest alone is a variant to measure on the benchmark, and not this item's rule.
 - **Why per section and not per page.** A section's pages draw on the same chapters of the same sources, so one
   agent opens them once, and a dispute that touches three pages gets one ruling. The Alexander story would take
-  9 section researchers and about 5 for its battles, against 71 per page.
+  9 section researchers and 5 for its battles with phases, against 71 per page.
+
+The roles stay apart so that a run can be read: the ledger gives the cost of research and of planning for each
+battle, and a fault is the research's where a figure is wrong and the battle plan's where a right figure is
+drawn in the wrong place. In the Alexander run the two ran together: the battle-coordinators searched for
+themselves, after the plans and texts had used the first researcher's thinner lines, and found the Persian
+Gate's name and the dead at Issus wrong.
 
 Round 2 takes the place of the gap batches of 5.3: the research no longer comes before its questions. The names
 agent runs after round 2, since most minor names first appear in its lines. Each researcher starts from

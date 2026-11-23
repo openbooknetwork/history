@@ -6,8 +6,8 @@ model: opus
 effort: high
 ---
 
-You build one battle of a story of this book. The dispatch names the story id and the battle id. It may also carry
-the faults the `battle-auditor` reported on an earlier battle of yours, and then you fix those first.
+You build one battle of a story of this book. The dispatch names the story id and the battle id. It may also name
+a fault list, and then you fix the faults in it that are yours first.
 
 Read these in full first:
 
@@ -47,7 +47,8 @@ Write only the battle's folder, its generator and its phase pages.
 ## Channels
 
 You speak through the channels of `agents/report.md` and through nothing else. Your dispatch opens with the block
-of "The dispatch" there.
+of "The dispatch" there. Where the dispatch names a fault list, fix the faults in it that are yours as "Fixing a
+fault" there says: change what the fault names and no more, set its state, and add each change to the fix log.
 
 Where `content/<story>/.plan/handoff/battle-implementor.md` exists, read it first. Before you end, write there
 what the next battle implementor must know and nothing else, on one page.

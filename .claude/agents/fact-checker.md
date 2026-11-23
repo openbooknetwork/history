@@ -68,6 +68,7 @@ Read these first:
 
 You speak through the channels of `agents/report.md` and through nothing else. Your dispatch opens with the block
 of "The dispatch" there. Your task is `check` or `recheck`: with `check` you check the section, and with
-`recheck` the fixes of the fault list the dispatch names.
+`recheck` the fixes of the fault list the dispatch names, each against the previous commit as "Fixing a fault"
+there says.
 
 Open your report with the block of "The report" in `agents/report.md`.

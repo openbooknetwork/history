@@ -51,7 +51,8 @@ section's page files, zones, routes and markers.
 
 You speak through the channels of `agents/report.md` and through nothing else. Your dispatch opens with the block
 of "The dispatch" there. Your task is `draw` or `fix`: with `draw` you draw the section, and with `fix` you fix
-the faults of the list the dispatch names.
+the faults of the list the dispatch names that are yours, as "Fixing a fault" there says: change what the fault
+names and no more, set its state, and add each change to the fix log.
 
 Where `content/<story>/.plan/handoff/cartographer.md` exists, read it first. Before you end, write there what the
 next cartographer must know and nothing else, on one page.

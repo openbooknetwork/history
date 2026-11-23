@@ -54,6 +54,7 @@ section.
 ## Channels
 
 You speak through the channels of `agents/report.md` and through nothing else. Your dispatch opens with the block
-of "The dispatch" there.
+of "The dispatch" there. Where the dispatch names a fault list, fix the faults in it that are yours as "Fixing a
+fault" there says: change what the fault names and no more, set its state, and add each change to the fix log.
 
 Open your report with the block of "The report" in `agents/report.md`.

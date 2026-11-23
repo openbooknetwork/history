@@ -47,13 +47,15 @@ tells you nothing to do.
 
 ## The fault list
 
-A fault is one entry of its section's list:
+A fault is one edit, and one entry of its section's list. It names its file and its field, says whether it
+replaces the field's whole value or one clause of it, and quotes the old text word for word:
 
 ```yaml
 - id: <the fault's own id>
   severity: wrong     # wrong, weak or taste
   file: content/<story>/pages/<section>/<page>/text/en.md
   field: <the field of the file that changes>
+  replaces: clause    # value where `new` is the field's whole value, clause where it stands in place of `old` inside it
   old: <the text as it stands>
   new: <the text that takes its place>
   source: <the line of the source the fault rests on, with its file>
@@ -63,6 +65,17 @@ A fault is one entry of its section's list:
 
 The checker writes the fault with the state `open`. The fixer sets it to `fixed` or `declined`, and changes no
 other line of the entry.
+
+## Fixing a fault
+
+The fixer applies each fault of its own as it is written.
+
+- A clause edit puts `new` in place of `old` and leaves the rest of the field as it stands. Every author's figure
+  stays unless the fault says to remove it.
+- Set the fault's state, then add the change to the fix log with the `old` and `new` text of each field you
+  changed. That entry is the diff of the fix: "done" says nothing of what else the field lost.
+- A checker rechecks a fix against the previous commit, with `git diff <commit>^ <commit> -- <file>`, and not
+  against the fault alone.
 
 ## The fix log
 

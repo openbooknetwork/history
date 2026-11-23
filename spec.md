@@ -587,6 +587,10 @@ is its work product. Done when no research agent passes 300,000 tokens and the l
 
 ## Not in this spec
 
+- Translation: the steps `name-forms` and `translation`, with the name-finder, the translator and the
+  translation-reviewer. They are shelved for a session of their own. The list of 5.0 names them so the order is
+  whole, and nothing else here changes them.
+
 - Sources the run could not read (Polyaenus, Hammond and Griffith II, Arrian's *Indica*, the Diadochi Chronicle,
   Strabo, Depuydt) and sites that refused fetches. These are the story's gaps, listed in `decisions.md`.
 - Unit hover labels and the phase page that drew the previous phase's armies. They need one check in a real

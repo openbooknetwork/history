@@ -60,23 +60,24 @@ after the step meant to catch it is listed as a leak, as in `[E4.1]`. `[E2]`
 
 ## Layer 1. Tools
 
-**1.1 `screenshot.mjs` on Linux.** *history.* Pick the browser from `CHROME_PATH`, then the macOS path, then
-`/usr/bin/google-chrome`, `chromium`, and Playwright's Chromium under `/opt/pw-browsers`. Add `--no-sandbox` when
-running as root. Done when the script captures in a cloud container unchanged. `[F2]`
+**1.1 `screenshot.mjs` on Linux.** *history.* **Built.** The browser is `CHROME_PATH`, else the first found of
+Chrome on macOS, `google-chrome` and `chromium` on Linux, and Playwright's Chromium under `/opt/pw-browsers`. It
+runs with `--no-sandbox` as root. Tested on macOS only: a cloud container has still to run it. `[F2]`
 
-**1.2 `SHOT_TEXT=1`.** *history.* Switch to the page's Text view before the capture, and document it in
-`agents/pages.md`. Done when a battle card can be captured as a phone reader sees it. `[F2]`
+**1.2 `SHOT_TEXT=1`.** *history.* **Built.** Opens each page's Text view before its capture. It is still to be
+documented in `agents/pages.md`, with the layer 2 edits. `[F2]`
 
-**1.3 Chrome cleaned up on every exit.** *history.* `screenshot.mjs` kills its Chrome on success, error and
-timeout. Done when a failed capture leaves no process behind. `[F6]`
+**1.3 Chrome cleaned up on every exit.** *history.* **Built.** `screenshot.mjs` ends its Chrome and removes its
+profile folder on a finished run, an error, a timeout and a signal. `[F6]`
 
 **1.4 Captures that wait for the map.** *harita and history.* The engine skips the route draw-in animation under
 a test flag, or reports when it has ended, and `screenshot.mjs` waits for that. Done when stepping from Miletus
 to Halicarnassus draws the routes in 8 of 8 captures. `[F6]`
 
-**1.5 `harita dev` watches only the story.** *harita.* Watch `content/<story>/`, `content/shared/`, `i18n/` and
-`site.yaml`, and skip the dot folders and `node_modules/`. Done when five servers run at once in a cloud container
-without `ENOSPC`. `[F8]`
+**1.5 The dev server watches only the story.** *kitap.* `kitap/src/dev.mjs` watches all of `content/` with every
+story's images, `i18n/`, `plugins/` and its own source. With `--story` it watches that story's folder,
+`content/shared/` and `i18n/` alone. Done when five servers run at once in a cloud container without `ENOSPC`.
+`[F8]`
 
 **1.6 An unknown battle is a warning in dev.** *harita.* `harita dev` builds the rest of the story and warns;
 `harita check` and the strict build keep it an error. The same for a text link to a marker that is not yet in
@@ -86,8 +87,10 @@ without `ENOSPC`. `[F8]`
 into their own `--out` folder and serve it without watching. Done when an auditor's captures cannot catch
 another agent's rebuild. `[F6, F8]`
 
-**1.8 A strict build of one story.** *kitap.* `npm run build -- --strict --story <id>`. Done when step 14's
-check takes about a minute and its log holds only that story. `[F17.9]`
+**1.8 A strict build of one story.** *history.* The build has it already: `harita build --strict --story <id>`
+took 14 seconds for the Alexander story, against more than ten minutes for every story. `agents/pages.md` and
+step 14 of `agents/overseer.md` still name `npm run build -- --strict`, which builds them all. They change with
+the layer 2 edits. `[F17.9]`
 
 **1.9 The strict build without the store.** *kitap.* `--no-store`, or a warning instead of an error when
 `images-pack/` holds the story's originals. Done when a new story's strict build passes in a cloud run. `[F18]`
@@ -99,6 +102,11 @@ line. Done when an image with GPS data is added without a hand-made `image.yaml`
 the 070 Ocean page crashes it at any size. Done when a phone capture works in a cloud container, or the cause is
 written down with a workaround. `[F6]`
 
+**1.12 `when` for years before our era.** *kitap.* A page's `when` takes `YYYY`, `YYYY-MM` or `YYYY-MM-DD`, so a
+story of years BC cannot set it, and the build's order check never runs for it: the Alexander story and the Punic
+Wars set none. `when` takes a year before our era, and a strict build fails on a page without one. Done when the
+Alexander story sets `when` on every page and the build names its one page out of order. `[2.13]`
+
 ## Layer 2. Conventions
 
 These are edits to the notes and definitions. They fix forms that layer 3 checks and layer 4 relies on.
@@ -109,8 +117,9 @@ reads it, and only the overseer and the reviewer read `decisions.md`. Done when 
 `[F11, L2]`
 
 **2.2 The lasting rules move into `agents/`.** *history.* Into `agents/pages.md`: a card stands on its battle's
-site and never moves for layout; a town marker on a card's point comes off that page; a zone's legend name does
-not end before the page's date; a marker's note tells the event of its own page; a page shows every zone its
+site and never moves for layout; a town marker on a card's point comes off that page; a zone's legend name carries
+no date, since the page's own date tells the reader the year, and a dated name is kept only where the zone shows
+a border of another year than its page's; a marker's note tells the event of its own page; a page shows every zone its
 neighbours show for its frame; a zone is cut once for the story, so a zone cut back in stages takes one
 `zones.yaml` entry per stage. Into `agents/text.md`: disputed claims go into Notes, with the marker escaping, and
 the body's word limit. Done when `rules.md` of a new story holds only what is particular to that story.
@@ -142,13 +151,25 @@ Goes into `agents/overseer.md` and every definition that commits. `[F17.8, L9]`
 **2.10 Caption facts have a source.** *history.* `agents/images.md` requires each fact of a caption to be on the
 Commons file page or a digest line. `[F9, E4.6]`
 
-**2.11 Generators are committed.** *history.* `agents/pages.md` requires the zone, page and route generators in
-`content/<story>/.plans/`, so a story's maps can be rebuilt from the repo. `[F11]`
+**2.11 Zone, route and phase generators are committed.** *history.* `agents/pages.md` requires the scripts that
+draw a story's zones, routes and battle phases in `content/<story>/.plans/`, so the maps can be rebuilt from the
+repo. Nobody edits those shapes by hand, and the script records why a border runs where it does. A script that
+writes page files is not required. Where a cartographer keeps one, its first line says so, and a page is then
+changed in the script and written again, never by hand: a rerun undoes every hand edit, as it did to `sources`
+lists and removed markers in the Alexander run. `[F11, E4.7]`
 
 **2.12 Cloud run rules.** *history.* `agents/cloud.md` says: a background command stops after two hours, so
 agents serve their own static builds (1.7); the strict build of a new story fails only on the store until 1.9
 lands; the run packs the images, pushes and opens the pull request itself; the pull request is merged by squash
 after the pack is removed. `[F8, F18, F19, F20]`
+
+**2.13 Pages run in time order.** *history.* A story has no flashback: no page starts before the page ahead of it,
+across sections too. Where a later section needs an earlier state of the map, such as an empire before a
+campaign into it, that page goes where its date puts it, or the later page shows the state at its own date.
+Every page sets `when`, and the build's order check then holds the rule. Goes into `agents/outline.md`, the
+section-coordinator's definition and the plans editor's, which checks the order at step 7. One page of the
+Alexander story breaks it: "The Persian Empire of Darius III", dated 336 BC, opens section 030 after the fall of
+Thebes in September 335 BC. Rests on 1.12 for stories of years BC.
 
 ## Layer 3. Scripts in place of agent checks
 
@@ -156,17 +177,25 @@ after the pack is removed. `[F8, F18, F19, F20]`
 `harita check`. It reports:
 
 - a marker on a battle card's point
-- a zone whose legend name ends before its page's date
+- a zone whose legend name carries a date, where that date is not the page's or ends before it
 - a marker id used on pages of different events
 - a battle id without its year
-- a text body outside 150 to 300 words
+- a text body outside 150 to 350 words
 - a disputed digest claim cited in a body and not in Notes
 - a passage number on a `Rests on:` line
 - a card page whose opening frame hides the map behind the docked card
-- a page that lacks a zone both its neighbours show
 
 Done when it catches every fault of `[E4.4]` except the careful-side ones, on the commits where the map audits
 found them. The checks that need no plan folder move into `harita check` later. `[F12.1, F17.7, E4.4]`
+
+**3.10 Bare land between pages.** *history.* **Built.** `scripts/zone-gaps.mjs <story>` finds land that a zone
+colours on the pages before and after a page and that is bare on it. It reads the shapes the build drew, so it
+tests what the reader sees and not the ids a page lists: land another state colours is not bare, and a zone the
+build cut away on a page is. It looks two pages each way, across section borders, over the frame a screen shows,
+and costs no tokens. It prints a list to confirm, since a land lost on one page and retaken on the next is bare by
+right. It does not find a zone missing on a story's first or last pages, one dropped for good too early, or one
+of the wrong year: those stay with the map-auditor. The frame is an estimate, the page's bbox grown to a wide
+screen and a phone, and is not yet checked against captures. `[F4, E4.4]`
 
 **3.2 `names-check`.** *history.* `scripts/names-check.mjs <story>` lists names in the texts with no row in
 `names.md`, compares each name's first page with its "First named in" entry, and flags a name shared by two or
@@ -254,8 +283,9 @@ audit of a section beside the drawing of the next. `[F14, L9]`
 ## Layer 6. Structure
 
 **6.1 Split the cartographer.** *history.* A zone keeper drafts the shared zones and stage entries from the
-"Map" part. Page cartographers, one per section, write page files, routes and markers in parallel, with markers
-in each page's own `markers.yaml`. Done when nine sections of maps take under three hours. `[F5, F11]`
+"Map" part. Page cartographers, one per section, write page files, routes and markers in parallel. With 6.8 a
+cartographer adds a place to the common markers file once and writes its notes in its own pages. Done when nine
+sections of maps take under three hours. `[F5, F11]`
 
 **6.2 Zones cut page by page.** *harita.* `cleanZones` cuts a zone by the outranking zones of each page, with
 one cached shape per distinct set. Stage entries are then not needed. Until it lands, a `zones.yaml` entry
@@ -275,6 +305,49 @@ unpacks and uploads the images and removes the pack. `[F20]`
 
 **6.7 A plugin.** *history.* The agents, the overseer notes and the checks packaged as a Claude Code plugin,
 with the checks of 3.9 and the ledger of 0.1 as hooks. `[E6]`
+
+**6.8 Markers with page overrides.** *harita.* A story's `shared/markers.yaml` holds each place once: its
+`lnglat`, its label and a default icon and colour. A page's `markers` list takes an id, or an id with the fields
+that page changes: `note`, `icon`, `color`, `image` or `label`.
+
+```yaml
+markers:
+  - pelium
+  - sidon: {note: "Invites Alexander in"}
+  - olynthus: {note: "Philip razes the city", icon: flame, color: macedon}
+```
+
+A place then keeps one id for the whole story, so a text's link is never renamed, a site is corrected in one
+place, and a note belongs to the page that shows it. In the Alexander story 43 places have two or more markers,
+120 in all: their notes differ in all 43, their colour in 20, their icon in 15, their image in 7 and their label
+in 3. The change is in the page schema, in the engine where it builds a page's markers, and in the translation
+keys: a page's own note takes a key of its page, such as `pages.<page>.markers.<id>.note`, and a common entry's
+note becomes optional. Done when the Alexander story builds with about 164 marker entries in place of 238 and no
+id with a letter suffix. Until it lands, a page that needs another note takes a marker id of its own, and 3.1
+checks it. `[F4, F17.3]`
+
+**6.9 Zones with dates, and pages that take their zones by date.** *harita.* A zone carries the date it begins,
+and a page no longer lists its zones: the build shows on each page the zones that stand on the page's date.
+
+- **The date format.** One normalized form for zones and for a page's `when` (1.12): a year, a year and month, or
+  a full date, with a year before our era written as historians count it, so March 335 BC is `-0335-03`. It is
+  never shown to the reader. The shown `date` stays free text, such as "Spring 326 BC", since a normalized date
+  claims more than the sources know.
+- **Falling back.** A beginning with a year alone is 1 January of it, and with a month the first day of the
+  month. The writer turns a season into its first month: spring March, summer June, autumn September, winter
+  December of the earlier year. An end falls the other way, to the last day of its year or month.
+- **Endings.** A zone ends when the next zone of its line begins, the line being the id without its year:
+  `macedon-340`, then `macedon-335`. A zone takes an end date of its own only where its state ends with no
+  successor. Fewer dates then need a source.
+- **Which moment a page shows.** The end of the page's span: a page of 336 to 335 BC shows the zones that stand
+  at the end of 335 BC, since a map shows the outcome of its page's events.
+- **Overrides.** A page can still name a zone to add or to leave out, for a claim or a plan the text tells.
+
+With 6.2 this ends three rules at once. No page can forget a zone its neighbours show, so 3.10 becomes a check
+of the dates and no longer of each page's list. A legend name cannot outlast its zone. One Persian zone serves
+from 336 to 330 BC, with no copy per stage. The cost is a date for every zone, each a claim with a source, and
+pages that all set `when`. Rests on 1.12, 2.13 and 6.2. How a line is told, by the id or by a field, is settled
+when it is built. `[F4, F7]`
 
 ## Not in this spec
 

@@ -50,7 +50,7 @@ Read these first:
   are that shared zone.
 - **The page's dates.** Where a page's date line spans months and its zone shows one of them, each place the
   text tells of within the span is inside the zone. A zone a page adds lies inside the page's own map.
-- **Captures.** At phone size each page's places are inside its map, no zone lies over the sea, and no two labels
+- **Captures.** On the capture each page's places are inside its map, no zone lies over the sea, and no two labels
   cover each other. The legend says of each zone what holds on the page's date.
 - **Generated files.** Where a script of the story writes the zones or the page files, such as one in
   `content/<story>/.front/`, the script and its data are the drawing. Audit them, and name them as the file that
@@ -63,8 +63,8 @@ Read these first:
    <section number>` and `node scripts/zone-gaps.mjs <story>`, then the tests of borders, markers and routes. What
    the linter prints is a fault as it stands: copy it to the fault list. It cannot judge the careful side, land
    that no source says was taken, which stays yours. Note each place that falls on the wrong side with its distance from the border.
-3. **Load.** Capture each page of the section at phone size as "Checking a story" in `agents/pages.md`
-   says. Capture a page again at the default size where a fault is too small to see on a phone.
+3. **Load.** Once the scripts have run, capture each page of the section once, at the default size, as "Checking
+   a story" in `agents/pages.md` says. Take a second capture of a page only for a fault the first cannot show.
 4. **Faults.** Write each fault to `content/<story>/.plan/faults/<section number>.yaml`, in the form of "The
    fault list" in `agents/report.md`, with the page id and the zone, route or marker, what is wrong, the line of
    the source it goes against, and the capture that shows it.

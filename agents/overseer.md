@@ -110,6 +110,18 @@ overseer                                   the story: the brief, the rules, the 
   Twenty agents run at once by default. Every section's lead with its team passes that, so the sections run in
   waves of two or three, or the limit is raised for the run.
 
+## Lean by default
+
+Every pass of the process runs: the map audit, the fact check, the review, the edit and the story audit. What is
+cut is what each pass carries and how often work goes round the loop.
+
+- Geometry comes before any capture. Which zone holds a place and whether a route keeps to its surface are
+  questions for `scripts/points.mjs` and `scripts/route-surface.mjs`, and the rules a script can test for
+  `scripts/rules-lint.mjs`. An auditor takes one desktop capture a page, and a reviewer takes none of its own.
+- Only `wrong` and `weak` faults are acted on. A `taste` fault stays open in the fault list, unless it touches a
+  file that many agents read, such as `names.md`, and then it is fixed.
+- A pass is skipped only where another pass covers it, and the ruling is in the decision log of whoever made it.
+
 ## Dispatches
 
 Every dispatch, and every message that resumes an agent, opens with the block of "The dispatch" in

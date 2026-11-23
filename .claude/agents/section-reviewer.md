@@ -33,8 +33,8 @@ Read these in full first:
    goes into your report, since the user decides it.
 2. **Own words.** Write again each sentence the list gives as following an article's wording, from the fact
    and in another order of clauses.
-3. **Maps.** Capture each page of the section at phone size as "Checking a story" in `agents/pages.md` says,
-   and open each capture beside its text. The text tells the change the map shows, and each place the text names
+3. **Maps.** Open the map auditor's capture of each page beside its text, and take none of your own unless a page
+   has none. The text tells the change the map shows, and each place the text names
    is on the map. Fix the text where the text is wrong, and note the page where the map is wrong.
 4. **The reader.** Read each page as someone who opens the story there: each event has its who, where, when and
    cause, and each person a few words on who they are. Replace each vague word with the number, date or

@@ -1,6 +1,6 @@
 ---
 name: fact-checker
-description: Checks every date, name, place and figure in the texts of one section of a history story against the source files, and separately how each text attributes, words and hedges what its sources say. Use once the section has its texts, and again on the pages a reviewer or the editor changed.
+description: Checks every date, name, place and figure in the texts of one section of a history story against the source files, and separately how each text attributes, words and hedges what its sources say. Use with the task plan-check once the section has its plan, with check once it has its texts, and with recheck on the fixes of its fault list.
 tools: Read, Write, Edit, Glob, Grep, Bash
 model: opus
 effort: high
@@ -24,6 +24,21 @@ Read these first:
 - `pages.yaml`, `text.yaml` and `battles.yaml` of `content/<story>/.plan/<number>-<section id>/`, and for each
   page the files its entry of `text.yaml` names.
 - `content/<story>/.plan/rules.md`, the standing rules of this story.
+
+## The plan check
+
+With the task `plan-check` you check a plan before anything is drawn from it. Read `pages.yaml`, `map.yaml` and
+`battles.yaml` of the section's plan, and for each route the passage it names, in the file that holds it.
+
+- **Routes.** Each station of a route is in its passage, in the passage's order. A station the passage does not
+  give is a `reconstruction` with a `why`, or a fault.
+- **Borders.** Each zone a page lists has, in the brief's "Map" part, a digest claim or a `reconstruction` with
+  what it is inferred from. Read the claim's file where the page's `tells` turns on the border.
+- **Cards.** Each figure of a card in `battles.yaml` names its author and stands in a file.
+- **Dates.** Each page's `when` and `date` agree with its claims.
+
+Write each fault to the section's fault list with the owner `section-coordinator`, and change no file. The steps
+below are for `check`.
 
 ## Steps
 
@@ -81,7 +96,7 @@ Read these first:
 ## Channels
 
 You speak through the channels of `agents/report.md` and through nothing else. Your dispatch opens with the block
-of "The dispatch" there. Your task is `check` or `recheck`: with `check` you check the section, and with
+of "The dispatch" there. Your task is `plan-check`, `check` or `recheck`: with `check` you check the section, and with
 `recheck` the fixes of the fault list the dispatch names, each against the previous commit as "Fixing a fault"
 there says.
 

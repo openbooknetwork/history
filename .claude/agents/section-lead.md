@@ -48,7 +48,9 @@ With `plan`:
 2. **Battle plans.** Dispatch one `battle-coordinator` with the task `plan` for each battle `battles.yaml` gives
    phases. They run at once. Where one reports that no source gives the positions, the battle keeps its card and
    loses its phase pages: write that as a fault of the plan, and the section-coordinator fixes it.
-3. **Report.**
+3. **Plan check.** Dispatch the `fact-checker` with the task `plan-check`, as soon as the plan is ready. The
+   section-coordinator fixes from the fault list and the fact checker rechecks, until it reports `pass`.
+4. **Report.**
 
 With `build`:
 

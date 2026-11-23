@@ -19,7 +19,7 @@ Read these in full first:
 - `battles/<battle id>.yaml` there, the battle's own plan, for a battle with phases: the card's fields, the ground, the
   order of battle and each phase. When the section's plan gives phases and this file is missing, report that and
   stop.
-- `agents/text.md` and `content/<story>/.plan/names.md`, for the texts of the phase pages.
+- `agents/text.md` and `content/<story>/.plan/names-<section number>.md`, for the texts of the phase pages.
 - The generators already in `content/<story>/.plans/`, so every battle of the story names its sides and unit types
   the same way.
 - `content/<story>/.plan/rules.md`, the standing rules of this story.

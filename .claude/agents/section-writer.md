@@ -16,7 +16,7 @@ Read these in full first:
   `open` claim.
 - `pages.yaml` and `text.yaml` of `content/<story>/.plan/<number>-<section id>/`, the section's plan. When they
   are missing, report that and stop.
-- `content/<story>/.plan/names.md`, for the form of each name.
+- `content/<story>/.plan/names-<section number>.md`, the slice of the names for your section, for the form of each name.
 - The `section` part of the `text.yaml` before yours and of the one after, for what the reader was told and what
   comes next.
 - For each page, the files its entry of `text.yaml` names, at the headings given.

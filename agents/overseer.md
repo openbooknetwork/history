@@ -202,8 +202,14 @@ Every dispatch, and every message that resumes an agent, opens with the block of
     language. A change to an English text after this step goes to the translator of each language again, with
     the page ids.
 
-An agent that is resumed keeps what it read: resume it with `SendMessage` in place of a new dispatch. The message
-opens with the block too, and the fault it is resumed for is in the fault list.
+An agent is fresh for each section: it starts from `rules.md`, its section's slices of the digest and the names,
+its files of the plan and the handoff of its role, and it reads its whole history again on every turn, so a long
+life is what costs. Run `node scripts/slice.mjs <story> <section number>` before you dispatch a section's
+agents: it writes `research-<section number>.md` and `names-<section number>.md` into the plan folder, afresh
+each time, and they are not committed. Resume an agent with `SendMessage` only for a fix or a recheck of the
+work it has just done, or a small follow-up on its own generator. The message opens with the block too, and the
+fault it is resumed for is in the fault list. No agent's context passes 300,000 tokens: one that nears it writes
+its handoff and ends, and a fresh one takes over.
 
 ## Reports
 

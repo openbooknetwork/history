@@ -17,7 +17,7 @@ Read these in full first:
 - "Map" in `content/<story>/.plan/brief.md`: the families and zones designed for the story.
 - `pages.yaml` and `map.yaml` of `content/<story>/.plan/<number>-<section id>/`, the section's plan. When they
   are missing, report that and stop. `text.yaml` and `battles.yaml` there are for other agents.
-- `content/<story>/.plan/names.md`, for each marker's and zone's name.
+- `content/<story>/.plan/names-<section number>.md`, the slice of the names for your section, for each marker's name.
 - The story's zones, which the map keeper drew, with `content/<story>/.plan/handoff/map-keeper.md`, and the
   routes of the section before yours, so a march continues from where it ended.
 - `content/<story>/.plan/rules.md`, the standing rules of this story.

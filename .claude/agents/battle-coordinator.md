@@ -20,7 +20,7 @@ Read these first:
 - `scripts/plan-schemas/battle.schema.json`, the schema of the file you write.
 - "The basis of a drawing" in `agents/evidence.md`.
 - `content/punic-wars/.plans/README.md`, for what a generator can draw: the frame, the unit types, the movements.
-- `content/<story>/.plan/names.md`, for the commanders and the places.
+- `content/<story>/.plan/names-<section number>.md`, the slice of the names for your section, for the commanders and the places.
 - The battle plans already in the `battles/` folders of `content/<story>/.plan/`, so the story's battles name their sides and unit
   types the same way.
 - `content/<story>/.plan/rules.md`, the standing rules of this story.

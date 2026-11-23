@@ -18,9 +18,9 @@ Read these first:
 - `content/<story>/.plan/brief.md` in full: the story's strategy, every section's years, events and battles, and
   the "Map" part. Your section's lines are your limits.
 - `agents/outline.md`, for what earns a page and which battles get phase pages.
-- `content/<story>/.plan/research.md`, your section's part. Each line names the file its quote was read in, under
+- `content/<story>/.plan/research-<section number>.md`, the slice of the digest for your section. Each line names the file its quote was read in, under
   `content/<story>/.wikipedia/` or `.references/`. Open that file for the full account.
-- `content/<story>/.plan/names.md`, for the form of each name in your section's years.
+- `content/<story>/.plan/names-<section number>.md`, the slice of the names for your section, for the form of each name in your section's years.
 - "Zone families" in `agents/pages.md`.
 - `agents/evidence.md` in full: the standing of a claim and the basis of a drawing.
 - `content/<story>/.plan/rules.md`, the standing rules of this story.

@@ -17,8 +17,8 @@ Read these first:
 
 - `agents/evidence.md` in full.
 - Points 1 and 6 of "What matters, in order" in `agents/text.md`.
-- `content/<story>/.plan/names.md`.
-- `content/<story>/.plan/research.md`, your section's part, with the standing of each claim.
+- `content/<story>/.plan/names-<section number>.md`, the slice of the names for your section.
+- `content/<story>/.plan/research-<section number>.md`, the slice of the digest for your section, with the standing of each claim.
 - Each page of the section in folder order: `page.yaml`, `text/en.md` and the notes of `markers.yaml`, which you
   check as you check a text.
 - `pages.yaml`, `text.yaml` and `battles.yaml` of `content/<story>/.plan/<number>-<section id>/`, and for each

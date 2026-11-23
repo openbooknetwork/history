@@ -15,7 +15,7 @@ Read these in full first:
 
 - `agents/text.md`. Its order of what matters is the order of your review.
 - `pages.yaml` and `text.yaml` of `content/<story>/.plan/<number>-<section id>/`, the section's plan, and
-  `content/<story>/.plan/names.md`.
+  `content/<story>/.plan/names-<section number>.md`, the slice of the names for your section.
 - Each page of the section in folder order: `page.yaml`, `text/en.md`, and the `battle.yaml` of its card.
 - For each page, the files its entry of `text.yaml` names.
 - "Image folders" in `agents/images.md`, for where an image may show.

@@ -29,7 +29,8 @@ the `fact-checker` and the `section-reviewer`, each one agent for your section. 
 battle with phases, which leads that battle's implementor and auditor. The `battle-implementor` and the
 `battle-auditor` for a battle with a card alone. A `researcher`, with the task `add`, for a fact the digest lacks.
 
-Dispatch each with the block of "The dispatch" in `agents/report.md`, and `serve: static` for one that takes
+Run `node scripts/slice.mjs <story> <number>` before you dispatch, and again when the digest, the names or the
+plan has changed. Dispatch each with the block of "The dispatch" in `agents/report.md`, and `serve: static` for one that takes
 captures. Run `node scripts/inputs.mjs record` as you dispatch an agent and `node scripts/inputs.mjs check` as
 it reports. Hold at most about ten agents at once.
 

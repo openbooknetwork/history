@@ -132,7 +132,8 @@ A fix with no entry, or an entry that names no fault, is a fault of the run.
 
 Where another agent of your role works after you, on the next section or the next battle, and you learned
 something it needs and no other channel holds, write it to `handoff/<role>.md` before you end: one page, with
-what the next one must know and nothing else. Where the file exists as you start, read it first.
+what the next one must know and nothing else. Where the file exists as you start, read it first. The same holds
+where your own context nears 300,000 tokens: write the handoff and end, and a fresh agent of your role goes on.
 
 ## The report
 

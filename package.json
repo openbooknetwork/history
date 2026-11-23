@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "build": "harita build",
-    "dev": "harita dev"
+    "dev": "harita dev",
+    "postinstall": "node scripts/patches.mjs"
   },
   "dependencies": {
     "@openbooknetwork/harita": "^0.12.2",

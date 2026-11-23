@@ -11,7 +11,7 @@ Each item says what was seen, what to change and where. The order is the order t
 | # | Problem | Fix | Where | Size |
 |---|---|---|---|---|
 | 1 | The setup script installs nothing | Enter the repo by its folder name, run `npm ci` | the environment | minutes |
-| 2 | A cold build takes more than 30 minutes | Save the zone cache as it goes, or scope it to `--story`. Until then, warm it once per session | harita, then the setup script | a day in harita |
+| 2 | A cold build takes more than 30 minutes | Save the zone cache as it goes and scope it to `--story`: patched here, to send to harita. The step after it is still to time | `patches/`, then harita | patch done |
 | 3 | The sources are not in the container | Fetch them in the setup script, or as the run's first step | the setup script, `agents/cloud.md` | minutes |
 | 4 | The plugin's hooks do not load in a cloud session | Name the hooks in `.claude/settings.json` | history | an hour |
 | 5 | The run cannot open its own pull request | Say so in the prompt that starts the run | the run's prompt, `agents/cloud.md` | minutes |
@@ -41,8 +41,11 @@ in a folder with no `package.json`. Its failure is hidden too.
 **Change.** Enter the repository by its name, and let a failure show:
 
 ```bash
-if [ -d history ]; then (cd history && npm ci --ignore-scripts); fi
+if [ -d history ]; then (cd history && npm ci --ignore-scripts && node scripts/patches.mjs); fi
 ```
+
+The environment was changed in this session to the first half of that line. The call to `scripts/patches.mjs`,
+which item 2 adds, is still to go in.
 
 `npm ci` took about a minute here and `node_modules` is 402 MB.
 
@@ -75,8 +78,25 @@ a cloud run is one build of the story, in the background, and `agents/cloud.md` 
 takes. Putting the build in the setup script is the other way, and it delays every session by the cold time,
 whether the session builds or not. Committing the cache file is the third: its size is not known yet.
 
-A full cold build is running in this session with a two-hour limit. Its time and the cache's size go here when
-it ends.
+**Done in this repo, until harita has it.** `patches/harita-0.12.2-zone-cache.patch` makes the three changes
+above in harita's `zones.mjs` and `engine.mjs`, and `node scripts/patches.mjs` applies it after an install, as the
+`postinstall` of `package.json`. It is a unified diff of harita's own files, so it can go to harita as it stands.
+The patch is for harita 0.12.2 alone: the script leaves it out for any other version, and the file is removed
+once harita ships the fix.
+
+**Measured with the patch, cold.** A build of `alexander-the-great` cut 771 of the book's 1,234 zones, the ones
+whose box meets one of the story's, in about three minutes, and printed its progress. The cache is 25 MB, in
+`.cache/kitap/zone-compare.json`. The scoping saves less for this story than for most, since Alexander's map runs
+from Greece to India and meets most of the book.
+
+**Still open.** After the zone comparison the build printed `story alexander-the-great` and was still running
+three minutes later, when this was written. So the comparison was the first cold cost and may not be the only
+one: the step that builds the story's own map is the next to time. The debugger trick of item 10 shows where a
+build is.
+
+**For the setup script.** It installs with `--ignore-scripts`, which skips the `postinstall`. It needs a second
+command, `node scripts/patches.mjs`, inside the repo. A session that warms the cache runs one build of its story
+before it dispatches anyone.
 
 ## 3. The sources are not in the container
 

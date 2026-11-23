@@ -171,6 +171,8 @@ are stale, from the nearest column on:
 Find what rests on a claim with `grep -rn "<id>" content/<story>/.plan`, and what a commit changed with
 `git log --stat -- content/<story>`. After each step, stage the plan folder with `git add` and give the user the
 commit command, so the next change shows as a diff. The user makes every commit.
+A commit names its paths, as `git add <paths>` and `git commit <paths>`. While agents run in parallel, nobody
+runs `git commit -a` or `git add -A`, which take another agent's half-written files into the commit.
 Send an agent the changed lines and the page ids they touch, and leave the other pages as they are. Write each
 stale file into `decisions.md` when it goes stale and strike it when it is checked again, so no agent builds
 from a plan that has moved on.

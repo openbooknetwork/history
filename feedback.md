@@ -562,3 +562,13 @@ the PR text a cloud run writes should repeat it.
 - A maintainer, or a workflow run, attaching the pack to a draft release. A cloud session cannot do this.
 - Git LFS for `images-pack/`. Only worth it if many stories come this way, since it changes the whole repository
   and counts against LFS quotas.
+
+## 21. A new story is built and deployed but not listed on the main page
+
+**What happened.** After the merge and the release (v1.19.0 and v1.19.1), the story was live at
+https://openhistorybook.org/alexander-the-great/, but the main page did not list it. `site.yaml` has a `stories:`
+list that sets the order on the main page, and only the stories in it are shown. The run never added
+`alexander-the-great` to it.
+
+**Proposed change.** `agents/overseer.md` should add a step at the end of the build: add the story to `stories:` in
+`site.yaml`. `harita check` could also warn when a story under `content/` is missing from that list.

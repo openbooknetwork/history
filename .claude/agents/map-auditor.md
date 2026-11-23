@@ -18,6 +18,7 @@ Read these first:
 - Each page of the section in folder order: `page.yaml`, `markers.yaml`, its routes, and each zone it shows.
 - For each page, the files its line of the plan's "Articles" names, at what they say of borders, marches and
   places.
+- `content/<story>/.plan/rules.md`, the standing rules of this story.
 
 ## What you look for
 

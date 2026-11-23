@@ -17,6 +17,7 @@ Read these first:
 - `content/<story>/shared/battles/<battle id>/battle.yaml`, the battle's generator in `content/<story>/.plans/`,
   and each phase page's `page.yaml` and `text/en.md`.
 - `content/punic-wars/.plans/README.md`, how a battle is laid out by its generator.
+- `content/<story>/.plan/rules.md`, the standing rules of this story.
 
 ## What you look for
 

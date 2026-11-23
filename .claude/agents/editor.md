@@ -17,6 +17,7 @@ Read these first:
 - With `plans`: the Header, "Pages" and "Contract" of every `content/<story>/.plan/<number>-<section id>.md`, in
   the sections' order.
 - With `texts`: `agents/text.md`, then every page of the story in folder order, its `page.yaml` and `text/en.md`.
+- `content/<story>/.plan/rules.md`, the standing rules of this story.
 
 ## What you look for
 

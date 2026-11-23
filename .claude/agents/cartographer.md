@@ -18,6 +18,7 @@ Read these in full first:
 - `content/<story>/.plan/<number>-<section id>.md`, its Contract. When the file is missing, report that and stop.
 - `content/<story>/.plan/names.md`, for each marker's and zone's name.
 - The zones and routes the sections before yours drew, so a border continues from where they left it.
+- `content/<story>/.plan/rules.md`, the standing rules of this story.
 
 ## Steps
 

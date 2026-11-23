@@ -21,6 +21,7 @@ Read these in full first:
 - For each page, the files its line of the plan's "Articles" names, at the headings given.
 - One page of `content/black-death/pages/` with its `text/en.md`, for how a text is laid out. Take the layout from
   it and none of its sentences.
+- `content/<story>/.plan/rules.md`, the standing rules of this story.
 
 ## Steps
 

@@ -17,6 +17,7 @@ Read these first:
 - `agents/evidence.md` in full: which sources count, when two are independent, and the standing of a claim.
 - `content/<story>/.plan/brief.md`, the draft brief: the subject, its years and the sections you gather for.
 - `agents/outline.md`, for what earns a page and which battles get phase pages.
+- `content/<story>/.plan/rules.md`, the standing rules of this story, once the overseer has written it.
 
 ## Steps
 

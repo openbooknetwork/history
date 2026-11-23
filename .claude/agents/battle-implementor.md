@@ -22,6 +22,7 @@ Read these in full first:
 - `agents/text.md` and `content/<story>/.plan/names.md`, for the texts of the phase pages.
 - The generators already in `content/<story>/.plans/`, so every battle of the story names its sides and unit types
   the same way.
+- `content/<story>/.plan/rules.md`, the standing rules of this story.
 
 ## Steps
 

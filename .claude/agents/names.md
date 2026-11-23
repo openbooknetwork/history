@@ -19,6 +19,7 @@ Read these first:
 - `node_modules/@openbooknetwork/kitap/writing/README.md`, for the book's rules on names and dates.
 - The `names.md` of a story of the same period, where `content/*/.plan/` holds one, so a person keeps one form
   across stories.
+- `content/<story>/.plan/rules.md`, the standing rules of this story, once the overseer has written it.
 
 ## Steps
 

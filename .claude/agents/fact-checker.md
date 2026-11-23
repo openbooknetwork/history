@@ -22,6 +22,7 @@ Read these first:
 - Each page of the section in folder order: `page.yaml`, `text/en.md` and the notes of `markers.yaml`, which you
   check as you check a text.
 - For each page, the files its line of "Articles" in `content/<story>/.plan/<number>-<section id>.md` names.
+- `content/<story>/.plan/rules.md`, the standing rules of this story.
 
 ## Steps
 

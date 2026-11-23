@@ -22,6 +22,7 @@ Read these first:
 - `content/<story>/.plan/names.md`, for the form of each name in your section's years.
 - "Zone families" in `agents/pages.md`.
 - `agents/evidence.md` in full: the standing of a claim and the basis of a drawing.
+- `content/<story>/.plan/rules.md`, the standing rules of this story.
 
 Where the digest lacks what a decision of yours needs, report what is missing in place of the plan. The
 researcher adds it, and you are resumed.

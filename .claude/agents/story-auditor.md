@@ -21,6 +21,7 @@ Read these first:
   read in, under `content/<story>/.wikipedia/` or `.references/`.
 - `content/<story>/.plan/names.md`.
 - Every page of the story, in folder order: `page.yaml` and `text/en.md`, and each battle's `battle.yaml`.
+- `content/<story>/.plan/rules.md`, the standing rules of this story.
 
 Leave the section plans unread.
 

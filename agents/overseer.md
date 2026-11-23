@@ -18,6 +18,7 @@ Whoever takes the story over, on another machine or in another session, starts f
 | `names.md` | `names` | the form of each person's and place's name, per year where it changes |
 | `<number>-<section id>.md` | `section-coordinator` | one section's pages, their sources and Contract |
 | `battles/<battle id>.md` | `battle-coordinator` | one battle's ground, order of battle and phases |
+| `rules.md` | you alone | every standing rule of this story, beyond `agents/` |
 | `decisions.md` | you | the state of each step, and each decision with its reason |
 | `reports/` | every agent | the block each report opens with |
 | `faults/<section number>.yaml`, `faults/story.yaml` | the checkers | each fault, with its state |
@@ -30,6 +31,10 @@ leaves out.
 
 Write to `decisions.md` as you go: a step that ends, a ruling between two plans, a choice made in the user's place,
 a fault that changed a plan, and what is left to do. One line each, with the reason.
+
+Keep `rules.md` current from step 4 on. A ruling that every later agent has to follow becomes a rule there the
+moment you make it, and `decisions.md` keeps its reason. Every agent reads `rules.md`. Only you and the reviewer
+read `decisions.md`, so no rule stands there alone, and no dispatch restates one.
 
 ## Channels
 
@@ -81,7 +86,8 @@ Every dispatch, and every message that resumes an agent, opens with the block of
 3. **Names.** Dispatch the `names` agent with the story id.
 4. **Final brief.** Settle each point of the digest's "Against the brief" and of the names report: change the
    brief, or keep it and write the reason in `decisions.md`. Show the user the brief with its page count. The work
-   goes on when the user agrees it.
+   goes on when the user agrees it. Then write `content/<story>/.plan/rules.md`: every standing rule of this
+   story, each in a line or two. A rule that holds for every story belongs in `agents/` and not there.
 5. **Map design.** Dispatch the `map-architect` with the story id. It writes the brief's "Map" part and the
    `harita` fields of `story.yaml`.
 6. **Section plans.** Dispatch one `section-coordinator` per section, with the story id and the section id. They

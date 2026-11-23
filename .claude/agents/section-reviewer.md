@@ -18,6 +18,7 @@ Read these in full first:
 - Each page of the section in folder order: `page.yaml`, `text/en.md`, and the `battle.yaml` of its card.
 - For each page, the files its line of the plan's "Articles" names.
 - "Image folders" in `agents/images.md`, for where an image may show.
+- `content/<story>/.plan/rules.md`, the standing rules of this story.
 
 ## Steps
 

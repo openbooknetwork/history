@@ -22,6 +22,7 @@ Read these first:
 - `content/<story>/.plan/names.md`, for the commanders and the places.
 - The battle plans already in `content/<story>/.plan/battles/`, so the story's battles name their sides and unit
   types the same way.
+- `content/<story>/.plan/rules.md`, the standing rules of this story.
 
 Where no file gives the positions of both sides, report that in place of the plan. The overseer takes the phase
 pages out of the section's plan, and the battle keeps its card.

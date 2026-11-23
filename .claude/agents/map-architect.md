@@ -18,6 +18,7 @@ Read these first:
 - "Zone families" and "Shared zones" in `agents/pages.md`, and "The basis of a drawing" in `agents/evidence.md`.
 - `node_modules/@openbooknetwork/harita/README.md`: "story.yaml", "Zones", "Shared zones" and "Tally".
 - The folder names of `content/shared/zones/`, and the `story.yaml` of each story that shows the same lands.
+- `content/<story>/.plan/rules.md`, the standing rules of this story.
 
 ## Steps
 

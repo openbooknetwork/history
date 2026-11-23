@@ -14,6 +14,7 @@ Read these in full first:
 - `agents/images.md`, this book's rules for images.
 - `README.md`, its Photographs part: the candidate search and the queries file.
 - Each page's `page.yaml` and `text/en.md`, and the `battle.yaml` of its card, for what an image has to show.
+- `content/<story>/.plan/rules.md`, the standing rules of this story.
 
 ## Steps
 

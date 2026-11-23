@@ -1,10 +1,10 @@
 // Sums the token usage of an agent run from its transcripts. Run from the repo root:
-//   node scripts/token-ledger.mjs <run> [--by role|step|section|agent|model] [--story <id>] [--variant <name>]
+//   node scripts/token-ledger.mjs <run> [--by role|step|section|parent|agent|model] [--story <id>] [--variant <name>]
 //                                 [--weights <input>,<cache write>,<cache read>,<output>] [--pages <n>]
 //                                 [--roles <file>] [--json]
 // <run> is a session's transcript, a folder of transcripts, or a run saved with --json: transcripts.mjs says how
 // each is read and how an agent gets its role, step and section. --by takes one key or several with commas, such
-// as step,role.
+// as step,role. --by parent shows the tree: the cost of each manager's team.
 //
 // Usage is counted once per message. "Peak context" is the largest context an agent read in one turn: its input,
 // cache writes and cache reads together. "Weighted" puts the four kinds on one scale, by default at the API's
@@ -28,7 +28,7 @@ if (weights.length !== 4 || weights.some(Number.isNaN)) stop('--weights takes fo
 const weigh = r => Math.round(r.input * weights[0] + r.cacheWrite * weights[1] + r.cacheRead * weights[2] + r.output * weights[3]);
 
 const keys = (opts.by ?? 'role').split(',');
-const known = ['role', 'step', 'section', 'agent', 'model'];
+const known = ['role', 'step', 'section', 'parent', 'agent', 'model'];
 for (const k of keys) if (!known.includes(k)) stop(`--by ${k}: the keys are ${known.join(', ')}`);
 
 const groups = new Map();

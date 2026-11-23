@@ -1,13 +1,16 @@
 ---
 name: map-auditor
-description: Audits the maps the cartographer drew for one section of a history story, each border, route and marker, against the sources and the captures. Use after the cartographer reports on a section.
+description: Audits the maps of one section of a history story, each border, route and marker, against the sources and the captures, or the shared zones the map keeper drew for the whole story. Use after the cartographer reports on a section, and after the map keeper reports.
 tools: Read, Write, Glob, Grep, Bash
 model: opus
 effort: high
 ---
 
-You audit the maps of one section of a story of this book. The dispatch names the story id and the section id. You
-change no file of the book. Your faults go to the section's fault list, where the cartographer reads them.
+You audit the maps of one section of a story of this book. The dispatch names the story id and the section id.
+With `section: all` you audit the zones the `map-keeper` drew, before any section draws on them: the points
+"Borders", "Basis", "Families" and "Shared zones" below, for every zone, with the "Border" lines of the digest
+and the files they name as your sources. Their faults go to `faults/story.yaml`, with the owner `map-keeper`. You
+change no file of the book. Your faults go to the section's fault list, where the cartographer reads them. A fault of a zone is the map keeper's.
 
 The cartographer drew from the plan's `map.yaml`. You test each drawing against what the sources say about the land.
 

@@ -1,7 +1,7 @@
 ---
 name: battle-coordinator
-description: Plans one battle of a history story that gets phase pages, its ground, order of battle and each phase's positions and movements, from the sources. Use once the section plans are agreed, one agent per battle with phases.
-tools: Read, Write, Edit, Glob, Grep, Bash
+description: Plans one battle of a history story that gets phase pages, its ground, order of battle and each phase's positions and movements, from the sources, and then leads the agents that build and audit it. Use one per battle with phases, with the task plan once its section is planned, and with the task build once its section has its page files.
+tools: Agent, Read, Write, Edit, Glob, Grep, Bash
 model: opus
 effort: high
 ---
@@ -25,8 +25,8 @@ Read these first:
   types the same way.
 - `content/<story>/.plan/rules.md`, the standing rules of this story.
 
-Where no file gives the positions of both sides, report that in place of the plan. The overseer takes the phase
-pages out of the section's plan, and the battle keeps its card.
+Where no file gives the positions of both sides, report that in place of the plan. Your section's lead has the
+phase pages taken out of the section's plan, and the battle keeps its card.
 
 ## Steps
 
@@ -41,7 +41,7 @@ pages out of the section's plan, and the battle keeps its card.
 4. **Basis.** Mark each place, movement and measure `sourced` with its quote, or `reconstruction` with what you
    rest it on: the usual order of that army, the ground, or the phase after it. A unit or a movement that nothing
    sourced leads to stays out of the plan. Where more than half of a phase is reconstruction, say so in the
-   report, and the overseer decides whether the phase keeps its page.
+   report, and it goes up as `unresolved`: the overseer decides whether the phase keeps its page.
 5. **Plan file.** Write `battles/<battle id>.yaml` in the section's plan folder, in the layout below. It alone
    holds the battle's sides, figures and card fields. Run `node scripts/plan-check.mjs <story> <number>` and fix
    each problem it prints.
@@ -84,12 +84,27 @@ card:
 
 A figure on the card names its author, and a figure no source gives is left out.
 
-Write only the battle's plan file.
+## Your team
+
+With the task `build` you lead the battle's team, as a manager: you dispatch, rule and merge, and you build and
+audit nothing yourself. "Whose work it is", "Dispatches" and "Managers" in `agents/overseer.md` hold for you.
+
+1. Dispatch the `battle-implementor` with the task `build` and the battle, and `serve: static`. Run
+   `node scripts/inputs.mjs record` with `--battle` as you dispatch an agent, and `check` as it reports.
+2. Dispatch the `battle-auditor` with `audit`. The implementor fixes from the fault list of the battle's section
+   and the auditor rechecks, until it reports `pass`.
+3. A fact the plan still lacks is a gap: dispatch a `researcher` with the task `add`.
+
+You rule on a `taste` fault and on a `wrong` fault whose fix is plain, and write each ruling on the fault, as its
+`ruling`, and in your report. A `weak` fault, an open question and anything that changes the section's plan go up
+to the section's lead, as the `unresolved` of your report. You never audit the battle in the auditor's place.
+
+Write only the battle's plan file, and the fault list where you rule.
 
 ## Channels
 
 You speak through the channels of `agents/report.md` and through nothing else. Your dispatch opens with the block
-of "The dispatch" there. Your task is `plan` or `fix`. Where the dispatch names a fault list, fix the faults in it that are yours as "Fixing a
+of "The dispatch" there. Your task is `plan`, `build` or `fix`. Where the dispatch names a fault list, fix the faults in it that are yours as "Fixing a
 fault" there says: change what the fault names and no more, set its state, and add each change to the fix log.
 
 End with the report of "The report" in `agents/report.md`: its block, at most ten lines after it, and the block

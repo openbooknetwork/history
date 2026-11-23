@@ -1,7 +1,7 @@
 # Overseeing a story
 
-For whoever is asked to plan and build a story. You hold the story's strategy and hand the work to the agents of
-`.claude/agents/`. A story is built section by section. A section is one chapter: three to eight pages in one
+For whoever is asked to plan and build a story. You hold the story's strategy: the brief, the rules, the rulings
+and the user. You hand the work to the agents of `.claude/agents/`, and each section to a lead of its own. A story is built section by section. A section is one chapter: three to eight pages in one
 folder of `content/<story>/pages/`.
 
 `story-ideas.md` names the story and its years. Its plan in `content/<story>/.plan/` is the source from the moment
@@ -23,6 +23,7 @@ Whoever takes the story over, on another machine or in another session, starts f
 | `<number>-<section id>/battles/<battle id>.yaml` | `battle-coordinator` | one battle with phases: its ground, order of battle, phases and card |
 | `rules.md` | you alone | every standing rule of this story, beyond `agents/` |
 | `decisions.md` | you | the state of each step, and each decision with its reason |
+| `<number>-<section id>/decisions.md` | the section's `section-lead` | each ruling the lead made for its section, with its reason |
 | `reports/<section>-<role>.yaml` | every agent | the block of each of its reports, one entry per run |
 | `reports/<section>-<role>.inputs.yaml` | `scripts/inputs.mjs` | the hash of each file the agent built from |
 | `faults/<section number>.yaml`, `faults/story.yaml` | the checkers | each fault, with its state |
@@ -59,14 +60,55 @@ log. You write the rules, each dispatch and `decisions.md`, and you read the rep
 
 ## Whose work it is
 
-The work belongs to the roles: a researcher researches, a checker checks, a fixer fixes. You dispatch, rule and
-merge. Change a file or act on your own judgement only where the agents missed something, and record it each
-time: a change is a fault you wrote, with its fix in the fix log, and a ruling is a line of `decisions.md` with
-its reason.
+The work belongs to the roles: a researcher researches, a checker checks, a fixer fixes. A manager dispatches,
+rules and merges, and this part holds for a section lead and a battle coordinator as it holds for you. Change a file or act on your own judgement only where the agents missed something, and record it each
+time: a change is a fault you wrote, with its fix in the fix log, and a ruling is a line of your decision log
+with its reason.
 
 One such step is a repair. The same kind of step a second time is a fault of the process: a rule that is not
 written, a check no script makes, or a job no role holds. A kind of change or ruling that comes up more than once
 in a run is work for the process, to be closed with a rule, a script or a role and not with a third repair.
+
+## Managers
+
+One overseer that dispatches every agent and reads every report carries the whole run in its context. So the
+work is ordered in three layers, and each manager holds a team it can read.
+
+```
+overseer                                   the story: the brief, the rules, the rulings, the user
+ ├─ researcher, names, map-architect       work on the whole story, each one agent
+ ├─ map-keeper, with a map-auditor         the shared map, checked before a section draws on it
+ ├─ editor                                 the order of the plans, and the edit
+ ├─ section-lead, one per section          the section, from its plan to its reviewed pages
+ │   ├─ section-coordinator                its plan
+ │   ├─ cartographer, map-auditor
+ │   ├─ section-writer, section-reviewer
+ │   ├─ fact-checker, image-finder
+ │   ├─ researcher, for a gap
+ │   └─ battle-coordinator, per battle with phases     the battle
+ │       ├─ researcher, for a gap
+ │       ├─ battle-implementor
+ │       └─ battle-auditor
+ └─ story-auditor
+```
+
+- A manager dispatches, rules and merges: you, a section lead, and a battle coordinator for its battle. A worker
+  makes a thing, and a checker tests what a worker made. Of the definitions only a manager's has the `Agent`
+  tool, so a worker or a checker starts nobody.
+- A manager dispatches its own team and nobody else's, by the dispatch form, which holds at every level. A
+  report goes up one level, to the manager that dispatched its agent, and no further as it is.
+- What goes up is small: a status, the counts of the team's faults, each question the manager could not settle
+  and each file made stale. The detail stays in the fault list, the fix log and the reports, where you read it
+  only when you must. You read about one report a section for a step.
+- A maker and its checker are siblings under one manager, and neither is over the other. Their manager rules on
+  a `taste` fault and on a `wrong` fault whose fix is plain, and writes each ruling on the fault and in its
+  decision log. A `weak` fault, an open question and anything that changes the brief or another section come up
+  to you, and through you to the user. A manager never checks its own team's work in a checker's place.
+- No manager is overloaded. A manager holds at most about ten agents at once, and no manager's context passes
+  300,000 tokens: a section lead that would is given a fresh one, which starts from its handoff.
+- Three layers is the deepest the order goes, at a battle's agents, and it is Claude Code's default limit.
+  Twenty agents run at once by default. Every section's lead with its team passes that, so the sections run in
+  waves of two or three, or the limit is raised for the run.
 
 ## Dispatches
 
@@ -112,50 +154,38 @@ Every dispatch, and every message that resumes an agent, opens with the block of
    story, each in a line or two. A rule that holds for every story belongs in `agents/` and not there.
 5. **Map design.** Dispatch the `map-architect` with the story id. It writes the brief's "Map" part and the
    `harita` fields of `story.yaml`.
-6. **Section plans.** Dispatch one `section-coordinator` per section, with the story id and the section id. They
-   run at once. A family or a shared zone a plan marks `new` beyond the "Map" part goes into that part under one
-   name before the pages are built.
-7. **Order.** Dispatch the `editor` with the story id and the word `plans`. A fault goes back to its section's
-   coordinator, or changes the brief. Show the user each section's page titles in order with the page count. The work goes on
-   when the user agrees them.
-8. **Maps and texts.** Start the story's dev server in the background, as "Checking a story" in `agents/pages.md`
-   says, and note its process id. Name its port in every dispatch from here to step 14, so no agent builds the
-   story a second time, and stop it after step 14. The port is the `serve` of each dispatch. Dispatch the `cartographer` with the sections in order, one
-   section at a time. The same cartographer takes every section, so each zone, route and family exists once. When
-   it reports on a section, dispatch the `map-auditor` with that section. It writes its faults to the section's
-   fault list. The same cartographer fixes them from the list before it takes the next section, and the last
-   section is audited until it reports `pass`. Dispatch
-   one `section-writer` per section, and they run at once.
-9. **Battle plans.** Dispatch one `battle-coordinator` per battle a section's plan gives phase pages. They run
-   at once. Where one reports that no source gives the positions, take the phase pages out of the section's plan.
-10. **Battles.** Dispatch the `battle-implementor` with each battle of the plans, one battle at a time, and the
-    same implementor takes every battle. It writes the battle's card, and the phase pages of a battle with
-    phases. When it reports, dispatch the `battle-auditor`, which writes its faults to the fault list of the
-    battle's section. The same implementor fixes them from the list before it takes the next battle. The last
-    battle is audited until it reports `pass`.
-11. **Images.** Dispatch one `image-finder` per section once the section has its texts and its battle cards.
-12. **Facts and review.** For each section, once its maps, battles and images are in, dispatch the `fact-checker`,
-    and then the `section-reviewer`, which fixes from the section's fault list. Dispatch the fact checker again
-    to recheck the list, until it reports `pass`. The marker notes and the faults of a map that the reviewer
-    wrote to the list go to the cartographer once every reviewer of the story has finished, and a place short of
-    an image to the section's image finder. A point where a plan should change goes back to step 7.
-13. **Edit.** Dispatch the `editor` with the story id and the word `texts`. A fault of its lists goes to the
-    reviewer of its section, or to the cartographer where the map is at fault. The pages the editor changed go to the
-    `fact-checker` of their section.
-14. **Whole story.** Check the story as "Checking a story" in `agents/pages.md` says. Dispatch the `story-auditor`
-    with the story id. For each fault it writes to the fault lists, decide the file that changes, a plan, a
-    text, a map file or a battle, and dispatch the step that owns the file with the list. The auditor runs again until it reports `pass`.
+6. **Section plans.** Dispatch one `section-lead` per section, with the task `plan`. Each has its
+   `section-coordinator` write the section's plan and a `battle-coordinator` plan each battle with phases, and
+   reports once. A family or a zone a lead reports the "Map" part lacks goes into that part under one name
+   before the pages are built. Then run `node scripts/plan-check.mjs <story>`.
+7. **Order.** Dispatch the `editor` with the task `plans`. A fault goes to the lead of its section, for its
+   coordinator, or changes the brief. Show the user each section's page titles in order with the page count. The
+   work goes on when the user agrees them.
+8. **Shared map.** Dispatch the `map-keeper`, which draws the zones every section rests on, and then the
+   `map-auditor` with `section: all`. The keeper fixes from `faults/story.yaml` and the auditor rechecks, until
+   it reports `pass`. No section draws before that.
+9. **Sections.** Dispatch each section's lead again, with the task `build`. A lead takes its section through its
+   maps, texts, battles, images, fact check and review in that order, rules on what the section can settle, and
+   reports once. Every agent that takes captures serves a static build of its own, so its dispatch says
+   `serve: static`. Run the sections in waves, as "Managers" below says.
+10. **Edit.** Dispatch the `editor` with the task `texts`. A fault of its lists goes to the lead of its section,
+    for its reviewer, or for its cartographer where the map is at fault. The pages the editor changed go to the
+    `fact-checker` of their section, through the same lead.
+11. **Whole story.** Check the story as "Checking a story" in `agents/pages.md` says, and run
+    `node scripts/inputs.mjs stale <story>`. Dispatch the `story-auditor`. For each fault it writes to the fault
+    lists, decide the file that changes, a plan, a text, a map file or a battle, and dispatch the lead of its
+    section with the list. The auditor runs again until it reports `pass`.
     Then save the run's ledger beside the plan, since the transcripts end with the session:
     `node scripts/token-ledger.mjs <transcripts> --story <story> --json > content/<story>/.plan/run.json`.
     `<transcripts>` is this session's transcript, `~/.claude/projects/<project>/<session id>.jsonl`, with the
     session id as it stands in your scratchpad's path, or the folder that holds the agents' transcripts.
     `node scripts/token-ledger.mjs` and `node scripts/fault-ledger.mjs` print the run's tokens and faults from
     that file, and `scripts/run-viewer.html` shows it to the user in a browser.
-15. **The user reads the story on a phone.**
-16. **Names per language.** For each language of `languages` in `site.yaml` after `en`, dispatch one
+12. **The user reads the story on a phone.**
+13. **Names per language.** For each language of `languages` in `site.yaml` after `en`, dispatch one
     `name-finder` with the story id and the language. They run at once, since each language has its own files. A
     name it leaves `unsourced` is the user's decision.
-17. **Translations.** For each language, once its name finder reports, dispatch one `translator` with the story
+14. **Translations.** For each language, once its name finder reports, dispatch one `translator` with the story
     id and the language. When a translator reports, dispatch the `translation-reviewer` with the same story and
     language. A change to an English text after this step goes to the translator of each language again, with
     the page ids.
@@ -170,7 +200,8 @@ Every agent's report is the block of `agents/report.md` and at most ten lines, a
 block before the prose:
 
 - `blocked` stops the step. Clear what blocks it, or take the question to the user.
-- A `wrong` fault goes to its `owner`. A `weak` fault is the user's decision. A `taste` fault is yours.
+- A `wrong` fault goes to its `owner`, through the manager of that agent. A `weak` fault is the user's decision.
+  A `taste` fault is its manager's.
 - Copy each `unresolved` line into `decisions.md`. An agent's answer to an open question is a proposal until the
   user rules on it.
 - Each file under `stale` is built or checked again. "When something changes upstream" has the script that lists them.

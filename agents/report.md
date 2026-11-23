@@ -11,16 +11,19 @@ known reader and one place. The places below are in `content/<story>/.plan/`.
 |---|---|---|---|
 | Work products | the agent of each step | the later steps | `brief.md`, `research.md`, `names.md`, the section plans and the battle plans |
 | Rules | the overseer alone | every agent | `agents/*.md` for every story, `rules.md` for this one |
-| Dispatch | the overseer | one agent | the block of "The dispatch", in the message that starts or resumes the agent |
-| Report | an agent | the overseer | the block of "The report", saved to `reports/` |
+| Dispatch | a manager | one agent of its team | the block of "The dispatch", in the message that starts or resumes the agent |
+| Report | an agent | the manager that dispatched it | the block of "The report", saved to `reports/` |
 | Fault list | a checker | the fixer | `faults/<section number>.yaml`, and `faults/story.yaml` for a fault of no one section |
 | Fix log | whoever changes a file to fix it | the section's reviewer, the user and whoever reviews the run | `fixes/<section number>.yaml`, and `fixes/story.yaml` for a fault of `faults/story.yaml`, one entry a change |
 | Handoff | an agent | the next agent of its role | `handoff/<role>.md`, one page |
-| Decision log | the overseer | the user and whoever reviews the run | `decisions.md` |
+| Decision log | a manager | the user and whoever reviews the run | `decisions.md` by the overseer for the story, `<number>-<section id>/decisions.md` by a section lead for its section |
 
 - What the next agent needs is in a channel. Nothing that matters stays only in a scratchpad or a message.
 - Agents do not write to each other. A checker writes a fault, the fixer sets its state, and the checker reads the
-  list again. The overseer rules on a fault and does not relay it.
+  list again. The manager of the two rules on a fault and does not relay it.
+- A manager dispatches, rules and merges: the overseer, a section lead, and a battle coordinator for its battle.
+  Every other agent is a worker, which makes a thing, or a checker, which tests what a worker made. Your report
+  goes to the manager that dispatched you, and no further as it is.
 - **No fix without its fault.** Every change that fixes something closes a fault that was written to the fault
   list first, however small the change and whoever makes it. There is one fault list and one fix log, and no fix
   of another kind.
@@ -68,6 +71,7 @@ replaces the field's whole value or one clause of it, and quotes the old text wo
   introduced: plan    # the work that made the fault, where you can tell
   owner: section-reviewer   # the agent whose file changes
   state: open         # open, fixed or declined
+  ruling: <what the manager ruled, where it ruled on the fault>
 ```
 
 `id` is the list's name, the role that wrote the fault and that role's next number in the list:
@@ -79,8 +83,8 @@ decide, leaves out `replaces` and `old`, and its `new` says what should change.
 
 `severity` is `wrong` where the reader would be told something false, a drawing has no basis, or a check fails. It
 is `weak` where the evidence is thinner than `agents/evidence.md` asks. It is `taste` where a careful person could
-leave the file as it is. The overseer has every `wrong` fault fixed, decides each `weak` one with the user, and
-may let a `taste` fault stand.
+leave the file as it is. A manager has every `wrong` fault fixed and may let a `taste` fault stand. A `weak` fault
+goes up to the overseer, who decides it with the user.
 
 `owner` is the name of an agent of `.claude/agents/`, as the second table of `AGENTS.md` lists them. It is `brief`
 where the story's brief has to change, and `overseer` where a file of the overseer's has.

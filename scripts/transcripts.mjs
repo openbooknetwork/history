@@ -6,6 +6,8 @@
 //   <file>.json                 a run saved earlier with --json
 //
 // Each agent is tagged without a hand-kept list:
+//   parent   the manager that dispatched it: the overseer, or the role and section or battle of the agent whose
+//            transcript holds its dispatch
 //   role     the agent type in agent-<id>.meta.json beside its transcript, else the type the overseer's own
 //            transcript dispatched its first prompt with, else the --roles file ("<role> <agent id>" pairs on any
 //            line), else "overseer" for a session's own transcript
@@ -49,7 +51,7 @@ export const FIRST_CHECK = {
 export const DISPATCH_FIELDS = ['story', 'section', 'battle', 'pages', 'lang', 'names', 'step', 'task', 'faults', 'scratchpad', 'serve', 'note'];
 const NOTE_LENGTH = 200;
 // the roles that manage, whose own changes to a file are steps the roles should have made
-const MANAGERS = ['overseer', 'section-coordinator', 'battle-coordinator'];
+const MANAGERS = ['overseer', 'section-lead', 'section-coordinator', 'battle-coordinator'];
 const WHOLE_STORY = new Set(['overseer', 'researcher', 'names', 'map-architect', 'editor', 'story-auditor', 'name-finder', 'translator', 'translation-reviewer']);
 const AGENT_ID = /a[0-9a-f]{16}/;
 const VALUE_FLAGS = ['story', 'roles', 'variant', 'weights', 'pages', 'by'];
@@ -261,6 +263,16 @@ function fromTranscripts(opts) {
   };
 
   const dispatched = new Map(transcripts.flatMap(t => t.dispatches).map(d => [d.prompt.trim(), d]));
+  // the manager that dispatched each agent: the transcript its dispatch stands in
+  const dispatcher = new Map(transcripts.flatMap(t => t.dispatches.map(d => [d.prompt.trim(), t])));
+  const label = t => {
+    if (!t.agentId) return 'overseer';
+    const d = dispatched.get((t.prompts[0] ?? '').trim());
+    const role = t.meta.agentType ?? d?.subagent_type ?? '?';
+    const section = (t.prompts[0] ?? '').match(/^section:[ \t]*"?(\d{3})"?/m)?.[1];
+    const battle = (t.prompts[0] ?? '').match(/^battle:[ \t]*"?([\w-]+)"?/m)?.[1];
+    return [role, battle ?? section].filter(Boolean).join(' ');
+  };
   const usage = [], reports = [], agents = [];
   const dispatches = [
     ...transcripts.flatMap(t => t.dispatches).map(d => ({ role: d.subagent_type, description: d.description ?? '', ...checkDispatch(d.prompt, d.subagent_type, d.description ?? '') })),
@@ -297,14 +309,16 @@ function fromTranscripts(opts) {
     });
     if (!tags.length) tags.push({ section, step });
     const agent = t.agentId ?? path.basename(t.file).replace(/\.(jsonl|output)$/, '');
+    const boss = t.agentId ? dispatcher.get((t.prompts[0] ?? '').trim()) : null;
+    const parent = boss ? label(boss) : '-';
     const model = t.meta.model ?? t.model ?? '?';
-    agents.push({ agent, role, model, start: t.start, end: t.end, description });
+    agents.push({ agent, role, parent, model, start: t.start, end: t.end, description });
 
     const rows = new Map();
     for (const { part, usage: u } of t.messages.values()) {
       const tag = tags[part] ?? tags[0];
       const key = `${tag.step} ${tag.section}`;
-      if (!rows.has(key)) rows.set(key, { agent, role, model, step: tag.step, section: tag.section, turns: 0, peak: 0, input: 0, cacheWrite: 0, cacheRead: 0, output: 0 });
+      if (!rows.has(key)) rows.set(key, { agent, role, parent, model, step: tag.step, section: tag.section, turns: 0, peak: 0, input: 0, cacheWrite: 0, cacheRead: 0, output: 0 });
       const r = rows.get(key);
       const input = u.input_tokens ?? 0, write = u.cache_creation_input_tokens ?? 0, read = u.cache_read_input_tokens ?? 0;
       r.turns++;

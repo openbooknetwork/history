@@ -100,7 +100,7 @@ const KINDS = [
   { key: 'cacheRead', label: 'Cache read', color: 'var(--s3)' },
   { key: 'output', label: 'Output', color: 'var(--s4)' },
 ];
-const GROUPS = { role: 'Role', step: 'Step', section: 'Section', 'step,role': 'Step and role', 'role,section': 'Role and section', agent: 'Agent', model: 'Model' };
+const GROUPS = { role: 'Role', step: 'Step', section: 'Section', 'step,role': 'Step and role', 'role,section': 'Role and section', parent: 'Manager', 'parent,role': 'Manager and role', agent: 'Agent', model: 'Model' };
 const SEVERITIES = ['wrong', 'weak', 'taste'];
 const CONTEXT_LIMIT = 300000;
 const state = { runs: [], current: 0, by: 'role', weights: [1, 1.25, 0.1, 5] };

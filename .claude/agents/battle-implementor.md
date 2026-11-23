@@ -1,6 +1,6 @@
 ---
 name: battle-implementor
-description: Builds one battle of a history story from its section's plan, the card, and for a battle with phases its generator and phase pages with their texts. Use once the battle's section has its page files, one battle at a time with the same agent for every battle.
+description: Builds one battle of a history story from its section's plan, the card, and for a battle with phases its generator and phase pages with their texts. Use once the battle's section has its page files, one agent per battle.
 tools: Read, Write, Edit, Glob, Grep, Bash
 model: opus
 effort: high

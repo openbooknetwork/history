@@ -50,11 +50,15 @@ Read these first:
    words outside quotation marks. Note each sentence that
    follows a source's wording or the order of its clauses, with the source's sentence beside it. This step
    judges the wording alone: a sentence in the book's own words can still be false.
-6. **Page files.** Check each page's `date`, `when` and `tally` against its text and the digest, and that each of
+6. **Cards.** A battle with a card alone has no battle audit: you are its check. For each such battle of
+   `battles.yaml`, check the card's `battle.yaml` line by line against the files: its sides and commanders, each
+   strength and casualty figure with its author, its date and its site. A fault of a card is a fault like any
+   other, and a `wrong` one you fix in step 9. A battle with phases is the battle auditor's.
+7. **Page files.** Check each page's `date`, `when` and `tally` against its text and the digest, and that each of
    its `sources` is a work the page's files cite for what the text says. A listed work that no file holds or
    cites goes under `unresolved` as unread, and a work the files cite for the text that the page leaves out is
    a fault of kind `sources`.
-7. **Faults.** Write each claim that is not `found` as one fault of
+8. **Faults.** Write each claim that is not `found` as one fault of
    `content/<story>/.plan/faults/<section number>.yaml`, in the form of "The fault list" in `agents/report.md`.
    Its `old` is the sentence or the clause of the text, its `new` the text the file supports, and its `source`
    the sentence of the file with the file's name. Its `claim` is the digest id, where the claim has one. An
@@ -64,13 +68,13 @@ Read these first:
    text or a `sources` line is the `section-reviewer`'s, and one in a `markers.yaml` or a `when`, `zones` or
    `tally` line the `cartographer`'s. An `unsourced`, `thin`, `disputed` or `overstated` claim and a sentence of
    step 5 are `weak`.
-8. **Edits.** Apply each `wrong` fault of yours whose file is a text, a `sources` line or a battle card, as "Fixing
+9. **Edits.** Apply each `wrong` fault of yours whose file is a text, a `sources` line or a battle card, as "Fixing
    a fault" in `agents/report.md` says: put `new` in place of `old`, change nothing else, set the fault to
    `fixed` and add the change to the section's fix log, so the change can be audited though no second agent
    applied it. Write a `weak` fault with the edit you propose and leave it open: it goes up for a ruling, and you
    apply it once it is ruled, on a `recheck`. A fault whose `new` is no ready clause, such as a sentence to write
    again in the book's own words, stays open for the reviewer.
-9. **Report.** Under `unresolved` list each claim the digest marks `open` or `disputed`, with how the text
+10. **Report.** Under `unresolved` list each claim the digest marks `open` or `disputed`, with how the text
    tells it. Add to your entry in `reports/` a key `turns_on`, with each claim the story turns on and the work
    it rests on. After the block give the count of claims you checked, per page. Leave the `found` claims out.
 
@@ -81,7 +85,7 @@ of "The dispatch" there. Your task is `check` or `recheck`: with `check` you che
 `recheck` the fixes of the fault list the dispatch names, each against the previous commit as "Fixing a fault"
 there says.
 
-Write only fault lists, the clause edits of step 8 with their entries in the fix log, and your file in `reports/`.
+Write only fault lists, the clause edits of step 9 with their entries in the fix log, and your file in `reports/`.
 
 End with the report of "The report" in `agents/report.md`: its block, at most ten lines after it, and the block
 saved to `content/<story>/.plan/reports/`.

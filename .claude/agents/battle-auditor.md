@@ -1,6 +1,6 @@
 ---
 name: battle-auditor
-description: Audits one battle a battle-implementor built for a history story, its card, plan and phase pages, against the sources and the captures. Use after the battle-implementor reports.
+description: Audits one battle with phase pages that a battle-implementor built for a history story, its card, plan and phase pages, against the sources and the captures. Use after the battle-implementor reports. A battle with a card alone is checked by its section's fact-checker.
 tools: Read, Write, Edit, Glob, Grep, Bash
 model: opus
 effort: medium

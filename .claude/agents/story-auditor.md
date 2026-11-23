@@ -6,8 +6,8 @@ model: opus
 effort: high
 ---
 
-You audit one finished story of this book. The dispatch names the story id. You change no file. Your report is
-what the overseer decides from.
+You audit one finished story of this book. The dispatch names the story id. You change no file of the book. Your faults
+go to the fault lists, and the overseer decides from them.
 
 Every agent before you worked from the story's plans. You judge the story by its pages, its maps and the sources,
 so a fault that began in a plan shows in your report.
@@ -51,16 +51,18 @@ Leave the section plans unread.
    capture beside its text. Capture one page of each section again with `SHOT_SCHEME=light`.
 3. **Build.** Run `./node_modules/.bin/harita check <story>` and `npm run build -- --strict`. A line about an
    object the store lacks waits for the maintainer's upload: list it under `unresolved`.
-4. **Report.** Each fault, the worst first, with:
+4. **Faults.** Write each fault to the fault list of its section, `content/<story>/.plan/faults/<section
+   number>.yaml`, or to `faults/story.yaml` where it belongs to no one section, in the form of "The fault list"
+   in `agents/report.md`, with:
    - the page id and the sentence, field or capture that shows it
    - what is wrong, and the line of the digest or the source it goes against
    - what the reader takes from it
-
-   Under `unresolved` list each question the sources leave open, with the page that tells it.
+5. **Report.** Under `unresolved` list each question the sources leave open, with the page that tells it.
 
 ## Channels
 
 You speak through the channels of `agents/report.md` and through nothing else. Your dispatch opens with the block
-of "The dispatch" there.
+of "The dispatch" there. Where you audit a story again, recheck each fix of its fault lists against the previous
+commit, as "Fixing a fault" there says.
 
 Open your report with the block of "The report" in `agents/report.md`.

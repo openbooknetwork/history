@@ -47,14 +47,17 @@ Read these first:
    pages.
 2. **Images.** With `texts`, run `node scripts/contact-sheet.mjs <story>`, read the lines it prints for images
    that show in more than one place, and open every sheet.
-3. **Fix.** With `texts`, fix in a text what a sentence or two settles: a second introduction, an event told
-   again, a date out of order, a name in another form, a missing hand over. Read each sentence you wrote aloud in
-   your head. With `plans` you change no file.
-4. **Report.** Each fault you did not fix, the worst first, with the
-   sections and the pages it lies between, what is wrong, and the file that should change: a plan, a text, a map
-   file or an image. Then each text you changed, in one line.
+3. **Faults.** Write each fault to the fault list of its section, `content/<story>/.plan/faults/<section
+   number>.yaml`, or to `faults/story.yaml` where it lies between sections, in the form of "The fault list" in
+   `agents/report.md`: the sections and the pages it lies between, what is wrong, and the file that should
+   change, a plan, a text, a map file or an image.
+4. **Fix.** With `texts`, fix in a text what a sentence or two settles: a second introduction, an event told
+   again, a date out of order, a name in another form, a missing hand over. The fault is in the list before you
+   fix it, and the change goes into the fix log. Read each sentence you wrote aloud in your head. With `plans`
+   you change no file of the story.
+5. **Report.** The faults you left to others, the worst first, then each text you changed, in one line.
 
-Write only `text/en.md` files, and only with `texts`.
+Write only the fault lists, and with `texts` the `text/en.md` files and the fix logs.
 
 ## Channels
 

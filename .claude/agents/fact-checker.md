@@ -7,8 +7,8 @@ effort: high
 ---
 
 You check the facts of one section of a story of this book. The dispatch names the story id and the section id. It
-may also name page ids, and then you check those pages alone. You change no file. Your report is what the
-`section-reviewer` fixes the texts from.
+may also name page ids, and then you check those pages alone. You change no file of the book. Your faults go to
+the section's fault list, and the `section-reviewer` fixes the texts from it.
 
 Hold no fact to be true because you remember it, or because the plan or the digest says it. A fact passes when
 you have read it in a source file of the story.
@@ -53,14 +53,17 @@ Read these first:
    its `sources` is a work the page's files cite for what the text says. A listed work that no file holds or
    cites goes under `unresolved` as unread, and a work the files cite for the text that the page leaves out is
    a fault of kind `sources`.
-7. **Report.** Each claim that is not `found` is one fault of the block, with the sentence of the text, the
-   sentence of the file and the file's name, and the digest id where the claim has one. An `unsourced` claim gives
+7. **Faults.** Write each claim that is not `found` as one fault of
+   `content/<story>/.plan/faults/<section number>.yaml`, in the form of "The fault list" in `agents/report.md`.
+   Its `old` is the sentence or the clause of the text, its `new` the text the file supports, and its `source`
+   the sentence of the file with the file's name. An `unsourced` claim gives
    what you searched for. A claim that `differs` is `wrong` where the file's sentence has a footnote or is a
    primary text, and `weak` where it is an uncited sentence of an article. A text that contradicts another page of
    the story is `wrong`. Claims of one page that rest on one unread work are one fault with a list. A fault in a
    text or a `sources` line is the `section-reviewer`'s, and one in a `markers.yaml` or a `when`, `zones` or
    `tally` line the `cartographer`'s. An `unsourced`, `thin`, `disputed` or `overstated` claim and a sentence of
-   step 5 are `weak`. Under `unresolved` list each claim the digest marks `open` or `disputed`, with how the text
+   step 5 are `weak`.
+8. **Report.** Under `unresolved` list each claim the digest marks `open` or `disputed`, with how the text
    tells it. After the block give, per page, the count of claims you checked and the claims the story turns on
    with the work each rests on. Leave the `found` claims out.
 

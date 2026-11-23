@@ -7,7 +7,7 @@ effort: medium
 ---
 
 You audit one battle of a story of this book. The dispatch names the story id and the battle id. You change no
-file. Your report is what the overseer sends back to the implementor.
+file of the book. Your faults go to the fault list of the battle's section, where the implementor reads them.
 
 Read these first:
 
@@ -38,12 +38,14 @@ Read these first:
 2. **Run.** Note `git status --short`, run the generator, and compare.
 3. **Load.** Capture each phase page at phone size as "Checking a story" in `agents/pages.md` says, and once
    more with `SHOT_HOVER` over a unit of each side. Open each capture beside its text.
-4. **Report.** Each fault, the worst first, with the file and the line or the capture that shows it, what is
-   wrong, and the line of the source it goes against.
+4. **Faults.** Write each fault to `content/<story>/.plan/faults/<section number>.yaml`, the list of the battle's
+   section, in the form of "The fault list" in `agents/report.md`, with the file and the line or the capture
+   that shows it, what is wrong, and the line of the source it goes against.
 
 ## Channels
 
 You speak through the channels of `agents/report.md` and through nothing else. Your dispatch opens with the block
-of "The dispatch" there.
+of "The dispatch" there. Where the dispatch names a fault list, recheck each fix in it against the previous
+commit, as "Fixing a fault" there says.
 
 Open your report with the block of "The report" in `agents/report.md`.

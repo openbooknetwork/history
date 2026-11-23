@@ -7,7 +7,7 @@ effort: high
 ---
 
 You audit the maps of one section of a story of this book. The dispatch names the story id and the section id. You
-change no file. Your report is what the overseer sends back to the cartographer.
+change no file of the book. Your faults go to the section's fault list, where the cartographer reads them.
 
 The cartographer drew from the plan's Contract. You test each drawing against what the sources say about the land.
 
@@ -59,13 +59,16 @@ Read these first:
    routes. Note each place that falls on the wrong side with its distance from the border.
 3. **Load.** Capture each page of the section at phone size as "Checking a story" in `agents/pages.md`
    says. Capture a page again at the default size where a fault is too small to see on a phone.
-4. **Report.** Each fault, the worst first, with the page id and the zone, route or marker, what is wrong, the
-   line of the source it goes against, and the capture that shows it. Under `unresolved` list each border the
-   sources leave open, so the overseer knows which lines are the cartographer's own.
+4. **Faults.** Write each fault to `content/<story>/.plan/faults/<section number>.yaml`, in the form of "The
+   fault list" in `agents/report.md`, with the page id and the zone, route or marker, what is wrong, the line of
+   the source it goes against, and the capture that shows it.
+5. **Report.** Under `unresolved` list each border the sources leave open, so the overseer knows which lines are
+   the cartographer's own.
 
 ## Channels
 
 You speak through the channels of `agents/report.md` and through nothing else. Your dispatch opens with the block
-of "The dispatch" there.
+of "The dispatch" there. Where the dispatch names a fault list, recheck each fix in it against the previous
+commit, as "Fixing a fault" there says.
 
 Open your report with the block of "The report" in `agents/report.md`.

@@ -7,7 +7,7 @@ effort: high
 ---
 
 You review one section of a story of this book, and fix its texts in place. The dispatch names the story id and the
-section id, and carries the `fact-checker`'s report on the section.
+section id, and the section's fault list, where the `fact-checker` wrote its faults.
 
 The writer worked from the plan. You read as the reader does.
 
@@ -22,15 +22,15 @@ Read these in full first:
 
 ## Steps
 
-1. **Facts.** Fix each fault of the fact checker's report. Read the file's sentence again before you act on it,
-   since a fetched file can change between the check and the review. A claim that `differs` takes what the file
+1. **Facts.** Fix each fault of the list that is yours, as "Fixing a fault" in `agents/report.md` says, without
+   doing the fact checker's research again. A claim that `differs` takes what the file
    says. A `disputed` claim gives both accounts with their authors, where a source that counts by
    `agents/evidence.md` stands on each side. Where one side has no such source, the text keeps the other and the
    claim goes into your report. An `unsourced` claim comes out, unless it most likely rests on a work the page
    lists under `sources` and no file holds: that one stays as it is and goes into your report for the
    researcher. An `overstated` sentence takes back the doubt of its source. A `thin` claim stays as it is and
    goes into your report, since the user decides it.
-2. **Own words.** Write again each sentence the report lists as following an article's wording, from the fact
+2. **Own words.** Write again each sentence the list gives as following an article's wording, from the fact
    and in another order of clauses.
 3. **Maps.** Capture each page of the section at phone size as "Checking a story" in `agents/pages.md` says,
    and open each capture beside its text. The text tells the change the map shows, and each place the text names
@@ -46,14 +46,17 @@ Read these in full first:
    reason to change it.
 7. **Check.** Run `./node_modules/.bin/harita check <story> <page ids>` and
    `./node_modules/.bin/harita check <story> --places`, and fix each problem in a text.
-8. **Report.** List each marker note that should follow a text you changed, with the marker's id and the new
-   fact, and each place a text names that its page's map lacks: the cartographer works after you. Then one short
-   paragraph per kind: the ids of the pages whose text you changed, each fault of the
-   report you left with the reason, each fault of a map with its page and capture, each place short of an image,
-   each problem of the check that is left, and each point where the plan should change.
+8. **Faults.** A change you make on a finding of your own, in steps 3 to 6, closes a fault too: write it to the
+   list, then fix it, then log it. Write to the list as well what others fix: each marker note that should
+   follow a text you changed, with the marker's id and the new fact, each place a text names that its page's map
+   lacks, each fault of a map with its page and capture, and each place short of an image. The cartographer and
+   the image finder work after you.
+9. **Report.** One short paragraph per kind: the ids of the pages whose text you changed, each fault of the
+   list you declined with the reason, each problem of the check that is left, and each point where the plan
+   should change.
 
-Write only the texts of your section, the `sources` lines of its page files, and the `@image` lines and `images`
-lists of step 5. The `when`, `zones` and `tally` lines and every `markers.yaml` are the cartographer's.
+Write only the texts of your section, the `sources` lines of its page files, the `@image` lines and `images`
+lists of step 5, and the section's fault list and fix log. The `when`, `zones` and `tally` lines and every `markers.yaml` are the cartographer's.
 
 ## Channels
 

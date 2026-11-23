@@ -100,27 +100,29 @@ Every dispatch, and every message that resumes an agent, opens with the block of
    says, and note its process id. Name its port in every dispatch from here to step 14, so no agent builds the
    story a second time, and stop it after step 14. The port is the `serve` of each dispatch. Dispatch the `cartographer` with the sections in order, one
    section at a time. The same cartographer takes every section, so each zone, route and family exists once. When
-   it reports on a section, dispatch the `map-auditor` with that section. A fault goes back to the same
-   cartographer together with the next section, and the last section is audited until it reports `pass`. Dispatch
+   it reports on a section, dispatch the `map-auditor` with that section. It writes its faults to the section's
+   fault list. The same cartographer fixes them from the list before it takes the next section, and the last
+   section is audited until it reports `pass`. Dispatch
    one `section-writer` per section, and they run at once.
 9. **Battle plans.** Dispatch one `battle-coordinator` per battle a section's plan gives phase pages. They run
    at once. Where one reports that no source gives the positions, take the phase pages out of the section's plan.
 10. **Battles.** Dispatch the `battle-implementor` with each battle of the plans, one battle at a time, and the
     same implementor takes every battle. It writes the battle's card, and the phase pages of a battle with
-    phases. When it reports, dispatch the `battle-auditor`. A fault goes back to the same implementor together
-    with the next battle. The last battle is audited until it reports `pass`.
+    phases. When it reports, dispatch the `battle-auditor`, which writes its faults to the fault list of the
+    battle's section. The same implementor fixes them from the list before it takes the next battle. The last
+    battle is audited until it reports `pass`.
 11. **Images.** Dispatch one `image-finder` per section once the section has its texts and its battle cards.
 12. **Facts and review.** For each section, once its maps, battles and images are in, dispatch the `fact-checker`,
-    and then the `section-reviewer` with the fact checker's report. Dispatch the fact checker again with the pages
-    the reviewer changed, until it reports `pass`. The marker notes and the faults of a map in the reviewer's
-    report go to the cartographer once every reviewer of the story has finished, and a place short of an image to
-    the section's image finder. A point where a plan should change goes back to step 7.
-13. **Edit.** Dispatch the `editor` with the story id and the word `texts`. A fault goes back to the reviewer of
-    its section, or to the cartographer where the map is at fault. The pages the editor changed go to the
+    and then the `section-reviewer`, which fixes from the section's fault list. Dispatch the fact checker again
+    to recheck the list, until it reports `pass`. The marker notes and the faults of a map that the reviewer
+    wrote to the list go to the cartographer once every reviewer of the story has finished, and a place short of
+    an image to the section's image finder. A point where a plan should change goes back to step 7.
+13. **Edit.** Dispatch the `editor` with the story id and the word `texts`. A fault of its lists goes to the
+    reviewer of its section, or to the cartographer where the map is at fault. The pages the editor changed go to the
     `fact-checker` of their section.
 14. **Whole story.** Check the story as "Checking a story" in `agents/pages.md` says. Dispatch the `story-auditor`
-    with the story id. For each fault it reports, decide the file that changes, a plan, a text, a map file or a
-    battle, and send it back to the step that owns the file. The auditor runs again until it reports `pass`.
+    with the story id. For each fault it writes to the fault lists, decide the file that changes, a plan, a
+    text, a map file or a battle, and dispatch the step that owns the file with the list. The auditor runs again until it reports `pass`.
     Then save the run's ledger beside the plan, since the transcripts end with the session:
     `node scripts/token-ledger.mjs <transcripts> --story <story> --json > content/<story>/.plan/run.json`.
     `<transcripts>` is this session's transcript, `~/.claude/projects/<project>/<session id>.jsonl`, with the

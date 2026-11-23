@@ -63,12 +63,14 @@ replaces the field's whole value or one clause of it, and quotes the old text wo
   state: open         # open, fixed or declined
 ```
 
-The checker writes the fault with the state `open`. The fixer sets it to `fixed` or `declined`, and changes no
-other line of the entry.
+The fact-checker, the map-auditor, the battle-auditor, the editor and the story-auditor write their faults
+there, each with its source line, and so does any other agent that finds one. A fault that belongs to no one
+section goes to `faults/story.yaml`. The checker writes the fault with the state `open`. The fixer sets it to
+`fixed` or `declined`, and changes no other line of the entry.
 
 ## Fixing a fault
 
-The fixer applies each fault of its own as it is written.
+The fixer applies each fault of its own as it is written, without doing the checker's research again.
 
 - A clause edit puts `new` in place of `old` and leaves the rest of the field as it stands. Every author's figure
   stays unless the fault says to remove it.

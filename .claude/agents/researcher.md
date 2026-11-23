@@ -36,9 +36,19 @@ Read these first:
    both sides, and in which file.
 5. **Digest.** Write `content/<story>/.plan/research.md` in the layout below. When you add to a digest that
    exists, keep each line's id.
-6. **Check.** Run `node scripts/quotes-check.mjs <story>` and fix each problem it prints: a quote that is not in
+6. **Gates.** Four rules hold for every line of the digest:
+   - A date, a place or a figure is `agreed` only with a second account, independent of the first.
+   - Every section has the same least number of `scholarly` sources: a section short of the others is searched
+     again.
+   - For each author used with two works, check whether the later work withdraws what the earlier says.
+   - No "Coverage" line says that no source gives a thing before a search of the files already read.
+
+   `node scripts/research-gates.mjs <story>` counts the sources on each `agreed` line and in each section, and
+   lists the authors used with two works and each "no source gives" sentence. Whether two sources are
+   independent, and the comparison of two works, stay with you.
+7. **Check.** Run `node scripts/quotes-check.mjs <story>` and fix each problem it prints: a quote that is not in
    its file is copied again from the file. Done when it prints `ok`.
-7. **Report.** How many lines the digest's "Thin", "Against the brief" and "Unread" parts hold, and each section
+8. **Report.** How many lines the digest's "Thin", "Against the brief" and "Unread" parts hold, and each section
    whose "Coverage" line rests on `wikipedia` alone. The overseer reads the parts in the digest.
 
 ## The digest's layout

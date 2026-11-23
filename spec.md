@@ -262,6 +262,82 @@ as work for the pipeline, to be closed with a rule, a script or a role and not w
 fixes of 4.4 count here: they save a round trip, and each one still says something no role caught. Done when a
 run's report lists these steps by kind and the count falls from one run to the next. `[F11, L5]`
 
+**2.15 Plans per role, in YAML, with a schema.** *history.* **Agreed; written here before any definition
+changes.** A section's plan is one Markdown file of 400 to 650 lines today, mostly prose, that the writer, the
+cartographer and the overseer each read whole. It becomes four files per section, in
+`.plan/<number>-<section id>/`, each checked against a schema as it is written.
+
+| File | Read by | Holds |
+|---|---|---|
+| `pages.yaml` | every role | the core of each page: id, title, `date`, `when`, what it tells, `rests_on`, markers |
+| `map.yaml` | cartographer, map-auditor | each page's frame, zones and routes, each with its basis |
+| `text.yaml` | section-writer, fact-checker, section-reviewer | each page's account, its files and passages, its disputes |
+| `battles.yaml` | the battle roles | each battle's sides, figures, card fields and phases |
+
+```yaml
+# pages.yaml
+- id: the-danube
+  title: "To the Danube"
+  date: "Spring 335 BC"
+  when: -0335-03
+  tells: Alexander beats the Triballi, crosses the Danube by night and scatters the Getae.
+  rests_on: [020.3, 020.4, 020.5, 020.15]
+  markers: [danube, getic-town, peuce]
+```
+
+```yaml
+# map.yaml
+the-danube:
+  bbox: [21.5, 40.4, 29.5, 45.3]
+  zones: [macedon, thracians, triballi, getae, illyrians, persia]
+  routes:
+    - id: alexander-335-danube
+      family: macedon
+      stations: [Amphipolis, Nessus plain, Philippopolis, Trojan pass, Lyginus, Danube]
+      passage: "Arrian 1.1.5 to 1.2.1"
+      basis: reconstruction
+      why: Bosworth takes the Trojan pass and Hammond the Shipka. The route follows Bosworth.
+```
+
+- **One fact stands in one file.** A page's title, date and markers are in `pages.yaml` alone. The role files
+  name a page by its id and repeat nothing of its core, and the check fails a reference that names no page.
+- **One writer.** The section-coordinator writes all four for its section, and the battle-coordinator a battle's
+  detailed plan as `battles/<battle id>.yaml` beside them.
+- **The pre-plan of 5.7 is `pages.yaml`** with the fields that need no research: no `rests_on` yet.
+- **Rules become the format.** A battle id without its year (2.3), a `rests_on` that is no digest id (2.4), a
+  route without its passage (2.5) and a page without a `when` (2.13) no longer build, where a linter reported
+  them before.
+- **The reasoning keeps a place.** Why one scholar's route is taken is a `why` field on that route. The
+  "Choices" part of today's plans goes to the decision log, where a ruling belongs.
+- **Scripts read the plan.** `scripts/points.mjs` takes its places from `map.yaml`, and a cartographer's page
+  files can start from it.
+- **Existing stories keep their Markdown plans.** The new form is for a story begun after it.
+
+The definitions that change with it, none of them changed yet: `section-coordinator`, which writes the files;
+`section-writer`, `cartographer`, `map-auditor`, `fact-checker`, `section-reviewer`, `editor`,
+`battle-coordinator`, `battle-implementor`, `battle-auditor`, `image-finder` and `story-auditor`, which read
+them; and the table of the plan folder in `agents/overseer.md`. Done when a schema for each file is in the repo,
+a script checks a plan folder against them, and each of those definitions names the one or two files its agent
+reads. `[F12.4, F9]`
+
+**2.16 What an agent built from is hashed.** *history.* **Agreed.** Every agent works from files another wrote:
+its role's plan, `rules.md`, its slice of the digest, the names. When it is dispatched, the hash of each is
+recorded, and when it ends they are compared: a file that changed under it makes its work stale, and its report
+says so. The hashes are saved with its report, so a script lists at any moment each page, text and battle built
+from a version of a file that has since changed. That list takes the place of the table "When something changes
+upstream" in `agents/overseer.md`, which the overseer keeps from memory today.
+
+- A hash is computed from a file's content and is not written into the file.
+- A plan is hashed by page: one page's entry in one role's file. A changed route flags that page's map and not
+  its text, nor the other pages of its section.
+- The agent does not do this itself. A script does, and in the plugin of 6.7 the hook on a dispatch and the hook
+  on an agent's end.
+- A hash proves that what an agent built from did not change. It does not prove that a plan still matches the
+  pages made from it: a fix to a text leaves its plan's hash as it was. 5.5 says what happens then.
+
+Done when a run's stale list names the files to build again after a plan changes, with no file missed and none
+listed that did not rest on the change. `[F17.5]`
+
 ## Layer 3. Scripts in place of agent checks
 
 Each script here does a check an agent does today, in seconds and for no tokens. They are built in this order:
@@ -434,8 +510,12 @@ it reports, and marker ids are frozen from the moment it starts. The run ends la
 and not nine, since the fact-check and the review of a section waited for its maps already. Splitting the
 cartographer (6.1) takes that time back. `[F12.8, F17.3, F17.4]`
 
-**5.5 Plans end at step 7.** *history.* A plan is not synced after its texts are reviewed, and
-`agents/overseer.md` says so. `[F17.5]`
+**5.5 A plan may change, and the change shows.** *history.* **Agreed.** A plan is not frozen, and is not kept in
+step by hand either. A small change to a page, a corrected date, a dispute moved to its notes, a marker renamed,
+leaves the plan as it is and goes into the fix log of 2.0. A change to the story's shape, a page added, removed
+or split, a battle that loses its phase pages, goes back to `plans`: the plan is written again, its hash changes
+(2.16), and each thing built from the old version is listed to build again. The line of today's notes that sends
+every point where a plan should change back to step 7 goes. `[F17.5]`
 
 **5.6 The run's order.** *history.* `agents/overseer.md` writes down the order the run found: battle plans
 beside the maps, battles one section behind the maps, images as soon as a section has texts and cards, the map
@@ -443,11 +523,12 @@ audit of a section beside the drawing of the next. `[F14, L9]`
 
 **5.7 Pre-plans, checked before the research.** *history.* A full plan cites the lines of the digest, and the
 research of round 2 needs the pages first: each waited on the other. A pre-plan breaks the loop. It is a
-section's page list alone: each page's id, title, `when`, one line of what it tells, its battles and the places
-it marks, with no sources. At `pre-plan-check` the editor reads all of them together for an event told in two
-sections, a place two sections mark, a page out of time order (2.13) and an event of the brief that no section
-tells. The research then runs on a settled list of pages, and the full plans are written from it. The Alexander
-run found six marker ids planned in two sections, after the full plans were written. `[F4, F9]`
+section's `pages.yaml` (2.15) without its `rests_on`: each page's id, title, `date`, `when`, one line of what
+it tells, its battles and the places it marks. At `pre-plan-check` the editor reads all of them together for an
+event told in two sections, a place two sections mark, a page out of time order (2.13) and an event of the brief
+that no section tells. The research then runs on a settled list of pages, and the full plans are written from
+it. The Alexander run found six marker ids planned in two sections, after the full plans were written.
+`[F4, F9]`
 
 ## Layer 6. Structure
 

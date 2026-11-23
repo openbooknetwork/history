@@ -246,6 +246,11 @@ Thebes in September 335 BC. Rests on 1.12 for stories of years BC.
 
 ## Layer 3. Scripts in place of agent checks
 
+Each script here does a check an agent does today, in seconds and for no tokens. They are built in this order:
+3.3, since it is a few lines and ends false errors; 3.1, since most of the rules of layer 2 rest on it; 3.2. Those
+three save whole rounds of fixing. Then 3.4 and 3.6, which save tokens in every agent's context. Each says below
+what it cannot judge, so that an auditor knows what is still its own.
+
 **3.1 A rules linter.** *history first, then harita.* `scripts/rules-lint.mjs <story>`, run beside
 `harita check`. It reports:
 
@@ -258,6 +263,15 @@ Thebes in September 335 BC. Rests on 1.12 for stories of years BC.
 - a disputed digest claim cited in a body and not in Notes
 - a passage number on a `Rests on:` line
 - a card page whose opening frame hides the map behind the docked card
+
+It prints each fault in the form of 2.0's fault list, so a fixer applies it as it stands. `harita check` tests
+that the files are valid, and the linter that they follow the rules.
+
+What it cannot judge:
+- whether a body is fair to both sides of a dispute. It sees that a text cites a claim the digest marks disputed
+  and has no Notes heading, and no more. The fact-checker judges the wording.
+- whether two pages tell different events. It takes pages of different dates or sections as different.
+- the careful side, land that no source says was taken. That needs the sources and stays with the map-auditor.
 
 Done when it catches every fault of `[E4.4]` except the careful-side ones, on the commits where the map audits
 found them. The checks that need no plan folder move into `harita check` later. `[F12.1, F17.7, E4.4]`
@@ -273,21 +287,32 @@ screen and a phone, and is not yet checked against captures. `[F4, E4.4]`
 
 **3.2 `names-check`.** *history.* `scripts/names-check.mjs <story>` lists names in the texts with no row in
 `names.md`, compares each name's first page with its "First named in" entry, and flags a name shared by two or
-more people when a text uses it without its description. Done when it reports the ten faults of `[F16]` on the
-commit before the editor's fix.
+more people when a text uses it without its description: the Alexander story has two Memnons and four Nicanors.
+It runs after each section's texts and again at step 14. It leaves out quotations and source lines, and keeps a
+list of capitalised words that are no names, such as months and the words that open a sentence. It cannot tell
+which Memnon a text means, only that the description is missing. Done when it reports the ten faults of `[F16]`
+on the commit before the editor's fix.
 
-**3.3 `quotes-check` reads only claim ids.** *history.* Match `<section number>.<n>` for the story's sections.
-`[F3]`
+**3.3 `quotes-check` reads only claim ids.** *history.* It takes anything shaped like `16.8` on a `Rests on:` line
+for a claim id, so "Diodorus 16.8.2" gave "claim 16.8 is not in the digest". It matches only an id whose first
+part is one of the story's section numbers, such as `020.7`. With 2.4 the false errors end. `[F3]`
 
-**3.4 Shared audit scripts.** *history.* `scripts/points.mjs <story> <section>` prints, for each place of a
-plan, which zone holds it on each page and how far it is from the edge. `scripts/route-surface.mjs` takes a
-section. Done when a map-auditor writes no script of its own. `[F12.2]`
+**3.4 Shared audit scripts.** *history.* Each map-auditor wrote its own throwaway scripts for two questions:
+which zone holds each place, and whether each route keeps to its surface. `scripts/points.mjs <story> <section>`
+prints, for each place a plan names, which zone holds it on each page and how far it is from the zone's edge, so
+the auditor looks only at the places near a border. `scripts/route-surface.mjs` takes a section and tests every
+route of it. With `scripts/zone-gaps.mjs` of 3.10 they are one family. Done when a map-auditor writes no script
+of its own. `[F12.2]`
 
 **3.5 A card-figure guard.** *history.* A check flags a card whose `strength` or `casualties` no longer names an
 author the plan's card section names. `[F13]`
 
-**3.6 Section slices.** *history.* `scripts/slice.mjs <story> <section>` writes `research-<section>.md` and
-`names-<section>.md` from the full files. Done when a section agent's first read is under a fifth of the digest.
+**3.6 Section slices.** *history.* Every agent reads the whole digest, of more than 560 quotes, and the whole of
+`names.md`, and reads them again on every turn. `scripts/slice.mjs <story> <section>` writes
+`research-<section>.md` and `names-<section>.md`. A slice follows the claim ids its section's plan cites, not
+the section number alone, since a text of 050 may rest on a claim filed under 030. The slices are made by the
+script and not committed, and made again when the full files change: a stale slice gives an agent old lines, so
+the dispatch hook of 6.7 makes it afresh. Done when a section agent's first read is under a fifth of the digest.
 `[F12.4]`
 
 **3.7 `contact-sheet.mjs` counts marker images.** *history.* An image shown by a marker on two pages is flagged

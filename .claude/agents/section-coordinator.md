@@ -30,7 +30,9 @@ researcher adds it, and you are resumed.
 ## Steps
 
 1. **Pages.** List the section's events in order of date, and give a page to each change of the map. Two events
-   that change the map in the same place within a few years share a page. Done when every page has a map change
+   that change the map in the same place within a few years share a page. No page starts before the page ahead
+   of it, the last page of the section before yours included, as "Order" in `agents/outline.md` says, and every
+   page has its `when`. Done when every page has a map change
    of its own, and every "Event" line of the digest's section is on a page or under "Left out" with its reason.
 2. **Battles.** Give each battle a card on the page of its campaign, and an id of the form `<name>-<year>`, such
    as `issus-333`. Give phase pages to a battle only where the

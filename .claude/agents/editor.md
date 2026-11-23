@@ -21,8 +21,9 @@ Read these first:
 
 ## What you look for
 
-- **Order in time.** The dates run forward within a section and from one section to the next. Where a section
-  steps back in time to follow another region, its first page says so.
+- **Order in time.** No page starts before the page ahead of it, within a section and from one section to the
+  next, as "Order" in `agents/outline.md` says. A page that steps back in time is a fault: it goes where its date
+  puts it, or it shows the map at its own date. Every page has a `when`.
 - **Nothing missing.** Each event the brief gives a section is in its plan, on a page or under "Left out" with a
   reason that holds. An event several sections each left to another is on no page: name it.
 - **One account.** Two sections tell the same event, cause or figure the same way. Where the digest marks a claim

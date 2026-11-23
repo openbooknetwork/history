@@ -20,11 +20,11 @@ with `npm run dev`.
 ## Builds
 
 A background command stops after two hours, so the dev server of step 8 does not last the run. No server is
-shared: each agent builds the story once into an `--out` folder of its own and serves that static build, and its
-dispatch says `serve: static`.
+shared: each agent builds the story once into an `--out` folder of its own and serves that static build, as
+"Checking a story" in `agents/pages.md` says, and its dispatch says `serve: static`.
 
 The store holds no upload of a new story before the maintainer's, and the strict build fails on that alone. At
-step 14 run `npm run build -- --strict --no-store`, which runs every strict check and leaves the store unasked.
+step 14 run `./node_modules/.bin/harita build --strict --no-store --story <story>`, which runs every strict check and leaves the store unasked.
 
 ## Commits
 

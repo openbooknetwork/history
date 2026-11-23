@@ -81,14 +81,19 @@ land and stay apart go into `content/shared/zones/apart.yaml` with `./node_modul
    serves it on the port and rebuilds it on every save. A story that an overseer builds has one such server,
    which the overseer starts, and each agent captures from the port its dispatch names. An agent whose dispatch
    names no port starts a server with an `--out` and a port of its own, in the background, and stops it by its
-   process id when it finishes.
+   process id when it finishes. An agent that changes no file, and any agent whose dispatch says `serve: static`,
+   builds once with `./node_modules/.bin/harita build --story <story> --out <dir>` into a folder of its own and
+   serves it with `python3 -m http.server <port> --directory <dir>`, so no other agent's rebuild reaches its
+   captures.
 3. `node scripts/screenshot.mjs http://localhost:<port>/<story>/ <out dir> <page ids>` captures pages in
-   headless Chrome. `SHOT_HOVER=<lon>,<lat>` shows a battle unit's hover label, `SHOT_SCHEME=light` the light
+   headless Chrome. `SHOT_HOVER=<lon>,<lat>` shows a battle unit's hover label, `SHOT_TEXT=1` opens each page's Text view before
+   its capture, `SHOT_SCHEME=light` the light
    theme, `SHOT_LANG=tr` the Turkish pages, and `SHOT_W=390 SHOT_H=780` a phone. Open the capture of every page
    you changed. `SHOT_WAIT=12000` gives a map that came out blank the time to draw. Give the captures a folder of your own, and take again a capture that caught a page while another
    agent's save was rebuilding it.
 
-A story is done when the check prints ok and `npm run build -- --strict` builds every story.
+A story is done when the check prints ok and `./node_modules/.bin/harita build --strict --story <story>` builds
+it. `npm run build -- --strict` builds every story of the book and takes far longer.
 
 ## Agents working in parallel
 

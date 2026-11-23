@@ -49,7 +49,7 @@ Leave the section plans unread.
 1. **Read.** Read the pages in order as the reader does, and note each point of the list above as you meet it.
 2. **Load.** Capture every page at phone size as "Checking a story" in `agents/pages.md` says, and open each
    capture beside its text. Capture one page of each section again with `SHOT_SCHEME=light`.
-3. **Build.** Run `./node_modules/.bin/harita check <story>` and `npm run build -- --strict`. A line about an
+3. **Build.** Run `./node_modules/.bin/harita check <story>` and `./node_modules/.bin/harita build --strict --story <story>`. A line about an
    object the store lacks waits for the maintainer's upload: list it under `unresolved`.
 4. **Faults.** Write each fault to the fault list of its section, `content/<story>/.plan/faults/<section
    number>.yaml`, or to `faults/story.yaml` where it belongs to no one section, in the form of "The fault list"

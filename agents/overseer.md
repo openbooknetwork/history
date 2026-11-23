@@ -49,6 +49,17 @@ log. You write the rules, each dispatch and `decisions.md`, and you read the rep
 - A run's own notes, such as what failed and what the run cost, are a record of the run and no channel. They go
   in `content/<story>/.plan/run/`, and not at the repo's root. The saved run stays at `.plan/run.json`.
 
+## Whose work it is
+
+The work belongs to the roles: a researcher researches, a checker checks, a fixer fixes. You dispatch, rule and
+merge. Change a file or act on your own judgement only where the agents missed something, and record it each
+time: a change is a fault you wrote, with its fix in the fix log, and a ruling is a line of `decisions.md` with
+its reason.
+
+One such step is a repair. The same kind of step a second time is a fault of the process: a rule that is not
+written, a check no script makes, or a job no role holds. A kind of change or ruling that comes up more than once
+in a run is work for the process, to be closed with a rule, a script or a role and not with a third repair.
+
 ## Dispatches
 
 Every dispatch, and every message that resumes an agent, opens with the block of "The dispatch" in

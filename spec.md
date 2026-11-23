@@ -570,8 +570,33 @@ a section's review waited for its image search. A text keeps its image lines, an
 Done when no agent but the writer and the reviewer edits a text, and a section's image search and its review
 run at once. `[F17.2]`
 
-**6.4 Notes as a feature.** *kitap.* A `notes:` field or footnote syntax, with the "Notes" label from the UI
-catalogue. `[F10]`
+**6.4 Notes as a feature of the book.** *kitap.* **Agreed.** A disputed claim leaves the body of a text and goes
+into a note at its end. kitap does not know a note today: each text ends with a `### Notes` heading typed by
+hand and marks its claims with `\*`, `\*\*` and `\*\*\*`, which need the backslash or Markdown makes them
+italics. The word "Notes" is typed into every text and translated by hand, and nothing checks that a mark has
+its note.
+
+A text marks a claim and writes its note by Markdown's footnote form, with a name in place of a typed mark:
+
+```
+The phalanx crossed the Haemus at a pass the sources do not agree on.[^pass]
+
+[^pass]: Bosworth takes the Trojan pass, on the later Roman road. Hammond takes the Shipka.
+```
+
+- **kitap gives the marks.** It marks the notes in the order the body names them, as `*`, `**`, `***` as the
+  texts do now, and draws them at the end of the text above its Sources.
+- **The heading comes from the interface's catalogue,** as "Sources" does, so it is translated once for a
+  language and typed into no text.
+- **The build checks the pairs.** A mark with no note and a note with no mark each fail it.
+- **A note is a thing a script can see.** The linter of 3.1 then tests that a claim the digest marks disputed
+  has a note on the page that tells it, and the word count leaves the notes out without guessing where they
+  start.
+- **The texts written by hand are turned once.** A script rewrites the `### Notes` part and the typed marks of
+  the Alexander story's texts into this form, and the build shows the same page before and after.
+
+Done when no text of a story types a note's mark or its heading, and a text whose mark has no note does not
+build. `[F10]`
 
 **6.5 A workflow script for a section.** *history.* Draw, lint, audit, fix, battles, images, fact-check and
 review as one script, so the overseer rules and does not relay. `[F12.11]`

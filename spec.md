@@ -484,7 +484,7 @@ Round 2 takes the place of the gap batches of 5.3: the research no longer comes 
 agent runs after round 2, since most minor names first appear in its lines. Each researcher starts from
 `rules.md`, the source map and its section's plan, by the dispatch form of 2.0, and leaves no handoff: the digest
 is its work product. Done when no research agent passes 300,000 tokens and the leaks that begin in research,
-8 of the 16 of `[E4.1]`, fall on the benchmark. `[F9, F15, F17.6, E4.2, E4.3]`
+5 of the 16 of `[E4.1]`, fall on the benchmark. `[F9, F15, F17.6, E4.2, E4.3]`
 
 ## Not in this spec
 

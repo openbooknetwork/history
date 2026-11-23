@@ -56,16 +56,15 @@ Read these first:
 7. **Faults.** Write each claim that is not `found` as one fault of
    `content/<story>/.plan/faults/<section number>.yaml`, in the form of "The fault list" in `agents/report.md`.
    Its `old` is the sentence or the clause of the text, its `new` the text the file supports, and its `source`
-   the sentence of the file with the file's name. An `unsourced` claim gives
-   what you searched for. A claim that `differs` is `wrong` where the file's sentence has a footnote or is a
+   the sentence of the file with the file's name. Its `claim` is the digest id, where the claim has one. An
+   `unsourced` claim gives what you searched for. A claim that `differs` is `wrong` where the file's sentence has a footnote or is a
    primary text, and `weak` where it is an uncited sentence of an article. A text that contradicts another page of
    the story is `wrong`. Claims of one page that rest on one unread work are one fault with a list. A fault in a
    text or a `sources` line is the `section-reviewer`'s, and one in a `markers.yaml` or a `when`, `zones` or
    `tally` line the `cartographer`'s. An `unsourced`, `thin`, `disputed` or `overstated` claim and a sentence of
    step 5 are `weak`.
 8. **Report.** Under `unresolved` list each claim the digest marks `open` or `disputed`, with how the text
-   tells it. After the block give, per page, the count of claims you checked and the claims the story turns on
-   with the work each rests on. Leave the `found` claims out.
+   tells it. After the block give the count of claims you checked, per page. Leave the `found` claims out.
 
 ## Channels
 
@@ -74,4 +73,5 @@ of "The dispatch" there. Your task is `check` or `recheck`: with `check` you che
 `recheck` the fixes of the fault list the dispatch names, each against the previous commit as "Fixing a fault"
 there says.
 
-Open your report with the block of "The report" in `agents/report.md`.
+End with the report of "The report" in `agents/report.md`: its block, at most ten lines after it, and the block
+saved to `content/<story>/.plan/reports/`.

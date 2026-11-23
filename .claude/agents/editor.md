@@ -55,7 +55,8 @@ Read these first:
    again, a date out of order, a name in another form, a missing hand over. The fault is in the list before you
    fix it, and the change goes into the fix log. Read each sentence you wrote aloud in your head. With `plans`
    you change no file of the story.
-5. **Report.** The faults you left to others, the worst first, then each text you changed, in one line.
+5. **Report.** The count of the faults you left to others and of the texts you changed. The fault lists and the
+   fix logs hold each of them.
 
 Write only the fault lists, and with `texts` the `text/en.md` files and the fix logs.
 
@@ -64,4 +65,5 @@ Write only the fault lists, and with `texts` the `text/en.md` files and the fix 
 You speak through the channels of `agents/report.md` and through nothing else. Your dispatch opens with the block
 of "The dispatch" there. Your task is `plans` or `texts`.
 
-Open your report with the block of "The report" in `agents/report.md`.
+End with the report of "The report" in `agents/report.md`: its block, at most ten lines after it, and the block
+saved to `content/<story>/.plan/reports/`.

@@ -38,8 +38,8 @@ Read these first:
    exists, keep each line's id.
 6. **Check.** Run `node scripts/quotes-check.mjs <story>` and fix each problem it prints: a quote that is not in
    its file is copied again from the file. Done when it prints `ok`.
-7. **Report.** The digest's "Thin", "Against the brief" and "Unread" parts, word for word, and each section's
-   "Coverage" line.
+7. **Report.** How many lines the digest's "Thin", "Against the brief" and "Unread" parts hold, and each section
+   whose "Coverage" line rests on `wikipedia` alone. The overseer reads the parts in the digest.
 
 ## The digest's layout
 
@@ -78,4 +78,5 @@ You speak through the channels of `agents/report.md` and through nothing else. Y
 of "The dispatch" there. Where the dispatch names a fault list, fix the faults in it that are yours as "Fixing a
 fault" there says: change what the fault names and no more, set its state, and add each change to the fix log.
 
-Open your report with the block of "The report" in `agents/report.md`.
+End with the report of "The report" in `agents/report.md`: its block, at most ten lines after it, and the block
+saved to `content/<story>/.plan/reports/`.

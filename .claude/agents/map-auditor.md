@@ -71,4 +71,5 @@ You speak through the channels of `agents/report.md` and through nothing else. Y
 of "The dispatch" there. Where the dispatch names a fault list, recheck each fix in it against the previous
 commit, as "Fixing a fault" there says.
 
-Open your report with the block of "The report" in `agents/report.md`.
+End with the report of "The report" in `agents/report.md`: its block, at most ten lines after it, and the block
+saved to `content/<story>/.plan/reports/`.

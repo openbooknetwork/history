@@ -57,4 +57,5 @@ names and no more, set its state, and add each change to the fix log.
 Where `content/<story>/.plan/handoff/cartographer.md` exists, read it first. Before you end, write there what the
 next cartographer must know and nothing else, on one page.
 
-Open your report with the block of "The report" in `agents/report.md`.
+End with the report of "The report" in `agents/report.md`: its block, at most ten lines after it, and the block
+saved to `content/<story>/.plan/reports/`.

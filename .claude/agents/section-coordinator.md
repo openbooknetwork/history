@@ -45,9 +45,9 @@ researcher adds it, and you are resumed.
    its author and its place in the work.
 5. **Plan file.** Write `content/<story>/.plan/<number>-<section id>.md` with the number the brief gives the
    section, in the layout below.
-6. **Report.** The plan's Header and "Left out", word for word, the page count beside the count the brief
-   expected, each point where the brief's lines for your section did not fit the sources, each family or zone you
-   marked `new`, and each page that rests on a `single`, `disputed`, `open` or `thin` claim.
+6. **Report.** The page count beside the count the brief expected, each point where the brief's lines for your
+   section did not fit the sources, each family or zone you marked `new`, and the id of each page that rests on
+   a `single`, `disputed`, `open` or `thin` claim. The overseer reads the Header and "Left out" in the plan.
 
 ## The plan's layout
 
@@ -96,4 +96,5 @@ You speak through the channels of `agents/report.md` and through nothing else. Y
 of "The dispatch" there. Where the dispatch names a fault list, fix the faults in it that are yours as "Fixing a
 fault" there says: change what the fault names and no more, set its state, and add each change to the fix log.
 
-Open your report with the block of "The report" in `agents/report.md`.
+End with the report of "The report" in `agents/report.md`: its block, at most ten lines after it, and the block
+saved to `content/<story>/.plan/reports/`.

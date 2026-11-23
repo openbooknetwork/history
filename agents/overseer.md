@@ -143,7 +143,9 @@ opens with the block too, and the fault it is resumed for is in the fault list.
 
 ## Reports
 
-Every agent opens its report with the block of `agents/report.md`. Act on it before the prose:
+Every agent's report is the block of `agents/report.md` and at most ten lines, and the agent saves the block to
+`content/<story>/.plan/reports/`. Its faults are in the fault list, and the block names their ids. Act on the
+block before the prose:
 
 - `blocked` stops the step. Clear what blocks it, or take the question to the user.
 - A `wrong` fault goes to its `owner`. A `weak` fault is the user's decision. A `taste` fault is yours.

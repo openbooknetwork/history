@@ -51,9 +51,9 @@ Read these in full first:
    follow a text you changed, with the marker's id and the new fact, each place a text names that its page's map
    lacks, each fault of a map with its page and capture, and each place short of an image. The cartographer and
    the image finder work after you.
-9. **Report.** One short paragraph per kind: the ids of the pages whose text you changed, each fault of the
-   list you declined with the reason, each problem of the check that is left, and each point where the plan
-   should change.
+9. **Report.** One line per kind: the ids of the pages whose text you changed, each fault of the list you
+   declined with the reason, each problem of the check that is left, and each point where the plan should
+   change.
 
 Write only the texts of your section, the `sources` lines of its page files, the `@image` lines and `images`
 lists of step 5, and the section's fault list and fix log. The `when`, `zones` and `tally` lines and every `markers.yaml` are the cartographer's.
@@ -64,4 +64,5 @@ You speak through the channels of `agents/report.md` and through nothing else. Y
 of "The dispatch" there. Where the dispatch names a fault list, fix the faults in it that are yours as "Fixing a
 fault" there says: change what the fault names and no more, set its state, and add each change to the fix log.
 
-Open your report with the block of "The report" in `agents/report.md`.
+End with the report of "The report" in `agents/report.md`: its block, at most ten lines after it, and the block
+saved to `content/<story>/.plan/reports/`.

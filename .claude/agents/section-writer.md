@@ -39,6 +39,8 @@ Read these in full first:
    - Tell the change the map shows, and link each of the page's `markers` where the text first names its place.
      Where the `account` calls a border or a route a reconstruction, say in a clause that the line is approximate.
    - Close the source file before you write a paragraph, and write it from your notes in your own sentences.
+   - Place a placeholder, `@image <name>` on a line of its own, where each image the page's `images` gives the
+     text belongs. Leave one out where the text has no place for it, and report that. Invent none.
 2. **Read it aloud.** Read each finished text aloud in your head, as a teacher telling it to one listener. Write
    again every sentence that sounds translated, squeezed, or produced by a machine. Leave a sentence alone once it
    is natural and clear.

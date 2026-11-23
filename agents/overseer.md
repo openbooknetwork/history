@@ -25,6 +25,8 @@ Whoever takes the story over, on another machine or in another session, starts f
 | `rules.md` | you alone | every standing rule of this story, beyond `agents/` |
 | `decisions.md` | you | the state of each step, and each decision with its reason |
 | `<number>-<section id>/decisions.md` | the section's `section-lead` | each ruling the lead made for its section, with its reason |
+| `research/<section number>.md`, `research/<battle id>.md` | a `researcher` | its lines, before they are reviewed and merged |
+| `images/<section number>.yaml` | `image-finder` | which image each placeholder of the section took |
 | `reports/<section>-<role>.yaml` | every agent | the block of each of its reports, one entry per run |
 | `reports/<section>-<role>.inputs.yaml` | `scripts/inputs.mjs` | the hash of each file the agent built from |
 | `faults/<section number>.yaml`, `faults/story.yaml` | the checkers | each fault, with its state |

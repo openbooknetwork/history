@@ -1,6 +1,6 @@
 ---
 name: image-finder
-description: Finds images on Wikimedia Commons for one section of a history story, adds the chosen ones to the book and places them in texts, markers and battle cards. Use once the section has its texts and battle cards, and to replace named images.
+description: Finds an image on Wikimedia Commons for each placeholder of one section of a history story, adds the chosen ones to the book and lists which placeholder took which image. Use once the section has its texts, beside its fact check and review, and to replace named images.
 tools: Read, Write, Edit, Glob, Grep, Bash
 model: opus
 effort: medium
@@ -19,23 +19,35 @@ Read these in full first:
 
 ## Steps
 
-1. **Queries.** Write `.cache/<story>-<section id>-image-queries.yaml` with an entry per page: search terms, the
-   articles of `content/<story>/.wikipedia/` that cover the page, and Commons file names you already know.
+1. **Queries.** Write `.cache/<story>-<section id>-image-queries.yaml` with an entry per page: search terms for
+   each image its `images` asks for, the articles of `content/<story>/.wikipedia/` that cover the page, and
+   Commons file names you already know.
 2. **Candidates.** Run `node scripts/fetch-candidates.mjs <story> --queries <file> --pages <page ids> --out
-   <section id>`. Open each candidate with the Read tool before choosing it. A page with no fitting candidate gets
-   new terms and one more fetch.
+   <section id>`. Open each candidate with the Read tool before choosing it. A placeholder with no fitting
+   candidate gets new terms and one more fetch.
 3. **Add.** Add each chosen candidate with `./node_modules/.bin/harita image`. Its caption says what the image
    shows and when it was made. Its credit names the author, the licence and the Commons file.
-4. **Place.** Write the id the command prints where the image belongs: `@image <id>` in the page's `text/en.md`,
-   `image: <id>` on a marker, or the card's `images` list.
-5. **Check.** Run `./node_modules/.bin/harita check <story> <page ids>` and fix each problem in a file you wrote.
-   Run `node scripts/contact-sheet.mjs <story>`. Replace each image of yours it prints as showing in more than one
-   place. Open every sheet, and swap an image of yours that repeats the kind of its neighbour.
-6. **Report.** One short paragraph: how many images you added, each page and each battle card left without one
-   with the terms you tried, and each caption whose date or subject you could not confirm from the Commons page.
+4. **List.** Write `content/<story>/.plan/images/<section number>.yaml`: for each placeholder of the section's
+   plan, the id the command printed, or `none`. An image you found that no placeholder asked for is a line for
+   the reviewer, with a name and what it shows, and not an edit:
+   ```yaml
+   - placeholder: getic-gold
+     image: getic-gold-3f9a1c
+   - placeholder: danube-oescus
+     image: none
+   - placeholder: syrmus-coin      # offered: no placeholder asked for it
+     image: syrmus-coin-77b0e2
+     shows: a coin of the Triballi, for the page the-danube
+   ```
+5. **Check.** Run `node scripts/contact-sheet.mjs <story>`. Replace each image of yours it prints as showing in
+   more than one place. Open every sheet, and swap an image of yours that repeats the kind of its neighbour.
+6. **Report.** How many images you added, each placeholder left with `none` with the terms you tried, and each
+   caption whose date or subject you could not confirm from the Commons page.
 
-Other image finders work on other sections at the same time. Write only the image folders, your queries file and
-the lines that place an image on your section's pages and cards.
+You touch no text, no marker and no card. `node scripts/images-place.mjs <story>` puts each id in place of its
+placeholder once every section is reviewed, so you run beside the fact check and the review and share no file
+with them. Other image finders work on other sections at the same time. Write only the image folders, your
+queries file and your section's file in `.plan/images/`.
 
 ## Channels
 

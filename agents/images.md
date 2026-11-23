@@ -13,6 +13,11 @@ page> --story <story>`, which downloads the original into the folder and prints 
 holds by the same Commons page or the same bytes, and moves one from another story to `content/shared/images/`. After an
 image file changes, `./node_modules/.bin/harita rehash` writes its new sha256.
 
+A text, a marker and a card first hold a placeholder, the name its plan gives an image, such as
+`@image hydaspes-coin`. The image finder lists which image each placeholder took in
+`content/<story>/.plan/images/<section number>.yaml`, and `node scripts/images-place.mjs <story>` writes the ids
+in their place once every section is reviewed. A placeholder with no image goes with its line.
+
 Choose an image whose licence in `index.yaml` is public domain, CC0, CC BY or CC BY-SA, the licences that allow
 the book to show it with a credit.
 

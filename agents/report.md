@@ -9,7 +9,7 @@ known reader and one place. The places below are in `content/<story>/.plan/`.
 
 | Channel | Writer | Reader | Place |
 |---|---|---|---|
-| Work products | the agent of each step | the later steps | `brief.md`, `research.md`, `names.md`, the section plans and the battle plans |
+| Work products | the agent of each step | the later steps | `brief.md`, `sources.md`, `research.md`, `names.md`, the section plans and the battle plans, `images/<section number>.yaml` |
 | Rules | the overseer alone | every agent | `agents/*.md` for every story, `rules.md` for this one |
 | Dispatch | a manager | one agent of its team | the block of "The dispatch", in the message that starts or resumes the agent |
 | Report | an agent | the manager that dispatched it | the block of "The report", saved to `reports/` |

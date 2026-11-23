@@ -62,7 +62,7 @@ your report.
    `content/<story>/shared/battles/<battle id>/battle.yaml`, from the fields of its entry in `battles.yaml`: the
    sides with their families, the commanders, strengths and casualties, and the outcome. Its format is "Battles"
    in `node_modules/@openbooknetwork/harita/README.md`. The battle coordinator writes the card of a battle with
-   phases. Every card stands before a page that shows it is built.
+   phases. An image the plan gives the card goes in its `images` list by its name, as a placeholder. Every card stands before a page that shows it is built.
 6. **Plan files.** Write the four files below into `content/<story>/.plan/<number>-<section id>/`, with the
    number the brief gives the section. Run `node scripts/plan-check.mjs <story> <number>` and fix each problem
    it prints. Done when it prints `ok`.
@@ -125,7 +125,9 @@ pages:
     disputes:
       - { claim: "020.5", how: "the body follows Arrian, and a note gives Diodorus's count" }
     sources: [the lines of the page's `sources` in its page.yaml]
-    images: [what an image of the page should show]
+    images:                    # each with a name of its own in the story
+      - { name: getic-gold, shows: a Thracian or Getic object of the fourth century BC }
+      - { name: danube-oescus, shows: the Danube near the mouth of the Iskar, "on": marker danube-335 }
 ```
 
 ```yaml
@@ -146,6 +148,10 @@ pages:
 ```
 
 A figure names its author, and a figure no source gives is left out.
+
+An image a page wants has a name, unique in the story, and a line on what it should show. It stands in the
+text unless `on` gives it to a marker or to a card, as `marker <id>` or `card <battle id>`. The writer, the
+cartographer and the card take the name as a placeholder, and the image finder finds an image for it.
 
 Write only the four files of your section's plan and the cards of step 5.
 

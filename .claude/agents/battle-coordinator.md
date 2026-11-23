@@ -50,7 +50,7 @@ phase pages taken out of the section's plan, and the battle keeps its card.
    each problem it prints.
 6. **Card.** Write the battle's card, `content/<story>/shared/battles/<battle id>/battle.yaml`, from the `card` of
    the plan you have just made: the sides with their families, the commanders, strengths and casualties, and the
-   outcome. Its format is "Battles" in `node_modules/@openbooknetwork/harita/README.md`. The card stands before
+   outcome. Its format is "Battles" in `node_modules/@openbooknetwork/harita/README.md`. An image the plan gives the card goes in its `images` list by its name, as a placeholder. The card stands before
    the page that shows it is built.
 7. **Report.** The phases in one line each with their share of reconstruction, each figure the sources differ
    on, each `unknown`, and each point where the section's plan should change.

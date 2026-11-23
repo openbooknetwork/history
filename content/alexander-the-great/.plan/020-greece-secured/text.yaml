@@ -26,7 +26,9 @@ pages:
       - "Plutarch, Life of Alexander, 14."
       - "A. B. Bosworth, Conquest and Empire: The Reign of Alexander the Great (1988), ch. 2 and part II, A.I."
       - "N. G. L. Hammond and F. W. Walbank, A History of Macedonia III (1988), part one, ch. I."
-    images: [a portrait of Alexander made in antiquity, the site of Corinth or of the Isthmus]
+    images:
+      - { name: alexander-portrait, shows: a portrait of Alexander made in antiquity }
+      - { name: corinth-site, shows: the site of Corinth or of the Isthmus }
   the-danube:
     account: Alexander marches from Amphipolis over the Nessus and through Rhodope to Mount Haemus, where the free Thracians roll waggons down on the phalanx, and he forces the pass. The Triballi make a stand in a wooded glen by the Lyginus, and his archers draw them out. Arrian gives 3,000 Triballi killed and, from Ptolemy, 11 Macedonian horsemen and about 40 foot. Syrmus takes refuge on the island of Peuce, and the warships from Byzantium fail to land there. Alexander crosses the Danube by night on ships, log canoes and stuffed hides, scatters the Getae, razes their town and comes back. He would not leave the northern peoples unsubdued behind him. The map shows the army beyond the Haemus and then beyond the Danube. The route and the sites are reconstructions, and the text says once that they are approximate.
     files:
@@ -42,7 +44,9 @@ pages:
       - "A. B. Bosworth, Conquest and Empire: The Reign of Alexander the Great (1988), ch. 2."
       - "A. B. Bosworth, A Historical Commentary on Arrian's History of Alexander I (1980), on book 1, 1 to 4."
       - "N. G. L. Hammond and F. W. Walbank, A History of Macedonia III (1988), part one, ch. II."
-    images: [a Thracian or Getic object of the fourth century BC, the Danube near the mouth of the Iskar]
+    images:
+      - { name: getic-object, shows: a Thracian or Getic object of the fourth century BC }
+      - { name: danube-oescus, shows: the Danube near the mouth of the Iskar, "on": marker danube-335 }
   pelium:
     account: In the land of the Agrianians news comes that Cleitus, son of Bardylis, has revolted and that Glaucias of the Taulantians has joined him. Alexander goes west along the Erigon to Pelium and shuts Cleitus in. Glaucias arrives and holds the heights. Hemmed in, Alexander drills the phalanx 120 deep in sight of the enemy, who give up the ridges, and takes the army over the river. A few days later he crosses back by night and routs the Illyrians in their camp. Cleitus burns Pelium and flees. An invasion through Pelium threatened all of western Macedon. The map shows the march from the upper Strymon to the western border. The site of Pelium and every route are reconstructions.
     files:
@@ -59,7 +63,8 @@ pages:
       - "A. B. Bosworth, Conquest and Empire: The Reign of Alexander the Great (1988), ch. 2."
       - "A. B. Bosworth, A Historical Commentary on Arrian's History of Alexander I (1980), on book 1, 5 to 6."
       - "N. G. L. Hammond and F. W. Walbank, A History of Macedonia III (1988), part one, ch. II."
-    images: [a Macedonian phalanx or sarissa as an ancient work shows it]
+    images:
+      - { name: phalanx-ancient, shows: a Macedonian phalanx or sarissa as an ancient work shows it }
   fall-of-thebes:
     account: Theban exiles return, and the Thebans revolt on the report that Alexander has been killed in Illyria. They besiege the garrison in the Cadmeia. Alexander goes from Pelium through Eordaea and Elimiotis to Pelinna in seven days and into Boeotia six days later. The city is stormed. The allies who fought with him vote to raze it and sell its people, and to rebuild Orchomenus and Plataea. It is said that Alexander himself spared the house and descendants of Pindar. Southern Greece falls quiet, and he returns to Macedon. He made the razing a warning to the Greeks he would leave behind. The map cuts Thebes out of the League's Greece and shows the march from the Illyrian border. The route is a reconstruction.
     files:
@@ -75,4 +80,6 @@ pages:
       - "Diodorus Siculus, Library of History, book 17, 8 to 16."
       - "Plutarch, Life of Alexander, 11 to 13."
       - "A. B. Bosworth, Conquest and Empire: The Reign of Alexander the Great (1988), ch. 2."
-    images: [the Cadmeia or the site of Thebes, a portrait of Pindar made in antiquity]
+    images:
+      - { name: cadmeia-site, shows: the Cadmeia or the site of Thebes, "on": card thebes-335 }
+      - { name: pindar-portrait, shows: a portrait of Pindar made in antiquity }

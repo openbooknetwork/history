@@ -16,7 +16,8 @@ Read these in full first:
 - `node_modules/@openbooknetwork/harita/README.md` from "Content layout" on, the format of every file you write.
 - "Map" in `content/<story>/.plan/brief.md`: the families and zones designed for the story.
 - `pages.yaml` and `map.yaml` of `content/<story>/.plan/<number>-<section id>/`, the section's plan. When they
-  are missing, report that and stop. `text.yaml` and `battles.yaml` there are for other agents.
+  are missing, report that and stop. Of `text.yaml` you read only each page's `images`, and `battles.yaml` is for
+  other agents.
 - `content/<story>/.plan/names-<section number>.md`, the slice of the names for your section, for each marker's name.
 - The story's zones, which the map keeper drew, with `content/<story>/.plan/handoff/map-keeper.md`, and the
   routes of the section before yours, so a march continues from where it ended.
@@ -32,7 +33,8 @@ Read these in full first:
    owner `map-keeper`.
 3. **Routes and markers.** Draw each route through the stations `map.yaml` gives it, and place each marker by the
    coordinates of its article. Keep a sea route on water and a land route on land along its whole length, and prove it with
-   `node scripts/route-surface.mjs <story> <section number>`. The marker ids of `pages.yaml` are frozen:
+   `node scripts/route-surface.mjs <story> <section number>`. Where the page's `images` in `text.yaml` gives an image to a marker, write its name as the marker's
+   `image`: it is a placeholder until the story's images are placed. The marker ids of `pages.yaml` are frozen:
    the section's writer links them from the moment it starts, so write each as planned and rename none. A marker
    that needs another id is a fault of the plan.
 4. **Check.** Run `./node_modules/.bin/harita check <story> <page ids>` and

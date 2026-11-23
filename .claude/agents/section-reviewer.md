@@ -41,9 +41,10 @@ Read these in full first:
 4. **The reader.** Read each page as someone who opens the story there: each event has its who, where, when and
    cause, and each person a few words on who they are. Replace each vague word with the number, date or
    consequence the plan's `account` or the digest slice gives. Check each contested event for the words of one side.
-5. **Images.** Run `node scripts/contact-sheet.mjs <story>`. For each line it prints that names a page or a card
-   of your section, take the image out of one of the two places as `agents/images.md` says, and note the place
-   now short of an image. Open the section's images on the sheets and note two that look alike on nearby pages.
+5. **Images.** Each `@image <name>` line is a placeholder the writer placed: see that it stands where the text
+   speaks of its subject, and move the line where it does not. Where `content/<story>/.plan/images/<section
+   number>.yaml` offers an image no placeholder asked for and a text has a place for it, add its placeholder
+   line. You change no other image line, and the images themselves are placed by a script after you.
 6. **Read it aloud.** Read each text you changed aloud in your head, and write again a sentence that sounds
    translated, squeezed, or produced by a machine. Leave a good sentence as it is: another possible wording is no
    reason to change it.
@@ -59,8 +60,7 @@ Read these in full first:
    declined with the reason, each problem of the check that is left, and each point where the plan should
    change.
 
-Write only the texts of your section, the `sources` lines of its page files, the `@image` lines and `images`
-lists of step 5, and the section's fault list and fix log. The `when`, `zones` and `tally` lines and every `markers.yaml` are the cartographer's.
+Write only the texts of your section, the `sources` lines of its page files, the `@image` lines of step 5, and the section's fault list and fix log. The `when`, `zones` and `tally` lines and every `markers.yaml` are the cartographer's.
 
 ## Channels
 

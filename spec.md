@@ -353,7 +353,7 @@ what it cannot judge, so that an auditor knows what is still its own.
 **3.1 A rules linter.** *history first, then harita.* `scripts/rules-lint.mjs <story>`, run beside
 `harita check`. It reports:
 
-- a marker on a battle card's point
+- a marker within about 20 pixels of a battle card at the page's opening view, until 6.11 merges the two
 - a zone whose legend name carries a date, where that date is not the page's or ends before it
 - a marker id used on pages of different events
 - a battle id without its year
@@ -745,6 +745,26 @@ agent runs after round 2, since most minor names first appear in its lines. Each
 `rules.md`, the source map and its section's plan, by the dispatch form of 2.0, and leaves no handoff: the digest
 is its work product. Done when no research agent passes 300,000 tokens and the leaks that begin in research,
 5 of the 16 of `[E4.1]`, fall on the benchmark. `[F9, F15, F17.6, E4.2, E4.3]`
+
+**6.11 A card and a marker that meet are one icon.** *harita.* **Agreed.** A battle card's crossed swords stand
+on the battle's site, and a siege is fought at a town, so the swords cover the town's marker and the text's link
+to the town points at nothing the reader can see. The Alexander run first moved every card 11 to 27 km off its
+town, which put the siege of Tyre inland, and then took the town's marker off the page and its link out of the
+text. Both were ways round a fault of the display.
+
+The viewer merges the two. Where a card and a marker of its page stand within about 20 pixels of each other at
+the page's opening view, they draw as one icon on the card's point: the swords with the marker's label. A tap
+opens the card. The text's link to the marker rings the merged icon, and the marker's note shows with it. Away
+from the opening view, when the reader zooms in far enough for the two to stand apart, they draw as two.
+
+- The card's `lnglat` is the battle's site and never moves for layout. That rule of 2.2 stays: it is about what
+  is true and not about how it draws.
+- The rule of 2.2 that takes a town's marker off a card's page goes once this is built. Until then the linter
+  of 3.1 tests the distance on screen and not the same point: four pages of the Alexander story have a marker 4
+  to 9 km from their card, which overlaps it at their zoom.
+
+Done when a siege's page keeps its town's marker and its link, and no capture shows a marker under a card.
+`[F4, E4.4]`
 
 ## Not in this spec
 

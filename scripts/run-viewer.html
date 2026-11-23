@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Run ledger</title>
+<!--
+  Shows the runs that scripts/token-ledger.mjs saves with --json: where the tokens went, how large each agent's
+  context grew, and the faults and leaks of the agents' reports. Open this file in a browser and choose a
+  story's content/<story>/.plan/run.json, or drop it on the page. Several runs are compared side by side.
+  The page reads no other file and sends nothing anywhere. The leak rule is in scripts/transcripts.mjs: a saved
+  run carries it on each fault.
+-->
+<style>
+  :root {
+    color-scheme: light;
+    --page: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e; --muted: #898781;
+    --grid: #e1e0d9; --axis: #c3c2b7; --border: rgba(11, 11, 11, 0.10); --wash: rgba(11, 11, 11, 0.04);
+    --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100;
+    --critical: #d03b3b; --good-text: #006300;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7; --muted: #898781;
+      --grid: #2c2c2a; --axis: #383835; --border: rgba(255, 255, 255, 0.10); --wash: rgba(255, 255, 255, 0.05);
+      --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500;
+      --critical: #d03b3b; --good-text: #0ca30c;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--page); color: var(--ink); font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 1120px; margin: 0 auto; padding: 24px 20px 64px; }
+  h1 { font-size: 20px; margin: 0 0 4px; }
+  h2 { font-size: 15px; margin: 0 0 2px; }
+  h3 { font-size: 13px; margin: 20px 0 6px; }
+  p.sub { margin: 0 0 14px; color: var(--ink-2); font-size: 13px; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 16px 18px; margin-top: 16px; }
+  .drop { border: 1px dashed var(--axis); border-radius: 8px; padding: 14px 16px; margin-top: 14px; color: var(--ink-2); display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+  .drop.over { background: var(--wash); border-color: var(--ink-2); }
+  .row { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; margin-top: 14px; }
+  .chips { display: flex; gap: 8px; flex-wrap: wrap; }
+  .chip { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--border); border-radius: 999px; padding: 3px 4px 3px 12px; background: var(--surface); cursor: pointer; font: inherit; color: inherit; }
+  .chip[aria-pressed="true"] { border-color: var(--ink); font-weight: 600; }
+  .chip .x { border: 0; background: none; color: var(--muted); cursor: pointer; font: inherit; padding: 0 6px; border-radius: 999px; }
+  .chip .x:hover { background: var(--wash); color: var(--ink); }
+  label { color: var(--ink-2); font-size: 13px; }
+  select, input[type=number] { font: inherit; color: inherit; background: var(--surface); border: 1px solid var(--axis); border-radius: 6px; padding: 3px 6px; }
+  input[type=number] { width: 64px; }
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin-top: 16px; }
+  .tile { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; }
+  .tile .label { color: var(--ink-2); font-size: 12px; }
+  .tile .value { font-size: 24px; font-weight: 600; margin-top: 2px; }
+  .tile .note { color: var(--muted); font-size: 12px; }
+  .legend { display: flex; gap: 16px; flex-wrap: wrap; margin: 0 0 10px; color: var(--ink-2); font-size: 12px; }
+  .legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .swatch { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+  .bars { display: grid; grid-template-columns: minmax(120px, max-content) 1fr max-content; column-gap: 12px; row-gap: 6px; align-items: center; }
+  .bars .name { color: var(--ink-2); font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 300px; }
+  .bars .val { font-variant-numeric: tabular-nums; font-size: 13px; text-align: right; }
+  .track { position: relative; height: 18px; border-left: 1px solid var(--axis); }
+  .stack { display: flex; gap: 2px; height: 100%; }
+  .seg { height: 100%; min-width: 1px; }
+  .seg:last-child { border-radius: 0 4px 4px 0; }
+  .seg:hover, .seg:focus-visible { filter: brightness(1.15); outline: none; }
+  .mark { position: absolute; top: -4px; bottom: -4px; width: 1px; background: var(--ink-2); pointer-events: none; }
+  .over-limit { color: var(--critical); font-weight: 600; }
+  table { border-collapse: collapse; width: 100%; font-size: 13px; }
+  th, td { text-align: left; padding: 5px 10px 5px 0; border-bottom: 1px solid var(--grid); vertical-align: top; }
+  th { color: var(--ink-2); font-weight: 600; white-space: nowrap; }
+  td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  tr.total td { font-weight: 600; border-bottom: 0; }
+  .scroll { overflow-x: auto; }
+  details { margin-top: 14px; }
+  summary { cursor: pointer; color: var(--ink-2); font-size: 13px; }
+  .empty { color: var(--muted); }
+  .notes { color: var(--ink-2); font-size: 13px; margin: 14px 0 0; padding-left: 18px; }
+  .up { color: var(--critical); } .down { color: var(--good-text); }
+  #tip { position: fixed; pointer-events: none; background: var(--surface); border: 1px solid var(--border); border-radius: 6px; padding: 8px 10px; font-size: 12px; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18); display: none; z-index: 10; max-width: 280px; }
+  #tip b { font-size: 14px; display: block; }
+  #tip .k { display: inline-block; width: 12px; height: 2px; vertical-align: middle; margin-right: 6px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Run ledger</h1>
+  <p class="sub">Tokens, context and faults of an agent run, from the file <code>scripts/token-ledger.mjs --json</code> saves.</p>
+  <div class="drop" id="drop">
+    <span>Drop a story's <code>run.json</code> here, or several to compare them, or</span>
+    <input type="file" id="pick" accept=".json,application/json" multiple>
+  </div>
+  <div id="app"></div>
+</main>
+<div id="tip" role="status"></div>
+<script>
+'use strict';
+const KINDS = [
+  { key: 'input', label: 'Input', color: 'var(--s1)' },
+  { key: 'cacheWrite', label: 'Cache write', color: 'var(--s2)' },
+  { key: 'cacheRead', label: 'Cache read', color: 'var(--s3)' },
+  { key: 'output', label: 'Output', color: 'var(--s4)' },
+];
+const GROUPS = { role: 'Role', step: 'Step', section: 'Section', 'step,role': 'Step and role', 'role,section': 'Role and section', agent: 'Agent', model: 'Model' };
+const SEVERITIES = ['wrong', 'weak', 'taste'];
+const CONTEXT_LIMIT = 300000;
+const state = { runs: [], current: 0, by: 'role', weights: [1, 1.25, 0.1, 5] };
+
+// every string of a run goes into the page as text, never as markup
+function h(tag, attrs, ...children) {
+  const el = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs ?? {})) {
+    if (k === 'style') el.style.cssText = v;
+    else if (k.startsWith('on')) el.addEventListener(k.slice(2), v);
+    else if (v !== false && v != null) el.setAttribute(k, v);
+  }
+  for (const c of children.flat()) if (c != null && c !== false) el.append(c.nodeType ? c : String(c));
+  return el;
+}
+const full = n => Math.round(n).toLocaleString('en-US');
+const compact = n => {
+  const a = Math.abs(n);
+  if (a >= 1e9) return (n / 1e9).toFixed(2) + 'B';
+  if (a >= 1e6) return (n / 1e6).toFixed(a >= 1e8 ? 0 : 1) + 'M';
+  if (a >= 1e4) return (n / 1e3).toFixed(a >= 1e5 ? 0 : 1) + 'K';
+  return full(n);
+};
+const weighted = r => KINDS.reduce((sum, k, i) => sum + (r[k.key] ?? 0) * state.weights[i], 0);
+const count = (list, test) => list.filter(test).length;
+const stepOrder = s => s === '-' ? 99 : +s;
+const runName = (run, i) => run.variant || run.story || run.fileName || `run ${i + 1}`;
+
+function addRun(run, fileName) {
+  if (!run || !Array.isArray(run.usage) || !Array.isArray(run.reports)) throw new Error('not a saved run: it has no usage and reports');
+  run.agents ??= [];
+  run.fileName = fileName ?? null;
+  state.runs.push(run);
+  state.current = state.runs.length - 1;
+}
+
+function summary(run) {
+  const total = { turns: 0, peak: 0 };
+  for (const k of KINDS) total[k.key] = 0;
+  for (const r of run.usage) {
+    total.turns += r.turns; total.peak = Math.max(total.peak, r.peak);
+    for (const k of KINDS) total[k.key] += r[k.key];
+  }
+  const faults = run.reports.flatMap(r => r.faults.map(f => ({ ...f, step: r.step, role: r.role, section: r.section })));
+  const peaks = new Map();
+  for (const r of run.usage) peaks.set(r.agent, Math.max(peaks.get(r.agent) ?? 0, r.peak));
+  return {
+    total, faults, weighted: weighted(total), agents: new Set(run.usage.map(r => r.agent)).size,
+    perPage: run.pages ? weighted(total) / run.pages : null,
+    wrong: count(faults, f => f.severity === 'wrong'), leaks: count(faults, f => f.leak),
+    overLimit: count([...peaks.values()], p => p > CONTEXT_LIMIT),
+    reworked: reworkGroups(run).length,
+  };
+}
+
+function reworkGroups(run) {
+  const rounds = new Map();
+  for (const r of run.reports) {
+    const key = `${r.role} ${r.section}`;
+    if (!rounds.has(key)) rounds.set(key, { step: r.step, role: r.role, section: r.section, statuses: [] });
+    rounds.get(key).statuses.push(r.status);
+  }
+  return [...rounds.values()].filter(g => g.statuses.length > 1).sort((a, b) => stepOrder(a.step) - stepOrder(b.step) || a.section.localeCompare(b.section));
+}
+
+const tip = document.getElementById('tip');
+function showTip(event, build) {
+  tip.replaceChildren(...build());
+  tip.style.display = 'block';
+  const x = event.clientX ?? event.target.getBoundingClientRect().left, y = event.clientY ?? event.target.getBoundingClientRect().bottom;
+  tip.style.left = Math.min(x + 14, innerWidth - tip.offsetWidth - 8) + 'px';
+  tip.style.top = Math.min(y + 14, innerHeight - tip.offsetHeight - 8) + 'px';
+}
+const hideTip = () => { tip.style.display = 'none'; };
+const hover = build => ({ onpointermove: e => showTip(e, build), onpointerleave: hideTip, onfocus: e => showTip(e, build), onblur: hideTip, tabindex: 0 });
+
+function dataTable(header, rows, totalRow) {
+  const numeric = header.map((_, i) => rows.concat(totalRow ? [totalRow] : []).every(r => typeof r[i] === 'number' || /^[\d.]+%$|^–$/.test(r[i])));
+  const cell = (tag, v, i) => h(tag, { class: numeric[i] ? 'n' : null }, typeof v === 'number' ? full(v) : v);
+  return h('div', { class: 'scroll' }, h('table', null,
+    h('thead', null, h('tr', null, header.map((v, i) => cell('th', v, i)))),
+    h('tbody', null, rows.map(r => h('tr', null, r.map((v, i) => cell('td', v, i)))),
+      totalRow && h('tr', { class: 'total' }, totalRow.map((v, i) => cell('td', v, i))))));
+}
+
+function tiles(run, s) {
+  const tile = (label, value, note, flag) => h('div', { class: 'tile' }, h('div', { class: 'label' }, label), h('div', { class: 'value' + (flag ? ' over-limit' : '') }, value), note && h('div', { class: 'note' }, note));
+  return h('div', { class: 'tiles' },
+    tile('Weighted tokens', compact(s.weighted), `${compact(s.total.cacheRead)} of them cache reads, before weighting`),
+    tile('Per page', s.perPage ? compact(s.perPage) : '–', run.pages ? `${run.pages} pages` : 'no page count in this run'),
+    tile('Agents', full(s.agents), `${full(s.total.turns)} turns`),
+    tile('Largest context', compact(s.total.peak), s.overLimit ? `${s.overLimit} agents over ${compact(CONTEXT_LIMIT)}` : `none over ${compact(CONTEXT_LIMIT)}`),
+    tile('Wrong faults', full(s.wrong), `${full(s.faults.length)} faults in ${full(run.reports.length)} reports`),
+    tile('Leaks', full(s.leaks), 'wrong faults caught after the step meant to catch them'),
+    tile('Reworked', full(s.reworked), 'a role reporting on one section more than once'));
+}
+
+function compare() {
+  const sums = state.runs.map(summary);
+  const metrics = [
+    ['Weighted tokens', s => s.weighted], ['Weighted tokens per page', s => s.perPage], ['Cache read', s => s.total.cacheRead],
+    ['Cache write', s => s.total.cacheWrite], ['Output', s => s.total.output], ['Agents', s => s.agents], ['Turns', s => s.total.turns],
+    ['Largest context', s => s.total.peak], [`Agents over ${compact(CONTEXT_LIMIT)}`, s => s.overLimit], ['Wrong faults', s => s.wrong],
+    ['Leaks', s => s.leaks], ['Sections reworked', s => s.reworked],
+  ];
+  const delta = (a, b) => {
+    if (a == null || b == null) return h('td', { class: 'n' }, '–');
+    if (a === b) return h('td', { class: 'n' }, 'same');
+    const text = a ? `${b > a ? '+' : ''}${((b - a) / a * 100).toFixed(1)}%` : `${b > a ? '+' : ''}${full(b - a)}`;
+    return h('td', { class: 'n ' + (b > a ? 'up' : 'down') }, `${b > a ? '▲' : '▼'} ${text}`);
+  };
+  return h('div', { class: 'card' }, h('h2', null, 'Runs compared'),
+    h('p', { class: 'sub' }, `Each run against the first, ${runName(state.runs[0], 0)}. Lower is better on every line.`),
+    h('div', { class: 'scroll' }, h('table', null,
+      h('thead', null, h('tr', null, h('th', null, ''), state.runs.flatMap((r, i) => [h('th', { class: 'n' }, runName(r, i)), i ? h('th', { class: 'n' }, 'against first') : null]))),
+      h('tbody', null, metrics.map(([label, get]) => h('tr', null, h('td', null, label), sums.flatMap((s, i) => {
+        const v = get(s);
+        return [h('td', { class: 'n' }, v == null ? '–' : full(v)), i ? delta(get(sums[0]), v) : null];
+      })))))));
+}
+
+function tokens(run, s) {
+  const keys = state.by.split(',');
+  const groups = new Map();
+  for (const r of run.usage) {
+    const name = keys.map(k => k !== 'step' ? r[k] : r[k] === '-' ? 'no step' : `step ${r[k]}`).join(' · ');
+    if (!groups.has(name)) { const g = { name, agents: new Set(), turns: 0, peak: 0 }; for (const k of KINDS) g[k.key] = 0; groups.set(name, g); }
+    const g = groups.get(name);
+    g.agents.add(r.agent); g.turns += r.turns; g.peak = Math.max(g.peak, r.peak);
+    for (const k of KINDS) g[k.key] += r[k.key];
+  }
+  const sorted = [...groups.values()].sort((a, b) => weighted(b) - weighted(a));
+  const max = Math.max(1, ...sorted.map(weighted));
+  const bars = h('div', { class: 'bars' }, sorted.flatMap(g => {
+    const w = weighted(g);
+    const segs = KINDS.map((k, i) => ({ k, value: g[k.key] * state.weights[i], raw: g[k.key] })).filter(x => x.value > 0);
+    return [
+      h('div', { class: 'name', title: g.name }, g.name),
+      h('div', { class: 'track' }, h('div', { class: 'stack', style: `width:${w / max * 100}%` }, segs.map(x => h('div', {
+        class: 'seg', style: `flex:${x.value} 1 0;background:${x.k.color}`, 'aria-label': `${g.name}, ${x.k.label}: ${full(x.value)} weighted`,
+        ...hover(() => [h('b', null, compact(x.value) + ' weighted'), h('div', null, h('span', { class: 'k', style: `background:${x.k.color}` }), `${x.k.label}, ${g.name}`),
+          h('div', null, `${full(x.raw)} tokens · ${(x.value / w * 100).toFixed(0)}% of this bar`)]),
+      })))),
+      h('div', { class: 'val' }, compact(w)),
+    ];
+  }));
+  const share = v => s.weighted ? (v / s.weighted * 100).toFixed(1) + '%' : '–';
+  return h('div', { class: 'card' }, h('h2', null, 'Where the tokens went'),
+    h('p', { class: 'sub' }, `Weighted tokens by ${GROUPS[state.by].toLowerCase()}, largest first. Each bar is split by the kind of token.`),
+    h('div', { class: 'legend' }, KINDS.map((k, i) => h('span', null, h('i', { class: 'swatch', style: `background:${k.color}` }), `${k.label} ×${state.weights[i]}`))),
+    bars,
+    h('details', { open: sorted.length <= 12 ? '' : null }, h('summary', null, 'Table'),
+      dataTable([GROUPS[state.by], 'Agents', 'Turns', 'Peak context', 'Input', 'Cache write', 'Cache read', 'Output', 'Weighted', 'Share'],
+        sorted.map(g => [g.name, g.agents.size, g.turns, g.peak, g.input, g.cacheWrite, g.cacheRead, g.output, Math.round(weighted(g)), share(weighted(g))]),
+        ['Total', s.agents, s.total.turns, s.total.peak, s.total.input, s.total.cacheWrite, s.total.cacheRead, s.total.output, Math.round(s.weighted), '100%'])));
+}
+
+function contexts(run) {
+  const agents = new Map();
+  for (const r of run.usage) {
+    if (!agents.has(r.agent)) agents.set(r.agent, { agent: r.agent, role: r.role, sections: new Set(), peak: 0, turns: 0, cacheRead: 0 });
+    const a = agents.get(r.agent);
+    a.peak = Math.max(a.peak, r.peak); a.turns += r.turns; a.cacheRead += r.cacheRead;
+    if (r.section !== '-') a.sections.add(r.section);
+  }
+  const sorted = [...agents.values()].sort((a, b) => b.peak - a.peak);
+  const shown = sorted.slice(0, 25);
+  const max = Math.max(CONTEXT_LIMIT * 1.1, ...shown.map(a => a.peak));
+  const name = a => `${a.role}${a.sections.size ? ' ' + [...a.sections].sort().join(', ') : ''}`;
+  return h('div', { class: 'card' }, h('h2', null, 'How large each agent\'s context grew'),
+    h('p', { class: 'sub' }, `The largest context each agent read in one turn. It is read again on every later turn. The line is at ${compact(CONTEXT_LIMIT)}, past which a fresh agent with a handoff note is the cheaper choice.`
+      + (sorted.length > shown.length ? ` The ${shown.length} largest of ${sorted.length} agents.` : '')),
+    h('div', { class: 'bars' }, shown.flatMap(a => [
+      h('div', { class: 'name', title: `${name(a)} (${a.agent})` }, name(a)),
+      h('div', { class: 'track' },
+        h('div', { class: 'stack', style: `width:${a.peak / max * 100}%` }, h('div', { class: 'seg', style: 'flex:1;background:var(--s1)', 'aria-label': `${name(a)}: ${full(a.peak)} tokens of context`,
+          ...hover(() => [h('b', null, full(a.peak) + ' tokens'), h('div', null, `${name(a)}, agent ${a.agent}`), h('div', null, `${full(a.turns)} turns · ${compact(a.cacheRead)} cache reads in all`)]) })),
+        h('div', { class: 'mark', style: `left:${CONTEXT_LIMIT / max * 100}%` })),
+      h('div', { class: 'val' + (a.peak > CONTEXT_LIMIT ? ' over-limit' : '') }, (a.peak > CONTEXT_LIMIT ? '▲ ' : '') + compact(a.peak)),
+    ])),
+    h('details', null, h('summary', null, 'Table'),
+      dataTable(['Agent', 'Id', 'Turns', 'Peak context', 'Cache read'], sorted.map(a => [name(a), a.agent, a.turns, a.peak, a.cacheRead]))));
+}
+
+function faults(run, s) {
+  const card = h('div', { class: 'card' }, h('h2', null, 'Faults'),
+    h('p', { class: 'sub' }, 'From the report block each agent returned. A fault is caught at the step of the agent that reports it.'));
+  if (!run.reports.length) { card.append(h('p', { class: 'empty' }, 'No agent of this run returned a report block.')); return card; }
+  const caught = new Map();
+  for (const r of run.reports) {
+    const key = `${r.step} ${r.role}`;
+    if (!caught.has(key)) caught.set(key, { step: r.step, role: r.role, reports: [] });
+    caught.get(key).reports.push(r);
+  }
+  const statuses = ['pass', 'faults', 'blocked'];
+  const line = (first, role, reports) => {
+    const fs = reports.flatMap(r => r.faults);
+    return [first, role, reports.length, ...statuses.map(t => count(reports, r => r.status === t)), ...SEVERITIES.map(t => count(fs, f => f.severity === t)), count(fs, f => f.leak)];
+  };
+  card.append(h('h3', null, 'By the step that caught them'), dataTable(['Step', 'Role', 'Reports', ...statuses, ...SEVERITIES, 'Leaks'],
+    [...caught.values()].sort((a, b) => stepOrder(a.step) - stepOrder(b.step) || a.role.localeCompare(b.role)).map(g => line(String(g.step), g.role, g.reports)),
+    line('', 'Total', run.reports)));
+
+  const leaks = s.faults.filter(f => f.leak).sort((a, b) => a.firstCheck - b.firstCheck || a.step - b.step);
+  card.append(h('h3', null, 'Leaks'), leaks.length
+    ? dataTable(['Introduced by', 'Should be caught at', 'Caught at', 'Caught by', 'File', 'What should change'],
+      leaks.map(f => [f.introduced, `step ${f.firstCheck}`, `step ${f.step}`, `${f.role} ${f.section === '-' ? '' : f.section}`.trim(), (f.file ?? '') + (f.claim ? ` (${f.claim})` : ''), f.action ?? '']))
+    : h('p', { class: 'empty' }, 'None.'));
+
+  const again = reworkGroups(run);
+  card.append(h('h3', null, 'Rework: a role that reported on one section more than once'), again.length
+    ? dataTable(['Role', 'Section', 'Reports', 'In order'], again.map(g => [g.role, g.section, g.statuses.length, g.statuses.join(', ')]))
+    : h('p', { class: 'empty' }, 'None.'));
+
+  const wrong = s.faults.filter(f => f.severity === 'wrong');
+  const made = [...new Set(wrong.map(f => f.introduced ?? 'not said'))];
+  const first = m => wrong.find(f => (f.introduced ?? 'not said') === m).firstCheck;
+  made.sort((a, b) => (first(a) ?? 99) - (first(b) ?? 99) || a.localeCompare(b));
+  card.append(h('h3', null, 'Wrong faults by the work that introduced them'), wrong.length
+    ? dataTable(['Introduced by', 'First check', 'Wrong faults', 'Leaked'], made.map(m => [m, first(m) ? `step ${first(m)}` : '–', count(wrong, f => (f.introduced ?? 'not said') === m), count(wrong, f => f.introduced === m && f.leak)]))
+    : h('p', { class: 'empty' }, 'None.'));
+
+  const kinds = [...new Set(s.faults.map(f => f.kind))].sort((a, b) => count(s.faults, f => f.kind === b) - count(s.faults, f => f.kind === a));
+  if (kinds.length) card.append(h('h3', null, 'By kind'), dataTable(['Kind', ...SEVERITIES], kinds.map(k => [k, ...SEVERITIES.map(t => count(s.faults, f => f.kind === k && f.severity === t))])));
+
+  const notes = [];
+  const unsaid = count(s.faults, f => !f.introduced);
+  if (unsaid) notes.push(`${unsaid} of ${s.faults.length} faults carry no "introduced" line, so the leak count is a lower bound.`);
+  const reporting = new Set(run.reports.map(r => r.agent));
+  const silent = run.agents.filter(a => a.role !== 'overseer' && !reporting.has(a.agent));
+  if (silent.length) notes.push(`${silent.length} of ${count(run.agents, a => a.role !== 'overseer')} agents returned no report block: ${[...new Set(silent.map(a => a.role))].join(', ')}.`);
+  if (notes.length) card.append(h('ul', { class: 'notes' }, notes.map(n => h('li', null, n))));
+  return card;
+}
+
+function render() {
+  hideTip();
+  const app = document.getElementById('app');
+  if (!state.runs.length) { app.replaceChildren(h('p', { class: 'empty', style: 'margin-top:20px' }, 'No run loaded yet. A story\'s run is saved at content/<story>/.plan/run.json.')); return; }
+  state.current = Math.min(state.current, state.runs.length - 1);
+  const run = state.runs[state.current], s = summary(run);
+  const chips = h('div', { class: 'chips' }, state.runs.map((r, i) => h('button', { class: 'chip', 'aria-pressed': String(i === state.current), onclick: () => { state.current = i; render(); } },
+    runName(r, i), h('span', { class: 'x', role: 'button', 'aria-label': `Remove ${runName(r, i)}`, onclick: e => { e.stopPropagation(); state.runs.splice(i, 1); render(); } }, '×'))));
+  const controls = h('div', { class: 'row' },
+    h('label', null, 'Group by ', h('select', { onchange: e => { state.by = e.target.value; render(); } }, Object.entries(GROUPS).map(([v, label]) => h('option', { value: v, selected: v === state.by ? '' : null }, label)))),
+    h('label', null, 'Weights '), KINDS.map((k, i) => h('label', null, k.label + ' ', h('input', { type: 'number', step: '0.05', min: '0', value: state.weights[i],
+      onchange: e => { const v = +e.target.value; if (v >= 0) { state.weights[i] = v; render(); } } }))));
+  const title = [run.story, run.variant && `variant ${run.variant}`, run.fileName].filter(Boolean).join(' · ');
+  app.replaceChildren(...[h('div', { class: 'row' }, chips), controls, title && h('p', { class: 'sub', style: 'margin:14px 0 0' }, title),
+    tiles(run, s), state.runs.length > 1 && compare(), tokens(run, s), contexts(run), faults(run, s)].filter(Boolean));
+}
+
+async function readFiles(files) {
+  for (const file of files) {
+    try { addRun(JSON.parse(await file.text()), file.name); }
+    catch (err) { alert(`${file.name}: ${err.message}`); }
+  }
+  render();
+}
+const drop = document.getElementById('drop');
+document.getElementById('pick').addEventListener('change', e => { readFiles([...e.target.files]); e.target.value = ''; });
+for (const type of ['dragenter', 'dragover']) addEventListener(type, e => { e.preventDefault(); drop.classList.add('over'); });
+addEventListener('dragleave', e => { if (!e.relatedTarget) drop.classList.remove('over'); });
+addEventListener('drop', e => { e.preventDefault(); drop.classList.remove('over'); readFiles([...e.dataTransfer.files]); });
+
+render();
+</script>
+</body>
+</html>

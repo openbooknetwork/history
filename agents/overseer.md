@@ -81,6 +81,12 @@ a fault that changed a plan, and what is left to do. One line each, with the rea
 14. **Whole story.** Check the story as "Checking a story" in `agents/pages.md` says. Dispatch the `story-auditor`
     with the story id. For each fault it reports, decide the file that changes, a plan, a text, a map file or a
     battle, and send it back to the step that owns the file. The auditor runs again until it reports `pass`.
+    Then save the run's ledger beside the plan, since the transcripts end with the session:
+    `node scripts/token-ledger.mjs <transcripts> --story <story> --json > content/<story>/.plan/run.json`.
+    `<transcripts>` is this session's transcript, `~/.claude/projects/<project>/<session id>.jsonl`, with the
+    session id as it stands in your scratchpad's path, or the folder that holds the agents' transcripts.
+    `node scripts/token-ledger.mjs` and `node scripts/fault-ledger.mjs` print the run's tokens and faults from
+    that file, and `scripts/run-viewer.html` shows it to the user in a browser.
 15. **The user reads the story on a phone.**
 16. **Names per language.** For each language of `languages` in `site.yaml` after `en`, dispatch one
     `name-finder` with the story id and the language. They run at once, since each language has its own files. A

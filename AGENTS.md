@@ -29,7 +29,9 @@ The agents of `.claude/agents/` name their own files:
 
 | Agent | Work |
 |---|---|
-| `researcher` | searches for a story's sources, fetches them and writes the digest |
+| `research-coordinator` | finds a story's sources, hands the research out by chapter and battle, and merges the digest |
+| `researcher` | researches one chapter or one battle and writes its lines of the digest |
+| `research-reviewer` | checks a researcher's lines before they are merged |
 | `names` | decides the form of each person's and place's name |
 | `map-architect` | designs a story's map: its extent, families and shared zones |
 | `section-lead` | leads one chapter from its plan to its reviewed pages, and dispatches the chapter's agents |

@@ -31,7 +31,8 @@ Read these in full first:
    pages.
    - Tell the event of the page's `tells` and `account`: who, where, when, and why it happened.
    - Take each date, name and figure from a file you read, and read every file the plan names for the page before
-     you write it. Where the plan's files lack a fact the page needs, report the gap and leave the fact out.
+     you write it. Where the plan's files lack a fact the page needs, report the gap and leave the fact out. Do not search for
+     it: your section's lead dispatches a researcher for a gap.
    - Where the files tell the event another way than the plan does, write what the files say and report
      the difference. Where the difference changes what the map shows, leave the page unwritten and report it.
    - Keep the source's doubt: "about", "perhaps" and "according to" stay with the claim they belong to.

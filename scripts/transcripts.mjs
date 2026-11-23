@@ -51,7 +51,7 @@ export const FIRST_CHECK = {
 export const DISPATCH_FIELDS = ['story', 'section', 'battle', 'pages', 'lang', 'names', 'step', 'task', 'faults', 'scratchpad', 'serve', 'note'];
 const NOTE_LENGTH = 200;
 // the roles that manage, whose own changes to a file are steps the roles should have made
-const MANAGERS = ['overseer', 'section-lead', 'section-coordinator', 'battle-coordinator'];
+const MANAGERS = ['overseer', 'research-coordinator', 'section-lead', 'section-coordinator', 'battle-coordinator'];
 const WHOLE_STORY = new Set(['overseer', 'researcher', 'names', 'map-architect', 'editor', 'story-auditor', 'name-finder', 'translator', 'translation-reviewer']);
 const AGENT_ID = /a[0-9a-f]{16}/;
 const VALUE_FLAGS = ['story', 'roles', 'variant', 'weights', 'pages', 'by'];

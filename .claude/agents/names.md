@@ -1,6 +1,6 @@
 ---
 name: names
-description: Decides the form of each person's, state's and place's name in one history story, per year where a name changes, and the section that introduces it. Use once a story has its research digest, before its section plans.
+description: Decides the form of each person's, state's and place's name in one history story, per year where a name changes, and the section that introduces it. Use once the claims of a story are researched and merged into its digest, before its map is designed.
 tools: Read, Write, Edit, Glob, Grep
 model: opus
 effort: high

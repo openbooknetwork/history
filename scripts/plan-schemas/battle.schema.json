@@ -39,6 +39,13 @@
      },
      "gives": {
       "type": "string"
+     },
+     "claims": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "pattern": "^\\d{3}\\.\\d+$"
+      }
      }
     }
    }
@@ -112,11 +119,9 @@
         "strength": {
          "type": "string"
         },
-        "quote": {
-         "type": "string"
-        },
-        "file": {
-         "type": "string"
+        "claim": {
+         "type": "string",
+         "pattern": "^\\d{3}\\.\\d+$"
         }
        }
       }
@@ -172,14 +177,12 @@
           "unknown"
          ]
         },
-        "quote": {
-         "type": "string"
-        },
-        "file": {
-         "type": "string"
-        },
         "why": {
          "type": "string"
+        },
+        "claim": {
+         "type": "string",
+         "pattern": "^\\d{3}\\.\\d+$"
         }
        }
       }

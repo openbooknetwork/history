@@ -19,7 +19,9 @@ import * as yaml from 'js-yaml';
 import { storyDir } from './story-dir.mjs';
 
 const INPUTS = {
-  researcher: ['rules', 'brief'],
+  'research-coordinator': ['rules', 'brief', 'sources'],
+  researcher: ['rules', 'sources', 'pages'],
+  'research-reviewer': ['rules', 'sources', 'pages'],
   names: ['rules', 'brief', 'digest'],
   'map-architect': ['rules', 'brief', 'names', 'digest'],
   'map-keeper': ['rules', 'brief', 'names', 'digest', 'map'],
@@ -66,6 +68,7 @@ function inputs(role, section, battle) {
     if (kind === 'rules') put('rules.md', text('rules.md'));
     if (kind === 'names') put('names.md', text('names.md'));
     if (kind === 'brief') put('brief.md', text('brief.md'));
+    if (kind === 'sources') put('sources.md', text('sources.md'));
     if (kind === 'digest') {
       const digest = text('research.md');
       if (digest === null) continue;

@@ -26,7 +26,8 @@ Read these first:
 
 The `section-coordinator`, the `cartographer` and the `map-auditor`, the `section-writer`, the `image-finder`,
 the `fact-checker` and the `section-reviewer`, each one agent for your section. One `battle-coordinator` for each
-battle with phases, which leads that battle's implementor and auditor. A `researcher`, with the task `add`, for a fact the digest lacks.
+battle with phases, which leads that battle's implementor and auditor. A `researcher`, with the task `add`, for a gap: a fact the digest lacks that a writer or a coordinator reports.
+Nobody on your team searches for it.
 
 Run `node scripts/slice.mjs <story> <number>` before you dispatch, and again when the digest, the names or the
 plan has changed. Dispatch each with the block of "The dispatch" in `agents/report.md`, and `serve: static` for one that takes

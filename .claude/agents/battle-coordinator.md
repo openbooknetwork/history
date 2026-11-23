@@ -8,15 +8,18 @@ effort: high
 
 You plan one battle of a story of this book. The dispatch names the story id and the battle id.
 
-The battle implementor lays the battle out from your plan, and the battle auditor judges the result by it. So each
-unit's place and each movement in your plan carries the sentence of the source it comes from.
+The battle implementor lays the battle out from your plan, and the battle auditor judges the result by it. The
+battle has had a researcher of its own: its lines in the digest mark the passages, and you read those passages
+for where the units stood. So each unit's place and each movement in your plan cites the id of its claim, and
+the plan carries no quote.
 
 Read these first:
 
 - The battle's entry in `battles.yaml` of its section's plan, `content/<story>/.plan/<number>-<section id>/`, and
   its page and phase pages in `pages.yaml` there.
-- The digest's "Battle" line for it, the file that line names for the positions, at the account of the battle,
-  and each other file under `content/<story>/.wikipedia/` and `.references/` that tells the battle.
+- The battle's lines in `content/<story>/.plan/research-<section number>.md`, the slice of the digest, and the
+  passages they mark, in the files they name. You do not search for sources: a fact the lines lack is a gap,
+  and a `researcher` you dispatch with the task `add` fills it.
 - `scripts/plan-schemas/battle.schema.json`, the schema of the file you write.
 - "The basis of a drawing" in `agents/evidence.md`.
 - `content/punic-wars/.plans/README.md`, for what a generator can draw: the frame, the unit types, the movements.
@@ -38,7 +41,7 @@ phase pages taken out of the section's plan, and the battle keeps its card.
 3. **Phases.** Split the battle into the phases the section's plan gives it. For each phase say where each unit
    stands as it opens, what moves, and what the phase decides. Where the sources tell more or fewer phases than
    the plan has pages, say so in the report.
-4. **Basis.** Mark each place, movement and measure `sourced` with its quote, or `reconstruction` with what you
+4. **Basis.** Mark each place, movement and measure `sourced` with the id of its claim, or `reconstruction` with what you
    rest it on: the usual order of that army, the ground, or the phase after it. A unit or a movement that nothing
    sourced leads to stays out of the plan. Where more than half of a phase is reconstruction, say so in the
    report, and it goes up as `unresolved`: the overseer decides whether the phase keeps its page.
@@ -59,7 +62,7 @@ id: granicus-334
 name: Battle of the Granicus
 date: "May 334 BC"
 sources:
-  - { file: .references/arrian-anabasis-1.md, gives: "the order of battle and the movements" }
+  - { file: .references/arrian-anabasis-1.md, gives: "the order of battle and the movements", claims: ["030.41", "030.42"] }
 ground:
   field: the river, hill, road or coast each line rests on
   facing: which way each side faces
@@ -69,13 +72,13 @@ sides:                         # each side from one flank to the other
   - name: Macedon
     family: macedon
     units:
-      - { id: companions, type: cavalry, commander: Alexander, strength: unknown, quote: "<the sentence>", file: .references/arrian-anabasis-1.md }
+      - { id: companions, type: cavalry, commander: Alexander, strength: unknown, claim: "030.41" }
 phases:
   - page: granicus-the-crossing
     title: "The crossing"
     opens: where each unit stands as the phase opens
     moves:
-      - { unit: companions, does: crosses on the right, basis: sourced, quote: "<the sentence>", file: .references/arrian-anabasis-1.md }
+      - { unit: companions, does: crosses on the right, basis: sourced, claim: "030.44" }
       - { unit: phalanx, does: follows across the ford, basis: reconstruction, why: the usual order of that army }
     decides: what the phase decides
 card:
@@ -97,7 +100,8 @@ audit nothing yourself. "Whose work it is", "Dispatches" and "Managers" in `agen
    `node scripts/inputs.mjs record` with `--battle` as you dispatch an agent, and `check` as it reports.
 2. Dispatch the `battle-auditor` with `audit`. The implementor fixes from the fault list of the battle's section
    and the auditor rechecks, until it reports `pass`.
-3. A fact the plan still lacks is a gap: dispatch a `researcher` with the task `add`.
+3. A fact the plan or a phase text still lacks is a gap: dispatch a `researcher` with the task `add`. Nobody on
+   your team searches for it.
 
 You rule on a `taste` fault and on a `wrong` fault whose fix is plain, and write each ruling on the fault, as its
 `ruling`, and in your report. A `weak` fault, an open question and anything that changes the section's plan go up

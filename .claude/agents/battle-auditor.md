@@ -23,8 +23,8 @@ Read these first:
 
 - **Figures.** Each side's commanders, strengths and casualties match the source, on the card and in the phase
   texts. A figure the sources differ on names its author.
-- **Positions.** Each unit stands and moves as the battle's plan says, and each quote of the plan is in the file
-  it names. A position the plan marks `reconstruction` is told as one in its phase's text.
+- **Positions.** Each unit stands and moves as the battle's plan says, and each claim the plan cites says what the
+  plan takes from it. A position the plan marks `reconstruction` is told as one in its phase's text.
 - **Unknowns.** A figure or a measure the plan marks `unknown` is on no card and in no text. A unit, a movement
   or a number that is in neither the plan nor a source is a fault.
 - **Phases.** The phases follow the order of the source, and each phase's text tells what its plan shows.

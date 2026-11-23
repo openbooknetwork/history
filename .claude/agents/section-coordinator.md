@@ -26,8 +26,8 @@ Read these first:
 - `content/<story>/.plan/rules.md`, the standing rules of this story.
 - `scripts/plan-schemas/`, the schema of each file you write.
 
-Where the digest lacks what a decision of yours needs, report what is missing in place of the plan. The
-researcher adds it, and you are resumed.
+Where the digest lacks what a decision of yours needs, report what is missing in place of the plan. Your
+section's lead dispatches a researcher for the gap, and you are resumed.
 
 ## The pre-plan
 

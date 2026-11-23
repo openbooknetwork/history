@@ -7,7 +7,7 @@
 // A fault is caught at the step of the agent that reports it. Its "introduced" line names the work that made it,
 // and FIRST_CHECK of transcripts.mjs gives the step whose check should have caught it. A leak is a wrong fault caught at a later
 // step than that. A fault made by a fix or a ruling has no first check and is counted on its own.
-import { parseArgs, loadRun, table, stop, FIRST_CHECK } from './transcripts.mjs';
+import { parseArgs, loadRun, table, stop, FIRST_CHECK, stepIndex } from './transcripts.mjs';
 
 const REWORK = ['fix', 'ruling'];
 const SEVERITIES = ['wrong', 'weak', 'taste'];
@@ -19,7 +19,7 @@ if (opts.json) { console.log(JSON.stringify(run, null, 1)); process.exit(0); }
 
 const count = (list, test) => list.filter(test).length;
 const short = (s, n = 90) => { s = String(s ?? '').replace(/\s+/g, ' ').replace(/\|/g, '/'); return s.length > n ? s.slice(0, n - 1) + '…' : s; };
-const byStep = (a, b) => (a.step === '-' ? 99 : a.step) - (b.step === '-' ? 99 : b.step);
+const byStep = (a, b) => stepIndex(a.step) - stepIndex(b.step);
 const faults = run.reports.flatMap(r => r.faults.map(f => ({ ...f, step: r.step, role: r.role, section: r.section })));
 
 if (run.variant || run.story) console.log([run.story && `Story: ${run.story}`, run.variant && `Variant: ${run.variant}`].filter(Boolean).join(' · ') + '\n');
@@ -57,14 +57,14 @@ console.log(again.length ? table(['Role', 'Section', 'Reports', 'In order'], aga
 const wrong = faults.filter(f => f.severity === 'wrong');
 const leaked = f => f.leak;
 console.log('\n## Wrong faults by the work that introduced them\n');
-const made = [...new Set(wrong.map(f => f.introduced ?? 'not said'))].sort((a, b) => (FIRST_CHECK[a] ?? 99) - (FIRST_CHECK[b] ?? 99) || a.localeCompare(b));
-console.log(wrong.length ? table(['Introduced by', 'First check at step', 'Wrong faults', 'Leaked'],
+const made = [...new Set(wrong.map(f => f.introduced ?? 'not said'))].sort((a, b) => stepIndex(FIRST_CHECK[a]) - stepIndex(FIRST_CHECK[b]) || a.localeCompare(b));
+console.log(wrong.length ? table(['Introduced by', 'First check at', 'Wrong faults', 'Leaked'],
   made.map(m => [m, FIRST_CHECK[m] ?? '-', count(wrong, f => (f.introduced ?? 'not said') === m), count(wrong, f => f.introduced === m && leaked(f))])) : 'None.');
 
 console.log('\n## Leaks\n');
-const leaks = wrong.filter(leaked).sort((a, b) => FIRST_CHECK[a.introduced] - FIRST_CHECK[b.introduced] || a.step - b.step);
+const leaks = wrong.filter(leaked).sort((a, b) => stepIndex(a.firstCheck) - stepIndex(b.firstCheck) || byStep(a, b));
 console.log(leaks.length ? table(['Introduced by', 'Should be caught at', 'Caught at', 'Caught by', 'File', 'What should change'],
-  leaks.map(f => [f.introduced, `step ${FIRST_CHECK[f.introduced]}`, `step ${f.step}`, `${f.role} ${f.section}`.trim(),
+  leaks.map(f => [f.introduced, f.firstCheck, f.step, `${f.role} ${f.section}`.trim(),
     short(f.file, 70) + (f.claim ? ` (${f.claim})` : ''), short(f.action)])) : 'None.');
 
 const rework = wrong.filter(f => REWORK.includes(f.introduced));

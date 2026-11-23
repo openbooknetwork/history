@@ -31,7 +31,7 @@ lists them. The overseer sends every `wrong` fault back, decides each `weak` one
 
 `introduced` names the work that made the fault, which is often an earlier step than the file's own: a route drawn
 as its plan says is a fault of the `plan`, not of the `maps`. It is one of `source`, `research`, `names`, `brief`,
-`map-design`, `plan`, `maps`, `battle-plan`, `battles`, `texts`, `images` and `review`, or `fix` or `ruling` where a
+`map-design`, `pre-plan`, `plan`, `maps`, `battle-plan`, `battles`, `texts`, `images` and `review`, or `fix` or `ruling` where a
 fix or a ruling made it. Leave the line out where the evidence does not show it. `node scripts/fault-ledger.mjs`
 counts from it the faults that passed the step meant to catch them.
 

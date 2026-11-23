@@ -160,7 +160,7 @@ where a script reads it, a form a script can check.
 ```yaml
 story: alexander-the-great
 section: "020"            # all, for an agent that works on the whole story
-step: 8
+step: maps                # the step's name, from the list of 5.0
 task: draw                # one word from the list in the role's definition
 faults: .plan/faults/020.yaml    # only where the task is a fix or a recheck
 scratchpad: <the agent's own folder>
@@ -172,7 +172,7 @@ note: Thessaly's border is row 12 of the brief's Map part.    # optional
   and no list of files to read, which the role's definition gives for a story and a section.
 - Each role's definition lists its task words: `draw` and `fix` for the cartographer, `check`, `recheck` and
   `plan-check` for the fact-checker, `plans` and `texts` for the editor.
-- The tool's short description takes one form too, `8 020 cartographer draw`, so the list of agents reads as
+- The tool's short description takes one form too, `maps 020 cartographer draw`, so the list of agents reads as
   the run.
 - **`note` gives context and never instructs.** It states a fact about this one dispatch that no channel holds:
   where something is, what changed since the plan. It is one sentence of at most 200 characters, it tells the
@@ -384,21 +384,55 @@ two sources are independent, and the comparison of two works, stay with the revi
 
 ## Layer 5. Step order
 
-**5.1 The battle-coordinator writes the card.** *history.* Cards are written at step 9, before the cartographer
-reaches the section. The battle-implementor builds only phase pages. Done when no build fails on an unknown
-battle. `[F1, F11]`
+**5.0 The steps, by name.** *history.* **Agreed; the ledgers already use the names.** A step is known by its name
+in a dispatch, a saved run, a report and the notes. Only one list says which comes first, so a later change of
+order changes that list and no file that names a step. `agents/overseer.md` is written again around it.
 
-**5.2 A plan check before drawing.** *history.* At step 7 a fact-checker checks each plan's routes and zone
-edges against the passages of 2.5. Done when the benchmark's two plan-route leaks are caught at step 7. `[F11,
-E4.1]`
+| Step | What happens | Who |
+|---|---|---|
+| `brief` | the draft brief | overseer, with the user |
+| `survey` | research round 1: the sources and what covers each section | research-coordinator |
+| `final-brief` | the brief settled, and `rules.md` written | overseer |
+| `pre-plans` | each section's page list | section-coordinators |
+| `pre-plan-check` | overlaps, order and gaps across the sections | editor |
+| `research` | round 2: the claims, per section and per battle, each reviewed | researchers, research-reviewers |
+| `names` | the form of each name | names |
+| `map-design` | the map's extent, families and shared zones | map-architect |
+| `plans` | the full section plans, the battle plans and the cards | section- and battle-coordinators |
+| `plan-check` | each plan's routes and borders against the sources | fact-checker |
+| `maps` | each section's maps, audited | cartographer, map-auditor |
+| `texts` | each section's texts, once its page files exist | section-writers |
+| `phases` | the phase pages of each battle, audited | battle-implementor, battle-auditor |
+| `images` | each section's images | image-finders |
+| `facts` | the fact-check with its fixes, then the review | fact-checkers, section-reviewers |
+| `edit` | the cohesion of the whole | editor |
+| `story` | the whole story checked and audited | overseer, story-auditor |
+| `name-forms`, `translation` | each language's names, then its texts | name-finders, translators |
+
+What moved from the order the Alexander run followed: the research is in two rounds with the page lists
+between them; the names come after round 2, where most minor names first stand; the map design comes after
+round 2, since it needs the borders that round finds; the battle plans and cards come before the maps (5.1); and
+the texts come after their section's maps (5.4). `scripts/transcripts.mjs` holds the list as `ORDER`, with the
+step each role works at and the step meant to catch each kind of fault.
+
+**5.1 The battle-coordinator writes the card.** *history.* Cards are written at `plans`, with the battle plans,
+before the cartographer reaches the section. The battle-implementor builds only phase pages. Done when no build
+fails on an unknown battle. `[F1, F11]`
+
+**5.2 A plan check before drawing.** *history.* At `plan-check` a fact-checker checks each plan's routes and zone
+edges against the passages of 2.5, section by section as each plan is ready, so a wrong plan is caught before
+the next one rests on it. Done when the benchmark's two plan-route leaks are caught there. `[F11, E4.1]`
 
 **5.3 Planned gap batches.** *history.* Until the research team of 6.10 exists: one researcher batch and one
 names batch after step 6, and again after step 9, in place of single resumes. Round 2 of 6.10 then takes their
 place. `[F9, F11, F15]`
 
-**5.4 Texts after page files.** *history.* A section's writer starts once its page files exist, still in
-parallel across sections, and runs `harita check` and the word count before it reports. Marker ids are frozen
-from then on. `[F12.8, F17.3, F17.4]`
+**5.4 Texts after page files.** *history.* **Agreed.** A section's writer starts once the cartographer has
+written that section's page files, without waiting for its map audit: a writer needs the marker ids and not the
+final borders. Writers still run at once across sections. A writer runs `harita check` and the word count before
+it reports, and marker ids are frozen from the moment it starts. The run ends later by about one writer's run
+and not nine, since the fact-check and the review of a section waited for its maps already. Splitting the
+cartographer (6.1) takes that time back. `[F12.8, F17.3, F17.4]`
 
 **5.5 Plans end at step 7.** *history.* A plan is not synced after its texts are reviewed, and
 `agents/overseer.md` says so. `[F17.5]`
@@ -406,6 +440,14 @@ from then on. `[F12.8, F17.3, F17.4]`
 **5.6 The run's order.** *history.* `agents/overseer.md` writes down the order the run found: battle plans
 beside the maps, battles one section behind the maps, images as soon as a section has texts and cards, the map
 audit of a section beside the drawing of the next. `[F14, L9]`
+
+**5.7 Pre-plans, checked before the research.** *history.* A full plan cites the lines of the digest, and the
+research of round 2 needs the pages first: each waited on the other. A pre-plan breaks the loop. It is a
+section's page list alone: each page's id, title, `when`, one line of what it tells, its battles and the places
+it marks, with no sources. At `pre-plan-check` the editor reads all of them together for an event told in two
+sections, a place two sections mark, a page out of time order (2.13) and an event of the brief that no section
+tells. The research then runs on a settled list of pages, and the full plans are written from it. The Alexander
+run found six marker ids planned in two sections, after the full plans were written. `[F4, F9]`
 
 ## Layer 6. Structure
 

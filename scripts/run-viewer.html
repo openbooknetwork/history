@@ -126,7 +126,7 @@ const compact = n => {
 };
 const weighted = r => KINDS.reduce((sum, k, i) => sum + (r[k.key] ?? 0) * state.weights[i], 0);
 const count = (list, test) => list.filter(test).length;
-const stepOrder = s => s === '-' ? 99 : +s;
+const stepOrder = s => { const order = state.runs[state.current]?.order ?? [], i = order.indexOf(s); return i < 0 ? order.length + (s === '-' ? 1 : 0) : i; };
 const runName = (run, i) => run.variant || run.story || run.fileName || `run ${i + 1}`;
 
 function addRun(run, fileName) {
@@ -226,7 +226,7 @@ function tokens(run, s) {
   const keys = state.by.split(',');
   const groups = new Map();
   for (const r of run.usage) {
-    const name = keys.map(k => k !== 'step' ? r[k] : r[k] === '-' ? 'no step' : `step ${r[k]}`).join(' · ');
+    const name = keys.map(k => k === 'step' && r[k] === '-' ? 'no step' : r[k]).join(' · ');
     if (!groups.has(name)) { const g = { name, agents: new Set(), turns: 0, peak: 0 }; for (const k of KINDS) g[k.key] = 0; groups.set(name, g); }
     const g = groups.get(name);
     g.agents.add(r.agent); g.turns += r.turns; g.peak = Math.max(g.peak, r.peak);
@@ -304,10 +304,10 @@ function faults(run, s) {
     [...caught.values()].sort((a, b) => stepOrder(a.step) - stepOrder(b.step) || a.role.localeCompare(b.role)).map(g => line(String(g.step), g.role, g.reports)),
     line('', 'Total', run.reports)));
 
-  const leaks = s.faults.filter(f => f.leak).sort((a, b) => a.firstCheck - b.firstCheck || a.step - b.step);
+  const leaks = s.faults.filter(f => f.leak).sort((a, b) => stepOrder(a.firstCheck) - stepOrder(b.firstCheck) || stepOrder(a.step) - stepOrder(b.step));
   card.append(h('h3', null, 'Leaks'), leaks.length
     ? dataTable(['Introduced by', 'Should be caught at', 'Caught at', 'Caught by', 'File', 'What should change'],
-      leaks.map(f => [f.introduced, `step ${f.firstCheck}`, `step ${f.step}`, `${f.role} ${f.section === '-' ? '' : f.section}`.trim(), (f.file ?? '') + (f.claim ? ` (${f.claim})` : ''), f.action ?? '']))
+      leaks.map(f => [f.introduced, f.firstCheck, f.step, `${f.role} ${f.section === '-' ? '' : f.section}`.trim(), (f.file ?? '') + (f.claim ? ` (${f.claim})` : ''), f.action ?? '']))
     : h('p', { class: 'empty' }, 'None.'));
 
   const again = reworkGroups(run);
@@ -318,9 +318,9 @@ function faults(run, s) {
   const wrong = s.faults.filter(f => f.severity === 'wrong');
   const made = [...new Set(wrong.map(f => f.introduced ?? 'not said'))];
   const first = m => wrong.find(f => (f.introduced ?? 'not said') === m).firstCheck;
-  made.sort((a, b) => (first(a) ?? 99) - (first(b) ?? 99) || a.localeCompare(b));
+  made.sort((a, b) => stepOrder(first(a) ?? '') - stepOrder(first(b) ?? '') || a.localeCompare(b));
   card.append(h('h3', null, 'Wrong faults by the work that introduced them'), wrong.length
-    ? dataTable(['Introduced by', 'First check', 'Wrong faults', 'Leaked'], made.map(m => [m, first(m) ? `step ${first(m)}` : '–', count(wrong, f => (f.introduced ?? 'not said') === m), count(wrong, f => f.introduced === m && f.leak)]))
+    ? dataTable(['Introduced by', 'First check', 'Wrong faults', 'Leaked'], made.map(m => [m, first(m) ?? '–', count(wrong, f => (f.introduced ?? 'not said') === m), count(wrong, f => f.introduced === m && f.leak)]))
     : h('p', { class: 'empty' }, 'None.'));
 
   const kinds = [...new Set(s.faults.map(f => f.kind))].sort((a, b) => count(s.faults, f => f.kind === b) - count(s.faults, f => f.kind === a));

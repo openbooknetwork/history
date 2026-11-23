@@ -11,26 +11,35 @@
 //            line), else "overseer" for a session's own transcript
 //   section  the first of the story's section numbers in the dispatch's description, else in its prompt; "-" for
 //            the agents that work on the whole story
-//   step     the overseer's step of that role, as STEPS lists them. "step <n>" in the dispatch's description
-//            overrides it, and the editor is step 7 or 13 by the word plans or texts in its prompt
+//   step     the step's name. The dispatch form names it, on a "step:" line of the block its prompt opens with,
+//            and a "section:" line there names the section. Where a dispatch has no block, the step is the one
+//            STEPS gives the role, and the editor's is pre-plan-check or edit by the word plans or texts
 // An agent that is resumed with another section's work is counted under each section in turn: every prompt it is
 // sent starts a part, and each message's tokens go to the part it was written in.
 import fs from 'fs';
 import path from 'path';
 import * as yaml from 'js-yaml';
 
+// The steps of a story build by name, in their order. A step is known by its name everywhere: in a dispatch, in a
+// saved run and in the notes. Only this list says which comes first.
+export const ORDER = ['brief', 'survey', 'final-brief', 'pre-plans', 'pre-plan-check', 'research', 'names', 'map-design', 'plans',
+  'plan-check', 'maps', 'texts', 'phases', 'images', 'facts', 'edit', 'story', 'name-forms', 'translation'];
+export const stepIndex = step => { const i = ORDER.indexOf(step); return i < 0 ? ORDER.length : i; };
+// the step a role works at, where its dispatch names none
 export const STEPS = {
-  researcher: 2, names: 3, 'map-architect': 5, 'section-coordinator': 6, editor: 7, cartographer: 8,
-  'map-auditor': 8, 'section-writer': 8, 'battle-coordinator': 9, 'battle-implementor': 10, 'battle-auditor': 10,
-  'image-finder': 11, 'fact-checker': 12, 'section-reviewer': 12, 'story-auditor': 14, 'name-finder': 16,
-  translator: 17, 'translation-reviewer': 17,
+  'research-coordinator': 'survey', researcher: 'research', 'research-reviewer': 'research', names: 'names',
+  'map-architect': 'map-design', 'section-coordinator': 'plans', 'battle-coordinator': 'plans', editor: 'pre-plan-check',
+  cartographer: 'maps', 'map-auditor': 'maps', 'section-writer': 'texts', 'battle-implementor': 'phases',
+  'battle-auditor': 'phases', 'image-finder': 'images', 'fact-checker': 'facts', 'section-reviewer': 'facts',
+  'story-auditor': 'story', 'name-finder': 'name-forms', translator: 'translation', 'translation-reviewer': 'translation',
 };
 // The step whose check should catch a fault, by the work that introduced it: the "introduced" line of
 // agents/report.md. A wrong fault caught at a later step is a leak. A fault made by a fix or a ruling has no first
 // check.
 export const FIRST_CHECK = {
-  source: 2, research: 2, names: 3, brief: 4, 'map-design': 5, plan: 7, maps: 8, 'battle-plan': 9, battles: 10,
-  texts: 12, images: 12, review: 13,
+  source: 'research', research: 'research', names: 'names', brief: 'final-brief', 'map-design': 'map-design',
+  'pre-plan': 'pre-plan-check', plan: 'plan-check', 'battle-plan': 'plan-check', maps: 'maps', battles: 'phases',
+  texts: 'facts', images: 'facts', review: 'edit',
 };
 const WHOLE_STORY = new Set(['overseer', 'researcher', 'names', 'map-architect', 'editor', 'story-auditor', 'name-finder', 'translator', 'translation-reviewer']);
 const AGENT_ID = /a[0-9a-f]{16}/;
@@ -192,15 +201,19 @@ function fromTranscripts(opts) {
     const dispatch = t.agentId ? dispatched.get((t.prompts[0] ?? '').trim()) : null;
     const role = t.meta.agentType ?? dispatch?.subagent_type ?? (named.replace(/-?\d{3}$/, '') || (t.agentId ? '?' : 'overseer'));
     const description = t.meta.description ?? dispatch?.description ?? '';
-    const stepTag = description.match(/\bstep (\d{1,2})\b/i)?.[1];
+    // the dispatch form: a block of "key: value" lines the prompt opens with
+    const form = prompt => Object.fromEntries([...prompt.split('\n').slice(0, 14).join('\n').matchAll(/^(story|section|step|task):[ \t]*"?([\w-]+)"?/gm)].map(([, k, v]) => [k, v]));
     const whole = WHOLE_STORY.has(role);
     let section = whole ? '-' : sectionIn(description) ?? named.match(/(\d{3})$/)?.[1] ?? '-';
-    let step = stepTag ? +stepTag : STEPS[role] ?? '-';
+    let step = STEPS[role] ?? '-';
     const tags = t.prompts.map((prompt, i) => {
-      if (!whole && !(i === 0 && sectionIn(description))) section = sectionIn(prompt) ?? section;
-      if (role === 'editor' && !stepTag) {
+      const given = form(prompt);
+      if (given.section) section = given.section === 'all' ? '-' : given.section;
+      else if (!whole && !(i === 0 && sectionIn(description))) section = sectionIn(prompt) ?? section;
+      if (given.step) step = given.step;
+      else if (role === 'editor') {
         const plans = prompt.search(/\bplans\b/), texts = prompt.search(/\btexts\b/);
-        if (plans >= 0 || texts >= 0) step = texts >= 0 && (plans < 0 || texts < plans) ? 13 : 7;
+        if (plans >= 0 || texts >= 0) step = texts >= 0 && (plans < 0 || texts < plans) ? 'edit' : 'pre-plan-check';
       }
       return { section, step };
     });
@@ -236,7 +249,7 @@ function fromTranscripts(opts) {
           const firstCheck = FIRST_CHECK[f.introduced] ?? null;
           return {
             severity: f.severity ?? '?', kind: f.kind ?? '?', introduced: f.introduced ?? null, firstCheck,
-            leak: f.severity === 'wrong' && firstCheck !== null && tag.step !== '-' && tag.step > firstCheck,
+            leak: f.severity === 'wrong' && firstCheck !== null && tag.step !== '-' && stepIndex(tag.step) > stepIndex(firstCheck),
             owner: f.owner ?? null, file: f.file ?? null, claim: f.claim == null ? null : String(f.claim),
             evidence: f.evidence ?? null, action: f.action ?? null,
           };
@@ -247,7 +260,7 @@ function fromTranscripts(opts) {
   const used = new Set(usage.map(r => r.section).filter(s => s !== '-'));
   const counted = sections.filter(s => !used.size || used.has(s.slice(0, 3)));
   const pages = counted.reduce((n, s) => n + countPages(path.join(pagesDir, s)), 0) || null;
-  return { variant: opts.variant ?? null, story, pages, agents, usage, reports };
+  return { variant: opts.variant ?? null, story, pages, order: ORDER, agents, usage, reports };
 }
 
 // The run the arguments name: { variant, story, pages, agents, usage, reports }.

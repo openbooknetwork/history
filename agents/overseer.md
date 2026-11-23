@@ -24,6 +24,7 @@ Whoever takes the story over, on another machine or in another session, starts f
 | `rules.md` | you alone | every standing rule of this story, beyond `agents/` |
 | `decisions.md` | you | the state of each step, and each decision with its reason |
 | `reports/<section>-<role>.yaml` | every agent | the block of each of its reports, one entry per run |
+| `reports/<section>-<role>.inputs.yaml` | `scripts/inputs.mjs` | the hash of each file the agent built from |
 | `faults/<section number>.yaml`, `faults/story.yaml` | the checkers | each fault, with its state |
 | `fixes/<section number>.yaml`, `fixes/story.yaml` | whoever fixes a fault | each change that fixed one |
 | `handoff/<role>.md` | an agent | one page for the next agent of its role |
@@ -172,28 +173,27 @@ block before the prose:
 - A `wrong` fault goes to its `owner`. A `weak` fault is the user's decision. A `taste` fault is yours.
 - Copy each `unresolved` line into `decisions.md`. An agent's answer to an open question is a proposal until the
   user rules on it.
-- Each file under `stale` is rebuilt or checked again, as the next part says.
+- Each file under `stale` is built or checked again. "When something changes upstream" has the script that lists them.
 
 ## When something changes upstream
 
-A file is built from the files to its left. When one changes after a later step used it, the files to its right
-are stale, from the nearest column on:
+Every agent works from files another wrote: the rules, the names, the brief, its section's part of the digest and
+its role's files of the plan. `scripts/inputs.mjs` hashes them, so nobody keeps from memory what rests on what.
+The agent does not run it. Whoever dispatches the agent does:
 
-| Changed | Stale | Who looks again |
-|---|---|---|
-| a line of `research.md` | each plan that names its id under `Rests on:` | that section's coordinator, then as a plan change |
-| `names.md` | each text and marker that writes the name | the section's reviewer, the cartographer, each name finder |
-| the brief's "Map" part | each plan and zone that uses the family or zone | the coordinators, then the cartographer |
-| a section plan | the section's page files, texts, battles and images | cartographer, writer, then the checks of step 12 |
-| a battle plan | the battle's card, generator and phase pages | the battle implementor and auditor |
-| a page file, zone or route | the page's text, where it tells the map | the section's reviewer, then the fact checker |
-| an English text | the page's translations | the translator of each language, with the page id |
+- `node scripts/inputs.mjs record <story> <role> <section number or all>`, with `--battle <id>` for a battle's
+  agent, as the agent is dispatched. It saves the hash of each file the role builds from beside the agent's
+  reports. A plan is hashed by page, one page's entry in one role's file.
+- `node scripts/inputs.mjs check` with the same words as the agent reports. Each line it prints is a file that
+  changed under the agent: its work is stale, and its report's `stale` says so.
+- `node scripts/inputs.mjs stale <story>` at any moment. It lists each role and section that built from a
+  version of a file that has since changed, with the page: a changed route flags that page's map and not its
+  text. Each line is work to build or check again, and the list is empty before a step ends.
 
-Find what rests on a claim with `grep -rn "<id>" content/<story>/.plan`, and what a commit changed with
-`git log --stat -- content/<story>`. After each step, stage the plan folder with `git add` and give the user the
-commit command, so the next change shows as a diff. The user makes every commit.
+A hash proves that what an agent built from did not change. It does not prove that a plan still matches the
+pages made from it: a fix to a text leaves its plan's hash as it was.
+
+Find what a commit changed with `git log --stat -- content/<story>`. After each step, stage the plan folder with
+`git add` and give the user the commit command, so the next change shows as a diff. The user makes every commit.
 A commit names its paths, as `git add <paths>` and `git commit <paths>`. While agents run in parallel, nobody
 runs `git commit -a` or `git add -A`, which take another agent's half-written files into the commit.
-Send an agent the changed lines and the page ids they touch, and leave the other pages as they are. Write each
-stale file into `decisions.md` when it goes stale and strike it when it is checked again, so no agent builds
-from a plan that has moved on.

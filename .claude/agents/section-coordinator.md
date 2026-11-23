@@ -32,7 +32,8 @@ researcher adds it, and you are resumed.
 1. **Pages.** List the section's events in order of date, and give a page to each change of the map. Two events
    that change the map in the same place within a few years share a page. Done when every page has a map change
    of its own, and every "Event" line of the digest's section is on a page or under "Left out" with its reason.
-2. **Battles.** Give each battle a card on the page of its campaign. Give phase pages to a battle only where the
+2. **Battles.** Give each battle a card on the page of its campaign, and an id of the form `<name>-<year>`, such
+   as `issus-333`. Give phase pages to a battle only where the
    digest names a file with the positions and movements of both sides, and say how many phases.
 3. **Sources.** For each page choose the source files its writer reads, with the headings that cover the page.
    Prefer the `scholarly` and `primary` files of the digest. Three or four files serve most pages.

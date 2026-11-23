@@ -24,8 +24,8 @@ Where two of these pull apart, the earlier one wins.
    that could sit in any story about any war goes.
 6. **In the book's own words.** Wikipedia is CC BY-SA, and the book takes facts from it and no sentences. A quote
    from a chronicle or a letter is short and names its author.
-7. **Short.** Most texts run 150 to 300 words. A page that names both sides of a disputed figure may run to 350.
-   The limit is the body's: the notes of "Notes" below do not count.
+7. **Short.** A body runs 150 to 300 words. One that runs to 350 is tolerated, and none runs longer. The limit
+   is the body's: the notes of "Notes" below do not count.
 
 ## Language
 

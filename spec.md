@@ -123,7 +123,7 @@ for a `when`: the linter of 3.1 does, for a history story. `[2.13]`
 
 These are edits to the notes and definitions. They fix forms that layer 3 checks and layer 4 relies on.
 
-**2.0 The channels agents speak through.** *history.* Agents pass work to each other through seven channels and
+**2.0 The channels agents speak through.** *history.* Agents pass work to each other through eight channels and
 through nothing else. Each has one kind of writer, a known reader, one place in the story's `.plan/` folder and,
 where a script reads it, a form a script can check.
 
@@ -134,6 +134,7 @@ where a script reads it, a form a script can check.
 | Dispatch | the overseer | one agent | a fixed form: story, section, step, task, the files to read |
 | Report | an agent | the overseer | the block of `agents/report.md`, saved to `.plan/reports/` |
 | Fault list | a checker | the fixer | `.plan/faults/<section>.yaml`, each fault a clause edit with a state |
+| Fix log | whoever changes a file to fix it | the reviewer and the user | `.plan/fixes/<section>.yaml`, one entry a change |
 | Handoff | an agent | the next agent of its role | `.plan/handoff/<role>.md`, one page |
 | Decision log | the overseer | the user and the reviewer | `.plan/decisions.md`, the history alone |
 
@@ -143,6 +144,11 @@ where a script reads it, a form a script can check.
 - A fault in the list carries its `id`, `severity`, `file`, the field, the `old` and `new` text, its `source`,
   `introduced` and a `state` of `open`, `fixed` or `declined`. `scripts/fault-ledger.mjs` then counts from these
   files, and from the transcripts only for a run that has none.
+- **The fix log is the audit of every fix.** An entry names who made the change, the file and field, the `old`
+  and `new` text, the commit, and why: the id of the fault it closes, or for a small fix made with no fault
+  raised (4.4) the reason in a line. A checker that applies its own fault (4.3) and an auditor or the overseer
+  that makes a small fix write here, since no second agent saw the change. A fix with no entry is a fault of the
+  run, and the hook of 6.7 that checks an agent as it ends compares its changed files with its entries.
 - The loose files of the Alexander run each have a channel: `cartography-notes.md` and `IMPLEMENTOR-NOTES.md`
   are handoffs, the fact-checker's files and the overseer's queued fixes are fault lists, and the rules inside
   `decisions.md` and the dispatches are `rules.md`.
@@ -179,7 +185,7 @@ note: Thessaly's border is row 12 of the brief's Map part.    # optional
 - Dispatches are not saved to files. The transcript holds them, and the ledger copies them into `run.json`.
 
 Items 2.1, 2.6, 2.7 and 2.8 each set out one channel, 4.2 the handoff, and the workflow script of 6.5 runs on
-them. Done when `agents/overseer.md` and `agents/report.md` name the seven, each definition names the ones its
+them. Done when `agents/overseer.md` and `agents/report.md` name the eight, each definition names the ones its
 agent reads and writes, and a story builds with no other file passed between agents. `[F11, F12.5, F13, L2, L6]`
 
 **2.1 The rules channel: `rules.md` at step 4.** *history.* `agents/overseer.md` has the overseer write
@@ -336,20 +342,24 @@ slices and the handoff of its role, `.plan/handoff/<role>.md`: one page the agen
 next one must know and nothing else. An agent is resumed only for a small follow-up on its own generator. Done
 when no agent's context passes 300,000 tokens. `[F12.6, L1]`
 
-**4.3 The fact-checker applies its own edits.** *history.* It gains `Edit` and applies its wrong and weak clause
-edits. The reviewer keeps readability, Notes and length, and does not reread the sources. Tested on the benchmark
-against 2.7 alone. `[F17.1]`
+**4.3 The fact-checker applies its own edits.** *history.* **Agreed.** It gains `Edit` and applies its wrong and
+weak clause edits. It writes each fault to the fault list as before and each change to the fix log of 2.0, so
+the change can be audited though no second agent applied it. The reviewer keeps readability, Notes and length,
+does not reread the sources, and reads the fix log of its section. Measured on the benchmark against 2.7 alone.
+`[F17.1]`
 
-**4.4 Small fixes without a round trip.** *history.* An auditor fixes a mechanical fault itself and reports the
-diff. The overseer makes one-line fixes itself. `agents/report.md` lists what counts: a marker note, a card date,
-a caption word, an icon, a date line. `[F12.9, L5]`
+**4.4 Small fixes without a round trip.** *history.* **Agreed.** An auditor fixes a mechanical fault itself, and
+the overseer makes one-line fixes itself. Each such fix is an entry in the fix log of 2.0, with its reason,
+whether or not a fault was raised for it. `agents/report.md` lists what counts as small: a marker note, a card
+date, a caption word, an icon, a date line. Anything else goes to the fault list and its owner. `[F12.9, L5]`
 
-**4.5 A card without phases has no battle audit.** *history.* The section's fact-checker checks its figures,
-commanders, dates and site. `[F17, L8]`
+**4.5 A card without phases has no battle audit.** *history.* **Agreed.** The section's fact-checker checks its
+figures, commanders, dates and site, and fixes what it finds under 4.3. `[F17, L8]`
 
-**4.6 A model per agent.** *history.* Every definition is `model: opus` now. Move the mechanical agents to a
-smaller model: `image-finder`, `names`, `name-finder`, and plan-sync edits. Research, writing, map design and
-the audits keep the strongest. Each move is tested on the benchmark first. `[F12.10]`
+**4.6 A model per agent.** *history.* **Not yet.** Every definition is `model: opus`. Moving the mechanical
+agents to a smaller model waits until the workflow itself is settled and measured: a change of model on top of
+a change of process cannot be told apart in the numbers. The candidates then are `image-finder`, `names`,
+`name-finder` and plan-sync edits, each tested on the benchmark. `[F12.10]`
 
 **4.7 Research gates.** *history.* Four rules for every line of the digest, held by the research-coordinator of
 6.10 and until then by the researcher: a second account before a date, place or figure is marked `agreed`; the

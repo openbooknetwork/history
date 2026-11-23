@@ -1,0 +1,26 @@
+lnglat: [73.353, 32.6032]
+name: "Battle of the Hydaspes"
+date: "April–May 326 BC (Arrian); about July 326 BC by Diodorus's dating"
+result: "Macedonian victory; Porus wounded, taken and confirmed as king with more land. The site is disputed; the map follows Stein's ground"
+source: https://en.wikipedia.org/wiki/Battle_of_the_Hydaspes
+images: [le-brun-alexander-porus-5fc99c, porus-medallion-cng-08694a]
+default_language: en
+families:
+  macedon: { color: "#2e8b57", color_dark: "#5fcf8f" }
+  taxila: { color: "#3fa2d0", color_dark: "#86d0f0" }
+  porus: { color: "#c0587a", color_dark: "#f08aa8" }
+sides:
+  - name: "Macedon"
+    color: macedon
+    commanders: ["Alexander", "Craterus", "Coenus", "Seleucus", "Antigenes", "Tauron", "Meleager", "Attalus, son of Andromenes", "Gorgias"]
+    strength: "Arrian: the crossing force, not much under 6,000 foot and 5,000 horse"
+    casualties: "Arrian: about 80 foot, 10 horse archers, about 20 Companions and about 200 other horse killed. Diodorus: 280 horse and more than 700 foot"
+  - name: "Taxila"
+    color: taxila
+    commanders: ["Taxiles"]
+    strength: "Arrian: 5,000 Indians, left at the base camp with Craterus"
+  - name: "Porus"
+    color: porus
+    commanders: ["Porus", "Porus's son"]
+    strength: "Arrian: 4,000 horse, 300 chariots, 200 elephants and 30,000 foot. Diodorus: more than 50,000 foot, about 3,000 horse, more than 1,000 chariots and 130 elephants. Curtius: 85 elephants, 300 chariots and about 30,000 foot. Plutarch: 20,000 foot and 2,000 horse. His son's force at the landing: 2,000 horse and 120 chariots (Ptolemy, in Arrian) or about 60 chariots (Aristobulus, in Arrian)"
+    casualties: "Arrian: 400 horse and Porus's son at the landing; in the battle nearly 20,000 foot and 3,000 horse, two sons of Porus among them, and every chariot broken. Diodorus: more than 12,000 killed and more than 9,000 taken, with 80 elephants"

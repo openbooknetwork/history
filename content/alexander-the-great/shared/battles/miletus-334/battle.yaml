@@ -1,0 +1,20 @@
+lnglat: [27.278, 37.53]
+name: "Siege of Miletus"
+date: "Summer 334 BC"
+result: "Miletus stormed; the Persian fleet withdraws without a battle"
+source: https://en.wikipedia.org/wiki/Siege_of_Miletus_(334_BC)
+images: [lenormant-trireme-relief-a2c781, sidon-double-shekel-galley-946b45]
+default_language: en
+families:
+  macedon: { color: "#2e8b57", color_dark: "#5fcf8f" }
+  persia: { color: "#a8323e", color_dark: "#e0606c" }
+sides:
+  - name: "Macedon"
+    color: macedon
+    commanders: ["Alexander", "Nicanor, the fleet commander"]
+    strength: "Arrian: a fleet of 160 ships"
+  - name: "Persian Empire"
+    color: persia
+    commanders: ["Hegesistratus"]
+    strength: "Arrian: a fleet of about 400 ships"
+    casualties: "Arrian: most of the defenders killed in the city; about 300 Greek mercenaries on an islet taken into Alexander's service"

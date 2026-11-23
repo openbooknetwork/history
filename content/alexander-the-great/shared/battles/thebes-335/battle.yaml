@@ -1,0 +1,19 @@
+lnglat: [23.319, 38.321]
+name: "Storming of Thebes"
+date: "Late September 335 BC"
+result: "Macedonian victory; Thebes razed and its people sold"
+source: https://en.wikipedia.org/wiki/Battle_of_Thebes
+images: [alexander-tetradrachm-amphipolis-36e4b2, thebes-stater-shield-25f034]
+default_language: en
+families:
+  macedon: { color: "#2e8b57", color_dark: "#5fcf8f" }
+  thebes: { color: "#c78a1c", color_dark: "#f0b54a" }
+sides:
+  - name: "Macedon and its Greek allies"
+    color: macedon
+    commanders: ["Alexander", "Perdiccas"]
+    strength: "More than 30,000 foot and at least 3,000 horse"
+    casualties: "More than 500 killed"
+  - name: "Thebes"
+    color: thebes
+    casualties: "More than 6,000 killed, more than 30,000 captured"

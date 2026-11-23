@@ -1,0 +1,39 @@
+date: "January 330 BC, dawn"
+title: "The dawn attack from behind"
+zones: []
+sources:
+  - "Arrian, Anabasis of Alexander, book 3, 18 (tr. E. J. Chinnock)."
+  - "Quintus Curtius Rufus, History of Alexander, book 5, 4 (tr. J. C. Rolfe)."
+  - "Diodorus Siculus, Library of History, book 17, 68 (tr. C. B. Welles)."
+  - "A. B. Bosworth, A Historical Commentary on Arrian's History of Alexander, vol. I (1980), on 3.18."
+  - "A. B. Bosworth, Conquest and Empire: The Reign of Alexander the Great (1988), ch. 2.X."
+bbox: [51.7773, 30.43295, 51.84826, 30.48611]
+emblem:
+  kind: battle-plan
+  works:
+    - {side: persia, path: [[51.79973, 30.44866], [51.80027, 30.45134]], width: 30, id: wall, name: Ariobarzanes’s wall across the narrows}
+    - {side: persia, path: [[51.80438, 30.4429], [51.80691, 30.45537], [51.81923, 30.45349], [51.81669, 30.44101], [51.80438, 30.4429]], width: 25, style: trench, id: persian-camp, name: 'The Persian camp and its trench, at the head of the pass'}
+  units:
+    - {side: macedon, type: camp, at: [51.74305, 30.45872], width: 400, depth: 400, facing: 100, id: macedonian-camp, name: The Macedonian camp at Mullah Susan}
+    - {side: macedon, type: pikes, at: [51.79631, 30.45057], width: 280, depth: 250, facing: 100, id: craterus, name: 'The battalions of Craterus and Meleager, under Craterus, storming the wall'}
+    - {side: macedon, type: cavalry, at: [51.792, 30.45123], width: 240, depth: 150, facing: 100, id: craterus-horse, name: Craterus’s archers and cavalry}
+    - {side: macedon, type: pikes, at: [51.81916, 30.45579], width: 320, depth: 160, facing: 220.06858282186246, id: alexander-force, name: 'Alexander with the hypaspists, the battalion of Perdiccas, the Agrianians and the archers'}
+    - {side: macedon, type: cavalry, at: [51.82288, 30.45844], width: 260, depth: 150, facing: 223.17851165939274, id: royal-squadron, name: The royal squadron of the Companions and one more cavalry unit}
+    - {side: macedon, type: pikes, at: [51.80839, 30.45744], width: 320, depth: 160, facing: 190, id: philotas-column, name: 'Philotas’s column: the battalions of Coenus, Amyntas, son of Andromenes, and Polyperchon'}
+    - {side: macedon, type: cavalry, at: [51.81056, 30.46033], width: 260, depth: 150, facing: 190, id: philotas-horse, name: 'Philotas’s cavalry: the rest of the Companions and the scouts'}
+    - {side: macedon, type: infantry, at: [51.79257, 30.46032], width: 300, depth: 150, facing: 126.00334584451144, id: ptolemy, name: 'Ptolemy’s detachment, 3,000 foot (Arrian)'}
+    - {side: persia, type: light, at: [51.7894, 30.45511], width: 1800, depth: 100, facing: 190, id: heights, name: Persian troops on the heights over the gorge}
+    - {side: persia, type: infantry, at: [51.80092, 30.44986], width: 280, depth: 100, facing: 280, id: garrison, name: Persian troops at the wall}
+    - {side: persia, type: infantry, at: [51.81162, 30.4473], width: 700, depth: 300, facing: 280, id: main-body, name: 'Ariobarzanes’s main body in the camp, broken'}
+  arrows:
+    - {side: macedon, path: [[51.83694, 30.47558], [51.83296, 30.47159], [51.82776, 30.46688], [51.82257, 30.46216], [51.82002, 30.45686]], width: 140, id: alexander-attack, name: Alexander takes the guard posts and falls on the camp at dawn}
+    - {side: macedon, path: [[51.74561, 30.45833], [51.77434, 30.45393], [51.79487, 30.45079]], width: 130, id: craterus-assault, name: At the trumpet signal Craterus storms the wall}
+    - {side: macedon, path: [[51.81394, 30.47175], [51.81106, 30.46484], [51.809, 30.45891]], width: 130, id: philotas-attack, name: Philotas’s column strikes the camp by its own road}
+    - {side: persia, path: [[51.80957, 30.44762], [51.799, 30.45291], [51.79359, 30.45907]], width: 110, id: persian-flight, name: The Persians flee towards the fortifications and are cut down, style: dashed}
+    - {side: persia, path: [[51.81639, 30.44474], [51.82756, 30.43981], [51.83839, 30.43586]], width: 100, id: ariobarzanes-escape, name: Ariobarzanes breaks out of the camp, style: dashed}
+  clashes:
+    - [51.79846, 30.45024]
+    - [51.81847, 30.45498]
+    - [51.80811, 30.45657]
+    - [51.79383, 30.45921]
+markers: [persian-gate-dawn-alexander, persian-gate-dawn-craterus, persian-gate-dawn-philotas, persian-gate-dawn-ptolemy, persian-gate-dawn-posts, persian-gate-dawn-ariobarzanes, persian-gate-dawn-cliffs]

@@ -1,0 +1,21 @@
+lnglat: [22.13, 37.4]
+name: "Battle of Megalopolis"
+date: "Probably spring 330 BC; some put it in autumn 331 BC"
+result: "Macedonian victory; Agis III killed and the Spartan rising ended"
+source: https://en.wikipedia.org/wiki/Battle_of_Megalopolis
+images: [laconian-bronze-warrior-923d4c, megalopolis-stater-pan-b152f0]
+default_language: en
+families:
+  macedon: { color: "#2e8b57", color_dark: "#5fcf8f" }
+  sparta: { color: "#6a3d9a", color_dark: "#b78ad6" }
+sides:
+  - name: "Sparta and its allies"
+    color: sparta
+    commanders: ["Agis III"]
+    strength: "Not less than 20,000 foot and about 2,000 horse (Diodorus)"
+    casualties: "More than 5,300 killed (Diodorus; Curtius 5,300)"
+  - name: "Macedon and the loyal Greeks"
+    color: macedon
+    commanders: ["Antipater"]
+    strength: "Not less than 40,000 (Diodorus)"
+    casualties: "Diodorus: 3,500 killed. Curtius: not more than 1,000"

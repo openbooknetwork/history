@@ -1,0 +1,19 @@
+lnglat: [71.8, 30.42]
+name: "Storming of the Mallian town"
+date: "Winter 326–325 BC"
+result: "Macedonian victory; the town stormed and Alexander gravely wounded by an arrow in the chest. The Malli submit. The site is not known"
+source: https://en.wikipedia.org/wiki/Mallian_campaign
+images: [kirkman-mallian-walls-1bbfd6, sanchi-kusinagara-relief-f7e450]
+default_language: en
+families:
+  macedon: { color: "#2e8b57", color_dark: "#5fcf8f" }
+  indians: { color: "#a0461e", color_dark: "#e07a4a" }
+sides:
+  - name: "Macedon"
+    color: macedon
+    commanders: ["Alexander", "Perdiccas", "Peucestas", "Leonnatus", "Abreas"]
+    casualties: "Arrian: Abreas killed; Alexander, Peucestas and Leonnatus wounded"
+  - name: "Malli"
+    color: indians
+    strength: "Arrian: about 50,000 at the Hydraotes, before they fled into the town. Diodorus: the Malli and their neighbours mustered 80,000 foot, 10,000 horse and 700 chariots"
+    casualties: "Arrian: everyone in the citadel killed, women and children too"

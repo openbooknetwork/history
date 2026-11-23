@@ -1,0 +1,37 @@
+date: "January 330 BC, night"
+title: "The night march over the mountain"
+zones: []
+sources:
+  - "Arrian, Anabasis of Alexander, book 3, 18 (tr. E. J. Chinnock)."
+  - "Quintus Curtius Rufus, History of Alexander, book 5, 4 (tr. J. C. Rolfe)."
+  - "Diodorus Siculus, Library of History, book 17, 68 (tr. C. B. Welles)."
+  - "A. B. Bosworth, Conquest and Empire: The Reign of Alexander the Great (1988), ch. 2.X."
+  - "Plutarch, Life of Alexander, 37 (tr. B. Perrin)."
+  - "A. B. Bosworth, A Historical Commentary on Arrian's History of Alexander, vol. I (1980), on 3.18."
+bbox: [51.73849, 30.43384, 51.85133, 30.50722]
+emblem:
+  kind: battle-plan
+  works:
+    - {side: persia, path: [[51.79973, 30.44866], [51.80027, 30.45134]], width: 30, id: wall, name: Ariobarzanes’s wall across the narrows}
+    - {side: persia, path: [[51.80438, 30.4429], [51.80691, 30.45537], [51.81923, 30.45349], [51.81669, 30.44101], [51.80438, 30.4429]], width: 25, style: trench, id: persian-camp, name: 'The Persian camp and its trench, at the head of the pass'}
+  units:
+    - {side: macedon, type: camp, at: [51.74305, 30.45872], width: 400, depth: 400, facing: 100, id: macedonian-camp, name: The Macedonian camp at Mullah Susan}
+    - {side: macedon, type: pikes, at: [51.74869, 30.45785], width: 320, depth: 200, facing: 100, id: craterus, name: 'The battalions of Craterus and Meleager, under Craterus'}
+    - {side: macedon, type: cavalry, at: [51.74793, 30.45411], width: 240, depth: 150, facing: 100, id: craterus-horse, name: Craterus’s archers and cavalry}
+    - {side: macedon, type: pikes, at: [51.83694, 30.47558], width: 320, depth: 160, facing: 218.55139187296018, id: alexander-force, name: 'Alexander with the hypaspists, the battalion of Perdiccas, the Agrianians and the archers'}
+    - {side: macedon, type: cavalry, at: [51.84005, 30.47786], width: 260, depth: 150, facing: 219.5778386812613, id: royal-squadron, name: The royal squadron of the Companions and one more cavalry unit}
+    - {side: macedon, type: pikes, at: [51.81394, 30.47175], width: 320, depth: 160, facing: 184.5076754428726, id: philotas-column, name: 'Philotas’s column: the battalions of Coenus, Amyntas, son of Andromenes, and Polyperchon'}
+    - {side: macedon, type: cavalry, at: [51.81602, 30.47419], width: 260, depth: 150, facing: 188.02506598911805, id: philotas-horse, name: 'Philotas’s cavalry: the rest of the Companions and the scouts'}
+    - {side: persia, type: light, at: [51.78802, 30.44834], width: 1800, depth: 100, facing: 10, id: heights, name: Persian troops on the heights over the gorge}
+    - {side: persia, type: light, at: [51.7894, 30.45511], width: 1800, depth: 100, facing: 190, id: heights, name: Persian troops on the heights over the gorge}
+    - {side: persia, type: infantry, at: [51.80092, 30.44986], width: 280, depth: 100, facing: 280, id: garrison, name: Persian troops at the wall}
+    - {side: persia, type: infantry, at: [51.81059, 30.44746], width: 900, depth: 300, facing: 280, id: main-body, name: Ariobarzanes’s main body in the camp}
+    - {side: persia, type: cavalry, at: [51.81497, 30.44817], width: 500, depth: 200, facing: 280, id: persian-cavalry, name: 'Ariobarzanes’s cavalry, 700 (Arrian) or 300 (Diodorus)'}
+    - {side: persia, type: light, at: [51.83296, 30.47159], width: 220, depth: 70, facing: 40.96375653207349, id: guard-posts, name: Persian guard posts behind the camp}
+    - {side: persia, type: light, at: [51.82776, 30.46688], width: 220, depth: 70, facing: 42.47119229084848, id: guard-posts, name: Persian guard posts behind the camp}
+    - {side: persia, type: light, at: [51.82257, 30.46216], width: 220, depth: 70, facing: 42.905242922987895, id: guard-posts, name: Persian guard posts behind the camp}
+  arrows:
+    - {side: macedon, path: [[51.74564, 30.46108], [51.77428, 30.47966], [51.81333, 30.49481]], width: 140, id: night-climb, name: 'The turning force climbs to the Bolsoru pass by night, in snow'}
+    - {side: macedon, path: [[51.81623, 30.49345], [51.81527, 30.48349], [51.81406, 30.47338]], width: 120, id: philotas-road, name: Philotas’s column takes the right-hand road towards the Persian camp}
+    - {side: macedon, path: [[51.81762, 30.49507], [51.8309, 30.48753], [51.83618, 30.47707]], width: 120, id: alexander-path, name: 'Alexander goes on by the steeper path, farther from the Persian posts'}
+markers: [persian-gate-night-march-craterus, persian-gate-night-march-alexander, persian-gate-night-march-philotas, persian-gate-night-march-bolsoru, persian-gate-night-march-ariobarzanes]

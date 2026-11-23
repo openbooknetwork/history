@@ -1,0 +1,23 @@
+lnglat: [22.835, 38.485]
+name: "Battle of Chaeronea"
+date: "August 338 BC"
+result: "Macedonian victory; Thebes takes a Macedonian garrison, Athens makes peace"
+source: https://en.wikipedia.org/wiki/Battle_of_Chaeronea_(338_BC)
+images: [philip-ii-tetradrachm-37170a, lion-of-chaeronea-7f0cb0]
+default_language: en
+families:
+  macedon: { color: "#2e8b57", color_dark: "#5fcf8f" }
+  athens: { color: "#2f6a9f", color_dark: "#6fa3d6" }
+  thebes: { color: "#c78a1c", color_dark: "#f0b54a" }
+sides:
+  - name: "Macedon"
+    color: macedon
+    commanders: ["Philip II", "Alexander"]
+    strength: "More than 30,000 foot and at least 2,000 horse"
+  - name: "Athens"
+    color: athens
+    commanders: ["Chares", "Lysicles"]
+    casualties: "More than 1,000 killed, at least 2,000 captured"
+  - name: "Thebes and the Boeotians"
+    color: thebes
+    commanders: ["Theagenes"]

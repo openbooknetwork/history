@@ -1,0 +1,38 @@
+date: "1 October 331 BC"
+title: "The wedge and Darius's flight"
+zones: []
+sources:
+  - "Arrian, Anabasis of Alexander, book 3, 13 to 14 (tr. E. J. Chinnock)."
+  - "Diodorus Siculus, Library of History, book 17, 58 to 60 (tr. C. B. Welles)."
+  - "A. B. Bosworth, Conquest and Empire: The Reign of Alexander the Great (1988), ch. 2.IX."
+  - "Astronomical diary for 331 BC, after Sachs and Hunger, in the translation of Jona Lendering (Livius.org)."
+  - "A. B. Bosworth, A Historical Commentary on Arrian's History of Alexander, vol. I (1980), on 3.13 to 14."
+bbox: [43.38143, 36.52414, 43.50411, 36.58531]
+emblem:
+  kind: battle-plan
+  units:
+    - {side: macedon, type: cavalry, at: [43.46879, 36.53441], width: 600, depth: 300, facing: 90, id: right-flank-cavalry, name: 'Mercenary horse, the lancers under Aretes and the Paeonians'}
+    - {side: macedon, type: light, at: [43.45858, 36.53473], width: 600, depth: 200, facing: 135, id: right-flank-infantry, name: 'Half the Agrianians, the archers and the old mercenaries'}
+    - {side: macedon, type: cavalry, at: [43.46926, 36.54529], width: 450, depth: 400, facing: 15, id: companions, name: 'Alexander and the Companions in a wedge, with half the Agrianians and archers on their right', bow: 150}
+    - {side: macedon, type: pikes, at: [43.45779, 36.55136], width: 1250, depth: 350, facing: 45, id: phalanx-right, name: 'Hypaspists under Nicanor, son of Parmenion, and the battalions of Coenus, Perdiccas, Meleager and Polyperchon'}
+    - {side: macedon, type: pikes, at: [43.44633, 36.55296], width: 450, depth: 350, facing: 45, id: phalanx-left, name: 'The battalions of Simmias and Craterus, Craterus leading the infantry of the left'}
+    - {side: macedon, type: cavalry, at: [43.43565, 36.55648], width: 800, depth: 300, facing: 45, id: left-cavalry, name: 'Parmenion with the Thessalian horse under Philip, son of Menelaus, and the allied Greek horse'}
+    - {side: macedon, type: cavalry, at: [43.42695, 36.55776], width: 700, depth: 350, facing: 315, id: left-flank-guard, name: 'Left flank guard: mercenary, Odrysian and allied horse, with Thracian infantry'}
+    - {side: macedon, type: infantry, at: [43.43763, 36.54273], width: 2400, depth: 300, facing: 45, id: reserve, name: 'Second line of Greek allied and mercenary infantry, ready to face about'}
+    - {side: persia, type: knights, at: [43.47211, 36.53441], width: 900, depth: 300, facing: 270, id: saka-bactrians, name: 'Saka and Bactrian horse under Bessus, riding round Alexander’s right'}
+    - {side: persia, type: cavalry, at: [43.47677, 36.53985], width: 1100, depth: 350, facing: 180, id: persian-left, name: 'Persian horse of the left, drawn off to help the encirclement'}
+    - {side: persia, type: infantry, at: [43.46491, 36.55584], width: 1500, depth: 1000, facing: 225, id: persian-centre, name: 'Darius’s centre: the Kinsmen, the apple-bearing guard, Greek mercenaries, Indians, Carians, Mardian archers and the levies behind; breaking'}
+    - {side: persia, type: cavalry, at: [43.44079, 36.56832], width: 3200, depth: 450, facing: 225, id: persian-right, name: 'Persian right under Mazaeus: Syrians, Mesopotamians, Medes, Parthians, Saka, Tapurians, Hyrcanians and Albanians'}
+    - {side: persia, type: cavalry, at: [43.43684, 36.56], width: 700, depth: 300, facing: 225, id: armenians, name: 'Armenian and Cappadocian horse with 50 chariots, pressing Parmenion’s wing'}
+  arrows:
+    - {side: persia, path: [[43.46214, 36.54593], [43.46886, 36.53985], [43.46966, 36.53409]], width: 120, id: saka-encircle, name: The Saka and Bactrians ride round Alexander’s right; Bessus sends in the rest of the Bactrians}
+    - {side: persia, path: [[43.45937, 36.54625], [43.45819, 36.54337], [43.45661, 36.54081]], width: 100, id: chariots, name: 'The scythed chariots charge Alexander; speared, pulled down or let through'}
+    - {side: persia, path: [[43.47124, 36.54817], [43.4748, 36.54465], [43.47701, 36.54132]], width: 110, id: gap, name: 'Persian horse leave the line to join the encirclement, opening a gap'}
+    - {side: macedon, path: [[43.45423, 36.54017], [43.46135, 36.54145], [43.46768, 36.54529]], width: 140, id: wedge, name: 'Alexander leads the Companions and the nearest battalions into the gap, straight at Darius'}
+    - {side: persia, path: [[43.4661, 36.5568], [43.47835, 36.55264], [43.48745, 36.54849], [43.49377, 36.54465]], width: 100, id: darius-flight, name: Darius flees towards Arbela, style: dashed}
+  clashes:
+    - [43.47045, 36.53441]
+    - [43.46871, 36.54804]
+    - [43.45969, 36.5529]
+    - [43.43585, 36.55856]
+markers: [gaugamela-break-alexander, gaugamela-break-darius, gaugamela-break-bessus, gaugamela-break-aretes, gaugamela-break-chariots, gaugamela-break-parmenion]

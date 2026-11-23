@@ -1,0 +1,34 @@
+date: "January 330 BC"
+title: "The assault in the defile"
+zones: []
+sources:
+  - "Arrian, Anabasis of Alexander, book 3, 18 (tr. E. J. Chinnock)."
+  - "Quintus Curtius Rufus, History of Alexander, book 5, 3 (tr. J. C. Rolfe)."
+  - "Diodorus Siculus, Library of History, book 17, 68 (tr. C. B. Welles)."
+  - "A. B. Bosworth, A Historical Commentary on Arrian's History of Alexander, vol. I (1980), on 3.18."
+  - "A. B. Bosworth, Conquest and Empire: The Reign of Alexander the Great (1988), ch. 2.X."
+  - "Jona Lendering, Persian Gate (330 BCE), after Henry Speck (Livius.org)."
+bbox: [51.77048, 30.43795, 51.82288, 30.46582]
+emblem:
+  kind: battle-plan
+  works:
+    - {side: persia, path: [[51.79973, 30.44866], [51.80027, 30.45134]], width: 30, id: wall, name: Ariobarzanes’s wall across the narrows}
+    - {side: persia, path: [[51.80438, 30.4429], [51.80691, 30.45537], [51.81923, 30.45349], [51.81669, 30.44101], [51.80438, 30.4429]], width: 25, style: trench, id: persian-camp, name: 'The Persian camp and its trench, at the head of the pass'}
+  units:
+    - {side: macedon, type: camp, at: [51.74305, 30.45872], width: 400, depth: 400, facing: 100, id: macedonian-camp, name: The Macedonian camp at Mullah Susan}
+    - {side: macedon, type: pikes, at: [51.78922, 30.45165], width: 200, depth: 1800, facing: 100, id: column, name: 'Macedonian infantry under Alexander, halted in the narrows'}
+    - {side: persia, type: light, at: [51.78802, 30.44834], width: 1800, depth: 100, facing: 10, id: heights, name: Persian troops on the heights over the gorge}
+    - {side: persia, type: light, at: [51.7894, 30.45511], width: 1800, depth: 100, facing: 190, id: heights, name: Persian troops on the heights over the gorge}
+    - {side: persia, type: infantry, at: [51.80092, 30.44986], width: 280, depth: 100, facing: 280, id: garrison, name: Persian troops at the wall}
+    - {side: persia, type: siege, at: [51.80281, 30.44819], width: 200, depth: 70, facing: 280, id: engines, name: Persian engines of war on the higher ground}
+    - {side: persia, type: infantry, at: [51.80361, 30.4511], width: 220, depth: 90, facing: 280, id: advance-guard, name: Persian advance guard on the crest}
+    - {side: persia, type: infantry, at: [51.81059, 30.44746], width: 900, depth: 300, facing: 280, id: main-body, name: Ariobarzanes’s main body in the camp}
+    - {side: persia, type: cavalry, at: [51.81497, 30.44817], width: 500, depth: 200, facing: 280, id: persian-cavalry, name: 'Ariobarzanes’s cavalry, 700 (Arrian) or 300 (Diodorus)'}
+  arrows:
+    - {side: macedon, path: [[51.74561, 30.45833], [51.76921, 30.45471], [51.79815, 30.45028]], width: 120, id: advance, name: Alexander leads the army up the gorge to the wall}
+    - {side: persia, path: [[51.79213, 30.44771], [51.79267, 30.45039]], width: 220, id: missiles-left, name: 'Boulders, sling stones and arrows from the heights', style: fire}
+    - {side: persia, path: [[51.78529, 30.45574], [51.78475, 30.45307]], width: 220, id: missiles-right, name: 'Boulders, sling stones and arrows from the heights', style: fire}
+    - {side: macedon, path: [[51.79721, 30.4519], [51.76958, 30.45649], [51.74583, 30.45939]], width: 100, id: retreat, name: 'The army falls back 30 stades to its camp, leaving its dead', style: dashed}
+  clashes:
+    - {at: [51.79908, 30.45014], size: 180}
+markers: [persian-gate-assault-alexander, persian-gate-assault-ariobarzanes, persian-gate-assault-camp, persian-gate-assault-wall]

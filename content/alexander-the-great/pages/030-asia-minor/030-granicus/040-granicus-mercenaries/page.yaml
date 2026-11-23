@@ -1,0 +1,31 @@
+date: "May 334 BC"
+title: "The mercenaries cut down"
+zones: []
+sources:
+  - "Arrian, Anabasis of Alexander, book 1, 16 (tr. E. J. Chinnock)."
+  - "Plutarch, Life of Alexander, 16 (tr. B. Perrin)."
+  - "Diodorus Siculus, Library of History, book 17, 21 (tr. C. B. Welles)."
+  - "A. B. Bosworth, Conquest and Empire: The Reign of Alexander the Great (1988), ch. 2.III."
+bbox: [27.26841, 40.30344, 27.31338, 40.34751]
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[27.27508, 40.29363], [27.27867, 40.30509], [27.2811, 40.3167], [27.28341, 40.32833], [27.28688, 40.3398], [27.29001, 40.35132]], width: 60, id: granicus, name: The river Granicus}
+  units:
+    - {side: macedon, type: cavalry, at: [27.30093, 40.31971], width: 400, depth: 150, facing: 10, id: companions, name: 'Companion cavalry under Philotas, with Alexander'}
+    - {side: macedon, type: cavalry, at: [27.30048, 40.31775], width: 300, depth: 80, facing: 10, id: vanguard, name: 'Vanguard under Amyntas, son of Arrhabaeus: the lancers, the Paeonians and the squadron of Socrates, son of Sathon'}
+    - {side: macedon, type: pikes, at: [27.29625, 40.32016], width: 260, depth: 200, facing: 100, id: hypaspists, name: 'Hypaspists under Nicanor, son of Parmenion'}
+    - {side: macedon, type: pikes, at: [27.29758, 40.32595], width: 800, depth: 200, facing: 100, id: phalanx-right, name: 'Phalanx, right of the centre: the battalions of Perdiccas, Coenus, Craterus and Amyntas, son of Andromenes'}
+    - {side: macedon, type: pikes, at: [27.29901, 40.33219], width: 400, depth: 200, facing: 100, id: phalanx-left, name: 'Phalanx, left of the centre, with the battalion of Meleager'}
+    - {side: macedon, type: cavalry, at: [27.30334, 40.3328], width: 400, depth: 150, facing: 190, id: thessalians, name: Thessalian cavalry under Calas}
+    - {side: macedon, type: cavalry, at: [27.30377, 40.33467], width: 300, depth: 100, facing: 190, id: allied-cavalry, name: 'Thracian cavalry and allied Greek cavalry under Philip, son of Menelaus'}
+    - {side: persia, type: pikes, at: [27.30127, 40.32637], width: 1200, depth: 300, facing: 280, id: mercenaries, name: 'Greek mercenaries in Persian pay, a little under 20,000 (Arrian), surrounded'}
+  arrows:
+    - {side: macedon, path: [[27.28946, 40.32705], [27.29654, 40.32609]], width: 220, id: phalanx-advance, name: The phalanx advances on the mercenaries}
+    - {side: macedon, path: [[27.28755, 40.31353], [27.29813, 40.31531], [27.30081, 40.31918]], width: 130, id: companions-envelop, name: Alexander’s cavalry fall on the southern flank}
+    - {side: macedon, path: [[27.29348, 40.33937], [27.3013, 40.33693], [27.30346, 40.33333]], width: 130, id: thessalians-envelop, name: Parmenion’s cavalry fall on the northern flank}
+  clashes:
+    - [27.29897, 40.32576]
+    - [27.30114, 40.3206]
+    - [27.30313, 40.33191]
+markers: [granicus-mercenaries-alexander, granicus-mercenaries-parmenion, granicus-mercenaries-mercenaries]

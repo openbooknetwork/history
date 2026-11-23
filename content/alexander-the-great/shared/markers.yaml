@@ -1,0 +1,1456 @@
+# Markers that pages switch on by id. lnglat is [longitude, latitude].
+# icon: a Lucide icon name. color: a family, or leave out for the accent colour.
+# One id has one note: a place marked again in a later section takes a new id, such as aegae-336b.
+
+# --- 010 Macedon rising, 359–336 BC ---
+pella-359:
+  lnglat: [22.5225, 40.7557]
+  icon: crown
+  color: macedon
+  label: "Pella"
+  note: "Philip's capital"
+lychnitis-358:
+  lnglat: [20.76, 41.03]
+  icon: waves
+  color: macedon
+  label: "Lake Lychnitis"
+  note: "Philip's western frontier after he beat Bardylis, 358 BC"
+amphipolis-357:
+  lnglat: [23.845, 40.822]
+  icon: castle
+  color: macedon
+  label: "Amphipolis"
+  note: "Taken by siege, 357 BC"
+philippi-356:
+  lnglat: [24.2864, 41.0131]
+  icon: landmark
+  color: macedon
+  label: "Philippi"
+  note: "Crenides, refounded with Macedonian settlers as Philippi, 356 BC"
+pangaeum-356:
+  lnglat: [24.08, 40.92]
+  icon: pickaxe
+  color: macedon
+  label: "Mount Pangaeum"
+  note: "Gold mines yielding more than 1,000 talents (Diodorus)"
+  image: philip-ii-gold-stater-c166c2
+olynthus-356:
+  lnglat: [23.354, 40.296]
+  icon: landmark
+  color: olynthus
+  label: "Olynthus"
+  note: "Head of the Chalcidian League, Philip's ally from 357/356 BC"
+crocus-field-352:
+  lnglat: [22.78, 39.2]
+  icon: swords
+  color: thessaly
+  label: "Crocus Field"
+  note: "Probable site: Philip and the Thessalians defeat Onomarchus and the Phocians, early summer 352 BC"
+philippi-348:
+  lnglat: [24.2864, 41.0131]
+  icon: landmark
+  color: macedon
+  label: "Philippi"
+  note: "Macedonian, with the coast from the Strymon to Neapolis, by 348 BC"
+olynthus-348:
+  lnglat: [23.354, 40.296]
+  icon: flame
+  color: macedon
+  label: "Olynthus"
+  note: "Taken by treachery and sacked, its people sold, 348 BC"
+  image: chalcidian-league-coin-6f0460
+mieza-342:
+  lnglat: [22.0984, 40.6307]
+  icon: book-open
+  color: macedon
+  label: "Mieza"
+  note: "Aristotle teaches Alexander in the precinct of the Nymphs, 342–340 BC"
+philippopolis-342:
+  lnglat: [24.749, 42.147]
+  icon: landmark
+  color: macedon
+  label: "Philippopolis"
+  note: "Philip's foundation in the Hebrus valley, today Plovdiv"
+thermopylae-339:
+  lnglat: [22.54, 38.8]
+  icon: mountain
+  color: greeks
+  label: "Thermopylae"
+  note: "Philip avoids the pass and takes the mountain road by Heraclea, autumn 339 BC"
+amphissa-338:
+  lnglat: [22.38, 38.53]
+  icon: castle
+  color: greeks
+  label: "Amphissa"
+  note: "Taken by Parmenion in a night attack, outflanking the allies in the passes, 338 BC"
+perinthus-340:
+  lnglat: [27.956, 40.975]
+  icon: castle
+  color: greeks
+  label: "Perinthus"
+  note: "Besieged in vain, spring 340 to spring 339 BC"
+byzantium-340:
+  lnglat: [28.977, 41.011]
+  icon: castle
+  color: greeks
+  label: "Byzantium"
+  note: "Besieged in vain, autumn 340 to spring 339 BC"
+maedi-340:
+  lnglat: [23.15, 41.85]
+  icon: flag
+  color: macedon
+  label: "Maedi"
+  note: "The people of the upper Strymon, subdued by Alexander in 340 BC; his Alexandropolis among them; no source read places it"
+elatea-339:
+  lnglat: [22.79, 38.64]
+  icon: castle
+  color: macedon
+  label: "Elatea"
+  note: "Seized by Philip, autumn 339 BC"
+chaeronea-338:
+  lnglat: [22.835, 38.485]
+  label: "Chaeronea"
+  note: "The battle, August 338 BC"
+thebes-city-338:
+  lnglat: [23.319, 38.321]
+  icon: landmark
+  color: thebes
+  label: "Thebes"
+  note: "Head of the Boeotian League, Athens's ally"
+athens-city-338:
+  lnglat: [23.7265, 37.9715]
+  icon: landmark
+  color: athens
+  label: "Athens"
+corinth-337:
+  lnglat: [22.878, 37.906]
+  icon: scroll
+  color: league
+  label: "Corinth"
+  note: "The congress makes Philip hegemon and votes war on Persia, 337 BC"
+abydus-336:
+  lnglat: [26.41, 40.188]
+  icon: anchor
+  color: macedon
+  label: "Abydus"
+  note: "The advance force lands in Asia, spring 336 BC"
+aegae-336:
+  lnglat: [22.3248, 40.4793]
+  icon: crown
+  color: macedon
+  label: "Aegae"
+  note: "Philip is killed in the theatre at his daughter's wedding, probably October 336 BC"
+
+# --- 020 Greece secured, 336–335 BC ---
+aegae-336b:
+  lnglat: [22.3248, 40.4793]
+  icon: crown
+  color: macedon
+  label: "Aegae"
+  note: "Alexander is acclaimed king by the army, 336 BC"
+thermopylae-336:
+  lnglat: [22.54, 38.80]
+  icon: scroll
+  color: league
+  label: "Thermopylae"
+  note: "The Amphictyons vote Alexander the leadership of the Greeks, winter 336–335 BC"
+corinth-336:
+  lnglat: [22.878, 37.906]
+  icon: scroll
+  color: league
+  label: "Corinth"
+  note: "The League's delegates give Alexander his father's command against Persia, winter 336–335 BC"
+  image: corinth-apollo-temple-c03cdc
+sparta-336:
+  lnglat: [22.43, 37.08]
+  icon: landmark
+  color: sparta
+  label: "Sparta"
+  note: "Refuses to follow Alexander"
+  image: sparta-theatre-taygetus-930153
+amphipolis-335:
+  lnglat: [23.845, 40.822]
+  icon: castle
+  color: macedon
+  label: "Amphipolis"
+  note: "The march north begins, spring 335 BC"
+haemus-335:
+  lnglat: [24.62, 42.78]
+  icon: mountain
+  color: thracians
+  label: "Mount Haemus (pass uncertain)"
+  note: "The free Thracians roll waggons down on the phalanx; Alexander forces the pass"
+  image: troyan-pass-8a7cc7
+lyginus-335:
+  lnglat: [24.62, 43.42]
+  icon: swords
+  color: triballi
+  label: "Lyginus (site uncertain)"
+  note: "The Triballi are beaten on the river Lyginus"
+  image: mogilanska-gold-jug-14362d
+danube-335:
+  lnglat: [24.47, 43.77]
+  icon: tent
+  color: triballi
+  label: "Danube crossing (site uncertain)"
+  note: "The camp by the river, the attack on Peuce and the night crossing"
+getic-town-335:
+  lnglat: [24.45, 43.845]
+  icon: flame
+  color: getae
+  label: "Getic town (site unknown)"
+  note: "Razed after the night crossing, 335 BC"
+  image: agighiol-helmet-34bc63
+byzantium-335:
+  lnglat: [28.977, 41.011]
+  icon: anchor
+  color: greeks
+  label: "Byzantium"
+  note: "The warships sail for the Danube, 335 BC"
+agrianians-335:
+  lnglat: [22.90, 42.35]
+  icon: flag
+  color: macedon
+  label: "Agrianians"
+  note: "Alexander's allies on the upper Strymon, where the news of the revolt reaches him"
+pelium-335:
+  lnglat: [20.95, 40.66]
+  icon: castle
+  color: illyrians
+  label: "Pelium (site uncertain)"
+  note: "Cleitus holds the fortress; Alexander breaks out, then routs the Illyrians by night"
+  image: illyrian-helmet-met-d89a20
+pelium-335b:
+  lnglat: [20.95, 40.66]
+  icon: castle
+  color: illyrians
+  label: "Pelium (site uncertain)"
+  note: "The march on Thebes begins"
+thermopylae-335:
+  lnglat: [22.54, 38.80]
+  icon: flag
+  color: league
+  label: "Thermopylae"
+  note: "Alexander passes, unknown to the Thebans, September 335 BC"
+pelinna-335:
+  lnglat: [21.93, 39.57]
+  icon: castle
+  color: thessaly
+  label: "Pelinna"
+  note: "Reached on the seventh day of the march, 335 BC"
+thebes-335:
+  lnglat: [23.328, 38.33]
+  icon: flame
+  color: thebes
+  label: "Thebes"
+  note: "The rebels besiege the Cadmeia; the city is stormed and razed, 335 BC"
+orchomenus-335:
+  lnglat: [22.98, 38.49]
+  icon: landmark
+  color: league
+  label: "Orchomenus"
+  note: "To be rebuilt, by the allies' vote"
+  image: orchomenus-treasury-minyas-bae250
+plataea-335:
+  lnglat: [23.27, 38.22]
+  icon: landmark
+  color: league
+  label: "Plataea"
+  note: "To be rebuilt, by the allies' vote"
+  image: plataea-walls-10e5d9
+
+# --- 030 Asia Minor, 336–333 BC ---
+sardis-336:
+  lnglat: [28.04, 38.49]
+  icon: landmark
+  color: persia
+  label: "Sardis"
+  note: "Seat of the satrap of Lydia; the western end of the Royal Road"
+susa-336:
+  lnglat: [48.25, 32.19]
+  icon: crown
+  color: persia
+  label: "Susa"
+  note: "Royal city of the Great King; the eastern end of the Royal Road"
+  image: susa-archers-frieze-9c8473
+hellespontine-phrygia-336:
+  lnglat: [28.3, 40.0]
+  icon: map
+  color: persia
+  label: "Hellespontine Phrygia"
+  note: "Satrapy of Arsites"
+egypt-336:
+  lnglat: [31.2, 27.0]
+  icon: map
+  color: persia
+  label: "Egypt"
+  note: "Satrapy"
+babylonia-336:
+  lnglat: [44.6, 32.4]
+  icon: map
+  color: persia
+  label: "Babylonia"
+  note: "Satrapy"
+persis-336:
+  lnglat: [52.8, 29.9]
+  icon: map
+  color: persia
+  label: "Persis"
+  note: "The Persians' homeland and satrapy"
+media-336:
+  lnglat: [49.0, 35.2]
+  icon: map
+  color: persia
+  label: "Media"
+  note: "Satrapy"
+bactria-336:
+  lnglat: [67.5, 36.8]
+  icon: map
+  color: persia
+  label: "Bactria"
+  note: "Satrapy"
+amphipolis-334:
+  lnglat: [23.845, 40.822]
+  icon: castle
+  color: macedon
+  label: "Amphipolis"
+  note: "The army passes Amphipolis on its march to the Hellespont"
+sestos-334:
+  lnglat: [26.42, 40.235]
+  icon: anchor
+  color: macedon
+  label: "Sestos"
+  note: "The crossing point on the European shore"
+hellespont-334:
+  lnglat: [26.48, 40.3]
+  icon: waves
+  label: "Hellespont"
+  note: "No more than seven stades wide between Sestos and the Asian shore (Bosworth)"
+abydus-334:
+  lnglat: [26.41, 40.188]
+  icon: anchor
+  color: macedon
+  label: "Abydus"
+  note: "Held by the advance force since 335 BC; Parmenion lands the army here"
+troy-334:
+  lnglat: [26.2389, 39.9575]
+  icon: landmark
+  color: persia
+  label: "Troy"
+  note: "Alexander honours the tombs of Achilles and the heroes and dedicates his armour to Athena"
+  image: troy-walls-7d7e45
+troy-granicus-334:
+  lnglat: [26.2389, 39.9575]
+  icon: landmark
+  color: persia
+  label: "Troy"
+  note: "Where the army sets out from the Troad"
+hellespontine-phrygia-334:
+  lnglat: [27.75, 39.85]
+  icon: map
+  color: persia
+  label: "Hellespontine Phrygia"
+  note: "The satrapy of Arsites, where the battle is fought"
+zeleia-334:
+  lnglat: [27.6, 40.3]
+  icon: tent
+  color: persia
+  label: "Zeleia"
+  note: "The satraps' camp and council, where Memnon's advice is overruled"
+granicus-334:
+  lnglat: [27.34, 40.27]
+  icon: shield
+  color: persia
+  label: "Granicus"
+  note: "The satraps' cavalry lines the east bank, the Greek mercenaries behind (Arrian)"
+dascylium-334:
+  lnglat: [28.03, 40.13]
+  icon: landmark
+  color: macedon
+  label: "Dascylium"
+  note: "Seat of the satrapy, taken by Parmenion; Calas made satrap"
+sardis-334:
+  lnglat: [28.04, 38.49]
+  icon: castle
+  color: macedon
+  label: "Sardis"
+  note: "Surrendered with its citadel and treasury by Mithrenes"
+  image: sardis-artemis-temple-f2a22d
+ephesus-334:
+  lnglat: [27.34, 37.94]
+  icon: landmark
+  color: macedon
+  label: "Ephesus"
+  note: "The oligarchy broken up, a democracy set up, the tribute given to Artemis"
+miletus-334:
+  lnglat: [27.278, 37.53]
+  icon: castle
+  color: macedon
+  label: "Miletus"
+  note: "Stormed after a short siege"
+lade-334:
+  lnglat: [27.225, 37.515]
+  icon: anchor
+  color: macedon
+  label: "Lade"
+  note: "The Greek fleet under Nicanor, the fleet commander, holds the island and the anchorage"
+  image: lade-hill-7750af
+halicarnassus-334:
+  lnglat: [27.424, 37.038]
+  icon: flame
+  color: persia
+  label: "Halicarnassus"
+  note: "Burned by its defenders and razed by Alexander; its citadels Salmacis and Arconnesus hold out"
+cos-334:
+  lnglat: [27.288, 36.893]
+  icon: anchor
+  color: persia
+  label: "Cos"
+  note: "Base of the Persian fleet"
+caria-334:
+  lnglat: [27.78, 37.31]
+  icon: map
+  color: macedon
+  label: "Caria"
+  note: "Given to Ada to rule"
+lycia-333:
+  lnglat: [29.6, 36.55]
+  icon: map
+  color: macedon
+  label: "Lycia"
+  note: "Its cities surrender"
+mount-climax-333:
+  lnglat: [30.52, 36.68]
+  icon: mountain
+  color: macedon
+  label: "Mount Climax"
+  note: "The beach below is passable only when the north wind blows"
+pamphylia-333:
+  lnglat: [31.05, 36.98]
+  icon: map
+  color: macedon
+  label: "Pamphylia"
+  image: aspendos-stater-wrestlers-5eaac3
+pisidia-333:
+  lnglat: [30.9, 37.55]
+  icon: map
+  color: persia
+  label: "Pisidia"
+  note: "Crossed in early spring 333 BC, not conquered"
+  image: sagalassos-ruins-f98efc
+celaenae-333:
+  lnglat: [30.16, 38.07]
+  icon: landmark
+  color: macedon
+  label: "Celaenae"
+  note: "Seat of the satrap of Phrygia; Antigonus made satrap"
+celaenae-gordium-333:
+  lnglat: [30.16, 38.07]
+  icon: landmark
+  color: macedon
+  label: "Celaenae"
+  note: "Where the march to Gordium sets out"
+gordium-333:
+  lnglat: [31.99, 39.65]
+  icon: crown
+  color: macedon
+  label: "Gordium"
+  note: "The wagon and its knot; the army reunited"
+  image: gordium-midas-tumulus-26c7af
+cos-333:
+  lnglat: [27.288, 36.893]
+  icon: anchor
+  color: persia
+  label: "Cos"
+  note: "Base of Memnon's fleet since the siege of Halicarnassus"
+chios-333:
+  lnglat: [26.135, 38.37]
+  icon: anchor
+  color: persia
+  label: "Chios"
+  note: "Surrendered to Memnon"
+  image: chios-tetradrachm-sphinx-4f0971
+lesbos-333:
+  lnglat: [26.2, 39.25]
+  icon: map
+  color: persia
+  label: "Lesbos"
+  note: "Antissa, Methymna, Pyrrha and Eressus go over to Memnon"
+mytilene-333:
+  lnglat: [26.555, 39.105]
+  icon: castle
+  color: persia
+  label: "Mytilene"
+  note: "Blockaded by land and sea and taken for Persia"
+  image: mytilene-harbour-b345c7
+
+# --- 040 Issus and the coast, 333–331 BC ---
+gordium-333b:
+  lnglat: [31.99, 39.65]
+  icon: flag
+  color: macedon
+  label: "Gordium"
+  note: "Alexander sets out across the plateau, early summer 333 BC"
+cilician-gates-333:
+  lnglat: [34.79, 37.28]
+  icon: mountain
+  color: macedon
+  label: "Cilician Gates"
+  note: "The guards flee, and Alexander passes at dawn"
+tarsus-333:
+  lnglat: [34.895, 36.918]
+  icon: landmark
+  color: macedon
+  label: "Tarsus"
+  note: "Saved before Arsames could burn it; Alexander falls dangerously ill"
+thapsacus-333:
+  lnglat: [38.3, 36.0]
+  icon: waves
+  color: persia
+  label: "Thapsacus (site unknown)"
+  note: "Darius crosses the Euphrates on his march north"
+babylon-333:
+  lnglat: [44.421, 32.536]
+  icon: crown
+  color: persia
+  label: "Babylon"
+  note: "Darius musters the royal army"
+sochi-333:
+  lnglat: [36.45, 36.45]
+  icon: tent
+  color: persia
+  label: "Sochi (site unknown)"
+  note: "Darius's camp in the Amik plain"
+sochi-333b:
+  lnglat: [36.45, 36.45]
+  icon: tent
+  color: persia
+  label: "Sochi (site unknown)"
+  note: "Darius leaves the plain and crosses the Amanus"
+mallus-333:
+  lnglat: [35.45, 36.66]
+  icon: castle
+  color: macedon
+  label: "Mallus (site uncertain)"
+  note: "Alexander learns that Darius is camped at Sochi"
+issus-333:
+  lnglat: [36.21, 36.86]
+  icon: flame
+  color: persia
+  label: "Issus"
+  note: "Darius kills the Macedonian sick left there"
+myriandrus-333:
+  lnglat: [36.15, 36.55]
+  icon: tent
+  color: macedon
+  label: "Myriandrus (site unknown)"
+  note: "Alexander's camp when the news comes"
+amanian-gates-333:
+  lnglat: [36.145, 37.06]
+  icon: mountain
+  color: persia
+  label: "Amanian Gates"
+  note: "Darius comes down behind Alexander"
+pinarus-333:
+  lnglat: [36.245, 36.782]
+  icon: waves
+  label: "Pinarus (site unknown)"
+  note: "The battle, November 333 BC; drawn at the Kuru Çay"
+darius-camp-333:
+  lnglat: [36.2267, 36.7995]
+  icon: tent
+  color: macedon
+  label: "Darius's camp"
+  note: "His mother, wife, infant son and two daughters are taken"
+thapsacus-333b:
+  lnglat: [38.3, 36.0]
+  icon: waves
+  color: persia
+  label: "Thapsacus (site unknown)"
+  note: "Darius crosses back over the Euphrates with about 4,000 men"
+damascus-333:
+  lnglat: [36.29, 33.51]
+  icon: landmark
+  color: macedon
+  label: "Damascus"
+  note: "Parmenion seizes the treasure and the Persian women"
+marathus-333:
+  lnglat: [35.905, 34.84]
+  icon: scroll
+  color: macedon
+  label: "Marathus"
+  note: "Darius's letter asks for his family, and Alexander refuses"
+aradus-333:
+  lnglat: [35.858, 34.856]
+  icon: anchor
+  color: macedon
+  label: "Aradus"
+  note: "The island city surrenders with Marathus, opposite"
+byblus-333:
+  lnglat: [35.646, 34.12]
+  icon: anchor
+  color: macedon
+  label: "Byblus"
+  note: "Surrenders as Alexander marches south"
+sidon-333:
+  lnglat: [35.37, 33.56]
+  icon: anchor
+  color: macedon
+  label: "Sidon"
+  note: "Invites Alexander in"
+sidon-332:
+  lnglat: [35.37, 33.56]
+  icon: anchor
+  color: macedon
+  label: "Sidon"
+  note: "The Phoenician and Cypriot fleets gather here, 332 BC"
+old-tyre-332:
+  lnglat: [35.225, 33.245]
+  icon: pickaxe
+  color: macedon
+  label: "Old Tyre"
+  note: "Demolished for the fill of the mole"
+tyre-332:
+  lnglat: [35.193, 33.271]
+  icon: castle
+  color: tyre
+  label: "Tyre"
+  note: "The island city, besieged for seven months and stormed in July or August 332 BC"
+tyre-332b:
+  lnglat: [35.193, 33.271]
+  icon: castle
+  color: macedon
+  label: "Tyre"
+  note: "Taken, cleared and resettled with a garrison"
+gaza-332:
+  lnglat: [34.466, 31.504]
+  icon: castle
+  color: macedon
+  label: "Gaza"
+  note: "Batis holds out for two months; Alexander is wounded; the walls are mined and stormed"
+gaza-332b:
+  lnglat: [34.466, 31.504]
+  icon: flag
+  color: macedon
+  label: "Gaza"
+  note: "Alexander sets out for Egypt, late 332 BC"
+pelusium-332:
+  lnglat: [32.55, 31.04]
+  icon: anchor
+  color: macedon
+  label: "Pelusium"
+  note: "The fleet is in harbour, and the Egyptians welcome Alexander"
+heliopolis-332:
+  lnglat: [31.31, 30.13]
+  icon: landmark
+  color: macedon
+  label: "Heliopolis"
+  note: "The army marches by Heliopolis, then crosses to Memphis"
+memphis-332:
+  lnglat: [31.255, 29.849]
+  icon: crown
+  color: macedon
+  label: "Memphis"
+  note: "Mazaces surrenders the city and its treasury, and Alexander sacrifices to Apis"
+alexandria-331:
+  lnglat: [29.92, 31.2]
+  icon: landmark
+  color: macedon
+  label: "Alexandria"
+  note: "Founded between Lake Mareotis and the sea, opposite Pharos"
+pharos-331:
+  lnglat: [29.885, 31.2]
+  icon: anchor
+  color: macedon
+  label: "Pharos"
+  note: "The island opposite the site of the new city"
+mareotis-331:
+  lnglat: [29.98, 31.0]
+  icon: waves
+  color: macedon
+  label: "Lake Mareotis"
+  note: "Alexander sails round the lake"
+canopus-331:
+  lnglat: [30.065, 31.295]
+  icon: landmark
+  color: macedon
+  label: "Canopus"
+  note: "Alexander sails down the Nile from Memphis to Canopus, early 331 BC"
+paraetonium-331:
+  lnglat: [27.24, 31.355]
+  icon: anchor
+  color: macedon
+  label: "Paraetonium"
+  note: "The road turns inland to the oasis"
+siwa-331:
+  lnglat: [25.55, 29.21]
+  icon: landmark
+  color: macedon
+  label: "Siwa"
+  note: "The oracle of Ammon, where Alexander consults the god alone"
+memphis-331:
+  lnglat: [31.255, 29.849]
+  icon: crown
+  color: macedon
+  label: "Memphis"
+  note: "Back from Siwa, he sacrifices to Zeus the King and settles Egypt"
+
+# --- 050 Gaugamela and Persia, 331–330 BC ---
+memphis-331b:
+  lnglat: [31.255, 29.849]
+  icon: crown
+  color: macedon
+  label: "Memphis"
+  note: "Alexander leaves Egypt, spring 331 BC"
+tyre-331:
+  lnglat: [35.193, 33.271]
+  icon: castle
+  color: macedon
+  label: "Tyre"
+  note: "Alexander's base in summer 331 BC, where the Athenian envoys reach him"
+thapsacus-331:
+  lnglat: [38.3, 36.0]
+  icon: waves
+  color: persia
+  label: "Thapsacus (site unknown)"
+  note: "Two bridges over the Euphrates; Mazaeus withdraws and Alexander crosses, summer 331 BC"
+tigris-crossing-331:
+  lnglat: [43.05, 36.5]
+  icon: waves
+  color: persia
+  label: "Tigris crossing"
+  note: "Alexander fords the Tigris unopposed; the eclipse of 20 September 331 BC"
+babylon-331:
+  lnglat: [44.421, 32.536]
+  icon: crown
+  color: persia
+  label: "Babylon"
+  note: "Darius musters the army of the empire"
+arbela-331:
+  lnglat: [44.01, 36.19]
+  icon: tent
+  color: persia
+  label: "Arbela"
+  note: "Darius's base and baggage, 600 stades from the field"
+gaugamela-331b:
+  lnglat: [43.44, 36.56]
+  icon: swords
+  label: "Gaugamela"
+  note: "The battlefield, 1 October 331 BC"
+arbela-331b:
+  lnglat: [44.01, 36.19]
+  icon: tent
+  color: macedon
+  label: "Arbela"
+  note: "Darius's treasure, chariot and bow taken the day after the battle"
+babylon-331b:
+  lnglat: [44.421, 32.536]
+  icon: crown
+  color: macedon
+  label: "Babylon"
+  note: "The city opens its gates in late October 331 BC; Mazaeus is made its satrap"
+susa-331:
+  lnglat: [48.26, 32.19]
+  icon: crown
+  color: macedon
+  label: "Susa"
+  note: "Surrendered after Gaugamela by its satrap Abulites; Alexander takes over the treasury, December 331 BC"
+ecbatana-331:
+  lnglat: [48.52, 34.8]
+  icon: crown
+  color: persia
+  label: "Ecbatana"
+  note: "Darius winters in the Median capital"
+susa-331b:
+  lnglat: [48.26, 32.19]
+  icon: crown
+  color: macedon
+  label: "Susa"
+  note: "Alexander sets out for Persis, late December 331 BC"
+uxian-defile-331:
+  lnglat: [49.9, 31.8]
+  icon: mountain
+  label: "Uxian defile (site uncertain)"
+  note: "The mountain Uxians, cut off by Craterus on the heights, agree a yearly tribute of horses, oxen and sheep"
+persian-gate-330:
+  lnglat: [51.8, 30.45]
+  icon: mountain
+  color: persia
+  label: "Persian Gate (site disputed)"
+  note: "Ariobarzanes's wall across the defile"
+persepolis-330:
+  lnglat: [52.89, 29.93]
+  icon: crown
+  color: persia
+  label: "Persepolis"
+  note: "The goal of the march"
+persian-gate-330b:
+  lnglat: [51.8, 30.45]
+  icon: mountain
+  color: macedon
+  label: "Persian Gate (site disputed)"
+  note: "Ariobarzanes defeated, January 330 BC"
+persepolis-330b:
+  lnglat: [52.89, 29.93]
+  icon: flame
+  color: macedon
+  label: "Persepolis"
+  note: "Taken in January 330 BC and given to the soldiers, the palaces spared; 120,000 talents in the treasury (Diodorus); the palace burned in spring 330 BC"
+pasargadae-330:
+  lnglat: [53.17, 30.19]
+  icon: landmark
+  color: macedon
+  label: "Pasargadae"
+  note: "The treasury of Cyrus seized"
+  image: pasargadae-tomb-of-cyrus-8ad98c
+susa-330:
+  lnglat: [48.26, 32.19]
+  icon: crown
+  color: macedon
+  label: "Susa"
+  note: "Bullion from Persepolis deposited"
+megalopolis-330:
+  lnglat: [22.13, 37.4]
+  icon: castle
+  color: league
+  label: "Megalopolis"
+  note: "Besieged by Agis III; the battle near the city, early 330 BC"
+sparta-330:
+  lnglat: [22.43, 37.07]
+  icon: landmark
+  color: sparta
+  label: "Sparta"
+  note: "Agis III's city; it gives fifty hostages after the defeat"
+corinth-330:
+  lnglat: [22.88, 37.91]
+  icon: scroll
+  color: league
+  label: "Corinth"
+  note: "The council of the League debates the peace and refers the Spartans to Alexander"
+persepolis-330c:
+  lnglat: [52.89, 29.93]
+  icon: crown
+  color: macedon
+  label: "Persepolis"
+  note: "Alexander leaves in May 330 BC"
+ecbatana-330:
+  lnglat: [48.52, 34.8]
+  icon: crown
+  color: macedon
+  label: "Ecbatana"
+  note: "Darius leaves it for the Caspian Gates; Parmenion holds it with the treasure of Persis; in Arrian's account the Greek allies are sent home to the sea from here"
+rhagae-330:
+  lnglat: [51.43, 35.59]
+  icon: tent
+  color: macedon
+  label: "Rhagae"
+  note: "Alexander rests five days after eleven days' march (Arrian)"
+caspian-gates-330:
+  lnglat: [52.0, 35.4]
+  icon: mountain
+  color: macedon
+  label: "Caspian Gates (site uncertain)"
+  note: "The defiles between Media and Parthia, found undefended"
+hecatompylus-330:
+  lnglat: [54.05, 35.95]
+  icon: skull
+  color: persia
+  label: "Hecatompylus"
+  note: "Darius is stabbed by his captors a little short of the city and dies, July or August 330 BC (Arrian; Bosworth)"
+
+# --- 060 Bactria and Sogdiana, 330–327 BC ---
+ecbatana-330b:
+  lnglat: [48.52, 34.8]
+  icon: skull
+  color: macedon
+  label: "Ecbatana"
+  note: "Parmenion is killed by Cleander, Sitalces and Menidas"
+zadracarta-330:
+  lnglat: [53.06, 36.56]
+  icon: flag
+  color: macedon
+  label: "Zadracarta"
+  note: "Nabarzanes, Phrataphernes, Artabazus and Darius's Greek mercenaries surrender"
+susia-330:
+  lnglat: [59.51, 36.48]
+  icon: scroll
+  color: macedon
+  label: "Susia"
+  note: "Satibarzanes submits; news comes that Bessus calls himself king"
+artacoana-330:
+  lnglat: [62.2, 34.35]
+  icon: castle
+  color: macedon
+  label: "Artacoana (site uncertain)"
+  note: "Satibarzanes revolts for Bessus and flees before Alexander"
+phrada-330:
+  lnglat: [62.11, 32.37]
+  icon: gavel
+  color: macedon
+  label: "Phrada"
+  note: "The plot against Alexander comes out; Philotas is tried and killed"
+bactra-330:
+  lnglat: [66.9, 36.76]
+  icon: crown
+  color: persia
+  label: "Bactra"
+  note: "Bessus takes the upright tiara and calls himself king"
+alexandria-caucasus-329:
+  lnglat: [69.27, 34.97]
+  icon: landmark
+  color: macedon
+  label: "Alexandria in the Caucasus"
+  note: "Founded at the foot of the Hindu Kush"
+drapsaca-329:
+  lnglat: [68.86, 36.73]
+  icon: tent
+  color: macedon
+  label: "Drapsaca"
+  note: "The army's first halt in Bactria"
+bactra-329:
+  lnglat: [66.9, 36.76]
+  icon: castle
+  color: macedon
+  label: "Bactra"
+  note: "Falls to Alexander; Artabazus made satrap"
+oxus-329:
+  lnglat: [66.9, 37.37]
+  icon: waves
+  color: macedon
+  label: "Oxus crossing (site unknown)"
+  note: "Five days to cross on tent skins stuffed with chaff"
+nautaca-329:
+  lnglat: [66.83, 39.05]
+  icon: tent
+  color: persia
+  label: "Nautaca (site uncertain)"
+  note: "Bessus withdraws here across the Oxus"
+maracanda-329:
+  lnglat: [66.97, 39.65]
+  icon: castle
+  color: sogdians
+  label: "Maracanda"
+  note: "Spitamenes besieges the Macedonian garrison in the citadel"
+maracanda-329b:
+  lnglat: [66.97, 39.65]
+  icon: castle
+  color: macedon
+  label: "Maracanda"
+  note: "The garrison holds the citadel against Spitamenes and is relieved, 329 BC"
+alexandria-eschate-329b:
+  lnglat: [69.62, 40.28]
+  icon: landmark
+  color: macedon
+  label: "Alexandria Eschate"
+  note: "The column sets out for Maracanda"
+cyropolis-329:
+  lnglat: [69.15, 40.25]
+  icon: castle
+  color: sogdians
+  label: "Cyropolis (site uncertain)"
+  note: "The largest of the seven towns, stormed; Alexander struck on the head and neck"
+bactra-329b:
+  lnglat: [66.9, 36.76]
+  icon: tent
+  color: macedon
+  label: "Bactra"
+  note: "Winter quarters; Bessus mutilated and sent to Ecbatana (Arrian)"
+maracanda-328:
+  lnglat: [66.97, 39.65]
+  icon: wine
+  color: macedon
+  label: "Maracanda"
+  note: "Alexander kills Cleitus the Black at a banquet"
+bactra-328:
+  lnglat: [66.9, 36.76]
+  icon: castle
+  color: macedon
+  label: "Bactra"
+  note: "Spitamenes's raid beaten off"
+coenus-328:
+  lnglat: [64.8, 39.8]
+  icon: swords
+  color: macedon
+  label: "Coenus defeats Spitamenes (site unknown)"
+  note: "Coenus routs Spitamenes and the Massagetae horse with him (Arrian)"
+nautaca-328:
+  lnglat: [66.83, 39.05]
+  icon: tent
+  color: macedon
+  label: "Nautaca (site uncertain)"
+  note: "Winter quarters, 328–327 BC"
+nautaca-327:
+  lnglat: [66.83, 39.05]
+  icon: tent
+  color: macedon
+  label: "Nautaca (site uncertain)"
+  note: "Alexander leaves his winter quarters, spring 327 BC (Arrian)"
+bactra-327:
+  lnglat: [66.9, 36.76]
+  icon: crown
+  color: macedon
+  label: "Bactra"
+  note: "Proskynesis tried and refused by Callisthenes; the pages' conspiracy; the army sets out for India"
+
+# --- 070 India, 327–325 BC ---
+bactra-327b:
+  lnglat: [66.9, 36.76]
+  icon: flag
+  color: macedon
+  label: "Bactra"
+  note: "Alexander sets out for India at the end of spring 327 BC"
+hindu-kush-327:
+  lnglat: [69.6, 35.55]
+  icon: mountain
+  color: macedon
+  label: "Hindu Kush"
+  note: "Crossed in ten days; the pass is not named"
+cophen-327:
+  lnglat: [70.75, 34.3]
+  icon: waves
+  color: indians
+  label: "Cophen"
+  note: "The river the army follows towards the Indus"
+bajaur-327:
+  lnglat: [71.5, 34.8]
+  icon: mountain
+  color: indians
+  label: "Bajaur"
+  note: "Hill country stormed by Alexander's column"
+swat-327:
+  lnglat: [72.25, 35.05]
+  icon: mountain
+  color: indians
+  label: "Swat"
+  note: "Hill country stormed by Alexander's column"
+massaga-327:
+  lnglat: [71.88, 34.68]
+  icon: castle
+  color: indians
+  label: "Massaga (site unknown)"
+  note: "Besieged; the Indian mercenaries surrender on terms and are cut down"
+indus-bridge-327:
+  lnglat: [72.42, 34.0]
+  icon: anchor
+  color: macedon
+  label: "Bridge on the Indus"
+  note: "Hephaestion and Perdiccas bridge the river with boats, probably near Ohind"
+indus-bridge-326:
+  lnglat: [72.42, 34.0]
+  icon: anchor
+  color: macedon
+  label: "Bridge on the Indus"
+  note: "Alexander crosses on the bridge of boats"
+aornos-327:
+  lnglat: [72.72, 34.74]
+  icon: mountain
+  color: macedon
+  label: "Aornos (site disputed)"
+  note: "The rock taken in winter 327–326 BC; drawn on Stein's Pir Sar"
+taxila-326:
+  lnglat: [72.82, 33.75]
+  icon: crown
+  color: taxila
+  label: "Taxila"
+  note: "Taxiles receives Alexander; his 5,000 Indians join the army"
+taxila-327:
+  lnglat: [72.82, 33.75]
+  icon: crown
+  color: taxila
+  label: "Taxila"
+  note: "The kingdom of Taxiles beyond the Indus"
+taxila-326b:
+  lnglat: [72.82, 33.75]
+  icon: crown
+  color: taxila
+  label: "Taxila"
+  note: "Alexander marches from here to the Hydaspes"
+hydaspes-326:
+  lnglat: [73.73, 32.93]
+  icon: waves
+  color: porus
+  label: "Hydaspes"
+  note: "Porus holds the far bank"
+hydaspes-camp-326:
+  lnglat: [73.12, 32.61]
+  icon: tent
+  color: macedon
+  label: "Alexander’s camp (site disputed)"
+  note: "Craterus holds the base camp; drawn at Stein's Haranpur"
+porus-camp-326:
+  lnglat: [73.12, 32.55]
+  icon: tent
+  color: porus
+  label: "Porus’s camp"
+  note: "His army and elephants on the far bank, directly opposite"
+bucephala-326:
+  lnglat: [73.41, 32.68]
+  icon: landmark
+  color: macedon
+  label: "Bucephala (site unknown)"
+  note: "Founded where the crossing started (Arrian), or at the base camp (Bosworth); named for Bucephalus"
+nicaea-326:
+  lnglat: [73.3, 32.57]
+  icon: landmark
+  color: macedon
+  label: "Nicaea (site unknown)"
+  note: "Founded on the battlefield"
+nicaea-326b:
+  lnglat: [73.3, 32.57]
+  icon: landmark
+  color: macedon
+  label: "Nicaea (site unknown)"
+  note: "Where the march sets out and the fleet is built"
+bucephala-326b:
+  lnglat: [73.41, 32.68]
+  icon: landmark
+  color: macedon
+  label: "Bucephala (site unknown)"
+  note: "Where the march sets out and the fleet is built"
+nicaea-326c:
+  lnglat: [73.3, 32.57]
+  icon: landmark
+  color: macedon
+  label: "Nicaea (site unknown)"
+  note: "The fleet's base"
+bucephala-326c:
+  lnglat: [73.41, 32.68]
+  icon: landmark
+  color: macedon
+  label: "Bucephala (site unknown)"
+  note: "The fleet's base"
+acesines-326:
+  lnglat: [73.92, 32.42]
+  icon: waves
+  color: porus
+  label: "Acesines"
+  note: "Crossed in flood on the march east; the fleet enters it from the Hydaspes in November 326 BC"
+hydraotes-326:
+  lnglat: [74.31, 31.62]
+  icon: waves
+  color: porus
+  label: "Hydraotes"
+  note: "Crossed on the march east"
+hyphasis-326:
+  lnglat: [75.13, 31.32]
+  icon: flag
+  color: porus
+  label: "Hyphasis"
+  note: "The army refuses to go on; twelve altars raised, their site unknown; the turn back"
+hydraotes-325:
+  lnglat: [72.31, 30.59]
+  icon: waves
+  color: indians
+  label: "Hydraotes"
+  note: "The lower river in the land of the Malli"
+mallian-town-325:
+  lnglat: [71.8, 30.42]
+  icon: castle
+  color: indians
+  label: "Mallian town (site unknown)"
+  note: "Stormed; Alexander struck in the chest by an arrow. Drawn in the land of the Malli, after Bosworth"
+arachosia-325:
+  lnglat: [65.7, 31.6]
+  icon: map
+  color: macedon
+  label: "Arachosia"
+  note: "Craterus's column crosses it"
+drangiana-325:
+  lnglat: [61.9, 31.0]
+  icon: map
+  color: macedon
+  label: "Drangiana"
+  note: "Craterus's column crosses it"
+carmania-325:
+  lnglat: [57.6, 28.8]
+  icon: map
+  label: "Carmania"
+  note: "Where Craterus is to meet Alexander"
+indus-325:
+  lnglat: [69.03, 28.0]
+  icon: waves
+  color: macedon
+  label: "Indus"
+  note: "The fleet descends the river and subdues the peoples of its lower course"
+patala-325:
+  lnglat: [68.75, 25.88]
+  icon: anchor
+  color: macedon
+  label: "Patala"
+  note: "Found deserted and made a base; generally identified with Bahmanabad"
+indian-ocean-325:
+  lnglat: [67.1, 24.3]
+  icon: waves
+  color: macedon
+  label: "Indian Ocean"
+  note: "Alexander sails out beyond the mouth of the Indus and sacrifices to Poseidon"
+
+# --- 080 The long road home, 325–323 BC ---
+patala-325b:
+  lnglat: [68.75, 25.88]
+  icon: anchor
+  color: macedon
+  label: "Patala"
+  note: "The army sets out west, summer 325 BC"
+patala-325c:
+  lnglat: [68.75, 25.88]
+  icon: anchor
+  color: macedon
+  label: "Patala"
+  note: "Nearchus's fleet sets out, autumn 325 BC"
+ora-325:
+  lnglat: [66.32, 26.1]
+  icon: tent
+  color: macedon
+  label: "Ora"
+  note: "Leonnatus is left behind with a force; the desert march begins, 325 BC"
+  image: hab-river-las-1870s-8a307e
+gedrosia-coast-325:
+  lnglat: [63.48, 25.29]
+  icon: waves
+  color: macedon
+  label: "Gedrosian coast"
+  note: "The army finds fresh water under the shingle and marches seven days along the shore"
+pura-325:
+  lnglat: [60.69, 27.2]
+  icon: landmark
+  color: macedon
+  label: "Pura"
+  note: "Capital of Gedrosia, reached sixty days after Ora; perhaps Iranshahr (Bosworth)"
+pura-325b:
+  lnglat: [60.69, 27.2]
+  icon: landmark
+  color: macedon
+  label: "Pura"
+  note: "Alexander rests the army here, then marches into Carmania"
+harmozeia-325:
+  lnglat: [56.98, 27.08]
+  icon: anchor
+  color: macedon
+  label: "Harmozeia"
+  note: "Nearchus's fleet lands on the coast of Carmania, winter 325–324 BC"
+harmozeia-325b:
+  lnglat: [56.98, 27.08]
+  icon: anchor
+  color: macedon
+  label: "Harmozeia"
+  note: "Nearchus's fleet sails on for Susiana"
+salmus-325:
+  lnglat: [57.62, 27.95]
+  icon: tent
+  color: macedon
+  label: "Salmus (site unknown)"
+  note: "Alexander meets Nearchus; site unknown, placed after Bosworth"
+salmus-325b:
+  lnglat: [57.62, 27.95]
+  icon: tent
+  color: macedon
+  label: "Salmus (site unknown)"
+  note: "Alexander leaves for Persis, winter 325–324 BC"
+persepolis-324:
+  lnglat: [52.89, 29.93]
+  icon: crown
+  color: macedon
+  label: "Persepolis"
+  note: "Hephaestion brings the main army here, early 324 BC"
+susa-324:
+  lnglat: [48.26, 32.19]
+  icon: crown
+  color: macedon
+  label: "Susa"
+  note: "The Susa weddings, spring 324 BC"
+susa-324b:
+  lnglat: [48.26, 32.19]
+  icon: crown
+  color: macedon
+  label: "Susa"
+  note: "Alexander sails down the river to the sea, spring 324 BC"
+opis-324:
+  lnglat: [44.55, 33.15]
+  icon: flag
+  color: macedon
+  label: "Opis (site uncertain)"
+  note: "The mutiny and the feast of reconciliation, summer 324 BC"
+opis-324b:
+  lnglat: [44.55, 33.15]
+  icon: flag
+  color: macedon
+  label: "Opis (site uncertain)"
+  note: "The court leaves for the Zagros, summer 324 BC"
+ecbatana-324:
+  lnglat: [48.52, 34.8]
+  icon: skull
+  color: macedon
+  label: "Ecbatana"
+  note: "Hephaestion dies, autumn 324 BC"
+ecbatana-323:
+  lnglat: [48.52, 34.8]
+  icon: crown
+  color: macedon
+  label: "Ecbatana"
+  note: "The court leaves for Babylon, early 323 BC"
+babylon-324:
+  lnglat: [44.421, 32.536]
+  icon: flame
+  color: macedon
+  label: "Babylon"
+  note: "Hephaestion's body is brought here for his funeral pyre"
+babylon-323:
+  lnglat: [44.421, 32.536]
+  icon: crown
+  color: macedon
+  label: "Babylon"
+  note: "Alexander dies, June 323 BC"
+  image: babylon-old-city-2022-5b5281
+thapsacus-323:
+  lnglat: [38.3, 36.0]
+  icon: anchor
+  color: macedon
+  label: "Thapsacus (site unknown)"
+  note: "Warships carried in sections from Phoenicia are put together for the Euphrates"
+arabia-323:
+  lnglat: [49.3, 26.8]
+  icon: map
+  label: "Arabia"
+  note: "The goal of the fleet readied at Babylon"
+
+# --- 090 Legacy, 323–301 BC ---
+babylon-323b:
+  lnglat: [44.421, 32.536]
+  icon: crown
+  color: macedon
+  label: "Babylon"
+  note: "Where Alexander died and the army made the settlement, June 323 BC"
+hellespontine-phrygia-323:
+  lnglat: [28.4, 39.9]
+  icon: map
+  color: macedon
+  label: "Hellespontine Phrygia"
+  note: "Leonnatus's satrapy"
+cilicia-323:
+  lnglat: [34.6, 37.0]
+  icon: map
+  color: macedon
+  label: "Cilicia"
+  note: "The satrapy of Philotas"
+syria-323:
+  lnglat: [37.0, 35.0]
+  icon: map
+  color: macedon
+  label: "Syria"
+  note: "Laomedon's satrapy"
+media-323:
+  lnglat: [48.5, 34.3]
+  icon: map
+  color: macedon
+  label: "Media"
+  note: "Peithon's satrapy"
+lamia-323:
+  lnglat: [22.43, 38.9]
+  icon: castle
+  color: macedon
+  label: "Lamia"
+  note: "Leosthenes besieges Antipater here from late 323 BC and is killed"
+thermopylae-323:
+  lnglat: [22.54, 38.8]
+  icon: mountain
+  color: greeks
+  label: "Thermopylae"
+  note: "The pass Leosthenes holds"
+athens-322:
+  lnglat: [23.727, 37.97]
+  icon: landmark
+  color: greeks
+  label: "Athens"
+  note: "Accepts Antipater's terms and a Macedonian garrison in Munychia, 322 BC"
+pelusium-320:
+  lnglat: [32.55, 31.04]
+  icon: tent
+  color: ptolemaic
+  label: "Pelusium"
+  note: "Perdiccas camps here at the Nile"
+memphis-320:
+  lnglat: [31.255, 29.849]
+  icon: landmark
+  color: ptolemaic
+  label: "Memphis"
+  note: "Perdiccas's crossing opposite the city fails, and his officers kill him"
+persepolis-316:
+  lnglat: [52.89, 29.93]
+  icon: crown
+  color: antigonus
+  label: "Persepolis"
+  note: "The Persians treat Antigonus as king"
+babylon-315:
+  lnglat: [44.421, 32.536]
+  icon: crown
+  color: antigonus
+  label: "Babylon"
+  note: "Seleucus flees from here to Ptolemy, 315 BC"
+gaza-312:
+  lnglat: [34.45, 31.5]
+  icon: swords
+  label: "Gaza"
+  note: "Ptolemy and Seleucus beat Demetrius, 312 BC"
+babylon-312:
+  lnglat: [44.421, 32.536]
+  icon: crown
+  color: seleucid
+  label: "Babylon"
+  note: "Regained by Seleucus, 312 BC"
+antigonia-306:
+  lnglat: [36.25, 36.25]
+  icon: landmark
+  color: antigonus
+  label: "Antigonia on the Orontes (site unknown)"
+  note: "Founded by Antigonus to watch Babylon and the upper satrapies"
+salamis-306:
+  lnglat: [33.9, 35.18]
+  icon: anchor
+  color: antigonus
+  label: "Salamis"
+  note: "Demetrius wins here in 306 BC"
+tyre-301:
+  lnglat: [35.195, 33.27]
+  icon: anchor
+  label: "Tyre"
+  note: "Held by Demetrius after Ipsus (Tarn)"
+sidon-301:
+  lnglat: [35.37, 33.56]
+  icon: anchor
+  label: "Sidon"
+  note: "Held by Demetrius (Tarn); Ptolemy occupies the land as far as Sidon, winter 302–301 BC (Bosworth)"
+alexandria-301:
+  lnglat: [29.92, 31.2]
+  icon: landmark
+  color: ptolemaic
+  label: "Alexandria"
+  note: "Alexander's Greek city in Egypt"
+alexandria-areia-301:
+  lnglat: [62.2, 34.35]
+  icon: landmark
+  color: seleucid
+  label: "Alexandria in Areia (today Herat)"
+  note: "A garrison foundation of 330 BC"
+alexandria-arachosia-301:
+  lnglat: [65.7, 31.62]
+  icon: landmark
+  label: "Alexandria in Arachosia"
+  note: "Alexander's foundation; perhaps Kandahar (Bosworth)"
+alexandria-caucasus-301:
+  lnglat: [69.27, 34.97]
+  icon: landmark
+  label: "Alexandria in the Caucasus (near Begram)"
+  note: "Alexander's foundation in the Hindu Kush"
+alexandria-eschate-301:
+  lnglat: [69.62, 40.28]
+  icon: landmark
+  color: seleucid
+  label: "Alexandria Eschate (today Khujand)"
+  note: "Alexander's city on the Jaxartes"
+alexandria-troas-301:
+  lnglat: [26.16, 39.75]
+  icon: landmark
+  color: lysimachus
+  label: "Alexandria Troas"
+  note: "A Successors' foundation, refounded by Lysimachus"

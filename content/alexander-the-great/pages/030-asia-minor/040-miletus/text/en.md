@@ -1,0 +1,11 @@
+After the Granicus no Persian army is left in the field in western Asia Minor, and in summer 334 BC its provinces fall to Alexander one after another. He makes Calas, a Macedonian officer, satrap of Hellespontine Phrygia in Arsites's place. Parmenion occupies the satrap's seat at [Dascylium](@dascylium-334), which its garrison has abandoned. Alexander marches south to [Sardis](@sardis-334), the capital of Lydia. On the road the Persian commander Mithrenes meets him and hands over the citadel and its treasury without a fight. At [Ephesus](@ephesus-334) Alexander brings back the exiles, replaces the oligarchy with a democracy and gives the temple of Artemis the tribute the city paid to Persia. According to Arrian, he then sends an officer with troops to the Aeolian and Ionian cities still held by Persian garrisons, with orders to set up democracies and remit their tribute. Bosworth stresses that this was no promise to every Greek city: elsewhere freedom did not always bring an end to tribute.
+
+@image ephesus-artemision-site-19f965
+
+At Miletus the garrison commander, Hegesistratus, has offered to surrender, but he changes his mind when he hears that the Persian fleet is close. Alexander's fleet arrives three days ahead of it: by Arrian's count, 160 ships under Nicanor, the fleet commander. The ships anchor at the island of [Lade](@lade-334) off the city, and Alexander lands troops on the island. The Persian fleet, about 400 ships according to Arrian, finds the anchorage taken and moors under a mountain across the bay. Alexander refuses a sea battle. His siege engines break down part of the wall, his triremes block the harbour mouth, and the city is stormed. Most of the defenders are killed. About 300 Greek mercenaries who escape to an islet are taken into Alexander's service.
+
+Soon afterwards Alexander disbands his fleet, keeping only a few ships for transport.\*
+
+### Notes
+
+\* Arrian gives his reasons: he is short of money, his ships are no match for the Persian fleet, and he means to defeat that fleet from the land by taking the ports it needs. Diodorus reports that others saw a different aim: to take away from the army any hope of escape, so that it would fight harder against Darius.

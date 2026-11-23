@@ -1,0 +1,21 @@
+lnglat: [43.44, 36.56]
+name: "Battle of Gaugamela"
+date: "1 October 331 BC"
+result: "Macedonian victory; Darius flees into Media"
+source: https://en.wikipedia.org/wiki/Battle_of_Gaugamela
+images: [gaugamela-ivory-relief-darius-3ce4ee, mazaios-stater-tarsus-563eec]
+default_language: en
+families:
+  macedon: { color: "#2e8b57", color_dark: "#5fcf8f" }
+  persia: { color: "#a8323e", color_dark: "#e0606c" }
+sides:
+  - name: "Macedon"
+    color: macedon
+    commanders: ["Alexander", "Parmenion"]
+    strength: "Arrian: 7,000 horse and about 40,000 foot"
+    casualties: "Arrian: about 100 killed and more than 1,000 horses lost. Diodorus: about 500 killed. Curtius: fewer than 300"
+  - name: "Persian Empire"
+    color: persia
+    commanders: ["Darius III", "Bessus", "Mazaeus"]
+    strength: "Arrian: 40,000 horse, 1,000,000 foot, 200 scythed chariots and about 15 elephants. Diodorus: 800,000 foot and at least 200,000 horse. Curtius: 45,000 horse and 200,000 foot"
+    casualties: "Arrian: about 300,000 killed and more taken. Diodorus: more than 90,000 killed. Curtius: 40,000"

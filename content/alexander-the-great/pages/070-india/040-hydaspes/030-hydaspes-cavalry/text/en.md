@@ -1,0 +1,11 @@
+[Porus](@hydaspes-cavalry-porus), king of the land beyond the Hydaspes, hears that Alexander is across and his son is dead. He leaves a few elephants at his camp to keep Craterus from crossing and marches upstream with the rest of his army. He draws up on firm sandy ground, good for cavalry. His elephants stand in one line in front, with the infantry close behind them. The cavalry, screened by chariots, holds both wings, outside further bodies of foot.\* Porus rides on the largest elephant.
+
+Alexander halts his cavalry until the foot comes up and lets it rest. He will not attack the centre and its elephants. Instead he leads most of the horse against the Indian left and sends [Coenus](@hydaspes-cavalry-coenus) with two cavalry regiments towards the right, with orders to fall on the Indian horse from behind once it rides out. The foot, under [Seleucus, Antigenes and Tauron](@hydaspes-cavalry-foot), is to wait until the Indian line is in disorder. Seleucus, one of the Companions, leads the royal hypaspists; Arrian notes that he later became a king.
+
+Within range of missiles, 1,000 horse archers shoot into the Indian left. [Alexander](@hydaspes-cavalry-alexander) leads the Companion cavalry along the front to take it in the flank. The Indians gather their cavalry from all parts to meet him, and Coenus appears in their rear. Forced to face both ways, the Indian horsemen break before Alexander's charge and fall back on the elephants, "as to a friendly wall", in Arrian's words. Diodorus says that the Macedonian cavalry put almost all the [chariots](@hydaspes-cavalry-chariots) out of action.
+
+The sources do not give where on the plain the two armies stood. Arrian says that the Indian cavalry rode to meet Alexander; Bosworth takes its route to have run behind the Indian line.
+
+### Notes
+
+\* Arrian gives Porus 4,000 horse, 300 chariots, 200 elephants and 30,000 picked foot, with the elephants not less than a plethrum, about 30 m, apart. Diodorus gives more than 50,000 foot, about 3,000 horse, more than 1,000 chariots and 130 elephants, Curtius 85 elephants, 300 chariots and about 30,000 foot, and Plutarch 20,000 foot and 2,000 horse. Bosworth calls Arrian's 200 elephants a blatant exaggeration, since Alexander was able to surround Porus's whole line.

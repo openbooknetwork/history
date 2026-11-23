@@ -1,0 +1,18 @@
+lnglat: [51.8, 30.45]
+name: "Battle of the Persian Gate"
+date: "January 330 BC"
+result: "Macedonian victory; the road to Persepolis opens"
+source: https://en.wikipedia.org/wiki/Battle_of_the_Persian_Gate
+images: [abbott-persian-gate-1849-23146e, persepolis-persian-soldiers-9a57c7]
+default_language: en
+families:
+  macedon: { color: "#2e8b57", color_dark: "#5fcf8f" }
+  persia: { color: "#a8323e", color_dark: "#e0606c" }
+sides:
+  - name: "Macedon"
+    color: macedon
+    commanders: ["Alexander", "Craterus", "Philotas", "Ptolemy"]
+  - name: "Persian Empire"
+    color: persia
+    commanders: ["Ariobarzanes"]
+    strength: "Arrian: 40,000 foot and 700 horse. Diodorus: 25,000 foot and 300 horse. Curtius: 25,000 foot"

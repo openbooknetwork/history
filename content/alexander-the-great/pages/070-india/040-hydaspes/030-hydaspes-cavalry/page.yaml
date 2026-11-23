@@ -1,0 +1,42 @@
+date: "May 326 BC"
+title: "The cavalry on the Indian left"
+zones: []
+sources:
+  - "Arrian, Anabasis of Alexander, book 5, 15 to 17."
+  - "Diodorus Siculus, Library of History, book 17, 87 to 88."
+  - "Quintus Curtius Rufus, History of Alexander, book 8, 13 to 14."
+  - "Plutarch, Life of Alexander, 62."
+  - "A. B. Bosworth, Conquest and Empire: The Reign of Alexander the Great (1988), ch. 2.XV."
+  - "A. B. Bosworth, A Historical Commentary on Arrian’s History of Alexander, vol. 2 (1995), on 5.15 to 17."
+bbox: [73.33356, 32.58375, 73.36472, 32.62119]
+emblem:
+  kind: battle-plan
+  water:
+    - {area: [[73.43981, 32.6604], [73.43466, 32.65923], [73.42951, 32.65805], [73.42436, 32.65688], [73.41921, 32.65571], [73.41406, 32.65454], [73.40891, 32.65337], [73.40376, 32.6522], [73.39964, 32.65126], [73.40102, 32.64689], [73.40313, 32.64734], [73.40515, 32.64765], [73.40694, 32.6478], [73.40837, 32.64778], [73.40933, 32.64759], [73.40974, 32.64724], [73.40959, 32.64676], [73.40887, 32.64619], [73.40765, 32.64557], [73.40601, 32.64494], [73.40407, 32.64435], [73.40199, 32.64384], [73.40269, 32.64163], [73.40383, 32.64179], [73.40488, 32.64186], [73.40579, 32.64184], [73.4065, 32.64174], [73.40698, 32.64154], [73.40721, 32.64128], [73.40717, 32.64095], [73.40687, 32.64058], [73.40631, 32.64019], [73.40554, 32.63979], [73.40458, 32.6394], [73.4035, 32.63906], [73.40392, 32.63772], [73.40804, 32.63866], [73.41319, 32.63983], [73.41834, 32.641], [73.42349, 32.64217], [73.42864, 32.64334], [73.43379, 32.64451], [73.43894, 32.64568], [73.44409, 32.64685]], id: hydaspes, name: 'The Hydaspes, drawn on its modern course at Stein’s crossing; the islands are drawn where none can be found today'}
+    - {area: [[73.39964, 32.65126], [73.40102, 32.64689], [73.39915, 32.64639], [73.39746, 32.64583], [73.39605, 32.64525], [73.39501, 32.64468], [73.39442, 32.64416], [73.39429, 32.64373], [73.39466, 32.6434], [73.39548, 32.64321], [73.39671, 32.64316], [73.39827, 32.64325], [73.40007, 32.64348], [73.40199, 32.64384], [73.40269, 32.64163], [73.40117, 32.6413], [73.39972, 32.64088], [73.39848, 32.64038], [73.39755, 32.63987], [73.39701, 32.63937], [73.39691, 32.63894], [73.39725, 32.63861], [73.39801, 32.63841], [73.39912, 32.63835], [73.40049, 32.63845], [73.40199, 32.63869], [73.4035, 32.63906], [73.40392, 32.63772], [73.40289, 32.63749], [73.39774, 32.63632], [73.39259, 32.63515], [73.38744, 32.63397], [73.38229, 32.63281], [73.37714, 32.63164], [73.37198, 32.63048], [73.36683, 32.62931], [73.36168, 32.62815], [73.35653, 32.62698], [73.35138, 32.62582], [73.34622, 32.62465], [73.341, 32.62372], [73.33578, 32.62278], [73.33045, 32.62216], [73.32499, 32.62199], [73.31952, 32.62183], [73.31388, 32.62221], [73.3082, 32.62272], [73.3025, 32.62326], [73.29676, 32.62397], [73.29102, 32.62467], [73.28552, 32.62462], [73.28124, 32.63816], [73.28674, 32.63821], [73.29249, 32.63751], [73.29823, 32.63681], [73.30392, 32.63626], [73.3096, 32.63575], [73.31524, 32.63537], [73.32071, 32.63554], [73.32618, 32.6357], [73.3315, 32.63633], [73.33672, 32.63726], [73.34195, 32.6382], [73.3471, 32.63936], [73.35225, 32.64053], [73.3574, 32.64169], [73.36255, 32.64286], [73.36771, 32.64402], [73.37286, 32.64519], [73.37801, 32.64635], [73.38316, 32.64752], [73.38831, 32.64869], [73.39346, 32.64986], [73.39861, 32.65103]], id: hydaspes, name: 'The Hydaspes, drawn on its modern course at Stein’s crossing; the islands are drawn where none can be found today'}
+  units:
+    - {side: porus, type: chariots, at: [73.34718, 32.61358], width: 500, depth: 80, facing: 75, id: chariots, name: Indian chariots in front of the cavalry}
+    - {side: porus, type: chariots, at: [73.35408, 32.59174], width: 500, depth: 80, facing: 75, id: chariots, name: Indian chariots in front of the cavalry}
+    - {side: porus, type: cavalry, at: [73.34283, 32.60885], width: 450, depth: 250, facing: 75, id: indian-cavalry, name: 'Indian cavalry, driven back onto the elephants'}
+    - {side: porus, type: infantry, at: [73.34643, 32.60826], width: 300, depth: 250, facing: 75, id: indian-infantry, name: 'Indian infantry: the centre behind the elephants, and bodies beyond them on the wings'}
+    - {side: porus, type: infantry, at: [73.34785, 32.60203], width: 1000, depth: 250, facing: 75, id: indian-infantry, name: 'Indian infantry: the centre behind the elephants, and bodies beyond them on the wings'}
+    - {side: porus, type: infantry, at: [73.3503, 32.59603], width: 300, depth: 250, facing: 75, id: indian-infantry, name: 'Indian infantry: the centre behind the elephants, and bodies beyond them on the wings'}
+    - {side: porus, type: elephants, at: [73.34991, 32.6025], width: 1000, depth: 60, facing: 75, id: elephants, name: 'Porus’s elephants, in one line in front of the infantry', count: 16}
+    - {side: macedon, type: cavalry, at: [73.35044, 32.61479], width: 500, depth: 120, facing: 255, id: horse-archers, name: 'Saka horse archers, 1,000 (Arrian)'}
+    - {side: macedon, type: cavalry, at: [73.34205, 32.6127], width: 400, depth: 300, facing: 165, id: companions, name: 'Companion cavalry under Alexander: the royal squadron and the regiments of Hephaestion and Perdiccas'}
+    - {side: macedon, type: light, at: [73.35649, 32.60961], width: 200, depth: 150, facing: 255, id: light, name: 'Archers, Agrianians and javelin men under Tauron, on both ends of the foot'}
+    - {side: macedon, type: pikes, at: [73.35729, 32.60708], width: 230, depth: 200, facing: 255, id: hypaspists, name: 'Hypaspists, the royal hypaspists under Seleucus at their head'}
+    - {side: macedon, type: pikes, at: [73.35856, 32.60306], width: 470, depth: 200, facing: 255, id: phalanx, name: 'Phalanx battalions, Coenus’s among them, led by Antigenes'}
+    - {side: macedon, type: light, at: [73.3597, 32.59948], width: 200, depth: 150, facing: 255, id: light, name: 'Archers, Agrianians and javelin men under Tauron, on both ends of the foot'}
+    - {side: macedon, type: cavalry, at: [73.33953, 32.6081], width: 400, depth: 200, facing: 75, id: coenus, name: 'Coenus with his own cavalry regiment and that of Demetrius, son of Althaemenes'}
+  arrows:
+    - {side: macedon, path: [[73.35003, 32.6147], [73.3478, 32.61372]], width: 220, id: volleys, name: The horse archers shoot into the Indian left, style: fire}
+    - {side: macedon, path: [[73.35502, 32.60553], [73.35415, 32.61283], [73.34817, 32.61849], [73.34302, 32.61732], [73.34158, 32.61418]], width: 150, id: companions-charge, name: Alexander leads the Companions across the front and onto the flank of the Indian left}
+    - {side: porus, path: [[73.35068, 32.59097], [73.34477, 32.59571], [73.34197, 32.6035], [73.34232, 32.60695]], width: 130, id: indian-cavalry-shift, name: The Indian cavalry of the right rides behind the line to meet Alexander}
+    - {side: macedon, path: [[73.36039, 32.59552], [73.35567, 32.58601], [73.34361, 32.58749], [73.33865, 32.60181], [73.33859, 32.60723]], width: 130, id: coenus-ride, name: Coenus rides round in a wider arc and falls on their rear}
+    - {side: porus, path: [[73.34492, 32.61307], [73.34317, 32.60986]], width: 110, id: indian-cavalry-back, name: 'Caught both ways, the Indian horse falls back on the elephants', style: dashed}
+  clashes:
+    - {at: [73.3479, 32.61375], size: 200}
+    - {at: [73.34214, 32.61103], size: 250}
+    - {at: [73.34108, 32.60845], size: 220}
+markers: [hydaspes-cavalry-porus, hydaspes-cavalry-alexander, hydaspes-cavalry-coenus, hydaspes-cavalry-chariots, hydaspes-cavalry-foot]

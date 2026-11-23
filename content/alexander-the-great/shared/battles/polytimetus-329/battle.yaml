@@ -1,0 +1,19 @@
+lnglat: [65.6, 40.0]
+name: "Battle of the Polytimetus"
+date: "329 BC"
+result: "Victory of Spitamenes; the Macedonian relief column destroyed, at a site that is not known"
+source: https://en.wikipedia.org/wiki/Battle_of_Polytimetus
+images: [brindisi-krater-hoplite-scythian-4e0000, apadana-sogdian-tribute-bearers-9cbba2]
+default_language: en
+families:
+  macedon: { color: "#2e8b57", color_dark: "#5fcf8f" }
+  sogdians: { color: "#e2734a", color_dark: "#f7a07c" }
+sides:
+  - name: "Macedonian relief column"
+    color: macedon
+    commanders: ["Pharnuches", "Andromachus", "Menedemus", "Caranus"]
+    strength: "Arrian: 60 Companion cavalry, 800 mercenary horse and 1,500 mercenary foot. Curtius: 3,000 foot and 800 horse"
+    casualties: "Arrian: no more than 40 horse and 300 foot escaped. Curtius: 2,000 foot and 300 horse killed"
+  - name: "Sogdians and Scythian horse"
+    color: sogdians
+    commanders: ["Spitamenes"]

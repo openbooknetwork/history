@@ -1,0 +1,21 @@
+lnglat: [27.2811, 40.3167]
+name: "Battle of the Granicus"
+date: "May 334 BC"
+result: "Macedonian victory; Spithridates killed, Arsites kills himself"
+source: https://en.wikipedia.org/wiki/Battle_of_the_Granicus
+images: [le-brun-passage-granicus-d57b3a, altikulac-sarcophagus-horseman-e0e9e5]
+default_language: en
+families:
+  macedon: { color: "#2e8b57", color_dark: "#5fcf8f" }
+  persia: { color: "#a8323e", color_dark: "#e0606c" }
+sides:
+  - name: "Macedon"
+    color: macedon
+    commanders: ["Alexander", "Parmenion"]
+    strength: "The army that crossed to Asia. Arrian: not much above 30,000 foot and more than 5,000 horse. Diodorus: about 32,000 foot and 4,500 horse, though his totals and his list of contingents do not quite agree"
+    casualties: "Arrian: about 25 Companions, over 60 other horse and about 30 foot killed. Aristobulus, in Plutarch: 34 killed, 9 of them foot"
+  - name: "Persian Empire"
+    color: persia
+    commanders: ["Arsites", "Spithridates", "Arsames", "Memnon of Rhodes"]
+    strength: "Arrian: about 20,000 horse and a little fewer Greek mercenaries. Diodorus: more than 10,000 horse and at least 100,000 foot"
+    casualties: "Arrian: about 1,000 horse killed, the mercenaries cut down but for about 2,000 taken. Plutarch: 20,000 foot and 2,500 horse killed. Diodorus: more than 10,000 foot and at least 2,000 horse killed, more than 20,000 taken"

@@ -1,0 +1,17 @@
+lnglat: [72.72, 34.74]
+name: "Siege of Aornos"
+date: "Winter 327–326 BC"
+result: "Macedonian victory; the rock taken and garrisoned. Arrian: the defenders cut down as they slip away by night. Diodorus: they are let go. The site is disputed; the map follows Stein's Pir Sar"
+source: https://en.wikipedia.org/wiki/Siege_of_Aornos
+images: [castaigne-citadel-indus-a86144, xerxes-tomb-gandharan-dfc8ea]
+default_language: en
+families:
+  macedon: { color: "#2e8b57", color_dark: "#5fcf8f" }
+  indians: { color: "#a0461e", color_dark: "#e07a4a" }
+sides:
+  - name: "Macedon"
+    color: macedon
+    commanders: ["Alexander", "Ptolemy", "Craterus"]
+    strength: "Arrian names the units but gives no total: the archers, the Agrianians, Coenus's battalion, picked men of the phalanx, 200 Companion cavalry and 100 horse archers"
+  - name: "Indians of the region"
+    color: indians

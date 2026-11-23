@@ -1,0 +1,9 @@
+In November 326 BC the fleet sets out from [Nicaea](@nicaea-326c) and [Bucephala](@bucephala-326c) down the Hydaspes, nearly 2,000 boats in Ptolemy's count. Alexander sails with the hypaspists, the archers and the royal horse guard, while Craterus and Hephaestion march along the two banks. Diodorus says he meant to sail down to the Ocean. Where the Hydaspes joins the [Acesines](@acesines-326), the narrow, whirling channel wrecks two warships.
+
+@image trimmu-chenab-jhelum-35954c
+
+From there the fleet turns south towards the Malli. Arrian says no people of the region was larger or fiercer, and that they had sent their families into their strongest towns and were ready to fight. To catch them unprepared, Alexander leads a light force from the Acesines across waterless country, marching a day and a night, and falls on their towns. The survivors retreat over the [Hydraotes](@hydraotes-325) and at last, about 50,000 strong in Arrian's figure, shut themselves in their strongest town. The site of this Mallian town is unknown; Bosworth puts the land of the Malli probably north-east of today's Multan.
+
+The town falls at once, but the defenders hold the citadel. Alexander climbs a ladder himself. Peucestas, who bears the holy shield from Troy, follows him, with the bodyguard Leonnatus and Abreas, a soldier on double pay. The hypaspists crowd onto the ladders behind them and break them. Left on the wall with only these three, under missiles from every side, Alexander jumps down inside, and they follow. An arrow goes through his breastplate into his chest; Ptolemy wrote that air came out of the wound with the blood. Abreas is killed, and Peucestas covers the king with the shield.
+
+The Macedonians break in at last and, Arrian says, kill everyone in the citadel, women and children too. Alexander survives, and the Malli send envoys to submit.

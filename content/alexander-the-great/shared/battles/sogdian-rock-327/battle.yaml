@@ -1,0 +1,20 @@
+lnglat: [67.0, 38.25]
+name: "Siege of the Sogdian Rock"
+date: "Spring 327 BC (Arrian); summer 328 BC in Bosworth"
+result: "Macedonian victory; the rock, whose site is not known, surrenders to the \"winged men\""
+source: https://en.wikipedia.org/wiki/Siege_of_the_Sogdian_Rock
+images: [karazin-iron-gate-803821, oxus-treasure-chariot-0208f4]
+default_language: en
+families:
+  macedon: { color: "#2e8b57", color_dark: "#5fcf8f" }
+  sogdians: { color: "#e2734a", color_dark: "#f7a07c" }
+sides:
+  - name: "Macedon"
+    color: macedon
+    commanders: ["Alexander"]
+    strength: "300 climbers (Arrian and Curtius)"
+    casualties: "Arrian: 30 of the climbers fell. Curtius: 32"
+  - name: "Sogdians"
+    color: sogdians
+    commanders: ["Ariamazes"]
+    strength: "Curtius: 30,000 armed men"

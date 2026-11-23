@@ -1,0 +1,21 @@
+lnglat: [51.4, 33.2]
+images: [demetrius-bust-naples-f34786, burghers-eumenes-e47564]
+name: "Battle of Gabiene"
+date: "Winter 317–316 BC"
+result: "Victory of Antigonus; his horse takes Eumenes's baggage behind the dust of the battle, and the Silver Shields hand Eumenes over to recover their families. Antigonus has him put to death. The site is not known"
+source: https://en.wikipedia.org/wiki/Battle_of_Gabiene
+default_language: en
+families:
+  antigonus: { color: "#b5352a", color_dark: "#e8695c" }
+  eumenes: { color: "#7f8c8d", color_dark: "#aab7b8" }
+sides:
+  - name: "Antigonus"
+    color: antigonus
+    commanders: ["Antigonus", "Demetrius", "Peithon"]
+    strength: "Diodorus: 22,000 foot, 9,000 horse and 65 elephants"
+    casualties: "Diodorus: more than 5,000 foot killed by the Silver Shields"
+  - name: "Eumenes"
+    color: eumenes
+    commanders: ["Eumenes", "Antigenes", "Peucestas"]
+    strength: "Diodorus: 36,700 foot, 6,000 horse and 114 elephants"
+    casualties: "Diodorus: not one of the Silver Shields killed; the baggage taken"

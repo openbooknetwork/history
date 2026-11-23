@@ -1,0 +1,34 @@
+date: "30 September – 1 October 331 BC"
+title: "The armies deploy"
+zones: []
+sources:
+  - "Arrian, Anabasis of Alexander, book 3, 11 to 13 (tr. E. J. Chinnock)."
+  - "Quintus Curtius Rufus, History of Alexander, book 4, 12 to 13 (tr. J. C. Rolfe)."
+  - "A. B. Bosworth, Conquest and Empire: The Reign of Alexander the Great (1988), ch. 2.IX."
+  - "Diodorus Siculus, Library of History, book 17, 53 (tr. C. B. Welles)."
+  - "W. W. Tarn, Alexander the Great, vol. II: Sources and Studies (1948)."
+bbox: [43.38143, 36.52414, 43.50411, 36.58531]
+emblem:
+  kind: battle-plan
+  units:
+    - {side: macedon, type: cavalry, at: [43.44712, 36.54017], width: 700, depth: 350, facing: 135, id: right-flank-guard, name: 'Right flank guard: mercenary horse, the lancers under Aretes, the Paeonians, half the Agrianians, the archers and the old mercenaries'}
+    - {side: macedon, type: light, at: [43.44846, 36.54829], width: 560, depth: 100, facing: 45, id: screen, name: 'Javelin men, half the Agrianians and archers, facing the scythed chariots'}
+    - {side: macedon, type: cavalry, at: [43.44593, 36.54625], width: 560, depth: 350, facing: 45, id: companions, name: 'Companion cavalry, with Alexander'}
+    - {side: macedon, type: pikes, at: [43.43846, 36.55229], width: 1150, depth: 350, facing: 45, id: phalanx-right, name: 'Hypaspists under Nicanor, son of Parmenion, and the battalions of Coenus, Perdiccas, Meleager and Polyperchon'}
+    - {side: macedon, type: pikes, at: [43.43158, 36.55786], width: 400, depth: 350, facing: 45, id: phalanx-left, name: 'The battalions of Simmias and Craterus, Craterus leading the infantry of the left'}
+    - {side: macedon, type: cavalry, at: [43.42648, 36.56198], width: 700, depth: 350, facing: 45, id: left-cavalry, name: 'Parmenion with the Thessalian horse under Philip, son of Menelaus, and the allied Greek horse'}
+    - {side: macedon, type: cavalry, at: [43.41849, 36.56333], width: 700, depth: 350, facing: 315, id: left-flank-guard, name: 'Left flank guard: mercenary, Odrysian and allied horse, with Thracian infantry'}
+    - {side: macedon, type: infantry, at: [43.42972, 36.54913], width: 2400, depth: 300, facing: 45, id: reserve, name: 'Second line of Greek allied and mercenary infantry, ready to face about'}
+    - {side: persia, type: knights, at: [43.46214, 36.54593], width: 700, depth: 300, facing: 225, id: saka-bactrians, name: 'Saka and Bactrian horse, the Saka in mail, under Bessus'}
+    - {side: persia, type: chariots, at: [43.45384, 36.55072], width: 700, depth: 100, facing: 225, id: chariots-left, name: 100 scythed chariots of the Persian left}
+    - {side: persia, type: cavalry, at: [43.474, 36.54273], width: 2400, depth: 450, facing: 225, id: persian-left, name: 'Persian left under Bessus: Bactrians, Dahae, Arachosians, Persians and Susians'}
+    - {side: persia, type: infantry, at: [43.45977, 36.55744], width: 1500, depth: 1000, facing: 225, id: persian-centre, name: 'Darius’s centre: the Kinsmen, the apple-bearing guard, Greek mercenaries, Indians, Carians, Mardian archers and the levies behind'}
+    - {side: persia, type: cavalry, at: [43.4404, 36.56992], width: 2700, depth: 450, facing: 225, id: persian-right, name: 'Persian right under Mazaeus: Syrians, Mesopotamians, Medes, Parthians, Saka, Tapurians, Hyrcanians and Albanians'}
+    - {side: persia, type: cavalry, at: [43.43091, 36.57183], width: 700, depth: 300, facing: 225, id: armenians, name: 'Armenian and Cappadocian horse, with 50 scythed chariots'}
+  arrows:
+    - {side: macedon, path: [[43.44435, 36.54497], [43.44909, 36.54049], [43.45423, 36.53697]], width: 120, id: march-right, name: 'Alexander leads his army to the right, towards the edge of the levelled ground'}
+    - {side: persia, path: [[43.47598, 36.54433], [43.48112, 36.54081], [43.48468, 36.53729]], width: 120, id: persian-parallel, name: 'The Persian left keeps pace, far outflanking him'}
+    - {side: persia, path: [[43.46096, 36.54497], [43.45661, 36.54209], [43.45068, 36.53985]], width: 100, id: saka-ride, name: The Saka horse ride along the line and engage Alexander’s leading troops}
+  clashes:
+    - {at: [43.45068, 36.53985], size: 200}
+markers: [gaugamela-deploy-alexander, gaugamela-deploy-darius, gaugamela-deploy-parmenion, gaugamela-deploy-bessus, gaugamela-deploy-mazaeus, gaugamela-deploy-camp]

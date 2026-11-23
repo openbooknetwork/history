@@ -1,0 +1,34 @@
+date: "1 October 331 BC, afternoon and evening"
+title: "Parmenion's wing and the pursuit"
+zones: []
+sources:
+  - "Arrian, Anabasis of Alexander, book 3, 14 to 15 (tr. E. J. Chinnock)."
+  - "Diodorus Siculus, Library of History, book 17, 59 to 61 (tr. C. B. Welles)."
+  - "Quintus Curtius Rufus, History of Alexander, book 4, 15 to 16 (tr. J. C. Rolfe)."
+  - "Plutarch, Life of Alexander, 32 to 33 (tr. B. Perrin)."
+  - "A. B. Bosworth, Conquest and Empire: The Reign of Alexander the Great (1988), ch. 2.IX."
+  - "A. B. Bosworth, A Historical Commentary on Arrian's History of Alexander, vol. I (1980), on 3.14 to 15."
+bbox: [43.38143, 36.52414, 43.50411, 36.58531]
+emblem:
+  kind: battle-plan
+  units:
+    - {side: macedon, type: cavalry, at: [43.47045, 36.5616], width: 600, depth: 300, facing: 315, id: companions, name: Alexander and the Companions bar the fugitives’ retreat; about 60 Companions fall}
+    - {side: macedon, type: pikes, at: [43.46293, 36.5568], width: 1250, depth: 350, facing: 45, id: phalanx-right, name: 'Hypaspists and four battalions, sweeping through the Persian centre'}
+    - {side: macedon, type: pikes, at: [43.44119, 36.55456], width: 450, depth: 350, facing: 45, id: phalanx-left, name: Simmias and Craterus halt to cover the left}
+    - {side: macedon, type: cavalry, at: [43.43209, 36.56128], width: 900, depth: 350, facing: 0, id: left-cavalry, name: 'Parmenion with the Thessalians, the allied horse and the left flank guard'}
+    - {side: macedon, type: infantry, at: [43.40402, 36.53217], width: 1000, depth: 300, facing: 225, id: reserve, name: 'The reserve phalanx, turned back to the baggage'}
+    - {side: macedon, type: cavalry, at: [43.47084, 36.53889], width: 600, depth: 300, facing: 45, id: right-flank-cavalry, name: 'Mercenary horse, lancers and Paeonians after the Bactrian fight'}
+    - {side: persia, type: cavalry, at: [43.46689, 36.56448], width: 600, depth: 400, facing: 135, id: persian-fugitives, name: 'Persian, Parthian and Indian horse in flight'}
+    - {side: persia, type: cavalry, at: [43.40086, 36.52962], width: 500, depth: 300, facing: 225, id: raiders, name: 'Persian horse at the baggage, cut down from behind'}
+    - {side: persia, type: cavalry, at: [43.42023, 36.56832], width: 1600, depth: 450, facing: 135, id: persian-right, name: 'Mazaeus’s wing, thrown back by the Thessalians'}
+  arrows:
+    - {side: persia, path: [[43.45582, 36.55872], [43.44554, 36.55168], [43.42418, 36.54081], [43.40244, 36.53025]], width: 110, id: break-in, name: Persian and Indian horse break through the gap to the baggage (Arrian)}
+    - {side: macedon, path: [[43.43763, 36.54273], [43.41944, 36.53569], [43.40481, 36.53281]], width: 120, id: reserve-turns, name: The reserve phalanx turns back and falls on them}
+    - {side: persia, path: [[43.42735, 36.57919], [43.41232, 36.57215], [43.40204, 36.55744], [43.39611, 36.53473]], width: 120, id: mazaeus-round, name: Mazaeus’s horse ride round Parmenion’s flank; a detachment rides on to the camp (Diodorus)}
+    - {side: macedon, path: [[43.49536, 36.54593], [43.48468, 36.55264], [43.47179, 36.56051]], width: 140, id: companions-return, name: 'The Companions, back from the pursuit, meet the fleeing horse'}
+    - {side: persia, path: [[43.42102, 36.57023], [43.40441, 36.5696], [43.38702, 36.55936]], width: 110, id: mazaeus-withdraws, name: Mazaeus’s wing gives way before the Thessalians, style: dashed}
+  clashes:
+    - [43.46886, 36.56288]
+    - [43.40244, 36.53089]
+    - [43.42577, 36.56576]
+markers: [gaugamela-left-alexander, gaugamela-left-parmenion, gaugamela-left-mazaeus, gaugamela-left-simmias, gaugamela-left-camp, gaugamela-left-lycus]

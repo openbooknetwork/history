@@ -1,0 +1,17 @@
+lnglat: [27.424, 37.038]
+name: "Siege of Halicarnassus"
+date: "Autumn 334 BC"
+result: "Halicarnassus burned by its defenders and razed; its citadel Salmacis and the island citadel hold out under blockade; Caria given to Ada"
+source: https://en.wikipedia.org/wiki/Siege_of_Halicarnassus
+images: [herz-siege-halicarnassus-2fbcb9, memnon-lampsacus-coin-32b8a4]
+default_language: en
+families:
+  macedon: { color: "#2e8b57", color_dark: "#5fcf8f" }
+  persia: { color: "#a8323e", color_dark: "#e0606c" }
+sides:
+  - name: "Macedon"
+    color: macedon
+    commanders: ["Alexander"]
+  - name: "Persian Empire"
+    color: persia
+    commanders: ["Memnon of Rhodes", "Orontobates"]

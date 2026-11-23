@@ -1,0 +1,37 @@
+date: "May 326 BC"
+title: "The elephants"
+zones: []
+sources:
+  - "Arrian, Anabasis of Alexander, book 5, 17 to 18."
+  - "Diodorus Siculus, Library of History, book 17, 88 to 89."
+  - "Quintus Curtius Rufus, History of Alexander, book 8, 14."
+  - "A. B. Bosworth, Conquest and Empire: The Reign of Alexander the Great (1988), ch. 2.XV."
+bbox: [73.31904, 32.58254, 73.36008, 32.62336]
+emblem:
+  kind: battle-plan
+  water:
+    - {area: [[73.43981, 32.6604], [73.43466, 32.65923], [73.42951, 32.65805], [73.42436, 32.65688], [73.41921, 32.65571], [73.41406, 32.65454], [73.40891, 32.65337], [73.40376, 32.6522], [73.39964, 32.65126], [73.40102, 32.64689], [73.40313, 32.64734], [73.40515, 32.64765], [73.40694, 32.6478], [73.40837, 32.64778], [73.40933, 32.64759], [73.40974, 32.64724], [73.40959, 32.64676], [73.40887, 32.64619], [73.40765, 32.64557], [73.40601, 32.64494], [73.40407, 32.64435], [73.40199, 32.64384], [73.40269, 32.64163], [73.40383, 32.64179], [73.40488, 32.64186], [73.40579, 32.64184], [73.4065, 32.64174], [73.40698, 32.64154], [73.40721, 32.64128], [73.40717, 32.64095], [73.40687, 32.64058], [73.40631, 32.64019], [73.40554, 32.63979], [73.40458, 32.6394], [73.4035, 32.63906], [73.40392, 32.63772], [73.40804, 32.63866], [73.41319, 32.63983], [73.41834, 32.641], [73.42349, 32.64217], [73.42864, 32.64334], [73.43379, 32.64451], [73.43894, 32.64568], [73.44409, 32.64685]], id: hydaspes, name: 'The Hydaspes, drawn on its modern course at Stein’s crossing; the islands are drawn where none can be found today'}
+    - {area: [[73.39964, 32.65126], [73.40102, 32.64689], [73.39915, 32.64639], [73.39746, 32.64583], [73.39605, 32.64525], [73.39501, 32.64468], [73.39442, 32.64416], [73.39429, 32.64373], [73.39466, 32.6434], [73.39548, 32.64321], [73.39671, 32.64316], [73.39827, 32.64325], [73.40007, 32.64348], [73.40199, 32.64384], [73.40269, 32.64163], [73.40117, 32.6413], [73.39972, 32.64088], [73.39848, 32.64038], [73.39755, 32.63987], [73.39701, 32.63937], [73.39691, 32.63894], [73.39725, 32.63861], [73.39801, 32.63841], [73.39912, 32.63835], [73.40049, 32.63845], [73.40199, 32.63869], [73.4035, 32.63906], [73.40392, 32.63772], [73.40289, 32.63749], [73.39774, 32.63632], [73.39259, 32.63515], [73.38744, 32.63397], [73.38229, 32.63281], [73.37714, 32.63164], [73.37198, 32.63048], [73.36683, 32.62931], [73.36168, 32.62815], [73.35653, 32.62698], [73.35138, 32.62582], [73.34622, 32.62465], [73.341, 32.62372], [73.33578, 32.62278], [73.33045, 32.62216], [73.32499, 32.62199], [73.31952, 32.62183], [73.31388, 32.62221], [73.3082, 32.62272], [73.3025, 32.62326], [73.29676, 32.62397], [73.29102, 32.62467], [73.28552, 32.62462], [73.28124, 32.63816], [73.28674, 32.63821], [73.29249, 32.63751], [73.29823, 32.63681], [73.30392, 32.63626], [73.3096, 32.63575], [73.31524, 32.63537], [73.32071, 32.63554], [73.32618, 32.6357], [73.3315, 32.63633], [73.33672, 32.63726], [73.34195, 32.6382], [73.3471, 32.63936], [73.35225, 32.64053], [73.3574, 32.64169], [73.36255, 32.64286], [73.36771, 32.64402], [73.37286, 32.64519], [73.37801, 32.64635], [73.38316, 32.64752], [73.38831, 32.64869], [73.39346, 32.64986], [73.39861, 32.65103]], id: hydaspes, name: 'The Hydaspes, drawn on its modern course at Stein’s crossing; the islands are drawn where none can be found today'}
+  units:
+    - {side: porus, type: elephants, at: [73.34764, 32.60198], width: 800, depth: 60, facing: 75, id: elephants, name: 'Porus’s elephants, in one line in front of the infantry, backing into their own ranks', count: 10}
+    - {side: porus, type: infantry, at: [73.34476, 32.60133], width: 900, depth: 300, facing: 75, id: cooped, name: 'Indian foot and the last horsemen, hemmed in round the elephants'}
+    - {side: macedon, type: light, at: [73.34732, 32.6079], width: 200, depth: 150, facing: 255, id: light, name: 'Archers, Agrianians and javelin men under Tauron, on both ends of the foot'}
+    - {side: macedon, type: pikes, at: [73.34875, 32.60514], width: 230, depth: 200, facing: 255, id: hypaspists, name: 'Hypaspists, the royal hypaspists under Seleucus at their head, with locked shields'}
+    - {side: macedon, type: pikes, at: [73.35001, 32.60112], width: 470, depth: 200, facing: 255, id: phalanx, name: 'Phalanx battalions, Coenus’s among them, led by Antigenes, with locked shields'}
+    - {side: macedon, type: light, at: [73.35071, 32.59715], width: 200, depth: 150, facing: 255, id: light, name: 'Archers, Agrianians and javelin men under Tauron, on both ends of the foot'}
+    - {side: macedon, type: cavalry, at: [73.34321, 32.608], width: 400, depth: 200, facing: 165, id: ring, name: 'Alexander’s cavalry, now one body, round the Indian line'}
+    - {side: macedon, type: cavalry, at: [73.33961, 32.60016], width: 900, depth: 200, facing: 75, id: ring, name: 'Alexander’s cavalry, now one body, round the Indian line'}
+    - {side: macedon, type: cavalry, at: [73.34734, 32.59489], width: 400, depth: 200, facing: 345, id: ring, name: 'Alexander’s cavalry, now one body, round the Indian line'}
+    - {side: macedon, type: cavalry, at: [73.32962, 32.59508], width: 400, depth: 200, facing: 165, id: craterus, name: 'Craterus’s force from the base camp: his cavalry, the Arachosian and Parapamisadan horse, two phalanx battalions and Taxiles’s 5,000 Indians'}
+    - {side: macedon, type: infantry, at: [73.32956, 32.61801], width: 500, depth: 150, facing: 165, id: mercenaries, name: 'Greek mercenary horse and foot under Meleager, Attalus, son of Andromenes, and Gorgias, strung along the bank, across the river'}
+  arrows:
+    - {side: macedon, path: [[73.35741, 32.60495], [73.35278, 32.6039], [73.35, 32.60327]], width: 160, id: phalanx-advance, name: The phalanx advances on the elephants}
+    - {side: macedon, path: [[73.34196, 32.61193], [73.33613, 32.60592], [73.339, 32.5958], [73.3457, 32.59311]], width: 130, id: cavalry-ring, name: 'The cavalry, now one body, closes round the Indian line'}
+    - {side: porus, path: [[73.34394, 32.59693], [73.34127, 32.59491], [73.33629, 32.59144], [73.33209, 32.59077]], width: 130, id: flight, name: The Indians break out through gaps in the cavalry and flee, style: dashed}
+    - {side: macedon, path: [[73.32171, 32.60264], [73.32618, 32.59898], [73.32906, 32.59617]], width: 130, id: craterus-crossing, name: Craterus crosses from the base camp and takes up the pursuit}
+    - {side: macedon, path: [[73.33229, 32.63033], [73.33151, 32.62407], [73.3298, 32.619]], width: 120, id: mercenaries-crossing, name: The mercenaries cross from the right bank to join the pursuit}
+  clashes:
+    - {at: [73.34826, 32.60212], size: 300}
+    - {at: [73.34167, 32.60062], size: 250}
+    - {at: [73.33095, 32.59088], size: 250}
+markers: [hydaspes-elephants-alexander, hydaspes-elephants-porus, hydaspes-elephants-taxiles, hydaspes-elephants-beasts, hydaspes-elephants-craterus, hydaspes-elephants-mercenaries]

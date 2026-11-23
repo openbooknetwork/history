@@ -1,0 +1,37 @@
+date: "May 334 BC"
+title: "The vanguard in the river"
+zones: []
+sources:
+  - "Arrian, Anabasis of Alexander, book 1, 13 to 15 (tr. E. J. Chinnock)."
+  - "Plutarch, Life of Alexander, 16 (tr. B. Perrin)."
+  - "Diodorus Siculus, Library of History, book 17, 19 (tr. C. B. Welles)."
+  - "A. B. Bosworth, Conquest and Empire: The Reign of Alexander the Great (1988), ch. 2.III."
+  - "A. B. Bosworth, A Historical Commentary on Arrian's History of Alexander, vol. I (1980), on 1.13 to 16."
+bbox: [27.26841, 40.30344, 27.31338, 40.34751]
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[27.27508, 40.29363], [27.27867, 40.30509], [27.2811, 40.3167], [27.28341, 40.32833], [27.28688, 40.3398], [27.29001, 40.35132]], width: 60, id: granicus, name: The river Granicus}
+  units:
+    - {side: macedon, type: cavalry, at: [27.27931, 40.31465], width: 550, depth: 250, facing: 100, id: companions, name: 'Companion cavalry under Philotas, with Alexander'}
+    - {side: macedon, type: light, at: [27.28111, 40.3144], width: 500, depth: 40, facing: 100, id: light-infantry, name: Archers and Agrianian javelin men}
+    - {side: macedon, type: cavalry, at: [27.28001, 40.31822], width: 220, depth: 60, facing: 100, id: vanguard, name: 'Vanguard under Amyntas, son of Arrhabaeus: the lancers, the Paeonians and the squadron of Socrates, son of Sathon, thrown back'}
+    - {side: macedon, type: pikes, at: [27.27723, 40.32067], width: 340, depth: 200, facing: 100, id: hypaspists, name: 'Hypaspists under Nicanor, son of Parmenion'}
+    - {side: macedon, type: pikes, at: [27.27856, 40.32646], width: 760, depth: 200, facing: 100, id: phalanx-right, name: 'Phalanx, right of the centre: the battalions of Perdiccas, Coenus, Craterus and Amyntas, son of Andromenes'}
+    - {side: macedon, type: pikes, at: [27.27994, 40.33247], width: 400, depth: 200, facing: 100, id: phalanx-left, name: 'Phalanx, left of the centre, with the battalion of Meleager'}
+    - {side: macedon, type: cavalry, at: [27.28062, 40.33674], width: 340, depth: 250, facing: 100, id: allied-cavalry, name: 'Thracian cavalry and allied Greek cavalry under Philip, son of Menelaus'}
+    - {side: macedon, type: cavalry, at: [27.28159, 40.34098], width: 440, depth: 250, facing: 100, id: thessalians, name: Thessalian cavalry under Calas}
+    - {side: persia, type: cavalry, at: [27.28378, 40.31377], width: 940, depth: 320, facing: 280, id: persian-left, name: 'Persian left: the best of the horse, with Memnon of Rhodes and Arsames'}
+    - {side: persia, type: cavalry, at: [27.28493, 40.3227], width: 840, depth: 250, facing: 280, id: persian-left-centre, name: Paphlagonian horse under Arsites and Hyrcanian horse under Spithridates}
+    - {side: persia, type: cavalry, at: [27.28679, 40.33081], width: 800, depth: 250, facing: 280, id: persian-centre, name: 'Persian centre: horse of other peoples'}
+    - {side: persia, type: cavalry, at: [27.28859, 40.33865], width: 800, depth: 250, facing: 280, id: persian-right, name: 'Persian right wing: Medes, Bactrians and other horse, 5,000 (Diodorus)'}
+    - {side: persia, type: pikes, at: [27.30127, 40.32637], width: 1500, depth: 300, facing: 280, id: mercenaries, name: 'Greek mercenaries in Persian pay, a little under 20,000 (Arrian)'}
+  arrows:
+    - {side: macedon, path: [[27.27762, 40.31717], [27.2804, 40.31679], [27.28242, 40.31671]], width: 110, id: vanguard-attack, name: The vanguard rides into the river and up the far bank}
+    - {side: persia, path: [[27.28481, 40.31565], [27.2818, 40.31661]], width: 220, id: persian-javelins, name: The Persian horse throw javelins from the bank, style: fire}
+    - {side: macedon, path: [[27.28278, 40.31776], [27.28133, 40.31823], [27.28062, 40.31824]], width: 90, id: vanguard-retreat, name: 'The vanguard, cut down, falls back to Alexander', style: dashed}
+    - {side: macedon, path: [[27.27488, 40.31203], [27.27716, 40.3131], [27.2807, 40.31446]], width: 130, id: alexander-crossing, name: Alexander leads the right wing into the river in an oblique line downstream}
+  clashes:
+    - [27.28228, 40.31663]
+    - {at: [27.28159, 40.31388], size: 150}
+markers: [granicus-vanguard-alexander, granicus-vanguard-amyntas, granicus-vanguard-parmenion, granicus-vanguard-memnon, granicus-vanguard-arsites]

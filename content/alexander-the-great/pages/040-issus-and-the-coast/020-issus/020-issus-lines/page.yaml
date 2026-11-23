@@ -1,0 +1,36 @@
+date: "November 333 BC"
+title: "The lines on the Pinarus"
+zones: []
+sources:
+  - "Arrian, Anabasis of Alexander, book 2, 8 to 9 (tr. E. J. Chinnock)."
+  - "Polybius, Histories, book 12, 17 to 21."
+  - "Quintus Curtius Rufus, History of Alexander, book 3, 9 (tr. J. C. Rolfe)."
+  - "A. B. Bosworth, Conquest and Empire: The Reign of Alexander the Great (1988), ch. 2.VI."
+  - "A. B. Bosworth, A Historical Commentary on Arrian's History of Alexander, vol. I (1980)."
+bbox: [36.19215, 36.7621, 36.26374, 36.81544]
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[36.2015, 36.7795], [36.2126, 36.7808], [36.22355, 36.78282], [36.23471, 36.78386], [36.24568, 36.78578], [36.25423, 36.78838]], width: 40, id: pinarus, name: 'The Pinarus, drawn at the Kuru Çay; its site is not known'}
+  units:
+    - {side: thessaly, type: cavalry, at: [36.20605, 36.77326], width: 460, depth: 250, facing: 350, id: thessalians, name: 'Thessalian cavalry, sent behind the phalanx to the left'}
+    - {side: macedon, type: cavalry, at: [36.21169, 36.77406], width: 360, depth: 200, facing: 350, id: allied-cavalry, name: 'Allied Greek cavalry, the Peloponnesians and the rest'}
+    - {side: macedon, type: pikes, at: [36.21987, 36.77568], width: 900, depth: 200, facing: 350, id: phalanx-left, name: 'Phalanx, left half: the battalions of Amyntas, son of Andromenes, Ptolemy, son of Seleucus, and Meleager, under Craterus'}
+    - {side: macedon, type: pikes, at: [36.23103, 36.77727], width: 900, depth: 200, facing: 350, id: phalanx-right, name: 'Phalanx, right half: the battalions of Perdiccas and Coenus, and the hypaspists under Nicanor, son of Parmenion'}
+    - {side: macedon, type: cavalry, at: [36.24051, 36.77816], width: 600, depth: 250, facing: 350, id: companions, name: Companion cavalry under Alexander}
+    - {side: macedon, type: light, at: [36.24805, 36.78015], width: 600, depth: 100, facing: 350, id: light-troops, name: 'Lancers, Paeonians, archers and Agrianians, with Greek mercenaries'}
+    - {side: macedon, type: infantry, at: [36.22482, 36.77179], width: 1400, depth: 200, facing: 350, id: reserve, name: 'Greek mercenaries in Alexander’s pay, the reserve line'}
+    - {side: persia, type: knights, at: [36.2078, 36.78453], width: 1300, depth: 500, facing: 170, id: persian-cavalry, name: 'Persian cavalry of the right under Nabarzanes, most of 30,000 horse (Arrian)'}
+    - {side: persia, type: pikes, at: [36.22476, 36.7851], width: 1000, depth: 250, facing: 170, id: persian-mercenaries, name: 'Greek mercenaries in Persian pay, 30,000 (Arrian, Callisthenes, Curtius)'}
+    - {side: persia, type: infantry, at: [36.23525, 36.7866], width: 700, depth: 250, facing: 170, id: cardaces, name: 'Cardaces, Persian heavy infantry, part of 60,000 (Arrian)'}
+    - {side: persia, type: cavalry, at: [36.23282, 36.78993], width: 500, depth: 200, facing: 170, id: darius-guard, name: Darius III with his guard}
+    - {side: persia, type: infantry, at: [36.24519, 36.78801], width: 900, depth: 250, facing: 170, id: persian-left, name: 'Persian infantry of the left, 20,000 (Arrian, Curtius)', bow: -200}
+    - {side: persia, type: light, at: [36.26114, 36.77237], width: 500, depth: 150, facing: 260, id: hill-force, name: Persian troops on the hill behind Alexander’s right}
+    - {side: persia, type: infantry, at: [36.22135, 36.79289], width: 2600, depth: 600, facing: 170, id: levy, name: 'The rest of Darius’s army, massed by peoples behind the line'}
+  arrows:
+    - {side: persia, path: [[36.22326, 36.77892], [36.21836, 36.78052], [36.2109, 36.78341]], width: 140, id: persian-cavalry-recall, name: The Persian cavalry is recalled across the river and massed by the sea}
+    - {side: persia, path: [[36.24419, 36.78998], [36.22756, 36.79055], [36.21515, 36.78741]], width: 120, id: persian-cavalry-recall, name: The Persian cavalry is recalled across the river and massed by the sea}
+    - {side: thessaly, path: [[36.24159, 36.77326], [36.22651, 36.76928], [36.21056, 36.76931], [36.20679, 36.77198]], width: 130, id: thessalians-shift, name: The Thessalians ride behind the phalanx to the left}
+    - {side: macedon, path: [[36.23265, 36.77245], [36.24431, 36.7764], [36.24819, 36.77953]], width: 110, id: right-extended, name: 'Archers, Agrianians and mercenaries extend the right'}
+    - {side: macedon, path: [[36.24899, 36.77845], [36.25484, 36.77514], [36.25992, 36.77274]], width: 110, id: hill-attack, name: Agrianians and archers drive the troops on the hill up the slope}
+markers: [issus-lines-alexander, issus-lines-parmenion, issus-lines-craterus, issus-lines-darius, issus-lines-nabarzanes, issus-lines-flank-guard]

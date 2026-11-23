@@ -1,0 +1,35 @@
+date: "November 333 BC"
+title: "Darius flees"
+zones: []
+sources:
+  - "Arrian, Anabasis of Alexander, book 2, 11 (tr. E. J. Chinnock)."
+  - "Diodorus Siculus, Library of History, book 17, 33 to 36 (tr. C. B. Welles)."
+  - "Quintus Curtius Rufus, History of Alexander, book 3, 11 (tr. J. C. Rolfe)."
+  - "A. B. Bosworth, Conquest and Empire: The Reign of Alexander the Great (1988), ch. 2.VI."
+bbox: [36.19215, 36.7621, 36.26374, 36.81544]
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[36.2015, 36.7795], [36.2126, 36.7808], [36.22355, 36.78282], [36.23471, 36.78386], [36.24568, 36.78578], [36.25423, 36.78838]], width: 40, id: pinarus, name: 'The Pinarus, drawn at the Kuru Çay; its site is not known'}
+  units:
+    - {side: thessaly, type: cavalry, at: [36.2029, 36.80175], width: 500, depth: 250, facing: 350, id: thessalians, name: 'Thessalian cavalry, sent behind the phalanx to the left, in pursuit'}
+    - {side: macedon, type: cavalry, at: [36.21001, 36.79265], width: 400, depth: 200, facing: 350, id: allied-cavalry, name: 'Allied Greek cavalry, the Peloponnesians and the rest'}
+    - {side: macedon, type: pikes, at: [36.21758, 36.78408], width: 1000, depth: 200, facing: 350, id: phalanx-left, name: 'Phalanx, left half: the battalions of Amyntas, son of Andromenes, Ptolemy, son of Seleucus, and Meleager, under Craterus'}
+    - {side: macedon, type: pikes, at: [36.22324, 36.79729], width: 500, depth: 200, facing: 260, id: phalanx-right, name: 'Phalanx, right half: the battalions of Perdiccas and Coenus, and the hypaspists under Nicanor, son of Parmenion, on the mercenaries’ flank'}
+    - {side: macedon, type: cavalry, at: [36.23698, 36.80476], width: 500, depth: 250, facing: 350, id: companions, name: 'Companion cavalry under Alexander, in pursuit of Darius'}
+    - {side: macedon, type: light, at: [36.24172, 36.79349], width: 600, depth: 100, facing: 350, id: light-troops, name: 'Lancers, Paeonians, archers and Agrianians, with Greek mercenaries'}
+    - {side: macedon, type: infantry, at: [36.22424, 36.77447], width: 1200, depth: 200, facing: 350, id: reserve, name: 'Greek mercenaries in Alexander’s pay, the reserve line'}
+    - {side: persia, type: knights, at: [36.20137, 36.80612], width: 1000, depth: 400, facing: 350, id: persian-cavalry, name: 'Persian cavalry of the right under Nabarzanes, most of 30,000 horse (Arrian), in flight'}
+    - {side: persia, type: pikes, at: [36.21716, 36.79643], width: 700, depth: 250, facing: 350, id: persian-mercenaries, name: 'Greek mercenaries in Persian pay, 30,000 (Arrian, Callisthenes, Curtius), withdrawing'}
+    - {side: persia, type: infantry, at: [36.22165, 36.80717], width: 2400, depth: 500, facing: 350, id: levy, name: 'The rest of Darius’s army, massed by peoples behind the line, in flight'}
+    - {side: persia, type: camp, at: [36.22782, 36.79978], width: 500, depth: 400, facing: 170, id: camp, name: Darius’s camp}
+  arrows:
+    - {side: persia, path: [[36.23272, 36.79037], [36.23279, 36.80048], [36.23412, 36.81262]], width: 120, id: darius-flight, name: Darius flees, style: dashed}
+    - {side: macedon, path: [[36.23607, 36.78809], [36.22976, 36.79087], [36.22496, 36.79616]], width: 150, id: right-wheel, name: The right wheels onto the flank of the Greek mercenaries and drives them from the river}
+    - {side: persia, path: [[36.20816, 36.77769], [36.20741, 36.79412], [36.20297, 36.80405]], width: 150, id: persian-cavalry-rout, name: The Persian cavalry breaks and flees, style: dashed}
+    - {side: thessaly, path: [[36.20553, 36.7741], [36.20342, 36.78896], [36.20264, 36.80033]], width: 130, id: thessalian-pursuit, name: The Thessalians pursue the Persian cavalry}
+    - {side: macedon, path: [[36.23613, 36.7904], [36.23668, 36.79828], [36.23727, 36.80342]], width: 130, id: alexander-pursuit, name: Alexander pursues Darius until nightfall}
+  clashes:
+    - [36.22158, 36.79705]
+    - [36.20251, 36.80353]
+markers: [issus-rout-alexander, issus-rout-darius, issus-rout-guard, issus-rout-camp, issus-rout-parmenion]

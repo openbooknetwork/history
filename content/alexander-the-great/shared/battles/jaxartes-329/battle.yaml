@@ -1,0 +1,19 @@
+lnglat: [69.62, 40.32]
+name: "Battle of the Jaxartes"
+date: "Summer 329 BC"
+result: "Macedonian victory; the Saka flee, and their king sends envoys to apologise and submit"
+source: https://en.wikipedia.org/wiki/Battle_of_Jaxartes
+images: [overend-crossing-jaxartes-a2d6f8, etruscan-urn-scythian-archer-03166f]
+default_language: en
+families:
+  macedon: { color: "#2e8b57", color_dark: "#5fcf8f" }
+  scythians: { color: "#c2a878", color_dark: "#e2cfa3" }
+sides:
+  - name: "Macedon"
+    color: macedon
+    commanders: ["Alexander"]
+    casualties: "Curtius: 60 horse and about 100 foot killed and 1,000 wounded. Arrian gives no figure"
+  - name: "Saka"
+    color: scythians
+    commanders: ["Satraces"]
+    casualties: "Arrian: 1,000 killed, Satraces among them, and 150 taken"

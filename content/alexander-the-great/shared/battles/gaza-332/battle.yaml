@@ -1,0 +1,18 @@
+lnglat: [34.466, 31.504]
+name: "Siege of Gaza"
+date: "Autumn 332 BC"
+result: "Macedonian victory; Gaza stormed at the fourth assault and refounded as a fortress"
+source: https://en.wikipedia.org/wiki/Siege_of_Gaza_(332_BC)
+images: [carline-gaza-from-the-air-c327a7]
+default_language: en
+families:
+  macedon: { color: "#2e8b57", color_dark: "#5fcf8f" }
+  persia: { color: "#a8323e", color_dark: "#e0606c" }
+sides:
+  - name: "Macedon"
+    color: macedon
+    commanders: ["Alexander"]
+  - name: "Persian garrison"
+    color: persia
+    commanders: ["Batis"]
+    casualties: "Curtius: about 10,000 Persians and Arabians killed"

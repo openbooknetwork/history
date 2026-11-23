@@ -1,0 +1,19 @@
+lnglat: [35.193, 33.271]
+name: "Siege of Tyre"
+date: "Winter to July or August 332 BC"
+result: "Macedonian victory; the city stormed through a breach in the south wall while the fleets force the harbours"
+source: https://en.wikipedia.org/wiki/Siege_of_Tyre_(332_BC)
+images: [castaigne-siege-of-tyre-a996df, tyre-shekel-ozmilk-21a200]
+default_language: en
+families:
+  macedon: { color: "#2e8b57", color_dark: "#5fcf8f" }
+  tyre: { color: "#8e3b8e", color_dark: "#c97ac9" }
+sides:
+  - name: "Macedon"
+    color: macedon
+    commanders: ["Alexander"]
+    strength: "About 80 Phoenician and about 120 Cypriot ships, with 24 more from Rhodes, Soli and Mallus, Lycia and Macedon"
+    casualties: "Arrian: about 400 killed in the whole siege"
+  - name: "Tyre"
+    color: tyre
+    casualties: "Arrian: about 8,000 killed, about 30,000 sold. Diodorus: more than 7,000 killed and 2,000 crucified"

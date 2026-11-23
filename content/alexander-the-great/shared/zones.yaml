@@ -1,0 +1,42 @@
+# Zones that show the outline of another zone under their own name, for another year or another holder.
+macedon-335: {zone: macedon-340, name: 'Macedon and Thrace, 335 BC'}
+macedon-334s: {zone: macedon-340, name: 'Macedon and Thrace, spring 334 BC'}
+# The build cuts a zone by every zone of a lower priority number that shares any page with it, so the Persian
+# Empire takes one entry per stage of the conquest, each on the pages of its Macedon zone.
+persia-334a: {zone: persia-336, name: 'Persian Empire', clip: [Turkey, Cyprus, N. Cyprus, Syria, Lebanon, Israel, Palestine, Jordan, Egypt, Iraq, Kuwait, Iran, Armenia, Azerbaijan, Georgia, Turkmenistan, Uzbekistan, Tajikistan, Kyrgyzstan, Kazakhstan, Afghanistan, Pakistan]}
+persia-334: {zone: persia-336, name: 'Persian Empire', clip: [Turkey, Cyprus, N. Cyprus, Syria, Lebanon, Israel, Palestine, Jordan, Egypt, Iraq, Kuwait, Iran, Armenia, Azerbaijan, Georgia, Turkmenistan, Uzbekistan, Tajikistan, Kyrgyzstan, Kazakhstan, Afghanistan, Pakistan]}
+persia-333: {zone: persia-336, name: 'Persian Empire', clip: [Turkey, Cyprus, N. Cyprus, Syria, Lebanon, Israel, Palestine, Jordan, Egypt, Iraq, Kuwait, Iran, Armenia, Azerbaijan, Georgia, Turkmenistan, Uzbekistan, Tajikistan, Kyrgyzstan, Kazakhstan, Afghanistan, Pakistan]}
+persia-333b: {zone: persia-336, name: 'Persian Empire', clip: [Turkey, Cyprus, N. Cyprus, Syria, Lebanon, Israel, Palestine, Jordan, Egypt, Iraq, Kuwait, Iran, Armenia, Azerbaijan, Georgia, Turkmenistan, Uzbekistan, Tajikistan, Kyrgyzstan, Kazakhstan, Afghanistan, Pakistan]}
+persia-333c: {zone: persia-336, name: 'Persian Empire', clip: [Turkey, Cyprus, N. Cyprus, Syria, Lebanon, Israel, Palestine, Jordan, Egypt, Iraq, Kuwait, Iran, Armenia, Azerbaijan, Georgia, Turkmenistan, Uzbekistan, Tajikistan, Kyrgyzstan, Kazakhstan, Afghanistan, Pakistan]}
+persia-332a: {zone: persia-336, name: 'Persian Empire', clip: [Turkey, Cyprus, N. Cyprus, Syria, Lebanon, Israel, Palestine, Jordan, Egypt, Iraq, Kuwait, Iran, Armenia, Azerbaijan, Georgia, Turkmenistan, Uzbekistan, Tajikistan, Kyrgyzstan, Kazakhstan, Afghanistan, Pakistan]}
+persia-332: {zone: persia-336, name: 'Persian Empire', clip: [Turkey, Cyprus, N. Cyprus, Syria, Lebanon, Israel, Palestine, Jordan, Egypt, Iraq, Kuwait, Iran, Armenia, Azerbaijan, Georgia, Turkmenistan, Uzbekistan, Tajikistan, Kyrgyzstan, Kazakhstan, Afghanistan, Pakistan]}
+persia-331: {zone: persia-336, name: 'Persian Empire', clip: [Turkey, Cyprus, N. Cyprus, Syria, Lebanon, Israel, Palestine, Jordan, Egypt, Iraq, Kuwait, Iran, Armenia, Azerbaijan, Georgia, Turkmenistan, Uzbekistan, Tajikistan, Kyrgyzstan, Kazakhstan, Afghanistan, Pakistan]}
+persia-331b: {zone: persia-336, name: 'Persian Empire', clip: [Turkey, Cyprus, N. Cyprus, Syria, Lebanon, Israel, Palestine, Jordan, Egypt, Iraq, Kuwait, Iran, Armenia, Azerbaijan, Georgia, Turkmenistan, Uzbekistan, Tajikistan, Kyrgyzstan, Kazakhstan, Afghanistan, Pakistan]}
+persia-330a: {zone: persia-336, name: 'Persian Empire', clip: [Turkey, Cyprus, N. Cyprus, Syria, Lebanon, Israel, Palestine, Jordan, Egypt, Iraq, Kuwait, Iran, Armenia, Azerbaijan, Georgia, Turkmenistan, Uzbekistan, Tajikistan, Kyrgyzstan, Kazakhstan, Afghanistan, Pakistan]}
+persia-330: {zone: persia-336, name: 'Persian Empire', clip: [Turkey, Cyprus, N. Cyprus, Syria, Lebanon, Israel, Palestine, Jordan, Egypt, Iraq, Kuwait, Iran, Armenia, Azerbaijan, Georgia, Turkmenistan, Uzbekistan, Tajikistan, Kyrgyzstan, Kazakhstan, Afghanistan, Pakistan]}
+# The League without the hole Thebes in revolt would cut in it on every other page.
+league-335: {zone: league-337, name: 'League of Corinth'}
+# The League without the Peloponnesians who joined Agis, which sparta-331 would cut from it everywhere.
+league-331: {zone: league-337, name: 'League of Corinth'}
+# Bessus's kingdom on the page of spring and summer 329 BC, cut back by macedon-329 to Sogdiana. The stage entry
+# keeps the cut off persia-330b, which stands whole on the page of autumn 330 BC.
+persia-329: {zone: persia-330b, name: 'Kingdom of Bessus'}
+# Sogdiana held once the rising is over, spring 327 BC; sogdians-329 cuts macedon-329b on every page.
+macedon-327: {zone: macedon-329b, name: 'Macedon, 327 BC'}
+# The Indian peoples, drawn once (indians-327, whole on 010-cophen) and cut back in stages: by macedon-326 on the
+# pages of winter 327-326 and spring 326 BC, then also by porus-326b once Porus holds the land to the Hyphasis, then
+# by macedon-325a on the page of the Ocean.
+indians-326: {zone: indians-327, name: 'Indian peoples'}
+indians-326b: {zone: indians-327, name: 'Indian peoples'}
+indians-325: {zone: indians-327, name: 'Indian peoples'}
+# Each rebel stage cuts macedon-329b on every page, so each page of the rising shows its own Macedon entry.
+macedon-329c: {zone: macedon-329b, name: 'Macedon, 329–328 BC'}
+macedon-328: {zone: macedon-329b, name: 'Macedon, 328 BC'}
+# Alexander's empire from 324 BC to his death: the outline of macedon-325, for the 080 pages of 324–323 BC.
+macedon-324: {zone: macedon-325, name: "Alexander's empire, 324–323 BC"}
+# The empire of the kings at the Babylon settlement, on macedon-325's outline; the satrap zones cut it.
+macedon-323: {zone: macedon-325, name: "The empire of the kings, 323–320 BC"}
+# The same for 321-320 BC, where seleucid-320 also cuts it: macedon-323 would lose Babylonia on 010 too.
+macedon-320: {zone: macedon-325, name: "The empire of the kings, 323–320 BC"}
+# Macedon under Antipater on the Lamian War page, where Thessaly sits with the Greeks in greeks-323.
+macedon-322: {zone: macedon-348, name: "Macedon under Antipater"}

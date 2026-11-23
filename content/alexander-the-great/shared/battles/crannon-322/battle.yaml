@@ -1,0 +1,21 @@
+lnglat: [22.3, 39.48]
+images: [krannon-site-north-468b35, hoplite-grave-relief-glyptotek-4343d4]
+name: "Battle of Crannon"
+date: "Summer 322 BC"
+result: "Macedonian victory; the Greek horse wins its fight, but the Greek foot falls back to the high ground and the battle is broken off in the Macedonians' favour. The Greeks sue for peace"
+source: https://en.wikipedia.org/wiki/Battle_of_Crannon
+default_language: en
+families:
+  macedon: { color: "#2e8b57", color_dark: "#5fcf8f" }
+  greeks: { color: "#4a90c8", color_dark: "#82bdf0" }
+sides:
+  - name: "Macedon"
+    color: macedon
+    commanders: ["Antipater", "Craterus"]
+    strength: "Diodorus: more than 40,000 heavy infantry, 3,000 archers and slingers and 5,000 horse"
+    casualties: "Diodorus: 130 killed"
+  - name: "Greeks of the Lamian War"
+    color: greeks
+    commanders: ["Antiphilus", "Menon the Thessalian"]
+    strength: "Diodorus: 25,000 foot and 3,500 horse"
+    casualties: "Diodorus: more than 500 killed"

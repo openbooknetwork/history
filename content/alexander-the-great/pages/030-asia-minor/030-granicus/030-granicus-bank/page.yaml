@@ -1,0 +1,31 @@
+date: "May 334 BC"
+title: "The fight on the bank"
+zones: []
+sources:
+  - "Arrian, Anabasis of Alexander, book 1, 15 to 16 (tr. E. J. Chinnock)."
+  - "Plutarch, Life of Alexander, 16 (tr. B. Perrin)."
+  - "Diodorus Siculus, Library of History, book 17, 19 to 21 (tr. C. B. Welles)."
+  - "A. B. Bosworth, Conquest and Empire: The Reign of Alexander the Great (1988), ch. 2.III."
+bbox: [27.26841, 40.30344, 27.31338, 40.34751]
+emblem:
+  kind: battle-plan
+  water:
+    - {path: [[27.27508, 40.29363], [27.27867, 40.30509], [27.2811, 40.3167], [27.28341, 40.32833], [27.28688, 40.3398], [27.29001, 40.35132]], width: 60, id: granicus, name: The river Granicus}
+  units:
+    - {side: macedon, type: cavalry, at: [27.28604, 40.31373], width: 600, depth: 250, facing: 100, id: companions, name: 'Companion cavalry under Philotas, with Alexander, and the archers and Agrianians'}
+    - {side: macedon, type: cavalry, at: [27.28326, 40.31411], width: 250, depth: 60, facing: 100, id: vanguard, name: 'Vanguard under Amyntas, son of Arrhabaeus: the lancers, the Paeonians and the squadron of Socrates, son of Sathon, what is left of it'}
+    - {side: macedon, type: pikes, at: [27.28714, 40.31956], width: 340, depth: 200, facing: 100, id: hypaspists, name: 'Hypaspists under Nicanor, son of Parmenion'}
+    - {side: macedon, type: pikes, at: [27.28847, 40.32535], width: 760, depth: 200, facing: 100, id: phalanx-right, name: 'Phalanx, right of the centre: the battalions of Perdiccas, Coenus, Craterus and Amyntas, son of Andromenes'}
+    - {side: macedon, type: pikes, at: [27.28985, 40.33136], width: 400, depth: 200, facing: 100, id: phalanx-left, name: 'Phalanx, left of the centre, with the battalion of Meleager'}
+    - {side: macedon, type: cavalry, at: [27.291, 40.33534], width: 340, depth: 250, facing: 100, id: allied-cavalry, name: 'Thracian cavalry and allied Greek cavalry under Philip, son of Menelaus'}
+    - {side: macedon, type: cavalry, at: [27.29197, 40.33957], width: 440, depth: 250, facing: 100, id: thessalians, name: Thessalian cavalry under Calas}
+    - {side: persia, type: pikes, at: [27.30127, 40.32637], width: 1500, depth: 300, facing: 280, id: mercenaries, name: 'Greek mercenaries in Persian pay, a little under 20,000 (Arrian)'}
+  arrows:
+    - {side: macedon, path: [[27.28082, 40.31444], [27.28442, 40.31395]], width: 150, id: companions-push, name: Alexander’s horse drive the Persians off the bank}
+    - {side: macedon, path: [[27.27919, 40.3266], [27.28325, 40.32605], [27.28719, 40.32552]], width: 220, id: phalanx-crossing, name: The phalanx crosses the river}
+    - {side: macedon, path: [[27.28187, 40.33883], [27.28605, 40.33826], [27.28988, 40.33774]], width: 140, id: left-crossing, name: Parmenion’s cavalry cross on the left (from Diodorus’s account)}
+    - {side: persia, path: [[27.28845, 40.31433], [27.29591, 40.31607], [27.30662, 40.31582]], width: 140, id: persian-flight, name: The Persian left and centre break and flee, style: dashed}
+    - {side: persia, path: [[27.29406, 40.33929], [27.30181, 40.33916], [27.31208, 40.3396]], width: 120, id: persian-flight-right, name: The Persian right wing flees, style: dashed}
+  clashes:
+    - {at: [27.28825, 40.31344], size: 240}
+markers: [granicus-bank-alexander, granicus-bank-cleitus, granicus-bank-spithridates, granicus-bank-memnon, granicus-bank-parmenion]

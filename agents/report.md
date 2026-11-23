@@ -32,6 +32,9 @@ Every dispatch, and every message that resumes an agent, opens with this block:
 ```yaml
 story: alexander-the-great
 section: "020"            # all, for an agent that works on the whole story
+battle: issus-333         # only for an agent that works on one battle
+pages: [the-danube]       # only where the work is named pages of the section and no others
+lang: tr                  # only for an agent that works in one language
 step: maps                # the step's name, as `ORDER` of `scripts/transcripts.mjs` lists them
 task: draw                # one word from the list in the role's definition
 faults: .plan/faults/020.yaml    # only where the task is a fix or a recheck

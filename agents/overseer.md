@@ -67,6 +67,8 @@ Every dispatch, and every message that resumes an agent, opens with the block of
 
 - It points and does not paste. It holds no rule, which is in `rules.md`, no fault, which is in the fault list,
   and no list of files to read, which the role's definition gives for a story and a section.
+- `battle`, `pages` and `lang` stand only where the work is one battle, named pages or one language. The story,
+  the section, and these three where they stand, are all the block says of what to work on.
 - `task` is one word from the list in the role's definition.
 - `scratchpad` names a folder of the agent's own, since agents that run at once share the scratchpad.
 - `note` gives context and never instructs. It states a fact about this one dispatch that no channel holds. It is

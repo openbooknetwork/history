@@ -116,10 +116,40 @@ for a `when`: the linter of 3.1 does, for a history story. `[2.13]`
 
 These are edits to the notes and definitions. They fix forms that layer 3 checks and layer 4 relies on.
 
-**2.1 `rules.md` at step 4.** *history.* `agents/overseer.md` has the overseer write
-`content/<story>/.plan/rules.md` with the final brief: every standing rule of the story, kept current. Every agent
-reads it, and only the overseer and the reviewer read `decisions.md`. Done when no dispatch has to restate a rule.
-`[F11, L2]`
+**2.0 The channels agents speak through.** *history.* Agents pass work to each other through seven channels and
+through nothing else. Each has one kind of writer, a known reader, one place in the story's `.plan/` folder and,
+where a script reads it, a form a script can check.
+
+| Channel | Writer | Reader | Place and form |
+|---|---|---|---|
+| Work products | the agent of each step | the later steps | `brief.md`, `research.md`, `names.md`, the plans, as today |
+| Rules | the overseer alone | every agent | `agents/*.md` for every story, `.plan/rules.md` for this one |
+| Dispatch | the overseer | one agent | a fixed form: story, section, step, task, the files to read |
+| Report | an agent | the overseer | the block of `agents/report.md`, saved to `.plan/reports/` |
+| Fault list | a checker | the fixer | `.plan/faults/<section>.yaml`, each fault a clause edit with a state |
+| Handoff | an agent | the next agent of its role | `.plan/handoff/<role>.md`, one page |
+| Decision log | the overseer | the user and the reviewer | `.plan/decisions.md`, the history alone |
+
+- What the next agent needs is in a channel. Nothing that matters stays only in a scratchpad or a message.
+- Agents do not write to each other. A checker writes a fault, the fixer sets its state, and the checker reads
+  the list again. The overseer rules on a fault and no longer relays it.
+- A fault in the list carries its `id`, `severity`, `file`, the field, the `old` and `new` text, its `source`,
+  `introduced` and a `state` of `open`, `fixed` or `declined`. `scripts/fault-ledger.mjs` then counts from these
+  files, and from the transcripts only for a run that has none.
+- The loose files of the Alexander run each have a channel: `cartography-notes.md` and `IMPLEMENTOR-NOTES.md`
+  are handoffs, the fact-checker's files and the overseer's queued fixes are fault lists, and the rules inside
+  `decisions.md` and the dispatches are `rules.md`.
+- A run's own notes, as `feedback.md`, `evaluation.md` and `lean.md` were for Alexander, are a record of the
+  run and no channel. They go beside `run.json`, in `.plan/run/`, and not at the repo's root.
+
+Items 2.1, 2.6, 2.7 and 2.8 each set out one channel, 4.2 the handoff, and the workflow script of 6.5 runs on
+them. Done when `agents/overseer.md` and `agents/report.md` name the seven, each definition names the ones its
+agent reads and writes, and a story builds with no other file passed between agents. `[F11, F12.5, F13, L2, L6]`
+
+**2.1 The rules channel: `rules.md` at step 4.** *history.* `agents/overseer.md` has the overseer write
+`content/<story>/.plan/rules.md` with the final brief: every standing rule of the story, kept current. Only the
+overseer writes it. Every agent reads it, and only the overseer and the reviewer read `decisions.md`. Done when
+no dispatch has to restate a rule. `[F11, L2]`
 
 **2.2 The lasting rules move into `agents/`.** *history.* Into `agents/pages.md`: a card stands on its battle's
 site and never moves for layout; a town marker on a card's point comes off that page; a zone's legend name carries
@@ -138,17 +168,19 @@ the body's word limit. Done when `rules.md` of a new story holds only what is pa
 **2.5 A route line cites its passage.** *history.* Every route in a plan names the passage that gives its
 stations. `[F9, E1]`
 
-**2.6 Fixes are clause edits.** *history.* A fix instruction names the file and field, says whether it replaces
-the whole value or one clause, and quotes the old text. The fixer reports the diff of each changed field and
-keeps every author's figure unless told to remove it. Auditors recheck a fix against the previous commit. Goes
-into `agents/report.md` and each fixer's definition. `[F13, L6]`
+**2.6 The fault list: a fix is a clause edit.** *history.* A fault names its file and field, says whether it
+replaces the whole value or one clause, and quotes the old text. The fixer sets the fault's state, reports the
+diff of each changed field, and keeps every author's figure unless told to remove it. A checker rechecks a fix
+against the previous commit. The form is 2.0's, in `agents/report.md` and each fixer's definition. `[F13, L6]`
 
-**2.7 The fact-checker's fault file.** *history.* The fact-checker writes each fault to a file with the quoted
-words, the source line and the fix as a clause edit in the form of 2.6. `[L6, F17]`
+**2.7 Every checker writes the fault list.** *history.* The fact-checker, the map-auditor, the battle-auditor,
+the editor and the story-auditor write their faults to `.plan/faults/<section>.yaml` in the form of 2.6, each
+with its source line. The fixer applies the list without doing the research again. `[L6, F17]`
 
-**2.8 Short reports.** *history.* An agent returns the YAML block and at most ten lines, and writes the detail to
-a file it names. `agents/report.md` also gains an owner value for the brief and for the overseer. `[F12.5, F11,
-L7]`
+**2.8 The report channel: short, and saved.** *history.* An agent returns the block of `agents/report.md` and at
+most ten lines, and saves the block to `.plan/reports/`. Its faults are in the fault list, so the block names
+their ids and does not repeat them. `agents/report.md` also gains an owner value for the brief and for the
+overseer. `[F12.5, F11, L7]`
 
 **2.9 Commits name their paths.** *history.* No `git commit -a` and no `git add -A` while agents run in parallel.
 Goes into `agents/overseer.md` and every definition that commits. `[F17.8, L9]`
@@ -238,9 +270,10 @@ runs, with one desktop capture per page and geometry scripts first, only wrong a
 pass skipped only where another covers it and the ruling is logged. A taste fault that touches a shared file such
 as `names.md` is fixed. `[L]`
 
-**4.2 Fresh agents with a handoff note.** *history.* One agent per section, started from `rules.md`, the
-section's slices and a one-page note from the agent before it. An agent is resumed only for a small follow-up on
-its own generator. Done when no agent's context passes 300,000 tokens. `[F12.6, L1]`
+**4.2 Fresh agents with a handoff.** *history.* One agent per section, started from `rules.md`, the section's
+slices and the handoff of its role, `.plan/handoff/<role>.md`: one page the agent before it leaves, with what the
+next one must know and nothing else. An agent is resumed only for a small follow-up on its own generator. Done
+when no agent's context passes 300,000 tokens. `[F12.6, L1]`
 
 **4.3 The fact-checker applies its own edits.** *history.* It gains `Edit` and applies its wrong and weak clause
 edits. The reviewer keeps readability, Notes and length, and does not reread the sources. Tested on the benchmark

@@ -1,7 +1,7 @@
 # Spec: a cheaper story pipeline
 
 Changes to the agents' process, drawn from `feedback.md`, `evaluation.md` and `lean.md` after the Alexander the
-Great cloud run. Each item says what changes, where, and when it is done. Bracketed references point at the note
+Great cloud run. The three are in `content/alexander-the-great/.plan/run/`. Each item says what changes, where, and when it is done. Bracketed references point at the note
 that argues for it: `[F12.1]` is `feedback.md` item 12 point 1, `[E4.1]` is `evaluation.md` section 4.1, `[L6]` is
 `lean.md` rule 6.
 

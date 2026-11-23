@@ -15,6 +15,10 @@ A story can sit in a group folder, such as the Ottoman series in `content/ottoma
 A battle's card is its own folder, `content/<story>/shared/battles/<battle id>/battle.yaml`, and the story's pages
 show it with `battle: <battle id>`.
 
+A card stands on its battle's site: a siege on its town, a field battle on its field. The card's `lnglat` says
+where the battle was fought, so it never moves for layout. A town marker that overlaps a card comes off that
+page, since the card's crossed swords hide it, and the text names the town without a link.
+
 ## Battle plans
 
 Every battle in the stories is drawn as phase pages by the `battle-plan` emblem that harita ships, laid out by
@@ -32,6 +36,19 @@ the family of the state that holds the place, and a route's `color` the family o
 travel it. A battle plan's routes name the battle's families. A page lists the routes of one family in the order
 they were travelled: each gets its number, the last takes the full colour and the earlier ones shades of it. `./node_modules/.bin/harita check <story>` reports a family with two
 zones on a page, and `./node_modules/.bin/harita patterns` lists the families that look alike on a page.
+
+## Zones and markers from page to page
+
+These hold for a story whose pages each list their zones.
+
+- A zone's legend name carries no date, since the page's own date tells the reader the year. A dated name is kept
+  only where the zone shows a border of another year than its page's.
+- A page shows every zone its neighbours show for its frame, unless its text tells a change, so no land shows
+  bare between two pages that show it held.
+- A zone is cut once for the whole story, by the zones that share any page with it, and not page by page. So a
+  zone cut back in stages takes one `zones.yaml` entry per stage.
+- A marker's note tells the event of its own page. Markers live in one `shared/markers.yaml`, so one id has one
+  note, and a page that needs a place another page marks for another event takes a marker id of its own.
 
 ## Shared zones
 

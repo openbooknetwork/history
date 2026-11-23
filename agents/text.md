@@ -25,6 +25,7 @@ Where two of these pull apart, the earlier one wins.
 6. **In the book's own words.** Wikipedia is CC BY-SA, and the book takes facts from it and no sentences. A quote
    from a chronicle or a letter is short and names its author.
 7. **Short.** Most texts run 150 to 300 words. A page that names both sides of a disputed figure may run to 350.
+   The limit is the body's: the notes of "Notes" below do not count.
 
 ## Language
 
@@ -35,6 +36,14 @@ The English tells history in the present tense: "In January 1348 the plague reac
 historian later writes keep their own tense: "Benedictow puts the dead at 60 percent."
 
 A person or a place takes the form `content/<story>/.plan/names.md` gives it for the year of the page.
+
+## Notes
+
+A disputed claim goes into a note, and not into the body. The body tells the account the map follows, or a
+wording that is true for every account, and marks it with an escaped marker: `\*`, then `\*\*`, then `\*\*\*`.
+Without the backslash Markdown reads the marker as italics. After the body comes the heading `### Notes`, with
+one paragraph per note that starts with its marker and gives each account with its author and figures. A page
+with no disputed claim has no Notes heading. An `open` claim stays in the body.
 
 ## Places in the text
 

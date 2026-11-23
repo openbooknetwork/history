@@ -26,7 +26,7 @@ Read these first:
 
 The `section-coordinator`, the `cartographer` and the `map-auditor`, the `section-writer`, the `image-finder`,
 the `fact-checker` and the `section-reviewer`, each one agent for your section. One `battle-coordinator` for each
-battle with phases, which leads that battle's implementor and auditor. The `battle-implementor` for a battle with a card alone. A `researcher`, with the task `add`, for a fact the digest lacks.
+battle with phases, which leads that battle's implementor and auditor. A `researcher`, with the task `add`, for a fact the digest lacks.
 
 Run `node scripts/slice.mjs <story> <number>` before you dispatch, and again when the digest, the names or the
 plan has changed. Dispatch each with the block of "The dispatch" in `agents/report.md`, and `serve: static` for one that takes
@@ -56,10 +56,9 @@ With `build`:
    cartographer fixes from the section's fault list and the auditor rechecks, until it reports `pass`.
 2. **Texts.** Dispatch the `section-writer` once the cartographer has written the section's page files. It does
    not wait for the map audit.
-3. **Battles.** For each battle with phases, dispatch its `battle-coordinator` with the task `build`. For each
-   battle with a card alone, dispatch the `battle-implementor`. Such a card has no battle audit: the fact checker
-   of step 5 checks it.
-4. **Images.** Dispatch the `image-finder` once the section has its texts and its battle cards.
+3. **Battles.** For each battle with phases, dispatch its `battle-coordinator` with the task `build`. A battle with a card alone has its card since `plans` and no battle audit: the fact checker of step 5
+   checks it.
+4. **Images.** Dispatch the `image-finder` once the section has its texts.
 5. **Facts and review.** Dispatch the `fact-checker` with `check`, then the `section-reviewer`, then the
    fact checker with `recheck`, until it reports `pass`. The faults the reviewer wrote for the cartographer and
    the image finder go to them then.

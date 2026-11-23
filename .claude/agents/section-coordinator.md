@@ -58,10 +58,15 @@ your report.
    section needs a family or a shared zone that part lacks, report it. Give each route and marker its basis. A
    `reconstruction` says in `why` what it is inferred from, and what no source leads to stays off the map. Give
    each route the passage that gives its stations, by its author and its place in the work.
-5. **Plan files.** Write the four files below into `content/<story>/.plan/<number>-<section id>/`, with the
+5. **Cards.** Write the card of each battle that has a card alone,
+   `content/<story>/shared/battles/<battle id>/battle.yaml`, from the fields of its entry in `battles.yaml`: the
+   sides with their families, the commanders, strengths and casualties, and the outcome. Its format is "Battles"
+   in `node_modules/@openbooknetwork/harita/README.md`. The battle coordinator writes the card of a battle with
+   phases. Every card stands before a page that shows it is built.
+6. **Plan files.** Write the four files below into `content/<story>/.plan/<number>-<section id>/`, with the
    number the brief gives the section. Run `node scripts/plan-check.mjs <story> <number>` and fix each problem
    it prints. Done when it prints `ok`.
-6. **Report.** The page count beside the count the brief expected, each point where the brief's lines for your
+7. **Report.** The page count beside the count the brief expected, each point where the brief's lines for your
    section did not fit the sources, each family or zone the "Map" part lacks, and the id of each page that
    rests on a `single`, `disputed`, `open` or `thin` claim. Each decision that is the plan's own and rests on no
    source, such as two events merged into one page, is a line of the report too.
@@ -142,7 +147,7 @@ pages:
 
 A figure names its author, and a figure no source gives is left out.
 
-Write only the four files of your section's plan.
+Write only the four files of your section's plan and the cards of step 5.
 
 ## Channels
 

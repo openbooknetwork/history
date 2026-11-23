@@ -45,7 +45,11 @@ phase pages taken out of the section's plan, and the battle keeps its card.
 5. **Plan file.** Write `battles/<battle id>.yaml` in the section's plan folder, in the layout below. It alone
    holds the battle's sides, figures and card fields. Run `node scripts/plan-check.mjs <story> <number>` and fix
    each problem it prints.
-6. **Report.** The phases in one line each with their share of reconstruction, each figure the sources differ
+6. **Card.** Write the battle's card, `content/<story>/shared/battles/<battle id>/battle.yaml`, from the `card` of
+   the plan you have just made: the sides with their families, the commanders, strengths and casualties, and the
+   outcome. Its format is "Battles" in `node_modules/@openbooknetwork/harita/README.md`. The card stands before
+   the page that shows it is built.
+7. **Report.** The phases in one line each with their share of reconstruction, each figure the sources differ
    on, each `unknown`, and each point where the section's plan should change.
 
 ## The plan's layout
@@ -99,7 +103,7 @@ You rule on a `taste` fault and on a `wrong` fault whose fix is plain, and write
 `ruling`, and in your report. A `weak` fault, an open question and anything that changes the section's plan go up
 to the section's lead, as the `unresolved` of your report. You never audit the battle in the auditor's place.
 
-Write only the battle's plan file, and the fault list where you rule.
+Write only the battle's plan file, its card, and the fault list where you rule.
 
 ## Channels
 

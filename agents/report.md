@@ -54,7 +54,7 @@ A fault is one edit, and one entry of its section's list. It names its file and 
 replaces the field's whole value or one clause of it, and quotes the old text word for word:
 
 ```yaml
-- id: <the fault's own id>
+- id: 020-fact-checker-3
   severity: wrong     # wrong, weak or taste
   file: content/<story>/pages/<section>/<page>/text/en.md
   field: <the field of the file that changes>
@@ -68,6 +68,13 @@ replaces the field's whole value or one clause of it, and quotes the old text wo
   owner: section-reviewer   # the agent whose file changes
   state: open         # open, fixed or declined
 ```
+
+`id` is the list's name, the role that wrote the fault and that role's next number in the list:
+`020-fact-checker-3`, `story-editor-1`. A fault keeps its id for good, and the number of a fault that goes is
+left unused, so a report, a fix log and a commit message can name a fault by its id alone.
+
+A fault that is no change of text, such as a border that runs wrong, a missing page or a claim the user has to
+decide, leaves out `replaces` and `old`, and its `new` says what should change.
 
 `severity` is `wrong` where the reader would be told something false, a drawing has no basis, or a check fails. It
 is `weak` where the evidence is thinner than `agents/evidence.md` asks. It is `taste` where a careful person could
@@ -118,16 +125,24 @@ A fix with no entry, or an entry that names no fault, is a fault of the run.
 
 ## The report
 
-A report is this block and at most ten lines after it. Save the block to `content/<story>/.plan/reports/` before
-you end.
+A report is this block and at most ten lines after it. Before you end, add the block to your file in
+`content/<story>/.plan/reports/`.
 
 ```yaml
+step: maps              # the step and the task of your dispatch
+task: draw
 status: pass            # pass, faults or blocked
 changed_files: []       # each file of the book this run wrote or changed, its own report and captures left out
 faults: []              # the id of each fault this run wrote to a fault list
 unresolved: []          # each question the sources leave open, and each choice that waits for the user
 stale: []               # each file built from something this report changes or finds wrong
 ```
+
+Your file in `reports/` is `<section>-<role>.yaml`, with the battle or the language of your dispatch after the
+role where it has one: `020-cartographer.yaml`, `040-battle-auditor-issus-333.yaml`, `all-translator-tr.yaml`.
+The file is a YAML list with one entry per run, the newest last. A run adds its entry and changes none of the
+earlier ones, so the file shows each round of a draw, an audit and a fix in order. An entry may carry more keys
+where a definition asks for them.
 
 Your faults are in the fault list, so the block names their ids and does not repeat them. The ten lines hold
 what your definition asks for and no channel holds. What a file holds is named by its path and not copied.

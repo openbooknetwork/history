@@ -20,7 +20,7 @@ Whoever takes the story over, on another machine or in another session, starts f
 | `battles/<battle id>.md` | `battle-coordinator` | one battle's ground, order of battle and phases |
 | `rules.md` | you alone | every standing rule of this story, beyond `agents/` |
 | `decisions.md` | you | the state of each step, and each decision with its reason |
-| `reports/` | every agent | the block each report opens with |
+| `reports/<section>-<role>.yaml` | every agent | the block of each of its reports, one entry per run |
 | `faults/<section number>.yaml`, `faults/story.yaml` | the checkers | each fault, with its state |
 | `fixes/<section number>.yaml` | whoever fixes a fault | each change that fixed one |
 | `handoff/<role>.md` | an agent | one page for the next agent of its role |

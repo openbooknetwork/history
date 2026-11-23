@@ -131,8 +131,8 @@ where a script reads it, a form a script can check.
 |---|---|---|---|
 | Work products | the agent of each step | the later steps | `brief.md`, `research.md`, `names.md`, the plans, as today |
 | Rules | the overseer alone | every agent | `agents/*.md` for every story, `.plan/rules.md` for this one |
-| Dispatch | the overseer | one agent | a fixed form: story, section, step, task, the files to read |
-| Report | an agent | the overseer | the block of `agents/report.md`, saved to `.plan/reports/` |
+| Dispatch | a manager (2.17) | one agent of its team | a fixed form: story, section, step, task, the files to read |
+| Report | an agent | the manager that dispatched it | the block of `agents/report.md`, saved to `.plan/reports/` |
 | Fault list | a checker | the fixer | `.plan/faults/<section>.yaml`, each fault a clause edit with a state |
 | Fix log | whoever changes a file to fix it | the reviewer and the user | `.plan/fixes/<section>.yaml`, one entry a change |
 | Handoff | an agent | the next agent of its role | `.plan/handoff/<role>.md`, one page |
@@ -140,7 +140,7 @@ where a script reads it, a form a script can check.
 
 - What the next agent needs is in a channel. Nothing that matters stays only in a scratchpad or a message.
 - Agents do not write to each other. A checker writes a fault, the fixer sets its state, and the checker reads
-  the list again. The overseer rules on a fault and no longer relays it.
+  the list again. The manager of the two rules on a fault and does not relay it.
 - A fault in the list carries its `id`, `severity`, `file`, the field, the `old` and `new` text, its `source`,
   `introduced` and a `state` of `open`, `fixed` or `declined`. `scripts/fault-ledger.mjs` then counts from these
   files, and from the transcripts only for a run that has none.
@@ -342,6 +342,63 @@ upstream" in `agents/overseer.md`, which the overseer keeps from memory today.
 
 Done when a run's stale list names the files to build again after a plan changes, with no file missed and none
 listed that did not rest on the change. `[F17.5]`
+
+**2.17 A hierarchy of managers, so none is overloaded.** *history.* **Agreed.** In the Alexander run one overseer
+dispatched all 72 agents, read every report and relayed every fault, and its context carried the whole run: 221
+million cache-read tokens, a fifth of the run's. Claude Code lets an agent start agents of its own, three
+layers below the main session (6.7). The work is ordered on that, so each manager holds a team it can read.
+
+```
+overseer                                   the story: the brief, the rules, the rulings, the user
+ ├─ research-coordinator                   the digest
+ │   ├─ researcher, per section
+ │   └─ research-reviewer, per section
+ ├─ names, map-architect, map keeper       work on the whole story, each one agent
+ ├─ editor                                 the pre-plan check, and the edit
+ ├─ section lead, one per section          the section, from its plans to its reviewed pages
+ │   ├─ section-coordinator                its plans
+ │   ├─ fact-checker                       its plan check, and its facts
+ │   ├─ cartographer, map-auditor
+ │   ├─ section-writer, section-reviewer
+ │   ├─ image-finder
+ │   └─ battle-coordinator, per battle     the battle
+ │       ├─ researcher, for the battle
+ │       ├─ battle-implementor
+ │       └─ battle-auditor
+ └─ story-auditor
+```
+
+- **Three kinds of role.** A manager dispatches, rules and merges: the overseer, the research-coordinator, a
+  section lead and a battle-coordinator. A worker makes a thing. A checker tests what a worker made. Only a
+  manager's definition has the `Agent` tool, so a worker or a checker cannot start anyone.
+- **The section lead is new.** It takes one section from its plans to its reviewed pages in the fixed order of
+  5.0, reads its team's reports, rules on what its section can settle, and reports to the overseer once: the
+  block, the counts, and what it could not settle. The overseer then reads about one report a section for a
+  step, where it read every agent's.
+- **A manager and its team.** A manager dispatches its own team and nobody else's, by the dispatch form of 2.0,
+  which holds at every level: the plugin's hook on a dispatch runs inside agents too. A report goes up one
+  level, to the manager that dispatched its agent, and no further as it is.
+- **What goes up is small.** A manager passes up a status, the counts of its team's faults, each question it
+  could not settle and each file made stale. The detail stays in the channels, the fault list, the fix log and
+  the reports, where the level above reads it only when it must.
+- **Who rules on what.** A maker and its checker are siblings under one manager, and neither is over the other.
+  Their manager rules on a `taste` fault and on a `wrong` fault whose fix is plain. A `weak` fault, an open
+  question and anything that changes the brief or another section go up, to the overseer and through it to the
+  user. A manager never checks its own team's work in a checker's place.
+- **No manager is overloaded.** A manager holds at most about ten agents at once, and no manager's context
+  passes the 300,000 tokens of 4.2: a section lead that would is given a fresh one with a handoff. 2.14 holds at
+  every level: a manager that changes a file or acts on its own judgement more than once for one kind of thing
+  has found a fault of the pipeline.
+- **The limits of the tool.** Three layers is the deepest the order goes, at a battle's agents, and it is
+  Claude Code's default limit. Twenty agents run at once by default: nine section leads with their teams pass
+  that, so the sections run in waves, or the limit is raised for the run.
+- **The ledgers show the tree.** A saved run names each agent's parent, and the viewer shows cost by manager
+  with its team's inside it, so an overloaded manager is seen in the numbers.
+
+The workflow of 6.5 is a section lead's fixed order written as a script. Where a workflow can call the plugin's
+agents, the lead keeps the rulings and the script the order. Done when the overseer of a full run dispatches
+fewer than thirty agents itself, no manager passes 300,000 tokens, and a run's ledger shows the tree.
+`[F11, F12.5, E4.9]`
 
 ## Layer 3. Scripts in place of agent checks
 
@@ -637,8 +694,9 @@ What the Claude Code docs say, read on 23 Nov 2026:
 - **A hook runs after an edit.** `PostToolUse` on a file edit runs a check and hands its errors back.
 - **A plugin's hooks run inside its agents too.** An agent's own `hooks` field is not read in a plugin, so
   every rule is in the plugin's one hooks file.
-- **An agent can start agents of its own,** three layers deep, unless `Agent` is left out of its tools. Every
-  definition of the plugin leaves it out: by 2.0 a dispatch comes from the overseer or the workflow alone.
+- **An agent can start agents of its own,** three layers below the main session by default, unless `Agent` is
+  left out of its tools, and 20 agents run at once by default. The hierarchy of 2.17 is built on this: a
+  manager's definition has `Agent`, and a worker's and a checker's leave it out.
 - **A definition sets its agent's tools and model,** which is what 4.6 needs later.
 - **It is tried from a folder** with `--plugin-dir`, checked with `claude plugin validate`, and installed from
   a marketplace, which can be a private repo.
@@ -790,9 +848,11 @@ researchers under it take its place, in two rounds.
   losses. The `battle-coordinator` then reads the passages those lines mark and plans the ground, the order of
   battle and the phases. Its plan cites the claim ids and no longer carries the quotes. The section's researcher
   writes no claim on that battle. A battle with a card alone stays with the section's researcher.
-- **A gap goes back through a channel.** A battle-coordinator or a writer that lacks a fact does not search for
-  it. It reports the question, and the research-coordinator dispatches a researcher for it. No agent starts
-  another, though the tool would let it (6.7): every dispatch comes from the overseer or the research-coordinator.
+- **A gap is researched, not searched for.** A writer that lacks a fact does not search for it: it reports the
+  question to its section lead, which dispatches a researcher for it (2.17). A battle-coordinator, itself a
+  manager, dispatches the researcher of its battle. The lines go to the research-coordinator's merge like any
+  others, so the digest keeps one owner. How a gap's lines are merged once round 2 has ended is settled when it
+  is built.
 - **A plan can mark any other page heavy,** for its many sources or its disputed figures, and that page gets a
   researcher of its own. It is the exception.
 - **A `research-reviewer` checks each section's lines before they are merged.** Research was the one step that

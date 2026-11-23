@@ -601,8 +601,10 @@ build. `[F10]`
 **6.5 A workflow script for a section.** *history.* Draw, lint, audit, fix, battles, images, fact-check and
 review as one script, so the overseer rules and does not relay. `[F12.11]`
 
-**6.6 Images uploaded by a workflow.** *history.* A GitHub workflow holds the store token, and on a pull request
-unpacks and uploads the images and removes the pack. `[F20]`
+**6.6 Images uploaded by a workflow.** *history.* **Not yet.** The upload stays a step the maintainer does on
+their own machine, `node scripts/images-pack.mjs unpack` and `harita upload --story <id>`, until the pipeline
+itself is settled. `agents/cloud.md` keeps the pack on the branch and says the merge is a squash (2.12). Later a
+GitHub workflow could hold the store token and, on a pull request, unpack, upload and remove the pack. `[F20]`
 
 **6.7 The plugin, the end goal.** *history.* The agents of `.claude/agents/`, the notes of `agents/`, the
 channels of 2.0 and the scripts of layers 0 and 3 packaged as a Claude Code plugin, so every repo built on harita

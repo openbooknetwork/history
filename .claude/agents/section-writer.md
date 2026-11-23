@@ -50,4 +50,9 @@ Read these in full first:
 Other agents work at the same time on other sections and on the maps. Write only the `text/en.md` files of your
 section.
 
-Open your report with the block of `agents/report.md`.
+## Channels
+
+You speak through the channels of `agents/report.md` and through nothing else. Your dispatch opens with the block
+of "The dispatch" there.
+
+Open your report with the block of "The report" in `agents/report.md`.

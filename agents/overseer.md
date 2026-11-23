@@ -19,6 +19,10 @@ Whoever takes the story over, on another machine or in another session, starts f
 | `<number>-<section id>.md` | `section-coordinator` | one section's pages, their sources and Contract |
 | `battles/<battle id>.md` | `battle-coordinator` | one battle's ground, order of battle and phases |
 | `decisions.md` | you | the state of each step, and each decision with its reason |
+| `reports/` | every agent | the block each report opens with |
+| `faults/<section number>.yaml`, `faults/story.yaml` | the checkers | each fault, with its state |
+| `fixes/<section number>.yaml` | whoever fixes a fault | each change that fixed one |
+| `handoff/<role>.md` | an agent | one page for the next agent of its role |
 
 `content/<story>/wikipedia.urls` and `references.urls` list the addresses the research read.
 `./node_modules/.bin/harita sources <story>` fetches them again into `.wikipedia/` and `.references/`, which git
@@ -26,6 +30,36 @@ leaves out.
 
 Write to `decisions.md` as you go: a step that ends, a ruling between two plans, a choice made in the user's place,
 a fault that changed a plan, and what is left to do. One line each, with the reason.
+
+## Channels
+
+Agents pass work to each other through the eight channels of `agents/report.md` and through nothing else: the
+work products, the rules, the dispatch, the report, the fault list, the fix log, the handoff and the decision
+log. You write the rules, each dispatch and `decisions.md`, and you read the reports.
+
+- You rule on a fault and do not relay it. The checker writes it to the fault list, the fixer reads it there, and
+  your dispatch names the list.
+- No fix without its fault. Where you correct a file yourself, even one word of a caption, write the fault to the
+  fault list first, then make the change, then add its entry to the fix log.
+- A run's own notes, such as what failed and what the run cost, are a record of the run and no channel. They go
+  in `content/<story>/.plan/run/`, and not at the repo's root. The saved run stays at `.plan/run.json`.
+
+## Dispatches
+
+Every dispatch, and every message that resumes an agent, opens with the block of "The dispatch" in
+`agents/report.md`. Nothing follows the block.
+
+- It points and does not paste. It holds no rule, which is in `rules.md`, no fault, which is in the fault list,
+  and no list of files to read, which the role's definition gives for a story and a section.
+- `task` is one word from the list in the role's definition.
+- `scratchpad` names a folder of the agent's own, since agents that run at once share the scratchpad.
+- `note` gives context and never instructs. It states a fact about this one dispatch that no channel holds. It is
+  one sentence of at most 200 characters, and it is empty in most dispatches. A note that tells the agent how to
+  work is a prompt inside the dispatch, which is the thing the form replaces. A fact given in a second note
+  belongs in `rules.md`.
+- The tool's short description takes one form too, the step, the section, the role and the task, as
+  `maps 020 cartographer draw`, so the list of agents reads as the run.
+- Dispatches are not saved to files. The transcript holds them.
 
 ## Steps
 
@@ -58,7 +92,7 @@ a fault that changed a plan, and what is left to do. One line each, with the rea
    when the user agrees them.
 8. **Maps and texts.** Start the story's dev server in the background, as "Checking a story" in `agents/pages.md`
    says, and note its process id. Name its port in every dispatch from here to step 14, so no agent builds the
-   story a second time, and stop it after step 14. Dispatch the `cartographer` with the sections in order, one
+   story a second time, and stop it after step 14. The port is the `serve` of each dispatch. Dispatch the `cartographer` with the sections in order, one
    section at a time. The same cartographer takes every section, so each zone, route and family exists once. When
    it reports on a section, dispatch the `map-auditor` with that section. A fault goes back to the same
    cartographer together with the next section, and the last section is audited until it reports `pass`. Dispatch
@@ -96,13 +130,13 @@ a fault that changed a plan, and what is left to do. One line each, with the rea
     language. A change to an English text after this step goes to the translator of each language again, with
     the page ids.
 
-An agent that is resumed keeps what it read: send it the fault with `SendMessage` in place of a new dispatch.
+An agent that is resumed keeps what it read: resume it with `SendMessage` in place of a new dispatch. The message
+opens with the block too, and the fault it is resumed for is in the fault list.
 
 ## Reports
 
 Every agent opens its report with the block of `agents/report.md`. Act on it before the prose:
 
-- Name a scratchpad folder of its own in each dispatch, since agents that run at once share the scratchpad.
 - `blocked` stops the step. Clear what blocks it, or take the question to the user.
 - A `wrong` fault goes to its `owner`. A `weak` fault is the user's decision. A `taste` fault is yours.
 - Copy each `unresolved` line into `decisions.md`. An agent's answer to an open question is a proposal until the

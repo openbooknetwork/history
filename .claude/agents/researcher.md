@@ -69,5 +69,11 @@ Each address that failed, what was wanted from it, and the file name the command
 the page under that name, and the command reads it on its next run.
 ```
 
-Write only `wikipedia.urls`, `references.urls` and `research.md`. Open your report with the block of
-`agents/report.md`.
+Write only `wikipedia.urls`, `references.urls` and `research.md`.
+
+## Channels
+
+You speak through the channels of `agents/report.md` and through nothing else. Your dispatch opens with the block
+of "The dispatch" there.
+
+Open your report with the block of "The report" in `agents/report.md`.

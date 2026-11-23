@@ -62,4 +62,9 @@ Read these first:
    line of the source it goes against, and the capture that shows it. Under `unresolved` list each border the
    sources leave open, so the overseer knows which lines are the cartographer's own.
 
-Open your report with the block of `agents/report.md`.
+## Channels
+
+You speak through the channels of `agents/report.md` and through nothing else. Your dispatch opens with the block
+of "The dispatch" there.
+
+Open your report with the block of "The report" in `agents/report.md`.

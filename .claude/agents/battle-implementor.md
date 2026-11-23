@@ -43,4 +43,12 @@ Read these in full first:
 
 Write only the battle's folder, its generator and its phase pages.
 
-Open your report with the block of `agents/report.md`.
+## Channels
+
+You speak through the channels of `agents/report.md` and through nothing else. Your dispatch opens with the block
+of "The dispatch" there.
+
+Where `content/<story>/.plan/handoff/battle-implementor.md` exists, read it first. Before you end, write there
+what the next battle implementor must know and nothing else, on one page.
+
+Open your report with the block of "The report" in `agents/report.md`.

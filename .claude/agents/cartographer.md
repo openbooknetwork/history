@@ -46,4 +46,13 @@ Read these in full first:
 The battle implementor writes the battle folders and the phase pages, and the writers the texts. Write only the
 section's page files, zones, routes and markers.
 
-Open your report with the block of `agents/report.md`.
+## Channels
+
+You speak through the channels of `agents/report.md` and through nothing else. Your dispatch opens with the block
+of "The dispatch" there. Your task is `draw` or `fix`: with `draw` you draw the section, and with `fix` you fix
+the faults of the list the dispatch names.
+
+Where `content/<story>/.plan/handoff/cartographer.md` exists, read it first. Before you end, write there what the
+next cartographer must know and nothing else, on one page.
+
+Open your report with the block of "The report" in `agents/report.md`.

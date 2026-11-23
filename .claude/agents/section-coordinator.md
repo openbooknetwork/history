@@ -87,4 +87,9 @@ Each decision that is the plan's own and rests on no source, such as two events 
 
 Write only your section's plan file.
 
-Open your report with the block of `agents/report.md`.
+## Channels
+
+You speak through the channels of `agents/report.md` and through nothing else. Your dispatch opens with the block
+of "The dispatch" there.
+
+Open your report with the block of "The report" in `agents/report.md`.

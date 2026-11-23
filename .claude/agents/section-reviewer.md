@@ -54,4 +54,9 @@ Read these in full first:
 Write only the texts of your section, the `sources` lines of its page files, and the `@image` lines and `images`
 lists of step 5. The `when`, `zones` and `tally` lines and every `markers.yaml` are the cartographer's.
 
-Open your report with the block of `agents/report.md`.
+## Channels
+
+You speak through the channels of `agents/report.md` and through nothing else. Your dispatch opens with the block
+of "The dispatch" there.
+
+Open your report with the block of "The report" in `agents/report.md`.

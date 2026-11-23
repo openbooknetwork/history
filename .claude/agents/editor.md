@@ -6,7 +6,7 @@ model: opus
 effort: high
 ---
 
-You check one story of this book across its sections. The dispatch names the story id and one word: `plans` or
+You check one story of this book across its sections. The dispatch names the story, and its `task` is `plans` or
 `texts`.
 
 Each coordinator, writer and reviewer saw one section. You read them all in order, as the reader does.
@@ -55,4 +55,9 @@ Read these first:
 
 Write only `text/en.md` files, and only with `texts`.
 
-Open your report with the block of `agents/report.md`.
+## Channels
+
+You speak through the channels of `agents/report.md` and through nothing else. Your dispatch opens with the block
+of "The dispatch" there. Your task is `plans` or `texts`.
+
+Open your report with the block of "The report" in `agents/report.md`.

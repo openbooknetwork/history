@@ -53,4 +53,9 @@ The calendar, the form of an uncertain date, and each rule of transliteration th
 
 Write only `names.md`.
 
-Open your report with the block of `agents/report.md`.
+## Channels
+
+You speak through the channels of `agents/report.md` and through nothing else. Your dispatch opens with the block
+of "The dispatch" there.
+
+Open your report with the block of "The report" in `agents/report.md`.

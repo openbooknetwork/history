@@ -63,4 +63,10 @@ Read these first:
    tells it. After the block give, per page, the count of claims you checked and the claims the story turns on
    with the work each rests on. Leave the `found` claims out.
 
-Open your report with the block of `agents/report.md`.
+## Channels
+
+You speak through the channels of `agents/report.md` and through nothing else. Your dispatch opens with the block
+of "The dispatch" there. Your task is `check` or `recheck`: with `check` you check the section, and with
+`recheck` the fixes of the fault list the dispatch names.
+
+Open your report with the block of "The report" in `agents/report.md`.

@@ -1,7 +1,89 @@
 # Reporting
 
-For every agent of `.claude/agents/` that reports to the overseer. A report opens with this block, and the prose
-the agent's definition asks for follows it.
+For every agent of `.claude/agents/`: the channels it speaks through, and the report it ends with.
+
+## Channels
+
+Agents pass work to each other through eight channels and through nothing else. Each has one kind of writer, a
+known reader and one place. The places below are in `content/<story>/.plan/`.
+
+| Channel | Writer | Reader | Place |
+|---|---|---|---|
+| Work products | the agent of each step | the later steps | `brief.md`, `research.md`, `names.md`, the section plans and the battle plans |
+| Rules | the overseer alone | every agent | `agents/*.md` for every story, `rules.md` for this one |
+| Dispatch | the overseer | one agent | the block of "The dispatch", in the message that starts or resumes the agent |
+| Report | an agent | the overseer | the block of "The report", saved to `reports/` |
+| Fault list | a checker | the fixer | `faults/<section number>.yaml`, and `faults/story.yaml` for a fault of no one section |
+| Fix log | whoever changes a file to fix it | the reviewer and the user | `fixes/<section number>.yaml`, one entry a change |
+| Handoff | an agent | the next agent of its role | `handoff/<role>.md`, one page |
+| Decision log | the overseer | the user and the reviewer | `decisions.md` |
+
+- What the next agent needs is in a channel. Nothing that matters stays only in a scratchpad or a message.
+- Agents do not write to each other. A checker writes a fault, the fixer sets its state, and the checker reads the
+  list again. The overseer rules on a fault and does not relay it.
+- **No fix without its fault.** Every change that fixes something closes a fault that was written to the fault
+  list first, however small the change and whoever makes it. There is one fault list and one fix log, and no fix
+  of another kind.
+
+## The dispatch
+
+Every dispatch, and every message that resumes an agent, opens with this block:
+
+```yaml
+story: alexander-the-great
+section: "020"            # all, for an agent that works on the whole story
+step: maps                # the step's name, as `ORDER` of `scripts/transcripts.mjs` lists them
+task: draw                # one word from the list in the role's definition
+faults: .plan/faults/020.yaml    # only where the task is a fix or a recheck
+scratchpad: <the agent's own folder>
+serve: static             # a static build of its own, or the port of a shared server
+note: Thessaly's border is row 12 of the brief's Map part.    # optional
+```
+
+The block points and does not paste. It holds no rule, which is in `rules.md`, no fault, which is in the fault
+list, and no list of files to read, which your definition gives for a story and a section. `note` states a fact
+about this one dispatch that no channel holds, such as where something is or what changed since the plan. It
+tells you nothing to do.
+
+## The fault list
+
+A fault is one entry of its section's list:
+
+```yaml
+- id: <the fault's own id>
+  severity: wrong     # wrong, weak or taste
+  file: content/<story>/pages/<section>/<page>/text/en.md
+  field: <the field of the file that changes>
+  old: <the text as it stands>
+  new: <the text that takes its place>
+  source: <the line of the source the fault rests on, with its file>
+  introduced: plan    # the work that made the fault, where you can tell
+  state: open         # open, fixed or declined
+```
+
+The checker writes the fault with the state `open`. The fixer sets it to `fixed` or `declined`, and changes no
+other line of the entry.
+
+## The fix log
+
+The fix log is the audit of every fix. Whoever changes a file to fix a fault adds one entry for the change to the
+fix log of the fault's section:
+
+```yaml
+- fault: <the id of the fault it closes>
+  by: cartographer    # who made the change
+  file: content/<story>/shared/markers.yaml
+  field: <the field that changed>
+  old: <the text before>
+  new: <the text after>
+  commit: <the commit that holds the change>
+```
+
+A fix with no entry, or an entry that names no fault, is a fault of the run.
+
+## The report
+
+A report opens with this block, and the prose the agent's definition asks for follows it.
 
 ```yaml
 status: pass            # pass, faults or blocked

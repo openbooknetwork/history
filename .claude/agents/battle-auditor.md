@@ -40,4 +40,9 @@ Read these first:
 4. **Report.** Each fault, the worst first, with the file and the line or the capture that shows it, what is
    wrong, and the line of the source it goes against.
 
-Open your report with the block of `agents/report.md`.
+## Channels
+
+You speak through the channels of `agents/report.md` and through nothing else. Your dispatch opens with the block
+of "The dispatch" there.
+
+Open your report with the block of "The report" in `agents/report.md`.

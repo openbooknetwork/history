@@ -343,3 +343,171 @@
   old: "they played \"a certain mistère\""
   new: "they played a \"certain mistère\""
   commit: 972e0258
+- fault: 070-image-finder-1
+  by: section-reviewer
+  file: content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md
+  field: body, the line after the paragraph of the battle of Formigny
+  old: "@image formigny-battle-miniature"
+  new: ""
+  commit: a3082d2d
+- fault: 070-image-finder-2
+  by: section-reviewer
+  file: content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md
+  field: body, the line after the paragraph of the battle of Castillon
+  old: "@image castillon-battle-miniature"
+  new: ""
+  commit: a3082d2d
+- fault: 070-section-reviewer-1
+  by: section-reviewer
+  file: content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md
+  field: body, paragraph 1
+  old: 'Henry VI, ten years old, is crowned King of France in Paris. On Sunday 16 December 1431 Cardinal Beaufort crowns him in [Notre-Dame](@notre-dame-1431).\*'
+  new: 'Henry VI, the ten-year-old king of England, is crowned King of France. On Sunday 16 December 1431 his great-uncle, Cardinal Beaufort, crowns him in [Notre-Dame](@notre-dame-1431) in Paris.\*'
+  commit: a3082d2d
+- fault: 070-section-reviewer-2
+  by: section-reviewer
+  file: content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md
+  field: body, paragraph 2
+  old: "Charles VII's envoys and the Duke then settle a peace of their own, which he seals"
+  new: "The envoys of Charles VII, the king crowned at Reims in 1429, and the Duke then settle a peace of their own, which the Duke seals"
+  commit: a3082d2d
+- fault: 070-section-reviewer-3
+  by: section-reviewer
+  file: content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md
+  field: body, paragraph 4
+  old: "From now on the English face France and Burgundy alone, and Ramsay"
+  new: "Now the English stand alone against France and Burgundy, and Ramsay"
+  commit: a3082d2d
+- fault: 070-section-reviewer-4
+  by: section-reviewer
+  file: content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md
+  field: body, paragraph 3
+  old: "While the congress is still sitting, the regent"
+  new: "While the congress sits, the regent"
+  commit: a3082d2d
+- fault: 070-section-reviewer-5
+  by: section-reviewer
+  file: content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md
+  field: body, paragraph 2
+  old: "with the Bastard of Orléans and L'Isle-Adam,"
+  new: "with the Bastard of Orléans (later Count of Dunois) and L'Isle-Adam,"
+  commit: a3082d2d
+- fault: 070-section-reviewer-6
+  by: section-reviewer
+  file: content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md
+  field: body, paragraph 2
+  old: "The few who reach the Tour du Velin"
+  new: "Those of his men who reach the Tour du Velin"
+  commit: a3082d2d
+- fault: 070-section-reviewer-7
+  by: section-reviewer
+  file: content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md
+  field: body, paragraph 2
+  old: "Edmund Beaufort, Duke of Somerset, gives up"
+  new: "Edmund Beaufort, Duke of Somerset, the English lieutenant in Normandy, gives up"
+  commit: a3082d2d
+- fault: 070-section-reviewer-8
+  by: section-reviewer
+  file: content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md
+  field: body, paragraph 3
+  old: "comes from Saint-Lô. The lines of these marches join the places the authors name."
+  new: "comes from Saint-Lô."
+  commit: a3082d2d
+- fault: 070-section-reviewer-9
+  by: section-reviewer
+  file: content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md
+  field: body, paragraph 2
+  old: "The map draws what the English still hold round these towns, approximately."
+  new: "The map draws the English lands round these towns."
+  commit: a3082d2d
+- fault: 070-section-reviewer-10
+  by: section-reviewer
+  file: content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md
+  field: body, paragraph 5
+  old: "Richemont escorts Somerset out and Dunois takes the town."
+  new: "Richemont escorts Somerset out and Dunois, once the Bastard of Orléans, takes the town."
+  commit: a3082d2d
+- fault: 070-section-reviewer-11
+  by: section-reviewer
+  file: content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md
+  field: body, paragraph 1
+  old: 'is handed over to Dunois on 30 June.\*'
+  new: 'is handed over to the French commander Dunois on 30 June.\*'
+  commit: a3082d2d
+- fault: 070-section-reviewer-12
+  by: section-reviewer
+  file: content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md
+  field: body, paragraph 2
+  old: "John Talbot, Earl of Shrewsbury, made Henry VI's lieutenant in Aquitaine on 2 September 1452, lands"
+  new: "John Talbot, Earl of Shrewsbury, a veteran captain whom Henry VI made his lieutenant in Aquitaine on 2 September 1452, lands"
+  commit: a3082d2d
+- fault: 070-section-reviewer-13
+  by: section-reviewer
+  file: content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md
+  field: body, paragraph 3
+  old: "Jean Bureau and his brother, who direct the artillery, have the guns kept in a camp"
+  new: "Jean Bureau and his brother, who direct the French artillery, keep the guns in a camp"
+  commit: a3082d2d
+- fault: 070-section-reviewer-14
+  by: section-reviewer
+  file: content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md
+  field: body, paragraph 4
+  old: 'Talbot marches from Bordeaux to relieve the town and arrives at daybreak on 17 July; ... and the French charge out of the camp.\*\*\*\* Talbot is killed, and his son Viscount Lisle with him.\*\*\*\*\* Monstrelet''s continuator says four or five hundred English dead were buried.\*\*\*\*\*\*'
+  new: 'Talbot marches from Bordeaux to relieve the town\*\*\*\* and arrives at daybreak on 17 July; ... and the French charge out of the camp.\*\*\*\*\* Talbot is killed, and his son Viscount Lisle with him.\*\*\*\*\*\* Monstrelet''s continuator says four or five hundred English dead were buried.'
+  commit: a3082d2d
+- fault: 070-section-reviewer-14
+  by: section-reviewer
+  file: content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md
+  field: Notes, the order of the last three
+  old: '\*\*\*\* Oman names no Bretons: ... / \*\*\*\*\* Talbot''s death is told four ways. ... / \*\*\*\*\*\* The forces are given differently. ...'
+  new: '\*\*\*\* The forces are given differently. ... / \*\*\*\*\* Oman names no Bretons: ... / \*\*\*\*\*\* Talbot''s death is told four ways. ... (each note''s words unchanged)'
+  commit: a3082d2d
+- fault: 070-section-reviewer-15
+  by: section-reviewer
+  file: content/joan-of-arc/pages/070-after-her/050-the-retrial/text/en.md
+  field: body, paragraph 1
+  old: "Charles VII has the trial of 1431 looked into."
+  new: "Charles VII has the trial that condemned Joan in 1431 looked into."
+  commit: a3082d2d
+- fault: 070-section-reviewer-16
+  by: section-reviewer
+  file: content/joan-of-arc/pages/070-after-her/050-the-retrial/text/en.md
+  field: body, paragraph 3
+  old: "and in December and May at Rouen."
+  new: "and at Rouen in December and again in May."
+  commit: a3082d2d
+- fault: 070-section-reviewer-17
+  by: section-reviewer
+  file: content/joan-of-arc/pages/070-after-her/050-the-retrial/text/en.md
+  field: body, the line after paragraph 2
+  old: ""
+  new: "@image isabelle-romee-retrial-miniature"
+  commit: a3082d2d
+- fault: 070-section-reviewer-18
+  by: section-reviewer
+  file: content/joan-of-arc/.plan/070-after-her/text.yaml
+  field: pages.the-retrial.images, the entry after nullification-trial-manuscript
+  old: ""
+  new: '- { name: isabelle-romee-retrial-miniature, shows: "Isabelle Romée and her two sons before the judges of the trial of nullification, a sixteenth-century miniature" }'
+  commit: a3082d2d
+- fault: 070-section-reviewer-19
+  by: section-reviewer
+  file: content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md
+  field: body, paragraph 1
+  old: "After the relief of 1429 the bishop of [Orléans](@orleans-8-may), the Bastard"
+  new: "After Joan and the French relieve [Orléans](@orleans-8-may) in May 1429, its bishop, the Bastard"
+  commit: a3082d2d
+- fault: 070-section-reviewer-20
+  by: section-reviewer
+  file: content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md
+  field: body, paragraph 3
+  old: "and Antoninus of Florence held her"
+  new: "and Archbishop Antoninus of Florence held her"
+  commit: a3082d2d
+- fault: 070-section-reviewer-21
+  by: section-reviewer
+  file: content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md
+  field: body, paragraph 3
+  old: "Thurston writes that in England"
+  new: "Thurston writes in 1910 that in England"
+  commit: a3082d2d

@@ -43,6 +43,8 @@ keeps the reason. Read this file before you change a page, a zone, a card or a t
 - **Charles VII** is so named from 30 October 1422. "The Dauphin" stands only in quotes and in Joan's own words, and a text says once that she called him so until he was anointed at Reims.
 - **An image stands once in the story.** No two pages plan or place the same image, by name or by subject. Where
   two sections want one, the page on which the place matters most keeps it.
+  On its own page an image stands once too: one the plan puts on a marker or a card has no `@image` line in the
+  text.
 
 ## Maps
 

@@ -55,3 +55,26 @@
     - "070.43, 070.44, the sentence of 1431 declared null on 7 July 1456: Murray, Introductory Note and Sentence; Lowell, ch. 25; Beaucourt 5, book 6 ch. 1"
     - "070.54, the canonisation of 16 May 1920: Renoux; AAS 12, the bull and the homily; Thurston"
   checked: { burgundy-changes-sides: 16, paris-opens: 24, normandy-won-back: 31, castillon: 33, the-retrial: 25, afterwards: 19, card formigny-1450: 11, card castillon-1453: 12 }
+- step: facts
+  task: recheck
+  status: pass
+  changed_files: []
+  faults: []
+  unresolved: []
+  stale: []
+  rechecked:
+    against: "a3082d2d, git diff a3082d2d -- pages/070-after-her and .plan/070-after-her/text.yaml"
+    faults: [070-image-finder-1, 070-image-finder-2, 070-section-reviewer-1, 070-section-reviewer-2, 070-section-reviewer-3, 070-section-reviewer-4, 070-section-reviewer-5, 070-section-reviewer-6, 070-section-reviewer-7, 070-section-reviewer-8, 070-section-reviewer-9, 070-section-reviewer-10, 070-section-reviewer-11, 070-section-reviewer-12, 070-section-reviewer-13, 070-section-reviewer-14, 070-section-reviewer-15, 070-section-reviewer-16, 070-section-reviewer-17, 070-section-reviewer-18, 070-section-reviewer-19, 070-section-reviewer-20, 070-section-reviewer-21]
+    sources:
+      - "Cardinal Beaufort the great-uncle of Henry VI: Lowell, ch. on the recantation, p. 320-321"
+      - "Henry VI ten in December 1431: Henry_VI_of_England.wiki, born 6 December 1421 (sfn Griffiths)"
+      - "Charles VII crowned at Reims in 1429: 040.64 (Cagny; the Angevin letter; Ramsay ch. 27)"
+      - "Somerset lieutenant of Normandy: Monstrelet's continuator, line 12972; Oman, commander of all the English armies in France"
+      - "those of Beaumont's men in the Tour du Velin: Ramsay 1 ch. 32 ('A few escaped'), the Bourgeois §691 (about 200): no number told"
+      - "Talbot a veteran: Oman, book 14 ch. 2"
+      - "the Bureau brothers direct the artillery: Monstrelet's continuator, lines 17393-17397"
+      - "Rouen in December and May: Murray, Introductory Note, p. 376"
+      - "Antoninus archbishop of Florence: Beaucourt 5, line 10494"
+      - "Thurston in 1910: newadvent.org-cathen-08409c.txt, the citation lines"
+      - "isabelle-romee-retrial-miniature shows: .candidates/after-her/index.yaml, its Commons entry (16th century, Isabelle Romée and her two sons before the judges)"
+  checked: { burgundy-changes-sides: 4, paris-opens: 2, normandy-won-back: 3, castillon: 4, the-retrial: 3, afterwards: 4 }

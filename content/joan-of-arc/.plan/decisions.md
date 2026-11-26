@@ -307,3 +307,8 @@
   outside the kingdom and stay undrawn. The estimated edges stand as reconstructions.
 - images 070 found (image-finder): 12 images and one offered, a miniature of Isabelle Romée before the judges, for the reviewer; `paris-1436-recovery-miniature` is `none`. Two battle miniatures stand both in a text and on their card (070-image-finder-1, -2, open for the reviewer's pass).
 - facts 070 checked (fact-checker): 160 claims and both cards; 8 faults, all weak and all fixed. Each disputed day and account stands in a note with its authors, and the French loss at Formigny as not known — cloud ruling: they stand so.
+- facts 070 reviewed (section-reviewer): 21 changes; the two battle miniatures stand on their cards alone, and the
+  miniature of Isabelle Romée before the judges is taken for `the-retrial`, with its entry in the plan.
+- cloud ruling: on its own page an image stands once: one the plan puts on a marker or a card has no `@image` line in
+  the text (rule in `rules.md`) — 010 to 050 were written so, and in 060 and 070 eight images would show twice on
+  their page. The editor reads 060 and 070 against the rule at `edit`.

@@ -326,7 +326,7 @@
   kind: image
   introduced: texts
   owner: section-writer
-  state: open
+  state: fixed
 - id: 070-image-finder-2
   severity: wrong
   file: content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md
@@ -338,7 +338,7 @@
   kind: image
   introduced: texts
   owner: section-writer
-  state: open
+  state: fixed
 - id: 070-fact-checker-7
   severity: weak
   file: content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md
@@ -438,6 +438,275 @@
   source: "archive.org-download-ProcesDeCondamnationV5-ProcesDeCondamnationV5-djvu.txt.txt, Quicherat 5, the city accounts of Orléans for 1435, p. 309: \"que ilz firent certain mistère ou boloart du pont, durant la procession\". The quotation marks held a word the accounts do not have."
   kind: attribution
   claim: "070.46"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-1
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md
+  field: body, paragraph 1
+  replaces: clause
+  old: 'Henry VI, ten years old, is crowned King of France in Paris. On Sunday 16 December 1431 Cardinal Beaufort crowns him in [Notre-Dame](@notre-dame-1431).\*'
+  new: 'Henry VI, the ten-year-old king of England, is crowned King of France. On Sunday 16 December 1431 his great-uncle, Cardinal Beaufort, crowns him in [Notre-Dame](@notre-dame-1431) in Paris.\*'
+  source: 'agents/text.md 3, a person gets a few words where the page first names them: a reader who opens the chapter here met neither Henry VI nor the cardinal. names.md rows of Henry VI (king of England from 1422) and Henry Beaufort (great-uncle of Henry VI); research/070.md 070.1'
+  kind: wording
+  claim: "070.1"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-2
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md
+  field: body, paragraph 2
+  replaces: clause
+  old: "Charles VII's envoys and the Duke then settle a peace of their own, which he seals"
+  new: "The envoys of Charles VII, the king crowned at Reims in 1429, and the Duke then settle a peace of their own, which the Duke seals"
+  source: 'agents/text.md 3; text.yaml section.opens: "Charles VII, crowned at Reims in July 1429". With Charles VII first in the sentence, "he" could be read as the king, so the Duke is named'
+  kind: wording
+  claim: "070.3"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-3
+  severity: taste
+  file: content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md
+  field: body, paragraph 4
+  replaces: clause
+  old: "From now on the English face France and Burgundy alone, and Ramsay"
+  new: "Now the English stand alone against France and Burgundy, and Ramsay"
+  source: 'research/070.md 070.5: "with Arras the English stand alone against France and Burgundy"; "face France and Burgundy alone" could be read as France and Burgundy standing alone'
+  kind: wording
+  claim: "070.5"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-4
+  severity: taste
+  file: content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md
+  field: body, paragraph 3
+  replaces: clause
+  old: "While the congress is still sitting, the regent"
+  new: "While the congress sits, the regent"
+  source: "agents/text.md 7: the words 070-section-reviewer-1 and 2 add are taken back here, so the body stays near 300"
+  kind: wording
+  introduced: review
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-5
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md
+  field: body, paragraph 2
+  replaces: clause
+  old: "with the Bastard of Orléans and L'Isle-Adam,"
+  new: "with the Bastard of Orléans (later Count of Dunois) and L'Isle-Adam,"
+  source: 'agents/text.md 3; names.md row of the Bastard of Orléans ("the Bastard of Orléans (later Count of Dunois)" at the first mention on a page); the next pages of 070 call him Dunois, and the gloss ties the two names together for a reader who opens here'
+  kind: wording
+  claim: "070.9"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-6
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md
+  field: body, paragraph 2
+  replaces: clause
+  old: "The few who reach the Tour du Velin"
+  new: "Those of his men who reach the Tour du Velin"
+  source: 'research/070.md 070.8: "English survivors in the Tour du Velin at Saint-Denis are taken and killed"; no source gives their number, and "the few" told one'
+  kind: fact
+  claim: "070.8"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-7
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md
+  field: body, paragraph 2
+  replaces: clause
+  old: "Edmund Beaufort, Duke of Somerset, gives up"
+  new: "Edmund Beaufort, Duke of Somerset, the English lieutenant in Normandy, gives up"
+  source: "agents/text.md 3; names.md row of Edmund Beaufort, Duke of Somerset: English lieutenant in Normandy, who gave up Rouen in 1449; research/070.md 070.15"
+  kind: wording
+  claim: "070.15"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-8
+  severity: taste
+  file: content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md
+  field: body, paragraph 3
+  replaces: clause
+  old: "comes from Saint-Lô. The lines of these marches join the places the authors name."
+  new: "comes from Saint-Lô."
+  source: 'agents/text.md 7: the body ran 351 words after 070-section-reviewer-7 and 10, over the hard limit of 350; agents/evidence.md, a reconstruction is said "once in a chapter", which burgundy-changes-sides says, and the routes'' legends name their stations'
+  kind: wording
+  introduced: review
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-9
+  severity: taste
+  file: content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md
+  field: body, paragraph 2
+  replaces: clause
+  old: "The map draws what the English still hold round these towns, approximately."
+  new: "The map draws the English lands round these towns."
+  source: "agents/text.md 7, as 070-section-reviewer-8; agents/evidence.md, the approximate line is said once in the chapter, on burgundy-changes-sides"
+  kind: wording
+  introduced: review
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-10
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md
+  field: body, paragraph 5
+  replaces: clause
+  old: "Richemont escorts Somerset out and Dunois takes the town."
+  new: "Richemont escorts Somerset out and Dunois, once the Bastard of Orléans, takes the town."
+  source: "agents/text.md 3; names.md rows of the Bastard of Orléans and Dunois (Count of Dunois from 1439); research/070.md 070.23"
+  kind: wording
+  claim: "070.23"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-11
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md
+  field: body, paragraph 1
+  replaces: clause
+  old: 'is handed over to Dunois on 30 June.\*'
+  new: 'is handed over to the French commander Dunois on 30 June.\*'
+  source: "agents/text.md 3; research/070.md 070.25 (Bordeaux delivered to Dunois, Ramsay and Beaucourt)"
+  kind: wording
+  claim: "070.25"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-12
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md
+  field: body, paragraph 2
+  replaces: clause
+  old: "John Talbot, Earl of Shrewsbury, made Henry VI's lieutenant in Aquitaine on 2 September 1452, lands"
+  new: "John Talbot, Earl of Shrewsbury, a veteran captain whom Henry VI made his lieutenant in Aquitaine on 2 September 1452, lands"
+  source: 'agents/text.md 3; research/070.md 070.27, Oman: "the English government sent the veteran Lord Talbot"'
+  kind: wording
+  claim: "070.27"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-13
+  severity: taste
+  file: content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md
+  field: body, paragraph 3
+  replaces: clause
+  old: "Jean Bureau and his brother, who direct the artillery, have the guns kept in a camp"
+  new: "Jean Bureau and his brother, who direct the French artillery, keep the guns in a camp"
+  source: "section-reviewer step 6: \"have the guns kept\" read as translated; the facts stay those of 070-fact-checker-10"
+  kind: wording
+  claim: "070.29"
+  introduced: fix
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-14
+  severity: taste
+  file: content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md
+  field: body, paragraph 4, and the order of the Notes
+  replaces: clause
+  old: 'to relieve the town and arrives / the camp.\*\*\*\* / with him.\*\*\*\*\* / were buried.\*\*\*\*\*\* ; Notes \*\*\*\* Oman names no Bretons, \*\*\*\*\* Talbot''s death, \*\*\*\*\*\* The forces'
+  new: 'to relieve the town\*\*\*\* and arrives / the camp.\*\*\*\*\* / with him.\*\*\*\*\*\* / were buried. ; Notes \*\*\*\* The forces, \*\*\*\*\* Oman names no Bretons, \*\*\*\*\*\* Talbot''s death'
+  source: "agents/text.md Notes: a note gives the accounts of the claim its marker stands on. The note of both sides' forces (070.31, 070.32) hung on the sentence of the English dead (070.34, single, told in the body with its author); it now stands where Talbot's force sets out, and the notes keep the body's order"
+  kind: wording
+  claim: "070.31"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-15
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/050-the-retrial/text/en.md
+  field: body, paragraph 1
+  replaces: clause
+  old: "Charles VII has the trial of 1431 looked into."
+  new: "Charles VII has the trial that condemned Joan in 1431 looked into."
+  source: "agents/text.md 3: a reader who opens the page here is not told whose trial it was; research/070.md 070.36"
+  kind: wording
+  claim: "070.36"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-16
+  severity: taste
+  file: content/joan-of-arc/pages/070-after-her/050-the-retrial/text/en.md
+  field: body, paragraph 3
+  replaces: clause
+  old: "and in December and May at Rouen."
+  new: "and at Rouen in December and again in May."
+  source: 'research/070.md 070.41: Rouen "December and May"; after "January and February 1456" the bare "December and May" read as one span of 1456'
+  kind: wording
+  claim: "070.41"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-17
+  severity: taste
+  file: content/joan-of-arc/pages/070-after-her/050-the-retrial/text/en.md
+  field: body, the line after paragraph 2
+  replaces: clause
+  old: ""
+  new: "@image isabelle-romee-retrial-miniature"
+  source: 'section-reviewer step 5; images/070.yaml offers isabelle-romee-retrial-miniature (Isabelle Romée and her two sons before the judges, the only known miniature of the retrial), and paragraph 2 tells that scene (070.39). node scripts/contact-sheet.mjs shows it nowhere else in the story'
+  kind: image
+  claim: "070.39"
+  introduced: review
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-18
+  severity: weak
+  file: content/joan-of-arc/.plan/070-after-her/text.yaml
+  field: pages.the-retrial.images
+  replaces: clause
+  old: ""
+  new: '- { name: isabelle-romee-retrial-miniature, shows: "Isabelle Romée and her two sons before the judges of the trial of nullification, a sixteenth-century miniature" }'
+  source: 'node scripts/placeholders.mjs joan-of-arc the-retrial, after 070-section-reviewer-17: "image \"isabelle-romee-retrial-miniature\" has no folder, and no plan names it as an image a page wants". The plan gains the image the image finder offered, so the placeholder is a planned one'
+  kind: image
+  introduced: review
+  owner: section-coordinator
+  state: fixed
+- id: 070-section-reviewer-19
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md
+  field: body, paragraph 1
+  replaces: clause
+  old: "After the relief of 1429 the bishop of [Orléans](@orleans-8-may), the Bastard"
+  new: "After Joan and the French relieve [Orléans](@orleans-8-may) in May 1429, its bishop, the Bastard"
+  source: "agents/text.md 3: the closing page opened on \"the relief of 1429\" and did not name Joan or the city relieved; research/070.md 070.45 (the procession of 8 May, ordered after the relief)"
+  kind: wording
+  claim: "070.45"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-20
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md
+  field: body, paragraph 3
+  replaces: clause
+  old: "and Antoninus of Florence held her"
+  new: "and Archbishop Antoninus of Florence held her"
+  source: 'agents/text.md 3; Beaucourt 5, line 10494, "Antonin, archevêque de Florence", as 070-fact-checker-12 gives it'
+  kind: wording
+  claim: "070.48"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-21
+  severity: taste
+  file: content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md
+  field: body, paragraph 3
+  replaces: clause
+  old: "Thurston writes that in England"
+  new: "Thurston writes in 1910 that in England"
+  source: "agents/text.md 3: the reader is told when Lowell wrote (1896) and not when Thurston did; the page's sources: Thurston, The Catholic Encyclopedia, vol. 8 (New York, 1910)"
+  kind: wording
+  claim: "070.49"
   introduced: texts
   owner: section-reviewer
   state: fixed

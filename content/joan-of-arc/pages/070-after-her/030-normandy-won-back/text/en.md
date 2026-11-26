@@ -2,17 +2,15 @@ In May 1444 England and France agree a general truce at Tours, where Margaret of
 
 @image fougeres-castle
 
-On 19 October 1449 the people of [Rouen](@rouen-1449) rise. Edmund Beaufort, Duke of Somerset, gives up the city by terms signed on 29 October, and on 10 November Charles VII makes his entry. When the year ends, Ramsay counts nine places left to the English: Fresnay, Domfront, Vire, Falaise, Honfleur, [Caen](@caen-1450), Bayeux, Saint-Sauveur and [Cherbourg](@cherbourg-1450). The map draws what the English still hold round these towns, approximately. Maine, English on the map of 1436, is the king's on this one, all but Fresnay.
+On 19 October 1449 the people of [Rouen](@rouen-1449) rise. Edmund Beaufort, Duke of Somerset, the English lieutenant in Normandy, gives up the city by terms signed on 29 October, and on 10 November Charles VII makes his entry. When the year ends, Ramsay counts nine places left to the English: Fresnay, Domfront, Vire, Falaise, Honfleur, [Caen](@caen-1450), Bayeux, Saint-Sauveur and [Cherbourg](@cherbourg-1450). The map draws the English lands round these towns. Maine, English on the map of 1436, is the king's on this one, all but Fresnay.
 
 @image rouen-1449-entry-miniature
 
-About 15 March 1450 Sir Thomas Kyriell lands at Cherbourg with the last English relief army for Normandy. He takes Valognes, is joined by men of the garrisons under Matthew Gough, and on 14 April crosses the Fords of Saint-Clément below Carentan. John, Count of Clermont, the Duke of Bourbon's son, commanding in Lower Normandy, follows from Carentan by Isigny, and Arthur de Richemont, the Constable, comes from Saint-Lô. The lines of these marches join the places the authors name.
+About 15 March 1450 Sir Thomas Kyriell lands at Cherbourg with the last English relief army for Normandy. He takes Valognes, is joined by men of the garrisons under Matthew Gough, and on 14 April crosses the Fords of Saint-Clément below Carentan. John, Count of Clermont, the Duke of Bourbon's son, commanding in Lower Normandy, follows from Carentan by Isigny, and Arthur de Richemont, the Constable, comes from Saint-Lô.
 
 They meet at Formigny on 15 April.\*\* The English stand with a stream and orchards behind them and their archers behind stakes in front. After about three hours of skirmishing the French bring up two culverins, and English archers rush out and seize them. Richemont's arrival decides the battle.\*\*\* Kyriell is taken, and Gough escapes to Bayeux. Oman and Beaucourt give 3,774 English dead, counted by the French heralds.\*\*\*\* How many French fell is not known, though their chroniclers name only about a dozen.
 
-@image formigny-battle-miniature
-
-Caen agrees on 24 June to surrender. On 1 July Richemont escorts Somerset out and Dunois takes the town. Cherbourg, the last English stronghold in Normandy, gives up on 12 August 1450.
+Caen agrees on 24 June to surrender. On 1 July Richemont escorts Somerset out and Dunois, once the Bastard of Orléans, takes the town. Cherbourg, the last English stronghold in Normandy, gives up on 12 August 1450.
 
 ### Notes
 

@@ -283,3 +283,221 @@
   introduced: pre-plan
   owner: section-coordinator
   state: fixed
+- id: 010-fact-checker-1
+  severity: wrong
+  file: content/joan-of-arc/.plan/010-france-divided/map.yaml
+  field: cravant-and-verneuil.routes.salisbury-1423-cravant
+  replaces: value
+  old: 'stations: [Auxerre, the right bank of the Yonne, Cravant]; basis: sourced; why: "the stations and the river bank are Ramsay''s, and the Yonne gives the line."'
+  new: 'stations: [Auxerre, the right bank of the Yonne, Champs, the left bank of the Yonne, the bridge of Cravant]; basis: reconstruction; the passage and the why give the crossing to the left bank, probably at Champs (Ramsay)'
+  source: 'archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt 21449-21458: "Not caring to attack them in that position, the English crossed over to the left bank, probably at Champs, where the highway from Auxerre to Cravant crosses the river, and so marched up to the bridge of Cravant. The French then shifted their ground, and took post along the river bank, between the walls of Cravant and the water." The route as planned ran up the right bank into the town, on the French side of the river'
+  kind: map
+  claim: "010.59"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 010-fact-checker-2
+  severity: weak
+  file: content/joan-of-arc/.plan/010-france-divided/map.yaml
+  field: harfleur-and-agincourt.routes.henry-v-1415-calais.passage
+  replaces: clause
+  old: "Ramsay 1, ch. 15, l. 14418 to 14700 (Arques"
+  new: "Ramsay 1, ch. 15, l. 14418 to 14760 (Arques"
+  source: 'archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt 14746-14754: "past the woods of Maisoncelles ... the King turning aside for the night to Maisoncelles": the station Maisoncelles stands past the range the passage named. The stretch between Blanche-Taque and Béthencourt is missing from this OCR (page 208 is a second copy of page 206), so the route''s reconstruction there, after Oman l. 18922, stands'
+  kind: plan
+  claim: "010.24"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 010-fact-checker-3
+  severity: wrong
+  file: content/joan-of-arc/.plan/010-france-divided/pages.yaml
+  field: normandy-and-troyes.date
+  replaces: value
+  old: "August 1417 – May 1420"
+  new: "August 1417 – June 1420"
+  source: 'archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt 18460: "Trinity Sunday (2nd June), Henry and Catherine ... were married in the cathedral of Troyes" (010.45), which the page tells and its marker troyes-1420 gives'
+  kind: plan
+  claim: "010.45"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 010-fact-checker-4
+  severity: wrong
+  file: content/joan-of-arc/.plan/010-france-divided/pages.yaml
+  field: two-kings.date
+  replaces: value
+  old: "March 1421 – October 1422"
+  new: "March 1421 – November 1422"
+  source: 'archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt 21075: "On the 11th November he was ... laid in his grave at Saint Denis; and young Henry was" (010.54): the proclamation at Saint-Denis, which the page tells and its marker saint-denis-1422 gives, is of 11 November 1422'
+  kind: plan
+  claim: "010.54"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 010-fact-checker-5
+  severity: weak
+  file: content/joan-of-arc/.plan/010-france-divided/pages.yaml
+  field: cravant-and-verneuil.date
+  replaces: value
+  old: "July 1423 – August 1424"
+  new: "June 1423 – August 1424"
+  source: 'archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt 21291: "Bedford took the fifth sister, Anne" (010.58, at Troyes in June 1423), which the page''s account opens with; `when` stays 1423-07, the month of Cravant that the map shows'
+  kind: plan
+  claim: "010.58"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 010-fact-checker-6
+  severity: weak
+  file: content/joan-of-arc/.plan/010-france-divided/pages.yaml
+  field: harfleur-and-agincourt.tells
+  replaces: clause
+  old: "takes Harfleur after a siege of five weeks and marches"
+  new: "takes Harfleur on 22 September after a siege and marches"
+  source: 'unsourced: "five weeks" searched in Ramsay 1, Oman, Wylie 2, Lowell and Lang, and found in none; the digest gives the landing from 14 August and the surrender "So when the noon of Sept. 22" (archive.org-download-reignofhenryfift02wyliuoft-reignofhenryfift02wyliuoft-djvu.txt.txt 3753, 010.21)'
+  kind: fact
+  claim: "010.21"
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+- id: 010-fact-checker-7
+  severity: weak
+  file: content/joan-of-arc/.plan/010-france-divided/pages.yaml
+  field: normandy-and-troyes.tells
+  replaces: clause
+  old: "Rouen after a siege of six months."
+  new: "Rouen after a siege from July 1418 to January 1419."
+  source: 'unsourced: "six months" searched in Ramsay 1, Oman, Wylie and Waugh 3, Lowell and Lang, and found for Rouen in none; Ramsay 17320 "Henry appeared before Rouen on the 29th July" and 17582 the surrender "on the 19th of the month" (January 1419), Oman 19289 "held out from August 1418 to January 1419" (010.39)'
+  kind: fact
+  claim: "010.39"
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+- id: 010-fact-checker-8
+  severity: weak
+  file: content/joan-of-arc/.plan/010-france-divided/battles.yaml
+  field: agincourt-1415.outcome
+  replaces: clause
+  old: "The Constable d'Albret and the Dukes of Alençon and Bar are killed;"
+  new: "The Constable d'Albret, John I, Duke of Alençon, and Edward, Duke of Bar, are killed;"
+  source: 'names.md, Rules, Names of people: "\"the Duke of Alençon\" the duke of 1424–1429 ... The others who share a title keep the full form their row gives at every mention: John I, Duke of Alençon; ... Edward, Duke of Bar"'
+  kind: wording
+  claim: "010.32"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 010-fact-checker-9
+  severity: weak
+  file: content/joan-of-arc/.plan/010-france-divided/text.yaml
+  field: pages.harfleur-and-agincourt.account
+  replaces: clause
+  old: "the Constable d'Albret, the Dukes of Alençon and Bar and the Count of Nevers dead,"
+  new: "the Constable d'Albret, John I, Duke of Alençon, Edward, Duke of Bar, and the Count of Nevers dead,"
+  source: 'names.md, Rules, Names of people: "The others who share a title keep the full form their row gives at every mention: John I, Duke of Alençon; ... Edward, Duke of Bar"'
+  kind: wording
+  claim: "010.32"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 010-fact-checker-10
+  severity: weak
+  file: content/joan-of-arc/.plan/010-france-divided/battles.yaml
+  field: verneuil-1424.site
+  replaces: value
+  old: "the open plain north of Verneuil"
+  new: "a plain before the town of Verneuil"
+  source: 'archive.org-download-journaldunbourge54182gut-54182-0.txt.txt §405: "le regent d''autre part ordonna sa bataille, et fut en une belle plaine"; archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt 22300: "the French were discovered drawn up in front of the town". "North of Verneuil" stands only in Battle_of_Verneuil.wiki (infobox and l. 63, citing Barker 2012, not read)'
+  kind: battle
+  claim: "010.64"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 010-fact-checker-11
+  severity: weak
+  file: content/joan-of-arc/.plan/010-france-divided/text.yaml
+  field: pages.cravant-and-verneuil.account
+  replaces: clause
+  old: "Bedford comes up and fights on the plain north of the town:"
+  new: "Bedford comes up and fights on a plain before the town:"
+  source: 'archive.org-download-journaldunbourge54182gut-54182-0.txt.txt §405: "et fut en une belle plaine"; Ramsay 1, l. 22300: "drawn up in front of the town"; "north" is Battle_of_Verneuil.wiki alone (Barker 2012, not read)'
+  kind: fact
+  claim: "010.64"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 010-fact-checker-12
+  severity: weak
+  file: content/joan-of-arc/.plan/010-france-divided/text.yaml
+  field: pages.cravant-and-verneuil.account
+  replaces: clause
+  old: "on Saturday 31 July 1423 they find the army of Charles VII, French, Scots and others, drawn up across the river;"
+  new: "on Saturday 31 July 1423 they find the army of Charles VII, French, Scots and others, before the town, cross to the left bank, probably at Champs (Ramsay), and face it across the river, drawn up between the walls of Cravant and the water;"
+  source: 'archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt 21450-21458: the enemy "discovered on a rising ground in front of Cravant ... the English crossed over to the left bank, probably at Champs ... The French then shifted their ground, and took post along the river bank, between the walls of Cravant and the water"'
+  kind: fact
+  claim: "010.59"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 010-fact-checker-13
+  severity: weak
+  file: content/joan-of-arc/.plan/010-france-divided/text.yaml
+  field: pages.cravant-and-verneuil.account
+  replaces: clause
+  old: "the stretches of road from Tours to Nonancourt and from Ivry to Verneuil are reconstructions, drawn direct."
+  new: "the stretches of road from Tours to Nonancourt and from Ivry to Verneuil are reconstructions, drawn direct, and Salisbury's crossing at Champs is Ramsay's probable place."
+  source: 'Ramsay 1, l. 21451: "probably at Champs"; the route salisbury-1423-cravant is now a reconstruction (010-fact-checker-1)'
+  kind: plan
+  claim: "010.59"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 010-fact-checker-14
+  severity: weak
+  file: content/joan-of-arc/.plan/010-france-divided/text.yaml
+  field: pages.two-kings.account
+  replaces: clause
+  old: "the first defeat of the English in the field in the story, and the reason Verneuil, three years on, breaks an army that had won."
+  new: "the first defeat of the English in the field in the story, won by the army that Cravant and Verneuil will break."
+  source: 'unsourced: no file read gives Baugé as the reason for anything at Verneuil; the brief''s 010 Tells: "Baugé, 1421: the Dauphin''s Scots and French beat the English and kill Clarence; Cravant, 1423, and Verneuil, 1424, break that army"'
+  kind: fact
+  claim: "010.47"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 010-fact-checker-15
+  severity: weak
+  file: content/joan-of-arc/.plan/010-france-divided/text.yaml
+  field: pages.murder-in-paris.account
+  replaces: clause
+  old: "by about eighteen men who had lodged nearby for days (Monstrelet's figure, told with his name)."
+  new: "by about eighteen men who had lodged at an inn near the Porte Barbette and had meant the deed for several days (Monstrelet's figure, told with his name)."
+  source: 'archive.org-download-chroniclesengue06johngoog-chroniclesengue06johngoog-djvu.txt.txt 7653-7655: "by about eighteen men, who had lodged at an hotel having for sign the image of our Lady near the Porte Barbette, and who, it was afterward discovered, had for several days intended this assassination": the several days are of the intent, not of the lodging'
+  kind: fact
+  claim: "010.2"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 010-fact-checker-16
+  severity: weak
+  file: content/joan-of-arc/.plan/names.md
+  field: Places, rows
+  new: 'rows added: Champs (The Meuse and the road to Chinon, after Auxerre), Nonancourt (Normandy and Rouen, after Verneuil), Beaufort-en-Vallée (Anjou, Gascony and further, after Le Lude), the Three Fountains brook (Rivers and regions, after the Meuse)'
+  source: 'text.yaml of 010 names Beaufort-en-Vallée (two-kings), Nonancourt and now Champs (cravant-and-verneuil) and the Three Fountains brook (domremy), and names.md had no row for them; Ramsay 1 l. 18962 "Beaufort-en-Valine", Wylie and Waugh 3 l. 16845 "Beaufort-en-Vallee", Cagny l. 5951 "Beaufort"; Beaucourt 2 l. 602 "Nonancourt"; Ramsay 1 l. 21451 "Champs"; Lowell l. 904 "the Three Fountains Brook"'
+  kind: plan
+  introduced: names
+  owner: names
+  state: fixed
+- id: 010-fact-checker-17
+  severity: weak
+  file: content/joan-of-arc/.plan/names.md
+  field: People, William de la Pole, Earl of Suffolk
+  replaces: clause
+  old: 'commander before Orléans after Salisbury, taken at Jargeau; "Suffolk" | 020 (020.20) |'
+  new: 'at Verneuil in 1424, commander before Orléans after Salisbury, taken at Jargeau; "Suffolk" | 010 (010.63) |'
+  source: 'archive.org-download-chroniquesdeperc00cagnuoft-chroniquesdeperc00cagnuoft-djvu.txt.txt 6527 "le conte de Suffort", the editor''s note 8 "Comte de Suffolk" (010.63): the Earl of Suffolk of 1424, on the Verneuil card of 010 and in its text.yaml introduces, is William de la Pole, his brother Michael having died at Agincourt'
+  kind: plan
+  claim: "010.63"
+  introduced: names
+  owner: names
+  state: fixed

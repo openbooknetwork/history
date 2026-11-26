@@ -165,7 +165,7 @@ name the digest gives only in a quote or a note is marked so. A name marked "not
 | John Beaufort, Earl of Somerset | taken at Baugé; always "the Earl of Somerset" | 010 (010.47) | Somerset |
 | the Earl of Huntingdon | taken at Baugé | 010 (010.47) | Huntingdon |
 | Thomas Montagu, Earl of Salisbury | Henry VI's lieutenant in France, victor at Cravant, who laid the siege of Orléans and died of his wound at Meung in 1428; "Salisbury" | 010 (010.59) | Salisbury; le conte de Salebris; Salebris |
-| William de la Pole, Earl of Suffolk | commander before Orléans after Salisbury, taken at Jargeau; "Suffolk" | 020 (020.20) | Suffolk; le conte de Sufford; Sutïbrd (OCR); Pole; William Pole (Champion) |
+| William de la Pole, Earl of Suffolk | at Verneuil in 1424, commander before Orléans after Salisbury, taken at Jargeau; "Suffolk" | 010 (010.63) | Suffolk; le conte de Sufford; Sutïbrd (OCR); Pole; William Pole (Champion) |
 | John de la Pole | Suffolk's brother, who took Jargeau in 1428 and was taken there in 1429 | 020 (020.14) | Sir John de la Pole |
 | Alexander de la Pole | Suffolk's brother, killed at Jargeau | 040 (040.5) | messire Alexandre de La Poulie |
 | John Talbot | English captain before Orléans, taken at Patay; Earl of Shrewsbury from 1442, killed at Castillon in 1453. "Talbot" in every text; "Lord Talbot" at the first mention on a page of 020–040, "John Talbot, Earl of Shrewsbury" at the first mention on a page of 070 | 020 (020.20) | Lord Talbot; Sir John Talbot; Tallebot; Thalbot; Thalboth; the sire de Tallebot; Shrewsbury; the Earl of Shrewsbury |
@@ -328,6 +328,7 @@ old name without it, as the sources and the histories do, and "Today" gives the 
 | Saint-Nicolas-de-Port | whole story | Saint-Nicolas-de-Port, Meurthe-et-Moselle | 020 (020.35) | |
 | Saint-Urbain | whole story | Saint-Urbain-Maconcourt, Haute-Marne (the abbey) | 020 (020.10) | St. Urbain |
 | Auxerre | whole story; Burgundian | Auxerre, Yonne | 010 (010.59) | |
+| Champs | where the English probably crossed the Yonne before Cravant, July 1423 (Ramsay) | Champs-sur-Yonne, Yonne | 010 (010.59, Ramsay's passage) | |
 | Gien | whole story; held for Charles VII | Gien, Loiret | 010 (010.68) | Gien sur Laire |
 | Sainte-Catherine-de-Fierbois | whole story | Sainte-Catherine-de-Fierbois, Indre-et-Loire | 020 (020.48) | Fierbois; Ste. Catherine de Fierbois |
 | Chinon | whole story | Chinon, Indre-et-Loire (the castle) | 010 (010.68) | |
@@ -516,6 +517,7 @@ old name without it, as the sources and the histories do, and "Today" gives the 
 | Mont-Saint-Michel | French through the story | Le Mont-Saint-Michel, Manche | 010 (010.38) | |
 | Ivry | besieged by Bedford in 1424 | Ivry-la-Bataille, Eure | 010 (010.62) | Yvry |
 | Verneuil | the battle of 17 August 1424 | Verneuil-sur-Avre, Eure | 010 (010.62) | Verneil; Vernueil |
+| Nonancourt | where the army of Charles VII came before turning to Verneuil, August 1424 (Beaucourt) | Nonancourt, Eure | 010 (010.62, Beaucourt's passage) | |
 | Orbec | an English garrison | Orbec, Calvados | 050 (050.6) | |
 | Évreux | English | Évreux, Eure | 040 (040.13) | Evreux |
 | Coutances | the see of a judge of 1455 | Coutances, Manche | 060 (060.35) | |
@@ -541,6 +543,7 @@ old name without it, as the sources and the histories do, and "Today" gives the 
 |---|---|---|---|---|
 | Baugé | the battle of 22 March 1421, fought by the church of Vieil-Baugé beyond the Couasnon bridge | Baugé-en-Anjou, Maine-et-Loire | 010 (010.47) | Baug6 (OCR) |
 | Le Lude | whole story | Le Lude, Sarthe | 010 (010.48) | |
+| Beaufort-en-Vallée | Clarence's headquarters, from which he rode to Baugé in March 1421; the old name as the sources give it | Beaufort-en-Anjou, Maine-et-Loire | 010 (010.47, Ramsay's and Wylie and Waugh's passages) | Beaufort; Beaufort-en-Vallee |
 | Cravant | the battle of 31 July 1423 on the Yonne | Cravant, Yonne | 010 (010.59) | Crevant |
 | Bordeaux | English to 30 June 1451; English again October 1452 – 19 October 1453 | Bordeaux, Gironde | 010 (010.57) | |
 | Bayonne | English to 20 August 1451 | Bayonne, Pyrénées-Atlantiques | 070 (070.25) | |
@@ -559,6 +562,7 @@ old name without it, as the sources and the histories do, and "Today" gives the 
 | the Loire | whole story | the Loire | 010 (010.6) | Laire; Loyre |
 | the Seine | whole story | the Seine | 010 (010.19) | Saine |
 | the Meuse | whole story | the Meuse | 010 (010.16) | |
+| the Three Fountains brook | the brook through Domrémy that Lowell gives as the edge of the kingdom and Bar | Domrémy-la-Pucelle, Vosges | 010 (010.14) | the Three Fountains Brook |
 | the Marne | whole story | the Marne | 010 (010.50) | |
 | the Yonne | whole story | the Yonne | 010 (010.40) | |
 | the Oise | whole story | the Oise | 050 (050.43) | |

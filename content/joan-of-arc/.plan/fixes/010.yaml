@@ -159,3 +159,134 @@
   old: his son Philip joins the English
   new: his son Philip the Good joins the English
   commit: 215c74ca
+- fault: 010-fact-checker-1
+  by: fact-checker
+  file: content/joan-of-arc/.plan/010-france-divided/map.yaml
+  field: cravant-and-verneuil.routes.salisbury-1423-cravant
+  old: |-
+    stations: [Auxerre, the right bank of the Yonne, Cravant]
+    passage: "Ramsay 1, ch. 22, l. 21446 to 21462 (the English and Burgundians join at Auxerre, march out on 30 July up the right bank of the Yonne, wade the river and carry the bridge)"
+    basis: sourced
+    why: "the stations and the river bank are Ramsay's, and the Yonne gives the line."
+  new: |-
+    stations: [Auxerre, the right bank of the Yonne, Champs, the left bank of the Yonne, the bridge of Cravant]
+    passage: "Ramsay 1, ch. 22, l. 21446 to 21462 (the English and Burgundians join at Auxerre, march out on 30 July up the right bank of the Yonne, cross to the left bank probably at Champs, march up to the bridge of Cravant, wade the river and carry the bridge)"
+    basis: reconstruction
+    why: "the stations and the two banks are Ramsay's, and the Yonne gives the line; the crossing to the left bank is at Champs only 'probably', in Ramsay's word, so the line is a reconstruction. The route ends on the left bank at the bridge, across the river from the French, who stood between the walls of Cravant and the water."
+  commit: db851cef
+- fault: 010-fact-checker-2
+  by: fact-checker
+  file: content/joan-of-arc/.plan/010-france-divided/map.yaml
+  field: harfleur-and-agincourt.routes.henry-v-1415-calais.passage
+  old: "Ramsay 1, ch. 15, l. 14418 to 14700 (Arques"
+  new: "Ramsay 1, ch. 15, l. 14418 to 14760 (Arques"
+  commit: db851cef
+- fault: 010-fact-checker-3
+  by: fact-checker
+  file: content/joan-of-arc/.plan/010-france-divided/pages.yaml
+  field: normandy-and-troyes.date
+  old: "August 1417 – May 1420"
+  new: "August 1417 – June 1420"
+  commit: db851cef
+- fault: 010-fact-checker-4
+  by: fact-checker
+  file: content/joan-of-arc/.plan/010-france-divided/pages.yaml
+  field: two-kings.date
+  old: "March 1421 – October 1422"
+  new: "March 1421 – November 1422"
+  commit: db851cef
+- fault: 010-fact-checker-5
+  by: fact-checker
+  file: content/joan-of-arc/.plan/010-france-divided/pages.yaml
+  field: cravant-and-verneuil.date
+  old: "July 1423 – August 1424"
+  new: "June 1423 – August 1424"
+  commit: db851cef
+- fault: 010-fact-checker-6
+  by: fact-checker
+  file: content/joan-of-arc/.plan/010-france-divided/pages.yaml
+  field: harfleur-and-agincourt.tells
+  old: "takes Harfleur after a siege of five weeks and marches"
+  new: "takes Harfleur on 22 September after a siege and marches"
+  commit: db851cef
+- fault: 010-fact-checker-7
+  by: fact-checker
+  file: content/joan-of-arc/.plan/010-france-divided/pages.yaml
+  field: normandy-and-troyes.tells
+  old: "Rouen after a siege of six months."
+  new: "Rouen after a siege from July 1418 to January 1419."
+  commit: db851cef
+- fault: 010-fact-checker-8
+  by: fact-checker
+  file: content/joan-of-arc/.plan/010-france-divided/battles.yaml
+  field: agincourt-1415.outcome
+  old: "The Constable d'Albret and the Dukes of Alençon and Bar are killed;"
+  new: "The Constable d'Albret, John I, Duke of Alençon, and Edward, Duke of Bar, are killed;"
+  commit: db851cef
+- fault: 010-fact-checker-9
+  by: fact-checker
+  file: content/joan-of-arc/.plan/010-france-divided/text.yaml
+  field: pages.harfleur-and-agincourt.account
+  old: "the Constable d'Albret, the Dukes of Alençon and Bar and the Count of Nevers dead,"
+  new: "the Constable d'Albret, John I, Duke of Alençon, Edward, Duke of Bar, and the Count of Nevers dead,"
+  commit: db851cef
+- fault: 010-fact-checker-10
+  by: fact-checker
+  file: content/joan-of-arc/.plan/010-france-divided/battles.yaml
+  field: verneuil-1424.site
+  old: "the open plain north of Verneuil"
+  new: "a plain before the town of Verneuil"
+  commit: db851cef
+- fault: 010-fact-checker-11
+  by: fact-checker
+  file: content/joan-of-arc/.plan/010-france-divided/text.yaml
+  field: pages.cravant-and-verneuil.account
+  old: "Bedford comes up and fights on the plain north of the town:"
+  new: "Bedford comes up and fights on a plain before the town:"
+  commit: db851cef
+- fault: 010-fact-checker-12
+  by: fact-checker
+  file: content/joan-of-arc/.plan/010-france-divided/text.yaml
+  field: pages.cravant-and-verneuil.account
+  old: "on Saturday 31 July 1423 they find the army of Charles VII, French, Scots and others, drawn up across the river;"
+  new: "on Saturday 31 July 1423 they find the army of Charles VII, French, Scots and others, before the town, cross to the left bank, probably at Champs (Ramsay), and face it across the river, drawn up between the walls of Cravant and the water;"
+  commit: db851cef
+- fault: 010-fact-checker-13
+  by: fact-checker
+  file: content/joan-of-arc/.plan/010-france-divided/text.yaml
+  field: pages.cravant-and-verneuil.account
+  old: "the stretches of road from Tours to Nonancourt and from Ivry to Verneuil are reconstructions, drawn direct."
+  new: "the stretches of road from Tours to Nonancourt and from Ivry to Verneuil are reconstructions, drawn direct, and Salisbury's crossing at Champs is Ramsay's probable place."
+  commit: db851cef
+- fault: 010-fact-checker-14
+  by: fact-checker
+  file: content/joan-of-arc/.plan/010-france-divided/text.yaml
+  field: pages.two-kings.account
+  old: "the first defeat of the English in the field in the story, and the reason Verneuil, three years on, breaks an army that had won."
+  new: "the first defeat of the English in the field in the story, won by the army that Cravant and Verneuil will break."
+  commit: db851cef
+- fault: 010-fact-checker-15
+  by: fact-checker
+  file: content/joan-of-arc/.plan/010-france-divided/text.yaml
+  field: pages.murder-in-paris.account
+  old: "by about eighteen men who had lodged nearby for days (Monstrelet's figure, told with his name)."
+  new: "by about eighteen men who had lodged at an inn near the Porte Barbette and had meant the deed for several days (Monstrelet's figure, told with his name)."
+  commit: db851cef
+- fault: 010-fact-checker-16
+  by: fact-checker
+  file: content/joan-of-arc/.plan/names.md
+  field: Places, rows
+  old: ""
+  new: |-
+    | Champs | where the English probably crossed the Yonne before Cravant, July 1423 (Ramsay) | Champs-sur-Yonne, Yonne | 010 (010.59, Ramsay's passage) | |
+    | Nonancourt | where the army of Charles VII came before turning to Verneuil, August 1424 (Beaucourt) | Nonancourt, Eure | 010 (010.62, Beaucourt's passage) | |
+    | Beaufort-en-Vallée | Clarence's headquarters, from which he rode to Baugé in March 1421; the old name as the sources give it | Beaufort-en-Anjou, Maine-et-Loire | 010 (010.47, Ramsay's and Wylie and Waugh's passages) | Beaufort; Beaufort-en-Vallee |
+    | the Three Fountains brook | the brook through Domrémy that Lowell gives as the edge of the kingdom and Bar | Domrémy-la-Pucelle, Vosges | 010 (010.14) | the Three Fountains Brook |
+  commit: db851cef
+- fault: 010-fact-checker-17
+  by: fact-checker
+  file: content/joan-of-arc/.plan/names.md
+  field: People, William de la Pole, Earl of Suffolk
+  old: 'commander before Orléans after Salisbury, taken at Jargeau; "Suffolk" | 020 (020.20) |'
+  new: 'at Verneuil in 1424, commander before Orléans after Salisbury, taken at Jargeau; "Suffolk" | 010 (010.63) |'
+  commit: db851cef

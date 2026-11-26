@@ -1,0 +1,22 @@
+- step: plan-check
+  task: plan-check
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/010-france-divided/map.yaml
+    - content/joan-of-arc/.plan/010-france-divided/pages.yaml
+    - content/joan-of-arc/.plan/010-france-divided/battles.yaml
+    - content/joan-of-arc/.plan/010-france-divided/text.yaml
+    - content/joan-of-arc/.plan/names.md
+    - content/joan-of-arc/.plan/faults/010.yaml
+    - content/joan-of-arc/.plan/fixes/010.yaml
+  faults: [010-fact-checker-1, 010-fact-checker-2, 010-fact-checker-3, 010-fact-checker-4, 010-fact-checker-5, 010-fact-checker-6, 010-fact-checker-7, 010-fact-checker-8, 010-fact-checker-9, 010-fact-checker-10, 010-fact-checker-11, 010-fact-checker-12, 010-fact-checker-13, 010-fact-checker-14, 010-fact-checker-15, 010-fact-checker-16, 010-fact-checker-17]
+  unresolved: []
+  stale: []
+  checked:
+    routes: 7 (henry-v-1415-calais, henry-v-1417-caen, dauphin-1421-bauge, clarence-1421-bauge, salisbury-1423-cravant, bedford-1424-verneuil, france-1424-verneuil), each station read in its passage
+    borders: 10 zones, each in the brief's Map part; english-1420 and bar-1412 read in Ramsay l. 18426, Oman l. 19324 and Lowell l. 900-915
+    cards: 3 (agincourt-1415, bauge-1421, verneuil-1424), every figure read in its file with its author
+    dates: 6 pages
+  notes:
+    - "Ramsay's page 208, the march between Blanche-Taque and Béthencourt, is missing from the OCR (a second copy of page 206 stands in its place); the route's reconstruction there rests on Oman l. 18922."
+    - "The Baugé routes stay sourced: their stations are named and each stretch is under 20 km on a frame five degrees wide."

@@ -97,3 +97,7 @@
   Scots in the france column; the Herrings card has two sides, English, and French and Scots.
 - cloud ruling: the cards' columns stand as planned — no source counts the Scots apart from the French, and a third
   column would need figures that are `unknown`.
+- wave 010 020: done, 26 Nov 2026, at `plans` and `plan-check`. Each section's four plan files and its cards (Agincourt,
+  Baugé, Verneuil; the Herrings). The fact checkers wrote 17 faults in 010 and 8 in 020 and fixed them all in the
+  plans: among them Salisbury's road to Cravant on the wrong bank, and three routes of 020 with their stations out
+  of the order their passages give. None is open.

@@ -3,7 +3,8 @@
 "First named in" gives the section that first names it and the digest claim, `research.md`. "Other forms" are the
 spellings the story's source files use, in the OCR where the file is OCR. A text quotes them only inside a quote. A
 name the digest gives only in a quote or a note is marked so. A name marked "not told" stands under a rule of
-`rules.md` that leaves its claim out, and is listed only so that nobody looks for it again.
+`rules.md` that leaves its claim out, and is listed only so that nobody looks for it again. A Name cell with a semicolon lists the forms a
+text writes for the one row, the full form first; `scripts/names-check.mjs` reads each of them as the row.
 
 ## People
 
@@ -34,7 +35,7 @@ name the digest gives only in a quote or a note is marked so. A name marked "not
 | the Dauphin Charles | the son of Charles VI, Dauphin from 1417; this name until 30 October 1422, then Charles VII | 010 (010.35) | the Dauphin; le Dauphin |
 | Charles VII | the name the Dauphin Charles takes at Mehun-sur-Yèvre on 30 October 1422, and his name in every text after it, before and after Reims; always with his numeral. "The Dauphin" after 1422 only inside a quote, or once on a page to say that Joan, and his enemies, called him so until he was anointed. "King of Bourges" only as his enemies' nickname, in quotation marks | 010 (010.55) | the Dauphin; the King of Bourges; the little King of Bourges; Charles of Valois (Bedford) |
 | Yolande of Aragon | Queen of Sicily, Charles VII's mother-in-law; "Yolande" after the first mention | 020 (020.60) | the Queen of Sicily |
-| Georges de La Trémoille | Charles VII's favourite, who governed the king with Regnault de Chartres and Gaucourt; "La Trémoille" after the first mention | 020 (020.16) | La Tremoille; La Trimoille; La Tremoïlle; la Trimoille |
+| Georges de La Trémoille; La Trémoille | Charles VII's favourite, who governed the king with Regnault de Chartres and Gaucourt; "La Trémoille" after the first mention | 040 (040.14) | La Tremoille; La Trimoille; La Tremoïlle; la Trimoille |
 | Regnault de Chartres | Archbishop of Reims and Chancellor of France, of La Trémoille's party; "the Archbishop of Reims" alone means him in 020–060 | 020 (020.59) | Regnault of Chartres; the archbishop of Rheims |
 | Robert le Maçon | of the king's council, who asked at Troyes that Joan be heard | 040 (040.57) | Robert le Magon |
 | Raoul de Gaucourt | governor of Orléans and Grand Steward of the household; "Gaucourt" after the first mention | 020 (020.55) | the Sire de Gaucourt; Sieur de Gaucourt |
@@ -66,12 +67,12 @@ name the digest gives only in a quote or a note is marked so. A name marked "not
 | Name | Who | First named in | Other forms in the sources |
 |---|---|---|---|
 | the Bastard of Orléans | Jean, son of Louis of Orléans, half-brother of the captive Duke Charles of Orléans; the king's lieutenant in Orléans from 1428. This name until he is made Count of Dunois in 1439, then Dunois; "the Bastard of Orléans (later Count of Dunois)" at the first mention on a page of 020–050. His deposition of 1456 is "Dunois's deposition" | 020 (020.21) | Jean, Bastard of Orléans; the Bastard; le bastard d'Orléans; John, Bastard of Orleans |
-| Dunois | the Bastard of Orléans from 1439, Count of Dunois: at Paris in 1436 he is still "the Bastard of Orléans"; Dunois at Caen and Bordeaux in 1450–1451 and as witness in 1456 | 070 (070.23) | the Count of Dunois; my lord of Dunois |
+| Dunois | the Bastard of Orléans from 1439, Count of Dunois: at Paris in 1436 he is still "the Bastard of Orléans"; Dunois at Caen and Bordeaux in 1450–1451 and as witness in 1456 | 020 (020.21, as "later Count of Dunois") | the Count of Dunois; my lord of Dunois |
 | the Duke of Alençon | John II, Duke of Alençon, taken at Verneuil in 1424, commander of the army on the Loire in 1429; "Alençon" after the first mention. "The Duke of Alençon" alone means him, never his father | 010 (010.62) | John, Duke of Alençon; Jean d'Alençon; the Duke d'Alengon; Alenjon (OCR) |
 | La Hire | Étienne de Vignolles, called La Hire, a Gascon captain; "La Hire" in every text | 020 (020.58) | Étienne de Vignolles; La Hyre; La Ilire (OCR) |
 | Poton de Xaintrailles | a captain of the vanguard at Patay; "Xaintrailles" after the first mention | 040 (040.27) | Poton; Pothon; Pothon de Xaintrailles |
 | Gilles de Rais | Marshal of France; "Rais" after the first mention | 020 (020.58) | Rays; the Marshal de Rais; de Rais |
-| Boussac | Jean de Brosse, lord of Boussac, Marshal of France; "Marshal de Boussac" at the first mention on a page, "Boussac" after | 020 (020.58) | Jean de la Brosse; Sainte-Sévère; Saincte-Sevère; Bossac; Bousac |
+| Boussac; the Marshal de Boussac; Jean de Brosse | Jean de Brosse, lord of Boussac, Marshal of France; "the Marshal de Boussac" or "Jean de Brosse, lord of Boussac" at the first mention on a page, "Boussac" after | 020 (020.58) | Jean de la Brosse; Sainte-Sévère; Saincte-Sevère; Bossac; Bousac |
 | Louis de Culant | Admiral of France; "the admiral de Culant" | 020 (020.58) | Culan; Coulent |
 | Ambroise de Loré | captain in the convoy of 1429, later captain of Lagny | 030 (030.12) | Ambroys de Loré; Ambroisede Lore |
 | Florent d'Illiers | captain at Orléans | 030 (030.27) | d'IUiers (OCR) |
@@ -82,8 +83,8 @@ name the digest gives only in a quote or a note is marked so. A name marked "not
 | Simon Beaucroix | a squire of her company, witness in 1456 | 030 (030.22) | |
 | Guillaume Girault | the notary of Orléans whose note of 1429 the digest reads | 030 (030.3) | |
 | Guillaume Regnault | the squire who took Suffolk at Jargeau | 040 (040.5) | GuiIlaumeRegnault (OCR) |
-| Arthur de Richemont | brother of the Duke of Brittany, taken at Agincourt as Count of Richemont, Constable of France from 1425; "Richemont" after the first mention. "The Constable" alone means him from 1425 | 010 (010.29) | the Count of Richemont; the Constable de Richemont; conte de Richemont |
-| Louis de Bourbon, Count of Vendôme | taken at Agincourt; brought Joan in to the king at Chinon; governor of Senlis in 1429; "Vendôme" after the first mention | 010 (010.29) | Venddme (OCR); the count de Yendome (OCR) |
+| Arthur de Richemont; Richemont | brother of the Duke of Brittany, taken at Agincourt as Count of Richemont, Constable of France from 1425; "Richemont" after the first mention. "The Constable" alone means him from 1425 | 040 (040.14) | the Count of Richemont; the Constable de Richemont; conte de Richemont |
+| Louis de Bourbon, Count of Vendôme; Vendôme | taken at Agincourt; brought Joan in to the king at Chinon; governor of Senlis in 1429; "Vendôme" after the first mention | 020 (020.50) | Venddme (OCR); the count de Yendome (OCR) |
 | Charles, Count of Clermont | Charles de Bourbon, son of the captive Duke of Bourbon, leader of the French at the Herrings; governor of the Île-de-France in 1429. "Clermont" alone means him in 020–050 | 020 (020.23) | Charles de Bourbon; Clermont; the Count of Clermont |
 | John, Count of Clermont | eldest son of the Duke of Bourbon, commander in Lower Normandy in 1450, at Formigny; "Clermont" alone means him in 070 | 070 (070.17) | the Count of Clermont |
 | Guy de Laval | a young lord who wrote from Selles in June 1429 and stood for a lay peer at Reims; "Laval" | 040 (040.2) | |
@@ -110,9 +111,9 @@ name the digest gives only in a quote or a note is marked so. A name marked "not
 | Name | Who | First named in | Other forms in the sources |
 |---|---|---|---|
 | Louis, Duke of Orléans | the only brother of Charles VI, murdered in Paris on 23 November 1407; "Louis of Orléans" after the first mention | 010 (010.1) | Louis of Orleans; the duc d'Orléans |
-| Charles, Duke of Orléans | his son, taken at Agincourt, a prisoner in England through Joan's years; "Charles of Orléans" | 010 (010.6) | the captive Duke of Orléans; the young Charles of Orléans |
+| Charles, Duke of Orléans; Charles of Orléans | his son, taken at Agincourt, a prisoner in England through Joan's years; "Charles of Orléans" | 010 (010.6) | the captive Duke of Orléans; the young Charles of Orléans |
 | Bernard, Count of Armagnac | father-in-law of Charles of Orléans, head of the Orléans party from 1410, killed in Paris in 1418 | 010 (010.6) | Bernard, Comte d'Armagnac; the Count of Armagnac |
-| the Constable d'Albret | Charles d'Albret, Constable of France, commander of the French at Agincourt and killed there; always "the Constable d'Albret" | 010 (010.27) | Charles d'Albret; d'Albret |
+| the Constable d'Albret | Charles d'Albret, Constable of France, commander of the French at Agincourt and killed there; always "the Constable d'Albret", so that "Charles d'Albret" stays with the lieutenant of 1429 | 010 (010.27) | Charles d'Albret (the sources' name for both men); d'Albret |
 | John I, Duke of Alençon | killed at Agincourt, father of the Duke of Alençon of 1424–1429; always with the numeral | 010 (010.29) | Alençon; Alenjon (OCR) |
 | Edward, Duke of Bar | killed at Agincourt | 010 (010.29) | the Duke of Bar |
 | Anthony, Duke of Brabant | killed at Agincourt | 010 (010.32) | the Duke of Brabant |
@@ -147,8 +148,8 @@ name the digest gives only in a quote or a note is marked so. A name marked "not
 | Antoine de Vergy | governor of Champagne for the English, who marched on Vaucouleurs in July 1428 | 020 (020.10) | |
 | the lords of Châtillon and Saveuses | the Anglo-Burgundian captains who left Reims in July 1429 | 040 (040.63) | Chastilïon sur Marne; Saveuses |
 | the lords of Croy and Brimeu | Burgundian holders of Château-Thierry with Châtillon in 1429 | 040 (040.79) | |
-| Charles II, Duke of Lorraine | who had Joan brought to Nancy in 1429; "the Duke of Lorraine" alone means him | 010 (010.17) | Charles of Lorraine; the Sieur Chafles de Lorraine (OCR) |
-| René of Anjou | Duke of Bar under the Duke of Lorraine's guardianship from about 1420; with Charles VII in 1429 as "René, Duke of Bar" at the first mention on a page of 050 | 010 (010.17) | the Duke of Bar; René of Bar; le duc de Bar; René (Lowell, Charles II's son-in-law) |
+| Charles II, Duke of Lorraine; the Duke of Lorraine | who had Joan brought to Nancy in 1429; "the Duke of Lorraine" alone means him | 010 (010.17) | Charles of Lorraine; the Sieur Chafles de Lorraine (OCR) |
+| René of Anjou; René, Duke of Bar | Duke of Bar under the Duke of Lorraine's guardianship from about 1420; with Charles VII in 1429 as "René, Duke of Bar" at the first mention on a page of 050 | 020 (020.34) | the Duke of Bar; René of Bar; le duc de Bar; René (Lowell, Charles II's son-in-law) |
 | the Cardinal of Bar | who resigned the duchy of Bar to René of Anjou | 010 (010.17) | |
 
 ### The English
@@ -167,11 +168,11 @@ name the digest gives only in a quote or a note is marked so. A name marked "not
 | Michael de la Pole, Earl of Suffolk | killed at Agincourt; always with his name, so that "Suffolk" stays with William | 010 (010.33) | the Earl of Suffolk |
 | John Beaufort, Earl of Somerset | taken at Baugé; always "the Earl of Somerset" | 010 (010.47) | Somerset |
 | the Earl of Huntingdon | taken at Baugé | 010 (010.47) | Huntingdon |
-| Thomas Montagu, Earl of Salisbury | Henry VI's lieutenant in France, victor at Cravant, who laid the siege of Orléans and died of his wound at Meung in 1428; "Salisbury" | 010 (010.59) | Salisbury; le conte de Salebris; Salebris |
-| William de la Pole, Earl of Suffolk | at Verneuil in 1424, commander before Orléans after Salisbury, taken at Jargeau; "Suffolk" | 010 (010.63) | Suffolk; le conte de Sufford; Sutïbrd (OCR); Pole; William Pole (Champion) |
+| Thomas Montagu, Earl of Salisbury; Salisbury | Henry VI's lieutenant in France, victor at Cravant, who laid the siege of Orléans and died of his wound at Meung in 1428; "Salisbury" | 010 (010.59) | Salisbury; le conte de Salebris; Salebris |
+| William de la Pole, Earl of Suffolk; Suffolk | at Verneuil in 1424, commander before Orléans after Salisbury, taken at Jargeau; "Suffolk" | 020 (020.20) | Suffolk; le conte de Sufford; Sutïbrd (OCR); Pole; William Pole (Champion) |
 | John de la Pole | Suffolk's brother, who took Jargeau in 1428 and was taken there in 1429 | 020 (020.14) | Sir John de la Pole |
 | Alexander de la Pole | Suffolk's brother, killed at Jargeau | 040 (040.5) | messire Alexandre de La Poulie |
-| John Talbot | English captain before Orléans, taken at Patay; Earl of Shrewsbury from 1442, killed at Castillon in 1453. "Talbot" in every text; "Lord Talbot" at the first mention on a page of 020–040, "John Talbot, Earl of Shrewsbury" at the first mention on a page of 070 | 020 (020.20) | Lord Talbot; Sir John Talbot; Tallebot; Thalbot; Thalboth; the sire de Tallebot; Shrewsbury; the Earl of Shrewsbury |
+| John Talbot; Talbot | English captain before Orléans, taken at Patay; Earl of Shrewsbury from 1442, killed at Castillon in 1453. "Talbot" in every text; "Lord Talbot" at the first mention on a page of 020–040, "John Talbot, Earl of Shrewsbury" at the first mention on a page of 070 | 030 (030.10) | Lord Talbot; Sir John Talbot; Tallebot; Thalbot; Thalboth; the sire de Tallebot; Shrewsbury; the Earl of Shrewsbury |
 | Viscount Lisle | Talbot's son, killed with him at Castillon | 070 (070.33) | Viscount de L'Isle |
 | Thomas, Lord Scales | English captain before Orléans, taken at Patay; "Lord Scales" | 020 (020.20) | Scales; le seigneur d'Escalles |
 | Sir John Fastolf | steward of Bedford's household, victor at the Herrings, who fled from Patay; "Fastolf" | 020 (020.23) | messire Jehan Fascot; Jehan Fastoli; sir John Fascot |
@@ -271,11 +272,11 @@ A text names a writer when it gives his figure, his date or his judgement, by th
 | Monstrelet | Enguerrand de Monstrelet, Burgundian chronicler, at Compiègne in 1430 | 010 (010.1) | Monstrelet A, Monstrelet B; Monstrelet's continuator (book 3) |
 | the Bourgeois of Paris | the unknown Parisian of the Journal d'un bourgeois de Paris | 010 (010.26) | the Bourgeois; Journal d'un bourgeois de Paris |
 | the Journal du siège | the Journal of the Siege of Orléans; "the Journal of the Siege" in a text, explained once | 020 (020.17) | Journal du siège d'Orléans; the Journ. Siege |
-| the Chronique de la Pucelle | the chronicle that shares the Journal's text, by Cousinot's edition | 010 (010.47) | Geste des nobles; Cousinot |
+| the Chronique de la Pucelle; Chronique de la Pucelle | the chronicle that shares the Journal's text, by Cousinot's edition | 010 (010.47) | Geste des nobles; Cousinot |
 | the chronicle of the feast | the Orléans chronicle of the feast of 8 May | 030 (030.2) | |
 | Perceval de Cagny | chronicler of the household of the Duke of Alençon; "Cagny" | 010 (010.47) | Cagny |
 | Perceval de Boulainvilliers | whose letter of 1429 to the Duke of Milan gives her birthday; "Boulainvilliers" | 010 (010.10) | PerceVal de Boulainvilliers (OCR) |
-| Wavrin | Jean de Wavrin, Burgundian chronicler, who rode with Fastolf at Patay | 010 (010.66) | |
+| Wavrin | Jean de Wavrin, Burgundian chronicler, who rode with Fastolf at Patay | 040 (040.12) | |
 | Chastellain | Georges Chastellain, Burgundian chronicler | 050 (050.49) | |
 | Jean Chartier | chronicler of Charles VII; "Chartier" | 040 (040.5) | |
 | Gruel | Guillaume Gruel, Richemont's biographer | 040 (040.15) | |
@@ -306,7 +307,7 @@ A text names a writer when it gives his figure, his date or his judgement, by th
 | Anatole France | The Life of Joan of Arc; read only for where to look | 030 (030.16) | France |
 | Renoux | Christian Renoux (2022), on the canonisation | 070 (070.51) | |
 | Boismarmin | whose date of her coming to Chinon Lowell follows | 020 (020.42) | |
-| the Continuator of Guillaume de Nangis | the French continuator of the chronicle of Guillaume de Nangis, the one chronicle that gives the day of her coming to Chinon, 6 March 1429; "the French Continuator of Guillaume de Nangis" at the first mention on a page | 020 (020.43) | Continuateur français de Guillaume de Nangis; the Continuator of Nangis |
+| the Continuator of Guillaume de Nangis; the French Continuator of Guillaume de Nangis | the French continuator of the chronicle of Guillaume de Nangis, the one chronicle that gives the day of her coming to Chinon, 6 March 1429; "the French Continuator of Guillaume de Nangis" at the first mention on a page | 020 (020.43) | Continuateur français de Guillaume de Nangis; the Continuator of Nangis |
 | Canon Dunand | whose view on the diocese of Compiègne Lang gives | 060 (060.31) | the Chanoine Dunand |
 | Petit de Julleville | named by Thurston on the sign | 060 (060.43) | |
 | Curry, Barker, Sumption, Rogers | modern counts of Agincourt known only through Wikipedia; not told (rules.md, Thin) | 010 (010.25) | |
@@ -335,9 +336,9 @@ old name without it, as the sources and the histories do, and "Today" gives the 
 | Saint-Urbain | whole story | Saint-Urbain-Maconcourt, Haute-Marne (the abbey) | 020 (020.10) | St. Urbain |
 | Auxerre | whole story; Burgundian | Auxerre, Yonne | 010 (010.59) | |
 | Champs | where the English probably crossed the Yonne before Cravant, July 1423 (Ramsay) | Champs-sur-Yonne, Yonne | 010 (010.59, Ramsay's passage) | |
-| Gien | whole story; held for Charles VII | Gien, Loiret | 010 (010.68) | Gien sur Laire |
+| Gien | whole story; held for Charles VII | Gien, Loiret | 020 (020.46) | Gien sur Laire |
 | Sainte-Catherine-de-Fierbois | whole story | Sainte-Catherine-de-Fierbois, Indre-et-Loire | 020 (020.48) | Fierbois; Ste. Catherine de Fierbois |
-| Chinon | whole story | Chinon, Indre-et-Loire (the castle) | 010 (010.68) | |
+| Chinon | whole story | Chinon, Indre-et-Loire (the castle) | 020 (020.43) | |
 | Poitiers | whole story | Poitiers, Vienne | 020 (020.52) | |
 | Tours | whole story | Tours, Indre-et-Loire | 010 (010.62, Cagny's passage) | |
 | Blois | whole story | Blois, Loir-et-Cher | 020 (020.29) | Bloys |

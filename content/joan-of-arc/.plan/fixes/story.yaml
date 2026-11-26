@@ -356,3 +356,52 @@
   old: "010 (normandy-and-troyes on), 020–070"
   new: "010 (normandy-and-troyes on), 020–050"
   commit: 63a4a6a3
+- fault: story-overseer-6
+  by: names
+  file: content/joan-of-arc/.plan/names.md
+  field: the head, its first paragraph
+  old: "and is listed only so that nobody looks for it again."
+  new: "and is listed only so that nobody looks for it again. A Name cell with a semicolon lists the forms a text writes for the one row, the full form first; `scripts/names-check.mjs` reads each of them as the row."
+  commit: 96eeaec1
+- fault: story-overseer-6
+  by: names
+  file: content/joan-of-arc/.plan/names.md
+  field: "People, the row Boussac: Name and Who"
+  old: "| Boussac | Jean de Brosse, lord of Boussac, Marshal of France; \"Marshal de Boussac\" at the first mention on a page, \"Boussac\" after |"
+  new: "| Boussac; the Marshal de Boussac; Jean de Brosse | Jean de Brosse, lord of Boussac, Marshal of France; \"the Marshal de Boussac\" or \"Jean de Brosse, lord of Boussac\" at the first mention on a page, \"Boussac\" after |"
+  commit: 96eeaec1
+- fault: story-overseer-6
+  by: names
+  file: content/joan-of-arc/.plan/names.md
+  field: "People, the rows the Constable d'Albret (Who, Other forms) and Charles, Duke of Orléans (Name)"
+  old: "| Charles, Duke of Orléans | ... always \"the Constable d'Albret\" | 010 (010.27) | Charles d'Albret; d'Albret |"
+  new: "| Charles, Duke of Orléans; Charles of Orléans | ... always \"the Constable d'Albret\", so that \"Charles d'Albret\" stays with the lieutenant of 1429 | 010 (010.27) | Charles d'Albret (the sources' name for both men); d'Albret |"
+  commit: 96eeaec1
+- fault: story-overseer-6
+  by: names
+  file: content/joan-of-arc/.plan/names.md
+  field: "People, the rows Georges de La Trémoille, Arthur de Richemont and Wavrin: Name and First named in"
+  old: "Georges de La Trémoille ... 020 (020.16); Arthur de Richemont ... 010 (010.29); Wavrin ... 010 (010.66)"
+  new: "Georges de La Trémoille; La Trémoille ... 040 (040.14); Arthur de Richemont; Richemont ... 040 (040.14); Wavrin ... 040 (040.12)"
+  commit: 96eeaec1
+- fault: story-overseer-6
+  by: names
+  file: content/joan-of-arc/.plan/names.md
+  field: "People, the rows William de la Pole, Earl of Suffolk, and the Chronique de la Pucelle: Name and First named in"
+  old: "William de la Pole, Earl of Suffolk ... 010 (010.63); the Chronique de la Pucelle ... 010 (010.47)"
+  new: "William de la Pole, Earl of Suffolk; Suffolk ... 020 (020.20); the Chronique de la Pucelle; Chronique de la Pucelle ... 010 (010.47)"
+  commit: 96eeaec1
+- fault: story-names-1
+  by: names
+  file: scripts/names-check.mjs
+  field: the groups of shared names, the key of a row
+  old: "  const [key, ...rest] = words(row.name);\n  row.key = key;"
+  new: "  const [key, ...rest] = words(row.name);\n  // \"the Bastard of Orléans\" and \"the Gesta\" share no name: a word in lower case is no name to share.\n  if (!capital(key)) continue;\n  row.key = key;"
+  commit: 96eeaec1
+- fault: story-names-2
+  by: names
+  file: scripts/slice.mjs
+  field: forms, the forms of a row's Name cell
+  old: "    for (const part of i === 0 ? [cell] : cell.split(/[;/]/)) {"
+  new: "    for (const part of cell.split(i === 0 ? /;/ : /[;/]/)) {"
+  commit: 96eeaec1

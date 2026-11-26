@@ -322,3 +322,8 @@
   their sections' facts.
 - step facts: done, 26 Nov 2026. Seven fact checks, seven reviews, seven rechecks, each ending `pass`.
 - ledger after `facts`: | **total** | 115 | 3,294 | 560,087 | 6,695 | 23,282,271 | 563,957,142 | 4,384,216 | 107,426,328 |
+- names settled against the texts (names, task fix): story-overseer-6, 020-section-reviewer-17 and 070-section-writer-2
+  are fixed. A row's Name cell now lists the short forms its Who cell asks for; ten cells "First named in" follow the
+  texts. Two lines of shared scripts changed: `names-check.mjs` no longer groups the rows that open with a lower-case
+  "the" (story-names-1), and `slice.mjs` splits a Name cell at ";" (story-names-2). `names-check` prints ok; its
+  output for alexander-the-great is the same before and after.

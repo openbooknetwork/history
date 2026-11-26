@@ -25,3 +25,22 @@
     - "Reims over Rheims; Agincourt for the battle and Azincourt for the village; Clermont-Ferrand (then Clermont), to keep the town apart from the Count of Clermont"
   differs_from_other_stories:
     - "French names keep their accents (Orléans, Domrémy, Compiègne). The Alexander story's rule of no diacritics is for transliterated Greek, so the two rules do not clash. No person is shared with that story."
+
+- step: facts
+  task: fix
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/names.md
+    - scripts/names-check.mjs
+    - scripts/slice.mjs
+    - content/joan-of-arc/.plan/faults/story.yaml
+    - content/joan-of-arc/.plan/faults/020.yaml
+    - content/joan-of-arc/.plan/faults/070.yaml
+    - content/joan-of-arc/.plan/fixes/story.yaml
+    - content/joan-of-arc/.plan/fixes/020.yaml
+    - content/joan-of-arc/.plan/fixes/070.yaml
+  faults: [story-names-1, story-names-2]
+  fixed: [story-overseer-6, 020-section-reviewer-17, 070-section-writer-2, story-names-1, story-names-2]
+  unresolved: []
+  stale: []
+  check: "node scripts/names-check.mjs joan-of-arc prints ok; alexander-the-great's output is unchanged; node --test scripts/inputs.test.mjs passes"

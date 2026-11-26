@@ -511,3 +511,10 @@
   old: "Thurston writes that in England"
   new: "Thurston writes in 1910 that in England"
   commit: a3082d2d
+- fault: 070-section-writer-2
+  by: names
+  file: content/joan-of-arc/.plan/names.md
+  field: "People, the row John Talbot: Name and First named in"
+  old: "| John Talbot | ... | 020 (020.20) |"
+  new: "| John Talbot; Talbot | ... | 030 (030.10) |"
+  commit: 96eeaec1

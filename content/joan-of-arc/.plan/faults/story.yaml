@@ -426,3 +426,13 @@
   state: declined
   reader: "sees a French town in English land and cannot tell which of the two the page means"
   ruling: "cloud ruling: declined. A markers colour is the holder as its pages events end, which its note and the text tell; the zones show the state the page opens on. The map auditors of 040 and 070 passed these pages so"
+- id: story-overseer-8
+  severity: weak
+  file: content/joan-of-arc/.plan/brief.md
+  field: Map, Zones, the Sources of the rows france-1407, english-1428 and bar-1412
+  new: each row cites 010.14, the disputed lordship of Domremy, where it cited 020.9 for the village as a dependency of Champagne
+  source: "reports/010-researcher.yaml: since story-story-auditor-1 the claim 020.9 covers Neufchateau alone, and the reading of Domremy as French stands in 010.14"
+  kind: plan
+  introduced: fix
+  owner: brief
+  state: fixed

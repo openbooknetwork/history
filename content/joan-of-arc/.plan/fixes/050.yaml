@@ -631,3 +631,46 @@
     hears of the siege here and rides out about midnight, May 1430"; coudun-1430: "The Duke of Burgundy's quarters, a
     league from Compiègne"
   commit: 7c8529c8
+- fault: 050-story-auditor-1
+  by: cartographer
+  file: content/joan-of-arc/.plans/pages050.mjs
+  field: pages[back-to-the-loire].markers (and so 030-back-to-the-loire markers.yaml and page.yaml, rerun)
+  old: "markers: [saint-denis-abbey, bray-1429, gien-disbanded]"
+  new: >-
+    markers: [saint-denis-abbey, lagny-sep-1429, provins-sep-1429, bray-1429, sens-sep-1429, courtenay-1429,
+    montargis-1429, gien-disbanded]; lagny-sep-1429 [2.71, 48.87] "Charles VII crosses the Marne here on his way south
+    from Saint-Denis, September 1429, and leaves Ambroise de Loré as its captain"; provins-sep-1429 [3.30, 48.56]
+    "Charles VII's army comes here a day after Lagny on its way south, September 1429 (the Journal of the Siege)";
+    sens-sep-1429 [3.28, 48.20], english, "Does not open to Charles VII in September 1429, and his army fords the Yonne
+    a little below it (the Journal of the Siege)"; courtenay-1429 [3.06, 48.04] "A town on Charles VII's way from the
+    Yonne to Montargis and Gien, September 1429 (the Journal of the Siege)"; montargis-1429 [2.73, 48.00] "A town on
+    Charles VII's way from Courtenay to Gien, September 1429 (the Journal of the Siege)"
+  commit: 5783ce3a
+- fault: 050-story-auditor-1
+  by: cartographer
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/030-back-to-the-loire/text/en.md
+  field: paragraph 2, the king's road
+  old: "He crosses the Marne at Lagny and goes by Provins to [Bray](@bray-1429) ... Sens will not let him in, so he fords the Yonne a little below it and rides on by Courtenay and Montargis to [Gien](@gien-disbanded)"
+  new: "He crosses the Marne at [Lagny](@lagny-sep-1429) and goes by [Provins](@provins-sep-1429) to [Bray](@bray-1429) ... [Sens](@sens-sep-1429) will not let him in, so he fords the Yonne a little below it and rides on by [Courtenay](@courtenay-1429) and [Montargis](@montargis-1429) to [Gien](@gien-disbanded)"
+  commit: 5783ce3a
+- fault: 050-story-auditor-1
+  by: cartographer
+  file: content/joan-of-arc/.plan/050-paris-and-compiegne/pages.yaml
+  field: pages[back-to-the-loire].markers
+  old: "[saint-denis-abbey, bray-1429, gien-disbanded]"
+  new: "[saint-denis-abbey, lagny-sep-1429, provins-sep-1429, bray-1429, sens-sep-1429, courtenay-1429, montargis-1429, gien-disbanded]"
+  commit: 5783ce3a
+- fault: 050-story-auditor-1
+  by: cartographer
+  file: content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml
+  field: back-to-the-loire.markers and back-to-the-loire.unmarked
+  old: "unmarked: Lagny, Provins, Sens, Courtenay, Montargis (each a station of the road)"
+  new: "markers lagny-sep-1429, provins-sep-1429, sens-sep-1429, courtenay-1429, montargis-1429 (basis sourced, 050.29); the five rows out of unmarked"
+  commit: 5783ce3a
+- fault: 050-story-auditor-1
+  by: cartographer
+  file: content/joan-of-arc/.plans/pages050.mjs
+  field: the image of each marker that has one
+  old: "the placeholder names (montepilloy-castle-ruins, senlis-cathedral, paris-charles-v-wall-plan, saint-denis-basilica, saint-pierre-le-moutier-church, la-charite-priory, melun-notre-dame)"
+  new: "the placed image ids of .plan/images/050.yaml (montepilloy-castle-ruins-cc0fc5 and so on), so a rerun keeps the markers.yaml as the image finder left them"
+  commit: 5783ce3a

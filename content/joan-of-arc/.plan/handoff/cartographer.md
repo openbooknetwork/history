@@ -76,3 +76,6 @@
   with a dated id of its own (`saint-loup-april-1429`) at the later page's point, and the text links it.
 - 070's generator holds the placed image ids now; a marker whose placed file has no `image:` line (070's paris-1436,
   "Image: none") must have none in the generator either, or the placeholders check lists it again.
+- Once images are placed, a generator's `image:` must hold the placed id (`.plan/images/<section>.yaml`), or a rerun
+  puts the placeholder back; 050's generator now does. The story auditor holds every town a route's text names to a
+  marker (050's back-to-the-loire now marks Lagny, Provins, Sens, Courtenay, Montargis with `-sep-1429`/`-1429` ids).

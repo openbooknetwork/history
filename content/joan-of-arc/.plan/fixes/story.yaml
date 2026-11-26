@@ -510,3 +510,24 @@
   old: "- 020.9 Border: Domrémy, inside the territory of Lorraine, belonged to France as a dependency of Champagne; Neufchâteau, seven miles south (six in Lang), was a walled town of the Duke of Lorraine, then on the English side. agreed (Murray's note; Lang; Lowell). \"The village of Domremy, although in the territory of Lorraine, belonged to France, not to Lorraine ; for administrative purposes it was a dependance of Champagne.\" (archive.org-download-jeannedarcmaidof028754mbp-jeannedarcmaidof028754mbp-djvu.txt.txt, depositions at Domrémy, Murray's note, lines 11873-11875, primary) \"Jeanne and Charles VII agreed in regarding the sites of Domremy and Greux as French soil\" (archive.org-download-maidoffrancebein00languoft-maidoffrancebein00languoft-djvu.txt.txt, ch. 2, lines 1668-1669, scholarly) \"miles south to Neufchateau, a walled town belonging to the duke of Lorraine, who was an ally of the English.\" (archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, ch. 3, lines 1558-1559, scholarly)"
   new: "- 020.9 Border: Neufchâteau, seven miles south of Domrémy (six in Lang), was a town of the Duke of Lorraine, walled (Lowell), the duke then an ally of the English (Lowell; his oath to Henry V is 010.17). agreed for Neufchâteau in Lorraine (Lowell; Lang). Domrémy's own lordship is disputed and stands at 010.14, with Murray's note and Lang's \"French soil\". \"miles south to Neufchateau, a walled town belonging to the duke of Lorraine, who was an ally of the English.\" (archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, ch. 3, lines 1558-1559, scholarly) \"retired  a  distance  of  six  miles  to  Neufchateau,  in  Loraine.\" (archive.org-download-maidoffrancebein00languoft-maidoffrancebein00languoft-djvu.txt.txt, Lang ch. 5, line 3170, scholarly)"
   commit: 5783ce3a
+- fault: story-overseer-8
+  by: overseer
+  file: content/joan-of-arc/.plan/brief.md
+  field: Map, Zones, line 226
+  old: "020.9 (Domrémy belonged to France as a dependency of C"
+  new: "010.14 (disputed: one reading has Domrémy belong to France as a dependency of C"
+  commit: af9ee7ed
+- fault: story-overseer-8
+  by: overseer
+  file: content/joan-of-arc/.plan/brief.md
+  field: Map, Zones, line 232
+  old: "010.15, 020.9, 020.10,"
+  new: "010.15, 010.14, 020.10,"
+  commit: af9ee7ed
+- fault: story-overseer-8
+  by: overseer
+  file: content/joan-of-arc/.plan/brief.md
+  field: Map, Zones, line 251
+  old: "with the French side from 010.15 and 020.9"
+  new: "with the French side from 010.15 and the third reading of 010.14"
+  commit: af9ee7ed

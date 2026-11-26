@@ -36,3 +36,19 @@
   faults: []
   unresolved: []
   stale: []
+- step: story
+  task: fix
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plans/pages050.mjs
+    - content/joan-of-arc/pages/050-paris-and-compiegne/030-back-to-the-loire/markers.yaml
+    - content/joan-of-arc/pages/050-paris-and-compiegne/030-back-to-the-loire/page.yaml
+    - content/joan-of-arc/pages/050-paris-and-compiegne/030-back-to-the-loire/text/en.md
+    - content/joan-of-arc/.plan/050-paris-and-compiegne/pages.yaml
+    - content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml
+    - content/joan-of-arc/.plan/faults/050.yaml
+    - content/joan-of-arc/.plan/fixes/050.yaml
+    - content/joan-of-arc/.plan/handoff/cartographer.md
+  faults: []
+  unresolved: []
+  stale: []

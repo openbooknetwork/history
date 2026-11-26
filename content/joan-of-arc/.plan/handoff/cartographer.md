@@ -42,3 +42,15 @@
   and `map.yaml` (out of `unmarked`), and link the name in the text, or it waits unseen under a planned marker.
 - names-check fails "the Marshal de Boussac" though names.md's row asks for it at the first mention: a conflict
   for the names agent, not a map fault.
+- Section 050 is `content/joan-of-arc/.plans/pages050.mjs`, built on 040's. A route id is the story's, like a marker
+  id: 050's plan reused 040's `france-1429-gien`, and the build failed "defined twice" (050-cartographer-1, now
+  `france-1429-back-to-gien`). Grep a planned route id against every page's `routes/` before drawing.
+- names-check passes notes written round bare titles: "Charles VII" for "the king", "John, Duke of Bedford" in full,
+  "late in March" for "the end of March", "its bridge"/"its captain" for "the bridge"/"the captain".
+- 050 ends at Compiègne: the town [2.83, 49.42], the bridge [2.8275, 49.4195] by the card, Margny [2.82, 49.43],
+  Venette [2.80, 49.42], Clairoix [2.85, 49.44], Coudun [2.81, 49.47]; 060 goes on from Margny.
+- Section 060 is `content/joan-of-arc/.plans/pages060.mjs`, built on 040's. Natural Earth's coast leaves the town of
+  Le Crotoy in the bay of the Somme: its point is [1.645, 50.23], on the base map's land, and a route to it comes in
+  north of the bay by [1.75, 50.21]. Rouen's castle ward is [1.0932, 49.4452], the keep [1.0938, 49.4461], for 070.
+- names-check fails "the church of Saint-Sauveur" though names.md's rule asks for it: write "its church of
+  Saint-Sauveur". It also fails "Jean de Pressy" (no row): leave him out of a note or add his row.

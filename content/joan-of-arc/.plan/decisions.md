@@ -253,3 +253,4 @@
   13 new markers in the texts after the facts' recheck: links only, which the editor and the story auditor read.
 - wave 030 040: done, 26 Nov 2026, at the sections' `build`. 12 pages; 23 of 41 are built.
 - ledger after `wave 030 040`: | **total** | 86 | 2,612 | 469,260 | 5,319 | 18,274,829 | 453,486,407 | 3,558,594 | 85,990,466 |
+- maps 050 and 060 drawn (cartographers): 6 pages each, from `.plans/pages050.mjs` and `pages060.mjs`. 050's route `france-1429-gien` clashed with 040's and is `france-1429-back-to-gien` (050-cartographer-1); 060 gained three markers for route stations (060-cartographer-1, -2), and Le Crotoy's marker stands on land 1.5 km from the town, the base map's coast putting the town in the bay. No route joins Le Crotoy and Rouen.

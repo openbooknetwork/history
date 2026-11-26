@@ -1,0 +1,13 @@
+- step: maps
+  task: draw
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plans/pages050.mjs
+    - content/joan-of-arc/pages/050-paris-and-compiegne/
+    - content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml
+    - content/joan-of-arc/.plan/faults/050.yaml
+    - content/joan-of-arc/.plan/fixes/050.yaml
+    - content/joan-of-arc/.plan/handoff/cartographer.md
+  faults: [050-cartographer-1]
+  unresolved: []
+  stale: []

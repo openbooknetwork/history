@@ -109,7 +109,7 @@ back-to-the-loire:
   bbox: [2.0, 47.55, 3.55, 49.0]
   zones: [france-sep-1429, english-sep-1429, burgundy-1420, brittany-1407]
   routes:
-    - id: france-1429-gien
+    - id: france-1429-back-to-gien
       family: france
       stations: [Saint-Denis, Lagny, Provins, Bray, a ford of the Yonne below Sens, Courtenay, Château-Renard, Montargis, Gien]
       passage: "Cagny, Chroniques, 1429, pp. 169-170, lines 8100-8121; the Journal of the Siege, Quicherat 4, p. 200, lines 8193-8205; Lowell, Joan of Arc, ch. 13, p. 179 n., lines 7901-7902"
@@ -230,7 +230,7 @@ compiegne:
     choisy-1430: { name: Choisy, what: "the king's castle on the Oise, held by Louis de Flavy for his brother; Philip the Good takes it in May 1430, razes it and bridges the Oise to come at Compiègne; about 49.44 N 2.88 E. In the burgundy colour", basis: sourced, rank: 1 }
     soissons-1430: { name: Soissons, what: "held for the king by a captain bought by Burgundy, it shuts its gates on the army of Joan, the archbishop and Vendôme in May 1430 (18 May, Lang), and is sold to Burgundy weeks later; about 49.38 N 3.32 E. In the burgundy colour", basis: sourced }
     crepy-1430: { name: Crépy, what: "where Joan hears that Burgundy and the Earl of Arundel besiege Compiègne, and rides out about midnight with her company, May 1430; about 49.23 N 2.89 E. In the france colour", basis: sourced }
-    compiegne-1430: { name: Compiègne, what: "besieged by the Duke of Burgundy from May 1430; Joan rides in at sunrise and sorties that afternoon over the bridge, and the captain raises the bridge and shuts the gate behind her; about 49.42 N 2.83 E. In the france colour, under the battle card", basis: sourced, rank: 1 }
+    compiegne-1430: { name: Compiègne, what: "besieged by the Duke of Burgundy from May 1430; Joan rides in at sunrise (Cagny; Chastellain has her come by night two nights before) and sorties that afternoon over the bridge, and the captain raises the bridge and shuts the gate behind her; about 49.42 N 2.83 E. In the france colour, under the battle card", basis: sourced, rank: 1 }
     coudun-1430: { name: Coudun, what: "the Duke of Burgundy's quarters, a league from Compiègne, whence he writes to Saint-Quentin of her capture; he comes too late for the fight and speaks with her; about 49.47 N 2.81 E. In the burgundy colour", basis: sourced, rank: 1 }
     clairoix-1430: { name: Clairoix, what: "John of Luxembourg's quarters, whence he rides to Margny against the sortie; Joan is kept in his lodging three or four days (Cagny); about 49.44 N 2.85 E. In the burgundy colour", basis: sourced, rank: 2 }
     margny-1430: { name: Margny, what: "Baudot de Noyelle's post at the end of the causeway from Compiègne's bridge, which Joan drives back twice; she is taken in the fields between it and the boulevard and led here; about 49.43 N 2.82 E. In the burgundy colour", basis: sourced, rank: 3 }

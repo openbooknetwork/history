@@ -294,3 +294,73 @@
   old: "witnesses of 1450-1456 (Taquel; five, with Massieu, in Thurston) say the schedule read to her was some six lines;"
   new: "witnesses of 1450-1456 say the schedule read to her was short: about six lines, Taquel; a few lines, five witnesses with Massieu, in Thurston;"
   commit: 819faf73
+- fault: 060-cartographer-1
+  by: cartographer
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: beaulieu-and-beaurevoir.markers
+  old: "[beaulieu-1430, beaurevoir-1430]"
+  new: "[beaulieu-1430, beaurevoir-1430, clairoix-beaulieu-1430]"
+  commit: 8a04fd5d
+- fault: 060-cartographer-1
+  by: cartographer
+  file: content/joan-of-arc/.plan/060-rouen/map.yaml
+  field: beaulieu-and-beaurevoir.markers, beaulieu-and-beaurevoir.unmarked.Clairoix
+  old: "unmarked: Clairoix: \"the start of joan-1430-beaulieu, John of Luxembourg's quarters before Compiègne; marked as clairoix-1430 on compiegne, the page of the capture.\""
+  new: "markers: clairoix-beaulieu-1430: { name: Clairoix, what: \"John of Luxembourg's quarters before Compiègne, where Lang has him keep her three or four days before he sends her to Beaulieu; the start of joan-1430-beaulieu, which the text names; about 49.44 N 2.85 E. In the burgundy colour\", basis: sourced }"
+  commit: 8a04fd5d
+- fault: 060-cartographer-2
+  by: cartographer
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: sold-to-the-english.markers
+  old: "[arras-1430, le-crotoy-1430, rouen-1430, compiegne-relief-1430]"
+  new: "[arras-1430, le-crotoy-1430, rouen-1430, compiegne-relief-1430, beaurevoir-october-1430, drugy-1430]"
+  commit: 8a04fd5d
+- fault: 060-cartographer-2
+  by: cartographer
+  file: content/joan-of-arc/.plan/060-rouen/map.yaml
+  field: sold-to-the-english.markers, sold-to-the-english.unmarked.Drugy, sold-to-the-english.unmarked.Beaurevoir
+  old: "unmarked: Drugy: \"a station of joan-1430-le-crotoy, the castle where Lang has her pass a night; it changes nothing on the map.\" Beaurevoir: \"the start of joan-1430-le-crotoy; marked on beaulieu-and-beaurevoir.\""
+  new: "markers: beaurevoir-october-1430 (basis sourced) and drugy-1430 (basis reconstruction: today's commune of Saint-Riquier by names.md, the point just south of the town), each with its `what`"
+  commit: 8a04fd5d
+- fault: 060-section-writer-1
+  by: section-writer
+  file: content/joan-of-arc/.plan/names.md
+  field: "Arras, First named in"
+  old: "050 (050.11)"
+  new: "060 (060.18)"
+  commit: 4868abb3
+- fault: 060-section-writer-2
+  by: section-writer
+  file: content/joan-of-arc/.plan/names.md
+  field: "Saint-Sauveur (the church on the Old Market), Name"
+  old: "Saint-Sauveur"
+  new: "the church of Saint-Sauveur"
+  commit: 4868abb3
+- fault: 060-section-writer-3
+  by: section-writer
+  file: content/joan-of-arc/.plan/names.md
+  field: "Rules, Terms"
+  old: "(Lowell's \"touched for the King's Evil\")."
+  new: "(Lowell's \"touched for the King's Evil\"). Mass, the service she asked to hear (the record's \"go to Mass\"); Trinity Sunday (27 May 1431); Jesus, the name she called on in the fire (Massieu, Thurston)."
+  commit: 4868abb3
+- fault: 060-map-auditor-1
+  by: map-auditor
+  file: content/joan-of-arc/.plans/pages060.mjs
+  field: pages[sold-to-the-english].markers.arras-1430.note (written by it to pages/060-rouen/020-sold-to-the-english/markers.yaml)
+  old: "Joan is brought to this Burgundian town from Beaurevoir late in October 1430, and is asked there to put on a woman's dress"
+  new: "Joan is brought to this Burgundian town from Beaurevoir late in October 1430"
+  commit: 4868abb3
+- fault: 060-map-auditor-1
+  by: map-auditor
+  file: content/joan-of-arc/.plan/060-rouen/map.yaml
+  field: sold-to-the-english.markers.arras-1430.what
+  old: "held his court (Lowell), and where Jean de Pressy and others ask her to put on a woman's dress; about 50.29 N 2.78 E."
+  new: "held his court (Lowell); about 50.29 N 2.78 E."
+  commit: 4868abb3
+- fault: 060-map-auditor-3
+  by: map-auditor
+  file: content/joan-of-arc/.plan/060-rouen/map.yaml
+  field: saint-ouen.markers.saint-ouen-1431.why
+  old: "the church stands, so the point is set beside its south side."
+  new: "the church stands, and the point is set at its own coordinates (Saint-Ouen_Abbey,_Rouen.wiki), some tens of metres from its south side."
+  commit: 4868abb3

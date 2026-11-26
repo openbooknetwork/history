@@ -7,3 +7,8 @@
 - "Lord Talbot" at the first mention on a page of 020–040, notes included (names.md).
 - A plan's account often holds more attributed claims than 300 words take: put each disputed claim in a note and
   keep single figures in the body with their author.
+- names-check.mjs pins the "the" rows by their long words: a sentence holding "the" and "cardinal" (as "Cardinal
+  Beaufort ... the bishops") is taken for "the Cardinal of Bar". Write that sentence without "the". "Cardinal
+  Beaufort" is the form; "Henry Beaufort" in a text sets the row's first naming to that page.
+- A body runs past 300 words fast when the plan's account is dense: write the bare events first, count with the
+  write hook, then put each disputed claim in a note before cutting single facts.

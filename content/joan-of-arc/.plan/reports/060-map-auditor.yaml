@@ -1,0 +1,18 @@
+- step: maps
+  task: audit
+  status: faults
+  changed_files:
+    - content/joan-of-arc/.plans/pages060.mjs
+    - content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/markers.yaml
+    - content/joan-of-arc/.plan/060-rouen/map.yaml
+    - content/joan-of-arc/.plan/faults/060.yaml
+    - content/joan-of-arc/.plan/fixes/060.yaml
+    - content/joan-of-arc/.plan/handoff/map-auditor.md
+  faults: [060-map-auditor-1, 060-map-auditor-2, 060-map-auditor-3]
+  unresolved:
+    - "ground.yaml line 30 (Burgundian Picardy, estimate) near Compiègne: Clairoix, John of Luxembourg's quarters, lies 8.9 km inside france-1430. The besiegers' posts on the right bank of the Oise (050.55) are a siege, and no source has the land change hands, so it stays French and the camp is a burgundy marker. Proposed: keep it so."
+    - "ground.yaml line 17 (the kingdom's edge with the Cambrésis, estimate): Beaurevoir is 6.7 km inside burgundy-1430. No source gives the line."
+    - "ground.yaml line 64 (estimate): Beauvais, French by 060.30, is 8.3 km from the english-1430 edge. No source gives the line."
+    - "Le Crotoy is English (060.19) but its marker stands in burgundy-1420/1430, as the brief rules for holds. Its point is 1.5 km north-east of the town because the base map's coast is coarse (the generator's comment)."
+    - "The three Rouen pages of 1431 list english-sep-1429, as the brief's Map part rules. Inside Rouen its edge is the same as english-1430's, and no screen of those frames shows Melun or Sens."
+  stale: []

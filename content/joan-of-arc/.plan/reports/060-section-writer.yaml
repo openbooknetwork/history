@@ -1,0 +1,27 @@
+- step: texts
+  task: write
+  status: pass
+  changed_files:
+    - content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md
+    - content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md
+    - content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md
+    - content/joan-of-arc/pages/060-rouen/040-the-questioning/text/en.md
+    - content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md
+    - content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md
+    - content/joan-of-arc/.plan/names.md
+    - content/joan-of-arc/.plan/faults/060.yaml
+    - content/joan-of-arc/.plan/fixes/060.yaml
+    - content/joan-of-arc/.plan/handoff/section-writer.md
+  faults: [060-section-writer-1, 060-section-writer-2, 060-section-writer-3]
+  unresolved: []
+  stale: []
+  notes: >-
+    Six texts written; harita check (pages and --places), rules-lint, names-check and placeholders pass, with only
+    waiting image placeholders. Every page's images placed. Bodies run 301 to 319 words: each page's account holds
+    several disputed or single claims that must name their authors, and the disputed ones are already in notes.
+    Cut for length, and so not told: the 200 or 300 pounds pension and the prince's price of the summons, Lang's
+    765 livres tournois to Cauchon, Jean de Pressy, Lowell's twenty miles, walls and moat, Philip Augustus, the
+    Bouvreuil hill, the postern and the hundred-foot tower, the house of the King's Counsel, the dates of
+    Graverent's commission (4 March, Coutances) and of Le Maistre's gratuity (24 April), Leparmentier's words, and
+    Ladvenu's "had you given me over to the prisons of the Church". No fact was missing from the plan's files, and
+    no file differs from the plan. Close-wording leaves four sentences that share only names and dates.

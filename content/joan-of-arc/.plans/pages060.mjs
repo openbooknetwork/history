@@ -14,7 +14,10 @@ const q = s => JSON.stringify(s);
 // Places, as the plan's markers give them, and the zone generator's points (zones.mjs, T) where it has the place.
 const P = {
   clairoix: [2.846, 49.443], compiegne: [2.83, 49.42], beaulieu: [2.91, 49.66], beaurevoir: [3.31, 50.0],
-  arras: [2.78, 50.29], le_crotoy: [1.62, 50.22], rouen: [1.099, 49.443], beauvais: [2.08, 49.43],
+  arras: [2.78, 50.29],
+  // Le Crotoy stands at about [1.625, 50.217], which the base map's coarse coast leaves in the bay: the point is set
+  // on that map's land, about 1.5 km north-east, so the marker sits in a zone and the route stays on land
+  le_crotoy: [1.645, 50.23], rouen: [1.099, 49.443], beauvais: [2.08, 49.43],
   paris: [2.352, 48.857],
   // the castle of Drugy, today in the commune of Saint-Riquier (names.md), just south of the town
   drugy: [1.947, 50.125],
@@ -58,13 +61,13 @@ const pages = [
     routes: ['joan-1430-le-crotoy'],
     routeFiles: {
       // the stations are Ramsay's and Lowell's (Beaurevoir, Arras, Le Crotoy) and Lang's (Drugy); no road is given,
-      // so the line joins them, and it ends at Le Crotoy
+      // so the line joins them, and it ends at Le Crotoy, coming in north of the bay of the Somme so as to keep to land
       'joan-1430-le-crotoy': route('Joan is taken from Beaurevoir by Arras and Drugy to Le Crotoy, October – November 1430', 'joan',
-        [P.beaurevoir, P.arras, P.drugy, P.le_crotoy]),
+        [P.beaurevoir, P.arras, P.drugy, [1.75, 50.21], P.le_crotoy]),
     },
     markers: {
       'arras-1430': { lnglat: P.arras, icon: 'castle', color: 'burgundy', label: 'Arras', rank: 1,
-        note: "Joan is brought to this Burgundian town from Beaurevoir late in October 1430, and Jean de Pressy and others ask her to put on a woman's dress" },
+        note: "Joan is brought to this Burgundian town from Beaurevoir late in October 1430" },
       'le-crotoy-1430': { lnglat: P.le_crotoy, icon: 'castle', color: 'english', label: 'Le Crotoy', rank: 1,
         image: 'le-crotoy-bay',
         note: 'An English fortress at the mouth of the Somme, where Joan is in English hands by November 1430 and hears the Masses of Nicolas de Queuville, a prisoner there' },
@@ -134,7 +137,7 @@ const pages = [
         note: "On the morning of 30 May 1431 Martin Ladvenu tells Joan she is to die and hears her confession; she receives communion and says to Pierre Cauchon, 'Bishop, I die through you'" },
       'old-market-1431': { lnglat: P.oldMarket, icon: 'flame', color: 'english', label: 'the Old Market', rank: 2,
         image: 'vieux-marche-pyre',
-        note: 'By the church of Saint-Sauveur, at about nine in the morning of 30 May 1431, Nicolas Midi preaches, the Church hands Joan over to the secular power and she is burned; her ashes are thrown into the Seine' },
+        note: 'At about nine o\'clock on 30 May 1431, beside its church of Saint-Sauveur, Nicolas Midi preaches, Joan is handed over to secular justice and burned, and her ashes are thrown into the Seine' },
     } },
 ];
 

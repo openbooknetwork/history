@@ -448,7 +448,7 @@ old name without it, as the sources and the histories do, and "Today" gives the 
 | Saint-Germain-en-Laye | English to 1436 | Saint-Germain-en-Laye, Yvelines | 070 (070.7) | |
 | Pontoise | English to 1436 | Pontoise, Val-d'Oise | 070 (070.7) | |
 | Melun | English and Burgundian to April 1430 | Melun, Seine-et-Marne | 010 (010.46) | |
-| Lagny | Charles VII's from August 1429 | Lagny-sur-Marne, Seine-et-Marne | 040 (040.86) | Laigny sur Marne |
+| Lagny | Charles VII's from August 1429 | Lagny-sur-Marne, Seine-et-Marne | 050 (050.9) | Laigny sur Marne |
 | Meaux | besieged by Henry V 1421–1422 | Meaux, Seine-et-Marne | 010 (010.50) | |
 | Montereau | where John the Fearless was killed on the bridge | Montereau-Fault-Yonne, Seine-et-Marne | 010 (010.40) | Montereau-fiiut-Ycmne (OCR) |
 | Crépy | Charles VII's from August 1429 | Crépy-en-Valois, Oise | 050 (050.1) | Crespy; Crepy-en-Valois |
@@ -467,10 +467,10 @@ old name without it, as the sources and the histories do, and "Today" gives the 
 | Coudun | the Duke of Burgundy's quarters in 1430 | Coudun, Oise | 050 (050.55) | Codun |
 | Venette | the English quarters in 1430 | Venette, Oise | 050 (050.55) | La Venette |
 | Choisy | Charles VII's castle on the Oise, razed by Burgundy in May 1430 | Choisy-au-Bac, Oise | 050 (050.9) | Choisy sur Oise |
-| Creil | Charles VII's from August 1429 | Creil, Oise | 040 (040.86) | |
+| Creil | Charles VII's from August 1429 | Creil, Oise | 050 (050.9) | |
 | Pont-Sainte-Maxence | Charles VII's from August 1429 | Pont-Sainte-Maxence, Oise | 050 (050.9) | le Pontde St Maixoe (OCR) |
 | Gournay-sur-Aronde | Charles VII's from August 1429 | Gournay-sur-Aronde, Oise | 050 (050.9) | |
-| Beauvais | Charles VII's from August 1429 | Beauvais, Oise | 040 (040.86) | Beauvays |
+| Beauvais | Charles VII's from August 1429 | Beauvais, Oise | 050 (050.9) | Beauvays |
 | Aumale | Charles VII's from August 1429 | Aumale, Seine-Maritime | 050 (050.9) | Aumdle (OCR) |
 | Blangy | Charles VII's from August 1429 | Blangy-sur-Bresle, Seine-Maritime | 050 (050.9) | |
 | Montdidier | whole story | Montdidier, Somme | 050 (050.53) | |
@@ -481,7 +481,7 @@ old name without it, as the sources and the histories do, and "Today" gives the 
 | Name | Years | Today | First named in | Other forms in the sources |
 |---|---|---|---|---|
 | Saint-Pierre-le-Moûtier | Burgundian from 1422; taken by Joan by 9 November 1429 | Saint-Pierre-le-Moûtier, Nièvre | 050 (050.33) | St. Pierre le Moustier; Saint-Pierre le Monstier |
-| La Charité | Gressart's, for Burgundy, from 1423, through the story | La Charité-sur-Loire, Nièvre | 040 (040.47) | La Charité sur Loire; La Charit6 (OCR) |
+| La Charité | Gressart's, for Burgundy, from 1423, through the story | La Charité-sur-Loire, Nièvre | 050 (050.33) | La Charité sur Loire; La Charit6 (OCR) |
 | Cosne | held against Charles VII in 1429 | Cosne-Cours-sur-Loire, Nièvre | 050 (050.34) | Gosne (OCR) |
 | Moulins | whole story | Moulins, Allier | 050 (050.37) | Molins |
 | Clermont-Ferrand | the town that sent powder in November 1429; "Clermont-Ferrand (then Clermont)" at the first mention on a page, so that the town is not taken for the Count of Clermont | Clermont-Ferrand, Puy-de-Dôme | 050 (050.38) | Clermont |
@@ -495,7 +495,7 @@ old name without it, as the sources and the histories do, and "Today" gives the 
 | Beaurevoir | John of Luxembourg's castle | Beaurevoir, Aisne | 060 (060.2) | |
 | Saint-Quentin | whole story | Saint-Quentin, Aisne | 050 (050.58) | |
 | Cambrai | whole story | Cambrai, Nord | 060 (060.5) | |
-| Arras | Burgundian, through the story; the Congress of Arras in 1435 at the abbey of Saint-Vaast | Arras, Pas-de-Calais | 050 (050.11) | |
+| Arras | Burgundian, through the story; the Congress of Arras in 1435 at the abbey of Saint-Vaast | Arras, Pas-de-Calais | 060 (060.18) | |
 | Drugy | a castle on the way to Le Crotoy (Lang and France) | Saint-Riquier, Somme | 060 (060.18) | |
 | Le Crotoy | English from 3 March 1424 | Le Crotoy, Somme | 060 (060.16) | Crotoy |
 | Saint-Valery | not told (rules.md: the road from Le Crotoy to Rouen) | Saint-Valery-sur-Somme, Somme | 060 (060.24) | Saint Valéry |
@@ -524,7 +524,7 @@ old name without it, as the sources and the histories do, and "Today" gives the 
 | the Robing Room | at the end of the great hall of the castle | Rouen (site) | 060 (060.40) | |
 | the cemetery of Saint-Ouen | south of the abbey church of Saint-Ouen, where she abjured on 24 May 1431 | Rouen, by the abbey church of Saint-Ouen | 060 (060.49) | St. Ouen |
 | the Old Market | where she was burned on 30 May 1431, by the church of Saint-Sauveur | Place du Vieux-Marché, Rouen | 060 (060.57) | the Vieux-Marché; the Old Market of Rouen |
-| Saint-Sauveur | the church on the Old Market | Place du Vieux-Marché, Rouen (site) | 060 (060.60) | St. Saviour |
+| the church of Saint-Sauveur | the church on the Old Market | Place du Vieux-Marché, Rouen (site) | 060 (060.60) | St. Saviour |
 | the archbishop's palace | where the sentence of 7 July 1456 was given; with its archiepiscopal chapel | Rouen | 060 (060.57) | |
 | Harfleur | English from 22 September 1415 | Harfleur, Seine-Maritime | 010 (010.19) | |
 | Honfleur | English at the close of 1449 | Honfleur, Calvados | 010 (010.19) | |
@@ -727,4 +727,4 @@ old name without it, as the sources and the histories do, and "Today" gives the 
 - Terms: the Dauphin (a title, with a capital); men-at-arms; lances, as the sources count them; archers; bastille;
   boulevard; the Holy Ampulla; the trial of 1431 (the trial of condemnation) and the retrial of 1455–1456 (the
   trial of nullification), "the retrial" in a text; abjuration and relapse; bailli; livres tournois; the prayers
-  the Paternoster, the Ave Maria and the Credo; the Epiphany (6 January); the Ascension (Thursday 5 May 1429); the church of Saint-Remy at Domrémy; the Garter, the English order of knighthood (Monstrelet's "order of the Garter"); Franciscan and Augustinian, the orders of friars (Lowell's and Monstrelet's words for Friar Richard); the King's Evil, which kings touched for after their anointing (Lowell's "touched for the King's Evil").
+  the Paternoster, the Ave Maria and the Credo; the Epiphany (6 January); the Ascension (Thursday 5 May 1429); the church of Saint-Remy at Domrémy; the Garter, the English order of knighthood (Monstrelet's "order of the Garter"); Franciscan and Augustinian, the orders of friars (Lowell's and Monstrelet's words for Friar Richard); the King's Evil, which kings touched for after their anointing (Lowell's "touched for the King's Evil"). Mass, the service she asked to hear (the record's "go to Mass"); Trinity Sunday (27 May 1431); Jesus, the name she called on in the fire (Massieu, Thurston).

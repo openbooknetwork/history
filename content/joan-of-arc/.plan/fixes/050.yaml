@@ -220,3 +220,45 @@
     Baron: "named only in the title of the Baron of Montmorency; the village of Baron is a station on montepilloy and no
     place on this page."
   commit: 819faf73
+- fault: 050-cartographer-1
+  by: cartographer
+  file: content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml
+  field: back-to-the-loire.routes[0].id
+  old: france-1429-gien
+  new: france-1429-back-to-gien
+  commit: 4868abb3
+- fault: 050-section-writer-1
+  by: section-writer
+  file: content/joan-of-arc/.plan/names.md
+  field: 'Places: rows Lagny, Creil, Beauvais, La Charité, "First named in"'
+  old: 'Lagny, Creil, Beauvais: 040 (040.86); La Charité: 040 (040.47)'
+  new: 'Lagny, Creil, Beauvais: 050 (050.9); La Charité: 050 (050.33)'
+  commit: 4868abb3
+- fault: 050-map-auditor-1
+  by: map-auditor
+  file: content/joan-of-arc/.plans/pages050.mjs
+  field: 'pages[compiegne].markers[compiegne-1430].note (and so pages/050-paris-and-compiegne/060-compiegne/markers.yaml, rerun)'
+  old: 'Besieged by the Duke of Burgundy from May 1430; Joan rides in at sunrise and sorties that afternoon over its bridge, and its captain raises its bridge and shuts its gate behind her'
+  new: 'Besieged by the Duke of Burgundy from May 1430; Joan rides in at sunrise (Cagny) and sorties that afternoon over its bridge; its captain raises it and shuts the gate behind her'
+  commit: 4868abb3
+- fault: 050-map-auditor-1
+  by: map-auditor
+  file: content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml
+  field: compiegne.markers.compiegne-1430.what
+  old: 'Joan rides in at sunrise and sorties that afternoon over the bridge,'
+  new: 'Joan rides in at sunrise (Cagny; Chastellain has her come by night two nights before) and sorties that afternoon over the bridge,'
+  commit: 4868abb3
+- fault: 050-map-auditor-3
+  by: map-auditor
+  file: content/joan-of-arc/.plan/brief.md
+  field: 'Map, "How the zones fit": the holds that stay markers'
+  old: '(010.46), Sully (020.16), La Charité, Cosne and Saint-Pierre-le-Moûtier (050.34),'
+  new: '(010.46), Sully (020.16), Saint-Denis, the king''s base before Paris from 25 August to 13 September 1429 (050.14, 050.29), La Charité, Cosne and Saint-Pierre-le-Moûtier (050.34),'
+  commit: 4868abb3
+- fault: 050-map-auditor-4
+  by: map-auditor
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: 'C3, the why (ground.yaml line 64, rewritten by the run; no zone file changed)'
+  old: 'Paris, Saint-Denis and Normandy left;'
+  new: 'Paris and Normandy left (050.9), Saint-Denis with Paris but for the king''s stay of 25 August to 13 September (050.14, 050.29), which its markers carry;'
+  commit: 4868abb3

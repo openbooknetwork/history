@@ -543,3 +543,97 @@
   introduced: research
   owner: researcher
   state: fixed
+- id: 060-cartographer-1
+  severity: weak
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: beaulieu-and-beaurevoir.markers
+  replaces: value
+  old: "[beaulieu-1430, beaurevoir-1430]"
+  new: "[beaulieu-1430, beaurevoir-1430, clairoix-beaulieu-1430], with its entry in map.yaml out of `unmarked`"
+  source: "text.yaml, beaulieu-and-beaurevoir.account: \"After three or four days at Clairoix (Lang), he sent her\"; the start of joan-1430-beaulieu; handoff/cartographer.md: a station or end of a route the text names wants a marker on that page"
+  kind: map
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 060-cartographer-2
+  severity: weak
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: sold-to-the-english.markers
+  replaces: value
+  old: "[arras-1430, le-crotoy-1430, rouen-1430, compiegne-relief-1430]"
+  new: "[arras-1430, le-crotoy-1430, rouen-1430, compiegne-relief-1430, beaurevoir-october-1430, drugy-1430], with their entries in map.yaml out of `unmarked`"
+  source: "text.yaml, sold-to-the-english.account: \"Beaurevoir to Arras ... she passed a night at the castle of Drugy (Lang)\"; the start and a station of joan-1430-le-crotoy; handoff/cartographer.md, as in 060-cartographer-1"
+  kind: map
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 060-section-writer-1
+  severity: wrong
+  file: content/joan-of-arc/.plan/names.md
+  field: "Places, Picardy, Artois and the road to Rouen: Arras, First named in"
+  replaces: value
+  old: "050 (050.11)"
+  new: "060 (060.18)"
+  source: "names-check.mjs joan-of-arc 060: no text of 050 names the town (only Franquet d'Arras, 050-melun-and-lagny); the first text to name it is 060 sold-to-the-english, on claim 060.18"
+  kind: check
+  introduced: names
+  owner: names
+  state: fixed
+- id: 060-section-writer-2
+  severity: wrong
+  file: content/joan-of-arc/.plan/names.md
+  field: "Places, Normandy and Rouen: Saint-Sauveur (the church on the Old Market), Name"
+  replaces: value
+  old: "Saint-Sauveur"
+  new: "the church of Saint-Sauveur"
+  source: "names.md Rules, Names of places: \"the church on the Old Market as 'the church of Saint-Sauveur'\"; with two rows named \"Saint-Sauveur\", names-check.mjs took the church of 060 the-old-market for the Norman town of 070 (070.16)"
+  kind: check
+  introduced: names
+  owner: names
+  state: fixed
+- id: 060-section-writer-3
+  severity: weak
+  file: content/joan-of-arc/.plan/names.md
+  field: "Rules, Transliteration and spelling: Terms"
+  replaces: clause
+  old: "(Lowell's \"touched for the King's Evil\")."
+  new: "(Lowell's \"touched for the King's Evil\"). Mass, the service she asked to hear (the record's \"go to Mass\"); Trinity Sunday (27 May 1431); Jesus, the name she called on in the fire (Massieu, Thurston)."
+  source: "names-check.mjs joan-of-arc 060: \"Mass\", \"Trinity\" and \"Jesus\" had no row; Barrett, the trial for relapse, 28 May 1431 (\"to permit her to go to Mass\", \"the day after Holy Trinity Sunday\"); Thurston: \"called continuously upon the name of Jesus\""
+  kind: check
+  introduced: names
+  owner: names
+  state: fixed
+- id: 060-map-auditor-1
+  severity: weak
+  file: content/joan-of-arc/.plans/pages060.mjs
+  field: pages[sold-to-the-english].markers.arras-1430.note, and map.yaml sold-to-the-english.markers.arras-1430.what
+  replaces: clause
+  old: "Joan is brought to this Burgundian town from Beaurevoir late in October 1430, and is asked there to put on a woman's dress"
+  new: "Joan is brought to this Burgundian town from Beaurevoir late in October 1430"
+  source: "research 060.18 (Ramsay, Lowell: Beaurevoir to Arras, late October 1430) is the page's claim for Arras; no claim of the digest carries Jean de Pressy's offer at Arras (see 060-map-auditor-2). The 121-character note also pushed the Arras label some 210 px west of its icon, over the Drugy castle, on the laptop capture (pack/shots/sold-to-the-english.png); with the short note the label sits under its icon (shots2/sold-to-the-english.png)"
+  kind: map
+  introduced: plan
+  owner: map-auditor
+  state: fixed
+- id: 060-map-auditor-2
+  severity: weak
+  file: content/joan-of-arc/.plan/research/060.md
+  field: a new claim after 060.66, with its line in research.md
+  new: "Add a claim: at Arras, Jean de Pressy and many others often asked her to put on a woman's dress (her answer of 3 March 1431). The passage: \"Asked if Messire Jean de Pressy and others at Arras did not offer her a woman's dress, she answered that he and many others had often asked her to wear it.\" (sourcebooks.web.fordham.edu-basis-joanofarc-trial.asp.txt, lines 1960-1961, the public examinations, 3 March, primary); Lowell ch. 18 names \"John of Pressy\" in a note (archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, line 10617). Then cite the claim in text.yaml sold-to-the-english.account and in pages.yaml sold-to-the-english.rests_on"
+  source: "text.yaml sold-to-the-english.account: \"and where Jean de Pressy and others asked her to put on a woman's dress\", with no claim id; grep of research.md finds no \"Pressy\"; rules.md, The careful side"
+  kind: sources
+  introduced: research
+  owner: researcher
+  state: open
+- id: 060-map-auditor-3
+  severity: taste
+  file: content/joan-of-arc/.plan/060-rouen/map.yaml
+  field: saint-ouen.markers.saint-ouen-1431.why
+  replaces: clause
+  old: "the church stands, so the point is set beside its south side."
+  new: "the church stands, and the point is set at its own coordinates (Saint-Ouen_Abbey,_Rouen.wiki), some tens of metres from its south side."
+  source: "content/joan-of-arc/.wikipedia/Saint-Ouen_Abbey,_Rouen.wiki: {{coord|49|26|33|N|1|05|59|E}}, that is 49.4425 N 1.0997 E; the marker stands at 49.4425 N 1.0995 E, on the church and not beside it, within the few hundred metres a town map allows"
+  kind: map
+  introduced: maps
+  owner: map-auditor
+  state: fixed

@@ -11,3 +11,7 @@
   fix log (`git log -- <file>`), not the HEAD you started on, or a recheck's diff covers your own change.
 - A card in `shared/battles/` does not follow a fix to the plan's `battles.yaml`. Compare the two when a fault
   of the section changed `battles.yaml`.
+- The Wikipedia API answers 429 from this sandbox. The articles' coordinates are already in
+  `content/<story>/.wikipedia/<title>.wiki` (`{{coord|...}}`): read a marker's place there.
+- A long note on a marker near a frame's edge pushes its label block far from the icon, and the label then seems
+  to name the next marker. Shorten the note in the generator and recapture.

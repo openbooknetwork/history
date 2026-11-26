@@ -206,7 +206,8 @@ their holdings out of it on each page. So every page that lists a `france` zone 
 page that left one out would show that land as French. Zones that change on a page because a town opened its
 gates change by the zone of the page's date. The town itself is a marker in the colour of its new holder. Holds
 held for the other side inside a zone stay markers too: the Dauphin's Melun, Meaux, Soissons and Compiègne of 1420
-(010.46), Sully (020.16), La Charité, Cosne and Saint-Pierre-le-Moûtier (050.34), Melun in April 1430 (050.45)
+(010.46), Sully (020.16), Saint-Denis, the king's base before Paris from 25 August to 13 September 1429 (050.14,
+050.29), La Charité, Cosne and Saint-Pierre-le-Moûtier (050.34), Melun in April 1430 (050.45)
 and Soissons sold to Burgundy (050.54) on the pages that tell them, english-1430 and burgundy-1430 carrying them on
 the pages after, and Maxey (010.16). The forts of Orléans in 030 are markers in `english` and
 `france`, with the Belle-Croix in `france` (030.8). No zone is drawn for a fort.

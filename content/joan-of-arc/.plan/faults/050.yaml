@@ -387,3 +387,83 @@
   introduced: plan
   owner: section-coordinator
   state: fixed
+- id: 050-cartographer-1
+  severity: wrong
+  file: content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml
+  field: back-to-the-loire.routes[0].id
+  replaces: value
+  old: france-1429-gien
+  new: france-1429-back-to-gien
+  source: 'node scripts/audit-pack.mjs joan-of-arc 050 --no-shots, build: route "france-1429-gien" is defined twice; 040''s auxerre-and-troyes already draws france-1429-gien (Orléans to Gien, 24 June 1429), content/joan-of-arc/.plan/040-the-loire-and-reims/map.yaml line 113'
+  kind: plan
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 050-section-writer-1
+  severity: taste
+  file: content/joan-of-arc/.plan/names.md
+  field: 'Places: rows Lagny, Creil, Beauvais, La Charité, "First named in"'
+  replaces: clause
+  old: 'Lagny, Creil, Beauvais: 040 (040.86); La Charité: 040 (040.47)'
+  new: 'Lagny, Creil, Beauvais: 050 (050.9); La Charité: 050 (050.33)'
+  source: 'node scripts/names-check.mjs joan-of-arc 050 (the write hook): "Beauvais" (and Creil, Lagny, La Charité) "is first named in 050-paris-and-compiegne ... and its row says 040"; no text of 010-040 names them, and 050.9 and 050.33 are the claims that first carry them in a text.'
+  kind: check
+  introduced: names
+  owner: names
+  state: fixed
+- id: 050-map-auditor-1
+  severity: weak
+  file: content/joan-of-arc/.plans/pages050.mjs
+  field: 'pages[compiegne].markers[compiegne-1430].note, with the plan''s compiegne.markers.compiegne-1430.what in map.yaml'
+  replaces: clause
+  old: 'Joan rides in at sunrise and sorties that afternoon over its bridge, and its captain raises its bridge and shuts its gate behind her'
+  new: 'Joan rides in at sunrise (Cagny) and sorties that afternoon over its bridge; its captain raises it and shuts the gate behind her'
+  source: 'research/050.md, 050.56, disputed: "Elle arriva audit lieu environ soleil levant" (Cagny, 1430, p. 174) against "toit entrée par nuit dedens Compiègne. Laquelle, après y avoir reposé deux nuis" (Chastellain, Quicherat 4, p. 443); rules.md, "The careful side": what the sources give differently names its author. The note gave Cagny''s hour as fact.'
+  kind: attribution
+  claim: '050.56'
+  introduced: plan
+  owner: map-auditor
+  state: fixed
+- id: 050-map-auditor-2
+  severity: weak
+  file: content/joan-of-arc/.plans/pages050.mjs
+  field: 'pages[compiegne].bbox, with the plan''s compiegne.bbox in map.yaml'
+  new: >-
+    Give the frame room below Crépy so that its icon clears the legend: the south edge some 0.1 to 0.15 degrees further
+    south than 49.18 (030's Blois was put right the same way), or another frame that keeps Crépy out of the bottom-left
+    220 by 330 pixels of a laptop. Then recapture compiegne and run the pack.
+  source: >-
+    the capture shots/compiegne.png of node scripts/audit-pack.mjs joan-of-arc 050: the crepy-1430 icon
+    ([2.89, 49.23], 5 km inside the south edge 49.18) falls at about (395, 579) px, under the legend box (x 263-482,
+    y 552-877); only its label shows, pushed up to (396, 523), and the start of joan-1430-compiegne is hidden with it.
+    The page tells her night ride from Crépy (050.56), and the reader at a laptop cannot see where it starts.
+  kind: map
+  introduced: maps
+  owner: cartographer
+  state: open
+- id: 050-map-auditor-3
+  severity: taste
+  file: content/joan-of-arc/.plan/brief.md
+  field: 'Map, "How the zones fit": the holds that stay markers'
+  replaces: clause
+  old: '(010.46), Sully (020.16), La Charité, Cosne and Saint-Pierre-le-Moûtier (050.34),'
+  new: '(010.46), Sully (020.16), Saint-Denis, the king''s base before Paris from 25 August to 13 September 1429 (050.14, 050.29), La Charité, Cosne and Saint-Pierre-le-Moûtier (050.34),'
+  source: 'research/050.md, 050.14: "le XXVe jour d''aoust, fut prinse par eulx la ville de Sainct-Denis" (the Bourgeois, § 516), and 050.15 and 050.29: the king at Saint-Denis 7 to 13 September. english-compiegne-1429 and english-sep-1429 keep Saint-Denis inside (ground.yaml, their inside tests), so on paris (8 September) Saint-Denis and La Chapelle stand in English land as france markers, a hold of the brief''s kind that its list did not name; points.txt: saint-denis-1429 23 km inside english-sep-1429.'
+  kind: map
+  claim: '050.14'
+  introduced: map-design
+  owner: map-auditor
+  state: fixed
+- id: 050-map-auditor-4
+  severity: taste
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: 'C3, the why of ground.yaml line 64'
+  replaces: clause
+  old: 'Paris, Saint-Denis and Normandy left;'
+  new: 'Paris and Normandy left (050.9), Saint-Denis with Paris but for the king''s stay of 25 August to 13 September (050.14, 050.29), which its markers carry;'
+  source: 'research/050.md, 050.9: "Paris and Normandy stay with Henry VI", which names no Saint-Denis, and 050.14 (Saint-Denis taken on 25 August 1429). The why gave Saint-Denis as left English on the authority of 050.9. Wording only: the line runs where it ran.'
+  kind: map
+  claim: '050.9'
+  introduced: maps
+  owner: map-auditor
+  state: fixed

@@ -1,0 +1,45 @@
+- step: maps
+  task: audit
+  status: faults
+  changed_files:
+    - content/joan-of-arc/.plans/zones.mjs
+    - content/joan-of-arc/shared/zones/english-1407.geojson
+    - content/joan-of-arc/.plan/ground.yaml
+    - content/joan-of-arc/.plan/brief.md
+    - content/joan-of-arc/.plan/faults/story.yaml
+    - content/joan-of-arc/.plan/fixes/story.yaml
+  faults: [story-map-auditor-1, story-map-auditor-2, story-map-auditor-3, story-map-auditor-4, story-map-auditor-5, story-map-auditor-6, story-map-auditor-7]
+  unresolved:
+    - "english-1436 (story-map-auditor-1): Ramsay has Meaux kept in 1432 and Creil, Crépy and Clermont recovered by Talbot in 1434, and no source read has Montereau, Sens, Étampes or Mantes lost by April 1436. Proposed: keep them in english-1436 under the careful side and leave Chartres out (French in 1432, Ramsay), once a researcher puts the Ramsay passages into the digest; the overseer chooses between a wider zone and markers for the holds on paris-opens."
+    - "The kingdom's outline takes Champagne-Ardenne whole, so the Givet salient and the land of Sedan and Carignan east of the Meuse lie in france-1407 and in the english zones of 1420-1429, where the brief's row says 'east to the Meuse'. No source speaks of them. Proposed: cut Champagne at the Meuse north of Mézières."
+    - "The clip to France puts Roussillon and the Cerdagne (Aragon's in these years), Béarn and Lower Navarre in the kingdom. No source speaks of them. Proposed: leave them as the brief's 'to the Pyrenees' has it, or cut Roussillon at the Corbières; the user's choice."
+    - "Tournai, a royal town, falls inside burgundy-1407 and burgundy-1420 with French Flanders (line 16 runs east of it). No source speaks of it. Proposed: leave it, as it is a marker on no page."
+    - "Dauphiné drawn as Isère, Drôme and Hautes-Alpes under 010.57: concur with the keeper's proposal to keep them."
+    - "Every estimate line of ground.yaml is the keeper's own line. The ones a reader is most likely to take as sourced: the Three Fountains brook through Domrémy (010.14, disputed, Lowell's alone), Picardy's south edge (line 28: Montdidier and Noyon Burgundian on no claim, and the Thiérache and Guise Burgundian by the drawing alone), the line between Bar and Lorraine (81), the edge of English Maine (37), the edges of the Beauce and round Orléans (42-44), the cuts of 1429 (55-64), Lower Normandy at the close of 1449 (67-72) and the edges of Gascony (48-52)."
+  stale:
+    - content/joan-of-arc/shared/zones/english-1436.geojson
+    - content/joan-of-arc/shared/zones/english-sep-1429.geojson
+    - content/joan-of-arc/.plan/brief.md
+    - content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml
+- step: maps
+  task: recheck
+  status: faults
+  changed_files:
+    - content/joan-of-arc/.plans/zones.mjs
+    - content/joan-of-arc/.plan/ground.yaml
+    - content/joan-of-arc/.plan/brief.md
+    - content/joan-of-arc/.plan/faults/story.yaml
+    - content/joan-of-arc/.plan/fixes/story.yaml
+  faults: [story-map-auditor-8, story-map-auditor-9, story-map-auditor-10]
+  rechecked:
+    - "story-map-auditor-1, story-researcher-1: hold against 9635a13c. english-1436 adds circles round Meaux, Creil, Beaumont, Crépy, Montereau and Mantes, each why on its claim (070.60-070.66); Chartres, Étampes, Sens, Clermont, Pont-Sainte-Maxence, Meulan outside; the brief's row matches"
+    - "story-map-auditor-2: holds. C3 starts at the end of the Bresle line and SEP_CUT is cut by NORMANDY2; Aumale, Blangy and Eu pass inside english-compiegne-1429, english-sep-1429 and english-1436"
+    - "story-map-auditor-3: holds. english-compiegne-1429 has no BRAY_CUT (bray inside), montepilloy takes it with france-compiegne-1429, zones.yaml and the brief's rows agree"
+    - "story-overseer-4, story-overseer-5: hold. carignan, givet and perpignan pass outside france-1407, rethel, narbonne and carcassonne inside"
+    - "The generator run twice writes the same files; plan-check ok; harita zones --like finds no other story's zone on the changed zones"
+  unresolved:
+    - "burgundy-changes-sides (December 1431 – October 1435): which date its zones show. Proposed: its opening, so Chartres stays English (French from April 1432, 070.59), and the text, not the map, tells Talbot's retakings of 1434 and the losses of 1435"
+    - "english-1436 keeps Beaumont, Crépy and Blangy, which no source read has the English lose by April 1436, yet leaves out Étampes, which no source read places either way (story-researcher-1). Proposed: keep as ruled; the overseer may confirm the two halves of the careful side"
+    - "Tournai, a royal town, lies inside burgundy-1407 and burgundy-1420 (carried over; it is a marker on no page). Every estimate line of ground.yaml stays the keeper's own line, as the last report listed"
+  stale:
+    - content/joan-of-arc/.plan/brief-040.md

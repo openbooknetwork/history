@@ -1,0 +1,36 @@
+# Written by content/joan-of-arc/.plans/patay-1429.mjs. Change it there and run it again.
+title: "Patay: the rout"
+date: "18 June 1429"
+when: 1429-06-18
+zones: []
+routes: []
+sources:
+  - "Jean de Wavrin, Recueil des croniques; Perceval de Cagny, Chroniques; the Journal du siège d'Orléans; Guillaume Gruel, Chronique d'Arthur de Richemont; in J. Quicherat (ed.), Procès de condamnation et de réhabilitation de Jeanne d'Arc, vol. 4 (1847)."
+  - "T. Douglas Murray (ed. and tr.), Jeanne d'Arc, Maid of Orleans (1902), the deposition of Dunois."
+  - "E. de Monstrelet, Chronicles, tr. T. Johnes (1849), book 2, ch. 61."
+  - "J. H. Ramsay, Lancaster and York, vol. 1 (1892), ch. 27."
+  - "C. Oman, A History of the Art of War in the Middle Ages, vol. 2 (1924), book 14, ch. 2."
+  - "A. France, The Life of Joan of Arc, vol. 1 (1909), ch. 16."
+bbox: [1.6691, 47.98429, 1.7309, 48.05757]
+emblem:
+  kind: battle-plan
+  works:
+    - {side: neutral, path: [[1.69127, 48.04373], [1.69731, 48.044], [1.70336, 48.04409], [1.70873, 48.04382]], width: 40, id: patay-hedges, name: The hedges near Patay}
+    - {side: neutral, path: [[1.69678, 48.01912], [1.69678, 48.02455]], width: 40, id: narrow-way, name: The two strong hedges of the narrow way}
+    - {side: neutral, path: [[1.70322, 48.01912], [1.70322, 48.02455]], width: 40, id: narrow-way, name: The two strong hedges of the narrow way}
+  units:
+    - {side: neutral, type: irregular, at: [1.68589, 48.02319], width: 2000, depth: 600, facing: 90, id: woods, name: Woods beside the road; their place is approximate}
+    - {side: english, type: wagons, at: [1.7, 48.04834], width: 700, depth: 200, facing: 180, id: english-train, name: 'The English train: artillery, victuals and merchants', rows: 2}
+    - {side: english, type: infantry, at: [1.7, 48.03495], width: 400, depth: 450, facing: 180, id: english-main-body, name: 'English main body, broken: the French take or kill whom they will (Wavrin)'}
+    - {side: english, type: cavalry, at: [1.71989, 48.05106], width: 220, depth: 200, facing: 45, id: fastolf-company, name: 'Fastolf with a small company, riding for Étampes'}
+    - {side: france, type: knights, at: [1.7, 48.03106], width: 500, depth: 250, facing: 0, id: french-vanguard, name: 'French vanguard under La Hire and Xaintrailles, 1,400 to 1,500 (the Journal of the Siege), in among the English main body'}
+    - {side: france, type: cavalry, at: [1.7, 48.02636], width: 1000, depth: 300, facing: 0, id: french-main-body, name: 'French main body under Alençon and the Bastard of Orléans, 8,000 to 9,000 (Monstrelet), joining the rout'}
+  arrows:
+    - {side: english, path: [[1.69664, 48.04626], [1.69933, 48.05124], [1.70537, 48.05531]], width: 90, id: english-vanguard-flight, name: The English vanguard leaves the hedges under its white standard, style: dashed}
+    - {side: english, path: [[1.70161, 48.03767], [1.70269, 48.04174], [1.70941, 48.04536], [1.71814, 48.04988]], width: 70, id: fastolf-ride, name: 'Fastolf rides for the vanguard, then turns away for Étampes', style: dashed}
+    - {side: english, path: [[1.70376, 48.03541], [1.71344, 48.03812], [1.72284, 48.04355], [1.72822, 48.04852]], width: 90, id: english-fugitives, name: 'Fugitives run north-east for Janville, which shuts its gates on them', style: dashed}
+    - {side: france, path: [[1.69489, 48.02138], [1.69167, 48.02636], [1.69597, 48.0317]], width: 100, id: french-vanguard-press, name: The French vanguard presses into the English main body}
+    - {side: france, path: [[1.70336, 48.00962], [1.70605, 48.01867], [1.70336, 48.02455]], width: 100, id: french-main-body-up, name: The French main body comes up and joins the rout}
+  clashes:
+    - {at: [1.7, 48.03256], size: 240}
+markers: [patay-the-rout-patay, patay-the-rout-fastolf, patay-the-rout-la-hire, patay-the-rout-alencon]

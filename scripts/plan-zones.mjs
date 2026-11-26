@@ -74,7 +74,7 @@ export function bareLand(story, pages, before, after, cache = path.join('.cache'
   const out = [];
   pages.forEach((p, i) => {
     if (!Array.isArray(p.bbox) || p.bbox.length !== 4) return;
-    const own = (p.zones ?? []).map(shape).filter(Boolean);
+    const own = (p.zones ?? []).map(id => shape(id)).filter(Boolean);
     const neighbours = [i ? pages[i - 1] : before, i < pages.length - 1 ? pages[i + 1] : after].filter(Boolean);
     // a zone is reported once, for the screen that shows most of the land the page would leave bare
     const worst = new Map();

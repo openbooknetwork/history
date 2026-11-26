@@ -1,0 +1,21 @@
+lnglat: [1.946, 48.267]
+name: "Battle of the Herrings"
+date: "12 February 1429"
+result: "English victory; the French and Scots are beaten off from Fastolf's wagon park, and the convoy goes on to the army before Orléans"
+source: https://en.wikipedia.org/wiki/Battle_of_the_Herrings
+default_language: en
+images: [herrings-miniature-0a7b03]
+families:
+  english: { color: "#3d7a2a", color_dark: "#7cc160" }
+  france: { color: "#231b7e", color_dark: "#6257db" }
+sides:
+  - name: "English"
+    color: english
+    commanders: ["Sir John Fastolf"]
+    strength: "The Journal of the Siege and the Bourgeois: 1,500; Monstrelet: 1,600 combatants and a thousand common men; Cagny: 2,000 and more; Oman: 1,000 archers and 1,200 Paris militia"
+    casualties: "Monstrelet: one man of note"
+  - name: "French and Scots"
+    color: france
+    commanders: ["Charles, Count of Clermont", "Sir John Stewart of Darnley", "the Bastard of Orléans"]
+    strength: "The Journal of the Siege and Monstrelet: 3,000 to 4,000; Cagny: 4,000 and more; the Bourgeois: 7,000; Oman: four times the English"
+    casualties: "The Journal of the Siege: 300 to 400 killed; Monstrelet: six score gentlemen and 500 common men killed, most of them Scots. Darnley and Guillaume d'Albret among the dead"

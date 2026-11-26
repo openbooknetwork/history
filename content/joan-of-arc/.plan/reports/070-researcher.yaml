@@ -1,0 +1,24 @@
+- step: research
+  task: claims
+  status: pass
+  changed_files: [content/joan-of-arc/.plan/research/070.md, content/joan-of-arc/.plan/passages-070-part.md]
+  faults: []
+  unresolved:
+    - "070.1 the day of Henry VI's coronation: Sunday 16 December 1431 (the Bourgeois, who was in Paris, and Ramsay) or the 17th (Monstrelet). Proposed: 16 December."
+    - "070.19 Richemont's attack at Formigny: on the English flank (Oman) or against the centre while a detachment joined Clermont (Ramsay). Proposed: say his coming decided the day, without flank or centre."
+    - "070.25 the fall of Bordeaux in 1451: 30 June (Ramsay, Beaucourt, from the treaties) or August (Oman, who seems to take Bayonne's month). Proposed: 30 June."
+    - "070.36 Bouillé's commission: 13 February 1450 (Murray's note) or 15 February (Beaucourt). Proposed: February 1450."
+    - "070.37 who moved the enquiry of 1452: the legate on his own authority (Beaucourt), at Isabelle's request (Murray's note), or the king until 1455 (Lowell). Proposed: tell it as the legate's enquiry and the mother's petition as of 1455, the brief's reading."
+    - "070.50 the Orléans feast stopped in 1793 and restored in 1803 rests on France's Life, which rules.md does not let a text rest on alone. Proposed: leave it out of afterwards unless Warner is read."
+  stale: []
+  counts: {agreed: 31, single: 11, disputed: 11, open: 1}
+- step: maps
+  task: add
+  status: faults
+  changed_files: [content/joan-of-arc/.plan/research.md, content/joan-of-arc/.plan/faults/story.yaml, content/joan-of-arc/.plan/fixes/story.yaml]
+  faults: [story-researcher-1, story-researcher-2]
+  unresolved:
+    - "070.59 the day Chartres fell in 1432: the eve of Palm Sunday, 12 April (the Bourgeois, Ramsay's note) or 20 April (Monstrelet). Proposed: April 1432, or 12 April with Monstrelet's day named."
+  stale: [content/joan-of-arc/.plan/passages-070.md]
+  added: "070.55-070.66, the English holds of 1430 to 1436 that story-map-auditor-1 and story-map-auditor-2 name, with the Coverage line of 070"
+  counts: {agreed: 8, single: 4, disputed: 0, open: 0}

@@ -1,0 +1,82 @@
+- step: plan-check
+  task: plan-check
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml
+    - content/joan-of-arc/.plan/050-paris-and-compiegne/text.yaml
+    - content/joan-of-arc/.plan/names.md
+    - content/joan-of-arc/.plan/faults/050.yaml
+    - content/joan-of-arc/.plan/fixes/050.yaml
+  faults: [050-fact-checker-1, 050-fact-checker-2, 050-fact-checker-3, 050-fact-checker-4, 050-fact-checker-5, 050-fact-checker-6, 050-fact-checker-7, 050-fact-checker-8, 050-fact-checker-9, 050-fact-checker-10]
+  unresolved: []
+  stale: []
+  checked:
+    routes: 14
+    zones: "4 a page, 6 pages; each in the brief's Map table with its digest claims (english-sep-1429 from 050.9, 050.8, 050.25, 050.29)"
+    cards: "2 (paris-1429, compiegne-1430): every figure names its author and stands in its file"
+    dates: "6 pages: each when and date agree with their claims"
+  notes:
+    - "The page montepilloy (when 1429-08-14) takes english-sep-1429, whose towns came over from 17 to 22 August; the brief gives that zone to 050 and the page tells their coming over, so it stands."
+    - "Bedford's march of early August from Paris by Corbeil and Melun to Montereau, and his road from Montereau to Mitry, are not drawn: the second is in no source read."
+- step: facts
+  task: check
+  status: pass
+  changed_files:
+    - content/joan-of-arc/pages/050-paris-and-compiegne/010-montepilloy/text/en.md
+    - content/joan-of-arc/pages/050-paris-and-compiegne/010-montepilloy/markers.yaml
+    - content/joan-of-arc/pages/050-paris-and-compiegne/020-paris/text/en.md
+    - content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/text/en.md
+    - content/joan-of-arc/pages/050-paris-and-compiegne/050-melun-and-lagny/text/en.md
+    - content/joan-of-arc/pages/050-paris-and-compiegne/060-compiegne/text/en.md
+    - content/joan-of-arc/pages/050-paris-and-compiegne/060-compiegne/page.yaml
+    - content/joan-of-arc/.plans/pages050.mjs
+    - content/joan-of-arc/.plan/050-paris-and-compiegne/pages.yaml
+    - content/joan-of-arc/.plan/050-paris-and-compiegne/text.yaml
+    - content/joan-of-arc/.plan/research/050.md
+    - content/joan-of-arc/.plan/research.md
+    - content/joan-of-arc/.plan/faults/050.yaml
+    - content/joan-of-arc/.plan/fixes/050.yaml
+  faults: [050-fact-checker-11, 050-fact-checker-12, 050-fact-checker-13, 050-fact-checker-14, 050-fact-checker-15, 050-fact-checker-16, 050-fact-checker-17, 050-fact-checker-18, 050-fact-checker-19, 050-fact-checker-20, 050-fact-checker-21, 050-fact-checker-22, 050-fact-checker-23, 050-fact-checker-24, 050-fact-checker-25, 050-fact-checker-26, 050-fact-checker-27, 050-fact-checker-28, 050-fact-checker-29, 050-fact-checker-30, 050-fact-checker-31, 050-fact-checker-32, 050-fact-checker-33]
+  unresolved:
+    - "050.5 disputed (strengths at Montépilloy): montepilloy note gives Cagny's (with Lang), Monstrelet's, the Journal's, and Lowell's and Ramsay's French the more numerous; no total."
+    - "050.10 disputed for the terms of the truce of 28 August 1429: date and place told, terms left out (rules.md)."
+    - "050.14 disputed (25 or 26 August): body 25 August (the Bourgeois, Lowell), note Cagny's 26."
+    - "050.21, 050.22 disputed (defenders and losses at Paris): on the card by author; the body names no total."
+    - "050.29 disputed (the day the king left Saint-Denis): body Tuesday 13 September (Cagny, Ramsay), note the Journal's 12."
+    - "050.40 open (the day La Charité's siege was raised): the text now says the day is not known and gives Moranvillé's end of November or early December."
+    - "050.48 disputed (Franquet's date): note by author, early May Monstrelet, May Champion, end of April Lowell."
+    - "050.56 disputed (her entry into Compiègne): body Cagny's night ride and sunrise, with his name; note Chastellain's entry by night and two nights' rest."
+    - "050.57 disputed (her company): note by author, Cagny's 300 to 400, Lowell's and Lang's Baretta with about 200."
+    - "050.58 disputed (23 or 24 May): body 23 May; note the duke's letter, Cagny, the Bourgeois, Lowell, Lang and Beaucourt against Monstrelet's and Chastellain's eve of the Ascension, which Ramsay follows."
+    - "050.62 (treason at the gate): the digest marks it agreed, but Beaucourt calls it 'encore très controversé'; the text now gives both, Cagny, Champion and Ramsay against Beaucourt's debate. Proposed: mark 050.62 disputed in the digest; the researcher's call."
+    - "050.67 disputed (losses of the sortie): on the card by author."
+  stale:
+    - content/joan-of-arc/.plan/research-050.md (slice of research.md; rerun scripts/slice.mjs)
+    - content/joan-of-arc/.plan/passages-050.md (rerun scripts/passages.mjs)
+    - the capture of montepilloy (the marker note of montepilloy changed)
+  turns_on:
+    - "050.3 Montépilloy, armies face each other 14-15 August 1429 and part without a battle: Cagny (1429, pp. 161-164), Monstrelet book 2 ch. 66, Lowell ch. 12, Ramsay ch. 27"
+    - "050.16, 050.18, 050.26 the attack on Paris of 8 September fails at the water of the second ditch: Cagny (pp. 166-168), the Journal du siège (Quicherat 4, pp. 198-199), the Bourgeois § 519, Ramsay ch. 27"
+    - "050.19 Joan wounded by a crossbow bolt before Paris: Cagny, the Journal du siège, the Bourgeois, her answer of 22 February 1431"
+    - "050.30 the army disbanded at Gien, Alençon sent home and refused Joan: Cagny (pp. 170-171), Ramsay ch. 27-28, Lowell ch. 14"
+    - "050.36, 050.37 Saint-Pierre-le-Moûtier taken by assault by 9 November: the letters of Joan and Albret to Riom (Quicherat 5), d'Aulon's deposition (Murray)"
+    - "050.39, 050.41 La Charité not taken, siege raised for want of money: the Berry herald and Chartier (Quicherat 4), Cagny p. 172, the Bourges levy (Quicherat 5), Lowell ch. 14, Lang ch. 18"
+    - "050.58, 050.61, 050.63 her capture at Compiègne, the gate shut behind her: the Duke of Burgundy's letter to Saint-Quentin (Quicherat 5), Cagny (pp. 174-176), Monstrelet book 2 ch. 86, Chastellain (Quicherat 4, p. 447), her answer of 10 March 1431"
+  checked: {montepilloy: 34, paris: 31, back-to-the-loire: 20, saint-pierre-and-la-charite: 32, melun-and-lagny: 24, compiegne: 38, card paris-1429: 9, card compiegne-1430: 12}
+- step: facts
+  task: recheck
+  status: pass
+  changed_files:
+    - content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/text/en.md
+    - content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/markers.yaml
+    - content/joan-of-arc/.plans/pages050.mjs
+    - content/joan-of-arc/.plan/faults/050.yaml
+    - content/joan-of-arc/.plan/fixes/050.yaml
+  faults: [050-fact-checker-34, 050-fact-checker-35, 050-fact-checker-36]
+  unresolved: []
+  stale:
+    - the capture of saint-pierre-and-la-charite (two marker notes changed)
+  rechecked:
+    against: "git diff b1af9eb5 (texts, page.yaml, research) and git diff 7c8529c8 (working tree: pages050.mjs, markers.yaml, battle.yaml, battles.yaml)"
+    stand: "050-fact-checker-11 to -33 applied as written; 050-section-reviewer-1, -2, -4 to -13, -16, -17 and 050-overseer-1, -2 hold against their sources (quotes-check: ok, 1604 quotes)"
+    reopened: "050-section-reviewer-3, -14, -15 brought in the year 1456, which Murray does not give for La Touroulde (1455-6) or Thierry (1455); closed by 050-fact-checker-34 to -36"

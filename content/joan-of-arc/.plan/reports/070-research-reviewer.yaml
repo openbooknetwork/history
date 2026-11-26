@@ -1,0 +1,14 @@
+- step: research
+  task: review
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/research/070.md
+    - content/joan-of-arc/.plan/faults/070.yaml
+    - content/joan-of-arc/.plan/fixes/070.yaml
+    - content/joan-of-arc/.plan/passages-070-part.md
+  faults: [070-research-reviewer-1, 070-research-reviewer-2, 070-research-reviewer-3, 070-research-reviewer-4, 070-research-reviewer-5, 070-research-reviewer-6, 070-research-reviewer-7]
+  unresolved:
+    - "070.12 the day of the Truce of Tours: 28 May 1444 (Ramsay, four days after the betrothal of 24 May; Wikipedia) or 20 May (the truce's text in Monstrelet B, Johnes, perhaps a misprint). Proposed: 28 May. The page normandy-won-back only needs the truce of 1444, which all three give."
+  stale: []
+  checked_in_full: 54
+  sampled: 0

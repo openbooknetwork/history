@@ -1,0 +1,20 @@
+lnglat: [2.3370, 48.8630]
+name: "Attack on Paris"
+date: "8 September 1429"
+result: "Paris holds; the assault stops at the water of the inner moat, Joan is wounded, and the king calls the army back to Saint-Denis next day"
+source: https://en.wikipedia.org/wiki/Siege_of_Paris_(1429)
+default_language: en
+images: [paris-assault-miniature-a0a16d]
+families:
+  france: { color: "#231b7e", color_dark: "#6257db" }
+  english: { color: "#3d7a2a", color_dark: "#7cc160" }
+sides:
+  - name: "French"
+    color: france
+    commanders: ["Joan", "the Duke of Alençon", "Gilles de Rais", "Raoul de Gaucourt", "Marshal de Boussac (Ramsay)"]
+    strength: "the Bourgeois of Paris: 12,000 or more"
+    casualties: "the Bourgeois of Paris, by the oath of the French herald who came for the dead: 1,500 wounded, 500 or more of them dead or mortally wounded; Cagny: very few hurt, and none died of it; Monstrelet: many killed and wounded by the guns. Joan wounded and her standard-bearer killed"
+  - name: "Paris, for Henry VI"
+    color: english
+    commanders: ["Louis of Luxembourg", "L'Isle-Adam"]
+    strength: "Monstrelet: 400 combatants sent by the Duke of Burgundy; the Journal of the Siege: 2,000 combatants left by Bedford; the Bourgeois of Paris: hardly any men-at-arms in the fight but some 40 or 50 English"

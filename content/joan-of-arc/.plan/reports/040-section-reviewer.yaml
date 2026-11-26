@@ -1,0 +1,56 @@
+- step: facts
+  task: review
+  status: faults
+  changed_files:
+    - content/joan-of-arc/pages/040-the-loire-and-reims/010-jargeau/text/en.md
+    - content/joan-of-arc/pages/040-the-loire-and-reims/020-meung-and-beaugency/text/en.md
+    - content/joan-of-arc/pages/040-the-loire-and-reims/030-patay/text/en.md
+    - content/joan-of-arc/pages/040-the-loire-and-reims/040-auxerre-and-troyes/text/en.md
+    - content/joan-of-arc/pages/040-the-loire-and-reims/050-reims/text/en.md
+    - content/joan-of-arc/.plan/faults/040.yaml
+    - content/joan-of-arc/.plan/fixes/040.yaml
+  faults: [040-section-reviewer-1, 040-section-reviewer-2, 040-section-reviewer-3, 040-section-reviewer-4, 040-section-reviewer-5, 040-section-reviewer-6, 040-section-reviewer-7, 040-section-reviewer-8, 040-section-reviewer-9, 040-section-reviewer-10, 040-section-reviewer-11, 040-section-reviewer-12, 040-section-reviewer-13, 040-section-reviewer-14]
+  unresolved: []
+  stale: []
+  notes:
+    - "Pages changed: jargeau, meung-and-beaugency, patay, auxerre-and-troyes, reims. the-towns-come-over unchanged."
+    - "No open fault of the list was mine: the fact checker had fixed 040-fact-checker-20 to -25, -32 and -34 itself. None declined."
+    - "Open for the cartographer: 040-section-reviewer-10 to -14, places the texts name that the maps lack, and 040-map-auditor-3 (route by Montmirail)."
+    - "Check left: names-check flags 'Marshal' in patay's note *** ('the Marshal de Boussac', the form names.md asks for; the script misreads it) and the four 'First named in' rows (Richemont, La Trémoille, Wavrin, Suffolk), owner names. harita check, --places and rules-lint pass."
+    - "Bodies run 317-346 words, over the soft 300: each page carries 15-23 claims, many with their authors; patay is at 346, under the hard 350."
+    - "Plan: jargeau's account has Alexander de la Pole killed with no place; the text no longer sets it at the bridge. No other plan change."
+- step: story
+  task: fix
+  status: pass
+  changed_files:
+    - content/joan-of-arc/pages/040-the-loire-and-reims/050-reims/text/en.md
+    - content/joan-of-arc/pages/040-the-loire-and-reims/060-the-towns-come-over/text/en.md
+    - content/joan-of-arc/.plan/faults/040.yaml
+    - content/joan-of-arc/.plan/fixes/040.yaml
+  faults: []
+  unresolved: []
+  stale: []
+  notes:
+    - "Pages changed: reims (040-story-auditor-2), the-towns-come-over (040-story-auditor-1). Both fixed, none declined."
+    - "040-story-auditor-1 is applied with 'in September 1429' for the fault's 'that September': after 'December 1433' in the same sentence, 'that September' could be read as 1433. 'still' is added for the same reason. The fix log holds the exact text."
+    - "Checks: harita check (placeholders.mjs) on reims and the-towns-come-over, --places, rules-lint 040 and names-check 040 all print ok."
+    - "Bodies run long because of the two clauses the faults asked for: reims 341 words, the-towns-come-over 336, both over the soft 300 and under the hard 350."
+    - "No marker note follows from either change, and the plan needs no change."
+- step: facts
+  task: review
+  status: faults
+  changed_files:
+    - content/joan-of-arc/pages/040-the-loire-and-reims/031-patay-the-hedges/text/en.md
+    - content/joan-of-arc/pages/040-the-loire-and-reims/032-patay-the-stag/text/en.md
+    - content/joan-of-arc/pages/040-the-loire-and-reims/033-patay-the-rout/text/en.md
+    - content/joan-of-arc/.plan/faults/040.yaml
+    - content/joan-of-arc/.plan/fixes/040.yaml
+  faults: [040-section-reviewer-15, 040-section-reviewer-16, 040-section-reviewer-17, 040-section-reviewer-18, 040-section-reviewer-19, 040-section-reviewer-20, 040-section-reviewer-21, 040-section-reviewer-22, 040-section-reviewer-23, 040-section-reviewer-24, 040-section-reviewer-25]
+  unresolved: []
+  stale: []
+  notes:
+    - "Pages changed: patay-the-hedges, patay-the-stag, patay-the-rout. -15 to -24 fixed and logged; none declined."
+    - "No open fault of the list was mine: 040-fact-checker-52 and -53 were already fixed by the fact checker."
+    - "Open for the battle implementor: 040-section-reviewer-25. Meung, Janville, Beaugency and Étampes are named in the phase texts but lie outside the battle plan's frame."
+    - "Checks: placeholders.mjs (harita check) on the three pages, --places, rules-lint 040 and names-check 040 all print ok."
+    - "Bodies: hedges 299, stag 287, rout 235 words. No marker note follows from the changes, no image placeholder was added or moved, and the plan needs no change."

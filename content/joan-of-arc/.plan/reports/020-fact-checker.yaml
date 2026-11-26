@@ -1,0 +1,93 @@
+- step: plan-check
+  task: plan-check
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/020-the-road-to-chinon/map.yaml
+    - content/joan-of-arc/.plan/020-the-road-to-chinon/text.yaml
+    - content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+    - content/joan-of-arc/.plan/faults/020.yaml
+    - content/joan-of-arc/.plan/fixes/020.yaml
+  faults: [020-fact-checker-1, 020-fact-checker-2, 020-fact-checker-3, 020-fact-checker-4, 020-fact-checker-5, 020-fact-checker-6, 020-fact-checker-7, 020-fact-checker-8]
+  unresolved:
+    - "020.11, the date of the flight to Neufchâteau (disputed): the tells now gives July 1428 as Lang's and Lowell's dating; text.yaml has Murray's September 1426 in a note."
+    - "020.43 and 020.42, the days she left Vaucouleurs and reached Chinon (disputed): pages.yaml and text.yaml give each with its authors; chinon-and-poitiers' when stays 1429-03 for the route of March and April."
+    - "020.40 and 020.51 (open): why Baudricourt gave way and what the sign was; text.yaml says each is not known."
+  stale: []
+  checked: "11 routes against their passages, 26 zone listings against the brief's Map part, 1 card (12 figures), 5 pages' date and when"
+- step: facts
+  task: check
+  status: pass
+  changed_files:
+    - content/joan-of-arc/pages/020-the-road-to-chinon/010-the-voices/text/en.md
+    - content/joan-of-arc/pages/020-the-road-to-chinon/020-salisbury-on-the-loire/text/en.md
+    - content/joan-of-arc/pages/020-the-road-to-chinon/030-vaucouleurs-again/text/en.md
+    - content/joan-of-arc/pages/020-the-road-to-chinon/040-eleven-days/text/en.md
+    - content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/text/en.md
+    - content/joan-of-arc/pages/020-the-road-to-chinon/030-vaucouleurs-again/page.yaml
+    - content/joan-of-arc/pages/020-the-road-to-chinon/040-eleven-days/page.yaml
+    - content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/page.yaml
+    - content/joan-of-arc/.plan/faults/020.yaml
+    - content/joan-of-arc/.plan/fixes/020.yaml
+  faults: [020-fact-checker-9, 020-fact-checker-10, 020-fact-checker-11, 020-fact-checker-12, 020-fact-checker-13, 020-fact-checker-14, 020-fact-checker-15, 020-fact-checker-16, 020-fact-checker-17, 020-fact-checker-18, 020-fact-checker-19, 020-fact-checker-20, 020-fact-checker-21]
+  unresolved:
+    - "020.2 (disputed), the year of the first voice: the-voices says 1424 or 1425; a note gives Thurston's 1425, Lowell's neither exact, Lang's 1425 and 'even more probably' 1424."
+    - "020.4 (disputed), the visit of May 1428: told as Poulengy's memory; a note gives Lang's assent, Thurston's month later, Lowell's doubt."
+    - "020.10 (open for how), Baudricourt keeping Vaucouleurs: 'how he kept it is not known'; a note gives Lang's compact of 22 July and Lowell's guess."
+    - "020.11 (disputed date), the flight to Neufchâteau: Lang's and Lowell's July 1428 named; a note gives Murray's September 1426 and the four or five days."
+    - "020.12 (disputed), Salisbury's crossing: body 'July 1428'; a note gives Lowell's Calais about 1 July and Ramsay's Sandwich 19 July."
+    - "020.13 and 020.15 (single each): Ramsay's 2,700 and Lowell's four or five thousand, each named; the town counts are not told."
+    - "020.18 (disputed), who broke the bridge: the Journal (English) and Lowell (French), both named."
+    - "020.19 (disputed dates), Salisbury's wound and death: body gives no day; a note gives the Journal, Ramsay and Monstrelet."
+    - "020.24, 020.26, 020.27 (disputed), the Herrings' order, strengths and losses: the park's form in a note with three authors; every figure on the card names its author; the text gives no number."
+    - "020.31 (disputed), the vision of the Herrings: told as the Journal's; a note gives Lowell, Lang and Thurston's 17 February."
+    - "020.38 (disputed), the horse: Laxart's twelve francs and Metz's sixteen in the body, Morel's black horse and Lowell's doubt in a note."
+    - "020.40 and 020.51 (open): why Baudricourt gave way, and what the sign was, each told as not known."
+    - "020.42 and 020.43 (disputed), the days of leaving and of reaching Chinon: three days of leaving with their authors; 23 February (Lowell) or 6 March (the Continuator of Nangis, followed by Quicherat, Lang, Thurston), Beaucourt's 8 March in a note."
+    - "020.53, 020.56, 020.57, 020.60 (disputed): Poitiers' length and dates, the banner's design, how she knew of the sword, and where Yolande examined her are each told with their authors."
+    - "020.58 (disputed day): chinon-and-poitiers ends at Blois with no day for the march, as the plan has it."
+  stale: []
+  turns_on:
+    - "020.3, what she said the voices bade her: the trial record (Barrett, public examination of 22 February 1431)."
+    - "020.8, Vaucouleurs as the one town of the east for Charles VII: Lowell ch. 3, told with his name."
+    - "020.16, the English hold three of the four Loire bridges between Sully and Blois: Lowell ch. 7 note; Ramsay ch. 26."
+    - "020.17 and 020.18, the siege from 12 October and the Tourelles on 24 October 1428: the Journal du siège (Quicherat 4); Ramsay ch. 26."
+    - "020.19, Salisbury's death at Meung: the Journal; Ramsay; Monstrelet book 2 ch. 52."
+    - "020.23, the Herrings an English victory: the Journal; Monstrelet book 2 ch. 56; the Bourgeois; Ramsay; Oman book 14 ch. 2."
+    - "020.43, the day she reached Chinon: the Livre Noir of La Rochelle by Lowell ch. 5 note; the Continuator of Nangis (Quicherat 4, p. 313), 'le seul qui donne d'une manière expresse la date'."
+    - "020.52, the Poitiers finding: Pasquerel and Seguin (Murray); Beaucourt book 2 ch. 5; Thurston."
+  checked: "the-voices 21, salisbury-on-the-loire 27, vaucouleurs-again 24, eleven-days 22, chinon-and-poitiers 26 claims; 27 marker notes; the herrings-1429 card, 12 figures"
+- step: facts
+  task: recheck
+  status: pass
+  changed_files:
+    - content/joan-of-arc/pages/020-the-road-to-chinon/020-salisbury-on-the-loire/text/en.md
+    - content/joan-of-arc/.plan/faults/020.yaml
+    - content/joan-of-arc/.plan/fixes/020.yaml
+  faults: [020-fact-checker-22]
+  unresolved:
+    - "020.30 (agreed for Dauphiné): salisbury-on-the-loire now gives the council's talk of 'Dauphiné or Languedoc'; Languedoc is Lowell's alone (ch. 5, 2532-2533), the Journal and Ramsay give Dauphiné. Told without his name, as an alternative and not a differing account; proposed to stand."
+    - "020-section-reviewer-17 (open, names): the edit hook reports Dunois and Thomas Montagu, Earl of Salisbury, first named in 020 against their names.md rows (070, 010); left to the names agent as that fault asks."
+  stale: []
+  turns_on:
+    - "020.23, the Herrings an English victory and the convoy's stores: the Journal; Ramsay ch. 26; Lowell ch. 7; Monstrelet book 2 ch. 56."
+    - "020.58, the convoy gathering at Blois under the marshals de Rais and de Boussac: Dunois (Murray, 12025-12031, 'the Sieurs de Rais and de Boussac, Marshals of France'); Lowell ch. 8, 4155."
+    - "020.43, her coming to Chinon in late February or early March: Lowell ch. 5 note; the Continuator of Nangis; Beaucourt book 2 ch. 5."
+  checked: "the 15 fixes of 020-section-reviewer-1 to 15 against git diff 014308f6: the-voices 3, salisbury-on-the-loire 9, vaucouleurs-again 2, eleven-days 3, chinon-and-poitiers 9 claims"
+- step: edit
+  task: recheck
+  status: pass
+  changed_files:
+    - content/joan-of-arc/shared/images/salisbury-struck-miniature-686363/image.yaml
+    - content/joan-of-arc/shared/images/herrings-miniature-0a7b03/image.yaml
+    - content/joan-of-arc/.plan/faults/020.yaml
+    - content/joan-of-arc/.plan/fixes/020.yaml
+  faults: [020-fact-checker-23, 020-fact-checker-24]
+  unresolved:
+    - "020.30, the council's retreat: now 'to Dauphiné' alone (020-overseer-4), as the Journal and Ramsay give it; the earlier question of Lowell's Languedoc is closed."
+    - "020.51 (open), the sign: 'at first she would say no more' (020-editor-8) and 'What the sign was is not known' both stand; Barrett 1868 refuses it, 2235-2266 tell it in March."
+  stale:
+    - ".cache/joan-of-arc-strict (built before the two caption fixes)"
+  turns_on:
+    - "020.58, the convoy gathering at Blois, which she reached about 25 April (the marker's 'late April 1429'): Dunois (Murray, 12025-12029); Lowell ch. 8, 4151."
+    - "020.20, William de la Pole, Earl of Suffolk, in command after Salisbury: Ramsay ch. 26, 24317-24318; Monstrelet book 2 ch. 52, 38653."
+  checked: "the fixes after 4b94d325 against git diff 4b94d325 and aa448627: 020-section-reviewer-16 and 17, 020-map-auditor-4, 020-overseer-4, 020-editor-4 to 10; the-voices 1, salisbury-on-the-loire 2, vaucouleurs-again 1, chinon-and-poitiers 6 claims, 1 marker note; 9 image captions against .candidates/the-road-to-chinon/index.yaml"

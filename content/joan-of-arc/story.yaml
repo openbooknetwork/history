@@ -7,7 +7,30 @@ languages: [en]
 default_language: en
 
 # The map: its extent, its land and its families are the map architect's, at the step map-design.
+# The whole kingdom of France, from Calais and Flanders to Bayonne and the Pyrenees, from Brittany to Lorraine and
+# Dauphiné, with the south coast of England for the landings. The brief's "Map" part gives the reasons.
 extent: [-5.5, 42, 8.5, 51.5]
+# Countries whose land the zones are clipped to. Natural Earth names.
 land: [France, Belgium, Luxembourg, Netherlands, United Kingdom, Germany, Switzerland]
+# Countries drawn with borders. Everything else inside the extent is left out.
 countries: [France, Belgium, Luxembourg, Netherlands, United Kingdom, Germany, Switzerland, Spain, Italy, Andorra, Monaco, Jersey, Guernsey]
-families: {}
+
+# Zone families. A zone subtracts every zone from a family with a lower priority number that shares its page.
+# france is drawn as the whole kingdom, once, and the families above it cut out of it what they hold on each page,
+# so every page that shows a france zone shows the english, burgundy and brittany zones of its date too.
+# english takes the colour of the kingdom of England in viking-age, france that of the kingdom of France in
+# american-revolutionary-war, brittany that of Brittany and scots that of Alba and Scotland in viking-age.
+families:
+  english:  { priority: 0, color: "#3d7a2a", color_dark: "#7cc160", aliases: [england] }                          # the kingdom of England and the lands held in France for Henry V and Henry VI, the Anglo-Burgundian towns of Champagne with them
+  burgundy: { priority: 1, color: "#9b2335", color_dark: "#e0606f", aliases: [burgundian, burgundians] }          # the lands of the Valois Dukes of Burgundy: Flanders, Artois, the duchy and the county, Picardy from 1420
+  brittany: { priority: 2, color: "#4f6272", color_dark: "#8fa5b8", pattern: hatch, aliases: [breton, bretons] }  # the duchy of Brittany, its own prince's
+  lorraine: { priority: 3, color: "#b03a7a", color_dark: "#e07ab0", pattern: dots }                               # the duchy of Lorraine of Charles II, Neufchâteau with it
+  bar:      { priority: 4, color: "#8a5a2b", color_dark: "#c79063", pattern: cross }                              # the duchy of Bar on the Meuse
+  france:   { priority: 5, color: "#231b7e", color_dark: "#6257db", aliases: [french, dauphin, armagnac, armagnacs] }  # the kingdom of France: Charles VI's, the Armagnac and then the Dauphin's party, Charles VII's kingdom
+  scots:    { priority: 6, color: "#24456e", color_dark: "#5f8cc0", pattern: dots, aliases: [scotland, scottish] } # the Scots in the Dauphin's service, on the battle cards and their routes; no zone
+  joan:     { priority: 7, color: "#d4a017", color_dark: "#f2c94c" }                                              # Joan's own road with her escort or her company, and as a prisoner; routes only, no zone
+# Corner rounding passes applied to every hand drawn zone before the clip.
+smoothing: 4
+# Four pages of 060 are inside the castle of Rouen and its streets, and the forts of Orléans stand a few hundred
+# metres apart on 030.
+max_zoom: 16

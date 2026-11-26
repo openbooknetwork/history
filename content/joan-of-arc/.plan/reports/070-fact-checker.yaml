@@ -1,0 +1,97 @@
+- step: plan-check
+  task: plan-check
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/070-after-her/map.yaml
+    - content/joan-of-arc/.plan/070-after-her/pages.yaml
+    - content/joan-of-arc/.plan/070-after-her/battles.yaml
+    - content/joan-of-arc/shared/battles/castillon-1453/battle.yaml
+    - content/joan-of-arc/.plan/names.md
+    - content/joan-of-arc/.plan/names-070.md
+    - content/joan-of-arc/.plan/faults/070.yaml
+    - content/joan-of-arc/.plan/fixes/070.yaml
+  faults: [070-fact-checker-1, 070-fact-checker-2, 070-fact-checker-3, 070-fact-checker-4, 070-fact-checker-5, 070-fact-checker-6]
+  unresolved:
+    - "070-fact-checker-6, the brief's: the-retrial lists bar-1412 and lorraine-1412, which the brief's Map part gives for 1412 – 1429 and for 010 and 020 only. Proposed: add 070 (the-retrial) to both rows, the edge of 1429 kept for 1455–1456 as a reconstruction, as the rows gained normandy-and-troyes at plans 010 (story-overseer-1)."
+  stale: []
+- step: facts
+  task: check
+  status: pass
+  changed_files:
+    - content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md
+    - content/joan-of-arc/pages/070-after-her/020-paris-opens/page.yaml
+    - content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md
+    - content/joan-of-arc/pages/070-after-her/050-the-retrial/page.yaml
+    - content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md
+    - content/joan-of-arc/.plan/faults/070.yaml
+    - content/joan-of-arc/.plan/fixes/070.yaml
+  faults: [070-fact-checker-7, 070-fact-checker-8, 070-fact-checker-9, 070-fact-checker-10, 070-fact-checker-11, 070-fact-checker-12, 070-fact-checker-13, 070-fact-checker-14]
+  unresolved:
+    - "070.1 disputed: body gives Sunday 16 December 1431 (the Bourgeois, Ramsay); the note gives Monstrelet's 17th."
+    - "070.8 disputed: body gives April 1436 and no day; the note gives Ramsay's 10 April and Monstrelet's Thursday before the entry."
+    - "070.12 disputed: body gives May 1444; the note gives Ramsay's 28 May and the 20 May of the text in Monstrelet."
+    - "070.18 disputed: body gives 15 April 1450 (Oman, Ramsay, Beaucourt); the note gives the continuator's 18th."
+    - "070.19, 070.20, 070.21 disputed: body tells what the accounts share and the 3,774 of Oman and Beaucourt; the notes give each author's line, strengths and dead."
+    - "070.22 open: body says the French loss is not known and their chroniclers name about a dozen."
+    - "070.25 disputed: body gives 30 June 1451 (Ramsay, Beaucourt); the note gives Oman's August."
+    - "070.28 disputed: body gives October 1452; the note gives Ramsay's 20th and Beaucourt's 23rd."
+    - "070.31, 070.32, 070.33 disputed: body tells Talbot killed; the notes give each author's forces and each manner of his death."
+    - "070.36 disputed: body gives February 1450; the note gives Murray's 13 and Beaucourt's 15 February."
+    - "070.37 disputed: the note gives the legate's own authority (Beaucourt), the mother's request (Murray) and Lowell's petition in Charles VII's name."
+    - "070.42 disputed: the note gives Murray's counts, Lowell's more than a hundred and the bull's 123."
+    - "070.59 disputed for the day: body gives April 1432."
+  stale: []
+  turns_on:
+    - "070.4, the Anglo-Burgundian alliance ended at Arras: Ramsay 1, ch. 32; Beaucourt 2, book 2 ch. 12"
+    - "070.5, the war's last stage from Arras: Ramsay 1, ch. 32, told with his name"
+    - "070.10, Paris opened on 13 April 1436: Ramsay 1, ch. 32; the Bourgeois §692; Monstrelet book 2, ch. 198"
+    - "070.17, Kyriell's the last English relief army for Normandy: Ramsay 2, ch. 8"
+    - "070.18, Formigny a French victory on 15 April 1450: Oman, book 14 ch. 2; Ramsay 2, ch. 8; Beaucourt 5, book 5 ch. 1"
+    - "070.21, the English dead at Formigny: Oman; Beaucourt 5; Monstrelet's continuator, ch. 29"
+    - "070.24, Cherbourg the last English hold in Normandy: Ramsay 2, ch. 8; Beaucourt 5, book 5 ch. 1"
+    - "070.26, Calais alone left: Beaucourt 5, book 5 ch. 2; Lowell, ch. 25"
+    - "070.29, 070.33, Castillon won by the French and Talbot killed: Ramsay 2, ch. 10; Beaucourt 5, book 5 ch. 9; Monstrelet's continuator; Oman"
+    - "070.35, the war's end on 19 October 1453: Ramsay 2, ch. 10; Beaucourt 5, book 5 ch. 9"
+    - "070.43, 070.44, the sentence of 1431 declared null on 7 July 1456: Murray, Introductory Note and Sentence; Lowell, ch. 25; Beaucourt 5, book 6 ch. 1"
+    - "070.54, the canonisation of 16 May 1920: Renoux; AAS 12, the bull and the homily; Thurston"
+  checked: { burgundy-changes-sides: 16, paris-opens: 24, normandy-won-back: 31, castillon: 33, the-retrial: 25, afterwards: 19, card formigny-1450: 11, card castillon-1453: 12 }
+- step: facts
+  task: recheck
+  status: pass
+  changed_files: []
+  faults: []
+  unresolved: []
+  stale: []
+  rechecked:
+    against: "a3082d2d, git diff a3082d2d -- pages/070-after-her and .plan/070-after-her/text.yaml"
+    faults: [070-image-finder-1, 070-image-finder-2, 070-section-reviewer-1, 070-section-reviewer-2, 070-section-reviewer-3, 070-section-reviewer-4, 070-section-reviewer-5, 070-section-reviewer-6, 070-section-reviewer-7, 070-section-reviewer-8, 070-section-reviewer-9, 070-section-reviewer-10, 070-section-reviewer-11, 070-section-reviewer-12, 070-section-reviewer-13, 070-section-reviewer-14, 070-section-reviewer-15, 070-section-reviewer-16, 070-section-reviewer-17, 070-section-reviewer-18, 070-section-reviewer-19, 070-section-reviewer-20, 070-section-reviewer-21]
+    sources:
+      - "Cardinal Beaufort the great-uncle of Henry VI: Lowell, ch. on the recantation, p. 320-321"
+      - "Henry VI ten in December 1431: Henry_VI_of_England.wiki, born 6 December 1421 (sfn Griffiths)"
+      - "Charles VII crowned at Reims in 1429: 040.64 (Cagny; the Angevin letter; Ramsay ch. 27)"
+      - "Somerset lieutenant of Normandy: Monstrelet's continuator, line 12972; Oman, commander of all the English armies in France"
+      - "those of Beaumont's men in the Tour du Velin: Ramsay 1 ch. 32 ('A few escaped'), the Bourgeois §691 (about 200): no number told"
+      - "Talbot a veteran: Oman, book 14 ch. 2"
+      - "the Bureau brothers direct the artillery: Monstrelet's continuator, lines 17393-17397"
+      - "Rouen in December and May: Murray, Introductory Note, p. 376"
+      - "Antoninus archbishop of Florence: Beaucourt 5, line 10494"
+      - "Thurston in 1910: newadvent.org-cathen-08409c.txt, the citation lines"
+      - "isabelle-romee-retrial-miniature shows: .candidates/after-her/index.yaml, its Commons entry (16th century, Isabelle Romée and her two sons before the judges)"
+  checked: { burgundy-changes-sides: 4, paris-opens: 2, normandy-won-back: 3, castillon: 4, the-retrial: 3, afterwards: 4 }
+- step: edit
+  task: recheck
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/faults/070.yaml
+    - content/joan-of-arc/.plan/fixes/070.yaml
+  faults: [070-fact-checker-15]
+  unresolved: []
+  stale: []
+  rechecked:
+    against: "646a3ad1 for 070-editor-1 to 7 (git diff 646a3ad1 ec0556aa -- pages/070-after-her: each removes its @image line and the blank line after it, and nothing else); 96eeaec1 for 070-section-writer-2 (names.md row of John Talbot)"
+    faults: [070-editor-1, 070-editor-2, 070-editor-3, 070-editor-4, 070-editor-5, 070-editor-6, 070-editor-7, 070-section-writer-2]
+    sources:
+      - "each removed image stands on its marker: markers.yaml of burgundy-changes-sides (notre-dame-1431, arras-1435), paris-opens (bastille-1436), normandy-won-back (fougeres-1449, rouen-1449), the-retrial (rouen-1456), afterwards (orleans-8-may)"
+      - "John Talbot first named on 030-orleans/the-army-of-blois, which rests on 030.10 (\"Sir John Talbot\", the Fordham letter); no text of 010 or 020 names him; names-check 070 prints ok"
+      - "captions of the 13 images placed in 646a3ad1: each year, name and shelfmark stands in its entry of .candidates/after-her/index.yaml or after-her-2/index.yaml; none taken out"
+  checked: { burgundy-changes-sides: 2, paris-opens: 1, normandy-won-back: 2, the-retrial: 1, afterwards: 1, names.md: 1, captions: 13 }

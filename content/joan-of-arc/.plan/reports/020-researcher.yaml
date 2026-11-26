@@ -1,0 +1,24 @@
+- step: research
+  task: claims
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/research/020.md
+    - content/joan-of-arc/.plan/passages-020-part.md
+  faults: []
+  unresolved:
+    - "the-voices tells 'In May 1428 she goes to Robert de Baudricourt' plainly; 020.4 is disputed: Poulengy (1456), Lang and Thurston hold to a first visit in 1428, but Lowell thinks it improbable and dates Poulengy's 'Ascension' to 1 January 1429. Proposed: the text tells the May visit as Poulengy's account and names Lowell's doubt in one clause. No ruling needed unless the user wants the visit left out."
+  stale: []
+  lines: {agreed: 43, single: 7, disputed: 9, open: 2}
+- step: research
+  task: fix
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/research/020.md
+    - content/joan-of-arc/.plan/passages-020-part.md
+    - content/joan-of-arc/.plan/faults/020.yaml
+    - content/joan-of-arc/.plan/fixes/020.yaml
+  faults: []
+  unresolved:
+    - "eleven-days tells 'crosses the Loire at Gien': 020.63 has the road go on from Gien south of the Loire as agreed (Lowell, France, Lang), but the crossing at Gien itself is France's reading alone (single), which no source read states in words. Proposed: the plan keeps the clause as 'reaches Gien on the Loire, held for the king, and goes on south of the river', or tells the crossing at Gien with France's name; the section-coordinator decides."
+  stale: []
+  lines: {agreed: 43, single: 7, disputed: 9, open: 2, new: {"020.62": agreed, "020.63": "agreed, single for the crossing at Gien"}}

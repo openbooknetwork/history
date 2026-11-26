@@ -1,0 +1,19 @@
+- step: research
+  task: review
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/research/010.md
+    - content/joan-of-arc/.plan/010-france-divided/pages.yaml
+    - content/joan-of-arc/.plan/sources.md
+    - content/joan-of-arc/.plan/faults/010.yaml
+    - content/joan-of-arc/.plan/fixes/010.yaml
+    - content/joan-of-arc/.plan/faults/story.yaml
+    - content/joan-of-arc/.plan/fixes/story.yaml
+  faults: [010-research-reviewer-1, 010-research-reviewer-2, 010-research-reviewer-3, 010-research-reviewer-4, 010-research-reviewer-5, 010-research-reviewer-6, 010-research-reviewer-7, 010-research-reviewer-8, 010-research-reviewer-9, 010-research-reviewer-10, 010-research-reviewer-11, 010-research-reviewer-12, 010-research-reviewer-13, 010-research-reviewer-14, 010-research-reviewer-15, 010-research-reviewer-16, 010-research-reviewer-17, 010-research-reviewer-18, 010-research-reviewer-19, story-research-reviewer-1]
+  unresolved:
+    - "010.48 the day of Baugé: 22 March 1421 now has Beaucourt, the Scots' letter, Ramsay and Wylie and Waugh, against 21 March (Oman) and the Chronique's Saturday before Palm Sunday. Proposed: tell 22 March."
+    - "010.60 the day of Cravant: Saturday 31 July 1423 has Beaucourt, Tuetey's note to the Bourgeois, Ramsay and Monstrelet, against 30 July (Lang) and the Geste des nobles' 'last day of August'. Proposed: 31 July."
+    - "010.40 the day of Montereau: 10 September 1419 (Ramsay, Wylie and Waugh, Beaucourt) against 9 September (Oman). Proposed: 10 September."
+  stale: []
+  checked_in_full: 68
+  sampled: 0

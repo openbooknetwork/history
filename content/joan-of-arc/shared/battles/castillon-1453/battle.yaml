@@ -1,0 +1,20 @@
+lnglat: [-0.019, 44.852]
+name: "Battle of Castillon"
+date: "17 July 1453"
+result: "French victory; Talbot is killed at the French camp, Castillon yields the next day and Bordeaux on 19 October 1453, which ends the war"
+source: https://en.wikipedia.org/wiki/Battle_of_Castillon
+default_language: en
+images: [castillon-battle-miniature-b7b31d]
+families:
+  france: { color: "#231b7e", color_dark: "#6257db" }
+  english: { color: "#3d7a2a", color_dark: "#7cc160" }
+sides:
+  - name: "French"
+    color: france
+    commanders: ["the Marshal de Lohéac", "the Marshal de Jalognes", "Jean Bureau", "the lord of Montauban", "the lord of La Hunaudaye"]
+    strength: "Beaucourt: about 1,800 lances with a body of francs-archers; Monstrelet's continuator: 1,600 to 1,800 men-at-arms and archers; Monstrelet's continuator and Ramsay: 700 sappers or gunners under the Bureau brothers; the guns more than a hundred, it is said (Oman), three hundred (Beaucourt)"
+  - name: "English"
+    color: english
+    commanders: ["John Talbot, Earl of Shrewsbury", "Viscount Lisle"]
+    strength: "Ramsay, from Aeneas Sylvius: 500 men-at-arms and 800 archers; Beaucourt: about 7,000, from the chroniclers' 800 to 1,000 horse and 4,000 to 5,000 foot up to Basin's 10,000; Monstrelet's continuator: 800 to 1,000 horse followed by four to six thousand foot"
+    casualties: "Monstrelet's continuator: four or five hundred English dead buried. Talbot and his son Viscount Lisle killed"

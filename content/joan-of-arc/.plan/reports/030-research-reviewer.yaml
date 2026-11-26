@@ -1,0 +1,15 @@
+- step: research
+  task: review
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/research/030.md
+    - content/joan-of-arc/.plan/030-orleans/pages.yaml
+    - content/joan-of-arc/.plan/sources.md
+    - content/joan-of-arc/.plan/faults/030.yaml
+    - content/joan-of-arc/.plan/fixes/030.yaml
+  faults: [030-research-reviewer-1, 030-research-reviewer-2, 030-research-reviewer-3, 030-research-reviewer-4, 030-research-reviewer-5, 030-research-reviewer-6, 030-research-reviewer-7, 030-research-reviewer-8, 030-research-reviewer-9, 030-research-reviewer-10, 030-research-reviewer-11, 030-research-reviewer-12, 030-research-reviewer-13, 030-research-reviewer-14, 030-research-reviewer-15, 030-research-reviewer-16, 030-research-reviewer-17]
+  unresolved:
+    - "030.35 stays thin: only Wikipedia names Saint-Laurent for 4 May, against Lang and the chronicle of the feast (Paris). Proposed: tell the bastille of Paris with their names, or no bastille at all."
+  stale: []
+  checked_in_full: 78
+  sampled: 0

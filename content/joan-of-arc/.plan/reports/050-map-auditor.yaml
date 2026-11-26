@@ -1,0 +1,35 @@
+- step: maps
+  task: audit
+  status: faults
+  changed_files:
+    - content/joan-of-arc/.plans/pages050.mjs
+    - content/joan-of-arc/pages/050-paris-and-compiegne/060-compiegne/markers.yaml
+    - content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml
+    - content/joan-of-arc/.plan/brief.md
+    - content/joan-of-arc/.plans/zones.mjs
+    - content/joan-of-arc/.plan/ground.yaml
+    - content/joan-of-arc/.plan/faults/050.yaml
+    - content/joan-of-arc/.plan/fixes/050.yaml
+  faults: [050-map-auditor-1, 050-map-auditor-2, 050-map-auditor-3, 050-map-auditor-4]
+  unresolved:
+    - "Every zone edge on the six pages is the map keeper's estimate (ground.yaml lines 30, 31, 60, 62, 64, 66, 68, 91): the sources give towns, not lines (050.9, 050.34). No sourced edge runs through a 050 frame."
+    - "Who held Saint-Denis after the king left on 13 September 1429 no source read says; english-sep-1429 keeps it English, as before 25 August."
+    - "montepilloy's note and tells say (Lowell's date) for 14-15 August, after decisions.md line 38, though 050.3 is agreed and Cagny gives the day; only Wikipedia differs. Proposed: drop the attribution or name Cagny. Left for the writer and fact checker."
+  stale:
+    - "content/joan-of-arc/.plan/brief-<section>.md for 010, 020, 030, 040, 060 and 070 (slices of brief.md; 050's was made again)"
+- step: maps
+  task: recheck
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plans/pages050.mjs
+    - content/joan-of-arc/pages/050-paris-and-compiegne/030-back-to-the-loire/markers.yaml
+    - content/joan-of-arc/pages/050-paris-and-compiegne/050-melun-and-lagny/markers.yaml
+    - content/joan-of-arc/pages/050-paris-and-compiegne/060-compiegne/markers.yaml
+    - content/joan-of-arc/.plan/faults/050.yaml
+    - content/joan-of-arc/.plan/fixes/050.yaml
+    - content/joan-of-arc/.plan/handoff/map-auditor.md
+  faults: [050-map-auditor-5]
+  unresolved:
+    - "Every zone edge on the six pages is the map keeper's estimate (ground.yaml lines 30, 31, 60, 62, 64, 66, 68, 91): the sources give towns, not lines (050.9, 050.34). No sourced edge runs through a 050 frame."
+    - "Who held Saint-Denis after the king left on 13 September 1429 no source read says; english-sep-1429 keeps it English, as before 25 August."
+  stale: []

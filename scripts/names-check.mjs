@@ -91,6 +91,8 @@ if (!rows.length) { console.error(`${namesFile}: no table rows found`); process.
 const groups = new Map();
 for (const row of rows) if (row.table === 'People' && !row.several && !/ and /.test(row.name)) {
   const [key, ...rest] = words(row.name);
+  // "the Bastard of Orléans" and "the Gesta" share no name: a word in lower case is no name to share.
+  if (!capital(key)) continue;
   row.key = key;
   row.rest = rest.filter(w => w.length > 3 && !numeral(w)).map(w => w.toLowerCase());
   const who = row.who.split(/always with|to keep (?:him|her|them) apart|a different (?:man|woman)/)[0];

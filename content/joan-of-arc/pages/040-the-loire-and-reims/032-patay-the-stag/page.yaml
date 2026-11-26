@@ -1,0 +1,38 @@
+# Written by content/joan-of-arc/.plans/patay-1429.mjs. Change it there and run it again.
+title: "Patay: the stag"
+date: "18 June 1429"
+when: 1429-06-18
+zones: []
+routes: []
+sources:
+  - "Jean de Wavrin, Recueil des croniques; Perceval de Cagny, Chroniques; the Journal du siège d'Orléans; Guillaume Gruel, Chronique d'Arthur de Richemont; in J. Quicherat (ed.), Procès de condamnation et de réhabilitation de Jeanne d'Arc, vol. 4 (1847)."
+  - "E. de Monstrelet, Chronicles, tr. T. Johnes (1849), book 2, ch. 61."
+  - "J. H. Ramsay, Lancaster and York, vol. 1 (1892), ch. 27."
+  - "C. Oman, A History of the Art of War in the Middle Ages, vol. 2 (1924), book 14, ch. 2."
+  - "F. C. Lowell, Joan of Arc (1896), ch. 10."
+  - "A. France, The Life of Joan of Arc, vol. 1 (1909), ch. 16."
+bbox: [1.6691, 47.98429, 1.7309, 48.05757]
+emblem:
+  kind: battle-plan
+  works:
+    - {side: neutral, path: [[1.69127, 48.04373], [1.69731, 48.044], [1.70336, 48.04409], [1.70873, 48.04382]], width: 40, id: patay-hedges, name: The hedges near Patay}
+    - {side: neutral, path: [[1.69678, 48.01912], [1.69678, 48.02455]], width: 40, id: narrow-way, name: The two strong hedges of the narrow way}
+    - {side: neutral, path: [[1.70322, 48.01912], [1.70322, 48.02455]], width: 40, id: narrow-way, name: The two strong hedges of the narrow way}
+  units:
+    - {side: neutral, type: irregular, at: [1.68589, 48.02319], width: 2000, depth: 600, facing: 90, id: woods, name: Woods beside the road; their place is approximate}
+    - {side: english, type: infantry, at: [1.7, 48.04554], width: 900, depth: 200, facing: 180, id: english-vanguard, name: 'English vanguard under a knight with a white standard, behind the hedges'}
+    - {side: english, type: wagons, at: [1.7, 48.04834], width: 700, depth: 200, facing: 180, id: english-train, name: 'The English train: artillery, victuals and merchants', rows: 2}
+    - {side: english, type: archers, at: [1.7, 48.02184], width: 380, depth: 200, facing: 180, id: talbot-archers, name: 'Talbot on foot with 500 picked archers (Wavrin), holding the narrow way'}
+    - {side: english, type: infantry, at: [1.7, 48.03495], width: 350, depth: 500, facing: 0, id: english-main-body, name: 'English main body under Fastolf and Rempston, hurrying north to the hedges'}
+    - {side: english, type: infantry, at: [1.7, 48.03088], width: 300, depth: 250, facing: 0, id: english-rearguard, name: English rearguard at the tail of the main body; its place is approximate}
+    - {side: france, type: cavalry, at: [1.6953, 48.01415], width: 260, depth: 200, facing: 0, id: french-scouts, name: 'French scouts, 60 or 80 (Wavrin): they hear the shout and send word back'}
+    - {side: france, type: knights, at: [1.7, 48.01966], width: 400, depth: 200, facing: 0, id: french-vanguard, name: 'French vanguard under La Hire and Xaintrailles, 1,400 to 1,500 (the Journal of the Siege), in the narrow way'}
+    - {side: france, type: cavalry, at: [1.7, 48.0042], width: 1100, depth: 300, facing: 0, id: french-main-body, name: 'French main body under Alençon and the Bastard of Orléans, 8,000 to 9,000 (Monstrelet), galloping up'}
+  arrows:
+    - {side: neutral, path: [[1.69033, 48.03043], [1.69436, 48.03152], [1.69731, 48.0336]], width: 60, id: stag, name: A stag breaks from the woods into the English ranks}
+    - {side: france, path: [[1.70269, 48.00646], [1.70242, 48.01234], [1.70081, 48.01903]], width: 110, id: french-vanguard-charge, name: The French vanguard gallops into Talbot’s narrow way}
+    - {side: france, path: [[1.70873, 47.98882], [1.71008, 47.99605], [1.70806, 48.00239]], width: 100, id: french-main-body-up, name: The French main body gallops up behind its vanguard}
+    - {side: english, path: [[1.70537, 48.03088], [1.70578, 48.03495], [1.70403, 48.03948]], width: 80, id: english-main-body-hurry, name: The English main body hurries north to join the vanguard}
+  clashes:
+    - {at: [1.7, 48.02075], size: 220}
+markers: [patay-the-stag-patay, patay-the-stag-talbot, patay-the-stag-fastolf, patay-the-stag-la-hire, patay-the-stag-alencon]

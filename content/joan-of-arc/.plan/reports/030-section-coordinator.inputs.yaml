@@ -1,0 +1,32 @@
+- task: pre-plan
+  step: pre-plans
+  at: '2026-11-26T09:22:53.383Z'
+  before: null
+  inputs:
+    rules.md: 34016c37f051ce5e
+    brief.md#030: 5a80231a7b76c01f
+  ended: '2026-11-26T09:24:40.051Z'
+  status: pass
+  outputs: &ref_0
+    - content/joan-of-arc/.plan/030-orleans/pages.yaml
+- task: plan
+  step: plans
+  at: '2026-11-26T10:40:15.914Z'
+  before: null
+  inputs:
+    rules.md: 1fa000ad5b45337e
+    brief.md#030: 2166a770e5fc74f3
+    research.md#030: f4b085a4ed25de7e
+    names.md#030: c04f3b19bde2655b
+- task: agreed
+  step: pre-plans
+  at: '2026-11-26T10:57:33.410Z'
+  ended: '2026-11-26T10:57:33.410Z'
+  status: pass
+  by: fact-checker plan-check
+  inputs:
+    rules.md: 34016c37f051ce5e
+    brief.md#030: 5a80231a7b76c01f
+    research.md#030: 33311008db3a5134
+    names.md#030: 4b621ee91a3c0999
+  outputs: *ref_0

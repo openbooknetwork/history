@@ -1,0 +1,466 @@
+- id: story-editor-1
+  severity: wrong
+  file: content/joan-of-arc/.plan/030-orleans/pages.yaml
+  field: the-english-march-away.markers
+  replaces: value
+  old: '[english-array, meung, jargeau]'
+  new: '[english-array, meung, jargeau-may-1429]'
+  source: agents/editor definition, "Marked once"; 040-the-loire-and-reims/pages.yaml, jargeau.markers holds jargeau
+    too
+  kind: plan
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+  between: 030 the-english-march-away and 040 jargeau mark Jargeau under one id; 040 keeps jargeau, 030 takes a
+    dated id
+- id: story-editor-2
+  severity: wrong
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/pages.yaml
+  field: meung-and-beaugency.markers
+  replaces: value
+  old: '[meung-bridge, beaugency, janville]'
+  new: '[meung-bridge, beaugency, janville-1429]'
+  source: agents/editor definition, "Marked once"; 020-the-road-to-chinon/pages.yaml, salisbury-on-the-loire.markers
+    holds janville
+  kind: plan
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+  between: 020 salisbury-on-the-loire (1428) and 040 meung-and-beaugency (1429) mark Janville under one id
+- id: story-editor-3
+  severity: wrong
+  file: content/joan-of-arc/.plan/050-paris-and-compiegne/pages.yaml
+  field: back-to-the-loire.markers
+  replaces: value
+  old: '[saint-denis-abbey, bray-1429, gien-1429]'
+  new: '[saint-denis-abbey, bray-1429, gien-disbanded]'
+  source: agents/editor definition, "Marked once"; 020-the-road-to-chinon/pages.yaml, eleven-days.markers holds
+    gien-1429
+  kind: plan
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+  between: 020 eleven-days (February 1429) and 050 back-to-the-loire (September 1429) mark Gien under one id
+- id: story-editor-4
+  severity: weak
+  file: content/joan-of-arc/.plan/010-france-divided/pages.yaml
+  field: domremy.tells
+  replaces: clause
+  old: What she and the witnesses of 1455 said of her
+  new: What she and the witnesses of the retrial said of her
+  source: 'Murray heads the Domrémy depositions "DEPOSITIONS AT DOMREMY: 1455" (archive.org-download-jeannedarcmaidof028754mbp...txt,
+    11142), while 060 the-old-market, 070 the-retrial (marker domremy-1456) and rules.md call the retrial witnesses
+    those of 1456; the heading may be in the old-style year'
+  kind: order
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+  between: '010 domremy against 060 the-old-market and 070 the-retrial: one set of witnesses dated two ways; the
+    research fixes the year of the Domrémy enquiry'
+- id: story-editor-5
+  severity: taste
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+  field: chinon-and-poitiers.tells
+  replaces: clause
+  old: behind the altar at Fierbois.
+  new: behind the altar at Fierbois. In late April she joins the convoy for Orléans gathering at Blois.
+  source: brief.md 030, "The convoy from Blois and her entry into the city"; 030 from-blois opens with the convoy
+    leaving Blois
+  kind: plan
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+  between: 020 chinon-and-poitiers ends at Tours and Fierbois, 030 from-blois opens at Blois with nothing to bring
+    her there
+- id: story-editor-6
+  severity: taste
+  file: content/joan-of-arc/.plan/050-paris-and-compiegne/pages.yaml
+  field: montepilloy.tells
+  replaces: clause
+  old: The king's army and Bedford's face each other at Montépilloy
+  new: Turned back at Bray, where an Anglo-Burgundian force holds the crossing of the Seine, the king's army marches
+    on Paris, and it and Bedford's face each other at Montépilloy
+  source: 'Lowell, archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt 7284-7296: at Provins orders
+    to cross the Seine at Bray and retreat; an Anglo-Burgundian force seized Bray; the army turned again and marched
+    on Paris'
+  kind: plan
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+  between: 040 the-towns-come-over ends at Provins on 2 August heading away from Paris, 050 montepilloy opens near
+    Senlis on 14 August with no turn between
+- id: "story-research-reviewer-1"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/sources.md"
+  field: "Works, Ramsay 1"
+  replaces: "clause"
+  old: "ch. 17-21 Normandy, Montereau, Troyes 15937-21537; ch. 23-24 Cravant, Verneuil 21538-22983"
+  new: "ch. 17-21 Normandy, Montereau, Troyes, the death of Henry V 15937-20976; ch. 22-23 the infant king, Cravant, Verneuil 20977-22455"
+  source: "archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt: \"CH. XXII.\" at l. 20977, CHAPTER XXIII at l. 21538, CHAPTER XXIV at l. 22456; Cravant (21442-21490) is in ch. 22 and Verneuil (22296-22455) in ch. 23"
+  kind: "sources"
+  introduced: "source"
+  owner: "research-coordinator"
+  state: "fixed"
+- id: story-overseer-1
+  severity: weak
+  file: content/joan-of-arc/.plan/brief.md
+  field: Map, the Sections column of the rows lorraine-1412 and bar-1412
+  replaces: clause
+  old: "010 (domremy), 020"
+  new: "010 (domremy, normandy-and-troyes), 020"
+  source: "010.17, the Duke of Lorraine's oath to Henry V, told on normandy-and-troyes, whose frame is the whole kingdom (reports/010-section-coordinator.yaml)"
+  kind: plan
+  introduced: map-design
+  owner: brief
+  state: fixed
+- id: story-overseer-2
+  severity: weak
+  file: content/joan-of-arc/.plan/brief.md
+  field: Map, Families, the Sections column of the row joan
+  replaces: clause
+  old: "020, 040, 050, 060"
+  new: "020, 050, 060"
+  source: "040-fact-checker-1: Cagny has the whole company ride to Gien, so 040 has no joan route (reports/040-fact-checker.yaml)"
+  kind: plan
+  introduced: map-design
+  owner: brief
+  state: fixed
+- id: story-overseer-3
+  severity: weak
+  file: content/joan-of-arc/.plan/brief.md
+  field: Map, Zones, the rows english-1450 and english-1451
+  new: the row english-1450 is taken out, since no page shows it, and english-1451 stands on the-retrial alone
+  source: "070-after-her/map.yaml: normandy-won-back takes english-1449 and castillon english-1452, one zone a family a page (reports/070-section-coordinator.yaml)"
+  kind: plan
+  introduced: map-design
+  owner: brief
+  state: fixed
+- id: story-map-keeper-1
+  severity: wrong
+  file: content/joan-of-arc/.plan/brief.md
+  field: Map, Zones, the rows france-1407 and france-1422, and the zones of every page of 010 to 070 that lists france-1407 or france-1422
+  new: "Charles VII's kingdom takes one zones.yaml entry for each english zone (france-1422, france-1428, france-siege-1428, france-reims-1429, france-aug-1429, france-sep-1429, france-1436, france-1449, france-1452, france-1451), and domremy and harfleur-and-agincourt take france-1412, so that each france zone shares its pages with one english zone alone and murder-in-paris keeps Bar west of the Meuse in the kingdom"
+  source: "agents/pages.md, Zones and markers from page to page: a zone is cut once for the whole story, by the zones that share any page with it, so a zone cut back in stages takes one zones.yaml entry per stage. One france-1422 on 020 to 070 would be cut by english-1420 to english-1452 together, and Champagne, the Beauce and the Île-de-France would show bare on every page after the English lost them"
+  kind: map
+  introduced: map-design
+  owner: brief
+  state: fixed
+- id: story-map-keeper-2
+  severity: wrong
+  file: content/joan-of-arc/.plan/brief.md
+  field: Map, Zones, the row english-1428, Land and year
+  replaces: clause
+  old: "most of Maine, Champagne, Le Crotoy, Calais and Gascony. It has two holes"
+  new: "most of Maine, Champagne, Calais and Gascony. Le Crotoy, English from 1424 inside Burgundian Picardy, is a marker as the holds of 010.46 are: a hole in burgundy-1420 would show on every page of that zone. It has two holes"
+  source: "README of harita, Zones: the build subtracts from every zone the zones of a lower priority number that share a page with it. burgundy-1420 shares pages with english-1420 and english-1436, which do not hold Le Crotoy, so the hole would show French on them; 060's sold-to-the-english marks le-crotoy-1430 in the english colour"
+  kind: map
+  claim: "060.19"
+  introduced: map-design
+  owner: brief
+  state: fixed
+- id: story-map-keeper-3
+  severity: weak
+  file: content/joan-of-arc/.plan/brief.md
+  field: Map, Zones, the row france-1407, Basis and digest ids
+  replaces: clause
+  old: "The Rhône and the Meuse are its sourced edges"
+  new: "The Rhône is its sourced edge; the Meuse is drawn by hand through the towns on its banks, since Natural Earth lacks it in France. Champagne is drawn whole in it, the Rethélois too"
+  source: "node scripts/ground.mjs -5.5,42,8.5,51.5 --kind river --name meuse finds the Maas of the Netherlands alone (110 km), and --osm got no answer from any Overpass server; content/joan-of-arc/.plan/ground.yaml lists the Meuse lines as estimates"
+  kind: map
+  introduced: map-design
+  owner: brief
+  state: fixed
+- id: story-map-keeper-4
+  severity: wrong
+  file: scripts/plan-zones.mjs
+  field: bareLand, the zones of a page
+  replaces: clause
+  old: "const own = (p.zones ?? []).map(shape).filter(Boolean);"
+  new: "const own = (p.zones ?? []).map(id => shape(id)).filter(Boolean);"
+  source: "node scripts/plan-check.mjs joan-of-arc stopped on 'TypeError: seen.has is not a function' at plan-zones.mjs:67: Array.map hands shape() the index as its second argument, so a zones.yaml entry broke the check of bare land"
+  kind: check
+  owner: overseer
+  state: fixed
+- id: story-map-auditor-1
+  severity: wrong
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "z.zone('english-1436', ...): the shape, and the brief's row english-1436, Land and year"
+  new: "english-1436 keeps the land that no source has the English lose by 13 April 1436: Meaux (Ramsay has it retained in 1432), Creil, Beaumont-sur-Oise, Crépy and Clermont (recovered by Talbot in 1434, Ramsay; Pont-Sainte-Maxence lost again in 1435), and Montereau, Sens, Étampes and Mantes (no source read has them lost). Chartres stays out, French from the eve of Palm Sunday 1432 (Ramsay). Either draw english-1436 from english-sep-1429 less Paris, Saint-Denis, the ring of 070.7, Chartres and the Caux, or keep the Normandy-and-Maine zone and mark Meaux, Creil and Montereau as English holds on paris-opens, as the brief does for holds inside a zone. The Ramsay passages need claims in the digest before the line can cite them (research), and the brief's row ('Champagne, the Île-de-France and Le Crotoy are outside it') changes with the zone"
+  source: "070.7 names only Dieppe, the Caux but Caudebec, Pontoise, Charenton, Brie-Comte-Robert, Saint-Germain-en-Laye, Corbeil and Vincennes, and 070.8 and 070.10 Saint-Denis and Paris. Ramsay 1, archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt: l. 27494-27505 'The Bastard of Orleans was more successful in an attack on Chartres ... the place was won'; l. 27533-27535 'the recovery of Lagny ... neutralised ... the benefit of the retention of Meaux'; l. 28455-28461 'driving ... from Beaumont-sur-Oise. Following him to Creil Talbot recovered that place also (20th June). In like manner he recovered Pont-Sainte-Maxence, Crespy, and Clermont'; l. 29333 'Pont-Sainte-Maxence and Meulan had already been lost'. rules.md, The careful side"
+  kind: map
+  claim: "070.7"
+  introduced: map-design
+  owner: map-keeper
+  state: fixed
+- id: story-map-auditor-2
+  severity: wrong
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "SEP_CUT (the line C3 from 1.55, 50.05 to 1.68, 49.72) and the shape of english-1436"
+  new: "Aumale, Blangy and the Norman bank of the Bresle east of 1.52-1.55 E are cut out of english-sep-1429 from August 1429 to October 1435 and come back in english-1436 with no event told on paris-opens. Ramsay has the English win Aumale back in July 1430, and no source read has Blangy back. Proposed: run C3 along the Bresle, so that the Norman bank stays in english-sep-1429 as it is in english-1436, and let the markers aumale-1429 and blangy-1429 of montepilloy carry their change of hands in August 1429 as holds, as the brief's Map part does for towns that open; then the pages from July 1430 (sold-to-the-english, the-court, burgundy-changes-sides) show Aumale English as Ramsay has it. Ramsay's July 1430 needs a claim in the digest"
+  source: "050.9 (Ramsay: 'Senlis, Creil, Pont-Sainte-Maxence, Beauvais, Aumâle, and Blangy changed hands', August 1429); Ramsay 1, archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt, l. 26233-26237: 'Step by step Bedford ... recovered his hold on Normandy and Paris. Chateau Gaillard was won back in June, and Aumâle and Etrepagny in July' (1430); agents/pages.md, Zones and markers from page to page; the generator: english-1436 is union(NORMANDY2, MAINE) less the Caux, and NORMANDY2 holds the Bresle bank"
+  kind: map
+  claim: "050.9"
+  introduced: maps
+  owner: map-keeper
+  state: fixed
+- id: story-map-auditor-3
+  severity: wrong
+  file: content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml
+  field: "montepilloy.zones, with the brief's row english-sep-1429 (its Sections) and the generator's BRAY_CUT"
+  new: "montepilloy, dated August 1429, takes english-sep-1429, whose BRAY_CUT shows the land of Bray on the Seine French, while the page tells Bray held against the king (bray-held-1429, in the english colour) and Bray yields only on 13-21 September, on back-to-the-loire. Give montepilloy a stage without BRAY_CUT (an english zone of August, with its own france entry in zones.yaml), or take BRAY_CUT out of english-sep-1429 and let back-to-the-loire's bray-1429 marker, in the france colour, carry the town's change as the brief's Map part does for towns that open"
+  source: "050.29: the king goes back by Lagny, Provins, 'Bray on the Seine (which yields to him)', in September 1429; 050.2 and the plan's bray-held-1429: the townsmen let in English and Burgundians the evening before the crossing, early August; agents/map-auditor, The page's dates: the legend says of each zone what holds on the page's date"
+  kind: map
+  claim: "050.29"
+  introduced: map-design
+  owner: map-keeper
+  state: fixed
+- id: story-map-auditor-4
+  severity: taste
+  file: content/joan-of-arc/.plan/brief.md
+  field: Map, Zones, the row english-siege-1428, Land and year
+  replaces: clause
+  old: "Its south edge is the Loire from Beaugency to Jargeau."
+  new: "Its south edge is the Loire from Beaugency to Orléans, and the bridgehead of Jargeau is a circle of its own, with the river between Orléans and Jargeau outside it."
+  source: "content/joan-of-arc/.plan/ground.yaml, lines 40-45 (the Loire from Beaugency to the walls, the edge round the north of the city, Jargeau a circle of 3 km); 030.1 (the north-east open), which the same row cites"
+  kind: map
+  introduced: maps
+  owner: brief
+  state: fixed
+- id: story-map-auditor-5
+  severity: taste
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "z.zone('english-1407', ...), name"
+  replaces: value
+  old: "The kingdom of England"
+  new: "The English king's lands"
+  source: "the zone holds Calais and Gascony with England: 010.57 'Bordeaux and much of Guyenne English', 010.34 Calais; the brief's family english, 'the kingdom of England and the lands held in France'. The legend would call Bordeaux and Calais the kingdom of England"
+  kind: map
+  introduced: maps
+  owner: map-keeper
+  state: fixed
+- id: story-map-auditor-6
+  severity: weak
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "S20a, the why"
+  replaces: clause
+  old: "Chartres and Étampes English to 1429 (names.md; 040.42 leaves them English)"
+  new: "Chartres and Étampes English to 1429 (020.13: men of Chartres reinforce Salisbury; 040.33: Fastolf flees from Patay to Étampes)"
+  source: "names.md decides the form of names and is no source of who held a town; 020.13 (Ramsay: 'reinforced by native auxiliaries drawn from Paris, Chartres, and Normandy'); 040.33 (Wavrin: 'Si prinst son chemin vers Estampes')"
+  kind: map
+  claim: "020.13"
+  introduced: maps
+  owner: map-keeper
+  state: fixed
+- id: story-map-auditor-7
+  severity: taste
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "the inside tests of english-1428 and english-siege-1428"
+  replaces: clause
+  old: "english-1428 inside: ... saint_florentin, calais ...; english-siege-1428 inside: ... patay, saint_laurent ..."
+  new: "english-1428 inside: ... saint_florentin, saint_urbain, calais ...; english-siege-1428 inside: ... patay, rouvray, saint_laurent ..."
+  source: "020.10 (Vergy, the English governor of Champagne, reviews his army at Saint-Urbain, 16-17 July 1428); 020.23 (the Herrings at Rouvray-Saint-Denis in the Beauce, two leagues from Janville, a convoy from Paris to the English before Orléans). Both pass"
+  kind: map
+  claim: "020.10"
+  introduced: maps
+  owner: map-keeper
+  state: fixed
+- id: story-overseer-4
+  severity: weak
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: the east edge of Champagne in france-1407 and in the english zones of 1420 to 1429
+  new: Champagne ends at the Meuse north of Mézières, so the Givet salient and the land of Sedan and Carignan east of the river stand in no zone
+  source: "brief.md, Map: 'east to the Meuse'; no claim of the digest speaks of the land east of it (reports/all-map-auditor.yaml)"
+  kind: map
+  introduced: maps
+  owner: map-keeper
+  state: fixed
+  ruling: "cloud ruling, the careful side: land that no source gives the kingdom stays out of its zone"
+- id: story-overseer-5
+  severity: wrong
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: the south edge of france-1407 and of every france zone made from it
+  new: the kingdom ends at the Corbières, so Roussillon and the Cerdagne stand in no zone; Béarn and Lower Navarre stay as drawn, under the brief's 'to the Pyrenees'
+  source: "reports/all-map-auditor.yaml: Roussillon and the Cerdagne were the crown of Aragon's in these years and no source of the digest gives them to France; cutting the zones to France's land of today put them in the kingdom"
+  kind: map
+  introduced: maps
+  owner: map-keeper
+  state: fixed
+  ruling: cloud ruling, the careful side
+- id: story-researcher-1
+  severity: wrong
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "z.zone('english-1436', ...): the towns story-map-auditor-1 keeps English"
+  new: "Of the towns story-map-auditor-1 keeps in english-1436, two are not English on 13 April 1436 by the digest: Clermont-en-Beauvaisis, which Talbot took in 1434, was taken from its governor by La Hire before the Congress of Arras (070.62), and Sens is in Charles VII's obedience from 1430 (070.58). Leave both out of english-1436 or its holds. The others it names have claims now: Meaux English to August 1439 (070.60), Creil to May 1441 (070.61, 070.64), Beaumont-sur-Oise and Crépy retaken in 1434 (070.61), Pont-Sainte-Maxence and Meulan lost in 1435 (070.63), Montereau English to October 1437 (070.65), Mantes to August 1449 (070.66), Chartres French from April 1432 (070.59), Aumale and Blangy won back in 1430 (070.55, 070.56) and Aumale still English after April 1436 (070.57). No source read gives who held Étampes from 1430 to 1436 (the Coverage line of 070), so it stays out under rules.md, The careful side."
+  source: "Monstrelet A (archive.org-download-chroniclesengue06johngoog-chroniclesengue06johngoog-djvu.txt.txt), book 2 ch. 164: 'La Hire laid hands on him, and forced him to surrender the castle' (the castle of Clermont in the Beauvaisis, of which the lord d'Auffemont was governor); Beaucourt 2, book 2 ch. 6, p. 267, of 1430: 'le Roi resta à Sens, où il passa les mois d'août et de septembre'"
+  kind: map
+  claim: "070.62"
+  introduced: map-design
+  owner: map-keeper
+  state: fixed
+- id: story-researcher-2
+  severity: wrong
+  file: content/joan-of-arc/.plan/faults/story.yaml
+  field: "story-overseer-4.ruling"
+  replaces: value
+  old: "cloud ruling, the careful side: land that no source gives the kingdom stays out of its zone (unquoted)"
+  new: "the same text in double quotes"
+  source: "js-yaml and PyYAML both stop on line 277 of faults/story.yaml: 'mapping values are not allowed here', the colon after 'the careful side' read as a key"
+  kind: check
+  introduced: ruling
+  owner: overseer
+  state: fixed
+- id: story-map-auditor-8
+  severity: taste
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "C3, the why; written by the generator to content/joan-of-arc/.plan/ground.yaml, line 61"
+  replaces: clause
+  old: "Paris, Saint-Denis and Normandy left, the Norman bank of the Bresle with Aumale and Blangy too (070.55, 070.56); no source gives a line"
+  new: "Paris, Saint-Denis and Normandy left; the line keeps to Normandy's edge, since Aumale and Blangy on the Norman bank of the Bresle, which change hands in August 1429 (050.9), are won back in 1430 (070.55, 070.56) and their markers carry the change; no source gives a line"
+  source: "050.9 (Ramsay: 'Senlis, Creil, Pont-Sainte-Maxence, Beauvais, Aumâle, and Blangy changed hands', August 1429); 070.55 and 070.56 have them won back in 1430. The old why read as if Aumale and Blangy stayed English in August 1429, which claims more than its reasons give"
+  kind: map
+  claim: "050.9"
+  introduced: fix
+  owner: map-keeper
+  state: fixed
+- id: story-map-auditor-9
+  severity: weak
+  file: content/joan-of-arc/.plan/brief.md
+  field: Map, Zones, the row english-1429, Basis and digest ids
+  replaces: clause
+  old: "with Chartres and Étampes left English as `names.md` has them"
+  new: "with Chartres and Étampes left English (020.13: men of Chartres reinforce Salisbury; 040.33: Fastolf flees from Patay to Étampes)"
+  source: "names.md decides the form of names and is no source of who held a town (the same ground as story-map-auditor-6, fixed in the generator's S20a and left in the brief's row); 020.13 (Ramsay: 'reinforced by native auxiliaries drawn from Paris, Chartres, and Normandy'); 040.33 (Wavrin: 'Si prinst son chemin vers Estampes')"
+  kind: map
+  claim: "040.33"
+  introduced: map-design
+  owner: brief
+  state: fixed
+- id: story-map-auditor-10
+  severity: wrong
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "english-sep-1429 and burgundy-1420 on the pages of 1430 to 1435, with the brief's rows english-sep-1429 ('September 1429 – 1435') and burgundy-1420, and the zones of 060 and 070 (burgundy-changes-sides)"
+  new: "english-sep-1429 is one stage from September 1429 to 1435, so the pages of late 1430 to 1435 show Melun and Sens English and Soissons French, against the digest: Melun drives out its garrison about Easter 1430 and comes over to the king (050.45), and its estates come to him at Chinon about Christmas 1430 (Beaucourt, the line of 070.58); Soissons is sold to the Duke of Burgundy some weeks after 18 May 1430 (050.54); Sens is the king's from August 1430 (070.58). Screens that show them: beaulieu-and-beaurevoir (May–October 1430) Soissons on all three; sold-to-the-english (October–December 1430) Soissons on all three, Melun and Sens on a phone; the-court (January–February 1431) Melun on all three, Sens and Soissons on a phone; burgundy-changes-sides (December 1431 – October 1435) all three towns on all three screens, and Chartres too, French from April 1432 (070.59). Proposed: a stage english-1430, english-sep-1429 less a circle of Melun and one of Sens, as HOLDS36 draws the holds of 1436, with its france entry in zones.yaml, on sold-to-the-english, the-court and burgundy-changes-sides (the Rouen pages may keep english-sep-1429, whose frames show none of the three); and a stage burgundy-1430, burgundy-1420 with a circle round Soissons, on beaulieu-and-beaurevoir and after, or Soissons left a marker as the brief's Map part has it if the overseer keeps the holds as markers on later pages too. Which date burgundy-changes-sides' zones show (its opening, with Chartres English, or later) is an open question under unresolved. melun-and-lagny and compiegne stay as they are: melun-1430 carries Melun's change, and the frame of compiegne shows neither Melun nor Sens"
+  source: "050.45 (Lowell ch. 15, p. 201: 'This happened about Easter, April 16'; Lang ch. 19: 'Melun had come over to King Charles in April'); 050.54 (Lowell ch. 16, l. 9390-9393: 'Some weeks after their departure from Soissons its treacherous captain sold his charge to the duke of Burgundy'); 070.58 (Beaucourt 2, l. 14554-14555: 'le Roi resta à Sens, où il passa les mois d'août et de septembre'; l. 15048-15051, Jouvenel: 'En 1430, environ Noël ... Sens, Melun, Montargis et aultres, vindrent devers vous'); 070.59 (Chartres taken April 1432); the brief's Map part: 'Zones that change on a page because a town opened its gates change by the zone of the page's date'; the screens from scripts/view.mjs frames()"
+  kind: map
+  claim: "070.58"
+  introduced: map-design
+  owner: map-keeper
+  state: fixed
+- id: story-overseer-6
+  severity: weak
+  file: content/joan-of-arc/.plan/names.md
+  field: the rows of Jean de Brosse (Boussac) and of the Constable d'Albret, and each row's cell "First named in"
+  new: "once every section has its texts: each cell 'First named in' gives the section whose text names the row first, as names-check prints them; the form asked of Boussac at a first mention passes names-check; the two rows of d'Albret no longer clash"
+  source: "reports/010-section-writer.yaml, reports/020-section-reviewer.yaml (020-section-reviewer-17) and the output of scripts/names-check.mjs"
+  kind: check
+  introduced: names
+  owner: names
+  state: fixed
+  ruling: "cloud ruling: settled once, after the last section is written, since each new text moves these cells again"
+- id: story-names-1
+  severity: weak
+  file: scripts/names-check.mjs
+  field: the groups of shared names, the key of a row
+  replaces: clause
+  old: "  const [key, ...rest] = words(row.name);\n  row.key = key;"
+  new: "  const [key, ...rest] = words(row.name);\n  // \"the Bastard of Orléans\" and \"the Gesta\" share no name: a word in lower case is no name to share.\n  if (!capital(key)) continue;\n  row.key = key;"
+  source: "node scripts/names-check.mjs joan-of-arc: 'pages/010-france-divided/020-domremy/text/en.md: \"the\" stands without the words that tell who it is', listing the 33 rows of names.md that open with 'the'. The script grouped people by the first word of the row's name, lower case too, so the article read as a shared name on every sentence. alexander-the-great's output is the same before and after"
+  kind: check
+  owner: overseer
+  state: fixed
+- id: story-names-2
+  severity: weak
+  file: scripts/slice.mjs
+  field: forms, the forms of a row's Name cell
+  replaces: clause
+  old: "    for (const part of i === 0 ? [cell] : cell.split(/[;/]/)) {"
+  new: "    for (const part of cell.split(i === 0 ? /;/ : /[;/]/)) {"
+  source: "names.md's Name cell lists a row's forms split by semicolons (story-overseer-6: 'John Talbot; Talbot', 'Arthur de Richemont; Richemont'), as scripts/names-check.mjs reads them; slice.mjs took the cell whole, so a section's names slice dropped a row whose text wrote only its full form: run on 010 to 070 before and after the change, the slices gain 1 to 3 rows each"
+  kind: check
+  introduced: names
+  owner: overseer
+  state: fixed
+- id: story-overseer-7
+  severity: wrong
+  file: content/joan-of-arc/shared/battles/
+  field: images, in the battle.yaml of each of the eleven cards
+  new: each placeholder name in a card's images list gives way to its image's id, as images/<section>.yaml pairs them
+  source: 'scripts/images-place.mjs switches a card image only where the list is written one name a line; the eleven cards write their images list on one line, so the strict build stopped on: unknown image agincourt-battle-miniature'
+  kind: check
+  introduced: images
+  owner: overseer
+  state: fixed
+- id: story-editor-7
+  severity: taste
+  file: content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/markers.yaml
+  field: the markers of sold-to-the-english
+  new: "Sens leaves the English zone between 050 compiegne (english-sep-1429) and 060 (english-1430) and no page tells it: 040 the-towns-come-over marks sens-1429 English, 050 back-to-the-loire has Sens shut the king out in September 1429, and the change shows on sold-to-the-english at a phone's frame (story-map-auditor-10). Proposed: leave it, since no desktop frame of 060 shows Sens; or a marker sens-1430 in the king's colour on sold-to-the-english with a clause of the text after 070.58, Beaucourt's alone, that Charles VII spends August and September 1430 at Sens"
+  source: "research.md 070.58, single (Beaucourt 2, book 2 ch. 6, p. 267): \"le Roi resta à Sens, où il passa les mois d'août et de septembre\" (1430); brief.md, Map, the row english-1430: Melun and Sens gone"
+  kind: map
+  introduced: map-design
+  owner: overseer
+  state: declined
+  between: "050 compiegne and 060 beaulieu-and-beaurevoir / sold-to-the-english: the circle of Sens goes from the English zone with no page that tells it"
+  ruling: "cloud ruling: left as it is. The zone is right by 070.58, the change shows only on a phone-sized view of one page, and a marker and a clause for it would be a run of two makers for a town the page does not tell"
+- id: story-story-auditor-1
+  severity: weak
+  file: content/joan-of-arc/.plan/research.md
+  field: lines 010.14 and 020.9
+  new: "010.14 gives the account that Domrémy was French as a third reading of its disputed lordship, with Murray's note and Lang's 'French soil' quoted; 020.9 keeps 'agreed' for Neufchâteau and refers Domrémy's lordship to 010.14, and its Lowell quote, which is on Neufchâteau alone, no longer stands for Domrémy belonging to France"
+  source: "020.9 is 'agreed (Murray's note; Lang; Lowell)' that Domrémy 'belonged to France as a dependency of Champagne', while 010.14 marks the same lordship 'disputed' with Lowell's Bar; Lowell's quote in 020.9 ('miles south to Neufchateau, a walled town belonging to the duke of Lorraine') says nothing of Domrémy; Lang ch. 2 l. 1667-1669 and Murray's note l. 11873-11875"
+  kind: plan
+  claim: "010.14"
+  introduced: research
+  owner: researcher
+  state: fixed
+  reader: "is given on the page of Domrémy two accounts that leave out the third, since the writer took the dispute from 010.14 alone (010-story-auditor-2)"
+- id: story-story-auditor-2
+  severity: taste
+  file: content/joan-of-arc/.plans/pages070.mjs
+  field: "the colours of the markers caen-1450, cherbourg-1450 (normandy-won-back) and bordeaux-1453 (castillon), with .plans/pages040.mjs for troyes-1429 (auxerre-and-troyes)"
+  new: "a marker inside a zone of another state says why: either its colour follows the holder at the moment the page's zones show (English Caen and Cherbourg at the close of 1449, English Bordeaux in 1452-1453, Troyes English before 10 July), or the closing sentence of the text says that the markers show the page's end and the zones its opening"
+  source: "normandy-won-back: 'When the year ends ... The map draws the English lands round these towns', yet caen-1450 and cherbourg-1450 are france (captures normandy-won-back.png, dark and light); castillon: 'The map shows this English Gascony of 1452 and 1453', yet bordeaux-1453 is france; auxerre-and-troyes: troyes-1429 france inside english-1429"
+  kind: map
+  introduced: maps
+  owner: cartographer
+  state: declined
+  reader: "sees a French town in English land and cannot tell which of the two the page means"
+  ruling: "cloud ruling: declined. A markers colour is the holder as its pages events end, which its note and the text tell; the zones show the state the page opens on. The map auditors of 040 and 070 passed these pages so"
+- id: story-overseer-8
+  severity: weak
+  file: content/joan-of-arc/.plan/brief.md
+  field: Map, Zones, the Sources of the rows france-1407, english-1428 and bar-1412
+  new: each row cites 010.14, the disputed lordship of Domremy, where it cited 020.9 for the village as a dependency of Champagne
+  source: "reports/010-researcher.yaml: since story-story-auditor-1 the claim 020.9 covers Neufchateau alone, and the reading of Domremy as French stands in 010.14"
+  kind: plan
+  introduced: fix
+  owner: brief
+  state: fixed
+- id: story-story-auditor-3
+  severity: weak
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: MEUSE_WHY (l. 46-47) and the est() reason of the Three Fountains brook (l. 186), and so the `why` of ground.yaml l. 163, 172, 181 and 719 when the generator runs again
+  replaces: clause
+  old: "020.9 Domrémy belonging to France (l. 47; 'Domrémy French (020.9)' in the comment of l. 46); 'Greux and the north of the village French (020.9)' (l. 186)"
+  new: "010.14 for Domrémy belonging to France, as Murray's note and Lang's 'French soil' (one of its three readings), in each of the three places; the shapes do not change"
+  source: "research.md 020.9 since story-story-auditor-1: 'agreed for Neufchâteau in Lorraine (Lowell; Lang). Domrémy's own lordship is disputed and stands at 010.14, with Murray's note and Lang's \"French soil\"'; story-overseer-8 moved the same citation in brief.md and left the generator's"
+  kind: map
+  claim: "010.14"
+  introduced: fix
+  owner: map-keeper
+  state: fixed
+  reader: sees nothing on a page; whoever checks the basis of the Meuse edge and of the line through Domrémy finds it resting on a claim that no longer says so, and may take the village's French half for agreed where it is one reading of a dispute
+- id: story-story-auditor-4
+  severity: taste
+  file: content/joan-of-arc/.plan/names.md
+  field: the row Murray, column First named in
+  replaces: clause
+  old: "010 (010.14, a note of Murray's that 020.9 quotes)"
+  new: "010 (010.14, Murray's note)"
+  source: "research.md 020.9 since story-story-auditor-1 quotes Lowell and Lang only; Murray's note is quoted in 010.14 (l. 11873-11875 of the Murray file)"
+  kind: plan
+  claim: "010.14"
+  introduced: fix
+  owner: names
+  state: fixed
+  reader: sees nothing on a page; a writer or checker who follows the row to 020.9 finds no note of Murray's there

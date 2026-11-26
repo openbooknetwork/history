@@ -1,0 +1,38 @@
+- task: draw
+  step: maps
+  at: '2026-11-26T13:17:49.370Z'
+  before: null
+  inputs:
+    rules.md: 68d19bd3019bf769
+    brief.md#020: 138961361c0c1044
+    020-the-road-to-chinon/pages.yaml#the-voices: 1c0389756dbf9e69
+    020-the-road-to-chinon/pages.yaml#salisbury-on-the-loire: a0433498dee449ed
+    020-the-road-to-chinon/pages.yaml#vaucouleurs-again: e8121e768eaa2597
+    020-the-road-to-chinon/pages.yaml#eleven-days: eecc87c448db22b3
+    020-the-road-to-chinon/pages.yaml#chinon-and-poitiers: d8db27a718edcb9e
+    020-the-road-to-chinon/map.yaml#the-voices: 6c5ab628fcc8780b
+    020-the-road-to-chinon/map.yaml#salisbury-on-the-loire: 0bbcd4cc04f73753
+    020-the-road-to-chinon/map.yaml#vaucouleurs-again: 416a37ebce1c56e6
+    020-the-road-to-chinon/map.yaml#eleven-days: 9051ce2ae861cd98
+    020-the-road-to-chinon/map.yaml#chinon-and-poitiers: f2774ea4e287de8c
+    names.md#020: 54ebd05c73173d86
+- task: fix
+  step: story
+  at: '2026-11-26T16:51:38.703Z'
+  note: 'The images are placed: a marker''s image line and a card''s images list hold image ids now, where the generator of the section still names placeholders.'
+  before: null
+  inputs:
+    rules.md: 476e2c9172c31a6b
+    brief.md#020: 19a4525d2ad082f8
+    020-the-road-to-chinon/pages.yaml#the-voices: 1c0389756dbf9e69
+    020-the-road-to-chinon/pages.yaml#salisbury-on-the-loire: a0433498dee449ed
+    020-the-road-to-chinon/pages.yaml#vaucouleurs-again: e8121e768eaa2597
+    020-the-road-to-chinon/pages.yaml#eleven-days: eecc87c448db22b3
+    020-the-road-to-chinon/pages.yaml#chinon-and-poitiers: 0fd69ae2d95fba75
+    020-the-road-to-chinon/map.yaml#the-voices: 6c5ab628fcc8780b
+    020-the-road-to-chinon/map.yaml#salisbury-on-the-loire: eccfc42e52625c40
+    020-the-road-to-chinon/map.yaml#vaucouleurs-again: 416a37ebce1c56e6
+    020-the-road-to-chinon/map.yaml#eleven-days: 6779c28304530306
+    020-the-road-to-chinon/map.yaml#chinon-and-poitiers: d65e211135ddc86a
+    names.md#020: 658a9cd829bd6ee8
+    note: 4fe2c3312c951f64

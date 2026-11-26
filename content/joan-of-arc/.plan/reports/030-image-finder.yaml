@@ -1,0 +1,27 @@
+- step: images
+  task: find
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/images/030.yaml
+    - content/joan-of-arc/shared/images/orleans-entry-miniature-4e4dc7/image.yaml
+    - content/joan-of-arc/shared/images/blois-loire-bridge-f8aa18/image.yaml
+    - content/joan-of-arc/shared/images/maison-jeanne-d-arc-orleans-18e7c2/image.yaml
+    - content/joan-of-arc/shared/images/saint-laurent-orleans-church-f5316f/image.yaml
+    - content/joan-of-arc/shared/images/saint-loup-assault-miniature-d6db07/image.yaml
+    - content/joan-of-arc/shared/images/loire-at-orleans-islands-b58242/image.yaml
+    - content/joan-of-arc/shared/images/tourelles-site-monument-3e7301/image.yaml
+    - content/joan-of-arc/shared/images/orleans-relief-miniature-0872de/image.yaml
+  faults: []
+  unresolved: []
+  stale: []
+  added: 8
+  none:
+    - placeholder: tourelles-assault-miniature
+      tried: ["Jeanne d'Arc blessée Tourelles", "prise des Tourelles Orléans 1429", "Jeanne d'Arc au siège d'Orléans Lenepveu", "Joan of Arc wounded Orléans painting", "Vigiles de Charles VII siège d'Orléans", "Jeanne d'Arc siège d'Orléans enluminure", "Français 2691 Orléans", "Mazerolles siège d'Orléans", "Chronique de Monstrelet siège d'Orléans miniature", "assaut bastide Orléans 1429 enluminure", "articles fr:Fort des Tourelles, fr:Pont des Tourelles (not found)"]
+      found: "Commons has no fifteenth-century miniature of the Tourelles or of her wound. Its Vigiles 'siege of Orléans' files (SiegeOfOrleans1429.jpg, Siege orleans.jpg, Le siège d'Orléans - Martial.jpg) are all the Salisbury miniature 020 holds. Lenepveu's Panthéon painting went to Saint-Loup, so that each page has an image."
+  unconfirmed:
+    - "orleans-entry-miniature-4e4dc7: a lithograph of 1902, not a fifteenth-century miniature (none of the entry is on Commons). Commons dates the scene only to 1429, not to 29 April. Scherrer's and Scheffer's paintings are titled as her return on 8 May, so they were not used."
+    - "saint-loup-assault-miniature-d6db07: Lenepveu's painting of about 1886–1890; Commons says 'at the siege of Orléans' and names no fort, so the caption names none."
+    - "tourelles-site-monument-3e7301: the inscription naming the towers of the Tourelles is legible on the sibling File:Orléans - croix, quai des Augustins (04).jpg, and (03) is in Category:Fort des Tourelles. The page of (01) itself says only 'Cross, Augustines embankment'."
+    - "orleans-relief-miniature-0872de: the Commons page gives circa 1484 and the subject; the Vigiles is named in the file title, Martial d'Auvergne as with the 020 Vigiles captions."
+    - "saint-laurent-orleans-church-f5316f: Commons gives only the upload date (12 March 2005), not the day the photograph was taken. It is 640 by 480."

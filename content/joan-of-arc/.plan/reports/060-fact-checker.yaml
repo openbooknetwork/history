@@ -1,0 +1,90 @@
+- step: plan-check
+  task: plan-check
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/060-rouen/text.yaml
+    - content/joan-of-arc/.plan/060-rouen/pages.yaml
+    - content/joan-of-arc/.plan/research.md
+    - content/joan-of-arc/.plan/research/060.md
+    - content/joan-of-arc/.plan/faults/060.yaml
+    - content/joan-of-arc/.plan/fixes/060.yaml
+  faults: [060-fact-checker-1, 060-fact-checker-2, 060-fact-checker-3, 060-fact-checker-4, 060-fact-checker-5, 060-fact-checker-6, 060-fact-checker-7, 060-fact-checker-8]
+  unresolved: []
+  stale:
+    - content/joan-of-arc/.plan/research-060.md
+    - content/joan-of-arc/.plan/passages-060.md
+    - content/joan-of-arc/.plan/passages-060-part.md
+- step: facts
+  task: check
+  status: pass
+  changed_files:
+    - content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md
+    - content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/page.yaml
+    - content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md
+    - content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/page.yaml
+    - content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md
+    - content/joan-of-arc/pages/060-rouen/030-the-court/page.yaml
+    - content/joan-of-arc/pages/060-rouen/040-the-questioning/text/en.md
+    - content/joan-of-arc/pages/060-rouen/040-the-questioning/page.yaml
+    - content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md
+    - content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md
+    - content/joan-of-arc/pages/060-rouen/060-the-old-market/page.yaml
+    - content/joan-of-arc/.plan/research.md
+    - content/joan-of-arc/.plan/research/060.md
+    - content/joan-of-arc/.plan/faults/060.yaml
+    - content/joan-of-arc/.plan/fixes/060.yaml
+  faults: [060-fact-checker-9, 060-fact-checker-10, 060-fact-checker-11, 060-fact-checker-12, 060-fact-checker-13, 060-fact-checker-14, 060-fact-checker-15, 060-fact-checker-16, 060-fact-checker-17, 060-fact-checker-18, 060-fact-checker-19, 060-fact-checker-20, 060-fact-checker-21, 060-fact-checker-22, 060-fact-checker-23, 060-fact-checker-24, 060-fact-checker-25, 060-fact-checker-26, 060-fact-checker-27, 060-fact-checker-28, 060-fact-checker-29]
+  unresolved:
+    - "060.4 disputed (time at Beaulieu and Beaurevoir): body gives her own about four months; the note gives Lowell, Lang, Ramsay and Champion each by name. France's early August is not told."
+    - "060.10 disputed (height of the tower): body gives Lang's about sixty feet as his guess; France's seventy feet is not told (rules.md, France alone)."
+    - "060.13 disputed (unit of the price): body gives ten thousand livres tournois with the levy, Lowell, Lang and Champion; the note gives Ramsay's francs."
+    - "060.14 disputed (the seller): body gives John of Luxembourg in Lowell, Lang and Champion; the note gives Ramsay's Duke of Burgundy and the record's surrender by both."
+    - "060.23 disputed (arrival at Rouen): body says late in 1430; the note gives Lang, Lowell and Ramsay."
+    - "060.26 disputed (the iron cage): the note gives Thurston, Lowell, Lang and Massieu, and does not say the cage was used."
+    - "060.31 disputed (Compiègne's diocese): body gives the record; the note gives Canon Dunand by Lang."
+    - "060.43 disputed (the sign): body gives the record of 13 March; the note gives Ramsay and Thurston's report."
+    - "060.45 disputed (count of articles): body gives seventy as the record's editors count them; the note gives Ramsay's sixty-nine and Lang's 28 March."
+    - "060.52 disputed (what she abjured): the note gives the record's long formula, Taquel's six lines, Thurston's five witnesses, and Thurston's judgment."
+    - "060.55 disputed (why she put the man's dress on again): the note gives the record, Massieu and the charge Thurston reports."
+    - "060.59 disputed (the escort): body gives Massieu's more than 800 and Lowell's several score."
+    - "060.66 disputed (whether her voices had deceived her): the note gives the information of 7 June, Lowell and Thurston with Manchon."
+  stale: []
+  turns_on:
+    - "060.14 who sold her: Lowell ch. 17-18, Lang ch. 21, Champion (Barrett); Ramsay 1 ch. 29; the record's opening (Barrett)"
+    - "060.13, 060.15 the price and its levy: the levy of September 1430 and the receipt of 6 December 1430 (Quicherat 5)"
+    - "060.30 why the trial sat at Rouen: Thurston; Lang ch. 21"
+    - "060.31 Cauchon's title to judge her: the letters of the chapter of Rouen (Barrett), Henry VI's letter (Monstrelet A), Thurston; Canon Dunand by Lang ch. 21"
+    - "060.51 the abjuration before the sentence's end: the sentences of 30 May (Barrett), Henry VI's letter (Monstrelet A), Massieu (Murray)"
+    - "060.55 the cause of the relapse: the record of 28 May (Barrett), Massieu (Murray), Thurston"
+    - "060.57 the finding of relapse on 29 May: the record (Barrett), Thurston"
+    - "060.60, 060.61 the burning on 30 May 1431 and the sentence: the record (Barrett), Lowell ch. 24, Lang ch. 26, the Bourgeois item 572"
+  claims_checked: {beaulieu-and-beaurevoir: 22, sold-to-the-english: 21, the-court: 23, the-questioning: 20, saint-ouen: 22, the-old-market: 21}
+- step: facts
+  task: recheck
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plans/pages060.mjs
+    - content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/markers.yaml
+    - content/joan-of-arc/pages/060-rouen/060-the-old-market/markers.yaml
+    - content/joan-of-arc/.plan/060-rouen/map.yaml
+    - content/joan-of-arc/.plan/faults/060.yaml
+    - content/joan-of-arc/.plan/fixes/060.yaml
+  faults: [060-fact-checker-30, 060-fact-checker-31]
+  unresolved: []
+  stale: []
+  rechecked: "git diff 6c6d72c8 -- pages/060-rouen: 060-fact-checker-9 to 29, 060-section-reviewer-1 to 17 and 060-overseer-1 stand as logged and against their sources (the summons of 14 July, Barrett 485-495; Guesdon, Murray 15091-15115; Champion on Le Maistre, Barrett 9390; the record of 29 May, Barrett 8160; 060.67, 060.68; France on the letter to Saint-Quentin; Lowell and Lang on Noyon)"
+  claims_checked: {beaulieu-and-beaurevoir: 9, sold-to-the-english: 8, the-court: 6, the-questioning: 2, saint-ouen: 7, the-old-market: 6}
+- step: edit
+  task: recheck
+  status: pass
+  changed_files:
+    - content/joan-of-arc/shared/images/burning-at-rouen-miniature-8d31d7/image.yaml
+    - content/joan-of-arc/shared/images/trial-of-condemnation-manuscript-b3fe63/image.yaml
+    - content/joan-of-arc/.plan/faults/060.yaml
+    - content/joan-of-arc/.plan/fixes/060.yaml
+  faults: [060-fact-checker-32, 060-fact-checker-33]
+  unresolved: []
+  stale: []
+  rechecked: "git diff 041baa8b HEAD -- pages/060-rouen .plans/pages060.mjs: 060-map-auditor-4 (9df0afc0) stands, the marker note keeps 'by the record' and the text's note keeps Canon Dunand (060.31); 060-editor-2 to 6 (aa448627) stand, each removed @image line's image shows on its page's marker (beaurevoir-1430, le-crotoy-1430, great-tower-1431, saint-ouen-1431, old-market-1431). The seven captions held against .candidates/rouen/index.yaml: two lost a name the entry and the digest lack"
+  unlogged: "compiegne-summons-1430 lost its rank: 1 in pages060.mjs and 010-beaulieu-and-beaurevoir/markers.yaml in 9df0afc0 with no fault and no fix-log entry; a map display change, the map-auditor's to log"
+  claims_checked: {beaulieu-and-beaurevoir: 2, sold-to-the-english: 2, the-court: 4, the-questioning: 2, saint-ouen: 2, the-old-market: 4}

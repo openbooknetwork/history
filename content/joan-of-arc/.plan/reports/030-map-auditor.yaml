@@ -1,0 +1,18 @@
+- step: maps
+  task: audit
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plans/pages030.mjs
+    - content/joan-of-arc/pages/030-orleans/010-from-blois/page.yaml
+    - content/joan-of-arc/pages/030-orleans/020-the-army-of-blois/markers.yaml
+    - content/joan-of-arc/.plan/030-orleans/map.yaml
+    - content/joan-of-arc/shared/battles/orleans-1429/battle.yaml
+    - content/joan-of-arc/.plan/faults/030.yaml
+    - content/joan-of-arc/.plan/fixes/030.yaml
+    - content/joan-of-arc/.plan/handoff/map-auditor.md
+  faults: [030-map-auditor-1, 030-map-auditor-2, 030-map-auditor-3, 030-map-auditor-4, 030-map-auditor-5, 030-map-auditor-6, 030-map-auditor-7]
+  unresolved:
+    - "english-siege-1428 round Orléans is the map keeper's own line (ground.yaml 43, 44: estimate): the Loire below the city drawn by hand, and the edge west and north of the walls with Saint-Laurent, London, Rouen and Paris inside and Boucher's house outside. No source gives it. 030.1 gives only the open north-east. The Île Charlemagne sits on the edge, 0.1 km on the French side, in its english marker."
+    - "The bridgehead of Jargeau is a 3 km circle round the town (ground.yaml 47). No source gives its bounds."
+    - "Every fort's site is the cartographer's, as the plan says (basis reconstruction). London, Rouen and Paris stand about 430 and 390 m apart. France alone (030.79) gives nine hundred feet, about 275 m. Saint-Privé, Saint-Jean-le-Blanc, the Île Saint-Aignan (030.51, its name disputed), the loading place before Chécy (030.21, disputed) and the line of the medieval bridge are all inferred."
+  stale: []

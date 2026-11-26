@@ -1,0 +1,22 @@
+lnglat: [1.909, 47.902]
+name: "Relief of Orléans"
+date: "29 April – 8 May 1429"
+result: "French victory; the English lose Saint-Loup, Saint-Jean-le-Blanc, the Augustins and the Tourelles, raise the siege on 8 May and march to Meung, Beaugency and Jargeau"
+source: https://en.wikipedia.org/wiki/Siege_of_Orl%C3%A9ans
+default_language: en
+max_zoom: 16
+images: [orleans-relief-miniature-0872de]
+families:
+  france: { color: "#231b7e", color_dark: "#6257db" }
+  english: { color: "#3d7a2a", color_dark: "#7cc160" }
+sides:
+  - name: "French"
+    color: france
+    commanders: ["the Bastard of Orléans", "Joan", "Marshal de Boussac", "Gilles de Rais", "La Hire"]
+    strength: "The army from Blois: about 3,000 (Lowell, and Lang from Windecke and the Chronique de Tournai), 7,000 (Monstrelet), 10,000 or 12,000 (Joan at her trial). Lowell: about 5,000 regular troops in the city after 4 May, besides several thousand armed citizens"
+    casualties: "Monstrelet: no more than 100 killed in the three days of fighting; Charles VII's letter of 10 May: two dead at Saint-Loup; Joan at her trial: a hundred wounded or more"
+  - name: "English"
+    color: english
+    commanders: ["William de la Pole, Earl of Suffolk", "Lord Talbot", "Lord Scales", "William Glasdale"]
+    strength: "The Chronique de la Pucelle: 10,000 under the captains sent after Salisbury's death, who closed the Beauce side in December 1428; Oman: an army of 5,000; Lowell: hardly equal to the French regulars in May"
+    casualties: "Saint-Loup: 114 killed and 40 taken (the Journal of the Siege), 160 killed (the Chronique de la Pucelle). The Tourelles: about 600, all killed or taken (Charles VII's letter), 400 to 500, all killed or drowned but a few taken (the Journal of the Siege), about 200 of 500 taken alive (the Chronique de la Pucelle), 300 taken (Ramsay). Monstrelet: 6,000 to 8,000 killed or taken in the three days. Glasdale drowned"

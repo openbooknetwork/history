@@ -1,0 +1,26 @@
+- task: claims
+  step: research
+  at: '2026-11-26T09:30:52.023Z'
+  before: null
+  inputs:
+    rules.md: 34016c37f051ce5e
+    sources.md: b2af4f6343dcc539
+    010-france-divided/pages.yaml#murder-in-paris: 2013faeaaab361fb
+    010-france-divided/pages.yaml#domremy: 6892537cde4e3220
+    010-france-divided/pages.yaml#harfleur-and-agincourt: a0e2e42cb0a11eb9
+    010-france-divided/pages.yaml#normandy-and-troyes: 540d2d6e0d623ccb
+    010-france-divided/pages.yaml#two-kings: d75196ba8d973bb0
+    010-france-divided/pages.yaml#cravant-and-verneuil: 47d15c4a01a4afe2
+- task: fix
+  step: story
+  at: '2026-11-26T16:51:47.718Z'
+  before: null
+  inputs:
+    rules.md: 476e2c9172c31a6b
+    sources.md: 4098e649215e45e4
+    010-france-divided/pages.yaml#murder-in-paris: cf36158c013c5a04
+    010-france-divided/pages.yaml#domremy: ddcb21a6ba380ecc
+    010-france-divided/pages.yaml#harfleur-and-agincourt: f34401db2ac2e623
+    010-france-divided/pages.yaml#normandy-and-troyes: b443faa43b5b3cd6
+    010-france-divided/pages.yaml#two-kings: 70a99ce48b20fcb2
+    010-france-divided/pages.yaml#cravant-and-verneuil: b67bad203b65c8bc

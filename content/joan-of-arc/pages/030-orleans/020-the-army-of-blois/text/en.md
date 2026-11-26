@@ -1,0 +1,17 @@
+Joan lodges in [Jacques Boucher's house](@boucher-house), the home of the Duke of Orléans's treasurer. The English have ringed the city with separate forts, the bastilles, on both banks of the Loire, but left the north-east open. North of the river stand [the bastille of Saint-Laurent](@bastille-saint-laurent), the largest, where the chief captains lie; [the bastille of London](@bastille-london), [the bastille of Rouen](@bastille-rouen) and [the bastille of Paris](@bastille-paris); and [Saint-Loup](@saint-loup-april-1429) to the east. On the south bank are [Saint-Jean-le-Blanc](@saint-jean-le-blanc-april-1429), [the Augustins](@augustins-april-1429), [Saint-Privé](@saint-prive-april-1429) and [the Tourelles](@tourelles-april-1429), with a fort on [the Île Charlemagne](@ile-charlemagne) between.\* Suffolk commands the English for Bedford, with Lord Talbot and Lord Scales, and William Glasdale holds the Tourelles.\*\*
+
+On Saturday 30 April, by the Journal of the Siege, a chronicle of the city, the captains La Hire and Florent d'Illiers drive the English back from their watch at Saint-Pouair, by the bastille of Paris; Joan takes no part. The English, who have kept the herald who brought her letter, send him back with word that they will burn her, and that she should go back to her cows. That evening, from [the Belle-Croix](@belle-croix), the French earthwork on the broken bridge facing the Tourelles, she calls on Glasdale to yield, promising him and his men their lives. They shout back that she is a cowherd. Lowell follows the Journal; another chronicle, the Chronique de la Pucelle, puts the scene on 5 May, as Ramsay does.
+
+On 1 May the Bastard of Orléans (later Count of Dunois), who commands in the city, rides to Blois to bring the army back, and on 2 May Joan rides out to look at the English forts. The army leaves Blois on 3 May by the north bank, through the Beauce.\*\*\* On the morning of 4 May Joan rides out to meet it with about 500 men, the Journal's figure, and it comes in past the English bastilles, whose garrisons stay inside.\*\*\*\* Lowell counts about 5,000 regular troops in the city now, and several thousand armed townsmen.
+
+The map shows the bastilles and the army's road round the north of the city, both approximate.
+
+### Notes
+
+\* Ramsay counts eleven works, seven north of the river and four south of it, besides the Tourelles and the island fort. The Orléans chronicle of the feast of 8 May gives ten or eleven bastilles, the Chronique thirteen forts and earthworks in December 1428, and Monstrelet, a Burgundian chronicler, not fewer than sixty towers and batteries.
+
+\*\* The Chronique puts the besiegers at 10,000 under the captains Bedford sent after Salisbury's death, who closed the Beauce side in December 1428. Oman writes of an army of 5,000, and Lowell thinks the English in May hardly equal to the French regulars.
+
+\*\*\* The Chronique has the garrisons of Montargis, Gien and Château-Renard come into the city on 3 May. Ramsay has the men of Gien and Montargis join the army from Blois on the road.
+
+\*\*\*\* The chronicle of the feast and Lang name the bastille of Paris as the one the army passed closest to. The Journal and the Chronique name none.

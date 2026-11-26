@@ -1,0 +1,18 @@
+- step: map-design
+  task: design
+  status: pass
+  changed_files:
+    - content/joan-of-arc/story.yaml
+    - content/joan-of-arc/.plan/brief.md
+    - content/joan-of-arc/.plan/070-after-her/pages.yaml
+    - content/joan-of-arc/.plan/faults/070.yaml
+    - content/joan-of-arc/.plan/fixes/070.yaml
+  faults: [070-map-architect-1]
+  unresolved:
+    - "Domrémy's overlord is disputed (010.14 against 020.9). Proposed: france-1407 and bar-1412 meet at the Three Fountains brook through the village, with Vaucouleurs, Greux and the northern part of Domrémy French, and the text gives Lowell's Bar and the French account each with its author."
+    - "Champagne of 1420-1429 is drawn english (Lowell 010.57, Vergy governor for the English 020.10) though Lang calls it Anglo-Burgundian (020.8). Proposed: keep it english, and the text says Anglo-Burgundian."
+    - "Maine stays english from 1428 to 1449 (010.57, with Fresnay English in 070.16), and Le Crotoy is left out after 1435 since no source names it. Both are reconstructions."
+  stale: []
+  families: [english, burgundy, brittany, lorraine, bar, france, scots, joan]
+  shared_zones: []
+  reconstruction: [france-1407, english-1407, english-1420, english-1428, english-siege-1428, english-1429, english-reims-1429, english-aug-1429, english-sep-1429, english-1436, english-1449, english-1450, english-1451, english-1452, burgundy-1407, burgundy-1420, brittany-1407, lorraine-1412, bar-1412]

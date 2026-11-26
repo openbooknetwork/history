@@ -1,0 +1,67 @@
+- id: burgundy-changes-sides
+  title: "Burgundy Changes Sides"
+  date: "December 1431 – October 1435"
+  when: "1431-12"
+  tells: >-
+    Henry VI is crowned King of France in Notre-Dame de Paris in December 1431, in a city that still holds for him.
+    At the Congress of Arras in 1435 Philip the Good of Burgundy makes his peace with Charles VII and leaves the
+    English alliance, and the English are left alone in the north.
+  rests_on: ["070.1", "070.2", "070.3", "070.4", "070.5", "070.6"]
+  markers: [notre-dame-1431, arras-1435, saint-denis-1435, rouen-1435]
+  battles: []
+- id: paris-opens
+  title: "Paris Opens Its Gates"
+  date: "April 1436"
+  when: "1436-04"
+  tells: >-
+    With Saint-Denis taken and the city cut off, the citizens let Richemont's men in by the Porte Saint-Jacques on
+    13 April 1436; the English shut themselves in the Bastille Saint-Antoine and are let go to Rouen. Round the city
+    they keep Meaux, Creil, Montereau and Mantes, with Beaumont-sur-Oise and Crépy, which Talbot won back in 1434,
+    while Chartres was lost to them in 1432 and the bridge of Meulan in 1435.
+  rests_on: ["070.7", "070.8", "070.9", "070.10", "070.11", "070.59", "070.60", "070.61", "070.63", "070.64", "070.65", "070.66"]
+  markers: [paris-1436, porte-saint-jacques-1436, bastille-1436, saint-denis-1436, pontoise-1436, dieppe-1435]
+  battles: []
+- id: normandy-won-back
+  title: "Normandy Won Back"
+  date: "1449 – 1450"
+  when: "1449"
+  tells: >-
+    The truce of 1444 breaks, and Charles VII's armies overrun Normandy: Rouen surrenders in the autumn of 1449, the
+    English relief army is beaten at Formigny on 15 April 1450, and Caen and Cherbourg fall that summer.
+  rests_on: ["070.12", "070.14", "070.15", "070.16", "070.17", "070.18", "070.19", "070.20", "070.21", "070.22", "070.23", "070.24"]
+  markers: [fougeres-1449, rouen-1449, caen-1450, cherbourg-1450]
+  battles:
+    - { id: formigny-1450, phases: false }
+- id: castillon
+  title: "Castillon"
+  date: "1451 – October 1453"
+  when: "1451"
+  tells: >-
+    The French take Gascony in 1451; Bordeaux calls the English back and Talbot retakes it in 1452; at Castillon on
+    17 July 1453 Talbot attacks the French guns and is killed, and Bordeaux surrenders in October. English Gascony
+    is gone, and with it the war: of all the lands the English held in France, Calais is left.
+  rests_on: ["070.25", "070.26", "070.27", "070.28", "070.29", "070.30", "070.31", "070.32", "070.33", "070.34", "070.35"]
+  markers: [bayonne-1451, bordeaux-1453]
+  battles:
+    - { id: castillon-1453, phases: false }
+- id: the-retrial
+  title: "The Sentence Annulled"
+  date: "November 1455 – 7 July 1456"
+  when: "1455-11"
+  tells: >-
+    After the enquiries of 1450 and 1452 at Rouen, her mother's petition opens the retrial at Notre-Dame de Paris
+    under the papal rescript of 1455; witnesses are heard at Domrémy, Orléans, Paris and Rouen, and on 7 July 1456
+    the judges at Rouen declare the sentence of 1431 null.
+  rests_on: ["070.36", "070.37", "070.38", "070.39", "070.40", "070.41", "070.42", "070.43", "070.44"]
+  markers: [notre-dame-1455, domremy-1456, orleans-1456, rouen-1456, lyon-1456]
+  battles: []
+- id: afterwards
+  title: "Afterwards"
+  date: "1456 – 1920"
+  when: "1456-08"
+  tells: >-
+    What is recorded of how she was remembered: the procession at Orléans each 8 May, her name in France in the
+    centuries after, the cause opened in 1869, her beatification in 1909 and her canonisation at Rome in 1920.
+  rests_on: ["070.45", "070.46", "070.47", "070.48", "070.49", "070.51", "070.52", "070.53", "070.54"]
+  markers: [orleans-8-may]
+  battles: []

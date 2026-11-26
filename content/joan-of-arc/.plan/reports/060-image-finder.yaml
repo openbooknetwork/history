@@ -1,0 +1,19 @@
+- step: images
+  task: find
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/images/060.yaml
+    - content/joan-of-arc/shared/images/beaurevoir-tower-cc03c4/image.yaml
+    - content/joan-of-arc/shared/images/le-crotoy-bay-7e7c58/image.yaml
+    - content/joan-of-arc/shared/images/trial-of-condemnation-manuscript-b3fe63/image.yaml
+    - content/joan-of-arc/shared/images/rouen-castle-keep-370a86/image.yaml
+    - content/joan-of-arc/shared/images/saint-ouen-abbey-church-6d9f2b/image.yaml
+    - content/joan-of-arc/shared/images/vieux-marche-pyre-97466c/image.yaml
+    - content/joan-of-arc/shared/images/burning-at-rouen-miniature-8d31d7/image.yaml
+  faults: []
+  unresolved: []
+  stale: []
+  added: 7
+  none: []
+  captions_unconfirmed:
+    - "beaurevoir-tower-cc03c4: the Commons page of Beaurevoir 42.jpg calls it only the watchtower (tour de guet); that it is what remains of John of Luxembourg's castle stands on another Commons file's title (APMH00027468, 'Tour de guet dite Tour Jeanne d'Arc - Château (ancien)'), so the caption says only 'the watchtower on its mound at Beaurevoir'."

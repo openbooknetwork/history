@@ -1,0 +1,26 @@
+- step: texts
+  task: write
+  status: pass
+  changed_files:
+    - content/joan-of-arc/pages/040-the-loire-and-reims/010-jargeau/text/en.md
+    - content/joan-of-arc/pages/040-the-loire-and-reims/020-meung-and-beaugency/text/en.md
+    - content/joan-of-arc/pages/040-the-loire-and-reims/030-patay/text/en.md
+    - content/joan-of-arc/pages/040-the-loire-and-reims/040-auxerre-and-troyes/text/en.md
+    - content/joan-of-arc/pages/040-the-loire-and-reims/050-reims/text/en.md
+    - content/joan-of-arc/pages/040-the-loire-and-reims/060-the-towns-come-over/text/en.md
+  faults: []
+  unresolved: []
+  stale: []
+  notes: >-
+    Six texts written. harita check, --places, rules-lint and close-wording pass (one close sentence on Jargeau,
+    after Ramsay, rewritten). names-check leaves four "First named in" mismatches in names.md (Arthur de Richemont,
+    Georges de La Trémoille, Wavrin, William de la Pole, Earl of Suffolk), whose rows give 010 or 020 but which 040's
+    texts name first, owner names. It also flags "Garter", "Franciscan" and "King's Evil" as having no row, and
+    "Marshal" in "the Marshal de Boussac" (Patay note), the form names.md gives; the check misreads these.
+    Bodies run 315-339 words, over the soft 300 limit: each page has 15 to 23 claims, many of which must name their author.
+    The disputes the plan puts in the body (040.3, 040.6, 040.17, 040.39) went into notes, as text.md asks. Left out
+    for length: Boussac at Selles, the boats to Orléans, Richemont sent home, the words between Alençon and Talbot, the
+    Troyes prisoners' ransom, the escort's names and the lay peers, Joan's father and Laxart at Reims, the Château-Thierry
+    garrison going to Paris, and Senlis, Lagny, Creil and Beauvais in Bedford's list. The plan's files lacked no fact.
+    The Journal has Joan struck in the ditch; Alençon has her on a ladder. The text follows Alençon, as the plan does.
+    The Journal gives the quarrel over the prisoners as one among the French over shares, and the text says "among the French".

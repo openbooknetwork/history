@@ -1,0 +1,47 @@
+- step: pre-plans
+  task: pre-plan
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+  faults: []
+  unresolved:
+    - "The Herrings card stands on salisbury-on-the-loire, the page of its campaign (the siege of Orléans), and not with Vaucouleurs as the brief's line has it. Proposed: keep it there. The story that Joan told Baudricourt of the defeat on the day it happened is told on vaucouleurs-again as what later sources say, with their names."
+    - "The two dates of the ride: she left on 12 or 13 February and reached Chinon on 23 February (Lowell, 2171-2245 and 2857-2897), or left on 23 February and arrived on 6 March (the anonymous chronicler Lowell cites). Proposed: tell both, each with its author. eleven-days is dated 'February or March 1429', with when 1429-02."
+  stale: []
+  pages: 5
+  brief_pages: 5
+  phases: []
+- step: plans
+  task: plan
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+    - content/joan-of-arc/.plan/020-the-road-to-chinon/map.yaml
+    - content/joan-of-arc/.plan/020-the-road-to-chinon/text.yaml
+    - content/joan-of-arc/.plan/020-the-road-to-chinon/battles.yaml
+    - content/joan-of-arc/shared/battles/herrings-1429/battle.yaml
+    - content/joan-of-arc/.plan/faults/020.yaml
+    - content/joan-of-arc/.plan/fixes/020.yaml
+  faults: [020-section-coordinator-1, 020-section-coordinator-2, 020-section-coordinator-3, 020-section-coordinator-4]
+  unresolved:
+    - "The Herrings card has two sides, English and French and Scots (family france), since every strength and loss the sources give counts the French and Scots together; the scots family stays unused in 020. Proposed: keep two sides."
+    - "The days she left Vaucouleurs and reached Chinon are told with every author (Lowell 12 February and 23 February; Jean de Metz 13 February; the Continuator of Nangis 6 March, with Quicherat, Lang, Thurston; Beaucourt 8 March); no day is told as fact."
+  stale: []
+  pages: 5
+  brief_pages: 5
+- step: facts
+  task: fix
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+    - content/joan-of-arc/.plan/020-the-road-to-chinon/map.yaml
+    - content/joan-of-arc/.plans/pages020.mjs
+    - content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/page.yaml
+    - content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/markers.yaml
+    - content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/text/en.md
+    - content/joan-of-arc/.plan/faults/020.yaml
+    - content/joan-of-arc/.plan/fixes/020.yaml
+  faults: []
+  unresolved: []
+  stale:
+    - "the map auditor's capture of chinon-and-poitiers (maps-020-map-auditor/pack/shots/chinon-and-poitiers.png): the page now has a fifth marker, blois-gathering"

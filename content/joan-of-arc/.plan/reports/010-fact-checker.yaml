@@ -1,0 +1,124 @@
+- step: plan-check
+  task: plan-check
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/010-france-divided/map.yaml
+    - content/joan-of-arc/.plan/010-france-divided/pages.yaml
+    - content/joan-of-arc/.plan/010-france-divided/battles.yaml
+    - content/joan-of-arc/.plan/010-france-divided/text.yaml
+    - content/joan-of-arc/.plan/names.md
+    - content/joan-of-arc/.plan/faults/010.yaml
+    - content/joan-of-arc/.plan/fixes/010.yaml
+  faults: [010-fact-checker-1, 010-fact-checker-2, 010-fact-checker-3, 010-fact-checker-4, 010-fact-checker-5, 010-fact-checker-6, 010-fact-checker-7, 010-fact-checker-8, 010-fact-checker-9, 010-fact-checker-10, 010-fact-checker-11, 010-fact-checker-12, 010-fact-checker-13, 010-fact-checker-14, 010-fact-checker-15, 010-fact-checker-16, 010-fact-checker-17]
+  unresolved: []
+  stale: []
+  checked:
+    routes: 7 (henry-v-1415-calais, henry-v-1417-caen, dauphin-1421-bauge, clarence-1421-bauge, salisbury-1423-cravant, bedford-1424-verneuil, france-1424-verneuil), each station read in its passage
+    borders: 10 zones, each in the brief's Map part; english-1420 and bar-1412 read in Ramsay l. 18426, Oman l. 19324 and Lowell l. 900-915
+    cards: 3 (agincourt-1415, bauge-1421, verneuil-1424), every figure read in its file with its author
+    dates: 6 pages
+  notes:
+    - "Ramsay's page 208, the march between Blanche-Taque and Béthencourt, is missing from the OCR (a second copy of page 206 stands in its place); the route's reconstruction there rests on Oman l. 18922."
+    - "The Baugé routes stay sourced: their stations are named and each stretch is under 20 km on a frame five degrees wide."
+- step: facts
+  task: check
+  status: pass
+  changed_files:
+    - content/joan-of-arc/pages/010-france-divided/010-murder-in-paris/text/en.md
+    - content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md
+    - content/joan-of-arc/pages/010-france-divided/030-harfleur-and-agincourt/text/en.md
+    - content/joan-of-arc/pages/010-france-divided/040-normandy-and-troyes/text/en.md
+    - content/joan-of-arc/pages/010-france-divided/050-two-kings/text/en.md
+    - content/joan-of-arc/pages/010-france-divided/060-cravant-and-verneuil/text/en.md
+    - content/joan-of-arc/shared/markers.yaml
+    - content/joan-of-arc/.plans/pages010.cjs
+    - content/joan-of-arc/.plan/010-france-divided/map.yaml
+    - content/joan-of-arc/.plan/010-france-divided/text.yaml
+    - content/joan-of-arc/.plan/010-france-divided/pages.yaml
+    - content/joan-of-arc/.plan/research.md
+    - content/joan-of-arc/.plan/research/010.md
+    - content/joan-of-arc/.plan/faults/010.yaml
+    - content/joan-of-arc/.plan/fixes/010.yaml
+  faults: [010-fact-checker-18, 010-fact-checker-19, 010-fact-checker-20, 010-fact-checker-21, 010-fact-checker-22, 010-fact-checker-23, 010-fact-checker-24, 010-fact-checker-25, 010-fact-checker-26, 010-fact-checker-27, 010-fact-checker-28, 010-fact-checker-29, 010-fact-checker-30, 010-fact-checker-31, 010-fact-checker-32, 010-fact-checker-33, 010-fact-checker-34, 010-fact-checker-35]
+  unresolved:
+    - "010.9 open (the exact year): domremy gives about 1412, her own answer of nineteen, and Lowell and Lang that the exact year cannot be known."
+    - "010.13 disputed: domremy note gives Joan's account of 1431, Jean Morel's of 1455 and Thurston's judgement, each named."
+    - "010.14 disputed: domremy says who was its lord is disputed; the note gives Lowell (Bar) and Lang (the Lorraine march); Thurston's Burgundian confines not told."
+    - "010.23 disputed day: harfleur gives 8 or 9 October, as Ramsay dates it."
+    - "010.25 and 010.26 disputed: harfleur note gives the Gesta, Oman, Monstrelet, the Bourgeois and Ramsay, each named; the modern counts are Thin and not told."
+    - "010.30 disputed distance: harfleur gives no distance for Henry's advance."
+    - "010.31 disputed: harfleur note gives Monstrelet, Oman and Ramsay, each named."
+    - "010.40 disputed day: normandy-and-troyes gives 10 September 1419 (Ramsay, Wylie and Waugh, Beaucourt); Oman's 9th not told, the page not turning on the day."
+    - "010.41 disputed: normandy-and-troyes says it is disputed; the note gives the Burgundian account (Ramsay after Monstrelet), the Armagnac one (Wylie and Waugh) and Lang's doubt."
+    - "010.48 disputed day: two-kings gives Holy Saturday, 22 March 1421, with most of the sources; Oman's 21st and the Chronique de la Pucelle's Palm Saturday not told."
+    - "010.49 disputed: two-kings note gives Wylie and Waugh's 1,500, Jean Juvénal's 5,000 to 6,000 and Oman's two to one, each named."
+    - "010.50 disputed day: two-kings gives October 1421."
+    - "010.53 disputed: two-kings gives 21 October (the Bourgeois, Ramsay); Lang's 22nd not told."
+    - "010.60 disputed day: cravant-and-verneuil gives Saturday 31 July (Monstrelet, Beaucourt, Ramsay, Tuetey); Lang's 30 July and the Chronique's 31 August not told."
+    - "010.61 disputed losses: cravant-and-verneuil note gives Monstrelet's and the Chronique de la Pucelle's, each named; the strengths are Thin and not told."
+    - "010.62 disputed: cravant-and-verneuil note gives the ruse (the Bourgeois, Beaucourt) and the townsmen (Cagny)."
+    - "010.65 and 010.66 disputed: cravant-and-verneuil note gives the range from Ramsay to the Bourgeois, Bedford's letter (in Ramsay), the Bourgeois and Oman's judgement; the card gives each author's figure."
+  stale: []
+  turns_on:
+    - "010.4 and 010.6, the murder of 1407 owned by John the Fearless and turned into civil war: Monstrelet, Beaucourt 1 ch. 5, Lang ch. 1, Lowell ch. 1"
+    - "010.27 and 010.32, the English victory at Agincourt and the princes lost: the Gesta, Wylie 2, Ramsay 1 ch. 15, Oman book 14 ch. 1, the Bourgeois §130"
+    - "010.31, the French dead at Agincourt: Monstrelet, Oman, Ramsay, each named"
+    - "010.40 to 010.42, Montereau and Burgundy's going over to Henry V: Ramsay 1 ch. 19, Wylie and Waugh 3 ch. 62, Beaucourt 1 ch. 5, Oman, Lowell, Lang"
+    - "010.43 and 010.44, the terms of the Treaty of Troyes: Wylie and Waugh 3 ch. 63, Ramsay 1 ch. 19, Beaucourt 1 ch. 2, Lowell, Lang"
+    - "010.47, the French and Scots' victory at Baugé: Wylie and Waugh 3 ch. 69, Ramsay 1 ch. 20, Oman, the Chronique de la Pucelle ch. 182, Cagny"
+    - "010.55, the Dauphin's taking of the title of King: Beaucourt 2 book 2 ch. 2 (Ramsay takes it from Beaucourt), told with Beaucourt's name"
+    - "010.59, the English victory at Cravant: Ramsay 1 ch. 22, Oman book 14 ch. 2, Beaucourt 2 book 2 ch. 1, Monstrelet book 2"
+    - "010.63 and 010.66, the English victory at Verneuil and its dead: Cagny, the Bourgeois §405, Ramsay 1 ch. 23 (Bedford's letter), Oman book 14 ch. 2, the Chronique de la Pucelle; 'another Agincourt' Lang ch. 1"
+    - "010.68, Charles VII on the defensive after Verneuil: Beaucourt 2 book 2 ch. 1, Oman book 14 ch. 2"
+  checked:
+    murder-in-paris: 18
+    domremy: 24
+    harfleur-and-agincourt: 34
+    normandy-and-troyes: 24
+    two-kings: 23
+    cravant-and-verneuil: 33
+    cards: "agincourt-1415 12, bauge-1421 8, verneuil-1424 13, every figure found with its author"
+- step: facts
+  task: recheck
+  status: pass
+  changed_files: []
+  faults: []
+  unresolved: []
+  stale: []
+  rechecked:
+    against: "git diff 2354922f -- content/joan-of-arc/pages/010-france-divided/, the commit each fix log entry names; every diff hunk matches its entry's old and new, and no other line of the six texts changed"
+    passed:
+      - "010-section-reviewer-1: Lowell ch. 1 (l. 351 passage): in 1410 Charles of Orléans married Bonne, daughter of Bernard, count of Armagnac, \"and thereafter the count led the opposition\"; the fault's ground that no line dates the marriage is wrong, as Lowell dates it 1410, but the new sentence is true to him and to Lang l. 1314"
+      - "010-section-reviewer-2: Lowell ch. 2 l. 1291-1297, Domrémy's boys as Armagnacs, Maxey's as Burgundians; the clause names the villages in the same order as the sides"
+      - "010-section-reviewer-3: 010.24, single (Oman), l. 18922"
+      - "010-section-reviewer-4: 010.34, Ramsay l. 15369; Harfleur in English hands: Ramsay 1 ch. 17 l. 15947-15960, the English garrison of Harfleur under Dorset in 1416"
+      - "010-section-reviewer-5: 010.5"
+      - "010-section-reviewer-6: 010.43; names.md, the Treaty of Troyes"
+      - "010-section-reviewer-7: Lowell ch. 2 l. 1086-1089, \"the treaty of Troyes, made in 1420, opened eastern France to the ravages of war\", before the Burgundians invade Bar (l. 1110) and Charles of Lorraine swears to Henry V (l. 1122); 010.17"
+      - "010-section-reviewer-8: 010.57, Lowell l. 690"
+      - "010-section-reviewer-9: 010.52, Ramsay l. 19625, Lang l. 1420"
+      - "010-section-reviewer-10: names.md rows the Earl of Buchan and the Earl of Douglas; 010.67, Ramsay l. 22413"
+      - "010-section-reviewer-11: 010.67, the Chronique de la Pucelle l. 9416; 010.40"
+      - "010-section-reviewer-12: 010.68, Oman l. 19386; the road of Salisbury is still called approximate on the page, which keeps the clause of agents/evidence.md for the chapter"
+  checked:
+    fixes: 12
+- step: edit
+  task: recheck
+  status: pass
+  changed_files:
+    - content/joan-of-arc/shared/images/verneuil-vigiles-miniature-a8aaed/image.yaml
+    - content/joan-of-arc/.plan/faults/010.yaml
+    - content/joan-of-arc/.plan/fixes/010.yaml
+  faults: [010-fact-checker-36]
+  unresolved: []
+  stale: []
+  rechecked:
+    against: "git diff aa448627 -- content/joan-of-arc/pages/010-france-divided/ and git diff 2354922f -- content/joan-of-arc/.plan/010-france-divided/text.yaml, the commits the fix log entries name; every hunk matches its entry's old and new, and the only other lines changed are the six @image placeholders resolved to the image ids of images/010.yaml"
+    passed:
+      - "010-editor-1: Murray, DEPOSITIONS AT DOMREMY: 1455 (l. 11142), JEAN MOREL, of Greux (l. 11150): questioned in the village for the retrial, no year given, as rules.md asks"
+      - "010-editor-2: Murray l. 11239, BEATRIX, widow of Estellin, of Domremy, in the same Domrémy depositions as Jean Morel: 'the same inquiry' holds"
+      - "010-editor-3: Murray, Jean Morel's deposition at Domrémy; 'the retrial' with no year"
+      - "010-overseer-1: page harfleur-and-agincourt lists zones france-1412, english-1407, burgundy-1407, brittany-1407 and the marker harfleur-1415 alone at Harfleur"
+  checked:
+    fixes: 4
+    captions: "14 image.yaml captions of images/010.yaml against .candidates/france-divided/index.yaml; one name in neither the entry nor the digest, taken out (010-fact-checker-36)"

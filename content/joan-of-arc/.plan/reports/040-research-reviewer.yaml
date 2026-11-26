@@ -1,0 +1,15 @@
+- step: research
+  task: review
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/research/040.md
+    - content/joan-of-arc/.plan/040-the-loire-and-reims/pages.yaml
+    - content/joan-of-arc/.plan/faults/040.yaml
+    - content/joan-of-arc/.plan/fixes/040.yaml
+  faults: [040-research-reviewer-1, 040-research-reviewer-2, 040-research-reviewer-3, 040-research-reviewer-4, 040-research-reviewer-5, 040-research-reviewer-6, 040-research-reviewer-7, 040-research-reviewer-8, 040-research-reviewer-9, 040-research-reviewer-10, 040-research-reviewer-11, 040-research-reviewer-12, 040-research-reviewer-13, 040-research-reviewer-14]
+  unresolved:
+    - "Page patay tells the archers were ridden down 'before they are set behind their stakes' (the researcher's second point). The stakes are Monstrelet's alone (040.30, single; Wavrin's matching passage lacks them, Oman follows Monstrelet). Proposed: keep the tells, and the text names Monstrelet for the stakes; the agreed claim is that the English were caught before they had formed (040.29)."
+  stale:
+    - content/joan-of-arc/.plan/passages-040-part.md
+  checked_in_full: 87
+  sampled: 0

@@ -1,0 +1,20 @@
+- step: research
+  task: review
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/research/050.md
+    - content/joan-of-arc/.plan/faults/050.yaml
+    - content/joan-of-arc/.plan/fixes/050.yaml
+  faults: [050-research-reviewer-1, 050-research-reviewer-2, 050-research-reviewer-3, 050-research-reviewer-4, 050-research-reviewer-5, 050-research-reviewer-6, 050-research-reviewer-7, 050-research-reviewer-8]
+  unresolved: []
+  stale: []
+  checked_in_full: 69
+  sampled: 0
+  notes:
+    - "All 69 lines checked in full against their passages: each carries a date, a place, a figure or an agreed standing. After the fixes, 270 quotes stand (quotes-check --digest)."
+    - "Scholarly works: 6 with Thurston added (040 and 060 have 6). Primary works: 7, now with the Berry herald and the Bourges levy of Quicherat 5."
+    - "Coverage negatives grepped in the files the section read: no plan of the Paris walls, no defenders' posts, no garrison figure for La Charité, no losses at Saint-Pierre, no day the La Charité siege was raised. These hold. 'No source gives its course' (La Charité) did not hold and was fixed (fault 1)."
+    - "Later works: no author has two works in this section that could disagree (Ramsay vol. 1, Beaucourt vol. 2 and Monstrelet A only; Quicherat 4 and 5 are editions)."
+    - "Pages: each tells of pages.yaml and the two cards (050.26, 050.69) has its lines. Compiègne's when 1430-05-14 rests on Lowell ch. 16 n. ('She was at Compiegne from May 14 ... to May 18'), which is not a line yet."
+    - "For 050.58, not changed: Thurston gives 24 May at sunrise; Ramsay reads Cagny as 24 May, but Moranvillé's text gives xxiij, and his note 1 on p. 174 puts the entry and the capture on 23 May."
+    - "research-gates.mjs reads only research.md, so it cannot count a part file before the merge. Its card does not say this. The counts were made by hand from the part files."

@@ -1,0 +1,22 @@
+- step: survey
+  task: survey
+  status: pass
+  changed_files:
+    - content/joan-of-arc/wikipedia.urls
+    - content/joan-of-arc/references.urls
+    - content/joan-of-arc/.plan/sources.md
+  faults: []
+  unresolved:
+    - "Seven open-access modern studies (Caen and Rennes university presses on the trials, Müller in Francia on the retrial, two Michaud-Fréjaville papers, the Orléans feasts in Histoire politique) sit behind a bot wall. No section rests on them alone. Proposed: the user saves them under the names in the Unread part of sources.md, or the story goes on without them."
+    - "None of the scholars the brief names (Pernoud, DeVries, Barker, Castor) could be read: their books are lending-only on archive.org or in copyright. Every scholarly work read is from 1881-1929, except Renoux (2022) on the canonisation. Proposed: accept this for the survey and add any of these books the user can supply."
+    - "Points where the sources differ from the brief, for final-brief: Baugé 1421 (and Cravant 1423) are missing from 010; the dates of Vaucouleurs and Chinon in 020 differ between authors; the retrial in 070 starts with the enquiries of 1450 and 1452, before her mother's petition; four of 060's six pages are in Rouen. The detail is under Against the brief in sources.md."
+  stale: []
+- step: research
+  task: claims
+  status: blocked
+  changed_files: []
+  faults: []
+  unresolved:
+    - "This run of the research-coordinator was started without the Agent tool (its tool list holds Read, Write, Edit, Glob, Grep, Bash, WebSearch and SubagentHandback only), though .claude/agents/research-coordinator.md names Agent. A manager that cannot dispatch cannot hand out the claims, and the definition forbids it to write or review claims itself. Proposed: start the coordinator again with the Agent tool, or have the overseer dispatch the seven researchers and their reviewers in its place."
+  stale: []
+  plan: "Seven researchers with the task claims, one per section 010-070, and no battle researcher: rules.md gives no battle phase pages, every battle in the pre-plans is phases false, and no pre-plan marks a page heavy. Then one research-reviewer per section, then the merge into research.md and research-pack.mjs per section."

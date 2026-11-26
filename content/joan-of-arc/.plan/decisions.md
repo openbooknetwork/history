@@ -385,3 +385,4 @@
   seven bot-walled studies and the four scholars the brief named were never read; `name-forms` and `translation`
   were not run.
 - ledger after `story`: | **total** | 134 | 3,732 | 635,029 | 7,598 | 25,739,975 | 640,779,164 | 4,696,521 | 119,743,088 |
+- the pull request: https://github.com/openbooknetwork/history/pull/3, opened as a draft into `main`, 26 Nov 2026, with every cloud ruling, what was left out and the two faults of the audit's recheck.

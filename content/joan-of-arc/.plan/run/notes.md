@@ -3,3 +3,4 @@
 - 26 Nov 2026, survey: `harita sources` took an Anubis bot-wall page for the article at seven addresses and wrote some 550 characters of the wall as the text without printing FAILED; the coordinator commented those lines out of `references.urls` by hand.
 - 26 Nov 2026, survey: two Project Gutenberg addresses answered 503 and were replaced by archive.org's copies; eight Wikipedia titles the coordinator guessed do not exist.
 - 26 Nov 2026, survey: a Stop hook asked for a commit of untracked files while the coordinator still ran, so the branch has one commit "survey, in progress" before the step's own.
+- 26 Nov 2026, research: the research-coordinator was started without the Agent tool (a subagent of this cloud session cannot start agents), so it reported `blocked`; the overseer dispatches the researchers and research reviewers itself and makes the coordinator's merge. The same will hold for every section-lead.

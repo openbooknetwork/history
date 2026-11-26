@@ -53,3 +53,7 @@
   `020`, `030`, `050`, `060`, each with its fix): three marker ids shared, two tells that took a side, two dates, the
   year of the Domrémy witnesses, and two joins between sections. None is open.
 - ledger after `pre-plan-check`: | **total** | 10 | 182 | 225,725 | 369 | 925,367 | 15,755,447 | 200,750 | 3,736,372 |
+- cloud ruling: the overseer dispatches each manager's team itself, the researchers and research reviewers now and
+  each section's agents from `plans` on, and makes the manager's merges and rulings — a subagent of this cloud
+  session has no Agent tool, so the research-coordinator reported `blocked` and a section-lead would too. The
+  checkers still check: the overseer reviews no claim and audits no page in a checker's place.

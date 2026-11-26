@@ -1,0 +1,13 @@
+- step: pre-plans
+  task: pre-plan
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/010-france-divided/pages.yaml
+  faults: []
+  unresolved:
+    - "The brief has seven Tells lines for six pages. The plan joins the conquest of Normandy (1417-1419) with Montereau and Troyes (1419-1420) on one page, normandy-and-troyes, as one change of the map: the English and Burgundian north. Proposed answer: keep it, since the brief's count is fixed."
+    - "Baugé (1421) comes before the two kings (1422) and Cravant and Verneuil after, so Baugé shares the page two-kings with Henry V's death and the two proclamations, and Cravant shares the page of Verneuil. This rests on the order rule, not on a source."
+  stale: []
+  pages: 6
+  pages_expected: 6
+  phase_battles: []

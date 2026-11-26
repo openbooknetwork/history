@@ -1,0 +1,9 @@
+- step: pre-plans
+  task: pre-plan
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/040-the-loire-and-reims/pages.yaml
+  faults: []
+  unresolved:
+    - "Where 040 ends and 050 begins: the last page stops at Provins, 2 August 1429 (Lowell ch. 12). The turn back from Bray and the march on Paris, from about 5 August, are left to 050's Montépilloy page. The 050 coordinator should start no earlier than 2 August."
+  stale: []

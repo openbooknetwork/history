@@ -1,0 +1,11 @@
+- task: pre-plan
+  step: pre-plans
+  at: '2026-11-26T09:22:55.221Z'
+  before: null
+  inputs:
+    rules.md: 34016c37f051ce5e
+    brief.md#040: a480d4e2429440bc
+  ended: '2026-11-26T09:24:23.868Z'
+  status: pass
+  outputs:
+    - content/joan-of-arc/.plan/040-the-loire-and-reims/pages.yaml

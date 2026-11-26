@@ -1,0 +1,44 @@
+- id: jargeau
+  title: "Jargeau"
+  date: "11 to 12 June 1429"
+  when: 1429-06-11
+  tells: The army gathered at Selles under the Duke of Alençon marches up the Loire and storms Jargeau, and Suffolk is taken.
+  markers: [selles-rendezvous, orleans-june-1429, jargeau]
+  battles:
+    - { id: jargeau-1429, phases: false }
+- id: meung-and-beaugency
+  title: "The bridge at Meung and Beaugency"
+  date: "15 to 17 June 1429"
+  when: 1429-06-15
+  tells: The French take the bridge at Meung and lay siege to Beaugency, Richemont joins them unbidden, and Beaugency surrenders as Fastolf and Talbot come up from Janville.
+  markers: [meung-bridge, beaugency, janville]
+  battles: []
+- id: patay
+  title: "Patay"
+  date: "18 June 1429"
+  when: 1429-06-18
+  tells: The French vanguard rides down the English archers near Patay before they are set behind their stakes, Talbot is taken and Fastolf flees, and the English hold on the middle Loire is gone.
+  markers: [patay, janville-shut]
+  battles:
+    - { id: patay-1429, phases: false }
+- id: auxerre-and-troyes
+  title: "Auxerre and Troyes"
+  date: "29 June to 10 July 1429"
+  when: 1429-06-29
+  tells: The king leaves Gien for Reims with no siege train, through Burgundian country. Auxerre gives provisions under a truce and the army passes by, and Troyes yields as the assault is readied.
+  markers: [gien-rendezvous, auxerre, saint-florentin, troyes]
+  battles: []
+- id: reims
+  title: "The coronation at Reims"
+  date: "14 to 17 July 1429"
+  when: 1429-07-14
+  tells: Châlons opens its gates, Reims sends its keys, and on 17 July Charles VII is anointed in the cathedral with Joan and her standard beside him.
+  markers: [chalons, reims-cathedral]
+  battles: []
+- id: the-towns-come-over
+  title: "The towns come over"
+  date: "18 July to 2 August 1429"
+  when: 1429-07-18
+  tells: After the coronation Laon, Soissons, Château-Thierry and Provins open to the king as he touches for the King's Evil at Corbeny and leads the army south of Paris, not at it.
+  markers: [corbeny, laon, soissons, chateau-thierry, provins]
+  battles: []

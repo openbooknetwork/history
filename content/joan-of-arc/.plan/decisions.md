@@ -29,3 +29,20 @@
 - step final-brief: done, 26 Nov 2026. `brief.md` settled, with its part "Settled at final-brief", and `rules.md`
   written.
 - ledger after `final-brief`: | **total** | 2 | 92 | 225,725 | 186 | 302,938 | 10,815,005 | 103,077 | 1,975,744 |
+- unresolved, pre-plans (the section coordinators), each with its proposal, and each proposal taken:
+  - 010: Normandy shares a page with Montereau and Troyes; Baugé stands on `two-kings` and Cravant on the Verneuil page.
+  - 020: the Herrings card stands on `salisbury-on-the-loire`; the visit of May 1428 is told on `the-voices`; the two
+    datings of the ride are both told, each with its author.
+  - 030: the convoy left Blois on 27 or 28 April; `from-blois` takes 27 April until the research fixes it.
+  - 040: the section ends at Provins, 2 August 1429, and 050 starts no earlier.
+  - 050: Montépilloy on 14 August (Lowell) against the article's 26 August; Saint-Pierre and La Charité by month, each
+    author's date in the text.
+  - 060: the sale is told with both authors; the road from Le Crotoy shows only stops a primary or scholarly source names.
+  - 070: the retrial page starts in November 1455 and tells the enquiries of 1450 and 1452 inside it; Rome is marked
+    only if the map's extent holds it.
+- cloud ruling: each proposal above is taken as its coordinator made it — each keeps the order rule and the agreed
+  count, and where two authors differ both are told, which is the careful side.
+- cloud ruling: the canonisation is told in the text alone, with no marker at Rome, unless the map architect's extent
+  already holds Rome — one marker does not stretch a map of northern France to Italy.
+- step pre-plans: done, 26 Nov 2026. Seven `pages.yaml`, 41 pages: 6, 5, 6, 6, 6, 6, 6. The plan check prints ok.
+- ledger after `pre-plans`: | **total** | 9 | 160 | 225,725 | 322 | 848,373 | 14,098,583 | 171,023 | 3,325,762 |

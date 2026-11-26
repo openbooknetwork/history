@@ -1,0 +1,11 @@
+- task: pre-plan
+  step: pre-plans
+  at: '2026-11-26T09:23:00.874Z'
+  before: null
+  inputs:
+    rules.md: 34016c37f051ce5e
+    brief.md#070: 3697c4d04dcd2665
+  ended: '2026-11-26T09:24:39.551Z'
+  status: pass
+  outputs:
+    - content/joan-of-arc/.plan/070-after-her/pages.yaml

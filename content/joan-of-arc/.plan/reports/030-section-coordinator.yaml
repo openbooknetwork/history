@@ -1,0 +1,15 @@
+- step: pre-plans
+  task: pre-plan
+  status: pass
+  changed_files: [content/joan-of-arc/.plan/030-orleans/pages.yaml]
+  faults: []
+  unresolved:
+    - "The convoy left Blois on 27 or 28 April (Siege_of_Orléans wiki); from-blois takes 27 April as its when until the research dates it."
+  stale: []
+  pages: 6
+  expected: 6
+  phases: []
+  notes:
+    - "Plan's own: the five events of the brief take five pages (Saint-Jean-le-Blanc and the Augustins share one, same place, same day); the sixth page is the days between, 30 April to 4 May, with Dunois's ride to Blois and the army brought back along the north bank, a map change of its own."
+    - "Plan's own: the card orleans-1429 stands on the last page, the-english-march-away, where the siege is raised; the earlier pages show each fort on its own day."
+    - "Marker ids are provisional (ile-aux-toiles: the Wikipedia article names the island Saint-Aignan); the plan settles them from the digest."

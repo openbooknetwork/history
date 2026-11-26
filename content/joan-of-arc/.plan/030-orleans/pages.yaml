@@ -1,0 +1,66 @@
+# The pages of section 030, orleans, in order. Pre-plan: no rests_on until the digest exists.
+- id: from-blois
+  title: "From Blois into the City"
+  date: "27 to 29 April 1429"
+  when: 1429-04-27
+  tells: >-
+    The convoy and its escort leave Blois and go up the south bank of the Loire through the Sologne, not by the
+    Beauce as she wanted. Opposite Chécy, east of the city, Dunois crosses to meet them, the supplies go over by
+    boat, and on the evening of 29 April she rides into Orléans by the Porte de Bourgogne.
+  markers: [blois, checy, porte-de-bourgogne]
+  battles: []
+- id: the-army-of-blois
+  title: "The Army Comes by the Beauce"
+  date: "30 April to 4 May 1429"
+  when: 1429-04-30
+  tells: >-
+    The English ring of bastilles holds the city. She calls on Glasdale at the Tourelles to go and is insulted,
+    and rides out to look at the English forts. Dunois goes to Blois for the army, and on the morning of 4 May
+    brings it back along the north bank through the Beauce, past the bastille of Saint-Laurent, which does not
+    come out against it.
+  markers: [bastille-saint-laurent, bastille-croix-boissee, bastille-london, bastille-rouen, bastille-paris, belle-croix]
+  battles: []
+- id: storming-saint-loup
+  title: "Saint-Loup"
+  date: "4 May 1429"
+  when: 1429-05-04
+  tells: >-
+    In the afternoon of 4 May the French attack the bastille of Saint-Loup, east of the city on the road to
+    Chécy, and she rides out to join them. Talbot's men come out from the bastille of Saint-Pouair to help it and
+    are held off, and Saint-Loup is taken and burned: the first English fort to fall, which opens the road east.
+  markers: [saint-loup, saint-pouair-sortie]
+  battles: []
+- id: the-augustins
+  title: "Saint-Jean-le-Blanc and the Augustins"
+  date: "6 May 1429"
+  when: 1429-05-06
+  tells: >-
+    After the feast of the Ascension, on which no one fights, the French cross the Loire by an island to the south
+    bank. The English leave the bastille of Saint-Jean-le-Blanc and fall back on the Augustins and the Tourelles;
+    the French are driven back to the shore, turn, and take the Augustins by nightfall. The English of
+    Saint-Privé cross to the north bank in the night.
+  markers: [ile-aux-toiles, saint-jean-le-blanc, augustins, saint-prive]
+  battles: []
+- id: the-tourelles
+  title: "The Tourelles"
+  date: "7 May 1429"
+  when: 1429-05-07
+  tells: >-
+    The French attack the boulevard before the Tourelles from the south bank all day, while the townsmen bridge
+    the broken arches from the city. She is struck by an arrow above the breast and carried off, comes back at
+    evening, and the boulevard and then the Tourelles fall; Glasdale drowns when the drawbridge gives way. The
+    English hold nothing south of the Loire.
+  markers: [tourelles, tourelles-boulevard, ile-saint-antoine]
+  battles: []
+- id: the-english-march-away
+  title: "The English March Away"
+  date: "8 May 1429"
+  when: 1429-05-08
+  tells: >-
+    On Sunday 8 May the English leave their bastilles on the north bank and draw up for battle before the city;
+    the French draw up facing them, and she will not have them attack on a Sunday. After an hour the English
+    march off, Talbot to Meung and Suffolk to Jargeau, and the city goes in procession to give thanks. The siege
+    is raised.
+  markers: [english-array, meung, jargeau]
+  battles:
+    - { id: orleans-1429, phases: false }

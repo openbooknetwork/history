@@ -1,0 +1,55 @@
+- id: the-voices
+  title: "The Voices and Vaucouleurs"
+  date: "About 1425 to July 1428"
+  when: 1425
+  tells: >-
+    At about thirteen Joan hears a voice in her father's garden at Domrémy, as she told her judges in 1431. In May
+    1428 she goes to Robert de Baudricourt, captain of Vaucouleurs, the king's last stronghold on the upper Meuse,
+    and he sends her home. That July a Burgundian force under Antoine de Vergy moves against Vaucouleurs, and the
+    people of Domrémy flee with their cattle to Neufchâteau.
+  markers: [domremy-voices, vaucouleurs-1428, neufchateau]
+  battles: []
+- id: salisbury-on-the-loire
+  title: "Salisbury on the Loire"
+  date: "July 1428 to February 1429"
+  when: 1428-07
+  tells: >-
+    The Earl of Salisbury lands with fresh troops, takes Janville, Meung, Beaugency and Jargeau, and lays siege to
+    Orléans on 12 October 1428. The English take the Tourelles at the bridge's southern end, and Salisbury, wounded
+    by a cannon shot, dies at Meung. Through the winter the English ring the city with bastilles. On 12 February
+    1429 at Rouvray, Fastolf's convoy of Lenten herrings beats off the French and Scots of Clermont from behind its
+    wagons.
+  markers: [janville, meung-1428, beaugency-1428, jargeau-1428, orleans-besieged, tourelles-1428, rouvray]
+  battles:
+    - { id: herrings-1429, phases: false }
+- id: vaucouleurs-again
+  title: "Vaucouleurs Again"
+  date: "January and February 1429"
+  when: 1429-01
+  tells: >-
+    Joan comes back to Vaucouleurs and lodges with Henri and Catherine Le Royer. The Duke of Lorraine sends for
+    her at Nancy. Baudricourt at first holds back, then gives way: the townsfolk dress her in men's clothes,
+    Jean de Metz and Bertrand de Poulengy take up her cause, and Baudricourt sends her to the Dauphin.
+  markers: [vaucouleurs-1429, nancy-1429, saint-nicolas-de-port]
+  battles: []
+- id: eleven-days
+  title: "Eleven Days to Chinon"
+  date: "February or March 1429"
+  when: 1429-02
+  tells: >-
+    With six armed men Joan rides from Vaucouleurs to Chinon, mostly by night, across lands held by Burgundy and
+    England. She stops at Saint-Urbain, hears mass at Auxerre, crosses the Loire at Gien and writes to the Dauphin
+    from Sainte-Catherine-de-Fierbois. Her two escorts later said the journey took eleven days. The day she left
+    and the day she reached Chinon differ between authors.
+  markers: [vaucouleurs-departure, saint-urbain, auxerre-1429, gien-1429, fierbois-letter, chinon-arrival]
+  battles: []
+- id: chinon-and-poitiers
+  title: "Chinon and Poitiers"
+  date: "March and April 1429"
+  when: 1429-03
+  tells: >-
+    The Dauphin receives her at Chinon. Churchmen examine her at Poitiers and find nothing
+    against her, and on 22 March she dictates her letter to the English. At Tours she is given armour, a household
+    and a banner, and a sword is found, as she asked, behind the altar at Fierbois.
+  markers: [chinon-audience, poitiers-examination, tours-armour, fierbois-sword]
+  battles: []

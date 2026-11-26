@@ -1,0 +1,42 @@
+- id: montepilloy
+  title: "Montépilloy"
+  date: "August 1429"
+  when: "1429-08-14"
+  tells: The king's army and Bedford's face each other at Montépilloy near Senlis on 14 and 15 August and part without a battle; Compiègne, Senlis and Beauvais come over to Charles, and at Compiègne on 28 August he signs a truce with the Duke of Burgundy.
+  markers: [montepilloy, senlis-1429, compiegne-1429, beauvais-1429]
+  battles: []
+- id: paris
+  title: "The Porte Saint-Honoré"
+  date: "September 1429"
+  when: "1429-09-08"
+  tells: From Saint-Denis and La Chapelle she and Alençon attack Paris at the Porte Saint-Honoré on 8 September, the feast of the Nativity of Our Lady; the assault stops at the moat, she is wounded by a crossbow bolt, and the king calls the attack off.
+  markers: [saint-denis-1429, la-chapelle-1429, porte-saint-honore]
+  battles: [{ id: paris-1429, phases: false }]
+- id: back-to-the-loire
+  title: "Back to the Loire"
+  date: "September 1429"
+  when: "1429-09-13"
+  tells: She leaves her armour in the abbey of Saint-Denis, the king leads the army back across the Marne at Lagny and the Seine at Bray to Gien, and there on 21 September the army that crowned him is disbanded and Alençon sent home.
+  markers: [saint-denis-abbey, bray-1429, gien-1429]
+  battles: []
+- id: saint-pierre-and-la-charite
+  title: "Saint-Pierre-le-Moûtier and La Charité"
+  date: "November – December 1429"
+  when: "1429-11"
+  tells: Sent from Bourges with Charles d'Albret against Perrinet Gressard's towns on the upper Loire, she storms Saint-Pierre-le-Moûtier about the start of November, then sits a month before La Charité in the cold, short of powder and money, and the siege is given up about Christmas.
+  markers: [bourges-1429, saint-pierre-le-moutier, la-charite]
+  battles: []
+- id: melun-and-lagny
+  title: "Melun and Lagny"
+  date: "April – May 1430"
+  when: "1430-04"
+  tells: With a small company and no royal army she leaves the court at Sully; at Melun in Easter week, as she told her judges, her voices warn her she will be taken before Saint John's Day, and from Lagny she defeats and takes the Burgundian captain Franquet d'Arras.
+  markers: [sully-1430, melun-1430, lagny-1430]
+  battles: []
+- id: compiegne
+  title: "Compiègne"
+  date: "May 1430"
+  when: "1430-05-14"
+  tells: Burgundy besieges Compiègne; she rides in by night from Crépy on 23 May and leads a sortie that evening on the Burgundian post at Margny; men from Clairoix and the English from Venette cut off the retreat, the gate is closed behind her, an archer pulls her from her horse and she yields to the Bastard of Wandonne, a man of John of Luxembourg.
+  markers: [compiegne-1430, crepy-1430, soissons-1430, margny-1430, clairoix-1430, venette-1430]
+  battles: [{ id: compiegne-1430, phases: false }]

@@ -1,0 +1,13 @@
+- step: pre-plans
+  task: pre-plan
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/070-after-her/pages.yaml
+  faults: []
+  unresolved:
+    - "The retrial page is dated from November 1455 (when 1455-11), not from 1450, so that it does not start before Castillon (1451-1453); the enquiries of 1450 and 1452 are told in it as what led to the retrial. Proposed answer: keep the brief's order, war pages first, and tell the earlier enquiries as background."
+    - "The closing page marks Rome (rome-1920) for the canonisation, which takes its frame well beyond France; the map architect may rule it out of the extent, and the canonisation then stands in the text alone."
+  stale: []
+  pages: 6
+  pages_expected: 6
+  phase_battles: []

@@ -1,0 +1,13 @@
+- step: pre-plans
+  task: pre-plan
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/050-paris-and-compiegne/pages.yaml
+  faults: []
+  unresolved:
+    - "Montépilloy's date: Siege_of_Paris_(1429).wiki puts 'the battle of Montépilloy' on 26 August; Lowell ch. 12 (7377) has the armies face to face on Sunday 14 August, and 26 August is the entry into Saint-Denis. The page takes Lowell's 14 August; the research checks it in Cagny and the chronicles."
+    - "Saint-Pierre-le-Moûtier and La Charité: Lowell (8225, 8345) has Saint-Pierre taken about 1 November and La Charité invested about 10 November; Siege_of_La_Charité.wiki gives 24 November to 25 December and Siege_of_Saint-Pierre-le-Moûtier.wiki 4 November. The page's date is the month, and the text names each author's date."
+  stale: []
+  pages: 6
+  pages_expected: 6
+  phase_battles: []

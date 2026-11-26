@@ -30,8 +30,53 @@
    "parent": "-",
    "model": "claude-fable-5-2",
    "start": "2026-11-26T08:58:19.988Z",
-   "end": "2026-11-26T09:22:43.582Z",
+   "end": "2026-11-26T09:25:15.131Z",
    "description": ""
+  },
+  {
+   "agent": "a166498d4bb74be5f",
+   "role": "section-coordinator",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T09:23:00.820Z",
+   "end": "2026-11-26T09:24:23.686Z",
+   "description": "pre-plans 040 section-coordinator pre-plan"
+  },
+  {
+   "agent": "a57236005a1c3c54f",
+   "role": "section-coordinator",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T09:23:00.969Z",
+   "end": "2026-11-26T09:24:39.372Z",
+   "description": "pre-plans 070 section-coordinator pre-plan"
+  },
+  {
+   "agent": "a8b8d5dc4028311a6",
+   "role": "section-coordinator",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T09:23:00.830Z",
+   "end": "2026-11-26T09:24:42.343Z",
+   "description": "pre-plans 050 section-coordinator pre-plan"
+  },
+  {
+   "agent": "ab98b5153cf24b722",
+   "role": "section-coordinator",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T09:23:00.809Z",
+   "end": "2026-11-26T09:24:39.864Z",
+   "description": "pre-plans 030 section-coordinator pre-plan"
+  },
+  {
+   "agent": "aeb6b75499116cc56",
+   "role": "section-coordinator",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T09:23:00.797Z",
+   "end": "2026-11-26T09:25:04.539Z",
+   "description": "pre-plans 020 section-coordinator pre-plan"
   },
   {
    "agent": "aed2b96c546e77c39",
@@ -41,6 +86,24 @@
    "start": "2026-11-26T08:58:44.533Z",
    "end": "2026-11-26T09:21:45.071Z",
    "description": "survey all research-coordinator survey"
+  },
+  {
+   "agent": "aed370fb3e1ee9c10",
+   "role": "section-coordinator",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T09:23:00.781Z",
+   "end": "2026-11-26T09:24:25.069Z",
+   "description": "pre-plans 010 section-coordinator pre-plan"
+  },
+  {
+   "agent": "afdac48b076441830",
+   "role": "section-coordinator",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T09:23:00.839Z",
+   "end": "2026-11-26T09:24:33.657Z",
+   "description": "pre-plans 060 section-coordinator pre-plan"
   }
  ],
  "usage": [
@@ -51,12 +114,82 @@
    "model": "claude-fable-5-2",
    "step": "-",
    "section": "-",
-   "turns": 22,
-   "peak": 135725,
-   "input": 46,
-   "cacheWrite": 77215,
-   "cacheRead": 2439917,
-   "output": 10686
+   "turns": 25,
+   "peak": 151396,
+   "input": 52,
+   "cacheWrite": 92886,
+   "cacheRead": 2861653,
+   "output": 13813
+  },
+  {
+   "agent": "a166498d4bb74be5f",
+   "role": "section-coordinator",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "pre-plans",
+   "section": "040",
+   "turns": 9,
+   "peak": 63534,
+   "input": 18,
+   "cacheWrite": 63532,
+   "cacheRead": 345133,
+   "output": 7742
+  },
+  {
+   "agent": "a57236005a1c3c54f",
+   "role": "section-coordinator",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "pre-plans",
+   "section": "070",
+   "turns": 10,
+   "peak": 70217,
+   "input": 20,
+   "cacheWrite": 70215,
+   "cacheRead": 447744,
+   "output": 9133
+  },
+  {
+   "agent": "a8b8d5dc4028311a6",
+   "role": "section-coordinator",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "pre-plans",
+   "section": "050",
+   "turns": 9,
+   "peak": 82992,
+   "input": 18,
+   "cacheWrite": 82990,
+   "cacheRead": 406033,
+   "output": 9602
+  },
+  {
+   "agent": "ab98b5153cf24b722",
+   "role": "section-coordinator",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "pre-plans",
+   "section": "030",
+   "turns": 9,
+   "peak": 83645,
+   "input": 18,
+   "cacheWrite": 83643,
+   "cacheRead": 410771,
+   "output": 9217
+  },
+  {
+   "agent": "aeb6b75499116cc56",
+   "role": "section-coordinator",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "pre-plans",
+   "section": "020",
+   "turns": 11,
+   "peak": 92801,
+   "input": 22,
+   "cacheWrite": 92799,
+   "cacheRead": 598928,
+   "output": 11916
   },
   {
    "agent": "aed2b96c546e77c39",
@@ -71,9 +204,87 @@
    "cacheWrite": 225723,
    "cacheRead": 8375088,
    "output": 92391
+  },
+  {
+   "agent": "aed370fb3e1ee9c10",
+   "role": "section-coordinator",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "pre-plans",
+   "section": "010",
+   "turns": 7,
+   "peak": 71164,
+   "input": 14,
+   "cacheWrite": 71162,
+   "cacheRead": 253235,
+   "output": 8203
+  },
+  {
+   "agent": "afdac48b076441830",
+   "role": "section-coordinator",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "pre-plans",
+   "section": "060",
+   "turns": 10,
+   "peak": 65425,
+   "input": 20,
+   "cacheWrite": 65423,
+   "cacheRead": 399998,
+   "output": 9006
   }
  ],
  "reports": [
+  {
+   "agent": "a166498d4bb74be5f",
+   "role": "section-coordinator",
+   "step": "pre-plans",
+   "section": "040",
+   "status": "pass",
+   "changed": 1,
+   "unresolved": 1,
+   "faults": []
+  },
+  {
+   "agent": "a57236005a1c3c54f",
+   "role": "section-coordinator",
+   "step": "pre-plans",
+   "section": "070",
+   "status": "pass",
+   "changed": 1,
+   "unresolved": 2,
+   "faults": []
+  },
+  {
+   "agent": "a8b8d5dc4028311a6",
+   "role": "section-coordinator",
+   "step": "pre-plans",
+   "section": "050",
+   "status": "pass",
+   "changed": 1,
+   "unresolved": 2,
+   "faults": []
+  },
+  {
+   "agent": "ab98b5153cf24b722",
+   "role": "section-coordinator",
+   "step": "pre-plans",
+   "section": "030",
+   "status": "pass",
+   "changed": 1,
+   "unresolved": 1,
+   "faults": []
+  },
+  {
+   "agent": "aeb6b75499116cc56",
+   "role": "section-coordinator",
+   "step": "pre-plans",
+   "section": "020",
+   "status": "pass",
+   "changed": 1,
+   "unresolved": 2,
+   "faults": []
+  },
   {
    "agent": "aed2b96c546e77c39",
    "role": "research-coordinator",
@@ -82,6 +293,26 @@
    "status": "pass",
    "changed": 3,
    "unresolved": 3,
+   "faults": []
+  },
+  {
+   "agent": "aed370fb3e1ee9c10",
+   "role": "section-coordinator",
+   "step": "pre-plans",
+   "section": "010",
+   "status": "pass",
+   "changed": 1,
+   "unresolved": 2,
+   "faults": []
+  },
+  {
+   "agent": "afdac48b076441830",
+   "role": "section-coordinator",
+   "step": "pre-plans",
+   "section": "060",
+   "status": "pass",
+   "changed": 1,
+   "unresolved": 2,
    "faults": []
   }
  ],
@@ -95,6 +326,97 @@
     "step": "survey",
     "task": "survey",
     "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/survey-research-coordinator",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "section-coordinator",
+   "description": "pre-plans 010 section-coordinator pre-plan",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "010",
+    "step": "pre-plans",
+    "task": "pre-plan",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/pre-plans-010-section-coordinator",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "section-coordinator",
+   "description": "pre-plans 020 section-coordinator pre-plan",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "020",
+    "step": "pre-plans",
+    "task": "pre-plan",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/pre-plans-020-section-coordinator",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "section-coordinator",
+   "description": "pre-plans 030 section-coordinator pre-plan",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "030",
+    "step": "pre-plans",
+    "task": "pre-plan",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/pre-plans-030-section-coordinator",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "section-coordinator",
+   "description": "pre-plans 040 section-coordinator pre-plan",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "040",
+    "step": "pre-plans",
+    "task": "pre-plan",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/pre-plans-040-section-coordinator",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "section-coordinator",
+   "description": "pre-plans 050 section-coordinator pre-plan",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "050",
+    "step": "pre-plans",
+    "task": "pre-plan",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/pre-plans-050-section-coordinator",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "section-coordinator",
+   "description": "pre-plans 060 section-coordinator pre-plan",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "060",
+    "step": "pre-plans",
+    "task": "pre-plan",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/pre-plans-060-section-coordinator",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "section-coordinator",
+   "description": "pre-plans 070 section-coordinator pre-plan",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "070",
+    "step": "pre-plans",
+    "task": "pre-plan",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/pre-plans-070-section-coordinator",
     "serve": "static"
    },
    "problems": []

@@ -1,0 +1,11 @@
+- task: pre-plan
+  step: pre-plans
+  at: '2026-11-26T09:22:49.673Z'
+  before: null
+  inputs:
+    rules.md: 34016c37f051ce5e
+    brief.md#010: a2a4a958a462d340
+  ended: '2026-11-26T09:24:25.255Z'
+  status: pass
+  outputs:
+    - content/joan-of-arc/.plan/010-france-divided/pages.yaml

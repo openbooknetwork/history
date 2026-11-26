@@ -1,0 +1,11 @@
+- task: pre-plan
+  step: pre-plans
+  at: '2026-11-26T09:22:57.107Z'
+  before: null
+  inputs:
+    rules.md: 34016c37f051ce5e
+    brief.md#050: a017ce59de28ec1e
+  ended: '2026-11-26T09:24:42.542Z'
+  status: pass
+  outputs:
+    - content/joan-of-arc/.plan/050-paris-and-compiegne/pages.yaml

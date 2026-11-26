@@ -44,5 +44,6 @@
   count, and where two authors differ both are told, which is the careful side.
 - cloud ruling: the canonisation is told in the text alone, with no marker at Rome, unless the map architect's extent
   already holds Rome — one marker does not stretch a map of northern France to Italy.
-- step pre-plans: done, 26 Nov 2026. Seven `pages.yaml`, 41 pages: 6, 5, 6, 6, 6, 6, 6. The plan check prints ok.
+- step pre-plans: done, 26 Nov 2026. Seven `pages.yaml`, 41 pages: 6, 5, 6, 6, 6, 6, 6. The plan check prints ok for each section alone, and for the story the marker ids two
+  sections share, which the editor's check takes up.
 - ledger after `pre-plans`: | **total** | 9 | 160 | 225,725 | 322 | 848,373 | 14,098,583 | 171,023 | 3,325,762 |

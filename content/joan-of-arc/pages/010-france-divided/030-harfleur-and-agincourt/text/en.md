@@ -4,11 +4,11 @@ Henry V, King of England, revives the old claim of Edward III to the crown of Fr
 
 Battered by cannon and mined, Harfleur surrenders on 22 September, when no help has come from the French army at Rouen. The siege costs Henry a fifth of his men, Oman writes, more to camp fever than to fighting, and his chaplain's Gesta says about 5,000 sick were sent home besides.
 
-Against most of his council, Henry leaves on 8 or 9 October, as Ramsay dates it, and marches for the English port of [Calais](@calais-1415). On 13 October he finds the ford of [Blanche-Taque](@blanche-taque-1415) on the Somme held against him and has to go up the river, by a road the map draws only approximately. He crosses on 19 October at [Béthencourt](@bethencourt-1415), above Péronne, while the French gather at Bapaume in far greater numbers.\*
+Against most of his council, Henry leaves on 8 or 9 October, as Ramsay dates it, and marches for the English port of [Calais](@calais-1415). On 13 October he finds the ford of [Blanche-Taque](@blanche-taque-1415) on the Somme held against him and has to go up the river, by a road the map draws only approximately. Oman has him cross on 19 October at [Béthencourt](@bethencourt-1415), above Péronne, while the French gather at Bapaume in far greater numbers.\*
 
 On Friday 25 October the French under the Constable d'Albret bar the road to Calais between the woods and enclosures of Agincourt and Tramecourt. The ploughed fields are soaked by a week of rain. Henry draws up his army in a single line, with Edward, Duke of York, leading the right, Lord Camoys the left and the king himself the centre, and sharpened stakes planted before the archers. Henry moves forward until the French are within bowshot. Their horsemen are shot down or turn back through their own ranks, and the men-at-arms on foot, struggling through the mud, are beaten. At an alarm Henry has the prisoners killed.
 
-The Constable d'Albret, John I, Duke of Alençon, Edward, Duke of Bar, and the Count of Nevers die, and Charles of Orléans, John, Duke of Bourbon, and Marshal Boucicaut are taken to England.\*\* Henry reaches Calais on 29 October, and the map adds Harfleur to the English lands.
+The Constable d'Albret, John I, Duke of Alençon, Edward, Duke of Bar, and the Count of Nevers die, and Charles of Orléans, John, Duke of Bourbon, and Marshal Boucicaut are taken to England.\*\* Henry reaches Calais on 29 October, Ramsay writes, leaving Harfleur in English hands.
 
 ### Notes
 

@@ -2,13 +2,13 @@ On 22 February 1431 Joan told her judges at Rouen that she was about thirteen wh
 
 Later, she said, the voice told her to leave home and go into France, and that she would raise the siege of Orléans. If she went to Robert de Baudricourt, the squire in command at [Vaucouleurs](@vaucouleurs-1428), he would find men to take her. Her father knew nothing of it.
 
-Vaucouleurs is a walled town on the Meuse north of Domrémy, some twelve miles off by Lang's count and thirteen by Lowell's. Lowell writes that by midsummer 1428 no other town of eastern France still stood for Charles VII.
+Vaucouleurs is a walled town on the Meuse north of Domrémy, some twelve miles off by Lang's count and thirteen by Lowell's. Lowell writes that by midsummer 1428 no other town of eastern France still stood for Charles VII, the uncrowned king who held the lands south of the Loire.
 
 In May 1428 Joan comes to Baudricourt and is sent home in the company of Durand Laxart, her cousin's husband, whom she called uncle. So Bertrand de Poulengy, a squire who was with the captain, remembered it in 1456.\*\* Laxart recalled the captain's advice, given more than once: slap the girl and bring her home to her father.
 
-In July Antoine de Vergy, governor of Champagne for the English, reviews his troops at [Saint-Urbain](@vergy-review-1428) and marches on Vaucouleurs. Within days the force is gone and Baudricourt still holds the town; how he kept it is not known. For dread of the Burgundians, Joan said, she went to [Neufchâteau](@neufchateau), a walled town of the Duke of Lorraine a few miles south, and stayed about a fortnight with an innkeeper called La Rousse. Lang and Lowell date this flight to Vergy's raid.\*\*\*
+In July Antoine de Vergy, governor of Champagne for the English, reviews his troops at [Saint-Urbain](@vergy-review-1428) and marches on Vaucouleurs. Within days the force is gone and Baudricourt still holds the town; how he kept it is not known. For dread of the Burgundians, Joan said, she went to [Neufchâteau](@neufchateau), a walled town of the Duke of Lorraine a few miles south, and stayed about a fortnight with an innkeeper called La Rousse. Her family and the other villagers go too, with their cattle; Lang and Lowell date this flight to Vergy's raid.\*\*\*
 
-The map shows the English and their allies closing round Vaucouleurs, her road there, Vergy's march and the flight. In this chapter borders and roads are approximate.
+The map shows Vaucouleurs hemmed in by English, Bar and Lorraine land, her road there, Vergy's march and the flight. In this chapter borders and roads are approximate.
 
 ### Notes
 

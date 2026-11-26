@@ -6,6 +6,6 @@ On Sunday 20 November 1407 the two dukes make peace and take communion together.
 
 John the Fearless soon admits to two of the princes that he gave the order, and then says so openly in the council. He withdraws to [Lille](@lille-1407), and later, Lowell writes, the great men of the kingdom gather with him to hear a priest praise the murder.
 
-The killing turns the quarrel of two dukes into civil war. In 1410 the young Charles of Orléans, Louis's son, marries the daughter of Bernard, Count of Armagnac, and the count takes the lead of the Orléans party, whose men become known as the Armagnacs. Against them stand the Burgundians.
+The killing turns the quarrel of two dukes into civil war. From 1410 the Orléans party is led by Bernard, Count of Armagnac, father-in-law of Louis's young son, Charles of Orléans, and its men become known as the Armagnacs. Against them stand the Burgundians.
 
 The map shows the kingdom as the war begins: the Duke of Burgundy's lands to the north and east, the English in Calais and Gascony, Brittany under its own duke. The sources name these lands by province and draw no line, so every border on the maps of this chapter is approximate.

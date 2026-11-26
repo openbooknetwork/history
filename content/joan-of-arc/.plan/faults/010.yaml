@@ -848,3 +848,171 @@
   introduced: "texts"
   owner: "section-reviewer"
   state: fixed
+- id: 010-section-reviewer-1
+  severity: weak
+  file: content/joan-of-arc/pages/010-france-divided/010-murder-in-paris/text/en.md
+  field: text
+  replaces: clause
+  old: "In 1410 the young Charles of Orléans, Louis's son, marries the daughter of Bernard, Count of Armagnac, and the count takes the lead of the Orléans party, whose men become known as the Armagnacs."
+  new: "From 1410 the Orléans party is led by Bernard, Count of Armagnac, father-in-law of Louis's young son, Charles of Orléans, and its men become known as the Armagnacs."
+  source: 'research 010.6: "from 1410 Bernard, Count of Armagnac, father-in-law of the young Charles of Orléans, leads the Orléans party": the digest dates the lead to 1410, not the marriage, which no line dates'
+  kind: fact
+  claim: "010.6"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 010-section-reviewer-2
+  severity: taste
+  file: content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md
+  field: text
+  replaces: clause
+  old: "Its boys and the boys of Domrémy fought"
+  new: "The boys of Maxey and of Domrémy fought"
+  source: 'agents/text.md, What matters, 3: after a sentence that ends "in Domrémy she knew only one", "Its boys" reads as the boys of Domrémy, and the clause then pits Domrémy against itself'
+  kind: wording
+  claim: "010.16"
+  introduced: fix
+  owner: section-reviewer
+  state: fixed
+- id: 010-section-reviewer-3
+  severity: weak
+  file: content/joan-of-arc/pages/010-france-divided/030-harfleur-and-agincourt/text/en.md
+  field: text
+  replaces: clause
+  old: "He crosses on 19 October at"
+  new: "Oman has him cross on 19 October at"
+  source: 'research 010.24: "single for the crossing (Oman)"; rules.md, The older scholars: what only one of them gives is told with his name; text.yaml of 010 tells it "(Oman)", and the marker bethencourt-1415 already names him'
+  kind: attribution
+  claim: "010.24"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 010-section-reviewer-4
+  severity: weak
+  file: content/joan-of-arc/pages/010-france-divided/030-harfleur-and-agincourt/text/en.md
+  field: text
+  replaces: clause
+  old: "Henry reaches Calais on 29 October, and the map adds Harfleur to the English lands."
+  new: "Henry reaches Calais on 29 October, Ramsay writes, leaving Harfleur in English hands."
+  source: 'research 010.34: "single (Ramsay)", and the marker calais-1415 names him; the map adds no English zone at Harfleur (zones france-1412 and english-1407 only, capture maps-010-map-auditor/shots2/harfleur-and-agincourt.png shows the town on the blue of France), only the marker harfleur-1415 in the English colour'
+  kind: attribution
+  claim: "010.34"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 010-section-reviewer-5
+  severity: taste
+  file: content/joan-of-arc/pages/010-france-divided/040-normandy-and-troyes/text/en.md
+  field: text
+  replaces: clause
+  old: "On 10 September 1419 John the Fearless meets the Dauphin"
+  new: "On 10 September 1419 John the Fearless, Duke of Burgundy, meets the Dauphin"
+  source: 'agents/text.md, What matters, 3: a person gets a few words on who they are where the page first names him; research 010.40'
+  kind: wording
+  claim: "010.40"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 010-section-reviewer-6
+  severity: taste
+  file: content/joan-of-arc/pages/010-france-divided/040-normandy-and-troyes/text/en.md
+  field: text
+  replaces: clause
+  old: "By a treaty sealed in the cathedral of [Troyes](@troyes-1420) on 21 May 1420,"
+  new: "By the Treaty of [Troyes](@troyes-1420), sealed in the city's cathedral on 21 May 1420,"
+  source: 'names.md, Rules, Names of places: "A battle, siege or treaty keeps the name histories give it: the Treaty of Troyes"; the next page refers back to "the zones of the Treaty of Troyes", a name this page never gave'
+  kind: wording
+  claim: "010.43"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 010-section-reviewer-7
+  severity: taste
+  file: content/joan-of-arc/pages/010-france-divided/040-normandy-and-troyes/text/en.md
+  field: text
+  replaces: clause
+  old: "The Dauphin's party keeps the rest of the kingdom. The zones are approximate, and so is the line of Henry's march to Caen. On the Meuse, Lowell writes, the Burgundians invade Bar, and the Duke of Lorraine swears allegiance to Henry V."
+  new: "The Dauphin's party keeps the rest of the kingdom. After the treaty the war reaches the Meuse too: the Burgundians invade Bar, Lowell writes, and the Duke of Lorraine swears allegiance to Henry V. The zones are approximate, and so is the line of Henry's march to Caen."
+  source: 'research 010.17: "after Troyes (1420) the war of the two parties reaches the Meuse"; the sentence stood after the note on the zones with no time, so the reader could not tell when Bar was invaded'
+  kind: wording
+  claim: "010.17"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 010-section-reviewer-8
+  severity: weak
+  file: content/joan-of-arc/pages/010-france-divided/050-two-kings/text/en.md
+  field: text
+  replaces: clause
+  old: "Charles VII is obeyed south of the river,"
+  new: "Charles VII is obeyed south of the Loire,"
+  source: 'research 010.57, Lowell l. 690: "the country south of the Loire between the Garonne and the Rhone": 010-fact-checker-31 took "north of the Loire" out of the sentence before, and "the river" was left with no river named'
+  kind: wording
+  claim: "010.57"
+  introduced: fix
+  owner: section-reviewer
+  state: fixed
+- id: 010-section-reviewer-9
+  severity: taste
+  file: content/joan-of-arc/pages/010-france-divided/060-cravant-and-verneuil/text/en.md
+  field: text
+  replaces: clause
+  old: "In June 1423 Bedford, the regent, marries"
+  new: "In June 1423 John, Duke of Bedford, regent for the child Henry VI, marries"
+  source: 'names.md, John, Duke of Bedford: "Bedford" after the first mention; agents/text.md, What matters, 3; research 010.52'
+  kind: wording
+  claim: "010.52"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 010-section-reviewer-10
+  severity: taste
+  file: content/joan-of-arc/pages/010-france-divided/060-cravant-and-verneuil/text/en.md
+  field: text
+  replaces: clause
+  old: "Buchan, the Earl of Douglas and his son James, the Counts"
+  new: "The Earls of Buchan and Douglas, Douglas's son James, the Counts"
+  source: 'names.md, the Earl of Buchan: "Buchan" after the first mention; the page named him nowhere before; research 010.67'
+  kind: wording
+  claim: "010.67"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 010-section-reviewer-11
+  severity: taste
+  file: content/joan-of-arc/pages/010-france-divided/060-cravant-and-verneuil/text/en.md
+  field: text
+  replaces: clause
+  old: "for his part in the murder of Montereau."
+  new: "for his part in John the Fearless's murder at Montereau."
+  source: 'agents/text.md, What matters, 3: a reader who opens the story here has not met the murder of Montereau; research 010.67 and 010.40'
+  kind: wording
+  claim: "010.67"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 010-section-reviewer-12
+  severity: weak
+  file: content/joan-of-arc/pages/010-france-divided/060-cravant-and-verneuil/text/en.md
+  field: text
+  replaces: clause
+  old: "means to carry the war down the river. The roads to Verneuil are approximate too."
+  new: "means to carry the war down the Loire."
+  source: 'research 010.68, Oman l. 19386: "to extend the same system down the line of the Loire": 010-fact-checker-32 took "behind the Loire" out of the clause before, and "the river" was left with no river named. The sentence on the roads goes to keep the body under 350 words: Salisbury''s road is called approximate on the page, and agents/evidence.md asks the clause once in a chapter'
+  kind: wording
+  claim: "010.68"
+  introduced: fix
+  owner: section-reviewer
+  state: fixed
+- id: 010-overseer-1
+  severity: weak
+  file: content/joan-of-arc/.plan/010-france-divided/text.yaml
+  field: harfleur-and-agincourt, account
+  replaces: clause
+  old: "The map adds Harfleur to the English holdings and"
+  new: "The map adds Harfleur as a marker in the English colour, with no English zone round it, and"
+  source: "010-section-reviewer-4: the page lists no English zone at Harfleur, only the marker (reports/010-section-reviewer.yaml)"
+  kind: plan
+  introduced: plan
+  owner: section-coordinator
+  state: fixed

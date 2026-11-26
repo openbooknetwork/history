@@ -6,7 +6,7 @@ At the same hearing she gave her parents' names, Jacques d'Arc and Isabelle, and
 
 Joan told the court that her mother taught her the Paternoster, the Ave Maria and the Credo, and that at sewing and spinning she "feared no woman in Rouen". Whether she also kept the animals in the fields is told two ways.\*
 
-Down the river stands [Vaucouleurs](@vaucouleurs-1412), a walled town and castle held for the king's party. Lang calls its district, with Domrémy and Greux, "a kind of island of loyalty" in country that was Anglo-Burgundian or outside France altogether. Across the Meuse the people of [Maxey](@maxey-1412) were Burgundians, Joan said, and in Domrémy she knew only one. Its boys and the boys of Domrémy fought as Burgundians against Armagnacs, a rivalry that Lowell thinks was more likely an old grudge between villages than politics.
+Down the river stands [Vaucouleurs](@vaucouleurs-1412), a walled town and castle held for the king's party. Lang calls its district, with Domrémy and Greux, "a kind of island of loyalty" in country that was Anglo-Burgundian or outside France altogether. Across the Meuse the people of [Maxey](@maxey-1412) were Burgundians, Joan said, and in Domrémy she knew only one. The boys of Maxey and of Domrémy fought as Burgundians against Armagnacs, a rivalry that Lowell thinks was more likely an old grudge between villages than politics.
 
 The map shows the upper Meuse, where the kingdom, with Vaucouleurs, meets the duchies of Bar and Lorraine, with the county of Burgundy to the south. Domrémy lies on the edge of the kingdom and Bar, and who was its lord is disputed.\*\* The line drawn through the village, along the Three Fountains brook, is approximate.
 

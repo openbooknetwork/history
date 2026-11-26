@@ -6,7 +6,7 @@ Henry V besieges [Meaux](@meaux-1422) on the Marne from October 1421 until May 1
 
 The Dauphin Charles has not waited: on 30 October, as Beaucourt tells it, he has already taken the title of King at [Mehun-sur-Yèvre](@mehun-1422), and from here this story calls him Charles VII. His enemies call him the "King of Bourges", because, Beaucourt explains, he stays so long at [Bourges](@bourges-1422).
 
-So France has two kings. Henry VI holds the north, where Lowell, for 1428, lists Paris and its country, Normandy, Perche, Alençon and most of Maine and Champagne. Charles VII is obeyed south of the river, between the Garonne and the Rhône, and in Dauphiné. The map shows the two roads to Baugé and the places of the two deaths and the two proclamations. Its zones are still those of the Treaty of Troyes, and approximate.
+So France has two kings. Henry VI holds the north, where Lowell, for 1428, lists Paris and its country, Normandy, Perche, Alençon and most of Maine and Champagne. Charles VII is obeyed south of the Loire, between the Garonne and the Rhône, and in Dauphiné. The map shows the two roads to Baugé and the places of the two deaths and the two proclamations. Its zones are still those of the Treaty of Troyes, and approximate.
 
 ### Notes
 

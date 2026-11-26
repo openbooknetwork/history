@@ -618,3 +618,259 @@
   introduced: texts
   owner: section-reviewer
   state: fixed
+- id: 020-section-reviewer-1
+  severity: weak
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/010-the-voices/text/en.md
+  field: body
+  replaces: clause
+  old: stood for Charles VII.
+  new: stood for Charles VII, the uncrowned king who held the lands south of the Loire.
+  source: 'agents/text.md 3, a person gets a few words where the page first names them; text.yaml section.opens: "Charles
+    VII, crowned nowhere ... holds the land south of the Loire"; research/020.md 020.8'
+  kind: wording
+  claim: '020.8'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 020-section-reviewer-2
+  severity: weak
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/010-the-voices/text/en.md
+  field: body
+  replaces: clause
+  old: called La Rousse. Lang and Lowell date this flight
+  new: called La Rousse. Her family and the other villagers go too, with their cattle; Lang and Lowell date this flight
+  source: 'research/020.md 020.11, agreed for the flight: "the people of Domrémy fled with their cattle to Neufchâteau, where
+    Joan''s family lodged" (Lang ch. 5, lines 3170-3173). The map''s legend (joan-1428-neufchateau, "Joan''s family flees
+    from Domrémy to Neufchâteau") and the marker neufchateau ("The people of Domrémy flee here with their cattle") showed
+    a flight the text did not tell. Capture: scratchpad maps-020-map-auditor/pack/shots/the-voices.png'
+  kind: map
+  claim: '020.11'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 020-section-reviewer-3
+  severity: taste
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/010-the-voices/text/en.md
+  field: body
+  replaces: clause
+  old: The map shows the English and their allies closing round Vaucouleurs,
+  new: The map shows Vaucouleurs hemmed in by English, Bar and Lorraine land,
+  source: 'Capture maps-020-map-auditor/pack/shots/the-voices.png: the zones round Vaucouleurs are the English kings'' lands,
+    the duchy of Bar and the duchy of Lorraine, as the legend names them; "their allies" left Bar unnamed'
+  kind: map
+  claim: '020.8'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 020-section-reviewer-4
+  severity: weak
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/020-salisbury-on-the-loire/text/en.md
+  field: body
+  replaces: clause
+  old: On 12 February 1429 Sir John Fastolf is bringing stores from Paris to the siege, with herrings for the fasting season,
+    when the French meet him at [Rouvray](@rouvray), two leagues from Janville. He makes a park of his carts and stakes.\*\*\*
+    The French had agreed to fight mounted, but the Scots of Sir John Stewart of Darnley dismount and attack. The English
+    sally out and break them, and the Count of Clermont's horsemen ride away. Darnley is among the dead. The fight is remembered
+    as the Battle of the Herrings.
+  new: On 12 February 1429 Sir John Fastolf is bringing stores from Paris to the siege, many of them herrings for the fasting
+    season. At [Rouvray](@rouvray), two leagues from Janville, French and Scots under Charles, Count of Clermont, come out
+    against him, and he makes a park of his carts and stakes.\*\*\* The French had agreed to fight mounted, but the Scots
+    of Sir John Stewart of Darnley dismount and attack. The English sally out and break them, and Clermont's horsemen ride
+    away. Darnley is among the dead. After the Battle of the Herrings, as the fight is called, Clermont goes home, and the
+    king's council talks of withdrawing to Dauphiné or Languedoc.
+  source: 'agents/text.md 3 and 5: the French force had no leader until its flight, and the battle no consequence. research/020.md
+    020.29 (Clermont leads the force from Blois, Ramsay; the Journal) and 020.30 (Clermont withdraws, the council weighs a
+    retreat to Dauphiné, the Journal, Ramsay; or Languedoc, Lowell); text.yaml salisbury-on-the-loire.account'
+  kind: wording
+  claim: '020.30'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 020-section-reviewer-5
+  severity: weak
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/020-salisbury-on-the-loire/text/en.md
+  field: body
+  replaces: clause
+  old: '@image salisbury-struck-miniature (after the map paragraph)'
+  new: '@image salisbury-struck-miniature (after the paragraph that tells Salisbury struck at the window of the Tourelles)'
+  source: 'section-reviewer step 5: the placeholder stands where the text speaks of its subject; text.yaml images, salisbury-struck-miniature:
+    "the Earl of Salisbury struck at the window of the Tourelles"'
+  kind: image
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 020-section-reviewer-6
+  severity: taste
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/020-salisbury-on-the-loire/text/en.md
+  field: body
+  replaces: clause
+  old: ring it with bastilles,
+  new: ring it with forts called bastilles,
+  source: agents/text.md 3; names.md Rules, the English siege works of Orléans are "bastilles"; research/020.md 020.22, "fortified
+    posts (bastilles)"
+  kind: wording
+  claim: '020.22'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 020-section-reviewer-7
+  severity: taste
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/020-salisbury-on-the-loire/text/en.md
+  field: body
+  replaces: clause
+  old: '[Jargeau](@jargeau-1428), while [Sully](@sully-1428), further up the river, surrenders too. / a French chronicle of
+    the siege, or / meeting at Rouvray; the routes are approximate.'
+  new: '[Jargeau](@jargeau-1428). [Sully](@sully-1428), upstream, surrenders too. / a French chronicle, or / meeting at Rouvray.'
+  source: agents/text.md 7, the body ran 357 words after 020-section-reviewer-4 and 6, over the hard limit of 350; agents/evidence.md,
+    "the text says in a clause that the line is approximate, once in a chapter", which the-voices says
+  kind: wording
+  introduced: review
+  owner: section-reviewer
+  state: fixed
+- id: 020-section-reviewer-8
+  severity: weak
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/030-vaucouleurs-again/text/en.md
+  field: body
+  replaces: clause
+  old: The Journal of the Siege tells that on the day of the Herrings, 12 February 1429, she knew of the defeat and told Baudricourt.\*\*\*
+    / to the shrine and to Nancy. Both roads are approximate.
+  new: The Journal of the Siege, a chronicle of Orléans, tells that she knew of the French defeat near Orléans at the Battle
+    of the Herrings on the very day, 12 February 1429, and told Baudricourt.\*\*\* / to the shrine and to Nancy.
+  source: 'agents/text.md 3: a reader who opens this page met neither the Journal nor the Herrings; research/020.md 020.23
+    and 020.31. The map clause is the chapter''s second (agents/evidence.md, once in a chapter), cut for the words the gloss
+    takes'
+  kind: wording
+  claim: '020.31'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 020-section-reviewer-9
+  severity: taste
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/040-eleven-days/text/en.md
+  field: body
+  replaces: clause
+  old: 12 February 1429, the day of the Herrings.
+  new: 12 February 1429, the day of the Battle of the Herrings near Orléans.
+  source: 'agents/text.md 3: the page names the Herrings without saying what they were; research/020.md 020.23 and 020.42'
+  kind: wording
+  claim: '020.42'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 020-section-reviewer-10
+  severity: weak
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/040-eleven-days/text/en.md
+  field: body, notes
+  replaces: clause
+  old: Lang and Thurston follow. / gives ten days rather than eleven. Beaucourt has the news
+  new: Lang and Thurston follow.\*\*\* / gives ten days rather than eleven. (new paragraph) \*\*\* Beaucourt has the news
+  source: 'text.yaml eleven-days.disputes, 020.43: "Beaucourt''s 8 March in a note" of the day of arrival; it stood in the
+    note of the eleven days (020.44), marked at the sentence before the arrival'
+  kind: attribution
+  claim: '020.43'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 020-section-reviewer-11
+  severity: taste
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/040-eleven-days/text/en.md
+  field: body
+  replaces: clause
+  old: into the king's, an approximate line through the towns
+  new: into the king's, through the towns
+  source: 'agents/evidence.md: the text says the line is approximate once in a chapter, which the-voices says; cut for the
+    words of 020-section-reviewer-9'
+  kind: wording
+  introduced: review
+  owner: section-reviewer
+  state: fixed
+- id: 020-section-reviewer-12
+  severity: weak
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/text/en.md
+  field: body
+  replaces: clause
+  old: At [Chinon](@chinon-audience) Joan lodges at an inn. / told him that the king made her wait two days. / Though courtiers
+    pretend to be the king, she knows him, by the counsel
+  new: Joan reaches [Chinon](@chinon-audience) in late February or early March 1429 and lodges at an inn. / told him that
+    Charles VII made her wait two days. / She picks out the king among his courtiers by the counsel
+  source: 'agents/text.md 3: the page gave no when for her coming and never named the king; research/020.md 020.43 (23 February,
+    Lowell; 6 March, the Continuator of Nangis; 8 March, Beaucourt) and 020.50. The third clause is cut for the words the
+    first two take'
+  kind: wording
+  claim: '020.43'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 020-section-reviewer-13
+  severity: taste
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/text/en.md
+  field: body
+  replaces: clause
+  old: Jean Pasquerel, later her confessor, had it / From about the middle of April she is at [Tours](@tours-armour), where
+    she is given / and Pasquerel, an Augustinian friar, as confessor.
+  new: Jean Pasquerel, an Augustinian friar, had it / From about mid-April, at [Tours](@tours-armour), she is given / and
+    Pasquerel as confessor.
+  source: 'agents/text.md 7: the body ran 366 words after 020-section-reviewer-12 and 14; the friar is described where the
+    page first names him, and the confessor where he becomes one'
+  kind: wording
+  introduced: review
+  owner: section-reviewer
+  state: fixed
+- id: 020-section-reviewer-14
+  severity: wrong
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/text/en.md
+  field: body
+  replaces: clause
+  old: Raoul de Gaucourt. The supplies for Orléans and their escort are assembling there, led by Gilles de Rais, the Marshal
+    de Boussac and La Hire.
+  new: Raoul de Gaucourt, the Grand Steward. There the convoy for besieged Orléans gathers under La Hire and the marshals
+    Gilles de Rais and Jean de Brosse, lord of Boussac.
+  source: 'names-check: "Marshal" stands without the words that tell who it is (it reads "the Marshal de Boussac" as the bare
+    title the rows Marshal Boucicaut and Marshal La Fayette open with); names.md, Boussac: "Jean de Brosse, lord of Boussac,
+    Marshal of France". research/020.md 020.58 (the marshals de Rais and de Boussac, Dunois; Lowell) and Dunois, Murray 12025-12029,
+    "the Sieur de Gaucourt, then Grand Steward"'
+  kind: check
+  claim: '020.58'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 020-section-reviewer-15
+  severity: taste
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/text/en.md
+  field: body
+  replaces: clause
+  old: The map shows her approximate road to Poitiers, back to Chinon with the court (Lowell),
+  new: The map shows her road to Poitiers, back to Chinon (Lowell),
+  source: 'agents/evidence.md: approximate once in a chapter; agents/text.md 7, the body ran over 350 words'
+  kind: wording
+  introduced: review
+  owner: section-reviewer
+  state: fixed
+- id: 020-section-reviewer-16
+  severity: taste
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/map.yaml
+  field: chinon-and-poitiers.markers
+  new: add a marker at Blois (about 47.59 N 1.33 E), the end of joan-1429-blois, where the text sends her and the convoy gathers.
+    It is in the frame (bbox -0.4 to 2.2 E), and the capture shows the route ending at an unnamed point; the plan lists it
+    as unmarked because 030 marks it (from-blois)
+  source: agents/text.md 2, each place the text names is on the map; capture maps-020-map-auditor/pack/shots/chinon-and-poitiers.png,
+    the route runs off north-east with no label; research/020.md 020.58
+  kind: map
+  claim: '020.58'
+  introduced: plan
+  owner: section-coordinator
+  state: open
+- id: 020-section-reviewer-17
+  severity: weak
+  file: content/joan-of-arc/.plan/names.md
+  field: First named in, the rows Charles II Duke of Lorraine, Louis de Bourbon Count of Vendôme, René of Anjou, Thomas Montagu
+    Earl of Salisbury, Chinon, Gien, the Loire (010), Dunois (070) and Nangis (050)
+  new: 'set each row''s "First named in" to 020, or have the texts of 010 name them as planned: names-check finds each first
+    named in a text of 020 (Salisbury is "Salisbury" alone in 010''s cravant-and-verneuil; Dunois in "(later Count of Dunois)",
+    which names.md itself asks for at the first mention on a page of 020-050; Nangis in the name of the French Continuator
+    of Guillaume de Nangis)'
+  source: node scripts/names-check.mjs joan-of-arc 020, nine lines
+  kind: check
+  introduced: names
+  owner: names
+  state: open

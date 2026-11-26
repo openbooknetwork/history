@@ -1,0 +1,25 @@
+- step: facts
+  task: review
+  status: pass
+  changed_files:
+    - content/joan-of-arc/pages/010-france-divided/010-murder-in-paris/text/en.md
+    - content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md
+    - content/joan-of-arc/pages/010-france-divided/030-harfleur-and-agincourt/text/en.md
+    - content/joan-of-arc/pages/010-france-divided/040-normandy-and-troyes/text/en.md
+    - content/joan-of-arc/pages/010-france-divided/050-two-kings/text/en.md
+    - content/joan-of-arc/pages/010-france-divided/060-cravant-and-verneuil/text/en.md
+    - content/joan-of-arc/.plan/faults/010.yaml
+    - content/joan-of-arc/.plan/fixes/010.yaml
+  faults: [010-section-reviewer-1, 010-section-reviewer-2, 010-section-reviewer-3, 010-section-reviewer-4, 010-section-reviewer-5, 010-section-reviewer-6, 010-section-reviewer-7, 010-section-reviewer-8, 010-section-reviewer-9, 010-section-reviewer-10, 010-section-reviewer-11, 010-section-reviewer-12]
+  unresolved: []
+  stale: []
+  pages_changed: [murder-in-paris, domremy, harfleur-and-agincourt, normandy-and-troyes, two-kings, cravant-and-verneuil]
+  declined: "none: the list held no open fault; the fact checker had fixed its own 35, those owned by the section-reviewer included"
+  check_left:
+    - "names-check, harfleur-and-agincourt: \"Charles d'Albret\" (row 050) first named in 010. A false positive. The sentence holds \"The Constable d'Albret\", which the case-sensitive form \"the Constable d'Albret\" does not match at the start of a sentence, and \"Charles of Orléans\", so the shared \"Charles\" group takes the row whose last word, d'albret, is in the sentence. This was there before this run. It is a fault of scripts/names-check.mjs (the overseer's)."
+    - "names-check, domremy: \"the\" stands without the words that tell who it is. A false positive of the People rows that open with \"the\", grouped under the key \"the\". This was there before this run. The fault is in the same script."
+  plan_points:
+    - "text.yaml harfleur-and-agincourt account: \"The map adds Harfleur to the English holdings\". The map adds no zone there, only the marker harfleur-1415 in the English colour, so the account should say marker."
+    - "text.yaml cravant-and-verneuil account: Lang's Bourges, Chinon and Gien are not in the text, which is cut for length. map.yaml cravant-and-verneuil unmarked still lists them; this is harmless."
+  lengths: "Bodies run 305 to 345 words. All six are over the soft limit, and the four battle and treaty pages are within 10 words of 350. My additions were offset by cuts (one sentence on cravant-and-verneuil, the Armagnac clause on murder-in-paris)."
+  image: "verneuil-second-miniature (images/010.yaml) is offered for the card verneuil-1424 and no text has a place for it. The card's images list belongs to the battle-implementor."

@@ -6,9 +6,9 @@ Charles II, Duke of Lorraine, sends her a safe-conduct and has her brought to [N
 
 Before she left for Nancy, Jean de Metz, a squire, had sworn at Vaucouleurs to take her to the king, and he and another squire, Bertrand de Poulengy, had offered to escort her at their own cost, which the king's treasury later repaid. The townspeople buy her men's clothes for the road. Laxart said that he and Jacques Alain paid twelve francs for her horse; Jean de Metz put it at about sixteen.\*\*
 
-Baudricourt gives way, though with doubt. He gives her a sword, makes her escort swear to take her well and safely, and, as Lang has it, says "Go, come what may." His reasons are not known, Lowell and Lang agree. The Journal of the Siege tells that on the day of the Herrings, 12 February 1429, she knew of the defeat and told Baudricourt.\*\*\*
+Baudricourt gives way, though with doubt. He gives her a sword, makes her escort swear to take her well and safely, and, as Lang has it, says "Go, come what may." His reasons are not known, Lowell and Lang agree. The Journal of the Siege, a chronicle of Orléans, tells that she knew of the French defeat near Orléans at the Battle of the Herrings on the very day, 12 February 1429, and told Baudricourt.\*\*\*
 
-The map shows her road from Burey to Vaucouleurs and her journey into Lorraine, to the shrine and to Nancy. Both roads are approximate.
+The map shows her road from Burey to Vaucouleurs and her journey into Lorraine, to the shrine and to Nancy.
 
 ### Notes
 

@@ -538,3 +538,94 @@
   old: "Oman calls Bedford's figure incredible."
   new: "Oman, who has Bedford report seven thousand slain or taken, calls that figure incredible."
   commit: 5e2f8757
+- fault: 010-section-reviewer-1
+  by: section-reviewer
+  file: content/joan-of-arc/pages/010-france-divided/010-murder-in-paris/text/en.md
+  field: text
+  old: In 1410 the young Charles of Orléans, Louis's son, marries the daughter of Bernard, Count of Armagnac, and the count takes the lead of the Orléans party, whose men become known as the Armagnacs.
+  new: From 1410 the Orléans party is led by Bernard, Count of Armagnac, father-in-law of Louis's young son, Charles of Orléans, and its men become known as the Armagnacs.
+  commit: 2354922f
+- fault: 010-section-reviewer-2
+  by: section-reviewer
+  file: content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md
+  field: text
+  old: Its boys and the boys of Domrémy fought
+  new: The boys of Maxey and of Domrémy fought
+  commit: 2354922f
+- fault: 010-section-reviewer-3
+  by: section-reviewer
+  file: content/joan-of-arc/pages/010-france-divided/030-harfleur-and-agincourt/text/en.md
+  field: text
+  old: He crosses on 19 October at
+  new: Oman has him cross on 19 October at
+  commit: 2354922f
+- fault: 010-section-reviewer-4
+  by: section-reviewer
+  file: content/joan-of-arc/pages/010-france-divided/030-harfleur-and-agincourt/text/en.md
+  field: text
+  old: Henry reaches Calais on 29 October, and the map adds Harfleur to the English lands.
+  new: Henry reaches Calais on 29 October, Ramsay writes, leaving Harfleur in English hands.
+  commit: 2354922f
+- fault: 010-section-reviewer-5
+  by: section-reviewer
+  file: content/joan-of-arc/pages/010-france-divided/040-normandy-and-troyes/text/en.md
+  field: text
+  old: On 10 September 1419 John the Fearless meets the Dauphin
+  new: On 10 September 1419 John the Fearless, Duke of Burgundy, meets the Dauphin
+  commit: 2354922f
+- fault: 010-section-reviewer-6
+  by: section-reviewer
+  file: content/joan-of-arc/pages/010-france-divided/040-normandy-and-troyes/text/en.md
+  field: text
+  old: By a treaty sealed in the cathedral of [Troyes](@troyes-1420) on 21 May 1420,
+  new: By the Treaty of [Troyes](@troyes-1420), sealed in the city's cathedral on 21 May 1420,
+  commit: 2354922f
+- fault: 010-section-reviewer-7
+  by: section-reviewer
+  file: content/joan-of-arc/pages/010-france-divided/040-normandy-and-troyes/text/en.md
+  field: text
+  old: The Dauphin's party keeps the rest of the kingdom. The zones are approximate, and so is the line of Henry's march to Caen. On the Meuse, Lowell writes, the Burgundians invade Bar, and the Duke of Lorraine swears allegiance to Henry V.
+  new: 'The Dauphin''s party keeps the rest of the kingdom. After the treaty the war reaches the Meuse too: the Burgundians invade Bar, Lowell writes, and the Duke of Lorraine swears allegiance to Henry V. The zones are approximate, and so is the line of Henry''s march to Caen.'
+  commit: 2354922f
+- fault: 010-section-reviewer-8
+  by: section-reviewer
+  file: content/joan-of-arc/pages/010-france-divided/050-two-kings/text/en.md
+  field: text
+  old: Charles VII is obeyed south of the river,
+  new: Charles VII is obeyed south of the Loire,
+  commit: 2354922f
+- fault: 010-section-reviewer-9
+  by: section-reviewer
+  file: content/joan-of-arc/pages/010-france-divided/060-cravant-and-verneuil/text/en.md
+  field: text
+  old: In June 1423 Bedford, the regent, marries
+  new: In June 1423 John, Duke of Bedford, regent for the child Henry VI, marries
+  commit: 2354922f
+- fault: 010-section-reviewer-10
+  by: section-reviewer
+  file: content/joan-of-arc/pages/010-france-divided/060-cravant-and-verneuil/text/en.md
+  field: text
+  old: Buchan, the Earl of Douglas and his son James, the Counts
+  new: The Earls of Buchan and Douglas, Douglas's son James, the Counts
+  commit: 2354922f
+- fault: 010-section-reviewer-11
+  by: section-reviewer
+  file: content/joan-of-arc/pages/010-france-divided/060-cravant-and-verneuil/text/en.md
+  field: text
+  old: for his part in the murder of Montereau.
+  new: for his part in John the Fearless's murder at Montereau.
+  commit: 2354922f
+- fault: 010-section-reviewer-12
+  by: section-reviewer
+  file: content/joan-of-arc/pages/010-france-divided/060-cravant-and-verneuil/text/en.md
+  field: text
+  old: means to carry the war down the river. The roads to Verneuil are approximate too.
+  new: means to carry the war down the Loire.
+  commit: 2354922f
+- fault: 010-overseer-1
+  by: overseer
+  file: content/joan-of-arc/.plan/010-france-divided/text.yaml
+  field: harfleur-and-agincourt, account
+  old: "The map adds Harfleur to the English holdings and"
+  new: "The map adds Harfleur as a marker in the English colour, with no English zone round it, and"
+  commit: 2354922f

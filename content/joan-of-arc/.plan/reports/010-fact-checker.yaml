@@ -78,3 +78,27 @@
     two-kings: 23
     cravant-and-verneuil: 33
     cards: "agincourt-1415 12, bauge-1421 8, verneuil-1424 13, every figure found with its author"
+- step: facts
+  task: recheck
+  status: pass
+  changed_files: []
+  faults: []
+  unresolved: []
+  stale: []
+  rechecked:
+    against: "git diff 2354922f -- content/joan-of-arc/pages/010-france-divided/, the commit each fix log entry names; every diff hunk matches its entry's old and new, and no other line of the six texts changed"
+    passed:
+      - "010-section-reviewer-1: Lowell ch. 1 (l. 351 passage): in 1410 Charles of Orléans married Bonne, daughter of Bernard, count of Armagnac, \"and thereafter the count led the opposition\"; the fault's ground that no line dates the marriage is wrong, as Lowell dates it 1410, but the new sentence is true to him and to Lang l. 1314"
+      - "010-section-reviewer-2: Lowell ch. 2 l. 1291-1297, Domrémy's boys as Armagnacs, Maxey's as Burgundians; the clause names the villages in the same order as the sides"
+      - "010-section-reviewer-3: 010.24, single (Oman), l. 18922"
+      - "010-section-reviewer-4: 010.34, Ramsay l. 15369; Harfleur in English hands: Ramsay 1 ch. 17 l. 15947-15960, the English garrison of Harfleur under Dorset in 1416"
+      - "010-section-reviewer-5: 010.5"
+      - "010-section-reviewer-6: 010.43; names.md, the Treaty of Troyes"
+      - "010-section-reviewer-7: Lowell ch. 2 l. 1086-1089, \"the treaty of Troyes, made in 1420, opened eastern France to the ravages of war\", before the Burgundians invade Bar (l. 1110) and Charles of Lorraine swears to Henry V (l. 1122); 010.17"
+      - "010-section-reviewer-8: 010.57, Lowell l. 690"
+      - "010-section-reviewer-9: 010.52, Ramsay l. 19625, Lang l. 1420"
+      - "010-section-reviewer-10: names.md rows the Earl of Buchan and the Earl of Douglas; 010.67, Ramsay l. 22413"
+      - "010-section-reviewer-11: 010.67, the Chronique de la Pucelle l. 9416; 010.40"
+      - "010-section-reviewer-12: 010.68, Oman l. 19386; the road of Salisbury is still called approximate on the page, which keeps the clause of agents/evidence.md for the chapter"
+  checked:
+    fixes: 12

@@ -194,3 +194,7 @@
 - cloud ruling: the estimated edges stand as reconstructions, and each disputed or open claim stands as its text
   tells it, with its authors or as not known — the fact checkers read each against its sources and found none told
   as plain fact.
+- section 010: done, 26 Nov 2026, maps to facts. 6 pages drawn, audited, written, with 13 images found, fact-checked,
+  reviewed (12 faults fixed) and rechecked (pass). No fault of `faults/010.yaml` is open.
+- cloud ruling: the second miniature offered for the Verneuil card is not taken — the card has its image, and no
+  page of the plan asks for another.

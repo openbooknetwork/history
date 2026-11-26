@@ -51,8 +51,8 @@ harfleur-and-agincourt:
   markers:
     harfleur-1415: { name: Harfleur, what: "Henry V lands near the Chef de Caux from 14 August 1415 and takes the town on 22 September, about 49.507 N 0.198 E. In the colour of english", basis: sourced, rank: 5 }
     blanche-taque-1415: { name: Blanche-Taque, what: "the ford of the Somme found held on 13 October 1415, about 50.139 N 1.742 E. In the colour of france", basis: reconstruction, why: "Ramsay names the ford, not its point; placed at the old ford between Saigneville and Port-le-Grand, as names.md gives it near Port-le-Grand", rank: 2 }
-    bethencourt-1415: { name: Béthencourt, what: "the English cross the Somme on 19 October 1415, about 49.795 N 2.957 E. In the colour of english", basis: sourced, rank: 3 }
-    calais-1415: { name: Calais, what: "the English town the army reaches on 29 October 1415, about 50.951 N 1.858 E. In the colour of english", basis: sourced, rank: 4 }
+    bethencourt-1415: { name: Béthencourt, what: "the English cross the Somme on 19 October 1415 (Oman), about 49.795 N 2.957 E. In the colour of france, which holds the village; the route shows the English army", basis: sourced, rank: 3 }
+    calais-1415: { name: Calais, what: "the English town the army reaches on 29 October 1415 (Ramsay), about 50.951 N 1.858 E. In the colour of english", basis: sourced, rank: 4 }
   unmarked:
     the Chef de Caux: "the landing is told in the Harfleur marker's note, a few kilometres off"
     Honfleur: "across the estuary from the landing, told in a clause"
@@ -77,13 +77,13 @@ normandy-and-troyes:
       basis: reconstruction
       why: "Wylie and Waugh give the start, the end and the coast. The line keeps to the coast between them; no source read names the villages."
   markers:
-    caen-1417: { name: Caen, what: "the first town of the conquest, taken by assault on 4 September 1417, its castle on 20 September, about 49.183 N -0.370 E. In the colour of english", basis: sourced, rank: 4 }
+    caen-1417: { name: Caen, what: "taken by assault on 4 September 1417, its castle on 20 September, about 49.183 N -0.370 E. In the colour of english", basis: sourced, rank: 4 }
     paris-1418: { name: Paris, what: "the Burgundians take the city in May and June 1418 and massacre the Armagnacs, the Count of Armagnac among them; the Dauphin is carried off, about 48.857 N 2.352 E. In the colour of burgundy", basis: sourced, rank: 4 }
     bourges-1418: { name: Bourges, what: "where the Dauphin flees in 1418 (Lang), about 47.081 N 2.399 E. In the colour of france", basis: sourced, rank: 4 }
     rouen-1419: { name: Rouen, what: "besieged from 29 July 1418, starved, surrendered on 19 January 1419, about 49.443 N 1.099 E. In the colour of english", basis: sourced, rank: 5 }
     mont-saint-michel-1419: { name: Mont-Saint-Michel, what: "the one place in Normandy left to the French at the end of 1419, about 48.636 N -1.511 E. In the colour of france", basis: sourced, rank: 3 }
     montereau-1419: { name: Montereau, what: "John the Fearless is killed at his meeting with the Dauphin on the bridge where the Yonne meets the Seine, 10 September 1419, about 48.385 N 2.952 E. In the colour of france", basis: sourced, rank: 5 }
-    troyes-1420: { name: Troyes, what: "the treaty is sealed in the cathedral on 21 May 1420, and Henry V marries Catherine of Valois there on 2 June, about 48.297 N 4.074 E. In the colour of english", basis: sourced, rank: 5 }
+    troyes-1420: { name: Troyes, what: "the treaty is sealed in the cathedral on 21 May 1420, and Henry V marries Catherine of Valois there on 2 June (Ramsay), about 48.297 N 4.074 E. In the colour of english", basis: sourced, rank: 5 }
     melun-1420: { name: Melun, what: "a hold of the Dauphin's party inside the land that obeys Henry V in 1420 (Ramsay), about 48.540 N 2.660 E. In the colour of france", basis: sourced, rank: 2 }
     meaux-1420: { name: Meaux, what: "a hold of the Dauphin's party inside the land that obeys Henry V in 1420 (Ramsay), about 48.960 N 2.878 E. In the colour of france", basis: sourced, rank: 2 }
     soissons-1420: { name: Soissons, what: "a hold of the Dauphin's party inside the land that obeys Henry V in 1420 (Ramsay), about 49.381 N 3.323 E. In the colour of france", basis: sourced, rank: 2 }
@@ -124,7 +124,7 @@ two-kings:
     vincennes-1422: { name: Vincennes, what: "Henry V dies in the castle on 31 August 1422, about 48.843 N 2.435 E. In the colour of english", basis: sourced, rank: 3 }
     paris-1422: { name: Paris, what: "Charles VI dies in his hôtel of Saint-Pol on 21 October 1422; Bedford rides back into the city as regent, about 48.853 N 2.362 E. In the colour of english", basis: sourced, rank: 3 }
     saint-denis-1422: { name: Saint-Denis, what: "Charles VI is buried in the abbey on 11 November 1422 and a herald cries Henry VI King of France and England, about 48.935 N 2.360 E. In the colour of english", basis: sourced, rank: 4 }
-    mehun-1422: { name: Mehun-sur-Yèvre, what: "the Dauphin takes the title of King, Charles VII, on 30 October 1422, about 47.144 N 2.215 E. In the colour of france", basis: sourced, rank: 4 }
+    mehun-1422: { name: Mehun-sur-Yèvre, what: "the Dauphin takes the title of King, Charles VII, on 30 October 1422 (Beaucourt), about 47.144 N 2.215 E. In the colour of france", basis: sourced, rank: 4 }
     bourges-1422: { name: Bourges, what: "where Charles VII makes his long stays, the cause of his enemies' nickname, the \"King of Bourges\" (Beaucourt), about 47.081 N 2.399 E. In the colour of france", basis: sourced, rank: 3 }
   unmarked:
     Baugé: "the battle card stands on the field by the church of Vieil-Baugé"

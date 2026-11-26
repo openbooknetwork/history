@@ -401,3 +401,220 @@
   introduced: plan
   owner: section-coordinator
   state: fixed
+- id: 020-section-writer-1
+  severity: weak
+  file: content/joan-of-arc/.plan/names.md
+  field: Writers of the sources, the row after Boismarmin
+  new: 'a row for "the Continuator of Guillaume de Nangis", first named in 020 (020.43), the chronicle that gives 6 March 1429 for her coming to Chinon'
+  source: "research/020.md, 020.43: \"6 March, the French Continuator of Guillaume de Nangis, the one chronicle that gives the day outright\"; text.yaml eleven-days names him; names-check: \"Continuator\" has no row"
+  kind: plan
+  claim: "020.43"
+  introduced: names
+  owner: names
+  state: fixed
+- id: 020-map-auditor-1
+  severity: weak
+  file: content/joan-of-arc/.plans/pages020.mjs
+  field: "salisbury-on-the-loire, markers, meung-1428, note (written to pages/020-the-road-to-chinon/020-salisbury-on-the-loire/markers.yaml); the plan's map.yaml, meung-1428, what"
+  replaces: clause
+  old: "Entered by the English about 8 September 1428;"
+  new: "Entered by the English about 8 September 1428 (Ramsay);"
+  source: "research/020.md, 020.14: \"agreed for the towns (Ramsay; Monstrelet; Lowell); the dates single (Ramsay), Jargeau's agreed with Lowell\" (Ramsay ch. 26, lines 24173-24183). Janville's and Beaugency's notes name Ramsay; Meung's date stood bare. rules.md, The careful side: a date the sources give differently names its author"
+  kind: map
+  claim: "020.14"
+  introduced: maps
+  owner: cartographer
+  state: fixed
+- id: 020-map-auditor-2
+  severity: weak
+  file: content/joan-of-arc/.plans/pages020.mjs
+  field: "salisbury-on-the-loire, markers, sully-1428, note (written to pages/020-the-road-to-chinon/020-salisbury-on-the-loire/markers.yaml)"
+  replaces: clause
+  old: "Georges de La Trémoille's town, surrendered in autumn 1428"
+  new: "Georges de La Trémoille's town, surrendered in autumn 1428, to the Burgundians as Ramsay has it"
+  source: "research/020.md, 020.16: Sully \"surrendered (to the Burgundians, Ramsay; by La Trémoille, its lord, Lowell)\"; Ramsay ch. 26, line 24204, \"higher still Sully fell into the hands of the Burgundians\"; Lowell ch. 7, lines 3735-3736, \"Sully, belonging to La Tremoille, which he hastened to surrender\". The marker is in the burgundy colour, Ramsay's reading, and its note named no holder and no author; the plan's what already names both"
+  kind: map
+  claim: "020.16"
+  introduced: maps
+  owner: cartographer
+  state: fixed
+- id: 020-map-auditor-3
+  severity: wrong
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "the east edge of the english zones of 1420 to 1429 (Champagne, line 5 of ground.yaml) and the west and north edges of bar-1412 (lines 93 and 94), against france-1407's Meuse (line 19)"
+  new: "Close the gap between Champagne, Bar and the Meuse, so that no land of the east is left to france-1428 and france-siege-1428 but the castellany of Vaucouleurs. A grid test at 0.01 degree of the zone files: france-1407 less english-1428 (or english-siege-1428), burgundy-1420, bar-1412 and lorraine-1412 leaves (a) a sliver of about 20 km2 west of the Meuse by Stenay, 5.08-5.14 E, 49.49-49.57 N, between the Champagne of today, the hand-drawn Meuse and bar-1412's line 94 from 5.25, 49.62; (b) a few km2 by Rocroi, 4.46-4.55 E, 49.93-49.98 N, on line 18; (c) a few km2 on the Flemish coast by Bray-Dunes, 2.60-2.65 E, 51.12-51.16 N, inside line 27, which burgundy-1420 does not reach. (a) shows in the blue of Charles VII's kingdom in the top left of the-voices' capture, and (a) and (b) lie in the frame of eleven-days. Proposed: let the english zones' Champagne run to line 19 where it meets bar-1412, or start bar-1412's line 94 on the Meuse; extend burgundy-1420's Flanders to line 27. The build's own notes list these as france-1428's small pieces (19, 20, 9 km2)"
+  source: "research/020.md, 020.8: Lowell ch. 3, lines 1549-1551, \"before midsummer, 1428, in the whole east of France, only the town of Vaucouleurs held for Charles VII\"; Lang ch. 2, lines 1672-1677, \"To the west, Champagne, with Troyes and Reims, was Anglo-Burgundian\"; brief.md Map, france-1407: \"Champagne is drawn in it to the Meuse\". Capture: scratchpad maps-020-map-auditor/pack/shots/the-voices.png, top left (enlarged in voices-north.png)"
+  kind: map
+  claim: "020.8"
+  introduced: maps
+  owner: map-keeper
+  state: open
+- id: 020-fact-checker-9
+  severity: weak
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/010-the-voices/text/en.md
+  field: body
+  replaces: clause
+  old: "Vaucouleurs is a walled town on the Meuse, twelve or thirteen miles north of Domrémy."
+  new: "Vaucouleurs is a walled town on the Meuse north of Domrémy, some twelve miles off by Lang's count and thirteen by Lowell's."
+  source: 'research/020.md, 020.62, "The distance from Domrémy differs": Lowell ch. 3, lines 1554-1555, "Domremy was only thirteen miles south of Vaucouleurs"; Lang ch. 5, lines 2982-2983, "some twelve miles distant from Domremy". The two figures stood without their authors.'
+  kind: attribution
+  claim: "020.62"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 020-fact-checker-10
+  severity: wrong
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/010-the-voices/text/en.md
+  field: body
+  replaces: clause
+  old: "In May 1428 Joan comes to Baudricourt with Durand Laxart, her cousin's husband, whom she called uncle, and is sent home."
+  new: "In May 1428 Joan comes to Baudricourt and is sent home in the company of Durand Laxart, her cousin's husband, whom she called uncle."
+  source: 'Murray, archive.org-download-jeannedarcmaidof028754mbp-jeannedarcmaidof028754mbp-djvu.txt.txt, Poulengy, lines 11867-11896: "I saw her speaking to the Captain, Robert de Baudricourt ... That time she went back to her father''s house, accompanied by one of her uncles, named Durand Laxart." The text, told as Poulengy''s memory, had Laxart bring her; Poulengy has him take her home.'
+  kind: fact
+  claim: "020.4"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 020-fact-checker-11
+  severity: weak
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/010-the-voices/text/en.md
+  field: notes
+  replaces: clause
+  old: "Against her fortnight, Lang notes, later witnesses spoke of four or five days."
+  new: "Lang notes that others who testified later made her stay at Neufchâteau four or five days, not a fortnight."
+  source: 'close-wording, 60%: Lang ch. 5, lines 3172-3173, "there they dwelt for a fortnight, Jeanne said ; later witnesses said for four or five days."'
+  kind: wording
+  claim: "020.11"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 020-fact-checker-12
+  severity: wrong
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/020-salisbury-on-the-loire/text/en.md
+  field: body
+  replaces: clause
+  old: "about half of them English."
+  new: "about half of them brought from England."
+  source: 'Lowell, archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, ch. 7, lines 3676-3684: "four or five thousand soldiers, about half of whom he had brought with him from England, while the rest had been raised in France or drafted from the English garrisons in Normandy and elsewhere. Most of his men were English". Lowell''s half is of men brought from England; he calls most of them English.'
+  kind: fact
+  claim: "020.13"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 020-fact-checker-13
+  severity: wrong
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/030-vaucouleurs-again/text/en.md
+  field: body
+  replaces: clause
+  old: "about three weeks in all, as the couple said in 1456."
+  new: "about three weeks in all, as Catherine said in 1456."
+  source: 'Murray, archive.org-download-jeannedarcmaidof028754mbp-jeannedarcmaidof028754mbp-djvu.txt.txt, Catherine Le Royer, lines 11759-11760: "She lived with us at Vaucouleurs, at different times about three weeks"; Henri Le Royer, lines 11787-11810, gives no length of stay. The year 1456 stands in Lang ch. 7, line 3572, "Lassois, in 1456".'
+  kind: attribution
+  claim: "020.32"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 020-fact-checker-14
+  severity: weak
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/030-vaucouleurs-again/text/en.md
+  field: body
+  replaces: clause
+  old: "Catherine Le Royer, who had it from Joan, told how he came to the house with the curé, Jean Fournier, who exorcised her."
+  new: "Catherine Le Royer saw him come to the house with the curé, Jean Fournier, and had it from Joan that the priest then exorcised her."
+  source: 'Murray, Catherine Le Royer, lines 11762-11768: "One day, I saw Robert de Baudricourt ... and Messire Jean Fournier, our Curé, come in to our house to visit her. After they were gone, she told me that the Priest had his stole, and that ... he adjured her". She saw the visit herself; the exorcism she had from Joan.'
+  kind: attribution
+  claim: "020.33"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 020-fact-checker-15
+  severity: wrong
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/030-vaucouleurs-again/text/en.md
+  field: body
+  replaces: clause
+  old: "At Vaucouleurs Jean de Metz, a squire, swears to take her to the king. He and another squire, Bertrand de Poulengy, offer to escort her"
+  new: "Before she left for Nancy, Jean de Metz, a squire, had sworn at Vaucouleurs to take her to the king, and he and another squire, Bertrand de Poulengy, had offered to escort her"
+  source: 'Murray, Jean de Metz, lines 11590-11605: he promised to conduct her to the king, and "Thus dressed and mounted, and furnished with a safe-conduct from the Sieur Charles, Duke de Lorraine, she went to visit the said Lord Duke"; Poulengy, lines 11897-11899: "Then Jean de Metz and I offered to conduct her to the King ... After a pilgrimage to Saint-Nicolas, she went to seek the Lord Duke"; Lang notes, lines 14742-14743, Metz''s promise about 6 February, then Nancy. The text set the oath after her return from Nancy.'
+  kind: fact
+  claim: "020.36"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 020-fact-checker-16
+  severity: weak
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/030-vaucouleurs-again/text/en.md
+  field: notes
+  replaces: clause
+  old: "Lang notes that the story stands only in chronicles of about 1467."
+  new: "Lang dates the chronicles that tell it to about 1467, long after, and does not take it as certain."
+  source: 'Lang, archive.org-download-maidoffrancebein00languoft-maidoffrancebein00languoft-djvu.txt.txt, notes, lines 14751-14753: "Of course the story of the vision about Rouvray is given in chronicles very late, about 1467, and is far from being matter of certain history." Lang says late, not "only"; the first rewording also followed his words (close-wording, 60%).'
+  kind: fact
+  claim: "020.31"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 020-fact-checker-17
+  severity: weak
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/040-eleven-days/text/en.md
+  field: body
+  replaces: clause
+  old: "For fear of the Burgundians and the English, who held the roads, they ride mostly by night and hear mass only twice."
+  new: "They travel mostly by night, Jean de Metz said, to stay clear of the Burgundian and English troops on the roads, and hear mass only twice."
+  source: 'Murray, Jean de Metz, lines 11621-11623: "We travelled for the most part at night, for fear of the Burgundians and the English, who were masters of the roads." The sentence kept the translator''s words and clauses outside quotation marks, and named no witness.'
+  kind: wording
+  claim: "020.45"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 020-fact-checker-18
+  severity: weak
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/text/en.md
+  field: notes
+  replaces: clause
+  old: "Pasquerel remembered Christ seated as judge above the clouds and an angel offering him a lily."
+  new: "In Pasquerel's memory it showed Christ judging from the clouds, blessing a fleur-de-lys that an angel held."
+  source: 'Murray, Pasquerel, lines 14322-14325: "the image of Our Saviour seated in judgment on the clouds of Heaven, with an Angel holding in his hand a fleur-de-lys which Christ was blessing". The angel holds the lily and Christ blesses it; nothing is offered.'
+  kind: fact
+  claim: "020.56"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 020-fact-checker-19
+  severity: weak
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/030-vaucouleurs-again/page.yaml
+  field: sources
+  replaces: clause
+  old: '  - "A. Lang, The Maid of France (1908), ch. 7."'
+  new: '  - "A. Lang, The Maid of France (1908), ch. 7."  and after it  - "H. Thurston, \"St. Joan of Arc\", Catholic Encyclopedia (1910)."'
+  source: 'The text''s note cites Thurston: "Thurston dates her announcement 17 February" (newadvent.org-cathen-08409c.txt, paragraph 16, "On 17 February she announced a great defeat"), and the page''s sources left him out.'
+  kind: sources
+  claim: "020.31"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 020-fact-checker-20
+  severity: weak
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/040-eleven-days/page.yaml
+  field: sources
+  replaces: clause
+  old: '  - "A. Lang, The Maid of France (1908), ch. 7 and 8."'
+  new: 'the same line, followed by Thurston, "St. Joan of Arc", Catholic Encyclopedia (1910); E. de Monstrelet, Chronicles, tr. T. Johnes (1849), book 2, ch. 57; G. du Fresne de Beaucourt, Histoire de Charles VII, vol. 2 (1882), book 2, ch. 5'
+  source: 'The text cites Thurston (three men-at-arms, newadvent paragraph 16; 6 March, paragraph 17), Monstrelet ("from four to six men as an escort", chroniclesengue06johngoog, book 2 ch. 57, line 38940) and Beaucourt (8 March, book 2 ch. 5, lines 10930-10932), none of them in the page''s sources.'
+  kind: sources
+  claim: "020.41"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 020-fact-checker-21
+  severity: weak
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/page.yaml
+  field: sources
+  replaces: clause
+  old: '  - "G. du Fresne de Beaucourt, Histoire de Charles VII, vol. 2 (1882), book 2, ch. 5."'
+  new: 'the same line, followed by  - "H. Thurston, \"St. Joan of Arc\", Catholic Encyclopedia (1910)."'
+  source: 'The text cites Thurston for the banner ("Thurston gives a picture of God with kneeling angels", newadvent paragraph 19) and rests "no record survives" on him (paragraph 18, "the minutes of the proceedings ... have altogether perished"); the page''s sources left him out.'
+  kind: sources
+  claim: "020.56"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed

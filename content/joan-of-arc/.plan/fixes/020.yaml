@@ -259,3 +259,122 @@
   old: "(no entry for Nangis)"
   new: 'Nangis: "in the name of the French Continuator of Guillaume de Nangis, a chronicler whose date of her coming to Chinon is told; no event of this page is there."'
   commit: 4bca27ca
+- fault: 020-section-writer-1
+  by: section-writer
+  file: content/joan-of-arc/.plan/names.md
+  field: Writers of the sources, the row after Boismarmin
+  old: "(no row)"
+  new: '| the Continuator of Guillaume de Nangis | the French continuator of the chronicle of Guillaume de Nangis, the one chronicle that gives the day of her coming to Chinon, 6 March 1429; "the French Continuator of Guillaume de Nangis" at the first mention on a page | 020 (020.43) | Continuateur français de Guillaume de Nangis; the Continuator of Nangis |'
+  commit: 5e2f8757
+- fault: 020-map-auditor-1
+  by: map-auditor
+  file: content/joan-of-arc/.plans/pages020.mjs
+  field: "salisbury-on-the-loire, markers, meung-1428, note; run again, it writes pages/020-the-road-to-chinon/020-salisbury-on-the-loire/markers.yaml"
+  old: "Entered by the English about 8 September 1428; the Earl of Salisbury dies here of his wound"
+  new: "Entered by the English about 8 September 1428 (Ramsay); the Earl of Salisbury dies here of his wound"
+  commit: 5e2f8757
+- fault: 020-map-auditor-1
+  by: map-auditor
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/map.yaml
+  field: salisbury-on-the-loire, markers, meung-1428, what
+  old: "surrenders and is entered about 8 September 1428; Salisbury dies here of his wound"
+  new: "surrenders and is entered about 8 September 1428 (Ramsay); Salisbury dies here of his wound"
+  commit: 5e2f8757
+- fault: 020-map-auditor-2
+  by: map-auditor
+  file: content/joan-of-arc/.plans/pages020.mjs
+  field: "salisbury-on-the-loire, markers, sully-1428, note; run again, it writes pages/020-the-road-to-chinon/020-salisbury-on-the-loire/markers.yaml"
+  old: "Georges de La Trémoille's town, surrendered in autumn 1428"
+  new: "Georges de La Trémoille's town, surrendered in autumn 1428, to the Burgundians as Ramsay has it"
+  commit: 5e2f8757
+- fault: 020-fact-checker-9
+  by: fact-checker
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/010-the-voices/text/en.md
+  field: body
+  old: "Vaucouleurs is a walled town on the Meuse, twelve or thirteen miles north of Domrémy."
+  new: "Vaucouleurs is a walled town on the Meuse north of Domrémy, some twelve miles off by Lang's count and thirteen by Lowell's."
+  commit: 5e2f8757
+- fault: 020-fact-checker-10
+  by: fact-checker
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/010-the-voices/text/en.md
+  field: body
+  old: "In May 1428 Joan comes to Baudricourt with Durand Laxart, her cousin's husband, whom she called uncle, and is sent home."
+  new: "In May 1428 Joan comes to Baudricourt and is sent home in the company of Durand Laxart, her cousin's husband, whom she called uncle."
+  commit: 5e2f8757
+- fault: 020-fact-checker-11
+  by: fact-checker
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/010-the-voices/text/en.md
+  field: notes
+  old: "Against her fortnight, Lang notes, later witnesses spoke of four or five days."
+  new: "Lang notes that others who testified later made her stay at Neufchâteau four or five days, not a fortnight."
+  commit: 5e2f8757
+- fault: 020-fact-checker-12
+  by: fact-checker
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/020-salisbury-on-the-loire/text/en.md
+  field: body
+  old: "about half of them English."
+  new: "about half of them brought from England."
+  commit: 5e2f8757
+- fault: 020-fact-checker-13
+  by: fact-checker
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/030-vaucouleurs-again/text/en.md
+  field: body
+  old: "about three weeks in all, as the couple said in 1456."
+  new: "about three weeks in all, as Catherine said in 1456."
+  commit: 5e2f8757
+- fault: 020-fact-checker-14
+  by: fact-checker
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/030-vaucouleurs-again/text/en.md
+  field: body
+  old: "Catherine Le Royer, who had it from Joan, told how he came to the house with the curé, Jean Fournier, who exorcised her."
+  new: "Catherine Le Royer saw him come to the house with the curé, Jean Fournier, and had it from Joan that the priest then exorcised her."
+  commit: 5e2f8757
+- fault: 020-fact-checker-15
+  by: fact-checker
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/030-vaucouleurs-again/text/en.md
+  field: body
+  old: "At Vaucouleurs Jean de Metz, a squire, swears to take her to the king. He and another squire, Bertrand de Poulengy, offer to escort her"
+  new: "Before she left for Nancy, Jean de Metz, a squire, had sworn at Vaucouleurs to take her to the king, and he and another squire, Bertrand de Poulengy, had offered to escort her"
+  commit: 5e2f8757
+- fault: 020-fact-checker-16
+  by: fact-checker
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/030-vaucouleurs-again/text/en.md
+  field: notes
+  old: "Lang notes that the story stands only in chronicles of about 1467."
+  new: "Lang dates the chronicles that tell it to about 1467, long after, and does not take it as certain."
+  commit: 5e2f8757
+- fault: 020-fact-checker-17
+  by: fact-checker
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/040-eleven-days/text/en.md
+  field: body
+  old: "For fear of the Burgundians and the English, who held the roads, they ride mostly by night and hear mass only twice."
+  new: "They travel mostly by night, Jean de Metz said, to stay clear of the Burgundian and English troops on the roads, and hear mass only twice."
+  commit: 5e2f8757
+- fault: 020-fact-checker-18
+  by: fact-checker
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/text/en.md
+  field: notes
+  old: "Pasquerel remembered Christ seated as judge above the clouds and an angel offering him a lily."
+  new: "In Pasquerel's memory it showed Christ judging from the clouds, blessing a fleur-de-lys that an angel held."
+  commit: 5e2f8757
+- fault: 020-fact-checker-19
+  by: fact-checker
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/030-vaucouleurs-again/page.yaml
+  field: sources
+  old: "(no Thurston line)"
+  new: '  - "H. Thurston, \"St. Joan of Arc\", Catholic Encyclopedia (1910)."'
+  commit: 5e2f8757
+- fault: 020-fact-checker-20
+  by: fact-checker
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/040-eleven-days/page.yaml
+  field: sources
+  old: "(no Thurston, Monstrelet or Beaucourt line)"
+  new: '  - "H. Thurston, \"St. Joan of Arc\", Catholic Encyclopedia (1910)." / - "E. de Monstrelet, Chronicles, tr. T. Johnes (1849), book 2, ch. 57." / - "G. du Fresne de Beaucourt, Histoire de Charles VII, vol. 2 (1882), book 2, ch. 5."'
+  commit: 5e2f8757
+- fault: 020-fact-checker-21
+  by: fact-checker
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/page.yaml
+  field: sources
+  old: "(no Thurston line)"
+  new: '  - "H. Thurston, \"St. Joan of Arc\", Catholic Encyclopedia (1910)."'
+  commit: 5e2f8757

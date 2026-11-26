@@ -14,3 +14,45 @@
     - "020.40 and 020.51 (open): why Baudricourt gave way and what the sign was; text.yaml says each is not known."
   stale: []
   checked: "11 routes against their passages, 26 zone listings against the brief's Map part, 1 card (12 figures), 5 pages' date and when"
+- step: facts
+  task: check
+  status: pass
+  changed_files:
+    - content/joan-of-arc/pages/020-the-road-to-chinon/010-the-voices/text/en.md
+    - content/joan-of-arc/pages/020-the-road-to-chinon/020-salisbury-on-the-loire/text/en.md
+    - content/joan-of-arc/pages/020-the-road-to-chinon/030-vaucouleurs-again/text/en.md
+    - content/joan-of-arc/pages/020-the-road-to-chinon/040-eleven-days/text/en.md
+    - content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/text/en.md
+    - content/joan-of-arc/pages/020-the-road-to-chinon/030-vaucouleurs-again/page.yaml
+    - content/joan-of-arc/pages/020-the-road-to-chinon/040-eleven-days/page.yaml
+    - content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/page.yaml
+    - content/joan-of-arc/.plan/faults/020.yaml
+    - content/joan-of-arc/.plan/fixes/020.yaml
+  faults: [020-fact-checker-9, 020-fact-checker-10, 020-fact-checker-11, 020-fact-checker-12, 020-fact-checker-13, 020-fact-checker-14, 020-fact-checker-15, 020-fact-checker-16, 020-fact-checker-17, 020-fact-checker-18, 020-fact-checker-19, 020-fact-checker-20, 020-fact-checker-21]
+  unresolved:
+    - "020.2 (disputed), the year of the first voice: the-voices says 1424 or 1425; a note gives Thurston's 1425, Lowell's neither exact, Lang's 1425 and 'even more probably' 1424."
+    - "020.4 (disputed), the visit of May 1428: told as Poulengy's memory; a note gives Lang's assent, Thurston's month later, Lowell's doubt."
+    - "020.10 (open for how), Baudricourt keeping Vaucouleurs: 'how he kept it is not known'; a note gives Lang's compact of 22 July and Lowell's guess."
+    - "020.11 (disputed date), the flight to Neufchâteau: Lang's and Lowell's July 1428 named; a note gives Murray's September 1426 and the four or five days."
+    - "020.12 (disputed), Salisbury's crossing: body 'July 1428'; a note gives Lowell's Calais about 1 July and Ramsay's Sandwich 19 July."
+    - "020.13 and 020.15 (single each): Ramsay's 2,700 and Lowell's four or five thousand, each named; the town counts are not told."
+    - "020.18 (disputed), who broke the bridge: the Journal (English) and Lowell (French), both named."
+    - "020.19 (disputed dates), Salisbury's wound and death: body gives no day; a note gives the Journal, Ramsay and Monstrelet."
+    - "020.24, 020.26, 020.27 (disputed), the Herrings' order, strengths and losses: the park's form in a note with three authors; every figure on the card names its author; the text gives no number."
+    - "020.31 (disputed), the vision of the Herrings: told as the Journal's; a note gives Lowell, Lang and Thurston's 17 February."
+    - "020.38 (disputed), the horse: Laxart's twelve francs and Metz's sixteen in the body, Morel's black horse and Lowell's doubt in a note."
+    - "020.40 and 020.51 (open): why Baudricourt gave way, and what the sign was, each told as not known."
+    - "020.42 and 020.43 (disputed), the days of leaving and of reaching Chinon: three days of leaving with their authors; 23 February (Lowell) or 6 March (the Continuator of Nangis, followed by Quicherat, Lang, Thurston), Beaucourt's 8 March in a note."
+    - "020.53, 020.56, 020.57, 020.60 (disputed): Poitiers' length and dates, the banner's design, how she knew of the sword, and where Yolande examined her are each told with their authors."
+    - "020.58 (disputed day): chinon-and-poitiers ends at Blois with no day for the march, as the plan has it."
+  stale: []
+  turns_on:
+    - "020.3, what she said the voices bade her: the trial record (Barrett, public examination of 22 February 1431)."
+    - "020.8, Vaucouleurs as the one town of the east for Charles VII: Lowell ch. 3, told with his name."
+    - "020.16, the English hold three of the four Loire bridges between Sully and Blois: Lowell ch. 7 note; Ramsay ch. 26."
+    - "020.17 and 020.18, the siege from 12 October and the Tourelles on 24 October 1428: the Journal du siège (Quicherat 4); Ramsay ch. 26."
+    - "020.19, Salisbury's death at Meung: the Journal; Ramsay; Monstrelet book 2 ch. 52."
+    - "020.23, the Herrings an English victory: the Journal; Monstrelet book 2 ch. 56; the Bourgeois; Ramsay; Oman book 14 ch. 2."
+    - "020.43, the day she reached Chinon: the Livre Noir of La Rochelle by Lowell ch. 5 note; the Continuator of Nangis (Quicherat 4, p. 313), 'le seul qui donne d'une manière expresse la date'."
+    - "020.52, the Poitiers finding: Pasquerel and Seguin (Murray); Beaucourt book 2 ch. 5; Thurston."
+  checked: "the-voices 21, salisbury-on-the-loire 27, vaucouleurs-again 24, eleven-days 22, chinon-and-poitiers 26 claims; 27 marker notes; the herrings-1429 card, 12 figures"

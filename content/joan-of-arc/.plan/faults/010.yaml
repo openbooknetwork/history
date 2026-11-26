@@ -524,3 +524,327 @@
   introduced: battles
   owner: battle-implementor
   state: fixed
+- id: 010-section-writer-1
+  severity: weak
+  file: content/joan-of-arc/.plan/names.md
+  field: Places, Tours
+  replaces: clause
+  old: "| Tours | whole story | Tours, Indre-et-Loire | 020 (020.55) | |"
+  new: "| Tours | whole story | Tours, Indre-et-Loire | 010 (010.62, Cagny's passage) | |"
+  source: 'archive.org-download-chroniquesdeperc00cagnuoft-chroniquesdeperc00cagnuoft-djvu.txt.txt (passage of 010.62/010.65): the army of 1424 "prindrent leur chemin de Tours"; text.yaml of 010, cravant-and-verneuil, has the army set out from Tours, and the text names it'
+  kind: plan
+  claim: "010.62"
+  introduced: names
+  owner: names
+  state: fixed
+- id: 010-section-writer-2
+  severity: taste
+  file: content/joan-of-arc/.plan/names.md
+  field: Rules, Transliteration and spelling, Terms
+  replaces: clause
+  old: 'abjuration and relapse; bailli; livres tournois.'
+  new: 'abjuration and relapse; bailli; livres tournois; the prayers the Paternoster, the Ave Maria and the Credo; the Epiphany (6 January); the church of Saint-Remy at Domrémy.'
+  source: 'sourcebooks.web.fordham.edu-basis-joanofarc-trial.asp.txt, 21 February 1431: "her mother taught her the Paternoster, Ave Maria and Credo" (010.12); Quicherat 5, Boulainvilliers, "In nocte Epiphaniarum Domini" (010.10); Murray, Jean Morel, "the Parish Church of Saint Remy" (010.8); names-check found no row for them in the domremy text'
+  kind: plan
+  introduced: names
+  owner: names
+  state: fixed
+- id: 010-map-auditor-1
+  severity: weak
+  file: content/joan-of-arc/.plans/pages010.cjs
+  field: "markers['bethencourt-1415'], color (and map.yaml harfleur-and-agincourt.markers.bethencourt-1415.what, the colour clause)"
+  replaces: value
+  old: "english"
+  new: "france"
+  source: 'agents/pages.md, Zone families: "A marker''s color names the family of the state that holds the place, and a route''s color the family of the army"; node scripts/points.mjs joan-of-arc 010: bethencourt-1415 "in france-1412, 36 km from its edge" (Picardy French in 1415; 010.7 Lang''s Picardy is told and not drawn, as the brief''s Map part says). The English only cross there (010.24, Oman); the route henry-v-1415-calais carries the army. Capture: pack/shots/harfleur-and-agincourt.png, the green footprints on blue land'
+  kind: map
+  claim: "010.24"
+  introduced: plan
+  owner: cartographer
+  state: fixed
+- id: 010-map-auditor-2
+  severity: weak
+  file: content/joan-of-arc/.plans/pages010.cjs
+  field: "markers['bethencourt-1415'], note (and map.yaml harfleur-and-agincourt.markers.bethencourt-1415.what)"
+  replaces: clause
+  old: "Henry V's army crosses the Somme, 19 October 1415"
+  new: "Henry V's army crosses the Somme, 19 October 1415 (Oman)"
+  source: 'research 010.24: "single for the crossing (Oman)", "army only succeeded in crossing the river on 19th October" (archive.org-download-historyofartofwa0002char-historyofartofwa0002char-djvu.txt.txt, l. 18922); rules.md, The older scholars: a number only one of them gives is told with his name; text.yaml of 010 tells it "(Oman)"'
+  kind: attribution
+  claim: "010.24"
+  introduced: plan
+  owner: cartographer
+  state: fixed
+- id: 010-map-auditor-3
+  severity: weak
+  file: content/joan-of-arc/.plans/pages010.cjs
+  field: "markers['calais-1415'], note (and map.yaml harfleur-and-agincourt.markers.calais-1415.what)"
+  replaces: clause
+  old: "The English town Henry V's army reaches, 29 October 1415"
+  new: "The English town Henry V's army reaches, 29 October 1415 (Ramsay)"
+  source: 'research 010.34: "single (Ramsay)", "On the 29th October the army reached Calais" (archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt, l. 15369); rules.md, The older scholars; text.yaml of 010 tells it "(Ramsay)"'
+  kind: attribution
+  claim: "010.34"
+  introduced: plan
+  owner: cartographer
+  state: fixed
+- id: 010-map-auditor-4
+  severity: weak
+  file: content/joan-of-arc/.plans/pages010.cjs
+  field: "markers['troyes-1420'], note (and map.yaml normandy-and-troyes.markers.troyes-1420.what)"
+  replaces: clause
+  old: "Henry V marries Catherine of Valois here on 2 June"
+  new: "Henry V marries Catherine of Valois here on 2 June (Ramsay)"
+  source: 'research 010.45: "single for the day (Ramsay)", "Trinity Sunday (2nd June), Henry and Catherine ... were married in the cathedral of Troyes" (archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt, l. 18460); text.yaml of 010 tells it "(Ramsay''s day)"'
+  kind: attribution
+  claim: "010.45"
+  introduced: plan
+  owner: cartographer
+  state: fixed
+- id: 010-map-auditor-5
+  severity: weak
+  file: content/joan-of-arc/.plans/pages010.cjs
+  field: "markers['mehun-1422'], note (and map.yaml two-kings.markers.mehun-1422.what)"
+  replaces: clause
+  old: "The Dauphin Charles takes the title of King, as Charles VII, 30 October 1422"
+  new: "The Dauphin Charles takes the title of King, as Charles VII, 30 October 1422 (Beaucourt)"
+  source: 'research 010.55: "single (Beaucourt): Ramsay''s note for Mehun cites Beaucourt, i. 241", "le 30 qu''il prit le titre de" (archive.org-rt-histoire-de-charles-vii-v-2-Beaucourt-20Histoire-20de-20Charles-20VII-20v-202-djvu.txt.txt, l. 2795); text.yaml of 010 tells it "(Beaucourt, told with his name)"'
+  kind: attribution
+  claim: "010.55"
+  introduced: plan
+  owner: cartographer
+  state: fixed
+- id: 010-fact-checker-18
+  severity: "weak"
+  file: "content/joan-of-arc/pages/010-france-divided/010-murder-in-paris/text/en.md"
+  field: "text"
+  replaces: "clause"
+  old: "who rules the trading cities of Flanders to the north and the duchy and county of Burgundy to the east."
+  new: "whose lands take in the cities of Flanders to the north and, to the east, both the duchy and the county of Burgundy."
+  source: "archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt 305-307 (ch. 1): \"they ruled the trading cities of Flanders to the north of France, and both the duchy and county of Burgundy to the east\": the clause kept Lowell's words and order"
+  kind: "wording"
+  claim: "010.7"
+  introduced: "texts"
+  owner: "section-reviewer"
+  state: fixed
+- id: 010-fact-checker-19
+  severity: "weak"
+  file: "content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md"
+  field: "text"
+  replaces: "clause"
+  old: "Jacques came from Ceffonds in Champagne, and Isabelle, called Romée, from Vouthon."
+  new: "Jacques's birthplace was Ceffonds, in Champagne; Isabelle, known as Romée, came from Vouthon."
+  source: "archive.org-download-maidoffrancebein00languoft-maidoffrancebein00languoft-djvu.txt.txt 1667-1669 (ch. 2): \"Jacques d'Arc, a native of Ceffonds in Champagne, with his wife, from Vouthon, named Isabelle (de Vouthon), and called Romée\"; close-wording.mjs: 63% of the sentence in order in this passage"
+  kind: "wording"
+  claim: "010.11"
+  introduced: "texts"
+  owner: "section-reviewer"
+  state: fixed
+- id: 010-fact-checker-20
+  severity: "weak"
+  file: "content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md"
+  field: "text"
+  replaces: "clause"
+  old: "an island of loyalty in country"
+  new: "\"a kind of island of loyalty\" in country"
+  source: "archive.org-download-maidoffrancebein00languoft-maidoffrancebein00languoft-djvu.txt.txt 1660-1662 (ch. 2): \"The villenie of Vaucouleurs, including Domremy and Greux, was a kind of island of loyalty in a region either Anglo-Burgundian, or alien\": Lang's own phrase, named to him, now in quotation marks"
+  kind: "wording"
+  claim: "010.15"
+  introduced: "texts"
+  owner: "section-reviewer"
+  state: fixed
+- id: 010-fact-checker-21
+  severity: "weak"
+  file: "content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md"
+  field: "text"
+  replaces: "clause"
+  old: "The boys of the two villages fought each other in the meadows as Armagnacs and Burgundians, a quarrel that Lowell takes for an old feud between neighbours."
+  new: "Its boys and the boys of Domrémy fought as Burgundians against Armagnacs, a rivalry that Lowell thinks was more likely an old grudge between villages than politics."
+  source: "archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt 1291-1297 (ch. 2): \"The boys of Joan's age at Domremy used to fight in the meadows with the boys of Maxey, the former as Armagnacs, the latter as Burgundians; but these childish quarrels ... were probably the remains of an old local feud between the two villages, rather than the result of recent political strife\": Lowell's \"probably\" had dropped out, and the sentence followed his order of clauses"
+  kind: "attribution"
+  claim: "010.16"
+  introduced: "texts"
+  owner: "section-reviewer"
+  state: fixed
+- id: 010-fact-checker-22
+  severity: "weak"
+  file: "content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md"
+  field: "text, Notes"
+  replaces: "clause"
+  old: "did the work of the house and did not go to the fields to look after the sheep and other animals."
+  new: "did the work of the house and did not take the sheep or the other beasts out to the fields."
+  source: "sourcebooks.web.fordham.edu-basis-joanofarc-trial.asp.txt, 22 February 1431: \"she saw to the ordinary domestic tasks; and that she did not go to the fields to look after the sheep and other animals\": Barrett's translation kept word for word outside quotation marks"
+  kind: "wording"
+  claim: "010.13"
+  introduced: "texts"
+  owner: "section-reviewer"
+  state: fixed
+- id: 010-fact-checker-23
+  severity: "weak"
+  file: "content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md"
+  field: "text, Notes"
+  replaces: "clause"
+  old: "Lang has her father's house divided from Lorraine by the brook, or even on the Lorraine side of it,"
+  new: "Lang has her father's house divided from Lorraine only by a little stream, or even on the Lorraine side of the border,"
+  source: "archive.org-download-maidoffrancebein00languoft-maidoffrancebein00languoft-djvu.txt.txt 1663-1665 (ch. 2): \"From the Duchy of Loraine the house of the father of Jeanne was separated only by a little burn, or it was even on the Loraine side of the march\": Lang does not name the stream, and \"the brook\", after Lowell's Three Fountains brook, made him say it was the same"
+  kind: "attribution"
+  claim: "010.14"
+  introduced: "texts"
+  owner: "section-reviewer"
+  state: fixed
+- id: 010-fact-checker-24
+  severity: "weak"
+  file: "content/joan-of-arc/pages/010-france-divided/030-harfleur-and-agincourt/text/en.md"
+  field: "text"
+  replaces: "clause"
+  old: "his fleet anchors at the mouth of the Seine near the Chef de Caux,"
+  new: "his fleet comes to anchor in the estuary of the Seine, close to the Chef de Caux,"
+  source: "archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt 14222-14223 (ch. 15): \"the King dropped anchor at the mouth of the Seine, near the \\\"Chef de Caux\\\"\": the clause kept Ramsay's run of words"
+  kind: "wording"
+  claim: "010.19"
+  introduced: "texts"
+  owner: "section-reviewer"
+  state: fixed
+- id: 010-fact-checker-25
+  severity: "weak"
+  file: "content/joan-of-arc/pages/010-france-divided/040-normandy-and-troyes/text/en.md"
+  field: "text"
+  replaces: "clause"
+  old: "to [Caen](@caen-1417), the first town of his conquest, which falls to an assault on 4 September."
+  new: "to [Caen](@caen-1417), which falls to an assault on 4 September."
+  source: "unsourced: \"first\" searched near Caen in Ramsay 1, Wylie and Waugh 3 and Oman, and in none; archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt 16584-16585: \"On the 9th August the Castle of Touques surrendered to him\", before Caen fell on 4 September (l. 16633). The digest line 010.37 gives \"the first town of the conquest\" with no quote that says it"
+  kind: "fact"
+  claim: "010.37"
+  introduced: "research"
+  owner: "section-reviewer"
+  state: fixed
+- id: 010-fact-checker-26
+  severity: "weak"
+  file: "content/joan-of-arc/shared/markers.yaml"
+  field: "caen-1417.note"
+  replaces: "clause"
+  old: "The first town of the conquest, taken by assault on 4 September 1417, its castle on 20 September"
+  new: "Taken by assault on 4 September 1417, its castle on 20 September"
+  source: "unsourced: \"first\" searched near Caen in Ramsay 1, Wylie and Waugh 3 and Oman, and in none; archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt 16584-16585: \"On the 9th August the Castle of Touques surrendered to him\", before Caen fell on 4 September (l. 16633); the note is written by content/joan-of-arc/.plans/pages010.cjs, changed there too"
+  kind: "fact"
+  claim: "010.37"
+  introduced: "research"
+  owner: "cartographer"
+  state: fixed
+- id: 010-fact-checker-27
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/010-france-divided/map.yaml"
+  field: "normandy-and-troyes markers caen-1417.what"
+  replaces: "clause"
+  old: "the first town of the conquest, taken by assault on 4 September 1417"
+  new: "taken by assault on 4 September 1417"
+  source: "unsourced: \"first\" searched near Caen in Ramsay 1, Wylie and Waugh 3 and Oman, and in none; archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt 16584-16585: \"On the 9th August the Castle of Touques surrendered to him\", before Caen fell on 4 September (l. 16633)"
+  kind: "plan"
+  claim: "010.37"
+  introduced: "research"
+  owner: "section-coordinator"
+  state: fixed
+- id: 010-fact-checker-28
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/research.md"
+  field: "010.37"
+  replaces: "clause"
+  old: "010.37 Event: Caen, the first town of the conquest, is taken"
+  new: "010.37 Event: Caen is taken"
+  source: "unsourced: \"first\" searched near Caen in Ramsay 1, Wylie and Waugh 3 and Oman, and in none; archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt 16584-16585: \"On the 9th August the Castle of Touques surrendered to him\", before Caen fell on 4 September (l. 16633); the same line of research/010.md changed with it"
+  kind: "sources"
+  claim: "010.37"
+  introduced: "research"
+  owner: "researcher"
+  state: fixed
+- id: 010-fact-checker-29
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/010-france-divided/text.yaml"
+  field: "pages.normandy-and-troyes.account"
+  replaces: "clause"
+  old: "marches along the coast to Caen, the first town of the conquest, taken by assault on 4 September"
+  new: "marches along the coast to Caen, taken by assault on 4 September"
+  source: "unsourced: \"first\" searched near Caen in Ramsay 1, Wylie and Waugh 3 and Oman, and in none; archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt 16584-16585: \"On the 9th August the Castle of Touques surrendered to him\", before Caen fell on 4 September (l. 16633)"
+  kind: "plan"
+  claim: "010.37"
+  introduced: "plan"
+  owner: "section-coordinator"
+  state: fixed
+- id: 010-fact-checker-30
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/010-france-divided/pages.yaml"
+  field: "normandy-and-troyes.tells"
+  replaces: "clause"
+  old: "Caen first and Rouen"
+  new: "Caen by assault and Rouen"
+  source: "unsourced: \"first\" searched near Caen in Ramsay 1, Wylie and Waugh 3 and Oman, and in none; archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt 16584-16585: \"On the 9th August the Castle of Touques surrendered to him\", before Caen fell on 4 September (l. 16633)"
+  kind: "plan"
+  claim: "010.37"
+  introduced: "pre-plan"
+  owner: "section-coordinator"
+  state: fixed
+- id: 010-fact-checker-31
+  severity: "weak"
+  file: "content/joan-of-arc/pages/010-france-divided/050-two-kings/text/en.md"
+  field: "text"
+  replaces: "clause"
+  old: "Henry VI holds the land north of the Loire, which Lowell lists as Normandy, Paris and the country about it, and Champagne."
+  new: "Henry VI holds the north, where Lowell, for 1428, lists Paris and its country, Normandy, Perche, Alençon and most of Maine and Champagne."
+  source: "archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt 655-659 (ch. 1): \"In 1428 France was come to this condition. Normandy, Paris and the country about it, Perche, Alençon, most of Maine and Champagne, were in the hands of the English\": the text cut Lowell's list to three and dropped his year, and kept his words \"Paris and the country about it\""
+  kind: "attribution"
+  claim: "010.57"
+  introduced: "texts"
+  owner: "section-reviewer"
+  state: fixed
+- id: 010-fact-checker-32
+  severity: "weak"
+  file: "content/joan-of-arc/pages/010-france-divided/060-cravant-and-verneuil/text/en.md"
+  field: "text"
+  replaces: "clause"
+  old: "and keeps to the defence of his places behind the Loire, while Bedford"
+  new: "and from now on can only stand on the defensive, while Bedford"
+  source: "archive.org-rt-histoire-de-charles-vii-v-2-Beaucourt-20Histoire-20de-20Charles-20VII-20v-202-djvu.txt.txt 26928-26934 (book 2 ch. 1): \"Désormais, il n'était plus possible de lutter à forces ouvertes : on devait se borner à défendre pied à pied ses positions\": Beaucourt names no river; the Loire is Oman's (l. 19386) and Lang's (l. 1434)"
+  kind: "attribution"
+  claim: "010.68"
+  introduced: "research"
+  owner: "section-reviewer"
+  state: fixed
+- id: 010-fact-checker-33
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/research.md"
+  field: "010.68"
+  replaces: "clause"
+  old: "can no longer fight in the open and keeps to the defence of his places behind the Loire, Beaucourt;"
+  new: "can no longer fight in the open and can only defend his positions foot by foot, Beaucourt;"
+  source: "archive.org-rt-histoire-de-charles-vii-v-2-Beaucourt-20Histoire-20de-20Charles-20VII-20v-202-djvu.txt.txt 26928-26934 (book 2 ch. 1): \"Désormais, il n'était plus possible de lutter à forces ouvertes : on devait se borner à défendre pied à pied ses positions\": Beaucourt names no river; the Loire is Oman's (l. 19386) and Lang's (l. 1434); the same line of research/010.md changed with it"
+  kind: "sources"
+  claim: "010.68"
+  introduced: "research"
+  owner: "researcher"
+  state: fixed
+- id: 010-fact-checker-34
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/010-france-divided/text.yaml"
+  field: "pages.cravant-and-verneuil.account"
+  replaces: "clause"
+  old: "Charles VII can no longer fight in the open and keeps to the defence of his places behind the Loire (Beaucourt),"
+  new: "Charles VII can no longer fight in the open and can only stand on the defensive (Beaucourt),"
+  source: "archive.org-rt-histoire-de-charles-vii-v-2-Beaucourt-20Histoire-20de-20Charles-20VII-20v-202-djvu.txt.txt 26928-26934 (book 2 ch. 1): \"Désormais, il n'était plus possible de lutter à forces ouvertes : on devait se borner à défendre pied à pied ses positions\": Beaucourt names no river; the Loire is Oman's (l. 19386) and Lang's (l. 1434)"
+  kind: "plan"
+  claim: "010.68"
+  introduced: "research"
+  owner: "section-coordinator"
+  state: fixed
+- id: 010-fact-checker-35
+  severity: "weak"
+  file: "content/joan-of-arc/pages/010-france-divided/060-cravant-and-verneuil/text/en.md"
+  field: "text, Notes"
+  replaces: "clause"
+  old: "Oman calls Bedford's figure incredible."
+  new: "Oman, who has Bedford report seven thousand slain or taken, calls that figure incredible."
+  source: "archive.org-download-historyofartofwa0002char-historyofartofwa0002char-djvu.txt.txt 19468-19470 (book 14 ch. 2): \"The victorious Bedford reported that the enemy had lost seven thousand slain or prisoners, which seems an incredible figure\": Oman judges his own reading of Bedford's report, not the 7,262 dead of the letter Ramsay cites"
+  kind: "attribution"
+  claim: "010.66"
+  introduced: "texts"
+  owner: "section-reviewer"
+  state: fixed

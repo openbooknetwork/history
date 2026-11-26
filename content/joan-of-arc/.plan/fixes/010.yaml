@@ -307,3 +307,234 @@
   old: "English victory; the Constable d'Albret and the Dukes of Alençon and Bar killed, Charles of Orléans, the Duke of Bourbon and Marshal Boucicaut taken"
   new: "English victory; the Constable d'Albret, John I, Duke of Alençon, and Edward, Duke of Bar, killed, Charles of Orléans, John, Duke of Bourbon, and Marshal Boucicaut taken"
   commit: 4bca27ca
+- fault: 010-section-writer-1
+  by: section-writer
+  file: content/joan-of-arc/.plan/names.md
+  field: Places, Tours
+  old: "| Tours | whole story | Tours, Indre-et-Loire | 020 (020.55) | |"
+  new: "| Tours | whole story | Tours, Indre-et-Loire | 010 (010.62, Cagny's passage) | |"
+  commit: 5e2f8757
+- fault: 010-section-writer-2
+  by: section-writer
+  file: content/joan-of-arc/.plan/names.md
+  field: Rules, Transliteration and spelling, Terms
+  old: 'abjuration and relapse; bailli; livres tournois.'
+  new: 'abjuration and relapse; bailli; livres tournois; the prayers the Paternoster, the Ave Maria and the Credo; the Epiphany (6 January); the church of Saint-Remy at Domrémy.'
+  commit: 5e2f8757
+- fault: 010-map-auditor-1
+  by: map-auditor
+  file: content/joan-of-arc/.plans/pages010.cjs
+  field: "markers['bethencourt-1415'], color (shared/markers.yaml regenerated)"
+  old: "english"
+  new: "france"
+  commit: 5e2f8757
+- fault: 010-map-auditor-1
+  by: map-auditor
+  file: content/joan-of-arc/.plan/010-france-divided/map.yaml
+  field: harfleur-and-agincourt.markers.bethencourt-1415.what
+  old: "In the colour of english"
+  new: "In the colour of france, which holds the village; the route shows the English army"
+  commit: 5e2f8757
+- fault: 010-map-auditor-2
+  by: map-auditor
+  file: content/joan-of-arc/.plans/pages010.cjs
+  field: "markers['bethencourt-1415'], note (shared/markers.yaml regenerated)"
+  old: "Henry V's army crosses the Somme, 19 October 1415"
+  new: "Henry V's army crosses the Somme, 19 October 1415 (Oman)"
+  commit: 5e2f8757
+- fault: 010-map-auditor-2
+  by: map-auditor
+  file: content/joan-of-arc/.plan/010-france-divided/map.yaml
+  field: harfleur-and-agincourt.markers.bethencourt-1415.what
+  old: "the English cross the Somme on 19 October 1415, about"
+  new: "the English cross the Somme on 19 October 1415 (Oman), about"
+  commit: 5e2f8757
+- fault: 010-map-auditor-3
+  by: map-auditor
+  file: content/joan-of-arc/.plans/pages010.cjs
+  field: "markers['calais-1415'], note (shared/markers.yaml regenerated)"
+  old: "The English town Henry V's army reaches, 29 October 1415"
+  new: "The English town Henry V's army reaches, 29 October 1415 (Ramsay)"
+  commit: 5e2f8757
+- fault: 010-map-auditor-3
+  by: map-auditor
+  file: content/joan-of-arc/.plan/010-france-divided/map.yaml
+  field: harfleur-and-agincourt.markers.calais-1415.what
+  old: "the English town the army reaches on 29 October 1415, about"
+  new: "the English town the army reaches on 29 October 1415 (Ramsay), about"
+  commit: 5e2f8757
+- fault: 010-map-auditor-4
+  by: map-auditor
+  file: content/joan-of-arc/.plans/pages010.cjs
+  field: "markers['troyes-1420'], note (shared/markers.yaml regenerated)"
+  old: "Henry V marries Catherine of Valois here on 2 June"
+  new: "Henry V marries Catherine of Valois here on 2 June (Ramsay)"
+  commit: 5e2f8757
+- fault: 010-map-auditor-4
+  by: map-auditor
+  file: content/joan-of-arc/.plan/010-france-divided/map.yaml
+  field: normandy-and-troyes.markers.troyes-1420.what
+  old: "Henry V marries Catherine of Valois there on 2 June, about"
+  new: "Henry V marries Catherine of Valois there on 2 June (Ramsay), about"
+  commit: 5e2f8757
+- fault: 010-map-auditor-5
+  by: map-auditor
+  file: content/joan-of-arc/.plans/pages010.cjs
+  field: "markers['mehun-1422'], note (shared/markers.yaml regenerated)"
+  old: "The Dauphin Charles takes the title of King, as Charles VII, 30 October 1422"
+  new: "The Dauphin Charles takes the title of King, as Charles VII, 30 October 1422 (Beaucourt)"
+  commit: 5e2f8757
+- fault: 010-map-auditor-5
+  by: map-auditor
+  file: content/joan-of-arc/.plan/010-france-divided/map.yaml
+  field: two-kings.markers.mehun-1422.what
+  old: "takes the title of King, Charles VII, on 30 October 1422, about"
+  new: "takes the title of King, Charles VII, on 30 October 1422 (Beaucourt), about"
+  commit: 5e2f8757
+- fault: 010-fact-checker-18
+  by: fact-checker
+  file: "content/joan-of-arc/pages/010-france-divided/010-murder-in-paris/text/en.md"
+  field: "text"
+  old: "who rules the trading cities of Flanders to the north and the duchy and county of Burgundy to the east."
+  new: "whose lands take in the cities of Flanders to the north and, to the east, both the duchy and the county of Burgundy."
+  commit: 5e2f8757
+- fault: 010-fact-checker-19
+  by: fact-checker
+  file: "content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md"
+  field: "text"
+  old: "Jacques came from Ceffonds in Champagne, and Isabelle, called Romée, from Vouthon."
+  new: "Jacques's birthplace was Ceffonds, in Champagne; Isabelle, known as Romée, came from Vouthon."
+  commit: 5e2f8757
+- fault: 010-fact-checker-20
+  by: fact-checker
+  file: "content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md"
+  field: "text"
+  old: "an island of loyalty in country"
+  new: "\"a kind of island of loyalty\" in country"
+  commit: 5e2f8757
+- fault: 010-fact-checker-21
+  by: fact-checker
+  file: "content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md"
+  field: "text"
+  old: "The boys of the two villages fought each other in the meadows as Armagnacs and Burgundians, a quarrel that Lowell takes for an old feud between neighbours."
+  new: "Its boys and the boys of Domrémy fought as Burgundians against Armagnacs, a rivalry that Lowell thinks was more likely an old grudge between villages than politics."
+  commit: 5e2f8757
+- fault: 010-fact-checker-22
+  by: fact-checker
+  file: "content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md"
+  field: "text, Notes"
+  old: "did the work of the house and did not go to the fields to look after the sheep and other animals."
+  new: "did the work of the house and did not take the sheep or the other beasts out to the fields."
+  commit: 5e2f8757
+- fault: 010-fact-checker-23
+  by: fact-checker
+  file: "content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md"
+  field: "text, Notes"
+  old: "Lang has her father's house divided from Lorraine by the brook, or even on the Lorraine side of it,"
+  new: "Lang has her father's house divided from Lorraine only by a little stream, or even on the Lorraine side of the border,"
+  commit: 5e2f8757
+- fault: 010-fact-checker-24
+  by: fact-checker
+  file: "content/joan-of-arc/pages/010-france-divided/030-harfleur-and-agincourt/text/en.md"
+  field: "text"
+  old: "his fleet anchors at the mouth of the Seine near the Chef de Caux,"
+  new: "his fleet comes to anchor in the estuary of the Seine, close to the Chef de Caux,"
+  commit: 5e2f8757
+- fault: 010-fact-checker-25
+  by: fact-checker
+  file: "content/joan-of-arc/pages/010-france-divided/040-normandy-and-troyes/text/en.md"
+  field: "text"
+  old: "to [Caen](@caen-1417), the first town of his conquest, which falls to an assault on 4 September."
+  new: "to [Caen](@caen-1417), which falls to an assault on 4 September."
+  commit: 5e2f8757
+- fault: 010-fact-checker-26
+  by: fact-checker
+  file: "content/joan-of-arc/shared/markers.yaml"
+  field: "caen-1417.note"
+  old: "The first town of the conquest, taken by assault on 4 September 1417, its castle on 20 September"
+  new: "Taken by assault on 4 September 1417, its castle on 20 September"
+  commit: 5e2f8757
+- fault: 010-fact-checker-26
+  by: fact-checker
+  file: "content/joan-of-arc/.plans/pages010.cjs"
+  field: "caen-1417 marker note"
+  old: "'The first town of the conquest, taken by assault on 4 September 1417, its castle on 20 September'"
+  new: "'Taken by assault on 4 September 1417, its castle on 20 September'"
+  commit: 5e2f8757
+- fault: 010-fact-checker-27
+  by: fact-checker
+  file: "content/joan-of-arc/.plan/010-france-divided/map.yaml"
+  field: "normandy-and-troyes markers caen-1417.what"
+  old: "the first town of the conquest, taken by assault on 4 September 1417"
+  new: "taken by assault on 4 September 1417"
+  commit: 5e2f8757
+- fault: 010-fact-checker-28
+  by: fact-checker
+  file: "content/joan-of-arc/.plan/research.md"
+  field: "010.37"
+  old: "010.37 Event: Caen, the first town of the conquest, is taken"
+  new: "010.37 Event: Caen is taken"
+  commit: 5e2f8757
+- fault: 010-fact-checker-28
+  by: fact-checker
+  file: "content/joan-of-arc/.plan/research/010.md"
+  field: "010.37"
+  old: "010.37 Event: Caen, the first town of the conquest, is taken"
+  new: "010.37 Event: Caen is taken"
+  commit: 5e2f8757
+- fault: 010-fact-checker-29
+  by: fact-checker
+  file: "content/joan-of-arc/.plan/010-france-divided/text.yaml"
+  field: "pages.normandy-and-troyes.account"
+  old: "marches along the coast to Caen, the first town of the conquest, taken by assault on 4 September"
+  new: "marches along the coast to Caen, taken by assault on 4 September"
+  commit: 5e2f8757
+- fault: 010-fact-checker-30
+  by: fact-checker
+  file: "content/joan-of-arc/.plan/010-france-divided/pages.yaml"
+  field: "normandy-and-troyes.tells"
+  old: "Caen first and Rouen"
+  new: "Caen by assault and Rouen"
+  commit: 5e2f8757
+- fault: 010-fact-checker-31
+  by: fact-checker
+  file: "content/joan-of-arc/pages/010-france-divided/050-two-kings/text/en.md"
+  field: "text"
+  old: "Henry VI holds the land north of the Loire, which Lowell lists as Normandy, Paris and the country about it, and Champagne."
+  new: "Henry VI holds the north, where Lowell, for 1428, lists Paris and its country, Normandy, Perche, Alençon and most of Maine and Champagne."
+  commit: 5e2f8757
+- fault: 010-fact-checker-32
+  by: fact-checker
+  file: "content/joan-of-arc/pages/010-france-divided/060-cravant-and-verneuil/text/en.md"
+  field: "text"
+  old: "and keeps to the defence of his places behind the Loire, while Bedford"
+  new: "and from now on can only stand on the defensive, while Bedford"
+  commit: 5e2f8757
+- fault: 010-fact-checker-33
+  by: fact-checker
+  file: "content/joan-of-arc/.plan/research.md"
+  field: "010.68"
+  old: "can no longer fight in the open and keeps to the defence of his places behind the Loire, Beaucourt;"
+  new: "can no longer fight in the open and can only defend his positions foot by foot, Beaucourt;"
+  commit: 5e2f8757
+- fault: 010-fact-checker-33
+  by: fact-checker
+  file: "content/joan-of-arc/.plan/research/010.md"
+  field: "010.68"
+  old: "can no longer fight in the open and keeps to the defence of his places behind the Loire, Beaucourt;"
+  new: "can no longer fight in the open and can only defend his positions foot by foot, Beaucourt;"
+  commit: 5e2f8757
+- fault: 010-fact-checker-34
+  by: fact-checker
+  file: "content/joan-of-arc/.plan/010-france-divided/text.yaml"
+  field: "pages.cravant-and-verneuil.account"
+  old: "Charles VII can no longer fight in the open and keeps to the defence of his places behind the Loire (Beaucourt),"
+  new: "Charles VII can no longer fight in the open and can only stand on the defensive (Beaucourt),"
+  commit: 5e2f8757
+- fault: 010-fact-checker-35
+  by: fact-checker
+  file: "content/joan-of-arc/pages/010-france-divided/060-cravant-and-verneuil/text/en.md"
+  field: "text, Notes"
+  old: "Oman calls Bedford's figure incredible."
+  new: "Oman, who has Bedford report seven thousand slain or taken, calls that figure incredible."
+  commit: 5e2f8757

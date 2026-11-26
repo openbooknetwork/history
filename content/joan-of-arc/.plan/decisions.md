@@ -174,3 +174,9 @@
   have replaced 010's.
 - cloud ruling: from 030 on a section's markers live in its page folders, and 010 stays as it is (rule in `rules.md`)
   — every script reads each `markers.yaml` of the story, and two cartographers of one wave then never write one file.
+- maps 010 audited (map-auditor): pass; 5 faults, all fixed by the auditor (a marker's colour, four notes without
+  their author). texts 010 and 020 written (section-writers): 6 and 5 texts, each body between 300 and 343 words.
+- unresolved, maps 010: Domrémy stands just inside bar-1412 by Lowell's brook; the Boulonnais and the Ternois drawn
+  Burgundian with no source; the keeper's estimated edges; five reconstructed stretches of route.
+- cloud ruling: each stands as drawn, as the auditor proposed — the text of `domremy` gives both accounts, each
+  chapter calls its borders and roads approximate once, and every place tested lies on the side its source gives.

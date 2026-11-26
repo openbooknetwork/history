@@ -1,0 +1,28 @@
+- step: images
+  task: find
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/images/010.yaml
+    - content/joan-of-arc/shared/images/louis-of-orleans-murder-miniature-1f8c01/
+    - content/joan-of-arc/shared/images/john-the-fearless-portrait-d51dd8/
+    - content/joan-of-arc/shared/images/domremy-birthplace-house-75c6f7/
+    - content/joan-of-arc/shared/images/domremy-saint-remy-church-bb83c8/
+    - content/joan-of-arc/shared/images/agincourt-battle-miniature-92fbb0/
+    - content/joan-of-arc/shared/images/henry-v-portrait-2caf64/
+    - content/joan-of-arc/shared/images/montereau-bridge-murder-miniature-c7198b/
+    - content/joan-of-arc/shared/images/troyes-cathedral-8e5cc1/
+    - content/joan-of-arc/shared/images/vieil-bauge-church-783696/
+    - content/joan-of-arc/shared/images/charles-vii-fouquet-portrait-7f767d/
+    - content/joan-of-arc/shared/images/mehun-sur-yevre-castle-b3fb10/
+    - content/joan-of-arc/shared/images/verneuil-battle-miniature-97dd3c/
+    - content/joan-of-arc/shared/images/bedford-hours-duke-kneeling-833207/
+    - content/joan-of-arc/shared/images/verneuil-vigiles-miniature-a8aaed/
+  faults: []
+  unresolved: []
+  stale: []
+  added: 14
+  none: []
+  unconfirmed:
+    - "agincourt-battle-miniature-92fbb0: the Commons page dates it circa 1422; the caption says only fifteenth century"
+    - "charles-vii-fouquet-portrait-7f767d: the Commons page is a 2025 photograph and gives no date for the painting, so the caption has none"
+    - "henry-v-portrait-2caf64: the National Portrait Gallery comes from the file's name only; the page says 16th century, anonymous"

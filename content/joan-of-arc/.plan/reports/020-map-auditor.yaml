@@ -1,0 +1,17 @@
+- step: maps
+  task: audit
+  status: faults
+  changed_files:
+    - content/joan-of-arc/.plans/pages020.mjs
+    - content/joan-of-arc/pages/020-the-road-to-chinon/020-salisbury-on-the-loire/markers.yaml
+    - content/joan-of-arc/.plan/020-the-road-to-chinon/map.yaml
+    - content/joan-of-arc/.plan/faults/020.yaml
+    - content/joan-of-arc/.plan/fixes/020.yaml
+  faults: [020-map-auditor-1, 020-map-auditor-2, 020-map-auditor-3]
+  unresolved:
+    - "The edge of the Burgundian Auxerrois with the Puisaye (line 89): the route from Auxerre to Gien runs some 35 km through the france zone before Gien, where Lowell (020.46) has the first half of the road in country that acknowledged Henry VI and Lang has Gien 'in the Dauphin's country'. No source gives the line; the map keeper's estimate stands."
+    - "The Gâtinais east of the Beauce (Montargis, Courtenay), 2.6-3.1 E, 47.9-48.16 N, shows as Charles VII's on the siege pages: line 31 of ground.yaml is an estimate, and no source read gives who held it in 1428-1429."
+    - "The Domrémy marker stands 0.1 km inside bar-1412, on the Three Fountains brook (010.14 disputed, 020.9); the text gives both accounts."
+    - "The castellany of Vaucouleurs (line 91) and the Bar-Lorraine line (line 92) are the map keeper's own lines: no source gives their bounds."
+    - "Every route of 020 is a reconstruction between sourced stations; the crossing of the Loire right after Gien follows Lowell's ride across the Sologne (020.63), and the texts name no crossing."
+  stale: []

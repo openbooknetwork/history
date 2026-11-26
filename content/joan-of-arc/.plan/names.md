@@ -305,6 +305,7 @@ A text names a writer when it gives his figure, his date or his judgement, by th
 | Anatole France | The Life of Joan of Arc; read only for where to look | 010 (010.56) | France |
 | Renoux | Christian Renoux (2022), on the canonisation | 070 (070.51) | |
 | Boismarmin | whose date of her coming to Chinon Lowell follows | 020 (020.42) | |
+| the Continuator of Guillaume de Nangis | the French continuator of the chronicle of Guillaume de Nangis, the one chronicle that gives the day of her coming to Chinon, 6 March 1429; "the French Continuator of Guillaume de Nangis" at the first mention on a page | 020 (020.43) | Continuateur français de Guillaume de Nangis; the Continuator of Nangis |
 | Canon Dunand | whose view on the diocese of Compiègne Lang gives | 060 (060.31) | the Chanoine Dunand |
 | Petit de Julleville | named by Thurston on the sign | 060 (060.43) | |
 | Curry, Barker, Sumption, Rogers | modern counts of Agincourt known only through Wikipedia; not told (rules.md, Thin) | 010 (010.25) | |
@@ -337,7 +338,7 @@ old name without it, as the sources and the histories do, and "Today" gives the 
 | Sainte-Catherine-de-Fierbois | whole story | Sainte-Catherine-de-Fierbois, Indre-et-Loire | 020 (020.48) | Fierbois; Ste. Catherine de Fierbois |
 | Chinon | whole story | Chinon, Indre-et-Loire (the castle) | 010 (010.68) | |
 | Poitiers | whole story | Poitiers, Vienne | 020 (020.52) | |
-| Tours | whole story | Tours, Indre-et-Loire | 020 (020.55) | |
+| Tours | whole story | Tours, Indre-et-Loire | 010 (010.62, Cagny's passage) | |
 | Blois | whole story | Blois, Loir-et-Cher | 020 (020.29) | Bloys |
 | Bourges | whole story | Bourges, Cher | 010 (010.35) | |
 | Mehun-sur-Yèvre | whole story; always in full, so that it is not taken for Meung, which Monstrelet also writes Mehun | Mehun-sur-Yèvre, Cher | 010 (010.55) | Mehun |
@@ -726,4 +727,5 @@ old name without it, as the sources and the histories do, and "Today" gives the 
   kept only inside a quote, copied as the file has them (`rules.md`).
 - Terms: the Dauphin (a title, with a capital); men-at-arms; lances, as the sources count them; archers; bastille;
   boulevard; the Holy Ampulla; the trial of 1431 (the trial of condemnation) and the retrial of 1455–1456 (the
-  trial of nullification), "the retrial" in a text; abjuration and relapse; bailli; livres tournois.
+  trial of nullification), "the retrial" in a text; abjuration and relapse; bailli; livres tournois; the prayers
+  the Paternoster, the Ave Maria and the Credo; the Epiphany (6 January); the church of Saint-Remy at Domrémy.

@@ -1,0 +1,15 @@
+In June 1423 Bedford, the regent, marries Anne, sister of Philip the Good, at Troyes, binding the Duke of Burgundy closer to the English. In July the English under the Earl of Salisbury and the Burgundians join at [Auxerre](@auxerre-1423) to relieve [Cravant](@cravant-1423) on the Yonne. On Saturday 31 July they find the army of Charles VII, French, Scots and others, before the town, and cross the river, probably at Champs, as Ramsay thinks, so their road on the map is approximate. Salisbury's men wade the Yonne, Lord Willoughby carries the bridge, the garrison sallies against the French rear, and the army breaks. The Scots suffer most, and their commander, Sir John Stewart of Darnley, loses an eye and is taken.\*
+
+In summer 1424 Bedford besieges [Ivry](@ivry-1424). An army of Charles VII, French, Scots and Lombards, sets out from Tours to relieve it, comes as far as Nonancourt and turns aside to take [Verneuil](@verneuil-1424) instead.\*\* On Thursday 17 August Bedford comes up and fights on a plain before the town. Both sides fight on foot, the English with archers and stakes on the wings and their horses tied head to tail behind them, the French with horsemen on both wings. The Lombards ride round to the English baggage, fail to break the hedge of horses and flee with plunder. After some forty minutes of fighting, by Oman's reckoning, the baggage guard falls on the French flank, the line breaks, and the slaughter is worst at the town's moat.\*\*\*
+
+@image bedford-hours-duke-kneeling
+
+Buchan, the Earl of Douglas and his son James, the Counts of Aumale, Ventadour and Tonnerre and the Viscount of Narbonne are killed, and the Duke of Alençon and Marshal La Fayette are taken. Bedford has Narbonne's body hanged for his part in the murder of Montereau. Lang calls the battle "another Agincourt". Charles VII can no longer fight in the open field, Beaucourt writes, and from now on can only stand on the defensive, while Bedford, Oman writes, means to carry the war down the river. The roads to Verneuil are approximate too.
+
+### Notes
+
+\* Monstrelet writes that most of the 3,000 Scots in the front ranks at Cravant were killed or taken, some 400 gentlemen taken and about 1,200 men killed. The Chronique de la Pucelle counts 2,000 to 3,000 killed and taken.
+
+\*\* The Bourgeois of Paris tells of a trick: Scots who spoke English were led before Verneuil with their hands tied and their faces smeared with blood, wailing in English like beaten prisoners. Beaucourt too says the town was taken by ruse. Perceval de Cagny, chronicler of the Duke of Alençon's household, writes instead that the townsmen opened it to the duke, whose town it was.
+
+\*\*\* The counts of the armies at Verneuil run from Ramsay's 2,000 or 3,000 English to the Bourgeois's 18,000 French. For the French dead, Bedford's letter written two days after the battle, which Ramsay cites, gives 7,262, and the Bourgeois about 9,000 by the count of the heralds. Oman, who has Bedford report seven thousand slain or taken, calls that figure incredible.

@@ -153,3 +153,15 @@
 - cloud ruling: the keeper's estimated lines stand as reconstructions — each chapter's text calls its borders
   approximate once, and the text of `domremy` gives both accounts of whose land the village was.
 - maps: twelve lines added to the digest, 070.55 to 070.66, on the holds of 1430 to 1449 (researcher, task add); Clermont and Sens are French by 1436 (story-researcher-1, open for the map keeper), against the auditor's proposal for english-1436. The day Chartres fell in 1432 is told as April 1432 — cloud ruling, the rule of a disputed day.
+- maps, the shared map rechecked (map-auditor): the six fixes hold; two faults found anew and fixed by the auditor;
+  one `wrong` fault open for the map keeper, story-map-auditor-10 — Melun, Sens and Soissons under the wrong holder on
+  the pages of 1430 to 1435 — so the keeper goes back once, as "Steps" allows for a `wrong` fault of the recheck.
+- unresolved, maps recheck: the date at which `burgundy-changes-sides` shows its zones; english-1436 keeps Beaumont,
+  Crépy and Blangy and leaves Étampes out; Tournai inside Burgundy.
+- cloud ruling: `burgundy-changes-sides` shows the map of its opening date, December 1431, and its text tells what
+  changed to October 1435 — the auditor's proposal, and the page's date is the plan's.
+- cloud ruling: english-1436 stands as drawn — a town the English held and no source has them lose stays English;
+  Étampes, which no source places either way after 1429, stays out of both the towns kept and any marker. Tournai
+  stays as drawn, unmarked and untold.
+- cloud ruling: after the keeper's second fix the shared map gets no third audit of its own — the bound is one
+  recheck; each section's map auditor sees the zones on its pages, where captures and `zone-gaps` can at last run.

@@ -286,3 +286,17 @@
   old: "Provence, Savoy, Avignon, Lorraine and Bar east of the Meuse lie outside it."
   new: "Provence, Savoy, Avignon, Lorraine and Bar east of the Meuse lie outside it, and so do Roussillon and the Cerdagne, the crown of Aragon's, south of the Corbières."
   commit: 9635a13c
+- fault: story-map-auditor-8
+  by: map-auditor
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "C3, the why; written by the generator to content/joan-of-arc/.plan/ground.yaml, line 61 (no zone's outline changed)"
+  old: "Paris, Saint-Denis and Normandy left, the Norman bank of the Bresle with Aumale and Blangy too (070.55, 070.56); no source gives a line"
+  new: "Paris, Saint-Denis and Normandy left; the line keeps to Normandy's edge, since Aumale and Blangy on the Norman bank of the Bresle, which change hands in August 1429 (050.9), are won back in 1430 (070.55, 070.56) and their markers carry the change; no source gives a line"
+  commit: 048075d9
+- fault: story-map-auditor-9
+  by: map-auditor
+  file: content/joan-of-arc/.plan/brief.md
+  field: Map, Zones, the row english-1429, Basis and digest ids
+  old: "with Chartres and Étampes left English as `names.md` has them"
+  new: "with Chartres and Étampes left English (020.13: men of Chartres reinforce Salisbury; 040.33: Fastolf flees from Patay to Étampes)"
+  commit: 048075d9

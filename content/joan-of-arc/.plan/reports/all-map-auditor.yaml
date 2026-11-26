@@ -21,3 +21,25 @@
     - content/joan-of-arc/shared/zones/english-sep-1429.geojson
     - content/joan-of-arc/.plan/brief.md
     - content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml
+- step: maps
+  task: recheck
+  status: faults
+  changed_files:
+    - content/joan-of-arc/.plans/zones.mjs
+    - content/joan-of-arc/.plan/ground.yaml
+    - content/joan-of-arc/.plan/brief.md
+    - content/joan-of-arc/.plan/faults/story.yaml
+    - content/joan-of-arc/.plan/fixes/story.yaml
+  faults: [story-map-auditor-8, story-map-auditor-9, story-map-auditor-10]
+  rechecked:
+    - "story-map-auditor-1, story-researcher-1: hold against 9635a13c. english-1436 adds circles round Meaux, Creil, Beaumont, Crépy, Montereau and Mantes, each why on its claim (070.60-070.66); Chartres, Étampes, Sens, Clermont, Pont-Sainte-Maxence, Meulan outside; the brief's row matches"
+    - "story-map-auditor-2: holds. C3 starts at the end of the Bresle line and SEP_CUT is cut by NORMANDY2; Aumale, Blangy and Eu pass inside english-compiegne-1429, english-sep-1429 and english-1436"
+    - "story-map-auditor-3: holds. english-compiegne-1429 has no BRAY_CUT (bray inside), montepilloy takes it with france-compiegne-1429, zones.yaml and the brief's rows agree"
+    - "story-overseer-4, story-overseer-5: hold. carignan, givet and perpignan pass outside france-1407, rethel, narbonne and carcassonne inside"
+    - "The generator run twice writes the same files; plan-check ok; harita zones --like finds no other story's zone on the changed zones"
+  unresolved:
+    - "burgundy-changes-sides (December 1431 – October 1435): which date its zones show. Proposed: its opening, so Chartres stays English (French from April 1432, 070.59), and the text, not the map, tells Talbot's retakings of 1434 and the losses of 1435"
+    - "english-1436 keeps Beaumont, Crépy and Blangy, which no source read has the English lose by April 1436, yet leaves out Étampes, which no source read places either way (story-researcher-1). Proposed: keep as ruled; the overseer may confirm the two halves of the careful side"
+    - "Tournai, a royal town, lies inside burgundy-1407 and burgundy-1420 (carried over; it is a marker on no page). Every estimate line of ground.yaml stays the keeper's own line, as the last report listed"
+  stale:
+    - content/joan-of-arc/.plan/brief-040.md

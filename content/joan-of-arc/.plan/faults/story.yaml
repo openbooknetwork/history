@@ -309,3 +309,40 @@
   introduced: ruling
   owner: overseer
   state: fixed
+- id: story-map-auditor-8
+  severity: taste
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "C3, the why; written by the generator to content/joan-of-arc/.plan/ground.yaml, line 61"
+  replaces: clause
+  old: "Paris, Saint-Denis and Normandy left, the Norman bank of the Bresle with Aumale and Blangy too (070.55, 070.56); no source gives a line"
+  new: "Paris, Saint-Denis and Normandy left; the line keeps to Normandy's edge, since Aumale and Blangy on the Norman bank of the Bresle, which change hands in August 1429 (050.9), are won back in 1430 (070.55, 070.56) and their markers carry the change; no source gives a line"
+  source: "050.9 (Ramsay: 'Senlis, Creil, Pont-Sainte-Maxence, Beauvais, Aumâle, and Blangy changed hands', August 1429); 070.55 and 070.56 have them won back in 1430. The old why read as if Aumale and Blangy stayed English in August 1429, which claims more than its reasons give"
+  kind: map
+  claim: "050.9"
+  introduced: fix
+  owner: map-keeper
+  state: fixed
+- id: story-map-auditor-9
+  severity: weak
+  file: content/joan-of-arc/.plan/brief.md
+  field: Map, Zones, the row english-1429, Basis and digest ids
+  replaces: clause
+  old: "with Chartres and Étampes left English as `names.md` has them"
+  new: "with Chartres and Étampes left English (020.13: men of Chartres reinforce Salisbury; 040.33: Fastolf flees from Patay to Étampes)"
+  source: "names.md decides the form of names and is no source of who held a town (the same ground as story-map-auditor-6, fixed in the generator's S20a and left in the brief's row); 020.13 (Ramsay: 'reinforced by native auxiliaries drawn from Paris, Chartres, and Normandy'); 040.33 (Wavrin: 'Si prinst son chemin vers Estampes')"
+  kind: map
+  claim: "040.33"
+  introduced: map-design
+  owner: brief
+  state: fixed
+- id: story-map-auditor-10
+  severity: wrong
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "english-sep-1429 and burgundy-1420 on the pages of 1430 to 1435, with the brief's rows english-sep-1429 ('September 1429 – 1435') and burgundy-1420, and the zones of 060 and 070 (burgundy-changes-sides)"
+  new: "english-sep-1429 is one stage from September 1429 to 1435, so the pages of late 1430 to 1435 show Melun and Sens English and Soissons French, against the digest: Melun drives out its garrison about Easter 1430 and comes over to the king (050.45), and its estates come to him at Chinon about Christmas 1430 (Beaucourt, the line of 070.58); Soissons is sold to the Duke of Burgundy some weeks after 18 May 1430 (050.54); Sens is the king's from August 1430 (070.58). Screens that show them: beaulieu-and-beaurevoir (May–October 1430) Soissons on all three; sold-to-the-english (October–December 1430) Soissons on all three, Melun and Sens on a phone; the-court (January–February 1431) Melun on all three, Sens and Soissons on a phone; burgundy-changes-sides (December 1431 – October 1435) all three towns on all three screens, and Chartres too, French from April 1432 (070.59). Proposed: a stage english-1430, english-sep-1429 less a circle of Melun and one of Sens, as HOLDS36 draws the holds of 1436, with its france entry in zones.yaml, on sold-to-the-english, the-court and burgundy-changes-sides (the Rouen pages may keep english-sep-1429, whose frames show none of the three); and a stage burgundy-1430, burgundy-1420 with a circle round Soissons, on beaulieu-and-beaurevoir and after, or Soissons left a marker as the brief's Map part has it if the overseer keeps the holds as markers on later pages too. Which date burgundy-changes-sides' zones show (its opening, with Chartres English, or later) is an open question under unresolved. melun-and-lagny and compiegne stay as they are: melun-1430 carries Melun's change, and the frame of compiegne shows neither Melun nor Sens"
+  source: "050.45 (Lowell ch. 15, p. 201: 'This happened about Easter, April 16'; Lang ch. 19: 'Melun had come over to King Charles in April'); 050.54 (Lowell ch. 16, l. 9390-9393: 'Some weeks after their departure from Soissons its treacherous captain sold his charge to the duke of Burgundy'); 070.58 (Beaucourt 2, l. 14554-14555: 'le Roi resta à Sens, où il passa les mois d'août et de septembre'; l. 15048-15051, Jouvenel: 'En 1430, environ Noël ... Sens, Melun, Montargis et aultres, vindrent devers vous'); 070.59 (Chartres taken April 1432); the brief's Map part: 'Zones that change on a page because a town opened its gates change by the zone of the page's date'; the screens from scripts/view.mjs frames()"
+  kind: map
+  claim: "070.58"
+  introduced: map-design
+  owner: map-keeper
+  state: open

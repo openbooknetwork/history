@@ -9,3 +9,11 @@
     - "060.24 the coast road from Le Crotoy by Saint-Valery and Dieppe rests on France alone, which rules.md does not let a text tell: sold-to-the-english.tells says 'round the coast to Rouen'. Proposed: Le Crotoy to Rouen, with no road."
   stale: []
   counts: {agreed: 44, single: 11, disputed: 11, open: 0}
+- step: maps
+  task: add
+  status: pass
+  changed_files: [content/joan-of-arc/.plan/research.md, content/joan-of-arc/.plan/research/060.md, content/joan-of-arc/.plan/060-rouen/text.yaml, content/joan-of-arc/.plan/060-rouen/pages.yaml, content/joan-of-arc/.plan/names.md, content/joan-of-arc/.plan/faults/060.yaml, content/joan-of-arc/.plan/fixes/060.yaml]
+  faults: [060-researcher-1]
+  unresolved: []
+  stale: []
+  counts: {agreed: 0, single: 2, disputed: 0, open: 0}

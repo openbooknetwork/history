@@ -624,7 +624,7 @@
   kind: sources
   introduced: research
   owner: researcher
-  state: open
+  state: fixed
 - id: 060-map-auditor-3
   severity: taste
   file: content/joan-of-arc/.plan/060-rouen/map.yaml
@@ -636,4 +636,15 @@
   kind: map
   introduced: maps
   owner: map-auditor
+  state: fixed
+- id: 060-researcher-1
+  severity: weak
+  file: content/joan-of-arc/.plan/names.md
+  field: "People, Burgundy and Lorraine: a new row, Jean de Pressy"
+  new: "| Jean de Pressy | a knight of Artois of the Anglo-Burgundian party, of Henry VI's Grand Council, who with others at Arras asked Joan to put on a woman's dress | 060 (060.67) | Messire Jean de Pressy; John of Pressy (Lowell); the Sieur de Pressy (Murray) |"
+  source: "text.yaml sold-to-the-english.account names \"Jean de Pressy\", and names.md had no row for him; research 060.67, 060.68 (Barrett, 3 March and Champion's sketch \"JEAN DE PRESSY\"; Murray's note; Lowell ch. 18 note)"
+  kind: check
+  claim: "060.68"
+  introduced: names
+  owner: names
   state: fixed

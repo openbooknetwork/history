@@ -364,3 +364,38 @@
   old: "the church stands, so the point is set beside its south side."
   new: "the church stands, and the point is set at its own coordinates (Saint-Ouen_Abbey,_Rouen.wiki), some tens of metres from its south side."
   commit: 4868abb3
+- fault: 060-map-auditor-2
+  by: researcher
+  file: content/joan-of-arc/.plan/research/060.md
+  field: "060.67, 060.68 (new lines after 060.66)"
+  old: ""
+  new: "- 060.67 Event: at Arras, where she was held late in October 1430 on her way from Beaurevoir (060.18), Jean de Pressy and many others often asked her to put on a woman's dress ... single (the record; ...); - 060.68 Person: Jean de Pressy, a knight of Artois of the Anglo-Burgundian party ... single for each office (the full lines stand in the file)"
+  commit: f10de002
+- fault: 060-map-auditor-2
+  by: researcher
+  file: content/joan-of-arc/.plan/research.md
+  field: "060.67, 060.68 (new lines after 060.66)"
+  old: ""
+  new: "the same two lines as in research/060.md"
+  commit: f10de002
+- fault: 060-map-auditor-2
+  by: researcher
+  file: content/joan-of-arc/.plan/060-rouen/text.yaml
+  field: pages.sold-to-the-english.account
+  old: "Pressy and others asked her to put on a woman's dress. From there"
+  new: "Pressy and others asked her to put on a woman's dress (060.67). From there"
+  commit: f10de002
+- fault: 060-map-auditor-2
+  by: researcher
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: sold-to-the-english.rests_on
+  old: '"060.22", "060.23"]'
+  new: '"060.22", "060.23", "060.67", "060.68"]'
+  commit: f10de002
+- fault: 060-researcher-1
+  by: researcher
+  file: content/joan-of-arc/.plan/names.md
+  field: "People, Burgundy and Lorraine: after the lord of Créqui"
+  old: ""
+  new: "| Jean de Pressy | a knight of Artois of the Anglo-Burgundian party, of Henry VI's Grand Council, who with others at Arras asked Joan to put on a woman's dress | 060 (060.67) | Messire Jean de Pressy; John of Pressy (Lowell); the Sieur de Pressy (Murray) |"
+  commit: f10de002

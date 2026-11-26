@@ -165,3 +165,7 @@
   stays as drawn, unmarked and untold.
 - cloud ruling: after the keeper's second fix the shared map gets no third audit of its own — the bound is one
   recheck; each section's map auditor sees the zones on its pages, where captures and `zone-gaps` can at last run.
+- maps, the shared map: done, 26 Nov 2026. 20 zones in `shared/zones/` from `.plans/zones.mjs`: the keeper's second fix
+  added `english-1430` (Melun and Sens out) and `burgundy-1430` (Soissons in), with `france-1430`
+  (story-map-auditor-10). No fault of the shared map is open. No capture of a zone exists yet: the sections' map
+  audits are the first to see them on a page.

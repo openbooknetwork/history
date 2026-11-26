@@ -52,3 +52,26 @@
     - content/joan-of-arc/.plan/brief-070.md
   fixed: [story-map-auditor-1, story-map-auditor-2, story-map-auditor-3, story-overseer-4, story-overseer-5, story-researcher-1]
   totals: {zones: 18, sourced_lines: 15, sourced_km: 7949, estimated_lines: 79, estimated_km: 11449}
+- step: maps
+  task: fix
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plans/zones.mjs
+    - content/joan-of-arc/shared/zones/english-1430.geojson
+    - content/joan-of-arc/shared/zones/burgundy-1430.geojson
+    - content/joan-of-arc/shared/zones.yaml
+    - content/joan-of-arc/.plan/ground.yaml
+    - content/joan-of-arc/.plan/brief.md
+    - content/joan-of-arc/.plan/060-rouen/map.yaml
+    - content/joan-of-arc/.plan/070-after-her/map.yaml
+    - content/joan-of-arc/.plan/faults/story.yaml
+    - content/joan-of-arc/.plan/fixes/story.yaml
+    - content/joan-of-arc/.plan/handoff/map-keeper.md
+  faults: []
+  unresolved: []
+  stale:
+    - content/joan-of-arc/.plan/brief-060.md   # the slices of brief.md, remade by scripts/slice.mjs
+    - content/joan-of-arc/.plan/brief-070.md
+    - content/joan-of-arc/.plan/brief-050.md
+  fixed: [story-map-auditor-10]
+  totals: {zones: 20, sourced_lines: 15, sourced_km: 7949, estimated_lines: 82, estimated_km: 11542}

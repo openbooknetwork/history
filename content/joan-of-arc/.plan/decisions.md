@@ -427,3 +427,6 @@
   beyond it are marked on the overview page `patay` just before.
 - Patay's phases, the recheck of the review (fact-checker): pass; the ten fixes hold. With it the three phase pages have had their plan check, battle audit, fact check, review and recheck. The story's checks print ok, 44 pages.
 - ledger after `Patay's review`: | **total** | 147 | 4,030 | 721,622 | 8,226 | 28,413,054 | 705,259,734 | 5,004,916 | 131,075,097 |
+- the user, 26 Nov 2026: the pull request is marked ready, with no third story audit; the user pulls the branch and
+  tests the story locally. This waives the run's rule that a story whose auditor did not end `pass` stays a draft.
+  The auditor's last report is still `faults`; its two faults are fixed and no fault is open.

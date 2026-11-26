@@ -452,6 +452,9 @@ old name without it, as the sources and the histories do, and "Today" gives the 
 | Lagny | Charles VII's from August 1429 | Lagny-sur-Marne, Seine-et-Marne | 050 (050.9) | Laigny sur Marne |
 | Meaux | besieged by Henry V 1421–1422 | Meaux, Seine-et-Marne | 010 (010.50) | |
 | Montereau | where John the Fearless was killed on the bridge | Montereau-Fault-Yonne, Seine-et-Marne | 010 (010.40) | Montereau-fiiut-Ycmne (OCR) |
+| Beaumont-sur-Oise | retaken by the English in 1434 | Beaumont-sur-Oise, Val-d'Oise | 070 (070.61) | Beaumont |
+| Mantes | English to 26 August 1449 | Mantes-la-Jolie, Yvelines | 070 (070.66) | |
+| Meulan | its bridge lost by the English in September 1435 | Meulan-en-Yvelines, Yvelines | 070 (070.63) | Meurlan |
 | Crépy | Charles VII's from August 1429 | Crépy-en-Valois, Oise | 050 (050.1) | Crespy; Crepy-en-Valois |
 | Lagny-le-Sec | the king's army's lodging of 12 August 1429; always in full, apart from Lagny on the Marne | Lagny-le-Sec, Oise | 050 (a route station, 050.3; Cagny and Ramsay) | Laingni le Sec |
 | Dammartin | near which the king held the field on 13 August 1429 | Dammartin-en-Goële, Seine-et-Marne | 050 (a route station, 050.3; Cagny and Ramsay) | Dammartin en Gouelle |

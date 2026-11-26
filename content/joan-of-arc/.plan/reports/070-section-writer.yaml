@@ -14,3 +14,15 @@
   faults: [070-section-writer-1, 070-section-writer-2]
   unresolved: []
   stale: []
+- step: texts
+  task: fix
+  status: pass
+  changed_files:
+    - content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md
+    - content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md
+    - content/joan-of-arc/.plan/names.md
+    - content/joan-of-arc/.plan/faults/070.yaml
+    - content/joan-of-arc/.plan/fixes/070.yaml
+  faults: []
+  unresolved: []
+  stale: []

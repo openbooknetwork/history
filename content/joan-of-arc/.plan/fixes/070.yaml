@@ -253,3 +253,31 @@
   old: "Saint-Sauveur and Cherbourg, with Calais and Gascony, at the close of 1449 | reconstruction drawn round the towns of 070.16 (single, Ramsay), after 070.14 and Rouen's surrender (29 October 1449, `names.md`), as rules.md asks for the map of 1444 to 1453 |"
   new: "Saint-Sauveur and Cherbourg, with Calais and Gascony, at the close of 1449. Valognes, which Ramsay's list leaves out, is a hole of 4 km | reconstruction drawn round the towns of 070.16 (single, Ramsay), after 070.14 and Rouen's surrender (29 October 1449, `names.md`), as rules.md asks for the map of 1444 to 1453; Valognes French, since Kyriell sits down to its siege on 27 March 1450 (Ramsay 2, ch. 8, the passage of 070.17) |"
   commit: 3ae2c50a
+- fault: 070-map-auditor-7
+  by: section-writer
+  file: content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md
+  field: "the last paragraph, its first sentence"
+  old: "The map shows the English lands after 13 April 1436, Normandy without Dieppe and the Caux, most of Maine, Calais and Gascony, drawn approximately from Ramsay's list."
+  new: "The map shows what the English hold after 13 April 1436, drawn approximately from Ramsay's list: Normandy without Dieppe and the Caux, most of Maine, Calais and Gascony, and, round Paris, Meaux, Creil, Montereau and Mantes, with Beaumont-sur-Oise and Crépy, which the English won back in 1434. Chartres, which the Bastard of Orléans took in April 1432, and the bridge of Meulan, lost in September 1435, are the king's."
+  commit: 1ee683e5
+- fault: 070-map-auditor-7
+  by: section-writer
+  file: content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md
+  field: "body, paragraph 2, cut to keep the body under 350 words"
+  old: "with the Bastard of Orléans (later Count of Dunois) and L'Isle-Adam ... Near Épinay, a little beyond the town, they rout ... Some of his men get into the Tour du Velin at Saint-Denis; they are besieged there, and when hunger drives them out they are killed."
+  new: "with the Bastard of Orléans and L'Isle-Adam ... Near Épinay, just beyond it, they rout ... The few who reach the Tour du Velin at Saint-Denis are killed once hunger drives them out."
+  commit: 1ee683e5
+- fault: 070-map-auditor-7
+  by: section-writer
+  file: content/joan-of-arc/.plan/names.md
+  field: "Places, rows after Montereau"
+  old: ""
+  new: "| Beaumont-sur-Oise | retaken by the English in 1434 | Beaumont-sur-Oise, Val-d'Oise | 070 (070.61) | Beaumont |\n| Mantes | English to 26 August 1449 | Mantes-la-Jolie, Yvelines | 070 (070.66) | |\n| Meulan | its bridge lost by the English in September 1435 | Meulan-en-Yvelines, Yvelines | 070 (070.63) | Meurlan |"
+  commit: 1ee683e5
+- fault: 070-overseer-1
+  by: section-writer
+  file: content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md
+  field: "body, paragraph 2, after 'round these towns, approximately.'; and paragraph 3, cut to keep the body under 350 words"
+  old: "The map draws what the English still hold round these towns, approximately. ... with the last English army sent to save Normandy."
+  new: "The map draws what the English still hold round these towns, approximately. Maine, English on the map of 1436, is the king's on this one, all but Fresnay. ... with the last English relief army for Normandy."
+  commit: 1ee683e5

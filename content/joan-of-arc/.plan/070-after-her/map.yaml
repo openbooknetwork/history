@@ -1,0 +1,153 @@
+burgundy-changes-sides:
+  bbox: [0.6, 48.3, 4.2, 50.8]
+  zones: [france-1422, english-sep-1429, burgundy-1420, brittany-1407]
+  markers:
+    notre-dame-1431: { name: Notre-Dame, what: "the cathedral of Paris, where Cardinal Beaufort crowns Henry VI King of France on Sunday 16 December 1431 (the Bourgeois of Paris and Ramsay; Monstrelet has the 17th), in a Paris that holds for him; about 48.853 N 2.350 E. In the english colour", basis: sourced, rank: 2 }
+    arras-1435: { name: Arras, what: "the Duke of Burgundy's town, where the congress sits in the summer of 1435; the English envoys leave on 6 September, and on 21 September Philip the Good seals his separate peace with Charles VII in the abbey of Saint-Vaast and is absolved of his oaths to the English; about 50.29 N 2.78 E. In the burgundy colour", basis: sourced, rank: 2 }
+  unmarked:
+    Rouen: "where Bedford dies on the night of 14–15 September 1435 (070.2); it changes nothing on the map, and Rouen is marked on normandy-won-back, where it changes hands."
+    Saint-Denis: "taken by the French on 1 June 1435 and given up by its garrison to the English and Burgundians on 4 October 1435 (070.6, Ramsay), so the town ends the page as it began it, English; marked on paris-opens, where it is taken for good."
+    Vincennes: "where Monstrelet has Henry VI stay before the coronation; it changes nothing on the map."
+    the abbey of Saint-Vaast: "inside Arras; the Arras marker names it."
+    Burgundy: "named in Philip the Good's title; his lands are the burgundy zone."
+    Scotland: "named only in the Wikipedia half of 070.5; outside the frame and not told."
+paris-opens:
+  bbox: [0.7, 48.4, 3.6, 50.1]
+  zones: [france-1422, english-1436, burgundy-1420, brittany-1407]
+  routes:
+    - id: richemont-1436-saint-denis
+      family: france
+      stations: [Pontoise, Saint-Denis]
+      passage: "Monstrelet (Johnes), book 2, ch. 198, lines 4497-4512 of the second volume; Ramsay, Lancaster and York, vol. 1, ch. 32, lines 29389-29396"
+      basis: reconstruction
+      why: "Monstrelet has Richemont, the Bastard of Orléans and L'Isle-Adam march from Pontoise toward Paris, quarter at Aubervilliers and Montmartre and storm Saint-Denis the next day; Ramsay has the force reported advancing from the quarter of Pontoise. No road is given, so the line joins the two places. From Saint-Denis they came on the Friday morning to the Porte Saint-Jacques, 'on the other side of the Seine' (Monstrelet), by a way no source gives, so the line stops at Saint-Denis and the gate is a marker. Drawn in france: the force was French and Burgundian under the Constable of France."
+  markers:
+    paris-1436: { name: Paris, what: "Henry VI's capital since 1422, which opens to Charles VII's men on Friday 13 April 1436: L'Isle-Adam climbs the wall by ladders the citizens let down, with the banner of Charles VII and a proclamation of amnesty, and Richemont enters; about 48.856 N 2.352 E. In the france colour", basis: sourced, rank: 3 }
+    porte-saint-jacques-1436: { name: the Porte Saint-Jacques, what: "the gate of the left bank, toward Montlhéry, before which Richemont, the Bastard of Orléans and L'Isle-Adam appear on the morning of 13 April 1436, and which the citizens open to them; about 48.846 N 2.342 E. In the france colour", basis: sourced, rank: 1 }
+    bastille-1436: { name: the Bastille, what: "the Bastille Saint-Antoine, at the east gate, where the English garrison under Lord Willoughby and Louis of Luxembourg, Bishop of Thérouanne, shuts itself in on 13 April 1436, treats with the constable and marches out under his safe-conduct on 17 April, hooted by the Parisians; about 48.853 N 2.369 E. In the english colour", basis: sourced, rank: 1 }
+    saint-denis-1436: { name: Saint-Denis, what: "the town north of Paris, stormed by Richemont's French and Burgundians in April 1436; near Épinay, a little beyond it, Sir Thomas Beaumont's sortie from Paris is routed and he is taken, and English survivors who held the Tour du Velin are taken and put to death; about 48.936 N 2.357 E. In the france colour", basis: sourced, rank: 2 }
+    pontoise-1436: { name: Pontoise, what: "lost by the English early in 1436 (Ramsay), with Charenton, Brie-Comte-Robert, Saint-Germain-en-Laye, Corbeil and Vincennes round Paris; the force that takes Paris marches from it (Monstrelet); about 49.05 N 2.10 E. In the france colour", basis: sourced, rank: 1 }
+    dieppe-1435: { name: Dieppe, what: "lost by the English on 29 October 1435, after Arras, and with it the whole Pays de Caux but Caudebec (Ramsay); about 49.92 N 1.08 E. In the france colour", basis: sourced, rank: 1 }
+  unmarked:
+    Épinay: "where Beaumont's sortie is routed (070.8); a few kilometres beyond Saint-Denis, and the Saint-Denis marker names it."
+    the Tour du Velin: "a tower of Saint-Denis (070.8); the Saint-Denis marker names it."
+    Charenton: "lost by the English early in 1436 (070.7); next to Paris, and the Pontoise marker names it; the english zone shows it gone."
+    Brie-Comte-Robert: "lost by the English early in 1436 (070.7); the Pontoise marker names it; the english zone shows it gone."
+    Saint-Germain-en-Laye: "lost by the English early in 1436 (070.7); the Pontoise marker names it; the english zone shows it gone."
+    Corbeil: "lost by the English early in 1436 (070.7); the Pontoise marker names it; the english zone shows it gone."
+    Vincennes: "lost by the English early in 1436 (070.7); next to Paris, and the Pontoise marker names it; the english zone shows it gone."
+    Caudebec: "the one place of the Pays de Caux the English keep (070.7); the english zone holds it."
+    the Pays de Caux: "a region; the english zone shows it gone, and the Dieppe marker names it."
+    Aubervilliers: "where Monstrelet has the force quarter before Saint-Denis; it changes nothing on the map."
+    Montmartre: "where Monstrelet has the force quarter before Saint-Denis; it changes nothing on the map."
+    the Porte Saint-Denis: "where Ramsay has Willoughby's men meet the country people with guns; inside Paris, and the Paris marker leads there."
+    Rouen: "where the English go from the Bastille by land and water (Monstrelet alone, 070.11); marked on normandy-won-back."
+    Notre-Dame: "not a place of this page's events."
+normandy-won-back:
+  bbox: [-2.3, 47.9, 1.9, 50.0]
+  zones: [france-1422, english-1449, burgundy-1420, brittany-1407]
+  routes:
+    - id: kyriell-1450-formigny
+      family: english
+      stations: [Cherbourg, Valognes, the Fords of Saint-Clément, Carentan, Formigny]
+      passage: "Ramsay, Lancaster and York, vol. 2, ch. 8, lines 8781-8840"
+      basis: reconstruction
+      why: "Ramsay has Kyriell land at Cherbourg about 15 March 1450, besiege and take Valognes, leave it on 13 April, reach the sands of Saint-Clément on the 14th, pass Carentan unmolested and reach Formigny; Beaucourt has him march on Valognes. The stations are sourced; no road is given between them, so the line joins them."
+    - id: clermont-1450-formigny
+      family: france
+      stations: [Carentan, Isigny, Formigny]
+      passage: "Ramsay, Lancaster and York, vol. 2, ch. 8, lines 8819-8846; Beaucourt, Histoire de Charles VII, vol. 5, book 5 ch. 1, lines 1927-1940"
+      basis: reconstruction
+      why: "Ramsay has the Count of Clermont at Carentan as Kyriell passes, and early on 15 April following the highway through Isigny to Formigny; Beaucourt has him take up the pursuit on the road from Carentan to Bayeux. The line joins the stations along that road."
+    - id: richemont-1450-formigny
+      family: france
+      stations: [Saint-Lô, Formigny]
+      passage: "Ramsay, Lancaster and York, vol. 2, ch. 8, lines 8838-8842; Oman, Art of War, vol. 2, book 14 ch. 2, lines 19960-19964; Beaucourt, vol. 5, book 5 ch. 1, lines 1927-1930"
+      basis: reconstruction
+      why: "Ramsay, Oman and Beaucourt have Richemont at Saint-Lô on the night of 14 April, warned by Clermont, and coming up from Saint-Lô to the field on the 15th. No road is given, so the line joins the two places; where he came on the field is disputed (070.19), and the line ends at the village and takes no side."
+  markers:
+    fougeres-1449: { name: Fougères, what: "the rich town in Brittany which a force from the English garrisons of Normandy under François de Surienne seizes and sacks on 24 March 1449, breaking the truce; French captains take Pont-de-l'Arche, Conches and Gerberoy in reprisal; about 48.35 N 1.20 W. In the english colour", basis: sourced, rank: 1 }
+    rouen-1449: { name: Rouen, what: "the capital of English Normandy, which rises on 19 October 1449; Somerset signs a capitulation on 29 October and marches out on 4 November, and Charles VII makes his entry on 10 November 1449; about 49.44 N 1.10 E. In the france colour", basis: sourced, rank: 1 }
+    caen-1450: { name: Caen, what: "Somerset's last town, besieged from early June 1450 and given up by articles of 24 June; on 1 July Richemont escorts Somerset out and Dunois takes possession, and Charles VII enters on 6 July; about 49.18 N 0.37 W. In the france colour", basis: sourced, rank: 1 }
+    cherbourg-1450: { name: Cherbourg, what: "where Kyriell's army lands about 15 March 1450, and which, the last English hold in Normandy, is given up on 12 August 1450 after a month's siege; about 49.64 N 1.62 W. In the france colour", basis: sourced, rank: 1 }
+  unmarked:
+    Formigny: "the card of formigny-1450 stands on it."
+    Valognes: "a station of kyriell-1450-formigny; it changes nothing at the page's end."
+    the Fords of Saint-Clément: "a station of kyriell-1450-formigny."
+    Carentan: "a station of kyriell-1450-formigny and clermont-1450-formigny."
+    Isigny: "a station of clermont-1450-formigny."
+    Saint-Lô: "the start of richemont-1450-formigny."
+    Bayeux: "where Gough escapes after the battle; inside the english zone of the close of 1449."
+    Pont-de-l'Arche: "taken in reprisal for Fougères (070.14); the zone of the close of 1449 shows it French, and the Fougères marker names it."
+    Conches: "taken in reprisal for Fougères (070.14); the zone shows it French, and the Fougères marker names it."
+    Gerberoy: "taken in reprisal for Fougères (070.14); on the frame's edge, the zone shows it French, and the Fougères marker names it."
+    Fresnay: "one of the places English Normandy is cut down to at the close of 1449 (070.16); the english zone is drawn round them."
+    Domfront: "as Fresnay (070.16)."
+    Vire: "as Fresnay (070.16)."
+    Falaise: "as Fresnay (070.16)."
+    Honfleur: "as Fresnay (070.16)."
+    Saint-Sauveur: "as Fresnay (070.16)."
+    Harfleur: "where Somerset goes from Rouen before he sails to Caen (Ramsay); it changes nothing on the map."
+    Tours: "where the truce of May 1444 was made (070.12); outside the frame, told and not drawn."
+    Calais: "where Somerset sails from Caen; outside the frame."
+castillon:
+  bbox: [-2.2, 43.2, 1.0, 45.9]
+  zones: [france-1422, english-1452, burgundy-1420, brittany-1407]
+  routes:
+    - id: talbot-1452-bordeaux
+      family: english
+      stations: [the Médoc, Bordeaux]
+      passage: "Ramsay, Lancaster and York, vol. 2, ch. 10, lines 11439-11447; Oman, Art of War, vol. 2, book 14 ch. 2, lines 20020-20023"
+      basis: reconstruction
+      why: "Ramsay has Talbot land in the Médoc on 17 October 1452 'in a sandy cove still known as l'anse à l'Anglot', which he does not place, and appear under the walls of Bordeaux on the 30th; Oman has him land at the mouth of the Garonne. The line starts on the Médoc coast at the mouth of the Gironde and joins Bordeaux, with no road given."
+    - id: talbot-1453-castillon
+      family: english
+      stations: [Bordeaux, Branne, Castillon]
+      passage: "Ramsay, Lancaster and York, vol. 2, ch. 10, lines 11554-11560; Beaucourt, Histoire de Charles VII, vol. 5, book 5 ch. 9, lines 16699-16702"
+      basis: reconstruction
+      why: "Ramsay has Talbot start from Bordeaux on the appeal from Castillon and draw near at daybreak on 17 July 1453, 'having doubtless crossed the Dordogne at Branne', his own inference; Beaucourt has him march straight on Castillon. The crossing at Branne is Ramsay's, and the text says so; the line joins the three places."
+  markers:
+    bayonne-1451: { name: Bayonne, what: "the last English town of Gascony in 1451, besieged by the Counts of Foix and Dunois from 6 or 7 August and entered on 20 August (Ramsay; Beaucourt has the capitulation signed on the 20th and Dunois entering on the 21st); about 43.49 N 1.47 W. In the france colour", basis: sourced, rank: 1 }
+    bordeaux-1453: { name: Bordeaux, what: "the capital of English Gascony: delivered to Dunois on 30 June 1451, it calls Talbot back and opens to him in October 1452, taking the French seneschal Coëtivy; blockaded from 1 August 1453 after Castillon, it treats in early October, and Charles VII's officers take possession on 19 October 1453, which ends the war; about 44.84 N 0.58 W. In the france colour", basis: sourced, rank: 2 }
+  unmarked:
+    Castillon: "the card of castillon-1453 stands on the field east of the town, and the town lies under it."
+    the priory of Saint-Florent: "the abbey west of the town that Talbot takes first (070.29); a place of the battle, under its card."
+    Mont Horable: "where the Bretons stood to the north-east (Ramsay); a place of the battle, under its card."
+    the Lidoire: "the stream by the French camp; drawn on the base map where it is drawn at all, and under the card."
+    Branne: "a station of talbot-1453-castillon."
+    the Médoc: "the start of talbot-1452-bordeaux; a region."
+    Fronsac: "given up with Bordeaux in 1451 (Ramsay's passage); it changes nothing on the map."
+    Calais: "the one English hold left after October 1453 (070.26); outside the frame; the english zone holds it, and the-retrial's frame shows it."
+the-retrial:
+  bbox: [-0.2, 45.4, 6.4, 51.1]
+  zones: [france-1422, english-1451, burgundy-1420, brittany-1407, bar-1412, lorraine-1412]
+  markers:
+    notre-dame-1455: { name: Notre-Dame, what: "the cathedral of Paris, where on 7 November 1455 Isabelle Romée, in mourning, with her sons Jean and Pierre, presents the papal rescript and her petition to the judges; a second public sitting follows on 17 November, and witnesses are heard at Paris in April and May 1456; about 48.853 N 2.350 E. In the france colour", basis: sourced, rank: 2 }
+    domremy-1456: { name: Domrémy, what: "her village, where with Vaucouleurs the witnesses of her childhood are heard in January and February 1456; about 48.44 N 5.67 E. In the france colour", basis: sourced, rank: 1 }
+    orleans-1456: { name: Orléans, what: "where witnesses are heard in February and March 1456, and where Isabelle Romée had lived for fifteen years by 1455 (Lowell); about 47.90 N 1.91 E. In the france colour", basis: sourced, rank: 1 }
+    rouen-1456: { name: Rouen, what: "where Guillaume Bouillé hears seven witnesses on 4 and 5 March 1450, the legate d'Estouteville and the inquisitor Bréhal open a second enquiry in late April and May 1452, and witnesses are heard in December 1455 and May 1456; on 7 July 1456, at eight in the morning, in the great hall of the archbishop's palace, the judges declare the trial of 1431, the abjuration and the execution null; about 49.440 N 1.095 E. In the france colour", basis: sourced, rank: 2 }
+    lyon-1456: { name: Lyon, what: "where on 28 May 1456 the vice-inquisitor takes the deposition of Jean d'Aulon, her squire; about 45.76 N 4.83 E. In the france colour", basis: sourced, rank: 1 }
+  unmarked:
+    Vaucouleurs: "named with Domrémy for the witnesses of January and February 1456; a few leagues from it, and the Domrémy marker names it."
+    the archbishop's palace: "inside Rouen; the Rouen marker names it."
+    Saint-Ouen: "where the sentence is published on 7 July 1456 (070.43); inside Rouen, and the Rouen marker leads there; marked for 1431 on a page of 060."
+    the Old Market: "where the sentence is published on 8 July and a cross is set up (070.43); inside Rouen; marked for 1431 on the-old-market."
+    Rome: "where the rescript of 11 June 1455 was given; outside the story's extent."
+    Reims: "the see of Jean Juvénal des Ursins, a judge; no event of this page is there."
+    Coutances: "the see of Richard Olivier de Longueil, a judge; outside the frame, and no event of this page is there."
+    Calais: "the one English hold left; the english zone holds it."
+afterwards:
+  bbox: [-2.0, 44.0, 7.0, 50.8]
+  markers:
+    orleans-8-may: { name: Orléans, what: "the city that keeps each 8 May the procession ordered after the relief of 1429, with candles, to the Augustins and with a station wherever the fighting had been; the city accounts pay for it, and for a play at the bridge, in 1435; a procession a fortnight after the sentence of 1456; Bishop Dupanloup's panegyric of 8 May 1869 and the bishops' letter that asks for her canonisation; about 47.902 N 1.909 E. In the france colour", basis: sourced, rank: 1 }
+  bare:
+    france-1422: "the page runs from 1456 to 1920, and no zone of 1456 holds for that span (the brief's Map part); the page takes no zone."
+    english-1451: "as france-1422: the page takes no zone."
+    burgundy-1420: "as france-1422: the page takes no zone."
+    brittany-1407: "as france-1422: the page takes no zone."
+    bar-1412: "as france-1422: the page takes no zone."
+    lorraine-1412: "as france-1422: the page takes no zone."
+  unmarked:
+    Rome: "St Peter's, of the beatification of 18 April 1909 and the canonisation of 16 May 1920; outside the story's extent, as the overseer's ruling of the pre-plans says."
+    the Augustins: "inside Orléans, where the procession goes; the Orléans marker names it."
+    England: "where in Shakespeare's day she was held a witch (Thurston); a country, not a place of the page."

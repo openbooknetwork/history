@@ -15,3 +15,18 @@
     - "Every check of the pack ok: plan, linter, names, card guard, build, zone gaps; 13 routes clean on land. All 24 markers stand within a kilometre or two of their towns; notes tell their own page's event; families as the brief gives them."
     - "The pack's capture of the-towns-come-over caught the page before its route drew; a second capture after SHOT_WAIT=12000 shows france-1429-provins whole. No fault."
     - "meung-bridge-1429 waits under beaugency-1429 (plan-check note): the writer links it when the text is written."
+- step: maps
+  task: recheck
+  status: pass
+  changed_files: []
+  faults: []
+  unresolved:
+    - "english-may-1429 and english-june-1429 (jargeau, meung-and-beaugency): ground line 50, the edge from the Loire about 7 km east of Meung round Orléans at about ten km, is the map keeper's own line; no source read gives where the English edge ran once the bastilles were left on 8 May (030.72, 030.74). Kept, as proposed at the audit."
+    - "english-reims-1429 (reims) and english-aug-1429 (the-towns-come-over): the three questions of the audit stand as they were (all Champagne east of the road from 10 July, on 040.86; the Valois French from 18 July; Crécy 3.8 km inside the king's land). Proposed: keep."
+  stale: []
+  notes:
+    - "040-map-auditor-1 stands: against 20c72b92, english-june-1429 is ABROAD, NORTH28 and BEAUCE29 without JARGEAU; jargeau and Orléans outside it, ground tests ok; meung-and-beaugency lists france-june-1429 and english-june-1429 in map.yaml, pages040.mjs and page.yaml; the brief's rows carry the new stages; the capture shows no circle at Jargeau."
+    - "040-map-auditor-2 stands: english-siege-1428 keeps its outline (ORLN split into ORLN and ORLNE, the same points); english-may-1429 draws the edge back, orleans-june-1429 now 8.7 km from it (0.7 km before), Montpipeau and Saint-Sigismond inside."
+    - "040-map-auditor-3 stands: against 4d0c9294, france-1429-provins runs Château-Thierry, Montmirail [3.54, 48.87], Provins in pages040.mjs and its geojson, with Montmirail among the stations of map.yaml."
+    - "The markers added for 040-section-reviewer-10 to -14 stand at their towns' coordinates, with notes of their own page's event; the two that wait (meung-bridge-1429, meung-18-june-1429) are linked in their texts."
+    - "Pack: plan, linter, card guard, build and zone gaps ok; 13 routes clean on land. names-check fails on four 'First named in' rows of names.md and 'the Marshal de Boussac' in patay's note ***, the texts' and the names agent's, already in 040-section-reviewer's report; no map fault."

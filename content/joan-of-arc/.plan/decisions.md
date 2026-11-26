@@ -248,3 +248,8 @@
   than their sources and put them right (030-fact-checker-40 to -43). No fault of `faults/030.yaml` is open.
 - facts 040 rechecked (fact-checker): pass, one wording fault fixed. The cartographer of 040 fixed its six faults:
   Montmirail on the road to Provins, and 13 markers for places the texts name.
+- section 040: done, 26 Nov 2026, maps to facts. 6 pages drawn, audited (recheck pass), written, with 11 images found,
+  fact-checked, reviewed and rechecked (pass). No fault of `faults/040.yaml` is open. The cartographer's fix linked
+  13 new markers in the texts after the facts' recheck: links only, which the editor and the story auditor read.
+- wave 030 040: done, 26 Nov 2026, at the sections' `build`. 12 pages; 23 of 41 are built.
+- ledger after `wave 030 040`: | **total** | 86 | 2,612 | 469,260 | 5,319 | 18,274,829 | 453,486,407 | 3,558,594 | 85,990,466 |

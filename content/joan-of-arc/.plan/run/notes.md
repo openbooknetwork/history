@@ -1,0 +1,2 @@
+- 26 Nov 2026, session start: the first build of the story ends `error: content/joan-of-arc: no pages`, since no page exists before `maps`; no cache could be warmed, and the run went on.
+- 26 Nov 2026, survey: the Agent call for the research-coordinator carried `run_in_background: false` and still started in the background; the overseer held its turn by watching for the agent's report file.

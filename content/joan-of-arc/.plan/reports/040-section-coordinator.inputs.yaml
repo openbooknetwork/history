@@ -9,3 +9,12 @@
   status: pass
   outputs:
     - content/joan-of-arc/.plan/040-the-loire-and-reims/pages.yaml
+- task: plan
+  step: plans
+  at: '2026-11-26T10:40:15.828Z'
+  before: null
+  inputs:
+    rules.md: 1fa000ad5b45337e
+    brief.md#040: 5aeca67518885729
+    research.md#040: 38bfd0efcfb7b8da
+    names.md#040: 8b01d4d527db4be7

@@ -9,3 +9,12 @@
   status: pass
   outputs:
     - content/joan-of-arc/.plan/030-orleans/pages.yaml
+- task: plan
+  step: plans
+  at: '2026-11-26T10:40:15.914Z'
+  before: null
+  inputs:
+    rules.md: 1fa000ad5b45337e
+    brief.md#030: 2166a770e5fc74f3
+    research.md#030: f4b085a4ed25de7e
+    names.md#030: c04f3b19bde2655b

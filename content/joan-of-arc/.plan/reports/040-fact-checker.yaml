@@ -106,3 +106,32 @@
     - "close-wording.mjs 040 now flags 67% for 'His brother Alexander de la Pole is killed, and another brother is taken with him' (040-fact-checker-37), against Ramsay's 'his brother John were taken ; a third brother, Alexander de la Pole, was killed'. It shares names and three plain words, in the reverse order, so it stays. plan-check.mjs 040: ok. placeholders.mjs on jargeau, patay and the-towns-come-over: ok. patay's body is about 349 words, under the 350 limit."
     - "The disputed and open claims stand as the facts-check entry above lists them, and no fix changed how a text tells them."
   claims_checked: { jargeau: 1, patay: 1, the-towns-come-over: 1 }
+- step: facts
+  task: check
+  pages: [patay, patay-the-hedges, patay-the-stag, patay-the-rout]
+  status: pass
+  changed_files:
+    - content/joan-of-arc/pages/040-the-loire-and-reims/031-patay-the-hedges/text/en.md
+    - content/joan-of-arc/pages/040-the-loire-and-reims/033-patay-the-rout/text/en.md
+    - content/joan-of-arc/.plan/faults/040.yaml
+    - content/joan-of-arc/.plan/fixes/040.yaml
+  faults: [040-fact-checker-52, 040-fact-checker-53]
+  unresolved:
+    - "040.30 (single, by author): the stakes told as Monstrelet's, whose English stand on the plain, and Oman's after him; Wavrin gives none (patay-the-stag; patay says 'the English on foot')"
+    - "040.32 (disputed): Talbot taken by the archers of Xaintrailles in Gruel, named (patay, patay-the-stag)"
+    - "040.35, 040.36 (disputed): the English losses by author in patay-the-rout's note and on the card; the vanguard's 1,400 to 1,500 (the Journal) and Monstrelet's main body of 8,000 to 9,000 in patay-the-hedges' note and the unit labels"
+    - "040.38, 040.39 (disputed): 18 June in each body; the five places, each with its author, in a note of each phase page, Anatole France's Lignerolles wood among them as rules.md asks for Patay"
+    - "040.91 (disputed): where the English stood, Wavrin's narrow way and hedges in the bodies, Monstrelet's fall back to the plain named in patay-the-stag"
+    - "040.92 (disputed for who charged Talbot): the vanguard under La Hire and Xaintrailles in the body, Ramsay's surround and Lowell's Bastard in patay-the-stag's note"
+    - "040.93 (disputed): Wavrin's main body taken or killed at the French's will in patay-the-rout's body, Ramsay's main body keeping together to Étampes in its note"
+  stale: []
+  turns_on:
+    - "040.29 the French vanguard rides into Talbot's narrow way before the English join at the hedges, and the English vanguard flees on seeing Fastolf: Wavrin, Quicherat 4 pp. 421-423, who was there; the Journal p. 177 and Gruel p. 319 for the French vanguard and the rout"
+    - "040.31 Talbot, Scales, Rempston and Hungerford taken: Wavrin p. 423, the Journal p. 177 (Quicherat 4), Monstrelet book 2 ch. 61, Ramsay ch. 27"
+    - "040.33 Fastolf flees with a small company to Étampes by midnight: Wavrin p. 424 (Quicherat 4), Monstrelet book 2 ch. 61 for his not having dismounted"
+  claims_checked: { patay: 1, patay-the-hedges: 21, patay-the-stag: 19, patay-the-rout: 20 }
+  notes:
+    - "patay changed only in 040-battle-implementor-3's clause since its last recheck (git diff ec0556aa e4e8ea09); 'the English on foot' is Monstrelet's 'those who had dismounted' (lines 39207-39209)."
+    - "Each phase text was read against Wavrin pp. 419-424 (lines 16380-16590), Monstrelet lines 39170-39235, the Journal lines 7238-7300, Gruel lines 12648-12672, Ramsay lines 25040-25078, Oman lines 19588-19615 and France lines 15250-15312. 'The main body gallops up' on patay-the-stag stands in Gruel: 'adonc galopèrent grand erre, et la bataille après'."
+    - "The Journal's 'near the village of Patay' (040.39) rests on Quicherat's bracketed words for a gap ('[ains s'arrestèrent près d'un] village en Beausse nommé Pathay', line 7261); the manuscript has the village. Left as it stands on all four pages."
+    - "The three phase markers.yaml notes, the unit and arrow labels of the page files, each page's date and when, and each listed source were checked; every work the texts name is listed. No phase page has an image. close-wording.mjs: none; a five-word scan found only names, the order of march in Wavrin's order (attributed), and set phrases. plan-check.mjs 040 and placeholders.mjs: ok. Bodies: 285, 252 and 195 words."

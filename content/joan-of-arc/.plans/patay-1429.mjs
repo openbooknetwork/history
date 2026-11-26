@@ -117,7 +117,7 @@ writePlan(page('032-patay-the-stag', 'Patay: the stag', ['wavrin', 'monstrelet',
   markers: {
     ...village('patay-the-stag', 'The English vanguard at its hedges'),
     'patay-the-stag-talbot': mark(-2300, 560, 'Talbot', 'Taken; his archers killed', 'english'),
-    'patay-the-stag-fastolf': mark(-850, -520, 'Fastolf', 'Hurries on with the main body', 'english'),
+    'patay-the-stag-fastolf': mark(-1100, 950, 'Fastolf', 'Hurries on with the main body', 'english'),
     'patay-the-stag-la-hire': mark(-3150, 600, 'La Hire, Xaintrailles', 'Ride down Talbot', 'france'),
     'patay-the-stag-alencon': mark(-4400, 900, 'Alençon, the Bastard', 'The main body gallops up', 'france'),
   },

@@ -650,3 +650,10 @@
   old: "Jean Morel told the inquiry of 1455 that"
   new: "Jean Morel told the retrial that"
   commit: aa448627
+- fault: 010-fact-checker-36
+  by: fact-checker
+  file: content/joan-of-arc/shared/images/verneuil-vigiles-miniature-a8aaed/image.yaml
+  field: caption
+  old: "The battle of Verneuil in a miniature of about 1484 from the Vigiles de Charles VII of Martial d'Auvergne."
+  new: "The battle of Verneuil in a miniature of about 1484 from the Vigiles de Charles VII."
+  commit: ec0556aa

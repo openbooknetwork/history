@@ -1055,3 +1055,16 @@
   owner: editor
   state: fixed
   between: "010 domremy against 050 and 060, as 010-editor-1"
+- id: 010-fact-checker-36
+  severity: weak
+  file: content/joan-of-arc/shared/images/verneuil-vigiles-miniature-a8aaed/image.yaml
+  field: caption
+  replaces: clause
+  old: from the Vigiles de Charles VII of Martial d'Auvergne.
+  new: from the Vigiles de Charles VII.
+  source: |-
+    .candidates/france-divided/index.yaml l. 1661, the entry of File:Vigiles du roi Charles VII 49.jpg: "author: Unknown authorUnknown author", "date: circa 1484", "description: Bataille de Verneuil (1424)." Martial d'Auvergne stands in neither the entry nor research.md; the same caption was cut so in 030 (030-fact-checker-38)
+  kind: image
+  introduced: images
+  owner: image-finder
+  state: fixed

@@ -78,3 +78,20 @@
       - "Thurston in 1910: newadvent.org-cathen-08409c.txt, the citation lines"
       - "isabelle-romee-retrial-miniature shows: .candidates/after-her/index.yaml, its Commons entry (16th century, Isabelle Romée and her two sons before the judges)"
   checked: { burgundy-changes-sides: 4, paris-opens: 2, normandy-won-back: 3, castillon: 4, the-retrial: 3, afterwards: 4 }
+- step: edit
+  task: recheck
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/faults/070.yaml
+    - content/joan-of-arc/.plan/fixes/070.yaml
+  faults: [070-fact-checker-15]
+  unresolved: []
+  stale: []
+  rechecked:
+    against: "646a3ad1 for 070-editor-1 to 7 (git diff 646a3ad1 ec0556aa -- pages/070-after-her: each removes its @image line and the blank line after it, and nothing else); 96eeaec1 for 070-section-writer-2 (names.md row of John Talbot)"
+    faults: [070-editor-1, 070-editor-2, 070-editor-3, 070-editor-4, 070-editor-5, 070-editor-6, 070-editor-7, 070-section-writer-2]
+    sources:
+      - "each removed image stands on its marker: markers.yaml of burgundy-changes-sides (notre-dame-1431, arras-1435), paris-opens (bastille-1436), normandy-won-back (fougeres-1449, rouen-1449), the-retrial (rouen-1456), afterwards (orleans-8-may)"
+      - "John Talbot first named on 030-orleans/the-army-of-blois, which rests on 030.10 (\"Sir John Talbot\", the Fordham letter); no text of 010 or 020 names him; names-check 070 prints ok"
+      - "captions of the 13 images placed in 646a3ad1: each year, name and shelfmark stands in its entry of .candidates/after-her/index.yaml or after-her-2/index.yaml; none taken out"
+  checked: { burgundy-changes-sides: 2, paris-opens: 1, normandy-won-back: 2, the-retrial: 1, afterwards: 1, names.md: 1, captions: 13 }

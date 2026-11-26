@@ -801,3 +801,15 @@
   owner: editor
   state: fixed
   between: "060-afterwards shows orleans-8-may-procession-8a3262 twice, on the marker orleans-8-may and in the text; 010 to 050 show a marker image once"
+- id: 070-fact-checker-15
+  severity: weak
+  file: content/joan-of-arc/.plan/fixes/070.yaml
+  field: "commit, of the seven entries of 070-editor-1 to 070-editor-7"
+  replaces: value
+  old: "aa448627"
+  new: "646a3ad1"
+  source: "git diff aa448627 646a3ad1 -- content/joan-of-arc/pages/070-after-her: the images commit 646a3ad1 turned each placeholder into its placed name (\"@image henry-vi-paris-coronation-miniature\" became \"@image henry-vi-paris-coronation-miniature-4faf00\", and so for the other six), so the old text of each entry stands in the files only from 646a3ad1, the commit before ec0556aa that made the editor's change. A recheck run with git diff aa448627 mixed the images step's renames and marker changes into the editor's diff."
+  kind: check
+  introduced: fix
+  owner: editor
+  state: fixed

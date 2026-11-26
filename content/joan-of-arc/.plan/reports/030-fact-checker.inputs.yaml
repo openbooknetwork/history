@@ -89,3 +89,50 @@
     030-orleans/text.yaml#the-english-march-away: 773a23cbcc4d2661
     030-orleans/battles.yaml#orleans-1429: c5bdddb80e826d58
     names.md#030: 8adb30974bdff2ab
+- task: recheck
+  step: edit
+  at: '2026-11-26T16:30:14.047Z'
+  before: 3463a10e382c74b7
+  inputs:
+    rules.md: 476e2c9172c31a6b
+    research.md#030: e91edf2f4c670e07
+    030-orleans/pages.yaml#from-blois: 51c574f35f5505ce
+    030-orleans/pages.yaml#the-army-of-blois: 94cfba9aedbae566
+    030-orleans/pages.yaml#storming-saint-loup: b242a09ffd671106
+    030-orleans/pages.yaml#the-augustins: 4de277483b53d4b0
+    030-orleans/pages.yaml#the-tourelles: e8b9239e1c7f3c9e
+    030-orleans/pages.yaml#the-english-march-away: 62a3979dbb90ec51
+    030-orleans/text.yaml#section: 834f8d026fc5a954
+    030-orleans/text.yaml#from-blois: f880592d2721c6f2
+    030-orleans/text.yaml#the-army-of-blois: cb59dd90ad260a27
+    030-orleans/text.yaml#storming-saint-loup: e59c48d67d77ea71
+    030-orleans/text.yaml#the-augustins: 6a7bf24bf4585896
+    030-orleans/text.yaml#the-tourelles: 90cf31b075cd9e01
+    030-orleans/text.yaml#the-english-march-away: 773a23cbcc4d2661
+    030-orleans/battles.yaml#orleans-1429: c5bdddb80e826d58
+    names.md#030: 58c327592935c0a5
+  ended: '2026-11-26T16:31:12.291Z'
+  status: pass
+  outputs: []
+  checked:
+    pages/030-orleans/010-from-blois/markers.yaml: b72b190bd7880de6
+    pages/030-orleans/010-from-blois/page.yaml: 0f6b1c06cc15ee4d
+    pages/030-orleans/010-from-blois/text/en.md: ee24dd3a837a47ea
+    pages/030-orleans/020-the-army-of-blois/markers.yaml: 126993c263decdb7
+    pages/030-orleans/020-the-army-of-blois/page.yaml: 8a2d01d951433ea4
+    pages/030-orleans/020-the-army-of-blois/text/en.md: af592a2ea040ee64
+    pages/030-orleans/030-storming-saint-loup/markers.yaml: 3a25bbbfe55e217a
+    pages/030-orleans/030-storming-saint-loup/page.yaml: 251c0b1832fb2095
+    pages/030-orleans/030-storming-saint-loup/text/en.md: 2a9707f01b88f7dd
+    pages/030-orleans/040-the-augustins/markers.yaml: 4f5b1e347f0c0298
+    pages/030-orleans/040-the-augustins/page.yaml: 1c4ef2c7b020559b
+    pages/030-orleans/040-the-augustins/text/en.md: c6f8d56403d8e8de
+    pages/030-orleans/050-the-tourelles/markers.yaml: 127b63f2fb168673
+    pages/030-orleans/050-the-tourelles/page.yaml: 00b00e8648c3c33a
+    pages/030-orleans/050-the-tourelles/text/en.md: defdee9fedd72d85
+    pages/030-orleans/060-the-english-march-away/markers.yaml: 8d2d01a16f87d78f
+    pages/030-orleans/060-the-english-march-away/page.yaml: 524d5a8440d37d2d
+    pages/030-orleans/060-the-english-march-away/text/en.md: 2b447c5701f6d249
+    shared/battles/orleans-1429/battle.yaml: 452206d52d8ddfaf
+    faults#open: 4f53cda18c2baa0c
+  means: b3b3798189c5852d

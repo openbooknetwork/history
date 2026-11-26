@@ -102,3 +102,23 @@
       - "010-section-reviewer-12: 010.68, Oman l. 19386; the road of Salisbury is still called approximate on the page, which keeps the clause of agents/evidence.md for the chapter"
   checked:
     fixes: 12
+- step: edit
+  task: recheck
+  status: pass
+  changed_files:
+    - content/joan-of-arc/shared/images/verneuil-vigiles-miniature-a8aaed/image.yaml
+    - content/joan-of-arc/.plan/faults/010.yaml
+    - content/joan-of-arc/.plan/fixes/010.yaml
+  faults: [010-fact-checker-36]
+  unresolved: []
+  stale: []
+  rechecked:
+    against: "git diff aa448627 -- content/joan-of-arc/pages/010-france-divided/ and git diff 2354922f -- content/joan-of-arc/.plan/010-france-divided/text.yaml, the commits the fix log entries name; every hunk matches its entry's old and new, and the only other lines changed are the six @image placeholders resolved to the image ids of images/010.yaml"
+    passed:
+      - "010-editor-1: Murray, DEPOSITIONS AT DOMREMY: 1455 (l. 11142), JEAN MOREL, of Greux (l. 11150): questioned in the village for the retrial, no year given, as rules.md asks"
+      - "010-editor-2: Murray l. 11239, BEATRIX, widow of Estellin, of Domremy, in the same Domrémy depositions as Jean Morel: 'the same inquiry' holds"
+      - "010-editor-3: Murray, Jean Morel's deposition at Domrémy; 'the retrial' with no year"
+      - "010-overseer-1: page harfleur-and-agincourt lists zones france-1412, english-1407, burgundy-1407, brittany-1407 and the marker harfleur-1415 alone at Harfleur"
+  checked:
+    fixes: 4
+    captions: "14 image.yaml captions of images/010.yaml against .candidates/france-divided/index.yaml; one name in neither the entry nor the digest, taken out (010-fact-checker-36)"

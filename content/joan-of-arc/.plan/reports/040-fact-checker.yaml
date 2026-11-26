@@ -90,3 +90,19 @@
     - "040-section-reviewer-2 took out Alexander's death in the retreat to the bridge as resting on no claim. The Journal has it (Quicherat 4, lines 7108-7110: \"en y eulx retirant, fut tué messire Alixandre\"), and another chronicle there has him drown at the bridge (line 2145). The new sentence is true and drops only that detail; its wording followed Ramsay's clauses, reworded under 040-fact-checker-37."
     - "The edit hook flags names.md's row for Suffolk as first named in 010 (010.63) where 040 is the first text to name him, as it flagged Richemont, La Trémoille and Wavrin before: for the names agent."
     - "plan-check.mjs 040: ok. close-wording.mjs 040: none after the rewording."
+- step: edit
+  task: recheck
+  status: pass
+  changed_files: []
+  faults: []
+  unresolved: []
+  stale: []
+  rechecked: [040-editor-1, 040-editor-2, 040-editor-3]
+  notes:
+    - "git diff aa448627 on the 040 texts shows each editor fix as its fix-log entry gives it and no other change of words; the rest of the diff is the images step's placed names."
+    - "040-editor-1 and -2: Alençon's and Dunois's words stand in Murray's depositions, which he heads 1455, 1455-6 and 1456 by place (lines 889-899), so 'at the retrial' is true and follows rules.md. No 1455 or 1456 is left in a 040 text or marker."
+    - "040-editor-3: Lowell ch. 13 (lines 13888-13894) names 'Cardinal Beaufort, the great-uncle of Henry VI', and the Fordham trial page (line 11321) says 'great-uncle of the King'."
+    - "The eleven captions placed by the images step were read against .candidates/the-loire-and-reims/index.yaml. Each maker, year and subject stands in its entry."
+    - "close-wording.mjs 040 now flags 67% for 'His brother Alexander de la Pole is killed, and another brother is taken with him' (040-fact-checker-37), against Ramsay's 'his brother John were taken ; a third brother, Alexander de la Pole, was killed'. It shares names and three plain words, in the reverse order, so it stays. plan-check.mjs 040: ok. placeholders.mjs on jargeau, patay and the-towns-come-over: ok. patay's body is about 349 words, under the 350 limit."
+    - "The disputed and open claims stand as the facts-check entry above lists them, and no fix changed how a text tells them."
+  claims_checked: { jargeau: 1, patay: 1, the-towns-come-over: 1 }

@@ -82,3 +82,14 @@
     - "030.62, where the arrow struck her: Joan at her trial (Barrett), the Journal du siège, Dunois (Murray), the Chronique de la Pucelle"
     - "030.27-030.28, the sortie of 30 April and the herald sent back: the Journal du siège (Quicherat 4), Lowell ch. 8"
   checked: "against 7854a89c: 030-section-reviewer-1 to 20 (text edits on all six pages, each as its fix log has it and nothing else changed), 030-section-reviewer-21 (the marker note of ile-saint-aignan, against d'Aulon), 030-fact-checker-38 and 39 (two captions); 17 of 21 hold, 4 reopened as new faults and fixed"
+- step: edit
+  task: recheck
+  status: pass
+  changed_files: []
+  faults: []
+  unresolved:
+    - "As at the check and the last recheck: the disputed days, places, accounts and figures of 030 (030.2, 030.16, 030.18, 030.19, 030.21, 030.26, 030.30, 030.37, 030.40, 030.42, 030.43, 030.46, 030.51, 030.56, 030.57, 030.59, 030.62, 030.63, 030.66, 030.67, 030.68, 030.70) are each told with their authors; 030.35 (Thin for Saint-Laurent) is not told."
+  stale: []
+  turns_on:
+    - "030.11 with 030.21-030.22, the Bastard's meeting with her on 28 April, now 'in his account at the retrial': Dunois's deposition at Orléans (Murray, depositions of 1455)"
+  checked: "against aa448627 and a7a64b81: 030-editor-2 (from-blois, paragraph 2), the only fix logged since the last recheck, holds as its fix log has it, and rules.md's 'at the retrial' rule is met; the field's other change since a7a64b81 is the images step's placed name. No other fix of 030 since a7a64b81; the card orleans-1429 changed only in its image name; no caption of a 030 image changed"

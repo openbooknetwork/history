@@ -1,0 +1,20 @@
+lnglat: [-0.115, 47.533]
+name: "Battle of Baugé"
+date: "22 March 1421"
+result: "Victory of the Dauphin's Scots and French; the Duke of Clarence killed"
+source: https://en.wikipedia.org/wiki/Battle_of_Baug%C3%A9
+images: [vieil-bauge-church]
+default_language: en
+families:
+  scots: { color: "#24456e", color_dark: "#5f8cc0" }
+  english: { color: "#3d7a2a", color_dark: "#7cc160" }
+sides:
+  - name: "The Dauphin's Scots and French"
+    color: scots
+    commanders: ["the Earl of Buchan"]
+    strength: "Jean Juvenal (in Wylie and Waugh): 5,000 to 6,000; Le Fèvre (in Wylie and Waugh): twice the English; Oman: twice Clarence's horse"
+  - name: "Kingdom of England"
+    color: english
+    commanders: ["Thomas, Duke of Clarence"]
+    strength: "Wylie and Waugh, from a record of the time: 1,500 men-at-arms, with hardly any archers"
+    casualties: "Clarence killed; the Earl of Somerset and the Earl of Huntingdon taken; the Chronique de la Pucelle: about 600 taken"

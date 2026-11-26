@@ -91,3 +91,9 @@
   brittany, lorraine, bar, france, scots, joan; 19 zones, all reconstructions; no shared zone; Rome outside the
   extent, so its marker is gone from `afterwards` (070-map-architect-1).
 - ledger after `map-design`: | **total** | 29 | 971 | 375,922 | 1,980 | 6,334,026 | 162,539,997 | 1,320,928 | 30,778,152 |
+- plans 010: the Map part's rows of `lorraine-1412` and `bar-1412` gain `normandy-and-troyes` (story-overseer-1) —
+  the page's frame is the whole kingdom and it tells the Duke of Lorraine's oath, as the 010 plan reported.
+- unresolved, plans 010 and 020: the Baugé card has one winning column in the scots family and Verneuil keeps the
+  Scots in the france column; the Herrings card has two sides, English, and French and Scots.
+- cloud ruling: the cards' columns stand as planned — no source counts the Scots apart from the French, and a third
+  column would need figures that are `unknown`.

@@ -204,3 +204,55 @@
   introduced: pre-plan
   owner: section-coordinator
   state: fixed
+- id: 020-section-coordinator-1
+  severity: weak
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+  field: the-voices.tells
+  replaces: clause
+  old: "1428 she goes to Robert de Baudricourt"
+  new: "1428, as Bertrand de Poulengy remembered it, she goes to Robert de Baudricourt"
+  source: 'rules.md, "Told with its author: ... the visit to Vaucouleurs of May 1428 (Poulengy, with Lowell''s doubt)"; research/020.md, 020.4 (disputed)'
+  kind: attribution
+  claim: "020.4"
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+- id: 020-section-coordinator-2
+  severity: weak
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+  field: the-voices.date, the-voices.when
+  replaces: value
+  old: "About 1425 to July 1428 / 1425"
+  new: "1424 or 1425 to July 1428 / 1424"
+  source: 'research/020.md, 020.2 (disputed: Thurston 1425, Lang more probably 1424, Lowell neither exact); names.md, "The first voices are \"about 1424 or 1425\""'
+  kind: order
+  claim: "020.2"
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+- id: 020-section-coordinator-3
+  severity: weak
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+  field: eleven-days.tells
+  replaces: clause
+  old: "With six armed men Joan rides"
+  new: "With six men Joan rides"
+  source: 'research/020.md, 020.41: "accompanied by a knight, a squire, and four servants" (Barrett, lines 1202-1204); Poulengy names two servants, a king''s messenger and an archer. No source calls the six armed men'
+  kind: fact
+  claim: "020.41"
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+- id: 020-section-coordinator-4
+  severity: wrong
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+  field: chinon-and-poitiers.tells
+  replaces: clause
+  old: "and on 22 March she dictates her letter to the English."
+  new: "and her letter to the English is dated at Poitiers on 22 March."
+  source: 'research/020.md, 020.54: the letter is "Done on the Tuesday of Holy Week (March 22, 1429)" and "written from Poitiers on March 22" (Lowell, line 2861); no source read says she dictated it (Lowell''s "part of it she dictated", line 2460, is of the letter from Fierbois)'
+  kind: fact
+  claim: "020.54"
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed

@@ -145,3 +145,17 @@
   old: break the Dauphin's field army
   new: break his field army
   commit: 57a176c3
+- fault: 010-section-coordinator-1
+  by: section-coordinator
+  file: content/joan-of-arc/.plan/010-france-divided/pages.yaml
+  field: harfleur-and-agincourt.tells
+  old: many of the Armagnac princes are killed or taken
+  new: many of the princes of France are killed or taken
+  commit: 215c74ca
+- fault: 010-section-coordinator-2
+  by: section-coordinator
+  file: content/joan-of-arc/.plan/010-france-divided/pages.yaml
+  field: normandy-and-troyes.tells
+  old: his son Philip joins the English
+  new: his son Philip the Good joins the English
+  commit: 215c74ca

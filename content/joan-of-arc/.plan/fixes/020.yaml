@@ -126,3 +126,38 @@
   old: The Dauphin receives her at Chinon
   new: Charles VII receives her at Chinon
   commit: 57a176c3
+- fault: 020-section-coordinator-1
+  by: section-coordinator
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+  field: the-voices.tells
+  old: "1428 she goes to Robert de Baudricourt"
+  new: "1428, as Bertrand de Poulengy remembered it, she goes to Robert de Baudricourt"
+  commit: 215c74ca
+- fault: 020-section-coordinator-2
+  by: section-coordinator
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+  field: the-voices.date
+  old: "About 1425 to July 1428"
+  new: "1424 or 1425 to July 1428"
+  commit: 215c74ca
+- fault: 020-section-coordinator-2
+  by: section-coordinator
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+  field: the-voices.when
+  old: "1425"
+  new: "1424"
+  commit: 215c74ca
+- fault: 020-section-coordinator-3
+  by: section-coordinator
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+  field: eleven-days.tells
+  old: "With six armed men Joan rides"
+  new: "With six men Joan rides"
+  commit: 215c74ca
+- fault: 020-section-coordinator-4
+  by: section-coordinator
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+  field: chinon-and-poitiers.tells
+  old: "and on 22 March she dictates her letter to the English."
+  new: "and her letter to the English is dated at Poitiers on 22 March."
+  commit: 215c74ca

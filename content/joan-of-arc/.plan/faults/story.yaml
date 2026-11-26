@@ -101,3 +101,15 @@
   introduced: "source"
   owner: "research-coordinator"
   state: "fixed"
+- id: story-overseer-1
+  severity: weak
+  file: content/joan-of-arc/.plan/brief.md
+  field: Map, the Sections column of the rows lorraine-1412 and bar-1412
+  replaces: clause
+  old: "010 (domremy), 020"
+  new: "010 (domremy, normandy-and-troyes), 020"
+  source: "010.17, the Duke of Lorraine's oath to Henry V, told on normandy-and-troyes, whose frame is the whole kingdom (reports/010-section-coordinator.yaml)"
+  kind: plan
+  introduced: map-design
+  owner: brief
+  state: fixed

@@ -256,3 +256,30 @@
   introduced: pre-plan
   owner: section-coordinator
   state: fixed
+- id: 010-section-coordinator-1
+  severity: weak
+  file: content/joan-of-arc/.plan/010-france-divided/pages.yaml
+  field: harfleur-and-agincourt.tells
+  replaces: clause
+  old: many
+    of the Armagnac princes are killed or taken
+  new: many
+    of the princes of France are killed or taken
+  source: 'archive.org-download-journaldunbourge54182gut-54182-0.txt.txt §130: among the dead "le duc de Breban, le conte de Nevers, freres du duc de Bourgongne" (010.32); the princes lost at Agincourt were of both parties, not the Armagnacs alone'
+  kind: fact
+  claim: "010.32"
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+- id: 010-section-coordinator-2
+  severity: taste
+  file: content/joan-of-arc/.plan/010-france-divided/pages.yaml
+  field: normandy-and-troyes.tells
+  replaces: clause
+  old: his son Philip joins the English
+  new: his son Philip the Good joins the English
+  source: 'names.md, Rules, Names of people: "\"Philip\" alone is not used: Philip the Good, or the Duke of Burgundy"'
+  kind: wording
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed

@@ -1,0 +1,21 @@
+lnglat: [0.935, 48.755]
+name: "Battle of Verneuil"
+date: "17 August 1424"
+result: "English victory; Buchan, Douglas, Aumale, Ventadour, Tonnerre and Narbonne killed, the Duke of Alençon taken"
+source: https://en.wikipedia.org/wiki/Battle_of_Verneuil
+images: [verneuil-battle-miniature]
+default_language: en
+families:
+  english: { color: "#3d7a2a", color_dark: "#7cc160" }
+  france: { color: "#231b7e", color_dark: "#6257db" }
+sides:
+  - name: "Kingdom of England"
+    color: english
+    commanders: ["John, Duke of Bedford", "the Earl of Salisbury", "the Earl of Suffolk"]
+    strength: "The Bourgeois: under 10,000 by the French heralds' count; Cagny: more than 10,000; Beaucourt: 14,000; Ramsay: perhaps 2,000 or 3,000"
+    casualties: "Wavrin (in Beaucourt and Ramsay): 1,600 killed"
+  - name: "The French, the Scots and the Lombards of Charles VII"
+    color: france
+    commanders: ["the Duke of Alençon", "the Count of Aumale", "the Viscount of Narbonne", "the Earl of Buchan", "the Earl of Douglas"]
+    strength: "The Bourgeois: 18,000 by their own count; Cagny: 7,000 to 8,000; Beaucourt: about 20,000; Ramsay: at least half as many again as the English"
+    casualties: "Bedford's letter (in Ramsay): 7,262 killed; the Bourgeois: about 9,000 killed by the heralds' count; the Chronique de la Pucelle: 6,000 to 7,000. The Duke of Alençon and Marshal La Fayette taken"

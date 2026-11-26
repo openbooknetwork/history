@@ -11,3 +11,21 @@
   pages: 5
   brief_pages: 5
   phases: []
+- step: plans
+  task: plan
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+    - content/joan-of-arc/.plan/020-the-road-to-chinon/map.yaml
+    - content/joan-of-arc/.plan/020-the-road-to-chinon/text.yaml
+    - content/joan-of-arc/.plan/020-the-road-to-chinon/battles.yaml
+    - content/joan-of-arc/shared/battles/herrings-1429/battle.yaml
+    - content/joan-of-arc/.plan/faults/020.yaml
+    - content/joan-of-arc/.plan/fixes/020.yaml
+  faults: [020-section-coordinator-1, 020-section-coordinator-2, 020-section-coordinator-3, 020-section-coordinator-4]
+  unresolved:
+    - "The Herrings card has two sides, English and French and Scots (family france), since every strength and loss the sources give counts the French and Scots together; the scots family stays unused in 020. Proposed: keep two sides."
+    - "The days she left Vaucouleurs and reached Chinon are told with every author (Lowell 12 February and 23 February; Jean de Metz 13 February; the Continuator of Nangis 6 March, with Quicherat, Lang, Thurston; Beaucourt 8 March); no day is told as fact."
+  stale: []
+  pages: 5
+  brief_pages: 5

@@ -1,0 +1,156 @@
+the-voices:
+  bbox: [3.9, 47.8, 6.6, 49.3]
+  zones: [france-1422, english-1428, burgundy-1420, brittany-1407, lorraine-1412, bar-1412]
+  routes:
+    - id: joan-1428-vaucouleurs
+      family: joan
+      stations: [Domrémy, Vaucouleurs]
+      passage: "Murray, deposition of Bertrand de Poulengy, lines 11869-11894; Lang, The Maid of France, ch. 5, lines 3093-3094"
+      basis: reconstruction
+      why: "The visit of May 1428 is Poulengy's, which Lang follows and Lowell doubts (020.4). The two ends are given; no road is, so the line follows the Meuse valley north, where Lowell and Lang set both places (020.62). The text tells the visit with Poulengy's name and Lowell's doubt."
+    - id: joan-1428-neufchateau
+      family: joan
+      stations: [Domrémy, Neufchâteau]
+      passage: "Barrett, public examination of 22 February 1431, lines 1151-1153; Lang, ch. 5, lines 3170-3173; Lowell, ch. 3, lines 1556-1559"
+      basis: reconstruction
+      why: "Her own answer and Lowell and Lang give the two ends, seven or six miles apart; no road is given, so the line runs up the Meuse valley. The date is July 1428 with Lang and Lowell, and Murray's note gives September 1426 as another reading (020.11)."
+    - id: vergy-1428
+      family: english
+      stations: [Saint-Urbain, Vaucouleurs]
+      passage: "Lowell, ch. 3 and note, lines 1599-1621; Lang, ch. 5, lines 3162-3165"
+      basis: reconstruction
+      why: "Lowell has Vergy review his army at Saint-Urbain on 16-17 July, and Lang has him march against Vaucouleurs. No road between them is given, so the line runs straight from the Marne to the Meuse. Drawn in english, since Vergy was the English king's governor of Champagne (020.10, and the brief's family table)."
+  markers:
+    domremy-voices: { name: Domrémy, what: "where she first heard the voice, in her father's garden, at about thirteen, as she told her judges; about 48.44 N 5.67 E. Of the king's party; the text gives both accounts of its overlord", basis: sourced }
+    vaucouleurs-1428: { name: Vaucouleurs, what: "Baudricourt's town, held for Charles VII; she comes to him in May 1428, as Poulengy remembered it, and is sent home; in July he keeps it against Vergy; about 48.60 N 5.67 E. In the france colour", basis: sourced, rank: 2 }
+    neufchateau: { name: Neufchâteau, what: "the Duke of Lorraine's walled town where the people of Domrémy fled with their cattle and her family lodged with La Rousse; about 48.36 N 5.70 E. In the lorraine colour", basis: sourced }
+    vergy-review-1428: { name: Saint-Urbain, what: "where Antoine de Vergy reviewed the force he led against Vaucouleurs, 16-17 July 1428 (Lowell); the abbey, about 48.40 N 5.19 E. In the english colour", basis: sourced }
+  unmarked:
+    Burey: "Laxart's village, named in the account as his home; it changes nothing on this page's map and is a station of vaucouleurs-again."
+    Troyes: "named as Anglo-Burgundian with Reims (Lang, 020.8); the english-1428 zone shows Champagne, and Troyes is marked on 040's auxerre-and-troyes."
+    Reims: "named as Anglo-Burgundian (Lang, 020.8); the zone shows it, and 040 marks it for the coronation."
+    Orléans: "named as the siege the voice bid her raise; it is marked besieged on salisbury-on-the-loire, the next page."
+    the Meuse: "the river is drawn on the base map; Domrémy, Vaucouleurs and Neufchâteau stand on it."
+    Champagne: "a province, shown by the english-1428 zone, which counts its Anglo-Burgundian towns as English."
+    Lorraine: "the duchy, shown by the lorraine-1412 zone; Neufchâteau is marked."
+salisbury-on-the-loire:
+  bbox: [1.0, 47.45, 2.9, 48.95]
+  zones: [france-1422, english-siege-1428, burgundy-1420, brittany-1407]
+  routes:
+    - id: salisbury-1428
+      family: english
+      stations: [Paris, Chartres, Janville, Meung, Beaugency, the Portereau south of Orléans]
+      passage: "Lowell, Joan of Arc, ch. 7, lines 3635-3833; Ramsay, Lancaster and York, ch. 26, lines 24173-24231; the Journal of the Siege, Quicherat 4, lines 4095-4099"
+      basis: reconstruction
+      why: "Lowell has him settle the plan at Paris and march toward Chartres at the start of August; Ramsay has Chartres men join him, Janville stormed, Meung entered about 8 September, Beaugency's bridge and castle taken on 25 September and the camp pitched on the south side on 12 October (020.13, 020.14, 020.17). The order of the towns is theirs; the roads between them are not given. The landing, at Calais about 1 July (Lowell) or after the muster at Sandwich on 19 July (Ramsay), is told and not drawn, since the frame is the Loire campaign."
+    - id: fastolf-1429
+      family: english
+      stations: [Paris, Étampes, Rouvray]
+      passage: "Ramsay, ch. 26, lines 24366-24380; the Bourgeois of Paris, 1429, lines 13599-13601; the Journal of the Siege, Quicherat 4, lines 5051-5069; Monstrelet, book 2 ch. 56, lines 38840-38854"
+      basis: reconstruction
+      why: "Ramsay has the convoy leave Paris, march the first day to Étampes and halt the second night at Rouvray-Saint-Denis, between Angerville and Janville; the Bourgeois has it go to Étampes and meet the French beyond, between Janville and Rouvray; the Journal sets the fight at Rouvray, two leagues from Janville, with the convoy bound for the English before Orléans. The convoy never reached Janville before the fight, so Janville is no station. The roads between are not given."
+    - id: clermont-1429
+      family: france
+      stations: [Blois, Rouvray]
+      passage: "Ramsay, ch. 26, lines 24370-24377; the Journal of the Siege, Quicherat 4, lines 5030-5060"
+      basis: reconstruction
+      why: "Ramsay has Clermont's relief force gathered at Blois; the field is Rouvray. Ramsay has the men of Orléans join Clermont at Janville and the French advance on Rouvray from there, while the Journal has Clermont come to Rouvray itself the day before; Janville, English since August 1428, is not made a station. No road is given, so the line runs straight across the Beauce."
+    - id: orleans-van-1429
+      family: france
+      stations: [Orléans, Rouvray]
+      passage: "The Journal of the Siege, Quicherat 4, lines 5100-5170; Ramsay, ch. 26, lines 24390-24416"
+      basis: reconstruction
+      why: "The men from Orléans, the Bastard of Orléans with them, rode out to join Clermont before Rouvray (020.25). Only the two ends are given."
+  markers:
+    janville: { name: Janville, what: "stormed by Salisbury on 29 August 1428 (Ramsay), after a week (Lowell); his letter of 5 September is dated here; about 48.20 N 1.88 E. In the english colour", basis: sourced, rank: 1 }
+    meung-1428: { name: Meung, what: "surrenders and is entered about 8 September 1428; Salisbury dies here of his wound; its bridge held by the English; about 47.83 N 1.70 E. In the english colour", basis: sourced, rank: 2 }
+    beaugency-1428: { name: Beaugency, what: "its bridge and castle taken by Salisbury on 25 September 1428 (Ramsay); about 47.78 N 1.63 E. In the english colour", basis: sourced, rank: 1 }
+    jargeau-1428: { name: Jargeau, what: "taken by Sir John de la Pole on 5 October 1428, the English bridge above Orléans; about 47.86 N 2.13 E. In the english colour", basis: sourced }
+    sully-1428: { name: Sully, what: "La Trémoille's town above Jargeau, surrendered in autumn 1428, to the Burgundians (Ramsay) or by La Trémoille himself (Lowell); about 47.77 N 2.38 E. A hold for the other side inside the france zone, in the burgundy colour", basis: sourced }
+    orleans-besieged: { name: Orléans, what: "besieged from 12 October 1428, Salisbury camped on the south side near the Portereau; by spring the English bastilles cover the west and the south and leave the north-east open (Ramsay); about 47.90 N 1.90 E. In the france colour", basis: sourced, rank: 2 }
+    tourelles-1428: { name: the Tourelles, what: "the fort at the south end of the bridge, taken by the English on 24 October 1428; Salisbury is struck at its window; about 47.896 N 1.903 E. In the english colour", basis: sourced, rank: 1 }
+    rouvray: { name: Rouvray, what: "Rouvray-Saint-Denis, two leagues from Janville, where the Journal of the Siege sets the Battle of the Herrings, 12 February 1429; about 48.27 N 1.95 E. Under the battle card", basis: sourced }
+  unmarked:
+    Sandwich: "Ramsay's muster of 19 July 1428 is told; England is outside the frame of the Loire campaign."
+    Calais: "Lowell's landing about 1 July 1428 is told; outside the frame."
+    Paris: "the start of Salisbury's march and of Fastolf's convoy, a station of both routes; Paris is English in the zone."
+    Chartres: "a station of Salisbury's route and the source of men who joined him (Ramsay); inside the english zone."
+    Blois: "the start of Clermont's route; it is marked on from-blois in 030, where the convoy of April 1429 leaves it."
+    Saint-Péravy: "Cagny's editor sets the fight between Janville and Saint-Péravy; the card stands at Rouvray, where the Journal, Ramsay and Oman set it, and a note gives the other site."
+    the Loire: "the river is drawn on the base map; the towns on its bridges are marked."
+    Normandy: "named as a source of Salisbury's men (Ramsay); outside the frame, inside the english zone."
+    the Beauce: "the plain north of the Loire, inside the english zone; Janville and Rouvray are marked in it."
+    the Sologne: "the land south of the Loire at Orléans, where Salisbury camped; one icon at Orléans is enough at this frame."
+    Anjou: "named as the plan the English council set aside; a province outside the frame."
+    Dauphiné: "named as the refuge the king's council talked of; outside the extent of this page."
+    Languedoc: "named as the other refuge (Lowell); outside the extent of this page."
+    the Portereau: "the suburb south of the bridge where Salisbury camped, the last station of his route; one icon at Orléans is enough at this frame."
+vaucouleurs-again:
+  bbox: [5.2, 48.25, 6.6, 48.95]
+  zones: [france-1422, english-siege-1428, burgundy-1420, brittany-1407, lorraine-1412, bar-1412]
+  routes:
+    - id: joan-1429-burey
+      family: joan
+      stations: [Domrémy, Burey, Vaucouleurs]
+      passage: "Murray, deposition of Catherine Le Royer, lines 11756-11760; Lang, The Maid of France, ch. 7, lines 3571-3574"
+      basis: reconstruction
+      why: "Catherine Le Royer has Laxart bring her to Vaucouleurs, and Lang has her at Laxart's house at Burey from the first fortnight of January before she goes to the Le Royers'. The three places are given; the road is not, so the line follows the Meuse valley."
+    - id: joan-1429-nancy
+      family: joan
+      stations: [Vaucouleurs, Saint-Nicolas-de-Port, Nancy, Vaucouleurs]
+      passage: "Murray, depositions of Durand Laxart, Catherine Le Royer and Bertrand de Poulengy, lines 11718-11722, 11782-11785, 11898-11902; Lowell, ch. 4, lines 2028-2043"
+      basis: reconstruction
+      why: "Poulengy gives the order: after a pilgrimage to Saint-Nicolas she went to the duke, who had sent her a safe-conduct, and then returned to Vaucouleurs; Laxart too names Saint-Nicolas before the duke. Lowell calls the pilgrimage an incident of the journey to Nancy. The road is not given, so the line goes out to the shrine, on to Nancy and straight back."
+  markers:
+    vaucouleurs-1429: { name: Vaucouleurs, what: "she lodges with Henri and Catherine Le Royer, about three weeks in all; Baudricourt holds back, then gives way and sends her to Charles VII; about 48.60 N 5.67 E. In the france colour", basis: sourced }
+    nancy-1429: { name: Nancy, what: "the capital of Lorraine, where Duke Charles II has her brought under safe-conduct and asks her about his health; about 48.69 N 6.18 E. In the lorraine colour", basis: sourced, rank: 2 }
+    saint-nicolas-de-port: { name: Saint-Nicolas-de-Port, what: "the shrine she made a pilgrimage to on the journey to Nancy; about 48.63 N 6.30 E. In the lorraine colour", basis: sourced, rank: 1 }
+  unmarked:
+    Domrémy: "the start of the route to Burey; marked on the-voices for the voices."
+    Burey: "Laxart's village, a station of joan-1429-burey; a few kilometres from Vaucouleurs, it would stand under its icon."
+    Lorraine: "the duchy, shown by the lorraine-1412 zone; Nancy and Saint-Nicolas-de-Port are marked in it."
+eleven-days:
+  bbox: [-0.2, 46.8, 6.2, 49.0]
+  zones: [france-1422, english-siege-1428, burgundy-1420, brittany-1407, lorraine-1412, bar-1412]
+  routes:
+    - id: joan-1429-chinon
+      family: joan
+      stations: [Vaucouleurs, Saint-Urbain, Auxerre, Gien, Sainte-Catherine-de-Fierbois, Chinon]
+      passage: "Barrett, public examination of 22 February 1431, lines 1202-1228, and of 27 February, lines 1592-1594; Lowell, Joan of Arc, ch. 5, lines 2319-2455"
+      basis: reconstruction
+      why: "Her answers give Saint-Urbain, Auxerre, Fierbois and Chinon in turn, Dunois gives Gien, and Lowell has her ride on from Gien across the Sologne (020.47, 020.48, 020.63). The roads between are not given. The line has to cross the Loire after Gien, since Fierbois lies south of it, but no source read names where they crossed, and the text says none (rules.md leaves out the crossing at Gien)."
+  markers:
+    vaucouleurs-departure: { name: Vaucouleurs, what: "she rides out by the Gate of France in men's clothes with six men, on a day the authors give differently; about 48.60 N 5.67 E", basis: sourced }
+    saint-urbain: { name: Saint-Urbain, what: "the abbey on the Marne where she slept the first night; about 48.40 N 5.19 E. In the english colour, inside the land that acknowledged Henry VI", basis: sourced }
+    auxerre-1429: { name: Auxerre, what: "the Burgundian city where she heard mass in the principal church; about 47.80 N 3.57 E. In the burgundy colour", basis: sourced }
+    gien-1429: { name: Gien, what: "the town on the Loire, about forty miles above Orléans, that held for Charles VII; word of her went from here to Orléans; about 47.69 N 2.63 E. In the france colour", basis: sourced }
+    fierbois-letter: { name: Sainte-Catherine-de-Fierbois, what: "she hears mass three times in a day and writes to the king for leave to come to him; about 47.16 N 0.66 E", basis: sourced, rank: 1 }
+    chinon-arrival: { name: Chinon, what: "she arrives towards noon and lodges at an inn, on 23 February (Lowell) or 6 March (the Continuator of Nangis, Quicherat, Lang, Thurston); about 47.17 N 0.24 E", basis: sourced, rank: 2 }
+  unmarked:
+    Nancy: "named for the journey she was back from (Jean de Metz); marked on vaucouleurs-again."
+    Orléans: "named as where word of her went from Gien; marked on the pages of the siege before and after."
+    the Loire: "the river is drawn on the base map; Gien on it is marked."
+    the Marne: "the river is drawn on the base map; Saint-Urbain on it is marked."
+    Burgundy: "named for the Burgundians who held the roads and Auxerre's lord; the burgundy-1420 zone shows the duke's land."
+    the Sologne: "Lowell's ride across the Sologne after Gien is told; a region, not a place, and the route crosses it."
+chinon-and-poitiers:
+  bbox: [-0.4, 46.3, 2.2, 48.0]
+  zones: [france-1422, english-siege-1428, burgundy-1420, brittany-1407]
+  routes:
+    - id: joan-1429-blois
+      family: joan
+      stations: [Chinon, Poitiers, Chinon, Tours, Blois]
+      passage: "Murray, depositions of Pasquerel, lines 14214-14230, and of Dunois, lines 12025-12029; Lowell, ch. 5 and 6, lines 2847-2852, 3228-3230, 3271-3279 and 3451-3452"
+      basis: reconstruction
+      why: "Lowell has her sent to Poitiers about 10 March, return with the court to Chinon after a few days there, and go to Tours about the middle of April; Pasquerel comes to Chinon and then finds her at Tours, and Dunois has the king send her from Tours to Blois with the Archbishop of Reims and Gaucourt. Lowell's three or four days at Saint-Florent near Saumur before Tours stand in no claim and are not drawn. The roads are not given."
+  markers:
+    chinon-audience: { name: Chinon, what: "in the castle the Count of Vendôme brings her in, and she knows the king among many, by her voice's counsel, she said; about 47.17 N 0.24 E. In the france colour", basis: sourced }
+    poitiers-examination: { name: Poitiers, what: "churchmen examine her at the house of Jean Rabateau and find nothing in her contrary to the faith; her letter to the English is dated here, 22 March 1429; about 46.58 N 0.34 E", basis: sourced }
+    tours-armour: { name: Tours, what: "she lodges with Jean Dupuy and is given armour, a household and a banner, from about the middle of April; about 47.39 N 0.69 E", basis: sourced }
+    fierbois-sword: { name: Sainte-Catherine-de-Fierbois, what: "the sword she sent for is found behind the altar, rusted, with five crosses on it, and an armourer of Tours fetches it; about 47.16 N 0.66 E", basis: sourced }
+  unmarked:
+    Blois: "the end of her route, where the convoy gathers; marked on from-blois in 030, where the convoy leaves it."
+    Reims: "in the title of Regnault de Chartres, Archbishop of Reims; no event of this page is there."
+    Chartres: "in the name of Regnault de Chartres; no event of this page is there."
+    the Loire: "the river is drawn on the base map; Tours and Blois stand on it."
+    Orléans: "the city the convoy is for, inside the frame; it was marked besieged on salisbury-on-the-loire and is marked again in 030."

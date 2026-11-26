@@ -1,0 +1,23 @@
+- step: plan-check
+  task: plan-check
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml
+    - content/joan-of-arc/.plan/040-the-loire-and-reims/pages.yaml
+    - content/joan-of-arc/.plan/research.md
+    - content/joan-of-arc/.plan/research/040.md
+    - content/joan-of-arc/.plan/research-040.md
+    - content/joan-of-arc/.plan/faults/040.yaml
+    - content/joan-of-arc/.plan/fixes/040.yaml
+  faults: [040-fact-checker-38, 040-fact-checker-39, 040-fact-checker-40, 040-fact-checker-41, 040-fact-checker-42, 040-fact-checker-43, 040-fact-checker-44, 040-fact-checker-45, 040-fact-checker-46, 040-fact-checker-47, 040-fact-checker-48, 040-fact-checker-49, 040-fact-checker-50, 040-fact-checker-51]
+  unresolved:
+    - "040.93 (new, disputed): the English main body is taken or killed at the French's will in Wavrin, who was in it; in Ramsay it keeps together under Fastolf and reaches Étampes. Proposed, in line with the ruling on 040.91 and 040.92: the rout follows Wavrin, and a note on patay-the-rout gives Ramsay's account with his name."
+    - "040.91 and 040.92 (disputed): ruled in decisions.md; the phases follow Wavrin and a note gives Monstrelet's, Cagny's and Gruel's open ground and Lowell's Bastard. The plan now carries Monstrelet's stakes with his name and his plain (040.30, 040.91), not as part of Talbot's stand."
+    - "040.39 (disputed): the field is the plan's one reconstructed place; each phase page's note gives each author's place, as rules.md has it."
+    - "040.32 (disputed): Talbot taken by Poton's archers in Gruel; the plan names Gruel."
+    - "040.22, 040.35, 040.36 (disputed): every figure on the card names its author."
+  stale: []
+  notes:
+    - "Each move, unit and card figure of battles/patay-1429.yaml was read against Wavrin pp. 419-424 (Quicherat 4, lines 16380-16580), the Journal pp. 176-178 (lines 7255-7330), Monstrelet book 2 ch. 60-61 (Johnes, lines 39120-39230), Ramsay ch. 27 (lines 25030-25080), Oman (lines 19590-19606) and Lowell ch. 10 (lines 5915-5995). Dates: every phase page is 18 June 1429 with when 1429-06-18, as 040.38 gives it."
+    - "The plan has no routes of its own and the phase pages list no zones, so the route and border checks fall on map.yaml's patay entry, which the section's plan check passed and nothing since has changed."
+    - "plan-check.mjs 040: ok after the fixes, with the two rank notes of map.yaml it gave before."

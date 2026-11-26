@@ -403,3 +403,9 @@
 - cloud ruling: the phases follow Wavrin's order, he being the one eyewitness on the English side, and tell La Hire
   and Poton in the van; a note on the phase page gives the open-ground accounts with their authors and Lowell's
   Bastard, as the researcher proposed.
+- Patay's phases, the plan check (fact-checker): pass; 14 faults, all fixed in the battle plan: Monstrelet's half league
+  is where the French army was and not where the English halted; his stakes belong to his own account of the
+  English on the plain; the vanguard fled thinking all was lost; Rempston stands on the card as a commander where
+  Scales, known only as a prisoner, stood. A line added to the digest, 040.93.
+- cloud ruling: 040.93, the fate of the English main body, is told as Wavrin has it, and a note on `patay-the-rout`
+  gives Ramsay's account with his name — the same ruling as for 040.91 and 040.92.

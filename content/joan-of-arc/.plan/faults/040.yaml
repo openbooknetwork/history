@@ -979,3 +979,180 @@
   introduced: research
   owner: researcher
   state: fixed
+- id: 040-fact-checker-38
+  severity: weak
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml
+  field: ground.field
+  replaces: clause
+  old: "which Gruel calls too flat for the English (040.29)"
+  new: "which Gruel calls too flat for the English (040.91)"
+  source: "Gruel's 'car le pays esloit trop plain' is quoted under 040.91 (research/040.md); 040.29 quotes Gruel only for 'que lesdits Anglois n'eurent pas le loisir de se mettre en bataille' (Quicherat 4, p. 319)"
+  kind: plan
+  claim: "040.91"
+  introduced: battle-plan
+  owner: battle-coordinator
+  state: fixed
+- id: 040-fact-checker-39
+  severity: weak
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml
+  field: ground.field
+  replaces: clause
+  old: "Both places are a reconstruction from 040.39 and from the halt short of the village in 040.39 (Ramsay, Monstrelet)."
+  new: "Both places are a reconstruction from 040.39 and from the English halt within a league of the village in Wavrin (040.89), with Ramsay's fight two or three miles short of it (040.39); Monstrelet's half league is where the French army came before its scouts found the English (040.89). Wavrin has Talbot take \"place auz hayes de Pathay, avec l'avant-garde\", which could set the narrow way at the vanguard's hedges; his next lines part the two, the main body hurrying from the narrow way to join the vanguard at the hedges and not reaching them (040.29), and the plan follows those lines."
+  source: "Wavrin, Quicherat 4 (archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt, lines 16467-16471, p. 421): \"vers Pathay, tant que l'en vint à une lieue prez; et illec s'arrestèrent\"; lines 16492-16494, p. 422: \"Et prinst ledit Thalbot place auz hayes de Pathay, avec l'avant-garde quy là les atendoit\"; lines 16520-16526, pp. 422-423: \"avant ce que ilz feussent ensamble joinctz èsdites hayes à leur avant-garde, les François s'estoient feruz à l'estroit passage où estoit le seigneur de Thalbot\". Monstrelet book 2 ch. 61 (archive.org-download-chroniclesengue06johngoog-chroniclesengue06johngoog-djvu.txt.txt, lines 39180-39183): the French army \"advanced slowly ... They thus marched for some time, until they came within half a league of a huge village caUed Pataye\": the half league is the French approach, not an English halt"
+  kind: plan
+  claim: "040.89"
+  introduced: battle-plan
+  owner: battle-coordinator
+  state: fixed
+- id: 040-fact-checker-40
+  severity: weak
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml
+  field: phases[patay-the-hedges].opens
+  replaces: clause
+  old: "phase opens the column has halted on the plain short of Patay (040.39: two or three miles short in Ramsay, whose runners of the afterguard bring the warning, half a league in Monstrelet); the plan puts its head about 3.5 km south of the village on the road (reconstruction from 040.39)."
+  new: "phase opens the column has halted on the plain within a league of Patay, warned by the runners of its rearguard (040.89: Wavrin, who was there, and Ramsay after him; Ramsay's fight is two or three miles short of the village, 040.39); the plan puts its head about 3.5 km south of the village on the road (reconstruction from 040.89)."
+  source: "Wavrin p. 421 (lines 16467-16471): \"tant que l'en vint à une lieue prez; et illec s'arrestèrent, car ilz furent advertiz à la vérité par les coureurs de leur arrière-garde\"; Ramsay ch. 27 (archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt, lines 25042-25044) cites Wavrin for the \"runners of the afterguard\"; Monstrelet's half league is the French army's (lines 39182-39183), as 040.89 says"
+  kind: plan
+  claim: "040.89"
+  introduced: battle-plan
+  owner: battle-coordinator
+  state: fixed
+- id: 040-fact-checker-41
+  severity: weak
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml
+  field: sides[French].units[french-scouts]
+  replaces: clause
+  old: "commander: unknown, strength: unknown, claim: \"040.28\""
+  new: "commander: \"none named in Wavrin and Monstrelet; La Hire's men in Lang\", strength: \"60 or 80 (Wavrin; Monstrelet's same text)\", claim: \"040.88\""
+  source: "Wavrin p. 420 (lines 16418-16420): \"aiant les plus expers, montez sur fleurs de chevaulzjusquesà lx ou mixx hommes, misdevantpour descouvrir\"; Monstrelet book 2 ch. 61 (line 39181): \"sixty or eighty of their most expert men-at-arms, mounted on the fleetest horses\"; 040.88: \"Lang calls them La Hire's eighty\". The strength now has a source, so it is no longer unknown"
+  kind: battle
+  claim: "040.88"
+  introduced: research
+  owner: battle-coordinator
+  state: fixed
+- id: 040-fact-checker-42
+  severity: weak
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml
+  field: phases[patay-the-stag].opens
+  replaces: clause
+  old: "distance is a reconstruction from 040.39), their stakes not yet set, in Monstrelet (040.30). The main body,"
+  new: "distance is a reconstruction from 040.39 and 040.89). Wavrin gives no stakes; Monstrelet, whose English stand on the plain (040.91), and Oman after him have the dismounted English overrun before their stakes were set (040.30), and the phase tells it with their names. The main body,"
+  source: "Monstrelet book 2 ch. 61 (lines 39197-39210): the English \"retreated about half a quarter of a league firom their former position, which was full of hedges and bushes\" and \"those who had dismounted were surrounded by the French before they had time to fortify themselves, as usual, with sharp-pointed stakes\": Monstrelet tells no narrow way and no Talbot's archers, so the stakes are not his of Talbot's stand; Oman book 14 ch. 2 (line 19600): \"the archers had not even fixed their stakes when the hostile cavalry hurtled in among them\", of the English at large"
+  kind: attribution
+  claim: "040.30"
+  introduced: battle-plan
+  owner: battle-coordinator
+  state: fixed
+- id: 040-fact-checker-43
+  severity: weak
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml
+  field: phases[patay-the-stag].moves[talbot-archers].does
+  replaces: value
+  old: "are ridden down before they have set their stakes (Monstrelet); Talbot is taken, by the archers of Poton in Gruel, and his men are killed"
+  new: "are ridden down; Talbot is taken, by the archers of Poton in Gruel, and all his men are killed (Wavrin)"
+  source: "Wavrin p. 423 (lines 16547-16548): \"avoient les François rué jus le seigneur de Thalbot, lui prins prisonnier et tous ses gens mors\"; Monstrelet's stakes belong to his own account of the English on the plain (lines 39207-39209), as 040-fact-checker-42 says, and the opens of the phase now carry them with his and Oman's names"
+  kind: attribution
+  claim: "040.30"
+  introduced: battle-plan
+  owner: battle-coordinator
+  state: fixed
+- id: 040-fact-checker-44
+  severity: weak
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/pages.yaml
+  field: patay-the-stag.tells
+  replaces: clause
+  old: "rides into Talbot's narrow way before the English have joined at the hedges, and before the archers have set their stakes, Monstrelet says. Talbot is taken and his archers are killed."
+  new: "rides into Talbot's narrow way before the English have joined at the hedges. Talbot is taken and his archers are killed. Monstrelet, whose English stand on the plain, says those on foot were overrun before they could set their stakes."
+  source: "as 040-fact-checker-42: Monstrelet book 2 ch. 61 (lines 39197-39209) tells the English falling back from the hedges to the plain, and \"those who had dismounted were surrounded by the French before they had time to fortify themselves, as usual, with sharp-pointed stakes\"; he names no narrow way and no stand of Talbot's"
+  kind: attribution
+  claim: "040.30"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 040-fact-checker-45
+  severity: weak
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/pages.yaml
+  field: patay-the-rout.tells
+  replaces: clause
+  old: "and the vanguard, taking him for a man in flight, leaves the hedges under its white standard."
+  new: "and the vanguard, thinking all lost and the main body in flight, leaves the hedges under its white standard."
+  source: "Wavrin p. 423 (lines 16527-16533): \"messire Jehan Fastre tyrant et chevaulchant vers l'avant-garde pour se joindre avec eulz, ceulz de la dite avant-garde cuidèrent que tout fust perdu et que les battailles fuissent\": the vanguard thought the bodies of the army were fleeing, not Fastolf alone"
+  kind: fact
+  claim: "040.29"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 040-fact-checker-46
+  severity: weak
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml
+  field: phases[patay-the-rout].moves[english-vanguard].does
+  replaces: clause
+  old: "takes him for a man in flight, thinks all is lost, and flees"
+  new: "seeing him ride towards it, thinks all is lost and the main body in flight, and flees"
+  source: "as 040-fact-checker-45: Wavrin p. 423, \"cuidèrent que tout fust perdu et que les battailles fuissent\""
+  kind: fact
+  claim: "040.29"
+  introduced: battle-plan
+  owner: battle-coordinator
+  state: fixed
+- id: 040-fact-checker-47
+  severity: weak
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml
+  field: phases[patay-the-rout].moves[english-main-body].does
+  replaces: clause
+  old: "breaks: most are cut down or taken where they stand, and the fugitives"
+  new: "breaks: the French are so far into it that they take or kill whom they will (Wavrin; Ramsay has it keep together under Fastolf and reach Étampes, 040.93), and the fugitives"
+  source: "Wavrin p. 423 (lines 16548-16550): \"lesdis François si avant en la battaille que ilz povoient à leur voullenté prendre ou occire ceulz que bon leur sambloit\"; Ramsay ch. 27 (lines 25075-25077): \"What became of the rear-guard is not stated; but the main body under Sir John Fastolf, by keeping together, managed to make good their retreat to fitampes, which they reached after midnight\". No source gives \"most\": Wavrin's 2,000 dead and 200 taken stand against his 5,000, and Oman has a third or more destroyed (040.35)"
+  kind: fact
+  claim: "040.93"
+  introduced: battle-plan
+  owner: battle-coordinator
+  state: fixed
+- id: 040-fact-checker-48
+  severity: weak
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml
+  field: card.sides[English].commanders
+  replaces: clause
+  old: "\"Lord Scales\""
+  new: "\"Sir Thomas Rempston\""
+  source: "Wavrin p. 421 (lines 16462-16464): \"Aprez venoit la battaille dont estoient conducteurs messire Jehan Fastre, le seigneur de Thalbot, messire Thomas Rameston et autres\"; Monstrelet book 2 ch. 60 (lines 39128-39130): Bedford's men \"under the command of sir Thomas Rampstone, the bastard de Thian and others\". Lord Scales stands in the files only among the prisoners (Monstrelet line 39216, the Journal p. 177, Ramsay ch. 27; 040.31), and no file read names him a commander at Patay"
+  kind: battle
+  claim: "040.31"
+  introduced: battle-plan
+  owner: battle-coordinator
+  state: fixed
+- id: 040-fact-checker-49
+  severity: weak
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml
+  field: sources[].claims
+  new: "Each source's claims list now names the lines 040.88 to 040.93 that quote it: Wavrin 040.88-040.93; the Journal 040.89, 040.92; Cagny and Gruel 040.91, 040.92; Monstrelet 040.88, 040.89, 040.91; Lowell 040.90, 040.92; Ramsay 040.89, 040.90, 040.92, 040.93, with \"the main body under Fastolf keeping together to Étampes\" added to what it gives; France 040.88, 040.90."
+  source: "research/040.md, lines 040.88 to 040.93, each with the file it quotes"
+  kind: sources
+  introduced: research
+  owner: battle-coordinator
+  state: fixed
+- id: 040-fact-checker-50
+  severity: weak
+  file: content/joan-of-arc/.plan/research/040.md
+  field: "lines, after 040.92"
+  new: "A new line, 040.93, disputed: what became of the English main body, taken or killed at the French's will in Wavrin, who was in it, against Ramsay's main body under Fastolf keeping together to Étampes. The same line in research.md; the slice research-040.md made again."
+  source: "Wavrin p. 423 (lines 16548-16550) and p. 424 (line 16557): \"envis h moult petite compaignie\"; Ramsay ch. 27 (lines 25075-25077), as 040-fact-checker-47 quotes them"
+  kind: sources
+  claim: "040.93"
+  introduced: research
+  owner: researcher
+  state: fixed
+- id: 040-fact-checker-51
+  severity: taste
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml
+  field: phases[patay-the-hedges].moves[french-vanguard]
+  replaces: clause
+  old: "does: \"rides north up the road after the English in good order\", basis: sourced, claim: \"040.27\""
+  new: "does: \"rides north up the road after the English, sent ahead to catch and hold them so that the main body need not leave its pace\", basis: sourced, claim: \"040.92\""
+  source: "the Journal du siège, Quicherat 4, p. 177 (lines 7271-7279): \"parce que la Pucelle et plusieurs seigneurs ne vouloient pas que la grousse bataille fust ostée de son pas, ilz esleurent La Hire, Poton ... et leur baillèrent charge d'aler courir et escarmouscher devant les Angloys, pour les retenir\"; 040.92, agreed for the vanguard's task"
+  kind: plan
+  claim: "040.92"
+  introduced: battle-plan
+  owner: battle-coordinator
+  state: fixed

@@ -349,3 +349,14 @@
   `quotes-check.mjs` ok for 1,604 quotes. `inputs.mjs stale` prints 392 lines, kept in `run/stale.txt`: each is a
   plan page or a names row changed by a fix after its maker ran.
 - ledger after `edit`: | **total** | 123 | 3,492 | 592,019 | 7,101 | 24,455,214 | 599,966,881 | 4,530,241 | 113,224,012 |
+- story, the audit (story-auditor): `faults`. 16 faults, all left open by the auditor: 1 `wrong` (the Verneuil note,
+  where Beaucourt's 20,000 French is the highest count and the Bourgeois's 18,000 was given), 10 `weak`, 5 `taste`.
+- unresolved, story audit: every image of the captures loads broken, since the static build asks the store, which
+  holds nothing of this story; who held Domrémy; and the open and disputed claims each page tells with its authors.
+- cloud ruling: the images could not be seen by any agent of this run and are for the reviewer's first look, with the
+  Orléans and Rouen pages; the pull request says so. Domrémy is told with all three readings and the map's line as
+  Lowell's (010-story-auditor-2, -3). The open and disputed claims stand as told.
+- cloud ruling: 010-story-auditor-4 and story-story-auditor-2, both `taste`, are declined — the scots family was
+  designed for the Baugé card, and a marker's colour is the holder as its page ends.
+- story, the fixes: fourteen faults go to their owners in one round: the reviewers of 010, 040 and 060, the
+  cartographers of 020, 030, 050 and 070, the researcher (story-story-auditor-1) and the image finder of 010.

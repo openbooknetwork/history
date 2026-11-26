@@ -4,7 +4,7 @@
 //   node scripts/benchmark-more.mjs map-design <folder>
 //   node scripts/benchmark-more.mjs shared-map <folder> [--section 020]
 //   node scripts/benchmark-more.mjs battle     <folder> [--section 030] [--battle granicus-334]
-// Each makes a git worktree of HEAD in <folder>, takes out of it what the step makes, makes the folder ready to
+// Each makes a plain clone of this repo's last commit in <folder>, which must not exist yet, takes out of it what the step makes, makes the folder ready to
 // run in as benchmark.mjs does, writes the overseer's prompt to <folder>/.cache/benchmark-prompt.txt and prints
 // the command that starts the run. The story is alexander-the-great, or --story.
 //   pre-plans   the sections' plans, pages and parts of the digest go, and a source map is written. A section coordinator
@@ -30,7 +30,10 @@ const [kind, folder] = args;
 if (!['pre-plans', 'names', 'map-design', 'shared-map', 'battle'].includes(kind) || !folder) stop('usage: node scripts/benchmark-more.mjs <pre-plans|names|map-design|shared-map|battle> <folder> [--story <id>] [--sections a,b] [--section n] [--battle id]');
 const dir = storyDir(story);
 if (!dir) stop(`no story folder is named ${story}`);
-execFileSync('git', ['worktree', 'add', '--detach', folder, 'HEAD'], { stdio: 'inherit' });
+// a plain clone of this repo at its last commit, and never a git worktree: the run's folder is a repo of its own,
+// so nothing it commits reaches this one and no branch here is held by it. Delete the folder when the run is read.
+if (fs.existsSync(folder)) stop(`${folder} is there already: give a folder that does not exist yet`);
+execFileSync('git', ['clone', '--quiet', '--no-tags', process.cwd(), folder], { stdio: 'inherit' });
 const root = path.join(folder, dir), plan = path.join(root, '.plan');
 const gone = [];
 const remove = p => { if (fs.existsSync(p)) { fs.rmSync(p, { recursive: true }); gone.push(path.relative(folder, p)); } };

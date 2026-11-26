@@ -57,7 +57,8 @@ words on the map, passed by the map auditor and found by a text checker.
 
 ## The build runs of section 020
 
-Each run's numbers are in `content/alexander-the-great/.plan/run/benchmark/`.
+Each run's numbers were kept in `content/alexander-the-great/.plan/run/benchmark/` up to the release 1.20.2, and are
+in that tag's history: they were taken out of the story's folder after it, since they are no part of the story.
 
 | Run | Agents | Turns | Weighted tokens a page | Cost | Minutes | Faults | Left open |
 |---|---|---|---|---|---|---|---|

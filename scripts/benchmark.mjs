@@ -8,7 +8,10 @@
 //   build     a variant of the maps, texts, images or checks starts from the digest, the plan and the rules
 //   plans     a variant of the plans starts from the digest and the brief
 //   research  a variant of the research starts from the brief and the source files
-// "setup" makes a git worktree of HEAD in <folder> and takes out of it what the variant makes: the section's
+// A run changes its own folder alone. Nothing a run wrote is copied back into this repo's stories: a frozen input
+// is changed by hand, in a commit of its own that says so, after a strict build of the story passes. What is kept
+// of a run is its numbers, saved with --json.
+// "setup" makes a plain clone of this repo's last commit in <folder>, which must not exist yet, and takes out of it what the variant makes: the section's
 // pages, its reports, faults and fixes, and for plans its plan and its battle cards too, and for research its part
 // of the digest as well. A build variant keeps the cards, since a card is written at the step plans. It then makes
 // the folder ready to run in: node_modules and the story's fetched sources are linked from this checkout, the build
@@ -39,7 +42,10 @@ if (verb === 'setup') {
   if (!['build', 'plans', 'research'].includes(kind) || !folder) stop('usage: node scripts/benchmark.mjs setup <build|plans|research> <folder> [--story <id>] [--section <number>]');
   const dir = storyDir(story);
   if (!dir) stop(`no story folder is named ${story}`);
-  execFileSync('git', ['worktree', 'add', '--detach', folder, 'HEAD'], { stdio: 'inherit' });
+  // a plain clone of this repo at its last commit, and never a git worktree: the run's folder is a repo of its own,
+  // so nothing it commits reaches this one and no branch here is held by it. Delete the folder when the run is read.
+  if (fs.existsSync(folder)) stop(`${folder} is there already: give a folder that does not exist yet`);
+  execFileSync('git', ['clone', '--quiet', '--no-tags', process.cwd(), folder], { stdio: 'inherit' });
   const root = path.join(folder, dir), plan = path.join(root, '.plan');
   const gone = [];
   const remove = p => { if (fs.existsSync(p)) { fs.rmSync(p, { recursive: true }); gone.push(path.relative(folder, p)); } };

@@ -256,3 +256,106 @@
   introduced: pre-plan
   owner: section-coordinator
   state: fixed
+- id: 020-fact-checker-1
+  severity: wrong
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/map.yaml
+  field: vaucouleurs-again.routes.joan-1429-nancy.stations, why
+  replaces: value
+  old: "[Vaucouleurs, Nancy, Saint-Nicolas-de-Port, Vaucouleurs]; why: \"... Neither the order of the two places nor the road is given, so the line goes out to Nancy, on to the shrine and straight back.\""
+  new: "[Vaucouleurs, Saint-Nicolas-de-Port, Nancy, Vaucouleurs]; why: \"Poulengy gives the order: after a pilgrimage to Saint-Nicolas she went to the duke, who had sent her a safe-conduct, and then returned to Vaucouleurs; Laxart too names Saint-Nicolas before the duke. Lowell calls the pilgrimage an incident of the journey to Nancy. The road is not given, so the line goes out to the shrine, on to Nancy and straight back.\""
+  source: "Murray, archive.org-download-jeannedarcmaidof028754mbp-jeannedarcmaidof028754mbp-djvu.txt.txt, Poulengy, lines 11898-11902: \"After a pilgrimage to Saint-Nicolas, she went to seek the Lord Duke de Lorraine, who had sent her a safe-conduct and asked to see her. She then returned to Vaucouleurs\"; Laxart, lines 11718-11721: \"I took her to Vaticouleurs [Y.. Saint-Nicolas]. Thence she returned, and went with a safe-conduct to the Sieur Chafles de Lorraine\". The route's own passage gives the order, against its station list."
+  kind: map
+  claim: "020.35"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 020-fact-checker-2
+  severity: weak
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/text.yaml
+  field: vaucouleurs-again.account
+  replaces: clause
+  old: "Lorraine to Nancy and the shrine; both are"
+  new: "Lorraine to the shrine and to Nancy; both are"
+  source: "As 020-fact-checker-1: Poulengy, Murray lines 11898-11902, has the pilgrimage to Saint-Nicolas before the visit to the duke."
+  kind: plan
+  claim: "020.35"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 020-fact-checker-3
+  severity: wrong
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/map.yaml
+  field: salisbury-on-the-loire.routes.fastolf-1429.stations, passage, why; salisbury-on-the-loire.unmarked
+  replaces: value
+  old: "stations: [Paris, Janville, Rouvray]; passage: \"The Journal of the Siege, Quicherat 4, lines 5030-5066; Ramsay, ch. 26, lines 24366-24368; Monstrelet, book 2 ch. 56, lines 38840-38848\"; why: \"... the road itself is not given, so the line runs by Janville, the English town where it was going.\""
+  new: "stations: [Paris, Étampes, Rouvray]; passage: \"Ramsay, ch. 26, lines 24366-24380; the Bourgeois of Paris, 1429, lines 13599-13603; the Journal of the Siege, Quicherat 4, lines 5051-5069; Monstrelet, book 2 ch. 56, lines 38840-38854\"; why rewritten from Ramsay, the Bourgeois and the Journal; Étampes added to unmarked."
+  source: "Ramsay, archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt, ch. 26, lines 24377-24380: \"Fastolf, having marched on the first day to Etampes, halted the second night at Rouvray-Saint-Denis, a place in English hands, and situate between Angerville and Janville\"; the Bourgeois, archive.org-download-journaldunbourge54182gut-54182-0.txt.txt, lines 13601-13603: \"allerent jusques à Estampes sans danger. Quant ilz furent [ung pou] par delà entre Iainville en Beausse et ung villaige nommé Rouvray-Sainct-Denis\"; the Journal, lines 5068-5069: the carts led \"aux autres Angloys tenans le siège d'Orléans\". Rouvray lies on the road before Janville, so the station order went past the field and back, and Janville was not where the convoy was going."
+  kind: map
+  claim: "020.23"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 020-fact-checker-4
+  severity: wrong
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/map.yaml
+  field: chinon-and-poitiers.routes.joan-1429-blois.stations, passage, why
+  replaces: value
+  old: "stations: [Chinon, Poitiers, Tours, Blois]; passage: \"... Lowell, ch. 5 and 6, lines 2847-2852, 3271-3279 and 3451-3452\"; why: \"... The digest does not say whether she went back to Chinon between Poitiers and Tours, so the line goes straight from Poitiers to Tours; the roads are not given.\""
+  new: "stations: [Chinon, Poitiers, Chinon, Tours, Blois]; passage adds Lowell lines 3228-3230; why: \"Lowell has her sent to Poitiers about 10 March, return with the court to Chinon after a few days there, and go to Tours about the middle of April; Pasquerel comes to Chinon and then finds her at Tours, and Dunois has the king send her from Tours to Blois with the Archbishop of Reims and Gaucourt. Lowell's three or four days at Saint-Florent near Saumur before Tours stand in no claim and are not drawn. The roads are not given.\""
+  source: "Lowell, archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, ch. 6, lines 3228-3230: \"a few days were passed in Poitiers, and then she returned with the court to Chinon\"; note, line 3254: \"Apparently Charles left Poitiers March 23 or 24\"; lines 3236-3237: \"Joan went from Chinon to St. Florent near Saumur\". The route's own source, Lowell ch. 6, gives the return the why said no source gave."
+  kind: map
+  claim: "020.55"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 020-fact-checker-5
+  severity: weak
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/text.yaml
+  field: chinon-and-poitiers.account
+  replaces: clause
+  old: "The map shows her road from Chinon by Poitiers\n      and Tours to Blois, a reconstruction"
+  new: "The map shows her road from Chinon to Poitiers,\n      back with the court to Chinon (Lowell), and by Tours to Blois, a reconstruction"
+  source: "As 020-fact-checker-4: Lowell ch. 6, lines 3228-3230, \"then she returned with the court to Chinon\"."
+  kind: plan
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 020-fact-checker-6
+  severity: weak
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/map.yaml
+  field: salisbury-on-the-loire.routes.salisbury-1428.passage
+  replaces: value
+  old: "Lowell, Joan of Arc, ch. 7, lines 3635-3833; Ramsay, Lancaster and York, ch. 26, lines 24173-24231"
+  new: "Lowell, Joan of Arc, ch. 7, lines 3635-3833; Ramsay, Lancaster and York, ch. 26, lines 24173-24231; the Journal of the Siege, Quicherat 4, lines 4095-4099"
+  source: "The last station, the Portereau, is in neither Lowell's nor Ramsay's passage, which say only the south side; the Journal, archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt, lines 4097-4099: \"qu'il feit loger du coslé de la Sauloigne, et prez de l'ung des bourgs que on dict le Porteriau\"."
+  kind: map
+  claim: "020.17"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 020-fact-checker-7
+  severity: weak
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/map.yaml
+  field: salisbury-on-the-loire.routes.clermont-1429.why
+  replaces: clause
+  old: "the field is Rouvray. No road is given,"
+  new: "the field is Rouvray. Ramsay has the men of Orléans join Clermont at Janville and the French advance on Rouvray from there, while the Journal has Clermont come to Rouvray itself the day before; Janville, English since August 1428, is not made a station. No road is given,"
+  source: "Ramsay, ch. 26, lines 24370-24374: the men of Orléans \"effected a junction with him at Janville\", and line 24382: \"Next morning the French advancing from Janville\"; the Journal, lines 5032-5039: Clermont \"vint à tout sa compaignie en Beausse, à un villaige nommé Rouvroy de Saint-Denis\" on Friday 11 February. The why's passage gives a station it did not account for."
+  kind: map
+  claim: "020.25"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 020-fact-checker-8
+  severity: weak
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+  field: the-voices.tells
+  replaces: clause
+  old: "moves against Vaucouleurs, and the\n    people of Domrémy flee"
+  new: "moves against Vaucouleurs, and, as Lang and Lowell date it, the\n    people of Domrémy flee"
+  source: "research/020.md, 020.11, disputed for the date: Murray's note, lines 1397-1399, \"There is no certain date for this event ... by others, earlier, at the time of the Picard ravages of the neighbourhood in the September of 1426\"; Lowell's note, \"It is not certain that the attack on Vaucouleurs was the cause of the flight to Neufchateau ... but it is altogether probable\". The tells gave the July date as fact."
+  kind: attribution
+  claim: "020.11"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed

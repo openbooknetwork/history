@@ -1,0 +1,16 @@
+- step: plan-check
+  task: plan-check
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/020-the-road-to-chinon/map.yaml
+    - content/joan-of-arc/.plan/020-the-road-to-chinon/text.yaml
+    - content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+    - content/joan-of-arc/.plan/faults/020.yaml
+    - content/joan-of-arc/.plan/fixes/020.yaml
+  faults: [020-fact-checker-1, 020-fact-checker-2, 020-fact-checker-3, 020-fact-checker-4, 020-fact-checker-5, 020-fact-checker-6, 020-fact-checker-7, 020-fact-checker-8]
+  unresolved:
+    - "020.11, the date of the flight to Neufchâteau (disputed): the tells now gives July 1428 as Lang's and Lowell's dating; text.yaml has Murray's September 1426 in a note."
+    - "020.43 and 020.42, the days she left Vaucouleurs and reached Chinon (disputed): pages.yaml and text.yaml give each with its authors; chinon-and-poitiers' when stays 1429-03 for the route of March and April."
+    - "020.40 and 020.51 (open): why Baudricourt gave way and what the sign was; text.yaml says each is not known."
+  stale: []
+  checked: "11 routes against their passages, 26 zone listings against the brief's Map part, 1 card (12 figures), 5 pages' date and when"

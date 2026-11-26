@@ -161,3 +161,73 @@
   old: "and on 22 March she dictates her letter to the English."
   new: "and her letter to the English is dated at Poitiers on 22 March."
   commit: 215c74ca
+- fault: 020-fact-checker-1
+  by: fact-checker
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/map.yaml
+  field: vaucouleurs-again.routes.joan-1429-nancy.stations, why
+  old: "stations: [Vaucouleurs, Nancy, Saint-Nicolas-de-Port, Vaucouleurs]; why: \"The witnesses give Nancy, where the duke had her brought under safe-conduct, the pilgrimage to Saint-Nicolas-de-Port, and her return to Vaucouleurs; Lowell calls the pilgrimage an incident of the journey. Neither the order of the two places nor the road is given, so the line goes out to Nancy, on to the shrine and straight back.\""
+  new: "stations: [Vaucouleurs, Saint-Nicolas-de-Port, Nancy, Vaucouleurs]; why: \"Poulengy gives the order: after a pilgrimage to Saint-Nicolas she went to the duke, who had sent her a safe-conduct, and then returned to Vaucouleurs; Laxart too names Saint-Nicolas before the duke. Lowell calls the pilgrimage an incident of the journey to Nancy. The road is not given, so the line goes out to the shrine, on to Nancy and straight back.\""
+  commit: 215c74ca
+- fault: 020-fact-checker-2
+  by: fact-checker
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/text.yaml
+  field: vaucouleurs-again.account
+  old: "Lorraine to Nancy and the shrine; both are"
+  new: "Lorraine to the shrine and to Nancy; both are"
+  commit: 215c74ca
+- fault: 020-fact-checker-3
+  by: fact-checker
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/map.yaml
+  field: salisbury-on-the-loire.routes.fastolf-1429.stations, passage, why
+  old: "stations: [Paris, Janville, Rouvray]; passage: \"The Journal of the Siege, Quicherat 4, lines 5030-5066; Ramsay, ch. 26, lines 24366-24368; Monstrelet, book 2 ch. 56, lines 38840-38848\"; why: \"The sources give the convoy's start at Paris and the fight at Rouvray, two leagues from Janville, on the road to the army before Orléans; the road itself is not given, so the line runs by Janville, the English town where it was going.\""
+  new: "stations: [Paris, Étampes, Rouvray]; passage: \"Ramsay, ch. 26, lines 24366-24380; the Bourgeois of Paris, 1429, lines 13599-13603; the Journal of the Siege, Quicherat 4, lines 5051-5069; Monstrelet, book 2 ch. 56, lines 38840-38854\"; why: \"Ramsay has the convoy leave Paris, march the first day to Étampes and halt the second night at Rouvray-Saint-Denis, between Angerville and Janville; the Bourgeois has it go to Étampes and meet the French beyond, between Janville and Rouvray; the Journal sets the fight at Rouvray, two leagues from Janville, with the convoy bound for the English before Orléans. The convoy never reached Janville before the fight, so Janville is no station. The roads between are not given.\""
+  commit: 215c74ca
+- fault: 020-fact-checker-3
+  by: fact-checker
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/map.yaml
+  field: salisbury-on-the-loire.unmarked
+  old: "(no entry for Étampes)"
+  new: "Étampes: \"a station of Fastolf's route, where Ramsay has the convoy end its first day's march and the Bourgeois has it pass; inside the english zone.\""
+  commit: 215c74ca
+- fault: 020-fact-checker-4
+  by: fact-checker
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/map.yaml
+  field: chinon-and-poitiers.routes.joan-1429-blois.stations, passage, why
+  old: "stations: [Chinon, Poitiers, Tours, Blois]; passage: \"Murray, depositions of Pasquerel, lines 14214-14230, and of Dunois, lines 12025-12029; Lowell, ch. 5 and 6, lines 2847-2852, 3271-3279 and 3451-3452\"; why: \"Lowell has her sent to Poitiers about 10 March and go to Tours about the middle of April; Pasquerel finds her at Tours after Poitiers, and Dunois has the king send her from Tours to Blois with the Archbishop of Reims and Gaucourt. The digest does not say whether she went back to Chinon between Poitiers and Tours, so the line goes straight from Poitiers to Tours; the roads are not given.\""
+  new: "stations: [Chinon, Poitiers, Chinon, Tours, Blois]; passage: \"Murray, depositions of Pasquerel, lines 14214-14230, and of Dunois, lines 12025-12029; Lowell, ch. 5 and 6, lines 2847-2852, 3228-3230, 3271-3279 and 3451-3452\"; why: \"Lowell has her sent to Poitiers about 10 March, return with the court to Chinon after a few days there, and go to Tours about the middle of April; Pasquerel comes to Chinon and then finds her at Tours, and Dunois has the king send her from Tours to Blois with the Archbishop of Reims and Gaucourt. Lowell's three or four days at Saint-Florent near Saumur before Tours stand in no claim and are not drawn. The roads are not given.\""
+  commit: 215c74ca
+- fault: 020-fact-checker-5
+  by: fact-checker
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/text.yaml
+  field: chinon-and-poitiers.account
+  old: "The map shows her road from Chinon by Poitiers\n      and Tours to Blois, a reconstruction"
+  new: "The map shows her road from Chinon to Poitiers,\n      back with the court to Chinon (Lowell), and by Tours to Blois, a reconstruction"
+  commit: 215c74ca
+- fault: 020-fact-checker-6
+  by: fact-checker
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/map.yaml
+  field: salisbury-on-the-loire.routes.salisbury-1428.passage
+  old: "Lowell, Joan of Arc, ch. 7, lines 3635-3833; Ramsay, Lancaster and York, ch. 26, lines 24173-24231"
+  new: "Lowell, Joan of Arc, ch. 7, lines 3635-3833; Ramsay, Lancaster and York, ch. 26, lines 24173-24231; the Journal of the Siege, Quicherat 4, lines 4095-4099"
+  commit: 215c74ca
+- fault: 020-fact-checker-7
+  by: fact-checker
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/map.yaml
+  field: salisbury-on-the-loire.routes.clermont-1429.why
+  old: "the field is Rouvray. No road is given,"
+  new: "the field is Rouvray. Ramsay has the men of Orléans join Clermont at Janville and the French advance on Rouvray from there, while the Journal has Clermont come to Rouvray itself the day before; Janville, English since August 1428, is not made a station. No road is given,"
+  commit: 215c74ca
+- fault: 020-fact-checker-8
+  by: fact-checker
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+  field: the-voices.tells
+  old: "moves against Vaucouleurs, and the\n    people of Domrémy flee"
+  new: "moves against Vaucouleurs, and, as Lang and Lowell date it, the\n    people of Domrémy flee"
+  commit: 215c74ca
+- fault: 020-fact-checker-7
+  by: fact-checker
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/map.yaml
+  field: salisbury-on-the-loire.routes.clermont-1429.passage
+  old: "Ramsay, ch. 26, lines 24370-24377; the Journal of the Siege, Quicherat 4, lines 5030-5060"
+  new: "Ramsay, ch. 26, lines 24370-24382; the Journal of the Siege, Quicherat 4, lines 5030-5060"
+  commit: 215c74ca

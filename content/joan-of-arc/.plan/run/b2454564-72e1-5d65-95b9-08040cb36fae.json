@@ -30,7 +30,7 @@
    "parent": "-",
    "model": "claude-fable-5-2",
    "start": "2026-11-26T08:58:19.988Z",
-   "end": "2026-11-26T09:25:15.131Z",
+   "end": "2026-11-26T09:29:57.230Z",
    "description": ""
   },
   {
@@ -68,6 +68,15 @@
    "start": "2026-11-26T09:23:00.809Z",
    "end": "2026-11-26T09:24:39.864Z",
    "description": "pre-plans 030 section-coordinator pre-plan"
+  },
+  {
+   "agent": "ade4275d74c4fced8",
+   "role": "editor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T09:25:25.315Z",
+   "end": "2026-11-26T09:29:51.085Z",
+   "description": "pre-plan-check all editor pre-plans"
   },
   {
    "agent": "aeb6b75499116cc56",
@@ -114,12 +123,12 @@
    "model": "claude-fable-5-2",
    "step": "-",
    "section": "-",
-   "turns": 25,
-   "peak": 151396,
-   "input": 52,
-   "cacheWrite": 92886,
-   "cacheRead": 2861653,
-   "output": 13813
+   "turns": 30,
+   "peak": 156277,
+   "input": 66,
+   "cacheWrite": 97729,
+   "cacheRead": 3628612,
+   "output": 15443
   },
   {
    "agent": "a166498d4bb74be5f",
@@ -176,6 +185,20 @@
    "cacheWrite": 83643,
    "cacheRead": 410771,
    "output": 9217
+  },
+  {
+   "agent": "ade4275d74c4fced8",
+   "role": "editor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "pre-plan-check",
+   "section": "-",
+   "turns": 17,
+   "peak": 78032,
+   "input": 33,
+   "cacheWrite": 72151,
+   "cacheRead": 889905,
+   "output": 28097
   },
   {
    "agent": "aeb6b75499116cc56",
@@ -274,6 +297,185 @@
    "changed": 1,
    "unresolved": 1,
    "faults": []
+  },
+  {
+   "agent": "ade4275d74c4fced8",
+   "role": "editor",
+   "step": "pre-plan-check",
+   "section": "-",
+   "status": "pass",
+   "changed": 16,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "story-editor-1",
+     "severity": "wrong",
+     "kind": "plan",
+     "introduced": "pre-plan",
+     "firstCheck": "pre-plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/joan-of-arc/.plan/030-orleans/pages.yaml",
+     "claim": null,
+     "evidence": "agents/editor definition, \"Marked once\"; 040-the-loire-and-reims/pages.yaml, jargeau.markers holds jargeau too",
+     "action": "[english-array, meung, jargeau-may-1429]",
+     "state": "fixed"
+    },
+    {
+     "id": "story-editor-2",
+     "severity": "wrong",
+     "kind": "plan",
+     "introduced": "pre-plan",
+     "firstCheck": "pre-plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/joan-of-arc/.plan/040-the-loire-and-reims/pages.yaml",
+     "claim": null,
+     "evidence": "agents/editor definition, \"Marked once\"; 020-the-road-to-chinon/pages.yaml, salisbury-on-the-loire.markers holds janville",
+     "action": "[meung-bridge, beaugency, janville-1429]",
+     "state": "fixed"
+    },
+    {
+     "id": "story-editor-3",
+     "severity": "wrong",
+     "kind": "plan",
+     "introduced": "pre-plan",
+     "firstCheck": "pre-plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/joan-of-arc/.plan/050-paris-and-compiegne/pages.yaml",
+     "claim": null,
+     "evidence": "agents/editor definition, \"Marked once\"; 020-the-road-to-chinon/pages.yaml, eleven-days.markers holds gien-1429",
+     "action": "[saint-denis-abbey, bray-1429, gien-disbanded]",
+     "state": "fixed"
+    },
+    {
+     "id": "story-editor-4",
+     "severity": "weak",
+     "kind": "order",
+     "introduced": "pre-plan",
+     "firstCheck": "pre-plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/joan-of-arc/.plan/010-france-divided/pages.yaml",
+     "claim": null,
+     "evidence": "Murray heads the Domrémy depositions \"DEPOSITIONS AT DOMREMY: 1455\" (archive.org-download-jeannedarcmaidof028754mbp...txt, 11142), while 060 the-old-market, 070 the-retrial (marker domremy-1456) and rules.md call the retrial witnesses those of 1456; the heading may be in the old-style year",
+     "action": "What she and the witnesses of the retrial said of her",
+     "state": "fixed"
+    },
+    {
+     "id": "story-editor-5",
+     "severity": "taste",
+     "kind": "plan",
+     "introduced": "pre-plan",
+     "firstCheck": "pre-plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml",
+     "claim": null,
+     "evidence": "brief.md 030, \"The convoy from Blois and her entry into the city\"; 030 from-blois opens with the convoy leaving Blois",
+     "action": "behind the altar at Fierbois. In late April she joins the convoy for Orléans gathering at Blois.",
+     "state": "fixed"
+    },
+    {
+     "id": "story-editor-6",
+     "severity": "taste",
+     "kind": "plan",
+     "introduced": "pre-plan",
+     "firstCheck": "pre-plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/joan-of-arc/.plan/050-paris-and-compiegne/pages.yaml",
+     "claim": null,
+     "evidence": "Lowell, archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt 7284-7296: at Provins orders to cross the Seine at Bray and retreat; an Anglo-Burgundian force seized Bray; the army turned again and marched on Paris",
+     "action": "Turned back at Bray, where an Anglo-Burgundian force holds the crossing of the Seine, the king's army marches on Paris, and it and Bedford's face each other at Montépilloy",
+     "state": "fixed"
+    },
+    {
+     "id": "020-editor-1",
+     "severity": "wrong",
+     "kind": "plan",
+     "introduced": "pre-plan",
+     "firstCheck": "pre-plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml",
+     "claim": null,
+     "evidence": "brief.md 020, \"The voices in her father's garden, about 1425, and what she said they asked of her\"",
+     "action": "as she told her judges in 1431, and in time, she said, the voices bid her leave home and go into France to\n    the Dauphin. In May",
+     "state": "fixed"
+    },
+    {
+     "id": "020-editor-2",
+     "severity": "wrong",
+     "kind": "order",
+     "introduced": "pre-plan",
+     "firstCheck": "pre-plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml",
+     "claim": null,
+     "evidence": "sources.md \"Against the brief\", 020: Lowell (2171-2245, 2857-2897) sets her coming to Chinon on 23 February, others on 6 March",
+     "action": "Late February or March to April 1429",
+     "state": "fixed"
+    },
+    {
+     "id": "020-editor-3",
+     "severity": "wrong",
+     "kind": "attribution",
+     "introduced": "pre-plan",
+     "firstCheck": "pre-plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml",
+     "claim": null,
+     "evidence": "sources.md \"Against the brief\", 020; Lowell 2857-2897; brief.md 020, \"differ between authors and are told with their names\"",
+     "action": "The Dauphin receives her at Chinon, in late February as Lowell dates her coming or in March as others do.\n    Churchmen examine her at Poitiers and find nothing against her,",
+     "state": "fixed"
+    },
+    {
+     "id": "030-editor-1",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "pre-plan",
+     "firstCheck": "pre-plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/joan-of-arc/.plan/030-orleans/pages.yaml",
+     "claim": null,
+     "evidence": "decisions.md, unresolved at pre-plans, 030: \"the convoy left Blois on 27 or 28 April\"; rules.md, \"a date ... that the sources give differently names its author\" (the research names them)",
+     "action": "The convoy and its escort leave Blois on 27 or 28 April, a day the authors give differently, and go up the\n    south bank of the Loire through the Sologne, not by the Beauce as she wanted.",
+     "state": "fixed"
+    },
+    {
+     "id": "050-editor-1",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "pre-plan",
+     "firstCheck": "pre-plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/joan-of-arc/.plan/050-paris-and-compiegne/pages.yaml",
+     "claim": null,
+     "evidence": "decisions.md, unresolved at pre-plans, 050: \"Montépilloy on 14 August (Lowell) against the article's 26 August\"; rules.md, \"The careful side\"",
+     "action": "near Senlis on 14 and 15 August (Lowell's date) and part",
+     "state": "fixed"
+    },
+    {
+     "id": "060-editor-1",
+     "severity": "wrong",
+     "kind": "attribution",
+     "introduced": "pre-plan",
+     "firstCheck": "pre-plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/joan-of-arc/.plan/060-rouen/pages.yaml",
+     "claim": null,
+     "evidence": "sources.md \"Against the brief\", 060: Lowell (ch. 17) tells the bargain with John of Luxembourg, ten thousand livres; Ramsay 1 (ch. 29) the Duke of Burgundy, francs; brief.md 060",
+     "action": "John of Luxembourg sells her to the English for ten thousand livres, as Lowell tells it (francs in Ramsay,\n    who names the Duke of Burgundy as the seller), and she is taken from Beaurevoir",
+     "state": "fixed"
+    }
+   ]
   },
   {
    "agent": "aeb6b75499116cc56",
@@ -420,7 +622,153 @@
     "serve": "static"
    },
    "problems": []
+  },
+  {
+   "role": "editor",
+   "description": "pre-plan-check all editor pre-plans",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "all",
+    "step": "pre-plan-check",
+    "task": "pre-plans",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/pre-plan-check-editor",
+    "serve": "static"
+   },
+   "problems": []
   }
  ],
- "fixes": []
+ "fixes": [
+  {
+   "fault": "020-editor-1",
+   "by": "editor",
+   "file": "content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml",
+   "field": "the-voices.tells",
+   "commit": "db83da3e",
+   "kind": "plan",
+   "severity": "wrong",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-editor-2",
+   "by": "editor",
+   "file": "content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml",
+   "field": "chinon-and-poitiers.date",
+   "commit": "db83da3e",
+   "kind": "order",
+   "severity": "wrong",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-editor-3",
+   "by": "editor",
+   "file": "content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml",
+   "field": "chinon-and-poitiers.tells",
+   "commit": "db83da3e",
+   "kind": "attribution",
+   "severity": "wrong",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-editor-1",
+   "by": "editor",
+   "file": "content/joan-of-arc/.plan/030-orleans/pages.yaml",
+   "field": "from-blois.tells",
+   "commit": "db83da3e",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-editor-1",
+   "by": "editor",
+   "file": "content/joan-of-arc/.plan/050-paris-and-compiegne/pages.yaml",
+   "field": "montepilloy.tells",
+   "commit": "db83da3e",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-editor-1",
+   "by": "editor",
+   "file": "content/joan-of-arc/.plan/060-rouen/pages.yaml",
+   "field": "sold-to-the-english.tells",
+   "commit": "db83da3e",
+   "kind": "attribution",
+   "severity": "wrong",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "story-editor-1",
+   "by": "editor",
+   "file": "content/joan-of-arc/.plan/030-orleans/pages.yaml",
+   "field": "the-english-march-away.markers",
+   "commit": "db83da3e",
+   "kind": "plan",
+   "severity": "wrong",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "story-editor-2",
+   "by": "editor",
+   "file": "content/joan-of-arc/.plan/040-the-loire-and-reims/pages.yaml",
+   "field": "meung-and-beaugency.markers",
+   "commit": "db83da3e",
+   "kind": "plan",
+   "severity": "wrong",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "story-editor-3",
+   "by": "editor",
+   "file": "content/joan-of-arc/.plan/050-paris-and-compiegne/pages.yaml",
+   "field": "back-to-the-loire.markers",
+   "commit": "db83da3e",
+   "kind": "plan",
+   "severity": "wrong",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "story-editor-4",
+   "by": "editor",
+   "file": "content/joan-of-arc/.plan/010-france-divided/pages.yaml",
+   "field": "domremy.tells",
+   "commit": "db83da3e",
+   "kind": "order",
+   "severity": "weak",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "story-editor-5",
+   "by": "editor",
+   "file": "content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml",
+   "field": "chinon-and-poitiers.tells",
+   "commit": "db83da3e",
+   "kind": "plan",
+   "severity": "taste",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "story-editor-6",
+   "by": "editor",
+   "file": "content/joan-of-arc/.plan/050-paris-and-compiegne/pages.yaml",
+   "field": "montepilloy.tells",
+   "commit": "db83da3e",
+   "kind": "plan",
+   "severity": "taste",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  }
+ ]
 }

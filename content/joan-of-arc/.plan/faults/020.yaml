@@ -1,0 +1,40 @@
+- id: 020-editor-1
+  severity: wrong
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+  field: the-voices.tells
+  replaces: clause
+  old: as she told her judges in 1431. In May
+  new: "as she told her judges in 1431, and in time, she said, the voices bid her leave home and go into France\
+    \ to\n    the Dauphin. In May"
+  source: brief.md 020, "The voices in her father's garden, about 1425, and what she said they asked of her"
+  kind: plan
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+- id: 020-editor-2
+  severity: wrong
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+  field: chinon-and-poitiers.date
+  replaces: value
+  old: March and April 1429
+  new: Late February or March to April 1429
+  source: 'sources.md "Against the brief", 020: Lowell (2171-2245, 2857-2897) sets her coming to Chinon on 23 February,
+    others on 6 March'
+  kind: order
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+- id: 020-editor-3
+  severity: wrong
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+  field: chinon-and-poitiers.tells
+  replaces: clause
+  old: "The Dauphin receives her at Chinon. Churchmen examine her at Poitiers and find nothing\n    against her,"
+  new: "The Dauphin receives her at Chinon, in late February as Lowell dates her coming or in March as others do.\n\
+    \    Churchmen examine her at Poitiers and find nothing against her,"
+  source: sources.md "Against the brief", 020; Lowell 2857-2897; brief.md 020, "differ between authors and are told
+    with their names"
+  kind: attribution
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed

@@ -1,0 +1,15 @@
+- id: 030-editor-1
+  severity: weak
+  file: content/joan-of-arc/.plan/030-orleans/pages.yaml
+  field: from-blois.tells
+  replaces: clause
+  old: "The convoy and its escort leave Blois and go up the south bank of the Loire through the Sologne, not by\
+    \ the\n    Beauce as she wanted."
+  new: "The convoy and its escort leave Blois on 27 or 28 April, a day the authors give differently, and go up the\n\
+    \    south bank of the Loire through the Sologne, not by the Beauce as she wanted."
+  source: 'decisions.md, unresolved at pre-plans, 030: "the convoy left Blois on 27 or 28 April"; rules.md, "a date
+    ... that the sources give differently names its author" (the research names them)'
+  kind: attribution
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed

@@ -1,0 +1,91 @@
+- id: story-editor-1
+  severity: wrong
+  file: content/joan-of-arc/.plan/030-orleans/pages.yaml
+  field: the-english-march-away.markers
+  replaces: value
+  old: '[english-array, meung, jargeau]'
+  new: '[english-array, meung, jargeau-may-1429]'
+  source: agents/editor definition, "Marked once"; 040-the-loire-and-reims/pages.yaml, jargeau.markers holds jargeau
+    too
+  kind: plan
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+  between: 030 the-english-march-away and 040 jargeau mark Jargeau under one id; 040 keeps jargeau, 030 takes a
+    dated id
+- id: story-editor-2
+  severity: wrong
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/pages.yaml
+  field: meung-and-beaugency.markers
+  replaces: value
+  old: '[meung-bridge, beaugency, janville]'
+  new: '[meung-bridge, beaugency, janville-1429]'
+  source: agents/editor definition, "Marked once"; 020-the-road-to-chinon/pages.yaml, salisbury-on-the-loire.markers
+    holds janville
+  kind: plan
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+  between: 020 salisbury-on-the-loire (1428) and 040 meung-and-beaugency (1429) mark Janville under one id
+- id: story-editor-3
+  severity: wrong
+  file: content/joan-of-arc/.plan/050-paris-and-compiegne/pages.yaml
+  field: back-to-the-loire.markers
+  replaces: value
+  old: '[saint-denis-abbey, bray-1429, gien-1429]'
+  new: '[saint-denis-abbey, bray-1429, gien-disbanded]'
+  source: agents/editor definition, "Marked once"; 020-the-road-to-chinon/pages.yaml, eleven-days.markers holds
+    gien-1429
+  kind: plan
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+  between: 020 eleven-days (February 1429) and 050 back-to-the-loire (September 1429) mark Gien under one id
+- id: story-editor-4
+  severity: weak
+  file: content/joan-of-arc/.plan/010-france-divided/pages.yaml
+  field: domremy.tells
+  replaces: clause
+  old: What she and the witnesses of 1455 said of her
+  new: What she and the witnesses of the retrial said of her
+  source: 'Murray heads the Domrémy depositions "DEPOSITIONS AT DOMREMY: 1455" (archive.org-download-jeannedarcmaidof028754mbp...txt,
+    11142), while 060 the-old-market, 070 the-retrial (marker domremy-1456) and rules.md call the retrial witnesses
+    those of 1456; the heading may be in the old-style year'
+  kind: order
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+  between: '010 domremy against 060 the-old-market and 070 the-retrial: one set of witnesses dated two ways; the
+    research fixes the year of the Domrémy enquiry'
+- id: story-editor-5
+  severity: taste
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+  field: chinon-and-poitiers.tells
+  replaces: clause
+  old: behind the altar at Fierbois.
+  new: behind the altar at Fierbois. In late April she joins the convoy for Orléans gathering at Blois.
+  source: brief.md 030, "The convoy from Blois and her entry into the city"; 030 from-blois opens with the convoy
+    leaving Blois
+  kind: plan
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+  between: 020 chinon-and-poitiers ends at Tours and Fierbois, 030 from-blois opens at Blois with nothing to bring
+    her there
+- id: story-editor-6
+  severity: taste
+  file: content/joan-of-arc/.plan/050-paris-and-compiegne/pages.yaml
+  field: montepilloy.tells
+  replaces: clause
+  old: The king's army and Bedford's face each other at Montépilloy
+  new: Turned back at Bray, where an Anglo-Burgundian force holds the crossing of the Seine, the king's army marches
+    on Paris, and it and Bedford's face each other at Montépilloy
+  source: 'Lowell, archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt 7284-7296: at Provins orders
+    to cross the Seine at Bray and retreat; an Anglo-Burgundian force seized Bray; the army turned again and marched
+    on Paris'
+  kind: plan
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+  between: 040 the-towns-come-over ends at Provins on 2 August heading away from Paris, 050 montepilloy opens near
+    Senlis on 14 August with no turn between

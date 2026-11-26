@@ -1,0 +1,23 @@
+- step: pre-plan-check
+  task: pre-plans
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/010-france-divided/pages.yaml
+    - content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+    - content/joan-of-arc/.plan/030-orleans/pages.yaml
+    - content/joan-of-arc/.plan/040-the-loire-and-reims/pages.yaml
+    - content/joan-of-arc/.plan/050-paris-and-compiegne/pages.yaml
+    - content/joan-of-arc/.plan/060-rouen/pages.yaml
+    - content/joan-of-arc/.plan/faults/story.yaml
+    - content/joan-of-arc/.plan/faults/020.yaml
+    - content/joan-of-arc/.plan/faults/030.yaml
+    - content/joan-of-arc/.plan/faults/050.yaml
+    - content/joan-of-arc/.plan/faults/060.yaml
+    - content/joan-of-arc/.plan/fixes/story.yaml
+    - content/joan-of-arc/.plan/fixes/020.yaml
+    - content/joan-of-arc/.plan/fixes/030.yaml
+    - content/joan-of-arc/.plan/fixes/050.yaml
+    - content/joan-of-arc/.plan/fixes/060.yaml
+  faults: [story-editor-1, story-editor-2, story-editor-3, story-editor-4, story-editor-5, story-editor-6, 020-editor-1, 020-editor-2, 020-editor-3, 030-editor-1, 050-editor-1, 060-editor-1]
+  unresolved: []
+  stale: []

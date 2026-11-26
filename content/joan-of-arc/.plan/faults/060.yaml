@@ -1,0 +1,15 @@
+- id: 060-editor-1
+  severity: wrong
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: sold-to-the-english.tells
+  replaces: clause
+  old: "She is sold to the English for ten thousand livres (francs in Ramsay, who names the Duke of Burgundy as\
+    \ the\n    seller), taken from Beaurevoir"
+  new: "John of Luxembourg sells her to the English for ten thousand livres, as Lowell tells it (francs in Ramsay,\n\
+    \    who names the Duke of Burgundy as the seller), and she is taken from Beaurevoir"
+  source: 'sources.md "Against the brief", 060: Lowell (ch. 17) tells the bargain with John of Luxembourg, ten thousand
+    livres; Ramsay 1 (ch. 29) the Duke of Burgundy, francs; brief.md 060'
+  kind: attribution
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed

@@ -1,0 +1,13 @@
+- id: 050-editor-1
+  severity: weak
+  file: content/joan-of-arc/.plan/050-paris-and-compiegne/pages.yaml
+  field: montepilloy.tells
+  replaces: clause
+  old: near Senlis on 14 and 15 August and part
+  new: near Senlis on 14 and 15 August (Lowell's date) and part
+  source: 'decisions.md, unresolved at pre-plans, 050: "Montépilloy on 14 August (Lowell) against the article''s
+    26 August"; rules.md, "The careful side"'
+  kind: attribution
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed

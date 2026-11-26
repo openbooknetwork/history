@@ -1,0 +1,43 @@
+- fault: story-editor-1
+  by: editor
+  file: content/joan-of-arc/.plan/030-orleans/pages.yaml
+  field: the-english-march-away.markers
+  old: '[english-array, meung, jargeau]'
+  new: '[english-array, meung, jargeau-may-1429]'
+  commit: db83da3e
+- fault: story-editor-2
+  by: editor
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/pages.yaml
+  field: meung-and-beaugency.markers
+  old: '[meung-bridge, beaugency, janville]'
+  new: '[meung-bridge, beaugency, janville-1429]'
+  commit: db83da3e
+- fault: story-editor-3
+  by: editor
+  file: content/joan-of-arc/.plan/050-paris-and-compiegne/pages.yaml
+  field: back-to-the-loire.markers
+  old: '[saint-denis-abbey, bray-1429, gien-1429]'
+  new: '[saint-denis-abbey, bray-1429, gien-disbanded]'
+  commit: db83da3e
+- fault: story-editor-4
+  by: editor
+  file: content/joan-of-arc/.plan/010-france-divided/pages.yaml
+  field: domremy.tells
+  old: What she and the witnesses of 1455 said of her
+  new: What she and the witnesses of the retrial said of her
+  commit: db83da3e
+- fault: story-editor-5
+  by: editor
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+  field: chinon-and-poitiers.tells
+  old: behind the altar at Fierbois.
+  new: behind the altar at Fierbois. In late April she joins the convoy for Orléans gathering at Blois.
+  commit: db83da3e
+- fault: story-editor-6
+  by: editor
+  file: content/joan-of-arc/.plan/050-paris-and-compiegne/pages.yaml
+  field: montepilloy.tells
+  old: The king's army and Bedford's face each other at Montépilloy
+  new: Turned back at Bray, where an Anglo-Burgundian force holds the crossing of the Seine, the king's army marches
+    on Paris, and it and Bedford's face each other at Montépilloy
+  commit: db83da3e

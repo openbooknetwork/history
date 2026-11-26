@@ -47,3 +47,9 @@
 - step pre-plans: done, 26 Nov 2026. Seven `pages.yaml`, 41 pages: 6, 5, 6, 6, 6, 6, 6. The plan check prints ok for each section alone, and for the story the marker ids two
   sections share, which the editor's check takes up.
 - ledger after `pre-plans`: | **total** | 9 | 160 | 225,725 | 322 | 848,373 | 14,098,583 | 171,023 | 3,325,762 |
+- cloud ruling: the page titles and their order are agreed as the pre-plans give them after the editor's check, 41
+  pages — the count is the user's, the order holds in time, and no id is shared by two sections.
+- step pre-plan-check: done, 26 Nov 2026. The editor wrote and fixed 12 faults in the pre-plans (`faults/story.yaml`,
+  `020`, `030`, `050`, `060`, each with its fix): three marker ids shared, two tells that took a side, two dates, the
+  year of the Domrémy witnesses, and two joins between sections. None is open.
+- ledger after `pre-plan-check`: | **total** | 10 | 182 | 225,725 | 369 | 925,367 | 15,755,447 | 200,750 | 3,736,372 |

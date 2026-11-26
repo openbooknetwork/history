@@ -8,3 +8,4 @@
 - 26 Nov 2026, map-design: `harita patterns` stops with "no pages" before any page exists, so the families' look-alike check waits for `maps`.
 - 26 Nov 2026, plans: the cause of the managers without the Agent tool is `CLAUDE_CODE_MAX_SUBAGENT_SPAWN_DEPTH=1` in this cloud session's environment (the documented default is three layers); a probe agent with every tool allowed held no Agent tool. `.claude/settings.json` now sets it to 3, at the user's word; whether a cloud session honours the setting over its environment is not tested, and it does not reach this running session.
 - 26 Nov 2026, plan-check 040: the fact checker's mistyped command left an empty file `/r1.txt` at the container's root, outside the repo; it could not delete it.
+- 26 Nov 2026, plan-check 050: the commits the Stop hook asks for while agents run take in a running agent's half-made edits, so a fix log names two commits for one run's fixes (58ca455d, 819faf73).

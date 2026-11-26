@@ -1,0 +1,20 @@
+- step: plan-check
+  task: plan-check
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml
+    - content/joan-of-arc/.plan/050-paris-and-compiegne/text.yaml
+    - content/joan-of-arc/.plan/names.md
+    - content/joan-of-arc/.plan/faults/050.yaml
+    - content/joan-of-arc/.plan/fixes/050.yaml
+  faults: [050-fact-checker-1, 050-fact-checker-2, 050-fact-checker-3, 050-fact-checker-4, 050-fact-checker-5, 050-fact-checker-6, 050-fact-checker-7, 050-fact-checker-8, 050-fact-checker-9, 050-fact-checker-10]
+  unresolved: []
+  stale: []
+  checked:
+    routes: 14
+    zones: "4 a page, 6 pages; each in the brief's Map table with its digest claims (english-sep-1429 from 050.9, 050.8, 050.25, 050.29)"
+    cards: "2 (paris-1429, compiegne-1430): every figure names its author and stands in its file"
+    dates: "6 pages: each when and date agree with their claims"
+  notes:
+    - "The page montepilloy (when 1429-08-14) takes english-sep-1429, whose towns came over from 17 to 22 August; the brief gives that zone to 050 and the page tells their coming over, so it stands."
+    - "Bedford's march of early August from Paris by Corbeil and Melun to Montereau, and his road from Montereau to Mitry, are not drawn: the second is in no source read."

@@ -113,3 +113,7 @@
   The fact checkers wrote 15 faults in 030 and 19 in 040 and fixed them all: a route of 040 in the wrong family,
   the order of the crossing of 6 May, a garrison figure given to the wrong author. None is open.
 - plans: four images planned twice (the church of Domrémy, the keep of Beaugency, the castle of Meung, the cathedral of Troyes) each keep one page, 010, 040, 040 and 010, and the rule "an image stands once in the story" is in `rules.md` — the 060 coordinator found the pairs and no rule settled them (020-overseer-2, 020-overseer-3, 030-overseer-1, 040-overseer-1).
+- wave 050 060: done, 26 Nov 2026, at `plans` and `plan-check`. The plans and the cards of Paris and Compiègne; 060 has
+  no battle. The fact checkers wrote 10 faults in 050 and 8 in 060 and fixed them all: two routes of Montépilloy
+  drawn against their own sources, a disputed diocese told as fact, "six lines" given to the wrong witnesses. None
+  is open. The road from Le Crotoy to Rouen is not drawn, as `rules.md` rules.

@@ -92,11 +92,19 @@ const MAINE = z.diff(z.region(SM,
 // The Beauce down to the Loire, English from August 1428 to June 1429
 const LOIRE = z.src('020.16', z.feature('loire'), [1.60, 47.735], [1.835, 47.881]);   // Meung and Beaugency on the north bank, between them the English held the river
 const ORLW = z.est('the Loire below Orléans to the city: the Natural Earth line cuts across the city, so the river is drawn by hand past the Île Charlemagne (030.6) to the walls', [end(LOIRE), [1.860, 47.889], [1.882, 47.8925], [1.8965, 47.8962]]);
-const ORLN = z.est('the English edge round the west and the north of Orléans: Saint-Laurent, London, Rouen and Paris inside (030.3, 030.4), the city and the open land to its north-east outside (030.1); no source gives the line', [end(ORLW), [1.898, 47.904], [1.904, 47.9075], [1.912, 47.9085], [1.925, 47.95], [1.96, 48.02], [2.10, 48.10], [2.35, 48.17], [2.55, 48.30]]);
-const BEAUCE = z.region(LOIRE, ORLW, ORLN,
-  z.est('a line inside the English north of 1428: it only closes the Beauce', [end(ORLN), [1.50, 48.45]]),
-  z.est('the English edge west of the Beauce: Janville and Patay inside, Châteaudun outside (020.14, 040.42); no source gives a line', [[1.50, 48.45], [1.55, 48.05], [1.58, 47.80], start(LOIRE)]));
+const ORLN = z.est('the English edge round the west and the north of Orléans: Saint-Laurent, London, Rouen and Paris inside (030.3, 030.4), the city and the open land to its north-east outside (030.1); no source gives the line', [end(ORLW), [1.898, 47.904], [1.904, 47.9075], [1.912, 47.9085], [1.925, 47.95], [1.96, 48.02]]);
+const ORLNE = z.est('the English edge north-east of Orléans, from the forest to the English north: the open land north-east of the city outside (030.1), the Beauce inside (030.17); no source gives the line', [end(ORLN), [2.10, 48.10], [2.35, 48.17], [2.55, 48.30]]);
+const BEAUCE_N = z.est('a line inside the English north of 1428: it only closes the Beauce', [end(ORLNE), [1.50, 48.45]]);
+const BEAUCE_W = z.est('the English edge west of the Beauce: Janville and Patay inside, Châteaudun outside (020.14, 040.42); no source gives a line', [[1.50, 48.45], [1.55, 48.05], [1.58, 47.80], start(LOIRE)]);
+const BEAUCE = z.region(LOIRE, ORLW, ORLN, ORLNE, BEAUCE_N, BEAUCE_W);
 const JARGEAU = z.town('the bridgehead of Jargeau, the English bridge above Orléans (020.14, 020.16)', [2.125, 47.862], 3);
+// The Beauce from the raising of the siege on 8 May 1429 to Patay (040-map-auditor-2): the English left their
+// bastilles for Meung, Beaugency and Jargeau (030.72, 030.74), so the edge stands back from the walls of Orléans, and
+// the places of the Beauce they held until Patay stay inside: Meung, Beaugency, Janville, Montpipeau and
+// Saint-Sigismond (040.42). The Loire below Meung is the same sourced river as in the siege
+const LOIRE29 = z.src('020.16', z.feature('loire'), [1.60, 47.735], [1.78, 47.85]);
+const ORL29 = z.est('the English edge between Meung and Orléans after the siege was raised (8 May 1429): the English left their bastilles for Meung, Beaugency and Jargeau (030.72, 030.74) and held Montpipeau and Saint-Sigismond in the Beauce until Patay (040.42); the city and some ten km of its land outside; no source gives the line', [end(LOIRE29), [1.79, 47.92], [1.84, 47.98], end(ORLN)]);
+const BEAUCE29 = z.region(LOIRE29, ORL29, ORLNE, BEAUCE_N, BEAUCE_W);
 
 // Calais, Gascony, England
 const CALAIS = z.region(z.est('the march of Calais, English from 1347 (010.23, 010.34, 070.26): its bounds are no source\'s, drawn some ten km round the town', [[1.65, 51.02], [1.72, 50.88], [1.90, 50.82], [2.08, 50.90], [2.12, 51.06]]),
@@ -217,7 +225,7 @@ const T = {
   dieppe: [1.08, 49.92], caudebec: [0.726, 49.526], le_havre: [0.11, 49.49], honfleur: [0.233, 49.42], harfleur: [0.198, 49.507], eu: [1.42, 50.05],
   cherbourg: [-1.62, 49.64], saint_sauveur: [-1.53, 49.39], valognes: [-1.47, 49.51], bayeux: [-0.70, 49.28], falaise: [-0.20, 48.90], vire: [-0.89, 48.84],
   domfront: [-0.65, 48.59], carentan: [-1.25, 49.30], saint_lo: [-1.09, 49.12], lisieux: [0.23, 49.15], argentan: [-0.02, 48.74], formigny: [-0.90, 49.33],
-  saint_urbain: [5.19, 48.40], rouvray: [1.95, 48.27],
+  saint_urbain: [5.19, 48.40], rouvray: [1.95, 48.27], montpipeau: [1.70, 47.89], saint_sigismond: [1.67, 47.98],
   le_crotoy: [1.62, 50.22], abbeville: [1.83, 50.10], la_charite: [3.02, 47.18], nevers: [3.16, 46.99], courtenay: [3.06, 48.04], tonnerre: [3.97, 47.86],
   beaumont: [2.29, 49.14], mantes: [1.72, 48.99], meulan: [1.91, 49.01], clermont: [2.41, 49.38], carignan: [5.17, 49.63], givet: [4.82, 50.14],
   rethel: [4.37, 49.51], perpignan: [2.895, 42.699], narbonne: [3.00, 43.18], carcassonne: [2.35, 43.21],
@@ -239,6 +247,14 @@ z.zone('english-1428', { family: 'english', name: 'The English kings\' lands' },
 z.zone('english-siege-1428', { family: 'english', name: 'The English kings\' lands' }, z.union(ABROAD, NORTH28, BEAUCE, JARGEAU), {
   inside: pick('janville', 'meung', 'beaugency', 'jargeau', 'patay', 'rouvray', 'saint_laurent', 'bastille_paris', 'chartres', 'paris'),
   outside: pick('orleans', 'boucher', 'saint_loup', 'checy', 'blois', 'gien', 'chateaudun', 'vaucouleurs') });
+// 8 May to 12 June 1429, the page jargeau: the siege raised, the bridgehead of Jargeau still English (040-map-auditor-2)
+z.zone('english-may-1429', { family: 'english', name: 'The English kings\' lands' }, z.union(ABROAD, NORTH28, BEAUCE29, JARGEAU), {
+  inside: pick('janville', 'meung', 'beaugency', 'jargeau', 'patay', 'montpipeau', 'saint_sigismond', 'rouvray', 'chartres', 'paris'),
+  outside: pick('orleans', 'saint_laurent', 'bastille_paris', 'boucher', 'saint_loup', 'checy', 'blois', 'gien', 'chateaudun', 'vaucouleurs') });
+// 12 to 17 June 1429, the page meung-and-beaugency: Jargeau stormed on 12 June (040.4; 040-map-auditor-1)
+z.zone('english-june-1429', { family: 'english', name: 'The English kings\' lands' }, z.union(ABROAD, NORTH28, BEAUCE29), {
+  inside: pick('janville', 'meung', 'beaugency', 'patay', 'montpipeau', 'saint_sigismond', 'rouvray', 'chartres', 'paris'),
+  outside: pick('orleans', 'jargeau', 'saint_laurent', 'bastille_paris', 'boucher', 'saint_loup', 'checy', 'blois', 'gien', 'chateaudun', 'vaucouleurs') });
 z.zone('english-reims-1429', { family: 'english', name: 'The English kings\' lands' }, z.diff(z.union(ABROAD, NORTH28), REIMS_CUT), {
   inside: pick('paris', 'sens', 'provins', 'chateau_thierry', 'soissons', 'laon', 'coulommiers', 'chartres', 'rouen'),
   outside: pick('troyes', 'reims', 'chalons', 'saint_florentin', 'janville', 'orleans') });

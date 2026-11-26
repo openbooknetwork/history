@@ -428,3 +428,36 @@
   introduced: plan
   owner: section-coordinator
   state: fixed
+- id: 040-map-auditor-1
+  severity: wrong
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "the zone of the page meung-and-beaugency (english-siege-1428, with france-siege-1428)"
+  new: "meung-and-beaugency (15 to 17 June 1429) takes a stage of its own, english-siege-1428 without the circle JARGEAU (ground line 47): z.zone('english-june-1429', ..., z.union(ABROAD, NORTH28, BEAUCE)), with its france entry in shared/zones.yaml (france-june-1429: { zone: france-1407 }), the page's zones in the plan's map.yaml and in pages040.mjs, and its row in the brief's Map part, where english-siege-1428 ends on 12 June 1429 and loses meung-and-beaugency. As it stands the page shows the bridgehead of Jargeau as English three days after the French stormed it: the circle stands green south-east of Orléans in the capture /tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/maps-040-map-auditor/pack/shots/meung-and-beaugency.png (about x 727, y 684), and no marker on the page says otherwise."
+  source: "040.4, Cagny, Quicherat 4, p. 13: \"L'assault très dur, lequel dura de trois à quatre heures. Et en la pariin la place fut prinse\" (Sunday 12 June); 040.42, Lowell ch. 10: \"fifty miles above Orleans ... was controlled by the French\" after Jargeau. The brief's row of english-siege-1428 dates it to 17 June 1429 and gives it meung-and-beaugency with the circle."
+  kind: map
+  claim: "040.4"
+  introduced: map-design
+  owner: map-keeper
+  state: open
+- id: 040-map-auditor-2
+  severity: weak
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "english-siege-1428, its edge round the west and the north of Orléans (ground lines 43 and 44), on the pages jargeau and meung-and-beaugency"
+  new: "The stage of June 1429 that 040-map-auditor-1 asks for draws the English edge back from the walls of Orléans, so that the city's own land no longer shows English a month after the siege was raised: line 44 rests on the bastilles (030.1, 030.3, 030.4), which the English left on 8 May for Meung, Beaugency and Jargeau. The towns stay inside: Meung, Beaugency, Janville and the Beauce. Where the new edge runs between Meung and Orléans no source read gives, so it is an estimate and the text's clause on approximate borders covers it. As it stands orleans-june-1429 on jargeau is 0.7 km from the English edge (points.txt), and the green reaches the city in /tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/maps-040-map-auditor/pack/shots/jargeau.png."
+  source: "030.72, the Journal du siège, 8 May 1429: \"les Angloys de Sainct-Pouair et d'ailleurs, et levans leur siège se mirent en bataille\"; 030.74, the Chronique de la Pucelle ch. 49: \"le comte de Suffort à Jargeau, et les seigneurs de Scales, de Tallebot, et autres chefs de leur parly, se retrairent tant à Meun, à Baugency\""
+  kind: map
+  claim: "030.72"
+  introduced: map-design
+  owner: map-keeper
+  state: open
+- id: 040-map-auditor-3
+  severity: weak
+  file: content/joan-of-arc/.plans/pages040.mjs
+  field: "the-towns-come-over, the line of the route france-1429-provins, and its stations in .plan/040-the-loire-and-reims/map.yaml"
+  new: "The route goes from Château-Thierry by Montmirail (about 48.87 N, 3.54 E) to Provins, and its stations read [Reims, Corbeny, Vailly, Soissons, Château-Thierry, Montmirail, Provins]. As drawn it leaves Château-Thierry south-west by 3.30 E, some 20 km west of the town where Cagny, in the route's own passage, has the king lie on 1 August."
+  source: "Cagny, Quicherat 4, p. 20, lines 1240-1242: \"y fut le roy logié jusques au lundy premier jour d'aoust ensuivant. Ce jour, le roy geut à Monmirail en Brie\""
+  kind: map
+  claim: "040.79"
+  introduced: plan
+  owner: cartographer
+  state: open

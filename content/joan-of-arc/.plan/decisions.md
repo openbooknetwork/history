@@ -220,3 +220,12 @@
 - cloud ruling: they stand as reconstructions, and the section's text calls the forts' places approximate once. The
   captures of the Orléans pages showed no base map, so the river side of each fort was checked by coordinates and
   not seen: this goes into the pull request as a thing for the reader to look at first.
+- maps 040 audited (map-auditor): 3 faults open — 040-map-auditor-1 (wrong) and -2 (weak) for the map keeper, the
+  Jargeau bridgehead and the English edge at Orléans on the pages of June 1429; 040-map-auditor-3 (weak) for the
+  cartographer, Montmirail on the road to Provins. texts 030 and 040 written (section-writers).
+- unresolved, maps 040: where the English edge ran between Meung and Orléans after 8 May; Champagne east of the
+  coronation road given to the king from 10 July; the Valois French from 18 July; Crécy inside the king's land.
+- cloud ruling: the English edge of June 1429 runs from the Loire just above Meung north to the Beauce, an estimate,
+  with Orléans and its land outside and Meung, Beaugency and Janville inside, as the auditor proposed. The other
+  three stand as the keeper's lines: each rests on the town lists of the digest, and the chapter's text calls its
+  borders approximate.

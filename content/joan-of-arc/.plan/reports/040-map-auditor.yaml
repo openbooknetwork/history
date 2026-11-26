@@ -1,0 +1,17 @@
+- step: maps
+  task: audit
+  status: faults
+  changed_files:
+    - content/joan-of-arc/.plan/faults/040.yaml
+  faults: [040-map-auditor-1, 040-map-auditor-2, 040-map-auditor-3]
+  unresolved:
+    - "english-siege-1428 in June 1429 (040-map-auditor-2): where the English edge ran between Meung and Orléans once the bastilles were left on 8 May no source read gives. Proposed: an estimate from the Loire just above Meung north to the Beauce, Orléans and its banlieue outside, Meung, Beaugency and Janville inside."
+    - "english-reims-1429 (reims): lines 57 and 58 give the king all of Champagne east of the coronation road from 10 July, Vitry, Sainte-Menehould, Rethel, Chaumont and Langres with it; the sources name only the towns of the road (040.53, 040.58, 040.62, 040.63) and Bedford's 'most of Champagne' of 1433 (040.86, single). Proposed: keep, on 040.86, as the map keeper's own line."
+    - "english-aug-1429 (the-towns-come-over): the Valois, Crépy and La Ferté-Milon, French from 18 July; no source read gives when they came over, and 050 has the king at Crépy on 11 August. Proposed: keep, as the map keeper's own line."
+    - "english-aug-1429: Crécy stands 3.8 km inside the king's land between English Meaux and Lagny (line 59, estimate on the town list of 040.81 and 050.9). Proposed: keep."
+  stale:
+    - "content/joan-of-arc/.plan/brief.md, Map, Zones: the row of english-siege-1428 (to 17 June 1429, with meung-and-beaugency), once 040-map-auditor-1 is fixed"
+  notes:
+    - "Every check of the pack ok: plan, linter, names, card guard, build, zone gaps; 13 routes clean on land. All 24 markers stand within a kilometre or two of their towns; notes tell their own page's event; families as the brief gives them."
+    - "The pack's capture of the-towns-come-over caught the page before its route drew; a second capture after SHOT_WAIT=12000 shows france-1429-provins whole. No fault."
+    - "meung-bridge-1429 waits under beaugency-1429 (plan-check note): the writer links it when the text is written."

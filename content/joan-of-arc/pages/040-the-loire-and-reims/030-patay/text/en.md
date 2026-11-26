@@ -1,16 +1,16 @@
-At about eight on the morning of Saturday 18 June, by Jean de Wavrin, a chronicler who rode with them, the English at Meung learn that Beaugency has fallen.\* They give up Meung and march for Janville, the main body under Sir John Fastolf and Lord Talbot. Joan tells the captains to have good spurs, for the English will not stand: so the Bastard of Orléans (later Count of Dunois) remembered it in 1456.\*\*
+At about eight on the morning of Saturday 18 June, by Jean de Wavrin, a chronicler who rode with them, the English at Meung learn that Beaugency has fallen.\* They give up Meung and march for Janville, the English main body under Sir John Fastolf and Lord Talbot. Joan tells the captains to have good spurs, for the English will not stand: so the Bastard of Orléans (later Count of Dunois) remembered it in 1456.\*\*
 
 La Hire and Poton de Xaintrailles lead the French vanguard.\*\*\* The main body follows under the Duke of Alençon and the Bastard. Joan, kept out of the van, is much vexed, her page Louis de Coutes said. In Wavrin's account a stag breaks from the woods into the English ranks, and their shout gives them away to the French scouts.
 
 Talbot dismounts with 500 picked archers to hold a passage between two hedges near [Patay](@patay-village). The French are on him before the English are formed. Monstrelet, a Burgundian chronicler, says the archers had not yet planted their stakes. Talbot is overrun, and the English van, seeing Fastolf ride towards it, flees. By Monstrelet it is over at about two in the afternoon.\*\*\*\*
 
-Talbot is taken, by Xaintrailles's archers in the account of Gruel, Richemont's biographer, and so are Lord Scales and Sir Thomas Rempston. The French lose few men. Fastolf escapes to Étampes and then Corbeil, and Monstrelet says the regent, Bedford, took the Garter from him. Louis de Coutes saw Joan get down from her horse to hold the head of an English prisoner struck down by his captor, and have him confessed.
+Talbot is taken, by Xaintrailles's archers in the account of Gruel, biographer of Arthur de Richemont, and so are the English captains Lord Scales and Sir Thomas Rempston. The French lose few men. Fastolf escapes to Étampes and then Corbeil, and Monstrelet says the regent, Bedford, took the Garter from him. Louis de Coutes saw Joan get down from her horse to hold the head of an English prisoner struck down by his captor, and have him confessed.
 
 @image talbot-shrewsbury-book
 
 [Janville](@janville-shut) shuts its gates on the fugitives and gives itself to the king. The English burn [Montpipeau](@montpipeau-1429), [Saint-Sigismond](@saint-sigismond-1429) and other strongholds and flee. In a week they have lost every place on the Loire about Orléans, and the Beauce is clear almost to Paris. On 19 June Joan and Alençon bring the prisoners back to Orléans.
 
-The map shows the English road cut off at Patay, the pursuit, Fastolf's flight and the return to Orléans, all approximate. Chartres and Étampes stay English.
+The roads on the map are approximate. Chartres and Étampes stay English.
 
 ### Notes
 

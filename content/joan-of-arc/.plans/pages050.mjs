@@ -73,7 +73,7 @@ const pages = [
         note: "Charles VII's quarters, where a letter of challenge from John, Duke of Bedford reaches him on 11 August 1429 and Compiègne's keys are brought to him on 17 August" },
       'montepilloy': { lnglat: P.montepilloy, icon: 'swords', color: 'france', label: 'Montépilloy', rank: 2,
         image: 'montepilloy-castle-ruins',
-        note: "Charles VII's army lodges by a hedge in its fields, about two leagues from Senlis, and faces John, Duke of Bedford's army on 14 and 15 August 1429 (Lowell's date); there are skirmishes and no battle" },
+        note: "Charles VII's army lodges by a hedge in its fields, about two leagues from Senlis, and faces John, Duke of Bedford's army on 14 and 15 August 1429; there are skirmishes and no battle" },
       'victoire-1429': { lnglat: P.victoire, icon: 'tent', color: 'english', label: 'Notre-Dame-de-la-Victoire', rank: 1,
         note: "John, Duke of Bedford's camp by this abbey on the Nonette, half a league from Senlis, fortified overnight with stakes, ditches and carts, 14–16 August 1429" },
       'senlis-1429': { lnglat: P.senlis, icon: 'key', color: 'france', label: 'Senlis', rank: 1,

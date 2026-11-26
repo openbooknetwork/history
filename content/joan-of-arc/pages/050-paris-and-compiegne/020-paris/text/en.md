@@ -12,8 +12,8 @@ The gates stand on the line of the old city wall; their places, like the army's 
 
 \*\* Monstrelet alone sets the assault on Monday 12 September, with the king leading the army from between Montmartre and Paris.
 
-\*\*\* The Journal of the Siege, a chronicle of Orléans, has "the dukes of Alençon and Bourbon" lie in wait there. Ramsay posts Alençon there with the Marshal de Boussac.
+\*\*\* The Journal of the Siege, a chronicle of Orléans, has the Dukes of Alençon and Bourbon lie in wait there. Ramsay posts Alençon there with the Marshal de Boussac.
 
-\*\*\*\* The bolt strikes her thigh in Cagny and the Journal of the Siege, and her leg in the Bourgeois of Paris, who watched from inside the walls, and in Lowell. Cagny has Gaucourt and others carry her back, and the Journal has Alençon send for her.
+\*\*\*\* The bolt strikes her thigh in Cagny and the Journal of the Siege, and her leg in the Bourgeois of Paris, who was inside the walls, and in Lowell. Cagny has Gaucourt and others carry her back, and the Journal has Alençon send for her.
 
 \*\*\*\*\* That night the bridge Alençon had thrown over the Seine near Saint-Denis is taken apart: by the king's order in Cagny, by some of the council without Alençon's knowledge in Lowell.

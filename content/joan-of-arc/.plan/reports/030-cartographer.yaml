@@ -1,0 +1,16 @@
+- step: maps
+  task: draw
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plans/pages030.mjs
+    - content/joan-of-arc/pages/030-orleans/group.yaml
+    - content/joan-of-arc/pages/030-orleans/010-from-blois/
+    - content/joan-of-arc/pages/030-orleans/020-the-army-of-blois/
+    - content/joan-of-arc/pages/030-orleans/030-storming-saint-loup/
+    - content/joan-of-arc/pages/030-orleans/040-the-augustins/
+    - content/joan-of-arc/pages/030-orleans/050-the-tourelles/
+    - content/joan-of-arc/pages/030-orleans/060-the-english-march-away/
+    - content/joan-of-arc/.plan/handoff/cartographer.md
+  faults: []
+  unresolved: []
+  stale: []

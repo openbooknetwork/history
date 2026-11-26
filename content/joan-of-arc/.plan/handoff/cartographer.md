@@ -18,3 +18,12 @@
 - Every zone list is the plan's, and the map keeper's handoff says why each france id goes with one english id.
 - The audit pack takes captures from its own build when run without `--no-shots`; serve its `site/` folder with
   `python3 -m http.server` and `SHOT_WAIT=12000` for a page whose routes were still drawing.
+- Section 030 is `content/joan-of-arc/.plans/pages030.mjs`, built on 020's; it reads each page's `sources` from the
+  plan's `text.yaml` (`import { load } from 'js-yaml'`: the module has no default export). Its head comment gives
+  the Loire at Orléans it draws by (north bank by the bridge about 47.8975 N, south bank about 47.8942 N), since
+  Natural Earth's Loire cuts across the city and Overpass does not answer. Reuse those points for any later page at
+  Orléans (040's Loire towns, 070's feast), so the forts and the river agree.
+- names-check also fails a rank or title the row does not write whole: "Marshal de Boussac" (write "Boussac"),
+  "Lord Scales" (write "Thomas, Lord Scales"), and "the bridge" / "the townsmen" in a note.
+- route-surface cannot judge a boat route on a river (030's boats-1429-checy): it reads as land and passes. Judge
+  it on a capture.

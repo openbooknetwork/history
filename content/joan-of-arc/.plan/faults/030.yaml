@@ -649,3 +649,630 @@
   introduced: names
   owner: names
   state: fixed
+- id: 030-fact-checker-16
+  severity: wrong
+  file: content/joan-of-arc/pages/030-orleans/060-the-english-march-away/text/en.md
+  field: body, note *
+  replaces: clause
+  old: and fewer than 100 French dead.
+  new: and no more than 100 French dead.
+  source: |-
+    archive.org-download-chroniclesengue06johngoog-chroniclesengue06johngoog-djvu.txt.txt 39071-39072 (Monstrelet, book 2 ch. 59): "so that firom ax to eight thousand combatants were killed or taken, whfle the French did not lose more than one hundred men of all ranks" (not more than 100, which is not fewer than 100)
+  kind: fact
+  claim: "030.68"
+  introduced: research
+  owner: section-reviewer
+  state: fixed
+- id: 030-fact-checker-17
+  severity: wrong
+  file: content/joan-of-arc/shared/battles/orleans-1429/battle.yaml
+  field: sides, French, casualties
+  replaces: clause
+  old: '"Monstrelet: fewer than 100 killed'
+  new: '"Monstrelet: no more than 100 killed'
+  source: the same line as 030-fact-checker-16
+  kind: battle
+  claim: "030.68"
+  introduced: research
+  owner: section-coordinator
+  state: fixed
+- id: 030-fact-checker-18
+  severity: wrong
+  file: content/joan-of-arc/.plan/030-orleans/battles.yaml and content/joan-of-arc/.plan/030-orleans/text.yaml
+  field: orleans-1429.sides.French.casualties; pages.the-english-march-away.account and .disputes
+  replaces: clause
+  old: 'Monstrelet: fewer than 100 killed / English killed or taken and fewer than 100 French killed (Monstrelet) / 6,000 to 8,000 English and fewer than 100 French,'
+  new: 'Monstrelet: no more than 100 killed / English killed or taken and no more than 100 French killed (Monstrelet) / 6,000 to 8,000 English and no more than 100 French,'
+  source: the same line as 030-fact-checker-16
+  kind: plan
+  claim: "030.68"
+  introduced: research
+  owner: section-coordinator
+  state: fixed
+- id: 030-fact-checker-19
+  severity: wrong
+  file: content/joan-of-arc/.plan/research.md and content/joan-of-arc/.plan/research/030.md
+  field: "030.68"
+  replaces: clause
+  old: 6,000 to 8,000 English killed or taken and fewer than 100 French killed, Monstrelet
+  new: 6,000 to 8,000 English killed or taken and no more than 100 French killed, Monstrelet
+  source: the same line as 030-fact-checker-16, which the claim quotes
+  kind: fact
+  claim: "030.68"
+  introduced: research
+  owner: researcher
+  state: fixed
+- id: 030-fact-checker-20
+  severity: weak
+  file: content/joan-of-arc/pages/030-orleans/010-from-blois/text/en.md
+  field: body
+  replaces: clause
+  old: 'are approximate: no plan of the siege survives.'
+  new: 'are approximate: none of the sources this book draws on gives a plan of the siege.'
+  source: |-
+    research.md, 030 Coverage: "No source read gives a plan of the bastilles"; 030.78: "no source gives a plan". No file says that no plan survives at all, so the text was surer than the sources (overstated)
+  kind: fact
+  claim: "030.78"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 030-fact-checker-21
+  severity: weak
+  file: content/joan-of-arc/pages/030-orleans/030-storming-saint-loup/text/en.md
+  field: body
+  replaces: clause
+  old: In the Chronique de la Pucelle and in Ramsay, and in the memories of her confessor Jean Pasquerel and her page Louis de Coutes, she is resting at her lodging when it begins. She wakes, arms and rides
+  new: In the Chronique de la Pucelle and in Ramsay she is asleep at her lodging when it begins; her page Louis de Coutes thought she had gone up to sleep, and her confessor Jean Pasquerel found her calling for her armour. She arms and rides
+  source: |-
+    archive.org-download-jeannedarcmaidof028754mbp-jeannedarcmaidof028754mbp-djvu.txt.txt 14418-14422 (Pasquerel): "After dinner the other Priests went with me to seek Jeanne at her residence. When we arrived, we heard her calling out: 'Where are those who should arm me?'" (he does not have her resting); 13292-13293 (de Coutes): "went up into her chamber: I thought she was going to sleep"; archive.org-download-chroniquedelapuc00cousuoft-chroniquedelapuc00cousuoft-djvu.txt.txt 12101-12104: "s'estoit mise à dormir ... Et soudainement elle s'esveilla"
+  kind: attribution
+  claim: "030.38"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 030-fact-checker-22
+  severity: weak
+  file: content/joan-of-arc/pages/030-orleans/030-storming-saint-loup/text/en.md
+  field: body
+  replaces: clause
+  old: Saint-Loup is the first English fort to fall.
+  new: Saint-Loup is the first English fort to fall that May.
+  source: |-
+    research.md 030.45: "Saint-Loup was the first English fort taken in May ... agreed that it was the first"; the passages are the order of her attacks: sourcebooks.web.fordham.edu-basis-joanofarc-trial.asp.txt 1650-1651 "she went first to Orleans, to the fortress of Saint-Loup, and then to the fortress of the Bridge", and Beaucourt's "successivement de la bastille Saint-Loup". No file says no English fort had fallen before in the siege: a "first" told surer than its sources (overstated)
+  kind: fact
+  claim: "030.45"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 030-fact-checker-23
+  severity: weak
+  file: content/joan-of-arc/.plans/pages030.mjs and content/joan-of-arc/pages/030-orleans/030-storming-saint-loup/markers.yaml
+  field: storming-saint-loup, markers, saint-loup, note
+  replaces: clause
+  old: ': the first English fort to fall'
+  new: ': the first English fort to fall that May'
+  source: the same lines as 030-fact-checker-22
+  kind: map
+  claim: "030.45"
+  introduced: plan
+  owner: cartographer
+  state: fixed
+- id: 030-fact-checker-24
+  severity: weak
+  file: content/joan-of-arc/.plan/030-orleans/pages.yaml and content/joan-of-arc/.plan/030-orleans/map.yaml
+  field: storming-saint-loup.tells; storming-saint-loup.markers.saint-loup.what
+  replaces: clause
+  old: 'Saint-Loup is taken and burned: the first English fort to fall. / burned and pulled down, the first English fort to fall;'
+  new: 'Saint-Loup is taken and burned: the first English fort to fall that May. / burned and pulled down, the first English fort to fall that May;'
+  source: the same lines as 030-fact-checker-22
+  kind: plan
+  claim: "030.45"
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+- id: 030-fact-checker-25
+  severity: weak
+  file: content/joan-of-arc/pages/030-orleans/040-the-augustins/text/en.md
+  field: body
+  replaces: clause
+  old: which Ramsay calls [the Île Saint-Aignan](@ile-saint-aignan); its site is lost.
+  new: which Ramsay calls [the Île Saint-Aignan](@ile-saint-aignan).
+  source: |-
+    unsourced: every file under .references/ and .wikipedia/ searched for the island lost, gone or vanished ("no longer exist", "disappeared", "vanished", "lost" beside island, isle or île) and for Saint-Aignan and Île-aux-Toiles; none says the island's site is lost. research.md 030.51 gives only its names; the map's basis for it is already a reconstruction, which the page's last paragraph says
+  kind: fact
+  claim: "030.51"
+  introduced: plan
+  owner: section-reviewer
+  state: fixed
+- id: 030-fact-checker-26
+  severity: weak
+  file: content/joan-of-arc/.plan/030-orleans/text.yaml and content/joan-of-arc/.plan/030-orleans/map.yaml
+  field: pages.the-augustins.account; the-augustins.routes.french-1429-crossing.why; the-augustins.markers.ile-saint-aignan.why
+  replaces: clause
+  old: the text calls it the Île Saint-Aignan and says once that its site is lost. / The island's site is lost, so it is placed facing / (030.51); its site is lost, and it is placed in the river
+  new: the text calls it the Île Saint-Aignan; no source read places it. / No source read places the island, so it is placed facing / (030.51); no source read places it, and it is placed in the river
+  source: the same search as 030-fact-checker-25
+  kind: plan
+  claim: "030.51"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 030-fact-checker-27
+  severity: weak
+  file: content/joan-of-arc/.plan/names.md
+  field: Places, Orléans and the Loire, the Île Saint-Aignan, Today
+  replaces: clause
+  old: an island of the Loire east of Orléans (site lost)
+  new: an island of the Loire east of Orléans (no source read places it)
+  source: the same search as 030-fact-checker-25
+  kind: plan
+  claim: "030.51"
+  introduced: names
+  owner: names
+  state: fixed
+- id: 030-fact-checker-28
+  severity: weak
+  file: content/joan-of-arc/pages/030-orleans/040-the-augustins/text/en.md
+  field: body
+  replaces: clause
+  old: they cross the narrow southern arm on a bridge of two boats.
+  new: they cross the other arm of the river on a bridge of two boats.
+  source: |-
+    archive.org-download-jeannedarcmaidof028754mbp-jeannedarcmaidof028754mbp-djvu.txt.txt 15679-15681 (d'Aulon): "to cross to the other arm of the river Loire, two boats were brought, of which a bridge was made"; "the narrow southern arm" is Ramsay's (archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt 24844-24845), told as d'Aulon's
+  kind: attribution
+  claim: "030.49"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 030-fact-checker-29
+  severity: weak
+  file: content/joan-of-arc/pages/030-orleans/040-the-augustins/text/en.md
+  field: body
+  replaces: clause
+  old: cross the Loire in boats from near the Tour Neuve,
+  new: cross the Loire in boats from between Saint-Loup and the Tour Neuve,
+  source: |-
+    archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt 6567-6575 (Journal du siège, 6 May): "passa la rivière de Loire, entre Sainct-Loup et la Tour neufve"; "near the Tour Neuve" narrows a stretch of a mile and more (030.5) to one end of it (overstated)
+  kind: fact
+  claim: "030.49"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 030-fact-checker-30
+  severity: weak
+  file: content/joan-of-arc/pages/030-orleans/060-the-english-march-away/text/en.md
+  field: body
+  replaces: clause
+  old: It is decided to go and seek the king, and Joan goes with the Bastard of Orléans (later Count of Dunois) and the captains.
+  new: Joan then sets out to find the king, with the Bastard of Orléans (later Count of Dunois) and the captains, as the Bastard and Pasquerel remembered.
+  source: |-
+    archive.org-download-jeannedarcmaidof028754mbp-jeannedarcmaidof028754mbp-djvu.txt.txt 14592-14593 (Pasquerel, Murray's translation): "It was then decided to go and seek the King ; and Jeanne went thither." The text kept the translator's words outside quotation marks. 12201-12203 (Dunois): "the Maid, with myself and the other captains, went to seek the King at the Castle of Loches"
+  kind: wording
+  claim: "030.75"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 030-fact-checker-31
+  severity: weak
+  file: content/joan-of-arc/.plan/names.md
+  field: People and Places, the column "First named in"
+  replaces: clause
+  old: |-
+    Louis de Coutes ... 020 (020.55); Champion ... 020 (020.7); Anatole France ... 010 (010.56); Olivet ... 020 (020.58); the Beauce ... 020 (020.23); Montargis ... 050 (050.29); and a second row of Château-Renard under Champagne, 050 (a route station, 050.29; the Journal du siège)
+  new: |-
+    Louis de Coutes ... 030 (030.44); Champion ... 030 (030.40); Anatole France ... 030 (030.16); Olivet ... 030 (030.18); the Beauce ... 030 (030.17); Montargis ... 030 (030.33); the second Château-Renard row merged into the first, which takes its September 1429 road and the form Chasteau-Regnart
+  source: |-
+    node scripts/names-check.mjs joan-of-arc 030 and the edit hook: each name is first named on a page of 030 (010-from-blois, 020-the-army-of-blois, 030-storming-saint-loup), and no text of 010 or 020 names it (grep of pages/010*/*/text/en.md and pages/020*/*/text/en.md)
+  kind: plan
+  introduced: names
+  owner: names
+  state: fixed
+- id: 030-fact-checker-32
+  severity: weak
+  file: content/joan-of-arc/pages/030-orleans/010-from-blois/page.yaml
+  field: sources
+  new: 'add after the last line: A. Lang, The Maid of France (1908), ch. 10 and its notes. / Anatole France, The Life of Joan of Arc, tr. W. Stephens (1909), vol. 1 ch. 11 and 12. / E. de Monstrelet, Chronicles, tr. T. Johnes (1849), book 2, ch. 59. / The Trial of Jeanne d''Arc, tr. W. P. Barrett (1932), the public examination of 27 February 1431.'
+  source: 'the text names Lang (28 April; Reuilly; the 3,000 of Windecke and the Chronique de Tournai; the large figures impossible), Anatole France (27 April, with Windecke''s 28th; Reuilly), Monstrelet (7,000) and Joan at her trial (10,000 or 12,000), and the page listed none of these works; each is a file of .references/ that the page reads (passages-030.md, the claims of this page)'
+  kind: sources
+  claim: "030.26"
+  introduced: plan
+  owner: section-reviewer
+  state: fixed
+- id: 030-fact-checker-33
+  severity: weak
+  file: content/joan-of-arc/pages/030-orleans/020-the-army-of-blois/page.yaml
+  field: sources
+  new: 'add after the last line: F. C. Lowell, Joan of Arc (1896), ch. 8. / C. Oman, A History of the Art of War in the Middle Ages, vol. 2 (1924), book 14, ch. 2. / E. de Monstrelet, Chronicles, tr. T. Johnes (1849), book 2, ch. 59.'
+  source: 'the text names Lowell (who follows the Journal; about 5,000 regulars; the English hardly equal to them), Oman (an army of 5,000) and Monstrelet (sixty towers and batteries), and the page listed none of these works; each is a file of .references/ that the page reads (passages-030.md, the claims of this page)'
+  kind: sources
+  claim: "030.37"
+  introduced: plan
+  owner: section-reviewer
+  state: fixed
+- id: 030-fact-checker-34
+  severity: weak
+  file: content/joan-of-arc/pages/030-orleans/030-storming-saint-loup/page.yaml
+  field: sources
+  new: 'add after the last line: F. C. Lowell, Joan of Arc (1896), ch. 8. / A. Lang, The Maid of France (1908), ch. 10. / Anatole France, The Life of Joan of Arc, tr. W. Stephens (1909), vol. 1 ch. 12. / E. de Monstrelet, Chronicles, tr. T. Johnes (1849), book 2, ch. 59. / The Trial of Jeanne d''Arc, tr. W. P. Barrett (1932), the public examination of 27 February 1431, with P. Champion''s sketch of John Talbot.'
+  source: 'the text names Lowell (a mile and a half; the east side cleared), Lang (a league; Talbot''s main force at Saint-Laurent), Anatole France (Talbot sets out from Saint-Laurent), Monstrelet (a garrison of 300 to 400), Joan at her trial (first to Saint-Loup) and Champion (Talbot in Saint-Loup), and the page listed none of these works; each is a file of .references/ that the page reads (passages-030.md, the claims of this page)'
+  kind: sources
+  claim: "030.40"
+  introduced: plan
+  owner: section-reviewer
+  state: fixed
+- id: 030-fact-checker-35
+  severity: weak
+  file: content/joan-of-arc/pages/030-orleans/040-the-augustins/page.yaml
+  field: sources
+  new: 'add after the last line: F. C. Lowell, Joan of Arc (1896), ch. 8.'
+  source: 'the text names Lowell (the accounts do not agree; Talbot sending men to the south bank), and the page listed none of these works; each is a file of .references/ that the page reads (passages-030.md, the claims of this page)'
+  kind: sources
+  claim: "030.57"
+  introduced: plan
+  owner: section-reviewer
+  state: fixed
+- id: 030-fact-checker-36
+  severity: weak
+  file: content/joan-of-arc/pages/030-orleans/050-the-tourelles/page.yaml
+  field: sources
+  new: 'add after the last line: J. H. Ramsay, Lancaster and York, vol. 1 (1892), ch. 27. / A. Lang, The Maid of France (1908), preface.'
+  source: 'the text names Ramsay (the guns on the Île Saint-Antoine; the wound after the boulevard was won; 300 prisoners) and Lang (who differs from Lowell on the captains'' resistance), and the page listed none of these works; each is a file of .references/ that the page reads (passages-030.md, the claims of this page)'
+  kind: sources
+  claim: "030.61"
+  introduced: plan
+  owner: section-reviewer
+  state: fixed
+- id: 030-fact-checker-37
+  severity: weak
+  file: content/joan-of-arc/pages/030-orleans/060-the-english-march-away/page.yaml
+  field: sources
+  new: 'add after the last line: Charles VII to the people of Narbonne, 10 May 1429, in J. Quicherat (ed.), Procès, vol. 5 (1849). / The Trial of Jeanne d''Arc, tr. W. P. Barrett (1932), the public examination of 27 February 1431, with P. Champion''s sketch of John Talbot.'
+  source: 'the text names Charles VII''s letter of 10 May (two French dead at Saint-Loup), Joan at her trial (a hundred wounded or more) and Champion (Talbot to Meung, then Beaugency), and the page listed none of these works; each is a file of .references/ that the page reads (passages-030.md, the claims of this page)'
+  kind: sources
+  claim: "030.68"
+  introduced: plan
+  owner: section-reviewer
+  state: fixed
+- id: 030-fact-checker-38
+  severity: weak
+  file: content/joan-of-arc/shared/images/orleans-relief-miniature-0872de/image.yaml
+  field: caption
+  replaces: clause
+  old: from the Vigiles de Charles VII of Martial d'Auvergne.
+  new: from the Vigiles de Charles VII.
+  source: |-
+    .candidates/orleans/index.yaml, the entry of File:Vigiles du roi Charles VII 18.JPG: "author: AnonymousUnknown author", "date: circa 1484", "description: Les troupes françaises défont les Anglais et lèvent le siège d'Orléans en mai 1429." Martial d'Auvergne stands in neither the entry nor research.md
+  kind: image
+  introduced: images
+  owner: image-finder
+  state: fixed
+- id: 030-fact-checker-39
+  severity: weak
+  file: content/joan-of-arc/shared/images/saint-loup-assault-miniature-d6db07/image.yaml
+  field: caption
+  replaces: clause
+  old: painted by Eugène Lenepveu about 1886–1890 for the Panthéon in Paris.
+  new: painted by Eugène Lenepveu about 1886–1890.
+  source: |-
+    .candidates/orleans-2/index.yaml (and orleans), the entry of File:Lenepveu, Jeanne d'Arc au siège d'Orléans.jpg: "author: Eugène Lenepveu", "date: circa 1886-1890", "description: Jeanne d'Arc at the Siege of Orléans by Jules Eugène Lenepveu, painted 1886–1890 ..."; the Panthéon stands in neither the entry nor research.md
+  kind: image
+  introduced: images
+  owner: image-finder
+  state: fixed
+- id: 030-section-reviewer-1
+  severity: taste
+  file: content/joan-of-arc/pages/030-orleans/010-from-blois/text/en.md
+  field: body
+  replaces: clause
+  old: The marshals Gilles de Rais and de Boussac lead the escort, with the admiral de Culant, La Hire and Ambroise de Loré.
+  new: Gilles de Rais and Boussac, both marshals of France, lead the escort, with the admiral de Culant, the Gascon captain
+    La Hire and Ambroise de Loré.
+  source: 'agents/text.md 3, a person gets a few words on who they are: research.md 030.12 (Rais and Boussac, Marshals of
+    France) and 030.13 (La Hire, a Gascon captain); "the marshals ... de Boussac" read as a bare particle. The edit hook does
+    not take "the Marshal de Boussac", so the title is lower case after the names'
+  kind: wording
+  claim: '030.12'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 030-section-reviewer-2
+  severity: taste
+  file: content/joan-of-arc/pages/030-orleans/010-from-blois/text/en.md
+  field: body
+  replaces: clause
+  old: She wants to go straight through the Beauce, on the north bank, where the English are strongest. So the captains take
+    the south bank through the Sologne, and do not tell her.
+  new: She wants to go straight through the Beauce, on the north bank, but the English are strongest there, so the captains
+    take the south bank through the Sologne without telling her.
+  source: 'agents/text.md 3, the cause: research.md 030.17, the captains went by the Sologne because the English were strongest
+    in the Beauce; "where ... So" hung the cause on her wish'
+  kind: wording
+  claim: '030.17'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 030-section-reviewer-3
+  severity: taste
+  file: content/joan-of-arc/pages/030-orleans/010-from-blois/text/en.md
+  field: body
+  replaces: clause
+  old: the laden boats sail down past the English bastilles while the garrison skirmishes before the English fort of Saint-Loup.
+  new: the laden boats sail down past the bastilles, the English siege forts, while the garrison skirmishes before the one
+    at Saint-Loup.
+  source: 'agents/text.md 3: a reader who opens the story here meets "bastilles" with no word on what they are; names.md,
+    Names of places: the English siege works of Orléans are "bastilles"'
+  kind: wording
+  claim: '030.20'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 030-section-reviewer-4
+  severity: wrong
+  file: content/joan-of-arc/pages/030-orleans/020-the-army-of-blois/text/en.md
+  field: body
+  replaces: clause
+  old: Joan is lodged in [Jacques Boucher's house](@boucher-house), inside a city the English hold with a chain of separate
+    forts, the bastilles, on both banks of the Loire, leaving the north-east open.
+  new: Joan lodges in [Jacques Boucher's house](@boucher-house), the home of the Duke of Orléans's treasurer. The English
+    have ringed the city with separate forts, the bastilles, on both banks of the Loire, but left the north-east open.
+  source: 'research.md 030.1: the English "held Orléans with a chain of detached bastilles", a siege; the city was never taken
+    (names.md, Orléans: "never taken"), and "a city the English hold" tells the reader they held it. 030.15: Boucher, treasurer
+    of the Duke of Orléans'
+  kind: fact
+  claim: '030.1'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 030-section-reviewer-5
+  severity: taste
+  file: content/joan-of-arc/pages/030-orleans/020-the-army-of-blois/text/en.md
+  field: body
+  replaces: clause
+  old: La Hire and Florent d'Illiers drive the English back from their watch at Saint-Pouair, by the bastille of Paris; Joan
+    takes no part. The English, who have kept her herald, send word that they will burn her, and that she should go back to
+    her cows.
+  new: the captains La Hire and Florent d'Illiers drive the English back to the bastille of Paris at Saint-Pouair; Joan takes
+    no part. The English keep the herald who brought her letter and send word that they will burn her, and that she should
+    go back to her cows.
+  source: 'agents/text.md 3: research.md 030.27 (the sortie towards Saint-Pouair, names.md: Florent d''Illiers, captain at
+    Orléans) and 030.28 (the herald who carried her letter); "their watch" stood in no claim, and "her herald" did not say
+    which'
+  kind: wording
+  claim: '030.28'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 030-section-reviewer-6
+  severity: taste
+  file: content/joan-of-arc/pages/030-orleans/020-the-army-of-blois/text/en.md
+  field: body
+  replaces: clause
+  old: Lowell follows the Journal; the Chronique de la Pucelle, and Ramsay after it, put the scene on 5 May.
+  new: Lowell follows the Journal; another chronicle, the Chronique de la Pucelle, puts the scene on 5 May, as Ramsay does.
+  source: 'agents/text.md 3: the Chronique de la Pucelle is named on this page with no word on what it is; research.md 030.30'
+  kind: wording
+  claim: '030.30'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 030-section-reviewer-7
+  severity: taste
+  file: content/joan-of-arc/pages/030-orleans/020-the-army-of-blois/text/en.md
+  field: body
+  replaces: clause
+  old: On 1 May the Bastard of Orléans (later Count of Dunois) rides to Blois
+  new: On 1 May the Bastard of Orléans (later Count of Dunois), who commands in the city, rides to Blois
+  source: 'agents/text.md 3, a person first named on a page: research.md 030.11, the Bastard commanding in the city'
+  kind: wording
+  claim: '030.31'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 030-section-reviewer-8
+  severity: weak
+  file: content/joan-of-arc/pages/030-orleans/030-storming-saint-loup/text/en.md
+  field: body
+  replaces: clause
+  old: the French go out against it after midday,
+  new: the French go out against it at about noon,
+  source: 'text.yaml, storming-saint-loup.account: "the French went out against it at about noon"; research.md 030.38 "from
+    about noon"; the page''s marker saint-loup: "Stormed from about noon". "After midday" was later than the plan and the
+    marker'
+  kind: fact
+  claim: '030.38'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 030-section-reviewer-9
+  severity: taste
+  file: content/joan-of-arc/pages/030-orleans/030-storming-saint-loup/text/en.md
+  field: body
+  replaces: clause
+  old: In the Chronique de la Pucelle and in Ramsay she is asleep
+  new: In another chronicle, the Chronique de la Pucelle, and in Ramsay she is asleep
+  source: 'agents/text.md 3: the Chronique is named on this page with no word on what it is'
+  kind: wording
+  claim: '030.38'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 030-section-reviewer-10
+  severity: weak
+  file: content/joan-of-arc/pages/030-orleans/030-storming-saint-loup/text/en.md
+  field: body
+  replaces: clause
+  old: the French draw up in the fields between, and the English turn back
+  new: the French draw up to face them, and the English turn back
+  source: 'research.md 030.39: the English "went back when the French drew up against them"; text.yaml, storming-saint-loup.account:
+    "the French drew up against them". "In the fields between" is in neither (unsourced)'
+  kind: fact
+  claim: '030.39'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 030-section-reviewer-11
+  severity: taste
+  file: content/joan-of-arc/pages/030-orleans/040-the-augustins/text/en.md
+  field: body
+  replaces: clause
+  old: the figure of the Journal of the Siege, cross
+  new: the figure of the Journal of the Siege, a chronicle of the city, cross
+  source: 'agents/text.md 3; names.md, the Journal du siège: "the Journal of the Siege" in a text, explained once; every other
+    page of 030 explains it'
+  kind: wording
+  claim: '030.50'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 030-section-reviewer-12
+  severity: taste
+  file: content/joan-of-arc/pages/030-orleans/040-the-augustins/text/en.md
+  field: body
+  replaces: clause
+  old: Joan and La Hire turn with lances couched
+  new: Joan and the Gascon captain La Hire turn with lances couched
+  source: agents/text.md 3; research.md 030.13, La Hire a Gascon captain
+  kind: wording
+  claim: '030.53'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 030-section-reviewer-13
+  severity: taste
+  file: content/joan-of-arc/pages/030-orleans/040-the-augustins/text/en.md
+  field: body
+  replaces: clause
+  old: Joan is taken back into the city to sleep, by the Chronique and her page Louis de Coutes.\*\*\*
+  new: The Chronique and her page Louis de Coutes have Joan taken back into the city to sleep.\*\*\*
+  source: read aloud, "taken back ... by the Chronique" makes the chronicle the one who took her; research.md 030.56
+  kind: wording
+  claim: '030.56'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 030-section-reviewer-14
+  severity: weak
+  file: content/joan-of-arc/pages/030-orleans/050-the-tourelles/text/en.md
+  field: body
+  replaces: clause
+  old: 'On the city side three arches of the bridge are broken. William Glasdale holds them.
+
+
+    On Saturday 7 May the French attack the boulevard from the south bank, the townsmen of Orléans backing Joan.\*'
+  new: 'On the city side three arches of the bridge are broken. The English captain William Glasdale holds the fort.
+
+
+    On Saturday 7 May, with the townsmen of Orléans behind Joan, the French attack the boulevard from the south bank.\*'
+  source: '"holds them" read as the broken arches, which the French held from the city side (research.md 030.8); 030.6 and
+    030.9, Glasdale the English captain of the Tourelles. The absolute clause "the townsmen ... backing Joan" left unsaid
+    what they backed; text.yaml the-tourelles.disputes 030.59'
+  kind: wording
+  claim: '030.9'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 030-section-reviewer-15
+  severity: taste
+  file: content/joan-of-arc/pages/030-orleans/050-the-tourelles/text/en.md
+  field: body
+  replaces: clause
+  old: firing from [the Île Saint-Antoine](@ile-saint-antoine).
+  new: firing from [the Île Saint-Antoine](@ile-saint-antoine), an island under the bridge.
+  source: 'agents/text.md 3; names.md, the Île Saint-Antoine: "the island of the bridge" (Ramsay); research.md 030.61'
+  kind: wording
+  claim: '030.61'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 030-section-reviewer-16
+  severity: weak
+  file: content/joan-of-arc/pages/030-orleans/050-the-tourelles/text/en.md
+  field: body
+  replaces: clause
+  old: an arrow goes into her above the shoulder, at the base of the neck.
+  new: an arrow strikes her between the neck and the shoulder.
+  source: 'research.md 030.62: "between the neck and the shoulder" in the Journal, Dunois and the Chronique, "in the neck"
+    in her own account; "above the shoulder" is in none of them, and the page''s marker tourelles-boulevard says "between
+    the neck and the shoulder"'
+  kind: fact
+  claim: '030.62'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 030-section-reviewer-17
+  severity: taste
+  file: content/joan-of-arc/pages/030-orleans/050-the-tourelles/text/en.md
+  field: body
+  replaces: clause
+  old: So she told her judges in 1431, and the Journal, the Chronique de la Pucelle and the Bastard tell it the same way.
+  new: So she told her judges in 1431, and so the Journal, the Chronique de la Pucelle and the Bastard tell it.
+  source: the body runs near the hard limit of 350 (agents/text.md 7); the same claim in fewer words
+  kind: wording
+  claim: '030.62'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 030-section-reviewer-18
+  severity: taste
+  file: content/joan-of-arc/pages/030-orleans/050-the-tourelles/text/en.md
+  field: body
+  replaces: clause
+  old: Towards evening, when the captains mean to draw off, the Bastard remembered, she rode apart into a vineyard and prayed
+    for about half an hour. Then she set her standard at the edge of the ditch, and the French went up the boulevard and took
+    it.
+  new: Towards evening, when the captains mean to draw off, she rides apart into a vineyard and prays for about half an hour,
+    as the Bastard remembered. Then she sets her standard at the edge of the ditch, and the French go up the boulevard and
+    take it.
+  source: 'agents/text.md, Language: the English tells history in the present tense; the past ran on past the Bastard''s memory
+    into Luillier''s standard (research.md 030.64) and the taking of the boulevard'
+  kind: wording
+  claim: '030.64'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 030-section-reviewer-19
+  severity: weak
+  file: content/joan-of-arc/pages/030-orleans/060-the-english-march-away/text/en.md
+  field: body
+  replaces: clause
+  old: The siege has lasted about seven months, from 12 October 1428, the Journal's first day.\*
+  new: The siege is over. It has lasted about seven months, from 12 October 1428, the Journal's first day.\*
+  source: 'pages.yaml the-english-march-away.tells: "The siege is raised"; research.md 030.72 and 030.76. The page told the
+    English march away and never said the siege was at an end'
+  kind: wording
+  claim: '030.76'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 030-section-reviewer-20
+  severity: taste
+  file: content/joan-of-arc/pages/030-orleans/060-the-english-march-away/text/en.md
+  field: body
+  replaces: clause
+  old: Joan then sets out to find the king, with
+  new: Joan then sets out to find Charles VII, with
+  source: 'names.md, Charles VII: "his name in every text after it" [30 October 1422]; Dunois (research.md 030.75''s passage)
+    went with her "to seek the King"'
+  kind: wording
+  claim: '030.75'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 030-section-reviewer-21
+  severity: weak
+  file: content/joan-of-arc/.plans/pages030.mjs and content/joan-of-arc/pages/030-orleans/040-the-augustins/markers.yaml
+  field: the-augustins, markers, ile-saint-aignan, note
+  replaces: value
+  old: The French land on this island facing Saint-Aignan on 6 May and cross the narrow arm on two boats
+  new: The island facing Saint-Aignan where the French gather on 6 May 1429, crossing from it to the south bank on a bridge
+    of two boats (d'Aulon)
+  source: 030-fact-checker-28 made the text d'Aulon's "the other arm of the river", since "the narrow southern arm" is Ramsay's
+    (research.md 030.49); the note still tells Ramsay's words as plain fact, and its "land on this island" first is d'Aulon's
+    and Ramsay's order, which the Journal does not have (030-fact-checker-1). The note should follow the text
+  capture: /tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/maps-030-map-auditor/pack/shots/the-augustins.png
+    (the note under the island)
+  kind: map
+  claim: '030.49'
+  introduced: plan
+  owner: cartographer
+  state: open

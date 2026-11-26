@@ -1,0 +1,21 @@
+- step: facts
+  task: review
+  status: faults
+  changed_files:
+    - content/joan-of-arc/pages/040-the-loire-and-reims/010-jargeau/text/en.md
+    - content/joan-of-arc/pages/040-the-loire-and-reims/020-meung-and-beaugency/text/en.md
+    - content/joan-of-arc/pages/040-the-loire-and-reims/030-patay/text/en.md
+    - content/joan-of-arc/pages/040-the-loire-and-reims/040-auxerre-and-troyes/text/en.md
+    - content/joan-of-arc/pages/040-the-loire-and-reims/050-reims/text/en.md
+    - content/joan-of-arc/.plan/faults/040.yaml
+    - content/joan-of-arc/.plan/fixes/040.yaml
+  faults: [040-section-reviewer-1, 040-section-reviewer-2, 040-section-reviewer-3, 040-section-reviewer-4, 040-section-reviewer-5, 040-section-reviewer-6, 040-section-reviewer-7, 040-section-reviewer-8, 040-section-reviewer-9, 040-section-reviewer-10, 040-section-reviewer-11, 040-section-reviewer-12, 040-section-reviewer-13, 040-section-reviewer-14]
+  unresolved: []
+  stale: []
+  notes:
+    - "Pages changed: jargeau, meung-and-beaugency, patay, auxerre-and-troyes, reims. the-towns-come-over unchanged."
+    - "No open fault of the list was mine: the fact checker had fixed 040-fact-checker-20 to -25, -32 and -34 itself. None declined."
+    - "Open for the cartographer: 040-section-reviewer-10 to -14, places the texts name that the maps lack, and 040-map-auditor-3 (route by Montmirail)."
+    - "Check left: names-check flags 'Marshal' in patay's note *** ('the Marshal de Boussac', the form names.md asks for; the script misreads it) and the four 'First named in' rows (Richemont, La Trémoille, Wavrin, Suffolk), owner names. harita check, --places and rules-lint pass."
+    - "Bodies run 317-346 words, over the soft 300: each page carries 15-23 claims, many with their authors; patay is at 346, under the hard 350."
+    - "Plan: jargeau's account has Alexander de la Pole killed with no place; the text no longer sets it at the bridge. No other plan change."

@@ -94,3 +94,26 @@
   stale: []
   fixed: [020-map-auditor-3]
   totals: {zones: 20, sourced_lines: 15, sourced_km: 7949, estimated_lines: 82, estimated_km: 11662}
+- step: maps
+  task: fix
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plans/zones.mjs
+    - content/joan-of-arc/shared/zones/english-may-1429.geojson
+    - content/joan-of-arc/shared/zones/english-june-1429.geojson
+    - content/joan-of-arc/shared/zones.yaml
+    - content/joan-of-arc/.plan/ground.yaml
+    - content/joan-of-arc/.plans/pages040.mjs
+    - content/joan-of-arc/pages/040-the-loire-and-reims/010-jargeau/page.yaml
+    - content/joan-of-arc/pages/040-the-loire-and-reims/020-meung-and-beaugency/page.yaml
+    - content/joan-of-arc/.plan/040-the-loire-and-reims/map.yaml
+    - content/joan-of-arc/.plan/brief.md
+    - content/joan-of-arc/.plan/faults/040.yaml
+    - content/joan-of-arc/.plan/fixes/040.yaml
+    - content/joan-of-arc/.plan/handoff/map-keeper.md
+  faults: []
+  unresolved: []
+  stale:
+    - content/joan-of-arc/.plan/brief-0*.md   # the slices of brief.md, remade by scripts/slice.mjs in this run
+  fixed: [040-map-auditor-1, 040-map-auditor-2]
+  totals: {zones: 22, sourced_lines: 16, sourced_km: 7969, estimated_lines: 84, estimated_km: 11686}

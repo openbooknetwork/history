@@ -285,3 +285,185 @@
   old: "[france-siege-1428, english-siege-1428, burgundy-1420, brittany-1407]"
   new: "[france-may-1429, english-may-1429, burgundy-1420, brittany-1407]"
   commit: 20c72b92
+- fault: 040-fact-checker-20
+  by: fact-checker
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/020-meung-and-beaugency/text/en.md
+  field: body, note ***
+  old: "Lang, reading Gruel, puts the surrender a night earlier, at midnight on 16 to 17 June."
+  new: "Lang, reading Gruel, puts the surrender apparently a night earlier, at midnight on 16 to 17 June, if not on 17 to 18 June."
+  commit: 7854a89c
+- fault: 040-fact-checker-21
+  by: fact-checker
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/030-patay/text/en.md
+  field: body
+  old: "Monstrelet says the regent, Bedford, took the Garter from him."
+  new: "Monstrelet says the regent, Bedford, rebuked him and he lost the Garter."
+  commit: 7854a89c
+- fault: 040-fact-checker-22
+  by: fact-checker
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/040-auxerre-and-troyes/text/en.md
+  field: body
+  old: "The road runs through towns held for the English and the Burgundians since about the Treaty of Troyes."
+  new: "The road runs through towns most of which had held for the English and the Burgundians since about the Treaty of Troyes."
+  commit: 7854a89c
+- fault: 040-fact-checker-23
+  by: fact-checker
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/040-auxerre-and-troyes/text/en.md
+  field: body, note **
+  old: "Oman writes that Bedford left them to look after themselves"
+  new: "Oman writes that Bedford had mainly left them to look after themselves"
+  commit: 7854a89c
+- fault: 040-fact-checker-24
+  by: fact-checker
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/060-the-towns-come-over/text/en.md
+  field: body
+  old: "gives itself up because its townsmen lean to the king."
+  new: "gives itself up: its townsmen lean to the king, Monstrelet says, and its lords expect no help soon."
+  commit: 7854a89c
+- fault: 040-fact-checker-25
+  by: fact-checker
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/060-the-towns-come-over/text/en.md
+  field: body
+  old: "the wish to spare the Duke of Burgundy while the two sides were talking."
+  new: "the wish to spare the Duke of Burgundy, who seemed well disposed."
+  commit: 7854a89c
+- fault: 040-fact-checker-26
+  by: fact-checker
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/text.yaml
+  field: pages.the-towns-come-over.account
+  old: "spare the Duke of Burgundy while the two treated."
+  new: "spare the Duke of Burgundy, who seemed well disposed."
+  commit: 7854a89c
+- fault: 040-fact-checker-27
+  by: fact-checker
+  file: content/joan-of-arc/.plan/research.md
+  field: "040.82"
+  old: "Beaucourt to the wish to spare the Duke of Burgundy while the two treated."
+  new: "Beaucourt to the wish to spare the Duke of Burgundy, who seemed well disposed."
+  commit: 7854a89c
+- fault: 040-fact-checker-28
+  by: fact-checker
+  file: content/joan-of-arc/.plan/research/040.md
+  field: "040.82"
+  old: "Beaucourt to the wish to spare the Duke of Burgundy while the two treated."
+  new: "Beaucourt to the wish to spare the Duke of Burgundy, who seemed well disposed."
+  commit: 7854a89c
+- fault: 040-fact-checker-29
+  by: fact-checker
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/050-reims/markers.yaml
+  field: sept-saulx-1429.note
+  old: "burgesses of Reims bring him its keys, 15 July 1429"
+  new: "burgesses of Reims bring him its keys, 16 July 1429"
+  commit: 7854a89c
+- fault: 040-fact-checker-30
+  by: fact-checker
+  file: content/joan-of-arc/.plans/pages040.mjs
+  field: "reims, markers, sept-saulx-1429 note"
+  old: "burgesses of Reims bring him its keys, 15 July 1429"
+  new: "burgesses of Reims bring him its keys, 16 July 1429"
+  commit: 7854a89c
+- fault: 040-fact-checker-31
+  by: fact-checker
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/map.yaml
+  field: reims.markers.sept-saulx-1429.what
+  old: "the burgesses of Reims bring him the keys, 15 July 1429;"
+  new: "the burgesses of Reims bring him the keys, 16 July 1429;"
+  commit: 7854a89c
+- fault: 040-fact-checker-32
+  by: fact-checker
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/030-patay/page.yaml
+  field: sources
+  old: "  - \"F. C. Lowell, Joan of Arc (1896), ch. 10.\""
+  new: "  - \"F. C. Lowell, Joan of Arc (1896), ch. 10.\"\n  - \"A. Lang, The Maid of France (1908), ch. 14.\""
+  commit: 7854a89c
+- fault: 040-fact-checker-33
+  by: fact-checker
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/text.yaml
+  field: pages.patay.sources
+  old: "      - \"F. C. Lowell, Joan of Arc (1896), ch. 10.\""
+  new: "      - \"F. C. Lowell, Joan of Arc (1896), ch. 10.\"\n      - \"A. Lang, The Maid of France (1908), ch. 14.\""
+  commit: 7854a89c
+- fault: 040-fact-checker-34
+  by: fact-checker
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/060-the-towns-come-over/page.yaml
+  field: sources
+  old: "F. C. Lowell, Joan of Arc (1896), ch. 12."
+  new: "F. C. Lowell, Joan of Arc (1896), ch. 11 and 12."
+  commit: 7854a89c
+- fault: 040-fact-checker-35
+  by: fact-checker
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/text.yaml
+  field: pages.the-towns-come-over.sources
+  old: "F. C. Lowell, Joan of Arc (1896), ch. 12."
+  new: "F. C. Lowell, Joan of Arc (1896), ch. 11 and 12."
+  commit: 7854a89c
+- fault: 040-fact-checker-36
+  by: fact-checker
+  file: content/joan-of-arc/.plan/names.md
+  field: Rules, Transliteration and spelling, Terms
+  old: "the church of Saint-Remy at Domrémy."
+  new: "the church of Saint-Remy at Domrémy; the Garter, the English order of knighthood (Monstrelet's \"order of the Garter\"); Franciscan and Augustinian, the orders of friars (Lowell's and Monstrelet's words for Friar Richard); the King's Evil, which kings touched for after their anointing (Lowell's \"touched for the King's Evil\")."
+  commit: 7854a89c
+- fault: 040-section-reviewer-1
+  by: section-reviewer
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/010-jargeau/text/en.md
+  field: body
+  old: "he saw Joan ride out on the Monday evening,"
+  new: "he saw Joan ride out on the evening of Monday 6 June,"
+  commit: 7854a89c
+- fault: 040-section-reviewer-2
+  by: section-reviewer
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/010-jargeau/text/en.md
+  field: body
+  old: "Of his brothers, Alexander de la Pole falls as the English draw back to the bridge, and another is captured."
+  new: "Of his brothers, one is captured and another, Alexander de la Pole, is killed."
+  commit: 7854a89c
+- fault: 040-section-reviewer-3
+  by: section-reviewer
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/020-meung-and-beaugency/text/en.md
+  field: body
+  old: "The king, urged by his favourite"
+  new: "Charles VII, urged by his favourite"
+  commit: 7854a89c
+- fault: 040-section-reviewer-4
+  by: section-reviewer
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/020-meung-and-beaugency/text/en.md
+  field: body
+  old: "and Talbot rides in to join it."
+  new: "and Talbot rides in from Beaugency to join it."
+  commit: 7854a89c
+- fault: 040-section-reviewer-5
+  by: section-reviewer
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/020-meung-and-beaugency/text/en.md
+  field: notes, note ***
+  old: "Lang, reading Gruel, puts the surrender apparently a night earlier, at midnight on 16 to 17 June, if not on 17 to 18 June."
+  new: "Lang, reading Gruel, thinks the surrender came a night earlier, at midnight on 16 to 17 June, though he allows that it may have been 17 to 18 June."
+  commit: 7854a89c
+- fault: 040-section-reviewer-6
+  by: section-reviewer
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/030-patay/text/en.md
+  field: body
+  old: "march for Janville, the English main body under Sir John Fastolf and Lord Talbot."
+  new: "march for Janville, with the English main body under Sir John Fastolf and Lord Talbot."
+  commit: 7854a89c
+- fault: 040-section-reviewer-7
+  by: section-reviewer
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/040-auxerre-and-troyes/text/en.md
+  field: body
+  old: "join Charles VII on 24 June,"
+  new: "join Charles VII from Orléans on 24 June,"
+  commit: 7854a89c
+- fault: 040-section-reviewer-8
+  by: section-reviewer
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/040-auxerre-and-troyes/text/en.md
+  field: body
+  old: "since about the Treaty of Troyes."
+  new: "since about the Treaty of Troyes in 1420."
+  commit: 7854a89c
+- fault: 040-section-reviewer-9
+  by: section-reviewer
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/050-reims/text/en.md
+  field: body
+  old: "Bedford himself later counted"
+  new: "Bedford, the English regent, later counted"
+  commit: 7854a89c

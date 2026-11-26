@@ -18,3 +18,59 @@
   notes:
     - "All 13 routes checked against their passages; the 6 pages' zones all stand in the brief's Map table with their 040 pages; when and date agree with the claims; every card figure stands in a file with its author."
     - "Cagny also gives Montmirail on 1 August between Château-Thierry and Provins (lines 1240-1241); france-1429-provins leaves it out, which the rule allows."
+- step: facts
+  task: check
+  status: pass
+  changed_files:
+    - content/joan-of-arc/pages/040-the-loire-and-reims/020-meung-and-beaugency/text/en.md
+    - content/joan-of-arc/pages/040-the-loire-and-reims/030-patay/text/en.md
+    - content/joan-of-arc/pages/040-the-loire-and-reims/030-patay/page.yaml
+    - content/joan-of-arc/pages/040-the-loire-and-reims/040-auxerre-and-troyes/text/en.md
+    - content/joan-of-arc/pages/040-the-loire-and-reims/050-reims/markers.yaml
+    - content/joan-of-arc/pages/040-the-loire-and-reims/060-the-towns-come-over/text/en.md
+    - content/joan-of-arc/pages/040-the-loire-and-reims/060-the-towns-come-over/page.yaml
+    - content/joan-of-arc/.plans/pages040.mjs
+    - content/joan-of-arc/.plan/040-the-loire-and-reims/map.yaml
+    - content/joan-of-arc/.plan/040-the-loire-and-reims/text.yaml
+    - content/joan-of-arc/.plan/research.md
+    - content/joan-of-arc/.plan/research/040.md
+    - content/joan-of-arc/.plan/names.md
+    - content/joan-of-arc/.plan/faults/040.yaml
+    - content/joan-of-arc/.plan/fixes/040.yaml
+  faults: [040-fact-checker-20, 040-fact-checker-21, 040-fact-checker-22, 040-fact-checker-23, 040-fact-checker-24, 040-fact-checker-25, 040-fact-checker-26, 040-fact-checker-27, 040-fact-checker-28, 040-fact-checker-29, 040-fact-checker-30, 040-fact-checker-31, 040-fact-checker-32, 040-fact-checker-33, 040-fact-checker-34, 040-fact-checker-35, 040-fact-checker-36]
+  unresolved:
+    - "040.3, 040.6, 040.7 (disputed): Jargeau's armies and losses by author, in the notes and on the card; the body names no total"
+    - "040.10 (by author for how many): prisoners killed on the road, most in Chartier, some in Lowell and Lang"
+    - "040.15, 040.16 (disputed): Richemont on Friday 17 June with Cagny's 500 or 600 in the body; Lang's 16 June and Laval's 600 and 400 in a note"
+    - "040.17 (disputed): both accounts of the meeting in a note, Gruel's and the Chronique de la Pucelle's, with Lowell's 'fantastical'"
+    - "040.19 (disputed): the night of 17 to 18 June in the body with the chronicles; Lang's hedged night earlier in a note (040-fact-checker-20)"
+    - "040.22, 040.35, 040.36 (disputed): Patay's strengths and losses by author on the card; the body says the French lost few"
+    - "040.32 (disputed): Talbot's captors as Gruel's, the archers of Poton"
+    - "040.38, 040.39 (disputed): 18 June in the body, Oman's 17 June and the five sites, each with its author, in a note"
+    - "040.54, 040.56 (disputed): Cagny's 8 and 10 July in the body; Lowell's 5 July, Ramsay's 6 and 9 July, the Journal's five days and Monstrelet's three in notes"
+    - "040.61 (by author): where Friar Richard joined, Monstrelet's Gien and Lowell's Troyes, in a note"
+    - "040.69 (open): the Journal's scene told as the Journal's, with Lowell's 'cannot be known'"
+    - "040.71 (disputed): the envoys at Reims in the body, Ramsay's 16 July and Lowell's end of the consecration in a note"
+    - "040.76 (disputed): 21 July in the body, France's and the Journal's 20 July in a note"
+    - "040.84, 040.85 (disputed): Beaufort's reinforcement and the Champagne garrisons each with its author"
+  stale:
+    - "content/joan-of-arc/.plan/research-040.md, passages-040.md and names-040.md: slices made by script, which still read 'while the two treated' for 040.82 and lack the new terms; run the slice and passages scripts again"
+  turns_on:
+    - "040.4 Jargeau stormed on 12 June: Cagny, the Journal, Chartier (Quicherat 4)"
+    - "040.5 Suffolk taken, Alexander killed: Chartier and the Journal (Quicherat 4), Ramsay ch. 27"
+    - "040.18, 040.19 Beaugency yields on terms on the morning of 18 June: Cagny, the Journal, Wavrin (Quicherat 4), Ramsay"
+    - "040.29 Patay won by the French vanguard before the English formed: Wavrin, Gruel, Cagny, the Journal (Quicherat 4)"
+    - "040.31 Talbot taken: Wavrin, the Journal (Quicherat 4), Alençon's deposition (Murray), Ramsay"
+    - "040.42 the English lose the Loire about Orléans and the Beauce: Cagny and the Journal (Quicherat 4), Lowell ch. 10"
+    - "040.47 the council turns from Normandy to Reims: Dunois's deposition (Murray), Cagny (Quicherat 4)"
+    - "040.57-040.59 Troyes yields, entered 10 July: the Journal and Cagny (Quicherat 4), Dunois (Murray), Lowell"
+    - "040.64 anointed and crowned 17 July: Cagny (Quicherat 4), the Angevin letter (Quicherat 5), Ramsay"
+    - "040.65 Joan beside the king with her standard: the Angevin letter (Quicherat 5)"
+    - "040.81 the towns that came over: Ramsay ch. 27, Beaucourt 2 p. 235"
+    - "040.82 the turn away from Paris: Ramsay (La Trémoille) and Beaucourt (to spare Burgundy), each named"
+  claims_checked: { jargeau: 24, meung-and-beaugency: 21, patay: 29, auxerre-and-troyes: 25, reims: 22, the-towns-come-over: 21 }
+  notes:
+    - "close-wording.mjs found no sentence; a five-word scan against every source file found only names and set phrases, and the one quotation (Barrett, 17 March 1431) matches the file word for word."
+    - "The edit hook still flags, from before this run: 'Marshal' alone in patay's note *** ('the Marshal de Boussac', which names.md's Boussac row asks for), and names.md rows for Richemont, La Trémoille and Wavrin say 010 or 020 as 'First named in' while 040 is the first text to name them. Both are for the names agent."
+    - "The images of 040 were not checked: they are not placed in any text yet (the image-finder's work, untracked in shared/images), so no caption stands on a page."
+    - "patay's body is now 345 words, under the hard limit of 350."

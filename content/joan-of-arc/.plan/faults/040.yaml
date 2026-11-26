@@ -461,3 +461,390 @@
   introduced: plan
   owner: cartographer
   state: open
+- id: 040-fact-checker-20
+  severity: weak
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/020-meung-and-beaugency/text/en.md
+  field: body, note ***
+  replaces: clause
+  old: "Lang, reading Gruel, puts the surrender a night earlier, at midnight on 16 to 17 June."
+  new: "Lang, reading Gruel, puts the surrender apparently a night earlier, at midnight on 16 to 17 June, if not on 17 to 18 June."
+  source: "Lang ch. 14 (archive.org-download-maidoffrancebein00languoft-maidoffrancebein00languoft-djvu.txt.txt), lines 7237-7242: \"the place in the midnight of June 16-17 apparently (if not, in the midnight of June 17-18)\"; the note dropped his 'apparently' and his second date"
+  kind: attribution
+  claim: "040.19"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 040-fact-checker-21
+  severity: weak
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/030-patay/text/en.md
+  field: body
+  replaces: clause
+  old: "Monstrelet says the regent, Bedford, took the Garter from him."
+  new: "Monstrelet says the regent, Bedford, rebuked him and he lost the Garter."
+  source: "Monstrelet, tr. Johnes, book 2 ch. 61 (archive.org-download-chroniclesengue06johngoog-chroniclesengue06johngoog-djvu.txt.txt), lines 39247-39248: \"Sir John Fastolfe was bitterly reproached by the duke of Bedford for having thus fled from the battle, — and he was deprived of the order of the Garter\"; Monstrelet does not say who took it"
+  kind: fact
+  claim: "040.34"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 040-fact-checker-22
+  severity: weak
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/040-auxerre-and-troyes/text/en.md
+  field: body
+  replaces: clause
+  old: "The road runs through towns held for the English and the Burgundians since about the Treaty of Troyes."
+  new: "The road runs through towns most of which had held for the English and the Burgundians since about the Treaty of Troyes."
+  source: "Lowell ch. 11 (archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt), passages-040.md 040.85: \"the condition of these cities was peculiar. Most of them had fallen to the Anglo-Burgundians about the time of the treaty of Troyes (1420)\""
+  kind: fact
+  claim: "040.85"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 040-fact-checker-23
+  severity: weak
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/040-auxerre-and-troyes/text/en.md
+  field: body, note **
+  replaces: clause
+  old: "Oman writes that Bedford left them to look after themselves"
+  new: "Oman writes that Bedford had mainly left them to look after themselves"
+  source: "Oman book 14 ch. 2 (archive.org-download-historyofartofwa0002char-historyofartofwa0002char-djvu.txt.txt), passages-040.md 040.85: \"The towns in this region being of the Burgundian faction, had been mainly trusted to themselves by the regent Bedford, and were without English garrisons\""
+  kind: attribution
+  claim: "040.85"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 040-fact-checker-24
+  severity: weak
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/060-the-towns-come-over/text/en.md
+  field: body
+  replaces: clause
+  old: "gives itself up because its townsmen lean to the king."
+  new: "gives itself up: its townsmen lean to the king, Monstrelet says, and its lords expect no help soon."
+  source: "Monstrelet, tr. Johnes, book 2 ch. 64 (archive.org-download-chroniclesengue06johngoog-chroniclesengue06johngoog-djvu.txt.txt), lines 39407-39409: \"These gentlemen, perceiving the townsmen inclined to submit to the king, and not expecting any speedy succour, and being withal poorly provided for defence, yielded up the town\"; the text gave one of his causes as the whole, and him unnamed"
+  kind: attribution
+  claim: "040.79"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 040-fact-checker-25
+  severity: weak
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/060-the-towns-come-over/text/en.md
+  field: body
+  replaces: clause
+  old: "the wish to spare the Duke of Burgundy while the two sides were talking."
+  new: "the wish to spare the Duke of Burgundy, who seemed well disposed."
+  source: "Beaucourt 2, book 2 ch. 5, p. 235 (archive.org-rt-histoire-de-charles-vii-v-2-Beaucourt-20Histoire-20de-20Charles-20VII-20v-202-djvu.txt.txt): \"C'est qu'on veut ménager le duc de Bourgogne, dont les dispositions se montrent favorables\"; Beaucourt says nothing there of talks"
+  kind: attribution
+  claim: "040.82"
+  introduced: research
+  owner: section-reviewer
+  state: fixed
+- id: 040-fact-checker-26
+  severity: weak
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/text.yaml
+  field: pages.the-towns-come-over.account
+  replaces: clause
+  old: "spare the Duke of Burgundy while the two treated."
+  new: "spare the Duke of Burgundy, who seemed well disposed."
+  source: "Beaucourt 2, p. 235: \"C'est qu'on veut ménager le duc de Bourgogne, dont les dispositions se montrent favorables\""
+  kind: attribution
+  claim: "040.82"
+  introduced: research
+  owner: section-coordinator
+  state: fixed
+- id: 040-fact-checker-27
+  severity: weak
+  file: content/joan-of-arc/.plan/research.md
+  field: "040.82"
+  replaces: clause
+  old: "Beaucourt to the wish to spare the Duke of Burgundy while the two treated."
+  new: "Beaucourt to the wish to spare the Duke of Burgundy, who seemed well disposed."
+  source: "Beaucourt 2, p. 235: \"C'est qu'on veut ménager le duc de Bourgogne, dont les dispositions se montrent favorables\""
+  kind: attribution
+  claim: "040.82"
+  introduced: research
+  owner: research-coordinator
+  state: fixed
+- id: 040-fact-checker-28
+  severity: weak
+  file: content/joan-of-arc/.plan/research/040.md
+  field: "040.82"
+  replaces: clause
+  old: "Beaucourt to the wish to spare the Duke of Burgundy while the two treated."
+  new: "Beaucourt to the wish to spare the Duke of Burgundy, who seemed well disposed."
+  source: "Beaucourt 2, p. 235: \"C'est qu'on veut ménager le duc de Bourgogne, dont les dispositions se montrent favorables\""
+  kind: attribution
+  claim: "040.82"
+  introduced: research
+  owner: researcher
+  state: fixed
+- id: 040-fact-checker-29
+  severity: wrong
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/050-reims/markers.yaml
+  field: sept-saulx-1429.note
+  replaces: clause
+  old: "burgesses of Reims bring him its keys, 15 July 1429"
+  new: "burgesses of Reims bring him its keys, 16 July 1429"
+  source: "Quicherat 4 (archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt), Rogier, p. 299, lines 11893-11904: the burgesses sent \"jusques à Sept-Saulx\" ... \"par les lettres patentes données le susdit jour seiziesme du mois de juillet ... audit lieu de Sept-Saulx\"; Lang ch. 17, line 7978: \"On July 16 the Dauphin halted at Sept-Saulx and received a deputation from Reims\"; Quicherat 5, itinerary, line 17634: \"Juillet. 16. Septsaulx (IV, 184)\". No file gives 15 July."
+  kind: map
+  claim: "040.63"
+  introduced: plan
+  owner: cartographer
+  state: fixed
+- id: 040-fact-checker-30
+  severity: wrong
+  file: content/joan-of-arc/.plans/pages040.mjs
+  field: "reims, markers, sept-saulx-1429 note"
+  replaces: clause
+  old: "burgesses of Reims bring him its keys, 15 July 1429"
+  new: "burgesses of Reims bring him its keys, 16 July 1429"
+  source: "as 040-fact-checker-29: Rogier, Quicherat 4 p. 299; Lang ch. 17 \"On July 16 the Dauphin halted at Sept-Saulx\"; the generator writes the note of 040-fact-checker-29"
+  kind: map
+  claim: "040.63"
+  introduced: plan
+  owner: cartographer
+  state: fixed
+- id: 040-fact-checker-31
+  severity: wrong
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/map.yaml
+  field: reims.markers.sept-saulx-1429.what
+  replaces: clause
+  old: "the burgesses of Reims bring him the keys, 15 July 1429;"
+  new: "the burgesses of Reims bring him the keys, 16 July 1429;"
+  source: "as 040-fact-checker-29: Rogier, Quicherat 4 p. 299; Lang ch. 17 \"On July 16 the Dauphin halted at Sept-Saulx\"; Quicherat 5 itinerary \"Juillet. 16. Septsaulx\""
+  kind: map
+  claim: "040.63"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 040-fact-checker-32
+  severity: weak
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/030-patay/page.yaml
+  field: sources
+  replaces: clause
+  old: "  - \"F. C. Lowell, Joan of Arc (1896), ch. 10.\""
+  new: "  - \"F. C. Lowell, Joan of Arc (1896), ch. 10.\"\n  - \"A. Lang, The Maid of France (1908), ch. 14.\""
+  source: "The page's note ** cites Lang for the 17th: Lang ch. 14, passages-040.md 040.26: \"Though the most learned of the historians of the Maid places this dialogue on the morning of June 18, from the context of the evidence it rather appears to be a saying of June 17\"; the sources left Lang out"
+  kind: sources
+  claim: "040.26"
+  introduced: plan
+  owner: section-reviewer
+  state: fixed
+- id: 040-fact-checker-33
+  severity: weak
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/text.yaml
+  field: pages.patay.sources
+  replaces: clause
+  old: "      - \"F. C. Lowell, Joan of Arc (1896), ch. 10.\""
+  new: "      - \"F. C. Lowell, Joan of Arc (1896), ch. 10.\"\n      - \"A. Lang, The Maid of France (1908), ch. 14.\""
+  source: "as 040-fact-checker-32; the plan's account and its dispute line for 040.26 cite Lang's 17th"
+  kind: sources
+  claim: "040.26"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 040-fact-checker-34
+  severity: weak
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/060-the-towns-come-over/page.yaml
+  field: sources
+  replaces: clause
+  old: "F. C. Lowell, Joan of Arc (1896), ch. 12."
+  new: "F. C. Lowell, Joan of Arc (1896), ch. 11 and 12."
+  source: "The text cites Lowell for the exemption of Domrémy and Greux, which stands in his ch. 11 (archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, line 6893, ch. 11 running from line 6130 to 6925): \"Charles forever exempted the people of Domremy and Greux from all taxes\""
+  kind: sources
+  claim: "040.83"
+  introduced: plan
+  owner: section-reviewer
+  state: fixed
+- id: 040-fact-checker-35
+  severity: weak
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/text.yaml
+  field: pages.the-towns-come-over.sources
+  replaces: clause
+  old: "F. C. Lowell, Joan of Arc (1896), ch. 12."
+  new: "F. C. Lowell, Joan of Arc (1896), ch. 11 and 12."
+  source: "as 040-fact-checker-34: Lowell line 6893, ch. 11"
+  kind: sources
+  claim: "040.83"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 040-fact-checker-36
+  severity: weak
+  file: content/joan-of-arc/.plan/names.md
+  field: Rules, Transliteration and spelling, Terms
+  replaces: clause
+  old: "the church of Saint-Remy at Domrémy."
+  new: "the church of Saint-Remy at Domrémy; the Garter, the English order of knighthood (Monstrelet's \"order of the Garter\"); Franciscan and Augustinian, the orders of friars (Lowell's and Monstrelet's words for Friar Richard); the King's Evil, which kings touched for after their anointing (Lowell's \"touched for the King's Evil\")."
+  source: "hooks/edit.mjs: \"Garter\", \"Franciscan\" and \"Evil\" had no row in names.md; Monstrelet book 2 ch. 61 line 39248 \"the order of the Garter\"; Lowell ch. 11 \"Friar Richard, a Franciscan\"; Lowell ch. 12 \"he touched for the King's Evil\""
+  kind: fact
+  introduced: names
+  owner: names
+  state: fixed
+- id: 040-section-reviewer-1
+  severity: taste
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/010-jargeau/text/en.md
+  field: body
+  replaces: clause
+  old: "he saw Joan ride out on the Monday evening,"
+  new: "he saw Joan ride out on the evening of Monday 6 June,"
+  source: "040.2, Guy de Laval, 8 June 1429 (Quicherat 5): \"s'est partie ce luudy aux vespres de Selles\"; a reader who opens the page here has no date for 'the Monday'"
+  kind: wording
+  claim: "040.2"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 040-section-reviewer-2
+  severity: weak
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/010-jargeau/text/en.md
+  field: body
+  replaces: clause
+  old: "Of his brothers, Alexander de la Pole falls as the English draw back to the bridge, and another is captured."
+  new: "Of his brothers, one is captured and another, Alexander de la Pole, is killed."
+  source: "040.5 (Chartier p. 65, \"y fut occis messire Alexandre de La Poulie, son aultre frère\"; Ramsay ch. 27) and the plan's account (\"his brother John was taken and his brother Alexander de la Pole killed\"): no claim and no line of the plan sets his death in the English retreat to the bridge, which is Alençon's word for the whole garrison (Coverage of 040)"
+  kind: fact
+  claim: "040.5"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 040-section-reviewer-3
+  severity: taste
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/020-meung-and-beaugency/text/en.md
+  field: body
+  replaces: clause
+  old: "The king, urged by his favourite"
+  new: "Charles VII, urged by his favourite"
+  source: "040.14; the page names the king nowhere else, and a reader may open it here"
+  kind: wording
+  claim: "040.14"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 040-section-reviewer-4
+  severity: taste
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/020-meung-and-beaugency/text/en.md
+  field: body
+  replaces: clause
+  old: "and Talbot rides in to join it."
+  new: "and Talbot rides in from Beaugency to join it."
+  source: "040.20 and the plan's account (\"Lord Talbot rode in from Beaugency to join it\"); the map draws talbot-1429-janville from Beaugency, which the text did not say"
+  kind: wording
+  claim: "040.20"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 040-section-reviewer-5
+  severity: taste
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/020-meung-and-beaugency/text/en.md
+  field: notes, note ***
+  replaces: clause
+  old: "Lang, reading Gruel, puts the surrender apparently a night earlier, at midnight on 16 to 17 June, if not on 17 to 18 June."
+  new: "Lang, reading Gruel, thinks the surrender came a night earlier, at midnight on 16 to 17 June, though he allows that it may have been 17 to 18 June."
+  source: "040.19, Lang ch. 14: \"the midnight of June 16-17 apparently (if not, in the midnight of June 17-18)\"; the sentence of 040-fact-checker-20 read as squeezed, and keeps Lang's doubt in other words"
+  kind: wording
+  claim: "040.19"
+  introduced: fix
+  owner: section-reviewer
+  state: fixed
+- id: 040-section-reviewer-6
+  severity: taste
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/030-patay/text/en.md
+  field: body
+  replaces: clause
+  old: "march for Janville, the English main body under Sir John Fastolf and Lord Talbot."
+  new: "march for Janville, with the English main body under Sir John Fastolf and Lord Talbot."
+  source: "040.25; the apposition hung loose from the sentence"
+  kind: wording
+  claim: "040.25"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 040-section-reviewer-7
+  severity: taste
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/040-auxerre-and-troyes/text/en.md
+  field: body
+  replaces: clause
+  old: "join Charles VII on 24 June,"
+  new: "join Charles VII from Orléans on 24 June,"
+  source: "040.48, Cagny, Quicherat 4, p. 17 (040-fact-checker-1): they ride from Orléans and lodge with the king at Gien on 24 June; the map draws france-1429-gien from Orléans, and the text said 'both roads, to Gien and on to Troyes' without where the first began"
+  kind: wording
+  claim: "040.48"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 040-section-reviewer-8
+  severity: taste
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/040-auxerre-and-troyes/text/en.md
+  field: body
+  replaces: clause
+  old: "since about the Treaty of Troyes."
+  new: "since about the Treaty of Troyes in 1420."
+  source: "040.85, Lowell ch. 11 (as 040-fact-checker-22 quotes it): \"about the time of the treaty of Troyes (1420)\""
+  kind: wording
+  claim: "040.85"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 040-section-reviewer-9
+  severity: taste
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/050-reims/text/en.md
+  field: body
+  replaces: clause
+  old: "Bedford himself later counted"
+  new: "Bedford, the English regent, later counted"
+  source: "040.86; names.md, John, Duke of Bedford, Regent of France for Henry VI; the page named him with no word of who he was"
+  kind: wording
+  claim: "040.86"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 040-section-reviewer-10
+  severity: weak
+  file: content/joan-of-arc/.plans/pages040.mjs
+  field: "meung-and-beaugency, markers"
+  new: "The text names Orléans, which the French road france-1429-beaugency leaves on 15 June, and Paris, where Fastolf's road fastolf-1429-janville starts; neither has a marker or a label on the page's map (capture maps-040-map-auditor/pack/shots/meung-and-beaugency.png). A marker or a label for each, or the cartographer says why not."
+  source: "agents/text.md, 'each place it names is on the map'; the text: \"the army leaves Orléans\", \"an English relief from Paris\""
+  kind: map
+  introduced: maps
+  owner: cartographer
+  state: open
+- id: 040-section-reviewer-11
+  severity: weak
+  file: content/joan-of-arc/.plans/pages040.mjs
+  field: "patay, markers"
+  new: "The text names Meung and Beaugency (where the English and French roads start), Orléans (where france-1429-orleans ends, 19 June), Étampes and Corbeil (the stations of fastolf-1429-flight) and Chartres (still English); none has a marker or a label on the page's map (capture maps-040-map-auditor/pack/shots/patay.png). A marker or label for each, or the cartographer says why not."
+  source: "agents/text.md, 'each place it names is on the map'; 040.25, 040.33, 040.44, the plan's account (Chartres and Étampes still English)"
+  kind: map
+  introduced: maps
+  owner: cartographer
+  state: open
+- id: 040-section-reviewer-12
+  severity: weak
+  file: content/joan-of-arc/.plans/pages040.mjs
+  field: "auxerre-and-troyes, markers"
+  new: "The text now names Orléans, where france-1429-gien starts (040-section-reviewer-7); the map shows the start as the route's numbered circle only (capture maps-040-map-auditor/pack/shots/auxerre-and-troyes.png). A label for Orléans."
+  source: "agents/text.md, 'each place it names is on the map'; 040.48"
+  kind: map
+  introduced: maps
+  owner: cartographer
+  state: open
+- id: 040-section-reviewer-13
+  severity: weak
+  file: content/joan-of-arc/.plans/pages040.mjs
+  field: "reims, markers"
+  new: "The text says the map shows the road from Troyes to Reims; Troyes, where france-1429-reims starts, has no marker or label on the page's map, and the line runs off the bottom of the capture (maps-040-map-auditor/pack/shots/reims.png). A label for Troyes, or the bbox reaching it."
+  source: "agents/text.md, 'each place it names is on the map'; 040.62, 040.63"
+  kind: map
+  introduced: maps
+  owner: cartographer
+  state: open
+- id: 040-section-reviewer-14
+  severity: weak
+  file: content/joan-of-arc/.plans/pages040.mjs
+  field: "the-towns-come-over, markers"
+  new: "The text names Vailly (22 July, a station of france-1429-provins) and Sens (in Bedford's list); neither has a marker or a label on the page's map (capture maps-040-map-auditor/pack/shots/the-towns-come-over.png). A marker for each, Sens with a note after 040.86 as Bedford's memorandum."
+  source: "agents/text.md, 'each place it names is on the map'; 040.78, 040.86"
+  kind: map
+  introduced: maps
+  owner: cartographer
+  state: open

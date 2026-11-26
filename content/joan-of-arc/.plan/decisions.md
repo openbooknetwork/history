@@ -229,3 +229,11 @@
   with Orléans and its land outside and Meung, Beaugency and Janville inside, as the auditor proposed. The other
   three stand as the keeper's lines: each rests on the town lists of the digest, and the chapter's text calls its
   borders approximate.
+- images 030 and 040 found (image-finders): 8 and 11 images; `tourelles-assault-miniature` is `none`. A lithograph of
+  1902 and a painting of about 1886 to 1890 stand where no miniature exists, each captioned as what it is; a caption
+  says only what its Commons page or the digest confirms.
+- facts 030 and 040 checked (fact-checkers): 24 and 17 faults, all fixed: Monstrelet's "no more than one hundred" for
+  "fewer than 100" in five files, the Sept-Saulx marker's day (16 July), two captions cut back to what is confirmed.
+- unresolved, facts 030 and 040: the disputed and open claims of both sections, each listed with how its text tells
+  it in the two fact checkers' reports.
+- cloud ruling: each stands as its text tells it, with its authors or as not known.

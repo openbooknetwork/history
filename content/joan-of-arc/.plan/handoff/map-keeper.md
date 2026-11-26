@@ -3,11 +3,16 @@
 ## For the cartographers
 
 - List the zones of a page exactly as its `map.yaml` gives them now. The kingdom of France is one outline,
-  `france-1407`, under thirteen ids: each france id shares its pages with one english zone alone, because the build
+  `france-1407`, under fifteen ids: each france id shares its pages with one english zone alone, because the build
   cuts a zone once for the whole story by every zone that shares any page with it. Never put a france id on a
   page beside an english zone of another stage: the land that english zone lacks would show bare.
   `content/joan-of-arc/shared/zones.yaml` holds the entries and says which page takes which.
 - `english-1429` is a zones.yaml entry with the outline of `english-1428`.
+- After the siege (8 May 1429) the Beauce stage draws its edge back from Orléans (`BEAUCE29`: the Loire to about
+  7 km east of Meung, then round the city at about ten km; Meung, Beaugency, Janville, Montpipeau, Saint-Sigismond
+  inside). jargeau takes `english-may-1429` (with the Jargeau circle) and `france-may-1429`; meung-and-beaugency takes
+  `english-june-1429` (no circle) and `france-june-1429` (040-map-auditor-1, -2). `english-siege-1428` now ends on
+  8 May 1429 and stays on 020 and 030 alone, the-english-march-away included.
 - From beaulieu-and-beaurevoir on (May 1430), the pages take `burgundy-1430` (burgundy-1420 with a circle round
   Soissons), and beaulieu-and-beaurevoir, sold-to-the-english, the-court and burgundy-changes-sides take `english-1430`
   (english-sep-1429 less circles round Melun and Sens; Montereau and Chartres English) with `france-1430`.
@@ -28,7 +33,7 @@
   Bray-Dunes included.
 - The land east of the Meuse from Mézières to Stenay (Sedan, Mouzon, Carignan), the Givet salient, and Roussillon
   with the Cerdagne stand in no zone, by the rulings on story-overseer-4 and -5. Mark nothing there in a zone's colour.
-- The siege zone's edge at Orléans is drawn for zoom 15: Saint-Laurent, London, Rouen and Paris lie inside it,
+- The siege zone's edge at Orléans (`ORLN`, then `ORLNE` from 1.96 E 48.02 N) is drawn for zoom 15: Saint-Laurent, London, Rouen and Paris lie inside it,
   Jacques Boucher's house, the city and Saint-Loup outside. The Île Charlemagne sits on the edge, in the river.
 - Markers on an edge: Domrémy (the edge of Bar runs through the village, as the plan wants), Orléans of 020 at
   about 300 m from the siege edge.

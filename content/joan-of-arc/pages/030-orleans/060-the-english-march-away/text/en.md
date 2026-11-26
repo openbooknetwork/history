@@ -2,7 +2,7 @@ Early on Sunday 8 May the English leave their bastilles north of the river, sett
 
 Then the English march away in good order. Of the English captains, Lord Talbot and Lord Scales go to [Meung](@meung-may-1429) and [Beaugency](@beaugency-may-1429), and Suffolk to [Jargeau](@jargeau-may-1429), by the Chronique. Champion has Talbot go to Meung first and then to Beaugency, and Ramsay has some of the English go to each town. The townspeople plunder the empty bastilles and pull them down, and their guns are hauled into the city.
 
-Joan and the captains ride back in to give thanks, and Orléans holds a procession with a sermon, as Pasquerel, her confessor, remembered. The siege has lasted about seven months, from 12 October 1428, the Journal's first day.\* The English still hold the Loire bridges of Meung, Beaugency and Jargeau, above and below the city. Joan then sets out to find the king, with the Bastard of Orléans (later Count of Dunois) and the captains, as the Bastard and Pasquerel remembered.
+Joan and the captains ride back in to give thanks, and Orléans holds a procession with a sermon, as Pasquerel, her confessor, remembered. The siege is over. It has lasted about seven months, from 12 October 1428, the Journal's first day.\* The English still hold the Loire bridges of Meung, Beaugency and Jargeau, above and below the city. Joan then sets out to find Charles VII, with the Bastard of Orléans (later Count of Dunois) and the captains, as the Bastard and Pasquerel remembered.
 
 The map shows the English array and the roads of their captains to Meung, Beaugency and Jargeau. The roads are approximate, drawn from where they begin and end.
 

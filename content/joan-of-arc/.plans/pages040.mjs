@@ -147,7 +147,7 @@ const pages = [
       'chalons-1429': { lnglat: P.chalons, icon: 'flag', color: 'france', label: 'Châlons',
         note: 'Its bishop and burgesses come out and give Charles VII full obedience; he is received on 14 July 1429 (Cagny)' },
       'sept-saulx-1429': { lnglat: P.septSaulx, icon: 'key', color: 'france', label: 'Sept-Saulx', rank: 1,
-        note: "Charles VII lodges at this castle of Regnault de Chartres, four leagues from Reims, and burgesses of Reims bring him its keys, 15 July 1429" },
+        note: "Charles VII lodges at this castle of Regnault de Chartres, four leagues from Reims, and burgesses of Reims bring him its keys, 16 July 1429" },
       'reims-cathedral': { lnglat: P.reims, icon: 'crown', color: 'france', label: 'Reims', rank: 2,
         image: 'reims-cathedral-west-front',
         note: 'Charles VII enters on 16 July 1429 and is anointed and crowned in its cathedral on 17 July, Joan beside him with her standard' },

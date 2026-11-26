@@ -1,0 +1,27 @@
+- step: images
+  task: find
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/images/040.yaml
+    - content/joan-of-arc/shared/images/jargeau-assault-miniature-5aff80/image.yaml
+    - content/joan-of-arc/shared/images/jargeau-saint-etienne-da8622/image.yaml
+    - content/joan-of-arc/shared/images/beaugency-keep-e81cd6/image.yaml
+    - content/joan-of-arc/shared/images/meung-castle-3600e2/image.yaml
+    - content/joan-of-arc/shared/images/patay-miniature-a62eb0/image.yaml
+    - content/joan-of-arc/shared/images/talbot-shrewsbury-book-f4da2c/image.yaml
+    - content/joan-of-arc/shared/images/gien-castle-loire-58de8e/image.yaml
+    - content/joan-of-arc/shared/images/reims-cathedral-west-front-949e0c/image.yaml
+    - content/joan-of-arc/shared/images/coronation-charles-vii-miniature-a5d441/image.yaml
+    - content/joan-of-arc/shared/images/christine-de-pizan-miniature-f804be/image.yaml
+    - content/joan-of-arc/shared/images/chateau-thierry-castle-gate-eeb358/image.yaml
+  faults: []
+  unresolved: []
+  stale: []
+  added: 11
+  none: []
+  unconfirmed:
+    - "jargeau-assault-miniature-5aff80: the Commons page of File:Battle of Jargeau Martial d'Auvergne (1508).jpg gives circa 1484 and 'Bataille de Jargeau' but names the Vigiles only through its title (Martial d'Auvergne); File:Français 5054, folio 58 recto.jpg, the full page of the same miniature, names the Vigiles de Charles VII."
+    - "patay-miniature-a62eb0: Commons gives Philippe de Mazerolles (attributed) and about 1470 to 1479 but no manuscript; the caption names none."
+    - "christine-de-pizan-miniature-f804be: Commons gives about 1413 and the Bedford Master (attributed) and no description; that the second figure is her son rests on the file's title, and the manuscript is not named."
+    - "gien-castle-loire-58de8e: the castle shown is Anne de Beaujeu's, built after 1429, as the Commons description names it; the caption says whose it is and no date of building."
+  cards: "jargeau-1429 and patay-1429 keep one image each: the other fitting miniature of each (Vigiles 'Bataille de Patay', fol. 58r of Jargeau) is from the Vigiles manuscript the neighbouring card uses, and Commons gave no portrait of Suffolk or the French captains."

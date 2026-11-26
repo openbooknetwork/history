@@ -340,3 +340,12 @@
 - unresolved, edit: story-editor-7, Sens leaves the English zone between 050 and 060 and no page tells it.
 - cloud ruling: story-editor-7 is declined, as the editor suggested — the zone is right by 070.58 and the change shows
   only on a phone-sized view of one page.
+- edit, the rechecks (fact-checkers of 010, 020, 030, 040, 060, 070): each ends `pass`. Six captions were cut back to
+  what their Commons entry or the digest gives (the name of Martial d'Auvergne, a shelfmark, a folio, a Latin title).
+- step edit: done, 26 Nov 2026. The editor's 27 faults: 26 fixed and rechecked, 1 declined (story-editor-7). The
+  faults of `edit` had their one round.
+- story, the checks before the audit, 26 Nov 2026: `harita check joan-of-arc` prints ok; the strict build with
+  `--no-store` ends well, 41 pages; `rules-lint.mjs` prints ok; `names-check.mjs` prints ok; `plan-check.mjs` ok;
+  `quotes-check.mjs` ok for 1,604 quotes. `inputs.mjs stale` prints 392 lines, kept in `run/stale.txt`: each is a
+  plan page or a names row changed by a fix after its maker ran.
+- ledger after `edit`: | **total** | 123 | 3,492 | 592,019 | 7,101 | 24,455,214 | 599,966,881 | 4,530,241 | 113,224,012 |

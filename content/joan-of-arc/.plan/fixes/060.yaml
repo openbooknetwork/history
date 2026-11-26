@@ -884,3 +884,17 @@
   old: "@image vieux-marche-pyre-97466c"
   new: ""
   commit: aa448627
+- fault: 060-fact-checker-32
+  by: fact-checker
+  file: content/joan-of-arc/shared/images/burning-at-rouen-miniature-8d31d7/image.yaml
+  field: caption
+  old: "Joan at the stake on 30 May 1431, a miniature of the Vigiles de Charles VII of Martial d'Auvergne, about 1484 (BnF, Français 5054, folio 71)"
+  new: "Joan at the stake on 30 May 1431, a miniature of the Vigiles de Charles VII, about 1484"
+  commit: a0c0f99a
+- fault: 060-fact-checker-33
+  by: fact-checker
+  file: content/joan-of-arc/shared/images/trial-of-condemnation-manuscript-b3fe63/image.yaml
+  field: caption
+  old: "The first folio of a fifteenth-century manuscript of the Latin record of her trial, the Processus in causa fidei contra quamdam mulierem Joannam (BnF, Latin 5969): in the initial, Joan is brought before Pierre Cauchon and the judges"
+  new: "The first folio of a fifteenth-century manuscript of the Latin record of her trial (BnF, Latin 5969): in the initial, Joan is brought before Pierre Cauchon and the judges"
+  commit: a0c0f99a

@@ -30,7 +30,7 @@
    "parent": "-",
    "model": "claude-fable-5-2",
    "start": "2026-11-26T08:58:19.988Z",
-   "end": "2026-11-26T16:24:51.989Z",
+   "end": "2026-11-26T16:34:57.440Z",
    "description": ""
   },
   {
@@ -176,6 +176,15 @@
    "start": "2026-11-26T14:18:19.090Z",
    "end": "2026-11-26T14:26:26.095Z",
    "description": "images 030 image-finder find"
+  },
+  {
+   "agent": "a220fa32292cbce85",
+   "role": "fact-checker",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T16:30:19.579Z",
+   "end": "2026-11-26T16:32:13.969Z",
+   "description": "edit 010 fact-checker recheck"
   },
   {
    "agent": "a2503fd5bf51b6740",
@@ -466,6 +475,15 @@
    "description": "research 020 researcher fix"
   },
   {
+   "agent": "a69a2ff5092cbcb67",
+   "role": "fact-checker",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T16:30:19.614Z",
+   "end": "2026-11-26T16:31:11.386Z",
+   "description": "edit 030 fact-checker recheck"
+  },
+  {
    "agent": "a6c94f4dc56c7e812",
    "role": "section-coordinator",
    "parent": "overseer",
@@ -705,7 +723,7 @@
    "parent": "overseer",
    "model": "claude-opus-5-5",
    "start": "2026-11-26T16:22:38.202Z",
-   "end": "2026-11-26T16:23:45.433Z",
+   "end": "2026-11-26T16:29:51.685Z",
    "description": "edit all editor texts"
   },
   {
@@ -734,6 +752,15 @@
    "start": "2026-11-26T09:31:03.011Z",
    "end": "2026-11-26T09:47:50.595Z",
    "description": "research 010 researcher claims"
+  },
+  {
+   "agent": "aa69665cc3a36ee61",
+   "role": "fact-checker",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T16:30:19.639Z",
+   "end": "2026-11-26T16:33:26.554Z",
+   "description": "edit 060 fact-checker recheck"
   },
   {
    "agent": "aa877e50171d5774f",
@@ -826,6 +853,15 @@
    "description": "texts 010 section-writer write"
   },
   {
+   "agent": "abf220ca3668889b3",
+   "role": "fact-checker",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T16:30:21.027Z",
+   "end": "2026-11-26T16:32:10.977Z",
+   "description": "edit 070 fact-checker recheck"
+  },
+  {
    "agent": "ac010f4b0a723ca24",
    "role": "cartographer",
    "parent": "overseer",
@@ -907,6 +943,15 @@
    "description": "plans 010 section-coordinator plan"
   },
   {
+   "agent": "ad2d770ed240be60f",
+   "role": "fact-checker",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T16:30:19.598Z",
+   "end": "2026-11-26T16:32:45.578Z",
+   "description": "edit 020 fact-checker recheck"
+  },
+  {
    "agent": "ad42e992f05e76d3d",
    "role": "section-writer",
    "parent": "overseer",
@@ -932,6 +977,15 @@
    "start": "2026-11-26T14:40:34.085Z",
    "end": "2026-11-26T14:44:11.160Z",
    "description": "maps 040 map-auditor recheck"
+  },
+  {
+   "agent": "adb6dc0bb2ff4df45",
+   "role": "fact-checker",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T16:30:19.628Z",
+   "end": "2026-11-26T16:32:25.816Z",
+   "description": "edit 040 fact-checker recheck"
   },
   {
    "agent": "ade4275d74c4fced8",
@@ -1086,12 +1140,12 @@
    "model": "claude-fable-5-2",
    "step": "-",
    "section": "-",
-   "turns": 295,
-   "peak": 574186,
-   "input": 756,
-   "cacheWrite": 510150,
-   "cacheRead": 97458156,
-   "output": 128187
+   "turns": 305,
+   "peak": 592019,
+   "input": 784,
+   "cacheWrite": 527813,
+   "cacheRead": 103287382,
+   "output": 133592
   },
   {
    "agent": "a00421d99dbb1e05d",
@@ -1316,6 +1370,20 @@
    "cacheWrite": 155148,
    "cacheRead": 3532058,
    "output": 23816
+  },
+  {
+   "agent": "a220fa32292cbce85",
+   "role": "fact-checker",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "edit",
+   "section": "010",
+   "turns": 17,
+   "peak": 136759,
+   "input": 34,
+   "cacheWrite": 130878,
+   "cacheRead": 1753932,
+   "output": 10524
   },
   {
    "agent": "a2503fd5bf51b6740",
@@ -1766,6 +1834,20 @@
    "output": 13254
   },
   {
+   "agent": "a69a2ff5092cbcb67",
+   "role": "fact-checker",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "edit",
+   "section": "030",
+   "turns": 8,
+   "peak": 100501,
+   "input": 16,
+   "cacheWrite": 94620,
+   "cacheRead": 502021,
+   "output": 4255
+  },
+  {
    "agent": "a6c94f4dc56c7e812",
    "role": "section-coordinator",
    "parent": "overseer",
@@ -2136,12 +2218,12 @@
    "model": "claude-opus-5-5",
    "step": "edit",
    "section": "-",
-   "turns": 9,
-   "peak": 248297,
-   "input": 18,
-   "cacheWrite": 242416,
-   "cacheRead": 1225204,
-   "output": 5606
+   "turns": 35,
+   "peak": 320171,
+   "input": 70,
+   "cacheWrite": 314290,
+   "cacheRead": 8894937,
+   "output": 41158
   },
   {
    "agent": "aa350dffa9aa24491",
@@ -2184,6 +2266,20 @@
    "cacheWrite": 362817,
    "cacheRead": 15340058,
    "output": 97783
+  },
+  {
+   "agent": "aa69665cc3a36ee61",
+   "role": "fact-checker",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "edit",
+   "section": "060",
+   "turns": 28,
+   "peak": 137228,
+   "input": 56,
+   "cacheWrite": 131347,
+   "cacheRead": 2867568,
+   "output": 15348
   },
   {
    "agent": "aa877e50171d5774f",
@@ -2326,6 +2422,20 @@
    "output": 42461
   },
   {
+   "agent": "abf220ca3668889b3",
+   "role": "fact-checker",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "edit",
+   "section": "070",
+   "turns": 14,
+   "peak": 104683,
+   "input": 28,
+   "cacheWrite": 95115,
+   "cacheRead": 1048834,
+   "output": 9909
+  },
+  {
    "agent": "ac010f4b0a723ca24",
    "role": "cartographer",
    "parent": "overseer",
@@ -2452,6 +2562,20 @@
    "output": 67808
   },
   {
+   "agent": "ad2d770ed240be60f",
+   "role": "fact-checker",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "edit",
+   "section": "020",
+   "turns": 18,
+   "peak": 132149,
+   "input": 36,
+   "cacheWrite": 126268,
+   "cacheRead": 1731356,
+   "output": 12800
+  },
+  {
    "agent": "ad42e992f05e76d3d",
    "role": "section-writer",
    "parent": "overseer",
@@ -2492,6 +2616,20 @@
    "cacheWrite": 196453,
    "cacheRead": 1638167,
    "output": 13211
+  },
+  {
+   "agent": "adb6dc0bb2ff4df45",
+   "role": "fact-checker",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "edit",
+   "section": "040",
+   "turns": 22,
+   "peak": 116468,
+   "input": 44,
+   "cacheWrite": 110587,
+   "cacheRead": 1995382,
+   "output": 9347
   },
   {
    "agent": "ade4275d74c4fced8",
@@ -3842,6 +3980,31 @@
    "changed": 9,
    "unresolved": 0,
    "faults": []
+  },
+  {
+   "agent": "a220fa32292cbce85",
+   "role": "fact-checker",
+   "step": "edit",
+   "section": "010",
+   "status": "pass",
+   "changed": 3,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "010-fact-checker-36",
+     "severity": "weak",
+     "kind": "image",
+     "introduced": "images",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "image-finder",
+     "file": "content/joan-of-arc/shared/images/verneuil-vigiles-miniature-a8aaed/image.yaml",
+     "claim": null,
+     "evidence": ".candidates/france-divided/index.yaml l. 1661, the entry of File:Vigiles du roi Charles VII 49.jpg: \"author: Unknown authorUnknown author\", \"date: circa 1484\", \"description: Bataille de Verneuil (1424).\" Martial d'Auvergne stands in neither the entry nor research.md; the same caption was cut so in 030 (030-fact-checker-38)",
+     "action": "from the Vigiles de Charles VII.",
+     "state": "fixed"
+    }
+   ]
   },
   {
    "agent": "a2503fd5bf51b6740",
@@ -5538,6 +5701,16 @@
    "section": "020",
    "status": "pass",
    "changed": 4,
+   "unresolved": 1,
+   "faults": []
+  },
+  {
+   "agent": "a69a2ff5092cbcb67",
+   "role": "fact-checker",
+   "step": "edit",
+   "section": "030",
+   "status": "pass",
+   "changed": 0,
    "unresolved": 1,
    "faults": []
   },
@@ -7489,6 +7662,395 @@
    ]
   },
   {
+   "agent": "aa10e6e511debb5b4",
+   "role": "editor",
+   "step": "edit",
+   "section": "-",
+   "status": "faults",
+   "changed": 12,
+   "unresolved": 1,
+   "faults": [
+    {
+     "id": "010-editor-1",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "editor",
+     "file": "content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md",
+     "claim": null,
+     "evidence": "rules.md, Evidence, \"The two trials are primary sources with a side\": a text or a note says \"at the retrial\" and gives a deposition no year (decisions.md, cloud ruling: Murray heads the depositions 1455, 1455-6 and 1456 by place and no file dates each one)",
+     "action": "Questioned in the village for the retrial, her godfather",
+     "state": "fixed"
+    },
+    {
+     "id": "010-editor-2",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "editor",
+     "file": "content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md",
+     "claim": null,
+     "evidence": "rules.md, Evidence, \"The two trials are primary sources with a side\": a text or a note says \"at the retrial\" and gives a deposition no year (decisions.md, cloud ruling: Murray heads the depositions 1455, 1455-6 and 1456 by place and no file dates each one)",
+     "action": "told the same inquiry that they were people who worked the land",
+     "state": "fixed"
+    },
+    {
+     "id": "010-editor-3",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "editor",
+     "file": "content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md",
+     "claim": null,
+     "evidence": "rules.md, Evidence, \"The two trials are primary sources with a side\": a text or a note says \"at the retrial\" and gives a deposition no year (decisions.md, cloud ruling: Murray heads the depositions 1455, 1455-6 and 1456 by place and no file dates each one)",
+     "action": "Jean Morel told the retrial that",
+     "state": "fixed"
+    },
+    {
+     "id": "020-editor-4",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "editor",
+     "file": "content/joan-of-arc/pages/020-the-road-to-chinon/010-the-voices/text/en.md",
+     "claim": null,
+     "evidence": "rules.md, Evidence, \"The two trials are primary sources with a side\": a text or a note says \"at the retrial\" and gives a deposition no year (decisions.md, cloud ruling: Murray heads the depositions 1455, 1455-6 and 1456 by place and no file dates each one)",
+     "action": "remembered it at the retrial.",
+     "state": "fixed"
+    },
+    {
+     "id": "020-editor-5",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "editor",
+     "file": "content/joan-of-arc/pages/020-the-road-to-chinon/030-vaucouleurs-again/text/en.md",
+     "claim": null,
+     "evidence": "rules.md, Evidence, \"The two trials are primary sources with a side\": a text or a note says \"at the retrial\" and gives a deposition no year (decisions.md, cloud ruling: Murray heads the depositions 1455, 1455-6 and 1456 by place and no file dates each one)",
+     "action": "as Catherine said at the retrial.",
+     "state": "fixed"
+    },
+    {
+     "id": "020-editor-6",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "editor",
+     "file": "content/joan-of-arc/pages/020-the-road-to-chinon/020-salisbury-on-the-loire/text/en.md",
+     "claim": null,
+     "evidence": "names.md, the row \"William de la Pole, Earl of Suffolk; Suffolk\": first named in 020 (020.20), the full form at the first mention, \"Suffolk\" after it",
+     "action": "William de la Pole, Earl of Suffolk, takes command.",
+     "state": "fixed"
+    },
+    {
+     "id": "020-editor-7",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "editor",
+     "file": "content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/text/en.md",
+     "claim": null,
+     "evidence": "names.md, the row \"La Hire\": Étienne de Vignolles, called La Hire, a Gascon captain, first named in 020 (020.58); 030 from-blois gives \"the Gascon captain La Hire\" a page later",
+     "action": "gathers under the Gascon captain La Hire and the marshals",
+     "state": "fixed"
+    },
+    {
+     "id": "020-editor-8",
+     "severity": "taste",
+     "kind": "order",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "editor",
+     "file": "content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/text/en.md",
+     "claim": null,
+     "evidence": "Barrett (content/joan-of-arc/.references/sourcebooks.web.fordham.edu-basis-joanofarc-trial.asp.txt), line 1868: asked the sign, \"You will not get it from me\"; lines 2235-2266 and 2527-2566: in March she tells of the angel who brought the sign (060.43), which 060 the-questioning gives",
+     "action": "she told her judges, and at first she would say no more.",
+     "state": "fixed"
+    },
+    {
+     "id": "020-editor-9",
+     "severity": "wrong",
+     "kind": "wording",
+     "introduced": "fix",
+     "firstCheck": null,
+     "leak": false,
+     "owner": "editor",
+     "file": "content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/text/en.md",
+     "claim": null,
+     "evidence": "node scripts/rules-lint.mjs joan-of-arc: 020-rules-lint-1, the body runs 352 words after 020-editor-7 and 020-editor-8, 2 over the hard limit of agents/text.md, 7",
+     "action": "There the convoy for Orléans gathers",
+     "state": "fixed"
+    },
+    {
+     "id": "020-editor-10",
+     "severity": "wrong",
+     "kind": "wording",
+     "introduced": "fix",
+     "firstCheck": null,
+     "leak": false,
+     "owner": "editor",
+     "file": "content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/text/en.md",
+     "claim": null,
+     "evidence": "node scripts/rules-lint.mjs joan-of-arc: 020-rules-lint-1, the body runs 352 words after 020-editor-7 and 020-editor-8, 2 over the hard limit of agents/text.md, 7",
+     "action": "Her letter bidding the English before Orléans go home",
+     "state": "fixed"
+    },
+    {
+     "id": "030-editor-2",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "editor",
+     "file": "content/joan-of-arc/pages/030-orleans/010-from-blois/text/en.md",
+     "claim": null,
+     "evidence": "rules.md, Evidence, \"The two trials are primary sources with a side\": a text or a note says \"at the retrial\" and gives a deposition no year (decisions.md, cloud ruling: Murray heads the depositions 1455, 1455-6 and 1456 by place and no file dates each one)",
+     "action": "In his account at the retrial she asks",
+     "state": "fixed"
+    },
+    {
+     "id": "040-editor-1",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "editor",
+     "file": "content/joan-of-arc/pages/040-the-loire-and-reims/010-jargeau/text/en.md",
+     "claim": null,
+     "evidence": "rules.md, Evidence, \"The two trials are primary sources with a side\": a text or a note says \"at the retrial\" and gives a deposition no year (decisions.md, cloud ruling: Murray heads the depositions 1455, 1455-6 and 1456 by place and no file dates each one)",
+     "action": "Alençon remembered at the retrial that",
+     "state": "fixed"
+    },
+    {
+     "id": "040-editor-2",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "editor",
+     "file": "content/joan-of-arc/pages/040-the-loire-and-reims/030-patay/text/en.md",
+     "claim": null,
+     "evidence": "rules.md, Evidence, \"The two trials are primary sources with a side\": a text or a note says \"at the retrial\" and gives a deposition no year (decisions.md, cloud ruling: Murray heads the depositions 1455, 1455-6 and 1456 by place and no file dates each one)",
+     "action": "remembered it at the retrial.",
+     "state": "fixed"
+    },
+    {
+     "id": "040-editor-3",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "editor",
+     "file": "content/joan-of-arc/pages/040-the-loire-and-reims/060-the-towns-come-over/text/en.md",
+     "claim": null,
+     "evidence": "names.md, the row \"Henry Beaufort\": Cardinal of England, great-uncle of Henry VI, first named in 040 (040.84); 060 saint-ouen and 070 burgundy-changes-sides give \"great-uncle\"",
+     "action": "brought by Henry VI's great-uncle, Cardinal Beaufort.",
+     "state": "fixed"
+    },
+    {
+     "id": "060-editor-2",
+     "severity": "wrong",
+     "kind": "image",
+     "introduced": "images",
+     "firstCheck": "facts",
+     "leak": true,
+     "owner": "editor",
+     "file": "content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md",
+     "claim": null,
+     "evidence": "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 060-rouen/010-beaulieu-and-beaurevoir/markers.yaml shows beaurevoir-tower-cc03c4 on the marker beaurevoir-1430",
+     "action": "",
+     "state": "fixed"
+    },
+    {
+     "id": "060-editor-3",
+     "severity": "wrong",
+     "kind": "image",
+     "introduced": "images",
+     "firstCheck": "facts",
+     "leak": true,
+     "owner": "editor",
+     "file": "content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md",
+     "claim": null,
+     "evidence": "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 060-rouen/020-sold-to-the-english/markers.yaml shows le-crotoy-bay-7e7c58 on the marker le-crotoy-1430",
+     "action": "",
+     "state": "fixed"
+    },
+    {
+     "id": "060-editor-4",
+     "severity": "wrong",
+     "kind": "image",
+     "introduced": "images",
+     "firstCheck": "facts",
+     "leak": true,
+     "owner": "editor",
+     "file": "content/joan-of-arc/pages/060-rouen/040-the-questioning/text/en.md",
+     "claim": null,
+     "evidence": "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 060-rouen/040-the-questioning/markers.yaml shows rouen-castle-keep-370a86 on the marker great-tower-1431",
+     "action": "",
+     "state": "fixed"
+    },
+    {
+     "id": "060-editor-5",
+     "severity": "wrong",
+     "kind": "image",
+     "introduced": "images",
+     "firstCheck": "facts",
+     "leak": true,
+     "owner": "editor",
+     "file": "content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md",
+     "claim": null,
+     "evidence": "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 060-rouen/050-saint-ouen/markers.yaml shows saint-ouen-abbey-church-6d9f2b on the marker saint-ouen-1431",
+     "action": "",
+     "state": "fixed"
+    },
+    {
+     "id": "060-editor-6",
+     "severity": "wrong",
+     "kind": "image",
+     "introduced": "images",
+     "firstCheck": "facts",
+     "leak": true,
+     "owner": "editor",
+     "file": "content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md",
+     "claim": null,
+     "evidence": "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 060-rouen/060-the-old-market/markers.yaml shows vieux-marche-pyre-97466c on the marker old-market-1431",
+     "action": "",
+     "state": "fixed"
+    },
+    {
+     "id": "070-editor-1",
+     "severity": "wrong",
+     "kind": "image",
+     "introduced": "images",
+     "firstCheck": "facts",
+     "leak": true,
+     "owner": "editor",
+     "file": "content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md",
+     "claim": null,
+     "evidence": "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 070-after-her/010-burgundy-changes-sides/markers.yaml shows henry-vi-paris-coronation-miniature-4faf00 on the marker notre-dame-1431",
+     "action": "",
+     "state": "fixed"
+    },
+    {
+     "id": "070-editor-2",
+     "severity": "wrong",
+     "kind": "image",
+     "introduced": "images",
+     "firstCheck": "facts",
+     "leak": true,
+     "owner": "editor",
+     "file": "content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md",
+     "claim": null,
+     "evidence": "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 070-after-her/010-burgundy-changes-sides/markers.yaml shows arras-peace-1435-miniature-fb0b58 on the marker arras-1435",
+     "action": "",
+     "state": "fixed"
+    },
+    {
+     "id": "070-editor-3",
+     "severity": "wrong",
+     "kind": "image",
+     "introduced": "images",
+     "firstCheck": "facts",
+     "leak": true,
+     "owner": "editor",
+     "file": "content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md",
+     "claim": null,
+     "evidence": "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 070-after-her/020-paris-opens/markers.yaml shows bastille-saint-antoine-view-8a49b8 on the marker bastille-1436",
+     "action": "",
+     "state": "fixed"
+    },
+    {
+     "id": "070-editor-4",
+     "severity": "wrong",
+     "kind": "image",
+     "introduced": "images",
+     "firstCheck": "facts",
+     "leak": true,
+     "owner": "editor",
+     "file": "content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md",
+     "claim": null,
+     "evidence": "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 070-after-her/030-normandy-won-back/markers.yaml shows fougeres-castle-2070d6 on the marker fougeres-1449",
+     "action": "",
+     "state": "fixed"
+    },
+    {
+     "id": "070-editor-5",
+     "severity": "wrong",
+     "kind": "image",
+     "introduced": "images",
+     "firstCheck": "facts",
+     "leak": true,
+     "owner": "editor",
+     "file": "content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md",
+     "claim": null,
+     "evidence": "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 070-after-her/030-normandy-won-back/markers.yaml shows rouen-1449-entry-miniature-35d59e on the marker rouen-1449",
+     "action": "",
+     "state": "fixed"
+    },
+    {
+     "id": "070-editor-6",
+     "severity": "wrong",
+     "kind": "image",
+     "introduced": "images",
+     "firstCheck": "facts",
+     "leak": true,
+     "owner": "editor",
+     "file": "content/joan-of-arc/pages/070-after-her/050-the-retrial/text/en.md",
+     "claim": null,
+     "evidence": "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 070-after-her/050-the-retrial/markers.yaml shows rouen-archbishop-palace-8a7b6b on the marker rouen-1456",
+     "action": "",
+     "state": "fixed"
+    },
+    {
+     "id": "070-editor-7",
+     "severity": "wrong",
+     "kind": "image",
+     "introduced": "images",
+     "firstCheck": "facts",
+     "leak": true,
+     "owner": "editor",
+     "file": "content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md",
+     "claim": null,
+     "evidence": "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 070-after-her/060-afterwards/markers.yaml shows orleans-8-may-procession-8a3262 on the marker orleans-8-may",
+     "action": "",
+     "state": "fixed"
+    },
+    {
+     "id": "story-editor-7",
+     "severity": "taste",
+     "kind": "map",
+     "introduced": "map-design",
+     "firstCheck": "map-design",
+     "leak": false,
+     "owner": "overseer",
+     "file": "content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/markers.yaml",
+     "claim": null,
+     "evidence": "research.md 070.58, single (Beaucourt 2, book 2 ch. 6, p. 267): \"le Roi resta à Sens, où il passa les mois d'août et de septembre\" (1430); brief.md, Map, the row english-1430: Melun and Sens gone",
+     "action": "Sens leaves the English zone between 050 compiegne (english-sep-1429) and 060 (english-1430) and no page tells it: 040 the-towns-come-over marks sens-1429 English, 050 back-to-the-loire has Sens shut the king out in September 1429, and the change shows on sold-to-the-english at a phone's frame (story-map-auditor-10). Proposed: leave it, since no desktop frame of 060 shows Sens; or a marker sens-1430 in the king's colour on sold-to-the-english with a clause of the text after 070.58, Beaucourt's alone, that Charles VII spends August and September 1430 at Sens",
+     "state": "declined"
+    }
+   ]
+  },
+  {
    "agent": "aa350dffa9aa24491",
    "role": "section-coordinator",
    "step": "plans",
@@ -7575,6 +8137,45 @@
    "changed": 1,
    "unresolved": 3,
    "faults": []
+  },
+  {
+   "agent": "aa69665cc3a36ee61",
+   "role": "fact-checker",
+   "step": "edit",
+   "section": "060",
+   "status": "pass",
+   "changed": 4,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "060-fact-checker-32",
+     "severity": "weak",
+     "kind": "image",
+     "introduced": "images",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "image-finder",
+     "file": "content/joan-of-arc/shared/images/burning-at-rouen-miniature-8d31d7/image.yaml",
+     "claim": null,
+     "evidence": "content/joan-of-arc/.candidates/rouen/index.yaml, 09-Vigiles_du_roi_Charles_VII_10.jpg: title \"Vigiles du roi Charles VII 10.jpg\", author \"AnonymousUnknown author\", date \"circa 1484\", description \"Jeanne d'Arc au bûcher, le 30 mai 1431.\" The entry gives no author of the work, no shelfmark and no folio, and no line of the digest does; folio 71 stands in no file of the story (Martial d'Auvergne and Français 5054 stand only in the entries of other images, after-her-2, and in France's footnotes)",
+     "action": "Vigiles de Charles VII, about 1484",
+     "state": "fixed"
+    },
+    {
+     "id": "060-fact-checker-33",
+     "severity": "weak",
+     "kind": "image",
+     "introduced": "images",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "image-finder",
+     "file": "content/joan-of-arc/shared/images/trial-of-condemnation-manuscript-b3fe63/image.yaml",
+     "claim": null,
+     "evidence": "content/joan-of-arc/.candidates/rouen/index.yaml, 14-BNF_Latin_5969_folio_1_-_Jeanne_d_Arc_et_Cauchon.jpg: title \"BNF Latin 5969, folio 1 - Jeanne d'Arc et Cauchon.jpg\", date \"15th century\", description \"Manuscript portrait of Bishop en:Pierre Cauchon, the chief official at Joan of Arc's trial and condemnation.\" No file of the story gives the title \"Processus in causa fidei contra quamdam mulierem Joannam\" (grep of .references, .wikipedia and .plan). The rest stands: Quicherat 5 (archive.org-download-ProcesDeCondamnationV5-ProcesDeCondamnationV5-djvu.txt.txt, lines 18426-18436), among the manuscripts of the trial of condemnation: \"n° 5969, latin ... Écriture gothique coulée de la fin du xv° siècle ... L'u initial de Universis présentes litteras ... est une grande lettre ornée dans laquelle est exécuté un petit sujet en miniature. On a voulu représenter une scène du procès\"",
+     "action": "record of her trial (BnF, Latin 5969)",
+     "state": "fixed"
+    }
+   ]
   },
   {
    "agent": "aa877e50171d5774f",
@@ -7999,6 +8600,31 @@
      "claim": null,
      "evidence": "sourcebooks.web.fordham.edu-basis-joanofarc-trial.asp.txt, 21 February 1431: \"her mother taught her the Paternoster, Ave Maria and Credo\" (010.12); Quicherat 5, Boulainvilliers, \"In nocte Epiphaniarum Domini\" (010.10); Murray, Jean Morel, \"the Parish Church of Saint Remy\" (010.8); names-check found no row for them in the domremy text",
      "action": "abjuration and relapse; bailli; livres tournois; the prayers the Paternoster, the Ave Maria and the Credo; the Epiphany (6 January); the church of Saint-Remy at Domrémy.",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "abf220ca3668889b3",
+   "role": "fact-checker",
+   "step": "edit",
+   "section": "070",
+   "status": "pass",
+   "changed": 2,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "070-fact-checker-15",
+     "severity": "weak",
+     "kind": "check",
+     "introduced": "fix",
+     "firstCheck": null,
+     "leak": false,
+     "owner": "editor",
+     "file": "content/joan-of-arc/.plan/fixes/070.yaml",
+     "claim": null,
+     "evidence": "git diff aa448627 646a3ad1 -- content/joan-of-arc/pages/070-after-her: the images commit 646a3ad1 turned each placeholder into its placed name (\"@image henry-vi-paris-coronation-miniature\" became \"@image henry-vi-paris-coronation-miniature-4faf00\", and so for the other six), so the old text of each entry stands in the files only from 646a3ad1, the commit before ec0556aa that made the editor's change. A recheck run with git diff aa448627 mixed the images step's renames and marker changes into the editor's diff.",
+     "action": "646a3ad1",
      "state": "fixed"
     }
    ]
@@ -8857,6 +9483,45 @@
    ]
   },
   {
+   "agent": "ad2d770ed240be60f",
+   "role": "fact-checker",
+   "step": "edit",
+   "section": "020",
+   "status": "pass",
+   "changed": 2,
+   "unresolved": 2,
+   "faults": [
+    {
+     "id": "020-fact-checker-23",
+     "severity": "weak",
+     "kind": "image",
+     "introduced": "images",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "image-finder",
+     "file": "content/joan-of-arc/shared/images/salisbury-struck-miniature-686363/image.yaml",
+     "claim": null,
+     "evidence": ".candidates/the-road-to-chinon/index.yaml, salisbury-on-the-loire, 03-Si_ge_d_Orl_ans_1428_.jpg (File:Siège d'Orléans (1428).jpg): author \"Unknown author\", date \"circa 1484\", description \"Thomas Montagu, 4th Earl of Salisbury is fatally injured at the siege of Orléans in 1428.\" The Vigiles de Charles VII stands only in the entries of other files (02-Siege_orleans.jpg, 06-Vigiles_du_roi_Charles_VII_18.jpg), Martial d'Auvergne in the title of 10-Le_si_ge_d_Orl_ans_-_Martial.jpg, and neither in research/*.md: names a caption may not carry, as fact-checker step 9 says.",
+     "action": "in a miniature of about 1484.",
+     "state": "fixed"
+    },
+    {
+     "id": "020-fact-checker-24",
+     "severity": "weak",
+     "kind": "image",
+     "introduced": "images",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "image-finder",
+     "file": "content/joan-of-arc/shared/images/herrings-miniature-0a7b03/image.yaml",
+     "claim": null,
+     "evidence": ".candidates/the-road-to-chinon/index.yaml, salisbury-on-the-loire, 17-Fran_ais_2691_folio_17v.jpg: title \"Français 2691, folio 17v.jpg\", author \"Attributed to Philippe de Mazerolles\", date \"circa 1470-1479\", description \"The Battle of the Herrings.\" The library's name stands neither in the entry nor in research/*.md.",
+     "action": "(manuscript Français 2691).",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
    "agent": "ad42e992f05e76d3d",
    "role": "section-writer",
    "step": "texts",
@@ -9012,6 +9677,16 @@
    "status": "pass",
    "changed": 0,
    "unresolved": 2,
+   "faults": []
+  },
+  {
+   "agent": "adb6dc0bb2ff4df45",
+   "role": "fact-checker",
+   "step": "edit",
+   "section": "040",
+   "status": "pass",
+   "changed": 0,
+   "unresolved": 0,
    "faults": []
   },
   {
@@ -13522,6 +14197,103 @@
     "note": "Two rules of rules.md were written after sections were built: a deposition \"at the retrial\" with no year (020 to 040 predate it) and one image a page (060 and 070 predate it)."
    },
    "problems": []
+  },
+  {
+   "role": "fact-checker",
+   "description": "edit 010 fact-checker recheck",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "010",
+    "step": "edit",
+    "task": "recheck",
+    "faults": ".plan/faults/010.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/edit-010-fact-checker-recheck",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "fact-checker",
+   "description": "edit 020 fact-checker recheck",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "020",
+    "step": "edit",
+    "task": "recheck",
+    "faults": ".plan/faults/020.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/edit-020-fact-checker-recheck",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "fact-checker",
+   "description": "edit 030 fact-checker recheck",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "030",
+    "step": "edit",
+    "task": "recheck",
+    "faults": ".plan/faults/030.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/edit-030-fact-checker-recheck",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "fact-checker",
+   "description": "edit 040 fact-checker recheck",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "040",
+    "step": "edit",
+    "task": "recheck",
+    "faults": ".plan/faults/040.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/edit-040-fact-checker-recheck",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "fact-checker",
+   "description": "edit 060 fact-checker recheck",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "060",
+    "step": "edit",
+    "task": "recheck",
+    "faults": ".plan/faults/060.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/edit-060-fact-checker-recheck",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "fact-checker",
+   "description": "edit 070 fact-checker recheck",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "070",
+    "step": "edit",
+    "task": "recheck",
+    "faults": ".plan/faults/070.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/edit-070-fact-checker-recheck",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "story-auditor",
+   "description": "story all story-auditor audit",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "all",
+    "step": "story",
+    "task": "audit",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/story-story-auditor",
+    "serve": "static"
+   },
+   "problems": []
   }
  ],
  "fixes": [
@@ -14494,6 +15266,50 @@
    "steppedIn": true
   },
   {
+   "fault": "010-editor-1",
+   "by": "editor",
+   "file": "content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md",
+   "field": "body, paragraph 2",
+   "commit": "aa448627",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "editor",
+   "steppedIn": false
+  },
+  {
+   "fault": "010-editor-2",
+   "by": "editor",
+   "file": "content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md",
+   "field": "body, paragraph 2",
+   "commit": "aa448627",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "editor",
+   "steppedIn": false
+  },
+  {
+   "fault": "010-editor-3",
+   "by": "editor",
+   "file": "content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md",
+   "field": "Notes, the first note",
+   "commit": "aa448627",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "editor",
+   "steppedIn": false
+  },
+  {
+   "fault": "010-fact-checker-36",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/shared/images/verneuil-vigiles-miniature-a8aaed/image.yaml",
+   "field": "caption",
+   "commit": "ec0556aa",
+   "kind": "image",
+   "severity": "weak",
+   "owner": "image-finder",
+   "steppedIn": false
+  },
+  {
    "fault": "020-editor-1",
    "by": "editor",
    "file": "content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml",
@@ -15459,6 +16275,105 @@
    "kind": "check",
    "severity": "weak",
    "owner": "names",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-editor-4",
+   "by": "editor",
+   "file": "content/joan-of-arc/pages/020-the-road-to-chinon/010-the-voices/text/en.md",
+   "field": "body, paragraph 4",
+   "commit": "aa448627",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "editor",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-editor-5",
+   "by": "editor",
+   "file": "content/joan-of-arc/pages/020-the-road-to-chinon/030-vaucouleurs-again/text/en.md",
+   "field": "body, paragraph 1",
+   "commit": "aa448627",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "editor",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-editor-6",
+   "by": "editor",
+   "file": "content/joan-of-arc/pages/020-the-road-to-chinon/020-salisbury-on-the-loire/text/en.md",
+   "field": "body, paragraph 3",
+   "commit": "aa448627",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "editor",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-editor-7",
+   "by": "editor",
+   "file": "content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/text/en.md",
+   "field": "body, paragraph 5",
+   "commit": "aa448627",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "editor",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-editor-8",
+   "by": "editor",
+   "file": "content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/text/en.md",
+   "field": "body, paragraph 2",
+   "commit": "aa448627",
+   "kind": "order",
+   "severity": "taste",
+   "owner": "editor",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-editor-9",
+   "by": "editor",
+   "file": "content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/text/en.md",
+   "field": "body, paragraph 5",
+   "commit": "aa448627",
+   "kind": "wording",
+   "severity": "wrong",
+   "owner": "editor",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-editor-10",
+   "by": "editor",
+   "file": "content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/text/en.md",
+   "field": "body, paragraph 3",
+   "commit": "aa448627",
+   "kind": "wording",
+   "severity": "wrong",
+   "owner": "editor",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-fact-checker-23",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/shared/images/salisbury-struck-miniature-686363/image.yaml",
+   "field": "caption",
+   "commit": "ec0556aa",
+   "kind": "image",
+   "severity": "weak",
+   "owner": "image-finder",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-fact-checker-24",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/shared/images/herrings-miniature-0a7b03/image.yaml",
+   "field": "caption",
+   "commit": "ec0556aa",
+   "kind": "image",
+   "severity": "weak",
+   "owner": "image-finder",
    "steppedIn": false
   },
   {
@@ -16749,6 +17664,17 @@
    "steppedIn": false
   },
   {
+   "fault": "030-editor-2",
+   "by": "editor",
+   "file": "content/joan-of-arc/pages/030-orleans/010-from-blois/text/en.md",
+   "field": "body, paragraph 2",
+   "commit": "aa448627",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "editor",
+   "steppedIn": false
+  },
+  {
    "fault": "040-research-reviewer-1",
    "by": "research-reviewer",
    "file": "content/joan-of-arc/.plan/research/040.md",
@@ -17648,6 +18574,39 @@
    "kind": "map",
    "severity": "weak",
    "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-editor-1",
+   "by": "editor",
+   "file": "content/joan-of-arc/pages/040-the-loire-and-reims/010-jargeau/text/en.md",
+   "field": "body, paragraph 3",
+   "commit": "aa448627",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "editor",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-editor-2",
+   "by": "editor",
+   "file": "content/joan-of-arc/pages/040-the-loire-and-reims/030-patay/text/en.md",
+   "field": "body, paragraph 1",
+   "commit": "aa448627",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "editor",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-editor-3",
+   "by": "editor",
+   "file": "content/joan-of-arc/pages/040-the-loire-and-reims/060-the-towns-come-over/text/en.md",
+   "field": "body, paragraph 3",
+   "commit": "aa448627",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "editor",
    "steppedIn": false
   },
   {
@@ -19785,6 +20744,83 @@
    "steppedIn": false
   },
   {
+   "fault": "060-editor-2",
+   "by": "editor",
+   "file": "content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md",
+   "field": "body, the @image line",
+   "commit": "aa448627",
+   "kind": "image",
+   "severity": "wrong",
+   "owner": "editor",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-editor-3",
+   "by": "editor",
+   "file": "content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md",
+   "field": "body, the @image line",
+   "commit": "aa448627",
+   "kind": "image",
+   "severity": "wrong",
+   "owner": "editor",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-editor-4",
+   "by": "editor",
+   "file": "content/joan-of-arc/pages/060-rouen/040-the-questioning/text/en.md",
+   "field": "body, the @image line",
+   "commit": "aa448627",
+   "kind": "image",
+   "severity": "wrong",
+   "owner": "editor",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-editor-5",
+   "by": "editor",
+   "file": "content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md",
+   "field": "body, the @image line",
+   "commit": "aa448627",
+   "kind": "image",
+   "severity": "wrong",
+   "owner": "editor",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-editor-6",
+   "by": "editor",
+   "file": "content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md",
+   "field": "body, the @image line",
+   "commit": "aa448627",
+   "kind": "image",
+   "severity": "wrong",
+   "owner": "editor",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-fact-checker-32",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/shared/images/burning-at-rouen-miniature-8d31d7/image.yaml",
+   "field": "caption",
+   "commit": "a0c0f99a",
+   "kind": "image",
+   "severity": "weak",
+   "owner": "image-finder",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-fact-checker-33",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/shared/images/trial-of-condemnation-manuscript-b3fe63/image.yaml",
+   "field": "caption",
+   "commit": "a0c0f99a",
+   "kind": "image",
+   "severity": "weak",
+   "owner": "image-finder",
+   "steppedIn": false
+  },
+  {
    "fault": "070-research-reviewer-1",
    "by": "research-reviewer",
    "file": "content/joan-of-arc/.plan/research/070.md",
@@ -20574,6 +21610,94 @@
    "kind": "check",
    "severity": "taste",
    "owner": "overseer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-editor-1",
+   "by": "editor",
+   "file": "content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md",
+   "field": "body, the @image line",
+   "commit": "646a3ad1",
+   "kind": "image",
+   "severity": "wrong",
+   "owner": "editor",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-editor-2",
+   "by": "editor",
+   "file": "content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md",
+   "field": "body, the @image line",
+   "commit": "646a3ad1",
+   "kind": "image",
+   "severity": "wrong",
+   "owner": "editor",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-editor-3",
+   "by": "editor",
+   "file": "content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md",
+   "field": "body, the @image line",
+   "commit": "646a3ad1",
+   "kind": "image",
+   "severity": "wrong",
+   "owner": "editor",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-editor-4",
+   "by": "editor",
+   "file": "content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md",
+   "field": "body, the @image line",
+   "commit": "646a3ad1",
+   "kind": "image",
+   "severity": "wrong",
+   "owner": "editor",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-editor-5",
+   "by": "editor",
+   "file": "content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md",
+   "field": "body, the @image line",
+   "commit": "646a3ad1",
+   "kind": "image",
+   "severity": "wrong",
+   "owner": "editor",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-editor-6",
+   "by": "editor",
+   "file": "content/joan-of-arc/pages/070-after-her/050-the-retrial/text/en.md",
+   "field": "body, the @image line",
+   "commit": "646a3ad1",
+   "kind": "image",
+   "severity": "wrong",
+   "owner": "editor",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-editor-7",
+   "by": "editor",
+   "file": "content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md",
+   "field": "body, the @image line",
+   "commit": "646a3ad1",
+   "kind": "image",
+   "severity": "wrong",
+   "owner": "editor",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-fact-checker-15",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/.plan/fixes/070.yaml",
+   "field": "commit, of the seven entries of 070-editor-1 to 070-editor-7",
+   "commit": "ec0556aa",
+   "kind": "check",
+   "severity": "weak",
+   "owner": "editor",
    "steppedIn": false
   },
   {

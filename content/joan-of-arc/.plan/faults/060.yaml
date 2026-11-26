@@ -1237,3 +1237,27 @@
   owner: editor
   state: fixed
   between: "060-the-old-market shows vieux-marche-pyre-97466c twice, on the marker old-market-1431 and in the text; 010 to 050 show a marker image once"
+- id: 060-fact-checker-32
+  severity: weak
+  file: content/joan-of-arc/shared/images/burning-at-rouen-miniature-8d31d7/image.yaml
+  field: caption
+  replaces: clause
+  old: "Vigiles de Charles VII of Martial d'Auvergne, about 1484 (BnF, Français 5054, folio 71)"
+  new: "Vigiles de Charles VII, about 1484"
+  source: "content/joan-of-arc/.candidates/rouen/index.yaml, 09-Vigiles_du_roi_Charles_VII_10.jpg: title \"Vigiles du roi Charles VII 10.jpg\", author \"AnonymousUnknown author\", date \"circa 1484\", description \"Jeanne d'Arc au bûcher, le 30 mai 1431.\" The entry gives no author of the work, no shelfmark and no folio, and no line of the digest does; folio 71 stands in no file of the story (Martial d'Auvergne and Français 5054 stand only in the entries of other images, after-her-2, and in France's footnotes)"
+  kind: image
+  introduced: images
+  owner: image-finder
+  state: fixed
+- id: 060-fact-checker-33
+  severity: weak
+  file: content/joan-of-arc/shared/images/trial-of-condemnation-manuscript-b3fe63/image.yaml
+  field: caption
+  replaces: clause
+  old: "record of her trial, the Processus in causa fidei contra quamdam mulierem Joannam (BnF, Latin 5969)"
+  new: "record of her trial (BnF, Latin 5969)"
+  source: "content/joan-of-arc/.candidates/rouen/index.yaml, 14-BNF_Latin_5969_folio_1_-_Jeanne_d_Arc_et_Cauchon.jpg: title \"BNF Latin 5969, folio 1 - Jeanne d'Arc et Cauchon.jpg\", date \"15th century\", description \"Manuscript portrait of Bishop en:Pierre Cauchon, the chief official at Joan of Arc's trial and condemnation.\" No file of the story gives the title \"Processus in causa fidei contra quamdam mulierem Joannam\" (grep of .references, .wikipedia and .plan). The rest stands: Quicherat 5 (archive.org-download-ProcesDeCondamnationV5-ProcesDeCondamnationV5-djvu.txt.txt, lines 18426-18436), among the manuscripts of the trial of condemnation: \"n° 5969, latin ... Écriture gothique coulée de la fin du xv° siècle ... L'u initial de Universis présentes litteras ... est une grande lettre ornée dans laquelle est exécuté un petit sujet en miniature. On a voulu représenter une scène du procès\""
+  kind: image
+  introduced: images
+  owner: image-finder
+  state: fixed

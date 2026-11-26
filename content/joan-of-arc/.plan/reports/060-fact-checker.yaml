@@ -74,3 +74,17 @@
   stale: []
   rechecked: "git diff 6c6d72c8 -- pages/060-rouen: 060-fact-checker-9 to 29, 060-section-reviewer-1 to 17 and 060-overseer-1 stand as logged and against their sources (the summons of 14 July, Barrett 485-495; Guesdon, Murray 15091-15115; Champion on Le Maistre, Barrett 9390; the record of 29 May, Barrett 8160; 060.67, 060.68; France on the letter to Saint-Quentin; Lowell and Lang on Noyon)"
   claims_checked: {beaulieu-and-beaurevoir: 9, sold-to-the-english: 8, the-court: 6, the-questioning: 2, saint-ouen: 7, the-old-market: 6}
+- step: edit
+  task: recheck
+  status: pass
+  changed_files:
+    - content/joan-of-arc/shared/images/burning-at-rouen-miniature-8d31d7/image.yaml
+    - content/joan-of-arc/shared/images/trial-of-condemnation-manuscript-b3fe63/image.yaml
+    - content/joan-of-arc/.plan/faults/060.yaml
+    - content/joan-of-arc/.plan/fixes/060.yaml
+  faults: [060-fact-checker-32, 060-fact-checker-33]
+  unresolved: []
+  stale: []
+  rechecked: "git diff 041baa8b HEAD -- pages/060-rouen .plans/pages060.mjs: 060-map-auditor-4 (9df0afc0) stands, the marker note keeps 'by the record' and the text's note keeps Canon Dunand (060.31); 060-editor-2 to 6 (aa448627) stand, each removed @image line's image shows on its page's marker (beaurevoir-1430, le-crotoy-1430, great-tower-1431, saint-ouen-1431, old-market-1431). The seven captions held against .candidates/rouen/index.yaml: two lost a name the entry and the digest lack"
+  unlogged: "compiegne-summons-1430 lost its rank: 1 in pages060.mjs and 010-beaulieu-and-beaurevoir/markers.yaml in 9df0afc0 with no fault and no fix-log entry; a map display change, the map-auditor's to log"
+  claims_checked: {beaulieu-and-beaurevoir: 2, sold-to-the-english: 2, the-court: 4, the-questioning: 2, saint-ouen: 2, the-old-market: 4}

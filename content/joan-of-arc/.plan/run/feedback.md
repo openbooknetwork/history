@@ -141,3 +141,20 @@ one of `slice.mjs` (a Name cell is split at `;`). The output for alexander-the-g
 
 **Proposed change.** `agents/` tells the names agent to write the short forms into the Name cell from the start,
 and the cells "First named in" are settled once, after the texts, and not guessed before any text exists.
+
+## 11. An agent's static build shows no image and no relief, because it lacks `--local-assets`
+
+**What happens.** "Checking a story" in `agents/pages.md` has an agent that serves a static build run
+`harita build --story <story> --out <dir>`. That build links each image and each elevation tile from the asset
+store, which holds nothing of a new story. `harita dev`, which the same notes give a local overseer, builds with
+`--local-assets`. So in a cloud run, where every agent serves a static build, every capture showed the images
+broken and the close-in pages without their relief. Note 8 above put the missing base map down to Chrome and
+the proxy: that guess was wrong.
+
+**What it cost.** Seven image finders, seven reviewers and the story auditor could not look at one image in
+place, each said so, and the overseer wrote it into the pull request as a thing no agent could see. One flag
+would have shown them. The overseer found the cause only when the user asked whether the story builds locally.
+
+**Proposed change.** `agents/pages.md` and `agents/cloud.md` give the static build as
+`harita build --local-assets --story <story> --out <dir>`, and `scripts/audit-pack.mjs` builds its site the same
+way.

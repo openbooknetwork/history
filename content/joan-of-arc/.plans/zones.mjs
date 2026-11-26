@@ -247,7 +247,7 @@ z.zone('english-compiegne-1429', { family: 'english', name: 'The English kings\'
 z.zone('english-sep-1429', { family: 'english', name: 'The English kings\' lands' }, z.diff(z.union(ABROAD, NORTH28), REIMS_CUT, AUG_CUT, SEP_CUT, LAGNY_CUT, BRAY_CUT), {
   inside: pick('paris', 'saint_denis', 'vincennes', 'meaux', 'montereau', 'melun', 'sens', 'pontoise', 'rouen', 'chartres', 'eu', 'aumale', 'blangy', 'calais'),
   outside: pick('compiegne', 'senlis', 'beauvais', 'creil', 'pont_sainte_maxence', 'choisy', 'gournay', 'lagny', 'bray', 'crepy', 'le_crotoy') });
-// From the summer of 1430 to the coronation of December 1431, the map burgundy-changes-sides shows (cloud ruling):
+// From May 1430 to the coronation of December 1431, the map burgundy-changes-sides shows (cloud ruling):
 // Chartres English to April 1432 (070.59)
 z.zone('english-1430', { family: 'english', name: 'The English kings\' lands' }, z.diff(z.union(ABROAD, NORTH28), REIMS_CUT, AUG_CUT, SEP_CUT, LAGNY_CUT, BRAY_CUT, TOWNS30), {
   inside: pick('paris', 'saint_denis', 'vincennes', 'meaux', 'montereau', 'pontoise', 'rouen', 'chartres', 'eu', 'aumale', 'blangy', 'calais'),

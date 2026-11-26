@@ -300,3 +300,59 @@
   old: "with Chartres and Étampes left English as `names.md` has them"
   new: "with Chartres and Étampes left English (020.13: men of Chartres reinforce Salisbury; 040.33: Fastolf flees from Patay to Étampes)"
   commit: 048075d9
+- fault: story-map-auditor-10
+  by: map-keeper
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "TOWNS30 and SOISSONS30, new shapes, and the zones english-1430 and burgundy-1430; written to shared/zones/english-1430.geojson and burgundy-1430.geojson"
+  old: "no stage after english-sep-1429 and burgundy-1420"
+  new: "english-1430: the shape of english-sep-1429 less TOWNS30, circles of 5 km round Melun (050.45, 070.58) and Sens (070.58), Montereau and Chartres left inside; burgundy-1430: BURGUNDY20 with SOISSONS30, a circle of 5 km round Soissons (050.54); each with its inside and outside tests"
+  commit: 63a4a6a3
+- fault: story-map-auditor-10
+  by: map-keeper
+  file: content/joan-of-arc/shared/zones.yaml
+  field: france-sep-1429 (its comment) and france-1430 (new)
+  old: "france-sep-1429: {zone: france-1407, name: \"The kingdom of Charles VII\"}      # with english-sep-1429: 050 from paris, 060, burgundy-changes-sides"
+  new: "france-sep-1429: {zone: france-1407, name: \"The kingdom of Charles VII\"}      # with english-sep-1429 and burgundy-1420: 050 from paris\nfrance-1430: {zone: france-1407, name: \"The kingdom of Charles VII\"}          # with english-1430 and burgundy-1430: beaulieu-and-beaurevoir, sold-to-the-english, the-court, burgundy-changes-sides"
+  commit: 63a4a6a3
+- fault: story-map-auditor-10
+  by: map-keeper
+  file: content/joan-of-arc/.plan/060-rouen/map.yaml
+  field: "beaulieu-and-beaurevoir.zones, sold-to-the-english.zones, the-court.zones"
+  old: "[france-sep-1429, english-sep-1429, burgundy-1420, brittany-1407]"
+  new: "[france-1430, english-1430, burgundy-1430, brittany-1407]"
+  commit: 63a4a6a3
+- fault: story-map-auditor-10
+  by: map-keeper
+  file: content/joan-of-arc/.plan/070-after-her/map.yaml
+  field: "burgundy-changes-sides.zones; paris-opens, normandy-won-back, castillon and the-retrial .zones; afterwards.bare"
+  old: "burgundy-changes-sides: [france-sep-1429, english-sep-1429, burgundy-1420, brittany-1407]; the other four pages burgundy-1420; afterwards.bare burgundy-1420"
+  new: "burgundy-changes-sides: [france-1430, english-1430, burgundy-1430, brittany-1407]; the other four pages burgundy-1430; afterwards.bare burgundy-1430"
+  commit: 63a4a6a3
+- fault: story-map-auditor-10
+  by: map-keeper
+  file: content/joan-of-arc/.plan/brief.md
+  field: "Map, How the zones fit, the holds held for the other side"
+  old: "Melun in April 1430 (050.45),\nSoissons sold to Burgundy (050.54), and Maxey (010.16)."
+  new: "Melun in April 1430 (050.45)\nand Soissons sold to Burgundy (050.54) on the pages that tell them, english-1430 and burgundy-1430 carrying them on\nthe pages after, and Maxey (010.16)."
+  commit: 63a4a6a3
+- fault: story-map-auditor-10
+  by: map-keeper
+  file: content/joan-of-arc/.plan/brief.md
+  field: "Map, Zones, the row france-1422, Land and year and Sections"
+  old: "`france-sep-1429`, `france-1436`, ... france-sep-1429: as english-sep-1429, the four Rouen pages aside;"
+  new: "`france-sep-1429`, `france-1430`, `france-1436`, ... france-sep-1429: as english-sep-1429, the Rouen pages aside; france-1430: as english-1430;"
+  commit: 63a4a6a3
+- fault: story-map-auditor-10
+  by: map-keeper
+  file: content/joan-of-arc/.plan/brief.md
+  field: "Map, Zones, the row english-sep-1429, Land and year and Sections; the rows english-1430 and burgundy-1430 (new)"
+  old: "September 1429 – 1435 | ... | 050 (from paris), 060, 070 (burgundy-changes-sides) |"
+  new: "September 1429 – spring 1430 | ... | 050 (from paris), 060 (the-questioning, saint-ouen, the-old-market, whose frames lie inside Rouen) |, and the new rows english-1430 (english-sep-1429 with Melun and Sens gone, each a circle; May 1430 – April 1432; 050.45, 070.58, 070.59, 070.65; 060 beaulieu-and-beaurevoir, sold-to-the-english, the-court, 070 burgundy-changes-sides) and burgundy-1430 (burgundy-1420 with Soissons, a circle; 050.54; 060 from beaulieu-and-beaurevoir, 070 to the-retrial)"
+  commit: 63a4a6a3
+- fault: story-map-auditor-10
+  by: map-keeper
+  file: content/joan-of-arc/.plan/brief.md
+  field: "Map, Zones, the row burgundy-1420, Sections"
+  old: "010 (normandy-and-troyes on), 020–070"
+  new: "010 (normandy-and-troyes on), 020–050"
+  commit: 63a4a6a3

@@ -8,6 +8,11 @@
   page beside an english zone of another stage: the land that english zone lacks would show bare.
   `content/joan-of-arc/shared/zones.yaml` holds the entries and says which page takes which.
 - `english-1429` is a zones.yaml entry with the outline of `english-1428`.
+- From beaulieu-and-beaurevoir on (May 1430), the pages take `burgundy-1430` (burgundy-1420 with a circle round
+  Soissons), and beaulieu-and-beaurevoir, sold-to-the-english, the-court and burgundy-changes-sides take `english-1430`
+  (english-sep-1429 less circles round Melun and Sens; Montereau and Chartres English) with `france-1430`.
+  burgundy-changes-sides shows December 1431, by the cloud ruling. The three Rouen pages keep `english-sep-1429` alone;
+  compiegne and melun-and-lagny keep burgundy-1420, and their markers soissons-1430 and melun-1430 carry the change.
 - montepilloy takes `english-compiegne-1429` with `france-compiegne-1429`: Bray on the Seine is English in it, and
   it is gone in `english-sep-1429` from back-to-the-loire on.
 - Aumale and Blangy (the Norman bank of the Bresle) stay English in every zone from 1420 to 1449: their change of
@@ -27,6 +32,8 @@
 ## For the next map keeper
 
 - The generator is `content/joan-of-arc/.plans/zones.mjs`; run it twice and compare. It reads no zone it writes.
+- `france-sep-1429` must stay off every page with burgundy-1430, or Soissons shows bare there: each france id meets one
+  english and one burgundy stage.
 - Natural Earth lacks the Meuse in France, and the Overpass servers did not answer for it or for the Loire at
   Orléans; the Natural Earth Loire cuts across Orléans, so the river below the city is drawn by hand. With a
   working Overpass, `--osm` for both could replace those estimates (`M1`, `M2`, `M3`, `ORLW`); the mask that cuts

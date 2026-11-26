@@ -1068,3 +1068,69 @@
   introduced: images
   owner: image-finder
   state: fixed
+- id: 010-story-auditor-1
+  severity: wrong
+  file: content/joan-of-arc/pages/010-france-divided/060-cravant-and-verneuil/text/en.md
+  field: Notes, the third note
+  replaces: clause
+  old: "The counts of the armies at Verneuil run from Ramsay's 2,000 or 3,000 English to the Bourgeois's 18,000 French."
+  new: "The counts of the armies at Verneuil run from Ramsay's 2,000 or 3,000 English to Beaucourt's 20,000 French, with the Bourgeois's 18,000 French by their own count."
+  source: "010.65: \"the French about 20,000 and the English 14,000, Beaucourt\"; Beaucourt 2, archive.org-rt-histoire-de-charles-vii-v-2-Beaucourt-20Histoire-20de-20Charles-20VII-20v-202-djvu.txt.txt l. 601: \"Une armée, composée d'environ vingt mille combattants, s'avança jusqu'à Nonancourt\"; the card verneuil-1424 gives Beaucourt's 20,000 too"
+  kind: fact
+  claim: "010.65"
+  introduced: texts
+  owner: section-reviewer
+  state: open
+  reader: "takes the Bourgeois's 18,000 for the highest count of the French, and the note against the card, which gives 20,000"
+- id: 010-story-auditor-2
+  severity: weak
+  file: content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md
+  field: Notes, the second note
+  replaces: clause
+  old: "and notes that the villagers spoke of \"going into France\"."
+  new: "and notes that the villagers spoke of \"going into France\", though Joan and Charles VII, he writes, both held Domrémy and Greux to be French soil. Murray's note to the depositions of 1455 has the village, inside the territory of Lorraine, belong to France as a dependency of Champagne."
+  source: "Lang ch. 2, archive.org-download-maidoffrancebein00languoft-maidoffrancebein00languoft-djvu.txt.txt l. 1665-1669: \"Whatever the truth may be ... Jeanne and Charles VII agreed in regarding the sites of Domremy and Greux as French soil\"; Murray's note, archive.org-download-jeannedarcmaidof028754mbp-jeannedarcmaidof028754mbp-djvu.txt.txt l. 11873-11875: \"The village of Domremy, although in the territory of Lorraine, belonged to France, not to Lorraine ; for administrative purposes it was a dependance of Champagne\" (020.9)"
+  kind: attribution
+  claim: "010.14"
+  introduced: research
+  owner: section-reviewer
+  state: open
+  reader: "has two accounts, Bar (Lowell) and the edge of Lorraine (Lang), and no account that Domrémy was French, which is Lang's own conclusion and Murray's; the note tilts the dispute against the kingdom"
+- id: 010-story-auditor-3
+  severity: weak
+  file: content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md
+  field: text
+  replaces: clause
+  old: "The line drawn through the village, along the Three Fountains brook, is approximate."
+  new: "The line through the village follows Lowell's Three Fountains brook and is approximate."
+  source: "010.14 (disputed); content/joan-of-arc/.plans/zones.mjs l. 186: \"the Three Fountains brook through Domrémy, Lowell's edge of Bar (010.14, disputed)\"; capture domremy.png, the village marker on the edge of france-1412 and bar-1412. The new clause is one word shorter: the body stands at the top of its limit"
+  kind: map
+  claim: "010.14"
+  introduced: map-design
+  owner: section-reviewer
+  state: open
+  reader: "sees a border through the village drawn as though it were known, while the text calls its lordship disputed; the drawing takes Lowell's side without saying so"
+- id: 010-story-auditor-4
+  severity: taste
+  file: content/joan-of-arc/shared/battles/bauge-1421/battle.yaml
+  field: sides, the first side's color
+  replaces: value
+  old: scots
+  new: france
+  source: "rules of the story's families (story.yaml: france is 'the Armagnac and then the Dauphin's party'); the same army's route dauphin-1421-bauge is france, and the Dauphin's French and Scots are france on the cards verneuil-1424 and herrings-1429"
+  kind: battle
+  introduced: battles
+  owner: battle-implementor
+  state: open
+  reader: "sees the Dauphin's army in another colour on the card of Baugé than on its own route of the same page and on every other card"
+- id: 010-story-auditor-5
+  severity: weak
+  file: content/joan-of-arc/shared/images/charles-vii-fouquet-portrait-7f767d/image.yaml
+  field: caption
+  new: "the caption says when the portrait was painted, as the Commons file of its credit (File:Jean Fouquet, Portrait de Charles VII, musée du Louvre, INV. 9106.jpg) or the Louvre's entry dates it; no file of the story holds the date, so the image finder reads it there"
+  source: "story-auditor definition, Images: each caption says what its image shows and when it was made; the caption reads 'Charles VII, King of France, painted by Jean Fouquet, in the Louvre.'"
+  kind: image
+  introduced: images
+  owner: image-finder
+  state: open
+  reader: "cannot tell whether the portrait was painted in his lifetime"

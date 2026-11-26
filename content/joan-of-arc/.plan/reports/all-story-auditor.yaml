@@ -1,0 +1,25 @@
+- step: story
+  task: audit
+  status: faults
+  changed_files:
+    - content/joan-of-arc/.plan/faults/010.yaml
+    - content/joan-of-arc/.plan/faults/020.yaml
+    - content/joan-of-arc/.plan/faults/030.yaml
+    - content/joan-of-arc/.plan/faults/040.yaml
+    - content/joan-of-arc/.plan/faults/050.yaml
+    - content/joan-of-arc/.plan/faults/060.yaml
+    - content/joan-of-arc/.plan/faults/070.yaml
+    - content/joan-of-arc/.plan/faults/story.yaml
+  faults: [010-story-auditor-1, 010-story-auditor-2, 010-story-auditor-3, 010-story-auditor-4, 010-story-auditor-5, 020-story-auditor-1, 030-story-auditor-1, 040-story-auditor-1, 040-story-auditor-2, 050-story-auditor-1, 060-story-auditor-1, 060-story-auditor-2, 060-story-auditor-3, 070-story-auditor-1, story-story-auditor-1, story-story-auditor-2]
+  unresolved:
+    - "Store: every image in the captures is a broken image, because the static build loads images from the store, which holds nothing of this story yet; no image could be checked by eye at phone size. The strict build with --no-store passes and reports 1 story still to check against the store once uploaded."
+    - "domremy: Domrémy's lordship (010.14) stays open: Bar (Lowell), the Lorraine march (Lang), French soil (Lang, Murray's note). Proposed: tell all three (010-story-auditor-2) and say that the map follows Lowell (010-story-auditor-3)."
+    - "domremy: her birth year stays open (010.9), told as about 1412. Proposed: as told."
+    - "the-voices: the year of the first voice (020.2), the visit of May 1428 (020.4) and the date of the flight to Neufchâteau (020.11) stay open or disputed; all three are told with their authors. Proposed: as told."
+    - "vaucouleurs-again and chinon-and-poitiers: why Baudricourt yielded (020.40) and what the sign was (020.51, 060.43) are not known, and the pages say so. Proposed: as told."
+    - "eleven-days: the days she left Vaucouleurs and reached Chinon (020.42, 020.43) are disputed with no leading account; both pages give both. Proposed: as told."
+    - "compiegne: whether Flavy shut the gate on her by treason (050.62) stays disputed (Beaucourt). Proposed: as told."
+    - "saint-pierre-and-la-charite: the day the siege of La Charité was raised (050.40) is not known. Proposed: as told."
+    - "saint-ouen and the-old-market: the words she abjured (060.52), why she put on the man's dress again (060.55) and whether she said her voices deceived her (060.66) stay open; each page gives each account. Proposed: as told."
+    - "normandy-won-back: the French losses at Formigny (070.22) are not known. Proposed: as told."
+  stale: []

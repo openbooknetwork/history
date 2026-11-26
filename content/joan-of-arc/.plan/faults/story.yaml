@@ -402,3 +402,26 @@
   state: declined
   between: "050 compiegne and 060 beaulieu-and-beaurevoir / sold-to-the-english: the circle of Sens goes from the English zone with no page that tells it"
   ruling: "cloud ruling: left as it is. The zone is right by 070.58, the change shows only on a phone-sized view of one page, and a marker and a clause for it would be a run of two makers for a town the page does not tell"
+- id: story-story-auditor-1
+  severity: weak
+  file: content/joan-of-arc/.plan/research.md
+  field: lines 010.14 and 020.9
+  new: "010.14 gives the account that Domrémy was French as a third reading of its disputed lordship, with Murray's note and Lang's 'French soil' quoted; 020.9 keeps 'agreed' for Neufchâteau and refers Domrémy's lordship to 010.14, and its Lowell quote, which is on Neufchâteau alone, no longer stands for Domrémy belonging to France"
+  source: "020.9 is 'agreed (Murray's note; Lang; Lowell)' that Domrémy 'belonged to France as a dependency of Champagne', while 010.14 marks the same lordship 'disputed' with Lowell's Bar; Lowell's quote in 020.9 ('miles south to Neufchateau, a walled town belonging to the duke of Lorraine') says nothing of Domrémy; Lang ch. 2 l. 1667-1669 and Murray's note l. 11873-11875"
+  kind: plan
+  claim: "010.14"
+  introduced: research
+  owner: researcher
+  state: open
+  reader: "is given on the page of Domrémy two accounts that leave out the third, since the writer took the dispute from 010.14 alone (010-story-auditor-2)"
+- id: story-story-auditor-2
+  severity: taste
+  file: content/joan-of-arc/.plans/pages070.mjs
+  field: "the colours of the markers caen-1450, cherbourg-1450 (normandy-won-back) and bordeaux-1453 (castillon), with .plans/pages040.mjs for troyes-1429 (auxerre-and-troyes)"
+  new: "a marker inside a zone of another state says why: either its colour follows the holder at the moment the page's zones show (English Caen and Cherbourg at the close of 1449, English Bordeaux in 1452-1453, Troyes English before 10 July), or the closing sentence of the text says that the markers show the page's end and the zones its opening"
+  source: "normandy-won-back: 'When the year ends ... The map draws the English lands round these towns', yet caen-1450 and cherbourg-1450 are france (captures normandy-won-back.png, dark and light); castillon: 'The map shows this English Gascony of 1452 and 1453', yet bordeaux-1453 is france; auxerre-and-troyes: troyes-1429 france inside english-1429"
+  kind: map
+  introduced: maps
+  owner: cartographer
+  state: open
+  reader: "sees a French town in English land and cannot tell which of the two the page means"

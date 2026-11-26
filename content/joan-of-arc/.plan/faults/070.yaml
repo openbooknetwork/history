@@ -813,3 +813,14 @@
   introduced: fix
   owner: editor
   state: fixed
+- id: 070-story-auditor-1
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/page.yaml
+  field: markers
+  new: "a marker for Saint-Denis of 1435 (a page id of its own), linked at the text's 'Saint-Denis', and one for Rouen, where Bedford dies, if the frame allows"
+  source: "070.6 and 070.2; the text tells the French taking of Saint-Denis on 1 June 1435, its siege and the garrison's march out on 4 October, and Bedford's death at Rouen; the page marks only notre-dame-1431 and arras-1435 (capture burgundy-changes-sides.png)"
+  kind: map
+  introduced: plan
+  owner: cartographer
+  state: open
+  reader: "reads of a siege that closes the page's dates and finds no Saint-Denis on its map"

@@ -1032,3 +1032,14 @@
   introduced: images
   owner: image-finder
   state: fixed
+- id: 020-story-auditor-1
+  severity: weak
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/030-vaucouleurs-again/page.yaml
+  field: markers
+  new: "a marker for Burey (Burey-en-Vaux, names.md), the start of the route joan-1429-burey, written by .plans/pages020.mjs into the page's markers.yaml and linked at the text's first 'Burey'"
+  source: "the text names Burey twice ('from his village of Burey', 'The map shows her road from Burey to Vaucouleurs'); the page's markers are [vaucouleurs-1429, nancy-1429, saint-nicolas-de-port]; capture vaucouleurs-again.png shows the route's start with no name"
+  kind: map
+  introduced: maps
+  owner: cartographer
+  state: open
+  reader: "is told the map shows her road from Burey and finds no Burey on it"

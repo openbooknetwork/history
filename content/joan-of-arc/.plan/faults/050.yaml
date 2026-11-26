@@ -1158,3 +1158,14 @@
   introduced: maps
   owner: map-auditor
   state: fixed
+- id: 050-story-auditor-1
+  severity: weak
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/030-back-to-the-loire/page.yaml
+  field: markers
+  new: "markers for the stations of the king's road the text names, at least Lagny, Provins and Sens (where he is refused and fords the Yonne below the town), and Courtenay and Montargis if the frame allows, written by .plans/pages050.mjs and linked in the text"
+  source: "050.29; the text: 'He crosses the Marne at Lagny and goes by Provins to Bray ... Sens will not let him in, so he fords the Yonne a little below it and rides on by Courtenay and Montargis to Gien'; the page marks only saint-denis-abbey, bray-1429 and gien-disbanded (capture back-to-the-loire.png)"
+  kind: map
+  introduced: plan
+  owner: cartographer
+  state: open
+  reader: "follows a road through five named towns on a line that names none of them"

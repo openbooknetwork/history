@@ -900,3 +900,31 @@
   owner: editor
   state: fixed
   between: "040 the-towns-come-over first names him with no word on who he is; 060 saint-ouen and 070 burgundy-changes-sides introduce him"
+- id: 040-story-auditor-1
+  severity: weak
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/060-the-towns-come-over/text/en.md
+  field: text
+  replaces: clause
+  old: "names Laon, [Sens](@sens-1429) and Provins among the cities lost after Orléans."
+  new: "names Laon, Provins and [Sens](@sens-1429) among the cities lost after Orléans, though Sens holds out against the king that September."
+  source: "050.29 (Cagny, 1429, pp. 169-170: the king passes 'pardevant Sens, qui ne luy feist aucune ouverture'); 070.58 (Sens the king's from 1430, Beaucourt); the marker sens-1429 is english (capture the-towns-come-over.png). The body grows from about 325 to 334 words: under the hard limit, and the reason for the length is this clause"
+  kind: order
+  claim: "040.86"
+  introduced: texts
+  owner: section-reviewer
+  state: open
+  reader: "reads Sens among the towns lost in the summer of 1429 and sees it marked English on the same map, with nothing to reconcile the two"
+- id: 040-story-auditor-2
+  severity: taste
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/050-reims/text/en.md
+  field: text
+  replaces: clause
+  old: "Joan is told that the duke will hand over Paris when it ends."
+  new: "Joan is told, Ramsay writes, that the duke will hand over Paris when it ends."
+  source: "040.72: 'single. Ramsay; Lowell has only that truces were probably proposed'"
+  kind: attribution
+  claim: "040.72"
+  introduced: texts
+  owner: section-reviewer
+  state: open
+  reader: "takes the promise of Paris as a fact every source gives, where it is Ramsay's alone"

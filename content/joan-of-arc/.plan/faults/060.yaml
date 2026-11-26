@@ -1261,3 +1261,45 @@
   introduced: images
   owner: image-finder
   state: fixed
+- id: 060-story-auditor-1
+  severity: taste
+  file: content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md
+  field: text
+  replaces: clause
+  old: "she hears a sermon by Guillaume Erard."
+  new: "she hears a sermon by the doctor Guillaume Erard."
+  source: "names.md, row Guillaume Erard: 'the doctor who preached at Saint-Ouen on 24 May 1431' (060.49); agents/text.md, 3: a person gets a few words on who they are where the page first names them"
+  kind: wording
+  claim: "060.49"
+  introduced: texts
+  owner: section-reviewer
+  state: open
+  reader: "meets a name with nothing to say who he is"
+- id: 060-story-auditor-2
+  severity: taste
+  file: content/joan-of-arc/pages/060-rouen/040-the-questioning/text/en.md
+  field: text
+  replaces: clause
+  old: "On 27 March Thomas de Courcelles reads her the charges"
+  new: "On 27 March Thomas de Courcelles, a doctor of Paris, reads her the charges"
+  source: "names.md, row Thomas de Courcelles: 'the doctor of Paris who read the articles to her' (060.45); agents/text.md, 3"
+  kind: wording
+  claim: "060.45"
+  introduced: texts
+  owner: section-reviewer
+  state: open
+  reader: "meets Courcelles, and in the next sentence Nicolas Midi, with nothing to say who either is"
+- id: 060-story-auditor-3
+  severity: taste
+  file: content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md
+  field: text
+  replaces: clause
+  old: "and Nicolas Midi preaches."
+  new: "and Nicolas Midi, a doctor of Paris, preaches."
+  source: "names.md, row Nicolas Midi: 'the doctor of Paris who cut the articles to twelve and preached at the Old Market' (060.60); agents/text.md, 3. The body grows from about 297 to 301 words"
+  kind: wording
+  claim: "060.60"
+  introduced: texts
+  owner: section-reviewer
+  state: open
+  reader: "who opens the story at its last page of Rouen meets Midi with nothing to say who he is"

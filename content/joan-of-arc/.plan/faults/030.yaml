@@ -1345,3 +1345,14 @@
   owner: editor
   state: fixed
   between: "030 from-blois against 050 and 060, which give a witness of the retrial no year"
+- id: 030-story-auditor-1
+  severity: weak
+  file: content/joan-of-arc/pages/030-orleans/020-the-army-of-blois/page.yaml
+  field: markers
+  new: "markers, by page ids of their own, for the bastille of Saint-Loup and the works of the south bank the text lists (Saint-Jean-le-Blanc, the Augustins, Saint-Privé, the Tourelles), all inside the page's bbox; or, if the cartographer keeps them off for crowding, the closing sentence says that the map marks the bastilles north and west of the city only"
+  source: "030.3 (the bastilles by name); the text lists 'Saint-Loup to the east' and the four works of the south bank and closes 'The map shows the bastilles and the army's road round the north of the city'; the page marks only London, Rouen, Paris, Saint-Laurent and the Île Charlemagne (capture the-army-of-blois.png)"
+  kind: map
+  introduced: plan
+  owner: cartographer
+  state: open
+  reader: "is told the map shows the bastilles and finds five of the ten the text names; Saint-Loup, the fort of the next page, is not on it"

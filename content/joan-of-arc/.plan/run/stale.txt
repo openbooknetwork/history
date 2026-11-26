@@ -9,6 +9,8 @@
 010 cartographer: rules.md changed
 010 fact-checker: names.md#010 changed
 010 fact-checker: research.md#010 changed
+010 fact-checker: rules.md changed
+010 image-finder: rules.md changed
 010 map-auditor: 010-france-divided/map.yaml#harfleur-and-agincourt changed
 010 map-auditor: 010-france-divided/map.yaml#normandy-and-troyes changed
 010 map-auditor: 010-france-divided/map.yaml#two-kings changed
@@ -25,11 +27,13 @@
 010 research-reviewer: 010-france-divided/pages.yaml#two-kings changed
 010 research-reviewer: rules.md changed
 010 research-reviewer: sources.md changed
+010 researcher: rules.md changed
 010 section-coordinator: brief.md#010 changed
 010 section-coordinator: names.md#010 changed
 010 section-coordinator: research.md#010 changed
 010 section-coordinator: rules.md changed
 010 section-reviewer: names.md#010 changed
+010 section-reviewer: rules.md changed
 010 section-writer: 010-france-divided/pages.yaml#normandy-and-troyes changed
 010 section-writer: 010-france-divided/text.yaml#cravant-and-verneuil changed
 010 section-writer: 010-france-divided/text.yaml#harfleur-and-agincourt changed
@@ -41,9 +45,11 @@
 020 cartographer: 020-the-road-to-chinon/pages.yaml#vaucouleurs-again changed
 020 cartographer: brief.md#020 changed
 020 cartographer: names.md#020 changed
+020 cartographer: rules.md changed
 020 fact-checker: 020-the-road-to-chinon/pages.yaml#vaucouleurs-again changed
 020 fact-checker: names.md#020 changed
 020 fact-checker: research.md#020 changed
+020 fact-checker: rules.md changed
 020 image-finder: 020-the-road-to-chinon/pages.yaml#chinon-and-poitiers changed
 020 image-finder: 020-the-road-to-chinon/pages.yaml#vaucouleurs-again changed
 020 image-finder: rules.md changed
@@ -83,8 +89,10 @@
 030 cartographer: 030-orleans/pages.yaml#the-army-of-blois changed
 030 cartographer: brief.md#030 changed
 030 cartographer: names.md#030 changed
+030 cartographer: rules.md changed
 030 fact-checker: 030-orleans/pages.yaml#the-army-of-blois changed
 030 fact-checker: names.md#030 changed
+030 fact-checker: rules.md changed
 030 image-finder: 030-orleans/pages.yaml#storming-saint-loup changed
 030 image-finder: 030-orleans/pages.yaml#the-army-of-blois changed
 030 image-finder: 030-orleans/text.yaml#the-augustins changed
@@ -130,6 +138,10 @@
 030 section-writer: names.md#030 changed
 030 section-writer: research.md#030 changed
 030 section-writer: rules.md changed
+040 battle-coordinator patay-1429: 040-the-loire-and-reims/pages.yaml#patay-the-rout changed
+040 battle-coordinator patay-1429: 040-the-loire-and-reims/pages.yaml#patay-the-stag changed
+040 battle-coordinator patay-1429: names.md#040 changed
+040 battle-coordinator patay-1429: research.md#040 changed
 040 cartographer: 040-the-loire-and-reims/map.yaml#auxerre-and-troyes changed
 040 cartographer: 040-the-loire-and-reims/map.yaml#meung-and-beaugency changed
 040 cartographer: 040-the-loire-and-reims/map.yaml#patay changed
@@ -138,47 +150,75 @@
 040 cartographer: 040-the-loire-and-reims/pages.yaml#auxerre-and-troyes changed
 040 cartographer: 040-the-loire-and-reims/pages.yaml#meung-and-beaugency changed
 040 cartographer: 040-the-loire-and-reims/pages.yaml#patay changed
+040 cartographer: 040-the-loire-and-reims/pages.yaml#patay-the-hedges is new
+040 cartographer: 040-the-loire-and-reims/pages.yaml#patay-the-rout is new
+040 cartographer: 040-the-loire-and-reims/pages.yaml#patay-the-stag is new
 040 cartographer: 040-the-loire-and-reims/pages.yaml#reims changed
 040 cartographer: 040-the-loire-and-reims/pages.yaml#the-towns-come-over changed
 040 cartographer: brief.md#040 changed
 040 cartographer: names.md#040 changed
 040 cartographer: rules.md changed
-040 fact-checker: names.md#040 changed
+040 fact-checker patay-1429: 040-the-loire-and-reims/pages.yaml#patay-the-rout changed
+040 fact-checker patay-1429: 040-the-loire-and-reims/pages.yaml#patay-the-stag changed
+040 fact-checker patay-1429: names.md#040 changed
+040 fact-checker patay-1429: research.md#040 changed
 040 image-finder: 040-the-loire-and-reims/pages.yaml#auxerre-and-troyes changed
 040 image-finder: 040-the-loire-and-reims/pages.yaml#meung-and-beaugency changed
 040 image-finder: 040-the-loire-and-reims/pages.yaml#patay changed
+040 image-finder: 040-the-loire-and-reims/pages.yaml#patay-the-hedges is new
+040 image-finder: 040-the-loire-and-reims/pages.yaml#patay-the-rout is new
+040 image-finder: 040-the-loire-and-reims/pages.yaml#patay-the-stag is new
 040 image-finder: 040-the-loire-and-reims/pages.yaml#reims changed
 040 image-finder: 040-the-loire-and-reims/pages.yaml#the-towns-come-over changed
 040 image-finder: 040-the-loire-and-reims/text.yaml#patay changed
 040 image-finder: 040-the-loire-and-reims/text.yaml#the-towns-come-over changed
 040 image-finder: rules.md changed
+040 map-auditor: 040-the-loire-and-reims/pages.yaml#patay changed
+040 map-auditor: 040-the-loire-and-reims/pages.yaml#patay-the-hedges is new
+040 map-auditor: 040-the-loire-and-reims/pages.yaml#patay-the-rout is new
+040 map-auditor: 040-the-loire-and-reims/pages.yaml#patay-the-stag is new
 040 map-auditor: brief.md#040 changed
 040 map-auditor: ground.yaml changed
+040 map-auditor: research.md#040 changed
 040 map-auditor: rules.md changed
 040 research-reviewer: 040-the-loire-and-reims/pages.yaml#auxerre-and-troyes changed
 040 research-reviewer: 040-the-loire-and-reims/pages.yaml#jargeau changed
 040 research-reviewer: 040-the-loire-and-reims/pages.yaml#meung-and-beaugency changed
 040 research-reviewer: 040-the-loire-and-reims/pages.yaml#patay changed
+040 research-reviewer: 040-the-loire-and-reims/pages.yaml#patay-the-hedges is new
+040 research-reviewer: 040-the-loire-and-reims/pages.yaml#patay-the-rout is new
+040 research-reviewer: 040-the-loire-and-reims/pages.yaml#patay-the-stag is new
 040 research-reviewer: 040-the-loire-and-reims/pages.yaml#reims changed
 040 research-reviewer: 040-the-loire-and-reims/pages.yaml#the-towns-come-over changed
 040 research-reviewer: rules.md changed
 040 research-reviewer: sources.md changed
+040 researcher patay-1429: 040-the-loire-and-reims/pages.yaml#patay-the-rout changed
+040 researcher patay-1429: 040-the-loire-and-reims/pages.yaml#patay-the-stag changed
 040 researcher: 040-the-loire-and-reims/pages.yaml#auxerre-and-troyes changed
 040 researcher: 040-the-loire-and-reims/pages.yaml#jargeau changed
 040 researcher: 040-the-loire-and-reims/pages.yaml#meung-and-beaugency changed
 040 researcher: 040-the-loire-and-reims/pages.yaml#patay changed
+040 researcher: 040-the-loire-and-reims/pages.yaml#patay-the-hedges is new
+040 researcher: 040-the-loire-and-reims/pages.yaml#patay-the-rout is new
+040 researcher: 040-the-loire-and-reims/pages.yaml#patay-the-stag is new
 040 researcher: 040-the-loire-and-reims/pages.yaml#reims changed
 040 researcher: 040-the-loire-and-reims/pages.yaml#the-towns-come-over changed
 040 researcher: rules.md changed
 040 researcher: sources.md changed
-040 section-coordinator: brief.md#040 changed
-040 section-coordinator: names.md#040 is new
+040 section-coordinator: names.md#040 changed
 040 section-coordinator: research.md#040 changed
-040 section-coordinator: rules.md changed
+040 section-reviewer: 040-the-loire-and-reims/pages.yaml#patay changed
+040 section-reviewer: 040-the-loire-and-reims/pages.yaml#patay-the-hedges is new
+040 section-reviewer: 040-the-loire-and-reims/pages.yaml#patay-the-rout is new
+040 section-reviewer: 040-the-loire-and-reims/pages.yaml#patay-the-stag is new
 040 section-reviewer: names.md#040 changed
+040 section-reviewer: rules.md changed
 040 section-writer: 040-the-loire-and-reims/pages.yaml#auxerre-and-troyes changed
 040 section-writer: 040-the-loire-and-reims/pages.yaml#meung-and-beaugency changed
 040 section-writer: 040-the-loire-and-reims/pages.yaml#patay changed
+040 section-writer: 040-the-loire-and-reims/pages.yaml#patay-the-hedges is new
+040 section-writer: 040-the-loire-and-reims/pages.yaml#patay-the-rout is new
+040 section-writer: 040-the-loire-and-reims/pages.yaml#patay-the-stag is new
 040 section-writer: 040-the-loire-and-reims/pages.yaml#reims changed
 040 section-writer: 040-the-loire-and-reims/pages.yaml#the-towns-come-over changed
 040 section-writer: 040-the-loire-and-reims/text.yaml#patay changed
@@ -190,6 +230,7 @@
 050 cartographer: 050-paris-and-compiegne/pages.yaml#back-to-the-loire changed
 050 cartographer: brief.md#050 changed
 050 cartographer: names.md#050 changed
+050 cartographer: rules.md changed
 050 fact-checker: 050-paris-and-compiegne/pages.yaml#back-to-the-loire changed
 050 fact-checker: names.md#050 changed
 050 fact-checker: rules.md changed
@@ -244,6 +285,7 @@
 060 cartographer: names.md#060 changed
 060 cartographer: rules.md changed
 060 fact-checker: names.md#060 changed
+060 fact-checker: rules.md changed
 060 image-finder: 060-rouen/pages.yaml#beaulieu-and-beaurevoir changed
 060 image-finder: 060-rouen/pages.yaml#saint-ouen changed
 060 image-finder: 060-rouen/pages.yaml#sold-to-the-english changed
@@ -275,6 +317,7 @@
 060 section-coordinator: research.md#060 changed
 060 section-coordinator: rules.md changed
 060 section-reviewer: names.md#060 changed
+060 section-reviewer: rules.md changed
 060 section-writer: 060-rouen/pages.yaml#beaulieu-and-beaurevoir changed
 060 section-writer: 060-rouen/pages.yaml#saint-ouen changed
 060 section-writer: 060-rouen/pages.yaml#sold-to-the-english changed
@@ -288,8 +331,10 @@
 070 cartographer: 070-after-her/pages.yaml#burgundy-changes-sides changed
 070 cartographer: brief.md#070 changed
 070 cartographer: names.md#070 changed
+070 cartographer: rules.md changed
 070 fact-checker: 070-after-her/pages.yaml#burgundy-changes-sides changed
 070 fact-checker: names.md#070 changed
+070 fact-checker: rules.md changed
 070 image-finder: 070-after-her/pages.yaml#burgundy-changes-sides changed
 070 image-finder: 070-after-her/text.yaml#the-retrial changed
 070 image-finder: rules.md changed
@@ -323,10 +368,15 @@
 070 section-writer: rules.md changed
 all editor: 020-the-road-to-chinon/pages.yaml#vaucouleurs-again changed
 all editor: 030-orleans/pages.yaml#the-army-of-blois changed
+all editor: 040-the-loire-and-reims/pages.yaml#patay changed
+all editor: 040-the-loire-and-reims/pages.yaml#patay-the-hedges is new
+all editor: 040-the-loire-and-reims/pages.yaml#patay-the-rout is new
+all editor: 040-the-loire-and-reims/pages.yaml#patay-the-stag is new
 all editor: 050-paris-and-compiegne/pages.yaml#back-to-the-loire changed
 all editor: 070-after-her/pages.yaml#burgundy-changes-sides changed
 all editor: brief.md changed
 all editor: names.md changed
+all editor: rules.md changed
 all map-architect: brief.md changed
 all map-architect: names.md changed
 all map-architect: research.md changed
@@ -358,6 +408,9 @@ all map-auditor: 040-the-loire-and-reims/map.yaml#the-towns-come-over changed
 all map-auditor: 040-the-loire-and-reims/pages.yaml#auxerre-and-troyes changed
 all map-auditor: 040-the-loire-and-reims/pages.yaml#meung-and-beaugency changed
 all map-auditor: 040-the-loire-and-reims/pages.yaml#patay changed
+all map-auditor: 040-the-loire-and-reims/pages.yaml#patay-the-hedges is new
+all map-auditor: 040-the-loire-and-reims/pages.yaml#patay-the-rout is new
+all map-auditor: 040-the-loire-and-reims/pages.yaml#patay-the-stag is new
 all map-auditor: 040-the-loire-and-reims/pages.yaml#reims changed
 all map-auditor: 040-the-loire-and-reims/pages.yaml#the-towns-come-over changed
 all map-auditor: 050-paris-and-compiegne/map.yaml#back-to-the-loire changed
@@ -412,7 +465,10 @@ all map-keeper: research.md changed
 all map-keeper: rules.md changed
 all names: brief.md changed
 all names: research.md changed
+all names: rules.md changed
 all research-coordinator: brief.md changed
 all research-coordinator: rules.md changed
 all research-coordinator: sources.md changed
 all story-auditor: names.md changed
+all story-auditor: research.md changed
+all story-auditor: rules.md changed

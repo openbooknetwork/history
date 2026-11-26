@@ -14,7 +14,10 @@ Patay (patay-1429) is the story's only battle with phase pages (rules.md). Its p
   is flagged small by units-check.
 - At the laptop capture (about 11 m a pixel) a marker's label runs about 65 px, some 700 m, to each side of its
   icon, above or below it. A commander's marker beside the road column needs |w| of about 950 m or more, or its
-  label covers the blocks on the road (040-battle-auditor-4 and -5).
+  label covers the blocks on the road (040-battle-auditor-4, -5 and -6). All three phases now keep each
+  commander's marker at |w| 700 to 1100. Keep it that way when you move a unit.
+- A commit can land while you work, with your generator's change in it. Take the fix log's `commit` from
+  `git rev-parse --short HEAD` before you edit.
 - names-check runs as a hook on every text save. "Lord X, Lord Y" with no word of the rows' "Who" in the sentence
   is flagged as a bare "Lord"; "The English captains Lord Talbot, Lord Scales ..." passes.
 - Every phase page carries the note of where the battle was fought, with each author's place (040.39), France's

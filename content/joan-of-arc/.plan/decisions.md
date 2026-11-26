@@ -410,3 +410,13 @@
 - cloud ruling: 040.93, the fate of the English main body, is told as Wavrin has it, and a note on `patay-the-rout`
   gives Ramsay's account with his name — the same ruling as for 040.91 and 040.92.
 - Patay's phases built (battle-implementor): three phase pages, `031-patay-the-hedges`, `032-patay-the-stag` and `033-patay-the-rout`, from `.plans/patay-1429.mjs`; each has a note with every author's place for the battle. The card names Rempston where it named Scales, and the overview text gives Monstrelet's stakes to "the English on foot".
+- Patay's phases: done, 26 Nov 2026. Three phase pages after `patay`, built from `.plans/patay-1429.mjs`, audited by the
+  battle auditor (its last report `pass`, after three labels were moved off the units they covered) and
+  fact-checked (60 claims; two faults fixed). The field is one best guess, the road north into Patay, and each
+  phase page says in a note that the place is disputed, with every author's place.
+- the story after Patay's phases, 26 Nov 2026: 44 pages, 41 and three phase pages. `harita check` prints ok; the strict
+  build with `--no-store` ends well, 44 pages; `rules-lint`, `names-check` and `plan-check` print ok; `quotes-check`
+  ok for 1,635 quotes; 649 faults in the lists, 646 fixed and 3 declined, none open. The story-auditor, at its
+  bound, has not read the three phase pages, and the editor has not read them beside the rest: the pull request
+  stays a draft.
+- ledger after `Patay's phases`: | **total** | 145 | 3,991 | 702,904 | 8,141 | 28,031,079 | 693,071,535 | 4,958,365 | 129,145,968 |

@@ -810,3 +810,10 @@
   old: "for Janville, two leagues off, and"
   new: "for Janville, two leagues beyond Patay, and"
   commit: e4e8ea09
+- fault: 040-battle-auditor-6
+  by: battle-implementor
+  file: content/joan-of-arc/.plans/patay-1429.mjs
+  field: "patay-the-stag, the marker patay-the-stag-fastolf (written to 032-patay-the-stag/markers.yaml)"
+  old: "'patay-the-stag-fastolf': mark(-850, -520, 'Fastolf', 'Hurries on with the main body', 'english'),"
+  new: "'patay-the-stag-fastolf': mark(-1100, 950, 'Fastolf', 'Hurries on with the main body', 'english'),"
+  commit: 8f950df0

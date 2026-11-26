@@ -1,7 +1,7 @@
 {
  "variant": null,
  "story": "joan-of-arc",
- "pages": 41,
+ "pages": 44,
  "order": [
   "brief",
   "survey",
@@ -30,7 +30,7 @@
    "parent": "-",
    "model": "claude-fable-5-2",
    "start": "2026-11-26T08:58:19.988Z",
-   "end": "2026-11-26T17:05:39.028Z",
+   "end": "2026-11-26T19:45:19.790Z",
    "description": ""
   },
   {
@@ -565,6 +565,15 @@
    "description": "facts 070 fact-checker check"
   },
   {
+   "agent": "a74d1da93fe93a188",
+   "role": "battle-implementor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T19:26:45.491Z",
+   "end": "2026-11-26T19:31:54.037Z",
+   "description": "phases 040 battle-implementor fix"
+  },
+  {
    "agent": "a7518378925ae04ea",
    "role": "research-reviewer",
    "parent": "overseer",
@@ -617,6 +626,15 @@
    "start": "2026-11-26T15:14:46.144Z",
    "end": "2026-11-26T15:19:35.712Z",
    "description": "facts 060 section-reviewer review"
+  },
+  {
+   "agent": "a77ab321c18c401a7",
+   "role": "researcher",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T18:53:23.616Z",
+   "end": "2026-11-26T18:57:31.891Z",
+   "description": "plans 040 researcher add"
   },
   {
    "agent": "a78839482192c5430",
@@ -698,6 +716,15 @@
    "start": "2026-11-26T16:51:48.788Z",
    "end": "2026-11-26T16:54:21.459Z",
    "description": "story 010 researcher fix"
+  },
+  {
+   "agent": "a86e6d0fe4ad367f6",
+   "role": "battle-implementor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T19:05:51.606Z",
+   "end": "2026-11-26T19:21:26.889Z",
+   "description": "phases 040 battle-implementor build"
   },
   {
    "agent": "a8857c927d77fda2e",
@@ -889,6 +916,15 @@
    "description": "maps 030 cartographer draw"
   },
   {
+   "agent": "aae508f71f0970f93",
+   "role": "battle-auditor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T19:40:26.671Z",
+   "end": "2026-11-26T19:43:58.359Z",
+   "description": "phases 040 battle-auditor recheck"
+  },
+  {
    "agent": "ab1c81e71b9cdaed2",
    "role": "section-coordinator",
    "parent": "overseer",
@@ -896,6 +932,15 @@
    "start": "2026-11-26T13:55:38.448Z",
    "end": "2026-11-26T13:57:13.142Z",
    "description": "facts 020 section-coordinator fix"
+  },
+  {
+   "agent": "ab2c017a8acbcd9f4",
+   "role": "fact-checker",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T19:32:03.637Z",
+   "end": "2026-11-26T19:36:31.020Z",
+   "description": "facts 040 fact-checker check"
   },
   {
    "agent": "ab2f1721600b2bf10",
@@ -1006,6 +1051,15 @@
    "description": "facts 010 section-reviewer review"
   },
   {
+   "agent": "ac9bbc3d6783f49ec",
+   "role": "battle-coordinator",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T18:45:32.630Z",
+   "end": "2026-11-26T18:53:17.595Z",
+   "description": "plans 040 battle-coordinator plan"
+  },
+  {
    "agent": "aca1a21bff7c50527",
    "role": "research-reviewer",
    "parent": "overseer",
@@ -1013,6 +1067,15 @@
    "start": "2026-11-26T09:47:14.134Z",
    "end": "2026-11-26T09:53:07.007Z",
    "description": "research 070 research-reviewer review"
+  },
+  {
+   "agent": "acb089aa280947905",
+   "role": "section-coordinator",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T18:42:42.215Z",
+   "end": "2026-11-26T18:45:26.879Z",
+   "description": "plans 040 section-coordinator plan"
   },
   {
    "agent": "ace724a5ad85f4f21",
@@ -1123,6 +1186,33 @@
    "description": "maps all map-keeper fix"
   },
   {
+   "agent": "ae0738ae006626c0d",
+   "role": "battle-implementor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T19:36:36.212Z",
+   "end": "2026-11-26T19:40:15.565Z",
+   "description": "phases 040 battle-implementor fix"
+  },
+  {
+   "agent": "ae30068c0239dbf30",
+   "role": "battle-auditor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T19:32:02.115Z",
+   "end": "2026-11-26T19:35:53.950Z",
+   "description": "phases 040 battle-auditor recheck"
+  },
+  {
+   "agent": "ae7f8f0de305b3fab",
+   "role": "battle-auditor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T19:21:33.681Z",
+   "end": "2026-11-26T19:26:34.786Z",
+   "description": "phases 040 battle-auditor audit"
+  },
+  {
    "agent": "ae912a4f6db5b65ba",
    "role": "research-reviewer",
    "parent": "overseer",
@@ -1166,6 +1256,15 @@
    "start": "2026-11-26T13:28:16.687Z",
    "end": "2026-11-26T13:35:00.127Z",
    "description": "texts 020 section-writer write"
+  },
+  {
+   "agent": "aed1bc69e8a2321ed",
+   "role": "fact-checker",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T18:57:48.430Z",
+   "end": "2026-11-26T19:05:36.182Z",
+   "description": "plan-check 040 fact-checker plan-check"
   },
   {
    "agent": "aed2b96c546e77c39",
@@ -1239,12 +1338,12 @@
    "model": "claude-fable-5-2",
    "step": "-",
    "section": "-",
-   "turns": 333,
-   "peak": 635029,
-   "input": 858,
-   "cacheWrite": 570675,
-   "cacheRead": 120435308,
-   "output": 149099
+   "turns": 378,
+   "peak": 702904,
+   "input": 975,
+   "cacheWrite": 1230524,
+   "cacheRead": 150165133,
+   "output": 176735
   },
   {
    "agent": "a00421d99dbb1e05d",
@@ -2073,6 +2172,20 @@
    "output": 55198
   },
   {
+   "agent": "a74d1da93fe93a188",
+   "role": "battle-implementor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "phases",
+   "section": "040",
+   "turns": 19,
+   "peak": 77477,
+   "input": 38,
+   "cacheWrite": 71596,
+   "cacheRead": 880000,
+   "output": 13476
+  },
+  {
    "agent": "a7518378925ae04ea",
    "role": "research-reviewer",
    "parent": "overseer",
@@ -2155,6 +2268,20 @@
    "cacheWrite": 170801,
    "cacheRead": 1691829,
    "output": 29052
+  },
+  {
+   "agent": "a77ab321c18c401a7",
+   "role": "researcher",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "plans",
+   "section": "040",
+   "turns": 28,
+   "peak": 186867,
+   "input": 56,
+   "cacheWrite": 186865,
+   "cacheRead": 3987117,
+   "output": 23906
   },
   {
    "agent": "a78839482192c5430",
@@ -2281,6 +2408,20 @@
    "cacheWrite": 157513,
    "cacheRead": 2699902,
    "output": 12843
+  },
+  {
+   "agent": "a86e6d0fe4ad367f6",
+   "role": "battle-implementor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "phases",
+   "section": "040",
+   "turns": 32,
+   "peak": 169560,
+   "input": 63,
+   "cacheWrite": 163679,
+   "cacheRead": 3536092,
+   "output": 48055
   },
   {
    "agent": "a8857c927d77fda2e",
@@ -2577,6 +2718,20 @@
    "output": 24252
   },
   {
+   "agent": "aae508f71f0970f93",
+   "role": "battle-auditor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "phases",
+   "section": "040",
+   "turns": 8,
+   "peak": 143164,
+   "input": 16,
+   "cacheWrite": 135331,
+   "cacheRead": 670991,
+   "output": 5859
+  },
+  {
    "agent": "ab1c81e71b9cdaed2",
    "role": "section-coordinator",
    "parent": "overseer",
@@ -2589,6 +2744,20 @@
    "cacheWrite": 33916,
    "cacheRead": 329090,
    "output": 7081
+  },
+  {
+   "agent": "ab2c017a8acbcd9f4",
+   "role": "fact-checker",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "facts",
+   "section": "040",
+   "turns": 25,
+   "peak": 138496,
+   "input": 50,
+   "cacheWrite": 132615,
+   "cacheRead": 2460331,
+   "output": 24454
   },
   {
    "agent": "ab2f1721600b2bf10",
@@ -2759,6 +2928,20 @@
    "output": 32236
   },
   {
+   "agent": "ac9bbc3d6783f49ec",
+   "role": "battle-coordinator",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "plans",
+   "section": "040",
+   "turns": 15,
+   "peak": 294103,
+   "input": 30,
+   "cacheWrite": 294101,
+   "cacheRead": 3187100,
+   "output": 35664
+  },
+  {
    "agent": "aca1a21bff7c50527",
    "role": "research-reviewer",
    "parent": "overseer",
@@ -2771,6 +2954,20 @@
    "cacheWrite": 225043,
    "cacheRead": 4279543,
    "output": 33828
+  },
+  {
+   "agent": "acb089aa280947905",
+   "role": "section-coordinator",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "plans",
+   "section": "040",
+   "turns": 13,
+   "peak": 166399,
+   "input": 25,
+   "cacheWrite": 166397,
+   "cacheRead": 1493283,
+   "output": 9728
   },
   {
    "agent": "ace724a5ad85f4f21",
@@ -2941,6 +3138,48 @@
    "output": 27600
   },
   {
+   "agent": "ae0738ae006626c0d",
+   "role": "battle-implementor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "phases",
+   "section": "040",
+   "turns": 15,
+   "peak": 49033,
+   "input": 30,
+   "cacheWrite": 41326,
+   "cacheRead": 456488,
+   "output": 6061
+  },
+  {
+   "agent": "ae30068c0239dbf30",
+   "role": "battle-auditor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "phases",
+   "section": "040",
+   "turns": 10,
+   "peak": 143417,
+   "input": 20,
+   "cacheWrite": 137536,
+   "cacheRead": 934640,
+   "output": 7887
+  },
+  {
+   "agent": "ae7f8f0de305b3fab",
+   "role": "battle-auditor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "phases",
+   "section": "040",
+   "turns": 19,
+   "peak": 174952,
+   "input": 38,
+   "cacheWrite": 169071,
+   "cacheRead": 2413909,
+   "output": 20316
+  },
+  {
    "agent": "ae912a4f6db5b65ba",
    "role": "research-reviewer",
    "parent": "overseer",
@@ -3009,6 +3248,20 @@
    "cacheWrite": 197358,
    "cacheRead": 5331385,
    "output": 38647
+  },
+  {
+   "agent": "aed1bc69e8a2321ed",
+   "role": "fact-checker",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "plan-check",
+   "section": "040",
+   "turns": 30,
+   "peak": 132740,
+   "input": 60,
+   "cacheWrite": 132738,
+   "cacheRead": 2542595,
+   "output": 38802
   },
   {
    "agent": "aed2b96c546e77c39",
@@ -6200,6 +6453,16 @@
    ]
   },
   {
+   "agent": "a74d1da93fe93a188",
+   "role": "battle-implementor",
+   "step": "phases",
+   "section": "040",
+   "status": "pass",
+   "changed": 6,
+   "unresolved": 0,
+   "faults": []
+  },
+  {
    "agent": "a7518378925ae04ea",
    "role": "research-reviewer",
    "step": "research",
@@ -7106,6 +7369,16 @@
    ]
   },
   {
+   "agent": "a77ab321c18c401a7",
+   "role": "researcher",
+   "step": "plans",
+   "section": "040",
+   "status": "pass",
+   "changed": 4,
+   "unresolved": 2,
+   "faults": []
+  },
+  {
    "agent": "a78839482192c5430",
    "role": "researcher",
    "step": "maps",
@@ -7732,6 +8005,59 @@
    "changed": 5,
    "unresolved": 0,
    "faults": []
+  },
+  {
+   "agent": "a86e6d0fe4ad367f6",
+   "role": "battle-implementor",
+   "step": "phases",
+   "section": "040",
+   "status": "pass",
+   "changed": 10,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "040-battle-implementor-1",
+     "severity": "weak",
+     "kind": "battle",
+     "introduced": "battles",
+     "firstCheck": "phases",
+     "leak": false,
+     "owner": "battle-implementor",
+     "file": "content/joan-of-arc/shared/battles/patay-1429/battle.yaml",
+     "claim": "040.31",
+     "evidence": "the card's line of the plan, card.sides[English].commanders of battles/patay-1429.yaml, as 040-fact-checker-48 fixed it: Wavrin p. 421 (lines 16462-16464), \"Aprez venoit la battaille dont estoient conducteurs messire Jehan Fastre, le seigneur de Thalbot, messire Thomas Rameston et autres\"; Lord Scales stands in the files only among the prisoners (040.31)",
+     "action": "\"Sir Thomas Rempston\"",
+     "state": "fixed"
+    },
+    {
+     "id": "040-battle-implementor-2",
+     "severity": "weak",
+     "kind": "plan",
+     "introduced": "names",
+     "firstCheck": "names",
+     "leak": false,
+     "owner": "names",
+     "file": "content/joan-of-arc/.plan/names.md",
+     "claim": "040.39",
+     "evidence": "scripts/names-check.mjs: no page of 020 names Saint-Péravy, and the first page that does is the phase page patay-the-hedges of 040, in the note of where the battle was fought (040.39: \"who was then between the hamlet of Saint-Peravy and the town of Patay\", Anatole France, vol. 1 ch. 16)",
+     "action": "040 (040.39)",
+     "state": "fixed"
+    },
+    {
+     "id": "040-battle-implementor-3",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-writer",
+     "file": "content/joan-of-arc/pages/040-the-loire-and-reims/030-patay/text/en.md",
+     "claim": "040.30",
+     "evidence": "as 040-fact-checker-42 to 040-fact-checker-44: Monstrelet book 2 ch. 61 (lines 39197-39209) tells the English falling back from the hedges to the plain, and \"those who had dismounted were surrounded by the French before they had time to fortify themselves, as usual, with sharp-pointed stakes\"; he names no narrow way and no stand of Talbot's, so the sentence after Talbot's 500 archers must not make the stakes theirs",
+     "action": "Monstrelet, a Burgundian chronicler, says the English on foot had not yet planted their stakes.",
+     "state": "fixed"
+    }
+   ]
   },
   {
    "agent": "a8857c927d77fda2e",
@@ -8883,6 +9209,16 @@
    "faults": []
   },
   {
+   "agent": "aae508f71f0970f93",
+   "role": "battle-auditor",
+   "step": "phases",
+   "section": "040",
+   "status": "pass",
+   "changed": 0,
+   "unresolved": 0,
+   "faults": []
+  },
+  {
    "agent": "ab1c81e71b9cdaed2",
    "role": "section-coordinator",
    "step": "facts",
@@ -8891,6 +9227,45 @@
    "changed": 8,
    "unresolved": 0,
    "faults": []
+  },
+  {
+   "agent": "ab2c017a8acbcd9f4",
+   "role": "fact-checker",
+   "step": "facts",
+   "section": "040",
+   "status": "pass",
+   "changed": 4,
+   "unresolved": 1,
+   "faults": [
+    {
+     "id": "040-fact-checker-52",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "battles",
+     "firstCheck": "phases",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/040-the-loire-and-reims/031-patay-the-hedges/text/en.md",
+     "claim": "040.90",
+     "evidence": "Wavrin, Quicherat 4 (archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt, pp. 421-422, lines 16490-16497): \"là se tendroit, gardant le passage contre les François, jusques à tant que la battaille et l'arrière-garde serroient joinctes ... esperoit de soy revenir joindre avec la battaille en costoiant lesdittes hayes\". Wavrin does not say to what the two bodies are to be joined; Lang ch. 14 (lines 7359-7360) reads \"till his rearguard joined his main body\" and France vol. 1 ch. 16 (lines 15266-15267) \"until the rear-guard had had time to join the main body\", so \"the vanguard\" told one reading as Wavrin's; and Talbot means to rejoin \"la battaille\", the main body",
+     "action": "until the main body and the rearguard have joined, and then, Wavrin says, he means to fall back on the main body along the hedges.",
+     "state": "fixed"
+    },
+    {
+     "id": "040-fact-checker-53",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "battles",
+     "firstCheck": "phases",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/040-the-loire-and-reims/033-patay-the-rout/text/en.md",
+     "claim": "040.39",
+     "evidence": "Wavrin p. 424 (lines 16576-16577): \"dudit lieu de Pathai, qui sied à deux lieues de Jenville\"; Monstrelet book 2 ch. 61 (archive.org-download-chroniclesengue06johngoog-chroniclesengue06johngoog-djvu.txt.txt, lines 39223-39224): \"the village of Pataye, which is two leagues distant from Anville in Beauce\". The two leagues are from the village, and the field the page draws lies short of it on the road from Meung",
+     "action": "for Janville, two leagues beyond Patay, and",
+     "state": "fixed"
+    }
+   ]
   },
   {
    "agent": "ab2f1721600b2bf10",
@@ -9567,6 +9942,59 @@
    ]
   },
   {
+   "agent": "ac9bbc3d6783f49ec",
+   "role": "battle-coordinator",
+   "step": "plans",
+   "section": "040",
+   "status": "faults",
+   "changed": 5,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "040-battle-coordinator-1",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "research",
+     "firstCheck": "research",
+     "leak": false,
+     "owner": "research-coordinator",
+     "file": "content/joan-of-arc/.plan/research.md",
+     "claim": "040.27",
+     "evidence": "Monstrelet, tr. Johnes, book 2 ch. 61 (archive.org-download-chroniclesengue06johngoog-chroniclesengue06johngoog-djvu.txt.txt, from character 2957400): \"The constable ordered the marshal de Boussac, La Hire, Poton, and some other captains, to form the vanguard\"; Wavrin, Quicherat 4, p. 419: \"furent adont ordonnez le connestable de France, le marissal de Bousac, La Hyre, Pothon et autres capittaines, à faire l'avant-garde\". The plan's text.yaml was put right by 040-fact-checker-18; the digest kept the old clause",
+     "action": "Wavrin puts the Constable and Boussac in the van too, and Monstrelet Boussac at the Constable's order.",
+     "state": "fixed"
+    },
+    {
+     "id": "040-battle-coordinator-2",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "research",
+     "firstCheck": "research",
+     "leak": false,
+     "owner": "researcher",
+     "file": "content/joan-of-arc/.plan/research/040.md",
+     "claim": "040.27",
+     "evidence": "as 040-battle-coordinator-1: Monstrelet book 2 ch. 61, \"The constable ordered the marshal de Boussac, La Hire, Poton, and some other captains, to form the vanguard\"",
+     "action": "Wavrin puts the Constable and Boussac in the van too, and Monstrelet Boussac at the Constable's order.",
+     "state": "fixed"
+    },
+    {
+     "id": "040-battle-coordinator-3",
+     "severity": "weak",
+     "kind": "sources",
+     "introduced": "research",
+     "firstCheck": "research",
+     "leak": false,
+     "owner": "researcher",
+     "file": "content/joan-of-arc/.plan/research/040.md",
+     "claim": null,
+     "evidence": "Wavrin, Quicherat 4 (archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt), p. 420: \"aiant les plus expers, montez sur fleurs de chevaulz jusques à lx ou iiixx hommes, mis devant pour descouvrir\"; p. 421: \"tant que l'en vint à une lieue prez; et illec s'arrestèrent, car ilz furent advertiz à la vérité par les coureurs de leur arrière-garde\"; p. 422: \"esperoit de soy revenir joindre avec la battaille en costoiant lesdittes hayes\"; Monstrelet book 2 ch. 61: \"In consequence they retreated about half a quarter of a league from their former position, which was full of hedges and bushes\"; Lowell ch. 10: \"the Bastard and La Hire with a force of cavalry hung upon the English rear\", \"At once the Bastard charged upon Talbot\"",
+     "action": "New lines, or quotes added to 040.25, 040.28 and 040.29, for the positions of Patay that the source files give and no line quotes, so that the phase pages can tell them: (a) Wavrin, Quicherat 4, p. 420 (from character about 826700), and Monstrelet book 2 ch. 61: the French sent sixty or eighty of their most expert men on the best horses ahead to find the English (the scouts' strength, now unknown in the plan); (b) Wavrin p. 421 (about character 829300): the English rode towards Patay until a league short of it and halted there, warned by the runners of their rearguard, and the captains sent the vanguard, merchants, victuals and artillery ahead to take place along the hedges near Patay (pages.yaml patay-the-hedges says \"a league short\", which now rests on no quote; 040.39 gives Monstrelet's half league and Ramsay's two or three miles); (c) Wavrin p. 422: Talbot hoped to rejoin the main body by skirting the hedges; (d) Monstrelet book 2 ch. 61 (from character about 2959700): some English captains would have dismounted by the hedgerows and others fought on the plain, and they fell back about half a quarter of a league from the hedges; most of the French dismounted and turned their horses loose, a second account of the positions against Wavrin's; (e) Lowell ch. 10 (from character about 307900): the Bastard and La Hire with a force of cavalry hung on the English rear, and the Bastard charged Talbot, where Ramsay and the Journal give La Hire and Poton. Each by author where they differ. The plan of patay-1429 stands without them: it takes the scouts' strength as unknown and the halt from 040.39.",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
    "agent": "aca1a21bff7c50527",
    "role": "research-reviewer",
    "step": "research",
@@ -9674,6 +10102,16 @@
      "state": "fixed"
     }
    ]
+  },
+  {
+   "agent": "acb089aa280947905",
+   "role": "section-coordinator",
+   "step": "plans",
+   "section": "040",
+   "status": "pass",
+   "changed": 2,
+   "unresolved": 1,
+   "faults": []
   },
   {
    "agent": "ace724a5ad85f4f21",
@@ -10559,6 +10997,122 @@
    "changed": 13,
    "unresolved": 0,
    "faults": []
+  },
+  {
+   "agent": "ae0738ae006626c0d",
+   "role": "battle-implementor",
+   "step": "phases",
+   "section": "040",
+   "status": "pass",
+   "changed": 5,
+   "unresolved": 0,
+   "faults": []
+  },
+  {
+   "agent": "ae30068c0239dbf30",
+   "role": "battle-auditor",
+   "step": "phases",
+   "section": "040",
+   "status": "faults",
+   "changed": 1,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "040-battle-auditor-6",
+     "severity": "weak",
+     "kind": "battle",
+     "introduced": "battles",
+     "firstCheck": "phases",
+     "leak": false,
+     "owner": "battle-implementor",
+     "file": "content/joan-of-arc/.plans/patay-1429.mjs",
+     "claim": null,
+     "evidence": "the plan, phases[patay-the-stag].opens: \"The rearguard is drawn at its tail, merged into it from this phase on (reconstruction)\"; 032-patay-the-stag/text/en.md paragraph 3: \"the English rearguard, which the map draws at the tail of the main body\"",
+     "action": "The marker or its label stands clear of the English rearguard, as 040-battle-auditor-4 put it right on patay-the-hedges. In the laptop capture phases-040-battle-auditor-patay-recheck/pack/shots/patay-the-stag.png (about x 535-670, y 355-391; enlarged in the same folder as stag-crop.png) the label \"Fastolf / Hurries on with the main body\" lies across the rearguard block at u about -1950, of which only its top edge shows under the main body. The text says the map draws the rearguard at the tail of the main body. Setting the marker east of the main body as on the hedges (w about 950, u about -1100) keeps it clear of the hurry arrow at w about 400 and of Talbot's marker at u -2300.",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "ae7f8f0de305b3fab",
+   "role": "battle-auditor",
+   "step": "phases",
+   "section": "040",
+   "status": "faults",
+   "changed": 6,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "040-battle-auditor-1",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "battles",
+     "firstCheck": "phases",
+     "leak": false,
+     "owner": "battle-implementor",
+     "file": "content/joan-of-arc/pages/040-the-loire-and-reims/031-patay-the-hedges/text/en.md",
+     "claim": "040.89",
+     "evidence": "Wavrin, Quicherat 4 (archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt), p. 422: the French ride after their enemies \"lesquelz ancores ilz ne povoient pas choisir\"; but p. 421 has the English riders report the French coming, \"comme assez tost aprez on les vey venir\": in Wavrin, who was there, the English saw the French, so the clause made both armies blind on his page",
+     "action": "The French cannot yet see the English, and no source says how far apart they are.",
+     "state": "fixed"
+    },
+    {
+     "id": "040-battle-auditor-2",
+     "severity": "weak",
+     "kind": "battle",
+     "introduced": "battles",
+     "firstCheck": "phases",
+     "leak": false,
+     "owner": "battle-implementor",
+     "file": "content/joan-of-arc/.plans/patay-1429.mjs",
+     "claim": "040.36",
+     "evidence": "the plan's units french-vanguard (strength \"1,400 to 1,500 (the Journal of the Siege)\", 040.36: \"ne feussent que de quatorze à quinze cens combatans\") and french-main-body (\"8,000 to 9,000 (Monstrelet)\", 040.36: \"amounting to eight or nine thousand\"); the hover label of a unit names its commander and its strength (battle-auditor's definition, Captures). The generator was run again and only these four names changed",
+     "action": "each with its strength after the commanders, as on patay-the-hedges: '..., 1,400 to 1,500 (the Journal of the Siege), ...' for the vanguard and '..., 8,000 to 9,000 (Monstrelet), ...' for the main body",
+     "state": "fixed"
+    },
+    {
+     "id": "040-battle-auditor-3",
+     "severity": "weak",
+     "kind": "sources",
+     "introduced": "battles",
+     "firstCheck": "phases",
+     "leak": false,
+     "owner": "battle-implementor",
+     "file": "content/joan-of-arc/.plans/patay-1429.mjs",
+     "claim": "040.35",
+     "evidence": "033-patay-the-rout/text/en.md note **: \"more than 4,000 killed and taken in Dunois's deposition at the retrial\", 040.35: \"and of killed and prisoners there were more than 4,000\" (archive.org-download-jeannedarcmaidof028754mbp-jeannedarcmaidof028754mbp-djvu.txt.txt, Dunois's deposition); the page's sources had no Murray",
+     "action": "a key murrayDunois, \"T. Douglas Murray (ed. and tr.), Jeanne d'Arc, Maid of Orleans (1902), the deposition of Dunois.\", in the list of patay-the-rout after wavrin",
+     "state": "fixed"
+    },
+    {
+     "id": "040-battle-auditor-4",
+     "severity": "weak",
+     "kind": "battle",
+     "introduced": "battles",
+     "firstCheck": "phases",
+     "leak": false,
+     "owner": "battle-implementor",
+     "file": "content/joan-of-arc/.plans/patay-1429.mjs",
+     "claim": null,
+     "evidence": "the plan, phases[patay-the-hedges].moves[english-rearguard]: \"closes up behind the main body through Talbot's narrow way\" (reconstruction), and the text: \"No source places the rearguard after the halt\", told of a block the map draws",
+     "action": "The marker or its label stands clear of the English rearguard. In the laptop capture phases-040-battle-auditor-patay/pack/shots/patay-the-hedges.png (about x 650, y 410-430) the note \"Mounted, with the main body\" covers the rearguard block at u -1950, of which only a sliver shows between the main body and Talbot's archers, so the reader cannot see the rearguard the text names. Setting the marker beside the main body's north half (u about -1150) or on its west side (w about -520, clear of the woods at w -750) would leave the block bare; at phone size (shots-phone/patay-the-hedges.png) the Fastolf and Talbot icons also sit on the main body and the rearguard.",
+     "state": "fixed"
+    },
+    {
+     "id": "040-battle-auditor-5",
+     "severity": "weak",
+     "kind": "battle",
+     "introduced": "battles",
+     "firstCheck": "phases",
+     "leak": false,
+     "owner": "battle-implementor",
+     "file": "content/joan-of-arc/.plans/patay-1429.mjs",
+     "claim": null,
+     "evidence": "the plan, phases[patay-the-rout].moves[french-vanguard]: \"presses into the English main body, taking or killing whom it will\" (040.31); Wavrin p. 423, \"lesdis François si avant en la battaille\"",
+     "action": "The marker's label stands clear of the French vanguard and the clash. In the laptop capture phases-040-battle-auditor-patay/pack/shots/patay-the-rout.png (about x 650-770, y 340-370) the label \"La Hire, Xaintrailles / Press into the main body\" lies across the French vanguard block and the clash star at u -1265, and only a corner of the block shows; the vanguard pressing into the English main body is the moment of the phase. A marker further east (w about 900 to 1000) or south of the main body's marker would leave both bare.",
+     "state": "fixed"
+    }
+   ]
   },
   {
    "agent": "ae912a4f6db5b65ba",
@@ -11464,6 +12018,213 @@
      "claim": "020.43",
      "evidence": "research/020.md, 020.43: \"6 March, the French Continuator of Guillaume de Nangis, the one chronicle that gives the day outright\"; text.yaml eleven-days names him; names-check: \"Continuator\" has no row",
      "action": "a row for \"the Continuator of Guillaume de Nangis\", first named in 020 (020.43), the chronicle that gives 6 March 1429 for her coming to Chinon",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "aed1bc69e8a2321ed",
+   "role": "fact-checker",
+   "step": "plan-check",
+   "section": "040",
+   "status": "pass",
+   "changed": 7,
+   "unresolved": 3,
+   "faults": [
+    {
+     "id": "040-fact-checker-38",
+     "severity": "weak",
+     "kind": "plan",
+     "introduced": "battle-plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "battle-coordinator",
+     "file": "content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml",
+     "claim": "040.91",
+     "evidence": "Gruel's 'car le pays esloit trop plain' is quoted under 040.91 (research/040.md); 040.29 quotes Gruel only for 'que lesdits Anglois n'eurent pas le loisir de se mettre en bataille' (Quicherat 4, p. 319)",
+     "action": "which Gruel calls too flat for the English (040.91)",
+     "state": "fixed"
+    },
+    {
+     "id": "040-fact-checker-39",
+     "severity": "weak",
+     "kind": "plan",
+     "introduced": "battle-plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "battle-coordinator",
+     "file": "content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml",
+     "claim": "040.89",
+     "evidence": "Wavrin, Quicherat 4 (archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt, lines 16467-16471, p. 421): \"vers Pathay, tant que l'en vint à une lieue prez; et illec s'arrestèrent\"; lines 16492-16494, p. 422: \"Et prinst ledit Thalbot place auz hayes de Pathay, avec l'avant-garde quy là les atendoit\"; lines 16520-16526, pp. 422-423: \"avant ce que ilz feussent ensamble joinctz èsdites hayes à leur avant-garde, les François s'estoient feruz à l'estroit passage où estoit le seigneur de Thalbot\". Monstrelet book 2 ch. 61 (archive.org-download-chroniclesengue06johngoog-chroniclesengue06johngoog-djvu.txt.txt, lines 39180-39183): the French army \"advanced slowly ... They thus marched for some time, until they came within half a league of a huge village caUed Pataye\": the half league is the French approach, not an English halt",
+     "action": "Both places are a reconstruction from 040.39 and from the English halt within a league of the village in Wavrin (040.89), with Ramsay's fight two or three miles short of it (040.39); Monstrelet's half league is where the French army came before its scouts found the English (040.89). Wavrin has Talbot take \"place auz hayes de Pathay, avec l'avant-garde\", which could set the narrow way at the vanguard's hedges; his next lines part the two, the main body hurrying from the narrow way to join the vanguard at the hedges and not reaching them (040.29), and the plan follows those lines.",
+     "state": "fixed"
+    },
+    {
+     "id": "040-fact-checker-40",
+     "severity": "weak",
+     "kind": "plan",
+     "introduced": "battle-plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "battle-coordinator",
+     "file": "content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml",
+     "claim": "040.89",
+     "evidence": "Wavrin p. 421 (lines 16467-16471): \"tant que l'en vint à une lieue prez; et illec s'arrestèrent, car ilz furent advertiz à la vérité par les coureurs de leur arrière-garde\"; Ramsay ch. 27 (archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt, lines 25042-25044) cites Wavrin for the \"runners of the afterguard\"; Monstrelet's half league is the French army's (lines 39182-39183), as 040.89 says",
+     "action": "phase opens the column has halted on the plain within a league of Patay, warned by the runners of its rearguard (040.89: Wavrin, who was there, and Ramsay after him; Ramsay's fight is two or three miles short of the village, 040.39); the plan puts its head about 3.5 km south of the village on the road (reconstruction from 040.89).",
+     "state": "fixed"
+    },
+    {
+     "id": "040-fact-checker-41",
+     "severity": "weak",
+     "kind": "battle",
+     "introduced": "research",
+     "firstCheck": "research",
+     "leak": false,
+     "owner": "battle-coordinator",
+     "file": "content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml",
+     "claim": "040.88",
+     "evidence": "Wavrin p. 420 (lines 16418-16420): \"aiant les plus expers, montez sur fleurs de chevaulzjusquesà lx ou mixx hommes, misdevantpour descouvrir\"; Monstrelet book 2 ch. 61 (line 39181): \"sixty or eighty of their most expert men-at-arms, mounted on the fleetest horses\"; 040.88: \"Lang calls them La Hire's eighty\". The strength now has a source, so it is no longer unknown",
+     "action": "commander: \"none named in Wavrin and Monstrelet; La Hire's men in Lang\", strength: \"60 or 80 (Wavrin; Monstrelet's same text)\", claim: \"040.88\"",
+     "state": "fixed"
+    },
+    {
+     "id": "040-fact-checker-42",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "battle-plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "battle-coordinator",
+     "file": "content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml",
+     "claim": "040.30",
+     "evidence": "Monstrelet book 2 ch. 61 (lines 39197-39210): the English \"retreated about half a quarter of a league firom their former position, which was full of hedges and bushes\" and \"those who had dismounted were surrounded by the French before they had time to fortify themselves, as usual, with sharp-pointed stakes\": Monstrelet tells no narrow way and no Talbot's archers, so the stakes are not his of Talbot's stand; Oman book 14 ch. 2 (line 19600): \"the archers had not even fixed their stakes when the hostile cavalry hurtled in among them\", of the English at large",
+     "action": "distance is a reconstruction from 040.39 and 040.89). Wavrin gives no stakes; Monstrelet, whose English stand on the plain (040.91), and Oman after him have the dismounted English overrun before their stakes were set (040.30), and the phase tells it with their names. The main body,",
+     "state": "fixed"
+    },
+    {
+     "id": "040-fact-checker-43",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "battle-plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "battle-coordinator",
+     "file": "content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml",
+     "claim": "040.30",
+     "evidence": "Wavrin p. 423 (lines 16547-16548): \"avoient les François rué jus le seigneur de Thalbot, lui prins prisonnier et tous ses gens mors\"; Monstrelet's stakes belong to his own account of the English on the plain (lines 39207-39209), as 040-fact-checker-42 says, and the opens of the phase now carry them with his and Oman's names",
+     "action": "are ridden down; Talbot is taken, by the archers of Poton in Gruel, and all his men are killed (Wavrin)",
+     "state": "fixed"
+    },
+    {
+     "id": "040-fact-checker-44",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/joan-of-arc/.plan/040-the-loire-and-reims/pages.yaml",
+     "claim": "040.30",
+     "evidence": "as 040-fact-checker-42: Monstrelet book 2 ch. 61 (lines 39197-39209) tells the English falling back from the hedges to the plain, and \"those who had dismounted were surrounded by the French before they had time to fortify themselves, as usual, with sharp-pointed stakes\"; he names no narrow way and no stand of Talbot's",
+     "action": "rides into Talbot's narrow way before the English have joined at the hedges. Talbot is taken and his archers are killed. Monstrelet, whose English stand on the plain, says those on foot were overrun before they could set their stakes.",
+     "state": "fixed"
+    },
+    {
+     "id": "040-fact-checker-45",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/joan-of-arc/.plan/040-the-loire-and-reims/pages.yaml",
+     "claim": "040.29",
+     "evidence": "Wavrin p. 423 (lines 16527-16533): \"messire Jehan Fastre tyrant et chevaulchant vers l'avant-garde pour se joindre avec eulz, ceulz de la dite avant-garde cuidèrent que tout fust perdu et que les battailles fuissent\": the vanguard thought the bodies of the army were fleeing, not Fastolf alone",
+     "action": "and the vanguard, thinking all lost and the main body in flight, leaves the hedges under its white standard.",
+     "state": "fixed"
+    },
+    {
+     "id": "040-fact-checker-46",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "battle-plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "battle-coordinator",
+     "file": "content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml",
+     "claim": "040.29",
+     "evidence": "as 040-fact-checker-45: Wavrin p. 423, \"cuidèrent que tout fust perdu et que les battailles fuissent\"",
+     "action": "seeing him ride towards it, thinks all is lost and the main body in flight, and flees",
+     "state": "fixed"
+    },
+    {
+     "id": "040-fact-checker-47",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "battle-plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "battle-coordinator",
+     "file": "content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml",
+     "claim": "040.93",
+     "evidence": "Wavrin p. 423 (lines 16548-16550): \"lesdis François si avant en la battaille que ilz povoient à leur voullenté prendre ou occire ceulz que bon leur sambloit\"; Ramsay ch. 27 (lines 25075-25077): \"What became of the rear-guard is not stated; but the main body under Sir John Fastolf, by keeping together, managed to make good their retreat to fitampes, which they reached after midnight\". No source gives \"most\": Wavrin's 2,000 dead and 200 taken stand against his 5,000, and Oman has a third or more destroyed (040.35)",
+     "action": "breaks: the French are so far into it that they take or kill whom they will (Wavrin; Ramsay has it keep together under Fastolf and reach Étampes, 040.93), and the fugitives",
+     "state": "fixed"
+    },
+    {
+     "id": "040-fact-checker-48",
+     "severity": "weak",
+     "kind": "battle",
+     "introduced": "battle-plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "battle-coordinator",
+     "file": "content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml",
+     "claim": "040.31",
+     "evidence": "Wavrin p. 421 (lines 16462-16464): \"Aprez venoit la battaille dont estoient conducteurs messire Jehan Fastre, le seigneur de Thalbot, messire Thomas Rameston et autres\"; Monstrelet book 2 ch. 60 (lines 39128-39130): Bedford's men \"under the command of sir Thomas Rampstone, the bastard de Thian and others\". Lord Scales stands in the files only among the prisoners (Monstrelet line 39216, the Journal p. 177, Ramsay ch. 27; 040.31), and no file read names him a commander at Patay",
+     "action": "\"Sir Thomas Rempston\"",
+     "state": "fixed"
+    },
+    {
+     "id": "040-fact-checker-49",
+     "severity": "weak",
+     "kind": "sources",
+     "introduced": "research",
+     "firstCheck": "research",
+     "leak": false,
+     "owner": "battle-coordinator",
+     "file": "content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml",
+     "claim": null,
+     "evidence": "research/040.md, lines 040.88 to 040.93, each with the file it quotes",
+     "action": "Each source's claims list now names the lines 040.88 to 040.93 that quote it: Wavrin 040.88-040.93; the Journal 040.89, 040.92; Cagny and Gruel 040.91, 040.92; Monstrelet 040.88, 040.89, 040.91; Lowell 040.90, 040.92; Ramsay 040.89, 040.90, 040.92, 040.93, with \"the main body under Fastolf keeping together to Étampes\" added to what it gives; France 040.88, 040.90.",
+     "state": "fixed"
+    },
+    {
+     "id": "040-fact-checker-50",
+     "severity": "weak",
+     "kind": "sources",
+     "introduced": "research",
+     "firstCheck": "research",
+     "leak": false,
+     "owner": "researcher",
+     "file": "content/joan-of-arc/.plan/research/040.md",
+     "claim": "040.93",
+     "evidence": "Wavrin p. 423 (lines 16548-16550) and p. 424 (line 16557): \"envis h moult petite compaignie\"; Ramsay ch. 27 (lines 25075-25077), as 040-fact-checker-47 quotes them",
+     "action": "A new line, 040.93, disputed: what became of the English main body, taken or killed at the French's will in Wavrin, who was in it, against Ramsay's main body under Fastolf keeping together to Étampes. The same line in research.md; the slice research-040.md made again.",
+     "state": "fixed"
+    },
+    {
+     "id": "040-fact-checker-51",
+     "severity": "taste",
+     "kind": "plan",
+     "introduced": "battle-plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "battle-coordinator",
+     "file": "content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml",
+     "claim": "040.92",
+     "evidence": "the Journal du siège, Quicherat 4, p. 177 (lines 7271-7279): \"parce que la Pucelle et plusieurs seigneurs ne vouloient pas que la grousse bataille fust ostée de son pas, ilz esleurent La Hire, Poton ... et leur baillèrent charge d'aler courir et escarmouscher devant les Angloys, pour les retenir\"; 040.92, agreed for the vanguard's task",
+     "action": "does: \"rides north up the road after the English, sent ahead to catch and hold them so that the main body need not leave its pace\", basis: sourced, claim: \"040.92\"",
      "state": "fixed"
     }
    ]
@@ -15083,6 +15844,177 @@
     "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/story-story-auditor-recheck",
     "serve": "static",
     "note": "The audit's sixteen faults stand in faults/010, 020, 030, 040, 050, 060, 070 and story.yaml, fourteen fixed and two declined with their rulings; decisions.md holds the rulings."
+   },
+   "problems": []
+  },
+  {
+   "role": "section-coordinator",
+   "description": "plans 040 section-coordinator plan",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "040",
+    "pages": [
+     "patay"
+    ],
+    "step": "plans",
+    "task": "plan",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/plans-040-section-coordinator-patay",
+    "serve": "static",
+    "note": "The user ruled on 26 Nov 2026 that patay-1429 gets phase pages; rules.md and the brief hold it. The section's six pages are built and stay as they are."
+   },
+   "problems": []
+  },
+  {
+   "role": "battle-coordinator",
+   "description": "plans 040 battle-coordinator plan",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "040",
+    "battle": "patay-1429",
+    "step": "plans",
+    "task": "plan",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/plans-040-battle-coordinator-patay",
+    "serve": "static",
+    "note": "The battle had no researcher of its own: its lines are 040.22 to 040.46 of the digest, researched and reviewed with section 040; the card exists and its figures passed the fact check."
+   },
+   "problems": []
+  },
+  {
+   "role": "researcher",
+   "description": "plans 040 researcher add",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "040",
+    "battle": "patay-1429",
+    "step": "plans",
+    "task": "add",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/plans-040-researcher-patay",
+    "serve": "static",
+    "note": "The gap is 040-battle-coordinator-3 of faults/040.yaml, five positions and movements at Patay that the files give and no line of the digest quotes."
+   },
+   "problems": []
+  },
+  {
+   "role": "fact-checker",
+   "description": "plan-check 040 fact-checker plan-check",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "040",
+    "battle": "patay-1429",
+    "step": "plan-check",
+    "task": "plan-check",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/plan-check-040-fact-checker-patay",
+    "serve": "static",
+    "note": "The battle plan battles/patay-1429.yaml and three phase pages of pages.yaml are new since the section's plan check; 040.88 to 040.92 were added to the digest after the battle plan was written."
+   },
+   "problems": []
+  },
+  {
+   "role": "battle-implementor",
+   "description": "phases 040 battle-implementor build",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "040",
+    "battle": "patay-1429",
+    "step": "phases",
+    "task": "build",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/phases-040-battle-implementor-patay",
+    "serve": "static",
+    "note": "The story's images are placed and its 41 pages are built and reviewed; the card's battle.yaml predates the plan check, which changed the card's English commanders in the plan (040-fact-checker-48)."
+   },
+   "problems": []
+  },
+  {
+   "role": "battle-auditor",
+   "description": "phases 040 battle-auditor audit",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "040",
+    "battle": "patay-1429",
+    "step": "phases",
+    "task": "audit",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/phases-040-battle-auditor-patay",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "battle-implementor",
+   "description": "phases 040 battle-implementor fix",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "040",
+    "battle": "patay-1429",
+    "step": "phases",
+    "task": "fix",
+    "faults": ".plan/faults/040.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/phases-040-battle-implementor-patay-fix",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "battle-auditor",
+   "description": "phases 040 battle-auditor recheck",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "040",
+    "battle": "patay-1429",
+    "step": "phases",
+    "task": "recheck",
+    "faults": ".plan/faults/040.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/phases-040-battle-auditor-patay-recheck",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "fact-checker",
+   "description": "facts 040 fact-checker check",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "040",
+    "pages": [
+     "patay",
+     "patay-the-hedges",
+     "patay-the-stag",
+     "patay-the-rout"
+    ],
+    "step": "facts",
+    "task": "check",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/facts-040-fact-checker-patay",
+    "serve": "static",
+    "note": "The three phase pages and their texts are new, written by the battle implementor; the page patay was changed by 040-battle-implementor-3 since its last recheck."
+   },
+   "problems": []
+  },
+  {
+   "role": "battle-implementor",
+   "description": "phases 040 battle-implementor fix",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "040",
+    "battle": "patay-1429",
+    "step": "phases",
+    "task": "fix",
+    "faults": ".plan/faults/040.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/phases-040-battle-implementor-patay-fix-2",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "battle-auditor",
+   "description": "phases 040 battle-auditor recheck",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "040",
+    "battle": "patay-1429",
+    "step": "phases",
+    "task": "recheck",
+    "faults": ".plan/faults/040.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/phases-040-battle-auditor-patay-recheck-2",
+    "serve": "static"
    },
    "problems": []
   }
@@ -19596,6 +20528,336 @@
    "kind": "attribution",
    "severity": "taste",
    "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-battle-coordinator-1",
+   "by": "battle-coordinator",
+   "file": "content/joan-of-arc/.plan/research.md",
+   "field": "040.27",
+   "commit": "88e6fbff",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "research-coordinator",
+   "steppedIn": true
+  },
+  {
+   "fault": "040-battle-coordinator-2",
+   "by": "battle-coordinator",
+   "file": "content/joan-of-arc/.plan/research/040.md",
+   "field": "040.27",
+   "commit": "88e6fbff",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "researcher",
+   "steppedIn": true
+  },
+  {
+   "fault": "040-battle-coordinator-3",
+   "by": "researcher",
+   "file": "content/joan-of-arc/.plan/research/040.md",
+   "field": "lines, after 040.87",
+   "commit": "12b35077",
+   "kind": "sources",
+   "severity": "weak",
+   "owner": "researcher",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-battle-coordinator-3",
+   "by": "researcher",
+   "file": "content/joan-of-arc/.plan/research.md",
+   "field": "040, lines after 040.87",
+   "commit": "12b35077",
+   "kind": "sources",
+   "severity": "weak",
+   "owner": "researcher",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-fact-checker-38",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml",
+   "field": "ground.field",
+   "commit": "af072771",
+   "kind": "plan",
+   "severity": "weak",
+   "owner": "battle-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-fact-checker-39",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml",
+   "field": "ground.field",
+   "commit": "af072771",
+   "kind": "plan",
+   "severity": "weak",
+   "owner": "battle-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-fact-checker-40",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml",
+   "field": "phases[patay-the-hedges].opens",
+   "commit": "af072771",
+   "kind": "plan",
+   "severity": "weak",
+   "owner": "battle-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-fact-checker-41",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml",
+   "field": "sides[French].units[french-scouts]",
+   "commit": "af072771",
+   "kind": "battle",
+   "severity": "weak",
+   "owner": "battle-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-fact-checker-42",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml",
+   "field": "phases[patay-the-stag].opens",
+   "commit": "af072771",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "battle-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-fact-checker-43",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml",
+   "field": "phases[patay-the-stag].moves[talbot-archers].does",
+   "commit": "af072771",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "battle-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-fact-checker-44",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/.plan/040-the-loire-and-reims/pages.yaml",
+   "field": "patay-the-stag.tells",
+   "commit": "af072771",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-fact-checker-45",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/.plan/040-the-loire-and-reims/pages.yaml",
+   "field": "patay-the-rout.tells",
+   "commit": "af072771",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-fact-checker-46",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml",
+   "field": "phases[patay-the-rout].moves[english-vanguard].does",
+   "commit": "af072771",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "battle-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-fact-checker-47",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml",
+   "field": "phases[patay-the-rout].moves[english-main-body].does",
+   "commit": "af072771",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "battle-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-fact-checker-48",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml",
+   "field": "card.sides[English].commanders",
+   "commit": "af072771",
+   "kind": "battle",
+   "severity": "weak",
+   "owner": "battle-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-fact-checker-49",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml",
+   "field": "sources[].claims",
+   "commit": "af072771",
+   "kind": "sources",
+   "severity": "weak",
+   "owner": "battle-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-fact-checker-50",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/.plan/research/040.md",
+   "field": "lines, after 040.92",
+   "commit": "af072771",
+   "kind": "sources",
+   "severity": "weak",
+   "owner": "researcher",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-fact-checker-50",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/.plan/research.md",
+   "field": "040, lines after 040.92",
+   "commit": "af072771",
+   "kind": "sources",
+   "severity": "weak",
+   "owner": "researcher",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-fact-checker-51",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml",
+   "field": "phases[patay-the-hedges].moves[french-vanguard]",
+   "commit": "af072771",
+   "kind": "plan",
+   "severity": "taste",
+   "owner": "battle-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-battle-implementor-1",
+   "by": "battle-implementor",
+   "file": "content/joan-of-arc/shared/battles/patay-1429/battle.yaml",
+   "field": "sides[1].commanders",
+   "commit": "3b653ba2",
+   "kind": "battle",
+   "severity": "weak",
+   "owner": "battle-implementor",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-battle-implementor-2",
+   "by": "battle-implementor",
+   "file": "content/joan-of-arc/.plan/names.md",
+   "field": "Places, the row Saint-Péravy, First named in",
+   "commit": "3b653ba2",
+   "kind": "plan",
+   "severity": "weak",
+   "owner": "names",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-battle-implementor-3",
+   "by": "battle-implementor",
+   "file": "content/joan-of-arc/pages/040-the-loire-and-reims/030-patay/text/en.md",
+   "field": "body, third paragraph",
+   "commit": "3b653ba2",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "section-writer",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-battle-auditor-1",
+   "by": "battle-auditor",
+   "file": "content/joan-of-arc/pages/040-the-loire-and-reims/031-patay-the-hedges/text/en.md",
+   "field": "body, paragraph 3",
+   "commit": "3b653ba2",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "battle-implementor",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-battle-auditor-2",
+   "by": "battle-auditor",
+   "file": "content/joan-of-arc/.plans/patay-1429.mjs",
+   "field": "patay-the-stag and patay-the-rout, names of french-vanguard and french-main-body (and the two page.yaml written again)",
+   "commit": "3b653ba2",
+   "kind": "battle",
+   "severity": "weak",
+   "owner": "battle-implementor",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-battle-auditor-3",
+   "by": "battle-auditor",
+   "file": "content/joan-of-arc/.plans/patay-1429.mjs",
+   "field": "SOURCES and the list of patay-the-rout (and 033-patay-the-rout/page.yaml written again)",
+   "commit": "3b653ba2",
+   "kind": "sources",
+   "severity": "weak",
+   "owner": "battle-implementor",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-battle-auditor-4",
+   "by": "battle-implementor",
+   "file": "content/joan-of-arc/.plans/patay-1429.mjs",
+   "field": "patay-the-hedges, the markers patay-the-hedges-fastolf and patay-the-hedges-talbot (and 031-patay-the-hedges/markers.yaml written again)",
+   "commit": "01adcf01",
+   "kind": "battle",
+   "severity": "weak",
+   "owner": "battle-implementor",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-battle-auditor-5",
+   "by": "battle-implementor",
+   "file": "content/joan-of-arc/.plans/patay-1429.mjs",
+   "field": "patay-the-rout, the marker patay-the-rout-la-hire (and 033-patay-the-rout/markers.yaml written again)",
+   "commit": "01adcf01",
+   "kind": "battle",
+   "severity": "weak",
+   "owner": "battle-implementor",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-fact-checker-52",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/040-the-loire-and-reims/031-patay-the-hedges/text/en.md",
+   "field": "body, paragraph 2",
+   "commit": "e4e8ea09",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-fact-checker-53",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/040-the-loire-and-reims/033-patay-the-rout/text/en.md",
+   "field": "body, paragraph 2",
+   "commit": "e4e8ea09",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-battle-auditor-6",
+   "by": "battle-implementor",
+   "file": "content/joan-of-arc/.plans/patay-1429.mjs",
+   "field": "patay-the-stag, the marker patay-the-stag-fastolf (written to 032-patay-the-stag/markers.yaml)",
+   "commit": "8f950df0",
+   "kind": "battle",
+   "severity": "weak",
+   "owner": "battle-implementor",
    "steppedIn": false
   },
   {

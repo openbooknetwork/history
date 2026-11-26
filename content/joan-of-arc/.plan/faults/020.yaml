@@ -904,3 +904,16 @@
   introduced: review
   owner: cartographer
   state: fixed
+- id: 020-overseer-4
+  severity: weak
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/020-salisbury-on-the-loire/text/en.md
+  field: body
+  replaces: clause
+  old: "talks of withdrawing to Dauphiné or Languedoc."
+  new: "talks of withdrawing to Dauphiné."
+  source: "020.30: the Journal du siège and Ramsay give Dauphiné; Languedoc is Lowell's alone (ch. 5, 2532-2533), and rules.md leaves out what one of the older scholars alone gives without his name (reports/020-fact-checker.yaml)"
+  kind: attribution
+  claim: "020.30"
+  introduced: review
+  owner: section-reviewer
+  state: fixed

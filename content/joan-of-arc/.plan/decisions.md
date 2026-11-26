@@ -205,3 +205,10 @@
   after the last section has its texts, by the names agent (story-overseer-6; 020-section-reviewer-17 waits with it)
   — the names were decided before any text, and each section written moves the cells again; a fix after each
   section would be seven runs for one.
+- cloud ruling: "Dauphiné or Languedoc" on `salisbury-on-the-loire` is cut to "Dauphiné" (020-overseer-4) — Languedoc is
+  Lowell's alone and stood without his name; the careful side.
+- section 020: done, 26 Nov 2026, maps to facts. 5 pages drawn, audited (recheck pass), written, with 9 images found
+  and one `none`, fact-checked, reviewed and rechecked (pass). Open in `faults/020.yaml`: 020-section-reviewer-17
+  alone, which waits with story-overseer-6 for the names agent.
+- wave 010 020: done, 26 Nov 2026, at the sections' `build`. 11 pages.
+- ledger after `wave 010 020`: | **total** | 68 | 2,073 | 406,216 | 4,225 | 14,835,876 | 356,562,728 | 2,995,705 | 69,183,868 |

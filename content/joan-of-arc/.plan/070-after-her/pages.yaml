@@ -15,8 +15,10 @@
   when: "1436-04"
   tells: >-
     With Saint-Denis taken and the city cut off, the citizens let Richemont's men in by the Porte Saint-Jacques on
-    13 April 1436; the English shut themselves in the Bastille Saint-Antoine and are let go to Rouen.
-  rests_on: ["070.7", "070.8", "070.9", "070.10", "070.11"]
+    13 April 1436; the English shut themselves in the Bastille Saint-Antoine and are let go to Rouen. Round the city
+    they keep Meaux, Creil, Montereau and Mantes, with Beaumont-sur-Oise and Crépy, which Talbot won back in 1434,
+    while Chartres was lost to them in 1432 and the bridge of Meulan in 1435.
+  rests_on: ["070.7", "070.8", "070.9", "070.10", "070.11", "070.59", "070.60", "070.61", "070.63", "070.64", "070.65", "070.66"]
   markers: [paris-1436, porte-saint-jacques-1436, bastille-1436, saint-denis-1436, pontoise-1436, dieppe-1435]
   battles: []
 - id: normandy-won-back

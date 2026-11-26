@@ -1,0 +1,16 @@
+- step: texts
+  task: write
+  status: faults
+  changed_files:
+    - content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md
+    - content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md
+    - content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md
+    - content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md
+    - content/joan-of-arc/pages/070-after-her/050-the-retrial/text/en.md
+    - content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md
+    - content/joan-of-arc/.plan/names.md
+    - content/joan-of-arc/.plan/faults/070.yaml
+    - content/joan-of-arc/.plan/fixes/070.yaml
+  faults: [070-section-writer-1, 070-section-writer-2]
+  unresolved: []
+  stale: []

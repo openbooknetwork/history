@@ -1,7 +1,7 @@
 {
  "variant": null,
  "story": "joan-of-arc",
- "pages": 23,
+ "pages": 41,
  "order": [
   "brief",
   "survey",
@@ -30,7 +30,7 @@
    "parent": "-",
    "model": "claude-fable-5-2",
    "start": "2026-11-26T08:58:19.988Z",
-   "end": "2026-11-26T14:44:21.363Z",
+   "end": "2026-11-26T15:51:56.323Z",
    "description": ""
   },
   {
@@ -133,6 +133,15 @@
    "description": "maps 020 map-auditor recheck"
   },
   {
+   "agent": "a190e2a85fb5c817b",
+   "role": "map-auditor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T14:53:17.375Z",
+   "end": "2026-11-26T15:02:59.326Z",
+   "description": "maps 050 map-auditor audit"
+  },
+  {
    "agent": "a19a49768ce8ab7a5",
    "role": "map-keeper",
    "parent": "overseer",
@@ -140,6 +149,15 @@
    "start": "2026-11-26T11:33:55.520Z",
    "end": "2026-11-26T12:24:31.251Z",
    "description": "maps all map-keeper draw"
+  },
+  {
+   "agent": "a1c1d64340bbd60b0",
+   "role": "cartographer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T15:23:36.927Z",
+   "end": "2026-11-26T15:25:06.052Z",
+   "description": "facts 050 cartographer fix"
   },
   {
    "agent": "a1d7c34796f27b659",
@@ -158,6 +176,15 @@
    "start": "2026-11-26T10:58:28.565Z",
    "end": "2026-11-26T11:09:32.628Z",
    "description": "plans 060 section-coordinator plan"
+  },
+  {
+   "agent": "a26c8b1c424ab5e09",
+   "role": "image-finder",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T15:04:22.363Z",
+   "end": "2026-11-26T15:11:30.351Z",
+   "description": "images 060 image-finder find"
   },
   {
    "agent": "a2c2fedc532f08b7d",
@@ -205,6 +232,15 @@
    "description": "facts 010 fact-checker recheck"
   },
   {
+   "agent": "a417f837acf951a24",
+   "role": "cartographer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T15:32:59.262Z",
+   "end": "2026-11-26T15:38:54.850Z",
+   "description": "maps 070 cartographer draw"
+  },
+  {
    "agent": "a422897d0879aba71",
    "role": "fact-checker",
    "parent": "overseer",
@@ -212,6 +248,15 @@
    "start": "2026-11-26T10:49:58.074Z",
    "end": "2026-11-26T10:57:44.018Z",
    "description": "plan-check 040 fact-checker plan-check"
+  },
+  {
+   "agent": "a482e01d55da093bf",
+   "role": "image-finder",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T15:04:22.318Z",
+   "end": "2026-11-26T15:14:54.871Z",
+   "description": "images 050 image-finder find"
   },
   {
    "agent": "a48ff450b81707306",
@@ -232,6 +277,15 @@
    "description": "plan-check 020 fact-checker plan-check"
   },
   {
+   "agent": "a4cbcc2c1fd3aa1ec",
+   "role": "cartographer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T14:44:35.913Z",
+   "end": "2026-11-26T14:53:11.553Z",
+   "description": "maps 050 cartographer draw"
+  },
+  {
    "agent": "a4e76ae44be0db1d7",
    "role": "section-writer",
    "parent": "overseer",
@@ -248,6 +302,24 @@
    "start": "2026-11-26T12:49:02.392Z",
    "end": "2026-11-26T12:58:36.063Z",
    "description": "maps all map-keeper fix"
+  },
+  {
+   "agent": "a5288c5eb81dd2b1b",
+   "role": "section-writer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T15:39:08.880Z",
+   "end": "2026-11-26T15:46:34.439Z",
+   "description": "texts 070 section-writer write"
+  },
+  {
+   "agent": "a53faa66f33643d00",
+   "role": "cartographer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T14:44:36.110Z",
+   "end": "2026-11-26T14:53:17.961Z",
+   "description": "maps 060 cartographer draw"
   },
   {
    "agent": "a55a014d3909c4f4c",
@@ -313,6 +385,15 @@
    "description": "research 060 research-reviewer review"
   },
   {
+   "agent": "a5d3fed2b4ac4a995",
+   "role": "fact-checker",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T15:25:45.719Z",
+   "end": "2026-11-26T15:27:56.639Z",
+   "description": "facts 050 fact-checker recheck"
+  },
+  {
    "agent": "a5d70d3ccfc96428c",
    "role": "image-finder",
    "parent": "overseer",
@@ -320,6 +401,15 @@
    "start": "2026-11-26T13:35:46.435Z",
    "end": "2026-11-26T13:46:39.565Z",
    "description": "images 020 image-finder find"
+  },
+  {
+   "agent": "a60a80fff40bd7e25",
+   "role": "fact-checker",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T15:07:02.690Z",
+   "end": "2026-11-26T15:14:40.547Z",
+   "description": "facts 060 fact-checker check"
   },
   {
    "agent": "a614099ef5b3b8188",
@@ -367,6 +457,15 @@
    "description": "research 040 research-reviewer review"
   },
   {
+   "agent": "a7519e625867ffa65",
+   "role": "section-reviewer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T15:16:53.222Z",
+   "end": "2026-11-26T15:22:28.682Z",
+   "description": "facts 050 section-reviewer review"
+  },
+  {
    "agent": "a754de7ca5d4c5348",
    "role": "cartographer",
    "parent": "overseer",
@@ -394,6 +493,24 @@
    "description": "maps 030 map-auditor audit"
   },
   {
+   "agent": "a775236d3821a8fa6",
+   "role": "section-reviewer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T15:14:46.144Z",
+   "end": "2026-11-26T15:19:35.712Z",
+   "description": "facts 060 section-reviewer review"
+  },
+  {
+   "agent": "a78839482192c5430",
+   "role": "researcher",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T15:04:23.214Z",
+   "end": "2026-11-26T15:06:57.836Z",
+   "description": "maps 060 researcher add"
+  },
+  {
    "agent": "a78b7a55f2884a914",
    "role": "map-architect",
    "parent": "overseer",
@@ -410,6 +527,15 @@
    "start": "2026-11-26T09:31:03.187Z",
    "end": "2026-11-26T09:46:32.544Z",
    "description": "research 070 researcher claims"
+  },
+  {
+   "agent": "a792fbb4802584b5f",
+   "role": "section-writer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T14:55:28.817Z",
+   "end": "2026-11-26T15:03:02.816Z",
+   "description": "texts 060 section-writer write"
   },
   {
    "agent": "a7962c9c4343c87f9",
@@ -448,6 +574,15 @@
    "description": "plan-check 050 fact-checker plan-check"
   },
   {
+   "agent": "a8857c927d77fda2e",
+   "role": "cartographer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T15:04:22.351Z",
+   "end": "2026-11-26T15:06:03.999Z",
+   "description": "maps 050 cartographer fix"
+  },
+  {
    "agent": "a8b70a7cc6588e1a8",
    "role": "section-coordinator",
    "parent": "overseer",
@@ -475,6 +610,15 @@
    "description": "Docs on nested subagents"
   },
   {
+   "agent": "a90a634c2f82af896",
+   "role": "section-coordinator",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T15:23:36.943Z",
+   "end": "2026-11-26T15:24:33.959Z",
+   "description": "facts 050 section-coordinator fix"
+  },
+  {
    "agent": "a9232a5d6f6e97637",
    "role": "cartographer",
    "parent": "overseer",
@@ -491,6 +635,15 @@
    "start": "2026-11-26T11:11:29.388Z",
    "end": "2026-11-26T11:16:01.481Z",
    "description": "plan-check 060 fact-checker plan-check"
+  },
+  {
+   "agent": "a9c1b8d1ee40b9c59",
+   "role": "map-auditor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T14:55:28.799Z",
+   "end": "2026-11-26T15:03:59.393Z",
+   "description": "maps 060 map-auditor audit"
   },
   {
    "agent": "a9cfe9f13e8be0204",
@@ -511,6 +664,15 @@
    "description": "plans 030 section-coordinator plan"
   },
   {
+   "agent": "aa518ee5227436aca",
+   "role": "map-auditor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T15:25:46.470Z",
+   "end": "2026-11-26T15:31:32.117Z",
+   "description": "maps 050 map-auditor recheck"
+  },
+  {
    "agent": "aa5241a890c7428d5",
    "role": "researcher",
    "parent": "overseer",
@@ -520,6 +682,15 @@
    "description": "research 010 researcher claims"
   },
   {
+   "agent": "aa877e50171d5774f",
+   "role": "cartographer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T15:23:38.862Z",
+   "end": "2026-11-26T15:30:44.768Z",
+   "description": "facts 060 cartographer fix"
+  },
+  {
    "agent": "aa884c5e2fc196098",
    "role": "fact-checker",
    "parent": "overseer",
@@ -527,6 +698,24 @@
    "start": "2026-11-26T14:20:40.602Z",
    "end": "2026-11-26T14:31:24.346Z",
    "description": "facts 040 fact-checker check"
+  },
+  {
+   "agent": "aa8ae9155896badc4",
+   "role": "map-auditor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T15:30:51.324Z",
+   "end": "2026-11-26T15:35:51.214Z",
+   "description": "maps 060 map-auditor recheck"
+  },
+  {
+   "agent": "aaafcbc3bbf7e86fa",
+   "role": "fact-checker",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T15:30:50.427Z",
+   "end": "2026-11-26T15:33:32.201Z",
+   "description": "facts 060 fact-checker recheck"
   },
   {
    "agent": "aad3d767c9cae5d96",
@@ -554,6 +743,15 @@
    "start": "2026-11-26T13:55:38.448Z",
    "end": "2026-11-26T13:57:13.142Z",
    "description": "facts 020 section-coordinator fix"
+  },
+  {
+   "agent": "ab70d19a8d0d36b89",
+   "role": "section-writer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T14:53:19.059Z",
+   "end": "2026-11-26T15:01:29.256Z",
+   "description": "texts 050 section-writer write"
   },
   {
    "agent": "ab98b5153cf24b722",
@@ -736,6 +934,15 @@
    "description": "plan-check 010 fact-checker plan-check"
   },
   {
+   "agent": "aeb31bcee6c81c4c8",
+   "role": "fact-checker",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T15:04:22.336Z",
+   "end": "2026-11-26T15:14:42.568Z",
+   "description": "facts 050 fact-checker check"
+  },
+  {
    "agent": "aeb6b75499116cc56",
    "role": "section-coordinator",
    "parent": "overseer",
@@ -790,6 +997,15 @@
    "description": "facts 020 fact-checker check"
   },
   {
+   "agent": "af849e6f9e7faf250",
+   "role": "map-auditor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T15:39:08.857Z",
+   "end": "2026-11-26T15:51:55.188Z",
+   "description": "maps 070 map-auditor audit"
+  },
+  {
    "agent": "afdac48b076441830",
    "role": "section-coordinator",
    "parent": "overseer",
@@ -807,12 +1023,12 @@
    "model": "claude-fable-5-2",
    "step": "-",
    "section": "-",
-   "turns": 240,
-   "peak": 469260,
-   "input": 619,
-   "cacheWrite": 405789,
-   "cacheRead": 68426489,
-   "output": 99444
+   "turns": 270,
+   "peak": 537858,
+   "input": 695,
+   "cacheWrite": 474074,
+   "cacheRead": 83487073,
+   "output": 114671
   },
   {
    "agent": "a00421d99dbb1e05d",
@@ -969,6 +1185,20 @@
    "output": 10600
   },
   {
+   "agent": "a190e2a85fb5c817b",
+   "role": "map-auditor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "maps",
+   "section": "050",
+   "turns": 21,
+   "peak": 203119,
+   "input": 42,
+   "cacheWrite": 197238,
+   "cacheRead": 3350224,
+   "output": 35556
+  },
+  {
    "agent": "a19a49768ce8ab7a5",
    "role": "map-keeper",
    "parent": "overseer",
@@ -981,6 +1211,20 @@
    "cacheWrite": 799573,
    "cacheRead": 11718372,
    "output": 164754
+  },
+  {
+   "agent": "a1c1d64340bbd60b0",
+   "role": "cartographer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "facts",
+   "section": "050",
+   "turns": 10,
+   "peak": 27995,
+   "input": 20,
+   "cacheWrite": 22114,
+   "cacheRead": 188580,
+   "output": 3883
   },
   {
    "agent": "a1d7c34796f27b659",
@@ -1009,6 +1253,20 @@
    "cacheWrite": 229029,
    "cacheRead": 4144569,
    "output": 56285
+  },
+  {
+   "agent": "a26c8b1c424ab5e09",
+   "role": "image-finder",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "images",
+   "section": "060",
+   "turns": 22,
+   "peak": 147938,
+   "input": 44,
+   "cacheWrite": 142057,
+   "cacheRead": 2248647,
+   "output": 14573
   },
   {
    "agent": "a2c2fedc532f08b7d",
@@ -1081,6 +1339,20 @@
    "output": 7308
   },
   {
+   "agent": "a417f837acf951a24",
+   "role": "cartographer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "maps",
+   "section": "070",
+   "turns": 16,
+   "peak": 118932,
+   "input": 32,
+   "cacheWrite": 110781,
+   "cacheRead": 1419694,
+   "output": 17526
+  },
+  {
    "agent": "a422897d0879aba71",
    "role": "fact-checker",
    "parent": "overseer",
@@ -1093,6 +1365,20 @@
    "cacheWrite": 189715,
    "cacheRead": 4393124,
    "output": 50661
+  },
+  {
+   "agent": "a482e01d55da093bf",
+   "role": "image-finder",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "images",
+   "section": "050",
+   "turns": 27,
+   "peak": 156853,
+   "input": 54,
+   "cacheWrite": 232942,
+   "cacheRead": 2913708,
+   "output": 21406
   },
   {
    "agent": "a48ff450b81707306",
@@ -1123,6 +1409,20 @@
    "output": 39828
   },
   {
+   "agent": "a4cbcc2c1fd3aa1ec",
+   "role": "cartographer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "maps",
+   "section": "050",
+   "turns": 21,
+   "peak": 162118,
+   "input": 42,
+   "cacheWrite": 153967,
+   "cacheRead": 2491490,
+   "output": 29287
+  },
+  {
    "agent": "a4e76ae44be0db1d7",
    "role": "section-writer",
    "parent": "overseer",
@@ -1149,6 +1449,34 @@
    "cacheWrite": 235947,
    "cacheRead": 4835352,
    "output": 44089
+  },
+  {
+   "agent": "a5288c5eb81dd2b1b",
+   "role": "section-writer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "texts",
+   "section": "070",
+   "turns": 31,
+   "peak": 247931,
+   "input": 59,
+   "cacheWrite": 242050,
+   "cacheRead": 5639706,
+   "output": 45158
+  },
+  {
+   "agent": "a53faa66f33643d00",
+   "role": "cartographer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "maps",
+   "section": "060",
+   "turns": 23,
+   "peak": 133499,
+   "input": 46,
+   "cacheWrite": 125348,
+   "cacheRead": 2385354,
+   "output": 22097
   },
   {
    "agent": "a55a014d3909c4f4c",
@@ -1249,6 +1577,20 @@
    "output": 40394
   },
   {
+   "agent": "a5d3fed2b4ac4a995",
+   "role": "fact-checker",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "facts",
+   "section": "050",
+   "turns": 21,
+   "peak": 130824,
+   "input": 42,
+   "cacheWrite": 124943,
+   "cacheRead": 2022498,
+   "output": 11955
+  },
+  {
    "agent": "a5d70d3ccfc96428c",
    "role": "image-finder",
    "parent": "overseer",
@@ -1261,6 +1603,20 @@
    "cacheWrite": 149689,
    "cacheRead": 2802385,
    "output": 20111
+  },
+  {
+   "agent": "a60a80fff40bd7e25",
+   "role": "fact-checker",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "facts",
+   "section": "060",
+   "turns": 21,
+   "peak": 222293,
+   "input": 41,
+   "cacheWrite": 212725,
+   "cacheRead": 3292554,
+   "output": 50346
   },
   {
    "agent": "a614099ef5b3b8188",
@@ -1333,6 +1689,20 @@
    "output": 36040
   },
   {
+   "agent": "a7519e625867ffa65",
+   "role": "section-reviewer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "facts",
+   "section": "050",
+   "turns": 17,
+   "peak": 203263,
+   "input": 34,
+   "cacheWrite": 195064,
+   "cacheRead": 2359088,
+   "output": 35291
+  },
+  {
    "agent": "a754de7ca5d4c5348",
    "role": "cartographer",
    "parent": "overseer",
@@ -1375,6 +1745,34 @@
    "output": 49517
   },
   {
+   "agent": "a775236d3821a8fa6",
+   "role": "section-reviewer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "facts",
+   "section": "060",
+   "turns": 14,
+   "peak": 176682,
+   "input": 27,
+   "cacheWrite": 170801,
+   "cacheRead": 1691829,
+   "output": 29052
+  },
+  {
+   "agent": "a78839482192c5430",
+   "role": "researcher",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "maps",
+   "section": "060",
+   "turns": 17,
+   "peak": 111174,
+   "input": 34,
+   "cacheWrite": 111172,
+   "cacheRead": 1399072,
+   "output": 14960
+  },
+  {
    "agent": "a78b7a55f2884a914",
    "role": "map-architect",
    "parent": "overseer",
@@ -1401,6 +1799,20 @@
    "cacheWrite": 299811,
    "cacheRead": 17058799,
    "output": 83079
+  },
+  {
+   "agent": "a792fbb4802584b5f",
+   "role": "section-writer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "texts",
+   "section": "060",
+   "turns": 26,
+   "peak": 263364,
+   "input": 50,
+   "cacheWrite": 255345,
+   "cacheRead": 4652706,
+   "output": 45703
   },
   {
    "agent": "a7962c9c4343c87f9",
@@ -1459,6 +1871,20 @@
    "output": 42859
   },
   {
+   "agent": "a8857c927d77fda2e",
+   "role": "cartographer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "maps",
+   "section": "050",
+   "turns": 8,
+   "peak": 83548,
+   "input": 16,
+   "cacheWrite": 77667,
+   "cacheRead": 424402,
+   "output": 4468
+  },
+  {
    "agent": "a8b70a7cc6588e1a8",
    "role": "section-coordinator",
    "parent": "overseer",
@@ -1501,6 +1927,20 @@
    "output": 3381
   },
   {
+   "agent": "a90a634c2f82af896",
+   "role": "section-coordinator",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "facts",
+   "section": "050",
+   "turns": 10,
+   "peak": 31065,
+   "input": 20,
+   "cacheWrite": 25184,
+   "cacheRead": 218168,
+   "output": 3784
+  },
+  {
    "agent": "a9232a5d6f6e97637",
    "role": "cartographer",
    "parent": "overseer",
@@ -1527,6 +1967,20 @@
    "cacheWrite": 150110,
    "cacheRead": 3109258,
    "output": 28267
+  },
+  {
+   "agent": "a9c1b8d1ee40b9c59",
+   "role": "map-auditor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "maps",
+   "section": "060",
+   "turns": 26,
+   "peak": 196067,
+   "input": 52,
+   "cacheWrite": 186614,
+   "cacheRead": 3917808,
+   "output": 37237
   },
   {
    "agent": "a9cfe9f13e8be0204",
@@ -1557,6 +2011,20 @@
    "output": 64770
   },
   {
+   "agent": "aa518ee5227436aca",
+   "role": "map-auditor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "maps",
+   "section": "050",
+   "turns": 11,
+   "peak": 206426,
+   "input": 22,
+   "cacheWrite": 200545,
+   "cacheRead": 1484690,
+   "output": 18174
+  },
+  {
    "agent": "aa5241a890c7428d5",
    "role": "researcher",
    "parent": "overseer",
@@ -1571,6 +2039,20 @@
    "output": 97783
   },
   {
+   "agent": "aa877e50171d5774f",
+   "role": "cartographer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "facts",
+   "section": "060",
+   "turns": 30,
+   "peak": 116450,
+   "input": 60,
+   "cacheWrite": 108299,
+   "cacheRead": 2181633,
+   "output": 27196
+  },
+  {
    "agent": "aa884c5e2fc196098",
    "role": "fact-checker",
    "parent": "overseer",
@@ -1583,6 +2065,34 @@
    "cacheWrite": 248102,
    "cacheRead": 11570287,
    "output": 55629
+  },
+  {
+   "agent": "aa8ae9155896badc4",
+   "role": "map-auditor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "maps",
+   "section": "060",
+   "turns": 13,
+   "peak": 204848,
+   "input": 26,
+   "cacheWrite": 195395,
+   "cacheRead": 1844260,
+   "output": 15347
+  },
+  {
+   "agent": "aaafcbc3bbf7e86fa",
+   "role": "fact-checker",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "facts",
+   "section": "060",
+   "turns": 21,
+   "peak": 133028,
+   "input": 42,
+   "cacheWrite": 123460,
+   "cacheRead": 2054199,
+   "output": 14611
   },
   {
    "agent": "aad3d767c9cae5d96",
@@ -1625,6 +2135,20 @@
    "cacheWrite": 33916,
    "cacheRead": 329090,
    "output": 7081
+  },
+  {
+   "agent": "ab70d19a8d0d36b89",
+   "role": "section-writer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "texts",
+   "section": "050",
+   "turns": 33,
+   "peak": 206180,
+   "input": 64,
+   "cacheWrite": 200299,
+   "cacheRead": 4988593,
+   "output": 49548
   },
   {
    "agent": "ab98b5153cf24b722",
@@ -1907,6 +2431,20 @@
    "output": 42334
   },
   {
+   "agent": "aeb31bcee6c81c4c8",
+   "role": "fact-checker",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "facts",
+   "section": "050",
+   "turns": 40,
+   "peak": 386676,
+   "input": 80,
+   "cacheWrite": 380795,
+   "cacheRead": 10842348,
+   "output": 58968
+  },
+  {
    "agent": "aeb6b75499116cc56",
    "role": "section-coordinator",
    "parent": "overseer",
@@ -1989,6 +2527,20 @@
    "cacheWrite": 206740,
    "cacheRead": 5032703,
    "output": 46948
+  },
+  {
+   "agent": "af849e6f9e7faf250",
+   "role": "map-auditor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "maps",
+   "section": "070",
+   "turns": 33,
+   "peak": 213953,
+   "input": 66,
+   "cacheWrite": 204500,
+   "cacheRead": 5368837,
+   "output": 56181
   },
   {
    "agent": "afdac48b076441830",
@@ -3005,6 +3557,83 @@
    ]
   },
   {
+   "agent": "a190e2a85fb5c817b",
+   "role": "map-auditor",
+   "step": "maps",
+   "section": "050",
+   "status": "faults",
+   "changed": 8,
+   "unresolved": 3,
+   "faults": [
+    {
+     "id": "050-map-auditor-1",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "map-auditor",
+     "file": "content/joan-of-arc/.plans/pages050.mjs",
+     "claim": "050.56",
+     "evidence": "research/050.md, 050.56, disputed: \"Elle arriva audit lieu environ soleil levant\" (Cagny, 1430, p. 174) against \"toit entrée par nuit dedens Compiègne. Laquelle, après y avoir reposé deux nuis\" (Chastellain, Quicherat 4, p. 443); rules.md, \"The careful side\": what the sources give differently names its author. The note gave Cagny's hour as fact.",
+     "action": "Joan rides in at sunrise (Cagny) and sorties that afternoon over its bridge; its captain raises it and shuts the gate behind her",
+     "state": "fixed"
+    },
+    {
+     "id": "050-map-auditor-2",
+     "severity": "weak",
+     "kind": "map",
+     "introduced": "maps",
+     "firstCheck": "maps",
+     "leak": false,
+     "owner": "cartographer",
+     "file": "content/joan-of-arc/.plans/pages050.mjs",
+     "claim": null,
+     "evidence": "the capture shots/compiegne.png of node scripts/audit-pack.mjs joan-of-arc 050: the crepy-1430 icon ([2.89, 49.23], 5 km inside the south edge 49.18) falls at about (395, 579) px, under the legend box (x 263-482, y 552-877); only its label shows, pushed up to (396, 523), and the start of joan-1430-compiegne is hidden with it. The page tells her night ride from Crépy (050.56), and the reader at a laptop cannot see where it starts.",
+     "action": "Give the frame room below Crépy so that its icon clears the legend: the south edge some 0.1 to 0.15 degrees further south than 49.18 (030's Blois was put right the same way), or another frame that keeps Crépy out of the bottom-left 220 by 330 pixels of a laptop. Then recapture compiegne and run the pack.",
+     "state": "fixed"
+    },
+    {
+     "id": "050-map-auditor-3",
+     "severity": "taste",
+     "kind": "map",
+     "introduced": "map-design",
+     "firstCheck": "map-design",
+     "leak": false,
+     "owner": "map-auditor",
+     "file": "content/joan-of-arc/.plan/brief.md",
+     "claim": "050.14",
+     "evidence": "research/050.md, 050.14: \"le XXVe jour d'aoust, fut prinse par eulx la ville de Sainct-Denis\" (the Bourgeois, § 516), and 050.15 and 050.29: the king at Saint-Denis 7 to 13 September. english-compiegne-1429 and english-sep-1429 keep Saint-Denis inside (ground.yaml, their inside tests), so on paris (8 September) Saint-Denis and La Chapelle stand in English land as france markers, a hold of the brief's kind that its list did not name; points.txt: saint-denis-1429 23 km inside english-sep-1429.",
+     "action": "(010.46), Sully (020.16), Saint-Denis, the king's base before Paris from 25 August to 13 September 1429 (050.14, 050.29), La Charité, Cosne and Saint-Pierre-le-Moûtier (050.34),",
+     "state": "fixed"
+    },
+    {
+     "id": "050-map-auditor-4",
+     "severity": "taste",
+     "kind": "map",
+     "introduced": "maps",
+     "firstCheck": "maps",
+     "leak": false,
+     "owner": "map-auditor",
+     "file": "content/joan-of-arc/.plans/zones.mjs",
+     "claim": "050.9",
+     "evidence": "research/050.md, 050.9: \"Paris and Normandy stay with Henry VI\", which names no Saint-Denis, and 050.14 (Saint-Denis taken on 25 August 1429). The why gave Saint-Denis as left English on the authority of 050.9. Wording only: the line runs where it ran.",
+     "action": "Paris and Normandy left (050.9), Saint-Denis with Paris but for the king's stay of 25 August to 13 September (050.14, 050.29), which its markers carry;",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "a1c1d64340bbd60b0",
+   "role": "cartographer",
+   "step": "facts",
+   "section": "050",
+   "status": "pass",
+   "changed": 5,
+   "unresolved": 0,
+   "faults": []
+  },
+  {
    "agent": "a1d7c34796f27b659",
    "role": "image-finder",
    "step": "images",
@@ -3094,6 +3723,16 @@
      "state": "fixed"
     }
    ]
+  },
+  {
+   "agent": "a26c8b1c424ab5e09",
+   "role": "image-finder",
+   "step": "images",
+   "section": "060",
+   "status": "pass",
+   "changed": 8,
+   "unresolved": 0,
+   "faults": []
   },
   {
    "agent": "a2c2fedc532f08b7d",
@@ -3190,6 +3829,16 @@
    "section": "010",
    "status": "pass",
    "changed": 0,
+   "unresolved": 0,
+   "faults": []
+  },
+  {
+   "agent": "a417f837acf951a24",
+   "role": "cartographer",
+   "step": "maps",
+   "section": "070",
+   "status": "pass",
+   "changed": 3,
    "unresolved": 0,
    "faults": []
   },
@@ -3471,6 +4120,16 @@
    ]
   },
   {
+   "agent": "a482e01d55da093bf",
+   "role": "image-finder",
+   "step": "images",
+   "section": "050",
+   "status": "pass",
+   "changed": 11,
+   "unresolved": 0,
+   "faults": []
+  },
+  {
    "agent": "a48ff450b81707306",
    "role": "researcher",
    "step": "research",
@@ -3604,6 +4263,31 @@
    ]
   },
   {
+   "agent": "a4cbcc2c1fd3aa1ec",
+   "role": "cartographer",
+   "step": "maps",
+   "section": "050",
+   "status": "pass",
+   "changed": 6,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "050-cartographer-1",
+     "severity": "wrong",
+     "kind": "plan",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": true,
+     "owner": "section-coordinator",
+     "file": "content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml",
+     "claim": null,
+     "evidence": "node scripts/audit-pack.mjs joan-of-arc 050 --no-shots, build: route \"france-1429-gien\" is defined twice; 040's auxerre-and-troyes already draws france-1429-gien (Orléans to Gien, 24 June 1429), content/joan-of-arc/.plan/040-the-loire-and-reims/map.yaml line 113",
+     "action": "france-1429-back-to-gien",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
    "agent": "a4e76ae44be0db1d7",
    "role": "section-writer",
    "step": "texts",
@@ -3622,6 +4306,84 @@
    "changed": 15,
    "unresolved": 0,
    "faults": []
+  },
+  {
+   "agent": "a5288c5eb81dd2b1b",
+   "role": "section-writer",
+   "step": "texts",
+   "section": "070",
+   "status": "faults",
+   "changed": 9,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "070-section-writer-1",
+     "severity": "weak",
+     "kind": "plan",
+     "introduced": "names",
+     "firstCheck": "names",
+     "leak": false,
+     "owner": "names",
+     "file": "content/joan-of-arc/.plan/names.md",
+     "claim": null,
+     "evidence": "node scripts/names-check.mjs joan-of-arc 070 and the write hook: each name is first named on a page of 070 (paris-opens, normandy-won-back, castillon, the-retrial), and no text of 010-060 names it (grep of pages/0[1-6]*/*/text/en.md finds none)",
+     "action": "Dieppe ... 070 (070.7); Bayeux ... 070 (070.16); Coutances ... 070 (070.38); Bordeaux ... 070 (070.25); the Parisians ... 070 (070.11)",
+     "state": "fixed"
+    },
+    {
+     "id": "070-section-writer-2",
+     "severity": "taste",
+     "kind": "check",
+     "introduced": "names",
+     "firstCheck": "names",
+     "leak": false,
+     "owner": "overseer",
+     "file": "scripts/names-check.mjs",
+     "claim": null,
+     "evidence": "node scripts/names-check.mjs joan-of-arc 070: \"John Talbot\" is first named in 070-after-her ... and its row says 020 (020.20); grep -l Talbot pages/0[3-4]*/*/text/en.md lists six pages of 030 and 040; names.md row of John Talbot: \"John Talbot, Earl of Shrewsbury\" at the first mention on a page of 070",
+     "action": "Have the comparison take a row's other forms too, or let the row of John Talbot stand: the check reads only the row's name, \"John Talbot\", which names.md asks for at the first mention on a page of 070, while the texts of 030 and 040 name him first as \"Lord Talbot\" and \"Talbot\". It reports \"John Talbot\" first named in 070 against the row's 020 (020.20), and neither changing the row nor dropping the form the row asks for is right.",
+     "state": "open"
+    }
+   ]
+  },
+  {
+   "agent": "a53faa66f33643d00",
+   "role": "cartographer",
+   "step": "maps",
+   "section": "060",
+   "status": "pass",
+   "changed": 7,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "060-cartographer-1",
+     "severity": "weak",
+     "kind": "map",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/joan-of-arc/.plan/060-rouen/pages.yaml",
+     "claim": null,
+     "evidence": "text.yaml, beaulieu-and-beaurevoir.account: \"After three or four days at Clairoix (Lang), he sent her\"; the start of joan-1430-beaulieu; handoff/cartographer.md: a station or end of a route the text names wants a marker on that page",
+     "action": "[beaulieu-1430, beaurevoir-1430, clairoix-beaulieu-1430], with its entry in map.yaml out of `unmarked`",
+     "state": "fixed"
+    },
+    {
+     "id": "060-cartographer-2",
+     "severity": "weak",
+     "kind": "map",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/joan-of-arc/.plan/060-rouen/pages.yaml",
+     "claim": null,
+     "evidence": "text.yaml, sold-to-the-english.account: \"Beaurevoir to Arras ... she passed a night at the castle of Drugy (Lang)\"; the start and a station of joan-1430-le-crotoy; handoff/cartographer.md, as in 060-cartographer-1",
+     "action": "[arras-1430, le-crotoy-1430, rouen-1430, compiegne-relief-1430, beaurevoir-october-1430, drugy-1430], with their entries in map.yaml out of `unmarked`",
+     "state": "fixed"
+    }
+   ]
   },
   {
    "agent": "a55a014d3909c4f4c",
@@ -4076,6 +4838,59 @@
    "faults": []
   },
   {
+   "agent": "a5d3fed2b4ac4a995",
+   "role": "fact-checker",
+   "step": "facts",
+   "section": "050",
+   "status": "pass",
+   "changed": 5,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "050-fact-checker-34",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "fix",
+     "firstCheck": null,
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/text/en.md",
+     "claim": "050.31",
+     "evidence": "archive.org-download-jeannedarcmaidof028754mbp-jeannedarcmaidof028754mbp-djvu.txt.txt, lines 13712-13729: \"DAME MARGUERITE LA TOUROULDE, widow of the late Bouligny\" under the running head \"DEPOSITIONS IN PARIS: 1455-6\" (Murray, pp. 270-272). No file gives 1456 for her deposition; the year came in with 050-section-reviewer-3.",
+     "action": "as her hostess later told the retrial.",
+     "state": "fixed"
+    },
+    {
+     "id": "050-fact-checker-35",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "fix",
+     "firstCheck": null,
+     "leak": false,
+     "owner": "cartographer",
+     "file": "content/joan-of-arc/.plans/pages050.mjs",
+     "claim": "050.31",
+     "evidence": "as 050-fact-checker-34: Murray prints her deposition under \"DEPOSITIONS IN PARIS: 1455-6\"; the year came in with 050-section-reviewer-14.",
+     "action": "(her deposition at the retrial)",
+     "state": "fixed"
+    },
+    {
+     "id": "050-fact-checker-36",
+     "severity": "wrong",
+     "kind": "fact",
+     "introduced": "fix",
+     "firstCheck": null,
+     "leak": false,
+     "owner": "cartographer",
+     "file": "content/joan-of-arc/.plans/pages050.mjs",
+     "claim": "050.36",
+     "evidence": "archive.org-download-jeannedarcmaidof028754mbp-jeannedarcmaidof028754mbp-djvu.txt.txt, line 12592: \"MAITRE REGINALD THIERRY, Dean of the Church of Meung-sur-Yevre; Surgeon to the King\", between the running heads \"DEPOSITIONS AT ORLEANS : 1455 245\" and \"247\" (index: \"Thierry, Maitre Reginald, 245\"). His deposition stands under 1455, not 1456; the year came in with 050-section-reviewer-15.",
+     "action": "(Regnault Thierry, at the retrial)",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
    "agent": "a5d70d3ccfc96428c",
    "role": "image-finder",
    "step": "images",
@@ -4084,6 +4899,311 @@
    "changed": 10,
    "unresolved": 0,
    "faults": []
+  },
+  {
+   "agent": "a60a80fff40bd7e25",
+   "role": "fact-checker",
+   "step": "facts",
+   "section": "060",
+   "status": "pass",
+   "changed": 15,
+   "unresolved": 13,
+   "faults": [
+    {
+     "id": "060-fact-checker-9",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md",
+     "claim": "060.11",
+     "evidence": "Ramsay 1 ch. 29 (archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt): \"On the 14th July Pierre Cauchon, Bishop of Beauvais, a creature of the Anglo-Burgundian party, presented himself to the Duke in his camp at Compiègne.\" The sentence kept Ramsay's order of clauses (close-wording.mjs, 70%)",
+     "action": "Pierre Cauchon, Bishop of Beauvais, comes to the siege of Compiègne on 14 July.",
+     "state": "fixed"
+    },
+    {
+     "id": "060-fact-checker-10",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md",
+     "claim": "060.9",
+     "evidence": "Barrett, 14 March 1431, in prison (sourcebooks.web.fordham.edu-basis-joanofarc-trial.asp.txt, line 2680): \"she had heard that the people of Compiègne all of them to the age of seven years, were to be put to fire and to the sword\"; Lowell ch. 18: \"all the dwellers in it, from seven years old and upwards\". \"Everyone\" dropped the age the sources give",
+     "action": "and that the people of Compiègne, all of them down to the age of seven, will be put to fire and sword when the town falls.",
+     "state": "fixed"
+    },
+    {
+     "id": "060-fact-checker-11",
+     "severity": "weak",
+     "kind": "sources",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/page.yaml",
+     "claim": "060.8",
+     "evidence": "the text: \"while the Bourgeois of Paris heard she was not hurt at all\"; Bourgeois, 1431, item 576 (archive.org-download-journaldunbourge54182gut-54182-0.txt.txt): \"mais elle sailly d'une haulte tour en bas sans soy blecier aucunement\". The page named the work and did not list it",
+     "action": "  - \"J. H. Ramsay, Lancaster and York, vol. 1 (1892), ch. 29.\"\n  - \"Journal d'un bourgeois de Paris, 1405–1449, ed. A. Tuetey (1881).\"",
+     "state": "fixed"
+    },
+    {
+     "id": "060-fact-checker-12",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md",
+     "claim": "060.15",
+     "evidence": "Lang ch. 21 (archive.org-download-maidoffrancebein00languoft-maidoffrancebein00languoft-djvu.txt.txt, lines 10827-10829): \"of which 10,000 were to be devoted to the purchase of \"Jehanne la Pucelle, said to be a witch\"; the levy (Quicherat 5, line 8899): \"que l'en dit estre sorcière\". A quote stands as the file has it",
+     "action": "for the price of Joan, \"said to be a witch\".",
+     "state": "fixed"
+    },
+    {
+     "id": "060-fact-checker-13",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md",
+     "claim": "060.16",
+     "evidence": "Lowell ch. 18 (archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, lines 10597-10599): \"Either at Arras or Le Crotoy, or at some place between the two, the English took their prisoner and paid their money.\"; Ramsay 1 ch. 29: \"to Arras, and from thence to Crotoy. There she was delivered into the hands of the English\". The text left out Lowell's Arras and gave Ramsay's Le Crotoy as Lowell's",
+     "action": "There, as Ramsay has it, or at Arras or somewhere between, as Lowell allows, the English take her and pay.",
+     "state": "fixed"
+    },
+    {
+     "id": "060-fact-checker-14",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md",
+     "claim": "060.20",
+     "evidence": "Lang ch. 21 (lines 10842-10846): \"He says that at Crotoy she was a constant hearer of the Masses said by Nicolas de Queuville, Chancellor of the Church of Amiens, a loyal Frenchman and a prisoner, who heard Jeanne in confession\". The sentence followed Lang's order (close-wording.mjs, 56%); what is left in common is names and titles",
+     "action": "By Haimond de Macy's later account, a fellow captive at Le Crotoy, Nicolas de Queuville, chancellor of the church of Amiens, heard her confession, and she heard him say Mass.",
+     "state": "fixed"
+    },
+    {
+     "id": "060-fact-checker-15",
+     "severity": "weak",
+     "kind": "sources",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/page.yaml",
+     "claim": "060.14",
+     "evidence": "the text names Champion (\"In Lowell, Lang and Champion\") and \"The record of the trial has the Duke and John of Luxembourg together hand her over\"; both stand in sourcebooks.web.fordham.edu-basis-joanofarc-trial.asp.txt (Champion: \"sold her to the English for 10,000 livres\"; the record: \"the most illustrious lord Duke of Burgundy and the lord Jean de Luxembourg graciously consenting to these demands\")",
+     "action": "  - \"J. H. Ramsay, Lancaster and York, vol. 1 (1892), ch. 23 and 29.\"\n  - \"W. P. Barrett (tr.), The Trial of Jeanne d'Arc (1932), the opening of the record, with Pierre Champion's note on Jean de Luxembourg.\"",
+     "state": "fixed"
+    },
+    {
+     "id": "060-fact-checker-16",
+     "severity": "wrong",
+     "kind": "attribution",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md",
+     "claim": "060.27",
+     "evidence": "Murray, the first enquiry, Ladvenu (archive.org-download-jeannedarcmaidof028754mbp-jeannedarcmaidof028754mbp-djvu.txt.txt, lines 8892-8897): \"commanded Jeanne to be kept in the secular prison and in the hands of her mortal enemies ... allowed her ... to be tormented and cruelly treated in a secular prison\", with no guards in her cell; Massieu (lines 9398-9400): \"in the hands of five of the English, three of whom stayed all night in the room, and two outside the door\". The guards in her cell were given to Ladvenu, who does not tell them",
+     "action": "A church court tries her, yet she is kept in this secular prison, as Martin Ladvenu, a Dominican of the court, testified in 1450. Jean Massieu, the usher of the court, said that three English guards spent each night in her room.\\*\\*",
+     "state": "fixed"
+    },
+    {
+     "id": "060-fact-checker-17",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "fix",
+     "firstCheck": null,
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md",
+     "claim": "060.26",
+     "evidence": "follows 060-fact-checker-16, which introduces Massieu in the body; Murray, Massieu (lines 9401-9404): \"at night she slept chained by the legs with two pairs of iron chains ... held to a great piece of wood\"",
+     "action": "Massieu said in 1450 that at night her legs were chained",
+     "state": "fixed"
+    },
+    {
+     "id": "060-fact-checker-18",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md",
+     "claim": "060.35",
+     "evidence": "Barrett, 20 February 1431 (sourcebooks.web.fordham.edu-basis-joanofarc-trial.asp.txt, lines 863-867): \"he would not participate in the present matter, unless he received especial authority ... until he had received more ample counsel upon the question whether he could in virtue of his commission undertake the conduct of this trial\". The record has him in doubt, not saying he lacks jurisdiction",
+     "action": "refuses on 20 February to sit without special authority, unsure that his commission covers the case.",
+     "state": "fixed"
+    },
+    {
+     "id": "060-fact-checker-19",
+     "severity": "weak",
+     "kind": "sources",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/030-the-court/page.yaml",
+     "claim": null,
+     "evidence": "the text names Lang twice (Canon Dunand, 060.31; the witness of the cage, 060.26, Lang ch. 21); Cauchon raised to Beauvais in 1420 rests on Ramsay 1 ch. 29 note 2 (060.29); the twenty sous a day on the king's order of 2 April 1431, Quicherat 5 line 10063 (060.37)",
+     "action": "  - \"F. C. Lowell, Joan of Arc (1896), ch. 19–20.\"\n  - \"A. Lang, The Maid of France (1908), ch. 21.\"\n  - \"J. H. Ramsay, Lancaster and York, vol. 1 (1892), ch. 29.\"\n  - \"J. Quicherat (ed.), Procès de condamnation et de réhabilitation de Jeanne d'Arc, vol. 5 (1849), the king's order of 2 April 1431 for the Paris masters.\"",
+     "state": "fixed"
+    },
+    {
+     "id": "060-fact-checker-20",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/040-the-questioning/text/en.md",
+     "claim": "060.42",
+     "evidence": "searched the record, Ramsay ch. 29 and Thurston for a share of the questions: none gives one. Thurston (newadvent.org-cathen-08409c.txt): \"They pressed her regarding her visions, but upon many points she refused to answer.\"",
+     "action": "The judges press her on her voices.",
+     "state": "fixed"
+    },
+    {
+     "id": "060-fact-checker-21",
+     "severity": "weak",
+     "kind": "sources",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/040-the-questioning/page.yaml",
+     "claim": "060.45",
+     "evidence": "the note: \"Lang has Courcelles read them on 28 March\"; Lang ch. 23: \"On March 28, Courcelles read the Articles aloud\" (060.45)",
+     "action": "  - \"H. Thurston, 'St. Joan of Arc', Catholic Encyclopedia, vol. 8 (1910).\"\n  - \"A. Lang, The Maid of France (1908), ch. 23.\"",
+     "state": "fixed"
+    },
+    {
+     "id": "060-fact-checker-22",
+     "severity": "wrong",
+     "kind": "attribution",
+     "introduced": "research",
+     "firstCheck": "research",
+     "leak": true,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md",
+     "claim": "060.56",
+     "evidence": "Murray, the first enquiry, Ladvenu (lines 8920-8924): \"The Maid revealed to me that, after her abjuration and recantation, she was violently treated in the prison, molested, beaten, and illused; and that an English lord had insulted her. She also said, publicly, that on this account she had resumed a man's dress\"; Isambart (lines 8766-8770): \"I and many others were present when Jeanne excused herself for having dressed again as a man, saying and affirming publicly, that the English had done or caused to be done to her great wrong and violence, when she was wearing a woman's dress\". Isambart tells no English lord and was not told in private, and in Ladvenu the lord insulted her, not molested her",
+     "action": "Two friars of the court, Martin Ladvenu and Isambart de La Pierre, testified in 1450 that she blamed her prison. Ladvenu said she told him she had been beaten and molested there and insulted by an English lord, and that this was why she wore the man's dress again; Isambart heard her say before many that the English had done her \"great wrong and violence\" while she wore the woman's dress.",
+     "state": "fixed"
+    },
+    {
+     "id": "060-fact-checker-23",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "research",
+     "firstCheck": "research",
+     "leak": false,
+     "owner": "researcher",
+     "file": "content/joan-of-arc/.plan/research.md",
+     "claim": "060.56",
+     "evidence": "as in 060-fact-checker-22: Ladvenu, \"and that an English lord had insulted her\"",
+     "action": "she said she had been ill-treated and molested in prison, and in Ladvenu that an English lord had insulted her, and had taken the man's dress again for that.",
+     "state": "fixed"
+    },
+    {
+     "id": "060-fact-checker-24",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "research",
+     "firstCheck": "research",
+     "leak": false,
+     "owner": "researcher",
+     "file": "content/joan-of-arc/.plan/research/060.md",
+     "claim": "060.56",
+     "evidence": "as in 060-fact-checker-22",
+     "action": "she said she had been ill-treated and molested in prison, and in Ladvenu that an English lord had insulted her, and had taken the man's dress again for that.",
+     "state": "fixed"
+    },
+    {
+     "id": "060-fact-checker-25",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md",
+     "claim": "060.53",
+     "evidence": "Murray, the first enquiry, Massieu (lines 9377-9384): \"this thing was asked of the Bishop of Beauvais by some of those present, whose names I do not know. To which the Bishop replied: 'Take her to the Castle whence she came.'\" Massieu alone tells it; rules.md, the two trials are primary sources with a side, a witness's account is told as his",
+     "action": "Some of those present, by Massieu's account, ask that she be taken to a church prison,",
+     "state": "fixed"
+    },
+    {
+     "id": "060-fact-checker-26",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md",
+     "claim": "060.55",
+     "evidence": "Murray, Massieu (lines 9406-9418): \"as she reported and said to me ... one of the English took away from her the woman's garments which she had on her ... they would not give her the other\"; Thurston: \"owing, it was afterwards alleged, to a trap deliberately laid by her jailers with the connivance of Cauchon\". The second sentence kept Thurston's words; the first followed Massieu (close-wording.mjs, 60%), and what is left in common is the names of the day and the clothes",
+     "action": "Massieu had it from her that on Trinity Sunday the English guards stripped away her woman's clothes and left her nothing to wear but the man's. Thurston reports the charge, made later, that her jailers set a trap for her and that Cauchon was party to it.",
+     "state": "fixed"
+    },
+    {
+     "id": "060-fact-checker-27",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md",
+     "claim": "060.62",
+     "evidence": "searched Lowell ch. 24, Murray (Guesdon, Ladvenu) and Thurston for the bailli as the king's judge: none calls him so. Lowell ch. 24 (lines 14760-14762): \"The power of the state, represented by the bailiff of Rouen, should have passed sentence of death\"",
+     "action": "The bailli of Rouen, who stands for the secular power, should now pass sentence, and he does not.",
+     "state": "fixed"
+    },
+    {
+     "id": "060-fact-checker-28",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md",
+     "claim": "060.63",
+     "evidence": "Murray, the first enquiry, Massieu (lines 9467-9469): \"an Englishman, who was there present, made a little cross of wood with the ends of a stick, which he gave her\". The clause kept Massieu's words",
+     "action": "One of the English standing by fashions a small one for her out of a stick,",
+     "state": "fixed"
+    },
+    {
+     "id": "060-fact-checker-29",
+     "severity": "weak",
+     "kind": "sources",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/060-the-old-market/page.yaml",
+     "claim": null,
+     "evidence": "the note names Thurston and gives Manchon from him (newadvent.org-cathen-08409c.txt: \"About this last speech a doubt must always be felt\"; \"'Until the last,' said Manchon, the recorder at the trial\"); the three scaffolds rest on Lang ch. 26 alone: \"There were three scaffolds\" (060.60)",
+     "action": "  - \"Journal d'un bourgeois de Paris, 1405–1449, ed. A. Tuetey (1881).\"\n  - \"H. Thurston, 'St. Joan of Arc', Catholic Encyclopedia, vol. 8 (1910).\"\n  - \"A. Lang, The Maid of France (1908), ch. 26.\"",
+     "state": "fixed"
+    }
+   ]
   },
   {
    "agent": "a614099ef5b3b8188",
@@ -4390,6 +5510,255 @@
    ]
   },
   {
+   "agent": "a7519e625867ffa65",
+   "role": "section-reviewer",
+   "step": "facts",
+   "section": "050",
+   "status": "faults",
+   "changed": 7,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "050-section-reviewer-1",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/030-back-to-the-loire/text/en.md",
+     "claim": "050.29",
+     "evidence": "agents/text.md, \"The reader can follow\": each event has its when and its cause; research/050.md, 050.26 (\"et ainssi faillit l'assault\", Cagny) and 050.29 (the king leaves Saint-Denis for Gien, September 1429). The page opened on the offering with no date and no reason for leaving.",
+     "action": "The attack on Paris has failed, and in September 1429 the king turns south. Before she leaves [Saint-Denis](@saint-denis-abbey), north of Paris, Joan offers",
+     "state": "fixed"
+    },
+    {
+     "id": "050-section-reviewer-2",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/030-back-to-the-loire/text/en.md",
+     "claim": "050.11",
+     "evidence": "research/050.md, 050.11: \"le seigneur de la Trimoille, le sire de Gaucourt, qui lors gouvernoient le corps du roy et le fait de sa guerre\" (Cagny, 1429, p. 171); agents/text.md: a person gets a few words on who they are where the page first names them. Gaucourt had none.",
+     "action": "and Raoul de Gaucourt, the three who govern the king, refuse.",
+     "state": "fixed"
+    },
+    {
+     "id": "050-section-reviewer-3",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/text/en.md",
+     "claim": "050.31",
+     "evidence": "rules.md, \"The two trials are primary sources with a side\": what a witness of 1456 said of 1429 is told as that witness's account; research/050.md, 050.31: single (La Touroulde's deposition); text.yaml disputes: \"the stay at Bourges is told as La Touroulde's deposition\". The body told the stay plainly.",
+     "action": "in the house of Marguerite La Touroulde, as her hostess told the retrial in 1456.",
+     "state": "fixed"
+    },
+    {
+     "id": "050-section-reviewer-4",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/text/en.md",
+     "claim": "050.36",
+     "evidence": "rules.md, \"The two trials are primary sources with a side\"; research/050.md, 050.36: single (d'Aulon's deposition of 1456) for the course and her words. The body did not say when d'Aulon told it.",
+     "action": "Only her squire Jean d'Aulon told how it was taken, at the retrial.",
+     "state": "fixed"
+    },
+    {
+     "id": "050-section-reviewer-5",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/020-paris/text/en.md",
+     "claim": "050.16",
+     "evidence": "names.md, Rules, Names of places: \"the earthworks before a gate or a fort 'boulevards'\"; research/050.md, 050.16: \"the barrier and boulevard before the gate are fired and taken\".",
+     "action": "the barrier and the boulevard, the earthwork before it, are burned and taken.",
+     "state": "fixed"
+    },
+    {
+     "id": "050-section-reviewer-6",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/020-paris/text/en.md",
+     "claim": "050.23",
+     "evidence": "research/050.md, 050.23: \"le baron de Mommorancy, qui tousjours avoit tenu le parti contraire du roy, vint de dedens la ville\" (Cagny, 1429, p. 168); agents/text.md: a few words on who a person is. The body gave his coming without why it mattered.",
+     "action": "and the Baron of Montmorency, who has always held for the other side, rides out of Paris",
+     "state": "fixed"
+    },
+    {
+     "id": "050-section-reviewer-7",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/020-paris/text/en.md",
+     "claim": null,
+     "evidence": "agents/text.md, \"Short\": the same fact in fewer words, to keep the body near 300 after 050-section-reviewer-5 and -6.",
+     "action": "The places of the gates on the old city wall, like the army's road, are approximate.",
+     "state": "fixed"
+    },
+    {
+     "id": "050-section-reviewer-8",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/050-melun-and-lagny/text/en.md",
+     "claim": "050.46",
+     "evidence": "research/050.md, 050.46: \"tell her so nearly every day after, but not when\". The clause dropped its verb and read clipped.",
+     "action": "but never said when.",
+     "state": "fixed"
+    },
+    {
+     "id": "050-section-reviewer-9",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/050-melun-and-lagny/text/en.md",
+     "claim": "050.52",
+     "evidence": "research/050.md, 050.52: \"a captain of partisans of the Burgundian party\"; names.md row Franquet d'Arras: \"a Burgundian captain of partisans\". The digest's word, and no \"raiders ... raid\".",
+     "action": "a Burgundian captain of partisans, back from a raid",
+     "state": "fixed"
+    },
+    {
+     "id": "050-section-reviewer-10",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/060-compiegne/text/en.md",
+     "claim": "050.53",
+     "evidence": "research/050.md, 050.53: \"razes it and bridges the Oise to come at Compiègne\". \"The river\" named no river where the page first spoke of one.",
+     "action": "He razes it and bridges the Oise.",
+     "state": "fixed"
+    },
+    {
+     "id": "050-section-reviewer-11",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/060-compiegne/text/en.md",
+     "claim": "050.55",
+     "evidence": "agents/text.md, \"The reader can follow\": a list of four posts whose items hold commas of their own is split by semicolons, so each post reads apart.",
+     "action": "the duke at [Coudun](@coudun-1430); John of Luxembourg, a Burgundian captain, at [Clairoix](@clairoix-1430); Baudot de Noyelle at [Margny](@margny-1430), at the end of the causeway from the bridge; and the English",
+     "state": "fixed"
+    },
+    {
+     "id": "050-section-reviewer-12",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/060-compiegne/text/en.md",
+     "claim": "050.63",
+     "evidence": "research/050.md, 050.63: \"to him she surrendered and pledged her faith\" (Monstrelet, book 2 ch. 86). \"Gives her faith\" alone may read to a school leaver as a matter of religion.",
+     "action": "and she surrenders and gives her word to the Bastard of Wandonne",
+     "state": "fixed"
+    },
+    {
+     "id": "050-section-reviewer-13",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "cartographer",
+     "file": "content/joan-of-arc/.plans/pages050.mjs",
+     "claim": "050.1",
+     "evidence": "as 050-fact-checker-11 and -12: Jean Chartier, Quicherat 4, p. 79, \"y arriva certaine quantité d'Anglois\", against the Journal du siège, p. 188, \"mirent en leur ville grant compaignie d'Anglois et Bourguignons\". The text now tells Chartier's account with the Journal's in a note; the note still tells the Journal's plainly.",
+     "action": "but English troops come in the night before (Chartier; the Journal of the Siege has its townsmen let in English and Burgundians)",
+     "state": "fixed"
+    },
+    {
+     "id": "050-section-reviewer-14",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "cartographer",
+     "file": "content/joan-of-arc/.plans/pages050.mjs",
+     "claim": "050.31",
+     "evidence": "as 050-section-reviewer-3: rules.md, \"The two trials are primary sources with a side\"; research/050.md, 050.31, single (La Touroulde's deposition).",
+     "action": "Joan stays about three weeks in October 1429 in Marguerite La Touroulde's house (her deposition of 1456)",
+     "state": "fixed"
+    },
+    {
+     "id": "050-section-reviewer-15",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "cartographer",
+     "file": "content/joan-of-arc/.plans/pages050.mjs",
+     "claim": "050.36",
+     "evidence": "rules.md, \"The two trials are primary sources with a side\"; research/050.md, 050.36: the pillage of the church rests on \"testimony of Reginald Thierry, p. 246\" (Murray) alone; text.yaml disputes: \"the pillage of the church as Thierry's\". The text gives it as his; the note gives it plainly.",
+     "action": "Joan stops her soldiers pillaging its church (Regnault Thierry, 1456)",
+     "state": "fixed"
+    },
+    {
+     "id": "050-section-reviewer-16",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "cartographer",
+     "file": "content/joan-of-arc/.plans/pages050.mjs",
+     "claim": "050.39",
+     "evidence": "research/050.md, 050.39 as 050-research-reviewer-5 corrected it: \"an assault is made, in which a baron of Dauphiné, Raymon de Montremur, is killed (the Berry herald)\", replacing \"an assault is beaten back\"; the Berry herald, Quicherat 4, p. 49, \"y morut à ung assault ung baron du pais du Daulphiné\". The note keeps the old line, and the text follows the new.",
+     "action": "an assault is made, in which a baron of Dauphiné is killed, and its siege is raised",
+     "state": "fixed"
+    },
+    {
+     "id": "050-section-reviewer-17",
+     "severity": "weak",
+     "kind": "battle",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/joan-of-arc/shared/battles/paris-1429/battle.yaml",
+     "claim": "050.16",
+     "evidence": "research/050.md, 050.16: Alençon covered the attack \"with Bourbon, the Journal du siège; with Boussac, Ramsay\"; text.yaml disputes: \"who covered the attack with Alençon is given by author\". The card lists Boussac plainly; the text gives him as Ramsay's in a note.",
+     "action": "\"Marshal de Boussac (Ramsay)\"",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
    "agent": "a754de7ca5d4c5348",
    "role": "cartographer",
    "step": "maps",
@@ -4591,6 +5960,280 @@
    ]
   },
   {
+   "agent": "a775236d3821a8fa6",
+   "role": "section-reviewer",
+   "step": "facts",
+   "section": "060",
+   "status": "faults",
+   "changed": 8,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "060-section-reviewer-1",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md",
+     "claim": "060.12",
+     "evidence": "names.md Rules, Names of people: \"Two men called the Bastard keep their 'of'\"; research 060.12: \"or failing that 10,000 as the king could pay for a captured king or prince\". \"Or else 10,000\" told the reader a figure with no sense of what it was",
+     "action": "John of Luxembourg and the Bastard of Wandonne to give her up to him for trial, and offers her captors up to 6,000 francs, or else 10,000, the sum the king could pay for a captive king or prince.",
+     "state": "fixed"
+    },
+    {
+     "id": "060-section-reviewer-2",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md",
+     "claim": null,
+     "evidence": "agents/text.md, Short: the body stood at 345 words after 060-section-reviewer-1, near the hard limit of 350; \"which forbid it\" repeats \"against her voices\", and \"the women of the castle\" repeats the two titles that follow",
+     "action": "His aunt the Demoiselle of Luxembourg and his wife the Lady of Beaurevoir urge her ... Against her voices she throws herself",
+     "state": "fixed"
+    },
+    {
+     "id": "060-section-reviewer-3",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md",
+     "claim": "060.67",
+     "evidence": "research 060.67: \"Jean de Pressy and many others often asked her to put on a woman's dress, and she would not\" (Barrett, 3 March, and article XVI: \"she refused and still refuses\"); 060.68: \"a knight of Artois\" (Champion). \"Again\" pointed to the previous page, and \"men of his company\" kept Lowell's words (\"Some of the duke's company begged her ... and again she refused\") where the plan and names.md give the man",
+     "action": "There Jean de Pressy, a knight of Artois, and many others ask her to put on a woman's dress, and she will not.",
+     "state": "fixed"
+    },
+    {
+     "id": "060-section-reviewer-4",
+     "severity": "taste",
+     "kind": "order",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md",
+     "claim": "060.22",
+     "evidence": "research 060.22 (relieved 25-26 October 1430) and 060.21 (the University's letter of 21 November): the October relief stood after the November letter; set in order of time, it comes before her road from Beaurevoir, which begins in the latter part of October",
+     "action": "the same paragraph after the first paragraph, before \"In the latter part of October\"",
+     "state": "fixed"
+    },
+    {
+     "id": "060-section-reviewer-5",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md",
+     "claim": null,
+     "evidence": "agents/evidence.md, The basis of a drawing: a reconstruction is said \"in a clause ... once in a chapter\"; beaulieu-and-beaurevoir, the first page of 060, says the borders are approximate",
+     "action": "Her road to Le Crotoy only joins the places.",
+     "state": "fixed"
+    },
+    {
+     "id": "060-section-reviewer-6",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md",
+     "claim": "060.33",
+     "evidence": "research 060.33: the chapter \"grants Cauchon territory in Rouen and its diocese for the trial\"; \"territory\" is the canonists' word, and alone it tells the reader nothing of what was granted",
+     "action": "lets him hold his court in its diocese.",
+     "state": "fixed"
+    },
+    {
+     "id": "060-section-reviewer-7",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md",
+     "claim": "060.37",
+     "evidence": "research 060.37: \"the English government gives Jean Le Maistre twenty saluts d'or on 24 April 1431\" (Champion); the text had named him \"the Inquisitor's deputy\" and here gave a third name and no date",
+     "action": "and on 24 April Jean Le Maistre is given twenty saluts d'or",
+     "state": "fixed"
+    },
+    {
+     "id": "060-section-reviewer-8",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md",
+     "claim": null,
+     "evidence": "agents/evidence.md, once in a chapter, as in 060-section-reviewer-5",
+     "action": "",
+     "state": "fixed"
+    },
+    {
+     "id": "060-section-reviewer-9",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/040-the-questioning/text/en.md",
+     "claim": "060.43",
+     "evidence": "agents/text.md, The reader can follow: the page names no king before this, and a reader who opens it here does not know which; names.md, Charles VII",
+     "action": "Of the sign she gave Charles VII,",
+     "state": "fixed"
+    },
+    {
+     "id": "060-section-reviewer-10",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md",
+     "claim": "060.49",
+     "evidence": "research 060.49: the record has \"a solemn sermon pronounced by master Guillaume Erart\"; no line of the digest makes him a doctor of theology (rules.md, The careful side)",
+     "action": "she hears a sermon by Guillaume Erard.",
+     "state": "fixed"
+    },
+    {
+     "id": "060-section-reviewer-11",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md",
+     "claim": "060.62",
+     "evidence": "research 060.62, Guesdon: \"before either the Bailly or myself, whose office it was, had given sentence, the executioner seized her\"; \"theirs\" had no one it plainly stood for",
+     "action": "before he or the bailli had given any sentence, and he held this to be wrong.",
+     "state": "fixed"
+    },
+    {
+     "id": "060-section-reviewer-12",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md",
+     "claim": null,
+     "evidence": "agents/evidence.md, once in a chapter: saint-ouen, the page before, says the same of the streets of Rouen",
+     "action": "",
+     "state": "fixed"
+    },
+    {
+     "id": "060-section-reviewer-13",
+     "severity": "weak",
+     "kind": "map",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "cartographer",
+     "file": "content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/page.yaml",
+     "claim": null,
+     "evidence": "agents/text.md, The text and the map agree: each place the text names is on the map; research 060.2 (Beaulieu near Noyon), 060.5 (Beaurevoir near Saint-Quentin), 060.9, 060.11",
+     "action": "The text names Compiègne (her capture, the siege, Cauchon's summons and the threat to its people), Noyon (Beaulieu is near it) and Saint-Quentin (Beaurevoir is near it), and the map marks none of them (capture maps-060-map-auditor/shots2/beaulieu-and-beaurevoir.png). Add a marker for each, or at least Compiègne, whose siege the page turns on",
+     "state": "fixed"
+    },
+    {
+     "id": "060-section-reviewer-14",
+     "severity": "weak",
+     "kind": "map",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "cartographer",
+     "file": "content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/page.yaml",
+     "claim": null,
+     "evidence": "agents/text.md, The text and the map agree; research 060.19, 060.21",
+     "action": "The text names Paris (the University wants her tried there) and the Somme (Le Crotoy at its mouth); the map marks neither and shows no river label (capture maps-060-map-auditor/shots2/sold-to-the-english.png). Add a marker for Paris, the seat of the University, and a label for the Somme",
+     "state": "fixed"
+    },
+    {
+     "id": "060-section-reviewer-15",
+     "severity": "weak",
+     "kind": "map",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "cartographer",
+     "file": "content/joan-of-arc/pages/060-rouen/030-the-court/page.yaml",
+     "claim": null,
+     "evidence": "agents/text.md, The text and the map agree; research 060.31",
+     "action": "The text names Compiègne (her capture there is Cauchon's title to judge her, and the place of the dispute of the diocese), and the map marks it nowhere, though it lies inside the page's bbox (capture maps-060-map-auditor/pack/shots/the-court.png). Add a marker for it",
+     "state": "fixed"
+    },
+    {
+     "id": "060-section-reviewer-16",
+     "severity": "weak",
+     "kind": "map",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "cartographer",
+     "file": "content/joan-of-arc/pages/060-rouen/050-saint-ouen/page.yaml",
+     "claim": null,
+     "evidence": "agents/text.md, The text and the map agree; research 060.57",
+     "action": "The text names the archbishop's chapel in Rouen, where the judges find her relapsed on 29 May, and the Old Market, to which they summon her; the map marks neither, though both lie inside the page's bbox (capture maps-060-map-auditor/pack/shots/saint-ouen.png). Add a marker for each",
+     "state": "fixed"
+    },
+    {
+     "id": "060-section-reviewer-17",
+     "severity": "weak",
+     "kind": "map",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "cartographer",
+     "file": "content/joan-of-arc/pages/060-rouen/060-the-old-market/page.yaml",
+     "claim": null,
+     "evidence": "agents/text.md, The text and the map agree; research 060.60, 060.63, 060.65",
+     "action": "The text names the church of Saint-Sauveur, beside whose scaffold she is set and whose cross Massieu brings, and the Seine, into which her ashes are thrown; the map marks neither, and the bbox stops north of the river (capture maps-060-map-auditor/pack/shots/the-old-market.png). Add a marker for the church and widen the bbox south to show the Seine",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "a78839482192c5430",
+   "role": "researcher",
+   "step": "maps",
+   "section": "060",
+   "status": "pass",
+   "changed": 7,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "060-researcher-1",
+     "severity": "weak",
+     "kind": "check",
+     "introduced": "names",
+     "firstCheck": "names",
+     "leak": false,
+     "owner": "names",
+     "file": "content/joan-of-arc/.plan/names.md",
+     "claim": "060.68",
+     "evidence": "text.yaml sold-to-the-english.account names \"Jean de Pressy\", and names.md had no row for him; research 060.67, 060.68 (Barrett, 3 March and Champion's sketch \"JEAN DE PRESSY\"; Murray's note; Lowell ch. 18 note)",
+     "action": "| Jean de Pressy | a knight of Artois of the Anglo-Burgundian party, of Henry VI's Grand Council, who with others at Arras asked Joan to put on a woman's dress | 060 (060.67) | Messire Jean de Pressy; John of Pressy (Lowell); the Sieur de Pressy (Murray) |",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
    "agent": "a78b7a55f2884a914",
    "role": "map-architect",
    "step": "map-design",
@@ -4624,6 +6267,59 @@
    "changed": 2,
    "unresolved": 6,
    "faults": []
+  },
+  {
+   "agent": "a792fbb4802584b5f",
+   "role": "section-writer",
+   "step": "texts",
+   "section": "060",
+   "status": "pass",
+   "changed": 10,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "060-section-writer-1",
+     "severity": "wrong",
+     "kind": "check",
+     "introduced": "names",
+     "firstCheck": "names",
+     "leak": true,
+     "owner": "names",
+     "file": "content/joan-of-arc/.plan/names.md",
+     "claim": null,
+     "evidence": "names-check.mjs joan-of-arc 060: no text of 050 names the town (only Franquet d'Arras, 050-melun-and-lagny); the first text to name it is 060 sold-to-the-english, on claim 060.18",
+     "action": "060 (060.18)",
+     "state": "fixed"
+    },
+    {
+     "id": "060-section-writer-2",
+     "severity": "wrong",
+     "kind": "check",
+     "introduced": "names",
+     "firstCheck": "names",
+     "leak": true,
+     "owner": "names",
+     "file": "content/joan-of-arc/.plan/names.md",
+     "claim": null,
+     "evidence": "names.md Rules, Names of places: \"the church on the Old Market as 'the church of Saint-Sauveur'\"; with two rows named \"Saint-Sauveur\", names-check.mjs took the church of 060 the-old-market for the Norman town of 070 (070.16)",
+     "action": "the church of Saint-Sauveur",
+     "state": "fixed"
+    },
+    {
+     "id": "060-section-writer-3",
+     "severity": "weak",
+     "kind": "check",
+     "introduced": "names",
+     "firstCheck": "names",
+     "leak": false,
+     "owner": "names",
+     "file": "content/joan-of-arc/.plan/names.md",
+     "claim": null,
+     "evidence": "names-check.mjs joan-of-arc 060: \"Mass\", \"Trinity\" and \"Jesus\" had no row; Barrett, the trial for relapse, 28 May 1431 (\"to permit her to go to Mass\", \"the day after Holy Trinity Sunday\"); Thurston: \"called continuously upon the name of Jesus\"",
+     "action": "(Lowell's \"touched for the King's Evil\"). Mass, the service she asked to hear (the record's \"go to Mass\"); Trinity Sunday (27 May 1431); Jesus, the name she called on in the fire (Massieu, Thurston).",
+     "state": "fixed"
+    }
+   ]
   },
   {
    "agent": "a7962c9c4343c87f9",
@@ -5131,6 +6827,16 @@
    ]
   },
   {
+   "agent": "a8857c927d77fda2e",
+   "role": "cartographer",
+   "step": "maps",
+   "section": "050",
+   "status": "pass",
+   "changed": 6,
+   "unresolved": 0,
+   "faults": []
+  },
+  {
    "agent": "a8b70a7cc6588e1a8",
    "role": "section-coordinator",
    "step": "plans",
@@ -5163,6 +6869,16 @@
    "status": "pass",
    "changed": 1,
    "unresolved": 2,
+   "faults": []
+  },
+  {
+   "agent": "a90a634c2f82af896",
+   "role": "section-coordinator",
+   "step": "facts",
+   "section": "050",
+   "status": "pass",
+   "changed": 4,
+   "unresolved": 0,
    "faults": []
   },
   {
@@ -5299,6 +7015,59 @@
    ]
   },
   {
+   "agent": "a9c1b8d1ee40b9c59",
+   "role": "map-auditor",
+   "step": "maps",
+   "section": "060",
+   "status": "faults",
+   "changed": 6,
+   "unresolved": 5,
+   "faults": [
+    {
+     "id": "060-map-auditor-1",
+     "severity": "weak",
+     "kind": "map",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "map-auditor",
+     "file": "content/joan-of-arc/.plans/pages060.mjs",
+     "claim": null,
+     "evidence": "research 060.18 (Ramsay, Lowell: Beaurevoir to Arras, late October 1430) is the page's claim for Arras; no claim of the digest carries Jean de Pressy's offer at Arras (see 060-map-auditor-2). The 121-character note also pushed the Arras label some 210 px west of its icon, over the Drugy castle, on the laptop capture (pack/shots/sold-to-the-english.png); with the short note the label sits under its icon (shots2/sold-to-the-english.png)",
+     "action": "Joan is brought to this Burgundian town from Beaurevoir late in October 1430",
+     "state": "fixed"
+    },
+    {
+     "id": "060-map-auditor-2",
+     "severity": "weak",
+     "kind": "sources",
+     "introduced": "research",
+     "firstCheck": "research",
+     "leak": false,
+     "owner": "researcher",
+     "file": "content/joan-of-arc/.plan/research/060.md",
+     "claim": null,
+     "evidence": "text.yaml sold-to-the-english.account: \"and where Jean de Pressy and others asked her to put on a woman's dress\", with no claim id; grep of research.md finds no \"Pressy\"; rules.md, The careful side",
+     "action": "Add a claim: at Arras, Jean de Pressy and many others often asked her to put on a woman's dress (her answer of 3 March 1431). The passage: \"Asked if Messire Jean de Pressy and others at Arras did not offer her a woman's dress, she answered that he and many others had often asked her to wear it.\" (sourcebooks.web.fordham.edu-basis-joanofarc-trial.asp.txt, lines 1960-1961, the public examinations, 3 March, primary); Lowell ch. 18 names \"John of Pressy\" in a note (archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, line 10617). Then cite the claim in text.yaml sold-to-the-english.account and in pages.yaml sold-to-the-english.rests_on",
+     "state": "fixed"
+    },
+    {
+     "id": "060-map-auditor-3",
+     "severity": "taste",
+     "kind": "map",
+     "introduced": "maps",
+     "firstCheck": "maps",
+     "leak": false,
+     "owner": "map-auditor",
+     "file": "content/joan-of-arc/.plan/060-rouen/map.yaml",
+     "claim": null,
+     "evidence": "content/joan-of-arc/.wikipedia/Saint-Ouen_Abbey,_Rouen.wiki: {{coord|49|26|33|N|1|05|59|E}}, that is 49.4425 N 1.0997 E; the marker stands at 49.4425 N 1.0995 E, on the church and not beside it, within the few hundred metres a town map allows",
+     "action": "the church stands, and the point is set at its own coordinates (Saint-Ouen_Abbey,_Rouen.wiki), some tens of metres from its south side.",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
    "agent": "a9cfe9f13e8be0204",
    "role": "cartographer",
    "step": "maps",
@@ -5391,6 +7160,31 @@
    ]
   },
   {
+   "agent": "aa518ee5227436aca",
+   "role": "map-auditor",
+   "step": "maps",
+   "section": "050",
+   "status": "pass",
+   "changed": 7,
+   "unresolved": 2,
+   "faults": [
+    {
+     "id": "050-map-auditor-5",
+     "severity": "taste",
+     "kind": "map",
+     "introduced": "maps",
+     "firstCheck": "maps",
+     "leak": false,
+     "owner": "map-auditor",
+     "file": "content/joan-of-arc/.plans/pages050.mjs",
+     "claim": null,
+     "evidence": "the captures of node scripts/audit-pack.mjs joan-of-arc 050 (pack/shots): each long note made a label block wider than the room beside its icon, and the block was pushed off it, so the name stood far from its place: Bray's label some 220 px west of its icon in the English land, Sully's 190 px east, Crépy's 240 px east beside Soissons' label, Coudun's 270 px east. The recapture (pack2/shots) has Bray's label on its icon and the notes of Sully, Crépy and Coudun starting beside theirs. What the notes drop the page texts tell (050.29, 050.44, 050.55, 050.56, 050.66); research/050.md, 050.29, 050.44, 050.55, 050.56 carry what stays.",
+     "action": "bray-1429: \"Shut against Charles VII in August, it opens to him in September 1429 and his army crosses here\"; sully-1430: \"The court is here late in March 1430, when Joan leaves it without the king's leave\"; crepy-1430: \"Joan hears of the siege here and rides out about midnight, May 1430\"; coudun-1430: \"The Duke of Burgundy's quarters, a league from Compiègne\"",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
    "agent": "aa5241a890c7428d5",
    "role": "researcher",
    "step": "research",
@@ -5398,6 +7192,16 @@
    "status": "pass",
    "changed": 1,
    "unresolved": 3,
+   "faults": []
+  },
+  {
+   "agent": "aa877e50171d5774f",
+   "role": "cartographer",
+   "step": "facts",
+   "section": "060",
+   "status": "pass",
+   "changed": 7,
+   "unresolved": 0,
    "faults": []
   },
   {
@@ -5650,6 +7454,70 @@
    ]
   },
   {
+   "agent": "aa8ae9155896badc4",
+   "role": "map-auditor",
+   "step": "maps",
+   "section": "060",
+   "status": "pass",
+   "changed": 4,
+   "unresolved": 4,
+   "faults": [
+    {
+     "id": "060-map-auditor-4",
+     "severity": "weak",
+     "kind": "map",
+     "introduced": "fix",
+     "firstCheck": null,
+     "leak": false,
+     "owner": "map-auditor",
+     "file": "content/joan-of-arc/.plans/pages060.mjs",
+     "claim": "060.31",
+     "evidence": "agents/pages.md, Checking a story (captures); handoff/map-auditor.md: a long note on a marker near a frame's edge pushes its label block from its icon. Compiègne (2.83 E) stands 0.17 degrees inside the-court's east edge (3.0 E), and the 116-character note set the label \"Compiègne\" some 230 px west of its pin, right under the Beauvais shield, so it read as naming Beauvais (maps-060-map-auditor-recheck/pack/shots/the-court.png). With the short note the label stands east of Beauvais, tied to its pin (pack2/shots/the-court.png). The dispute of the diocese (060.31) stays in the text's note and in map.yaml's what",
+     "action": "Joan is taken here in May 1430, in Cauchon's diocese by the record",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "aaafcbc3bbf7e86fa",
+   "role": "fact-checker",
+   "step": "facts",
+   "section": "060",
+   "status": "pass",
+   "changed": 6,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "060-fact-checker-30",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "fix",
+     "firstCheck": null,
+     "leak": false,
+     "owner": "cartographer",
+     "file": "content/joan-of-arc/.plans/pages060.mjs",
+     "claim": "060.2",
+     "evidence": "searched Ramsay, Lowell, Lang, France and .wikipedia for Noyon in Picardy: no file places it so. Its side stands: Lowell ch. 17 (archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, line 9196): \"Noyon, a town faithful to his party\"; Lang ch. 21 (line 10184): \"the Burgundian garrison of Noyon\"; Ramsay 1 ch. 29: \"Beaulieu near Noyon\"",
+     "action": "A Burgundian town, near which stands Beaulieu (Ramsay)",
+     "state": "fixed"
+    },
+    {
+     "id": "060-fact-checker-31",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "fix",
+     "firstCheck": null,
+     "leak": false,
+     "owner": "cartographer",
+     "file": "content/joan-of-arc/.plans/pages060.mjs",
+     "claim": "060.63",
+     "evidence": "searched Murray, Lowell, the record, Church_of_St_Joan_of_Arc.wiki and Joan_of_Arc.wiki for the fate of the church of Saint-Sauveur: no file says it is gone. The rest stands: Murray, the first enquiry, Massieu (line 9483): \"Saint-Sauveur to bring it to her\"; Murray (line 8136): \"Market, in Rouen, near the Church of Saint Sauveur\"",
+     "action": "Joan is set on a scaffold near it on 30 May 1431, and Jean Massieu has its cross brought for her to look at",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
    "agent": "aad3d767c9cae5d96",
    "role": "fact-checker",
    "step": "facts",
@@ -5678,6 +7546,31 @@
    "changed": 8,
    "unresolved": 0,
    "faults": []
+  },
+  {
+   "agent": "ab70d19a8d0d36b89",
+   "role": "section-writer",
+   "step": "texts",
+   "section": "050",
+   "status": "pass",
+   "changed": 9,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "050-section-writer-1",
+     "severity": "taste",
+     "kind": "check",
+     "introduced": "names",
+     "firstCheck": "names",
+     "leak": false,
+     "owner": "names",
+     "file": "content/joan-of-arc/.plan/names.md",
+     "claim": null,
+     "evidence": "node scripts/names-check.mjs joan-of-arc 050 (the write hook): \"Beauvais\" (and Creil, Lagny, La Charité) \"is first named in 050-paris-and-compiegne ... and its row says 040\"; no text of 010-040 names them, and 050.9 and 050.33 are the claims that first carry them in a text.",
+     "action": "Lagny, Creil, Beauvais: 050 (050.9); La Charité: 050 (050.33)",
+     "state": "fixed"
+    }
+   ]
   },
   {
    "agent": "ab98b5153cf24b722",
@@ -7519,6 +9412,339 @@
    ]
   },
   {
+   "agent": "aeb31bcee6c81c4c8",
+   "role": "fact-checker",
+   "step": "facts",
+   "section": "050",
+   "status": "pass",
+   "changed": 14,
+   "unresolved": 2,
+   "faults": [
+    {
+     "id": "050-fact-checker-11",
+     "severity": "wrong",
+     "kind": "attribution",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/010-montepilloy/text/en.md",
+     "claim": "050.1",
+     "evidence": "archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt, Jean Chartier, p. 79: \"Et lui fut promis passaige et obéissance en laditte ville par les habitans; mais en la nuit dont il devoit passer le lendemain matin, y arriva certaine quantité d'Anglois\". It is the Journal du siège, p. 188, that has \"ceulx de Bray ... mirent en leur ville grant compaignie d'Anglois et Bourguignons\"; the text gave the Journal's account under Chartier's name.",
+     "action": "On the night before the crossing, writes Jean Chartier, the king's chronicler, English troops come into Bray, though its townsmen have promised the passage.\\*",
+     "state": "fixed"
+    },
+    {
+     "id": "050-fact-checker-12",
+     "severity": "wrong",
+     "kind": "attribution",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/010-montepilloy/text/en.md",
+     "claim": "050.1",
+     "evidence": "archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt, the Journal du siège, p. 188: \"Mais ceulx de Bray ... mirent en leur ville grant compaignie d'Anglois et Bourguignons, le soir devant qu'il y devoit passer\"; Chartier, p. 79, has only \"y arriva certaine quantité d'Anglois\". The two do not tell it the same way. Goes with 050-fact-checker-11.",
+     "action": "\\* The Journal of the Siege, a chronicle of Orléans, has the townsmen themselves let in a company of English and Burgundians, and Lowell and Ramsay follow the two.",
+     "state": "fixed"
+    },
+    {
+     "id": "050-fact-checker-13",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/010-montepilloy/text/en.md",
+     "claim": "050.10",
+     "evidence": "archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, ch. 12, p. 170: \"The negotiations were resumed at Compiegne ... a general truce, which was signed on August 28\" (Philip had agreed \"to send envoys to Charles at Compiegne\"); archive.org-rt-histoire-de-charles-vii-v-2-Beaucourt-20Histoire-20de-20Charles-20VII-20v-202-djvu.txt.txt, ch. 6, p. 236: \"trève pendant quatre mois fût signé à Compiègne le 28 août\". No source read says the king's envoys signed it; the king himself was at Compiègne and the envoys who came there were the duke's.",
+     "action": "On 28 August, at Compiègne, a truce with Philip the Good, Duke of Burgundy, is signed.",
+     "state": "fixed"
+    },
+    {
+     "id": "050-fact-checker-14",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/010-montepilloy/text/en.md",
+     "claim": "050.5",
+     "evidence": "archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, ch. 12, p. 167: \"Although the French were more numerous than the English\"; Ramsay ch. 27, p. 403: \"against superior numbers\". Both speak of numbers, and Lang, p. 195, gives Bedford the stronger position.",
+     "action": "and Lowell and Ramsay make the French the more numerous.",
+     "state": "fixed"
+    },
+    {
+     "id": "050-fact-checker-15",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "ruling",
+     "firstCheck": null,
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/joan-of-arc/.plan/050-paris-and-compiegne/pages.yaml",
+     "claim": "050.3",
+     "evidence": "research/050.md, 050.3, agreed: \"Le dimenche, xiiij jour du mois d'aoust\" and \"Le lundy xv jour\" (archive.org-download-chroniquesdeperc00cagnuoft-chroniquesdeperc00cagnuoft-djvu.txt.txt, 1429, pp. 161-162), with Monstrelet, Lowell, Ramsay, Lang and Beaucourt; the dispatch note: 050.3 is agreed, Cagny giving the day, and the ruling that told it as Lowell's date is withdrawn. An agreed day is told plainly.",
+     "action": "near Senlis on 14 and 15 August and part",
+     "state": "fixed"
+    },
+    {
+     "id": "050-fact-checker-16",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "ruling",
+     "firstCheck": null,
+     "leak": false,
+     "owner": "cartographer",
+     "file": "content/joan-of-arc/.plans/pages050.mjs",
+     "claim": "050.3",
+     "evidence": "as 050-fact-checker-15: 050.3 is agreed, Cagny giving the day (archive.org-download-chroniquesdeperc00cagnuoft-chroniquesdeperc00cagnuoft-djvu.txt.txt, 1429, pp. 161-162). The same line is changed in markers.yaml so the page shows it without a rerun.",
+     "action": "on 14 and 15 August 1429; there are skirmishes",
+     "state": "fixed"
+    },
+    {
+     "id": "050-fact-checker-17",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/020-paris/text/en.md",
+     "claim": "050.16",
+     "evidence": "archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt, the Journal du siège, p. 198: \"les ducs d'Alençon et de Bourbon s'embuschèrent derrière la montaigne\". The quotation marks gave a translation as the Journal's own words; a quote is copied as the file has it (rules.md).",
+     "action": "has the Dukes of Alençon and Bourbon lie in wait there.",
+     "state": "fixed"
+    },
+    {
+     "id": "050-fact-checker-18",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/020-paris/text/en.md",
+     "claim": "050.19",
+     "evidence": "archive.org-download-journaldunbourge54182gut-54182-0.txt.txt, § 519, and research/050.md, 050.26: \"the Bourgeois tells it from within the walls\". No file says he watched the assault.",
+     "action": "the Bourgeois of Paris, who was inside the walls,",
+     "state": "fixed"
+    },
+    {
+     "id": "050-fact-checker-19",
+     "severity": "wrong",
+     "kind": "fact",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": true,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/text/en.md",
+     "claim": "050.39",
+     "evidence": "sourcebooks.web.fordham.edu-basis-joanofarc-trial.asp.txt, the examination of 3 March 1431: \"Then Jeanne was asked what she did in the trenches of La Charité, and she answered that she had an assault made\". The words the text used belong to another answer, about Catherine of La Rochelle: \"Asked if she spoke to Catherine of going to La Charité-sur-Loire, she answered that the said Catherine did not advise her to go, and it was too cold, and she would not go. She told Catherine, who wished to go to the Duke of Burgundy ...\". The Catherine is the woman of La Rochelle, not the saint of her voices.",
+     "action": "Joan told her judges that she had an assault made there.",
+     "state": "fixed"
+    },
+    {
+     "id": "050-fact-checker-20",
+     "severity": "wrong",
+     "kind": "plan",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": true,
+     "owner": "section-coordinator",
+     "file": "content/joan-of-arc/.plan/050-paris-and-compiegne/text.yaml",
+     "claim": "050.39",
+     "evidence": "as 050-fact-checker-19: sourcebooks.web.fordham.edu-basis-joanofarc-trial.asp.txt, the examination of 3 March 1431, where \"the said Catherine\" is Catherine of La Rochelle.",
+     "action": "at her trial she said she had an assault made there.",
+     "state": "fixed"
+    },
+    {
+     "id": "050-fact-checker-21",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/text/en.md",
+     "claim": "050.36",
+     "evidence": "archive.org-download-maidoffrancebein00languoft-maidoffrancebein00languoft-djvu.txt.txt, ch. 18, p. 216: \"We know about the Maid's brilliant success at St. Pierre le Moustier only from the evidence of d'Aulon\"; research/050.md, 050.36: single (d'Aulon) for the course. The letters to Riom and Thierry, whom the page itself cites, also tell of the taking; only its course is d'Aulon's alone.",
+     "action": "Only her squire Jean d'Aulon told how it was taken.",
+     "state": "fixed"
+    },
+    {
+     "id": "050-fact-checker-22",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/text/en.md",
+     "claim": "050.40",
+     "evidence": "research/050.md, 050.40, open: \"no source read gives it\"; agents/evidence.md: an open claim is told as not known. The text said no source at all gives it, which is surer than the digest.",
+     "action": "The day is not known;",
+     "state": "fixed"
+    },
+    {
+     "id": "050-fact-checker-23",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/text/en.md",
+     "claim": "050.35",
+     "evidence": "archive.org-download-maidoffrancebein00languoft-maidoffrancebein00languoft-djvu.txt.txt, ch. 18, p. 216: \"The siege of St. Pierre le Moustier seems to have begun on or shortly after October 25.\" The text dropped \"seems\".",
+     "action": "Lang thinks the siege began on or soon after 25 October.",
+     "state": "fixed"
+    },
+    {
+     "id": "050-fact-checker-24",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/text/en.md",
+     "claim": "050.39",
+     "evidence": "archive.org-download-maidoffrancebein00languoft-maidoffrancebein00languoft-djvu.txt.txt, ch. 18, p. 218: \"On November 24 ... the people of Bourges were asked for 1300 gold crowns\"; archive.org-download-ProcesDeCondamnationV5-ProcesDeCondamnationV5-djvu.txt.txt, p. 356: the town is to find \"la somme de treize cens escuz d'or\" and burgesses who would lend it. No tax is laid in the files.",
+     "action": "Bourges was asked for 1,300 crowns for the siege on 24 November.",
+     "state": "fixed"
+    },
+    {
+     "id": "050-fact-checker-25",
+     "severity": "wrong",
+     "kind": "attribution",
+     "introduced": "research",
+     "firstCheck": "research",
+     "leak": true,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/050-melun-and-lagny/text/en.md",
+     "claim": "050.44",
+     "evidence": "archive.org-download-chroniquesdeperc00cagnuoft-chroniquesdeperc00cagnuoft-djvu.txt.txt, 1430, p. 173: \"sans le sceu du roy, ne prendre congé de lui, elle fist semblant d'aler en aucun esbat, et, sans retourner, s'en ala à la ville de Laingni\" (no word of her household); archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, ch. 15, p. 200: \"She rode northward with her little military household\". The household was Lowell's and was told as Cagny's.",
+     "action": "without the king's leave, as if riding out for pleasure, says Perceval de Cagny, a chronicler of Alençon's household. Lowell has her ride north with her little household of soldiers.",
+     "state": "fixed"
+    },
+    {
+     "id": "050-fact-checker-26",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/050-melun-and-lagny/text/en.md",
+     "claim": "050.51",
+     "evidence": "sourcebooks.web.fordham.edu-basis-joanofarc-trial.asp.txt, the examination of 14 March 1431: \"since he had confessed himself a murderer, a thief, and a traitor. She said his trial lasted a fortnight; and he had for judges the Bailly de Senlis and a jury of the people of Lagny\"; research/050.md, 050.51: single (her answer) for the trial; text.yaml disputes: told as her answer. The sentence told it plainly.",
+     "action": "He was tried, she said, for a fortnight before the bailli of Senlis and a jury of Lagny men, and confessed to murder, theft and treason; he was beheaded.",
+     "state": "fixed"
+    },
+    {
+     "id": "050-fact-checker-27",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/060-compiegne/text/en.md",
+     "claim": "050.54",
+     "evidence": "archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, ch. 16, p. 213: \"refused to admit the army ... he was induced to admit the archbishop, Joan, and Vendome with a very small escort, but the army had to sleep in the fields\"; archive.org-download-maidoffrancebein00languoft-maidoffrancebein00languoft-djvu.txt.txt, ch. 20, p. 236: \"refused to allow the army to enter\".",
+     "action": "shuts its gates on the army of Joan and the Archbishop of Reims.\\*",
+     "state": "fixed"
+    },
+    {
+     "id": "050-fact-checker-28",
+     "severity": "wrong",
+     "kind": "fact",
+     "introduced": "research",
+     "firstCheck": "research",
+     "leak": true,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/060-compiegne/text/en.md",
+     "claim": "050.62",
+     "evidence": "archive.org-rt-histoire-de-charles-vii-v-2-Beaucourt-20Histoire-20de-20Charles-20VII-20v-202-djvu.txt.txt, ch. 1, p. 37 n. 5 (OCR as the file has it): \"C'est un point qui à été et qui reste encore Lrès controversé que celui de savoir si Jeanne d'Arc fut trahie devant Compiègne. L'hstuire, après avoir longtemps admis La frahison, l'avait jetés dans ce derniers Umps. Récemment, on a paru revenir à l'ame cienue tradition\". The older histories did accuse him; the no-treason view is that of Cagny (Moranvillé's note, p. 175), Champion and Ramsay (ch. 28, p. 417 n.), and Beaucourt, a scholarly source, carries the debate that the text gave on the Wikipedia article alone.",
+     "action": "Cagny and the historians Champion and Ramsay see no treason in it, but Beaucourt calls the question still much disputed.\\*\\*\\*\\*\\*",
+     "state": "fixed"
+    },
+    {
+     "id": "050-fact-checker-29",
+     "severity": "wrong",
+     "kind": "fact",
+     "introduced": "research",
+     "firstCheck": "research",
+     "leak": true,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/060-compiegne/text/en.md",
+     "claim": "050.62",
+     "evidence": "as 050-fact-checker-28: archive.org-rt-histoire-de-charles-vii-v-2-Beaucourt-20Histoire-20de-20Charles-20VII-20v-202-djvu.txt.txt, ch. 1, p. 37 n. 5. The names of Cagny, Champion and Ramsay moved into the body.",
+     "action": "\\*\\*\\*\\*\\* Beaucourt, writing in 1882, finds that historians long accepted the charge, then dropped it, and lately seemed to take it up again.",
+     "state": "fixed"
+    },
+    {
+     "id": "050-fact-checker-30",
+     "severity": "wrong",
+     "kind": "fact",
+     "introduced": "research",
+     "firstCheck": "research",
+     "leak": true,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/060-compiegne/text/en.md",
+     "claim": "050.58",
+     "evidence": "archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt, Quicherat's notice on Chastellain, p. 440: \"Son récit de la sortie de Compiègne est le même [que celui de Lefèvre], sauf quelques additions, empruntées la plupart à Monstrelet ... ce qu'il pouvait savoir de particulier sur elle, ne concernait pas la dernière année de sa vie\"; archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, ch. 16, p. 220 n.: \"The latter's [Chastellain's] account is evidently borrowed from that given by the former [Monstrelet]\". Monstrelet alone says he was there (\"although I was present\", book 2 ch. 86).",
+     "action": "Monstrelet, who was in the Burgundian camp, and Chastellain have the eve of the Ascension, 24 May,",
+     "state": "fixed"
+    },
+    {
+     "id": "050-fact-checker-31",
+     "severity": "weak",
+     "kind": "sources",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/060-compiegne/page.yaml",
+     "claim": "050.58",
+     "evidence": "archive.org-rt-histoire-de-charles-vii-v-2-Beaucourt-20Histoire-20de-20Charles-20VII-20v-202-djvu.txt.txt, ch. 6, p. 240: \"Compiègne (23 mai 1430)\", for the day the text says Beaucourt follows, and ch. 1, p. 37 n. 5, for the question of treason (050-fact-checker-28). The text names Beaucourt and the page did not list him.",
+     "action": "  - \"G. du Fresne de Beaucourt, Histoire de Charles VII, vol. 2 (1882), ch. 1 and 6.\"",
+     "state": "fixed"
+    },
+    {
+     "id": "050-fact-checker-32",
+     "severity": "weak",
+     "kind": "sources",
+     "introduced": "research",
+     "firstCheck": "research",
+     "leak": false,
+     "owner": "researcher",
+     "file": "content/joan-of-arc/.plan/research/050.md (and research.md)",
+     "claim": "050.69",
+     "evidence": "as 050-fact-checker-30: Quicherat's notice on Chastellain (archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt, p. 440) and Lowell ch. 16, p. 220 n.",
+     "action": "Compiègne has Monstrelet from the Burgundian camp, Chastellain (whose account Quicherat and Lowell find borrowed from Lefèvre and Monstrelet), Cagny, | ; Monstrelet stood in the Burgundian camp, and Chastellain's account is borrowed from Lefèvre's and Monstrelet's (Quicherat's notice; Lowell ch. 16, p. 220 n.). agreed.",
+     "state": "fixed"
+    },
+    {
+     "id": "050-fact-checker-33",
+     "severity": "weak",
+     "kind": "sources",
+     "introduced": "research",
+     "firstCheck": "research",
+     "leak": false,
+     "owner": "researcher",
+     "file": "content/joan-of-arc/.plan/research/050.md (and research.md)",
+     "claim": "050.62",
+     "evidence": "as 050-fact-checker-28: archive.org-rt-histoire-de-charles-vii-v-2-Beaucourt-20Histoire-20de-20Charles-20VII-20v-202-djvu.txt.txt, ch. 1, p. 37 n. 5. The line rested the debate on the Wikipedia article while a scholarly file read for the section carries it.",
+     "action": "and Beaucourt calls the question still much disputed, as the Wikipedia article reports it one scholars still debate (DeVries). agreed. \"C'est un point qui à été et qui reste encore Lrès controversé que celui de savoir si Jeanne d'Arc fut trahie devant Compiègne\" (archive.org-rt-histoire-de-charles-vii-v-2-Beaucourt-20Histoire-20de-20Charles-20VII-20v-202-djvu.txt.txt, ch. 1, p. 37 n., scholarly)",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
    "agent": "aeb6b75499116cc56",
    "role": "section-coordinator",
    "step": "pre-plans",
@@ -7772,6 +9998,129 @@
      "claim": "020.56",
      "evidence": "The text cites Thurston for the banner (\"Thurston gives a picture of God with kneeling angels\", newadvent paragraph 19) and rests \"no record survives\" on him (paragraph 18, \"the minutes of the proceedings ... have altogether perished\"); the page's sources left him out.",
      "action": "the same line, followed by  - \"H. Thurston, \\\"St. Joan of Arc\\\", Catholic Encyclopedia (1910).\"",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "af849e6f9e7faf250",
+   "role": "map-auditor",
+   "step": "maps",
+   "section": "070",
+   "status": "faults",
+   "changed": 13,
+   "unresolved": 4,
+   "faults": [
+    {
+     "id": "070-map-auditor-1",
+     "severity": "taste",
+     "kind": "map",
+     "introduced": "maps",
+     "firstCheck": "maps",
+     "leak": false,
+     "owner": "map-auditor",
+     "file": "content/joan-of-arc/.plans/pages070.mjs",
+     "claim": null,
+     "evidence": "Capture pack/shots/paris-opens.png: the note runs right of the anchor icon at the frame's west edge and the name 'Dieppe' stands about 270 px east of its icon, inside the Burgundian zone, where it reads as a place of Picardy. 070.7 (Ramsay 1, ch. 32): 'the whole of Caux was speedily wrested from the English, only Caudebec'. Recaptured in pack2: the name stands by its note over the Caux.",
+     "action": "French from 29 October 1435, with all the Caux but Caudebec",
+     "state": "fixed"
+    },
+    {
+     "id": "070-map-auditor-2",
+     "severity": "taste",
+     "kind": "map",
+     "introduced": "maps",
+     "firstCheck": "maps",
+     "leak": false,
+     "owner": "map-auditor",
+     "file": "content/joan-of-arc/.plans/pages070.mjs",
+     "claim": null,
+     "evidence": "Capture pack/shots/normandy-won-back.png: the 133-character note is pushed right from the icon at the frame's west edge and the name 'Cherbourg' stands about 230 px east of it, over the Channel north of Rouen. 070.24 (Ramsay 2, ch. 8; Beaucourt 5): 'Cherbourg fut évacué le 12 août'. The landing stays on the map in the legend of kyriell-1450-formigny ('marches from Cherbourg'). Recaptured in pack2.",
+     "action": "The last English hold in Normandy, given up on 12 August 1450",
+     "state": "fixed"
+    },
+    {
+     "id": "070-map-auditor-3",
+     "severity": "taste",
+     "kind": "map",
+     "introduced": "maps",
+     "firstCheck": "maps",
+     "leak": false,
+     "owner": "map-auditor",
+     "file": "content/joan-of-arc/.plans/pages070.mjs",
+     "claim": null,
+     "evidence": "Capture pack/shots/the-retrial.png: the note's block is pushed west from the frame's east side and the name 'Domrémy' stands about 190 px west of its icon, between the Notre-Dame and Orléans labels, as if it named a place south-east of Paris. 070.41 (Murray, Introductory Note, p. 376): 'witnesses were heard, in January and February, at Domremy'. Recaptured in pack2: the name stands under its icon.",
+     "action": "Witnesses of Domrémy and Vaucouleurs are heard in January and February 1456",
+     "state": "fixed"
+    },
+    {
+     "id": "070-map-auditor-4",
+     "severity": "taste",
+     "kind": "map",
+     "introduced": "maps",
+     "firstCheck": "maps",
+     "leak": false,
+     "owner": "map-auditor",
+     "file": "content/joan-of-arc/.plans/pages070.mjs",
+     "claim": null,
+     "evidence": "Capture pack/shots/the-retrial.png: Lyon stands at the frame's foot and its note ('On 28 May 1456 a vice-inquisitor takes here the deposit...') runs under the map's attribution box, which covers its second half. 070.41: 'Jean d'Aulon at Lyon on 28 May 1456'. With the south edge 0.3 degrees lower the note reads whole (pack2); the frame gains only French and Burgundian land the page's zones already cover, and plan-check and zone-gaps stay ok.",
+     "action": "[-0.2, 45.1, 6.4, 51.1]",
+     "state": "fixed"
+    },
+    {
+     "id": "070-map-auditor-5",
+     "severity": "weak",
+     "kind": "map",
+     "introduced": "maps",
+     "firstCheck": "maps",
+     "leak": false,
+     "owner": "map-auditor",
+     "file": "content/joan-of-arc/.plans/pages070.mjs",
+     "claim": null,
+     "evidence": "Capture pack/shots/castillon.png: with the Castillon card open the map fits the left of the frame, and the Bayonne icon sits on the top edge of the legend, half under it, only its name showing. 070.25: 'Bayonne, besieged from 6 or 7 August, is entered on 20 August'. With the south edge 0.6 degrees lower Bayonne stands clear above the legend (pack2); the frame gains the Pyrenees, which carry no zone, and plan-check and zone-gaps stay ok.",
+     "action": "[-2.2, 42.6, 1.0, 45.9]",
+     "state": "fixed"
+    },
+    {
+     "id": "070-map-auditor-6",
+     "severity": "weak",
+     "kind": "plan",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/joan-of-arc/.plan/070-after-her/pages.yaml",
+     "claim": null,
+     "evidence": "From page to page: burgundy-changes-sides shows english-1430 (December 1431), paris-opens english-1436. Between them Creil, Beaumont-sur-Oise and Crépy turn from French to English circles and Chartres and Meulan from English to French, in the frames of both pages (captures pack/shots/burgundy-changes-sides.png and paris-opens.png), and no page told why: the brief's english-1436 row rests on 070.59 ('the Bastard of Orléans takes Chartres ... in April 1432'), 070.61 ('Following him to Creil Talbot recovered that place also (20th June)'; 'Crespy in Valois, which was taken by storm'), 070.63 ('prindrent le pont de Meurlan', September 1435), 070.60, 070.64, 070.65 and 070.66 (Meaux, Creil, Montereau and Mantes English after April 1436), and the plan of the page took none of them.",
+     "action": "the English shut themselves in the Bastille Saint-Antoine and are let go to Rouen. Round the city they keep Meaux, Creil, Montereau and Mantes, with Beaumont-sur-Oise and Crépy, which Talbot won back in 1434, while Chartres was lost to them in 1432 and the bridge of Meulan in 1435. | rests_on adds 070.59, 070.60, 070.61, 070.63, 070.64, 070.65, 070.66; text.yaml's account gains the sentence on the six circles, Chartres and Meulan, each with its claim",
+     "state": "fixed"
+    },
+    {
+     "id": "070-map-auditor-7",
+     "severity": "weak",
+     "kind": "map",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "section-writer",
+     "file": "content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md",
+     "claim": null,
+     "evidence": "The map of paris-opens draws six English circles round Paris that the page's text does not name, three of them (Creil, Beaumont, Crépy) French on the page before: 070.60, 070.61, 070.64, 070.65, 070.66; and shows Chartres and Meulan the king's (070.59, 070.63). The plan's account now says so (070-map-auditor-6). Left open for the writer, whose text of the section was being written while the audit ran; Beaumont and Crépy are English only because no source read has them lost (the brief's english-1436 row), so the sentence gives no source for their holding in 1436.",
+     "action": "The map shows what the English hold after 13 April 1436: Normandy without Dieppe and the Caux, most of Maine, Calais and Gascony, and round Paris Meaux, Creil, Montereau and Mantes, with Beaumont-sur-Oise and Crépy, which Talbot won back in 1434. Chartres, which the Bastard of Orléans took in April 1432, and the bridge of Meulan, lost in September 1435, are the king's.",
+     "state": "open"
+    },
+    {
+     "id": "070-map-auditor-8",
+     "severity": "taste",
+     "kind": "map",
+     "introduced": "maps",
+     "firstCheck": "maps",
+     "leak": false,
+     "owner": "brief",
+     "file": "content/joan-of-arc/.plan/brief.md",
+     "claim": null,
+     "evidence": "ground.yaml line 83 cuts Valognes out of english-1449 ('Valognes, which Kyriell besieges and takes in 1450 ... so French at the close of 1449 (a circle of 4 km)'), and the capture zoomed on Lower Normandy (zoom/normandy-won-back.png) shows the hole; the brief's row did not name it. Ramsay 2, ch. 8, line 8791: 'Kyrielle sat down to the siege of Valognes (27th March)'.",
+     "action": "Saint-Sauveur and Cherbourg, with Calais and Gascony, at the close of 1449. Valognes, which Ramsay's list leaves out, is a hole of 4 km | reconstruction drawn round the towns of 070.16 (single, Ramsay), after 070.14 and Rouen's surrender (29 October 1449, `names.md`), as rules.md asks for the map of 1444 to 1453; Valognes French, since Kyriell sits down to its siege on 27 March 1450 (Ramsay 2, ch. 8, the passage of 070.17) |",
      "state": "fixed"
     }
    ]
@@ -8277,6 +10626,45 @@
   },
   {
    "agent": "-",
+   "role": "overseer",
+   "step": "-",
+   "section": "050",
+   "status": "faults",
+   "changed": 0,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "050-overseer-1",
+     "severity": "weak",
+     "kind": "check",
+     "introduced": "fix",
+     "firstCheck": null,
+     "leak": false,
+     "owner": "researcher",
+     "file": "content/joan-of-arc/.plan/research.md",
+     "claim": "050.62",
+     "evidence": "Beaucourt 2, line 1857 of the file, which has no apostrophe; quotes-check printed the quote as not in the file",
+     "action": "Cest un point qui à été et qui reste encore Lrès controvers",
+     "state": "fixed"
+    },
+    {
+     "id": "050-overseer-2",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "research",
+     "firstCheck": "research",
+     "leak": false,
+     "owner": "researcher",
+     "file": "content/joan-of-arc/.plan/research.md",
+     "claim": "050.62",
+     "evidence": "Beaucourt 2, book 2 ch. 1, p. 37 n., line 1857: the question of Flavy's treason is 'encore tres controverse'; Cagny, Champion and Ramsay find none (reports/050-fact-checker.yaml)",
+     "action": "disputed",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "-",
    "role": "research-reviewer",
    "step": "research",
    "section": "060",
@@ -8674,6 +11062,31 @@
      "claim": "060.58",
      "evidence": "Murray, the first enquiry, Toutmouille (8720-8721): \"the aforesaid Bishop arrived, to whom she at once said : \\\"Bishop, I die through you.\\\"\"; Ladvenu (8925-8926): \"she said to the Bishop of Beauvais : \\\"Alas! I die through you\"",
      "action": "\"She was, however, allowed to make her confession and to receive Communion.\" (newadvent.org-cathen-08409c.txt, Thurston, scholarly) \"Bishop, I die through you.\" (archive.org-download-jeannedarcmaidof028754mbp-jeannedarcmaidof028754mbp-djvu.txt.txt, the first enquiry 1449, Jean Toutmouille, primary) \"Alas! I die through you, for had you given me over\" (archive.org-download-jeannedarcmaidof028754mbp-jeannedarcmaidof028754mbp-djvu.txt.txt, the first enquiry 1449, Martin Ladvenu, primary)",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "-",
+   "role": "overseer",
+   "step": "-",
+   "section": "060",
+   "status": "faults",
+   "changed": 0,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "060-overseer-1",
+     "severity": "weak",
+     "kind": "plan",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "cartographer",
+     "file": "content/joan-of-arc/.plan/060-rouen/pages.yaml",
+     "claim": null,
+     "evidence": "the page's text runs to 13 March, when Le Maistre sits, and to his pay of 24 April (reports/060-section-reviewer.yaml); the page's when stays 1431-01-03",
+     "action": "January – April 1431",
      "state": "fixed"
     }
    ]
@@ -9981,6 +12394,305 @@
     "step": "maps",
     "task": "draw",
     "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/maps-060-cartographer",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "map-auditor",
+   "description": "maps 050 map-auditor audit",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "050",
+    "step": "maps",
+    "task": "audit",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/maps-050-map-auditor",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "section-writer",
+   "description": "texts 050 section-writer write",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "050",
+    "step": "texts",
+    "task": "write",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/texts-050-section-writer",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "map-auditor",
+   "description": "maps 060 map-auditor audit",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "060",
+    "step": "maps",
+    "task": "audit",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/maps-060-map-auditor",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "section-writer",
+   "description": "texts 060 section-writer write",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "060",
+    "step": "texts",
+    "task": "write",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/texts-060-section-writer",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "image-finder",
+   "description": "images 050 image-finder find",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "050",
+    "step": "images",
+    "task": "find",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/images-050-image-finder",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "fact-checker",
+   "description": "facts 050 fact-checker check",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "050",
+    "step": "facts",
+    "task": "check",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/facts-050-fact-checker",
+    "serve": "static",
+    "note": "050.3 is agreed for 14 and 15 August, Cagny giving the day; the earlier ruling that told it as Lowell's date is withdrawn in decisions.md."
+   },
+   "problems": []
+  },
+  {
+   "role": "cartographer",
+   "description": "maps 050 cartographer fix",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "050",
+    "step": "maps",
+    "task": "fix",
+    "faults": ".plan/faults/050.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/maps-050-cartographer-fix",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "image-finder",
+   "description": "images 060 image-finder find",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "060",
+    "step": "images",
+    "task": "find",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/images-060-image-finder",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "researcher",
+   "description": "maps 060 researcher add",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "060",
+    "step": "maps",
+    "task": "add",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/maps-060-researcher-add",
+    "serve": "static",
+    "note": "The gap is 060-map-auditor-2 of faults/060.yaml, the request at Arras that she take a woman's dress, which the fault quotes from Barrett's file."
+   },
+   "problems": []
+  },
+  {
+   "role": "fact-checker",
+   "description": "facts 060 fact-checker check",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "060",
+    "step": "facts",
+    "task": "check",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/facts-060-fact-checker",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "section-reviewer",
+   "description": "facts 060 section-reviewer review",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "060",
+    "step": "facts",
+    "task": "review",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/facts-060-section-reviewer",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "section-reviewer",
+   "description": "facts 050 section-reviewer review",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "050",
+    "step": "facts",
+    "task": "review",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/facts-050-section-reviewer",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "cartographer",
+   "description": "facts 050 cartographer fix",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "050",
+    "step": "facts",
+    "task": "fix",
+    "faults": ".plan/faults/050.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/facts-050-cartographer-fix",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "section-coordinator",
+   "description": "facts 050 section-coordinator fix",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "050",
+    "pages": [
+     "paris"
+    ],
+    "step": "facts",
+    "task": "fix",
+    "faults": ".plan/faults/050.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/facts-050-section-coordinator-fix",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "cartographer",
+   "description": "facts 060 cartographer fix",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "060",
+    "step": "facts",
+    "task": "fix",
+    "faults": ".plan/faults/060.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/facts-060-cartographer-fix",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "fact-checker",
+   "description": "facts 050 fact-checker recheck",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "050",
+    "step": "facts",
+    "task": "recheck",
+    "faults": ".plan/faults/050.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/facts-050-fact-checker-recheck",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "map-auditor",
+   "description": "maps 050 map-auditor recheck",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "050",
+    "step": "maps",
+    "task": "recheck",
+    "faults": ".plan/faults/050.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/maps-050-map-auditor-recheck",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "fact-checker",
+   "description": "facts 060 fact-checker recheck",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "060",
+    "step": "facts",
+    "task": "recheck",
+    "faults": ".plan/faults/060.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/facts-060-fact-checker-recheck",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "map-auditor",
+   "description": "maps 060 map-auditor recheck",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "060",
+    "step": "maps",
+    "task": "recheck",
+    "faults": ".plan/faults/060.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/maps-060-map-auditor-recheck",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "cartographer",
+   "description": "maps 070 cartographer draw",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "070",
+    "step": "maps",
+    "task": "draw",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/maps-070-cartographer",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "map-auditor",
+   "description": "maps 070 map-auditor audit",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "070",
+    "step": "maps",
+    "task": "audit",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/maps-070-map-auditor",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "section-writer",
+   "description": "texts 070 section-writer write",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "070",
+    "step": "texts",
+    "task": "write",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/texts-070-section-writer",
     "serve": "static"
    },
    "problems": []
@@ -14333,6 +17045,611 @@
    "steppedIn": false
   },
   {
+   "fault": "050-cartographer-1",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml",
+   "field": "back-to-the-loire.routes[0].id",
+   "commit": "4868abb3",
+   "kind": "plan",
+   "severity": "wrong",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-section-writer-1",
+   "by": "section-writer",
+   "file": "content/joan-of-arc/.plan/names.md",
+   "field": "Places: rows Lagny, Creil, Beauvais, La Charité, \"First named in\"",
+   "commit": "4868abb3",
+   "kind": "check",
+   "severity": "taste",
+   "owner": "names",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-map-auditor-1",
+   "by": "map-auditor",
+   "file": "content/joan-of-arc/.plans/pages050.mjs",
+   "field": "pages[compiegne].markers[compiegne-1430].note (and so pages/050-paris-and-compiegne/060-compiegne/markers.yaml, rerun)",
+   "commit": "4868abb3",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "map-auditor",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-map-auditor-1",
+   "by": "map-auditor",
+   "file": "content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml",
+   "field": "compiegne.markers.compiegne-1430.what",
+   "commit": "4868abb3",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "map-auditor",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-map-auditor-3",
+   "by": "map-auditor",
+   "file": "content/joan-of-arc/.plan/brief.md",
+   "field": "Map, \"How the zones fit\": the holds that stay markers",
+   "commit": "4868abb3",
+   "kind": "map",
+   "severity": "taste",
+   "owner": "map-auditor",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-map-auditor-4",
+   "by": "map-auditor",
+   "file": "content/joan-of-arc/.plans/zones.mjs",
+   "field": "C3, the why (ground.yaml line 64, rewritten by the run; no zone file changed)",
+   "commit": "4868abb3",
+   "kind": "map",
+   "severity": "taste",
+   "owner": "map-auditor",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-map-auditor-2",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plans/pages050.mjs",
+   "field": "pages[compiegne].bbox (and so pages/050-paris-and-compiegne/060-compiegne/page.yaml, rerun)",
+   "commit": "f10de002",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-map-auditor-2",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml",
+   "field": "compiegne.bbox",
+   "commit": "f10de002",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-fact-checker-11",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/010-montepilloy/text/en.md",
+   "field": "body",
+   "commit": "b1af9eb5",
+   "kind": "attribution",
+   "severity": "wrong",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-fact-checker-12",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/010-montepilloy/text/en.md",
+   "field": "notes",
+   "commit": "b1af9eb5",
+   "kind": "attribution",
+   "severity": "wrong",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-fact-checker-13",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/010-montepilloy/text/en.md",
+   "field": "body",
+   "commit": "b1af9eb5",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-fact-checker-14",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/010-montepilloy/text/en.md",
+   "field": "notes",
+   "commit": "b1af9eb5",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-fact-checker-15",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/.plan/050-paris-and-compiegne/pages.yaml",
+   "field": "montepilloy.tells",
+   "commit": "b1af9eb5",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-fact-checker-16",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/.plans/pages050.mjs",
+   "field": "pages[montepilloy].markers[montepilloy].note (and so pages/050-paris-and-compiegne/010-montepilloy/markers.yaml)",
+   "commit": "b1af9eb5",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-fact-checker-17",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/020-paris/text/en.md",
+   "field": "notes",
+   "commit": "b1af9eb5",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-fact-checker-18",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/020-paris/text/en.md",
+   "field": "notes",
+   "commit": "b1af9eb5",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-fact-checker-19",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/text/en.md",
+   "field": "body",
+   "commit": "b1af9eb5",
+   "kind": "fact",
+   "severity": "wrong",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-fact-checker-20",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/.plan/050-paris-and-compiegne/text.yaml",
+   "field": "pages.saint-pierre-and-la-charite.account",
+   "commit": "b1af9eb5",
+   "kind": "plan",
+   "severity": "wrong",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-fact-checker-21",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/text/en.md",
+   "field": "body",
+   "commit": "b1af9eb5",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-fact-checker-22",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/text/en.md",
+   "field": "body",
+   "commit": "b1af9eb5",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-fact-checker-23",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/text/en.md",
+   "field": "notes",
+   "commit": "b1af9eb5",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-fact-checker-24",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/text/en.md",
+   "field": "notes",
+   "commit": "b1af9eb5",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-fact-checker-25",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/050-melun-and-lagny/text/en.md",
+   "field": "body",
+   "commit": "b1af9eb5",
+   "kind": "attribution",
+   "severity": "wrong",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-fact-checker-26",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/050-melun-and-lagny/text/en.md",
+   "field": "body",
+   "commit": "b1af9eb5",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-fact-checker-27",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/060-compiegne/text/en.md",
+   "field": "body",
+   "commit": "b1af9eb5",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-fact-checker-28",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/060-compiegne/text/en.md",
+   "field": "body",
+   "commit": "b1af9eb5",
+   "kind": "fact",
+   "severity": "wrong",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-fact-checker-29",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/060-compiegne/text/en.md",
+   "field": "notes",
+   "commit": "b1af9eb5",
+   "kind": "fact",
+   "severity": "wrong",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-fact-checker-30",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/060-compiegne/text/en.md",
+   "field": "notes",
+   "commit": "b1af9eb5",
+   "kind": "fact",
+   "severity": "wrong",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-fact-checker-31",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/060-compiegne/page.yaml",
+   "field": "sources",
+   "commit": "b1af9eb5",
+   "kind": "sources",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-fact-checker-32",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/.plan/research/050.md (and research.md)",
+   "field": "Coverage; 050.69",
+   "commit": "b1af9eb5",
+   "kind": "sources",
+   "severity": "weak",
+   "owner": "researcher",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-fact-checker-33",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/.plan/research/050.md (and research.md)",
+   "field": "050.62",
+   "commit": "b1af9eb5",
+   "kind": "sources",
+   "severity": "weak",
+   "owner": "researcher",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-section-reviewer-1",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/030-back-to-the-loire/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-section-reviewer-2",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/030-back-to-the-loire/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-section-reviewer-3",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-section-reviewer-4",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-section-reviewer-5",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/020-paris/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-section-reviewer-6",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/020-paris/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-section-reviewer-7",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/020-paris/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-section-reviewer-8",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/050-melun-and-lagny/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-section-reviewer-9",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/050-melun-and-lagny/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-section-reviewer-10",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/060-compiegne/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-section-reviewer-11",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/060-compiegne/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-section-reviewer-12",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/060-compiegne/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-overseer-1",
+   "by": "overseer",
+   "file": "content/joan-of-arc/.plan/research.md",
+   "field": "050.62, the quote of Beaucourt, in research.md and research/050.md",
+   "commit": "6c6d72c8",
+   "kind": "check",
+   "severity": "weak",
+   "owner": "researcher",
+   "steppedIn": true
+  },
+  {
+   "fault": "050-overseer-2",
+   "by": "overseer",
+   "file": "content/joan-of-arc/.plan/research.md",
+   "field": "050.62, its standing, in research.md and research/050.md",
+   "commit": "6c6d72c8",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "researcher",
+   "steppedIn": true
+  },
+  {
+   "fault": "050-section-reviewer-17",
+   "by": "section-coordinator",
+   "file": "content/joan-of-arc/shared/battles/paris-1429/battle.yaml",
+   "field": "sides[0].commanders",
+   "commit": "7c8529c8",
+   "kind": "battle",
+   "severity": "weak",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-section-reviewer-17",
+   "by": "section-coordinator",
+   "file": "content/joan-of-arc/.plan/050-paris-and-compiegne/battles.yaml",
+   "field": "paris-1429 sides[0].commanders",
+   "commit": "7c8529c8",
+   "kind": "battle",
+   "severity": "weak",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-section-reviewer-13",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plans/pages050.mjs",
+   "field": "pages[montepilloy].markers[bray-held-1429].note (and so its page's markers.yaml)",
+   "commit": "7c8529c8",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-section-reviewer-14",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plans/pages050.mjs",
+   "field": "pages[saint-pierre-and-la-charite].markers[bourges-1429].note (and so its page's markers.yaml)",
+   "commit": "7c8529c8",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-section-reviewer-15",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plans/pages050.mjs",
+   "field": "pages[saint-pierre-and-la-charite].markers[saint-pierre-le-moutier].note (and so its page's markers.yaml)",
+   "commit": "7c8529c8",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-section-reviewer-16",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plans/pages050.mjs",
+   "field": "pages[saint-pierre-and-la-charite].markers[la-charite].note (and so its page's markers.yaml)",
+   "commit": "7c8529c8",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-fact-checker-34",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/text/en.md",
+   "field": "body",
+   "commit": "7c8529c8",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-fact-checker-35",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/.plans/pages050.mjs",
+   "field": "pages[saint-pierre-and-la-charite].markers[bourges-1429].note (and the same line of its page's markers.yaml)",
+   "commit": "7c8529c8",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-fact-checker-36",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/.plans/pages050.mjs",
+   "field": "pages[saint-pierre-and-la-charite].markers[saint-pierre-le-moutier].note (and the same line of its page's markers.yaml)",
+   "commit": "7c8529c8",
+   "kind": "fact",
+   "severity": "wrong",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-map-auditor-5",
+   "by": "map-auditor",
+   "file": "content/joan-of-arc/.plans/pages050.mjs",
+   "field": "pages[back-to-the-loire].markers[bray-1429].note, pages[melun-and-lagny].markers[sully-1430].note, pages[compiegne].markers[crepy-1430].note, pages[compiegne].markers[coudun-1430].note (and so 030-back-to-the-loire, 050-melun-and-lagny and 060-compiegne markers.yaml, rerun)",
+   "commit": "7c8529c8",
+   "kind": "map",
+   "severity": "taste",
+   "owner": "map-auditor",
+   "steppedIn": false
+  },
+  {
    "fault": "060-editor-1",
    "by": "editor",
    "file": "content/joan-of-arc/.plan/060-rouen/pages.yaml",
@@ -14795,6 +18112,842 @@
    "steppedIn": false
   },
   {
+   "fault": "060-cartographer-1",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plan/060-rouen/pages.yaml",
+   "field": "beaulieu-and-beaurevoir.markers",
+   "commit": "8a04fd5d",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-cartographer-1",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plan/060-rouen/map.yaml",
+   "field": "beaulieu-and-beaurevoir.markers, beaulieu-and-beaurevoir.unmarked.Clairoix",
+   "commit": "8a04fd5d",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-cartographer-2",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plan/060-rouen/pages.yaml",
+   "field": "sold-to-the-english.markers",
+   "commit": "8a04fd5d",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-cartographer-2",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plan/060-rouen/map.yaml",
+   "field": "sold-to-the-english.markers, sold-to-the-english.unmarked.Drugy, sold-to-the-english.unmarked.Beaurevoir",
+   "commit": "8a04fd5d",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-writer-1",
+   "by": "section-writer",
+   "file": "content/joan-of-arc/.plan/names.md",
+   "field": "Arras, First named in",
+   "commit": "4868abb3",
+   "kind": "check",
+   "severity": "wrong",
+   "owner": "names",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-writer-2",
+   "by": "section-writer",
+   "file": "content/joan-of-arc/.plan/names.md",
+   "field": "Saint-Sauveur (the church on the Old Market), Name",
+   "commit": "4868abb3",
+   "kind": "check",
+   "severity": "wrong",
+   "owner": "names",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-writer-3",
+   "by": "section-writer",
+   "file": "content/joan-of-arc/.plan/names.md",
+   "field": "Rules, Terms",
+   "commit": "4868abb3",
+   "kind": "check",
+   "severity": "weak",
+   "owner": "names",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-map-auditor-1",
+   "by": "map-auditor",
+   "file": "content/joan-of-arc/.plans/pages060.mjs",
+   "field": "pages[sold-to-the-english].markers.arras-1430.note (written by it to pages/060-rouen/020-sold-to-the-english/markers.yaml)",
+   "commit": "4868abb3",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "map-auditor",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-map-auditor-1",
+   "by": "map-auditor",
+   "file": "content/joan-of-arc/.plan/060-rouen/map.yaml",
+   "field": "sold-to-the-english.markers.arras-1430.what",
+   "commit": "4868abb3",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "map-auditor",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-map-auditor-3",
+   "by": "map-auditor",
+   "file": "content/joan-of-arc/.plan/060-rouen/map.yaml",
+   "field": "saint-ouen.markers.saint-ouen-1431.why",
+   "commit": "4868abb3",
+   "kind": "map",
+   "severity": "taste",
+   "owner": "map-auditor",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-map-auditor-2",
+   "by": "researcher",
+   "file": "content/joan-of-arc/.plan/research/060.md",
+   "field": "060.67, 060.68 (new lines after 060.66)",
+   "commit": "f10de002",
+   "kind": "sources",
+   "severity": "weak",
+   "owner": "researcher",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-map-auditor-2",
+   "by": "researcher",
+   "file": "content/joan-of-arc/.plan/research.md",
+   "field": "060.67, 060.68 (new lines after 060.66)",
+   "commit": "f10de002",
+   "kind": "sources",
+   "severity": "weak",
+   "owner": "researcher",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-map-auditor-2",
+   "by": "researcher",
+   "file": "content/joan-of-arc/.plan/060-rouen/text.yaml",
+   "field": "pages.sold-to-the-english.account",
+   "commit": "f10de002",
+   "kind": "sources",
+   "severity": "weak",
+   "owner": "researcher",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-map-auditor-2",
+   "by": "researcher",
+   "file": "content/joan-of-arc/.plan/060-rouen/pages.yaml",
+   "field": "sold-to-the-english.rests_on",
+   "commit": "f10de002",
+   "kind": "sources",
+   "severity": "weak",
+   "owner": "researcher",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-researcher-1",
+   "by": "researcher",
+   "file": "content/joan-of-arc/.plan/names.md",
+   "field": "People, Burgundy and Lorraine: after the lord of Créqui",
+   "commit": "f10de002",
+   "kind": "check",
+   "severity": "weak",
+   "owner": "names",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-fact-checker-9",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-fact-checker-10",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-fact-checker-11",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/page.yaml",
+   "field": "sources",
+   "commit": "6c6d72c8",
+   "kind": "sources",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-fact-checker-12",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-fact-checker-13",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-fact-checker-14",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-fact-checker-15",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/page.yaml",
+   "field": "sources",
+   "commit": "6c6d72c8",
+   "kind": "sources",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-fact-checker-16",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "attribution",
+   "severity": "wrong",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-fact-checker-17",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md",
+   "field": "Notes, **",
+   "commit": "6c6d72c8",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-fact-checker-18",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-fact-checker-19",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/060-rouen/030-the-court/page.yaml",
+   "field": "sources",
+   "commit": "6c6d72c8",
+   "kind": "sources",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-fact-checker-20",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/060-rouen/040-the-questioning/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-fact-checker-21",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/060-rouen/040-the-questioning/page.yaml",
+   "field": "sources",
+   "commit": "6c6d72c8",
+   "kind": "sources",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-fact-checker-22",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "attribution",
+   "severity": "wrong",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-fact-checker-23",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/.plan/research.md",
+   "field": "060.56",
+   "commit": "6c6d72c8",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "researcher",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-fact-checker-24",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/.plan/research/060.md",
+   "field": "060.56",
+   "commit": "6c6d72c8",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "researcher",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-fact-checker-25",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-fact-checker-26",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md",
+   "field": "Notes, **",
+   "commit": "6c6d72c8",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-fact-checker-27",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-fact-checker-28",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-fact-checker-29",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/060-rouen/060-the-old-market/page.yaml",
+   "field": "sources",
+   "commit": "6c6d72c8",
+   "kind": "sources",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-1",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-2",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-3",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-4",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "order",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-5",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-6",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-7",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-8",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-9",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/060-rouen/040-the-questioning/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-10",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-11",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-12",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md",
+   "field": "body",
+   "commit": "6c6d72c8",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-13",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plans/pages060.mjs",
+   "field": "beaulieu-and-beaurevoir.markers",
+   "commit": "7c8529c8",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-13",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plan/060-rouen/pages.yaml",
+   "field": "beaulieu-and-beaurevoir.markers",
+   "commit": "7c8529c8",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-13",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plan/060-rouen/map.yaml",
+   "field": "beaulieu-and-beaurevoir.markers, beaulieu-and-beaurevoir.unmarked",
+   "commit": "7c8529c8",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-13",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md",
+   "field": "body",
+   "commit": "7c8529c8",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-14",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plans/pages060.mjs",
+   "field": "sold-to-the-english.bbox, sold-to-the-english.markers",
+   "commit": "7c8529c8",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-14",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plan/060-rouen/pages.yaml",
+   "field": "sold-to-the-english.markers",
+   "commit": "7c8529c8",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-14",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plan/060-rouen/map.yaml",
+   "field": "sold-to-the-english.bbox, sold-to-the-english.markers, sold-to-the-english.unmarked",
+   "commit": "7c8529c8",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-14",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md",
+   "field": "body",
+   "commit": "7c8529c8",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-15",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plans/pages060.mjs",
+   "field": "the-court.markers",
+   "commit": "7c8529c8",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-15",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plan/060-rouen/pages.yaml",
+   "field": "the-court.markers",
+   "commit": "7c8529c8",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-15",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plan/060-rouen/map.yaml",
+   "field": "the-court.markers, the-court.unmarked.Compiègne",
+   "commit": "7c8529c8",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-15",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md",
+   "field": "body",
+   "commit": "7c8529c8",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-16",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plans/pages060.mjs",
+   "field": "saint-ouen.bbox, saint-ouen.markers",
+   "commit": "7c8529c8",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-16",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plan/060-rouen/pages.yaml",
+   "field": "saint-ouen.markers",
+   "commit": "7c8529c8",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-16",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plan/060-rouen/map.yaml",
+   "field": "saint-ouen.bbox, saint-ouen.markers, saint-ouen.unmarked",
+   "commit": "7c8529c8",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-16",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md",
+   "field": "body",
+   "commit": "7c8529c8",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-17",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plans/pages060.mjs",
+   "field": "the-old-market.bbox, the-old-market.markers",
+   "commit": "7c8529c8",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-17",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plan/060-rouen/pages.yaml",
+   "field": "the-old-market.markers",
+   "commit": "7c8529c8",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-17",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plan/060-rouen/map.yaml",
+   "field": "the-old-market.bbox, the-old-market.markers, the-old-market.unmarked",
+   "commit": "7c8529c8",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-section-reviewer-17",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md",
+   "field": "body",
+   "commit": "7c8529c8",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-overseer-1",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plan/060-rouen/pages.yaml",
+   "field": "the-court.date",
+   "commit": "7c8529c8",
+   "kind": "plan",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-overseer-1",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plans/pages060.mjs",
+   "field": "the-court date",
+   "commit": "7c8529c8",
+   "kind": "plan",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-overseer-1",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/pages/060-rouen/030-the-court/page.yaml",
+   "field": "date",
+   "commit": "7c8529c8",
+   "kind": "plan",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-fact-checker-30",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/.plans/pages060.mjs",
+   "field": "pages[beaulieu-and-beaurevoir].markers.noyon-1430.note, and the same line of pages/060-rouen/010-beaulieu-and-beaurevoir/markers.yaml",
+   "commit": "041baa8b",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-fact-checker-30",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/.plan/060-rouen/map.yaml",
+   "field": "beaulieu-and-beaurevoir.markers.noyon-1430.what",
+   "commit": "041baa8b",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-fact-checker-31",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/.plans/pages060.mjs",
+   "field": "pages[the-old-market].markers.saint-sauveur-1431.note, and the same line of pages/060-rouen/060-the-old-market/markers.yaml",
+   "commit": "041baa8b",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-fact-checker-31",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/.plan/060-rouen/map.yaml",
+   "field": "the-old-market.markers.saint-sauveur-1431.what",
+   "commit": "041baa8b",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-map-auditor-4",
+   "by": "map-auditor",
+   "file": "content/joan-of-arc/.plans/pages060.mjs",
+   "field": "pages[the-court].markers.compiegne-diocese-1431.note, and the same line of pages/060-rouen/030-the-court/markers.yaml",
+   "commit": "9df0afc0",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "map-auditor",
+   "steppedIn": false
+  },
+  {
    "fault": "070-research-reviewer-1",
    "by": "research-reviewer",
    "file": "content/joan-of-arc/.plan/research/070.md",
@@ -15046,6 +19199,138 @@
    "severity": "weak",
    "owner": "brief",
    "steppedIn": true
+  },
+  {
+   "fault": "070-section-writer-1",
+   "by": "section-writer",
+   "file": "content/joan-of-arc/.plan/names.md",
+   "field": "Places and States and peoples, \"First named in\"",
+   "commit": "3ae2c50a",
+   "kind": "plan",
+   "severity": "weak",
+   "owner": "names",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-map-auditor-1",
+   "by": "map-auditor",
+   "file": "content/joan-of-arc/.plans/pages070.mjs",
+   "field": "paris-opens, markers['dieppe-1435'].note (written to pages/070-after-her/020-paris-opens/markers.yaml)",
+   "commit": "3ae2c50a",
+   "kind": "map",
+   "severity": "taste",
+   "owner": "map-auditor",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-map-auditor-2",
+   "by": "map-auditor",
+   "file": "content/joan-of-arc/.plans/pages070.mjs",
+   "field": "normandy-won-back, markers['cherbourg-1450'].note (written to pages/070-after-her/030-normandy-won-back/markers.yaml)",
+   "commit": "3ae2c50a",
+   "kind": "map",
+   "severity": "taste",
+   "owner": "map-auditor",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-map-auditor-3",
+   "by": "map-auditor",
+   "file": "content/joan-of-arc/.plans/pages070.mjs",
+   "field": "the-retrial, markers['domremy-1456'].note (written to pages/070-after-her/050-the-retrial/markers.yaml)",
+   "commit": "3ae2c50a",
+   "kind": "map",
+   "severity": "taste",
+   "owner": "map-auditor",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-map-auditor-4",
+   "by": "map-auditor",
+   "file": "content/joan-of-arc/.plans/pages070.mjs",
+   "field": "the-retrial.bbox (written to pages/070-after-her/050-the-retrial/page.yaml)",
+   "commit": "3ae2c50a",
+   "kind": "map",
+   "severity": "taste",
+   "owner": "map-auditor",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-map-auditor-4",
+   "by": "map-auditor",
+   "file": "content/joan-of-arc/.plan/070-after-her/map.yaml",
+   "field": "the-retrial.bbox",
+   "commit": "3ae2c50a",
+   "kind": "map",
+   "severity": "taste",
+   "owner": "map-auditor",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-map-auditor-5",
+   "by": "map-auditor",
+   "file": "content/joan-of-arc/.plans/pages070.mjs",
+   "field": "castillon.bbox (written to pages/070-after-her/040-castillon/page.yaml)",
+   "commit": "3ae2c50a",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "map-auditor",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-map-auditor-5",
+   "by": "map-auditor",
+   "file": "content/joan-of-arc/.plan/070-after-her/map.yaml",
+   "field": "castillon.bbox",
+   "commit": "3ae2c50a",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "map-auditor",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-map-auditor-6",
+   "by": "map-auditor",
+   "file": "content/joan-of-arc/.plan/070-after-her/pages.yaml",
+   "field": "paris-opens.tells",
+   "commit": "3ae2c50a",
+   "kind": "plan",
+   "severity": "weak",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-map-auditor-6",
+   "by": "map-auditor",
+   "file": "content/joan-of-arc/.plan/070-after-her/pages.yaml",
+   "field": "paris-opens.rests_on",
+   "commit": "3ae2c50a",
+   "kind": "plan",
+   "severity": "weak",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-map-auditor-6",
+   "by": "map-auditor",
+   "file": "content/joan-of-arc/.plan/070-after-her/text.yaml",
+   "field": "pages.paris-opens.account: the sentence after 'is left out.'",
+   "commit": "3ae2c50a",
+   "kind": "plan",
+   "severity": "weak",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-map-auditor-8",
+   "by": "map-auditor",
+   "file": "content/joan-of-arc/.plan/brief.md",
+   "field": "Map, Zones, the row english-1449: Land and Basis",
+   "commit": "3ae2c50a",
+   "kind": "map",
+   "severity": "taste",
+   "owner": "brief",
+   "steppedIn": false
   },
   {
    "fault": "story-editor-1",

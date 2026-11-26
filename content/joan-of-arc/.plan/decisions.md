@@ -290,3 +290,10 @@
 - facts 060: the cartographer fixed its six faults: markers for the places the texts name on five pages, and the date
   of `the-court`, now January to April 1431. The archbishop's palace and the church of Saint-Sauveur are
   reconstructions. At city scale the base map draws no Seine, so a label alone marks it on `the-old-market`.
+- section 060: done, 26 Nov 2026, maps to facts. 6 pages drawn, audited (recheck pass), written, with 7 images found,
+  fact-checked, reviewed and rechecked (pass; two marker notes cut back to what a file says). No fault of
+  `faults/060.yaml` is open.
+- wave 050 060: done, 26 Nov 2026, at the sections' `build`. 12 pages; 35 of 41 are built.
+- maps 070 drawn (cartographer): 6 pages from `.plans/pages070.mjs`, 20 markers, 6 routes, all reconstructions. Every
+  page of the story is drawn.
+- ledger after `wave 050 060`: | **total** | 110 | 3,154 | 537,858 | 6,410 | 22,342,419 | 537,927,079 | 4,236,128 | 102,907,782 |

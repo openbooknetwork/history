@@ -501,7 +501,7 @@ old name without it, as the sources and the histories do, and "Today" gives the 
 | Le Crotoy | English from 3 March 1424 | Le Crotoy, Somme | 060 (060.16) | Crotoy |
 | Saint-Valery | not told (rules.md: the road from Le Crotoy to Rouen) | Saint-Valery-sur-Somme, Somme | 060 (060.24) | Saint Valéry |
 | Eu | not told on the road of 1430 | Eu, Seine-Maritime | 060 (060.24) | |
-| Dieppe | English to 29 October 1435; not told on the road of 1430 | Dieppe, Seine-Maritime | 060 (060.24) | |
+| Dieppe | English to 29 October 1435; not told on the road of 1430 | Dieppe, Seine-Maritime | 070 (070.7) | |
 | Thérouanne | the see of Louis of Luxembourg | Thérouanne, Pas-de-Calais | 050 (050.12) | Therouenne |
 | Lille | whole story | Lille, Nord | 010 (010.4, Lang's quote) | |
 | Calais | English through the story | Calais, Pas-de-Calais | 010 (010.23) | |
@@ -533,14 +533,14 @@ old name without it, as the sources and the histories do, and "Today" gives the 
 | Touques | where Henry V landed in 1417 | Touques, Calvados | 010 (010.36) | |
 | Caen | English 4 September 1417 – 1 July 1450 | Caen, Calvados | 010 (010.37) | |
 | Lisieux | English from 1417 | Lisieux, Calvados | 010 (010.37) | |
-| Bayeux | English from 1417 to 1450 | Bayeux, Calvados | 010 (010.37) | |
+| Bayeux | English from 1417 to 1450 | Bayeux, Calvados | 070 (070.16) | |
 | Mont-Saint-Michel | French through the story | Le Mont-Saint-Michel, Manche | 010 (010.38) | |
 | Ivry | besieged by Bedford in 1424 | Ivry-la-Bataille, Eure | 010 (010.62) | Yvry |
 | Verneuil | the battle of 17 August 1424 | Verneuil-sur-Avre, Eure | 010 (010.62) | Verneil; Vernueil |
 | Nonancourt | where the army of Charles VII came before turning to Verneuil, August 1424 (Beaucourt) | Nonancourt, Eure | 010 (010.62, Beaucourt's passage) | |
 | Orbec | an English garrison | Orbec, Calvados | 050 (050.6) | |
 | Évreux | English | Évreux, Eure | 040 (040.13) | Evreux |
-| Coutances | the see of a judge of 1455 | Coutances, Manche | 060 (060.35) | |
+| Coutances | the see of a judge of 1455 | Coutances, Manche | 070 (070.38) | |
 | Pont-de-l'Arche | taken by the French in 1449 | Pont-de-l'Arche, Eure | 070 (070.14) | |
 | Conches | taken by the French in 1449 | Conches-en-Ouche, Eure | 070 (070.14) | |
 | Gerberoy | taken by the French in 1449 | Gerberoy, Oise | 070 (070.14) | |
@@ -568,7 +568,7 @@ old name without it, as the sources and the histories do, and "Today" gives the 
 | Le Lude | whole story | Le Lude, Sarthe | 010 (010.48) | |
 | Beaufort-en-Vallée | Clarence's headquarters, from which he rode to Baugé in March 1421; the old name as the sources give it | Beaufort-en-Anjou, Maine-et-Loire | 010 (010.47, Ramsay's and Wylie and Waugh's passages) | Beaufort; Beaufort-en-Vallee |
 | Cravant | the battle of 31 July 1423 on the Yonne | Cravant, Yonne | 010 (010.59) | Crevant |
-| Bordeaux | English to 30 June 1451; English again October 1452 – 19 October 1453 | Bordeaux, Gironde | 010 (010.57) | |
+| Bordeaux | English to 30 June 1451; English again October 1452 – 19 October 1453 | Bordeaux, Gironde | 070 (070.25) | |
 | Bayonne | English to 20 August 1451 | Bayonne, Pyrénées-Atlantiques | 070 (070.25) | |
 | the Médoc | where Talbot landed in 1452 | the Médoc, Gironde | 070 (070.28) | Medoc |
 | Castillon | the battle of 17 July 1453 on the Dordogne | Castillon-la-Bataille, Gironde | 070 (070.29) | |
@@ -637,7 +637,7 @@ old name without it, as the sources and the histories do, and "Today" gives the 
 | the kingdom of Scotland | Scottish; "the Scots" for the men | whole story | 010 (010.47) |
 | the Lombards | Lombard | 1424 | 010 (010.64) |
 | the Gascons, the Picards, the Bretons, the Normans | Gascon, Picard, Breton, Norman | whole story | 020 (020.26) |
-| the Parisians | Parisian | whole story | 020 (020.24) |
+| the Parisians | Parisian | whole story | 070 (070.11) |
 | the University of Paris | | whole story | 060 (060.21) |
 | the Estates of Normandy | | 1430 | 060 (060.15) |
 | the Church; the Holy See | | whole story | 060 (060.38) |

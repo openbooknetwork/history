@@ -159,3 +159,97 @@
   old: "020 (the-voices, vaucouleurs-again, eleven-days)"
   new: "020 (the-voices, vaucouleurs-again, eleven-days), 070 (the-retrial, with the edge of 1429 kept for 1455 – 1456)"
   commit: de28cedb
+- fault: 070-section-writer-1
+  by: section-writer
+  file: content/joan-of-arc/.plan/names.md
+  field: "Places and States and peoples, \"First named in\""
+  old: |-
+    | Dieppe | English to 29 October 1435; not told on the road of 1430 | Dieppe, Seine-Maritime | 060 (060.24) |
+    | Bayeux | English from 1417 to 1450 | Bayeux, Calvados | 010 (010.37) |
+    | Coutances | the see of a judge of 1455 | Coutances, Manche | 060 (060.35) |
+    | Bordeaux | English to 30 June 1451; English again October 1452 – 19 October 1453 | Bordeaux, Gironde | 010 (010.57) |
+    | the Parisians | Parisian | whole story | 020 (020.24) |
+  new: |-
+    | Dieppe | English to 29 October 1435; not told on the road of 1430 | Dieppe, Seine-Maritime | 070 (070.7) |
+    | Bayeux | English from 1417 to 1450 | Bayeux, Calvados | 070 (070.16) |
+    | Coutances | the see of a judge of 1455 | Coutances, Manche | 070 (070.38) |
+    | Bordeaux | English to 30 June 1451; English again October 1452 – 19 October 1453 | Bordeaux, Gironde | 070 (070.25) |
+    | the Parisians | Parisian | whole story | 070 (070.11) |
+  commit: 3ae2c50a
+- fault: 070-map-auditor-1
+  by: map-auditor
+  file: content/joan-of-arc/.plans/pages070.mjs
+  field: "paris-opens, markers['dieppe-1435'].note (written to pages/070-after-her/020-paris-opens/markers.yaml)"
+  old: "Lost by the English on 29 October 1435, after Arras, and with it the whole Pays de Caux but Caudebec (Ramsay)"
+  new: "French from 29 October 1435, with all the Caux but Caudebec"
+  commit: 3ae2c50a
+- fault: 070-map-auditor-2
+  by: map-auditor
+  file: content/joan-of-arc/.plans/pages070.mjs
+  field: "normandy-won-back, markers['cherbourg-1450'].note (written to pages/070-after-her/030-normandy-won-back/markers.yaml)"
+  old: "Kyriell's army lands here about 15 March 1450; the last English hold in Normandy, it is given up on 12 August 1450 after a month's siege"
+  new: "The last English hold in Normandy, given up on 12 August 1450"
+  commit: 3ae2c50a
+- fault: 070-map-auditor-3
+  by: map-auditor
+  file: content/joan-of-arc/.plans/pages070.mjs
+  field: "the-retrial, markers['domremy-1456'].note (written to pages/070-after-her/050-the-retrial/markers.yaml)"
+  old: "Her village, where witnesses of her childhood are heard in January and February 1456, with those of Vaucouleurs"
+  new: "Witnesses of Domrémy and Vaucouleurs are heard in January and February 1456"
+  commit: 3ae2c50a
+- fault: 070-map-auditor-4
+  by: map-auditor
+  file: content/joan-of-arc/.plans/pages070.mjs
+  field: "the-retrial.bbox (written to pages/070-after-her/050-the-retrial/page.yaml)"
+  old: "[-0.2, 45.4, 6.4, 51.1]"
+  new: "[-0.2, 45.1, 6.4, 51.1]"
+  commit: 3ae2c50a
+- fault: 070-map-auditor-4
+  by: map-auditor
+  file: content/joan-of-arc/.plan/070-after-her/map.yaml
+  field: "the-retrial.bbox"
+  old: "[-0.2, 45.4, 6.4, 51.1]"
+  new: "[-0.2, 45.1, 6.4, 51.1]"
+  commit: 3ae2c50a
+- fault: 070-map-auditor-5
+  by: map-auditor
+  file: content/joan-of-arc/.plans/pages070.mjs
+  field: "castillon.bbox (written to pages/070-after-her/040-castillon/page.yaml)"
+  old: "[-2.2, 43.2, 1.0, 45.9]"
+  new: "[-2.2, 42.6, 1.0, 45.9]"
+  commit: 3ae2c50a
+- fault: 070-map-auditor-5
+  by: map-auditor
+  file: content/joan-of-arc/.plan/070-after-her/map.yaml
+  field: "castillon.bbox"
+  old: "[-2.2, 43.2, 1.0, 45.9]"
+  new: "[-2.2, 42.6, 1.0, 45.9]"
+  commit: 3ae2c50a
+- fault: 070-map-auditor-6
+  by: map-auditor
+  file: content/joan-of-arc/.plan/070-after-her/pages.yaml
+  field: "paris-opens.tells"
+  old: "13 April 1436; the English shut themselves in the Bastille Saint-Antoine and are let go to Rouen."
+  new: "13 April 1436; the English shut themselves in the Bastille Saint-Antoine and are let go to Rouen. Round the city they keep Meaux, Creil, Montereau and Mantes, with Beaumont-sur-Oise and Crépy, which Talbot won back in 1434, while Chartres was lost to them in 1432 and the bridge of Meulan in 1435."
+  commit: 3ae2c50a
+- fault: 070-map-auditor-6
+  by: map-auditor
+  file: content/joan-of-arc/.plan/070-after-her/pages.yaml
+  field: "paris-opens.rests_on"
+  old: "[\"070.7\", \"070.8\", \"070.9\", \"070.10\", \"070.11\"]"
+  new: "[\"070.7\", \"070.8\", \"070.9\", \"070.10\", \"070.11\", \"070.59\", \"070.60\", \"070.61\", \"070.63\", \"070.64\", \"070.65\", \"070.66\"]"
+  commit: 3ae2c50a
+- fault: 070-map-auditor-6
+  by: map-auditor
+  file: content/joan-of-arc/.plan/070-after-her/text.yaml
+  field: "pages.paris-opens.account: the sentence after 'is left out.'"
+  old: ""
+  new: "Round Paris the map keeps six English holds as circles: Meaux, Creil, Montereau and Mantes, which the sources have the English keep after April 1436 (070.60, 070.64, 070.65, 070.66), and Beaumont-sur-Oise and Crépy, which Talbot won back in 1434 (070.61) and no source read has them lose by then; Chartres, taken by the Bastard of Orléans in April 1432 (070.59), and the bridge of Meulan, lost in September 1435 (070.63), are the king's."
+  commit: 3ae2c50a
+- fault: 070-map-auditor-8
+  by: map-auditor
+  file: content/joan-of-arc/.plan/brief.md
+  field: "Map, Zones, the row english-1449: Land and Basis"
+  old: "Saint-Sauveur and Cherbourg, with Calais and Gascony, at the close of 1449 | reconstruction drawn round the towns of 070.16 (single, Ramsay), after 070.14 and Rouen's surrender (29 October 1449, `names.md`), as rules.md asks for the map of 1444 to 1453 |"
+  new: "Saint-Sauveur and Cherbourg, with Calais and Gascony, at the close of 1449. Valognes, which Ramsay's list leaves out, is a hole of 4 km | reconstruction drawn round the towns of 070.16 (single, Ramsay), after 070.14 and Rouen's surrender (29 October 1449, `names.md`), as rules.md asks for the map of 1444 to 1453; Valognes French, since Kyriell sits down to its siege on 27 March 1450 (Ramsay 2, ch. 8, the passage of 070.17) |"
+  commit: 3ae2c50a

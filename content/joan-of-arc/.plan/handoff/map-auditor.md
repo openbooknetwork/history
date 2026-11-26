@@ -18,3 +18,9 @@
 - A label block also keeps clear of the legend. A marker just right of the legend, or above it, gets its block pushed
   away from the icon: the note then starts beside the icon and the name sits far along it. Only a note short enough
   to fit the room (about 60 to 80 characters) brings the name back (050's Sully, Crépy and Coudun).
+- On a page with a battle the card opens at the start and the map fits its bbox into the frame left of the card, so the
+  legend reaches further into the frame's south-west than on other pages (070's Bayonne sat on it until the bbox went
+  0.6 degrees further south).
+- A marker's note starts just right of its icon and the name is centred over the note, so a long note puts the name
+  far east of the icon, worst at a frame's west edge (070's Dieppe and Cherbourg). Keep such notes under about 60
+  characters. The map's attribution box covers notes at the frame's south-east foot, as the legend does at the south-west.

@@ -106,7 +106,7 @@ normandy-won-back:
     Anjou: "named only in Margaret of Anjou's name; no place of this page."
     Brittany: "the duchy; the brittany zone, and Fougères is marked in it."
 castillon:
-  bbox: [-2.2, 43.2, 1.0, 45.9]
+  bbox: [-2.2, 42.6, 1.0, 45.9]
   zones: [france-1452, english-1452, burgundy-1430, brittany-1407]
   routes:
     - id: talbot-1452-bordeaux
@@ -135,7 +135,7 @@ castillon:
     Calais: "the one English hold left after October 1453 (070.26); outside the frame; the english zone holds it, and the-retrial's frame shows it."
     Gascony: "the duchy; English Gascony of 1452–1453 is the english zone."
 the-retrial:
-  bbox: [-0.2, 45.4, 6.4, 51.1]
+  bbox: [-0.2, 45.1, 6.4, 51.1]
   zones: [france-1451, english-1451, burgundy-1430, brittany-1407, bar-1412, lorraine-1412]
   markers:
     notre-dame-1455: { name: Notre-Dame, what: "the cathedral of Paris, where on 7 November 1455 Isabelle Romée, in mourning, with her sons Jean and Pierre, presents the papal rescript and her petition to the judges; a second public sitting follows on 17 November, and witnesses are heard at Paris in April and May 1456; about 48.853 N 2.350 E. In the france colour", basis: sourced, rank: 2 }

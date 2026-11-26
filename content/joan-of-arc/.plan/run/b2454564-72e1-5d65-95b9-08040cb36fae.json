@@ -30,7 +30,7 @@
    "parent": "-",
    "model": "claude-fable-5-2",
    "start": "2026-11-26T08:58:19.988Z",
-   "end": "2026-11-26T15:51:56.323Z",
+   "end": "2026-11-26T16:14:56.381Z",
    "description": ""
   },
   {
@@ -223,6 +223,15 @@
    "description": "maps all map-keeper fix"
   },
   {
+   "agent": "a3e6c4e6124d9267e",
+   "role": "image-finder",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T15:52:41.316Z",
+   "end": "2026-11-26T16:02:32.326Z",
+   "description": "images 070 image-finder find"
+  },
+  {
    "agent": "a41798f86c9634982",
    "role": "fact-checker",
    "parent": "overseer",
@@ -248,6 +257,15 @@
    "start": "2026-11-26T10:49:58.074Z",
    "end": "2026-11-26T10:57:44.018Z",
    "description": "plan-check 040 fact-checker plan-check"
+  },
+  {
+   "agent": "a43c1220550ff7f17",
+   "role": "fact-checker",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T16:12:44.433Z",
+   "end": "2026-11-26T16:14:39.422Z",
+   "description": "facts 070 fact-checker recheck"
   },
   {
    "agent": "a482e01d55da093bf",
@@ -403,6 +421,15 @@
    "description": "images 020 image-finder find"
   },
   {
+   "agent": "a6043fae8dce5528e",
+   "role": "section-writer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T15:52:41.928Z",
+   "end": "2026-11-26T15:54:23.741Z",
+   "description": "texts 070 section-writer fix"
+  },
+  {
    "agent": "a60a80fff40bd7e25",
    "role": "fact-checker",
    "parent": "overseer",
@@ -446,6 +473,15 @@
    "start": "2026-11-26T09:30:03.114Z",
    "end": "2026-11-26T09:30:42.723Z",
    "description": "research all research-coordinator claims"
+  },
+  {
+   "agent": "a722d2fb49b943a2f",
+   "role": "fact-checker",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T15:54:46.385Z",
+   "end": "2026-11-26T16:04:48.928Z",
+   "description": "facts 070 fact-checker check"
   },
   {
    "agent": "a7518378925ae04ea",
@@ -1006,6 +1042,15 @@
    "description": "maps 070 map-auditor audit"
   },
   {
+   "agent": "af9bd2b092fc48b55",
+   "role": "section-reviewer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T16:04:54.238Z",
+   "end": "2026-11-26T16:12:32.222Z",
+   "description": "facts 070 section-reviewer review"
+  },
+  {
    "agent": "afdac48b076441830",
    "role": "section-coordinator",
    "parent": "overseer",
@@ -1023,12 +1068,12 @@
    "model": "claude-fable-5-2",
    "step": "-",
    "section": "-",
-   "turns": 270,
-   "peak": 537858,
-   "input": 695,
-   "cacheWrite": 474074,
-   "cacheRead": 83487073,
-   "output": 114671
+   "turns": 281,
+   "peak": 560087,
+   "input": 726,
+   "cacheWrite": 496076,
+   "cacheRead": 89534040,
+   "output": 120922
   },
   {
    "agent": "a00421d99dbb1e05d",
@@ -1325,6 +1370,20 @@
    "output": 25671
   },
   {
+   "agent": "a3e6c4e6124d9267e",
+   "role": "image-finder",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "images",
+   "section": "070",
+   "turns": 20,
+   "peak": 153951,
+   "input": 40,
+   "cacheWrite": 222420,
+   "cacheRead": 1888010,
+   "output": 24357
+  },
+  {
    "agent": "a41798f86c9634982",
    "role": "fact-checker",
    "parent": "overseer",
@@ -1365,6 +1424,20 @@
    "cacheWrite": 189715,
    "cacheRead": 4393124,
    "output": 50661
+  },
+  {
+   "agent": "a43c1220550ff7f17",
+   "role": "fact-checker",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "facts",
+   "section": "070",
+   "turns": 17,
+   "peak": 105806,
+   "input": 34,
+   "cacheWrite": 99925,
+   "cacheRead": 1346455,
+   "output": 9247
   },
   {
    "agent": "a482e01d55da093bf",
@@ -1605,6 +1678,20 @@
    "output": 20111
   },
   {
+   "agent": "a6043fae8dce5528e",
+   "role": "section-writer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "texts",
+   "section": "070",
+   "turns": 14,
+   "peak": 72538,
+   "input": 28,
+   "cacheWrite": 66657,
+   "cacheRead": 760160,
+   "output": 9540
+  },
+  {
    "agent": "a60a80fff40bd7e25",
    "role": "fact-checker",
    "parent": "overseer",
@@ -1673,6 +1760,20 @@
    "cacheWrite": 76493,
    "cacheRead": 303239,
    "output": 3197
+  },
+  {
+   "agent": "a722d2fb49b943a2f",
+   "role": "fact-checker",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "facts",
+   "section": "070",
+   "turns": 46,
+   "peak": 329475,
+   "input": 91,
+   "cacheWrite": 323594,
+   "cacheRead": 10972653,
+   "output": 55198
   },
   {
    "agent": "a7518378925ae04ea",
@@ -2541,6 +2642,20 @@
    "cacheWrite": 204500,
    "cacheRead": 5368837,
    "output": 56181
+  },
+  {
+   "agent": "af9bd2b092fc48b55",
+   "role": "section-reviewer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "facts",
+   "section": "070",
+   "turns": 32,
+   "peak": 211135,
+   "input": 61,
+   "cacheWrite": 205254,
+   "cacheRead": 5015818,
+   "output": 43495
   },
   {
    "agent": "afdac48b076441830",
@@ -3823,6 +3938,45 @@
    "faults": []
   },
   {
+   "agent": "a3e6c4e6124d9267e",
+   "role": "image-finder",
+   "step": "images",
+   "section": "070",
+   "status": "faults",
+   "changed": 15,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "070-image-finder-1",
+     "severity": "wrong",
+     "kind": "image",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-writer",
+     "file": "content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md",
+     "claim": null,
+     "evidence": "text.yaml, normandy-won-back.images: { name: formigny-battle-miniature, \"on\": card formigny-1450 }; shared/battles/formigny-1450/battle.yaml images: [formigny-battle-miniature]; node scripts/contact-sheet.mjs joan-of-arc: \"formigny-battle-miniature shows 2 times: page normandy-won-back, card of formigny-1450\"; agents/images.md: an image shows in one place of a story, on one page or on one battle's card",
+     "action": "the line taken out: the plan puts formigny-battle-miniature on the card formigny-1450, which already holds it",
+     "state": "fixed"
+    },
+    {
+     "id": "070-image-finder-2",
+     "severity": "wrong",
+     "kind": "image",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-writer",
+     "file": "content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md",
+     "claim": null,
+     "evidence": "text.yaml, castillon.images: { name: castillon-battle-miniature, \"on\": card castillon-1453 }; shared/battles/castillon-1453/battle.yaml images: [castillon-battle-miniature]; node scripts/contact-sheet.mjs joan-of-arc: \"castillon-battle-miniature shows 2 times: page castillon, card of castillon-1453\"; agents/images.md: an image shows in one place of a story",
+     "action": "the line taken out: the plan puts castillon-battle-miniature on the card castillon-1453, which already holds it",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
    "agent": "a41798f86c9634982",
    "role": "fact-checker",
    "step": "facts",
@@ -4118,6 +4272,16 @@
      "state": "fixed"
     }
    ]
+  },
+  {
+   "agent": "a43c1220550ff7f17",
+   "role": "fact-checker",
+   "step": "facts",
+   "section": "070",
+   "status": "pass",
+   "changed": 0,
+   "unresolved": 0,
+   "faults": []
   },
   {
    "agent": "a482e01d55da093bf",
@@ -4901,6 +5065,16 @@
    "faults": []
   },
   {
+   "agent": "a6043fae8dce5528e",
+   "role": "section-writer",
+   "step": "texts",
+   "section": "070",
+   "status": "pass",
+   "changed": 5,
+   "unresolved": 0,
+   "faults": []
+  },
+  {
    "agent": "a60a80fff40bd7e25",
    "role": "fact-checker",
    "step": "facts",
@@ -5301,6 +5475,129 @@
    "changed": 0,
    "unresolved": 1,
    "faults": []
+  },
+  {
+   "agent": "a722d2fb49b943a2f",
+   "role": "fact-checker",
+   "step": "facts",
+   "section": "070",
+   "status": "pass",
+   "changed": 7,
+   "unresolved": 3,
+   "faults": [
+    {
+     "id": "070-fact-checker-7",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md",
+     "claim": "070.10",
+     "evidence": "Ramsay 1, ch. 32 (archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt), lines 29408-29412: \"The gates being locked, friendly hands let down ladders from the walls, and L'Isle-Adam led the way, mounting with the banner of Charles VII, and a proclamation of amnesty for Paris.\" The two sentences followed Ramsay's clauses in his order, word for word in synonyms.",
+     "action": "With the gates shut, townsmen lower ladders to them, and L'Isle-Adam goes up first, bearing Charles VII's banner and the king's pardon for Paris.",
+     "state": "fixed"
+    },
+    {
+     "id": "070-fact-checker-8",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md",
+     "claim": null,
+     "evidence": "Ramsay's list (070.7, Ramsay 1, ch. 32, line 29355) is of the places lost: Dieppe, the Caux, Pontoise, Charenton, Brie-Comte-Robert, Saint-Germain-en-Laye, Corbeil, Vincennes. What the sentence then lists as held rests on other works too: Maine on Lowell's provinces of 1428 (text.yaml, paris-opens), Meaux, Creil, Montereau and Mantes on Monstrelet ch. 200, 239, 152 and book 3 ch. 15 and on Ramsay 2 (070.60, 070.64, 070.65, 070.66), Beaumont and Crépy on Monstrelet ch. 157 and the Bourgeois §645 (070.61).",
+     "action": "drawn approximately from the places the sources name:",
+     "state": "fixed"
+    },
+    {
+     "id": "070-fact-checker-9",
+     "severity": "weak",
+     "kind": "sources",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/070-after-her/020-paris-opens/page.yaml",
+     "claim": null,
+     "evidence": "The text's map paragraph tells Chartres taken in April 1432 (070.59: Ramsay 1 ch. 30, the Bourgeois §604, Monstrelet ch. 117), Beaumont and Crépy won back in 1434 (070.61: Ramsay 1 ch. 31, Monstrelet ch. 157, the Bourgeois §645), Meulan lost in September 1435 (070.63: Ramsay 1 ch. 32, the Bourgeois §677), and Meaux, Creil, Montereau and Mantes English after April 1436 (070.60, 070.64, 070.65, 070.66: Ramsay 1 ch. 30 and 33, Ramsay 2 ch. 1, 2, 3 and 7, Monstrelet ch. 152, 200, 239 and book 3 ch. 15). The page listed only the chapters of the fall of Paris. Lowell's provinces of 1428, behind 'most of Maine', are 010's and are not added.",
+     "action": "Ramsay vol. 1, ch. 30-33, and vol. 2, ch. 1-3 and 7; the Bourgeois §604, §645, §677 and §691-695; Monstrelet book 2, ch. 117, 152, 157, 198, 200 and 239, and the continuation, book 3, ch. 15",
+     "state": "fixed"
+    },
+    {
+     "id": "070-fact-checker-10",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md",
+     "claim": "070.29",
+     "evidence": "Ramsay 2, ch. 10 (archive.org-download-cu31924088011436-cu31924088011436-djvu.txt.txt), passage of 070.32: \"The first step taken by the French was to entrench a camp, on the east side of the town, on the Lidoire, a small affluent of the Dordogne. Within this stronghold the artillery was parked ... the Bretons were stationed as a rear-guard on the Mont Horable, near Capitourlans, on the North-East\": the sentence kept his clauses in his order. The new wording rests also on Monstrelet's continuator (archive.org-download-chroniclesengue07johngoog-chroniclesengue07johngoog-djvu.txt.txt, lines 17393-17397): \"under the direction of master John Bureau and his brother Jasper Bureau, master of the artillery ... The two brothers first ordered the park of artillery to be strongly surrounded with ditches\".",
+     "action": "Jean Bureau and his brother, who direct the artillery, have the guns kept in a camp ringed with ditches beside the Lidoire, a stream east of the town, while the Bretons hold the Mont Horable, a height to the north-east.",
+     "state": "fixed"
+    },
+    {
+     "id": "070-fact-checker-11",
+     "severity": "weak",
+     "kind": "sources",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/070-after-her/050-the-retrial/page.yaml",
+     "claim": "070.42",
+     "evidence": "The text's third note gives 'The bull of canonisation of 1920 gives 123' (070.42: vatican.va-archive-aas-documents-AAS-12-1920-ocr.txt, p. 524, \"centum ac viginti tres testes\"), and the page did not list the bull. Thurston, listed for 070.44 (the appellate court), is cited for nothing the text now says.",
+     "action": "Benedict XV, bull Divina disponente, 16 May 1920, Acta Apostolicae Sedis 12 (1920).",
+     "state": "fixed"
+    },
+    {
+     "id": "070-fact-checker-12",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md",
+     "claim": "070.48",
+     "evidence": "vatican.va-archive-aas-documents-AAS-12-1920-ocr.txt, the bull Divina disponente, p. 524: \"divum Antoninum, qui in suis historiis Puellam « spiritu Dei ductam » existimabat, et Pium Secundum ... « Puella ... divino afflata spiritu »\". The file has the words in Latin; the English in quotation marks was the book's translation shown as the authors' own words. Antoninus as archbishop of Florence: Beaucourt 5, line 10494, \"Antonin, archevêque de Florence\".",
+     "action": "wrote of her as a girl inspired by the divine spirit, and Antoninus of Florence held her to be led by the spirit of God;",
+     "state": "fixed"
+    },
+    {
+     "id": "070-fact-checker-13",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md",
+     "claim": "070.49",
+     "evidence": "newadvent.org-cathen-08409c.txt, Thurston: \"By the beginning of the nineteenth century the sympathy for her even in England was general. Such writers as Southey, Hallam, Sharon Turner, Carlyle, Landor, and, above all, De Quincey greeted the Maid with a tribute of respect\". Thurston dates the general sympathy, not the writers' tributes, to the beginning of the century.",
+     "action": "yet by the nineteenth century Southey",
+     "state": "fixed"
+    },
+    {
+     "id": "070-fact-checker-14",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md",
+     "claim": "070.46",
+     "evidence": "archive.org-download-ProcesDeCondamnationV5-ProcesDeCondamnationV5-djvu.txt.txt, Quicherat 5, the city accounts of Orléans for 1435, p. 309: \"que ilz firent certain mistère ou boloart du pont, durant la procession\". The quotation marks held a word the accounts do not have.",
+     "action": "they played a \"certain mistère\"",
+     "state": "fixed"
+    }
+   ]
   },
   {
    "agent": "a7518378925ae04ea",
@@ -10107,7 +10404,7 @@
      "claim": null,
      "evidence": "The map of paris-opens draws six English circles round Paris that the page's text does not name, three of them (Creil, Beaumont, Crépy) French on the page before: 070.60, 070.61, 070.64, 070.65, 070.66; and shows Chartres and Meulan the king's (070.59, 070.63). The plan's account now says so (070-map-auditor-6). Left open for the writer, whose text of the section was being written while the audit ran; Beaumont and Crépy are English only because no source read has them lost (the brief's english-1436 row), so the sentence gives no source for their holding in 1436.",
      "action": "The map shows what the English hold after 13 April 1436: Normandy without Dieppe and the Caux, most of Maine, Calais and Gascony, and round Paris Meaux, Creil, Montereau and Mantes, with Beaumont-sur-Oise and Crépy, which Talbot won back in 1434. Chartres, which the Bastard of Orléans took in April 1432, and the bridge of Meulan, lost in September 1435, are the king's.",
-     "state": "open"
+     "state": "fixed"
     },
     {
      "id": "070-map-auditor-8",
@@ -10121,6 +10418,311 @@
      "claim": null,
      "evidence": "ground.yaml line 83 cuts Valognes out of english-1449 ('Valognes, which Kyriell besieges and takes in 1450 ... so French at the close of 1449 (a circle of 4 km)'), and the capture zoomed on Lower Normandy (zoom/normandy-won-back.png) shows the hole; the brief's row did not name it. Ramsay 2, ch. 8, line 8791: 'Kyrielle sat down to the siege of Valognes (27th March)'.",
      "action": "Saint-Sauveur and Cherbourg, with Calais and Gascony, at the close of 1449. Valognes, which Ramsay's list leaves out, is a hole of 4 km | reconstruction drawn round the towns of 070.16 (single, Ramsay), after 070.14 and Rouen's surrender (29 October 1449, `names.md`), as rules.md asks for the map of 1444 to 1453; Valognes French, since Kyriell sits down to its siege on 27 March 1450 (Ramsay 2, ch. 8, the passage of 070.17) |",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "af9bd2b092fc48b55",
+   "role": "section-reviewer",
+   "step": "facts",
+   "section": "070",
+   "status": "faults",
+   "changed": 9,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "070-section-reviewer-1",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md",
+     "claim": "070.1",
+     "evidence": "agents/text.md 3, a person gets a few words where the page first names them: a reader who opens the chapter here met neither Henry VI nor the cardinal. names.md rows of Henry VI (king of England from 1422) and Henry Beaufort (great-uncle of Henry VI); research/070.md 070.1",
+     "action": "Henry VI, the ten-year-old king of England, is crowned King of France. On Sunday 16 December 1431 his great-uncle, Cardinal Beaufort, crowns him in [Notre-Dame](@notre-dame-1431) in Paris.\\*",
+     "state": "fixed"
+    },
+    {
+     "id": "070-section-reviewer-2",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md",
+     "claim": "070.3",
+     "evidence": "agents/text.md 3; text.yaml section.opens: \"Charles VII, crowned at Reims in July 1429\". With Charles VII first in the sentence, \"he\" could be read as the king, so the Duke is named",
+     "action": "The envoys of Charles VII, the king crowned at Reims in 1429, and the Duke then settle a peace of their own, which the Duke seals",
+     "state": "fixed"
+    },
+    {
+     "id": "070-section-reviewer-3",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md",
+     "claim": "070.5",
+     "evidence": "research/070.md 070.5: \"with Arras the English stand alone against France and Burgundy\"; \"face France and Burgundy alone\" could be read as France and Burgundy standing alone",
+     "action": "Now the English stand alone against France and Burgundy, and Ramsay",
+     "state": "fixed"
+    },
+    {
+     "id": "070-section-reviewer-4",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "review",
+     "firstCheck": "edit",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md",
+     "claim": null,
+     "evidence": "agents/text.md 7: the words 070-section-reviewer-1 and 2 add are taken back here, so the body stays near 300",
+     "action": "While the congress sits, the regent",
+     "state": "fixed"
+    },
+    {
+     "id": "070-section-reviewer-5",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md",
+     "claim": "070.9",
+     "evidence": "agents/text.md 3; names.md row of the Bastard of Orléans (\"the Bastard of Orléans (later Count of Dunois)\" at the first mention on a page); the next pages of 070 call him Dunois, and the gloss ties the two names together for a reader who opens here",
+     "action": "with the Bastard of Orléans (later Count of Dunois) and L'Isle-Adam,",
+     "state": "fixed"
+    },
+    {
+     "id": "070-section-reviewer-6",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md",
+     "claim": "070.8",
+     "evidence": "research/070.md 070.8: \"English survivors in the Tour du Velin at Saint-Denis are taken and killed\"; no source gives their number, and \"the few\" told one",
+     "action": "Those of his men who reach the Tour du Velin",
+     "state": "fixed"
+    },
+    {
+     "id": "070-section-reviewer-7",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md",
+     "claim": "070.15",
+     "evidence": "agents/text.md 3; names.md row of Edmund Beaufort, Duke of Somerset: English lieutenant in Normandy, who gave up Rouen in 1449; research/070.md 070.15",
+     "action": "Edmund Beaufort, Duke of Somerset, the English lieutenant in Normandy, gives up",
+     "state": "fixed"
+    },
+    {
+     "id": "070-section-reviewer-8",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "review",
+     "firstCheck": "edit",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md",
+     "claim": null,
+     "evidence": "agents/text.md 7: the body ran 351 words after 070-section-reviewer-7 and 10, over the hard limit of 350; agents/evidence.md, a reconstruction is said \"once in a chapter\", which burgundy-changes-sides says, and the routes' legends name their stations",
+     "action": "comes from Saint-Lô.",
+     "state": "fixed"
+    },
+    {
+     "id": "070-section-reviewer-9",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "review",
+     "firstCheck": "edit",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md",
+     "claim": null,
+     "evidence": "agents/text.md 7, as 070-section-reviewer-8; agents/evidence.md, the approximate line is said once in the chapter, on burgundy-changes-sides",
+     "action": "The map draws the English lands round these towns.",
+     "state": "fixed"
+    },
+    {
+     "id": "070-section-reviewer-10",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md",
+     "claim": "070.23",
+     "evidence": "agents/text.md 3; names.md rows of the Bastard of Orléans and Dunois (Count of Dunois from 1439); research/070.md 070.23",
+     "action": "Richemont escorts Somerset out and Dunois, once the Bastard of Orléans, takes the town.",
+     "state": "fixed"
+    },
+    {
+     "id": "070-section-reviewer-11",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md",
+     "claim": "070.25",
+     "evidence": "agents/text.md 3; research/070.md 070.25 (Bordeaux delivered to Dunois, Ramsay and Beaucourt)",
+     "action": "is handed over to the French commander Dunois on 30 June.\\*",
+     "state": "fixed"
+    },
+    {
+     "id": "070-section-reviewer-12",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md",
+     "claim": "070.27",
+     "evidence": "agents/text.md 3; research/070.md 070.27, Oman: \"the English government sent the veteran Lord Talbot\"",
+     "action": "John Talbot, Earl of Shrewsbury, a veteran captain whom Henry VI made his lieutenant in Aquitaine on 2 September 1452, lands",
+     "state": "fixed"
+    },
+    {
+     "id": "070-section-reviewer-13",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "fix",
+     "firstCheck": null,
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md",
+     "claim": "070.29",
+     "evidence": "section-reviewer step 6: \"have the guns kept\" read as translated; the facts stay those of 070-fact-checker-10",
+     "action": "Jean Bureau and his brother, who direct the French artillery, keep the guns in a camp",
+     "state": "fixed"
+    },
+    {
+     "id": "070-section-reviewer-14",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md",
+     "claim": "070.31",
+     "evidence": "agents/text.md Notes: a note gives the accounts of the claim its marker stands on. The note of both sides' forces (070.31, 070.32) hung on the sentence of the English dead (070.34, single, told in the body with its author); it now stands where Talbot's force sets out, and the notes keep the body's order",
+     "action": "to relieve the town\\*\\*\\*\\* and arrives / the camp.\\*\\*\\*\\*\\* / with him.\\*\\*\\*\\*\\*\\* / were buried. ; Notes \\*\\*\\*\\* The forces, \\*\\*\\*\\*\\* Oman names no Bretons, \\*\\*\\*\\*\\*\\* Talbot's death",
+     "state": "fixed"
+    },
+    {
+     "id": "070-section-reviewer-15",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/070-after-her/050-the-retrial/text/en.md",
+     "claim": "070.36",
+     "evidence": "agents/text.md 3: a reader who opens the page here is not told whose trial it was; research/070.md 070.36",
+     "action": "Charles VII has the trial that condemned Joan in 1431 looked into.",
+     "state": "fixed"
+    },
+    {
+     "id": "070-section-reviewer-16",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/070-after-her/050-the-retrial/text/en.md",
+     "claim": "070.41",
+     "evidence": "research/070.md 070.41: Rouen \"December and May\"; after \"January and February 1456\" the bare \"December and May\" read as one span of 1456",
+     "action": "and at Rouen in December and again in May.",
+     "state": "fixed"
+    },
+    {
+     "id": "070-section-reviewer-17",
+     "severity": "taste",
+     "kind": "image",
+     "introduced": "review",
+     "firstCheck": "edit",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/070-after-her/050-the-retrial/text/en.md",
+     "claim": "070.39",
+     "evidence": "section-reviewer step 5; images/070.yaml offers isabelle-romee-retrial-miniature (Isabelle Romée and her two sons before the judges, the only known miniature of the retrial), and paragraph 2 tells that scene (070.39). node scripts/contact-sheet.mjs shows it nowhere else in the story",
+     "action": "@image isabelle-romee-retrial-miniature",
+     "state": "fixed"
+    },
+    {
+     "id": "070-section-reviewer-18",
+     "severity": "weak",
+     "kind": "image",
+     "introduced": "review",
+     "firstCheck": "edit",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/joan-of-arc/.plan/070-after-her/text.yaml",
+     "claim": null,
+     "evidence": "node scripts/placeholders.mjs joan-of-arc the-retrial, after 070-section-reviewer-17: \"image \\\"isabelle-romee-retrial-miniature\\\" has no folder, and no plan names it as an image a page wants\". The plan gains the image the image finder offered, so the placeholder is a planned one",
+     "action": "- { name: isabelle-romee-retrial-miniature, shows: \"Isabelle Romée and her two sons before the judges of the trial of nullification, a sixteenth-century miniature\" }",
+     "state": "fixed"
+    },
+    {
+     "id": "070-section-reviewer-19",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md",
+     "claim": "070.45",
+     "evidence": "agents/text.md 3: the closing page opened on \"the relief of 1429\" and did not name Joan or the city relieved; research/070.md 070.45 (the procession of 8 May, ordered after the relief)",
+     "action": "After Joan and the French relieve [Orléans](@orleans-8-may) in May 1429, its bishop, the Bastard",
+     "state": "fixed"
+    },
+    {
+     "id": "070-section-reviewer-20",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md",
+     "claim": "070.48",
+     "evidence": "agents/text.md 3; Beaucourt 5, line 10494, \"Antonin, archevêque de Florence\", as 070-fact-checker-12 gives it",
+     "action": "and Archbishop Antoninus of Florence held her",
+     "state": "fixed"
+    },
+    {
+     "id": "070-section-reviewer-21",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md",
+     "claim": "070.49",
+     "evidence": "agents/text.md 3: the reader is told when Lowell wrote (1896) and not when Thurston did; the page's sources: Thurston, The Catholic Encyclopedia, vol. 8 (New York, 1910)",
+     "action": "Thurston writes in 1910 that in England",
      "state": "fixed"
     }
    ]
@@ -11087,6 +11689,31 @@
      "claim": null,
      "evidence": "the page's text runs to 13 March, when Le Maistre sits, and to his pay of 24 April (reports/060-section-reviewer.yaml); the page's when stays 1431-01-03",
      "action": "January – April 1431",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "-",
+   "role": "overseer",
+   "step": "-",
+   "section": "070",
+   "status": "faults",
+   "changed": 0,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "070-overseer-1",
+     "severity": "weak",
+     "kind": "map",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "section-writer",
+     "file": "content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md",
+     "claim": "070.16",
+     "evidence": "reports/070-map-auditor.yaml: Maine is English on paris-opens and French except Fresnay on normandy-won-back, and no page says so; 070.16 has Fresnay still English",
+     "action": "one clause that tells the reader the map's change in Maine since the page before: Maine, English on the map of 1436, is the king's on this one, all but Fresnay (070.16); the clause gives no date and no cause, since no source read tells how Maine was lost",
      "state": "fixed"
     }
    ]
@@ -12693,6 +13320,77 @@
     "step": "texts",
     "task": "write",
     "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/texts-070-section-writer",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "section-writer",
+   "description": "texts 070 section-writer fix",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "070",
+    "pages": [
+     "paris-opens",
+     "normandy-won-back"
+    ],
+    "step": "texts",
+    "task": "fix",
+    "faults": ".plan/faults/070.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/texts-070-section-writer-fix",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "image-finder",
+   "description": "images 070 image-finder find",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "070",
+    "step": "images",
+    "task": "find",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/images-070-image-finder",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "fact-checker",
+   "description": "facts 070 fact-checker check",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "070",
+    "step": "facts",
+    "task": "check",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/facts-070-fact-checker",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "section-reviewer",
+   "description": "facts 070 section-reviewer review",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "070",
+    "step": "facts",
+    "task": "review",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/facts-070-section-reviewer",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "fact-checker",
+   "description": "facts 070 fact-checker recheck",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "070",
+    "step": "facts",
+    "task": "recheck",
+    "faults": ".plan/faults/070.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/facts-070-fact-checker-recheck",
     "serve": "static"
    },
    "problems": []
@@ -19330,6 +20028,402 @@
    "kind": "map",
    "severity": "taste",
    "owner": "brief",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-map-auditor-7",
+   "by": "section-writer",
+   "file": "content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md",
+   "field": "the last paragraph, its first sentence",
+   "commit": "1ee683e5",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "section-writer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-map-auditor-7",
+   "by": "section-writer",
+   "file": "content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md",
+   "field": "body, paragraph 2, cut to keep the body under 350 words",
+   "commit": "1ee683e5",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "section-writer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-map-auditor-7",
+   "by": "section-writer",
+   "file": "content/joan-of-arc/.plan/names.md",
+   "field": "Places, rows after Montereau",
+   "commit": "1ee683e5",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "section-writer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-overseer-1",
+   "by": "section-writer",
+   "file": "content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md",
+   "field": "body, paragraph 2, after 'round these towns, approximately.'; and paragraph 3, cut to keep the body under 350 words",
+   "commit": "1ee683e5",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "section-writer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-fact-checker-7",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md",
+   "field": "body, paragraph 3",
+   "commit": "9.72e+260",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-fact-checker-8",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md",
+   "field": "body, the paragraph that says what the map shows",
+   "commit": "9.72e+260",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-fact-checker-9",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/070-after-her/020-paris-opens/page.yaml",
+   "field": "sources",
+   "commit": "9.72e+260",
+   "kind": "sources",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-fact-checker-10",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md",
+   "field": "body, paragraph 3",
+   "commit": "9.72e+260",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-fact-checker-11",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/070-after-her/050-the-retrial/page.yaml",
+   "field": "sources",
+   "commit": "9.72e+260",
+   "kind": "sources",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-fact-checker-12",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md",
+   "field": "body, paragraph 3",
+   "commit": "9.72e+260",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-fact-checker-13",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md",
+   "field": "body, paragraph 3",
+   "commit": "9.72e+260",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-fact-checker-14",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md",
+   "field": "body, paragraph 1",
+   "commit": "9.72e+260",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-image-finder-1",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md",
+   "field": "body, the line after the paragraph of the battle of Formigny",
+   "commit": "a3082d2d",
+   "kind": "image",
+   "severity": "wrong",
+   "owner": "section-writer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-image-finder-2",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md",
+   "field": "body, the line after the paragraph of the battle of Castillon",
+   "commit": "a3082d2d",
+   "kind": "image",
+   "severity": "wrong",
+   "owner": "section-writer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-section-reviewer-1",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md",
+   "field": "body, paragraph 1",
+   "commit": "a3082d2d",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-section-reviewer-2",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md",
+   "field": "body, paragraph 2",
+   "commit": "a3082d2d",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-section-reviewer-3",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md",
+   "field": "body, paragraph 4",
+   "commit": "a3082d2d",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-section-reviewer-4",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md",
+   "field": "body, paragraph 3",
+   "commit": "a3082d2d",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-section-reviewer-5",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md",
+   "field": "body, paragraph 2",
+   "commit": "a3082d2d",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-section-reviewer-6",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md",
+   "field": "body, paragraph 2",
+   "commit": "a3082d2d",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-section-reviewer-7",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md",
+   "field": "body, paragraph 2",
+   "commit": "a3082d2d",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-section-reviewer-8",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md",
+   "field": "body, paragraph 3",
+   "commit": "a3082d2d",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-section-reviewer-9",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md",
+   "field": "body, paragraph 2",
+   "commit": "a3082d2d",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-section-reviewer-10",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md",
+   "field": "body, paragraph 5",
+   "commit": "a3082d2d",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-section-reviewer-11",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md",
+   "field": "body, paragraph 1",
+   "commit": "a3082d2d",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-section-reviewer-12",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md",
+   "field": "body, paragraph 2",
+   "commit": "a3082d2d",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-section-reviewer-13",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md",
+   "field": "body, paragraph 3",
+   "commit": "a3082d2d",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-section-reviewer-14",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md",
+   "field": "body, paragraph 4",
+   "commit": "a3082d2d",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-section-reviewer-14",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md",
+   "field": "Notes, the order of the last three",
+   "commit": "a3082d2d",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-section-reviewer-15",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/070-after-her/050-the-retrial/text/en.md",
+   "field": "body, paragraph 1",
+   "commit": "a3082d2d",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-section-reviewer-16",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/070-after-her/050-the-retrial/text/en.md",
+   "field": "body, paragraph 3",
+   "commit": "a3082d2d",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-section-reviewer-17",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/070-after-her/050-the-retrial/text/en.md",
+   "field": "body, the line after paragraph 2",
+   "commit": "a3082d2d",
+   "kind": "image",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-section-reviewer-18",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/.plan/070-after-her/text.yaml",
+   "field": "pages.the-retrial.images, the entry after nullification-trial-manuscript",
+   "commit": "a3082d2d",
+   "kind": "image",
+   "severity": "weak",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-section-reviewer-19",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md",
+   "field": "body, paragraph 1",
+   "commit": "a3082d2d",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-section-reviewer-20",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md",
+   "field": "body, paragraph 3",
+   "commit": "a3082d2d",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-section-reviewer-21",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md",
+   "field": "body, paragraph 3",
+   "commit": "a3082d2d",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
    "steppedIn": false
   },
   {

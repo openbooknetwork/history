@@ -312,3 +312,13 @@
 - cloud ruling: on its own page an image stands once: one the plan puts on a marker or a card has no `@image` line in
   the text (rule in `rules.md`) — 010 to 050 were written so, and in 060 and 070 eight images would show twice on
   their page. The editor reads 060 and 070 against the rule at `edit`.
+- section 070: done, 26 Nov 2026, maps to facts. 6 pages drawn, audited (its one fault for the writer fixed), written,
+  with 13 images found and one `none`, fact-checked, reviewed and rechecked (pass).
+- wave 070: done, 26 Nov 2026, at the sections' `build`. 6 pages; all 41 are built.
+- step maps: done, 26 Nov 2026. The shared map, 22 zones, and the page files, routes and markers of seven sections,
+  each audited.
+- step texts: done, 26 Nov 2026. 41 texts.
+- step phases: done, 26 Nov 2026. No battle has phase pages; the eleven cards were written at `plans` and checked with
+  their sections' facts.
+- step facts: done, 26 Nov 2026. Seven fact checks, seven reviews, seven rechecks, each ending `pass`.
+- ledger after `facts`: | **total** | 115 | 3,294 | 560,087 | 6,695 | 23,282,271 | 563,957,142 | 4,384,216 | 107,426,328 |

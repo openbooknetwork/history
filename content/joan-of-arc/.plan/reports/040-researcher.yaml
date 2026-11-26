@@ -1,0 +1,13 @@
+- step: research
+  task: claims
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/research/040.md
+  faults: []
+  unresolved:
+    - "Page auxerre-and-troyes tells 'with no siege train'. Only the Journal du siège carries it (040.50): at the council before Troyes the captains were told the army lacked artillery and money, and Lowell follows the Journal. Proposed: the text says the army was short of artillery, citing the Journal, and does not say it had no siege train."
+    - "Page patay tells the archers were ridden down 'before they are set behind their stakes'. The stakes come from Monstrelet alone (040.30). Wavrin, the eyewitness whose text Monstrelet copies, does not mention them, and Oman and France follow Monstrelet. The agreed claim is that the English were caught before they had formed (040.29: Wavrin, Gruel, Cagny). Proposed: the text tells the stakes as Monstrelet's."
+    - "Several dates differ between authors and are kept as disputed lines: when Richemont arrived (040.15), when Beaugency surrendered (040.19), Patay itself (040.38, where Oman gives 17 June and Gruel the end of May against every other source), when the army arrived before Troyes (040.56), and when the king left Reims for Corbeny (040.76). Proposed: the texts give the date most sources agree on and name the author who differs only where a page turns on the date."
+  stale: []
+  counts: { agreed: 45, agreed_in_part: 3, single: 19, disputed: 18, open: 1, total: 86 }
+  thin: []

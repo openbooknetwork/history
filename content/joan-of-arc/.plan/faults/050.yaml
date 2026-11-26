@@ -11,3 +11,29 @@
   introduced: pre-plan
   owner: section-coordinator
   state: fixed
+- id: 050-researcher-1
+  severity: wrong
+  file: content/joan-of-arc/.plan/050-paris-and-compiegne/pages.yaml
+  field: saint-pierre-and-la-charite.tells
+  replaces: clause
+  old: and the siege is given up about Christmas.
+  new: and the siege is given up after about a month, at the end of November or in December.
+  source: 'research/050.md, 050.40: Cagny (Moranvillé''s note, p. 172) "Fin de novembre ou commencement de décembre"; Lowell ch. 14 "It lasted about a month" from about 10 November; Beaucourt has her at Jargeau on Christmas Day; no source read gives Christmas'
+  kind: fact
+  claim: "050.40"
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+- id: 050-researcher-2
+  severity: weak
+  file: content/joan-of-arc/.plan/050-paris-and-compiegne/pages.yaml
+  field: compiegne.tells
+  replaces: clause
+  old: from Crépy on 23 May and leads
+  new: from Crépy on 23 May (the Duke of Burgundy's date; Monstrelet's is the eve of the Ascension, the 24th) and leads
+  source: 'research/050.md, 050.58: the Duke of Burgundy''s letter to Saint-Quentin dated 23 May (Quicherat 5); Monstrelet book 2 ch. 86 and Chastellain "par une vigille de l''Ascension"; Ramsay ch. 28 gives 24 May; rules.md, "The careful side"'
+  kind: attribution
+  claim: "050.58"
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed

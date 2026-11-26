@@ -1,0 +1,11 @@
+- step: research
+  task: claims
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/research/020.md
+    - content/joan-of-arc/.plan/passages-020-part.md
+  faults: []
+  unresolved:
+    - "the-voices tells 'In May 1428 she goes to Robert de Baudricourt' plainly; 020.4 is disputed: Poulengy (1456), Lang and Thurston hold to a first visit in 1428, but Lowell thinks it improbable and dates Poulengy's 'Ascension' to 1 January 1429. Proposed: the text tells the May visit as Poulengy's account and names Lowell's doubt in one clause. No ruling needed unless the user wants the visit left out."
+  stale: []
+  lines: {agreed: 43, single: 7, disputed: 9, open: 2}

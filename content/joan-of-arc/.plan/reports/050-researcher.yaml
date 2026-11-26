@@ -1,0 +1,15 @@
+- step: research
+  task: claims
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/research/050.md
+    - content/joan-of-arc/.plan/050-paris-and-compiegne/pages.yaml
+    - content/joan-of-arc/.plan/faults/050.yaml
+    - content/joan-of-arc/.plan/fixes/050.yaml
+  faults: [050-researcher-1, 050-researcher-2]
+  unresolved:
+    - "050.58: the capture on 23 May (the Duke of Burgundy's letter of that day, Cagny, the Bourgeois, Lowell, Lang, Beaucourt) or 24 May, the eve of the Ascension (Monstrelet, Chastellain, Ramsay, Tuetey). Proposed: tell 23 May, naming the Duke's letter, and give Monstrelet's date beside it."
+    - "050.40: no source read gives the day the siege of La Charité was raised. Proposed: say it lasted about a month and was given up at the end of November or in December, with no day."
+    - "050.10: the terms of the truce of 28 August 1429 differ between Lowell and Ramsay (the bank of the Seine, and when it begins). Proposed: tell the date plainly and leave out the terms, or give each author's."
+  stale:
+    - "content/joan-of-arc/.plan/050-paris-and-compiegne/pages.yaml: two tells changed (faults 050-researcher-1 and -2). The section plan has to follow them."

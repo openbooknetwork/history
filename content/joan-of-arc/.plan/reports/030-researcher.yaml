@@ -1,0 +1,14 @@
+- step: research
+  task: claims
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/research/030.md
+  faults: []
+  unresolved:
+    - "030.25: only Anatole France names the Porte de Bourgogne as the gate Joan entered by on 29 April (the Journal du siège he cites names none), and rules.md lets no claim rest on France alone. Proposed: the text says she entered on the city's east side by night, and names no gate, or names it as France's."
+    - "030.35: the pre-plan's 'past the bastille of Saint-Laurent' (the-army-of-blois) rests on Wikipedia alone; Lang and the chronicle of the feast of 8 May name the bastille of Paris, on the forest road. Proposed: tell Paris with its authors, or name no bastille."
+    - "030.62: 'struck by an arrow above the breast' (the-tourelles) is Pasquerel's wording alone; Joan herself, the Journal, the Chronique and Dunois put the wound between the neck and the shoulder. Proposed: between the neck and the shoulder."
+  stale:
+    - content/joan-of-arc/.plan/030-orleans/pages.yaml (from-blois, the-army-of-blois and the-tourelles tell three points the sources give otherwise: 030.25, 030.35, 030.62)
+  standing: { agreed: 43, disputed: 22, single: 13, open: 0 }
+  thin: ["030.35"]

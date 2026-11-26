@@ -74,3 +74,19 @@
     - "The edit hook still flags, from before this run: 'Marshal' alone in patay's note *** ('the Marshal de Boussac', which names.md's Boussac row asks for), and names.md rows for Richemont, La Trémoille and Wavrin say 010 or 020 as 'First named in' while 040 is the first text to name them. Both are for the names agent."
     - "The images of 040 were not checked: they are not placed in any text yet (the image-finder's work, untracked in shared/images), so no caption stands on a page."
     - "patay's body is now 345 words, under the hard limit of 350."
+- step: facts
+  task: recheck
+  status: pass
+  changed_files:
+    - content/joan-of-arc/pages/040-the-loire-and-reims/010-jargeau/text/en.md
+    - content/joan-of-arc/.plan/faults/040.yaml
+    - content/joan-of-arc/.plan/fixes/040.yaml
+  faults: [040-fact-checker-37]
+  unresolved: []
+  stale: []
+  rechecked: [040-fact-checker-20, 040-fact-checker-21, 040-fact-checker-22, 040-fact-checker-23, 040-fact-checker-24, 040-fact-checker-25, 040-fact-checker-26, 040-fact-checker-27, 040-fact-checker-28, 040-fact-checker-29, 040-fact-checker-30, 040-fact-checker-31, 040-fact-checker-32, 040-fact-checker-33, 040-fact-checker-34, 040-fact-checker-35, 040-fact-checker-36, 040-section-reviewer-1, 040-section-reviewer-2, 040-section-reviewer-3, 040-section-reviewer-4, 040-section-reviewer-5, 040-section-reviewer-6, 040-section-reviewer-7, 040-section-reviewer-8, 040-section-reviewer-9]
+  notes:
+    - "Every fix logged on 7854a89c stands in git diff 7854a89c as its entry gives it, and each new wording was read against its source line: Lang ch. 14 lines 7237-7242, Monstrelet lines 39247-39248 and 39407-39409, Lowell lines 6385-6397 and 6893, Oman line 19626, Beaucourt 2 line 12737, Rogier (Quicherat 4) line 11904, Lang line 7978, Laval's letter (Quicherat 5) lines 5777 and 5943, Lang lines 7097-7098, Cagny line 1095."
+    - "040-section-reviewer-2 took out Alexander's death in the retreat to the bridge as resting on no claim. The Journal has it (Quicherat 4, lines 7108-7110: \"en y eulx retirant, fut tué messire Alixandre\"), and another chronicle there has him drown at the bridge (line 2145). The new sentence is true and drops only that detail; its wording followed Ramsay's clauses, reworded under 040-fact-checker-37."
+    - "The edit hook flags names.md's row for Suffolk as first named in 010 (010.63) where 040 is the first text to name him, as it flagged Richemont, La Trémoille and Wavrin before: for the names agent."
+    - "plan-check.mjs 040: ok. close-wording.mjs 040: none after the rewording."

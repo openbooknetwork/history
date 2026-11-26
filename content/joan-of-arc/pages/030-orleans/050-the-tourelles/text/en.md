@@ -2,7 +2,7 @@ At the south end of the bridge of Orléans, on a pier, stand [the Tourelles](@to
 
 On Saturday 7 May, with the townsmen of Orléans behind Joan, the French attack the boulevard from the south bank.\* From the city the townsmen lay gutters and ladders across the broken arches, a carpenter lengthening the longest gutter, and attack the Tourelles from the bridge too. Ramsay has their guns firing from [the Île Saint-Antoine](@ile-saint-antoine), an island under the bridge. The fight lasts until sunset in the Journal of the Siege, a chronicle of the city, and until eight in the evening by the Bastard of Orléans (later Count of Dunois).
 
-Joan is hit while planting a scaling ladder at the boulevard: an arrow strikes her between the neck and the shoulder. So she told her judges in 1431, and so the Journal, the Chronique de la Pucelle and the Bastard tell it.\*\* She is carried back, the wound is dressed, and she returns. Towards evening, when the captains mean to draw off, she rides apart into a vineyard and prays for about half an hour, as the Bastard remembered. Then she sets her standard at the edge of the ditch, and the French go up the boulevard and take it.
+Joan is hit while planting a scaling ladder at the boulevard: an arrow strikes her in the neck, she told her judges in 1431. The Journal and the Bastard put it between the neck and the shoulder, the Chronique de la Pucelle through the shoulder.\*\* She is carried back, the wound is dressed, and she returns. Towards evening, when the captains mean to draw off, she rides apart into a vineyard and prays for about half an hour, as the Bastard remembered. Then she sets her standard at the edge of the ditch, and the French go up the boulevard and take it.
 
 @image tourelles-assault-miniature
 

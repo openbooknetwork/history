@@ -195,3 +195,94 @@
   old: "ruling: cloud ruling, the careful side: land that no source gives the kingdom stays out of its zone"
   new: "ruling: \"cloud ruling, the careful side: land that no source gives the kingdom stays out of its zone\""
   commit: 8fd863ba
+- fault: story-map-auditor-1
+  by: map-keeper
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "z.zone('english-1436', ...): the shape and the tests; written to content/joan-of-arc/shared/zones/english-1436.geojson and .plan/ground.yaml"
+  old: "z.union(ABROAD, z.diff(z.union(NORMANDY2, MAINE), MSM, CAUX_CUT, BRITTANY)); inside: rouen, caudebec, honfleur, caen, le_mans, fresnay, alencon, eu, calais, bayonne"
+  new: "z.union(ABROAD, z.diff(z.union(NORMANDY2, MAINE), MSM, CAUX_CUT, BRITTANY), HOLDS36), HOLDS36 the circles of 5 km round Meaux (070.60), Creil (070.61, 070.64), Beaumont-sur-Oise and Crépy (070.61), Montereau (070.65) and Mantes (070.66); inside adds aumale, blangy, meaux, creil, beaumont, crepy, montereau, mantes"
+  commit: 9635a13c
+- fault: story-map-auditor-1
+  by: map-keeper
+  file: content/joan-of-arc/.plan/brief.md
+  field: "Map, Zones, the row english-1436, Land and year and Basis"
+  old: "Normandy without Dieppe and the Pays de Caux (Caudebec kept), most of Maine, Calais and Gascony, after Paris opens on 13 April 1436. Champagne, the Île-de-France and Le Crotoy are outside it. To 1449 | reconstruction from 070.7 (single, Ramsay: Dieppe, Caux but Caudebec, Pontoise, Charenton, Brie-Comte-Robert, Saint-Germain-en-Laye, Corbeil, Vincennes), 070.10 and 070.11 (Paris), 070.4 and 070.5 (Arras)."
+  new: "Normandy without Dieppe and the Pays de Caux (Caudebec kept), with Aumale and Blangy, most of Maine, Calais and Gascony, after Paris opens on 13 April 1436, and the towns no source read has the English lose by then, each a circle: Meaux, Creil, Beaumont-sur-Oise, Crépy, Montereau and Mantes. Champagne, the rest of the Île-de-France, Chartres, Étampes, Sens, Clermont, Pont-Sainte-Maxence, Meulan and Le Crotoy are outside it. To 1449 | reconstruction from 070.7 (single, Ramsay: Dieppe, Caux but Caudebec, Pontoise, Charenton, Brie-Comte-Robert, Saint-Germain-en-Laye, Corbeil, Vincennes), 070.10 and 070.11 (Paris), 070.4 and 070.5 (Arras); the holds from 070.60 (Meaux), 070.61 and 070.64 (Creil, Beaumont, Crépy), 070.65 (Montereau), 070.66 (Mantes), 070.55 to 070.57 (Aumale, Blangy); gone by then 070.59 (Chartres), 070.62 (Clermont), 070.58 (Sens), 070.63 (Pont-Sainte-Maxence, Meulan). No source read gives who held Étampes from 1430, so it is left out."
+  commit: 9635a13c
+- fault: story-researcher-1
+  by: map-keeper
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "z.zone('english-1436', ...): the outside tests, and T (meulan, clermont added)"
+  old: "outside: dieppe, le_havre, harfleur, paris, pontoise, saint_denis, chartres, troyes, le_crotoy"
+  new: "outside: dieppe, le_havre, harfleur, paris, pontoise, saint_denis, vincennes, chartres, etampes, sens, clermont, pont_sainte_maxence, meulan, lagny, melun, troyes, le_crotoy; Clermont and Sens get no circle in HOLDS36, Étampes none either"
+  commit: 9635a13c
+- fault: story-map-auditor-2
+  by: map-keeper
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "C3 and SEP_CUT, and the tests of english-sep-1429; written to shared/zones/english-sep-1429.geojson and .plan/ground.yaml"
+  old: "C3 from [1.55, 50.05], [1.55, 49.97], [1.52, 49.88], [1.68, 49.72] to [1.92, 49.52] ..., why 'Aumale, Blangy, Beauvais, ... gone'; SEP_CUT = z.region(C3, ...); english-sep-1429 outside: ..., aumale, blangy, ..."
+  new: "C3 from [1.80, 49.70], the end of the Bresle line, to [1.92, 49.52] ..., why 'Beauvais, ... gone; Paris, Saint-Denis and Normandy left, the Norman bank of the Bresle with Aumale and Blangy too (070.55, 070.56)'; SEP_CUT = z.diff(z.region(C3, ...), NORMANDY2); english-sep-1429 inside: ..., aumale, blangy, ..."
+  commit: 9635a13c
+- fault: story-map-auditor-2
+  by: map-keeper
+  file: content/joan-of-arc/.plan/brief.md
+  field: "Map, Zones, the row english-sep-1429"
+  old: "| `english-sep-1429` | english | english-aug-1429 with the towns between the Oise and Paris gone: Compiègne, Senlis, Beauvais, Creil, Pont-Sainte-Maxence, Choisy, Gournay-sur-Aronde, Aumale, Blangy and Lagny, and Bray from September. Paris and Normandy stay inside it. Late August 1429 – 1435 | reconstruction from 050.9 (the towns; Paris and Normandy stay with Henry VI), 050.8, 050.25, 050.29 (Bray), 060.22 (Compiègne holds in 1430), 060.30 (Beauvais French in 1430–1431) | none | 050, 060, 070 (burgundy-changes-sides) |"
+  new: "| `english-sep-1429` | english | english-compiegne-1429 with Bray gone, which yields to the king on his way south in mid-September (the frame of paris shows no Bray). September 1429 – 1435 | reconstruction as english-compiegne-1429, with 050.29 (Bray), 060.22 (Compiègne holds in 1430), 060.30 (Beauvais French in 1430–1431) | none | 050 (from paris), 060, 070 (burgundy-changes-sides) |, and the row english-compiegne-1429 before it, which keeps Aumale and Blangy as markers (050.9, 070.55, 070.56)"
+  commit: 9635a13c
+- fault: story-map-auditor-3
+  by: map-keeper
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "z.zone('english-compiegne-1429', ...), a new zone; written to shared/zones/english-compiegne-1429.geojson"
+  old: "(none: montepilloy took english-sep-1429, with BRAY_CUT)"
+  new: "z.zone('english-compiegne-1429', ..., z.diff(z.union(ABROAD, NORTH28), REIMS_CUT, AUG_CUT, SEP_CUT, LAGNY_CUT)), english-sep-1429 with Bray inside; inside: paris, saint_denis, meaux, bray, montereau, melun, sens, rouen, aumale, blangy"
+  commit: 9635a13c
+- fault: story-map-auditor-3
+  by: map-keeper
+  file: content/joan-of-arc/shared/zones.yaml
+  field: "france-compiegne-1429, a new entry"
+  old: "(none)"
+  new: "france-compiegne-1429: {zone: france-1407, name: \"The kingdom of Charles VII\"}  # with english-compiegne-1429: montepilloy"
+  commit: 9635a13c
+- fault: story-map-auditor-3
+  by: map-keeper
+  file: content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml
+  field: montepilloy.zones
+  old: "[france-sep-1429, english-sep-1429, burgundy-1420, brittany-1407]"
+  new: "[france-compiegne-1429, english-compiegne-1429, burgundy-1420, brittany-1407]"
+  commit: 9635a13c
+- fault: story-map-auditor-3
+  by: map-keeper
+  file: content/joan-of-arc/.plan/brief.md
+  field: "Map, Zones, the row france-1422 (its list and its Sections), and the new row english-compiegne-1429"
+  old: "`france-aug-1429`, `france-sep-1429`, ...; france-aug-1429: 040 (the-towns-come-over); france-sep-1429: ..."
+  new: "`france-aug-1429`, `france-compiegne-1429`, `france-sep-1429`, ...; france-aug-1429: 040 (the-towns-come-over); france-compiegne-1429: 050 (montepilloy); france-sep-1429: ...; row english-compiegne-1429: english-aug-1429 with the towns between the Oise and Paris gone, Bray, Paris and Normandy inside, mid-August – early September 1429, 050 (montepilloy)"
+  commit: 9635a13c
+- fault: story-overseer-4
+  by: map-keeper
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "CHAMPAGNE_K, a new shape, in FRANCE and NORTH20; written to shared/zones/france-1407.geojson and the english zones of 1420 to 1429"
+  old: "FRANCE = z.union(z.region(...), DAUPHINE, CHAMPAGNE); NORTH20 = z.diff(z.union(NORMANDY2, IDF, CHAMPAGNE, BETWEEN), MSM, BRITTANY)"
+  new: "CHAMPAGNE_K = z.diff(CHAMPAGNE, z.mask(north of KBc and east of the Meuse M1 to Stenay)); FRANCE and NORTH20 take CHAMPAGNE_K; Bar, Lorraine and Burgundy are still cut by the whole province; france-1407 and english-1420 outside add carignan and givet, france-1407 inside adds rethel"
+  commit: 9635a13c
+- fault: story-overseer-4
+  by: map-keeper
+  file: content/joan-of-arc/.plan/brief.md
+  field: "Map, Zones, the row france-1407, Basis and digest ids"
+  old: "Champagne is drawn whole in it, the Rethélois too |"
+  new: "Champagne is drawn in it to the Meuse, the Rethélois too; the Givet salient and the land of Sedan and Carignan east of the river stand in no zone, as no claim gives them to the kingdom (story-overseer-4), and Roussillon and the Cerdagne neither (story-overseer-5) |"
+  commit: 9635a13c
+- fault: story-overseer-5
+  by: map-keeper
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "CORB and ROUSSILLON, new lines and a shape, in FRANCE; written to shared/zones/france-1407.geojson"
+  old: "FRANCE = z.union(z.region(...), DAUPHINE, CHAMPAGNE)"
+  new: "FRANCE = z.diff(z.union(z.region(...), DAUPHINE, CHAMPAGNE_K), ROUSSILLON), ROUSSILLON closed by CORB, an estimate along the Corbières and round the Cerdagne after the Pyrénées-Orientales of today; france-1407 outside adds perpignan, inside narbonne and carcassonne"
+  commit: 9635a13c
+- fault: story-overseer-5
+  by: map-keeper
+  file: content/joan-of-arc/.plan/brief.md
+  field: "Map, Zones, the row france-1407, Land and year"
+  old: "Provence, Savoy, Avignon, Lorraine and Bar east of the Meuse lie outside it."
+  new: "Provence, Savoy, Avignon, Lorraine and Bar east of the Meuse lie outside it, and so do Roussillon and the Cerdagne, the crown of Aragon's, south of the Corbières."
+  commit: 9635a13c

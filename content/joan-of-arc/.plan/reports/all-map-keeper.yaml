@@ -25,3 +25,30 @@
     - "Dauphiné is drawn as the départements of Isère, Drôme and Hautes-Alpes under 010.57 ('together with Dauphiny'), though Natural Earth gives them no name of the province: proposed to keep them as the sourced area, since they were made of it."
   stale: []
   totals: {zones: 17, sourced_lines: 15, sourced_km: 7949, estimated_lines: 71, estimated_km: 10881}
+- step: maps
+  task: fix
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plans/zones.mjs
+    - content/joan-of-arc/shared/zones/france-1407.geojson
+    - content/joan-of-arc/shared/zones/english-1420.geojson
+    - content/joan-of-arc/shared/zones/english-1428.geojson
+    - content/joan-of-arc/shared/zones/english-siege-1428.geojson
+    - content/joan-of-arc/shared/zones/english-compiegne-1429.geojson
+    - content/joan-of-arc/shared/zones/english-sep-1429.geojson
+    - content/joan-of-arc/shared/zones/english-1436.geojson
+    - content/joan-of-arc/shared/zones.yaml
+    - content/joan-of-arc/.plan/ground.yaml
+    - content/joan-of-arc/.plan/brief.md
+    - content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml
+    - content/joan-of-arc/.plan/faults/story.yaml
+    - content/joan-of-arc/.plan/fixes/story.yaml
+    - content/joan-of-arc/.plan/handoff/map-keeper.md
+  faults: []
+  unresolved: []
+  stale:
+    - content/joan-of-arc/.plan/brief-010.md   # the slices of brief.md, remade by scripts/slice.mjs
+    - content/joan-of-arc/.plan/brief-050.md
+    - content/joan-of-arc/.plan/brief-070.md
+  fixed: [story-map-auditor-1, story-map-auditor-2, story-map-auditor-3, story-overseer-4, story-overseer-5, story-researcher-1]
+  totals: {zones: 18, sourced_lines: 15, sourced_km: 7949, estimated_lines: 79, estimated_km: 11449}

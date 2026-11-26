@@ -191,7 +191,7 @@
   claim: "070.7"
   introduced: map-design
   owner: map-keeper
-  state: open
+  state: fixed
 - id: story-map-auditor-2
   severity: wrong
   file: content/joan-of-arc/.plans/zones.mjs
@@ -202,7 +202,7 @@
   claim: "050.9"
   introduced: maps
   owner: map-keeper
-  state: open
+  state: fixed
 - id: story-map-auditor-3
   severity: wrong
   file: content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml
@@ -213,7 +213,7 @@
   claim: "050.29"
   introduced: map-design
   owner: map-keeper
-  state: open
+  state: fixed
 - id: story-map-auditor-4
   severity: taste
   file: content/joan-of-arc/.plan/brief.md
@@ -273,7 +273,7 @@
   kind: map
   introduced: maps
   owner: map-keeper
-  state: open
+  state: fixed
   ruling: "cloud ruling, the careful side: land that no source gives the kingdom stays out of its zone"
 - id: story-overseer-5
   severity: wrong
@@ -284,7 +284,7 @@
   kind: map
   introduced: maps
   owner: map-keeper
-  state: open
+  state: fixed
   ruling: cloud ruling, the careful side
 - id: story-researcher-1
   severity: wrong
@@ -296,7 +296,7 @@
   claim: "070.62"
   introduced: map-design
   owner: map-keeper
-  state: open
+  state: fixed
 - id: story-researcher-2
   severity: wrong
   file: content/joan-of-arc/.plan/faults/story.yaml

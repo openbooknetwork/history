@@ -54,8 +54,15 @@ const DLINE = z.est('a line inside Dauphiné from Lyon to the Rhône by Pierrela
 const RHONE = z.src('010.57', z.feature('rhone'), end(DLINE), [4.63, 43.72]);   // "between the Garonne and the Rhone"
 const SEA = z.est('the open sea round the kingdom and the Pyrenees: the coast and the clip to France cut it', [end(RHONE), [4.55, 43.30], [3.60, 42.90], [3.30, 42.35], [1.50, 42.00], [-1.00, 42.30], [-1.90, 43.20], [-2.30, 43.50], [-1.90, 45.60], [-3.00, 47.00], [-5.80, 48.00], [-5.80, 48.70], [-2.30, 49.85], [-1.00, 49.80], [0.80, 50.20], [1.30, 50.80], [1.75, 51.05], [2.50, 51.20]]);
 const NCLOSE = z.est('a line inside Flanders, which burgundy holds on every page: it only closes the kingdom', [end(SEA), [3.50, 50.80], start(KBa)]);
-// Champagne whole: the province the English hold to 1429 is the kingdom's after it, the Rethélois and the Ardennes too
-const FRANCE = z.union(z.region(KBa, KBb, KBc, M1, M2, M3, MS, SAONE, DLINE, RHONE, SEA, NCLOSE), DAUPHINE, CHAMPAGNE);
+// Champagne to the Meuse: the province the English hold to 1429 is the kingdom's after it, the Rethélois too. The
+// Champagne-Ardenne of today runs past the river, and no claim gives the kingdom the Givet salient or the land of Sedan
+// and Carignan east of the Meuse, so a mask cuts them off along the kingdom's edge (cloud ruling, story-overseer-4).
+// Bar, Lorraine and Burgundy are still cut by the whole province, so that land stands in no zone.
+const CHAMPAGNE_K = z.diff(CHAMPAGNE, z.mask([...KBc.points, ...M1.points.slice(1, 4), [5.60, 49.49], [5.60, 50.40], [4.10, 50.40]]));
+// Roussillon and the Cerdagne, the crown of Aragon's, which the clip to France of today would put in the kingdom
+const CORB = z.est('the kingdom\'s edge with Roussillon and the Cerdagne, which were the crown of Aragon\'s: along the Corbières and round the Cerdagne, after the Pyrénées-Orientales of today, by the cloud ruling (story-overseer-5); no claim gives the line', [[3.15, 42.93], [2.86, 42.91], [2.38, 42.85], [2.33, 42.71], [2.10, 42.66], [1.96, 42.60], [1.72, 42.54]]);
+const ROUSSILLON = z.region(CORB, z.est('south of the Pyrenees and the open sea: the clip to France cuts it, and it only closes Roussillon', [end(CORB), [1.60, 42.20], [3.60, 42.20], start(CORB)]));
+const FRANCE = z.diff(z.union(z.region(KBa, KBb, KBc, M1, M2, M3, MS, SAONE, DLINE, RHONE, SEA, NCLOSE), DAUPHINE, CHAMPAGNE_K), ROUSSILLON);
 
 // ---------------------------------------------------------------------------------------------------------------
 // The English north: the line with Picardy, and the south edge of 1420
@@ -104,7 +111,7 @@ const ENGLAND = z.inter(z.region(z.est('the kingdom of England itself, south of 
 const ABROAD = z.union(CALAIS, GASCONY, ENGLAND);
 
 // The north of 1420 and of 1428
-const NORTH20 = z.diff(z.union(NORMANDY2, IDF, CHAMPAGNE, BETWEEN), MSM, BRITTANY);
+const NORTH20 = z.diff(z.union(NORMANDY2, IDF, CHAMPAGNE_K, BETWEEN), MSM, BRITTANY);
 const NORTH28 = z.diff(z.union(NORTH20, MAINE), MSM, BRITTANY);
 
 // The cuts of 1429
@@ -112,8 +119,10 @@ const C1 = z.est('the English edge after the coronation road: Saint-Florentin, T
 const REIMS_CUT = z.region(C1, z.est('a line east of the kingdom: it only closes the land the English lose', [end(C1), [4.05, 50.30], [6.50, 50.30], [6.50, 47.50], [3.47, 47.50], start(C1)]));
 const C2 = z.est('the English edge after the towns came over: Laon, Soissons, Château-Thierry, Crécy, Coulommiers and Provins gone with the land between the Marne and the Aisne (040.81); Meaux, Lagny, Bray, Senlis and Compiègne left until August (050.9); no source gives a line', [[3.47, 47.90], [3.45, 48.10], [3.40, 48.38], [3.15, 48.60], [2.95, 48.75], [2.83, 48.88], [2.97, 48.97], [2.80, 49.10], [2.75, 49.25], [2.95, 49.38], [3.05, 49.65]]);
 const AUG_CUT = z.region(C2, z.est('a line east of the kingdom: it only closes the land the English lose', [end(C2), [3.05, 50.30], [6.50, 50.30], [6.50, 47.50], [3.47, 47.50], start(C2)]));
-const C3 = z.est('the English edge of September 1429: Aumale, Blangy, Beauvais, Gournay-sur-Aronde, Creil, Pont-Sainte-Maxence, Senlis, Compiègne and Choisy gone (050.9, 050.8, 050.25); Paris, Saint-Denis and Normandy left; no source gives a line', [[1.55, 50.05], [1.55, 49.97], [1.52, 49.88], [1.68, 49.72], [1.92, 49.52], [1.97, 49.38], [2.20, 49.25], [2.45, 49.15], [2.65, 49.12], [2.80, 49.10]]);
-const SEP_CUT = z.region(C3, z.est('a line inside the land already gone: it only closes the towns between the Oise and Paris', [end(C3), [3.30, 49.20], [3.30, 50.05], start(C3)]));
+// Normandy stays whole: Aumale and Blangy on the Norman bank of the Bresle change hands in August 1429 (050.9) and
+// are won back in 1430 (070.55, 070.56), so their markers carry the change and the cut keeps to Normandy's edge
+const C3 = z.est('the English edge from the second half of August 1429: Beauvais, Gournay-sur-Aronde, Creil, Pont-Sainte-Maxence, Senlis, Compiègne and Choisy gone (050.9, 050.8, 050.25); Paris, Saint-Denis and Normandy left, the Norman bank of the Bresle with Aumale and Blangy too (070.55, 070.56); no source gives a line', [[1.80, 49.70], [1.92, 49.52], [1.97, 49.38], [2.20, 49.25], [2.45, 49.15], [2.65, 49.12], [2.80, 49.10]]);
+const SEP_CUT = z.diff(z.region(C3, z.est('a line inside the land already gone: it only closes the towns between the Oise and Paris', [end(C3), [3.30, 49.20], [3.30, 50.05], start(C3)])), NORMANDY2);
 const LAGNY_CUT = z.region(z.est('Lagny on the Marne, the king\'s from August 1429 (050.9, 050.25), joined to the Brie that came over: Meaux left English to the north; no source gives a line', [[2.86, 48.83], [2.75, 48.82], [2.66, 48.84], [2.66, 48.90], [2.76, 48.91], [2.86, 48.90]]),
   z.est('a line inside the land already gone: it only closes Lagny', [[2.86, 48.90], [2.86, 48.83]]));
 const BRAY_CUT = z.region(z.est('Bray on the Seine, which yields to the king in September 1429 (050.29), joined to Provins: Montereau and Sens left English; no source gives a line', [[3.40, 48.38], [3.17, 48.37], [3.17, 48.47], [3.30, 48.52]]),
@@ -122,6 +131,17 @@ const BRAY_CUT = z.region(z.est('Bray on the Seine, which yields to the king in 
 // Caux, gone after Arras
 const CAUX_CUT = z.region(z.est('the Pays de Caux and Dieppe, lost after Arras with only Caudebec kept (070.7); Rouen and Honfleur left; no source gives a line', [[1.30, 50.10], [1.30, 49.95], [1.20, 49.70], [0.95, 49.58], [0.78, 49.56], [0.68, 49.52], [0.55, 49.46], [0.20, 49.465], [-0.30, 49.50]]),
   z.est('the open sea off the Caux: the coast cuts it', [[-0.30, 49.50], [-0.30, 50.10], [1.30, 50.10]]));
+
+// The holds of 13 April 1436 outside Normandy: every town no source read has the English lose by then (cloud ruling
+// on story-map-auditor-1). Chartres (070.59), Clermont (070.62), Sens (070.58), Pont-Sainte-Maxence and Meulan (070.63)
+// are gone, and Étampes, of which no source read gives the holder, is left out (story-researcher-1)
+const HOLDS36 = z.union(
+  z.town('Meaux, English from 1422 to August 1439 (070.60): a hold in the king\'s land in April 1436', [2.88, 48.96], 5),
+  z.town('Creil, retaken by Talbot on 20 June 1434 and English to May 1441 (070.61, 070.64)', [2.47, 49.26], 5),
+  z.town('Beaumont-sur-Oise, retaken by Talbot in May 1434 (070.61); no source read has it lost by April 1436', [2.29, 49.14], 5),
+  z.town('Crépy-en-Valois, stormed by Talbot in 1434 (070.61); no source read has it lost by April 1436', [2.89, 49.23], 5),
+  z.town('Montereau, English until October 1437 (070.65)', [2.95, 48.38], 5),
+  z.town('Mantes, English until 26 August 1449 (070.66)', [1.72, 48.99], 5));
 
 // Lower Normandy at the close of 1449, drawn round the towns of 070.16
 const COTENTIN = z.diff(z.region(z.est('round Cherbourg and Saint-Sauveur, English at the close of 1449 (070.16); Carentan outside; no source gives a line', [[-1.15, 49.75], [-1.22, 49.48], [-1.38, 49.34], [-1.80, 49.32]]),
@@ -185,18 +205,20 @@ const T = {
   domfront: [-0.65, 48.59], carentan: [-1.25, 49.30], saint_lo: [-1.09, 49.12], lisieux: [0.23, 49.15], argentan: [-0.02, 48.74], formigny: [-0.90, 49.33],
   saint_urbain: [5.19, 48.40], rouvray: [1.95, 48.27],
   le_crotoy: [1.62, 50.22], abbeville: [1.83, 50.10], la_charite: [3.02, 47.18], nevers: [3.16, 46.99], courtenay: [3.06, 48.04], tonnerre: [3.97, 47.86],
+  beaumont: [2.29, 49.14], mantes: [1.72, 48.99], meulan: [1.91, 49.01], clermont: [2.41, 49.38], carignan: [5.17, 49.63], givet: [4.82, 50.14],
+  rethel: [4.37, 49.51], perpignan: [2.895, 42.699], narbonne: [3.00, 43.18], carcassonne: [2.35, 43.21],
 };
 const pick = (...ks) => Object.fromEntries(ks.map(k => [k, T[k]]));
 
 z.zone('france-1407', { family: 'france', name: 'The kingdom of Charles VI' }, FRANCE, {
-  inside: pick('paris', 'orleans', 'bourges', 'toulouse', 'lyon', 'grenoble', 'vaucouleurs', 'greux', 'rennes', 'rouen', 'troyes', 'bordeaux'),
-  outside: pick('provence_aix', 'avignon', 'chambery', 'nancy', 'metz', 'cambrai', 'london', 'besancon') });
+  inside: pick('paris', 'orleans', 'bourges', 'toulouse', 'lyon', 'grenoble', 'vaucouleurs', 'greux', 'rennes', 'rouen', 'troyes', 'bordeaux', 'rethel', 'narbonne', 'carcassonne'),
+  outside: pick('provence_aix', 'avignon', 'chambery', 'nancy', 'metz', 'cambrai', 'london', 'besancon', 'carignan', 'givet', 'perpignan') });
 
 z.zone('english-1407', { family: 'english', name: 'The English king\'s lands' }, ABROAD, {
   inside: pick('calais', 'bordeaux', 'bayonne', 'dax', 'castillon', 'london'), outside: pick('rouen', 'paris', 'harfleur', 'arras') });
 z.zone('english-1420', { family: 'english', name: 'The English kings\' lands' }, z.union(ABROAD, NORTH20), {
   inside: pick('calais', 'bordeaux', 'rouen', 'caen', 'paris', 'troyes', 'reims', 'chartres', 'etampes', 'sens', 'saint_florentin', 'beauvais', 'compiegne', 'soissons', 'laon', 'alencon'),
-  outside: pick('mont_saint_michel', 'le_mans', 'angers', 'orleans', 'janville', 'auxerre', 'amiens', 'montdidier', 'noyon', 'rennes', 'fougeres', 'vaucouleurs', 'greux', 'bar_le_duc', 'chateaudun') });
+  outside: pick('mont_saint_michel', 'le_mans', 'angers', 'orleans', 'janville', 'auxerre', 'amiens', 'montdidier', 'noyon', 'rennes', 'fougeres', 'vaucouleurs', 'greux', 'bar_le_duc', 'chateaudun', 'carignan', 'givet') });
 z.zone('english-1428', { family: 'english', name: 'The English kings\' lands' }, z.union(ABROAD, NORTH28), {
   inside: pick('rouen', 'paris', 'troyes', 'reims', 'le_mans', 'laval', 'fresnay', 'alencon', 'chartres', 'saint_florentin', 'saint_urbain', 'calais', 'bordeaux'),
   outside: pick('mont_saint_michel', 'vaucouleurs', 'greux', 'neufchateau', 'angers', 'janville', 'orleans', 'rennes', 'fougeres', 'le_crotoy', 'tours') });
@@ -209,12 +231,17 @@ z.zone('english-reims-1429', { family: 'english', name: 'The English kings\' lan
 z.zone('english-aug-1429', { family: 'english', name: 'The English kings\' lands' }, z.diff(z.union(ABROAD, NORTH28), REIMS_CUT, AUG_CUT), {
   inside: pick('paris', 'meaux', 'lagny', 'bray', 'montereau', 'sens', 'senlis', 'compiegne', 'choisy', 'beauvais', 'creil', 'aumale', 'blangy'),
   outside: pick('laon', 'soissons', 'chateau_thierry', 'crecy', 'coulommiers', 'provins', 'crepy', 'reims') });
+// Mid-August 1429, Montépilloy and the towns between the Oise and Paris: Bray on the Seine holds against the king
+// until September (050.2, 050.29), so this stage has no BRAY_CUT (story-map-auditor-3)
+z.zone('english-compiegne-1429', { family: 'english', name: 'The English kings\' lands' }, z.diff(z.union(ABROAD, NORTH28), REIMS_CUT, AUG_CUT, SEP_CUT, LAGNY_CUT), {
+  inside: pick('paris', 'saint_denis', 'meaux', 'bray', 'montereau', 'melun', 'sens', 'rouen', 'aumale', 'blangy'),
+  outside: pick('compiegne', 'senlis', 'beauvais', 'creil', 'pont_sainte_maxence', 'choisy', 'gournay', 'lagny', 'crepy', 'provins', 'le_crotoy') });
 z.zone('english-sep-1429', { family: 'english', name: 'The English kings\' lands' }, z.diff(z.union(ABROAD, NORTH28), REIMS_CUT, AUG_CUT, SEP_CUT, LAGNY_CUT, BRAY_CUT), {
-  inside: pick('paris', 'saint_denis', 'vincennes', 'meaux', 'montereau', 'melun', 'sens', 'pontoise', 'rouen', 'chartres', 'eu', 'calais'),
-  outside: pick('compiegne', 'senlis', 'beauvais', 'creil', 'pont_sainte_maxence', 'choisy', 'gournay', 'aumale', 'blangy', 'lagny', 'bray', 'crepy', 'le_crotoy') });
-z.zone('english-1436', { family: 'english', name: 'The English kings\' lands' }, z.union(ABROAD, z.diff(z.union(NORMANDY2, MAINE), MSM, CAUX_CUT, BRITTANY)), {
-  inside: pick('rouen', 'caudebec', 'honfleur', 'caen', 'le_mans', 'fresnay', 'alencon', 'eu', 'calais', 'bayonne'),
-  outside: pick('dieppe', 'le_havre', 'harfleur', 'paris', 'pontoise', 'saint_denis', 'chartres', 'troyes', 'le_crotoy') });
+  inside: pick('paris', 'saint_denis', 'vincennes', 'meaux', 'montereau', 'melun', 'sens', 'pontoise', 'rouen', 'chartres', 'eu', 'aumale', 'blangy', 'calais'),
+  outside: pick('compiegne', 'senlis', 'beauvais', 'creil', 'pont_sainte_maxence', 'choisy', 'gournay', 'lagny', 'bray', 'crepy', 'le_crotoy') });
+z.zone('english-1436', { family: 'english', name: 'The English kings\' lands' }, z.union(ABROAD, z.diff(z.union(NORMANDY2, MAINE), MSM, CAUX_CUT, BRITTANY), HOLDS36), {
+  inside: pick('rouen', 'caudebec', 'honfleur', 'caen', 'le_mans', 'fresnay', 'alencon', 'eu', 'aumale', 'blangy', 'calais', 'bayonne', 'meaux', 'creil', 'beaumont', 'crepy', 'montereau', 'mantes'),
+  outside: pick('dieppe', 'le_havre', 'harfleur', 'paris', 'pontoise', 'saint_denis', 'vincennes', 'chartres', 'etampes', 'sens', 'clermont', 'pont_sainte_maxence', 'meulan', 'lagny', 'melun', 'troyes', 'le_crotoy') });
 z.zone('english-1449', { family: 'english', name: 'The English kings\' lands' }, z.union(ABROAD, COTENTIN, BESSIN, FRESNAY), {
   inside: pick('cherbourg', 'saint_sauveur', 'bayeux', 'caen', 'falaise', 'vire', 'domfront', 'honfleur', 'fresnay', 'calais', 'bordeaux', 'bayonne'),
   outside: pick('valognes', 'carentan', 'saint_lo', 'lisieux', 'argentan', 'rouen', 'alencon', 'le_mans', 'fougeres') });

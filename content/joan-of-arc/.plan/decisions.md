@@ -169,3 +169,8 @@
   added `english-1430` (Melun and Sens out) and `burgundy-1430` (Soissons in), with `france-1430`
   (story-map-auditor-10). No fault of the shared map is open. No capture of a zone exists yet: the sections' map
   audits are the first to see them on a page.
+- maps 010 and 020 drawn (cartographers): 6 and 5 pages, each from a generator in `.plans/`; the audit pack passes for
+  both. 010 wrote its markers as a block of `shared/markers.yaml`, 020 in each page folder, and 020's handoff may
+  have replaced 010's.
+- cloud ruling: from 030 on a section's markers live in its page folders, and 010 stays as it is (rule in `rules.md`)
+  — every script reads each `markers.yaml` of the story, and two cartographers of one wave then never write one file.

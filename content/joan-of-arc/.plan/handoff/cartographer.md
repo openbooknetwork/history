@@ -1,0 +1,20 @@
+# Cartographer's handoff: joan-of-arc
+
+- Section 020 keeps its page files in a generator, `content/joan-of-arc/.plans/pages020.mjs`, the model for the
+  other sections: it writes `group.yaml`, each `page.yaml`, a `markers.yaml` in each page folder (no
+  `shared/markers.yaml`, so sections drawn side by side never write one file) and each page's `routes/`. Section
+  010's generator, `pages010.cjs`, writes its markers as a block of `shared/markers.yaml` instead; both work, and
+  marker ids are global to the story either way, so check a new id against both. Run
+  `node content/joan-of-arc/.plans/pages020.mjs && node scripts/audit-pack.mjs joan-of-arc 020 --no-shots`.
+- The story has no tally: write none.
+- Coordinates: take the points of `content/joan-of-arc/.plans/zones.mjs` (its `pick` table, about line 195) where it
+  has the place, so a marker and a zone test agree. Orléans 020 stands at [1.90, 47.90], the Tourelles at
+  [1.907, 47.896], Rouvray under the Herrings card at [1.946, 48.267].
+- names-check reads each marker's label and note as one sentence. A lowercase "the" before a common noun ("the
+  abbey", "the altar", "the middle of April") is taken for a bare title and fails; "the Marne", "the English",
+  "the faith" pass. Write round it.
+- An english route on an english zone, such as Vergy's march across Champagne, shows faint or not at all: the line
+  takes the zone's colour. Nothing in the plan changes that; say so to the map auditor rather than recolour.
+- Every zone list is the plan's, and the map keeper's handoff says why each france id goes with one english id.
+- The audit pack takes captures from its own build when run without `--no-shots`; serve its `site/` folder with
+  `python3 -m http.server` and `SHOT_WAIT=12000` for a page whose routes were still drawing.

@@ -43,6 +43,14 @@ keeps the reason. Read this file before you change a page, a zone, a card or a t
 - **An image stands once in the story.** No two pages plan or place the same image, by name or by subject. Where
   two sections want one, the page on which the place matters most keeps it.
 
+## Maps
+
+- **A section's markers live in its page folders**, a `markers.yaml` beside each `page.yaml`, written by the
+  section's generator in `.plans/`, as 020 has them. Section 010 keeps its block of `shared/markers.yaml`. A marker
+  id is the story's: a new id is checked against every `markers.yaml`.
+- **A generator rewrites only its own section's files.** `handoff/cartographer.md` is added to and never written
+  whole.
+
 ## Working
 
 - There is no shared dev server. Each agent that takes captures builds the story once into an `--out` folder of

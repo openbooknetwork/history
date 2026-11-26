@@ -1,0 +1,29 @@
+- step: maps
+  task: draw
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plans/pages010.cjs
+    - content/joan-of-arc/.plans/router.cjs
+    - content/joan-of-arc/pages/010-france-divided/group.yaml
+    - content/joan-of-arc/pages/010-france-divided/010-murder-in-paris/page.yaml
+    - content/joan-of-arc/pages/010-france-divided/020-domremy/page.yaml
+    - content/joan-of-arc/pages/010-france-divided/030-harfleur-and-agincourt/page.yaml
+    - content/joan-of-arc/pages/010-france-divided/030-harfleur-and-agincourt/routes/henry-v-1415-calais.geojson
+    - content/joan-of-arc/pages/010-france-divided/040-normandy-and-troyes/page.yaml
+    - content/joan-of-arc/pages/010-france-divided/040-normandy-and-troyes/routes/henry-v-1417-caen.geojson
+    - content/joan-of-arc/pages/010-france-divided/050-two-kings/page.yaml
+    - content/joan-of-arc/pages/010-france-divided/050-two-kings/routes/dauphin-1421-bauge.geojson
+    - content/joan-of-arc/pages/010-france-divided/050-two-kings/routes/clarence-1421-bauge.geojson
+    - content/joan-of-arc/pages/010-france-divided/060-cravant-and-verneuil/page.yaml
+    - content/joan-of-arc/pages/010-france-divided/060-cravant-and-verneuil/routes/salisbury-1423-cravant.geojson
+    - content/joan-of-arc/pages/010-france-divided/060-cravant-and-verneuil/routes/france-1424-verneuil.geojson
+    - content/joan-of-arc/pages/010-france-divided/060-cravant-and-verneuil/routes/bedford-1424-verneuil.geojson
+    - content/joan-of-arc/shared/markers.yaml
+    - content/joan-of-arc/shared/battles/agincourt-1415/battle.yaml
+    - content/joan-of-arc/.plan/010-france-divided/map.yaml
+    - content/joan-of-arc/.plan/faults/010.yaml
+    - content/joan-of-arc/.plan/fixes/010.yaml
+    - content/joan-of-arc/.plan/handoff/cartographer.md
+  faults: [010-cartographer-1, 010-cartographer-2]
+  unresolved: []
+  stale: []

@@ -501,3 +501,26 @@
   introduced: names
   owner: names
   state: fixed
+- id: 010-cartographer-1
+  severity: taste
+  file: content/joan-of-arc/.plan/010-france-divided/map.yaml
+  field: domremy.unmarked, two-kings.unmarked, cravant-and-verneuil.unmarked
+  new: 'name under unmarked the places the accounts name and the pages do not mark: the Three Fountains brook (domremy), Cravant (two-kings), Champs (cravant-and-verneuil)'
+  source: 'node scripts/plan-check.mjs joan-of-arc 010: "the account of domremy names the Three Fountains brook, and the page does not mark it"; the same for Cravant on two-kings and Champs on cravant-and-verneuil'
+  kind: plan
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 010-cartographer-2
+  severity: weak
+  file: content/joan-of-arc/shared/battles/agincourt-1415/battle.yaml
+  field: result
+  replaces: clause
+  old: "the Constable d'Albret and the Dukes of Alençon and Bar killed, Charles of Orléans, the Duke of Bourbon and Marshal Boucicaut taken"
+  new: "the Constable d'Albret, John I, Duke of Alençon, and Edward, Duke of Bar, killed, Charles of Orléans, John, Duke of Bourbon, and Marshal Boucicaut taken"
+  source: 'names.md, Rules, Names of people: "The others who share a title keep the full form their row gives at every mention: John I, Duke of Alençon; ... Edward, Duke of Bar"; names.md row "John, Duke of Bourbon"; the same change 010-fact-checker-8 made in battles.yaml, which the card had not taken'
+  kind: wording
+  claim: "010.32"
+  introduced: battles
+  owner: battle-implementor
+  state: fixed

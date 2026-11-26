@@ -391,3 +391,13 @@
   introduced: plan
   owner: section-coordinator
   state: fixed
+- id: 020-cartographer-1
+  severity: taste
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/map.yaml
+  field: eleven-days.unmarked
+  new: 'add Nangis: "in the name of the French Continuator of Guillaume de Nangis, a chronicler whose date of her coming to Chinon is told; no event of this page is there."'
+  source: "plan-check: the account of eleven-days names Nangis, and the page does not mark it; text.yaml eleven-days names the Continuator of Nangis among the authors of 6 March"
+  kind: plan
+  introduced: plan
+  owner: section-coordinator
+  state: fixed

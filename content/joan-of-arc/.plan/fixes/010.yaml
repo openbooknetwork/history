@@ -290,3 +290,20 @@
   old: 'commander before Orléans after Salisbury, taken at Jargeau; "Suffolk" | 020 (020.20) |'
   new: 'at Verneuil in 1424, commander before Orléans after Salisbury, taken at Jargeau; "Suffolk" | 010 (010.63) |'
   commit: db851cef
+- fault: 010-cartographer-1
+  by: cartographer
+  file: content/joan-of-arc/.plan/010-france-divided/map.yaml
+  field: domremy.unmarked, two-kings.unmarked, cravant-and-verneuil.unmarked
+  old: ""
+  new: |-
+    domremy: the Three Fountains brook: "the brook through Domrémy that Lowell gives as the edge of Bar; too small for the frame, under the Domrémy marker"
+    two-kings: Cravant: "named ahead of the next page, which marks it"
+    cravant-and-verneuil: Champs: "where Salisbury's route probably crosses the Yonne (Ramsay), a station of the route"
+  commit: 4bca27ca
+- fault: 010-cartographer-2
+  by: cartographer
+  file: content/joan-of-arc/shared/battles/agincourt-1415/battle.yaml
+  field: result
+  old: "English victory; the Constable d'Albret and the Dukes of Alençon and Bar killed, Charles of Orléans, the Duke of Bourbon and Marshal Boucicaut taken"
+  new: "English victory; the Constable d'Albret, John I, Duke of Alençon, and Edward, Duke of Bar, killed, Charles of Orléans, John, Duke of Bourbon, and Marshal Boucicaut taken"
+  commit: 4bca27ca

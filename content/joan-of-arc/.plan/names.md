@@ -55,7 +55,7 @@ name the digest gives only in a quote or a note is marked so. A name marked "not
 | Colet de Vienne | a king's messenger on the ride to Chinon | 020 (020.41) | |
 | Richard the Archer | the sixth man on the ride to Chinon | 020 (020.41) | |
 | Jean d'Aulon | her squire from Tours; witness in 1456, heard at Lyon | 020 (020.55) | John of Aulon; d'Aulon |
-| Louis de Coutes | her page from Tours; witness in 1456 | 020 (020.55) | Louis de Contes; de Contes |
+| Louis de Coutes | her page from Tours; witness in 1456 | 030 (030.44) | Louis de Contes; de Contes |
 | Raymond | her second page | 020 (020.55) | |
 | Jean Pasquerel | Augustinian friar, her confessor from Tours; witness in 1456 | 020 (020.55) | Pasquerel |
 | Poton le Bourguignon | a man of her company, taken with her at Compiègne | 050 (050.63) | Poton the Burgundian |
@@ -291,7 +291,7 @@ A text names a writer when it gives his figure, his date or his judgement, by th
 | Quicherat | Jules Quicherat, editor of the documents of both trials | 020 (020.43) | |
 | Murray | T. Douglas Murray, translator of the trials | 020 (020.4) | |
 | Barrett | W. P. Barrett, translator of the trial of 1431 | 010 (010.8) | |
-| Champion | Pierre Champion, whose sketches of the people stand in Barrett | 020 (020.7) | |
+| Champion | Pierre Champion, whose sketches of the people stand in Barrett | 030 (030.40) | |
 | Tuetey | Alexandre Tuetey, editor of the Bourgeois | 010 (010.60) | |
 | Moranvillé | Henri Moranvillé, editor of Cagny | 050 (050.40) | |
 | Johnes | Thomas Johnes, translator of Monstrelet | 010 (coverage) | |
@@ -302,7 +302,7 @@ A text names a writer when it gives his figure, his date or his judgement, by th
 | Lowell | Francis C. Lowell, Joan of Arc (1896) | 010 (010.3) | |
 | Lang | Andrew Lang, The Maid of France (1908) | 010 (010.1) | |
 | Thurston | Herbert Thurston, Catholic Encyclopedia (1910) | 010 (010.10) | |
-| Anatole France | The Life of Joan of Arc; read only for where to look | 010 (010.56) | France |
+| Anatole France | The Life of Joan of Arc; read only for where to look | 030 (030.16) | France |
 | Renoux | Christian Renoux (2022), on the canonisation | 070 (070.51) | |
 | Boismarmin | whose date of her coming to Chinon Lowell follows | 020 (020.42) | |
 | the Continuator of Guillaume de Nangis | the French continuator of the chronicle of Guillaume de Nangis, the one chronicle that gives the day of her coming to Chinon, 6 March 1429; "the French Continuator of Guillaume de Nangis" at the first mention on a page | 020 (020.43) | Continuateur français de Guillaume de Nangis; the Continuator of Nangis |
@@ -363,7 +363,7 @@ old name without it, as the sources and the histories do, and "Today" gives the 
 | the Augustins | English to 6 May 1429; the bastille in the ruined convent of the Augustinians | Orléans, south bank by the bridge (site) | 030 (030.3) | la bastide des Augustins; Saint Augustin |
 | the bastille of Saint-Privé | English to the night of 6 May 1429 | Saint-Pryvé-Saint-Mesmin, Loiret (site) | 030 (030.3) | Sainct-Privé; St. Prive; le champ Saint-Privé |
 | the Île Charlemagne | English 1428–1429 | an island of the Loire below Orléans (site) | 030 (030.2) | l'Isle Charlemaigne |
-| the Île Saint-Aignan | the island of the crossing of 6 May 1429: the Journal's "small island facing Saint-Aignan", named so by Ramsay | an island of the Loire east of Orléans (site lost) | 030 (030.49) | Île-aux-Toiles (France alone, not used); une isle devant Saint-Jehan-le-Blanc (the chronicle of the feast); He Saint Aignan (OCR) |
+| the Île Saint-Aignan | the island of the crossing of 6 May 1429: the Journal's "small island facing Saint-Aignan", named so by Ramsay | an island of the Loire east of Orléans (no source read places it) | 030 (030.49) | Île-aux-Toiles (France alone, not used); une isle devant Saint-Jehan-le-Blanc (the chronicle of the feast); He Saint Aignan (OCR) |
 | the Île Saint-Antoine | the island of the bridge, where the townsmen's guns stood (Ramsay) | site in the Loire at Orléans | 030 (030.61) | He Saint- Antoine (OCR) |
 | the Île-aux-Bourdons | where the chronicle of the feast has the convoy meet the boats | site in the Loire before Chécy | 030 (030.21) | l'Isle-aux-Bourdons |
 | the Porte Regnart | the west gate of Orléans, by which Joan lodged | Orléans (site) | 030 (030.4) | the Renard Gate; Porte Renard |
@@ -377,13 +377,13 @@ old name without it, as the sources and the histories do, and "Today" gives the 
 | the forest of Orléans | the forest north of the city that the army from Blois skirted on 4 May 1429 (Lang, the chronicle of the feast) | the forêt d'Orléans, Loiret | 030 (030.35) | la forest d'Orléans |
 | Chécy | whole story | Chécy, Loiret | 030 (030.19) | Checy; Checi |
 | Reuilly | the house of Guy de Cailly near Chécy | near Chécy, Loiret | 030 (030.19) | Rully (Ramsay) |
-| Olivet | whole story | Olivet, Loiret | 020 (020.58) | |
+| Olivet | whole story | Olivet, Loiret | 030 (030.18) | |
 | Cléry | Lowell's reading of the Journal's Chécy | Cléry-Saint-André, Loiret | 030 (030.19) | Cl^ry (OCR) |
 | Jargeau | English 5 October 1428 – 12 June 1429 | Jargeau, Loiret | 020 (020.14) | Gergeau; GFergeau (OCR); Jargueau |
 | Meung | English from September 1428; the bridge French from 15 June 1429; the king's from 18 June 1429 | Meung-sur-Loire, Loiret | 020 (020.14) | Meun; Mehun (Monstrelet); Meung sur Loire; Meting (OCR) |
 | Beaugency | English from 25 September 1428 to 18 June 1429 | Beaugency, Loiret | 020 (020.14) | Baugency; Boisgency |
 | Janville | English from 29 August 1428 to 18 June 1429 | Janville-en-Beauce, Eure-et-Loir | 020 (020.14) | Yenville; Yanville; Jenville; Grenville (OCR) |
-| Château-Renard | whole story; its garrison came into Orléans on 3 May 1429 (the Chronique) | Château-Renard, Loiret | 030 (030.33, the Chronique's passage) | Chasteau-Regnard |
+| Château-Renard | whole story; its garrison came into Orléans on 3 May 1429 (the Chronique); on the king's road from Courtenay to Montargis, September 1429 (050.29, the Journal du siège) | Château-Renard, Loiret | 030 (030.33, the Chronique's passage) | Chasteau-Regnard; Chasteau-Regnart |
 | Rouvray | the field of the Herrings, two leagues from Janville | Rouvray-Saint-Denis, Eure-et-Loir | 020 (020.23) | Rouvroy de Saint-Denis; Bonvroy (OCR); Rouvray-Sainte-Croix (Wikipedia, after Cooper, unread) |
 | Saint-Péravy | where Cagny's editor and France set fights | Saint-Péravy-la-Colombe, Loiret | 020 (020.23) | Saint-Peravy |
 | Patay | whole story | Patay, Loiret | 040 (040.29) | Pataye; Pathai |
@@ -417,11 +417,10 @@ old name without it, as the sources and the histories do, and "Today" gives the 
 | Provins | Charles VII's from 2 August 1429 | Provins, Seine-et-Marne | 040 (040.80) | |
 | Nangis | where the king's army went from Provins on 5 August 1429 (Ramsay) | Nangis, Seine-et-Marne | 050 (a route station, 050.1; Ramsay and the Journal du siège) | la Motte de Nangis; la Motte de Maugis (OCR) |
 | La Ferté-Milon | the king's lodging of 10 August 1429 (Cagny) | La Ferté-Milon, Aisne | 050 (a route station, 050.1; Cagny and Ramsay) | la Ferté Milon; La Fert^-Milon (OCR) |
-| Château-Renard | on the king's road from Courtenay to Montargis, September 1429 | Château-Renard, Loiret | 050 (a route station, 050.29; the Journal du siège) | Chasteau-Regnart |
 | Bray | Anglo-Burgundian in August 1429; yielded to the king in September 1429 | Bray-sur-Seine, Seine-et-Marne | 050 (050.1) | Bray sur Saine |
 | Sens | whole story | Sens, Yonne | 040 (040.86) | |
 | Courtenay | whole story | Courtenay, Loiret | 050 (050.29) | |
-| Montargis | whole story | Montargis, Loiret | 050 (050.29) | |
+| Montargis | whole story | Montargis, Loiret | 030 (030.33) | |
 | Nogent | the upper limit of the truce of August 1429 | Nogent-sur-Seine, Aube | 050 (050.10) | |
 
 ### Paris and the Oise
@@ -599,7 +598,7 @@ old name without it, as the sources and the histories do, and "Today" gives the 
 | Picardy | Burgundian | Picardy | 010 (010.7) | |
 | Flanders | the Duke of Burgundy's | Flanders, in France and Belgium | 010 (010.7) | |
 | the Île-de-France | the land about Paris | Île-de-France | 010 (010.46) | the Isle de France |
-| the Beauce | the plain north of the Loire | the Beauce | 020 (020.23) | Beausse |
+| the Beauce | the plain north of the Loire | the Beauce | 030 (030.17) | Beausse |
 | the Sologne | the land south of the Loire at Orléans | the Sologne | 020 (020.17) | Sauloigne; Solongne |
 | Berry | Charles VII's | Berry | 030 (030.47) | |
 | Touraine | Charles VII's | Touraine | 020 (020.63) | |

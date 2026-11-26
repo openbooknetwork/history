@@ -106,7 +106,7 @@ const pages = [
     },
     markers: {
       'saint-loup': { lnglat: P.saintLoup, icon: 'castle', color: 'english', label: 'The bastille of Saint-Loup', rank: 2,
-        note: 'Stormed from about noon on 4 May 1429 and taken by vespers, burned and pulled down: the first English fort to fall' },
+        note: 'Stormed from about noon on 4 May 1429 and taken by vespers, burned and pulled down: the first English fort to fall that May' },
       'saint-pouair-sortie': { lnglat: P.paris, icon: 'castle', color: 'english', label: 'The bastille of Paris', rank: 1,
         note: 'The Journal of the Siege has English come out from here to help Saint-Loup; they go back when the French draw up against them' },
     },

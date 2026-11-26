@@ -10,7 +10,7 @@ Joan crosses the river with about 200 lances, the figure of Simon Beaucroix, a s
 
 At about eight in the evening of Friday 29 April she rides into [Orléans](@orleans-entry) armed, on a white horse, with the Bastard beside her and townspeople carrying torches. The English do nothing to stop her. She lodges with Jacques Boucher, the Duke of Orléans's treasurer, by the Porte Regnart.
 
-The map shows the convoy's road, the boats and her ride in. These lines, and the places of the English forts on the next pages, are approximate: no plan of the siege survives.
+The map shows the convoy's road, the boats and her ride in. These lines, and the places of the English forts on the next pages, are approximate: none of the sources this book draws on gives a plan of the siege.
 
 ### Notes
 

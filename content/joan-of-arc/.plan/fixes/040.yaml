@@ -236,3 +236,52 @@
   old: '- { name: troyes-cathedral, shows: "the cathedral of Saint-Pierre-et-Saint-Paul at Troyes", "on": marker troyes-1429 }'
   new: ''
   commit: 58ca455d
+- fault: 040-map-auditor-1
+  by: map-keeper
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "the zones of June 1429"
+  old: "the pages jargeau and meung-and-beaugency take english-siege-1428, with the circle JARGEAU"
+  new: "z.zone('english-june-1429', ..., z.union(ABROAD, NORTH28, BEAUCE29)), inside janville, meung, beaugency, patay, montpipeau, saint_sigismond, rouvray, chartres, paris; outside orleans, jargeau, the bastilles and the rest; written to shared/zones/english-june-1429.geojson"
+  commit: 20c72b92
+- fault: 040-map-auditor-1
+  by: map-keeper
+  file: content/joan-of-arc/shared/zones.yaml
+  field: "france-siege-1428, france-june-1429"
+  old: "france-siege-1428: {zone: france-1407, name: \"The kingdom of Charles VII\"}    # with english-siege-1428: 020 from salisbury-on-the-loire, 030, jargeau, meung-and-beaugency"
+  new: "france-siege-1428: ... # with english-siege-1428: 020 from salisbury-on-the-loire, 030; france-june-1429: {zone: france-1407, name: \"The kingdom of Charles VII\"} # with english-june-1429: meung-and-beaugency"
+  commit: 20c72b92
+- fault: 040-map-auditor-1
+  by: map-keeper
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/map.yaml
+  field: "meung-and-beaugency.zones"
+  old: "[france-siege-1428, english-siege-1428, burgundy-1420, brittany-1407]"
+  new: "[france-june-1429, english-june-1429, burgundy-1420, brittany-1407]"
+  commit: 20c72b92
+- fault: 040-map-auditor-1
+  by: map-keeper
+  file: content/joan-of-arc/.plans/pages040.mjs
+  field: "meung-and-beaugency zones (and its page.yaml, written again by the script)"
+  old: "['france-siege-1428', 'english-siege-1428', 'burgundy-1420', 'brittany-1407']"
+  new: "['france-june-1429', 'english-june-1429', 'burgundy-1420', 'brittany-1407']"
+  commit: 20c72b92
+- fault: 040-map-auditor-1
+  by: map-keeper
+  file: content/joan-of-arc/.plan/brief.md
+  field: "Map, the rows english-siege-1428 and france-1422, and the new rows english-may-1429 and english-june-1429"
+  old: "english-siege-1428: ... October 1428 – 17 June 1429 | ... | 020 (...), 030, 040 (jargeau, meung-and-beaugency); france-1422 lists france-siege-1428, france-reims-1429, ..."
+  new: "english-siege-1428: ... October 1428 – 8 May 1429, the siege raised | ... | 020 (...), 030; rows english-may-1429 (8 May – 12 June 1429, 040 jargeau) and english-june-1429 (12 – 17 June 1429, 040 meung-and-beaugency); france-1422 lists france-may-1429: 040 (jargeau) and france-june-1429: 040 (meung-and-beaugency)"
+  commit: 20c72b92
+- fault: 040-map-auditor-2
+  by: map-keeper
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "ORLN, and the new lines LOIRE29, ORL29 and the shape BEAUCE29"
+  old: "one edge round Orléans for every stage, ORLN from the walls by Saint-Laurent to [2.55, 48.30]"
+  new: "ORLN split at [1.96, 48.02] into ORLN and ORLNE (same points, english-siege-1428 unchanged); BEAUCE29 = LOIRE29 (the Loire, 020.16, from Beaugency to [1.78, 47.85] east of Meung) + ORL29 (est: [1.79, 47.92], [1.84, 47.98] to [1.96, 48.02], the city and some ten km of its land outside, after 030.72, 030.74, 040.42) + ORLNE + BEAUCE_N + BEAUCE_W; english-may-1429 = ABROAD, NORTH28, BEAUCE29, JARGEAU and english-june-1429 = ABROAD, NORTH28, BEAUCE29"
+  commit: 20c72b92
+- fault: 040-map-auditor-2
+  by: map-keeper
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/map.yaml
+  field: "jargeau.zones (and pages040.mjs, shared/zones.yaml france-may-1429, the page.yaml written again)"
+  old: "[france-siege-1428, english-siege-1428, burgundy-1420, brittany-1407]"
+  new: "[france-may-1429, english-may-1429, burgundy-1420, brittany-1407]"
+  commit: 20c72b92

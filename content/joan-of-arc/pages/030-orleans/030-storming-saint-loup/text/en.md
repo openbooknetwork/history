@@ -1,12 +1,12 @@
 [The bastille of Saint-Loup](@saint-loup) stands on the north bank east of Orléans, above the landing-place on the road to Chécy: about a mile and a half from the city by Lowell's reckoning, a league by Lang's.
 
-On Wednesday 4 May, the eve of the Ascension, a few hours after the army from Blois has come in, the French go out against it after midday, about 1,500 men by the count of the Journal of the Siege, a chronicle of the city. The Journal has Joan and the Bastard of Orléans (later Count of Dunois) lead them out together. In the Chronique de la Pucelle and in Ramsay, and in the memories of her confessor Jean Pasquerel and her page Louis de Coutes, she is resting at her lodging when it begins. She wakes, arms and rides to the fort with her standard, and with her coming the attack grows stronger.
+On Wednesday 4 May, the eve of the Ascension, a few hours after the army from Blois has come in, the French go out against it after midday, about 1,500 men by the count of the Journal of the Siege, a chronicle of the city. The Journal has Joan and the Bastard of Orléans (later Count of Dunois) lead them out together. In the Chronique de la Pucelle and in Ramsay she is asleep at her lodging when it begins; her page Louis de Coutes thought she had gone up to sleep, and her confessor Jean Pasquerel found her calling for her armour. She arms and rides to the fort with her standard, and with her coming the attack grows stronger.
 
 While its garrison defends it hard, English come out from the other bastilles to help.\* The city's belfry rings twice in warning, the French draw up in the fields between, and the English turn back to their forts. Towards vespers Saint-Loup is taken by force, burned and pulled down. The assault has lasted three hours by the Journal, and more than four or five by a letter Charles VII wrote on 10 May.\*\* Some English who hid in the church tower in priests' vestments are spared at Joan's word and brought into the city, says the Chronique.
 
 @image saint-loup-assault-miniature
 
-Saint-Loup is the first English fort to fall. At her trial in 1431 Joan said she went first to Saint-Loup and then to the fort at the bridge. Its fall cleared the approaches east of the city, in Lowell's judgement.
+Saint-Loup is the first English fort to fall that May. At her trial in 1431 Joan said she went first to Saint-Loup and then to the fort at the bridge. Its fall cleared the approaches east of the city, in Lowell's judgement.
 
 The map shows the French going out along the north bank to Saint-Loup, and [the bastille of Paris](@saint-pouair-sortie), from which the Journal has the English come out. Both lines are approximate.
 

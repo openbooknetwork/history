@@ -31,7 +31,7 @@ const pages = [
   { dir: '010-jargeau', id: 'jargeau',
     title: 'Jargeau', date: '11 to 12 June 1429', when: '1429-06-11',
     bbox: [1.2, 47.1, 2.5, 48.1], battle: 'jargeau-1429',
-    zones: ['france-siege-1428', 'english-siege-1428', 'burgundy-1420', 'brittany-1407'],
+    zones: ['france-may-1429', 'english-may-1429', 'burgundy-1420', 'brittany-1407'],
     routes: ['france-1429-jargeau'],
     routeFiles: {
       // from the Cher by Romorantin north across the Sologne to Orléans, then up the north bank of the Loire to
@@ -51,7 +51,7 @@ const pages = [
   { dir: '020-meung-and-beaugency', id: 'meung-and-beaugency',
     title: 'The bridge at Meung and Beaugency', date: '15 to 17 June 1429', when: '1429-06-15',
     bbox: [1.1, 47.55, 2.7, 48.95],
-    zones: ['france-siege-1428', 'english-siege-1428', 'burgundy-1420', 'brittany-1407'],
+    zones: ['france-june-1429', 'english-june-1429', 'burgundy-1420', 'brittany-1407'],
     routes: ['fastolf-1429-janville', 'talbot-1429-janville', 'france-1429-beaugency', 'english-1429-meung'],
     routeFiles: {
       // Paris south by the Orléans road to Étampes, where the relief left its supplies, and on across the Beauce to

@@ -420,3 +420,8 @@
   bound, has not read the three phase pages, and the editor has not read them beside the rest: the pull request
   stays a draft.
 - ledger after `Patay's phases`: | **total** | 145 | 3,991 | 702,904 | 8,141 | 28,031,079 | 693,071,535 | 4,958,365 | 129,145,968 |
+- Patay's phases reviewed (section-reviewer, the three phase pages): 10 faults fixed in the texts: the day, the place
+  and who each chronicler is, for a reader who starts on the page; Joan's anger told as Louis de Coutes's word at
+  the retrial; the scouts' number given to Wavrin.
+- cloud ruling: 040-section-reviewer-25 is declined — a phase page frames the field, and the four towns its text names
+  beyond it are marked on the overview page `patay` just before.

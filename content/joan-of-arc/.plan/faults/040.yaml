@@ -1288,3 +1288,144 @@
   introduced: battles
   owner: section-reviewer
   state: fixed
+- id: 040-section-reviewer-15
+  severity: taste
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/031-patay-the-hedges/text/en.md
+  field: body, paragraph 1
+  replaces: clause
+  old: "On 18 June the English march north from Meung for Janville"
+  new: "On 18 June, with Beaugency lost, the English march north from Meung for Janville"
+  source: "040.25, Wavrin p. 420 and Cagny p. 15: the English give up Meung on the news that Beaugency has fallen; a reader who opens the page here had the march with no cause"
+  kind: wording
+  claim: "040.25"
+  introduced: battles
+  owner: section-reviewer
+  state: fixed
+- id: 040-section-reviewer-16
+  severity: taste
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/031-patay-the-hedges/text/en.md
+  field: body, paragraph 2
+  replaces: clause
+  old: "The captains send the vanguard, the train and the merchants ahead"
+  new: "The captains send the vanguard and the train ahead"
+  source: "agents/text.md, Short: with 040-section-reviewer-15 and -17 the body ran to 304 words; the first sentence already puts the merchants in the train (\"the train of artillery, victuals and merchants\", 040.25)"
+  kind: wording
+  claim: "040.89"
+  introduced: review
+  owner: section-reviewer
+  state: fixed
+- id: 040-section-reviewer-17
+  severity: weak
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/031-patay-the-hedges/text/en.md
+  field: body, paragraph 3
+  replaces: clause
+  old: "sixty or eighty of their best mounted men ahead as scouts."
+  new: "sixty or eighty of their best mounted men ahead as scouts, by Wavrin's count."
+  source: "040.88: \"single for the number\", Wavrin p. 420 with Monstrelet's same text; agents/evidence.md: a single claim's figure names its author, as the map's label of french-scouts does"
+  kind: attribution
+  claim: "040.88"
+  introduced: battles
+  owner: section-reviewer
+  state: fixed
+- id: 040-section-reviewer-18
+  severity: weak
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/031-patay-the-hedges/text/en.md
+  field: body, paragraph 3
+  replaces: clause
+  old: "Joan rides with it, kept out of the van, to her anger."
+  new: "Joan rides with it, kept out of the van, to her anger, as her page Louis de Coutes remembered at the retrial."
+  source: "040.27, the deposition of Louis de Contes: \"La Hire commanded the vanguard, at which Jeanne was much vexed\"; rules.md, The two trials are primary sources with a side: a retrial witness's word is told as his, \"at the retrial\""
+  kind: attribution
+  claim: "040.27"
+  introduced: battles
+  owner: section-reviewer
+  state: fixed
+- id: 040-section-reviewer-19
+  severity: taste
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/032-patay-the-stag/text/en.md
+  field: body, paragraph 1
+  replaces: clause
+  old: "The French scouts ride on beside the woods without sight of the English. A stag breaks out of the woods and runs towards [Patay](@patay-the-stag-patay), into the ranks of the English main body, and the English raise a loud shout. So Wavrin, who was in the main body, tells it, and Monstrelet's text is the same."
+  new: "On 18 June, on the road north to [Patay](@patay-the-stag-patay), the French scouts ride on beside the woods without sight of the English, who are marching from Meung for Janville. A stag breaks out of the woods and runs towards the village, into the ranks of the English main body, and the English raise a loud shout. So Jean de Wavrin, a Burgundian chronicler who was in that main body, tells it, and the chronicle of Monstrelet, another Burgundian, has the same text."
+  source: "agents/text.md, The reader can follow: the page opened with no day and no place and named Wavrin and Monstrelet with no word of who they were; 040.25, 040.28; names.md, Wavrin and Monstrelet, Burgundian chroniclers"
+  kind: wording
+  claim: "040.28"
+  introduced: battles
+  owner: section-reviewer
+  state: fixed
+- id: 040-section-reviewer-20
+  severity: taste
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/032-patay-the-stag/text/en.md
+  field: body, paragraph 2
+  replaces: clause
+  old: "ride into the narrow way of [Lord Talbot](@patay-the-stag-talbot) before the English have joined at the hedges."
+  new: "ride into the narrow way between two hedges where [Lord Talbot](@patay-the-stag-talbot) stands with 500 archers, before the English have joined at the hedges."
+  source: "040.29, Wavrin p. 422: \"v cens archiers d'eslite\" in the passage between two hedges; a reader who opens the page here did not know what \"the narrow way of Lord Talbot\" was"
+  kind: wording
+  claim: "040.29"
+  introduced: battles
+  owner: section-reviewer
+  state: fixed
+- id: 040-section-reviewer-21
+  severity: taste
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/032-patay-the-stag/text/en.md
+  field: body, paragraph 2
+  replaces: clause
+  old: "Wavrin says. Wavrin says nothing of stakes."
+  new: "Wavrin says. He says nothing of stakes."
+  source: "040.30; read aloud, \"Wavrin gives no stakes\" sounded squeezed, and two sentences running ended and began with Wavrin"
+  kind: wording
+  claim: "040.30"
+  introduced: battles
+  owner: section-reviewer
+  state: fixed
+- id: 040-section-reviewer-22
+  severity: taste
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/033-patay-the-rout/text/en.md
+  field: body, paragraph 1
+  replaces: clause
+  old: "[Sir John Fastolf](@patay-the-rout-fastolf), who has not dismounted, rides north towards the English vanguard at the hedges to join it."
+  new: "Near [Patay](@patay-the-rout-patay) on 18 June the French vanguard has taken the English captain Lord Talbot and broken through the narrow way he held. [Sir John Fastolf](@patay-the-rout-fastolf), one of the English commanders, has stayed on his horse, and he rides north towards the English vanguard at the hedges to join it."
+  source: "agents/text.md, The reader can follow: the page opened with no day, no place and no word on Fastolf or on what had come before; 040.29, 040.31 (Wavrin p. 423, \"rué jus le seigneur de Thalbot\"), 040.33 (Fastolf not dismounted); the link to Patay moves to its first naming"
+  kind: wording
+  claim: "040.29"
+  introduced: battles
+  owner: section-reviewer
+  state: fixed
+- id: 040-section-reviewer-23
+  severity: taste
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/033-patay-the-rout/text/en.md
+  field: body, paragraph 1
+  replaces: clause
+  old: "So Wavrin, who rode with Fastolf, tells it."
+  new: "So Jean de Wavrin, a Burgundian chronicler who rode with Fastolf, tells it."
+  source: "names.md, Wavrin, Burgundian chronicler who rode with Fastolf at Patay; the page named him with no word of who he was"
+  kind: wording
+  claim: "040.29"
+  introduced: battles
+  owner: section-reviewer
+  state: fixed
+- id: 040-section-reviewer-24
+  severity: taste
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/033-patay-the-rout/text/en.md
+  field: body, paragraph 3
+  replaces: clause
+  old: "The English captains Lord Talbot, Lord Scales, Sir Thomas Rempston and a Hungerford are taken.\\*\\* The French lose few men, by Wavrin and Monstrelet, who give no figure. Monstrelet has the fight over at about two in the afternoon, and that night the French lie at [Patay](@patay-the-rout-patay)."
+  new: "Besides Talbot, the English captains Lord Scales, Sir Thomas Rempston and a Hungerford are taken.\\*\\* The French lose few men, say Wavrin and the Burgundian chronicler Monstrelet, though neither gives a figure. Monstrelet has the fight over at about two in the afternoon, and that night the French lie at Patay."
+  source: "040.31, 040.37; Talbot's capture now stands in paragraph 1 (040-section-reviewer-22), Monstrelet had no word of who he was, \"by Wavrin and Monstrelet, who give no figure\" read as squeezed, and the link to Patay moved to the first naming"
+  kind: wording
+  claim: "040.37"
+  introduced: battles
+  owner: section-reviewer
+  state: fixed
+- id: 040-section-reviewer-25
+  severity: taste
+  file: content/joan-of-arc/.plans/patay-1429.mjs
+  field: "patay-the-hedges, patay-the-stag and patay-the-rout, markers"
+  new: "The phase texts name places their maps do not show: Meung, Janville and Beaugency on patay-the-hedges, Meung and Janville on patay-the-stag, Janville and Étampes on patay-the-rout. All lie outside the 6 km frame of the battle plan, and only the arrows' hover names on patay-the-rout give Janville and Étampes (captures phases-040-battle-auditor-patay-recheck-2/pack/shots/patay-the-*.png). A label at the frame's edge for the road to Janville and the road from Meung, or the battle implementor says why a battle plan page leaves them out."
+  source: "agents/text.md, 'each place it names is on the map'; 040.25, 040.33, 040.41"
+  kind: map
+  introduced: battles
+  owner: battle-implementor
+  state: declined
+  ruling: "cloud ruling: declined. A phase page frames the field, some six km across; Meung, Beaugency, Janville and Etampes are marked on the overview page patay, which stands just before the three phases, and the arrows of the rout name Janville and Etampes"

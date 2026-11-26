@@ -9,3 +9,12 @@
   status: pass
   outputs:
     - content/joan-of-arc/.plan/010-france-divided/pages.yaml
+- task: plan
+  step: plans
+  at: '2026-11-26T10:22:06.169Z'
+  before: null
+  inputs:
+    rules.md: 1fa000ad5b45337e
+    brief.md#010: 9375e2f2128956df
+    research.md#010: cd76ee473ecbaef6
+    names.md#010: d26e5243fb030988

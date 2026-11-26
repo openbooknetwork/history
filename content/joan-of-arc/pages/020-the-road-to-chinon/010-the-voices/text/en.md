@@ -1,14 +1,14 @@
-On 22 February 1431 Joan told her judges at Rouen that she was about thirteen when she first heard a voice from God. It came towards noon one summer, in her father's garden at [Domrémy](@domremy-voices), from her right, where the church stood, and she seldom heard it without a light. The first time she was much afraid. The year was 1424 or 1425.\*
+On 22 February 1431 Joan told her judges at Rouen that she was about thirteen when she first heard a voice from God. It came towards noon one summer, in her father's garden at [Domrémy](@domremy-voices), from her right, where the church stood, and seldom without a light. The first time she was much afraid. The year was 1424 or 1425.\*
 
-As time went on, she said, the voice came once or twice a week. It told her to leave home and go into France, and that she would raise the siege of Orléans. It told her to go to Robert de Baudricourt, the squire who was captain of [Vaucouleurs](@vaucouleurs-1428), and he would give her an escort. Her father knew nothing of it.
+Later, she said, the voice came once or twice a week. It told her to leave home and go into France, and that she would raise the siege of Orléans. She was to go to Robert de Baudricourt, the squire who was captain of [Vaucouleurs](@vaucouleurs-1428), and he would give her an escort. Her father knew nothing of it.
 
-Vaucouleurs is a walled town on the Meuse, twelve or thirteen miles north of Domrémy. Lowell writes that by midsummer 1428 it was the only town in the whole east of France still holding for Charles VII. To the west, Lang adds, Champagne, with Troyes and Reims, was Anglo-Burgundian.
+Vaucouleurs is a walled town on the Meuse, twelve or thirteen miles north of Domrémy. By midsummer 1428, Lowell writes, it was the only town in the whole east of France still holding for Charles VII, and Lang adds that Champagne to the west, with Troyes and Reims, was Anglo-Burgundian.
 
-In May 1428, about Ascension Day, Joan comes to Baudricourt with Durand Laxart, the husband of her cousin, whom she called uncle, and is sent home. That is how Bertrand de Poulengy, a squire who was with the captain, remembered it in 1456.\*\* Laxart said that Baudricourt told him many times to take her back to her father and box her ears.
+In May 1428 Joan comes to Baudricourt with Durand Laxart, her cousin's husband, whom she called uncle, and is sent home. So Bertrand de Poulengy, a squire who was with the captain, remembered it in 1456.\*\* Laxart said that Baudricourt told him many times to take her back to her father and box her ears.
 
-In July Antoine de Vergy, governor of Champagne for the English, reviews his troops at [Saint-Urbain](@vergy-review-1428) and marches on Vaucouleurs. Within days the force has gone and Baudricourt still holds the town. How he kept it is not known. For dread of the Burgundians, Joan said, she went with her family to [Neufchâteau](@neufchateau), a walled town of the Duke of Lorraine a few miles south, and stayed about a fortnight at the inn of a woman called La Rousse. Lang and Lowell date this flight to Vergy's raid.\*\*\*
+In July Antoine de Vergy, governor of Champagne for the English, reviews his troops at [Saint-Urbain](@vergy-review-1428) and marches on Vaucouleurs. Within days the force is gone and Baudricourt still holds the town; how he kept it is not known. For dread of the Burgundians, Joan said, she went to [Neufchâteau](@neufchateau), a walled town of the Duke of Lorraine a few miles south, and stayed about a fortnight with an innkeeper called La Rousse. Lang and Lowell date this flight to Vergy's raid.\*\*\*
 
-The map shows the English and Burgundian lands closing round Vaucouleurs, her road there, Vergy's march and the flight to Neufchâteau. In this chapter the borders and roads are approximate.
+The map shows the lands of the English and their allies closing round Vaucouleurs, her road there, Vergy's march and the flight. In this chapter the borders and roads are approximate.
 
 @image vaucouleurs-castle-hill
 

@@ -1371,7 +1371,7 @@
   file: content/joan-of-arc/pages/040-the-loire-and-reims/032-patay-the-stag/text/en.md
   field: body, paragraph 2
   replaces: clause
-  old: "Wavrin says. Wavrin says nothing of stakes."
+  old: "Wavrin says. Wavrin gives no stakes."
   new: "Wavrin says. He says nothing of stakes."
   source: "040.30; read aloud, \"Wavrin gives no stakes\" sounded squeezed, and two sentences running ended and began with Wavrin"
   kind: wording
@@ -1429,3 +1429,15 @@
   owner: battle-implementor
   state: declined
   ruling: "cloud ruling: declined. A phase page frames the field, some six km across; Meung, Beaugency, Janville and Etampes are marked on the overview page patay, which stands just before the three phases, and the arrows of the rout name Janville and Etampes"
+- id: 040-fact-checker-54
+  severity: taste
+  file: content/joan-of-arc/.plan/fixes/040.yaml
+  field: "the entry of 040-section-reviewer-21, old (and the fault's own old)"
+  replaces: value
+  old: "Wavrin says. Wavrin says nothing of stakes."
+  new: "Wavrin says. Wavrin gives no stakes."
+  source: "git show 2b3a2499:content/joan-of-arc/pages/040-the-loire-and-reims/032-patay-the-stag/text/en.md, paragraph 2, and the same at 805bbd4c: \"all his men are killed, Wavrin says. Wavrin gives no stakes.\"; the fix log's old quoted words the text never had, so the entry was no true diff of the fix. The fix itself stands as its new gives it"
+  kind: check
+  introduced: review
+  owner: section-reviewer
+  state: fixed

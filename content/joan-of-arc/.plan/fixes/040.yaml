@@ -863,7 +863,7 @@
   by: section-reviewer
   file: content/joan-of-arc/pages/040-the-loire-and-reims/032-patay-the-stag/text/en.md
   field: body, paragraph 2
-  old: "Wavrin says. Wavrin says nothing of stakes."
+  old: "Wavrin says. Wavrin gives no stakes."
   new: "Wavrin says. He says nothing of stakes."
   commit: 2b3a2499
 - fault: 040-section-reviewer-22
@@ -887,3 +887,10 @@
   old: "The English captains Lord Talbot, Lord Scales, Sir Thomas Rempston and a Hungerford are taken.\\*\\* The French lose few men, by Wavrin and Monstrelet, who give no figure. Monstrelet has the fight over at about two in the afternoon, and that night the French lie at [Patay](@patay-the-rout-patay)."
   new: "Besides Talbot, the English captains Lord Scales, Sir Thomas Rempston and a Hungerford are taken.\\*\\* The French lose few men, say Wavrin and the Burgundian chronicler Monstrelet, though neither gives a figure. Monstrelet has the fight over at about two in the afternoon, and that night the French lie at Patay."
   commit: 2b3a2499
+- fault: 040-fact-checker-54
+  by: fact-checker
+  file: content/joan-of-arc/.plan/fixes/040.yaml and content/joan-of-arc/.plan/faults/040.yaml
+  field: "040-section-reviewer-21, old"
+  old: "Wavrin says. Wavrin says nothing of stakes."
+  new: "Wavrin says. Wavrin gives no stakes."
+  commit: 69136655

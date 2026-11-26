@@ -74,3 +74,5 @@
   placeholder, or a rerun undoes the placing. 030's generator holds the ids now; check the others before a rerun.
 - A page whose text lists places of a later page (030's the-army-of-blois and the whole ring of bastilles) marks each
   with a dated id of its own (`saint-loup-april-1429`) at the later page's point, and the text links it.
+- 070's generator holds the placed image ids now; a marker whose placed file has no `image:` line (070's paris-1436,
+  "Image: none") must have none in the generator either, or the placeholders check lists it again.

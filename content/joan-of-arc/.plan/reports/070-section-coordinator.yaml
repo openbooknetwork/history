@@ -11,3 +11,25 @@
   pages: 6
   pages_expected: 6
   phase_battles: []
+- step: plans
+  task: plan
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/070-after-her/pages.yaml
+    - content/joan-of-arc/.plan/070-after-her/map.yaml
+    - content/joan-of-arc/.plan/070-after-her/text.yaml
+    - content/joan-of-arc/.plan/070-after-her/battles.yaml
+    - content/joan-of-arc/shared/battles/formigny-1450/battle.yaml
+    - content/joan-of-arc/shared/battles/castillon-1453/battle.yaml
+    - content/joan-of-arc/.plan/names.md
+    - content/joan-of-arc/.plan/faults/070.yaml
+    - content/joan-of-arc/.plan/fixes/070.yaml
+  faults: [070-section-coordinator-1]
+  unresolved:
+    - "One english zone a page: the Map part gives normandy-won-back both english-1449 and english-1450, and castillon english-1450, english-1451 and english-1452, but a page shows one zone per family. The plan takes english-1449 for normandy-won-back (the land Kyriell marches through and Formigny is fought in; Rouen, Caen and Cherbourg are markers in the france colour, and the next page shows Normandy French) and english-1452 for castillon (the state at the battle, with Bayonne and Bordeaux as markers in the france colour). english-1450 is then used by no page. Proposed: the map architect drops castillon and normandy-won-back from the rows that no longer serve them, or drops english-1450."
+    - "bar-1412 and lorraine-1412 are listed on the-retrial, whose frame reaches the Meuse for Domrémy, though the Map part's rows end in 1429 and name no page of 070; without them the Barrois and the Neufchâteau enclave west of the Meuse would show as French in 1456 on no source. Proposed: the rows gain the-retrial, and the text calls the edge approximate, as the plan's account says."
+    - "calais-1453 is dropped from castillon: Calais lies far outside the Gascony frame. The-retrial's frame reaches 51.1 N so that Calais shows there as the english zone of 1456."
+  stale: []
+  pages: 6
+  pages_expected: 6
+  pages_on_weak_claims: [burgundy-changes-sides, paris-opens, normandy-won-back, castillon, the-retrial, afterwards]

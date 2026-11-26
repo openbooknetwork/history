@@ -101,6 +101,8 @@ name the digest gives only in a quote or a note is marked so. A name marked "not
 | Jean Bureau | under whom the French entrenched their artillery park at Castillon; with his brother "the Bureau brothers" | 070 (070.29) | the brothers Bureau |
 | the lord of Montauban | a Breton captain at Castillon | 070 (070.30) | |
 | the lord of La Hunaudaye | a Breton captain at Castillon | 070 (070.30) | la Hunodaie |
+| the Marshal de Lohéac | a marshal of France, who with the Marshal de Jalognes conducted the siege of Castillon in 1453 (Monstrelet's continuator, Beaucourt) | 070 (070.32, the passages of Beaucourt and Monstrelet's continuator) | the lord de Lohéac; le maréchal de Lohéac |
+| the Marshal de Jalognes | a marshal of France, who with the Marshal de Lohéac conducted the siege of Castillon in 1453 (Monstrelet's continuator, Beaucourt) | 070 (070.32, the passages of Beaucourt and Monstrelet's continuator) | the lord de Jalognes; le maréchal de Jalognes |
 | Coëtivy | the French seneschal of Bordeaux taken in 1452 | 070 (070.28) | |
 
 ### The princes of France at Agincourt and before
@@ -191,7 +193,7 @@ name the digest gives only in a quote or a note is marked so. A name marked "not
 | Sir Thomas Beaumont | beaten near Épinay in April 1436 | 070 (070.8) | |
 | Edmund Beaufort, Duke of Somerset | English lieutenant in Normandy, who gave up Rouen in 1449 and Caen in 1450; "Somerset" alone means him in 070 | 070 (070.15) | Somerset |
 | Sir Thomas Kyriell | leader of the last English army in Normandy, taken at Formigny; "Kyriell" | 070 (070.17) | Thomas Kyriel; Kiriel |
-| Margaret of Anjou | daughter of René of Anjou (Monstrelet), betrothed to Henry VI by proxy at Tours on 24 May 1444 | 070 (070.12) | the daughter of Rene king of Sicily (Johnes) |
+| Margaret of Anjou | daughter of René of Anjou (Monstrelet), betrothed to Henry VI by proxy at Tours on 24 May 1444 | 070 (070.12) | the daughter of Bene king of Sicily (Johnes, OCR) |
 | the captain of Orbec | an English captain killed at Montépilloy | 050 (050.6) | le capitaine d'Orbec |
 
 ### The Scots and the Dauphin's allies
@@ -552,6 +554,7 @@ old name without it, as the sources and the histories do, and "Today" gives the 
 | Isigny | whole story | Isigny-sur-Mer, Calvados | 070 (070.19) | |
 | Formigny | the battle of 15 April 1450 | Formigny La Bataille, Calvados | 070 (070.18) | Fourmigny |
 | Saint-Lô | whole story | Saint-Lô, Manche | 070 (070.18) | |
+| Trévières | the village through which Ramsay has Richemont march from Saint-Lô to Formigny on 15 April 1450; Beaucourt has the English spend the night before the battle there and at Formigny | Trévières, Calvados | 070 (070.19, Ramsay's passage) | Trevieres |
 | Fougères | Breton; seized by the English on 24 March 1449 | Fougères, Ille-et-Vilaine | 070 (070.14) | Foug^res (OCR) |
 | Valognes | besieged by Kyriell from 27 March 1450 and taken about 10 April (Ramsay) | Valognes, Manche | 070 (070.17, Ramsay's passage) | |
 | the Fords of Saint-Clément | the passage at low water across the estuaries of the Vire and the Douve below Carentan, which Kyriell crossed on 14 April 1450 | the Baie des Veys, Manche | 070 (070.17, Ramsay's passage) | the Fords of St. Clement; the sands of St. Clement; les vez Saint Clement |

@@ -117,3 +117,18 @@
   no battle. The fact checkers wrote 10 faults in 050 and 8 in 060 and fixed them all: two routes of Montépilloy
   drawn against their own sources, a disputed diocese told as fact, "six lines" given to the wrong witnesses. None
   is open. The road from Le Crotoy to Rouen is not drawn, as `rules.md` rules.
+- unresolved, plans 070: some pages had more than one english zone in the Map part; `bar-1412` and `lorraine-1412` on
+  `the-retrial` though their rows ended in 1429; Calais dropped from `castillon`, outside its frame.
+- cloud ruling: the Map part follows the plan — the row `english-1450` is taken out, as no page shows it, and
+  `english-1451` stands on `the-retrial` alone (story-overseer-3); `bar-1412` and `lorraine-1412` gain `the-retrial`
+  with the edge of 1429 kept (070-fact-checker-6, fixed by the overseer as the brief's owner). A page shows one zone
+  a family, and without the two duchies the land west of the Meuse would show as French in 1456, which no source says.
+- wave 070: done, 26 Nov 2026, at `plans` and `plan-check`. The plan and the cards of Formigny and Castillon. The fact
+  checker wrote 6 faults: Kyriell's road through French-held Carentan, a page's date short of what it tells, two
+  marshals missing from the Castillon card. All are fixed.
+- step plans: done, 26 Nov 2026. Seven sections, each with `pages.yaml`, `map.yaml`, `text.yaml` and `battles.yaml`, 41
+  pages; eleven cards in `shared/battles/` (Agincourt, Baugé, Verneuil, the Herrings, Orléans, Jargeau, Patay,
+  Paris, Compiègne, Formigny, Castillon); no battle plan. `plan-check.mjs` prints ok for the story.
+- step plan-check: done, 26 Nov 2026. Seven plan checks, 83 faults (17, 8, 15, 19, 10, 8, 6), all fixed in the plans
+  by the fact checkers but one, which changed the brief. No fault of any list is open.
+- ledger after `plan-check`: | **total** | 45 | 1,411 | 375,922 | 2,883 | 9,538,844 | 238,112,791 | 2,090,557 | 46,190,502 |

@@ -125,3 +125,13 @@
   introduced: map-design
   owner: brief
   state: fixed
+- id: story-overseer-3
+  severity: weak
+  file: content/joan-of-arc/.plan/brief.md
+  field: Map, Zones, the rows english-1450 and english-1451
+  new: the row english-1450 is taken out, since no page shows it, and english-1451 stands on the-retrial alone
+  source: "070-after-her/map.yaml: normandy-won-back takes english-1449 and castillon english-1452, one zone a family a page (reports/070-section-coordinator.yaml)"
+  kind: plan
+  introduced: map-design
+  owner: brief
+  state: fixed

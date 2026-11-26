@@ -62,3 +62,10 @@
   old: "020, 040, 050, 060"
   new: "020, 050, 060"
   commit: fe2878c8
+- fault: story-overseer-3
+  by: overseer
+  file: content/joan-of-arc/.plan/brief.md
+  field: Map, Zones, the rows english-1450 and english-1451
+  old: "| `english-1450` | english | Calais and Gascony, after Cherbourg falls on 12 August 1450, to June 1451 | reconstruction from 070.24 (Cherbourg the last English  \u2026 | 070 (normandy-won-back, castillon) |; english-1451: 070 (castillon, the-retrial)"
+  new: "no row english-1450; english-1451: 070 (the-retrial)"
+  commit: de28cedb

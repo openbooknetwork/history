@@ -54,3 +54,108 @@
   old: "[orleans-8-may, rome-1920]"
   new: "[orleans-8-may]"
   commit: 15b6425c
+- fault: 070-section-coordinator-1
+  by: section-coordinator
+  file: content/joan-of-arc/.plan/names.md
+  field: "People, The English: the row after Sir Thomas Kyriell"
+  old: ""
+  new: "| Margaret of Anjou | daughter of René of Anjou (Monstrelet), betrothed to Henry VI by proxy at Tours on 24 May 1444 | 070 (070.12) | the daughter of Bene king of Sicily (Johnes, OCR) |"
+  commit: de28cedb
+- fault: 070-section-coordinator-1
+  by: section-coordinator
+  file: content/joan-of-arc/.plan/names.md
+  field: "Places, Normandy and Rouen: the rows after Fougères"
+  old: ""
+  new: "| Valognes | besieged by Kyriell from 27 March 1450 and taken about 10 April (Ramsay) | Valognes, Manche | 070 (070.17, Ramsay's passage) | | and | the Fords of Saint-Clément | the passage at low water across the estuaries of the Vire and the Douve below Carentan, which Kyriell crossed on 14 April 1450 | the Baie des Veys, Manche | 070 (070.17, Ramsay's passage) | the Fords of St. Clement; the sands of St. Clement; les vez Saint Clement |"
+  commit: de28cedb
+- fault: 070-section-coordinator-1
+  by: section-coordinator
+  file: content/joan-of-arc/.plan/names.md
+  field: "Places, Anjou, Gascony and further: the row after Castillon"
+  old: ""
+  new: "| Branne | where Ramsay supposes Talbot crossed the Dordogne on 17 July 1453 | Branne, Gironde | 070 (070.29, Ramsay's passage) | |"
+  commit: de28cedb
+- fault: 070-fact-checker-1
+  by: fact-checker
+  file: content/joan-of-arc/.plan/070-after-her/map.yaml
+  field: "normandy-won-back.routes.kyriell-1450-formigny.stations"
+  old: "[Cherbourg, Valognes, the Fords of Saint-Clément, Carentan, Formigny]"
+  new: "[Cherbourg, Valognes, the Fords of Saint-Clément, Formigny]"
+  commit: de28cedb
+- fault: 070-fact-checker-1
+  by: fact-checker
+  file: content/joan-of-arc/.plan/070-after-her/map.yaml
+  field: "normandy-won-back.routes.kyriell-1450-formigny.why"
+  old: "Ramsay has Kyriell land at Cherbourg about 15 March 1450, besiege and take Valognes, leave it on 13 April, reach the sands of Saint-Clément on the 14th, pass Carentan unmolested and reach Formigny; Beaucourt has him march on Valognes. The stations are sourced; no road is given between them, so the line joins them."
+  new: "Ramsay has Kyriell land at Cherbourg about 15 March 1450, besiege and take Valognes, leave it on 13 April, reach the sands of Saint-Clément on the 14th and reach Formigny; Beaucourt has him march on Valognes. Carentan, held by Clermont, is no station: Ramsay has the English pass it unmolested by the fords 'below Carentan', so the line does not run through the town. The stations are sourced; no road is given between them, so the line joins them."
+  commit: de28cedb
+- fault: 070-fact-checker-1
+  by: fact-checker
+  file: content/joan-of-arc/.plan/070-after-her/map.yaml
+  field: "normandy-won-back.unmarked.Carentan"
+  old: "a station of kyriell-1450-formigny and clermont-1450-formigny."
+  new: "the start of clermont-1450-formigny; Kyriell's English pass it unmolested by the fords below it (Ramsay), so it is no station of kyriell-1450-formigny."
+  commit: de28cedb
+- fault: 070-fact-checker-2
+  by: fact-checker
+  file: content/joan-of-arc/.plan/070-after-her/map.yaml
+  field: "normandy-won-back.routes.clermont-1450-formigny.passage"
+  old: "Ramsay, Lancaster and York, vol. 2, ch. 8, lines 8819-8846; Beaucourt, Histoire de Charles VII, vol. 5, book 5 ch. 1, lines 1927-1940"
+  new: "Ramsay, Lancaster and York, vol. 2, ch. 8, lines 8805-8850; Beaucourt, Histoire de Charles VII, vol. 5, book 5 ch. 1, lines 1927-1940"
+  commit: de28cedb
+- fault: 070-fact-checker-3
+  by: fact-checker
+  file: content/joan-of-arc/.plan/070-after-her/map.yaml
+  field: "normandy-won-back.routes.richemont-1450-formigny"
+  old: "stations: [Saint-Lô, Formigny] | passage: \"Ramsay, Lancaster and York, vol. 2, ch. 8, lines 8838-8842; Oman, Art of War, vol. 2, book 14 ch. 2, lines 19960-19964; Beaucourt, vol. 5, book 5 ch. 1, lines 1927-1930\" | why: \"Ramsay, Oman and Beaucourt have Richemont at Saint-Lô on the night of 14 April, warned by Clermont, and coming up from Saint-Lô to the field on the 15th. No road is given, so the line joins the two places; where he came on the field is disputed (070.19), and the line ends at the village and takes no side.\""
+  new: "stations: [Saint-Lô, Trévières, Formigny] | passage: \"Ramsay, Lancaster and York, vol. 2, ch. 8, lines 8843-8847 and 8905-8909; Oman, Art of War, vol. 2, book 14 ch. 2, lines 19960-19964; Beaucourt, vol. 5, book 5 ch. 1, lines 1927-1930\" | why: \"Ramsay and Beaucourt have Richemont at Saint-Lô on the night of 14 April, warned by Clermont, and Oman has him come up from Saint-Lô to the field on the 15th; Ramsay alone has him march 'from Saint-Lô via Trévières'. No road is given between these places, so the line joins them; where he came on the field is disputed (070.19), and the line ends at the village and takes no side.\""
+  commit: de28cedb
+- fault: 070-fact-checker-3
+  by: fact-checker
+  file: content/joan-of-arc/.plan/070-after-her/map.yaml
+  field: "normandy-won-back.unmarked: the entry after Saint-Lô"
+  old: ""
+  new: "Trévières: \"a station of richemont-1450-formigny, by Ramsay's 'via Trévières'.\""
+  commit: de28cedb
+- fault: 070-fact-checker-3
+  by: fact-checker
+  file: content/joan-of-arc/.plan/names.md
+  field: "Places, Normandy and Rouen: the row after Saint-Lô"
+  old: ""
+  new: "| Trévières | the village through which Ramsay has Richemont march from Saint-Lô to Formigny on 15 April 1450; Beaucourt has the English spend the night before the battle there and at Formigny | Trévières, Calvados | 070 (070.19, Ramsay's passage) | Trevieres |"
+  commit: de28cedb
+- fault: 070-fact-checker-4
+  by: fact-checker
+  file: content/joan-of-arc/.plan/070-after-her/pages.yaml
+  field: "burgundy-changes-sides.date"
+  old: "December 1431 – September 1435"
+  new: "December 1431 – October 1435"
+  commit: de28cedb
+- fault: 070-fact-checker-5
+  by: fact-checker
+  file: content/joan-of-arc/shared/battles/castillon-1453/battle.yaml
+  field: "sides[French].commanders"
+  old: "[\"Jean Bureau\", \"the lord of Montauban\", \"the lord of La Hunaudaye\"]"
+  new: "[\"the Marshal de Lohéac\", \"the Marshal de Jalognes\", \"Jean Bureau\", \"the lord of Montauban\", \"the lord of La Hunaudaye\"]"
+  commit: de28cedb
+- fault: 070-fact-checker-5
+  by: fact-checker
+  file: content/joan-of-arc/.plan/070-after-her/battles.yaml
+  field: "castillon-1453.sides[French].commanders"
+  old: "[Jean Bureau, the lord of Montauban, the lord of La Hunaudaye]"
+  new: "[the Marshal de Lohéac, the Marshal de Jalognes, Jean Bureau, the lord of Montauban, the lord of La Hunaudaye]"
+  commit: de28cedb
+- fault: 070-fact-checker-5
+  by: fact-checker
+  file: content/joan-of-arc/.plan/names.md
+  field: "People, The French captains: the rows after the lord of La Hunaudaye"
+  old: ""
+  new: "| the Marshal de Lohéac | a marshal of France, who with the Marshal de Jalognes conducted the siege of Castillon in 1453 (Monstrelet's continuator, Beaucourt) | 070 (070.32, the passages of Beaucourt and Monstrelet's continuator) | the lord de Lohéac; le maréchal de Lohéac | and | the Marshal de Jalognes | a marshal of France, who with the Marshal de Lohéac conducted the siege of Castillon in 1453 (Monstrelet's continuator, Beaucourt) | 070 (070.32, the passages of Beaucourt and Monstrelet's continuator) | the lord de Jalognes; le maréchal de Jalognes |"
+  commit: de28cedb
+- fault: 070-fact-checker-6
+  by: overseer
+  file: content/joan-of-arc/.plan/brief.md
+  field: Map, Zones, the Sections column of the rows lorraine-1412 and bar-1412
+  old: "020 (the-voices, vaucouleurs-again, eleven-days)"
+  new: "020 (the-voices, vaucouleurs-again, eleven-days), 070 (the-retrial, with the edge of 1429 kept for 1455 – 1456)"
+  commit: de28cedb

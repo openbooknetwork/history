@@ -1,0 +1,16 @@
+- step: plan-check
+  task: plan-check
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/070-after-her/map.yaml
+    - content/joan-of-arc/.plan/070-after-her/pages.yaml
+    - content/joan-of-arc/.plan/070-after-her/battles.yaml
+    - content/joan-of-arc/shared/battles/castillon-1453/battle.yaml
+    - content/joan-of-arc/.plan/names.md
+    - content/joan-of-arc/.plan/names-070.md
+    - content/joan-of-arc/.plan/faults/070.yaml
+    - content/joan-of-arc/.plan/fixes/070.yaml
+  faults: [070-fact-checker-1, 070-fact-checker-2, 070-fact-checker-3, 070-fact-checker-4, 070-fact-checker-5, 070-fact-checker-6]
+  unresolved:
+    - "070-fact-checker-6, the brief's: the-retrial lists bar-1412 and lorraine-1412, which the brief's Map part gives for 1412 – 1429 and for 010 and 020 only. Proposed: add 070 (the-retrial) to both rows, the edge of 1429 kept for 1455–1456 as a reconstruction, as the rows gained normandy-and-troyes at plans 010 (story-overseer-1)."
+  stale: []

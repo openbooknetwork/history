@@ -9,3 +9,12 @@
   status: pass
   outputs:
     - content/joan-of-arc/.plan/050-paris-and-compiegne/pages.yaml
+- task: plan
+  step: plans
+  at: '2026-11-26T10:58:27.922Z'
+  before: null
+  inputs:
+    rules.md: 1fa000ad5b45337e
+    brief.md#050: 51b0d201182d7fc7
+    research.md#050: 7c99e67c81e1d309
+    names.md#050: 77fc5539e019c071

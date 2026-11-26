@@ -9,3 +9,12 @@
   status: pass
   outputs:
     - content/joan-of-arc/.plan/060-rouen/pages.yaml
+- task: plan
+  step: plans
+  at: '2026-11-26T10:58:27.897Z'
+  before: null
+  inputs:
+    rules.md: 1fa000ad5b45337e
+    brief.md#060: ad9e5ef4e7a94d24
+    research.md#060: 5ae9edf2208248fd
+    names.md#060: 27041d213365372b

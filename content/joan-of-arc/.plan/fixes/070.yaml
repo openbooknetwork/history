@@ -281,3 +281,65 @@
   old: "The map draws what the English still hold round these towns, approximately. ... with the last English army sent to save Normandy."
   new: "The map draws what the English still hold round these towns, approximately. Maine, English on the map of 1436, is the king's on this one, all but Fresnay. ... with the last English relief army for Normandy."
   commit: 1ee683e5
+- fault: 070-fact-checker-7
+  by: fact-checker
+  file: content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md
+  field: body, paragraph 3
+  old: "The gates are locked, but citizens let ladders down from the walls. L'Isle-Adam climbs first, carrying the banner of Charles VII and a promise of pardon for the city."
+  new: "With the gates shut, townsmen lower ladders to them, and L'Isle-Adam goes up first, bearing Charles VII's banner and the king's pardon for Paris."
+  commit: 972e0258
+- fault: 070-fact-checker-8
+  by: fact-checker
+  file: content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md
+  field: body, the paragraph that says what the map shows
+  old: "drawn approximately from Ramsay's list:"
+  new: "drawn approximately from the places the sources name:"
+  commit: 972e0258
+- fault: 070-fact-checker-9
+  by: fact-checker
+  file: content/joan-of-arc/pages/070-after-her/020-paris-opens/page.yaml
+  field: sources
+  old: |-
+    - "J. H. Ramsay, Lancaster and York, vol. 1 (Oxford, Clarendon Press, 1892), ch. 32."
+    - "A. Tuetey (ed.), Journal d'un bourgeois de Paris, 1405–1449 (Paris, 1881), §691-695."
+    - "E. de Monstrelet, Chronicles, tr. T. Johnes (London, Bohn, 1849), book 2, ch. 198."
+  new: |-
+    - "J. H. Ramsay, Lancaster and York (Oxford, Clarendon Press, 1892), vol. 1, ch. 30-33, and vol. 2, ch. 1-3 and 7."
+    - "A. Tuetey (ed.), Journal d'un bourgeois de Paris, 1405–1449 (Paris, 1881), §604, §645, §677 and §691-695."
+    - "E. de Monstrelet, Chronicles, tr. T. Johnes (London, Bohn, 1849), book 2, ch. 117, 152, 157, 198, 200 and 239, and the continuation, book 3, ch. 15."
+  commit: 972e0258
+- fault: 070-fact-checker-10
+  by: fact-checker
+  file: content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md
+  field: body, paragraph 3
+  old: "Under the direction of Jean Bureau they dig a camp east of the town by the little river Lidoire and park their guns inside it, with their Bretons on the Mont Horable to the north-east."
+  new: "Jean Bureau and his brother, who direct the artillery, have the guns kept in a camp ringed with ditches beside the Lidoire, a stream east of the town, while the Bretons hold the Mont Horable, a height to the north-east."
+  commit: 972e0258
+- fault: 070-fact-checker-11
+  by: fact-checker
+  file: content/joan-of-arc/pages/070-after-her/050-the-retrial/page.yaml
+  field: sources
+  old: "- \"H. Thurston, \\\"St. Joan of Arc\\\", The Catholic Encyclopedia, vol. 8 (New York, 1910).\""
+  new: "- \"Benedict XV, bull Divina disponente, 16 May 1920, Acta Apostolicae Sedis 12 (1920).\""
+  commit: 972e0258
+- fault: 070-fact-checker-12
+  by: fact-checker
+  file: content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md
+  field: body, paragraph 3
+  old: "wrote of her as a girl \"inspired by the divine spirit\", and Antoninus of Florence held her \"led by the spirit of God\";"
+  new: "wrote of her as a girl inspired by the divine spirit, and Antoninus of Florence held her to be led by the spirit of God;"
+  commit: 972e0258
+- fault: 070-fact-checker-13
+  by: fact-checker
+  file: content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md
+  field: body, paragraph 3
+  old: "yet early in the nineteenth century Southey"
+  new: "yet by the nineteenth century Southey"
+  commit: 972e0258
+- fault: 070-fact-checker-14
+  by: fact-checker
+  file: content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md
+  field: body, paragraph 1
+  old: "they played \"a certain mistère\""
+  new: "they played a \"certain mistère\""
+  commit: 972e0258

@@ -14,3 +14,44 @@
   unresolved:
     - "070-fact-checker-6, the brief's: the-retrial lists bar-1412 and lorraine-1412, which the brief's Map part gives for 1412 – 1429 and for 010 and 020 only. Proposed: add 070 (the-retrial) to both rows, the edge of 1429 kept for 1455–1456 as a reconstruction, as the rows gained normandy-and-troyes at plans 010 (story-overseer-1)."
   stale: []
+- step: facts
+  task: check
+  status: pass
+  changed_files:
+    - content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md
+    - content/joan-of-arc/pages/070-after-her/020-paris-opens/page.yaml
+    - content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md
+    - content/joan-of-arc/pages/070-after-her/050-the-retrial/page.yaml
+    - content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md
+    - content/joan-of-arc/.plan/faults/070.yaml
+    - content/joan-of-arc/.plan/fixes/070.yaml
+  faults: [070-fact-checker-7, 070-fact-checker-8, 070-fact-checker-9, 070-fact-checker-10, 070-fact-checker-11, 070-fact-checker-12, 070-fact-checker-13, 070-fact-checker-14]
+  unresolved:
+    - "070.1 disputed: body gives Sunday 16 December 1431 (the Bourgeois, Ramsay); the note gives Monstrelet's 17th."
+    - "070.8 disputed: body gives April 1436 and no day; the note gives Ramsay's 10 April and Monstrelet's Thursday before the entry."
+    - "070.12 disputed: body gives May 1444; the note gives Ramsay's 28 May and the 20 May of the text in Monstrelet."
+    - "070.18 disputed: body gives 15 April 1450 (Oman, Ramsay, Beaucourt); the note gives the continuator's 18th."
+    - "070.19, 070.20, 070.21 disputed: body tells what the accounts share and the 3,774 of Oman and Beaucourt; the notes give each author's line, strengths and dead."
+    - "070.22 open: body says the French loss is not known and their chroniclers name about a dozen."
+    - "070.25 disputed: body gives 30 June 1451 (Ramsay, Beaucourt); the note gives Oman's August."
+    - "070.28 disputed: body gives October 1452; the note gives Ramsay's 20th and Beaucourt's 23rd."
+    - "070.31, 070.32, 070.33 disputed: body tells Talbot killed; the notes give each author's forces and each manner of his death."
+    - "070.36 disputed: body gives February 1450; the note gives Murray's 13 and Beaucourt's 15 February."
+    - "070.37 disputed: the note gives the legate's own authority (Beaucourt), the mother's request (Murray) and Lowell's petition in Charles VII's name."
+    - "070.42 disputed: the note gives Murray's counts, Lowell's more than a hundred and the bull's 123."
+    - "070.59 disputed for the day: body gives April 1432."
+  stale: []
+  turns_on:
+    - "070.4, the Anglo-Burgundian alliance ended at Arras: Ramsay 1, ch. 32; Beaucourt 2, book 2 ch. 12"
+    - "070.5, the war's last stage from Arras: Ramsay 1, ch. 32, told with his name"
+    - "070.10, Paris opened on 13 April 1436: Ramsay 1, ch. 32; the Bourgeois §692; Monstrelet book 2, ch. 198"
+    - "070.17, Kyriell's the last English relief army for Normandy: Ramsay 2, ch. 8"
+    - "070.18, Formigny a French victory on 15 April 1450: Oman, book 14 ch. 2; Ramsay 2, ch. 8; Beaucourt 5, book 5 ch. 1"
+    - "070.21, the English dead at Formigny: Oman; Beaucourt 5; Monstrelet's continuator, ch. 29"
+    - "070.24, Cherbourg the last English hold in Normandy: Ramsay 2, ch. 8; Beaucourt 5, book 5 ch. 1"
+    - "070.26, Calais alone left: Beaucourt 5, book 5 ch. 2; Lowell, ch. 25"
+    - "070.29, 070.33, Castillon won by the French and Talbot killed: Ramsay 2, ch. 10; Beaucourt 5, book 5 ch. 9; Monstrelet's continuator; Oman"
+    - "070.35, the war's end on 19 October 1453: Ramsay 2, ch. 10; Beaucourt 5, book 5 ch. 9"
+    - "070.43, 070.44, the sentence of 1431 declared null on 7 July 1456: Murray, Introductory Note and Sentence; Lowell, ch. 25; Beaucourt 5, book 6 ch. 1"
+    - "070.54, the canonisation of 16 May 1920: Renoux; AAS 12, the bull and the homily; Thurston"
+  checked: { burgundy-changes-sides: 16, paris-opens: 24, normandy-won-back: 31, castillon: 33, the-retrial: 25, afterwards: 19, card formigny-1450: 11, card castillon-1453: 12 }

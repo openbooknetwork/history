@@ -339,3 +339,105 @@
   introduced: texts
   owner: section-writer
   state: open
+- id: 070-fact-checker-7
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md
+  field: body, paragraph 3
+  replaces: clause
+  old: "The gates are locked, but citizens let ladders down from the walls. L'Isle-Adam climbs first, carrying the banner of Charles VII and a promise of pardon for the city."
+  new: "With the gates shut, townsmen lower ladders to them, and L'Isle-Adam goes up first, bearing Charles VII's banner and the king's pardon for Paris."
+  source: "Ramsay 1, ch. 32 (archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt), lines 29408-29412: \"The gates being locked, friendly hands let down ladders from the walls, and L'Isle-Adam led the way, mounting with the banner of Charles VII, and a proclamation of amnesty for Paris.\" The two sentences followed Ramsay's clauses in his order, word for word in synonyms."
+  kind: wording
+  claim: "070.10"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-fact-checker-8
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md
+  field: body, the paragraph that says what the map shows
+  replaces: clause
+  old: "drawn approximately from Ramsay's list:"
+  new: "drawn approximately from the places the sources name:"
+  source: "Ramsay's list (070.7, Ramsay 1, ch. 32, line 29355) is of the places lost: Dieppe, the Caux, Pontoise, Charenton, Brie-Comte-Robert, Saint-Germain-en-Laye, Corbeil, Vincennes. What the sentence then lists as held rests on other works too: Maine on Lowell's provinces of 1428 (text.yaml, paris-opens), Meaux, Creil, Montereau and Mantes on Monstrelet ch. 200, 239, 152 and book 3 ch. 15 and on Ramsay 2 (070.60, 070.64, 070.65, 070.66), Beaumont and Crépy on Monstrelet ch. 157 and the Bourgeois §645 (070.61)."
+  kind: attribution
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-fact-checker-9
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/020-paris-opens/page.yaml
+  field: sources
+  replaces: value
+  old: "Ramsay vol. 1, ch. 32; the Bourgeois §691-695; Monstrelet book 2, ch. 198"
+  new: "Ramsay vol. 1, ch. 30-33, and vol. 2, ch. 1-3 and 7; the Bourgeois §604, §645, §677 and §691-695; Monstrelet book 2, ch. 117, 152, 157, 198, 200 and 239, and the continuation, book 3, ch. 15"
+  source: "The text's map paragraph tells Chartres taken in April 1432 (070.59: Ramsay 1 ch. 30, the Bourgeois §604, Monstrelet ch. 117), Beaumont and Crépy won back in 1434 (070.61: Ramsay 1 ch. 31, Monstrelet ch. 157, the Bourgeois §645), Meulan lost in September 1435 (070.63: Ramsay 1 ch. 32, the Bourgeois §677), and Meaux, Creil, Montereau and Mantes English after April 1436 (070.60, 070.64, 070.65, 070.66: Ramsay 1 ch. 30 and 33, Ramsay 2 ch. 1, 2, 3 and 7, Monstrelet ch. 152, 200, 239 and book 3 ch. 15). The page listed only the chapters of the fall of Paris. Lowell's provinces of 1428, behind 'most of Maine', are 010's and are not added."
+  kind: sources
+  introduced: plan
+  owner: section-reviewer
+  state: fixed
+- id: 070-fact-checker-10
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md
+  field: body, paragraph 3
+  replaces: clause
+  old: "Under the direction of Jean Bureau they dig a camp east of the town by the little river Lidoire and park their guns inside it, with their Bretons on the Mont Horable to the north-east."
+  new: "Jean Bureau and his brother, who direct the artillery, have the guns kept in a camp ringed with ditches beside the Lidoire, a stream east of the town, while the Bretons hold the Mont Horable, a height to the north-east."
+  source: "Ramsay 2, ch. 10 (archive.org-download-cu31924088011436-cu31924088011436-djvu.txt.txt), passage of 070.32: \"The first step taken by the French was to entrench a camp, on the east side of the town, on the Lidoire, a small affluent of the Dordogne. Within this stronghold the artillery was parked ... the Bretons were stationed as a rear-guard on the Mont Horable, near Capitourlans, on the North-East\": the sentence kept his clauses in his order. The new wording rests also on Monstrelet's continuator (archive.org-download-chroniclesengue07johngoog-chroniclesengue07johngoog-djvu.txt.txt, lines 17393-17397): \"under the direction of master John Bureau and his brother Jasper Bureau, master of the artillery ... The two brothers first ordered the park of artillery to be strongly surrounded with ditches\"."
+  kind: wording
+  claim: "070.29"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-fact-checker-11
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/050-the-retrial/page.yaml
+  field: sources
+  replaces: clause
+  old: "H. Thurston, \"St. Joan of Arc\", The Catholic Encyclopedia, vol. 8 (New York, 1910)."
+  new: "Benedict XV, bull Divina disponente, 16 May 1920, Acta Apostolicae Sedis 12 (1920)."
+  source: "The text's third note gives 'The bull of canonisation of 1920 gives 123' (070.42: vatican.va-archive-aas-documents-AAS-12-1920-ocr.txt, p. 524, \"centum ac viginti tres testes\"), and the page did not list the bull. Thurston, listed for 070.44 (the appellate court), is cited for nothing the text now says."
+  kind: sources
+  claim: "070.42"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-fact-checker-12
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md
+  field: body, paragraph 3
+  replaces: clause
+  old: "wrote of her as a girl \"inspired by the divine spirit\", and Antoninus of Florence held her \"led by the spirit of God\";"
+  new: "wrote of her as a girl inspired by the divine spirit, and Antoninus of Florence held her to be led by the spirit of God;"
+  source: "vatican.va-archive-aas-documents-AAS-12-1920-ocr.txt, the bull Divina disponente, p. 524: \"divum Antoninum, qui in suis historiis Puellam « spiritu Dei ductam » existimabat, et Pium Secundum ... « Puella ... divino afflata spiritu »\". The file has the words in Latin; the English in quotation marks was the book's translation shown as the authors' own words. Antoninus as archbishop of Florence: Beaucourt 5, line 10494, \"Antonin, archevêque de Florence\"."
+  kind: attribution
+  claim: "070.48"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-fact-checker-13
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md
+  field: body, paragraph 3
+  replaces: clause
+  old: "yet early in the nineteenth century Southey"
+  new: "yet by the nineteenth century Southey"
+  source: "newadvent.org-cathen-08409c.txt, Thurston: \"By the beginning of the nineteenth century the sympathy for her even in England was general. Such writers as Southey, Hallam, Sharon Turner, Carlyle, Landor, and, above all, De Quincey greeted the Maid with a tribute of respect\". Thurston dates the general sympathy, not the writers' tributes, to the beginning of the century."
+  kind: fact
+  claim: "070.49"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-fact-checker-14
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md
+  field: body, paragraph 1
+  replaces: clause
+  old: "they played \"a certain mistère\""
+  new: "they played a \"certain mistère\""
+  source: "archive.org-download-ProcesDeCondamnationV5-ProcesDeCondamnationV5-djvu.txt.txt, Quicherat 5, the city accounts of Orléans for 1435, p. 309: \"que ilz firent certain mistère ou boloart du pont, durant la procession\". The quotation marks held a word the accounts do not have."
+  kind: attribution
+  claim: "070.46"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed

@@ -25,3 +25,20 @@
   faults: []
   unresolved: []
   stale: []
+- step: story
+  task: fix
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plans/pages030.mjs
+    - content/joan-of-arc/pages/030-orleans/020-the-army-of-blois/page.yaml
+    - content/joan-of-arc/pages/030-orleans/020-the-army-of-blois/markers.yaml
+    - content/joan-of-arc/pages/030-orleans/020-the-army-of-blois/text/en.md
+    - content/joan-of-arc/.plan/030-orleans/pages.yaml
+    - content/joan-of-arc/.plan/030-orleans/map.yaml
+    - content/joan-of-arc/.plan/faults/030.yaml
+    - content/joan-of-arc/.plan/fixes/030.yaml
+    - content/joan-of-arc/.plan/handoff/cartographer.md
+  faults: []
+  unresolved: []
+  stale:
+    - content/joan-of-arc/pages/030-orleans/020-the-army-of-blois/text/en.md

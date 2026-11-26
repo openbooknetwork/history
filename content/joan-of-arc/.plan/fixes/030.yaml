@@ -920,3 +920,38 @@
   old: "In his account of 1456 she asks"
   new: "In his account at the retrial she asks"
   commit: aa448627
+- fault: 030-story-auditor-1
+  by: cartographer
+  file: content/joan-of-arc/.plans/pages030.mjs and content/joan-of-arc/pages/030-orleans/020-the-army-of-blois/page.yaml, markers.yaml
+  field: the-army-of-blois, markers
+  old: "[bastille-saint-laurent, bastille-london, bastille-rouen, bastille-paris, ile-charlemagne, belle-croix, boucher-house]"
+  new: "[bastille-saint-laurent, bastille-london, bastille-rouen, bastille-paris, ile-charlemagne, belle-croix, boucher-house, saint-loup-april-1429, saint-jean-le-blanc-april-1429, augustins-april-1429, saint-prive-april-1429, tourelles-april-1429], each new marker english, at the point of the same fort on the page of its fall"
+  commit: 5783ce3a
+- fault: 030-story-auditor-1
+  by: cartographer
+  file: content/joan-of-arc/.plan/030-orleans/pages.yaml
+  field: the-army-of-blois.markers
+  old: "[bastille-saint-laurent, bastille-london, bastille-rouen, bastille-paris, ile-charlemagne, belle-croix, boucher-house]"
+  new: "[bastille-saint-laurent, bastille-london, bastille-rouen, bastille-paris, ile-charlemagne, belle-croix, boucher-house, saint-loup-april-1429, saint-jean-le-blanc-april-1429, augustins-april-1429, saint-prive-april-1429, tourelles-april-1429]"
+  commit: 5783ce3a
+- fault: 030-story-auditor-1
+  by: cartographer
+  file: content/joan-of-arc/.plan/030-orleans/map.yaml
+  field: the-army-of-blois.markers and the-army-of-blois.unmarked
+  old: "unmarked: the Tourelles, Saint-Loup, the south-bank bastilles, the Augustins"
+  new: "the five new markers, saint-loup-april-1429 to tourelles-april-1429, each with its what, basis reconstruction and why; the four unmarked rows removed"
+  commit: 5783ce3a
+- fault: 030-story-auditor-1
+  by: cartographer
+  file: content/joan-of-arc/pages/030-orleans/020-the-army-of-blois/text/en.md
+  field: body, paragraph 1
+  old: "and Saint-Loup to the east. On the south bank are Saint-Jean-le-Blanc, the Augustins, Saint-Privé and the Tourelles,"
+  new: "and [Saint-Loup](@saint-loup-april-1429) to the east. On the south bank are [Saint-Jean-le-Blanc](@saint-jean-le-blanc-april-1429), [the Augustins](@augustins-april-1429), [Saint-Privé](@saint-prive-april-1429) and [the Tourelles](@tourelles-april-1429),"
+  commit: 5783ce3a
+- fault: none
+  by: cartographer
+  file: content/joan-of-arc/.plans/pages030.mjs
+  field: markers, image
+  old: "the five placeholder names (blois-loire-bridge, saint-laurent-orleans-church, maison-jeanne-d-arc-orleans, loire-at-orleans-islands, tourelles-site-monument)"
+  new: "the placed image ids of markers.yaml (blois-loire-bridge-f8aa18, saint-laurent-orleans-church-f5316f, maison-jeanne-d-arc-orleans-18e7c2, loire-at-orleans-islands-b58242, tourelles-site-monument-3e7301), so a rerun keeps them; no page file changed by it"
+  commit: 5783ce3a

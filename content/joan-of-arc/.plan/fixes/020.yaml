@@ -696,3 +696,45 @@
   old: "The Battle of the Herrings, with the convoy's wagons and barrels, in a miniature of about 1470–1479 attributed to Philippe de Mazerolles (BnF, Français 2691)."
   new: "The Battle of the Herrings, with the convoy's wagons and barrels, in a miniature of about 1470–1479 attributed to Philippe de Mazerolles (manuscript Français 2691)."
   commit: ec0556aa
+- fault: 020-story-auditor-1
+  by: cartographer
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/030-vaucouleurs-again/page.yaml
+  field: markers
+  old: "[vaucouleurs-1429, nancy-1429, saint-nicolas-de-port]"
+  new: "[vaucouleurs-1429, burey-1429, nancy-1429, saint-nicolas-de-port]"
+  commit: 5783ce3a
+- fault: 020-story-auditor-1
+  by: cartographer
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/030-vaucouleurs-again/markers.yaml
+  field: burey-1429
+  old: ""
+  new: "burey-1429: lnglat [5.666, 48.562], icon house, color france, label \"Burey\", note \"Durand Laxart's village, where Joan stays before she goes on to Vaucouleurs\" (written by content/joan-of-arc/.plans/pages020.mjs)"
+  commit: 5783ce3a
+- fault: 020-story-auditor-1
+  by: cartographer
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/030-vaucouleurs-again/text/en.md
+  field: "body, paragraph 1"
+  old: "from his village of Burey back"
+  new: "from his village of [Burey](@burey-1429) back"
+  commit: 5783ce3a
+- fault: 020-story-auditor-1
+  by: cartographer
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+  field: vaucouleurs-again.markers
+  old: "[vaucouleurs-1429, nancy-1429, saint-nicolas-de-port]"
+  new: "[vaucouleurs-1429, burey-1429, nancy-1429, saint-nicolas-de-port]"
+  commit: 5783ce3a
+- fault: 020-story-auditor-1
+  by: cartographer
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/map.yaml
+  field: vaucouleurs-again.markers, vaucouleurs-again.unmarked
+  old: "unmarked Burey: \"Laxart's village, a station of joan-1429-burey; a few kilometres from Vaucouleurs, it would stand under its icon.\""
+  new: "markers burey-1429: { name: Burey, what: \"Durand Laxart's village ...; a station of joan-1429-burey, about 48.56 N 5.67 E ...\", basis: sourced }; Burey out of unmarked"
+  commit: 5783ce3a
+- fault: 020-story-auditor-1
+  by: cartographer
+  file: content/joan-of-arc/.plans/pages020.mjs
+  field: "vaucouleurs-again markers; image names of every page"
+  old: "no burey-1429; image placeholders (vaucouleurs-castle-hill, nancy-ducal-palace, saint-nicolas-de-port-church, vaucouleurs-porte-de-france, auxerre-cathedral, chinon-castle, fierbois-church)"
+  new: "burey-1429 added; the placed image ids (vaucouleurs-castle-hill-fabfe6, nancy-ducal-palace-54c40d, saint-nicolas-de-port-church-38d98d, vaucouleurs-porte-de-france-1521c9, auxerre-cathedral-32875a, chinon-castle-3d41a9, fierbois-church-25956f), so a run leaves the placed images as they stand"
+  commit: 5783ce3a

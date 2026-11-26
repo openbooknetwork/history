@@ -11,3 +11,19 @@
   faults: [020-cartographer-1]
   unresolved: []
   stale: []
+- step: story
+  task: fix
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plans/pages020.mjs
+    - content/joan-of-arc/pages/020-the-road-to-chinon/030-vaucouleurs-again/page.yaml
+    - content/joan-of-arc/pages/020-the-road-to-chinon/030-vaucouleurs-again/markers.yaml
+    - content/joan-of-arc/pages/020-the-road-to-chinon/030-vaucouleurs-again/text/en.md
+    - content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+    - content/joan-of-arc/.plan/020-the-road-to-chinon/map.yaml
+    - content/joan-of-arc/.plan/faults/020.yaml
+    - content/joan-of-arc/.plan/fixes/020.yaml
+    - content/joan-of-arc/.plan/handoff/cartographer.md
+  faults: []
+  unresolved: []
+  stale: []

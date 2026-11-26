@@ -67,3 +67,10 @@
   base map's land; route-surface passes it), the Médoc landing [-1.11, 45.49] with [-0.93, 45.25] to keep west of
   the Gironde, Branne [-0.186, 44.829]. Clermont's and Kyriell's lines share the stretch to Formigny, so Clermont's
   route carries `offset: 5`. names-check fails "the witnesses of ..." in a note: write "witnesses of ...".
+- Since the images were placed, a page's markers.yaml holds image ids (`nancy-ducal-palace-54c40d`) where a
+  section's generator may still name the placeholder. Before you run a generator on a fix, run it once and `git diff`
+  the section: bring the generator up to the files (020's now is), or a run puts the placeholders back.
+- Once the images are placed, a generator's `image:` must hold the placed id (`blois-loire-bridge-f8aa18`), not the
+  placeholder, or a rerun undoes the placing. 030's generator holds the ids now; check the others before a rerun.
+- A page whose text lists places of a later page (030's the-army-of-blois and the whole ring of bastilles) marks each
+  with a dated id of its own (`saint-loup-april-1429`) at the later page's point, and the text links it.

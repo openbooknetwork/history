@@ -12,3 +12,13 @@
     - "070.50 the Orléans feast stopped in 1793 and restored in 1803 rests on France's Life, which rules.md does not let a text rest on alone. Proposed: leave it out of afterwards unless Warner is read."
   stale: []
   counts: {agreed: 31, single: 11, disputed: 11, open: 1}
+- step: maps
+  task: add
+  status: faults
+  changed_files: [content/joan-of-arc/.plan/research.md, content/joan-of-arc/.plan/faults/story.yaml, content/joan-of-arc/.plan/fixes/story.yaml]
+  faults: [story-researcher-1, story-researcher-2]
+  unresolved:
+    - "070.59 the day Chartres fell in 1432: the eve of Palm Sunday, 12 April (the Bourgeois, Ramsay's note) or 20 April (Monstrelet). Proposed: April 1432, or 12 April with Monstrelet's day named."
+  stale: [content/joan-of-arc/.plan/passages-070.md]
+  added: "070.55-070.66, the English holds of 1430 to 1436 that story-map-auditor-1 and story-map-auditor-2 name, with the Coverage line of 070"
+  counts: {agreed: 8, single: 4, disputed: 0, open: 0}

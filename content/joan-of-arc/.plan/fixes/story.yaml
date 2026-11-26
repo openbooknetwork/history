@@ -188,3 +188,10 @@
   old: "T: no saint_urbain, no rouvray; english-1428 inside: ..., 'saint_florentin', 'calais', ...; english-siege-1428 inside: ..., 'patay', 'saint_laurent', ..."
   new: "T: saint_urbain: [5.19, 48.40], rouvray: [1.95, 48.27]; english-1428 inside: ..., 'saint_florentin', 'saint_urbain', 'calais', ...; english-siege-1428 inside: ..., 'patay', 'rouvray', 'saint_laurent', ..."
   commit: bb3230a1
+- fault: story-researcher-2
+  by: researcher
+  file: content/joan-of-arc/.plan/faults/story.yaml
+  field: "story-overseer-4.ruling"
+  old: "ruling: cloud ruling, the careful side: land that no source gives the kingdom stays out of its zone"
+  new: "ruling: \"cloud ruling, the careful side: land that no source gives the kingdom stays out of its zone\""
+  commit: 8fd863ba

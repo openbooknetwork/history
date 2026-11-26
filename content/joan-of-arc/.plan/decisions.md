@@ -152,3 +152,4 @@
   Pyrenees".
 - cloud ruling: the keeper's estimated lines stand as reconstructions — each chapter's text calls its borders
   approximate once, and the text of `domremy` gives both accounts of whose land the village was.
+- maps: twelve lines added to the digest, 070.55 to 070.66, on the holds of 1430 to 1449 (researcher, task add); Clermont and Sens are French by 1436 (story-researcher-1, open for the map keeper), against the auditor's proposal for english-1436. The day Chartres fell in 1432 is told as April 1432 — cloud ruling, the rule of a disputed day.

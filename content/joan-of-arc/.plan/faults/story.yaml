@@ -274,7 +274,7 @@
   introduced: maps
   owner: map-keeper
   state: open
-  ruling: cloud ruling, the careful side: land that no source gives the kingdom stays out of its zone
+  ruling: "cloud ruling, the careful side: land that no source gives the kingdom stays out of its zone"
 - id: story-overseer-5
   severity: wrong
   file: content/joan-of-arc/.plans/zones.mjs
@@ -286,3 +286,26 @@
   owner: map-keeper
   state: open
   ruling: cloud ruling, the careful side
+- id: story-researcher-1
+  severity: wrong
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "z.zone('english-1436', ...): the towns story-map-auditor-1 keeps English"
+  new: "Of the towns story-map-auditor-1 keeps in english-1436, two are not English on 13 April 1436 by the digest: Clermont-en-Beauvaisis, which Talbot took in 1434, was taken from its governor by La Hire before the Congress of Arras (070.62), and Sens is in Charles VII's obedience from 1430 (070.58). Leave both out of english-1436 or its holds. The others it names have claims now: Meaux English to August 1439 (070.60), Creil to May 1441 (070.61, 070.64), Beaumont-sur-Oise and Crépy retaken in 1434 (070.61), Pont-Sainte-Maxence and Meulan lost in 1435 (070.63), Montereau English to October 1437 (070.65), Mantes to August 1449 (070.66), Chartres French from April 1432 (070.59), Aumale and Blangy won back in 1430 (070.55, 070.56) and Aumale still English after April 1436 (070.57). No source read gives who held Étampes from 1430 to 1436 (the Coverage line of 070), so it stays out under rules.md, The careful side."
+  source: "Monstrelet A (archive.org-download-chroniclesengue06johngoog-chroniclesengue06johngoog-djvu.txt.txt), book 2 ch. 164: 'La Hire laid hands on him, and forced him to surrender the castle' (the castle of Clermont in the Beauvaisis, of which the lord d'Auffemont was governor); Beaucourt 2, book 2 ch. 6, p. 267, of 1430: 'le Roi resta à Sens, où il passa les mois d'août et de septembre'"
+  kind: map
+  claim: "070.62"
+  introduced: map-design
+  owner: map-keeper
+  state: open
+- id: story-researcher-2
+  severity: wrong
+  file: content/joan-of-arc/.plan/faults/story.yaml
+  field: "story-overseer-4.ruling"
+  replaces: value
+  old: "cloud ruling, the careful side: land that no source gives the kingdom stays out of its zone (unquoted)"
+  new: "the same text in double quotes"
+  source: "js-yaml and PyYAML both stop on line 277 of faults/story.yaml: 'mapping values are not allowed here', the colon after 'the careful side' read as a key"
+  kind: check
+  introduced: ruling
+  owner: overseer
+  state: fixed

@@ -11,3 +11,18 @@
     070-after-her/pages.yaml#castillon: d1c74d2c3004e945
     070-after-her/pages.yaml#the-retrial: 4b8fa922c387cdf4
     070-after-her/pages.yaml#afterwards: ff124eae8ef8b238
+- task: add
+  step: maps
+  at: '2026-11-26T12:41:28.207Z'
+  note: The gap is the Ramsay passages that story-map-auditor-1 and story-map-auditor-2 of faults/story.yaml name by line, on the English holds of 1430 to 1436, which the digest lacks.
+  before: null
+  inputs:
+    rules.md: 68d19bd3019bf769
+    sources.md: 4098e649215e45e4
+    070-after-her/pages.yaml#burgundy-changes-sides: 078f1896ecd21580
+    070-after-her/pages.yaml#paris-opens: 3ced0a209b4382c8
+    070-after-her/pages.yaml#normandy-won-back: c64a453832e88be7
+    070-after-her/pages.yaml#castillon: 113bc37179a9cd9a
+    070-after-her/pages.yaml#the-retrial: 3d1a029818a0ad48
+    070-after-her/pages.yaml#afterwards: 425306006d04b944
+    note: ff46bf2f1f67ac4d

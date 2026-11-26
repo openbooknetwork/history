@@ -517,3 +517,13 @@
   introduced: plan
   owner: section-coordinator
   state: fixed
+- id: 030-overseer-1
+  severity: weak
+  file: content/joan-of-arc/.plan/030-orleans/text.yaml
+  field: images, the entry meung-castle
+  new: the entry is taken out; the image stands once in the story, on 040 meung-and-beaugency
+  source: "rules.md, an image stands once in the story (reports/060-section-coordinator.yaml lists the four names planned twice)"
+  kind: image
+  introduced: plan
+  owner: section-coordinator
+  state: fixed

@@ -238,3 +238,17 @@
   old: "about 47.896 N 1.903 E"
   new: "about 47.896 N 1.907 E"
   commit: fe2878c8
+- fault: 020-overseer-2
+  by: overseer
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/text.yaml
+  field: images, the entry domremy-saint-remy-church
+  old: '- { name: domremy-saint-remy-church, shows: "the church of Saint-Rémy at Domrémy, beside the house where she was born", "on": marker domremy-voices }'
+  new: ''
+  commit: 58ca455d
+- fault: 020-overseer-3
+  by: overseer
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/text.yaml
+  field: images, the entry beaugency-keep
+  old: '- { name: beaugency-keep, shows: "the keep of Beaugency and the old bridge over the Loire", "on": marker beaugency-1428 }'
+  new: ''
+  commit: 58ca455d

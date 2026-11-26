@@ -112,3 +112,4 @@
 - wave 030 040: done, 26 Nov 2026, at `plans` and `plan-check`. The plans and the cards of Orléans, Jargeau and Patay.
   The fact checkers wrote 15 faults in 030 and 19 in 040 and fixed them all: a route of 040 in the wrong family,
   the order of the crossing of 6 May, a garrison figure given to the wrong author. None is open.
+- plans: four images planned twice (the church of Domrémy, the keep of Beaugency, the castle of Meung, the cathedral of Troyes) each keep one page, 010, 040, 040 and 010, and the rule "an image stands once in the story" is in `rules.md` — the 060 coordinator found the pairs and no rule settled them (020-overseer-2, 020-overseer-3, 030-overseer-1, 040-overseer-1).

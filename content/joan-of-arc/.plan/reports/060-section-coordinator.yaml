@@ -10,3 +10,13 @@
   pages: 6
   pages_expected: 6
   phase_battles: []
+- step: plans
+  task: plan
+  status: pass
+  changed_files: [content/joan-of-arc/.plan/060-rouen/pages.yaml, content/joan-of-arc/.plan/060-rouen/map.yaml, content/joan-of-arc/.plan/060-rouen/text.yaml, content/joan-of-arc/.plan/060-rouen/battles.yaml, content/joan-of-arc/.plan/faults/060.yaml, content/joan-of-arc/.plan/fixes/060.yaml]
+  faults: [060-section-coordinator-1, 060-section-coordinator-2, 060-section-coordinator-3, 060-section-coordinator-4, 060-section-coordinator-5]
+  unresolved: []
+  stale: []
+  pages: 6
+  pages_expected: 6
+  single_disputed_pages: [beaulieu-and-beaurevoir, sold-to-the-english, the-court, the-questioning, saint-ouen, the-old-market]

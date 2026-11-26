@@ -371,3 +371,10 @@
     '
   new: "come in on 3 May, and Ramsay has the force from Gien and Montargis join the army from Blois before it came in; outside the frame, told and not drawn.\"\n    Château-Renard: \"the Chronique has its garrison come in on 3 May with those of Gien and Montargis; outside the frame, told and not drawn.\"\n"
   commit: fe2878c8
+- fault: 030-overseer-1
+  by: overseer
+  file: content/joan-of-arc/.plan/030-orleans/text.yaml
+  field: images, the entry meung-castle
+  old: '- { name: meung-castle, shows: "the castle of Meung above the Loire", "on": marker meung-may-1429 }'
+  new: ''
+  commit: 58ca455d

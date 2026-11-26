@@ -229,3 +229,10 @@
   old: "Chartier: 600 to 700; Cagny: 700 to 800; Lowell, after Alençon: about 600; Monstrelet: 300 to 400, with the townsmen"
   new: "Chartier: 600 to 700; Cagny: 700 to 800; Lowell: about 600; Monstrelet: 300 to 400, with the townsmen"
   commit: fe2878c8
+- fault: 040-overseer-1
+  by: overseer
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/text.yaml
+  field: images, the entry troyes-cathedral
+  old: '- { name: troyes-cathedral, shows: "the cathedral of Saint-Pierre-et-Saint-Paul at Troyes", "on": marker troyes-1429 }'
+  new: ''
+  commit: 58ca455d

@@ -371,3 +371,23 @@
   introduced: plan
   owner: section-coordinator
   state: fixed
+- id: 020-overseer-2
+  severity: weak
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/text.yaml
+  field: images, the entry domremy-saint-remy-church
+  new: the entry is taken out; the image stands once in the story, on 010 domremy
+  source: "rules.md, an image stands once in the story (reports/060-section-coordinator.yaml lists the four names planned twice)"
+  kind: image
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 020-overseer-3
+  severity: weak
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/text.yaml
+  field: images, the entry beaugency-keep
+  new: the entry is taken out; the image stands once in the story, on 040 meung-and-beaugency
+  source: "rules.md, an image stands once in the story (reports/060-section-coordinator.yaml lists the four names planned twice)"
+  kind: image
+  introduced: plan
+  owner: section-coordinator
+  state: fixed

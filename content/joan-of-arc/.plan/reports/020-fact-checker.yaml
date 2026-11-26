@@ -73,3 +73,21 @@
     - "020.58, the convoy gathering at Blois under the marshals de Rais and de Boussac: Dunois (Murray, 12025-12031, 'the Sieurs de Rais and de Boussac, Marshals of France'); Lowell ch. 8, 4155."
     - "020.43, her coming to Chinon in late February or early March: Lowell ch. 5 note; the Continuator of Nangis; Beaucourt book 2 ch. 5."
   checked: "the 15 fixes of 020-section-reviewer-1 to 15 against git diff 014308f6: the-voices 3, salisbury-on-the-loire 9, vaucouleurs-again 2, eleven-days 3, chinon-and-poitiers 9 claims"
+- step: edit
+  task: recheck
+  status: pass
+  changed_files:
+    - content/joan-of-arc/shared/images/salisbury-struck-miniature-686363/image.yaml
+    - content/joan-of-arc/shared/images/herrings-miniature-0a7b03/image.yaml
+    - content/joan-of-arc/.plan/faults/020.yaml
+    - content/joan-of-arc/.plan/fixes/020.yaml
+  faults: [020-fact-checker-23, 020-fact-checker-24]
+  unresolved:
+    - "020.30, the council's retreat: now 'to Dauphiné' alone (020-overseer-4), as the Journal and Ramsay give it; the earlier question of Lowell's Languedoc is closed."
+    - "020.51 (open), the sign: 'at first she would say no more' (020-editor-8) and 'What the sign was is not known' both stand; Barrett 1868 refuses it, 2235-2266 tell it in March."
+  stale:
+    - ".cache/joan-of-arc-strict (built before the two caption fixes)"
+  turns_on:
+    - "020.58, the convoy gathering at Blois, which she reached about 25 April (the marker's 'late April 1429'): Dunois (Murray, 12025-12029); Lowell ch. 8, 4151."
+    - "020.20, William de la Pole, Earl of Suffolk, in command after Salisbury: Ramsay ch. 26, 24317-24318; Monstrelet book 2 ch. 52, 38653."
+  checked: "the fixes after 4b94d325 against git diff 4b94d325 and aa448627: 020-section-reviewer-16 and 17, 020-map-auditor-4, 020-overseer-4, 020-editor-4 to 10; the-voices 1, salisbury-on-the-loire 2, vaucouleurs-again 1, chinon-and-poitiers 6 claims, 1 marker note; 9 image captions against .candidates/the-road-to-chinon/index.yaml"

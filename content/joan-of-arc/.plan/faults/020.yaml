@@ -1008,3 +1008,27 @@
   owner: editor
   state: fixed
   between: "020 chinon-and-poitiers alone: the words the introduction of La Hire and the account of the sign took"
+- id: 020-fact-checker-23
+  severity: weak
+  file: content/joan-of-arc/shared/images/salisbury-struck-miniature-686363/image.yaml
+  field: caption
+  replaces: clause
+  old: "in a miniature of about 1484 from the Vigiles de Charles VII of Martial d'Auvergne."
+  new: "in a miniature of about 1484."
+  source: ".candidates/the-road-to-chinon/index.yaml, salisbury-on-the-loire, 03-Si_ge_d_Orl_ans_1428_.jpg (File:Siège d'Orléans (1428).jpg): author \"Unknown author\", date \"circa 1484\", description \"Thomas Montagu, 4th Earl of Salisbury is fatally injured at the siege of Orléans in 1428.\" The Vigiles de Charles VII stands only in the entries of other files (02-Siege_orleans.jpg, 06-Vigiles_du_roi_Charles_VII_18.jpg), Martial d'Auvergne in the title of 10-Le_si_ge_d_Orl_ans_-_Martial.jpg, and neither in research/*.md: names a caption may not carry, as fact-checker step 9 says."
+  kind: image
+  introduced: images
+  owner: image-finder
+  state: fixed
+- id: 020-fact-checker-24
+  severity: weak
+  file: content/joan-of-arc/shared/images/herrings-miniature-0a7b03/image.yaml
+  field: caption
+  replaces: clause
+  old: "(BnF, Français 2691)."
+  new: "(manuscript Français 2691)."
+  source: ".candidates/the-road-to-chinon/index.yaml, salisbury-on-the-loire, 17-Fran_ais_2691_folio_17v.jpg: title \"Français 2691, folio 17v.jpg\", author \"Attributed to Philippe de Mazerolles\", date \"circa 1470-1479\", description \"The Battle of the Herrings.\" The library's name stands neither in the entry nor in research/*.md."
+  kind: image
+  introduced: images
+  owner: image-finder
+  state: fixed

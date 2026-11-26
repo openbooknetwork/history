@@ -682,3 +682,17 @@
   old: "Her letter telling the English before Orléans to go home"
   new: "Her letter bidding the English before Orléans go home"
   commit: aa448627
+- fault: 020-fact-checker-23
+  by: fact-checker
+  file: content/joan-of-arc/shared/images/salisbury-struck-miniature-686363/image.yaml
+  field: caption
+  old: "The Earl of Salisbury, at a window looking over Orléans, is struck by a cannon shot in 1428, in a miniature of about 1484 from the Vigiles de Charles VII of Martial d'Auvergne."
+  new: "The Earl of Salisbury, at a window looking over Orléans, is struck by a cannon shot in 1428, in a miniature of about 1484."
+  commit: ec0556aa
+- fault: 020-fact-checker-24
+  by: fact-checker
+  file: content/joan-of-arc/shared/images/herrings-miniature-0a7b03/image.yaml
+  field: caption
+  old: "The Battle of the Herrings, with the convoy's wagons and barrels, in a miniature of about 1470–1479 attributed to Philippe de Mazerolles (BnF, Français 2691)."
+  new: "The Battle of the Herrings, with the convoy's wagons and barrels, in a miniature of about 1470–1479 attributed to Philippe de Mazerolles (manuscript Français 2691)."
+  commit: ec0556aa

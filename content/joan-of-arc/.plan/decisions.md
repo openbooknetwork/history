@@ -243,3 +243,8 @@
 - facts 030 and 040 reviewed (section-reviewers): 20 and 9 changes to the texts; open for the cartographers were
   030-section-reviewer-21 (a marker's note, fixed since) and 040-section-reviewer-10 to -14 (places named and not
   marked) with 040-map-auditor-3.
+- section 030: done, 26 Nov 2026, maps to facts. 6 pages drawn, audited (pass), written, with 8 images found and one
+  `none`, fact-checked, reviewed and rechecked (pass): the recheck found four of the reviewer's fixes saying more
+  than their sources and put them right (030-fact-checker-40 to -43). No fault of `faults/030.yaml` is open.
+- facts 040 rechecked (fact-checker): pass, one wording fault fixed. The cartographer of 040 fixed its six faults:
+  Montmirail on the road to Provins, and 13 markers for places the texts name.

@@ -65,3 +65,20 @@
     - "030.68, the losses of the three days: Monstrelet, Charles VII's letter, Joan at her trial (Barrett)"
     - "030.78, a French victory: Beaucourt book 2, Ramsay ch. 27"
   checked: "from-blois 29 claims, the-army-of-blois 27, storming-saint-loup 25, the-augustins 23, the-tourelles 27, the-english-march-away 21; the card orleans-1429, 14 figures and its sides, date and site; 9 image captions against the candidates' index"
+- step: facts
+  task: recheck
+  status: pass
+  changed_files:
+    - content/joan-of-arc/pages/030-orleans/020-the-army-of-blois/text/en.md
+    - content/joan-of-arc/pages/030-orleans/050-the-tourelles/text/en.md
+    - content/joan-of-arc/.plan/faults/030.yaml
+    - content/joan-of-arc/.plan/fixes/030.yaml
+  faults: [030-fact-checker-40, 030-fact-checker-41, 030-fact-checker-42, 030-fact-checker-43]
+  unresolved:
+    - "As at the check: the disputed days, places, accounts and figures of 030 are each told with their authors; 030.62 now gives Joan's 'in the neck', the Journal's and the Bastard's 'between the neck and the shoulder' and the Chronique's 'through the shoulder' apart."
+    - "names-check (the edit hook) still flags 'the Chronique de la Pucelle' as first named in 030 against its row's 010: the check matches case, as the check's report said; the script is the thing to mend."
+  stale: []
+  turns_on:
+    - "030.62, where the arrow struck her: Joan at her trial (Barrett), the Journal du siège, Dunois (Murray), the Chronique de la Pucelle"
+    - "030.27-030.28, the sortie of 30 April and the herald sent back: the Journal du siège (Quicherat 4), Lowell ch. 8"
+  checked: "against 7854a89c: 030-section-reviewer-1 to 20 (text edits on all six pages, each as its fix log has it and nothing else changed), 030-section-reviewer-21 (the marker note of ile-saint-aignan, against d'Aulon), 030-fact-checker-38 and 39 (two captions); 17 of 21 hold, 4 reopened as new faults and fixed"

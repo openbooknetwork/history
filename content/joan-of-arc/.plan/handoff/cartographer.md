@@ -36,3 +36,9 @@
   Beauce: keep the march east of Talbot's line, or the two lie on each other on the green zone.
 - A marker's note follows its page's text: where the text gives a detail to one author (030's island crossing,
   d'Aulon's), the note names that author too, or tells only what all agree on.
+- The section reviewer holds "each place the text names is on the map" above the plan's `unmarked`: a station or end
+  of a route the text names (040's Orléans, Paris, Étampes, Corbeil, Troyes, Vailly) wants a marker on that page,
+  even when another page marks the place. Give it a new dated id (`orleans-19-june-1429`), add it to `pages.yaml`
+  and `map.yaml` (out of `unmarked`), and link the name in the text, or it waits unseen under a planned marker.
+- names-check fails "the Marshal de Boussac" though names.md's row asks for it at the first mention: a conflict
+  for the names agent, not a map fault.

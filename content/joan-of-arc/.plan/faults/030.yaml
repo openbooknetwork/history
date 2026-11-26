@@ -1276,3 +1276,59 @@
   introduced: plan
   owner: cartographer
   state: fixed
+- id: 030-fact-checker-40
+  severity: weak
+  file: content/joan-of-arc/pages/030-orleans/020-the-army-of-blois/text/en.md
+  field: body
+  replaces: clause
+  old: drive the English back to the bastille of Paris at Saint-Pouair;
+  new: drive the English back from their watch at Saint-Pouair, by the bastille of Paris;
+  source: |-
+    archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt 6389-6394 (Journal du siège, 30 April): "chargèrent ... sur l'ost des Angloys, tant qu'ilz les feirent reculer, et gangnèrent la place où ilz avoient faict le guet qu'ilz tenoient lors à la place de Sainct-Pouair, à deux traicts d'arc de la ville". The French won the place of the English watch; no file has them drive the English back to the bastille (unsourced). 030-section-reviewer-5 took out "their watch" as standing in no claim, but it is the Journal's own word in 030.27's passage
+  kind: fact
+  claim: "030.27"
+  introduced: review
+  owner: section-reviewer
+  state: fixed
+- id: 030-fact-checker-41
+  severity: wrong
+  file: content/joan-of-arc/pages/030-orleans/020-the-army-of-blois/text/en.md
+  field: body
+  replaces: clause
+  old: The English keep the herald who brought her letter and send word that they will burn her,
+  new: The English, who have kept the herald who brought her letter, send him back with word that they will burn her,
+  source: |-
+    archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt (Journal du siège, 30 April, 030.28's passage): "les chefz de l'ost renvoyèrent tous les héraulx et messagiers de la Pucelle, luy mandans par eulx qu'ilz la brusleroient"; archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt (ch. 8): "The herald was released, and by him the English generals warned Joan". The English sent the herald back with their answer; "keep ... and send word" told them holding him still
+  kind: fact
+  claim: "030.28"
+  introduced: review
+  owner: section-reviewer
+  state: fixed
+- id: 030-fact-checker-42
+  severity: wrong
+  file: content/joan-of-arc/pages/030-orleans/050-the-tourelles/text/en.md
+  field: body
+  replaces: clause
+  old: an arrow strikes her between the neck and the shoulder. So she told her judges in 1431, and so the Journal, the Chronique de la Pucelle and the Bastard tell it.\*\*
+  new: an arrow strikes her in the neck, she told her judges in 1431. The Journal and the Bastard put it between the neck and the shoulder, the Chronique de la Pucelle through the shoulder.\*\*
+  source: |-
+    sourcebooks.web.fordham.edu-basis-joanofarc-trial.asp.txt (27 February 1431): "as she was raising the ladder she was wounded in the neck with the crossbolt"; archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt (Journal du siège, 7 May): "frappée d'un traict entre l'espaule et la gorge"; archive.org-download-jeannedarcmaidof028754mbp-jeannedarcmaidof028754mbp-djvu.txt.txt (Dunois): "between the neck and the shoulder"; archive.org-download-chroniquedelapuc00cousuoft-chroniquedelapuc00cousuoft-djvu.txt.txt (ch. 48): "d'un coup de traict de gros garriau, par l'espaule tout oultre". 030-section-reviewer-16 gave the Journal's and Dunois's place, and "So she told her judges ... and so the Chronique ... tell it" then gave it to Joan and the Chronique, who say otherwise
+  kind: attribution
+  claim: "030.62"
+  introduced: review
+  owner: section-reviewer
+  state: fixed
+- id: 030-fact-checker-43
+  severity: weak
+  file: content/joan-of-arc/pages/030-orleans/050-the-tourelles/text/en.md
+  field: body
+  replaces: clause
+  old: (@ile-saint-antoine), an island under the bridge.
+  new: (@ile-saint-antoine), an island in the Loire.
+  source: |-
+    archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt (ch. 27): "while the townspeople bombarded the Tourelles from the He Saint- Antoine" (030.61, which says "in the river"); only Anatole France places it under the bridge (archive.org-download-thelifeofjoanofa19488gut-19488.txt.txt 6272-6273: "the bridge which overspanned ... an island called above bridge Motte-Saint-Antoine"), and rules.md lets no claim rest on France alone. Every file under .references/ and .wikipedia/ searched for Saint-Antoine, Sainct-Anthoine and an island by the bridge
+  kind: fact
+  claim: "030.61"
+  introduced: review
+  owner: section-reviewer
+  state: fixed

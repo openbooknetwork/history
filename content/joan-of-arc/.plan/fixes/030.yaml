@@ -885,3 +885,31 @@
   new: The island facing Saint-Aignan where the French gather on 6 May 1429, crossing from it to the south bank on a bridge
     of two boats (d'Aulon)
   commit: 4d0c9294
+- fault: 030-fact-checker-40
+  by: fact-checker
+  file: content/joan-of-arc/pages/030-orleans/020-the-army-of-blois/text/en.md
+  field: body
+  old: drive the English back to the bastille of Paris at Saint-Pouair;
+  new: drive the English back from their watch at Saint-Pouair, by the bastille of Paris;
+  commit: 90f24f62
+- fault: 030-fact-checker-41
+  by: fact-checker
+  file: content/joan-of-arc/pages/030-orleans/020-the-army-of-blois/text/en.md
+  field: body
+  old: The English keep the herald who brought her letter and send word that they will burn her,
+  new: The English, who have kept the herald who brought her letter, send him back with word that they will burn her,
+  commit: 90f24f62
+- fault: 030-fact-checker-42
+  by: fact-checker
+  file: content/joan-of-arc/pages/030-orleans/050-the-tourelles/text/en.md
+  field: body
+  old: an arrow strikes her between the neck and the shoulder. So she told her judges in 1431, and so the Journal, the Chronique de la Pucelle and the Bastard tell it.\*\*
+  new: an arrow strikes her in the neck, she told her judges in 1431. The Journal and the Bastard put it between the neck and the shoulder, the Chronique de la Pucelle through the shoulder.\*\*
+  commit: 90f24f62
+- fault: 030-fact-checker-43
+  by: fact-checker
+  file: content/joan-of-arc/pages/030-orleans/050-the-tourelles/text/en.md
+  field: body
+  old: (@ile-saint-antoine), an island under the bridge.
+  new: (@ile-saint-antoine), an island in the Loire.
+  commit: 90f24f62

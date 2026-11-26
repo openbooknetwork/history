@@ -474,3 +474,101 @@
   old: "Of his brothers, one is captured and another, Alexander de la Pole, is killed."
   new: "His brother Alexander de la Pole is killed, and another brother is taken with him."
   commit: 4d0c9294
+- fault: 040-map-auditor-3
+  by: cartographer
+  file: content/joan-of-arc/.plans/pages040.mjs
+  field: "the-towns-come-over, france-1429-provins, its line after Château-Thierry"
+  old: "[P.chateauThierry, [3.30, 48.90], [3.26, 48.70], P.provins]"
+  new: "[P.chateauThierry, [3.47, 48.96], P.montmirail, [3.45, 48.72], P.provins], with montmirail: [3.54, 48.87] in P"
+  commit: 4d0c9294
+- fault: 040-map-auditor-3
+  by: cartographer
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/map.yaml
+  field: "the-towns-come-over, france-1429-provins, stations and why"
+  old: "stations: [Reims, Corbeny, Vailly, Soissons, Château-Thierry, Provins]; why: \"... Lowell has two days there (040.75 to 040.80). The places ...\""
+  new: "stations: [Reims, Corbeny, Vailly, Soissons, Château-Thierry, Montmirail, Provins]; why: \"... Lowell has two days there (040.75 to 040.80); Cagny has him lie at Montmirail in Brie on 1 August (Quicherat 4, p. 20, lines 1240-1242). The places ...\""
+  commit: 4d0c9294
+- fault: 040-section-reviewer-10
+  by: cartographer
+  file: content/joan-of-arc/.plans/pages040.mjs
+  field: "meung-and-beaugency, markers"
+  old: "meung-bridge-1429, beaugency-1429, janville-1429"
+  new: "meung-bridge-1429, beaugency-1429, janville-1429, orleans-15-june-1429 (Orléans, france: 'The French army marches out of it for Meung and Beaugency on 15 June 1429'), paris-fastolf-1429 (Paris, english: \"Sir John Fastolf's relief sets out from it for Janville early in June 1429\")"
+  commit: 4d0c9294
+- fault: 040-section-reviewer-10
+  by: cartographer
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/pages.yaml and content/joan-of-arc/.plan/040-the-loire-and-reims/map.yaml
+  field: "meung-and-beaugency, markers and unmarked"
+  old: "markers: [meung-bridge-1429, beaugency-1429, janville-1429]; unmarked Paris and Orléans"
+  new: "markers: [meung-bridge-1429, beaugency-1429, janville-1429, orleans-15-june-1429, paris-fastolf-1429], each with its entry in map.yaml; Paris and Orléans out of unmarked"
+  commit: 4d0c9294
+- fault: 040-section-reviewer-10
+  by: cartographer
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/020-meung-and-beaugency/text/en.md
+  field: "body"
+  old: "the army leaves Orléans and storms; an English relief from Paris under"
+  new: "the army leaves [Orléans](@orleans-15-june-1429) and storms; an English relief from [Paris](@paris-fastolf-1429) under"
+  commit: 4d0c9294
+- fault: 040-section-reviewer-11
+  by: cartographer
+  file: content/joan-of-arc/.plans/pages040.mjs
+  field: "patay, markers"
+  old: "patay-village, janville-shut, montpipeau-1429, saint-sigismond-1429"
+  new: "patay-village, janville-shut, montpipeau-1429, saint-sigismond-1429, meung-18-june-1429, beaugency-18-june-1429, orleans-19-june-1429 (france), etampes-1429, corbeil-1429, chartres-1429 (english), each with a note of its part on 18-19 June 1429"
+  commit: 4d0c9294
+- fault: 040-section-reviewer-11
+  by: cartographer
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/pages.yaml and content/joan-of-arc/.plan/040-the-loire-and-reims/map.yaml
+  field: "patay, markers and unmarked"
+  old: "markers: [patay-village, janville-shut, montpipeau-1429, saint-sigismond-1429]; unmarked Meung, Beaugency, Étampes, Corbeil, Orléans, Chartres"
+  new: "markers: [patay-village, janville-shut, montpipeau-1429, saint-sigismond-1429, meung-18-june-1429, beaugency-18-june-1429, orleans-19-june-1429, etampes-1429, corbeil-1429, chartres-1429], each with its entry in map.yaml; the six out of unmarked"
+  commit: 4d0c9294
+- fault: 040-section-reviewer-11
+  by: cartographer
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/030-patay/text/en.md
+  field: "body"
+  old: "the English at Meung learn that Beaugency has fallen.; Fastolf escapes to Étampes and then Corbeil,; bring the prisoners back to Orléans.; approximate. Chartres and Étampes stay English."
+  new: "the English at [Meung](@meung-18-june-1429) learn that [Beaugency](@beaugency-18-june-1429) has fallen.; Fastolf escapes to [Étampes](@etampes-1429) and then [Corbeil](@corbeil-1429),; bring the prisoners back to [Orléans](@orleans-19-june-1429).; approximate. [Chartres](@chartres-1429) and Étampes stay English."
+  commit: 4d0c9294
+- fault: 040-section-reviewer-12
+  by: cartographer
+  file: content/joan-of-arc/.plans/pages040.mjs, content/joan-of-arc/.plan/040-the-loire-and-reims/pages.yaml and content/joan-of-arc/.plan/040-the-loire-and-reims/map.yaml
+  field: "auxerre-and-troyes, markers and unmarked"
+  old: "markers: [gien-rendezvous, auxerre-truce, saint-florentin-1429, troyes-1429]; unmarked Orléans"
+  new: "markers: [gien-rendezvous, auxerre-truce, saint-florentin-1429, troyes-1429, orleans-24-june-1429] (Orléans, france: 'Joan and the Duke of Alençon leave it with their company for Gien on 24 June 1429'); Orléans out of unmarked"
+  commit: 4d0c9294
+- fault: 040-section-reviewer-12
+  by: cartographer
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/040-auxerre-and-troyes/text/en.md
+  field: "body"
+  old: "join Charles VII from Orléans on 24 June"
+  new: "join Charles VII from [Orléans](@orleans-24-june-1429) on 24 June"
+  commit: 4d0c9294
+- fault: 040-section-reviewer-13
+  by: cartographer
+  file: content/joan-of-arc/.plans/pages040.mjs, content/joan-of-arc/.plan/040-the-loire-and-reims/pages.yaml and content/joan-of-arc/.plan/040-the-loire-and-reims/map.yaml
+  field: "reims, bbox, markers and unmarked"
+  old: "bbox: [3.6, 48.1, 4.8, 49.45]; markers: [chalons-1429, sept-saulx-1429, reims-cathedral]; unmarked Troyes"
+  new: "bbox: [3.6, 48.05, 4.8, 49.45]; markers: [chalons-1429, sept-saulx-1429, reims-cathedral, troyes-july-1429] (Troyes, france: 'Charles VII, who entered it on 10 July 1429, marches from it for Reims'); Troyes out of unmarked"
+  commit: 4d0c9294
+- fault: 040-section-reviewer-13
+  by: cartographer
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/050-reims/text/en.md
+  field: "body"
+  old: "The map shows the road from Troyes to Reims"
+  new: "The map shows the road from [Troyes](@troyes-july-1429) to Reims"
+  commit: 4d0c9294
+- fault: 040-section-reviewer-14
+  by: cartographer
+  file: content/joan-of-arc/.plans/pages040.mjs, content/joan-of-arc/.plan/040-the-loire-and-reims/pages.yaml and content/joan-of-arc/.plan/040-the-loire-and-reims/map.yaml
+  field: "the-towns-come-over, bbox, markers and unmarked"
+  old: "bbox: [2.4, 48.4, 4.3, 49.7]; markers end provins-1429; unmarked Vailly and Sens"
+  new: "bbox: [2.4, 48.1, 4.3, 49.7], so Sens is in the frame; markers end provins-1429, vailly-1429 (Vailly, france: 'Charles VII passes by it on 22 July 1429, on his road from Corbeny to Soissons (the Journal of the Siege)'), sens-1429 (Sens, english: \"Named in the Duke of Bedford's memorandum of December 1433, as Lang dates it, among the cities lost after Orléans; no source read gives when it came over\"); Vailly and Sens out of unmarked"
+  commit: 4d0c9294
+- fault: 040-section-reviewer-14
+  by: cartographer
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/060-the-towns-come-over/text/en.md
+  field: "body"
+  old: "He goes on by Vailly on 22 July; names Laon, Sens and Provins"
+  new: "He goes on by [Vailly](@vailly-1429) on 22 July; names Laon, [Sens](@sens-1429) and Provins"
+  commit: 4d0c9294

@@ -22,3 +22,27 @@
     is a reconstruction from the stations of map.yaml with no road given; the generator's comment over each says
     what the line follows, and the hill of 17 June is a point about a league from Meung and Beaugency north of
     their road, as the plan says. No zone fault for the map keeper: every zone of the plan exists and fits.
+- step: facts
+  task: fix
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plans/pages040.mjs
+    - content/joan-of-arc/pages/040-the-loire-and-reims/020-meung-and-beaugency/
+    - content/joan-of-arc/pages/040-the-loire-and-reims/030-patay/
+    - content/joan-of-arc/pages/040-the-loire-and-reims/040-auxerre-and-troyes/
+    - content/joan-of-arc/pages/040-the-loire-and-reims/050-reims/
+    - content/joan-of-arc/pages/040-the-loire-and-reims/060-the-towns-come-over/
+    - content/joan-of-arc/.plan/040-the-loire-and-reims/pages.yaml
+    - content/joan-of-arc/.plan/040-the-loire-and-reims/map.yaml
+    - content/joan-of-arc/.plan/faults/040.yaml
+    - content/joan-of-arc/.plan/fixes/040.yaml
+    - content/joan-of-arc/.plan/handoff/cartographer.md
+  faults: []
+  unresolved: []
+  stale: []
+  notes: >-
+    Fixed 040-map-auditor-3 (france-1429-provins by Montmirail, stations in map.yaml) and 040-section-reviewer-10
+    to 14: 13 new markers with their names linked in the texts, the reims bbox south to 48.05 and the-towns-come-over
+    bbox south to 48.1 for Sens. Audit pack: plan-check, rules-lint, card-guard, build, route-surface (13 clean) and
+    zone-gaps ok; names-check fails only on names.md first-mention rows and "Marshal" in patay's note, texts of
+    other roles. No captures taken.

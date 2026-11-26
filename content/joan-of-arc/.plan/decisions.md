@@ -367,3 +367,21 @@
   the digest's 010.14 and 020.9. The Map rows that cited 020.9 for Domrémy cite 010.14 (story-overseer-8). Two faults
   are declined. No fault of any list is open; the check, the strict build, the linter, the names check and the plan
   check print ok.
+- story, the audit's recheck (story-auditor, its second and last run): `faults`. The fourteen fixes hold and the two
+  rulings stand. Two faults found anew, both from the fix of story-story-auditor-1: story-story-auditor-3 (weak),
+  three reasons of `.plans/zones.mjs` that still cited 020.9 for Domrémy, and story-story-auditor-4 (taste), the
+  same in the Murray row of `names.md`. The overseer fixed both as clause edits and logged them; `zones.mjs` ran
+  again and changed no zone, only the reasons of `ground.yaml`.
+- cloud ruling: the story-auditor does not run a third time — the bound is its audit and one recheck. Its last report
+  is `faults`, so the story has not passed `story` as the run defines it, though the two faults it left are fixed
+  since and no fault of any list is open. The pull request is opened as a draft and says so.
+- step story: done, 26 Nov 2026, stopped by the bound on the audit's rounds and not passed. As the run ends: 41 pages
+  in seven sections; `harita check joan-of-arc` prints ok; the strict build with `--no-store` ends well; `rules-lint`
+  and `names-check` print ok; `plan-check` ok; `quotes-check` ok for 1,605 quotes; 621 faults in the lists, 618
+  fixed and 3 declined, none open; the story-auditor's last report is `faults` (two faults, fixed after it).
+  `inputs.mjs stale` prints 418 lines, kept in `run/stale.txt`.
+- left for the reviewer: no agent saw an image on a page, since a static build asks the store for them and the store
+  holds nothing of this story; the captures of the close-in pages of Orléans and Rouen showed no base map; the
+  seven bot-walled studies and the four scholars the brief named were never read; `name-forms` and `translation`
+  were not run.
+- ledger after `story`: | **total** | 134 | 3,732 | 635,029 | 7,598 | 25,739,975 | 640,779,164 | 4,696,521 | 119,743,088 |

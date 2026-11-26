@@ -531,3 +531,31 @@
   old: "with the French side from 010.15 and 020.9"
   new: "with the French side from 010.15 and the third reading of 010.14"
   commit: af9ee7ed
+- fault: story-story-auditor-3
+  by: overseer
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: the reason of a line of the Meuse or of the Three Fountains brook
+  old: "and Domrémy French (020.9)"
+  new: "and Domrémy French in one reading (010.14, disputed)"
+  commit: 54c3bc0a
+- fault: story-story-auditor-3
+  by: overseer
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: the reason of a line of the Meuse or of the Three Fountains brook
+  old: "020.9 Domrémy belonging to France)"
+  new: "010.14, disputed, has one reading in which Domrémy belongs to France)"
+  commit: 54c3bc0a
+- fault: story-story-auditor-3
+  by: overseer
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: the reason of a line of the Meuse or of the Three Fountains brook
+  old: "Greux and the north of the village French (020.9)"
+  new: "Greux and the north of the village French in the third reading of 010.14"
+  commit: 54c3bc0a
+- fault: story-story-auditor-4
+  by: overseer
+  file: content/joan-of-arc/.plan/names.md
+  field: the row Murray, First named in
+  old: "010 (010.14, a note of Murray's that 020.9 quotes)"
+  new: "010 (010.14, which quotes a note of Murray's)"
+  commit: 54c3bc0a

@@ -43,8 +43,8 @@ const BRITTANY = z.union(BRETAGNE, NANTES);
 const KBa = z.est('the edge of Flanders and Artois with Hainaut along the Scheldt, Lille, Douai and Arras inside (010.7, 060.18); no source gives the line', [[3.65, 50.60], [3.45, 50.45], [3.25, 50.30], [3.05, 50.15]]);
 const KBb = z.est('the kingdom\'s edge with the Cambrésis and Hainaut: Saint-Quentin and Beaurevoir inside, Cambrai and Le Cateau outside; no source gives the line', [end(KBa), [3.22, 50.06], [3.45, 50.06], [3.65, 50.05], [4.10, 50.00]]);
 const KBc = z.est('the kingdom\'s edge from the Thiérache to the Meuse at Mézières, the brief\'s "east to the Meuse"; no source gives the line', [end(KBb), [4.45, 49.99], [4.60, 49.90], [4.72, 49.77]]);
-// The Meuse: the kingdom's edge in the brief, with Vaucouleurs on it (020.62) and Domrémy French (020.9)
-const MEUSE_WHY = 'the Meuse, the kingdom\'s edge on the east (the brief; 020.62 has Vaucouleurs on it, 020.9 Domrémy belonging to France): Natural Earth lacks the river in France and no OpenStreetMap server answered, so it is drawn through the towns on its banks';
+// The Meuse: the kingdom's edge in the brief, with Vaucouleurs on it (020.62) and Domrémy French in one reading (010.14, disputed)
+const MEUSE_WHY = 'the Meuse, the kingdom\'s edge on the east (the brief; 020.62 has Vaucouleurs on it, 010.14, disputed, has one reading in which Domrémy belongs to France): Natural Earth lacks the river in France and no OpenStreetMap server answered, so it is drawn through the towns on its banks';
 const M1 = z.est(MEUSE_WHY, [end(KBc), [4.94, 49.70], [5.08, 49.60], [5.19, 49.49], [5.18, 49.38], [5.30, 49.25], [5.38, 49.16], [5.50, 48.98], [5.54, 48.89], [5.59, 48.76], [5.66, 48.69], [5.684, 48.66]]);
 const M2 = z.est(MEUSE_WHY + ': by Vaucouleurs, Greux and Domrémy on its west bank', [end(M1), [5.686, 48.60], [5.686, 48.52], [5.686, 48.445]]);
 const M3 = z.est(MEUSE_WHY + ': up to its source in the Bassigny, Neufchâteau on its west bank', [end(M2), [5.69, 48.40], [5.71, 48.36], [5.66, 48.25], [5.60, 48.15], [5.62, 47.98]]);
@@ -183,7 +183,7 @@ const BURGUNDY20 = z.union(BURGUNDY07, PICARDY, AUXERROIS);
 // ---------------------------------------------------------------------------------------------------------------
 // The Meuse: Bar, Lorraine and the castellany of Vaucouleurs
 const CASTELLANY = z.region(M2,
-  z.est('the Three Fountains brook through Domrémy, Lowell\'s edge of Bar (010.14, disputed): Greux and the north of the village French (020.9)', [end(M2), [5.66, 48.443], [5.63, 48.445]]),
+  z.est('the Three Fountains brook through Domrémy, Lowell\'s edge of Bar (010.14, disputed): Greux and the north of the village French in the third reading of 010.14', [end(M2), [5.66, 48.443], [5.63, 48.445]]),
   z.est('the castellany of Vaucouleurs west of the Meuse, Burey and Vaucouleurs inside, "a kind of island of loyalty" (010.15); no source gives its bounds', [[5.63, 48.445], [5.61, 48.53], [5.62, 48.64], [5.65, 48.67], start(M2)]));
 const LB = z.est('the line between the duchies of Bar and Lorraine: Neufchâteau Lorraine\'s (020.9), Nancy and Saint-Nicolas-de-Port in Lorraine (020.34, 020.35), the south of Domrémy in Bar (010.14); no source gives it', [[5.60, 48.28], [5.64, 48.37], [5.71, 48.415], [5.80, 48.43], [5.90, 48.52], [5.92, 48.80], [6.05, 48.90], [6.40, 49.00]]);
 const BAR = z.diff(z.region(LB,

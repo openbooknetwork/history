@@ -30,7 +30,7 @@
    "parent": "-",
    "model": "claude-fable-5-2",
    "start": "2026-11-26T08:58:19.988Z",
-   "end": "2026-11-26T16:34:57.440Z",
+   "end": "2026-11-26T17:05:39.028Z",
    "description": ""
   },
   {
@@ -41,6 +41,15 @@
    "start": "2026-11-26T10:58:28.606Z",
    "end": "2026-11-26T11:09:05.066Z",
    "description": "plans 050 section-coordinator plan"
+  },
+  {
+   "agent": "a02dd22996597e7bc",
+   "role": "section-reviewer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T16:51:48.708Z",
+   "end": "2026-11-26T16:53:13.478Z",
+   "description": "story 060 section-reviewer fix"
   },
   {
    "agent": "a06933273e65ce690",
@@ -79,6 +88,15 @@
    "description": "research 030 research-reviewer review"
   },
   {
+   "agent": "a0d2c4009bd511a16",
+   "role": "cartographer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T16:51:48.774Z",
+   "end": "2026-11-26T16:54:11.595Z",
+   "description": "story 070 cartographer fix"
+  },
+  {
    "agent": "a1129f78ed77cc824",
    "role": "section-reviewer",
    "parent": "overseer",
@@ -86,6 +104,15 @@
    "start": "2026-11-26T14:32:20.353Z",
    "end": "2026-11-26T14:36:39.703Z",
    "description": "facts 040 section-reviewer review"
+  },
+  {
+   "agent": "a119d0a2a8f5119a0",
+   "role": "story-auditor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T16:56:39.742Z",
+   "end": "2026-11-26T17:01:33.165Z",
+   "description": "story all story-auditor recheck"
   },
   {
    "agent": "a11d1cfa1279f4c70",
@@ -194,6 +221,15 @@
    "start": "2026-11-26T10:58:28.565Z",
    "end": "2026-11-26T11:09:32.628Z",
    "description": "plans 060 section-coordinator plan"
+  },
+  {
+   "agent": "a2599d827e382b85d",
+   "role": "image-finder",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T16:51:49.479Z",
+   "end": "2026-11-26T16:52:30.671Z",
+   "description": "story 010 image-finder fix"
   },
   {
    "agent": "a26c8b1c424ab5e09",
@@ -331,6 +367,15 @@
    "description": "texts 040 section-writer write"
   },
   {
+   "agent": "a5020785df8d72d23",
+   "role": "cartographer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T16:51:48.726Z",
+   "end": "2026-11-26T16:54:38.219Z",
+   "description": "story 020 cartographer fix"
+  },
+  {
    "agent": "a5166f333896905b8",
    "role": "map-keeper",
    "parent": "overseer",
@@ -356,6 +401,15 @@
    "start": "2026-11-26T14:44:36.110Z",
    "end": "2026-11-26T14:53:17.961Z",
    "description": "maps 060 cartographer draw"
+  },
+  {
+   "agent": "a55006b2d1b6f96d2",
+   "role": "cartographer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T16:51:48.758Z",
+   "end": "2026-11-26T16:54:30.422Z",
+   "description": "story 050 cartographer fix"
   },
   {
    "agent": "a55a014d3909c4f4c",
@@ -637,6 +691,15 @@
    "description": "plan-check 050 fact-checker plan-check"
   },
   {
+   "agent": "a85f730dfad89771a",
+   "role": "researcher",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T16:51:48.788Z",
+   "end": "2026-11-26T16:54:21.459Z",
+   "description": "story 010 researcher fix"
+  },
+  {
    "agent": "a8857c927d77fda2e",
    "role": "cartographer",
    "parent": "overseer",
@@ -745,6 +808,15 @@
    "description": "maps 050 map-auditor recheck"
   },
   {
+   "agent": "aa519a6d5e65401a5",
+   "role": "section-reviewer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T16:51:48.689Z",
+   "end": "2026-11-26T16:53:01.711Z",
+   "description": "story 040 section-reviewer fix"
+  },
+  {
    "agent": "aa5241a890c7428d5",
    "role": "researcher",
    "parent": "overseer",
@@ -826,6 +898,15 @@
    "description": "facts 020 section-coordinator fix"
   },
   {
+   "agent": "ab2f1721600b2bf10",
+   "role": "cartographer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T16:51:48.742Z",
+   "end": "2026-11-26T16:54:01.850Z",
+   "description": "story 030 cartographer fix"
+  },
+  {
    "agent": "ab70d19a8d0d36b89",
    "role": "section-writer",
    "parent": "overseer",
@@ -878,6 +959,15 @@
    "start": "2026-11-26T09:31:03.053Z",
    "end": "2026-11-26T09:45:03.722Z",
    "description": "research 050 researcher claims"
+  },
+  {
+   "agent": "ac4a4ba131fc3a5bb",
+   "role": "section-reviewer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T16:51:48.665Z",
+   "end": "2026-11-26T16:53:30.804Z",
+   "description": "story 010 section-reviewer fix"
   },
   {
    "agent": "ac5998b110dcc235c",
@@ -941,6 +1031,15 @@
    "start": "2026-11-26T10:22:07.570Z",
    "end": "2026-11-26T10:32:35.896Z",
    "description": "plans 010 section-coordinator plan"
+  },
+  {
+   "agent": "ad1333caf23a4ac67",
+   "role": "story-auditor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T16:35:05.523Z",
+   "end": "2026-11-26T16:50:54.429Z",
+   "description": "story all story-auditor audit"
   },
   {
    "agent": "ad2d770ed240be60f",
@@ -1140,12 +1239,12 @@
    "model": "claude-fable-5-2",
    "step": "-",
    "section": "-",
-   "turns": 305,
-   "peak": 592019,
-   "input": 784,
-   "cacheWrite": 527813,
-   "cacheRead": 103287382,
-   "output": 133592
+   "turns": 333,
+   "peak": 635029,
+   "input": 858,
+   "cacheWrite": 570675,
+   "cacheRead": 120435308,
+   "output": 149099
   },
   {
    "agent": "a00421d99dbb1e05d",
@@ -1160,6 +1259,20 @@
    "cacheWrite": 237611,
    "cacheRead": 4490932,
    "output": 70031
+  },
+  {
+   "agent": "a02dd22996597e7bc",
+   "role": "section-reviewer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "story",
+   "section": "060",
+   "turns": 10,
+   "peak": 130721,
+   "input": 20,
+   "cacheWrite": 130719,
+   "cacheRead": 902877,
+   "output": 6801
   },
   {
    "agent": "a06933273e65ce690",
@@ -1218,6 +1331,20 @@
    "output": 37534
   },
   {
+   "agent": "a0d2c4009bd511a16",
+   "role": "cartographer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "story",
+   "section": "070",
+   "turns": 16,
+   "peak": 50211,
+   "input": 32,
+   "cacheWrite": 50209,
+   "cacheRead": 468100,
+   "output": 8583
+  },
+  {
    "agent": "a1129f78ed77cc824",
    "role": "section-reviewer",
    "parent": "overseer",
@@ -1230,6 +1357,20 @@
    "cacheWrite": 186420,
    "cacheRead": 2365662,
    "output": 25900
+  },
+  {
+   "agent": "a119d0a2a8f5119a0",
+   "role": "story-auditor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "story",
+   "section": "-",
+   "turns": 26,
+   "peak": 142676,
+   "input": 52,
+   "cacheWrite": 142674,
+   "cacheRead": 2623580,
+   "output": 14611
   },
   {
    "agent": "a11d1cfa1279f4c70",
@@ -1398,6 +1539,20 @@
    "cacheWrite": 229029,
    "cacheRead": 4144569,
    "output": 56285
+  },
+  {
+   "agent": "a2599d827e382b85d",
+   "role": "image-finder",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "story",
+   "section": "010",
+   "turns": 8,
+   "peak": 31965,
+   "input": 16,
+   "cacheWrite": 31963,
+   "cacheRead": 161025,
+   "output": 3371
   },
   {
    "agent": "a26c8b1c424ab5e09",
@@ -1610,6 +1765,20 @@
    "output": 44224
   },
   {
+   "agent": "a5020785df8d72d23",
+   "role": "cartographer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "story",
+   "section": "020",
+   "turns": 22,
+   "peak": 47186,
+   "input": 44,
+   "cacheWrite": 47184,
+   "cacheRead": 691617,
+   "output": 10333
+  },
+  {
    "agent": "a5166f333896905b8",
    "role": "map-keeper",
    "parent": "overseer",
@@ -1650,6 +1819,20 @@
    "cacheWrite": 125348,
    "cacheRead": 2385354,
    "output": 22097
+  },
+  {
+   "agent": "a55006b2d1b6f96d2",
+   "role": "cartographer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "story",
+   "section": "050",
+   "turns": 13,
+   "peak": 54028,
+   "input": 26,
+   "cacheWrite": 54026,
+   "cacheRead": 416622,
+   "output": 10203
   },
   {
    "agent": "a55a014d3909c4f4c",
@@ -2086,6 +2269,20 @@
    "output": 42859
   },
   {
+   "agent": "a85f730dfad89771a",
+   "role": "researcher",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "story",
+   "section": "010",
+   "turns": 21,
+   "peak": 157515,
+   "input": 42,
+   "cacheWrite": 157513,
+   "cacheRead": 2699902,
+   "output": 12843
+  },
+  {
    "agent": "a8857c927d77fda2e",
    "role": "cartographer",
    "parent": "overseer",
@@ -2254,6 +2451,20 @@
    "output": 18174
   },
   {
+   "agent": "aa519a6d5e65401a5",
+   "role": "section-reviewer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "story",
+   "section": "040",
+   "turns": 9,
+   "peak": 130688,
+   "input": 18,
+   "cacheWrite": 130686,
+   "cacheRead": 783436,
+   "output": 6519
+  },
+  {
    "agent": "aa5241a890c7428d5",
    "role": "researcher",
    "parent": "overseer",
@@ -2380,6 +2591,20 @@
    "output": 7081
   },
   {
+   "agent": "ab2f1721600b2bf10",
+   "role": "cartographer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "story",
+   "section": "030",
+   "turns": 13,
+   "peak": 51815,
+   "input": 26,
+   "cacheWrite": 51813,
+   "cacheRead": 397004,
+   "output": 10294
+  },
+  {
    "agent": "ab70d19a8d0d36b89",
    "role": "section-writer",
    "parent": "overseer",
@@ -2462,6 +2687,20 @@
    "cacheWrite": 327795,
    "cacheRead": 11193013,
    "output": 85297
+  },
+  {
+   "agent": "ac4a4ba131fc3a5bb",
+   "role": "section-reviewer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "story",
+   "section": "010",
+   "turns": 13,
+   "peak": 143291,
+   "input": 25,
+   "cacheWrite": 143289,
+   "cacheRead": 1362660,
+   "output": 9530
   },
   {
    "agent": "ac5998b110dcc235c",
@@ -2560,6 +2799,20 @@
    "cacheWrite": 282652,
    "cacheRead": 5247898,
    "output": 67808
+  },
+  {
+   "agent": "ad1333caf23a4ac67",
+   "role": "story-auditor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "story",
+   "section": "-",
+   "turns": 61,
+   "peak": 301825,
+   "input": 122,
+   "cacheWrite": 301823,
+   "cacheRead": 13157534,
+   "output": 57685
   },
   {
    "agent": "ad2d770ed240be60f",
@@ -2864,6 +3117,16 @@
    "section": "050",
    "status": "pass",
    "changed": 6,
+   "unresolved": 0,
+   "faults": []
+  },
+  {
+   "agent": "a02dd22996597e7bc",
+   "role": "section-reviewer",
+   "step": "story",
+   "section": "060",
+   "status": "pass",
+   "changed": 5,
    "unresolved": 0,
    "faults": []
   },
@@ -3219,6 +3482,16 @@
    ]
   },
   {
+   "agent": "a0d2c4009bd511a16",
+   "role": "cartographer",
+   "step": "story",
+   "section": "070",
+   "status": "pass",
+   "changed": 9,
+   "unresolved": 0,
+   "faults": []
+  },
+  {
    "agent": "a1129f78ed77cc824",
    "role": "section-reviewer",
    "step": "facts",
@@ -3421,6 +3694,45 @@
      "claim": null,
      "evidence": "agents/text.md, 'each place it names is on the map'; 040.78, 040.86",
      "action": "The text names Vailly (22 July, a station of france-1429-provins) and Sens (in Bedford's list); neither has a marker or a label on the page's map (capture maps-040-map-auditor/pack/shots/the-towns-come-over.png). A marker for each, Sens with a note after 040.86 as Bedford's memorandum.",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "a119d0a2a8f5119a0",
+   "role": "story-auditor",
+   "step": "story",
+   "section": "-",
+   "status": "faults",
+   "changed": 1,
+   "unresolved": 3,
+   "faults": [
+    {
+     "id": "story-story-auditor-3",
+     "severity": "weak",
+     "kind": "map",
+     "introduced": "fix",
+     "firstCheck": null,
+     "leak": false,
+     "owner": "map-keeper",
+     "file": "content/joan-of-arc/.plans/zones.mjs",
+     "claim": "010.14",
+     "evidence": "research.md 020.9 since story-story-auditor-1: 'agreed for Neufchâteau in Lorraine (Lowell; Lang). Domrémy's own lordship is disputed and stands at 010.14, with Murray's note and Lang's \"French soil\"'; story-overseer-8 moved the same citation in brief.md and left the generator's",
+     "action": "010.14 for Domrémy belonging to France, as Murray's note and Lang's 'French soil' (one of its three readings), in each of the three places; the shapes do not change",
+     "state": "fixed"
+    },
+    {
+     "id": "story-story-auditor-4",
+     "severity": "taste",
+     "kind": "plan",
+     "introduced": "fix",
+     "firstCheck": null,
+     "leak": false,
+     "owner": "names",
+     "file": "content/joan-of-arc/.plan/names.md",
+     "claim": "010.14",
+     "evidence": "research.md 020.9 since story-story-auditor-1 quotes Lowell and Lang only; Murray's note is quoted in 010.14 (l. 11873-11875 of the Murray file)",
+     "action": "010 (010.14, Murray's note)",
      "state": "fixed"
     }
    ]
@@ -4088,6 +4400,16 @@
    ]
   },
   {
+   "agent": "a2599d827e382b85d",
+   "role": "image-finder",
+   "step": "story",
+   "section": "010",
+   "status": "pass",
+   "changed": 3,
+   "unresolved": 0,
+   "faults": []
+  },
+  {
    "agent": "a26c8b1c424ab5e09",
    "role": "image-finder",
    "step": "images",
@@ -4710,6 +5032,16 @@
    "faults": []
   },
   {
+   "agent": "a5020785df8d72d23",
+   "role": "cartographer",
+   "step": "story",
+   "section": "020",
+   "status": "pass",
+   "changed": 9,
+   "unresolved": 0,
+   "faults": []
+  },
+  {
    "agent": "a5166f333896905b8",
    "role": "map-keeper",
    "step": "maps",
@@ -4796,6 +5128,16 @@
      "state": "fixed"
     }
    ]
+  },
+  {
+   "agent": "a55006b2d1b6f96d2",
+   "role": "cartographer",
+   "step": "story",
+   "section": "050",
+   "status": "pass",
+   "changed": 9,
+   "unresolved": 0,
+   "faults": []
   },
   {
    "agent": "a55a014d3909c4f4c",
@@ -7382,6 +7724,16 @@
    ]
   },
   {
+   "agent": "a85f730dfad89771a",
+   "role": "researcher",
+   "step": "story",
+   "section": "010",
+   "status": "pass",
+   "changed": 5,
+   "unresolved": 0,
+   "faults": []
+  },
+  {
    "agent": "a8857c927d77fda2e",
    "role": "cartographer",
    "step": "maps",
@@ -8129,6 +8481,16 @@
    ]
   },
   {
+   "agent": "aa519a6d5e65401a5",
+   "role": "section-reviewer",
+   "step": "story",
+   "section": "040",
+   "status": "pass",
+   "changed": 4,
+   "unresolved": 0,
+   "faults": []
+  },
+  {
    "agent": "aa5241a890c7428d5",
    "role": "researcher",
    "step": "research",
@@ -8531,6 +8893,16 @@
    "faults": []
   },
   {
+   "agent": "ab2f1721600b2bf10",
+   "role": "cartographer",
+   "step": "story",
+   "section": "030",
+   "status": "pass",
+   "changed": 9,
+   "unresolved": 0,
+   "faults": []
+  },
+  {
    "agent": "ab70d19a8d0d36b89",
    "role": "section-writer",
    "step": "texts",
@@ -8674,6 +9046,31 @@
      "claim": "050.58",
      "evidence": "research/050.md, 050.58: the Duke of Burgundy's letter to Saint-Quentin dated 23 May (Quicherat 5); Monstrelet book 2 ch. 86 and Chastellain \"par une vigille de l'Ascension\"; Ramsay ch. 28 gives 24 May; rules.md, \"The careful side\"",
      "action": "from Crépy on 23 May (the Duke of Burgundy's date; Monstrelet's is the eve of the Ascension, the 24th) and leads",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "ac4a4ba131fc3a5bb",
+   "role": "section-reviewer",
+   "step": "story",
+   "section": "010",
+   "status": "pass",
+   "changed": 5,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "010-section-reviewer-13",
+     "severity": "wrong",
+     "kind": "check",
+     "introduced": "fix",
+     "firstCheck": null,
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/.plan/names.md",
+     "claim": null,
+     "evidence": "names-check hook on content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md: \"Murray\" is first named in 010-france-divided, and its row says 020 (020.4); the fix of 010-story-auditor-2 names Murray's note (020.9, archive.org-download-jeannedarcmaidof028754mbp-jeannedarcmaidof028754mbp-djvu.txt.txt l. 11873-11875) in the second note of domremy",
+     "action": "translator of the trials | 010 (010.14, a note of Murray's that 020.9 quotes) |",
      "state": "fixed"
     }
    ]
@@ -9479,6 +9876,241 @@
      "evidence": "names.md, Rules, Names of people: \"\\\"Philip\\\" alone is not used: Philip the Good, or the Duke of Burgundy\"",
      "action": "his son Philip the Good joins the English",
      "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "ad1333caf23a4ac67",
+   "role": "story-auditor",
+   "step": "story",
+   "section": "-",
+   "status": "faults",
+   "changed": 8,
+   "unresolved": 3,
+   "faults": [
+    {
+     "id": "010-story-auditor-1",
+     "severity": "wrong",
+     "kind": "fact",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": true,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/010-france-divided/060-cravant-and-verneuil/text/en.md",
+     "claim": "010.65",
+     "evidence": "010.65: \"the French about 20,000 and the English 14,000, Beaucourt\"; Beaucourt 2, archive.org-rt-histoire-de-charles-vii-v-2-Beaucourt-20Histoire-20de-20Charles-20VII-20v-202-djvu.txt.txt l. 601: \"Une armée, composée d'environ vingt mille combattants, s'avança jusqu'à Nonancourt\"; the card verneuil-1424 gives Beaucourt's 20,000 too",
+     "action": "The counts of the armies at Verneuil run from Ramsay's 2,000 or 3,000 English to Beaucourt's 20,000 French, with the Bourgeois's 18,000 French by their own count.",
+     "state": "fixed"
+    },
+    {
+     "id": "010-story-auditor-2",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "research",
+     "firstCheck": "research",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md",
+     "claim": "010.14",
+     "evidence": "Lang ch. 2, archive.org-download-maidoffrancebein00languoft-maidoffrancebein00languoft-djvu.txt.txt l. 1665-1669: \"Whatever the truth may be ... Jeanne and Charles VII agreed in regarding the sites of Domremy and Greux as French soil\"; Murray's note, archive.org-download-jeannedarcmaidof028754mbp-jeannedarcmaidof028754mbp-djvu.txt.txt l. 11873-11875: \"The village of Domremy, although in the territory of Lorraine, belonged to France, not to Lorraine ; for administrative purposes it was a dependance of Champagne\" (020.9)",
+     "action": "and notes that the villagers spoke of \"going into France\", though Joan and Charles VII, he writes, both held Domrémy and Greux to be French soil. Murray's note to the depositions of 1455 has the village, inside the territory of Lorraine, belong to France as a dependency of Champagne.",
+     "state": "fixed"
+    },
+    {
+     "id": "010-story-auditor-3",
+     "severity": "weak",
+     "kind": "map",
+     "introduced": "map-design",
+     "firstCheck": "map-design",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md",
+     "claim": "010.14",
+     "evidence": "010.14 (disputed); content/joan-of-arc/.plans/zones.mjs l. 186: \"the Three Fountains brook through Domrémy, Lowell's edge of Bar (010.14, disputed)\"; capture domremy.png, the village marker on the edge of france-1412 and bar-1412. The new clause is one word shorter: the body stands at the top of its limit",
+     "action": "The line through the village follows Lowell's Three Fountains brook and is approximate.",
+     "state": "fixed"
+    },
+    {
+     "id": "010-story-auditor-4",
+     "severity": "taste",
+     "kind": "battle",
+     "introduced": "battles",
+     "firstCheck": "phases",
+     "leak": false,
+     "owner": "battle-implementor",
+     "file": "content/joan-of-arc/shared/battles/bauge-1421/battle.yaml",
+     "claim": null,
+     "evidence": "rules of the story's families (story.yaml: france is 'the Armagnac and then the Dauphin's party'); the same army's route dauphin-1421-bauge is france, and the Dauphin's French and Scots are france on the cards verneuil-1424 and herrings-1429",
+     "action": "france",
+     "state": "declined"
+    },
+    {
+     "id": "010-story-auditor-5",
+     "severity": "weak",
+     "kind": "image",
+     "introduced": "images",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "image-finder",
+     "file": "content/joan-of-arc/shared/images/charles-vii-fouquet-portrait-7f767d/image.yaml",
+     "claim": null,
+     "evidence": "story-auditor definition, Images: each caption says what its image shows and when it was made; the caption reads 'Charles VII, King of France, painted by Jean Fouquet, in the Louvre.'",
+     "action": "the caption says when the portrait was painted, as the Commons file of its credit (File:Jean Fouquet, Portrait de Charles VII, musée du Louvre, INV. 9106.jpg) or the Louvre's entry dates it; no file of the story holds the date, so the image finder reads it there",
+     "state": "fixed"
+    },
+    {
+     "id": "020-story-auditor-1",
+     "severity": "weak",
+     "kind": "map",
+     "introduced": "maps",
+     "firstCheck": "maps",
+     "leak": false,
+     "owner": "cartographer",
+     "file": "content/joan-of-arc/pages/020-the-road-to-chinon/030-vaucouleurs-again/page.yaml",
+     "claim": null,
+     "evidence": "the text names Burey twice ('from his village of Burey', 'The map shows her road from Burey to Vaucouleurs'); the page's markers are [vaucouleurs-1429, nancy-1429, saint-nicolas-de-port]; capture vaucouleurs-again.png shows the route's start with no name",
+     "action": "a marker for Burey (Burey-en-Vaux, names.md), the start of the route joan-1429-burey, written by .plans/pages020.mjs into the page's markers.yaml and linked at the text's first 'Burey'",
+     "state": "fixed"
+    },
+    {
+     "id": "030-story-auditor-1",
+     "severity": "weak",
+     "kind": "map",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "cartographer",
+     "file": "content/joan-of-arc/pages/030-orleans/020-the-army-of-blois/page.yaml",
+     "claim": null,
+     "evidence": "030.3 (the bastilles by name); the text lists 'Saint-Loup to the east' and the four works of the south bank and closes 'The map shows the bastilles and the army's road round the north of the city'; the page marks only London, Rouen, Paris, Saint-Laurent and the Île Charlemagne (capture the-army-of-blois.png)",
+     "action": "markers, by page ids of their own, for the bastille of Saint-Loup and the works of the south bank the text lists (Saint-Jean-le-Blanc, the Augustins, Saint-Privé, the Tourelles), all inside the page's bbox; or, if the cartographer keeps them off for crowding, the closing sentence says that the map marks the bastilles north and west of the city only",
+     "state": "fixed"
+    },
+    {
+     "id": "040-story-auditor-1",
+     "severity": "weak",
+     "kind": "order",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/040-the-loire-and-reims/060-the-towns-come-over/text/en.md",
+     "claim": "040.86",
+     "evidence": "050.29 (Cagny, 1429, pp. 169-170: the king passes 'pardevant Sens, qui ne luy feist aucune ouverture'); 070.58 (Sens the king's from 1430, Beaucourt); the marker sens-1429 is english (capture the-towns-come-over.png). The body grows from about 325 to 334 words: under the hard limit, and the reason for the length is this clause",
+     "action": "names Laon, Provins and [Sens](@sens-1429) among the cities lost after Orléans, though Sens holds out against the king that September.",
+     "state": "fixed"
+    },
+    {
+     "id": "040-story-auditor-2",
+     "severity": "taste",
+     "kind": "attribution",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/040-the-loire-and-reims/050-reims/text/en.md",
+     "claim": "040.72",
+     "evidence": "040.72: 'single. Ramsay; Lowell has only that truces were probably proposed'",
+     "action": "Joan is told, Ramsay writes, that the duke will hand over Paris when it ends.",
+     "state": "fixed"
+    },
+    {
+     "id": "050-story-auditor-1",
+     "severity": "weak",
+     "kind": "map",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "cartographer",
+     "file": "content/joan-of-arc/pages/050-paris-and-compiegne/030-back-to-the-loire/page.yaml",
+     "claim": null,
+     "evidence": "050.29; the text: 'He crosses the Marne at Lagny and goes by Provins to Bray ... Sens will not let him in, so he fords the Yonne a little below it and rides on by Courtenay and Montargis to Gien'; the page marks only saint-denis-abbey, bray-1429 and gien-disbanded (capture back-to-the-loire.png)",
+     "action": "markers for the stations of the king's road the text names, at least Lagny, Provins and Sens (where he is refused and fords the Yonne below the town), and Courtenay and Montargis if the frame allows, written by .plans/pages050.mjs and linked in the text",
+     "state": "fixed"
+    },
+    {
+     "id": "060-story-auditor-1",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md",
+     "claim": "060.49",
+     "evidence": "names.md, row Guillaume Erard: 'the doctor who preached at Saint-Ouen on 24 May 1431' (060.49); agents/text.md, 3: a person gets a few words on who they are where the page first names them",
+     "action": "she hears a sermon by the doctor Guillaume Erard.",
+     "state": "fixed"
+    },
+    {
+     "id": "060-story-auditor-2",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/040-the-questioning/text/en.md",
+     "claim": "060.45",
+     "evidence": "names.md, row Thomas de Courcelles: 'the doctor of Paris who read the articles to her' (060.45); agents/text.md, 3",
+     "action": "On 27 March Thomas de Courcelles, a doctor of Paris, reads her the charges",
+     "state": "fixed"
+    },
+    {
+     "id": "060-story-auditor-3",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md",
+     "claim": "060.60",
+     "evidence": "names.md, row Nicolas Midi: 'the doctor of Paris who cut the articles to twelve and preached at the Old Market' (060.60); agents/text.md, 3. The body grows from about 297 to 301 words",
+     "action": "and Nicolas Midi, a doctor of Paris, preaches.",
+     "state": "fixed"
+    },
+    {
+     "id": "070-story-auditor-1",
+     "severity": "weak",
+     "kind": "map",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "cartographer",
+     "file": "content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/page.yaml",
+     "claim": null,
+     "evidence": "070.6 and 070.2; the text tells the French taking of Saint-Denis on 1 June 1435, its siege and the garrison's march out on 4 October, and Bedford's death at Rouen; the page marks only notre-dame-1431 and arras-1435 (capture burgundy-changes-sides.png)",
+     "action": "a marker for Saint-Denis of 1435 (a page id of its own), linked at the text's 'Saint-Denis', and one for Rouen, where Bedford dies, if the frame allows",
+     "state": "fixed"
+    },
+    {
+     "id": "story-story-auditor-1",
+     "severity": "weak",
+     "kind": "plan",
+     "introduced": "research",
+     "firstCheck": "research",
+     "leak": false,
+     "owner": "researcher",
+     "file": "content/joan-of-arc/.plan/research.md",
+     "claim": "010.14",
+     "evidence": "020.9 is 'agreed (Murray's note; Lang; Lowell)' that Domrémy 'belonged to France as a dependency of Champagne', while 010.14 marks the same lordship 'disputed' with Lowell's Bar; Lowell's quote in 020.9 ('miles south to Neufchateau, a walled town belonging to the duke of Lorraine') says nothing of Domrémy; Lang ch. 2 l. 1667-1669 and Murray's note l. 11873-11875",
+     "action": "010.14 gives the account that Domrémy was French as a third reading of its disputed lordship, with Murray's note and Lang's 'French soil' quoted; 020.9 keeps 'agreed' for Neufchâteau and refers Domrémy's lordship to 010.14, and its Lowell quote, which is on Neufchâteau alone, no longer stands for Domrémy belonging to France",
+     "state": "fixed"
+    },
+    {
+     "id": "story-story-auditor-2",
+     "severity": "taste",
+     "kind": "map",
+     "introduced": "maps",
+     "firstCheck": "maps",
+     "leak": false,
+     "owner": "cartographer",
+     "file": "content/joan-of-arc/.plans/pages070.mjs",
+     "claim": null,
+     "evidence": "normandy-won-back: 'When the year ends ... The map draws the English lands round these towns', yet caen-1450 and cherbourg-1450 are france (captures normandy-won-back.png, dark and light); castillon: 'The map shows this English Gascony of 1452 and 1453', yet bordeaux-1453 is france; auxerre-and-troyes: troyes-1429 france inside english-1429",
+     "action": "a marker inside a zone of another state says why: either its colour follows the holder at the moment the page's zones show (English Caen and Cherbourg at the close of 1449, English Bordeaux in 1452-1453, Troyes English before 10 July), or the closing sentence of the text says that the markers show the page's end and the zones its opening",
+     "state": "declined"
     }
    ]
   },
@@ -12584,6 +13216,20 @@
      "evidence": "scripts/images-place.mjs switches a card image only where the list is written one name a line; the eleven cards write their images list on one line, so the strict build stopped on: unknown image agincourt-battle-miniature",
      "action": "each placeholder name in a card's images list gives way to its image's id, as images/<section>.yaml pairs them",
      "state": "fixed"
+    },
+    {
+     "id": "story-overseer-8",
+     "severity": "weak",
+     "kind": "plan",
+     "introduced": "fix",
+     "firstCheck": null,
+     "leak": false,
+     "owner": "brief",
+     "file": "content/joan-of-arc/.plan/brief.md",
+     "claim": null,
+     "evidence": "reports/010-researcher.yaml: since story-story-auditor-1 the claim 020.9 covers Neufchateau alone, and the reading of Domremy as French stands in 010.14",
+     "action": "each row cites 010.14, the disputed lordship of Domremy, where it cited 020.9 for the village as a dependency of Champagne",
+     "state": "fixed"
     }
    ]
   },
@@ -14294,6 +14940,151 @@
     "serve": "static"
    },
    "problems": []
+  },
+  {
+   "role": "section-reviewer",
+   "description": "story 010 section-reviewer fix",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "010",
+    "step": "story",
+    "task": "fix",
+    "faults": ".plan/faults/010.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/story-010-section-reviewer-fix",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "section-reviewer",
+   "description": "story 040 section-reviewer fix",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "040",
+    "step": "story",
+    "task": "fix",
+    "faults": ".plan/faults/040.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/story-040-section-reviewer-fix",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "section-reviewer",
+   "description": "story 060 section-reviewer fix",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "060",
+    "step": "story",
+    "task": "fix",
+    "faults": ".plan/faults/060.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/story-060-section-reviewer-fix",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "cartographer",
+   "description": "story 020 cartographer fix",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "020",
+    "step": "story",
+    "task": "fix",
+    "faults": ".plan/faults/020.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/story-020-cartographer-fix",
+    "serve": "static",
+    "note": "The images are placed: a marker's image line and a card's images list hold image ids now, where the generator of the section still names placeholders."
+   },
+   "problems": []
+  },
+  {
+   "role": "cartographer",
+   "description": "story 030 cartographer fix",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "030",
+    "step": "story",
+    "task": "fix",
+    "faults": ".plan/faults/030.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/story-030-cartographer-fix",
+    "serve": "static",
+    "note": "The images are placed: a marker's image line and a card's images list hold image ids now, where the generator of the section still names placeholders."
+   },
+   "problems": []
+  },
+  {
+   "role": "cartographer",
+   "description": "story 050 cartographer fix",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "050",
+    "step": "story",
+    "task": "fix",
+    "faults": ".plan/faults/050.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/story-050-cartographer-fix",
+    "serve": "static",
+    "note": "The images are placed: a marker's image line and a card's images list hold image ids now, where the generator of the section still names placeholders."
+   },
+   "problems": []
+  },
+  {
+   "role": "cartographer",
+   "description": "story 070 cartographer fix",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "070",
+    "step": "story",
+    "task": "fix",
+    "faults": ".plan/faults/070.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/story-070-cartographer-fix",
+    "serve": "static",
+    "note": "The images are placed: a marker's image line and a card's images list hold image ids now, where the generator of the section still names placeholders."
+   },
+   "problems": []
+  },
+  {
+   "role": "researcher",
+   "description": "story 010 researcher fix",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "010",
+    "step": "story",
+    "task": "fix",
+    "faults": ".plan/faults/story.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/story-010-researcher-fix",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "image-finder",
+   "description": "story 010 image-finder fix",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "010",
+    "step": "story",
+    "task": "fix",
+    "faults": ".plan/faults/010.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/story-010-image-finder-fix",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "story-auditor",
+   "description": "story all story-auditor recheck",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "all",
+    "step": "story",
+    "task": "recheck",
+    "faults": ".plan/faults/story.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/story-story-auditor-recheck",
+    "serve": "static",
+    "note": "The audit's sixteen faults stand in faults/010, 020, 030, 040, 050, 060, 070 and story.yaml, fourteen fixed and two declined with their rulings; decisions.md holds the rulings."
+   },
+   "problems": []
   }
  ],
  "fixes": [
@@ -15307,6 +16098,61 @@
    "kind": "image",
    "severity": "weak",
    "owner": "image-finder",
+   "steppedIn": false
+  },
+  {
+   "fault": "010-story-auditor-5",
+   "by": "image-finder",
+   "file": "content/joan-of-arc/shared/images/charles-vii-fouquet-portrait-7f767d/image.yaml",
+   "field": "caption",
+   "commit": "5783ce3a",
+   "kind": "image",
+   "severity": "weak",
+   "owner": "image-finder",
+   "steppedIn": false
+  },
+  {
+   "fault": "010-story-auditor-1",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/010-france-divided/060-cravant-and-verneuil/text/en.md",
+   "field": "Notes, the third note",
+   "commit": "5783ce3a",
+   "kind": "fact",
+   "severity": "wrong",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "010-story-auditor-2",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md",
+   "field": "Notes, the second note",
+   "commit": "5783ce3a",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "010-story-auditor-3",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md",
+   "field": "text",
+   "commit": "5783ce3a",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "010-section-reviewer-13",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/.plan/names.md",
+   "field": "Writers of the sources, Murray",
+   "commit": "5783ce3a",
+   "kind": "check",
+   "severity": "wrong",
+   "owner": "section-reviewer",
    "steppedIn": false
   },
   {
@@ -16374,6 +17220,72 @@
    "kind": "image",
    "severity": "weak",
    "owner": "image-finder",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-story-auditor-1",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/pages/020-the-road-to-chinon/030-vaucouleurs-again/page.yaml",
+   "field": "markers",
+   "commit": "5783ce3a",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-story-auditor-1",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/pages/020-the-road-to-chinon/030-vaucouleurs-again/markers.yaml",
+   "field": "burey-1429",
+   "commit": "5783ce3a",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-story-auditor-1",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/pages/020-the-road-to-chinon/030-vaucouleurs-again/text/en.md",
+   "field": "body, paragraph 1",
+   "commit": "5783ce3a",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-story-auditor-1",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml",
+   "field": "vaucouleurs-again.markers",
+   "commit": "5783ce3a",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-story-auditor-1",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plan/020-the-road-to-chinon/map.yaml",
+   "field": "vaucouleurs-again.markers, vaucouleurs-again.unmarked",
+   "commit": "5783ce3a",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-story-auditor-1",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plans/pages020.mjs",
+   "field": "vaucouleurs-again markers; image names of every page",
+   "commit": "5783ce3a",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
    "steppedIn": false
   },
   {
@@ -17675,6 +18587,61 @@
    "steppedIn": false
   },
   {
+   "fault": "030-story-auditor-1",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plans/pages030.mjs and content/joan-of-arc/pages/030-orleans/020-the-army-of-blois/page.yaml, markers.yaml",
+   "field": "the-army-of-blois, markers",
+   "commit": "5783ce3a",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-story-auditor-1",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plan/030-orleans/pages.yaml",
+   "field": "the-army-of-blois.markers",
+   "commit": "5783ce3a",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-story-auditor-1",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plan/030-orleans/map.yaml",
+   "field": "the-army-of-blois.markers and the-army-of-blois.unmarked",
+   "commit": "5783ce3a",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-story-auditor-1",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/pages/030-orleans/020-the-army-of-blois/text/en.md",
+   "field": "body, paragraph 1",
+   "commit": "5783ce3a",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "none",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plans/pages030.mjs",
+   "field": "markers, image",
+   "commit": "5783ce3a",
+   "kind": null,
+   "severity": null,
+   "owner": null,
+   "steppedIn": false
+  },
+  {
    "fault": "040-research-reviewer-1",
    "by": "research-reviewer",
    "file": "content/joan-of-arc/.plan/research/040.md",
@@ -18610,6 +19577,28 @@
    "steppedIn": false
   },
   {
+   "fault": "040-story-auditor-1",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/040-the-loire-and-reims/060-the-towns-come-over/text/en.md",
+   "field": "body, paragraph 4",
+   "commit": "5783ce3a",
+   "kind": "order",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-story-auditor-2",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/040-the-loire-and-reims/050-reims/text/en.md",
+   "field": "body, paragraph 4",
+   "commit": "5783ce3a",
+   "kind": "attribution",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
    "fault": "050-editor-1",
    "by": "editor",
    "file": "content/joan-of-arc/.plan/050-paris-and-compiegne/pages.yaml",
@@ -19443,6 +20432,61 @@
    "kind": "map",
    "severity": "taste",
    "owner": "map-auditor",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-story-auditor-1",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plans/pages050.mjs",
+   "field": "pages[back-to-the-loire].markers (and so 030-back-to-the-loire markers.yaml and page.yaml, rerun)",
+   "commit": "5783ce3a",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-story-auditor-1",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/pages/050-paris-and-compiegne/030-back-to-the-loire/text/en.md",
+   "field": "paragraph 2, the king's road",
+   "commit": "5783ce3a",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-story-auditor-1",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plan/050-paris-and-compiegne/pages.yaml",
+   "field": "pages[back-to-the-loire].markers",
+   "commit": "5783ce3a",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-story-auditor-1",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml",
+   "field": "back-to-the-loire.markers and back-to-the-loire.unmarked",
+   "commit": "5783ce3a",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "050-story-auditor-1",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plans/pages050.mjs",
+   "field": "the image of each marker that has one",
+   "commit": "5783ce3a",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
    "steppedIn": false
   },
   {
@@ -20821,6 +21865,39 @@
    "steppedIn": false
   },
   {
+   "fault": "060-story-auditor-1",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md",
+   "field": "body",
+   "commit": "5783ce3a",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-story-auditor-2",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/060-rouen/040-the-questioning/text/en.md",
+   "field": "body",
+   "commit": "5783ce3a",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "060-story-auditor-3",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md",
+   "field": "body",
+   "commit": "5783ce3a",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
    "fault": "070-research-reviewer-1",
    "by": "research-reviewer",
    "file": "content/joan-of-arc/.plan/research/070.md",
@@ -21701,6 +22778,72 @@
    "steppedIn": false
   },
   {
+   "fault": "070-story-auditor-1",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/page.yaml",
+   "field": "markers",
+   "commit": "6e446cf8",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-story-auditor-1",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/markers.yaml",
+   "field": "saint-denis-1435 and rouen-1435",
+   "commit": "6e446cf8",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-story-auditor-1",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plans/pages070.mjs",
+   "field": "burgundy-changes-sides.markers; image lines",
+   "commit": "6e446cf8",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-story-auditor-1",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plan/070-after-her/pages.yaml",
+   "field": "burgundy-changes-sides.markers",
+   "commit": "6e446cf8",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-story-auditor-1",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/.plan/070-after-her/map.yaml",
+   "field": "burgundy-changes-sides.markers and unmarked",
+   "commit": "6e446cf8",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-story-auditor-1",
+   "by": "cartographer",
+   "file": "content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md",
+   "field": "body, the links",
+   "commit": "6e446cf8",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
    "fault": "story-editor-1",
    "by": "editor",
    "file": "content/joan-of-arc/.plan/030-orleans/pages.yaml",
@@ -22457,6 +23600,127 @@
    "kind": "check",
    "severity": "wrong",
    "owner": "overseer",
+   "steppedIn": true
+  },
+  {
+   "fault": "story-story-auditor-1",
+   "by": "researcher",
+   "file": "content/joan-of-arc/.plan/research.md",
+   "field": "010.14",
+   "commit": "5783ce3a",
+   "kind": "plan",
+   "severity": "weak",
+   "owner": "researcher",
+   "steppedIn": false
+  },
+  {
+   "fault": "story-story-auditor-1",
+   "by": "researcher",
+   "file": "content/joan-of-arc/.plan/research/010.md",
+   "field": "010.14",
+   "commit": "5783ce3a",
+   "kind": "plan",
+   "severity": "weak",
+   "owner": "researcher",
+   "steppedIn": false
+  },
+  {
+   "fault": "story-story-auditor-1",
+   "by": "researcher",
+   "file": "content/joan-of-arc/.plan/research.md",
+   "field": "020.9",
+   "commit": "5783ce3a",
+   "kind": "plan",
+   "severity": "weak",
+   "owner": "researcher",
+   "steppedIn": false
+  },
+  {
+   "fault": "story-story-auditor-1",
+   "by": "researcher",
+   "file": "content/joan-of-arc/.plan/research/020.md",
+   "field": "020.9",
+   "commit": "5783ce3a",
+   "kind": "plan",
+   "severity": "weak",
+   "owner": "researcher",
+   "steppedIn": false
+  },
+  {
+   "fault": "story-overseer-8",
+   "by": "overseer",
+   "file": "content/joan-of-arc/.plan/brief.md",
+   "field": "Map, Zones, line 226",
+   "commit": "af9ee7ed",
+   "kind": "plan",
+   "severity": "weak",
+   "owner": "brief",
+   "steppedIn": true
+  },
+  {
+   "fault": "story-overseer-8",
+   "by": "overseer",
+   "file": "content/joan-of-arc/.plan/brief.md",
+   "field": "Map, Zones, line 232",
+   "commit": "af9ee7ed",
+   "kind": "plan",
+   "severity": "weak",
+   "owner": "brief",
+   "steppedIn": true
+  },
+  {
+   "fault": "story-overseer-8",
+   "by": "overseer",
+   "file": "content/joan-of-arc/.plan/brief.md",
+   "field": "Map, Zones, line 251",
+   "commit": "af9ee7ed",
+   "kind": "plan",
+   "severity": "weak",
+   "owner": "brief",
+   "steppedIn": true
+  },
+  {
+   "fault": "story-story-auditor-3",
+   "by": "overseer",
+   "file": "content/joan-of-arc/.plans/zones.mjs",
+   "field": "the reason of a line of the Meuse or of the Three Fountains brook",
+   "commit": "54c3bc0a",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "map-keeper",
+   "steppedIn": true
+  },
+  {
+   "fault": "story-story-auditor-3",
+   "by": "overseer",
+   "file": "content/joan-of-arc/.plans/zones.mjs",
+   "field": "the reason of a line of the Meuse or of the Three Fountains brook",
+   "commit": "54c3bc0a",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "map-keeper",
+   "steppedIn": true
+  },
+  {
+   "fault": "story-story-auditor-3",
+   "by": "overseer",
+   "file": "content/joan-of-arc/.plans/zones.mjs",
+   "field": "the reason of a line of the Meuse or of the Three Fountains brook",
+   "commit": "54c3bc0a",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "map-keeper",
+   "steppedIn": true
+  },
+  {
+   "fault": "story-story-auditor-4",
+   "by": "overseer",
+   "file": "content/joan-of-arc/.plan/names.md",
+   "field": "the row Murray, First named in",
+   "commit": "54c3bc0a",
+   "kind": "plan",
+   "severity": "taste",
+   "owner": "names",
    "steppedIn": true
   }
  ]

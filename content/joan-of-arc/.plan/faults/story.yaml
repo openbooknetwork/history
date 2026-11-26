@@ -436,3 +436,31 @@
   introduced: fix
   owner: brief
   state: fixed
+- id: story-story-auditor-3
+  severity: weak
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: MEUSE_WHY (l. 46-47) and the est() reason of the Three Fountains brook (l. 186), and so the `why` of ground.yaml l. 163, 172, 181 and 719 when the generator runs again
+  replaces: clause
+  old: "020.9 Domrémy belonging to France (l. 47; 'Domrémy French (020.9)' in the comment of l. 46); 'Greux and the north of the village French (020.9)' (l. 186)"
+  new: "010.14 for Domrémy belonging to France, as Murray's note and Lang's 'French soil' (one of its three readings), in each of the three places; the shapes do not change"
+  source: "research.md 020.9 since story-story-auditor-1: 'agreed for Neufchâteau in Lorraine (Lowell; Lang). Domrémy's own lordship is disputed and stands at 010.14, with Murray's note and Lang's \"French soil\"'; story-overseer-8 moved the same citation in brief.md and left the generator's"
+  kind: map
+  claim: "010.14"
+  introduced: fix
+  owner: map-keeper
+  state: fixed
+  reader: sees nothing on a page; whoever checks the basis of the Meuse edge and of the line through Domrémy finds it resting on a claim that no longer says so, and may take the village's French half for agreed where it is one reading of a dispute
+- id: story-story-auditor-4
+  severity: taste
+  file: content/joan-of-arc/.plan/names.md
+  field: the row Murray, column First named in
+  replaces: clause
+  old: "010 (010.14, a note of Murray's that 020.9 quotes)"
+  new: "010 (010.14, Murray's note)"
+  source: "research.md 020.9 since story-story-auditor-1 quotes Lowell and Lang only; Murray's note is quoted in 010.14 (l. 11873-11875 of the Murray file)"
+  kind: plan
+  claim: "010.14"
+  introduced: fix
+  owner: names
+  state: fixed
+  reader: sees nothing on a page; a writer or checker who follows the row to 020.9 finds no note of Murray's there

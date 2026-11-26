@@ -23,3 +23,15 @@
     - "saint-ouen and the-old-market: the words she abjured (060.52), why she put on the man's dress again (060.55) and whether she said her voices deceived her (060.66) stay open; each page gives each account. Proposed: as told."
     - "normandy-won-back: the French losses at Formigny (070.22) are not known. Proposed: as told."
   stale: []
+- step: story
+  task: recheck
+  status: faults
+  changed_files:
+    - content/joan-of-arc/.plan/faults/story.yaml
+  faults: [story-story-auditor-3, story-story-auditor-4]
+  unresolved:
+    - "Store: the static build still loads every image from the store, which holds nothing of this story, so the images of the captures are broken and the Fouquet caption (010-story-auditor-5) was checked against the image finder's Commons reading only. The strict build with --no-store passes, 1 story to check against the store once uploaded."
+    - "domremy: Domrémy's lordship (010.14) stays disputed, now told with its three readings and the map's line as Lowell's. Proposed: as told."
+    - "The open and disputed claims of the audit's list stand as told on their pages (020.2, 020.4, 020.11, 020.40, 020.42, 020.43, 020.51, 050.40, 050.62, 060.52, 060.55, 060.66, 070.22). Proposed: as told."
+  stale: [content/joan-of-arc/.plan/ground.yaml]
+  rechecked: "the 14 fixed faults of the audit, each against git diff 5783ce3a (6e446cf8 for 070-story-auditor-1): all hold as their fix logs give them; the 2 declined (010-story-auditor-4, story-story-auditor-2) stand with the overseer's rulings in decisions.md"

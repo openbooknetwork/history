@@ -21,8 +21,9 @@ keeps the reason. Read this file before you change a page, a zone, a card or a t
   it alone.
 - **The careful side.** A claim that no primary or scholarly source carries is left out. A number of men, a date
   or a place that the sources give differently names its author.
-- **The two trials are primary sources with a side.** What a witness of 1456 said of 1429 or 1431 is told as that
-  witness's account, twenty-five years on. What the record of 1431 says she said is the court's record.
+- **The two trials are primary sources with a side.** What a witness of the retrial said of 1429 or 1431 is told
+  as that witness's account, a quarter of a century on. A text or a note says "at the retrial" and gives a deposition no
+  year: Murray heads the depositions 1455, 1455-6 and 1456 by place, and no file dates each one. What the record of 1431 says she said is the court's record.
 - **The texts from archive.org are OCR.** A quote is copied as the file has it, and a name is searched by more
   than one spelling.
 - **The Thin part of the digest is not told.** No text and no card gives a claim that `research.md` lists under

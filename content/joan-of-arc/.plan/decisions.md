@@ -279,3 +279,8 @@
   (050-section-reviewer-13 to -16) and Boussac on the Paris card for the section coordinator (-17); places named and
   not marked on 060 for the cartographer (060-section-reviewer-13 to -17), with the date of `the-court`
   (060-overseer-1).
+- facts 050 rechecked (fact-checker): pass; three of the reviewer's fixes gave a deposition the year 1456 that no file
+  gives, and now say "at the retrial" (050-fact-checker-34 to -36).
+- cloud ruling: a deposition of the retrial is given no year, and the rule of `rules.md` says "at the retrial" — Murray
+  heads the depositions 1455, 1455-6 and 1456 by place, perhaps in the old style, and no file dates each one. Five
+  texts of 020, 030 and 040 still say 1456 of a witness; the editor reads them against the rule at `edit`.

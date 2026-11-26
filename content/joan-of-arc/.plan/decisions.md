@@ -386,3 +386,12 @@
   were not run.
 - ledger after `story`: | **total** | 134 | 3,732 | 635,029 | 7,598 | 25,739,975 | 640,779,164 | 4,696,521 | 119,743,088 |
 - the pull request: https://github.com/openbooknetwork/history/pull/3, opened as a draft into `main`, 26 Nov 2026, with every cloud ruling, what was left out and the two faults of the audit's recheck.
+- the user, 26 Nov 2026, after the pull request was opened: Patay gets phase pages. The place of the battle is a best
+  guess, and a note says that it is disputed. This overrules the cloud ruling of `final-brief` for Patay, which the
+  overseer had made from the survey's summary though Wavrin gives the English order and movements and the Journal
+  and Cagny the French vanguard (040.22 to 040.46). The brief and `rules.md` follow. Orléans keeps its card alone.
+- Patay's phases, the order of work: the section coordinator of 040 gives `patay-1429` its phase pages; a battle
+  coordinator plans the battle, and the overseer dispatches its implementor and auditor in its place, as for every
+  manager of this run; the fact checker of 040 checks the plan and then the new texts. The battle gets no
+  researcher of its own unless its coordinator reports a gap: the digest's lines of Patay were researched and
+  reviewed with 040. The story-auditor, at its bound, does not read the new pages.

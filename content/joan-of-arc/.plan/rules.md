@@ -5,9 +5,13 @@ keeps the reason. Read this file before you change a page, a zone, a card or a t
 
 ## Shape
 
-- **41 pages in seven sections**, as the brief counts them for each section. A section's plan holds exactly its
-  count.
-- **No battle has phase pages.** Every battle the brief names gets a card and no more. No battle plan is written.
+- **41 pages in seven sections and the phase pages of Patay.** A section's plan holds exactly its count, and 040
+  holds its six with two or three phase pages of `patay-1429` after `patay`.
+- **Patay alone has phase pages**, by the user's word of 26 Nov 2026. Every other battle the brief names gets a card
+  and no more. The field of Patay is a best guess: the plan takes one place for it, marks it `reconstruction`, and
+  every phase page says in a note that the place of the battle is disputed, with each author's place (040.39). A
+  unit's position that no source gives is a reconstruction from Wavrin's order of the English and the ground, and
+  is told as approximate; it is not left out for that alone.
 - **The closing page**, the last of section 070, tells what is recorded of how she was remembered, to the
   canonisation of 1920, and claims nothing of what she means.
 

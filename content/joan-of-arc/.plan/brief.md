@@ -77,7 +77,7 @@ section's own pages show each fort on the day it fell, from the Journal of the S
 - Reims opens its gates; Charles VII is anointed on 17 July with Joan beside him
 - What the coronation changed: the towns that came over in the weeks after
 
-**Battles:** Jargeau (card), Patay (card, no phase pages)
+**Battles:** Jargeau (card), Patay (card, and two or three phase pages on a best-guess field, by the user's word of 26 Nov 2026)
 
 **Pages:** 6
 
@@ -156,7 +156,10 @@ research check each one, and the brief is settled again at `final-brief`.
 The survey read the sources, and the sections above were changed where `sources.md` differs ("Against the brief").
 The count stays 41 pages in seven sections, as agreed with the user.
 
-- **No battle has phase pages.** Orléans and Patay each get a card. No source read gives a plan of the bastilles of
+- **Patay has phase pages, added after the story was built** (the user, 26 Nov 2026): the place of the battle is a
+  best guess and each phase page says in a note that it is disputed. The cloud run's first ruling, below, stood
+  until then.
+- **No other battle has phase pages.** Orléans and Patay each got a card at `final-brief`. No source read gives a plan of the bastilles of
   Orléans, and Patay was over before the English were set. The three forts of Orléans are pages of section 030 as
   they were, on a map of the city and its river.
 - **010** gains Baugé with a card, and Cravant in the text, within its six pages.

@@ -360,3 +360,10 @@
   designed for the Baugé card, and a marker's colour is the holder as its page ends.
 - story, the fixes: fourteen faults go to their owners in one round: the reviewers of 010, 040 and 060, the
   cartographers of 020, 030, 050 and 070, the researcher (story-story-auditor-1) and the image finder of 010.
+- story, the fixes of the audit, 26 Nov 2026: fourteen faults fixed by nine agents: the Verneuil note gives Beaucourt's
+  20,000; `domremy` tells the three readings and calls the map's line Lowell's; Sens on `the-towns-come-over`; three
+  doctors of Paris named as that; markers for Burey, the forts of Orléans on `the-army-of-blois`, the towns of the
+  king's road on `back-to-the-loire`, Saint-Denis and Rouen in 1435; the Fouquet portrait dated 1445 to 1450; and
+  the digest's 010.14 and 020.9. The Map rows that cited 020.9 for Domrémy cite 010.14 (story-overseer-8). Two faults
+  are declined. No fault of any list is open; the check, the strict build, the linter, the names check and the plan
+  check print ok.

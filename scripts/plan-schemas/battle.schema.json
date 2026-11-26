@@ -1,0 +1,246 @@
+{
+ "title": "battles/<battle id>.yaml: one battle with phases, its ground, order of battle, phases and card",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "id",
+  "name",
+  "date",
+  "sources",
+  "ground",
+  "sides",
+  "phases",
+  "card"
+ ],
+ "properties": {
+  "id": {
+   "type": "string",
+   "pattern": "^[a-z0-9]+(-[a-z0-9]+)*-\\d+$"
+  },
+  "name": {
+   "type": "string"
+  },
+  "date": {
+   "type": "string"
+  },
+  "sources": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "file",
+     "gives"
+    ],
+    "properties": {
+     "file": {
+      "type": "string"
+     },
+     "gives": {
+      "type": "string"
+     },
+     "claims": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "pattern": "^\\d{3}\\.\\d+$"
+      }
+     }
+    }
+   }
+  },
+  "ground": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "field",
+    "front"
+   ],
+   "properties": {
+    "field": {
+     "type": "string"
+    },
+    "facing": {
+     "type": "string"
+    },
+    "front": {
+     "type": "string"
+    },
+    "basis": {
+     "enum": [
+      "sourced",
+      "reconstruction",
+      "unknown"
+     ]
+    }
+   }
+  },
+  "sides": {
+   "type": "array",
+   "minItems": 2,
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "name",
+     "family",
+     "units"
+    ],
+    "properties": {
+     "name": {
+      "type": "string"
+     },
+     "family": {
+      "type": "string"
+     },
+     "units": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "id",
+        "type",
+        "strength"
+       ],
+       "properties": {
+        "id": {
+         "type": "string",
+         "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+        },
+        "type": {
+         "type": "string"
+        },
+        "commander": {
+         "type": "string"
+        },
+        "strength": {
+         "type": "string"
+        },
+        "claim": {
+         "type": "string",
+         "pattern": "^\\d{3}\\.\\d+$"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "phases": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "page",
+     "title",
+     "opens",
+     "moves",
+     "decides"
+    ],
+    "properties": {
+     "page": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+     },
+     "title": {
+      "type": "string"
+     },
+     "opens": {
+      "type": "string"
+     },
+     "moves": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "unit",
+        "does",
+        "basis"
+       ],
+       "properties": {
+        "unit": {
+         "type": "string"
+        },
+        "does": {
+         "type": "string"
+        },
+        "basis": {
+         "enum": [
+          "sourced",
+          "reconstruction",
+          "unknown"
+         ]
+        },
+        "why": {
+         "type": "string"
+        },
+        "claim": {
+         "type": "string",
+         "pattern": "^\\d{3}\\.\\d+$"
+        }
+       }
+      }
+     },
+     "decides": {
+      "type": "string"
+     }
+    }
+   }
+  },
+  "card": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "sides",
+    "outcome"
+   ],
+   "properties": {
+    "site": {
+     "type": "string"
+    },
+    "sides": {
+     "type": "array",
+     "minItems": 2,
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "name",
+       "family",
+       "commanders"
+      ],
+      "properties": {
+       "name": {
+        "type": "string"
+       },
+       "family": {
+        "type": "string"
+       },
+       "commanders": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       },
+       "strength": {
+        "type": "string"
+       },
+       "casualties": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "outcome": {
+     "type": "string"
+    }
+   }
+  }
+ }
+}

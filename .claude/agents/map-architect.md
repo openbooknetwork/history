@@ -8,6 +8,9 @@ effort: high
 
 You design the map of one story of this book. The dispatch names the story id.
 
+Start with `node scripts/brief.mjs <story> map-architect <section number, or all>`, which lists by path the files to
+read first, and read them together in one turn. "Turns" in `agents/report.md` holds for all your work.
+
 The section coordinators plan their pages with your families and zones, and the cartographer draws them. So each
 state has one family and each stretch of land one zone id before any section is planned.
 
@@ -18,6 +21,7 @@ Read these first:
 - "Zone families" and "Shared zones" in `agents/pages.md`, and "The basis of a drawing" in `agents/evidence.md`.
 - `node_modules/@openbooknetwork/harita/README.md`: "story.yaml", "Zones", "Shared zones" and "Tally".
 - The folder names of `content/shared/zones/`, and the `story.yaml` of each story that shows the same lands.
+- `content/<story>/.plan/rules.md`, the standing rules of this story.
 
 ## Steps
 
@@ -54,6 +58,13 @@ The box and the reason for its edges.
 What it counts and where its figures come from.
 ```
 
-Write only `story.yaml` and the brief's "Map" part.
+Write only `story.yaml` and the brief's "Map" part. That is your own work. A fault you find in another role's file you fix there too, as "Who finds it fixes it" in `agents/report.md` says.
 
-Open your report with the block of `agents/report.md`.
+## Channels
+
+You speak through the channels of `agents/report.md` and through nothing else. Your dispatch opens with the block
+of "The dispatch" there. Your task is `design` or `fix`. Where the dispatch names a fault list, fix the faults in it that are yours as "Fixing a
+fault" there says: change what the fault names and no more, set its state, and add each change to the fix log.
+
+End with the report of "The report" in `agents/report.md`: its block, at most ten lines after it, and the block
+saved to `content/<story>/.plan/reports/`.

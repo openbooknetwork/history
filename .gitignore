@@ -12,3 +12,11 @@ dist/
 content/**/images/**/image.*
 !content/**/images/**/image.yaml
 .claude/settings.local.json
+
+# Section slices of the digest and of names.md, made afresh by scripts/slice.mjs
+content/**/.plan/research-*.md
+content/**/.plan/names-*.md
+content/**/.plan/passages-*.md
+content/**/.plan/brief-*.md
+content/**/.plan/sources-index*.md
+content/**/.plan/passages-*-part.md

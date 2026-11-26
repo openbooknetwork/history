@@ -77,6 +77,7 @@ claims" is in the source files but not yet in a claim; a writer who uses it cite
 | Aretes | commander of the light cavalry who makes the second charge on the right at Gaugamela | 050 (Arrian 3.12, 3.14) | |
 | Attalus, commander of the Agrianians | commander of the Agrianian javelin-men; always with the description, to keep him apart from Philip's Attalus and Attalus, son of Andromenes | 050 (Arrian 3.12; Arrian names him already at Issus, 2.9, which the 040 plan leaves out) | Attalus |
 | Philip, son of Menelaus | commander of the Thessalian cavalry at Gaugamela; always with his patronymic | 050 (Arrian 3.11; Arrian names him already at the Granicus, 1.14, as commander of the Greek allied cavalry) | Philip, son of Menelaüs (Arrian, tr. Chinnock) |
+| Agathon | commander of the Thracian cavalry on Parmenion's wing at the Granicus | 030 (030.31) | Agatho (Arrian, tr. Chinnock) |
 | Tauron | commander of the archers at the Hydaspes | 070 (Arrian 5.14.1, 5.16.3) | |
 | Peucestas | shields Alexander with the shield from Troy in the Mallian town | 070 (070.16) | |
 | Leonnatus | bodyguard who fights beside Alexander in the Mallian town; satrap of Hellespontine Phrygia in 323 BC | 070 (070.16) | |
@@ -150,6 +151,7 @@ claims" is in the source files but not yet in a claim; a writer who uses it cite
 | Arsames | Persian commander at the Granicus; satrap of Cilicia who flees Tarsus in 333 BC | 030 (030.6) | Arsamenes (Diodorus) |
 | Rhoesaces | Persian noble who strikes Alexander's helmet at the Granicus | 030 (030.10) | Rhosaces (Plutarch) |
 | Mithrenes | Persian commander who surrenders Sardis in 334 BC | 030 (030.14) | |
+| Rheomithres | Persian cavalry commander on the right at the Granicus, with 2,000 horse (Diodorus 17.19.4); Diodorus names him among the Persian dead at Issus (17.34.5) | 030 (030.33) | |
 | Hegesistratus | commander of Darius's garrison at Miletus in 334 BC | 030 (Arrian 1.18) | |
 | Orontobates | Persian satrap of Caria, who defends Halicarnassus with Memnon in 334 BC | 030 (Arrian 1.23; Bosworth) | |
 | Pharnabazus | Persian commander who carries on Memnon's war at sea | 030 (030.18) | |
@@ -177,7 +179,7 @@ claims" is in the source files but not yet in a claim; a writer who uses it cite
 
 | Name | Who | First named in | Other forms in the sources |
 |---|---|---|---|
-| Arrian | Greek historian of the 2nd century AD, author of the Anabasis of Alexander, drawn from Ptolemy and Aristobulus | 010 | |
+| Arrian | Greek historian of the 2nd century AD, author of the Anabasis of Alexander, drawn from Ptolemy and Aristobulus | 020 | |
 | Diodorus | Diodorus Siculus, Greek historian of the 1st century BC, author of the Library of History | 010 | Diodorus Siculus |
 | Plutarch | Greek biographer, author of the Lives of Alexander, Demetrius, Eumenes and Phocion | 010 | |
 | Justin | Roman historian, author of the epitome of Pompeius Trogus | 010 | |
@@ -216,6 +218,8 @@ Named in a text only where it says who holds a view.
 | Hammond and Walbank | N. G. L. Hammond and F. W. Walbank, authors of A History of Macedonia III | 090 | |
 | Tarn | W. W. Tarn, author of the chapter on the new Hellenistic kingdoms in the Cambridge Ancient History VII (1928) and of Alexander the Great (1948) | 090 (090.24) | |
 | Ferguson | W. S. Ferguson, author of the chapter on the leading ideas of the new period in the Cambridge Ancient History VII (1928) | 090 | |
+| Hammond | N. G. L. Hammond, author of The Battle of the Granicus River (Journal of Hellenic Studies 100, 1980), who placed the ford by Gümüşçay | 030 (030.28, 030.30) | |
+| Körpe | Reyhan Körpe, archaeologist who surveyed the Granicus field in 2022-2024 (Troy Museum Journal, 2025) | 030 (030.27-030.30) | Korpe (Pleiades) |
 
 ## Places
 
@@ -248,6 +252,8 @@ today's maps, which a text may add in brackets once per page: "Maracanda (today 
 | Crocus Field | 352 BC | probably the coastal plain of southern Thessaly, Greece (Ellis) | 010 (010.7) | Crocion Plain (Ellis) |
 | Pelinna | whole story | ruins in western Thessaly, Greece | 020 (020.9) | Pelina (Arrian, tr. Chinnock) |
 | Thermopylae | whole story | Thermopyles, Greece | 010 (chaeronea) | |
+| Tempe | whole story | the Vale of Tempi, Greece | 020 (020.20) | vale of Tempe (Bosworth) |
+| Mount Ossa | whole story | Kissavos, Greece | 020 (020.20) | Mt Ossa (Bosworth) |
 | Heraclea in Trachis | whole story | ruins near Lamia, Greece | 010 (010.29) | Heraclea Trachinia (Ellis) |
 | Cytinium | whole story | ruins in Doris, central Greece | 010 (010.29) | |
 | Elatea | whole story | Elateia, Greece | 010 (010.29) | Elateia (Diodorus, tr. Sherman) |
@@ -486,6 +492,7 @@ today's maps, which a text may add in brackets once per page: "Maracanda (today 
 | Thebes; Thebans | Theban | until 335 BC | 010 (010.13) |
 | Boeotians | Boeotian | whole story | 010 (010.13) |
 | Thessalians | Thessalian | whole story | 010 (010.7) |
+| Amphictyons | Amphictyonic | whole story | 020 (020.20) |
 | Phocians | Phocian | whole story | 010 (010.7) |
 | Olynthus; Olynthians | Olynthian | until 348 BC | 010 (010.8) |
 | Sparta; Spartans | Spartan | whole story | 010 (hegemon-and-aegae) |
@@ -497,6 +504,7 @@ today's maps, which a text may add in brackets once per page: "Maracanda (today 
 | Triballi | Triballian | whole story | 020 |
 | Getae | Getic | whole story | 020 (020.4) |
 | Agrianians | Agrianian | whole story | 020 (020.7) |
+| Paeonians | Paeonian | whole story | 030 (030.31, 030.32) |
 | Maedi | — | whole story | 010 (010.9) |
 | Persian Empire | Persian | until 330 BC | 030 (030.1) |
 | Achaemenids (the dynasty) | Achaemenid | until 330 BC | 030 |

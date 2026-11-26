@@ -222,7 +222,7 @@ Punic Wars zones `macedon-192` and `seleucid-192` show other years and other lan
 |---|---|---|---|---|---|
 | macedon-359 | macedon (8) | the kingdom as Philip held it after beating Bardylis in 358 BC: Lower and Upper Macedon west of the Strymon with Anthemus, Pieria without the Greek cities of Pydna and Methone, west to Lake Lychnitis (Ohrid); it also stands on the page of his accession, 360 or 359 BC | reconstruction from 010.1, Diodorus 16.8.1 ("as far as the lake called Lychnitis") and Ellis ch. 14 §§I, III; no Border line | — | 010 |
 | macedon-356 | macedon (8) | macedon-359 with Amphipolis, Pydna and the lower Strymon to the foot of Mount Pangaeum, but without Anthemus (ceded to the Chalcidian League, Ellis ch. 14 §V; olynthus-356 holds it), 356 BC; Methone (taken 354) and Philippi stay outside as an outpost | reconstruction from 010.5, Diodorus 16.8.2–3, Ellis ch. 14 §V (Philippi a colony, "not simply annexed") | — | 010 |
-| illyrians-359 | illyrians (19) | the Illyrian peoples west and north-west of Macedon, 359 BC | reconstruction from 010.1 | — | 010, 030 |
+| illyrians-359 | illyrians (19) | the Illyrian peoples west and north-west of Macedon, 359 BC | reconstruction from 010.1 | — | 010, 020, 030 |
 | thracians-359 | thracians (21) | the Thracian peoples east of the Strymon, the Maedi on its upper course, 359 BC | reconstruction from 010.5, 010.9 | — | 010 |
 | olynthus-356 | olynthus (15) | the Chalcidice under Olynthus, 356–348 BC | reconstruction from 010.8 | — | 010 |
 | thessaly-352 | thessaly (2) | Thessaly under Philip, from 352 BC | reconstruction from 010.7 | — | 010–080, 090 |

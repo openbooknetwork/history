@@ -93,4 +93,4 @@ each pass carries and how often work goes round the loop.
 - Keep the passes; cut the payload: captures, report length, resumes, taste fixes.
 - Turn the mechanical checks into scripts: the rules linter, `names-check`, word counts and the card-frame check
   (`feedback.md` items 12, 16 and 17). Then lean mode needs no judgement to save tokens.
-- Measure with `scripts/token-ledger.py` and compare runs as `evaluation.md` describes.
+- Measure with `scripts/token-ledger.mjs` and compare runs as `evaluation.md` describes.

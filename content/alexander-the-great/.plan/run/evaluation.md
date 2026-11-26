@@ -28,7 +28,7 @@ Most of the acceptance list can be checked by a script or by an agent's report b
 
 ## 2. What is measured
 
-- **Tokens per agent.** `scripts/token-ledger.py` sums every agent's input, cache writes, cache reads and output
+- **Tokens per agent.** `scripts/token-ledger.mjs` sums every agent's input, cache writes, cache reads and output
   from its transcript, counting each message once. Each agent is tagged with its step, section and variant.
 - **Wall time** per step and in all.
 - **Rework.** The number of faults by severity at each step, and the number of round trips a fault takes before it
@@ -162,7 +162,7 @@ To count: failed builds, retaken captures, and agent time spent on workarounds.
 
 ### 4.9 Cost
 
-- **Tokens per role and per accepted page:** from `scripts/token-ledger.py`, with cache reads weighted as the
+- **Tokens per role and per accepted page:** from `scripts/token-ledger.mjs`, with cache reads weighted as the
   usage limit weights them.
 - **Context size at each resume:** the researcher passed 650,000 tokens, and every resume reread it.
 - **Round trips per fault:** auditor to overseer to owner and back, for faults as small as one word.
@@ -248,8 +248,10 @@ rounds are the first variants to test.
 To reproduce the table for a run:
 
 ```
-python3 scripts/token-ledger.py <session>/tasks --roles <overseer's agent list>
+node scripts/token-ledger.mjs <the session's transcript, or the folder of its agents' transcripts>
+node scripts/fault-ledger.mjs <the same>
 ```
 
-where the agent list is any file with "<role> <agent id>" pairs, as the overseer of this run kept in its
-scratchpad.
+Each agent's role comes from its transcript's meta file or from the overseer's dispatch of it. Where a run has
+neither, `--roles <file>` takes any file with "<role> <agent id>" pairs, as the overseer of this run kept in its
+scratchpad. The table above was made that way, with the Python script this one replaces.

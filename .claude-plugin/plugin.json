@@ -1,0 +1,31 @@
+{
+  "name": "story-pipeline",
+  "version": "0.1.0",
+  "description": "Builds a map story for a book on harita and kitap: the agents of the pipeline, the hooks that hold its channels, and the workflow of one section.",
+  "agents": [
+    "./.claude/agents/battle-auditor.md",
+    "./.claude/agents/battle-coordinator.md",
+    "./.claude/agents/battle-implementor.md",
+    "./.claude/agents/cartographer.md",
+    "./.claude/agents/editor.md",
+    "./.claude/agents/fact-checker.md",
+    "./.claude/agents/image-finder.md",
+    "./.claude/agents/map-architect.md",
+    "./.claude/agents/map-auditor.md",
+    "./.claude/agents/map-keeper.md",
+    "./.claude/agents/name-finder.md",
+    "./.claude/agents/names.md",
+    "./.claude/agents/research-coordinator.md",
+    "./.claude/agents/research-reviewer.md",
+    "./.claude/agents/researcher.md",
+    "./.claude/agents/section-coordinator.md",
+    "./.claude/agents/section-lead.md",
+    "./.claude/agents/section-reviewer.md",
+    "./.claude/agents/section-writer.md",
+    "./.claude/agents/story-auditor.md",
+    "./.claude/agents/translation-reviewer.md",
+    "./.claude/agents/translator.md"
+  ],
+  "workflows": "./workflows/",
+  "hooks": "./hooks/hooks.json"
+}

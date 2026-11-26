@@ -1,0 +1,584 @@
+{
+ "variant": "plans-1",
+ "story": "alexander-the-great",
+ "pages": null,
+ "order": [
+  "brief",
+  "survey",
+  "final-brief",
+  "pre-plans",
+  "pre-plan-check",
+  "research",
+  "names",
+  "map-design",
+  "plans",
+  "plan-check",
+  "maps",
+  "texts",
+  "phases",
+  "images",
+  "facts",
+  "edit",
+  "story",
+  "name-forms",
+  "translation"
+ ],
+ "agents": [
+  {
+   "agent": "0b0e0c00-0020-4000-8000-000000000015",
+   "role": "overseer",
+   "parent": "-",
+   "model": "claude-fable-5-2",
+   "start": "2026-11-25T09:12:43.976Z",
+   "end": "2026-11-25T09:34:58.399Z",
+   "description": ""
+  },
+  {
+   "agent": "a5dddca669a2cba97",
+   "role": "researcher",
+   "parent": "section-lead 020",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T09:30:39.518Z",
+   "end": "2026-11-25T09:32:47.101Z",
+   "description": "plan-check 020 researcher add"
+  },
+  {
+   "agent": "a6b0f5e30488ac7a9",
+   "role": "section-coordinator",
+   "parent": "section-lead 020",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T09:13:39.425Z",
+   "end": "2026-11-25T09:23:21.157Z",
+   "description": "plans 020 section-coordinator plan"
+  },
+  {
+   "agent": "a97035ea6d9cd8db4",
+   "role": "fact-checker",
+   "parent": "section-lead 020",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T09:23:32.796Z",
+   "end": "2026-11-25T09:28:40.763Z",
+   "description": "plan-check 020 fact-checker plan-check"
+  },
+  {
+   "agent": "aa66122ecfb0829ff",
+   "role": "section-coordinator",
+   "parent": "section-lead 020",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T09:28:59.089Z",
+   "end": "2026-11-25T09:30:28.293Z",
+   "description": "plan-check 020 section-coordinator fix"
+  },
+  {
+   "agent": "ad8abad1d0db9e3c9",
+   "role": "fact-checker",
+   "parent": "section-lead 020",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T09:32:58.080Z",
+   "end": "2026-11-25T09:33:59.428Z",
+   "description": "plan-check 020 fact-checker recheck"
+  },
+  {
+   "agent": "adfb53c8f72a7675a",
+   "role": "section-lead",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T09:12:56.215Z",
+   "end": "2026-11-25T09:34:35.050Z",
+   "description": "plans 020 section-lead plan"
+  }
+ ],
+ "usage": [
+  {
+   "agent": "0b0e0c00-0020-4000-8000-000000000015",
+   "role": "overseer",
+   "parent": "-",
+   "model": "claude-fable-5-2",
+   "step": "-",
+   "section": "-",
+   "turns": 8,
+   "peak": 41618,
+   "input": 16,
+   "cacheWrite": 29779,
+   "cacheRead": 262380,
+   "output": 3131
+  },
+  {
+   "agent": "a5dddca669a2cba97",
+   "role": "researcher",
+   "parent": "section-lead 020",
+   "model": "claude-opus-5-5",
+   "step": "plan-check",
+   "section": "020",
+   "turns": 17,
+   "peak": 56780,
+   "input": 32,
+   "cacheWrite": 56778,
+   "cacheRead": 649974,
+   "output": 10771
+  },
+  {
+   "agent": "a6b0f5e30488ac7a9",
+   "role": "section-coordinator",
+   "parent": "section-lead 020",
+   "model": "claude-opus-5-5",
+   "step": "plans",
+   "section": "020",
+   "turns": 32,
+   "peak": 201796,
+   "input": 61,
+   "cacheWrite": 201794,
+   "cacheRead": 4223554,
+   "output": 56210
+  },
+  {
+   "agent": "a97035ea6d9cd8db4",
+   "role": "fact-checker",
+   "parent": "section-lead 020",
+   "model": "claude-opus-5-5",
+   "step": "plan-check",
+   "section": "020",
+   "turns": 25,
+   "peak": 144259,
+   "input": 50,
+   "cacheWrite": 140943,
+   "cacheRead": 2682295,
+   "output": 29431
+  },
+  {
+   "agent": "aa66122ecfb0829ff",
+   "role": "section-coordinator",
+   "parent": "section-lead 020",
+   "model": "claude-opus-5-5",
+   "step": "plan-check",
+   "section": "020",
+   "turns": 11,
+   "peak": 54100,
+   "input": 22,
+   "cacheWrite": 50784,
+   "cacheRead": 425949,
+   "output": 7859
+  },
+  {
+   "agent": "ad8abad1d0db9e3c9",
+   "role": "fact-checker",
+   "parent": "section-lead 020",
+   "model": "claude-opus-5-5",
+   "step": "plan-check",
+   "section": "020",
+   "turns": 6,
+   "peak": 89424,
+   "input": 12,
+   "cacheWrite": 82676,
+   "cacheRead": 286289,
+   "output": 5858
+  },
+  {
+   "agent": "adfb53c8f72a7675a",
+   "role": "section-lead",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "plans",
+   "section": "020",
+   "turns": 24,
+   "peak": 67416,
+   "input": 58,
+   "cacheWrite": 171605,
+   "cacheRead": 1073782,
+   "output": 9256
+  }
+ ],
+ "reports": [
+  {
+   "agent": "a5dddca669a2cba97",
+   "role": "researcher",
+   "step": "plan-check",
+   "section": "020",
+   "status": "pass",
+   "changed": 4,
+   "unresolved": 1,
+   "faults": [
+    {
+     "id": "020-researcher-1",
+     "severity": "weak",
+     "kind": "sources",
+     "introduced": "research",
+     "firstCheck": "research",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/alexander-the-great/.plan/020-greece-secured/pages.yaml",
+     "claim": null,
+     "evidence": "research.md 020.22 (the season of the Getic crossing: near harvest, agreed; June by Hammond, ch. II.1, against Droysen's mid-May in Bosworth's Commentary on 1.4.1) and 020.23 (the start with the spring: Arrian 1.1; Bosworth, Conquest and Empire, ch. 2.II; Hammond's early April). The page's date \"Spring and summer 335 BC\" (020-fact-checker-4) rested on no digest line.",
+     "action": "[\"020.23\", \"020.3\", \"020.19\", \"020.15\", \"020.16\", \"020.17\", \"020.22\", \"020.4\", \"020.5\"]",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "a6b0f5e30488ac7a9",
+   "role": "section-coordinator",
+   "step": "plans",
+   "section": "020",
+   "status": "pass",
+   "changed": 8,
+   "unresolved": 3,
+   "faults": [
+    {
+     "id": "020-section-coordinator-1",
+     "severity": "weak",
+     "kind": "plan",
+     "introduced": "names",
+     "firstCheck": "names",
+     "leak": false,
+     "owner": "names",
+     "file": "content/alexander-the-great/.plan/names.md",
+     "claim": "020.20",
+     "evidence": "020.20, Bosworth, Conquest and Empire, ch. 2: \"cutting steps in the face of Mt Ossa\"; \"the vale of Tempe\"",
+     "action": "Rows for Tempe and Mount Ossa, which the 020 plan names (020.20) and names.md lacked.",
+     "state": "fixed"
+    },
+    {
+     "id": "020-section-coordinator-2",
+     "severity": "weak",
+     "kind": "plan",
+     "introduced": "names",
+     "firstCheck": "names",
+     "leak": false,
+     "owner": "names",
+     "file": "content/alexander-the-great/.plan/names.md",
+     "claim": null,
+     "evidence": "research-020.md, 020.1, 020.18, 020.19: \"Hammond, ch. 1\", \"Hammond, ch. 2\"",
+     "action": "A row for Hammond alone, the author of the chapters on Alexander in A History of Macedonia III, whose views on 020.1, 020.18 and 020.19 the 020 texts give.",
+     "state": "fixed"
+    },
+    {
+     "id": "020-section-coordinator-3",
+     "severity": "taste",
+     "kind": "plan",
+     "introduced": "names",
+     "firstCheck": "names",
+     "leak": false,
+     "owner": "names",
+     "file": "content/alexander-the-great/.plan/names.md",
+     "claim": null,
+     "evidence": "names.md, the table of Macedon, Greece and the Balkans",
+     "action": "The Pydna row moved below the table's separator line, where it stood above it and broke the table.",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "a97035ea6d9cd8db4",
+   "role": "fact-checker",
+   "step": "plan-check",
+   "section": "020",
+   "status": "faults",
+   "changed": 0,
+   "unresolved": 2,
+   "faults": [
+    {
+     "id": "020-fact-checker-1",
+     "severity": "wrong",
+     "kind": "plan",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/alexander-the-great/.plan/020-greece-secured/text.yaml",
+     "claim": "020.15",
+     "evidence": "Bosworth, Historical Commentary on Arrian I, on 1.2.5 (archive.org-History-20of-20Alexander-3B-...-Bosworth-djvu.txt.txt, line 4226): \"This is presumably the famous eldest son of Parmenion, the commander of the Companion cavalry (i 14. 1); he is only assigned a portion of the cavalry, as later in Illyria (i 5. 9)\"; on 1.2.1 (line 4162): \"the name Philotas was so common in Macedonia that no identification is possible. Certainly he is not the famous son of Parmenion, who is mentioned in action in the immediate sequel (i 2. 5)\"",
+     "action": "the Philotas there is \"presumably\" Parmenion's son by Bosworth's Commentary on 1.2.5, so a text that names him writes \"Philotas, probably Parmenion's son\"; the Philotas whom Bosworth cannot identify is the officer of 1.2.1 who takes the booty to the coast",
+     "state": "fixed"
+    },
+    {
+     "id": "020-fact-checker-2",
+     "severity": "weak",
+     "kind": "plan",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/alexander-the-great/.plan/020-greece-secured/text.yaml",
+     "claim": "020.9",
+     "evidence": "Arrian 1.7.5 (archive.org-download-theanabasisofale46976gut-46976-0.txt.txt): \"and on the seventh day arrived at Pelina in Thessaly. Starting thence, he entered Boeotia on the sixth day\". The sources count the second leg differently: Bosworth, Conquest and Empire, ch. 2: \"On the seventh day's march he had reached Pelinna ... Five days later he entered Boeotia\"; Hammond, A History of Macedonia III, ch. III.1: \"The next stage of the march, again of some 120 miles, took six days\". \"Six days later\" is Hammond's reading told as Arrian's; Arrian's own words are true for both.",
+     "action": "reaches Pelinna on the seventh day and, starting from there, enters Boeotia on the sixth day",
+     "state": "fixed"
+    },
+    {
+     "id": "020-fact-checker-3",
+     "severity": "weak",
+     "kind": "plan",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/alexander-the-great/.plan/020-greece-secured/pages.yaml",
+     "claim": "020.9",
+     "evidence": "Thirteen is the plan's sum of Arrian's \"seventh day\" and \"sixth day\" and stands in no file; Hammond's count (7 + 6, ch. III.1, \"took six days\") gives it, Bosworth's (Conquest and Empire, ch. 2, \"Five days later he entered Boeotia\") gives twelve. Arrian 1.7.5: \"the Thebans did not learn that he had passed south of Thermopylae, until he was at Onchestus with the whole of his army\".",
+     "action": "he marches from Illyria to Onchestus before the Thebans know he has passed Thermopylae",
+     "state": "fixed"
+    },
+    {
+     "id": "020-fact-checker-4",
+     "severity": "weak",
+     "kind": "plan",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/alexander-the-great/.plan/020-greece-secured/pages.yaml",
+     "claim": null,
+     "evidence": "Hammond, A History of Macedonia III, ch. II.1 (archive.org-20Griffith-...-1988-djvu.txt.txt, line 4626): \"For some weeks after the crossing of the Danube in June\", with his note \"Inferred from the crops being tall, but unharvested\"; Bosworth, Conquest and Empire, ch. 2: at Peuce \"It was not far from harvest-time\"; Arrian 1.4.1, the night crossing \"to a spot where the corn stood high\". The page ends with the Getic crossing and the embassies, which no source puts in spring; only the start (020.3, 020.15) is spring. No digest line holds the June date: the researcher may add one, or the page may keep \"Spring 335 BC\" and end its text at the Lyginus's season. The when -0335-04 can stay, as the start.",
+     "action": "Spring and summer 335 BC",
+     "state": "fixed"
+    },
+    {
+     "id": "020-fact-checker-5",
+     "severity": "taste",
+     "kind": "map",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/alexander-the-great/.plan/020-greece-secured/map.yaml",
+     "claim": null,
+     "evidence": "Hammond, A History of Macedonia III, ch. II.2 (line 4950): \"Next day Glaucias, at the head of a large army, came from the plain of Koritsa through the Tsangon pass and joined forces with Cleitus.\" The route's why calls the whole line between Tirana and Pelium inferred, where Hammond gives its last stations; the route already ends at Hammond's Pelium.",
+     "action": "[the Taulantian land round Tirana, the plain of Koritsa, the Tsangon pass, Pelium], with \"Hammond, A History of Macedonia III, ch. II.2\" added to its passage and the why saying the last two stations are Hammond's",
+     "state": "fixed"
+    },
+    {
+     "id": "020-fact-checker-6",
+     "severity": "taste",
+     "kind": "plan",
+     "introduced": "brief",
+     "firstCheck": "final-brief",
+     "leak": false,
+     "owner": "brief",
+     "file": "content/alexander-the-great/.plan/brief.md",
+     "claim": null,
+     "evidence": "map.yaml, league-renewed: zones [..., illyrians-359, ...]; the brief: \"Each row's Sections column includes these\" (zones on pages outside the sections first planned for them). The plan is right to show it (rule C: 010's hegemon-and-aegae and achaemenid-empire show it); the brief's column lags.",
+     "action": "010, 020, 030",
+     "state": "open"
+    }
+   ]
+  },
+  {
+   "agent": "aa66122ecfb0829ff",
+   "role": "section-coordinator",
+   "step": "plan-check",
+   "section": "020",
+   "status": "pass",
+   "changed": 5,
+   "unresolved": 2,
+   "faults": []
+  },
+  {
+   "agent": "ad8abad1d0db9e3c9",
+   "role": "fact-checker",
+   "step": "plan-check",
+   "section": "020",
+   "status": "pass",
+   "changed": 0,
+   "unresolved": 3,
+   "faults": []
+  },
+  {
+   "agent": "adfb53c8f72a7675a",
+   "role": "section-lead",
+   "step": "plans",
+   "section": "020",
+   "status": "pass",
+   "changed": 10,
+   "unresolved": 4,
+   "faults": []
+  }
+ ],
+ "dispatches": [
+  {
+   "role": "section-lead",
+   "description": "plans 020 section-lead plan",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "020",
+    "step": "plans",
+    "task": "plan",
+    "scratchpad": ".cache/scratch/020-section-lead"
+   },
+   "problems": []
+  },
+  {
+   "role": "section-coordinator",
+   "description": "plans 020 section-coordinator plan",
+   "block": null,
+   "problems": [
+    "no block"
+   ]
+  },
+  {
+   "role": "section-coordinator",
+   "description": "plans 020 section-coordinator plan",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "020",
+    "step": "plans",
+    "task": "plan",
+    "scratchpad": ".cache/scratch/020-section-coordinator",
+    "note": "020 has no pages.yaml, since the benchmark commit d93956ad took its whole plan out, so this plan starts with no pre-plan."
+   },
+   "problems": []
+  },
+  {
+   "role": "fact-checker",
+   "description": "plan-check 020 fact-checker plan-check",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "020",
+    "step": "plan-check",
+    "task": "plan-check",
+    "scratchpad": ".cache/scratch/020-fact-checker"
+   },
+   "problems": []
+  },
+  {
+   "role": "section-coordinator",
+   "description": "plan-check 020 section-coordinator fix",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "020",
+    "step": "plan-check",
+    "task": "fix",
+    "faults": ".plan/faults/020.yaml",
+    "scratchpad": ".cache/scratch/020-section-coordinator"
+   },
+   "problems": []
+  },
+  {
+   "role": "researcher",
+   "description": "plan-check 020 researcher add",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "020",
+    "step": "plan-check",
+    "task": "add",
+    "scratchpad": ".cache/scratch/020-researcher",
+    "note": "The gap is the season of the Getic crossing of the Danube in 335 BC (Hammond's June), which the-danube's date now rests on; fault 020-fact-checker-4 names the passages."
+   },
+   "problems": []
+  },
+  {
+   "role": "fact-checker",
+   "description": "plan-check 020 fact-checker recheck",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "020",
+    "step": "plan-check",
+    "task": "recheck",
+    "faults": ".plan/faults/020.yaml",
+    "scratchpad": ".cache/scratch/020-fact-checker",
+    "note": "This recheck is of the plan, before any text exists; the researcher added 020.22 and 020.23 to the digest for fault 020-fact-checker-4."
+   },
+   "problems": []
+  }
+ ],
+ "fixes": [
+  {
+   "fault": "020-section-coordinator-1",
+   "by": "section-coordinator",
+   "file": "content/alexander-the-great/.plan/names.md",
+   "field": "Places, Macedon, Greece and the Balkans",
+   "commit": "d93956ad",
+   "kind": "plan",
+   "severity": "weak",
+   "owner": "names",
+   "steppedIn": true
+  },
+  {
+   "fault": "020-section-coordinator-2",
+   "by": "section-coordinator",
+   "file": "content/alexander-the-great/.plan/names.md",
+   "field": "Modern scholars",
+   "commit": "d93956ad",
+   "kind": "plan",
+   "severity": "weak",
+   "owner": "names",
+   "steppedIn": true
+  },
+  {
+   "fault": "020-section-coordinator-3",
+   "by": "section-coordinator",
+   "file": "content/alexander-the-great/.plan/names.md",
+   "field": "Places, Macedon, Greece and the Balkans: table head",
+   "commit": "d93956ad",
+   "kind": "plan",
+   "severity": "taste",
+   "owner": "names",
+   "steppedIn": true
+  },
+  {
+   "fault": "020-fact-checker-1",
+   "by": "section-coordinator",
+   "file": "content/alexander-the-great/.plan/020-greece-secured/text.yaml",
+   "field": "pages.the-danube.account",
+   "commit": "d93956ad",
+   "kind": "plan",
+   "severity": "wrong",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-fact-checker-2",
+   "by": "section-coordinator",
+   "file": "content/alexander-the-great/.plan/020-greece-secured/text.yaml",
+   "field": "pages.fall-of-thebes.account",
+   "commit": "d93956ad",
+   "kind": "plan",
+   "severity": "weak",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-fact-checker-3",
+   "by": "section-coordinator",
+   "file": "content/alexander-the-great/.plan/020-greece-secured/pages.yaml",
+   "field": "fall-of-thebes.tells",
+   "commit": "d93956ad",
+   "kind": "plan",
+   "severity": "weak",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-fact-checker-4",
+   "by": "section-coordinator",
+   "file": "content/alexander-the-great/.plan/020-greece-secured/pages.yaml",
+   "field": "the-danube.date",
+   "commit": "d93956ad",
+   "kind": "plan",
+   "severity": "weak",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-fact-checker-5",
+   "by": "section-coordinator",
+   "file": "content/alexander-the-great/.plan/020-greece-secured/map.yaml",
+   "field": "pelium.routes.glaucias-335 (stations, passage, why)",
+   "commit": "d93956ad",
+   "kind": "map",
+   "severity": "taste",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-researcher-1",
+   "by": "researcher",
+   "file": "content/alexander-the-great/.plan/020-greece-secured/pages.yaml",
+   "field": "the-danube.rests_on",
+   "commit": "d93956ad",
+   "kind": "sources",
+   "severity": "weak",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  }
+ ]
+}

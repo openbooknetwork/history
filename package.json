@@ -4,15 +4,17 @@
   "type": "module",
   "scripts": {
     "build": "harita build",
-    "dev": "harita dev"
+    "dev": "harita dev",
+    "postinstall": "node scripts/patches.mjs",
+    "test": "node --test scripts/"
   },
   "dependencies": {
-    "@openbooknetwork/harita": "^0.12.1",
+    "@openbooknetwork/harita": "^0.12.3",
     "js-yaml": "^5.4.2"
   },
   "description": "Open History Book: step-through history maps, an educational project",
   "version": "1.19.1",
   "devDependencies": {
-    "wrangler": "^4.152.0"
+    "wrangler": "^4.168.0"
   }
 }

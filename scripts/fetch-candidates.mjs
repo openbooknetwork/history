@@ -1,9 +1,11 @@
 // Search Wikimedia Commons for each page's queries and download candidate photos for review.
 //   node scripts/fetch-candidates.mjs [story] [--limit 6] [--pages a,b] [--queries file] [--out name]   (--pages refetches those pages)
+// Try (network): node scripts/fetch-candidates.mjs alexander-the-great --pages league-renewed --limit 2
 // Reads scripts/image-queries.yaml or the --queries file, writes <story folder>/.candidates/<page>/ and .candidates/index.yaml.
 // --out writes into .candidates/<name>/ instead, so agents fetching at the same time keep separate index files.
 // A file the book already holds, by its Commons page or by its bytes, is not kept: index.yaml lists it with held: <id>.
 import fs from 'fs';
+import { spawnSync } from 'child_process';
 import path from 'path';
 import * as yaml from 'js-yaml';
 import { imageIndex, findImage } from '@openbooknetwork/harita';
@@ -112,3 +114,6 @@ for (const [page, spec] of Object.entries(queries)) {
   save();
 }
 console.log(`wrote ${indexFile}`);
+// the sheets an image finder reads in place of each candidate
+const sheet = spawnSync('node', [path.join(path.dirname(new URL(import.meta.url).pathname), 'candidates-sheet.mjs'), ...process.argv.slice(2, 3), path.basename(path.dirname(indexFile))], { encoding: 'utf8' });
+console.log(`${sheet.stdout ?? ''}${sheet.stderr ?? ''}`.trim());

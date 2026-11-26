@@ -1,0 +1,103 @@
+{
+ "variant": "names-1",
+ "story": "alexander-the-great",
+ "pages": 71,
+ "order": [
+  "brief",
+  "survey",
+  "final-brief",
+  "pre-plans",
+  "pre-plan-check",
+  "research",
+  "names",
+  "map-design",
+  "plans",
+  "plan-check",
+  "maps",
+  "texts",
+  "phases",
+  "images",
+  "facts",
+  "edit",
+  "story",
+  "name-forms",
+  "translation"
+ ],
+ "agents": [
+  {
+   "agent": "0b0e0c00-0020-4000-8000-000000000032",
+   "role": "overseer",
+   "parent": "-",
+   "model": "claude-fable-5-2",
+   "start": "2026-11-25T13:56:41.568Z",
+   "end": "2026-11-25T14:09:45.894Z",
+   "description": ""
+  },
+  {
+   "agent": "a6669ea04da27e873",
+   "role": "names",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T13:56:51.211Z",
+   "end": "2026-11-25T14:09:24.884Z",
+   "description": "names all names decide"
+  }
+ ],
+ "usage": [
+  {
+   "agent": "0b0e0c00-0020-4000-8000-000000000032",
+   "role": "overseer",
+   "parent": "-",
+   "model": "claude-fable-5-2",
+   "step": "-",
+   "section": "-",
+   "turns": 7,
+   "peak": 37238,
+   "input": 14,
+   "cacheWrite": 22108,
+   "cacheRead": 218463,
+   "output": 2605
+  },
+  {
+   "agent": "a6669ea04da27e873",
+   "role": "names",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "names",
+   "section": "-",
+   "turns": 19,
+   "peak": 331986,
+   "input": 38,
+   "cacheWrite": 594481,
+   "cacheRead": 2808044,
+   "output": 86523
+  }
+ ],
+ "reports": [
+  {
+   "agent": "a6669ea04da27e873",
+   "role": "names",
+   "step": "names",
+   "section": "-",
+   "status": "pass",
+   "changed": 1,
+   "unresolved": 3,
+   "faults": []
+  }
+ ],
+ "dispatches": [
+  {
+   "role": "names",
+   "description": "names all names decide",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "all",
+    "step": "names",
+    "task": "decide",
+    "scratchpad": ".cache/scratch/all-names"
+   },
+   "problems": []
+  }
+ ],
+ "fixes": []
+}

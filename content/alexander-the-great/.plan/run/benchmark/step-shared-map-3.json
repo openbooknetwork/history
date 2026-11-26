@@ -1,0 +1,625 @@
+{
+ "variant": "shared-map-3",
+ "story": "alexander-the-great",
+ "pages": 71,
+ "order": [
+  "brief",
+  "survey",
+  "final-brief",
+  "pre-plans",
+  "pre-plan-check",
+  "research",
+  "names",
+  "map-design",
+  "plans",
+  "plan-check",
+  "maps",
+  "texts",
+  "phases",
+  "images",
+  "facts",
+  "edit",
+  "story",
+  "name-forms",
+  "translation"
+ ],
+ "agents": [
+  {
+   "agent": "0b0e0c00-0020-4000-8000-000000000039",
+   "role": "overseer",
+   "parent": "-",
+   "model": "claude-fable-5-2",
+   "start": "2026-11-25T20:48:21.560Z",
+   "end": "2026-11-25T21:51:41.013Z",
+   "description": ""
+  },
+  {
+   "agent": "a17b9c1a9210a4994",
+   "role": "map-keeper",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T20:48:34.644Z",
+   "end": "2026-11-25T21:30:46.308Z",
+   "description": "maps all map-keeper draw"
+  },
+  {
+   "agent": "a431b52f7fd1eb9f8",
+   "role": "map-auditor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T21:48:15.871Z",
+   "end": "2026-11-25T21:51:13.532Z",
+   "description": "maps all map-auditor recheck"
+  },
+  {
+   "agent": "a607b3cd0ba6cde26",
+   "role": "map-keeper",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T21:45:17.061Z",
+   "end": "2026-11-25T21:48:13.113Z",
+   "description": "maps all map-keeper fix"
+  },
+  {
+   "agent": "acfbdac2d3e00918c",
+   "role": "map-auditor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T21:30:49.285Z",
+   "end": "2026-11-25T21:45:13.978Z",
+   "description": "maps all map-auditor audit"
+  }
+ ],
+ "usage": [
+  {
+   "agent": "0b0e0c00-0020-4000-8000-000000000039",
+   "role": "overseer",
+   "parent": "-",
+   "model": "claude-fable-5-2",
+   "step": "-",
+   "section": "-",
+   "turns": 11,
+   "peak": 49621,
+   "input": 28,
+   "cacheWrite": 34491,
+   "cacheRead": 419101,
+   "output": 4762
+  },
+  {
+   "agent": "a17b9c1a9210a4994",
+   "role": "map-keeper",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "maps",
+   "section": "-",
+   "turns": 38,
+   "peak": 244037,
+   "input": 76,
+   "cacheWrite": 602331,
+   "cacheRead": 6293094,
+   "output": 90205
+  },
+  {
+   "agent": "a431b52f7fd1eb9f8",
+   "role": "map-auditor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "maps",
+   "section": "-",
+   "turns": 18,
+   "peak": 93267,
+   "input": 36,
+   "cacheWrite": 86518,
+   "cacheRead": 1281968,
+   "output": 8873
+  },
+  {
+   "agent": "a607b3cd0ba6cde26",
+   "role": "map-keeper",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "maps",
+   "section": "-",
+   "turns": 9,
+   "peak": 96214,
+   "input": 18,
+   "cacheWrite": 92898,
+   "cacheRead": 557224,
+   "output": 7699
+  },
+  {
+   "agent": "acfbdac2d3e00918c",
+   "role": "map-auditor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "maps",
+   "section": "-",
+   "turns": 34,
+   "peak": 172300,
+   "input": 68,
+   "cacheWrite": 168984,
+   "cacheRead": 4132044,
+   "output": 44990
+  }
+ ],
+ "reports": [
+  {
+   "agent": "a431b52f7fd1eb9f8",
+   "role": "map-auditor",
+   "step": "maps",
+   "section": "-",
+   "status": "pass",
+   "changed": 0,
+   "unresolved": 0,
+   "faults": []
+  },
+  {
+   "agent": "a607b3cd0ba6cde26",
+   "role": "map-keeper",
+   "step": "maps",
+   "section": "-",
+   "status": "pass",
+   "changed": 7,
+   "unresolved": 0,
+   "faults": []
+  },
+  {
+   "agent": "acfbdac2d3e00918c",
+   "role": "map-auditor",
+   "step": "maps",
+   "section": "-",
+   "status": "faults",
+   "changed": 10,
+   "unresolved": 5,
+   "faults": [
+    {
+     "id": "story-map-auditor-1",
+     "severity": "weak",
+     "kind": "map",
+     "introduced": "maps",
+     "firstCheck": "maps",
+     "leak": false,
+     "owner": "map-keeper",
+     "file": "content/alexander-the-great/.plans/zones.mjs",
+     "claim": "020.4",
+     "evidence": "Arrian 1.4 (archive.org-download-theanabasisofale46976gut-46976-0.txt.txt, lines 998 and 1012: 'a spot where the corn stood high', 'their city, which was distant about a parasang from the Ister'); the line runs 75 km north of the Danube at 26.5 E, 89 km at 25.0 E and 79 km at 23.8 E, not 60",
+     "action": "no source gives how far inland the Getae held: Arrian 1.4 has their town about a parasang from the river, with fields of corn by the bank (020.4); drawn some 70 to 90 km north of the river across the Wallachian plain",
+     "state": "fixed"
+    },
+    {
+     "id": "story-map-auditor-2",
+     "severity": "weak",
+     "kind": "map",
+     "introduced": "maps",
+     "firstCheck": "maps",
+     "leak": false,
+     "owner": "map-keeper",
+     "file": "content/alexander-the-great/.plans/zones.mjs",
+     "claim": "020.15",
+     "evidence": "020.3 quotes only Arrian 1.1 on the Nessus and the Haemus and names neither the Triballi nor Pleven; Bosworth, Commentary on 1.2.5 (.references, Bosworth HCA vol. I, line 4186: 'close to the modern town of Pleven'); 020.15 ('a few days' march from the Danube ... a position to the south')",
+     "action": "TRIB_EAST: '... east of the Lyginus battle, which Bosworth's Commentary on 1.2.5 puts near Pleven, a few days' march south of the Danube (020.15)'; TRIB_SOUTH: '... the brief puts the Triballi between the Haemus and the Danube, and they meet Alexander a few days' march south of the river (020.15)'",
+     "state": "fixed"
+    },
+    {
+     "id": "story-map-auditor-3",
+     "severity": "taste",
+     "kind": "map",
+     "introduced": "maps",
+     "firstCheck": "maps",
+     "leak": false,
+     "owner": "map-keeper",
+     "file": "content/alexander-the-great/.plans/zones.mjs",
+     "claim": null,
+     "evidence": "010.28 (Alexander suppresses the Maedi and founds Alexandropolis, 340 BC); 020.9 (Pelinna, reached on the seventh day, in Thessaly)",
+     "action": "maedi (23.15 E 41.85 N) added to macedon-340, pelinna (21.93 E 39.57 N) added to thessaly-352; both pass",
+     "state": "fixed"
+    },
+    {
+     "id": "story-map-auditor-4",
+     "severity": "weak",
+     "kind": "map",
+     "introduced": "maps",
+     "firstCheck": "maps",
+     "leak": false,
+     "owner": "brief",
+     "file": "content/alexander-the-great/.plan/brief.md",
+     "claim": "050.16",
+     "evidence": "Arrian 3.17.1 (archive.org-download-theanabasisofale46976gut-46976-0.txt.txt, line 4925: 'those who are called the mountaineers were not in subjection to the Persians'); zones.mjs cuts the UXIAN band out of persia-336",
+     "action": "the Cophen valley and the Indus left out, and so are the hills of the mountain Uxians, who were never subject to the Persians (Arrian 3.17.1) and come in with macedon-330a, 336 BC;",
+     "state": "fixed"
+    },
+    {
+     "id": "story-map-auditor-5",
+     "severity": "weak",
+     "kind": "map",
+     "introduced": "maps",
+     "firstCheck": "maps",
+     "leak": false,
+     "owner": "map-keeper",
+     "file": "content/alexander-the-great/.plans/zones.mjs",
+     "claim": null,
+     "evidence": "brief.md, Map, row league-337 ('the mainland Greek members of the League of Corinth, Laconia left out'); rules.md, Maps ('The Aegean islands stay blank'); .cache/kitap/stories/alexander-the-great/zones.json; capture .cache/audit/alexander-the-great-all/shots/hegemon-and-aegae.png",
+     "action": "Take Kythera out of league-337, for example with z.noIslands(..., [[23.0, 36.25]]) on the union before Laconia is cut. The build draws it in the League (277 km2, centroid 22.99 E 36.23 N, visible south of Laconia on league-renewed and hegemon-and-aegae), because greeks-338 holds it and Laconia of today does not. The brief's row says the mainland members, rules.md keeps the Aegean islands blank, and no source read puts Kythera in the League; it was Lacedaemonian land. league-335 and league-331 follow.",
+     "state": "fixed"
+    },
+    {
+     "id": "story-map-auditor-6",
+     "severity": "weak",
+     "kind": "map",
+     "introduced": "maps",
+     "firstCheck": "maps",
+     "leak": false,
+     "owner": "map-keeper",
+     "file": "content/alexander-the-great/.plans/zones.mjs",
+     "claim": null,
+     "evidence": "020.8; 020.13; rules.md, Maps, 'The careful side'; ground.yaml line 17",
+     "action": "Pull the east edge in from 23.62 E to Thebes's own land, short of Tanagra (23.53 E 38.32 N), or cite a source that puts Tanagra with Thebes in 335. The why says 'Tanagra to the east inside', and no source read says so. Only Thebes revolts (020.8), the other Boeotians fight on Alexander's side (Arrian 1.8.8, the fall-of-thebes text), so the careful side of rules.md keeps every other Boeotian town out. The zone is 586 km2 as built, running 36 km east to the Euripus.",
+     "state": "fixed"
+    },
+    {
+     "id": "020-map-auditor-1",
+     "severity": "wrong",
+     "kind": "map",
+     "introduced": "maps",
+     "firstCheck": "maps",
+     "leak": false,
+     "owner": "cartographer",
+     "file": "content/alexander-the-great/pages/020-greece-secured/030-pelium/page.yaml",
+     "claim": null,
+     "evidence": "020-greece-secured/map.yaml, pelium, zones; scripts/zone-gaps.mjs: 13.0% of the frame bare near [22.98, 42.01], coloured on the-danube and fall-of-thebes; agents/pages.md, rule C",
+     "action": "[macedon-335, illyrians-335, epirus-350, thessaly-352, thracians-340, triballi-335, league-337, getae-335]",
+     "state": "fixed"
+    },
+    {
+     "id": "020-map-auditor-2",
+     "severity": "wrong",
+     "kind": "map",
+     "introduced": "maps",
+     "firstCheck": "maps",
+     "leak": false,
+     "owner": "cartographer",
+     "file": "content/alexander-the-great/pages/020-greece-secured/040-fall-of-thebes/page.yaml",
+     "claim": null,
+     "evidence": "020-greece-secured/map.yaml, fall-of-thebes, zones; scripts/zone-gaps.mjs: 1.9% of the frame bare near [23.73, 42.75], thracians-340 on the-danube and hellespont; agents/pages.md, rule C",
+     "action": "[macedon-335, thessaly-352, league-335, thebes-335, sparta-337, epirus-350, illyrians-335, thracians-340]",
+     "state": "fixed"
+    },
+    {
+     "id": "020-map-auditor-3",
+     "severity": "wrong",
+     "kind": "map",
+     "introduced": "maps",
+     "firstCheck": "maps",
+     "leak": false,
+     "owner": "cartographer",
+     "file": "content/alexander-the-great/shared/markers.yaml",
+     "claim": null,
+     "evidence": "020-greece-secured/map.yaml, the-danube, danube-335 ('on the south bank near the mouth of the Oescus, about 43.70 N 24.48 E'); .plan/ground/danube.geojson (24.477, 43.757); scripts/points.mjs 020: 'danube-335 the-danube: in getae-335, 1.6 km from its edge'",
+     "action": "Move the marker and the route's end to the south bank near the mouth of the Oescus, as map.yaml gives it (about 43.70 N 24.48 E; the Danube's line runs at 43.75-43.76 N there). Both stand at [24.47, 43.77], on the north bank at Corabia, inside getae-335 1.6 km from the river, while the note and the plan put the camp on the south bank, in the Triballi's land. The route's end is drawing, so the marker waits for it. getic-town-335 (43.83 N) then stands about 9 km from the river, not the 5 km its why gives: 43.80 N fits a parasang.",
+     "state": "open"
+    }
+   ]
+  },
+  {
+   "agent": "-",
+   "role": "map-keeper",
+   "step": "maps",
+   "section": "010",
+   "status": "faults",
+   "changed": 0,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "010-map-keeper-1",
+     "severity": "wrong",
+     "kind": "map",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": true,
+     "owner": "cartographer",
+     "file": "content/alexander-the-great/pages/010-macedon-rising/050-chaeronea/page.yaml",
+     "claim": null,
+     "evidence": "scripts/zone-gaps.mjs in .cache/audit/alexander-the-great-all/zone-gaps.txt: 1.8% of the frame bare near [23.63, 42.65], thracians-340 on 040-thrace-and-the-young-alexander and 060-hegemon-and-aegae; agents/pages.md, rule C",
+     "action": "[macedon-340, thessaly-352, epirus-350, illyrians-359, athens-338, thebes-338, greeks-338, thracians-340]",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "-",
+   "role": "map-keeper",
+   "step": "maps",
+   "section": "020",
+   "status": "faults",
+   "changed": 0,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "020-map-keeper-1",
+     "severity": "weak",
+     "kind": "map",
+     "introduced": "map-design",
+     "firstCheck": "map-design",
+     "leak": false,
+     "owner": "brief",
+     "file": "content/alexander-the-great/.plan/brief.md",
+     "claim": null,
+     "evidence": "content/alexander-the-great/.plans/zones.mjs: thracians-340 is thracians-359 less macedon-340, which reaches past the Haemus to the Black Sea",
+     "action": "| thracians-340 | thracians (21) | the Thracian peoples outside Philip's Thrace, 340–335 BC: the free Thracians of the Haemus, the land north of Macedon to the foot of the Haemus, and the east to the Black Sea; thracians-359 less macedon-340, with Perinthus, Byzantium, Maronea and Abdera left out | reconstruction from 020.3, 010.9 | — | 010, 020, 030 |",
+     "state": "fixed"
+    },
+    {
+     "id": "020-map-keeper-2",
+     "severity": "weak",
+     "kind": "map",
+     "introduced": "map-design",
+     "firstCheck": "map-design",
+     "leak": false,
+     "owner": "brief",
+     "file": "content/alexander-the-great/.plan/brief.md",
+     "claim": null,
+     "evidence": "020.6 and 020.7 name Cleitus and Glaucias and give no bounds; content/alexander-the-great/shared/zones.yaml draws illyrians-335 on illyrians-359",
+     "action": "| illyrians-335 | illyrians (19) | the lands of Cleitus and of Glaucias's Taulantians west of Macedon, 335 BC: a `zones.yaml` entry on illyrians-359's outline, since no source gives them other bounds | reconstruction from 020.6, 020.7 | — | 020 |",
+     "state": "fixed"
+    }
+   ]
+  }
+ ],
+ "dispatches": [
+  {
+   "role": "map-keeper",
+   "description": "maps all map-keeper draw",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "all",
+    "step": "maps",
+    "task": "draw",
+    "scratchpad": ".cache/scratch/all-map-keeper",
+    "serve": "static",
+    "note": "Only the zones of map.yaml in .plan/020-greece-secured are missing, and the other sections' zones stand."
+   },
+   "problems": []
+  },
+  {
+   "role": "map-auditor",
+   "description": "maps all map-auditor audit",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "all",
+    "step": "maps",
+    "task": "audit",
+    "scratchpad": ".cache/scratch/all-map-auditor",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "map-keeper",
+   "description": "maps all map-keeper fix",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "all",
+    "step": "maps",
+    "task": "fix",
+    "faults": ".plan/faults/story.yaml",
+    "scratchpad": ".cache/scratch/all-map-keeper",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "map-auditor",
+   "description": "maps all map-auditor recheck",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "all",
+    "step": "maps",
+    "task": "recheck",
+    "faults": ".plan/faults/story.yaml",
+    "scratchpad": ".cache/scratch/all-map-auditor",
+    "serve": "static"
+   },
+   "problems": []
+  }
+ ],
+ "fixes": [
+  {
+   "fault": "010-map-keeper-1",
+   "by": "map-keeper",
+   "file": "content/alexander-the-great/pages/010-macedon-rising/050-chaeronea/page.yaml",
+   "field": "zones",
+   "commit": "da00d6b4",
+   "kind": "map",
+   "severity": "wrong",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "010-map-keeper-1",
+   "by": "map-keeper",
+   "file": "content/alexander-the-great/.plans/pages010.cjs",
+   "field": "the zones of 050-chaeronea",
+   "commit": "da00d6b4",
+   "kind": "map",
+   "severity": "wrong",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "010-map-keeper-1",
+   "by": "map-keeper",
+   "file": "content/alexander-the-great/.plan/010-macedon-rising.md",
+   "field": "050 chaeronea, Zones",
+   "commit": "da00d6b4",
+   "kind": "map",
+   "severity": "wrong",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-map-keeper-1",
+   "by": "map-keeper",
+   "file": "content/alexander-the-great/.plan/brief.md",
+   "field": "Map, Zones, row thracians-340",
+   "commit": "da00d6b4",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "brief",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-map-keeper-2",
+   "by": "map-keeper",
+   "file": "content/alexander-the-great/.plan/brief.md",
+   "field": "Map, Zones, row illyrians-335",
+   "commit": "da00d6b4",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "brief",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-map-auditor-1",
+   "by": "map-auditor",
+   "file": "content/alexander-the-great/pages/020-greece-secured/030-pelium/page.yaml",
+   "field": "zones",
+   "commit": "da00d6b4",
+   "kind": "map",
+   "severity": "wrong",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-map-auditor-1",
+   "by": "map-auditor",
+   "file": "content/alexander-the-great/.plans/pages020.cjs",
+   "field": "the zones of pelium",
+   "commit": "da00d6b4",
+   "kind": "map",
+   "severity": "wrong",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-map-auditor-2",
+   "by": "map-auditor",
+   "file": "content/alexander-the-great/pages/020-greece-secured/040-fall-of-thebes/page.yaml",
+   "field": "zones",
+   "commit": "da00d6b4",
+   "kind": "map",
+   "severity": "wrong",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-map-auditor-2",
+   "by": "map-auditor",
+   "file": "content/alexander-the-great/.plans/pages020.cjs",
+   "field": "the zones of fall-of-thebes",
+   "commit": "da00d6b4",
+   "kind": "map",
+   "severity": "wrong",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "story-map-auditor-1",
+   "by": "map-auditor",
+   "file": "content/alexander-the-great/.plans/zones.mjs",
+   "field": "the why of GETAE_NORTH",
+   "commit": "da00d6b4",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "map-keeper",
+   "steppedIn": false
+  },
+  {
+   "fault": "story-map-auditor-2",
+   "by": "map-auditor",
+   "file": "content/alexander-the-great/.plans/zones.mjs",
+   "field": "the why of TRIB_EAST",
+   "commit": "da00d6b4",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "map-keeper",
+   "steppedIn": false
+  },
+  {
+   "fault": "story-map-auditor-2",
+   "by": "map-auditor",
+   "file": "content/alexander-the-great/.plans/zones.mjs",
+   "field": "the why of TRIB_SOUTH",
+   "commit": "da00d6b4",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "map-keeper",
+   "steppedIn": false
+  },
+  {
+   "fault": "story-map-auditor-3",
+   "by": "map-auditor",
+   "file": "content/alexander-the-great/.plans/zones.mjs",
+   "field": "P, and the inside tests of macedon-340 and thessaly-352",
+   "commit": "da00d6b4",
+   "kind": "map",
+   "severity": "taste",
+   "owner": "map-keeper",
+   "steppedIn": false
+  },
+  {
+   "fault": "story-map-auditor-1",
+   "by": "map-auditor",
+   "file": "content/alexander-the-great/.plan/ground.yaml",
+   "field": "lines 7, 8 and 10 (why), zones macedon-340 and thessaly-352 (inside); written by the generator's run, no other line changed",
+   "commit": "da00d6b4",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "map-keeper",
+   "steppedIn": false
+  },
+  {
+   "fault": "story-map-auditor-4",
+   "by": "map-auditor",
+   "file": "content/alexander-the-great/.plan/brief.md",
+   "field": "Map, Zones, row persia-336, Land and year",
+   "commit": "da00d6b4",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "brief",
+   "steppedIn": false
+  },
+  {
+   "fault": "story-map-auditor-5",
+   "by": "map-keeper",
+   "file": "content/alexander-the-great/.plans/zones.mjs",
+   "field": "LEAGUE, and the outside tests of league-337",
+   "commit": "da00d6b4",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "map-keeper",
+   "steppedIn": false
+  },
+  {
+   "fault": "story-map-auditor-6",
+   "by": "map-keeper",
+   "file": "content/alexander-the-great/.plans/zones.mjs",
+   "field": "THEBES (its est line and points), and the outside tests of thebes-335",
+   "commit": "da00d6b4",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "map-keeper",
+   "steppedIn": false
+  },
+  {
+   "fault": "story-map-auditor-5",
+   "by": "map-keeper",
+   "file": "content/alexander-the-great/.plan/ground.yaml",
+   "field": "line 17 (why), zones league-337 and thebes-335 (outside, estimated_km), totals; written by the generator's run",
+   "commit": "da00d6b4",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "map-keeper",
+   "steppedIn": false
+  }
+ ]
+}

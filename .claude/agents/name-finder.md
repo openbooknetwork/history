@@ -53,6 +53,9 @@ Read these first:
    `unsourced` name with what you searched for. Each name two sources write in two ways. The strings of step 5,
    each with the form it has and the form your file has.
 
-Write only `i18n/names/<lang>.yaml` and `content/<story>/names-<lang>.urls`.
+Write only `i18n/names/<lang>.yaml` and `content/<story>/names-<lang>.urls`. That is your own work. A fault you find in another role's file you fix there too, as "Who finds it fixes it" in `agents/report.md` says.
+
+Your dispatch opens with the block of "The dispatch" in `agents/report.md`, and your task is `find` or `add`: with
+`add` you look up the names the dispatch's `names` gives.
 
 Open your report with the block of `agents/report.md`.

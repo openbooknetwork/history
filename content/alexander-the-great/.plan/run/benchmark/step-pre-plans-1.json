@@ -1,0 +1,529 @@
+{
+ "variant": "pre-plans-1",
+ "story": "alexander-the-great",
+ "pages": null,
+ "order": [
+  "brief",
+  "survey",
+  "final-brief",
+  "pre-plans",
+  "pre-plan-check",
+  "research",
+  "names",
+  "map-design",
+  "plans",
+  "plan-check",
+  "maps",
+  "texts",
+  "phases",
+  "images",
+  "facts",
+  "edit",
+  "story",
+  "name-forms",
+  "translation"
+ ],
+ "agents": [
+  {
+   "agent": "0b0e0c00-0020-4000-8000-000000000031",
+   "role": "overseer",
+   "parent": "-",
+   "model": "claude-fable-5-2",
+   "start": "2026-11-25T13:56:41.569Z",
+   "end": "2026-11-25T14:06:09.575Z",
+   "description": ""
+  },
+  {
+   "agent": "a05fe079fc961d3e2",
+   "role": "section-lead",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T13:56:54.204Z",
+   "end": "2026-11-25T14:01:33.451Z",
+   "description": "pre-plans 010 section-lead pre-plan"
+  },
+  {
+   "agent": "a128932ecd58cd4ed",
+   "role": "editor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T14:01:36.773Z",
+   "end": "2026-11-25T14:05:32.991Z",
+   "description": "pre-plan-check all editor pre-plans"
+  },
+  {
+   "agent": "a39618c18e930f9b8",
+   "role": "section-coordinator",
+   "parent": "section-lead 030",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T13:57:09.107Z",
+   "end": "2026-11-25T13:59:56.662Z",
+   "description": "pre-plans 030 section-coordinator pre-plan"
+  },
+  {
+   "agent": "a9efa592c5cc1f34d",
+   "role": "section-coordinator",
+   "parent": "section-lead 020",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T13:57:08.471Z",
+   "end": "2026-11-25T13:58:41.147Z",
+   "description": "pre-plans 020 section-coordinator pre-plan"
+  },
+  {
+   "agent": "aa093d1f42b3967ca",
+   "role": "section-lead",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T13:56:54.272Z",
+   "end": "2026-11-25T14:00:28.848Z",
+   "description": "pre-plans 030 section-lead pre-plan"
+  },
+  {
+   "agent": "ac428114217c01adb",
+   "role": "section-lead",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T13:56:54.218Z",
+   "end": "2026-11-25T13:58:54.998Z",
+   "description": "pre-plans 020 section-lead pre-plan"
+  },
+  {
+   "agent": "af9e2c2eea84e1dfd",
+   "role": "section-coordinator",
+   "parent": "section-lead 010",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T13:57:08.293Z",
+   "end": "2026-11-25T14:01:01.662Z",
+   "description": "pre-plans 010 section-coordinator pre-plan"
+  }
+ ],
+ "usage": [
+  {
+   "agent": "0b0e0c00-0020-4000-8000-000000000031",
+   "role": "overseer",
+   "parent": "-",
+   "model": "claude-fable-5-2",
+   "step": "-",
+   "section": "-",
+   "turns": 11,
+   "peak": 45840,
+   "input": 30,
+   "cacheWrite": 30710,
+   "cacheRead": 397242,
+   "output": 5919
+  },
+  {
+   "agent": "a05fe079fc961d3e2",
+   "role": "section-lead",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "pre-plans",
+   "section": "010",
+   "turns": 9,
+   "peak": 44491,
+   "input": 20,
+   "cacheWrite": 44489,
+   "cacheRead": 274409,
+   "output": 3581
+  },
+  {
+   "agent": "a128932ecd58cd4ed",
+   "role": "editor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "pre-plan-check",
+   "section": "-",
+   "turns": 11,
+   "peak": 73457,
+   "input": 21,
+   "cacheWrite": 70141,
+   "cacheRead": 503767,
+   "output": 23934
+  },
+  {
+   "agent": "a39618c18e930f9b8",
+   "role": "section-coordinator",
+   "parent": "section-lead 030",
+   "model": "claude-opus-5-5",
+   "step": "pre-plans",
+   "section": "030",
+   "turns": 12,
+   "peak": 123517,
+   "input": 24,
+   "cacheWrite": 120201,
+   "cacheRead": 970106,
+   "output": 16193
+  },
+  {
+   "agent": "a9efa592c5cc1f34d",
+   "role": "section-coordinator",
+   "parent": "section-lead 020",
+   "model": "claude-opus-5-5",
+   "step": "pre-plans",
+   "section": "020",
+   "turns": 10,
+   "peak": 94101,
+   "input": 20,
+   "cacheWrite": 90785,
+   "cacheRead": 625712,
+   "output": 8075
+  },
+  {
+   "agent": "aa093d1f42b3967ca",
+   "role": "section-lead",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "pre-plans",
+   "section": "030",
+   "turns": 8,
+   "peak": 45241,
+   "input": 18,
+   "cacheWrite": 45239,
+   "cacheRead": 233800,
+   "output": 3603
+  },
+  {
+   "agent": "ac428114217c01adb",
+   "role": "section-lead",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "pre-plans",
+   "section": "020",
+   "turns": 7,
+   "peak": 41842,
+   "input": 16,
+   "cacheWrite": 41840,
+   "cacheRead": 187313,
+   "output": 2108
+  },
+  {
+   "agent": "af9e2c2eea84e1dfd",
+   "role": "section-coordinator",
+   "parent": "section-lead 010",
+   "model": "claude-opus-5-5",
+   "step": "pre-plans",
+   "section": "010",
+   "turns": 14,
+   "peak": 131230,
+   "input": 28,
+   "cacheWrite": 127914,
+   "cacheRead": 1244396,
+   "output": 22452
+  }
+ ],
+ "reports": [
+  {
+   "agent": "a05fe079fc961d3e2",
+   "role": "section-lead",
+   "step": "pre-plans",
+   "section": "010",
+   "status": "pass",
+   "changed": 2,
+   "unresolved": 2,
+   "faults": []
+  },
+  {
+   "agent": "a128932ecd58cd4ed",
+   "role": "editor",
+   "step": "pre-plan-check",
+   "section": "-",
+   "status": "faults",
+   "changed": 0,
+   "unresolved": 2,
+   "faults": [
+    {
+     "id": "story-editor-1",
+     "severity": "wrong",
+     "kind": "order",
+     "introduced": "pre-plan",
+     "firstCheck": "pre-plan-check",
+     "leak": false,
+     "owner": "overseer",
+     "file": "content/alexander-the-great/.plan/brief.md",
+     "claim": null,
+     "evidence": "content/alexander-the-great/.plan/decisions.md, \"Page order: no flashback\"; 010-macedon-rising/decisions.md; 030-asia-minor/decisions.md",
+     "action": "One section only may hold the context page \"The Persian Empire of Darius III\". The user's ruling of 23 Nov 2026 (decisions.md, \"Page order: no flashback\") puts it at the end of 010, dated 336 BC, and names.md already gives section 010 for its eight names. The 030 pre-plan keeps it as 030's first page, dated spring 334 BC (when -0334-03), which is also in time order but goes against the ruling; the 010 pre-plan leaves it out. Proposed: follow the user's ruling. The brief moves the bullet to 010; 010's pre-plan adds it after hegemon-and-aegae with a `when` in 336 BC after Philip's death and before -0336-10 (010 then has 8 pages, the most a section may); 030's pre-plan drops it (6 section pages). Its marker ids (sardis-336, susa-336 and the rest) clash with no 010 id. If the overseer keeps it in 030 instead, names.md's first section for its eight names goes back to 030.",
+     "state": "open"
+    },
+    {
+     "id": "story-editor-2",
+     "severity": "wrong",
+     "kind": "plan",
+     "introduced": "pre-plan",
+     "firstCheck": "pre-plan-check",
+     "leak": false,
+     "owner": "brief",
+     "file": "content/alexander-the-great/.plan/brief.md",
+     "claim": null,
+     "evidence": "010-macedon-rising/pages.yaml holds 7 pages (Thessaly 352 BC and the Chalcidice 348 BC each a map change); the agreed count is 56 section pages (decisions.md, cloud rulings at lines 74 and 163), which 7 pages in 010 make 57. 020 holds 4 and 030 holds 7 section pages and 3 Granicus phase pages, as the brief has them.",
+     "action": "**Pages:** 7",
+     "state": "open"
+    },
+    {
+     "id": "010-editor-1",
+     "severity": "taste",
+     "kind": "plan",
+     "introduced": "pre-plan",
+     "firstCheck": "pre-plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/alexander-the-great/.plan/010-macedon-rising/pages.yaml",
+     "claim": null,
+     "evidence": "020-greece-secured/pages.yaml, league-renewed: \"his rivals, Amyntas, son of Perdiccas, and Attalus, are removed\". No earlier page names Amyntas, so the 020 page removes a rival the reader has not met; the cause belongs on the page of 360 BC.",
+     "action": "Perdiccas III falls with his army against the Illyrians, leaving an infant son, Amyntas, and his brother Philip II takes a kingdom",
+     "state": "open"
+    },
+    {
+     "id": "010-editor-2",
+     "severity": "taste",
+     "kind": "plan",
+     "introduced": "pre-plan",
+     "firstCheck": "pre-plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/alexander-the-great/.plan/010-macedon-rising/pages.yaml",
+     "claim": null,
+     "evidence": "020-greece-secured/pages.yaml, league-renewed tells; 010-macedon-rising/pages.yaml, hegemon-and-aegae tells",
+     "action": "Give the cause of Attalus's fall, which 020's league-renewed tells (\"Attalus ... removed\"): in 337 BC Philip marries Cleopatra, Attalus's niece, and Alexander quarrels with his father. Attalus is otherwise only one of the two commanders of the advance force, and the reader of 020 cannot tell why the new king removes him. Rest it on the 010 digest lines once they exist.",
+     "state": "open"
+    },
+    {
+     "id": "010-editor-3",
+     "severity": "taste",
+     "kind": "map",
+     "introduced": "pre-plan",
+     "firstCheck": "pre-plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/alexander-the-great/.plan/010-macedon-rising/pages.yaml",
+     "claim": null,
+     "evidence": "agents/text.md, \"The text and the map agree\"; rules.md, rule B",
+     "action": "The tells names the Haemus (\"Philip conquers Thrace to the Haemus\") and the page has no marker for it. Add haemus-342, or leave the range out of the tells. 020's the-danube has its own haemus-335.",
+     "state": "open"
+    },
+    {
+     "id": "020-editor-1",
+     "severity": "weak",
+     "kind": "plan",
+     "introduced": "pre-plan",
+     "firstCheck": "pre-plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/alexander-the-great/.plan/020-greece-secured/pages.yaml",
+     "claim": null,
+     "evidence": "Arrian 1.1.5 has him leave Amphipolis keeping Philippi and Mount Orbelus on his left; it names no Philippopolis (from the editor's reading of Arrian: the source files are not in this worktree, and the 020 digest lines do not exist yet, so the plan step checks it). The section lead's report says the tells rest on names.md and markers only. If Philippopolis stays, the page needs its own philippopolis-335 marker: philippopolis-342 is 010's id (rule B). If Philippi goes in, it takes philippi-335.",
+     "action": "From Amphipolis Alexander marches north with Philippi and Mount Orbelus on his left,",
+     "state": "open"
+    },
+    {
+     "id": "020-editor-2",
+     "severity": "taste",
+     "kind": "map",
+     "introduced": "pre-plan",
+     "firstCheck": "pre-plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/alexander-the-great/.plan/020-greece-secured/pages.yaml",
+     "claim": null,
+     "evidence": "agents/text.md, \"The text and the map agree\"",
+     "action": "The tells names Tempe (\"marches south round Tempe into Thessaly\") and the page has no marker for it. Add tempe-336, or leave Tempe out of the tells.",
+     "state": "open"
+    },
+    {
+     "id": "020-editor-3",
+     "severity": "wrong",
+     "kind": "plan",
+     "introduced": "pre-plan",
+     "firstCheck": "pre-plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/alexander-the-great/.plan/020-greece-secured/pages.yaml",
+     "claim": null,
+     "evidence": "The sentence makes the sparing of Pindar's house the allies' vote. It was Alexander's act (Arrian 1.9.10; Plutarch, Alexander 11). The fact-checker of the last build found the same fault in the 020 text (decisions.md, line 348), so it is the second time; the plan step should rest the clause on its digest line.",
+     "action": "lets his Greek allies decide its fate: it is razed and Orchomenus and Plataea are to be rebuilt, while Alexander spares Pindar's house,",
+     "state": "open"
+    },
+    {
+     "id": "030-editor-1",
+     "severity": "weak",
+     "kind": "plan",
+     "introduced": "pre-plan",
+     "firstCheck": "pre-plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/alexander-the-great/.plan/030-asia-minor/pages.yaml",
+     "claim": null,
+     "evidence": "Arrian 2.3.7 gives both: most writers say he cut the knot, Aristobulus that he pulled out the pin. \"Looses\" tells one account as fact. The 030 digest lines do not exist yet, so the plan step marks the claim.",
+     "action": "where Alexander undoes the knot of the old wagon, by the sword in most accounts and by drawing its pin in Aristobulus's,",
+     "state": "open"
+    },
+    {
+     "id": "030-editor-2",
+     "severity": "weak",
+     "kind": "plan",
+     "introduced": "pre-plan",
+     "firstCheck": "pre-plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/alexander-the-great/.plan/030-asia-minor/pages.yaml",
+     "claim": "030.8",
+     "evidence": "brief.md, 030 Battles: \"after Arrian's sequence; the text says Diodorus differs, 030.8–9\"; research.md line 198 (030.8). The card page is the one page that touches the dispute, so its tells keeps it.",
+     "action": "he forces the river in Arrian's account (Diodorus has him cross unopposed at dawn), their cavalry breaks",
+     "state": "open"
+    },
+    {
+     "id": "030-editor-3",
+     "severity": "taste",
+     "kind": "map",
+     "introduced": "pre-plan",
+     "firstCheck": "pre-plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/alexander-the-great/.plan/030-asia-minor/pages.yaml",
+     "claim": null,
+     "evidence": "rules.md, rule B; agents/text.md, \"The text and the map agree\"",
+     "action": "The tells names Sardis (\"While Parmenion winters at Sardis\") and the page has no marker for it; sardis-334 is sardis-and-miletus's id. Add sardis-334b, or leave Sardis out of the tells.",
+     "state": "open"
+    }
+   ]
+  },
+  {
+   "agent": "a39618c18e930f9b8",
+   "role": "section-coordinator",
+   "step": "pre-plans",
+   "section": "030",
+   "status": "pass",
+   "changed": 1,
+   "unresolved": 1,
+   "faults": []
+  },
+  {
+   "agent": "a9efa592c5cc1f34d",
+   "role": "section-coordinator",
+   "step": "pre-plans",
+   "section": "020",
+   "status": "pass",
+   "changed": 1,
+   "unresolved": 0,
+   "faults": []
+  },
+  {
+   "agent": "aa093d1f42b3967ca",
+   "role": "section-lead",
+   "step": "pre-plans",
+   "section": "030",
+   "status": "pass",
+   "changed": 2,
+   "unresolved": 1,
+   "faults": []
+  },
+  {
+   "agent": "ac428114217c01adb",
+   "role": "section-lead",
+   "step": "pre-plans",
+   "section": "020",
+   "status": "pass",
+   "changed": 1,
+   "unresolved": 0,
+   "faults": []
+  },
+  {
+   "agent": "af9e2c2eea84e1dfd",
+   "role": "section-coordinator",
+   "step": "pre-plans",
+   "section": "010",
+   "status": "pass",
+   "changed": 1,
+   "unresolved": 1,
+   "faults": []
+  }
+ ],
+ "dispatches": [
+  {
+   "role": "section-lead",
+   "description": "pre-plans 010 section-lead pre-plan",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "010",
+    "step": "pre-plans",
+    "task": "pre-plan",
+    "scratchpad": ".cache/scratch/010-section-lead"
+   },
+   "problems": []
+  },
+  {
+   "role": "section-lead",
+   "description": "pre-plans 020 section-lead pre-plan",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "020",
+    "step": "pre-plans",
+    "task": "pre-plan",
+    "scratchpad": ".cache/scratch/020-section-lead"
+   },
+   "problems": []
+  },
+  {
+   "role": "section-lead",
+   "description": "pre-plans 030 section-lead pre-plan",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "030",
+    "step": "pre-plans",
+    "task": "pre-plan",
+    "scratchpad": ".cache/scratch/030-section-lead"
+   },
+   "problems": []
+  },
+  {
+   "role": "editor",
+   "description": "pre-plan-check all editor pre-plans",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "all",
+    "step": "pre-plan-check",
+    "task": "pre-plans",
+    "scratchpad": ".cache/scratch/all-editor",
+    "note": "Only the sections 010, 020, 030 have a page list."
+   },
+   "problems": []
+  },
+  {
+   "role": "section-coordinator",
+   "description": "pre-plans 010 section-coordinator pre-plan",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "010",
+    "step": "pre-plans",
+    "task": "pre-plan",
+    "scratchpad": ".cache/scratch/010-section-coordinator"
+   },
+   "problems": []
+  },
+  {
+   "role": "section-coordinator",
+   "description": "pre-plans 030 section-coordinator pre-plan",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "030",
+    "step": "pre-plans",
+    "task": "pre-plan",
+    "scratchpad": ".cache/scratch/030-section-coordinator"
+   },
+   "problems": []
+  },
+  {
+   "role": "section-coordinator",
+   "description": "pre-plans 020 section-coordinator pre-plan",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "020",
+    "step": "pre-plans",
+    "task": "pre-plan",
+    "scratchpad": ".cache/scratch/020-section-coordinator"
+   },
+   "problems": []
+  }
+ ],
+ "fixes": []
+}

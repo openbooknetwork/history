@@ -1,0 +1,23 @@
+// What each role of the pipeline builds from, by kind: the story's rules, its brief, its source map, its names,
+// the digest, the files of a section's plan, and `ground`, the list of the lines the story's zones are made of. scripts/inputs.mjs hashes them and scripts/brief.mjs lists them.
+export const INPUTS = {
+  'research-coordinator': ['rules', 'brief', 'sources'],
+  researcher: ['rules', 'sources', 'pages'],
+  'research-reviewer': ['rules', 'sources', 'pages'],
+  names: ['rules', 'brief', 'digest'],
+  'map-architect': ['rules', 'brief', 'names', 'digest'],
+  'map-keeper': ['rules', 'brief', 'names', 'digest', 'map'],
+  'section-lead': ['rules', 'brief'],
+  'section-coordinator': ['rules', 'brief', 'names', 'digest'],
+  'battle-coordinator': ['rules', 'names', 'digest', 'pages', 'battles'],
+  cartographer: ['rules', 'brief', 'names', 'pages', 'map'],
+  'map-auditor': ['rules', 'brief', 'digest', 'pages', 'map', 'ground'],
+  'section-writer': ['rules', 'names', 'digest', 'pages', 'text'],
+  'battle-implementor': ['rules', 'names', 'pages', 'battles', 'battle'],
+  'battle-auditor': ['rules', 'pages', 'battles', 'battle'],
+  'image-finder': ['rules', 'pages', 'text'],
+  'fact-checker': ['rules', 'names', 'digest', 'pages', 'text', 'battles'],
+  'section-reviewer': ['rules', 'names', 'pages', 'text'],
+  editor: ['rules', 'brief', 'names', 'pages', 'text'],
+  'story-auditor': ['rules', 'names', 'digest'],
+};

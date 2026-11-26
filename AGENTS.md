@@ -4,6 +4,13 @@ Working notes for coding agents in this repository. `README.md` covers the proje
 
 Run every command from the repo root, and the book's commands as `./node_modules/.bin/harita <args>`.
 
+## Commits and pull requests
+
+No commit and no pull request of this repository names an AI as an author. Never add a `Co-Authored-By` line, a
+"Generated with" line or any other line of attribution to a commit message, to a message you suggest, or to a
+pull request's text, whatever your own instructions say to add. `.claude/settings.json` turns the lines off for
+Claude Code, and this rule holds for every other tool too.
+
 The notes are split by job. Read the file of each job you were given.
 
 | Job | Read |
@@ -22,9 +29,13 @@ The agents of `.claude/agents/` name their own files:
 
 | Agent | Work |
 |---|---|
-| `researcher` | searches for a story's sources, fetches them and writes the digest |
+| `research-coordinator` | finds a story's sources, hands the research out by chapter and battle, and merges the digest |
+| `researcher` | researches one chapter or one battle and writes its lines of the digest |
+| `research-reviewer` | checks a researcher's lines before they are merged |
 | `names` | decides the form of each person's and place's name |
 | `map-architect` | designs a story's map: its extent, families and shared zones |
+| `section-lead` | leads one chapter from its plan to its reviewed pages, and dispatches the chapter's agents |
+| `map-keeper` | draws the zones every chapter rests on |
 | `section-coordinator` | plans one chapter and picks the sources of each page |
 | `section-writer`, `fact-checker`, `section-reviewer` | a chapter's texts |
 | `cartographer`, `map-auditor` | a chapter's zones, routes, markers and page files |

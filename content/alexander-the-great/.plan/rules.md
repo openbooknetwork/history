@@ -20,8 +20,9 @@ keeps the reason. Read this file before you change a page, a zone, a card or a t
   `shared/markers.yaml`.
 - **A page shows every zone its neighbours show for its frame** (rule C), unless its text tells a change.
 - **A battle card stands on the battle's sourced site**: a siege on its town, a field battle where its battle plan
-  draws the field. A card's `lnglat` never moves for layout. A town marker at the same point comes off that page,
-  and the text names the town without a link.
+  draws the field. A card's `lnglat` never moves for layout. A town marker at the same point stays on the
+  page: the card's swords lead, the marker waits under them and comes forward when the reader points at the
+  town's name in the text. So the text links the town (`agents/pages.md`, Battle cards).
 - **Battle ids take the year:** `granicus-334`, `issus-333`, `gaugamela-331`, `persian-gate-330`,
   `megalopolis-330`, and so on; where the plan gives a year, the plan's year.
 - **The careful side:** land that no source says was taken stays out of the conqueror's zone (Pisidia, Lycaonia,
@@ -34,7 +35,7 @@ keeps the reason. Read this file before you change a page, a zone, a card or a t
 - **Disputed claims go into notes.** The body tells the account the map follows, or a wording true for every
   account, with an escaped marker `\*`, `\*\*`, `\*\*\*`. After the body comes `### Notes`, one paragraph per
   note starting with its marker, giving each account with its author and figures. A page with no dispute has no
-  Notes heading. `open` claims stay in the body. The body runs 150–300 words; notes do not count.
+  Notes heading. `open` claims stay in the body. The body is never under 150 words and never over 350, both hard limits, and 300 is the soft limit to aim under (`agents/text.md`). Notes do not count.
 - Names follow `names.md`. The Persian Gate is the gorge above Mullah Susan, the Tang-i Mohammad Reza (Bosworth,
   C&E n. 191); "Tang-i Khas" is Stein's mistake. Arrian's Persian cavalry at Gaugamela is 40,000.
 - A figure that one author gives is told with his name; where Arrian and another author count differently, each

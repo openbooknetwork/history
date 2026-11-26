@@ -1,0 +1,1535 @@
+{
+ "variant": "battle-1",
+ "story": "alexander-the-great",
+ "pages": 9,
+ "order": [
+  "brief",
+  "survey",
+  "final-brief",
+  "pre-plans",
+  "pre-plan-check",
+  "research",
+  "names",
+  "map-design",
+  "plans",
+  "plan-check",
+  "maps",
+  "texts",
+  "phases",
+  "images",
+  "facts",
+  "edit",
+  "story",
+  "name-forms",
+  "translation"
+ ],
+ "agents": [
+  {
+   "agent": "0b0e0c00-0020-4000-8000-000000000035",
+   "role": "overseer",
+   "parent": "-",
+   "model": "claude-fable-5-2",
+   "start": "2026-11-25T13:56:41.581Z",
+   "end": "2026-11-25T15:00:16.233Z",
+   "description": ""
+  },
+  {
+   "agent": "a1420bf89a13ceaae",
+   "role": "fact-checker",
+   "parent": "section-lead 030",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T14:06:07.888Z",
+   "end": "2026-11-25T14:09:52.633Z",
+   "description": "plans 030 fact-checker plan-check"
+  },
+  {
+   "agent": "a1aadc834d09de228",
+   "role": "battle-implementor",
+   "parent": "battle-coordinator granicus-334",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T14:42:45.161Z",
+   "end": "2026-11-25T14:49:34.020Z",
+   "description": "phases 030 battle-implementor fix"
+  },
+  {
+   "agent": "a32e697b6c520b02c",
+   "role": "battle-implementor",
+   "parent": "battle-coordinator granicus-334",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T14:53:17.404Z",
+   "end": "2026-11-25T14:57:00.038Z",
+   "description": "phases 030 battle-implementor fix"
+  },
+  {
+   "agent": "a36a10278c3b9bfcb",
+   "role": "battle-auditor",
+   "parent": "battle-coordinator granicus-334",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T14:36:40.461Z",
+   "end": "2026-11-25T14:42:38.521Z",
+   "description": "phases 030 battle-auditor audit"
+  },
+  {
+   "agent": "a37b7e4712f1e188a",
+   "role": "battle-implementor",
+   "parent": "battle-coordinator granicus-334",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T14:19:30.565Z",
+   "end": "2026-11-25T14:36:32.673Z",
+   "description": "phases 030 battle-implementor build"
+  },
+  {
+   "agent": "a3bb21a3adda5a2e9",
+   "role": "researcher",
+   "parent": "section-lead 030",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T14:10:58.020Z",
+   "end": "2026-11-25T14:14:14.249Z",
+   "description": "plans 030 researcher add"
+  },
+  {
+   "agent": "a43dffec32a054646",
+   "role": "fact-checker",
+   "parent": "section-lead 030",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T14:05:13.116Z",
+   "end": "2026-11-25T14:08:51.212Z",
+   "description": "plans 030 fact-checker plan-check"
+  },
+  {
+   "agent": "a664ba34cb9952b70",
+   "role": "section-lead",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T14:05:36.796Z",
+   "end": "2026-11-25T14:16:35.327Z",
+   "description": "plans 030 section-lead plan"
+  },
+  {
+   "agent": "a778f912950b06d5b",
+   "role": "section-lead",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T13:56:56.468Z",
+   "end": "2026-11-25T14:05:32.205Z",
+   "description": "plans 030 section-lead plan"
+  },
+  {
+   "agent": "a8f05d2b7b08391b7",
+   "role": "battle-auditor",
+   "parent": "battle-coordinator granicus-334",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T14:57:06.060Z",
+   "end": "2026-11-25T14:59:03.124Z",
+   "description": "phases 030 battle-auditor recheck"
+  },
+  {
+   "agent": "a91c8391fc0175ad5",
+   "role": "battle-coordinator",
+   "parent": "section-lead 030",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T14:06:07.540Z",
+   "end": "2026-11-25T14:10:41.379Z",
+   "description": "plans 030 battle-coordinator plan"
+  },
+  {
+   "agent": "abe941226efcbc8a5",
+   "role": "battle-auditor",
+   "parent": "battle-coordinator granicus-334",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T14:49:39.808Z",
+   "end": "2026-11-25T14:53:12.575Z",
+   "description": "phases 030 battle-auditor recheck"
+  },
+  {
+   "agent": "ad12ada1b3513a872",
+   "role": "section-coordinator",
+   "parent": "section-lead 030",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T14:10:58.013Z",
+   "end": "2026-11-25T14:12:30.240Z",
+   "description": "plans 030 section-coordinator fix"
+  },
+  {
+   "agent": "ad6c92ca2bc0d1a5a",
+   "role": "battle-coordinator",
+   "parent": "section-lead 030",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T14:05:12.890Z",
+   "end": "2026-11-25T14:09:50.354Z",
+   "description": "plans 030 battle-coordinator plan"
+  },
+  {
+   "agent": "ad8846705bce441ea",
+   "role": "researcher",
+   "parent": "battle-coordinator granicus-334",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T14:06:31.429Z",
+   "end": "2026-11-25T14:13:44.587Z",
+   "description": "plans 030 researcher add"
+  },
+  {
+   "agent": "adebfd7ccb9403a38",
+   "role": "fact-checker",
+   "parent": "section-lead 030",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T14:14:20.278Z",
+   "end": "2026-11-25T14:15:54.205Z",
+   "description": "plans 030 fact-checker recheck"
+  },
+  {
+   "agent": "ae90b7cf01b13478a",
+   "role": "battle-coordinator",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T14:16:41.918Z",
+   "end": "2026-11-25T14:59:37.414Z",
+   "description": "phases 030 battle-coordinator build"
+  },
+  {
+   "agent": "aec28323dae024a66",
+   "role": "section-coordinator",
+   "parent": "section-lead 030",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T13:57:17.152Z",
+   "end": "2026-11-25T14:05:06.367Z",
+   "description": "plans 030 section-coordinator plan"
+  }
+ ],
+ "usage": [
+  {
+   "agent": "0b0e0c00-0020-4000-8000-000000000035",
+   "role": "overseer",
+   "parent": "-",
+   "model": "claude-fable-5-2",
+   "step": "-",
+   "section": "-",
+   "turns": 16,
+   "peak": 51983,
+   "input": 44,
+   "cacheWrite": 36853,
+   "cacheRead": 635438,
+   "output": 6689
+  },
+  {
+   "agent": "a1420bf89a13ceaae",
+   "role": "fact-checker",
+   "parent": "section-lead 030",
+   "model": "claude-opus-5-5",
+   "step": "plans",
+   "section": "030",
+   "turns": 17,
+   "peak": 108655,
+   "input": 34,
+   "cacheWrite": 101907,
+   "cacheRead": 1127937,
+   "output": 22866
+  },
+  {
+   "agent": "a1aadc834d09de228",
+   "role": "battle-implementor",
+   "parent": "battle-coordinator granicus-334",
+   "model": "claude-opus-5-5",
+   "step": "phases",
+   "section": "030",
+   "turns": 20,
+   "peak": 98365,
+   "input": 40,
+   "cacheWrite": 95049,
+   "cacheRead": 1466473,
+   "output": 23998
+  },
+  {
+   "agent": "a32e697b6c520b02c",
+   "role": "battle-implementor",
+   "parent": "battle-coordinator granicus-334",
+   "model": "claude-opus-5-5",
+   "step": "phases",
+   "section": "030",
+   "turns": 12,
+   "peak": 84784,
+   "input": 24,
+   "cacheWrite": 79734,
+   "cacheRead": 651508,
+   "output": 8317
+  },
+  {
+   "agent": "a36a10278c3b9bfcb",
+   "role": "battle-auditor",
+   "parent": "battle-coordinator granicus-334",
+   "model": "claude-opus-5-5",
+   "step": "phases",
+   "section": "030",
+   "turns": 28,
+   "peak": 118599,
+   "input": 56,
+   "cacheWrite": 115283,
+   "cacheRead": 2358548,
+   "output": 24702
+  },
+  {
+   "agent": "a37b7e4712f1e188a",
+   "role": "battle-implementor",
+   "parent": "battle-coordinator granicus-334",
+   "model": "claude-opus-5-5",
+   "step": "phases",
+   "section": "030",
+   "turns": 41,
+   "peak": 178434,
+   "input": 81,
+   "cacheWrite": 175118,
+   "cacheRead": 4820799,
+   "output": 63061
+  },
+  {
+   "agent": "a3bb21a3adda5a2e9",
+   "role": "researcher",
+   "parent": "section-lead 030",
+   "model": "claude-opus-5-5",
+   "step": "plans",
+   "section": "030",
+   "turns": 24,
+   "peak": 63027,
+   "input": 48,
+   "cacheWrite": 56650,
+   "cacheRead": 1031594,
+   "output": 16261
+  },
+  {
+   "agent": "a43dffec32a054646",
+   "role": "fact-checker",
+   "parent": "section-lead 030",
+   "model": "claude-opus-5-5",
+   "step": "plans",
+   "section": "030",
+   "turns": 15,
+   "peak": 108303,
+   "input": 30,
+   "cacheWrite": 104987,
+   "cacheRead": 825544,
+   "output": 21626
+  },
+  {
+   "agent": "a664ba34cb9952b70",
+   "role": "section-lead",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "plans",
+   "section": "030",
+   "turns": 12,
+   "peak": 46871,
+   "input": 30,
+   "cacheWrite": 39071,
+   "cacheRead": 378384,
+   "output": 6499
+  },
+  {
+   "agent": "a778f912950b06d5b",
+   "role": "section-lead",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "plans",
+   "section": "030",
+   "turns": 10,
+   "peak": 35833,
+   "input": 24,
+   "cacheWrite": 51354,
+   "cacheRead": 240497,
+   "output": 3395
+  },
+  {
+   "agent": "a8f05d2b7b08391b7",
+   "role": "battle-auditor",
+   "parent": "battle-coordinator granicus-334",
+   "model": "claude-opus-5-5",
+   "step": "phases",
+   "section": "030",
+   "turns": 9,
+   "peak": 70422,
+   "input": 18,
+   "cacheWrite": 61949,
+   "cacheRead": 392491,
+   "output": 5136
+  },
+  {
+   "agent": "a91c8391fc0175ad5",
+   "role": "battle-coordinator",
+   "parent": "section-lead 030",
+   "model": "claude-opus-5-5",
+   "step": "plans",
+   "section": "030",
+   "turns": 14,
+   "peak": 160906,
+   "input": 28,
+   "cacheWrite": 104639,
+   "cacheRead": 1349429,
+   "output": 25877
+  },
+  {
+   "agent": "abe941226efcbc8a5",
+   "role": "battle-auditor",
+   "parent": "battle-coordinator granicus-334",
+   "model": "claude-opus-5-5",
+   "step": "phases",
+   "section": "030",
+   "turns": 12,
+   "peak": 74721,
+   "input": 24,
+   "cacheWrite": 71405,
+   "cacheRead": 581131,
+   "output": 8616
+  },
+  {
+   "agent": "ad12ada1b3513a872",
+   "role": "section-coordinator",
+   "parent": "section-lead 030",
+   "model": "claude-opus-5-5",
+   "step": "plans",
+   "section": "030",
+   "turns": 13,
+   "peak": 69518,
+   "input": 26,
+   "cacheWrite": 66202,
+   "cacheRead": 652861,
+   "output": 8262
+  },
+  {
+   "agent": "ad6c92ca2bc0d1a5a",
+   "role": "battle-coordinator",
+   "parent": "section-lead 030",
+   "model": "claude-opus-5-5",
+   "step": "plans",
+   "section": "030",
+   "turns": 24,
+   "peak": 122624,
+   "input": 50,
+   "cacheWrite": 117591,
+   "cacheRead": 2067410,
+   "output": 23729
+  },
+  {
+   "agent": "ad8846705bce441ea",
+   "role": "researcher",
+   "parent": "battle-coordinator granicus-334",
+   "model": "claude-opus-5-5",
+   "step": "plans",
+   "section": "030",
+   "turns": 30,
+   "peak": 145050,
+   "input": 60,
+   "cacheWrite": 145048,
+   "cacheRead": 2547773,
+   "output": 43596
+  },
+  {
+   "agent": "adebfd7ccb9403a38",
+   "role": "fact-checker",
+   "parent": "section-lead 030",
+   "model": "claude-opus-5-5",
+   "step": "plans",
+   "section": "030",
+   "turns": 8,
+   "peak": 92274,
+   "input": 16,
+   "cacheWrite": 85526,
+   "cacheRead": 437624,
+   "output": 7135
+  },
+  {
+   "agent": "ae90b7cf01b13478a",
+   "role": "battle-coordinator",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "phases",
+   "section": "030",
+   "turns": 17,
+   "peak": 115284,
+   "input": 44,
+   "cacheWrite": 427735,
+   "cacheRead": 1133980,
+   "output": 20120
+  },
+  {
+   "agent": "aec28323dae024a66",
+   "role": "section-coordinator",
+   "parent": "section-lead 030",
+   "model": "claude-opus-5-5",
+   "step": "plans",
+   "section": "030",
+   "turns": 34,
+   "peak": 167887,
+   "input": 63,
+   "cacheWrite": 160667,
+   "cacheRead": 3487560,
+   "output": 44886
+  }
+ ],
+ "reports": [
+  {
+   "agent": "a1420bf89a13ceaae",
+   "role": "fact-checker",
+   "step": "plans",
+   "section": "030",
+   "status": "faults",
+   "changed": 0,
+   "unresolved": 2,
+   "faults": [
+    {
+     "id": "030-fact-checker-1",
+     "severity": "weak",
+     "kind": "plan",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/alexander-the-great/.plan/030-asia-minor/map.yaml",
+     "claim": null,
+     "evidence": "\"The Achaeans' harbour was located at the mouth of the Scamander; in Strabo's day the site was some 12 stades from the city\" (archive.org-History-20of-20Alexander-3B-20Volume-20I-20Books-20I-III-20-20A.-20B.-20Bosworth-djvu.txt.txt, on 1.11.6)",
+     "action": "Bosworth (Commentary on 1.11.6) puts the port at the mouth of the Scamander, some 12 stades from Ilium in Strabo's day, and it is drawn there.",
+     "state": "fixed"
+    },
+    {
+     "id": "030-fact-checker-2",
+     "severity": "weak",
+     "kind": "plan",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/alexander-the-great/.plan/030-asia-minor/map.yaml",
+     "claim": null,
+     "evidence": "\"Arisbe was situated 7~8 km due east of Abydus, in an undulating plain well suited to accommodate a large army\" (archive.org-History-20of-20Alexander-3B-20Volume-20I-20Books-20I-III-20-20A.-20B.-20Bosworth-djvu.txt.txt, on 1.12.6)",
+     "action": "Bosworth (Commentary on 1.12.6) puts Arisbe 7 to 8 km due east of Abydus, in an undulating plain, and it is drawn there.",
+     "state": "fixed"
+    },
+    {
+     "id": "030-fact-checker-3",
+     "severity": "wrong",
+     "kind": "plan",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/alexander-the-great/.plan/030-asia-minor/map.yaml",
+     "claim": null,
+     "evidence": "\"At first he led his forces to the head of the Hellespont, skirting Lampsacus and branching inland south of Parium, so as to avoid the rough passage of the coastline by Priapus.\" (archive.org-onquest-20and-20Empire-20The-20Reign-20of-20Alexander-20the-20Great-20-281993-29-djvu.txt.txt, ch. 2.III); \"Colonae is equally elusive. Strabo locates it 'above Lampsacus and in the mesogaia of Lampsacene' ... This indicates that it was situated inland\" and \"Hermaeum has been located inland\" (archive.org-History-20of-20Alexander-3B-20Volume-20I-20Books-20I-III-20-20A.-20B.-20Bosworth-djvu.txt.txt, on 1.12.6)",
+     "action": "Colonae and Hermotus have no site in the sources read. Bosworth has the march skirt Lampsacus and turn inland south of Parium, away from the rough coast by Priapus (Conquest and Empire ch. 2.III), with Colonae inland in Lampsacene and Hermotus perhaps Hermaeum, also inland (Commentary on 1.12.6), so the line leaves the coast after Lampsacus. Percote is drawn at Bergaz, about 10 km east of Arisbe on the coast (Commentary on 1.12.6).",
+     "state": "fixed"
+    },
+    {
+     "id": "030-fact-checker-4",
+     "severity": "wrong",
+     "kind": "plan",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/alexander-the-great/.plan/030-asia-minor/map.yaml",
+     "claim": null,
+     "evidence": "\"crossing the river Xanthus, the cities of Pinara, Xanthus, Patara, and about thirty other smaller towns were surrendered to him\" (archive.org-download-theanabasisofale46976gut-46976-0.txt.txt, Arrian 1.24); \"His route took him through Telmissus to the Xanthos valley, but then he diverged inland through Milyas ... only reaching the coast at Phaselis. He did send forces to occupy the cities of Lower Lycia\" (archive.org-onquest-20and-20Empire-20The-20Reign-20of-20Alexander-20the-20Great-20-281993-29-djvu.txt.txt, ch. 2.V). Patara is on the coast, so the route as listed contradicts the Bosworth line its own why follows.",
+     "action": "[Halicarnassus, Hyparna, Telmissus, Xanthus river, Pinara, Xanthus, Milyas, Phaselis], and the why adds that Patara is among the towns Arrian has surrendered, not a station, and that the start at Halicarnassus is inferred (Arrian 1.24.1 sends the married men home 'from Caria' and names Hyparna as the first place of the route).",
+     "state": "fixed"
+    },
+    {
+     "id": "030-fact-checker-5",
+     "severity": "wrong",
+     "kind": "plan",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/alexander-the-great/.plan/030-asia-minor/map.yaml",
+     "claim": null,
+     "evidence": "\"As he was advancing from Perga, he was met on the road by envoys from the Aspendians ... Alexander then marched to Sidē\" (archive.org-download-theanabasisofale46976gut-46976-0.txt.txt, Arrian 1.26). He reaches Aspendus only after Sillyum: \"Hearing this, he marched off to Aspendus.\"",
+     "action": "[Perge, Side, Sillyum, Aspendus, Perge, Termessus, Sagalassus, Lake Ascania, Celaenae]",
+     "state": "fixed"
+    },
+    {
+     "id": "030-fact-checker-6",
+     "severity": "weak",
+     "kind": "plan",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/alexander-the-great/.plan/030-asia-minor/map.yaml",
+     "claim": null,
+     "evidence": "\"Thence he went into Phrygia, passing by the lake called Ascania, in which salt is naturally concreted. ... On the fifth day of his march, he arrived at Celaenae\" (archive.org-download-theanabasisofale46976gut-46976-0.txt.txt, Arrian 1.29). Arrian does not count the five days from the lake.",
+     "action": "Arrian names each place, and has him reach Celaenae on the fifth day of the march into Phrygia, past Lake Ascania.",
+     "state": "fixed"
+    },
+    {
+     "id": "030-fact-checker-7",
+     "severity": "weak",
+     "kind": "plan",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/alexander-the-great/.plan/030-asia-minor/map.yaml",
+     "claim": null,
+     "evidence": "\"Memnon ... acquired possession of Chios ... Thence he sailed to Lesbos\" (archive.org-download-theanabasisofale46976gut-46976-0.txt.txt, Arrian 2.1); \"conveyed the rest of the army and the stores to Cos\" (penelope.uchicago.edu-Thayer-E-Roman-Texts-Diodorus-Siculus-17B.txt, 17.27.5); \"Neighbouring Cos had been a base for the Persian fleet since 334\" (archive.org-History-20of-20Alexander-3B-20Volume-20I-20Books-20I-III-20-20A.-20B.-20Bosworth-djvu.txt.txt)",
+     "action": "Arrian and Diodorus give Chios, Lesbos and Mytilene in turn. Neither names Cos as the start: it is the fleet's base after Halicarnassus (Diodorus 17.27.5; Bosworth, Commentary, on Cos as a Persian base since 334), and the line starts there by inference.",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "a1aadc834d09de228",
+   "role": "battle-implementor",
+   "step": "phases",
+   "section": "030",
+   "status": "pass",
+   "changed": 12,
+   "unresolved": 0,
+   "faults": []
+  },
+  {
+   "agent": "a32e697b6c520b02c",
+   "role": "battle-implementor",
+   "step": "phases",
+   "section": "030",
+   "status": "pass",
+   "changed": 7,
+   "unresolved": 0,
+   "faults": []
+  },
+  {
+   "agent": "a36a10278c3b9bfcb",
+   "role": "battle-auditor",
+   "step": "phases",
+   "section": "030",
+   "status": "faults",
+   "changed": 4,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "030-battle-auditor-1",
+     "severity": "wrong",
+     "kind": "battle",
+     "introduced": "battles",
+     "firstCheck": "phases",
+     "leak": false,
+     "owner": "battle-implementor",
+     "file": "content/alexander-the-great/.plans/granicus.mjs",
+     "claim": "030.33",
+     "evidence": "\"Fuller at the extreme right, and Bosworth suggests in front of the cavalry as at Gaugamela\" (research.md 030.33); plan battles/granicus-334.yaml phases[granicus-vanguard].opens: \"archers-agrianians in front of them (Bosworth's suggestion, 030.33, a reconstruction)\"; text 020-granicus-vanguard line 7: \"they are drawn in front of the Companions\"",
+     "action": "Draw the archers and Agrianians in front of the Companions, as the plan's opens and the page's text say: east of the companions block (u -1150, w -170, depth 200), between it and the river, at about the same u, and end the light-crossing arrow there. As drawn (u -1480, w -220) they stand to the right of and a little behind the Companions, the extreme right that the plan's claim gives as Fuller's place, not Bosworth's. Capture shots/granicus-vanguard.png in the auditor's scratchpad: the block sits south of the Companions under the Alexander marker.",
+     "state": "fixed"
+    },
+    {
+     "id": "030-battle-auditor-2",
+     "severity": "wrong",
+     "kind": "check",
+     "introduced": "battles",
+     "firstCheck": "phases",
+     "leak": false,
+     "owner": "battle-implementor",
+     "file": "content/alexander-the-great/.plans/granicus.mjs",
+     "claim": null,
+     "evidence": "content/punic-wars/.plans/README.md, Drawing rules: \"Place markers beside a block\"; battle-auditor definition: \"At phone size each unit is apart from its neighbours\". Captures in .cache/scratch/030-battle-auditor-granicus-334/.",
+     "action": "At phone size (390x780) the markers stand on the blocks they name, about 300 m off, less than an icon's width at that scale, so units cannot be told apart or hovered. Phase 1: the Alexander and Amyntas markers cover the companions, archers-agrianians and vanguard blocks; the Memnon marker covers cavalry-left, and SHOT_HOVER at its centre highlights the marker instead of the unit's label (h1p/granicus-vanguard.png). Phase 2: Alexander, Cleitus, Spithridates and Mithridates cover companions, archers-agrianians and vanguard; Parmenion covers the thessalians and the left-crossing arrow; Arsites covers cavalry-centre (shots/granicus-bank.png, crop2.png). Phase 3: the Alexander marker covers phalanx-right's centre (h3m). Move each marker 600 m or more off the blocks onto open ground beside them (the Macedonian markers of phases 1-2 west of the line, the Persian ones east of their blocks), and retake the phone captures.",
+     "state": "fixed"
+    },
+    {
+     "id": "030-battle-auditor-3",
+     "severity": "wrong",
+     "kind": "plan",
+     "introduced": "battle-plan",
+     "firstCheck": "plan-check",
+     "leak": true,
+     "owner": "battle-coordinator",
+     "file": "content/alexander-the-great/.plan/030-asia-minor/battles/granicus-334.yaml",
+     "claim": "030.42",
+     "evidence": "\"Leading the phalanx against these, and ordering the cavalry to fall upon them from all sides in the midst, he soon cut them up\" (archive.org-download-theanabasisofale46976gut-46976-0.txt.txt, Arrian 1.16, in 030.42). No source read names which cavalry rode round which flank.",
+     "action": "basis: reconstruction, why: \"Arrian 1.16.2 has the cavalry fall on them from all sides (030.42) and names no unit; the Companions are drawn on the side where they fought\" (and for the thessalians: \"...; Parmenion's horse is drawn on the side where it crossed\")",
+     "state": "fixed"
+    },
+    {
+     "id": "030-battle-auditor-4",
+     "severity": "wrong",
+     "kind": "wording",
+     "introduced": "battles",
+     "firstCheck": "phases",
+     "leak": false,
+     "owner": "section-writer",
+     "file": "content/alexander-the-great/pages/030-asia-minor/030-granicus/040-granicus-mercenaries/text/en.md",
+     "claim": "030.42",
+     "evidence": "Arrian 1.16.2, \"ordering the cavalry to fall upon them from all sides\" (archive.org-download-theanabasisofale46976gut-46976-0.txt.txt, in 030.42): the units' flanks are a reconstruction (030-battle-auditor-3), and a reconstruction is told as one.",
+     "action": "Arrian does not say which horsemen ride where. [The Companions](@granicus-mercenaries-companions) are drawn round their southern flank, and the [Thessalians](@granicus-mercenaries-thessalians) and the allied Greek horse round the northern flank and behind them.",
+     "state": "fixed"
+    },
+    {
+     "id": "030-battle-auditor-5",
+     "severity": "wrong",
+     "kind": "plan",
+     "introduced": "battle-plan",
+     "firstCheck": "plan-check",
+     "leak": true,
+     "owner": "battle-coordinator",
+     "file": "content/alexander-the-great/.plan/030-asia-minor/battles/granicus-334.yaml",
+     "claim": "030.30",
+     "evidence": "\"finally, the men commanded by Philip, son of Amyntas\" (right) and \"the brigades of Craterus, Meleager, and Philip, reaching as far as the centre of the entire line\" (left) (archive.org-download-theanabasisofale46976gut-46976-0.txt.txt, Arrian 1.14, in 030.30, 030.31); Bosworth on 1.14.2: \"There is no justification for supposing ... that the troops involved were anything other than phalanx infantry\". Both of Arrian's lists put Philip's battalion at the centre, next to Craterus's, where the plan puts Craterus.",
+     "action": "the battalions of Craterus, Meleager and Philip, son of Amyntas, to the centre",
+     "state": "fixed"
+    },
+    {
+     "id": "030-battle-auditor-6",
+     "severity": "wrong",
+     "kind": "battle",
+     "introduced": "battle-plan",
+     "firstCheck": "plan-check",
+     "leak": true,
+     "owner": "battle-implementor",
+     "file": "content/alexander-the-great/.plans/granicus.mjs",
+     "claim": "030.30",
+     "evidence": "plan phalanx-left as 030-battle-auditor-5 fixed it, from Arrian 1.14 (030.30). Add the names.md row for Philip, son of Amyntas (battalion commander at the Granicus, 030 (030.30); Berve no. 775 in Bosworth on 1.14.2, mentioned again only at 1.4.5), then rerun the generator.",
+     "action": "Phalanx, towards the centre: the battalions of Craterus, Meleager and Philip, son of Amyntas",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "a37b7e4712f1e188a",
+   "role": "battle-implementor",
+   "step": "phases",
+   "section": "030",
+   "status": "pass",
+   "changed": 6,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "030-battle-implementor-1",
+     "severity": "wrong",
+     "kind": "wording",
+     "introduced": "battle-plan",
+     "firstCheck": "plan-check",
+     "leak": true,
+     "owner": "battle-implementor",
+     "file": "content/alexander-the-great/.plan/names.md",
+     "claim": "030.40",
+     "evidence": "\"seeing Mithridates, the son-in-law of Darius, riding far in front of the others, and leading with him a body of cavalry arranged like a wedge\" (archive.org-download-theanabasisofale46976gut-46976-0.txt.txt, Arrian 1.15, in 030.40)",
+     "action": "| Mithridates | Darius's son-in-law, who leads a wedge of horse at Alexander at the Granicus and is struck down by him | 030 (030.40) | |",
+     "state": "fixed"
+    },
+    {
+     "id": "030-battle-implementor-2",
+     "severity": "wrong",
+     "kind": "wording",
+     "introduced": "battle-plan",
+     "firstCheck": "plan-check",
+     "leak": true,
+     "owner": "battle-implementor",
+     "file": "content/alexander-the-great/.plan/names.md",
+     "claim": "030.30",
+     "evidence": "\"Amyntas, son of Arrhabaeus, with the cavalry carrying the long pike, the Paeonians, and the squadron of Socrates\" (archive.org-download-theanabasisofale46976gut-46976-0.txt.txt, Arrian 1.14, in 030.30)",
+     "action": "| Paeonians | Paeonian | whole story | 030 (030.30) |",
+     "state": "fixed"
+    },
+    {
+     "id": "030-battle-implementor-3",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "battles",
+     "firstCheck": "phases",
+     "leak": false,
+     "owner": "battle-implementor",
+     "file": "content/alexander-the-great/.plan/names.md",
+     "claim": "030.45",
+     "evidence": "\"the Granicus show that there were certainly not 20,000 well-trained Greeks there\" (Tarn I, in 030.45); the granicus-mercenaries note names him",
+     "action": "030 (030.45)",
+     "state": "fixed"
+    },
+    {
+     "id": "030-battle-implementor-4",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "battle-plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "battle-implementor",
+     "file": "content/alexander-the-great/.plan/names.md",
+     "claim": "030.30",
+     "evidence": "battles/granicus-334.yaml names him in phalanx-right, from 030.30 (Arrian 1.14), and the Granicus phase pages show him in that unit's name",
+     "action": "030 (030.30)",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "a3bb21a3adda5a2e9",
+   "role": "researcher",
+   "step": "plans",
+   "section": "030",
+   "status": "pass",
+   "changed": 6,
+   "unresolved": 1,
+   "faults": [
+    {
+     "id": "030-researcher-1",
+     "severity": "weak",
+     "kind": "sources",
+     "introduced": "research",
+     "firstCheck": "research",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/alexander-the-great/.plan/030-asia-minor/pages.yaml",
+     "claim": "030.50",
+     "evidence": "030.25 cites Briant (iranicaonline.org-articles-alexander-the-great.txt) for Abydus, a file not on the machine. 030.49 (Arrian 1.11, Parmenion ferries the army from Sestus to Abydus) and 030.50 (\"It was an excellent watching point for Abydus, the Macedonian bridgehead\", Bosworth, Commentary on 2.2.2; \"perhaps capture the bridge-head at Abydos\", Tarn I, ch. 1) give the page's ferry to Abydus and its bridgehead on files that stand.",
+     "action": "[\"030.4\", \"030.3\", \"030.25\", \"030.49\", \"030.50\", \"030.5\"]",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "a43dffec32a054646",
+   "role": "fact-checker",
+   "step": "plans",
+   "section": "030",
+   "status": "faults",
+   "changed": 0,
+   "unresolved": 0,
+   "faults": []
+  },
+  {
+   "agent": "a664ba34cb9952b70",
+   "role": "section-lead",
+   "step": "plans",
+   "section": "030",
+   "status": "pass",
+   "changed": 6,
+   "unresolved": 2,
+   "faults": []
+  },
+  {
+   "agent": "a778f912950b06d5b",
+   "role": "section-lead",
+   "step": "plans",
+   "section": "030",
+   "status": "blocked",
+   "changed": 4,
+   "unresolved": 1,
+   "faults": []
+  },
+  {
+   "agent": "a8f05d2b7b08391b7",
+   "role": "battle-auditor",
+   "step": "phases",
+   "section": "030",
+   "status": "pass",
+   "changed": 0,
+   "unresolved": 0,
+   "faults": []
+  },
+  {
+   "agent": "a91c8391fc0175ad5",
+   "role": "battle-coordinator",
+   "step": "plans",
+   "section": "030",
+   "status": "pass",
+   "changed": 2,
+   "unresolved": 0,
+   "faults": []
+  },
+  {
+   "agent": "abe941226efcbc8a5",
+   "role": "battle-auditor",
+   "step": "phases",
+   "section": "030",
+   "status": "faults",
+   "changed": 1,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "030-battle-auditor-7",
+     "severity": "weak",
+     "kind": "battle",
+     "introduced": "battles",
+     "firstCheck": "phases",
+     "leak": false,
+     "owner": "battle-implementor",
+     "file": "content/alexander-the-great/.plans/granicus.mjs",
+     "claim": "030.30",
+     "evidence": "\"Philotas, son of Parmenion, with the Companion cavalry, the archers, and the Agrianian javelin-men\" (archive.org-download-theanabasisofale46976gut-46976-0.txt.txt, Arrian 1.14, in 030.30); plan battles/granicus-334.yaml sides[].units: archers-agrianians commander Philotas, cavalry-left 'Memnon of Rhodes and Arsames (Diodorus)', cavalry-centre 'Arsites and Spithridates (Diodorus)'; battle-auditor definition: \"a unit's hover label names its commander and its strength\"",
+     "action": "Name the commander in each hover label, as the plan's units give it: the archers and Agrianians are under Philotas in all three phases (e.g. 'Archers and Agrianian javelin men under Philotas; ...'), and phase 2's 'Persian horse of the left, in flight' and 'Persian horse of the centre, the first to give way' keep Memnon of Rhodes and Arsames, and Arsites and Spithridates (Diodorus), as phase 1 does. Then rerun the generator. Captures r2/h1m, r2/h2m, r2/h2p in .cache/scratch/030-battle-auditor-granicus-334/ show the labels without them.",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "ad12ada1b3513a872",
+   "role": "section-coordinator",
+   "step": "plans",
+   "section": "030",
+   "status": "faults",
+   "changed": 3,
+   "unresolved": 0,
+   "faults": []
+  },
+  {
+   "agent": "ad6c92ca2bc0d1a5a",
+   "role": "battle-coordinator",
+   "step": "plans",
+   "section": "030",
+   "status": "pass",
+   "changed": 2,
+   "unresolved": 2,
+   "faults": []
+  },
+  {
+   "agent": "ad8846705bce441ea",
+   "role": "researcher",
+   "step": "plans",
+   "section": "030",
+   "status": "pass",
+   "changed": 1,
+   "unresolved": 2,
+   "faults": []
+  },
+  {
+   "agent": "adebfd7ccb9403a38",
+   "role": "fact-checker",
+   "step": "plans",
+   "section": "030",
+   "status": "pass",
+   "changed": 0,
+   "unresolved": 1,
+   "faults": []
+  },
+  {
+   "agent": "ae90b7cf01b13478a",
+   "role": "battle-coordinator",
+   "step": "phases",
+   "section": "030",
+   "status": "pass",
+   "changed": 3,
+   "unresolved": 2,
+   "faults": [
+    {
+     "id": "030-battle-coordinator-1",
+     "severity": "weak",
+     "kind": "battle",
+     "introduced": "battle-plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "battle-coordinator",
+     "file": "content/alexander-the-great/.plan/030-asia-minor/battles/granicus-334.yaml",
+     "claim": "030.7",
+     "evidence": "030.7's quote holds only Alexander on the right and Parmenion on the left (Arrian 1.14); the facts the plan cites it for stand in 030.26-030.36 (research-030.md).",
+     "action": "Each claim narrowed from the broad 030.7 to the line that holds the fact, from the researcher's 030.26-030.48: the field 030.26, the banks 030.27, the gravel beds 030.28, the foothills 1.5-2 km (not 1.5 km) 030.29; the Macedonian units 030.30 (vanguard 030.36, Craterus 030.31); the Persian horse 030.34.",
+     "state": "fixed"
+    },
+    {
+     "id": "030-battle-coordinator-2",
+     "severity": "weak",
+     "kind": "battle",
+     "introduced": "battle-plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "battle-coordinator",
+     "file": "content/alexander-the-great/.plan/030-asia-minor/battles/granicus-334.yaml",
+     "claim": "030.38",
+     "evidence": "030.36 (Arrian 1.14.6), 030.37 (1.14.7), 030.38 (1.15.1-3), 030.39 (1.16.4) in research-030.md.",
+     "action": "opens cites 030.8, 030.29, 030.30, 030.33, 030.34; the moves cite 030.36, 030.38, 030.38, 030.37; the javelins and the riders at the water become 'missiles' (030.38); decides puts 'about 25 Companions fall in the first onset (030.39)' for 'its first Companions killed (030.12)'.",
+     "state": "fixed"
+    },
+    {
+     "id": "030-battle-coordinator-3",
+     "severity": "wrong",
+     "kind": "battle",
+     "introduced": "battle-plan",
+     "firstCheck": "plan-check",
+     "leak": true,
+     "owner": "battle-coordinator",
+     "file": "content/alexander-the-great/.plan/030-asia-minor/battles/granicus-334.yaml",
+     "claim": "030.41",
+     "evidence": "Plutarch 16.12, 'the Macedonian phalanx crossed the river', stands in no quote of the digest; Arrian 1.16.3 neither. 030.40, 030.41, 030.46 in research-030.md.",
+     "action": "The phalanx's crossing goes from sourced (030.7) to reconstruction from the phase after (030.42), since no claim holds Plutarch 16.12; the wedge names Mithridates (030.40); the Thessalians cite 030.46; the light troops 030.33; the breaks 030.41. decides drops 'eight of its commanders fall (Arrian 1.16.3)', which no claim holds, and adds Spithridates killed (030.10).",
+     "state": "fixed"
+    },
+    {
+     "id": "030-battle-coordinator-4",
+     "severity": "weak",
+     "kind": "battle",
+     "introduced": "battle-plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "battle-coordinator",
+     "file": "content/alexander-the-great/.plan/030-asia-minor/battles/granicus-334.yaml",
+     "claim": "030.42",
+     "evidence": "\"most of the Macedonians who were slain or wounded fought or fell there\" (Plutarch 16, in 030.42)",
+     "action": "opens cites 030.42 and 030.29, and the army across the river is a reconstruction from 030.42 (not Bosworth through 030.7); decides cites 030.42 for the 2,000 taken and for Plutarch's dead and wounded there (not 'most of their foot', which his line does not say).",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "aec28323dae024a66",
+   "role": "section-coordinator",
+   "step": "plans",
+   "section": "030",
+   "status": "pass",
+   "changed": 4,
+   "unresolved": 0,
+   "faults": []
+  }
+ ],
+ "dispatches": [
+  {
+   "role": "section-lead",
+   "description": "plans 030 section-lead plan",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "030",
+    "step": "plans",
+    "task": "plan",
+    "scratchpad": ".cache/scratch/030-section-lead",
+    "serve": "static",
+    "note": "The section's pages stand from an earlier build; only its plan and the battle granicus-334 are missing."
+   },
+   "problems": []
+  },
+  {
+   "role": "section-lead",
+   "description": "plans 030 section-lead plan",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "030",
+    "step": "plans",
+    "task": "plan",
+    "scratchpad": ".cache/scratch/030-section-lead",
+    "serve": "static",
+    "note": "The section's pages stand from an earlier build; only its plan and the battle granicus-334 are missing."
+   },
+   "problems": []
+  },
+  {
+   "role": "battle-coordinator",
+   "description": "battles 030 battle-coordinator build",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "030",
+    "battle": "granicus-334",
+    "step": "phases",
+    "task": "build",
+    "scratchpad": ".cache/scratch/030-battle-coordinator-granicus-334",
+    "serve": "static"
+   },
+   "problems": [
+    "description is not \"phases 030 battle-coordinator build\""
+   ]
+  },
+  {
+   "role": "battle-coordinator",
+   "description": "phases 030 battle-coordinator build",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "030",
+    "battle": "granicus-334",
+    "step": "phases",
+    "task": "build",
+    "scratchpad": ".cache/scratch/030-battle-coordinator-granicus-334",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "battle-coordinator",
+   "description": "plans 030 battle-coordinator plan",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "030",
+    "battle": "granicus-334",
+    "step": "plans",
+    "task": "plan",
+    "scratchpad": ".cache/scratch/030-battle-coordinator-granicus-334",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "fact-checker",
+   "description": "plans 030 fact-checker plan-check",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "030",
+    "step": "plans",
+    "task": "plan-check",
+    "scratchpad": ".cache/scratch/030-fact-checker",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "section-coordinator",
+   "description": "plans 030 section-coordinator fix",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "030",
+    "step": "plans",
+    "task": "fix",
+    "faults": ".plan/faults/030.yaml",
+    "scratchpad": ".cache/scratch/030-section-coordinator",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "researcher",
+   "description": "plans 030 researcher add",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "030",
+    "step": "plans",
+    "task": "add",
+    "scratchpad": ".cache/scratch/030-researcher",
+    "note": "The Briant Iranica file 030.25 cites for Abydus is not on the machine; Bosworth's Commentary on Arrian 2.2.2 calls Abydus \"the Macedonian bridgehead\"."
+   },
+   "problems": []
+  },
+  {
+   "role": "fact-checker",
+   "description": "plans 030 fact-checker recheck",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "030",
+    "step": "plans",
+    "task": "recheck",
+    "faults": ".plan/faults/030.yaml",
+    "scratchpad": ".cache/scratch/030-fact-checker",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "section-coordinator",
+   "description": "plans 030 section-coordinator plan",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "030",
+    "step": "plans",
+    "task": "plan",
+    "scratchpad": ".cache/scratch/030-section-coordinator",
+    "note": "The section's pages stand from an earlier build; only its plan and the battle granicus-334 are missing."
+   },
+   "problems": []
+  },
+  {
+   "role": "battle-coordinator",
+   "description": "plans 030 battle-coordinator plan",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "030",
+    "battle": "granicus-334",
+    "step": "plans",
+    "task": "plan",
+    "scratchpad": ".cache/scratch/030-battle-coordinator-granicus-334",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "fact-checker",
+   "description": "plans 030 fact-checker plan-check",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "030",
+    "step": "plans",
+    "task": "plan-check",
+    "scratchpad": ".cache/scratch/030-fact-checker"
+   },
+   "problems": []
+  },
+  {
+   "role": "researcher",
+   "description": "plans 030 researcher add",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "030",
+    "battle": "granicus-334",
+    "step": "plans",
+    "task": "add",
+    "scratchpad": ".cache/scratch/030-researcher-granicus-334-add",
+    "serve": "static",
+    "note": "Granicus plan lacks claims for Arrian 1.14.1-4, 1.15.7, 1.16.1-2; Diodorus 17.19.6; Bosworth Comm. on 1.13.1, 1.13.2, 1.14.7 and C&E 2.III on the ground and front width."
+   },
+   "problems": []
+  },
+  {
+   "role": "battle-implementor",
+   "description": "phases 030 battle-implementor build",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "030",
+    "battle": "granicus-334",
+    "step": "phases",
+    "task": "build",
+    "scratchpad": ".cache/scratch/030-battle-implementor-granicus-334",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "battle-auditor",
+   "description": "phases 030 battle-auditor audit",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "030",
+    "battle": "granicus-334",
+    "step": "phases",
+    "task": "audit",
+    "scratchpad": ".cache/scratch/030-battle-auditor-granicus-334",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "battle-implementor",
+   "description": "phases 030 battle-implementor fix",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "030",
+    "battle": "granicus-334",
+    "step": "phases",
+    "task": "fix",
+    "faults": ".plan/faults/030.yaml",
+    "scratchpad": ".cache/scratch/030-battle-implementor-granicus-334",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "battle-auditor",
+   "description": "phases 030 battle-auditor recheck",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "030",
+    "battle": "granicus-334",
+    "step": "phases",
+    "task": "recheck",
+    "faults": ".plan/faults/030.yaml",
+    "scratchpad": ".cache/scratch/030-battle-auditor-granicus-334",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "battle-implementor",
+   "description": "phases 030 battle-implementor fix",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "030",
+    "battle": "granicus-334",
+    "step": "phases",
+    "task": "fix",
+    "faults": ".plan/faults/030.yaml",
+    "scratchpad": ".cache/scratch/030-battle-implementor-granicus-334",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "battle-auditor",
+   "description": "phases 030 battle-auditor recheck",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "030",
+    "battle": "granicus-334",
+    "step": "phases",
+    "task": "recheck",
+    "faults": ".plan/faults/030.yaml",
+    "scratchpad": ".cache/scratch/030-battle-auditor-granicus-334",
+    "serve": "static"
+   },
+   "problems": []
+  }
+ ],
+ "fixes": [
+  {
+   "fault": "030-fact-checker-1",
+   "by": "section-coordinator",
+   "file": "content/alexander-the-great/.plan/030-asia-minor/map.yaml",
+   "field": "hellespont.routes[crossing-alexander-334].why",
+   "commit": "793fb7f3",
+   "kind": "plan",
+   "severity": "weak",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-fact-checker-2",
+   "by": "section-coordinator",
+   "file": "content/alexander-the-great/.plan/030-asia-minor/map.yaml",
+   "field": "hellespont.routes[troy-arisbe-334].why",
+   "commit": "793fb7f3",
+   "kind": "plan",
+   "severity": "weak",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-fact-checker-3",
+   "by": "section-coordinator",
+   "file": "content/alexander-the-great/.plan/030-asia-minor/map.yaml",
+   "field": "granicus.routes[march-granicus-334].why",
+   "commit": "793fb7f3",
+   "kind": "plan",
+   "severity": "wrong",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-fact-checker-4",
+   "by": "section-coordinator",
+   "file": "content/alexander-the-great/.plan/030-asia-minor/map.yaml",
+   "field": "lycia-pamphylia.routes[march-lycia-334].stations",
+   "commit": "793fb7f3",
+   "kind": "plan",
+   "severity": "wrong",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-fact-checker-4",
+   "by": "section-coordinator",
+   "file": "content/alexander-the-great/.plan/030-asia-minor/map.yaml",
+   "field": "lycia-pamphylia.routes[march-lycia-334].why",
+   "commit": "793fb7f3",
+   "kind": "plan",
+   "severity": "wrong",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-fact-checker-5",
+   "by": "section-coordinator",
+   "file": "content/alexander-the-great/.plan/030-asia-minor/map.yaml",
+   "field": "lycia-pamphylia.routes[march-celaenae-333].stations",
+   "commit": "793fb7f3",
+   "kind": "plan",
+   "severity": "wrong",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-fact-checker-6",
+   "by": "section-coordinator",
+   "file": "content/alexander-the-great/.plan/030-asia-minor/map.yaml",
+   "field": "lycia-pamphylia.routes[march-celaenae-333].why",
+   "commit": "793fb7f3",
+   "kind": "plan",
+   "severity": "weak",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-fact-checker-7",
+   "by": "section-coordinator",
+   "file": "content/alexander-the-great/.plan/030-asia-minor/map.yaml",
+   "field": "gordium.routes[memnon-fleet-333].why",
+   "commit": "793fb7f3",
+   "kind": "plan",
+   "severity": "weak",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-researcher-1",
+   "by": "researcher",
+   "file": "content/alexander-the-great/.plan/030-asia-minor/pages.yaml",
+   "field": "hellespont.rests_on",
+   "commit": "793fb7f3",
+   "kind": "sources",
+   "severity": "weak",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-battle-coordinator-1",
+   "by": "battle-coordinator",
+   "file": "content/alexander-the-great/.plan/030-asia-minor/battles/granicus-334.yaml",
+   "field": "ground.field; sides[].units[].claim",
+   "commit": "793fb7f3",
+   "kind": "battle",
+   "severity": "weak",
+   "owner": "battle-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-battle-coordinator-2",
+   "by": "battle-coordinator",
+   "file": "content/alexander-the-great/.plan/030-asia-minor/battles/granicus-334.yaml",
+   "field": "phases[granicus-vanguard].moves; .decides",
+   "commit": "793fb7f3",
+   "kind": "battle",
+   "severity": "weak",
+   "owner": "battle-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-battle-coordinator-3",
+   "by": "battle-coordinator",
+   "file": "content/alexander-the-great/.plan/030-asia-minor/battles/granicus-334.yaml",
+   "field": "phases[granicus-bank].moves; .decides",
+   "commit": "793fb7f3",
+   "kind": "battle",
+   "severity": "wrong",
+   "owner": "battle-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-battle-coordinator-4",
+   "by": "battle-coordinator",
+   "file": "content/alexander-the-great/.plan/030-asia-minor/battles/granicus-334.yaml",
+   "field": "phases[granicus-mercenaries].opens; .moves[].claim; .decides",
+   "commit": "793fb7f3",
+   "kind": "battle",
+   "severity": "weak",
+   "owner": "battle-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-battle-implementor-1",
+   "by": "battle-implementor",
+   "file": "content/alexander-the-great/.plan/names.md",
+   "field": "People, Persians, row after Rhoesaces",
+   "commit": "793fb7f3",
+   "kind": "wording",
+   "severity": "wrong",
+   "owner": "battle-implementor",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-battle-implementor-2",
+   "by": "battle-implementor",
+   "file": "content/alexander-the-great/.plan/names.md",
+   "field": "States and peoples, row after Agrianians",
+   "commit": "793fb7f3",
+   "kind": "wording",
+   "severity": "wrong",
+   "owner": "battle-implementor",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-battle-implementor-3",
+   "by": "battle-implementor",
+   "file": "content/alexander-the-great/.plan/names.md",
+   "field": "Modern scholars, Tarn, First named in",
+   "commit": "793fb7f3",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "battle-implementor",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-battle-implementor-4",
+   "by": "battle-implementor",
+   "file": "content/alexander-the-great/.plan/names.md",
+   "field": "Macedonian commanders and officers, Amyntas, son of Andromenes, First named in",
+   "commit": "793fb7f3",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "battle-implementor",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-battle-auditor-3",
+   "by": "battle-auditor",
+   "file": "content/alexander-the-great/.plan/030-asia-minor/battles/granicus-334.yaml",
+   "field": "phases[granicus-mercenaries].moves[companions], moves[thessalians]",
+   "commit": "793fb7f3",
+   "kind": "plan",
+   "severity": "wrong",
+   "owner": "battle-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-battle-auditor-4",
+   "by": "battle-auditor",
+   "file": "content/alexander-the-great/pages/030-asia-minor/030-granicus/040-granicus-mercenaries/text/en.md",
+   "field": "body, paragraph 2",
+   "commit": "793fb7f3",
+   "kind": "wording",
+   "severity": "wrong",
+   "owner": "section-writer",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-battle-auditor-5",
+   "by": "battle-auditor",
+   "file": "content/alexander-the-great/.plan/030-asia-minor/battles/granicus-334.yaml",
+   "field": "sides[Macedon].units[phalanx-left].commander",
+   "commit": "793fb7f3",
+   "kind": "plan",
+   "severity": "wrong",
+   "owner": "battle-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-battle-auditor-1",
+   "by": "battle-implementor",
+   "file": "content/alexander-the-great/.plans/granicus.mjs",
+   "field": "phase 1 (020-granicus-vanguard), unit archers-agrianians and arrow light-crossing",
+   "commit": "793fb7f3",
+   "kind": "battle",
+   "severity": "wrong",
+   "owner": "battle-implementor",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-battle-auditor-2",
+   "by": "battle-implementor",
+   "file": "content/alexander-the-great/.plans/granicus.mjs",
+   "field": "markers of phases 1-3, and bbox",
+   "commit": "793fb7f3",
+   "kind": "check",
+   "severity": "wrong",
+   "owner": "battle-implementor",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-battle-auditor-6",
+   "by": "battle-implementor",
+   "file": "content/alexander-the-great/.plans/granicus.mjs",
+   "field": "N.phalanxLeft",
+   "commit": "793fb7f3",
+   "kind": "battle",
+   "severity": "wrong",
+   "owner": "battle-implementor",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-battle-auditor-6",
+   "by": "battle-implementor",
+   "file": "content/alexander-the-great/.plan/names.md",
+   "field": "Macedonian commanders and officers, a new row after Amyntas, son of Andromenes",
+   "commit": "793fb7f3",
+   "kind": "battle",
+   "severity": "wrong",
+   "owner": "battle-implementor",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-battle-auditor-7",
+   "by": "battle-implementor",
+   "file": "content/alexander-the-great/.plans/granicus.mjs",
+   "field": "N.light, and the archers-agrianians names of phases 1-3",
+   "commit": "793fb7f3",
+   "kind": "battle",
+   "severity": "weak",
+   "owner": "battle-implementor",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-battle-auditor-7",
+   "by": "battle-implementor",
+   "file": "content/alexander-the-great/.plans/granicus.mjs",
+   "field": "phase 2 (030-granicus-bank), names of cavalry-left and cavalry-centre",
+   "commit": "793fb7f3",
+   "kind": "battle",
+   "severity": "weak",
+   "owner": "battle-implementor",
+   "steppedIn": false
+  }
+ ]
+}

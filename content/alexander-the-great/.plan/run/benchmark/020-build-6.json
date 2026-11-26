@@ -1,0 +1,1081 @@
+{
+ "variant": "sixth-run",
+ "story": "alexander-the-great",
+ "pages": 4,
+ "order": [
+  "brief",
+  "survey",
+  "final-brief",
+  "pre-plans",
+  "pre-plan-check",
+  "research",
+  "names",
+  "map-design",
+  "plans",
+  "plan-check",
+  "maps",
+  "texts",
+  "phases",
+  "images",
+  "facts",
+  "edit",
+  "story",
+  "name-forms",
+  "translation"
+ ],
+ "agents": [
+  {
+   "agent": "0b0e0c00-0020-4000-8000-000000000018",
+   "role": "overseer",
+   "parent": "-",
+   "model": "claude-fable-5-2",
+   "start": "2026-11-25T11:46:14.505Z",
+   "end": "2026-11-25T12:14:28.661Z",
+   "description": ""
+  },
+  {
+   "agent": "a0d9e82de5b19f3d4",
+   "role": "map-auditor",
+   "parent": "section-lead 020",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T11:52:33.599Z",
+   "end": "2026-11-25T11:59:11.462Z",
+   "description": "maps 020 map-auditor audit"
+  },
+  {
+   "agent": "a1b908ca6bcf7f64b",
+   "role": "section-lead",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T11:46:24.049Z",
+   "end": "2026-11-25T12:14:12.240Z",
+   "description": "maps 020 section-lead build"
+  },
+  {
+   "agent": "aaf395133d0f388ef",
+   "role": "fact-checker",
+   "parent": "section-lead 020",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T11:59:19.479Z",
+   "end": "2026-11-25T12:04:27.990Z",
+   "description": "facts 020 fact-checker check"
+  },
+  {
+   "agent": "ab55a4533652085d7",
+   "role": "section-reviewer",
+   "parent": "section-lead 020",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T12:08:53.966Z",
+   "end": "2026-11-25T12:12:14.683Z",
+   "description": "facts 020 section-reviewer review"
+  },
+  {
+   "agent": "abc07a8ad9c2d6a26",
+   "role": "section-writer",
+   "parent": "section-lead 020",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T11:52:33.607Z",
+   "end": "2026-11-25T11:57:44.255Z",
+   "description": "texts 020 section-writer write"
+  },
+  {
+   "agent": "add76a573f0dcb80e",
+   "role": "cartographer",
+   "parent": "section-lead 020",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T11:46:44.370Z",
+   "end": "2026-11-25T11:52:25.257Z",
+   "description": "maps 020 cartographer draw"
+  },
+  {
+   "agent": "ae75b71be032ebebf",
+   "role": "fact-checker",
+   "parent": "section-lead 020",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T12:12:21.515Z",
+   "end": "2026-11-25T12:13:29.836Z",
+   "description": "facts 020 fact-checker recheck"
+  },
+  {
+   "agent": "ae85cb19739c91674",
+   "role": "image-finder",
+   "parent": "section-lead 020",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-25T11:59:19.259Z",
+   "end": "2026-11-25T12:08:46.469Z",
+   "description": "images 020 image-finder find"
+  }
+ ],
+ "usage": [
+  {
+   "agent": "0b0e0c00-0020-4000-8000-000000000018",
+   "role": "overseer",
+   "parent": "-",
+   "model": "claude-fable-5-2",
+   "step": "-",
+   "section": "-",
+   "turns": 6,
+   "peak": 40606,
+   "input": 12,
+   "cacheWrite": 28767,
+   "cacheRead": 192133,
+   "output": 2233
+  },
+  {
+   "agent": "a0d9e82de5b19f3d4",
+   "role": "map-auditor",
+   "parent": "section-lead 020",
+   "model": "claude-opus-5-5",
+   "step": "maps",
+   "section": "020",
+   "turns": 21,
+   "peak": 100098,
+   "input": 42,
+   "cacheWrite": 96782,
+   "cacheRead": 1524830,
+   "output": 26334
+  },
+  {
+   "agent": "a1b908ca6bcf7f64b",
+   "role": "section-lead",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "maps",
+   "section": "020",
+   "turns": 12,
+   "peak": 50986,
+   "input": 34,
+   "cacheWrite": 153705,
+   "cacheRead": 288316,
+   "output": 7390
+  },
+  {
+   "agent": "aaf395133d0f388ef",
+   "role": "fact-checker",
+   "parent": "section-lead 020",
+   "model": "claude-opus-5-5",
+   "step": "facts",
+   "section": "020",
+   "turns": 19,
+   "peak": 125659,
+   "input": 38,
+   "cacheWrite": 122343,
+   "cacheRead": 1704434,
+   "output": 30977
+  },
+  {
+   "agent": "ab55a4533652085d7",
+   "role": "section-reviewer",
+   "parent": "section-lead 020",
+   "model": "claude-opus-5-5",
+   "step": "facts",
+   "section": "020",
+   "turns": 10,
+   "peak": 88171,
+   "input": 20,
+   "cacheWrite": 84855,
+   "cacheRead": 527534,
+   "output": 18544
+  },
+  {
+   "agent": "abc07a8ad9c2d6a26",
+   "role": "section-writer",
+   "parent": "section-lead 020",
+   "model": "claude-opus-5-5",
+   "step": "texts",
+   "section": "020",
+   "turns": 20,
+   "peak": 119664,
+   "input": 38,
+   "cacheWrite": 116348,
+   "cacheRead": 1667042,
+   "output": 28380
+  },
+  {
+   "agent": "add76a573f0dcb80e",
+   "role": "cartographer",
+   "parent": "section-lead 020",
+   "model": "claude-opus-5-5",
+   "step": "maps",
+   "section": "020",
+   "turns": 16,
+   "peak": 86650,
+   "input": 32,
+   "cacheWrite": 86648,
+   "cacheRead": 964787,
+   "output": 18981
+  },
+  {
+   "agent": "ae75b71be032ebebf",
+   "role": "fact-checker",
+   "parent": "section-lead 020",
+   "model": "claude-opus-5-5",
+   "step": "facts",
+   "section": "020",
+   "turns": 8,
+   "peak": 87026,
+   "input": 16,
+   "cacheWrite": 83710,
+   "cacheRead": 444591,
+   "output": 6655
+  },
+  {
+   "agent": "ae85cb19739c91674",
+   "role": "image-finder",
+   "parent": "section-lead 020",
+   "model": "claude-opus-5-5",
+   "step": "images",
+   "section": "020",
+   "turns": 25,
+   "peak": 101833,
+   "input": 50,
+   "cacheWrite": 98517,
+   "cacheRead": 1547120,
+   "output": 18112
+  }
+ ],
+ "reports": [
+  {
+   "agent": "a0d9e82de5b19f3d4",
+   "role": "map-auditor",
+   "step": "maps",
+   "section": "020",
+   "status": "pass",
+   "changed": 5,
+   "unresolved": 4,
+   "faults": [
+    {
+     "id": "020-map-auditor-1",
+     "severity": "wrong",
+     "kind": "map",
+     "introduced": "maps",
+     "firstCheck": "maps",
+     "leak": false,
+     "owner": "cartographer",
+     "file": "content/alexander-the-great/.plans/pages020.cjs",
+     "claim": "020.20",
+     "evidence": "020.20; Bosworth, Conquest and Empire ch. 2.I (passages-020.md): 'This he suppressed in the winter after his accession'. The page's own markers thermopylae-336 and corinth-336 say winter 336–335 BC",
+     "action": "winter 336–335 BC",
+     "state": "fixed"
+    },
+    {
+     "id": "020-map-auditor-2",
+     "severity": "weak",
+     "kind": "map",
+     "introduced": "maps",
+     "firstCheck": "maps",
+     "leak": false,
+     "owner": "cartographer",
+     "file": "content/alexander-the-great/shared/markers.yaml",
+     "claim": null,
+     "evidence": "map.yaml, pelium, strymon-335: 'the upper river of the Agrianians'; the route alexander-335-pelium turns west at agrianians-335 (22.90 E 42.35 N) and passes about 25 km west of the marker, so the note told a turn the map does not show (capture .cache/audit/alexander-the-great-020/shots/pelium.png)",
+     "action": "The upper river, in the land of the Agrianians, 335 BC",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "a1b908ca6bcf7f64b",
+   "role": "section-lead",
+   "step": "maps",
+   "section": "020",
+   "status": "pass",
+   "changed": 4,
+   "unresolved": 1,
+   "faults": [
+    {
+     "id": "020-section-lead-1",
+     "severity": "taste",
+     "kind": "map",
+     "introduced": "review",
+     "firstCheck": "edit",
+     "leak": false,
+     "owner": "section-lead",
+     "file": "content/alexander-the-great/.plan/020-greece-secured/map.yaml",
+     "claim": null,
+     "evidence": "content/alexander-the-great/pages/020-greece-secured/010-league-renewed/text/en.md, paragraph 1",
+     "action": "Chaeronea, which the text names only as Plutarch's background, is listed under unmarked, so the place is settled as the plan check asks",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "aaf395133d0f388ef",
+   "role": "fact-checker",
+   "step": "facts",
+   "section": "020",
+   "status": "pass",
+   "changed": 8,
+   "unresolved": 1,
+   "faults": [
+    {
+     "id": "020-fact-checker-1",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/alexander-the-great/pages/020-greece-secured/010-league-renewed/text/en.md",
+     "claim": "010.31",
+     "evidence": "Ellis, CAH VI ch. 15 (archive.org-mbridge-ancient-history-vol.-6-The-20Cambridge-20Ancient-20History-2C-20Vol.-206-djvu.txt.txt): 'By October, the probable time of the assassination, it was already too late for that year.' The text told the season as sure; Ellis gives October as probable",
+     "action": "In autumn 336 BC, probably in October, Philip is murdered.",
+     "state": "fixed"
+    },
+    {
+     "id": "020-fact-checker-2",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/alexander-the-great/pages/020-greece-secured/010-league-renewed/text/en.md",
+     "claim": null,
+     "evidence": "Hammond, HM III ch. 1 (archive.org-20Griffith-20G.-20A-20history-20of-20Macedonia.-20V.3-2C-20336-167-20B.C.-201988-djvu.txt.txt): 'Antipater, Philip's trusted general and soon to be Alexander's deputy'; Bosworth ch. 2.I (archive.org-onquest-20and-20Empire-20The-20Reign-20of-20Alexander-20the-20Great-20-281993-29-djvu.txt.txt) calls him 'the senior diplomat of Philip's reign'. No file says 'most trusted'",
+     "action": "Antipater, his trusted general,",
+     "state": "fixed"
+    },
+    {
+     "id": "020-fact-checker-3",
+     "severity": "wrong",
+     "kind": "fact",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/alexander-the-great/pages/020-greece-secured/010-league-renewed/text/en.md",
+     "claim": "020.1",
+     "evidence": "Bosworth, Conquest and Empire ch. 2.I (archive.org-onquest-20and-20Empire-20The-20Reign-20of-20Alexander-20the-20Great-20-281993-29-djvu.txt.txt): 'The family of Attalus was a slightly less pressing problem, since Attalus was in Asia Minor with the expeditionary force there.' The text said the reverse",
+     "action": "Attalus is harder to reach.",
+     "state": "fixed"
+    },
+    {
+     "id": "020-fact-checker-4",
+     "severity": "wrong",
+     "kind": "fact",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/alexander-the-great/pages/020-greece-secured/010-league-renewed/text/en.md",
+     "claim": "020.1",
+     "evidence": "Diodorus 17.2.5 (penelope.uchicago.edu-Thayer-E-Roman-Texts-Diodorus-Siculus-17A.txt): 'selected from among his friends a certain Hecataeus and sent him off to Asia with a number of soldiers'. The sentence had lost its clause and kept a double comma",
+     "action": "Alexander sends a friend, Hecataeus, to Asia with soldiers, and Hecataeus",
+     "state": "fixed"
+    },
+    {
+     "id": "020-fact-checker-5",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/alexander-the-great/pages/020-greece-secured/010-league-renewed/text/en.md",
+     "claim": "020.20",
+     "evidence": "Bosworth ch. 2.I (archive.org-onquest-20and-20Empire-20The-20Reign-20of-20Alexander-20the-20Great-20-281993-29-djvu.txt.txt): 'driving south along the coast and cutting steps in the face of Mt Ossa to bring his army into Thessaly to the rear of the enemy.' The sentence kept the source's clause order and words",
+     "action": "Bosworth tells how he turns their position by the coast: his men hack a stairway up the face of [Mount Ossa](@ossa-336), and the army comes down at the Thessalians' backs.",
+     "state": "fixed"
+    },
+    {
+     "id": "020-fact-checker-6",
+     "severity": "weak",
+     "kind": "sources",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/alexander-the-great/pages/020-greece-secured/010-league-renewed/page.yaml",
+     "claim": "010.22",
+     "evidence": "010.22 and Ellis, CAH VI ch. 15 (archive.org-mbridge-ancient-history-vol.-6-The-20Cambridge-20Ancient-20History-2C-20Vol.-206-djvu.txt.txt): 'Antipater quickly presented him to the army, which acclaimed him king' and 'revolt was already breaking out in Thrace, Illyria and even Thessaly'. The text tells both, and the page did not list Ellis",
+     "action": "  - \"N. G. L. Hammond and F. W. Walbank, A History of Macedonia III (1988), part one, ch. I.\"\n  - \"J. R. Ellis, \\\"Macedonian Hegemony Created\\\", The Cambridge Ancient History VI (2nd ed., 1994), ch. 15.\"",
+     "state": "fixed"
+    },
+    {
+     "id": "020-fact-checker-7",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/alexander-the-great/pages/020-greece-secured/020-the-danube/text/en.md",
+     "claim": null,
+     "evidence": "Arrian 1.1.13 (archive.org-download-theanabasisofale46976gut-46976-0.txt.txt): 'About 1,500 of them were killed'. One author's figure, told without his name; no other file gives it",
+     "action": "and Arrian counts about 1,500 of them killed.",
+     "state": "fixed"
+    },
+    {
+     "id": "020-fact-checker-8",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/alexander-the-great/pages/020-greece-secured/020-the-danube/text/en.md",
+     "claim": "020.17",
+     "evidence": "Bosworth ch. 2.II (archive.org-onquest-20and-20Empire-20The-20Reign-20of-20Alexander-20the-20Great-20-281993-29-djvu.txt.txt): 'but the current was too violent and the landing places too densely defended for the few vessels available'. The clause followed the source's words and order",
+     "action": "but the fast river and the crowd of defenders on its banks turn them back.",
+     "state": "fixed"
+    },
+    {
+     "id": "020-fact-checker-9",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/alexander-the-great/pages/020-greece-secured/030-pelium/text/en.md",
+     "claim": "020.7",
+     "evidence": "Arrian 1.6.10 (archive.org-download-theanabasisofale46976gut-46976-0.txt.txt): 'slew some of them still in their beds, others being easily caught in their flight. Accordingly, many were there captured and killed'",
+     "action": "falls on the camp, kills some men in their beds and catches many more as they flee.",
+     "state": "fixed"
+    },
+    {
+     "id": "020-fact-checker-10",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/alexander-the-great/pages/020-greece-secured/040-fall-of-thebes/text/en.md",
+     "claim": "020.8",
+     "evidence": "Arrian 1.7.1 (archive.org-download-theanabasisofale46976gut-46976-0.txt.txt): 'Amyntas and Timolaüs, two of the men who held that fortress'; Bosworth, HCA on 1.7.1 (archive.org-History-20of-20Alexander-3B-20Volume-20I-20Books-20I-III-20-20A.-20B.-20Bosworth-djvu.txt.txt): 'two members of the Macedonian garrison', and their identity 'has long been disputed'. No file makes both officers",
+     "action": "kill two men of the Macedonian garrison",
+     "state": "fixed"
+    },
+    {
+     "id": "020-fact-checker-11",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/alexander-the-great/pages/020-greece-secured/040-fall-of-thebes/text/en.md",
+     "claim": "020.13",
+     "evidence": "Plutarch, Alexander 11.12 (penelope.uchicago.edu-Thayer-E-Roman-Texts-Plutarch-Lives-Alexander-3.txt): 'after separating out the priests, all who were guest-friends of the Macedonians, the descendants of Pindar, and those who had voted against the revolt'. Arrian 1.9.9 spares priests and Macedon's guest-friends and agents; 'only' told Arrian's list as the whole",
+     "action": "sparing priests and friends of Macedon",
+     "state": "fixed"
+    },
+    {
+     "id": "020-fact-checker-12",
+     "severity": "weak",
+     "kind": "plan",
+     "introduced": "names",
+     "firstCheck": "names",
+     "leak": false,
+     "owner": "names",
+     "file": "content/alexander-the-great/.plan/names.md",
+     "claim": "020.18",
+     "evidence": "Bosworth ch. 2.II (archive.org-onquest-20and-20Empire-20The-20Reign-20of-20Alexander-20the-20Great-20-281993-29-djvu.txt.txt): 'the plain of modern Florina, the heart of ancient Lyncestis'",
+     "action": "add a row for Lyncestis after Gorice: pelium's note names it (020.18) and names.md had no row",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "ab55a4533652085d7",
+   "role": "section-reviewer",
+   "step": "facts",
+   "section": "020",
+   "status": "pass",
+   "changed": 5,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "020-section-reviewer-1",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/alexander-the-great/pages/020-greece-secured/010-league-renewed/text/en.md",
+     "claim": null,
+     "evidence": "names.md, Parmenion: 'senior general of Philip and Alexander'. The page names him with no word on who he is",
+     "action": "in Asia Minor with Philip's senior general Parmenion, and",
+     "state": "fixed"
+    },
+    {
+     "id": "020-section-reviewer-2",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/alexander-the-great/pages/020-greece-secured/020-the-danube/text/en.md",
+     "claim": null,
+     "evidence": "agents/text.md, Short: the body runs over 300 words; the same fact in fewer words",
+     "action": "In spring 335 BC Alexander turns north: he will not leave for Asia, Arrian says, with the Triballi and their neighbours unbeaten behind him.",
+     "state": "fixed"
+    },
+    {
+     "id": "020-section-reviewer-3",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/alexander-the-great/pages/020-greece-secured/020-the-danube/text/en.md",
+     "claim": null,
+     "evidence": "agents/text.md, Short: the body runs over 300 words",
+     "action": "behind a row of waggons, ready to roll them down onto the phalanx.",
+     "state": "fixed"
+    },
+    {
+     "id": "020-section-reviewer-4",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/alexander-the-great/pages/020-greece-secured/020-the-danube/text/en.md",
+     "claim": "020.16",
+     "evidence": "names.md, Ptolemy: 'also a writer whom Arrian follows'; 020.16: 'Ptolemy says'. 'From Ptolemy' did not tell the reader that Ptolemy wrote the account",
+     "action": "and, from the history of Alexander's officer Ptolemy, 11 Macedonian",
+     "state": "fixed"
+    },
+    {
+     "id": "020-section-reviewer-5",
+     "severity": "weak",
+     "kind": "fact",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/alexander-the-great/pages/020-greece-secured/020-the-danube/text/en.md",
+     "claim": "020.4",
+     "evidence": "020.4: 'scatters the Getae and razes their town, then returns across'; plan account of the-danube: 'razes their town and comes back'. The text left the army on the north bank",
+     "action": "where they first took refuge, then crosses back.",
+     "state": "fixed"
+    },
+    {
+     "id": "020-section-reviewer-6",
+     "severity": "weak",
+     "kind": "map",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/alexander-the-great/pages/020-greece-secured/030-pelium/text/en.md",
+     "claim": null,
+     "evidence": "agents/text.md, order 2: the page's map (bbox up to 42.8 N, capture .cache/audit/alexander-the-great-020/shots/pelium.png) does not reach the Danube and has no marker for it; the route starts at agrianians-335",
+     "action": "On his way home from the north, Alexander enters the land of",
+     "state": "fixed"
+    },
+    {
+     "id": "020-section-reviewer-7",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/alexander-the-great/pages/020-greece-secured/030-pelium/text/en.md",
+     "claim": null,
+     "evidence": "agents/text.md, Short and Concrete: the body runs over 300 words, and the sentence adds no fact the next ones do not show",
+     "action": "In full sight of the enemy Alexander draws up",
+     "state": "fixed"
+    },
+    {
+     "id": "020-section-reviewer-8",
+     "severity": "taste",
+     "kind": "image",
+     "introduced": "texts",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/alexander-the-great/pages/020-greece-secured/030-pelium/text/en.md",
+     "claim": null,
+     "evidence": "text.yaml of 020, pelium, images: phalanx-ancient shows 'a Macedonian phalanx or sarissa'; the third paragraph tells the phalanx drill",
+     "action": "after the third paragraph (the phalanx drill)",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "abc07a8ad9c2d6a26",
+   "role": "section-writer",
+   "step": "texts",
+   "section": "020",
+   "status": "pass",
+   "changed": 8,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "020-section-writer-1",
+     "severity": "wrong",
+     "kind": "plan",
+     "introduced": "names",
+     "firstCheck": "names",
+     "leak": true,
+     "owner": "names",
+     "file": "content/alexander-the-great/.plan/names.md",
+     "claim": null,
+     "evidence": "020.19 (Bosworth on 1.1.5; Hammond ch. 2) and 020.18 (Hammond ch. 2: 'the fortified hill-site Gorice')",
+     "action": "add rows for the Trojan pass and the Shipka pass, after Mount Haemus, and for Gorice, after Pelium: the-danube's and pelium's notes name them (020.19, 020.18) and names.md had no row",
+     "state": "fixed"
+    },
+    {
+     "id": "020-section-writer-2",
+     "severity": "wrong",
+     "kind": "image",
+     "introduced": "battles",
+     "firstCheck": "phases",
+     "leak": false,
+     "owner": "battle-implementor",
+     "file": "content/alexander-the-great/shared/battles/thebes-335/battle.yaml",
+     "claim": null,
+     "evidence": "text.yaml of 020, fall-of-thebes, images: cadmeia-site on card thebes-335; harita check: the image cadmea-ruins-2022-19dcd3 has no folder and no plan names it",
+     "action": "cadmeia-site",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "add76a573f0dcb80e",
+   "role": "cartographer",
+   "step": "maps",
+   "section": "020",
+   "status": "pass",
+   "changed": 7,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "020-cartographer-1",
+     "severity": "wrong",
+     "kind": "plan",
+     "introduced": "plan",
+     "firstCheck": "plan-check",
+     "leak": true,
+     "owner": "section-coordinator",
+     "file": "content/alexander-the-great/.plan/020-greece-secured/map.yaml",
+     "claim": null,
+     "evidence": "map.yaml, the-danube, route fleet-335-danube: its last station is the mouth of the Danube, at about 29.6 E (Arrian 1.3.3), east of the bbox's edge",
+     "action": "[21.5, 40.4, 29.9, 45.3]",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "ae75b71be032ebebf",
+   "role": "fact-checker",
+   "step": "facts",
+   "section": "020",
+   "status": "pass",
+   "changed": 0,
+   "unresolved": 1,
+   "faults": []
+  },
+  {
+   "agent": "ae85cb19739c91674",
+   "role": "image-finder",
+   "step": "images",
+   "section": "020",
+   "status": "pass",
+   "changed": 7,
+   "unresolved": 0,
+   "faults": []
+  }
+ ],
+ "dispatches": [
+  {
+   "role": "section-lead",
+   "description": "maps 020 section-lead build",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "020",
+    "step": "maps",
+    "task": "build",
+    "scratchpad": ".cache/scratch/020-section-lead",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "cartographer",
+   "description": "maps 020 cartographer draw",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "020",
+    "step": "maps",
+    "task": "draw",
+    "scratchpad": ".cache/scratch/020-cartographer",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "map-auditor",
+   "description": "maps 020 map-auditor audit",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "020",
+    "step": "maps",
+    "task": "audit",
+    "scratchpad": ".cache/scratch/020-map-auditor",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "section-writer",
+   "description": "texts 020 section-writer write",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "020",
+    "step": "texts",
+    "task": "write",
+    "scratchpad": ".cache/scratch/020-section-writer"
+   },
+   "problems": []
+  },
+  {
+   "role": "image-finder",
+   "description": "images 020 image-finder find",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "020",
+    "step": "images",
+    "task": "find",
+    "scratchpad": ".cache/scratch/020-image-finder",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "fact-checker",
+   "description": "facts 020 fact-checker check",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "020",
+    "step": "facts",
+    "task": "check",
+    "scratchpad": ".cache/scratch/020-fact-checker"
+   },
+   "problems": []
+  },
+  {
+   "role": "section-reviewer",
+   "description": "facts 020 section-reviewer review",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "020",
+    "step": "facts",
+    "task": "review",
+    "scratchpad": ".cache/scratch/020-section-reviewer",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "fact-checker",
+   "description": "facts 020 fact-checker recheck",
+   "block": {
+    "story": "alexander-the-great",
+    "section": "020",
+    "step": "facts",
+    "task": "recheck",
+    "faults": ".plan/faults/020.yaml",
+    "scratchpad": ".cache/scratch/020-fact-checker"
+   },
+   "problems": []
+  }
+ ],
+ "fixes": [
+  {
+   "fault": "020-cartographer-1",
+   "by": "cartographer",
+   "file": "content/alexander-the-great/.plan/020-greece-secured/map.yaml",
+   "field": "the-danube.bbox",
+   "commit": "84cafcf2",
+   "kind": "plan",
+   "severity": "wrong",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-section-writer-1",
+   "by": "section-writer",
+   "file": "content/alexander-the-great/.plan/names.md",
+   "field": "Places, Macedon, Greece and the Balkans",
+   "commit": "84cafcf2",
+   "kind": "plan",
+   "severity": "wrong",
+   "owner": "names",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-section-writer-2",
+   "by": "section-writer",
+   "file": "content/alexander-the-great/shared/battles/thebes-335/battle.yaml",
+   "field": "images",
+   "commit": "84cafcf2",
+   "kind": "image",
+   "severity": "wrong",
+   "owner": "battle-implementor",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-map-auditor-1",
+   "by": "map-auditor",
+   "file": "content/alexander-the-great/.plans/pages020.cjs",
+   "field": "routeFiles.alexander-336-greece name (rerun writes pages/020-greece-secured/010-league-renewed/routes/alexander-336-greece.geojson)",
+   "commit": "84cafcf2",
+   "kind": "map",
+   "severity": "wrong",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-map-auditor-2",
+   "by": "map-auditor",
+   "file": "content/alexander-the-great/shared/markers.yaml",
+   "field": "strymon-335.note",
+   "commit": "84cafcf2",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "cartographer",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-fact-checker-1",
+   "by": "fact-checker",
+   "file": "content/alexander-the-great/pages/020-greece-secured/010-league-renewed/text/en.md",
+   "field": "body",
+   "commit": "84cafcf2",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-fact-checker-2",
+   "by": "fact-checker",
+   "file": "content/alexander-the-great/pages/020-greece-secured/010-league-renewed/text/en.md",
+   "field": "body",
+   "commit": "84cafcf2",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-fact-checker-3",
+   "by": "fact-checker",
+   "file": "content/alexander-the-great/pages/020-greece-secured/010-league-renewed/text/en.md",
+   "field": "body",
+   "commit": "84cafcf2",
+   "kind": "fact",
+   "severity": "wrong",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-fact-checker-4",
+   "by": "fact-checker",
+   "file": "content/alexander-the-great/pages/020-greece-secured/010-league-renewed/text/en.md",
+   "field": "body",
+   "commit": "84cafcf2",
+   "kind": "fact",
+   "severity": "wrong",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-fact-checker-5",
+   "by": "fact-checker",
+   "file": "content/alexander-the-great/pages/020-greece-secured/010-league-renewed/text/en.md",
+   "field": "body",
+   "commit": "84cafcf2",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-fact-checker-6",
+   "by": "fact-checker",
+   "file": "content/alexander-the-great/pages/020-greece-secured/010-league-renewed/page.yaml",
+   "field": "sources",
+   "commit": "84cafcf2",
+   "kind": "sources",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-fact-checker-7",
+   "by": "fact-checker",
+   "file": "content/alexander-the-great/pages/020-greece-secured/020-the-danube/text/en.md",
+   "field": "body",
+   "commit": "84cafcf2",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-fact-checker-8",
+   "by": "fact-checker",
+   "file": "content/alexander-the-great/pages/020-greece-secured/020-the-danube/text/en.md",
+   "field": "body",
+   "commit": "84cafcf2",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-fact-checker-9",
+   "by": "fact-checker",
+   "file": "content/alexander-the-great/pages/020-greece-secured/030-pelium/text/en.md",
+   "field": "body",
+   "commit": "84cafcf2",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-fact-checker-10",
+   "by": "fact-checker",
+   "file": "content/alexander-the-great/pages/020-greece-secured/040-fall-of-thebes/text/en.md",
+   "field": "body",
+   "commit": "84cafcf2",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-fact-checker-11",
+   "by": "fact-checker",
+   "file": "content/alexander-the-great/pages/020-greece-secured/040-fall-of-thebes/text/en.md",
+   "field": "body",
+   "commit": "84cafcf2",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-fact-checker-12",
+   "by": "fact-checker",
+   "file": "content/alexander-the-great/.plan/names.md",
+   "field": "Places, Macedon, Greece and the Balkans",
+   "commit": "84cafcf2",
+   "kind": "plan",
+   "severity": "weak",
+   "owner": "names",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-section-reviewer-1",
+   "by": "section-reviewer",
+   "file": "content/alexander-the-great/pages/020-greece-secured/010-league-renewed/text/en.md",
+   "field": "body",
+   "commit": "84cafcf2",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-section-reviewer-2",
+   "by": "section-reviewer",
+   "file": "content/alexander-the-great/pages/020-greece-secured/020-the-danube/text/en.md",
+   "field": "body",
+   "commit": "84cafcf2",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-section-reviewer-3",
+   "by": "section-reviewer",
+   "file": "content/alexander-the-great/pages/020-greece-secured/020-the-danube/text/en.md",
+   "field": "body",
+   "commit": "84cafcf2",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-section-reviewer-4",
+   "by": "section-reviewer",
+   "file": "content/alexander-the-great/pages/020-greece-secured/020-the-danube/text/en.md",
+   "field": "body",
+   "commit": "84cafcf2",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-section-reviewer-5",
+   "by": "section-reviewer",
+   "file": "content/alexander-the-great/pages/020-greece-secured/020-the-danube/text/en.md",
+   "field": "body",
+   "commit": "84cafcf2",
+   "kind": "fact",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-section-reviewer-6",
+   "by": "section-reviewer",
+   "file": "content/alexander-the-great/pages/020-greece-secured/030-pelium/text/en.md",
+   "field": "body",
+   "commit": "84cafcf2",
+   "kind": "map",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-section-reviewer-7",
+   "by": "section-reviewer",
+   "file": "content/alexander-the-great/pages/020-greece-secured/030-pelium/text/en.md",
+   "field": "body",
+   "commit": "84cafcf2",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-section-reviewer-8",
+   "by": "section-reviewer",
+   "file": "content/alexander-the-great/pages/020-greece-secured/030-pelium/text/en.md",
+   "field": "@image phalanx-ancient line",
+   "commit": "84cafcf2",
+   "kind": "image",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-section-lead-1",
+   "by": "section-lead",
+   "file": "content/alexander-the-great/.plan/020-greece-secured/map.yaml",
+   "field": "league-renewed.unmarked",
+   "commit": "84cafcf2",
+   "kind": "map",
+   "severity": "taste",
+   "owner": "section-lead",
+   "steppedIn": false
+  }
+ ]
+}

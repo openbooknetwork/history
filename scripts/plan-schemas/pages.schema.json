@@ -1,0 +1,78 @@
+{
+ "title": "pages.yaml: the core of each page of one section, in order",
+ "type": "array",
+ "minItems": 1,
+ "items": {
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+   "id",
+   "title",
+   "date",
+   "when",
+   "tells",
+   "markers",
+   "battles"
+  ],
+  "properties": {
+   "id": {
+    "type": "string",
+    "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+   },
+   "title": {
+    "type": "string"
+   },
+   "date": {
+    "type": "string"
+   },
+   "when": {
+    "type": [
+     "string",
+     "integer"
+    ],
+    "pattern": "^-?\\d{4}(-\\d{2}(-\\d{2})?)?$"
+   },
+   "tells": {
+    "type": "string"
+   },
+   "rests_on": {
+    "type": "array",
+    "items": {
+     "type": "string",
+     "pattern": "^\\d{3}\\.\\d+$"
+    }
+   },
+   "markers": {
+    "type": "array",
+    "items": {
+     "type": "string",
+     "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+    }
+   },
+   "battles": {
+    "type": "array",
+    "items": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "id",
+      "phases"
+     ],
+     "properties": {
+      "id": {
+       "type": "string",
+       "pattern": "^[a-z0-9]+(-[a-z0-9]+)*-\\d+$"
+      },
+      "phases": {
+       "type": "boolean"
+      }
+     }
+    }
+   },
+   "phase_of": {
+    "type": "string",
+    "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+   }
+  }
+ }
+}

@@ -22,7 +22,7 @@ murder-in-paris:
     Gascony: "the English land about Bordeaux, shown by the english zone"
 domremy:
   bbox: [4.9, 47.95, 6.5, 48.95]
-  zones: [france-1407, english-1407, burgundy-1407, brittany-1407, lorraine-1412, bar-1412]
+  zones: [france-1412, english-1407, burgundy-1407, brittany-1407, lorraine-1412, bar-1412]
   markers:
     domremy: { name: Domrémy, what: "Joan's village, born there about 1412; one parish with Greux, of the king's party; the edge of the kingdom and the duchy of Bar runs through it (disputed), about 48.442 N 5.674 E. In the colour of france", basis: sourced, rank: 5 }
     vaucouleurs-1412: { name: Vaucouleurs, what: "the walled town and castle down the Meuse, held for the king's party, its castellany with Domrémy and Greux an island of loyalty, about 48.602 N 5.667 E. In the colour of france", basis: sourced, rank: 4 }
@@ -39,7 +39,7 @@ domremy:
     Burgundy: "the county of Burgundy, shown by the burgundy zone"
 harfleur-and-agincourt:
   bbox: [-0.6, 48.95, 3.5, 51.2]
-  zones: [france-1407, english-1407, burgundy-1407, brittany-1407]
+  zones: [france-1412, english-1407, burgundy-1407, brittany-1407]
   routes:
     - id: henry-v-1415-calais
       family: english

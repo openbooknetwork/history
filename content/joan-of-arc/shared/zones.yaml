@@ -1,0 +1,18 @@
+# Zones that show the outline of another zone under their own name. A zone is cut once for the whole story, by
+# every zone of a lower priority number that shares any page with it, so the kingdom of France takes one entry for
+# each English stage: each france entry shares its pages with one english zone alone, and no land the English held
+# in another year is cut out of it. The outline is france-1407, drawn by content/joan-of-arc/.plans/zones.mjs.
+france-1412: {zone: france-1407, name: "The kingdom of Charles VI"}           # domremy, harfleur-and-agincourt: cut by Bar and Lorraine, which murder-in-paris leaves bare
+france-1420: {zone: france-1407, name: "The Dauphin's obedience"}             # with english-1420: normandy-and-troyes, two-kings
+france-1422: {zone: france-1407, name: "The kingdom of Charles VII"}          # with english-1420: cravant-and-verneuil
+france-1428: {zone: france-1407, name: "The kingdom of Charles VII"}          # with english-1428 and english-1429: the-voices, patay, auxerre-and-troyes
+france-siege-1428: {zone: france-1407, name: "The kingdom of Charles VII"}    # with english-siege-1428: 020 from salisbury-on-the-loire, 030, jargeau, meung-and-beaugency
+france-reims-1429: {zone: france-1407, name: "The kingdom of Charles VII"}    # with english-reims-1429: reims
+france-aug-1429: {zone: france-1407, name: "The kingdom of Charles VII"}      # with english-aug-1429: the-towns-come-over
+france-sep-1429: {zone: france-1407, name: "The kingdom of Charles VII"}      # with english-sep-1429: 050, 060, burgundy-changes-sides
+france-1436: {zone: france-1407, name: "The kingdom of Charles VII"}          # with english-1436: paris-opens
+france-1449: {zone: france-1407, name: "The kingdom of Charles VII"}          # with english-1449: normandy-won-back
+france-1452: {zone: france-1407, name: "The kingdom of Charles VII"}          # with english-1452: castillon
+france-1451: {zone: france-1407, name: "The kingdom of Charles VII"}          # with english-1451: the-retrial
+# Lowell's English France of 1428 holds after Patay as before it (the brief's Map part)
+english-1429: {zone: english-1428, name: "The English kings' lands"}

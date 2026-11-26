@@ -135,3 +135,49 @@
   introduced: map-design
   owner: brief
   state: fixed
+- id: story-map-keeper-1
+  severity: wrong
+  file: content/joan-of-arc/.plan/brief.md
+  field: Map, Zones, the rows france-1407 and france-1422, and the zones of every page of 010 to 070 that lists france-1407 or france-1422
+  new: "Charles VII's kingdom takes one zones.yaml entry for each english zone (france-1422, france-1428, france-siege-1428, france-reims-1429, france-aug-1429, france-sep-1429, france-1436, france-1449, france-1452, france-1451), and domremy and harfleur-and-agincourt take france-1412, so that each france zone shares its pages with one english zone alone and murder-in-paris keeps Bar west of the Meuse in the kingdom"
+  source: "agents/pages.md, Zones and markers from page to page: a zone is cut once for the whole story, by the zones that share any page with it, so a zone cut back in stages takes one zones.yaml entry per stage. One france-1422 on 020 to 070 would be cut by english-1420 to english-1452 together, and Champagne, the Beauce and the Île-de-France would show bare on every page after the English lost them"
+  kind: map
+  introduced: map-design
+  owner: brief
+  state: fixed
+- id: story-map-keeper-2
+  severity: wrong
+  file: content/joan-of-arc/.plan/brief.md
+  field: Map, Zones, the row english-1428, Land and year
+  replaces: clause
+  old: "most of Maine, Champagne, Le Crotoy, Calais and Gascony. It has two holes"
+  new: "most of Maine, Champagne, Calais and Gascony. Le Crotoy, English from 1424 inside Burgundian Picardy, is a marker as the holds of 010.46 are: a hole in burgundy-1420 would show on every page of that zone. It has two holes"
+  source: "README of harita, Zones: the build subtracts from every zone the zones of a lower priority number that share a page with it. burgundy-1420 shares pages with english-1420 and english-1436, which do not hold Le Crotoy, so the hole would show French on them; 060's sold-to-the-english marks le-crotoy-1430 in the english colour"
+  kind: map
+  claim: "060.19"
+  introduced: map-design
+  owner: brief
+  state: fixed
+- id: story-map-keeper-3
+  severity: weak
+  file: content/joan-of-arc/.plan/brief.md
+  field: Map, Zones, the row france-1407, Basis and digest ids
+  replaces: clause
+  old: "The Rhône and the Meuse are its sourced edges"
+  new: "The Rhône is its sourced edge; the Meuse is drawn by hand through the towns on its banks, since Natural Earth lacks it in France. Champagne is drawn whole in it, the Rethélois too"
+  source: "node scripts/ground.mjs -5.5,42,8.5,51.5 --kind river --name meuse finds the Maas of the Netherlands alone (110 km), and --osm got no answer from any Overpass server; content/joan-of-arc/.plan/ground.yaml lists the Meuse lines as estimates"
+  kind: map
+  introduced: map-design
+  owner: brief
+  state: fixed
+- id: story-map-keeper-4
+  severity: wrong
+  file: scripts/plan-zones.mjs
+  field: bareLand, the zones of a page
+  replaces: clause
+  old: "const own = (p.zones ?? []).map(shape).filter(Boolean);"
+  new: "const own = (p.zones ?? []).map(id => shape(id)).filter(Boolean);"
+  source: "node scripts/plan-check.mjs joan-of-arc stopped on 'TypeError: seen.has is not a function' at plan-zones.mjs:67: Array.map hands shape() the index as its second argument, so a zones.yaml entry broke the check of bare land"
+  kind: check
+  owner: overseer
+  state: fixed

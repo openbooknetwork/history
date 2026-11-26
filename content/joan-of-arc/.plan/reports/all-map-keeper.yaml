@@ -1,0 +1,27 @@
+- step: maps
+  task: draw
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plans/zones.mjs
+    - content/joan-of-arc/shared/zones/                 # 17 zones: france-1407, english-1407, -1420, -1428, -siege-1428, -reims-1429, -aug-1429, -sep-1429, -1436, -1449, -1451, -1452, burgundy-1407, -1420, brittany-1407, lorraine-1412, bar-1412
+    - content/joan-of-arc/shared/zones.yaml
+    - content/joan-of-arc/.plan/ground.yaml
+    - content/joan-of-arc/.plan/ground/                 # meuse, rhone, loire, normandie, brittany, champana-ardenne, ile-de-france, flanders, cote-d-or, saone-et-loire, franco-condado, isere, drome, hautes-alpes
+    - content/shared/zones/apart.yaml
+    - content/joan-of-arc/.plan/brief.md
+    - content/joan-of-arc/.plan/010-france-divided/map.yaml
+    - content/joan-of-arc/.plan/020-the-road-to-chinon/map.yaml
+    - content/joan-of-arc/.plan/030-orleans/map.yaml
+    - content/joan-of-arc/.plan/040-the-loire-and-reims/map.yaml
+    - content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml
+    - content/joan-of-arc/.plan/060-rouen/map.yaml
+    - content/joan-of-arc/.plan/070-after-her/map.yaml
+    - scripts/plan-zones.mjs
+    - content/joan-of-arc/.plan/faults/story.yaml
+    - content/joan-of-arc/.plan/fixes/story.yaml
+    - content/joan-of-arc/.plan/handoff/map-keeper.md
+  faults: [story-map-keeper-1, story-map-keeper-2, story-map-keeper-3, story-map-keeper-4]
+  unresolved:
+    - "Dauphiné is drawn as the départements of Isère, Drôme and Hautes-Alpes under 010.57 ('together with Dauphiny'), though Natural Earth gives them no name of the province: proposed to keep them as the sourced area, since they were made of it."
+  stale: []
+  totals: {zones: 17, sourced_lines: 15, sourced_km: 7949, estimated_lines: 71, estimated_km: 10881}

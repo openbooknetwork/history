@@ -1,0 +1,826 @@
+story: joan-of-arc
+made_by: scripts/zones-lib.mjs, from the story's zone generator. Not edited by hand.
+features:
+  - brittany
+  - champana-ardenne
+  - cote-d-or
+  - drome
+  - flanders
+  - franco-condado
+  - hautes-alpes
+  - ile-de-france
+  - isere
+  - loire
+  - normandie
+  - rhone
+  - saone-et-loire
+standing: []
+lines:
+  - 'n': 1
+    kind: sourced
+    claim: '010.38'
+    feature: normandie
+    from: [-1.9456, 49.678]
+    to: [-1.9456, 49.678]
+    points: 613
+    km: 1151.4
+  - 'n': 2
+    kind: sourced
+    claim: '010.57'
+    feature: brittany
+    from: [-5.1328, 48.4583]
+    to: [-5.1328, 48.4583]
+    points: 18
+    km: 21.1
+  - 'n': 3
+    kind: sourced
+    claim: '010.57'
+    feature: brittany
+    from: [-4.7849, 48.4362]
+    to: [-4.7849, 48.4362]
+    points: 990
+    km: 1527.1
+  - 'n': 4
+    kind: sourced
+    claim: '010.57'
+    feature: brittany
+    from: [-3.2621, 47.3832]
+    to: [-3.2621, 47.3832]
+    points: 22
+    km: 41.9
+  - 'n': 5
+    kind: sourced
+    claim: '020.8'
+    feature: champana-ardenne
+    from: [3.3895, 48.4679]
+    to: [3.3895, 48.4679]
+    points: 702
+    km: 1005.9
+  - 'n': 6
+    kind: sourced
+    claim: '010.46'
+    feature: ile-de-france
+    from: [1.4435, 49.0357]
+    to: [1.4435, 49.0357]
+    points: 356
+    km: 529.3
+  - 'n': 7
+    kind: sourced
+    claim: '010.7'
+    feature: flanders
+    from: [2.5218, 51.0875]
+    to: [2.5218, 51.0875]
+    points: 181
+    km: 450.8
+  - 'n': 8
+    kind: sourced
+    claim: '010.7'
+    feature: cote-d-or
+    from: [4.1564, 47.245]
+    to: [4.1564, 47.245]
+    points: 260
+    km: 433.8
+  - 'n': 9
+    kind: sourced
+    claim: '010.7'
+    feature: saone-et-loire
+    from: [3.8093, 46.7017]
+    to: [3.8093, 46.7017]
+    points: 335
+    km: 523
+  - 'n': 10
+    kind: sourced
+    claim: '010.7'
+    feature: franco-condado
+    from: [5.2502, 46.981]
+    to: [5.2502, 46.981]
+    points: 430
+    km: 672.3
+  - 'n': 11
+    kind: sourced
+    claim: '010.57'
+    feature: isere
+    from: [5.0299, 45.3177]
+    to: [5.0299, 45.3177]
+    points: 199
+    km: 506.4
+  - 'n': 12
+    kind: sourced
+    claim: '010.57'
+    feature: drome
+    from: [4.9901, 45.3439]
+    to: [4.9901, 45.3439]
+    points: 266
+    km: 488
+  - 'n': 13
+    kind: sourced
+    claim: '010.57'
+    feature: hautes-alpes
+    from: [7.0388, 44.7121]
+    to: [7.0388, 44.7121]
+    points: 276
+    km: 485.7
+  - 'n': 14
+    kind: estimate
+    why: >-
+      the county of Nantes, the duchy of Brittany's land on the lower Loire (010.57 names Brittany; the Bretagne of today leaves it out): its march with Anjou
+      and Poitou drawn in few points
+    from: [-2.7, 47.62]
+    to: [-2.08, 47.06]
+    points: 8
+    km: 263.4
+  - 'n': 15
+    kind: estimate
+    why: 'the open sea off the Loire: the coast cuts it'
+    from: [-2.08, 47.06]
+    to: [-2.7, 47.62]
+    points: 3
+    km: 96.1
+  - 'n': 16
+    kind: estimate
+    why: the edge of Flanders and Artois with Hainaut along the Scheldt, Lille, Douai and Arras inside (010.7, 060.18); no source gives the line
+    from: [3.65, 50.6]
+    to: [3.05, 50.15]
+    points: 4
+    km: 65.7
+  - 'n': 17
+    kind: estimate
+    why: 'the kingdom''s edge with the Cambrésis and Hainaut: Saint-Quentin and Beaurevoir inside, Cambrai and Le Cateau outside; no source gives the line'
+    from: [3.05, 50.15]
+    to: [4.1, 50]
+    points: 5
+    km: 79.1
+  - 'n': 18
+    kind: estimate
+    why: the kingdom's edge from the Thiérache to the Meuse at Mézières, the brief's "east to the Meuse"; no source gives the line
+    from: [4.1, 50]
+    to: [4.72, 49.77]
+    points: 4
+    km: 56.5
+  - 'n': 19
+    kind: estimate
+    why: >-
+      the Meuse, the kingdom's edge on the east (the brief; 020.62 has Vaucouleurs on it, 020.9 Domrémy belonging to France): Natural Earth lacks the river in
+      France and no OpenStreetMap server answered, so it is drawn through the towns on its banks
+    from: [4.72, 49.77]
+    to: [5.684, 48.66]
+    points: 12
+    km: 148.2
+  - 'n': 20
+    kind: estimate
+    why: >-
+      the Meuse, the kingdom's edge on the east (the brief; 020.62 has Vaucouleurs on it, 020.9 Domrémy belonging to France): Natural Earth lacks the river in
+      France and no OpenStreetMap server answered, so it is drawn through the towns on its banks: by Vaucouleurs, Greux and Domrémy on its west bank
+    from: [5.684, 48.66]
+    to: [5.686, 48.445]
+    points: 4
+    km: 23.9
+  - 'n': 21
+    kind: estimate
+    why: >-
+      the Meuse, the kingdom's edge on the east (the brief; 020.62 has Vaucouleurs on it, 020.9 Domrémy belonging to France): Natural Earth lacks the river in
+      France and no OpenStreetMap server answered, so it is drawn through the towns on its banks: up to its source in the Bassigny, Neufchâteau on its west bank
+    from: [5.686, 48.445]
+    to: [5.62, 47.98]
+    points: 6
+    km: 53.4
+  - 'n': 22
+    kind: estimate
+    why: the kingdom's edge from the source of the Meuse to the Saône by Langres; no source gives it, and the county of Burgundy covers most of it
+    from: [5.62, 47.98]
+    to: [5.5, 47.25]
+    points: 4
+    km: 104.3
+  - 'n': 23
+    kind: estimate
+    why: the Saône, the kingdom's edge on the east in the brief, down to Lyon; no claim names it, and the duchy and the county of Burgundy cover it above Mâcon
+    from: [5.5, 47.25]
+    to: [4.83, 45.77]
+    points: 6
+    km: 177.4
+  - 'n': 24
+    kind: estimate
+    why: >-
+      a line inside Dauphiné from Lyon to the Rhône by Pierrelatte: the province itself (010.57) is drawn by its départements, and this line only joins them to
+      the land west of the Rhône
+    from: [4.83, 45.77]
+    to: [4.7, 44.33]
+    points: 5
+    km: 186.1
+  - 'n': 25
+    kind: sourced
+    claim: '010.57'
+    feature: rhone
+    from: [4.6617, 44.3314]
+    to: [4.6154, 43.7184]
+    points: 25
+    km: 86.5
+  - 'n': 26
+    kind: estimate
+    why: 'the open sea round the kingdom and the Pyrenees: the coast and the clip to France cut it'
+    from: [4.6154, 43.7184]
+    to: [2.5, 51.2]
+    points: 18
+    km: 2149.3
+  - 'n': 27
+    kind: estimate
+    why: 'a line inside Flanders, which burgundy holds on every page: it only closes the kingdom'
+    from: [2.5, 51.2]
+    to: [3.65, 50.6]
+    points: 3
+    km: 107.5
+  - 'n': 28
+    kind: estimate
+    why: >-
+      the edge of Burgundian Picardy, "to the Bresle and the Oise" (the brief, after 010.57 and 010.46): Montdidier, Noyon, Beaulieu and Saint-Quentin
+      Burgundian; Beauvais, Gournay-sur-Aronde, Compiègne, Choisy, Soissons and Laon English until 1429 (050.9, 040.81); no source gives the line
+    from: [1.7, 49.72]
+    to: [4.1, 50]
+    points: 10
+    km: 212.3
+  - 'n': 29
+    kind: estimate
+    why: >-
+      the south edge of the English north from 1420: Chartres and Étampes English to 1429 (names.md; 040.42 leaves them English), Janville English only from
+      August 1428 (020.14), Châteaudun outside; no source gives a line
+    from: [0.8, 48.62]
+    to: [3.1, 48.12]
+    points: 7
+    km: 182.5
+  - 'n': 30
+    kind: estimate
+    why: >-
+      the English edge with the Burgundian Auxerrois: Sens and Saint-Florentin English (040.86, 040.53), Joigny, Auxerre and Cravant Burgundian (020.46,
+      040.51); no source gives a line
+    from: [3.1, 48.12]
+    to: [3.85, 47.92]
+    points: 3
+    km: 60.1
+  - 'n': 31
+    kind: estimate
+    why: the English edge with the Burgundian Tonnerrois, up to Champagne; no source gives a line
+    from: [3.85, 47.92]
+    to: [4.2, 48.05]
+    points: 2
+    km: 29.8
+  - 'n': 32
+    kind: estimate
+    why: 'a line inside Champagne, which the province itself bounds: it only closes the land between Normandy and Champagne'
+    from: [4.1, 50]
+    to: [4.2, 48.05]
+    points: 5
+    km: 245
+  - 'n': 33
+    kind: estimate
+    why: 'a line inside Normandy, which the duchy itself bounds: it only closes the land east of it'
+    from: [0.8, 48.62]
+    to: [1.7, 49.72]
+    points: 3
+    km: 139
+  - 'n': 34
+    kind: estimate
+    why: 'the Bresle, Normandy''s edge with Picardy (the brief): Eu, Blangy and Aumale on its Norman bank, Blangy and Aumale English until August 1429 (050.9)'
+    from: [1.36, 50.1]
+    to: [1.8, 49.7]
+    points: 5
+    km: 57.8
+  - 'n': 35
+    kind: estimate
+    why: 'a line inside Normandy, which the duchy itself bounds: it only closes the bank of the Bresle'
+    from: [1.8, 49.7]
+    to: [1.36, 50.1]
+    points: 4
+    km: 64.1
+  - 'n': 36
+    kind: estimate
+    why: Mont-Saint-Michel, the one place in Normandy left to the French by the end of 1419 (010.38) (a circle of 3 km)
+    from: [-1.511, 48.663]
+    to: [-1.511, 48.663]
+    points: 25
+    km: 18.8
+  - 'n': 37
+    kind: estimate
+    why: 'the edge of English Maine with Anjou and the Vendômois, after Lowell''s "most of Maine" (010.57): Le Mans and Fresnay inside; no source gives a line'
+    from: [-1.4, 47.85]
+    to: [0.95, 48.3]
+    points: 6
+    km: 207.2
+  - 'n': 38
+    kind: estimate
+    why: 'a line inside English Normandy, which the duchy itself bounds: it only closes Maine and the Perche'
+    from: [0.95, 48.3]
+    to: [-1.4, 48.62]
+    points: 3
+    km: 217.3
+  - 'n': 39
+    kind: estimate
+    why: 'a line inside Brittany: the duchy''s own outline cuts it'
+    from: [-1.4, 48.62]
+    to: [-1.4, 47.85]
+    points: 2
+    km: 85.6
+  - 'n': 40
+    kind: sourced
+    claim: '020.16'
+    feature: loire
+    from: [1.5997, 47.7354]
+    to: [1.8353, 47.8807]
+    points: 7
+    km: 25.4
+  - 'n': 41
+    kind: estimate
+    why: >-
+      the Loire below Orléans to the city: the Natural Earth line cuts across the city, so the river is drawn by hand past the Île Charlemagne (030.6) to the
+      walls
+    from: [1.8353, 47.8807]
+    to: [1.8965, 47.8962]
+    points: 4
+    km: 4.9
+  - 'n': 42
+    kind: estimate
+    why: >-
+      the English edge round the west and the north of Orléans: Saint-Laurent, London, Rouen and Paris inside (030.3, 030.4), the city and the open land to its
+      north-east outside (030.1); no source gives the line
+    from: [1.8965, 47.8962]
+    to: [2.55, 48.3]
+    points: 9
+    km: 69.5
+  - 'n': 43
+    kind: estimate
+    why: 'a line inside the English north of 1428: it only closes the Beauce'
+    from: [2.55, 48.3]
+    to: [1.5, 48.45]
+    points: 2
+    km: 79.3
+  - 'n': 44
+    kind: estimate
+    why: 'the English edge west of the Beauce: Janville and Patay inside, Châteaudun outside (020.14, 040.42); no source gives a line'
+    from: [1.5, 48.45]
+    to: [1.5997, 47.7354]
+    points: 4
+    km: 79.8
+  - 'n': 45
+    kind: estimate
+    why: the bridgehead of Jargeau, the English bridge above Orléans (020.14, 020.16) (a circle of 3 km)
+    from: [2.125, 47.889]
+    to: [2.125, 47.889]
+    points: 25
+    km: 18.8
+  - 'n': 46
+    kind: estimate
+    why: 'the march of Calais, English from 1347 (010.23, 010.34, 070.26): its bounds are no source''s, drawn some ten km round the town'
+    from: [1.65, 51.02]
+    to: [2.12, 51.06]
+    points: 5
+    km: 64.1
+  - 'n': 47
+    kind: estimate
+    why: 'the open sea off Calais: the coast cuts it'
+    from: [2.12, 51.06]
+    to: [1.65, 51.02]
+    points: 2
+    km: 33.2
+  - 'n': 48
+    kind: estimate
+    why: >-
+      the north edge of English Gascony along the Gironde and north of the Dordogne to Castillon, "from the Gironde to Bayonne" (the brief, after 010.57 and
+      070.25); no source gives a line
+    from: [-1.5, 45.7]
+    to: [0, 44.9]
+    points: 6
+    km: 155.8
+  - 'n': 49
+    kind: estimate
+    why: the east edge of the Bordelais, Castillon inside (070.29) and the Garonne at Langon; no source gives a line
+    from: [0, 44.9]
+    to: [-0.22, 44.55]
+    points: 3
+    km: 46.6
+  - 'n': 50
+    kind: estimate
+    why: 'the south edge of the Bordelais that the English hold in 1452-1453 (070.28): Bordeaux and the Médoc inside; no source gives a line'
+    from: [-0.22, 44.55]
+    to: [-1.5, 44.4]
+    points: 3
+    km: 103.2
+  - 'n': 51
+    kind: estimate
+    why: the inland edge of the Landes and the Labourd, Dax and Bayonne inside (070.25), drawn as the brief's coastal Gascony; no source gives a line
+    from: [-0.22, 44.55]
+    to: [-1.85, 43.25]
+    points: 7
+    km: 224.7
+  - 'n': 52
+    kind: estimate
+    why: 'the open sea off the Landes: the coast and the clip cut it'
+    from: [-1.85, 43.25]
+    to: [-1.5, 45.7]
+    points: 4
+    km: 284.4
+  - 'n': 53
+    kind: estimate
+    why: 'the open sea off the Médoc: the coast cuts it'
+    from: [-1.5, 44.4]
+    to: [-1.5, 45.7]
+    points: 3
+    km: 148
+  - 'n': 54
+    kind: estimate
+    why: the kingdom of England itself, south of the map's north edge (the brief)
+    from: [-6.5, 49.8]
+    to: [-6.5, 49.8]
+    points: 5
+    km: 1667.1
+  - 'n': 55
+    kind: estimate
+    why: >-
+      the English edge after the coronation road: Saint-Florentin, Troyes, Châlons and Reims gone (040.53, 040.58, 040.62, 040.63), Sens, Provins,
+      Château-Thierry, Soissons and Laon left (040.81, 040.86); no source gives a line
+    from: [3.47, 47.9]
+    to: [4.05, 49.85]
+    points: 7
+    km: 222.4
+  - 'n': 56
+    kind: estimate
+    why: 'a line east of the kingdom: it only closes the land the English lose'
+    from: [4.05, 49.85]
+    to: [3.47, 47.9]
+    points: 6
+    km: 807.5
+  - 'n': 57
+    kind: estimate
+    why: >-
+      the English edge after the towns came over: Laon, Soissons, Château-Thierry, Crécy, Coulommiers and Provins gone with the land between the Marne and the
+      Aisne (040.81); Meaux, Lagny, Bray, Senlis and Compiègne left until August (050.9); no source gives a line
+    from: [3.47, 47.9]
+    to: [3.05, 49.65]
+    points: 11
+    km: 225.2
+  - 'n': 58
+    kind: estimate
+    why: 'a line east of the kingdom: it only closes the land the English lose'
+    from: [3.05, 49.65]
+    to: [3.47, 47.9]
+    points: 6
+    km: 900.7
+  - 'n': 59
+    kind: estimate
+    why: >-
+      the English edge of September 1429: Aumale, Blangy, Beauvais, Gournay-sur-Aronde, Creil, Pont-Sainte-Maxence, Senlis, Compiègne and Choisy gone (050.9,
+      050.8, 050.25); Paris, Saint-Denis and Normandy left; no source gives a line
+    from: [1.55, 50.05]
+    to: [2.8, 49.1]
+    points: 10
+    km: 153.9
+  - 'n': 60
+    kind: estimate
+    why: 'a line inside the land already gone: it only closes the towns between the Oise and Paris'
+    from: [2.8, 49.1]
+    to: [1.55, 50.05]
+    points: 4
+    km: 257.5
+  - 'n': 61
+    kind: estimate
+    why: >-
+      Lagny on the Marne, the king's from August 1429 (050.9, 050.25), joined to the Brie that came over: Meaux left English to the north; no source gives a
+      line
+    from: [2.86, 48.83]
+    to: [2.86, 48.9]
+    points: 6
+    km: 36.5
+  - 'n': 62
+    kind: estimate
+    why: 'a line inside the land already gone: it only closes Lagny'
+    from: [2.86, 48.9]
+    to: [2.86, 48.83]
+    points: 2
+    km: 7.8
+  - 'n': 63
+    kind: estimate
+    why: 'Bray on the Seine, which yields to the king in September 1429 (050.29), joined to Provins: Montereau and Sens left English; no source gives a line'
+    from: [3.4, 48.38]
+    to: [3.3, 48.52]
+    points: 4
+    km: 39.2
+  - 'n': 64
+    kind: estimate
+    why: 'a line inside the land already gone: it only closes Bray'
+    from: [3.3, 48.52]
+    to: [3.4, 48.38]
+    points: 2
+    km: 17.2
+  - 'n': 65
+    kind: estimate
+    why: the Pays de Caux and Dieppe, lost after Arras with only Caudebec kept (070.7); Rouen and Honfleur left; no source gives a line
+    from: [1.3, 50.1]
+    to: [-0.3, 49.5]
+    points: 9
+    km: 161.9
+  - 'n': 66
+    kind: estimate
+    why: 'the open sea off the Caux: the coast cuts it'
+    from: [-0.3, 49.5]
+    to: [1.3, 50.1]
+    points: 3
+    km: 180.8
+  - 'n': 67
+    kind: estimate
+    why: round Cherbourg and Saint-Sauveur, English at the close of 1449 (070.16); Carentan outside; no source gives a line
+    from: [-1.15, 49.75]
+    to: [-1.8, 49.32]
+    points: 4
+    km: 80.4
+  - 'n': 68
+    kind: estimate
+    why: 'the open sea round the Cotentin: the coast cuts it'
+    from: [-1.8, 49.32]
+    to: [-1.15, 49.75]
+    points: 3
+    km: 119
+  - 'n': 69
+    kind: estimate
+    why: Valognes, which Kyriell besieges and takes in 1450 (the plan of 070, after Ramsay), so French at the close of 1449 (a circle of 4 km)
+    from: [-1.47, 49.546]
+    to: [-1.47, 49.546]
+    points: 25
+    km: 25.1
+  - 'n': 70
+    kind: estimate
+    why: >-
+      round Bayeux, Caen, Falaise, Vire, Domfront and Honfleur, English at the close of 1449 (070.16); Saint-Lô, Lisieux and Argentan outside; no source gives a
+      line
+    from: [0.3, 49.48]
+    to: [-1, 49.42]
+    points: 12
+    km: 258.5
+  - 'n': 71
+    kind: estimate
+    why: 'the open sea off the Bessin: the coast cuts it'
+    from: [-1, 49.42]
+    to: [0.3, 49.48]
+    points: 2
+    km: 94.2
+  - 'n': 72
+    kind: estimate
+    why: Fresnay, English at the close of 1449 (070.16), a castle on the Sarthe held alone (a circle of 6 km)
+    from: [0.02, 48.334]
+    to: [0.02, 48.334]
+    points: 25
+    km: 37.6
+  - 'n': 73
+    kind: estimate
+    why: the south edge of Artois with Picardy, Arras and Bapaume in Artois (060.18), Doullens and Péronne in Picardy; no source gives a line
+    from: [1.4, 50.37]
+    to: [3.05, 50.15]
+    points: 6
+    km: 123.3
+  - 'n': 74
+    kind: estimate
+    why: 'a line inside Flanders: it only joins Artois and French Flanders to the Flanders of today'
+    from: [3.65, 50.6]
+    to: [1.8, 51.1]
+    points: 4
+    km: 151.8
+  - 'n': 75
+    kind: estimate
+    why: 'the open sea off the Boulonnais: the coast cuts it'
+    from: [1.8, 51.1]
+    to: [1.4, 50.37]
+    points: 3
+    km: 94
+  - 'n': 76
+    kind: estimate
+    why: the open sea off Ponthieu, then a line inside Normandy, which the Norman bank of the Bresle cuts
+    from: [1.4, 50.37]
+    to: [1.7, 49.72]
+    points: 4
+    km: 97.3
+  - 'n': 77
+    kind: estimate
+    why: 'a line inside Champagne and the duchy of Burgundy, which cut it: it only joins the Auxerrois to the duchy'
+    from: [4.2, 48.05]
+    to: [4.45, 47.4]
+    points: 3
+    km: 79
+  - 'n': 78
+    kind: estimate
+    why: >-
+      the edge of the Burgundian Auxerrois with the Nivernais and the Gâtinais: Auxerre and Cravant Burgundian (020.46, 040.51, the plan of 010), Courtenay,
+      Gien and Cosne outside; no source gives a line
+    from: [4.45, 47.4]
+    to: [3.1, 48.12]
+    points: 5
+    km: 157.9
+  - 'n': 79
+    kind: estimate
+    why: 'the Three Fountains brook through Domrémy, Lowell''s edge of Bar (010.14, disputed): Greux and the north of the village French (020.9)'
+    from: [5.686, 48.445]
+    to: [5.63, 48.445]
+    points: 3
+    km: 4.2
+  - 'n': 80
+    kind: estimate
+    why: the castellany of Vaucouleurs west of the Meuse, Burey and Vaucouleurs inside, "a kind of island of loyalty" (010.15); no source gives its bounds
+    from: [5.63, 48.445]
+    to: [5.684, 48.66]
+    points: 5
+    km: 28.6
+  - 'n': 81
+    kind: estimate
+    why: >-
+      the line between the duchies of Bar and Lorraine: Neufchâteau Lorraine's (020.9), Nancy and Saint-Nicolas-de-Port in Lorraine (020.34, 020.35), the south
+      of Domrémy in Bar (010.14); no source gives it
+    from: [5.6, 48.28]
+    to: [6.4, 49]
+    points: 8
+    km: 110.6
+  - 'n': 82
+    kind: estimate
+    why: the north edge of Bar, Metz outside; no source gives it
+    from: [6.4, 49]
+    to: [5.25, 49.62]
+    points: 5
+    km: 121.5
+  - 'n': 83
+    kind: estimate
+    why: 'a line inside Champagne, which the province itself bounds: Bar meets Champagne at its edge (020.8, 010.15)'
+    from: [5.25, 49.62]
+    to: [5.3, 48.25]
+    points: 4
+    km: 174.8
+  - 'n': 84
+    kind: estimate
+    why: the south edge of Bar in the Bassigny, west of Neufchâteau; no source gives it
+    from: [5.3, 48.25]
+    to: [5.6, 48.28]
+    points: 2
+    km: 22.5
+  - 'n': 85
+    kind: estimate
+    why: the south edge of the duchy of Lorraine with the Bassigny and the county of Burgundy, which cuts it; no source gives it
+    from: [5.6, 48.28]
+    to: [6.95, 48.1]
+    points: 7
+    km: 162.9
+  - 'n': 86
+    kind: estimate
+    why: the east edge of the duchy along the Vosges, and German Lorraine to the north; no source gives it
+    from: [6.95, 48.1]
+    to: [6.4, 49]
+    points: 5
+    km: 160.8
+zones:
+  france-1407:
+    lines: [5, 11, 12, 13, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27]
+    edge_km: 3823
+    sourced_km: 907
+    estimated_km: 2885
+    other_km: 31
+    inside: {paris: ok, orleans: ok, bourges: ok, toulouse: ok, lyon: ok, grenoble: ok, vaucouleurs: ok, greux: ok, rennes: ok, rouen: ok, troyes: ok, bordeaux: ok}
+    outside: {provence_aix: ok, avignon: ok, chambery: ok, nancy: ok, metz: ok, cambrai: ok, london: ok, besancon: ok}
+  english-1407:
+    lines: [46, 47, 48, 49, 51, 52]
+    cut_by: [54]
+    edge_km: 2915
+    sourced_km: 0
+    estimated_km: 809
+    other_km: 2106
+    inside: {calais: ok, bordeaux: ok, bayonne: ok, dax: ok, castillon: ok, london: ok}
+    outside: {rouen: ok, paris: ok, harfleur: ok, arras: ok}
+  english-1420:
+    lines: [1, 3, 5, 6, 28, 29, 30, 31, 32, 33, 34, 35, 36, 46, 47, 48, 49, 51, 52, 54]
+    cut_by: [2, 4, 14, 15]
+    edge_km: 5075
+    sourced_km: 1680
+    estimated_km: 1365
+    other_km: 2030
+    inside: {calais: ok, bordeaux: ok, rouen: ok, caen: ok, paris: ok, troyes: ok, reims: ok, chartres: ok, etampes: ok, sens: ok, saint_florentin: ok, beauvais: ok, compiegne: ok, soissons: ok, laon: ok, alencon: ok}
+    outside: {mont_saint_michel: ok, le_mans: ok, angers: ok, orleans: ok, janville: ok, auxerre: ok, amiens: ok, montdidier: ok, noyon: ok, rennes: ok, fougeres: ok, vaucouleurs: ok, greux: ok, bar_le_duc: ok, chateaudun: ok}
+  english-1428:
+    lines: [1, 3, 5, 6, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 46, 47, 48, 49, 51, 52, 54]
+    cut_by: [2, 4, 14, 15]
+    edge_km: 5104
+    sourced_km: 1515
+    estimated_km: 1566
+    other_km: 2023
+    inside: {rouen: ok, paris: ok, troyes: ok, reims: ok, le_mans: ok, laval: ok, fresnay: ok, alencon: ok, chartres: ok, saint_florentin: ok, calais: ok, bordeaux: ok}
+    outside: {mont_saint_michel: ok, vaucouleurs: ok, greux: ok, neufchateau: ok, angers: ok, janville: ok, orleans: ok, rennes: ok, fougeres: ok, le_crotoy: ok, tours: ok}
+  english-siege-1428:
+    lines: [1, 3, 5, 6, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 44, 45, 46, 47, 48, 49, 51, 52, 54]
+    cut_by: [2, 4, 14, 15, 43]
+    edge_km: 5209
+    sourced_km: 1539
+    estimated_km: 1648
+    other_km: 2022
+    inside: {janville: ok, meung: ok, beaugency: ok, jargeau: ok, patay: ok, saint_laurent: ok, bastille_paris: ok, chartres: ok, paris: ok}
+    outside: {orleans: ok, boucher: ok, saint_loup: ok, checy: ok, blois: ok, gien: ok, chateaudun: ok, vaucouleurs: ok}
+  english-reims-1429:
+    lines: [1, 3, 5, 6, 28, 29, 30, 33, 34, 35, 36, 37, 38, 39, 46, 47, 48, 49, 51, 52, 54, 55]
+    cut_by: [2, 4, 14, 15, 31, 32, 56]
+    edge_km: 4537
+    sourced_km: 871
+    estimated_km: 1652
+    other_km: 2014
+    inside: {paris: ok, sens: ok, provins: ok, chateau_thierry: ok, soissons: ok, laon: ok, coulommiers: ok, chartres: ok, rouen: ok}
+    outside: {troyes: ok, reims: ok, chalons: ok, saint_florentin: ok, janville: ok, orleans: ok}
+  english-aug-1429:
+    lines: [1, 3, 6, 28, 29, 30, 33, 34, 35, 36, 37, 38, 39, 46, 47, 48, 49, 51, 52, 54, 55, 57]
+    cut_by: [2, 4, 5, 14, 15, 31, 32, 56, 58]
+    edge_km: 4468
+    sourced_km: 863
+    estimated_km: 1593
+    other_km: 2012
+    inside: {paris: ok, meaux: ok, lagny: ok, bray: ok, montereau: ok, sens: ok, senlis: ok, compiegne: ok, choisy: ok, beauvais: ok, creil: ok, aumale: ok, blangy: ok}
+    outside: {laon: ok, soissons: ok, chateau_thierry: ok, crecy: ok, coulommiers: ok, provins: ok, crepy: ok, reims: ok}
+  english-sep-1429:
+    lines: [1, 3, 6, 29, 30, 33, 34, 35, 36, 37, 38, 39, 46, 47, 48, 49, 51, 52, 54, 55, 57, 59, 61, 62, 63]
+    cut_by: [2, 4, 5, 14, 15, 28, 31, 32, 56, 58, 60, 64]
+    edge_km: 4465
+    sourced_km: 882
+    estimated_km: 1602
+    other_km: 1981
+    inside: {paris: ok, saint_denis: ok, vincennes: ok, meaux: ok, montereau: ok, melun: ok, sens: ok, pontoise: ok, rouen: ok, chartres: ok, eu: ok, calais: ok}
+    outside: {compiegne: ok, senlis: ok, beauvais: ok, creil: ok, pont_sainte_maxence: ok, choisy: ok, gournay: ok, aumale: ok, blangy: ok, lagny: ok, bray: ok, crepy: ok, le_crotoy: ok}
+  english-1436:
+    lines: [1, 3, 34, 35, 36, 37, 38, 39, 46, 47, 48, 49, 51, 52, 54, 65]
+    cut_by: [2, 4, 14, 15, 66]
+    edge_km: 4124
+    sourced_km: 846
+    estimated_km: 1258
+    other_km: 2020
+    inside: {rouen: ok, caudebec: ok, honfleur: ok, caen: ok, le_mans: ok, fresnay: ok, alencon: ok, eu: ok, calais: ok, bayonne: ok}
+    outside: {dieppe: ok, le_havre: ok, harfleur: ok, paris: ok, pontoise: ok, saint_denis: ok, chartres: ok, troyes: ok, le_crotoy: ok}
+  english-1449:
+    lines: [46, 47, 48, 49, 51, 52, 67, 68, 69, 70, 71, 72]
+    cut_by: [54]
+    edge_km: 3529
+    sourced_km: 0
+    estimated_km: 1423
+    other_km: 2106
+    inside: {cherbourg: ok, saint_sauveur: ok, bayeux: ok, caen: ok, falaise: ok, vire: ok, domfront: ok, honfleur: ok, fresnay: ok, calais: ok, bordeaux: ok, bayonne: ok}
+    outside: {valognes: ok, carentan: ok, saint_lo: ok, lisieux: ok, argentan: ok, rouen: ok, alencon: ok, le_mans: ok, fougeres: ok}
+  english-1451:
+    lines: [46, 47]
+    cut_by: [54]
+    edge_km: 2203
+    sourced_km: 0
+    estimated_km: 97
+    other_km: 2106
+    inside: {calais: ok, london: ok}
+    outside: {bordeaux: ok, bayonne: ok, rouen: ok, arras: ok}
+  english-1452:
+    lines: [46, 47, 48, 49, 50, 53]
+    cut_by: [54]
+    edge_km: 2657
+    sourced_km: 0
+    estimated_km: 551
+    other_km: 2106
+    inside: {calais: ok, bordeaux: ok, castillon: ok}
+    outside: {bayonne: ok, dax: ok}
+  burgundy-1407:
+    lines: [7, 8, 9, 10, 16, 73, 74, 75]
+    edge_km: 1738
+    sourced_km: 1391
+    estimated_km: 357
+    other_km: 0
+    inside: {lille: ok, arras: ok, ghent: ok, dijon: ok, besancon: ok}
+    outside: {amiens: ok, paris: ok, auxerre: ok, cambrai: ok, saint_quentin: ok, troyes: ok}
+  burgundy-1420:
+    lines: [1, 5, 7, 8, 9, 10, 16, 17, 28, 30, 31, 34, 35, 74, 75, 76, 77, 78]
+    cut_by: [73]
+    edge_km: 2199
+    sourced_km: 1571
+    estimated_km: 850
+    other_km: 0
+    inside: {lille: ok, arras: ok, dijon: ok, besancon: ok, amiens: ok, abbeville: ok, montdidier: ok, noyon: ok, beaulieu: ok, beaurevoir: ok, saint_quentin: ok, auxerre: ok, cravant: ok}
+    outside: {beauvais: ok, compiegne: ok, soissons: ok, laon: ok, sens: ok, saint_florentin: ok, courtenay: ok, gien: ok, la_charite: ok, cambrai: ok}
+  brittany-1407:
+    lines: [2, 3, 4, 14, 15]
+    edge_km: 1641
+    sourced_km: 1411
+    estimated_km: 238
+    other_km: 0
+    inside: {rennes: ok, nantes: ok, fougeres: ok}
+    outside: {mont_saint_michel: ok, laval: ok, angers: ok}
+  lorraine-1412:
+    lines: [5, 81, 85, 86]
+    edge_km: 441
+    sourced_km: 65
+    estimated_km: 379
+    other_km: 0
+    inside: {nancy: ok, saint_nicolas: ok, neufchateau: ok}
+    outside: {vaucouleurs: ok, greux: ok, bar_le_duc: ok, troyes: ok}
+  bar-1412:
+    lines: [5, 20, 79, 80, 81, 82, 83, 84]
+    edge_km: 486
+    sourced_km: 199
+    estimated_km: 292
+    other_km: 0
+    inside: {bar_le_duc: ok, saint_mihiel: ok}
+    outside: {vaucouleurs: ok, greux: ok, neufchateau: ok, nancy: ok, metz: ok, troyes: ok}
+totals:
+  zones: 17
+  sourced_lines: 15
+  estimated_lines: 71
+  sourced_km: 7949
+  estimated_km: 10881

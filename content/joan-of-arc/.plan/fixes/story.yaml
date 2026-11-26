@@ -69,3 +69,94 @@
   old: "| `english-1450` | english | Calais and Gascony, after Cherbourg falls on 12 August 1450, to June 1451 | reconstruction from 070.24 (Cherbourg the last English  \u2026 | 070 (normandy-won-back, castillon) |; english-1451: 070 (castillon, the-retrial)"
   new: "no row english-1450; english-1451: 070 (the-retrial)"
   commit: de28cedb
+- fault: story-map-keeper-1
+  by: map-keeper
+  file: content/joan-of-arc/.plan/brief.md
+  field: "Map, Zones, the row france-1407, Sections"
+  old: "010 (murder-in-paris, domremy, harfleur-and-agincourt)"
+  new: "010 (murder-in-paris), and a new row france-1412: 010 (domremy, harfleur-and-agincourt)"
+  commit: 144e323e
+- fault: story-map-keeper-1
+  by: map-keeper
+  file: content/joan-of-arc/.plan/brief.md
+  field: "Map, Zones, the row france-1422, Land and year and Sections"
+  old: "`zones.yaml` entry `{ zone: france-1407 }`, named as Charles VII's kingdom, from 30 October 1422 to 1456 | ... | 010 (cravant-and-verneuil), 020–070"
+  new: "the same, with one entry for each english zone (france-1422, france-1428, france-siege-1428, france-reims-1429, france-aug-1429, france-sep-1429, france-1436, france-1449, france-1452, france-1451), each on the pages of its english zone"
+  commit: 144e323e
+- fault: story-map-keeper-1
+  by: map-keeper
+  file: content/joan-of-arc/.plan/brief.md
+  field: "Map, the paragraph after the Zones table"
+  old: "`english-siege-1428` with `france-1422` at Orléans"
+  new: "`english-siege-1428` with `france-siege-1428` at Orléans"
+  commit: 144e323e
+- fault: story-map-keeper-1
+  by: map-keeper
+  file: content/joan-of-arc/.plan/010-france-divided/map.yaml
+  field: "zones of domremy and harfleur-and-agincourt"
+  old: "france-1407"
+  new: "france-1412"
+  commit: 144e323e
+- fault: story-map-keeper-1
+  by: map-keeper
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/map.yaml
+  field: "zones of the-voices; of salisbury-on-the-loire, vaucouleurs-again, eleven-days, chinon-and-poitiers"
+  old: "france-1422"
+  new: "france-1428; france-siege-1428"
+  commit: 144e323e
+- fault: story-map-keeper-1
+  by: map-keeper
+  file: content/joan-of-arc/.plan/030-orleans/map.yaml
+  field: "zones of the six pages"
+  old: "france-1422"
+  new: "france-siege-1428"
+  commit: 144e323e
+- fault: story-map-keeper-1
+  by: map-keeper
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/map.yaml
+  field: "zones of jargeau, meung-and-beaugency; patay, auxerre-and-troyes; reims; the-towns-come-over"
+  old: "france-1422"
+  new: "france-siege-1428; france-1428; france-reims-1429; france-aug-1429"
+  commit: 144e323e
+- fault: story-map-keeper-1
+  by: map-keeper
+  file: content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml
+  field: "zones of the six pages"
+  old: "france-1422"
+  new: "france-sep-1429"
+  commit: 144e323e
+- fault: story-map-keeper-1
+  by: map-keeper
+  file: content/joan-of-arc/.plan/060-rouen/map.yaml
+  field: "zones of beaulieu-and-beaurevoir, sold-to-the-english, the-court"
+  old: "france-1422"
+  new: "france-sep-1429"
+  commit: 144e323e
+- fault: story-map-keeper-1
+  by: map-keeper
+  file: content/joan-of-arc/.plan/070-after-her/map.yaml
+  field: "zones of burgundy-changes-sides, paris-opens, normandy-won-back, castillon, the-retrial; bare of afterwards"
+  old: "france-1422"
+  new: "france-sep-1429, france-1436, france-1449, france-1452, france-1451; afterwards bare: france-1451"
+  commit: 144e323e
+- fault: story-map-keeper-2
+  by: map-keeper
+  file: content/joan-of-arc/.plan/brief.md
+  field: "Map, Zones, the row english-1428, Land and year"
+  old: "most of Maine, Champagne, Le Crotoy, Calais and Gascony. It has two holes"
+  new: "most of Maine, Champagne, Calais and Gascony. Le Crotoy, English from 1424 inside Burgundian Picardy, is a marker as the holds of 010.46 are: a hole in burgundy-1420 would show on every page of that zone. It has two holes"
+  commit: 144e323e
+- fault: story-map-keeper-3
+  by: map-keeper
+  file: content/joan-of-arc/.plan/brief.md
+  field: "Map, Zones, the row france-1407, Basis and digest ids"
+  old: "The Rhône and the Meuse are its sourced edges"
+  new: "The Rhône is its sourced edge; the Meuse is drawn by hand through the towns on its banks, since Natural Earth lacks it in France. Champagne is drawn whole in it, the Rethélois too"
+  commit: 144e323e
+- fault: story-map-keeper-4
+  by: map-keeper
+  file: scripts/plan-zones.mjs
+  field: "bareLand, the zones of a page"
+  old: "const own = (p.zones ?? []).map(shape).filter(Boolean);"
+  new: "const own = (p.zones ?? []).map(id => shape(id)).filter(Boolean);"
+  commit: 144e323e

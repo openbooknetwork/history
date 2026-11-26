@@ -132,3 +132,11 @@
 - step plan-check: done, 26 Nov 2026. Seven plan checks, 83 faults (17, 8, 15, 19, 10, 8, 6), all fixed in the plans
   by the fact checkers but one, which changed the brief. No fault of any list is open.
 - ledger after `plan-check`: | **total** | 45 | 1,411 | 375,922 | 2,883 | 9,538,844 | 238,112,791 | 2,090,557 | 46,190,502 |
+- maps, the shared map drawn (map-keeper): 17 zones in `shared/zones/` from `.plans/zones.mjs`, 15 lines sourced and 71
+  estimated. Charles VII's kingdom has ten entries of `zones.yaml`, one beside each english zone, and every page's
+  list in the seven `map.yaml` follows (story-map-keeper-1); Le Crotoy is a marker and no part of an english zone
+  (story-map-keeper-2). Outside the story's folder: a one-line fix to `scripts/plan-zones.mjs`, which crashed on an
+  entry of `zones.yaml` (story-map-keeper-4), and two entries of `content/shared/zones/apart.yaml`.
+- unresolved, maps (map-keeper): Dauphiné is drawn as the départements of Isère, Drôme and Hautes-Alpes under 010.57.
+- cloud ruling: Dauphiné stands as those three départements, a reconstruction — the province was divided into them,
+  and the chapter's text calls its borders approximate.

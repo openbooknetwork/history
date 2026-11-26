@@ -1,6 +1,6 @@
 beaulieu-and-beaurevoir:
   bbox: [2.45, 49.25, 3.65, 50.15]
-  zones: [france-1422, english-sep-1429, burgundy-1420, brittany-1407]
+  zones: [france-sep-1429, english-sep-1429, burgundy-1420, brittany-1407]
   routes:
     - id: joan-1430-beaulieu
       family: joan
@@ -30,7 +30,7 @@ beaulieu-and-beaurevoir:
     Burgundy: "named in the Duke of Burgundy's title; his lands are the burgundy zone."
 sold-to-the-english:
   bbox: [0.85, 49.2, 3.6, 50.55]
-  zones: [france-1422, english-sep-1429, burgundy-1420, brittany-1407]
+  zones: [france-sep-1429, english-sep-1429, burgundy-1420, brittany-1407]
   routes:
     - id: joan-1430-le-crotoy
       family: joan
@@ -55,7 +55,7 @@ sold-to-the-english:
     Burgundy: "named in the Duke of Burgundy's title; his lands, Arras among them, are the burgundy zone."
 the-court:
   bbox: [0.75, 48.7, 3.0, 49.75]
-  zones: [france-1422, english-sep-1429, burgundy-1420, brittany-1407]
+  zones: [france-sep-1429, english-sep-1429, burgundy-1420, brittany-1407]
   markers:
     rouen-castle-1431: { name: the castle of Rouen, what: "Philip Augustus's castle on the Bouvreuil hill, north of the old town, where Warwick is captain; she is held in a tower of it, a secular prison guarded by English soldiers, and the court sits in the king's council house in Rouen from 9 January 1431 and in the castle from 21 February; about 49.445 N 1.093 E. In the english colour", basis: sourced, rank: 2 }
     beauvais-1431: { name: Beauvais, what: "Pierre Cauchon's see, which drove him out in August 1429 and holds for Charles VII, so the bishop's court sits at Rouen; about 49.43 N 2.08 E. In the france colour", basis: sourced, rank: 1 }

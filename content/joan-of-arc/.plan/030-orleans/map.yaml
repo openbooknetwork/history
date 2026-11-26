@@ -1,6 +1,6 @@
 from-blois:
   bbox: [1.25, 47.5, 2.15, 48.05]
-  zones: [france-1422, english-siege-1428, burgundy-1420, brittany-1407]
+  zones: [france-siege-1428, english-siege-1428, burgundy-1420, brittany-1407]
   routes:
     - id: convoy-1429-sologne
       family: france
@@ -37,7 +37,7 @@ from-blois:
     Paris: "named only in 'the Bourgeois of Paris', a source; no place on this page."
 the-army-of-blois:
   bbox: [1.84, 47.875, 1.97, 47.93]
-  zones: [france-1422, english-siege-1428, burgundy-1420, brittany-1407]
+  zones: [france-siege-1428, english-siege-1428, burgundy-1420, brittany-1407]
   routes:
     - id: army-1429-beauce
       family: france
@@ -71,7 +71,7 @@ the-army-of-blois:
     the Beauce: "the plain north of the Loire that army-1429-beauce crosses, inside the english-siege-1428 zone and mostly outside this frame."
 storming-saint-loup:
   bbox: [1.885, 47.885, 1.965, 47.92]
-  zones: [france-1422, english-siege-1428, burgundy-1420, brittany-1407]
+  zones: [france-siege-1428, english-siege-1428, burgundy-1420, brittany-1407]
   routes:
     - id: french-1429-saint-loup
       family: france
@@ -89,7 +89,7 @@ storming-saint-loup:
     Orléans: "the city, the start of french-1429-saint-loup; the base map shows it, and from-blois marks it."
 the-augustins:
   bbox: [1.86, 47.885, 1.96, 47.912]
-  zones: [france-1422, english-siege-1428, burgundy-1420, brittany-1407]
+  zones: [france-siege-1428, english-siege-1428, burgundy-1420, brittany-1407]
   routes:
     - id: french-1429-crossing
       family: france
@@ -118,7 +118,7 @@ the-augustins:
     the Loire: "drawn on the base map; the island and the forts on its banks are marked."
 the-tourelles:
   bbox: [1.885, 47.888, 1.93, 47.906]
-  zones: [france-1422, english-siege-1428, burgundy-1420, brittany-1407]
+  zones: [france-siege-1428, english-siege-1428, burgundy-1420, brittany-1407]
   routes:
     - id: townsmen-1429-bridge
       family: france
@@ -138,7 +138,7 @@ the-tourelles:
     the Loire: "drawn on the base map; Glasdale and his men drown in it below the drawbridge, which the Tourelles marker names."
 the-english-march-away:
   bbox: [1.55, 47.72, 2.25, 48.02]
-  zones: [france-1422, english-siege-1428, burgundy-1420, brittany-1407]
+  zones: [france-siege-1428, english-siege-1428, burgundy-1420, brittany-1407]
   routes:
     - id: talbot-1429-meung
       family: english

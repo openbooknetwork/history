@@ -1,6 +1,6 @@
 the-voices:
   bbox: [3.9, 47.8, 6.6, 49.3]
-  zones: [france-1422, english-1428, burgundy-1420, brittany-1407, lorraine-1412, bar-1412]
+  zones: [france-1428, english-1428, burgundy-1420, brittany-1407, lorraine-1412, bar-1412]
   routes:
     - id: joan-1428-vaucouleurs
       family: joan
@@ -35,7 +35,7 @@ the-voices:
     Lorraine: "the duchy, shown by the lorraine-1412 zone; Neufchâteau is marked."
 salisbury-on-the-loire:
   bbox: [1.0, 47.45, 2.9, 48.95]
-  zones: [france-1422, english-siege-1428, burgundy-1420, brittany-1407]
+  zones: [france-siege-1428, english-siege-1428, burgundy-1420, brittany-1407]
   routes:
     - id: salisbury-1428
       family: english
@@ -88,7 +88,7 @@ salisbury-on-the-loire:
     the Portereau: "the suburb south of the bridge where Salisbury camped, the last station of his route; one icon at Orléans is enough at this frame."
 vaucouleurs-again:
   bbox: [5.2, 48.25, 6.6, 48.95]
-  zones: [france-1422, english-siege-1428, burgundy-1420, brittany-1407, lorraine-1412, bar-1412]
+  zones: [france-siege-1428, english-siege-1428, burgundy-1420, brittany-1407, lorraine-1412, bar-1412]
   routes:
     - id: joan-1429-burey
       family: joan
@@ -112,7 +112,7 @@ vaucouleurs-again:
     Lorraine: "the duchy, shown by the lorraine-1412 zone; Nancy and Saint-Nicolas-de-Port are marked in it."
 eleven-days:
   bbox: [-0.2, 46.8, 6.2, 49.0]
-  zones: [france-1422, english-siege-1428, burgundy-1420, brittany-1407, lorraine-1412, bar-1412]
+  zones: [france-siege-1428, english-siege-1428, burgundy-1420, brittany-1407, lorraine-1412, bar-1412]
   routes:
     - id: joan-1429-chinon
       family: joan
@@ -136,7 +136,7 @@ eleven-days:
     the Sologne: "Lowell's ride across the Sologne after Gien is told; a region, not a place, and the route crosses it."
 chinon-and-poitiers:
   bbox: [-0.4, 46.3, 2.2, 48.0]
-  zones: [france-1422, english-siege-1428, burgundy-1420, brittany-1407]
+  zones: [france-siege-1428, english-siege-1428, burgundy-1420, brittany-1407]
   routes:
     - id: joan-1429-blois
       family: joan

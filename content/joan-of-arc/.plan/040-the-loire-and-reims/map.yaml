@@ -1,6 +1,6 @@
 jargeau:
   bbox: [1.2, 47.1, 2.5, 48.1]
-  zones: [france-1422, english-siege-1428, burgundy-1420, brittany-1407]
+  zones: [france-siege-1428, english-siege-1428, burgundy-1420, brittany-1407]
   routes:
     - id: france-1429-jargeau
       family: france
@@ -20,7 +20,7 @@ jargeau:
     the Sologne: "the land the road crosses between Selles and Orléans; a region, not a place."
 meung-and-beaugency:
   bbox: [1.1, 47.55, 2.7, 48.95]
-  zones: [france-1422, english-siege-1428, burgundy-1420, brittany-1407]
+  zones: [france-siege-1428, english-siege-1428, burgundy-1420, brittany-1407]
   routes:
     - id: france-1429-beaugency
       family: france
@@ -61,7 +61,7 @@ meung-and-beaugency:
     Selles: "named as where Laval heard of Richemont's force; marked on jargeau."
 patay:
   bbox: [1.2, 47.7, 2.7, 48.75]
-  zones: [france-1422, english-1429, burgundy-1420, brittany-1407]
+  zones: [france-1428, english-1429, burgundy-1420, brittany-1407]
   routes:
     - id: english-1429-patay
       family: english
@@ -108,7 +108,7 @@ patay:
     the Beauce: "the plain north of the Loire, cleared of the English; Janville, Montpipeau and Saint-Sigismond are marked in it."
 auxerre-and-troyes:
   bbox: [1.7, 47.35, 4.6, 48.6]
-  zones: [france-1422, english-1429, burgundy-1420, brittany-1407]
+  zones: [france-1428, english-1429, burgundy-1420, brittany-1407]
   routes:
     - id: france-1429-gien
       family: france
@@ -137,7 +137,7 @@ auxerre-and-troyes:
     Reims: "named as the king's goal and in Auxerre's promise; outside the frame, marked on reims."
 reims:
   bbox: [3.6, 48.1, 4.8, 49.45]
-  zones: [france-1422, english-reims-1429, burgundy-1420, brittany-1407]
+  zones: [france-reims-1429, english-reims-1429, burgundy-1420, brittany-1407]
   routes:
     - id: france-1429-reims
       family: france
@@ -160,7 +160,7 @@ reims:
     Champagne: "a province, shown by the english zone with its southern and central part gone; the towns that opened are marked."
 the-towns-come-over:
   bbox: [2.4, 48.4, 4.3, 49.7]
-  zones: [france-1422, english-aug-1429, burgundy-1420, brittany-1407]
+  zones: [france-aug-1429, english-aug-1429, burgundy-1420, brittany-1407]
   routes:
     - id: france-1429-provins
       family: france

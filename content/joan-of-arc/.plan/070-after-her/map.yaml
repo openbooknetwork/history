@@ -1,6 +1,6 @@
 burgundy-changes-sides:
   bbox: [0.6, 48.3, 4.2, 50.8]
-  zones: [france-1422, english-sep-1429, burgundy-1420, brittany-1407]
+  zones: [france-sep-1429, english-sep-1429, burgundy-1420, brittany-1407]
   markers:
     notre-dame-1431: { name: Notre-Dame, what: "the cathedral of Paris, where Cardinal Beaufort crowns Henry VI King of France on Sunday 16 December 1431 (the Bourgeois of Paris and Ramsay; Monstrelet has the 17th), in a Paris that holds for him; about 48.853 N 2.350 E. In the english colour", basis: sourced, rank: 2 }
     arras-1435: { name: Arras, what: "the Duke of Burgundy's town, where the congress sits in the summer of 1435; the English envoys leave on 6 September, and on 21 September Philip the Good seals his separate peace with Charles VII in the abbey of Saint-Vaast and is absolved of his oaths to the English; about 50.29 N 2.78 E. In the burgundy colour", basis: sourced, rank: 2 }
@@ -16,7 +16,7 @@ burgundy-changes-sides:
     Normandy: "a province; English Normandy is the english zone."
 paris-opens:
   bbox: [0.7, 48.4, 3.6, 50.1]
-  zones: [france-1422, english-1436, burgundy-1420, brittany-1407]
+  zones: [france-1436, english-1436, burgundy-1420, brittany-1407]
   routes:
     - id: richemont-1436-saint-denis
       family: france
@@ -56,7 +56,7 @@ paris-opens:
     Gascony: "a province outside the frame; the english zone holds it."
 normandy-won-back:
   bbox: [-2.3, 47.9, 1.9, 50.0]
-  zones: [france-1422, english-1449, burgundy-1420, brittany-1407]
+  zones: [france-1449, english-1449, burgundy-1420, brittany-1407]
   routes:
     - id: kyriell-1450-formigny
       family: english
@@ -107,7 +107,7 @@ normandy-won-back:
     Brittany: "the duchy; the brittany zone, and Fougères is marked in it."
 castillon:
   bbox: [-2.2, 43.2, 1.0, 45.9]
-  zones: [france-1422, english-1452, burgundy-1420, brittany-1407]
+  zones: [france-1452, english-1452, burgundy-1420, brittany-1407]
   routes:
     - id: talbot-1452-bordeaux
       family: english
@@ -136,7 +136,7 @@ castillon:
     Gascony: "the duchy; English Gascony of 1452–1453 is the english zone."
 the-retrial:
   bbox: [-0.2, 45.4, 6.4, 51.1]
-  zones: [france-1422, english-1451, burgundy-1420, brittany-1407, bar-1412, lorraine-1412]
+  zones: [france-1451, english-1451, burgundy-1420, brittany-1407, bar-1412, lorraine-1412]
   markers:
     notre-dame-1455: { name: Notre-Dame, what: "the cathedral of Paris, where on 7 November 1455 Isabelle Romée, in mourning, with her sons Jean and Pierre, presents the papal rescript and her petition to the judges; a second public sitting follows on 17 November, and witnesses are heard at Paris in April and May 1456; about 48.853 N 2.350 E. In the france colour", basis: sourced, rank: 2 }
     domremy-1456: { name: Domrémy, what: "her village, where with Vaucouleurs the witnesses of her childhood are heard in January and February 1456; about 48.44 N 5.67 E. In the france colour", basis: sourced, rank: 1 }
@@ -160,12 +160,12 @@ afterwards:
   markers:
     orleans-8-may: { name: Orléans, what: "the city that keeps each 8 May the procession ordered after the relief of 1429, with candles, to the Augustins and with a station wherever the fighting had been; the city accounts pay for it, and for a play at the bridge, in 1435; a procession a fortnight after the sentence of 1456; Bishop Dupanloup's panegyric of 8 May 1869 and the bishops' letter that asks for her canonisation; about 47.902 N 1.909 E. In the france colour", basis: sourced, rank: 1 }
   bare:
-    france-1422: "the page runs from 1456 to 1920, and no zone of 1456 holds for that span (the brief's Map part); the page takes no zone."
-    english-1451: "as france-1422: the page takes no zone."
-    burgundy-1420: "as france-1422: the page takes no zone."
-    brittany-1407: "as france-1422: the page takes no zone."
-    bar-1412: "as france-1422: the page takes no zone."
-    lorraine-1412: "as france-1422: the page takes no zone."
+    france-1451: "the page runs from 1456 to 1920, and no zone of 1456 holds for that span (the brief's Map part); the page takes no zone."
+    english-1451: "as france-1451: the page takes no zone."
+    burgundy-1420: "as france-1451: the page takes no zone."
+    brittany-1407: "as france-1451: the page takes no zone."
+    bar-1412: "as france-1451: the page takes no zone."
+    lorraine-1412: "as france-1451: the page takes no zone."
   unmarked:
     Rome: "St Peter's, of the beatification of 18 April 1909 and the canonisation of 16 May 1920; outside the story's extent, as the overseer's ruling of the pre-plans says."
     the Augustins: "inside Orléans, where the procession goes; the Orléans marker names it."

@@ -75,3 +75,148 @@
   old: '(archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, ch. 17, scholarly)'
   new: '(archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, ch. 17, p. 224, scholarly)'
   commit: 15c15fb0
+- fault: 050-fact-checker-1
+  by: fact-checker
+  file: content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml
+  field: 'montepilloy.routes[france-1429-bray]: stations, passage, why'
+  old: >-
+    stations: ["Provins","Bray","Coulommiers","Crépy"]; passage: "Jean Chartier, Quicherat 4, p. 79, line 3440; the
+    Journal of the Siege, Quicherat 4, p. 188, line 7702; Ramsay, Lancaster and York, ch. 27, p. 402, lines
+    25323-25336"; why: "Chartier has the council at Provins resolve to cross the Seine at Bray, and the Journal has the
+    townsmen let in English and Burgundians the evening before the crossing (050.1); Ramsay has the army retrace its
+    steps northwards by Coulommiers to Crépy-en-Valois, where Bedford's letter reached the king on 11 August (050.2).
+    The towns are given and the roads are not. Ramsay also names La Ferté-Milon, which the line passes near and which
+    the story does not name."
+  new: >-
+    stations: ["Provins","Nangis","Bray","Coulommiers","La Ferté-Milon","Crépy"]; passage: "Jean Chartier, Quicherat 4,
+    p. 79, lines 3440-3450; the Journal of the Siege, Quicherat 4, pp. 187-188, lines 7678-7680 and 7702-7705; Ramsay,
+    Lancaster and York, ch. 27, p. 402, lines 25323-25338; Cagny, Chroniques, 1429, pp. 160-161, lines 7740-7764"; why:
+    "Cagny has the king at Provins from 2 to 5 August, at Coulommiers on 7 August, at La Ferté-Milon on 10 August and at
+    Crépy on 11 August; Ramsay has the army go first from Provins to Nangis as if to give battle (the Journal's army set
+    in the field toward 'la Motte de Nangis'), then turn toward Bray, find it occupied, and retrace its steps northwards
+    to Coulommiers, La Ferté-Milon and Crépy-en-Valois (050.1, 050.2). Chartier has the council resolve to cross the
+    Seine at Bray and the van that went ahead to cross killed or robbed there, and the Journal has the townsmen let in
+    English and Burgundians the evening before the crossing; how far the army itself came toward Bray no source read
+    says, so the line reaches the town as the place it turned back from. The towns are given and the roads are not."
+  commit: 58ca455d
+- fault: 050-fact-checker-2
+  by: fact-checker
+  file: content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml
+  field: 'montepilloy.routes[france-1429-montepilloy]: stations, passage, why'
+  old: >-
+    stations: ["Crépy","Montépilloy"]; passage: "Cagny, Chroniques, 1429, pp. 161-162, lines 7778-7803; Ramsay,
+    Lancaster and York, ch. 27, p. 403, line 25392"; why: "Cagny has Joan, Alençon, Vendôme and the marshals ride out on
+    Sunday 14 August and lodge at evening by a hedge near Montépilloy, about two leagues from Senlis (050.3, 050.4).
+    Only the two ends are given."
+  new: >-
+    stations: ["Crépy","Lagny-le-Sec","Dammartin","Baron","Montépilloy"]; passage: "Cagny, Chroniques, 1429, pp.
+    161-162, lines 7763-7772 and 7778-7803; Ramsay, Lancaster and York, ch. 27, p. 403, lines 25370-25396"; why: "Cagny
+    has the king at Crépy on Thursday 11 August, the army at Lagny-le-Sec on the Friday and in the field all Saturday
+    near Dammartin, and on Sunday 14 August Joan, Alençon, Vendôme and the marshals lodged at evening by a hedge near
+    Montépilloy, about two leagues from Senlis; Ramsay has the king advance to Lagny-le-Sec with his van at Dammartin,
+    the armies skirmish on 13 August at Thieux near Dammartin, the French fall back toward Baron, and next day advance
+    from Baron to Montépilloy (050.3, 050.4). The towns are given and the roads are not."
+  commit: 58ca455d
+- fault: 050-fact-checker-3
+  by: fact-checker
+  file: content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml
+  field: montepilloy.routes[english-1429-montepilloy], and a new route english-1429-paris
+  old: >-
+    stations: ["Paris","Notre-Dame-de-la-Victoire"]; passage: "Ramsay, Lancaster and York, ch. 27, p. 403, lines
+    25390-25395; Cagny, Chroniques, 1429, pp. 162 and 164, lines 7803 and 7880"; why: "Ramsay has Bedford move out from
+    Paris on the road to Senlis and take up his position on the Nonette by Notre-Dame-de-la-Victoire, and Cagny has the
+    English go back by Senlis to Paris on 16 August (050.3, 050.4). The road runs both ways along one line; only its
+    ends are given."
+  new: >-
+    stations: ["Mitry","Thieux","Louvres","Notre-Dame-de-la-Victoire"]; passage: "Ramsay, Lancaster and York, ch. 27, p.
+    403, lines 25385-25396; Cagny, Chroniques, 1429, p. 162, lines 7803-7807"; why: "Ramsay has Bedford, keeping between
+    the French and Paris along an inner circle, reach Mitry, skirmish with the French all 13 August at Thieux near
+    Dammartin, move at evening to Louvres on the road from Paris to Senlis, and next day take up his position on the
+    Nonette by Notre-Dame-de-la-Victoire, which Cagny has half a league from Senlis (050.3, 050.4). His march of early
+    August from Paris by Corbeil and Melun to Montereau (the Journal of the Siege, Ramsay) and his road from Montereau
+    to Mitry are not drawn: no source read gives the second. The towns are given and the roads are not." -- and the new
+    route english-1429-paris, family english, basis reconstruction: stations:
+    ["Notre-Dame-de-la-Victoire","Senlis","Paris"]; passage: "Cagny, Chroniques, 1429, p. 164, lines 7884-7886; Ramsay,
+    Lancaster and York, ch. 27, p. 403, lines 25404-25405"; why: "Cagny has news come about noon on 16 August that the
+    English were going back to Senlis and straight to Paris, and Ramsay has Bedford fall back to Senlis (050.3). The
+    towns are given and the roads are not."
+  commit: 58ca455d
+- fault: 050-fact-checker-4
+  by: fact-checker
+  file: content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml
+  field: 'back-to-the-loire.routes[france-1429-gien]: stations, passage, why'
+  old: >-
+    stations: ["Saint-Denis","Lagny","Provins","Bray","a ford of the Yonne below Sens","Courtenay","Montargis","Gien"];
+    passage: "Cagny, Chroniques, 1429, pp. 169-170, lines 8100-8121; the Journal of the Siege, Quicherat 4, p. 200,
+    lines 8193-8198; Lowell, Joan of Arc, ch. 13, p. 179 n., line 7896"; why: "Cagny has the king leave Saint-Denis on
+    Tuesday 13 September and dine at Gien on Wednesday 21 September; the Journal names Lagny on the Marne and Bray on
+    the Seine, and Lowell the crossings of the Marne at Lagny, the Seine at Bray and the Yonne near Sens; the research
+    line names Provins, Courtenay and Montargis (050.29). The towns are given and the roads are not."
+  new: >-
+    stations: ["Saint-Denis","Lagny","Provins","Bray","a ford of the Yonne below
+    Sens","Courtenay","Château-Renard","Montargis","Gien"]; passage: "Cagny, Chroniques, 1429, pp. 169-170, lines
+    8100-8121; the Journal of the Siege, Quicherat 4, p. 200, lines 8193-8205; Lowell, Joan of Arc, ch. 13, p. 179 n.,
+    lines 7901-7902"; why: "Cagny has the king leave Saint-Denis on Tuesday 13 September and dine at Gien on Wednesday
+    21 September; the Journal has him go to Lagny on the Marne, next day to Provins, then to Bray on the Seine, past
+    Sens, which did not open to him, over a ford of the Yonne a little below it, and to Courtenay, Château-Renard,
+    Montargis and at last Gien; Lowell has the Marne crossed at Lagny, the Seine at Bray and the Yonne near Sens
+    (050.29). The towns are given and the roads are not."
+  commit: 58ca455d
+- fault: 050-fact-checker-5
+  by: fact-checker
+  file: content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml
+  field: saint-pierre-and-la-charite.routes[france-1429-la-charite].passage
+  old: Lowell, Joan of Arc, ch. 14, p. 190, line 8339
+  new: Lowell, Joan of Arc, ch. 14, p. 190, line 8345
+  commit: 58ca455d
+- fault: 050-fact-checker-6
+  by: fact-checker
+  file: content/joan-of-arc/.plan/050-paris-and-compiegne/text.yaml
+  field: pages.montepilloy.account
+  old: >-
+    The map shows the army's road from Provins toward Bray and north by Coulommiers to Crépy, out to Montépilloy and
+    back by Crépy to Compiègne, and Bedford's road from Paris to his camp and back, all reconstructions from the towns
+    the sources name,
+  new: >-
+    The map shows the army's road from Provins by Nangis toward Bray and north by Coulommiers and La Ferté-Milon to
+    Crépy, out by Lagny-le-Sec, Dammartin and Baron to Montépilloy and back by Crépy to Compiègne, and Bedford's road
+    from Mitry by Thieux and Louvres to his camp and back by Senlis to Paris, all reconstructions from the towns the
+    sources name,
+  commit: 819faf73
+- fault: 050-fact-checker-7
+  by: fact-checker
+  file: content/joan-of-arc/.plan/names.md
+  field: 'Places: Champagne and the road to Reims; Paris and the Oise'
+  old: (no rows for Nangis, La Ferté-Milon, Château-Renard, Lagny-le-Sec, Dammartin, Baron, Mitry, Thieux, Louvres)
+  new: >-
+    a row for each, after Provins (Nangis, La Ferté-Milon, Château-Renard) and after Crépy (Lagny-le-Sec, Dammartin,
+    Baron, Mitry, Thieux, Louvres), each with its commune and the forms its source has; Lagny-le-Sec always in full,
+    apart from Lagny on the Marne
+  commit: 819faf73
+- fault: 050-fact-checker-8
+  by: fact-checker
+  file: content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml
+  field: montepilloy.unmarked
+  old: (no entries for the new stations)
+  new: >-
+    an entry each for Nangis, La Ferté-Milon, Lagny-le-Sec, Dammartin, Baron, Mitry, Thieux and Louvres, as stations
+    that change nothing on the map, as Provins and Coulommiers have
+  commit: 819faf73
+- fault: 050-fact-checker-9
+  by: fact-checker
+  file: content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml
+  field: back-to-the-loire.unmarked
+  old: (no entry for Château-Renard)
+  new: >-
+    Château-Renard: "a station of the road between Courtenay and Montargis, in the Journal of the Siege; it changes
+    nothing on the map."
+  commit: 819faf73
+- fault: 050-fact-checker-10
+  by: fact-checker
+  file: content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml
+  field: paris.unmarked
+  old: (no entry for Baron)
+  new: >-
+    Baron: "named only in the title of the Baron of Montmorency; the village of Baron is a station on montepilloy and no
+    place on this page."
+  commit: 819faf73

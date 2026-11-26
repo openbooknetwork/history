@@ -1,0 +1,16 @@
+- step: plan-check
+  task: plan-check
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/060-rouen/text.yaml
+    - content/joan-of-arc/.plan/060-rouen/pages.yaml
+    - content/joan-of-arc/.plan/research.md
+    - content/joan-of-arc/.plan/research/060.md
+    - content/joan-of-arc/.plan/faults/060.yaml
+    - content/joan-of-arc/.plan/fixes/060.yaml
+  faults: [060-fact-checker-1, 060-fact-checker-2, 060-fact-checker-3, 060-fact-checker-4, 060-fact-checker-5, 060-fact-checker-6, 060-fact-checker-7, 060-fact-checker-8]
+  unresolved: []
+  stale:
+    - content/joan-of-arc/.plan/research-060.md
+    - content/joan-of-arc/.plan/passages-060.md
+    - content/joan-of-arc/.plan/passages-060-part.md

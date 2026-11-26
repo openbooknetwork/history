@@ -411,6 +411,9 @@ old name without it, as the sources and the histories do, and "Today" gives the 
 | Crécy | Charles VII's from August 1429 | Crécy-la-Chapelle, Seine-et-Marne | 040 (040.81) | Crecy-en-Brie |
 | Coulommiers | Charles VII's from August 1429 | Coulommiers, Seine-et-Marne | 040 (040.81) | |
 | Provins | Charles VII's from 2 August 1429 | Provins, Seine-et-Marne | 040 (040.80) | |
+| Nangis | where the king's army went from Provins on 5 August 1429 (Ramsay) | Nangis, Seine-et-Marne | 050 (a route station, 050.1; Ramsay and the Journal du siège) | la Motte de Nangis; la Motte de Maugis (OCR) |
+| La Ferté-Milon | the king's lodging of 10 August 1429 (Cagny) | La Ferté-Milon, Aisne | 050 (a route station, 050.1; Cagny and Ramsay) | la Ferté Milon; La Fert^-Milon (OCR) |
+| Château-Renard | on the king's road from Courtenay to Montargis, September 1429 | Château-Renard, Loiret | 050 (a route station, 050.29; the Journal du siège) | Chasteau-Regnart |
 | Bray | Anglo-Burgundian in August 1429; yielded to the king in September 1429 | Bray-sur-Seine, Seine-et-Marne | 050 (050.1) | Bray sur Saine |
 | Sens | whole story | Sens, Yonne | 040 (040.86) | |
 | Courtenay | whole story | Courtenay, Loiret | 050 (050.29) | |
@@ -446,6 +449,12 @@ old name without it, as the sources and the histories do, and "Today" gives the 
 | Meaux | besieged by Henry V 1421–1422 | Meaux, Seine-et-Marne | 010 (010.50) | |
 | Montereau | where John the Fearless was killed on the bridge | Montereau-Fault-Yonne, Seine-et-Marne | 010 (010.40) | Montereau-fiiut-Ycmne (OCR) |
 | Crépy | Charles VII's from August 1429 | Crépy-en-Valois, Oise | 050 (050.1) | Crespy; Crepy-en-Valois |
+| Lagny-le-Sec | the king's army's lodging of 12 August 1429; always in full, apart from Lagny on the Marne | Lagny-le-Sec, Oise | 050 (a route station, 050.3; Cagny and Ramsay) | Laingni le Sec |
+| Dammartin | near which the king held the field on 13 August 1429 | Dammartin-en-Goële, Seine-et-Marne | 050 (a route station, 050.3; Cagny and Ramsay) | Dammartin en Gouelle |
+| Baron | whence the French advanced to Montépilloy on 14 August 1429 (Ramsay) | Baron, Oise | 050 (a route station, 050.3; Ramsay) | |
+| Mitry | where Bedford had come by 13 August 1429 (Ramsay) | Mitry-Mory, Seine-et-Marne | 050 (a route station, 050.3; Ramsay) | |
+| Thieux | where the armies skirmished on 13 August 1429 (Ramsay) | Thieux, Seine-et-Marne | 050 (a route station, 050.3; Ramsay) | |
+| Louvres | Bedford's halt of the evening of 13 August 1429, on the road from Paris to Senlis (Ramsay) | Louvres, Val-d'Oise | 050 (a route station, 050.3; Ramsay) | |
 | Montépilloy | where the armies faced each other on 14–15 August 1429 | Montépilloy, Oise | 050 (050.3) | Montpillour; Montepilloy |
 | Notre-Dame-de-la-Victoire | the abbey on the Nonette by which Bedford camped | Senlis, Oise (ruins) | 050 (050.4) | |
 | Senlis | Charles VII's from August 1429 | Senlis, Oise | 050 (050.3) | |

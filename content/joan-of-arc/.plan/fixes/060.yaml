@@ -238,3 +238,59 @@
   old: "1431-01-09"
   new: "1431-01-03"
   commit: b405e728
+- fault: 060-fact-checker-1
+  by: fact-checker
+  file: content/joan-of-arc/.plan/060-rouen/text.yaml
+  field: pages.beaulieu-and-beaurevoir.account
+  old: "Ramsay, from a document of the record, Beaurevoir"
+  new: "Ramsay, from a document of Quicherat's fifth volume, Beaurevoir"
+  commit: 819faf73
+- fault: 060-fact-checker-2
+  by: fact-checker
+  file: content/joan-of-arc/.plan/060-rouen/text.yaml
+  field: pages.beaulieu-and-beaurevoir.account
+  old: "a pension of 200 or 300 to the Bastard"
+  new: "a pension of 200 or 300 pounds to the Bastard"
+  commit: 819faf73
+- fault: 060-fact-checker-3
+  by: fact-checker
+  file: content/joan-of-arc/.plan/060-rouen/text.yaml
+  field: pages.beaulieu-and-beaurevoir.account
+  old: "Lang reckons the tower about sixty feet high, and gives no measure for it (060.10)."
+  new: "Lang reckons the tower about sixty feet high, an estimate he rests on no measurement (060.10)."
+  commit: 819faf73
+- fault: 060-fact-checker-4
+  by: fact-checker
+  file: content/joan-of-arc/.plan/060-rouen/text.yaml
+  field: pages.beaulieu-and-beaurevoir.disputes
+  old: "the body gives Lang's about sixty feet with his name and says that he gives no measure;"
+  new: "the body gives Lang's about sixty feet with his name, as his estimate;"
+  commit: 819faf73
+- fault: 060-fact-checker-5
+  by: fact-checker
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: the-court.tells
+  old: "in whose diocese she was taken and whose see"
+  new: "in whose diocese, by the record, she was taken and whose see"
+  commit: 819faf73
+- fault: 060-fact-checker-6
+  by: fact-checker
+  file: content/joan-of-arc/.plan/060-rouen/text.yaml
+  field: pages.saint-ouen.account
+  old: "while witnesses of 1450 to 1456, Taquel and, in Thurston, five with Massieu, say the schedule read to her was some six lines,"
+  new: "while witnesses of 1450 to 1456 say the schedule read to her was short, about six lines in Taquel's words and a few lines in those of the five with Massieu whom Thurston cites,"
+  commit: 819faf73
+- fault: 060-fact-checker-7
+  by: fact-checker
+  file: content/joan-of-arc/.plan/research.md
+  field: "060.52"
+  old: "witnesses of 1450-1456 (Taquel; five, with Massieu, in Thurston) say the schedule read to her was some six lines;"
+  new: "witnesses of 1450-1456 say the schedule read to her was short: about six lines, Taquel; a few lines, five witnesses with Massieu, in Thurston;"
+  commit: 819faf73
+- fault: 060-fact-checker-8
+  by: fact-checker
+  file: content/joan-of-arc/.plan/research/060.md
+  field: "060.52"
+  old: "witnesses of 1450-1456 (Taquel; five, with Massieu, in Thurston) say the schedule read to her was some six lines;"
+  new: "witnesses of 1450-1456 say the schedule read to her was short: about six lines, Taquel; a few lines, five witnesses with Massieu, in Thurston;"
+  commit: 819faf73

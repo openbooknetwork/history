@@ -5,7 +5,7 @@ montepilloy:
     - id: france-1429-bray
       family: france
       stations: [Provins, Nangis, Bray, Coulommiers, La Ferté-Milon, Crépy]
-      passage: "Jean Chartier, Quicherat 4, p. 79, lines 3439-3447; the Journal of the Siege, Quicherat 4, pp. 187-188, lines 7678-7680 and 7702-7705; Ramsay, Lancaster and York, ch. 27, p. 402, lines 25323-25338; Cagny, Chroniques, 1429, pp. 160-161, lines 7740-7764"
+      passage: "Jean Chartier, Quicherat 4, p. 79, lines 3440-3450; the Journal of the Siege, Quicherat 4, pp. 187-188, lines 7678-7680 and 7702-7705; Ramsay, Lancaster and York, ch. 27, p. 402, lines 25323-25338; Cagny, Chroniques, 1429, pp. 160-161, lines 7740-7764"
       basis: reconstruction
       why: "Cagny has the king at Provins from 2 to 5 August, at Coulommiers on 7 August, at La Ferté-Milon on 10 August and at Crépy on 11 August; Ramsay has the army go first from Provins to Nangis as if to give battle (the Journal's army set in the field toward 'la Motte de Nangis'), then turn toward Bray, find it occupied, and retrace its steps northwards to Coulommiers, La Ferté-Milon and Crépy-en-Valois (050.1, 050.2). Chartier has the council resolve to cross the Seine at Bray and the van that went ahead to cross killed or robbed there, and the Journal has the townsmen let in English and Burgundians the evening before the crossing; how far the army itself came toward Bray no source read says, so the line reaches the town as the place it turned back from. The towns are given and the roads are not."
     - id: france-1429-montepilloy
@@ -29,7 +29,7 @@ montepilloy:
     - id: english-1429-paris
       family: english
       stations: [Notre-Dame-de-la-Victoire, Senlis, Paris]
-      passage: "Cagny, Chroniques, 1429, p. 164, lines 7882-7885; Ramsay, Lancaster and York, ch. 27, p. 403, lines 25404-25405"
+      passage: "Cagny, Chroniques, 1429, p. 164, lines 7884-7886; Ramsay, Lancaster and York, ch. 27, p. 403, lines 25404-25405"
       basis: reconstruction
       why: "Cagny has news come about noon on 16 August that the English were going back to Senlis and straight to Paris, and Ramsay has Bedford fall back to Senlis (050.3). The towns are given and the roads are not."
   markers:
@@ -50,6 +50,14 @@ montepilloy:
   unmarked:
     Provins: "the start of the army's road, a station of france-1429-bray; marked in 040."
     Coulommiers: "a station of the road north from Bray; marked in 040."
+    Nangis: "a station of france-1429-bray, where Ramsay has the army go from Provins as if to give battle; it changes nothing on the map."
+    La Ferté-Milon: "a station of france-1429-bray, where Cagny has the king on 10 August; it changes nothing on the map."
+    Lagny-le-Sec: "a station of france-1429-montepilloy, the army's lodging of 12 August; always in full, so that it is not taken for Lagny on the Marne; it changes nothing on the map."
+    Dammartin: "a station of france-1429-montepilloy, near which the king held the field on 13 August; it changes nothing on the map."
+    Baron: "a station of france-1429-montepilloy, whence Ramsay has the French advance to Montépilloy; it changes nothing on the map."
+    Mitry: "the first station of english-1429-montepilloy, where Ramsay has Bedford by 13 August; it changes nothing on the map."
+    Thieux: "a station of english-1429-montepilloy, Ramsay's skirmish of 13 August; it changes nothing on the map."
+    Louvres: "a station of english-1429-montepilloy, on the road from Paris to Senlis; it changes nothing on the map."
     Montereau: "where Bedford dated his letter of challenge on 7 August; it changes nothing on the map, and it is marked in 010."
     Paris: "Bedford's city, the start of english-1429-montepilloy; marked on paris."
     Arras: "where the king's embassy went to the Duke of Burgundy; outside the frame."
@@ -96,6 +104,7 @@ paris:
     the Porte Saint-Denis: "marked as porte-saint-denis-1429, whose label is the name without the article."
     the Seine: "the river is drawn on the base map; the bridge over it is placed by no source."
     Bar: "named only in the title of René, Duke of Bar; no place on this page."
+    Baron: "named only in the title of the Baron of Montmorency; the village of Baron is a station on montepilloy and no place on this page."
 back-to-the-loire:
   bbox: [2.0, 47.55, 3.55, 49.0]
   zones: [france-1422, english-sep-1429, burgundy-1420, brittany-1407]
@@ -115,6 +124,7 @@ back-to-the-loire:
     Provins: "a station of the road; marked in 040."
     Sens: "the Yonne is forded below it; a station of the road."
     Courtenay: "a station of the road; it changes nothing on the map."
+    Château-Renard: "a station of the road between Courtenay and Montargis, in the Journal of the Siege; it changes nothing on the map."
     Montargis: "a station of the road; it changes nothing on the map."
     Senlis: "Vendôme is left there as governor; outside the frame, marked on montepilloy."
     Compiègne: "Flavy is left there as captain; outside the frame, marked on montepilloy."

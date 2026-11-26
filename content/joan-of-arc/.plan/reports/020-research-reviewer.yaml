@@ -1,0 +1,18 @@
+- step: research
+  task: review
+  status: faults
+  changed_files:
+    - content/joan-of-arc/.plan/research/020.md
+    - content/joan-of-arc/.plan/passages-020-part.md
+    - content/joan-of-arc/.plan/faults/020.yaml
+    - content/joan-of-arc/.plan/fixes/020.yaml
+  faults: [020-research-reviewer-1, 020-research-reviewer-2, 020-research-reviewer-3, 020-research-reviewer-4, 020-research-reviewer-5, 020-research-reviewer-6, 020-research-reviewer-7, 020-research-reviewer-8, 020-research-reviewer-9, 020-research-reviewer-10, 020-research-reviewer-11]
+  unresolved: []
+  stale: []
+  checked: {full: 55, sampled: 6}
+  notes:
+    - "Faults 1-10 are fixed in the part file and logged; 11 (no line for Vaucouleurs on the upper Meuse, or for crossing the Loire at Gien) is open for the researcher."
+    - "quotes-check: ok, 192 quotes after the fixes. research-gates cannot run on a part file (it reads research.md, not written yet); counted by hand: 7 scholarly and 7 primary files in 020, against the lowest scholarly count of 5 (050)."
+    - "No author has two works in 020 (Ramsay 1 and Beaucourt 2 only); Barrett and Murray are taken as one record, the Journal and the Chronique de la Pucelle as one account, Monstrelet's Herrings as Wavrin's."
+    - "The Coverage sentences hold after a grep: no read file gives the laager's size or a plan of the field; Lowell (3507-3511) and Thurston say the Poitiers minutes are lost."
+    - "Card: research-gates.mjs takes no --digest/--part flag, so the reviewer cannot count a part file before the merge."

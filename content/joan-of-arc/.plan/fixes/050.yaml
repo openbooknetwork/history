@@ -551,3 +551,66 @@
   old: "agreed"
   new: "disputed"
   commit: 6c6d72c8
+- fault: 050-section-reviewer-17
+  by: section-coordinator
+  file: content/joan-of-arc/shared/battles/paris-1429/battle.yaml
+  field: sides[0].commanders
+  old: '"Marshal de Boussac"'
+  new: '"Marshal de Boussac (Ramsay)"'
+  commit: 7c8529c8
+- fault: 050-section-reviewer-17
+  by: section-coordinator
+  file: content/joan-of-arc/.plan/050-paris-and-compiegne/battles.yaml
+  field: paris-1429 sides[0].commanders
+  old: Marshal de Boussac
+  new: '"Marshal de Boussac (Ramsay)"'
+  commit: 7c8529c8
+- fault: 050-section-reviewer-13
+  by: cartographer
+  file: content/joan-of-arc/.plans/pages050.mjs
+  field: pages[montepilloy].markers[bray-held-1429].note (and so its page's markers.yaml)
+  old: "but its townsmen let in English and Burgundian troops overnight"
+  new: "but English troops come in the night before (Chartier; the Journal of the Siege has its townsmen let in English and Burgundians)"
+  commit: 7c8529c8
+- fault: 050-section-reviewer-14
+  by: cartographer
+  file: content/joan-of-arc/.plans/pages050.mjs
+  field: pages[saint-pierre-and-la-charite].markers[bourges-1429].note (and so its page's markers.yaml)
+  old: "Joan stays about three weeks in October 1429 in Marguerite La Touroulde's house"
+  new: "Joan stays about three weeks in October 1429 in Marguerite La Touroulde's house (her deposition of 1456)"
+  commit: 7c8529c8
+- fault: 050-section-reviewer-15
+  by: cartographer
+  file: content/joan-of-arc/.plans/pages050.mjs
+  field: pages[saint-pierre-and-la-charite].markers[saint-pierre-le-moutier].note (and so its page's markers.yaml)
+  old: "Joan stops her soldiers pillaging its church"
+  new: "Joan stops her soldiers pillaging its church (Regnault Thierry, 1456)"
+  commit: 7c8529c8
+- fault: 050-section-reviewer-16
+  by: cartographer
+  file: content/joan-of-arc/.plans/pages050.mjs
+  field: pages[saint-pierre-and-la-charite].markers[la-charite].note (and so its page's markers.yaml)
+  old: "an assault fails and its siege is raised"
+  new: "an assault is made, in which a baron of Dauphiné is killed, and its siege is raised"
+  commit: 7c8529c8
+- fault: 050-fact-checker-34
+  by: fact-checker
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/text/en.md
+  field: body
+  old: as her hostess told the retrial in 1456.
+  new: as her hostess later told the retrial.
+  commit: 7c8529c8
+- fault: 050-fact-checker-35
+  by: fact-checker
+  file: content/joan-of-arc/.plans/pages050.mjs
+  field: pages[saint-pierre-and-la-charite].markers[bourges-1429].note (and the same line of its page's markers.yaml)
+  old: "Joan stays about three weeks in October 1429 in Marguerite La Touroulde's house (her deposition of 1456) and gathers her force"
+  new: "Joan stays about three weeks in October 1429 in Marguerite La Touroulde's house (her deposition at the retrial) and gathers her force"
+  commit: 7c8529c8
+- fault: 050-fact-checker-36
+  by: fact-checker
+  file: content/joan-of-arc/.plans/pages050.mjs
+  field: pages[saint-pierre-and-la-charite].markers[saint-pierre-le-moutier].note (and the same line of its page's markers.yaml)
+  old: "Joan stops her soldiers pillaging its church (Regnault Thierry, 1456)"
+  new: "Joan stops her soldiers pillaging its church (Regnault Thierry, at the retrial)"
+  commit: 7c8529c8

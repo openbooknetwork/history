@@ -18,13 +18,18 @@ const P = {
   // Le Crotoy stands at about [1.625, 50.217], which the base map's coarse coast leaves in the bay: the point is set
   // on that map's land, about 1.5 km north-east, so the marker sits in a zone and the route stays on land
   le_crotoy: [1.645, 50.23], rouen: [1.099, 49.443], beauvais: [2.08, 49.43],
-  paris: [2.352, 48.857],
+  paris: [2.352, 48.857], noyon: [3.0, 49.58], saint_quentin: [3.29, 49.85],
+  // the Somme on the base map's line at Picquigny, below Amiens
+  somme: [2.144, 49.944],
   // the castle of Drugy, today in the commune of Saint-Riquier (names.md), just south of the town
   drugy: [1.947, 50.125],
   // Rouen, for the three pages inside the city: the castle's ward on the Bouvreuil hill (no source places the chapel,
   // the hall or her cell inside it, so one point in the middle of the ward), the keep at its northern point, the
   // cemetery beside the south side of the abbey church of Saint-Ouen (Lowell), and the Old Market
   castle: [1.0932, 49.4452], keep: [1.0938, 49.4461], saintOuen: [1.0995, 49.4425], oldMarket: [1.0878, 49.4430],
+  // no source read places these three: the archbishop's palace by the east end of the cathedral, the church of
+  // Saint-Sauveur on the north-west of the Old Market, where its foundations lie, and the Seine in mid-stream below it
+  archbishop: [1.0957, 49.4402], saintSauveur: [1.0874, 49.4435], seine: [1.0885, 49.4368],
 };
 
 const route = (name, color, coords, extra = {}) => ({ type: 'Feature',
@@ -53,10 +58,16 @@ const pages = [
         note: "John of Luxembourg's castle in the Vermandois, where Joan, held some four months by her own count, refuses a woman's dress and leaps from its tower, 1430" },
       'clairoix-beaulieu-1430': { lnglat: P.clairoix, icon: 'tent', color: 'burgundy', label: 'Clairoix',
         note: "John of Luxembourg keeps Joan three or four days in his quarters here before Compiègne (Lang), and sends her on to Beaulieu, May 1430" },
+      'compiegne-summons-1430': { lnglat: P.compiegne, icon: 'shield', color: 'france', label: 'Compiègne', rank: 1,
+        note: "Joan is taken here in May 1430; on 14 July 1430, in the Duke of Burgundy's camp before the besieged town, Pierre Cauchon summons her captors to give her up for trial" },
+      'noyon-1430': { lnglat: P.noyon, icon: 'map-pin', color: 'burgundy', label: 'Noyon',
+        note: 'A Burgundian town of Picardy, near which stands Beaulieu (Ramsay)' },
+      'saint-quentin-1430': { lnglat: P.saint_quentin, icon: 'map-pin', color: 'burgundy', label: 'Saint-Quentin',
+        note: 'A Burgundian town of the Vermandois, near which stands Beaurevoir (Ramsay)' },
     } },
   { dir: '020-sold-to-the-english', id: 'sold-to-the-english',
     title: 'Sold to the English', date: 'October – December 1430', when: '1430-10',
-    bbox: [0.85, 49.2, 3.6, 50.55],
+    bbox: [0.85, 48.7, 3.6, 50.55],
     zones: ['france-1430', 'english-1430', 'burgundy-1430', 'brittany-1407'],
     routes: ['joan-1430-le-crotoy'],
     routeFiles: {
@@ -79,9 +90,13 @@ const pages = [
         note: "Joan is taken from John of Luxembourg's castle to Arras in the latter part of October 1430" },
       'drugy-1430': { lnglat: P.drugy, icon: 'castle', color: 'burgundy', label: 'Drugy',
         note: 'Joan passes a night at this castle on her road to Le Crotoy (Lang), 1430' },
+      'paris-university-1430': { lnglat: P.paris, icon: 'graduation-cap', color: 'english', label: 'Paris', rank: 1,
+        note: 'On 21 November 1430 the University of Paris writes to Henry VI and to Pierre Cauchon, complains of delay and asks that Joan be tried here' },
+      'somme-1430': { lnglat: P.somme, icon: 'waves', label: 'the Somme',
+        note: 'The river at whose mouth stands Le Crotoy' },
     } },
   { dir: '030-the-court', id: 'the-court',
-    title: 'The court of Pierre Cauchon', date: 'January – February 1431', when: '1431-01-03',
+    title: 'The court of Pierre Cauchon', date: 'January – April 1431', when: '1431-01-03',
     bbox: [0.75, 48.7, 3.0, 49.75],
     zones: ['france-1430', 'english-1430', 'burgundy-1430', 'brittany-1407'],
     routes: [], routeFiles: {},
@@ -92,6 +107,8 @@ const pages = [
         note: "Pierre Cauchon's see, which drove him out in August 1429 and holds for Charles VII, so his court sits at Rouen" },
       'university-of-paris-1431': { lnglat: P.paris, icon: 'graduation-cap', color: 'english', label: 'Paris', rank: 1,
         note: 'The University of Paris presses in November 1430 for her trial, and its doctors, paid twenty sous tournois a day by the English crown, are most of the assessors at Rouen' },
+      'compiegne-diocese-1431': { lnglat: P.compiegne, icon: 'map-pin', color: 'france', label: 'Compiègne',
+        note: "Joan is taken here in May 1430, in Pierre Cauchon's diocese by the record, in that of Soissons by Canon Dunand (Lang)" },
     } },
   { dir: '040-the-questioning', id: 'the-questioning',
     title: 'The questioning', date: '21 February – 12 May 1431', when: '1431-02-21',
@@ -107,7 +124,7 @@ const pages = [
     } },
   { dir: '050-saint-ouen', id: 'saint-ouen',
     title: 'The cemetery of Saint-Ouen', date: '24 – 29 May 1431', when: '1431-05-24',
-    bbox: [1.087, 49.4395, 1.104, 49.4485],
+    bbox: [1.082, 49.438, 1.104, 49.4485],
     zones: ['english-sep-1429'],
     routes: ['joan-1431-saint-ouen'],
     routeFiles: {
@@ -121,10 +138,14 @@ const pages = [
         note: 'On a scaffold here on 24 May 1431, before her judges, Cardinal Beaufort and a great crowd, Guillaume Erard preaches and Joan abjures before her sentence is read to its end; she is sentenced to prison for life' },
       'castle-relapse-1431': { lnglat: P.castle, icon: 'castle', color: 'english', label: 'the castle of Rouen', rank: 1,
         note: "Back in her cell on 24 May 1431, Joan puts on a woman's dress; on 28 May her judges find her in man's dress again, and on 29 May they declare her relapsed" },
+      'archbishops-palace-1431': { lnglat: P.archbishop, icon: 'church', color: 'english', label: "the archbishop's palace",
+        note: 'In its archiepiscopal chapel on 29 May 1431 the judges and assessors find Joan relapsed and summon her to the Old Market for eight the next morning' },
+      'old-market-summons-1431': { lnglat: P.oldMarket, icon: 'flame', color: 'english', label: 'the Old Market',
+        note: 'Joan is summoned to this market for eight o\'clock on 30 May 1431' },
     } },
   { dir: '060-the-old-market', id: 'the-old-market',
     title: 'The Old Market', date: '30 May 1431', when: '1431-05-30',
-    bbox: [1.083, 49.44, 1.0985, 49.4485],
+    bbox: [1.083, 49.433, 1.0985, 49.4485],
     zones: ['english-sep-1429'],
     routes: ['joan-1431-old-market'],
     routeFiles: {
@@ -138,6 +159,10 @@ const pages = [
       'old-market-1431': { lnglat: P.oldMarket, icon: 'flame', color: 'english', label: 'the Old Market', rank: 2,
         image: 'vieux-marche-pyre',
         note: 'At about nine o\'clock on 30 May 1431, beside its church of Saint-Sauveur, Nicolas Midi preaches, Joan is handed over to secular justice and burned, and her ashes are thrown into the Seine' },
+      'saint-sauveur-1431': { lnglat: P.saintSauveur, icon: 'church', color: 'english', label: 'the church of Saint-Sauveur', rank: 1,
+        note: 'Joan is set on a scaffold near it on 30 May 1431, and Jean Massieu has its cross brought for her to look at; it is gone' },
+      'seine-1431': { lnglat: P.seine, icon: 'waves', label: 'the Seine',
+        note: "Joan's ashes are thrown into this river on 30 May 1431" },
     } },
 ];
 

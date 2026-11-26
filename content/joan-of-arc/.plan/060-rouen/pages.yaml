@@ -7,7 +7,7 @@
     Taken at Compiègne, she is held by John of Luxembourg, first at Beaulieu, where she nearly slips out of her
     tower, then at his castle of Beaurevoir, where she leaps from the tower while the English bargain for her.
   rests_on: ["060.1", "060.2", "060.3", "060.4", "060.5", "060.6", "060.7", "060.8", "060.9", "060.10", "060.11", "060.12", "060.17"]
-  markers: [beaulieu-1430, beaurevoir-1430, clairoix-beaulieu-1430]
+  markers: [beaulieu-1430, beaurevoir-1430, clairoix-beaulieu-1430, compiegne-summons-1430, noyon-1430, saint-quentin-1430]
   battles: []
 - id: sold-to-the-english
   title: "Sold to the English"
@@ -18,18 +18,18 @@
     who names the Duke of Burgundy as the seller), and she is taken from Beaurevoir by Arras to Le Crotoy at the
     mouth of the Somme, and from there to Rouen, where she is shut in a tower of the castle.
   rests_on: ["060.13", "060.14", "060.15", "060.16", "060.18", "060.19", "060.20", "060.21", "060.22", "060.23", "060.67", "060.68"]
-  markers: [arras-1430, le-crotoy-1430, rouen-1430, compiegne-relief-1430, beaurevoir-october-1430, drugy-1430]
+  markers: [arras-1430, le-crotoy-1430, rouen-1430, compiegne-relief-1430, beaurevoir-october-1430, drugy-1430, paris-university-1430, somme-1430]
   battles: []
 - id: the-court
   title: "The court of Pierre Cauchon"
-  date: "January – February 1431"
+  date: "January – April 1431"
   when: "1431-01-03"
   tells: >-
     Pierre Cauchon, Bishop of Beauvais, in whose diocese, by the record, she was taken and whose see Charles VII now holds, opens
     the trial at Rouen in English Normandy, with masters of the University of Paris beside him, the vice-inquisitor
     drawn in by March, and the English crown paying: a church court that has to prove her a heretic.
   rests_on: ["060.25", "060.26", "060.27", "060.28", "060.29", "060.30", "060.31", "060.32", "060.33", "060.34", "060.35", "060.36", "060.37", "060.38"]
-  markers: [rouen-castle-1431, beauvais-1431, university-of-paris-1431]
+  markers: [rouen-castle-1431, beauvais-1431, university-of-paris-1431, compiegne-diocese-1431]
   battles: []
 - id: the-questioning
   title: "The questioning"
@@ -51,7 +51,7 @@
     sentenced to prison for life; four days later she is found in man's dress again in her cell, and the judges
     declare her relapsed.
   rests_on: ["060.49", "060.50", "060.51", "060.52", "060.53", "060.54", "060.55", "060.56", "060.57"]
-  markers: [saint-ouen-1431, castle-relapse-1431]
+  markers: [saint-ouen-1431, castle-relapse-1431, archbishops-palace-1431, old-market-summons-1431]
   battles: []
 - id: the-old-market
   title: "The Old Market"
@@ -61,5 +61,5 @@
     On the morning of 30 May she is taken from the castle to the Old Market of Rouen, handed to the secular arm and
     burned, as the record and the witnesses of 1450 to 1456 tell it.
   rests_on: ["060.58", "060.59", "060.60", "060.61", "060.62", "060.63", "060.64", "060.65", "060.66"]
-  markers: [castle-last-morning-1431, old-market-1431]
+  markers: [castle-last-morning-1431, old-market-1431, saint-sauveur-1431, seine-1431]
   battles: []

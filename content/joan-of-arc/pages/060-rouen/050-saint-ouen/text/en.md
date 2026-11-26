@@ -6,7 +6,7 @@ She is sentenced to prison for life, "with the bread of sorrow and water of affl
 
 On Monday 28 May, the day after Trinity Sunday, the judges find her in her cell in man's dress again. The record has her say that her voices told her she had damned herself to save her life, and that she had recanted only for fear of the fire.\*\* Two friars of the court, Martin Ladvenu and Isambart de La Pierre, testified in 1450 that she blamed her prison. Ladvenu said she told him she had been beaten and molested there and insulted by an English lord, and that this was why she wore the man's dress again; Isambart heard her say before many that the English had done her "great wrong and violence" while she wore the woman's dress.
 
-On Tuesday 29 May the judges and assessors meet in the archbishop's chapel in Rouen. They find her relapsed and summon her to the Old Market for eight the next morning. Thurston counts thirty-seven judges.
+On Tuesday 29 May the judges and assessors meet in the chapel of [the archbishop's palace](@archbishops-palace-1431) in Rouen. They find her relapsed and summon her to [the Old Market](@old-market-summons-1431) for eight the next morning. Thurston counts thirty-seven judges.
 
 On the map her road there and back only joins the two places, since no source gives the streets.
 

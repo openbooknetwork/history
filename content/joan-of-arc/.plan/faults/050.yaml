@@ -1005,7 +1005,7 @@
   claim: "050.1"
   introduced: plan
   owner: cartographer
-  state: open
+  state: fixed
 - id: 050-section-reviewer-14
   severity: weak
   file: content/joan-of-arc/.plans/pages050.mjs
@@ -1018,7 +1018,7 @@
   claim: "050.31"
   introduced: plan
   owner: cartographer
-  state: open
+  state: fixed
 - id: 050-section-reviewer-15
   severity: weak
   file: content/joan-of-arc/.plans/pages050.mjs
@@ -1031,7 +1031,7 @@
   claim: "050.36"
   introduced: plan
   owner: cartographer
-  state: open
+  state: fixed
 - id: 050-section-reviewer-16
   severity: weak
   file: content/joan-of-arc/.plans/pages050.mjs
@@ -1044,7 +1044,7 @@
   claim: "050.39"
   introduced: plan
   owner: cartographer
-  state: open
+  state: fixed
 - id: 050-section-reviewer-17
   severity: weak
   file: content/joan-of-arc/shared/battles/paris-1429/battle.yaml
@@ -1057,7 +1057,7 @@
   claim: "050.16"
   introduced: plan
   owner: section-coordinator
-  state: open
+  state: fixed
 - id: 050-overseer-1
   severity: weak
   file: content/joan-of-arc/.plan/research.md
@@ -1085,3 +1085,48 @@
   owner: researcher
   state: fixed
   ruling: "cloud ruling: a claim whose own sources call it still disputed is disputed, and the text gives both sides, as it now does"
+- id: 050-fact-checker-34
+  severity: weak
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/text/en.md
+  field: body
+  replaces: clause
+  old: as her hostess told the retrial in 1456.
+  new: as her hostess later told the retrial.
+  source: 'archive.org-download-jeannedarcmaidof028754mbp-jeannedarcmaidof028754mbp-djvu.txt.txt, lines 13712-13729: "DAME
+    MARGUERITE LA TOUROULDE, widow of the late Bouligny" under the running head "DEPOSITIONS IN PARIS: 1455-6" (Murray, pp.
+    270-272). No file gives 1456 for her deposition; the year came in with 050-section-reviewer-3.'
+  kind: fact
+  claim: "050.31"
+  introduced: fix
+  owner: section-reviewer
+  state: fixed
+- id: 050-fact-checker-35
+  severity: weak
+  file: content/joan-of-arc/.plans/pages050.mjs
+  field: pages[saint-pierre-and-la-charite].markers[bourges-1429].note (and so pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/markers.yaml)
+  replaces: clause
+  old: (her deposition of 1456)
+  new: (her deposition at the retrial)
+  source: 'as 050-fact-checker-34: Murray prints her deposition under "DEPOSITIONS IN PARIS: 1455-6"; the year came in with
+    050-section-reviewer-14.'
+  kind: fact
+  claim: "050.31"
+  introduced: fix
+  owner: cartographer
+  state: fixed
+- id: 050-fact-checker-36
+  severity: wrong
+  file: content/joan-of-arc/.plans/pages050.mjs
+  field: pages[saint-pierre-and-la-charite].markers[saint-pierre-le-moutier].note (and so pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/markers.yaml)
+  replaces: clause
+  old: (Regnault Thierry, 1456)
+  new: (Regnault Thierry, at the retrial)
+  source: 'archive.org-download-jeannedarcmaidof028754mbp-jeannedarcmaidof028754mbp-djvu.txt.txt, line 12592: "MAITRE REGINALD
+    THIERRY, Dean of the Church of Meung-sur-Yevre; Surgeon to the King", between the running heads "DEPOSITIONS AT ORLEANS
+    : 1455 245" and "247" (index: "Thierry, Maitre Reginald, 245"). His deposition stands under 1455, not 1456; the year came
+    in with 050-section-reviewer-15.'
+  kind: fact
+  claim: "050.36"
+  introduced: fix
+  owner: cartographer
+  state: fixed

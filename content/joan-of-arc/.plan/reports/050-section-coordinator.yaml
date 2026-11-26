@@ -47,3 +47,15 @@
     - "The ennoblement of December 1429 is told on saint-pierre-and-la-charite."
     - "Route stations keep to places names.md has: Ramsay's La Ferté-Milon, Baron and Louvres are left out of the stations."
     - "The Compiègne card has three sides, the Burgundians and the English apart, as Monstrelet gives them."
+- step: facts
+  task: fix
+  status: pass
+  changed_files:
+    - content/joan-of-arc/shared/battles/paris-1429/battle.yaml
+    - content/joan-of-arc/.plan/050-paris-and-compiegne/battles.yaml
+    - content/joan-of-arc/.plan/faults/050.yaml
+    - content/joan-of-arc/.plan/fixes/050.yaml
+  faults: []
+  unresolved: []
+  stale: []
+  fixed: [050-section-reviewer-17]

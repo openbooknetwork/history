@@ -81,3 +81,31 @@
     - content/joan-of-arc/.plan/faults/050.yaml
     - content/joan-of-arc/.plan/fixes/050.yaml
     - content/joan-of-arc/.plan/handoff/cartographer.md
+- task: fix
+  step: facts
+  at: '2026-11-26T15:23:33.474Z'
+  before: d7dae5d6de96279e
+  inputs:
+    rules.md: 7ac78d578764d5ae
+    brief.md#050: b08691cfcb33073e
+    050-paris-and-compiegne/pages.yaml#montepilloy: 1d33450441a37681
+    050-paris-and-compiegne/pages.yaml#paris: 692fff610ad2503a
+    050-paris-and-compiegne/pages.yaml#back-to-the-loire: d32f54280be49698
+    050-paris-and-compiegne/pages.yaml#saint-pierre-and-la-charite: 563bb2ae1b8fa4c3
+    050-paris-and-compiegne/pages.yaml#melun-and-lagny: ac893305650793e6
+    050-paris-and-compiegne/pages.yaml#compiegne: 28d4340c55417241
+    050-paris-and-compiegne/map.yaml#montepilloy: 4c9b897a27381d26
+    050-paris-and-compiegne/map.yaml#paris: 5276045f86789db1
+    050-paris-and-compiegne/map.yaml#back-to-the-loire: 685dc6cfb57aeae7
+    050-paris-and-compiegne/map.yaml#saint-pierre-and-la-charite: 65bd9723f84d99fb
+    050-paris-and-compiegne/map.yaml#melun-and-lagny: bfb4f087cd91e595
+    050-paris-and-compiegne/map.yaml#compiegne: a4e1be2e88912fa1
+    names.md#050: e9de24c98b92f29b
+  ended: '2026-11-26T15:25:06.847Z'
+  status: pass
+  outputs:
+    - content/joan-of-arc/.plans/pages050.mjs
+    - content/joan-of-arc/pages/050-paris-and-compiegne/010-montepilloy/markers.yaml
+    - content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/markers.yaml
+    - content/joan-of-arc/.plan/faults/050.yaml
+    - content/joan-of-arc/.plan/fixes/050.yaml

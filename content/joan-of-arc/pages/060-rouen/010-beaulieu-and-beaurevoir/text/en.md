@@ -1,6 +1,6 @@
-Since her capture at Compiègne in May 1430, Joan has been the prisoner of John of Luxembourg, the Burgundian captain besieging the town, whose follower the Bastard of Wandonne took her. Lang has her kept three or four days at [Clairoix](@clairoix-beaulieu-1430) and then sent to John of Luxembourg's castle of [Beaulieu](@beaulieu-1430), near Noyon.
+Since her capture at [Compiègne](@compiegne-summons-1430) in May 1430, Joan has been the prisoner of John of Luxembourg, the Burgundian captain besieging the town, whose follower the Bastard of Wandonne took her. Lang has her kept three or four days at [Clairoix](@clairoix-beaulieu-1430) and then sent to John of Luxembourg's castle of [Beaulieu](@beaulieu-1430), near [Noyon](@noyon-1430).
 
-There, as she told her judges in March 1431, she slipped out "between two pieces of wood" and would have locked her keepers in the tower, but the porter caught sight of her. She is moved to his castle of [Beaurevoir](@beaurevoir-1430), near Saint-Quentin, and kept in one of its towers, about four months by her own count.\*
+There, as she told her judges in March 1431, she slipped out "between two pieces of wood" and would have locked her keepers in the tower, but the porter caught sight of her. She is moved to his castle of [Beaurevoir](@beaurevoir-1430), near [Saint-Quentin](@saint-quentin-1430), and kept in one of its towers, about four months by her own count.\*
 
 @image beaurevoir-tower
 

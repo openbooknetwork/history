@@ -18,3 +18,19 @@
     brief.md#050: 51b0d201182d7fc7
     research.md#050: 7c99e67c81e1d309
     names.md#050: 77fc5539e019c071
+- task: fix
+  step: facts
+  at: '2026-11-26T15:23:35.542Z'
+  before: null
+  inputs:
+    rules.md: 7ac78d578764d5ae
+    brief.md#050: b08691cfcb33073e
+    research.md#050: b9070a2ba28cb54e
+    names.md#050: 4cb16ba40640b4fb
+  ended: '2026-11-26T15:24:34.824Z'
+  status: pass
+  outputs:
+    - content/joan-of-arc/shared/battles/paris-1429/battle.yaml
+    - content/joan-of-arc/.plan/050-paris-and-compiegne/battles.yaml
+    - content/joan-of-arc/.plan/faults/050.yaml
+    - content/joan-of-arc/.plan/fixes/050.yaml

@@ -24,3 +24,15 @@
   faults: []
   unresolved: []
   stale: []
+- step: facts
+  task: fix
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plans/pages050.mjs
+    - content/joan-of-arc/pages/050-paris-and-compiegne/010-montepilloy/markers.yaml
+    - content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/markers.yaml
+    - content/joan-of-arc/.plan/faults/050.yaml
+    - content/joan-of-arc/.plan/fixes/050.yaml
+  faults: []
+  unresolved: []
+  stale: []

@@ -396,3 +396,10 @@
   researcher of its own unless its coordinator reports a gap: the digest's lines of Patay were researched and
   reviewed with 040. The story-auditor, at its bound, does not read the new pages.
 - Patay's phases: the battle plan is written (battle-coordinator), `040-the-loire-and-reims/battles/patay-1429.yaml`: three phases, each under a quarter reconstruction; one guessed field on the road north into Patay, the vanguard's hedges at about [1.700, 48.044] and Talbot's narrow way some 2.5 km south. The coordinator fixed a line of the digest (040.27, who put whom in the van) and left a gap for a researcher (040-battle-coordinator-3), who is dispatched.
+- Patay's phases: five lines added to the digest, 040.88 to 040.92 (researcher, task add): the scouts, Wavrin's halt a
+  league short, Talbot's plan to skirt the hedges, where the English stood, and the vanguard sent to hold them.
+- unresolved, Patay: who charged Talbot (only Lowell has the Bastard of Orléans); where the English stood when struck
+  (Wavrin at the hedges; Monstrelet, Cagny and Gruel in open ground).
+- cloud ruling: the phases follow Wavrin's order, he being the one eyewitness on the English side, and tell La Hire
+  and Poton in the van; a note on the phase page gives the open-ground accounts with their authors and Lowell's
+  Bastard, as the researcher proposed.

@@ -359,3 +359,15 @@
   introduced: plan
   owner: section-coordinator
   state: fixed
+- id: 020-overseer-1
+  severity: weak
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/map.yaml
+  field: salisbury-on-the-loire, markers, tourelles-1428, what
+  replaces: clause
+  old: "about 47.896 N 1.903 E"
+  new: "about 47.896 N 1.907 E"
+  source: "030-orleans/map.yaml gives the same fort at 1.907 E, at the south end of the old bridge (030.7); one place has one point (reports/030-section-coordinator.yaml)"
+  kind: map
+  introduced: plan
+  owner: section-coordinator
+  state: fixed

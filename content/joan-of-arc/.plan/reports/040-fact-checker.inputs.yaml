@@ -1,0 +1,49 @@
+- task: plan-check
+  step: plan-check
+  at: '2026-11-26T10:49:57.412Z'
+  before: null
+  inputs:
+    rules.md: 1fa000ad5b45337e
+    research.md#040: 38bfd0efcfb7b8da
+    040-the-loire-and-reims/pages.yaml#jargeau: 73425df2b3cadd2a
+    040-the-loire-and-reims/pages.yaml#meung-and-beaugency: 3aaff6d67e1e4777
+    040-the-loire-and-reims/pages.yaml#patay: aeb8363237f796be
+    040-the-loire-and-reims/pages.yaml#auxerre-and-troyes: 5e36fdb8e48dedb0
+    040-the-loire-and-reims/pages.yaml#reims: 3a500f99a5dd411a
+    040-the-loire-and-reims/pages.yaml#the-towns-come-over: 66fd39358e97b856
+    040-the-loire-and-reims/text.yaml#section: 70f11048634b74a6
+    040-the-loire-and-reims/text.yaml#jargeau: 8d5ba66dd0ff6e53
+    040-the-loire-and-reims/text.yaml#meung-and-beaugency: 7346094894dd0fad
+    040-the-loire-and-reims/text.yaml#patay: 76ed0ce53df320bb
+    040-the-loire-and-reims/text.yaml#auxerre-and-troyes: 3d589b9700dcfd8c
+    040-the-loire-and-reims/text.yaml#reims: e9c23de0428227c5
+    040-the-loire-and-reims/text.yaml#the-towns-come-over: aa8acec63057017a
+    040-the-loire-and-reims/battles.yaml#jargeau-1429: acfb0d702154071b
+    040-the-loire-and-reims/battles.yaml#patay-1429: 488262264fc5c420
+    names.md#040: 4b7fee388a463755
+  ended: '2026-11-26T10:57:44.874Z'
+  status: pass
+  inputs_end:
+    research.md#040: 3d3f66bcfdee6e00
+    040-the-loire-and-reims/text.yaml#jargeau: ede52027e02d1de9
+    040-the-loire-and-reims/text.yaml#meung-and-beaugency: 8189f0f47df0b8ae
+    040-the-loire-and-reims/text.yaml#patay: 62eb618bb012bc9f
+    040-the-loire-and-reims/text.yaml#auxerre-and-troyes: 5479e0371d9122ae
+    040-the-loire-and-reims/battles.yaml#jargeau-1429: b56f94bb3b923e01
+    040-the-loire-and-reims/battles.yaml#patay-1429: 89acad40ba000858
+  outputs:
+    - content/joan-of-arc/.plan/040-the-loire-and-reims/map.yaml
+    - content/joan-of-arc/.plan/040-the-loire-and-reims/text.yaml
+    - content/joan-of-arc/.plan/040-the-loire-and-reims/battles.yaml
+    - content/joan-of-arc/shared/battles/jargeau-1429/battle.yaml
+    - content/joan-of-arc/.plan/research/040.md
+    - content/joan-of-arc/.plan/research.md
+    - content/joan-of-arc/.plan/faults/040.yaml
+    - content/joan-of-arc/.plan/fixes/040.yaml
+  checked:
+    .plan/040-the-loire-and-reims/battles.yaml: 573d7e88349468bd
+    .plan/040-the-loire-and-reims/map.yaml: d54fd12bdb96cd05
+    .plan/040-the-loire-and-reims/pages.yaml: bd36049e4f5b5af5
+    .plan/040-the-loire-and-reims/text.yaml: 153e4dbb3b5d54b2
+    faults#open: 4f53cda18c2baa0c
+  means: 8f7006054ecbc820

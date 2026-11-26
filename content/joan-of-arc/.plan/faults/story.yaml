@@ -113,3 +113,15 @@
   introduced: map-design
   owner: brief
   state: fixed
+- id: story-overseer-2
+  severity: weak
+  file: content/joan-of-arc/.plan/brief.md
+  field: Map, Families, the Sections column of the row joan
+  replaces: clause
+  old: "020, 040, 050, 060"
+  new: "020, 050, 060"
+  source: "040-fact-checker-1: Cagny has the whole company ride to Gien, so 040 has no joan route (reports/040-fact-checker.yaml)"
+  kind: plan
+  introduced: map-design
+  owner: brief
+  state: fixed

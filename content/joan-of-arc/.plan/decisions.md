@@ -101,3 +101,14 @@
   Baugé, Verneuil; the Herrings). The fact checkers wrote 17 faults in 010 and 8 in 020 and fixed them all in the
   plans: among them Salisbury's road to Cravant on the wrong bank, and three routes of 020 with their stations out
   of the order their passages give. None is open.
+- plans 030 040: the Tourelles of 020 moved to 030's point, 1.907 E (020-overseer-1), and section 040 taken from the
+  joan family's row of the Map part (story-overseer-2) — one place has one point, and 040 has no joan route since
+  its plan check.
+- unresolved, plans 030 and 040: the disputed days and places of the convoy, the call to Glasdale, the crossing of 6
+  May and every figure of the siege; where Patay was fought; the day the Burgundian envoys came to Reims. Each is
+  told with its authors in the plan.
+- cloud ruling: those stand as the plans tell them, both accounts with their authors — the rule of a disputed day
+  and the careful side.
+- wave 030 040: done, 26 Nov 2026, at `plans` and `plan-check`. The plans and the cards of Orléans, Jargeau and Patay.
+  The fact checkers wrote 15 faults in 030 and 19 in 040 and fixed them all: a route of 040 in the wrong family,
+  the order of the crossing of 6 May, a garrison figure given to the wrong author. None is open.

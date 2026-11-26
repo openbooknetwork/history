@@ -281,6 +281,7 @@ A text names a writer when it gives his figure, his date or his judgement, by th
 | the Gesta | the Gesta Henrici Quinti, by Henry V's chaplain | 010 (010.22) | the chaplain's Gesta |
 | Seguinat | John the Fearless's secretary, by Ramsay | 010 (010.41) | |
 | Windecke | Eberhard Windecke, German chronicler, by France and Lang | 030 (030.16) | |
+| the Chronique de Tournai | the chronicle of Tournai that gives the army from Blois as 3,000, by Lang | 030 (030.26) | |
 | Basin | Thomas Basin, by Beaucourt | 070 (070.31) | |
 | Père Ignace | Ignace de Jésus-Maria, historian of the counts of Ponthieu (1657); not told (rules.md) | 060 (060.24) | |
 | Bouchart | whose story of 1498 is told with Lowell's and Lang's doubt | 050 (050.68) | |
@@ -365,6 +366,11 @@ old name without it, as the sources and the histories do, and "Today" gives the 
 | the Porte de Bourgogne | the east gate of Orléans; the gate Joan entered by is not told (rules.md) | Orléans (site) | 030 (030.25) | the Burgundian Gate; the Gate of Saint-Aignan |
 | the Portereau | the suburb of Orléans south of the bridge | Orléans, south bank | 020 (020.17) | |
 | Saint-Aignan | the church east of the old city | Orléans | 030 (030.51) | Sainct Aignan |
+| the Tour Neuve | the tower at the east end of the walls on the river, between which and Saint-Loup the French crossed on 6 May 1429 (the Journal); Lang's "eastern water gate, or Tour Neuve" | Orléans (site) | 030 (030.49) | la Tour neufve; La Tour Neuve (France) |
+| the church of Sainte-Croix | where she heard vespers on 2 May 1429 (the Journal) | Orléans | 030 (030.32, the Journal's passage) | l'église de Saincte-Croix |
+| the Douze-Pairs | the place of the bastille of London, by the Chronique | Orléans, north-west (site) | 030 (030.3, the Chronique's passage) | Douzc-Pairs (OCR) |
+| the pavé de Fleury | the road where the chronicle of the feast has the English come out to on 4 May 1429; no source read places it | near Orléans (site not placed) | 030 (030.39, the chronicle of the feast's passage) | |
+| the forest of Orléans | the forest north of the city that the army from Blois skirted on 4 May 1429 (Lang, the chronicle of the feast) | the forêt d'Orléans, Loiret | 030 (030.35) | la forest d'Orléans |
 | Chécy | whole story | Chécy, Loiret | 030 (030.19) | Checy; Checi |
 | Reuilly | the house of Guy de Cailly near Chécy | near Chécy, Loiret | 030 (030.19) | Rully (Ramsay) |
 | Olivet | whole story | Olivet, Loiret | 020 (020.58) | |
@@ -373,6 +379,7 @@ old name without it, as the sources and the histories do, and "Today" gives the 
 | Meung | English from September 1428; the bridge French from 15 June 1429; the king's from 18 June 1429 | Meung-sur-Loire, Loiret | 020 (020.14) | Meun; Mehun (Monstrelet); Meung sur Loire; Meting (OCR) |
 | Beaugency | English from 25 September 1428 to 18 June 1429 | Beaugency, Loiret | 020 (020.14) | Baugency; Boisgency |
 | Janville | English from 29 August 1428 to 18 June 1429 | Janville-en-Beauce, Eure-et-Loir | 020 (020.14) | Yenville; Yanville; Jenville; Grenville (OCR) |
+| Château-Renard | whole story; its garrison came into Orléans on 3 May 1429 (the Chronique) | Château-Renard, Loiret | 030 (030.33, the Chronique's passage) | Chasteau-Regnard |
 | Rouvray | the field of the Herrings, two leagues from Janville | Rouvray-Saint-Denis, Eure-et-Loir | 020 (020.23) | Rouvroy de Saint-Denis; Bonvroy (OCR); Rouvray-Sainte-Croix (Wikipedia, after Cooper, unread) |
 | Saint-Péravy | where Cagny's editor and France set fights | Saint-Péravy-la-Colombe, Loiret | 020 (020.23) | Saint-Peravy |
 | Patay | whole story | Patay, Loiret | 040 (040.29) | Pataye; Pathai |

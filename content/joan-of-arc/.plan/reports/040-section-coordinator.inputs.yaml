@@ -7,7 +7,7 @@
     brief.md#040: a480d4e2429440bc
   ended: '2026-11-26T09:24:23.868Z'
   status: pass
-  outputs:
+  outputs: &ref_0
     - content/joan-of-arc/.plan/040-the-loire-and-reims/pages.yaml
 - task: plan
   step: plans
@@ -18,3 +18,14 @@
     brief.md#040: 5aeca67518885729
     research.md#040: 38bfd0efcfb7b8da
     names.md#040: 8b01d4d527db4be7
+- task: agreed
+  step: pre-plans
+  at: '2026-11-26T10:57:47.486Z'
+  ended: '2026-11-26T10:57:47.486Z'
+  status: pass
+  by: fact-checker plan-check
+  inputs:
+    rules.md: 34016c37f051ce5e
+    brief.md#040: a480d4e2429440bc
+    research.md#040: 3d3f66bcfdee6e00
+  outputs: *ref_0

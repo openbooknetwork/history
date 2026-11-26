@@ -96,3 +96,136 @@
   old: "The king leaves Gien for Reims with no siege train, through Burgundian country."
   new: "The king leaves Gien for Reims, short of artillery and money, through Burgundian country."
   commit: a2583197
+- fault: 040-fact-checker-1
+  by: fact-checker
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/map.yaml
+  field: "auxerre-and-troyes.routes[0]"
+  old: "- id: joan-1429-gien / family: joan / stations: [Orléans, Gien] / passage: \"Cagny, Quicherat 4, p. 17, lines 1090-1100\" / why: \"Cagny has Joan and Alençon leave Orléans and lodge with the king at Gien on Friday 24 June (040.44, 040.48); no royal army marches with them. Only the two ends are given, so the line follows the Loire.\""
+  new: "- id: france-1429-gien / family: france / stations: [Orléans, Gien] / passage: \"Cagny, Quicherat 4, pp. 16-17, lines 1074-1095\" / why: \"Cagny has Joan and Alençon leave Orléans on Friday 24 June with all their company, those in the town and those in the fields, and lodge with the king at Gien that day (040.44, 040.48); the army marches with her, so the road is france. Only the two ends are given, so the line follows the Loire.\""
+  commit: fe2878c8
+- fault: 040-fact-checker-2
+  by: fact-checker
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/text.yaml
+  field: "pages.auxerre-and-troyes.account"
+  old: "The map shows Joan's road from Orléans to Gien and the king's"
+  new: "The map shows the army's road from Orléans to Gien and the king's"
+  commit: fe2878c8
+- fault: 040-fact-checker-3
+  by: fact-checker
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/map.yaml
+  field: "meung-and-beaugency.routes.english-1429-meung.passage and why"
+  old: "passage: \"Wavrin, Quicherat 4, pp. 416-418, lines 16290-16330; the Journal of the Siege, Quicherat 4, p. 176, lines 7240-7260\" / why: \"Wavrin has the English come within a league of Beaugency on 17 June, find the French on a small hill, and turn back to Meung; the Journal has them assail the bridge of Meung that night (040.23). The hill is not placed by any source read, so the middle station is a point a league north of Beaugency, and the roads are not given.\""
+  new: "passage: \"Wavrin, Quicherat 4, pp. 416-418, lines 16287-16330; the Journal of the Siege, Quicherat 4, p. 176, lines 7240-7260; Lowell, Joan of Arc, ch. 10, lines 5858-5862; Lang, The Maid of France, ch. 14, lines 7242-7247\" / why: \"On 17 June Wavrin has the English come about a league from Meung and near Beaugency, Lowell about a league from each town, and Lang within a league of Beaugency; they find the French on a small hill and turn back to Meung, and the Journal has them assail the bridge of Meung that night (040.23). The hill is not placed by any source read, so the middle station is a point about a league from each town, north of the road between them, and the roads are not given.\""
+  commit: fe2878c8
+- fault: 040-fact-checker-4
+  by: fact-checker
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/text.yaml
+  field: "pages.meung-and-beaugency.account"
+  old: "On 17 June the English came within a league of Beaugency and found"
+  new: "On 17 June the English came within about a league of Meung and Beaugency and found"
+  commit: fe2878c8
+- fault: 040-fact-checker-5
+  by: fact-checker
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/map.yaml
+  field: "meung-and-beaugency.routes.fastolf-1429-janville.passage"
+  old: "Ramsay, Lancaster and York, ch. 27, lines 24985-25000"
+  new: "Ramsay, Lancaster and York, ch. 27, lines 25020-25024"
+  commit: fe2878c8
+- fault: 040-fact-checker-6
+  by: fact-checker
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/map.yaml
+  field: "meung-and-beaugency.routes.talbot-1429-janville.passage and why"
+  old: "passage: \"Wavrin, Quicherat 4, p. 414\" / why: \"Wavrin has Lord Talbot ride into Janville with about forty lances and two hundred archers to join Fastolf, coming from Beaugency, where Gough held for him (040.20, 040.13). Only the two ends are given, so the line runs straight across the Beauce.\""
+  new: "passage: \"Wavrin, Quicherat 4, p. 414, lines 16195-16207; Lang, The Maid of France, ch. 14, lines 7096-7099\" / why: \"Lang has Talbot gone from Beaugency, where Gough held for him, to Janville before the French came on 16 June, and Wavrin has him ride into Janville with about forty lances and two hundred archers to join Fastolf (040.20, 040.13). Only the two ends are given, so the line runs straight across the Beauce.\""
+  commit: fe2878c8
+- fault: 040-fact-checker-7
+  by: fact-checker
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/map.yaml
+  field: "patay.routes.english-1429-patay.why"
+  old: "Cagny, the Journal and Wavrin have the English leave Meung on the morning of 18 June for Janville;"
+  new: "Wavrin and the Journal have the English leave Meung on the morning of 18 June for Janville, and Cagny has them abandon it in the night before and go straight for Janville;"
+  commit: fe2878c8
+- fault: 040-fact-checker-8
+  by: fact-checker
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/map.yaml
+  field: "patay.routes.france-1429-orleans.passage"
+  old: "Monstrelet, book 2 ch. 61, lines 39230-39240"
+  new: "Monstrelet, book 2 ch. 61, lines 39227-39228"
+  commit: fe2878c8
+- fault: 040-fact-checker-9
+  by: fact-checker
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/map.yaml
+  field: "the-towns-come-over.routes.france-1429-provins.why"
+  old: "Lowell and Lang have him at Château-Thierry from 29 July to 1 August"
+  new: "Cagny, with the day supplied by Quicherat, and Lang have him at Château-Thierry from 29 July to 1 August, and Lowell has two days there"
+  commit: fe2878c8
+- fault: 040-fact-checker-10
+  by: fact-checker
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/battles.yaml
+  field: "jargeau-1429.site"
+  old: "Jargeau, on the south bank of the Loire about twelve miles above Orléans"
+  new: "Jargeau, on the south bank of the Loire about twelve miles above Orléans by Lowell's reckoning"
+  commit: fe2878c8
+- fault: 040-fact-checker-11
+  by: fact-checker
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/battles.yaml
+  field: "jargeau-1429.sides.English.strength"
+  old: "Chartier: 600 to 700; Cagny: 700 to 800; Lowell, after Alençon: about 600; Monstrelet: 300 to 400, with the townsmen"
+  new: "Chartier: 600 to 700; Cagny: 700 to 800; Lowell: about 600; Monstrelet: 300 to 400, with the townsmen"
+  commit: fe2878c8
+- fault: 040-fact-checker-12
+  by: fact-checker
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/text.yaml
+  field: "pages.jargeau.disputes.040.6"
+  old: "the body and the card give the garrison by author: Chartier, Cagny, Lowell after Alençon, and Monstrelet."
+  new: "the body and the card give the garrison by author: Chartier, Cagny, Lowell, and Monstrelet."
+  commit: fe2878c8
+- fault: 040-fact-checker-13
+  by: fact-checker
+  file: content/joan-of-arc/.plan/research/040.md
+  field: "040.6"
+  old: "by author: Lowell, from Alençon, about 600; Chartier"
+  new: "by author: Lowell about 600; Chartier"
+  commit: fe2878c8
+- fault: 040-fact-checker-14
+  by: fact-checker
+  file: content/joan-of-arc/.plan/research.md
+  field: "040.6"
+  old: "by author: Lowell, from Alençon, about 600; Chartier"
+  new: "by author: Lowell about 600; Chartier"
+  commit: fe2878c8
+- fault: 040-fact-checker-15
+  by: fact-checker
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/battles.yaml
+  field: "patay-1429.site"
+  old: "near the village of Patay in the Beauce, two leagues from Janville"
+  new: "near the village of Patay in the Beauce, two leagues from Janville by Wavrin"
+  commit: fe2878c8
+- fault: 040-fact-checker-16
+  by: fact-checker
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/text.yaml
+  field: "pages.patay.account"
+  old: "near the village of Patay, two leagues from Janville (Cagny, Wavrin), half a league short of it (Monstrelet)"
+  new: "near the village of Patay (Cagny, the Journal), two leagues from Janville (Wavrin) and about five from Beaugency (Cagny), half a league short of it (Monstrelet)"
+  commit: fe2878c8
+- fault: 040-fact-checker-17
+  by: fact-checker
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/map.yaml
+  field: "patay.markers.patay-village.what"
+  old: "the village of the Beauce, two leagues from Janville, near which"
+  new: "the village of the Beauce, two leagues from Janville by Wavrin, near which"
+  commit: fe2878c8
+- fault: 040-fact-checker-18
+  by: fact-checker
+  file: content/joan-of-arc/.plan/040-the-loire-and-reims/text.yaml
+  field: "pages.patay.account"
+  old: "and Wavrin and Monstrelet put the Constable and Boussac in it too;"
+  new: "and Wavrin puts the Constable and Boussac in it too, and Monstrelet Boussac at the Constable's order;"
+  commit: fe2878c8
+- fault: 040-fact-checker-19
+  by: fact-checker
+  file: content/joan-of-arc/shared/battles/jargeau-1429/battle.yaml
+  field: "sides[1].strength"
+  old: "Chartier: 600 to 700; Cagny: 700 to 800; Lowell, after Alençon: about 600; Monstrelet: 300 to 400, with the townsmen"
+  new: "Chartier: 600 to 700; Cagny: 700 to 800; Lowell: about 600; Monstrelet: 300 to 400, with the townsmen"
+  commit: fe2878c8

@@ -2,23 +2,26 @@
   title: "Jargeau"
   date: "11 to 12 June 1429"
   when: 1429-06-11
-  tells: The army gathered at Selles under the Duke of Alençon marches up the Loire and storms Jargeau, and Suffolk is taken.
-  markers: [selles-rendezvous, orleans-june-1429, jargeau]
+  tells: The army gathered at Selles under the Duke of Alençon marches by Orléans up the Loire and storms Jargeau, and Suffolk is taken.
+  rests_on: ["040.1", "040.2", "040.87", "040.3", "040.4", "040.5", "040.6", "040.7", "040.8", "040.9", "040.10"]
+  markers: [selles-rendezvous, orleans-june-1429, jargeau-stormed]
   battles:
     - { id: jargeau-1429, phases: false }
 - id: meung-and-beaugency
   title: "The bridge at Meung and Beaugency"
   date: "15 to 17 June 1429"
   when: 1429-06-15
-  tells: The French take the bridge at Meung and lay siege to Beaugency, Richemont joins them unbidden, and Beaugency surrenders as Fastolf and Talbot come up from Janville.
-  markers: [meung-bridge, beaugency, janville-1429]
+  tells: The French take the bridge at Meung and lay siege to Beaugency, Richemont joins them unbidden, Fastolf and Talbot come up from Janville and turn back to Meung, and in the night of 17 to 18 June Beaugency yields on terms.
+  rests_on: ["040.11", "040.12", "040.13", "040.14", "040.15", "040.16", "040.17", "040.18", "040.19", "040.20", "040.21", "040.23", "040.24"]
+  markers: [meung-bridge-1429, beaugency-1429, janville-1429]
   battles: []
 - id: patay
   title: "Patay"
   date: "18 June 1429"
   when: 1429-06-18
-  tells: The French vanguard rides down the English archers near Patay before they are set behind their stakes, Talbot is taken and Fastolf flees, and the English hold on the middle Loire is gone.
-  markers: [patay, janville-shut]
+  tells: The French vanguard rides down the English near Patay before they are formed, Talbot is taken and Fastolf flees, and the English hold on the middle Loire and the Beauce is gone.
+  rests_on: ["040.22", "040.25", "040.26", "040.27", "040.28", "040.29", "040.30", "040.31", "040.32", "040.33", "040.34", "040.35", "040.36", "040.37", "040.38", "040.39", "040.40", "040.41", "040.42", "040.43", "040.44", "040.45", "040.46"]
+  markers: [patay-village, janville-shut, montpipeau-1429, saint-sigismond-1429]
   battles:
     - { id: patay-1429, phases: false }
 - id: auxerre-and-troyes
@@ -26,19 +29,22 @@
   date: "29 June to 10 July 1429"
   when: 1429-06-29
   tells: The king leaves Gien for Reims, short of artillery and money, through Burgundian country. Auxerre gives provisions under a truce and the army passes by, and Troyes yields as the assault is readied.
-  markers: [gien-rendezvous, auxerre, saint-florentin, troyes]
+  rests_on: ["040.47", "040.48", "040.49", "040.50", "040.51", "040.52", "040.53", "040.54", "040.55", "040.56", "040.57", "040.58", "040.59", "040.60", "040.61", "040.85"]
+  markers: [gien-rendezvous, auxerre-truce, saint-florentin-1429, troyes-1429]
   battles: []
 - id: reims
   title: "The coronation at Reims"
   date: "14 to 17 July 1429"
   when: 1429-07-14
-  tells: Châlons opens its gates, Reims sends its keys, and on 17 July Charles VII is anointed in the cathedral with Joan and her standard beside him.
-  markers: [chalons, reims-cathedral]
+  tells: Châlons opens its gates, Reims sends its keys to Sept-Saulx, and on 17 July Charles VII is anointed in the cathedral with Joan and her standard beside him.
+  rests_on: ["040.62", "040.63", "040.64", "040.65", "040.66", "040.67", "040.68", "040.69", "040.70", "040.71", "040.72", "040.73", "040.86"]
+  markers: [chalons-1429, sept-saulx-1429, reims-cathedral]
   battles: []
 - id: the-towns-come-over
   title: "The towns come over"
   date: "18 July to 2 August 1429"
   when: 1429-07-18
-  tells: After the coronation Laon, Soissons, Château-Thierry and Provins open to the king as he touches for the King's Evil at Corbeny and leads the army south of Paris, not at it.
-  markers: [corbeny, laon, soissons, chateau-thierry, provins]
+  tells: After the coronation Laon, Soissons, Château-Thierry, Crécy, Coulommiers and Provins open to the king as he touches for the King's Evil at Corbeny and leads the army south of Paris, not at it.
+  rests_on: ["040.74", "040.75", "040.76", "040.77", "040.78", "040.79", "040.80", "040.81", "040.82", "040.83", "040.84", "040.86"]
+  markers: [corbeny-1429, laon-1429, soissons-1429, chateau-thierry-1429, crecy-1429, coulommiers-1429, provins-1429]
   battles: []

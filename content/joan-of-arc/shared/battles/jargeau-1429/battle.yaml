@@ -1,0 +1,21 @@
+lnglat: [2.124, 47.864]
+name: "Battle of Jargeau"
+date: "11–12 June 1429"
+result: "French victory; the town is stormed on 12 June and the Earl of Suffolk taken"
+source: https://en.wikipedia.org/wiki/Battle_of_Jargeau
+default_language: en
+images: [jargeau-assault-miniature]
+families:
+  france: { color: "#231b7e", color_dark: "#6257db" }
+  english: { color: "#3d7a2a", color_dark: "#7cc160" }
+sides:
+  - name: "French"
+    color: france
+    commanders: ["the Duke of Alençon", "Joan", "the Bastard of Orléans", "La Hire"]
+    strength: "Alençon: about 1,200 lances; Cagny: 2,000 to 3,000 fighting men and as many common people or more; Monstrelet: five or six thousand; the Journal of the Siege: about 8,000, horse and foot"
+    casualties: "Cagny: 16 or 20 dead"
+  - name: "English"
+    color: english
+    commanders: ["William de la Pole, Earl of Suffolk"]
+    strength: "Chartier: 600 to 700; Cagny: 700 to 800; Lowell: about 600; Monstrelet: 300 to 400, with the townsmen"
+    casualties: "Alençon: more than a thousand killed in the pursuit to the bridges; Chartier: 300 to 400 killed; Monstrelet: about 300 killed and sixty or more taken; Cagny: 40 or 50 taken and the rest put to death. Suffolk and his brother John taken, his brother Alexander de la Pole killed"

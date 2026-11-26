@@ -13,3 +13,20 @@
     - "Plan's own: the five events of the brief take five pages (Saint-Jean-le-Blanc and the Augustins share one, same place, same day); the sixth page is the days between, 30 April to 4 May, with Dunois's ride to Blois and the army brought back along the north bank, a map change of its own."
     - "Plan's own: the card orleans-1429 stands on the last page, the-english-march-away, where the siege is raised; the earlier pages show each fort on its own day."
     - "Marker ids are provisional (ile-aux-toiles: the Wikipedia article names the island Saint-Aignan); the plan settles them from the digest."
+- step: plans
+  task: plan
+  status: pass
+  changed_files: [content/joan-of-arc/.plan/030-orleans/pages.yaml, content/joan-of-arc/.plan/030-orleans/map.yaml, content/joan-of-arc/.plan/030-orleans/text.yaml, content/joan-of-arc/.plan/030-orleans/battles.yaml, content/joan-of-arc/shared/battles/orleans-1429/battle.yaml, content/joan-of-arc/.plan/faults/030.yaml, content/joan-of-arc/.plan/fixes/030.yaml]
+  faults: [030-section-coordinator-1, 030-section-coordinator-2, 030-section-coordinator-3]
+  unresolved:
+    - "030.30: the call to Glasdale from the Belle-Croix is put on 30 April with the Journal and Lowell, the Chronique and Ramsay's 5 May named; it stays on the-army-of-blois."
+    - "030.21: the convoy's loading place is drawn before Chécy (the chronicle of the feast, the Journal, Lowell), Dunois's and Ramsay's Saint-Loup in the text."
+    - "030.79 and France's English strength (030.37) rest on Anatole France alone and are not told; the bastilles of London, Rouen and Paris are placed from Girault and the Chronique."
+  stale: []
+  pages: 6
+  expected: 6
+  notes:
+    - "Pages stand as pre-planned. Markers changed: bastille-croix-boissee dropped (no source places it); ile-charlemagne, boucher-house, orleans-entry, beaugency-may-1429 added; ile-aux-toiles is ile-saint-aignan (names.md), meung is meung-may-1429."
+    - "Pages on single, disputed or thin claims: all six. single: from-blois (030.22), the-army-of-blois (030.27, 030.31, 030.32, 030.34, 030.36), storming-saint-loup (030.41), the-augustins (030.48, 030.50, 030.54), the-tourelles (030.61), the-english-march-away (030.73). disputed: from-blois (030.16, 030.18, 030.19, 030.21, 030.26), the-army-of-blois (030.2, 030.30, 030.35, 030.37), storming-saint-loup (030.40, 030.42, 030.43), the-augustins (030.46, 030.51, 030.56, 030.57), the-tourelles (030.59, 030.63, 030.66, 030.67, 030.70), the-english-march-away (030.68). thin: 030.35 (Saint-Laurent), left out."
+    - "Plan's own: the bastille of Paris (Saint-Pouair) is placed north of the city and London and Rouen west of it; every fort's site is a reconstruction; no route is drawn for the night crossing at Saint-Privé, since the chronicles differ on its direction; the army of 4 May is drawn round the north of the city, not past Saint-Laurent."
+    - "020's tourelles-1428 marker gives 47.896 N 1.903 E; this plan's tourelles gives 1.907 E, at the quai des Augustins. A few hundred metres at 020's frame; not changed."

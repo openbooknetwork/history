@@ -1,0 +1,20 @@
+- step: plan-check
+  task: plan-check
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/040-the-loire-and-reims/map.yaml
+    - content/joan-of-arc/.plan/040-the-loire-and-reims/text.yaml
+    - content/joan-of-arc/.plan/040-the-loire-and-reims/battles.yaml
+    - content/joan-of-arc/shared/battles/jargeau-1429/battle.yaml
+    - content/joan-of-arc/.plan/research/040.md
+    - content/joan-of-arc/.plan/research.md
+    - content/joan-of-arc/.plan/faults/040.yaml
+    - content/joan-of-arc/.plan/fixes/040.yaml
+  faults: [040-fact-checker-1, 040-fact-checker-2, 040-fact-checker-3, 040-fact-checker-4, 040-fact-checker-5, 040-fact-checker-6, 040-fact-checker-7, 040-fact-checker-8, 040-fact-checker-9, 040-fact-checker-10, 040-fact-checker-11, 040-fact-checker-12, 040-fact-checker-13, 040-fact-checker-14, 040-fact-checker-15, 040-fact-checker-16, 040-fact-checker-17, 040-fact-checker-18, 040-fact-checker-19]
+  unresolved: []
+  stale:
+    - "content/joan-of-arc/.plan/research-040.md and passages-040.md: slices made by script, still read 'Lowell, from Alençon' for 040.6; run the slice and passages scripts again"
+    - "content/joan-of-arc/.plan/brief.md, Map, Families: joan lists section 040, which has no joan route since 040-fact-checker-1"
+  notes:
+    - "All 13 routes checked against their passages; the 6 pages' zones all stand in the brief's Map table with their 040 pages; when and date agree with the claims; every card figure stands in a file with its author."
+    - "Cagny also gives Montmirail on 1 August between Château-Thierry and Provins (lines 1240-1241); france-1429-provins leaves it out, which the rule allows."

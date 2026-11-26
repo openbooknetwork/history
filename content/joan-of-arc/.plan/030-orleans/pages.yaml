@@ -1,13 +1,15 @@
-# The pages of section 030, orleans, in order. Pre-plan: no rests_on until the digest exists.
+# The pages of section 030, orleans, in order.
 - id: from-blois
   title: "From Blois into the City"
   date: "27 to 29 April 1429"
   when: 1429-04-27
   tells: >-
     The convoy and its escort leave Blois on 27 or 28 April, a day the authors give differently, and go up the
-    south bank of the Loire through the Sologne, not by the Beauce as she wanted. Opposite Chécy, east of the city, the Bastard of Orléans crosses to meet them, the supplies go over by
-    boat, and on the evening of 29 April she rides into Orléans.
-  markers: [blois, checy]
+    south bank of the Loire through the Sologne, not by the Beauce as she wanted. Upstream of the city, before
+    Chécy or facing Saint-Loup as the witnesses differ, the Bastard of Orléans crosses to meet them, the supplies
+    go down by boat past the English, and on the evening of 29 April she rides into Orléans.
+  rests_on: ["030.11", "030.12", "030.13", "030.14", "030.15", "030.16", "030.17", "030.18", "030.19", "030.20", "030.21", "030.22", "030.23", "030.24", "030.26"]
+  markers: [blois, checy, orleans-entry]
   battles: []
 - id: the-army-of-blois
   title: "The Army Comes by the Beauce"
@@ -18,16 +20,18 @@
     and rides out to look at the English forts. The Bastard of Orléans goes to Blois for the army, and on the morning of 4 May
     brings it back along the north bank through the Beauce, past the English bastilles, whose garrisons do not
     come out against it.
-  markers: [bastille-saint-laurent, bastille-croix-boissee, bastille-london, bastille-rouen, bastille-paris, belle-croix]
+  rests_on: ["030.1", "030.2", "030.3", "030.4", "030.8", "030.9", "030.10", "030.27", "030.28", "030.29", "030.30", "030.31", "030.32", "030.33", "030.34", "030.35", "030.36", "030.37"]
+  markers: [bastille-saint-laurent, bastille-london, bastille-rouen, bastille-paris, ile-charlemagne, belle-croix, boucher-house]
   battles: []
 - id: storming-saint-loup
   title: "Saint-Loup"
   date: "4 May 1429"
   when: 1429-05-04
   tells: >-
-    In the afternoon of 4 May the French attack the bastille of Saint-Loup, east of the city on the road to
-    Chécy, and she rides out to join them. Talbot's men come out from the bastille of Saint-Pouair to help it and
-    are held off, and Saint-Loup is taken and burned: the first English fort to fall, which opens the road east.
+    From about noon on 4 May the French attack the bastille of Saint-Loup, east of the city on the road to
+    Chécy, and she rides out to join them. English from the other bastilles come out to help it and go back
+    when the French draw up against them, and Saint-Loup is taken and burned: the first English fort to fall.
+  rests_on: ["030.5", "030.38", "030.39", "030.40", "030.41", "030.42", "030.43", "030.44", "030.45"]
   markers: [saint-loup, saint-pouair-sortie]
   battles: []
 - id: the-augustins
@@ -37,9 +41,10 @@
   tells: >-
     After the feast of the Ascension, on which no one fights, the French cross the Loire by an island to the south
     bank. The English leave the bastille of Saint-Jean-le-Blanc and fall back on the Augustins and the Tourelles;
-    the French are driven back to the shore, turn, and take the Augustins by nightfall. The English of
-    Saint-Privé cross to the north bank in the night.
-  markers: [ile-aux-toiles, saint-jean-le-blanc, augustins, saint-prive]
+    the French fall back towards the island, turn, and take the Augustins by nightfall. In the night the English
+    leave Saint-Privé, or try to cross the river there, as the chronicles differ.
+  rests_on: ["030.6", "030.46", "030.47", "030.48", "030.49", "030.50", "030.51", "030.52", "030.53", "030.54", "030.55", "030.56", "030.57"]
+  markers: [ile-saint-aignan, saint-jean-le-blanc, augustins, saint-prive]
   battles: []
 - id: the-tourelles
   title: "The Tourelles"
@@ -50,6 +55,7 @@
     the broken arches from the city. She is struck by an arrow between the neck and the shoulder and carried off, comes back at
     evening, and the boulevard and then the Tourelles fall; Glasdale drowns when the drawbridge gives way. The
     English hold nothing south of the Loire.
+  rests_on: ["030.7", "030.58", "030.59", "030.60", "030.61", "030.62", "030.63", "030.64", "030.65", "030.66", "030.67", "030.69", "030.70", "030.71"]
   markers: [tourelles, tourelles-boulevard, ile-saint-antoine]
   battles: []
 - id: the-english-march-away
@@ -61,6 +67,7 @@
     the French draw up facing them, and she will not have them attack on a Sunday. After an hour the English
     march off, Talbot to Meung and Suffolk to Jargeau, and the city goes in procession to give thanks. The siege
     is raised.
-  markers: [english-array, meung, jargeau-may-1429]
+  rests_on: ["030.68", "030.72", "030.73", "030.74", "030.75", "030.76", "030.77", "030.78"]
+  markers: [english-array, meung-may-1429, beaugency-may-1429, jargeau-may-1429]
   battles:
     - { id: orleans-1429, phases: false }

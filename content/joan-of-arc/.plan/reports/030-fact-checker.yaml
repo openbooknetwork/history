@@ -1,0 +1,21 @@
+- step: plan-check
+  task: plan-check
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/030-orleans/map.yaml
+    - content/joan-of-arc/.plan/030-orleans/text.yaml
+    - content/joan-of-arc/.plan/030-orleans/battles.yaml
+    - content/joan-of-arc/.plan/research.md
+    - content/joan-of-arc/.plan/research/030.md
+    - content/joan-of-arc/.plan/names.md
+    - content/joan-of-arc/.plan/faults/030.yaml
+    - content/joan-of-arc/.plan/fixes/030.yaml
+  faults: [030-fact-checker-1, 030-fact-checker-2, 030-fact-checker-3, 030-fact-checker-4, 030-fact-checker-5, 030-fact-checker-6, 030-fact-checker-7, 030-fact-checker-8, 030-fact-checker-9, 030-fact-checker-10, 030-fact-checker-11, 030-fact-checker-12, 030-fact-checker-13, 030-fact-checker-14, 030-fact-checker-15]
+  unresolved:
+    - "030.16, 030.18, 030.19, 030.21 (disputed): the day the convoy left Blois, the day it came by Olivet, where she slept, where the boats met it; pages.yaml and text.yaml give each with its authors, and the routes end before Chécy with the chronicle of the feast and the Journal."
+    - "030.30, 030.40, 030.46, 030.56, 030.57, 030.59, 030.63, 030.66, 030.70 (disputed): text.yaml gives both accounts with their authors in each case."
+    - "030.2, 030.26, 030.37, 030.42, 030.43, 030.67, 030.68 (disputed figures): text.yaml and the card give each figure with its author; 030.2 now carries the Chronique's thirteen places of December 1428."
+    - "030.35 (Thin for Saint-Laurent): the plan names the bastille of Paris with Lang and the chronicle of the feast and leaves Saint-Laurent out."
+    - "030.51: the island where the French landed and where the Journal has them fall back after Saint-Jean-le-Blanc are taken as one island, the Île Saint-Aignan, as Ramsay names it; no source read says they differ."
+  stale: []
+  checked: "10 routes against their passages, 24 zone listings against the brief's Map part, 1 card (14 figures), 6 pages' date and when"

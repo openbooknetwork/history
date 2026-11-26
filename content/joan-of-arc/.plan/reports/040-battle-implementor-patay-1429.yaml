@@ -1,0 +1,30 @@
+- step: phases
+  task: build
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plans/patay-1429.mjs
+    - content/joan-of-arc/pages/040-the-loire-and-reims/031-patay-the-hedges/page.yaml
+    - content/joan-of-arc/pages/040-the-loire-and-reims/031-patay-the-hedges/markers.yaml
+    - content/joan-of-arc/pages/040-the-loire-and-reims/031-patay-the-hedges/text/en.md
+    - content/joan-of-arc/pages/040-the-loire-and-reims/032-patay-the-stag/page.yaml
+    - content/joan-of-arc/pages/040-the-loire-and-reims/032-patay-the-stag/markers.yaml
+    - content/joan-of-arc/pages/040-the-loire-and-reims/032-patay-the-stag/text/en.md
+    - content/joan-of-arc/pages/040-the-loire-and-reims/033-patay-the-rout/page.yaml
+    - content/joan-of-arc/pages/040-the-loire-and-reims/033-patay-the-rout/markers.yaml
+    - content/joan-of-arc/pages/040-the-loire-and-reims/033-patay-the-rout/text/en.md
+    - content/joan-of-arc/shared/battles/patay-1429/battle.yaml
+    - content/joan-of-arc/pages/040-the-loire-and-reims/030-patay/text/en.md
+    - content/joan-of-arc/.plan/names.md
+    - content/joan-of-arc/.plan/faults/040.yaml
+    - content/joan-of-arc/.plan/fixes/040.yaml
+    - content/joan-of-arc/.plan/handoff/battle-implementor.md
+  faults: [040-battle-implementor-1, 040-battle-implementor-2, 040-battle-implementor-3]
+  unresolved: []
+  stale: []
+  note: >-
+    Three phase pages, 031-033, drawn by .plans/patay-1429.mjs on the plan's one place for the field (the road due
+    north into Patay, hedges at [1.700, 48.044], narrow way at [1.700, 48.022]). Reconstructions, each told as
+    approximate or as unplaced in its text: the field itself (a note on every page gives each author's place,
+    040.39), the column's halt point, the woods, the English rearguard in phases 1-2, and the French scouts and
+    bodies on the road. Widths of the hedges and the narrow way are chosen for the map and in no text. All checks
+    of the audit pack are ok; units-check 0 overlaps, 0 notes.

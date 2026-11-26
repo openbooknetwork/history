@@ -1156,3 +1156,99 @@
   introduced: battle-plan
   owner: battle-coordinator
   state: fixed
+- id: 040-battle-implementor-1
+  severity: weak
+  file: content/joan-of-arc/shared/battles/patay-1429/battle.yaml
+  field: sides[1].commanders
+  replaces: clause
+  old: "\"Lord Scales\""
+  new: "\"Sir Thomas Rempston\""
+  source: "the card's line of the plan, card.sides[English].commanders of battles/patay-1429.yaml, as 040-fact-checker-48 fixed it: Wavrin p. 421 (lines 16462-16464), \"Aprez venoit la battaille dont estoient conducteurs messire Jehan Fastre, le seigneur de Thalbot, messire Thomas Rameston et autres\"; Lord Scales stands in the files only among the prisoners (040.31)"
+  kind: battle
+  claim: "040.31"
+  introduced: battles
+  owner: battle-implementor
+  state: fixed
+- id: 040-battle-implementor-2
+  severity: weak
+  file: content/joan-of-arc/.plan/names.md
+  field: "Places, the row Saint-Péravy, First named in"
+  replaces: clause
+  old: "020 (020.23)"
+  new: "040 (040.39)"
+  source: "scripts/names-check.mjs: no page of 020 names Saint-Péravy, and the first page that does is the phase page patay-the-hedges of 040, in the note of where the battle was fought (040.39: \"who was then between the hamlet of Saint-Peravy and the town of Patay\", Anatole France, vol. 1 ch. 16)"
+  kind: plan
+  claim: "040.39"
+  introduced: names
+  owner: names
+  state: fixed
+- id: 040-battle-implementor-3
+  severity: weak
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/030-patay/text/en.md
+  field: body, third paragraph
+  replaces: clause
+  old: "Monstrelet, a Burgundian chronicler, says the archers had not yet planted their stakes."
+  new: "Monstrelet, a Burgundian chronicler, says the English on foot had not yet planted their stakes."
+  source: "as 040-fact-checker-42 to 040-fact-checker-44: Monstrelet book 2 ch. 61 (lines 39197-39209) tells the English falling back from the hedges to the plain, and \"those who had dismounted were surrounded by the French before they had time to fortify themselves, as usual, with sharp-pointed stakes\"; he names no narrow way and no stand of Talbot's, so the sentence after Talbot's 500 archers must not make the stakes theirs"
+  kind: attribution
+  claim: "040.30"
+  introduced: texts
+  owner: section-writer
+  state: fixed
+- id: 040-battle-auditor-1
+  severity: weak
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/031-patay-the-hedges/text/en.md
+  field: body, paragraph 3
+  replaces: clause
+  old: "Neither army can see the other, and no source says how far apart they are."
+  new: "The French cannot yet see the English, and no source says how far apart they are."
+  source: "Wavrin, Quicherat 4 (archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt), p. 422: the French ride after their enemies \"lesquelz ancores ilz ne povoient pas choisir\"; but p. 421 has the English riders report the French coming, \"comme assez tost aprez on les vey venir\": in Wavrin, who was there, the English saw the French, so the clause made both armies blind on his page"
+  kind: fact
+  claim: "040.89"
+  introduced: battles
+  owner: battle-implementor
+  state: fixed
+- id: 040-battle-auditor-2
+  severity: weak
+  file: content/joan-of-arc/.plans/patay-1429.mjs
+  field: "patay-the-stag and patay-the-rout, the names of french-vanguard and french-main-body"
+  replaces: clause
+  old: "'French vanguard under La Hire and Xaintrailles, in the narrow way' / 'French main body under Alençon and the Bastard of Orléans, galloping up' / 'French vanguard under La Hire and Xaintrailles, in among the English main body' / 'French main body under Alençon and the Bastard of Orléans, joining the rout'"
+  new: "each with its strength after the commanders, as on patay-the-hedges: '..., 1,400 to 1,500 (the Journal of the Siege), ...' for the vanguard and '..., 8,000 to 9,000 (Monstrelet), ...' for the main body"
+  source: "the plan's units french-vanguard (strength \"1,400 to 1,500 (the Journal of the Siege)\", 040.36: \"ne feussent que de quatorze à quinze cens combatans\") and french-main-body (\"8,000 to 9,000 (Monstrelet)\", 040.36: \"amounting to eight or nine thousand\"); the hover label of a unit names its commander and its strength (battle-auditor's definition, Captures). The generator was run again and only these four names changed"
+  kind: battle
+  claim: "040.36"
+  introduced: battles
+  owner: battle-implementor
+  state: fixed
+- id: 040-battle-auditor-3
+  severity: weak
+  file: content/joan-of-arc/.plans/patay-1429.mjs
+  field: "SOURCES, and the sources of patay-the-rout (its page.yaml written again)"
+  new: "a key murrayDunois, \"T. Douglas Murray (ed. and tr.), Jeanne d'Arc, Maid of Orleans (1902), the deposition of Dunois.\", in the list of patay-the-rout after wavrin"
+  source: "033-patay-the-rout/text/en.md note **: \"more than 4,000 killed and taken in Dunois's deposition at the retrial\", 040.35: \"and of killed and prisoners there were more than 4,000\" (archive.org-download-jeannedarcmaidof028754mbp-jeannedarcmaidof028754mbp-djvu.txt.txt, Dunois's deposition); the page's sources had no Murray"
+  kind: sources
+  claim: "040.35"
+  introduced: battles
+  owner: battle-implementor
+  state: fixed
+- id: 040-battle-auditor-4
+  severity: weak
+  file: content/joan-of-arc/.plans/patay-1429.mjs
+  field: "patay-the-hedges, the marker patay-the-hedges-fastolf (mark(-1300, 520, ...))"
+  new: "The marker or its label stands clear of the English rearguard. In the laptop capture phases-040-battle-auditor-patay/pack/shots/patay-the-hedges.png (about x 650, y 410-430) the note \"Mounted, with the main body\" covers the rearguard block at u -1950, of which only a sliver shows between the main body and Talbot's archers, so the reader cannot see the rearguard the text names. Setting the marker beside the main body's north half (u about -1150) or on its west side (w about -520, clear of the woods at w -750) would leave the block bare; at phone size (shots-phone/patay-the-hedges.png) the Fastolf and Talbot icons also sit on the main body and the rearguard."
+  source: "the plan, phases[patay-the-hedges].moves[english-rearguard]: \"closes up behind the main body through Talbot's narrow way\" (reconstruction), and the text: \"No source places the rearguard after the halt\", told of a block the map draws"
+  kind: battle
+  introduced: battles
+  owner: battle-implementor
+  state: open
+- id: 040-battle-auditor-5
+  severity: weak
+  file: content/joan-of-arc/.plans/patay-1429.mjs
+  field: "patay-the-rout, the marker patay-the-rout-la-hire (mark(-1500, 680, ...))"
+  new: "The marker's label stands clear of the French vanguard and the clash. In the laptop capture phases-040-battle-auditor-patay/pack/shots/patay-the-rout.png (about x 650-770, y 340-370) the label \"La Hire, Xaintrailles / Press into the main body\" lies across the French vanguard block and the clash star at u -1265, and only a corner of the block shows; the vanguard pressing into the English main body is the moment of the phase. A marker further east (w about 900 to 1000) or south of the main body's marker would leave both bare."
+  source: "the plan, phases[patay-the-rout].moves[french-vanguard]: \"presses into the English main body, taking or killing whom it will\" (040.31); Wavrin p. 423, \"lesdis François si avant en la battaille\""
+  kind: battle
+  introduced: battles
+  owner: battle-implementor
+  state: open

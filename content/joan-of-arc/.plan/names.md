@@ -387,7 +387,7 @@ old name without it, as the sources and the histories do, and "Today" gives the 
 | Janville | English from 29 August 1428 to 18 June 1429 | Janville-en-Beauce, Eure-et-Loir | 020 (020.14) | Yenville; Yanville; Jenville; Grenville (OCR) |
 | Château-Renard | whole story; its garrison came into Orléans on 3 May 1429 (the Chronique); on the king's road from Courtenay to Montargis, September 1429 (050.29, the Journal du siège) | Château-Renard, Loiret | 030 (030.33, the Chronique's passage) | Chasteau-Regnard; Chasteau-Regnart |
 | Rouvray | the field of the Herrings, two leagues from Janville | Rouvray-Saint-Denis, Eure-et-Loir | 020 (020.23) | Rouvroy de Saint-Denis; Bonvroy (OCR); Rouvray-Sainte-Croix (Wikipedia, after Cooper, unread) |
-| Saint-Péravy | where Cagny's editor and France set fights | Saint-Péravy-la-Colombe, Loiret | 020 (020.23) | Saint-Peravy |
+| Saint-Péravy | where Cagny's editor and France set fights | Saint-Péravy-la-Colombe, Loiret | 040 (040.39) | Saint-Peravy |
 | Patay | whole story | Patay, Loiret | 040 (040.29) | Pataye; Pathai |
 | Coinces | where Ramsay sets the fight of Patay | Coinces, Loiret | 040 (040.39) | |
 | the Lignerolles wood | where France sets the fight of Patay | near Patay (site) | 040 (040.39) | |

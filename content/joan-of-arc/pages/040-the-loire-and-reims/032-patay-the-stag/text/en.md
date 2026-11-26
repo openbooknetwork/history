@@ -1,0 +1,11 @@
+The French scouts ride on beside the woods without sight of the English. A stag breaks out of the woods and runs towards [Patay](@patay-the-stag-patay), into the ranks of the English main body, and the English raise a loud shout. So Wavrin, who was in the main body, tells it, and Monstrelet's text is the same. The scouts now see the English and send word back to their captains.
+
+[La Hire](@patay-the-stag-la-hire) and [Poton de Xaintrailles](@patay-the-stag-la-hire) gallop up the road with the vanguard and ride into the narrow way of [Lord Talbot](@patay-the-stag-talbot) before the English have joined at the hedges. They surround and overwhelm him.\* Talbot is taken, by the archers of Xaintrailles in the account of Gruel, biographer of Arthur de Richemont, and all his men are killed, Wavrin says. Wavrin gives no stakes. Monstrelet, in whose account the English have fallen back from the hedges into the open, and the historian Charles Oman after him say that those on foot were overrun before they could plant their stakes.
+
+[Sir John Fastolf](@patay-the-stag-fastolf) and the main body hurry north to join the vanguard at the hedges near the village, and do not reach them: the French vanguard is through the narrow way and on them. Behind it [the Duke of Alençon](@patay-the-stag-alencon) and [the Bastard of Orléans (later Count of Dunois)](@patay-the-stag-alencon) gallop up with the main body. No source places the French scouts, the bodies on the road behind them or the English rearguard, which the map draws at the tail of the main body.\*\*
+
+### Notes
+
+\* Ramsay has the French vanguard under La Hire and Xaintrailles surround Talbot. Lowell alone has the Bastard of Orléans charge him, where Wavrin puts the Bastard with the main body.
+
+\*\* Where the battle was fought is disputed: near the village of Patay in Perceval de Cagny and the Journal of the Siege, two leagues from Janville in Wavrin, half a league short of the village in Monstrelet, near Coinces, two or three miles short of it, in Ramsay, and on the edge of the Lignerolles wood between Saint-Péravy and Patay in Anatole France. The map takes one place, on the road north into Patay, and every position on it is approximate.

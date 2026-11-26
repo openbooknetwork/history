@@ -2,7 +2,7 @@ At about eight on the morning of Saturday 18 June, by Jean de Wavrin, a chronicl
 
 La Hire and Poton de Xaintrailles lead the French vanguard.\*\*\* The main body follows under the Duke of Alençon and the Bastard. Joan, kept out of the van, is much vexed, her page Louis de Coutes said. In Wavrin's account a stag breaks from the woods into the English ranks, and their shout gives them away to the French scouts.
 
-Talbot dismounts with 500 picked archers to hold a passage between two hedges near [Patay](@patay-village). The French are on him before the English are formed. Monstrelet, a Burgundian chronicler, says the archers had not yet planted their stakes. Talbot is overrun, and the English van, seeing Fastolf ride towards it, flees. By Monstrelet it is over at about two in the afternoon.\*\*\*\*
+Talbot dismounts with 500 picked archers to hold a passage between two hedges near [Patay](@patay-village). The French are on him before the English are formed. Monstrelet, a Burgundian chronicler, says the English on foot had not yet planted their stakes. Talbot is overrun, and the English van, seeing Fastolf ride towards it, flees. By Monstrelet it is over at about two in the afternoon.\*\*\*\*
 
 Talbot is taken, by Xaintrailles's archers in the account of Gruel, biographer of Arthur de Richemont, and so are the English captains Lord Scales and Sir Thomas Rempston. The French lose few men. Fastolf escapes to [Étampes](@etampes-1429) and then [Corbeil](@corbeil-1429), and Monstrelet says the regent, Bedford, rebuked him and he lost the Garter. Louis de Coutes saw Joan get down from her horse to hold the head of an English prisoner struck down by his captor, and have him confessed.
 

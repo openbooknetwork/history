@@ -409,3 +409,4 @@
   Scales, known only as a prisoner, stood. A line added to the digest, 040.93.
 - cloud ruling: 040.93, the fate of the English main body, is told as Wavrin has it, and a note on `patay-the-rout`
   gives Ramsay's account with his name — the same ruling as for 040.91 and 040.92.
+- Patay's phases built (battle-implementor): three phase pages, `031-patay-the-hedges`, `032-patay-the-stag` and `033-patay-the-rout`, from `.plans/patay-1429.mjs`; each has a note with every author's place for the battle. The card names Rempston where it named Scales, and the overview text gives Monstrelet's stakes to "the English on foot".

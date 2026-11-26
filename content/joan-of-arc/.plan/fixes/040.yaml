@@ -740,3 +740,45 @@
   old: "does: \"rides north up the road after the English in good order\", basis: sourced, claim: \"040.27\""
   new: "does: \"rides north up the road after the English, sent ahead to catch and hold them so that the main body need not leave its pace\", basis: sourced, claim: \"040.92\""
   commit: af072771
+- fault: 040-battle-implementor-1
+  by: battle-implementor
+  file: content/joan-of-arc/shared/battles/patay-1429/battle.yaml
+  field: sides[1].commanders
+  old: "[\"Lord Talbot\", \"Sir John Fastolf\", \"Lord Scales\"]"
+  new: "[\"Lord Talbot\", \"Sir John Fastolf\", \"Sir Thomas Rempston\"]"
+  commit: 3b653ba2
+- fault: 040-battle-implementor-2
+  by: battle-implementor
+  file: content/joan-of-arc/.plan/names.md
+  field: "Places, the row Saint-Péravy, First named in"
+  old: "020 (020.23)"
+  new: "040 (040.39)"
+  commit: 3b653ba2
+- fault: 040-battle-implementor-3
+  by: battle-implementor
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/030-patay/text/en.md
+  field: body, third paragraph
+  old: "Monstrelet, a Burgundian chronicler, says the archers had not yet planted their stakes."
+  new: "Monstrelet, a Burgundian chronicler, says the English on foot had not yet planted their stakes."
+  commit: 3b653ba2
+- fault: 040-battle-auditor-1
+  by: battle-auditor
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/031-patay-the-hedges/text/en.md
+  field: body, paragraph 3
+  old: "Neither army can see the other, and no source says how far apart they are."
+  new: "The French cannot yet see the English, and no source says how far apart they are."
+  commit: 3b653ba2
+- fault: 040-battle-auditor-2
+  by: battle-auditor
+  file: content/joan-of-arc/.plans/patay-1429.mjs
+  field: "patay-the-stag and patay-the-rout, names of french-vanguard and french-main-body (and the two page.yaml written again)"
+  old: "'French vanguard under La Hire and Xaintrailles, in the narrow way'; 'French main body under Alençon and the Bastard of Orléans, galloping up'; 'French vanguard under La Hire and Xaintrailles, in among the English main body'; 'French main body under Alençon and the Bastard of Orléans, joining the rout'"
+  new: "'French vanguard under La Hire and Xaintrailles, 1,400 to 1,500 (the Journal of the Siege), in the narrow way'; 'French main body under Alençon and the Bastard of Orléans, 8,000 to 9,000 (Monstrelet), galloping up'; 'French vanguard under La Hire and Xaintrailles, 1,400 to 1,500 (the Journal of the Siege), in among the English main body'; 'French main body under Alençon and the Bastard of Orléans, 8,000 to 9,000 (Monstrelet), joining the rout'"
+  commit: 3b653ba2
+- fault: 040-battle-auditor-3
+  by: battle-auditor
+  file: content/joan-of-arc/.plans/patay-1429.mjs
+  field: "SOURCES and the list of patay-the-rout (and 033-patay-the-rout/page.yaml written again)"
+  old: "page('033-patay-the-rout', 'Patay: the rout', ['wavrin', 'monstrelet', 'ramsay', 'oman', 'france'])"
+  new: "murrayDunois: \"T. Douglas Murray (ed. and tr.), Jeanne d'Arc, Maid of Orleans (1902), the deposition of Dunois.\"; page('033-patay-the-rout', 'Patay: the rout', ['wavrin', 'murrayDunois', 'monstrelet', 'ramsay', 'oman', 'france'])"
+  commit: 3b653ba2

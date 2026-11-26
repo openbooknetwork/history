@@ -1,0 +1,13 @@
+# One story: a timeline shown on one map.
+id: joan-of-arc
+title: "Joan of Arc"
+summary: "France divided between two kings, the girl from Domrémy who raised the siege of Orléans and led the Dauphin to his coronation at Reims in 1429, her capture, her trial and death at Rouen, the verdict that cleared her in 1456, and how she was remembered."
+span: "1407 – 1456"
+languages: [en]
+default_language: en
+
+# The map: its extent, its land and its families are the map architect's, at the step map-design.
+extent: [-5.5, 42, 8.5, 51.5]
+land: [France, Belgium, Luxembourg, Netherlands, United Kingdom, Germany, Switzerland]
+countries: [France, Belgium, Luxembourg, Netherlands, United Kingdom, Germany, Switzerland, Spain, Italy, Andorra, Monaco, Jersey, Guernsey]
+families: {}

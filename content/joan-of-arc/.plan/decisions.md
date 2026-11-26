@@ -395,3 +395,4 @@
   manager of this run; the fact checker of 040 checks the plan and then the new texts. The battle gets no
   researcher of its own unless its coordinator reports a gap: the digest's lines of Patay were researched and
   reviewed with 040. The story-auditor, at its bound, does not read the new pages.
+- Patay's phases: the battle plan is written (battle-coordinator), `040-the-loire-and-reims/battles/patay-1429.yaml`: three phases, each under a quarter reconstruction; one guessed field on the road north into Patay, the vanguard's hedges at about [1.700, 48.044] and Talbot's narrow way some 2.5 km south. The coordinator fixed a line of the digest (040.27, who put whom in the van) and left a gap for a researcher (040-battle-coordinator-3), who is dispatched.

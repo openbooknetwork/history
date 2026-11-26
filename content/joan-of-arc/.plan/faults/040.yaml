@@ -928,3 +928,54 @@
   owner: section-reviewer
   state: fixed
   reader: "takes the promise of Paris as a fact every source gives, where it is Ramsay's alone"
+- id: 040-battle-coordinator-1
+  severity: weak
+  file: content/joan-of-arc/.plan/research.md
+  field: "040.27"
+  replaces: clause
+  old: "Wavrin and Monstrelet put the Constable and Boussac in the van too."
+  new: "Wavrin puts the Constable and Boussac in the van too, and Monstrelet Boussac at the Constable's order."
+  source: "Monstrelet, tr. Johnes, book 2 ch. 61 (archive.org-download-chroniclesengue06johngoog-chroniclesengue06johngoog-djvu.txt.txt, from character 2957400): \"The constable ordered the marshal de Boussac, La Hire, Poton, and some other captains, to form the vanguard\"; Wavrin, Quicherat 4, p. 419: \"furent adont ordonnez le connestable de France, le marissal de Bousac, La Hyre, Pothon et autres capittaines, à faire l'avant-garde\". The plan's text.yaml was put right by 040-fact-checker-18; the digest kept the old clause"
+  kind: attribution
+  claim: "040.27"
+  introduced: research
+  owner: research-coordinator
+  state: fixed
+- id: 040-battle-coordinator-2
+  severity: weak
+  file: content/joan-of-arc/.plan/research/040.md
+  field: "040.27"
+  replaces: clause
+  old: "Wavrin and Monstrelet put the Constable and Boussac in the van too."
+  new: "Wavrin puts the Constable and Boussac in the van too, and Monstrelet Boussac at the Constable's order."
+  source: "as 040-battle-coordinator-1: Monstrelet book 2 ch. 61, \"The constable ordered the marshal de Boussac, La Hire, Poton, and some other captains, to form the vanguard\""
+  kind: attribution
+  claim: "040.27"
+  introduced: research
+  owner: researcher
+  state: fixed
+- id: 040-battle-coordinator-3
+  severity: weak
+  file: content/joan-of-arc/.plan/research/040.md
+  field: lines
+  new: >-
+    New lines, or quotes added to 040.25, 040.28 and 040.29, for the positions of Patay that the source files give
+    and no line quotes, so that the phase pages can tell them: (a) Wavrin, Quicherat 4, p. 420 (from character
+    about 826700), and Monstrelet book 2 ch. 61: the French sent sixty or eighty of their most expert men on the
+    best horses ahead to find the English (the scouts' strength, now unknown in the plan); (b) Wavrin p. 421 (about
+    character 829300): the English rode towards Patay until a league short of it and halted there, warned by the
+    runners of their rearguard, and the captains sent the vanguard, merchants, victuals and artillery ahead to take
+    place along the hedges near Patay (pages.yaml patay-the-hedges says "a league short", which now rests on no
+    quote; 040.39 gives Monstrelet's half league and Ramsay's two or three miles); (c) Wavrin p. 422: Talbot hoped
+    to rejoin the main body by skirting the hedges; (d) Monstrelet book 2 ch. 61 (from character about 2959700):
+    some English captains would have dismounted by the hedgerows and others fought on the plain, and they fell back
+    about half a quarter of a league from the hedges; most of the French dismounted and turned their horses loose,
+    a second account of the positions against Wavrin's; (e) Lowell ch. 10 (from character about 307900): the
+    Bastard and La Hire with a force of cavalry hung on the English rear, and the Bastard charged Talbot, where
+    Ramsay and the Journal give La Hire and Poton. Each by author where they differ. The plan of patay-1429 stands
+    without them: it takes the scouts' strength as unknown and the halt from 040.39.
+  source: "Wavrin, Quicherat 4 (archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt), p. 420: \"aiant les plus expers, montez sur fleurs de chevaulz jusques à lx ou iiixx hommes, mis devant pour descouvrir\"; p. 421: \"tant que l'en vint à une lieue prez; et illec s'arrestèrent, car ilz furent advertiz à la vérité par les coureurs de leur arrière-garde\"; p. 422: \"esperoit de soy revenir joindre avec la battaille en costoiant lesdittes hayes\"; Monstrelet book 2 ch. 61: \"In consequence they retreated about half a quarter of a league from their former position, which was full of hedges and bushes\"; Lowell ch. 10: \"the Bastard and La Hire with a force of cavalry hung upon the English rear\", \"At once the Bastard charged upon Talbot\""
+  kind: sources
+  introduced: research
+  owner: researcher
+  state: open

@@ -607,3 +607,17 @@
   old: "Joan is told that the duke will hand over Paris when it ends."
   new: "Joan is told, Ramsay writes, that the duke will hand over Paris when it ends."
   commit: 5783ce3a
+- fault: 040-battle-coordinator-1
+  by: battle-coordinator
+  file: content/joan-of-arc/.plan/research.md
+  field: "040.27"
+  old: "Wavrin and Monstrelet put the Constable and Boussac in the van too."
+  new: "Wavrin puts the Constable and Boussac in the van too, and Monstrelet Boussac at the Constable's order."
+  commit: 88e6fbff
+- fault: 040-battle-coordinator-2
+  by: battle-coordinator
+  file: content/joan-of-arc/.plan/research/040.md
+  field: "040.27"
+  old: "Wavrin and Monstrelet put the Constable and Boussac in the van too."
+  new: "Wavrin puts the Constable and Boussac in the van too, and Monstrelet Boussac at the Constable's order."
+  commit: 88e6fbff

@@ -1,0 +1,121 @@
+id: patay-1429
+name: Battle of Patay
+date: "18 June 1429"
+sources:
+  - { file: .references/archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt, gives: "Wavrin, pp. 413-424, who rode with Fastolf: the English order of march, the hedges near Patay, Talbot's narrow way between two hedges, the stag, the flight of the vanguard, Fastolf's flight and the losses", claims: ["040.22", "040.25", "040.27", "040.28", "040.29", "040.31", "040.33", "040.35", "040.36", "040.37", "040.39"] }
+  - { file: .references/archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt, gives: "the Journal du siège, pp. 176-178: the French vanguard chosen to hold the English, its numbers against theirs, the main body joining on the rout, the fugitives shut out of Janville", claims: ["040.25", "040.27", "040.31", "040.35", "040.36", "040.41"] }
+  - { file: .references/archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt, gives: "Cagny, pp. 15-16, and Gruel, p. 319: the French vanguard and main body, the English taking a field almost all on foot, the open country, Talbot taken by Poton's archers, the night at Patay", claims: ["040.29", "040.32", "040.35", "040.38", "040.39", "040.40"] }
+  - { file: .references/archive.org-download-chroniclesengue06johngoog-chroniclesengue06johngoog-djvu.txt.txt, gives: "Monstrelet, book 2 ch. 61: the stag, the stakes not set, the French half a league short of Patay, the main body's numbers, the losses", claims: ["040.28", "040.30", "040.35", "040.36", "040.37", "040.39"] }
+  - { file: .references/archive.org-download-jeannedarcmaidof028754mbp-jeannedarcmaidof028754mbp-djvu.txt.txt, gives: "the depositions of Alençon, Dunois and Louis de Coutes: La Hire in the van, Talbot taken, the losses", claims: ["040.22", "040.27", "040.31", "040.35"] }
+  - { file: .references/archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, gives: "Lowell, ch. 10: the vanguard, wagons and artillery behind stout hedges near Patay, Talbot's five hundred archers on the road", claims: ["040.29", "040.41"] }
+  - { file: .references/archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt, gives: "Ramsay, ch. 27: the fight near Coinces, the runners of the afterguard, the French van under La Hire and Poton overwhelming Talbot, the rearguard's fate not stated", claims: ["040.27", "040.31", "040.39"] }
+  - { file: .references/archive.org-download-historyofartofwa0002char-historyofartofwa0002char-djvu.txt.txt, gives: "Oman, book 14 ch. 2: the stakes not fixed, a third of the army destroyed", claims: ["040.30", "040.35"] }
+  - { file: .references/archive.org-download-thelifeofjoanofa19488gut-19488.txt.txt, gives: "Anatole France, vol. 1 ch. 16, read for where to look: the Lignerolles wood between Saint-Péravy and Patay", claims: ["040.32", "040.35", "040.39"] }
+ground:
+  field: >-
+    The open plain of the Beauce, which Gruel calls too flat for the English (040.29), on the road the English took
+    north from Meung towards Janville (040.25). Two strong hedges border the road where the French must pass, and
+    there Talbot stands; further hedges near the village of Patay shelter the English vanguard and train (040.29).
+    Woods lie beside the road, out of which the stag breaks (040.28). No river, stream or lake bounds the field:
+    it is the dry plateau of the Beauce, and scripts/ground.mjs was not needed (its run for the box timed out and
+    the field rests on no water). Where on the plain this was is disputed (040.39): near the village in Cagny and
+    the Journal, half a league short of it in Monstrelet, near Coinces two or three miles short in Ramsay, on the
+    edge of the Lignerolles wood between Saint-Péravy and Patay in France. The plan takes one place, as rules.md
+    has it: the road running north into Patay, the vanguard's hedges at the south edge of the village, about
+    [1.700, 48.044], and Talbot's narrow way about 2.5 km south of them on the same road, about [1.700, 48.022].
+    The road is drawn as running due north, the line of the English march from Meung to Patay. Both places are a
+    reconstruction from 040.39 and from the halt short of the village in 040.39 (Ramsay, Monstrelet).
+  facing: >-
+    The English face south, back down the road towards Meung and Beaugency whence the French come: the vanguard
+    behind its hedges and Talbot's archers across the narrow way (040.29). The French face north, riding up the
+    road after them (040.25, 040.27).
+  front: unknown
+  basis: reconstruction
+sides:                         # each side from the head of its column to the tail: both march north up one road
+  - name: English
+    family: english
+    units:
+      - { id: english-vanguard, type: infantry, commander: "a knight with a white standard, unnamed", strength: unknown, claim: "040.25" }
+      - { id: english-train, type: wagons, commander: "none named: the artillery, victuals and merchants", strength: unknown, claim: "040.25" }
+      - { id: english-main-body, type: infantry, commander: "Sir John Fastolf, Lord Talbot and Sir Thomas Rempston", strength: unknown, claim: "040.25" }
+      - { id: talbot-archers, type: archers, commander: "Lord Talbot", strength: "500 picked archers (Wavrin; Lowell five hundred)", claim: "040.29" }
+      - { id: fastolf-company, type: cavalry, commander: "Sir John Fastolf", strength: "unknown: a small company (Wavrin)", claim: "040.33" }
+      - { id: english-rearguard, type: infantry, commander: unknown, strength: unknown, claim: "040.25" }
+  - name: French
+    family: france
+    units:
+      - { id: french-scouts, type: cavalry, commander: unknown, strength: unknown, claim: "040.28" }
+      - { id: french-vanguard, type: knights, commander: "La Hire and Poton de Xaintrailles, with Jamet du Tillay and other mounted captains; Wavrin adds the Constable, Arthur de Richemont, and the Marshal de Boussac", strength: "1,400 to 1,500 (the Journal of the Siege)", claim: "040.27" }
+      - { id: french-main-body, type: cavalry, commander: "the Duke of Alençon and the Bastard of Orléans (later Count of Dunois), with Gilles de Rais in Wavrin; Joan rides with it, not in the van", strength: "8,000 to 9,000 (Monstrelet)", claim: "040.27" }
+phases:
+  - page: patay-the-hedges
+    title: "Patay: the hedges"
+    opens: >-
+      The English march north up the road from Meung towards Janville in Wavrin's order (040.25): the vanguard
+      under a knight with a white standard at the head, the train of artillery, victuals and merchants behind it,
+      then the main body under Fastolf, Talbot and Rempston, and last a rearguard of men born in England. As the
+      phase opens the column has halted on the plain short of Patay (040.39: two or three miles short in Ramsay,
+      whose runners of the afterguard bring the warning, half a league in Monstrelet); the plan puts its head
+      about 3.5 km south of the village on the road (reconstruction from 040.39). Fastolf rides with the main
+      body, mounted (040.33), and is drawn as its commander's marker, not yet as a unit of his own. The French
+      follow up the road out of the English sight and theirs, the scouts ahead (040.28), then the vanguard of
+      mounted men-at-arms, then the main body close behind it (040.27); how far behind the English they are no
+      source gives, and the plan sets them at the south edge of the frame (reconstruction).
+    moves:
+      - { unit: english-vanguard, does: "rides ahead up the road and takes post along the hedges near Patay, facing south", basis: sourced, claim: "040.29" }
+      - { unit: english-train, does: "goes ahead with the vanguard and stands behind the hedges with it", basis: sourced, claim: "040.29" }
+      - { unit: english-main-body, does: "marches on to the narrow way between two strong hedges where the French must pass, leaves Talbot there, and goes on north to join the vanguard at the hedges", basis: sourced, claim: "040.29" }
+      - { unit: talbot-archers, does: "Talbot dismounts with 500 picked archers and holds the narrow way, facing south, until the main body and the rearguard have joined the vanguard", basis: sourced, claim: "040.29" }
+      - { unit: english-rearguard, does: "closes up behind the main body through Talbot's narrow way", basis: reconstruction, why: "Wavrin has Talbot hold until the main body and the rearguard are joined (040.29); no source places the rearguard after the halt, and Ramsay says its fate is not stated (040.27)" }
+      - { unit: french-scouts, does: "ride ahead of the van looking for the English, whom they cannot yet see", basis: sourced, claim: "040.28" }
+      - { unit: french-vanguard, does: "rides north up the road after the English in good order", basis: sourced, claim: "040.27" }
+      - { unit: french-main-body, does: "follows close behind the vanguard", basis: sourced, claim: "040.27" }
+    decides: >-
+      The English stand in three bodies on one road: the vanguard and the train at the hedges near Patay, Talbot's
+      archers in the narrow way some 2.5 km south of them, and the main body with the rearguard on the move
+      between the two. The French ride on without knowing where they are.
+  - page: patay-the-stag
+    title: "Patay: the stag"
+    opens: >-
+      The English vanguard and train stand along the hedges near Patay, facing south (040.29). Talbot and his 500
+      archers hold the narrow way between the two hedges about 2.5 km south of them, facing south (040.29; the
+      distance is a reconstruction from 040.39), their stakes not yet set, in Monstrelet (040.30). The main body,
+      Fastolf with it, is on the road between the two, short of the hedges (040.29). The rearguard is drawn at its
+      tail, merged into it from this phase on (reconstruction: no source places it after the halt, 040.27). The
+      French scouts are on the road south of the narrow way beside the woods, the vanguard behind them and the main
+      body following close (040.27, 040.28; their distances are a reconstruction).
+    moves:
+      - { unit: english-main-body, does: "a stag breaks out of the woods, runs towards Patay into its ranks, and it raises a loud shout", basis: sourced, claim: "040.28" }
+      - { unit: french-scouts, does: "hear the shout, see the English, and send word back to their captains", basis: sourced, claim: "040.28" }
+      - { unit: french-vanguard, does: "gallops up the road into Talbot's narrow way before the English have joined at the hedges, and surrounds and overwhelms him", basis: sourced, claim: "040.29" }
+      - { unit: talbot-archers, does: "are ridden down before they have set their stakes (Monstrelet); Talbot is taken, by the archers of Poton in Gruel, and his men are killed", basis: sourced, claim: "040.31" }
+      - { unit: english-main-body, does: "hurries north towards the hedges to join the vanguard, and does not reach them", basis: sourced, claim: "040.29" }
+      - { unit: french-main-body, does: "gallops up behind the vanguard", basis: sourced, claim: "040.29" }
+    decides: >-
+      Talbot's stand is broken before the main body reaches the hedges: he is taken, his archers are killed, and
+      the French vanguard is through the narrow way and on the English main body.
+  - page: patay-the-rout
+    title: "Patay: the rout"
+    opens: >-
+      The French vanguard is through Talbot's narrow way and in among the English main body short of the hedges
+      (040.29, 040.31). The English vanguard and train still hold the hedges near Patay (040.29). Fastolf, who has
+      not dismounted, is with the main body (040.33) and is drawn from here as a small mounted company of his own.
+      The French main body is coming up the road behind its vanguard (040.29). The rearguard is not drawn: Ramsay
+      says what became of it is not stated (040.27).
+    moves:
+      - { unit: fastolf-company, does: "rides north towards the vanguard at the hedges to join it", basis: sourced, claim: "040.29" }
+      - { unit: english-vanguard, does: "takes him for a man in flight, thinks all is lost, and flees from the hedges with its captain and his white standard", basis: sourced, claim: "040.29" }
+      - { unit: french-vanguard, does: "presses into the English main body, taking or killing whom it will", basis: sourced, claim: "040.31" }
+      - { unit: french-main-body, does: "comes up and joins the vanguard on the rout", basis: sourced, claim: "040.29" }
+      - { unit: english-main-body, does: "breaks: most are cut down or taken where they stand, and the fugitives run north-east for Janville, which shuts its gates on them", basis: sourced, claim: "040.41" }
+      - { unit: fastolf-company, does: "turns away with a small company and rides north-east for Étampes", basis: sourced, claim: "040.33" }
+    decides: >-
+      The English army is broken with small loss to the French (040.37). Talbot, Lord Scales, Sir Thomas Rempston
+      and a Hungerford are taken (040.31); the dead and the prisoners are given by author (040.35); Fastolf reaches
+      Étampes about midnight (040.33), and the French lie that night at Patay (040.40).
+card:
+  site: near the village of Patay in the Beauce, two leagues from Janville by Wavrin
+  sides:
+    - { name: French, family: france, commanders: ["the Duke of Alençon", "La Hire", "Poton de Xaintrailles", "Arthur de Richemont, Constable of France"], strength: "Wavrin: about 6,000 before Beaugency on 17 June, 12,000 to 13,000 on the march of the 18th; Monstrelet: a main body of 8,000 to 9,000; the Journal of the Siege: 1,400 to 1,500 of the vanguard engaged", casualties: "Wavrin and Monstrelet: small loss, with no figure" }
+    - { name: English, family: english, commanders: ["Lord Talbot", "Sir John Fastolf", "Lord Scales"], strength: "Wavrin, who marched with it: about 5,000 leaving Paris; Chartier: 4,000 to 5,000; Monstrelet: four or five thousand; the Journal of the Siege: 4,000; Alençon: a thousand men-at-arms", casualties: "Monstrelet: about 1,800 dead and 100 to 120 taken; Wavrin: about 2,000 dead and 200 taken; Gruel, by the heralds' count, and the Journal of the Siege: about 2,200 dead; Cagny: 2,000 to 3,000 dead and 400 to 500 taken besides the lords; Dunois: more than 4,000 killed and taken; Oman: a third or more of the army. Talbot, Lord Scales, Sir Thomas Rempston and Hungerford taken" }
+  outcome: "French victory; the French vanguard rides down the English before they are formed, Talbot is taken and Fastolf flees"

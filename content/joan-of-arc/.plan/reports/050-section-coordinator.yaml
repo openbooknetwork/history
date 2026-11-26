@@ -11,3 +11,39 @@
   pages: 6
   pages_expected: 6
   phase_battles: []
+- step: plans
+  task: plan
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/050-paris-and-compiegne/pages.yaml
+    - content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml
+    - content/joan-of-arc/.plan/050-paris-and-compiegne/text.yaml
+    - content/joan-of-arc/.plan/050-paris-and-compiegne/battles.yaml
+    - content/joan-of-arc/shared/battles/paris-1429/battle.yaml
+    - content/joan-of-arc/shared/battles/compiegne-1430/battle.yaml
+  faults: []
+  unresolved: []
+  stale: []
+  pages: 6
+  pages_expected: 6
+  phase_battles: []
+  pages_changed:
+    - "paris.tells: Joan with Rais and Gaucourt at the gate and Alençon covering (050.16), and the king's recall on the next day (050.23)"
+    - "saint-pierre-and-la-charite: date October – December 1429 and when 1429-10, as the expedition left Bourges at the end of October (050.35); Gressart as names.md spells him; 'taken by 9 November' (050.37)"
+    - "melun-and-lagny: date March – May 1430 and when 1430-03, as she left Sully at the end of March (050.44)"
+    - "compiegne: when 1430-05 in place of 1430-05-14, which no source gives; tells adds Choisy and Soissons (050.53, 050.54) and keeps the night ride apart from the disputed day (050.56, 050.58)"
+    - "markers added: bray-held-1429, crepy-1429, victoire-1429 and the towns that came over in August (050.9) on montepilloy; porte-saint-denis-1429 on paris; mehun-1429, moulins-1429, cosne-1429; choisy-1430 and coudun-1430"
+  weak_pages:
+    montepilloy: [single 050.1, 050.6, 050.13; disputed 050.5, 050.10]
+    paris: [single 050.17, 050.20, 050.23, 050.24; disputed 050.14, 050.21, 050.22]
+    back-to-the-loire: [single 050.28; disputed 050.29]
+    saint-pierre-and-la-charite: [single 050.31, 050.33, 050.36, 050.42; open 050.40]
+    melun-and-lagny: [single 050.46, 050.49, 050.51; disputed 050.48]
+    compiegne: [single 050.54, 050.59, 050.60, 050.64, 050.68; disputed 050.56, 050.57, 050.58, 050.67]
+  own_decisions:
+    - "The paris page frames the north side of Paris, and the road from Compiègne to Saint-Denis is told and not drawn."
+    - "The two gates of Paris stand on the line of the wall of Charles V, a reconstruction; no source read gives a plan of the walls."
+    - "The montepilloy frame reaches Aumale and Blangy, so that every town of 050.9 is marked."
+    - "The ennoblement of December 1429 is told on saint-pierre-and-la-charite."
+    - "Route stations keep to places names.md has: Ramsay's La Ferté-Milon, Baron and Louvres are left out of the stations."
+    - "The Compiègne card has three sides, the Burgundians and the English apart, as Monstrelet gives them."

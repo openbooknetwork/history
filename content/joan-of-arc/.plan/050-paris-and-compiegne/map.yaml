@@ -1,0 +1,233 @@
+montepilloy:
+  bbox: [1.45, 48.3, 3.6, 50.0]
+  zones: [france-1422, english-sep-1429, burgundy-1420, brittany-1407]
+  routes:
+    - id: france-1429-bray
+      family: france
+      stations: [Provins, Bray, Coulommiers, Crépy]
+      passage: "Jean Chartier, Quicherat 4, p. 79, line 3440; the Journal of the Siege, Quicherat 4, p. 188, line 7702; Ramsay, Lancaster and York, ch. 27, p. 402, lines 25323-25336"
+      basis: reconstruction
+      why: "Chartier has the council at Provins resolve to cross the Seine at Bray, and the Journal has the townsmen let in English and Burgundians the evening before the crossing (050.1); Ramsay has the army retrace its steps northwards by Coulommiers to Crépy-en-Valois, where Bedford's letter reached the king on 11 August (050.2). The towns are given and the roads are not. Ramsay also names La Ferté-Milon, which the line passes near and which the story does not name."
+    - id: france-1429-montepilloy
+      family: france
+      stations: [Crépy, Montépilloy]
+      passage: "Cagny, Chroniques, 1429, pp. 161-162, lines 7778-7803; Ramsay, Lancaster and York, ch. 27, p. 403, line 25392"
+      basis: reconstruction
+      why: "Cagny has Joan, Alençon, Vendôme and the marshals ride out on Sunday 14 August and lodge at evening by a hedge near Montépilloy, about two leagues from Senlis (050.3, 050.4). Only the two ends are given."
+    - id: france-1429-compiegne
+      family: france
+      stations: [Montépilloy, Crépy, Compiègne]
+      passage: "Cagny, Chroniques, 1429, p. 164, lines 7878-7890; Lowell, Joan of Arc, ch. 12, p. 169, line 7458"
+      basis: reconstruction
+      why: "Cagny has the French leave Montépilloy about noon on 16 August for the king at Crépy, and the king go to Compiègne on Thursday 18 August (050.3, 050.7). The towns are given and the roads are not."
+    - id: english-1429-montepilloy
+      family: english
+      stations: [Paris, Notre-Dame-de-la-Victoire]
+      passage: "Ramsay, Lancaster and York, ch. 27, p. 403, lines 25390-25395; Cagny, Chroniques, 1429, pp. 162 and 164, lines 7803 and 7880"
+      basis: reconstruction
+      why: "Ramsay has Bedford move out from Paris on the road to Senlis and take up his position on the Nonette by Notre-Dame-de-la-Victoire, and Cagny has the English go back by Senlis to Paris on 16 August (050.3, 050.4). The road runs both ways along one line; only its ends are given."
+  markers:
+    bray-held-1429: { name: Bray, what: "the bridge over the Seine the king meant to cross early in August 1429 to go back over the Loire; the townsmen promised the passage and let in English and Burgundians the night before; about 48.41 N 3.24 E. In the english colour", basis: sourced }
+    crepy-1429: { name: Crépy, what: "the king's quarters in August 1429, where Bedford's letter of challenge reached him on 11 August and the keys of Compiègne were brought on 17 August; about 49.23 N 2.89 E. In the france colour", basis: sourced }
+    montepilloy: { name: Montépilloy, what: "where the king's army lodged by a hedge in the fields, about two leagues from Senlis, and faced Bedford's on 14 and 15 August 1429; there were skirmishes and no battle; the village, about 49.21 N 2.70 E. In the france colour", basis: sourced, rank: 2 }
+    victoire-1429: { name: Notre-Dame-de-la-Victoire, what: "Bedford's camp by the abbey on the little river Nonette, half a league from Senlis, fortified overnight with stakes, ditches and carts, the river at its back, 14 to 16 August 1429; the abbey ruins, about 49.19 N 2.62 E. In the english colour", basis: sourced, rank: 1 }
+    senlis-1429: { name: Senlis, what: "yields by treaty to Vendôme and the marshals after Bedford falls back, with letters of abolition dated 22 August 1429; Vendôme stays as its governor; about 49.21 N 2.59 E. In the france colour", basis: sourced, rank: 1 }
+    compiegne-1429: { name: Compiègne, what: "sends its keys to the king at Crépy on 17 August 1429; he enters on 18 August and makes Guillaume de Flavy its captain; the truce with the Duke of Burgundy is signed here on 28 August; about 49.42 N 2.83 E. In the france colour", basis: sourced, rank: 2 }
+    beauvais-1429: { name: Beauvais, what: "comes over to the king in the second half of August 1429 and drives out its bishop, Pierre Cauchon; about 49.43 N 2.08 E. In the france colour", basis: sourced }
+    creil-1429: { name: Creil, what: "comes over to the king in August 1429 (Monstrelet, Ramsay); Jacques de Chabannes is left as its captain; about 49.26 N 2.47 E. In the france colour", basis: sourced }
+    pont-sainte-maxence-1429: { name: Pont-Sainte-Maxence, what: "its bridge over the Oise comes over to the king in August 1429 (Monstrelet, Ramsay); about 49.30 N 2.60 E. In the france colour", basis: sourced }
+    choisy-1429: { name: Choisy, what: "the castle on the Oise that comes over to the king in August 1429 (Monstrelet); about 49.44 N 2.88 E. In the france colour", basis: sourced, rank: 1 }
+    gournay-1429: { name: Gournay-sur-Aronde, what: "comes over to the king in August 1429 (Monstrelet); about 49.49 N 2.70 E. In the france colour", basis: sourced }
+    aumale-1429: { name: Aumale, what: "changes hands during the talks with Burgundy, August 1429 (Ramsay); about 49.77 N 1.75 E. In the france colour", basis: sourced }
+    blangy-1429: { name: Blangy, what: "changes hands during the talks with Burgundy, August 1429 (Ramsay); about 49.93 N 1.63 E. In the france colour", basis: sourced }
+    lagny-1429: { name: Lagny, what: "the small fortified town on the south bank of the Marne that acknowledges the king in August 1429 (Lowell); Ambroise de Loré is later made its captain; about 48.87 N 2.71 E. In the france colour", basis: sourced }
+  unmarked:
+    Provins: "the start of the army's road, a station of france-1429-bray; marked in 040."
+    Coulommiers: "a station of the road north from Bray; marked in 040."
+    Montereau: "where Bedford dated his letter of challenge on 7 August; it changes nothing on the map, and it is marked in 010."
+    Paris: "Bedford's city, the start of english-1429-montepilloy; marked on paris."
+    Arras: "where the king's embassy went to the Duke of Burgundy; outside the frame."
+    Nogent: "named for the truce's terms, which rules.md leaves out; it changes nothing on the map."
+    Harfleur: "named only in Ramsay's terms of the truce, which rules.md leaves out."
+    Rouen: "where Bedford went from Paris (Cagny); outside the frame, and marked in 060."
+    Normandy: "a duchy that stays English, shown by the english zone."
+    the Nonette: "the little river of Bedford's camp, drawn on the base map; the camp is marked."
+    Orbec: "named only in the title of the English captain killed on 14 August; outside the frame."
+    Orléans: "named only for the Bastard of Orléans; no place on this page."
+    Reims: "named only in the title of the Archbishop of Reims; marked in 040."
+    Thérouanne: "named only in Louis of Luxembourg's title of bishop; outside the frame."
+    Chartres: "named only in the name of Regnault de Chartres; no place."
+    the Loire: "named as where the council meant to go back over; outside the frame."
+    the Seine: "the river is drawn on the base map; Bray on it is marked."
+    the Marne: "the river is drawn on the base map; Lagny on it is marked."
+    the Oise: "the river is drawn on the base map; Compiègne, Choisy and Pont-Sainte-Maxence on it are marked."
+    Bar: "named only in the title of René, Duke of Bar; the duchy is outside the frame."
+    Burgundy: "named only in the Duke of Burgundy's title; the burgundy zone shows his land."
+paris:
+  bbox: [2.27, 48.84, 2.42, 48.95]
+  zones: [france-1422, english-sep-1429, burgundy-1420, brittany-1407]
+  routes:
+    - id: france-1429-paris
+      family: france
+      stations: [Saint-Denis, La Chapelle, the pig market before the Porte Saint-Honoré]
+      passage: "Cagny, Chroniques, 1429, pp. 166-167, lines 7979-8005; the Journal of the Siege, Quicherat 4, p. 198, lines 8072-8080"
+      basis: reconstruction
+      why: "Cagny has the king dine at Saint-Denis on Wednesday 7 September, and the Journal has the army lodge that evening at La Chapelle, on the road midway between Saint-Denis and Paris, and draw up next day in the pig market before the Porte Saint-Honoré (050.15, 050.16). The road from Saint-Denis to La Chapelle is the road to Paris; the way from La Chapelle round outside the wall to the pig market is given by no source and is drawn outside the line of the wall of Charles V."
+  markers:
+    saint-denis-1429: { name: Saint-Denis, what: "taken by Joan and Alençon on 25 August 1429 (the Bourgeois; Cagny has them lodge there on the 26th); for a fortnight they skirmish at the gates of Paris from it, and the king comes on 7 September; the town, about 48.94 N 2.35 E. In the france colour", basis: sourced }
+    la-chapelle-1429: { name: La Chapelle, what: "the village midway between Saint-Denis and Paris where Joan and the captains lodge on the evening of 7 September 1429 and to which she is carried back wounded; about 48.89 N 2.36 E. In the france colour", basis: sourced }
+    porte-saint-denis-1429: { name: Porte Saint-Denis, what: "the gate of Paris from which the defenders threatened a sally on 8 September 1429, while Alençon covered the attack behind a hill; the gate stood on the wall of Charles V where the Rue Saint-Denis crossed it, about 48.867 N 2.352 E. In the english colour", basis: reconstruction, why: "The sources name the gate (050.16) and no source read gives a plan of the walls; it is placed on the line of the wall of Charles V where the Rue Saint-Denis crossed it.", rank: 1 }
+    porte-saint-honore: { name: Porte Saint-Honoré, what: "the gate Joan, Rais and Gaucourt attacked on 8 September 1429 from the pig market; the barrier and boulevard before it were fired and taken, and the attack stopped at the water of the inner moat; the gate stood on the wall of Charles V where the Rue Saint-Honoré crossed it, about 48.863 N 2.337 E. In the english colour, under the battle card", basis: reconstruction, why: "The sources name the gate and the pig market before it (050.16) and no source read gives a plan of the walls; it is placed on the line of the wall of Charles V where the Rue Saint-Honoré crossed it.", rank: 2 }
+  unmarked:
+    the pig market: "the Marché aux Pourceaux before the Porte Saint-Honoré, where the army drew up; a few hundred metres from the gate, it would stand under the card, and it is the last station of france-1429-paris."
+    Montmartre: "named only in Monstrelet's account of the king drawn up between Montmartre and Paris; it changes nothing on the map."
+    the bridge over the Seine near Saint-Denis: "Alençon's bridge, broken in the night of 9 to 10 September; no source read places it beyond 'near Saint-Denis'."
+    the hill behind which Alençon stood: "no source read places it."
+    Senlis: "where Alençon went to the king on 1 and 5 September; outside the frame, marked on montepilloy."
+    Compiègne: "whence Joan and Alençon set out on 23 August; outside the frame, marked on montepilloy. No source read gives their road but its ends, and the page's frame is the north side of Paris, so the road is not drawn."
+    Paris: "the city held for Henry VI, shown by the english zone; its two attacked gates are marked."
+    the Porte Saint-Honoré: "marked as porte-saint-honore, whose label is the name without the article."
+    the Porte Saint-Denis: "marked as porte-saint-denis-1429, whose label is the name without the article."
+    the Seine: "the river is drawn on the base map; the bridge over it is placed by no source."
+    Bar: "named only in the title of René, Duke of Bar; no place on this page."
+back-to-the-loire:
+  bbox: [2.0, 47.55, 3.55, 49.0]
+  zones: [france-1422, english-sep-1429, burgundy-1420, brittany-1407]
+  routes:
+    - id: france-1429-gien
+      family: france
+      stations: [Saint-Denis, Lagny, Provins, Bray, a ford of the Yonne below Sens, Courtenay, Montargis, Gien]
+      passage: "Cagny, Chroniques, 1429, pp. 169-170, lines 8100-8121; the Journal of the Siege, Quicherat 4, p. 200, lines 8193-8198; Lowell, Joan of Arc, ch. 13, p. 179 n., line 7896"
+      basis: reconstruction
+      why: "Cagny has the king leave Saint-Denis on Tuesday 13 September and dine at Gien on Wednesday 21 September; the Journal names Lagny on the Marne and Bray on the Seine, and Lowell the crossings of the Marne at Lagny, the Seine at Bray and the Yonne near Sens; the research line names Provins, Courtenay and Montargis (050.29). The towns are given and the roads are not."
+  markers:
+    saint-denis-abbey: { name: Saint-Denis, what: "before leaving, Joan offers her whole white armour, with a sword won before Paris, before the image of Our Lady and the relics of the abbey, September 1429; she told her judges her voice had bidden her stay there; the abbey church, about 48.936 N 2.360 E. In the france colour", basis: sourced }
+    bray-1429: { name: Bray, what: "the bridge over the Seine that held against the king in August yields to him on his way south and the army crosses there, September 1429; about 48.41 N 3.24 E. In the france colour", basis: sourced }
+    gien-disbanded: { name: Gien, what: "the king dines here on 21 September 1429, and the army that went to Reims is disbanded: Alençon goes home to Beaumont and the captains to their frontiers; about 47.69 N 2.63 E. In the france colour", basis: sourced }
+  unmarked:
+    Lagny: "a station of the road, where Ambroise de Loré is left as captain; marked on montepilloy and on melun-and-lagny."
+    Provins: "a station of the road; marked in 040."
+    Sens: "the Yonne is forded below it; a station of the road."
+    Courtenay: "a station of the road; it changes nothing on the map."
+    Montargis: "a station of the road; it changes nothing on the map."
+    Senlis: "Vendôme is left there as governor; outside the frame, marked on montepilloy."
+    Compiègne: "Flavy is left there as captain; outside the frame, marked on montepilloy."
+    Creil: "Chabannes is left there as captain; outside the frame, marked on montepilloy."
+    Beauvais: "the chancellor is left there; outside the frame, marked on montepilloy."
+    Beaumont: "Alençon's viscounty, where he goes home; outside the frame."
+    Normandy: "where Alençon asked to take her; inside the english zone and outside the frame."
+    Reims: "named for the army that went to Reims; marked in 040."
+    Paris: "named for the wound before Paris; at the frame's north edge, inside the english zone, and marked on paris."
+    Chartres: "named only in the name of Regnault de Chartres; no place."
+    the Seine: "the river is drawn on the base map; Bray on it is marked."
+    the Marne: "the river is drawn on the base map; Lagny on it is a station of the road."
+    the Yonne: "the river is drawn on the base map; the ford below Sens is a station of the road."
+    the Île-de-France: "a region, named for Clermont's governorship; the zones show who holds it."
+    Maine: "a region where Alençon wished to take her; outside the frame."
+    the Beauvaisis: "a region, named for Clermont's governorship; outside the frame."
+    Brittany: "named for the marches toward which Alençon wished to take her; the brittany zone shows the duchy, outside the frame."
+saint-pierre-and-la-charite:
+  bbox: [1.9, 46.45, 3.65, 47.55]
+  zones: [france-1422, english-sep-1429, burgundy-1420, brittany-1407]
+  routes:
+    - id: france-1429-saint-pierre
+      family: france
+      stations: [Bourges, Saint-Pierre-le-Moûtier]
+      passage: "Murray, deposition of Jean d'Aulon, p. 318, lines 15863-15896; Lowell, Joan of Arc, ch. 14, p. 185, line 8148"
+      basis: reconstruction
+      why: "d'Aulon has her assemble her forces at Bourges and go to besiege Saint-Pierre-le-Moûtier; Lowell has her leave Bourges toward the end of October with Albret (050.35). Only the two ends are given."
+    - id: france-1429-la-charite
+      family: france
+      stations: [Saint-Pierre-le-Moûtier, Moulins, La Charité]
+      passage: "Joan's letter to Riom and Albret's letter to Riom, Moulins, 9 November 1429, Quicherat 5, lines 7536-7620; Lowell, Joan of Arc, ch. 14, p. 190, line 8339"
+      basis: reconstruction
+      why: "Joan and Albret write from Moulins on 9 November that Saint-Pierre is taken and that they are going to lay siege to La Charité, and Lowell has the army sit down before it about 10 November (050.37, 050.38, 050.39). The towns are given and the roads are not."
+  markers:
+    mehun-1429: { name: Mehun-sur-Yèvre, what: "where the council resolves to take La Charité, and Saint-Pierre-le-Moûtier first, and where in December 1429 (on 29 December, Thurston) Charles VII ennobles Joan and her family; about 47.15 N 2.21 E. In the france colour", basis: sourced }
+    bourges-1429: { name: Bourges, what: "where Joan stays about three weeks in October 1429 in the house of Marguerite La Touroulde and gathers her force; the town is asked for 1,300 crowns for the siege of La Charité on 24 November; about 47.08 N 2.40 E. In the france colour", basis: sourced }
+    saint-pierre-le-moutier: { name: Saint-Pierre-le-Moûtier, what: "Burgundian since 1422 (Lowell), taken by assault by 9 November 1429 after a first assault had failed; Joan stops the soldiers pillaging the church; about 46.80 N 3.12 E. In the france colour once taken", basis: sourced }
+    moulins-1429: { name: Moulins, what: "where Joan and Albret write on 9 November 1429 to Riom for powder, saltpetre, sulphur, arrows and crossbows for the siege of La Charité; about 46.57 N 3.33 E. In the france colour", basis: sourced }
+    la-charite: { name: La Charité, what: "Perrinet Gressart's town on the Loire, held for Burgundy since 1423; besieged from about 10 November 1429 for about a month, an assault fails and the siege is raised with the loss of artillery; it stays Gressart's; about 47.18 N 3.02 E. In the burgundy colour", basis: sourced }
+    cosne-1429: { name: Cosne, what: "a town on the Loire held against the king in autumn 1429, named with La Charité in Albret's letter of 9 November; about 47.41 N 2.93 E. In the burgundy colour", basis: sourced }
+  unmarked:
+    Clermont-Ferrand: "the town that sent saltpetre, sulphur and arrows on 7 November; outside the frame, to the south."
+    Riom: "the town Joan and Albret wrote to on 9 November; outside the frame, to the south."
+    Jargeau: "where Beaucourt finds her on Christmas Day; outside the frame and the page's event."
+    Selles: "whence Lowell has her sent on to Bourges; marked in 040."
+    Dauphiné: "the country of Raymon de Montremur, killed in the assault on La Charité; outside the frame."
+    the Allier: "the river of the frontier towns, drawn on the base map; Moulins and Saint-Pierre are marked near it."
+    the Loire: "the river is drawn on the base map; La Charité and Cosne on it are marked."
+    Berry: "a region, named for Albret's office; the france zone shows it."
+    Burgundy: "named for the duchy's western frontier and the Duke's service; the burgundy zone shows his land."
+melun-and-lagny:
+  bbox: [2.0, 47.6, 3.1, 49.0]
+  zones: [france-1422, english-sep-1429, burgundy-1420, brittany-1407]
+  routes:
+    - id: joan-1430-lagny
+      family: joan
+      stations: [Sully, Melun, Lagny]
+      passage: "Cagny, Chroniques, 1430, p. 173, lines 8230-8248; Lowell, Joan of Arc, ch. 15, pp. 200-202, lines 8750-8862"
+      basis: reconstruction
+      why: "Cagny has her leave the king at Sully without his leave and go to Lagny, whose men made good war on the English of Paris; her own answer of 10 March 1431 puts her in the trenches at Melun in Easter week, and Lowell has her ride on from Melun to cross the Marne at Lagny (050.44, 050.46, 050.47). The towns are given and the roads are not. Whether she was at Melun before it rose is not known (Lowell), and the text says so."
+  markers:
+    sully-1430: { name: Sully, what: "the court is here at the end of March 1430, when Joan leaves it with her small household without the king's leave; about 47.77 N 2.38 E. In the france colour", basis: sourced }
+    melun-1430: { name: Melun, what: "held by the English and then the Burgundians since Henry V took it, it drives out its garrison about Easter 1430 and comes over to the king; in its trenches in Easter week her voices tell her she will be taken before Saint John's Day; about 48.54 N 2.66 E. In the france colour", basis: sourced }
+    lagny-1430: { name: Lagny, what: "the king's town on the Marne whose garrison makes war on the English of Paris; from it Joan defeats and takes Franquet d'Arras, and he is tried and beheaded there, April or May 1430; about 48.87 N 2.71 E. In the france colour", basis: sourced }
+  unmarked:
+    the place of the fight with Franquet: "near Lagny; no source read places it."
+    Paris: "the English city Lagny's garrison raided; inside the english zone at the frame's north edge, marked on paris."
+    Senlis: "whose bailli judged Franquet; outside the frame, marked on montepilloy."
+    the Seine: "the river is drawn on the base map; Melun on it is marked."
+    the Marne: "the river is drawn on the base map; Lagny on it is marked."
+    Arras: "named only in the name of Franquet d'Arras; no place."
+    the Oise: "where the Duke of Burgundy took the field; outside the frame, and the river is drawn on the base map."
+    Burgundy: "named for the truce and the Burgundian party; the burgundy zone shows the Duke's land."
+compiegne:
+  bbox: [2.65, 49.18, 3.4, 49.52]
+  zones: [france-1422, english-sep-1429, burgundy-1420, brittany-1407]
+  routes:
+    - id: joan-1430-compiegne
+      family: joan
+      stations: [Crépy, Compiègne]
+      passage: "Cagny, Chroniques, 1430, p. 174, lines 8282-8288; Lowell, Joan of Arc, ch. 16, p. 216, line 9461"
+      basis: reconstruction
+      why: "Cagny has her leave Crépy about midnight and come into Compiègne about sunrise (050.56). Only the two ends are given."
+    - id: joan-1430-sortie
+      family: joan
+      stations: [the bridge of Compiègne, Margny]
+      passage: "Monstrelet, book 2 ch. 86, lines 40266-40278; Barrett, the examination in prison of 10 March 1431, lines 2200-2205"
+      basis: sourced
+      why: "She went over the bridge and through the boulevard (her own answer), against Baudot de Noyelle's post at the end of the causeway of Margny (Monstrelet) (050.59). The causeway runs from the bridge to Margny; the line follows it."
+    - id: burgundy-1430-clairoix
+      family: burgundy
+      stations: [Clairoix, Margny]
+      passage: "Chastellain, Quicherat 4, pp. 445-447, lines 17341-17413; Monstrelet, book 2 ch. 86, lines 40269-40278"
+      basis: reconstruction
+      why: "John of Luxembourg rode over from Clairoix with Créqui and a few gentlemen and called up his men against the sortie (050.59). Only the two ends are given."
+    - id: english-1430-venette
+      family: english
+      stations: [Venette, the end of the bridge of Compiègne]
+      passage: "Monstrelet, book 2 ch. 86, lines 40269-40278; Barrett, the examination in prison of 10 March 1431, lines 2200-2205"
+      basis: reconstruction
+      why: "The English from Venette, near 500 in Monstrelet, came between her and the bridge and cut off her road (050.59, 050.61). Only the start and the place they made for are given."
+  markers:
+    choisy-1430: { name: Choisy, what: "the king's castle on the Oise, held by Louis de Flavy for his brother; Philip the Good takes it in May 1430, razes it and bridges the Oise to come at Compiègne; about 49.44 N 2.88 E. In the burgundy colour", basis: sourced, rank: 1 }
+    soissons-1430: { name: Soissons, what: "held for the king by a captain bought by Burgundy, it shuts its gates on the army of Joan, the archbishop and Vendôme in May 1430 (18 May, Lang), and is sold to Burgundy weeks later; about 49.38 N 3.32 E. In the burgundy colour", basis: sourced }
+    crepy-1430: { name: Crépy, what: "where Joan hears that Burgundy and the Earl of Arundel besiege Compiègne, and rides out about midnight with her company, May 1430; about 49.23 N 2.89 E. In the france colour", basis: sourced }
+    compiegne-1430: { name: Compiègne, what: "besieged by the Duke of Burgundy from May 1430; Joan rides in at sunrise and sorties that afternoon over the bridge, and the captain raises the bridge and shuts the gate behind her; about 49.42 N 2.83 E. In the france colour, under the battle card", basis: sourced, rank: 1 }
+    coudun-1430: { name: Coudun, what: "the Duke of Burgundy's quarters, a league from Compiègne, whence he writes to Saint-Quentin of her capture; he comes too late for the fight and speaks with her; about 49.47 N 2.81 E. In the burgundy colour", basis: sourced, rank: 1 }
+    clairoix-1430: { name: Clairoix, what: "John of Luxembourg's quarters, whence he rides to Margny against the sortie; Joan is kept in his lodging three or four days (Cagny); about 49.44 N 2.85 E. In the burgundy colour", basis: sourced, rank: 2 }
+    margny-1430: { name: Margny, what: "Baudot de Noyelle's post at the end of the causeway from Compiègne's bridge, which Joan drives back twice; she is taken in the fields between it and the boulevard and led here; about 49.43 N 2.82 E. In the burgundy colour", basis: sourced, rank: 3 }
+    venette-1430: { name: Venette, what: "the English quarters under Lord Montgomery in the meadows by the Oise, whence they cut her off from the bridge; about 49.42 N 2.80 E. In the english colour", basis: sourced, rank: 1 }
+  unmarked:
+    the place she was taken: "in the fields on the Picardy side by the boulevard at the end of the bridge, by her own account; the battle card stands there."
+    the church of Saint-Jacques: "the scene of Bouchart's story of 1498, which Lowell and Lang doubt; it would stand under the card."
+    the hill of Clairoix: "Cagny's Mont de Claire, behind which he sets a Burgundian ambush; his account is single, and Clairoix is marked."
+    Senlis: "where the captains go after Soissons; outside the frame, marked on montepilloy."
+    Montdidier: "the side from which Burgundy came at Compiègne; outside the frame."
+    Saint-Quentin: "the town the Duke of Burgundy wrote to; outside the frame."
+    Beaulieu: "where she is taken next; marked in 060."
+    the Oise: "the river is drawn on the base map; the bridge and the posts on its right bank are marked."
+    Reims: "named only in the title of the Archbishop of Reims; no place on this page."
+    Picardy: "named for the Picardy side of the Oise, her own words; the burgundy zone shows Picardy."
+    Burgundy: "named for the Duke of Burgundy and his army; the burgundy zone shows his land."

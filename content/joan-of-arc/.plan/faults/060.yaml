@@ -375,3 +375,67 @@
   introduced: "research"
   owner: "researcher"
   state: "fixed"
+- id: 060-section-coordinator-1
+  severity: wrong
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: sold-to-the-english.tells
+  replaces: clause
+  old: "and from there round the coast to Rouen"
+  new: "and from there to Rouen"
+  source: "rules.md, Evidence, Left out: the road from Le Crotoy to Rouen; research 060.24: the coast road rests on Père Ignace (1657) alone, whom Quicherat 5 warns against"
+  kind: plan
+  claim: "060.24"
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+- id: 060-section-coordinator-2
+  severity: wrong
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: the-court.tells
+  replaces: clause
+  old: "with the vice-inquisitor and masters of the University of Paris beside him and the English crown paying"
+  new: "with masters of the University of Paris beside him, the vice-inquisitor drawn in by March, and the English crown paying"
+  source: "research 060.35: Jean Le Maistre declines on 20 February 1431 and sits from 13 March (Barrett, 20 February 1431; Ramsay 1 ch. 29 note 1)"
+  kind: fact
+  claim: "060.35"
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+- id: 060-section-coordinator-3
+  severity: weak
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: the-old-market.tells
+  replaces: clause
+  old: "as the witnesses of the burning told it in 1456"
+  new: "as the record and the witnesses of 1450 to 1456 tell it"
+  source: "research 060.58, 060.59, 060.63: Massieu, Toutmouillé and Ladvenu in the first enquiry (March 1450, names.md calendar rule), Guesdon in 1455-1456 (Murray); 060.60, 060.61: the record"
+  kind: attribution
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+- id: 060-section-coordinator-4
+  severity: weak
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: saint-ouen.date
+  replaces: value
+  old: "24 to 28 May 1431"
+  new: "24 – 29 May 1431"
+  source: "research 060.57: the judges find her relapsed on Tuesday 29 May in the archiepiscopal chapel (Barrett, Tuesday, May 29th), which the page's tells holds; names.md, a label writes a date range with an en dash"
+  kind: plan
+  claim: "060.57"
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+- id: 060-section-coordinator-5
+  severity: weak
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: the-court.when
+  replaces: value
+  old: "1431-01-09"
+  new: "1431-01-03"
+  source: "research 060.32: Henry VI's letters of 3 January 1431 deliver her to Cauchon (Barrett, the letters of Henry VI); the date of the chapter's grant, 28 December 1430, rests on Anatole France alone (060.33), which rules.md does not let carry a claim"
+  kind: plan
+  claim: "060.32"
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed

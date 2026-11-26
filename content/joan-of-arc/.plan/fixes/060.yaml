@@ -203,3 +203,38 @@
   old: "\"She was, however, allowed to make her confession and to receive Communion.\" (newadvent.org-cathen-08409c.txt, Thurston, scholarly)"
   new: "\"She was, however, allowed to make her confession and to receive Communion.\" (newadvent.org-cathen-08409c.txt, Thurston, scholarly) \"Bishop, I die through you.\" (archive.org-download-jeannedarcmaidof028754mbp-jeannedarcmaidof028754mbp-djvu.txt.txt, the first enquiry 1449, Jean Toutmouille, primary) \"Alas! I die through you, for had you given me over\" (archive.org-download-jeannedarcmaidof028754mbp-jeannedarcmaidof028754mbp-djvu.txt.txt, the first enquiry 1449, Martin Ladvenu, primary)"
   commit: "15c15fb0"
+- fault: 060-section-coordinator-1
+  by: section-coordinator
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: sold-to-the-english.tells
+  old: "and from there round the coast to Rouen"
+  new: "and from there to Rouen"
+  commit: b405e728
+- fault: 060-section-coordinator-2
+  by: section-coordinator
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: the-court.tells
+  old: "with the vice-inquisitor and masters of the University of Paris beside him and the English crown paying"
+  new: "with masters of the University of Paris beside him, the vice-inquisitor drawn in by March, and the English crown paying"
+  commit: b405e728
+- fault: 060-section-coordinator-3
+  by: section-coordinator
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: the-old-market.tells
+  old: "as the witnesses of the burning told it in 1456"
+  new: "as the record and the witnesses of 1450 to 1456 tell it"
+  commit: b405e728
+- fault: 060-section-coordinator-4
+  by: section-coordinator
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: saint-ouen.date
+  old: "24 to 28 May 1431"
+  new: "24 – 29 May 1431"
+  commit: b405e728
+- fault: 060-section-coordinator-5
+  by: section-coordinator
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: the-court.when
+  old: "1431-01-09"
+  new: "1431-01-03"
+  commit: b405e728

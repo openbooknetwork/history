@@ -782,3 +782,17 @@
   old: "page('033-patay-the-rout', 'Patay: the rout', ['wavrin', 'monstrelet', 'ramsay', 'oman', 'france'])"
   new: "murrayDunois: \"T. Douglas Murray (ed. and tr.), Jeanne d'Arc, Maid of Orleans (1902), the deposition of Dunois.\"; page('033-patay-the-rout', 'Patay: the rout', ['wavrin', 'murrayDunois', 'monstrelet', 'ramsay', 'oman', 'france'])"
   commit: 3b653ba2
+- fault: 040-battle-auditor-4
+  by: battle-implementor
+  file: content/joan-of-arc/.plans/patay-1429.mjs
+  field: "patay-the-hedges, the markers patay-the-hedges-fastolf and patay-the-hedges-talbot (and 031-patay-the-hedges/markers.yaml written again)"
+  old: "'patay-the-hedges-talbot': mark(-2450, 520, ...); 'patay-the-hedges-fastolf': mark(-1300, 520, ...)"
+  new: "'patay-the-hedges-talbot': mark(-2450, 700, ...); 'patay-the-hedges-fastolf': mark(-1100, 950, ...)"
+  commit: 01adcf01
+- fault: 040-battle-auditor-5
+  by: battle-implementor
+  file: content/joan-of-arc/.plans/patay-1429.mjs
+  field: "patay-the-rout, the marker patay-the-rout-la-hire (and 033-patay-the-rout/markers.yaml written again)"
+  old: "'patay-the-rout-la-hire': mark(-1500, 680, ...)"
+  new: "'patay-the-rout-la-hire': mark(-1450, 1100, ...)"
+  commit: 01adcf01

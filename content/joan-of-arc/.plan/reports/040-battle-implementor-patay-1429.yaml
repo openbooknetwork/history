@@ -28,3 +28,23 @@
     040.39), the column's halt point, the woods, the English rearguard in phases 1-2, and the French scouts and
     bodies on the road. Widths of the hedges and the narrow way are chosen for the map and in no text. All checks
     of the audit pack are ok; units-check 0 overlaps, 0 notes.
+- step: phases
+  task: fix
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plans/patay-1429.mjs
+    - content/joan-of-arc/pages/040-the-loire-and-reims/031-patay-the-hedges/markers.yaml
+    - content/joan-of-arc/pages/040-the-loire-and-reims/033-patay-the-rout/markers.yaml
+    - content/joan-of-arc/.plan/faults/040.yaml
+    - content/joan-of-arc/.plan/fixes/040.yaml
+    - content/joan-of-arc/.plan/handoff/battle-implementor.md
+  faults: []
+  unresolved: []
+  stale: []
+  notes: >-
+    Fixed 040-battle-auditor-4 (Fastolf's marker on patay-the-hedges to u -1100, w 950, Talbot's to w 700, so the
+    rearguard block and the archers show bare at laptop and phone size) and 040-battle-auditor-5 (La Hire's marker on
+    patay-the-rout to u -1450, w 1100, its label clear of the French vanguard and the clash). Generator rerun changes
+    no other file; units-check 0 overlaps; audit pack all ok, its points and route-surface lines are the section
+    map's and unchanged. Fastolf's label on the hedges crosses the vanguard's march arrow, not a unit. On a phone
+    La Hire's icon on patay-the-rout groups under Alençon's (+1), as the engine does; both are linked in the text.

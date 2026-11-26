@@ -12,6 +12,9 @@ Patay (patay-1429) is the story's only battle with phase pages (rules.md). Its p
   a dashed area. A neutral `light` unit drew as three lone squares and did not read as woods.
 - At this bbox (about 8 by 4.6 km) a phone shows about 31 m a pixel: a block under about 190 m on its short side
   is flagged small by units-check.
+- At the laptop capture (about 11 m a pixel) a marker's label runs about 65 px, some 700 m, to each side of its
+  icon, above or below it. A commander's marker beside the road column needs |w| of about 950 m or more, or its
+  label covers the blocks on the road (040-battle-auditor-4 and -5).
 - names-check runs as a hook on every text save. "Lord X, Lord Y" with no word of the rows' "Who" in the sentence
   is flagged as a bare "Lord"; "The English captains Lord Talbot, Lord Scales ..." passes.
 - Every phase page carries the note of where the battle was fought, with each author's place (040.39), France's

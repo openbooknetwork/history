@@ -135,3 +135,24 @@
     - "Each phase text was read against Wavrin pp. 419-424 (lines 16380-16590), Monstrelet lines 39170-39235, the Journal lines 7238-7300, Gruel lines 12648-12672, Ramsay lines 25040-25078, Oman lines 19588-19615 and France lines 15250-15312. 'The main body gallops up' on patay-the-stag stands in Gruel: 'adonc galopèrent grand erre, et la bataille après'."
     - "The Journal's 'near the village of Patay' (040.39) rests on Quicherat's bracketed words for a gap ('[ains s'arrestèrent près d'un] village en Beausse nommé Pathay', line 7261); the manuscript has the village. Left as it stands on all four pages."
     - "The three phase markers.yaml notes, the unit and arrow labels of the page files, each page's date and when, and each listed source were checked; every work the texts name is listed. No phase page has an image. close-wording.mjs: none; a five-word scan found only names, the order of march in Wavrin's order (attributed), and set phrases. plan-check.mjs 040 and placeholders.mjs: ok. Bodies: 285, 252 and 195 words."
+- step: facts
+  task: recheck
+  pages: [patay-the-hedges, patay-the-stag, patay-the-rout]
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/faults/040.yaml
+    - content/joan-of-arc/.plan/fixes/040.yaml
+  faults: [040-fact-checker-54]
+  unresolved: []
+  stale: []
+  rechecked: [040-battle-auditor-6, 040-section-reviewer-15, 040-section-reviewer-16, 040-section-reviewer-17, 040-section-reviewer-18, 040-section-reviewer-19, 040-section-reviewer-20, 040-section-reviewer-21, 040-section-reviewer-22, 040-section-reviewer-23, 040-section-reviewer-24]
+  turns_on:
+    - "040.29 the French vanguard in Talbot's narrow way before the English join at the hedges, the English vanguard fleeing at Fastolf's ride: Wavrin, Quicherat 4 pp. 422-423 (lines 16498-16533), who was there"
+    - "040.31 Talbot, Scales, Rempston and a Hungerford taken: Wavrin p. 423, the Journal p. 177, Monstrelet book 2 ch. 61, Ramsay ch. 27"
+  claims_checked: { patay-the-hedges: 4, patay-the-stag: 9, patay-the-rout: 7 }
+  notes:
+    - "git diff 2b3a2499 on the three texts shows each fix of 040-section-reviewer-15 to -24 as logged and no other change; git diff 8f950df0 shows 040-battle-auditor-6 as the marker's place alone, its note unchanged. 040-section-reviewer-25 is declined by ruling and changed no file."
+    - "The fix log's old for 040-section-reviewer-21 quoted 'Wavrin says nothing of stakes', which the text never read (it read 'Wavrin gives no stakes' at 2b3a2499 and 805bbd4c); put right in the log and the fault under 040-fact-checker-54. The text's new wording is true."
+    - "New wording read against Wavrin pp. 421-424 (lines 16455-16590): 'vers Pathay' for the stag's run towards the village, 'v cens archiers d'eslite' for the 500 archers, 'conducteurs messire Jehan Fastre, le seigneur de Thalbot, messire Thomas Rameston' for one of the commanders; Louis de Contes in Murray (line 13384-13386) for Joan kept out of the van; Ramsay line 25468 'the Burgundians Wavrin and Monstrelet'."
+    - "patay-the-rout now opens with Talbot already taken as Fastolf rides for the vanguard. Wavrin tells the capture after the vanguard's flight, in the pluperfect ('auchois qu'il se volsist partir, avoient les François rué jus le seigneur de Thalbot'), so he leaves the moment open; the plan puts the capture in the stag phase, which the stag page tells, and the opening follows that. No fault."
+    - "close-wording.mjs on the three pages: none. plan-check.mjs 040 and placeholders.mjs: ok. Bodies 299, 287 and 235 words."

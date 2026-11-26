@@ -128,6 +128,14 @@ const LAGNY_CUT = z.region(z.est('Lagny on the Marne, the king\'s from August 14
 const BRAY_CUT = z.region(z.est('Bray on the Seine, which yields to the king in September 1429 (050.29), joined to Provins: Montereau and Sens left English; no source gives a line', [[3.40, 48.38], [3.17, 48.37], [3.17, 48.47], [3.30, 48.52]]),
   z.est('a line inside the land already gone: it only closes Bray', [[3.30, 48.52], [3.40, 48.38]]));
 
+// The towns of 1430 inside the English lands of September 1429 (story-map-auditor-10): Melun and Sens come over to the
+// king, each a circle as the holds of 1436 are, and Montereau between them stays English (070.65)
+const TOWNS30 = z.union(
+  z.town('Melun, which drives out its garrison about Easter 1430 and comes over to the king (050.45), its estates with him at Chinon about Christmas 1430 (070.58)', [2.66, 48.54], 5),
+  z.town('Sens, in Charles VII\'s obedience from 1430: the king stays there in August and September (070.58)', [3.28, 48.20], 5));
+// Soissons, sold to the Duke of Burgundy some weeks after 18 May 1430 (050.54); no source read has him lose it
+const SOISSONS30 = z.town('Soissons, sold by its captain to the Duke of Burgundy some weeks after 18 May 1430 (050.54); no source read has it change hands again', [3.32, 49.38], 5);
+
 // Caux, gone after Arras
 const CAUX_CUT = z.region(z.est('the Pays de Caux and Dieppe, lost after Arras with only Caudebec kept (070.7); Rouen and Honfleur left; no source gives a line', [[1.30, 50.10], [1.30, 49.95], [1.20, 49.70], [0.95, 49.58], [0.78, 49.56], [0.68, 49.52], [0.55, 49.46], [0.20, 49.465], [-0.30, 49.50]]),
   z.est('the open sea off the Caux: the coast cuts it', [[-0.30, 49.50], [-0.30, 50.10], [1.30, 50.10]]));
@@ -239,6 +247,11 @@ z.zone('english-compiegne-1429', { family: 'english', name: 'The English kings\'
 z.zone('english-sep-1429', { family: 'english', name: 'The English kings\' lands' }, z.diff(z.union(ABROAD, NORTH28), REIMS_CUT, AUG_CUT, SEP_CUT, LAGNY_CUT, BRAY_CUT), {
   inside: pick('paris', 'saint_denis', 'vincennes', 'meaux', 'montereau', 'melun', 'sens', 'pontoise', 'rouen', 'chartres', 'eu', 'aumale', 'blangy', 'calais'),
   outside: pick('compiegne', 'senlis', 'beauvais', 'creil', 'pont_sainte_maxence', 'choisy', 'gournay', 'lagny', 'bray', 'crepy', 'le_crotoy') });
+// From the summer of 1430 to the coronation of December 1431, the map burgundy-changes-sides shows (cloud ruling):
+// Chartres English to April 1432 (070.59)
+z.zone('english-1430', { family: 'english', name: 'The English kings\' lands' }, z.diff(z.union(ABROAD, NORTH28), REIMS_CUT, AUG_CUT, SEP_CUT, LAGNY_CUT, BRAY_CUT, TOWNS30), {
+  inside: pick('paris', 'saint_denis', 'vincennes', 'meaux', 'montereau', 'pontoise', 'rouen', 'chartres', 'eu', 'aumale', 'blangy', 'calais'),
+  outside: pick('melun', 'sens', 'compiegne', 'senlis', 'beauvais', 'creil', 'lagny', 'bray', 'crepy', 'soissons', 'provins', 'le_crotoy') });
 z.zone('english-1436', { family: 'english', name: 'The English kings\' lands' }, z.union(ABROAD, z.diff(z.union(NORMANDY2, MAINE), MSM, CAUX_CUT, BRITTANY), HOLDS36), {
   inside: pick('rouen', 'caudebec', 'honfleur', 'caen', 'le_mans', 'fresnay', 'alencon', 'eu', 'aumale', 'blangy', 'calais', 'bayonne', 'meaux', 'creil', 'beaumont', 'crepy', 'montereau', 'mantes'),
   outside: pick('dieppe', 'le_havre', 'harfleur', 'paris', 'pontoise', 'saint_denis', 'vincennes', 'chartres', 'etampes', 'sens', 'clermont', 'pont_sainte_maxence', 'meulan', 'lagny', 'melun', 'troyes', 'le_crotoy') });
@@ -255,6 +268,9 @@ z.zone('burgundy-1407', { family: 'burgundy', name: 'The lands of the Duke of Bu
 z.zone('burgundy-1420', { family: 'burgundy', name: 'The lands of the Duke of Burgundy' }, BURGUNDY20, {
   inside: pick('lille', 'arras', 'dijon', 'besancon', 'amiens', 'abbeville', 'montdidier', 'noyon', 'beaulieu', 'beaurevoir', 'saint_quentin', 'auxerre', 'cravant'),
   outside: pick('beauvais', 'compiegne', 'soissons', 'laon', 'sens', 'saint_florentin', 'courtenay', 'gien', 'la_charite', 'cambrai') });
+z.zone('burgundy-1430', { family: 'burgundy', name: 'The lands of the Duke of Burgundy' }, z.union(BURGUNDY20, SOISSONS30), {
+  inside: pick('lille', 'arras', 'dijon', 'besancon', 'amiens', 'noyon', 'beaulieu', 'beaurevoir', 'saint_quentin', 'auxerre', 'soissons'),
+  outside: pick('compiegne', 'laon', 'chateau_thierry', 'beauvais', 'cambrai', 'gien', 'la_charite') });
 z.zone('brittany-1407', { family: 'brittany', name: 'The duchy of Brittany' }, BRITTANY, {
   inside: pick('rennes', 'nantes', 'fougeres'), outside: pick('mont_saint_michel', 'laval', 'angers') });
 z.zone('lorraine-1412', { family: 'lorraine', name: 'The duchy of Lorraine' }, LORRAINE, {

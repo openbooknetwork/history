@@ -24,12 +24,17 @@
    "archive": "pack-005.tar.gz",
    "files": 53,
    "at": "2026-11-26T10:02:11.244Z"
+  },
+  {
+   "archive": "pack-006.tar.gz",
+   "files": 5,
+   "at": "2026-11-26T10:13:05.779Z"
   }
  ],
  "files": {
   "b2454564-72e1-5d65-95b9-08040cb36fae/ccr-tip.json": {
-   "sha": "fcca6b847310156e9a96d7deb5db2484ce3ce9b82265e80f945830a1ce197802",
-   "pack": "pack-005.tar.gz"
+   "sha": "bebb2092222d82c39fa58d7bfb6a15af19c7f53fbe6c3a3f95e841eb0c7af7f9",
+   "pack": "pack-006.tar.gz"
   },
   "b2454564-72e1-5d65-95b9-08040cb36fae/subagents/agent-aed2b96c546e77c39.jsonl": {
    "sha": "a848b118d27e0fc63b3a69df29d83fafee6e28af265d02352791940e27f23169",
@@ -44,8 +49,8 @@
    "pack": "pack-001.tar.gz"
   },
   "b2454564-72e1-5d65-95b9-08040cb36fae.jsonl": {
-   "sha": "d2bad4c416eb40db7dbb0a985448fb163bd9a47cffbfd75428303a09f5c2b80b",
-   "pack": "pack-005.tar.gz"
+   "sha": "af18e83cb2f228e30b98ce10fd339de8ea635cc245cf00f3778318038084843f",
+   "pack": "pack-006.tar.gz"
   },
   "b2454564-72e1-5d65-95b9-08040cb36fae/subagents/agent-a166498d4bb74be5f.jsonl": {
    "sha": "ce991a8480d86a1a5cb336b387412e52aa122826d50c7f8a9d02d9817bf22366",
@@ -346,6 +351,18 @@
   "b2454564-72e1-5d65-95b9-08040cb36fae/subagents/agent-aed74aa21eba18c06.prefix.json": {
    "sha": "661e1db96190514c8fab064db96774ce6f8a58bc4682f4b45f74950f430000f9",
    "pack": "pack-005.tar.gz"
+  },
+  "b2454564-72e1-5d65-95b9-08040cb36fae/subagents/agent-a75b33ba53da14c6a.jsonl": {
+   "sha": "05ac18849de1e266c8c3b14db74dc215d430824c989c8d0cb8d2684036d4e351",
+   "pack": "pack-006.tar.gz"
+  },
+  "b2454564-72e1-5d65-95b9-08040cb36fae/subagents/agent-a75b33ba53da14c6a.meta.json": {
+   "sha": "2920be53e21b09d19f71d2d523791c0d293731e8f08b1426d6a938e0990b2839",
+   "pack": "pack-006.tar.gz"
+  },
+  "b2454564-72e1-5d65-95b9-08040cb36fae/subagents/agent-a75b33ba53da14c6a.prefix.json": {
+   "sha": "7ec6053b4c00c966d2182bb716cf62a4f3ebe28a0b82af64d4c5cc46a75c86bd",
+   "pack": "pack-006.tar.gz"
   }
  }
 }

@@ -105,3 +105,24 @@
   old: "crosses the Loire at Gien and"
   new: "reaches Gien on the Loire, held for the king, goes on south of the river and"
   commit: "7493b11b"
+- fault: 020-names-1
+  by: names
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+  field: vaucouleurs-again.tells
+  old: sends her to the Dauphin.
+  new: sends her to Charles VII.
+  commit: 57a176c3
+- fault: 020-names-1
+  by: names
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+  field: eleven-days.tells
+  old: writes to the Dauphin from
+  new: writes to the king from
+  commit: 57a176c3
+- fault: 020-names-1
+  by: names
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+  field: chinon-and-poitiers.tells
+  old: The Dauphin receives her at Chinon
+  new: Charles VII receives her at Chinon
+  commit: 57a176c3

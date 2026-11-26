@@ -243,3 +243,16 @@
   introduced: "source"
   owner: "research-coordinator"
   state: "fixed"
+- id: 010-names-1
+  severity: weak
+  file: content/joan-of-arc/.plan/010-france-divided/pages.yaml
+  field: cravant-and-verneuil.tells
+  replaces: clause
+  old: beat the Dauphin's army at Cravant / break the Dauphin's field army
+  new: beat the army of Charles VII at Cravant / break his field army
+  source: 'names.md, People: "Charles VII ... his name in every text after it [30 October 1422], before and after Reims"; "the Bastard of Orléans ... this name until he is made Count of Dunois in 1439";
+    writing/README.md rule 11, a person takes the name of the time'
+  kind: wording
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed

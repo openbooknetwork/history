@@ -191,3 +191,16 @@
   introduced: "pre-plan"
   owner: "section-coordinator"
   state: "fixed"
+- id: 020-names-1
+  severity: weak
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+  field: chinon-and-poitiers.tells, eleven-days.tells, vaucouleurs-again.tells
+  replaces: clause
+  old: sends her to the Dauphin. / writes to the Dauphin from / The Dauphin receives her at Chinon
+  new: sends her to Charles VII. / writes to the king from / Charles VII receives her at Chinon
+  source: 'names.md, People: "Charles VII ... his name in every text after it [30 October 1422], before and after Reims"; "the Bastard of Orléans ... this name until he is made Count of Dunois in 1439";
+    writing/README.md rule 11, a person takes the name of the time'
+  kind: wording
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed

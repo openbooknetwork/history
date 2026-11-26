@@ -30,7 +30,7 @@
    "parent": "-",
    "model": "claude-fable-5-2",
    "start": "2026-11-26T08:58:19.988Z",
-   "end": "2026-11-26T10:02:09.818Z",
+   "end": "2026-11-26T10:13:04.450Z",
    "description": ""
   },
   {
@@ -131,6 +131,15 @@
    "start": "2026-11-26T09:45:06.773Z",
    "end": "2026-11-26T09:51:13.487Z",
    "description": "research 040 research-reviewer review"
+  },
+  {
+   "agent": "a75b33ba53da14c6a",
+   "role": "names",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T10:02:18.895Z",
+   "end": "2026-11-26T10:12:54.082Z",
+   "description": "names all names decide"
   },
   {
    "agent": "a78d07315a5dd89d9",
@@ -276,12 +285,12 @@
    "model": "claude-fable-5-2",
    "step": "-",
    "section": "-",
-   "turns": 71,
-   "peak": 220688,
-   "input": 174,
-   "cacheWrite": 161877,
-   "cacheRead": 11467664,
-   "output": 28521
+   "turns": 76,
+   "peak": 226310,
+   "input": 188,
+   "cacheWrite": 167475,
+   "cacheRead": 12584244,
+   "output": 30120
   },
   {
    "agent": "a06933273e65ce690",
@@ -436,6 +445,20 @@
    "cacheWrite": 306293,
    "cacheRead": 5808050,
    "output": 36040
+  },
+  {
+   "agent": "a75b33ba53da14c6a",
+   "role": "names",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "names",
+   "section": "-",
+   "turns": 21,
+   "peak": 246431,
+   "input": 42,
+   "cacheWrite": 246429,
+   "cacheRead": 2902399,
+   "output": 71510
   },
   {
    "agent": "a78d07315a5dd89d9",
@@ -1206,6 +1229,73 @@
      "claim": "040.50",
      "evidence": "research/040.md, 040.50: Journal du siège p. 182 \"la faulte d'artillerie et d'argent\"; Lowell ch. 11 \"the want of food and money, artillery and men\"; no source read gives the army no siege train",
      "action": "The king leaves Gien for Reims, short of artillery and money, through Burgundian country.",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "a75b33ba53da14c6a",
+   "role": "names",
+   "step": "names",
+   "section": "-",
+   "status": "pass",
+   "changed": 10,
+   "unresolved": 1,
+   "faults": [
+    {
+     "id": "030-names-1",
+     "severity": "wrong",
+     "kind": "plan",
+     "introduced": "pre-plan",
+     "firstCheck": "pre-plan-check",
+     "leak": true,
+     "owner": "section-coordinator",
+     "file": "content/joan-of-arc/.plan/030-orleans/pages.yaml",
+     "claim": "030.25",
+     "evidence": "rules.md, Evidence: \"Left out, as one source alone or a distrusted one gives it: ... the gate she entered Orléans by\"; research.md 030.25: \"she entered by the Porte de Bourgogne ... France. single.\"",
+     "action": "she rides into Orléans. / markers: [blois, checy]",
+     "state": "fixed"
+    },
+    {
+     "id": "030-names-2",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "pre-plan",
+     "firstCheck": "pre-plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/joan-of-arc/.plan/030-orleans/pages.yaml",
+     "claim": null,
+     "evidence": "names.md, People: \"Charles VII ... his name in every text after it [30 October 1422], before and after Reims\"; \"the Bastard of Orléans ... this name until he is made Count of Dunois in 1439\"; writing/README.md rule 11, a person takes the name of the time",
+     "action": "the Bastard of Orléans crosses to meet them / The Bastard of Orléans goes to Blois for the army",
+     "state": "fixed"
+    },
+    {
+     "id": "020-names-1",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "pre-plan",
+     "firstCheck": "pre-plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml",
+     "claim": null,
+     "evidence": "names.md, People: \"Charles VII ... his name in every text after it [30 October 1422], before and after Reims\"; \"the Bastard of Orléans ... this name until he is made Count of Dunois in 1439\"; writing/README.md rule 11, a person takes the name of the time",
+     "action": "sends her to Charles VII. / writes to the king from / Charles VII receives her at Chinon",
+     "state": "fixed"
+    },
+    {
+     "id": "010-names-1",
+     "severity": "weak",
+     "kind": "wording",
+     "introduced": "pre-plan",
+     "firstCheck": "pre-plan-check",
+     "leak": false,
+     "owner": "section-coordinator",
+     "file": "content/joan-of-arc/.plan/010-france-divided/pages.yaml",
+     "claim": null,
+     "evidence": "names.md, People: \"Charles VII ... his name in every text after it [30 October 1422], before and after Reims\"; \"the Bastard of Orléans ... this name until he is made Count of Dunois in 1439\"; writing/README.md rule 11, a person takes the name of the time",
+     "action": "beat the army of Charles VII at Cravant / break his field army",
      "state": "fixed"
     }
    ]
@@ -2950,6 +3040,32 @@
     "serve": "static"
    },
    "problems": []
+  },
+  {
+   "role": "names",
+   "description": "names all names decide",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "all",
+    "step": "names",
+    "task": "decide",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/names-names",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "map-architect",
+   "description": "map-design all map-architect design",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "all",
+    "step": "map-design",
+    "task": "design",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/map-design-map-architect",
+    "serve": "static"
+   },
+   "problems": []
   }
  ],
  "fixes": [
@@ -3163,6 +3279,28 @@
    "steppedIn": false
   },
   {
+   "fault": "010-names-1",
+   "by": "names",
+   "file": "content/joan-of-arc/.plan/010-france-divided/pages.yaml",
+   "field": "cravant-and-verneuil.tells",
+   "commit": "57a176c3",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "010-names-1",
+   "by": "names",
+   "file": "content/joan-of-arc/.plan/010-france-divided/pages.yaml",
+   "field": "cravant-and-verneuil.tells",
+   "commit": "57a176c3",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
    "fault": "020-editor-1",
    "by": "editor",
    "file": "content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml",
@@ -3323,6 +3461,39 @@
    "field": "eleven-days.tells",
    "commit": "7493b11b",
    "kind": "plan",
+   "severity": "weak",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-names-1",
+   "by": "names",
+   "file": "content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml",
+   "field": "vaucouleurs-again.tells",
+   "commit": "57a176c3",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-names-1",
+   "by": "names",
+   "file": "content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml",
+   "field": "eleven-days.tells",
+   "commit": "57a176c3",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "020-names-1",
+   "by": "names",
+   "file": "content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml",
+   "field": "chinon-and-poitiers.tells",
+   "commit": "57a176c3",
+   "kind": "wording",
    "severity": "weak",
    "owner": "section-coordinator",
    "steppedIn": false
@@ -3523,6 +3694,50 @@
    "kind": "sources",
    "severity": "weak",
    "owner": "research-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-names-1",
+   "by": "names",
+   "file": "content/joan-of-arc/.plan/030-orleans/pages.yaml",
+   "field": "from-blois.tells",
+   "commit": "57a176c3",
+   "kind": "plan",
+   "severity": "wrong",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-names-1",
+   "by": "names",
+   "file": "content/joan-of-arc/.plan/030-orleans/pages.yaml",
+   "field": "from-blois.markers",
+   "commit": "57a176c3",
+   "kind": "plan",
+   "severity": "wrong",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-names-2",
+   "by": "names",
+   "file": "content/joan-of-arc/.plan/030-orleans/pages.yaml",
+   "field": "from-blois.tells",
+   "commit": "57a176c3",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-coordinator",
+   "steppedIn": false
+  },
+  {
+   "fault": "030-names-2",
+   "by": "names",
+   "file": "content/joan-of-arc/.plan/030-orleans/pages.yaml",
+   "field": "the-army-of-blois.tells",
+   "commit": "57a176c3",
+   "kind": "wording",
+   "severity": "weak",
+   "owner": "section-coordinator",
    "steppedIn": false
   },
   {

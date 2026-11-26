@@ -74,3 +74,11 @@
 - step research: done, 26 Nov 2026. `research.md`, 486 lines in seven sections, each line reviewed; `research/` holds
   the parts.
 - ledger after `research`: | **total** | 27 | 921 | 375,922 | 1,873 | 5,887,042 | 155,302,444 | 1,197,143 | 28,876,635 |
+- unresolved, names: Charles VII is "Charles VII" from 30 October 1422, and "the Dauphin" only in quotes and in
+  Joan's own words, against the brief's wording for 020.
+- cloud ruling: the names agent's form stands, Charles VII from 1422 — it is his own title and his party's, the digest
+  writes him so, and the brief itself tells of "two kings in 1429"; a text says once that Joan called him the
+  Dauphin until he was anointed. The brief's "the Dauphin" in 020 and 030 reads as that.
+- step names: done, 26 Nov 2026. `names.md`; four plan faults fixed by the names agent (the Porte de Bourgogne taken
+  out of 030, the names of the time in 010, 020 and 030).
+- ledger after `names`: | **total** | 28 | 947 | 375,922 | 1,929 | 6,139,069 | 159,321,423 | 1,270,252 | 29,959,168 |

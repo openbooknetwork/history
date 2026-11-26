@@ -231,3 +231,29 @@
   introduced: "source"
   owner: "research-coordinator"
   state: "fixed"
+- id: "030-names-1"
+  severity: "wrong"
+  file: "content/joan-of-arc/.plan/030-orleans/pages.yaml"
+  field: "from-blois.tells and from-blois.markers"
+  replaces: "clause"
+  old: "she rides into Orléans by the Porte de Bourgogne. / markers: [blois, checy, porte-de-bourgogne]"
+  new: "she rides into Orléans. / markers: [blois, checy]"
+  source: "rules.md, Evidence: \"Left out, as one source alone or a distrusted one gives it: ... the gate she entered Orléans by\"; research.md 030.25: \"she entered by the Porte de Bourgogne ... France. single.\""
+  kind: "plan"
+  claim: "030.25"
+  introduced: "pre-plan"
+  owner: "section-coordinator"
+  state: "fixed"
+- id: 030-names-2
+  severity: weak
+  file: content/joan-of-arc/.plan/030-orleans/pages.yaml
+  field: from-blois.tells, the-army-of-blois.tells
+  replaces: clause
+  old: Dunois crosses to meet them / Dunois goes to Blois for the army
+  new: the Bastard of Orléans crosses to meet them / The Bastard of Orléans goes to Blois for the army
+  source: 'names.md, People: "Charles VII ... his name in every text after it [30 October 1422], before and after Reims"; "the Bastard of Orléans ... this name until he is made Count of Dunois in 1439";
+    writing/README.md rule 11, a person takes the name of the time'
+  kind: wording
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed

@@ -126,3 +126,31 @@
   old: "depositions at Orléans 1455, 11966-12862: Dunois 11968, d'Aulon 12371, de Contes 12783, the townsmen; Pasquerel in Paris, 14214"
   new: "depositions at Orléans 1455, 11966-12862: Dunois 11968, the townsmen; in Paris, de Contes 13204 and Pasquerel 14214; d'Aulon's testimony of 1456, 15417"
   commit: "e07f2f8a"
+- fault: "030-names-1"
+  by: "names"
+  file: "content/joan-of-arc/.plan/030-orleans/pages.yaml"
+  field: "from-blois.tells"
+  old: "and on the evening of 29 April she rides into Orléans by the Porte de Bourgogne."
+  new: "and on the evening of 29 April she rides into Orléans."
+  commit: "57a176c3"
+- fault: "030-names-1"
+  by: "names"
+  file: "content/joan-of-arc/.plan/030-orleans/pages.yaml"
+  field: "from-blois.markers"
+  old: "[blois, checy, porte-de-bourgogne]"
+  new: "[blois, checy]"
+  commit: "57a176c3"
+- fault: 030-names-2
+  by: names
+  file: content/joan-of-arc/.plan/030-orleans/pages.yaml
+  field: from-blois.tells
+  old: Dunois crosses to meet them
+  new: the Bastard of Orléans crosses to meet them
+  commit: 57a176c3
+- fault: 030-names-2
+  by: names
+  file: content/joan-of-arc/.plan/030-orleans/pages.yaml
+  field: the-army-of-blois.tells
+  old: Dunois goes to Blois for the army
+  new: The Bastard of Orléans goes to Blois for the army
+  commit: 57a176c3

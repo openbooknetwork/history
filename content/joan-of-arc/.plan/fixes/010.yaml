@@ -131,3 +131,17 @@
   old: "- Verneuil (card): Oman book 14 ch. 2, Ramsay 1 ch. 24,"
   new: "- Verneuil (card): Oman book 14 ch. 2, Ramsay 1 ch. 23,"
   commit: "795a886f"
+- fault: 010-names-1
+  by: names
+  file: content/joan-of-arc/.plan/010-france-divided/pages.yaml
+  field: cravant-and-verneuil.tells
+  old: beat the Dauphin's army at Cravant
+  new: beat the army of Charles VII at Cravant
+  commit: 57a176c3
+- fault: 010-names-1
+  by: names
+  file: content/joan-of-arc/.plan/010-france-divided/pages.yaml
+  field: cravant-and-verneuil.tells
+  old: break the Dauphin's field army
+  new: break his field army
+  commit: 57a176c3

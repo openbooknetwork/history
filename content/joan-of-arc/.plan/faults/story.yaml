@@ -181,3 +181,108 @@
   kind: check
   owner: overseer
   state: fixed
+- id: story-map-auditor-1
+  severity: wrong
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "z.zone('english-1436', ...): the shape, and the brief's row english-1436, Land and year"
+  new: "english-1436 keeps the land that no source has the English lose by 13 April 1436: Meaux (Ramsay has it retained in 1432), Creil, Beaumont-sur-Oise, Crépy and Clermont (recovered by Talbot in 1434, Ramsay; Pont-Sainte-Maxence lost again in 1435), and Montereau, Sens, Étampes and Mantes (no source read has them lost). Chartres stays out, French from the eve of Palm Sunday 1432 (Ramsay). Either draw english-1436 from english-sep-1429 less Paris, Saint-Denis, the ring of 070.7, Chartres and the Caux, or keep the Normandy-and-Maine zone and mark Meaux, Creil and Montereau as English holds on paris-opens, as the brief does for holds inside a zone. The Ramsay passages need claims in the digest before the line can cite them (research), and the brief's row ('Champagne, the Île-de-France and Le Crotoy are outside it') changes with the zone"
+  source: "070.7 names only Dieppe, the Caux but Caudebec, Pontoise, Charenton, Brie-Comte-Robert, Saint-Germain-en-Laye, Corbeil and Vincennes, and 070.8 and 070.10 Saint-Denis and Paris. Ramsay 1, archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt: l. 27494-27505 'The Bastard of Orleans was more successful in an attack on Chartres ... the place was won'; l. 27533-27535 'the recovery of Lagny ... neutralised ... the benefit of the retention of Meaux'; l. 28455-28461 'driving ... from Beaumont-sur-Oise. Following him to Creil Talbot recovered that place also (20th June). In like manner he recovered Pont-Sainte-Maxence, Crespy, and Clermont'; l. 29333 'Pont-Sainte-Maxence and Meulan had already been lost'. rules.md, The careful side"
+  kind: map
+  claim: "070.7"
+  introduced: map-design
+  owner: map-keeper
+  state: open
+- id: story-map-auditor-2
+  severity: wrong
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "SEP_CUT (the line C3 from 1.55, 50.05 to 1.68, 49.72) and the shape of english-1436"
+  new: "Aumale, Blangy and the Norman bank of the Bresle east of 1.52-1.55 E are cut out of english-sep-1429 from August 1429 to October 1435 and come back in english-1436 with no event told on paris-opens. Ramsay has the English win Aumale back in July 1430, and no source read has Blangy back. Proposed: run C3 along the Bresle, so that the Norman bank stays in english-sep-1429 as it is in english-1436, and let the markers aumale-1429 and blangy-1429 of montepilloy carry their change of hands in August 1429 as holds, as the brief's Map part does for towns that open; then the pages from July 1430 (sold-to-the-english, the-court, burgundy-changes-sides) show Aumale English as Ramsay has it. Ramsay's July 1430 needs a claim in the digest"
+  source: "050.9 (Ramsay: 'Senlis, Creil, Pont-Sainte-Maxence, Beauvais, Aumâle, and Blangy changed hands', August 1429); Ramsay 1, archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt, l. 26233-26237: 'Step by step Bedford ... recovered his hold on Normandy and Paris. Chateau Gaillard was won back in June, and Aumâle and Etrepagny in July' (1430); agents/pages.md, Zones and markers from page to page; the generator: english-1436 is union(NORMANDY2, MAINE) less the Caux, and NORMANDY2 holds the Bresle bank"
+  kind: map
+  claim: "050.9"
+  introduced: maps
+  owner: map-keeper
+  state: open
+- id: story-map-auditor-3
+  severity: wrong
+  file: content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml
+  field: "montepilloy.zones, with the brief's row english-sep-1429 (its Sections) and the generator's BRAY_CUT"
+  new: "montepilloy, dated August 1429, takes english-sep-1429, whose BRAY_CUT shows the land of Bray on the Seine French, while the page tells Bray held against the king (bray-held-1429, in the english colour) and Bray yields only on 13-21 September, on back-to-the-loire. Give montepilloy a stage without BRAY_CUT (an english zone of August, with its own france entry in zones.yaml), or take BRAY_CUT out of english-sep-1429 and let back-to-the-loire's bray-1429 marker, in the france colour, carry the town's change as the brief's Map part does for towns that open"
+  source: "050.29: the king goes back by Lagny, Provins, 'Bray on the Seine (which yields to him)', in September 1429; 050.2 and the plan's bray-held-1429: the townsmen let in English and Burgundians the evening before the crossing, early August; agents/map-auditor, The page's dates: the legend says of each zone what holds on the page's date"
+  kind: map
+  claim: "050.29"
+  introduced: map-design
+  owner: map-keeper
+  state: open
+- id: story-map-auditor-4
+  severity: taste
+  file: content/joan-of-arc/.plan/brief.md
+  field: Map, Zones, the row english-siege-1428, Land and year
+  replaces: clause
+  old: "Its south edge is the Loire from Beaugency to Jargeau."
+  new: "Its south edge is the Loire from Beaugency to Orléans, and the bridgehead of Jargeau is a circle of its own, with the river between Orléans and Jargeau outside it."
+  source: "content/joan-of-arc/.plan/ground.yaml, lines 40-45 (the Loire from Beaugency to the walls, the edge round the north of the city, Jargeau a circle of 3 km); 030.1 (the north-east open), which the same row cites"
+  kind: map
+  introduced: maps
+  owner: brief
+  state: fixed
+- id: story-map-auditor-5
+  severity: taste
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "z.zone('english-1407', ...), name"
+  replaces: value
+  old: "The kingdom of England"
+  new: "The English king's lands"
+  source: "the zone holds Calais and Gascony with England: 010.57 'Bordeaux and much of Guyenne English', 010.34 Calais; the brief's family english, 'the kingdom of England and the lands held in France'. The legend would call Bordeaux and Calais the kingdom of England"
+  kind: map
+  introduced: maps
+  owner: map-keeper
+  state: fixed
+- id: story-map-auditor-6
+  severity: weak
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "S20a, the why"
+  replaces: clause
+  old: "Chartres and Étampes English to 1429 (names.md; 040.42 leaves them English)"
+  new: "Chartres and Étampes English to 1429 (020.13: men of Chartres reinforce Salisbury; 040.33: Fastolf flees from Patay to Étampes)"
+  source: "names.md decides the form of names and is no source of who held a town; 020.13 (Ramsay: 'reinforced by native auxiliaries drawn from Paris, Chartres, and Normandy'); 040.33 (Wavrin: 'Si prinst son chemin vers Estampes')"
+  kind: map
+  claim: "020.13"
+  introduced: maps
+  owner: map-keeper
+  state: fixed
+- id: story-map-auditor-7
+  severity: taste
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "the inside tests of english-1428 and english-siege-1428"
+  replaces: clause
+  old: "english-1428 inside: ... saint_florentin, calais ...; english-siege-1428 inside: ... patay, saint_laurent ..."
+  new: "english-1428 inside: ... saint_florentin, saint_urbain, calais ...; english-siege-1428 inside: ... patay, rouvray, saint_laurent ..."
+  source: "020.10 (Vergy, the English governor of Champagne, reviews his army at Saint-Urbain, 16-17 July 1428); 020.23 (the Herrings at Rouvray-Saint-Denis in the Beauce, two leagues from Janville, a convoy from Paris to the English before Orléans). Both pass"
+  kind: map
+  claim: "020.10"
+  introduced: maps
+  owner: map-keeper
+  state: fixed
+- id: story-overseer-4
+  severity: weak
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: the east edge of Champagne in france-1407 and in the english zones of 1420 to 1429
+  new: Champagne ends at the Meuse north of Mézières, so the Givet salient and the land of Sedan and Carignan east of the river stand in no zone
+  source: "brief.md, Map: 'east to the Meuse'; no claim of the digest speaks of the land east of it (reports/all-map-auditor.yaml)"
+  kind: map
+  introduced: maps
+  owner: map-keeper
+  state: open
+  ruling: cloud ruling, the careful side: land that no source gives the kingdom stays out of its zone
+- id: story-overseer-5
+  severity: wrong
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: the south edge of france-1407 and of every france zone made from it
+  new: the kingdom ends at the Corbières, so Roussillon and the Cerdagne stand in no zone; Béarn and Lower Navarre stay as drawn, under the brief's 'to the Pyrenees'
+  source: "reports/all-map-auditor.yaml: Roussillon and the Cerdagne were the crown of Aragon's in these years and no source of the digest gives them to France; cutting the zones to France's land of today put them in the kingdom"
+  kind: map
+  introduced: maps
+  owner: map-keeper
+  state: open
+  ruling: cloud ruling, the careful side

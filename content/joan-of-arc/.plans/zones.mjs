@@ -62,7 +62,7 @@ const FRANCE = z.union(z.region(KBa, KBb, KBc, M1, M2, M3, MS, SAONE, DLINE, RHO
 // B: Burgundian Picardy (Montdidier, Noyon, Saint-Quentin) against the English Beauvaisis, Compiègne, Soissons and Laon
 const B = z.est('the edge of Burgundian Picardy, "to the Bresle and the Oise" (the brief, after 010.57 and 010.46): Montdidier, Noyon, Beaulieu and Saint-Quentin Burgundian; Beauvais, Gournay-sur-Aronde, Compiègne, Choisy, Soissons and Laon English until 1429 (050.9, 040.81); no source gives the line', [[1.70, 49.72], [2.15, 49.62], [2.55, 49.58], [2.85, 49.53], [2.95, 49.50], [3.22, 49.60], [3.40, 49.65], [3.75, 49.68], [4.10, 49.72], end(KBb)]);
 // S20: Chartres, Étampes, Sens and Saint-Florentin inside; Janville, Châteaudun, Auxerre outside
-const S20a = z.est('the south edge of the English north from 1420: Chartres and Étampes English to 1429 (names.md; 040.42 leaves them English), Janville English only from August 1428 (020.14), Châteaudun outside; no source gives a line', [[0.80, 48.62], [1.20, 48.42], [1.50, 48.33], [1.90, 48.28], [2.30, 48.25], [2.80, 48.20], [3.10, 48.12]]);
+const S20a = z.est('the south edge of the English north from 1420: Chartres and Étampes English to 1429 (020.13: men of Chartres reinforce Salisbury; 040.33: Fastolf flees from Patay to Étampes), Janville English only from August 1428 (020.14), Châteaudun outside; no source gives a line', [[0.80, 48.62], [1.20, 48.42], [1.50, 48.33], [1.90, 48.28], [2.30, 48.25], [2.80, 48.20], [3.10, 48.12]]);
 const S20b = z.est('the English edge with the Burgundian Auxerrois: Sens and Saint-Florentin English (040.86, 040.53), Joigny, Auxerre and Cravant Burgundian (020.46, 040.51); no source gives a line', [end(S20a), [3.50, 48.00], [3.85, 47.92]]);
 const S20c = z.est('the English edge with the Burgundian Tonnerrois, up to Champagne; no source gives a line', [end(S20b), [4.20, 48.05]]);
 const ECLOSE = z.est('a line inside Champagne, which the province itself bounds: it only closes the land between Normandy and Champagne', [end(B), [4.45, 49.99], [4.60, 49.70], [4.35, 48.50], end(S20c)]);
@@ -183,6 +183,7 @@ const T = {
   dieppe: [1.08, 49.92], caudebec: [0.726, 49.526], le_havre: [0.11, 49.49], honfleur: [0.233, 49.42], harfleur: [0.198, 49.507], eu: [1.42, 50.05],
   cherbourg: [-1.62, 49.64], saint_sauveur: [-1.53, 49.39], valognes: [-1.47, 49.51], bayeux: [-0.70, 49.28], falaise: [-0.20, 48.90], vire: [-0.89, 48.84],
   domfront: [-0.65, 48.59], carentan: [-1.25, 49.30], saint_lo: [-1.09, 49.12], lisieux: [0.23, 49.15], argentan: [-0.02, 48.74], formigny: [-0.90, 49.33],
+  saint_urbain: [5.19, 48.40], rouvray: [1.95, 48.27],
   le_crotoy: [1.62, 50.22], abbeville: [1.83, 50.10], la_charite: [3.02, 47.18], nevers: [3.16, 46.99], courtenay: [3.06, 48.04], tonnerre: [3.97, 47.86],
 };
 const pick = (...ks) => Object.fromEntries(ks.map(k => [k, T[k]]));
@@ -191,16 +192,16 @@ z.zone('france-1407', { family: 'france', name: 'The kingdom of Charles VI' }, F
   inside: pick('paris', 'orleans', 'bourges', 'toulouse', 'lyon', 'grenoble', 'vaucouleurs', 'greux', 'rennes', 'rouen', 'troyes', 'bordeaux'),
   outside: pick('provence_aix', 'avignon', 'chambery', 'nancy', 'metz', 'cambrai', 'london', 'besancon') });
 
-z.zone('english-1407', { family: 'english', name: 'The kingdom of England' }, ABROAD, {
+z.zone('english-1407', { family: 'english', name: 'The English king\'s lands' }, ABROAD, {
   inside: pick('calais', 'bordeaux', 'bayonne', 'dax', 'castillon', 'london'), outside: pick('rouen', 'paris', 'harfleur', 'arras') });
 z.zone('english-1420', { family: 'english', name: 'The English kings\' lands' }, z.union(ABROAD, NORTH20), {
   inside: pick('calais', 'bordeaux', 'rouen', 'caen', 'paris', 'troyes', 'reims', 'chartres', 'etampes', 'sens', 'saint_florentin', 'beauvais', 'compiegne', 'soissons', 'laon', 'alencon'),
   outside: pick('mont_saint_michel', 'le_mans', 'angers', 'orleans', 'janville', 'auxerre', 'amiens', 'montdidier', 'noyon', 'rennes', 'fougeres', 'vaucouleurs', 'greux', 'bar_le_duc', 'chateaudun') });
 z.zone('english-1428', { family: 'english', name: 'The English kings\' lands' }, z.union(ABROAD, NORTH28), {
-  inside: pick('rouen', 'paris', 'troyes', 'reims', 'le_mans', 'laval', 'fresnay', 'alencon', 'chartres', 'saint_florentin', 'calais', 'bordeaux'),
+  inside: pick('rouen', 'paris', 'troyes', 'reims', 'le_mans', 'laval', 'fresnay', 'alencon', 'chartres', 'saint_florentin', 'saint_urbain', 'calais', 'bordeaux'),
   outside: pick('mont_saint_michel', 'vaucouleurs', 'greux', 'neufchateau', 'angers', 'janville', 'orleans', 'rennes', 'fougeres', 'le_crotoy', 'tours') });
 z.zone('english-siege-1428', { family: 'english', name: 'The English kings\' lands' }, z.union(ABROAD, NORTH28, BEAUCE, JARGEAU), {
-  inside: pick('janville', 'meung', 'beaugency', 'jargeau', 'patay', 'saint_laurent', 'bastille_paris', 'chartres', 'paris'),
+  inside: pick('janville', 'meung', 'beaugency', 'jargeau', 'patay', 'rouvray', 'saint_laurent', 'bastille_paris', 'chartres', 'paris'),
   outside: pick('orleans', 'boucher', 'saint_loup', 'checy', 'blois', 'gien', 'chateaudun', 'vaucouleurs') });
 z.zone('english-reims-1429', { family: 'english', name: 'The English kings\' lands' }, z.diff(z.union(ABROAD, NORTH28), REIMS_CUT), {
   inside: pick('paris', 'sens', 'provins', 'chateau_thierry', 'soissons', 'laon', 'coulommiers', 'chartres', 'rouen'),

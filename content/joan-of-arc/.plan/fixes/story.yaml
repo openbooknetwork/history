@@ -160,3 +160,31 @@
   old: "const own = (p.zones ?? []).map(shape).filter(Boolean);"
   new: "const own = (p.zones ?? []).map(id => shape(id)).filter(Boolean);"
   commit: 144e323e
+- fault: story-map-auditor-4
+  by: map-auditor
+  file: content/joan-of-arc/.plan/brief.md
+  field: "Map, Zones, the row english-siege-1428, Land and year"
+  old: "Its south edge is the Loire from Beaugency to Jargeau."
+  new: "Its south edge is the Loire from Beaugency to Orléans, and the bridgehead of Jargeau is a circle of its own, with the river between Orléans and Jargeau outside it."
+  commit: bb3230a1
+- fault: story-map-auditor-5
+  by: map-auditor
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "z.zone('english-1407', ...), name; written by the generator to content/joan-of-arc/shared/zones/english-1407.geojson"
+  old: "The kingdom of England"
+  new: "The English king's lands"
+  commit: bb3230a1
+- fault: story-map-auditor-6
+  by: map-auditor
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "S20a, the why; written by the generator to content/joan-of-arc/.plan/ground.yaml, line 29"
+  old: "Chartres and Étampes English to 1429 (names.md; 040.42 leaves them English)"
+  new: "Chartres and Étampes English to 1429 (020.13: men of Chartres reinforce Salisbury; 040.33: Fastolf flees from Patay to Étampes)"
+  commit: bb3230a1
+- fault: story-map-auditor-7
+  by: map-auditor
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "T (two places added) and the inside tests of english-1428 and english-siege-1428; written to content/joan-of-arc/.plan/ground.yaml"
+  old: "T: no saint_urbain, no rouvray; english-1428 inside: ..., 'saint_florentin', 'calais', ...; english-siege-1428 inside: ..., 'patay', 'saint_laurent', ..."
+  new: "T: saint_urbain: [5.19, 48.40], rouvray: [1.95, 48.27]; english-1428 inside: ..., 'saint_florentin', 'saint_urbain', 'calais', ...; english-siege-1428 inside: ..., 'patay', 'rouvray', 'saint_laurent', ..."
+  commit: bb3230a1

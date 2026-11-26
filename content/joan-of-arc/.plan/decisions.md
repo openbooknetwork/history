@@ -140,3 +140,15 @@
 - unresolved, maps (map-keeper): Dauphiné is drawn as the départements of Isère, Drôme and Hautes-Alpes under 010.57.
 - cloud ruling: Dauphiné stands as those three départements, a reconstruction — the province was divided into them,
   and the chapter's text calls its borders approximate.
+- maps, the shared map audited (map-auditor): 7 faults; 4 fixed by the auditor, 3 open for the map keeper
+  (story-map-auditor-1, -2, -3), two of which wait for Ramsay's passages in the digest.
+- unresolved, maps (map-auditor): what english-1436 keeps; Champagne east of the Meuse; Roussillon, the Cerdagne, Béarn
+  and Lower Navarre inside the kingdom; Tournai inside Burgundy; Dauphiné; the keeper's estimated lines.
+- cloud ruling: english-1436 keeps every town that no source read has the English lose by April 1436, and leaves
+  Chartres out, as the auditor proposed — the careful side; a researcher adds Ramsay's passages first.
+- cloud ruling: Champagne is cut at the Meuse north of Mézières (story-overseer-4), and Roussillon with the Cerdagne
+  is cut out at the Corbières (story-overseer-5) — no source gives either to the kingdom, and Roussillon was
+  Aragon's. Béarn, Lower Navarre and Tournai stay as drawn: no page marks or tells them, and the brief says "to the
+  Pyrenees".
+- cloud ruling: the keeper's estimated lines stand as reconstructions — each chapter's text calls its borders
+  approximate once, and the text of `domremy` gives both accounts of whose land the village was.

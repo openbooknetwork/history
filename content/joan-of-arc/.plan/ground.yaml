@@ -241,8 +241,8 @@ lines:
   - 'n': 29
     kind: estimate
     why: >-
-      the south edge of the English north from 1420: Chartres and Étampes English to 1429 (names.md; 040.42 leaves them English), Janville English only from
-      August 1428 (020.14), Châteaudun outside; no source gives a line
+      the south edge of the English north from 1420: Chartres and Étampes English to 1429 (020.13: men of Chartres reinforce Salisbury; 040.33: Fastolf flees
+      from Patay to Étampes), Janville English only from August 1428 (020.14), Châteaudun outside; no source gives a line
     from: [0.8, 48.62]
     to: [3.1, 48.12]
     points: 7
@@ -703,7 +703,7 @@ zones:
     sourced_km: 1515
     estimated_km: 1566
     other_km: 2023
-    inside: {rouen: ok, paris: ok, troyes: ok, reims: ok, le_mans: ok, laval: ok, fresnay: ok, alencon: ok, chartres: ok, saint_florentin: ok, calais: ok, bordeaux: ok}
+    inside: {rouen: ok, paris: ok, troyes: ok, reims: ok, le_mans: ok, laval: ok, fresnay: ok, alencon: ok, chartres: ok, saint_florentin: ok, saint_urbain: ok, calais: ok, bordeaux: ok}
     outside: {mont_saint_michel: ok, vaucouleurs: ok, greux: ok, neufchateau: ok, angers: ok, janville: ok, orleans: ok, rennes: ok, fougeres: ok, le_crotoy: ok, tours: ok}
   english-siege-1428:
     lines: [1, 3, 5, 6, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 44, 45, 46, 47, 48, 49, 51, 52, 54]
@@ -712,7 +712,7 @@ zones:
     sourced_km: 1539
     estimated_km: 1648
     other_km: 2022
-    inside: {janville: ok, meung: ok, beaugency: ok, jargeau: ok, patay: ok, saint_laurent: ok, bastille_paris: ok, chartres: ok, paris: ok}
+    inside: {janville: ok, meung: ok, beaugency: ok, jargeau: ok, patay: ok, rouvray: ok, saint_laurent: ok, bastille_paris: ok, chartres: ok, paris: ok}
     outside: {orleans: ok, boucher: ok, saint_loup: ok, checy: ok, blois: ok, gien: ok, chateaudun: ok, vaucouleurs: ok}
   english-reims-1429:
     lines: [1, 3, 5, 6, 28, 29, 30, 33, 34, 35, 36, 37, 38, 39, 46, 47, 48, 49, 51, 52, 54, 55]

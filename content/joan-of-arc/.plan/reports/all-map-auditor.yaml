@@ -1,0 +1,23 @@
+- step: maps
+  task: audit
+  status: faults
+  changed_files:
+    - content/joan-of-arc/.plans/zones.mjs
+    - content/joan-of-arc/shared/zones/english-1407.geojson
+    - content/joan-of-arc/.plan/ground.yaml
+    - content/joan-of-arc/.plan/brief.md
+    - content/joan-of-arc/.plan/faults/story.yaml
+    - content/joan-of-arc/.plan/fixes/story.yaml
+  faults: [story-map-auditor-1, story-map-auditor-2, story-map-auditor-3, story-map-auditor-4, story-map-auditor-5, story-map-auditor-6, story-map-auditor-7]
+  unresolved:
+    - "english-1436 (story-map-auditor-1): Ramsay has Meaux kept in 1432 and Creil, Crépy and Clermont recovered by Talbot in 1434, and no source read has Montereau, Sens, Étampes or Mantes lost by April 1436. Proposed: keep them in english-1436 under the careful side and leave Chartres out (French in 1432, Ramsay), once a researcher puts the Ramsay passages into the digest; the overseer chooses between a wider zone and markers for the holds on paris-opens."
+    - "The kingdom's outline takes Champagne-Ardenne whole, so the Givet salient and the land of Sedan and Carignan east of the Meuse lie in france-1407 and in the english zones of 1420-1429, where the brief's row says 'east to the Meuse'. No source speaks of them. Proposed: cut Champagne at the Meuse north of Mézières."
+    - "The clip to France puts Roussillon and the Cerdagne (Aragon's in these years), Béarn and Lower Navarre in the kingdom. No source speaks of them. Proposed: leave them as the brief's 'to the Pyrenees' has it, or cut Roussillon at the Corbières; the user's choice."
+    - "Tournai, a royal town, falls inside burgundy-1407 and burgundy-1420 with French Flanders (line 16 runs east of it). No source speaks of it. Proposed: leave it, as it is a marker on no page."
+    - "Dauphiné drawn as Isère, Drôme and Hautes-Alpes under 010.57: concur with the keeper's proposal to keep them."
+    - "Every estimate line of ground.yaml is the keeper's own line. The ones a reader is most likely to take as sourced: the Three Fountains brook through Domrémy (010.14, disputed, Lowell's alone), Picardy's south edge (line 28: Montdidier and Noyon Burgundian on no claim, and the Thiérache and Guise Burgundian by the drawing alone), the line between Bar and Lorraine (81), the edge of English Maine (37), the edges of the Beauce and round Orléans (42-44), the cuts of 1429 (55-64), Lower Normandy at the close of 1449 (67-72) and the edges of Gascony (48-52)."
+  stale:
+    - content/joan-of-arc/shared/zones/english-1436.geojson
+    - content/joan-of-arc/shared/zones/english-sep-1429.geojson
+    - content/joan-of-arc/.plan/brief.md
+    - content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml

@@ -30,7 +30,7 @@
    "parent": "-",
    "model": "claude-fable-5-2",
    "start": "2026-11-26T08:58:19.988Z",
-   "end": "2026-11-26T19:45:19.790Z",
+   "end": "2026-11-26T20:21:58.644Z",
    "description": ""
   },
   {
@@ -1321,6 +1321,15 @@
    "description": "facts 070 section-reviewer review"
   },
   {
+   "agent": "af9bde44c0131208a",
+   "role": "section-reviewer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T20:15:34.733Z",
+   "end": "2026-11-26T20:19:17.256Z",
+   "description": "facts 040 section-reviewer review"
+  },
+  {
    "agent": "afdac48b076441830",
    "role": "section-coordinator",
    "parent": "overseer",
@@ -1328,6 +1337,15 @@
    "start": "2026-11-26T09:23:00.839Z",
    "end": "2026-11-26T09:24:33.657Z",
    "description": "pre-plans 060 section-coordinator pre-plan"
+  },
+  {
+   "agent": "afec316ac92976860",
+   "role": "fact-checker",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T20:19:34.387Z",
+   "end": "2026-11-26T20:21:49.706Z",
+   "description": "facts 040 fact-checker recheck"
   }
  ],
  "usage": [
@@ -1338,12 +1356,12 @@
    "model": "claude-fable-5-2",
    "step": "-",
    "section": "-",
-   "turns": 378,
-   "peak": 702904,
-   "input": 975,
-   "cacheWrite": 1230524,
-   "cacheRead": 150165133,
-   "output": 176735
+   "turns": 390,
+   "peak": 721622,
+   "input": 1006,
+   "cacheWrite": 1248535,
+   "cacheRead": 158738397,
+   "output": 189051
   },
   {
    "agent": "a00421d99dbb1e05d",
@@ -3348,6 +3366,20 @@
    "output": 43495
   },
   {
+   "agent": "af9bde44c0131208a",
+   "role": "section-reviewer",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "facts",
+   "section": "040",
+   "turns": 15,
+   "peak": 223203,
+   "input": 30,
+   "cacheWrite": 223201,
+   "cacheRead": 2376789,
+   "output": 22786
+  },
+  {
    "agent": "afdac48b076441830",
    "role": "section-coordinator",
    "parent": "overseer",
@@ -3360,6 +3392,20 @@
    "cacheWrite": 65423,
    "cacheRead": 399998,
    "output": 9006
+  },
+  {
+   "agent": "afec316ac92976860",
+   "role": "fact-checker",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "facts",
+   "section": "040",
+   "turns": 12,
+   "peak": 146644,
+   "input": 24,
+   "cacheWrite": 140763,
+   "cacheRead": 1238146,
+   "output": 11449
   }
  ],
  "reports": [
@@ -12881,6 +12927,171 @@
    ]
   },
   {
+   "agent": "af9bde44c0131208a",
+   "role": "section-reviewer",
+   "step": "facts",
+   "section": "040",
+   "status": "faults",
+   "changed": 5,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "040-section-reviewer-15",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "battles",
+     "firstCheck": "phases",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/040-the-loire-and-reims/031-patay-the-hedges/text/en.md",
+     "claim": "040.25",
+     "evidence": "040.25, Wavrin p. 420 and Cagny p. 15: the English give up Meung on the news that Beaugency has fallen; a reader who opens the page here had the march with no cause",
+     "action": "On 18 June, with Beaugency lost, the English march north from Meung for Janville",
+     "state": "fixed"
+    },
+    {
+     "id": "040-section-reviewer-16",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "review",
+     "firstCheck": "edit",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/040-the-loire-and-reims/031-patay-the-hedges/text/en.md",
+     "claim": "040.89",
+     "evidence": "agents/text.md, Short: with 040-section-reviewer-15 and -17 the body ran to 304 words; the first sentence already puts the merchants in the train (\"the train of artillery, victuals and merchants\", 040.25)",
+     "action": "The captains send the vanguard and the train ahead",
+     "state": "fixed"
+    },
+    {
+     "id": "040-section-reviewer-17",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "battles",
+     "firstCheck": "phases",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/040-the-loire-and-reims/031-patay-the-hedges/text/en.md",
+     "claim": "040.88",
+     "evidence": "040.88: \"single for the number\", Wavrin p. 420 with Monstrelet's same text; agents/evidence.md: a single claim's figure names its author, as the map's label of french-scouts does",
+     "action": "sixty or eighty of their best mounted men ahead as scouts, by Wavrin's count.",
+     "state": "fixed"
+    },
+    {
+     "id": "040-section-reviewer-18",
+     "severity": "weak",
+     "kind": "attribution",
+     "introduced": "battles",
+     "firstCheck": "phases",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/040-the-loire-and-reims/031-patay-the-hedges/text/en.md",
+     "claim": "040.27",
+     "evidence": "040.27, the deposition of Louis de Contes: \"La Hire commanded the vanguard, at which Jeanne was much vexed\"; rules.md, The two trials are primary sources with a side: a retrial witness's word is told as his, \"at the retrial\"",
+     "action": "Joan rides with it, kept out of the van, to her anger, as her page Louis de Coutes remembered at the retrial.",
+     "state": "fixed"
+    },
+    {
+     "id": "040-section-reviewer-19",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "battles",
+     "firstCheck": "phases",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/040-the-loire-and-reims/032-patay-the-stag/text/en.md",
+     "claim": "040.28",
+     "evidence": "agents/text.md, The reader can follow: the page opened with no day and no place and named Wavrin and Monstrelet with no word of who they were; 040.25, 040.28; names.md, Wavrin and Monstrelet, Burgundian chroniclers",
+     "action": "On 18 June, on the road north to [Patay](@patay-the-stag-patay), the French scouts ride on beside the woods without sight of the English, who are marching from Meung for Janville. A stag breaks out of the woods and runs towards the village, into the ranks of the English main body, and the English raise a loud shout. So Jean de Wavrin, a Burgundian chronicler who was in that main body, tells it, and the chronicle of Monstrelet, another Burgundian, has the same text.",
+     "state": "fixed"
+    },
+    {
+     "id": "040-section-reviewer-20",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "battles",
+     "firstCheck": "phases",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/040-the-loire-and-reims/032-patay-the-stag/text/en.md",
+     "claim": "040.29",
+     "evidence": "040.29, Wavrin p. 422: \"v cens archiers d'eslite\" in the passage between two hedges; a reader who opens the page here did not know what \"the narrow way of Lord Talbot\" was",
+     "action": "ride into the narrow way between two hedges where [Lord Talbot](@patay-the-stag-talbot) stands with 500 archers, before the English have joined at the hedges.",
+     "state": "fixed"
+    },
+    {
+     "id": "040-section-reviewer-21",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "battles",
+     "firstCheck": "phases",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/040-the-loire-and-reims/032-patay-the-stag/text/en.md",
+     "claim": "040.30",
+     "evidence": "040.30; read aloud, \"Wavrin gives no stakes\" sounded squeezed, and two sentences running ended and began with Wavrin",
+     "action": "Wavrin says. He says nothing of stakes.",
+     "state": "fixed"
+    },
+    {
+     "id": "040-section-reviewer-22",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "battles",
+     "firstCheck": "phases",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/040-the-loire-and-reims/033-patay-the-rout/text/en.md",
+     "claim": "040.29",
+     "evidence": "agents/text.md, The reader can follow: the page opened with no day, no place and no word on Fastolf or on what had come before; 040.29, 040.31 (Wavrin p. 423, \"rué jus le seigneur de Thalbot\"), 040.33 (Fastolf not dismounted); the link to Patay moves to its first naming",
+     "action": "Near [Patay](@patay-the-rout-patay) on 18 June the French vanguard has taken the English captain Lord Talbot and broken through the narrow way he held. [Sir John Fastolf](@patay-the-rout-fastolf), one of the English commanders, has stayed on his horse, and he rides north towards the English vanguard at the hedges to join it.",
+     "state": "fixed"
+    },
+    {
+     "id": "040-section-reviewer-23",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "battles",
+     "firstCheck": "phases",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/040-the-loire-and-reims/033-patay-the-rout/text/en.md",
+     "claim": "040.29",
+     "evidence": "names.md, Wavrin, Burgundian chronicler who rode with Fastolf at Patay; the page named him with no word of who he was",
+     "action": "So Jean de Wavrin, a Burgundian chronicler who rode with Fastolf, tells it.",
+     "state": "fixed"
+    },
+    {
+     "id": "040-section-reviewer-24",
+     "severity": "taste",
+     "kind": "wording",
+     "introduced": "battles",
+     "firstCheck": "phases",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/pages/040-the-loire-and-reims/033-patay-the-rout/text/en.md",
+     "claim": "040.37",
+     "evidence": "040.31, 040.37; Talbot's capture now stands in paragraph 1 (040-section-reviewer-22), Monstrelet had no word of who he was, \"by Wavrin and Monstrelet, who give no figure\" read as squeezed, and the link to Patay moved to the first naming",
+     "action": "Besides Talbot, the English captains Lord Scales, Sir Thomas Rempston and a Hungerford are taken.\\*\\* The French lose few men, say Wavrin and the Burgundian chronicler Monstrelet, though neither gives a figure. Monstrelet has the fight over at about two in the afternoon, and that night the French lie at Patay.",
+     "state": "fixed"
+    },
+    {
+     "id": "040-section-reviewer-25",
+     "severity": "taste",
+     "kind": "map",
+     "introduced": "battles",
+     "firstCheck": "phases",
+     "leak": false,
+     "owner": "battle-implementor",
+     "file": "content/joan-of-arc/.plans/patay-1429.mjs",
+     "claim": null,
+     "evidence": "agents/text.md, 'each place it names is on the map'; 040.25, 040.33, 040.41",
+     "action": "The phase texts name places their maps do not show: Meung, Janville and Beaugency on patay-the-hedges, Meung and Janville on patay-the-stag, Janville and Étampes on patay-the-rout. All lie outside the 6 km frame of the battle plan, and only the arrows' hover names on patay-the-rout give Janville and Étampes (captures phases-040-battle-auditor-patay-recheck-2/pack/shots/patay-the-*.png). A label at the frame's edge for the road to Janville and the road from Meung, or the battle implementor says why a battle plan page leaves them out.",
+     "state": "declined"
+    }
+   ]
+  },
+  {
    "agent": "afdac48b076441830",
    "role": "section-coordinator",
    "step": "pre-plans",
@@ -12889,6 +13100,31 @@
    "changed": 1,
    "unresolved": 2,
    "faults": []
+  },
+  {
+   "agent": "afec316ac92976860",
+   "role": "fact-checker",
+   "step": "facts",
+   "section": "040",
+   "status": "pass",
+   "changed": 2,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "040-fact-checker-54",
+     "severity": "taste",
+     "kind": "check",
+     "introduced": "review",
+     "firstCheck": "edit",
+     "leak": false,
+     "owner": "section-reviewer",
+     "file": "content/joan-of-arc/.plan/fixes/040.yaml",
+     "claim": null,
+     "evidence": "git show 2b3a2499:content/joan-of-arc/pages/040-the-loire-and-reims/032-patay-the-stag/text/en.md, paragraph 2, and the same at 805bbd4c: \"all his men are killed, Wavrin says. Wavrin gives no stakes.\"; the fix log's old quoted words the text never had, so the entry was no true diff of the fix. The fix itself stands as its new gives it",
+     "action": "Wavrin says. Wavrin gives no stakes.",
+     "state": "fixed"
+    }
+   ]
   },
   {
    "agent": "-",
@@ -16014,6 +16250,44 @@
     "task": "recheck",
     "faults": ".plan/faults/040.yaml",
     "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/phases-040-battle-auditor-patay-recheck-2",
+    "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "section-reviewer",
+   "description": "facts 040 section-reviewer review",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "040",
+    "pages": [
+     "patay-the-hedges",
+     "patay-the-stag",
+     "patay-the-rout"
+    ],
+    "step": "facts",
+    "task": "review",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/facts-040-section-reviewer-patay",
+    "serve": "static",
+    "note": "The three phase pages are new since the section's review; the battle implementor wrote their texts, and they passed the battle audit and a fact check."
+   },
+   "problems": []
+  },
+  {
+   "role": "fact-checker",
+   "description": "facts 040 fact-checker recheck",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "040",
+    "pages": [
+     "patay-the-hedges",
+     "patay-the-stag",
+     "patay-the-rout"
+    ],
+    "step": "facts",
+    "task": "recheck",
+    "faults": ".plan/faults/040.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/facts-040-fact-checker-patay-recheck",
     "serve": "static"
    },
    "problems": []
@@ -20858,6 +21132,127 @@
    "kind": "battle",
    "severity": "weak",
    "owner": "battle-implementor",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-section-reviewer-15",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/040-the-loire-and-reims/031-patay-the-hedges/text/en.md",
+   "field": "body, paragraph 1",
+   "commit": "2b3a2499",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-section-reviewer-16",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/040-the-loire-and-reims/031-patay-the-hedges/text/en.md",
+   "field": "body, paragraph 2",
+   "commit": "2b3a2499",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-section-reviewer-17",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/040-the-loire-and-reims/031-patay-the-hedges/text/en.md",
+   "field": "body, paragraph 3",
+   "commit": "2b3a2499",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-section-reviewer-18",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/040-the-loire-and-reims/031-patay-the-hedges/text/en.md",
+   "field": "body, paragraph 3",
+   "commit": "2b3a2499",
+   "kind": "attribution",
+   "severity": "weak",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-section-reviewer-19",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/040-the-loire-and-reims/032-patay-the-stag/text/en.md",
+   "field": "body, paragraph 1",
+   "commit": "2b3a2499",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-section-reviewer-20",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/040-the-loire-and-reims/032-patay-the-stag/text/en.md",
+   "field": "body, paragraph 2",
+   "commit": "2b3a2499",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-section-reviewer-21",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/040-the-loire-and-reims/032-patay-the-stag/text/en.md",
+   "field": "body, paragraph 2",
+   "commit": "2b3a2499",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-section-reviewer-22",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/040-the-loire-and-reims/033-patay-the-rout/text/en.md",
+   "field": "body, paragraph 1",
+   "commit": "2b3a2499",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-section-reviewer-23",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/040-the-loire-and-reims/033-patay-the-rout/text/en.md",
+   "field": "body, paragraph 1",
+   "commit": "2b3a2499",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-section-reviewer-24",
+   "by": "section-reviewer",
+   "file": "content/joan-of-arc/pages/040-the-loire-and-reims/033-patay-the-rout/text/en.md",
+   "field": "body, paragraph 3",
+   "commit": "2b3a2499",
+   "kind": "wording",
+   "severity": "taste",
+   "owner": "section-reviewer",
+   "steppedIn": false
+  },
+  {
+   "fault": "040-fact-checker-54",
+   "by": "fact-checker",
+   "file": "content/joan-of-arc/.plan/fixes/040.yaml and content/joan-of-arc/.plan/faults/040.yaml",
+   "field": "040-section-reviewer-21, old",
+   "commit": "69136655",
+   "kind": "check",
+   "severity": "taste",
+   "owner": "section-reviewer",
    "steppedIn": false
   },
   {

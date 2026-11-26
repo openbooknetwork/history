@@ -8,7 +8,7 @@ At [Poitiers](@poitiers-examination) churchmen and doctors, with Regnault de Cha
 
 From about mid-April, at [Tours](@tours-armour), she is given armour and a household: a squire, Jean d'Aulon, two pages, and Pasquerel as confessor. A painter of Tours is paid 25 livres tournois for her banners.\*\*\* At her word an armourer of Tours fetches a rusty sword marked with five crosses from behind the altar at [Sainte-Catherine-de-Fierbois](@fierbois-sword). She said her voices told her of it; Lowell thinks she probably saw or heard of the old arms kept there.
 
-After about ten days at Tours she goes up the Loire to Blois with the Archbishop of Reims and Raoul de Gaucourt, the Grand Steward. There the convoy for besieged Orléans gathers under La Hire and the marshals Gilles de Rais and Jean de Brosse, lord of Boussac.
+After about ten days at Tours she goes up the Loire to [Blois](@blois-gathering) with the Archbishop of Reims and Raoul de Gaucourt, the Grand Steward. There the convoy for besieged Orléans gathers under La Hire and the marshals Gilles de Rais and Jean de Brosse, lord of Boussac.
 
 The map shows her road to Poitiers, back to Chinon (Lowell), and by Tours to Blois.
 

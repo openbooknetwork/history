@@ -346,3 +346,14 @@
   introduced: map-design
   owner: map-keeper
   state: fixed
+- id: story-overseer-6
+  severity: weak
+  file: content/joan-of-arc/.plan/names.md
+  field: the rows of Jean de Brosse (Boussac) and of the Constable d'Albret, and each row's cell "First named in"
+  new: "once every section has its texts: each cell 'First named in' gives the section whose text names the row first, as names-check prints them; the form asked of Boussac at a first mention passes names-check; the two rows of d'Albret no longer clash"
+  source: "reports/010-section-writer.yaml, reports/020-section-reviewer.yaml (020-section-reviewer-17) and the output of scripts/names-check.mjs"
+  kind: check
+  introduced: names
+  owner: names
+  state: open
+  ruling: "cloud ruling: settled once, after the last section is written, since each new text moves these cells again"

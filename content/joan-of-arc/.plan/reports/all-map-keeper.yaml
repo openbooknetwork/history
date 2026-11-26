@@ -75,3 +75,22 @@
     - content/joan-of-arc/.plan/brief-050.md
   fixed: [story-map-auditor-10]
   totals: {zones: 20, sourced_lines: 15, sourced_km: 7949, estimated_lines: 82, estimated_km: 11542}
+- step: maps
+  task: fix
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plans/zones.mjs
+    - content/joan-of-arc/shared/zones/english-1428.geojson
+    - content/joan-of-arc/shared/zones/english-siege-1428.geojson
+    - content/joan-of-arc/shared/zones/burgundy-1407.geojson
+    - content/joan-of-arc/shared/zones/burgundy-1420.geojson
+    - content/joan-of-arc/shared/zones/burgundy-1430.geojson
+    - content/joan-of-arc/.plan/ground.yaml
+    - content/joan-of-arc/.plan/faults/020.yaml
+    - content/joan-of-arc/.plan/fixes/020.yaml
+    - content/joan-of-arc/.plan/handoff/map-keeper.md
+  faults: []
+  unresolved: []
+  stale: []
+  fixed: [020-map-auditor-3]
+  totals: {zones: 20, sourced_lines: 15, sourced_km: 7949, estimated_lines: 82, estimated_km: 11662}

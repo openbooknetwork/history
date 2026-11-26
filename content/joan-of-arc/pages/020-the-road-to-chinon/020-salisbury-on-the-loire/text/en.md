@@ -6,7 +6,7 @@ On 12 October Salisbury camps by the Portereau, the suburb across the river, and
 
 @image salisbury-struck-miniature
 
-On 12 February 1429 Sir John Fastolf is bringing stores from Paris to the siege, many of them herrings for the fasting season. At [Rouvray](@rouvray), two leagues from Janville, French and Scots under Charles, Count of Clermont, come out against him, and he makes a park of his carts and stakes.\*\*\* The French had agreed to fight mounted, but the Scots of Sir John Stewart of Darnley dismount and attack. The English sally out and break them, and Clermont's horsemen ride away. Darnley is among the dead. After the Battle of the Herrings, as the fight is called, Clermont goes home, and the king's council talks of withdrawing to Dauphiné or Languedoc.
+On 12 February 1429 Sir John Fastolf is bringing stores from Paris to the siege, among them herrings for the fasting season. At [Rouvray](@rouvray), two leagues from Janville, French and Scots under Charles, Count of Clermont, come out against him, and he makes a park of his carts and stakes.\*\*\* The French had agreed to fight mounted, but the Scots of Sir John Stewart of Darnley dismount and attack. The English sally out and break them, and Clermont's horsemen ride away. Darnley is among the dead. After the Battle of the Herrings, as the fight is called, Clermont goes home, and the king's council talks of withdrawing to Dauphiné or Languedoc.
 
 The map shows the English down to the Loire, the siege, and the columns meeting at Rouvray.
 

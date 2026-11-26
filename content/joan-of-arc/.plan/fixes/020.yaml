@@ -551,3 +551,71 @@
   old: The map shows her approximate road to Poitiers, back to Chinon with the court (Lowell),
   new: The map shows her road to Poitiers, back to Chinon (Lowell),
   commit: 014308f6
+- fault: 020-section-reviewer-16
+  by: section-coordinator
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+  field: chinon-and-poitiers.markers
+  old: "[chinon-audience, poitiers-examination, tours-armour, fierbois-sword]"
+  new: "[chinon-audience, poitiers-examination, tours-armour, fierbois-sword, blois-gathering]"
+  commit: 4b94d325
+- fault: 020-section-reviewer-16
+  by: section-coordinator
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/map.yaml
+  field: chinon-and-poitiers.markers
+  old: ""
+  new: 'blois-gathering: { name: Blois, what: "after about ten days at Tours she goes up the Loire to Blois with the Archbishop of Reims and Gaucourt, where the convoy for Orléans gathers under the marshals de Rais and de Boussac and La Hire; the end of joan-1429-blois; about 47.59 N 1.33 E. In the france colour", basis: sourced }'
+  commit: 4b94d325
+- fault: 020-section-reviewer-16
+  by: section-coordinator
+  file: content/joan-of-arc/.plan/020-the-road-to-chinon/map.yaml
+  field: chinon-and-poitiers.unmarked
+  old: 'Blois: "the end of her route, where the convoy gathers; marked on from-blois in 030, where the convoy leaves it."'
+  new: ""
+  commit: 4b94d325
+- fault: 020-section-reviewer-16
+  by: section-coordinator
+  file: content/joan-of-arc/.plans/pages020.mjs
+  field: chinon-and-poitiers markers
+  old: ""
+  new: "'blois-gathering': { lnglat: P.blois, icon: 'flag', color: 'france', label: 'Blois', note: 'Joan comes to Blois from Tours, where the convoy for Orléans gathers, late April 1429' }; rerun, which writes it to the page's markers.yaml and page.yaml"
+  commit: 4b94d325
+- fault: 020-section-reviewer-16
+  by: section-coordinator
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/text/en.md
+  field: body
+  old: she goes up the Loire to Blois with
+  new: she goes up the Loire to [Blois](@blois-gathering) with
+  commit: 4b94d325
+- fault: 020-map-auditor-3
+  by: map-keeper
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "NORTH20, the English north of 1420 and 1428 (english-1420, english-1428, english-siege-1428 and english-1429 from it)"
+  old: "const NORTH20 = z.diff(z.union(NORMANDY2, IDF, CHAMPAGNE_K, BETWEEN), MSM, BRITTANY);"
+  new: "const CHAMPAGNE_EDGE = z.diff(z.region(KBc, M1, z.est('a line inside Champagne, which the province itself bounds: it only closes the land between the Champagne of today and the kingdom\\'s edge', [end(M1), [4.90, 48.70], [4.70, 49.40], [4.40, 49.80], start(KBc)])), BAR, LORRAINE, CASTELLANY, BURGUNDY20);
+    const NORTH20 = z.diff(z.union(NORMANDY2, IDF, CHAMPAGNE_K, CHAMPAGNE_EDGE, BETWEEN), MSM, BRITTANY);
+    (the block moved below Bar and Lorraine, which it is cut by). The English Champagne now runs to the drawn Meuse
+    (line 19) and the kingdom's edge (line 18) wherever Bar, Lorraine, the castellany and Burgundy do not meet it:
+    the sliver by Stenay and the piece by Rocroi are English"
+  commit: 014308f6
+- fault: 020-map-auditor-3
+  by: map-keeper
+  file: content/joan-of-arc/.plans/zones.mjs
+  field: "ARTOIS, the north edge of Artois and French Flanders (burgundy-1407, burgundy-1420, burgundy-1430)"
+  old: "const ARTOIS = z.region(AS, z.back(KBa), z.est('a line inside Flanders: it only joins Artois and French Flanders to the Flanders of today', [start(KBa), [3.50, 50.80], [2.60, 51.10], [1.80, 51.10]]), z.est('the open sea off the Boulonnais: the coast cuts it', [[1.80, 51.10], [1.30, 50.70], start(AS)]));"
+  new: "const ARTOIS = z.region(AS, z.back(KBa), z.back(NCLOSE), z.est('the open sea off French Flanders and the Boulonnais: the coast cuts it', [end(SEA), [1.80, 51.15], [1.30, 50.70], start(AS)]));
+    Artois takes the kingdom's own closing line in Flanders (line 27), so the coast by Bray-Dunes is Burgundian"
+  commit: 014308f6
+- fault: 020-fact-checker-22
+  by: fact-checker
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/020-salisbury-on-the-loire/text/en.md
+  field: body
+  old: to the siege, many of them herrings for the fasting season.
+  new: to the siege, among them herrings for the fasting season.
+  commit: 4b94d325
+- fault: 020-map-auditor-4
+  by: map-auditor
+  file: content/joan-of-arc/.plans/pages020.mjs
+  field: "chinon-and-poitiers, markers, blois-gathering, note; run again, it writes pages/020-the-road-to-chinon/050-chinon-and-poitiers/markers.yaml"
+  old: "Joan comes to Blois from Tours, where the convoy for Orléans gathers, late April 1429"
+  new: "Joan comes from Tours to Blois, where the convoy for Orléans gathers, late April 1429"
+  commit: 4b94d325

@@ -194,6 +194,8 @@ const pages = [
       'fierbois-sword': { lnglat: P.fierbois, icon: 'sword', color: 'france', label: 'Sainte-Catherine-de-Fierbois',
         image: 'fierbois-church',
         note: 'Joan\'s sword is found behind its altar, as she asked, rusted, with five crosses on it' },
+      'blois-gathering': { lnglat: P.blois, icon: 'flag', color: 'france', label: 'Blois',
+        note: 'Joan comes from Tours to Blois, where the convoy for Orléans gathers, late April 1429' },
     },
     sources: [
       "The Trial of Jeanne d'Arc, tr. W. P. Barrett (1932), the public examinations of 22 and 27 February 1431.",

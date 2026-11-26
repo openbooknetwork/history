@@ -448,7 +448,7 @@
   claim: "020.8"
   introduced: maps
   owner: map-keeper
-  state: open
+  state: fixed
 - id: 020-fact-checker-9
   severity: weak
   file: content/joan-of-arc/pages/020-the-road-to-chinon/010-the-voices/text/en.md
@@ -859,7 +859,7 @@
   claim: '020.58'
   introduced: plan
   owner: section-coordinator
-  state: open
+  state: fixed
 - id: 020-section-reviewer-17
   severity: weak
   file: content/joan-of-arc/.plan/names.md
@@ -874,3 +874,33 @@
   introduced: names
   owner: names
   state: open
+- id: 020-fact-checker-22
+  severity: weak
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/020-salisbury-on-the-loire/text/en.md
+  field: body
+  replaces: clause
+  old: to the siege, many of them herrings for the fasting season.
+  new: to the siege, among them herrings for the fasting season.
+  source: 'Lowell, archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, ch. 7, lines 4065-4066: "Several wagons,
+    laden with salt herrings, made part of Fastolf''s convoy"; Ramsay, ch. 26, lines 24367-24368: "the provisions comprised
+    a store of \"heryng and lenten stuffe\""; the Journal, lines 5065-5067, has the carts "chargez de vivres et de plusieurs
+    habillemens de guerre". No source makes the herrings many of the stores: the rewording of 020-section-reviewer-4 made
+    the text surer than its sources.'
+  kind: fact
+  claim: "020.23"
+  introduced: review
+  owner: section-reviewer
+  state: fixed
+- id: 020-map-auditor-4
+  severity: taste
+  file: content/joan-of-arc/.plans/pages020.mjs
+  field: "chinon-and-poitiers, markers, blois-gathering, note (written to pages/020-the-road-to-chinon/050-chinon-and-poitiers/markers.yaml)"
+  replaces: clause
+  old: "Joan comes to Blois from Tours, where the convoy for Orléans gathers"
+  new: "Joan comes from Tours to Blois, where the convoy for Orléans gathers"
+  source: "research/020.md, 020.58: she goes up the Loire to Blois, \"where the convoy for Orléans gathers\" (Dunois, Murray lines 12025-12029, \"to Blois, where those were who had the charge of escorting the convoy\"; Lowell ch. 6, lines 3451-3452). The note's \"where\" followed Tours and read as the convoy gathering at Tours. Capture: scratchpad maps-020-map-auditor-recheck/pack/shots/chinon-and-poitiers.png, the Blois label"
+  kind: map
+  claim: "020.58"
+  introduced: review
+  owner: cartographer
+  state: fixed

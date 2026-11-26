@@ -22,6 +22,10 @@
 - Le Crotoy is no part of any zone: mark it in the english colour where a page needs it (060 does).
 - Holds of the other side inside a zone stay markers: Melun, Meaux, Soissons, Compiègne in 1420, Sully, La Charité,
   Cosne, Saint-Pierre-le-Moûtier, Maxey, the Burgundian camps before Compiègne, Fougères in 1449.
+- In english-1420 and english-1428 (and the siege zone) the English Champagne runs to the drawn Meuse and the
+  kingdom's edge wherever Bar does not meet it (`CHAMPAGNE_EDGE`, 020-map-auditor-3): before 1429 nothing of the east
+  is Charles VII's but the castellany of Vaucouleurs. Artois runs to the kingdom's line in Flanders, the coast by
+  Bray-Dunes included.
 - The land east of the Meuse from Mézières to Stenay (Sedan, Mouzon, Carignan), the Givet salient, and Roussillon
   with the Cerdagne stand in no zone, by the rulings on story-overseer-4 and -5. Mark nothing there in a zone's colour.
 - The siege zone's edge at Orléans is drawn for zoom 15: Saint-Laurent, London, Rouen and Paris lie inside it,
@@ -43,7 +47,7 @@
   generator, and Bar and Lorraine by Champagne (the whole province, not `CHAMPAGNE_K`). English zones are cut by
   Brittany, and the cut of September 1429 by Normandy.
 - `brittany-1407` is kept apart from viking-age's brittany-860 and brittany-937 in `content/shared/zones/apart.yaml`.
-- No page folder exists yet, so `node scripts/audit-pack.mjs joan-of-arc all --zones <ids>` finds no page and
-  captures nothing. `node scripts/plan-check.mjs joan-of-arc` passes. Run the pack once the cartographers have
-  written pages, for the zones of this fix too: france-1407, the english zones of 1420 to 1436 and
-  english-compiegne-1429.
+- `NORTH20` and `NORTH28` stand below Bar and Lorraine in the generator, since `CHAMPAGNE_EDGE` is cut by them.
+- A grid test at 0.01 degree of france-1407 less english-1428, burgundy-1420, bar-1412, lorraine-1412 and
+  brittany-1407, in the east (3.9-6.0 E, 48.2-50.3 N) and Flanders, leaves the castellany of Vaucouleurs alone.
+  The pages of 010 and 020 exist; the audit pack runs on them.

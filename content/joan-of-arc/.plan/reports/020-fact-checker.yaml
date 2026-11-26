@@ -56,3 +56,20 @@
     - "020.43, the day she reached Chinon: the Livre Noir of La Rochelle by Lowell ch. 5 note; the Continuator of Nangis (Quicherat 4, p. 313), 'le seul qui donne d'une manière expresse la date'."
     - "020.52, the Poitiers finding: Pasquerel and Seguin (Murray); Beaucourt book 2 ch. 5; Thurston."
   checked: "the-voices 21, salisbury-on-the-loire 27, vaucouleurs-again 24, eleven-days 22, chinon-and-poitiers 26 claims; 27 marker notes; the herrings-1429 card, 12 figures"
+- step: facts
+  task: recheck
+  status: pass
+  changed_files:
+    - content/joan-of-arc/pages/020-the-road-to-chinon/020-salisbury-on-the-loire/text/en.md
+    - content/joan-of-arc/.plan/faults/020.yaml
+    - content/joan-of-arc/.plan/fixes/020.yaml
+  faults: [020-fact-checker-22]
+  unresolved:
+    - "020.30 (agreed for Dauphiné): salisbury-on-the-loire now gives the council's talk of 'Dauphiné or Languedoc'; Languedoc is Lowell's alone (ch. 5, 2532-2533), the Journal and Ramsay give Dauphiné. Told without his name, as an alternative and not a differing account; proposed to stand."
+    - "020-section-reviewer-17 (open, names): the edit hook reports Dunois and Thomas Montagu, Earl of Salisbury, first named in 020 against their names.md rows (070, 010); left to the names agent as that fault asks."
+  stale: []
+  turns_on:
+    - "020.23, the Herrings an English victory and the convoy's stores: the Journal; Ramsay ch. 26; Lowell ch. 7; Monstrelet book 2 ch. 56."
+    - "020.58, the convoy gathering at Blois under the marshals de Rais and de Boussac: Dunois (Murray, 12025-12031, 'the Sieurs de Rais and de Boussac, Marshals of France'); Lowell ch. 8, 4155."
+    - "020.43, her coming to Chinon in late February or early March: Lowell ch. 5 note; the Continuator of Nangis; Beaucourt book 2 ch. 5."
+  checked: "the 15 fixes of 020-section-reviewer-1 to 15 against git diff 014308f6: the-voices 3, salisbury-on-the-loire 9, vaucouleurs-again 2, eleven-days 3, chinon-and-poitiers 9 claims"

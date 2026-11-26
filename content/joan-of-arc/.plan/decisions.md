@@ -198,3 +198,10 @@
   reviewed (12 faults fixed) and rechecked (pass). No fault of `faults/010.yaml` is open.
 - cloud ruling: the second miniature offered for the Verneuil card is not taken — the card has its image, and no
   page of the plan asks for another.
+- facts 020 reviewed (section-reviewer): 15 changes to the texts; two faults left for others. The Blois marker
+  (020-section-reviewer-16) is added by the section coordinator, in the plan, the generator and the page. The keeper
+  closed the three gaps of 020-map-auditor-3.
+- cloud ruling: the cells "First named in" of `names.md` and the two rows that `names-check` trips on are settled once,
+  after the last section has its texts, by the names agent (story-overseer-6; 020-section-reviewer-17 waits with it)
+  — the names were decided before any text, and each section written moves the cells again; a fix after each
+  section would be seven runs for one.

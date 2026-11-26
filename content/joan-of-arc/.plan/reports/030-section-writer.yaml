@@ -1,0 +1,26 @@
+- step: texts
+  task: write
+  status: faults
+  changed_files:
+    - content/joan-of-arc/pages/030-orleans/010-from-blois/text/en.md
+    - content/joan-of-arc/pages/030-orleans/020-the-army-of-blois/text/en.md
+    - content/joan-of-arc/pages/030-orleans/030-storming-saint-loup/text/en.md
+    - content/joan-of-arc/pages/030-orleans/040-the-augustins/text/en.md
+    - content/joan-of-arc/pages/030-orleans/050-the-tourelles/text/en.md
+    - content/joan-of-arc/pages/030-orleans/060-the-english-march-away/text/en.md
+    - content/joan-of-arc/.plan/names.md
+    - content/joan-of-arc/.plan/faults/030.yaml
+    - content/joan-of-arc/.plan/fixes/030.yaml
+    - content/joan-of-arc/.plan/handoff/section-writer.md
+  faults: [030-section-writer-1]
+  unresolved: []
+  stale: [content/joan-of-arc/.plan/names-030.md]
+  notes: >-
+    Six texts written; harita check, --places, rules-lint and close-wording pass. names-check leaves eight
+    "First named in" mismatches in names.md rows (Anatole France, Champion, Château-Renard, Louis de Coutes,
+    Montargis, Olivet, the Beauce, the Chronique de la Pucelle), all first named in 030 texts while their rows give
+    010, 020 or 050; the same kind stands for 020, owner names. Every body runs 302-336 words, over the soft 300:
+    each page carries five to ten claims that must name their author, and the disputed ones are already in notes.
+    No fact the plan needed was missing from its files. Left out for length: Monstrelet's sword at the Augustins,
+    the Bourgeois hearing of the entry, vespers at Sainte-Croix, the white dove of the chronicle of the feast. Images
+    with "on: marker" or "on: card" stand on their markers and the card, not in the texts.

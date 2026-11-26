@@ -1,4 +1,4 @@
-No one fights on Thursday 5 May, the feast of the Ascension.\* A council decides to attack the Tourelles and the English works on the south bank, so that the city can again be fed from Berry. Her confessor Jean Pasquerel says she sent the English a last summons tied to an arrow.
+No one fights on Thursday 5 May, the feast of the Ascension.\* A council resolves to clear the south bank instead, taking the Tourelles and the forts around them, so that food can reach the city from Berry once more. Her confessor Jean Pasquerel says she sent the English a last summons tied to an arrow.
 
 On Friday 6 May about 4,000 men, the figure of the Journal of the Siege, cross the Loire in boats from near the Tour Neuve, the tower at the east end of the walls. They come to an island, which Ramsay calls [the Île Saint-Aignan](@ile-saint-aignan); its site is lost. From it, as Joan's squire Jean d'Aulon tells it, they cross the narrow southern arm on a bridge of two boats.\*\* William Glasdale, captain of the Tourelles, empties and burns [the bastille of Saint-Jean-le-Blanc](@saint-jean-le-blanc) and draws his men back to [the Augustins](@augustins), a fort in a ruined convent near the bridge.
 
@@ -16,4 +16,4 @@ The map shows the crossing by the island, Glasdale's men falling back and the fo
 
 \*\*\* D'Aulon has her stay before the fort all night with the lords and their men.
 
-\*\*\*\* The Chronique and Ramsay have its garrison set fire to the fort and cross to Saint-Laurent. The chronicle of the feast has English try to cross there in two or three boats, and many drown; Lowell reads this as Talbot sending men to the south bank.
+\*\*\*\* The Chronique and Ramsay have its garrison set fire to the fort and cross to Saint-Laurent. The chronicle of the feast has English try to cross there in two or three boats, and many drown; Lowell reads this as Lord Talbot sending English to the south bank.

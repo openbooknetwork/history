@@ -213,3 +213,10 @@
 - wave 010 020: done, 26 Nov 2026, at the sections' `build`. 11 pages.
 - ledger after `wave 010 020`: | **total** | 68 | 2,073 | 406,216 | 4,225 | 14,835,876 | 356,562,728 | 2,995,705 | 69,183,868 |
 - maps 030 and 040 drawn (cartographers): 6 pages each, from `.plans/pages030.mjs` and `pages040.mjs`; every route and every fort of Orléans is a reconstruction; no fault for the map keeper. The Loire at Orléans is drawn by hand, as the keeper's is.
+- maps 030 audited (map-auditor): pass; 7 faults, all fixed by the auditor: the thin Saint-Laurent claim taken off a
+  marker, the "bridge of boats" of the Île Charlemagne, the card's English strength, a frame the legend covered.
+- unresolved, maps 030: the siege zone round Orléans and the bridgehead of Jargeau are the keeper's estimates; every
+  fort's site is a reconstruction; the three western bastilles stand some 400 m apart.
+- cloud ruling: they stand as reconstructions, and the section's text calls the forts' places approximate once. The
+  captures of the Orléans pages showed no base map, so the river side of each fort was checked by coordinates and
+  not seen: this goes into the pull request as a thing for the reader to look at first.

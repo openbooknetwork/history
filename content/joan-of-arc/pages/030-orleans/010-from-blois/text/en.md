@@ -1,10 +1,10 @@
-On 27 or 28 April 1429 the convoy for besieged Orléans sets out from [Blois](@blois), its priests walking ahead and singing hymns.\* The marshals Gilles de Rais and de Boussac lead the escort, with the admiral de Culant, La Hire and Ambroise de Loré. Raoul de Gaucourt, governor of Orléans, brought Joan here.
+On 27 or 28 April 1429 the convoy for besieged Orléans sets out from [Blois](@blois), its priests walking ahead and singing hymns.\* The marshals Gilles de Rais and de Boussac lead the escort, with the admiral de Culant, La Hire and Ambroise de Loré. Joan rides with them, brought here by Raoul de Gaucourt, governor of Orléans.
 
-She wants to go straight through the Beauce, on the north bank, where the English are strongest. So the captains take the south bank through the Sologne, and do not tell her. On 28 April it passes Olivet, opposite the city.\*\* The Bastard of Orléans (later Count of Dunois), commanding in the city, crosses to meet her. In his account of 1456 she asks at once whether it was he who had her brought this way.
+She wants to go straight through the Beauce, on the north bank, where the English are strongest. So the captains take the south bank through the Sologne, and do not tell her. On 28 April the convoy passes Olivet, opposite the city.\*\* The Bastard of Orléans (later Count of Dunois), commanding in the city, crosses to meet her. In his account of 1456 she asks at once whether it was he who had her brought this way.
 
 The supplies go by water: boats from the city are loaded upstream, before [Chécy](@checy), at the Île-aux-Bourdons, says the Orléans chronicle of the feast of 8 May.\*\*\* The contrary wind turns, and the laden boats sail down past the English bastilles while the garrison skirmishes before the English fort of Saint-Loup.
 
-Joan crosses with about 200 lances, the figure of Simon Beaucroix, a squire of her company, and of Ramsay. The rest of the escort goes back to cross at Blois, with her confessor Jean Pasquerel and her banner. The Journal of the Siege, a chronicle of the city, has her company lie a night at Chécy.\*\*\*\*
+Joan crosses the river with about 200 lances, the figure of Simon Beaucroix, a squire of her company, and of Ramsay. The rest of the escort goes back to cross at Blois, with her confessor Jean Pasquerel and her banner. The Journal of the Siege, a chronicle of the city, has her company lie a night at Chécy.\*\*\*\*
 
 @image orleans-entry-miniature
 

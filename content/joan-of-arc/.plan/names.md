@@ -728,4 +728,4 @@ old name without it, as the sources and the histories do, and "Today" gives the 
 - Terms: the Dauphin (a title, with a capital); men-at-arms; lances, as the sources count them; archers; bastille;
   boulevard; the Holy Ampulla; the trial of 1431 (the trial of condemnation) and the retrial of 1455–1456 (the
   trial of nullification), "the retrial" in a text; abjuration and relapse; bailli; livres tournois; the prayers
-  the Paternoster, the Ave Maria and the Credo; the Epiphany (6 January); the church of Saint-Remy at Domrémy.
+  the Paternoster, the Ave Maria and the Credo; the Epiphany (6 January); the Ascension (Thursday 5 May 1429); the church of Saint-Remy at Domrémy.

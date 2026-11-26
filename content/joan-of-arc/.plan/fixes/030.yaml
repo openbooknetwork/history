@@ -378,3 +378,80 @@
   old: '- { name: meung-castle, shows: "the castle of Meung above the Loire", "on": marker meung-may-1429 }'
   new: ''
   commit: 58ca455d
+- fault: 030-map-auditor-1
+  by: map-auditor
+  file: content/joan-of-arc/.plans/pages030.mjs
+  field: the-army-of-blois, markers, bastille-saint-laurent, note
+  old: "The largest English work, outside the west gate, where the chief captains lay; its garrison stays in as the army from Blois passes on 4 May"
+  new: "The largest English work, outside the west gate, where the chief captains and most of the English strength lay"
+  commit: 7eacdca0
+- fault: 030-map-auditor-1
+  by: map-auditor
+  file: content/joan-of-arc/pages/030-orleans/020-the-army-of-blois/markers.yaml
+  field: bastille-saint-laurent.note, written by the generator
+  old: "The largest English work, outside the west gate, where the chief captains lay; its garrison stays in as the army from Blois passes on 4 May"
+  new: "The largest English work, outside the west gate, where the chief captains and most of the English strength lay"
+  commit: 7eacdca0
+- fault: 030-map-auditor-2
+  by: map-auditor
+  file: content/joan-of-arc/.plan/030-orleans/map.yaml
+  field: the-army-of-blois.markers.bastille-saint-laurent.what
+  old: "most of the English strength lay; its garrison does not come out as the army passes on 4 May; about 47.900 N"
+  new: "most of the English strength lay; about 47.900 N"
+  commit: 7eacdca0
+- fault: 030-map-auditor-3
+  by: map-auditor
+  file: content/joan-of-arc/.plans/pages030.mjs
+  field: the-army-of-blois, markers, ile-charlemagne, note
+  old: "An English outpost on an island below the city, with a bridge of boats to Saint-Privé on the south bank"
+  new: "An English outpost on an island just below the city, with a bridge; Saint-Privé guards the ferry from it"
+  commit: 7eacdca0
+- fault: 030-map-auditor-3
+  by: map-auditor
+  file: content/joan-of-arc/pages/030-orleans/020-the-army-of-blois/markers.yaml
+  field: ile-charlemagne.note, written by the generator
+  old: "An English outpost on an island below the city, with a bridge of boats to Saint-Privé on the south bank"
+  new: "An English outpost on an island just below the city, with a bridge; Saint-Privé guards the ferry from it"
+  commit: 7eacdca0
+- fault: 030-map-auditor-4
+  by: map-auditor
+  file: content/joan-of-arc/.plan/030-orleans/map.yaml
+  field: the-army-of-blois.markers.ile-charlemagne.what
+  old: "with a bridge of boats, between Saint-Laurent and Saint-Privé on the south bank;"
+  new: "with a bridge (Ramsay), between Saint-Laurent and Saint-Privé on the south bank, which guarded the ferry from it (Lang);"
+  commit: 7eacdca0
+- fault: 030-map-auditor-5
+  by: map-auditor
+  file: content/joan-of-arc/shared/battles/orleans-1429/battle.yaml
+  field: sides, English, strength
+  old: "The Chronique de la Pucelle: 10,000 when the siege was laid in December 1428;"
+  new: "The Chronique de la Pucelle: 10,000 under the captains sent after Salisbury's death, who closed the Beauce side in December 1428;"
+  commit: 7eacdca0
+- fault: 030-map-auditor-6
+  by: map-auditor
+  file: content/joan-of-arc/.plans/pages030.mjs
+  field: from-blois, bbox
+  old: "[1.25, 47.5, 2.15, 48.05]"
+  new: "[1.25, 47.25, 2.15, 48.05]"
+  commit: 7eacdca0
+- fault: 030-map-auditor-6
+  by: map-auditor
+  file: content/joan-of-arc/pages/030-orleans/010-from-blois/page.yaml
+  field: bbox, written by the generator
+  old: "[1.25, 47.5, 2.15, 48.05]"
+  new: "[1.25, 47.25, 2.15, 48.05]"
+  commit: 7eacdca0
+- fault: 030-map-auditor-7
+  by: map-auditor
+  file: content/joan-of-arc/.plan/030-orleans/map.yaml
+  field: from-blois.bbox
+  old: "[1.25, 47.5, 2.15, 48.05]"
+  new: "[1.25, 47.25, 2.15, 48.05]"
+  commit: 7eacdca0
+- fault: 030-section-writer-1
+  by: section-writer
+  file: content/joan-of-arc/.plan/names.md
+  field: Rules, Transliteration and spelling, Terms
+  old: "the Epiphany (6 January);"
+  new: "the Epiphany (6 January); the Ascension (Thursday 5 May 1429);"
+  commit: 89559afc

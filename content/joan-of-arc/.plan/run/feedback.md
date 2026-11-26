@@ -96,3 +96,18 @@ research coordinator found them by their size and commented the lines out of `re
 
 **Proposed change.** `harita sources` knows the challenge page by its markers, or by a text far shorter than the
 page's size, and prints `FAILED`, so the address goes to the "Unread" part of the source map as the notes say.
+
+## 8. A capture of a close-in page shows no base map in a cloud session
+
+**What happens.** The map auditor of 030 reported that its captures of the pages of Orléans show no base map: no
+river, no relief. The terrain tiles (`s3.amazonaws.com/elevation-tiles-prod`) answer `curl` through the session's
+proxy, which re-signs TLS with its own CA. `scripts/screenshot.mjs` starts Chrome with no proxy flag and no trust
+for that CA, so the browser's own tile requests may fail. The cause is not tested. Wide pages show the engine's
+own land and rivers, so the audits of 010 and 020 met nothing of it.
+
+**What it costs.** On the city pages (Orléans, Paris, Rouen) a marker's side of the river and a route on the water
+are checked from coordinates and never seen. The reader's first look is the first look.
+
+**Proposed change.** `screenshot.mjs` passes the session's proxy to Chrome and trusts its CA where `HTTPS_PROXY`
+is set, and prints each failed request, so a capture without its base map says so in the run and not only to the
+eye.

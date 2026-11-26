@@ -527,3 +527,125 @@
   introduced: plan
   owner: section-coordinator
   state: fixed
+- id: 030-map-auditor-1
+  severity: wrong
+  file: content/joan-of-arc/.plans/pages030.mjs
+  field: the-army-of-blois, markers, bastille-saint-laurent, note
+  replaces: clause
+  old: "where the chief captains lay; its garrison stays in as the army from Blois passes on 4 May"
+  new: "where the chief captains and most of the English strength lay"
+  source: >-
+    research.md, "Thin": "030.35 Only Wikipedia sets the march of 4 May past the bastille of Saint-Laurent"; rules.md: "No text
+    and no card gives a claim that research.md lists under Thin: ... Saint-Laurent as the fort passed on 4 May 1429"; the
+    Chronique de la Pucelle, ch. 46 (030.4): "la bastide Sainct-Laurens, où furent tous les plus grands chefs de guerre et le
+    plus de la puissance"
+  capture: /tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/maps-030-map-auditor/pack/shots/the-army-of-blois.png (the note is on hover)
+  kind: map
+  claim: "030.35"
+  introduced: plan
+  owner: cartographer
+  state: fixed
+- id: 030-map-auditor-2
+  severity: wrong
+  file: content/joan-of-arc/.plan/030-orleans/map.yaml
+  field: the-army-of-blois.markers.bastille-saint-laurent.what
+  replaces: clause
+  old: "most of the English strength lay; its garrison does not come out as the army passes on 4 May; about 47.900 N"
+  new: "most of the English strength lay; about 47.900 N"
+  source: the same lines as 030-map-auditor-1
+  kind: plan
+  claim: "030.35"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 030-map-auditor-3
+  severity: weak
+  file: content/joan-of-arc/.plans/pages030.mjs
+  field: the-army-of-blois, markers, ile-charlemagne, note
+  replaces: value
+  old: "An English outpost on an island below the city, with a bridge of boats to Saint-Privé on the south bank"
+  new: "An English outpost on an island just below the city, with a bridge; Saint-Privé guards the ferry from it"
+  source: >-
+    Ramsay, ch. 26 (passages-030.md, 030.2): "another outpost on the \" Isle de Charlemaigne,\" just below Orleans, and a bridge of
+    communication at the same point"; Lang, ch. 6 (030.6): "St. Prive, built on the opposite bank of the river to secure the
+    ferry from the isle Charlemagne". No source read calls it a bridge of boats: France's "bridge of boats" (ch. 13) is the
+    French one of 6 May
+  kind: map
+  claim: "030.6"
+  introduced: plan
+  owner: cartographer
+  state: fixed
+- id: 030-map-auditor-4
+  severity: weak
+  file: content/joan-of-arc/.plan/030-orleans/map.yaml
+  field: the-army-of-blois.markers.ile-charlemagne.what
+  replaces: clause
+  old: "with a bridge of boats, between Saint-Laurent and Saint-Privé on the south bank;"
+  new: "with a bridge (Ramsay), between Saint-Laurent and Saint-Privé on the south bank, which guarded the ferry from it (Lang);"
+  source: the same lines as 030-map-auditor-3
+  kind: plan
+  claim: "030.6"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 030-map-auditor-5
+  severity: wrong
+  file: content/joan-of-arc/shared/battles/orleans-1429/battle.yaml
+  field: sides, English, strength
+  replaces: clause
+  old: "The Chronique de la Pucelle: 10,000 when the siege was laid in December 1428;"
+  new: "The Chronique de la Pucelle: 10,000 under the captains sent after Salisbury's death, who closed the Beauce side in December 1428;"
+  source: >-
+    030-fact-checker-7 put this text in battles.yaml and the card kept the old one; the Chronique de la Pucelle, ch. 38-39
+    (030.37): Bedford's captains, "Et fut bien la puissance du siège nombrée de dix mille hommes", then "mettre le siège
+    devant Orléans du costé devers la Beausse" on 29 December; the siege began on 12 October 1428 (030.76), as
+    the-english-march-away tells
+  capture: /tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/maps-030-map-auditor/pack/shots/the-english-march-away.png
+  kind: battle
+  claim: "030.37"
+  introduced: fix
+  owner: section-coordinator
+  state: fixed
+- id: 030-map-auditor-6
+  severity: weak
+  file: content/joan-of-arc/.plans/pages030.mjs
+  field: from-blois, bbox
+  replaces: value
+  old: "[1.25, 47.5, 2.15, 48.05]"
+  new: "[1.25, 47.25, 2.15, 48.05]"
+  source: >-
+    the capture: at a laptop's size the legend covers the Blois marker and the start of convoy-1429-sologne, Blois standing
+    near the frame's south-west corner; with the frame taken 28 km further south Blois stands some 50 pixels above the
+    legend, and no zone joins the page (plan-check ok)
+  capture: >-
+    /tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/maps-030-map-auditor/pack/shots/from-blois.png
+    (before), /tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/maps-030-map-auditor/shots2/from-blois.png (after)
+  kind: map
+  introduced: plan
+  owner: cartographer
+  state: fixed
+- id: 030-map-auditor-7
+  severity: weak
+  file: content/joan-of-arc/.plan/030-orleans/map.yaml
+  field: from-blois.bbox
+  replaces: value
+  old: "[1.25, 47.5, 2.15, 48.05]"
+  new: "[1.25, 47.25, 2.15, 48.05]"
+  source: the same capture as 030-map-auditor-6
+  kind: plan
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 030-section-writer-1
+  severity: weak
+  file: content/joan-of-arc/.plan/names.md
+  field: Rules, Transliteration and spelling, Terms
+  replaces: clause
+  old: "the Epiphany (6 January);"
+  new: "the Epiphany (6 January); the Ascension (Thursday 5 May 1429);"
+  source: "node scripts/names-check.mjs joan-of-arc 030: \"Ascension\" has no row in names.md; the Journal du siège and the Chronique de la Pucelle, 5 May 1429 (\"le jour de l'Ascension\"), research 030.38, 030.46"
+  kind: plan
+  claim: "030.46"
+  introduced: names
+  owner: names
+  state: fixed

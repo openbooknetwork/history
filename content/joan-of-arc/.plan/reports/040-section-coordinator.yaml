@@ -22,3 +22,16 @@
     - "Where Patay was fought (040.39): the card stands at the village of Patay, as Cagny and Wavrin have it; the text gives Monstrelet's half league short and Ramsay's Coinces."
     - "The envoys' day at Reims (040.71): the text gives no day of its own, and Ramsay's 16 July and Lowell's end of the consecration each with its author."
   stale: []
+- step: plans
+  task: plan
+  pages: [patay]
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/040-the-loire-and-reims/pages.yaml
+    - content/joan-of-arc/.plan/040-the-loire-and-reims/battles.yaml
+  faults: []
+  unresolved:
+    - "Where Patay was fought (040.39, disputed): the card stays at the village of Patay, [1.695, 48.048], as Cagny and Wavrin have it, and that is the plan's best guess for the field, a reconstruction; each phase page gives Monstrelet's half league short of Patay, Ramsay's Coinces and France's Lignerolles wood in a note, as rules.md asks."
+  stale:
+    - content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml
+    - content/joan-of-arc/shared/battles/patay-1429/battle.yaml

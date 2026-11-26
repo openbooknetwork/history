@@ -212,3 +212,4 @@
   alone, which waits with story-overseer-6 for the names agent.
 - wave 010 020: done, 26 Nov 2026, at the sections' `build`. 11 pages.
 - ledger after `wave 010 020`: | **total** | 68 | 2,073 | 406,216 | 4,225 | 14,835,876 | 356,562,728 | 2,995,705 | 69,183,868 |
+- maps 030 and 040 drawn (cartographers): 6 pages each, from `.plans/pages030.mjs` and `pages040.mjs`; every route and every fort of Orléans is a reconstruction; no fault for the map keeper. The Loire at Orléans is drawn by hand, as the keeper's is.

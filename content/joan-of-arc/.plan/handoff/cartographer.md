@@ -27,3 +27,10 @@
   "Lord Scales" (write "Thomas, Lord Scales"), and "the bridge" / "the townsmen" in a note.
 - route-surface cannot judge a boat route on a river (030's boats-1429-checy): it reads as land and passes. Judge
   it on a capture.
+- Section 040 is `content/joan-of-arc/.plans/pages040.mjs`, built on 020's; it reads each page's `sources` from
+  `text.yaml` by text match, without js-yaml. Its points are the zone generator's `T` where it has the place
+  (Orléans [1.909, 47.902], Janville, Meung, Beaugency, Patay, Troyes, Reims cathedral). The places of the march to
+  Reims and back to Provins end there: Provins [3.30, 48.56] on 2 August 1429, for 050 to go on from.
+- names-check fails "Lord Talbot" in a note or a route name: write "John Talbot" (the row's name).
+- On meung-and-beaugency two english routes, Talbot's and the march of 17 June, run nearly the same way across the
+  Beauce: keep the march east of Talbot's line, or the two lie on each other on the green zone.

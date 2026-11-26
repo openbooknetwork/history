@@ -1,0 +1,24 @@
+- step: maps
+  task: draw
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plans/pages040.mjs
+    - content/joan-of-arc/pages/040-the-loire-and-reims/group.yaml
+    - content/joan-of-arc/pages/040-the-loire-and-reims/010-jargeau/
+    - content/joan-of-arc/pages/040-the-loire-and-reims/020-meung-and-beaugency/
+    - content/joan-of-arc/pages/040-the-loire-and-reims/030-patay/
+    - content/joan-of-arc/pages/040-the-loire-and-reims/040-auxerre-and-troyes/
+    - content/joan-of-arc/pages/040-the-loire-and-reims/050-reims/
+    - content/joan-of-arc/pages/040-the-loire-and-reims/060-the-towns-come-over/
+    - content/joan-of-arc/.plan/handoff/cartographer.md
+  faults: []
+  unresolved: []
+  stale: []
+  notes: >-
+    Six pages drawn by pages040.mjs, each page.yaml with its zones as map.yaml gives them, 13 routes, 24 markers
+    with the plan's ids and ranks, and the six marker images of text.yaml as placeholders. The audit pack passes
+    (names, rules, plan, card guard, build); route-surface has all 13 routes clean on land; zone-gaps ok. Plan-check's
+    one note: meung-bridge-1429 waits under beaugency-1429 by the plan's ranks, so the writer links it. Every route
+    is a reconstruction from the stations of map.yaml with no road given; the generator's comment over each says
+    what the line follows, and the hill of 17 June is a point about a league from Meung and Beaugency north of
+    their road, as the plan says. No zone fault for the map keeper: every zone of the plan exists and fits.

@@ -64,9 +64,10 @@ const pages = [
       // the three towns lie on the north bank, so the line follows the river down from Orléans
       'france-1429-beaugency': route("The French army takes Meung's bridge and comes before Beaugency, 15–16 June 1429", 'france',
         [P.orleans, [1.85, 47.888], [1.78, 47.858], P.meung, [1.665, 47.80], P.beaugency]),
-      // from Janville down the Beauce to the unplaced hill about a league from each town, and back east to Meung
+      // from Janville down the Beauce, east of Talbot's line so the two stand apart, to the unplaced hill about a league
+      // from each town, and back east to Meung
       'english-1429-meung': route('The English march towards Beaugency and turn back to Meung, 17 June 1429', 'english',
-        [P.janville, [1.77, 48.02], [1.67, 47.86], P.hill, P.meung]),
+        [P.janville, [1.84, 48.03], [1.76, 47.885], [1.70, 47.845], P.hill, P.meung]),
     },
     markers: {
       'meung-bridge-1429': { lnglat: P.meung, icon: 'shield', color: 'france', label: 'Meung', rank: 1,

@@ -18,3 +18,30 @@
     030-orleans/map.yaml#the-tourelles: 9f3fbfb5968ce778
     030-orleans/map.yaml#the-english-march-away: 65d06b4fd1c9fcef
     names.md#030: 25498005217eec26
+- task: fix
+  step: facts
+  at: '2026-11-26T14:37:05.517Z'
+  before: null
+  inputs:
+    rules.md: 7ac78d578764d5ae
+    brief.md#030: 41fc325d4c86536a
+    030-orleans/pages.yaml#from-blois: 51c574f35f5505ce
+    030-orleans/pages.yaml#the-army-of-blois: 94cfba9aedbae566
+    030-orleans/pages.yaml#storming-saint-loup: b242a09ffd671106
+    030-orleans/pages.yaml#the-augustins: 4de277483b53d4b0
+    030-orleans/pages.yaml#the-tourelles: e8b9239e1c7f3c9e
+    030-orleans/pages.yaml#the-english-march-away: 62a3979dbb90ec51
+    030-orleans/map.yaml#from-blois: ead95c5b5f9a294b
+    030-orleans/map.yaml#the-army-of-blois: d61968fa7e155a33
+    030-orleans/map.yaml#storming-saint-loup: 4aafef2ede00ba99
+    030-orleans/map.yaml#the-augustins: 8fdbf1bcd674a4a7
+    030-orleans/map.yaml#the-tourelles: 9f3fbfb5968ce778
+    030-orleans/map.yaml#the-english-march-away: 65d06b4fd1c9fcef
+    names.md#030: 450f4f29962b0327
+  ended: '2026-11-26T14:38:13.319Z'
+  status: pass
+  outputs:
+    - content/joan-of-arc/.plans/pages030.mjs
+    - content/joan-of-arc/pages/030-orleans/040-the-augustins/markers.yaml
+    - content/joan-of-arc/.plan/faults/030.yaml
+    - content/joan-of-arc/.plan/fixes/030.yaml

@@ -34,3 +34,5 @@
 - names-check fails "Lord Talbot" in a note or a route name: write "John Talbot" (the row's name).
 - On meung-and-beaugency two english routes, Talbot's and the march of 17 June, run nearly the same way across the
   Beauce: keep the march east of Talbot's line, or the two lie on each other on the green zone.
+- A marker's note follows its page's text: where the text gives a detail to one author (030's island crossing,
+  d'Aulon's), the note names that author too, or tells only what all agree on.

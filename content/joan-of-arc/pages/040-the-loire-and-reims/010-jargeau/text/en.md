@@ -4,7 +4,7 @@ By the town's accounts she is back in [Orléans](@orleans-june-1429) on 9 June. 
 
 Suffolk asks for a fortnight's delay, to yield if no help comes. The captains refuse. Joan told her judges in 1431 that she would have let the garrison go in their doublets with their lives. On Sunday 12 June the town is stormed after three or four hours. Alençon remembered in 1456 that Joan was on a ladder with her standard when a stone struck her head. She falls, gets up and urges the men on.
 
-Suffolk yields to a squire, Guillaume Regnault, after knighting him, says Jean Chartier, a chronicler of Charles VII. Of his brothers, one is captured and another, Alexander de la Pole, is killed. The town and its church are plundered. Prisoners are killed on the road to Orléans in a quarrel among the French: most of them by Chartier's account, some by Lowell's and Lang's.
+Suffolk yields to a squire, Guillaume Regnault, after knighting him, says Jean Chartier, a chronicler of Charles VII. His brother Alexander de la Pole is killed, and another brother is taken with him. The town and its church are plundered. Prisoners are killed on the road to Orléans in a quarrel among the French: most of them by Chartier's account, some by Lowell's and Lang's.
 
 The map shows the English hold on the Loire and the army's road to Jargeau. Here, as through this chapter, borders and roads are approximate.
 

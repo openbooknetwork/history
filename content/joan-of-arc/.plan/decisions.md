@@ -237,3 +237,9 @@
 - unresolved, facts 030 and 040: the disputed and open claims of both sections, each listed with how its text tells
   it in the two fact checkers' reports.
 - cloud ruling: each stands as its text tells it, with its authors or as not known.
+- maps, the keeper's fix for 040: two stages added, `english-may-1429` for `jargeau` and `english-june-1429` for
+  `meung-and-beaugency`, each with its france entry; the English edge of June runs some ten km from Orléans
+  (040-map-auditor-1, -2). 22 zones.
+- facts 030 and 040 reviewed (section-reviewers): 20 and 9 changes to the texts; open for the cartographers were
+  030-section-reviewer-21 (a marker's note, fixed since) and 040-section-reviewer-10 to -14 (places named and not
+  marked) with 040-map-auditor-3.

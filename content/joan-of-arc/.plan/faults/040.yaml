@@ -848,3 +848,16 @@
   introduced: maps
   owner: cartographer
   state: open
+- id: 040-fact-checker-37
+  severity: weak
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/010-jargeau/text/en.md
+  field: body
+  replaces: clause
+  old: "Of his brothers, one is captured and another, Alexander de la Pole, is killed."
+  new: "His brother Alexander de la Pole is killed, and another brother is taken with him."
+  source: "Ramsay ch. 27 (archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt), lines 24979-24981: \"The Earl of Suffolk and his brother John were taken ; a third brother, Alexander de la Pole, was killed\"; the fix of 040-section-reviewer-2 followed Ramsay's clauses in his order (close-wording.mjs, 75%). The facts stand: Chartier p. 65 \"y fut occis messire Alexandre de La Poulie, son aultre frère\", Cagny p. 13 \"Le conte de Suffort fut prins à prinsonnier, ung de ses frères\""
+  kind: wording
+  claim: "040.5"
+  introduced: fix
+  owner: section-reviewer
+  state: fixed

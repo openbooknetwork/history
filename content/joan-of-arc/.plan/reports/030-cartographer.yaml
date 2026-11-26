@@ -14,3 +14,14 @@
   faults: []
   unresolved: []
   stale: []
+- step: facts
+  task: fix
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plans/pages030.mjs
+    - content/joan-of-arc/pages/030-orleans/040-the-augustins/markers.yaml
+    - content/joan-of-arc/.plan/faults/030.yaml
+    - content/joan-of-arc/.plan/fixes/030.yaml
+  faults: []
+  unresolved: []
+  stale: []

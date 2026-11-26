@@ -129,7 +129,7 @@ const pages = [
     markers: {
       'ile-saint-aignan': { lnglat: P.ileSaintAignan, icon: 'map-pin', color: 'france', label: 'The Île Saint-Aignan', rank: 1,
         image: 'loire-at-orleans-islands',
-        note: 'The French land on this island facing Saint-Aignan on 6 May and cross the narrow arm on two boats' },
+        note: "The island facing Saint-Aignan where the French gather on 6 May 1429, crossing from it to the south bank on a bridge of two boats (d'Aulon)" },
       'saint-jean-le-blanc': { lnglat: P.saintJean, icon: 'castle', color: 'english', label: 'The bastille of Saint-Jean-le-Blanc', rank: 1,
         note: 'Glasdale empties and burns it as the French cross on 6 May 1429' },
       augustins: { lnglat: P.augustins, icon: 'castle', color: 'english', label: 'The Augustins', rank: 2,

@@ -50,13 +50,13 @@ meung-and-beaugency:
     meung-bridge-1429: { name: Meung, what: "the fortified bridge taken by the French on 15 June 1429 and garrisoned in its towers, while the English keep the town and castle; on 17 June the English come back and batter the bridge all night; about 47.83 N 1.70 E. In the france colour, for the bridge", basis: sourced, rank: 1 }
     beaugency-1429: { name: Beaugency, what: "the French enter the town on 16 June 1429 and besiege Gough and Gethin in the castle and on the bridge; in the night of 17 to 18 June the garrison yields on terms and marches off; about 47.78 N 1.63 E. In the france colour once yielded", basis: sourced, rank: 2 }
     janville-1429: { name: Janville, what: "where Fastolf's relief halts when Jargeau falls, Talbot joins it, and Fastolf counsels retreat and is overruled; about 48.20 N 1.88 E. In the english colour", basis: sourced }
+    orleans-15-june-1429: { name: Orléans, what: "the French army marches out of it for Meung and Beaugency on Wednesday 15 June 1429; about 47.90 N 1.91 E. In the france colour", basis: sourced }
+    paris-fastolf-1429: { name: Paris, what: "the start of Fastolf's relief, which leaves it early in June 1429 for Janville; about 48.86 N 2.35 E. In the english colour", basis: sourced }
   unmarked:
-    Paris: "the start of Fastolf's road, a station of fastolf-1429-janville; inside the english zone."
     Étampes: "where the Journal has the relief leave its supplies and artillery; a station of fastolf-1429-janville."
     the hill before Beaugency: "where the French stood on 17 June; no source read places it, and it would stand under Beaugency's icon."
     Évreux: "named for Gethin's office of bailli; outside the frame and the event."
     the Beauce: "the plain north of the Loire, inside the english zone; Janville is marked in it."
-    Orléans: "the start of the French road, a station of france-1429-beaugency; marked on jargeau."
     Jargeau: "named as the town whose fall halted Fastolf at Janville; marked on jargeau."
     Selles: "named as where Laval heard of Richemont's force; marked on jargeau."
 patay:
@@ -92,18 +92,18 @@ patay:
     janville-shut: { name: Janville, what: "the townsmen shut their gates on the English fugitives and give the town and its great tower to the king on 18 June 1429; about 48.20 N 1.88 E. In the france colour", basis: sourced }
     montpipeau-1429: { name: Montpipeau, what: "an English castle of the Beauce, burned and abandoned by its garrison after Patay; the castle site at Huisseau-sur-Mauves, about 47.89 N 1.70 E. In the france colour", basis: sourced, rank: 1 }
     saint-sigismond-1429: { name: Saint-Sigismond, what: "an English place of the Beauce, burned and abandoned after Patay; about 47.98 N 1.67 E. In the france colour", basis: sourced }
+    meung-18-june-1429: { name: Meung, what: "the English give it up on the morning of 18 June 1429 and march for Janville, the start of english-1429-patay; about 47.83 N 1.70 E. In the france colour", basis: sourced }
+    beaugency-18-june-1429: { name: Beaugency, what: "its garrison rides off on 18 June 1429 and the French ride after the English from it, the start of france-1429-patay; about 47.78 N 1.63 E. In the france colour", basis: sourced }
+    orleans-19-june-1429: { name: Orléans, what: "Joan and Alençon bring the prisoners back to it on Sunday 19 June 1429, the end of france-1429-orleans; about 47.90 N 1.91 E. In the france colour", basis: sourced }
+    etampes-1429: { name: Étampes, what: "Fastolf reaches it about midnight in his flight from Patay, 18 June 1429, and it stays English; about 48.43 N 2.16 E. In the english colour", basis: sourced }
+    corbeil-1429: { name: Corbeil, what: "where Fastolf saves himself after Patay, the end of fastolf-1429-flight; about 48.61 N 2.48 E. In the english colour", basis: sourced }
+    chartres-1429: { name: Chartres, what: "stays English after Patay; about 48.447 N 1.489 E. In the english colour", basis: sourced }
   unmarked:
     Coinces: "where Ramsay sets the fight, a few kilometres from Patay; the card stands at Patay, as Cagny and Wavrin have it, and the text gives Ramsay's site."
     the Lignerolles wood: "where Anatole France sets the fight; his Life is read only for where to look, and the card stands at Patay."
     Saint-Péravy: "named only with France's site; not marked."
-    Meung: "the start of the English road, a station of english-1429-patay; marked on meung-and-beaugency."
-    Beaugency: "the start of the French pursuit, a station of france-1429-patay; marked on meung-and-beaugency."
-    Étampes: "a station of Fastolf's flight; inside the english zone."
-    Corbeil: "the end of Fastolf's flight; inside the english zone."
-    Orléans: "where Joan and Alençon go back with the prisoners, the end of france-1429-orleans; marked on jargeau."
     Bonny: "Lowell's upper limit of the French Loire after Jargeau; outside the frame, and the zone shows the river clear."
     Paris: "named for the Beauce cleared almost to Paris; at the frame's edge, inside the english zone."
-    Chartres: "named as still English after Patay; inside the english zone, at the frame's west edge."
     the Loire: "the river is drawn on the base map; the zone shows it clear of the English about Orléans."
     the Beauce: "the plain north of the Loire, cleared of the English; Janville, Montpipeau and Saint-Sigismond are marked in it."
 auxerre-and-troyes:
@@ -127,16 +127,16 @@ auxerre-and-troyes:
     auxerre-truce: { name: Auxerre, what: "the Burgundian town that keeps its gates shut, sells food to the army under a truce and promises to do as Troyes, Châlons and Reims do; the king passes on after about three days; about 47.80 N 3.57 E. In the burgundy colour", basis: sourced }
     saint-florentin-1429: { name: Saint-Florentin, what: "submits to the king on the road to Troyes, early in July 1429; about 48.00 N 3.73 E. In the france colour", basis: sourced }
     troyes-1429: { name: Troyes, what: "refuses the summons and holds with 500 to 600 English and Burgundians (the Journal); yields on terms as the assault is readied, and the king enters on Sunday 10 July 1429; about 48.30 N 4.07 E. In the france colour", basis: sourced }
+    orleans-24-june-1429: { name: Orléans, what: "Joan and Alençon leave it with their company for Gien on Friday 24 June 1429, the start of france-1429-gien; about 47.90 N 1.91 E. In the france colour", basis: sourced }
   unmarked:
     La Charité: "named as the upper Loire some of the council would take first; outside the event of the page, and marked in 050."
     Normandy: "named as where the princes wished the king to go; outside the frame."
-    Orléans: "the start of Joan's road to Gien; marked on jargeau."
     Champagne: "a province, shown by the english zone, which counts its Anglo-Burgundian towns as English."
     Paris: "named as whence Friar Richard was driven; inside the english zone at the frame's edge."
     Châlons: "named in Auxerre's promise; outside the frame, marked on reims."
     Reims: "named as the king's goal and in Auxerre's promise; outside the frame, marked on reims."
 reims:
-  bbox: [3.6, 48.1, 4.8, 49.45]
+  bbox: [3.6, 48.05, 4.8, 49.45]
   zones: [france-reims-1429, english-reims-1429, burgundy-1420, brittany-1407]
   routes:
     - id: france-1429-reims
@@ -149,9 +149,9 @@ reims:
     chalons-1429: { name: Châlons, what: "its bishop and burgesses come out to the king and give him full obedience; he is received there on Thursday 14 July 1429 (Cagny); about 48.96 N 4.37 E. In the france colour", basis: sourced }
     sept-saulx-1429: { name: Sept-Saulx, what: "the archbishop's castle four leagues from Reims where the king lodges, and the burgesses of Reims bring him the keys, 16 July 1429; about 49.15 N 4.26 E. In the france colour", basis: sourced, rank: 1 }
     reims-cathedral: { name: Reims, what: "the king enters on Saturday 16 July 1429, and on Sunday 17 July he is anointed and crowned in the cathedral, Joan beside him with her standard; the cathedral, about 49.254 N 4.034 E. In the france colour", basis: sourced, rank: 2 }
+    troyes-july-1429: { name: Troyes, what: "the start of france-1429-reims: the king, who entered it on 10 July 1429, marches from it for Reims; about 48.30 N 4.07 E. In the france colour", basis: sourced }
   unmarked:
     the abbey of Saint-Remi: "whence the Holy Ampulla was brought; a few hundred metres from the cathedral, it would stand under its icon, and the text names it."
-    Troyes: "the start of the road, a station of france-1429-reims; marked on auxerre-and-troyes."
     Domrémy: "her father and Laxart came from it to Reims; outside the frame, marked in 010."
     Burgundy: "named for the duke Joan wrote to and his envoys; the burgundy zone shows the duke's land."
     Orléans: "named for the siege she said God wished her to raise, and for its bishop; marked on jargeau."
@@ -159,15 +159,15 @@ reims:
     Chartres: "named only in Regnault de Chartres's name; no place."
     Champagne: "a province, shown by the english zone with its southern and central part gone; the towns that opened are marked."
 the-towns-come-over:
-  bbox: [2.4, 48.4, 4.3, 49.7]
+  bbox: [2.4, 48.1, 4.3, 49.7]
   zones: [france-aug-1429, english-aug-1429, burgundy-1420, brittany-1407]
   routes:
     - id: france-1429-provins
       family: france
-      stations: [Reims, Corbeny, Vailly, Soissons, Château-Thierry, Provins]
+      stations: [Reims, Corbeny, Vailly, Soissons, Château-Thierry, Montmirail, Provins]
       passage: "Cagny, Quicherat 4, pp. 20-21, lines 1210-1255; the Journal of the Siege, Quicherat 4, p. 187, lines 7655-7715; Lowell, Joan of Arc, ch. 12, lines 7195-7210"
       basis: reconstruction
-      why: "Cagny has the king leave Reims on Thursday 21 July for Saint-Marcoul, enter Soissons on 23 July and reach Provins on 2 August; the Journal names Vailly; Cagny, with the day supplied by Quicherat, and Lang have him at Château-Thierry from 29 July to 1 August, and Lowell has two days there (040.75 to 040.80). The places are given and the roads are not."
+      why: "Cagny has the king leave Reims on Thursday 21 July for Saint-Marcoul, enter Soissons on 23 July and reach Provins on 2 August; the Journal names Vailly; Cagny, with the day supplied by Quicherat, and Lang have him at Château-Thierry from 29 July to 1 August, and Lowell has two days there (040.75 to 040.80); Cagny has him lie at Montmirail in Brie on 1 August (Quicherat 4, p. 20, lines 1240-1242). The places are given and the roads are not."
   markers:
     corbeny-1429: { name: Corbeny, what: "the shrine of Saint-Marcoul, where the king touches for the King's Evil after leaving Reims on 21 July 1429 and the keys of Laon are brought to him; about 49.46 N 3.82 E. In the france colour", basis: sourced, rank: 2 }
     laon-1429: { name: Laon, what: "submits to the king, sending its keys or its deputies to him at Corbeny, July 1429; about 49.56 N 3.62 E. In the france colour", basis: sourced, rank: 1 }
@@ -176,8 +176,9 @@ the-towns-come-over:
     crecy-1429: { name: Crécy, what: "declares for the king in the weeks after the coronation (Beaucourt); about 48.86 N 2.91 E. In the france colour", basis: sourced, rank: 1 }
     coulommiers-1429: { name: Coulommiers, what: "declares for the king in the weeks after the coronation (Ramsay, Beaucourt); about 48.81 N 3.08 E. In the france colour", basis: sourced, rank: 2 }
     provins-1429: { name: Provins, what: "the king reaches it on Tuesday 2 August 1429 and stays to Friday 5 August (Cagny); about 48.56 N 3.30 E. In the france colour", basis: sourced }
+    vailly-1429: { name: Vailly, what: "a station of the road, where the king passes on 22 July 1429 (the Journal); about 49.41 N 3.52 E. In the france colour", basis: sourced }
+    sens-1429: { name: Sens, what: "named in Bedford's memorandum of December 1433, as Lang dates it, among the cities lost after Orléans; no source read gives when it came over; about 48.20 N 3.28 E. In the english colour", basis: sourced }
   unmarked:
-    Vailly: "a station of the road, where the king was on 22 July; it changes nothing on the map."
     Paris: "Bedford's city, where Cardinal Beaufort's reinforcement entered on 25 July (Ramsay); inside the english zone, and marked in 050."
     Domrémy: "a village exempted from taxes; outside the frame, told at Château-Thierry's marker, and marked in 010."
     Greux: "a village exempted from taxes; outside the frame, told at Château-Thierry's marker."
@@ -185,7 +186,6 @@ the-towns-come-over:
     Reims: "the start of the road, a station of france-1429-provins; marked on reims."
     the Marne: "the river is drawn on the base map; Château-Thierry on it is marked."
     Burgundy: "named for the duke spared while the two treated; the burgundy zone shows his land."
-    Sens: "named only in Bedford's list of the cities lost, with no date; no source read gives when it came over, so it is not marked."
     Senlis: "named in Bedford's list; it came over in August, on a page of 050."
     Lagny: "named in Bedford's list; it came over in August, on a page of 050."
     Creil: "named in Bedford's list; it came over in August, on a page of 050."

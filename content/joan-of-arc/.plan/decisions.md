@@ -297,3 +297,11 @@
 - maps 070 drawn (cartographer): 6 pages from `.plans/pages070.mjs`, 20 markers, 6 routes, all reconstructions. Every
   page of the story is drawn.
 - ledger after `wave 050 060`: | **total** | 110 | 3,154 | 537,858 | 6,410 | 22,342,419 | 537,927,079 | 4,236,128 | 102,907,782 |
+- maps 070 audited (map-auditor): 8 faults, 7 fixed by the auditor, among them the plan of `paris-opens`, which now
+  rests on 070.59 to 070.66 for the towns that changed hands between 1431 and 1436; 070-map-auditor-7 is open for
+  the writer, the sentence that tells it. texts 070 written (section-writer).
+- unresolved, maps 070: Étampes French on `paris-opens`; Maine English in 1436 and French by 1449 with no source for
+  its loss; Burgundy without Hainaut, Brabant or Luxembourg; the estimated edges of 1436, 1449 and 1452.
+- cloud ruling: Étampes stays as ruled at the shared map, in no English circle. The change in Maine is told in one
+  clause of `normandy-won-back` with no date and no cause (070-overseer-1). Hainaut, Brabant and Luxembourg lie
+  outside the kingdom and stay undrawn. The estimated edges stand as reconstructions.

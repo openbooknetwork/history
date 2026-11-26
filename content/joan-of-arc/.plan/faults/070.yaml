@@ -303,3 +303,15 @@
   introduced: "maps"
   owner: "brief"
   state: "fixed"
+- id: 070-overseer-1
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md
+  field: body, the paragraph that says what the map shows
+  new: "one clause that tells the reader the map's change in Maine since the page before: Maine, English on the map of 1436, is the king's on this one, all but Fresnay (070.16); the clause gives no date and no cause, since no source read tells how Maine was lost"
+  source: "reports/070-map-auditor.yaml: Maine is English on paris-opens and French except Fresnay on normandy-won-back, and no page says so; 070.16 has Fresnay still English"
+  kind: map
+  claim: "070.16"
+  introduced: plan
+  owner: section-writer
+  state: open
+  ruling: "cloud ruling: the map's change is told and its cause is not guessed"

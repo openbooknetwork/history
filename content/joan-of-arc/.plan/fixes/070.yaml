@@ -47,3 +47,10 @@
   old: "single (Quicherat 5); that the play of 1435 was the Mistère du siège rests on Wikipedia (Hamblin) alone. \"que ilz firent certain mistère\" (archive.org-download-ProcesDeCondamnationV5-ProcesDeCondamnationV5-djvu.txt.txt, Quicherat 5, city accounts of Orléans, 1435, p. 309, primary)"
   new: "single (Quicherat 5, for the payment and for the play's length, author and manuscript); that the play of 1435 was the Mistère du siège rests on Wikipedia (Hamblin) alone. \"que ilz firent certain mistère\" (archive.org-download-ProcesDeCondamnationV5-ProcesDeCondamnationV5-djvu.txt.txt, Quicherat 5, city accounts of Orléans, 1435, p. 309, primary) \"est conservé à la Bibliothèque du Vatican parmi les manuscrits de la reine de Suède\" (archive.org-download-ProcesDeCondamnationV5-ProcesDeCondamnationV5-djvu.txt.txt, Quicherat 5, Le Mystère du siège d'Orléans, p. 79, primary)"
   commit: 15c15fb0
+- fault: 070-map-architect-1
+  by: map-architect
+  file: content/joan-of-arc/.plan/070-after-her/pages.yaml
+  field: "afterwards.markers"
+  old: "[orleans-8-may, rome-1920]"
+  new: "[orleans-8-may]"
+  commit: 15b6425c

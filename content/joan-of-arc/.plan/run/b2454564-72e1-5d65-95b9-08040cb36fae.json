@@ -30,7 +30,7 @@
    "parent": "-",
    "model": "claude-fable-5-2",
    "start": "2026-11-26T08:58:19.988Z",
-   "end": "2026-11-26T10:13:04.450Z",
+   "end": "2026-11-26T10:21:54.030Z",
    "description": ""
   },
   {
@@ -140,6 +140,15 @@
    "start": "2026-11-26T10:02:18.895Z",
    "end": "2026-11-26T10:12:54.082Z",
    "description": "names all names decide"
+  },
+  {
+   "agent": "a78b7a55f2884a914",
+   "role": "map-architect",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T10:13:16.995Z",
+   "end": "2026-11-26T10:21:45.981Z",
+   "description": "map-design all map-architect design"
   },
   {
    "agent": "a78d07315a5dd89d9",
@@ -285,12 +294,12 @@
    "model": "claude-fable-5-2",
    "step": "-",
    "section": "-",
-   "turns": 76,
-   "peak": 226310,
-   "input": 188,
-   "cacheWrite": 167475,
-   "cacheRead": 12584244,
-   "output": 30120
+   "turns": 80,
+   "peak": 230911,
+   "input": 199,
+   "cacheWrite": 172054,
+   "cacheRead": 13496461,
+   "output": 31110
   },
   {
    "agent": "a06933273e65ce690",
@@ -459,6 +468,20 @@
    "cacheWrite": 246429,
    "cacheRead": 2902399,
    "output": 71510
+  },
+  {
+   "agent": "a78b7a55f2884a914",
+   "role": "map-architect",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "map-design",
+   "section": "-",
+   "turns": 20,
+   "peak": 196259,
+   "input": 40,
+   "cacheWrite": 190378,
+   "cacheRead": 2306357,
+   "output": 49686
   },
   {
    "agent": "a78d07315a5dd89d9",
@@ -1296,6 +1319,31 @@
      "claim": null,
      "evidence": "names.md, People: \"Charles VII ... his name in every text after it [30 October 1422], before and after Reims\"; \"the Bastard of Orléans ... this name until he is made Count of Dunois in 1439\"; writing/README.md rule 11, a person takes the name of the time",
      "action": "beat the army of Charles VII at Cravant / break his field army",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "a78b7a55f2884a914",
+   "role": "map-architect",
+   "step": "map-design",
+   "section": "-",
+   "status": "pass",
+   "changed": 5,
+   "unresolved": 3,
+   "faults": [
+    {
+     "id": "070-map-architect-1",
+     "severity": "wrong",
+     "kind": "map",
+     "introduced": "pre-plan",
+     "firstCheck": "pre-plan-check",
+     "leak": true,
+     "owner": "section-coordinator",
+     "file": "content/joan-of-arc/.plan/070-after-her/pages.yaml",
+     "claim": null,
+     "evidence": "decisions.md, cloud ruling of the pre-plans: the canonisation is told in the text alone, with no marker at Rome, unless the map architect's extent already holds Rome. The extent of story.yaml, [-5.5, 42, 8.5, 51.5], ends at 8.5 degrees east, and Rome stands at 12.5.",
+     "action": "[orleans-8-may]",
      "state": "fixed"
     }
    ]
@@ -4409,6 +4457,17 @@
    "kind": "sources",
    "severity": "weak",
    "owner": "researcher",
+   "steppedIn": false
+  },
+  {
+   "fault": "070-map-architect-1",
+   "by": "map-architect",
+   "file": "content/joan-of-arc/.plan/070-after-her/pages.yaml",
+   "field": "afterwards.markers",
+   "commit": "15b6425c",
+   "kind": "map",
+   "severity": "wrong",
+   "owner": "section-coordinator",
    "steppedIn": false
   },
   {

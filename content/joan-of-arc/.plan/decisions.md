@@ -82,3 +82,12 @@
 - step names: done, 26 Nov 2026. `names.md`; four plan faults fixed by the names agent (the Porte de Bourgogne taken
   out of 030, the names of the time in 010, 020 and 030).
 - ledger after `names`: | **total** | 28 | 947 | 375,922 | 1,929 | 6,139,069 | 159,321,423 | 1,270,252 | 29,959,168 |
+- unresolved, map-design (map-architect): who held Domrémy; Champagne of 1420 to 1429 drawn english though Lang
+  calls it Anglo-Burgundian; Maine english to 1449 and Le Crotoy left out after 1435, both reconstructions.
+- cloud ruling: the architect's three answers stand — the Three Fountains brook divides Domrémy and the text gives
+  both accounts with their authors, Champagne is drawn english and told as Anglo-Burgundian, and each zone is a
+  reconstruction that its chapter's text calls approximate once, as `agents/evidence.md` asks.
+- step map-design: done, 26 Nov 2026. The brief's "Map" part and the families of `story.yaml`: english, burgundy,
+  brittany, lorraine, bar, france, scots, joan; 19 zones, all reconstructions; no shared zone; Rome outside the
+  extent, so its marker is gone from `afterwards` (070-map-architect-1).
+- ledger after `map-design`: | **total** | 29 | 971 | 375,922 | 1,980 | 6,334,026 | 162,539,997 | 1,320,928 | 30,778,152 |

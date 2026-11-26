@@ -467,3 +467,621 @@
   introduced: maps
   owner: map-auditor
   state: fixed
+- id: 050-fact-checker-11
+  severity: wrong
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/010-montepilloy/text/en.md
+  field: body
+  replaces: clause
+  old: On the night before the crossing, writes Jean Chartier, the king's chronicler, the townsmen of Bray let in a company
+    of English and Burgundians.\*
+  new: On the night before the crossing, writes Jean Chartier, the king's chronicler, English troops come into Bray, though
+    its townsmen have promised the passage.\*
+  source: 'archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt, Jean Chartier, p. 79: "Et lui
+    fut promis passaige et obéissance en laditte ville par les habitans; mais en la nuit dont il devoit passer le lendemain
+    matin, y arriva certaine quantité d''Anglois". It is the Journal du siège, p. 188, that has "ceulx de Bray ... mirent
+    en leur ville grant compaignie d''Anglois et Bourguignons"; the text gave the Journal''s account under Chartier''s name.'
+  kind: attribution
+  claim: '050.1'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 050-fact-checker-12
+  severity: wrong
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/010-montepilloy/text/en.md
+  field: notes
+  replaces: clause
+  old: \* The Journal of the Siege, a chronicle of Orléans, tells it the same way, and Lowell and Ramsay follow the two.
+  new: \* The Journal of the Siege, a chronicle of Orléans, has the townsmen themselves let in a company of English and Burgundians,
+    and Lowell and Ramsay follow the two.
+  source: 'archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt, the Journal du siège, p. 188:
+    "Mais ceulx de Bray ... mirent en leur ville grant compaignie d''Anglois et Bourguignons, le soir devant qu''il y devoit
+    passer"; Chartier, p. 79, has only "y arriva certaine quantité d''Anglois". The two do not tell it the same way. Goes
+    with 050-fact-checker-11.'
+  kind: attribution
+  claim: '050.1'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 050-fact-checker-13
+  severity: weak
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/010-montepilloy/text/en.md
+  field: body
+  replaces: clause
+  old: On 28 August, at Compiègne, the king's envoys sign a truce with Philip the Good, Duke of Burgundy.
+  new: On 28 August, at Compiègne, a truce with Philip the Good, Duke of Burgundy, is signed.
+  source: 'archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, ch. 12, p. 170: "The negotiations were resumed
+    at Compiegne ... a general truce, which was signed on August 28" (Philip had agreed "to send envoys to Charles at Compiegne");
+    archive.org-rt-histoire-de-charles-vii-v-2-Beaucourt-20Histoire-20de-20Charles-20VII-20v-202-djvu.txt.txt, ch. 6, p. 236:
+    "trève pendant quatre mois fût signé à Compiègne le 28 août". No source read says the king''s envoys signed it; the king
+    himself was at Compiègne and the envoys who came there were the duke''s.'
+  kind: fact
+  claim: '050.10'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 050-fact-checker-14
+  severity: weak
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/010-montepilloy/text/en.md
+  field: notes
+  replaces: clause
+  old: and Lowell and Ramsay make the French the stronger.
+  new: and Lowell and Ramsay make the French the more numerous.
+  source: 'archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, ch. 12, p. 167: "Although the French were more
+    numerous than the English"; Ramsay ch. 27, p. 403: "against superior numbers". Both speak of numbers, and Lang, p. 195,
+    gives Bedford the stronger position.'
+  kind: fact
+  claim: '050.5'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 050-fact-checker-15
+  severity: weak
+  file: content/joan-of-arc/.plan/050-paris-and-compiegne/pages.yaml
+  field: montepilloy.tells
+  replaces: clause
+  old: near Senlis on 14 and 15 August (Lowell's date) and part
+  new: near Senlis on 14 and 15 August and part
+  source: 'research/050.md, 050.3, agreed: "Le dimenche, xiiij jour du mois d''aoust" and "Le lundy xv jour" (archive.org-download-chroniquesdeperc00cagnuoft-chroniquesdeperc00cagnuoft-djvu.txt.txt,
+    1429, pp. 161-162), with Monstrelet, Lowell, Ramsay, Lang and Beaucourt; the dispatch note: 050.3 is agreed, Cagny giving
+    the day, and the ruling that told it as Lowell''s date is withdrawn. An agreed day is told plainly.'
+  kind: attribution
+  claim: '050.3'
+  introduced: ruling
+  owner: section-coordinator
+  state: fixed
+- id: 050-fact-checker-16
+  severity: weak
+  file: content/joan-of-arc/.plans/pages050.mjs
+  field: pages[montepilloy].markers[montepilloy].note (and so pages/050-paris-and-compiegne/010-montepilloy/markers.yaml)
+  replaces: clause
+  old: on 14 and 15 August 1429 (Lowell's date); there are skirmishes
+  new: on 14 and 15 August 1429; there are skirmishes
+  source: 'as 050-fact-checker-15: 050.3 is agreed, Cagny giving the day (archive.org-download-chroniquesdeperc00cagnuoft-chroniquesdeperc00cagnuoft-djvu.txt.txt,
+    1429, pp. 161-162). The same line is changed in markers.yaml so the page shows it without a rerun.'
+  kind: attribution
+  claim: '050.3'
+  introduced: ruling
+  owner: cartographer
+  state: fixed
+- id: 050-fact-checker-17
+  severity: weak
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/020-paris/text/en.md
+  field: notes
+  replaces: clause
+  old: has "the dukes of Alençon and Bourbon" lie in wait there.
+  new: has the Dukes of Alençon and Bourbon lie in wait there.
+  source: 'archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt, the Journal du siège, p. 198:
+    "les ducs d''Alençon et de Bourbon s''embuschèrent derrière la montaigne". The quotation marks gave a translation as the
+    Journal''s own words; a quote is copied as the file has it (rules.md).'
+  kind: attribution
+  claim: '050.16'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 050-fact-checker-18
+  severity: weak
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/020-paris/text/en.md
+  field: notes
+  replaces: clause
+  old: the Bourgeois of Paris, who watched from inside the walls,
+  new: the Bourgeois of Paris, who was inside the walls,
+  source: 'archive.org-download-journaldunbourge54182gut-54182-0.txt.txt, § 519, and research/050.md, 050.26: "the Bourgeois
+    tells it from within the walls". No file says he watched the assault.'
+  kind: fact
+  claim: '050.19'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 050-fact-checker-19
+  severity: wrong
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/text/en.md
+  field: body
+  replaces: clause
+  old: Joan told her judges that Saint Catherine had not bidden her go, and it was too cold.
+  new: Joan told her judges that she had an assault made there.
+  source: 'sourcebooks.web.fordham.edu-basis-joanofarc-trial.asp.txt, the examination of 3 March 1431: "Then Jeanne was asked
+    what she did in the trenches of La Charité, and she answered that she had an assault made". The words the text used belong
+    to another answer, about Catherine of La Rochelle: "Asked if she spoke to Catherine of going to La Charité-sur-Loire,
+    she answered that the said Catherine did not advise her to go, and it was too cold, and she would not go. She told Catherine,
+    who wished to go to the Duke of Burgundy ...". The Catherine is the woman of La Rochelle, not the saint of her voices.'
+  kind: fact
+  claim: '050.39'
+  introduced: plan
+  owner: section-reviewer
+  state: fixed
+- id: 050-fact-checker-20
+  severity: wrong
+  file: content/joan-of-arc/.plan/050-paris-and-compiegne/text.yaml
+  field: pages.saint-pierre-and-la-charite.account
+  replaces: clause
+  old: at her trial she said she had an assault made there, and that Saint Catherine had not bidden her go and it was too
+    cold.
+  new: at her trial she said she had an assault made there.
+  source: 'as 050-fact-checker-19: sourcebooks.web.fordham.edu-basis-joanofarc-trial.asp.txt, the examination of 3 March 1431,
+    where "the said Catherine" is Catherine of La Rochelle.'
+  kind: plan
+  claim: '050.39'
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 050-fact-checker-21
+  severity: weak
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/text/en.md
+  field: body
+  replaces: clause
+  old: Her squire Jean d'Aulon alone told of it.
+  new: Only her squire Jean d'Aulon told how it was taken.
+  source: 'archive.org-download-maidoffrancebein00languoft-maidoffrancebein00languoft-djvu.txt.txt, ch. 18, p. 216: "We know
+    about the Maid''s brilliant success at St. Pierre le Moustier only from the evidence of d''Aulon"; research/050.md, 050.36:
+    single (d''Aulon) for the course. The letters to Riom and Thierry, whom the page itself cites, also tell of the taking;
+    only its course is d''Aulon''s alone.'
+  kind: fact
+  claim: '050.36'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 050-fact-checker-22
+  severity: weak
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/text/en.md
+  field: body
+  replaces: clause
+  old: No source gives the day;
+  new: The day is not known;
+  source: 'research/050.md, 050.40, open: "no source read gives it"; agents/evidence.md: an open claim is told as not known.
+    The text said no source at all gives it, which is surer than the digest.'
+  kind: fact
+  claim: '050.40'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 050-fact-checker-23
+  severity: weak
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/text/en.md
+  field: notes
+  replaces: clause
+  old: Lang dates the start of the siege on or soon after 25 October.
+  new: Lang thinks the siege began on or soon after 25 October.
+  source: 'archive.org-download-maidoffrancebein00languoft-maidoffrancebein00languoft-djvu.txt.txt, ch. 18, p. 216: "The siege
+    of St. Pierre le Moustier seems to have begun on or shortly after October 25." The text dropped "seems".'
+  kind: fact
+  claim: '050.35'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 050-fact-checker-24
+  severity: weak
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/text/en.md
+  field: notes
+  replaces: clause
+  old: Bourges was taxed 1,300 crowns for the siege on 24 November.
+  new: Bourges was asked for 1,300 crowns for the siege on 24 November.
+  source: 'archive.org-download-maidoffrancebein00languoft-maidoffrancebein00languoft-djvu.txt.txt, ch. 18, p. 218: "On November
+    24 ... the people of Bourges were asked for 1300 gold crowns"; archive.org-download-ProcesDeCondamnationV5-ProcesDeCondamnationV5-djvu.txt.txt,
+    p. 356: the town is to find "la somme de treize cens escuz d''or" and burgesses who would lend it. No tax is laid in the
+    files.'
+  kind: fact
+  claim: '050.39'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 050-fact-checker-25
+  severity: wrong
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/050-melun-and-lagny/text/en.md
+  field: body
+  replaces: clause
+  old: without the king's leave, as if riding out for pleasure. Only her small household goes with her, says Perceval de Cagny,
+    a chronicler of Alençon's household.
+  new: without the king's leave, as if riding out for pleasure, says Perceval de Cagny, a chronicler of Alençon's household.
+    Lowell has her ride north with her little household of soldiers.
+  source: 'archive.org-download-chroniquesdeperc00cagnuoft-chroniquesdeperc00cagnuoft-djvu.txt.txt, 1430, p. 173: "sans le
+    sceu du roy, ne prendre congé de lui, elle fist semblant d''aler en aucun esbat, et, sans retourner, s''en ala à la ville
+    de Laingni" (no word of her household); archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, ch. 15, p.
+    200: "She rode northward with her little military household". The household was Lowell''s and was told as Cagny''s.'
+  kind: attribution
+  claim: '050.44'
+  introduced: research
+  owner: section-reviewer
+  state: fixed
+- id: 050-fact-checker-26
+  severity: weak
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/050-melun-and-lagny/text/en.md
+  field: body
+  replaces: clause
+  old: He was tried for a fortnight before the bailli of Senlis and a jury of Lagny men, confessed to murder, theft and treason,
+    and was beheaded.
+  new: He was tried, she said, for a fortnight before the bailli of Senlis and a jury of Lagny men, and confessed to murder,
+    theft and treason; he was beheaded.
+  source: 'sourcebooks.web.fordham.edu-basis-joanofarc-trial.asp.txt, the examination of 14 March 1431: "since he had confessed
+    himself a murderer, a thief, and a traitor. She said his trial lasted a fortnight; and he had for judges the Bailly de
+    Senlis and a jury of the people of Lagny"; research/050.md, 050.51: single (her answer) for the trial; text.yaml disputes:
+    told as her answer. The sentence told it plainly.'
+  kind: attribution
+  claim: '050.51'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 050-fact-checker-27
+  severity: weak
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/060-compiegne/text/en.md
+  field: body
+  replaces: clause
+  old: shuts its gates on Joan and the Archbishop of Reims.\*
+  new: shuts its gates on the army of Joan and the Archbishop of Reims.\*
+  source: 'archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, ch. 16, p. 213: "refused to admit the army ...
+    he was induced to admit the archbishop, Joan, and Vendome with a very small escort, but the army had to sleep in the fields";
+    archive.org-download-maidoffrancebein00languoft-maidoffrancebein00languoft-djvu.txt.txt, ch. 20, p. 236: "refused to allow
+    the army to enter".'
+  kind: fact
+  claim: '050.54'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 050-fact-checker-28
+  severity: wrong
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/060-compiegne/text/en.md
+  field: body
+  replaces: clause
+  old: Neither the chronicles nor the older histories accuse Flavy of treason, though the question is still debated.\*\*\*\*\*
+  new: Cagny and the historians Champion and Ramsay see no treason in it, but Beaucourt calls the question still much disputed.\*\*\*\*\*
+  source: 'archive.org-rt-histoire-de-charles-vii-v-2-Beaucourt-20Histoire-20de-20Charles-20VII-20v-202-djvu.txt.txt, ch.
+    1, p. 37 n. 5 (OCR as the file has it): "C''est un point qui à été et qui reste encore Lrès controversé que celui de
+    savoir si Jeanne d''Arc fut trahie devant Compiègne. L''hstuire, après avoir longtemps admis La frahison, l''avait jetés
+    dans ce derniers Umps. Récemment, on a paru revenir à l''ame cienue tradition". The older histories did accuse him; the no-treason view is that
+    of Cagny (Moranvillé''s note, p. 175), Champion and Ramsay (ch. 28, p. 417 n.), and Beaucourt, a scholarly source, carries
+    the debate that the text gave on the Wikipedia article alone.'
+  kind: fact
+  claim: '050.62'
+  introduced: research
+  owner: section-reviewer
+  state: fixed
+- id: 050-fact-checker-29
+  severity: wrong
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/060-compiegne/text/en.md
+  field: notes
+  replaces: clause
+  old: \*\*\*\*\* So the Wikipedia article on the siege of Compiègne reports. Cagny, Champion and Ramsay find no treason in
+    the shutting of the gate.
+  new: \*\*\*\*\* Beaucourt, writing in 1882, finds that historians long accepted the charge, then dropped it, and lately
+    seemed to take it up again.
+  source: 'as 050-fact-checker-28: archive.org-rt-histoire-de-charles-vii-v-2-Beaucourt-20Histoire-20de-20Charles-20VII-20v-202-djvu.txt.txt,
+    ch. 1, p. 37 n. 5. The names of Cagny, Champion and Ramsay moved into the body.'
+  kind: fact
+  claim: '050.62'
+  introduced: research
+  owner: section-reviewer
+  state: fixed
+- id: 050-fact-checker-30
+  severity: wrong
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/060-compiegne/text/en.md
+  field: notes
+  replaces: clause
+  old: Monstrelet and Chastellain, who were in the Burgundian camp, have the eve of the Ascension, 24 May,
+  new: Monstrelet, who was in the Burgundian camp, and Chastellain have the eve of the Ascension, 24 May,
+  source: 'archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt, Quicherat''s notice on Chastellain,
+    p. 440: "Son récit de la sortie de Compiègne est le même [que celui de Lefèvre], sauf quelques additions, empruntées la
+    plupart à Monstrelet ... ce qu''il pouvait savoir de particulier sur elle, ne concernait pas la dernière année de sa vie";
+    archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, ch. 16, p. 220 n.: "The latter''s [Chastellain''s]
+    account is evidently borrowed from that given by the former [Monstrelet]". Monstrelet alone says he was there ("although
+    I was present", book 2 ch. 86).'
+  kind: fact
+  claim: '050.58'
+  introduced: research
+  owner: section-reviewer
+  state: fixed
+- id: 050-fact-checker-31
+  severity: weak
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/060-compiegne/page.yaml
+  field: sources
+  replaces: clause
+  old: (no line for Beaucourt)
+  new: '  - "G. du Fresne de Beaucourt, Histoire de Charles VII, vol. 2 (1882), ch. 1 and 6."'
+  source: 'archive.org-rt-histoire-de-charles-vii-v-2-Beaucourt-20Histoire-20de-20Charles-20VII-20v-202-djvu.txt.txt, ch.
+    6, p. 240: "Compiègne (23 mai 1430)", for the day the text says Beaucourt follows, and ch. 1, p. 37 n. 5, for the question
+    of treason (050-fact-checker-28). The text names Beaucourt and the page did not list him.'
+  kind: sources
+  claim: '050.58'
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 050-fact-checker-32
+  severity: weak
+  file: content/joan-of-arc/.plan/research/050.md (and research.md)
+  field: Coverage; 050.69
+  replaces: clause
+  old: Compiègne has Monstrelet and Chastellain from the Burgundian camp, Cagny, | ; Monstrelet and Chastellain stood in the
+    Burgundian camp. agreed.
+  new: Compiègne has Monstrelet from the Burgundian camp, Chastellain (whose account Quicherat and Lowell find borrowed from
+    Lefèvre and Monstrelet), Cagny, | ; Monstrelet stood in the Burgundian camp, and Chastellain's account is borrowed from
+    Lefèvre's and Monstrelet's (Quicherat's notice; Lowell ch. 16, p. 220 n.). agreed.
+  source: 'as 050-fact-checker-30: Quicherat''s notice on Chastellain (archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt,
+    p. 440) and Lowell ch. 16, p. 220 n.'
+  kind: sources
+  claim: '050.69'
+  introduced: research
+  owner: researcher
+  state: fixed
+- id: 050-fact-checker-33
+  severity: weak
+  file: content/joan-of-arc/.plan/research/050.md (and research.md)
+  field: '050.62'
+  replaces: clause
+  old: and the Wikipedia article reports the question as one scholars still debate (DeVries). agreed.
+  new: and Beaucourt calls the question still much disputed, as the Wikipedia article reports it one scholars still debate
+    (DeVries). agreed. "C'est un point qui à été et qui reste encore Lrès controversé que celui de savoir si Jeanne d'Arc
+    fut trahie devant Compiègne" (archive.org-rt-histoire-de-charles-vii-v-2-Beaucourt-20Histoire-20de-20Charles-20VII-20v-202-djvu.txt.txt,
+    ch. 1, p. 37 n., scholarly)
+  source: 'as 050-fact-checker-28: archive.org-rt-histoire-de-charles-vii-v-2-Beaucourt-20Histoire-20de-20Charles-20VII-20v-202-djvu.txt.txt,
+    ch. 1, p. 37 n. 5. The line rested the debate on the Wikipedia article while a scholarly file read for the section carries
+    it.'
+  kind: sources
+  claim: '050.62'
+  introduced: research
+  owner: researcher
+  state: fixed
+- id: 050-section-reviewer-1
+  severity: weak
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/030-back-to-the-loire/text/en.md
+  field: body
+  replaces: clause
+  old: Before she leaves [Saint-Denis](@saint-denis-abbey), north of Paris, Joan offers
+  new: The attack on Paris has failed, and in September 1429 the king turns south. Before she leaves [Saint-Denis](@saint-denis-abbey), north of Paris, Joan offers
+  source: 'agents/text.md, "The reader can follow": each event has its when and its cause; research/050.md, 050.26 ("et ainssi faillit l''assault", Cagny) and 050.29 (the king leaves Saint-Denis for Gien, September 1429). The page opened on the offering with no date and no reason for leaving.'
+  kind: wording
+  claim: "050.29"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 050-section-reviewer-2
+  severity: weak
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/030-back-to-the-loire/text/en.md
+  field: body
+  replaces: clause
+  old: and Raoul de Gaucourt refuse.
+  new: and Raoul de Gaucourt, the three who govern the king, refuse.
+  source: 'research/050.md, 050.11: "le seigneur de la Trimoille, le sire de Gaucourt, qui lors gouvernoient le corps du roy et le fait de sa guerre" (Cagny, 1429, p. 171); agents/text.md: a person gets a few words on who they are where the page first names them. Gaucourt had none.'
+  kind: wording
+  claim: "050.11"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 050-section-reviewer-3
+  severity: weak
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/text/en.md
+  field: body
+  replaces: clause
+  old: in the house of Marguerite La Touroulde, a witness at the retrial.
+  new: in the house of Marguerite La Touroulde, as her hostess told the retrial in 1456.
+  source: 'rules.md, "The two trials are primary sources with a side": what a witness of 1456 said of 1429 is told as that witness''s account; research/050.md, 050.31: single (La Touroulde''s deposition); text.yaml disputes: "the stay at Bourges is told as La Touroulde''s deposition". The body told the stay plainly.'
+  kind: attribution
+  claim: "050.31"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 050-section-reviewer-4
+  severity: weak
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/text/en.md
+  field: body
+  replaces: clause
+  old: Only her squire Jean d'Aulon told how it was taken.
+  new: Only her squire Jean d'Aulon told how it was taken, at the retrial.
+  source: 'rules.md, "The two trials are primary sources with a side"; research/050.md, 050.36: single (d''Aulon''s deposition of 1456) for the course and her words. The body did not say when d''Aulon told it.'
+  kind: attribution
+  claim: "050.36"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 050-section-reviewer-5
+  severity: weak
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/020-paris/text/en.md
+  field: body
+  replaces: clause
+  old: the barrier and earthwork before it are burned and taken.
+  new: the barrier and the boulevard, the earthwork before it, are burned and taken.
+  source: 'names.md, Rules, Names of places: "the earthworks before a gate or a fort ''boulevards''"; research/050.md, 050.16: "the barrier and boulevard before the gate are fired and taken".'
+  kind: wording
+  claim: "050.16"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 050-section-reviewer-6
+  severity: weak
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/020-paris/text/en.md
+  field: body
+  replaces: clause
+  old: and the Baron of Montmorency rides out of Paris
+  new: and the Baron of Montmorency, who has always held for the other side, rides out of Paris
+  source: 'research/050.md, 050.23: "le baron de Mommorancy, qui tousjours avoit tenu le parti contraire du roy, vint de dedens la ville" (Cagny, 1429, p. 168); agents/text.md: a few words on who a person is. The body gave his coming without why it mattered.'
+  kind: wording
+  claim: "050.23"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 050-section-reviewer-7
+  severity: taste
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/020-paris/text/en.md
+  field: body
+  replaces: clause
+  old: The gates stand on the line of the old city wall; their places, like the army's road, are approximate.
+  new: The places of the gates on the old city wall, like the army's road, are approximate.
+  source: 'agents/text.md, "Short": the same fact in fewer words, to keep the body near 300 after 050-section-reviewer-5 and -6.'
+  kind: wording
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 050-section-reviewer-8
+  severity: taste
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/050-melun-and-lagny/text/en.md
+  field: body
+  replaces: clause
+  old: but never when.
+  new: but never said when.
+  source: 'research/050.md, 050.46: "tell her so nearly every day after, but not when". The clause dropped its verb and read clipped.'
+  kind: wording
+  claim: "050.46"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 050-section-reviewer-9
+  severity: taste
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/050-melun-and-lagny/text/en.md
+  field: body
+  replaces: clause
+  old: a Burgundian captain of raiders, back from a raid
+  new: a Burgundian captain of partisans, back from a raid
+  source: 'research/050.md, 050.52: "a captain of partisans of the Burgundian party"; names.md row Franquet d''Arras: "a Burgundian captain of partisans". The digest''s word, and no "raiders ... raid".'
+  kind: wording
+  claim: "050.52"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 050-section-reviewer-10
+  severity: weak
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/060-compiegne/text/en.md
+  field: body
+  replaces: clause
+  old: He razes it and bridges the river.
+  new: He razes it and bridges the Oise.
+  source: 'research/050.md, 050.53: "razes it and bridges the Oise to come at Compiègne". "The river" named no river where the page first spoke of one.'
+  kind: wording
+  claim: "050.53"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 050-section-reviewer-11
+  severity: taste
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/060-compiegne/text/en.md
+  field: body
+  replaces: clause
+  old: the duke at [Coudun](@coudun-1430), John of Luxembourg, a Burgundian captain, at [Clairoix](@clairoix-1430), Baudot de Noyelle at [Margny](@margny-1430), at the end of the causeway from the bridge, and the English
+  new: the duke at [Coudun](@coudun-1430); John of Luxembourg, a Burgundian captain, at [Clairoix](@clairoix-1430); Baudot de Noyelle at [Margny](@margny-1430), at the end of the causeway from the bridge; and the English
+  source: 'agents/text.md, "The reader can follow": a list of four posts whose items hold commas of their own is split by semicolons, so each post reads apart.'
+  kind: wording
+  claim: "050.55"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 050-section-reviewer-12
+  severity: taste
+  file: content/joan-of-arc/pages/050-paris-and-compiegne/060-compiegne/text/en.md
+  field: body
+  replaces: clause
+  old: and she gives her faith to the Bastard of Wandonne
+  new: and she surrenders and gives her word to the Bastard of Wandonne
+  source: 'research/050.md, 050.63: "to him she surrendered and pledged her faith" (Monstrelet, book 2 ch. 86). "Gives her faith" alone may read to a school leaver as a matter of religion.'
+  kind: wording
+  claim: "050.63"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 050-section-reviewer-13
+  severity: weak
+  file: content/joan-of-arc/.plans/pages050.mjs
+  field: pages[montepilloy].markers[bray-held-1429].note (and so pages/050-paris-and-compiegne/010-montepilloy/markers.yaml)
+  replaces: clause
+  old: but its townsmen let in English and Burgundian troops overnight
+  new: but English troops come in the night before (Chartier; the Journal of the Siege has its townsmen let in English and Burgundians)
+  source: 'as 050-fact-checker-11 and -12: Jean Chartier, Quicherat 4, p. 79, "y arriva certaine quantité d''Anglois", against the Journal du siège, p. 188, "mirent en leur ville grant compaignie d''Anglois et Bourguignons". The text now tells Chartier''s account with the Journal''s in a note; the note still tells the Journal''s plainly.'
+  kind: attribution
+  claim: "050.1"
+  introduced: plan
+  owner: cartographer
+  state: open
+- id: 050-section-reviewer-14
+  severity: weak
+  file: content/joan-of-arc/.plans/pages050.mjs
+  field: pages[saint-pierre-and-la-charite].markers[bourges-1429].note (and so pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/markers.yaml)
+  replaces: clause
+  old: Joan stays about three weeks in October 1429 in Marguerite La Touroulde's house
+  new: Joan stays about three weeks in October 1429 in Marguerite La Touroulde's house (her deposition of 1456)
+  source: 'as 050-section-reviewer-3: rules.md, "The two trials are primary sources with a side"; research/050.md, 050.31, single (La Touroulde''s deposition).'
+  kind: attribution
+  claim: "050.31"
+  introduced: plan
+  owner: cartographer
+  state: open
+- id: 050-section-reviewer-15
+  severity: weak
+  file: content/joan-of-arc/.plans/pages050.mjs
+  field: pages[saint-pierre-and-la-charite].markers[saint-pierre-le-moutier].note (and so pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/markers.yaml)
+  replaces: clause
+  old: Joan stops her soldiers pillaging its church
+  new: Joan stops her soldiers pillaging its church (Regnault Thierry, 1456)
+  source: 'rules.md, "The two trials are primary sources with a side"; research/050.md, 050.36: the pillage of the church rests on "testimony of Reginald Thierry, p. 246" (Murray) alone; text.yaml disputes: "the pillage of the church as Thierry''s". The text gives it as his; the note gives it plainly.'
+  kind: attribution
+  claim: "050.36"
+  introduced: plan
+  owner: cartographer
+  state: open
+- id: 050-section-reviewer-16
+  severity: weak
+  file: content/joan-of-arc/.plans/pages050.mjs
+  field: pages[saint-pierre-and-la-charite].markers[la-charite].note (and so pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/markers.yaml)
+  replaces: clause
+  old: an assault fails and its siege is raised
+  new: an assault is made, in which a baron of Dauphiné is killed, and its siege is raised
+  source: 'research/050.md, 050.39 as 050-research-reviewer-5 corrected it: "an assault is made, in which a baron of Dauphiné, Raymon de Montremur, is killed (the Berry herald)", replacing "an assault is beaten back"; the Berry herald, Quicherat 4, p. 49, "y morut à ung assault ung baron du pais du Daulphiné". The note keeps the old line, and the text follows the new.'
+  kind: fact
+  claim: "050.39"
+  introduced: plan
+  owner: cartographer
+  state: open
+- id: 050-section-reviewer-17
+  severity: weak
+  file: content/joan-of-arc/shared/battles/paris-1429/battle.yaml
+  field: sides[0].commanders (with battles.yaml paris-1429 commanders)
+  replaces: clause
+  old: '"Marshal de Boussac"'
+  new: '"Marshal de Boussac (Ramsay)"'
+  source: 'research/050.md, 050.16: Alençon covered the attack "with Bourbon, the Journal du siège; with Boussac, Ramsay"; text.yaml disputes: "who covered the attack with Alençon is given by author". The card lists Boussac plainly; the text gives him as Ramsay''s in a note.'
+  kind: battle
+  claim: "050.16"
+  introduced: plan
+  owner: section-coordinator
+  state: open
+- id: 050-overseer-1
+  severity: weak
+  file: content/joan-of-arc/.plan/research.md
+  field: 050.62, the quote of Beaucourt, in research.md and research/050.md
+  replaces: clause
+  old: "C'est un point qui à été et qui reste encore Lrès controvers"
+  new: "Cest un point qui à été et qui reste encore Lrès controvers"
+  source: "Beaucourt 2, line 1857 of the file, which has no apostrophe; quotes-check printed the quote as not in the file"
+  kind: check
+  claim: "050.62"
+  introduced: fix
+  owner: researcher
+  state: fixed
+- id: 050-overseer-2
+  severity: weak
+  file: content/joan-of-arc/.plan/research.md
+  field: 050.62, its standing, in research.md and research/050.md
+  replaces: clause
+  old: "agreed"
+  new: "disputed"
+  source: "Beaucourt 2, book 2 ch. 1, p. 37 n., line 1857: the question of Flavy's treason is 'encore tres controverse'; Cagny, Champion and Ramsay find none (reports/050-fact-checker.yaml)"
+  kind: fact
+  claim: "050.62"
+  introduced: research
+  owner: researcher
+  state: fixed
+  ruling: "cloud ruling: a claim whose own sources call it still disputed is disputed, and the text gives both sides, as it now does"

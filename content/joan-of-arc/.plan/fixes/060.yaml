@@ -399,3 +399,257 @@
   old: ""
   new: "| Jean de Pressy | a knight of Artois of the Anglo-Burgundian party, of Henry VI's Grand Council, who with others at Arras asked Joan to put on a woman's dress | 060 (060.67) | Messire Jean de Pressy; John of Pressy (Lowell); the Sieur de Pressy (Murray) |"
   commit: f10de002
+- fault: 060-fact-checker-9
+  by: fact-checker
+  file: content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md
+  field: body
+  old: On 14 July Pierre Cauchon, Bishop of Beauvais, arrives at the Burgundian camp before Compiègne.
+  new: Pierre Cauchon, Bishop of Beauvais, comes to the siege of Compiègne on 14 July.
+  commit: 6c6d72c8
+- fault: 060-fact-checker-10
+  by: fact-checker
+  file: content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md
+  field: body
+  old: and that everyone in Compiègne will be killed when the town falls.
+  new: and that the people of Compiègne, all of them down to the age of seven, will be put to fire and sword when the town
+    falls.
+  commit: 6c6d72c8
+- fault: 060-fact-checker-11
+  by: fact-checker
+  file: content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/page.yaml
+  field: sources
+  old: '  - "J. H. Ramsay, Lancaster and York, vol. 1 (1892), ch. 29."'
+  new: "  - \"J. H. Ramsay, Lancaster and York, vol. 1 (1892), ch. 29.\"\n  - \"Journal d'un bourgeois de Paris, 1405–1449,\
+    \ ed. A. Tuetey (1881).\""
+  commit: 6c6d72c8
+- fault: 060-fact-checker-12
+  by: fact-checker
+  file: content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md
+  field: body
+  old: for the price of Joan, "who is said to be a witch".
+  new: for the price of Joan, "said to be a witch".
+  commit: 6c6d72c8
+- fault: 060-fact-checker-13
+  by: fact-checker
+  file: content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md
+  field: body
+  old: There, or somewhere between it and Arras, as Lowell has it, the English take her and pay.
+  new: There, as Ramsay has it, or at Arras or somewhere between, as Lowell allows, the English take her and pay.
+  commit: 6c6d72c8
+- fault: 060-fact-checker-14
+  by: fact-checker
+  file: content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md
+  field: body
+  old: Haimond de Macy later said that at Le Crotoy she made her confession to another prisoner held there, Nicolas de Queuville,
+    chancellor of the church of Amiens.
+  new: By Haimond de Macy's later account, a fellow captive at Le Crotoy, Nicolas de Queuville, chancellor of the church of
+    Amiens, heard her confession, and she heard him say Mass.
+  commit: 6c6d72c8
+- fault: 060-fact-checker-15
+  by: fact-checker
+  file: content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/page.yaml
+  field: sources
+  old: '  - "J. H. Ramsay, Lancaster and York, vol. 1 (1892), ch. 23 and 29."'
+  new: "  - \"J. H. Ramsay, Lancaster and York, vol. 1 (1892), ch. 23 and 29.\"\n  - \"W. P. Barrett (tr.), The Trial of Jeanne\
+    \ d'Arc (1932), the opening of the record, with Pierre Champion's note on Jean de Luxembourg.\""
+  commit: 6c6d72c8
+- fault: 060-fact-checker-16
+  by: fact-checker
+  file: content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md
+  field: body
+  old: A church court tries her, yet she is kept in this secular prison with English soldiers in her cell, as Martin Ladvenu,
+    a Dominican of the court, testified in 1450.\*\*
+  new: A church court tries her, yet she is kept in this secular prison, as Martin Ladvenu, a Dominican of the court, testified
+    in 1450. Jean Massieu, the usher of the court, said that three English guards spent each night in her room.\*\*
+  commit: 6c6d72c8
+- fault: 060-fact-checker-17
+  by: fact-checker
+  file: content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md
+  field: Notes, **
+  old: Jean Massieu, the usher of the court, said in 1450 that at night her legs were chained
+  new: Massieu said in 1450 that at night her legs were chained
+  commit: 6c6d72c8
+- fault: 060-fact-checker-18
+  by: fact-checker
+  file: content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md
+  field: body
+  old: refuses on 20 February to sit, saying he lacks jurisdiction.
+  new: refuses on 20 February to sit without special authority, unsure that his commission covers the case.
+  commit: 6c6d72c8
+- fault: 060-fact-checker-19
+  by: fact-checker
+  file: content/joan-of-arc/pages/060-rouen/030-the-court/page.yaml
+  field: sources
+  old: '  - "F. C. Lowell, Joan of Arc (1896), ch. 19–20."'
+  new: "  - \"F. C. Lowell, Joan of Arc (1896), ch. 19–20.\"\n  - \"A. Lang, The Maid of France (1908), ch. 21.\"\n  - \"\
+    J. H. Ramsay, Lancaster and York, vol. 1 (1892), ch. 29.\"\n  - \"J. Quicherat (ed.), Procès de condamnation et de réhabilitation\
+    \ de Jeanne d'Arc, vol. 5 (1849), the king's order of 2 April 1431 for the Paris masters.\""
+  commit: 6c6d72c8
+- fault: 060-fact-checker-20
+  by: fact-checker
+  file: content/joan-of-arc/pages/060-rouen/040-the-questioning/text/en.md
+  field: body
+  old: Most of the questions turn on her voices.
+  new: The judges press her on her voices.
+  commit: 6c6d72c8
+- fault: 060-fact-checker-21
+  by: fact-checker
+  file: content/joan-of-arc/pages/060-rouen/040-the-questioning/page.yaml
+  field: sources
+  old: '  - "H. Thurston, ''St. Joan of Arc'', Catholic Encyclopedia, vol. 8 (1910)."'
+  new: "  - \"H. Thurston, 'St. Joan of Arc', Catholic Encyclopedia, vol. 8 (1910).\"\n  - \"A. Lang, The Maid of France (1908),\
+    \ ch. 23.\""
+  commit: 6c6d72c8
+- fault: 060-fact-checker-22
+  by: fact-checker
+  file: content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md
+  field: body
+  old: Two friars of the court, Martin Ladvenu and Isambart de La Pierre, testified in 1450 that after the abjuration she
+    told them she had been ill-treated and molested in prison, by an English lord among others, and that this was why she
+    wore the man's dress again.
+  new: Two friars of the court, Martin Ladvenu and Isambart de La Pierre, testified in 1450 that she blamed her prison. Ladvenu
+    said she told him she had been beaten and molested there and insulted by an English lord, and that this was why she wore
+    the man's dress again; Isambart heard her say before many that the English had done her "great wrong and violence" while
+    she wore the woman's dress.
+  commit: 6c6d72c8
+- fault: 060-fact-checker-23
+  by: fact-checker
+  file: content/joan-of-arc/.plan/research.md
+  field: '060.56'
+  old: she said she had been ill-treated and molested in prison, an English lord among them, and had taken the man's dress
+    again for that.
+  new: she said she had been ill-treated and molested in prison, and in Ladvenu that an English lord had insulted her, and
+    had taken the man's dress again for that.
+  commit: 6c6d72c8
+- fault: 060-fact-checker-24
+  by: fact-checker
+  file: content/joan-of-arc/.plan/research/060.md
+  field: '060.56'
+  old: she said she had been ill-treated and molested in prison, an English lord among them, and had taken the man's dress
+    again for that.
+  new: she said she had been ill-treated and molested in prison, and in Ladvenu that an English lord had insulted her, and
+    had taken the man's dress again for that.
+  commit: 6c6d72c8
+- fault: 060-fact-checker-25
+  by: fact-checker
+  file: content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md
+  field: body
+  old: Some of those present ask that she be taken to a church prison,
+  new: Some of those present, by Massieu's account, ask that she be taken to a church prison,
+  commit: 6c6d72c8
+- fault: 060-fact-checker-26
+  by: fact-checker
+  file: content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md
+  field: Notes, **
+  old: In Massieu's account, on Trinity Sunday her English guards took her woman's clothes from her and gave her back only
+    the man's. Thurston reports the charge, made later, of a trap laid by her jailers with Cauchon's connivance.
+  new: Massieu had it from her that on Trinity Sunday the English guards stripped away her woman's clothes and left her nothing
+    to wear but the man's. Thurston reports the charge, made later, that her jailers set a trap for her and that Cauchon was
+    party to it.
+  commit: 6c6d72c8
+- fault: 060-fact-checker-27
+  by: fact-checker
+  file: content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md
+  field: body
+  old: The bailli of Rouen, the king's judge, should now pass sentence, and he does not.
+  new: The bailli of Rouen, who stands for the secular power, should now pass sentence, and he does not.
+  commit: 6c6d72c8
+- fault: 060-fact-checker-28
+  by: fact-checker
+  file: content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md
+  field: body
+  old: One of the English there makes her a little one from the ends of a stick,
+  new: One of the English standing by fashions a small one for her out of a stick,
+  commit: 6c6d72c8
+- fault: 060-fact-checker-29
+  by: fact-checker
+  file: content/joan-of-arc/pages/060-rouen/060-the-old-market/page.yaml
+  field: sources
+  old: '  - "Journal d''un bourgeois de Paris, 1405–1449, ed. A. Tuetey (1881)."'
+  new: "  - \"Journal d'un bourgeois de Paris, 1405–1449, ed. A. Tuetey (1881).\"\n  - \"H. Thurston, 'St. Joan of Arc', Catholic\
+    \ Encyclopedia, vol. 8 (1910).\"\n  - \"A. Lang, The Maid of France (1908), ch. 26.\""
+  commit: 6c6d72c8
+- fault: 060-section-reviewer-1
+  by: section-reviewer
+  file: content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md
+  field: body
+  old: "John of Luxembourg and the Bastard to give her up to him for trial, and offers her captors up to 6,000 francs, or else 10,000."
+  new: "John of Luxembourg and the Bastard of Wandonne to give her up to him for trial, and offers her captors up to 6,000 francs, or else 10,000, the sum the king could pay for a captive king or prince."
+  commit: 6c6d72c8
+- fault: 060-section-reviewer-2
+  by: section-reviewer
+  file: content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md
+  field: body
+  old: "The women of the castle, his aunt the Demoiselle of Luxembourg and his wife the Lady of Beaurevoir, urge her ... Against her voices, which forbid it, she throws herself"
+  new: "His aunt the Demoiselle of Luxembourg and his wife the Lady of Beaurevoir urge her ... Against her voices she throws herself"
+  commit: 6c6d72c8
+- fault: 060-section-reviewer-3
+  by: section-reviewer
+  file: content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md
+  field: body
+  old: "Again she refuses the woman's dress that men of his company urge on her."
+  new: "There Jean de Pressy, a knight of Artois, and many others ask her to put on a woman's dress, and she will not."
+  commit: 6c6d72c8
+- fault: 060-section-reviewer-4
+  by: section-reviewer
+  file: content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md
+  field: body
+  old: "paragraph order: 1 the money and the sale; 2 Arras to Le Crotoy; image; 3 the University, 21 November; 4 Compiègne relieved; 5 Rouen; 6 the map"
+  new: "paragraph order: 1 the money and the sale; 4 Compiègne relieved; 2 Arras to Le Crotoy; image; 3 the University, 21 November; 5 Rouen; 6 the map (no paragraph's words changed)"
+  commit: 6c6d72c8
+- fault: 060-section-reviewer-5
+  by: section-reviewer
+  file: content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md
+  field: body
+  old: "Her road to Le Crotoy only joins the places, and the borders are approximate."
+  new: "Her road to Le Crotoy only joins the places."
+  commit: 6c6d72c8
+- fault: 060-section-reviewer-6
+  by: section-reviewer
+  file: content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md
+  field: body
+  old: "grants him territory."
+  new: "lets him hold his court in its diocese."
+  commit: 6c6d72c8
+- fault: 060-section-reviewer-7
+  by: section-reviewer
+  file: content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md
+  field: body
+  old: "and the vice-inquisitor is given twenty saluts d'or"
+  new: "and on 24 April Jean Le Maistre is given twenty saluts d'or"
+  commit: 6c6d72c8
+- fault: 060-section-reviewer-8
+  by: section-reviewer
+  file: content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md
+  field: body
+  old: "The borders on the map are approximate."
+  new: ""
+  commit: 6c6d72c8
+- fault: 060-section-reviewer-9
+  by: section-reviewer
+  file: content/joan-of-arc/pages/060-rouen/040-the-questioning/text/en.md
+  field: body
+  old: "Of the sign she gave the king,"
+  new: "Of the sign she gave Charles VII,"
+  commit: 6c6d72c8
+- fault: 060-section-reviewer-10
+  by: section-reviewer
+  file: content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md
+  field: body
+  old: "she hears Guillaume Erard, a doctor of theology, preach."
+  new: "she hears a sermon by Guillaume Erard."
+  commit: 6c6d72c8
+- fault: 060-section-reviewer-11
+  by: section-reviewer
+  file: content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md
+  field: body
+  old: "before any sentence of theirs, and he held that this was not right."
+  new: "before he or the bailli had given any sentence, and he held this to be wrong."
+  commit: 6c6d72c8
+- fault: 060-section-reviewer-12
+  by: section-reviewer
+  file: content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md
+  field: body
+  old: "On the map her road only joins the two places, since no source gives the streets."
+  new: ""
+  commit: 6c6d72c8

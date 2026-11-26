@@ -4,11 +4,11 @@ There, as she told her judges in March 1431, she slipped out "between two pieces
 
 @image beaurevoir-tower
 
-The women of the castle, his aunt the Demoiselle of Luxembourg and his wife the Lady of Beaurevoir, urge her to dress as a woman. She answers that she does not have God's leave, and that it is not yet time. In Lang, from her own words, the Demoiselle begs her nephew not to hand her to the English.
+His aunt the Demoiselle of Luxembourg and his wife the Lady of Beaurevoir urge her to dress as a woman. She answers that she does not have God's leave, and that it is not yet time. In Lang, from her own words, the Demoiselle begs her nephew not to hand her to the English.
 
-On 14 July Pierre Cauchon, Bishop of Beauvais, arrives at the Burgundian camp before Compiègne. In Henry VI's name and his own he summons the Duke of Burgundy, John of Luxembourg and the Bastard to give her up to him for trial, and offers her captors up to 6,000 francs, or else 10,000.
+Pierre Cauchon, Bishop of Beauvais, comes to the siege of Compiègne on 14 July. In Henry VI's name and his own he summons the Duke of Burgundy, John of Luxembourg and the Bastard of Wandonne to give her up to him for trial, and offers her captors up to 6,000 francs, or else 10,000, the sum the king could pay for a captive king or prince.
 
-Then she hears that she is sold, that the English are coming for her, and that everyone in Compiègne will be killed when the town falls. Against her voices, which forbid it, she throws herself from the tower, trusting to God and Our Lady. Ramsay and Lowell have her picked up senseless and unable to eat or drink for two or three days, while the Bourgeois of Paris heard she was not hurt at all. Lang guesses the tower at about sixty feet.
+Then she hears that she is sold, that the English are coming for her, and that the people of Compiègne, all of them down to the age of seven, will be put to fire and sword when the town falls. Against her voices she throws herself from the tower, trusting to God and Our Lady. Ramsay and Lowell have her picked up senseless and unable to eat or drink for two or three days, while the Bourgeois of Paris heard she was not hurt at all. Lang guesses the tower at about sixty feet.
 
 The borders on the map are approximate, and her road only joins the places.
 

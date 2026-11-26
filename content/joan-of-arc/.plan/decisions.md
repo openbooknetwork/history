@@ -266,3 +266,16 @@
   the burgundy zone 1.5 km from the town; the Rouen pages of 1431 on `english-sep-1429`.
 - cloud ruling: they stand as the auditors proposed — holds are markers in the holder's colour as the brief rules,
   the edges are reconstructions told as approximate, and Saint-Denis stays English, as it was before 25 August.
+- images 050 and 060 found (image-finders): 10 and 7 images, none left `none`. The Paris card takes Damblans's drawing of
+  1924 and not the Vigiles miniature, so that the chapter holds one miniature of that manuscript.
+- facts 050 and 060 checked (fact-checkers): 23 and 21 faults, all fixed: words about Catherine of La Rochelle told as
+  Saint Catherine's, the Journal's account of Bray given to Chartier, the guards in her cell given to the wrong
+  witness of 1456, and a lord's insult told as an assault.
+- cloud ruling: 050.62, Flavy at the gate of Compiègne, is `disputed` and no longer `agreed` (050-overseer-2) —
+  Beaucourt calls the question still much disputed, and the text gives both sides.
+- cloud ruling: the Paris card keeps the drawing of 1924, captioned as that — one manuscript's miniatures go in
+  different chapters, as `agents/images.md` asks.
+- facts 050 and 060 reviewed (section-reviewers): 12 changes each. Open: four marker notes of 050 for the cartographer
+  (050-section-reviewer-13 to -16) and Boussac on the Paris card for the section coordinator (-17); places named and
+  not marked on 060 for the cartographer (060-section-reviewer-13 to -17), with the date of `the-court`
+  (060-overseer-1).

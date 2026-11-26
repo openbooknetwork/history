@@ -1,0 +1,18 @@
+- step: images
+  task: find
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/images/050.yaml
+    - content/joan-of-arc/shared/images/montepilloy-castle-ruins-cc0fc5/
+    - content/joan-of-arc/shared/images/senlis-cathedral-abd174/
+    - content/joan-of-arc/shared/images/paris-assault-miniature-a0a16d/
+    - content/joan-of-arc/shared/images/paris-charles-v-wall-plan-4c7248/
+    - content/joan-of-arc/shared/images/saint-denis-basilica-04b381/
+    - content/joan-of-arc/shared/images/saint-pierre-le-moutier-church-c4ab4e/
+    - content/joan-of-arc/shared/images/la-charite-priory-0f0654/
+    - content/joan-of-arc/shared/images/melun-notre-dame-38fba4/
+    - content/joan-of-arc/shared/images/compiegne-capture-miniature-e76db4/
+    - content/joan-of-arc/shared/images/philip-the-good-portrait-02399b/
+  faults: []
+  unresolved: []
+  stale: []

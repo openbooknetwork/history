@@ -1,0 +1,21 @@
+- step: facts
+  task: review
+  status: faults
+  changed_files:
+    - content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md
+    - content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md
+    - content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md
+    - content/joan-of-arc/pages/060-rouen/040-the-questioning/text/en.md
+    - content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md
+    - content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md
+    - content/joan-of-arc/.plan/faults/060.yaml
+    - content/joan-of-arc/.plan/fixes/060.yaml
+  faults: [060-section-reviewer-1, 060-section-reviewer-2, 060-section-reviewer-3, 060-section-reviewer-4, 060-section-reviewer-5, 060-section-reviewer-6, 060-section-reviewer-7, 060-section-reviewer-8, 060-section-reviewer-9, 060-section-reviewer-10, 060-section-reviewer-11, 060-section-reviewer-12, 060-section-reviewer-13, 060-section-reviewer-14, 060-section-reviewer-15, 060-section-reviewer-16, 060-section-reviewer-17]
+  unresolved: []
+  stale: []
+  pages_changed: [beaulieu-and-beaurevoir, sold-to-the-english, the-court, the-questioning, saint-ouen, the-old-market]
+  declined: none. Every fault the fact checker wrote was already fixed, and none was open for me.
+  check_left: none. harita check, --places, rules-lint and names-check all pass, and every placeholder is waiting.
+  plan_changes: "the-court's date, January – February 1431, does not cover what its text tells: Le Maistre sits from 13 March, and the pay runs to 24 April."
+  open_for_cartographer: "060-section-reviewer-13 to 17: places the texts name that their maps do not mark (Compiègne, Noyon, Saint-Quentin, Paris, the Somme, the archbishop's chapel, the Old Market on saint-ouen, the church of Saint-Sauveur, the Seine)."
+  length: "Five bodies run between 300 and 350 words (337, 310, 321, 304, 334). Each holds two or three disputed accounts, each with its author, and the notes hold only the alternatives. the-old-market is now 297."

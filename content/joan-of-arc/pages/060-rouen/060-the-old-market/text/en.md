@@ -4,13 +4,11 @@ She is led through the streets to [the Old Market](@old-market-1431). Jean Massi
 
 @image vieux-marche-pyre
 
-The bailli of Rouen, the king's judge, should now pass sentence, and he does not. Laurent Guesdon, who stood in for him that day, said at the retrial that the executioner seized her the moment the church's sentence was read, before any sentence of theirs, and he held that this was not right.
+The bailli of Rouen, who stands for the secular power, should now pass sentence, and he does not. Laurent Guesdon, who stood in for him that day, said at the retrial that the executioner seized her the moment the church's sentence was read, before he or the bailli had given any sentence, and he held this to be wrong.
 
-She asks for a cross. One of the English there makes her a little one from the ends of a stick, and Massieu has the cross of the church brought for her to look at. In the fire she calls on Jesus to the end. The Bourgeois of Paris heard that once her dress had burned, the fire was drawn back so that the crowd could see her body, and that the executioner then burned it to ashes. Her ashes are thrown into the Seine.
+She asks for a cross. One of the English standing by fashions a small one for her out of a stick, and Massieu has the cross of the church brought for her to look at. In the fire she calls on Jesus to the end. The Bourgeois of Paris heard that once her dress had burned, the fire was drawn back so that the crowd could see her body, and that the executioner then burned it to ashes. Her ashes are thrown into the Seine.
 
 @image burning-at-rouen-miniature
-
-On the map her road only joins the two places, since no source gives the streets.
 
 ### Notes
 

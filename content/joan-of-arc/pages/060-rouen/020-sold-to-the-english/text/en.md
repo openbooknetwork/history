@@ -1,16 +1,16 @@
-While Joan is held at Beaurevoir, the English raise the money to buy her in Normandy. In August 1430 the Estates of Normandy, meeting at [Rouen](@rouen-1430), grant Henry VI 120,000 livres tournois, ten thousand of them for the price of Joan, "who is said to be a witch". In Lowell, Lang and Champion it is John of Luxembourg, the Burgundian lord who holds her, who sells her for that sum.\*
+While Joan is held at Beaurevoir, the English raise the money to buy her in Normandy. In August 1430 the Estates of Normandy, meeting at [Rouen](@rouen-1430), grant Henry VI 120,000 livres tournois, ten thousand of them for the price of Joan, "said to be a witch". In Lowell, Lang and Champion it is John of Luxembourg, the Burgundian lord who holds her, who sells her for that sum.\*
 
-In the latter part of October the Burgundians take her from [Beaurevoir](@beaurevoir-october-1430) to [Arras](@arras-1430), where the Duke of Burgundy seems to be holding his court. Again she refuses the woman's dress that men of his company urge on her. Lang has her spend a night at the castle of [Drugy](@drugy-1430) on the way to [Le Crotoy](@le-crotoy-1430), a fortress at the mouth of the Somme that has been English since 3 March 1424. There, or somewhere between it and Arras, as Lowell has it, the English take her and pay. A receipt of 6 December names the ten thousand livres tournois the king paid to have her, a "prisoner of war". Haimond de Macy later said that at Le Crotoy she made her confession to another prisoner held there, Nicolas de Queuville, chancellor of the church of Amiens.
+[Compiègne](@compiegne-relief-1430) holds out under Guillaume de Flavy, and on 25 and 26 October it is relieved. The besiegers leave their guns behind.
+
+In the latter part of October the Burgundians take her from [Beaurevoir](@beaurevoir-october-1430) to [Arras](@arras-1430), where the Duke of Burgundy seems to be holding his court. There Jean de Pressy, a knight of Artois, and many others ask her to put on a woman's dress, and she will not. Lang has her spend a night at the castle of [Drugy](@drugy-1430) on the way to [Le Crotoy](@le-crotoy-1430), a fortress at the mouth of the Somme that has been English since 3 March 1424. There, as Ramsay has it, or at Arras or somewhere between, as Lowell allows, the English take her and pay. A receipt of 6 December names the ten thousand livres tournois the king paid to have her, a "prisoner of war". By Haimond de Macy's later account, a fellow captive at Le Crotoy, Nicolas de Queuville, chancellor of the church of Amiens, heard her confession, and she heard him say Mass.
 
 @image le-crotoy-bay
 
 On 21 November the University of Paris writes to Henry VI and to Pierre Cauchon, Bishop of Beauvais. It complains of the delay and wants her tried in Paris.
 
-[Compiègne](@compiegne-relief-1430) holds out under Guillaume de Flavy, and on 25 and 26 October it is relieved. The besiegers leave their guns behind.
-
 She is brought to Rouen late in 1430\*\* and shut in a tower of the castle.
 
-Her road to Le Crotoy only joins the places, and the borders are approximate. No trusted source traces the road on to Rouen, so the map draws none.
+Her road to Le Crotoy only joins the places. No trusted source traces the road on to Rouen, so the map draws none.
 
 ### Notes
 

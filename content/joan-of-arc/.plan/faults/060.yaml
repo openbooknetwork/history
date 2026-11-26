@@ -648,3 +648,488 @@
   introduced: names
   owner: names
   state: fixed
+- id: 060-fact-checker-9
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md
+  field: body
+  replaces: clause
+  old: "On 14 July Pierre Cauchon, Bishop of Beauvais, arrives at the Burgundian camp before Compiègne."
+  new: "Pierre Cauchon, Bishop of Beauvais, comes to the siege of Compiègne on 14 July."
+  source: "Ramsay 1 ch. 29 (archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt): \"On the 14th July Pierre Cauchon, Bishop of Beauvais, a creature of the Anglo-Burgundian party, presented himself to the Duke in his camp at Compiègne.\" The sentence kept Ramsay's order of clauses (close-wording.mjs, 70%)"
+  kind: wording
+  claim: "060.11"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-10
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md
+  field: body
+  replaces: clause
+  old: "and that everyone in Compiègne will be killed when the town falls."
+  new: "and that the people of Compiègne, all of them down to the age of seven, will be put to fire and sword when the town falls."
+  source: "Barrett, 14 March 1431, in prison (sourcebooks.web.fordham.edu-basis-joanofarc-trial.asp.txt, line 2680): \"she had heard that the people of Compiègne all of them to the age of seven years, were to be put to fire and to the sword\"; Lowell ch. 18: \"all the dwellers in it, from seven years old and upwards\". \"Everyone\" dropped the age the sources give"
+  kind: fact
+  claim: "060.9"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-11
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/page.yaml
+  field: sources
+  replaces: clause
+  old: "  - \"J. H. Ramsay, Lancaster and York, vol. 1 (1892), ch. 29.\""
+  new: "  - \"J. H. Ramsay, Lancaster and York, vol. 1 (1892), ch. 29.\"\n  - \"Journal d'un bourgeois de Paris, 1405–1449, ed. A. Tuetey (1881).\""
+  source: "the text: \"while the Bourgeois of Paris heard she was not hurt at all\"; Bourgeois, 1431, item 576 (archive.org-download-journaldunbourge54182gut-54182-0.txt.txt): \"mais elle sailly d'une haulte tour en bas sans soy blecier aucunement\". The page named the work and did not list it"
+  kind: sources
+  claim: "060.8"
+  introduced: plan
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-12
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md
+  field: body
+  replaces: clause
+  old: "for the price of Joan, \"who is said to be a witch\"."
+  new: "for the price of Joan, \"said to be a witch\"."
+  source: "Lang ch. 21 (archive.org-download-maidoffrancebein00languoft-maidoffrancebein00languoft-djvu.txt.txt, lines 10827-10829): \"of which 10,000 were to be devoted to the purchase of \"Jehanne la Pucelle, said to be a witch\"; the levy (Quicherat 5, line 8899): \"que l'en dit estre sorcière\". A quote stands as the file has it"
+  kind: attribution
+  claim: "060.15"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-13
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md
+  field: body
+  replaces: clause
+  old: "There, or somewhere between it and Arras, as Lowell has it, the English take her and pay."
+  new: "There, as Ramsay has it, or at Arras or somewhere between, as Lowell allows, the English take her and pay."
+  source: "Lowell ch. 18 (archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, lines 10597-10599): \"Either at Arras or Le Crotoy, or at some place between the two, the English took their prisoner and paid their money.\"; Ramsay 1 ch. 29: \"to Arras, and from thence to Crotoy. There she was delivered into the hands of the English\". The text left out Lowell's Arras and gave Ramsay's Le Crotoy as Lowell's"
+  kind: attribution
+  claim: "060.16"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-14
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md
+  field: body
+  replaces: clause
+  old: "Haimond de Macy later said that at Le Crotoy she made her confession to another prisoner held there, Nicolas de Queuville, chancellor of the church of Amiens."
+  new: "By Haimond de Macy's later account, a fellow captive at Le Crotoy, Nicolas de Queuville, chancellor of the church of Amiens, heard her confession, and she heard him say Mass."
+  source: "Lang ch. 21 (lines 10842-10846): \"He says that at Crotoy she was a constant hearer of the Masses said by Nicolas de Queuville, Chancellor of the Church of Amiens, a loyal Frenchman and a prisoner, who heard Jeanne in confession\". The sentence followed Lang's order (close-wording.mjs, 56%); what is left in common is names and titles"
+  kind: wording
+  claim: "060.20"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-15
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/page.yaml
+  field: sources
+  replaces: clause
+  old: "  - \"J. H. Ramsay, Lancaster and York, vol. 1 (1892), ch. 23 and 29.\""
+  new: "  - \"J. H. Ramsay, Lancaster and York, vol. 1 (1892), ch. 23 and 29.\"\n  - \"W. P. Barrett (tr.), The Trial of Jeanne d'Arc (1932), the opening of the record, with Pierre Champion's note on Jean de Luxembourg.\""
+  source: "the text names Champion (\"In Lowell, Lang and Champion\") and \"The record of the trial has the Duke and John of Luxembourg together hand her over\"; both stand in sourcebooks.web.fordham.edu-basis-joanofarc-trial.asp.txt (Champion: \"sold her to the English for 10,000 livres\"; the record: \"the most illustrious lord Duke of Burgundy and the lord Jean de Luxembourg graciously consenting to these demands\")"
+  kind: sources
+  claim: "060.14"
+  introduced: plan
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-16
+  severity: wrong
+  file: content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md
+  field: body
+  replaces: clause
+  old: "A church court tries her, yet she is kept in this secular prison with English soldiers in her cell, as Martin Ladvenu, a Dominican of the court, testified in 1450.\\*\\*"
+  new: "A church court tries her, yet she is kept in this secular prison, as Martin Ladvenu, a Dominican of the court, testified in 1450. Jean Massieu, the usher of the court, said that three English guards spent each night in her room.\\*\\*"
+  source: "Murray, the first enquiry, Ladvenu (archive.org-download-jeannedarcmaidof028754mbp-jeannedarcmaidof028754mbp-djvu.txt.txt, lines 8892-8897): \"commanded Jeanne to be kept in the secular prison and in the hands of her mortal enemies ... allowed her ... to be tormented and cruelly treated in a secular prison\", with no guards in her cell; Massieu (lines 9398-9400): \"in the hands of five of the English, three of whom stayed all night in the room, and two outside the door\". The guards in her cell were given to Ladvenu, who does not tell them"
+  kind: attribution
+  claim: "060.27"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-17
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md
+  field: "Notes, **"
+  replaces: clause
+  old: "Jean Massieu, the usher of the court, said in 1450 that at night her legs were chained"
+  new: "Massieu said in 1450 that at night her legs were chained"
+  source: "follows 060-fact-checker-16, which introduces Massieu in the body; Murray, Massieu (lines 9401-9404): \"at night she slept chained by the legs with two pairs of iron chains ... held to a great piece of wood\""
+  kind: wording
+  claim: "060.26"
+  introduced: fix
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-18
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md
+  field: body
+  replaces: clause
+  old: "refuses on 20 February to sit, saying he lacks jurisdiction."
+  new: "refuses on 20 February to sit without special authority, unsure that his commission covers the case."
+  source: "Barrett, 20 February 1431 (sourcebooks.web.fordham.edu-basis-joanofarc-trial.asp.txt, lines 863-867): \"he would not participate in the present matter, unless he received especial authority ... until he had received more ample counsel upon the question whether he could in virtue of his commission undertake the conduct of this trial\". The record has him in doubt, not saying he lacks jurisdiction"
+  kind: fact
+  claim: "060.35"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-19
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/030-the-court/page.yaml
+  field: sources
+  replaces: clause
+  old: "  - \"F. C. Lowell, Joan of Arc (1896), ch. 19–20.\""
+  new: "  - \"F. C. Lowell, Joan of Arc (1896), ch. 19–20.\"\n  - \"A. Lang, The Maid of France (1908), ch. 21.\"\n  - \"J. H. Ramsay, Lancaster and York, vol. 1 (1892), ch. 29.\"\n  - \"J. Quicherat (ed.), Procès de condamnation et de réhabilitation de Jeanne d'Arc, vol. 5 (1849), the king's order of 2 April 1431 for the Paris masters.\""
+  source: "the text names Lang twice (Canon Dunand, 060.31; the witness of the cage, 060.26, Lang ch. 21); Cauchon raised to Beauvais in 1420 rests on Ramsay 1 ch. 29 note 2 (060.29); the twenty sous a day on the king's order of 2 April 1431, Quicherat 5 line 10063 (060.37)"
+  kind: sources
+  introduced: plan
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-20
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/040-the-questioning/text/en.md
+  field: body
+  replaces: clause
+  old: "Most of the questions turn on her voices."
+  new: "The judges press her on her voices."
+  source: "searched the record, Ramsay ch. 29 and Thurston for a share of the questions: none gives one. Thurston (newadvent.org-cathen-08409c.txt): \"They pressed her regarding her visions, but upon many points she refused to answer.\""
+  kind: fact
+  claim: "060.42"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-21
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/040-the-questioning/page.yaml
+  field: sources
+  replaces: clause
+  old: "  - \"H. Thurston, 'St. Joan of Arc', Catholic Encyclopedia, vol. 8 (1910).\""
+  new: "  - \"H. Thurston, 'St. Joan of Arc', Catholic Encyclopedia, vol. 8 (1910).\"\n  - \"A. Lang, The Maid of France (1908), ch. 23.\""
+  source: "the note: \"Lang has Courcelles read them on 28 March\"; Lang ch. 23: \"On March 28, Courcelles read the Articles aloud\" (060.45)"
+  kind: sources
+  claim: "060.45"
+  introduced: plan
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-22
+  severity: wrong
+  file: content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md
+  field: body
+  replaces: clause
+  old: "Two friars of the court, Martin Ladvenu and Isambart de La Pierre, testified in 1450 that after the abjuration she told them she had been ill-treated and molested in prison, by an English lord among others, and that this was why she wore the man's dress again."
+  new: "Two friars of the court, Martin Ladvenu and Isambart de La Pierre, testified in 1450 that she blamed her prison. Ladvenu said she told him she had been beaten and molested there and insulted by an English lord, and that this was why she wore the man's dress again; Isambart heard her say before many that the English had done her \"great wrong and violence\" while she wore the woman's dress."
+  source: "Murray, the first enquiry, Ladvenu (lines 8920-8924): \"The Maid revealed to me that, after her abjuration and recantation, she was violently treated in the prison, molested, beaten, and illused; and that an English lord had insulted her. She also said, publicly, that on this account she had resumed a man's dress\"; Isambart (lines 8766-8770): \"I and many others were present when Jeanne excused herself for having dressed again as a man, saying and affirming publicly, that the English had done or caused to be done to her great wrong and violence, when she was wearing a woman's dress\". Isambart tells no English lord and was not told in private, and in Ladvenu the lord insulted her, not molested her"
+  kind: attribution
+  claim: "060.56"
+  introduced: research
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-23
+  severity: weak
+  file: content/joan-of-arc/.plan/research.md
+  field: "060.56"
+  replaces: clause
+  old: "she said she had been ill-treated and molested in prison, an English lord among them, and had taken the man's dress again for that."
+  new: "she said she had been ill-treated and molested in prison, and in Ladvenu that an English lord had insulted her, and had taken the man's dress again for that."
+  source: "as in 060-fact-checker-22: Ladvenu, \"and that an English lord had insulted her\""
+  kind: fact
+  claim: "060.56"
+  introduced: research
+  owner: researcher
+  state: fixed
+- id: 060-fact-checker-24
+  severity: weak
+  file: content/joan-of-arc/.plan/research/060.md
+  field: "060.56"
+  replaces: clause
+  old: "she said she had been ill-treated and molested in prison, an English lord among them, and had taken the man's dress again for that."
+  new: "she said she had been ill-treated and molested in prison, and in Ladvenu that an English lord had insulted her, and had taken the man's dress again for that."
+  source: "as in 060-fact-checker-22"
+  kind: fact
+  claim: "060.56"
+  introduced: research
+  owner: researcher
+  state: fixed
+- id: 060-fact-checker-25
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md
+  field: body
+  replaces: clause
+  old: "Some of those present ask that she be taken to a church prison,"
+  new: "Some of those present, by Massieu's account, ask that she be taken to a church prison,"
+  source: "Murray, the first enquiry, Massieu (lines 9377-9384): \"this thing was asked of the Bishop of Beauvais by some of those present, whose names I do not know. To which the Bishop replied: 'Take her to the Castle whence she came.'\" Massieu alone tells it; rules.md, the two trials are primary sources with a side, a witness's account is told as his"
+  kind: attribution
+  claim: "060.53"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-26
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md
+  field: "Notes, **"
+  replaces: clause
+  old: "In Massieu's account, on Trinity Sunday her English guards took her woman's clothes from her and gave her back only the man's. Thurston reports the charge, made later, of a trap laid by her jailers with Cauchon's connivance."
+  new: "Massieu had it from her that on Trinity Sunday the English guards stripped away her woman's clothes and left her nothing to wear but the man's. Thurston reports the charge, made later, that her jailers set a trap for her and that Cauchon was party to it."
+  source: "Murray, Massieu (lines 9406-9418): \"as she reported and said to me ... one of the English took away from her the woman's garments which she had on her ... they would not give her the other\"; Thurston: \"owing, it was afterwards alleged, to a trap deliberately laid by her jailers with the connivance of Cauchon\". The second sentence kept Thurston's words; the first followed Massieu (close-wording.mjs, 60%), and what is left in common is the names of the day and the clothes"
+  kind: wording
+  claim: "060.55"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-27
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md
+  field: body
+  replaces: clause
+  old: "The bailli of Rouen, the king's judge, should now pass sentence, and he does not."
+  new: "The bailli of Rouen, who stands for the secular power, should now pass sentence, and he does not."
+  source: "searched Lowell ch. 24, Murray (Guesdon, Ladvenu) and Thurston for the bailli as the king's judge: none calls him so. Lowell ch. 24 (lines 14760-14762): \"The power of the state, represented by the bailiff of Rouen, should have passed sentence of death\""
+  kind: fact
+  claim: "060.62"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-28
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md
+  field: body
+  replaces: clause
+  old: "One of the English there makes her a little one from the ends of a stick,"
+  new: "One of the English standing by fashions a small one for her out of a stick,"
+  source: "Murray, the first enquiry, Massieu (lines 9467-9469): \"an Englishman, who was there present, made a little cross of wood with the ends of a stick, which he gave her\". The clause kept Massieu's words"
+  kind: wording
+  claim: "060.63"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-29
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/060-the-old-market/page.yaml
+  field: sources
+  replaces: clause
+  old: "  - \"Journal d'un bourgeois de Paris, 1405–1449, ed. A. Tuetey (1881).\""
+  new: "  - \"Journal d'un bourgeois de Paris, 1405–1449, ed. A. Tuetey (1881).\"\n  - \"H. Thurston, 'St. Joan of Arc', Catholic Encyclopedia, vol. 8 (1910).\"\n  - \"A. Lang, The Maid of France (1908), ch. 26.\""
+  source: "the note names Thurston and gives Manchon from him (newadvent.org-cathen-08409c.txt: \"About this last speech a doubt must always be felt\"; \"'Until the last,' said Manchon, the recorder at the trial\"); the three scaffolds rest on Lang ch. 26 alone: \"There were three scaffolds\" (060.60)"
+  kind: sources
+  introduced: plan
+  owner: section-reviewer
+  state: fixed
+- id: 060-section-reviewer-1
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md
+  field: body
+  replaces: clause
+  old: "John of Luxembourg and the Bastard to give her up to him for trial, and offers her captors up to 6,000 francs, or else 10,000."
+  new: "John of Luxembourg and the Bastard of Wandonne to give her up to him for trial, and offers her captors up to 6,000 francs, or else 10,000, the sum the king could pay for a captive king or prince."
+  source: "names.md Rules, Names of people: \"Two men called the Bastard keep their 'of'\"; research 060.12: \"or failing that 10,000 as the king could pay for a captured king or prince\". \"Or else 10,000\" told the reader a figure with no sense of what it was"
+  kind: wording
+  claim: "060.12"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-section-reviewer-2
+  severity: taste
+  file: content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md
+  field: body
+  replaces: clause
+  old: "The women of the castle, his aunt the Demoiselle of Luxembourg and his wife the Lady of Beaurevoir, urge her ... Against her voices, which forbid it, she throws herself"
+  new: "His aunt the Demoiselle of Luxembourg and his wife the Lady of Beaurevoir urge her ... Against her voices she throws herself"
+  source: "agents/text.md, Short: the body stood at 345 words after 060-section-reviewer-1, near the hard limit of 350; \"which forbid it\" repeats \"against her voices\", and \"the women of the castle\" repeats the two titles that follow"
+  kind: wording
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-section-reviewer-3
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md
+  field: body
+  replaces: clause
+  old: "Again she refuses the woman's dress that men of his company urge on her."
+  new: "There Jean de Pressy, a knight of Artois, and many others ask her to put on a woman's dress, and she will not."
+  source: "research 060.67: \"Jean de Pressy and many others often asked her to put on a woman's dress, and she would not\" (Barrett, 3 March, and article XVI: \"she refused and still refuses\"); 060.68: \"a knight of Artois\" (Champion). \"Again\" pointed to the previous page, and \"men of his company\" kept Lowell's words (\"Some of the duke's company begged her ... and again she refused\") where the plan and names.md give the man"
+  kind: wording
+  claim: "060.67"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-section-reviewer-4
+  severity: taste
+  file: content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md
+  field: body
+  replaces: clause
+  old: "the paragraph \"[Compiègne](@compiegne-relief-1430) holds out under Guillaume de Flavy, and on 25 and 26 October it is relieved. The besiegers leave their guns behind.\" after the paragraph of 21 November"
+  new: "the same paragraph after the first paragraph, before \"In the latter part of October\""
+  source: "research 060.22 (relieved 25-26 October 1430) and 060.21 (the University's letter of 21 November): the October relief stood after the November letter; set in order of time, it comes before her road from Beaurevoir, which begins in the latter part of October"
+  kind: order
+  claim: "060.22"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-section-reviewer-5
+  severity: taste
+  file: content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md
+  field: body
+  replaces: clause
+  old: "Her road to Le Crotoy only joins the places, and the borders are approximate."
+  new: "Her road to Le Crotoy only joins the places."
+  source: "agents/evidence.md, The basis of a drawing: a reconstruction is said \"in a clause ... once in a chapter\"; beaulieu-and-beaurevoir, the first page of 060, says the borders are approximate"
+  kind: wording
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-section-reviewer-6
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md
+  field: body
+  replaces: clause
+  old: "grants him territory."
+  new: "lets him hold his court in its diocese."
+  source: "research 060.33: the chapter \"grants Cauchon territory in Rouen and its diocese for the trial\"; \"territory\" is the canonists' word, and alone it tells the reader nothing of what was granted"
+  kind: wording
+  claim: "060.33"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-section-reviewer-7
+  severity: taste
+  file: content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md
+  field: body
+  replaces: clause
+  old: "and the vice-inquisitor is given twenty saluts d'or"
+  new: "and on 24 April Jean Le Maistre is given twenty saluts d'or"
+  source: "research 060.37: \"the English government gives Jean Le Maistre twenty saluts d'or on 24 April 1431\" (Champion); the text had named him \"the Inquisitor's deputy\" and here gave a third name and no date"
+  kind: wording
+  claim: "060.37"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-section-reviewer-8
+  severity: taste
+  file: content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md
+  field: body
+  replaces: clause
+  old: "The borders on the map are approximate."
+  new: ""
+  source: "agents/evidence.md, once in a chapter, as in 060-section-reviewer-5"
+  kind: wording
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-section-reviewer-9
+  severity: taste
+  file: content/joan-of-arc/pages/060-rouen/040-the-questioning/text/en.md
+  field: body
+  replaces: clause
+  old: "Of the sign she gave the king,"
+  new: "Of the sign she gave Charles VII,"
+  source: "agents/text.md, The reader can follow: the page names no king before this, and a reader who opens it here does not know which; names.md, Charles VII"
+  kind: wording
+  claim: "060.43"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-section-reviewer-10
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md
+  field: body
+  replaces: clause
+  old: "she hears Guillaume Erard, a doctor of theology, preach."
+  new: "she hears a sermon by Guillaume Erard."
+  source: "research 060.49: the record has \"a solemn sermon pronounced by master Guillaume Erart\"; no line of the digest makes him a doctor of theology (rules.md, The careful side)"
+  kind: fact
+  claim: "060.49"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-section-reviewer-11
+  severity: taste
+  file: content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md
+  field: body
+  replaces: clause
+  old: "before any sentence of theirs, and he held that this was not right."
+  new: "before he or the bailli had given any sentence, and he held this to be wrong."
+  source: "research 060.62, Guesdon: \"before either the Bailly or myself, whose office it was, had given sentence, the executioner seized her\"; \"theirs\" had no one it plainly stood for"
+  kind: wording
+  claim: "060.62"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-section-reviewer-12
+  severity: taste
+  file: content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md
+  field: body
+  replaces: clause
+  old: "On the map her road only joins the two places, since no source gives the streets."
+  new: ""
+  source: "agents/evidence.md, once in a chapter: saint-ouen, the page before, says the same of the streets of Rouen"
+  kind: wording
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-section-reviewer-13
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/page.yaml
+  field: markers
+  new: "The text names Compiègne (her capture, the siege, Cauchon's summons and the threat to its people), Noyon (Beaulieu is near it) and Saint-Quentin (Beaurevoir is near it), and the map marks none of them (capture maps-060-map-auditor/shots2/beaulieu-and-beaurevoir.png). Add a marker for each, or at least Compiègne, whose siege the page turns on"
+  source: "agents/text.md, The text and the map agree: each place the text names is on the map; research 060.2 (Beaulieu near Noyon), 060.5 (Beaurevoir near Saint-Quentin), 060.9, 060.11"
+  kind: map
+  introduced: plan
+  owner: cartographer
+  state: open
+- id: 060-section-reviewer-14
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/page.yaml
+  field: markers
+  new: "The text names Paris (the University wants her tried there) and the Somme (Le Crotoy at its mouth); the map marks neither and shows no river label (capture maps-060-map-auditor/shots2/sold-to-the-english.png). Add a marker for Paris, the seat of the University, and a label for the Somme"
+  source: "agents/text.md, The text and the map agree; research 060.19, 060.21"
+  kind: map
+  introduced: plan
+  owner: cartographer
+  state: open
+- id: 060-section-reviewer-15
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/030-the-court/page.yaml
+  field: markers
+  new: "The text names Compiègne (her capture there is Cauchon's title to judge her, and the place of the dispute of the diocese), and the map marks it nowhere, though it lies inside the page's bbox (capture maps-060-map-auditor/pack/shots/the-court.png). Add a marker for it"
+  source: "agents/text.md, The text and the map agree; research 060.31"
+  kind: map
+  introduced: plan
+  owner: cartographer
+  state: open
+- id: 060-section-reviewer-16
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/050-saint-ouen/page.yaml
+  field: markers
+  new: "The text names the archbishop's chapel in Rouen, where the judges find her relapsed on 29 May, and the Old Market, to which they summon her; the map marks neither, though both lie inside the page's bbox (capture maps-060-map-auditor/pack/shots/saint-ouen.png). Add a marker for each"
+  source: "agents/text.md, The text and the map agree; research 060.57"
+  kind: map
+  introduced: plan
+  owner: cartographer
+  state: open
+- id: 060-section-reviewer-17
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/060-the-old-market/page.yaml
+  field: markers
+  new: "The text names the church of Saint-Sauveur, beside whose scaffold she is set and whose cross Massieu brings, and the Seine, into which her ashes are thrown; the map marks neither, and the bbox stops north of the river (capture maps-060-map-auditor/pack/shots/the-old-market.png). Add a marker for the church and widen the bbox south to show the Seine"
+  source: "agents/text.md, The text and the map agree; research 060.60, 060.63, 060.65"
+  kind: map
+  introduced: plan
+  owner: cartographer
+  state: open
+- id: 060-overseer-1
+  severity: weak
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: the-court, date, in pages.yaml, in .plans/pages060.mjs and in the page's page.yaml
+  replaces: value
+  old: "January – February 1431"
+  new: "January – April 1431"
+  source: "the page's text runs to 13 March, when Le Maistre sits, and to his pay of 24 April (reports/060-section-reviewer.yaml); the page's when stays 1431-01-03"
+  kind: plan
+  introduced: plan
+  owner: cartographer
+  state: open

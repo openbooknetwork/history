@@ -796,3 +796,17 @@
   old: "'patay-the-rout-la-hire': mark(-1500, 680, ...)"
   new: "'patay-the-rout-la-hire': mark(-1450, 1100, ...)"
   commit: 01adcf01
+- fault: 040-fact-checker-52
+  by: fact-checker
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/031-patay-the-hedges/text/en.md
+  field: body, paragraph 2
+  old: "until the main body and the rearguard have joined the vanguard, and then, Wavrin says, he means to fall back on them along the hedges."
+  new: "until the main body and the rearguard have joined, and then, Wavrin says, he means to fall back on the main body along the hedges."
+  commit: e4e8ea09
+- fault: 040-fact-checker-53
+  by: fact-checker
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/033-patay-the-rout/text/en.md
+  field: body, paragraph 2
+  old: "for Janville, two leagues off, and"
+  new: "for Janville, two leagues beyond Patay, and"
+  commit: e4e8ea09

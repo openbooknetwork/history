@@ -17,3 +17,17 @@
     Fixed here: one clause of the hedges text, four hover names lacking strength, Murray (Dunois) in the rout's
     sources. Open for the battle implementor: two marker labels that hide units (rearguard on the hedges, French
     vanguard and clash on the rout). The hover captures showed no tooltip, so hover names were read from page.yaml.
+- step: phases
+  task: recheck
+  status: faults
+  changed_files:
+    - content/joan-of-arc/.plan/faults/040.yaml
+  faults: [040-battle-auditor-6]
+  unresolved: []
+  stale: []
+  note: >-
+    040-battle-auditor-4 and -5 hold against 01adcf01: the hedges' rearguard block and the rout's French vanguard
+    and clash are bare at laptop size, and at phone size the Talbot and Fastolf icons no longer sit on the English
+    blocks. Generator reruns clean, every check ok. One new fault of the same kind, open for the implementor: on
+    patay-the-stag Fastolf's label hides the rearguard. Hover captures again show no tooltip; names read from
+    page.yaml.

@@ -1252,3 +1252,39 @@
   introduced: battles
   owner: battle-implementor
   state: fixed
+- id: 040-battle-auditor-6
+  severity: weak
+  file: content/joan-of-arc/.plans/patay-1429.mjs
+  field: "patay-the-stag, the marker patay-the-stag-fastolf (mark(-850, -520, ...))"
+  new: "The marker or its label stands clear of the English rearguard, as 040-battle-auditor-4 put it right on patay-the-hedges. In the laptop capture phases-040-battle-auditor-patay-recheck/pack/shots/patay-the-stag.png (about x 535-670, y 355-391; enlarged in the same folder as stag-crop.png) the label \"Fastolf / Hurries on with the main body\" lies across the rearguard block at u about -1950, of which only its top edge shows under the main body. The text says the map draws the rearguard at the tail of the main body. Setting the marker east of the main body as on the hedges (w about 950, u about -1100) keeps it clear of the hurry arrow at w about 400 and of Talbot's marker at u -2300."
+  source: "the plan, phases[patay-the-stag].opens: \"The rearguard is drawn at its tail, merged into it from this phase on (reconstruction)\"; 032-patay-the-stag/text/en.md paragraph 3: \"the English rearguard, which the map draws at the tail of the main body\""
+  kind: battle
+  introduced: battles
+  owner: battle-implementor
+  state: open
+- id: 040-fact-checker-52
+  severity: weak
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/031-patay-the-hedges/text/en.md
+  field: body, paragraph 2
+  replaces: clause
+  old: "until the main body and the rearguard have joined the vanguard, and then, Wavrin says, he means to fall back on them along the hedges."
+  new: "until the main body and the rearguard have joined, and then, Wavrin says, he means to fall back on the main body along the hedges."
+  source: "Wavrin, Quicherat 4 (archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt, pp. 421-422, lines 16490-16497): \"là se tendroit, gardant le passage contre les François, jusques à tant que la battaille et l'arrière-garde serroient joinctes ... esperoit de soy revenir joindre avec la battaille en costoiant lesdittes hayes\". Wavrin does not say to what the two bodies are to be joined; Lang ch. 14 (lines 7359-7360) reads \"till his rearguard joined his main body\" and France vol. 1 ch. 16 (lines 15266-15267) \"until the rear-guard had had time to join the main body\", so \"the vanguard\" told one reading as Wavrin's; and Talbot means to rejoin \"la battaille\", the main body"
+  kind: fact
+  claim: "040.90"
+  introduced: battles
+  owner: section-reviewer
+  state: fixed
+- id: 040-fact-checker-53
+  severity: weak
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/033-patay-the-rout/text/en.md
+  field: body, paragraph 2
+  replaces: clause
+  old: "for Janville, two leagues off, and"
+  new: "for Janville, two leagues beyond Patay, and"
+  source: "Wavrin p. 424 (lines 16576-16577): \"dudit lieu de Pathai, qui sied à deux lieues de Jenville\"; Monstrelet book 2 ch. 61 (archive.org-download-chroniclesengue06johngoog-chroniclesengue06johngoog-djvu.txt.txt, lines 39223-39224): \"the village of Pataye, which is two leagues distant from Anville in Beauce\". The two leagues are from the village, and the field the page draws lies short of it on the road from Meung"
+  kind: fact
+  claim: "040.39"
+  introduced: battles
+  owner: section-reviewer
+  state: fixed

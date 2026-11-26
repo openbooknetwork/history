@@ -17,3 +17,15 @@
   alone is dropped (rule in `rules.md` at `final-brief`).
 - cloud ruling: every section's coverage is accepted — each has primary and scholarly sources beside `wikipedia`.
 - ledger after `survey`: | **total** | 2 | 89 | 225,725 | 180 | 297,014 | 10,420,506 | 99,152 | 1,909,258 |
+- cloud ruling: the brief is settled at 41 pages in seven sections, as the user agreed the count — the changes are the
+  survey's points of "Against the brief", each written into the section it concerns and listed at the brief's end.
+- cloud ruling: no battle gets phase pages, Orléans and Patay included — the coordinator found no plan of the
+  bastilles in any source read, so their positions would be a reconstruction, and Patay was a rout before the
+  English were set; the careful side takes phase pages out rather than guess positions.
+- cloud ruling: 010 gains Baugé (card) and Cravant (text) within its six pages — "Verneuil breaks the Dauphin's
+  field army" read without the victory that army had won.
+- cloud ruling: 060 keeps six pages though four are in Rouen, and 070 six — the user agreed the count, and the Rouen
+  pages change the map inside the city.
+- step final-brief: done, 26 Nov 2026. `brief.md` settled, with its part "Settled at final-brief", and `rules.md`
+  written.
+- ledger after `final-brief`: | **total** | 2 | 92 | 225,725 | 186 | 302,938 | 10,815,005 | 103,077 | 1,975,744 |

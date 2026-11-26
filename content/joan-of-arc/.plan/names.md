@@ -191,6 +191,7 @@ name the digest gives only in a quote or a note is marked so. A name marked "not
 | Sir Thomas Beaumont | beaten near Épinay in April 1436 | 070 (070.8) | |
 | Edmund Beaufort, Duke of Somerset | English lieutenant in Normandy, who gave up Rouen in 1449 and Caen in 1450; "Somerset" alone means him in 070 | 070 (070.15) | Somerset |
 | Sir Thomas Kyriell | leader of the last English army in Normandy, taken at Formigny; "Kyriell" | 070 (070.17) | Thomas Kyriel; Kiriel |
+| Margaret of Anjou | daughter of René of Anjou (Monstrelet), betrothed to Henry VI by proxy at Tours on 24 May 1444 | 070 (070.12) | the daughter of Rene king of Sicily (Johnes) |
 | the captain of Orbec | an English captain killed at Montépilloy | 050 (050.6) | le capitaine d'Orbec |
 
 ### The Scots and the Dauphin's allies
@@ -552,6 +553,8 @@ old name without it, as the sources and the histories do, and "Today" gives the 
 | Formigny | the battle of 15 April 1450 | Formigny La Bataille, Calvados | 070 (070.18) | Fourmigny |
 | Saint-Lô | whole story | Saint-Lô, Manche | 070 (070.18) | |
 | Fougères | Breton; seized by the English on 24 March 1449 | Fougères, Ille-et-Vilaine | 070 (070.14) | Foug^res (OCR) |
+| Valognes | besieged by Kyriell from 27 March 1450 and taken about 10 April (Ramsay) | Valognes, Manche | 070 (070.17, Ramsay's passage) | |
+| the Fords of Saint-Clément | the passage at low water across the estuaries of the Vire and the Douve below Carentan, which Kyriell crossed on 14 April 1450 | the Baie des Veys, Manche | 070 (070.17, Ramsay's passage) | the Fords of St. Clement; the sands of St. Clement; les vez Saint Clement |
 
 ### Anjou, Gascony and further
 
@@ -565,6 +568,7 @@ old name without it, as the sources and the histories do, and "Today" gives the 
 | Bayonne | English to 20 August 1451 | Bayonne, Pyrénées-Atlantiques | 070 (070.25) | |
 | the Médoc | where Talbot landed in 1452 | the Médoc, Gironde | 070 (070.28) | Medoc |
 | Castillon | the battle of 17 July 1453 on the Dordogne | Castillon-la-Bataille, Gironde | 070 (070.29) | |
+| Branne | where Ramsay supposes Talbot crossed the Dordogne on 17 July 1453 | Branne, Gironde | 070 (070.29, Ramsay's passage) | |
 | Mont Horable | the height on the English left at Castillon | Castillon-la-Bataille (site) | 070 (070.30) | |
 | Lyon | where d'Aulon was heard in 1456 | Lyon, Rhône | 070 (070.41) | |
 | Sandwich | where Salisbury mustered in 1428 | Sandwich, Kent, England | 020 (020.12) | |

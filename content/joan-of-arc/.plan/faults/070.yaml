@@ -315,3 +315,27 @@
   owner: section-writer
   state: fixed
   ruling: "cloud ruling: the map's change is told and its cause is not guessed"
+- id: 070-image-finder-1
+  severity: wrong
+  file: content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md
+  field: body, the line after the paragraph of the battle of Formigny
+  replaces: value
+  old: "@image formigny-battle-miniature"
+  new: "the line taken out: the plan puts formigny-battle-miniature on the card formigny-1450, which already holds it"
+  source: "text.yaml, normandy-won-back.images: { name: formigny-battle-miniature, \"on\": card formigny-1450 }; shared/battles/formigny-1450/battle.yaml images: [formigny-battle-miniature]; node scripts/contact-sheet.mjs joan-of-arc: \"formigny-battle-miniature shows 2 times: page normandy-won-back, card of formigny-1450\"; agents/images.md: an image shows in one place of a story, on one page or on one battle's card"
+  kind: image
+  introduced: texts
+  owner: section-writer
+  state: open
+- id: 070-image-finder-2
+  severity: wrong
+  file: content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md
+  field: body, the line after the paragraph of the battle of Castillon
+  replaces: value
+  old: "@image castillon-battle-miniature"
+  new: "the line taken out: the plan puts castillon-battle-miniature on the card castillon-1453, which already holds it"
+  source: "text.yaml, castillon.images: { name: castillon-battle-miniature, \"on\": card castillon-1453 }; shared/battles/castillon-1453/battle.yaml images: [castillon-battle-miniature]; node scripts/contact-sheet.mjs joan-of-arc: \"castillon-battle-miniature shows 2 times: page castillon, card of castillon-1453\"; agents/images.md: an image shows in one place of a story"
+  kind: image
+  introduced: texts
+  owner: section-writer
+  state: open

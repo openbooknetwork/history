@@ -305,3 +305,4 @@
 - cloud ruling: Étampes stays as ruled at the shared map, in no English circle. The change in Maine is told in one
   clause of `normandy-won-back` with no date and no cause (070-overseer-1). Hainaut, Brabant and Luxembourg lie
   outside the kingdom and stay undrawn. The estimated edges stand as reconstructions.
+- images 070 found (image-finder): 12 images and one offered, a miniature of Isabelle Romée before the judges, for the reviewer; `paris-1436-recovery-miniature` is `none`. Two battle miniatures stand both in a text and on their card (070-image-finder-1, -2, open for the reviewer's pass).

@@ -4,7 +4,7 @@ Bordeaux calls them back. John Talbot, Earl of Shrewsbury, made Henry VI's lieut
 
 @image dordogne-at-castillon
 
-On 13 or 14 July 1453 the French lay siege to Castillon. Under the direction of Jean Bureau they dig a camp east of the town by the little river Lidoire and park their guns inside it, with their Bretons on the Mont Horable to the north-east.
+On 13 or 14 July 1453 the French lay siege to Castillon. Jean Bureau and his brother, who direct the artillery, have the guns kept in a camp ringed with ditches beside the Lidoire, a stream east of the town, while the Bretons hold the Mont Horable, a height to the north-east.
 
 Talbot marches from Bordeaux to relieve the town and arrives at daybreak on 17 July; Ramsay supposes he crossed the Dordogne at Branne, and the map's line follows that guess. He drives French archers out of an abbey west of the town and attacks the camp. For about an hour the English fight at the palisades while the French guns fire into them. Then the Breton men-at-arms under the lord of Montauban and the lord of La Hunaudaye come down on the English left, and the French charge out of the camp.\*\*\*\* Talbot is killed, and his son Viscount Lisle with him.\*\*\*\*\* Monstrelet's continuator says four or five hundred English dead were buried.\*\*\*\*\*\*
 

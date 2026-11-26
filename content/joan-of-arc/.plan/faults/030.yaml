@@ -1332,3 +1332,16 @@
   introduced: review
   owner: section-reviewer
   state: fixed
+- id: 030-editor-2
+  severity: weak
+  file: content/joan-of-arc/pages/030-orleans/010-from-blois/text/en.md
+  field: "body, paragraph 2"
+  replaces: clause
+  old: "In his account of 1456 she asks"
+  new: "In his account at the retrial she asks"
+  source: "rules.md, Evidence, \"The two trials are primary sources with a side\": a text or a note says \"at the retrial\" and gives a deposition no year (decisions.md, cloud ruling: Murray heads the depositions 1455, 1455-6 and 1456 by place and no file dates each one)"
+  kind: attribution
+  introduced: texts
+  owner: editor
+  state: fixed
+  between: "030 from-blois against 050 and 060, which give a witness of the retrial no year"

@@ -4,8 +4,6 @@ While Joan is held at Beaurevoir, the English raise the money to buy her in Norm
 
 In the latter part of October the Burgundians take her from [Beaurevoir](@beaurevoir-october-1430) to [Arras](@arras-1430), where the Duke of Burgundy seems to be holding his court. There Jean de Pressy, a knight of Artois, and many others ask her to put on a woman's dress, and she will not. Lang has her spend a night at the castle of [Drugy](@drugy-1430) on the way to [Le Crotoy](@le-crotoy-1430), a fortress at the mouth of [the Somme](@somme-1430) that has been English since 3 March 1424. There, as Ramsay has it, or at Arras or somewhere between, as Lowell allows, the English take her and pay. A receipt of 6 December names the ten thousand livres tournois the king paid to have her, a "prisoner of war". By Haimond de Macy's later account, a fellow captive at Le Crotoy, Nicolas de Queuville, chancellor of the church of Amiens, heard her confession, and she heard him say Mass.
 
-@image le-crotoy-bay-7e7c58
-
 On 21 November the University of Paris writes to Henry VI and to Pierre Cauchon, Bishop of Beauvais. It complains of the delay and wants her tried in [Paris](@paris-university-1430).
 
 She is brought to Rouen late in 1430\*\* and shut in a tower of the castle.

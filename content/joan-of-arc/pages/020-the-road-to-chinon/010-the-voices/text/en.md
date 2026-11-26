@@ -4,7 +4,7 @@ Later, she said, the voice told her to leave home and go into France, and that s
 
 Vaucouleurs is a walled town on the Meuse north of Domrémy, some twelve miles off by Lang's count and thirteen by Lowell's. Lowell writes that by midsummer 1428 no other town of eastern France still stood for Charles VII, the uncrowned king who held the lands south of the Loire.
 
-In May 1428 Joan comes to Baudricourt and is sent home in the company of Durand Laxart, her cousin's husband, whom she called uncle. So Bertrand de Poulengy, a squire who was with the captain, remembered it in 1456.\*\* Laxart recalled the captain's advice, given more than once: slap the girl and bring her home to her father.
+In May 1428 Joan comes to Baudricourt and is sent home in the company of Durand Laxart, her cousin's husband, whom she called uncle. So Bertrand de Poulengy, a squire who was with the captain, remembered it at the retrial.\*\* Laxart recalled the captain's advice, given more than once: slap the girl and bring her home to her father.
 
 In July Antoine de Vergy, governor of Champagne for the English, reviews his troops at [Saint-Urbain](@vergy-review-1428) and marches on Vaucouleurs. Within days the force is gone and Baudricourt still holds the town; how he kept it is not known. For dread of the Burgundians, Joan said, she went to [Neufchâteau](@neufchateau), a walled town of the Duke of Lorraine a few miles south, and stayed about a fortnight with an innkeeper called La Rousse. Her family and the other villagers go too, with their cattle; Lang and Lowell date this flight to Vergy's raid.\*\*\*
 

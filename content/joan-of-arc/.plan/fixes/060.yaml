@@ -849,3 +849,38 @@
   old: "Joan is taken here in May 1430, in Pierre Cauchon's diocese by the record, in that of Soissons by Canon Dunand (Lang)"
   new: "Joan is taken here in May 1430, in Cauchon's diocese by the record"
   commit: 9df0afc0
+- fault: 060-editor-2
+  by: editor
+  file: content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md
+  field: "body, the @image line"
+  old: "@image beaurevoir-tower-cc03c4"
+  new: ""
+  commit: aa448627
+- fault: 060-editor-3
+  by: editor
+  file: content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md
+  field: "body, the @image line"
+  old: "@image le-crotoy-bay-7e7c58"
+  new: ""
+  commit: aa448627
+- fault: 060-editor-4
+  by: editor
+  file: content/joan-of-arc/pages/060-rouen/040-the-questioning/text/en.md
+  field: "body, the @image line"
+  old: "@image rouen-castle-keep-370a86"
+  new: ""
+  commit: aa448627
+- fault: 060-editor-5
+  by: editor
+  file: content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md
+  field: "body, the @image line"
+  old: "@image saint-ouen-abbey-church-6d9f2b"
+  new: ""
+  commit: aa448627
+- fault: 060-editor-6
+  by: editor
+  file: content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md
+  field: "body, the @image line"
+  old: "@image vieux-marche-pyre-97466c"
+  new: ""
+  commit: aa448627

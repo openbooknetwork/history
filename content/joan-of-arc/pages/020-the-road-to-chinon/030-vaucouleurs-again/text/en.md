@@ -1,4 +1,4 @@
-In winter 1428–1429 Durand Laxart, her cousin's husband, brings Joan from his village of Burey back to [Vaucouleurs](@vaucouleurs-1429). She lodges with Henri Le Royer, a cartwright, and his wife Catherine, about three weeks in all, as Catherine said in 1456.\*
+In winter 1428–1429 Durand Laxart, her cousin's husband, brings Joan from his village of Burey back to [Vaucouleurs](@vaucouleurs-1429). She lodges with Henri Le Royer, a cartwright, and his wife Catherine, about three weeks in all, as Catherine said at the retrial.\*
 
 Joan said that the captain, Robert de Baudricourt, sent her away twice before he heard her out and promised an escort, just as her voice had foretold. Catherine Le Royer saw him come to the house with the curé, Jean Fournier, and had it from Joan that the priest then exorcised her.
 

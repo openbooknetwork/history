@@ -861,3 +861,42 @@
   introduced: fix
   owner: section-reviewer
   state: fixed
+- id: 040-editor-1
+  severity: weak
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/010-jargeau/text/en.md
+  field: "body, paragraph 3"
+  replaces: clause
+  old: "Alençon remembered in 1456 that"
+  new: "Alençon remembered at the retrial that"
+  source: "rules.md, Evidence, \"The two trials are primary sources with a side\": a text or a note says \"at the retrial\" and gives a deposition no year (decisions.md, cloud ruling: Murray heads the depositions 1455, 1455-6 and 1456 by place and no file dates each one)"
+  kind: attribution
+  introduced: texts
+  owner: editor
+  state: fixed
+  between: "040 jargeau against 050 and 060, which give a witness of the retrial no year"
+- id: 040-editor-2
+  severity: weak
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/030-patay/text/en.md
+  field: "body, paragraph 1"
+  replaces: clause
+  old: "remembered it in 1456."
+  new: "remembered it at the retrial."
+  source: "rules.md, Evidence, \"The two trials are primary sources with a side\": a text or a note says \"at the retrial\" and gives a deposition no year (decisions.md, cloud ruling: Murray heads the depositions 1455, 1455-6 and 1456 by place and no file dates each one)"
+  kind: attribution
+  introduced: texts
+  owner: editor
+  state: fixed
+  between: "040 patay against 050 and 060, as 040-editor-1"
+- id: 040-editor-3
+  severity: taste
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/060-the-towns-come-over/text/en.md
+  field: "body, paragraph 3"
+  replaces: clause
+  old: "brought by Cardinal Beaufort."
+  new: "brought by Henry VI's great-uncle, Cardinal Beaufort."
+  source: "names.md, the row \"Henry Beaufort\": Cardinal of England, great-uncle of Henry VI, first named in 040 (040.84); 060 saint-ouen and 070 burgundy-changes-sides give \"great-uncle\""
+  kind: wording
+  introduced: texts
+  owner: editor
+  state: fixed
+  between: "040 the-towns-come-over first names him with no word on who he is; 060 saint-ouen and 070 burgundy-changes-sides introduce him"

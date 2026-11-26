@@ -629,3 +629,24 @@
   old: "The map adds Harfleur to the English holdings and"
   new: "The map adds Harfleur as a marker in the English colour, with no English zone round it, and"
   commit: 2354922f
+- fault: 010-editor-1
+  by: editor
+  file: content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md
+  field: "body, paragraph 2"
+  old: "In 1455, questioned in the village for the retrial, her godfather"
+  new: "Questioned in the village for the retrial, her godfather"
+  commit: aa448627
+- fault: 010-editor-2
+  by: editor
+  file: content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md
+  field: "body, paragraph 2"
+  old: "remembered them in 1455 as people who worked the land"
+  new: "told the same inquiry that they were people who worked the land"
+  commit: aa448627
+- fault: 010-editor-3
+  by: editor
+  file: content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md
+  field: "Notes, the first note"
+  old: "Jean Morel told the inquiry of 1455 that"
+  new: "Jean Morel told the retrial that"
+  commit: aa448627

@@ -10,8 +10,6 @@ The witnesses are questioned where they live: in January and February 1456 at [D
 
 The judges give their verdict at Rouen, in the great hall of the archbishop's palace, at eight o'clock on Wednesday 7 July 1456; the Archbishop of Reims reads it out. The trial of 1431 and its sentences, with the abjuration and the execution, are declared "null, non-existent, without value or effect", in Murray's translation. The sentence is proclaimed that day at Saint-Ouen and the next in the Old Market, where a cross is put up.
 
-@image rouen-archbishop-palace-8a7b6b
-
 On the map only Calais is English. Bar and Lorraine keep their approximate edges of 1429, since no source here gives them for 1456.
 
 ### Notes

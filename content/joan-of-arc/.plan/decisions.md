@@ -333,3 +333,10 @@
   the overseer (story-overseer-7), the script not reading a list written on one line. `harita check` prints ok and
   the strict build with `--no-store` ends well.
 - ledger after `images`: | **total** | 117 | 3,349 | 574,186 | 6,807 | 23,676,862 | 576,568,829 | 4,427,101 | 109,395,272 |
+- edit (editor, task texts): 27 faults, 26 fixed by the editor in 19 texts: eight witnesses of the retrial lose their
+  year, twelve `@image` lines of 060 and 070 go where the image stands on a marker, Suffolk, La Hire and Cardinal
+  Beaufort are introduced where first met, and the sign at Chinon agrees with her account of 13 March 1431. Order,
+  hand-overs, the count of 41 pages and one account of each fact across sections passed with no change.
+- unresolved, edit: story-editor-7, Sens leaves the English zone between 050 and 060 and no page tells it.
+- cloud ruling: story-editor-7 is declined, as the editor suggested — the zone is right by 070.58 and the change shows
+  only on a phone-sized view of one page.

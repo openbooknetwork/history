@@ -710,3 +710,94 @@
   introduced: texts
   owner: section-reviewer
   state: fixed
+- id: 070-editor-1
+  severity: wrong
+  file: content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md
+  field: "body, the @image line"
+  replaces: clause
+  old: "@image henry-vi-paris-coronation-miniature-4faf00"
+  new: ""
+  source: "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 070-after-her/010-burgundy-changes-sides/markers.yaml shows henry-vi-paris-coronation-miniature-4faf00 on the marker notre-dame-1431"
+  kind: image
+  introduced: images
+  owner: editor
+  state: fixed
+  between: "010-burgundy-changes-sides shows henry-vi-paris-coronation-miniature-4faf00 twice, on the marker notre-dame-1431 and in the text; 010 to 050 show a marker image once"
+- id: 070-editor-2
+  severity: wrong
+  file: content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md
+  field: "body, the @image line"
+  replaces: clause
+  old: "@image arras-peace-1435-miniature-fb0b58"
+  new: ""
+  source: "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 070-after-her/010-burgundy-changes-sides/markers.yaml shows arras-peace-1435-miniature-fb0b58 on the marker arras-1435"
+  kind: image
+  introduced: images
+  owner: editor
+  state: fixed
+  between: "010-burgundy-changes-sides shows arras-peace-1435-miniature-fb0b58 twice, on the marker arras-1435 and in the text; 010 to 050 show a marker image once"
+- id: 070-editor-3
+  severity: wrong
+  file: content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md
+  field: "body, the @image line"
+  replaces: clause
+  old: "@image bastille-saint-antoine-view-8a49b8"
+  new: ""
+  source: "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 070-after-her/020-paris-opens/markers.yaml shows bastille-saint-antoine-view-8a49b8 on the marker bastille-1436"
+  kind: image
+  introduced: images
+  owner: editor
+  state: fixed
+  between: "020-paris-opens shows bastille-saint-antoine-view-8a49b8 twice, on the marker bastille-1436 and in the text; 010 to 050 show a marker image once"
+- id: 070-editor-4
+  severity: wrong
+  file: content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md
+  field: "body, the @image line"
+  replaces: clause
+  old: "@image fougeres-castle-2070d6"
+  new: ""
+  source: "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 070-after-her/030-normandy-won-back/markers.yaml shows fougeres-castle-2070d6 on the marker fougeres-1449"
+  kind: image
+  introduced: images
+  owner: editor
+  state: fixed
+  between: "030-normandy-won-back shows fougeres-castle-2070d6 twice, on the marker fougeres-1449 and in the text; 010 to 050 show a marker image once"
+- id: 070-editor-5
+  severity: wrong
+  file: content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md
+  field: "body, the @image line"
+  replaces: clause
+  old: "@image rouen-1449-entry-miniature-35d59e"
+  new: ""
+  source: "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 070-after-her/030-normandy-won-back/markers.yaml shows rouen-1449-entry-miniature-35d59e on the marker rouen-1449"
+  kind: image
+  introduced: images
+  owner: editor
+  state: fixed
+  between: "030-normandy-won-back shows rouen-1449-entry-miniature-35d59e twice, on the marker rouen-1449 and in the text; 010 to 050 show a marker image once"
+- id: 070-editor-6
+  severity: wrong
+  file: content/joan-of-arc/pages/070-after-her/050-the-retrial/text/en.md
+  field: "body, the @image line"
+  replaces: clause
+  old: "@image rouen-archbishop-palace-8a7b6b"
+  new: ""
+  source: "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 070-after-her/050-the-retrial/markers.yaml shows rouen-archbishop-palace-8a7b6b on the marker rouen-1456"
+  kind: image
+  introduced: images
+  owner: editor
+  state: fixed
+  between: "050-the-retrial shows rouen-archbishop-palace-8a7b6b twice, on the marker rouen-1456 and in the text; 010 to 050 show a marker image once"
+- id: 070-editor-7
+  severity: wrong
+  file: content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md
+  field: "body, the @image line"
+  replaces: clause
+  old: "@image orleans-8-may-procession-8a3262"
+  new: ""
+  source: "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 070-after-her/060-afterwards/markers.yaml shows orleans-8-may-procession-8a3262 on the marker orleans-8-may"
+  kind: image
+  introduced: images
+  owner: editor
+  state: fixed
+  between: "060-afterwards shows orleans-8-may-procession-8a3262 twice, on the marker orleans-8-may and in the text; 010 to 050 show a marker image once"

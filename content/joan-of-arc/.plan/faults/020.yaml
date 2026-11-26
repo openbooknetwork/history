@@ -917,3 +917,94 @@
   introduced: review
   owner: section-reviewer
   state: fixed
+- id: 020-editor-4
+  severity: weak
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/010-the-voices/text/en.md
+  field: "body, paragraph 4"
+  replaces: clause
+  old: "remembered it in 1456."
+  new: "remembered it at the retrial."
+  source: "rules.md, Evidence, \"The two trials are primary sources with a side\": a text or a note says \"at the retrial\" and gives a deposition no year (decisions.md, cloud ruling: Murray heads the depositions 1455, 1455-6 and 1456 by place and no file dates each one)"
+  kind: attribution
+  introduced: texts
+  owner: editor
+  state: fixed
+  between: "020 the-voices against 050 and 060, which give a witness of the retrial no year"
+- id: 020-editor-5
+  severity: weak
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/030-vaucouleurs-again/text/en.md
+  field: "body, paragraph 1"
+  replaces: clause
+  old: "as Catherine said in 1456."
+  new: "as Catherine said at the retrial."
+  source: "rules.md, Evidence, \"The two trials are primary sources with a side\": a text or a note says \"at the retrial\" and gives a deposition no year (decisions.md, cloud ruling: Murray heads the depositions 1455, 1455-6 and 1456 by place and no file dates each one)"
+  kind: attribution
+  introduced: texts
+  owner: editor
+  state: fixed
+  between: "020 vaucouleurs-again against 050 and 060, as 020-editor-4"
+- id: 020-editor-6
+  severity: taste
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/020-salisbury-on-the-loire/text/en.md
+  field: "body, paragraph 3"
+  replaces: clause
+  old: "The Earl of Suffolk takes command."
+  new: "William de la Pole, Earl of Suffolk, takes command."
+  source: "names.md, the row \"William de la Pole, Earl of Suffolk; Suffolk\": first named in 020 (020.20), the full form at the first mention, \"Suffolk\" after it"
+  kind: wording
+  introduced: texts
+  owner: editor
+  state: fixed
+  between: "020 salisbury-on-the-loire is the first page to name him; 030 the-army-of-blois and 040 jargeau name him after it"
+- id: 020-editor-7
+  severity: taste
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/text/en.md
+  field: "body, paragraph 5"
+  replaces: clause
+  old: "gathers under La Hire and the marshals"
+  new: "gathers under the Gascon captain La Hire and the marshals"
+  source: "names.md, the row \"La Hire\": Étienne de Vignolles, called La Hire, a Gascon captain, first named in 020 (020.58); 030 from-blois gives \"the Gascon captain La Hire\" a page later"
+  kind: wording
+  introduced: texts
+  owner: editor
+  state: fixed
+  between: "020 chinon-and-poitiers first names La Hire with no word on who he is; 030 from-blois introduces him"
+- id: 020-editor-8
+  severity: taste
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/text/en.md
+  field: "body, paragraph 2"
+  replaces: clause
+  old: "she told her judges, and she would say no more."
+  new: "she told her judges, and at first she would say no more."
+  source: "Barrett (content/joan-of-arc/.references/sourcebooks.web.fordham.edu-basis-joanofarc-trial.asp.txt), line 1868: asked the sign, \"You will not get it from me\"; lines 2235-2266 and 2527-2566: in March she tells of the angel who brought the sign (060.43), which 060 the-questioning gives"
+  kind: order
+  introduced: texts
+  owner: editor
+  state: fixed
+  between: "020 chinon-and-poitiers says she would say no more of the sign; 060 the-questioning has her tell of the angel and the crown on 13 March"
+- id: 020-editor-9
+  severity: wrong
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/text/en.md
+  field: "body, paragraph 5"
+  replaces: clause
+  old: "There the convoy for besieged Orléans gathers"
+  new: "There the convoy for Orléans gathers"
+  source: "node scripts/rules-lint.mjs joan-of-arc: 020-rules-lint-1, the body runs 352 words after 020-editor-7 and 020-editor-8, 2 over the hard limit of agents/text.md, 7"
+  kind: wording
+  introduced: fix
+  owner: editor
+  state: fixed
+  between: "020 chinon-and-poitiers alone: the words the introduction of La Hire and the account of the sign took"
+- id: 020-editor-10
+  severity: wrong
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/text/en.md
+  field: "body, paragraph 3"
+  replaces: clause
+  old: "Her letter telling the English before Orléans to go home"
+  new: "Her letter bidding the English before Orléans go home"
+  source: "node scripts/rules-lint.mjs joan-of-arc: 020-rules-lint-1, the body runs 352 words after 020-editor-7 and 020-editor-8, 2 over the hard limit of agents/text.md, 7"
+  kind: wording
+  introduced: fix
+  owner: editor
+  state: fixed
+  between: "020 chinon-and-poitiers alone: the words the introduction of La Hire and the account of the sign took"

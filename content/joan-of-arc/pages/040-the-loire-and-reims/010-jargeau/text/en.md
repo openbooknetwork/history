@@ -2,7 +2,7 @@ Early in June 1429 Charles VII's council gives the army to the Duke of Alençon,
 
 By the town's accounts she is back in [Orléans](@orleans-june-1429) on 9 June. On Saturday 11 June the army marches out for [Jargeau](@jargeau-stormed), twelve miles up the river by Lowell's reckoning.\* William de la Pole, Earl of Suffolk, holds it for the English.\*\* That afternoon the common people rush the ditches on their own and are thrown back. In the night the guns are set up.
 
-Suffolk asks for a fortnight's delay, to yield if no help comes. The captains refuse. Joan told her judges in 1431 that she would have let the garrison go in their doublets with their lives. On Sunday 12 June the town is stormed after three or four hours. Alençon remembered in 1456 that Joan was on a ladder with her standard when a stone struck her head. She falls, gets up and urges the men on.
+Suffolk asks for a fortnight's delay, to yield if no help comes. The captains refuse. Joan told her judges in 1431 that she would have let the garrison go in their doublets with their lives. On Sunday 12 June the town is stormed after three or four hours. Alençon remembered at the retrial that Joan was on a ladder with her standard when a stone struck her head. She falls, gets up and urges the men on.
 
 Suffolk yields to a squire, Guillaume Regnault, after knighting him, says Jean Chartier, a chronicler of Charles VII. His brother Alexander de la Pole is killed, and another brother is taken with him. The town and its church are plundered. Prisoners are killed on the road to Orléans in a quarrel among the French: most of them by Chartier's account, some by Lowell's and Lang's.
 

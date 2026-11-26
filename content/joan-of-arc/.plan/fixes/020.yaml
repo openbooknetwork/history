@@ -633,3 +633,52 @@
   old: "Charles II, Duke of Lorraine ... 010 (010.17); Thomas Montagu, Earl of Salisbury ... 010 (010.59); Louis de Bourbon, Count of Vendôme ... 010 (010.29); René of Anjou ... 010 (010.17); Dunois ... 070 (070.23); the Continuator of Guillaume de Nangis ... 020 (020.43); Gien ... 010 (010.68); Chinon ... 010 (010.68)"
   new: "Charles II, Duke of Lorraine; the Duke of Lorraine ... 010 (010.17); Thomas Montagu, Earl of Salisbury; Salisbury ... 010 (010.59); Louis de Bourbon, Count of Vendôme; Vendôme ... 020 (020.50); René of Anjou; René, Duke of Bar ... 020 (020.34); Dunois ... 020 (020.21, as \"later Count of Dunois\"); the Continuator of Guillaume de Nangis; the French Continuator of Guillaume de Nangis ... 020 (020.43); Gien ... 020 (020.46); Chinon ... 020 (020.43). The Loire's row already passed, and Nangis keeps 050 now that the Continuator's row holds the form 020 writes"
   commit: 96eeaec1
+- fault: 020-editor-4
+  by: editor
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/010-the-voices/text/en.md
+  field: "body, paragraph 4"
+  old: "remembered it in 1456."
+  new: "remembered it at the retrial."
+  commit: aa448627
+- fault: 020-editor-5
+  by: editor
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/030-vaucouleurs-again/text/en.md
+  field: "body, paragraph 1"
+  old: "as Catherine said in 1456."
+  new: "as Catherine said at the retrial."
+  commit: aa448627
+- fault: 020-editor-6
+  by: editor
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/020-salisbury-on-the-loire/text/en.md
+  field: "body, paragraph 3"
+  old: "The Earl of Suffolk takes command."
+  new: "William de la Pole, Earl of Suffolk, takes command."
+  commit: aa448627
+- fault: 020-editor-7
+  by: editor
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/text/en.md
+  field: "body, paragraph 5"
+  old: "gathers under La Hire and the marshals"
+  new: "gathers under the Gascon captain La Hire and the marshals"
+  commit: aa448627
+- fault: 020-editor-8
+  by: editor
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/text/en.md
+  field: "body, paragraph 2"
+  old: "she told her judges, and she would say no more."
+  new: "she told her judges, and at first she would say no more."
+  commit: aa448627
+- fault: 020-editor-9
+  by: editor
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/text/en.md
+  field: "body, paragraph 5"
+  old: "There the convoy for besieged Orléans gathers"
+  new: "There the convoy for Orléans gathers"
+  commit: aa448627
+- fault: 020-editor-10
+  by: editor
+  file: content/joan-of-arc/pages/020-the-road-to-chinon/050-chinon-and-poitiers/text/en.md
+  field: "body, paragraph 3"
+  old: "Her letter telling the English before Orléans to go home"
+  new: "Her letter bidding the English before Orléans go home"
+  commit: aa448627

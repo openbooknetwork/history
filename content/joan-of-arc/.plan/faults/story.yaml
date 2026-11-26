@@ -390,3 +390,15 @@
   introduced: images
   owner: overseer
   state: fixed
+- id: story-editor-7
+  severity: taste
+  file: content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/markers.yaml
+  field: the markers of sold-to-the-english
+  new: "Sens leaves the English zone between 050 compiegne (english-sep-1429) and 060 (english-1430) and no page tells it: 040 the-towns-come-over marks sens-1429 English, 050 back-to-the-loire has Sens shut the king out in September 1429, and the change shows on sold-to-the-english at a phone's frame (story-map-auditor-10). Proposed: leave it, since no desktop frame of 060 shows Sens; or a marker sens-1430 in the king's colour on sold-to-the-english with a clause of the text after 070.58, Beaucourt's alone, that Charles VII spends August and September 1430 at Sens"
+  source: "research.md 070.58, single (Beaucourt 2, book 2 ch. 6, p. 267): \"le Roi resta à Sens, où il passa les mois d'août et de septembre\" (1430); brief.md, Map, the row english-1430: Melun and Sens gone"
+  kind: map
+  introduced: map-design
+  owner: overseer
+  state: declined
+  between: "050 compiegne and 060 beaulieu-and-beaurevoir / sold-to-the-english: the circle of Sens goes from the English zone with no page that tells it"
+  ruling: "cloud ruling: left as it is. The zone is right by 070.58, the change shows only on a phone-sized view of one page, and a marker and a clause for it would be a run of two makers for a town the page does not tell"

@@ -1016,3 +1016,42 @@
   introduced: plan
   owner: section-coordinator
   state: fixed
+- id: 010-editor-1
+  severity: weak
+  file: content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md
+  field: "body, paragraph 2"
+  replaces: clause
+  old: "In 1455, questioned in the village for the retrial, her godfather"
+  new: "Questioned in the village for the retrial, her godfather"
+  source: "rules.md, Evidence, \"The two trials are primary sources with a side\": a text or a note says \"at the retrial\" and gives a deposition no year (decisions.md, cloud ruling: Murray heads the depositions 1455, 1455-6 and 1456 by place and no file dates each one)"
+  kind: attribution
+  introduced: texts
+  owner: editor
+  state: fixed
+  between: "010 domremy against 060 the-old-market and 050 saint-pierre-and-la-charite, which give a witness of the retrial no year"
+- id: 010-editor-2
+  severity: weak
+  file: content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md
+  field: "body, paragraph 2"
+  replaces: clause
+  old: "remembered them in 1455 as people who worked the land"
+  new: "told the same inquiry that they were people who worked the land"
+  source: "rules.md, Evidence, \"The two trials are primary sources with a side\": a text or a note says \"at the retrial\" and gives a deposition no year (decisions.md, cloud ruling: Murray heads the depositions 1455, 1455-6 and 1456 by place and no file dates each one)"
+  kind: attribution
+  introduced: texts
+  owner: editor
+  state: fixed
+  between: "010 domremy against 050 and 060, as 010-editor-1"
+- id: 010-editor-3
+  severity: weak
+  file: content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md
+  field: "Notes, the first note"
+  replaces: clause
+  old: "Jean Morel told the inquiry of 1455 that"
+  new: "Jean Morel told the retrial that"
+  source: "rules.md, Evidence, \"The two trials are primary sources with a side\": a text or a note says \"at the retrial\" and gives a deposition no year (decisions.md, cloud ruling: Murray heads the depositions 1455, 1455-6 and 1456 by place and no file dates each one)"
+  kind: attribution
+  introduced: texts
+  owner: editor
+  state: fixed
+  between: "010 domremy against 050 and 060, as 010-editor-1"

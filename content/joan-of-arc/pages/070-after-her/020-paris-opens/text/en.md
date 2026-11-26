@@ -6,8 +6,6 @@ On Friday 13 April 1436 Richemont's men come before [the Porte Saint-Jacques](@p
 
 The English troops, under Lord Willoughby and Louis of Luxembourg, Bishop of Thérouanne, shut themselves up in [the Bastille Saint-Antoine](@bastille-1436). They come to terms with the constable, and on 17 April they march out under his safe-conduct while the Parisians jeer at them. By Monstrelet's account they go on to Rouen by land and by water. Paris, Henry VI's capital since 1422, is now Charles VII's.
 
-@image bastille-saint-antoine-view-8a49b8
-
 The map shows what the English hold after 13 April 1436, drawn approximately from the places the sources name: Normandy without Dieppe and the Caux, most of Maine, Calais and Gascony, and, round Paris, Meaux, Creil, Montereau and Mantes, with Beaumont-sur-Oise and Crépy, which the English won back in 1434. Chartres, which the Bastard of Orléans took in April 1432, and the bridge of Meulan, lost in September 1435, are the king's. The constable's march runs only from Pontoise to Saint-Denis, since no source gives his road.
 
 ### Notes

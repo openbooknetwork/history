@@ -1,6 +1,6 @@
 On 27 or 28 April 1429 the convoy for besieged Orléans sets out from [Blois](@blois), its priests walking ahead and singing hymns.\* Gilles de Rais and Boussac, both marshals of France, lead the escort, with the admiral de Culant, the Gascon captain La Hire and Ambroise de Loré. Joan rides with them, brought here by Raoul de Gaucourt, governor of Orléans.
 
-She wants to go straight through the Beauce, on the north bank, but the English are strongest there, so the captains take the south bank through the Sologne without telling her. On 28 April the convoy passes Olivet, opposite the city.\*\* The Bastard of Orléans (later Count of Dunois), commanding in the city, crosses to meet her. In his account of 1456 she asks at once whether it was he who had her brought this way.
+She wants to go straight through the Beauce, on the north bank, but the English are strongest there, so the captains take the south bank through the Sologne without telling her. On 28 April the convoy passes Olivet, opposite the city.\*\* The Bastard of Orléans (later Count of Dunois), commanding in the city, crosses to meet her. In his account at the retrial she asks at once whether it was he who had her brought this way.
 
 The supplies go by water: boats from the city are loaded upstream, before [Chécy](@checy), at the Île-aux-Bourdons, says the Orléans chronicle of the feast of 8 May.\*\*\* The contrary wind turns, and the laden boats sail down past the bastilles, the English siege forts, while the garrison skirmishes before the one at Saint-Loup.
 

@@ -1172,3 +1172,68 @@
   introduced: fix
   owner: map-auditor
   state: fixed
+- id: 060-editor-2
+  severity: wrong
+  file: content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md
+  field: "body, the @image line"
+  replaces: clause
+  old: "@image beaurevoir-tower-cc03c4"
+  new: ""
+  source: "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 060-rouen/010-beaulieu-and-beaurevoir/markers.yaml shows beaurevoir-tower-cc03c4 on the marker beaurevoir-1430"
+  kind: image
+  introduced: images
+  owner: editor
+  state: fixed
+  between: "010-beaulieu-and-beaurevoir shows beaurevoir-tower-cc03c4 twice, on the marker beaurevoir-1430 and in the text; 010 to 050 show a marker image once"
+- id: 060-editor-3
+  severity: wrong
+  file: content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md
+  field: "body, the @image line"
+  replaces: clause
+  old: "@image le-crotoy-bay-7e7c58"
+  new: ""
+  source: "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 060-rouen/020-sold-to-the-english/markers.yaml shows le-crotoy-bay-7e7c58 on the marker le-crotoy-1430"
+  kind: image
+  introduced: images
+  owner: editor
+  state: fixed
+  between: "020-sold-to-the-english shows le-crotoy-bay-7e7c58 twice, on the marker le-crotoy-1430 and in the text; 010 to 050 show a marker image once"
+- id: 060-editor-4
+  severity: wrong
+  file: content/joan-of-arc/pages/060-rouen/040-the-questioning/text/en.md
+  field: "body, the @image line"
+  replaces: clause
+  old: "@image rouen-castle-keep-370a86"
+  new: ""
+  source: "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 060-rouen/040-the-questioning/markers.yaml shows rouen-castle-keep-370a86 on the marker great-tower-1431"
+  kind: image
+  introduced: images
+  owner: editor
+  state: fixed
+  between: "040-the-questioning shows rouen-castle-keep-370a86 twice, on the marker great-tower-1431 and in the text; 010 to 050 show a marker image once"
+- id: 060-editor-5
+  severity: wrong
+  file: content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md
+  field: "body, the @image line"
+  replaces: clause
+  old: "@image saint-ouen-abbey-church-6d9f2b"
+  new: ""
+  source: "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 060-rouen/050-saint-ouen/markers.yaml shows saint-ouen-abbey-church-6d9f2b on the marker saint-ouen-1431"
+  kind: image
+  introduced: images
+  owner: editor
+  state: fixed
+  between: "050-saint-ouen shows saint-ouen-abbey-church-6d9f2b twice, on the marker saint-ouen-1431 and in the text; 010 to 050 show a marker image once"
+- id: 060-editor-6
+  severity: wrong
+  file: content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md
+  field: "body, the @image line"
+  replaces: clause
+  old: "@image vieux-marche-pyre-97466c"
+  new: ""
+  source: "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 060-rouen/060-the-old-market/markers.yaml shows vieux-marche-pyre-97466c on the marker old-market-1431"
+  kind: image
+  introduced: images
+  owner: editor
+  state: fixed
+  between: "060-the-old-market shows vieux-marche-pyre-97466c twice, on the marker old-market-1431 and in the text; 010 to 050 show a marker image once"

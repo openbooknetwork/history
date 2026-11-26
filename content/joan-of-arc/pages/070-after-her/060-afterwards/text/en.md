@@ -1,7 +1,5 @@
 After Joan and the French relieve [Orléans](@orleans-8-may) in May 1429, its bishop, the Bastard of Orléans (later Count of Dunois) and the townspeople decide that each year on 8 May a procession shall walk with candles to the Augustins, stopping to pray wherever there had been fighting. The city accounts pay for it in 1435, and that year, as Quicherat prints them, two men are given money toward the stages on which they played a "certain mistère" at the bridge during the procession.
 
-@image orleans-8-may-procession-8a3262
-
 A fortnight after the sentence of 1456, Lowell writes, the court orders a procession at Orléans too, with two of the judges in it. In 1896 he could say that the procession of 8 May had been kept almost without a break for more than 450 years.
 
 Aeneas Sylvius Piccolomini, later Pope Pius II, wrote of her as a girl inspired by the divine spirit, and Archbishop Antoninus of Florence held her to be led by the spirit of God; the bull of 1920 quotes them both. Thurston writes in 1910 that in England she was thought a witch as late as Shakespeare's time, yet by the nineteenth century Southey, Hallam, Carlyle and De Quincey were among the English writers who paid her honour.

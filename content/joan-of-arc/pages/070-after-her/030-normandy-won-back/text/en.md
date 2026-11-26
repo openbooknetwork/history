@@ -1,10 +1,6 @@
 In May 1444 England and France agree a general truce at Tours, where Margaret of Anjou is betrothed to Henry VI by proxy on 24 May.\* On 24 March 1449 the truce is broken. English soldiers from the garrisons of Normandy under François de Surienne seize and sack [Fougères](@fougeres-1449) in Brittany. French captains take Pont-de-l'Arche, Conches and Gerberoy in reprisal, and Charles VII's armies march into Normandy.
 
-@image fougeres-castle-2070d6
-
 On 19 October 1449 the people of [Rouen](@rouen-1449) rise. Edmund Beaufort, Duke of Somerset, the English lieutenant in Normandy, gives up the city by terms signed on 29 October, and on 10 November Charles VII makes his entry. When the year ends, Ramsay counts nine places left to the English: Fresnay, Domfront, Vire, Falaise, Honfleur, [Caen](@caen-1450), Bayeux, Saint-Sauveur and [Cherbourg](@cherbourg-1450). The map draws the English lands round these towns. Maine, English on the map of 1436, is the king's on this one, all but Fresnay.
-
-@image rouen-1449-entry-miniature-35d59e
 
 About 15 March 1450 Sir Thomas Kyriell lands at Cherbourg with the last English relief army for Normandy. He takes Valognes, is joined by men of the garrisons under Matthew Gough, and on 14 April crosses the Fords of Saint-Clément below Carentan. John, Count of Clermont, the Duke of Bourbon's son, commanding in Lower Normandy, follows from Carentan by Isigny, and Arthur de Richemont, the Constable, comes from Saint-Lô.
 

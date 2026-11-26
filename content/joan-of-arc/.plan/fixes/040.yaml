@@ -572,3 +572,24 @@
   old: "He goes on by Vailly on 22 July; names Laon, Sens and Provins"
   new: "He goes on by [Vailly](@vailly-1429) on 22 July; names Laon, [Sens](@sens-1429) and Provins"
   commit: 4d0c9294
+- fault: 040-editor-1
+  by: editor
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/010-jargeau/text/en.md
+  field: "body, paragraph 3"
+  old: "Alençon remembered in 1456 that"
+  new: "Alençon remembered at the retrial that"
+  commit: aa448627
+- fault: 040-editor-2
+  by: editor
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/030-patay/text/en.md
+  field: "body, paragraph 1"
+  old: "remembered it in 1456."
+  new: "remembered it at the retrial."
+  commit: aa448627
+- fault: 040-editor-3
+  by: editor
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/060-the-towns-come-over/text/en.md
+  field: "body, paragraph 3"
+  old: "brought by Cardinal Beaufort."
+  new: "brought by Henry VI's great-uncle, Cardinal Beaufort."
+  commit: aa448627

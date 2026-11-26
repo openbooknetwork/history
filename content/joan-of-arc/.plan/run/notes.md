@@ -1,2 +1,5 @@
 - 26 Nov 2026, session start: the first build of the story ends `error: content/joan-of-arc: no pages`, since no page exists before `maps`; no cache could be warmed, and the run went on.
 - 26 Nov 2026, survey: the Agent call for the research-coordinator carried `run_in_background: false` and still started in the background; the overseer held its turn by watching for the agent's report file.
+- 26 Nov 2026, survey: `harita sources` took an Anubis bot-wall page for the article at seven addresses and wrote some 550 characters of the wall as the text without printing FAILED; the coordinator commented those lines out of `references.urls` by hand.
+- 26 Nov 2026, survey: two Project Gutenberg addresses answered 503 and were replaced by archive.org's copies; eight Wikipedia titles the coordinator guessed do not exist.
+- 26 Nov 2026, survey: a Stop hook asked for a commit of untracked files while the coordinator still ran, so the branch has one commit "survey, in progress" before the step's own.

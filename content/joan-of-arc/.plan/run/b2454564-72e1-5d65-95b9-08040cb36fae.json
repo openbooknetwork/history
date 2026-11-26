@@ -1,0 +1,104 @@
+{
+ "variant": null,
+ "story": "joan-of-arc",
+ "pages": null,
+ "order": [
+  "brief",
+  "survey",
+  "final-brief",
+  "pre-plans",
+  "pre-plan-check",
+  "research",
+  "names",
+  "map-design",
+  "plans",
+  "plan-check",
+  "maps",
+  "texts",
+  "phases",
+  "images",
+  "facts",
+  "edit",
+  "story",
+  "name-forms",
+  "translation"
+ ],
+ "agents": [
+  {
+   "agent": "b2454564-72e1-5d65-95b9-08040cb36fae",
+   "role": "overseer",
+   "parent": "-",
+   "model": "claude-fable-5-2",
+   "start": "2026-11-26T08:58:19.988Z",
+   "end": "2026-11-26T09:22:02.623Z",
+   "description": ""
+  },
+  {
+   "agent": "aed2b96c546e77c39",
+   "role": "research-coordinator",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T08:58:44.533Z",
+   "end": "2026-11-26T09:21:45.071Z",
+   "description": "survey all research-coordinator survey"
+  }
+ ],
+ "usage": [
+  {
+   "agent": "b2454564-72e1-5d65-95b9-08040cb36fae",
+   "role": "overseer",
+   "parent": "-",
+   "model": "claude-fable-5-2",
+   "step": "-",
+   "section": "-",
+   "turns": 19,
+   "peak": 129801,
+   "input": 40,
+   "cacheWrite": 71291,
+   "cacheRead": 2045418,
+   "output": 6761
+  },
+  {
+   "agent": "aed2b96c546e77c39",
+   "role": "research-coordinator",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "survey",
+   "section": "-",
+   "turns": 70,
+   "peak": 225725,
+   "input": 140,
+   "cacheWrite": 225723,
+   "cacheRead": 8375088,
+   "output": 92391
+  }
+ ],
+ "reports": [
+  {
+   "agent": "aed2b96c546e77c39",
+   "role": "research-coordinator",
+   "step": "survey",
+   "section": "-",
+   "status": "pass",
+   "changed": 3,
+   "unresolved": 3,
+   "faults": []
+  }
+ ],
+ "dispatches": [
+  {
+   "role": "research-coordinator",
+   "description": "survey all research-coordinator survey",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "all",
+    "step": "survey",
+    "task": "survey",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/survey-research-coordinator",
+    "serve": "static"
+   },
+   "problems": []
+  }
+ ],
+ "fixes": []
+}

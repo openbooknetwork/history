@@ -57,3 +57,24 @@
     pages/060-rouen/060-the-old-market/routes/joan-1431-old-market.geojson: 1f9789b3a73673d0
     faults#open: fd31fa1de94cef1f
   means: 848aa8371aa61473
+- task: recheck
+  step: maps
+  at: '2026-11-26T15:30:51.285Z'
+  before: null
+  inputs:
+    rules.md: f4e3e6384d946998
+    brief.md#060: fdeb2e7437259a83
+    research.md#060: a702a96c2238f393
+    060-rouen/pages.yaml#beaulieu-and-beaurevoir: 3aff44f1978c5c63
+    060-rouen/pages.yaml#sold-to-the-english: 661269244a1d1f31
+    060-rouen/pages.yaml#the-court: 867c0abfdcd2fe3c
+    060-rouen/pages.yaml#the-questioning: 037d5bbe926392f0
+    060-rouen/pages.yaml#saint-ouen: 577716f27bbd2bbc
+    060-rouen/pages.yaml#the-old-market: eab1ea706b6397a5
+    060-rouen/map.yaml#beaulieu-and-beaurevoir: ebc472fe8d783e6d
+    060-rouen/map.yaml#sold-to-the-english: 5b143874d10d609b
+    060-rouen/map.yaml#the-court: 2aebd95ff4330cd3
+    060-rouen/map.yaml#the-questioning: 8ab9d8524076c298
+    060-rouen/map.yaml#saint-ouen: 0a1390756e0224a9
+    060-rouen/map.yaml#the-old-market: 53cefa1535839624
+    ground.yaml: 5f1877de62406243

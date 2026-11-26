@@ -284,3 +284,9 @@
 - cloud ruling: a deposition of the retrial is given no year, and the rule of `rules.md` says "at the retrial" — Murray
   heads the depositions 1455, 1455-6 and 1456 by place, perhaps in the old style, and no file dates each one. Five
   texts of 020, 030 and 040 still say 1456 of a witness; the editor reads them against the rule at `edit`.
+- section 050: done, 26 Nov 2026, maps to facts. 6 pages drawn, audited (recheck pass, with four marker notes shortened
+  so each name stands by its icon), written, with 10 images found, fact-checked, reviewed and rechecked (pass). No
+  fault of `faults/050.yaml` is open.
+- facts 060: the cartographer fixed its six faults: markers for the places the texts name on five pages, and the date
+  of `the-court`, now January to April 1431. The archbishop's palace and the church of Saint-Sauveur are
+  reconstructions. At city scale the base map draws no Seine, so a label alone marks it on `the-old-market`.

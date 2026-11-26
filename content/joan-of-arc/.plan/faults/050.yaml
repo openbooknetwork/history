@@ -1130,3 +1130,31 @@
   introduced: fix
   owner: cartographer
   state: fixed
+- id: 050-map-auditor-5
+  severity: taste
+  file: content/joan-of-arc/.plans/pages050.mjs
+  field: 'pages[back-to-the-loire].markers[bray-1429].note, pages[melun-and-lagny].markers[sully-1430].note, pages[compiegne].markers[crepy-1430].note and pages[compiegne].markers[coudun-1430].note (and so their pages'' markers.yaml, rerun)'
+  replaces: value
+  old: >-
+    bray-1429: "Held against Charles VII in August, it yields to him on his way south in September 1429, and his army
+    crosses the Seine by its bridge"; sully-1430: "Charles VII's court is here late in March 1430, when Joan leaves it
+    with her small household without his leave"; crepy-1430: "Joan hears here that the Duke of Burgundy and the Earl of
+    Arundel besiege Compiègne, and rides out about midnight with her company, May 1430"; coudun-1430: "The Duke of
+    Burgundy's quarters, a league from Compiègne, whence he writes to Saint-Quentin of Joan's capture; he arrives after
+    she is taken and speaks with her"
+  new: >-
+    bray-1429: "Shut against Charles VII in August, it opens to him in September 1429 and his army crosses here";
+    sully-1430: "The court is here late in March 1430, when Joan leaves it without the king's leave"; crepy-1430: "Joan
+    hears of the siege here and rides out about midnight, May 1430"; coudun-1430: "The Duke of Burgundy's quarters, a
+    league from Compiègne"
+  source: >-
+    the captures of node scripts/audit-pack.mjs joan-of-arc 050 (pack/shots): each long note made a label block wider
+    than the room beside its icon, and the block was pushed off it, so the name stood far from its place: Bray's label
+    some 220 px west of its icon in the English land, Sully's 190 px east, Crépy's 240 px east beside Soissons' label,
+    Coudun's 270 px east. The recapture (pack2/shots) has Bray's label on its icon and the notes of Sully, Crépy and
+    Coudun starting beside theirs. What the notes drop the page texts tell (050.29, 050.44, 050.55, 050.56, 050.66);
+    research/050.md, 050.29, 050.44, 050.55, 050.56 carry what stays.
+  kind: map
+  introduced: maps
+  owner: map-auditor
+  state: fixed

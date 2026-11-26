@@ -57,3 +57,13 @@
 - A marker near a page's south-west corner falls under the legend on a laptop (bottom-left about 220 by 330 px):
   050's compiegne put Crépy 5 km inside its south edge and lost it; the south edge went from 49.18 to 49.05. Leave
   some 0.1 to 0.15 degrees below such a place in a frame of this size.
+- At the scale of a city (060's Rouen pages) the base map draws no river at all: widening a frame does not show
+  the Seine. A river the text names gets a label marker, icon `waves` and no colour (060's `seine-1431`,
+  `somme-1430`), and the base map shows nothing else of it.
+- names-check fails "the morning" and "the church is gone" in a note: write "eight o'clock on 30 May", "it is gone".
+- A town marker added on top of a route's start (060's Compiègne over Clairoix) takes no rank, so the start leads.
+- Section 070 is `content/joan-of-arc/.plans/pages070.mjs`, built on 060's. Its new points: Isigny [-1.10, 49.317],
+  Trévières [-0.906, 49.309], the Fords of Saint-Clément at the head of the Baie des Veys [-1.17, 49.315] (on the
+  base map's land; route-surface passes it), the Médoc landing [-1.11, 45.49] with [-0.93, 45.25] to keep west of
+  the Gironde, Branne [-0.186, 44.829]. Clermont's and Kyriell's lines share the stretch to Formigny, so Clermont's
+  route carries `offset: 5`. names-check fails "the witnesses of ..." in a note: write "witnesses of ...".

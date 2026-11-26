@@ -653,3 +653,199 @@
   old: "On the map her road only joins the two places, since no source gives the streets."
   new: ""
   commit: 6c6d72c8
+- fault: 060-section-reviewer-13
+  by: cartographer
+  file: content/joan-of-arc/.plans/pages060.mjs
+  field: beaulieu-and-beaurevoir.markers
+  old: "beaulieu-1430, beaurevoir-1430, clairoix-beaulieu-1430"
+  new: "the same, with compiegne-summons-1430 (Compiègne [2.83, 49.42], france), noyon-1430 (Noyon [3.0, 49.58], burgundy) and saint-quentin-1430 (Saint-Quentin [3.29, 49.85], burgundy), written to markers.yaml and page.yaml of 010-beaulieu-and-beaurevoir"
+  commit: 7c8529c8
+- fault: 060-section-reviewer-13
+  by: cartographer
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: beaulieu-and-beaurevoir.markers
+  old: "[beaulieu-1430, beaurevoir-1430, clairoix-beaulieu-1430]"
+  new: "[beaulieu-1430, beaurevoir-1430, clairoix-beaulieu-1430, compiegne-summons-1430, noyon-1430, saint-quentin-1430]"
+  commit: 7c8529c8
+- fault: 060-section-reviewer-13
+  by: cartographer
+  file: content/joan-of-arc/.plan/060-rouen/map.yaml
+  field: beaulieu-and-beaurevoir.markers, beaulieu-and-beaurevoir.unmarked
+  old: "unmarked: Compiègne, Noyon, Saint-Quentin"
+  new: "markers: compiegne-summons-1430, noyon-1430, saint-quentin-1430, each basis sourced with its what; the three unmarked entries removed"
+  commit: 7c8529c8
+- fault: 060-section-reviewer-13
+  by: cartographer
+  file: content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md
+  field: body
+  old: "capture at Compiègne in May ... near Noyon. ... near Saint-Quentin,"
+  new: "capture at [Compiègne](@compiegne-summons-1430) in May ... near [Noyon](@noyon-1430). ... near [Saint-Quentin](@saint-quentin-1430),"
+  commit: 7c8529c8
+- fault: 060-section-reviewer-14
+  by: cartographer
+  file: content/joan-of-arc/.plans/pages060.mjs
+  field: sold-to-the-english.bbox, sold-to-the-english.markers
+  old: "bbox: [0.85, 49.2, 3.6, 50.55]; markers arras-1430 ... drugy-1430"
+  new: "bbox: [0.85, 48.7, 3.6, 50.55], to take in Paris; markers the same with paris-university-1430 (Paris [2.352, 48.857], english, graduation-cap) and somme-1430 (the Somme, a waves label at Picquigny [2.144, 49.944])"
+  commit: 7c8529c8
+- fault: 060-section-reviewer-14
+  by: cartographer
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: sold-to-the-english.markers
+  old: "[arras-1430, le-crotoy-1430, rouen-1430, compiegne-relief-1430, beaurevoir-october-1430, drugy-1430]"
+  new: "[arras-1430, le-crotoy-1430, rouen-1430, compiegne-relief-1430, beaurevoir-october-1430, drugy-1430, paris-university-1430, somme-1430]"
+  commit: 7c8529c8
+- fault: 060-section-reviewer-14
+  by: cartographer
+  file: content/joan-of-arc/.plan/060-rouen/map.yaml
+  field: sold-to-the-english.bbox, sold-to-the-english.markers, sold-to-the-english.unmarked
+  old: "bbox: [0.85, 49.2, 3.6, 50.55]; unmarked: the Somme, Paris"
+  new: "bbox: [0.85, 48.7, 3.6, 50.55]; markers: paris-university-1430, somme-1430, each basis sourced; the two unmarked entries removed"
+  commit: 7c8529c8
+- fault: 060-section-reviewer-14
+  by: cartographer
+  file: content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md
+  field: body
+  old: "at the mouth of the Somme that ... wants her tried in Paris."
+  new: "at the mouth of [the Somme](@somme-1430) that ... wants her tried in [Paris](@paris-university-1430)."
+  commit: 7c8529c8
+- fault: 060-section-reviewer-15
+  by: cartographer
+  file: content/joan-of-arc/.plans/pages060.mjs
+  field: the-court.markers
+  old: "rouen-castle-1431, beauvais-1431, university-of-paris-1431"
+  new: "the same, with compiegne-diocese-1431 (Compiègne [2.83, 49.42], france)"
+  commit: 7c8529c8
+- fault: 060-section-reviewer-15
+  by: cartographer
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: the-court.markers
+  old: "[rouen-castle-1431, beauvais-1431, university-of-paris-1431]"
+  new: "[rouen-castle-1431, beauvais-1431, university-of-paris-1431, compiegne-diocese-1431]"
+  commit: 7c8529c8
+- fault: 060-section-reviewer-15
+  by: cartographer
+  file: content/joan-of-arc/.plan/060-rouen/map.yaml
+  field: the-court.markers, the-court.unmarked.Compiègne
+  old: "unmarked: Compiègne"
+  new: "markers: compiegne-diocese-1431, basis sourced, with its what"
+  commit: 7c8529c8
+- fault: 060-section-reviewer-15
+  by: cartographer
+  file: content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md
+  field: body
+  old: "her capture at Compiègne, which"
+  new: "her capture at [Compiègne](@compiegne-diocese-1431), which"
+  commit: 7c8529c8
+- fault: 060-section-reviewer-16
+  by: cartographer
+  file: content/joan-of-arc/.plans/pages060.mjs
+  field: saint-ouen.bbox, saint-ouen.markers
+  old: "bbox: [1.087, 49.4395, 1.104, 49.4485]; markers saint-ouen-1431, castle-relapse-1431"
+  new: "bbox: [1.082, 49.438, 1.104, 49.4485], to take in both and keep the Old Market clear of the legend; markers the same with archbishops-palace-1431 (the archbishop's palace [1.0957, 49.4402], reconstruction) and old-market-summons-1431 (the Old Market [1.0878, 49.4430])"
+  commit: 7c8529c8
+- fault: 060-section-reviewer-16
+  by: cartographer
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: saint-ouen.markers
+  old: "[saint-ouen-1431, castle-relapse-1431]"
+  new: "[saint-ouen-1431, castle-relapse-1431, archbishops-palace-1431, old-market-summons-1431]"
+  commit: 7c8529c8
+- fault: 060-section-reviewer-16
+  by: cartographer
+  file: content/joan-of-arc/.plan/060-rouen/map.yaml
+  field: saint-ouen.bbox, saint-ouen.markers, saint-ouen.unmarked
+  old: "bbox: [1.087, 49.4395, 1.104, 49.4485]; unmarked: the archiepiscopal chapel, the Old Market"
+  new: "bbox: [1.082, 49.438, 1.104, 49.4485]; markers: archbishops-palace-1431 (basis reconstruction, with its why), old-market-summons-1431 (basis sourced); the two unmarked entries removed"
+  commit: 7c8529c8
+- fault: 060-section-reviewer-16
+  by: cartographer
+  file: content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md
+  field: body
+  old: "meet in the archbishop's chapel in Rouen. They find her relapsed and summon her to the Old Market for"
+  new: "meet in the chapel of [the archbishop's palace](@archbishops-palace-1431) in Rouen. They find her relapsed and summon her to [the Old Market](@old-market-summons-1431) for"
+  commit: 7c8529c8
+- fault: 060-section-reviewer-17
+  by: cartographer
+  file: content/joan-of-arc/.plans/pages060.mjs
+  field: the-old-market.bbox, the-old-market.markers
+  old: "bbox: [1.083, 49.44, 1.0985, 49.4485]; markers castle-last-morning-1431, old-market-1431"
+  new: "bbox: [1.083, 49.433, 1.0985, 49.4485]; markers the same with saint-sauveur-1431 (the church of Saint-Sauveur [1.0874, 49.4435], reconstruction) and seine-1431 (the Seine, a waves label at [1.0885, 49.4368])"
+  commit: 7c8529c8
+- fault: 060-section-reviewer-17
+  by: cartographer
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: the-old-market.markers
+  old: "[castle-last-morning-1431, old-market-1431]"
+  new: "[castle-last-morning-1431, old-market-1431, saint-sauveur-1431, seine-1431]"
+  commit: 7c8529c8
+- fault: 060-section-reviewer-17
+  by: cartographer
+  file: content/joan-of-arc/.plan/060-rouen/map.yaml
+  field: the-old-market.bbox, the-old-market.markers, the-old-market.unmarked
+  old: "bbox: [1.083, 49.44, 1.0985, 49.4485]; unmarked: the church of Saint-Sauveur, the Seine, Saint-Sauveur"
+  new: "bbox: [1.083, 49.433, 1.0985, 49.4485]; markers: saint-sauveur-1431 (basis reconstruction, with its why), seine-1431 (basis sourced); the three unmarked entries removed"
+  commit: 7c8529c8
+- fault: 060-section-reviewer-17
+  by: cartographer
+  file: content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md
+  field: body
+  old: "near the church of Saint-Sauveur, she ... thrown into the Seine."
+  new: "near [the church of Saint-Sauveur](@saint-sauveur-1431), she ... thrown into [the Seine](@seine-1431)."
+  commit: 7c8529c8
+- fault: 060-overseer-1
+  by: cartographer
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: the-court.date
+  old: "January – February 1431"
+  new: "January – April 1431"
+  commit: 7c8529c8
+- fault: 060-overseer-1
+  by: cartographer
+  file: content/joan-of-arc/.plans/pages060.mjs
+  field: the-court date
+  old: "January – February 1431"
+  new: "January – April 1431"
+  commit: 7c8529c8
+- fault: 060-overseer-1
+  by: cartographer
+  file: content/joan-of-arc/pages/060-rouen/030-the-court/page.yaml
+  field: date
+  old: "January – February 1431"
+  new: "January – April 1431"
+  commit: 7c8529c8
+- fault: 060-fact-checker-30
+  by: fact-checker
+  file: content/joan-of-arc/.plans/pages060.mjs
+  field: pages[beaulieu-and-beaurevoir].markers.noyon-1430.note, and the same line of pages/060-rouen/010-beaulieu-and-beaurevoir/markers.yaml
+  old: "A Burgundian town of Picardy, near which stands Beaulieu (Ramsay)"
+  new: "A Burgundian town, near which stands Beaulieu (Ramsay)"
+  commit: 041baa8b
+- fault: 060-fact-checker-30
+  by: fact-checker
+  file: content/joan-of-arc/.plan/060-rouen/map.yaml
+  field: beaulieu-and-beaurevoir.markers.noyon-1430.what
+  old: "the Burgundian town of Picardy near which Ramsay puts Beaulieu"
+  new: "the Burgundian town near which Ramsay puts Beaulieu"
+  commit: 041baa8b
+- fault: 060-fact-checker-31
+  by: fact-checker
+  file: content/joan-of-arc/.plans/pages060.mjs
+  field: pages[the-old-market].markers.saint-sauveur-1431.note, and the same line of pages/060-rouen/060-the-old-market/markers.yaml
+  old: "Joan is set on a scaffold near it on 30 May 1431, and Jean Massieu has its cross brought for her to look at; it is gone"
+  new: "Joan is set on a scaffold near it on 30 May 1431, and Jean Massieu has its cross brought for her to look at"
+  commit: 041baa8b
+- fault: 060-fact-checker-31
+  by: fact-checker
+  file: content/joan-of-arc/.plan/060-rouen/map.yaml
+  field: the-old-market.markers.saint-sauveur-1431.what
+  old: "which the text names; it is gone; about 49.4435 N"
+  new: "which the text names; about 49.4435 N"
+  commit: 041baa8b
+- fault: 060-map-auditor-4
+  by: map-auditor
+  file: content/joan-of-arc/.plans/pages060.mjs
+  field: pages[the-court].markers.compiegne-diocese-1431.note, and the same line of pages/060-rouen/030-the-court/markers.yaml
+  old: "Joan is taken here in May 1430, in Pierre Cauchon's diocese by the record, in that of Soissons by Canon Dunand (Lang)"
+  new: "Joan is taken here in May 1430, in Cauchon's diocese by the record"
+  commit: 9df0afc0

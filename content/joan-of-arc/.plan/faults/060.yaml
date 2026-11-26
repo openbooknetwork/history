@@ -1080,7 +1080,7 @@
   kind: map
   introduced: plan
   owner: cartographer
-  state: open
+  state: fixed
 - id: 060-section-reviewer-14
   severity: weak
   file: content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/page.yaml
@@ -1090,7 +1090,7 @@
   kind: map
   introduced: plan
   owner: cartographer
-  state: open
+  state: fixed
 - id: 060-section-reviewer-15
   severity: weak
   file: content/joan-of-arc/pages/060-rouen/030-the-court/page.yaml
@@ -1100,7 +1100,7 @@
   kind: map
   introduced: plan
   owner: cartographer
-  state: open
+  state: fixed
 - id: 060-section-reviewer-16
   severity: weak
   file: content/joan-of-arc/pages/060-rouen/050-saint-ouen/page.yaml
@@ -1110,7 +1110,7 @@
   kind: map
   introduced: plan
   owner: cartographer
-  state: open
+  state: fixed
 - id: 060-section-reviewer-17
   severity: weak
   file: content/joan-of-arc/pages/060-rouen/060-the-old-market/page.yaml
@@ -1120,7 +1120,7 @@
   kind: map
   introduced: plan
   owner: cartographer
-  state: open
+  state: fixed
 - id: 060-overseer-1
   severity: weak
   file: content/joan-of-arc/.plan/060-rouen/pages.yaml
@@ -1132,4 +1132,43 @@
   kind: plan
   introduced: plan
   owner: cartographer
-  state: open
+  state: fixed
+- id: 060-fact-checker-30
+  severity: weak
+  file: content/joan-of-arc/.plans/pages060.mjs
+  field: "pages[beaulieu-and-beaurevoir].markers.noyon-1430.note (written to pages/060-rouen/010-beaulieu-and-beaurevoir/markers.yaml), and map.yaml beaulieu-and-beaurevoir.markers.noyon-1430.what"
+  replaces: clause
+  old: "A Burgundian town of Picardy, near which stands Beaulieu (Ramsay)"
+  new: "A Burgundian town, near which stands Beaulieu (Ramsay)"
+  source: "searched Ramsay, Lowell, Lang, France and .wikipedia for Noyon in Picardy: no file places it so. Its side stands: Lowell ch. 17 (archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, line 9196): \"Noyon, a town faithful to his party\"; Lang ch. 21 (line 10184): \"the Burgundian garrison of Noyon\"; Ramsay 1 ch. 29: \"Beaulieu near Noyon\""
+  kind: fact
+  claim: "060.2"
+  introduced: fix
+  owner: cartographer
+  state: fixed
+- id: 060-fact-checker-31
+  severity: weak
+  file: content/joan-of-arc/.plans/pages060.mjs
+  field: "pages[the-old-market].markers.saint-sauveur-1431.note (written to pages/060-rouen/060-the-old-market/markers.yaml), and map.yaml the-old-market.markers.saint-sauveur-1431.what"
+  replaces: clause
+  old: "Joan is set on a scaffold near it on 30 May 1431, and Jean Massieu has its cross brought for her to look at; it is gone"
+  new: "Joan is set on a scaffold near it on 30 May 1431, and Jean Massieu has its cross brought for her to look at"
+  source: "searched Murray, Lowell, the record, Church_of_St_Joan_of_Arc.wiki and Joan_of_Arc.wiki for the fate of the church of Saint-Sauveur: no file says it is gone. The rest stands: Murray, the first enquiry, Massieu (line 9483): \"Saint-Sauveur to bring it to her\"; Murray (line 8136): \"Market, in Rouen, near the Church of Saint Sauveur\""
+  kind: fact
+  claim: "060.63"
+  introduced: fix
+  owner: cartographer
+  state: fixed
+- id: 060-map-auditor-4
+  severity: weak
+  file: content/joan-of-arc/.plans/pages060.mjs
+  field: "pages[the-court].markers.compiegne-diocese-1431.note (written to pages/060-rouen/030-the-court/markers.yaml)"
+  replaces: value
+  old: "Joan is taken here in May 1430, in Pierre Cauchon's diocese by the record, in that of Soissons by Canon Dunand (Lang)"
+  new: "Joan is taken here in May 1430, in Cauchon's diocese by the record"
+  source: "agents/pages.md, Checking a story (captures); handoff/map-auditor.md: a long note on a marker near a frame's edge pushes its label block from its icon. Compiègne (2.83 E) stands 0.17 degrees inside the-court's east edge (3.0 E), and the 116-character note set the label \"Compiègne\" some 230 px west of its pin, right under the Beauvais shield, so it read as naming Beauvais (maps-060-map-auditor-recheck/pack/shots/the-court.png). With the short note the label stands east of Beauvais, tied to its pin (pack2/shots/the-court.png). The dispute of the diocese (060.31) stays in the text's note and in map.yaml's what"
+  kind: map
+  claim: "060.31"
+  introduced: fix
+  owner: map-auditor
+  state: fixed

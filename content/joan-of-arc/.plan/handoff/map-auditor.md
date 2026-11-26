@@ -15,3 +15,6 @@
   `content/<story>/.wikipedia/<title>.wiki` (`{{coord|...}}`): read a marker's place there.
 - A long note on a marker near a frame's edge pushes its label block far from the icon, and the label then seems
   to name the next marker. Shorten the note in the generator and recapture.
+- A label block also keeps clear of the legend. A marker just right of the legend, or above it, gets its block pushed
+  away from the icon: the note then starts beside the icon and the name sits far along it. Only a note short enough
+  to fit the room (about 60 to 80 characters) brings the name back (050's Sully, Crépy and Coudun).

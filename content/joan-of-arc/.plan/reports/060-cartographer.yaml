@@ -12,3 +12,17 @@
   faults: [060-cartographer-1, 060-cartographer-2]
   unresolved: []
   stale: []
+- step: facts
+  task: fix
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plans/pages060.mjs
+    - content/joan-of-arc/pages/060-rouen/
+    - content/joan-of-arc/.plan/060-rouen/pages.yaml
+    - content/joan-of-arc/.plan/060-rouen/map.yaml
+    - content/joan-of-arc/.plan/faults/060.yaml
+    - content/joan-of-arc/.plan/fixes/060.yaml
+    - content/joan-of-arc/.plan/handoff/cartographer.md
+  faults: []
+  unresolved: []
+  stale: []

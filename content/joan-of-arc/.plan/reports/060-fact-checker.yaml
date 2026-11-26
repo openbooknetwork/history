@@ -59,3 +59,18 @@
     - "060.57 the finding of relapse on 29 May: the record (Barrett), Thurston"
     - "060.60, 060.61 the burning on 30 May 1431 and the sentence: the record (Barrett), Lowell ch. 24, Lang ch. 26, the Bourgeois item 572"
   claims_checked: {beaulieu-and-beaurevoir: 22, sold-to-the-english: 21, the-court: 23, the-questioning: 20, saint-ouen: 22, the-old-market: 21}
+- step: facts
+  task: recheck
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plans/pages060.mjs
+    - content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/markers.yaml
+    - content/joan-of-arc/pages/060-rouen/060-the-old-market/markers.yaml
+    - content/joan-of-arc/.plan/060-rouen/map.yaml
+    - content/joan-of-arc/.plan/faults/060.yaml
+    - content/joan-of-arc/.plan/fixes/060.yaml
+  faults: [060-fact-checker-30, 060-fact-checker-31]
+  unresolved: []
+  stale: []
+  rechecked: "git diff 6c6d72c8 -- pages/060-rouen: 060-fact-checker-9 to 29, 060-section-reviewer-1 to 17 and 060-overseer-1 stand as logged and against their sources (the summons of 14 July, Barrett 485-495; Guesdon, Murray 15091-15115; Champion on Le Maistre, Barrett 9390; the record of 29 May, Barrett 8160; 060.67, 060.68; France on the letter to Saint-Quentin; Lowell and Lang on Noyon)"
+  claims_checked: {beaulieu-and-beaurevoir: 9, sold-to-the-english: 8, the-court: 6, the-questioning: 2, saint-ouen: 7, the-old-market: 6}

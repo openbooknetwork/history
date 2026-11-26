@@ -16,3 +16,18 @@
     - "Le Crotoy is English (060.19) but its marker stands in burgundy-1420/1430, as the brief rules for holds. Its point is 1.5 km north-east of the town because the base map's coast is coarse (the generator's comment)."
     - "The three Rouen pages of 1431 list english-sep-1429, as the brief's Map part rules. Inside Rouen its edge is the same as english-1430's, and no screen of those frames shows Melun or Sens."
   stale: []
+- step: maps
+  task: recheck
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plans/pages060.mjs
+    - content/joan-of-arc/pages/060-rouen/030-the-court/markers.yaml
+    - content/joan-of-arc/.plan/faults/060.yaml
+    - content/joan-of-arc/.plan/fixes/060.yaml
+  faults: [060-map-auditor-4]
+  unresolved:
+    - "ground.yaml line 30 (Burgundian Picardy, estimate): Clairoix 8.9 km and Compiègne 12 km inside france-1430, Noyon 5.9 km inside burgundy-1430; no source gives the line. Proposed: keep it (as in the first audit)."
+    - "ground.yaml line 17 (the kingdom's edge with the Cambrésis, estimate): Beaurevoir 6.7 km inside burgundy-1430; no source gives the line."
+    - "ground.yaml line 64 (estimate): Beauvais, French by 060.30, 8.3 km inside france-1430; no source gives the line."
+    - "The four Rouen markers placed by no source (archbishop's palace, church of Saint-Sauveur, the Seine label, the castle ward) are reconstructions within some 100 m, each with its why in map.yaml."
+  stale: []

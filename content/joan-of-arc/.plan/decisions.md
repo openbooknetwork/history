@@ -180,3 +180,17 @@
   Burgundian with no source; the keeper's estimated edges; five reconstructed stretches of route.
 - cloud ruling: each stands as drawn, as the auditor proposed — the text of `domremy` gives both accounts, each
   chapter calls its borders and roads approximate once, and every place tested lies on the side its source gives.
+- images 010 and 020 found (image-finders): 14 and 9 images in `shared/images/`; `joan-letter-to-the-english` is
+  `none`, Commons holding no copy of 1429; one image offered beyond the placeholders, a second miniature for the
+  Verneuil card, which the reviewer of 010 decides. Three captions of 010 and one of 020 say only what their
+  Commons page confirms.
+- facts 010 and 020 checked (fact-checkers): 18 and 13 faults, all fixed: "the first town of the conquest" taken out of
+  six files, Jean de Metz's oath put before Nancy, three sayings given back to the witness who said them.
+- maps 020 audited (map-auditor): 2 faults fixed, 1 `wrong` open for the map keeper, 020-map-auditor-3 — three slivers
+  in the east left as Charles VII's against 020.8; the keeper is dispatched for it.
+- unresolved, maps 020 and facts 010, 020: the Auxerrois and Gâtinais edges, the castellany of Vaucouleurs and the
+  line between Bar and Lorraine, all the keeper's estimates; and the disputed and open claims of both sections, each
+  listed with how its text tells it in `reports/010-fact-checker.yaml` and `reports/020-fact-checker.yaml`.
+- cloud ruling: the estimated edges stand as reconstructions, and each disputed or open claim stands as its text
+  tells it, with its authors or as not known — the fact checkers read each against its sources and found none told
+  as plain fact.

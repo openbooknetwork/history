@@ -162,9 +162,10 @@ const FRESNAY = z.town('Fresnay, English at the close of 1449 (070.16), a castle
 // ---------------------------------------------------------------------------------------------------------------
 // Burgundy
 const AS = z.est('the south edge of Artois with Picardy, Arras and Bapaume in Artois (060.18), Doullens and Péronne in Picardy; no source gives a line', [[1.40, 50.37], [1.60, 50.36], [2.00, 50.25], [2.35, 50.17], [2.80, 50.10], start(KBb)]);
-const ARTOIS = z.region(AS, z.back(KBa),
-  z.est('a line inside Flanders: it only joins Artois and French Flanders to the Flanders of today', [start(KBa), [3.50, 50.80], [2.60, 51.10], [1.80, 51.10]]),
-  z.est('the open sea off the Boulonnais: the coast cuts it', [[1.80, 51.10], [1.30, 50.70], start(AS)]));
+// Artois and French Flanders run to the kingdom's own closing line in Flanders, so the coast by Dunkirk is theirs
+// (020-map-auditor-3)
+const ARTOIS = z.region(AS, z.back(KBa), z.back(NCLOSE),
+  z.est('the open sea off French Flanders and the Boulonnais: the coast cuts it', [end(SEA), [1.80, 51.15], [1.30, 50.70], start(AS)]));
 // Picardy and the Auxerrois are cut by Normandy and Champagne here, so that no Burgundian land lies under a province
 // that is French on a later page: Picardy ends at the Bresle
 const PICARDY = z.diff(z.region(B, z.back(KBb), z.back(AS),

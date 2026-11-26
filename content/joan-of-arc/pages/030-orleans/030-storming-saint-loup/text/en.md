@@ -4,7 +4,7 @@ On Wednesday 4 May, the eve of the Ascension, a few hours after the army from Bl
 
 While its garrison defends it hard, English come out from the other bastilles to help.\* The city's belfry rings twice in warning, the French draw up to face them, and the English turn back to their forts. Towards vespers Saint-Loup is taken by force, burned and pulled down. The assault has lasted three hours by the Journal, and more than four or five by a letter Charles VII wrote on 10 May.\*\* Some English who hid in the church tower in priests' vestments are spared at Joan's word and brought into the city, says the Chronique.
 
-@image saint-loup-assault-miniature
+@image saint-loup-assault-miniature-d6db07
 
 Saint-Loup is the first English fort to fall that May. At her trial in 1431 Joan said she went first to Saint-Loup and then to the fort at the bridge. Its fall cleared the approaches east of the city, in Lowell's judgement.
 

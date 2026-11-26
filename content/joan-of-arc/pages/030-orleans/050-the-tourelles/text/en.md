@@ -4,8 +4,6 @@ On Saturday 7 May, with the townsmen of Orléans behind Joan, the French attack 
 
 Joan is hit while planting a scaling ladder at the boulevard: an arrow strikes her in the neck, she told her judges in 1431. The Journal and the Bastard put it between the neck and the shoulder, the Chronique de la Pucelle through the shoulder.\*\* She is carried back, the wound is dressed, and she returns. Towards evening, when the captains mean to draw off, she rides apart into a vineyard and prays for about half an hour, as the Bastard remembered. Then she sets her standard at the edge of the ditch, and the French go up the boulevard and take it.
 
-@image tourelles-assault-miniature
-
 As the English of the boulevard make for the Tourelles, the drawbridge gives way under them.\*\*\* Glasdale, Sir William Moleyns, Sir Hugh Poynings and many others fall into the Loire and drown, and the Tourelles are taken.\*\*\*\* With Saint-Privé empty since the night before, the English hold nothing south of the river. Joan rides back into the city over the patched bridge while the bells ring, by the Chronique, the Bastard and Lowell.\*\*\*\*\*
 
 The map shows the Tourelles, the boulevard and the townsmen's way along the bridge. The places and the line of the old bridge are approximate.

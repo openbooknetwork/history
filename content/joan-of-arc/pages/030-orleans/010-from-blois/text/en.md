@@ -6,7 +6,7 @@ The supplies go by water: boats from the city are loaded upstream, before [Chéc
 
 Joan crosses the river with about 200 lances, the figure of Simon Beaucroix, a squire of her company, and of Ramsay. The rest of the escort goes back to cross at Blois, with her confessor Jean Pasquerel and her banner. The Journal of the Siege, a chronicle of the city, has her company lie a night at Chécy.\*\*\*\*
 
-@image orleans-entry-miniature
+@image orleans-entry-miniature-4e4dc7
 
 At about eight in the evening of Friday 29 April she rides into [Orléans](@orleans-entry) armed, on a white horse, with the Bastard beside her and townspeople carrying torches. The English do nothing to stop her. She lodges with Jacques Boucher, the Duke of Orléans's treasurer, by the Porte Regnart.
 

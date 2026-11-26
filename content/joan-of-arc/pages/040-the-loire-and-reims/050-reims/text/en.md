@@ -4,7 +4,7 @@ On Sunday 17 July the archbishop anoints and crowns Charles VII in the cathedral
 
 All through the rite, the gentlemen wrote, Joan stands beside the king with her standard in her hand. Asked by her judges in 1431 why her standard went into the church rather than the other captains', she answered: "It had been present in the perils; that was reason enough for it to be honored." The Journal of the Siege, a chronicle of Orléans, has her kneel in tears after the anointing and say that God's will is done. Lowell writes that whether she said it cannot be known.
 
-@image coronation-charles-vii-miniature
+@image coronation-charles-vii-miniature-a5d441
 
 That day Joan writes to Philip the Good, Duke of Burgundy, bidding him make peace with the king. He does not answer. His envoys come to the king at Reims,\* and Ramsay has them get Georges de La Trémoille, the king's favourite, to sign a truce of fifteen days. Joan is told that the duke will hand over Paris when it ends. Bedford, the English regent, later counted Reims, Troyes and Châlons among the cities that went over without a fight.
 

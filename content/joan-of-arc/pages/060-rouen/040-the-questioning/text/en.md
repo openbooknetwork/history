@@ -6,7 +6,7 @@ On 27 March Thomas de Courcelles reads her the charges drawn up by the promoter,
 
 On 9 May she is taken into [the great tower](@great-tower-1431), the keep of the castle, and shown the instruments of torture, with the torturers beside them. The judges put the torture off, and on 12 May they decide against it.
 
-@image rouen-castle-keep
+@image rouen-castle-keep-370a86
 
 The map shows the castle, where the court sits, and its keep.
 

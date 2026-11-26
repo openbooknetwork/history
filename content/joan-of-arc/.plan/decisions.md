@@ -327,3 +327,9 @@
   texts. Two lines of shared scripts changed: `names-check.mjs` no longer groups the rows that open with a lower-case
   "the" (story-names-1), and `slice.mjs` splits a Name cell at ";" (story-names-2). `names-check` prints ok; its
   output for alexander-the-great is the same before and after.
+- step images: done, 26 Nov 2026. 72 images in `shared/images/`, each on its page: `images-place.mjs` switched 72
+  placeholders in texts and markers and took out 4 lines of the 3 placeholders with no image (her letter to the English, the assault on
+  the Tourelles, and the entry of 1436 into Paris, which stood in two places); the eleven cards' lists were switched by
+  the overseer (story-overseer-7), the script not reading a list written on one line. `harita check` prints ok and
+  the strict build with `--no-store` ends well.
+- ledger after `images`: | **total** | 117 | 3,349 | 574,186 | 6,807 | 23,676,862 | 576,568,829 | 4,427,101 | 109,395,272 |

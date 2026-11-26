@@ -405,3 +405,80 @@
   old: "    for (const part of i === 0 ? [cell] : cell.split(/[;/]/)) {"
   new: "    for (const part of cell.split(i === 0 ? /;/ : /[;/]/)) {"
   commit: 96eeaec1
+- fault: story-overseer-7
+  by: overseer
+  file: content/joan-of-arc/shared/battles/agincourt-1415/battle.yaml
+  field: images
+  old: "images: [agincourt-battle-miniature]"
+  new: "images: [agincourt-battle-miniature-92fbb0]"
+  commit: aa448627
+- fault: story-overseer-7
+  by: overseer
+  file: content/joan-of-arc/shared/battles/bauge-1421/battle.yaml
+  field: images
+  old: "images: [vieil-bauge-church]"
+  new: "images: [vieil-bauge-church-783696]"
+  commit: aa448627
+- fault: story-overseer-7
+  by: overseer
+  file: content/joan-of-arc/shared/battles/castillon-1453/battle.yaml
+  field: images
+  old: "images: [castillon-battle-miniature]"
+  new: "images: [castillon-battle-miniature-b7b31d]"
+  commit: aa448627
+- fault: story-overseer-7
+  by: overseer
+  file: content/joan-of-arc/shared/battles/compiegne-1430/battle.yaml
+  field: images
+  old: "images: [compiegne-capture-miniature]"
+  new: "images: [compiegne-capture-miniature-e76db4]"
+  commit: aa448627
+- fault: story-overseer-7
+  by: overseer
+  file: content/joan-of-arc/shared/battles/formigny-1450/battle.yaml
+  field: images
+  old: "images: [formigny-battle-miniature]"
+  new: "images: [formigny-battle-miniature-e78021]"
+  commit: aa448627
+- fault: story-overseer-7
+  by: overseer
+  file: content/joan-of-arc/shared/battles/herrings-1429/battle.yaml
+  field: images
+  old: "images: [herrings-miniature]"
+  new: "images: [herrings-miniature-0a7b03]"
+  commit: aa448627
+- fault: story-overseer-7
+  by: overseer
+  file: content/joan-of-arc/shared/battles/jargeau-1429/battle.yaml
+  field: images
+  old: "images: [jargeau-assault-miniature]"
+  new: "images: [jargeau-assault-miniature-5aff80]"
+  commit: aa448627
+- fault: story-overseer-7
+  by: overseer
+  file: content/joan-of-arc/shared/battles/orleans-1429/battle.yaml
+  field: images
+  old: "images: [orleans-relief-miniature]"
+  new: "images: [orleans-relief-miniature-0872de]"
+  commit: aa448627
+- fault: story-overseer-7
+  by: overseer
+  file: content/joan-of-arc/shared/battles/paris-1429/battle.yaml
+  field: images
+  old: "images: [paris-assault-miniature]"
+  new: "images: [paris-assault-miniature-a0a16d]"
+  commit: aa448627
+- fault: story-overseer-7
+  by: overseer
+  file: content/joan-of-arc/shared/battles/patay-1429/battle.yaml
+  field: images
+  old: "images: [patay-miniature]"
+  new: "images: [patay-miniature-a62eb0]"
+  commit: aa448627
+- fault: story-overseer-7
+  by: overseer
+  file: content/joan-of-arc/shared/battles/verneuil-1424/battle.yaml
+  field: images
+  old: "images: [verneuil-battle-miniature]"
+  new: "images: [verneuil-battle-miniature-97dd3c]"
+  commit: aa448627

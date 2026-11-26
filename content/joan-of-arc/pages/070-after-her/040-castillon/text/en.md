@@ -2,7 +2,7 @@ In 1451 Charles VII's armies take Gascony, the English duchy of the south-west. 
 
 Bordeaux calls them back. John Talbot, Earl of Shrewsbury, a veteran captain whom Henry VI made his lieutenant in Aquitaine on 2 September 1452, lands in the Médoc on 17 October. The country round Bordeaux rises for him, and in October Bordeaux opens its gates and takes the French seneschal, Coëtivy, prisoner.\*\*\* The map shows this English Gascony of 1452 and 1453, from Bordeaux and the Médoc up the Dordogne to Castillon, approximately, from the places the sources name.
 
-@image dordogne-at-castillon
+@image dordogne-at-castillon-45ae4e
 
 On 13 or 14 July 1453 the French lay siege to Castillon. Jean Bureau and his brother, who direct the French artillery, keep the guns in a camp ringed with ditches beside the Lidoire, a stream east of the town, while the Bretons hold the Mont Horable, a height to the north-east.
 

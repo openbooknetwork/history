@@ -1,6 +1,6 @@
 Henry V, King of England, revives the old claim of Edward III to the crown of France, and the civil war in France gives him his chance. On 13 August 1415 his fleet comes to anchor in the estuary of the Seine, close to the Chef de Caux, and from the next day his army comes ashore unopposed between [Harfleur](@harfleur-1415) and Honfleur.
 
-@image henry-v-portrait
+@image henry-v-portrait-2caf64
 
 Battered by cannon and mined, Harfleur surrenders on 22 September, when no help has come from the French army at Rouen. The siege costs Henry a fifth of his men, Oman writes, more to camp fever than to fighting, and his chaplain's Gesta says about 5,000 sick were sent home besides.
 

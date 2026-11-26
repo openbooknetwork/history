@@ -4,7 +4,7 @@ She is held in a tower of [the castle of Rouen](@rouen-castle-1431), whose capta
 
 Cauchon opens the trial on Tuesday 9 January 1431. Thurston writes that the assessors are nearly all French, and that most come from the University of [Paris](@university-of-paris-1431) as theologians and doctors. Lowell counts forty-three at the first public session. The Dominican Jean Le Maistre, the Inquisitor's deputy for the diocese of Rouen, refuses on 20 February to sit without special authority, unsure that his commission covers the case. Under a commission from the Inquisitor of France, Jean Graverent, he sits from 13 March as the second judge.
 
-@image trial-of-condemnation-manuscript
+@image trial-of-condemnation-manuscript-b3fe63
 
 The English crown pays: each Paris doctor draws twenty sous tournois a day, and on 24 April Jean Le Maistre is given twenty saluts d'or for his attendance. She is summoned as "vehemently suspected of heresy". In Thurston's judgment the English could not put her to death for defeating them, but a church court could condemn her as a witch and a heretic.
 

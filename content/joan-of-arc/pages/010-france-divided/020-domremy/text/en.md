@@ -2,7 +2,7 @@ Joan is born about 1412 at [Domrémy](@domremy), a village on the upper Meuse th
 
 At the same hearing she gave her parents' names, Jacques d'Arc and Isabelle, and said she had been baptised at Domrémy. In 1455, questioned in the village for the retrial, her godfather Jean Morel said the same and named the church as Saint-Remy. Jacques's birthplace was Ceffonds, in Champagne; Isabelle, known as Romée, came from Vouthon. Beatrix Estellin, a widow of the village, remembered them in 1455 as people who worked the land, devout and respected, but not rich.
 
-@image domremy-saint-remy-church
+@image domremy-saint-remy-church-bb83c8
 
 Joan told the court that her mother taught her the Paternoster, the Ave Maria and the Credo, and that at sewing and spinning she "feared no woman in Rouen". Whether she also kept the animals in the fields is told two ways.\*
 

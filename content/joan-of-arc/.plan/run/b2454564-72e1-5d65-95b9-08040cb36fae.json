@@ -30,7 +30,7 @@
    "parent": "-",
    "model": "claude-fable-5-2",
    "start": "2026-11-26T08:58:19.988Z",
-   "end": "2026-11-26T16:14:56.381Z",
+   "end": "2026-11-26T16:24:51.989Z",
    "description": ""
   },
   {
@@ -59,6 +59,15 @@
    "start": "2026-11-26T13:28:16.415Z",
    "end": "2026-11-26T13:38:32.320Z",
    "description": "maps 020 map-auditor audit"
+  },
+  {
+   "agent": "a0abaaf732d6d12ab",
+   "role": "names",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T16:15:09.249Z",
+   "end": "2026-11-26T16:20:56.072Z",
+   "description": "facts all names fix"
   },
   {
    "agent": "a0c39602a29893a38",
@@ -691,6 +700,15 @@
    "description": "maps 010 cartographer draw"
   },
   {
+   "agent": "aa10e6e511debb5b4",
+   "role": "editor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "start": "2026-11-26T16:22:38.202Z",
+   "end": "2026-11-26T16:23:45.433Z",
+   "description": "edit all editor texts"
+  },
+  {
    "agent": "aa350dffa9aa24491",
    "role": "section-coordinator",
    "parent": "overseer",
@@ -1068,12 +1086,12 @@
    "model": "claude-fable-5-2",
    "step": "-",
    "section": "-",
-   "turns": 281,
-   "peak": 560087,
-   "input": 726,
-   "cacheWrite": 496076,
-   "cacheRead": 89534040,
-   "output": 120922
+   "turns": 295,
+   "peak": 574186,
+   "input": 756,
+   "cacheWrite": 510150,
+   "cacheRead": 97458156,
+   "output": 128187
   },
   {
    "agent": "a00421d99dbb1e05d",
@@ -1116,6 +1134,20 @@
    "cacheWrite": 223159,
    "cacheRead": 4693043,
    "output": 45381
+  },
+  {
+   "agent": "a0abaaf732d6d12ab",
+   "role": "names",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "facts",
+   "section": "-",
+   "turns": 32,
+   "peak": 143982,
+   "input": 64,
+   "cacheWrite": 138101,
+   "cacheRead": 3462367,
+   "output": 30014
   },
   {
    "agent": "a0c39602a29893a38",
@@ -2098,6 +2130,20 @@
    "output": 29655
   },
   {
+   "agent": "aa10e6e511debb5b4",
+   "role": "editor",
+   "parent": "overseer",
+   "model": "claude-opus-5-5",
+   "step": "edit",
+   "section": "-",
+   "turns": 9,
+   "peak": 248297,
+   "input": 18,
+   "cacheWrite": 242416,
+   "cacheRead": 1225204,
+   "output": 5606
+  },
+  {
    "agent": "aa350dffa9aa24491",
    "role": "section-coordinator",
    "parent": "overseer",
@@ -2742,6 +2788,45 @@
      "claim": "020.8",
      "evidence": "research/020.md, 020.8: Lowell ch. 3, lines 1549-1551, \"before midsummer, 1428, in the whole east of France, only the town of Vaucouleurs held for Charles VII\"; Lang ch. 2, lines 1672-1677, \"To the west, Champagne, with Troyes and Reims, was Anglo-Burgundian\"; brief.md Map, france-1407: \"Champagne is drawn in it to the Meuse\". Capture: scratchpad maps-020-map-auditor/pack/shots/the-voices.png, top left (enlarged in voices-north.png)",
      "action": "Close the gap between Champagne, Bar and the Meuse, so that no land of the east is left to france-1428 and france-siege-1428 but the castellany of Vaucouleurs. A grid test at 0.01 degree of the zone files: france-1407 less english-1428 (or english-siege-1428), burgundy-1420, bar-1412 and lorraine-1412 leaves (a) a sliver of about 20 km2 west of the Meuse by Stenay, 5.08-5.14 E, 49.49-49.57 N, between the Champagne of today, the hand-drawn Meuse and bar-1412's line 94 from 5.25, 49.62; (b) a few km2 by Rocroi, 4.46-4.55 E, 49.93-49.98 N, on line 18; (c) a few km2 on the Flemish coast by Bray-Dunes, 2.60-2.65 E, 51.12-51.16 N, inside line 27, which burgundy-1420 does not reach. (a) shows in the blue of Charles VII's kingdom in the top left of the-voices' capture, and (a) and (b) lie in the frame of eleven-days. Proposed: let the english zones' Champagne run to line 19 where it meets bar-1412, or start bar-1412's line 94 on the Meuse; extend burgundy-1420's Flanders to line 27. The build's own notes list these as france-1428's small pieces (19, 20, 9 km2)",
+     "state": "fixed"
+    }
+   ]
+  },
+  {
+   "agent": "a0abaaf732d6d12ab",
+   "role": "names",
+   "step": "facts",
+   "section": "-",
+   "status": "pass",
+   "changed": 9,
+   "unresolved": 0,
+   "faults": [
+    {
+     "id": "story-names-1",
+     "severity": "weak",
+     "kind": "check",
+     "introduced": null,
+     "firstCheck": null,
+     "leak": false,
+     "owner": "overseer",
+     "file": "scripts/names-check.mjs",
+     "claim": null,
+     "evidence": "node scripts/names-check.mjs joan-of-arc: 'pages/010-france-divided/020-domremy/text/en.md: \"the\" stands without the words that tell who it is', listing the 33 rows of names.md that open with 'the'. The script grouped people by the first word of the row's name, lower case too, so the article read as a shared name on every sentence. alexander-the-great's output is the same before and after",
+     "action": "  const [key, ...rest] = words(row.name);\n  // \"the Bastard of Orléans\" and \"the Gesta\" share no name: a word in lower case is no name to share.\n  if (!capital(key)) continue;\n  row.key = key;",
+     "state": "fixed"
+    },
+    {
+     "id": "story-names-2",
+     "severity": "weak",
+     "kind": "check",
+     "introduced": "names",
+     "firstCheck": "names",
+     "leak": false,
+     "owner": "overseer",
+     "file": "scripts/slice.mjs",
+     "claim": null,
+     "evidence": "names.md's Name cell lists a row's forms split by semicolons (story-overseer-6: 'John Talbot; Talbot', 'Arthur de Richemont; Richemont'), as scripts/names-check.mjs reads them; slice.mjs took the cell whole, so a section's names slice dropped a row whose text wrote only its full form: run on 010 to 070 before and after the change, the slices gain 1 to 3 rows each",
+     "action": "    for (const part of cell.split(i === 0 ? /;/ : /[;/]/)) {",
      "state": "fixed"
     }
    ]
@@ -4506,7 +4591,7 @@
      "claim": null,
      "evidence": "node scripts/names-check.mjs joan-of-arc 070: \"John Talbot\" is first named in 070-after-her ... and its row says 020 (020.20); grep -l Talbot pages/0[3-4]*/*/text/en.md lists six pages of 030 and 040; names.md row of John Talbot: \"John Talbot, Earl of Shrewsbury\" at the first mention on a page of 070",
      "action": "Have the comparison take a row's other forms too, or let the row of John Talbot stand: the check reads only the row's name, \"John Talbot\", which names.md asks for at the first mention on a page of 070, while the texts of 030 and 040 name him first as \"Lord Talbot\" and \"Talbot\". It reports \"John Talbot\" first named in 070 against the row's 020 (020.20), and neither changing the row nor dropping the form the row asks for is right.",
-     "state": "open"
+     "state": "fixed"
     }
    ]
   },
@@ -6863,7 +6948,7 @@
      "claim": null,
      "evidence": "node scripts/names-check.mjs joan-of-arc 020, nine lines",
      "action": "set each row's \"First named in\" to 020, or have the texts of 010 name them as planned: names-check finds each first named in a text of 020 (Salisbury is \"Salisbury\" alone in 010's cravant-and-verneuil; Dunois in \"(later Count of Dunois)\", which names.md itself asks for at the first mention on a page of 020-050; Nangis in the name of the French Continuator of Guillaume de Nangis)",
-     "state": "open"
+     "state": "fixed"
     }
    ]
   },
@@ -11809,7 +11894,21 @@
      "claim": null,
      "evidence": "reports/010-section-writer.yaml, reports/020-section-reviewer.yaml (020-section-reviewer-17) and the output of scripts/names-check.mjs",
      "action": "once every section has its texts: each cell 'First named in' gives the section whose text names the row first, as names-check prints them; the form asked of Boussac at a first mention passes names-check; the two rows of d'Albret no longer clash",
-     "state": "open"
+     "state": "fixed"
+    },
+    {
+     "id": "story-overseer-7",
+     "severity": "wrong",
+     "kind": "check",
+     "introduced": "images",
+     "firstCheck": "facts",
+     "leak": false,
+     "owner": "overseer",
+     "file": "content/joan-of-arc/shared/battles/",
+     "claim": null,
+     "evidence": "scripts/images-place.mjs switches a card image only where the list is written one name a line; the eleven cards write their images list on one line, so the strict build stopped on: unknown image agincourt-battle-miniature",
+     "action": "each placeholder name in a card's images list gives way to its image's id, as images/<section>.yaml pairs them",
+     "state": "fixed"
     }
    ]
   },
@@ -13392,6 +13491,35 @@
     "faults": ".plan/faults/070.yaml",
     "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/facts-070-fact-checker-recheck",
     "serve": "static"
+   },
+   "problems": []
+  },
+  {
+   "role": "names",
+   "description": "facts all names fix",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "all",
+    "step": "facts",
+    "task": "fix",
+    "faults": ".plan/faults/story.yaml",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/facts-names-fix",
+    "serve": "static",
+    "note": "story-overseer-6 is the fault; 020-section-reviewer-17 of faults/020.yaml and 070-section-writer-2 of faults/070.yaml are the same matter and close with it."
+   },
+   "problems": []
+  },
+  {
+   "role": "editor",
+   "description": "edit all editor texts",
+   "block": {
+    "story": "joan-of-arc",
+    "section": "all",
+    "step": "edit",
+    "task": "texts",
+    "scratchpad": "/tmp/claude-0/-home-user-history/b2454564-72e1-5d65-95b9-08040cb36fae/scratchpad/edit-editor",
+    "serve": "static",
+    "note": "Two rules of rules.md were written after sections were built: a deposition \"at the retrial\" with no year (020 to 040 predate it) and one image a page (060 and 070 predate it)."
    },
    "problems": []
   }
@@ -15321,6 +15449,17 @@
    "severity": "weak",
    "owner": "section-reviewer",
    "steppedIn": true
+  },
+  {
+   "fault": "020-section-reviewer-17",
+   "by": "names",
+   "file": "content/joan-of-arc/.plan/names.md",
+   "field": "People, the rows Charles II, Duke of Lorraine, Thomas Montagu, Earl of Salisbury, Louis de Bourbon, Count of Vendôme, René of Anjou, Dunois and the Continuator of Guillaume de Nangis; Places, the rows Chinon and Gien: Name and First named in",
+   "commit": "96eeaec1",
+   "kind": "check",
+   "severity": "weak",
+   "owner": "names",
+   "steppedIn": false
   },
   {
    "fault": "030-editor-1",
@@ -20427,6 +20566,17 @@
    "steppedIn": false
   },
   {
+   "fault": "070-section-writer-2",
+   "by": "names",
+   "file": "content/joan-of-arc/.plan/names.md",
+   "field": "People, the row John Talbot: Name and First named in",
+   "commit": "96eeaec1",
+   "kind": "check",
+   "severity": "taste",
+   "owner": "overseer",
+   "steppedIn": false
+  },
+  {
    "fault": "story-editor-1",
    "by": "editor",
    "file": "content/joan-of-arc/.plan/030-orleans/pages.yaml",
@@ -20986,6 +21136,204 @@
    "severity": "wrong",
    "owner": "map-keeper",
    "steppedIn": false
+  },
+  {
+   "fault": "story-overseer-6",
+   "by": "names",
+   "file": "content/joan-of-arc/.plan/names.md",
+   "field": "the head, its first paragraph",
+   "commit": "96eeaec1",
+   "kind": "check",
+   "severity": "weak",
+   "owner": "names",
+   "steppedIn": false
+  },
+  {
+   "fault": "story-overseer-6",
+   "by": "names",
+   "file": "content/joan-of-arc/.plan/names.md",
+   "field": "People, the row Boussac: Name and Who",
+   "commit": "96eeaec1",
+   "kind": "check",
+   "severity": "weak",
+   "owner": "names",
+   "steppedIn": false
+  },
+  {
+   "fault": "story-overseer-6",
+   "by": "names",
+   "file": "content/joan-of-arc/.plan/names.md",
+   "field": "People, the rows the Constable d'Albret (Who, Other forms) and Charles, Duke of Orléans (Name)",
+   "commit": "96eeaec1",
+   "kind": "check",
+   "severity": "weak",
+   "owner": "names",
+   "steppedIn": false
+  },
+  {
+   "fault": "story-overseer-6",
+   "by": "names",
+   "file": "content/joan-of-arc/.plan/names.md",
+   "field": "People, the rows Georges de La Trémoille, Arthur de Richemont and Wavrin: Name and First named in",
+   "commit": "96eeaec1",
+   "kind": "check",
+   "severity": "weak",
+   "owner": "names",
+   "steppedIn": false
+  },
+  {
+   "fault": "story-overseer-6",
+   "by": "names",
+   "file": "content/joan-of-arc/.plan/names.md",
+   "field": "People, the rows William de la Pole, Earl of Suffolk, and the Chronique de la Pucelle: Name and First named in",
+   "commit": "96eeaec1",
+   "kind": "check",
+   "severity": "weak",
+   "owner": "names",
+   "steppedIn": false
+  },
+  {
+   "fault": "story-names-1",
+   "by": "names",
+   "file": "scripts/names-check.mjs",
+   "field": "the groups of shared names, the key of a row",
+   "commit": "96eeaec1",
+   "kind": "check",
+   "severity": "weak",
+   "owner": "overseer",
+   "steppedIn": false
+  },
+  {
+   "fault": "story-names-2",
+   "by": "names",
+   "file": "scripts/slice.mjs",
+   "field": "forms, the forms of a row's Name cell",
+   "commit": "96eeaec1",
+   "kind": "check",
+   "severity": "weak",
+   "owner": "overseer",
+   "steppedIn": false
+  },
+  {
+   "fault": "story-overseer-7",
+   "by": "overseer",
+   "file": "content/joan-of-arc/shared/battles/agincourt-1415/battle.yaml",
+   "field": "images",
+   "commit": "aa448627",
+   "kind": "check",
+   "severity": "wrong",
+   "owner": "overseer",
+   "steppedIn": true
+  },
+  {
+   "fault": "story-overseer-7",
+   "by": "overseer",
+   "file": "content/joan-of-arc/shared/battles/bauge-1421/battle.yaml",
+   "field": "images",
+   "commit": "aa448627",
+   "kind": "check",
+   "severity": "wrong",
+   "owner": "overseer",
+   "steppedIn": true
+  },
+  {
+   "fault": "story-overseer-7",
+   "by": "overseer",
+   "file": "content/joan-of-arc/shared/battles/castillon-1453/battle.yaml",
+   "field": "images",
+   "commit": "aa448627",
+   "kind": "check",
+   "severity": "wrong",
+   "owner": "overseer",
+   "steppedIn": true
+  },
+  {
+   "fault": "story-overseer-7",
+   "by": "overseer",
+   "file": "content/joan-of-arc/shared/battles/compiegne-1430/battle.yaml",
+   "field": "images",
+   "commit": "aa448627",
+   "kind": "check",
+   "severity": "wrong",
+   "owner": "overseer",
+   "steppedIn": true
+  },
+  {
+   "fault": "story-overseer-7",
+   "by": "overseer",
+   "file": "content/joan-of-arc/shared/battles/formigny-1450/battle.yaml",
+   "field": "images",
+   "commit": "aa448627",
+   "kind": "check",
+   "severity": "wrong",
+   "owner": "overseer",
+   "steppedIn": true
+  },
+  {
+   "fault": "story-overseer-7",
+   "by": "overseer",
+   "file": "content/joan-of-arc/shared/battles/herrings-1429/battle.yaml",
+   "field": "images",
+   "commit": "aa448627",
+   "kind": "check",
+   "severity": "wrong",
+   "owner": "overseer",
+   "steppedIn": true
+  },
+  {
+   "fault": "story-overseer-7",
+   "by": "overseer",
+   "file": "content/joan-of-arc/shared/battles/jargeau-1429/battle.yaml",
+   "field": "images",
+   "commit": "aa448627",
+   "kind": "check",
+   "severity": "wrong",
+   "owner": "overseer",
+   "steppedIn": true
+  },
+  {
+   "fault": "story-overseer-7",
+   "by": "overseer",
+   "file": "content/joan-of-arc/shared/battles/orleans-1429/battle.yaml",
+   "field": "images",
+   "commit": "aa448627",
+   "kind": "check",
+   "severity": "wrong",
+   "owner": "overseer",
+   "steppedIn": true
+  },
+  {
+   "fault": "story-overseer-7",
+   "by": "overseer",
+   "file": "content/joan-of-arc/shared/battles/paris-1429/battle.yaml",
+   "field": "images",
+   "commit": "aa448627",
+   "kind": "check",
+   "severity": "wrong",
+   "owner": "overseer",
+   "steppedIn": true
+  },
+  {
+   "fault": "story-overseer-7",
+   "by": "overseer",
+   "file": "content/joan-of-arc/shared/battles/patay-1429/battle.yaml",
+   "field": "images",
+   "commit": "aa448627",
+   "kind": "check",
+   "severity": "wrong",
+   "owner": "overseer",
+   "steppedIn": true
+  },
+  {
+   "fault": "story-overseer-7",
+   "by": "overseer",
+   "file": "content/joan-of-arc/shared/battles/verneuil-1424/battle.yaml",
+   "field": "images",
+   "commit": "aa448627",
+   "kind": "check",
+   "severity": "wrong",
+   "owner": "overseer",
+   "steppedIn": true
   }
  ]
 }

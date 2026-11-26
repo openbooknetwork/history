@@ -2,7 +2,7 @@ In June 1423 John, Duke of Bedford, regent for the child Henry VI, marries Anne,
 
 In summer 1424 Bedford besieges [Ivry](@ivry-1424). An army of Charles VII, French, Scots and Lombards, sets out from Tours to relieve it, comes as far as Nonancourt and turns aside to take [Verneuil](@verneuil-1424) instead.\*\* On Thursday 17 August Bedford comes up and fights on a plain before the town. Both sides fight on foot, the English with archers and stakes on the wings and their horses tied head to tail behind them, the French with horsemen on both wings. The Lombards ride round to the English baggage, fail to break the hedge of horses and flee with plunder. After some forty minutes of fighting, by Oman's reckoning, the baggage guard falls on the French flank, the line breaks, and the slaughter is worst at the town's moat.\*\*\*
 
-@image bedford-hours-duke-kneeling
+@image bedford-hours-duke-kneeling-833207
 
 The Earls of Buchan and Douglas, Douglas's son James, the Counts of Aumale, Ventadour and Tonnerre and the Viscount of Narbonne are killed, and the Duke of Alençon and Marshal La Fayette are taken. Bedford has Narbonne's body hanged for his part in John the Fearless's murder at Montereau. Lang calls the battle "another Agincourt". Charles VII can no longer fight in the open field, Beaucourt writes, and from now on can only stand on the defensive, while Bedford, Oman writes, means to carry the war down the Loire.
 

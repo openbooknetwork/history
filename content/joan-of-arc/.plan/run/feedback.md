@@ -111,3 +111,33 @@ are checked from coordinates and never seen. The reader's first look is the firs
 **Proposed change.** `screenshot.mjs` passes the session's proxy to Chrome and trusts its CA where `HTTPS_PROXY`
 is set, and prints each failed request, so a capture without its base map says so in the run and not only to the
 eye.
+
+## 9. `images-place` leaves a card's placeholder where the list is written on one line
+
+**What happens.** `scripts/images-place.mjs` switches a card's image where `battle.yaml` writes its list one
+`- name` a line. Every card of this story, and of alexander-the-great, writes `images: [name, name]` on one line.
+So the 72 images of texts and markers were placed, the eleven cards kept their placeholder names, `harita check`
+went on printing three of them as `waiting`, and the strict build stopped on `unknown image`.
+
+**What it costs.** The overseer switched the eleven lines itself, from `images/<section>.yaml`, as fault
+story-overseer-7.
+
+**Proposed change.** `images-place.mjs` reads a card's `images` as YAML, in either form, and the test of the
+script holds a card written on one line.
+
+## 10. `names-check` reads a row's first cell alone, and groups rows by a lower-case first word
+
+**What happens.** Through every section the writers, fact checkers and reviewers met the same failures of
+`names-check`: a short form that `names.md` itself asks for ("Lord Talbot", "the Marshal de Boussac") counted as
+no naming of its row, so the row was "first named" sections late; and the 33 rows that open with "the" were taken
+for one shared name, so a bare "the" failed a page. Each agent wrote round it, or reported it and left it.
+
+**What it costs.** A paragraph of each of some twenty reports, several rewordings of sound sentences, and three
+faults left open to the end.
+
+**What was changed, at the end.** The names agent lists the short forms after a semicolon in the Name cell,
+which the script already read, and changed one line of `names-check.mjs` (a group's key must be capitalised) and
+one of `slice.mjs` (a Name cell is split at `;`). The output for alexander-the-great is the same before and after.
+
+**Proposed change.** `agents/` tells the names agent to write the short forms into the Name cell from the start,
+and the cells "First named in" are settled once, after the texts, and not guessed before any text exists.

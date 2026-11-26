@@ -4,7 +4,7 @@ The road to Paris lies open, but the army turns south instead. Ramsay blames Geo
 
 Bedford, regent of France for Henry VI, has meanwhile had fresh troops from England, brought by Cardinal Beaufort. Ramsay counts 250 spears and 2,500 bows entering Paris on 25 July, and Monstrelet about 4,000 fighting men. On the last day of July the poet Christine de Pizan finishes her Ditié, a poem in praise of Joan, as its closing lines say.
 
-@image christine-de-pizan-miniature
+@image christine-de-pizan-miniature-f804be
 
 Bedford's memorandum of December 1433, as Lang dates it, names Laon, [Sens](@sens-1429) and Provins among the cities lost after Orléans.
 

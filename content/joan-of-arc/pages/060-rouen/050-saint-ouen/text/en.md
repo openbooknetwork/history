@@ -1,6 +1,6 @@
 On the morning of Thursday 24 May 1431 Joan is taken from the castle to [the cemetery of Saint-Ouen](@saint-ouen-1431) in Rouen, the open ground that Lowell places just south of the abbey church. On a scaffold before her judges and a great crowd she hears a sermon by Guillaume Erard. Cardinal Beaufort, great-uncle of Henry VI, sits among them, with bishops of Thérouanne, Noyon and Norwich. Then the sentence is read, and before it reaches its end she abjures. Jean Massieu, the usher of the court, said that he handed her a pen and that she made a cross with it.\*
 
-@image saint-ouen-abbey-church
+@image saint-ouen-abbey-church-6d9f2b
 
 She is sentenced to prison for life, "with the bread of sorrow and water of affliction". Some of those present, by Massieu's account, ask that she be taken to a church prison, but Pierre Cauchon, the Bishop of Beauvais who leads the court, sends her back to [the castle of Rouen](@castle-relapse-1431). That afternoon she puts on a woman's dress.
 

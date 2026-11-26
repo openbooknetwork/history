@@ -59,12 +59,17 @@
    "archive": "pack-012.tar.gz",
    "files": 17,
    "at": "2026-11-26T16:15:00.615Z"
+  },
+  {
+   "archive": "pack-013.tar.gz",
+   "files": 7,
+   "at": "2026-11-26T16:24:55.170Z"
   }
  ],
  "files": {
   "b2454564-72e1-5d65-95b9-08040cb36fae/ccr-tip.json": {
-   "sha": "e6412cf6674dd39b553ad21e81f2f6761d9224d6d3fdc26170968306aed18795",
-   "pack": "pack-012.tar.gz"
+   "sha": "67369cdec35691813ea13f3f49d50a390c84a1dccbcd5333a2952ef3fb0be326",
+   "pack": "pack-013.tar.gz"
   },
   "b2454564-72e1-5d65-95b9-08040cb36fae/subagents/agent-aed2b96c546e77c39.jsonl": {
    "sha": "a848b118d27e0fc63b3a69df29d83fafee6e28af265d02352791940e27f23169",
@@ -79,8 +84,8 @@
    "pack": "pack-001.tar.gz"
   },
   "b2454564-72e1-5d65-95b9-08040cb36fae.jsonl": {
-   "sha": "dc0593f9e37e977c3ca6d9abe1ab35aa021793a79de61d7a7e927574e7b466a5",
-   "pack": "pack-012.tar.gz"
+   "sha": "2e7652059f28b3ef3a2c39f4904b57cdfcaec2d3df04871fa422b7764d3917af",
+   "pack": "pack-013.tar.gz"
   },
   "b2454564-72e1-5d65-95b9-08040cb36fae/subagents/agent-a166498d4bb74be5f.jsonl": {
    "sha": "ce991a8480d86a1a5cb336b387412e52aa122826d50c7f8a9d02d9817bf22366",
@@ -1437,6 +1442,26 @@
   "b2454564-72e1-5d65-95b9-08040cb36fae/subagents/agent-af9bd2b092fc48b55.prefix.json": {
    "sha": "cb5ffddd7be34e5f767f88ba9c0dd5e05749bc6783206851c8e8bd0256f908c6",
    "pack": "pack-012.tar.gz"
+  },
+  "b2454564-72e1-5d65-95b9-08040cb36fae/subagents/agent-a0abaaf732d6d12ab.jsonl": {
+   "sha": "a21d2abd3769c4306e3c64e6709d0b2ef1a9bd1ac988ba752ed4cb16f6df6a36",
+   "pack": "pack-013.tar.gz"
+  },
+  "b2454564-72e1-5d65-95b9-08040cb36fae/subagents/agent-a0abaaf732d6d12ab.meta.json": {
+   "sha": "500f667f616b0a7191fc6822a7feb99792d45f0a26239658acfb56e4a4536de4",
+   "pack": "pack-013.tar.gz"
+  },
+  "b2454564-72e1-5d65-95b9-08040cb36fae/subagents/agent-a0abaaf732d6d12ab.prefix.json": {
+   "sha": "d3d7c4537afd03e26ae11e4de4ac22886746361c62efbc78e8016f0bdf829436",
+   "pack": "pack-013.tar.gz"
+  },
+  "b2454564-72e1-5d65-95b9-08040cb36fae/subagents/agent-aa10e6e511debb5b4.jsonl": {
+   "sha": "2a39a76f2ee45a193db03c39929c3b4d19a7739fbcf722cb6046d9b3b88887bb",
+   "pack": "pack-013.tar.gz"
+  },
+  "b2454564-72e1-5d65-95b9-08040cb36fae/subagents/agent-aa10e6e511debb5b4.meta.json": {
+   "sha": "d5403d386bcae4bf2119c3fc5590c99f3247160c725506becee01ccf5ddb44bd",
+   "pack": "pack-013.tar.gz"
   }
  }
 }

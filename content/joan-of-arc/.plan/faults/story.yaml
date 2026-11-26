@@ -380,3 +380,13 @@
   introduced: names
   owner: overseer
   state: fixed
+- id: story-overseer-7
+  severity: wrong
+  file: content/joan-of-arc/shared/battles/
+  field: images, in the battle.yaml of each of the eleven cards
+  new: each placeholder name in a card's images list gives way to its image's id, as images/<section>.yaml pairs them
+  source: 'scripts/images-place.mjs switches a card image only where the list is written one name a line; the eleven cards write their images list on one line, so the strict build stopped on: unknown image agincourt-battle-miniature'
+  kind: check
+  introduced: images
+  owner: overseer
+  state: fixed

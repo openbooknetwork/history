@@ -4,7 +4,7 @@ Joan hears of the siege at [Crépy](@crepy-1430). Perceval de Cagny, a chronicle
 
 An archer pulls her from her horse by her cloth-of-gold tunic, says Chastellain, a Burgundian chronicler, and she surrenders and gives her word to the Bastard of Wandonne, a man-at-arms of John of Luxembourg's company. The duke comes too late for the fight and speaks with her. The chronicler Monstrelet, who was there, could not remember what was said. That evening she is given into John of Luxembourg's keeping.
 
-@image philip-the-good-portrait
+@image philip-the-good-portrait-02399b
 
 ### Notes
 

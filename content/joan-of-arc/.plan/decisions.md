@@ -57,3 +57,20 @@
   each section's agents from `plans` on, and makes the manager's merges and rulings — a subagent of this cloud
   session has no Agent tool, so the research-coordinator reported `blocked` and a section-lead would too. The
   checkers still check: the overseer reviews no claim and audits no page in a checker's place.
+- research, the coordinator's part made by the overseer: seven researchers, seven reviews, one fix and one recheck
+  (020). The reviewers wrote 106 faults and fixed all but one themselves; the researcher of 020 fixed that one. The
+  merge is the seven reviewed parts in order, with one "Thin" part; no claim stood in two parts. `quotes-check`
+  prints ok for 1,561 quotes, and the gates show 6 to 11 scholarly files a section and no agreed line with fewer
+  than two sources.
+- unresolved, research (the researchers and reviewers): the disputed days of Baugé, Cravant, Montereau, Charles VI's
+  death, Henry VI's coronation, the Truce of Tours, Bouillé's commission, Bordeaux 1451 and the capture; the first
+  visit to Vaucouleurs; the gate of 29 April; the stakes at Patay; "no siege train"; who sold her and for what coin;
+  the coast road; the feast in 1793 and 1803; Richemont at Formigny; the enquiry of 1452. Each came with a proposal.
+- cloud ruling: each proposal is taken, and they stand as four rules of `rules.md` (the Thin part, a disputed day,
+  left out, told with its author) — each tells both accounts with their authors or leaves out what one weak source
+  alone gives, which is the careful side.
+- cloud ruling: the five `thin` claims are not told: Cravant's strengths, the modern counts of Agincourt, Saint-Laurent
+  on 4 May, the English lands of 1444 as a summary, the name of the play of 1435 — each rests on `wikipedia` alone.
+- step research: done, 26 Nov 2026. `research.md`, 486 lines in seven sections, each line reviewed; `research/` holds
+  the parts.
+- ledger after `research`: | **total** | 27 | 921 | 375,922 | 1,873 | 5,887,042 | 155,302,444 | 1,197,143 | 28,876,635 |

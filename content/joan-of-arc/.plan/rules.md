@@ -25,6 +25,20 @@ keeps the reason. Read this file before you change a page, a zone, a card or a t
   witness's account, twenty-five years on. What the record of 1431 says she said is the court's record.
 - **The texts from archive.org are OCR.** A quote is copied as the file has it, and a name is searched by more
   than one spelling.
+- **The Thin part of the digest is not told.** No text and no card gives a claim that `research.md` lists under
+  "Thin": the strengths at Cravant, the modern counts of Agincourt, Saint-Laurent as the fort passed on 4 May 1429,
+  "Normandy and a strip of Gascony" as the English lands of 1444, and the name of the play of 8 May 1435. The map
+  of 1444 to 1453 shows as English the towns and lands the sources of the reconquest name.
+- **A disputed day.** A text tells the day that the primary sources give, or most of the sources, and names the
+  author who differs where the page turns on the day. Where the digest marks a day `disputed` and no account
+  leads, the text gives the month.
+- **Left out, as one source alone or a distrusted one gives it:** the road from Le Crotoy to Rouen (the map draws
+  no route between them and marks the two places), the gate she entered Orléans by, the crossing of the Loire at
+  Gien, the stopping and restoring of the feast of Orléans in 1793 and 1803, and the terms of the truce of 28
+  August 1429.
+- **Told with its author:** the stakes at Patay (Monstrelet), the visit to Vaucouleurs of May 1428 (Poulengy, with
+  Lowell's doubt), the sale (John of Luxembourg and ten thousand livres tournois; Ramsay's Duke of Burgundy and
+  francs), the capture on 23 May 1430 (the Duke of Burgundy's letter; Monstrelet's 24 May).
 
 ## Working
 

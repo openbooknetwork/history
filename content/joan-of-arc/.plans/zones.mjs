@@ -110,10 +110,6 @@ const GASCONY52 = z.region(G1, G2, G3, z.est('the open sea off the Médoc: the c
 const ENGLAND = z.inter(z.region(z.est('the kingdom of England itself, south of the map\'s north edge (the brief)', [[-6.50, 49.80], [2.50, 49.80], [2.50, 51.60], [-6.50, 51.60], [-6.50, 49.80]])), z.country('United Kingdom'));
 const ABROAD = z.union(CALAIS, GASCONY, ENGLAND);
 
-// The north of 1420 and of 1428
-const NORTH20 = z.diff(z.union(NORMANDY2, IDF, CHAMPAGNE_K, BETWEEN), MSM, BRITTANY);
-const NORTH28 = z.diff(z.union(NORTH20, MAINE), MSM, BRITTANY);
-
 // The cuts of 1429
 const C1 = z.est('the English edge after the coronation road: Saint-Florentin, Troyes, Châlons and Reims gone (040.53, 040.58, 040.62, 040.63), Sens, Provins, Château-Thierry, Soissons and Laon left (040.81, 040.86); no source gives a line', [[3.47, 47.90], [3.45, 48.05], [3.55, 48.45], [3.70, 48.85], [3.75, 49.25], [3.85, 49.45], [4.05, 49.85]]);
 const REIMS_CUT = z.region(C1, z.est('a line east of the kingdom: it only closes the land the English lose', [end(C1), [4.05, 50.30], [6.50, 50.30], [6.50, 47.50], [3.47, 47.50], start(C1)]));
@@ -189,6 +185,15 @@ const BAR = z.diff(z.region(LB,
 const LORRAINE = z.diff(z.region(z.back(LB),
   z.est('the south edge of the duchy of Lorraine with the Bassigny and the county of Burgundy, which cuts it; no source gives it', [start(LB), [5.55, 48.10], [5.60, 47.95], [5.85, 47.88], [6.30, 47.80], [6.80, 47.82], [6.95, 48.10]]),
   z.est('the east edge of the duchy along the Vosges, and German Lorraine to the north; no source gives it', [[6.95, 48.10], [7.15, 48.50], [7.10, 48.85], [6.85, 49.15], end(LB)])), CHAMPAGNE);
+
+// The north of 1420 and of 1428. The English Champagne runs to the kingdom's edge, the Meuse and the Thiérache, where
+// Bar does not meet it: the Champagne-Ardenne of today stops short of the drawn Meuse north of Stenay and of the
+// kingdom's edge by Rocroi, and in 1428 only Vaucouleurs held for Charles VII in the east (020.8; 020-map-auditor-3)
+const CHAMPAGNE_EDGE = z.diff(z.region(KBc, M1,
+  z.est('a line inside Champagne, which the province itself bounds: it only closes the land between the Champagne of today and the kingdom\'s edge', [end(M1), [4.90, 48.70], [4.70, 49.40], [4.40, 49.80], start(KBc)])),
+  BAR, LORRAINE, CASTELLANY, BURGUNDY20);
+const NORTH20 = z.diff(z.union(NORMANDY2, IDF, CHAMPAGNE_K, CHAMPAGNE_EDGE, BETWEEN), MSM, BRITTANY);
+const NORTH28 = z.diff(z.union(NORTH20, MAINE), MSM, BRITTANY);
 
 // ---------------------------------------------------------------------------------------------------------------
 // The zones

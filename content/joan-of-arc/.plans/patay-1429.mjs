@@ -87,8 +87,8 @@ writePlan(page('031-patay-the-hedges', 'Patay: the hedges', ['wavrin', 'murray',
   },
   markers: {
     ...village('patay-the-hedges', 'The English vanguard posts at its hedges'),
-    'patay-the-hedges-talbot': mark(-2450, 520, 'Talbot', '500 archers hold the narrow way', 'english'),
-    'patay-the-hedges-fastolf': mark(-1300, 520, 'Fastolf', 'Mounted, with the main body', 'english'),
+    'patay-the-hedges-talbot': mark(-2450, 700, 'Talbot', '500 archers hold the narrow way', 'english'),
+    'patay-the-hedges-fastolf': mark(-1100, 950, 'Fastolf', 'Mounted, with the main body', 'english'),
     'patay-the-hedges-la-hire': mark(-5400, 680, 'La Hire, Xaintrailles', 'The French vanguard', 'france'),
     'patay-the-hedges-alencon': mark(-6200, 900, 'Alençon, the Bastard', 'The main body; Joan with it', 'france'),
   },
@@ -146,7 +146,7 @@ writePlan(page('033-patay-the-rout', 'Patay: the rout', ['wavrin', 'murrayDunois
   markers: {
     ...village('patay-the-rout', 'The French lie here that night'),
     'patay-the-rout-fastolf': mark(1150, 950, 'Fastolf', 'Rides off for Étampes', 'english'),
-    'patay-the-rout-la-hire': mark(-1500, 680, 'La Hire, Xaintrailles', 'Press into the main body', 'france'),
+    'patay-the-rout-la-hire': mark(-1450, 1100, 'La Hire, Xaintrailles', 'Press into the main body', 'france'),
     'patay-the-rout-alencon': mark(-2050, 950, 'Alençon, the Bastard', 'Join the rout', 'france'),
   },
 });

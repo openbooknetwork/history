@@ -138,6 +138,7 @@ name the digest gives only in a quote or a note is marked so. A name marked "not
 | the Bastard of Wandonne | Lionel, a man-at-arms of John of Luxembourg's company, to whom Joan gave her faith at Compiègne; always "the Bastard of Wandonne" | 050 (050.63) | Lionel of Wandonne; the Bastard of Wandomme (Ramsay, Champion); the bastard de Vendome (Monstrelet); Lionel, Bastard of Vendôme (Wikipedia) |
 | Baudot de Noyelle | the Burgundian captain posted at Margny | 050 (050.55) | Baudo de Noielle |
 | the lord of Créqui | a Burgundian lord with John of Luxembourg at Compiègne and in Paris in 1429 | 050 (050.21) | Créqui |
+| Jean de Pressy | a knight of Artois of the Anglo-Burgundian party, of Henry VI's Grand Council, who with others at Arras asked Joan to put on a woman's dress | 060 (060.67) | Messire Jean de Pressy; John of Pressy (Lowell); the Sieur de Pressy (Murray) |
 | L'Isle-Adam | Jean de Villiers, lord of L'Isle-Adam, a Burgundian captain in Paris in 1429, who let the French into Paris in 1436 | 050 (050.12) | the sire de l'Ille Adam; the lord of L'Isle-Adam |
 | Perrinet Gressart | a soldier of fortune in Burgundy's service, captain of La Charité from 1423 | 050 (050.33) | Gressart |
 | François de Surienne | husband of Gressart's niece, bailli of Saint-Pierre-le-Moûtier; in 1449 the English captain who sacked Fougères | 050 (050.33) | Francis of Surienne |

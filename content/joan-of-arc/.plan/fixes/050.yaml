@@ -262,3 +262,17 @@
   old: 'Paris, Saint-Denis and Normandy left;'
   new: 'Paris and Normandy left (050.9), Saint-Denis with Paris but for the king''s stay of 25 August to 13 September (050.14, 050.29), which its markers carry;'
   commit: 4868abb3
+- fault: 050-map-auditor-2
+  by: cartographer
+  file: content/joan-of-arc/.plans/pages050.mjs
+  field: 'pages[compiegne].bbox (and so pages/050-paris-and-compiegne/060-compiegne/page.yaml, rerun)'
+  old: '[2.65, 49.18, 3.4, 49.52]'
+  new: '[2.65, 49.05, 3.4, 49.52]'
+  commit: f10de002
+- fault: 050-map-auditor-2
+  by: cartographer
+  file: content/joan-of-arc/.plan/050-paris-and-compiegne/map.yaml
+  field: compiegne.bbox
+  old: '[2.65, 49.18, 3.4, 49.52]'
+  new: '[2.65, 49.05, 3.4, 49.52]'
+  commit: f10de002

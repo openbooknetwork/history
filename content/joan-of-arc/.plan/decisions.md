@@ -254,3 +254,15 @@
 - wave 030 040: done, 26 Nov 2026, at the sections' `build`. 12 pages; 23 of 41 are built.
 - ledger after `wave 030 040`: | **total** | 86 | 2,612 | 469,260 | 5,319 | 18,274,829 | 453,486,407 | 3,558,594 | 85,990,466 |
 - maps 050 and 060 drawn (cartographers): 6 pages each, from `.plans/pages050.mjs` and `pages060.mjs`. 050's route `france-1429-gien` clashed with 040's and is `france-1429-back-to-gien` (050-cartographer-1); 060 gained three markers for route stations (060-cartographer-1, -2), and Le Crotoy's marker stands on land 1.5 km from the town, the base map's coast putting the town in the bay. No route joins Le Crotoy and Rouen.
+- maps 050 audited (map-auditor): 3 faults fixed by the auditor, 1 open for the cartographer and fixed since (the
+  Compiègne frame, 050-map-auditor-2). maps 060 audited: 2 fixed, 1 open for a researcher (060-map-auditor-2, the
+  request at Arras that she take a woman's dress, which stands in the record and in no claim). texts 050 and 060
+  written (section-writers).
+- cloud ruling: Montépilloy on 14 and 15 August 1429 is told plainly, with no "Lowell's date" — the claim 050.3 is
+  agreed and Cagny gives the day; only the article differs. This withdraws the pre-plan ruling that told it as
+  Lowell's.
+- unresolved, maps 050 and 060: every zone edge of the two sections is the keeper's estimate; who held Saint-Denis
+  after 13 September 1429; Clairoix, Beaurevoir and Beauvais near the keeper's lines; Le Crotoy, English, marked in
+  the burgundy zone 1.5 km from the town; the Rouen pages of 1431 on `english-sep-1429`.
+- cloud ruling: they stand as the auditors proposed — holds are markers in the holder's colour as the brief rules,
+  the edges are reconstructions told as approximate, and Saint-Denis stays English, as it was before 25 August.

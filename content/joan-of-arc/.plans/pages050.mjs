@@ -195,7 +195,7 @@ const pages = [
     } },
   { dir: '060-compiegne', id: 'compiegne',
     title: 'Compiègne', date: 'May 1430', when: '1430-05',
-    bbox: [2.65, 49.18, 3.4, 49.52], battle: 'compiegne-1430',
+    bbox: [2.65, 49.05, 3.4, 49.52], battle: 'compiegne-1430',
     zones: ['france-sep-1429', 'english-sep-1429', 'burgundy-1420', 'brittany-1407'],
     routes: ['joan-1430-compiegne', 'joan-1430-sortie', 'burgundy-1430-clairoix', 'english-1430-venette'],
     routeFiles: {

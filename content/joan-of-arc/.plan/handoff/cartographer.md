@@ -54,3 +54,6 @@
   north of the bay by [1.75, 50.21]. Rouen's castle ward is [1.0932, 49.4452], the keep [1.0938, 49.4461], for 070.
 - names-check fails "the church of Saint-Sauveur" though names.md's rule asks for it: write "its church of
   Saint-Sauveur". It also fails "Jean de Pressy" (no row): leave him out of a note or add his row.
+- A marker near a page's south-west corner falls under the legend on a laptop (bottom-left about 220 by 330 px):
+  050's compiegne put Crépy 5 km inside its south edge and lost it; the south edge went from 49.18 to 49.05. Leave
+  some 0.1 to 0.15 degrees below such a place in a frame of this size.

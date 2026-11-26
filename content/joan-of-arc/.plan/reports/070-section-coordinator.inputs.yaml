@@ -9,3 +9,12 @@
   status: pass
   outputs:
     - content/joan-of-arc/.plan/070-after-her/pages.yaml
+- task: plan
+  step: plans
+  at: '2026-11-26T11:16:49.774Z'
+  before: null
+  inputs:
+    rules.md: 68d19bd3019bf769
+    brief.md#070: c46469bf5f81b9be
+    research.md#070: b52526619aceea7a
+    names.md#070: 5fb76cd94fa91ce7

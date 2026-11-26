@@ -37,3 +37,106 @@
   introduced: pre-plan
   owner: section-coordinator
   state: fixed
+- id: 050-research-reviewer-1
+  severity: wrong
+  file: content/joan-of-arc/.plan/research/050.md
+  field: 'Coverage'
+  replaces: clause
+  old: 'La Charité has Cagny, the letters and the three lives, and no source read gives its course or the day it was raised;'
+  new: 'La Charité has Cagny, the Berry herald and Jean Chartier in Quicherat 4, the letters, the Bourges levy of 24 November and the three lives; the Berry herald gives its length (about a month), an assault and the loss of the artillery, and no source read gives the day it was raised;'
+  source: 'archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt, Berry herald, p. 49: "devant la ville de la Charité; et là lurent environ ung mois et se levèrent honteusement, sans ce que secours venist à ceulx de dedens; et y perdirent bombardes et artillerie; et y morut à ung assault ung baron du pais du Daulphiné"; Jean Chartier, p. 91: "Devant laquelle se tindrent par aulcun temps et en la fin se levèrent ... et perdirent, comme on dit, la plus grant part de leur artillerie". Both in Quicherat 4, which the section read.'
+  kind: sources
+  introduced: research
+  owner: researcher
+  state: fixed
+- id: 050-research-reviewer-2
+  severity: weak
+  file: content/joan-of-arc/.plan/research/050.md
+  field: '050.2'
+  replaces: clause
+  old: '"Le duc de Bethford, les capitaines englois, acompaigniez de viij à ix mille Englois" (archive.org-download-chroniquesdeperc00cagnuoft-chroniquesdeperc00cagnuoft-djvu.txt.txt, 1429, p. 162, primary)'
+  new: '"Le duc de Bethford, les capitaines englois, acompaigniez de viij à ix mille Englois" (archive.org-download-chroniquesdeperc00cagnuoft-chroniquesdeperc00cagnuoft-djvu.txt.txt, 1429, p. 162, primary) "Given at Montereau-fiiut-Ycmne the 7ih day of August" (archive.org-download-chroniclesengue06johngoog-chroniclesengue06johngoog-djvu.txt.txt, book 2 ch. 65, the letter of Bedford, primary)'
+  source: 'archive.org-download-chroniclesengue06johngoog-chroniclesengue06johngoog-djvu.txt.txt, book 2 ch. 65, the end of Bedford''s letter: "Given at Montereau-fiiut-Ycmne the 7ih day of August, in the year of Grace 1429". The agreed line quoted only Ramsay for 7 August and Montereau; the Cagny quote it had gives the strength, not the letter.'
+  kind: sources
+  claim: '050.2'
+  introduced: research
+  owner: researcher
+  state: fixed
+- id: 050-research-reviewer-3
+  severity: weak
+  file: content/joan-of-arc/.plan/research/050.md
+  field: '050.8'
+  replaces: clause
+  old: '"vais had driven out Cauchon, its bishop count, a violent Anglo-Burgundian" (archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, ch. 13, p. 171, scholarly)'
+  new: '"vais had driven out Cauchon, its bishop count, a violent Anglo-Burgundian" (archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, ch. 13, p. 171, scholarly) "Expelled from Beauvais with the English (August, 1429)" (sourcebooks.web.fordham.edu-basis-joanofarc-trial.asp.txt, Champion''s sketch of Pierre Cauchon, scholarly)'
+  source: 'sourcebooks.web.fordham.edu-basis-joanofarc-trial.asp.txt, Champion''s sketch of Pierre Cauchon: "Expelled from Beauvais with the English (August, 1429), Cauchon fled to Rouen". The expulsion of Cauchon rested on Lowell alone in an agreed line.'
+  kind: sources
+  claim: '050.8'
+  introduced: research
+  owner: researcher
+  state: fixed
+- id: 050-research-reviewer-4
+  severity: weak
+  file: content/joan-of-arc/.plan/research/050.md
+  field: '050.29'
+  replaces: clause
+  old: 'where he dines on Wednesday 21 September. agreed. "Cedit mardi xiij jour dudit mois de septembre" (archive.org-download-chroniquesdeperc00cagnuoft-chroniquesdeperc00cagnuoft-djvu.txt.txt, 1429, p. 169, primary)'
+  new: 'where he dines on Wednesday 21 September. agreed for the route; disputed for the day he left Saint-Denis, Tuesday 13 September (Cagny, Ramsay) or Monday 12 September (the Journal du siège). "Cedit mardi xiij jour dudit mois de septembre" (archive.org-download-chroniquesdeperc00cagnuoft-chroniquesdeperc00cagnuoft-djvu.txt.txt, 1429, p. 169, primary) "se partist ledouziesme jour de septembre" (archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt, Journal du siège, p. 200, primary)'
+  source: 'archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt, Journal du siège, p. 200: "El ce faict, se partist ledouziesme jour de septembre, et s''en ala à Laigny sur Marne"; rules.md, "The careful side": a date the sources give differently names its author.'
+  kind: attribution
+  claim: '050.29'
+  introduced: research
+  owner: researcher
+  state: fixed
+- id: 050-research-reviewer-5
+  severity: weak
+  file: content/joan-of-arc/.plan/research/050.md
+  field: '050.39'
+  replaces: clause
+  old: 'an assault is beaten back; the king sends neither food nor money, Bourges is asked for 1,300 crowns on 24 November, and the siege is raised with the loss of some artillery. agreed. '
+  new: 'an assault is made, in which a baron of Dauphiné, Raymon de Montremur, is killed (the Berry herald); the king sends neither food nor money, Bourges is asked for 1,300 crowns on 24 November, and the siege is raised with the loss of artillery (bombards and artillery, the Berry herald; the greater part of it, as was said, Chartier; some, Lang). agreed. "et là lurent environ ung mois et se levèrent honteusement" (archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt, Berry herald, p. 49, primary) "y morut à ung assault ung baron du pais du Daulphiné" (archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt, Berry herald, p. 49, primary) "Devant laquelle se tindrent par aulcun temps et en la fin se levèrent" (archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt, Jean Chartier, p. 91, primary) "la somme de treize cens escuz" (archive.org-download-ProcesDeCondamnationV5-ProcesDeCondamnationV5-djvu.txt.txt, levy of the town of Bourges for the siege of La Charité, 24 November 1429, p. 356, primary) '
+  source: 'archive.org-download-procsdecondam04joanuoft-procsdecondam04joanuoft-djvu.txt.txt, Berry herald, p. 49, and Jean Chartier, p. 91 (as for the Coverage fault); archive.org-download-ProcesDeCondamnationV5-ProcesDeCondamnationV5-djvu.txt.txt, p. 356, the levy of Bourges of 24 November 1429: "la somme de treize cens escuz d''or ... ou aultrement conviendroit eulx et leurs dictes gens partir de devant ladicte ville et lever ledict siège". The line rested on Lowell and Lang for the length, the assault and the artillery while three primary texts in files the section read give them.'
+  kind: sources
+  claim: '050.39'
+  introduced: research
+  owner: researcher
+  state: fixed
+- id: 050-research-reviewer-6
+  severity: weak
+  file: content/joan-of-arc/.plan/research/050.md
+  field: '050.42'
+  replaces: clause
+  old: '- 050.42 Event: in December 1429 at Mehun-sur-Yèvre Charles VII ennobles Joan and her family. agreed. '
+  new: '- 050.42 Event: in December 1429 (on 29 December, Thurston) at Mehun-sur-Yèvre Charles VII ennobles Joan and her family. agreed for December; single (Thurston) for the day. "Charles, on 29 December, 1429, ennobled the Maid and all her family" (newadvent.org-cathen-08409c.txt, Thurston, scholarly) '
+  source: 'newadvent.org-cathen-08409c.txt, Thurston: "Charles, on 29 December, 1429, ennobled the Maid and all her family". The section quoted 5 scholarly works against 6 in 040 and 060; Thurston, read for the story and covering 010-070, was not used.'
+  kind: sources
+  claim: '050.42'
+  introduced: research
+  owner: researcher
+  state: fixed
+- id: 050-research-reviewer-7
+  severity: taste
+  file: content/joan-of-arc/.plan/research/050.md
+  field: '050.45'
+  replaces: clause
+  old: '(archive.org-download-maidoffrancebein00languoft-maidoffrancebein00languoft-djvu.txt.txt, ch. 19, scholarly)'
+  new: '(archive.org-download-maidoffrancebein00languoft-maidoffrancebein00languoft-djvu.txt.txt, ch. 19, p. 226, scholarly)'
+  source: 'archive.org-download-maidoffrancebein00languoft-maidoffrancebein00languoft-djvu.txt.txt, line 9819, between the running heads of p. 225 and p. 227: "(for Melun had come over to King Charles in April 17-23)". The pointer gave the chapter and no page.'
+  kind: sources
+  claim: '050.45'
+  introduced: research
+  owner: researcher
+  state: fixed
+- id: 050-research-reviewer-8
+  severity: taste
+  file: content/joan-of-arc/.plan/research/050.md
+  field: '050.64'
+  replaces: clause
+  old: '(archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, ch. 17, scholarly)'
+  new: '(archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, ch. 17, p. 224, scholarly)'
+  source: 'archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, line 9779, under the running head "224 JOAN OF ARC": "Lionel of Wandonne, in whose troop the archer served". The pointer gave the chapter and no page.'
+  kind: sources
+  claim: '050.64'
+  introduced: research
+  owner: researcher
+  state: fixed

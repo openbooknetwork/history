@@ -10,6 +10,7 @@ const SEC = 'content/joan-of-arc/pages/070-after-her';
 const HEAD = '# Written by content/joan-of-arc/.plans/pages070.mjs. Change it there and run it again.\n';
 const q = s => JSON.stringify(s);
 
+// Image ids are the placed images' ids (the image-finder's), not the placeholders of the first draw.
 // Places: the zone generator's points (zones.mjs, T) where it has the place, else the plan's coordinates.
 const P = {
   paris: [2.352, 48.857], arras: [2.78, 50.29], rouen: [1.099, 49.443], caen: [-0.37, 49.183],
@@ -48,11 +49,15 @@ const pages = [
     routes: [], routeFiles: {},
     markers: {
       'notre-dame-1431': { lnglat: P.notreDame, icon: 'crown', color: 'english', label: 'Notre-Dame', rank: 2,
-        image: 'henry-vi-paris-coronation-miniature',
+        image: 'henry-vi-paris-coronation-miniature-4faf00',
         note: 'Cardinal Beaufort crowns Henry VI King of France in this cathedral of Paris on Sunday 16 December 1431 (the Bourgeois of Paris and Ramsay; Monstrelet has the 17th), in a Paris that holds for him' },
       'arras-1435': { lnglat: P.arras, icon: 'scroll', color: 'burgundy', label: 'Arras', rank: 2,
-        image: 'arras-peace-1435-miniature',
+        image: 'arras-peace-1435-miniature-fb0b58',
         note: "The congress sits in this town of the Duke of Burgundy in the summer of 1435; the English envoys leave on 6 September, and on 21 September Philip the Good seals his separate peace with Charles VII in its abbey of Saint-Vaast" },
+      'saint-denis-1435': { lnglat: P.saint_denis, icon: 'shield', color: 'english', label: 'Saint-Denis', rank: 1,
+        note: "Taken by Charles VII's French on 1 June 1435 and besieged by the English and the Burgundians; its garrison marches out with the honours of war on 4 October 1435 (Ramsay), and the town ends the year English again" },
+      'rouen-1435': { lnglat: P.rouen, icon: 'map-pin', color: 'english', label: 'Rouen', rank: 1,
+        note: "John, Duke of Bedford, regent of France for Henry VI, dies here in the night of 14 to 15 September 1435, while the congress sits at Arras; the news reaches Arras on the 16th" },
     } },
   { dir: '020-paris-opens', id: 'paris-opens',
     title: 'Paris Opens Its Gates', date: 'April 1436', when: '1436-04',
@@ -67,12 +72,11 @@ const pages = [
     },
     markers: {
       'paris-1436': { lnglat: P.paris, icon: 'flag', color: 'france', label: 'Paris', rank: 3,
-        image: 'paris-1436-recovery-miniature',
         note: "Henry VI's capital since 1422 opens to Charles VII's men on Friday 13 April 1436: L'Isle-Adam climbs its wall by ladders the citizens let down, with the banner of Charles VII and a proclamation of amnesty, and Richemont enters" },
       'porte-saint-jacques-1436': { lnglat: P.porteSaintJacques, icon: 'door-open', color: 'france', label: 'the Porte Saint-Jacques', rank: 1,
         note: 'The gate of the left bank, toward Montlhéry, which the citizens open to Richemont, the Bastard of Orléans and L\'Isle-Adam on 13 April 1436' },
       'bastille-1436': { lnglat: P.bastille, icon: 'castle', color: 'english', label: 'the Bastille Saint-Antoine', rank: 1,
-        image: 'bastille-saint-antoine-view',
+        image: 'bastille-saint-antoine-view-8a49b8',
         note: 'The English garrison under Lord Willoughby and Louis of Luxembourg shuts itself in here on 13 April 1436, treats with Richemont and marches out under his safe-conduct on 17 April, hooted by the Parisians' },
       'saint-denis-1436': { lnglat: P.saint_denis, icon: 'shield', color: 'france', label: 'Saint-Denis', rank: 2,
         note: "Stormed by Richemont's French and Burgundians in April 1436; near Épinay, a little beyond it, Sir Thomas Beaumont's sortie from Paris is routed and he is taken, and English survivors who held its Tour du Velin are put to death" },
@@ -104,10 +108,10 @@ const pages = [
     },
     markers: {
       'fougeres-1449': { lnglat: P.fougeres, icon: 'flame', color: 'english', label: 'Fougères', rank: 1,
-        image: 'fougeres-castle',
+        image: 'fougeres-castle-2070d6',
         note: 'A force from the English garrisons of Normandy under François de Surienne seizes and sacks this rich town of Brittany on 24 March 1449, breaking the truce; French captains take Pont-de-l\'Arche, Conches and Gerberoy in reprisal' },
       'rouen-1449': { lnglat: P.rouen, icon: 'castle', color: 'france', label: 'Rouen', rank: 1,
-        image: 'rouen-1449-entry-miniature',
+        image: 'rouen-1449-entry-miniature-35d59e',
         note: 'The capital of English Normandy rises on 19 October 1449; Somerset signs a capitulation on 29 October and marches out on 4 November, and Charles VII makes his entry on 10 November 1449' },
       'caen-1450': { lnglat: P.caen, icon: 'castle', color: 'france', label: 'Caen', rank: 1,
         note: "Somerset's last town, besieged from early June 1450 and given up by articles of 24 June; on 1 July Richemont escorts Somerset out and Dunois takes possession, and Charles VII enters on 6 July" },
@@ -149,7 +153,7 @@ const pages = [
       'orleans-1456': { lnglat: P.orleans, icon: 'scroll', color: 'france', label: 'Orléans', rank: 1,
         note: 'Witnesses are heard here in February and March 1456; Isabelle Romée had lived here for fifteen years by 1455 (Lowell)' },
       'rouen-1456': { lnglat: P.rouen1456, icon: 'scale', color: 'france', label: 'Rouen', rank: 2,
-        image: 'rouen-archbishop-palace',
+        image: 'rouen-archbishop-palace-8a7b6b',
         note: "Guillaume Bouillé hears seven witnesses here on 4 and 5 March 1450, Guillaume d'Estouteville and Jean Bréhal open a second enquiry in late April and May 1452, and witnesses are heard in December 1455 and May 1456; on 7 July 1456, at eight o'clock, in its archbishop's palace, the judges declare the trial of 1431, the abjuration and the execution null" },
       'lyon-1456': { lnglat: P.lyon, icon: 'scroll', color: 'france', label: 'Lyon', rank: 1,
         note: "On 28 May 1456 a vice-inquisitor takes here the deposition of Jean d'Aulon, her squire" },
@@ -160,7 +164,7 @@ const pages = [
     zones: [], routes: [], routeFiles: {},
     markers: {
       'orleans-8-may': { lnglat: P.orleans, icon: 'flag', color: 'france', label: 'Orléans', rank: 1,
-        image: 'orleans-8-may-procession',
+        image: 'orleans-8-may-procession-8a3262',
         note: 'Each 8 May the city keeps the procession ordered after the relief of 1429, with candles, to the Augustins; its accounts pay for it, and for a play at its bridge, in 1435; a procession follows a fortnight after the sentence of 1456, and Félix Dupanloup preaches here on 8 May 1869' },
     } },
 ];

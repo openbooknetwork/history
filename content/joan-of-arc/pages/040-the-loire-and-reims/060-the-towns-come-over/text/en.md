@@ -6,7 +6,7 @@ Bedford, regent of France for Henry VI, has meanwhile had fresh troops from Engl
 
 @image christine-de-pizan-miniature-f804be
 
-Bedford's memorandum of December 1433, as Lang dates it, names Laon, [Sens](@sens-1429) and Provins among the cities lost after Orléans.
+Bedford's memorandum of December 1433, as Lang dates it, names Laon, Provins and [Sens](@sens-1429) among the cities lost after Orléans, though Sens still holds out against the king in September 1429.
 
 The map shows the king's road from Reims to Provins, and the land between the Marne and the Aisne gone from the English zone. Both are approximate. Paris stays English, and whether the king will march on it is still undecided.
 

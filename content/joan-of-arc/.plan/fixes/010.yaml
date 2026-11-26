@@ -657,3 +657,38 @@
   old: "The battle of Verneuil in a miniature of about 1484 from the Vigiles de Charles VII of Martial d'Auvergne."
   new: "The battle of Verneuil in a miniature of about 1484 from the Vigiles de Charles VII."
   commit: ec0556aa
+- fault: 010-story-auditor-5
+  by: image-finder
+  file: content/joan-of-arc/shared/images/charles-vii-fouquet-portrait-7f767d/image.yaml
+  field: caption
+  old: "Charles VII, King of France, painted by Jean Fouquet, in the Louvre."
+  new: "Charles VII, King of France, painted by Jean Fouquet between 1445 and 1450, in the Louvre."
+  commit: 5783ce3a
+- fault: 010-story-auditor-1
+  by: section-reviewer
+  file: content/joan-of-arc/pages/010-france-divided/060-cravant-and-verneuil/text/en.md
+  field: Notes, the third note
+  old: "The counts of the armies at Verneuil run from Ramsay's 2,000 or 3,000 English to the Bourgeois's 18,000 French."
+  new: "The counts of the armies at Verneuil run from Ramsay's 2,000 or 3,000 English to Beaucourt's 20,000 French; the Bourgeois has the French at 18,000 by their own count."
+  commit: 5783ce3a
+- fault: 010-story-auditor-2
+  by: section-reviewer
+  file: content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md
+  field: Notes, the second note
+  old: "and notes that the villagers spoke of \"going into France\"."
+  new: "and notes that the villagers spoke of \"going into France\", though Joan and Charles VII, he writes, both held Domrémy and Greux to be French soil. Murray, in a note to the depositions of the retrial, writes that the village lay in the territory of Lorraine but belonged to France, as a dependency of Champagne."
+  commit: 5783ce3a
+- fault: 010-story-auditor-3
+  by: section-reviewer
+  file: content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md
+  field: text
+  old: "The line drawn through the village, along the Three Fountains brook, is approximate."
+  new: "The line through the village follows Lowell's Three Fountains brook and is approximate."
+  commit: 5783ce3a
+- fault: 010-section-reviewer-13
+  by: section-reviewer
+  file: content/joan-of-arc/.plan/names.md
+  field: Writers of the sources, Murray
+  old: "| Murray | T. Douglas Murray, translator of the trials | 020 (020.4) | |"
+  new: "| Murray | T. Douglas Murray, translator of the trials | 010 (010.14, a note of Murray's that 020.9 quotes) | |"
+  commit: 5783ce3a

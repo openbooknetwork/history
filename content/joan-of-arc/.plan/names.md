@@ -291,7 +291,7 @@ A text names a writer when it gives his figure, his date or his judgement, by th
 | Père Ignace | Ignace de Jésus-Maria, historian of the counts of Ponthieu (1657); not told (rules.md) | 060 (060.24) | |
 | Bouchart | whose story of 1498 is told with Lowell's and Lang's doubt | 050 (050.68) | |
 | Quicherat | Jules Quicherat, editor of the documents of both trials | 020 (020.43) | |
-| Murray | T. Douglas Murray, translator of the trials | 020 (020.4) | |
+| Murray | T. Douglas Murray, translator of the trials | 010 (010.14, a note of Murray's that 020.9 quotes) | |
 | Barrett | W. P. Barrett, translator of the trial of 1431 | 010 (010.8) | |
 | Champion | Pierre Champion, whose sketches of the people stand in Barrett | 030 (030.40) | |
 | Tuetey | Alexandre Tuetey, editor of the Bourgeois | 010 (010.60) | |

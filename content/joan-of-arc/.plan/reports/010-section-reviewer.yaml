@@ -23,3 +23,22 @@
     - "text.yaml cravant-and-verneuil account: Lang's Bourges, Chinon and Gien are not in the text, which is cut for length. map.yaml cravant-and-verneuil unmarked still lists them; this is harmless."
   lengths: "Bodies run 305 to 345 words. All six are over the soft limit, and the four battle and treaty pages are within 10 words of 350. My additions were offset by cuts (one sentence on cravant-and-verneuil, the Armagnac clause on murder-in-paris)."
   image: "verneuil-second-miniature (images/010.yaml) is offered for the card verneuil-1424 and no text has a place for it. The card's images list belongs to the battle-implementor."
+- step: story
+  task: fix
+  status: pass
+  changed_files:
+    - content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md
+    - content/joan-of-arc/pages/010-france-divided/060-cravant-and-verneuil/text/en.md
+    - content/joan-of-arc/.plan/names.md
+    - content/joan-of-arc/.plan/faults/010.yaml
+    - content/joan-of-arc/.plan/fixes/010.yaml
+  faults: [010-section-reviewer-13]
+  unresolved: []
+  stale: [content/joan-of-arc/.plan/names-010.md, content/joan-of-arc/.plan/names-020.md]
+  pages_changed: [domremy, cravant-and-verneuil]
+  fixed: [010-story-auditor-1, 010-story-auditor-2, 010-story-auditor-3]
+  declined: "none"
+  wording: "Two fixes differ from the fault's new on purpose. 010-story-auditor-2 says \"a note to the depositions of the retrial\", not \"of 1455\": rules.md gives a deposition of the retrial no year. 010-story-auditor-1 gives the Bourgeois's count its own clause, since \"the Bourgeois's 18,000 French by their own count\" left unclear whose count it was."
+  check_left: []
+  plan_points: []
+  open_not_mine: "010-story-auditor-5 (the date of the Fouquet portrait in its caption) is the image finder's and stays open."

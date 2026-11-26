@@ -593,3 +593,17 @@
   old: "brought by Cardinal Beaufort."
   new: "brought by Henry VI's great-uncle, Cardinal Beaufort."
   commit: aa448627
+- fault: 040-story-auditor-1
+  by: section-reviewer
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/060-the-towns-come-over/text/en.md
+  field: body, paragraph 4
+  old: "names Laon, [Sens](@sens-1429) and Provins among the cities lost after Orléans."
+  new: "names Laon, Provins and [Sens](@sens-1429) among the cities lost after Orléans, though Sens still holds out against the king in September 1429."
+  commit: 5783ce3a
+- fault: 040-story-auditor-2
+  by: section-reviewer
+  file: content/joan-of-arc/pages/040-the-loire-and-reims/050-reims/text/en.md
+  field: body, paragraph 4
+  old: "Joan is told that the duke will hand over Paris when it ends."
+  new: "Joan is told, Ramsay writes, that the duke will hand over Paris when it ends."
+  commit: 5783ce3a

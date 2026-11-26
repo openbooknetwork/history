@@ -109,3 +109,25 @@
     - content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/markers.yaml
     - content/joan-of-arc/.plan/faults/050.yaml
     - content/joan-of-arc/.plan/fixes/050.yaml
+- task: fix
+  step: story
+  at: '2026-11-26T16:51:43.432Z'
+  note: 'The images are placed: a marker''s image line and a card''s images list hold image ids now, where the generator of the section still names placeholders.'
+  before: 5ca3aa784bfb4df7
+  inputs:
+    rules.md: 476e2c9172c31a6b
+    brief.md#050: 2891b362d7b45d3f
+    050-paris-and-compiegne/pages.yaml#montepilloy: 1d33450441a37681
+    050-paris-and-compiegne/pages.yaml#paris: 692fff610ad2503a
+    050-paris-and-compiegne/pages.yaml#back-to-the-loire: d32f54280be49698
+    050-paris-and-compiegne/pages.yaml#saint-pierre-and-la-charite: 563bb2ae1b8fa4c3
+    050-paris-and-compiegne/pages.yaml#melun-and-lagny: ac893305650793e6
+    050-paris-and-compiegne/pages.yaml#compiegne: 28d4340c55417241
+    050-paris-and-compiegne/map.yaml#montepilloy: 4c9b897a27381d26
+    050-paris-and-compiegne/map.yaml#paris: 5276045f86789db1
+    050-paris-and-compiegne/map.yaml#back-to-the-loire: 685dc6cfb57aeae7
+    050-paris-and-compiegne/map.yaml#saint-pierre-and-la-charite: 65bd9723f84d99fb
+    050-paris-and-compiegne/map.yaml#melun-and-lagny: bfb4f087cd91e595
+    050-paris-and-compiegne/map.yaml#compiegne: a4e1be2e88912fa1
+    names.md#050: cbc8d9e371448816
+    note: 4fe2c3312c951f64

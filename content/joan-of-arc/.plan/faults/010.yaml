@@ -1080,7 +1080,7 @@
   claim: "010.65"
   introduced: texts
   owner: section-reviewer
-  state: open
+  state: fixed
   reader: "takes the Bourgeois's 18,000 for the highest count of the French, and the note against the card, which gives 20,000"
 - id: 010-story-auditor-2
   severity: weak
@@ -1094,7 +1094,7 @@
   claim: "010.14"
   introduced: research
   owner: section-reviewer
-  state: open
+  state: fixed
   reader: "has two accounts, Bar (Lowell) and the edge of Lorraine (Lang), and no account that Domrémy was French, which is Lang's own conclusion and Murray's; the note tilts the dispute against the kingdom"
 - id: 010-story-auditor-3
   severity: weak
@@ -1108,7 +1108,7 @@
   claim: "010.14"
   introduced: map-design
   owner: section-reviewer
-  state: open
+  state: fixed
   reader: "sees a border through the village drawn as though it were known, while the text calls its lordship disputed; the drawing takes Lowell's side without saying so"
 - id: 010-story-auditor-4
   severity: taste
@@ -1134,5 +1134,17 @@
   kind: image
   introduced: images
   owner: image-finder
-  state: open
+  state: fixed
   reader: "cannot tell whether the portrait was painted in his lifetime"
+- id: 010-section-reviewer-13
+  severity: wrong
+  file: content/joan-of-arc/.plan/names.md
+  field: Writers of the sources, Murray
+  replaces: clause
+  old: "translator of the trials | 020 (020.4) |"
+  new: "translator of the trials | 010 (010.14, a note of Murray's that 020.9 quotes) |"
+  source: "names-check hook on content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md: \"Murray\" is first named in 010-france-divided, and its row says 020 (020.4); the fix of 010-story-auditor-2 names Murray's note (020.9, archive.org-download-jeannedarcmaidof028754mbp-jeannedarcmaidof028754mbp-djvu.txt.txt l. 11873-11875) in the second note of domremy"
+  kind: check
+  introduced: fix
+  owner: section-reviewer
+  state: fixed

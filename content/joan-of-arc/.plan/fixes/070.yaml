@@ -574,3 +574,45 @@
   old: "aa448627"
   new: "646a3ad1"
   commit: ec0556aa
+- fault: 070-story-auditor-1
+  by: cartographer
+  file: content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/page.yaml
+  field: "markers"
+  old: "[notre-dame-1431, arras-1435]"
+  new: "[notre-dame-1431, arras-1435, saint-denis-1435, rouen-1435]"
+  commit: 6e446cf8
+- fault: 070-story-auditor-1
+  by: cartographer
+  file: content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/markers.yaml
+  field: "saint-denis-1435 and rouen-1435"
+  old: ""
+  new: "saint-denis-1435 (shield, english, rank 1, at 2.36 48.936) and rouen-1435 (map-pin, english, rank 1, at 1.099 49.443), with notes from 070.6 and 070.2"
+  commit: 6e446cf8
+- fault: 070-story-auditor-1
+  by: cartographer
+  file: content/joan-of-arc/.plans/pages070.mjs
+  field: "burgundy-changes-sides.markers; image lines"
+  old: "the two markers absent; image lines naming the placeholders"
+  new: "the two markers added; each image line the placed id (henry-vi-paris-coronation-miniature-4faf00 and the rest), and paris-1436's image line removed, as the placed file has none"
+  commit: 6e446cf8
+- fault: 070-story-auditor-1
+  by: cartographer
+  file: content/joan-of-arc/.plan/070-after-her/pages.yaml
+  field: "burgundy-changes-sides.markers"
+  old: "[notre-dame-1431, arras-1435]"
+  new: "[notre-dame-1431, arras-1435, saint-denis-1435, rouen-1435]"
+  commit: 6e446cf8
+- fault: 070-story-auditor-1
+  by: cartographer
+  file: content/joan-of-arc/.plan/070-after-her/map.yaml
+  field: "burgundy-changes-sides.markers and unmarked"
+  old: "Rouen and Saint-Denis under unmarked"
+  new: "saint-denis-1435 and rouen-1435 under markers, their unmarked entries removed"
+  commit: 6e446cf8
+- fault: 070-story-auditor-1
+  by: cartographer
+  file: content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md
+  field: "body, the links"
+  old: "dies at Rouen in the night; Treaty of Arras. Saint-Denis, which"
+  new: "dies at [Rouen](@rouen-1435) in the night; Treaty of Arras. [Saint-Denis](@saint-denis-1435), which"
+  commit: 6e446cf8

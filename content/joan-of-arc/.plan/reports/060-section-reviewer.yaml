@@ -19,3 +19,21 @@
   plan_changes: "the-court's date, January – February 1431, does not cover what its text tells: Le Maistre sits from 13 March, and the pay runs to 24 April."
   open_for_cartographer: "060-section-reviewer-13 to 17: places the texts name that their maps do not mark (Compiègne, Noyon, Saint-Quentin, Paris, the Somme, the archbishop's chapel, the Old Market on saint-ouen, the church of Saint-Sauveur, the Seine)."
   length: "Five bodies run between 300 and 350 words (337, 310, 321, 304, 334). Each holds two or three disputed accounts, each with its author, and the notes hold only the alternatives. the-old-market is now 297."
+- step: story
+  task: fix
+  status: pass
+  changed_files:
+    - content/joan-of-arc/pages/060-rouen/040-the-questioning/text/en.md
+    - content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md
+    - content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md
+    - content/joan-of-arc/.plan/faults/060.yaml
+    - content/joan-of-arc/.plan/fixes/060.yaml
+  faults: []
+  unresolved: []
+  stale: []
+  pages_changed: [the-questioning, saint-ouen, the-old-market]
+  fixed: "060-story-auditor-1, 2 and 3, as written: Erard, Courcelles and Midi each get their title where the page first names them. Erard's 'doctor' stands in the record's 'master Guillaume Erart, a distinguished doctor of sacred theology' (passages-060)."
+  declined: none
+  check_left: none. placeholders.mjs (harita check), --places, rules-lint and names-check print ok; the one waiting placeholder is 070's.
+  plan_changes: none
+  length: "the-questioning 308, saint-ouen 339, the-old-market 301 words. Each carries two disputed accounts, each with its author, and the three added words of title are what text.md asks for a reader who opens the page there."

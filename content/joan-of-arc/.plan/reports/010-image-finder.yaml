@@ -26,3 +26,15 @@
     - "agincourt-battle-miniature-92fbb0: the Commons page dates it circa 1422; the caption says only fifteenth century"
     - "charles-vii-fouquet-portrait-7f767d: the Commons page is a 2025 photograph and gives no date for the painting, so the caption has none"
     - "henry-v-portrait-2caf64: the National Portrait Gallery comes from the file's name only; the page says 16th century, anonymous"
+- step: story
+  task: fix
+  status: pass
+  changed_files:
+    - content/joan-of-arc/shared/images/charles-vii-fouquet-portrait-7f767d/image.yaml
+    - content/joan-of-arc/.plan/faults/010.yaml
+    - content/joan-of-arc/.plan/fixes/010.yaml
+  faults: []
+  unresolved: []
+  stale: []
+  fixed:
+    - "010-story-auditor-5: the date 1445-1450 is from the Commons category of the file (Category:Portrait de Charles VII - Fouquet - Louvre INV 9106, Artwork template, date {{Other date|-|1445|1450}}); the file page itself gives only the 2025 photograph's date"

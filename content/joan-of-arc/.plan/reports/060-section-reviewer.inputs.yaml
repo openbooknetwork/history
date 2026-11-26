@@ -18,3 +18,46 @@
     060-rouen/text.yaml#saint-ouen: 829d08d9fdd18c7e
     060-rouen/text.yaml#the-old-market: 0b6a772b12417804
     names.md#060: 84bcab70c28ab69a
+- task: fix
+  step: story
+  at: '2026-11-26T16:51:35.846Z'
+  before: null
+  inputs:
+    rules.md: 476e2c9172c31a6b
+    060-rouen/pages.yaml#beaulieu-and-beaurevoir: 3aff44f1978c5c63
+    060-rouen/pages.yaml#sold-to-the-english: 661269244a1d1f31
+    060-rouen/pages.yaml#the-court: 867c0abfdcd2fe3c
+    060-rouen/pages.yaml#the-questioning: 037d5bbe926392f0
+    060-rouen/pages.yaml#saint-ouen: 577716f27bbd2bbc
+    060-rouen/pages.yaml#the-old-market: eab1ea706b6397a5
+    060-rouen/text.yaml#section: b62003bd032daeb8
+    060-rouen/text.yaml#beaulieu-and-beaurevoir: 9671dae1759ec01f
+    060-rouen/text.yaml#sold-to-the-english: b026a155e815c962
+    060-rouen/text.yaml#the-court: cd8c832016e17909
+    060-rouen/text.yaml#the-questioning: 65cf63265c642f95
+    060-rouen/text.yaml#saint-ouen: 829d08d9fdd18c7e
+    060-rouen/text.yaml#the-old-market: 0b6a772b12417804
+    names.md#060: b5826b394cf22548
+  ended: '2026-11-26T16:53:14.411Z'
+  status: pass
+  outputs:
+    - content/joan-of-arc/pages/060-rouen/040-the-questioning/text/en.md
+    - content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md
+    - content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md
+    - content/joan-of-arc/.plan/faults/060.yaml
+    - content/joan-of-arc/.plan/fixes/060.yaml
+  checked:
+    pages/060-rouen/010-beaulieu-and-beaurevoir/page.yaml: 2f023497153df6bd
+    pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md: 7e67bc8eb0ecced6
+    pages/060-rouen/020-sold-to-the-english/page.yaml: 38368d457901fe43
+    pages/060-rouen/020-sold-to-the-english/text/en.md: 0761c6d1d7df836e
+    pages/060-rouen/030-the-court/page.yaml: 5de28295b509f6f3
+    pages/060-rouen/030-the-court/text/en.md: 38a3bc73d74d7dea
+    pages/060-rouen/040-the-questioning/page.yaml: 08fd2024536d1174
+    pages/060-rouen/040-the-questioning/text/en.md: 4bece4100e358f29
+    pages/060-rouen/050-saint-ouen/page.yaml: 94667cf273e7fbb4
+    pages/060-rouen/050-saint-ouen/text/en.md: 382d9008ee827549
+    pages/060-rouen/060-the-old-market/page.yaml: 2711578bf694bfca
+    pages/060-rouen/060-the-old-market/text/en.md: e2945161a02cfd91
+    faults#open: 4f53cda18c2baa0c
+  means: c1c3e40dfa7359a9

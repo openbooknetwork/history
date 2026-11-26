@@ -23,7 +23,31 @@
   rests_on: ["040.22", "040.25", "040.26", "040.27", "040.28", "040.29", "040.30", "040.31", "040.32", "040.33", "040.34", "040.35", "040.36", "040.37", "040.38", "040.39", "040.40", "040.41", "040.42", "040.43", "040.44", "040.45", "040.46"]
   markers: [patay-village, janville-shut, montpipeau-1429, saint-sigismond-1429, meung-18-june-1429, beaugency-18-june-1429, orleans-19-june-1429, etampes-1429, corbeil-1429, chartres-1429]
   battles:
-    - { id: patay-1429, phases: false }
+    - { id: patay-1429, phases: true }
+- id: patay-the-hedges
+  title: "Patay: the hedges"
+  date: "18 June 1429"
+  when: 1429-06-18
+  tells: Warned by their rearguard's scouts that the French are coming fast, the English halt a league short of Patay and send their vanguard, wagons and artillery on to the hedges near the village, and Talbot dismounts with five hundred picked archers to hold the narrow way between two hedges until the main body and the rearguard have joined.
+  phase_of: patay-1429
+  markers: []
+  battles: []
+- id: patay-the-stag
+  title: "Patay: the stag"
+  date: "18 June 1429"
+  when: 1429-06-18
+  tells: The French scouts, who cannot yet see the English, hear them shout at a stag that runs out of the woods into their ranks, and the vanguard under La Hire and Poton de Xaintrailles rides into Talbot's narrow way before the English have joined at the hedges, and before the archers have set their stakes, Monstrelet says. Talbot is taken and his archers are killed.
+  phase_of: patay-1429
+  markers: []
+  battles: []
+- id: patay-the-rout
+  title: "Patay: the rout"
+  date: "18 June 1429"
+  when: 1429-06-18
+  tells: Fastolf rides for the English vanguard to join it, and the vanguard, taking him for a man in flight, leaves the hedges under its white standard. The French main body comes up, the English are cut down or taken where they stand, and Fastolf rides off with a few men for Étampes.
+  phase_of: patay-1429
+  markers: []
+  battles: []
 - id: auxerre-and-troyes
   title: "Auxerre and Troyes"
   date: "29 June to 10 July 1429"

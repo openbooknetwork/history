@@ -2,6 +2,10 @@
 
 For every agent of `.claude/agents/`: the channels it speaks through, and the report it ends with.
 
+**A story on the log.** A story that has the folder `content/<story>/.plan/log/` keeps its faults, its fixes and
+its reports in a log that hooks write. For such a story a worker or a checker reads `agents/log.md`, which takes
+the place of "The fault list", "Fixing a fault", "The fix log" and "The report" below.
+
 ## Channels
 
 Agents pass work to each other through eight channels and through nothing else. Each has one kind of writer, a
@@ -191,11 +195,11 @@ your turns few.
 - Calls that do not wait on each other go in one turn: several files to read, several passages to find, several
   checks to run. One lookup a turn is the costly way to work.
 - `node scripts/passages.mjs <story> <section number>` writes every claim of the section with the passage of each
-  of its quotes, as the source file has it, to `.plan/passages-<section number>.md`. The start-up list of a
-  writer and of a fact checker names that file. Read it once, and open a source itself only for what it does not
-  hold: a passage that runs on, or a fact with no claim.
-- Where you need many other passages of one source, find them with one command that prints them all, not with
-  a search for each.
+  of its quotes, as the source file has it, a file a page: `.plan/passages-<section number>-<page id>.md`. The
+  start-up list of a writer and of a fact checker names those files. Read them once, together, and open a source
+  itself only for what they do not hold: a passage that runs on, or a fact with no claim.
+- Where you need other passages of the sources, find them with one call of `node scripts/find-in-sources.mjs`,
+  which takes many terms and many line ranges and writes to a file of your own, not with a search for each.
 - A command that prints a long list goes to a file in your scratchpad, and you read the part you need.
 
 ## Image placeholders

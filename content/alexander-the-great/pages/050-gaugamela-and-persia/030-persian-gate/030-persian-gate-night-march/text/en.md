@@ -2,7 +2,7 @@ Back in camp Alexander learns of a path that leads round the pass to the far end
 
 The rest set out by night, in silence, through deep snow, and climb to the ridge of the [Bolsoru pass](@persian-gate-night-march-bolsoru). There the force divides. [Philotas](@persian-gate-night-march-philotas), Parmenion's son, takes the right-hand road towards the Persian camp with the battalions of Coenus, Amyntas, son of Andromenes, and Polyperchon and the cavalry, with orders to advance slowly.\*\*\* [Alexander](@persian-gate-night-march-alexander) goes on with the hypaspists, Perdiccas's battalion, the Agrianians, the archers and the royal squadron by a steeper path, farther from the Persian posts. Bosworth has him turn south-east along the foot of the Kuh-i Rudian, using the forest as cover, and come down on the Persian camp from the north-east. No source says that the Persians in their camp, [Ariobarzanes](@persian-gate-night-march-ariobarzanes) among them, notice the march.
 
-The paths on the map are approximate: the sources give the pass, the division and the direction of the march, but not the course of the paths or where each group stood when it halted. Stein put the whole march at about 20 km.
+The exact paths are not known: the sources give the pass, the division and the direction of the march, but not the course of the paths or where each group stood when it halted. Stein put the whole march at about 20 km.
 
 ### Notes
 

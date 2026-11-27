@@ -1,0 +1,71 @@
+# pages.yaml of section 010 france-divided, written at the pre-plan from the brief and sources.md, before the
+# research, and given its rests_on and its full markers at the plan.
+- id: murder-in-paris
+  title: "Murder in Paris"
+  date: "November 1407"
+  when: 1407-11
+  tells: >-
+    Men of John the Fearless, Duke of Burgundy, cut down Louis, Duke of Orléans, the mad king's brother, in a Paris
+    street, and the duke owns the deed. The quarrel of the two princely houses becomes the civil war of Armagnacs
+    and Burgundians, the parties that hold France apart for the rest of the story.
+  rests_on: ["010.1", "010.2", "010.3", "010.4", "010.5", "010.6", "010.7"]
+  markers: [paris-1407, lille-1407]
+  battles: []
+- id: domremy
+  title: "Domrémy on the Meuse"
+  date: "About 1412"
+  when: 1412
+  tells: >-
+    Joan is born about 1412 at Domrémy, a village on the Meuse under the royal castle of Vaucouleurs, held for the
+    king's party with Burgundian and Lorraine land on every side. What she and the witnesses of the retrial said of her
+    parents, her village and her childhood.
+  rests_on: ["010.8", "010.9", "010.10", "010.11", "010.12", "010.13", "010.14", "010.15", "010.16"]
+  markers: [domremy, vaucouleurs-1412, maxey-1412]
+  battles: []
+- id: harfleur-and-agincourt
+  title: "Harfleur and Agincourt"
+  date: "August – October 1415"
+  when: 1415-08
+  tells: >-
+    Henry V of England, claiming the crown of France, lands at the mouth of the Seine, takes Harfleur on 22
+    September after a siege and marches for Calais. The French host bars his way at Agincourt and is beaten, and many
+    of the princes of France are killed or taken.
+  rests_on: ["010.18", "010.19", "010.20", "010.21", "010.22", "010.23", "010.24", "010.25", "010.26", "010.27", "010.28", "010.29", "010.30", "010.31", "010.32", "010.33", "010.34"]
+  markers: [harfleur-1415, blanche-taque-1415, bethencourt-1415, calais-1415]
+  battles:
+    - { id: agincourt-1415, phases: false }
+- id: normandy-and-troyes
+  title: "Normandy, Montereau and Troyes"
+  date: "August 1417 – June 1420"
+  when: 1417-08
+  tells: >-
+    Henry V comes back and conquers Normandy town by town, Caen by assault and Rouen after a siege from July 1418 to January 1419. The
+    Dauphin's men kill John the Fearless on the bridge of Montereau, and his son Philip the Good joins the English. By the
+    Treaty of Troyes Charles VI makes Henry his heir and regent, and the Dauphin is disinherited.
+  rests_on: ["010.35", "010.36", "010.37", "010.38", "010.39", "010.40", "010.41", "010.42", "010.43", "010.44", "010.45", "010.46", "010.17"]
+  markers: [caen-1417, paris-1418, bourges-1418, rouen-1419, mont-saint-michel-1419, montereau-1419, troyes-1420, melun-1420, meaux-1420, soissons-1420, compiegne-1420]
+  battles: []
+- id: two-kings
+  title: "Baugé and the Two Kings"
+  date: "March 1421 – November 1422"
+  when: 1421-03
+  tells: >-
+    At Baugé the Dauphin's Scots and French beat an English army and kill the Duke of Clarence. Henry V dies at
+    Vincennes after the siege of Meaux, and Charles VI after him: the infant Henry VI is proclaimed King of France
+    at Saint-Denis, Bedford riding back to Paris as his regent, and the Dauphin takes the title Charles VII south of the Loire, the "King of Bourges".
+  rests_on: ["010.47", "010.48", "010.49", "010.50", "010.51", "010.52", "010.53", "010.54", "010.55", "010.56", "010.57"]
+  markers: [meaux-1422, vincennes-1422, paris-1422, saint-denis-1422, mehun-1422, bourges-1422]
+  battles:
+    - { id: bauge-1421, phases: false }
+- id: cravant-and-verneuil
+  title: "Cravant and Verneuil"
+  date: "June 1423 – August 1424"
+  when: 1423-07
+  tells: >-
+    Under the Duke of Bedford, regent for Henry VI, the English and Burgundians beat the army of Charles VII at Cravant
+    on the Yonne, and at Verneuil a year later destroy the Scots and break his field army. The kingdom
+    of Bourges is left on the defensive behind the Loire.
+  rests_on: ["010.58", "010.59", "010.60", "010.61", "010.62", "010.63", "010.64", "010.65", "010.66", "010.67", "010.68", "010.57"]
+  markers: [auxerre-1423, cravant-1423, ivry-1424, verneuil-1424]
+  battles:
+    - { id: verneuil-1424, phases: false }

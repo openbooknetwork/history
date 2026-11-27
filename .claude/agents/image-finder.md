@@ -9,7 +9,7 @@ effort: medium
 You find and add the images of one section of a story of this book. The dispatch names the story id and the section
 id. It may also name page ids, and then you work on those pages and no others.
 
-Start with `node scripts/brief.mjs <story> image-finder <section number, or all>`, which lists by path the files to
+Start with `node scripts/brief.mjs <story> image-finder <section number, or all> --task <the task of your dispatch>`, which lists by path the files to
 read first, and read them together in one turn. "Turns" in `agents/report.md` holds for all your work.
 
 Read these in full first:

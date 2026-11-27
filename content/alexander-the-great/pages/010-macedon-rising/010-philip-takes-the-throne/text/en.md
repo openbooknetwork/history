@@ -8,7 +8,7 @@ Philip remakes the army, though historians weigh his changes differently.\* The 
 
 @image macedonian-soldier-fresco-ce4a99
 
-Late in 359 BC or early in 358, Philip marches against Bardylis with 10,000 foot and 600 horse, Diodorus says. Bardylis offers peace if each side keeps what it holds; Philip demands that the Illyrians leave every Macedonian town. The armies meet near Heraclea Lyncestis. Philip attacks from the front while his cavalry rides round the Illyrian flank, and the Illyrians break. Diodorus counts more than 7,000 of them dead. Philip annexes the uplands as far as [Lake Lychnitis](@lychnitis-358), his new western frontier. The map shows the kingdom as he held it after this victory; its borders, here and through this chapter, are approximate.
+Late in 359 BC or early in 358, Philip marches against Bardylis with 10,000 foot and 600 horse, Diodorus says. Bardylis offers peace if each side keeps what it holds; Philip demands that the Illyrians leave every Macedonian town. The armies meet near Heraclea Lyncestis. Philip attacks from the front while his cavalry rides round the Illyrian flank, and the Illyrians break. Diodorus counts more than 7,000 of them dead. Philip annexes the uplands as far as [Lake Lychnitis](@lychnitis-358), his new western frontier.
 
 @image lake-ohrid-832e83
 

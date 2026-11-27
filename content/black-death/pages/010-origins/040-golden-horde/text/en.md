@@ -1,4 +1,4 @@
-For eight years after 1338 no source records the plague, and its road west is unknown. The map draws it along the caravan road that links the Chüy valley, through Otrar and [Urgench](@urgench-1346), with the Volga.
+For eight years after 1338 no source records the plague, and its road west is unknown. A caravan road links the Chüy valley, through Otrar and [Urgench](@urgench-1346), with the Volga.
 
 In 1342 Jani Beg, a son of Khan Özbeg, becomes khan of the Golden Horde, after his followers kill his elder brother Tini Beg and he orders the death of a younger one. He rules from [Sarai](@sarai) on the lower Volga. The Moroccan traveller Ibn Battuta, there about 1332, counts thirteen mosques for Friday prayers and finds merchants from Iraq, Egypt and Syria living in a walled quarter of their own. By one account the city also has workshops, and merchants from Italy and Rus trade in its markets.
 

@@ -1,0 +1,35 @@
+# Written by content/joan-of-arc/.plans/patay-1429.mjs. Change it there and run it again.
+title: "Patay: the hedges"
+date: "18 June 1429"
+when: 1429-06-18
+zones: []
+routes: []
+sources:
+  - "Jean de Wavrin, Recueil des croniques; Perceval de Cagny, Chroniques; the Journal du siège d'Orléans; Guillaume Gruel, Chronique d'Arthur de Richemont; in J. Quicherat (ed.), Procès de condamnation et de réhabilitation de Jeanne d'Arc, vol. 4 (1847)."
+  - "T. Douglas Murray (ed. and tr.), Jeanne d'Arc, Maid of Orleans (1902), the deposition of Louis de Coutes."
+  - "E. de Monstrelet, Chronicles, tr. T. Johnes (1849), book 2, ch. 61."
+  - "J. H. Ramsay, Lancaster and York, vol. 1 (1892), ch. 27."
+  - "F. C. Lowell, Joan of Arc (1896), ch. 10."
+  - "A. France, The Life of Joan of Arc, vol. 1 (1909), ch. 16."
+bbox: [1.6691, 47.98429, 1.7309, 48.05757]
+emblem:
+  kind: battle-plan
+  works:
+    - {side: neutral, path: [[1.69127, 48.04373], [1.69731, 48.044], [1.70336, 48.04409], [1.70873, 48.04382]], width: 40, id: patay-hedges, name: The hedges near Patay}
+    - {side: neutral, path: [[1.69678, 48.01912], [1.69678, 48.02455]], width: 40, id: narrow-way, name: The two strong hedges of the narrow way}
+    - {side: neutral, path: [[1.70322, 48.01912], [1.70322, 48.02455]], width: 40, id: narrow-way, name: The two strong hedges of the narrow way}
+  units:
+    - {side: neutral, type: irregular, at: [1.68589, 48.02319], width: 2000, depth: 600, facing: 90, id: woods, name: Woods beside the road; their place is approximate}
+    - {side: english, type: infantry, at: [1.7, 48.04554], width: 900, depth: 200, facing: 180, id: english-vanguard, name: 'English vanguard under a knight with a white standard, behind the hedges'}
+    - {side: english, type: wagons, at: [1.7, 48.04834], width: 700, depth: 200, facing: 180, id: english-train, name: 'The English train: artillery, victuals and merchants', rows: 2}
+    - {side: english, type: archers, at: [1.7, 48.02184], width: 380, depth: 200, facing: 180, id: talbot-archers, name: 'Talbot on foot with 500 picked archers (Wavrin), holding the narrow way'}
+    - {side: english, type: infantry, at: [1.7, 48.03224], width: 350, depth: 500, facing: 0, id: english-main-body, name: 'English main body under Fastolf, Talbot and Sir Thomas Rempston, marching on to join the vanguard'}
+    - {side: english, type: infantry, at: [1.7, 48.02636], width: 300, depth: 250, facing: 0, id: english-rearguard, name: 'English rearguard, closing up behind the main body; its place is approximate'}
+    - {side: france, type: cavalry, at: [1.7, 48.00148], width: 260, depth: 200, facing: 0, id: french-scouts, name: 'French scouts, 60 or 80 of the best mounted (Wavrin)'}
+    - {side: france, type: knights, at: [1.7, 47.99515], width: 600, depth: 200, facing: 0, id: french-vanguard, name: 'French vanguard under La Hire and Poton de Xaintrailles, 1,400 to 1,500 (the Journal of the Siege)'}
+    - {side: france, type: cavalry, at: [1.7, 47.98791], width: 1100, depth: 300, facing: 0, id: french-main-body, name: 'French main body under Alençon and the Bastard of Orléans, with Joan; 8,000 to 9,000 (Monstrelet)'}
+  arrows:
+    - {side: english, path: [[1.70403, 48.01686], [1.7168, 48.02138], [1.71747, 48.03586], [1.70605, 48.04328]], width: 90, id: english-vanguard-march, name: The English vanguard and train go ahead to the hedges near Patay}
+    - {side: english, path: [[1.69798, 48.01053], [1.69543, 48.01777], [1.69543, 48.02591], [1.69839, 48.02971]], width: 90, id: english-main-body-march, name: The English main body passes the narrow way and leaves Talbot there}
+    - {side: france, path: [[1.69059, 47.98927], [1.68979, 47.99696], [1.69167, 48.0051]], width: 100, id: french-pursuit, name: The French ride north after the English}
+markers: [patay-the-hedges-patay, patay-the-hedges-talbot, patay-the-hedges-fastolf, patay-the-hedges-la-hire, patay-the-hedges-alencon]

@@ -1,0 +1,1305 @@
+- id: 060-editor-1
+  severity: wrong
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: sold-to-the-english.tells
+  replaces: clause
+  old: "She is sold to the English for ten thousand livres (francs in Ramsay, who names the Duke of Burgundy as\
+    \ the\n    seller), taken from Beaurevoir"
+  new: "John of Luxembourg sells her to the English for ten thousand livres, as Lowell tells it (francs in Ramsay,\n\
+    \    who names the Duke of Burgundy as the seller), and she is taken from Beaurevoir"
+  source: 'sources.md "Against the brief", 060: Lowell (ch. 17) tells the bargain with John of Luxembourg, ten thousand
+    livres; Ramsay 1 (ch. 29) the Duke of Burgundy, francs; brief.md 060'
+  kind: attribution
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+- id: "060-research-reviewer-1"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/research/060.md"
+  field: "060.2"
+  replaces: "clause"
+  old: "some twenty miles north-east of Compiègne. agreed."
+  new: "some twenty miles north-east of Compiègne (Lowell). agreed for Beaulieu near Noyon; single for the days at Clairoix (Lang) and for the distance (Lowell)."
+  source: "Lang ch. 21 alone gives \"three or four days at Clairoix\" and Lowell ch. 17 alone \"some twenty miles northeast of Compiegne\" (the passages of 060.2)"
+  kind: "sources"
+  claim: "060.2"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "060-research-reviewer-2"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/research/060.md"
+  field: "060.5"
+  replaces: "clause"
+  old: "she is held in one of the towers. agreed."
+  new: "she is held in one of the towers. agreed for the place; single (Lowell) for \"his principal castle\" and for the walls, towers and moat."
+  source: "Lowell ch. 18: \"removed her to Beaurevoir, his principal castle. This was in Picardy, a fortress recently built or enlarged, with high walls, great towers, and a deep moat\"; Ramsay gives the place only"
+  kind: "sources"
+  claim: "060.5"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "060-research-reviewer-3"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/research/060.md"
+  field: "060.8"
+  replaces: "clause"
+  old: "agreed (her answers at the trial; the Bourgeois has the leap among the charges read at Rouen, and says she was unhurt)."
+  new: "single (her answers at the trial, which Ramsay and Lowell follow, Ramsay citing Proces i. 150-152, 169; the Bourgeois has the leap among the charges read at Rouen, and says she was unhurt)."
+  source: "Ramsay 1 ch. 29 note 2: \"Proces, i. 150-152, 169, 266\"; Lowell ch. 18 notes \"P. i. 110, 150, 160, 169, J.'s test.\"; evidence.md \"Independent sources\": two modern books that both follow the same chronicle are one source for what the chronicle says"
+  kind: "sources"
+  claim: "060.8"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "060-research-reviewer-4"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/research/060.md"
+  field: "060.11"
+  replaces: "clause"
+  old: "in the king's name and his own, to deliver her to him for trial. agreed."
+  new: "in the king's name and his own, to deliver her to him for trial. single (the instrument of the summons in the record; Ramsay follows it, and Lang has Cauchon at the camp \"soon after July 14\")."
+  source: "Ramsay 1 ch. 29 note 1 cites \"Proces, i. 8-15\", the summons of the record (Barrett 32946); evidence.md \"Independent sources\": two modern books that both follow the same chronicle are one source for what the chronicle says"
+  kind: "sources"
+  claim: "060.11"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "060-research-reviewer-5"
+  severity: "wrong"
+  file: "content/joan-of-arc/.plan/research/060.md"
+  field: "060.13"
+  replaces: "clause"
+  old: "10,000 francs in Ramsay, Lang and France, as in the summons of 14 July."
+  new: "10,000 francs in Ramsay, as in the summons of 14 July; Lang gives francs only for the summons' rule on a captured prince and livres for the levy, and France has both (\"ten thousand golden livres\", \"King Henry's ten thousand golden francs\")."
+  source: "Lang ch. 21 (10620-10624): \"a right to the person of any captured king, prince, or person of high rank, at a price of 10,000 francs\", and (10827-10828): \"Bedford got 120,000 livres from the Estates of Normandy, of which 10,000 were to be devoted to the purchase\"; France vol. 2 ch. 9-10 (25363, 25550): \"a prisoner worth ten thousand golden livres\", \"King Henry's ten thousand golden francs\""
+  kind: "attribution"
+  claim: "060.13"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "060-research-reviewer-6"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/research/060.md"
+  field: "060.15"
+  replaces: "clause"
+  old: "agreed (the levy letter of Quicherat 5; Ramsay, Lowell and Lang cite it)."
+  new: "single (the levy letter of Quicherat 5, which Ramsay, Lowell and Lang follow; France has an aid of eighty thousand livres tournois, ten thousand of them for her purchase)."
+  source: "Ramsay 1 ch. 29 note 1: \"Proces, v. 178-192\"; Lowell ch. 18 note: \"P. V. 178\"; France vol. 2 ch. 10 (25542-25544): \"The Lord Treasurer of Normandy raised aids to the amount of eighty thousand livres tournois, ten thousand of which were to be devoted to the purchase of Jeanne\"; evidence.md \"Independent sources\": two modern books that both follow the same chronicle are one source for what the chronicle says"
+  kind: "sources"
+  claim: "060.15"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "060-research-reviewer-7"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/research/060.md"
+  field: "060.18"
+  replaces: "clause"
+  old: "where the Duke held his court"
+  new: "where, as it seems, the Duke held his court"
+  source: "Lowell ch. 18: \"Joan was sent from Beaurevoir to Arras, where, as it seems, Philip of Burgundy then held his court.\""
+  kind: "wording"
+  claim: "060.18"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "060-research-reviewer-8"
+  severity: "wrong"
+  file: "content/joan-of-arc/.plan/research/060.md"
+  field: "060.24"
+  replaces: "value"
+  old: "- 060.24 Event: from Le Crotoy she is taken by boat at high tide to Saint-Valery, then, as is supposed, to Dieppe, and so to Rouen. single (France alone; by rules.md no claim rests on France alone, so the coast road is not told as fact; Lowell and Ramsay give only Le Crotoy to Rouen). \"Jeanne was taken out of Crotoy at high tide and conveyed by boat to Saint-Valery, then to Dieppe, as is supposed, and certainly in the end to Rouen.\" (archive.org-download-thelifeofjoanofa19488gut-19488.txt.txt, France vol. 2 ch. 10, scholarly)"
+  new: "- 060.24 Event: from Le Crotoy she is taken by boat across the mouth of the Somme to Saint-Valery, then by Eu and Dieppe to Rouen, in the account of Père Ignace de Jésus-Maria's history of the counts of Ponthieu (1657), which Quicherat prints with the warning that Ignace is the only author to trace this road and is to be distrusted until originals confirm him; France follows Ignace, with Dieppe \"as is supposed\". single (Ignace, by Quicherat 5 and France; Lowell and Ramsay give only Le Crotoy to Rouen). \"descendit à Saint Valéry\" (archive.org-download-ProcesDeCondamnationV5-ProcesDeCondamnationV5-djvu.txt.txt, Quicherat 5, letters and acts, Le Crotoy to Rouen, November 1430, from Père Ignace, primary) \"à Dieppe, puis enfin à Rouen\" (archive.org-download-ProcesDeCondamnationV5-ProcesDeCondamnationV5-djvu.txt.txt, Quicherat 5, letters and acts, Le Crotoy to Rouen, November 1430, from Père Ignace, primary) \"Peut-être sera-t-il bon de se défier de son témoignage\" (archive.org-download-ProcesDeCondamnationV5-ProcesDeCondamnationV5-djvu.txt.txt, Quicherat 5, letters and acts, Le Crotoy to Rouen, Quicherat's introduction, scholarly) \"Jeanne was taken out of Crotoy at high tide and conveyed by boat to Saint-Valery, then to Dieppe, as is supposed, and certainly in the end to Rouen.\" (archive.org-download-thelifeofjoanofa19488gut-19488.txt.txt, France vol. 2 ch. 10, scholarly)"
+  source: "Quicherat 5 (16797-16809): \"Le père Ignace de Jésus Maria (Jacques Samson) ... Il est le seul auteur qui parle d'une visite des dames d'Abbeville à la Pucelle, et qui trace l'itinéraire qu'on lui fit suivre lorsqu'on la transféra du Crotoy à Rouen. Peut-être sera-t-il bon de se défier de son témoignage jusqu'à ce qu'on ait retrouvé des originaux qui le confirment.\"; (16938-16951): \"descendit à Saint Valéry ... ses gardes la conduisirent à la ville d'Eu, et de là à Dieppe, puis enfin à Rouen\"; France's footnote 2125 cites \"Le P. Ignace de Jesus Maria, in Trial, vol. v, p. 363\""
+  kind: "sources"
+  claim: "060.24"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "060-research-reviewer-9"
+  severity: "wrong"
+  file: "content/joan-of-arc/.plan/research/060.md"
+  field: "Coverage"
+  replaces: "clause"
+  old: "The coast road from Le Crotoy by Saint-Valery and Dieppe is told by France alone (060.24)."
+  new: "The coast road from Le Crotoy by Saint-Valery, Eu and Dieppe is told only by Père Ignace's history of 1657, which Quicherat 5 prints with a warning and France follows (060.24)."
+  source: "Quicherat 5 (16797-16809), as in 060-research-reviewer-8"
+  kind: "sources"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "060-research-reviewer-10"
+  severity: "wrong"
+  file: "content/joan-of-arc/.plan/research/060.md"
+  field: "Thin"
+  replaces: "clause"
+  old: "The coast road of 060.24 rests on France alone, which rules.md does not let a text tell as fact."
+  new: "The coast road of 060.24 rests on Père Ignace (1657) alone, whom Quicherat, who prints him, warns against trusting until originals confirm him; France follows him."
+  source: "Quicherat 5 (16797-16809), as in 060-research-reviewer-8"
+  kind: "sources"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "060-research-reviewer-11"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/research/060.md"
+  field: "060.32"
+  replaces: "clause"
+  old: "Cauchon opens the trial six days later. agreed."
+  new: "Cauchon opens the trial six days later. agreed for the delivery (the king's letters in the record; his letter to the Duke of Burgundy); single for the date (the record, which Lowell follows)."
+  source: "Barrett, the letters of Henry VI, \"Given at Rouen, January 3rd\"; Lowell ch. 20 \"only six days after the English had formally delivered to him their prisoner\"; evidence.md \"Independent sources\": two modern books that both follow the same chronicle are one source for what the chronicle says"
+  kind: "sources"
+  claim: "060.32"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "060-research-reviewer-12"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/research/060.md"
+  field: "060.33"
+  replaces: "clause"
+  old: "(28 December 1430, France). agreed."
+  new: "(28 December 1430, France). single (the record; Ramsay and France follow it)."
+  source: "France footnote 2154: \"28 December, 1430. Trial, vol. i, pp. 20, 23\"; evidence.md \"Independent sources\": two modern books that both follow the same chronicle are one source for what the chronicle says"
+  kind: "sources"
+  claim: "060.33"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "060-research-reviewer-13"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/research/060.md"
+  field: "060.34"
+  replaces: "clause"
+  old: "with abbots, canons and doctors summoned. agreed."
+  new: "with abbots, canons and doctors summoned. single (the record; Lowell and Lang follow it)."
+  source: "Barrett, January 9th: \"in the house of the King's Counsel, summoned the doctors and masters\"; Lang ch. 22: \"The preliminary document states ...\"; evidence.md \"Independent sources\": two modern books that both follow the same chronicle are one source for what the chronicle says"
+  kind: "sources"
+  claim: "060.34"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "060-research-reviewer-14"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/research/060.md"
+  field: "060.35"
+  replaces: "clause"
+  old: "has him sit from 13 March. agreed."
+  new: "has him sit from 13 March. single (the record; Ramsay and Lowell follow it)."
+  source: "Ramsay 1 ch. 29 note 1: \"Coutances, 4th March; Proces, i. 122-134\"; evidence.md \"Independent sources\": two modern books that both follow the same chronicle are one source for what the chronicle says"
+  kind: "sources"
+  claim: "060.35"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "060-research-reviewer-15"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/research/060.md"
+  field: "060.36"
+  replaces: "clause"
+  old: "agreed for the University; single for the count."
+  new: "single: Thurston for the University, Lowell for the count."
+  source: "only Thurston's quote carries the University: \"for the most part theologians and doctors of the University of Paris\"; Lowell's quote gives the count alone"
+  kind: "sources"
+  claim: "060.36"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "060-research-reviewer-16"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/research/060.md"
+  field: "060.39"
+  replaces: "clause"
+  old: "in the chapel royal of the castle of Rouen. agreed."
+  new: "in the chapel royal of the castle of Rouen. single (the record; Ramsay and Thurston follow it)."
+  source: "Barrett, February 21st, the first public session; evidence.md \"Independent sources\": two modern books that both follow the same chronicle are one source for what the chronicle says"
+  kind: "sources"
+  claim: "060.39"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "060-research-reviewer-17"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/research/060.md"
+  field: "060.41"
+  replaces: "clause"
+  old: "twelve days of questioning from 21 February (Ramsay). agreed."
+  new: "twelve days of questioning from 21 February (Ramsay). single (the record; Thurston and Ramsay follow it)."
+  source: "Barrett, \"Saturday, March 10th First session in prison\"; evidence.md \"Independent sources\": two modern books that both follow the same chronicle are one source for what the chronicle says"
+  kind: "sources"
+  claim: "060.41"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "060-research-reviewer-18"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/research/060.md"
+  field: "060.42"
+  replaces: "clause"
+  old: "agreed (her answers; the Bourgeois has the same saints from the charges read at Rouen)."
+  new: "single (her answers in the record, which Ramsay follows; the Bourgeois has the same saints from the charges read at Rouen)."
+  source: "Ramsay 1 ch. 29 cites the record for the voices (\"Id. i. p. 73\"); Bourgeois items 572-578 are the charges preached at Rouen; evidence.md \"Independent sources\": two modern books that both follow the same chronicle are one source for what the chronicle says"
+  kind: "sources"
+  claim: "060.42"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "060-research-reviewer-19"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/research/060.md"
+  field: "060.44"
+  replaces: "clause"
+  old: "agreed for her answer."
+  new: "single for her answer (the record, which Ramsay follows); the reason is Thurston's own."
+  source: "Ramsay 1 ch. 29 paraphrases her answers in the record; evidence.md \"Independent sources\": two modern books that both follow the same chronicle are one source for what the chronicle says"
+  kind: "sources"
+  claim: "060.44"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "060-research-reviewer-20"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/research/060.md"
+  field: "060.45"
+  replaces: "clause"
+  old: "agreed for the dates;"
+  new: "single for the dates (the record for 27 March; Lang has Courcelles read the articles on 28 March);"
+  source: "Barrett, \"Tuesday, March 27th\"; Murray's note is the same record; Lang ch. 23: \"On March 28, Courcelles read the Articles aloud\""
+  kind: "sources"
+  claim: "060.45"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "060-research-reviewer-21"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/research/060.md"
+  field: "060.46"
+  replaces: "clause"
+  old: "which condemns her. agreed."
+  new: "which condemns her. agreed for the twelve articles and the University; single for the date (the record)."
+  source: "Barrett, \"Thursday, April 5th\"; no other quote of the line gives the date"
+  kind: "sources"
+  claim: "060.46"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "060-research-reviewer-22"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/research/060.md"
+  field: "060.47"
+  replaces: "clause"
+  old: "and does not submit. agreed."
+  new: "and does not submit. single (the record; Thurston follows it)."
+  source: "Barrett, \"Wednesday, April 18th\" (6587) and \"Wednesday, May 2nd\"; evidence.md \"Independent sources\": two modern books that both follow the same chronicle are one source for what the chronicle says"
+  kind: "sources"
+  claim: "060.47"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "060-research-reviewer-23"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/research/060.md"
+  field: "060.48"
+  replaces: "clause"
+  old: "on 12 May decide against it. agreed."
+  new: "on 12 May decide against it. agreed for the threat of torture in the castle (the record, Leparmentier); single for the dates (the record, which Thurston follows)."
+  source: "Leparmentier's deposition gives no date; Barrett, \"Wednesday, May 9th\""
+  kind: "sources"
+  claim: "060.48"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "060-research-reviewer-24"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/research/060.md"
+  field: "060.49"
+  replaces: "clause"
+  old: "and Guillaume Erard preaches. agreed."
+  new: "and Guillaume Erard preaches. agreed for the place (the record, Leparmentier); single for the date (the record, which Lowell follows) and for the words south of the abbey church (Lowell)."
+  source: "Leparmentier: \"I was present at the first preaching at St. Ouen\", no date; Lowell ch. 24 alone: \"just south of the magnificent abbey church\""
+  kind: "sources"
+  claim: "060.49"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "060-research-reviewer-25"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/research/060.md"
+  field: "060.50"
+  replaces: "clause"
+  old: "with the bishops of Thérouanne, Noyon and Norwich. agreed."
+  new: "with the bishops of Thérouanne, Noyon and Norwich. single (the record; Lowell follows it)."
+  source: "Barrett, May 24th: \"the bishops of Thérouanne, of Noyon and Norwich\"; Lowell ch. 24 note 2 cites the depositions and the record; evidence.md \"Independent sources\": two modern books that both follow the same chronicle are one source for what the chronicle says"
+  kind: "sources"
+  claim: "060.50"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "060-research-reviewer-26"
+  severity: "wrong"
+  file: "content/joan-of-arc/.plan/research/060.md"
+  field: "060.51"
+  replaces: "clause"
+  old: "and signs with a cross Massieu hands her. agreed."
+  new: "and makes a cross with a pen Massieu hands her. agreed for the abjuration; single (Massieu) for the pen."
+  source: "Murray, the first enquiry, Jean Massieu: \"she abjured, and made a cross with a pen which I handed to her\""
+  kind: "fact"
+  claim: "060.51"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "060-research-reviewer-27"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/research/060.md"
+  field: "060.57"
+  replaces: "clause"
+  old: "Thurston counts thirty-seven judges. agreed."
+  new: "Thurston counts thirty-seven judges. single (the record; Thurston and Lang follow it)."
+  source: "Barrett, \"Tuesday, May 29th\"; evidence.md \"Independent sources\": two modern books that both follow the same chronicle are one source for what the chronicle says"
+  kind: "sources"
+  claim: "060.57"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "060-research-reviewer-28"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/research/060.md"
+  field: "060.58"
+  replaces: "clause"
+  old: "\"She was, however, allowed to make her confession and to receive Communion.\" (newadvent.org-cathen-08409c.txt, Thurston, scholarly)"
+  new: "\"She was, however, allowed to make her confession and to receive Communion.\" (newadvent.org-cathen-08409c.txt, Thurston, scholarly) \"Bishop, I die through you.\" (archive.org-download-jeannedarcmaidof028754mbp-jeannedarcmaidof028754mbp-djvu.txt.txt, the first enquiry 1449, Jean Toutmouille, primary) \"Alas! I die through you, for had you given me over\" (archive.org-download-jeannedarcmaidof028754mbp-jeannedarcmaidof028754mbp-djvu.txt.txt, the first enquiry 1449, Martin Ladvenu, primary)"
+  source: "Murray, the first enquiry, Toutmouille (8720-8721): \"the aforesaid Bishop arrived, to whom she at once said : \\\"Bishop, I die through you.\\\"\"; Ladvenu (8925-8926): \"she said to the Bishop of Beauvais : \\\"Alas! I die through you\""
+  kind: "sources"
+  claim: "060.58"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: 060-section-coordinator-1
+  severity: wrong
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: sold-to-the-english.tells
+  replaces: clause
+  old: "and from there round the coast to Rouen"
+  new: "and from there to Rouen"
+  source: "rules.md, Evidence, Left out: the road from Le Crotoy to Rouen; research 060.24: the coast road rests on Père Ignace (1657) alone, whom Quicherat 5 warns against"
+  kind: plan
+  claim: "060.24"
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+- id: 060-section-coordinator-2
+  severity: wrong
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: the-court.tells
+  replaces: clause
+  old: "with the vice-inquisitor and masters of the University of Paris beside him and the English crown paying"
+  new: "with masters of the University of Paris beside him, the vice-inquisitor drawn in by March, and the English crown paying"
+  source: "research 060.35: Jean Le Maistre declines on 20 February 1431 and sits from 13 March (Barrett, 20 February 1431; Ramsay 1 ch. 29 note 1)"
+  kind: fact
+  claim: "060.35"
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+- id: 060-section-coordinator-3
+  severity: weak
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: the-old-market.tells
+  replaces: clause
+  old: "as the witnesses of the burning told it in 1456"
+  new: "as the record and the witnesses of 1450 to 1456 tell it"
+  source: "research 060.58, 060.59, 060.63: Massieu, Toutmouillé and Ladvenu in the first enquiry (March 1450, names.md calendar rule), Guesdon in 1455-1456 (Murray); 060.60, 060.61: the record"
+  kind: attribution
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+- id: 060-section-coordinator-4
+  severity: weak
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: saint-ouen.date
+  replaces: value
+  old: "24 to 28 May 1431"
+  new: "24 – 29 May 1431"
+  source: "research 060.57: the judges find her relapsed on Tuesday 29 May in the archiepiscopal chapel (Barrett, Tuesday, May 29th), which the page's tells holds; names.md, a label writes a date range with an en dash"
+  kind: plan
+  claim: "060.57"
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+- id: 060-section-coordinator-5
+  severity: weak
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: the-court.when
+  replaces: value
+  old: "1431-01-09"
+  new: "1431-01-03"
+  source: "research 060.32: Henry VI's letters of 3 January 1431 deliver her to Cauchon (Barrett, the letters of Henry VI); the date of the chapter's grant, 28 December 1430, rests on Anatole France alone (060.33), which rules.md does not let carry a claim"
+  kind: plan
+  claim: "060.32"
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+- id: 060-fact-checker-1
+  severity: weak
+  file: content/joan-of-arc/.plan/060-rouen/text.yaml
+  field: pages.beaulieu-and-beaurevoir.account
+  replaces: clause
+  old: "Ramsay, from a document of the record, Beaurevoir"
+  new: "Ramsay, from a document of Quicherat's fifth volume, Beaurevoir"
+  source: "Ramsay 1 ch. 29 note 1: \"Jeanne was at Beaurevoir August-November ; Proces, v. 38a\" (archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt); research 060.4: \"from a document of Quicherat 5\". Volume 5 holds the letters and acts, not the record of the trial"
+  kind: attribution
+  claim: "060.4"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 060-fact-checker-2
+  severity: taste
+  file: content/joan-of-arc/.plan/060-rouen/text.yaml
+  field: pages.beaulieu-and-beaurevoir.account
+  replaces: clause
+  old: "a pension of 200 or 300 to the Bastard"
+  new: "a pension of 200 or 300 pounds to the Bastard"
+  source: "Barrett, the summons of 14 July 1430: \"to the said bastard, who captured her, will grant and assign a pension for the upkeep of his estate of 200 or 300 pounds\" (sourcebooks.web.fordham.edu-basis-joanofarc-trial.asp.txt)"
+  kind: fact
+  claim: "060.12"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 060-fact-checker-3
+  severity: taste
+  file: content/joan-of-arc/.plan/060-rouen/text.yaml
+  field: pages.beaulieu-and-beaurevoir.account
+  replaces: clause
+  old: "Lang reckons the tower about sixty feet high, and gives no measure for it (060.10)."
+  new: "Lang reckons the tower about sixty feet high, an estimate he rests on no measurement (060.10)."
+  source: "Lang ch. 21: \"The height of the tower of Beaurevoir must have been about sixty feet.\" (archive.org-download-maidoffrancebein00languoft-maidoffrancebein00languoft-djvu.txt.txt, line 10760); the old clause gave a figure and said in the same breath that he gives none"
+  kind: wording
+  claim: "060.10"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 060-fact-checker-4
+  severity: taste
+  file: content/joan-of-arc/.plan/060-rouen/text.yaml
+  field: pages.beaulieu-and-beaurevoir.disputes
+  replaces: clause
+  old: "the body gives Lang's about sixty feet with his name and says that he gives no measure;"
+  new: "the body gives Lang's about sixty feet with his name, as his estimate;"
+  source: "Lang ch. 21, line 10760, as in 060-fact-checker-3"
+  kind: wording
+  claim: "060.10"
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 060-fact-checker-5
+  severity: weak
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: the-court.tells
+  replaces: clause
+  old: "in whose diocese she was taken and whose see"
+  new: "in whose diocese, by the record, she was taken and whose see"
+  source: "research 060.31, disputed: the record, Henry VI's letter and Thurston put Compiègne in the diocese of Beauvais; Lang ch. 21: \"the Chanoine Dunand avers that Compiegne was not in the see of Beauvais but of Soissons.\" The tells gave one account as the fact"
+  kind: attribution
+  claim: "060.31"
+  introduced: pre-plan
+  owner: section-coordinator
+  state: fixed
+- id: 060-fact-checker-6
+  severity: weak
+  file: content/joan-of-arc/.plan/060-rouen/text.yaml
+  field: pages.saint-ouen.account
+  replaces: clause
+  old: "while witnesses of 1450 to 1456, Taquel and, in Thurston, five with Massieu, say the schedule read to her was some six lines,"
+  new: "while witnesses of 1450 to 1456 say the schedule read to her was short, about six lines in Taquel's words and a few lines in those of the five with Massieu whom Thurston cites,"
+  source: "Murray, the first enquiry, Nicolas Taquel: \"It was about six lines of large writing\"; Thurston: \"five witnesses at the rehabilitation trial, including Jean Massieu ... declared that it was only a matter of a few lines\" (newadvent.org-cathen-08409c.txt). The six lines are Taquel's alone"
+  kind: fact
+  claim: "060.52"
+  introduced: research
+  owner: section-coordinator
+  state: fixed
+- id: 060-fact-checker-7
+  severity: weak
+  file: content/joan-of-arc/.plan/research.md
+  field: "060.52"
+  replaces: clause
+  old: "witnesses of 1450-1456 (Taquel; five, with Massieu, in Thurston) say the schedule read to her was some six lines;"
+  new: "witnesses of 1450-1456 say the schedule read to her was short: about six lines, Taquel; a few lines, five witnesses with Massieu, in Thurston;"
+  source: "as in 060-fact-checker-6"
+  kind: fact
+  claim: "060.52"
+  introduced: research
+  owner: researcher
+  state: fixed
+- id: 060-fact-checker-8
+  severity: weak
+  file: content/joan-of-arc/.plan/research/060.md
+  field: "060.52"
+  replaces: clause
+  old: "witnesses of 1450-1456 (Taquel; five, with Massieu, in Thurston) say the schedule read to her was some six lines;"
+  new: "witnesses of 1450-1456 say the schedule read to her was short: about six lines, Taquel; a few lines, five witnesses with Massieu, in Thurston;"
+  source: "as in 060-fact-checker-6"
+  kind: fact
+  claim: "060.52"
+  introduced: research
+  owner: researcher
+  state: fixed
+- id: 060-cartographer-1
+  severity: weak
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: beaulieu-and-beaurevoir.markers
+  replaces: value
+  old: "[beaulieu-1430, beaurevoir-1430]"
+  new: "[beaulieu-1430, beaurevoir-1430, clairoix-beaulieu-1430], with its entry in map.yaml out of `unmarked`"
+  source: "text.yaml, beaulieu-and-beaurevoir.account: \"After three or four days at Clairoix (Lang), he sent her\"; the start of joan-1430-beaulieu; handoff/cartographer.md: a station or end of a route the text names wants a marker on that page"
+  kind: map
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 060-cartographer-2
+  severity: weak
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: sold-to-the-english.markers
+  replaces: value
+  old: "[arras-1430, le-crotoy-1430, rouen-1430, compiegne-relief-1430]"
+  new: "[arras-1430, le-crotoy-1430, rouen-1430, compiegne-relief-1430, beaurevoir-october-1430, drugy-1430], with their entries in map.yaml out of `unmarked`"
+  source: "text.yaml, sold-to-the-english.account: \"Beaurevoir to Arras ... she passed a night at the castle of Drugy (Lang)\"; the start and a station of joan-1430-le-crotoy; handoff/cartographer.md, as in 060-cartographer-1"
+  kind: map
+  introduced: plan
+  owner: section-coordinator
+  state: fixed
+- id: 060-section-writer-1
+  severity: wrong
+  file: content/joan-of-arc/.plan/names.md
+  field: "Places, Picardy, Artois and the road to Rouen: Arras, First named in"
+  replaces: value
+  old: "050 (050.11)"
+  new: "060 (060.18)"
+  source: "names-check.mjs joan-of-arc 060: no text of 050 names the town (only Franquet d'Arras, 050-melun-and-lagny); the first text to name it is 060 sold-to-the-english, on claim 060.18"
+  kind: check
+  introduced: names
+  owner: names
+  state: fixed
+- id: 060-section-writer-2
+  severity: wrong
+  file: content/joan-of-arc/.plan/names.md
+  field: "Places, Normandy and Rouen: Saint-Sauveur (the church on the Old Market), Name"
+  replaces: value
+  old: "Saint-Sauveur"
+  new: "the church of Saint-Sauveur"
+  source: "names.md Rules, Names of places: \"the church on the Old Market as 'the church of Saint-Sauveur'\"; with two rows named \"Saint-Sauveur\", names-check.mjs took the church of 060 the-old-market for the Norman town of 070 (070.16)"
+  kind: check
+  introduced: names
+  owner: names
+  state: fixed
+- id: 060-section-writer-3
+  severity: weak
+  file: content/joan-of-arc/.plan/names.md
+  field: "Rules, Transliteration and spelling: Terms"
+  replaces: clause
+  old: "(Lowell's \"touched for the King's Evil\")."
+  new: "(Lowell's \"touched for the King's Evil\"). Mass, the service she asked to hear (the record's \"go to Mass\"); Trinity Sunday (27 May 1431); Jesus, the name she called on in the fire (Massieu, Thurston)."
+  source: "names-check.mjs joan-of-arc 060: \"Mass\", \"Trinity\" and \"Jesus\" had no row; Barrett, the trial for relapse, 28 May 1431 (\"to permit her to go to Mass\", \"the day after Holy Trinity Sunday\"); Thurston: \"called continuously upon the name of Jesus\""
+  kind: check
+  introduced: names
+  owner: names
+  state: fixed
+- id: 060-map-auditor-1
+  severity: weak
+  file: content/joan-of-arc/.plans/pages060.mjs
+  field: pages[sold-to-the-english].markers.arras-1430.note, and map.yaml sold-to-the-english.markers.arras-1430.what
+  replaces: clause
+  old: "Joan is brought to this Burgundian town from Beaurevoir late in October 1430, and is asked there to put on a woman's dress"
+  new: "Joan is brought to this Burgundian town from Beaurevoir late in October 1430"
+  source: "research 060.18 (Ramsay, Lowell: Beaurevoir to Arras, late October 1430) is the page's claim for Arras; no claim of the digest carries Jean de Pressy's offer at Arras (see 060-map-auditor-2). The 121-character note also pushed the Arras label some 210 px west of its icon, over the Drugy castle, on the laptop capture (pack/shots/sold-to-the-english.png); with the short note the label sits under its icon (shots2/sold-to-the-english.png)"
+  kind: map
+  introduced: plan
+  owner: map-auditor
+  state: fixed
+- id: 060-map-auditor-2
+  severity: weak
+  file: content/joan-of-arc/.plan/research/060.md
+  field: a new claim after 060.66, with its line in research.md
+  new: "Add a claim: at Arras, Jean de Pressy and many others often asked her to put on a woman's dress (her answer of 3 March 1431). The passage: \"Asked if Messire Jean de Pressy and others at Arras did not offer her a woman's dress, she answered that he and many others had often asked her to wear it.\" (sourcebooks.web.fordham.edu-basis-joanofarc-trial.asp.txt, lines 1960-1961, the public examinations, 3 March, primary); Lowell ch. 18 names \"John of Pressy\" in a note (archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, line 10617). Then cite the claim in text.yaml sold-to-the-english.account and in pages.yaml sold-to-the-english.rests_on"
+  source: "text.yaml sold-to-the-english.account: \"and where Jean de Pressy and others asked her to put on a woman's dress\", with no claim id; grep of research.md finds no \"Pressy\"; rules.md, The careful side"
+  kind: sources
+  introduced: research
+  owner: researcher
+  state: fixed
+- id: 060-map-auditor-3
+  severity: taste
+  file: content/joan-of-arc/.plan/060-rouen/map.yaml
+  field: saint-ouen.markers.saint-ouen-1431.why
+  replaces: clause
+  old: "the church stands, so the point is set beside its south side."
+  new: "the church stands, and the point is set at its own coordinates (Saint-Ouen_Abbey,_Rouen.wiki), some tens of metres from its south side."
+  source: "content/joan-of-arc/.wikipedia/Saint-Ouen_Abbey,_Rouen.wiki: {{coord|49|26|33|N|1|05|59|E}}, that is 49.4425 N 1.0997 E; the marker stands at 49.4425 N 1.0995 E, on the church and not beside it, within the few hundred metres a town map allows"
+  kind: map
+  introduced: maps
+  owner: map-auditor
+  state: fixed
+- id: 060-researcher-1
+  severity: weak
+  file: content/joan-of-arc/.plan/names.md
+  field: "People, Burgundy and Lorraine: a new row, Jean de Pressy"
+  new: "| Jean de Pressy | a knight of Artois of the Anglo-Burgundian party, of Henry VI's Grand Council, who with others at Arras asked Joan to put on a woman's dress | 060 (060.67) | Messire Jean de Pressy; John of Pressy (Lowell); the Sieur de Pressy (Murray) |"
+  source: "text.yaml sold-to-the-english.account names \"Jean de Pressy\", and names.md had no row for him; research 060.67, 060.68 (Barrett, 3 March and Champion's sketch \"JEAN DE PRESSY\"; Murray's note; Lowell ch. 18 note)"
+  kind: check
+  claim: "060.68"
+  introduced: names
+  owner: names
+  state: fixed
+- id: 060-fact-checker-9
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md
+  field: body
+  replaces: clause
+  old: "On 14 July Pierre Cauchon, Bishop of Beauvais, arrives at the Burgundian camp before Compiègne."
+  new: "Pierre Cauchon, Bishop of Beauvais, comes to the siege of Compiègne on 14 July."
+  source: "Ramsay 1 ch. 29 (archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt): \"On the 14th July Pierre Cauchon, Bishop of Beauvais, a creature of the Anglo-Burgundian party, presented himself to the Duke in his camp at Compiègne.\" The sentence kept Ramsay's order of clauses (close-wording.mjs, 70%)"
+  kind: wording
+  claim: "060.11"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-10
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md
+  field: body
+  replaces: clause
+  old: "and that everyone in Compiègne will be killed when the town falls."
+  new: "and that the people of Compiègne, all of them down to the age of seven, will be put to fire and sword when the town falls."
+  source: "Barrett, 14 March 1431, in prison (sourcebooks.web.fordham.edu-basis-joanofarc-trial.asp.txt, line 2680): \"she had heard that the people of Compiègne all of them to the age of seven years, were to be put to fire and to the sword\"; Lowell ch. 18: \"all the dwellers in it, from seven years old and upwards\". \"Everyone\" dropped the age the sources give"
+  kind: fact
+  claim: "060.9"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-11
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/page.yaml
+  field: sources
+  replaces: clause
+  old: "  - \"J. H. Ramsay, Lancaster and York, vol. 1 (1892), ch. 29.\""
+  new: "  - \"J. H. Ramsay, Lancaster and York, vol. 1 (1892), ch. 29.\"\n  - \"Journal d'un bourgeois de Paris, 1405–1449, ed. A. Tuetey (1881).\""
+  source: "the text: \"while the Bourgeois of Paris heard she was not hurt at all\"; Bourgeois, 1431, item 576 (archive.org-download-journaldunbourge54182gut-54182-0.txt.txt): \"mais elle sailly d'une haulte tour en bas sans soy blecier aucunement\". The page named the work and did not list it"
+  kind: sources
+  claim: "060.8"
+  introduced: plan
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-12
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md
+  field: body
+  replaces: clause
+  old: "for the price of Joan, \"who is said to be a witch\"."
+  new: "for the price of Joan, \"said to be a witch\"."
+  source: "Lang ch. 21 (archive.org-download-maidoffrancebein00languoft-maidoffrancebein00languoft-djvu.txt.txt, lines 10827-10829): \"of which 10,000 were to be devoted to the purchase of \"Jehanne la Pucelle, said to be a witch\"; the levy (Quicherat 5, line 8899): \"que l'en dit estre sorcière\". A quote stands as the file has it"
+  kind: attribution
+  claim: "060.15"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-13
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md
+  field: body
+  replaces: clause
+  old: "There, or somewhere between it and Arras, as Lowell has it, the English take her and pay."
+  new: "There, as Ramsay has it, or at Arras or somewhere between, as Lowell allows, the English take her and pay."
+  source: "Lowell ch. 18 (archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, lines 10597-10599): \"Either at Arras or Le Crotoy, or at some place between the two, the English took their prisoner and paid their money.\"; Ramsay 1 ch. 29: \"to Arras, and from thence to Crotoy. There she was delivered into the hands of the English\". The text left out Lowell's Arras and gave Ramsay's Le Crotoy as Lowell's"
+  kind: attribution
+  claim: "060.16"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-14
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md
+  field: body
+  replaces: clause
+  old: "Haimond de Macy later said that at Le Crotoy she made her confession to another prisoner held there, Nicolas de Queuville, chancellor of the church of Amiens."
+  new: "By Haimond de Macy's later account, a fellow captive at Le Crotoy, Nicolas de Queuville, chancellor of the church of Amiens, heard her confession, and she heard him say Mass."
+  source: "Lang ch. 21 (lines 10842-10846): \"He says that at Crotoy she was a constant hearer of the Masses said by Nicolas de Queuville, Chancellor of the Church of Amiens, a loyal Frenchman and a prisoner, who heard Jeanne in confession\". The sentence followed Lang's order (close-wording.mjs, 56%); what is left in common is names and titles"
+  kind: wording
+  claim: "060.20"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-15
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/page.yaml
+  field: sources
+  replaces: clause
+  old: "  - \"J. H. Ramsay, Lancaster and York, vol. 1 (1892), ch. 23 and 29.\""
+  new: "  - \"J. H. Ramsay, Lancaster and York, vol. 1 (1892), ch. 23 and 29.\"\n  - \"W. P. Barrett (tr.), The Trial of Jeanne d'Arc (1932), the opening of the record, with Pierre Champion's note on Jean de Luxembourg.\""
+  source: "the text names Champion (\"In Lowell, Lang and Champion\") and \"The record of the trial has the Duke and John of Luxembourg together hand her over\"; both stand in sourcebooks.web.fordham.edu-basis-joanofarc-trial.asp.txt (Champion: \"sold her to the English for 10,000 livres\"; the record: \"the most illustrious lord Duke of Burgundy and the lord Jean de Luxembourg graciously consenting to these demands\")"
+  kind: sources
+  claim: "060.14"
+  introduced: plan
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-16
+  severity: wrong
+  file: content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md
+  field: body
+  replaces: clause
+  old: "A church court tries her, yet she is kept in this secular prison with English soldiers in her cell, as Martin Ladvenu, a Dominican of the court, testified in 1450.\\*\\*"
+  new: "A church court tries her, yet she is kept in this secular prison, as Martin Ladvenu, a Dominican of the court, testified in 1450. Jean Massieu, the usher of the court, said that three English guards spent each night in her room.\\*\\*"
+  source: "Murray, the first enquiry, Ladvenu (archive.org-download-jeannedarcmaidof028754mbp-jeannedarcmaidof028754mbp-djvu.txt.txt, lines 8892-8897): \"commanded Jeanne to be kept in the secular prison and in the hands of her mortal enemies ... allowed her ... to be tormented and cruelly treated in a secular prison\", with no guards in her cell; Massieu (lines 9398-9400): \"in the hands of five of the English, three of whom stayed all night in the room, and two outside the door\". The guards in her cell were given to Ladvenu, who does not tell them"
+  kind: attribution
+  claim: "060.27"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-17
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md
+  field: "Notes, **"
+  replaces: clause
+  old: "Jean Massieu, the usher of the court, said in 1450 that at night her legs were chained"
+  new: "Massieu said in 1450 that at night her legs were chained"
+  source: "follows 060-fact-checker-16, which introduces Massieu in the body; Murray, Massieu (lines 9401-9404): \"at night she slept chained by the legs with two pairs of iron chains ... held to a great piece of wood\""
+  kind: wording
+  claim: "060.26"
+  introduced: fix
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-18
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md
+  field: body
+  replaces: clause
+  old: "refuses on 20 February to sit, saying he lacks jurisdiction."
+  new: "refuses on 20 February to sit without special authority, unsure that his commission covers the case."
+  source: "Barrett, 20 February 1431 (sourcebooks.web.fordham.edu-basis-joanofarc-trial.asp.txt, lines 863-867): \"he would not participate in the present matter, unless he received especial authority ... until he had received more ample counsel upon the question whether he could in virtue of his commission undertake the conduct of this trial\". The record has him in doubt, not saying he lacks jurisdiction"
+  kind: fact
+  claim: "060.35"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-19
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/030-the-court/page.yaml
+  field: sources
+  replaces: clause
+  old: "  - \"F. C. Lowell, Joan of Arc (1896), ch. 19–20.\""
+  new: "  - \"F. C. Lowell, Joan of Arc (1896), ch. 19–20.\"\n  - \"A. Lang, The Maid of France (1908), ch. 21.\"\n  - \"J. H. Ramsay, Lancaster and York, vol. 1 (1892), ch. 29.\"\n  - \"J. Quicherat (ed.), Procès de condamnation et de réhabilitation de Jeanne d'Arc, vol. 5 (1849), the king's order of 2 April 1431 for the Paris masters.\""
+  source: "the text names Lang twice (Canon Dunand, 060.31; the witness of the cage, 060.26, Lang ch. 21); Cauchon raised to Beauvais in 1420 rests on Ramsay 1 ch. 29 note 2 (060.29); the twenty sous a day on the king's order of 2 April 1431, Quicherat 5 line 10063 (060.37)"
+  kind: sources
+  introduced: plan
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-20
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/040-the-questioning/text/en.md
+  field: body
+  replaces: clause
+  old: "Most of the questions turn on her voices."
+  new: "The judges press her on her voices."
+  source: "searched the record, Ramsay ch. 29 and Thurston for a share of the questions: none gives one. Thurston (newadvent.org-cathen-08409c.txt): \"They pressed her regarding her visions, but upon many points she refused to answer.\""
+  kind: fact
+  claim: "060.42"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-21
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/040-the-questioning/page.yaml
+  field: sources
+  replaces: clause
+  old: "  - \"H. Thurston, 'St. Joan of Arc', Catholic Encyclopedia, vol. 8 (1910).\""
+  new: "  - \"H. Thurston, 'St. Joan of Arc', Catholic Encyclopedia, vol. 8 (1910).\"\n  - \"A. Lang, The Maid of France (1908), ch. 23.\""
+  source: "the note: \"Lang has Courcelles read them on 28 March\"; Lang ch. 23: \"On March 28, Courcelles read the Articles aloud\" (060.45)"
+  kind: sources
+  claim: "060.45"
+  introduced: plan
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-22
+  severity: wrong
+  file: content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md
+  field: body
+  replaces: clause
+  old: "Two friars of the court, Martin Ladvenu and Isambart de La Pierre, testified in 1450 that after the abjuration she told them she had been ill-treated and molested in prison, by an English lord among others, and that this was why she wore the man's dress again."
+  new: "Two friars of the court, Martin Ladvenu and Isambart de La Pierre, testified in 1450 that she blamed her prison. Ladvenu said she told him she had been beaten and molested there and insulted by an English lord, and that this was why she wore the man's dress again; Isambart heard her say before many that the English had done her \"great wrong and violence\" while she wore the woman's dress."
+  source: "Murray, the first enquiry, Ladvenu (lines 8920-8924): \"The Maid revealed to me that, after her abjuration and recantation, she was violently treated in the prison, molested, beaten, and illused; and that an English lord had insulted her. She also said, publicly, that on this account she had resumed a man's dress\"; Isambart (lines 8766-8770): \"I and many others were present when Jeanne excused herself for having dressed again as a man, saying and affirming publicly, that the English had done or caused to be done to her great wrong and violence, when she was wearing a woman's dress\". Isambart tells no English lord and was not told in private, and in Ladvenu the lord insulted her, not molested her"
+  kind: attribution
+  claim: "060.56"
+  introduced: research
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-23
+  severity: weak
+  file: content/joan-of-arc/.plan/research.md
+  field: "060.56"
+  replaces: clause
+  old: "she said she had been ill-treated and molested in prison, an English lord among them, and had taken the man's dress again for that."
+  new: "she said she had been ill-treated and molested in prison, and in Ladvenu that an English lord had insulted her, and had taken the man's dress again for that."
+  source: "as in 060-fact-checker-22: Ladvenu, \"and that an English lord had insulted her\""
+  kind: fact
+  claim: "060.56"
+  introduced: research
+  owner: researcher
+  state: fixed
+- id: 060-fact-checker-24
+  severity: weak
+  file: content/joan-of-arc/.plan/research/060.md
+  field: "060.56"
+  replaces: clause
+  old: "she said she had been ill-treated and molested in prison, an English lord among them, and had taken the man's dress again for that."
+  new: "she said she had been ill-treated and molested in prison, and in Ladvenu that an English lord had insulted her, and had taken the man's dress again for that."
+  source: "as in 060-fact-checker-22"
+  kind: fact
+  claim: "060.56"
+  introduced: research
+  owner: researcher
+  state: fixed
+- id: 060-fact-checker-25
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md
+  field: body
+  replaces: clause
+  old: "Some of those present ask that she be taken to a church prison,"
+  new: "Some of those present, by Massieu's account, ask that she be taken to a church prison,"
+  source: "Murray, the first enquiry, Massieu (lines 9377-9384): \"this thing was asked of the Bishop of Beauvais by some of those present, whose names I do not know. To which the Bishop replied: 'Take her to the Castle whence she came.'\" Massieu alone tells it; rules.md, the two trials are primary sources with a side, a witness's account is told as his"
+  kind: attribution
+  claim: "060.53"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-26
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md
+  field: "Notes, **"
+  replaces: clause
+  old: "In Massieu's account, on Trinity Sunday her English guards took her woman's clothes from her and gave her back only the man's. Thurston reports the charge, made later, of a trap laid by her jailers with Cauchon's connivance."
+  new: "Massieu had it from her that on Trinity Sunday the English guards stripped away her woman's clothes and left her nothing to wear but the man's. Thurston reports the charge, made later, that her jailers set a trap for her and that Cauchon was party to it."
+  source: "Murray, Massieu (lines 9406-9418): \"as she reported and said to me ... one of the English took away from her the woman's garments which she had on her ... they would not give her the other\"; Thurston: \"owing, it was afterwards alleged, to a trap deliberately laid by her jailers with the connivance of Cauchon\". The second sentence kept Thurston's words; the first followed Massieu (close-wording.mjs, 60%), and what is left in common is the names of the day and the clothes"
+  kind: wording
+  claim: "060.55"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-27
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md
+  field: body
+  replaces: clause
+  old: "The bailli of Rouen, the king's judge, should now pass sentence, and he does not."
+  new: "The bailli of Rouen, who stands for the secular power, should now pass sentence, and he does not."
+  source: "searched Lowell ch. 24, Murray (Guesdon, Ladvenu) and Thurston for the bailli as the king's judge: none calls him so. Lowell ch. 24 (lines 14760-14762): \"The power of the state, represented by the bailiff of Rouen, should have passed sentence of death\""
+  kind: fact
+  claim: "060.62"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-28
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md
+  field: body
+  replaces: clause
+  old: "One of the English there makes her a little one from the ends of a stick,"
+  new: "One of the English standing by fashions a small one for her out of a stick,"
+  source: "Murray, the first enquiry, Massieu (lines 9467-9469): \"an Englishman, who was there present, made a little cross of wood with the ends of a stick, which he gave her\". The clause kept Massieu's words"
+  kind: wording
+  claim: "060.63"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-fact-checker-29
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/060-the-old-market/page.yaml
+  field: sources
+  replaces: clause
+  old: "  - \"Journal d'un bourgeois de Paris, 1405–1449, ed. A. Tuetey (1881).\""
+  new: "  - \"Journal d'un bourgeois de Paris, 1405–1449, ed. A. Tuetey (1881).\"\n  - \"H. Thurston, 'St. Joan of Arc', Catholic Encyclopedia, vol. 8 (1910).\"\n  - \"A. Lang, The Maid of France (1908), ch. 26.\""
+  source: "the note names Thurston and gives Manchon from him (newadvent.org-cathen-08409c.txt: \"About this last speech a doubt must always be felt\"; \"'Until the last,' said Manchon, the recorder at the trial\"); the three scaffolds rest on Lang ch. 26 alone: \"There were three scaffolds\" (060.60)"
+  kind: sources
+  introduced: plan
+  owner: section-reviewer
+  state: fixed
+- id: 060-section-reviewer-1
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md
+  field: body
+  replaces: clause
+  old: "John of Luxembourg and the Bastard to give her up to him for trial, and offers her captors up to 6,000 francs, or else 10,000."
+  new: "John of Luxembourg and the Bastard of Wandonne to give her up to him for trial, and offers her captors up to 6,000 francs, or else 10,000, the sum the king could pay for a captive king or prince."
+  source: "names.md Rules, Names of people: \"Two men called the Bastard keep their 'of'\"; research 060.12: \"or failing that 10,000 as the king could pay for a captured king or prince\". \"Or else 10,000\" told the reader a figure with no sense of what it was"
+  kind: wording
+  claim: "060.12"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-section-reviewer-2
+  severity: taste
+  file: content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md
+  field: body
+  replaces: clause
+  old: "The women of the castle, his aunt the Demoiselle of Luxembourg and his wife the Lady of Beaurevoir, urge her ... Against her voices, which forbid it, she throws herself"
+  new: "His aunt the Demoiselle of Luxembourg and his wife the Lady of Beaurevoir urge her ... Against her voices she throws herself"
+  source: "agents/text.md, Short: the body stood at 345 words after 060-section-reviewer-1, near the hard limit of 350; \"which forbid it\" repeats \"against her voices\", and \"the women of the castle\" repeats the two titles that follow"
+  kind: wording
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-section-reviewer-3
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md
+  field: body
+  replaces: clause
+  old: "Again she refuses the woman's dress that men of his company urge on her."
+  new: "There Jean de Pressy, a knight of Artois, and many others ask her to put on a woman's dress, and she will not."
+  source: "research 060.67: \"Jean de Pressy and many others often asked her to put on a woman's dress, and she would not\" (Barrett, 3 March, and article XVI: \"she refused and still refuses\"); 060.68: \"a knight of Artois\" (Champion). \"Again\" pointed to the previous page, and \"men of his company\" kept Lowell's words (\"Some of the duke's company begged her ... and again she refused\") where the plan and names.md give the man"
+  kind: wording
+  claim: "060.67"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-section-reviewer-4
+  severity: taste
+  file: content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md
+  field: body
+  replaces: clause
+  old: "the paragraph \"[Compiègne](@compiegne-relief-1430) holds out under Guillaume de Flavy, and on 25 and 26 October it is relieved. The besiegers leave their guns behind.\" after the paragraph of 21 November"
+  new: "the same paragraph after the first paragraph, before \"In the latter part of October\""
+  source: "research 060.22 (relieved 25-26 October 1430) and 060.21 (the University's letter of 21 November): the October relief stood after the November letter; set in order of time, it comes before her road from Beaurevoir, which begins in the latter part of October"
+  kind: order
+  claim: "060.22"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-section-reviewer-5
+  severity: taste
+  file: content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md
+  field: body
+  replaces: clause
+  old: "Her road to Le Crotoy only joins the places, and the borders are approximate."
+  new: "Her road to Le Crotoy only joins the places."
+  source: "agents/evidence.md, The basis of a drawing: a reconstruction is said \"in a clause ... once in a chapter\"; beaulieu-and-beaurevoir, the first page of 060, says the borders are approximate"
+  kind: wording
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-section-reviewer-6
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md
+  field: body
+  replaces: clause
+  old: "grants him territory."
+  new: "lets him hold his court in its diocese."
+  source: "research 060.33: the chapter \"grants Cauchon territory in Rouen and its diocese for the trial\"; \"territory\" is the canonists' word, and alone it tells the reader nothing of what was granted"
+  kind: wording
+  claim: "060.33"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-section-reviewer-7
+  severity: taste
+  file: content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md
+  field: body
+  replaces: clause
+  old: "and the vice-inquisitor is given twenty saluts d'or"
+  new: "and on 24 April Jean Le Maistre is given twenty saluts d'or"
+  source: "research 060.37: \"the English government gives Jean Le Maistre twenty saluts d'or on 24 April 1431\" (Champion); the text had named him \"the Inquisitor's deputy\" and here gave a third name and no date"
+  kind: wording
+  claim: "060.37"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-section-reviewer-8
+  severity: taste
+  file: content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md
+  field: body
+  replaces: clause
+  old: "The borders on the map are approximate."
+  new: ""
+  source: "agents/evidence.md, once in a chapter, as in 060-section-reviewer-5"
+  kind: wording
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-section-reviewer-9
+  severity: taste
+  file: content/joan-of-arc/pages/060-rouen/040-the-questioning/text/en.md
+  field: body
+  replaces: clause
+  old: "Of the sign she gave the king,"
+  new: "Of the sign she gave Charles VII,"
+  source: "agents/text.md, The reader can follow: the page names no king before this, and a reader who opens it here does not know which; names.md, Charles VII"
+  kind: wording
+  claim: "060.43"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-section-reviewer-10
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md
+  field: body
+  replaces: clause
+  old: "she hears Guillaume Erard, a doctor of theology, preach."
+  new: "she hears a sermon by Guillaume Erard."
+  source: "research 060.49: the record has \"a solemn sermon pronounced by master Guillaume Erart\"; no line of the digest makes him a doctor of theology (rules.md, The careful side)"
+  kind: fact
+  claim: "060.49"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-section-reviewer-11
+  severity: taste
+  file: content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md
+  field: body
+  replaces: clause
+  old: "before any sentence of theirs, and he held that this was not right."
+  new: "before he or the bailli had given any sentence, and he held this to be wrong."
+  source: "research 060.62, Guesdon: \"before either the Bailly or myself, whose office it was, had given sentence, the executioner seized her\"; \"theirs\" had no one it plainly stood for"
+  kind: wording
+  claim: "060.62"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-section-reviewer-12
+  severity: taste
+  file: content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md
+  field: body
+  replaces: clause
+  old: "On the map her road only joins the two places, since no source gives the streets."
+  new: ""
+  source: "agents/evidence.md, once in a chapter: saint-ouen, the page before, says the same of the streets of Rouen"
+  kind: wording
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 060-section-reviewer-13
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/page.yaml
+  field: markers
+  new: "The text names Compiègne (her capture, the siege, Cauchon's summons and the threat to its people), Noyon (Beaulieu is near it) and Saint-Quentin (Beaurevoir is near it), and the map marks none of them (capture maps-060-map-auditor/shots2/beaulieu-and-beaurevoir.png). Add a marker for each, or at least Compiègne, whose siege the page turns on"
+  source: "agents/text.md, The text and the map agree: each place the text names is on the map; research 060.2 (Beaulieu near Noyon), 060.5 (Beaurevoir near Saint-Quentin), 060.9, 060.11"
+  kind: map
+  introduced: plan
+  owner: cartographer
+  state: fixed
+- id: 060-section-reviewer-14
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/page.yaml
+  field: markers
+  new: "The text names Paris (the University wants her tried there) and the Somme (Le Crotoy at its mouth); the map marks neither and shows no river label (capture maps-060-map-auditor/shots2/sold-to-the-english.png). Add a marker for Paris, the seat of the University, and a label for the Somme"
+  source: "agents/text.md, The text and the map agree; research 060.19, 060.21"
+  kind: map
+  introduced: plan
+  owner: cartographer
+  state: fixed
+- id: 060-section-reviewer-15
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/030-the-court/page.yaml
+  field: markers
+  new: "The text names Compiègne (her capture there is Cauchon's title to judge her, and the place of the dispute of the diocese), and the map marks it nowhere, though it lies inside the page's bbox (capture maps-060-map-auditor/pack/shots/the-court.png). Add a marker for it"
+  source: "agents/text.md, The text and the map agree; research 060.31"
+  kind: map
+  introduced: plan
+  owner: cartographer
+  state: fixed
+- id: 060-section-reviewer-16
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/050-saint-ouen/page.yaml
+  field: markers
+  new: "The text names the archbishop's chapel in Rouen, where the judges find her relapsed on 29 May, and the Old Market, to which they summon her; the map marks neither, though both lie inside the page's bbox (capture maps-060-map-auditor/pack/shots/saint-ouen.png). Add a marker for each"
+  source: "agents/text.md, The text and the map agree; research 060.57"
+  kind: map
+  introduced: plan
+  owner: cartographer
+  state: fixed
+- id: 060-section-reviewer-17
+  severity: weak
+  file: content/joan-of-arc/pages/060-rouen/060-the-old-market/page.yaml
+  field: markers
+  new: "The text names the church of Saint-Sauveur, beside whose scaffold she is set and whose cross Massieu brings, and the Seine, into which her ashes are thrown; the map marks neither, and the bbox stops north of the river (capture maps-060-map-auditor/pack/shots/the-old-market.png). Add a marker for the church and widen the bbox south to show the Seine"
+  source: "agents/text.md, The text and the map agree; research 060.60, 060.63, 060.65"
+  kind: map
+  introduced: plan
+  owner: cartographer
+  state: fixed
+- id: 060-overseer-1
+  severity: weak
+  file: content/joan-of-arc/.plan/060-rouen/pages.yaml
+  field: the-court, date, in pages.yaml, in .plans/pages060.mjs and in the page's page.yaml
+  replaces: value
+  old: "January – February 1431"
+  new: "January – April 1431"
+  source: "the page's text runs to 13 March, when Le Maistre sits, and to his pay of 24 April (reports/060-section-reviewer.yaml); the page's when stays 1431-01-03"
+  kind: plan
+  introduced: plan
+  owner: cartographer
+  state: fixed
+- id: 060-fact-checker-30
+  severity: weak
+  file: content/joan-of-arc/.plans/pages060.mjs
+  field: "pages[beaulieu-and-beaurevoir].markers.noyon-1430.note (written to pages/060-rouen/010-beaulieu-and-beaurevoir/markers.yaml), and map.yaml beaulieu-and-beaurevoir.markers.noyon-1430.what"
+  replaces: clause
+  old: "A Burgundian town of Picardy, near which stands Beaulieu (Ramsay)"
+  new: "A Burgundian town, near which stands Beaulieu (Ramsay)"
+  source: "searched Ramsay, Lowell, Lang, France and .wikipedia for Noyon in Picardy: no file places it so. Its side stands: Lowell ch. 17 (archive.org-download-joanofarc00lowe-joanofarc00lowe-djvu.txt.txt, line 9196): \"Noyon, a town faithful to his party\"; Lang ch. 21 (line 10184): \"the Burgundian garrison of Noyon\"; Ramsay 1 ch. 29: \"Beaulieu near Noyon\""
+  kind: fact
+  claim: "060.2"
+  introduced: fix
+  owner: cartographer
+  state: fixed
+- id: 060-fact-checker-31
+  severity: weak
+  file: content/joan-of-arc/.plans/pages060.mjs
+  field: "pages[the-old-market].markers.saint-sauveur-1431.note (written to pages/060-rouen/060-the-old-market/markers.yaml), and map.yaml the-old-market.markers.saint-sauveur-1431.what"
+  replaces: clause
+  old: "Joan is set on a scaffold near it on 30 May 1431, and Jean Massieu has its cross brought for her to look at; it is gone"
+  new: "Joan is set on a scaffold near it on 30 May 1431, and Jean Massieu has its cross brought for her to look at"
+  source: "searched Murray, Lowell, the record, Church_of_St_Joan_of_Arc.wiki and Joan_of_Arc.wiki for the fate of the church of Saint-Sauveur: no file says it is gone. The rest stands: Murray, the first enquiry, Massieu (line 9483): \"Saint-Sauveur to bring it to her\"; Murray (line 8136): \"Market, in Rouen, near the Church of Saint Sauveur\""
+  kind: fact
+  claim: "060.63"
+  introduced: fix
+  owner: cartographer
+  state: fixed
+- id: 060-map-auditor-4
+  severity: weak
+  file: content/joan-of-arc/.plans/pages060.mjs
+  field: "pages[the-court].markers.compiegne-diocese-1431.note (written to pages/060-rouen/030-the-court/markers.yaml)"
+  replaces: value
+  old: "Joan is taken here in May 1430, in Pierre Cauchon's diocese by the record, in that of Soissons by Canon Dunand (Lang)"
+  new: "Joan is taken here in May 1430, in Cauchon's diocese by the record"
+  source: "agents/pages.md, Checking a story (captures); handoff/map-auditor.md: a long note on a marker near a frame's edge pushes its label block from its icon. Compiègne (2.83 E) stands 0.17 degrees inside the-court's east edge (3.0 E), and the 116-character note set the label \"Compiègne\" some 230 px west of its pin, right under the Beauvais shield, so it read as naming Beauvais (maps-060-map-auditor-recheck/pack/shots/the-court.png). With the short note the label stands east of Beauvais, tied to its pin (pack2/shots/the-court.png). The dispute of the diocese (060.31) stays in the text's note and in map.yaml's what"
+  kind: map
+  claim: "060.31"
+  introduced: fix
+  owner: map-auditor
+  state: fixed
+- id: 060-editor-2
+  severity: wrong
+  file: content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md
+  field: "body, the @image line"
+  replaces: clause
+  old: "@image beaurevoir-tower-cc03c4"
+  new: ""
+  source: "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 060-rouen/010-beaulieu-and-beaurevoir/markers.yaml shows beaurevoir-tower-cc03c4 on the marker beaurevoir-1430"
+  kind: image
+  introduced: images
+  owner: editor
+  state: fixed
+  between: "010-beaulieu-and-beaurevoir shows beaurevoir-tower-cc03c4 twice, on the marker beaurevoir-1430 and in the text; 010 to 050 show a marker image once"
+- id: 060-editor-3
+  severity: wrong
+  file: content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md
+  field: "body, the @image line"
+  replaces: clause
+  old: "@image le-crotoy-bay-7e7c58"
+  new: ""
+  source: "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 060-rouen/020-sold-to-the-english/markers.yaml shows le-crotoy-bay-7e7c58 on the marker le-crotoy-1430"
+  kind: image
+  introduced: images
+  owner: editor
+  state: fixed
+  between: "020-sold-to-the-english shows le-crotoy-bay-7e7c58 twice, on the marker le-crotoy-1430 and in the text; 010 to 050 show a marker image once"
+- id: 060-editor-4
+  severity: wrong
+  file: content/joan-of-arc/pages/060-rouen/040-the-questioning/text/en.md
+  field: "body, the @image line"
+  replaces: clause
+  old: "@image rouen-castle-keep-370a86"
+  new: ""
+  source: "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 060-rouen/040-the-questioning/markers.yaml shows rouen-castle-keep-370a86 on the marker great-tower-1431"
+  kind: image
+  introduced: images
+  owner: editor
+  state: fixed
+  between: "040-the-questioning shows rouen-castle-keep-370a86 twice, on the marker great-tower-1431 and in the text; 010 to 050 show a marker image once"
+- id: 060-editor-5
+  severity: wrong
+  file: content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md
+  field: "body, the @image line"
+  replaces: clause
+  old: "@image saint-ouen-abbey-church-6d9f2b"
+  new: ""
+  source: "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 060-rouen/050-saint-ouen/markers.yaml shows saint-ouen-abbey-church-6d9f2b on the marker saint-ouen-1431"
+  kind: image
+  introduced: images
+  owner: editor
+  state: fixed
+  between: "050-saint-ouen shows saint-ouen-abbey-church-6d9f2b twice, on the marker saint-ouen-1431 and in the text; 010 to 050 show a marker image once"
+- id: 060-editor-6
+  severity: wrong
+  file: content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md
+  field: "body, the @image line"
+  replaces: clause
+  old: "@image vieux-marche-pyre-97466c"
+  new: ""
+  source: "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 060-rouen/060-the-old-market/markers.yaml shows vieux-marche-pyre-97466c on the marker old-market-1431"
+  kind: image
+  introduced: images
+  owner: editor
+  state: fixed
+  between: "060-the-old-market shows vieux-marche-pyre-97466c twice, on the marker old-market-1431 and in the text; 010 to 050 show a marker image once"
+- id: 060-fact-checker-32
+  severity: weak
+  file: content/joan-of-arc/shared/images/burning-at-rouen-miniature-8d31d7/image.yaml
+  field: caption
+  replaces: clause
+  old: "Vigiles de Charles VII of Martial d'Auvergne, about 1484 (BnF, Français 5054, folio 71)"
+  new: "Vigiles de Charles VII, about 1484"
+  source: "content/joan-of-arc/.candidates/rouen/index.yaml, 09-Vigiles_du_roi_Charles_VII_10.jpg: title \"Vigiles du roi Charles VII 10.jpg\", author \"AnonymousUnknown author\", date \"circa 1484\", description \"Jeanne d'Arc au bûcher, le 30 mai 1431.\" The entry gives no author of the work, no shelfmark and no folio, and no line of the digest does; folio 71 stands in no file of the story (Martial d'Auvergne and Français 5054 stand only in the entries of other images, after-her-2, and in France's footnotes)"
+  kind: image
+  introduced: images
+  owner: image-finder
+  state: fixed
+- id: 060-fact-checker-33
+  severity: weak
+  file: content/joan-of-arc/shared/images/trial-of-condemnation-manuscript-b3fe63/image.yaml
+  field: caption
+  replaces: clause
+  old: "record of her trial, the Processus in causa fidei contra quamdam mulierem Joannam (BnF, Latin 5969)"
+  new: "record of her trial (BnF, Latin 5969)"
+  source: "content/joan-of-arc/.candidates/rouen/index.yaml, 14-BNF_Latin_5969_folio_1_-_Jeanne_d_Arc_et_Cauchon.jpg: title \"BNF Latin 5969, folio 1 - Jeanne d'Arc et Cauchon.jpg\", date \"15th century\", description \"Manuscript portrait of Bishop en:Pierre Cauchon, the chief official at Joan of Arc's trial and condemnation.\" No file of the story gives the title \"Processus in causa fidei contra quamdam mulierem Joannam\" (grep of .references, .wikipedia and .plan). The rest stands: Quicherat 5 (archive.org-download-ProcesDeCondamnationV5-ProcesDeCondamnationV5-djvu.txt.txt, lines 18426-18436), among the manuscripts of the trial of condemnation: \"n° 5969, latin ... Écriture gothique coulée de la fin du xv° siècle ... L'u initial de Universis présentes litteras ... est une grande lettre ornée dans laquelle est exécuté un petit sujet en miniature. On a voulu représenter une scène du procès\""
+  kind: image
+  introduced: images
+  owner: image-finder
+  state: fixed
+- id: 060-story-auditor-1
+  severity: taste
+  file: content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md
+  field: text
+  replaces: clause
+  old: "she hears a sermon by Guillaume Erard."
+  new: "she hears a sermon by the doctor Guillaume Erard."
+  source: "names.md, row Guillaume Erard: 'the doctor who preached at Saint-Ouen on 24 May 1431' (060.49); agents/text.md, 3: a person gets a few words on who they are where the page first names them"
+  kind: wording
+  claim: "060.49"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+  reader: "meets a name with nothing to say who he is"
+- id: 060-story-auditor-2
+  severity: taste
+  file: content/joan-of-arc/pages/060-rouen/040-the-questioning/text/en.md
+  field: text
+  replaces: clause
+  old: "On 27 March Thomas de Courcelles reads her the charges"
+  new: "On 27 March Thomas de Courcelles, a doctor of Paris, reads her the charges"
+  source: "names.md, row Thomas de Courcelles: 'the doctor of Paris who read the articles to her' (060.45); agents/text.md, 3"
+  kind: wording
+  claim: "060.45"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+  reader: "meets Courcelles, and in the next sentence Nicolas Midi, with nothing to say who either is"
+- id: 060-story-auditor-3
+  severity: taste
+  file: content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md
+  field: text
+  replaces: clause
+  old: "and Nicolas Midi preaches."
+  new: "and Nicolas Midi, a doctor of Paris, preaches."
+  source: "names.md, row Nicolas Midi: 'the doctor of Paris who cut the articles to twelve and preached at the Old Market' (060.60); agents/text.md, 3. The body grows from about 297 to 301 words"
+  kind: wording
+  claim: "060.60"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+  reader: "who opens the story at its last page of Rouen meets Midi with nothing to say who he is"

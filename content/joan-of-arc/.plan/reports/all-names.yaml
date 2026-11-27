@@ -1,0 +1,46 @@
+- step: names
+  task: decide
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/names.md
+    - content/joan-of-arc/.plan/010-france-divided/pages.yaml
+    - content/joan-of-arc/.plan/020-the-road-to-chinon/pages.yaml
+    - content/joan-of-arc/.plan/030-orleans/pages.yaml
+    - content/joan-of-arc/.plan/faults/010.yaml
+    - content/joan-of-arc/.plan/faults/020.yaml
+    - content/joan-of-arc/.plan/faults/030.yaml
+    - content/joan-of-arc/.plan/fixes/010.yaml
+    - content/joan-of-arc/.plan/fixes/020.yaml
+    - content/joan-of-arc/.plan/fixes/030.yaml
+  faults: [030-names-1, 030-names-2, 020-names-1, 010-names-1]
+  unresolved:
+    - "Charles VII from 30 October 1422, not 'the Dauphin' until Reims as the brief's 020 wording has it. This rests on writing rule 11 (the name of the time: his own title and his party's, as the digest writes it at 020.7, 020.8, 020.16) and on the brief's 'why France had two kings in 1429'. 'The Dauphin' stays in quotes and in Joan's own words. If the user wants 'the Dauphin' until 17 July 1429, the change goes in one row of names.md and the four plan clauses fixed under 010-names-1 and 020-names-1."
+  stale:
+    - "content/joan-of-arc/.plan/030-orleans/pages.yaml: the marker id ile-aux-toiles. Its label is now the Île Saint-Aignan, because France alone gives Île-aux-Toiles (030.51). The cartographer may rename the id."
+  sources_differ:
+    - "Bastard of Wandonne (Chastellain, Lowell, the brief) over Wandomme (Ramsay, Champion) and Vendôme (Monstrelet, Wikipedia)"
+    - "Île Saint-Aignan (the Journal's island facing Saint-Aignan, named so by Ramsay) over France's Île-aux-Toiles and the feast chronicle's island before Saint-Jean-le-Blanc"
+    - "Durand Laxart over Lassois (Lang); Isabelle Romée over Isabel (Lowell); Louis de Coutes over de Contes; Seguin Seguin over Seguin de Seguin; Jean de Brosse (Boussac) over Jean de la Brosse; Sir Thomas Kyriell over Kyriel or Kiriel; Laurent Guesdon and Regnault Thierry (French forms) over Murray's Laurence and Reginald"
+    - "Richard Olivier de Longueil, which joins Murray's Richard de Longueil and Lowell's Richard Olivier; Jean Juvénal des Ursins as one man, both the chronicler of 010.49 and the archbishop of 070.38"
+    - "Reims over Rheims; Agincourt for the battle and Azincourt for the village; Clermont-Ferrand (then Clermont), to keep the town apart from the Count of Clermont"
+  differs_from_other_stories:
+    - "French names keep their accents (Orléans, Domrémy, Compiègne). The Alexander story's rule of no diacritics is for transliterated Greek, so the two rules do not clash. No person is shared with that story."
+
+- step: facts
+  task: fix
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/names.md
+    - scripts/names-check.mjs
+    - scripts/slice.mjs
+    - content/joan-of-arc/.plan/faults/story.yaml
+    - content/joan-of-arc/.plan/faults/020.yaml
+    - content/joan-of-arc/.plan/faults/070.yaml
+    - content/joan-of-arc/.plan/fixes/story.yaml
+    - content/joan-of-arc/.plan/fixes/020.yaml
+    - content/joan-of-arc/.plan/fixes/070.yaml
+  faults: [story-names-1, story-names-2]
+  fixed: [story-overseer-6, 020-section-reviewer-17, 070-section-writer-2, story-names-1, story-names-2]
+  unresolved: []
+  stale: []
+  check: "node scripts/names-check.mjs joan-of-arc prints ok; alexander-the-great's output is unchanged; node --test scripts/inputs.test.mjs passes"

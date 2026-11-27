@@ -1,0 +1,25 @@
+lnglat: [2.8265, 49.4200]
+name: "Siege of Compiègne"
+date: "23 May 1430 (Monstrelet: 24 May)"
+result: "Burgundian victory; the sortie is cut off from the bridge, the gate is shut, and Joan is taken; the siege goes on"
+source: https://en.wikipedia.org/wiki/Siege_of_Compi%C3%A8gne
+default_language: en
+images: [compiegne-capture-miniature-e76db4]
+families:
+  france: { color: "#231b7e", color_dark: "#6257db" }
+  burgundy: { color: "#9b2335", color_dark: "#e0606f" }
+  english: { color: "#3d7a2a", color_dark: "#7cc160" }
+sides:
+  - name: "French"
+    color: france
+    commanders: ["Joan"]
+    strength: "Monstrelet: 500 to 600 horse and foot; Chastellain: 500 armed men"
+    casualties: "the Bourgeois of Paris: about 400 killed or drowned; the Duke of Burgundy's letter: many taken, drowned and killed; Monstrelet: few taken with her. Joan taken, with Poton le Bourguignon, and her brother and her steward in Chastellain"
+  - name: "Burgundians"
+    color: burgundy
+    commanders: ["Philip the Good, Duke of Burgundy", "John of Luxembourg", "Baudot de Noyelle"]
+    casualties: "the Duke of Burgundy's letter: fewer than twenty wounded, none killed or taken"
+  - name: "English"
+    color: english
+    commanders: ["Lord Montgomery"]
+    strength: "Monstrelet: near 500, from Venette"

@@ -1,0 +1,28 @@
+- task: claims
+  step: research
+  at: '2026-11-26T09:31:01.133Z'
+  before: null
+  inputs:
+    rules.md: 34016c37f051ce5e
+    sources.md: b2af4f6343dcc539
+    060-rouen/pages.yaml#beaulieu-and-beaurevoir: ed4d976bc48e4203
+    060-rouen/pages.yaml#sold-to-the-english: 3d2eab0ea1f4fffa
+    060-rouen/pages.yaml#the-court: 1424c9a7adb4cda0
+    060-rouen/pages.yaml#the-questioning: 6bfdfc749b52f029
+    060-rouen/pages.yaml#saint-ouen: 3d85cadae8476f83
+    060-rouen/pages.yaml#the-old-market: 336bc9ea53b6f0be
+- task: add
+  step: maps
+  at: '2026-11-26T15:04:23.182Z'
+  note: The gap is 060-map-auditor-2 of faults/060.yaml, the request at Arras that she take a woman's dress, which the fault quotes from Barrett's file.
+  before: null
+  inputs:
+    rules.md: 7ac78d578764d5ae
+    sources.md: 4098e649215e45e4
+    060-rouen/pages.yaml#beaulieu-and-beaurevoir: 464094a67139fed4
+    060-rouen/pages.yaml#sold-to-the-english: c9cb41c8f08a7314
+    060-rouen/pages.yaml#the-court: 4e72fec5cf0c8c1c
+    060-rouen/pages.yaml#the-questioning: 037d5bbe926392f0
+    060-rouen/pages.yaml#saint-ouen: 5a0af46e027f1db1
+    060-rouen/pages.yaml#the-old-market: fb2ccedd57aa2243
+    note: f3dc70d3c643d557

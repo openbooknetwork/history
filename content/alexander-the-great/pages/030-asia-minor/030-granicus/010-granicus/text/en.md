@@ -4,7 +4,7 @@ The satraps of Asia Minor have gathered their cavalry and their Greek mercenarie
 
 @image spithridates-coin-e9674f
 
-The armies meet at the river.\*\* In Arrian and Plutarch, Alexander arrives late in the day. Parmenion, his senior general, advises him to camp and cross at dawn, but Alexander answers that after crossing the Hellespont he will not be held up by a brook. The pages that follow tell the battle as Arrian does.
+The armies meet at the river.\*\* In Arrian and Plutarch, Alexander arrives late in the day. Parmenion, his senior general, advises him to camp and cross at dawn, but Alexander answers that after crossing the Hellespont he will not be held up by a brook.
 
 @image granicus-river-ab1dec
 

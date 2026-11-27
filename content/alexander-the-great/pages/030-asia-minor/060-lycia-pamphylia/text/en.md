@@ -6,7 +6,7 @@ By midwinter he is at the eastern end of the Lycian coast. Most of the army cros
 
 @image tahtali-phaselis-f353c0
 
-Early in spring 333 BC Alexander turns north across [Pisidia](@pisidia-333), a land of warlike mountain peoples. He takes one town and other strongholds by storm or by agreement, but he seems, Bosworth notes, to have left no garrisons, and Pisidia was still independent when Alexander died. The map therefore leaves it outside his lands. At [Celaenae](@celaenae-333), the seat of the satrap of Phrygia, the garrison of the citadel promises to surrender if no help reaches it by a set day. Alexander leaves 1,500 soldiers there and makes Antigonus, a Macedonian general, satrap of Phrygia.
+Early in spring 333 BC Alexander turns north across [Pisidia](@pisidia-333), a land of warlike mountain peoples. He takes one town and other strongholds by storm or by agreement, but he seems, Bosworth notes, to have left no garrisons, and Pisidia was still independent when Alexander died. Pisidia therefore stays outside his lands. At [Celaenae](@celaenae-333), the seat of the satrap of Phrygia, the garrison of the citadel promises to surrender if no help reaches it by a set day. Alexander leaves 1,500 soldiers there and makes Antigonus, a Macedonian general, satrap of Phrygia.
 
 ### Notes
 

@@ -1,0 +1,25 @@
+- step: maps
+  task: audit
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plans/pages010.cjs
+    - content/joan-of-arc/shared/markers.yaml
+    - content/joan-of-arc/.plan/010-france-divided/map.yaml
+    - content/joan-of-arc/.plan/faults/010.yaml
+    - content/joan-of-arc/.plan/fixes/010.yaml
+  faults: [010-map-auditor-1, 010-map-auditor-2, 010-map-auditor-3, 010-map-auditor-4, 010-map-auditor-5]
+  unresolved:
+    - "domremy: the edge of the kingdom and Bar along the Three Fountains brook is Lowell's (010.14, disputed); the Domrémy marker stands 0.2 km south of it, in bar-1412, in the colour of france as the brief has it. The bounds of the castellany of Vaucouleurs are no source's (010.15 gives an 'island'), so it shows as an enclave cut off from Champagne by Bar. The Bar-Lorraine line and Bar's north and west edges (ground lines 92-95) are estimates. Proposed: keep, the text gives both accounts."
+    - "burgundy-1407 and burgundy-1420: the Boulonnais and the Ternois, where the Agincourt card stands, are drawn Burgundian inside the Flanders-and-Artois outline, though no source read names them (010.7 names Flanders and Artois by province); the edges with Picardy (line 84) and Hainaut (16, 17) are estimates. Proposed: keep, as land the sources leave open."
+    - "english-1407 and english-1420: the march of Calais (line 48, some ten km), Gascony's north and inland edges (50, 53), the south edge of the English north (31), the Picardy edge to the Bresle and the Oise (30) and the Auxerrois edges (32, 33, 89) are the keeper's estimates; every tested place lies on its sourced side."
+    - "france-1407: the Meuse drawn through towns (19-21), the Langres stretch (22), the Saône (23) and Roussillon (28) are estimates; only the Rhône is sourced."
+    - "routes: henry-v-1415-calais between Blanche-Taque and Béthencourt, henry-v-1417-caen along the coast, Tours-Nonancourt and Ivry-Verneuil drawn direct, and salisbury-1423-cravant, whose two banks of the Yonne could be judged only against Ramsay's stations, since the base map draws no Yonne at the frame's scale. Each is a reconstruction and its page's text calls it approximate."
+  stale: []
+- step: maps
+  task: recheck
+  status: pass
+  changed_files: []
+  faults: []
+  unresolved: []
+  stale: []
+  made_by: hooks/agent-end.mjs, from the log

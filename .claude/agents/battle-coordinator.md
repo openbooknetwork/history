@@ -8,7 +8,7 @@ effort: high
 
 You plan one battle of a story of this book. The dispatch names the story id and the battle id.
 
-Start with `node scripts/brief.mjs <story> battle-coordinator <section number, or all>`, which lists by path the files to
+Start with `node scripts/brief.mjs <story> battle-coordinator <section number, or all> --task <the task of your dispatch>`, which lists by path the files to
 read first, and read them together in one turn. "Turns" in `agents/report.md` holds for all your work.
 
 The battle implementor lays the battle out from your plan, and the battle auditor judges the result by it. The

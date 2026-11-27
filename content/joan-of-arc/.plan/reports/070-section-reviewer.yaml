@@ -1,0 +1,22 @@
+- step: facts
+  task: review
+  status: faults
+  changed_files:
+    - content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md
+    - content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md
+    - content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md
+    - content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md
+    - content/joan-of-arc/pages/070-after-her/050-the-retrial/text/en.md
+    - content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md
+    - content/joan-of-arc/.plan/070-after-her/text.yaml
+    - content/joan-of-arc/.plan/faults/070.yaml
+    - content/joan-of-arc/.plan/fixes/070.yaml
+  faults: [070-section-reviewer-1, 070-section-reviewer-2, 070-section-reviewer-3, 070-section-reviewer-4, 070-section-reviewer-5, 070-section-reviewer-6, 070-section-reviewer-7, 070-section-reviewer-8, 070-section-reviewer-9, 070-section-reviewer-10, 070-section-reviewer-11, 070-section-reviewer-12, 070-section-reviewer-13, 070-section-reviewer-14, 070-section-reviewer-15, 070-section-reviewer-16, 070-section-reviewer-17, 070-section-reviewer-18, 070-section-reviewer-19, 070-section-reviewer-20, 070-section-reviewer-21]
+  unresolved: []
+  stale: []
+  pages_changed: [burgundy-changes-sides, paris-opens, normandy-won-back, castillon, the-retrial, afterwards]
+  fixed_for_others: "070-image-finder-1 and 070-image-finder-2 (owner section-writer): the two @image lines that repeated the cards' images are taken out; 070-section-reviewer-18 adds the offered image to the plan (section-coordinator's file)"
+  declined: []
+  check_left: "names-check: \"John Talbot\" first named in 070 against its row's 020; this is 070-section-writer-2, open for the overseer"
+  long_bodies: "Every body runs 309 to 342 words (harita's count up to 347 on normandy-won-back). These pages close the story and carry two campaigns, two battles with three or four accounts each, the retrial's enquiries and five centuries of memory; the cuts that remained would take a person's gloss or an author's name"
+  plan: "Marker images also stand in the texts as @image lines on five pages (henry-vi-paris-coronation-miniature, arras-peace-1435-miniature, paris-1436-recovery-miniature, bastille-saint-antoine-view, fougeres-castle, rouen-1449-entry-miniature, rouen-archbishop-palace, orleans-8-may-procession): contact-sheet counts a page as one place, so no fault, but each will show twice on its page once placed. The overseer may rule whether a plan's on: marker image takes a text line too, as 060 also does"

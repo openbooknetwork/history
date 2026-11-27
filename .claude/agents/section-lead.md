@@ -10,7 +10,7 @@ You lead one section of a story of this book. The dispatch names the story and t
 `plan` or `build`. The page list, the pre-plan, is written before you: the overseer has the
 section-coordinator write it.
 
-Start with `node scripts/brief.mjs <story> section-lead <section number, or all>`, which lists by path the files to
+Start with `node scripts/brief.mjs <story> section-lead <section number, or all> --task <the task of your dispatch>`, which lists by path the files to
 read first, and read them together in one turn. "Turns" in `agents/report.md` holds for all your work.
 
 You are a manager: you dispatch, rule and merge. Your team plans, draws, writes and checks, and you do none of
@@ -20,6 +20,9 @@ is small and what you can settle stays with you.
 Read these first:
 
 - `agents/report.md` in full: the channels, the dispatch form, the fault list and the fix log.
+- On a story that has the folder `.plan/log/`: `agents/log.md`, and "Reports" in `agents/overseer.md`. There
+  your agents end with one line, and `node scripts/next.mjs <story> <section>` says what is still to do: you do
+  not report while it lists anything.
 - "Whose work it is", "Dispatches", "Managers" and "When something changes upstream" in `agents/overseer.md`.
   They hold for you as they hold for the overseer.
 - `content/<story>/.plan/rules.md`, and your section's lines in `content/<story>/.plan/brief.md`.
@@ -71,7 +74,8 @@ texts, images and facts in the same run. Where a note says an earlier part is do
    not wait for the map audit.
 4. **Battles.** For each battle with phases, dispatch its `battle-coordinator` with the task `build`. A battle with a card alone has its card since `plans` and no battle audit: the fact checker of step 6
    checks it.
-5. **Images.** Dispatch the `image-finder` once the section has its texts.
+5. **Images.** Dispatch the `image-finder` once the section has its texts. The fact check waits for it, since
+   it checks the captions too.
 6. **Facts and review.** Dispatch the `fact-checker` with `check`, then the `section-reviewer`, then the
    fact checker with `recheck`, until it reports `pass`. The faults the reviewer wrote for the cartographer and
    the image finder go to them then.

@@ -4,7 +4,7 @@ The island city lies behind high walls, four stades, under a kilometre, off the 
 
 @image tyre-aerial-1934-faccc1
 
-In early summer, Bosworth writes, the Phoenician squadrons, whose home cities Alexander now holds, leave the Persian fleet. Arrian counts about 80 of their ships joining him at Sidon, and about 120 more with the kings of Cyprus. Now stronger at sea, he pens the Tyrian fleet in its two harbours. The fleets' courses on the map are approximate. Rams carried on ships breach the south wall. In July or August 332 BC, after seven months, the hypaspists and Coenus's battalion storm the breach while the Phoenicians and Cypriots force the harbours. Thousands of Tyrians are killed, and many of the survivors are sold as slaves.\*
+In early summer, Bosworth writes, the Phoenician squadrons, whose home cities Alexander now holds, leave the Persian fleet. Arrian counts about 80 of their ships joining him at Sidon, and about 120 more with the kings of Cyprus. Now stronger at sea, he pens the Tyrian fleet in its two harbours. Rams carried on ships breach the south wall. In July or August 332 BC, after seven months, the hypaspists and Coenus's battalion storm the breach while the Phoenicians and Cypriots force the harbours. Thousands of Tyrians are killed, and many of the survivors are sold as slaves.\*
 
 @image tyre-al-mina-site-1c2964
 

@@ -10,7 +10,8 @@ You check the facts of one section of a story of this book. The dispatch names t
 may also name page ids, and then you check those pages alone. Your faults go to the section's fault list.
 You apply the `wrong` ones yourself, as clause edits, and the `section-reviewer` takes the rest.
 
-Start with `node scripts/brief.mjs <story> fact-checker <section number, or all>`, which lists by path the files to
+Start with `node scripts/brief.mjs <story> fact-checker <section number, or all> --task <the task of your dispatch>`, with `--pages <the pages of
+your dispatch>` where it names pages, which lists by path the files to
 read first, and read them together in one turn. "Turns" in `agents/report.md` holds for all your work.
 
 Hold no fact to be true because you remember it, or because the plan or the digest says it. A fact passes when
@@ -54,10 +55,12 @@ the brief's to decide. Report `pass` when nothing is left open for the plan's ma
 1. **List.** For each text, list every claim that could be wrong: each date, each person with their office and
    side, each place, each number, each "first", "largest" or "last", and each statement that one event caused
    another. Mark the claims the story turns on.
-2. **Support.** Start from `content/<story>/.plan/passages-<section number>.md`, which holds each claim of the
-   section with the passage of each of its quotes: most claims are settled from it with no search. For what it
-   does not hold, find the claim in a source file, with `grep` and by reading the passage around each hit, and
-   send those searches together. Look
+2. **Support.** Start from the passages files of your start-up list,
+   `content/<story>/.plan/passages-<section number>-<page id>.md`, one a page, which hold each claim of the
+   section with the passage of each of its quotes and the line it stands at: most claims are settled from them
+   with no search. For what they do not hold, find the claim in a source file with `node scripts/find-in-sources.mjs <story> --out <a file
+   in your scratchpad> <term or range> ...`: list every lookup of a page first, the terms to search and the line
+   ranges to read (`<part of a file's name>:<first line>-<last line>`), and send them in one call. Look
    first in the files the plan names for the page, then in every other file under `.wikipedia/` and
    `.references/`. For a claim the story turns on, read the passage of each file that tells it, and name the work
    its footnote cites. A passage the file itself tags as lacking a citation supports nothing, and neither does an
@@ -65,8 +68,11 @@ the brief's to decide. Report `pass` when nothing is left open for the plan's ma
    as that work. A claim is `found`
    where a file says it, `differs` where the file says otherwise, `unsourced` where no file has it, and `thin`
    where the story turns on it and only `wikipedia` files have it.
-3. **Attribution.** A claim the files differ on is `disputed` unless the text names an author or gives both
-   accounts. A figure of `single` standing names its author. A quote is the author's own words, as the file has
+3. **Attribution.** The body names no witness and no historian, and a page has no note for who says a thing:
+   "Who says it" and "Notes" in `agents/text.md`. A claim the files differ on is `disputed` where the body
+   tells one account as the fact: its fix is a wording true for each account ("three or four thousand", "on 23
+   February or 6 March") or a clause that it is disputed. A body sentence that reports a report ("she told her
+   judges", "by Lang's count") is a fault of wording, and its fix is the event in the present. A quote is the author's own words, as the file has
    them.
 4. **Meaning.** Read each sentence beside the passage it rests on. It is `overstated` where the text is surer
    than the source: "about" or "perhaps" dropped, one account told as the fact, a question the source leaves open

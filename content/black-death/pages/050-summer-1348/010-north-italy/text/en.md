@@ -4,7 +4,7 @@ Petrarch, the poet, is at [Parma](@parma). On the morning of 19 May a letter fro
 
 In the north-east the plague crosses the Alps. Carinthia is still clearing the ruins of the earthquake of 25 January 1348, which wrecked [Villach](@villach) and brought down a mountainside on the villages below. Later in 1348 the plague comes from [Venice](@venice) through Friuli and over the passes into Carinthia and Styria, by one account.
 
-Milan, said to be the largest city of the region, is struck only lightly in 1348, as the last page of the next chapter tells.
+Milan, said to be the largest city of the region, is struck only lightly in 1348.
 
 @image petrarch-virgil-ff3946
 

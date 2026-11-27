@@ -10,8 +10,6 @@ In 306 BC Demetrius sails from Athens to Cyprus and defeats Ptolemy's fleet off 
 
 @image demetrius-tetradrachm-nike-prow-759d08
 
-On the map the routes are approximate, and so is the line between the kingdom of Antigonus and Seleucus's lands.
-
 ### Notes
 
 \* Plutarch makes Demetrius twenty-two at Gaza. Diodorus gives him that age two years earlier, in 314 BC, as Geer notes.

@@ -1,0 +1,183 @@
+# map.yaml of section 010 france-divided. Every zone is a reconstruction, as the brief's Map part says, and the
+# first page's text says once that the borders are approximate. Coordinates in a marker's note are for the
+# cartographer and appear in no text.
+murder-in-paris:
+  bbox: [-5.0, 42.3, 8.0, 51.3]
+  zones: [france-1407, english-1407, burgundy-1407, brittany-1407]
+  markers:
+    paris-1407: { name: Paris, what: "Louis of Orléans is murdered in the rue Vieille-du-Temple by the Porte Barbette, 23 November 1407, about 48.858 N 2.360 E. In the colour of france", basis: sourced, rank: 5 }
+    lille-1407: { name: Lille, what: "John the Fearless retires there after owning the murder (Lang), about 50.637 N 3.063 E. In the colour of burgundy", basis: sourced, rank: 3 }
+  bare:
+    lorraine-1412: "the duchy of Lorraine lies outside the kingdom, and the story draws it from Joan's village on the next page; the brief's Map part gives the zone from 1412, so this land stays untinted here, as Provence and Savoy do"
+    bar-1412: "the duchy of Bar enters the story with Domrémy on the next page; the brief's Map part gives the zone from 1412, so its land east of the Meuse stays untinted here and its land west of it shows in the kingdom"
+  unmarked:
+    Orléans: "in the duke's title only; the city enters the story in a later section"
+    the Porte Barbette: "the gate by the place of the murder; the Paris marker stands on it, since the frame is the whole kingdom"
+    the rue Vieille-du-Temple: "the street of the murder, under the Paris marker"
+    Calais: "the English town, shown by the english zone"
+    Picardy: "Lang's Picardy in the duke's power, told and not drawn, as the brief's Map part says"
+    Flanders: "a province shown by the burgundy zone"
+    Brittany: "a duchy shown by the brittany zone"
+    Burgundy: "the duchy and county, shown by the burgundy zone"
+    Gascony: "the English land about Bordeaux, shown by the english zone"
+domremy:
+  bbox: [4.9, 47.95, 6.5, 48.95]
+  zones: [france-1412, english-1407, burgundy-1407, brittany-1407, lorraine-1412, bar-1412]
+  markers:
+    domremy: { name: Domrémy, what: "Joan's village, born there about 1412; one parish with Greux, of the king's party; the edge of the kingdom and the duchy of Bar runs through it (disputed), about 48.442 N 5.674 E. In the colour of france", basis: sourced, rank: 5 }
+    vaucouleurs-1412: { name: Vaucouleurs, what: "the walled town and castle down the Meuse, held for the king's party, its castellany with Domrémy and Greux an island of loyalty, about 48.602 N 5.667 E. In the colour of france", basis: sourced, rank: 4 }
+    maxey-1412: { name: Maxey, what: "the Burgundian village across the Meuse whose boys fought the boys of Domrémy, about 48.448 N 5.697 E. In the colour of burgundy", basis: sourced, rank: 3 }
+  unmarked:
+    Greux: "one parish with Domrémy, a kilometre to the north; told with the village and under its marker"
+    Ceffonds: "Jacques d'Arc's birthplace in Champagne, told in a clause; no event of the page happens there"
+    Vouthon: "Isabelle Romée's village, told in a clause; no event of the page happens there"
+    Rouen: "in Joan's own words only"
+    the Meuse: "the river is on the base map"
+    Champagne: "the province of Ceffonds, inside the france zone"
+    Lorraine: "the duchy, shown by the lorraine zone"
+    Bar: "the duchy, shown by the bar zone"
+    Burgundy: "the county of Burgundy, shown by the burgundy zone"
+    the Three Fountains brook: "the brook through Domrémy that Lowell gives as the edge of Bar; too small for the frame, under the Domrémy marker"
+harfleur-and-agincourt:
+  bbox: [-0.6, 48.95, 3.5, 51.2]
+  zones: [france-1412, english-1407, burgundy-1407, brittany-1407]
+  routes:
+    - id: henry-v-1415-calais
+      family: english
+      stations: [Harfleur, Montivilliers, Fécamp, Arques, Eu, near Blanche-Taque, the south bank of the Somme upstream, Béthencourt, past Péronne, Albert, Frévent, Blangy on the Ternoise, Maisoncelles, Agincourt, Calais]
+      passage: "Ramsay 1, ch. 15, l. 14418 to 14760 (Arques 11 October, Eu 12 October, Blanche-Taque 13 October, the crossing, Péronne, Albert, Frévent, Blangy, Maisoncelles), with Oman book 14 ch. 1, l. 18922 (the crossing at Béthencourt on 19 October) and Ramsay 1, ch. 15, l. 15369 (Calais on 29 October)"
+      basis: reconstruction
+      why: "Ramsay names every station but one stretch. Between Blanche-Taque and Béthencourt the line follows the south bank of the Somme, which Oman says the army mounted almost to its source; no source read names the villages of that stretch."
+  markers:
+    harfleur-1415: { name: Harfleur, what: "Henry V lands near the Chef de Caux from 14 August 1415 and takes the town on 22 September, about 49.507 N 0.198 E. In the colour of english", basis: sourced, rank: 5 }
+    blanche-taque-1415: { name: Blanche-Taque, what: "the ford of the Somme found held on 13 October 1415, about 50.139 N 1.742 E. In the colour of france", basis: reconstruction, why: "Ramsay names the ford, not its point; placed at the old ford between Saigneville and Port-le-Grand, as names.md gives it near Port-le-Grand", rank: 2 }
+    bethencourt-1415: { name: Béthencourt, what: "the English cross the Somme on 19 October 1415 (Oman), about 49.795 N 2.957 E. In the colour of france, which holds the village; the route shows the English army", basis: sourced, rank: 3 }
+    calais-1415: { name: Calais, what: "the English town the army reaches on 29 October 1415 (Ramsay), about 50.951 N 1.858 E. In the colour of english", basis: sourced, rank: 4 }
+  unmarked:
+    the Chef de Caux: "the landing is told in the Harfleur marker's note, a few kilometres off"
+    Honfleur: "across the estuary from the landing, told in a clause"
+    Bapaume: "where the French gathered on 20 October (Oman), told in a clause"
+    Rouen: "where the French army lay while Harfleur was besieged, told in a clause; Rouen is marked on the next page for its siege"
+    Agincourt: "the battle card stands on the field"
+    Tramecourt: "the wood on the field under the Agincourt card"
+    Ruisseauville: "the road behind the French, under the Agincourt card"
+    Péronne: "a station of Henry's route"
+    the Seine: "the river is on the base map"
+    the Somme: "the river is on the base map; the route follows it"
+    Orléans: "in Charles of Orléans's title only"
+    Bar: "in the Duke of Bar's title only"
+normandy-and-troyes:
+  bbox: [-5.0, 42.3, 8.0, 51.3]
+  zones: [france-1420, english-1420, burgundy-1420, brittany-1407, lorraine-1412, bar-1412]
+  routes:
+    - id: henry-v-1417-caen
+      family: english
+      stations: [Touques, the coast road, Caen]
+      passage: "Ramsay 1, ch. 17, l. 16533 (the landing at Touques on 1 August 1417), and Wylie and Waugh 3, ch. 51, l. 3622 (Henry leaves Touques on 13 August and marches along the coast towards Caen)"
+      basis: reconstruction
+      why: "Wylie and Waugh give the start, the end and the coast. The line keeps to the coast between them; no source read names the villages."
+  markers:
+    caen-1417: { name: Caen, what: "taken by assault on 4 September 1417, its castle on 20 September, about 49.183 N -0.370 E. In the colour of english", basis: sourced, rank: 4 }
+    paris-1418: { name: Paris, what: "the Burgundians take the city in May and June 1418 and massacre the Armagnacs, the Count of Armagnac among them; the Dauphin is carried off, about 48.857 N 2.352 E. In the colour of burgundy", basis: sourced, rank: 4 }
+    bourges-1418: { name: Bourges, what: "where the Dauphin flees in 1418 (Lang), about 47.081 N 2.399 E. In the colour of france", basis: sourced, rank: 4 }
+    rouen-1419: { name: Rouen, what: "besieged from 29 July 1418, starved, surrendered on 19 January 1419, about 49.443 N 1.099 E. In the colour of english", basis: sourced, rank: 5 }
+    mont-saint-michel-1419: { name: Mont-Saint-Michel, what: "the one place in Normandy left to the French at the end of 1419, about 48.636 N -1.511 E. In the colour of france", basis: sourced, rank: 3 }
+    montereau-1419: { name: Montereau, what: "John the Fearless is killed at his meeting with the Dauphin on the bridge where the Yonne meets the Seine, 10 September 1419, about 48.385 N 2.952 E. In the colour of france", basis: sourced, rank: 5 }
+    troyes-1420: { name: Troyes, what: "the treaty is sealed in the cathedral on 21 May 1420, and Henry V marries Catherine of Valois there on 2 June (Ramsay), about 48.297 N 4.074 E. In the colour of english", basis: sourced, rank: 5 }
+    melun-1420: { name: Melun, what: "a hold of the Dauphin's party inside the land that obeys Henry V in 1420 (Ramsay), about 48.540 N 2.660 E. In the colour of france", basis: sourced, rank: 2 }
+    meaux-1420: { name: Meaux, what: "a hold of the Dauphin's party inside the land that obeys Henry V in 1420 (Ramsay), about 48.960 N 2.878 E. In the colour of france", basis: sourced, rank: 2 }
+    soissons-1420: { name: Soissons, what: "a hold of the Dauphin's party inside the land that obeys Henry V in 1420 (Ramsay), about 49.381 N 3.323 E. In the colour of france", basis: sourced, rank: 2 }
+    compiegne-1420: { name: Compiègne, what: "a hold of the Dauphin's party inside the land that obeys Henry V in 1420 (Ramsay), about 49.418 N 2.826 E. In the colour of france", basis: sourced, rank: 2 }
+  unmarked:
+    Lisieux: "taken after Caen in 1417, told in a clause; the zone shows it English"
+    Bayeux: "taken after Caen in 1417, told in a clause; the zone shows it English"
+    Touques: "the landing of 1 August 1417 is where the route starts"
+    the Seine: "the river is on the base map"
+    the Meuse: "the river is on the base map"
+    the Yonne: "the river is on the base map, at the Montereau marker"
+    Normandy: "shown by the english zone"
+    Champagne: "shown by the english zone"
+    Picardy: "shown by the burgundy zone"
+    the Île-de-France: "shown by the english zone"
+    Anjou: "in René of Anjou's name only"
+    Lorraine: "the duchy, shown by the lorraine zone; the Duke of Lorraine's oath to Henry V is told in a clause"
+    Bar: "the duchy, shown by the bar zone; the Burgundian raids into it are told in a clause"
+    Burgundy: "shown by the burgundy zone"
+two-kings:
+  bbox: [-1.2, 46.5, 3.6, 49.4]
+  zones: [france-1420, english-1420, burgundy-1420, brittany-1407]
+  routes:
+    - id: dauphin-1421-bauge
+      family: france
+      stations: [Le Lude, Baugé]
+      passage: "Wylie and Waugh 3, ch. 69, l. 16848 to 16851 (on Good Friday the Dauphin's army is at Le Lude on the Loir and pushes on to Baugé the same day)"
+      basis: sourced
+      why: "drawn in france, as the brief's Map part says for a route of the Dauphin's army with its Scots. Both stations are Wylie and Waugh's; the road between them is short and drawn direct."
+    - id: clarence-1421-bauge
+      family: english
+      stations: [Beaufort-en-Vallée, the bridge over the Couasnon, Vieil-Baugé]
+      passage: "Ramsay 1, ch. 20, l. 18961 to 18975 (Clarence at Beaufort-en-Vallée, the allies at Vieil-Baugé); Cagny, Baugé, l. 5945 to 5950 (Clarence before the castle of Beaufort); Wylie and Waugh 3, ch. 69, note, l. 17104 (the fight beyond the bridge, on the low hill north-east of the church)"
+      basis: sourced
+      why: "the three stations are named in the passages; the line between them is short and drawn direct."
+  markers:
+    meaux-1422: { name: Meaux, what: "Henry V besieges the town on the Marne from October 1421 to May 1422, and takes there, Oman says, the dysentery that kills him, about 48.960 N 2.878 E. In the colour of english", basis: sourced, rank: 3 }
+    vincennes-1422: { name: Vincennes, what: "Henry V dies in the castle on 31 August 1422, about 48.843 N 2.435 E. In the colour of english", basis: sourced, rank: 3 }
+    paris-1422: { name: Paris, what: "Charles VI dies in his hôtel of Saint-Pol on 21 October 1422; Bedford rides back into the city as regent, about 48.853 N 2.362 E. In the colour of english", basis: sourced, rank: 3 }
+    saint-denis-1422: { name: Saint-Denis, what: "Charles VI is buried in the abbey on 11 November 1422 and a herald cries Henry VI King of France and England, about 48.935 N 2.360 E. In the colour of english", basis: sourced, rank: 4 }
+    mehun-1422: { name: Mehun-sur-Yèvre, what: "the Dauphin takes the title of King, Charles VII, on 30 October 1422 (Beaucourt), about 47.144 N 2.215 E. In the colour of france", basis: sourced, rank: 4 }
+    bourges-1422: { name: Bourges, what: "where Charles VII makes his long stays, the cause of his enemies' nickname, the \"King of Bourges\" (Beaucourt), about 47.081 N 2.399 E. In the colour of france", basis: sourced, rank: 3 }
+  unmarked:
+    Baugé: "the battle card stands on the field by the church of Vieil-Baugé"
+    Le Lude: "the starting point of the Dauphin's route to Baugé"
+    Beaufort-en-Vallée: "the starting point of Clarence's route"
+    the Couasnon: "the river at the bridge, a station of Clarence's route under the Baugé card"
+    Troyes: "in the treaty's name only"
+    Verneuil: "named ahead of the next page, which marks it"
+    Cravant: "named ahead of the next page, which marks it"
+    the Loire: "the river is on the base map; the two kings' lands meet along it"
+    the Marne: "the river is on the base map, at the Meaux marker"
+    Normandy: "shown by the english zone"
+    Champagne: "shown by the english zone"
+    Anjou: "the province of Baugé, inside the france zone"
+    Dauphiné: "shown by the france zone, outside the frame"
+cravant-and-verneuil:
+  bbox: [0.0, 47.0, 4.4, 49.3]
+  zones: [france-1422, english-1420, burgundy-1420, brittany-1407]
+  routes:
+    - id: salisbury-1423-cravant
+      family: english
+      stations: [Auxerre, the right bank of the Yonne, Champs, the left bank of the Yonne, the bridge of Cravant]
+      passage: "Ramsay 1, ch. 22, l. 21446 to 21462 (the English and Burgundians join at Auxerre, march out on 30 July up the right bank of the Yonne, cross to the left bank probably at Champs, march up to the bridge of Cravant, wade the river and carry the bridge)"
+      basis: reconstruction
+      why: "the stations and the two banks are Ramsay's, and the Yonne gives the line; the crossing to the left bank is at Champs only 'probably', in Ramsay's word, so the line is a reconstruction. The route ends on the left bank at the bridge, across the river from the French, who stood between the walls of Cravant and the water."
+    - id: bedford-1424-verneuil
+      family: english
+      stations: [Ivry, Verneuil]
+      passage: "the Bourgeois §405 (the regent follows the French day and night until the Thursday after mid-August); Beaucourt 2, book 2 ch. 1, l. 600 to 606 (Bedford, having taken Ivry, marches on)"
+      basis: reconstruction
+      why: "the two ends are sourced; no source read gives the road between them, so the line runs direct."
+    - id: france-1424-verneuil
+      family: france
+      stations: [Tours, Nonancourt, Verneuil]
+      passage: "Cagny, the battle of Verneuil, l. 6562 to 6576 (the lords of France and Scotland set out from Tours for Ivry and turn to Verneuil); Beaucourt 2, book 2 ch. 1, l. 600 to 604 (the army comes as far as Nonancourt and marches on Verneuil in place of Ivry)"
+      basis: reconstruction
+      why: "the three stations are Cagny's and Beaucourt's; the road from Tours to Nonancourt is not given, so the line runs direct, and the turn back west from Nonancourt to Verneuil is Beaucourt's."
+  markers:
+    auxerre-1423: { name: Auxerre, what: "the Burgundian town where Salisbury's English and the Burgundians join, July 1423, about 47.798 N 3.567 E. In the colour of burgundy", basis: sourced, rank: 3 }
+    cravant-1423: { name: Cravant, what: "the English and Burgundians wade the Yonne and carry the bridge, the garrison sallies, and the army of Charles VII breaks, 31 July 1423; Darnley loses an eye and is taken, about 47.683 N 3.689 E. In the colour of burgundy", basis: sourced, rank: 5 }
+    ivry-1424: { name: Ivry, what: "the castle Bedford besieges in summer 1424, the French army's first goal, about 48.885 N 1.461 E. In the colour of english", basis: sourced, rank: 3 }
+    verneuil-1424: { name: Verneuil, what: "the French take the town in August 1424, by a ruse (the Bourgeois, Beaucourt) or opened by its townsmen to the Duke of Alençon (Cagny); the slaughter after the battle is greatest at its moat, about 48.739 N 0.928 E. In the colour of france", basis: sourced, rank: 3 }
+  unmarked:
+    Tours: "a station of the French army's route"
+    Nonancourt: "a station of the French army's route"
+    Champs: "where Salisbury's route probably crosses the Yonne (Ramsay), a station of the route"
+    Bourges: "where Lang has Charles VII linger after Verneuil, told in a clause; marked on two-kings"
+    Chinon: "where Lang has Charles VII linger, told in a clause; marked in 020 for Joan's arrival"
+    Gien: "where Lang has Charles VII linger, told in a clause; marked in a later section"
+    Troyes: "where Bedford marries Anne of Burgundy in June 1423, told in a clause; marked on normandy-and-troyes for the treaty"
+    Montereau: "in a clause on Narbonne's part in the murder; marked on normandy-and-troyes"
+    Aumale: "in the count's title only"
+    Agincourt: "in Lang's phrase only"
+    the Loire: "the river is on the base map"
+    the Yonne: "the river is on the base map; Salisbury's route follows it"
+    Burgundy: "shown by the burgundy zone"

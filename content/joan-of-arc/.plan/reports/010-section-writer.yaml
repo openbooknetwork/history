@@ -1,0 +1,28 @@
+- step: texts
+  task: write
+  status: pass
+  changed_files:
+    - content/joan-of-arc/pages/010-france-divided/010-murder-in-paris/text/en.md
+    - content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md
+    - content/joan-of-arc/pages/010-france-divided/030-harfleur-and-agincourt/text/en.md
+    - content/joan-of-arc/pages/010-france-divided/040-normandy-and-troyes/text/en.md
+    - content/joan-of-arc/pages/010-france-divided/050-two-kings/text/en.md
+    - content/joan-of-arc/pages/010-france-divided/060-cravant-and-verneuil/text/en.md
+    - content/joan-of-arc/.plan/names.md
+    - content/joan-of-arc/.plan/faults/010.yaml
+    - content/joan-of-arc/.plan/fixes/010.yaml
+  faults: [010-section-writer-1, 010-section-writer-2]
+  unresolved: []
+  stale: []
+  notes: >-
+    Six texts written. rules-lint, harita check (pages and --places) pass, with only waiting image placeholders.
+    names-check leaves two lines that are no fault of the texts: "Charles d'Albret" (050's row) is matched by "the
+    Constable d'Albret" on harfleur-and-agincourt, whose row lists "Charles d'Albret" among its other forms; and a
+    bare "the" on domremy that the checker does not locate. close-wording leaves one sentence (Ceffonds and Vouthon)
+    that shares only names. All six bodies run 308 to 343 words, over the soft 300: each page tells two or three
+    events the plan joins (siege, march and battle; conquest, murder and treaty; two battles), with the disputed
+    figures moved to Notes. Images "on" a marker or a card (louis-of-orleans-murder-miniature,
+    domremy-birthplace-house, agincourt-battle-miniature, montereau-bridge-murder-miniature, troyes-cathedral,
+    vieil-bauge-church, mehun-sur-yevre-castle, verneuil-battle-miniature) are not placed in the texts, since they
+    stand there already. No fact of the plan was missing from its files, and the files told no event otherwise than
+    the plan. Lowell's provinces for 1428 are given on two-kings as the plan asks.

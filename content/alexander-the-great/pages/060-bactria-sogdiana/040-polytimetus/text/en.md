@@ -10,8 +10,6 @@ Alexander hurries about 290 km with his best troops to Maracanda, which Spitamen
 
 There, in Arrian's account, he brings Bessus, the satrap who had claimed Darius's throne, before a council, has his nose and ears cut off and sends him to Ecbatana to be put to death before the Medes and Persians. Arrian himself condemns the mutilation as a barbaric custom.\*\*\*
 
-The map follows Spitamenes and the column down the valley, and Alexander to Maracanda and south to Bactra.
-
 ### Notes
 
 \* Arrian gives two accounts. In Ptolemy's, the column forms a square and makes for a wooded glen by the river. Caranus takes the cavalry across without telling Andromachus, the infantry follow him in panic and without orders, and the men are shot down on an island in the stream. In Aristobulus's, the nomads spring an ambush from a park while Pharnuches is trying to hand the command to officers who refuse it. Curtius tells a third story, in which Menedemus commands and the survivors are besieged on a hill.

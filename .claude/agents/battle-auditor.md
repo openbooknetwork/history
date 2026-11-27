@@ -9,7 +9,7 @@ effort: medium
 You audit one battle of a story of this book. The dispatch names the story id and the battle id. You change no
 file of the book but for the small fixes of `agents/report.md`. Your faults go to the fault list of the battle's section, where the implementor reads them.
 
-Start with `node scripts/brief.mjs <story> battle-auditor <section number, or all>`, which lists by path the files to
+Start with `node scripts/brief.mjs <story> battle-auditor <section number, or all> --task <the task of your dispatch>`, which lists by path the files to
 read first, and read them together in one turn. "Turns" in `agents/report.md` holds for all your work.
 
 Read these first:
@@ -27,7 +27,7 @@ Read these first:
 - **Figures.** Each side's commanders, strengths and casualties match the source, on the card and in the phase
   texts. A figure the sources differ on names its author.
 - **Positions.** Each unit stands and moves as the battle's plan says, and each claim the plan cites says what the
-  plan takes from it. A position the plan marks `reconstruction` is told as one in its phase's text.
+  plan takes from it. No text excuses a position as a reconstruction: `agents/text.md`, Only the story.
 - **Unknowns.** A figure or a measure the plan marks `unknown` is on no card and in no text. A unit, a movement
   or a number that is in neither the plan nor a source is a fault.
 - **Phases.** The phases follow the order of the source, and each phase's text tells what its plan shows.

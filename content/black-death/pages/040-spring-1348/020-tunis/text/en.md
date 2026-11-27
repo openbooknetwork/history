@@ -6,6 +6,6 @@ The sultan is also at war. On 10 April 1348 nomad Arab tribes beat his army near
 
 Ibn Khaldun, born in Tunis in May 1332, is about to turn 16. The plague kills his father and his mother and many of the scholars who taught him. Between 1375 and 1378 he writes the Muqaddima, the introduction to his history of the world. In it he looks back on a plague that fell on East and West alike, broke the strength of the states of the day, and left towns empty and buildings in ruins.
 
-From Tunis the plague moves west, by a road the map draws only approximately. One account has it travel the coast and the caravan roads to [Béjaïa](@bejaia), then called Bougie, and to Tlemcen. It breaks out in Fez, the Marinid capital, when the sultan’s soldiers come home from Tunis.
+From Tunis the plague moves west. One account has it travel the coast and the caravan roads to [Béjaïa](@bejaia), then called Bougie, and to Tlemcen. It breaks out in Fez, the Marinid capital, when the sultan’s soldiers come home from Tunis.
 
 @image ibn-khaldun-hand-0b98cf

@@ -4,7 +4,7 @@ The army crosses the Pasitigris (today the Karun) into the land of the Uxians. T
 
 Near the border of Persis Alexander divides the army. Parmenion takes the baggage, the Thessalian horse, the Greek allies and the other heavy troops by the carriage road, the longer and easier way towards [Persepolis](@persepolis-330). Alexander takes the Macedonians, the Companion cavalry and the light troops straight through the mountains. At the Persian Gate, a narrow gorge on the direct road, Ariobarzanes, the satrap of Persis, has built a wall across the pass and holds the heights on both sides with a large army.\*
 
-Where the Gate lies is disputed. The map draws it at Bosworth’s site, a gorge above the open ground of Mullah Susan, so the drawing of the battle, and of Parmenion’s road, is a reconstruction.\*\*
+Where the Gate lies is disputed. Bosworth puts it in a gorge above the open ground of Mullah Susan.\*\*
 
 @image persian-gate-lendering-96b69a
 

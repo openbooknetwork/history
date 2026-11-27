@@ -22,7 +22,9 @@ export function place(file) {
   for (let i = 1; i < rel.length; i++) {
     if (!fs.existsSync(path.join(...rel.slice(0, i + 1), 'story.yaml'))) continue;
     const rest = rel.slice(i + 1), tail = rest.join('/');
-    const section = (rest[0] === 'pages' || rest[0] === '.plan' ? rest[1] : '')?.match(/^(\d{3})-/)?.[1] ?? null;
+    // a section's generator, .plans/pages050.mjs, is the section's file too
+    const section = (rest[0] === 'pages' || rest[0] === '.plan' ? rest[1] : '')?.match(/^(\d{3})-/)?.[1]
+      ?? tail.match(/^\.plans\/pages(\d{3})\./)?.[1] ?? null;
     return { story: rel[i], dir: rel.slice(0, i + 1).join('/'), rest, tail, section };
   }
   return null;

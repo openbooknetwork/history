@@ -8,6 +8,6 @@ The sources do not say where the vanguard crossed, how far Alexander's line slan
 
 ### Notes
 
-\* This is Arrian's account, which Plutarch shares and these pages follow. Diodorus has Alexander cross unopposed at dawn and fight the Persian horse on the far side, with no fight in the river. Bosworth judged Diodorus's version the more plausible in 1980. In 1988 he held that the weight of evidence favours Arrian and Plutarch on the hour of the attack, but called Arrian's cavalry drawn up at the water's edge "a military absurdity" and thought the facts of the fight "probably lost for ever".
+\* This is Arrian's account, which Plutarch shares. Diodorus has Alexander cross unopposed at dawn and fight the Persian horse on the far side, with no fight in the river. Bosworth judged Diodorus's version the more plausible in 1980. In 1988 he held that the weight of evidence favours Arrian and Plutarch on the hour of the attack, but called Arrian's cavalry drawn up at the water's edge "a military absurdity" and thought the facts of the fight "probably lost for ever".
 
-\*\* Aristobulus, as Plutarch cites him, gives only 34 Macedonian dead for the whole battle. The last page of the battle gives both counts.
+\*\* Aristobulus, as Plutarch cites him, gives only 34 Macedonian dead for the whole battle.

@@ -97,7 +97,7 @@ writePlan(`${G}/020-hydaspes-crossing`, {
     'hydaspes-crossing-chariots': mark(-1300, -2000, 'Chariots', 'Taken, stuck in the clay', 'porus', 'skull'),
     'hydaspes-crossing-headland': mark(-4450, -5750, 'Wooded headland', 'Fleet hidden; Stein’s Jalalpur', 'macedon', 'flag'),
     'hydaspes-crossing-scouts': mark(-2250, -6350, 'Porus’s scouts', 'Ride off to warn Porus', 'porus', 'swords'),
-    'hydaspes-crossing-mercenaries': mark(-4500, -4250, 'Meleager, Attalus, son of Andromenes, and Gorgias', 'Cross once battle is joined', 'macedon'),
+    'hydaspes-crossing-mercenaries': mark(-4500, -4250, 'Meleager, Attalus and Gorgias', 'Cross once battle is joined', 'macedon'),
   },
 });
 
@@ -177,7 +177,7 @@ writePlan(`${G}/040-hydaspes-elephants`, {
     'hydaspes-elephants-taxiles': mark(1650, 1700, 'Taxiles', 'Sent to Porus; driven off', 'taxila'),
     'hydaspes-elephants-beasts': mark(-1150, 470, 'Elephants', 'Riders killed; beasts run wild', 'porus', 'skull'),
     'hydaspes-elephants-craterus': mark(600, 2750, 'Craterus', 'Crosses; takes up the pursuit', 'macedon'),
-    'hydaspes-elephants-mercenaries': mark(-2150, 2200, 'Meleager, Attalus, son of Andromenes, and Gorgias', 'Cross to join the pursuit', 'macedon'),
+    'hydaspes-elephants-mercenaries': mark(-2150, 2200, 'Meleager, Attalus and Gorgias', 'Cross to join the pursuit', 'macedon'),
   },
 });
 

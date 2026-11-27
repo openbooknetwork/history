@@ -1,0 +1,12 @@
+- step: plans
+  task: plan
+  status: faults
+  changed_files:
+    - content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml
+    - content/joan-of-arc/.plan/research.md
+    - content/joan-of-arc/.plan/research/040.md
+    - content/joan-of-arc/.plan/faults/040.yaml
+    - content/joan-of-arc/.plan/fixes/040.yaml
+  faults: [040-battle-coordinator-1, 040-battle-coordinator-2, 040-battle-coordinator-3]
+  unresolved: []
+  stale: []

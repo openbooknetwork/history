@@ -8,10 +8,10 @@ He draws up the phalanx 120 ranks deep and drills it in silence in full view of 
 
 A few days later\*\* Alexander learns that the Illyrians are camped with no rampart and no sentries. He crosses back by night with his archers, the Agrianians and the battalions of two of his commanders, Perdiccas and Coenus, and routs the camp. Cleitus takes refuge in Pelium at first, then burns the town and goes west to join Glaucias among the Taulantians.
 
-The site of Pelium and the lines of march on the map are approximate.
+The site of Pelium and the roads of the marches are not known for certain.
 
 ### Notes
 
-\* Where Pelium stood is disputed. Hammond identifies it with the hill-fort of Goricë, on the Illyrian side of the Wolf’s Pass in today’s south-east Albania, and the map follows him. Bosworth finds Arrian’s details too vague to identify the site; he puts it on the Macedonian border and looks for it near the plain of Florina, in Lyncestis.
+\* Where Pelium stood is disputed. Hammond identifies it with the hill-fort of Goricë, on the Illyrian side of the Wolf’s Pass in today’s south-east Albania. Bosworth finds Arrian’s details too vague to identify the site; he puts it on the Macedonian border and looks for it near the plain of Florina, in Lyncestis.
 
 \*\* Arrian puts the night attack three days after the river crossing, Bosworth two.

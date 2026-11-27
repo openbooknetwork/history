@@ -1,0 +1,9 @@
+Henry V comes back in 1417. He lands at Touques in Normandy on 1 August and marches along the coast to [Caen](@caen-1417), which falls to an assault on 4 September. He takes Normandy town by town and spares the countryside. He comes before [Rouen](@rouen-1419) on 29 July 1418, and the starving city surrenders on 19 January 1419. By the end of 1419 only [Mont-Saint-Michel](@mont-saint-michel-1419) is left to the French.
+
+Meanwhile, in May and June 1418, the Burgundians take [Paris](@paris-1418) and massacre the Armagnacs, the Count of Armagnac among them. The king's last surviving son, the Dauphin Charles, fifteen or sixteen years old, is carried out of the city and flees to [Bourges](@bourges-1418).
+
+On 10 September 1419 John the Fearless, Duke of Burgundy, meets the Dauphin to make peace, inside a fenced enclosure on the bridge of [Montereau](@montereau-1419), where the Yonne flows into the Seine. There the duke is killed, his head split with an axe. How it happens, and what the Dauphin knows of it, are disputed. His son, Philip the Good, takes the Burgundians over to Henry V.
+
+By the Treaty of [Troyes](@troyes-1420), sealed in the city's cathedral on 21 May 1420, Charles VI makes Henry regent of France and heir to his crown, so that at his death the two kingdoms will share one king. The Dauphin is disinherited and branded with the murder of Montereau, and no one is to treat with him. On 2 June Henry marries the king's daughter, Catherine of Valois, in the same cathedral.
+
+Normandy, Paris, the Île-de-France and Champagne are now English and Picardy is the Duke of Burgundy's, though the Dauphin's men still hold Melun, Meaux, Soissons and Compiègne inside that land. The Dauphin's party keeps the rest of the kingdom. After the treaty the war reaches the Meuse too: the Burgundians invade Bar, and the Duke of Lorraine swears allegiance to Henry V.

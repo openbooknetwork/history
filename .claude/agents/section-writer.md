@@ -9,7 +9,7 @@ effort: medium
 You write the texts of one section of a story of this book. The dispatch names the story id and the section id. It
 may also name page ids, and then you write those pages again and no others.
 
-Start with `node scripts/brief.mjs <story> section-writer <section number, or all>`, which lists by path the files to
+Start with `node scripts/brief.mjs <story> section-writer <section number, or all> --task <the task of your dispatch>`, which lists by path the files to
 read first, and read them together in one turn. "Turns" in `agents/report.md` holds for all your work.
 
 Read these in full first:
@@ -40,7 +40,13 @@ Read these in full first:
      the difference. Where the difference changes what the map shows, leave the page unwritten and report it.
    - Keep the source's doubt: "about", "perhaps" and "according to" stay with the claim they belong to.
    - Tell the change the map shows, and link each of the page's `markers` where the text first names its place.
-     Where the `account` calls a border or a route a reconstruction, say in a clause that the line is approximate.
+     Tell only the story: never name the map, a page, a chapter or the book, and write no sentence that excuses a
+     border or a route as approximate or a reconstruction. `agents/text.md`, Only the story.
+   - Tell what happens in the present tense, and name no witness and no historian: "Joan is about thirteen
+     when she first hears a voice she takes to be from God". Where accounts differ, write what is true for each:
+     "on 23 February or 6 March". `agents/text.md`, Who says it.
+   - Write a note only where the text would confuse a reader without it, of 25 words at most, and two a page at
+     most. Most pages have none. `agents/text.md`, Notes.
    - Close the source file before you write a paragraph, and write it from your notes in your own sentences.
    - Place a placeholder, `@image <name>` on a line of its own, where each image the page's `images` gives the
      text belongs. Leave one out where the text has no place for it, and report that. Invent none.

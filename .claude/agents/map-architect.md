@@ -8,7 +8,7 @@ effort: high
 
 You design the map of one story of this book. The dispatch names the story id.
 
-Start with `node scripts/brief.mjs <story> map-architect <section number, or all>`, which lists by path the files to
+Start with `node scripts/brief.mjs <story> map-architect <section number, or all> --task <the task of your dispatch>`, which lists by path the files to
 read first, and read them together in one turn. "Turns" in `agents/report.md` holds for all your work.
 
 The section coordinators plan their pages with your families and zones, and the cartographer draws them. So each

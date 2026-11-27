@@ -201,8 +201,17 @@ function taskWords(role) {
 
 // A block sent inside a code fence is the block: the notes show it fenced, and a manager copies that. The fence
 // is taken off, and what follows it is still text after the block.
+// A workflow hands an agent its task under a line of the harness, with every line of the task moved in by the
+// same count of spaces: the task as the script wrote it is what follows that line, moved back.
+export function unframe(text) {
+  const t = String(text ?? '');
+  if (!/^\s*\[Workflow harness\b/.test(t)) return t;
+  const lines = t.slice(t.indexOf('\n') + 1).split('\n');
+  const pad = Math.min(...lines.filter(l => l.trim()).map(l => l.match(/^[ \t]*/)[0].length));
+  return lines.map(l => l.slice(pad)).join('\n');
+}
 export function unfence(text) {
-  const t = String(text ?? '').trim();
+  const t = unframe(text).trim();
   const m = t.match(/^```[a-z]*[ \t]*\n([\s\S]*?)\n```[ \t]*(?:\n([\s\S]*))?$/);
   return m ? `${m[1].trim()}${m[2]?.trim() ? `\n\n${m[2].trim()}` : ''}` : t;
 }

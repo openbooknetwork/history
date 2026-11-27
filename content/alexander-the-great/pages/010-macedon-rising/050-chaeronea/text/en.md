@@ -1,6 +1,6 @@
 In the autumn of 339 BC the Amphictyonic Council, the Greek guardians of Apollo's shrine at Delphi, names Philip its general in a sacred war against Amphissa, which gives him a lawful road into central Greece. Avoiding the pass of [Thermopylae](@thermopylae-339), he takes the mountain road by Heraclea in Trachis to Cytinium, then turns east into Phocis and seizes [Elatea](@elatea-339), two days' march from the Attic border. The news throws [Athens](@athens-city-338) into terror.
 
-The orator Demosthenes, Philip's leading opponent, goes to [Thebes](@thebes-city-338), Athens's old rival, and wins it as an ally. The allies guard the passes out of Phocis all winter, until Philip's general Parmenion takes [Amphissa](@amphissa-338) in a night attack and outflanks them. They pull back to Chaeronea, a Boeotian town near Phocis, where the armies meet in August 338 BC. The marches on the map are approximate.
+The orator Demosthenes, Philip's leading opponent, goes to [Thebes](@thebes-city-338), Athens's old rival, and wins it as an ally. The allies guard the passes out of Phocis all winter, until Philip's general Parmenion takes [Amphissa](@amphissa-338) in a night attack and outflanks them. They pull back to Chaeronea, a Boeotian town near Phocis, where the armies meet in August 338 BC.
 
 @image demosthenes-bust-1c46fb
 

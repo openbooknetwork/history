@@ -14,8 +14,6 @@ Alexander lives on in legend too. In the Alexander Romance, a life of him built 
 
 @image byzantine-alexander-romance-venice-cca544
 
-The map shows the kingdoms of 301 BC and Alexander's cities.
-
 ### Notes
 
 \* Plutarch says Alexander founded seventy cities among the barbarians and civilised them. Bosworth calls this "totally divorced from reality": for him the cities were garrisons, planted to hold down conquered land.

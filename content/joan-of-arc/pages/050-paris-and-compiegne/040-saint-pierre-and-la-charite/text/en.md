@@ -1,0 +1,7 @@
+In October 1429 Joan stays about three weeks at [Bourges](@bourges-1429) in the house of Marguerite La Touroulde. The king's council at [Mehun-sur-Yèvre](@mehun-1429) resolves to take La Charité, and Saint-Pierre-le-Moûtier first: towns of the upper Loire that soldiers of fortune hold against the king, like [Cosne](@cosne-1429). [La Charité](@la-charite) belongs to Perrinet Gressart, who serves Burgundy and took it from the French in 1423.
+
+Charles d'Albret, half-brother of Georges de La Trémoille, the king's favourite, leads the expedition with Joan. At the end of October they besiege [Saint-Pierre-le-Moûtier](@saint-pierre-le-moutier). When the first assault fails, her squire Jean d'Aulon, wounded in the heel, rides to her and asks why she stays alone, with four or five men about her. She is not alone, she answers: fifty thousand of her own are with her, and the town must fall before she goes. She has wood and hurdles brought to bridge the ditch, and the town falls. On 9 November she and Albret write from [Moulins](@moulins-1429) that it is taken.
+
+Short of powder, Joan and Albret write to Clermont-Ferrand (then Clermont) and Riom for more. From about 10 November they lie before La Charité in the cold. An assault is made, in which a baron of Dauphiné is killed. The king sends neither food nor money. After about a month the siege is raised and the artillery lost. The day is not known. Gressart keeps La Charité for Burgundy.
+
+In December at Mehun-sur-Yèvre Charles VII ennobles Joan and her family.

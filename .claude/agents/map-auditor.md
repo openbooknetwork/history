@@ -13,7 +13,7 @@ and the files they name as your sources. Their faults go to `faults/story.yaml`,
 change no file of the book but for the small fixes of `agents/report.md`. Your faults go to the section's fault
 list, where the cartographer reads them. A fault of a zone is the map keeper's.
 
-Start with `node scripts/brief.mjs <story> map-auditor <section number, or all>`, which lists by path the files to
+Start with `node scripts/brief.mjs <story> map-auditor <section number, or all> --task <the task of your dispatch>`, which lists by path the files to
 read first, and read them together in one turn. "Turns" in `agents/report.md` holds for all your work.
 
 The cartographer drew from the plan's `map.yaml`. You test each drawing against what the sources say about the land.
@@ -43,9 +43,8 @@ Read these first:
   far it is from the zone's edge, the nearest first: look at the places near a border, and write no script of
   your own for it.
 - **Basis.** A border or a route marked `sourced` follows a line you have read in a source file: open the file
-  of its digest claim and read the passage. One marked `reconstruction` rests on what the plan says, its page's
-  text calls it approximate, and it has no bends or corners beyond what that supports. A drawing with no basis in
-  the plan is a fault, however well it sits on the map.
+  of its digest claim and read the passage. One marked `reconstruction` rests on what the plan says, and it has
+  no bends or corners beyond what that supports. No text speaks of the drawing. A drawing with no basis in the plan is a fault, however well it sits on the map.
 - **One page a zone.** With `section: all`, look at each zone on one page and not on every page that shows it:
   `node scripts/audit-pack.mjs <story> all --zones <zone id,zone id,...>` picks the fewest pages that between
   them show every zone you audit, and says which page stands for which. A zone's edge is the same on each of its
@@ -60,6 +59,8 @@ Read these first:
 - **Markers.** Each marker stands where its article's coordinates put it: within a few kilometres on a map of a
   country, and within a few hundred metres on a map of one town. A marker's note tells the event of the page
   that shows it: a page that shows another page's marker with a note about another date is a fault.
+  A label over 30 characters or a note over 60 is a fault, and so is a note that names a source, gives a
+  second account or says how sure the place is: shorten it to the one event and its date.
 - **Routes.** Each route passes the places the source names, in the source's order, and stays on land or on
   water as the journey did. Test the section's routes with `node scripts/route-surface.mjs <story> <section number>`. A stretch
   within two kilometres of a port the route calls at passes. The test's land closes rivers, fjords and lagoon

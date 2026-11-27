@@ -12,6 +12,6 @@ Alexander marches south. On 18 October, a Babylonian astronomical diary records,
 
 ### Notes
 
-\* The map draws Darius’s road by Arbela, after Arrian and Bosworth. The Babylonian diary tells the end of the battle differently: in Lendering’s reading, the king’s troops deserted him and fled to “the land of the Guti”, which Lendering takes for the valley of the Diyala.
+\* Arrian and Bosworth have Darius flee by Arbela. The Babylonian diary tells the end of the battle differently: in Lendering’s reading, the king’s troops deserted him and fled to “the land of the Guti”, which Lendering takes for the valley of the Diyala.
 
 \*\* Arrian puts the treasure of Susa at 50,000 talents, Diodorus at more than 40,000 talents of gold and silver bullion.

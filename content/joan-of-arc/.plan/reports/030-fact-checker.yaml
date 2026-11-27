@@ -1,0 +1,104 @@
+- step: plan-check
+  task: plan-check
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/030-orleans/map.yaml
+    - content/joan-of-arc/.plan/030-orleans/text.yaml
+    - content/joan-of-arc/.plan/030-orleans/battles.yaml
+    - content/joan-of-arc/.plan/research.md
+    - content/joan-of-arc/.plan/research/030.md
+    - content/joan-of-arc/.plan/names.md
+    - content/joan-of-arc/.plan/faults/030.yaml
+    - content/joan-of-arc/.plan/fixes/030.yaml
+  faults: [030-fact-checker-1, 030-fact-checker-2, 030-fact-checker-3, 030-fact-checker-4, 030-fact-checker-5, 030-fact-checker-6, 030-fact-checker-7, 030-fact-checker-8, 030-fact-checker-9, 030-fact-checker-10, 030-fact-checker-11, 030-fact-checker-12, 030-fact-checker-13, 030-fact-checker-14, 030-fact-checker-15]
+  unresolved:
+    - "030.16, 030.18, 030.19, 030.21 (disputed): the day the convoy left Blois, the day it came by Olivet, where she slept, where the boats met it; pages.yaml and text.yaml give each with its authors, and the routes end before Chécy with the chronicle of the feast and the Journal."
+    - "030.30, 030.40, 030.46, 030.56, 030.57, 030.59, 030.63, 030.66, 030.70 (disputed): text.yaml gives both accounts with their authors in each case."
+    - "030.2, 030.26, 030.37, 030.42, 030.43, 030.67, 030.68 (disputed figures): text.yaml and the card give each figure with its author; 030.2 now carries the Chronique's thirteen places of December 1428."
+    - "030.35 (Thin for Saint-Laurent): the plan names the bastille of Paris with Lang and the chronicle of the feast and leaves Saint-Laurent out."
+    - "030.51: the island where the French landed and where the Journal has them fall back after Saint-Jean-le-Blanc are taken as one island, the Île Saint-Aignan, as Ramsay names it; no source read says they differ."
+  stale: []
+  checked: "10 routes against their passages, 24 zone listings against the brief's Map part, 1 card (14 figures), 6 pages' date and when"
+- step: facts
+  task: check
+  status: pass
+  changed_files:
+    - content/joan-of-arc/pages/030-orleans/010-from-blois/text/en.md
+    - content/joan-of-arc/pages/030-orleans/030-storming-saint-loup/text/en.md
+    - content/joan-of-arc/pages/030-orleans/040-the-augustins/text/en.md
+    - content/joan-of-arc/pages/030-orleans/060-the-english-march-away/text/en.md
+    - content/joan-of-arc/pages/030-orleans/010-from-blois/page.yaml
+    - content/joan-of-arc/pages/030-orleans/020-the-army-of-blois/page.yaml
+    - content/joan-of-arc/pages/030-orleans/030-storming-saint-loup/page.yaml
+    - content/joan-of-arc/pages/030-orleans/040-the-augustins/page.yaml
+    - content/joan-of-arc/pages/030-orleans/050-the-tourelles/page.yaml
+    - content/joan-of-arc/pages/030-orleans/060-the-english-march-away/page.yaml
+    - content/joan-of-arc/pages/030-orleans/030-storming-saint-loup/markers.yaml
+    - content/joan-of-arc/.plans/pages030.mjs
+    - content/joan-of-arc/shared/battles/orleans-1429/battle.yaml
+    - content/joan-of-arc/shared/images/orleans-relief-miniature-0872de/image.yaml
+    - content/joan-of-arc/shared/images/saint-loup-assault-miniature-d6db07/image.yaml
+    - content/joan-of-arc/.plan/030-orleans/pages.yaml
+    - content/joan-of-arc/.plan/030-orleans/map.yaml
+    - content/joan-of-arc/.plan/030-orleans/text.yaml
+    - content/joan-of-arc/.plan/030-orleans/battles.yaml
+    - content/joan-of-arc/.plan/research.md
+    - content/joan-of-arc/.plan/research/030.md
+    - content/joan-of-arc/.plan/names.md
+    - content/joan-of-arc/.plan/faults/030.yaml
+    - content/joan-of-arc/.plan/fixes/030.yaml
+  faults: [030-fact-checker-16, 030-fact-checker-17, 030-fact-checker-18, 030-fact-checker-19, 030-fact-checker-20, 030-fact-checker-21, 030-fact-checker-22, 030-fact-checker-23, 030-fact-checker-24, 030-fact-checker-25, 030-fact-checker-26, 030-fact-checker-27, 030-fact-checker-28, 030-fact-checker-29, 030-fact-checker-30, 030-fact-checker-31, 030-fact-checker-32, 030-fact-checker-33, 030-fact-checker-34, 030-fact-checker-35, 030-fact-checker-36, 030-fact-checker-37, 030-fact-checker-38, 030-fact-checker-39]
+  unresolved:
+    - "Disputed days and places, each told with its authors: 030.16 (27 or 28 April, France with Windecke, Lowell, Ramsay), 030.18 (28 April in the body, Lowell's 29th in a note), 030.19 (the Journal's Chécy in the body, Reuilly, Rully and Cléry in a note), 030.21 (the Île-aux-Bourdons in the body, Dunois and Ramsay's Saint-Loup and Lowell's five miles in a note), 030.30 (30 April with the Journal and Lowell, 5 May with the Chronique and Ramsay), 030.51 (the island as Ramsay names it, the Journal's and the chronicle of the feast's in a note)."
+    - "Disputed accounts, both given with their authors: 030.40 (where Talbot was), 030.46 (who refused to fight on the Ascension), 030.56 and 030.70 (where she slept on 6 and 7 May), 030.57 (Saint-Privé), 030.59 (the captains' opposition), 030.63 (the hour of the wound), 030.66 (why the drawbridge failed)."
+    - "Disputed figures, each with its author in the text and on the card: 030.2, 030.26, 030.37, 030.42, 030.43, 030.67, 030.68 (Monstrelet's French loss now 'no more than 100', as his sentence has it)."
+    - "030.35 (Thin for Saint-Laurent): the texts name the bastille of Paris with Lang and the chronicle of the feast and say the Journal and the Chronique name none; Saint-Laurent is not told."
+    - "names-check flags 'the Chronique de la Pucelle' as first named in 030 though 010's cravant-and-verneuil names it in a note, as 'The Chronique de la Pucelle' at a sentence's start: the check matches case, so the row (010) is left as it is and the script is the thing to mend."
+  stale: []
+  turns_on:
+    - "030.17, the cause of the road by the Sologne: the Journal du siège (Quicherat 4) and Dunois's deposition (Murray)"
+    - "030.38, Saint-Loup taken on 4 May: the Journal du siège, the Chronique de la Pucelle, Girault's note, Charles VII's letter of 10 May"
+    - "030.45, Saint-Loup the first fort to fall that May: Joan at her trial (Barrett), Beaucourt book 2"
+    - "030.52-030.53, Saint-Jean-le-Blanc and the Augustins on 6 May: the Journal, the Chronique, d'Aulon (Murray), the chronicle of the feast"
+    - "030.65, the Tourelles taken and Glasdale drowned on 7 May: the Journal, the Chronique, Dunois and Pasquerel (Murray)"
+    - "030.72 and 030.76, the siege raised on 8 May after about seven months: the Journal, the Chronique, Dunois, Monstrelet"
+    - "030.68, the losses of the three days: Monstrelet, Charles VII's letter, Joan at her trial (Barrett)"
+    - "030.78, a French victory: Beaucourt book 2, Ramsay ch. 27"
+  checked: "from-blois 29 claims, the-army-of-blois 27, storming-saint-loup 25, the-augustins 23, the-tourelles 27, the-english-march-away 21; the card orleans-1429, 14 figures and its sides, date and site; 9 image captions against the candidates' index"
+- step: facts
+  task: recheck
+  status: pass
+  changed_files:
+    - content/joan-of-arc/pages/030-orleans/020-the-army-of-blois/text/en.md
+    - content/joan-of-arc/pages/030-orleans/050-the-tourelles/text/en.md
+    - content/joan-of-arc/.plan/faults/030.yaml
+    - content/joan-of-arc/.plan/fixes/030.yaml
+  faults: [030-fact-checker-40, 030-fact-checker-41, 030-fact-checker-42, 030-fact-checker-43]
+  unresolved:
+    - "As at the check: the disputed days, places, accounts and figures of 030 are each told with their authors; 030.62 now gives Joan's 'in the neck', the Journal's and the Bastard's 'between the neck and the shoulder' and the Chronique's 'through the shoulder' apart."
+    - "names-check (the edit hook) still flags 'the Chronique de la Pucelle' as first named in 030 against its row's 010: the check matches case, as the check's report said; the script is the thing to mend."
+  stale: []
+  turns_on:
+    - "030.62, where the arrow struck her: Joan at her trial (Barrett), the Journal du siège, Dunois (Murray), the Chronique de la Pucelle"
+    - "030.27-030.28, the sortie of 30 April and the herald sent back: the Journal du siège (Quicherat 4), Lowell ch. 8"
+  checked: "against 7854a89c: 030-section-reviewer-1 to 20 (text edits on all six pages, each as its fix log has it and nothing else changed), 030-section-reviewer-21 (the marker note of ile-saint-aignan, against d'Aulon), 030-fact-checker-38 and 39 (two captions); 17 of 21 hold, 4 reopened as new faults and fixed"
+- step: edit
+  task: recheck
+  status: pass
+  changed_files: []
+  faults: []
+  unresolved:
+    - "As at the check and the last recheck: the disputed days, places, accounts and figures of 030 (030.2, 030.16, 030.18, 030.19, 030.21, 030.26, 030.30, 030.37, 030.40, 030.42, 030.43, 030.46, 030.51, 030.56, 030.57, 030.59, 030.62, 030.63, 030.66, 030.67, 030.68, 030.70) are each told with their authors; 030.35 (Thin for Saint-Laurent) is not told."
+  stale: []
+  turns_on:
+    - "030.11 with 030.21-030.22, the Bastard's meeting with her on 28 April, now 'in his account at the retrial': Dunois's deposition at Orléans (Murray, depositions of 1455)"
+  checked: "against aa448627 and a7a64b81: 030-editor-2 (from-blois, paragraph 2), the only fix logged since the last recheck, holds as its fix log has it, and rules.md's 'at the retrial' rule is met; the field's other change since a7a64b81 is the images step's placed name. No other fix of 030 since a7a64b81; the card orleans-1429 changed only in its image name; no caption of a 030 image changed"
+- step: facts
+  task: recheck
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/reports/040-fact-checker.yaml
+  faults: []
+  unresolved: []
+  stale: []
+  made_by: hooks/agent-end.mjs, from the log

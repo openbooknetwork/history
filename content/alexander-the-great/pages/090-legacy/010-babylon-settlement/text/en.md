@@ -8,4 +8,4 @@ Perdiccas shares out the satrapies among the generals, who are to obey the king 
 
 @image alexander-iv-relief-louvre-73a735
 
-No king is able to rule, the army is split between a half-brother and an unborn child, and each general has a province and an army of his own. On the map the empire belongs to the two kings, and the lands of Ptolemy, Antigonus, Eumenes and Lysimachus are cut out of it. The borders on this chapter's maps, drawn from the sources' lists of lands, are approximate.
+No king is able to rule, the army is split between a half-brother and an unborn child, and each general has a province and an army of his own. The empire belongs to the two kings, and the lands of Ptolemy, Antigonus, Eumenes and Lysimachus are cut out of it.

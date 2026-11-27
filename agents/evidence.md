@@ -27,8 +27,8 @@ Each line of the digest is one claim with an id, `<section number>.<n>`, and one
 | Standing | When | In a text |
 |---|---|---|
 | `agreed` | two independent sources say it | told plainly |
-| `single` | one source says it, or several that go back to one | told, and a figure names its author |
-| `disputed` | sources that count differ | both accounts, each with its author |
+| `single` | one source says it, or several that go back to one | told, and a figure is given as about or as a range |
+| `disputed` | sources that count differ | a wording true for each account, or a clause that it is disputed |
 | `open` | the sources say it is not known | the text says it is not known |
 
 A line keeps its id for good. A new line takes the next number, and the number of a line that goes is left unused.
@@ -48,7 +48,7 @@ the line is. Each border, route, marker, unit position and measurement has a bas
 | Basis | When | What follows |
 |---|---|---|
 | `sourced` | a source gives the line or the place: a river, a treaty line, a list of towns, coordinates | drawn as given |
-| `reconstruction` | inferred from what a source does give, and the plan says from what | drawn, and the text says in a clause that the line is approximate, once in a chapter |
+| `reconstruction` | inferred from what a source does give, and the plan says from what | drawn, and no text speaks of it: the basis stays in the plan |
 | `unknown` | no source gives it and nothing sourced leads to it | left out: no figure on the card, no measure in the text |
 
 A strength, a casualty figure or a width of a front that no source gives stays `unknown`. An agent that needs a

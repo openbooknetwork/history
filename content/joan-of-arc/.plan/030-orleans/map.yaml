@@ -1,0 +1,164 @@
+from-blois:
+  bbox: [1.25, 47.25, 2.15, 48.05]
+  zones: [france-siege-1428, english-siege-1428, burgundy-1420, brittany-1407]
+  routes:
+    - id: convoy-1429-sologne
+      family: france
+      stations: [Blois, Olivet, the south bank before Chécy]
+      passage: "The Journal du siège, Quicherat 4, lines 6263-6283; the chronicle of the feast of 8 May, Quicherat 5, lines 13890-13895; Dunois's deposition, Murray, lines 12025-12035"
+      basis: reconstruction
+      why: "The convoy went up the south bank through the Sologne, since the English were strongest in the Beauce (030.17, agreed), and passed by or near Olivet (the chronicle of the feast; Lang, France and Ramsay, 030.18). Its end is where the supplies went into boats: before Chécy, at the Île-aux-Bourdons, in the chronicle of the feast, with the Journal's supplies brought 'jusques à Checy', and five miles above the city in Lowell; Dunois has it come to the Loire facing the church of Saint-Loup, and Ramsay follows him (030.21). The line ends before Chécy with the majority, and the text gives Dunois's place. No road is given, so the line keeps to the south bank."
+    - id: boats-1429-checy
+      family: france
+      stations: [the south bank before Chécy, Saint-Loup, Orléans]
+      passage: "The chronicle of the feast of 8 May, Quicherat 5, lines 13893-13905; Dunois's deposition, Murray, lines 12035-12100; the Journal du siège, Quicherat 4, lines 6319-6330"
+      basis: reconstruction
+      why: "Boats sent up from the city took the supplies on board, the wind turned, and they came down the river past the English bastilles to the city's port (the chronicle of the feast); Dunois says they passed before the church of Saint-Loup in spite of the English (030.20). The river is their road; the loading place is as convoy-1429-sologne has it."
+    - id: joan-1429-entry
+      family: france
+      stations: [Chécy, Orléans]
+      passage: "The Journal du siège, Quicherat 4, lines 6283-6375; Simon Beaucroix's deposition, Murray, lines 13548-13552"
+      basis: reconstruction
+      why: "Beaucroix has her cross with about 200 lances to the other bank and enter Orléans by land; the Journal has the force lie at Chécy and her enter at about eight in the evening of 29 April (030.22, 030.24). The road from Chécy is not given, and no gate is drawn (rules.md leaves out the gate she entered by), so the line runs down the north bank to the city. Drawn in france, since she rode with the king's men-at-arms."
+  markers:
+    blois: { name: Blois, what: "the convoy of supplies for Orléans and its escort, under the marshals de Boussac and de Rais, leave on 27 or 28 April 1429, a day the authors give differently, with the priests singing the Veni Creator before them; the rest of the escort comes back here on 29 April to cross the Loire; about 47.59 N 1.33 E. In the france colour", basis: sourced }
+    checy: { name: Chécy, what: "the village above Orléans where the Journal has the force lie on the night of 28 April and the Bastard of Orléans come to meet her; she crosses here to the north bank; Lang and France have her sleep at Reuilly, Guy de Cailly's house, and Lowell reads Cléry; about 47.89 N 2.02 E. In the france colour", basis: sourced, rank: 1 }
+    orleans-entry: { name: Orléans, what: "she rides in armed on a white horse at about eight in the evening of 29 April 1429, the Bastard of Orléans beside her and the townspeople carrying torches, and lodges with Jacques Boucher by the Porte Regnart; about 47.90 N 1.91 E. In the france colour", basis: sourced, rank: 2 }
+  unmarked:
+    Olivet: "a station of convoy-1429-sologne, where the convoy came within sight of the city; it changes nothing on the map."
+    Saint-Loup: "a station of the boats' route; the bastille is marked on storming-saint-loup, the page of its fall."
+    Reuilly: "Guy de Cailly's house near Chécy, where Lang and France have her sleep (030.19, disputed); a few kilometres from Chécy, it would stand under its icon, and the Chécy marker names it."
+    Cléry: "Lowell's reading of the Journal's Chécy (030.19); the text gives it with his name, and the map follows the Journal."
+    the Île-aux-Bourdons: "the island before Chécy where the chronicle of the feast has the convoy meet the boats; one icon at Chécy is enough at this frame."
+    the Sologne: "the land south of the Loire that convoy-1429-sologne crosses; a region, not a place."
+    the Beauce: "the plain north of the Loire, inside the english-siege-1428 zone, which she wanted to go through."
+    the Loire: "drawn on the base map."
+    the Porte Regnart: "the west gate by which she lodged; marked as Jacques Boucher's house on the-army-of-blois."
+    Paris: "named only in 'the Bourgeois of Paris', a source; no place on this page."
+the-army-of-blois:
+  bbox: [1.84, 47.875, 1.97, 47.93]
+  zones: [france-siege-1428, english-siege-1428, burgundy-1420, brittany-1407]
+  routes:
+    - id: army-1429-beauce
+      family: france
+      stations: [Blois, the forest of Orléans, Orléans]
+      passage: "The Chronique de la Pucelle, ch. 44-45, lines 12036-12060; the chronicle of the feast of 8 May, Quicherat 5, lines 13940-13950; Pasquerel's deposition, Murray, lines 14405-14412; Lang, The Maid of France, ch. 11, lines 5600-5610"
+      basis: reconstruction
+      why: "The army left Blois on 3 May along the north bank through the Beauce, lay a night at a village about halfway that the Chronique does not name, and came in on the morning of 4 May (030.33, agreed). The chronicle of the feast has Joan and the captains ride out to meet it as far as the forest of Orléans, and the army pass close by the bastille called Paris; Lang has it skirt the forest at the back of the city and pass that fort alone (030.35). The Journal and the Chronique name no bastille that it passed, though the Chronique, in the same passage, puts the English strength on that road in the great bastille called London. So the line comes round the north of the city from the forest, and does not run past Saint-Laurent, which only Wikipedia names (research 'Thin'). The roads are not given."
+  markers:
+    bastille-saint-laurent: { name: the bastille of Saint-Laurent, what: "the largest English work, outside the west gate by Saint-Laurent-des-Orgerils, where the chief captains and most of the English strength lay; about 47.900 N 1.892 E. In the english colour", basis: reconstruction, why: "Lang and the Chronique place it at Saint-Laurent outside the Porte Regnart (030.4); the church's site gives the place, the extent of the camp is not given.", rank: 3 }
+    bastille-london: { name: the bastille of London, what: "the English bastille at the Douze-Pairs, north-west of the city, near the bastille of Paris (Girault); about 47.906 N 1.891 E. In the english colour", basis: reconstruction, why: "The Chronique puts it at the Douze-Pairs and Girault near Paris (030.3); France's distance of nine hundred feet between London, Rouen and Paris (030.79) rests on him alone and only agrees with the placing. Its site is inferred.", rank: 1 }
+    bastille-rouen: { name: the bastille of Rouen, what: "the English bastille at the Pressoir-Ars, between London and Paris; about 47.908 N 1.896 E. In the english colour", basis: reconstruction, why: "Girault and the Chronique put it at the Pressoir-Ars, with London and Paris on either side (030.3). Its site is inferred.", rank: 1 }
+    bastille-paris: { name: the bastille of Paris, what: "the strong English bastille at Saint-Pouair, north of the city; on 30 April La Hire and Florent d'Illiers drive the English back towards it, and on 4 May the army from Blois passes close by it, by the chronicle of the feast and Lang; about 47.909 N 1.901 E. In the english colour", basis: reconstruction, why: "Girault puts it at Saint-Pouair (030.3), the Journal sends the sortie of 30 April that way (030.27), and the chronicle of the feast and Lang have the army pass it (030.35). Its site is inferred.", rank: 2 }
+    ile-charlemagne: { name: the Île Charlemagne, what: "the English outpost on an island just below the city, with a bridge (Ramsay), between Saint-Laurent and Saint-Privé on the south bank, which guarded the ferry from it (Lang); about 47.892 N 1.882 E. In the english colour", basis: reconstruction, why: "Ramsay has it just below Orléans and Lang between Saint-Laurent and Saint-Privé (030.2, 030.6); the island of 1429 is not the leisure park of that name upstream of the city today. Its site is inferred.", rank: 1 }
+    belle-croix: { name: the Belle-Croix, what: "the French boulevard on the bridge, facing the Tourelles across the broken arches; from here she calls on Glasdale to go, on 30 April by the Journal or on 5 May by the Chronique, and is called a cowherd; about 47.897 N 1.907 E. In the france colour", basis: reconstruction, why: "The Journal and Lang put it on the bridge at the Belle-Croix (030.8); the medieval bridge is gone, so its line is inferred from the Tourelles at its south end.", rank: 2 }
+    boucher-house: { name: Jacques Boucher's house, what: "the house of the Duke of Orléans's treasurer by the Porte Regnart, where she lodges, and from which, the chronicle of the feast says, she could see the whole siege; about 47.902 N 1.903 E. In the france colour", basis: sourced, rank: 1 }
+    saint-loup-april-1429: { name: the bastille of Saint-Loup, what: "the English bastille east of the city, toward Chécy, in the ring the page lists; stormed on 4 May 1429 on the next page; about 47.899 N 1.948 E. In the english colour", basis: reconstruction, why: "At the point of saint-loup on storming-saint-loup (030.5); its site is inferred. Added for 030-story-auditor-1: the text lists it with the ring.", rank: 1 }
+    saint-jean-le-blanc-april-1429: { name: the bastille of Saint-Jean-le-Blanc, what: "the English bastille on the south bank above the bridge, in the ring the page lists; about 47.893 N 1.919 E. In the english colour", basis: reconstruction, why: "At the point of saint-jean-le-blanc on the-augustins (030.3, 030.6); its site is inferred. Added for 030-story-auditor-1." }
+    augustins-april-1429: { name: the Augustins, what: "the English bastille in the ruined convent on the south bank before the Tourelles, in the ring the page lists; about 47.893 N 1.907 E. In the english colour", basis: reconstruction, why: "At the point of augustins on the-augustins (030.6); its site is inferred. Added for 030-story-auditor-1." }
+    saint-prive-april-1429: { name: the bastille of Saint-Privé, what: "the English bastille on the south bank below the city, guarding the ferry from the Île Charlemagne, in the ring the page lists; about 47.888 N 1.874 E. In the english colour", basis: reconstruction, why: "At the point of saint-prive on the-augustins (030.6); its site is inferred. Added for 030-story-auditor-1." }
+    tourelles-april-1429: { name: the Tourelles, what: "the English bridge-house at the south end of the bridge, held by William Glasdale, in the ring the page lists; about 47.895 N 1.907 E. In the english colour", basis: reconstruction, why: "At the point of tourelles on the-tourelles (030.7); its site is inferred. Added for 030-story-auditor-1.", rank: 1 }
+  unmarked:
+    the bastille of the Colombier: "named in the Chronique's list of December 1428 (030.3); no source read places it."
+    the bastille of the Croix-Boissée: "named in the Chronique's list of December 1428 (030.3); no source read places it, so it is not drawn."
+    Blois: "the start of army-1429-beauce, outside this frame; marked on from-blois."
+    Gien: "its garrison came in on 3 May with those of Montargis and Château-Renard (the Chronique); outside the frame, told and not drawn."
+    Montargis: "the Chronique has its garrison, with those of Gien and Château-Renard, come in on 3 May, and Ramsay has the force from Gien and Montargis join the army from Blois before it came in; outside the frame, told and not drawn."
+    Château-Renard: "the Chronique has its garrison come in on 3 May with those of Gien and Montargis; outside the frame, told and not drawn."
+    the Porte Regnart: "the west gate; Jacques Boucher's house by it is marked."
+    the forest of Orléans: "a station of army-1429-beauce; a region north of the city, not a place."
+    the church of Sainte-Croix: "where she heard vespers on 2 May (the Journal); it changes nothing on the map."
+    Orléans: "the city inside its walls, which the base map shows at this frame; the bastilles round it are marked."
+    the Beauce: "the plain north of the Loire that army-1429-beauce crosses, inside the english-siege-1428 zone and mostly outside this frame."
+storming-saint-loup:
+  bbox: [1.885, 47.885, 1.965, 47.92]
+  zones: [france-siege-1428, english-siege-1428, burgundy-1420, brittany-1407]
+  routes:
+    - id: french-1429-saint-loup
+      family: france
+      stations: [Orléans, Saint-Loup]
+      passage: "The Journal du siège, Quicherat 4, lines 6503-6520; the Chronique de la Pucelle, ch. 46, lines 12085-12140"
+      basis: reconstruction
+      why: "The Journal has the Bastard of Orléans and Joan lead about 1,500 men out of the city against Saint-Loup (030.38, 030.41); no gate or road is given, so the line runs east along the north bank to the bastille."
+  markers:
+    saint-loup: { name: the bastille of Saint-Loup, what: "the English bastille on the north bank above the city, by the church of Saint-Loup; stormed on 4 May 1429 from about noon and taken by vespers, burned and pulled down, the first English fort to fall that May; those who hid in the church tower in priests' vestments are spared at her word; about 47.899 N 1.948 E. In the english colour", basis: reconstruction, why: "A mile and a half above the town (Lowell), a league (Lang) or two and a half miles (France) (030.5); placed at Saint-Loup, the site the sources name, about a mile and a half from the east wall.", rank: 2 }
+    saint-pouair-sortie: { name: the bastille of Paris, what: "at Saint-Pouair, from which the Journal has the English come out to help Saint-Loup during the assault, the city's belfry sounding twice; the Chronique and the chronicle of the feast have Talbot bring men from the other bastilles; they go back when the French draw up against them; about 47.909 N 1.901 E. In the english colour", basis: reconstruction, why: "Girault puts the bastille at Saint-Pouair (030.3), and the Journal sends the relief from it (030.39). Its site is inferred, as on the-army-of-blois.", rank: 1 }
+  unmarked:
+    the pavé de Fleury: "the road where the chronicle of the feast has the English halt between Saint-Loup and their bastilles (030.39); no source read places it on the ground."
+    Saint-Laurent: "where Lang and France put Talbot's main force (030.40, disputed); marked on the-army-of-blois."
+    Chécy: "named for the road Saint-Loup stood on; outside this frame, marked on from-blois."
+    Orléans: "the city, the start of french-1429-saint-loup; the base map shows it, and from-blois marks it."
+the-augustins:
+  bbox: [1.86, 47.885, 1.96, 47.912]
+  zones: [france-siege-1428, english-siege-1428, burgundy-1420, brittany-1407]
+  routes:
+    - id: french-1429-crossing
+      family: france
+      stations: [the Tour Neuve, the Île Saint-Aignan, Saint-Jean-le-Blanc, the Augustins]
+      passage: "The Journal du siège, Quicherat 4, lines 6560-6590; d'Aulon's testimony, Murray, lines 15679-15720; Ramsay, Lancaster and York, ch. 27, lines 24843-24850"
+      basis: reconstruction
+      why: "The Journal has them cross 'between Saint-Loup and the Tour Neuve', the eastern water gate of the walls (Lang), take Saint-Jean-le-Blanc at the first onset and only then fall back to a small island facing Saint-Aignan; d'Aulon has them gather first on an island and cross the other arm on a bridge of two boats, and Ramsay has them land in the Île Saint-Aignan and cross the narrow southern arm so (030.49, 030.51, 030.52). The stations follow d'Aulon's and Ramsay's order. No source read places the island, so it is placed facing the church of Saint-Aignan as the Journal has it. From the south bank they went to Saint-Jean-le-Blanc and then the Augustins (030.52, 030.53)."
+    - id: english-1429-augustins
+      family: english
+      stations: [Saint-Jean-le-Blanc, the Augustins]
+      passage: "The Chronique de la Pucelle, ch. 47, lines 12197-12205; d'Aulon's testimony, Murray, lines 15690-15700"
+      basis: reconstruction
+      why: "Glasdale had Saint-Jean-le-Blanc emptied and burned and his men fall back on the Augustins, the boulevard and the Tourelles (030.52, agreed). The two ends are given; the way between is not."
+  markers:
+    ile-saint-aignan: { name: the Île Saint-Aignan, what: "the small island facing Saint-Aignan (the Journal), before Saint-Jean-le-Blanc (the chronicle of the feast), where the French land on 6 May and cross the narrow arm on two boats; men wade from it to the assault up to their armpits; about 47.897 N 1.916 E", basis: reconstruction, why: "The Journal sets it facing Saint-Aignan and Ramsay names it so (030.51); no source read places it, and it is placed in the river before the church of Saint-Aignan.", rank: 1 }
+    saint-jean-le-blanc: { name: the bastille of Saint-Jean-le-Blanc, what: "the English bastille on the south bank above the bridge, which Glasdale empties and burns as the French cross on 6 May 1429; the Journal has the French take it at the first onset; about 47.893 N 1.918 E. In the english colour", basis: reconstruction, why: "The chronicles put it at Saint-Jean-le-Blanc on the south bank (030.3, 030.6); placed at the village, its site inferred.", rank: 1 }
+    augustins: { name: the Augustins, what: "the English bastille in the ruined convent of the Augustinians on the south bank by the bridge; the French are driven back towards the island, turn with her and La Hire, and take it by assault before night on 6 May; it is burned, the Chronique says by her order, so that the men would not stop to plunder; about 47.895 N 1.907 E. In the english colour", basis: reconstruction, why: "On the south bank before the Tourelles and their boulevard (030.6, 030.53); the convent's site gives the place, inferred.", rank: 2 }
+    saint-prive: { name: the bastille of Saint-Privé, what: "the English bastille on the south bank below the city, guarding the ferry from the Île Charlemagne; in the night of 6 May its garrison fires it and crosses to Saint-Laurent (the Chronique, Ramsay), or English trying to cross there in two or three boats drown (the chronicle of the feast), which Lowell reads as Talbot sending men south; about 47.888 N 1.874 E. In the english colour", basis: reconstruction, why: "Lang puts it on the bank opposite the Île Charlemagne to secure the ferry (030.6); the field of Saint-Privé gives the place, inferred. No route is drawn for the night's crossing, since the chronicles differ on its direction (030.57).", rank: 1 }
+  unmarked:
+    the Tour Neuve: "the east corner tower of the walls, the start of french-1429-crossing; it changes nothing on the map."
+    Saint-Aignan: "the church east of the old city that the island faced; the island is marked."
+    the Tourelles: "where the English fell back; marked on the-tourelles, the page of its fall."
+    the Portereau: "the suburb south of the bridge that the French marched on; the Augustins stood in it and are marked."
+    Saint-Laurent: "where the Chronique has the garrison of Saint-Privé cross to; marked on the-army-of-blois."
+    Berry: "named as the land the city could be supplied from once the south bank was clear; outside the frame."
+    the Loire: "drawn on the base map; the island and the forts on its banks are marked."
+the-tourelles:
+  bbox: [1.885, 47.888, 1.93, 47.906]
+  zones: [france-siege-1428, english-siege-1428, burgundy-1420, brittany-1407]
+  routes:
+    - id: townsmen-1429-bridge
+      family: france
+      stations: [Orléans, the Belle-Croix, the Tourelles]
+      passage: "The Journal du siège, Quicherat 4, lines 6667-6680; the Chronique de la Pucelle, ch. 48, lines 12345-12350; the chronicle of the feast of 8 May, Quicherat 5, lines 14031-14036"
+      basis: reconstruction
+      why: "Men of the city went out over the bridge and bridged the broken arches with gutters and ladders, a carpenter lengthening the longest gutter, and attacked the Tourelles from that side too (030.60, agreed). The bridge is their road; the medieval bridge is gone, so its line is inferred from the Tourelles at its south end and the city. None of the three passages names the Belle-Croix: it is a station because the French boulevard stood on the bridge facing the Tourelles (030.8), on the townsmen's way."
+  markers:
+    tourelles: { name: the Tourelles, what: "the English bridge-house on its pier at the south end of the bridge, held by William Glasdale; attacked from the south bank and from the bridge from morning to evening on 7 May 1429, it falls when the drawbridge from the boulevard gives way under the English, and Glasdale drowns in the Loire; about 47.896 N 1.907 E. In the english colour", basis: reconstruction, why: "At the south end of the bridge, joined to the boulevard by a drawbridge (030.7); placed at the bridge's south end on the quai des Augustins, inferred.", rank: 3 }
+    tourelles-boulevard: { name: the boulevard of the Tourelles, what: "the earthwork on the shore before the Tourelles; here she is struck between the neck and the shoulder as she raises a ladder, by her own account, and towards evening she sets her standard at the edge of the ditch and the French go up and take it; about 47.895 N 1.907 E. In the english colour", basis: reconstruction, why: "An earthwork on the shore before the Tourelles' pier (030.7); its place is inferred from the Tourelles.", rank: 2 }
+    ile-saint-antoine: { name: the Île Saint-Antoine, what: "the island of the bridge, from which, Ramsay says, the townsmen's guns fired on the Tourelles all day; about 47.897 N 1.908 E. In the france colour", basis: reconstruction, why: "Ramsay alone names it as the guns' place (030.61, single); the island under the bridge gives the place, inferred.", rank: 1 }
+  unmarked:
+    the Belle-Croix: "the French boulevard on the bridge, a station of townsmen-1429-bridge; marked on the-army-of-blois, and it would stand under the Tourelles' icon."
+    the Augustins: "taken the day before, where the French lay before the Tourelles; marked on the-augustins."
+    the vineyard: "where Dunois has her pray apart for half an hour; no source places it."
+    Saint-Laurent: "where the Journal has the French watch for the English in the night of 7 May; marked on the-army-of-blois."
+    the Loire: "drawn on the base map; Glasdale and his men drown in it below the drawbridge, which the Tourelles marker names."
+the-english-march-away:
+  bbox: [1.55, 47.72, 2.25, 48.02]
+  zones: [france-siege-1428, english-siege-1428, burgundy-1420, brittany-1407]
+  routes:
+    - id: talbot-1429-meung
+      family: english
+      stations: [Orléans, Meung, Beaugency]
+      passage: "The Journal du siège, Quicherat 4, lines 6789-6795; the Chronique de la Pucelle, ch. 49, lines 12490-12500; P. Champion's sketch of John Talbot, in Barrett, lines 10848-10852"
+      basis: reconstruction
+      why: "The Journal has the English march in good order into Meung; the Chronique has Talbot, Lord Scales and the other captains go to Meung and Beaugency, and Champion has Talbot go to Meung and then Beaugency (030.74, agreed). The road down the north bank is not given."
+    - id: suffolk-1429-jargeau
+      family: english
+      stations: [Orléans, Jargeau]
+      passage: "The Chronique de la Pucelle, ch. 49, lines 12490-12500; Ramsay, Lancaster and York, ch. 27, lines 24934-24936"
+      basis: reconstruction
+      why: "The Chronique sends Suffolk to Jargeau, and Ramsay has some of the English go to Jargeau (030.74). The road is not given."
+  markers:
+    english-array: { name: the English array, what: "on Sunday 8 May 1429 the English leave their bastilles and draw up for battle before the city; the French draw up facing them for an hour, the Journal says, and she forbids them to begin the fight on a Sunday; then the English march away; about 47.905 N 1.89 E. In the english colour", basis: reconstruction, why: "Pasquerel has them come to the foot of the trenches of the town and Lowell has the French march out of the west gate against them (030.72); the English drew up from Saint-Pouair and the other bastilles, so the array is placed west of the city, inferred.", rank: 1 }
+    meung-may-1429: { name: Meung, what: "where the English march in good order on 8 May 1429, and where, Pasquerel says, they stay several days; Talbot goes on to Beaugency; about 47.83 N 1.70 E. In the english colour", basis: sourced, rank: 2 }
+    beaugency-may-1429: { name: Beaugency, what: "where Talbot, Lord Scales and other captains go from Meung after the siege is raised (the Chronique, Champion); about 47.78 N 1.63 E. In the english colour", basis: sourced, rank: 1 }
+    jargeau-may-1429: { name: Jargeau, what: "where Suffolk goes with his men when the siege is raised, 8 May 1429; about 47.86 N 2.13 E. In the english colour", basis: sourced }
+  unmarked:
+    Orléans: "the city stands under the card orleans-1429, which the page shows; its procession and thanks are told in the text."
+    Janville: "where the chronicle of the feast has Talbot's men stay with Meung, Beaugency and Jargeau; north of the frame, and marked in 040."
+    the bastilles: "pulled down by the townspeople after the English left; the pages before mark each one."

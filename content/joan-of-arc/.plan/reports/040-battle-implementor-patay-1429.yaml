@@ -1,0 +1,68 @@
+- step: phases
+  task: build
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plans/patay-1429.mjs
+    - content/joan-of-arc/pages/040-the-loire-and-reims/031-patay-the-hedges/page.yaml
+    - content/joan-of-arc/pages/040-the-loire-and-reims/031-patay-the-hedges/markers.yaml
+    - content/joan-of-arc/pages/040-the-loire-and-reims/031-patay-the-hedges/text/en.md
+    - content/joan-of-arc/pages/040-the-loire-and-reims/032-patay-the-stag/page.yaml
+    - content/joan-of-arc/pages/040-the-loire-and-reims/032-patay-the-stag/markers.yaml
+    - content/joan-of-arc/pages/040-the-loire-and-reims/032-patay-the-stag/text/en.md
+    - content/joan-of-arc/pages/040-the-loire-and-reims/033-patay-the-rout/page.yaml
+    - content/joan-of-arc/pages/040-the-loire-and-reims/033-patay-the-rout/markers.yaml
+    - content/joan-of-arc/pages/040-the-loire-and-reims/033-patay-the-rout/text/en.md
+    - content/joan-of-arc/shared/battles/patay-1429/battle.yaml
+    - content/joan-of-arc/pages/040-the-loire-and-reims/030-patay/text/en.md
+    - content/joan-of-arc/.plan/names.md
+    - content/joan-of-arc/.plan/faults/040.yaml
+    - content/joan-of-arc/.plan/fixes/040.yaml
+    - content/joan-of-arc/.plan/handoff/battle-implementor.md
+  faults: [040-battle-implementor-1, 040-battle-implementor-2, 040-battle-implementor-3]
+  unresolved: []
+  stale: []
+  note: >-
+    Three phase pages, 031-033, drawn by .plans/patay-1429.mjs on the plan's one place for the field (the road due
+    north into Patay, hedges at [1.700, 48.044], narrow way at [1.700, 48.022]). Reconstructions, each told as
+    approximate or as unplaced in its text: the field itself (a note on every page gives each author's place,
+    040.39), the column's halt point, the woods, the English rearguard in phases 1-2, and the French scouts and
+    bodies on the road. Widths of the hedges and the narrow way are chosen for the map and in no text. All checks
+    of the audit pack are ok; units-check 0 overlaps, 0 notes.
+- step: phases
+  task: fix
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plans/patay-1429.mjs
+    - content/joan-of-arc/pages/040-the-loire-and-reims/031-patay-the-hedges/markers.yaml
+    - content/joan-of-arc/pages/040-the-loire-and-reims/033-patay-the-rout/markers.yaml
+    - content/joan-of-arc/.plan/faults/040.yaml
+    - content/joan-of-arc/.plan/fixes/040.yaml
+    - content/joan-of-arc/.plan/handoff/battle-implementor.md
+  faults: []
+  unresolved: []
+  stale: []
+  notes: >-
+    Fixed 040-battle-auditor-4 (Fastolf's marker on patay-the-hedges to u -1100, w 950, Talbot's to w 700, so the
+    rearguard block and the archers show bare at laptop and phone size) and 040-battle-auditor-5 (La Hire's marker on
+    patay-the-rout to u -1450, w 1100, its label clear of the French vanguard and the clash). Generator rerun changes
+    no other file; units-check 0 overlaps; audit pack all ok, its points and route-surface lines are the section
+    map's and unchanged. Fastolf's label on the hedges crosses the vanguard's march arrow, not a unit. On a phone
+    La Hire's icon on patay-the-rout groups under Alençon's (+1), as the engine does; both are linked in the text.
+- step: phases
+  task: fix
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plans/patay-1429.mjs
+    - content/joan-of-arc/pages/040-the-loire-and-reims/032-patay-the-stag/markers.yaml
+    - content/joan-of-arc/.plan/faults/040.yaml
+    - content/joan-of-arc/.plan/fixes/040.yaml
+    - content/joan-of-arc/.plan/handoff/battle-implementor.md
+  faults: []
+  unresolved: []
+  stale: []
+  notes: >-
+    Fixed 040-battle-auditor-6: Fastolf's marker on patay-the-stag moved from u -850, w -520 to u -1100, w 950, as
+    on the hedges, so the rearguard block shows bare under the main body at laptop size. Its label sits below the
+    end of the hurry arrow and clear of Talbot's marker. Running the generator again changes only that phase's
+    markers.yaml. units-check finds 0 overlaps. The audit pack's checks are all ok. Its points, route-surface and
+    map.yaml notes are about the section map's overview pages and have not changed.

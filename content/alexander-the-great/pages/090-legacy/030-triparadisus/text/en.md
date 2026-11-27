@@ -8,7 +8,7 @@ Perdiccas reaches the Nile near [Pelusium](@pelusium-320). He fails to take a fo
 
 At Triparadisus\*\*, a royal park in Syria whose site is not known for certain, the army makes Antipater guardian of the kings, and he shares out the satrapies again. Ptolemy keeps Egypt, which he holds, Diodorus writes, like a prize won in war, and Cyrene, which his general Ophellas took in 322 BC. Seleucus, who had commanded the Companion cavalry, receives Babylonia. Antigonus keeps Greater Phrygia and Lycia and becomes general of the royal army, with orders to finish the war against Eumenes, who still holds Cappadocia.
 
-On the map Perdiccas's march up the Nile, which is approximate, ends opposite Memphis, and Babylonia passes to Seleucus.
+Perdiccas's march up the Nile ends opposite Memphis, and Babylonia passes to Seleucus.
 
 ### Notes
 

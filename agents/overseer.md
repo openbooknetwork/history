@@ -142,10 +142,14 @@ too:
   `stale`.
 - **On a commit.** Inside an agent, `git commit -a` and `git add -A` are refused.
 
-`/story-pipeline:section` is the fixed order of one section as a workflow: draw, audit and fix, write, build
-and audit the phase pages, find images, fact check and review. Run it with the story, the section and the
-section's battles with phases in place of the dispatches a lead makes by hand at `build`. It rules on nothing:
-it returns each agent's status with what was left unresolved or stale, and the section's lead rules on that.
+`/story-pipeline:section` builds one section as a workflow, for a story on the log. It holds no order of its
+own. `NEEDS` in `scripts/pipeline.mjs` says which tasks each first run is made from, and
+`node scripts/order.mjs <story> <section>` prints the order that follows, and names the circle where the needs
+go round in one. The workflow starts each task the moment the tasks it needs have ended. As each checker ends,
+and once more at the end, it asks the gate, `node scripts/next.mjs <story> <section>`, and dispatches each fix
+and each recheck the gate lists, until it lists none. It rules on nothing: it returns the gate's last list, and
+the section's lead rules on the lines `rule`, `agree` and `why` that are left in it. To change the order of the
+work, change `NEEDS`, and nothing else.
 
 ## Lean by default
 
@@ -255,7 +259,10 @@ comes first, and `ORDER` of `scripts/transcripts.mjs` holds it for the scripts.
   section can settle, and reports once. Every agent that takes captures serves a static build of its own, so
   its dispatch says `serve: static`. Run the sections in waves, as "Managers" below says.
 - **`images`, at its end.** Once every section is reviewed, run `node scripts/images-place.mjs <story>`, which
-  puts each image's id in place of its placeholder.
+  puts each image's id in place of its placeholder, in the pages and in the page generators. Then run
+  `node scripts/generated-check.mjs <story>`, while no agent is writing pages: it must print `ok`. It finds a
+  placeholder left anywhere, and a generated file that is not what its generator writes. Run it again before
+  the story's audit.
 - **`edit`.** Dispatch the `editor` with the task `texts`. A fault of its lists goes to the lead of its section,
   for its reviewer, or for its cartographer where the map is at fault. The pages the editor changed go to the
   `fact-checker` of their section, through the same lead.
@@ -283,8 +290,9 @@ comes first, and `ORDER` of `scripts/transcripts.mjs` holds it for the scripts.
 
 - The sections run at once within a step, in waves.
 - Within a section: its writer starts once the cartographer has written the page files, beside the map audit.
-  Its image finder starts once it has its texts and cards, beside the fact check and the review, since it edits
-  no text. A battle's phase pages are built once its section has its page files.
+  Its image finder starts once it has its texts and cards, and the fact check waits for it: a caption is text
+  the fact check reads, so the images are its input as the page texts are. A battle's phase pages are built
+  once its section has its page files, beside the images.
 - Across sections: the map audit of one section beside the drawing of the next.
 - The battle plans and the cards do not run beside the maps: they are written at `plans`, before any map.
 - Two agents that write the same file never run at once.
@@ -292,7 +300,7 @@ comes first, and `ORDER` of `scripts/transcripts.mjs` holds it for the scripts.
 ### When a plan changes
 
 A plan is not frozen, and it is not kept in step by hand either. A small change to a page, such as a corrected
-date, a dispute moved to its note or a marker renamed, leaves the plan as it is and goes into the fix log. A
+date, a dispute worded anew or a marker renamed, leaves the plan as it is and goes into the fix log. A
 change to the story's shape, a page added, removed or split, or a battle that loses its phase pages, goes back to
 `plans`: the plan is written again, its hash changes, and `node scripts/inputs.mjs stale <story>` lists each
 thing built from the old version to build again.
@@ -307,6 +315,14 @@ fault it is resumed for is in the fault list. No agent's context passes 300,000 
 its handoff and ends, and a fresh one takes over.
 
 ## Reports
+
+**A story on the log** (`agents/log.md`). An agent ends with one line, such as `ok 1 0`: its result, the asks
+still open of its and for it, and the asks that wait for a ruling. Its report is made from the log and saved to
+`reports/` as before, and you read it only where the line is not `ok 0 0`. Before you close a step, and before a
+section's lead reports, run `node scripts/next.mjs <story> [section]`: it lists every owner with open asks, every
+checker in whose files somebody else changed something since it last looked, every ask that waits for you, and
+every edit that owes its reason. Dispatch what it lists and rule on what waits. A section, and the story, is
+done when it prints that nothing is left, and not before.
 
 Every agent's report is the block of `agents/report.md` and at most ten lines, and the agent saves the block to
 `content/<story>/.plan/reports/`. Its faults are in the fault list, and the block names their ids. Act on the

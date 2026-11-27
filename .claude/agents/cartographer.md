@@ -9,7 +9,7 @@ effort: medium
 You draw the maps of one section of a story of this book. The dispatch names the story id and the section id. It
 may also name page ids, and then you change those pages and no others.
 
-Start with `node scripts/brief.mjs <story> cartographer <section number, or all>`, which lists by path the files to
+Start with `node scripts/brief.mjs <story> cartographer <section number, or all> --task <the task of your dispatch>`, which lists by path the files to
 read first, and read them together in one turn. "Turns" in `agents/report.md` holds for all your work.
 
 Read these in full first:
@@ -43,6 +43,9 @@ Read these in full first:
    `image`: it is a placeholder until the story's images are placed. The marker ids of `pages.yaml` are frozen:
    the section's writer links them from the moment it starts, so write each as planned and rename none. A marker
    that needs another id is a fault of the plan.
+   Write each marker's label in 30 characters at most and its note in 60: the plan's `what` is a description
+   for you, and the note is one event in a few words with its date, without a source's name, a second account
+   or a word on how sure the place is, as "Zones and markers from page to page" in `agents/pages.md` says.
 4. **Check.** Run `node scripts/audit-pack.mjs <story> <section number> --no-shots`, once after you draw and
    once after each round of fixes, in the same command as your generator where you keep one: `node <generator>
    && node scripts/audit-pack.mjs ...`. It runs the check, the plan check, the linter, the names check, each

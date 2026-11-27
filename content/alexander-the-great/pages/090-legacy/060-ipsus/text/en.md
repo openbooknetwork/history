@@ -2,11 +2,11 @@ In 302 BC Cassander, Lysimachus, Seleucus and Ptolemy join against King Antigonu
 
 The armies meet at Ipsus in Phrygia in 301 BC. In Plutarch's account Demetrius routs the cavalry of Antiochus, son of Seleucus, but chases him too far. Seleucus's elephants block Demetrius's way back, and Seleucus rides round Antigonus's phalanx, now without cavalry, until much of it comes over to him. Antigonus waits for his son to the last and falls under a shower of javelins.
 
-The victors carve up his kingdom "as if it had been a great carcass", in Plutarch's words. Lysimachus receives Asia Minor up to the Taurus, Cappadocia with it, though in Tarn's account partly in name only: Pontus and Bithynia stay independent, and many Greek cities still side with Demetrius. Seleucus adds Syria and Mesopotamia, so that his lands reach, on paper, from the Mediterranean to the Hindu Kush and the Jaxartes, though Tarn notes that [Tyre](@tyre-301) and [Sidon](@sidon-301) are still Demetrius's. Ptolemy keeps Coele-Syria\* and refuses Seleucus's claim to it. Cassander keeps Macedon, and his brother Pleistarchus receives a share of his own south of the Taurus\*\*, which the map leaves out.
+The victors carve up his kingdom "as if it had been a great carcass", in Plutarch's words. Lysimachus receives Asia Minor up to the Taurus, Cappadocia with it, though in Tarn's account partly in name only: Pontus and Bithynia stay independent, and many Greek cities still side with Demetrius. Seleucus adds Syria and Mesopotamia, so that his lands reach, on paper, from the Mediterranean to the Hindu Kush and the Jaxartes, though Tarn notes that [Tyre](@tyre-301) and [Sidon](@sidon-301) are still Demetrius's. Ptolemy keeps Coele-Syria\* and refuses Seleucus's claim to it. Cassander keeps Macedon, and his brother Pleistarchus receives a share of his own south of the Taurus.\*\*
 
 @image lysimachus-bust-ephesus-24544e
 
-On the map four armies converge on Phrygia by approximate routes, and Antigonus's kingdom is divided.
+Four armies converge on Phrygia, and Antigonus's kingdom is divided.
 
 ### Notes
 

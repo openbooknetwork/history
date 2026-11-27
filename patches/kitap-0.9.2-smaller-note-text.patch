@@ -1,0 +1,12 @@
+diff --git a/src/app.html b/src/app.html
+index 90cd109..604aaec 100644
+--- a/src/app.html
++++ b/src/app.html
+@@ -153,6 +153,7 @@ aside.story .start{display:inline-flex;align-items:center;gap:.286rem;margin-top
+ aside.story .start svg{width:1rem;height:1rem}
+ aside.story .steps{display:flex;justify-content:space-between;gap:.857rem;margin-top:1.286rem}
+ aside.story h3{font-size:.929rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2);margin-top:1.286rem;border-top:1px solid var(--rule);padding-top:.714rem}
++aside.story h3~p:not(.chain):not(.steps){font-size:.857rem;color:var(--ink-2)}
+ aside.story ol{padding-inline-start:1.286rem;margin:.429rem 0;color:var(--ink-2);font-size:.857rem}
+ aside.story li{margin-bottom:.286rem}
+ aside.story figure{margin:1rem 0;max-width:62ch}

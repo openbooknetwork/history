@@ -1,0 +1,192 @@
+# Markers that pages switch on by id. lnglat is [longitude, latitude].
+# One id has one note: a place marked again on another page takes an id of its own. Each section's block is
+# written by its generator in .plans/ and is changed there.
+# --- 010 france-divided, 1407–1424: written by content/joan-of-arc/.plans/pages010.cjs ---
+paris-1407:
+  lnglat: [2.36, 48.858]
+  icon: skull
+  color: france
+  label: "Paris"
+  note: "Louis, Duke of Orléans, is murdered, 23 November 1407"
+  rank: 5
+  image: louis-of-orleans-murder-miniature-1f8c01
+lille-1407:
+  lnglat: [3.063, 50.637]
+  icon: castle
+  color: burgundy
+  label: "Lille"
+  note: "John the Fearless withdraws here after the murder"
+  rank: 3
+domremy:
+  lnglat: [5.674, 48.442]
+  icon: house
+  color: france
+  label: "Domrémy"
+  note: "Joan's village, where she is born about 1412"
+  rank: 5
+  image: domremy-birthplace-house-75c6f7
+vaucouleurs-1412:
+  lnglat: [5.667, 48.602]
+  icon: castle
+  color: france
+  label: "Vaucouleurs"
+  note: "The walled town down the Meuse, of the king's party"
+  rank: 4
+maxey-1412:
+  lnglat: [5.697, 48.448]
+  icon: house
+  color: burgundy
+  label: "Maxey"
+  note: "The Burgundian village across the Meuse"
+  rank: 3
+harfleur-1415:
+  lnglat: [0.198, 49.507]
+  icon: anchor
+  color: english
+  label: "Harfleur"
+  note: "Henry V lands and takes the town, 22 September 1415"
+  rank: 5
+blanche-taque-1415:
+  lnglat: [1.742, 50.139]
+  icon: waves
+  color: france
+  label: "Blanche-Taque"
+  note: "The ford of the Somme, held against Henry V, 13 October 1415"
+  rank: 2
+bethencourt-1415:
+  lnglat: [2.957, 49.795]
+  icon: footprints
+  color: france
+  label: "Béthencourt"
+  note: "Henry V's army crosses the Somme, 19 October 1415"
+  rank: 3
+calais-1415:
+  lnglat: [1.858, 50.951]
+  icon: castle
+  color: english
+  label: "Calais"
+  note: "Henry V's army reaches the English town, 29 October 1415"
+  rank: 4
+caen-1417:
+  lnglat: [-0.37, 49.183]
+  icon: castle
+  color: english
+  label: "Caen"
+  note: "Taken on 4 September 1417, its castle on 20 September"
+  rank: 4
+paris-1418:
+  lnglat: [2.352, 48.857]
+  icon: flame
+  color: burgundy
+  label: "Paris"
+  note: "The Burgundians take the city, May – June 1418"
+  rank: 4
+bourges-1418:
+  lnglat: [2.399, 47.081]
+  icon: crown
+  color: france
+  label: "Bourges"
+  note: "Where the Dauphin Charles flees in 1418"
+  rank: 4
+rouen-1419:
+  lnglat: [1.099, 49.443]
+  icon: castle
+  color: english
+  label: "Rouen"
+  note: "Besieged from 29 July 1418, surrenders on 19 January 1419"
+  rank: 5
+mont-saint-michel-1419:
+  lnglat: [-1.511, 48.636]
+  icon: church
+  color: france
+  label: "Mont-Saint-Michel"
+  note: "The one place in Normandy still French at the end of 1419"
+  rank: 3
+montereau-1419:
+  lnglat: [2.952, 48.385]
+  icon: skull
+  color: france
+  label: "Montereau"
+  note: "John the Fearless is killed on the bridge, 10 September 1419"
+  rank: 5
+  image: montereau-bridge-murder-miniature-c7198b
+troyes-1420:
+  lnglat: [4.074, 48.297]
+  icon: scroll-text
+  color: english
+  label: "Troyes"
+  note: "Treaty of Troyes, sealed in its cathedral, 21 May 1420"
+  rank: 5
+  image: troyes-cathedral-8e5cc1
+meaux-1422:
+  lnglat: [2.878, 48.96]
+  icon: castle
+  color: english
+  label: "Meaux"
+  note: "Henry V besieges the town, October 1421 – May 1422"
+  rank: 3
+vincennes-1422:
+  lnglat: [2.435, 48.843]
+  icon: cross
+  color: english
+  label: "Vincennes"
+  note: "Henry V dies in its castle, 31 August 1422"
+  rank: 3
+paris-1422:
+  lnglat: [2.362, 48.853]
+  icon: crown
+  color: english
+  label: "Paris"
+  note: "Charles VI dies in his hôtel of Saint-Pol, 21 October 1422"
+  rank: 3
+saint-denis-1422:
+  lnglat: [2.36, 48.935]
+  icon: church
+  color: english
+  label: "Saint-Denis"
+  note: "Charles VI is buried in the abbey, 11 November 1422"
+  rank: 4
+mehun-1422:
+  lnglat: [2.215, 47.144]
+  icon: crown
+  color: france
+  label: "Mehun-sur-Yèvre"
+  note: "The Dauphin takes the title of King, 30 October 1422"
+  rank: 4
+  image: mehun-sur-yevre-castle-b3fb10
+bourges-1422:
+  lnglat: [2.399, 47.081]
+  icon: castle
+  color: france
+  label: "Bourges"
+  note: "His enemies call Charles VII the King of Bourges"
+  rank: 3
+auxerre-1423:
+  lnglat: [3.567, 47.798]
+  icon: castle
+  color: burgundy
+  label: "Auxerre"
+  note: "The Earl of Salisbury joins the Burgundians, July 1423"
+  rank: 3
+cravant-1423:
+  lnglat: [3.689, 47.683]
+  icon: swords
+  color: burgundy
+  label: "Cravant"
+  note: "The army of Charles VII breaks at the bridge, 31 July 1423"
+  rank: 5
+ivry-1424:
+  lnglat: [1.461, 48.885]
+  icon: castle
+  color: english
+  label: "Ivry"
+  note: "The castle John, Duke of Bedford, besieges in summer 1424"
+  rank: 3
+verneuil-1424:
+  lnglat: [0.928, 48.739]
+  icon: castle
+  color: france
+  label: "Verneuil"
+  note: "Taken by the French, August 1424"
+  rank: 3
+# --- end 010 ---

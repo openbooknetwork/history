@@ -1,0 +1,21 @@
+- step: facts
+  task: review
+  status: faults
+  changed_files:
+    - content/joan-of-arc/pages/030-orleans/010-from-blois/text/en.md
+    - content/joan-of-arc/pages/030-orleans/020-the-army-of-blois/text/en.md
+    - content/joan-of-arc/pages/030-orleans/030-storming-saint-loup/text/en.md
+    - content/joan-of-arc/pages/030-orleans/040-the-augustins/text/en.md
+    - content/joan-of-arc/pages/030-orleans/050-the-tourelles/text/en.md
+    - content/joan-of-arc/pages/030-orleans/060-the-english-march-away/text/en.md
+    - content/joan-of-arc/.plan/faults/030.yaml
+    - content/joan-of-arc/.plan/fixes/030.yaml
+  faults: [030-section-reviewer-1, 030-section-reviewer-2, 030-section-reviewer-3, 030-section-reviewer-4, 030-section-reviewer-5, 030-section-reviewer-6, 030-section-reviewer-7, 030-section-reviewer-8, 030-section-reviewer-9, 030-section-reviewer-10, 030-section-reviewer-11, 030-section-reviewer-12, 030-section-reviewer-13, 030-section-reviewer-14, 030-section-reviewer-15, 030-section-reviewer-16, 030-section-reviewer-17, 030-section-reviewer-18, 030-section-reviewer-19, 030-section-reviewer-20, 030-section-reviewer-21]
+  unresolved: []
+  stale:
+    - content/joan-of-arc/pages/030-orleans/040-the-augustins/markers.yaml
+  pages_changed: [from-blois, the-army-of-blois, storming-saint-loup, the-augustins, the-tourelles, the-english-march-away]
+  declined: []
+  check_left: "names-check: 'the Chronique de la Pucelle' first named in 030 against its row's 010; 010's cravant-and-verneuil names it as 'The Chronique de la Pucelle' at a note's sentence start, and the check matches case. The row is right and the script is to mend, as the fact checker reported."
+  long: "Every body runs 300 to 345 words by a count without link targets, under the hard 350 (rules-lint ok): the plan's accounts carry many attributed claims, and the reviewer's additions are the few words on who a person is that a reader opening the page needs."
+  plan: []

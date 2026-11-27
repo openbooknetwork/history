@@ -121,7 +121,7 @@ function forms(row, head) {
   head.forEach((h, i) => {
     if (i !== 0 && !/other forms|adjective/i.test(h)) return;
     const cell = (c[i] ?? '').replace(/\([^()]*\)/g, ' ');
-    for (const part of i === 0 ? [cell] : cell.split(/[;/]/)) {
+    for (const part of cell.split(i === 0 ? /;/ : /[;/]/)) {
       const form = flat(part).replace(/["“”]/g, '').trim();
       if (form.length > 1 && /\p{L}/u.test(form)) out.push(form);
     }

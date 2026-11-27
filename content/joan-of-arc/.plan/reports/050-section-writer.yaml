@@ -1,0 +1,24 @@
+- step: texts
+  task: write
+  status: pass
+  changed_files:
+    - content/joan-of-arc/pages/050-paris-and-compiegne/010-montepilloy/text/en.md
+    - content/joan-of-arc/pages/050-paris-and-compiegne/020-paris/text/en.md
+    - content/joan-of-arc/pages/050-paris-and-compiegne/030-back-to-the-loire/text/en.md
+    - content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/text/en.md
+    - content/joan-of-arc/pages/050-paris-and-compiegne/050-melun-and-lagny/text/en.md
+    - content/joan-of-arc/pages/050-paris-and-compiegne/060-compiegne/text/en.md
+    - content/joan-of-arc/.plan/names.md
+    - content/joan-of-arc/.plan/faults/050.yaml
+    - content/joan-of-arc/.plan/fixes/050.yaml
+  faults: [050-section-writer-1]
+  unresolved: []
+  stale:
+    - content/joan-of-arc/.plan/names-050.md
+  notes: >-
+    Six texts written, bodies 294 to 300 words; harita check, --places, rules-lint, names-check and close-wording all
+    clean. Only philip-the-good-portrait is placed in a text: the other images of the plan stand "on" a marker or a
+    card, as 040 places them. No fact was missing from the plan's files and no file contradicts the plan. The Journal
+    of the Siege's companion of Alençon at Paris is quoted as it has it, "the dukes of Alençon and Bourbon". Disputed
+    and single-author details beyond the body's room (Surienne, Thierry, Montremur, the Bourges levy, Baretta,
+    Lionel, the bridge at Saint-Denis, Bournel) stand in the notes with their authors.

@@ -1,0 +1,42 @@
+- task: pre-plan
+  step: pre-plans
+  at: '2026-11-26T09:22:55.221Z'
+  before: null
+  inputs:
+    rules.md: 34016c37f051ce5e
+    brief.md#040: a480d4e2429440bc
+  ended: '2026-11-26T09:24:23.868Z'
+  status: pass
+  outputs: &ref_0
+    - content/joan-of-arc/.plan/040-the-loire-and-reims/pages.yaml
+- task: plan
+  step: plans
+  at: '2026-11-26T10:40:15.828Z'
+  before: null
+  inputs:
+    rules.md: 1fa000ad5b45337e
+    brief.md#040: 5aeca67518885729
+    research.md#040: 38bfd0efcfb7b8da
+    names.md#040: 8b01d4d527db4be7
+- task: agreed
+  step: pre-plans
+  at: '2026-11-26T10:57:47.486Z'
+  ended: '2026-11-26T10:57:47.486Z'
+  status: pass
+  by: fact-checker plan-check
+  inputs:
+    rules.md: 34016c37f051ce5e
+    brief.md#040: a480d4e2429440bc
+    research.md#040: 3d3f66bcfdee6e00
+  outputs: *ref_0
+- task: plan
+  step: plans
+  at: '2026-11-26T18:42:41.471Z'
+  note: The user ruled on 26 Nov 2026 that patay-1429 gets phase pages; rules.md and the brief hold it. The section's six pages are built and stay as they are.
+  before: 9af1ccef6a41330d
+  inputs:
+    rules.md: 46ab330698455035
+    brief.md#040: 74aa3fa4587c5948
+    research.md#040: 09c2b741416f4488
+    names.md#040: c8b3ea5f7b324f7d
+    note: 4a5476ef0fb46db2

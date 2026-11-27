@@ -10,7 +10,7 @@ Athens surrenders. By the terms Plutarch reports, a Macedonian garrison moves on
 
 @image hypereides-head-669a7b
 
-On the map Greece is in arms against Macedon, and approximate routes follow Antipater to Lamia and Crannon.
+Greece is in arms against Macedon.
 
 ### Notes
 

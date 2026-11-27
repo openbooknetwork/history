@@ -74,6 +74,16 @@ These hold for a story whose pages each list their zones.
   waits with `SHOT_POINT=<marker id>` before `node scripts/screenshot.mjs`.
 - A marker's note tells the event of its own page. Markers live in one `shared/markers.yaml`, so one id has one
   note, and a page that needs a place another page marks for another event takes a marker id of its own.
+- A page shows seven icons at most, its battle card counted as one, and `scripts/rules-lint.mjs` reports an
+  eighth. A reader cannot follow more at once. Mark the places the page's event turns on, and leave a place the
+  text only passes through as a name in the text, with no link and no marker. A page that needs more is two
+  pages.
+- A marker's label has 30 characters at most and its note 60, and `scripts/rules-lint.mjs` reports a longer one.
+  The label is the name alone: "Saint-Jean-le-Blanc", and what kind of place it is goes into the note. The note
+  tells one event in a few words, with its date: "Joan rides in by torchlight, evening of 29 April 1429". It
+  names no source, gives no second account and says nothing of how sure the place is: the text tells the rest,
+  and "Only the story" in `agents/text.md` holds for a note as for a text. A fact that matters and has no room
+  in the note belongs in the page's text, and never makes the note longer.
 
 ## Shared zones
 

@@ -10,4 +10,4 @@ Alexander takes five of the seven towns by the river in two days, killing the me
 
 Across the river Saka horsemen jeer at him. Catapults clear the far bank and the army crosses on stuffed skins. The nomads circle and wound the first squadrons, but when Alexander mixes archers and javelin men among his horsemen and charges, they flee. In this battle of the Jaxartes Arrian counts 1,000 Saka dead, among them the chief Satraces, and 150 taken. Curtius puts the Macedonian dead at 60 horsemen and about 100 foot, with 1,000 wounded. Alexander chases them some 15 km, Bosworth reckons, until bad water makes him too sick to go on. The Saka king then sends envoys to apologise.
 
-On the map Sogdiana joins the empire and at once rises.
+Sogdiana joins the empire and at once rises.

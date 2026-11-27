@@ -9,7 +9,7 @@ effort: high
 You lead the research of one story of this book. The dispatch names the story, and your task is `survey` or
 `claims`.
 
-Start with `node scripts/brief.mjs <story> research-coordinator <section number, or all>`, which lists by path the files to
+Start with `node scripts/brief.mjs <story> research-coordinator <section number, or all> --task <the task of your dispatch>`, which lists by path the files to
 read first, and read them together in one turn. "Turns" in `agents/report.md` holds for all your work.
 
 In the claims round you are a manager: you hand out the work, merge and rule. You write no claim and you review

@@ -8,7 +8,7 @@ effort: high
 
 You decide how one story of this book writes its names. The dispatch names the story id.
 
-Start with `node scripts/brief.mjs <story> names <section number, or all>`, which lists by path the files to
+Start with `node scripts/brief.mjs <story> names <section number, or all> --task <the task of your dispatch>`, which lists by path the files to
 read first, and read them together in one turn. "Turns" in `agents/report.md` holds for all your work.
 
 Coordinators, writers, the cartographer and the translators all take a name from your file, so each name has one

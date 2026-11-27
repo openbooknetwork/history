@@ -1,0 +1,25 @@
+- step: facts
+  task: review
+  status: faults
+  changed_files:
+    - content/joan-of-arc/pages/050-paris-and-compiegne/020-paris/text/en.md
+    - content/joan-of-arc/pages/050-paris-and-compiegne/030-back-to-the-loire/text/en.md
+    - content/joan-of-arc/pages/050-paris-and-compiegne/040-saint-pierre-and-la-charite/text/en.md
+    - content/joan-of-arc/pages/050-paris-and-compiegne/050-melun-and-lagny/text/en.md
+    - content/joan-of-arc/pages/050-paris-and-compiegne/060-compiegne/text/en.md
+    - content/joan-of-arc/.plan/faults/050.yaml
+    - content/joan-of-arc/.plan/fixes/050.yaml
+  faults: [050-section-reviewer-1, 050-section-reviewer-2, 050-section-reviewer-3, 050-section-reviewer-4, 050-section-reviewer-5, 050-section-reviewer-6, 050-section-reviewer-7, 050-section-reviewer-8, 050-section-reviewer-9, 050-section-reviewer-10, 050-section-reviewer-11, 050-section-reviewer-12, 050-section-reviewer-13, 050-section-reviewer-14, 050-section-reviewer-15, 050-section-reviewer-16, 050-section-reviewer-17]
+  unresolved: []
+  stale:
+    - "content/joan-of-arc/pages/050-paris-and-compiegne/010-montepilloy/markers.yaml and 040-saint-pierre-and-la-charite/markers.yaml: the notes of 050-section-reviewer-13 to -16, open for the cartographer (pages050.mjs)"
+    - "content/joan-of-arc/shared/battles/paris-1429/battle.yaml and .plan/050-paris-and-compiegne/battles.yaml: 050-section-reviewer-17, open for the section coordinator"
+  notes: >-
+    Pages changed: paris, back-to-the-loire, saint-pierre-and-la-charite, melun-and-lagny, compiegne; montepilloy
+    stands. Every fault of the fact checker was already fixed: none declined, none open for me. The six captures
+    agree with the texts; no map fault. No image beyond the plan's placeholders is offered, and the one text
+    placeholder, philip-the-good-portrait, stands after the duke's meeting with her. All checks are clean: harita
+    check (waiting placeholders only), --places, rules-lint, names-check. The bodies now run 302 to 314 words
+    by a plain count (back-to-the-loire is longest). That is from the date and cause added to back-to-the-loire, the
+    1456 witnesses told as witnesses (rules.md), and who Gaucourt and Montmorency are, and each is under 350.
+    The start-up list named no research-050.md slice, so I read research/050.md whole.

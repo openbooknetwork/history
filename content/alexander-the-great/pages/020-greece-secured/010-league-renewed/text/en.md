@@ -8,10 +8,10 @@ In the winter of 336–335 BC he marches south. The Thessalians hold the vale of
 
 @image vale-of-tempe-cc8153
 
-Alexander is back in Macedon before the spring. The line of his march on the map is approximate.
+Alexander is back in Macedon before the spring.
 
 ### Notes
 
 \* When each man died is disputed. In Bosworth’s reading Amyntas was probably killed before Alexander’s march south that winter, and by the summer of 335 BC at the latest, and Attalus died within months of Philip. Hammond, citing Diodorus, puts Hecataeus’s killing of Attalus in the autumn of 335 BC, and the execution of Amyntas just before the army left for Asia in 334 BC.
 
-\*\* Arrian and Diodorus place this vote in the winter of 336–335 BC, before the campaigns in the north and the fall of Thebes, and the map follows them. Plutarch tells of an assembly at the Isthmus of Corinth that votes the war on Persia and proclaims Alexander its leader after Thebes has been destroyed.
+\*\* Arrian and Diodorus place this vote in the winter of 336–335 BC, before the campaigns in the north and the fall of Thebes. Plutarch tells of an assembly at the Isthmus of Corinth that votes the war on Persia and proclaims Alexander its leader after Thebes has been destroyed.

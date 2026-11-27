@@ -1,0 +1,30 @@
+- step: research
+  task: claims
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/research/010.md
+  faults: []
+  unresolved:
+    - "010.48 the day of Baugé: 22 March 1421 (Beaucourt, the Scots' letter dated the eve of Easter) against 21 March (Oman) and the Saturday before Palm Sunday (Chronique de la Pucelle). Proposed: tell 22 March and name Oman's date only if the text gives a day at all."
+    - "010.53 Charles VI died 21 October 1422 (the Bourgeois, Ramsay) or 22 October (Lang). Proposed: 21 October, the Parisian eyewitness."
+    - "010.60 Cravant 31 July 1423 (Beaucourt, Ramsay) or 30 July (Lang). Proposed: 31 July."
+  stale: []
+  lines: {agreed: 46, single: 9, disputed: 13, open: 0}
+  thin: ["010.61", "010.25 (modern counts only)", "010.26 (modern counts only)", "010.49 (Clarence's 1,500 only)"]
+- step: story
+  task: fix
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/research.md
+    - content/joan-of-arc/.plan/research/010.md
+    - content/joan-of-arc/.plan/research/020.md
+    - content/joan-of-arc/.plan/faults/story.yaml
+    - content/joan-of-arc/.plan/fixes/story.yaml
+  faults: []
+  unresolved: []
+  stale:
+    - "content/joan-of-arc/.plan/brief.md (and its slices brief-0x0.md), Map, Zones, the rows france-1407, english-1428 and bar-1412: they cite 020.9 for Domrémy belonging to France as a dependency of Champagne; that reading now stands in 010.14 (disputed, the third reading), and 020.9 holds Neufchâteau alone. The row lorraine-1412 cites 020.9 for Neufchâteau and still stands"
+    - "content/joan-of-arc/pages/010-france-divided/020-domremy/text/en.md, the second note: 010-story-auditor-2 (section-reviewer, open) can now cite 010.14 for Murray's note and Lang's French soil"
+    - "content/joan-of-arc/.plan/passages-010.md, passages-020.md, research-020.md: slices made from the old 010.14 and 020.9"
+  fixed: [story-story-auditor-1]
+  lines: {changed: ["010.14", "020.9"], added: 0, dropped: 0}

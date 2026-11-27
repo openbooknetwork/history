@@ -10,7 +10,7 @@ As the king sets out for Bactria, Satibarzanes kills the 40 Macedonian horsemen 
 
 There a plot against the king surfaces. Philotas, son of the old general Parmenion, had been told of it and said nothing. He is tried before the Macedonians and put to death. Riders on racing camels carry the king's orders across the desert to [Ecbatana](@ecbatana-330b), where the officers Cleander, Sitalces and Menidas kill Parmenion. Arrian suggests that Parmenion, guilty or not, was too dangerous to outlive his son. Bosworth sees a king bent on destroying the family and tired of the old man's quarrels over policy.
 
-On the map Hyrcania, Parthia, Areia and Drangiana join the empire, and Bessus holds Bactria and Sogdiana. All borders in this chapter are approximate.
+Hyrcania, Parthia, Areia and Drangiana join the empire, and Bessus holds Bactria and Sogdiana.
 
 ### Notes
 

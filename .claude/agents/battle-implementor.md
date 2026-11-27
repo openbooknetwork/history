@@ -9,7 +9,7 @@ effort: high
 You build the phase pages of one battle of a story of this book. Its card is written already, with its plan. The dispatch names the story id and the battle id. It may also name
 a fault list, and then you fix the faults in it that are yours first.
 
-Start with `node scripts/brief.mjs <story> battle-implementor <section number, or all>`, which lists by path the files to
+Start with `node scripts/brief.mjs <story> battle-implementor <section number, or all> --task <the task of your dispatch>`, which lists by path the files to
 read first, and read them together in one turn. "Turns" in `agents/report.md` holds for all your work.
 
 Your start-up list holds all you read first: "Battle cards" and "Battle plans" of `agents/pages.md`, the engine's
@@ -23,8 +23,8 @@ Where the section's plan gives phases and `battles/<battle id>.yaml` is missing,
 ## Steps
 
 1. **Generator.** Write its generator in `content/<story>/.plans/` and run
-   it. Place each unit where the battle's plan puts it. Where the plan marks a position `reconstruction`, the
-   phase's text says that the sources give no position. Where the plan marks a width `unknown`, pick one that
+   it. Place each unit where the battle's plan puts it. Where the plan marks a position `reconstruction`, no
+   text speaks of it: `agents/text.md`, Only the story. Where the plan marks a width `unknown`, pick one that
    reads well on the map, and keep it out of every text. The river or the lake of the field is in
    `battles/<battle id>-ground.geojson` beside the plan where the plan has one: draw it from that file. Where
    it is missing and the field needs one, `node scripts/ground.mjs` gives it in one command. Write the

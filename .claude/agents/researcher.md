@@ -9,7 +9,7 @@ effort: high
 You research one section of a story of this book, or one battle with phase pages where the dispatch names a
 `battle`. Your task is `claims`, `add` or `fix`.
 
-Start with `node scripts/brief.mjs <story> researcher <section number, or all>`, which lists by path the files to
+Start with `node scripts/brief.mjs <story> researcher <section number, or all> --task <the task of your dispatch>`, which lists by path the files to
 read first, and read them together in one turn. "Turns" in `agents/report.md` holds for all your work.
 
 You find the right sources and mark where each claim stands in them. A line of the digest is a pointer: the
@@ -30,8 +30,9 @@ Read these first:
 
 Two commands do your searching. `node scripts/find-in-sources.mjs <story> --in <part of a file name>,... <term>
 <term> ...` looks up every term of a question in one call and prints each hit with the lines round it: give it
-all the names, places and figures of a page at once, and not a term a turn. Then read the passages you need with
-`Read` and a line range, several in one turn.
+all the names, places and figures of a page at once, and not a term a turn. It reads passages too: a range,
+`<part of a file's name>:<first line>-<last line>`, prints those lines, and one call takes many ranges and many
+terms. Give it `--out <a file in your scratchpad>`, and `--hits <n>` where five hits of a file are too few.
 
 ## Steps
 

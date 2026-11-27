@@ -10,6 +10,6 @@ The sources give neither the sizes of the units nor the distances between them.
 
 ### Notes
 
-\* Bosworth places the field in the plain between the Bumelus and the Jabal Maqlub, where the map draws it. Tarn, after the archaeologist Aurel Stein, puts it on the plain between the Tigris and the Khazir, near Keramlais.
+\* Bosworth places the field in the plain between the Bumelus and the Jabal Maqlub. Tarn, after the archaeologist Aurel Stein, puts it on the plain between the Tigris and the Khazir, near Keramlais.
 
 \*\* Arrian gives Darius 40,000 horse, 1,000,000 foot, 200 scythed chariots and about 15 elephants. Diodorus gives 800,000 foot and at least 200,000 horse, and Curtius 45,000 horse and 200,000 foot. Bosworth holds that the Persian advantage cannot be quantified.

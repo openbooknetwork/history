@@ -1,0 +1,30 @@
+- step: images
+  task: find
+  status: faults
+  changed_files:
+    - content/joan-of-arc/.plan/images/070.yaml
+    - content/joan-of-arc/.plan/faults/070.yaml
+    - content/joan-of-arc/shared/images/henry-vi-paris-coronation-miniature-4faf00/
+    - content/joan-of-arc/shared/images/arras-peace-1435-miniature-fb0b58/
+    - content/joan-of-arc/shared/images/bastille-saint-antoine-view-8a49b8/
+    - content/joan-of-arc/shared/images/formigny-battle-miniature-e78021/
+    - content/joan-of-arc/shared/images/rouen-1449-entry-miniature-35d59e/
+    - content/joan-of-arc/shared/images/fougeres-castle-2070d6/
+    - content/joan-of-arc/shared/images/castillon-battle-miniature-b7b31d/
+    - content/joan-of-arc/shared/images/dordogne-at-castillon-45ae4e/
+    - content/joan-of-arc/shared/images/nullification-trial-manuscript-bfb664/
+    - content/joan-of-arc/shared/images/rouen-archbishop-palace-8a7b6b/
+    - content/joan-of-arc/shared/images/orleans-8-may-procession-8a3262/
+    - content/joan-of-arc/shared/images/canonisation-1920-st-peters-3dfea9/
+    - content/joan-of-arc/shared/images/isabelle-romee-retrial-miniature-2b4164/
+  faults: [070-image-finder-1, 070-image-finder-2]
+  unresolved: []
+  stale: []
+  added: 13
+  none:
+    - placeholder: paris-1436-recovery-miniature
+      tried: "Entrée Richemont Paris 1436 enluminure; Reprise de Paris 1436 Vigiles de Charles VII; Paris 1436 recovery miniature; Vigiles de Charles VII Paris 1436; Français 5054 Paris 1436; Recouvrement de Paris 1436 enluminure; Prise de Paris 1436 Richemont miniature; Chronique Jean Chartier Paris 1436; L'Isle-Adam Paris 1436 enluminure; Reddition de Paris 1436; Charles VII Paris 1436 Martial d'Auvergne; articles Siege of Paris (1435–1436), Arthur III, Duke of Brittany, Jean de Villiers de L'Isle-Adam"
+  unconfirmed:
+    - "canonisation-1920-st-peters: Commons gives the Meurisse coverage as 13 May 1920, not the day of the canonisation; the caption says May 1920"
+    - "formigny-battle-miniature: Commons names no manuscript; the caption gives only its date, about 1470 to 1480"
+    - "dordogne-at-castillon: Commons dates the postcard between about 1900 and 1920"

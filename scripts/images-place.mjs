@@ -9,7 +9,7 @@
 //   - placeholder: hydaspes-coin
 //     image: hydaspes-coin-3f9a1c        # the image folder's id, or none
 // This script writes the id where the placeholder stands, in every text/<lang>.md of the story's pages, in its
-// markers.yaml files and in its battle.yaml files. A placeholder whose image is none goes with its line. It changes
+// markers.yaml files, in its battle.yaml files and in the page generators of its .plans folder. A placeholder whose image is none goes with its line. It changes
 // no sentence, so no text is checked again for it. A placeholder that no images file names is left as it is and
 // listed, and the exit code is then 1: a strict build fails on one.
 import fs from 'fs';
@@ -83,5 +83,24 @@ function inImages(lines, i) {
   return false;
 }
 
-console.log(`${switched} placeholders ${dry ? 'to switch' : 'switched'} for their images, ${removed} with no image ${dry ? 'to take out' : 'taken out'}.`);
+// The page generators of .plans/ name images too, and a generator that still names a placeholder writes it back
+// into a marker the next time it runs. So each placeholder that stands in a generator as a quoted word is
+// switched for its image there as well. One whose image is none cannot be taken out of code by a script: it is
+// listed, to take out by hand.
+let inGenerators = 0;
+const byHand = [];
+const gens = path.join(dir, '.plans');
+for (const name of fs.existsSync(gens) ? fs.readdirSync(gens).filter(n => /\.[cm]?js$/.test(n)).sort() : []) {
+  const file = path.join(gens, name), before = fs.readFileSync(file, 'utf8');
+  let after = before;
+  for (const [placeholder, id] of placed) {
+    const quoted = new RegExp(`(['"\`])${placeholder.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\1`, 'g');
+    if (!quoted.test(after)) continue;
+    if (id === null) { byHand.push(`${file}: ${placeholder}`); continue; }
+    after = after.replace(quoted, (m, q) => { inGenerators++; return q + id + q; });
+  }
+  if (after !== before && !dry) fs.writeFileSync(file, after);
+}
+console.log(`${switched} placeholders ${dry ? 'to switch' : 'switched'} for their images, ${removed} with no image ${dry ? 'to take out' : 'taken out'}, ${inGenerators} ${dry ? 'to switch' : 'switched'} in the generators of .plans/.`);
+if (byHand.length) { console.log(`${byHand.length} placeholders with no image that a generator still names, to take out by hand:\n${byHand.join('\n')}`); process.exitCode = 1; }
 if (waiting.length) { console.log(`${waiting.length} placeholders that no file of ${lists} names:\n${waiting.join('\n')}`); process.exitCode = 1; }

@@ -6,10 +6,10 @@ In summer 331 BC, while Alexander marched on Gaugamela, Antipater, who governs M
 
 Antipater settles with the Thracians on what terms he can and marches south, gathering loyal Greeks until his army numbers not less than 40,000. Probably in early 330 BC, while Alexander is at Persepolis,\* the armies meet in hilly ground near the city. Agis, wounded and carried from the field, dies fighting when the enemy overtakes him. More than 5,300 Spartans and allies are killed, by Diodorus’s count; Curtius gives 5,300.\*\*
 
-Antipater refers the defeated states to the council of the League at [Corinth](@corinth-330). The council punishes Sparta’s allies but leaves the fate of [Sparta](@sparta-330), never a member, to Alexander. Antipater takes fifty leading Spartans as hostages, and Spartan envoys go to Asia to ask Alexander’s pardon. The two marches on the map are approximate.
+Antipater refers the defeated states to the council of the League at [Corinth](@corinth-330). The council punishes Sparta’s allies but leaves the fate of [Sparta](@sparta-330), never a member, to Alexander. Antipater takes fifty leading Spartans as hostages, and Spartan envoys go to Asia to ask Alexander’s pardon.
 
 ### Notes
 
-\* Bosworth dates Antipater’s march south probably to early spring 330 BC, and Badian the battle to early 330, and this page follows them. Welles, after Curtius, puts the battle rather before than after Gaugamela, and San José Campos, with most recent historians in his view, in autumn 331 BC.
+\* Bosworth dates Antipater’s march south probably to early spring 330 BC, and Badian the battle to early 330. Welles, after Curtius, puts the battle rather before than after Gaugamela, and San José Campos, with most recent historians in his view, in autumn 331 BC.
 
 \*\* On Antipater’s side Diodorus counts 3,500 dead, Curtius not more than 1,000.

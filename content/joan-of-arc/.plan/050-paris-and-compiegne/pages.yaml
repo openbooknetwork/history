@@ -1,0 +1,48 @@
+- id: montepilloy
+  title: "Montépilloy"
+  date: "August 1429"
+  when: "1429-08-14"
+  tells: Turned back at Bray, where an Anglo-Burgundian force holds the crossing of the Seine, the king's army marches on Paris, and it and Bedford's face each other at Montépilloy near Senlis on 14 and 15 August and part without a battle; Compiègne, Senlis and Beauvais come over to Charles, and at Compiègne on 28 August he signs a truce with the Duke of Burgundy.
+  rests_on: ["050.1", "050.2", "050.3", "050.4", "050.5", "050.6", "050.7", "050.8", "050.9", "050.10", "050.11", "050.12", "050.13"]
+  markers: [bray-held-1429, crepy-1429, montepilloy, victoire-1429, senlis-1429, compiegne-1429, beauvais-1429, creil-1429, pont-sainte-maxence-1429, choisy-1429, gournay-1429, aumale-1429, blangy-1429, lagny-1429]
+  battles: []
+- id: paris
+  title: "The Porte Saint-Honoré"
+  date: "September 1429"
+  when: "1429-09-08"
+  tells: From Saint-Denis and La Chapelle the army attacks Paris on 8 September, the feast of the Nativity of Our Lady, she with Rais and Gaucourt at the Porte Saint-Honoré while Alençon covers them; the assault stops at the water of the moat, she is wounded by a crossbow bolt, and next day the king calls the army back to Saint-Denis.
+  rests_on: ["050.14", "050.15", "050.16", "050.17", "050.18", "050.19", "050.20", "050.21", "050.22", "050.23", "050.24", "050.26"]
+  markers: [saint-denis-1429, la-chapelle-1429, porte-saint-denis-1429, porte-saint-honore]
+  battles: [{ id: paris-1429, phases: false }]
+- id: back-to-the-loire
+  title: "Back to the Loire"
+  date: "September 1429"
+  when: "1429-09-13"
+  tells: She leaves her armour in the abbey of Saint-Denis, the king leads the army back across the Marne at Lagny and the Seine at Bray to Gien, and there on 21 September the army that crowned him is disbanded and Alençon sent home.
+  rests_on: ["050.25", "050.27", "050.28", "050.29", "050.30"]
+  markers: [saint-denis-abbey, lagny-sep-1429, provins-sep-1429, bray-1429, sens-sep-1429, courtenay-1429, montargis-1429, gien-disbanded]
+  battles: []
+- id: saint-pierre-and-la-charite
+  title: "Saint-Pierre-le-Moûtier and La Charité"
+  date: "October – December 1429"
+  when: "1429-10"
+  tells: Sent from Bourges with Charles d'Albret against Perrinet Gressart's towns on the upper Loire, she takes Saint-Pierre-le-Moûtier by storm by 9 November, then sits before La Charité in the cold, short of powder and money, and the siege is given up after about a month, at the end of November or in December.
+  rests_on: ["050.31", "050.32", "050.33", "050.34", "050.35", "050.36", "050.37", "050.38", "050.39", "050.40", "050.41", "050.42"]
+  markers: [mehun-1429, bourges-1429, saint-pierre-le-moutier, moulins-1429, la-charite, cosne-1429]
+  battles: []
+- id: melun-and-lagny
+  title: "Melun and Lagny"
+  date: "March – May 1430"
+  when: "1430-03"
+  tells: With a small company and no royal army she leaves the court at Sully; at Melun in Easter week, as she told her judges, her voices warn her she will be taken before Saint John's Day, and from Lagny she defeats and takes the Burgundian captain Franquet d'Arras.
+  rests_on: ["050.43", "050.44", "050.45", "050.46", "050.47", "050.48", "050.49", "050.50", "050.51", "050.52"]
+  markers: [sully-1430, melun-1430, lagny-1430]
+  battles: []
+- id: compiegne
+  title: "Compiègne"
+  date: "May 1430"
+  when: "1430-05"
+  tells: Burgundy razes Choisy and besieges Compiègne, and Soissons shuts its gates on her; she rides from Crépy by night into Compiègne, and on 23 May (the Duke of Burgundy's date; Monstrelet's is the eve of the Ascension, the 24th) leads a sortie on the Burgundian post at Margny; men from Clairoix and the English from Venette cut off the retreat, the gate is closed behind her, an archer pulls her from her horse and she yields to the Bastard of Wandonne, a man of John of Luxembourg.
+  rests_on: ["050.53", "050.54", "050.55", "050.56", "050.57", "050.58", "050.59", "050.60", "050.61", "050.62", "050.63", "050.64", "050.65", "050.66", "050.67", "050.68", "050.69"]
+  markers: [choisy-1430, soissons-1430, crepy-1430, compiegne-1430, coudun-1430, clairoix-1430, margny-1430, venette-1430]
+  battles: [{ id: compiegne-1430, phases: false }]

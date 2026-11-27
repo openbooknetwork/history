@@ -9,7 +9,7 @@ effort: high
 You audit one finished story of this book. The dispatch names the story id. You change no file of the book. Your faults
 go to the fault lists, and the overseer decides from them.
 
-Start with `node scripts/brief.mjs <story> story-auditor <section number, or all>`, which lists by path the files to
+Start with `node scripts/brief.mjs <story> story-auditor <section number, or all> --task <the task of your dispatch>`, which lists by path the files to
 read first, and read them together in one turn. "Turns" in `agents/report.md` holds for all your work.
 
 Every agent before you worked from the story's plans. You judge the story by its pages, its maps and the sources,

@@ -6,7 +6,7 @@ Diodorus gives Alexander more than 30,000 foot and at least 3,000 horse. The The
 
 @image sack-of-thebes-stanton-b0940d
 
-Alexander leaves the city’s fate to the allies who fought with him. They vote to raze Thebes and sell its people as slaves, sparing the priests and the guest-friends of the Macedonians, and to rebuild [Orchomenus](@orchomenus-335) and [Plataea](@plataea-335). By one report in Arrian, Alexander himself spares the house and descendants of the Theban poet Pindar. Diodorus and Plutarch say that Alexander meant the razing as a warning to the other Greeks. In Bosworth’s judgement it ends the unrest in southern Greece, and Alexander returns to Macedon to prepare the invasion of Asia. The line of the march is approximate.
+Alexander leaves the city’s fate to the allies who fought with him. They vote to raze Thebes and sell its people as slaves, sparing the priests and the guest-friends of the Macedonians, and to rebuild [Orchomenus](@orchomenus-335) and [Plataea](@plataea-335). By one report in Arrian, Alexander himself spares the house and descendants of the Theban poet Pindar. Diodorus and Plutarch say that Alexander meant the razing as a warning to the other Greeks. In Bosworth’s judgement it ends the unrest in southern Greece, and Alexander returns to Macedon to prepare the invasion of Asia.
 
 @image pindar-bust-naples-2e70ac
 

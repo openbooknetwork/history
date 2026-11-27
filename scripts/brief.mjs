@@ -1,6 +1,9 @@
 // Lists, by path, every file an agent reads before it starts, so it reads them together in one turn and not one
 // a turn. Run from the repo root, as an agent's first command:
-//   node scripts/brief.mjs <story> <role> <section number|all> [--battle <id>]
+//   node scripts/brief.mjs <story> <role> <section number|all> [--task <task>] [--battle <id>]
+// With --task, where scripts/pipeline.mjs holds the role and the task, the list is the views that entry reads and
+// nothing else: a fix or a recheck is not given what a first run reads. `asks` and `since` are made here, into
+// .cache/views/<story>/. Without --task, or for a role the table does not hold, the list is as described below.
 // An agent's whole context is sent again on every turn, so ten files read in ten turns cost ten times what the
 // same files cost read in one. The list is: the notes the role's definition names, what scripts/role-inputs.mjs
 // says the role builds from (the names and the digest as the section's slices, made afresh here), its handoff, the
@@ -17,16 +20,24 @@ import * as yaml from 'js-yaml';
 import { storyDir } from './story-dir.mjs';
 import { INPUTS } from './role-inputs.mjs';
 import { toolsCard, zonesCard, apiCardText } from './cards.mjs';
+import { PIPELINE, entry, kindOf, viewName } from './pipeline.mjs';
+import { events, onLog, openAsks, since as changedSince } from './fault.mjs';
 
 const stop = message => { console.error(message); process.exit(2); };
 const args = process.argv.slice(2);
 const at = args.indexOf('--battle');
 const battle = at < 0 ? null : args.splice(at, 2)[1];
+const taskAt = args.indexOf('--task');
+const task = taskAt < 0 ? null : args.splice(taskAt, 2)[1];
+const pagesAt = args.indexOf('--pages');
+const only = pagesAt < 0 ? null : String(args.splice(pagesAt, 2)[1] ?? '').split(',').map(x => x.trim()).filter(Boolean);
 const [story, role, section] = args;
-if (!story || !role || !section) stop('usage: node scripts/brief.mjs <story> <role> <section number|all> [--battle <id>], from the repo root');
+if (!story || !role || !section) stop('usage: node scripts/brief.mjs <story> <role> <section number|all> [--task <task>] [--battle <id>] [--pages <id,id>], from the repo root');
 const dir = storyDir(story);
 if (!dir) stop(`no story folder is named ${story}`);
 if (!INPUTS[role]) stop(`${role} is no role this script knows: ${Object.keys(INPUTS).join(', ')}`);
+if (task !== null && PIPELINE[role] && !PIPELINE[role][task]) stop(`${role} has no task ${task} in scripts/pipeline.mjs: ${Object.keys(PIPELINE[role]).join(', ')}`);
+const unit = task === null ? null : entry(role, task);
 if (section !== 'all' && !/^\d{3}$/.test(section)) stop(`${section} is no section: give its three digits, such as 020, or all`);
 if (battle === undefined || (battle !== null && battle.startsWith('--'))) stop('--battle takes a battle id');
 const here = path.dirname(fileURLToPath(import.meta.url));
@@ -40,7 +51,7 @@ const plans = numbered(plan);
 // the role's pages, built: which of a page's files the role reads before it starts
 const BUILT = {
   cartographer: ['page.yaml'], 'map-auditor': ['page.yaml'], 'section-writer': ['page.yaml'], 'image-finder': ['page.yaml', 'text/en.md'],
-  'fact-checker': ['page.yaml', 'text/en.md'], 'section-reviewer': ['page.yaml', 'text/en.md'], 'battle-implementor': ['page.yaml'], 'battle-auditor': ['page.yaml', 'text/en.md'],
+  'fact-checker': ['page.yaml', 'text/en.md', 'markers.yaml'], 'section-reviewer': ['page.yaml', 'text/en.md'], 'battle-implementor': ['page.yaml'], 'battle-auditor': ['page.yaml', 'text/en.md'],
 };
 
 const groups = [];
@@ -139,9 +150,16 @@ if (one && ['section-coordinator', 'battle-coordinator'].includes(role)) {
   group('The layout of the plan files you write', (role === 'battle-coordinator' ? ['battle'] : ['pages', 'map', 'text', 'battles']).map(n => path.relative('.', path.join(schemas, `${n}.schema.json`))));
 }
 // the passages its claims quote, for the roles that hold a text against its sources
+// With a task of the table they are listed a file a page, each small enough for one Read, in the window the
+// entry names: `passages:300` for a writer, whose work is checked afterwards.
 if (passages) {
-  spawnSync('node', [path.join(here, 'passages.mjs'), story, section], { encoding: 'utf8' });
-  story_.push(path.join(plan, `passages-${section}.md`));
+  const window = unit?.reads.map(v => v.match(/^passages:(\d+)$/)?.[1]).find(Boolean) ?? null;
+  spawnSync('node', [path.join(here, 'passages.mjs'), story, section, ...(window ? ['--around', window] : [])], { encoding: 'utf8' });
+  const tag = window ? `-w${window}` : '';
+  const pages = unit ? fs.readdirSync(plan).filter(n => n.startsWith(`passages-${section}-`) && n !== `passages-${section}-part.md` && (tag ? new RegExp(`${tag}(-\\d+)?\\.md$`).test(n) : !/-w\d+(-\d+)?\.md$/.test(n))).sort() : [];
+  // with --pages, the passages of those pages alone
+  const ofPage = n => !only || only.some(id => new RegExp(`^passages-${section}-${id}(-w\\d+)?(-\\d+)?\\.md$`).test(n));
+  if (pages.length) story_.push(...pages.filter(ofPage).map(n => path.join(plan, n))); else story_.push(path.join(plan, `passages-${section}.md`));
 }
 // how this story's pages are made, for the role that writes them: the parts of the engine's README on the files a
 // cartographer writes, cut out of its 17,000 tokens, and the page generator of the section nearest its own, as
@@ -208,7 +226,13 @@ if (BUILT[role] && one) {
     const mine = found.filter(([id, full]) => own.has(id) || fs.readFileSync(path.join(full, 'page.yaml'), 'utf8').includes(battle));
     if (mine.length) keep = mine;
   }
+  if (only) keep = keep.filter(([id]) => only.includes(id));
   for (const [, full] of keep) for (const name of BUILT[role]) built.push(path.join(full, name));
+  // the cards the fact checker has the last word on: each battle of the section's plan, or of the named pages
+  if (role === 'fact-checker') for (const f of plans) {
+    let rows = []; try { rows = yaml.load(fs.readFileSync(path.join(plan, f, 'battles.yaml'), 'utf8')) ?? []; } catch { /* no battles */ }
+    for (const b of Array.isArray(rows) ? rows : []) if (b?.id && (!only || only.includes(String(b.page)))) built.push(path.join(dir, 'shared', 'battles', String(b.id), 'battle.yaml'));
+  }
 }
 group('The section as it is built', built);
 group('The section\'s channels', one ? [path.join(plan, 'faults', `${section}.yaml`), path.join(plan, 'fixes', `${section}.yaml`), path.join(plan, 'images', `${section}.yaml`),
@@ -216,6 +240,80 @@ group('The section\'s channels', one ? [path.join(plan, 'faults', `${section}.ya
 
 // the commands the role's definition names, as one card: what each is for, how it is run, one call that works
 { const card = toolsCard(role); if (card) { const out = path.join(CUTS, `${role}-tools.md`); fs.mkdirSync(path.dirname(out), { recursive: true }); fs.writeFileSync(out, card); groups.unshift(['Your commands', [out]]); } }
+
+// With a task the table holds, the list is cut to the views its entry reads, and the two views of what is open
+// are made. A file's view is known from the group it was listed in and from its name.
+if (unit) {
+  const viewOf = (title, f) => {
+    const b = path.basename(f);
+    if (title === 'Your commands') return 'card';
+    if (title === 'The notes your definition names') return 'notes';
+    if (title.startsWith('How ') || title.startsWith('The layout')) return f.split(path.sep).includes('.plans') ? 'generator' : 'howto';
+    if (title === 'Your handoff') return 'handoff';
+    if (title === 'The section as it is built') return 'built';
+    if (title === 'The plan') return ['pages', 'map', 'text', 'battles'].includes(path.basename(f, '.yaml')) ? `plan:${path.basename(f, '.yaml')}` : 'plan:battle';
+    if (title === 'The section\'s channels') return f.includes(`${path.sep}faults${path.sep}`) ? 'faults' : f.includes(`${path.sep}fixes${path.sep}`) ? 'fixes' : f.includes(`${path.sep}images${path.sep}`) ? 'images' : b === 'decisions.md' ? 'decisions' : 'report';
+    if (b === 'rules.md') return 'rules';
+    if (/^brief/.test(b) || /-map\.md$/.test(b)) return 'brief';
+    if (/^names/.test(b) || /-states\.md$/.test(b)) return 'names';
+    if (/^passages-/.test(b)) return 'passages';
+    if (/^research/.test(b) || /-borders\.md$/.test(b)) return 'digest';
+    if (/^sources/.test(b)) return 'sources';
+    return b === 'ground.yaml' ? 'ground' : 'other';
+  };
+  const reads = new Set(unit.reads.map(viewName));
+  // on a story that is on the log, a worker reads the one note of the log in place of agents/report.md
+  if (onLog(dir)) for (const g of groups) if (g[0] === 'The notes your definition names') g[1] = g[1].map(f => f === path.join('agents', 'report.md') ? path.join('agents', 'log.md') : f);
+  // a file of no view this script knows is kept: only what the table leaves out on purpose is cut
+  for (const g of groups) g[1] = g[1].filter(f => { const v = viewOf(g[0], f); return v === 'other' || reads.has(v); });
+  for (let i = groups.length - 1; i >= 0; i--) if (!groups[i][1].length) groups.splice(i, 1);
+
+  const VIEWS_DIR = path.join('.cache', 'views', story);
+  const list = name => { try { const l = yaml.load(fs.readFileSync(path.join(plan, name), 'utf8')); return Array.isArray(l) ? l : []; } catch { return []; } };
+  const lists = folder => one ? list(path.join(folder, `${section}.yaml`)) : list(path.join(folder, 'story.yaml'));
+  const write = (name, head, items) => {
+    const out = path.join(VIEWS_DIR, `${section}-${role}-${name}.yaml`);
+    fs.mkdirSync(VIEWS_DIR, { recursive: true });
+    fs.writeFileSync(out, `# ${head} Made by scripts/brief.mjs. It is not edited.\n${items.length ? yaml.dump(items, { lineWidth: 110 }) : '[]\n'}`);
+    return out;
+  };
+  // with --pages, the text plan cut to those pages, with what the plan says of the section as a whole
+  if (only && one) for (const g of groups) if (g[0] === 'The plan') g[1] = g[1].map(f => {
+    if (path.basename(f) !== 'text.yaml') return f;
+    let y; try { y = yaml.load(fs.readFileSync(f, 'utf8')); } catch { return f; }
+    if (!y?.pages || Array.isArray(y.pages)) return f;
+    const out = path.join(VIEWS_DIR, `${section}-text-${only.join('+')}.yaml`);
+    fs.mkdirSync(VIEWS_DIR, { recursive: true });
+    fs.writeFileSync(out, `# ${f}, cut to the pages ${only.join(', ')}. Made by scripts/brief.mjs. It is not edited: change the plan itself.\n${yaml.dump({ ...y, pages: Object.fromEntries(Object.entries(y.pages).filter(([id]) => only.includes(id))) }, { lineWidth: 110 })}`);
+    return out;
+  });
+  // the image.yaml of each image the section took: its caption, its credit and the page it came from
+  if (reads.has('captions') && one) {
+    // with --pages, the images those pages show: a page names an image by its placeholder, or by its id once
+    // the images are placed
+    const shown = only ? built.filter(f => fs.existsSync(f)).map(f => fs.readFileSync(f, 'utf8')).join('\n') : null;
+    const taken = list(path.join('images', `${section}.yaml`)).filter(x => !shown || shown.includes(String(x?.placeholder)) || shown.includes(String(x?.image)))
+      .map(x => String(x?.image ?? '')).filter(id => id && id !== 'none');
+    const files = [...new Set(taken)].flatMap(id => [path.join(dir, 'shared', 'images', id, 'image.yaml'), path.join('content', 'shared', 'images', id, 'image.yaml')].filter(f => fs.existsSync(f)).slice(0, 1));
+    if (files.length) groups.push(['The captions of the section\'s images', files]);
+  }
+  const open = [], log = onLog(dir) ? events(dir) : null, where = one ? section : 'story';
+  // The open work that is this role's: the open asks of the story's log, and, of a story built before there was
+  // a log, the open faults of its fault list.
+  if (reads.has('asks')) open.push(write('asks', `What is open in ${section} for ${role} to do.`,
+    [...(log ? openAsks(log, role, where).map(a => ({ ask: a.id, from: a.by, file: a.file, what: a.what, source: a.source })) : []), ...lists('faults').filter(f => f?.state === 'open' && f?.owner === role)]));
+  // What others changed in the kinds of file this role has the last word on. From the log it is every such edit
+  // after the role's own last event. A fix log holds no time, so of a story built before there was a log it is
+  // read from the order: the entries after the last one this role made.
+  if (reads.has('since')) {
+    const settles = new Set(unit.settles ?? []);
+    const fixes = lists('fixes'), last = fixes.map(x => x?.by).lastIndexOf(role);
+    const old = log ? [] : fixes.slice(last + 1).filter(x => x?.by !== role && settles.has(kindOf(String(x?.file ?? ''))));
+    const now = log ? changedSince(log, role, where).map(e => ({ edit: e.id, by: e.role, file: e.file, ...(e.whole ? { changed: e.generated ? 'written again by its generator' : 'the whole file' } : { old: e.old, new: e.new }), why: e.why ?? 'none yet' })) : [];
+    open.push(write('since', `What others changed in ${section} after ${role}'s last run, in the files ${role} has the last word on (${[...settles].join(', ') || 'none'}).`, [...now, ...old]));
+  }
+  if (open.length) groups.push(['What is open for you', open]);
+}
 
 let total = 0;
 for (const [title, files] of groups) {

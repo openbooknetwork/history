@@ -2,7 +2,7 @@ A Latin chronicle of these years, by tradition the work of Jean de Venette, a Ca
 
 The city’s great hospital, the Hôtel-Dieu, stands beside the cathedral of Notre-Dame. So many died there, the Latin chronicle says, that for a long time more than five hundred bodies were carried out each day in carts to the cemetery of the Holy Innocents. The chronicler praised the nuns who nursed the sick there “in all sweetness and humility”, and noted that many of them caught the plague and died. In many towns and villages, by his account, priests were afraid and stayed away, and left the care of the dying to bolder friars and monks.
 
-One account has King Philip VI leave Paris while the plague is there. He asks the masters of the faculty of medicine at the university for a report on the causes of the plague, and they deliver it in October 1348. The next chapter returns to their report.
+One account has King Philip VI leave Paris while the plague is there. He asks the masters of the faculty of medicine at the university for a report on the causes of the plague, and they deliver it in October 1348.
 
 When the plague had passed, the chronicle says, people married quickly and many children were born, twins among them. But the world was no better for it. People were greedier than before, and the chronicler claimed that the children born after the plague had only twenty or twenty-two teeth, where before people had thirty-two.
 

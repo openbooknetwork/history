@@ -1,0 +1,7 @@
+On the morning of Thursday 24 May 1431 Joan is taken from the castle to [the cemetery of Saint-Ouen](@saint-ouen-1431) in Rouen, the open ground just south of the abbey church. On a scaffold before her judges and a great crowd she hears a sermon by the doctor Guillaume Erard. Cardinal Beaufort, great-uncle of Henry VI, sits among them, with bishops of Thérouanne, Noyon and Norwich. Then the sentence is read, and before it reaches its end she abjures. She is handed a pen and makes a cross with it.
+
+She is sentenced to prison for life, "with the bread of sorrow and water of affliction". Some of those present ask that she be taken to a church prison, but Pierre Cauchon, the Bishop of Beauvais who leads the court, sends her back to [the castle of Rouen](@castle-relapse-1431). That afternoon she puts on a woman's dress.
+
+On Monday 28 May, the day after Trinity Sunday, the judges find her in her cell in man's dress again. She says that her voices have told her she damned herself to save her life, and that she recanted only for fear of the fire. To two friars of the court, Martin Ladvenu and Isambart de La Pierre, she blames her prison: she has been beaten and molested there and insulted by an English lord, and the English have done her "great wrong and violence" while she wore the woman's dress.
+
+On Tuesday 29 May the judges and assessors meet in the chapel of [the archbishop's palace](@archbishops-palace-1431) in Rouen. They find her relapsed and summon her to [the Old Market](@old-market-summons-1431) for eight the next morning. Thirty-seven judges sit.

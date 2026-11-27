@@ -14,14 +14,20 @@
 //   years are compared: a name of July on a page of autumn of the same year passes.
 // - a marker id on pages of different events, where the marker has a note. Pages of different dates or sections
 //   count as different events. A marker with a label and no note tells no event and is left alone.
+// - a marker's label over 30 characters or its note over 60, of the story's default language
+// - a page with more than seven icons, its battle card counted as one
 // - a battle id without its year, the form <name>-<year>
 // - a page without a `when`
 // - a text body under 150 words or over 350, the two hard limits. 300 is the soft limit, which it does not report. The body is the text of the story's default language up to the
 //   `### Notes` heading or the first footnote definition, without `@image` lines, headings and a sources list.
-// - a disputed claim of the digest that a page's plan rests on, where the page's text has no `### Notes` heading.
-//   The plan is pages.yaml of the section's plan folder with a `rests_on` list per page, and the digest is
-//   .plan/research.md, one claim a line: `- <id> <Kind>: <claim>. <standing>. "quote" (file, ...)`. A story with no
-//   YAML plan folder skips this check.
+// - a sentence of a text, body or note, that leaves the story to speak of the book: of its map or its drawing ("the
+//   map shows", "on the map", "the line drawn along", "is not marked", "the box at the top"), of a page or a
+//   chapter ("this page follows Arrian", "a later chapter tells it"), or of the book itself ("the account here",
+//   "this book counts"). A map of the time, named with its maker, passes: "the map of Cresques".
+// - a body sentence that tells who says a thing: a count or an account as someone's ("by Lang's count"), speech
+//   reported in the past ("she said", "he recalled", "told her judges"), "historians" and "according to", and a
+//   figure someone "puts at". Words inside quotation marks are not read.
+// - more than two notes on a page, and a note over 25 words
 // - a card page whose opening frame hides the battle behind the docked card. It tests one thing: that the card's
 //   lnglat lies inside the page's bbox. The viewer fits the bbox into the room beside the card, so a site inside
 //   the bbox shows, and one outside it may stand under the card or off the map.
@@ -31,8 +37,8 @@
 // status 1 where there are faults, and writes no file.
 //
 // What it cannot judge:
-// - whether a body is fair to both sides of a dispute. It sees that a text cites a claim the digest marks disputed
-//   and has no Notes heading, and no more. The fact-checker judges the wording.
+// - whether a body is fair to both sides of a dispute, and whether a note is needed. The fact-checker and the
+//   section-reviewer judge the wording.
 // - whether two pages tell different events. It takes pages of different dates or sections as different.
 // - the careful side, land that no source says was taken. That needs the sources and stays with the map-auditor.
 // It does not test bare land between pages (scripts/zone-gaps.mjs), a card moved off its site, or the pages a
@@ -49,6 +55,35 @@ const dir = storyDir(story);
 if (!dir) { console.error(`no story folder is named ${story}`); process.exit(2); }
 
 const NEAR = 20, WORDS = [150, 350];
+// Words that name the book's own map, its drawing, its pages and chapters, or the book itself. Add a pattern
+// here when a text gets past them.
+const MAP_WORDS = [
+  /\b(?:the|this|these|that|those|our|its|every|each|all|both|next|earlier|later|chapter[’']s) maps?\b/i, /\bon (?:a|the|this|these) maps?\b/i, /\bmap[’']s\b/i,
+  /\bmaps? (?:now |here |also |only |still )?(?:shows?|draws?|follows?|marks?|takes?|leaves?|changes?|places?|gives?|counts?|names?|has|have|is|are)\b/i,
+  /\b(?:is|are|stays?) (?:not |here )?(?:drawn|marked|shown|plotted) (?:at|as|along|on|here|only|approximately|where)\b/i, /\b(?:is|are) not (?:drawn|marked|shown)\b/i,
+  /\bthe drawing\b/i, /\b(?:box|figure|count|counter|legend|key) at the (?:top|bottom|side)\b/i,
+  /\b(?:lines?|routes?|roads?|borders?|arrows?|marches|courses?|paths?) (?:drawn|shown|marked)\b/i,
+  /\b(?:lines?|zones?|edges?) (?:\w+ ){0,4}(?:is|are) (?:approximate|a reconstruction)\b/i, /\bapproximate (?:lines?|zones?|edges?|routes?)\b/i,
+  /\b(?:this|these|next|earlier|later|previous|following|battle) pages?\b/i, /\bpages (?:that follow|tell|give)\b/i, /\bthe page [“"]/i, /\b(?:a|the) (?:first|last|later|next) page of\b/i, /\bpage[’']s (?:date|months?|years?)\b/i,
+  /\b(?:this|next|later|earlier|previous|following) chapters?\b/i, /\b(?:a|the) (?:later|next|earlier) chapter\b/i,
+  /\b(?:in|of|through) this story\b/i, /\bthis story (?:calls?|tells?|follows?|takes?)\b/i, /\bthis book(?:[’']s)? (?:own|counts?|follows?|draws?|covers?|calls?|tells?|takes?)\b/i, /\bsources? (?:of )?this book\b/i,
+  /\b(?:account|told|counted|reconstructed) here\b/i,
+];
+// a sentence without its link targets, and with a map of the time ("the map of Cresques") taken out
+// A body sentence that tells who says a thing where it should tell the thing: the witness and the historian go into a note
+const WHO_WORDS = [
+  /\bby (?:the )?[A-Z][\p{L}'’ -]{1,40}?[’']s? (?:own )?(?:count|account|reckoning|dating|telling|estimate)\b/u,
+  /\bby (?:her|his|their) own (?:count|account|telling)\b/,
+  /\bby the (?:count|account|reckoning|telling) of\b/,
+  /\b(?:she|he|they|[A-Z][\p{L}'’-]+) (?:later |afterwards )?(?:said|recalled|remembered|testified|deposed)\b/u,
+  /\btold (?:her|his|the|their) (?:judges|court)\b/,
+  /\b(?:according to|historians|modern (?:accounts?|writers?|estimates?|authors?))\b/i,
+  /\bputs (?:it|them|this|the [a-z]+(?: [a-z]+)?) (?:at|in|on|to|as|about|before|after)\b/,
+  /\bdates (?:it|this|them|the [a-z]+) to\b/,
+  /\breckons\b/,
+];
+const saysWho = s => { const t = s.replace(/\]\([^)]*\)/g, ']').replace(/[“"][^”"]*[”"]/g, '“”'); return WHO_WORDS.some(r => r.test(t)); };
+const namesMap = s => { const t = s.replace(/\]\([^)]*\)/g, ']').replace(/\bmaps? (?:of|by) (?=[A-Z])/g, 'atlas of '); return MAP_WORDS.some(r => r.test(t)); };
 const read = file => { try { return yaml.load(fs.readFileSync(file, 'utf8')) ?? {}; } catch (e) { console.error(`${file}: ${e.message.split('\n')[0]}`); return {}; } };
 const bare = name => name.replace(/^\d+-/, '');
 const number = name => name.match(/^\d+/)?.[0] ?? name;
@@ -158,6 +193,7 @@ if (plans && fs.existsSync(digest)) {
 }
 
 const firstUse = {};   // marker id -> the first page that shows it
+const tooLong = new Set();   // marker ids already reported for a long label or note
 for (const page of pages) {
   const shown = Array.isArray(page.markers) ? page.markers : [];
   const mine = picked(page);
@@ -168,8 +204,24 @@ for (const page of pages) {
     if (mine && markers[id]?.note && eventOf(first) !== eventOf(page)) fault(page, { field: 'markers', old: id,
       new: `a marker id of this page's own, with a note that tells this page's event. ${id} is first shown on ${path.relative(root, first.folder)} (${first.date ?? 'no date'}), and its note reads "${markers[id].note}"`,
       source: 'agents/pages.md, Zones and markers from page to page: a marker\'s note tells the event of its own page', kind: 'map', introduced: 'plan', owner: 'cartographer' });
+    // a label or a note too long to hang under an icon
+    const mk = markers[id];
+    if (mine && mk && !tooLong.has(id)) for (const [field, limit] of [['label', 30], ['note', 60]]) {
+      const text = typeof mk[field] === 'string' ? mk[field] : '', length = [...text].length;
+      if (length <= limit) continue;
+      tooLong.add(id);
+      fault(page, { field: 'markers', old: `${id}: ${text}`,
+        new: `a ${field} of ${limit} characters or fewer for ${id}, where this one has ${length}. ${field === 'label' ? 'The label is the name alone' : 'The note tells one event in a few words, with its date, and the text tells the rest'}`,
+        source: `agents/pages.md, Zones and markers from page to page: a marker's label has 30 characters at most and its note 60`, kind: 'map', introduced: 'maps', owner: 'cartographer' });
+    }
   }
   if (!mine) continue;
+
+  // more icons than a reader can follow
+  const icons = new Set(shown).size + (typeof page.battle === 'string' ? 1 : 0);
+  if (icons > 7) fault(page, { field: 'markers', old: `${icons} icons`,
+    new: `seven icons at most on the page, its battle card counted as one, where it shows ${icons}. Keep the places the event turns on, and leave the others as names in the text without a link`,
+    source: 'agents/pages.md, Zones and markers from page to page: a page shows seven icons at most', kind: 'map', introduced: 'plan', owner: 'section-coordinator' });
 
   // a page without a when
   if (page.when == null) {
@@ -246,10 +298,28 @@ for (const page of pages) {
     new: `a body of at least 150 words and at most 350, with 300 the limit to aim under. It runs ${words} words, ${words < WORDS[0] ? `${WORDS[0] - words} under the hard lower limit` : `${words - WORDS[1]} over the hard upper limit`}`,
     source: 'agents/text.md, What matters, in order, 7: a body is never under 150 words and never over 350', kind: 'wording', introduced: 'texts', owner: 'section-reviewer' });
 
-  const plan = rests[`${page.list}|${page.id}`];
-  if (plan && !notes) for (const claim of plan.claims.filter(c => disputed.has(c))) fault(page, { file: page.text, field: 'body',
-    new: `a \`### Notes\` heading after the body, with a note that gives each account of claim ${claim}, and its escaped marker in the body. The digest reads: ${disputed.get(claim)}`,
-    source: `agents/text.md, Notes: a disputed claim goes into a note; ${digest} marks ${claim} disputed, and ${plan.file} has the page rest on it`, kind: 'attribution', claim, introduced: 'texts', owner: 'section-reviewer' });
+  // a sentence that names the map
+  for (const l of lines) {
+    if (/^\s*(@image\b|#)/.test(l)) continue;
+    for (const sentence of l.split(/(?<=[.!?](?:\\\*)*)\s+(?=[A-Z\\\[“"])/)) if (namesMap(sentence)) fault(page, { file: page.text, field: 'body', old: sentence.trim(),
+      new: 'the sentence as story alone, without the map, a page, a chapter or the book: the event in the story\'s own terms ("Normandy is now English"), or nothing where it only describes the picture or points at another page',
+      source: 'agents/text.md, Only the story: a text never names the map, a page, a chapter or the book', kind: 'wording', introduced: 'texts', owner: 'section-reviewer' });
+  }
+
+  // a body sentence that tells who says it
+  for (const l of body) for (const sentence of l.split(/(?<=[.!?](?:\\\*)*)\s+(?=[A-Z\\\[“"])/)) if (saysWho(sentence)) fault(page, { file: page.text, field: 'body', old: sentence.trim(),
+    new: 'the sentence as the event alone, in the present tense, without the witness or the author: the account the text follows, or a wording true for every account',
+    source: 'agents/text.md, Who says it: the body tells what happens and names no one who reports it', kind: 'attribution', introduced: 'texts', owner: 'section-reviewer' });
+
+  // notes: two at most, of 25 words at most
+  const noteLines = end < lines.length ? lines.slice(end + 1).filter(l => l.trim() && !/^\s*(#+\s+)?Sources:?\s*$/i.test(l)) : [];
+  const noteWords = l => l.replace(/^(?:\\\*)+\s*/, '').replace(/\]\([^)]*\)/g, ' ').split(/\s+/).filter(w => /[\p{L}\p{N}]/u.test(w)).length;
+  if (noteLines.length > 2) fault(page, { file: page.text, field: 'notes', old: `${noteLines.length} notes`,
+    new: 'two notes at most, and each only where the text would confuse a reader without it: no note for who says a thing or for a second account',
+    source: 'agents/text.md, Notes: a page has two notes at most', kind: 'wording', introduced: 'texts', owner: 'section-reviewer' });
+  for (const l of noteLines) if (noteWords(l) > 25) fault(page, { file: page.text, field: 'notes', old: l.trim(),
+    new: `a note of 25 words at most, where this one has ${noteWords(l)}, or no note where the text is clear without it`,
+    source: 'agents/text.md, Notes: a note has 25 words at most', kind: 'wording', introduced: 'texts', owner: 'section-reviewer' });
 }
 
 if (!faults.length) console.log('ok');

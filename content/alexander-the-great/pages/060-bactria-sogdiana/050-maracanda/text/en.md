@@ -10,8 +10,6 @@ At Maracanda in the autumn Alexander holds a feast for the Dioscuri, the twin so
 
 For the winter Alexander goes south to [Nautaca](@nautaca-328), whose site is uncertain, and leaves his general Coenus to hold Sogdiana. With a garrison in every place, Arrian writes, Spitamenes is running out of ways to escape. He gathers 3,000 nomad horsemen at Gabae, on the desert's edge, and invades. [Coenus beats him](@coenus-328) at a place no one knows. Arrian counts over 800 of the enemy dead against 25 horse and 12 foot of Coenus's men. The Sogdians and Bactrians with Spitamenes go over to Coenus, and in winter 328–327 BC Spitamenes is killed and his head brought to Alexander.\*
 
-The map follows Alexander to Maracanda and Nautaca, and Spitamenes's two raids.
-
 ### Notes
 
 \* Arrian says that the Massagetae cut off his head and send it to Alexander to keep him from marching against them. Curtius says that his wife cuts it off while he sleeps and brings it herself.

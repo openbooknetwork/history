@@ -1,0 +1,21 @@
+lnglat: [-0.9, 49.333]
+name: "Battle of Formigny"
+date: "15 April 1450"
+result: "French victory; Kyriell's army, the last English relief army in Normandy, is destroyed, and by 12 August 1450 the English hold nothing in Normandy"
+source: https://en.wikipedia.org/wiki/Battle_of_Formigny
+default_language: en
+images: [formigny-battle-miniature-e78021]
+families:
+  france: { color: "#231b7e", color_dark: "#6257db" }
+  english: { color: "#3d7a2a", color_dark: "#7cc160" }
+sides:
+  - name: "French"
+    color: france
+    commanders: ["John, Count of Clermont", "Arthur de Richemont, Constable of France"]
+    strength: "Oman: Clermont about 3,000 with two culverins, and Richemont 1,200 more; Monstrelet's continuator, by the heralds' report: not more than 3,000"
+    casualties: "Beaucourt: ten or twelve men; Oman: the French annalists name twelve men-at-arms, and the loss cannot be ascertained"
+  - name: "English"
+    color: english
+    commanders: ["Sir Thomas Kyriell", "Matthew Gough"]
+    strength: "Oman: some 4,500, Kyriell's 2,500 at most and the rest from the garrisons; Ramsay: Kyriell's 2,500 and perhaps 1,000 from the garrisons; Beaucourt: four to five thousand with Kyriell; Monstrelet's continuator, by the heralds' report: six to seven thousand"
+    casualties: "The French heralds' count the next day: 3,774 dead (Oman, Beaucourt; 3,773 in Monstrelet's continuator, buried in fourteen pits); Beaucourt: 1,200 to 1,400 taken; Ramsay holds the English reckoning of 3,000 dead an exaggeration. Kyriell taken; Gough escapes to Bayeux"

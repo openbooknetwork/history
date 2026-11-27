@@ -10,7 +10,7 @@ In July or August Alexander reaches [Thapsacus](@thapsacus-331) on the Euphrates
 
 @image astronomical-diary-gaugamela-20a981
 
-Arrian gives Alexander 7,000 cavalry and about 40,000 infantry, and the Persian army is far larger.\*\* On 1 October 331 BC the two armies meet on the levelled plain. The historian Ernst Badian judges it the last full battle that Alexander fights against the empire’s grand army. The borders and the lines of march on the maps of this chapter are approximate.
+Arrian gives Alexander 7,000 cavalry and about 40,000 infantry, and the Persian army is far larger.\*\* On 1 October 331 BC the two armies meet on the levelled plain. The historian Ernst Badian judges it the last full battle that Alexander fights against the empire’s grand army.
 
 ### Notes
 

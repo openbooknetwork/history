@@ -1,4 +1,4 @@
-In summer 324 BC Alexander leaves [Opis](@opis-324b) and takes his court up from the hot plain of Mesopotamia into the Zagros mountains. He travels by easy stages, and Bosworth notes a halt at Bagistane (today Bisutun), with its rich gardens. After a month's rest in the plain where the Persian kings kept their horses, he reaches [Ecbatana](@ecbatana-324) (today Hamadan) in seven days. Ecbatana had been the summer capital of the Persian kings. The line of this march on the map is approximate.
+In summer 324 BC Alexander leaves [Opis](@opis-324b) and takes his court up from the hot plain of Mesopotamia into the Zagros mountains. He travels by easy stages, and Bosworth notes a halt at Bagistane (today Bisutun), with its rich gardens. After a month's rest in the plain where the Persian kings kept their horses, he reaches [Ecbatana](@ecbatana-324) (today Hamadan) in seven days. Ecbatana had been the summer capital of the Persian kings.
 
 @image behistun-inscription-461172
 
@@ -6,7 +6,7 @@ At Ecbatana the king sacrifices and holds athletic and musical games, and the Co
 
 @image hephaistion-head-getty-d1cb14
 
-Every source agrees that Alexander's grief was great, although, as Arrian notes, they tell its details in different ways. For three days he neither eats nor cares for his appearance. He orders mourning across the empire and, by Plutarch's account, has the doctor crucified. Perdiccas, one of Alexander's leading generals, takes the body to [Babylon](@babylon-324), where the king plans a vast funeral pyre.\* No source gives Perdiccas's road, so the map draws it along the road by which the court came up.
+Every source agrees that Alexander's grief was great, although, as Arrian notes, they tell its details in different ways. For three days he neither eats nor cares for his appearance. He orders mourning across the empire and, by Plutarch's account, has the doctor crucified. Perdiccas, one of Alexander's leading generals, takes the body to [Babylon](@babylon-324), where the king plans a vast funeral pyre.\*
 
 ### Notes
 

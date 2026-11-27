@@ -1,0 +1,55 @@
+# battles.yaml of section 010 france-divided. No battle has phase pages (rules.md), so each has a card alone.
+# Every figure names its author. The modern counts of Agincourt are in the digest's Thin part and stay off the card.
+- id: agincourt-1415
+  page: harfleur-and-agincourt
+  phases: false
+  name: Battle of Agincourt
+  date: "25 October 1415"
+  site: "the field between the woods and enclosures of Azincourt and Tramecourt, across the road to Calais"
+  sides:
+    - name: Kingdom of England
+      family: english
+      commanders: ["Henry V", "Edward, Duke of York", "Lord Camoys"]
+      strength: "The Gesta: 900 lances and 5,000 archers; Ramsay: some 900 lances and 3,000 archers; Oman: not much more than 6,000 men"
+      casualties: "Ramsay: 13 men-at-arms and about 100 others killed, the Duke of York and Michael de la Pole, Earl of Suffolk, among them; Oman: fewer than 100"
+    - name: Kingdom of France
+      family: france
+      commanders: ["the Constable d'Albret", "Charles of Orléans", "John, Duke of Bourbon", "Marshal Boucicaut", "John I, Duke of Alençon", "Edward, Duke of Bar"]
+      strength: "Monstrelet: 150,000; Ramsay: at least three times the English; Oman: three or four times the English"
+      casualties: "Monstrelet: more than 10,000 killed; Oman: 1,500 nobles, 3,000 men-at-arms and perhaps 1,000 others killed, more than 1,000 taken; Ramsay: estimates of 4,000 to 11,000 killed, about 1,500 taken"
+  outcome: "English victory. The Constable d'Albret, John I, Duke of Alençon, and Edward, Duke of Bar, are killed; Charles of Orléans, the Duke of Bourbon and Marshal Boucicaut are taken to England."
+- id: bauge-1421
+  page: two-kings
+  phases: false
+  name: Battle of Baugé
+  date: "22 March 1421"
+  site: "the low hill by the church of Vieil-Baugé, beyond the bridge over the Couasnon"
+  sides:
+    - name: "The Dauphin's Scots and French"
+      family: scots
+      commanders: ["the Earl of Buchan"]
+      strength: "Jean Juvenal (in Wylie and Waugh): 5,000 to 6,000; Le Fèvre (in Wylie and Waugh): twice the English; Oman: twice Clarence's horse"
+    - name: Kingdom of England
+      family: english
+      commanders: ["Thomas, Duke of Clarence"]
+      strength: "Wylie and Waugh, from a record of the time: 1,500 men-at-arms, with hardly any archers"
+      casualties: "Clarence killed; the Earl of Somerset and the Earl of Huntingdon taken; the Chronique de la Pucelle: about 600 taken"
+  outcome: "Victory of the Dauphin's Scots and French. Clarence is killed."
+- id: verneuil-1424
+  page: cravant-and-verneuil
+  phases: false
+  name: Battle of Verneuil
+  date: "17 August 1424"
+  site: "a plain before the town of Verneuil"
+  sides:
+    - name: Kingdom of England
+      family: english
+      commanders: ["John, Duke of Bedford", "the Earl of Salisbury", "the Earl of Suffolk"]
+      strength: "The Bourgeois: under 10,000 by the French heralds' count; Cagny: more than 10,000; Beaucourt: 14,000; Ramsay: perhaps 2,000 or 3,000"
+      casualties: "Wavrin (in Beaucourt and Ramsay): 1,600 killed"
+    - name: "The French, the Scots and the Lombards of Charles VII"
+      family: france
+      commanders: ["the Duke of Alençon", "the Count of Aumale", "the Viscount of Narbonne", "the Earl of Buchan", "the Earl of Douglas"]
+      strength: "The Bourgeois: 18,000 by their own count; Cagny: 7,000 to 8,000; Beaucourt: about 20,000; Ramsay: at least half as many again as the English"
+      casualties: "Bedford's letter (in Ramsay): 7,262 killed; the Bourgeois: about 9,000 killed by the heralds' count; the Chronique de la Pucelle: 6,000 to 7,000. The Duke of Alençon and Marshal La Fayette taken"
+  outcome: "English victory. Buchan, Douglas and his son James, Aumale, Ventadour, Tonnerre and Narbonne are killed."

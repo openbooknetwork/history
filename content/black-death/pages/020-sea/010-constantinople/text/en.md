@@ -1,6 +1,6 @@
 In February 1347 John VI Kantakouzenos enters [Constantinople](@constantinople) and ends six years of civil war. He rules as senior emperor beside the young John V Palaiologos over a small and impoverished empire. The Genoese of Galata, across the Golden Horn, control much of the city’s trade.
 
-By the summer of 1347 ships from [Caffa](@caffa) and the other Black Sea ports have brought the plague to the city. The ships’ course on the map is approximate. From here, by one account, ships carry it on to the Aegean islands, to Egypt and to Italy.
+By the summer of 1347 ships from [Caffa](@caffa) and the other Black Sea ports have brought the plague to the city. From here, by one account, ships carry it on to the Aegean islands, to Egypt and to Italy.
 
 @image kantakouzenos-synod-1351-6cf13e
 

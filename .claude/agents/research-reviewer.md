@@ -12,7 +12,7 @@ says more than its quote, a wrong standing or a loose pointer you put right in t
 write the fault with its fix. A line that needs the sources searched again, such as a second account to find,
 you leave open for the `researcher`, with what you found.
 
-Start with `node scripts/brief.mjs <story> research-reviewer <section number, or all>`, which lists by path the files to
+Start with `node scripts/brief.mjs <story> research-reviewer <section number, or all> --task <the task of your dispatch>`, which lists by path the files to
 read first, and read them together in one turn. "Turns" in `agents/report.md` holds for all your work.
 
 Research was the one step that made work with no agent to check it. `quotes-check` proves that a quote stands in

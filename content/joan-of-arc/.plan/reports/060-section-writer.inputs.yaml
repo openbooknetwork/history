@@ -1,0 +1,36 @@
+- task: write
+  step: texts
+  at: '2026-11-26T14:55:26.389Z'
+  before: null
+  inputs:
+    rules.md: 7ac78d578764d5ae
+    research.md#060: df78cd24adb65d9e
+    060-rouen/pages.yaml#beaulieu-and-beaurevoir: 464094a67139fed4
+    060-rouen/pages.yaml#sold-to-the-english: c9cb41c8f08a7314
+    060-rouen/pages.yaml#the-court: 4e72fec5cf0c8c1c
+    060-rouen/pages.yaml#the-questioning: 037d5bbe926392f0
+    060-rouen/pages.yaml#saint-ouen: 5a0af46e027f1db1
+    060-rouen/pages.yaml#the-old-market: fb2ccedd57aa2243
+    060-rouen/text.yaml#section: b62003bd032daeb8
+    060-rouen/text.yaml#beaulieu-and-beaurevoir: 9671dae1759ec01f
+    060-rouen/text.yaml#sold-to-the-english: 97e3a2d3ca246249
+    060-rouen/text.yaml#the-court: cd8c832016e17909
+    060-rouen/text.yaml#the-questioning: 65cf63265c642f95
+    060-rouen/text.yaml#saint-ouen: 829d08d9fdd18c7e
+    060-rouen/text.yaml#the-old-market: 0b6a772b12417804
+    names.md#060: 455afe682e67b401
+  ended: '2026-11-26T15:03:03.945Z'
+  status: pass
+  inputs_end:
+    names.md#060: bac4841d6e55e344
+  outputs:
+    - content/joan-of-arc/pages/060-rouen/010-beaulieu-and-beaurevoir/text/en.md
+    - content/joan-of-arc/pages/060-rouen/020-sold-to-the-english/text/en.md
+    - content/joan-of-arc/pages/060-rouen/030-the-court/text/en.md
+    - content/joan-of-arc/pages/060-rouen/040-the-questioning/text/en.md
+    - content/joan-of-arc/pages/060-rouen/050-saint-ouen/text/en.md
+    - content/joan-of-arc/pages/060-rouen/060-the-old-market/text/en.md
+    - content/joan-of-arc/.plan/names.md
+    - content/joan-of-arc/.plan/faults/060.yaml
+    - content/joan-of-arc/.plan/fixes/060.yaml
+    - content/joan-of-arc/.plan/handoff/section-writer.md

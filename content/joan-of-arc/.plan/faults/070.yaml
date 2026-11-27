@@ -1,0 +1,826 @@
+- id: "070-research-reviewer-1"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/research/070.md"
+  field: "Coverage"
+  replaces: "clause"
+  old: "The Truce of Tours is read only in Ramsay 2 and Wikipedia,"
+  new: "The Truce of Tours is read in Ramsay 2, in Monstrelet B (book 2, ch. 275, the text of the truce) and in Wikipedia,"
+  source: "Monstrelet B (archive.org-download-chroniclesengue07johngoog-chroniclesengue07johngoog-djvu.txt.txt), book 2 ch. 275 'A truce is concluded between the kings of England and France', line 11633: \"Given at Tours, the 20th day of May, in the year 1444.\""
+  kind: "sources"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "070-research-reviewer-2"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/research/070.md"
+  field: "070.12"
+  replaces: "value"
+  old: "- 070.12 Event: the Truce of Tours, a general truce signed four days after Margaret of Anjou's betrothal to Henry VI by proxy at Tours on 24 May 1444, that is on 28 May. single (Ramsay; Wikipedia gives the same day). \"days after the betrothal a general truce was signed\" (archive.org-download-cu31924088011436-cu31924088011436-djvu.txt.txt, Ramsay 2, ch. 5, scholarly) \"concluded by their envoys on 28 May 1444\" (Truce_of_Tours.wiki, lead, wikipedia)"
+  new: "- 070.12 Event: the Truce of Tours, a general truce concluded at Tours in May 1444, at the time of Margaret of Anjou's betrothal to Henry VI by proxy there on 24 May. agreed for a general truce made at Tours in May 1444; disputed for the day: four days after the betrothal, that is 28 May, in Ramsay, and 28 May in Wikipedia; the text of the truce in Monstrelet (Johnes) is given at Tours on the 20th of May, which may be a misprint. \"days after the betrothal a general truce was signed\" (archive.org-download-cu31924088011436-cu31924088011436-djvu.txt.txt, Ramsay 2, ch. 5, scholarly) \"concluded by their envoys on 28 May 1444\" (Truce_of_Tours.wiki, lead, wikipedia) \"at Tours, the 20th day of May, in the year 1444\" (archive.org-download-chroniclesengue07johngoog-chroniclesengue07johngoog-djvu.txt.txt, Monstrelet book 2, ch. 275, the text of the truce, primary)"
+  source: "Monstrelet B, book 2 ch. 275, line 11633: \"Given at Tours, the 20th day of May, in the year 1444.\"; Ramsay 2 ch. 5, line 6260: \"Four days after the betrothal a general truce was signed\""
+  kind: "sources"
+  claim: "070.12"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "070-research-reviewer-3"
+  severity: "wrong"
+  file: "content/joan-of-arc/.plan/research/070.md"
+  field: "070.19"
+  replaces: "clause"
+  old: "a detachment at a bridge on the left; after three hours"
+  new: "a wing-guard under Gough thrown out beyond the left flank (Oman; Ramsay rests the English right on a bridge, and Monstrelet's continuator has the constable's archers attack their left wing at a bridge); after three hours"
+  source: "Oman, book 14 ch. 2, line 19888: \"The left flank being rather 'in the air,' a body of men-at-arms, under Gough, were thrown out at some distance from it to serve as a wing-guard\"; Ramsay 2 ch. 8: \"their right resting on a bridge by which the road crossed a little stream\""
+  kind: "fact"
+  claim: "070.19"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "070-research-reviewer-4"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/research/070.md"
+  field: "070.25"
+  replaces: "clause"
+  old: "Bayonne, besieged from 6 or 7 August, is entered on 20 August."
+  new: "Bayonne, besieged from 6 or 7 August, is entered on 20 August (Ramsay; Beaucourt has the capitulation signed on the 20th and Dunois entering on the 21st)."
+  source: "Beaucourt 5, book 5 ch. 2, lines 3149-3150: \"Bayonne, qui fut investie le 7 août ... le 20, la capitulation était signée; le 21, Dunois entrait dans la ville\""
+  kind: "fact"
+  claim: "070.25"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "070-research-reviewer-5"
+  severity: "wrong"
+  file: "content/joan-of-arc/.plan/research/070.md"
+  field: "070.28"
+  replaces: "clause"
+  old: "Talbot sails on 17 October 1452 and lands in the Médoc,"
+  new: "Talbot lands in the Médoc on 17 October 1452,"
+  source: "Ramsay 2, ch. 10: \"On the 17th October Shrewsbury landed in Medoc\"; Battle_of_Castillon.wiki, Background: \"On 17 October 1452, ... landed near Bordeaux\""
+  kind: "fact"
+  claim: "070.28"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "070-research-reviewer-6"
+  severity: "taste"
+  file: "content/joan-of-arc/.plan/research/070.md"
+  field: "070.48"
+  replaces: "clause"
+  old: "wrote of her as of a maid led by the spirit of God; the bull of 1920 quotes him."
+  new: "wrote of her as a maid inspired by the divine spirit; the bull of 1920 quotes him (and, beside him, Antoninus of Florence, who has her led by the spirit of God)."
+  source: "AAS 12, the bull Divina disponente, p. 524: \"divum Antoninum, qui in suis historiis Puellam 'spiritu Dei ductam' existimabat, et Pium Secundum ... scribentem: 'Puella ... divino afflata spiritu'\""
+  kind: "attribution"
+  claim: "070.48"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "070-research-reviewer-7"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/research/070.md"
+  field: "070.46"
+  replaces: "clause"
+  old: "single (Quicherat 5); that the play of 1435 was the Mistère du siège rests on Wikipedia (Hamblin) alone. \"que ilz firent certain mistère\" (archive.org-download-ProcesDeCondamnationV5-ProcesDeCondamnationV5-djvu.txt.txt, Quicherat 5, city accounts of Orléans, 1435, p. 309, primary)"
+  new: "single (Quicherat 5, for the payment and for the play's length, author and manuscript); that the play of 1435 was the Mistère du siège rests on Wikipedia (Hamblin) alone. \"que ilz firent certain mistère\" (archive.org-download-ProcesDeCondamnationV5-ProcesDeCondamnationV5-djvu.txt.txt, Quicherat 5, city accounts of Orléans, 1435, p. 309, primary) \"est conservé à la Bibliothèque du Vatican parmi les manuscrits de la reine de Suède\" (archive.org-download-ProcesDeCondamnationV5-ProcesDeCondamnationV5-djvu.txt.txt, Quicherat 5, Le Mystère du siège d'Orléans, p. 79, primary)"
+  source: "Quicherat 5, 'Le Mystère du siège d'Orléans', p. 79, lines 4561-4566: \"Cet ouvrage, dont l'auteur est inconnu, n'a pas moins de vingt-cinq mille vers. Il est conservé à la Bibliothèque du Vatican ... écrit en cursive gothique du commencement du xvie siècle\""
+  kind: "sources"
+  claim: "070.46"
+  introduced: "research"
+  owner: "researcher"
+  state: "fixed"
+- id: "070-map-architect-1"
+  severity: "wrong"
+  file: "content/joan-of-arc/.plan/070-after-her/pages.yaml"
+  field: "afterwards.markers"
+  replaces: "value"
+  old: "[orleans-8-may, rome-1920]"
+  new: "[orleans-8-may]"
+  source: "decisions.md, cloud ruling of the pre-plans: the canonisation is told in the text alone, with no marker at Rome, unless the map architect's extent already holds Rome. The extent of story.yaml, [-5.5, 42, 8.5, 51.5], ends at 8.5 degrees east, and Rome stands at 12.5."
+  kind: "map"
+  introduced: "pre-plan"
+  owner: "section-coordinator"
+  state: "fixed"
+- id: "070-section-coordinator-1"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/names.md"
+  field: "rows of Margaret of Anjou, Valognes, the Fords of Saint-Clément and Branne"
+  new: "Add a row for each of the four names the plan of 070 writes and names.md lacks: Margaret of Anjou (People, The English), Valognes and the Fords of Saint-Clément (Places, Normandy and Rouen), Branne (Places, Anjou, Gascony and further), each with the forms its source has."
+  source: "Ramsay 2, ch. 8, lines 8788-8806 of archive.org-download-cu31924088011436-cu31924088011436-djvu.txt.txt (\"Kyrielle sat down to the siege of Valognes (27th March)\"; \"known as the Fords of St. Clement\"; \"he reached the sands of St. Clement on the 14th\"); Ramsay 2, ch. 10, line 11557 (\"having doubtless crossed the Dordogne at Branne\"); 070.12 (Margaret of Anjou's betrothal) and Monstrelet B, book 2, ch. 275, lines 11636-11637 (\"the daughter of Bene king of Sicily\", OCR)"
+  kind: "plan"
+  introduced: "names"
+  owner: "names"
+  state: "fixed"
+- id: "070-fact-checker-1"
+  severity: "wrong"
+  file: "content/joan-of-arc/.plan/070-after-her/map.yaml"
+  field: "normandy-won-back.routes.kyriell-1450-formigny.stations, its why, and normandy-won-back.unmarked.Carentan"
+  replaces: "value"
+  old: "[Cherbourg, Valognes, the Fords of Saint-Clément, Carentan, Formigny]"
+  new: "[Cherbourg, Valognes, the Fords of Saint-Clément, Formigny], with the why saying that Carentan, held by Clermont, is no station because the English passed it by the fords below it"
+  source: "Ramsay 2, ch. 8 (archive.org-download-cu31924088011436-cu31924088011436-djvu.txt.txt), lines 8798-8808 and 8832-8838: \"crossing the estuaries of the Vire and Douve below Carentan, by a passage practicable at low water, and known as the Fords of St. Clement\"; \"The Count of Clermont ... was at Carentan at the time\"; \"the English were passing Carentan unmolested\". The fords lie east of the town, so a station at Carentan after them drew the English line back west through a town the French held."
+  kind: "plan"
+  claim: "070.17"
+  introduced: "plan"
+  owner: "cartographer"
+  state: "fixed"
+- id: "070-fact-checker-2"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/070-after-her/map.yaml"
+  field: "normandy-won-back.routes.clermont-1450-formigny.passage"
+  replaces: "clause"
+  old: "lines 8819-8846"
+  new: "lines 8805-8850"
+  source: "Ramsay 2, ch. 8 (archive.org-download-cu31924088011436-cu31924088011436-djvu.txt.txt): Clermont \"at Carentan at the time\" stands at line 8808 and \"Clermont, following the highway through Isigny\" at line 8849, outside the lines the passage named."
+  kind: "plan"
+  claim: "070.18"
+  introduced: "plan"
+  owner: "cartographer"
+  state: "fixed"
+- id: "070-fact-checker-3"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/070-after-her/map.yaml"
+  field: "normandy-won-back.routes.richemont-1450-formigny: stations, passage and why; normandy-won-back.unmarked; names.md row of Trévières"
+  replaces: "value"
+  old: "stations: [Saint-Lô, Formigny]; passage \"Ramsay ... lines 8838-8842\"; why \"... No road is given, so the line joins the two places ...\""
+  new: "stations: [Saint-Lô, Trévières, Formigny]; passage \"Ramsay ... lines 8843-8847 and 8905-8909\"; why naming Trévières as Ramsay's alone and Oman's coming up from Saint-Lô; an unmarked entry and a names.md row for Trévières"
+  source: "Ramsay 2, ch. 8 (archive.org-download-cu31924088011436-cu31924088011436-djvu.txt.txt), line 8907: \"the Constable de Richemont, who had marched from Saint-L6 via Trevieres, suddenly appeared on a height in front of the English position\"; line 8845: \"was at Saint-L6, on the look out for Kyrielle\". Oman (line 19962) has him only \"coming up from St. Lô\", and does not have Clermont warn him."
+  kind: "plan"
+  claim: "070.19"
+  introduced: "plan"
+  owner: "cartographer"
+  state: "fixed"
+- id: "070-fact-checker-4"
+  severity: "wrong"
+  file: "content/joan-of-arc/.plan/070-after-her/pages.yaml"
+  field: "burgundy-changes-sides.date"
+  replaces: "value"
+  old: "December 1431 – September 1435"
+  new: "December 1431 – October 1435"
+  source: "Ramsay 1, ch. 32 (archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt): \"The garrison signed articles, and on the 4th October marched out with all the honours of war\" (070.6), which the page's account in text.yaml tells, so the page's span runs into October 1435."
+  kind: "plan"
+  claim: "070.6"
+  introduced: "plan"
+  owner: "section-coordinator"
+  state: "fixed"
+- id: "070-fact-checker-5"
+  severity: "weak"
+  file: "content/joan-of-arc/shared/battles/castillon-1453/battle.yaml"
+  field: "sides[French].commanders, with the same line of battles.yaml and two rows of names.md"
+  replaces: "value"
+  old: "[\"Jean Bureau\", \"the lord of Montauban\", \"the lord of La Hunaudaye\"]"
+  new: "[\"the Marshal de Lohéac\", \"the Marshal de Jalognes\", \"Jean Bureau\", \"the lord of Montauban\", \"the lord of La Hunaudaye\"]"
+  source: "Monstrelet's continuator (archive.org-download-chroniclesengue07johngoog-chroniclesengue07johngoog-djvu.txt.txt), line 17375-17376: \"The lords de Lohéac and de Jalognes, marshals of France, were ordered to conduct the siege\"; Beaucourt 5, book 5 ch. 9, lines 16622-16626: \"elles étaient sous les ordres de l'amiral de Bueil, du grand-maître Chabannes, des maréchaux de Lohéac et de Jalognes, du comte de Penthièvre\". The card named only the master of the artillery and the Breton captains; the two marshals are the commanders both sources share."
+  kind: "battle"
+  claim: "070.29"
+  introduced: "plan"
+  owner: "battle-implementor"
+  state: "fixed"
+- id: "070-fact-checker-6"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/brief.md"
+  field: "Map, Zones: the rows of bar-1412 and lorraine-1412"
+  new: "Add 070 (the-retrial) to the Sections of both rows, with the reconstruction it rests on: the edge of 1429 kept for 1455–1456, since no source of 070 gives Bar's or Lorraine's edge then. The-retrial lists both zones (its frame reaches 6.4° E and its Domrémy marker stands on the Meuse; without them the two duchies would show French), but the brief gives them for 1412 – 1429 and for 010 and 020 alone."
+  source: "brief-070.md, Map, Zones: \"| `bar-1412` | bar | The duchy of Bar on the Meuse ... 1412 – 1429 | ... | none | 010 (domremy, normandy-and-troyes), 020 (the-voices, vaucouleurs-again, eleven-days) |\"; map.yaml, the-retrial.zones: [france-1422, english-1451, burgundy-1420, brittany-1407, bar-1412, lorraine-1412]; decisions.md, plans 010: the rows gained normandy-and-troyes in the same way (story-overseer-1)."
+  kind: "map"
+  introduced: "plan"
+  owner: "brief"
+  state: "fixed"
+- id: "070-section-writer-1"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/names.md"
+  field: "Places and States and peoples, the column \"First named in\" of the rows Dieppe, Bayeux, Coutances, Bordeaux and the Parisians"
+  replaces: "clause"
+  old: "Dieppe ... 060 (060.24); Bayeux ... 010 (010.37); Coutances ... 060 (060.35); Bordeaux ... 010 (010.57); the Parisians ... 020 (020.24)"
+  new: "Dieppe ... 070 (070.7); Bayeux ... 070 (070.16); Coutances ... 070 (070.38); Bordeaux ... 070 (070.25); the Parisians ... 070 (070.11)"
+  source: "node scripts/names-check.mjs joan-of-arc 070 and the write hook: each name is first named on a page of 070 (paris-opens, normandy-won-back, castillon, the-retrial), and no text of 010-060 names it (grep of pages/0[1-6]*/*/text/en.md finds none)"
+  kind: "plan"
+  introduced: "names"
+  owner: "names"
+  state: "fixed"
+- id: "070-section-writer-2"
+  severity: "taste"
+  file: "scripts/names-check.mjs"
+  field: "the \"First named in\" comparison"
+  new: "Have the comparison take a row's other forms too, or let the row of John Talbot stand: the check reads only the row's name, \"John Talbot\", which names.md asks for at the first mention on a page of 070, while the texts of 030 and 040 name him first as \"Lord Talbot\" and \"Talbot\". It reports \"John Talbot\" first named in 070 against the row's 020 (020.20), and neither changing the row nor dropping the form the row asks for is right."
+  source: "node scripts/names-check.mjs joan-of-arc 070: \"John Talbot\" is first named in 070-after-her ... and its row says 020 (020.20); grep -l Talbot pages/0[3-4]*/*/text/en.md lists six pages of 030 and 040; names.md row of John Talbot: \"John Talbot, Earl of Shrewsbury\" at the first mention on a page of 070"
+  kind: "check"
+  introduced: "names"
+  owner: "overseer"
+  state: "fixed"
+- id: "070-map-auditor-1"
+  severity: "taste"
+  file: "content/joan-of-arc/.plans/pages070.mjs"
+  field: "paris-opens, markers['dieppe-1435'].note, and the markers.yaml it writes"
+  replaces: "value"
+  old: "Lost by the English on 29 October 1435, after Arras, and with it the whole Pays de Caux but Caudebec (Ramsay)"
+  new: "French from 29 October 1435, with all the Caux but Caudebec"
+  source: "Capture pack/shots/paris-opens.png: the note runs right of the anchor icon at the frame's west edge and the name 'Dieppe' stands about 270 px east of its icon, inside the Burgundian zone, where it reads as a place of Picardy. 070.7 (Ramsay 1, ch. 32): 'the whole of Caux was speedily wrested from the English, only Caudebec'. Recaptured in pack2: the name stands by its note over the Caux."
+  kind: "map"
+  introduced: "maps"
+  owner: "map-auditor"
+  state: "fixed"
+- id: "070-map-auditor-2"
+  severity: "taste"
+  file: "content/joan-of-arc/.plans/pages070.mjs"
+  field: "normandy-won-back, markers['cherbourg-1450'].note, and the markers.yaml it writes"
+  replaces: "value"
+  old: "Kyriell's army lands here about 15 March 1450; the last English hold in Normandy, it is given up on 12 August 1450 after a month's siege"
+  new: "The last English hold in Normandy, given up on 12 August 1450"
+  source: "Capture pack/shots/normandy-won-back.png: the 133-character note is pushed right from the icon at the frame's west edge and the name 'Cherbourg' stands about 230 px east of it, over the Channel north of Rouen. 070.24 (Ramsay 2, ch. 8; Beaucourt 5): 'Cherbourg fut évacué le 12 août'. The landing stays on the map in the legend of kyriell-1450-formigny ('marches from Cherbourg'). Recaptured in pack2."
+  kind: "map"
+  introduced: "maps"
+  owner: "map-auditor"
+  state: "fixed"
+- id: "070-map-auditor-3"
+  severity: "taste"
+  file: "content/joan-of-arc/.plans/pages070.mjs"
+  field: "the-retrial, markers['domremy-1456'].note, and the markers.yaml it writes"
+  replaces: "value"
+  old: "Her village, where witnesses of her childhood are heard in January and February 1456, with those of Vaucouleurs"
+  new: "Witnesses of Domrémy and Vaucouleurs are heard in January and February 1456"
+  source: "Capture pack/shots/the-retrial.png: the note's block is pushed west from the frame's east side and the name 'Domrémy' stands about 190 px west of its icon, between the Notre-Dame and Orléans labels, as if it named a place south-east of Paris. 070.41 (Murray, Introductory Note, p. 376): 'witnesses were heard, in January and February, at Domremy'. Recaptured in pack2: the name stands under its icon."
+  kind: "map"
+  introduced: "maps"
+  owner: "map-auditor"
+  state: "fixed"
+- id: "070-map-auditor-4"
+  severity: "taste"
+  file: "content/joan-of-arc/.plans/pages070.mjs"
+  field: "the-retrial.bbox, with page.yaml and the plan's map.yaml"
+  replaces: "value"
+  old: "[-0.2, 45.4, 6.4, 51.1]"
+  new: "[-0.2, 45.1, 6.4, 51.1]"
+  source: "Capture pack/shots/the-retrial.png: Lyon stands at the frame's foot and its note ('On 28 May 1456 a vice-inquisitor takes here the deposit...') runs under the map's attribution box, which covers its second half. 070.41: 'Jean d'Aulon at Lyon on 28 May 1456'. With the south edge 0.3 degrees lower the note reads whole (pack2); the frame gains only French and Burgundian land the page's zones already cover, and plan-check and zone-gaps stay ok."
+  kind: "map"
+  introduced: "maps"
+  owner: "map-auditor"
+  state: "fixed"
+- id: "070-map-auditor-5"
+  severity: "weak"
+  file: "content/joan-of-arc/.plans/pages070.mjs"
+  field: "castillon.bbox, with page.yaml and the plan's map.yaml"
+  replaces: "value"
+  old: "[-2.2, 43.2, 1.0, 45.9]"
+  new: "[-2.2, 42.6, 1.0, 45.9]"
+  source: "Capture pack/shots/castillon.png: with the Castillon card open the map fits the left of the frame, and the Bayonne icon sits on the top edge of the legend, half under it, only its name showing. 070.25: 'Bayonne, besieged from 6 or 7 August, is entered on 20 August'. With the south edge 0.6 degrees lower Bayonne stands clear above the legend (pack2); the frame gains the Pyrenees, which carry no zone, and plan-check and zone-gaps stay ok."
+  kind: "map"
+  introduced: "maps"
+  owner: "map-auditor"
+  state: "fixed"
+- id: "070-map-auditor-6"
+  severity: "weak"
+  file: "content/joan-of-arc/.plan/070-after-her/pages.yaml"
+  field: "paris-opens.tells and paris-opens.rests_on, with the clause of text.yaml's paris-opens.account that says what the map shows"
+  replaces: "clause"
+  old: "the English shut themselves in the Bastille Saint-Antoine and are let go to Rouen. | rests_on: [\"070.7\", \"070.8\", \"070.9\", \"070.10\", \"070.11\"]"
+  new: "the English shut themselves in the Bastille Saint-Antoine and are let go to Rouen. Round the city they keep Meaux, Creil, Montereau and Mantes, with Beaumont-sur-Oise and Crépy, which Talbot won back in 1434, while Chartres was lost to them in 1432 and the bridge of Meulan in 1435. | rests_on adds 070.59, 070.60, 070.61, 070.63, 070.64, 070.65, 070.66; text.yaml's account gains the sentence on the six circles, Chartres and Meulan, each with its claim"
+  source: "From page to page: burgundy-changes-sides shows english-1430 (December 1431), paris-opens english-1436. Between them Creil, Beaumont-sur-Oise and Crépy turn from French to English circles and Chartres and Meulan from English to French, in the frames of both pages (captures pack/shots/burgundy-changes-sides.png and paris-opens.png), and no page told why: the brief's english-1436 row rests on 070.59 ('the Bastard of Orléans takes Chartres ... in April 1432'), 070.61 ('Following him to Creil Talbot recovered that place also (20th June)'; 'Crespy in Valois, which was taken by storm'), 070.63 ('prindrent le pont de Meurlan', September 1435), 070.60, 070.64, 070.65 and 070.66 (Meaux, Creil, Montereau and Mantes English after April 1436), and the plan of the page took none of them."
+  kind: "plan"
+  introduced: "plan"
+  owner: "section-coordinator"
+  state: "fixed"
+- id: "070-map-auditor-7"
+  severity: "weak"
+  file: "content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md"
+  field: "the last paragraph, its first sentence"
+  replaces: "clause"
+  old: "The map shows what the English hold after 13 April 1436: Normandy without Dieppe and the Caux, most of Maine, Calais and Gascony."
+  new: "The map shows what the English hold after 13 April 1436: Normandy without Dieppe and the Caux, most of Maine, Calais and Gascony, and round Paris Meaux, Creil, Montereau and Mantes, with Beaumont-sur-Oise and Crépy, which Talbot won back in 1434. Chartres, which the Bastard of Orléans took in April 1432, and the bridge of Meulan, lost in September 1435, are the king's."
+  source: "The map of paris-opens draws six English circles round Paris that the page's text does not name, three of them (Creil, Beaumont, Crépy) French on the page before: 070.60, 070.61, 070.64, 070.65, 070.66; and shows Chartres and Meulan the king's (070.59, 070.63). The plan's account now says so (070-map-auditor-6). Left open for the writer, whose text of the section was being written while the audit ran; Beaumont and Crépy are English only because no source read has them lost (the brief's english-1436 row), so the sentence gives no source for their holding in 1436."
+  kind: "map"
+  introduced: "plan"
+  owner: "section-writer"
+  state: "fixed"
+- id: "070-map-auditor-8"
+  severity: "taste"
+  file: "content/joan-of-arc/.plan/brief.md"
+  field: "Map, Zones, the row english-1449: its Land and Basis columns"
+  replaces: "clause"
+  old: "Saint-Sauveur and Cherbourg, with Calais and Gascony, at the close of 1449 | reconstruction drawn round the towns of 070.16 (single, Ramsay), after 070.14 and Rouen's surrender (29 October 1449, `names.md`), as rules.md asks for the map of 1444 to 1453 |"
+  new: "Saint-Sauveur and Cherbourg, with Calais and Gascony, at the close of 1449. Valognes, which Ramsay's list leaves out, is a hole of 4 km | reconstruction drawn round the towns of 070.16 (single, Ramsay), after 070.14 and Rouen's surrender (29 October 1449, `names.md`), as rules.md asks for the map of 1444 to 1453; Valognes French, since Kyriell sits down to its siege on 27 March 1450 (Ramsay 2, ch. 8, the passage of 070.17) |"
+  source: "ground.yaml line 83 cuts Valognes out of english-1449 ('Valognes, which Kyriell besieges and takes in 1450 ... so French at the close of 1449 (a circle of 4 km)'), and the capture zoomed on Lower Normandy (zoom/normandy-won-back.png) shows the hole; the brief's row did not name it. Ramsay 2, ch. 8, line 8791: 'Kyrielle sat down to the siege of Valognes (27th March)'."
+  kind: "map"
+  introduced: "maps"
+  owner: "brief"
+  state: "fixed"
+- id: 070-overseer-1
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md
+  field: body, the paragraph that says what the map shows
+  new: "one clause that tells the reader the map's change in Maine since the page before: Maine, English on the map of 1436, is the king's on this one, all but Fresnay (070.16); the clause gives no date and no cause, since no source read tells how Maine was lost"
+  source: "reports/070-map-auditor.yaml: Maine is English on paris-opens and French except Fresnay on normandy-won-back, and no page says so; 070.16 has Fresnay still English"
+  kind: map
+  claim: "070.16"
+  introduced: plan
+  owner: section-writer
+  state: fixed
+  ruling: "cloud ruling: the map's change is told and its cause is not guessed"
+- id: 070-image-finder-1
+  severity: wrong
+  file: content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md
+  field: body, the line after the paragraph of the battle of Formigny
+  replaces: value
+  old: "@image formigny-battle-miniature"
+  new: "the line taken out: the plan puts formigny-battle-miniature on the card formigny-1450, which already holds it"
+  source: "text.yaml, normandy-won-back.images: { name: formigny-battle-miniature, \"on\": card formigny-1450 }; shared/battles/formigny-1450/battle.yaml images: [formigny-battle-miniature]; node scripts/contact-sheet.mjs joan-of-arc: \"formigny-battle-miniature shows 2 times: page normandy-won-back, card of formigny-1450\"; agents/images.md: an image shows in one place of a story, on one page or on one battle's card"
+  kind: image
+  introduced: texts
+  owner: section-writer
+  state: fixed
+- id: 070-image-finder-2
+  severity: wrong
+  file: content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md
+  field: body, the line after the paragraph of the battle of Castillon
+  replaces: value
+  old: "@image castillon-battle-miniature"
+  new: "the line taken out: the plan puts castillon-battle-miniature on the card castillon-1453, which already holds it"
+  source: "text.yaml, castillon.images: { name: castillon-battle-miniature, \"on\": card castillon-1453 }; shared/battles/castillon-1453/battle.yaml images: [castillon-battle-miniature]; node scripts/contact-sheet.mjs joan-of-arc: \"castillon-battle-miniature shows 2 times: page castillon, card of castillon-1453\"; agents/images.md: an image shows in one place of a story"
+  kind: image
+  introduced: texts
+  owner: section-writer
+  state: fixed
+- id: 070-fact-checker-7
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md
+  field: body, paragraph 3
+  replaces: clause
+  old: "The gates are locked, but citizens let ladders down from the walls. L'Isle-Adam climbs first, carrying the banner of Charles VII and a promise of pardon for the city."
+  new: "With the gates shut, townsmen lower ladders to them, and L'Isle-Adam goes up first, bearing Charles VII's banner and the king's pardon for Paris."
+  source: "Ramsay 1, ch. 32 (archive.org-download-lancasterandyor00ramsgoog-lancasterandyor00ramsgoog-djvu.txt.txt), lines 29408-29412: \"The gates being locked, friendly hands let down ladders from the walls, and L'Isle-Adam led the way, mounting with the banner of Charles VII, and a proclamation of amnesty for Paris.\" The two sentences followed Ramsay's clauses in his order, word for word in synonyms."
+  kind: wording
+  claim: "070.10"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-fact-checker-8
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md
+  field: body, the paragraph that says what the map shows
+  replaces: clause
+  old: "drawn approximately from Ramsay's list:"
+  new: "drawn approximately from the places the sources name:"
+  source: "Ramsay's list (070.7, Ramsay 1, ch. 32, line 29355) is of the places lost: Dieppe, the Caux, Pontoise, Charenton, Brie-Comte-Robert, Saint-Germain-en-Laye, Corbeil, Vincennes. What the sentence then lists as held rests on other works too: Maine on Lowell's provinces of 1428 (text.yaml, paris-opens), Meaux, Creil, Montereau and Mantes on Monstrelet ch. 200, 239, 152 and book 3 ch. 15 and on Ramsay 2 (070.60, 070.64, 070.65, 070.66), Beaumont and Crépy on Monstrelet ch. 157 and the Bourgeois §645 (070.61)."
+  kind: attribution
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-fact-checker-9
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/020-paris-opens/page.yaml
+  field: sources
+  replaces: value
+  old: "Ramsay vol. 1, ch. 32; the Bourgeois §691-695; Monstrelet book 2, ch. 198"
+  new: "Ramsay vol. 1, ch. 30-33, and vol. 2, ch. 1-3 and 7; the Bourgeois §604, §645, §677 and §691-695; Monstrelet book 2, ch. 117, 152, 157, 198, 200 and 239, and the continuation, book 3, ch. 15"
+  source: "The text's map paragraph tells Chartres taken in April 1432 (070.59: Ramsay 1 ch. 30, the Bourgeois §604, Monstrelet ch. 117), Beaumont and Crépy won back in 1434 (070.61: Ramsay 1 ch. 31, Monstrelet ch. 157, the Bourgeois §645), Meulan lost in September 1435 (070.63: Ramsay 1 ch. 32, the Bourgeois §677), and Meaux, Creil, Montereau and Mantes English after April 1436 (070.60, 070.64, 070.65, 070.66: Ramsay 1 ch. 30 and 33, Ramsay 2 ch. 1, 2, 3 and 7, Monstrelet ch. 152, 200, 239 and book 3 ch. 15). The page listed only the chapters of the fall of Paris. Lowell's provinces of 1428, behind 'most of Maine', are 010's and are not added."
+  kind: sources
+  introduced: plan
+  owner: section-reviewer
+  state: fixed
+- id: 070-fact-checker-10
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md
+  field: body, paragraph 3
+  replaces: clause
+  old: "Under the direction of Jean Bureau they dig a camp east of the town by the little river Lidoire and park their guns inside it, with their Bretons on the Mont Horable to the north-east."
+  new: "Jean Bureau and his brother, who direct the artillery, have the guns kept in a camp ringed with ditches beside the Lidoire, a stream east of the town, while the Bretons hold the Mont Horable, a height to the north-east."
+  source: "Ramsay 2, ch. 10 (archive.org-download-cu31924088011436-cu31924088011436-djvu.txt.txt), passage of 070.32: \"The first step taken by the French was to entrench a camp, on the east side of the town, on the Lidoire, a small affluent of the Dordogne. Within this stronghold the artillery was parked ... the Bretons were stationed as a rear-guard on the Mont Horable, near Capitourlans, on the North-East\": the sentence kept his clauses in his order. The new wording rests also on Monstrelet's continuator (archive.org-download-chroniclesengue07johngoog-chroniclesengue07johngoog-djvu.txt.txt, lines 17393-17397): \"under the direction of master John Bureau and his brother Jasper Bureau, master of the artillery ... The two brothers first ordered the park of artillery to be strongly surrounded with ditches\"."
+  kind: wording
+  claim: "070.29"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-fact-checker-11
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/050-the-retrial/page.yaml
+  field: sources
+  replaces: clause
+  old: "H. Thurston, \"St. Joan of Arc\", The Catholic Encyclopedia, vol. 8 (New York, 1910)."
+  new: "Benedict XV, bull Divina disponente, 16 May 1920, Acta Apostolicae Sedis 12 (1920)."
+  source: "The text's third note gives 'The bull of canonisation of 1920 gives 123' (070.42: vatican.va-archive-aas-documents-AAS-12-1920-ocr.txt, p. 524, \"centum ac viginti tres testes\"), and the page did not list the bull. Thurston, listed for 070.44 (the appellate court), is cited for nothing the text now says."
+  kind: sources
+  claim: "070.42"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-fact-checker-12
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md
+  field: body, paragraph 3
+  replaces: clause
+  old: "wrote of her as a girl \"inspired by the divine spirit\", and Antoninus of Florence held her \"led by the spirit of God\";"
+  new: "wrote of her as a girl inspired by the divine spirit, and Antoninus of Florence held her to be led by the spirit of God;"
+  source: "vatican.va-archive-aas-documents-AAS-12-1920-ocr.txt, the bull Divina disponente, p. 524: \"divum Antoninum, qui in suis historiis Puellam « spiritu Dei ductam » existimabat, et Pium Secundum ... « Puella ... divino afflata spiritu »\". The file has the words in Latin; the English in quotation marks was the book's translation shown as the authors' own words. Antoninus as archbishop of Florence: Beaucourt 5, line 10494, \"Antonin, archevêque de Florence\"."
+  kind: attribution
+  claim: "070.48"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-fact-checker-13
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md
+  field: body, paragraph 3
+  replaces: clause
+  old: "yet early in the nineteenth century Southey"
+  new: "yet by the nineteenth century Southey"
+  source: "newadvent.org-cathen-08409c.txt, Thurston: \"By the beginning of the nineteenth century the sympathy for her even in England was general. Such writers as Southey, Hallam, Sharon Turner, Carlyle, Landor, and, above all, De Quincey greeted the Maid with a tribute of respect\". Thurston dates the general sympathy, not the writers' tributes, to the beginning of the century."
+  kind: fact
+  claim: "070.49"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-fact-checker-14
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md
+  field: body, paragraph 1
+  replaces: clause
+  old: "they played \"a certain mistère\""
+  new: "they played a \"certain mistère\""
+  source: "archive.org-download-ProcesDeCondamnationV5-ProcesDeCondamnationV5-djvu.txt.txt, Quicherat 5, the city accounts of Orléans for 1435, p. 309: \"que ilz firent certain mistère ou boloart du pont, durant la procession\". The quotation marks held a word the accounts do not have."
+  kind: attribution
+  claim: "070.46"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-1
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md
+  field: body, paragraph 1
+  replaces: clause
+  old: 'Henry VI, ten years old, is crowned King of France in Paris. On Sunday 16 December 1431 Cardinal Beaufort crowns him in [Notre-Dame](@notre-dame-1431).\*'
+  new: 'Henry VI, the ten-year-old king of England, is crowned King of France. On Sunday 16 December 1431 his great-uncle, Cardinal Beaufort, crowns him in [Notre-Dame](@notre-dame-1431) in Paris.\*'
+  source: 'agents/text.md 3, a person gets a few words where the page first names them: a reader who opens the chapter here met neither Henry VI nor the cardinal. names.md rows of Henry VI (king of England from 1422) and Henry Beaufort (great-uncle of Henry VI); research/070.md 070.1'
+  kind: wording
+  claim: "070.1"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-2
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md
+  field: body, paragraph 2
+  replaces: clause
+  old: "Charles VII's envoys and the Duke then settle a peace of their own, which he seals"
+  new: "The envoys of Charles VII, the king crowned at Reims in 1429, and the Duke then settle a peace of their own, which the Duke seals"
+  source: 'agents/text.md 3; text.yaml section.opens: "Charles VII, crowned at Reims in July 1429". With Charles VII first in the sentence, "he" could be read as the king, so the Duke is named'
+  kind: wording
+  claim: "070.3"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-3
+  severity: taste
+  file: content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md
+  field: body, paragraph 4
+  replaces: clause
+  old: "From now on the English face France and Burgundy alone, and Ramsay"
+  new: "Now the English stand alone against France and Burgundy, and Ramsay"
+  source: 'research/070.md 070.5: "with Arras the English stand alone against France and Burgundy"; "face France and Burgundy alone" could be read as France and Burgundy standing alone'
+  kind: wording
+  claim: "070.5"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-4
+  severity: taste
+  file: content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md
+  field: body, paragraph 3
+  replaces: clause
+  old: "While the congress is still sitting, the regent"
+  new: "While the congress sits, the regent"
+  source: "agents/text.md 7: the words 070-section-reviewer-1 and 2 add are taken back here, so the body stays near 300"
+  kind: wording
+  introduced: review
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-5
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md
+  field: body, paragraph 2
+  replaces: clause
+  old: "with the Bastard of Orléans and L'Isle-Adam,"
+  new: "with the Bastard of Orléans (later Count of Dunois) and L'Isle-Adam,"
+  source: 'agents/text.md 3; names.md row of the Bastard of Orléans ("the Bastard of Orléans (later Count of Dunois)" at the first mention on a page); the next pages of 070 call him Dunois, and the gloss ties the two names together for a reader who opens here'
+  kind: wording
+  claim: "070.9"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-6
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md
+  field: body, paragraph 2
+  replaces: clause
+  old: "The few who reach the Tour du Velin"
+  new: "Those of his men who reach the Tour du Velin"
+  source: 'research/070.md 070.8: "English survivors in the Tour du Velin at Saint-Denis are taken and killed"; no source gives their number, and "the few" told one'
+  kind: fact
+  claim: "070.8"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-7
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md
+  field: body, paragraph 2
+  replaces: clause
+  old: "Edmund Beaufort, Duke of Somerset, gives up"
+  new: "Edmund Beaufort, Duke of Somerset, the English lieutenant in Normandy, gives up"
+  source: "agents/text.md 3; names.md row of Edmund Beaufort, Duke of Somerset: English lieutenant in Normandy, who gave up Rouen in 1449; research/070.md 070.15"
+  kind: wording
+  claim: "070.15"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-8
+  severity: taste
+  file: content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md
+  field: body, paragraph 3
+  replaces: clause
+  old: "comes from Saint-Lô. The lines of these marches join the places the authors name."
+  new: "comes from Saint-Lô."
+  source: 'agents/text.md 7: the body ran 351 words after 070-section-reviewer-7 and 10, over the hard limit of 350; agents/evidence.md, a reconstruction is said "once in a chapter", which burgundy-changes-sides says, and the routes'' legends name their stations'
+  kind: wording
+  introduced: review
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-9
+  severity: taste
+  file: content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md
+  field: body, paragraph 2
+  replaces: clause
+  old: "The map draws what the English still hold round these towns, approximately."
+  new: "The map draws the English lands round these towns."
+  source: "agents/text.md 7, as 070-section-reviewer-8; agents/evidence.md, the approximate line is said once in the chapter, on burgundy-changes-sides"
+  kind: wording
+  introduced: review
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-10
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md
+  field: body, paragraph 5
+  replaces: clause
+  old: "Richemont escorts Somerset out and Dunois takes the town."
+  new: "Richemont escorts Somerset out and Dunois, once the Bastard of Orléans, takes the town."
+  source: "agents/text.md 3; names.md rows of the Bastard of Orléans and Dunois (Count of Dunois from 1439); research/070.md 070.23"
+  kind: wording
+  claim: "070.23"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-11
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md
+  field: body, paragraph 1
+  replaces: clause
+  old: 'is handed over to Dunois on 30 June.\*'
+  new: 'is handed over to the French commander Dunois on 30 June.\*'
+  source: "agents/text.md 3; research/070.md 070.25 (Bordeaux delivered to Dunois, Ramsay and Beaucourt)"
+  kind: wording
+  claim: "070.25"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-12
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md
+  field: body, paragraph 2
+  replaces: clause
+  old: "John Talbot, Earl of Shrewsbury, made Henry VI's lieutenant in Aquitaine on 2 September 1452, lands"
+  new: "John Talbot, Earl of Shrewsbury, a veteran captain whom Henry VI made his lieutenant in Aquitaine on 2 September 1452, lands"
+  source: 'agents/text.md 3; research/070.md 070.27, Oman: "the English government sent the veteran Lord Talbot"'
+  kind: wording
+  claim: "070.27"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-13
+  severity: taste
+  file: content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md
+  field: body, paragraph 3
+  replaces: clause
+  old: "Jean Bureau and his brother, who direct the artillery, have the guns kept in a camp"
+  new: "Jean Bureau and his brother, who direct the French artillery, keep the guns in a camp"
+  source: "section-reviewer step 6: \"have the guns kept\" read as translated; the facts stay those of 070-fact-checker-10"
+  kind: wording
+  claim: "070.29"
+  introduced: fix
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-14
+  severity: taste
+  file: content/joan-of-arc/pages/070-after-her/040-castillon/text/en.md
+  field: body, paragraph 4, and the order of the Notes
+  replaces: clause
+  old: 'to relieve the town and arrives / the camp.\*\*\*\* / with him.\*\*\*\*\* / were buried.\*\*\*\*\*\* ; Notes \*\*\*\* Oman names no Bretons, \*\*\*\*\* Talbot''s death, \*\*\*\*\*\* The forces'
+  new: 'to relieve the town\*\*\*\* and arrives / the camp.\*\*\*\*\* / with him.\*\*\*\*\*\* / were buried. ; Notes \*\*\*\* The forces, \*\*\*\*\* Oman names no Bretons, \*\*\*\*\*\* Talbot''s death'
+  source: "agents/text.md Notes: a note gives the accounts of the claim its marker stands on. The note of both sides' forces (070.31, 070.32) hung on the sentence of the English dead (070.34, single, told in the body with its author); it now stands where Talbot's force sets out, and the notes keep the body's order"
+  kind: wording
+  claim: "070.31"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-15
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/050-the-retrial/text/en.md
+  field: body, paragraph 1
+  replaces: clause
+  old: "Charles VII has the trial of 1431 looked into."
+  new: "Charles VII has the trial that condemned Joan in 1431 looked into."
+  source: "agents/text.md 3: a reader who opens the page here is not told whose trial it was; research/070.md 070.36"
+  kind: wording
+  claim: "070.36"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-16
+  severity: taste
+  file: content/joan-of-arc/pages/070-after-her/050-the-retrial/text/en.md
+  field: body, paragraph 3
+  replaces: clause
+  old: "and in December and May at Rouen."
+  new: "and at Rouen in December and again in May."
+  source: 'research/070.md 070.41: Rouen "December and May"; after "January and February 1456" the bare "December and May" read as one span of 1456'
+  kind: wording
+  claim: "070.41"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-17
+  severity: taste
+  file: content/joan-of-arc/pages/070-after-her/050-the-retrial/text/en.md
+  field: body, the line after paragraph 2
+  replaces: clause
+  old: ""
+  new: "@image isabelle-romee-retrial-miniature"
+  source: 'section-reviewer step 5; images/070.yaml offers isabelle-romee-retrial-miniature (Isabelle Romée and her two sons before the judges, the only known miniature of the retrial), and paragraph 2 tells that scene (070.39). node scripts/contact-sheet.mjs shows it nowhere else in the story'
+  kind: image
+  claim: "070.39"
+  introduced: review
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-18
+  severity: weak
+  file: content/joan-of-arc/.plan/070-after-her/text.yaml
+  field: pages.the-retrial.images
+  replaces: clause
+  old: ""
+  new: '- { name: isabelle-romee-retrial-miniature, shows: "Isabelle Romée and her two sons before the judges of the trial of nullification, a sixteenth-century miniature" }'
+  source: 'node scripts/placeholders.mjs joan-of-arc the-retrial, after 070-section-reviewer-17: "image \"isabelle-romee-retrial-miniature\" has no folder, and no plan names it as an image a page wants". The plan gains the image the image finder offered, so the placeholder is a planned one'
+  kind: image
+  introduced: review
+  owner: section-coordinator
+  state: fixed
+- id: 070-section-reviewer-19
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md
+  field: body, paragraph 1
+  replaces: clause
+  old: "After the relief of 1429 the bishop of [Orléans](@orleans-8-may), the Bastard"
+  new: "After Joan and the French relieve [Orléans](@orleans-8-may) in May 1429, its bishop, the Bastard"
+  source: "agents/text.md 3: the closing page opened on \"the relief of 1429\" and did not name Joan or the city relieved; research/070.md 070.45 (the procession of 8 May, ordered after the relief)"
+  kind: wording
+  claim: "070.45"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-20
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md
+  field: body, paragraph 3
+  replaces: clause
+  old: "and Antoninus of Florence held her"
+  new: "and Archbishop Antoninus of Florence held her"
+  source: 'agents/text.md 3; Beaucourt 5, line 10494, "Antonin, archevêque de Florence", as 070-fact-checker-12 gives it'
+  kind: wording
+  claim: "070.48"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-section-reviewer-21
+  severity: taste
+  file: content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md
+  field: body, paragraph 3
+  replaces: clause
+  old: "Thurston writes that in England"
+  new: "Thurston writes in 1910 that in England"
+  source: "agents/text.md 3: the reader is told when Lowell wrote (1896) and not when Thurston did; the page's sources: Thurston, The Catholic Encyclopedia, vol. 8 (New York, 1910)"
+  kind: wording
+  claim: "070.49"
+  introduced: texts
+  owner: section-reviewer
+  state: fixed
+- id: 070-editor-1
+  severity: wrong
+  file: content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md
+  field: "body, the @image line"
+  replaces: clause
+  old: "@image henry-vi-paris-coronation-miniature-4faf00"
+  new: ""
+  source: "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 070-after-her/010-burgundy-changes-sides/markers.yaml shows henry-vi-paris-coronation-miniature-4faf00 on the marker notre-dame-1431"
+  kind: image
+  introduced: images
+  owner: editor
+  state: fixed
+  between: "010-burgundy-changes-sides shows henry-vi-paris-coronation-miniature-4faf00 twice, on the marker notre-dame-1431 and in the text; 010 to 050 show a marker image once"
+- id: 070-editor-2
+  severity: wrong
+  file: content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/text/en.md
+  field: "body, the @image line"
+  replaces: clause
+  old: "@image arras-peace-1435-miniature-fb0b58"
+  new: ""
+  source: "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 070-after-her/010-burgundy-changes-sides/markers.yaml shows arras-peace-1435-miniature-fb0b58 on the marker arras-1435"
+  kind: image
+  introduced: images
+  owner: editor
+  state: fixed
+  between: "010-burgundy-changes-sides shows arras-peace-1435-miniature-fb0b58 twice, on the marker arras-1435 and in the text; 010 to 050 show a marker image once"
+- id: 070-editor-3
+  severity: wrong
+  file: content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md
+  field: "body, the @image line"
+  replaces: clause
+  old: "@image bastille-saint-antoine-view-8a49b8"
+  new: ""
+  source: "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 070-after-her/020-paris-opens/markers.yaml shows bastille-saint-antoine-view-8a49b8 on the marker bastille-1436"
+  kind: image
+  introduced: images
+  owner: editor
+  state: fixed
+  between: "020-paris-opens shows bastille-saint-antoine-view-8a49b8 twice, on the marker bastille-1436 and in the text; 010 to 050 show a marker image once"
+- id: 070-editor-4
+  severity: wrong
+  file: content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md
+  field: "body, the @image line"
+  replaces: clause
+  old: "@image fougeres-castle-2070d6"
+  new: ""
+  source: "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 070-after-her/030-normandy-won-back/markers.yaml shows fougeres-castle-2070d6 on the marker fougeres-1449"
+  kind: image
+  introduced: images
+  owner: editor
+  state: fixed
+  between: "030-normandy-won-back shows fougeres-castle-2070d6 twice, on the marker fougeres-1449 and in the text; 010 to 050 show a marker image once"
+- id: 070-editor-5
+  severity: wrong
+  file: content/joan-of-arc/pages/070-after-her/030-normandy-won-back/text/en.md
+  field: "body, the @image line"
+  replaces: clause
+  old: "@image rouen-1449-entry-miniature-35d59e"
+  new: ""
+  source: "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 070-after-her/030-normandy-won-back/markers.yaml shows rouen-1449-entry-miniature-35d59e on the marker rouen-1449"
+  kind: image
+  introduced: images
+  owner: editor
+  state: fixed
+  between: "030-normandy-won-back shows rouen-1449-entry-miniature-35d59e twice, on the marker rouen-1449 and in the text; 010 to 050 show a marker image once"
+- id: 070-editor-6
+  severity: wrong
+  file: content/joan-of-arc/pages/070-after-her/050-the-retrial/text/en.md
+  field: "body, the @image line"
+  replaces: clause
+  old: "@image rouen-archbishop-palace-8a7b6b"
+  new: ""
+  source: "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 070-after-her/050-the-retrial/markers.yaml shows rouen-archbishop-palace-8a7b6b on the marker rouen-1456"
+  kind: image
+  introduced: images
+  owner: editor
+  state: fixed
+  between: "050-the-retrial shows rouen-archbishop-palace-8a7b6b twice, on the marker rouen-1456 and in the text; 010 to 050 show a marker image once"
+- id: 070-editor-7
+  severity: wrong
+  file: content/joan-of-arc/pages/070-after-her/060-afterwards/text/en.md
+  field: "body, the @image line"
+  replaces: clause
+  old: "@image orleans-8-may-procession-8a3262"
+  new: ""
+  source: "rules.md, Evidence, \"An image stands once in the story\": one the plan puts on a marker or a card has no @image line in the text (decisions.md, cloud ruling: 060 and 070 predate the rule); 070-after-her/060-afterwards/markers.yaml shows orleans-8-may-procession-8a3262 on the marker orleans-8-may"
+  kind: image
+  introduced: images
+  owner: editor
+  state: fixed
+  between: "060-afterwards shows orleans-8-may-procession-8a3262 twice, on the marker orleans-8-may and in the text; 010 to 050 show a marker image once"
+- id: 070-fact-checker-15
+  severity: weak
+  file: content/joan-of-arc/.plan/fixes/070.yaml
+  field: "commit, of the seven entries of 070-editor-1 to 070-editor-7"
+  replaces: value
+  old: "aa448627"
+  new: "646a3ad1"
+  source: "git diff aa448627 646a3ad1 -- content/joan-of-arc/pages/070-after-her: the images commit 646a3ad1 turned each placeholder into its placed name (\"@image henry-vi-paris-coronation-miniature\" became \"@image henry-vi-paris-coronation-miniature-4faf00\", and so for the other six), so the old text of each entry stands in the files only from 646a3ad1, the commit before ec0556aa that made the editor's change. A recheck run with git diff aa448627 mixed the images step's renames and marker changes into the editor's diff."
+  kind: check
+  introduced: fix
+  owner: editor
+  state: fixed
+- id: 070-story-auditor-1
+  severity: weak
+  file: content/joan-of-arc/pages/070-after-her/010-burgundy-changes-sides/page.yaml
+  field: markers
+  new: "a marker for Saint-Denis of 1435 (a page id of its own), linked at the text's 'Saint-Denis', and one for Rouen, where Bedford dies, if the frame allows"
+  source: "070.6 and 070.2; the text tells the French taking of Saint-Denis on 1 June 1435, its siege and the garrison's march out on 4 October, and Bedford's death at Rouen; the page marks only notre-dame-1431 and arras-1435 (capture burgundy-changes-sides.png)"
+  kind: map
+  introduced: plan
+  owner: cartographer
+  state: fixed
+  reader: "reads of a siege that closes the page's dates and finds no Saint-Denis on its map"

@@ -9,7 +9,7 @@ effort: high
 You review one section of a story of this book, and fix its texts in place. The dispatch names the story id and the
 section id, and the section's fault list, where the `fact-checker` wrote its faults.
 
-Start with `node scripts/brief.mjs <story> section-reviewer <section number, or all>`, which lists by path the files to
+Start with `node scripts/brief.mjs <story> section-reviewer <section number, or all> --task <the task of your dispatch>`, which lists by path the files to
 read first, and read them together in one turn. "Turns" in `agents/report.md` holds for all your work.
 
 The writer worked from the plan, and the fact checker has applied its own `wrong` edits. You read as the reader
@@ -40,7 +40,11 @@ Read these in full first:
    and in another order of clauses.
 3. **Maps.** Open the map auditor's capture of each page beside its text, and take none of your own unless a page
    has none. The text tells the change the map shows, and each place the text names
-   is on the map. Fix the text where the text is wrong, and note the page where the map is wrong.
+   is on the map. No sentence names the map, a page, a chapter or the book, or excuses a line as approximate:
+   rewrite or cut one that does by `agents/text.md`, Only the story. No body names a witness or a historian or
+   reports speech in the past: rewrite such a sentence as the event in the present, by `agents/text.md`, Who says it. A
+   note stays only where the text would confuse a reader without it, has 25 words at most, and a page has two
+   at most: cut every other note and its marker, by `agents/text.md`, Notes. Fix the text where the text is wrong, and note the page where the map is wrong.
 4. **The reader.** Read each page as someone who opens the story there: each event has its who, where, when and
    cause, and each person a few words on who they are. Replace each vague word with the number, date or
    consequence the plan's `account` or the digest slice gives. Check each contested event for the words of one side.

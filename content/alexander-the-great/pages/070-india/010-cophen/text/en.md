@@ -8,8 +8,6 @@ Alexander takes his best troops north of the river into the hills of [Bajaur](@b
 
 The largest town of the region, [Massaga](@massaga-327), holds out with the help of 7,000 mercenaries from further inside India. Its site is unknown; Bosworth places it north of the Swat river, near the Katgala pass. An arrow from the wall wounds Alexander in the ankle. After four days of assaults the town's commander is killed and the defenders ask for terms. The mercenaries are to join Alexander's army, and they march out with their arms and camp on a hill. There they are cut down.\*
 
-The borders on this chapter's maps are approximate, and so are the routes of the two columns.
-
 ### Notes
 
 \* Arrian says the mercenaries planned to slip home by night rather than fight other Indians, so Alexander surrounded the hill in the dark and killed them. Diodorus has them leave under the truce, suspecting nothing, until Alexander follows them and falls on them. Plutarch calls the deed a stain on Alexander's record as a soldier.

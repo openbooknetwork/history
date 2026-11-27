@@ -10,7 +10,7 @@ In late spring, with the army gathered at [Bactra](@bactra-327) (today Balkh), A
 
 Hermolaus, a royal page whom Alexander had flogged, plots with other pages to kill the king in his sleep. Bosworth thinks the quarrel over proskynesis may have helped drive them to it. The plot is betrayed and the pages are stoned to death. Callisthenes, close to Hermolaus, is arrested; how he died is disputed.\*\*\*\*
 
-After nearly two years of fighting by Bosworth's reckoning the risings are over, and on the map Sogdiana is wholly Alexander's. Alexander leaves Amyntas, son of Nicolaus, as satrap of Bactria and Sogdiana with 10,000 foot and 3,500 horse, and at the end of spring sets out for India.
+After nearly two years of fighting by Bosworth's reckoning the risings are over, and Sogdiana is wholly Alexander's. Alexander leaves Amyntas, son of Nicolaus, as satrap of Bactria and Sogdiana with 10,000 foot and 3,500 horse, and at the end of spring sets out for India.
 
 ### Notes
 

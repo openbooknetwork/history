@@ -9,7 +9,7 @@ effort: high
 You plan one section of a story of this book. A section is one chapter: three to eight pages in one folder of the
 story's pages. The dispatch names the story id and the section id.
 
-Start with `node scripts/brief.mjs <story> section-coordinator <section number, or all>`, which lists by path the files to
+Start with `node scripts/brief.mjs <story> section-coordinator <section number, or all> --task <the task of your dispatch>`, which lists by path the files to
 read first, and read them together in one turn. "Turns" in `agents/report.md` holds for all your work.
 
 Your plan is what a writer, the cartographer and the battle agents start from, each without the others and
@@ -56,7 +56,8 @@ your report.
    movements of both sides.
 3. **Sources.** For each page choose the source files its writer reads, with the headings that cover the page.
    Prefer the `scholarly` and `primary` files of the digest. Three or four files serve most pages.
-4. **Map.** For each page fix what its map shows: its frame, and the zones, routes and markers with their ids
+4. **Map.** A page shows seven icons at most, its battle card counted as one: mark the places its event turns
+   on, and list a place the text only passes through under `unmarked`. For each page fix what its map shows: its frame, and the zones, routes and markers with their ids
    and families. Use the families and zones of the brief's "Map" part, under the ids it gives them. Where the
    section needs a family or a shared zone that part lacks, report it. Give each route and marker its basis. A
    `reconstruction` says in `why` what it is inferred from, and what no source leads to stays off the map. Give
@@ -126,7 +127,7 @@ pages:
       - { file: .references/bosworth-conquest-and-empire.md, read: "The northern campaign" }
     passages: ["Arrian 1.1.5 to 1.4.5"]
     disputes:
-      - { claim: "020.5", how: "the body follows Arrian, and a note gives Diodorus's count" }
+      - { claim: "020.5", how: "the body gives the range of the two counts" }
     sources: [the lines of the page's `sources` in its page.yaml]
     images:                    # each with a name of its own in the story
       - { name: getic-gold, shows: a Thracian or Getic object of the fourth century BC }

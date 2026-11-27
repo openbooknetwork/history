@@ -1,0 +1,16 @@
+- step: plans
+  task: add
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/research.md
+    - content/joan-of-arc/.plan/research/040.md
+    - content/joan-of-arc/.plan/faults/040.yaml
+    - content/joan-of-arc/.plan/fixes/040.yaml
+  faults: []
+  unresolved:
+    - "Who charged Talbot (040.92): Lowell alone has the Bastard of Orléans charge him; Ramsay and the Journal give the vanguard to La Hire and Poton, and Wavrin puts the Bastard in the main body. Proposed: the phase page tells La Hire and Poton, and names Lowell's Bastard only in a note, if at all."
+    - "Where the English stood when struck (040.91): Wavrin's hedges against Monstrelet's fall back to the plain, Cagny's field and Gruel's open country. Proposed: the phases keep Wavrin's order, the one eyewitness from the English side, and a note gives Monstrelet's, Cagny's and Gruel's open ground with their names."
+  stale:
+    - "content/joan-of-arc/.plan/040-the-loire-and-reims/battles/patay-1429.yaml: french-scouts strength can be 'sixty or eighty (Wavrin, Monstrelet)' from 040.88, and the halt of patay-the-hedges can rest on 040.89 (Wavrin's league) and not on 040.39 alone"
+  counts: { added: 5, agreed: 0, agreed_in_part: 2, single: 2, disputed: 1, open: 0 }
+  thin: []

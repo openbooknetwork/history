@@ -1,4 +1,4 @@
-The two armies meet on a narrow coastal plain between the sea and the Amanus foothills, cut by the river Pinarus with its steep banks. Which stream the Pinarus was is not known; the field is drawn at the Kuru Çay, where the historian A. B. Bosworth suggests it may have been.\*
+The two armies meet on a narrow coastal plain between the sea and the Amanus foothills, cut by the river Pinarus with its steep banks. Which stream the Pinarus was is not known; the historian A. B. Bosworth suggests the Kuru Çay.\*
 
 [Darius III](@issus-lines-darius) forms his line on the north bank while a screen of cavalry and light infantry covers him from across the river. He sets 30,000 Greek mercenaries opposite the Macedonian phalanx, with the Persian infantry called Cardaces beside them, and takes his place with his guard to the left of the centre.\*\* On his left the infantry runs on into the foothills, and some troops on the hill stand behind Alexander's right. Then he recalls the screen and masses most of his cavalry by the sea under [Nabarzanes](@issus-lines-nabarzanes), where the ground suits horsemen.
 

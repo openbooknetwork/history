@@ -1,0 +1,7 @@
+At the south end of the bridge of Orléans, on a pier, stand [the Tourelles](@tourelles), a gatehouse joined by a drawbridge to [the boulevard of the Tourelles](@tourelles-boulevard), an earthwork on the shore. On the city side three arches of the bridge are broken. The English captain William Glasdale holds the fort.
+
+On Saturday 7 May, with the townsmen of Orléans behind Joan, the French attack the boulevard from the south bank. From the city the townsmen lay gutters and ladders across the broken arches, a carpenter lengthening the longest gutter, and attack the Tourelles from the bridge too. Their guns fire from [the Île Saint-Antoine](@ile-saint-antoine), an island in the Loire. The fight lasts until sunset, or until eight in the evening.
+
+Joan is hit while planting a scaling ladder at the boulevard: an arrow strikes her in the neck, or between the neck and the shoulder. She is carried back, the wound is dressed, and she returns. Towards evening, when the captains mean to draw off, she rides apart into a vineyard and prays for about half an hour. Then she sets her standard at the edge of the ditch, and the French go up the boulevard and take it.
+
+As the English of the boulevard make for the Tourelles, the drawbridge gives way under them. Glasdale, Sir William Moleyns, Sir Hugh Poynings and many others fall into the Loire and drown, and the Tourelles are taken. With Saint-Privé empty since the night before, the English hold nothing south of the river. Joan rides back into the city over the patched bridge while the bells ring.

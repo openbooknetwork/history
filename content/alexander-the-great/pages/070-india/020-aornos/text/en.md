@@ -1,6 +1,6 @@
 After the fall of Massaga, in winter 327–326 BC, the people of the Swat country flee to the rock of Aornos. A local story said that even Heracles had failed to take it. Arrian doubts the tale, but he says it made Alexander want the rock all the more. A single steep path led to the top.\*
 
-Where the rock stood is disputed, and the map draws Stein's Pir Sar, a spur above a bend of the Indus, as a reconstruction.\*\*
+Where the rock stood is disputed; Stein placed it at Pir Sar, a spur above a bend of the Indus.\*\*
 
 @image mount-ilam-barikot-d2168e
 

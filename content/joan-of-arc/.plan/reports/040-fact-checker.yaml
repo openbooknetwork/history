@@ -1,0 +1,168 @@
+- step: plan-check
+  task: plan-check
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/040-the-loire-and-reims/map.yaml
+    - content/joan-of-arc/.plan/040-the-loire-and-reims/text.yaml
+    - content/joan-of-arc/.plan/040-the-loire-and-reims/battles.yaml
+    - content/joan-of-arc/shared/battles/jargeau-1429/battle.yaml
+    - content/joan-of-arc/.plan/research/040.md
+    - content/joan-of-arc/.plan/research.md
+    - content/joan-of-arc/.plan/faults/040.yaml
+    - content/joan-of-arc/.plan/fixes/040.yaml
+  faults: [040-fact-checker-1, 040-fact-checker-2, 040-fact-checker-3, 040-fact-checker-4, 040-fact-checker-5, 040-fact-checker-6, 040-fact-checker-7, 040-fact-checker-8, 040-fact-checker-9, 040-fact-checker-10, 040-fact-checker-11, 040-fact-checker-12, 040-fact-checker-13, 040-fact-checker-14, 040-fact-checker-15, 040-fact-checker-16, 040-fact-checker-17, 040-fact-checker-18, 040-fact-checker-19]
+  unresolved: []
+  stale:
+    - "content/joan-of-arc/.plan/research-040.md and passages-040.md: slices made by script, still read 'Lowell, from Alençon' for 040.6; run the slice and passages scripts again"
+    - "content/joan-of-arc/.plan/brief.md, Map, Families: joan lists section 040, which has no joan route since 040-fact-checker-1"
+  notes:
+    - "All 13 routes checked against their passages; the 6 pages' zones all stand in the brief's Map table with their 040 pages; when and date agree with the claims; every card figure stands in a file with its author."
+    - "Cagny also gives Montmirail on 1 August between Château-Thierry and Provins (lines 1240-1241); france-1429-provins leaves it out, which the rule allows."
+- step: facts
+  task: check
+  status: pass
+  changed_files:
+    - content/joan-of-arc/pages/040-the-loire-and-reims/020-meung-and-beaugency/text/en.md
+    - content/joan-of-arc/pages/040-the-loire-and-reims/030-patay/text/en.md
+    - content/joan-of-arc/pages/040-the-loire-and-reims/030-patay/page.yaml
+    - content/joan-of-arc/pages/040-the-loire-and-reims/040-auxerre-and-troyes/text/en.md
+    - content/joan-of-arc/pages/040-the-loire-and-reims/050-reims/markers.yaml
+    - content/joan-of-arc/pages/040-the-loire-and-reims/060-the-towns-come-over/text/en.md
+    - content/joan-of-arc/pages/040-the-loire-and-reims/060-the-towns-come-over/page.yaml
+    - content/joan-of-arc/.plans/pages040.mjs
+    - content/joan-of-arc/.plan/040-the-loire-and-reims/map.yaml
+    - content/joan-of-arc/.plan/040-the-loire-and-reims/text.yaml
+    - content/joan-of-arc/.plan/research.md
+    - content/joan-of-arc/.plan/research/040.md
+    - content/joan-of-arc/.plan/names.md
+    - content/joan-of-arc/.plan/faults/040.yaml
+    - content/joan-of-arc/.plan/fixes/040.yaml
+  faults: [040-fact-checker-20, 040-fact-checker-21, 040-fact-checker-22, 040-fact-checker-23, 040-fact-checker-24, 040-fact-checker-25, 040-fact-checker-26, 040-fact-checker-27, 040-fact-checker-28, 040-fact-checker-29, 040-fact-checker-30, 040-fact-checker-31, 040-fact-checker-32, 040-fact-checker-33, 040-fact-checker-34, 040-fact-checker-35, 040-fact-checker-36]
+  unresolved:
+    - "040.3, 040.6, 040.7 (disputed): Jargeau's armies and losses by author, in the notes and on the card; the body names no total"
+    - "040.10 (by author for how many): prisoners killed on the road, most in Chartier, some in Lowell and Lang"
+    - "040.15, 040.16 (disputed): Richemont on Friday 17 June with Cagny's 500 or 600 in the body; Lang's 16 June and Laval's 600 and 400 in a note"
+    - "040.17 (disputed): both accounts of the meeting in a note, Gruel's and the Chronique de la Pucelle's, with Lowell's 'fantastical'"
+    - "040.19 (disputed): the night of 17 to 18 June in the body with the chronicles; Lang's hedged night earlier in a note (040-fact-checker-20)"
+    - "040.22, 040.35, 040.36 (disputed): Patay's strengths and losses by author on the card; the body says the French lost few"
+    - "040.32 (disputed): Talbot's captors as Gruel's, the archers of Poton"
+    - "040.38, 040.39 (disputed): 18 June in the body, Oman's 17 June and the five sites, each with its author, in a note"
+    - "040.54, 040.56 (disputed): Cagny's 8 and 10 July in the body; Lowell's 5 July, Ramsay's 6 and 9 July, the Journal's five days and Monstrelet's three in notes"
+    - "040.61 (by author): where Friar Richard joined, Monstrelet's Gien and Lowell's Troyes, in a note"
+    - "040.69 (open): the Journal's scene told as the Journal's, with Lowell's 'cannot be known'"
+    - "040.71 (disputed): the envoys at Reims in the body, Ramsay's 16 July and Lowell's end of the consecration in a note"
+    - "040.76 (disputed): 21 July in the body, France's and the Journal's 20 July in a note"
+    - "040.84, 040.85 (disputed): Beaufort's reinforcement and the Champagne garrisons each with its author"
+  stale:
+    - "content/joan-of-arc/.plan/research-040.md, passages-040.md and names-040.md: slices made by script, which still read 'while the two treated' for 040.82 and lack the new terms; run the slice and passages scripts again"
+  turns_on:
+    - "040.4 Jargeau stormed on 12 June: Cagny, the Journal, Chartier (Quicherat 4)"
+    - "040.5 Suffolk taken, Alexander killed: Chartier and the Journal (Quicherat 4), Ramsay ch. 27"
+    - "040.18, 040.19 Beaugency yields on terms on the morning of 18 June: Cagny, the Journal, Wavrin (Quicherat 4), Ramsay"
+    - "040.29 Patay won by the French vanguard before the English formed: Wavrin, Gruel, Cagny, the Journal (Quicherat 4)"
+    - "040.31 Talbot taken: Wavrin, the Journal (Quicherat 4), Alençon's deposition (Murray), Ramsay"
+    - "040.42 the English lose the Loire about Orléans and the Beauce: Cagny and the Journal (Quicherat 4), Lowell ch. 10"
+    - "040.47 the council turns from Normandy to Reims: Dunois's deposition (Murray), Cagny (Quicherat 4)"
+    - "040.57-040.59 Troyes yields, entered 10 July: the Journal and Cagny (Quicherat 4), Dunois (Murray), Lowell"
+    - "040.64 anointed and crowned 17 July: Cagny (Quicherat 4), the Angevin letter (Quicherat 5), Ramsay"
+    - "040.65 Joan beside the king with her standard: the Angevin letter (Quicherat 5)"
+    - "040.81 the towns that came over: Ramsay ch. 27, Beaucourt 2 p. 235"
+    - "040.82 the turn away from Paris: Ramsay (La Trémoille) and Beaucourt (to spare Burgundy), each named"
+  claims_checked: { jargeau: 24, meung-and-beaugency: 21, patay: 29, auxerre-and-troyes: 25, reims: 22, the-towns-come-over: 21 }
+  notes:
+    - "close-wording.mjs found no sentence; a five-word scan against every source file found only names and set phrases, and the one quotation (Barrett, 17 March 1431) matches the file word for word."
+    - "The edit hook still flags, from before this run: 'Marshal' alone in patay's note *** ('the Marshal de Boussac', which names.md's Boussac row asks for), and names.md rows for Richemont, La Trémoille and Wavrin say 010 or 020 as 'First named in' while 040 is the first text to name them. Both are for the names agent."
+    - "The images of 040 were not checked: they are not placed in any text yet (the image-finder's work, untracked in shared/images), so no caption stands on a page."
+    - "patay's body is now 345 words, under the hard limit of 350."
+- step: facts
+  task: recheck
+  status: pass
+  changed_files:
+    - content/joan-of-arc/pages/040-the-loire-and-reims/010-jargeau/text/en.md
+    - content/joan-of-arc/.plan/faults/040.yaml
+    - content/joan-of-arc/.plan/fixes/040.yaml
+  faults: [040-fact-checker-37]
+  unresolved: []
+  stale: []
+  rechecked: [040-fact-checker-20, 040-fact-checker-21, 040-fact-checker-22, 040-fact-checker-23, 040-fact-checker-24, 040-fact-checker-25, 040-fact-checker-26, 040-fact-checker-27, 040-fact-checker-28, 040-fact-checker-29, 040-fact-checker-30, 040-fact-checker-31, 040-fact-checker-32, 040-fact-checker-33, 040-fact-checker-34, 040-fact-checker-35, 040-fact-checker-36, 040-section-reviewer-1, 040-section-reviewer-2, 040-section-reviewer-3, 040-section-reviewer-4, 040-section-reviewer-5, 040-section-reviewer-6, 040-section-reviewer-7, 040-section-reviewer-8, 040-section-reviewer-9]
+  notes:
+    - "Every fix logged on 7854a89c stands in git diff 7854a89c as its entry gives it, and each new wording was read against its source line: Lang ch. 14 lines 7237-7242, Monstrelet lines 39247-39248 and 39407-39409, Lowell lines 6385-6397 and 6893, Oman line 19626, Beaucourt 2 line 12737, Rogier (Quicherat 4) line 11904, Lang line 7978, Laval's letter (Quicherat 5) lines 5777 and 5943, Lang lines 7097-7098, Cagny line 1095."
+    - "040-section-reviewer-2 took out Alexander's death in the retreat to the bridge as resting on no claim. The Journal has it (Quicherat 4, lines 7108-7110: \"en y eulx retirant, fut tué messire Alixandre\"), and another chronicle there has him drown at the bridge (line 2145). The new sentence is true and drops only that detail; its wording followed Ramsay's clauses, reworded under 040-fact-checker-37."
+    - "The edit hook flags names.md's row for Suffolk as first named in 010 (010.63) where 040 is the first text to name him, as it flagged Richemont, La Trémoille and Wavrin before: for the names agent."
+    - "plan-check.mjs 040: ok. close-wording.mjs 040: none after the rewording."
+- step: edit
+  task: recheck
+  status: pass
+  changed_files: []
+  faults: []
+  unresolved: []
+  stale: []
+  rechecked: [040-editor-1, 040-editor-2, 040-editor-3]
+  notes:
+    - "git diff aa448627 on the 040 texts shows each editor fix as its fix-log entry gives it and no other change of words; the rest of the diff is the images step's placed names."
+    - "040-editor-1 and -2: Alençon's and Dunois's words stand in Murray's depositions, which he heads 1455, 1455-6 and 1456 by place (lines 889-899), so 'at the retrial' is true and follows rules.md. No 1455 or 1456 is left in a 040 text or marker."
+    - "040-editor-3: Lowell ch. 13 (lines 13888-13894) names 'Cardinal Beaufort, the great-uncle of Henry VI', and the Fordham trial page (line 11321) says 'great-uncle of the King'."
+    - "The eleven captions placed by the images step were read against .candidates/the-loire-and-reims/index.yaml. Each maker, year and subject stands in its entry."
+    - "close-wording.mjs 040 now flags 67% for 'His brother Alexander de la Pole is killed, and another brother is taken with him' (040-fact-checker-37), against Ramsay's 'his brother John were taken ; a third brother, Alexander de la Pole, was killed'. It shares names and three plain words, in the reverse order, so it stays. plan-check.mjs 040: ok. placeholders.mjs on jargeau, patay and the-towns-come-over: ok. patay's body is about 349 words, under the 350 limit."
+    - "The disputed and open claims stand as the facts-check entry above lists them, and no fix changed how a text tells them."
+  claims_checked: { jargeau: 1, patay: 1, the-towns-come-over: 1 }
+- step: facts
+  task: check
+  pages: [patay, patay-the-hedges, patay-the-stag, patay-the-rout]
+  status: pass
+  changed_files:
+    - content/joan-of-arc/pages/040-the-loire-and-reims/031-patay-the-hedges/text/en.md
+    - content/joan-of-arc/pages/040-the-loire-and-reims/033-patay-the-rout/text/en.md
+    - content/joan-of-arc/.plan/faults/040.yaml
+    - content/joan-of-arc/.plan/fixes/040.yaml
+  faults: [040-fact-checker-52, 040-fact-checker-53]
+  unresolved:
+    - "040.30 (single, by author): the stakes told as Monstrelet's, whose English stand on the plain, and Oman's after him; Wavrin gives none (patay-the-stag; patay says 'the English on foot')"
+    - "040.32 (disputed): Talbot taken by the archers of Xaintrailles in Gruel, named (patay, patay-the-stag)"
+    - "040.35, 040.36 (disputed): the English losses by author in patay-the-rout's note and on the card; the vanguard's 1,400 to 1,500 (the Journal) and Monstrelet's main body of 8,000 to 9,000 in patay-the-hedges' note and the unit labels"
+    - "040.38, 040.39 (disputed): 18 June in each body; the five places, each with its author, in a note of each phase page, Anatole France's Lignerolles wood among them as rules.md asks for Patay"
+    - "040.91 (disputed): where the English stood, Wavrin's narrow way and hedges in the bodies, Monstrelet's fall back to the plain named in patay-the-stag"
+    - "040.92 (disputed for who charged Talbot): the vanguard under La Hire and Xaintrailles in the body, Ramsay's surround and Lowell's Bastard in patay-the-stag's note"
+    - "040.93 (disputed): Wavrin's main body taken or killed at the French's will in patay-the-rout's body, Ramsay's main body keeping together to Étampes in its note"
+  stale: []
+  turns_on:
+    - "040.29 the French vanguard rides into Talbot's narrow way before the English join at the hedges, and the English vanguard flees on seeing Fastolf: Wavrin, Quicherat 4 pp. 421-423, who was there; the Journal p. 177 and Gruel p. 319 for the French vanguard and the rout"
+    - "040.31 Talbot, Scales, Rempston and Hungerford taken: Wavrin p. 423, the Journal p. 177 (Quicherat 4), Monstrelet book 2 ch. 61, Ramsay ch. 27"
+    - "040.33 Fastolf flees with a small company to Étampes by midnight: Wavrin p. 424 (Quicherat 4), Monstrelet book 2 ch. 61 for his not having dismounted"
+  claims_checked: { patay: 1, patay-the-hedges: 21, patay-the-stag: 19, patay-the-rout: 20 }
+  notes:
+    - "patay changed only in 040-battle-implementor-3's clause since its last recheck (git diff ec0556aa e4e8ea09); 'the English on foot' is Monstrelet's 'those who had dismounted' (lines 39207-39209)."
+    - "Each phase text was read against Wavrin pp. 419-424 (lines 16380-16590), Monstrelet lines 39170-39235, the Journal lines 7238-7300, Gruel lines 12648-12672, Ramsay lines 25040-25078, Oman lines 19588-19615 and France lines 15250-15312. 'The main body gallops up' on patay-the-stag stands in Gruel: 'adonc galopèrent grand erre, et la bataille après'."
+    - "The Journal's 'near the village of Patay' (040.39) rests on Quicherat's bracketed words for a gap ('[ains s'arrestèrent près d'un] village en Beausse nommé Pathay', line 7261); the manuscript has the village. Left as it stands on all four pages."
+    - "The three phase markers.yaml notes, the unit and arrow labels of the page files, each page's date and when, and each listed source were checked; every work the texts name is listed. No phase page has an image. close-wording.mjs: none; a five-word scan found only names, the order of march in Wavrin's order (attributed), and set phrases. plan-check.mjs 040 and placeholders.mjs: ok. Bodies: 285, 252 and 195 words."
+- step: facts
+  task: recheck
+  pages: [patay-the-hedges, patay-the-stag, patay-the-rout]
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/faults/040.yaml
+    - content/joan-of-arc/.plan/fixes/040.yaml
+  faults: [040-fact-checker-54]
+  unresolved: []
+  stale: []
+  rechecked: [040-battle-auditor-6, 040-section-reviewer-15, 040-section-reviewer-16, 040-section-reviewer-17, 040-section-reviewer-18, 040-section-reviewer-19, 040-section-reviewer-20, 040-section-reviewer-21, 040-section-reviewer-22, 040-section-reviewer-23, 040-section-reviewer-24]
+  turns_on:
+    - "040.29 the French vanguard in Talbot's narrow way before the English join at the hedges, the English vanguard fleeing at Fastolf's ride: Wavrin, Quicherat 4 pp. 422-423 (lines 16498-16533), who was there"
+    - "040.31 Talbot, Scales, Rempston and a Hungerford taken: Wavrin p. 423, the Journal p. 177, Monstrelet book 2 ch. 61, Ramsay ch. 27"
+  claims_checked: { patay-the-hedges: 4, patay-the-stag: 9, patay-the-rout: 7 }
+  notes:
+    - "git diff 2b3a2499 on the three texts shows each fix of 040-section-reviewer-15 to -24 as logged and no other change; git diff 8f950df0 shows 040-battle-auditor-6 as the marker's place alone, its note unchanged. 040-section-reviewer-25 is declined by ruling and changed no file."
+    - "The fix log's old for 040-section-reviewer-21 quoted 'Wavrin says nothing of stakes', which the text never read (it read 'Wavrin gives no stakes' at 2b3a2499 and 805bbd4c); put right in the log and the fault under 040-fact-checker-54. The text's new wording is true."
+    - "New wording read against Wavrin pp. 421-424 (lines 16455-16590): 'vers Pathay' for the stag's run towards the village, 'v cens archiers d'eslite' for the 500 archers, 'conducteurs messire Jehan Fastre, le seigneur de Thalbot, messire Thomas Rameston' for one of the commanders; Louis de Contes in Murray (line 13384-13386) for Joan kept out of the van; Ramsay line 25468 'the Burgundians Wavrin and Monstrelet'."
+    - "patay-the-rout now opens with Talbot already taken as Fastolf rides for the vanguard. Wavrin tells the capture after the vanguard's flight, in the pluperfect ('auchois qu'il se volsist partir, avoient les François rué jus le seigneur de Thalbot'), so he leaves the moment open; the plan puts the capture in the stag phase, which the stag page tells, and the opening follows that. No fault."
+    - "close-wording.mjs on the three pages: none. plan-check.mjs 040 and placeholders.mjs: ok. Bodies 299, 287 and 235 words."
+- step: facts
+  task: recheck
+  status: pass
+  changed_files:
+    - content/joan-of-arc/pages/040-the-loire-and-reims/050-reims/text/en.md
+    - content/joan-of-arc/pages/040-the-loire-and-reims/060-the-towns-come-over/text/en.md
+  faults: []
+  unresolved: []
+  stale: []
+  made_by: hooks/agent-end.mjs, from the log

@@ -53,7 +53,7 @@ writePlan(`${G}/020-pelekanon-hills`, {
   markers: {
     pelekanon: mark(-250, -350, 'Pelekanon', 'Placed between Darıca and Eskihisar', 'byzantium', 'map-pin'),
     philokrene: { lnglat: [29.355, 40.7685], icon: 'anchor', color: 'byzantium', label: 'Philokrene', note: 'Placed between Darıca and Tuzla' },
-    'pelekanon-hills-andronikos': mark(1500, -500, 'Andronikos III and Kantakouzenos', 'About 4,000 men', 'byzantium'),
+    'pelekanon-hills-andronikos': mark(1500, -500, 'Andronikos III, Kantakouzenos', 'About 4,000 men', 'byzantium'),
     'pelekanon-hills-orhan': mark(-500, 3100, 'Orhan', 'About 8,000 on the hills', 'ottomans'),
     'pelekanon-hills-archers': mark(2100, 1700, '300 mounted archers', 'Sent to draw them uphill', 'ottomans', 'swords'),
   },

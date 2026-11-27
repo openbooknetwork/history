@@ -10,4 +10,4 @@ In Asia Antigonus, sent against Eumenes, follows him east. Eumenes has the satra
 
 Antigonus is now master of Asia. At Persepolis the Persians treat him as their king, and he settles the eastern satrapies, though, Diodorus says, he must leave several satraps in place because they cannot easily be removed. Seleucus flees [Babylon](@babylon-315) to Ptolemy in Egypt.
 
-On the map the two marches into Iran are approximate. Antigonus's Asia runs from the Aegean to the Hindu Kush, Ptolemy holds Syria and Phoenicia, and Cassander holds Macedon.
+Antigonus's Asia runs from the Aegean to the Hindu Kush, Ptolemy holds Syria and Phoenicia, and Cassander holds Macedon.

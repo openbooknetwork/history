@@ -1,0 +1,61 @@
+- id: the-voices
+  title: "The Voices and Vaucouleurs"
+  date: "1424 or 1425 to July 1428"
+  when: 1424
+  tells: >-
+    At about thirteen Joan hears a voice in her father's garden at Domrémy, as she told her judges in 1431, and in time, she said, the voices bid her leave home and go into France to
+    the Dauphin. In May
+    1428, as Bertrand de Poulengy remembered it, she goes to Robert de Baudricourt, captain of Vaucouleurs, the king's last stronghold on the upper Meuse,
+    and he sends her home. That July a Burgundian force under Antoine de Vergy moves against Vaucouleurs, and, as Lang and Lowell date it, the
+    people of Domrémy flee with their cattle to Neufchâteau.
+  rests_on: ["020.1", "020.2", "020.3", "020.4", "020.5", "020.7", "020.8", "020.9", "020.10", "020.11", "020.61", "020.62"]
+  markers: [domremy-voices, vaucouleurs-1428, neufchateau, vergy-review-1428]
+  battles: []
+- id: salisbury-on-the-loire
+  title: "Salisbury on the Loire"
+  date: "July 1428 to February 1429"
+  when: 1428-07
+  tells: >-
+    The Earl of Salisbury lands with fresh troops, takes Janville, Meung, Beaugency and Jargeau, and lays siege to
+    Orléans on 12 October 1428. The English take the Tourelles at the bridge's southern end, and Salisbury, wounded
+    by a cannon shot, dies at Meung. Through the winter the English ring the city with bastilles. On 12 February
+    1429 at Rouvray, Fastolf's convoy of Lenten herrings beats off the French and Scots of Clermont from behind its
+    wagons.
+  rests_on: ["020.12", "020.13", "020.14", "020.15", "020.16", "020.17", "020.18", "020.19", "020.20", "020.21", "020.22", "020.23", "020.24", "020.25", "020.26", "020.27", "020.28", "020.29", "020.30"]
+  markers: [janville, meung-1428, beaugency-1428, jargeau-1428, sully-1428, orleans-besieged, tourelles-1428, rouvray]
+  battles:
+    - { id: herrings-1429, phases: false }
+- id: vaucouleurs-again
+  title: "Vaucouleurs Again"
+  date: "January and February 1429"
+  when: 1429-01
+  tells: >-
+    Joan comes back to Vaucouleurs and lodges with Henri and Catherine Le Royer. The Duke of Lorraine sends for
+    her at Nancy. Baudricourt at first holds back, then gives way: the townsfolk dress her in men's clothes,
+    Jean de Metz and Bertrand de Poulengy take up her cause, and Baudricourt sends her to Charles VII.
+  rests_on: ["020.6", "020.31", "020.32", "020.33", "020.34", "020.35", "020.36", "020.37", "020.38", "020.39", "020.40"]
+  markers: [vaucouleurs-1429, burey-1429, nancy-1429, saint-nicolas-de-port]
+  battles: []
+- id: eleven-days
+  title: "Eleven Days to Chinon"
+  date: "February or March 1429"
+  when: 1429-02
+  tells: >-
+    With six men Joan rides from Vaucouleurs to Chinon, mostly by night, across lands held by Burgundy and
+    England. She stops at Saint-Urbain, hears mass at Auxerre, reaches Gien on the Loire, held for the king, goes on
+    south of the river and writes to the king from Sainte-Catherine-de-Fierbois. Her two escorts later said the journey took eleven days. The day she left
+    and the day she reached Chinon differ between authors.
+  rests_on: ["020.41", "020.42", "020.43", "020.44", "020.45", "020.46", "020.47", "020.48", "020.63"]
+  markers: [vaucouleurs-departure, saint-urbain, auxerre-1429, gien-1429, fierbois-letter, chinon-arrival]
+  battles: []
+- id: chinon-and-poitiers
+  title: "Chinon and Poitiers"
+  date: "Late February or March to April 1429"
+  when: 1429-03
+  tells: >-
+    Charles VII receives her at Chinon, in late February as Lowell dates her coming or in March as others do.
+    Churchmen examine her at Poitiers and find nothing against her, and her letter to the English is dated at Poitiers on 22 March. At Tours she is given armour, a household
+    and a banner, and a sword is found, as she asked, behind the altar at Fierbois. In late April she joins the convoy for Orléans gathering at Blois.
+  rests_on: ["020.43", "020.49", "020.50", "020.51", "020.52", "020.53", "020.54", "020.55", "020.56", "020.57", "020.58", "020.59", "020.60"]
+  markers: [chinon-audience, poitiers-examination, tours-armour, fierbois-sword, blois-gathering]
+  battles: []

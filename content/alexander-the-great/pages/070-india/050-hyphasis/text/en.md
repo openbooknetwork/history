@@ -8,4 +8,4 @@ Alexander calls his officers together and urges them on. After a long silence Co
 
 Before leaving he has twelve altars built, as high as great towers, to thank the gods for his victories; where they stood is not known. He gives Porus all the land up to the Hyphasis. Then he marches back by the way he came, over the Hydraotes and the Acesines, to the Hydaspes, where the fleet is being built.
 
-On the map the march reaches its furthest point east and turns back, and Porus's kingdom grows to the Hyphasis.
+The march reaches its furthest point east and turns back, and Porus's kingdom grows to the Hyphasis.

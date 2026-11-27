@@ -10,7 +10,7 @@ In late March the army reaches the Kabul valley. There, with the passes of the H
 
 Two Sogdian nobles, Spitamenes and Dataphernes, offer to hand Bessus over. Bosworth judges that they chose to buy Alexander's favour with his capture. Alexander sends Ptolemy, one of his officers, ahead, and Bessus is brought in naked and bound.\*
 
-On the map Arachosia and Bactria up to the Oxus join the empire, and Bessus's kingdom shrinks to Sogdiana.
+Arachosia and Bactria up to the Oxus join the empire, and Bessus's kingdom shrinks to Sogdiana.
 
 ### Notes
 

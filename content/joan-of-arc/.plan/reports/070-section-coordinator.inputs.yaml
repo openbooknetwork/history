@@ -1,0 +1,42 @@
+- task: pre-plan
+  step: pre-plans
+  at: '2026-11-26T09:23:00.874Z'
+  before: null
+  inputs:
+    rules.md: 34016c37f051ce5e
+    brief.md#070: 3697c4d04dcd2665
+  ended: '2026-11-26T09:24:39.551Z'
+  status: pass
+  outputs: &ref_0
+    - content/joan-of-arc/.plan/070-after-her/pages.yaml
+- task: plan
+  step: plans
+  at: '2026-11-26T11:16:49.774Z'
+  before: null
+  inputs:
+    rules.md: 68d19bd3019bf769
+    brief.md#070: c46469bf5f81b9be
+    research.md#070: b52526619aceea7a
+    names.md#070: 5fb76cd94fa91ce7
+- task: agreed
+  step: pre-plans
+  at: '2026-11-26T11:33:17.199Z'
+  ended: '2026-11-26T11:33:17.199Z'
+  status: pass
+  by: fact-checker plan-check
+  inputs:
+    rules.md: 34016c37f051ce5e
+    brief.md#070: 3697c4d04dcd2665
+    names.md#070: c77dde1612556cf6
+  outputs: *ref_0
+- task: agreed
+  step: pre-plans
+  at: '2026-11-27T01:39:20.699Z'
+  ended: '2026-11-27T01:39:20.699Z'
+  status: pass
+  by: fact-checker recheck
+  inputs:
+    rules.md: 34016c37f051ce5e
+    brief.md#070: 3697c4d04dcd2665
+    names.md#070: f0fdc8ea0387d942
+  outputs: *ref_0

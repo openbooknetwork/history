@@ -1,0 +1,34 @@
+- step: maps
+  task: audit
+  status: faults
+  changed_files:
+    - content/joan-of-arc/.plans/pages070.mjs
+    - content/joan-of-arc/pages/070-after-her/020-paris-opens/markers.yaml
+    - content/joan-of-arc/pages/070-after-her/030-normandy-won-back/markers.yaml
+    - content/joan-of-arc/pages/070-after-her/040-castillon/page.yaml
+    - content/joan-of-arc/pages/070-after-her/050-the-retrial/page.yaml
+    - content/joan-of-arc/pages/070-after-her/050-the-retrial/markers.yaml
+    - content/joan-of-arc/.plan/070-after-her/map.yaml
+    - content/joan-of-arc/.plan/070-after-her/pages.yaml
+    - content/joan-of-arc/.plan/070-after-her/text.yaml
+    - content/joan-of-arc/.plan/brief.md
+    - content/joan-of-arc/.plan/faults/070.yaml
+    - content/joan-of-arc/.plan/fixes/070.yaml
+    - content/joan-of-arc/.plan/handoff/map-auditor.md
+  faults: [070-map-auditor-1, 070-map-auditor-2, 070-map-auditor-3, 070-map-auditor-4, 070-map-auditor-5, 070-map-auditor-6, 070-map-auditor-7, 070-map-auditor-8]
+  unresolved:
+    - "Étampes: english-1436 shows it French though no source read has the English lose it after 1430 (the brief's choice, 'left out'). The careful side would keep it English as a circle like Beaumont and Crépy. Proposed: a 5 km circle in english-1436, or a clause in paris-opens' text that no source says who held it."
+    - "Maine: English on paris-opens (english-1436, from Lowell's provinces of 1428) and French but for Fresnay on normandy-won-back (english-1449, 070.16). No source read tells how it was lost (the surrender of Le Mans in 1448 is unread). Proposed: normandy-won-back's text says in a clause that Ramsay's list of the close of 1449 leaves Maine French but for Fresnay."
+    - "Burgundy on the-retrial (1455-1456) is drawn without Hainaut, Brabant and Luxembourg, which no source read names; the brief's burgundy row gives Flanders, Artois, the two Burgundies, Picardy and the Auxerrois only. Left as the brief has it."
+    - "Edges that are the cartographer's own (estimates in ground.yaml, no source gives a line): english-1436's cut through the Caux (line 73) and its six 5 km circles; english-1449 round the Cotentin and the Bessin-Pays d'Auge (lines 81, 84: Pont-l'Évêque, Dives and the coast to Honfleur English, Lisieux French), the Valognes hole (83, sourced to Ramsay as French by October 1449) and Fresnay (86); english-1452's north, east and south edges of the Bordelais (53-55); the march of Calais (51); burgundy-1430's Picardy edge (30); Bar and Lorraine of 1429 kept for 1456."
+  stale:
+    - content/joan-of-arc/pages/070-after-her/020-paris-opens/text/en.md
+    - content/joan-of-arc/.plan/passages-070.md
+- step: maps
+  task: recheck
+  status: pass
+  changed_files: []
+  faults: []
+  unresolved: []
+  stale: []
+  made_by: hooks/agent-end.mjs, from the log

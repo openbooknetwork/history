@@ -1,0 +1,34 @@
+- step: pre-plans
+  task: pre-plan
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/010-france-divided/pages.yaml
+  faults: []
+  unresolved:
+    - "The brief has seven Tells lines for six pages. The plan joins the conquest of Normandy (1417-1419) with Montereau and Troyes (1419-1420) on one page, normandy-and-troyes, as one change of the map: the English and Burgundian north. Proposed answer: keep it, since the brief's count is fixed."
+    - "Baugé (1421) comes before the two kings (1422) and Cravant and Verneuil after, so Baugé shares the page two-kings with Henry V's death and the two proclamations, and Cravant shares the page of Verneuil. This rests on the order rule, not on a source."
+  stale: []
+  pages: 6
+  pages_expected: 6
+  phase_battles: []
+- step: plans
+  task: plan
+  status: pass
+  changed_files:
+    - content/joan-of-arc/.plan/010-france-divided/pages.yaml
+    - content/joan-of-arc/.plan/010-france-divided/map.yaml
+    - content/joan-of-arc/.plan/010-france-divided/text.yaml
+    - content/joan-of-arc/.plan/010-france-divided/battles.yaml
+    - content/joan-of-arc/shared/battles/agincourt-1415/battle.yaml
+    - content/joan-of-arc/shared/battles/bauge-1421/battle.yaml
+    - content/joan-of-arc/shared/battles/verneuil-1424/battle.yaml
+    - content/joan-of-arc/.plan/faults/010.yaml
+    - content/joan-of-arc/.plan/fixes/010.yaml
+  faults: [010-section-coordinator-1, 010-section-coordinator-2]
+  unresolved:
+    - "lorraine-1412 and bar-1412 stand on normandy-and-troyes as well as domremy, since its whole-kingdom frame shows their land and the page tells the Duke of Lorraine's oath to Henry V (010.17); murder-in-paris leaves them bare with a reason. The brief's Map part lists them in 010 on domremy alone. Proposed: add normandy-and-troyes to the two rows' Sections column."
+    - "Baugé's victors take the scots family in one column, since no source splits the Scots' and the French figures; Verneuil keeps the Scots in the france column for the same reason."
+  stale: []
+  pages: 6
+  pages_expected: 6
+  phase_battles: []

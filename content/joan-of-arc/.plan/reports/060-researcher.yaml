@@ -1,0 +1,19 @@
+- step: research
+  task: claims
+  status: pass
+  changed_files: [content/joan-of-arc/.plan/research/060.md]
+  faults: []
+  unresolved:
+    - "060.14 who sold her: John of Luxembourg (Lowell, Lang, Champion, Thurston) or the Duke of Burgundy (Ramsay); the record has both surrender her. Proposed: John of Luxembourg, with Ramsay's account named, as the brief already does."
+    - "060.13 the unit of the price: livres tournois in the two Quicherat 5 documents (the levy, the receipt of 6 December 1430), francs in Ramsay, Lang, France and the summons of 14 July. Proposed: ten thousand livres, francs named as Ramsay's."
+    - "060.24 the coast road from Le Crotoy by Saint-Valery and Dieppe rests on France alone, which rules.md does not let a text tell: sold-to-the-english.tells says 'round the coast to Rouen'. Proposed: Le Crotoy to Rouen, with no road."
+  stale: []
+  counts: {agreed: 44, single: 11, disputed: 11, open: 0}
+- step: maps
+  task: add
+  status: pass
+  changed_files: [content/joan-of-arc/.plan/research.md, content/joan-of-arc/.plan/research/060.md, content/joan-of-arc/.plan/060-rouen/text.yaml, content/joan-of-arc/.plan/060-rouen/pages.yaml, content/joan-of-arc/.plan/names.md, content/joan-of-arc/.plan/faults/060.yaml, content/joan-of-arc/.plan/fixes/060.yaml]
+  faults: [060-researcher-1]
+  unresolved: []
+  stale: []
+  counts: {agreed: 0, single: 2, disputed: 0, open: 0}

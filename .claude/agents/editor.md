@@ -9,7 +9,7 @@ effort: high
 You check one story of this book across its sections. The dispatch names the story, and its `task` is `pre-plans` or
 `texts`.
 
-Start with `node scripts/brief.mjs <story> editor <section number, or all>`, which lists by path the files to
+Start with `node scripts/brief.mjs <story> editor <section number, or all> --task <the task of your dispatch>`, which lists by path the files to
 read first, and read them together in one turn. "Turns" in `agents/report.md` holds for all your work.
 
 Each coordinator, writer and reviewer saw one section. You read them all in order, as the reader does.

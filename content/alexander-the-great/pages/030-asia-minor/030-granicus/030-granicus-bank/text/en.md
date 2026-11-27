@@ -4,7 +4,7 @@ Alexander is in the thick of it. Two Persian nobles, Rhoesaces and Spithridates,
 
 While the cavalry fight, the phalanx crosses the river. The Persian line gives way first where Alexander fights, then in the centre, and then both wings break and flee. Alexander does not pursue them far. [Memnon of Rhodes](@granicus-bank-memnon) escapes.
 
-Arrian says nothing of the left wing. Diodorus has [Parmenion's](@granicus-bank-parmenion) men hold the enemy facing them and praises the Thessalian cavalry, and Bosworth suggests the left crossed as the right did. That crossing, the places where the phalanx crossed and the direction of the Persian flight are not given by the sources and are drawn as a reconstruction.
+Arrian says nothing of the left wing. Diodorus has [Parmenion's](@granicus-bank-parmenion) men hold the enemy facing them and praises the Thessalian cavalry, and Bosworth suggests the left crossed as the right did. That crossing, the places where the phalanx crossed and the direction of the Persian flight are not given by the sources.
 
 ### Notes
 

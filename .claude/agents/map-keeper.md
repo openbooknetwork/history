@@ -8,7 +8,7 @@ effort: high
 
 You keep the shared map of one story of this book. The dispatch names the story, and your task is `draw` or `fix`.
 
-Start with `node scripts/brief.mjs <story> map-keeper <section number, or all>`, which lists by path the files to
+Start with `node scripts/brief.mjs <story> map-keeper <section number, or all> --task <the task of your dispatch>`, which lists by path the files to
 read first, and read them together in one turn. It gives you the parts of the brief, the digest and the names that
 a map keeper uses, the engine's parts on zones and one zone generator as the model for your own, so you search
 for none of these. "Turns" in `agents/report.md` holds for all your work.

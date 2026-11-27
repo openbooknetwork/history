@@ -29,7 +29,11 @@ The store holds no upload of a new story before the maintainer's, and the strict
 
 ## Commits
 
-You make the commits, on the session's branch, never on `main`. Commit at the end of each step with the step's
+You make the commits, on the session's branch, never on `main`, and you make them with
+`node scripts/save.mjs <story> --message "<text>" --push [--also <path> ...]`, the one program that runs `git add`,
+`commit` and `push`. No agent runs a `git` command that writes: a hook refuses it. On a story that is on the log
+(`agents/log.md`) the hook that ends each agent's run saves and pushes the story's folder too, so a container
+that is taken away loses only work that had not ended. Commit at the end of each step with the step's
 name in the message, so the branch reads as the plan unfolded, and push the branch each time: a container that is
 taken away keeps nothing that was not pushed. Save the run's ledger with each of those commits too, to
 `content/<story>/.plan/run/<session id>.json`, and run `node scripts/transcripts-pack.mjs pack`, which adds what is
